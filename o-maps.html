@@ -4,17 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orienteering Map</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
         #map { height: 800px; }
-        .olclass { transform-origin: center center !important; }
+        body { background-color: olive; font-family: Roboto; }
+        #opacityControls { text-align: center; }
     </style>
 </head>
 <body>
     <div id="map"></div>
+    <div id="opacityControls">
+        Непрозрачность карт:
+        <button onclick='setOverlayOpacity(0)'>0%</button>
+        <button onclick='setOverlayOpacity(0.1)'>10%</button>
+        <button onclick='setOverlayOpacity(0.2)'>20%</button>
+        <button onclick='setOverlayOpacity(0.3)'>30%</button>
+        <button onclick='setOverlayOpacity(0.4)'>40%</button>
+        <button onclick='setOverlayOpacity(0.5)'>50%</button>
+        <button onclick='setOverlayOpacity(0.6)'>60%</button>
+        <button onclick='setOverlayOpacity(0.7)'>70%</button>
+        <button onclick='setOverlayOpacity(0.8)'>80%</button>
+        <button onclick='setOverlayOpacity(0.9)'>90%</button>
+        <button onclick='setOverlayOpacity(1)'>100%</button>
+    </div>
+
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="./Leaflet.ImageOverlay.Rotated.js"></script>
+
     <script src="maps.js"></script>
     <script src="o-maps.js"></script>
-    <script src="o-rotate.js"></script>
 </body>
 </html>

@@ -3,31 +3,30 @@ var oMaps = [
         'name': 'Парк Победы',
         'year': 2020,
         'url': 'http://www.northernwind.spb.ru/mapbase/online/loadjpg/o-maps/pobedy_2020.jpg',
-        'bounds': [[59.871557, 30.320770], [59.864522, 30.336722]]
+        'bounds': [[59.873216517019806, 30.318918228149418], [59.87246261338842, 30.34007549285889], [59.86449172940988, 30.31690120697022]]
     },
     {
         'name': 'Полежаевский парк',
         'year': 2015,
         'url': 'http://www.northernwind.spb.ru/mapbase/online/loadjpg/o-maps/polezhaevsky_2015.jpg',
-        'bounds': [[59.846905, 30.179031], [59.831657, 30.211303]]
+        'bounds': [[59.84651791838533, 30.179958343505863], [59.84528913795502, 30.21223068237305], [59.83302040442371, 30.177898406982425]]
     },
     {
         'name': 'Полюстровский парк',
         'year': 2014,
         'url': 'http://www.northernwind.spb.ru/mapbase/online/loadjpg/o-maps/polyustrovsky_2014.jpg',
-        'bounds': [[59.969070, 30.418424], [59.959193, 30.432944]]
+        'bounds': [[59.96850125617298, 30.418868064880375], [59.968458299943094, 30.431871414184574], [59.95922141683493, 30.419168472290043]]
     },
     {
         'name': 'Пулковский парк',
         'year': 2024,
-        'url': 'http://www.northernwind.spb.ru/mapbase/online/loadjpg/o-maps/pulkovsky_2024.jpg',
-        'bounds': [[59.844727, 30.321740], [59.831383, 30.335102]]
+        'url': './loadjpg/o-maps/pulkovsky_2024.jpg',
+        'bounds': [[59.844728626553405, 30.322437286376957], [59.84397407706965, 30.337285995483402], [59.83140292304337, 30.31904697418213]]
     },
     {
         'name': 'Сосновка',
         'year': 2019,
-        'url': 'http://www.northernwind.spb.ru/mapbase/online/loadjpg/o-maps/sosnovka_2019.jpg',
-        'bounds': [[60.032015, 30.369816], [60.011902, 30.321836]],
-        'transform': 'translate3d(424px, -198px, 0px) rotate(5.16335deg) scale(0.928243)'
+        'url': './loadjpg/o-maps/sosnovka_2019.jpg',
+        'bounds': [[60.03450203381863, 30.327758789062504], [60.03205832060785, 30.371103286743168], [60.01190151317921, 30.32200813293457]],
     },
 ];
