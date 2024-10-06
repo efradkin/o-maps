@@ -16,7 +16,7 @@ let mapOverlays = [];
 
 // Add OpenStreetMap tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 15,
+    maxZoom: 17,
 }).addTo(map);
 
 // Overlay the orienteering maps
@@ -38,12 +38,14 @@ for (const m of oMaps) {
         let imgLayer = L.imageOverlay.rotated(
             m.url, L.latLng(bounds[0]), L.latLng(bounds[1]), L.latLng(bounds[2]),
             { opacity: 1, interactive: true});
-        imgLayer.bindPopup(m.name + ' (' + m.year + ')');
+        let popup = '<b>' + m.name + ' (' + m.year + ')</b>';
+        let author = authors[m.author];
+        if (author) {
+            popup += '<hr />' + author;
+        }
+        imgLayer.bindPopup(popup);
         imgLayer.on('mouseover', function (e) {
             this.openPopup();
-        });
-        imgLayer.on('mouseout', function (e) {
-            this.closePopup();
         });
         imgLayer.on('click', function (e) {
             onMapSelect(imgLayer, m);
@@ -51,7 +53,8 @@ for (const m of oMaps) {
         imgLayer.addTo(map);
 
         mapOverlays.push(imgLayer);
-    }}
+    }
+}
 
 function onMapSelect(ovrl, map) {
     selectedOverlay = ovrl;
