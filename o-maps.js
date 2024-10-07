@@ -48,7 +48,9 @@ for (const m of oMaps) {
         }
         imgLayer.bindPopup(popup);
         imgLayer.on('mouseover', function (e) {
-            this.openPopup();
+            if (!EDIT_MODE) {
+                this.openPopup();
+            }
         });
         imgLayer.on('click', function (e) {
             onMapSelect(imgLayer, m);
