@@ -19,6 +19,7 @@ let mapOverlays = [];
 // Add OpenStreetMap tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 17,
+    attribution: '© Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> hosted by <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
 }).addTo(map);
 
 // Overlay the orienteering maps
