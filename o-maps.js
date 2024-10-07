@@ -4,8 +4,8 @@ const EDIT_MODE = true;
 const centerX = 59.944179;
 const centerY = 30.320337;
 
-const multiX = 2e-6;
-const multiY = 3e-6;
+const multiX = 2e-5;
+const multiY = 4e-5;
 
 let map = L.map('map').setView([centerX, centerY], 11);
 
