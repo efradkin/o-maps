@@ -1,3 +1,5 @@
+const EDIT_MODE = true;
+
 // Initialize the map
 const centerX = 59.944179;
 const centerY = 30.320337;
@@ -60,9 +62,11 @@ function onMapSelect(ovrl, map) {
     selectedOverlay = ovrl;
     selectedMap = map;
 
-    marker1.setLatLng(ovrl.getTopLeft());
-    marker2.setLatLng(ovrl.getTopRight());
-    marker3.setLatLng(ovrl.getBottomLeft());
+    if (EDIT_MODE) {
+        marker1.setLatLng(ovrl.getTopLeft());
+        marker2.setLatLng(ovrl.getTopRight());
+        marker3.setLatLng(ovrl.getBottomLeft());
+    }
 }
 
 // Set bounds for the overlay
