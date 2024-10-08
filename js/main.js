@@ -1,5 +1,7 @@
 const EDIT_MODE = false;
 
+const ATTRIBUTION = '© Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> hosted by <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>';
+
 // Initialize the map
 const centerX = 59.944179;
 const centerY = 30.320337;
@@ -7,20 +9,23 @@ const centerY = 30.320337;
 const multiX = 1e-5;
 const multiY = 2e-5;
 
-let map = L.map('map', { attributionControl:false }).setView([centerX, centerY], 11);
-
 let selectedOverlay, selectedMap;
-let marker1 = L.marker(new L.LatLng(0, 0), {draggable: true}).addTo(map);
-let marker2 = L.marker(new L.LatLng(0, 0), {draggable: true}).addTo(map);
-let marker3 = L.marker(new L.LatLng(0, 0), {draggable: true}).addTo(map);
 
 let mapOverlays = [];
 
-// Add OpenStreetMap tile layer
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+var osmMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 17,
-    attribution: '© Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> hosted by <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
-}).addTo(map);
+    attribution: ATTRIBUTION
+});
+var openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    maxZoom: 17,
+    attribution: ATTRIBUTION
+});
+
+var rogaineGroup = L.layerGroup([]);
+var forestGroup = L.layerGroup([]);
+var parkGroup = L.layerGroup([]);
+var cityGroup = L.layerGroup([]);
 
 let oMaps = [
     ...rogaineMaps,
@@ -62,11 +67,60 @@ for (const m of oMaps) {
         imgLayer.on('click', function (e) {
             onMapSelect(imgLayer, m);
         });
-        imgLayer.addTo(map);
+
+        if (m.types.includes('ROGAINE')) {
+            imgLayer.addTo(rogaineGroup);
+        } else
+        if (m.types.includes('CITY')) {
+            imgLayer.addTo(cityGroup);
+        } else
+        if (m.types.includes('PARK')) {
+            imgLayer.addTo(parkGroup);
+        } else {
+            imgLayer.addTo(forestGroup);
+        }
 
         mapOverlays.push(imgLayer);
     }
 }
+
+var map = L.map('map', {
+    attributionControl: false,
+    center: [centerX, centerY],
+    zoom: 11,
+    layers: [osmMap, parkGroup]
+});
+
+var baseMaps = {
+    "Open Street Map": osmMap,
+    "Open Topo Map": openTopoMap
+};
+
+var overlayMaps = {
+    "Город": cityGroup,
+    "Парки": parkGroup,
+    "Лес": forestGroup,
+    "Рогейн": rogaineGroup,
+};
+
+var layerControl = L.control.layers(baseMaps, overlayMaps, {collapsed: false}).addTo(map);
+
+map.on('click', onMapClick);
+
+// Set bounds for the overlay
+//map.fitBounds(oMap.getBounds());
+
+let marker1 = L.marker(new L.LatLng(0, 0), {draggable: true}).addTo(map);
+let marker2 = L.marker(new L.LatLng(0, 0), {draggable: true}).addTo(map);
+let marker3 = L.marker(new L.LatLng(0, 0), {draggable: true}).addTo(map);
+marker1.on('drag', onDrag);
+marker2.on('drag', onDrag);
+marker3.on('drag', onDrag);
+marker1.on('dragend', onDragEnd);
+marker2.on('dragend', onDragEnd);
+marker3.on('dragend', onDragEnd);
+
+ // --- functions ---
 
 function onMapSelect(ovrl, map) {
     selectedOverlay = ovrl;
@@ -79,14 +133,9 @@ function onMapSelect(ovrl, map) {
     }
 }
 
-// Set bounds for the overlay
-//map.fitBounds(oMap.getBounds());
-
 function onMapClick(e) {
     console.log(e.latlng.lat + ", " + e.latlng.lng);
 }
-
-map.on('click', onMapClick);
 
 function setOverlayOpacity(opacity) {
     for (const map of mapOverlays) {
@@ -113,10 +162,3 @@ function onDrag() {
 function onDragEnd() {
     repositionImage(true);
 }
-
-marker1.on('drag', onDrag);
-marker2.on('drag', onDrag);
-marker3.on('drag', onDrag);
-marker1.on('dragend', onDragEnd);
-marker2.on('dragend', onDragEnd);
-marker3.on('dragend', onDragEnd);

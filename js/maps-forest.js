@@ -1,4 +1,4 @@
-// types can be ORIENT, ROGAINE, SPRINT, QUARTERS, RELIEF
+// types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF
 var forestMaps = [
     // --- лесные карты ---
     {
