@@ -1,4 +1,4 @@
-const EDIT_MODE = true;
+const EDIT_MODE = false;
 
 // Initialize the map
 const centerX = 59.944179;
@@ -7,7 +7,7 @@ const centerY = 30.320337;
 const multiX = 2e-5;
 const multiY = 4e-5;
 
-let map = L.map('map').setView([centerX, centerY], 11);
+let map = L.map('map', { attributionControl:false }).setView([centerX, centerY], 11);
 
 let selectedOverlay, selectedMap;
 let marker1 = L.marker(new L.LatLng(0, 0), {draggable: true}).addTo(map);

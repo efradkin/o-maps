@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orienteering Map</title>
+    <title>Спортивные карты: ориентирование и рогейн</title>
+    <link rel="icon" type="image/png" href="./favicon.png"/>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
@@ -28,6 +29,7 @@
             margin-left:-400px;
             z-index: 777;
         }
+        /*.leaflet-control-attribution.leaflet-control a:first-child { display: none; }*/
     </style>
 </head>
 <body>
@@ -48,10 +50,10 @@
     </div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="./Leaflet.ImageOverlay.Rotated.js"></script>
+    <script src="./js/Leaflet.ImageOverlay.Rotated.js"></script>
 
-    <script src="maps.js"></script>
-    <script src="authors.js"></script>
-    <script src="o-maps.js"></script>
+    <script src="./js/maps.js"></script>
+    <script src="./js/authors.js"></script>
+    <script src="./js/o-maps.js"></script>
 </body>
 </html>
