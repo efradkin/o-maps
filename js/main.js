@@ -1,4 +1,4 @@
-const EDIT_MODE = false;
+const EDIT_MODE = true;
 
 const ATTRIBUTION = '© Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> hosted by <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>';
 
@@ -53,7 +53,11 @@ for (const m of oMaps) {
         let imgLayer = L.imageOverlay.rotated(
             m.url, L.latLng(bounds[0]), L.latLng(bounds[1]), L.latLng(bounds[2]),
             { opacity: 1, interactive: true});
-        let popup = '<b>' + m.name + ' (' + m.year + ')</b>';
+        let popup = '<b>' + m.name;
+        if (m.year) {
+            popup += ' (' + m.year + ')';
+        }
+        popup += '</b>';
         let author = authors[m.author];
         if (author) {
             popup += '<hr />' + author;

@@ -107,6 +107,12 @@ var parkMaps = [
         types: ['ORIENT', 'PARK'],
     },
     {
+        name: 'Александрино север',
+        url: './maps/parks/aleksandrino_north.jpg',
+        bounds: [[59.84785443506803, 30.217809677124027], [59.84677660322206, 30.238409042358402], [59.83603949282227, 30.214891433715824]],
+        types: ['ORIENT', 'PARK'],
+    },
+    {
         name: 'Александровский сад',
         year: 2020,
         url: './maps/parks/aleksandrovsky_sad_2020.jpg',
