@@ -103,7 +103,9 @@ var overlayMaps = {
     "Рогейн": rogaineGroup,
 };
 
-var layerControl = L.control.layers(baseMaps, overlayMaps, {collapsed: false}).addTo(map);
+var layerControl = L.control.layers(
+    baseMaps, overlayMaps,
+    {collapsed: false, autoZIndex: false}).addTo(map);
 
 map.on('click', onMapClick);
 
