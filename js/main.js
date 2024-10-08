@@ -22,7 +22,14 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> hosted by <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
 }).addTo(map);
 
-// Overlay the orienteering maps
+let oMaps = [
+    ...rogaineMaps,
+    ...forestMaps,
+    ...parkMaps,
+    ...cityMaps,
+];
+
+// Overlay the maps
 for (const m of oMaps) {
     m.img = new Image();
     m.img.src = m.url;
