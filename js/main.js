@@ -136,7 +136,9 @@ function onMapSelect(ovrl, map) {
 }
 
 function onMapClick(e) {
-    console.log(e.latlng.lat + ", " + e.latlng.lng);
+    let coordinate = e.latlng.lat + ", " + e.latlng.lng;
+    navigator.clipboard.writeText(coordinate);
+    console.log(coordinate);
 }
 
 function setOverlayOpacity(opacity) {
@@ -150,7 +152,9 @@ function repositionImage(doLog) {
     let point2 = marker2.getLatLng();
     let point3 = marker3.getLatLng();
     if (doLog) {
-        console.log("[[" + point1.lat + ", " + point1.lng + "], [" + point2.lat + ", " + point2.lng + "], [" + point3.lat + ", " + point3.lng + "]]");
+        let coordinates = "[[" + point1.lat + ", " + point1.lng + "], [" + point2.lat + ", " + point2.lng + "], [" + point3.lat + ", " + point3.lng + "]]";
+        navigator.clipboard.writeText(coordinates);
+        console.log(coordinates);
     }
     if (selectedOverlay) {
         selectedOverlay.reposition(point1, point2, point3);
