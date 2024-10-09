@@ -83,7 +83,7 @@ var parkMaps = [
         year: 2021,
         url: './maps/parks/sakharova_2021.jpg',
         bounds: [[59.984842058582934, 30.40127277374268], [59.98259862841313, 30.427043437957767], [59.97577079547324, 30.39801120758057]],
-        author: 'KUZ',
+        owner: 'KUZ',
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -126,7 +126,7 @@ var parkMaps = [
         url: './maps/parks/sad_9_janvarya_2018.jpg',
         link: './maps/parks/sad_9_janvarya_2018_full.jpg',
         bounds: [[59.89634227945784, 30.274221897125248], [59.89559966293086, 30.282289981842045], [59.88932442864754, 30.27171134948731]],
-        author: 'BVZ',
+        owner: 'BVZ',
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -134,7 +134,7 @@ var parkMaps = [
         year: 2019,
         url: './maps/parks/luga_zeleny_bor_park_2019.jpg',
         bounds: [[58.70221700150992, 29.821164608001713], [58.700723276668256, 29.83423233032227], [58.69201603857651, 29.817559719085697]],
-        author: 'SHEIN',
+        owner: 'SHEIN',
         types: ['ORIENT', 'PARK'],
         info: 'Авторы: А.Ковязин, К.Токмаков',
     },

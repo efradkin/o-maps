@@ -6,7 +6,7 @@ var rogaineMaps = [
         year: 2024,
         url: './maps/rogaine/krestovsky_KKM_2024.jpg',
         bounds: [[59.98645208220945, 30.187597274780277], [59.98585101588345, 30.273513793945316], [59.964592011112174, 30.188112258911136]],
-        author: 'KKM',
+        owner: 'KKM',
         types: ['ROGAINE'],
     },
     {

@@ -60,20 +60,20 @@ for (const m of oMaps) {
             popup += ' (' + m.year + ')';
         }
         popup += '</b>';
-        let author = authors[m.author];
+        let owner = owners[m.owner];
         let info = m.info;
         let link = m.link;
-        if (author || info || link) {
+        if (owner || info || link) {
             popup += '<hr />';
         }
         if (info) {
             popup += info;
-            if (author || link) {
+            if (owner || link) {
                 popup += '<br />';
             }
         }
-        if (author) {
-            popup += author;
+        if (owner) {
+            popup += owner;
             if (link) {
                 popup += '<br />';
             }
