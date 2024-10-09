@@ -1,4 +1,4 @@
-const EDIT_MODE = true;
+const EDIT_MODE = false;
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> based on <a href="https://www.openstreetmap.org/copyright" target="_blank">Open Street Map</a>';
 
