@@ -1,6 +1,6 @@
-const EDIT_MODE = false;
+const EDIT_MODE = true;
 
-const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> hosted by <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>';
+const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> based on <a href="https://www.openstreetmap.org/copyright" target="_blank">Open Street Map</a>';
 
 // Initialize the map
 const centerX = 59.944179;
@@ -62,17 +62,24 @@ for (const m of oMaps) {
         popup += '</b>';
         let author = authors[m.author];
         let info = m.info;
-        if (author || info) {
+        let link = m.link;
+        if (author || info || link) {
             popup += '<hr />';
         }
         if (info) {
             popup += info;
-            if (author) {
+            if (author || link) {
                 popup += '<br />';
             }
         }
         if (author) {
             popup += author;
+            if (link) {
+                popup += '<br />';
+            }
+        }
+        if (link) {
+            popup += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
         }
         imgLayer.bindPopup(popup);
         imgLayer.on('mouseover', function (e) {
