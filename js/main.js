@@ -1,6 +1,6 @@
 const EDIT_MODE = false;
 
-const ATTRIBUTION = '© Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> hosted by <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>';
+const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> hosted by <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>';
 
 // Initialize the map
 const centerX = 59.944179;
@@ -109,6 +109,9 @@ var map = L.map('map', {
 });
 
 L.control.scale().addTo(map);
+
+var attributionControl = L.control.attribution().addTo(map);
+attributionControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a>');
 
 var baseMaps = {
     "Open Street Map": osmMap,
