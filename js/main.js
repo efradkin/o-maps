@@ -108,6 +108,8 @@ var map = L.map('map', {
     layers: [osmMap, parkGroup]
 });
 
+L.control.scale().addTo(map);
+
 var baseMaps = {
     "Open Street Map": osmMap,
     "Open Topo Map": openTopoMap
