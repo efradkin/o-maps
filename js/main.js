@@ -53,14 +53,26 @@ for (const m of oMaps) {
         let imgLayer = L.imageOverlay.rotated(
             m.url, L.latLng(bounds[0]), L.latLng(bounds[1]), L.latLng(bounds[2]),
             { opacity: 1, interactive: true});
+
+        // map popup
         let popup = '<b>' + m.name;
         if (m.year) {
             popup += ' (' + m.year + ')';
         }
         popup += '</b>';
         let author = authors[m.author];
+        let info = m.info;
+        if (author || info) {
+            popup += '<hr />';
+        }
+        if (info) {
+            popup += info;
+            if (author) {
+                popup += '<br />';
+            }
+        }
         if (author) {
-            popup += '<hr />' + author;
+            popup += author;
         }
         imgLayer.bindPopup(popup);
         imgLayer.on('mouseover', function (e) {
@@ -68,6 +80,7 @@ for (const m of oMaps) {
                 this.openPopup();
             }
         });
+
         imgLayer.on('click', function (e) {
             onMapSelect(imgLayer, m);
         });
