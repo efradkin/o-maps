@@ -199,7 +199,7 @@ function repositionImage(doLog) {
     let point2 = marker2.getLatLng();
     let point3 = marker3.getLatLng();
     if (doLog) {
-        let coordinates = "[[" + point1.lat + ", " + point1.lng + "], [" + point2.lat + ", " + point2.lng + "], [" + point3.lat + ", " + point3.lng + "]]";
+        let coordinates = "[[" + point1.lat + ", " + point1.lng + "], [" + point2.lat + ", " + point2.lng + "], [" + point3.lat + ", " + point3.lng + "]],";
         navigator.clipboard.writeText(coordinates);
         console.log(coordinates);
     }
