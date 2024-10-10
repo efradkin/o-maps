@@ -112,7 +112,7 @@ var map = L.map('map', {
     attributionControl: false,
     center: [centerX, centerY],
     zoom: 11,
-    layers: [osmMap, parkGroup]
+    layers: [osmMap, parkGroup, cityGroup, forestGroup]
 });
 
 L.control.scale().addTo(map);
