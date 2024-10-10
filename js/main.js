@@ -60,27 +60,23 @@ for (const m of oMaps) {
         if (m.year) {
             popup += ' (' + m.year + ')';
         }
-        popup += '</b>';
+        popup += '</b><hr />';
         let owner = owners[m.owner];
         let info = m.info;
         let link = m.link;
-        if (owner || info || link) {
-            popup += '<hr />';
-        }
         if (info) {
-            popup += info;
-            if (owner || link) {
-                popup += '<br />';
-            }
+            popup += info + '<br />';
         }
         if (owner) {
             popup += owner;
-            if (link) {
-                popup += '<br />';
-            }
+        } else {
+            popup += 'Владелец карты не определён.';
         }
+        popup += '<br />';
         if (link) {
             popup += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
+        } else {
+            popup += 'Посмотреть отдельно можно <a href="' + m.url + '" target="_blank">тут</a>.';
         }
         imgLayer.bindPopup(popup);
         imgLayer.on('mouseover', function (e) {
@@ -113,7 +109,7 @@ var map = L.map('map', {
     attributionControl: false,
     center: [centerX, centerY],
     zoom: 11,
-    layers: [osmMap, parkGroup, cityGroup, forestGroup],
+    layers: [osmMap, parkGroup, cityGroup, forestGroup, rogaineGroup],
     contextmenu: true,
     contextmenuWidth: 140,
     contextmenuItems: [{
@@ -244,5 +240,8 @@ function editModeSwitch (e) {
         marker1.setLatLng(ZERO_LATLNG);
         marker2.setLatLng(ZERO_LATLNG);
         marker3.setLatLng(ZERO_LATLNG);
+        setOverlayOpacity(1);
+    } else {
+        setOverlayOpacity(0.5);
     }
 }
