@@ -1,14 +1,15 @@
-const EDIT_MODE = false;
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> based on <a href="https://www.openstreetmap.org/copyright" target="_blank">Open Street Map</a>';
 
 // Initialize the map
+const ZERO_LATLNG = new L.LatLng(0, 0);
 const centerX = 59.944179;
 const centerY = 30.320337;
 
 const multiX = 1e-5;
 const multiY = 2e-5;
 
+let editMode = false;
 let selectedOverlay, selectedMap;
 
 let mapOverlays = [];
@@ -83,7 +84,7 @@ for (const m of oMaps) {
         }
         imgLayer.bindPopup(popup);
         imgLayer.on('mouseover', function (e) {
-            if (!EDIT_MODE) {
+            if (!editMode) {
                 this.openPopup();
             }
         });
@@ -112,7 +113,28 @@ var map = L.map('map', {
     attributionControl: false,
     center: [centerX, centerY],
     zoom: 11,
-    layers: [osmMap, parkGroup, cityGroup, forestGroup]
+    layers: [osmMap, parkGroup, cityGroup, forestGroup],
+    contextmenu: true,
+    contextmenuWidth: 140,
+    contextmenuItems: [{
+        text: 'Show coordinates',
+        callback: showCoordinates
+    }, {
+        text: 'Center map here',
+        callback: centerMap
+    }, '-', {
+        text: 'Zoom in',
+        icon: 'images/zoom-in.png',
+        callback: zoomIn
+    }, {
+        text: 'Zoom out',
+        icon: 'images/zoom-out.png',
+        callback: zoomOut
+    }, '-', {
+        text: 'Switch edit mode',
+        icon: 'images/edit.png',
+        callback: editModeSwitch
+    }]
 });
 
 L.control.scale().addTo(map);
@@ -141,9 +163,9 @@ map.on('click', onMapClick);
 // Set bounds for the overlay
 //map.fitBounds(oMap.getBounds());
 
-let marker1 = L.marker(new L.LatLng(0, 0), {draggable: true}).addTo(map);
-let marker2 = L.marker(new L.LatLng(0, 0), {draggable: true}).addTo(map);
-let marker3 = L.marker(new L.LatLng(0, 0), {draggable: true}).addTo(map);
+let marker1 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
+let marker2 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
+let marker3 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
 marker1.on('drag', onDrag);
 marker2.on('drag', onDrag);
 marker3.on('drag', onDrag);
@@ -157,7 +179,7 @@ function onMapSelect(ovrl, map) {
     selectedOverlay = ovrl;
     selectedMap = map;
 
-    if (EDIT_MODE) {
+    if (editMode) {
         marker1.setLatLng(ovrl.getTopLeft());
         marker2.setLatLng(ovrl.getTopRight());
         marker3.setLatLng(ovrl.getBottomLeft());
@@ -196,4 +218,31 @@ function onDrag() {
 
 function onDragEnd() {
     repositionImage(true);
+}
+
+// --- context menu functions ---
+
+function showCoordinates (e) {
+    alert(e.latlng);
+}
+
+function centerMap (e) {
+    map.panTo(e.latlng);
+}
+
+function zoomIn (e) {
+    map.zoomIn();
+}
+
+function zoomOut (e) {
+    map.zoomOut();
+}
+
+function editModeSwitch (e) {
+    editMode = !editMode;
+    if (!editMode) {
+        marker1.setLatLng(ZERO_LATLNG);
+        marker2.setLatLng(ZERO_LATLNG);
+        marker3.setLatLng(ZERO_LATLNG);
+    }
 }
