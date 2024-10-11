@@ -1,4 +1,7 @@
 
+const urlParams = new URLSearchParams(window.location.search);
+const THE_OWNER = urlParams.get('owner')
+
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Спортивные карты <a href="https://t.me/orient_spb" target="_blank">СПб и области</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
 
 // Initialize the map
@@ -43,6 +46,9 @@ for (const m of oMaps) {
     m.img.src = m.url;
 
     m.img.onload = function () {
+        if (THE_OWNER && THE_OWNER !== m.owner) {
+            return;
+        }
         let bounds;
         if (m.bounds.length === 3) {
             bounds = m.bounds;
