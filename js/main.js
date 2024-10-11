@@ -1,5 +1,5 @@
 
-const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Orienteering maps of <a href="https://t.me/orient_spb" target="_blank">St-Petersburg and its area</a> based on <a href="https://www.openstreetmap.org/copyright" target="_blank">Open Street Map</a>';
+const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Спортивные карты <a href="https://t.me/orient_spb" target="_blank">СПб и области</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
 
 // Initialize the map
 const ZERO_LATLNG = new L.LatLng(0, 0);
