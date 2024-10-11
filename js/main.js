@@ -169,6 +169,25 @@ marker1.on('dragend', onDragEnd);
 marker2.on('dragend', onDragEnd);
 marker3.on('dragend', onDragEnd);
 
+// --- ruler (https://github.com/gokertanrisever/leaflet-ruler) ---
+L.control.ruler().addTo(map);
+var options = {
+    position: 'topleft',
+    lengthUnit: {
+        display: 'км',
+        decimal: 2,
+        factor: null,
+        label: 'Расстояние:'
+    },
+    angleUnit: {
+        display: '&deg;',
+        decimal: 2,
+        factor: null,
+        label: 'Азимут:'
+    }
+};
+L.control.ruler(options).addTo(map);
+
  // --- functions ---
 
 function onMapSelect(ovrl, map) {
