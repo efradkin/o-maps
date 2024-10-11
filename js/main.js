@@ -28,6 +28,8 @@ var openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
     attribution: ATTRIBUTION
 });
 
+var winterGroup = L.layerGroup([]);
+var veloGroup = L.layerGroup([]);
 var rogaineGroup = L.layerGroup([]);
 var forestGroup = L.layerGroup([]);
 var parkGroup = L.layerGroup([]);
@@ -156,6 +158,8 @@ var overlayMaps = {
     "Парки": parkGroup,
     "Лес": forestGroup,
     "Рогейн": rogaineGroup,
+    "Зимние": winterGroup,
+    "Вело": veloGroup,
 };
 
 var layerControl = L.control.layers(
