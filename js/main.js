@@ -9,6 +9,8 @@ const centerY = 30.320337;
 const multiX = 1e-5;
 const multiY = 2e-5;
 
+let maxZindex = 1;
+
 let editMode = false;
 let selectedOverlay, selectedMap;
 
@@ -193,6 +195,8 @@ L.control.ruler(options).addTo(map);
 function onMapSelect(ovrl, map) {
     selectedOverlay = ovrl;
     selectedMap = map;
+
+    ovrl.getElement().style.zIndex = maxZindex++;
 
     if (editMode) {
         marker1.setLatLng(ovrl.getTopLeft());
