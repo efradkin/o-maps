@@ -172,7 +172,6 @@ marker2.on('dragend', onDragEnd);
 marker3.on('dragend', onDragEnd);
 
 // --- ruler (https://github.com/gokertanrisever/leaflet-ruler) ---
-L.control.ruler().addTo(map);
 var options = {
     position: 'topleft',
     lengthUnit: {
