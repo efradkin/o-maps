@@ -37,6 +37,17 @@
             margin-left:-400px;
             z-index: 777;
         }
+        #counter {
+            text-align: center;
+            font-size: 40px;
+            position:absolute;
+            width:100px;
+            height:80px;
+            bottom:20px;
+            left:15px;
+            z-index: 777;
+            text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+        }
     </style>
 
     <meta property="og:title" content="Спортивные карты Санкт-Петербурга и области: ориентирование и рогейн">
@@ -47,6 +58,7 @@
 </head>
 <body>
     <div id="map"></div>
+    <div id="counter"></div>
     <div id="opacityControls">
         Непрозрачность карт:
         <button onclick='setOverlayOpacity(0)'>0%</button>

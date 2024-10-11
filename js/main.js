@@ -143,6 +143,10 @@ var map = L.map('map', {
     }]
 });
 
+map.on('click', onMapClick);
+map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () { recalculateLayers();} );
+osmMap.on('load', function () { recalculateLayers();} );
+
 L.control.scale().addTo(map);
 
 var attributionControl = L.control.attribution().addTo(map);
@@ -165,8 +169,6 @@ var overlayMaps = {
 var layerControl = L.control.layers(
     baseMaps, overlayMaps,
     {collapsed: false, autoZIndex: false}).addTo(map);
-
-map.on('click', onMapClick);
 
 // Set bounds for the overlay
 //map.fitBounds(oMap.getBounds());
@@ -200,6 +202,26 @@ var options = {
 L.control.ruler(options).addTo(map);
 
  // --- functions ---
+
+function recalculateLayers() {
+    let total = getImageOverlaysInView(true);
+    let visible = getImageOverlaysInView(false);
+    document.getElementById("counter").innerHTML =
+        (total === visible ? total : visible + '/' + total);
+}
+
+function getImageOverlaysInView(total) {
+    var imgs = [];
+    map.eachLayer( function(layer) {
+        if(layer instanceof L.ImageOverlay) {
+            let bounds = map.getBounds();
+            if(total || bounds.contains(layer.getTopLeft()) || bounds.contains(layer.getTopRight()) || bounds.contains(layer.getBottomLeft())) {
+                imgs.push(layer);
+            }
+        }
+    });
+    return imgs.length;
+}
 
 function onMapSelect(ovrl, map) {
     selectedOverlay = ovrl;
