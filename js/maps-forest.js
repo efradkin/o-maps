@@ -2,6 +2,14 @@
 var forestMaps = [
     // --- лесные карты ---
     {
+        name: 'Орловский парк',
+        year: 1980,
+        url: './maps/forest/orlovsky_park_1980.jpg',
+        link: './maps/forest/orlovsky_park_1980_full.jpg',
+        bounds: [[60.06653224902049, 30.242314338684086], [60.05922909614627, 30.30561447143555], [60.04633219385438, 30.225920677185062]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Юкки',
         year: 2021,
         url: './maps/forest/jukki_2021.jpg',
