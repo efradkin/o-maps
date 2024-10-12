@@ -37,7 +37,7 @@ var cityMaps = [
         name: 'Сад Олимпия',
         year: 2023,
         // url: './maps/city/olimpia_2023.jpg',
-        url: './maps/black.png',
+        url: './maps/white.png',
         bounds: [[59.91895722202924, 30.317974090576175], [59.91908628309989, 30.330934524536136], [59.909932457837336, 30.318167209625248]],
         owner: 'WN',
         types: ['ORIENT', 'SPRINT', 'CITY'],
