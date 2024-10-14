@@ -9,6 +9,6 @@ var owners = {
     ZCHNV: '© Зачиняев В.А.',
     ELTSV: '© Ельцов Денис',
     RDNV_I: '© Родионов Иван',
-    BBCH_A: '© Бибич Андрей',
+    BBCH_A: '© Бибич Андрей - <a href="https://vk.com/id7840054" target="_blank">ВК</a> или <a href="https://t.me/andy_atta" target="_blank">Telegram</a>',
     MSKV: 'По вопросам использования карты - 8-981-146-94-95 (Москов Игорь)',
 }
