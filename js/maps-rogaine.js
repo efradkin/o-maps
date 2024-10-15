@@ -2,10 +2,18 @@
 var rogaineMaps = [
     // --- рогейн ---
     {
-        name: 'Крестовский остров',
+        name: 'Крестовский остров - ККМ',
         year: 2024,
         url: './maps/rogaine/kkm/krestovsky_KKM_2024.jpg',
         bounds: [[59.98645208220945, 30.187597274780277], [59.98585101588345, 30.273513793945316], [59.964592011112174, 30.188112258911136]],
+        owner: 'KKM',
+        types: ['ROGAINE'],
+    },
+    {
+        name: 'Екатерингоф - ККМ-ноябрь',
+        year: 2021,
+        url: './maps/rogaine/kkm/ekateringof_KKM_2021_11.webp',
+        bounds: [[59.91041656586618, 30.25566101074219], [59.90843705734661, 30.280551910400394], [59.892166191012564, 30.249309539794925]],
         owner: 'KKM',
         types: ['ROGAINE'],
     },
@@ -32,7 +40,7 @@ var rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Шапки - ККМ',
+        name: 'Шапки - ККМ-апрель',
         year: 2020,
         url: './maps/rogaine/kkm/shapki_KKM_2020.jpg',
         link: './maps/rogaine/kkm/shapki_KKM_2020_full.jpg',
