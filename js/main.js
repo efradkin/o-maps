@@ -38,6 +38,7 @@ var cityGroup = L.layerGroup([]);
 let oMaps = [
     ...rogaineMaps,
     ...forestMaps,
+    ...toksovoMaps,
     ...parkMaps,
     ...cityMaps,
 ];
