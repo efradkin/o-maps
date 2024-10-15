@@ -13,6 +13,7 @@ const multiX = 1e-5;
 const multiY = 2e-5;
 
 let maxZindex = 1;
+let enablePopup = false;
 
 let editMode = false;
 let selectedOverlay, selectedMap;
@@ -88,7 +89,7 @@ for (const m of oMaps) {
         }
         imgLayer.bindPopup(popup);
         imgLayer.on('mouseover', function (e) {
-            if (!editMode) {
+            if (!editMode && enablePopup) {
                 this.openPopup();
             }
         });
@@ -119,23 +120,27 @@ var map = L.map('map', {
     zoom: 11,
     layers: [osmMap, parkGroup, cityGroup, forestGroup, rogaineGroup],
     contextmenu: true,
-    contextmenuWidth: 140,
+    contextmenuWidth: 160,
     contextmenuItems: [{
-        text: 'Show coordinates',
+        text: 'Координаты',
         callback: showCoordinates
     }, {
-        text: 'Center map here',
+        text: 'Центр сюда',
         callback: centerMap
     }, '-', {
-        text: 'Zoom in',
+        text: 'Увеличить',
         icon: 'images/zoom-in.png',
         callback: zoomIn
     }, {
-        text: 'Zoom out',
+        text: 'Уменьшить',
         icon: 'images/zoom-out.png',
         callback: zoomOut
     }, '-', {
-        text: 'Switch edit mode',
+        text: 'Всплыв.подсказки',
+        icon: 'images/popup.png',
+        callback: popupsSwitch
+    }, {
+        text: 'Редактирование',
         icon: 'images/edit.png',
         callback: editModeSwitch
     }]
@@ -296,4 +301,8 @@ function editModeSwitch (e) {
     } else {
         setOverlayOpacity(0.5);
     }
+}
+
+function popupsSwitch (e) {
+    enablePopup = !enablePopup;
 }
