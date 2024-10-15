@@ -79,11 +79,8 @@ for (const m of oMaps) {
             popup += info + '<br />';
         }
         if (owner) {
-            popup += owner;
-        } else {
-            popup += 'Владелец карты не определён.';
+            popup += owner + '<br />';
         }
-        popup += '<br />';
         if (link) {
             popup += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
         } else {
