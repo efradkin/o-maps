@@ -100,6 +100,7 @@ for (const m of oMaps) {
 
         if (m.types.includes('ROGAINE')) {
             imgLayer.addTo(rogaineGroup);
+            imgLayer.getElement().style.zIndex = 0;
         } else
         if (m.types.includes('CITY')) {
             imgLayer.addTo(cityGroup);
