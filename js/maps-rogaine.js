@@ -178,7 +178,7 @@ var rogaineMaps = [
     {
         name: 'Мичуринское',
         url: './maps/rogaine/beketov/michurinskoe.webp',
-        link: './original_maps/rogaine/beketov/center.All.jpg',
+        link: './original_maps/rogaine/beketov/center.jpg',
         bounds: [[60.634479381884795, 29.75234985351563], [60.63414266332332, 30.251541137695316], [60.373144671593685, 29.753723144531254]],
         owner: 'BKTV',
         types: ['ROGAINE'],
