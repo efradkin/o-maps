@@ -135,7 +135,7 @@ var parkMaps = [
         name: 'Сад 9 Января',
         year: 2018,
         url: './maps/parks/sad_9_janvarya_2018.webp',
-        link: './maps/parks/sad_9_janvarya_2018_full.jpg',
+        link: './original_maps/parks/sad_9_janvarya_2018_full.jpg',
         bounds: [[59.896030167287805, 30.27392148971558], [59.89523372984083, 30.28205394744873], [59.88972272059391, 30.271797180175785]],
         owner: 'BVZ',
         types: ['ORIENT', 'PARK'],

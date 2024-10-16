@@ -12,4 +12,5 @@ var owners = {
     SHRNN: '© Ширинян А.А.',
     BBCH_A: '© Бибич Андрей - <a href="https://vk.com/id7840054" target="_blank">ВК</a> или <a href="https://t.me/andy_atta" target="_blank">Telegram</a>',
     MSKV: 'По вопросам использования карты - 8-981-146-94-95 (Москов Игорь).',
+    BKTV: 'Все карты <a href="https://t.me/beketov" target="_blank">Константина Бекетова</a> можно свободно использовать в некоммерческих целях.',
 }

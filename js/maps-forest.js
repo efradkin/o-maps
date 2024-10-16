@@ -5,7 +5,7 @@ var forestMaps = [
         name: 'Орловский парк',
         year: 1980,
         url: './maps/forest/orlovsky_park_1980.jpg',
-        link: './maps/forest/orlovsky_park_1980_full.jpg',
+        link: './original_maps/forest/orlovsky_park_1980_full.jpg',
         bounds: [[60.06653224902049, 30.242314338684086], [60.05922909614627, 30.30561447143555], [60.04633219385438, 30.225920677185062]],
         types: ['ORIENT'],
     },
@@ -33,6 +33,7 @@ var forestMaps = [
         owner: 'WN',
         types: ['ORIENT'],
     },
+/*
     {
         name: 'Гряда Вярямянселькя',
         url: './maps/white.png',
@@ -47,6 +48,7 @@ var forestMaps = [
         owner: 'WN',
         types: ['ORIENT'],
     },
+*/
     {
         name: 'Симагино',
         url: './maps/white.png',
@@ -54,13 +56,15 @@ var forestMaps = [
         owner: 'WN',
         types: ['ORIENT'],
     },
+/*
     {
         name: 'оз. Воробьёво',
         url: './maps/white.png',
-        bounds: [[60.93235046755455, 30.264244079589847], [60.93159985602353, 30.35831451416016], [60.89329520374736, 30.263729095458988]],
+        bounds: [[60.924426453619176, 30.279006958007816], [60.92742946980941, 30.328445434570316], [60.900392131137274, 30.275573730468754]],
         owner: 'WN',
         types: ['ORIENT'],
     },
+*/
     {
         name: 'Туутари',
         year: 1983,
@@ -80,8 +84,8 @@ var forestMaps = [
     {
         name: 'Кузнечное',
         year: 2008,
-        url: './maps/forest/kuznechnoe_2008.jpg',
-        link: './maps/forest/kuznechnoe_2008_full.pdf',
+        url: './maps/forest/kuznechnoe_2008.webp',
+        link: './original_maps/forest/kuznechnoe_2008_full.pdf',
         bounds: [[61.15640525439849, 29.747714996337894], [61.143318098224135, 29.93705749511719], [61.08469071939212, 29.726257324218754]],
         types: ['ORIENT'],
         info: 'Спасибо Косте Токмакову!',
@@ -141,7 +145,7 @@ var forestMaps = [
         name: 'Каменка',
         year: 2015,
         url: './maps/forest/kamenka_2015.jpg',
-        link: './maps/forest/kamenka_2015_full.jpg',
+        link: './original_maps/forest/kamenka_2015_full.jpg',
         bounds: [[60.43067179904046, 28.998327255249027], [60.425758199767614, 29.044847488403324], [60.40122145583028, 28.985109329223636]],
         owner: 'KURD',
         types: ['ORIENT'],
@@ -151,7 +155,7 @@ var forestMaps = [
         name: 'Коробицыно',
         year: 2018,
         url: './maps/forest/korobitsyno_2018.jpg',
-        link: './maps/forest/korobitsyno_2018_full.jpg',
+        link: './original_maps/forest/korobitsyno_2018_full.jpg',
         bounds: [[60.547151702290904, 29.80127334594727], [60.54267781546521, 29.87362861633301], [60.513328984704394, 29.795694351196293]],
         owner: 'KURD',
         types: ['ORIENT'],

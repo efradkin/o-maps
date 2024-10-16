@@ -295,7 +295,7 @@ var cityMaps = [
         name: 'Лицей №384',
         year: 2019,
         url: './maps/city/narvskaya_384_school_2019.jpg',
-        link: './maps/city/narvskaya_384_school_2019_full.jpg',
+        link: './original_maps/city/narvskaya_384_school_2019_full.jpg',
         bounds: [[59.898150319844724, 30.273513793945316], [59.89818260538584, 30.275981426239017], [59.89642837885074, 30.273309946060184]],
         owner: 'BVZ',
         types: ['ORIENT', 'CITY'],
