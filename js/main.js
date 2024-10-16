@@ -119,7 +119,7 @@ var map = L.map('map', {
     attributionControl: false,
     center: [centerX, centerY],
     zoom: 11,
-    layers: [osmMap, parkGroup, cityGroup, forestGroup, rogaineGroup],
+    layers: [osmMap, parkGroup, cityGroup, forestGroup],
     contextmenu: true,
     contextmenuWidth: 160,
     contextmenuItems: [{
