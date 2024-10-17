@@ -281,4 +281,20 @@ var forestMaps = [
         owner: 'TOKM',
         types: ['ORIENT', 'CITY'],
     },
+    {
+        name: 'оз Силанде',
+        year: 1992,
+        url: './maps/forest/silande_1992.webp',
+        link: './original_maps/forest/Geolog92.pdf',
+        bounds: [[60.42787622155024, 30.223689079284668], [60.4233434866285, 30.286216735839847], [60.37887226479014, 30.210857391357425]],
+        types: ['ORIENT', 'CITY'],
+    },
+    {
+        name: 'Лосево',
+        year: 2005,
+        url: './maps/forest/losevo_2005.webp',
+        link: './original_maps/forest/losevo-2005.gif',
+        bounds: [[60.695241510752176, 29.892425537109375], [60.68944357380662, 30.01078605651856], [60.67120266901343, 29.88813400268555]],
+        types: ['ORIENT', 'CITY'],
+    },
 ];
