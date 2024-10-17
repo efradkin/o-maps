@@ -329,4 +329,10 @@ var parkMaps = [
         types: ['ORIENT', 'PARK'],
         owner: 'BBCH_A',
     },
+    {
+        name: 'Пушкин - Александровский парк',
+        url: './maps/parks/pushkin_aleksandrovsky_palace.webp',
+        bounds: [[59.72503787398899, 30.381939411163334], [59.724908059040835, 30.396316051483158], [59.71544102788412, 30.38200378417969]],
+        types: ['ORIENT', 'PARK'],
+    },
 ];
