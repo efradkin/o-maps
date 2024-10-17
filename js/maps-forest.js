@@ -82,13 +82,21 @@ var forestMaps = [
         info: 'Автор: Виталий Чегаровский',
     },
     {
-        name: 'Кузнечное',
+        name: 'Кузнечное - запад',
         year: 2008,
-        url: './maps/forest/kuznechnoe_2008.webp',
+        url: './maps/forest/kuznechnoe_west_2008.webp',
         link: './original_maps/forest/kuznechnoe_2008_full.pdf',
         bounds: [[61.15640525439849, 29.747714996337894], [61.143318098224135, 29.93705749511719], [61.08469071939212, 29.726257324218754]],
         types: ['ORIENT'],
         info: 'Спасибо Косте Токмакову!',
+    },
+    {
+        name: 'Кузнечное - юго-восток',
+        year: 2003,
+        url: './maps/forest/kuznechnoe_se.webp',
+        bounds: [[61.101535452429026, 29.940662384033207], [61.09734585191786, 30.00572204589844], [61.07340056041223, 29.932250976562504]],
+        owner: 'TOKM',
+        types: ['ORIENT'],
     },
     {
         name: 'Выборг - гора Величка',
@@ -263,6 +271,14 @@ var forestMaps = [
         url: './maps/forest/sestroretsk_pljazh_laskovy_2023.webp',
         bounds: [[60.14590579873828, 29.92581367492676], [60.14403648673156, 29.94210004806519], [60.13880184782073, 29.922959804534912]],
         owner: 'FSOSPB',
+        types: ['ORIENT', 'CITY'],
+    },
+    {
+        name: 'Лемболово-Орехово',
+        year: 2023,
+        url: './maps/forest/lembolovo_orekhovo_2023.webp',
+        bounds: [[60.49050720754783, 30.263643264770508], [60.482684939856334, 30.385179519653324], [60.38871288792411, 30.23471832275391]],
+        owner: 'TOKM',
         types: ['ORIENT', 'CITY'],
     },
 ];

@@ -17,4 +17,5 @@ var owners = {
     BKTV: 'Все карты <a href="https://t.me/beketov" target="_blank">Константина Бекетова</a> можно свободно использовать в некоммерческих целях.',
     ELZRV: 'По вопросам использования - Владимир Елизаров orunner1@gmail.com',
     KP31: 'Контакты правообладателя: controlpoint31@gmail.com.',
+    TOKM: 'По вопросам использования карты обращайтесь к Константину Токмакову (<a href="mailto:tokma@bk.ru" target="_blank">tokma@bk.ru</a>).',
 }
