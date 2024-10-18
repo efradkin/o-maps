@@ -115,10 +115,12 @@ for (const m of oMaps) {
     }
 }
 
+const defaultZoom = 11;
+const savedState = loadMapState();
 var map = L.map('map', {
     attributionControl: false,
-    center: [centerX, centerY],
-    zoom: 11,
+    center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
+    zoom: savedState ? savedState.zoom : defaultZoom,
     layers: [osmMap, parkGroup, cityGroup, forestGroup],
     contextmenu: true,
     contextmenuWidth: 160,
@@ -150,6 +152,10 @@ var map = L.map('map', {
 map.on('click', onMapClick);
 map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () { recalculateLayers();} );
 osmMap.on('load', function () { recalculateLayers();} );
+
+// Save the map state whenever the map is moved or zoomed
+map.on('moveend', () => saveMapState(map));
+map.on('zoomend', () => saveMapState(map));
 
 L.control.scale().addTo(map);
 
@@ -306,4 +312,25 @@ function editModeSwitch (e) {
 
 function popupsSwitch (e) {
     enablePopup = !enablePopup;
+}
+
+// Function to save map's view (center and zoom) to localStorage
+function saveMapState(map) {
+    const center = map.getCenter();
+    const zoom = map.getZoom();
+    const mapState = {
+        lat: center.lat,
+        lng: center.lng,
+        zoom: zoom
+    };
+    localStorage.setItem('mapState', JSON.stringify(mapState));
+}
+
+// Function to load saved map state from localStorage
+function loadMapState() {
+    const savedState = localStorage.getItem('mapState');
+    if (savedState) {
+        return JSON.parse(savedState);
+    }
+    return null;
 }
