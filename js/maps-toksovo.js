@@ -5,6 +5,7 @@ var toksovoMaps = [
         name: 'Сярьги',
         year: 1991,
         url: './maps/forest/toksovo/sjargi_1991.webp',
+        link: './original_maps/forest/toksovo/sjargi_1991_full.jpg',
         bounds: [[60.16785958842209, 30.38775444030762], [60.162052230086715, 30.475730895996094], [60.1284690036598, 30.37324905395508]],
         types: ['ORIENT'],
     },
