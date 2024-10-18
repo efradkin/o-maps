@@ -267,8 +267,10 @@ var forestMaps = [
     {
         name: 'Гвардейское',
         year: 2007,
-        url: './maps/forest/gvardeyskoe_2007.webp',
+        url: './maps/black.png',
+        info: '<a href="https://vk.com/wall-128591100_2967" target="_blank">ВК "Яркий Мир"</a>',
         bounds: [[60.81713362443914, 28.91339778900147], [60.80298488532727, 28.941636085510257], [60.809725153510456, 28.897690773010257]],
+        owner: 'KOSOR',
         types: ['ORIENT'],
     },
     {
