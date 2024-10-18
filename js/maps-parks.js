@@ -343,4 +343,12 @@ var parkMaps = [
         owner: 'FSOSPB',
         types: ['ORIENT', 'PARK'],
     },
+    {
+        name: 'Ржевский лесопарк',
+        info: 'Полигон Middle Cup',
+        url: './maps/parks/rzhevsky_2024.webp',
+        bounds: [[59.97221675923303, 30.495557785034183], [59.970090597514485, 30.54379463195801], [59.95460200942064, 30.491952896118168]],
+        owner: 'RDNV_I',
+        types: ['ORIENT', 'PARK'],
+    },
 ];
