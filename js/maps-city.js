@@ -637,7 +637,7 @@ var cityMaps = [
         url: './maps/city/new_sertolovo_2022.webp',
         bounds: [[60.169812935994486, 30.18354177474976], [60.16785958842209, 30.203347206115726], [60.16315186383203, 30.180580615997318]],
         types: ['ORIENT', 'CITY'],
-        owner: 'FSOSPB',
+        owner: 'SVCHK',
     },
     {
         name: 'Полюстрово',
