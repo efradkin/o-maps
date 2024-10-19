@@ -1,6 +1,8 @@
 
 const urlParams = new URLSearchParams(window.location.search);
-const THE_OWNER = urlParams.get('owner')
+const THE_OWNER = urlParams.get('owner');
+const MAP_NAME = urlParams.get('map');
+let loaded = false;
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Спортивные карты <a href="https://t.me/orient_spb" target="_blank">СПб и области</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
 
@@ -154,7 +156,15 @@ var map = L.map('map', {
 
 map.on('click', onMapClick);
 map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () { recalculateLayers();} );
-osmMap.on('load', function () { recalculateLayers();} );
+osmMap.on('load', function () {
+    recalculateLayers();
+    if (!loaded) {
+        loaded = true;
+        if (MAP_NAME) {
+            locateMap(MAP_NAME);
+        }
+    }
+});
 
 // Save the map state whenever the map is moved or zoomed
 map.on('moveend', () => saveMapState(map));
@@ -234,6 +244,14 @@ function getImageOverlaysInView(total) {
         }
     });
     return imgs.length;
+}
+
+function locateMap(mapName) {
+    map.eachLayer( function(layer) {
+        if(layer instanceof L.ImageOverlay && layer._url.includes(mapName)) {
+            map.fitBounds(layer.getBounds());
+        }
+    });
 }
 
 function onMapSelect(ovrl, map) {
