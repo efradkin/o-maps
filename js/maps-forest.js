@@ -508,11 +508,32 @@ var forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Гарболово, Змеиное оз',
+        url: './maps/forest/garbolovo_zmeinoe_2014.webp',
+        bounds: [[60.34459776766185, 30.50036430358887], [60.34098782928523, 30.5390739440918], [60.33213117104195, 30.495214462280277]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Лехтуси',
         year: 1990,
         url: './maps/forest/lehtusi_1990.webp',
         link: './original_maps/forest/lehtusi_1990_full.jpg',
         bounds: [[60.30514284398862, 30.501480102539066], [60.29948734537272, 30.56130409240723], [60.27736622539905, 30.491609573364258]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Аньялово',
+        year: 2023,
+        url: './maps/forest/anyalovo_2023.webp',
+        bounds: [[60.31766225096646, 30.4951286315918], [60.31126498711547, 30.5390739440918], [60.29853049128726, 30.489764213562015]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Лехтуси, оз Валкиярви',
+        year: 2016,
+        url: './maps/forest/lehtusi_valkijarvi_2016.webp',
+        link: './original_maps/forest/lehtusi_valkijarvi_2016_full.jpg',
+        bounds: [[60.27668533819831, 30.52705764770508], [60.27421700328666, 30.56207656860352], [60.25224913383907, 30.51864624023438]],
         types: ['ORIENT'],
     },
     {
