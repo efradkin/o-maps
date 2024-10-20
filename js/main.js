@@ -33,6 +33,7 @@ var openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
 
 var winterGroup = L.layerGroup([]);
 var veloGroup = L.layerGroup([]);
+var reliefGroup = L.layerGroup([]);
 var rogaineGroup = L.layerGroup([]);
 var forestGroup = L.layerGroup([]);
 var parkGroup = L.layerGroup([]);
@@ -40,6 +41,7 @@ var cityGroup = L.layerGroup([]);
 
 let oMaps = [
     ...rogaineMaps,
+    ...reliefMaps,
     ...forestMaps,
     ...toksovoMaps,
     ...parkMaps,
@@ -106,6 +108,9 @@ for (const m of oMaps) {
             if (el) {
                 el.style.zIndex = 0;
             }
+        } else
+        if (m.types.includes('RELIEF')) {
+            imgLayer.addTo(reliefGroup);
         } else
         if (m.types.includes('CITY')) {
             imgLayer.addTo(cityGroup);
@@ -184,6 +189,7 @@ var overlayMaps = {
     "Город": cityGroup,
     "Парки": parkGroup,
     "Лес": forestGroup,
+    "Гидро-рельефные": reliefGroup,
     "Рогейн": rogaineGroup,
     "Зимние": winterGroup,
     "Вело": veloGroup,
