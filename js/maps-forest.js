@@ -486,6 +486,28 @@ var forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Гарболово',
+        year: 1994,
+        url: './maps/forest/garbolovo_1994.webp',
+        link: './original_maps/forest/garbolovo_1994_full.jpg',
+        bounds: [[60.38900975707087, 30.44723510742188], [60.38417469408329, 30.515556335449222], [60.34470393627307, 30.43418884277344]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Васкелово, Банное оз',
+        year: 1995,
+        url: './maps/forest/vaskelovo_bannoe_oz.webp',
+        link: './original_maps/forest/vaskelovo_bannoe_oz_full.jpg',
+        bounds: [[60.40380737364446, 30.423889160156254], [60.400076803656404, 30.47916412353516], [60.364487731332744, 30.413331985473636]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Гарболово, оз Сирккаярви',
+        url: './maps/forest/garbolovo_sirkkajarvi.webp',
+        bounds: [[60.35374823320506, 30.551433563232425], [60.35043652818912, 30.583963394165043], [60.321423512137386, 30.541133880615238]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Лехтуси',
         year: 1990,
         url: './maps/forest/lehtusi_1990.webp',
