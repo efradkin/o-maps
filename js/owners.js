@@ -11,6 +11,8 @@ var owners = {
     RDNV_I: '© Родионов Иван',
     SHRNN: '© Ширинян А.А.',
     YUVNT: '© ЮВЕНТА',
+    GLFSTRM: '© КСО "Гольфстрим"',
+    GLTV_YU: '© ГБНОУ "СПб ГДТЮ", Юрий Гультяев - +79213017985, gultiaev@list.ru',
     SHKLV: '© Шкилев В.В. - 8 (921)7473259',
     BBCH_A: '© Бибич Андрей - <a href="https://vk.com/id7840054" target="_blank">ВК</a> или <a href="https://t.me/andy_atta" target="_blank">Telegram</a>.',
     MSKV: 'По вопросам использования карты - 8-981-146-94-95 (Москов Игорь).',

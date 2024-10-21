@@ -566,4 +566,20 @@ var forestMaps = [
         owner: 'YUVNT',
         types: ['ORIENT'],
     },
+    {
+        name: 'Яппиля, оз Пистолет',
+        year: 2024,
+        url: './maps/forest/yappilya_2024.webp',
+        bounds: [[60.23520963053894, 29.110679626464847], [60.22787991859254, 29.183120727539066], [60.18736650278566, 29.091625213623047]],
+        owner: ['GLTV_YU', 'GLFSTRM'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Яппиля - Тарасовское',
+        year: 2024,
+        url: './maps/forest/yappilya_tarasovskoe_2024.webp',
+        bounds: [[60.28281281280947, 29.108276367187504], [60.27234434911475, 29.23118591308594], [60.22617509945598, 29.088191986083988]],
+        owner: ['GLTV_YU', 'GLFSTRM'],
+        types: ['ORIENT'],
+    },
 ];

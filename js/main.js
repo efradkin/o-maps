@@ -77,14 +77,21 @@ for (const m of oMaps) {
             popup += ' (' + m.year + ')';
         }
         popup += '</b><hr />';
-        let owner = owners[m.owner];
         let info = m.info;
         let link = m.link;
         if (info) {
             popup += info + '<br />';
         }
-        if (owner) {
-            popup += owner + '<br />';
+        if (m.owner) {
+            // console.log(owner, Array.isArray(owner))
+            if (Array.isArray(m.owner)) {
+                for (const o of m.owner) {
+                    // console.log(o)
+                    popup += owners[o] + '<br />';
+                }
+            } else {
+                popup += owners[m.owner] + '<br />';
+            }
         }
         if (link) {
             popup += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
