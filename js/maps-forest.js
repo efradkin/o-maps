@@ -538,6 +538,20 @@ var forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Всеволожск',
+        year: 1987,
+        url: './maps/forest/vsevolozhsk_1987.webp',
+        link: './original_maps/forest/vsevolozhsk_1987_full.jpg',
+        bounds: [[60.065697072929595, 30.62447547912598], [60.063598332002485, 30.68387031555176], [60.03475925627271, 30.62095642089844]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Невская Дубровка',
+        url: './maps/forest/nevskaya_dubrovka.webp',
+        bounds: [[59.862466389665045, 30.91333866119385], [59.86143212605905, 30.930547714233402], [59.84972977927792, 30.909948348999027]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Сестрорецк, Таможенная дорога',
         year: 2012,
         url: './maps/forest/sestroretsk_tamozhennaya_doroga_2012.webp',
