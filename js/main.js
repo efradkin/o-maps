@@ -91,6 +91,7 @@ for (const m of oMaps) {
         } else {
             popup += 'Посмотреть отдельно можно <a href="' + m.url + '" target="_blank">тут</a>.';
         }
+        popup += '<br /><a href="' + mapLink(m.url) + '" target="_blank">Ссылка на эту карту</a>.';
         imgLayer.bindPopup(popup);
         imgLayer.on('mouseover', function (e) {
             if (!editMode && enablePopup) {
@@ -231,6 +232,15 @@ var options = {
 L.control.ruler(options).addTo(map);
 
  // --- functions ---
+
+function mapLink(url) {
+    return location.origin + '?map=' + extractFilename(url);
+}
+
+function extractFilename(url) {
+    const match = url.match(/\/([^\/]+)\.[^\.]+$/);
+    return match ? match[1] : '';
+}
 
 function recalculateLayers() {
     let total = getImageOverlaysInView(true);
