@@ -28,7 +28,7 @@ var cityMaps = [
     {
         name: 'ЖК "Академ Парк"',
         year: 2022,
-        url: './maps/city/akadem_park_2022.jpg',
+        url: './maps/city/akadem_park_2022.webp',
         bounds: [[60.00842643842314, 30.398890972137455], [60.00738599006695, 30.40973782539368], [60.000461347882606, 30.396466255187992]],
         owner: 'KUZM',
         types: ['ORIENT', 'SPRINT', 'CITY'],
@@ -166,7 +166,7 @@ var cityMaps = [
     {
         name: 'М "Политехническая"',
         year: 2015,
-        url: './maps/city/politekhnicheskaya_2015.jpg',
+        url: './maps/city/politekhnicheskaya_2015.webp',
         bounds: [[60.02562663254445, 30.36728382110596], [60.0253478977596, 30.384922027587894], [60.010142570366924, 30.367884635925297]],
         owner: 'SHEIN',
         types: ['ORIENT', 'CITY'],
@@ -215,7 +215,7 @@ var cityMaps = [
     {
         name: 'Бугры',
         year: 2011,
-        url: './maps/city/bugry_2011.jpg',
+        url: './maps/city/bugry_2011.webp',
         bounds: [[60.07942125981127, 30.389170646667484], [60.077087908682955, 30.40899753570557], [60.06524735396957, 30.383634567260746]],
         owner: 'SHEIN',
         types: ['ORIENT', 'CITY'],
