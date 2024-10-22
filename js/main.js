@@ -141,6 +141,7 @@ const defaultZoom = 11;
 const savedState = loadMapState();
 var map = L.map('map', {
     attributionControl: false,
+    zoomControl: false,
     center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
     zoom: savedState ? savedState.zoom : defaultZoom,
     layers: [osmMap, parkGroup, cityGroup, forestGroup],
@@ -188,6 +189,9 @@ map.on('moveend', () => saveMapState(map));
 map.on('zoomend', () => saveMapState(map));
 
 L.control.scale().addTo(map);
+
+// Instantiate the ZoomBar control..
+new L.Control.ZoomBar({position: 'topleft'}).addTo(map);
 
 var attributionControl = L.control.attribution().addTo(map);
 attributionControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a>');
