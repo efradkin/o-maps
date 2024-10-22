@@ -474,7 +474,7 @@ var cityMaps = [
     {
         name: 'Дибуновская ул',
         year: 2022,
-        url: './maps/city/dibunovskaya_2022.jpg',
+        url: './maps/city/dibunovskaya_2022.webp',
         bounds: [[59.98930699819738, 30.271260738372806], [59.987927868402906, 30.2863883972168], [59.98401554936793, 30.269372463226322]],
         owner: 'KUZM',
         types: ['ORIENT', 'CITY'],
