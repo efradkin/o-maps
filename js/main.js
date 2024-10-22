@@ -39,6 +39,13 @@ var forestGroup = L.layerGroup([]);
 var parkGroup = L.layerGroup([]);
 var cityGroup = L.layerGroup([]);
 
+var groupRetro = L.layerGroup([]);
+var group90th = L.layerGroup([]);
+var group2000th = L.layerGroup([]);
+var group2010th = L.layerGroup([]);
+var group2020th = L.layerGroup([]);
+var groupUnknownYear = L.layerGroup([]);
+
 let oMaps = [
     ...rogaineMaps,
     ...reliefMaps,
@@ -114,25 +121,46 @@ for (const m of oMaps) {
             onMapSelect(imgLayer, m);
         });
 
+        let added = false;
         if (m.types.includes('ROGAINE')) {
+            added = true;
             imgLayer.addTo(rogaineGroup);
             let el = imgLayer.getElement();
             if (el) {
                 el.style.zIndex = 0;
             }
-        } else
+        }
         if (m.types.includes('RELIEF')) {
+            added = true;
             imgLayer.addTo(reliefGroup);
-        } else
+        }
         if (m.types.includes('CITY')) {
+            added = true;
             imgLayer.addTo(cityGroup);
-        } else
+        }
         if (m.types.includes('PARK')) {
+            added = true;
             imgLayer.addTo(parkGroup);
-        } else {
+        }
+        if (!added) {
             imgLayer.addTo(forestGroup);
         }
 
+        if (!m.types.includes('ROGAINE')) {
+            if (!m.year) {
+                imgLayer.addTo(groupUnknownYear);
+            } else if (m.year >= 2020) {
+                imgLayer.addTo(group2020th);
+            } else if (m.year >= 2010) {
+                imgLayer.addTo(group2010th);
+            } else if (m.year >= 2000) {
+                imgLayer.addTo(group2000th);
+            } else if (m.year >= 1990) {
+                imgLayer.addTo(group90th);
+            } else {
+                imgLayer.addTo(groupRetro);
+            }
+        }
         mapOverlays.push(imgLayer);
     }
 }
@@ -144,7 +172,7 @@ var map = L.map('map', {
     zoomControl: false,
     center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
     zoom: savedState ? savedState.zoom : defaultZoom,
-    layers: [osmMap, parkGroup, cityGroup, forestGroup],
+    layers: [osmMap, parkGroup, cityGroup, forestGroup, group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear],
     contextmenu: true,
     contextmenuWidth: 160,
     contextmenuItems: [{
@@ -209,6 +237,12 @@ var overlayMaps = {
     "Рогейн": rogaineGroup,
     "Зимние": winterGroup,
     "Вело": veloGroup,
+    "<span class='first-age'>2020-е</span>": group2020th,
+    "2010-е": group2010th,
+    "2000-е": group2000th,
+    "90-е": group90th,
+    "Ретро": groupRetro,
+    "???": groupUnknownYear,
 };
 
 var layerControl = L.control.layers(
