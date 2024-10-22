@@ -69,7 +69,11 @@ for (const m of oMaps) {
         }
         let imgLayer = L.imageOverlay.rotated(
             m.url, L.latLng(bounds[0]), L.latLng(bounds[1]), L.latLng(bounds[2]),
-            { opacity: 1, interactive: true});
+            {
+                opacity: 1,
+                interactive: true,
+                alt: m.name
+            });
 
         // map popup
         let popup = '<b>' + m.name;
