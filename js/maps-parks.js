@@ -367,4 +367,20 @@ var parkMaps = [
         owner: 'YUVNT',
         types: ['ORIENT', 'PARK'],
     },
+    {
+        name: 'Новое Девяткино',
+        year: 2020,
+        url: './maps/parks/new_devjatkino_2020.webp',
+        bounds: [[60.05669081849984, 30.473477840423588], [60.05640163524139, 30.47938942909241], [60.05402381016011, 30.472801923751835]],
+        owner: 'SHEIN',
+        types: ['ORIENT', 'PARK'],
+    },
+    {
+        name: 'Всеволожск, парк Песчанка',
+        year: 2021,
+        url: './maps/parks/vsevolozhsk_peschanka_2021.webp',
+        bounds: [[60.034400216043906, 30.64094424247742], [60.0335427907553, 30.649087429046634], [60.03056842429522, 30.63917398452759]],
+        owner: 'SHEIN',
+        types: ['ORIENT', 'PARK'],
+    },
 ];

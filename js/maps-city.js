@@ -671,4 +671,12 @@ var cityMaps = [
         owner: 'FSOSPB',
         types: ['ORIENT', 'CITY'],
     },
+    {
+        name: 'Агалатово',
+        year: 2012,
+        url: './maps/city/agalatovo_2012.webp',
+        bounds: [[60.21722334414536, 30.300486087799076], [60.21662647354862, 30.309069156646732], [60.21354602222042, 30.299198627471927]],
+        owner: 'SHEIN',
+        types: ['ORIENT', 'CITY'],
+    },
 ];
