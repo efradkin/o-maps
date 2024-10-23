@@ -179,7 +179,6 @@ var map = L.map('map', {
     layers: [
         osmMap, parkGroup, cityGroup, forestGroup, reliefGroup, winterGroup, veloGroup,
         group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
-        groupAll
     ],
     contextmenu: true,
     contextmenuWidth: 160,

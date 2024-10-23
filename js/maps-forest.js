@@ -708,6 +708,29 @@ var forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Щеглово',
+        year: 1987,
+        url: './maps/forest/scheglovo_1987.webp',
+        link: './original_maps/forest/scheglovo_1987_full.jpg',
+        bounds: [[60.02028738059051, 30.726270675659183], [60.01906502085821, 30.755453109741214], [60.00548735560624, 30.723438262939457]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'им Морозова',
+        year: 1992,
+        url: './maps/forest/morozova_1992.webp',
+        link: './original_maps/forest/morozova_1992_full.jpg',
+        bounds: [[59.99332063646918, 31.04075431823731], [59.991303146530086, 31.077747344970707], [59.96656817067386, 31.034574508666996]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'им Морозова',
+        year: 2013,
+        url: './maps/forest/morozova_2013.webp',
+        bounds: [[59.98602275023326, 31.040325164794925], [59.98361838824824, 31.072340011596683], [59.96656817067386, 31.03620529174805]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Орехово-запад',
         url: './maps/forest/orekhovo_west.webp',
         bounds: [[60.47627773171624, 30.23849487304688], [60.475051125139565, 30.26269912719727], [60.46034938752854, 30.233774185180668]],
@@ -717,6 +740,13 @@ var forestMaps = [
         name: 'Рахья',
         url: './maps/forest/rakhja.webp',
         bounds: [[60.0987881207714, 30.846390724182132], [60.09572869968227, 30.89110851287842], [60.08776859518927, 30.843129158020023]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Зелногорск, Комаровский берег',
+        url: './maps/forest/zelenogorsk_komarovsky_bereg.webp',
+        link: './original_maps/forest/zelenogorsk_komarovsky_bereg_full.jpg',
+        bounds: [[60.20033623997278, 29.729690551757816], [60.18583027344266, 29.80496406555176], [60.18941469676139, 29.723253250122074]],
         types: ['ORIENT'],
     },
     {
