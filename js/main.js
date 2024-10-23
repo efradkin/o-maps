@@ -172,7 +172,7 @@ var map = L.map('map', {
     zoomControl: false,
     center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
     zoom: savedState ? savedState.zoom : defaultZoom,
-    layers: [osmMap, parkGroup, cityGroup, forestGroup, group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear],
+    layers: [osmMap, parkGroup, cityGroup, forestGroup, reliefGroup, winterGroup, veloGroup, group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear],
     contextmenu: true,
     contextmenuWidth: 160,
     contextmenuItems: [{
