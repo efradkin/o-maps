@@ -46,6 +46,8 @@ var group2010th = L.layerGroup([]);
 var group2020th = L.layerGroup([]);
 var groupUnknownYear = L.layerGroup([]);
 
+var groupAll = L.layerGroup([]);
+
 let oMaps = [
     ...rogaineMaps,
     ...reliefMaps,
@@ -162,6 +164,8 @@ for (const m of oMaps) {
             }
         }
         mapOverlays.push(imgLayer);
+
+        imgLayer.addTo(groupAll);
     }
 }
 
@@ -172,7 +176,11 @@ var map = L.map('map', {
     zoomControl: false,
     center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
     zoom: savedState ? savedState.zoom : defaultZoom,
-    layers: [osmMap, parkGroup, cityGroup, forestGroup, reliefGroup, winterGroup, veloGroup, group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear],
+    layers: [
+        osmMap, parkGroup, cityGroup, forestGroup, reliefGroup, winterGroup, veloGroup,
+        group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
+        groupAll
+    ],
     contextmenu: true,
     contextmenuWidth: 160,
     contextmenuItems: [{
@@ -237,12 +245,13 @@ var overlayMaps = {
     "Рогейн": rogaineGroup,
     "Зимние": winterGroup,
     "Вело": veloGroup,
-    "<span class='first-age'>2020-е</span>": group2020th,
+    "<span class='layer-separator'>2020-е</span>": group2020th,
     "2010-е": group2010th,
     "2000-е": group2000th,
     "90-е": group90th,
     "Ретро": groupRetro,
     "???": groupUnknownYear,
+    "<span class='layer-separator'>Все</span>": groupAll,
 };
 
 var layerControl = L.control.layers(
