@@ -112,7 +112,7 @@ var forestMaps = [
     {
         name: 'Кузнечное - оз Волковское-Суури',
         year: 2019,
-        url: './maps/forest/kuznechnoe_suuri_2019.jpg',
+        url: './maps/forest/kuznechnoe_suuri_2019.webp',
         bounds: [[61.14435367217603, 29.88916397094727], [61.13689678153038, 29.96950149536133], [61.12479630189204, 29.879465103149418]],
         owner: 'SHEIN',
         types: ['ORIENT'],
@@ -154,7 +154,7 @@ var forestMaps = [
     {
         name: 'Луга - оз Омчино',
         year: 2021,
-        url: './maps/forest/luga_omchino_2021.jpg',
+        url: './maps/forest/luga_omchino_2021.webp',
         bounds: [[58.7249159620653, 29.768228530883793], [58.720459798173344, 29.826335906982425], [58.704814146669335, 29.762735366821293]],
         types: ['ORIENT'],
         info: 'Авторы: А.Ковязин, К.Токмаков, С.Воробей',
@@ -162,7 +162,7 @@ var forestMaps = [
     {
         name: 'Луга - Штоле',
         year: 2022,
-        url: './maps/forest/luga_shtole_2022.jpg',
+        url: './maps/forest/luga_shtole_2022.webp',
         bounds: [[58.7346506950973, 29.80603694915772], [58.732601503940764, 29.824790954589847], [58.723178126011526, 29.798913002014164]],
         owner: 'SHEIN',
         types: ['ORIENT'],
@@ -171,7 +171,7 @@ var forestMaps = [
     {
         name: 'Луга - Алёнка',
         year: 2022,
-        url: './maps/forest/luga_alenka_2022.jpg',
+        url: './maps/forest/luga_alenka_2022.webp',
         bounds: [[58.82262957770419, 29.91113662719727], [58.81956352271544, 29.952249526977543], [58.80125042024749, 29.90461349487305]],
         owner: 'SHEIN',
         types: ['ORIENT'],
@@ -180,7 +180,7 @@ var forestMaps = [
     {
         name: 'Луга - Зелёный Бор',
         year: 2021,
-        url: './maps/forest/luga_zeleny_bor_2021.jpg',
+        url: './maps/forest/luga_zeleny_bor_2021.webp',
         bounds: [[58.70978496598359, 29.80749607086182], [58.707422243479755, 29.835648536682132], [58.688313967069234, 29.80028629302979]],
         owner: 'SHEIN',
         types: ['ORIENT'],
@@ -189,7 +189,7 @@ var forestMaps = [
     {
         name: 'Каменка',
         year: 2015,
-        url: './maps/forest/kamenka_2015.jpg',
+        url: './maps/forest/kamenka_2015.webp',
         link: './original_maps/forest/kamenka_2015_full.jpg',
         bounds: [[60.43067179904046, 28.998327255249027], [60.425758199767614, 29.044847488403324], [60.40122145583028, 28.985109329223636]],
         owner: 'KURD',
