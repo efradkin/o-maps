@@ -711,4 +711,11 @@ var cityMaps = [
         owner: 'VST_PRZRSK',
         types: ['ORIENT', 'CITY'],
     },
+    {
+        name: 'Новая Ладога',
+        year: 2018,
+        url: './maps/city/novaja_ladoga_2018.webp',
+        bounds: [[60.11106573592594, 32.30748653411866], [60.11108712150635, 32.32293605804444], [60.10064930790749, 32.307572364807136]],
+        types: ['ORIENT', 'CITY'],
+    },
 ];
