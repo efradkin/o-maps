@@ -171,6 +171,7 @@ for (const m of oMaps) {
                 el.classList.add('full-size');
             }
         }
+        imgLayer.addTo(groupAll);
     }
 }
 
