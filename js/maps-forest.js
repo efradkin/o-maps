@@ -407,6 +407,7 @@ var forestMaps = [
         url: './maps/forest/orekhovo_1991.webp',
         link: './original_maps/forest/orekhovo_1991_full.jpg',
         bounds: [[60.47739855580294, 30.23875236511231], [60.47380332259927, 30.28535842895508], [60.44604317864724, 30.230598449707035]],
+        owner: 'WN',
         types: ['ORIENT'],
     },
     {
@@ -536,8 +537,8 @@ var forestMaps = [
     },
     {
         name: 'Матокса',
-        // url: './maps/forest/garbolovo_sirkkajarvi.webp',
-        url: './maps/white.png',
+        year: 2021,
+        url: './maps/forest/garbolovo_sirkkajarvi.webp',
         bounds: [[60.35374823320506, 30.551433563232425], [60.35043652818912, 30.583963394165043], [60.321423512137386, 30.541133880615238]],
         owner: 'WN',
         types: ['ORIENT'],
@@ -552,7 +553,7 @@ var forestMaps = [
         name: 'Лехтуси',
         year: 1990,
         url: './maps/forest/lehtusi_1990.webp',
-        link: './original_maps/forest/lehtusi_1990_full.jpg',
+        //link: './original_maps/forest/lehtusi_1990_full.jpg',
         bounds: [[60.30514284398862, 30.501480102539066], [60.29948734537272, 30.56130409240723], [60.27736622539905, 30.491609573364258]],
         types: ['ORIENT'],
     },
@@ -570,6 +571,7 @@ var forestMaps = [
         url: './maps/forest/lehtusi_valkijarvi_2016.webp',
         link: './original_maps/forest/lehtusi_valkijarvi_2016_full.jpg',
         bounds: [[60.27668533819831, 30.52705764770508], [60.27421700328666, 30.56207656860352], [60.25224913383907, 30.51864624023438]],
+        owner: ['WN','SHEIN'],
         types: ['ORIENT'],
     },
     {
@@ -881,15 +883,6 @@ var forestMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Красная Горка (Орово)',
-        year: 2016,
-        // url: './maps/forest/krasnaja_gorka_2016.jpg',
-        url: './maps/white.png',
-        bounds: [[59.98610861707403, 30.676574707031254], [59.97923856584645, 30.701293945312504], [59.962057199096314, 30.64773559570313]],
-        owner: 'WN',
-        types: ['ORIENT'],
-    },
-    {
         name: 'Пелеши',
         year: 2018,
         url: './maps/forest/peleshi_2018.webp',
@@ -914,6 +907,14 @@ var forestMaps = [
         name: 'Сиверская',
         url: './maps/forest/ragin_bor_2017.webp',
         bounds: [[60.06852373745732, 32.26736068725587], [60.066489419991676, 32.309331893920906], [60.05473074902389, 32.265043258667]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Красная Горка (Орово)',
+        year: 2016,
+        url: './maps/forest/krasnaja_gorka_2016.jpg',
+        bounds: [[59.97560974468024, 30.66666126251221], [59.97350527566231, 30.694985389709476], [59.95778194964003, 30.66271305084229]],
+        owner: 'WN',
         types: ['ORIENT'],
     },
 ];
