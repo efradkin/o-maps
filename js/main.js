@@ -165,7 +165,12 @@ for (const m of oMaps) {
         }
         mapOverlays.push(imgLayer);
 
-        imgLayer.addTo(groupAll);
+        if (m.link) {
+            let el = imgLayer.getElement();
+            if (el) {
+                el.classList.add('full-size');
+            }
+        }
     }
 }
 
