@@ -12,7 +12,7 @@ var owners = {
     RDNV_I: '© Родионов Иван',
     SHRNN: '© Ширинян А.А.',
     YUVNT: '© ЮВЕНТА',
-    VST_PRZRSK: '© Веста-Приозерск',
+    VST_PRZRSK: 'По вопросам использования - клуб <a href="https://vk.com/vesta_priozersk" target="_blank">Веста-Приозерск</a> (И.Скворцова ira-vesta@yandex.ru).',
     GLFSTRM: '© КСО "Гольфстрим"',
     GLTV_YU: '© ГБНОУ "СПб ГДТЮ", Юрий Гультяев - +79213017985, gultiaev@list.ru',
     SHKLV: '© Шкилев В.В. - 8 (921)7473259',
@@ -24,4 +24,5 @@ var owners = {
     KP31: 'Контакты правообладателя: controlpoint31@gmail.com.',
     TOKM: 'По вопросам использования карты обращайтесь к Константину Токмакову (<a href="mailto:tokma@bk.ru" target="_blank">tokma@bk.ru</a>).',
     YUVNT: 'По вопросам использования обращаться в ДДТиЭ "Ювента".',
+    RFAR: 'Права на использования карты принадлежат компании Red Fox и оргкомитету соревнований <a href="https://adventure-race.redfox.ru/" target="_blank">Red Fox Adventure Race</a>.',
 }
