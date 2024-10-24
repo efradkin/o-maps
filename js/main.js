@@ -63,8 +63,18 @@ for (const m of oMaps) {
     m.img.src = m.url;
 
     m.img.onload = function () {
-        if (THE_OWNER && THE_OWNER !== m.owner) {
-            return;
+        if (THE_OWNER) {
+            if (Array.isArray(m.owner)) {
+                let own = false;
+                for (const o of m.owner) {
+                    if (THE_OWNER === o) {
+                        own = true; break;
+                    }
+                }
+                if (!own) return;
+            } else {
+                if (THE_OWNER !== m.owner) return;
+            }
         }
         let bounds;
         if (m.bounds.length === 3) {
