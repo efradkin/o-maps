@@ -199,6 +199,10 @@ var map = L.map('map', {
     contextmenu: true,
     contextmenuWidth: 160,
     contextmenuItems: [{
+        text: 'Приветствие',
+        icon: 'images/handshake.png',
+        callback: openWelcome
+    }, '-', {
         text: 'Координаты',
         callback: showCoordinates
     }, {
@@ -287,7 +291,7 @@ marker2.on('dragend', onDragEnd);
 marker3.on('dragend', onDragEnd);
 
 // --- ruler (https://github.com/gokertanrisever/leaflet-ruler) ---
-var options = {
+var rulerOptions = {
     position: 'topleft',
     lengthUnit: {
         display: 'км',
@@ -302,9 +306,16 @@ var options = {
         label: 'Азимут:'
     }
 };
-L.control.ruler(options).addTo(map);
+L.control.ruler(rulerOptions).addTo(map);
 
- // --- functions ---
+// --- welcome dialog (https://github.com/NBTSolutions/Leaflet.Dialog) ---
+welcomeDialog = L.control.dialog(dialogOptions).setContent(welcomeDialogContent).addTo(map);
+if (localStorage.getItem('welcomeOpened') == null) {
+    openWelcome();
+    localStorage.setItem('welcomeOpened', true);
+}
+
+// --- functions ---
 
 function mapLink(url) {
     return location.origin + '?map=' + extractFilename(url);
