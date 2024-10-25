@@ -46,7 +46,7 @@ var group2010th = L.layerGroup([]);
 var group2020th = L.layerGroup([]);
 var groupUnknownYear = L.layerGroup([]);
 
-var groupAll = L.layerGroup([]);
+var groupAllOrient = L.layerGroup([]);
 
 let oMaps = [
     ...rogaineMaps,
@@ -172,8 +172,8 @@ for (const m of oMaps) {
             } else {
                 imgLayer.addTo(groupRetro);
             }
+            imgLayer.addTo(groupAllOrient);
         }
-        imgLayer.addTo(groupAll);
         mapOverlays.push(imgLayer);
 
         if (m.link) {
@@ -259,14 +259,14 @@ var overlayMaps = {
     "Гидро-рельефные": reliefGroup,
     "Зимние": winterGroup,
     "Вело": veloGroup,
-    "Рогейн": rogaineGroup,
+    "Все": groupAllOrient,
     "<span class='layer-separator'>2020-е</span>": group2020th,
     "2010-е": group2010th,
     "2000-е": group2000th,
     "90-е": group90th,
     "Ретро": groupRetro,
     "???": groupUnknownYear,
-    "<span class='layer-separator'>Все</span>": groupAll,
+    "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
 };
 
 var layerControl = L.control.layers(
