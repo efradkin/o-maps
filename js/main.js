@@ -173,6 +173,7 @@ for (const m of oMaps) {
                 imgLayer.addTo(groupRetro);
             }
         }
+        imgLayer.addTo(groupAll);
         mapOverlays.push(imgLayer);
 
         if (m.link) {
@@ -181,7 +182,6 @@ for (const m of oMaps) {
                 el.classList.add('full-size');
             }
         }
-        imgLayer.addTo(groupAll);
     }
 }
 
