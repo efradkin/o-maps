@@ -199,8 +199,8 @@ var map = L.map('map', {
     contextmenu: true,
     contextmenuWidth: 160,
     contextmenuItems: [{
-        text: 'Приветствие',
-        icon: 'images/handshake.png',
+        text: 'О проекте',
+        icon: 'images/information.png',
         callback: openWelcome
     }, '-', {
         text: 'Координаты',
@@ -370,6 +370,7 @@ function onMapSelect(ovrl, map) {
 function onMapClick(e) {
     let coordinate = e.latlng.lat + ", " + e.latlng.lng;
     navigator.clipboard.writeText(coordinate);
+    welcomeDialog.close();
     console.log(coordinate);
 }
 
