@@ -273,9 +273,13 @@ var overlayMaps = {
     "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
 };
 
+var layerControlCollapsed = false;
+if (L.Browser.android || L.Browser.mobile) {  // || L.Browser.touch || L.Browser.retina
+    layerControlCollapsed = true;
+}
 var layerControl = L.control.layers(
     baseMaps, overlayMaps,
-    {collapsed: false, autoZIndex: false}).addTo(map);
+    {collapsed: layerControlCollapsed, autoZIndex: false}).addTo(map);
 
 // Set bounds for the overlay
 //map.fitBounds(oMap.getBounds());
