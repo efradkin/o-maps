@@ -11,7 +11,7 @@ var forestMaps = [
     },
     {
         name: 'Сосново, оз Уловное',
-        year: 1991,
+        year: 1981,
         url: './maps/forest/sosnovo_ulovnoe_oz_1981.webp',
         link: './original_maps/forest/sosnovo_ulovnoe_oz_1981_full.jpg',
         bounds: [[60.60871025400445, 30.213346481323246], [60.606477645123114, 30.2699089050293], [60.57706019379461, 30.204162597656254]],
@@ -804,6 +804,14 @@ var forestMaps = [
         year: 2002,
         url: './maps/forest/vasilievo_2002.webp',
         bounds: [[60.87174426906526, 29.8214864730835], [60.86978057310173, 29.845819473266605], [60.854317471753944, 29.817366600036625]],
+        owner: 'VST_PRZRSK',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Васильево',
+        year: 2024,
+        url: './maps/forest/vasilievo_2024.webp',
+        bounds: [[60.87020883624216, 29.823331832885742], [60.868673329579174, 29.83599185943604], [60.86174696355457, 29.818053245544437]],
         owner: 'VST_PRZRSK',
         types: ['ORIENT'],
     },

@@ -317,7 +317,7 @@ var cityMaps = [
     {
         name: 'Школа №536',
         year: 2013,
-        url: './maps/city/kosmonavtov_2013.jpg',
+        url: './maps/city/kosmonavtov_2013.webp',
         bounds: [[59.865385856119765, 30.348358154296875], [59.86585984125349, 30.359086990356445], [59.85591551036147, 30.349946022033695]],
         owner: 'KUZM',
         types: ['ORIENT', 'CITY'],
