@@ -95,33 +95,7 @@ for (const m of oMaps) {
             });
 
         // map popup
-        let popup = '<b>' + m.name;
-        if (m.year) {
-            popup += ' (' + m.year + ')';
-        }
-        popup += '</b><hr />';
-        let info = m.info;
-        let link = m.link;
-        if (info) {
-            popup += info + '<br />';
-        }
-        if (m.owner) {
-            // console.log(owner, Array.isArray(owner))
-            if (Array.isArray(m.owner)) {
-                for (const o of m.owner) {
-                    // console.log(o)
-                    popup += owners[o] + '<br />';
-                }
-            } else {
-                popup += owners[m.owner] + '<br />';
-            }
-        }
-        if (link) {
-            popup += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
-        } else {
-            popup += 'Посмотреть отдельно можно <a href="' + m.url + '" target="_blank">тут</a>.';
-        }
-        popup += '<br /><a href="' + mapLink(m.url) + '" target="_blank">Ссылка на эту карту</a>.';
+        let popup = buildPopupText(m);
         imgLayer.bindPopup(popup);
         imgLayer.on('mouseover', function (e) {
             if (!editMode && enablePopup) {
@@ -321,6 +295,39 @@ if (localStorage.getItem('welcomeOpened') == null) {
 
 // --- functions ---
 
+function buildPopupText(map) {
+    let result = '<b>' + map.name;
+    if (map.year) {
+        result += ' (' + map.year + ')';
+    }
+    result += '</b><hr />';
+    let info = map.info;
+    let link = map.link;
+    if (info) {
+        result += info + '<br />';
+    }
+    if (map.owner) {
+        // console.log(owner, Array.isArray(owner))
+        if (Array.isArray(map.owner)) {
+            for (const o of map.owner) {
+                // console.log(o)
+                result += owners[o] + '<br />';
+            }
+        } else {
+            result += owners[map.owner] + '<br />';
+        }
+    }
+    if (link) {
+        result += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
+    } else {
+        result += 'Посмотреть карту отдельно можно <a href="' + map.url + '" target="_blank">тут</a>.';
+    }
+    let mapLinkUrl = mapLink(map.url);
+    let onclick = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
+    result += '<br />Поделиться <a href="' + mapLinkUrl + '" target="_blank">ссылкой</a> на эту карту. <a href="#" ' + onclick + ' target="_blank"><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
+    return result;
+}
+
 function mapLink(url) {
     return location.origin + '?map=' + extractFilename(url);
 }
@@ -373,9 +380,8 @@ function onMapSelect(ovrl, map) {
 
 function onMapClick(e) {
     let coordinate = e.latlng.lat + ", " + e.latlng.lng;
-    navigator.clipboard.writeText(coordinate);
+    copyToClipboard(coordinate);
     welcomeDialog.close();
-    console.log(coordinate);
 }
 
 function setOverlayOpacity(opacity) {
@@ -390,8 +396,7 @@ function repositionImage(doLog) {
     let point3 = marker3.getLatLng();
     if (doLog) {
         let coordinates = "[[" + point1.lat + ", " + point1.lng + "], [" + point2.lat + ", " + point2.lng + "], [" + point3.lat + ", " + point3.lng + "]],";
-        navigator.clipboard.writeText(coordinates);
-        console.log(coordinates);
+        copyToClipboard(coordinates);
     }
     if (selectedOverlay) {
         selectedOverlay.reposition(point1, point2, point3);
@@ -404,6 +409,16 @@ function onDrag() {
 
 function onDragEnd() {
     repositionImage(true);
+}
+
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text)
+        .then(() => {
+            console.log(`Copied text to clipboard: ${text}`);
+        })
+        .catch((error) => {
+            console.error(`Could not copy text: ${error}`);
+        });
 }
 
 // --- context menu functions ---
