@@ -299,6 +299,14 @@ var rogaineMaps = [
         owner: 'RFAR',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Мичуринское',
+        year: 2014,
+        url: './maps/rogaine/michurinskoe_redfox_2014.webp',
+        bounds: [[60.64230709708608, 29.853286743164066], [60.628670493777555, 30.02099990844727], [60.574741060738916, 29.833545684814457]],
+        owner: ['RFAR','WN'],
+        types: ['ROGAINE'],
+    },
 /*
     {
         //  Бобочинский полигон
