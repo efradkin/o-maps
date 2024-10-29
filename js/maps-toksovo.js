@@ -191,6 +191,13 @@ var toksovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Мистолово',
+        year: 2006,
+        url: './maps/forest/toksovo/mistolovo_2006.webp',
+        bounds: [[60.11780150698152, 30.38848400115967], [60.115385341248704, 30.424661636352543], [60.10133385603849, 30.38350582122803]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Охта-Парк',
         year: 2021,
         url: './maps/parks/okhta-park_2021.webp',
