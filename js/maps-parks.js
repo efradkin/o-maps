@@ -1,4 +1,4 @@
-// types can be ORIENT, ROGAINE, PARK, CITY, PARK, RELIEF
+// types can be ORIENT, ROGAINE, PARK, CITY, PARK, RELIEF, VELO
 var parkMaps = [
     // --- городские парки ---
     {

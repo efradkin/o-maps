@@ -18,6 +18,13 @@ var forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Зеленогорск, Дружинное оз',
+        year: 2002,
+        url: './maps/forest/zelenogorsk_druzhinnoe_2002.webp',
+        bounds: [[60.238213486482735, 29.735012054443363], [60.235571812167706, 29.771876335144047], [60.219290990416546, 29.729990959167484]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Зеленогорск - Комарово',
         year: 1992,
         url: './maps/forest/zelenogorsk_komarovo_1992.webp',
@@ -54,6 +61,14 @@ var forestMaps = [
         url: './maps/forest/repino_1983.webp',
         link: './original_maps/forest/repino_1983_full.jpg',
         bounds: [[60.21176583711235, 29.819898605346683], [60.208567657083265, 29.868822097778324], [60.191740095427, 29.814362525939945]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Солнечное, Дюны',
+        year: 2007,
+        url: './maps/forest/solnechnoe-djuny_2007.webp',
+        bounds: [[60.148063386777785, 29.929761886596683], [60.14502990577005, 29.97053146362305], [60.130435379117884, 29.924783706665043]],
+        owner: 'FSOSPB',
         types: ['ORIENT'],
     },
     {
@@ -1141,6 +1156,14 @@ var forestMaps = [
         url: './maps/forest/ilychevo-simagino_2015.webp',
         bounds: [[60.29259737065101, 29.79303359985352], [60.28749274926003, 29.867534637451175], [60.24347489664209, 29.77277755737305]],
         owner: 'FSOSPB',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Серово',
+        year: 2023,
+        url: './maps/forest/serovo_2023.webp',
+        bounds: [[60.210379997386596, 29.554939270019535], [60.206605952377515, 29.59300518035889], [60.19752087731289, 29.54978942871094]],
+        owner: 'RDNV_I',
         types: ['ORIENT'],
     },
     {
