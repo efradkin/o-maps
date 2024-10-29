@@ -318,10 +318,12 @@ function buildPopupText(map) {
     if (map.owner) {
         // console.log(owner, Array.isArray(owner))
         if (Array.isArray(map.owner)) {
+            result += 'Владельцы:<ol>'
             for (const o of map.owner) {
                 // console.log(o)
-                result += owners[o] + '<br />';
+                result += '<li>' + owners[o] + '</li>';
             }
+            result += '</ol>'
         } else {
             result += owners[map.owner] + '<br />';
         }
