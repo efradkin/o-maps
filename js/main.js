@@ -273,6 +273,17 @@ marker1.on('dragend', onDragEnd);
 marker2.on('dragend', onDragEnd);
 marker3.on('dragend', onDragEnd);
 
+// --- welcome dialog (https://github.com/NBTSolutions/Leaflet.Dialog) ---
+welcomeDialog = L.control.dialog(dialogOptions).setContent(welcomeDialogContent).addTo(map);
+if (localStorage.getItem('welcomeOpened') == null) {
+    openWelcome();
+    localStorage.setItem('welcomeOpened', true);
+}
+
+L.easyButton('welcome-icon', function(btn, map) {
+    openWelcome();
+}, 'О проекте').addTo(map)
+
 // --- ruler (https://github.com/gokertanrisever/leaflet-ruler) ---
 var rulerOptions = {
     position: 'topleft',
@@ -290,13 +301,6 @@ var rulerOptions = {
     }
 };
 L.control.ruler(rulerOptions).addTo(map);
-
-// --- welcome dialog (https://github.com/NBTSolutions/Leaflet.Dialog) ---
-welcomeDialog = L.control.dialog(dialogOptions).setContent(welcomeDialogContent).addTo(map);
-if (localStorage.getItem('welcomeOpened') == null) {
-    openWelcome();
-    localStorage.setItem('welcomeOpened', true);
-}
 
 // --- functions ---
 
