@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="js/ext/ZoomBar/L.Control.ZoomBar.css"/>
     <link rel="stylesheet" href="js/ext/Leaflet.Dialog/Leaflet.Dialog.css"/>
     <link rel="stylesheet" href="js/ext/Leaflet.EasyButton/easy-button.css"/>
+    <link rel="stylesheet" href="js/ext/leaflet-slider/leaflet-slider.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link
             rel="stylesheet"
@@ -30,20 +31,6 @@
 <body>
     <div id="map"></div>
     <div id="counter"></div>
-    <div id="opacityControls">
-        Непрозрачность карт:
-        <button onclick='setOverlayOpacity(0)'>0%</button>
-        <button onclick='setOverlayOpacity(0.1)'>10%</button>
-        <button onclick='setOverlayOpacity(0.2)'>20%</button>
-        <button onclick='setOverlayOpacity(0.3)'>30%</button>
-        <button onclick='setOverlayOpacity(0.4)'>40%</button>
-        <button onclick='setOverlayOpacity(0.5)'>50%</button>
-        <button onclick='setOverlayOpacity(0.6)'>60%</button>
-        <button onclick='setOverlayOpacity(0.7)'>70%</button>
-        <button onclick='setOverlayOpacity(0.8)'>80%</button>
-        <button onclick='setOverlayOpacity(0.9)'>90%</button>
-        <button onclick='setOverlayOpacity(1)'>100%</button>
-    </div>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
@@ -51,6 +38,7 @@
     <script src="js/ext/ZoomBar/L.Control.ZoomBar.js"></script>
     <script src="js/ext/Leaflet.Dialog/Leaflet.Dialog.js"></script>
     <script src="js/ext/Leaflet.EasyButton/easy-button.js"></script>
+    <script src="js/ext/leaflet-slider/leaflet-slider.js"></script>
     <script
             src="https://cdn.jsdelivr.net/gh/gokertanrisever/leaflet-ruler@master/src/leaflet-ruler.js"
             integrity="sha384-8SqKZR7V8uOetpjjbcNJHvwuHpb074WS0UXjCLhzfJUqYn3B/uWx1WVv5mwRp1mV"

@@ -37,6 +37,7 @@ function locateMap(mapName) {
 }
 
 function setOverlayOpacity(opacity) {
+    mapOpacity = opacity;
     for (const map of mapOverlays) {
         map.setOpacity(opacity);
     }

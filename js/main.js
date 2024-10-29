@@ -18,6 +18,7 @@ let maxZindex = 1;
 let enablePopup = false;
 
 let editMode = false;
+let mapOpacity = 1;
 let selectedOverlay, selectedMap;
 
 let mapOverlays = [];
@@ -285,7 +286,7 @@ L.easyButton('welcome-icon', function(btn, map) {
 }, 'О проекте').addTo(map)
 
 // --- ruler (https://github.com/gokertanrisever/leaflet-ruler) ---
-var rulerOptions = {
+let rulerOptions = {
     position: 'topleft',
     lengthUnit: {
         display: 'км',
@@ -301,6 +302,24 @@ var rulerOptions = {
     }
 };
 L.control.ruler(rulerOptions).addTo(map);
+
+// --- slider (https://github.com/Eclipse1979/leaflet-slider) ---
+let sliderOptions = {
+    id: 'opacitySlider',
+    orientation: 'vertical',
+    title: 'Прозрачность карт',
+    min: 0,
+    max: 1,
+    step: .1,
+    size: '100px',
+    position: 'topleft',
+    value: mapOpacity,
+    logo: '⛅',
+    showValue: false,
+    syncSlider: true
+};
+let opacitySlider = L.control.slider(function(value) {setOverlayOpacity(value);}, sliderOptions).addTo(map);
+
 
 // --- functions ---
 
@@ -405,8 +424,10 @@ function editModeSwitch (e) {
         marker3.setLatLng(ZERO_LATLNG);
         setOverlayOpacity(1);
     } else {
-        setOverlayOpacity(0.5);
+        setOverlayOpacity(.5);
     }
+    opacitySlider.setValue(mapOpacity);
+    // map.removeControl(opacitySlider);
 }
 
 function popupsSwitch (e) {
