@@ -10,6 +10,7 @@ var owners = {
     ZCHNV: '© Зачиняев В.А.',
     ELTSV: '© Ельцов Денис',
     RDNV_I: '© Родионов Иван',
+    MTRNCHV: '© Матреничев Вячеслав',
     SHRNN: '© Ширинян А.А.',
     YUVNT: '© ЮВЕНТА',
     VST_PRZRSK: 'По вопросам использования - клуб <a href="https://vk.com/vesta_priozersk" target="_blank">Веста-Приозерск</a> (И.Скворцова ira-vesta@yandex.ru).',
