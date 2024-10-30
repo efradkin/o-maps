@@ -447,4 +447,12 @@ var parkMaps = [
         owner: 'FSOSPB',
         types: ['ORIENT', 'PARK'],
     },
+    {
+        name: 'Всеволожск, Румболовский парк',
+        year: 2014,
+        url: './maps/parks/vsevolozhsk_rumbolovo_2014.webp',
+        bounds: [[60.04215354531248, 30.63297271728516], [60.04129632127576, 30.651855468750004], [60.03469495084697, 30.631041526794437]],
+        owner: 'WN',
+        types: ['ORIENT', 'PARK'],
+    },
 ];
