@@ -2,6 +2,14 @@
 var toksovoMaps = [
     // --- ТОКСОВО ---
     {
+        name: 'Токсово, Малиновая гора',
+        year: 1997,
+        url: './maps/forest/toksovo/toksovo_malinovaya_gora_1997.webp',
+        link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_1997_full.jpg',
+        bounds: [[60.18600096914166, 30.451011657714847], [60.18105043355454, 30.51959037780762], [60.14906736463016, 30.439338684082035]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Сярьги',
         year: 1991,
         url: './maps/forest/toksovo/sjargi_1991.webp',

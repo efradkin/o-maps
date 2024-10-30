@@ -181,6 +181,21 @@ var forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Сосново, Чёрный лес',
+        year: 1986,
+        url: './maps/forest/sosnovo_black_forest_1986.webp',
+        link: './original_maps/forest/sosnovo_black_forest_1986_full.jpg',
+        bounds: [[60.54052506459614, 30.245018005371097], [60.53744342689857, 30.319004058837894], [60.508470137955726, 30.241327285766605]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Замостье',
+        url: './maps/forest/zamostie.webp',
+        link: './original_maps/forest/zamostie_full.jpg',
+        bounds: [[60.54272002483506, 30.322780609130863], [60.539132031840055, 30.37779808044434], [60.51565252342285, 30.314540863037113]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Орловский парк',
         year: 1980,
         url: './maps/forest/orlovsky_park_1980.webp',
@@ -427,6 +442,20 @@ var forestMaps = [
         year: 1993,
         url: './maps/forest/gatchina_prioratsky_1993.webp',
         bounds: [[59.56337553311358, 30.105199813842777], [59.563071167965695, 30.13584136962891], [59.54445618473496, 30.103740692138675]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Девяткино',
+        year: 1997,
+        url: './maps/forest/devjatkino_1997.webp',
+        bounds: [[60.06466913487058, 30.42346000671387], [60.06573990298703, 30.452299118041996], [60.045132225832454, 30.4182243347168]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Шапки',
+        year: 2010,
+        url: './maps/forest/shapki_2010.webp',
+        bounds: [[59.6156854113636, 31.140747070312504], [59.61160434543937, 31.20151519775391], [59.59284243327236, 31.134738922119144]],
         types: ['ORIENT'],
     },
     {
