@@ -9,4 +9,10 @@ var veloMaps = [
         owner: 'MTRNCHV',
         types: ['ORIENT', 'VELO'],
     },
+    {
+        name: 'Пухтолова гора',
+        url: './maps/velo/pukhtolova_gora.webp',
+        bounds: [[60.25603921789568, 29.63441848754883], [60.251354780368175, 29.691495895385746], [60.228732294909875, 29.625320434570316]],
+        types: ['ORIENT', 'VELO'],
+    },
 ];

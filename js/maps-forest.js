@@ -49,11 +49,25 @@ var forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Рощино',
+        url: './maps/forest/roschino.webp',
+        bounds: [[60.28506777489139, 29.588584899902347], [60.284004132905885, 29.64145660400391], [60.26561893464418, 29.586868286132816]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Песочная',
         year: 2005,
         url: './maps/forest/pesochnaya_2005.webp',
         link: './original_maps/forest/pesochnaya_2005_full.jpg',
         bounds: [[60.122654684605095, 30.111250877380375], [60.11705315601863, 30.18030166625977], [60.10689528234335, 30.10640144348145]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Ольгино',
+        year: 1997,
+        url: './maps/forest/olgino_1997.webp',
+        link: './original_maps/forest/olgino_1997_full.jpg',
+        bounds: [[60.06068557237958, 30.07490158081055], [60.055630467498005, 30.140132904052738], [60.023825535526576, 30.060739517211918]],
         types: ['ORIENT'],
     },
     {

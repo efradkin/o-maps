@@ -361,6 +361,12 @@ var parkMaps = [
         types: ['ORIENT', 'PARK'],
     },
     {
+        name: 'Сестрорецк, сквер Пограничников',
+        url: './maps/parks/sestroretsk_skver_pogranichnikov.webp',
+        bounds: [[60.11275515399254, 29.971089363098148], [60.110199608247775, 29.985723495483402], [60.105922100518434, 29.96630430221558]],
+        types: ['ORIENT', 'PARK'],
+    },
+    {
         name: 'Ржевский лесопарк',
         info: 'Полигон Middle Cup',
         url: './maps/parks/rzhevsky_2024.webp',

@@ -4,7 +4,7 @@ const THE_OWNER = urlParams.get('owner');
 const MAP_NAME = urlParams.get('map');
 let loaded = false;
 
-const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Спортивные карты <a href="https://t.me/orient_spb" target="_blank">СПб и области</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
+const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Спорт. карты <a href="https://t.me/orient_spb" target="_blank">СПб и области</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
 
 // Initialize the map
 const ZERO_LATLNG = new L.LatLng(0, 0);
