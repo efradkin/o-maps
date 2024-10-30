@@ -52,6 +52,7 @@ var groupAllOrient = L.layerGroup([]);
 let oMaps = [
     ...rogaineMaps,
     ...reliefMaps,
+    ...winterMaps,
     ...veloMaps,
     ...forestMaps,
     ...toksovoMaps,
@@ -121,6 +122,10 @@ for (const m of oMaps) {
         if (m.types.includes('RELIEF')) {
             added = true;
             imgLayer.addTo(reliefGroup);
+        }
+        if (m.types.includes('WINTER')) {
+            added = true;
+            imgLayer.addTo(winterGroup);
         }
         if (m.types.includes('VELO')) {
             added = true;
