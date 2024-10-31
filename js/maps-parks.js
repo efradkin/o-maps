@@ -461,4 +461,19 @@ var parkMaps = [
         owner: 'WN',
         types: ['ORIENT', 'PARK'],
     },
+    {
+        name: 'парк Есенина',
+        year: 2014,
+        url: './maps/parks/esenina_2014.webp',
+        bounds: [[59.91496683629783, 30.47916412353516], [59.914568846991216, 30.49088001251221], [59.907264358045, 30.478713512420658]],
+        types: ['ORIENT', 'PARK'],
+    },
+    {
+        name: 'Шуваловский парк',
+        year: 1988,
+        url: './maps/parks/shuvalovsky_park_1988.webp',
+        link: './original_maps/parks/shuvalovsky_park_1988_full.jpg',
+        bounds: [[60.08522181178067, 30.27892112731934], [60.082739043608704, 30.322523117065433], [60.0687806949504, 30.272741317749027]],
+        types: ['ORIENT', 'PARK'],
+    },
 ];

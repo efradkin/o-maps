@@ -2,6 +2,14 @@
 var toksovoMaps = [
     // --- ТОКСОВО ---
     {
+        name: 'оз Хепоярви, восток',
+        year: 1985,
+        url: './maps/forest/toksovo/hepojarvi_east_1985.webp',
+        link: './original_maps/forest/toksovo/hepojarvi_east_1985_full.jpg',
+        bounds: [[60.19342537315118, 30.609111785888675], [60.18996939397238, 30.662240982055668], [60.14898192089998, 30.59872627258301]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Токсово, Малиновая гора',
         year: 1997,
         url: './maps/forest/toksovo/toksovo_malinovaya_gora_1997.webp',
@@ -52,10 +60,19 @@ var toksovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Токсово - юг',
+        name: 'Токсово - юг,запад',
+        year: 1983,
+        url: './maps/forest/toksovo/toksovo_south_west_1983.webp',
+        link: './original_maps/forest/toksovo/toksovo_south_west_1983_full.jpg',
+        bounds: [[60.15453530155787, 30.44998168945313], [60.1514169802039, 30.51066398620606], [60.113760209697055, 30.441055297851566]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Токсово - юг,восток',
         year: 1982,
         url: './maps/forest/toksovo/toksovo_south_1982.webp',
-        bounds: [[60.14893919895161, 30.47693252563477], [60.146247604300065, 30.531435012817386], [60.11311868832047, 30.468606948852543]],
+        link: './original_maps/forest/toksovo/toksovo_south_1982_full.jpg',
+        bounds: [[60.14898192089998, 30.47590255737305], [60.146247604300065, 30.531435012817386], [60.112990382545355, 30.467834472656254]],
         types: ['ORIENT'],
     },
     {
