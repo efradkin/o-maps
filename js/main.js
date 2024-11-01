@@ -60,6 +60,8 @@ let oMaps = [
     ...cityMaps,
 ];
 
+const TOTAL_MAPS = oMaps.length;
+
 // Overlay the maps
 for (const m of oMaps) {
     m.img = new Image();
@@ -141,6 +143,13 @@ for (const m of oMaps) {
         }
         if (!added) {
             imgLayer.addTo(forestGroup);
+        }
+
+        if (m.zindex) {
+            let el = imgLayer.getElement();
+            if (el) {
+                el.style.zIndex = m.zindex;
+            }
         }
 
         if (!m.types.includes('ROGAINE')) {
@@ -359,7 +368,7 @@ function buildPopupText(map) {
     }
     let mapLinkUrl = mapLink(map.url);
     let onclick = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
-    result += '<br />Поделиться <a href="' + mapLinkUrl + '" target="_blank">ссылкой</a> на эту карту. <a href="#" ' + onclick + ' target="_blank"><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
+    result += '<br />Поделиться <a href="' + mapLinkUrl + '" target="_blank">ссылкой</a> на карту: <a href="#" ' + onclick + ' target="_blank"><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
     return result;
 }
 
