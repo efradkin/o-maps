@@ -60,6 +60,7 @@ var forestMaps = [
         url: './maps/forest/pesochnaya_2005.webp',
         link: './original_maps/forest/pesochnaya_2005_full.jpg',
         bounds: [[60.122654684605095, 30.111250877380375], [60.11705315601863, 30.18030166625977], [60.10689528234335, 30.10640144348145]],
+        owner: 'SHKLV',
         types: ['ORIENT'],
     },
     {
@@ -486,6 +487,7 @@ var forestMaps = [
         name: 'Шапки',
         year: 2010,
         url: './maps/forest/shapki_2010.webp',
+        link: './original_maps/forest/shapki_2010_full.jpg',
         bounds: [[59.6156854113636, 31.140747070312504], [59.61160434543937, 31.20151519775391], [59.59284243327236, 31.134738922119144]],
         types: ['ORIENT'],
     },
@@ -495,6 +497,7 @@ var forestMaps = [
         url: './maps/forest/shapki_otime_2020.webp',
         bounds: [[59.59822886857503, 31.170444488525394], [59.59875009071161, 31.21267318725586], [59.5807197983505, 31.17130279541016]],
         info: 'Ковидный полигон от O-Time',
+        owner: 'NKLSK',
         types: ['ORIENT'],
     },
     {
@@ -728,6 +731,7 @@ var forestMaps = [
         name: 'Гарболово, Змеиное оз',
         url: './maps/forest/garbolovo_zmeinoe_2014.webp',
         bounds: [[60.34459776766185, 30.50036430358887], [60.34098782928523, 30.5390739440918], [60.33213117104195, 30.495214462280277]],
+        owner: ['SHEIN','SCHLKHN_AN'],
         types: ['ORIENT'],
     },
     {
@@ -766,6 +770,7 @@ var forestMaps = [
     {
         name: 'Невская Дубровка',
         url: './maps/forest/nevskaya_dubrovka.webp',
+        link: './original_maps/forest/nevskaya_dubrovka_full.jpg',
         bounds: [[59.862466389665045, 30.91333866119385], [59.86143212605905, 30.930547714233402], [59.84972977927792, 30.909948348999027]],
         types: ['ORIENT'],
     },
@@ -1023,18 +1028,21 @@ var forestMaps = [
     {
         name: 'пл Теплобетонная',
         url: './maps/forest/teplobetonnaya.webp',
+        link: './original_maps/forest/teplobetonnaya_full.jpg',
         bounds: [[59.88131451786498, 30.955009460449222], [59.879936274048134, 30.971488952636722], [59.860290089303376, 30.946426391601566]],
         types: ['ORIENT'],
     },
     {
         name: 'Приютино',
         url: './maps/forest/prijutino_2016.webp',
+        link: './original_maps/forest/prijutino_2016_full.jpg',
         bounds: [[60.011751363177375, 30.580916404724125], [60.012158911595996, 30.59722423553467], [60.00196869398139, 30.582718849182132]],
         types: ['ORIENT'],
     },
     {
         name: 'Проба',
         url: './maps/forest/proba.webp',
+        link: './original_maps/forest/proba_full.jpg',
         bounds: [[60.11540672402396, 30.75081825256348], [60.11339668245151, 30.78854084014893], [60.098531397053165, 30.74687004089356]],
         types: ['ORIENT'],
     },
@@ -1048,6 +1056,7 @@ var forestMaps = [
         name: 'Рахья',
         year: 2007,
         url: './maps/forest/rakhja_south_2007.webp',
+        link: './original_maps/forest/rakhja_south_2007_full.jpg',
         bounds: [[60.09157770227037, 30.848064422607425], [60.089181012087195, 30.879821777343754], [60.082332365483836, 30.84544658660889]],
         types: ['ORIENT'],
     },

@@ -219,6 +219,7 @@ var toksovoMaps = [
         name: 'Мистолово',
         year: 2006,
         url: './maps/forest/toksovo/mistolovo_2006.webp',
+        link: './original_maps/forest/toksovo/mistolovo_2006_full.jpg',
         bounds: [[60.11780150698152, 30.38848400115967], [60.115385341248704, 30.424661636352543], [60.10133385603849, 30.38350582122803]],
         types: ['ORIENT'],
     },

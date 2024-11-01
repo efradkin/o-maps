@@ -13,6 +13,8 @@ var owners = {
     SCHLKHN_AN: '© Шелёхин Анатолий',
     MTRNCHV: '© Матреничев Вячеслав',
     SHRNN: '© Ширинян А.А.',
+    SHKLV: '© Виталий Шкилев',
+    NKLSK: '© Артём Никольский',
     YUVNT: '© ЮВЕНТА',
     VST_PRZRSK: 'По вопросам использования - клуб <a href="https://vk.com/vesta_priozersk" target="_blank">Веста-Приозерск</a> (И.Скворцова ira-vesta@yandex.ru).',
     GLFSTRM: '© КСО "Гольфстрим"',
