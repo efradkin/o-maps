@@ -1,6 +1,6 @@
 // types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF, WINTER, VELO
 var southMaps = [
-    // --- ПРИОЗЕРСК - КУЗНЕЧНОЕ ---
+    // --- Юг ЛО (Сосновый Бор, Луга, Гатчина, Кириши) ---
     {
         name: 'Туутари',
         year: 1983,
