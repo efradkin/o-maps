@@ -496,6 +496,7 @@ var parkMaps = [
         year: 2023,
         url: './maps/parks/kirishi_skver_sportivny_2023.webp',
         bounds: [[59.454520376667574, 32.026691436767585], [59.45308085117713, 32.0353388786316], [59.44722396790875, 32.02255010604859]],
+        owner: 'MLV_AL',
         types: ['ORIENT', 'PARK'],
     },
 ];

@@ -814,4 +814,12 @@ var cityMaps = [
         owner: 'KKM',
         types: ['ORIENT', 'CITY'],
     },
+    {
+        name: 'Кириши, турклуб "Ассоль"',
+        year: 2024,
+        url: './maps/city/kirishi_assol_2024.webp',
+        bounds: [[59.443329724371836, 32.00637102127076], [59.44143152718366, 32.018194198608406], [59.43894407308288, 32.00364589691163]],
+        owner: 'MLV_AL',
+        types: ['ORIENT', 'CITY'],
+    },
 ];

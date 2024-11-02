@@ -29,4 +29,6 @@ var owners = {
     TOKM: 'По вопросам использования карты обращайтесь к Константину Токмакову (<a href="mailto:tokma@bk.ru" target="_blank">tokma@bk.ru</a>).',
     YUVNT: 'По вопросам использования обращаться в ДДТиЭ "Ювента".',
     RFAR: 'Права на использования карты принадлежат компании Red Fox и оргкомитету соревнований <a href="https://adventure-race.redfox.ru/" target="_blank">Red Fox Adventure Race</a>.',
+    MLV_AL: '© Малов Алексей, leshamalov@yandex.ru',
+    EGRV_SRG: '© Егоров С.И., kinef-o@mail.ru',
 }
