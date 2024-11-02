@@ -250,7 +250,7 @@ var toksovoMaps = [
     {
         name: 'Осельки',
         year: 2015,
-        url: './maps/forest/oselki_2015.webp',
+        url: './maps/forest/toksovo/oselki_2015.webp',
         bounds: [[60.231694130261396, 30.48465728759766], [60.22903062138403, 30.516800880432132], [60.210849057387684, 30.47912120819092]],
         owner: ['WN','SHEIN'],
         types: ['ORIENT'],
