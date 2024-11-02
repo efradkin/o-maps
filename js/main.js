@@ -191,6 +191,8 @@ const savedState = loadMapState();
 var map = L.map('map', {
     attributionControl: false,
     zoomControl: false,
+    minZoom: 10,
+    maxZoom: 16,
     center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
     zoom: savedState ? savedState.zoom : defaultZoom,
     layers: [
