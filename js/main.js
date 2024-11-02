@@ -56,6 +56,7 @@ let oMaps = [
     ...veloMaps,
     ...forestMaps,
     ...sosnovoMaps,
+    ...michuraMaps,
     ...vaskelovoMaps,
     ...toksovoMaps,
     ...parkMaps,
