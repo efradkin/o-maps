@@ -49,7 +49,7 @@ var vsevolozhskMaps = [
     {
         name: 'Красная Горка (Орово)',
         year: 2016,
-        url: './maps/forest/vsevolozhsk/krasnaja_gorka_2016.jpg',
+        url: './maps/forest/vsevolozhsk/krasnaja_gorka_2016.webp',
         bounds: [[59.97560974468024, 30.66666126251221], [59.97350527566231, 30.694985389709476], [59.95778194964003, 30.66271305084229]],
         owner: 'WN',
         types: ['ORIENT'],

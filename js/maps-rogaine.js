@@ -4,9 +4,9 @@ var rogaineMaps = [
     {
         name: 'Крестовский остров - ККМ',
         year: 2024,
-        url: './maps/rogaine/kkm/krestovsky_KKM_2024.jpg',
+        url: './maps/rogaine/kkm/krestovsky_KKM_2024.webp',
         link: 'https://kkmstart.ru/marshrut-№6-2024/',
-        bounds: [[59.98645208220945, 30.187597274780277], [59.98585101588345, 30.273513793945316], [59.964592011112174, 30.188112258911136]],
+        bounds: [[59.986065683681495, 30.188369750976566], [59.986237416917476, 30.273771286010746], [59.964377204056234, 30.188970565795902]],
         owner: 'KKM',
         types: ['ROGAINE'],
     },
@@ -31,7 +31,7 @@ var rogaineMaps = [
     {
         name: 'Петергоф - ККМ-март',
         year: 2023,
-        url: './maps/rogaine/kkm/peterhof_KKM_2023_03.jpg',
+        url: './maps/rogaine/kkm/peterhof_KKM_2023_03.webp',
         link: 'https://kkmstart.ru/marshrut-№3-2023/',
         bounds: [[59.891305076568734, 29.884271621704105], [59.891132851001714, 29.97653961181641], [59.85714389849079, 29.88461494445801]],
         owner: 'KKM',
@@ -58,7 +58,7 @@ var rogaineMaps = [
     {
         name: 'Сестрорецк - ККМ-май',
         year: 2024,
-        url: './maps/rogaine/kkm/sestroretsk_KKM_2024_05.jpg',
+        url: './maps/rogaine/kkm/sestroretsk_KKM_2024_05.webp',
         link: 'https://kkmstart.ru/marshrut-№5-2024/',
         bounds: [[60.130820091007536, 29.91731643676758], [60.13124754338759, 30.013790130615238], [60.05935761134086, 29.91731643676758]],
         owner: 'KKM',
@@ -105,7 +105,7 @@ var rogaineMaps = [
     {
         name: 'Ржевский лесопарк',
         year: 2023,
-        url: './maps/rogaine/rzhevsky_rogaine_2023.jpg',
+        url: './maps/rogaine/rzhevsky_rogaine_2023.webp',
         bounds: [[59.97722021736102, 30.491437911987305], [59.97520174583225, 30.55727005004883], [59.95157218793088, 30.48568725585938]],
         types: ['ROGAINE'],
         owner: 'RDNV_I',
