@@ -527,14 +527,6 @@ var forestMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Лосево',
-        year: 2005,
-        url: './maps/forest/losevo_2005.webp',
-        link: './original_maps/forest/losevo-2005.gif',
-        bounds: [[60.695241510752176, 29.892425537109375], [60.68944357380662, 30.01078605651856], [60.67120266901343, 29.88813400268555]],
-        types: ['ORIENT'],
-    },
-    {
         name: 'Тарховка',
         year: 1987,
         url: './maps/forest/tarkhovka_1987.webp',
