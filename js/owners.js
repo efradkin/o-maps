@@ -3,6 +3,7 @@ var owners = {
     BKTV: 'Все карты <a href="https://t.me/beketov" target="_blank">Константина Бекетова</a> можно свободно использовать в некоммерческих целях.',
     BVZ: '© Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru" target="_blank">Tanya-9-8@ya.ru</a>]',
     EGRV_SRG: '© Егоров С.И., kinef-o@mail.ru',
+    EGRV_EGR: '© Егоров Е.А.',
     ELTSV: '© Ельцов Денис',
     ELZRV: 'По вопросам использования - Владимир Елизаров orunner1@gmail.com',
     FSOSPB: 'Карта принадлежит СФСО СПб. По вопросам использования - info@spbof.ru.',
