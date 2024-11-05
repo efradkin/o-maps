@@ -46,9 +46,11 @@ var parkMaps = [
     },
     {
         name: 'Полюстровский парк',
-        year: 2014,
-        url: './maps/parks/polyustrovsky_2014.webp',
-        bounds: [[59.9683938654938, 30.418868064880375], [59.96832943091918, 30.431528091430668], [59.959489967225764, 30.419061183929447]],
+        year: 2022,
+        url: './maps/parks/polyustrovsky_2022.webp',
+        link: './original_maps/parks/polyustrovsky_2022_full.jpg',
+        bounds: [[59.96915633177583, 30.420584678649906], [59.968082430555185, 30.433566570281986], [59.96020967154, 30.41796684265137]],
+        owner: 'RDNV_I',
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -84,9 +86,11 @@ var parkMaps = [
     },
     {
         name: 'Парк Лесотехнической академии',
-        year: 2012,
-        url: './maps/parks/lesotekchnicheskaya_2012.webp',
-        bounds: [[59.998127776277705, 30.330462455749515], [59.99647540074863, 30.355160236358643], [59.99042313898724, 30.328295230865482]],
+        year: 2024,
+        url: './maps/parks/lesotekchnicheskaya_2024.webp',
+        link: './original_maps/parks/lesotekchnicheskaya_2024_full.jpg',
+        bounds: [[59.99796683423708, 30.330204963684086], [59.996421750809226, 30.353980064392093], [59.99045533479755, 30.328638553619385]],
+        owner: 'RDNV_I',
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -432,9 +436,10 @@ var parkMaps = [
     },
     {
         name: 'Ржевский лесопарк',
-        info: 'Полигон Middle Cup',
+        year: 2024,
         url: './maps/parks/rzhevsky_2024.webp',
-        bounds: [[59.97221675923303, 30.495557785034183], [59.970090597514485, 30.54379463195801], [59.95460200942064, 30.491952896118168]],
+        link: './original_maps/parks/rzhevsky_2024_full.jpg',
+        bounds: [[59.98001151778878, 30.49615859985352], [59.972538893040515, 30.55855751037598], [59.95165814413096, 30.484828948974613]],
         owner: 'RDNV_I',
         types: ['ORIENT', 'PARK'],
     },

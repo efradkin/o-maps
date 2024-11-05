@@ -177,6 +177,15 @@ var toksovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Токсово - Малиновая гора',
+        year: 2013,
+        url: './maps/forest/toksovo/toksovo_malinovaya_gora_2013.webp',
+        link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_2013_full.jpg',
+        bounds: [[60.17641930011107, 30.462856292724613], [60.173644575557304, 30.497488975524906], [60.16412335429406, 30.459079742431644]],
+        owner: 'RDNV_I',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Токсово - оз Кривое',
         year: 2014,
         url: './maps/forest/toksovo/toksovo_krivoe_2014.webp',

@@ -184,4 +184,22 @@ var vaskelovoMaps = [
         owner: 'WN',
         types: ['ORIENT'],
     },
+    {
+        name: 'Лемболово',
+        year: 2024,
+        url: './maps/forest/vaskelovo/lembolovo_2024.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_2024_full.jpg',
+        bounds: [[60.445492813989986, 30.259523391723636], [60.43689744859958, 30.369987487792972], [60.38858565746125, 30.23995399475098]],
+        owner: 'RDNV_I',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Орехово',
+        year: 2024,
+        url: './maps/forest/vaskelovo/orekhovo_2024.webp',
+        link: './original_maps/forest/vaskelovo/orekhovo_2024_full.jpg',
+        bounds: [[60.49139502141355, 30.270080566406254], [60.4788788301667, 30.390758514404297], [60.443714649069115, 30.24973869323731]],
+        owner: 'RDNV_I',
+        types: ['ORIENT'],
+    },
 ];
