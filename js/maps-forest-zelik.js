@@ -106,6 +106,14 @@ var zelikMaps = [
     },
     {
         name: 'Зеленогорск, Дружинное оз',
+        year: 1995,
+        url: './maps/forest/zelik/zelenogorsk_chertovo_oz_1995.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_chertovo_oz_1995_full.jpg',
+        bounds: [[60.240024188580975, 29.76204872131348], [60.2312892908627, 29.77380752563477], [60.23047959706192, 29.734926223754886]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Зеленогорск, Дружинное оз',
         year: 2002,
         url: './maps/forest/zelik/zelenogorsk_druzhinnoe_2002.webp',
         bounds: [[60.238213486482735, 29.735012054443363], [60.235571812167706, 29.771876335144047], [60.219290990416546, 29.729990959167484]],
@@ -165,6 +173,14 @@ var zelikMaps = [
         url: './maps/forest/zelik/ilychevo-simagino_2015.webp',
         bounds: [[60.29259737065101, 29.79303359985352], [60.28749274926003, 29.867534637451175], [60.24347489664209, 29.77277755737305]],
         owner: 'FSOSPB',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Комарово',
+        year: 1990,
+        url: './maps/forest/zelik/komarovo_1990.webp',
+        link: './original_maps/forest/zelik/komarovo_1990_full.jpg',
+        bounds: [[60.18559556540752, 29.80496406555176], [60.175245406790275, 29.856591224670414], [60.17349516066162, 29.794921875000004]],
         types: ['ORIENT'],
     },
     {
