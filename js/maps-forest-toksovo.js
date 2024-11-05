@@ -268,7 +268,7 @@ var toksovoMaps = [
         name: 'Лехтуси',
         year: 1990,
         url: './maps/forest/toksovo/lehtusi_1990.webp',
-        link: './original_maps/forest/lehtusi_1990_full.jpg',
+        link: './original_maps/forest/toksovo/lehtusi_1990_full.jpg',
         bounds: [[60.30514284398862, 30.501480102539066], [60.29948734537272, 30.56130409240723], [60.27736622539905, 30.491609573364258]],
         types: ['ORIENT'],
     },
