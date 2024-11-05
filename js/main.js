@@ -362,12 +362,15 @@ function buildPopupText(map) {
         if (Array.isArray(map.owner)) {
             result += 'Владельцы:<ol>'
             for (const o of map.owner) {
-                // console.log(o)
-                result += '<li>' + owners[o] + '</li>';
+                if (owners[o]) {
+                    result += '<li>' + owners[o] + '</li>';
+                }
             }
             result += '</ol>'
         } else {
-            result += owners[map.owner] + '<br />';
+            if (owners[map.owner]) {
+                result += owners[map.owner] + '<br />';
+            }
         }
     }
     if (link) {
