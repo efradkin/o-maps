@@ -82,11 +82,26 @@ var zelikMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Зеленогорск - Комарово',
+        year: 1992,
+        url: './maps/forest/zelik/zelenogorsk_komarovo_1992.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_komarovo_1992_full.jpg',
+        bounds: [[60.217521775369605, 29.73810195922852], [60.21257599321435, 29.803161621093754], [60.1930413934332, 29.728660583496097]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Зеленогорск, "Прибой"',
         year: 1992,
         url: './maps/forest/zelik/zelenogorsk_priboy_1992.webp',
         link: './original_maps/forest/zelik/zelenogorsk_priboy_1992_full.jpg',
         bounds: [[60.22736848216193, 29.720420837402347], [60.22250943804349, 29.776210784912113], [60.19709428614133, 29.71140861511231]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Зеленогорск, оз Щучье',
+        year: 2021,
+        url: './maps/forest/zelik/zelenogorsk_priboy_2021.webp',
+        bounds: [[60.22702752010804, 29.745526313781742], [60.22255206436886, 29.79753971099854], [60.203535222535606, 29.73711490631104]],
         types: ['ORIENT'],
     },
     {
@@ -103,14 +118,6 @@ var zelikMaps = [
         link: './original_maps/forest/zelik/zelenogorsk_druzhinnoe_2024_full.jpg',
         bounds: [[60.24373049018684, 29.735698699951175], [60.24040761853822, 29.776124954223636], [60.21909915243553, 29.72582817077637]],
         owner: 'RDNV_I',
-        types: ['ORIENT'],
-    },
-    {
-        name: 'Зеленогорск - Комарово',
-        year: 1992,
-        url: './maps/forest/zelik/zelenogorsk_komarovo_1992.webp',
-        link: './original_maps/forest/zelik/zelenogorsk_komarovo_1992_full.jpg',
-        bounds: [[60.217521775369605, 29.73810195922852], [60.21257599321435, 29.803161621093754], [60.1930413934332, 29.728660583496097]],
         types: ['ORIENT'],
     },
     {
@@ -297,6 +304,14 @@ var zelikMaps = [
         url: './maps/forest/zelik/pastorskoe_2024.webp',
         bounds: [[60.25263242070603, 29.988126754760746], [60.24522141278221, 30.060052871704105], [60.22809301475002, 29.97756958007813]],
         owner: 'FSOSPB',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Молодёжное',
+        year: 2003,
+        url: './maps/forest/zelik/molodezhnoe_2003.webp',
+        link: './original_maps/forest/zelik/molodezhnoe_2003_full.jpg',
+        bounds: [[60.203002080434125, 29.531786441802982], [60.20167985063764, 29.54835176467896], [60.19703029698733, 29.530413150787357]],
         types: ['ORIENT'],
     },
 ];

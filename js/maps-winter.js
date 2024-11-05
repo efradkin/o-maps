@@ -65,4 +65,13 @@ var winterMaps = [
         owner: 'EGRV_SRG',
         types: ['ORIENT', 'WINTER'],
     },
+    {
+        name: 'Сосновка, лыжный полигон',
+        year: 2023,
+        url: './maps/winter/sosnovka_winter_2023.webp',
+        link: 'https://o-site.spb.ru/race.php?id=poligon2024',
+        bounds: [[60.02691307031582, 30.330419540405277], [60.02258186362895, 30.369000434875492], [60.01312413781251, 30.324454307556152]],
+        owner: 'FSOSPB',
+        types: ['ORIENT', 'WINTER', 'PARK'],
+    },
 ];
