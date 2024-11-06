@@ -137,6 +137,14 @@ var sosnovoMaps = [
     },
     {
         name: 'Кривко, оз Уловное',
+        year: 1992,
+        url: './maps/forest/sosnovo/krivko_ulovnoe_1992.webp',
+        link: './original_maps/forest/sosnovo/krivko_ulovnoe_1992_full.jpg',
+        bounds: [[60.61582829627545, 30.21471977233887], [60.614017345690115, 30.26063919067383], [60.575753066539036, 30.2094841003418]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Кривко, оз Уловное',
         year: 2021,
         url: './maps/forest/sosnovo/krivko_2021.webp',
         bounds: [[60.628838882073644, 30.19051551818848], [60.62332370820346, 30.245618820190433], [60.59678717557373, 30.177726745605472]],

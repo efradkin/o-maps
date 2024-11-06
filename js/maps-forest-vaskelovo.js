@@ -113,6 +113,15 @@ var vaskelovoMaps = [
     },
     {
         name: 'Стеклянный',
+        year: 1982,
+        url: './maps/forest/vaskelovo/stekljanny_1982.webp',
+        link: './original_maps/forest/vaskelovo/stekljanny_1982_full.jpg',
+        bounds: [[60.37955102391165, 30.228838920593265], [60.37628436589373, 30.284028053283695], [60.35047898807388, 30.22150039672852]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Стеклянный',
+        year: 2024,
         url: './maps/forest/vaskelovo/stekljanny_2024.webp',
         bounds: [[60.375966167411484, 30.230083465576175], [60.37272036537475, 30.27390003204346], [60.35519169168648, 30.223174095153812]],
         owner: 'WN',
@@ -155,6 +164,14 @@ var vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/orekhovo_1991_full.jpg',
         bounds: [[60.47739855580294, 30.23875236511231], [60.47380332259927, 30.28535842895508], [60.44604317864724, 30.230598449707035]],
         owner: 'WN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Орехово, Ракитинское оз',
+        year: 1997,
+        url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_1997.webp',
+        link: './original_maps/forest/vaskelovo/orekhovo_rakitinskoe_1997_full.jpg',
+        bounds: [[60.46868471522234, 30.329475402832035], [60.46597702620726, 30.38423538208008], [60.443545294953346, 30.323724746704105]],
         types: ['ORIENT'],
     },
     {
