@@ -2,6 +2,14 @@
 var michuraMaps = [
     // --- ТОКСОВО ---
     {
+        name: 'Ягодное',
+        year: 1990,
+        url: './maps/forest/michura/yagodnoe_1990.webp',
+        link: './original_maps/forest/michura/yagodnoe_1990_full.jpg',
+        bounds: [[60.63704674527589, 29.95044708251953], [60.63090156734067, 30.02451896667481], [60.61254324110497, 29.94186401367188]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Борисово',
         year: 1988,
         url: './maps/forest/michura/borisovo_1988.webp',

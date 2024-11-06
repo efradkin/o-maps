@@ -109,6 +109,14 @@ var vsevolozhskMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'им Морозова',
+        year: 2021,
+        url: './maps/forest/vsevolozhsk/morozova_2021.webp',
+        bounds: [[59.98432683448194, 31.039381027221683], [59.9807629815427, 31.07289791107178], [59.96895229322324, 31.03272914886475]],
+        info: 'Автор: Виктор Рылов.',
+        types: ['ORIENT'],
+    },
+    {
         name: 'пл Теплобетонная',
         url: './maps/forest/vsevolozhsk/teplobetonnaya.webp',
         link: './original_maps/forest/vsevolozhsk/teplobetonnaya_full.jpg',

@@ -816,6 +816,13 @@ var cityMaps = [
         types: ['ORIENT', 'CITY'],
     },
     {
+        name: 'Кириши, ЦД "КИНЕФ"',
+        url: './maps/city/kirishi_kinef.webp',
+        bounds: [[59.458522371686364, 32.00763702392579], [59.45659231333937, 32.02115535736085], [59.44589321242389, 32.00053453445435]],
+        owner: 'EGRV_SRG',
+        types: ['ORIENT', 'CITY'],
+    },
+    {
         name: 'Кириши, турклуб "Ассоль"',
         year: 2024,
         url: './maps/city/kirishi_assol_2024.webp',

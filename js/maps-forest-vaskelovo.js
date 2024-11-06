@@ -2,6 +2,30 @@
 var vaskelovoMaps = [
     // --- ВАСКЕЛОВО - ГРУЗИНО - ЛЕМБОЛОВО - ОРЕХОВО ---
     {
+        name: 'Лемболово, юз',
+        year: 1991,
+        url: './maps/forest/vaskelovo/lembolovo_south_west_1991.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_south_west_1991_full.jpg',
+        bounds: [[60.42791858057857, 30.266990661621097], [60.42228434534471, 30.342006683349613], [60.399610452340696, 30.2589225769043]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Лемболово, св',
+        year: 1991,
+        url: './maps/forest/vaskelovo/lembolovo_north_east_1991.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_north_east_1991_full.jpg',
+        bounds: [[60.44701687789359, 30.30509948730469], [60.44121658634549, 30.379428863525394], [60.42075912129117, 30.296773910522464]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Лемболово-Орехово',
+        year: 1995,
+        url: './maps/forest/vaskelovo/lembolovo_orekhovo_1995.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_1995_full.jpg',
+        bounds: [[60.4479482150824, 30.235576629638675], [60.4409201932774, 30.3398609161377], [60.4233434866285, 30.22845268249512]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'оз Силанде',
         year: 1992,
         url: './maps/forest/vaskelovo/silande_1992.webp',
