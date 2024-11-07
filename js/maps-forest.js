@@ -165,6 +165,22 @@ var forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Яппиля',
+        year: 1980,
+        url: './maps/forest/yappilya_1980.webp',
+        link: './original_maps/forest/yappilya_1980_full.jpg',
+        bounds: [[60.2367222449044, 29.171104431152344], [60.233142988183936, 29.22646522521973], [60.221230622509864, 29.167156219482425]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Яппиля',
+        year: 1999,
+        url: './maps/forest/yappilya_1999.webp',
+        link: './original_maps/forest/yappilya_1999_full.jpg',
+        bounds: [[60.20214903505169, 29.16428089141846], [60.19801145030488, 29.23848152160645], [60.176163181510255, 29.15754318237305]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Яппиля, оз Пистолет',
         year: 2024,
         url: './maps/forest/yappilya_2024.webp',
@@ -178,14 +194,6 @@ var forestMaps = [
         url: './maps/forest/yappilya_tarasovskoe_2024.webp',
         bounds: [[60.28281281280947, 29.109477996826175], [60.27234434911475, 29.23118591308594], [60.22583412498815, 29.08767700195313]],
         owner: ['GLTV_YU', 'GLFSTRM'],
-        types: ['ORIENT'],
-    },
-    {
-        name: 'Яппиля',
-        year: 1980,
-        url: './maps/forest/yappilya_1980.webp',
-        link: './original_maps/forest/yappilya_1980_full.jpg',
-        bounds: [[60.2367222449044, 29.171104431152344], [60.233142988183936, 29.22646522521973], [60.221230622509864, 29.167156219482425]],
         types: ['ORIENT'],
     },
     {
