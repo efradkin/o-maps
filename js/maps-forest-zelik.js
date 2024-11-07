@@ -316,6 +316,22 @@ var zelikMaps = [
     },
     {
         name: 'Пасторское оз',
+        year: 2009,
+        url: './maps/forest/zelik/pastorskoe_2009.webp',
+        link: './original_maps/forest/zelik/pastorskoe_2009_full.jpg',
+        bounds: [[60.239150803592146, 30.046105384826664], [60.234847444906805, 30.095286369323734], [60.226835727394075, 30.041813850402836]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Пасторское оз',
+        year: 2003,
+        url: './maps/forest/zelik/pastorskoe_2003.webp',
+        link: './original_maps/forest/zelik/pastorskoe_2003_full.jpg',
+        bounds: [[60.24965118236976, 30.00997066497803], [60.24443336215138, 30.06889343261719], [60.22547183572975, 30.002160072326664]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Пасторское оз',
         year: 2024,
         url: './maps/forest/zelik/pastorskoe_2024.webp',
         bounds: [[60.25263242070603, 29.988126754760746], [60.24522141278221, 30.060052871704105], [60.22809301475002, 29.97756958007813]],
