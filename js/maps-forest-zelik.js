@@ -284,6 +284,22 @@ var zelikMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Тарховка',
+        year: 1980,
+        url: './maps/forest/zelik/tarkhovka_1980.webp',
+        link: './original_maps/forest/zelik/tarkhovka_1980_full.jpg',
+        bounds: [[60.07237788969751, 29.945511817932132], [60.07150003907007, 29.974865913391117], [60.058950644841026, 29.944224357604984]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Лисий Нос - Лахта',
+        year: 1986,
+        url: './maps/forest/zelik/lisy_nos_1986.webp',
+        link: './original_maps/forest/zelik/lisy_nos_1986_full.jpg',
+        bounds: [[60.010678843334446, 30.013790130615238], [60.006281148244774, 30.071082115173343], [59.999372368285684, 30.009799003601078]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Сестрорецк, Таможенная дорога',
         year: 2012,
         url: './maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012.webp',
