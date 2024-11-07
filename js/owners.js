@@ -2,6 +2,7 @@ var owners = {
     BBCH_A: '© Бибич Андрей - <a href="https://vk.com/id7840054" target="_blank">ВК</a> или <a href="https://t.me/andy_atta" target="_blank">Telegram</a>.',
     BKTV: 'Все карты <a href="https://t.me/beketov" target="_blank">Константина Бекетова</a> можно свободно использовать в некоммерческих целях.',
     BVZ: '© Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru" target="_blank">Tanya-9-8@ya.ru</a>]',
+    CHGRVSKY_M: 'По вопросам использования карты обращаться к Михаилу Чегаровскому (+79213300490)',
     EGRV_SRG: '© Егоров С.И., kinef-o@mail.ru',
     EGRV_EGR: '© Егоров Е.А.',
     ELTSV: '© Ельцов Денис',

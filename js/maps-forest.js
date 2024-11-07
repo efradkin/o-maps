@@ -261,17 +261,12 @@ var forestMaps = [
     },
     {
         name: 'Медное оз',
-        url: './maps/forest/mednoe_oz.webp',
-        bounds: [[60.23043698104455, 30.111551284790043], [60.22553576941925, 30.172491073608402], [60.20310870954749, 30.10185241699219]],
-        types: ['ORIENT'],
-    },
-    {
-        name: 'Медное оз',
         year: 2001,
         url: './maps/forest/mednoe_svetloe_2001.webp',
         link: './original_maps/forest/mednoe_svetloe_2001_full.jpg',
         bounds: [[60.2216142724076, 30.143222808837894], [60.219504142412404, 30.169401168823246], [60.20643536381548, 30.13785839080811]],
         types: ['ORIENT'],
+        zindex: 2
     },
     {
         name: 'Кудрово',
