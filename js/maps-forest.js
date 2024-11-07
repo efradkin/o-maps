@@ -214,7 +214,9 @@ var forestMaps = [
     },
     {
         name: 'Каннельярви, оз Исток',
+        year: 2006,
         url: './maps/forest/kanneljarvi_istok.webp',
+        link: './original_maps/forest/kanneljarvi_bystrjanka_2006_full.jpg',
         bounds: [[60.371489846094434, 29.309291839599613], [60.3654638739312, 29.380359649658207], [60.34585053525739, 29.301223754882816]],
         types: ['ORIENT'],
     },
@@ -240,6 +242,13 @@ var forestMaps = [
         url: './maps/forest/gladyshevsky_zakaznik_1974.webp',
         link: './original_maps/forest/gladyshevsky_zakaznik_1974_full.jpg',
         bounds: [[60.270216202896975, 29.37332153320313], [60.270131074169086, 29.43923950195313], [60.22856182141975, 29.370231628417972]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Гладышевское оз',
+        year: 2017,
+        url: './maps/forest/gladyshevskoe_oz_2017.webp',
+        bounds: [[60.30601446912385, 29.317789077758793], [60.29963618682375, 29.36654090881348], [60.290513079858975, 29.31040763854981]],
         types: ['ORIENT'],
     },
     {
