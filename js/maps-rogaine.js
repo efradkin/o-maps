@@ -283,6 +283,15 @@ var rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
+        name: 'Кирилловское, оз Глубокое',
+        year: 2020,
+        url: './maps/rogaine/beketov/kirillovskoe_2020.webp',
+        link: './original_maps/rogaine/beketov/kirillovskoe_2020_full.jpg',
+        bounds: [[60.821987963321746, 29.06364440917969], [60.80976701409569, 29.647636413574222], [60.45755636255159, 29.036521911621097]],
+        owner: 'BKTV',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Балтиец, RFAR',
         year: 2021,
         url: './maps/rogaine/vjisotsk_rfar_2021.webp',
