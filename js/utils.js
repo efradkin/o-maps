@@ -73,3 +73,9 @@ function loadMapState() {
     }
     return null;
 }
+
+// считаем площадь в га
+// https://gis.stackexchange.com/questions/423601/leaftlet-map-with-carto-database-to-recalculate-area-on-polygon-edits
+function getArea(latLngs) {
+    return (L.GeometryUtil.geodesicArea(latLngs)*0.0002).toFixed(0);
+}

@@ -98,8 +98,13 @@ for (const m of oMaps) {
                 [m.bounds[0][0] - m.img.height * multiX, m.bounds[0][1]]
             ];
         }
+        let latLngs = [
+            L.latLng(bounds[0]),
+            L.latLng(bounds[1]),
+            L.latLng(bounds[2])
+        ];
         let imgLayer = L.imageOverlay.rotated(
-            m.url, L.latLng(bounds[0]), L.latLng(bounds[1]), L.latLng(bounds[2]),
+            m.url, latLngs[0], latLngs[1], latLngs[2],
             {
                 opacity: 1,
                 interactive: true,
@@ -107,7 +112,7 @@ for (const m of oMaps) {
             });
 
         // map popup
-        let popup = buildPopupText(m);
+        let popup = buildPopupText(m, latLngs);
         imgLayer.bindPopup(popup);
         imgLayer.on('mouseover', function (e) {
             if (!editMode && enablePopup) {
@@ -346,17 +351,26 @@ let opacitySlider = L.control.slider(function(value) {setOverlayOpacity(value);}
 
 // --- functions ---
 
-function buildPopupText(map) {
+function buildPopupText(map, latLngs) {
+    // имя
     let result = '<b>' + map.name;
     if (map.year) {
         result += ' (' + map.year + ')';
     }
+
+    // площадь
+    let area = getArea(latLngs);
+    result += ' - ' + area + ' га';
     result += '</b><hr />';
+
+    // инфа о карте
     let info = map.info;
     let link = map.link;
     if (info) {
         result += info + '<br />';
     }
+
+    // владелец
     if (map.owner) {
         // console.log(owner, Array.isArray(owner))
         if (Array.isArray(map.owner)) {
@@ -373,6 +387,8 @@ function buildPopupText(map) {
             }
         }
     }
+
+    // ссылки на просмотр и скачивание
     if (link) {
         result += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
     } else {
