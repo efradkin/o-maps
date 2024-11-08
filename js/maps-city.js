@@ -664,6 +664,14 @@ var cityMaps = [
         owner: 'SVCHK',
     },
     {
+        name: 'Сертолово, Пограничная ул',
+        year: 2024,
+        url: './maps/city/sertolovo_pogranichnaya_2024.webp',
+        bounds: [[60.146354417809526, 30.222294330596924], [60.144997860463, 30.23516893386841], [60.1407676058273, 30.21995544433594]],
+        types: ['ORIENT', 'CITY'],
+        owner: 'SVCHK',
+    },
+    {
         name: 'Сясьстрой',
         year: 2014,
         url: './maps/city/sjasstroy_2014.webp',
