@@ -360,7 +360,7 @@ function buildPopupText(map, latLngs) {
 
     // площадь
     let area = getArea(latLngs);
-    result += ' - ' + area + ' га';
+    result += ' - ' + area + ' км<sup>2</sup>';
     result += '</b><hr />';
 
     // инфа о карте
