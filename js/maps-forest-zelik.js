@@ -197,6 +197,20 @@ var zelikMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Рощино',
+        year: 2009,
+        url: './maps/forest/zelik/roschino_2009.webp',
+        bounds: [[60.27634488928318, 29.564423561096195], [60.27542991526678, 29.601931571960453], [60.263298771665085, 29.562621116638187]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Пухтолова гора',
+        year: 2009,
+        url: './maps/forest/zelik/pukhtolova_gora_2009.webp',
+        bounds: [[60.24266550392609, 29.629054069519047], [60.23987507571899, 29.678277969360355], [60.22879622224008, 29.625406265258793]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Пухтолова гора',
         year: 2023,
         url: './maps/forest/zelik/pukhtolova_gora_2023.webp',
