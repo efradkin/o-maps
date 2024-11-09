@@ -848,6 +848,14 @@ var cityMaps = [
         types: ['ORIENT', 'CITY'],
     },
     {
+        name: 'улица Новоселов',
+        year: 2000,
+        url: './maps/city/novoselov_2000.webp',
+        link: './original_maps/city/novoselov_2000_full.jpg',
+        bounds: [[59.8943619318266, 30.464186668396], [59.89251063054091, 30.491480827331547], [59.88277883930378, 30.462040901184086]],
+        types: ['ORIENT', 'CITY'],
+    },
+    {
         name: 'Луга, Толмачёво - СОЛ "Красногвардеец"',
         year: 2024,
         url: './maps/city/luga_krasnogvardeets_2024.webp',

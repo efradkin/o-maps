@@ -355,12 +355,12 @@ function buildPopupText(map, latLngs) {
     // имя
     let result = '<b>' + map.name;
     if (map.year) {
-        result += ' (' + map.year + ')';
+        result += '&nbsp;(' + map.year + ')';
     }
 
     // площадь
     let area = getArea(latLngs);
-    result += ' - ' + area + ' км<sup>2</sup>';
+    result += '&nbsp;-&nbsp;' + area + '&nbsp;км<sup>2</sup>';
     result += '</b><hr />';
 
     // инфа о карте
