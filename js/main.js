@@ -12,6 +12,8 @@ const multiX = 1e-5;
 const multiY = 2e-5;
 
 let map;
+let opacitySlider;
+let marker1, marker2, marker3;
 let loaded = false;
 
 let maxZindex = 1;
@@ -59,6 +61,7 @@ let oMaps = [
     ...southMaps,
     ...priozerskMaps,
     ...zelikMaps,
+    ...vyborgMaps,
     ...sosnovoMaps,
     ...michuraMaps,
     ...vaskelovoMaps,
@@ -295,9 +298,9 @@ if (mapElement) {
     // Set bounds for the overlay
     //map.fitBounds(oMap.getBounds());
 
-    let marker1 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
-    let marker2 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
-    let marker3 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
+    marker1 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
+    marker2 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
+    marker3 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
     marker1.on('drag', onDrag);
     marker2.on('drag', onDrag);
     marker3.on('drag', onDrag);
@@ -354,7 +357,7 @@ if (mapElement) {
         showValue: false,
         syncSlider: true
     };
-    let opacitySlider = L.control.slider(function(value) {setOverlayOpacity(value);}, sliderOptions).addTo(map);}
+    opacitySlider = L.control.slider(function(value) {setOverlayOpacity(value);}, sliderOptions).addTo(map);}
 
 // --- functions ---
 
