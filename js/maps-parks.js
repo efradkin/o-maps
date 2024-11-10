@@ -568,7 +568,7 @@ var parkMaps = [
         year: 2021,
         url: './maps/parks/vsevolozhsk_peschanka_2021.webp',
         bounds: [[60.034400216043906, 30.64094424247742], [60.0335427907553, 30.649087429046634], [60.03056842429522, 30.63917398452759]],
-        owner: 'SHEIN',
+        owner: 'INGR',
         types: ['ORIENT', 'PARK'],
     },
     {
