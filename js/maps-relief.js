@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, PARK, CITY, PARK, RELIEF, VELO
-var reliefMaps = [
+let reliefMaps = [
     // --- гидро-рельефные ---
     {
         name: 'Токсово, Оригон-1',

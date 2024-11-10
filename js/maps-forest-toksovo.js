@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF
-var toksovoMaps = [
+let toksovoMaps = [
     // --- ТОКСОВО ---
     {
         name: 'оз Хепоярви, восток',

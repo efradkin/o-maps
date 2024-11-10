@@ -1,18 +1,18 @@
-
 const urlParams = new URLSearchParams(window.location.search);
 const THE_OWNER = urlParams.get('owner');
 const MAP_NAME = urlParams.get('map');
-let loaded = false;
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Спорт. карты <a href="https://t.me/orient_spb" target="_blank">СПб и области</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
 
-// Initialize the map
 const ZERO_LATLNG = new L.LatLng(0, 0);
 const centerX = 59.944179;
 const centerY = 30.320337;
 
 const multiX = 1e-5;
 const multiY = 2e-5;
+
+let map;
+let loaded = false;
 
 let maxZindex = 1;
 let enablePopup = false;
@@ -23,11 +23,11 @@ let selectedOverlay, selectedMap;
 
 let mapOverlays = [];
 
-var osmMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+let osmMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 17,
     attribution: ATTRIBUTION
 });
-var openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+let openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
     maxZoom: 17,
     attribution: ATTRIBUTION
 });
@@ -193,10 +193,10 @@ for (const m of oMaps) {
 
 const defaultZoom = 11;
 
-var mapElement = document.getElementById('map');
+let mapElement = document.getElementById('map');
 if (mapElement) {
     const savedState = loadMapState();
-    var map = L.map('map', {
+    map = L.map('map', {
         attributionControl: false,
         zoomControl: false,
         minZoom: 10,
@@ -259,15 +259,15 @@ if (mapElement) {
     // Instantiate the ZoomBar control..
     new L.Control.ZoomBar({position: 'topleft'}).addTo(map);
 
-    var attributionControl = L.control.attribution().addTo(map);
+    let attributionControl = L.control.attribution().addTo(map);
     attributionControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a>');
 
-    var baseMaps = {
+    let baseMaps = {
         "Open Street Map": osmMap,
         "Open Topo Map": openTopoMap
     };
 
-    var overlayMaps = {
+    let overlayMaps = {
         "Город": cityGroup,
         "Парки": parkGroup,
         "Лес": forestGroup,
@@ -284,11 +284,11 @@ if (mapElement) {
         "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
     };
 
-    var layerControlCollapsed = false;
+    let layerControlCollapsed = false;
     if (L.Browser.android || L.Browser.mobile) {  // || L.Browser.touch || L.Browser.retina
         layerControlCollapsed = true;
     }
-    var layerControl = L.control.layers(
+    let layerControl = L.control.layers(
         baseMaps, overlayMaps,
         {collapsed: layerControlCollapsed, autoZIndex: false}).addTo(map);
 

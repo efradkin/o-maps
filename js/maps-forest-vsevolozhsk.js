@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF, WINTER, VELO
-var vsevolozhskMaps = [
+let vsevolozhskMaps = [
     // --- ВСЕВОЛОЖСК ---
     {
         name: 'Всеволожск',

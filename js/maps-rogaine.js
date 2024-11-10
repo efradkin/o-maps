@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF
-var rogaineMaps = [
+let rogaineMaps = [
     // --- рогейн ---
     {
         name: 'Крестовский остров - ККМ',

@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF, WINTER, VELO
-var southMaps = [
+let southMaps = [
     // --- Юг ЛО (Сосновый Бор, Луга, Гатчина, Кириши) ---
     {
         name: 'Туутари',

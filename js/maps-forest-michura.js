@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF
-var michuraMaps = [
+let michuraMaps = [
     // --- ТОКСОВО ---
     {
         name: 'Ягодное',

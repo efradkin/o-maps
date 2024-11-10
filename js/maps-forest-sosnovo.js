@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF
-var sosnovoMaps = [
+let sosnovoMaps = [
     // --- СОСНОВО - ПЕТЯЯРВИ - ЛОСЕВО ---
     {
         name: '69км, запад',

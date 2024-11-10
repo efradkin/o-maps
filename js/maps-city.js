@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF
-var cityMaps = [
+let cityMaps = [
     // --- городские кварталы ---
     {
         name: 'Лицей №470',

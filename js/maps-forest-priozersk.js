@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF, WINTER, VELO
-var priozerskMaps = [
+let priozerskMaps = [
     // --- ПРИОЗЕРСК - КУЗНЕЧНОЕ ---
     {
         name: 'Приозерск, за кладбищем',

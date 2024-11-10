@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, PARK, CITY, PARK, RELIEF, VELO, WINTER
-var winterMaps = [
+let winterMaps = [
     // --- зимние ---
     {
         name: 'Лемболово',

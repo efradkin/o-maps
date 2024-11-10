@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, PARK, CITY, PARK, RELIEF, VELO
-var parkMaps = [
+let parkMaps = [
     // --- городские парки ---
     {
         name: 'Парк Авиаторов',

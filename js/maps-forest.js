@@ -1,5 +1,5 @@
 // types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF
-var forestMaps = [
+let forestMaps = [
     // --- лесные карты ---
     {
         name: 'Цвелодубово',

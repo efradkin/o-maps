@@ -16,7 +16,7 @@ function recalculateLayers() {
 }
 
 function getImageOverlaysInView(total) {
-    var imgs = [];
+    let imgs = [];
     map.eachLayer( function(layer) {
         if(layer instanceof L.ImageOverlay) {
             let bounds = map.getBounds();
