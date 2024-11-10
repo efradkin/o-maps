@@ -36,14 +36,19 @@ label:has(> span span .layer-separator) {
 .full-size{
     border: dashed 2px mediumpurple;
 }
-.welcome-icon {
+.button-icon {
     display: block;
     height: 24px;
     width: 24px;
-    background-image: url(../images/information_24.png);
     background-repeat: no-repeat;
     background-position: center;
     margin: 2px -2px;
+}
+.welcome-icon {
+    background-image: url(../images/information_24.png);
+}
+.statistics-icon {
+    background-image: url(../images/statistics_24.png);
 }
 /*
 .leaflet-popup-content {
@@ -51,3 +56,21 @@ label:has(> span span .layer-separator) {
     border: 1px solid lightgray;
 }
 */
+
+/* --- CHARTS --- */
+.stat-body {
+    height: auto;
+    justify-items: center;
+    background-color: #bddab1;
+    padding: 10px;
+}
+.chart-container {
+    width: 400px;
+}
+.stat-map-link {
+    float: left;
+    margin-right: 40px;
+    background-color: white;
+    padding: 2px 10px;
+    border: 1px solid black;
+}

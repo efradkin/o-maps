@@ -32,22 +32,22 @@ var openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
     attribution: ATTRIBUTION
 });
 
-var winterGroup = L.layerGroup([]);
-var veloGroup = L.layerGroup([]);
-var reliefGroup = L.layerGroup([]);
-var rogaineGroup = L.layerGroup([]);
-var forestGroup = L.layerGroup([]);
-var parkGroup = L.layerGroup([]);
-var cityGroup = L.layerGroup([]);
+let winterGroup = L.layerGroup([]);
+let veloGroup = L.layerGroup([]);
+let reliefGroup = L.layerGroup([]);
+let rogaineGroup = L.layerGroup([]);
+let forestGroup = L.layerGroup([]);
+let parkGroup = L.layerGroup([]);
+let cityGroup = L.layerGroup([]);
 
-var groupRetro = L.layerGroup([]);
-var group90th = L.layerGroup([]);
-var group2000th = L.layerGroup([]);
-var group2010th = L.layerGroup([]);
-var group2020th = L.layerGroup([]);
-var groupUnknownYear = L.layerGroup([]);
+let groupRetro = L.layerGroup([]);
+let group90th = L.layerGroup([]);
+let group2000th = L.layerGroup([]);
+let group2010th = L.layerGroup([]);
+let group2020th = L.layerGroup([]);
+let groupUnknownYear = L.layerGroup([]);
 
-var groupAllOrient = L.layerGroup([]);
+let groupAllOrient = L.layerGroup([]);
 
 let oMaps = [
     ...rogaineMaps,
@@ -192,162 +192,169 @@ for (const m of oMaps) {
 }
 
 const defaultZoom = 11;
-const savedState = loadMapState();
-var map = L.map('map', {
-    attributionControl: false,
-    zoomControl: false,
-    minZoom: 10,
-    maxZoom: 16,
-    center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
-    zoom: savedState ? savedState.zoom : defaultZoom,
-    layers: [
-        osmMap, parkGroup, cityGroup, forestGroup, reliefGroup, winterGroup, veloGroup,
-        group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
-    ],
-    contextmenu: true,
-    contextmenuWidth: 160,
-    contextmenuItems: [{
-        text: 'О проекте',
-        icon: 'images/information.png',
-        callback: openWelcome
-    }, '-', {
-        text: 'Координаты',
-        callback: showCoordinates
-    }, {
-        text: 'Центр сюда',
-        callback: centerMap
-    }, '-', {
-        text: 'Увеличить',
-        icon: 'images/zoom-in.png',
-        callback: zoomIn
-    }, {
-        text: 'Уменьшить',
-        icon: 'images/zoom-out.png',
-        callback: zoomOut
-    }, '-', {
-        text: 'Всплыв.подсказки',
-        icon: 'images/popup.png',
-        callback: popupsSwitch
-    }, {
-        text: 'Редактирование',
-        icon: 'images/edit.png',
-        callback: editModeSwitch
-    }]
-});
 
-map.on('click', onMapClick);
-map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () { recalculateLayers();} );
-osmMap.on('load', function () {
-    recalculateLayers();
-    if (!loaded) {
-        loaded = true;
-        if (MAP_NAME) {
-            locateMap(MAP_NAME);
+var mapElement = document.getElementById('map');
+if (mapElement) {
+    const savedState = loadMapState();
+    var map = L.map('map', {
+        attributionControl: false,
+        zoomControl: false,
+        minZoom: 10,
+        maxZoom: 16,
+        center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
+        zoom: savedState ? savedState.zoom : defaultZoom,
+        layers: [
+            osmMap, parkGroup, cityGroup, forestGroup, reliefGroup, winterGroup, veloGroup,
+            group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
+        ],
+        contextmenu: true,
+        contextmenuWidth: 160,
+        contextmenuItems: [{
+            text: 'О проекте',
+            icon: 'images/information.png',
+            callback: openWelcome
+        }, '-', {
+            text: 'Координаты',
+            callback: showCoordinates
+        }, {
+            text: 'Центр сюда',
+            callback: centerMap
+        }, '-', {
+            text: 'Увеличить',
+            icon: 'images/zoom-in.png',
+            callback: zoomIn
+        }, {
+            text: 'Уменьшить',
+            icon: 'images/zoom-out.png',
+            callback: zoomOut
+        }, '-', {
+            text: 'Всплыв.подсказки',
+            icon: 'images/popup.png',
+            callback: popupsSwitch
+        }, {
+            text: 'Редактирование',
+            icon: 'images/edit.png',
+            callback: editModeSwitch
+        }]
+    });
+
+    map.on('click', onMapClick);
+    map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () { recalculateLayers();} );
+    osmMap.on('load', function () {
+        recalculateLayers();
+        if (!loaded) {
+            loaded = true;
+            if (MAP_NAME) {
+                locateMap(MAP_NAME);
+            }
         }
+    });
+
+    // Save the map state whenever the map is moved or zoomed
+    map.on('moveend', () => saveMapState(map));
+    map.on('zoomend', () => saveMapState(map));
+
+    L.control.scale().addTo(map);
+
+    // Instantiate the ZoomBar control..
+    new L.Control.ZoomBar({position: 'topleft'}).addTo(map);
+
+    var attributionControl = L.control.attribution().addTo(map);
+    attributionControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a>');
+
+    var baseMaps = {
+        "Open Street Map": osmMap,
+        "Open Topo Map": openTopoMap
+    };
+
+    var overlayMaps = {
+        "Город": cityGroup,
+        "Парки": parkGroup,
+        "Лес": forestGroup,
+        "Гидро-рельефные": reliefGroup,
+        "Зимние": winterGroup,
+        "Вело": veloGroup,
+        "Все": groupAllOrient,
+        "<span class='layer-separator'>2020-е</span>": group2020th,
+        "2010-е": group2010th,
+        "2000-е": group2000th,
+        "90-е": group90th,
+        "Ретро": groupRetro,
+        "???": groupUnknownYear,
+        "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
+    };
+
+    var layerControlCollapsed = false;
+    if (L.Browser.android || L.Browser.mobile) {  // || L.Browser.touch || L.Browser.retina
+        layerControlCollapsed = true;
     }
-});
+    var layerControl = L.control.layers(
+        baseMaps, overlayMaps,
+        {collapsed: layerControlCollapsed, autoZIndex: false}).addTo(map);
 
-// Save the map state whenever the map is moved or zoomed
-map.on('moveend', () => saveMapState(map));
-map.on('zoomend', () => saveMapState(map));
+    // Set bounds for the overlay
+    //map.fitBounds(oMap.getBounds());
 
-L.control.scale().addTo(map);
+    let marker1 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
+    let marker2 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
+    let marker3 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
+    marker1.on('drag', onDrag);
+    marker2.on('drag', onDrag);
+    marker3.on('drag', onDrag);
+    marker1.on('dragend', onDragEnd);
+    marker2.on('dragend', onDragEnd);
+    marker3.on('dragend', onDragEnd);
 
-// Instantiate the ZoomBar control..
-new L.Control.ZoomBar({position: 'topleft'}).addTo(map);
-
-var attributionControl = L.control.attribution().addTo(map);
-attributionControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a>');
-
-var baseMaps = {
-    "Open Street Map": osmMap,
-    "Open Topo Map": openTopoMap
-};
-
-var overlayMaps = {
-    "Город": cityGroup,
-    "Парки": parkGroup,
-    "Лес": forestGroup,
-    "Гидро-рельефные": reliefGroup,
-    "Зимние": winterGroup,
-    "Вело": veloGroup,
-    "Все": groupAllOrient,
-    "<span class='layer-separator'>2020-е</span>": group2020th,
-    "2010-е": group2010th,
-    "2000-е": group2000th,
-    "90-е": group90th,
-    "Ретро": groupRetro,
-    "???": groupUnknownYear,
-    "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
-};
-
-var layerControlCollapsed = false;
-if (L.Browser.android || L.Browser.mobile) {  // || L.Browser.touch || L.Browser.retina
-    layerControlCollapsed = true;
-}
-var layerControl = L.control.layers(
-    baseMaps, overlayMaps,
-    {collapsed: layerControlCollapsed, autoZIndex: false}).addTo(map);
-
-// Set bounds for the overlay
-//map.fitBounds(oMap.getBounds());
-
-let marker1 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
-let marker2 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
-let marker3 = L.marker(ZERO_LATLNG, {draggable: true}).addTo(map);
-marker1.on('drag', onDrag);
-marker2.on('drag', onDrag);
-marker3.on('drag', onDrag);
-marker1.on('dragend', onDragEnd);
-marker2.on('dragend', onDragEnd);
-marker3.on('dragend', onDragEnd);
-
-// --- welcome dialog (https://github.com/NBTSolutions/Leaflet.Dialog) ---
-welcomeDialog = L.control.dialog(dialogOptions).setContent(welcomeDialogContent).addTo(map);
-if (localStorage.getItem('welcomeOpened') == null) {
-    openWelcome();
-    localStorage.setItem('welcomeOpened', true);
-}
-
-L.easyButton('welcome-icon', function(btn, map) {
-    openWelcome();
-}, 'О проекте').addTo(map)
-
-// --- ruler (https://github.com/gokertanrisever/leaflet-ruler) ---
-let rulerOptions = {
-    position: 'topleft',
-    lengthUnit: {
-        display: 'км',
-        decimal: 2,
-        factor: null,
-        label: 'Расстояние:'
-    },
-    angleUnit: {
-        display: '&deg;',
-        decimal: 2,
-        factor: null,
-        label: 'Азимут:'
+    // --- welcome dialog (https://github.com/NBTSolutions/Leaflet.Dialog) ---
+    welcomeDialog = L.control.dialog(dialogOptions).setContent(welcomeDialogContent).addTo(map);
+    if (localStorage.getItem('welcomeOpened') == null) {
+        openWelcome();
+        localStorage.setItem('welcomeOpened', true);
     }
-};
-L.control.ruler(rulerOptions).addTo(map);
 
-// --- slider (https://github.com/Eclipse1979/leaflet-slider) ---
-let sliderOptions = {
-    id: 'opacitySlider',
-    orientation: 'vertical',
-    title: 'Прозрачность карт',
-    min: 0,
-    max: 1,
-    step: .1,
-    size: '100px',
-    position: 'topleft',
-    value: mapOpacity,
-    logo: '⛅',
-    showValue: false,
-    syncSlider: true
-};
-let opacitySlider = L.control.slider(function(value) {setOverlayOpacity(value);}, sliderOptions).addTo(map);
+    L.easyButton('button-icon welcome-icon', function(btn, map) {
+        openWelcome();
+    }, 'О проекте').addTo(map)
 
+    // --- statistics ---
+    L.easyButton('button-icon statistics-icon', function(btn, map) {
+        openStats();
+    }, 'Немного статистики').addTo(map)
+
+    // --- ruler (https://github.com/gokertanrisever/leaflet-ruler) ---
+    let rulerOptions = {
+        position: 'topleft',
+        lengthUnit: {
+            display: 'км',
+            decimal: 2,
+            factor: null,
+            label: 'Расстояние:'
+        },
+        angleUnit: {
+            display: '&deg;',
+            decimal: 2,
+            factor: null,
+            label: 'Азимут:'
+        }
+    };
+    L.control.ruler(rulerOptions).addTo(map);
+
+    // --- slider (https://github.com/Eclipse1979/leaflet-slider) ---
+    let sliderOptions = {
+        id: 'opacitySlider',
+        orientation: 'vertical',
+        title: 'Прозрачность карт',
+        min: 0,
+        max: 1,
+        step: .1,
+        size: '100px',
+        position: 'topleft',
+        value: mapOpacity,
+        logo: '⛅',
+        showValue: false,
+        syncSlider: true
+    };
+    let opacitySlider = L.control.slider(function(value) {setOverlayOpacity(value);}, sliderOptions).addTo(map);}
 
 // --- functions ---
 
@@ -474,4 +481,8 @@ function editModeSwitch (e) {
 
 function popupsSwitch (e) {
     enablePopup = !enablePopup;
+}
+
+function openStats() {
+    location.href = './charts.html'
 }
