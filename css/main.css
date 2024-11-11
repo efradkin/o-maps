@@ -59,6 +59,7 @@ label:has(> span span .layer-separator) {
 
 /* --- CHARTS --- */
 .stat-body {
+    width: auto;
     height: auto;
     justify-items: center;
     background-color: #bddab1;
