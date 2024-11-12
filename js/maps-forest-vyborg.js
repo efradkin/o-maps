@@ -88,6 +88,7 @@ let vyborgMaps = [
     },
     {
         name: 'Комсомольское',
+        year: 1992,
         url: './maps/forest/vyborg/komsomolskoe.webp',
         link: './original_maps/forest/vyborg/komsomolskoe_full.jpg',
         bounds: [[60.87567129868857, 28.804950714111328], [60.87316473979831, 28.857822418212894], [60.84327976304758, 28.798427581787113]],
