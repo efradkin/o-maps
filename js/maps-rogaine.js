@@ -2,16 +2,34 @@
 let rogaineMaps = [
     // --- рогейн ---
     {
+        name: 'М "Владимирская" - ККМ',
+        year: 2024,
+        url: './maps/rogaine/kkm/spb_center_KKM_2024_03.webp',
+        link: 'https://kkmstart.ru/marshrut-№3-2/',
+        bounds: [[59.956084587086806, 30.337028503417972], [59.95638539185255, 30.40002822875977], [59.91312744037747, 30.33711433410645]],
+        owner: 'KKM',
+        types: ['ROGAINE'],
+    },
+    {
+        name: 'Сенная, площадь - ККМ',
+        year: 2024,
+        url: './maps/rogaine/kkm/spb_center_KKM_2024_04.webp',
+        link: 'https://kkmstart.ru/marshrut-№4-2024/',
+        bounds: [[59.94929426740136, 30.265102386474613], [59.949681095129826, 30.348186492919925], [59.908652227033265, 30.264587402343754]],
+        owner: 'KKM',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Крестовский остров - ККМ',
         year: 2024,
-        url: './maps/rogaine/kkm/krestovsky_KKM_2024.webp',
+        url: './maps/rogaine/kkm/krestovsky_KKM_2024_04.webp',
         link: 'https://kkmstart.ru/marshrut-№6-2024/',
         bounds: [[59.986065683681495, 30.188369750976566], [59.986237416917476, 30.273771286010746], [59.964377204056234, 30.188970565795902]],
         owner: 'KKM',
         types: ['ROGAINE'],
     },
     {
-        name: 'Екатерингоф - ККМ-ноябрь',
+        name: 'Екатерингоф - ККМ',
         year: 2021,
         url: './maps/rogaine/kkm/ekateringof_KKM_2021_11.webp',
         link: 'https://kkmstart.ru/marshrut-№11/',
@@ -20,7 +38,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Петергофское ш. - ККМ-октябрь',
+        name: 'Петергофское ш. - ККМ',
         year: 2022,
         url: './maps/rogaine/kkm/peterhof_road_KKM_2022.jpg',
         link: 'https://kkmstart.ru/marshrut-№10/',
@@ -29,7 +47,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Петергоф - ККМ-март',
+        name: 'Петергоф - ККМ',
         year: 2023,
         url: './maps/rogaine/kkm/peterhof_KKM_2023_03.webp',
         link: 'https://kkmstart.ru/marshrut-№3-2023/',
@@ -38,7 +56,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Гатчина - ККМ-май',
+        name: 'Гатчина - ККМ',
         year: 2023,
         url: './maps/rogaine/kkm/gatchina_KKM_2023_05.webp',
         link: 'https://kkmstart.ru/marshrut-№5-2023/',
@@ -47,7 +65,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Сестрорецк - ККМ-май',
+        name: 'Сестрорецк - ККМ',
         year: 2024,
         url: './maps/rogaine/kkm/sestroretsk_KKM_2024_05.webp',
         link: 'https://kkmstart.ru/marshrut-№5-2024/',
@@ -56,7 +74,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Сиверский, р.Оредеж - ККМ-июнь',
+        name: 'Сиверский, р.Оредеж - ККМ',
         year: 2023,
         url: './maps/rogaine/kkm/oredezh_KKM_2021_06.jpg',
         link: 'https://kkmstart.ru/marshrut-№6/',
@@ -94,7 +112,7 @@ let rogaineMaps = [
     },
 */
     {
-        name: 'Дибуны - ККМ-февраль',
+        name: 'Дибуны - ККМ',
         year: 2012,
         url: './maps/rogaine/kkm/dibuny_KKM_2012_02.webp',
         link: './original_maps/rogaine/kkm/dibuny_KKM_2012_02_full.jpg',
@@ -103,7 +121,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Шевелево - ККМ-март',
+        name: 'Шевелево - ККМ',
         year: 2017,
         url: './maps/rogaine/kkm/shevelevo_KKM_2017_03.webp',
         link: './original_maps/rogaine/kkm/shevelevo_KKM_2017_03_full.jpg',
@@ -112,7 +130,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Солнечное - ККМ-июль',
+        name: 'Солнечное - ККМ',
         year: 2013,
         url: './maps/rogaine/kkm/solnechnoe_KKM_2013_07.webp',
         link: './original_maps/rogaine/kkm/solnechnoe_KKM_2013_07_full.jpg',
@@ -121,7 +139,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Зеленогорск - ККМ-март',
+        name: 'Зеленогорск - ККМ',
         year: 2021,
         url: './maps/rogaine/kkm/zelenogorsk_KKM_2021_03.webp',
         link: 'https://kkmstart.ru/marshrut-№-3-2/',
@@ -130,7 +148,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Васкелово - ККМ-август',
+        name: 'Васкелово - ККМ',
         year: 2016,
         url: './maps/rogaine/kkm/vaskelovo_KKM_2016_08.webp',
         link: './original_maps/rogaine/kkm/vaskelovo_KKM_2016_08_full.jpg',
@@ -153,7 +171,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Шапки - ККМ-апрель',
+        name: 'Шапки - ККМ',
         year: 2020,
         url: './maps/rogaine/kkm/shapki_KKM_2020.jpg',
         link: './original_maps/rogaine/kkm/shapki_KKM_2020_full.jpg',
@@ -162,7 +180,7 @@ let rogaineMaps = [
     },
 /*
     {
-        name: 'Токсово - ККМ-сентябрь',
+        name: 'Токсово - ККМ',
         year: 2024,
         url: './maps/rogaine/kkm/toksovo_KKM_2024_09.webp',
         link: 'https://kkmstart.ru/marshrut-№9-2024/',
@@ -170,7 +188,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Токсово - ККМ-август',
+        name: 'Токсово - ККМ',
         year: 2024,
         url: './maps/rogaine/kkm/toksovo_KKM_2024_08.webp',
         link: 'https://kkmstart.ru/marshrut-№8-2024/',
@@ -178,7 +196,7 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Токсово, оз Хепоярви - ККМ-апрель',
+        name: 'Токсово, оз Хепоярви - ККМ',
         year: 2017,
         url: './maps/rogaine/kkm/toksovo_hepojarvy_KKM_2017_04.webp',
         link: './original_maps/rogaine/kkm/toksovo_hepojarvy_KKM_2017_04_full.jpg',
