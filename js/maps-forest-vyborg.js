@@ -10,6 +10,15 @@ let vyborgMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Вещево',
+        year: 1981,
+        url: './maps/forest/vyborg/veschevo_1981.webp',
+        link: './original_maps/forest/vyborg/veschevo_1981_full.jpg',
+        bounds: [[60.759620692933005, 29.18972969055176], [60.755385875026555, 29.25264358520508], [60.73093040242884, 29.182691574096683]],
+        info: 'Первый чкмпионат СССР',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Выборг, гора Папула',
         year: 2023,
         url: './maps/forest/vyborg/papula_2023.webp',
@@ -47,6 +56,14 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/vyborg_saymenskie_dachi_1981.webp',
         link: './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_full.jpg',
         bounds: [[60.793185940251945, 28.719549179077152], [60.79037970721021, 28.77748489379883], [60.76498678767908, 28.721437454223636]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Кировские дачи',
+        year: 1994,
+        url: './maps/forest/vyborg/kirovskie_dachi_1994.webp',
+        link: './original_maps/forest/vyborg/kirovskie_dachi_1994_full.jpg',
+        bounds: [[60.7803255114123, 28.703670501708988], [60.77688960468624, 28.753194808959964], [60.75517621605187, 28.69688987731934]],
         types: ['ORIENT'],
     },
     {
