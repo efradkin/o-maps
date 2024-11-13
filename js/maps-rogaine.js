@@ -469,6 +469,15 @@ let rogaineMaps = [
         owner: 'BKTV',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Калинино - ВМБ',
+        year: 2015,
+        url: './maps/rogaine/beketov/kalinino_2015.webp',
+        link: './original_maps/rogaine/beketov/vmb2015_course.jpg',
+        bounds: [[60.82382907162246, 28.449783325195312], [60.8218205845858, 28.669509887695316], [60.666872088022984, 28.443260192871097]],
+        owner: 'BKTV',
+        types: ['ROGAINE'],
+    },
 /*
     {
         //  Бобочинский полигон
