@@ -10,12 +10,20 @@ let vyborgMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Вещево',
+        name: 'Вещево, Макаровское оз',
         year: 1981,
         url: './maps/forest/vyborg/veschevo_1981.webp',
         link: './original_maps/forest/vyborg/veschevo_1981_full.jpg',
         bounds: [[60.759620692933005, 29.18972969055176], [60.755385875026555, 29.25264358520508], [60.73093040242884, 29.182691574096683]],
         info: 'Первый чемпионат СССР.',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Вещево, Беленькое оз',
+        year: 1981,
+        url: './maps/forest/vyborg/veschevo_west_1981.webp',
+        link: './original_maps/forest/vyborg/veschevo_west_1981_full.jpg',
+        bounds: [[60.72501298692567, 29.129905700683597], [60.72299829883933, 29.197196960449222], [60.69335099398001, 29.124927520751957]],
         types: ['ORIENT'],
     },
     {

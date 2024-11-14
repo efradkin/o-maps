@@ -2,6 +2,22 @@
 let zelikMaps = [
     // --- ЗЕЛЕНОГОРСК - РОЩИНО - СЕСТРОРЕЦК ---
     {
+        name: 'Серово',
+        year: 1974,
+        url: './maps/forest/zelik/serovo_1974.webp',
+        link: './original_maps/forest/zelik/serovo_1974_full.jpg',
+        bounds: [[60.237595694635125, 29.50309753417969], [60.23780872762262, 29.564123153686527], [60.20298075456985, 29.50387001037598]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Смолячково',
+        year: 1988,
+        url: './maps/forest/zelik/smoljachkovo_1988.webp',
+        link: './original_maps/forest/zelik/smoljachkovo_1988_full.jpg',
+        bounds: [[60.20635006920181, 29.43795204162598], [60.20285279909322, 29.50284004211426], [60.18126383410184, 29.431171417236328]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Сосновая поляна, р Рощинка',
         year: 2020,
         url: './maps/forest/zelik/sosnovaya_polyana_roschinka_2020.webp',

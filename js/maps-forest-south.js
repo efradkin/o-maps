@@ -2,6 +2,14 @@
 let southMaps = [
     // --- Юг ЛО (Сосновый Бор, Луга, Гатчина, Кириши) ---
     {
+        name: 'Мга',
+        year: 1992,
+        url: './maps/forest/south/mga_1992.webp',
+        link: './original_maps/forest/south/mga_1992_full.jpg',
+        bounds: [[59.753390360325824, 31.02187156677246], [59.7482666342105, 31.071996688842777], [59.73721660178828, 31.016163825988773]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Туутари',
         year: 1983,
         url: './maps/forest/south/tuutary_1983.webp',
