@@ -67,6 +67,14 @@ let zelikMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Долгое оз',
+        year: 1983,
+        url: './maps/forest/zelik/dolgoe_north_1983.webp',
+        link: './original_maps/forest/zelik/dolgoe_north_1983_full.jpg',
+        bounds: [[60.31687594388387, 29.709520339965824], [60.31449565570198, 29.7520923614502], [60.292937650406586, 29.701967239379886]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Симагино - Майнило',
         year: 2013,
         url: './maps/forest/zelik/simagino_maynilo_2013.webp',
