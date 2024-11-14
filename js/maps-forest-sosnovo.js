@@ -2,6 +2,14 @@
 let sosnovoMaps = [
     // --- СОСНОВО - ПЕТЯЯРВИ - ЛОСЕВО ---
     {
+        name: 'Сосново, юг',
+        year: 1989,
+        url: './maps/forest/sosnovo/sosnovo_south_1989.webp',
+        link: './original_maps/forest/sosnovo/sosnovo_south_1989_full.jpg',
+        bounds: [[60.55445209468727, 30.23523330688477], [60.54968381690081, 30.297031402587894], [60.52874571620552, 30.22725105285645]],
+        types: ['ORIENT'],
+    },
+    {
         name: '69км, запад',
         url: './maps/forest/sosnovo/69_km_west.webp',
         link: './original_maps/forest/sosnovo/69_km_west_full.jpg',

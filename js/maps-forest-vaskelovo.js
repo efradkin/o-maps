@@ -236,6 +236,14 @@ let vaskelovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Лемболово',
+        year: 1987,
+        url: './maps/forest/vaskelovo/lembolovo_1987.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_1987_full.jpg',
+        bounds: [[60.42139464000694, 30.33359527587891], [60.41844996541937, 30.37217617034912], [60.40340466224666, 30.32938957214356]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Орехово',
         year: 2024,
         url: './maps/forest/vaskelovo/orekhovo_2024.webp',

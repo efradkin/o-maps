@@ -69,6 +69,22 @@ let priozerskMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Гранитное',
+        year: 1988,
+        url: './maps/forest/priozersk/granitnoe_1988.webp',
+        link: './original_maps/forest/granitnoe_1988_full.jpg',
+        bounds: [[61.064286632006386, 29.99297618865967], [61.06277084970437, 30.02250194549561], [61.05490007430921, 29.98954296112061]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Белая дача',
+        year: 1988,
+        url: './maps/forest/priozersk/belaya_dacha_1989.webp',
+        link: './original_maps/forest/belaya_dacha_1989_full.jpg',
+        bounds: [[61.02223312856577, 29.98276233673096], [61.021339094147365, 29.997353553771976], [61.01523611667841, 29.982225894927982]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Кузнечное - Сопкино оз',
         year: 1984,
         url: './maps/forest/priozersk/kuznechnoe_sopkino_1984.webp',

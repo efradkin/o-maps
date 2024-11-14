@@ -116,6 +116,14 @@ let southMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Лемовжа',
+        year: 1992,
+        url: './maps/forest/south/lemovzha_1992.webp',
+        link: './original_maps/forest/south/lemovzha_1992_full.jpg',
+        bounds: [[59.124917461875384, 29.296503067016605], [59.12300142617275, 29.333152770996097], [59.10718453374521, 29.293198585510257]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Хотнежа',
         year: 2017,
         url: './maps/forest/south/khotnezha_2017.webp',

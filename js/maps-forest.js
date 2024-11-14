@@ -125,7 +125,16 @@ let forestMaps = [
         name: 'Девяткино',
         year: 1997,
         url: './maps/forest/devjatkino_1997.webp',
+        link: './original_maps/forest/devjatkino_1997_full.jpg',
         bounds: [[60.06466913487058, 30.42346000671387], [60.06573990298703, 30.452299118041996], [60.045132225832454, 30.4182243347168]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Новое Девяткино',
+        year: 1993,
+        url: './maps/forest/new_devjatkino_1993.webp',
+        link: './original_maps/forest/new_devjatkino_1993_full.jpg',
+        bounds: [[60.062077732217986, 30.468049049377445], [60.0611996074672, 30.498433113098148], [60.04744641082711, 30.464100837707523]],
         types: ['ORIENT'],
     },
     {

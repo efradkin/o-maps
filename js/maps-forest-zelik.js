@@ -98,6 +98,14 @@ let zelikMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Ильичёво',
+        year: 1991,
+        url: './maps/forest/zelik/ilychevo_1991.webp',
+        link: './original_maps/forest/zelik/ilychevo_1991_full.jpg',
+        bounds: [[60.27285508361015, 29.768657684326175], [60.271322856205195, 29.817838668823246], [60.24628631594441, 29.7645378112793]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Ильичёво, оз Долгое',
         year: 1995,
         url: './maps/forest/zelik/ilychevo_dolgoe_1995.webp',
