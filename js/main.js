@@ -198,7 +198,10 @@ const defaultZoom = 11;
 
 let mapElement = document.getElementById('map');
 if (mapElement) {
-    const savedState = loadMapState();
+    let savedState;
+    if (!MAP_NAME) {
+        savedState = loadMapState();
+    }
     map = L.map('map', {
         attributionControl: false,
         zoomControl: false,
