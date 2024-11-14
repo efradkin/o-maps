@@ -500,7 +500,8 @@ let rogaineMaps = [
         url: './maps/rogaine/garbolovo_strekozy_2011.webp',
         link: './original_maps/rogaine/garbolovo_strekozy_2011_full.jpg',
         bounds: [[60.40334107578093, 30.436763763427738], [60.398084164953325, 30.52165031433106], [60.34737927121206, 30.419597625732425]],
-        info: 'Рогейн от Стрекозаек',
+        info: 'Рогейн от Стрекозаек. По материалам В.Л. Чегаровского.',
+        owner: 'STRKZK',
         types: ['ROGAINE'],
     },
     {
