@@ -549,6 +549,13 @@ let rogaineMaps = [
         owner: 'LM',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Кировские дачи',
+        url: './maps/rogaine/kirovskie_dachi.webp',
+        bounds: [[60.79381416770022, 28.706417083740238], [60.787992121373335, 28.79954338073731], [60.74578208815887, 28.69242668151856]],
+        owner: 'TOKM',
+        types: ['ROGAINE'],
+    },
 /*
     {
         //  Бобочинский полигон
