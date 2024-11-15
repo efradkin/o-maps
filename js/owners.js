@@ -21,7 +21,7 @@ let owners = {
     LM: '© Орлов Александр, "Лужский Меридиан".',
     MLV_AL: '© Малов Алексей, leshamalov@yandex.ru',
     MSKV: 'По вопросам использования карты - 8-981-146-94-95 (Москов Игорь).',
-    MTRNCHV: '© Матреничев Вячеслав',
+    MTRNCHV: 'По вопросам использования карты - Матреничев Вячеслав (iambam@ya.ru).',
     NKLSK: '© Артём Никольский',
     NW: '© Клуб "Nord-West"',
     OPNBND: '© OpenBand - <a href="https://orientband.ru" target="_blank">сайт</a> и <a href="https://vk.com/openband_ru" target="_blank">ВК</a>',
