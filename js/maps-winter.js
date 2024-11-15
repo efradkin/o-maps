@@ -76,4 +76,13 @@ let winterMaps = [
         owner: 'FSOSPB',
         types: ['ORIENT', 'WINTER', 'PARK'],
     },
+    {
+        name: 'Шуваловский парк',
+        year: 2023,
+        url: './maps/winter/shuvalovsky_park_winter_2023.webp',
+        link: './original_maps/winter/shuvalovsky_park_winter_2023_full.jpg',
+        bounds: [[60.085243214141705, 30.291752815246586], [60.08293167886438, 30.32106399536133], [60.069273191217576, 30.287203788757324]],
+        owner: 'EFRMV',
+        types: ['ORIENT', 'WINTER', 'PARK'],
+    },
 ];
