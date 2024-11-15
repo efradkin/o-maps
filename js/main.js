@@ -34,6 +34,7 @@ let openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
     attribution: ATTRIBUTION
 });
 
+let specialGroup = L.layerGroup([]);
 let winterGroup = L.layerGroup([]);
 let veloGroup = L.layerGroup([]);
 let reliefGroup = L.layerGroup([]);
@@ -52,6 +53,7 @@ let groupUnknownYear = L.layerGroup([]);
 let groupAllOrient = L.layerGroup([]);
 
 let oMaps = [
+    ...specialMaps,
     ...rogaineMaps,
     ...reliefMaps,
     ...winterMaps,
@@ -136,6 +138,10 @@ for (const m of oMaps) {
                 el.style.zIndex = 0;
             }
         }
+        if (m.types.includes('SPECIAL')) {
+            added = true;
+            imgLayer.addTo(specialGroup);
+        }
         if (m.types.includes('RELIEF')) {
             added = true;
             imgLayer.addTo(reliefGroup);
@@ -167,7 +173,7 @@ for (const m of oMaps) {
             }
         }
 
-        if (!m.types.includes('ROGAINE')) {
+        if (!m.types.includes('ROGAINE') && !m.types.includes('SPECIAL')) {
             if (!m.year) {
                 imgLayer.addTo(groupUnknownYear);
             } else if (m.year >= 2020) {
@@ -288,6 +294,7 @@ if (mapElement) {
         "Ретро": groupRetro,
         "???": groupUnknownYear,
         "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
+        "<span class='layer-separator'>Необычные</span>": specialGroup,
     };
 
     let layerControlCollapsed = false;

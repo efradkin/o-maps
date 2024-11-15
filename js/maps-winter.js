@@ -28,7 +28,7 @@ let winterMaps = [
         year: 2022,
         url: './maps/winter/toksovo_ska_marathon_2022.webp',
         bounds: [[60.176141838203385, 30.56044578552246], [60.171061736697986, 30.618896484375], [60.138684325957556, 30.548429489135746]],
-        types: ['ORIENT', 'WINTER', 'ROGAINE'],
+        types: ['ORIENT', 'WINTER'],
     },
     {
         name: 'Токсово - ВИФК',
@@ -42,14 +42,14 @@ let winterMaps = [
         name: 'Зеленогорск - Чёрные озёра',
         url: './maps/winter/zelenogorsk_chernye_winter.webp',
         bounds: [[60.25463395700811, 29.77681159973145], [60.25224913383907, 29.816293716430668], [60.22557839180962, 29.768142700195316]],
-        types: ['ORIENT', 'WINTER', 'ROGAINE'],
+        types: ['ORIENT', 'WINTER'],
     },
     {
         name: 'Зеленогорск - Прибой',
         year: 2011,
         url: './maps/winter/zelenogorsk_schuchje_winter_2011.webp',
         bounds: [[60.24662707764389, 29.71887588500977], [60.23708440981365, 29.847278594970707], [60.19291339919565, 29.716300964355472]],
-        types: ['ORIENT', 'WINTER', 'ROGAINE'],
+        types: ['ORIENT', 'WINTER'],
     },
     {
         name: 'Будогощь, оз Светлое',

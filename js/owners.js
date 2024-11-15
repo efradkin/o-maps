@@ -25,6 +25,7 @@ let owners = {
     NKLSK: '© Артём Никольский',
     NW: '© Клуб "Nord-West"',
     OPNBND: '© OpenBand - <a href="https://orientband.ru" target="_blank">сайт</a> и <a href="https://vk.com/openband_ru" target="_blank">ВК</a>',
+    PARADA: '© Екатерина Новикова (PARADA) - <a href="https://parda.ru/about" target="_blank">сайт</a> и <a href="https://vk.com/parada_ekaterina" target="_blank">ВК</a>',
     RDNV_I: 'Карта доступна свободно для некоммерческого использования. Для получения OCAD-файла и по прочим вопросам обращаться к Ивану Родионову (+7 911 161 6770).',
     RFAR: 'Права на использования карты принадлежат компании Red Fox и оргкомитету соревнований <a href="https://adventure-race.redfox.ru/" target="_blank">Red Fox Adventure Race</a>.',
     SCHLKHN_AN: '© Шелёхин Анатолий',

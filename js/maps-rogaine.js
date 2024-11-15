@@ -539,7 +539,7 @@ let rogaineMaps = [
         url: './maps/rogaine/omchino_luzhski_2024.webp',
         bounds: [[58.73409386161734, 29.75131988525391], [58.72460404916333, 29.842386245727543], [58.68211323154789, 29.73183631896973]],
         owner: 'SHBN',
-        types: ['ROGAINE','WINTER'],
+        types: ['ROGAINE'],
     },
     {
         name: 'Городок',
