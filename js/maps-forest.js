@@ -25,6 +25,20 @@ let forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Нахимовское',
+        url: './maps/forest/nakhimovskoe.webp',
+        bounds: [[60.39952566047451, 29.505457878112797], [60.397935772084494, 29.52627182006836], [60.38368690664035, 29.498977661132816]],
+        owner: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Стрельцово',
+        url: './maps/forest/streltsovo.webp',
+        bounds: [[60.61690218407662, 29.277491569519047], [60.61747069844156, 29.308176040649418], [60.596618619933196, 29.27839279174805]],
+        owner: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Орловский парк',
         year: 1980,
         url: './maps/forest/orlovsky_park_1980.webp',

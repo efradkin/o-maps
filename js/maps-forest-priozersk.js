@@ -69,6 +69,13 @@ let priozerskMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Балахановское оз',
+        url: './maps/forest/priozersk/balakhanovskoe.webp',
+        bounds: [[60.82533535415073, 29.795951843261722], [60.81843097676924, 29.901695251464847], [60.75664380010026, 29.780330657958988]],
+        owner: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Гранитное',
         year: 1988,
         url: './maps/forest/priozersk/granitnoe_1988.webp',
