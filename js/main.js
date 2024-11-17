@@ -369,6 +369,8 @@ if (mapElement) {
     };
     opacitySlider = L.control.slider(function(value) {setOverlayOpacity(value);}, sliderOptions).addTo(map);}
 
+    //buildMapsCSV(oMaps);
+
 // --- functions ---
 
 function buildPopupText(map, latLngs) {
@@ -392,7 +394,6 @@ function buildPopupText(map, latLngs) {
 
     // владелец
     if (map.owner) {
-        // console.log(owner, Array.isArray(owner))
         if (Array.isArray(map.owner)) {
             result += 'Владельцы:<ol>'
             for (const o of map.owner) {
