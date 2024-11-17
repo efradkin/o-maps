@@ -334,6 +334,11 @@ if (mapElement) {
         openStats();
     }, 'Немного статистики').addTo(map)
 
+    // --- statistics ---
+    L.easyButton('button-icon papers-icon', function(btn, map) {
+        downloadSheet();
+    }, 'Сводная таблица карт').addTo(map)
+
     // --- ruler (https://github.com/gokertanrisever/leaflet-ruler) ---
     let rulerOptions = {
         position: 'topleft',
@@ -499,4 +504,8 @@ function popupsSwitch (e) {
 
 function openStats() {
     location.href = './charts.html'
+}
+
+function downloadSheet() {
+    location.href = './o-maps.xlsx'
 }

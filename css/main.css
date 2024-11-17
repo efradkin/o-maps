@@ -50,6 +50,9 @@ label:has(> span span .layer-separator) {
 .statistics-icon {
     background-image: url(../images/statistics_24.png);
 }
+.papers-icon {
+    background-image: url(../images/papers_24.png);
+}
 /*
 .leaflet-popup-content {
     padding: 15px;
