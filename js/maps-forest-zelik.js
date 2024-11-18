@@ -2,6 +2,14 @@
 let zelikMaps = [
     // --- ЗЕЛЕНОГОРСК - РОЩИНО - СЕСТРОРЕЦК ---
     {
+        name: 'Рощино',
+        year: 1990,
+        url: './maps/forest/zelik/roschino_1990.webp',
+        link: './original_maps/forest/zelik/roschino_1990_full.jpg',
+        bounds: [[60.26962029715062, 29.525671005249027], [60.26872641818245, 29.572706222534183], [60.238618240342404, 29.520864486694336]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Серово',
         year: 1974,
         url: './maps/forest/zelik/serovo_1974.webp',
