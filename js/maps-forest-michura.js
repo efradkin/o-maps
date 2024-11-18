@@ -10,6 +10,14 @@ let michuraMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Ягодное',
+        year: 1992,
+        url: './maps/forest/michura/yagodnoe_1992.webp',
+        link: './original_maps/forest/michura/yagodnoe_1992_full.jpg',
+        bounds: [[60.63052271667331, 29.883584976196293], [60.62416578048736, 29.952764511108402], [60.601717038799606, 29.87337112426758]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Борисово',
         year: 1988,
         url: './maps/forest/michura/borisovo_1988.webp',
@@ -67,6 +75,22 @@ let michuraMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Узорное оз',
+        year: 2010,
+        url: './maps/forest/michura/uzornoe_oz_2010.webp',
+        bounds: [[60.60510851611638, 29.94482517242432], [60.60142211088886, 29.997310638427738], [60.58715702396935, 29.93937492370606]],
+        owner: 'WN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Долгое оз',
+        year: 2010,
+        url: './maps/forest/michura/dolgoe_oz_2010.webp',
+        bounds: [[60.59244658743532, 29.915428161621097], [60.589032705361774, 29.967613220214847], [60.57501514877231, 29.910192489624027]],
+        owner: 'WN',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Ягодное, Берестовое оз',
         url: './maps/forest/michura/yagodnoe_berestovoe.webp',
         bounds: [[60.63805679941613, 29.95182037353516], [60.633427124703225, 30.014219284057617], [60.61325924317173, 29.94280815124512]],
@@ -85,6 +109,13 @@ let michuraMaps = [
         year: 2017,
         url: './maps/forest/michura/yagodnoe_2017.webp',
         bounds: [[60.64659890810976, 29.949502944946293], [60.64394815114584, 29.9862813949585], [60.633279805957116, 29.944481849670414]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Ягодное',
+        year: 2011,
+        url: './maps/forest/michura/yagodnoe_2011.webp',
+        bounds: [[60.6479452408423, 29.935426712036136], [60.64394815114584, 29.98452186584473], [60.63014386155463, 29.93006229400635]],
         types: ['ORIENT'],
     },
     {
