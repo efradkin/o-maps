@@ -93,6 +93,9 @@ for (const m of oMaps) {
                 if (THE_OWNER !== m.owner) return;
             }
         }
+
+        if (m.info && m.info.startsWith('ККП')) return;
+
         let bounds;
         if (m.bounds.length === 3) {
             bounds = m.bounds;
