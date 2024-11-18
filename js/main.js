@@ -76,6 +76,9 @@ const TOTAL_MAPS = oMaps.length;
 
 // Overlay the maps
 for (const m of oMaps) {
+
+    if (m.info && m.info.startsWith('ККП')) continue;
+
     m.img = new Image();
     m.img.src = m.url;
 
@@ -93,8 +96,6 @@ for (const m of oMaps) {
                 if (THE_OWNER !== m.owner) return;
             }
         }
-
-        if (m.info && m.info.startsWith('ККП')) return;
 
         let bounds;
         if (m.bounds.length === 3) {
