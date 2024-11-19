@@ -438,7 +438,12 @@ function onMapSelect(ovrl, map) {
     selectedOverlay = ovrl;
     selectedMap = map;
 
-    ovrl.getElement().style.zIndex = maxZindex++;
+    maxZindex++;
+    let zIndex = ovrl.getElement().style.zIndex;
+    if (zIndex > maxZindex) {
+        maxZindex = zIndex + 1;
+    }
+    ovrl.getElement().style.zIndex = maxZindex;
 
     if (editMode) {
         marker1.setLatLng(ovrl.getTopLeft());
