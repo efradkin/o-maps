@@ -80,7 +80,7 @@ for (const m of oMaps) {
     // if (m.info && m.info.startsWith('ККП')) continue;
 
     m.img = new Image();
-    if (m.info && m.info.startsWith('ККП')) {
+    if (m.owner && m.owner === 'NW') {
         m.img.src = './maps/olive.png';
     } else {
         m.img.src = m.url;
