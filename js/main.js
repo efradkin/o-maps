@@ -78,13 +78,12 @@ const TOTAL_MAPS = oMaps.length;
 for (const m of oMaps) {
 
     // if (m.info && m.info.startsWith('ККП')) continue;
+    if (m.owner && m.owner === 'NW') {
+        m.url = './maps/olive.png';
+    }
 
     m.img = new Image();
-    if (m.owner && m.owner === 'NW') {
-        m.img.src = './maps/olive.png';
-    } else {
-        m.img.src = m.url;
-    }
+    m.img.src = m.url;
 
     m.img.onload = function () {
         if (THE_OWNER) {
@@ -117,7 +116,7 @@ for (const m of oMaps) {
             L.latLng(bounds[2])
         ];
         let imgLayer = L.imageOverlay.rotated(
-            m.img.src, latLngs[0], latLngs[1], latLngs[2],
+            m.url, latLngs[0], latLngs[1], latLngs[2],
             {
                 opacity: 1,
                 interactive: true,
@@ -428,9 +427,11 @@ function buildPopupText(map, latLngs) {
     } else {
         result += 'Посмотреть карту отдельно можно <a href="' + map.url + '" target="_blank">тут</a>.';
     }
-    let mapLinkUrl = mapLink(map.url);
-    let onclick = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
-    result += '<br />Поделиться <a href="' + mapLinkUrl + '" target="_blank">ссылкой</a> на карту: <a href="#" ' + onclick + ' target="_blank"><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
+    if (!map.url.includes('olive.png')) {
+        let mapLinkUrl = mapLink(map.url);
+        let onclick = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
+        result += '<br />Поделиться <a href="' + mapLinkUrl + '" target="_blank">ссылкой</a> на карту: <a href="#" ' + onclick + ' target="_blank"><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
+    }
     return result;
 }
 
