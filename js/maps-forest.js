@@ -3,6 +3,24 @@ let forestMaps = [
     // --- лесные карты ---
     {
         name: 'Цвелодубово',
+        year: 1986,
+        url: './maps/forest/tsvelodubovo_1986.webp',
+        link: './original_maps/forest/tsvelodubovo_1986_full.jpg',
+        bounds: [[60.36730997674438, 29.568200111389164], [60.36440284798612, 29.624333381652832], [60.34954485783966, 29.565196037292484]],
+        types: ['ORIENT'],
+        zindex: 3
+    },
+    {
+        name: 'Цвелодубово',
+        year: 1987,
+        url: './maps/forest/tsvelodubovo_1987.webp',
+        link: './original_maps/forest/tsvelodubovo_1987_full.jpg',
+        bounds: [[60.37598738074033, 29.54704284667969], [60.37403569666894, 29.579615592956547], [60.363214457923185, 29.543266296386722]],
+        types: ['ORIENT'],
+        zindex: 3
+    },
+    {
+        name: 'Цвелодубово',
         year: 1993,
         url: './maps/forest/tsvelodubovo_1993.webp',
         link: './original_maps/forest/tsvelodubovo_1993_full.jpg',
