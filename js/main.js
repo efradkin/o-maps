@@ -77,7 +77,7 @@ const TOTAL_MAPS = oMaps.length;
 // Overlay the maps
 for (const m of oMaps) {
 
-    if (m.info && m.info.startsWith('ККП')) continue;
+    // if (m.info && m.info.startsWith('ККП')) continue;
 
     m.img = new Image();
     m.img.src = m.url;
