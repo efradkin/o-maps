@@ -52,8 +52,18 @@ let toksovoMaps = [
     },
     {
         name: 'Энколово - север',
+        year: 1985,
         url: './maps/forest/toksovo/enkolovo_1985.webp',
+        link: './original_maps/forest/toksovo/enkolovo_1985_full.jpg',
         bounds: [[60.13252986721134, 30.408439636230472], [60.13037126003232, 30.444145202636722], [60.113375298370904, 30.406551361083984]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Энколово - север',
+        year: 1999,
+        url: './maps/forest/toksovo/enkolovo_1999.webp',
+        link: './original_maps/forest/toksovo/enkolovo_1999_full.jpg',
+        bounds: [[60.13575682769777, 30.40904045104981], [60.132316150044446, 30.453844070434574], [60.111963918346746, 30.400371551513675]],
         types: ['ORIENT'],
     },
     {
