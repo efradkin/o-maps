@@ -77,10 +77,14 @@ const TOTAL_MAPS = oMaps.length;
 // Overlay the maps
 for (const m of oMaps) {
 
-    if (m.info && m.info.startsWith('ККП')) continue;
+    // if (m.info && m.info.startsWith('ККП')) continue;
 
     m.img = new Image();
-    m.img.src = m.url;
+    if (m.info && m.info.startsWith('ККП')) {
+        m.img.src = './maps/olive.png';
+    } else {
+        m.img.src = m.url;
+    }
 
     m.img.onload = function () {
         if (THE_OWNER) {
@@ -113,7 +117,7 @@ for (const m of oMaps) {
             L.latLng(bounds[2])
         ];
         let imgLayer = L.imageOverlay.rotated(
-            m.url, latLngs[0], latLngs[1], latLngs[2],
+            m.img.src, latLngs[0], latLngs[1], latLngs[2],
             {
                 opacity: 1,
                 interactive: true,
