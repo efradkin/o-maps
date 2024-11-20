@@ -73,6 +73,14 @@ let forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Юкки',
+        year: 1990,
+        url: './maps/forest/yukki_1990.webp',
+        link: './original_maps/forest/yukki_1990_full.jpg',
+        bounds: [[60.14936641593736, 30.269308090209964], [60.14577762073669, 30.33608436584473], [60.11012475663832, 30.2589225769043]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Юкки - север',
         year: 2020,
         url: './maps/forest/yukki_north_2020.webp',
