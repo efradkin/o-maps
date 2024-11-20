@@ -274,13 +274,6 @@ let forestMaps = [
         zindex: 2
     },
     {
-        name: 'Кудрово',
-        year: 2012,
-        url: './maps/forest/kudrovo_2012.webp',
-        bounds: [[59.91764507265457, 30.50564289093018], [59.91504213103524, 30.52851676940918], [59.905984024357714, 30.50160884857178]],
-        types: ['ORIENT'],
-    },
-    {
         name: 'Первомайское, Семейные оз',
         year: 2012,
         url: './maps/forest/pervomayskoe_semejnie_2012.webp',
