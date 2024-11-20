@@ -198,9 +198,12 @@ for (const m of oMaps) {
         }
         mapOverlays.push(imgLayer);
 
-        if (m.link) {
-            let el = imgLayer.getElement();
-            if (el) {
+        let el = imgLayer.getElement();
+        if (el) {
+            if (m.restricted) {
+                el.classList.add('restricted');
+            }
+            else if (m.link) {
                 el.classList.add('full-size');
             }
         }
@@ -419,6 +422,11 @@ function buildPopupText(map, latLngs) {
                 result += owners[map.owner] + '<br />';
             }
         }
+    }
+
+    // закрытый район
+    if (map.restricted) {
+        result += '<span class="restricted-text">Район закрыт ' + map.restricted + '.</span><br />';
     }
 
     // ссылки на просмотр и скачивание

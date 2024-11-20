@@ -33,8 +33,15 @@ html, body, #map {
 label:has(> span span .layer-separator) {
     margin-top: 10px;
 }
-.full-size{
+.full-size {
     border: dashed 2px mediumpurple;
+}
+.restricted {
+    border: solid 3px deeppink;
+}
+.restricted-text {
+    font-weight: bold;
+    color: red;
 }
 .button-icon {
     display: block;
