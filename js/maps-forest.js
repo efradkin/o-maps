@@ -146,6 +146,14 @@ let forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Вартемяги',
+        year: 1990,
+        url: './maps/forest/vartemjagi_1990.webp',
+        link: './original_maps/forest/vartemjagi_1990_full.jpg',
+        bounds: [[60.162287106404065, 30.295014381408695], [60.16510549128062, 30.34574031829834], [60.13069185421074, 30.301022529602054]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Вартемяги - север',
         year: 2017,
         url: './maps/forest/vartemjagi_north_2017.webp',
