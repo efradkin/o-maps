@@ -247,6 +247,14 @@ let sosnovoMaps = [
     },
     {
         name: 'Лосево',
+        year: 1990,
+        url: './maps/forest/sosnovo/losevo_1990.webp',
+        link: './original_maps/forest/sosnovo/losevo_1990_full.jpg',
+        bounds: [[60.69452732858858, 29.919462203979496], [60.69036795262589, 29.994564056396488], [60.67044591045741, 29.912509918212894]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Лосево',
         year: 2005,
         url: './maps/forest/sosnovo/losevo_2005.webp',
         link: './original_maps/forest/sosnovo/losevo-2005.gif',
