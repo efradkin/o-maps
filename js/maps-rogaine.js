@@ -226,4 +226,13 @@ let rogaineMaps = [
         owner: 'TOKM',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Гаврилово',
+        year: 2008,
+        info: '100X24. Автор: С.Апатенков.',
+        url: './maps/rogaine/gavrilovo_2008.webp',
+        link: './original_maps/rogaine/gavrilovo_2008_full.gif',
+        bounds: [[60.66628342039226, 28.648567199707035], [60.66098492736882, 29.004077911376957], [60.53643022164579, 28.642387390136722]],
+        types: ['ROGAINE'],
+    },
 ];

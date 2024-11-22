@@ -229,5 +229,6 @@ let rogaineBeketovMaps = [
         owner: 'BKTV',
         types: ['ROGAINE'],
     },
+    // Елизаветинка-Огоньки ВМБ 2010 (арт.полигон)
 */
 ];

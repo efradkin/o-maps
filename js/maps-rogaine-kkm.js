@@ -157,6 +157,15 @@ let rogaineKkmMaps = [
         types: ['ROGAINE'],
     },
     {
+        name: 'Рощино - ККМ',
+        year: 2016,
+        url: './maps/rogaine/kkm/roschino_KKM_2016_03.webp',
+        link: './original_maps/rogaine/kkm/roschino_KKM_2016_03_full.jpg',
+        bounds: [[60.27234434911475, 29.493484497070316], [60.272259225923726, 29.59253311157227], [60.19316938717165, 29.49434280395508]],
+        owner: 'KKM',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Зеленогорск - ККМ',
         year: 2021,
         url: './maps/rogaine/kkm/zelenogorsk_KKM_2021_03.webp',
