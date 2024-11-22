@@ -38,10 +38,15 @@ let specialGroup = L.layerGroup([]);
 let winterGroup = L.layerGroup([]);
 let veloGroup = L.layerGroup([]);
 let reliefGroup = L.layerGroup([]);
-let rogaineGroup = L.layerGroup([]);
 let forestGroup = L.layerGroup([]);
 let parkGroup = L.layerGroup([]);
 let cityGroup = L.layerGroup([]);
+
+let rogaineGroup = L.layerGroup([]);
+let rogaineKkmGroup = L.layerGroup([]);
+let rogaineBeketovGroup = L.layerGroup([]);
+let rogaineNewGroup = L.layerGroup([]);
+let rogaineOldGroup = L.layerGroup([]);
 
 let groupRetro = L.layerGroup([]);
 let group90th = L.layerGroup([]);
@@ -54,6 +59,8 @@ let groupAllOrient = L.layerGroup([]);
 
 let oMaps = [
     ...specialMaps,
+    ...rogaineKkmMaps,
+    ...rogaineBeketovMaps,
     ...rogaineMaps,
     ...reliefMaps,
     ...winterMaps,
@@ -143,6 +150,19 @@ for (const m of oMaps) {
             let el = imgLayer.getElement();
             if (el) {
                 el.style.zIndex = 0;
+            }
+
+            if (m.year && m.year >= 2010) {
+                imgLayer.addTo(rogaineNewGroup);
+            }
+            if (m.year && m.year < 2010) {
+                imgLayer.addTo(rogaineOldGroup);
+            }
+            if (m.owner && (m.owner === 'KKM' || (Array.isArray(m.owner) && m.owner.includes('KKM')))) {
+                imgLayer.addTo(rogaineKkmGroup);
+            }
+            if (m.owner && (m.owner === 'BKTV' || (Array.isArray(m.owner) && m.owner.includes('BKTV')))) {
+                imgLayer.addTo(rogaineBeketovGroup);
             }
         }
         if (m.types.includes('SPECIAL')) {
@@ -303,8 +323,12 @@ if (mapElement) {
         "90-е": group90th,
         "Ретро": groupRetro,
         "???": groupUnknownYear,
-        "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
         "<span class='layer-separator'>Необычные</span>": specialGroup,
+        "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
+        "<span class='layer-separator'>Недавние</span>": rogaineNewGroup,
+        "Давние": rogaineOldGroup,
+        "<span class='layer-separator'>Бекетов</span>": rogaineBeketovGroup,
+        "ККМ": rogaineKkmGroup,
     };
 
     let layerControlCollapsed = false;
