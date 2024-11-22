@@ -192,6 +192,15 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
+        name: 'Зеленогорск - ГК',
+        year: 2009,
+        url: './maps/rogaine/zelenogorsk_gk_2009.webp',
+        link: './original_maps/rogaine/zelenogorsk_gk_2009_full.jpg',
+        bounds: [[60.30476017195011, 29.679565429687504], [60.28970484971667, 29.871139526367188], [60.202810147156775, 29.64746475219727]],
+        owner: 'GK',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Васкелово - ККМ',
         year: 2016,
         url: './maps/rogaine/kkm/vaskelovo_KKM_2016_08.webp',
