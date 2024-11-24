@@ -37,6 +37,21 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
+        name: 'Зеленогорск, Прибой',
+        year: 2011,
+        url: './maps/winter/zelenogorsk_schuchje_winter_2011.webp',
+        bounds: [[60.24662707764389, 29.71887588500977], [60.23708440981365, 29.847278594970707], [60.19291339919565, 29.716300964355472]],
+        types: ['ROGAINE'],
+    },
+    {
+        name: 'Зеленогорск - Ильичёво',
+        year: 2024,
+        url: './maps/rogaine/zelenogorsk_north_wn_2024.webp',
+        bounds: [[60.26855615275327, 29.78616714477539], [60.260254638674034, 29.860067367553714], [60.21662647354862, 29.76101875305176]],
+        owner: 'WN',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Шуваловский лесопарк',
         year: 2024,
         url: './maps/rogaine/shuvalovsky_rogaine_2024.webp',

@@ -45,13 +45,6 @@ let winterMaps = [
         types: ['ORIENT', 'WINTER'],
     },
     {
-        name: 'Зеленогорск - Прибой',
-        year: 2011,
-        url: './maps/winter/zelenogorsk_schuchje_winter_2011.webp',
-        bounds: [[60.24662707764389, 29.71887588500977], [60.23708440981365, 29.847278594970707], [60.19291339919565, 29.716300964355472]],
-        types: ['ORIENT', 'WINTER'],
-    },
-    {
         name: 'Будогощь, оз Светлое',
         year: 2024,
         url: './maps/winter/budogosch_svetloe_winter_2024.webp',
