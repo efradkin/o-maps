@@ -118,6 +118,15 @@ let parkMaps = [
         types: ['ORIENT', 'PARK'],
     },
     {
+        name: 'Сосновка',
+        year: 2024,
+        info: 'Снежная Тропа.',
+        url: './maps/parks/sosnovka_2024.webp',
+        bounds: [[60.02305360675459, 30.33413171768189], [60.02057688022194, 30.357370376586918], [60.01511884936699, 30.330719947814945]],
+        owner: 'FSOSPB',
+        types: ['ORIENT', 'PARK'],
+    },
+    {
         name: 'Удельный парк',
         year: 1987,
         url: './maps/parks/udelny_1987.webp',
