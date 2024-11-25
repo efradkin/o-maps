@@ -153,6 +153,15 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
+        name: 'Первомайское',
+        year: 2015,
+        url: './maps/rogaine/pervomajskoe_2015.webp',
+        bounds: [[60.440158027259564, 29.635791778564457], [60.43338243248793, 29.74428176879883], [60.40016159408681, 29.62497711181641]],
+        info: 'RedFox мультирогейн.',
+        owner: 'WN',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Запорожское',
         year: 2016,
         url: './maps/rogaine/zaporozhskoe_2016.webp',

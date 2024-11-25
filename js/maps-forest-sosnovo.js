@@ -26,6 +26,7 @@ let sosnovoMaps = [
     },
     {
         name: 'Замостье',
+        year: 2006,
         url: './maps/forest/sosnovo/zamostie.webp',
         link: './original_maps/forest/sosnovo/zamostie_full.jpg',
         bounds: [[60.54272002483506, 30.322780609130863], [60.539132031840055, 30.37779808044434], [60.51565252342285, 30.314540863037113]],
