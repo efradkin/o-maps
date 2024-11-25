@@ -88,6 +88,15 @@ let parkMaps = [
     },
     {
         name: 'Сосновка',
+        year: 1975,
+        url: './maps/parks/sosnovka_1975.webp',
+        link: './original_maps/parks/sosnovka_1975_full.jpg',
+        info: '2-е соревнования на Приз газеты Ленинские Искры',
+        bounds: [[60.02974305713079, 30.340890884399418], [60.02905702197842, 30.368185043334964], [60.01237340874599, 30.338916778564457]],
+        types: ['ORIENT', 'PARK'],
+    },
+    {
+        name: 'Сосновка',
         year: 1981,
         url: './maps/parks/sosnovka_1981.webp',
         link: './original_maps/parks/sosnovka_1981_full.jpg',
