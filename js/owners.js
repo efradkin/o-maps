@@ -14,6 +14,7 @@ let owners = {
     GOLDMRSHRT: '© Золотой Маршрут - <a href="https://mosplay.ru/" target="_blank">сайт</a> и <a href="https://vk.com/rogaining" target="_blank">ВК</a>',
     GLFSTRM: '© КСО "Гольфстрим"',
     GLTV_YU: '© ГБНОУ "СПб ГДТЮ", Юрий Гультяев - +79213017985, gultiaev@list.ru',
+    GUSEV: '© Гусев Илья gusev@ym.spb.ru',
     INGR: '© <a href="https://vk.com/ingriaorient" target="_blank">КСО "Ингрия"</a>, Кирьянов Юрий - 89117954827',
     KKM: '© <b><a href="https://kkmstart.ru" target="_blank">Кубок Коротких Маршрутов</a></b>, <a href="https://vk.com/id18529372" target="_blank">Сергей Рыжов</a>.',
     KP31: 'Контакты правообладателя: controlpoint31@gmail.com.',

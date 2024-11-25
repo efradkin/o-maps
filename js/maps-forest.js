@@ -242,6 +242,14 @@ let forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Поляны',
+        year: 1977,
+        url: './maps/forest/polyany_1977.webp',
+        link: './original_maps/forest/polyany_1977_full.jpg',
+        bounds: [[60.33761111363023, 29.254531860351566], [60.33395792081405, 29.298133850097656], [60.30790645342296, 29.24534797668457]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Семиозерье',
         year: 2022,
         url: './maps/forest/polyany_2022.webp',

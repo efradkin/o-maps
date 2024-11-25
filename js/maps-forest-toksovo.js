@@ -48,6 +48,7 @@ let toksovoMaps = [
         year: 2007,
         url: './maps/forest/toksovo/schkolnoe_oz_2007.webp',
         bounds: [[60.1471875512765, 30.572247505187992], [60.14434626578051, 30.603919029235843], [60.12932396394884, 30.56602478027344]],
+        owner: 'GUSEV',
         types: ['ORIENT'],
     },
     {
@@ -222,6 +223,15 @@ let toksovoMaps = [
         owner: 'SHEIN',
         types: ['ORIENT'],
         info: 'Автор: Виктор Добрецов',
+    },
+    {
+        name: 'Токсово - оз Светлое',
+        year: 1984,
+        url: './maps/forest/toksovo/toksovo_svetloe_1984.webp',
+        link: './original_maps/forest/toksovo/toksovo_svetloe_1984_full.jpg',
+        bounds: [[60.15365963844227, 30.469293594360355], [60.16363227479294, 30.501780509948734], [60.14458126862982, 30.4835844039917]],
+        types: ['ORIENT'],
+        info: '"Бабочка"',
     },
     {
         name: 'Токсово - КомБыт',
