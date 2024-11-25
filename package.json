@@ -1,0 +1,22 @@
+{
+  "name": "rsbuild-vanilla-ts",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack serve"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.0.14",
+    "@rspack/core": "^1.0.14",
+    "esbuild": "^0.24.0",
+    "esbuild-register": "^3.6.0",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.1.0",
+    "@types/lodash": "^4.17.13",
+    "lodash": "^4.17.21",
+    "maplibre-gl": "^4.7.1"
+  }
+}
