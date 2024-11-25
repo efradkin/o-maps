@@ -28,10 +28,21 @@ function getImageOverlaysInView(total) {
     return imgs.length;
 }
 
+function upZindex(ovrl) {
+    maxZindex++;
+    let zIndex = ovrl.getElement().style.zIndex;
+    if (zIndex > maxZindex) {
+        maxZindex = zIndex + 1;
+    }
+    ovrl.getElement().style.zIndex = maxZindex;
+}
+
 function locateMap(mapName) {
     map.eachLayer( function(layer) {
         if(layer instanceof L.ImageOverlay && layer._url.includes(mapName)) {
             map.fitBounds(layer.getBounds());
+            upZindex(layer);
+            return false;
         }
     });
 }
