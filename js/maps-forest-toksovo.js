@@ -200,7 +200,7 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Кузьмолово - Юбилейная',
+        name: 'Кузьмолово, Юбилейная ул',
         year: 2018,
         url: './maps/forest/toksovo/kuzmolovo_jubilejnaya_2018.webp',
         bounds: [[60.12762470857684, 30.488841533660892], [60.12639563271471, 30.50491333007813], [60.11273376949533, 30.48461437225342]],
@@ -208,7 +208,7 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Кузьмолово - Зона-Z',
+        name: 'Кузьмолово, Зона-Z',
         year: 2018,
         url: './maps/forest/toksovo/kuzmolovo_zona_z_2018.webp',
         bounds: [[60.14462399624021, 30.515041351318363], [60.139923626291825, 30.588855743408207], [60.10926929759072, 30.506801605224613]],
@@ -216,7 +216,16 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Токсово - оз Светлое',
+        name: 'Токсово, Охта-Парк',
+        year: 2001,
+        url: './maps/forest/toksovo/toksovo_okhta_park_2001.webp',
+        link: './original_maps/forest/toksovo/toksovo_okhta_park_2001_full.jpg',
+        bounds: [[60.147059378270846, 30.410585403442386], [60.14402580464335, 30.463542938232425], [60.116069583169384, 30.403203964233402]],
+        types: ['ORIENT'],
+        info: 'Авторы: С.Дробышев, В. и Ю.Чегаровские',
+    },
+    {
+        name: 'Токсово, оз Светлое',
         year: 2017,
         url: './maps/forest/toksovo/toksovo_oz_svetloe_2017.webp',
         bounds: [[60.16070699702129, 30.436120033264164], [60.15609435132153, 30.494484901428226], [60.14496581512473, 30.430884361267093]],
@@ -225,7 +234,7 @@ let toksovoMaps = [
         info: 'Автор: Виктор Добрецов',
     },
     {
-        name: 'Токсово - оз Светлое',
+        name: 'Токсово, оз Светлое',
         year: 1984,
         url: './maps/forest/toksovo/toksovo_svetloe_1984.webp',
         link: './original_maps/forest/toksovo/toksovo_svetloe_1984_full.jpg',
@@ -234,7 +243,7 @@ let toksovoMaps = [
         info: '"Бабочка"',
     },
     {
-        name: 'Токсово - КомБыт',
+        name: 'Токсово, КомБыт',
         year: 2017,
         url: './maps/forest/toksovo/toksovo_kombyt_2017.jpg',
         bounds: [[60.148042025213854, 30.487318038940433], [60.146717581146646, 30.51066398620606], [60.12962319480245, 30.482296943664554]],
@@ -250,7 +259,7 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Токсово - Малиновая гора',
+        name: 'Токсово, Малиновая гора',
         year: 2013,
         url: './maps/forest/toksovo/toksovo_malinovaya_gora_2013.webp',
         link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_2013_full.jpg',
@@ -259,7 +268,7 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Токсово - оз Кривое',
+        name: 'Токсово, оз Кривое',
         year: 2014,
         url: './maps/forest/toksovo/toksovo_krivoe_2014.webp',
         bounds: [[60.15566722175373, 30.533494949340824], [60.153339268060094, 30.56044578552246], [60.140286860645055, 30.52787303924561]],
@@ -267,7 +276,16 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Токсово - СКА',
+        name: 'Токсово, СКА',
+        year: 2002,
+        url: './maps/forest/toksovo/toksovo_ska_2002.webp',
+        link: './original_maps/forest/toksovo/toksovo_ska_2002_full.jpg',
+        bounds: [[60.17580034340699, 30.56181907653809], [60.17054941394673, 30.611429214477543], [60.1471875512765, 30.55177688598633]],
+        info: 'Автор: В.Чегаровский.',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Токсово, СКА',
         year: 2014,
         url: './maps/forest/toksovo/toksovo_ska_2014.webp',
         bounds: [[60.16226575408094, 30.552420616149902], [60.160023682948, 30.57825565338135], [60.14825564022888, 30.547356605529785]],
@@ -283,7 +301,7 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Токсово - ВИФК',
+        name: 'Токсово, ВИФК',
         year: 2020,
         url: './maps/forest/toksovo/toksovo_vifk_2020.webp',
         bounds: [[60.22080433958028, 30.56405067443848], [60.21496370531253, 30.62095642089844], [60.17806268027771, 30.546970367431644]],
@@ -298,7 +316,7 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Токсово - ВИФК',
+        name: 'Токсово, ВИФК',
         year: 2000,
         url: './maps/forest/toksovo/toksovo_vifk_2000.webp',
         link: './original_maps/forest/toksovo/toksovo_vifk_2000_full.jpg',
@@ -321,7 +339,7 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Карабсельки - юг',
+        name: 'Карабсельки, юг',
         year: 2013,
         url: './maps/forest/toksovo/karabselky_2013.webp',
         bounds: [[60.10702361186672, 30.393161773681644], [60.10807161759284, 30.451612472534183], [60.089202411877785, 30.393719673156742]],

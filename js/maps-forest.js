@@ -35,6 +35,14 @@ let forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Цвелодубово, ур Нагорное',
+        year: 2003,
+        url: './maps/forest/tsvelodubovo_nagornoe_2003.webp',
+        link: './original_maps/forest/tsvelodubovo_nagornoe_2003_full.jpg',
+        bounds: [[60.394692158963956, 29.56502437591553], [60.39312323665598, 29.591116905212406], [60.37842682143063, 29.559960365295414]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Цвелодубово, Щукино оз',
         year: 2021,
         url: './maps/forest/tsvelodubovo_south_2021.webp',
