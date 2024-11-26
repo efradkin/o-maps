@@ -59,6 +59,7 @@ let michuraMaps = [
         bounds: [[60.60927891271937, 29.877018928527836], [60.603486549681946, 29.936757087707523], [60.58865336285576, 29.868822097778324]],
         types: ['ORIENT'],
     },
+/*
     {
         name: 'Мичуринское',
         url: './maps/forest/michura/michurinskoe.webp',
@@ -66,6 +67,8 @@ let michuraMaps = [
         owner: 'WN',
         types: ['ORIENT'],
     },
+*/
+/*
     {
         name: 'Петриченко',
         year: 2024,
@@ -74,6 +77,8 @@ let michuraMaps = [
         owner: 'WN',
         types: ['ORIENT'],
     },
+*/
+/*
     {
         name: 'Узорное оз',
         year: 2010,
@@ -82,6 +87,8 @@ let michuraMaps = [
         owner: 'WN',
         types: ['ORIENT'],
     },
+*/
+/*
     {
         name: 'Долгое оз',
         year: 2010,
@@ -90,6 +97,8 @@ let michuraMaps = [
         owner: 'WN',
         types: ['ORIENT'],
     },
+*/
+/*
     {
         name: 'Ягодное, Берестовое оз',
         url: './maps/forest/michura/yagodnoe_berestovoe.webp',
@@ -97,6 +106,7 @@ let michuraMaps = [
         owner: 'WN',
         types: ['ORIENT'],
     },
+*/
     {
         name: 'Ягодное',
         year: 2007,
@@ -105,12 +115,23 @@ let michuraMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Мичуринское',
+        year: 2022,
+        url: './maps/forest/michura/michurinskoe_2022.webp',
+        bounds: [[60.66720846469397, 29.79578018188477], [60.637257175831714, 30.08914947509766], [60.57735534424474, 29.758701324462894]],
+        owner: 'WN',
+        types: ['ORIENT'],
+    },
+/*
+    {
         name: 'Ягодное',
         year: 2017,
         url: './maps/forest/michura/yagodnoe_2017.webp',
         bounds: [[60.64659890810976, 29.949502944946293], [60.64394815114584, 29.9862813949585], [60.633279805957116, 29.944481849670414]],
         types: ['ORIENT'],
     },
+*/
+/*
     {
         name: 'Ягодное',
         year: 2011,
@@ -118,6 +139,8 @@ let michuraMaps = [
         bounds: [[60.6479452408423, 29.935426712036136], [60.64394815114584, 29.98452186584473], [60.63014386155463, 29.93006229400635]],
         types: ['ORIENT'],
     },
+*/
+/*
     {
         name: 'Ягодное, Дубовые оз',
         year: 2022,
@@ -126,6 +149,7 @@ let michuraMaps = [
         owner: 'WN',
         types: ['ORIENT'],
     },
+*/
     {
         name: 'Былинное оз',
         year: 2023,
