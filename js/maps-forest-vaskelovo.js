@@ -154,7 +154,7 @@ let vaskelovoMaps = [
         year: 2021,
         url: './maps/forest/vaskelovo/orekhovo_south_2021.webp',
         bounds: [[60.451207684981554, 30.22544860839844], [60.445238796388175, 30.297288894653324], [60.42563111407299, 30.21720886230469]],
-        info: 'Автор карты: Чегаровский В..',
+        author: 'CHGRVSKY_V',
         owner: 'CHGRVSKY_V',
         types: ['ORIENT'],
     },

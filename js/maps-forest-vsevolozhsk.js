@@ -113,7 +113,7 @@ let vsevolozhskMaps = [
         year: 2021,
         url: './maps/forest/vsevolozhsk/morozova_2021.webp',
         bounds: [[59.98432683448194, 31.039381027221683], [59.9807629815427, 31.07289791107178], [59.96895229322324, 31.03272914886475]],
-        info: 'Автор: Виктор Рылов.',
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -160,7 +160,7 @@ let vsevolozhskMaps = [
     {
         name: 'Разметелево',
         year: 2016,
-        info: 'Автор: Виктор Рылов.',
+        author: 'RYLOV_V',
         url: './maps/forest/vsevolozhsk/vsevolozhsk_juzhny_2016.webp',
         bounds: [[59.996689999636274, 30.659859180450443], [59.9952306997502, 30.676853656768802], [59.99142119454219, 30.658121109008793]],
         types: ['ORIENT'],

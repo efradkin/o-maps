@@ -349,7 +349,7 @@ let zelikMaps = [
         year: 2024,
         url: './maps/forest/zelik/beloostrov_udachnoe_2024.webp',
         link: './original_maps/forest/zelik/beloostrov_udachnoe_2024_full.jpg',
-        info: 'Авторы: В.Рылов и А.Ширинян (2007). Корректировка: Родионов И.',
+        author: ['RYLOV_V','SHRNN','RDNV_I'],
         bounds: [[60.22485380363574, 29.951906204223636], [60.2185449475187, 30.032415390014652], [60.203663175350826, 29.946155548095707]],
         owner: 'RDNV_I',
         types: ['ORIENT'],

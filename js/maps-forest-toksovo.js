@@ -31,7 +31,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/tinjuskenjarvi_1984.webp',
         link: './original_maps/forest/toksovo/tinjuskenjarvi_1984_full.jpg',
         bounds: [[60.265022945174344, 30.547142028808597], [60.26136162888228, 30.601902008056644], [60.231204060878355, 30.5390739440918]],
-        info: 'Автор: Баймаков В.М.',
+        author: 'BYMKV',
         types: ['ORIENT'],
     },
     {
@@ -40,7 +40,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/lassylampi_1984.webp',
         link: './original_maps/forest/toksovo/lassylampi_1984_full.jpg',
         bounds: [[60.243219301102904, 30.563192367553714], [60.24108926071485, 30.607137680053714], [60.212192237555385, 30.555381774902347]],
-        info: 'Автор: Баймаков В.М.',
+        author: 'BYMKV',
         types: ['ORIENT'],
     },
     {
@@ -133,7 +133,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/kavgolovo_oselki_1990.webp',
         link: './original_maps/forest/toksovo/kavgolovo_oselki_1990_full.jpg',
         bounds: [[60.21666910752298, 30.501480102539066], [60.21300238312461, 30.55932998657227], [60.17878830249272, 30.495214462280277]],
-        info: 'Автор: Баймаков В.М.',
+        author: 'BYMKV',
         types: ['ORIENT'],
     },
     {
@@ -222,7 +222,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/toksovo_okhta_park_2001_full.jpg',
         bounds: [[60.147059378270846, 30.410585403442386], [60.14402580464335, 30.463542938232425], [60.116069583169384, 30.403203964233402]],
         types: ['ORIENT'],
-        info: 'Авторы: С.Дробышев, В. и Ю.Чегаровские',
+        author: ['DRBSHV','CHGRVSKY_V','CHGRVSKY_Y'],
     },
     {
         name: 'Токсово, оз Светлое',
@@ -231,7 +231,7 @@ let toksovoMaps = [
         bounds: [[60.16070699702129, 30.436120033264164], [60.15609435132153, 30.494484901428226], [60.14496581512473, 30.430884361267093]],
         owner: 'SHEIN',
         types: ['ORIENT'],
-        info: 'Автор: Виктор Добрецов',
+        author: 'DBRTSV_V',
     },
     {
         name: 'Токсово, оз Светлое',
@@ -281,7 +281,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/toksovo_ska_2002.webp',
         link: './original_maps/forest/toksovo/toksovo_ska_2002_full.jpg',
         bounds: [[60.17580034340699, 30.56181907653809], [60.17054941394673, 30.611429214477543], [60.1471875512765, 30.55177688598633]],
-        info: 'Автор: В.Чегаровский.',
+        author: 'CHGRVSKY_V',
         types: ['ORIENT'],
     },
     {

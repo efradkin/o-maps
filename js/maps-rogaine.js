@@ -88,7 +88,7 @@ let rogaineMaps = [
         year: 2021,
         url: './maps/rogaine/vjisotsk_rfar_2021.webp',
         bounds: [[60.89571668586482, 28.146972656250004], [60.89705259731161, 28.71414184570313], [60.524184817591255, 28.12362670898438]],
-        info: 'Авторы карты: Илья Строганов и Михаил Чегаровский.',
+        author: ['STRGNV','CHGRVSKY_M'],
         owner: 'RFAR',
         types: ['ROGAINE'],
     },
@@ -253,7 +253,8 @@ let rogaineMaps = [
     {
         name: 'Гаврилово',
         year: 2008,
-        info: '100X24. Автор: С.Апатенков.',
+        info: '100X24',
+        author: 'APTNKV',
         url: './maps/rogaine/gavrilovo_2008.webp',
         link: './original_maps/rogaine/gavrilovo_2008_full.gif',
         bounds: [[60.66628342039226, 28.648567199707035], [60.66098492736882, 29.004077911376957], [60.53643022164579, 28.642387390136722]],

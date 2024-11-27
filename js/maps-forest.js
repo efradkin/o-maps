@@ -111,7 +111,7 @@ let forestMaps = [
         bounds: [[60.43067179904046, 28.998327255249027], [60.425758199767614, 29.044847488403324], [60.40122145583028, 28.985109329223636]],
         owner: 'KURD',
         types: ['ORIENT'],
-        info: 'Авторы: Виктор Дьячков, Сергей Стулов.',
+        author: ['DJCHKV','STLV'],
     },
     {
         name: 'Сертолово',
@@ -352,7 +352,7 @@ let forestMaps = [
         url: './maps/forest/pervomayskoe_dedovo_2004.webp',
         link: './original_maps/forest/pervomayskoe_dedovo_2004_full.jpg',
         bounds: [[60.42258090838146, 29.698233604431156], [60.420610831803856, 29.73556995391846], [60.39660020582283, 29.691238403320316]],
-        info: 'Авторы: В.Рылов, А.Ширинян.',
+        author: ['RYLOV_V','SHRNN'],
         types: ['ORIENT'],
     },
     {

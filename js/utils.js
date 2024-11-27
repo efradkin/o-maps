@@ -140,6 +140,14 @@ function o(owner) {
     return result;
 }
 
+function authorLabel(k) {
+    if (authors[k].about) {
+        return '<a href="' + authors[k].about + '" target="_blank">' + authors[k].name + '</a>'
+    } else {
+        return authors[k].name;
+    }
+}
+
 // Removes HTML tags and quotes from a string
 // https://stackoverflow.com/questions/74517628/remove-html-tags-and-its-contents-from-a-string-javascript
 function clean(s) {

@@ -431,6 +431,23 @@ function buildPopupText(map, latLngs) {
         result += info + '<br />';
     }
 
+    // автор-составитель
+    if (map.author) {
+        if (Array.isArray(map.author)) {
+            result += 'Авторы-составители:<ol>'
+            for (const o of map.author) {
+                if (authors[o]) {
+                    result += '<li>' + authorLabel(o) + '</li>';
+                }
+            }
+            result += '</ol>'
+        } else {
+            if (authors[map.author]) {
+                result += 'Автор-составитель: ' + authorLabel(map.author) + '.<br />';
+            }
+        }
+    }
+
     // владелец
     if (map.owner) {
         if (Array.isArray(map.owner)) {
