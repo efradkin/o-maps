@@ -92,6 +92,15 @@ let rogaineKkmMaps = [
         types: ['ROGAINE'],
     },
     {
+        name: 'Павловск - ККМ',
+        year: 2024,
+        url: './maps/rogaine/kkm/pavlovsk_2024_12.webp',
+        link: 'https://kkmstart.ru/marshrut-№12-2024/',
+        bounds: [[59.70690217342447, 30.43195724487305], [59.70698876336404, 30.49092292785645], [59.68386129364914, 30.432128906250004]],
+        owner: 'KKM',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Сестрорецк - ККМ',
         year: 2024,
         url: './maps/rogaine/kkm/sestroretsk_KKM_2024_05.webp',
