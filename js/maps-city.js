@@ -101,7 +101,7 @@ let cityMaps = [
     {
         name: 'Школа №156',
         year: 2013,
-        url: './maps/city/school_156_2013.jpg',
+        url: './maps/city/school_156_2013.webp',
         bounds: [[59.99765567740504, 30.426700115203857], [59.99798829322108, 30.43697834014893], [59.991603631550845, 30.427644252777103]],
         owner: 'SHEIN',
         types: ['ORIENT', 'CITY'],
