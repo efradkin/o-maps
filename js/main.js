@@ -380,13 +380,13 @@ if (mapElement) {
             display: 'км',
             decimal: 2,
             factor: null,
-            label: 'Расстояние:'
+            label: 'L:'
         },
         angleUnit: {
             display: '&deg;',
             decimal: 2,
             factor: null,
-            label: 'Азимут:'
+            label: 'A:'
         }
     };
     L.control.ruler(rulerOptions).addTo(map);
