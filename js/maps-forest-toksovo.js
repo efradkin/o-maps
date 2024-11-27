@@ -294,6 +294,14 @@ let toksovoMaps = [
     },
     {
         name: 'Токсово - Светлое',
+        year: 1992,
+        url: './maps/forest/toksovo/toksovo_svetloe_1992.webp',
+        link: './original_maps/forest/toksovo/toksovo_svetloe_1992_full.jpg',
+        bounds: [[60.17379398977339, 30.577354431152347], [60.16790228578538, 30.64773559570313], [60.12919572132151, 30.55984497070313]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Токсово - Светлое',
         year: 2014,
         url: './maps/forest/toksovo/toksovo_svetloe_2014.webp',
         bounds: [[60.173964748045265, 30.579929351806644], [60.171211162662146, 30.607438087463382], [60.151822805888436, 30.57181835174561]],
