@@ -1,8 +1,16 @@
 let authors = {
     APTNKV: { name: 'Апатенков Сергей' },
     AZBKNA: { name: 'Азбукина О.' },
+    BBNN_I: { name: 'Бабанин И.' },
+    BNDRNK: {
+        name: 'Бондаренко Игорь',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
     BRDR: { name: 'Бердар Азиз' },
     BVZ: { name: 'Бевза Татьяна' },
+    BSTRV_A: { name: 'Быстров А.' },
+    BRSVA_I: { name: 'Борисова И.' },
+    BZNV_A: { name: 'Базанов Алексей' },
     BYMKV: {
         name: 'Баймаков Владимир Михайлович',
         about: 'https://o-site.spb.ru/history/Peoples/baimakov.html'
@@ -13,6 +21,7 @@ let authors = {
         about: 'https://ar-info.ru/articles/?id_article_full=176'
     },
     CHGRVSKY_Y: { name: 'Чегаровский Юрий' },
+    DBRTSV_S: { name: 'Добрецов Сергей' },
     DBRTSV_V: { name: 'Добрецов Виктор' },
     DJCHKV: {
         name: 'Дьячков Виктор',
@@ -34,6 +43,15 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/vsfersh.html'
     },
     GLK: { name: 'Голик Елена' },
+    GRSMVA: { name: 'Герасимова Н.' },
+    GRBTNKV: {
+        name: 'Горбатенков Игорь',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
+    GUSEV: {
+        name: 'Гусев Илья',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
     HSMTLN: { name: 'Хисматуллин Дамир' },
     KLCHTSKA: { name: 'Кульчицкая Е.' },
     KOUKNN_Y: { name: 'Куокканен Юрий' },
@@ -41,6 +59,7 @@ let authors = {
         name: 'Курочкин Василий Васильевич',
         about: 'https://o-site.spb.ru/history/Peoples/kurochkin.html'
     },
+    KRNLJV: { name: 'Корнильев П.' },
     KVZN: {
         name: 'Ковязин Александр Николаевич',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -59,21 +78,29 @@ let authors = {
         name: 'Малова Мария Михайловна',
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
+    MLSHV_Y: { name: 'Малышев Ю.' },
     MRSKA_I: { name: 'Мурская Эльза' },
     MRSKY_S: { name: 'Мурский Сергей' },
+    MTRNCHV: { name: 'Матреничев Вячеслав' },
     PKHMV: { name: 'Пахомов С.' },
     PPV_D: { name: 'Попов Дмитрий' },
     PSHKV: { name: 'Пашков Михаил' },
+    PTRNNA: { name: 'Петрянина О.' },
     RDNV_I: { name: 'Родионов Иван' },
     RDKV: { name: 'Рудаков В.' },
     RYLOV_V: {
         name: 'Рылов Виктор',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    SHLKHN_Y: { name: 'Шелёхин Юрий' },
     SHKLV: { name: 'Шкилев Виталий' },
     SHRNN: {
         name: 'Ширинян Александр Альбертович',
         about: 'https://spbof.ru/ru/8-news/31-a-a-shirinyan-idealnykh-kart-ne-byvaet-lyudi-vidyat-ob-ekty-po-raznomu'
+    },
+    SHVR: {
+        name: 'Швер Евгений',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     STLV: { name: 'Стулов Сергей' },
     STLRV: { name: 'Столяров А.' },
@@ -81,6 +108,7 @@ let authors = {
         name: 'Строганов Илья',
         about: 'https://adventure-race.redfox.ru/archive/archive_2020/news/v_komande_red_fox_adventure_race_popolnenie/'
     },
+    CHKVSKY_N: { name: 'Чайковский Н.' },
     TKMKV_K: { name: 'Токмаков Константин' },
     TKMKVA_P: { name: 'Токмакова Полина' },
     TMKN: {
@@ -91,6 +119,10 @@ let authors = {
     VRBY: {
         name: 'Воробей Сергей Валерьянович',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
+    VLKV_A: {
+        name: 'Волков Андрей Владимирович',
+        about: 'https://o-site.spb.ru/history/Peoples/avolkov.html'
     },
     VLKV_K: {
         name: 'Волков Константин Владимирович',

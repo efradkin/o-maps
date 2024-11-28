@@ -70,6 +70,7 @@ let forestMaps = [
         url: './maps/forest/orlovsky_park_1980.webp',
         link: './original_maps/forest/orlovsky_park_1980_full.jpg',
         bounds: [[60.06653224902049, 30.242314338684086], [60.05922909614627, 30.30561447143555], [60.04633219385438, 30.225920677185062]],
+        author: ['SHRNN','MLSHV_Y'],
         types: ['ORIENT'],
     },
     {
@@ -86,6 +87,7 @@ let forestMaps = [
         url: './maps/forest/yukki_1990.webp',
         link: './original_maps/forest/yukki_1990_full.jpg',
         bounds: [[60.14936641593736, 30.269308090209964], [60.14577762073669, 30.33608436584473], [60.11012475663832, 30.2589225769043]],
+        author: 'SHLKHN_Y',
         types: ['ORIENT'],
     },
     {
@@ -151,6 +153,7 @@ let forestMaps = [
         url: './maps/forest/vartemjagi_1987.webp',
         link: './original_maps/forest/vartemjagi_1987_full.jpg',
         bounds: [[60.202127708632986, 30.219097137451175], [60.19641172873261, 30.31711578369141], [60.17332439994863, 30.210857391357425]],
+        author: ['MLV_M','KZNTSVA_O','KZNTSV_S'],
         types: ['ORIENT'],
     },
     {
@@ -304,6 +307,7 @@ let forestMaps = [
         url: './maps/forest/mednoe_svetloe_2001.webp',
         link: './original_maps/forest/mednoe_svetloe_2001_full.jpg',
         bounds: [[60.231246675898234, 30.110778808593754], [60.226260342518756, 30.17231941223145], [60.20276749516488, 30.10116577148438]],
+        author: 'CHGRVSKY_V',
         types: ['ORIENT'],
         zindex: 2
     },

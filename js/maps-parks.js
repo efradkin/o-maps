@@ -112,7 +112,7 @@ let parkMaps = [
         url: './maps/parks/sosnovka_1997.webp',
         link: './original_maps/parks/sosnovka_1997_full.jpg',
         bounds: [[60.036302548936476, 30.32724380493164], [60.03370891864321, 30.371446609497074], [60.012137461804485, 30.32187938690186]],
-        author: ['DBRTSV_V'],
+        author: ['DBRTSV_V','SHLKHN_Y'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -675,6 +675,7 @@ let parkMaps = [
         url: './maps/parks/shuvalovsky_park_1988.webp',
         link: './original_maps/parks/shuvalovsky_park_1988_full.jpg',
         bounds: [[60.08522181178067, 30.27892112731934], [60.082739043608704, 30.322523117065433], [60.0687806949504, 30.272741317749027]],
+        author: ['VLKV_A','SHVR'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -683,6 +684,7 @@ let parkMaps = [
         url: './maps/parks/shuvalovsky_2004.webp',
         link: './original_maps/parks/shuvalovsky_2004_full.jpg',
         bounds: [[60.08877441342627, 30.29316902160645], [60.08644172418347, 30.32308101654053], [60.068395257960205, 30.28587341308594]],
+        author: ['DBRTSV_V','DRBSHV'],
         types: ['ORIENT', 'PARK'],
     },
     {

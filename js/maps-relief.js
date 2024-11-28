@@ -6,6 +6,7 @@ let reliefMaps = [
         url: './maps/relief/toksovo_origon_1.webp',
         link: './original_maps/relief/toksovo_origon_1_full.jpg',
         bounds: [[60.14966546452469, 30.491695404052734], [60.14599125046178, 30.532207489013675], [60.112605462220415, 30.483713150024418]],
+        author: ['CHGRVSKY_V'],
         types: ['ORIENT', 'RELIEF'],
     },
     {
@@ -13,6 +14,7 @@ let reliefMaps = [
         url: './maps/relief/toksovo_origon_2.webp',
         link: './original_maps/relief/toksovo_origon_2_full.jpg',
         bounds: [[60.15978879045419, 30.39273262023926], [60.15295481948042, 30.51083564758301], [60.12744302199271, 30.385093688964847]],
+        author: ['CHGRVSKY_V','AZBKNA','CHGRVSKY_Y'],
         types: ['ORIENT', 'RELIEF'],
     },
     {
@@ -20,6 +22,7 @@ let reliefMaps = [
         url: './maps/relief/toksovo_origon_3.webp',
         link: './original_maps/relief/toksovo_origon_3_full.jpg',
         bounds: [[60.1929987287428, 30.610399246215824], [60.18988405654998, 30.66267013549805], [60.14872558837722, 30.599584579467777]],
+        author: ['CHGRVSKY_V','AZBKNA','KLCHTSKA','RDKV','CHGRVSKY_Y'],
         types: ['ORIENT', 'RELIEF'],
     },
     {

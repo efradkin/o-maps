@@ -49,6 +49,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/olgino_1997.webp',
         link: './original_maps/forest/zelik/olgino_1997_full.jpg',
         bounds: [[60.06068557237958, 30.07490158081055], [60.055630467498005, 30.140132904052738], [60.023825535526576, 30.060739517211918]],
+        author: ['BZNV_A','KRCHKN_V'],
         types: ['ORIENT'],
     },
     {
@@ -396,6 +397,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/tarkhovka_1987.webp',
         link: './original_maps/forest/zelik/tarkhovka_1987_full.jpg',
         bounds: [[60.073234306818485, 29.946198463439945], [60.07207813845158, 29.97581005096436], [60.05882212806155, 29.942722320556644]],
+        author: 'BBNN_I',
         types: ['ORIENT'],
     },
     {
@@ -404,6 +406,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/tarkhovka_1980.webp',
         link: './original_maps/forest/zelik/tarkhovka_1980_full.jpg',
         bounds: [[60.07237788969751, 29.945511817932132], [60.07150003907007, 29.974865913391117], [60.058950644841026, 29.944224357604984]],
+        author: 'VLKV_K',
         types: ['ORIENT'],
     },
     {
@@ -452,6 +455,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/pastorskoe_mednoe_2009.webp',
         link: './original_maps/forest/zelik/pastorskoe_mednoe_2009_full.jpg',
         bounds: [[60.24965118236976, 30.009841918945316], [60.2356783354143, 30.175838470458988], [60.21138207197383, 29.996194839477543]],
+        author: 'CHGRVSKY_V',
         owner: 'CHGRVSKY_M',
         types: ['ORIENT'],
     },

@@ -7,6 +7,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/hepojarvi_east_1985.webp',
         link: './original_maps/forest/toksovo/hepojarvi_east_1985_full.jpg',
         bounds: [[60.19342537315118, 30.609111785888675], [60.18996939397238, 30.662240982055668], [60.14898192089998, 30.59872627258301]],
+        author: ['CHGRVSKY_V','CHGRVSKY_Y','AZBKNA','KLCHTSKA','RDKV'],
         types: ['ORIENT'],
     },
     {
@@ -23,6 +24,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/sjargi_1991.webp',
         link: './original_maps/forest/toksovo/sjargi_1991_full.jpg',
         bounds: [[60.16785958842209, 30.38775444030762], [60.162052230086715, 30.475730895996094], [60.1284690036598, 30.37324905395508]],
+        author: ['CHGRVSKY_V','CHGRVSKY_Y','DBRTSV_S','GRBTNKV','GUSEV','BNDRNK'],
         types: ['ORIENT'],
     },
     {
@@ -65,6 +67,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/enkolovo_1999.webp',
         link: './original_maps/forest/toksovo/enkolovo_1999_full.jpg',
         bounds: [[60.13575682769777, 30.40904045104981], [60.132316150044446, 30.453844070434574], [60.111963918346746, 30.400371551513675]],
+        author: ['CHGRVSKY_V','CHGRVSKY_Y','DRBSHV'],
         types: ['ORIENT'],
     },
     {
@@ -109,6 +112,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/toksovo_krivoe_1987.webp',
         link: './original_maps/forest/toksovo/toksovo_krivoe_1987_full.jpg',
         bounds: [[60.15968202058385, 30.522980690002445], [60.157973655487055, 30.557441711425785], [60.13960312206087, 30.51886081695557]],
+        author: ['CHGRVSKY_Y','DBRTSV_V','CHKVSKY_N','KRNLJV','GRSMVA','BSTRV_A','BRSVA_I','PTRNNA'],
         types: ['ORIENT'],
     },
     {
@@ -264,6 +268,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/toksovo_malinovaya_gora_2013.webp',
         link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_2013_full.jpg',
         bounds: [[60.17641930011107, 30.462856292724613], [60.173644575557304, 30.497488975524906], [60.16412335429406, 30.459079742431644]],
+        author: 'RDNV_I',
         owner: 'RDNV_I',
         types: ['ORIENT'],
     },
@@ -298,6 +303,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/toksovo_svetloe_1992.webp',
         link: './original_maps/forest/toksovo/toksovo_svetloe_1992_full.jpg',
         bounds: [[60.17379398977339, 30.577354431152347], [60.16790228578538, 30.64773559570313], [60.12919572132151, 30.55984497070313]],
+        author: ['CHGRVSKY_V','CHGRVSKY_Y','DBRTSV_V','DBRTSV_S','GUSEV'],
         types: ['ORIENT'],
     },
     {
@@ -361,6 +367,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/mistolovo_2006.webp',
         link: './original_maps/forest/toksovo/mistolovo_2006_full.jpg',
         bounds: [[60.11780150698152, 30.38848400115967], [60.115385341248704, 30.424661636352543], [60.10133385603849, 30.38350582122803]],
+        author: 'SHRNN',
         types: ['ORIENT'],
     },
     {

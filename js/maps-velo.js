@@ -16,6 +16,7 @@ let veloMaps = [
         url: './maps/velo/tarkhovka_velo_2023.webp',
         link: './original_maps/velo/tarkhovka_velo_2023_full.pdf',
         bounds: [[60.08303869796451, 29.937143325805668], [60.07717353916566, 29.995079040527347], [60.04354648691466, 29.918432235717777]],
+        author: 'MTRNCHV',
         owner: 'MTRNCHV',
         types: ['ORIENT', 'VELO'],
     },
