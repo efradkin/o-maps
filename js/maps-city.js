@@ -266,6 +266,7 @@ let cityMaps = [
         link: './original_maps/city/poljustrovo_2023_full.jpg',
         bounds: [[59.97492258582917, 30.42742967605591], [59.97373076088295, 30.43865203857422], [59.96792134236893, 30.424425601959232]],
         types: ['ORIENT', 'CITY'],
+        author: 'RDNV_I',
         owner: 'RDNV_I',
     },
     {
@@ -549,6 +550,7 @@ let cityMaps = [
         url: './maps/city/gimnazia_74_2024.webp',
         link: './original_maps/city/gimnazia_74_2024_full.jpg',
         bounds: [[60.000713471052876, 30.34653425216675], [59.99927580678817, 30.36305665969849], [59.99538092476921, 30.34483909606934]],
+        author: ['SHRNN','EFRMV'],
         owner: ['SHRNN','EFRMV'],
         types: ['ORIENT', 'CITY'],
     },
@@ -875,6 +877,7 @@ let cityMaps = [
         url: './maps/city/novoselov_2000.webp',
         link: './original_maps/city/novoselov_2000_full.jpg',
         bounds: [[59.8943619318266, 30.464186668396], [59.89251063054091, 30.491480827331547], [59.88277883930378, 30.462040901184086]],
+        author: 'DRBSHV',
         types: ['ORIENT', 'CITY'],
     },
     {

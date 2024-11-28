@@ -7,6 +7,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/vsevolozhsk_1987.webp',
         link: './original_maps/forest/vsevolozhsk/vsevolozhsk_1987_full.jpg',
         bounds: [[60.06612537100185, 30.623531341552738], [60.06355549916492, 30.683269500732425], [60.03518795591195, 30.62052726745606]],
+        author: ['VSLVSKY','MDVDKN'],
         types: ['ORIENT'],
     },
     {
@@ -36,6 +37,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/koltushi_1990.webp',
         link: './original_maps/forest/vsevolozhsk/koltushi_1990_full.jpg',
         bounds: [[59.9788091403029, 30.66172599792481], [59.97408509169904, 30.740690231323242], [59.92629139661258, 30.648250579833988]],
+        author: 'VSLVSKY',
         types: ['ORIENT'],
     },
     {
@@ -44,6 +46,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/golubaya_dacha_2005.webp',
         link: './original_maps/forest/vsevolozhsk/golubaya_dacha_2005_full.jpg',
         bounds: [[59.96796429929518, 30.610613822937015], [59.965902303990916, 30.660524368286136], [59.947446028167285, 30.608124732971195]],
+        author: ['RYLOV_V','DRBSHV'],
         types: ['ORIENT'],
     },
     {
@@ -83,6 +86,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/scheglovo_1986.webp',
         link: './original_maps/forest/vsevolozhsk/scheglovo_1986_full.jpg',
         bounds: [[60.03548804234906, 30.756418704986576], [60.03489858426572, 30.77051639556885], [60.02720251191258, 30.755131244659427]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -91,6 +95,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/scheglovo_1987.webp',
         link: './original_maps/forest/vsevolozhsk/scheglovo_1987_full.jpg',
         bounds: [[60.02028738059051, 30.726270675659183], [60.01906502085821, 30.755453109741214], [60.00548735560624, 30.723438262939457]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -99,6 +104,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/morozova_1992.webp',
         link: './original_maps/forest/vsevolozhsk/morozova_1992_full.jpg',
         bounds: [[59.99332063646918, 31.04075431823731], [59.991303146530086, 31.077747344970707], [59.96656817067386, 31.034574508666996]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -149,6 +155,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/rakhja_south_2007.webp',
         link: './original_maps/forest/vsevolozhsk/rakhja_south_2007_full.jpg',
         bounds: [[60.09157770227037, 30.848064422607425], [60.089181012087195, 30.879821777343754], [60.082332365483836, 30.84544658660889]],
+        author: 'PKHMV',
         types: ['ORIENT'],
     },
     {

@@ -39,6 +39,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/pesochnaya_2005.webp',
         link: './original_maps/forest/zelik/pesochnaya_2005_full.jpg',
         bounds: [[60.122654684605095, 30.111250877380375], [60.11705315601863, 30.18030166625977], [60.10689528234335, 30.10640144348145]],
+        author: ['SHKLV','VSLVSKY','DRBSHV'],
         owner: 'SHKLV',
         types: ['ORIENT'],
     },
@@ -56,6 +57,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/pesochnaya_1998.webp',
         link: './original_maps/forest/zelik/pesochnaya_1998_full.jpg',
         bounds: [[60.12128646025379, 30.12837409973145], [60.11745940579484, 30.173993110656742], [60.10659584484433, 30.123052597045902]],
+        author: ['VSLVSKY','DRBSHV'],
         types: ['ORIENT'],
     },
     {
@@ -399,6 +401,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/lisy_nos_1986.webp',
         link: './original_maps/forest/zelik/lisy_nos_1986_full.jpg',
         bounds: [[60.010678843334446, 30.013790130615238], [60.006281148244774, 30.071082115173343], [59.999372368285684, 30.009799003601078]],
+        author: ['FRSHLVA','FRSHLV'],
         types: ['ORIENT'],
     },
     {

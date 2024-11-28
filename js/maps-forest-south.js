@@ -7,6 +7,7 @@ let southMaps = [
         url: './maps/forest/south/mga_1992.webp',
         link: './original_maps/forest/south/mga_1992_full.jpg',
         bounds: [[59.753390360325824, 31.02187156677246], [59.7482666342105, 31.071996688842777], [59.73721660178828, 31.016163825988773]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -22,6 +23,7 @@ let southMaps = [
         url: './maps/forest/south/lomonosov_1997.webp',
         link: './original_maps/forest/south/lomonosov_1997_full.jpg',
         bounds: [[59.90426248948507, 29.730892181396488], [59.901766105385086, 29.76556777954102], [59.881917481564564, 29.72436904907227]],
+        author: 'KRCHKN_V',
         types: ['ORIENT'],
     },
     {
@@ -30,6 +32,7 @@ let southMaps = [
         url: './maps/forest/south/sablino_1992.webp',
         link: './original_maps/forest/south/sablino_1992_full.jpg',
         bounds: [[59.67703693873597, 30.761761665344242], [59.675130203892365, 30.801887512207035], [59.65568831941736, 30.7553243637085]],
+        author: 'DRBSHV',
         types: ['ORIENT'],
     },
     {
@@ -121,6 +124,7 @@ let southMaps = [
         url: './maps/forest/south/lemovzha_1992.webp',
         link: './original_maps/forest/south/lemovzha_1992_full.jpg',
         bounds: [[59.124917461875384, 29.296503067016605], [59.12300142617275, 29.333152770996097], [59.10718453374521, 29.293198585510257]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -128,6 +132,7 @@ let southMaps = [
         year: 2017,
         url: './maps/forest/south/khotnezha_2017.webp',
         bounds: [[59.12615071552468, 29.295215606689457], [59.12112933377082, 29.33632850646973], [59.10989463099106, 29.288692474365238]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -141,7 +146,9 @@ let southMaps = [
         name: 'Гатчина - Приоратский парк',
         year: 1993,
         url: './maps/forest/south/gatchina_prioratsky_1993.webp',
+        link: './original_maps/forest/south/gatchina_prioratsky_1993_full.jpg',
         bounds: [[59.56337553311358, 30.105199813842777], [59.563071167965695, 30.13584136962891], [59.54445618473496, 30.103740692138675]],
+        author: ['MRSKY_S','HSMTLN','KOUKNN_Y','MRSKA_I','GLK'],
         types: ['ORIENT'],
     },
     {
@@ -304,6 +311,7 @@ let southMaps = [
         url: './maps/forest/south/luga_shalovo_1986.webp',
         link: './original_maps/forest/south/luga_shalovo_1986_full.jpg',
         bounds: [[58.803139961832024, 29.95954513549805], [58.80125042024749, 30.019884109497074], [58.77158224959439, 29.956626892089847]],
+        author: 'BYMKV',
         types: ['ORIENT'],
     },
     {

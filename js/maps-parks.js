@@ -15,6 +15,7 @@ let parkMaps = [
         url: './maps/parks/pobedy_1984.webp',
         link: './original_maps/parks/pobedy_1984_full.jpg',
         bounds: [[59.87226874969168, 30.320806503295902], [59.87180562628519, 30.33831596374512], [59.864502502163894, 30.319154262542728]],
+        author: 'TRSV',
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -67,6 +68,7 @@ let parkMaps = [
         url: './maps/parks/polezhaevsky_2001.webp',
         link: './original_maps/parks/polezhaevsky_2001_full.jpg',
         bounds: [[59.84684127411712, 30.180387496948246], [59.84563406335706, 30.21124362945557], [59.833343891273, 30.17807006835938]],
+        author: 'KRCHKN_V',
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -75,6 +77,7 @@ let parkMaps = [
         url: './maps/parks/polyustrovsky_2022.webp',
         link: './original_maps/parks/polyustrovsky_2022_full.jpg',
         bounds: [[59.96915633177583, 30.420584678649906], [59.968082430555185, 30.433566570281986], [59.96020967154, 30.41796684265137]],
+        author: ['FDRV_L','TKMKVA_P','RDNV_I'],
         owner: 'RDNV_I',
         types: ['ORIENT', 'PARK'],
     },
@@ -109,6 +112,7 @@ let parkMaps = [
         url: './maps/parks/sosnovka_1997.webp',
         link: './original_maps/parks/sosnovka_1997_full.jpg',
         bounds: [[60.036302548936476, 30.32724380493164], [60.03370891864321, 30.371446609497074], [60.012137461804485, 30.32187938690186]],
+        author: ['DBRTSV_V'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -117,6 +121,7 @@ let parkMaps = [
         url: './maps/parks/sosnovka_2004.webp',
         link: './original_maps/parks/sosnovka_2004_full.jpg',
         bounds: [[60.03430911566367, 30.332007408142093], [60.03190826215154, 30.37054538726807], [60.01248065679911, 30.32655715942383]],
+        author: ['SHKLV','BRDR','DRBSHV'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -142,7 +147,7 @@ let parkMaps = [
         link: './original_maps/parks/udelny_1987_full.jpg',
         bounds: [[60.01741369119426, 30.29788970947266], [60.015354775032456, 30.324969291687015], [60.00194723757934, 30.29338359832764]],
         types: ['ORIENT', 'PARK'],
-        owner: 'FSOSPB',
+        author: 'VSLVSKY'
     },
     {
         name: 'Удельный парк',
@@ -150,6 +155,7 @@ let parkMaps = [
         url: './maps/parks/udelny_2004.webp',
         link: './original_maps/parks/udelny_2004_full.jpg',
         bounds: [[60.01726356622507, 30.29643058776856], [60.01499016193073, 30.331192016601566], [60.00265529149791, 30.29239654541016]],
+        author: 'DBRTSV_V',
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -166,6 +172,7 @@ let parkMaps = [
         url: './maps/parks/piskarevsky_2001.webp',
         link: './original_maps/parks/piskarevsky_2001_full.jpg',
         bounds: [[60.00640986958004, 30.395436286926273], [60.00450045170369, 30.422172546386722], [59.994597601104296, 30.39123058319092]],
+        author: ['RDKV','DBRTSV_V','BRDR'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -182,6 +189,7 @@ let parkMaps = [
         url: './maps/parks/lesotekchnicheskaya_1984.webp',
         link: './original_maps/parks/lesotekchnicheskaya_1984_full.jpg',
         bounds: [[59.99787026863688, 30.330977439880375], [59.99596035773898, 30.35460233688355], [59.9907021683028, 30.329711437225345]],
+        author: ['KLCHTSKA','AZBKNA'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -222,15 +230,16 @@ let parkMaps = [
         types: ['ORIENT', 'PARK'],
     },
     {
-        name: 'Александрино юг',
+        name: 'Александрино, юг',
         year: 1986,
         url: './maps/parks/aleksandrino_1986.webp',
         link: './original_maps/parks/aleksandrino_1986.jpg',
         bounds: [[59.8382605045259, 30.223817825317386], [59.83750580842855, 30.24514675140381], [59.827369660673696, 30.220642089843754]],
+        author: 'VLKV_K',
         types: ['ORIENT', 'PARK'],
     },
     {
-        name: 'Александрино юг',
+        name: 'Александрино, юг',
         year: 2007,
         url: './maps/parks/aleksandrino_south_2007.webp',
         bounds: [[59.838713313973486, 30.226092338562015], [59.83765674901652, 30.244331359863285], [59.82784418747832, 30.22325992584229]],
@@ -249,6 +258,7 @@ let parkMaps = [
         url: './maps/parks/sad_9_janvarya_2018.webp',
         link: './original_maps/parks/sad_9_janvarya_2018_full.jpg',
         bounds: [[59.896030167287805, 30.27392148971558], [59.89523372984083, 30.28205394744873], [59.88972272059391, 30.271797180175785]],
+        author: 'BVZ',
         owner: 'BVZ',
         types: ['ORIENT', 'PARK'],
     },
@@ -412,6 +422,7 @@ let parkMaps = [
         url: './maps/parks/severomurinsky_1999.webp',
         link: './original_maps/parks/severomurinsky_1999_full.jpg',
         bounds: [[60.035745257125406, 30.36558866500855], [60.03470566842663, 30.39204597473145], [60.02675226833321, 30.36380767822266]],
+        author: ['SHRNN','FRSHLVA'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -556,6 +567,7 @@ let parkMaps = [
         url: './maps/parks/rzhevsky_1990.webp',
         link: './original_maps/parks/rzhevsky_1990_full.jpg',
         bounds: [[59.97910973876822, 30.492811203002933], [59.97554532414374, 30.56233406066895], [59.94628545318887, 30.48585891723633]],
+        author: 'RYLOV_V',
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -564,6 +576,7 @@ let parkMaps = [
         url: './maps/parks/rzhevsky_2024.webp',
         link: './original_maps/parks/rzhevsky_2024_full.jpg',
         bounds: [[59.98001151778878, 30.49615859985352], [59.972538893040515, 30.55855751037598], [59.95165814413096, 30.484828948974613]],
+        author: 'RDNV_I',
         owner: 'RDNV_I',
         types: ['ORIENT', 'PARK'],
     },
@@ -646,6 +659,7 @@ let parkMaps = [
         url: './maps/parks/esenina_1999.webp',
         link: './original_maps/parks/esenina_1999_full.jpg',
         bounds: [[59.91332106580055, 30.47620296478272], [59.915429358415565, 30.485000610351566], [59.90658654047794, 30.482554435729984]],
+        author: 'FDRV_L',
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -677,6 +691,7 @@ let parkMaps = [
         url: './maps/parks/malinovka_2003.webp',
         link: './original_maps/parks/malinovka_2003_full.jpg',
         bounds: [[59.944598248579176, 30.462234020233158], [59.94790809763683, 30.47519445419312], [59.94125582542067, 30.465517044067386]],
+        author: 'DRBSHV',
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -685,6 +700,7 @@ let parkMaps = [
         url: './maps/parks/babushkina_1999.webp',
         link: './original_maps/parks/babushkina_1999_full.jpg',
         bounds: [[59.88530894856813, 30.433888435363773], [59.884652215311405, 30.44545412063599], [59.88141142348299, 30.433030128479007]],
+        author: 'DRBSHV',
         types: ['ORIENT', 'PARK'],
     },
     {
