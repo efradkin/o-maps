@@ -179,6 +179,17 @@ let zelikMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Зеленогорск, оз Красавица',
+        year: 1998,
+        url: './maps/forest/zelik/krasavitsa_1998.webp',
+        link: './original_maps/forest/zelik/krasavitsa_1998_full.jpg',
+        bounds: [[60.257614741711635, 29.733681678771976], [60.254357156086634, 29.789385795593265], [60.235550507476816, 29.729218482971195]],
+        info: 'Первая карта Константина Токмакова',
+        author: 'TKMKV_K',
+        owner: 'TOKM',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Зеленогорск, Дружинное оз',
         year: 1995,
         url: './maps/forest/zelik/zelenogorsk_chertovo_oz_1995.webp',
