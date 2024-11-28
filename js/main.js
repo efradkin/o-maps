@@ -81,7 +81,7 @@ let oMaps = [
 
 const TOTAL_MAPS = oMaps.length;
 
-// Overlay the maps
+// Prepare the structures and overlay the maps
 for (const m of oMaps) {
 
     // if (m.info && m.info.startsWith('ККП')) continue;
@@ -129,6 +129,8 @@ for (const m of oMaps) {
                 interactive: true,
                 alt: m.name
             });
+
+        m.area = getArea(latLngs);
 
         // map popup
         let popup = buildPopupText(m, latLngs);
@@ -420,7 +422,7 @@ function buildPopupText(map, latLngs) {
     }
 
     // площадь
-    let area = getArea(latLngs);
+    let area = map.area.toFixed(2);
     result += '&nbsp;-&nbsp;' + area + '&nbsp;км<sup>2</sup>';
     result += '</b><hr />';
 
@@ -435,15 +437,17 @@ function buildPopupText(map, latLngs) {
     if (map.author) {
         if (Array.isArray(map.author)) {
             result += 'Авторы-составители:<ol>'
-            for (const o of map.author) {
-                if (authors[o]) {
-                    result += '<li>' + authorLabel(o) + '</li>';
+            for (const a of map.author) {
+                if (authors[a]) {
+                    result += '<li>' + authorLabel(authors[a]) + '</li>';
+                    populateAuthor(map, a);
                 }
             }
             result += '</ol>'
         } else {
             if (authors[map.author]) {
-                result += 'Автор-составитель: ' + authorLabel(map.author) + '.<br />';
+                result += 'Автор-составитель: ' + authorLabel(authors[map.author]) + '.<br />';
+                populateAuthor(map, map.author);
             }
         }
     }
@@ -482,6 +486,22 @@ function buildPopupText(map, latLngs) {
         result += '<br />Поделиться <a href="' + mapLinkUrl + '" target="_blank">ссылкой</a> на карту: <a href="#" ' + onclick + ' target="_blank"><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
     }
     return result;
+}
+
+function populateAuthor(map, a) {
+    if (!map.types.includes('ROGAINE') && !map.types.includes('SPECIAL')) {
+        let author = authors[a];
+        if (!author.count) {
+            author.count = 1;
+        } else {
+            author.count++;
+        }
+        if (!author.area) {
+            author.area = map.area;
+        } else {
+            author.area += map.area;
+        }
+    }
 }
 
 function onMapSelect(ovrl, map) {

@@ -1,7 +1,7 @@
 
 const mapTypes = ['Город', 'Парки', 'Лес', 'Рельеф', 'Зима', 'Вело', 'Рогейн'];
 
-window.onload = function buildCharts() {
+window.onload = function() {
 
     const mapsStat = [
         cityGroup.getLayers().length,
@@ -42,13 +42,15 @@ window.onload = function buildCharts() {
         ['2020-е', '2010-е', '2000-е', '1990-е', 'Ретро', '???'],
         calcYears(),
         'Год издания');
+
+    buildAuthorsTable();
 }
 
 function calcMapsArea(group) {
     let area = 0;
     for (const m of group.getLayers()) {
         let latLngs = [m.getTopLeft(), m.getTopRight(), m.getBottomLeft()];
-        area += parseFloat(getArea(latLngs));
+        area += getArea(latLngs);
     }
     return area;
 }
@@ -126,4 +128,22 @@ function buildChart(ctx, labels, data, label) {
             }
         }
     });
+}
+
+function buildAuthorsTable() {
+    let authorsArray = Object.keys(authors).map((key) => authors[key]);
+    authorsArray.sort((a, b) => (b.count || 0) - (a.count || 0));
+    var table = document.getElementById("authorsTable");
+    for (var i = 0; i < authorsArray.length; i++) {
+        if (!authorsArray[i].count) {
+            break;
+        }
+        let row = table.insertRow(i + 1);
+        let cell1 = row.insertCell(0);
+        let cell2 = row.insertCell(1);
+        let cell3 = row.insertCell(2);
+        cell1.innerHTML = authorLabel(authorsArray[i]);
+        cell2.innerHTML = authorsArray[i].count;
+        cell3.innerHTML = authorsArray[i].area.toFixed(2);
+    }
 }

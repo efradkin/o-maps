@@ -88,7 +88,7 @@ function loadMapState() {
 // считаем площадь в км2
 // https://gis.stackexchange.com/questions/423601/leaftlet-map-with-carto-database-to-recalculate-area-on-polygon-edits
 function getArea(latLngs) {
-    return (L.GeometryUtil.geodesicArea(latLngs)*0.000002).toFixed(2);
+    return (L.GeometryUtil.geodesicArea(latLngs)*0.000002);
 }
 
 const CSV_SPRTR = '\t';
@@ -140,11 +140,11 @@ function o(owner) {
     return result;
 }
 
-function authorLabel(k) {
-    if (authors[k].about) {
-        return '<a href="' + authors[k].about + '" target="_blank">' + authors[k].name + '</a>'
+function authorLabel(author) {
+    if (author.about) {
+        return '<a href="' + author.about + '" target="_blank">' + author.name + '</a>'
     } else {
-        return authors[k].name;
+        return author.name;
     }
 }
 
