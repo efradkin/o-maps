@@ -1,3 +1,6 @@
+function isOrientMap(map) {
+    return !map.types.includes('ROGAINE') && !map.types.includes('SPECIAL');
+}
 
 function mapLink(url) {
     return location.origin + '?map=' + extractFilename(url);

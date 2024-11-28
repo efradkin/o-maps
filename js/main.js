@@ -202,7 +202,7 @@ for (const m of oMaps) {
             }
         }
 
-        if (!m.types.includes('ROGAINE') && !m.types.includes('SPECIAL')) {
+        if (isOrientMap(m)) {
             if (!m.year) {
                 imgLayer.addTo(groupUnknownYear);
             } else if (m.year >= 2020) {
@@ -489,7 +489,7 @@ function buildPopupText(map, latLngs) {
 }
 
 function populateAuthor(map, a) {
-    if (!map.types.includes('ROGAINE') && !map.types.includes('SPECIAL')) {
+    if (isOrientMap(map)) {
         let author = authors[a];
         if (!author.count) {
             author.count = 1;

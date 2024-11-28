@@ -14,11 +14,11 @@ window.onload = function() {
     ];
 
     buildChart(
-        document.getElementById('mapTypeChart'),
+        document.getElementById('map_type_chart'),
         mapTypes,
         mapsStat,
         'Количество карт');
-    document.getElementById('totalMaps').innerHTML = oMaps.length;
+    document.getElementById('total_maps').innerHTML = oMaps.length;
 
     const mapAreas = [
         calcMapsArea(cityGroup),
@@ -31,7 +31,7 @@ window.onload = function() {
     ];
 
     buildChart(
-        document.getElementById('mapAreaChart'),
+        document.getElementById('map_area_chart'),
         mapTypes,
         mapAreas,
         'Площадь карт (км²)');
@@ -130,10 +130,11 @@ function buildChart(ctx, labels, data, label) {
     });
 }
 
+// строит табличку с инфой об авторах-составителях
 function buildAuthorsTable() {
     let authorsArray = Object.keys(authors).map((key) => authors[key]);
     authorsArray.sort((a, b) => (b.count || 0) - (a.count || 0));
-    var table = document.getElementById("authorsTable");
+    var table = document.getElementById("authors_table");
     for (var i = 0; i < authorsArray.length; i++) {
         if (!authorsArray[i].count) {
             break;
@@ -146,4 +147,15 @@ function buildAuthorsTable() {
         cell2.innerHTML = authorsArray[i].count;
         cell3.innerHTML = authorsArray[i].area.toFixed(2);
     }
+
+    // панель количества карт, где автор не указан
+    let mapsWoAuthors = 0;
+    for (const m of oMaps) {
+        if (isOrientMap(m)) {
+            if (!m.author) {
+                mapsWoAuthors++;
+            }
+        }
+    }
+    document.getElementById("no_authors_quantity").innerHTML = mapsWoAuthors;
 }

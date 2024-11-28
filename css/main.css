@@ -85,7 +85,7 @@ label:has(> span span .layer-separator) {
     padding: 2px 10px;
     border: 1px solid black;
 }
-#authorsTable {
+#authors_table {
     width: 100%;
     background-color: white;
     border: solid 1px gray;
@@ -106,4 +106,9 @@ label:has(> span span .layer-separator) {
     td, th {
         padding: 3px 10px;
     }
+}
+#no_authors_panel {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }

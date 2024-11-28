@@ -32,14 +32,14 @@
     </h1>
 
     <div class="chart-container">
-        <canvas id="mapTypeChart"></canvas>
+        <canvas id="map_type_chart"></canvas>
     </div>
-    <strong>Всего карт: <span id="totalMaps"></span></strong>
+    <strong>Всего карт: <span id="total_maps"></span></strong>
 
     <br /><br />
 
     <div class="chart-container">
-        <canvas id="mapAreaChart"></canvas>
+        <canvas id="map_area_chart"></canvas>
     </div>
     <strong>Общая площадь (приблизительно): <span id="totalArea"></span> км²</strong>
 
@@ -52,13 +52,14 @@
     <br /><br />
 
     <div class="chart-container">
-        <table id="authorsTable">
+        <table id="authors_table">
             <thead>
                 <th>Автор-составитель</th>
                 <th>Количество карт</th>
                 <th>Площадь карт (км²)</th>
             </thead>
         </table>
+        <small id="no_authors_panel">Кол-во карт, где автор не указан: <span id="no_authors_quantity"></span></small>
     </div>
 
     <script src="js/ext/leaflet.js"></script>
