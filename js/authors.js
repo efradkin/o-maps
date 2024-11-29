@@ -31,7 +31,7 @@ let authors = {
         name: 'Баймаков Владимир Михайлович',
         about: 'https://o-site.spb.ru/history/Peoples/baimakov.html'
     },
-    CHGRVSKY_M: { name: 'Михаил Чегаровский' },
+    CHGRVSKY_M: { name: 'Чегаровский Михаил' },
     CHGRVSKY_V: {
         name: 'Чегаровский Виталий',
         about: 'https://ar-info.ru/articles/?id_article_full=176'
@@ -127,6 +127,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
     MLSHV_Y: { name: 'Малышев Ю.' },
+    MNKV: { name: 'Минаков Александр' },
     MRSKA_I: { name: 'Мурская Эльза' },
     MRSKY_S: { name: 'Мурский Сергей' },
     MRVNK_D: { name: 'Муравник Дмитрий' },
