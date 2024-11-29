@@ -810,6 +810,7 @@ let cityMaps = [
         year: 2023,
         url: './maps/city/vosstaniya_nevskiy_2023.webp',
         bounds: [[59.93625768313655, 30.347886085510257], [59.93631143060866, 30.365138053894047], [59.931183529538366, 30.347929000854496]],
+        author: 'GRBTNKV',
         owner: 'WN',
         types: ['ORIENT', 'CITY'],
     },

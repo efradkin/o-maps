@@ -283,6 +283,7 @@ let parkMaps = [
         year: 2024,
         url: './maps/parks/vorontsovsky_skver_2024.webp',
         bounds: [[59.85116316078165, 30.22746562957764], [59.851120052463955, 30.243279933929447], [59.84347822095314, 30.22772312164307]],
+        author: 'SVTLNV',
         types: ['ORIENT', 'PARK'],
     },
     {
