@@ -52,6 +52,7 @@ let authors = {
     EGRV_A: { name: 'Егоров Андрей' },
     EFRMV: { name: 'Ефремов Михаил' },
     ELZRV: { name: 'Елизаров В.' },
+    FDRV_A: { name: 'Фёдоров Алексей' },
     FDRV_L: { name: 'Фёдоров Леонид' },
     FDTV_A: { name: 'Федотов А.' },
     FLCHKN: { name: 'Филичкин Н.' },
@@ -83,6 +84,7 @@ let authors = {
     HSMTLN: { name: 'Хисматуллин Дамир' },
     IVNV_V: { name: 'Иванов В.' },
     IVNVA_G: { name: 'Иванова Галина' },
+    KBZRV: { name: 'Кобзарёв Александр' },
     KHDNKCH: { name: 'Худеньких Ю.' },
     KLCHTSKA: { name: 'Кульчицкая Е.' },
     KOUKNN_M: { name: 'Куокканен М.' },
@@ -150,6 +152,7 @@ let authors = {
         name: 'Шелёхин Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/yushel.html'
     },
+    SHEIN: { name: 'Шеин Александр' },
     SHKLV: { name: 'Шкилев Виталий' },
     SHRNN: {
         name: 'Ширинян Александр Альбертович',

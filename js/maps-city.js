@@ -432,11 +432,20 @@ let cityMaps = [
         types: ['ORIENT', 'CITY'],
     },
     {
-        name: 'Кронштадт - Морской собор',
+        name: 'Кронштадт',
         year: 2014,
         url: './maps/city/kronshtadt_sobor_2014.webp',
         bounds: [[59.9962822605596, 29.766125679016117], [59.995767214543264, 29.792947769165043], [59.985357274664224, 29.76728439331055]],
+        author: ['RYLOV_V','SHEIN'],
         owner: 'SHEIN',
+        types: ['ORIENT', 'CITY'],
+    },
+    {
+        name: 'Кронштадт',
+        year: 2019,
+        url: './maps/city/kronshtadt_2019.webp',
+        bounds: [[59.99574575411855, 29.768936634063724], [59.993492332060875, 29.789621829986576], [59.986967273229695, 29.766104221343998]],
+        author: ['DBRTSV_V','FDRV_A','KBZRV'],
         types: ['ORIENT', 'CITY'],
     },
     {
