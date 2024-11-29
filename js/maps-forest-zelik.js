@@ -114,6 +114,15 @@ let zelikMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Зеленогорск',
+        year: 1978,
+        url: './maps/forest/zelik/zelenogorsk_1978.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_1978_full.jpg',
+        bounds: [[60.19410799266949, 29.683556556701664], [60.191356095993605, 29.71810340881348], [60.18747318270969, 29.6821403503418]],
+        author: ['KZNTSV_S','KZNTSVA_Z'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Зеленогорск, Комаровский берег',
         url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovsky_bereg_full.jpg',

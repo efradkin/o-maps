@@ -109,6 +109,7 @@ let authors = {
     },
     KZNTSV_S: { name: 'Кузнецов Сергей' },
     KZNTSV_V: { name: 'Кузнецов Владимир' },
+    KZNTSVA_Z: { name: 'Кузнецова З.' },
     LMVA: { name: 'Ломова Ирина' },
     LVCHV: {
         name: 'Левичев Александр',
