@@ -198,7 +198,7 @@ let toksovoMaps = [
         year: 2023,
         url: './maps/forest/toksovo/kavgolovo_utts_2023.webp',
         bounds: [[60.181669291321185, 30.533666610717777], [60.18063429849855, 30.543966293334964], [60.173559195700115, 30.530512332916263]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {
@@ -398,7 +398,7 @@ let toksovoMaps = [
         year: 2023,
         url: './maps/forest/toksovo/anyalovo_2023.webp',
         bounds: [[60.31766225096646, 30.4951286315918], [60.31126498711547, 30.5390739440918], [60.29853049128726, 30.489764213562015]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {

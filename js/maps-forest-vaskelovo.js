@@ -91,7 +91,7 @@ let vaskelovoMaps = [
         year: 2022,
         url: './maps/forest/vaskelovo/garbolovo_sirkijarvi_2022.webp',
         bounds: [[60.40639308599703, 30.446891784667972], [60.40368020216247, 30.48139572143555], [60.38379294801027, 30.440368652343754]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {
@@ -151,7 +151,7 @@ let vaskelovoMaps = [
         year: 2024,
         url: './maps/forest/vaskelovo/silande_2024.webp',
         bounds: [[60.416013522306024, 30.259008407592777], [60.41427612096631, 30.286216735839847], [60.3923599498166, 30.249824523925785]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {

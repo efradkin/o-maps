@@ -14,7 +14,9 @@ let southMaps = [
         name: 'Туутари',
         year: 1983,
         url: './maps/forest/south/tuutary_1983.webp',
+        link: './original_maps/forest/south/tuutary_1983_full.jpg',
         bounds: [[59.70584142848521, 30.1585865020752], [59.70486724535825, 30.186910629272464], [59.688215155652344, 30.15480995178223]],
+        author: 'VLKV_K',
         types: ['ORIENT'],
     },
     {
@@ -40,6 +42,7 @@ let southMaps = [
         year: 2019,
         url: './maps/forest/south/ulianovka_2019.webp',
         bounds: [[59.67181482707671, 30.782876014709476], [59.670146180047, 30.797853469848636], [59.66128145460106, 30.779399871826175]],
+        author: 'DRBSHV',
         types: ['ORIENT'],
         zindex: 2
     },
@@ -351,6 +354,7 @@ let southMaps = [
         name: 'Павловск, школа №464',
         url: './maps/forest/south/pavlovsk_school_464.webp',
         bounds: [[59.682886470899305, 30.420885086059574], [59.681857460558504, 30.43169975280762], [59.678965230682635, 30.419061183929447]],
+        author: 'SHRNN',
         owner: 'SHRNN',
         types: ['ORIENT'],
     },

@@ -68,7 +68,7 @@ let zelikMaps = [
         year: 2007,
         url: './maps/forest/zelik/solnechnoe-djuny_2007.webp',
         bounds: [[60.148063386777785, 29.929761886596683], [60.14502990577005, 29.97053146362305], [60.130435379117884, 29.924783706665043]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {
@@ -285,7 +285,7 @@ let zelikMaps = [
         year: 2015,
         url: './maps/forest/zelik/ilychevo-simagino_2015.webp',
         bounds: [[60.29246976482949, 29.792947769165043], [60.28749274926003, 29.86719131469727], [60.24356009471195, 29.772605895996097]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {
@@ -309,6 +309,7 @@ let zelikMaps = [
         year: 2013,
         url: './maps/forest/zelik/komarovo_2013.webp',
         bounds: [[60.1815839323226, 29.805693626403812], [60.17895903480163, 29.855604171752933], [60.168243862694155, 29.802217483520508]],
+        author: ['SHRNN','ZNDR'],
         types: ['ORIENT'],
     },
     {
@@ -393,7 +394,8 @@ let zelikMaps = [
         year: 2022,
         url: './maps/forest/zelik/sestroretskie_djuny_2022.webp',
         bounds: [[60.12961250803307, 29.93980407714844], [60.127464396937015, 29.959931373596195], [60.122676062659345, 29.937036037445072]],
-        owner: 'FSOSPB',
+        author: ['TKMKV_K','TKMKVA_P','IVNVA_G','KVZN'],
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {
@@ -401,6 +403,7 @@ let zelikMaps = [
         year: 2010,
         url: './maps/forest/zelik/sestroretskie_detskie_djuny_2010.webp',
         bounds: [[60.122654684605095, 29.95677709579468], [60.12225918809719, 29.97254848480225], [60.11693555646363, 29.956262111663822]],
+        author: 'SHRNN',
         types: ['ORIENT'],
     },
     {
@@ -408,7 +411,8 @@ let zelikMaps = [
         year: 2023,
         url: './maps/forest/zelik/sestroretsk_pljazh_laskovy_2023.webp',
         bounds: [[60.14590579873828, 29.92581367492676], [60.14403648673156, 29.94210004806519], [60.13880184782073, 29.922959804534912]],
-        owner: 'FSOSPB',
+        author: 'KZNTSV_A',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {
@@ -443,6 +447,7 @@ let zelikMaps = [
         year: 2012,
         url: './maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012.webp',
         bounds: [[60.14058599180651, 29.95044708251953], [60.13898347169249, 29.967741966247562], [60.12789189290783, 29.946713447570804]],
+        author: 'SHRNN',
         types: ['ORIENT'],
     },
     {
@@ -484,7 +489,7 @@ let zelikMaps = [
         year: 2024,
         url: './maps/forest/zelik/pastorskoe_2024.webp',
         bounds: [[60.25263242070603, 29.988126754760746], [60.24522141278221, 30.060052871704105], [60.22809301475002, 29.97756958007813]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
         zindex: 2
     },

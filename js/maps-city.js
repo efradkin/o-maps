@@ -46,7 +46,7 @@ let cityMaps = [
         year: 2020,
         url: './maps/city/petropavlovka_2020.jpg',
         bounds: [[59.953237549626834, 30.31014204025269], [59.9523135528265, 30.323424339294437], [59.94785436895968, 30.308296680450443]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT', 'SPRINT', 'CITY'],
     },
     {
@@ -282,7 +282,7 @@ let cityMaps = [
         year: 2024,
         url: './maps/city/serebrjany_prud_2024.webp',
         bounds: [[60.0105930402441, 30.342135429382328], [60.00915580538176, 30.356404781341556], [60.00063837073503, 30.33831596374512]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT', 'CITY'],
     },
     {
@@ -486,7 +486,7 @@ let cityMaps = [
         year: 2024,
         url: './maps/city/sampo_2024.webp',
         bounds: [[60.030043193030735, 30.364322662353516], [60.02852104710428, 30.38406372070313], [60.02303216403132, 30.36230564117432]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT', 'CITY'],
     },
     {
@@ -696,7 +696,7 @@ let cityMaps = [
         year: 2022,
         url: './maps/city/pushkin_school_552_2022.webp',
         bounds: [[59.73977941020801, 30.39522171020508], [59.73753020492948, 30.41466236114502], [59.73291237178019, 30.39204597473145]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT', 'CITY'],
     },
     {

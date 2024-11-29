@@ -50,7 +50,7 @@ let forestMaps = [
         year: 2021,
         url: './maps/forest/tsvelodubovo_south_2021.webp',
         bounds: [[60.366142912410425, 29.55159187316895], [60.36020084603804, 29.62523460388184], [60.33977734876115, 29.54309463500977]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {
@@ -240,7 +240,7 @@ let forestMaps = [
         year: 2023,
         url: './maps/forest/kanneljarvi_2023.webp',
         bounds: [[60.33833320798648, 29.336500167846683], [60.3309416045955, 29.407052993774418], [60.313135413137786, 29.326286315917972]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {
@@ -272,7 +272,7 @@ let forestMaps = [
         year: 2022,
         url: './maps/forest/polyany_2022.webp',
         bounds: [[60.32252843308696, 29.2701530456543], [60.31449565570198, 29.337959289550785], [60.29808394979354, 29.2591667175293]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {
@@ -280,7 +280,7 @@ let forestMaps = [
         year: 2021,
         url: './maps/forest/polyany_2021.webp',
         bounds: [[60.31186013428563, 29.307317733764652], [60.308033998984186, 29.34036254882813], [60.28728003940577, 29.29435729980469]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {
@@ -396,7 +396,7 @@ let forestMaps = [
         year: 2021,
         url: './maps/forest/veschevo_2021.webp',
         bounds: [[60.68982173198891, 29.154109954833988], [60.68667027795842, 29.189515113830566], [60.666514683959356, 29.145269393920902]],
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {
@@ -412,9 +412,10 @@ let forestMaps = [
         name: 'Парголовская лыжная трасса',
         year: 2021,
         url: './maps/forest/pargolovo_2021.webp',
-        owner: 'FSOSPB',
+        owner: 'SFSO_SPB',
         bounds: [[60.080116951817864, 30.27638912200928], [60.07852218993849, 30.293233394622806], [60.07382308068981, 30.27364253997803]],
         types: ['ORIENT'],
+        author: 'VYSS',
         zindex: 2,
     },
     {

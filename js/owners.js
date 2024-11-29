@@ -1,4 +1,5 @@
 let owners = {
+    ANCHKV: '© СШОР №2 ГБНОУ "СПб ГДТЮ"',
     BBCH_A: '© Бибич Андрей - <a href="https://vk.com/id7840054" target="_blank">ВК</a> или <a href="https://t.me/andy_atta" target="_blank">Telegram</a>.',
     BKTV: 'Все карты <a href="https://t.me/beketov" target="_blank">Константина Бекетова</a> можно свободно использовать в некоммерческих целях.',
     BVZ: '© Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru" target="_blank">Tanya-9-8@ya.ru</a>]',
@@ -9,7 +10,7 @@ let owners = {
     EGRV_EGR: '© Егоров Е.А.',
     ELTSV: '© Ельцов Денис',
     ELZRV: 'По вопросам использования - Владимир Елизаров orunner1@gmail.com',
-    FSOSPB: 'Карта принадлежит СФСО СПб. По вопросам использования - info@spbof.ru.',
+    SFSO_SPB: 'Карта принадлежит СФСО СПб. По вопросам использования - info@spbof.ru.',
     GK: '© Горный Кросс, Александр Шумский',
     GOLDMRSHRT: '© Золотой Маршрут - <a href="https://mosplay.ru/" target="_blank">сайт</a> и <a href="https://vk.com/rogaining" target="_blank">ВК</a>',
     GLFSTRM: '© КСО "Гольфстрим"',

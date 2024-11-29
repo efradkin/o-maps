@@ -6,6 +6,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     AZBKNA: { name: 'Азбукина О.' },
+    BBCH_A: { name: 'Бибич А.' },
     BBNN_I: { name: 'Бабанин И.' },
     BGCHNS: { name: 'Багочюнас С.' },
     BKSTN: { name: 'Бакустин Игорь' },
@@ -37,6 +38,7 @@ let authors = {
     },
     CHGRVSKY_Y: { name: 'Чегаровский Юрий' },
     CHKVSKY_N: { name: 'Чайковский Н.' },
+    CHSNKV: { name: 'Чесноков А.' },
     DBRTSV_S: { name: 'Добрецов Сергей' },
     DBRTSV_V: { name: 'Добрецов Виктор' },
     DJCHKV: {
@@ -80,6 +82,7 @@ let authors = {
     },
     HSMTLN: { name: 'Хисматуллин Дамир' },
     IVNV_V: { name: 'Иванов В.' },
+    IVNVA_G: { name: 'Иванова Галина' },
     KHDNKCH: { name: 'Худеньких Ю.' },
     KLCHTSKA: { name: 'Кульчицкая Е.' },
     KOUKNN_M: { name: 'Куокканен М.' },
@@ -107,6 +110,7 @@ let authors = {
         name: 'Казанцева (Малова) Ольга Михайловна',
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
+    KZNTSV_A: { name: 'Кузнецов Александр' },
     KZNTSV_S: { name: 'Кузнецов Сергей' },
     KZNTSV_V: { name: 'Кузнецов Владимир' },
     KZNTSVA_Z: { name: 'Кузнецова З.' },
@@ -125,6 +129,7 @@ let authors = {
     MRSKY_S: { name: 'Мурский Сергей' },
     MRVNK_D: { name: 'Муравник Дмитрий' },
     MTRNCHV: { name: 'Матреничев Вячеслав' },
+    NGN: { name: 'Негин С.' },
     NSNV: { name: 'Несынов Сергей' },
     OSMCHN: { name: 'Осмехин А.' },
     OVTCHNNKV: { name: 'Овчинников Юрий' },
@@ -134,6 +139,7 @@ let authors = {
     PSHKV: { name: 'Пашков Михаил' },
     PTRV_A: { name: 'Петров А.' },
     PTRNNA: { name: 'Петрянина О.' },
+    RDNV_B: { name: 'Родионов Богдан' },
     RDNV_I: { name: 'Родионов Иван' },
     RDKV: { name: 'Рудаков В.' },
     RYLOV_V: {
@@ -152,6 +158,10 @@ let authors = {
     SHVR: {
         name: 'Швер Евгений',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
+    SRBRNTSKY: {
+        name: 'Серебряницкий Константин',
+        about: 'https://andybary.com/tver-map'
     },
     SSNNA: { name: 'Соснина Н.' },
     STLV: { name: 'Стулов Сергей' },
@@ -180,6 +190,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/vgu.html'
     },
     USHNV: { name: 'Ушанов В.' },
+    VYSS: { name: 'Вайсс Павел' },
     VRBY: {
         name: 'Воробей Сергей Валерьянович',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -198,6 +209,7 @@ let authors = {
     },
     YGNV: { name: 'Яганов Алексей' },
     ZSLNKN: { name: 'Заслонкин Пётр' },
-    ZCHNV: { name: 'Зачиняев Виктор' }
+    ZCHNV: { name: 'Зачиняев Виктор' },
+    ZNDR: { name: 'Зиндер Л.' }
 };
 
