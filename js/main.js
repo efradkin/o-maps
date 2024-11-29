@@ -231,7 +231,11 @@ for (const m of oMaps) {
             }
 
             if (HAS_WO_AUTHOR_PARAM && !m.author) {
-                el.classList.add('wo-author');
+                if (m.link) {
+                    el.classList.add('wo-author-w-full');
+                } else {
+                    el.classList.add('wo-author');
+                }
             }
         }
     }
