@@ -23,6 +23,7 @@ let michuraMaps = [
         url: './maps/forest/michura/borisovo_1988.webp',
         link: './original_maps/forest/michura/borisovo_1988_full.jpg',
         bounds: [[60.6256393540837, 29.92907524108887], [60.61978676452859, 30.005121231079105], [60.58578707547604, 29.915943145751957]],
+        author: ['BYMKV','GRBTNKV'],
         types: ['ORIENT'],
     },
     {
@@ -31,6 +32,7 @@ let michuraMaps = [
         url: './maps/forest/michura/zhuravlevskoe_1992.webp',
         link: './original_maps/forest/michura/zhuravlevskoe_1992_full.jpg',
         bounds: [[60.6315750686474, 29.813547134399418], [60.6264813659105, 29.888048171997074], [60.603275898710784, 29.80470657348633]],
+        author: ['BYMKV','FLCHKN'],
         types: ['ORIENT'],
     },
     {
@@ -57,6 +59,7 @@ let michuraMaps = [
         url: './maps/forest/michura/petrichenko_svetloe_1993.webp',
         link: './original_maps/forest/michura/petrichenko_svetloe_1993_full.jpg',
         bounds: [[60.60927891271937, 29.877018928527836], [60.603486549681946, 29.936757087707523], [60.58865336285576, 29.868822097778324]],
+        author: 'BYMKV',
         types: ['ORIENT'],
     },
 /*

@@ -133,7 +133,9 @@ function buildChart(ctx, labels, data, label) {
 // строит табличку с инфой об авторах-составителях
 function buildAuthorsTable() {
     let authorsArray = Object.keys(authors).map((key) => authors[key]);
-    authorsArray.sort((a, b) => (b.count || 0) - (a.count || 0));
+    authorsArray
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .sort((a, b) => (b.count || 0) - (a.count || 0));
     var table = document.getElementById("authors_table");
     for (var i = 0; i < authorsArray.length; i++) {
         if (!authorsArray[i].count) {

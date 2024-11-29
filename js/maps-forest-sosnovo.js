@@ -7,6 +7,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/sosnovo_south_1989.webp',
         link: './original_maps/forest/sosnovo/sosnovo_south_1989_full.jpg',
         bounds: [[60.55445209468727, 30.23523330688477], [60.54968381690081, 30.297031402587894], [60.52874571620552, 30.22725105285645]],
+        author: ['MLVA_M','KZNTSVA_O'],
         types: ['ORIENT'],
     },
     {
@@ -14,6 +15,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/69_km_west.webp',
         link: './original_maps/forest/sosnovo/69_km_west_full.jpg',
         bounds: [[60.54103160709596, 30.186395645141605], [60.540229577809804, 30.236349105834964], [60.504624794985865, 30.1820182800293]],
+        author: 'SHRNN',
         types: ['ORIENT'],
     },
     {
@@ -22,6 +24,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/koloskovo_1987.webp',
         link: './original_maps/forest/sosnovo/koloskovo_1987_full.jpg',
         bounds: [[60.632964120663054, 30.16794204711914], [60.628249519190376, 30.268020629882816], [60.57566873393276, 30.15403747558594]],
+        author: ['ARTMV','BLZRV_V','URVNTSV'],
         types: ['ORIENT'],
     },
     {
@@ -59,6 +62,7 @@ let sosnovoMaps = [
     {
         name: 'Сосново, оз Уловное',
         year: 1981,
+        info: 'Первый чемпионат СССР.',
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981.webp',
         link: './original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_full.jpg',
         bounds: [[60.60871025400445, 30.213346481323246], [60.606477645123114, 30.2699089050293], [60.57706019379461, 30.204162597656254]],
@@ -110,6 +114,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/snegirevka_1991.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1991_full.jpg',
         bounds: [[60.52488166312165, 30.276002883911136], [60.52226313556185, 30.34831523895264], [60.494206271637864, 30.27016639709473]],
+        author: ['MLVA_M','KZNTSVA_O','KZNTSV_S'],
         types: ['ORIENT'],
     },
     {
@@ -118,6 +123,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/snegirevka_1988.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1988_full.jpg',
         bounds: [[60.538562137521424, 30.276474952697757], [60.53816109476326, 30.33908843994141], [60.514490774894206, 30.27467250823975]],
+        author: ['MLVA_M','KZNTSVA_O','KZNTSV_S','KOUKNN_M'],
         types: ['ORIENT'],
     },
     {
@@ -150,6 +156,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/krivko_ulovnoe_1992.webp',
         link: './original_maps/forest/sosnovo/krivko_ulovnoe_1992_full.jpg',
         bounds: [[60.61582829627545, 30.21471977233887], [60.614017345690115, 30.26063919067383], [60.575753066539036, 30.2094841003418]],
+        author: 'MLVA_M',
         types: ['ORIENT'],
     },
     {
@@ -183,11 +190,13 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/petjajarvy_yagodnoe_1985.webp',
         link: './original_maps/forest/sosnovo/petjajarvy_yagodnoe_1985_full.jpg',
         bounds: [[60.637088831496946, 30.015935897827152], [60.63161716201196, 30.102453231811527], [60.60946846339769, 30.008382797241214]],
+        author: ['LVCHV','SVTKN'],
         types: ['ORIENT'],
     },
     {
         name: 'Петяярви - кентавр',
         url: './maps/forest/sosnovo/petjajarvy_kentavr.webp',
+        link: './original_maps/forest/sosnovo/petjajarvy_kentavr_full.jpg',
         bounds: [[60.635110719708734, 30.137214660644535], [60.632501109973745, 30.17905712127686], [60.619197236209565, 30.133953094482425]],
         types: ['ORIENT'],
     },
@@ -244,6 +253,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/varshko_1988.webp',
         link: './original_maps/forest/sosnovo/varshko_1988_full.jpg',
         bounds: [[60.66989935154745, 30.036277770996097], [60.663045556032735, 30.122537612915043], [60.6504273943483, 30.03499031066895]],
+        author: ['VLKV_K','OVTCHNNKV'],
         types: ['ORIENT'],
     },
     {
@@ -252,6 +262,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/losevo_1990.webp',
         link: './original_maps/forest/sosnovo/losevo_1990_full.jpg',
         bounds: [[60.69452732858858, 29.919462203979496], [60.69036795262589, 29.994564056396488], [60.67044591045741, 29.912509918212894]],
+        author: ['RYLOV_V','VSLVSKY'],
         types: ['ORIENT'],
     },
     {

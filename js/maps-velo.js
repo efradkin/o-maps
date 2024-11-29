@@ -7,6 +7,7 @@ let veloMaps = [
         url: './maps/velo/solnechnoe_velo_2021.webp',
         link: './original_maps/velo/solnechnoe_velo_2021_full.pdf',
         bounds: [[60.16290631773987, 29.927186965942386], [60.156884526390876, 29.978599548339847], [60.14483763345936, 29.916973114013675]],
+        author: 'MTRNCHV',
         owner: 'MTRNCHV',
         types: ['ORIENT', 'VELO'],
     },

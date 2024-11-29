@@ -7,6 +7,7 @@ let forestMaps = [
         url: './maps/forest/tsvelodubovo_1986.webp',
         link: './original_maps/forest/tsvelodubovo_1986_full.jpg',
         bounds: [[60.36730997674438, 29.568200111389164], [60.36440284798612, 29.624333381652832], [60.34954485783966, 29.565196037292484]],
+        author: ['EGRV_A','KNSTNTNV_D','MRVNK_D','GLV_N'],
         types: ['ORIENT'],
         zindex: 3
     },
@@ -16,6 +17,7 @@ let forestMaps = [
         url: './maps/forest/tsvelodubovo_1987.webp',
         link: './original_maps/forest/tsvelodubovo_1987_full.jpg',
         bounds: [[60.37598738074033, 29.54704284667969], [60.37403569666894, 29.579615592956547], [60.363214457923185, 29.543266296386722]],
+        author: ['EGRV_A','KNSTNTNV_D','MRVNK_D','GLV_N'],
         types: ['ORIENT'],
         zindex: 3
     },
@@ -25,6 +27,7 @@ let forestMaps = [
         url: './maps/forest/tsvelodubovo_1993.webp',
         link: './original_maps/forest/tsvelodubovo_1993_full.jpg',
         bounds: [[60.40194214210233, 29.54704284667969], [60.39651540611492, 29.62077140808106], [60.36138934596662, 29.53554153442383]],
+        author: ['SHRNN','KRCHKN_V'],
         types: ['ORIENT'],
     },
     {
@@ -153,7 +156,7 @@ let forestMaps = [
         url: './maps/forest/vartemjagi_1987.webp',
         link: './original_maps/forest/vartemjagi_1987_full.jpg',
         bounds: [[60.202127708632986, 30.219097137451175], [60.19641172873261, 30.31711578369141], [60.17332439994863, 30.210857391357425]],
-        author: ['MLV_M','KZNTSVA_O','KZNTSV_S'],
+        author: ['MLVA_M','KZNTSVA_O','KZNTSV_S'],
         types: ['ORIENT'],
     },
     {
@@ -204,6 +207,7 @@ let forestMaps = [
         url: './maps/forest/yappilya_1980.webp',
         link: './original_maps/forest/yappilya_1980_full.jpg',
         bounds: [[60.2367222449044, 29.171104431152344], [60.233142988183936, 29.22646522521973], [60.221230622509864, 29.167156219482425]],
+        author: 'OSMCHN',
         types: ['ORIENT'],
     },
     {
@@ -212,6 +216,7 @@ let forestMaps = [
         url: './maps/forest/yappilya_1999.webp',
         link: './original_maps/forest/yappilya_1999_full.jpg',
         bounds: [[60.20214903505169, 29.16428089141846], [60.19801145030488, 29.23848152160645], [60.176163181510255, 29.15754318237305]],
+        author: ['VLKV_K','URVNTSV','KRCHKN_V','FDRV_L'],
         types: ['ORIENT'],
     },
     {
@@ -299,6 +304,7 @@ let forestMaps = [
         url: './maps/forest/ozerki_1997.webp',
         link: './original_maps/forest/ozerki_1997_full.jpg',
         bounds: [[60.25808312606245, 29.01497840881348], [60.255826303456416, 29.06046867370606], [60.232652940467396, 29.0105152130127]],
+        author: ['VLKV_K','EGRV_A','URVNTSV'],
         types: ['ORIENT'],
     },
     {

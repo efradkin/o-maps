@@ -340,6 +340,7 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/veschevo_west_1981.webp',
         link: './original_maps/forest/vyborg/veschevo_west_1981_full.jpg',
         bounds: [[60.72325014176067, 29.129734039306644], [60.72115139041765, 29.195652008056644], [60.69368709397291, 29.1258716583252]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -372,6 +373,7 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/vozrozhdenie_1992.webp',
         link: './original_maps/forest/vyborg/vozrozhdenie_1992_full.jpg',
         bounds: [[60.85970951117796, 28.839025497436527], [60.8549444998421, 28.909235000610355], [60.82901707952645, 28.833532333374027]],
+        author: 'KRCHKN_V',
         types: ['ORIENT'],
     },
     {
@@ -381,6 +383,7 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/vyborg_saymenskie_dachi_1981.webp',
         link: './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_full.jpg',
         bounds: [[60.793185940251945, 28.719549179077152], [60.79037970721021, 28.77748489379883], [60.76498678767908, 28.721437454223636]],
+        author: ['KHDNKCH','GLVNV_V'],
         types: ['ORIENT'],
     },
     {
@@ -397,6 +400,7 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/kirovskie_dachi_1992.webp',
         link: './original_maps/forest/vyborg/kirovskie_dachi_1992_full.jpg',
         bounds: [[60.762744036975775, 28.744697570800785], [60.75991417444783, 28.78448009490967], [60.743223389332904, 28.740148544311527]],
+        author: ['MLVA_M','ANDRV_E'],
         types: ['ORIENT'],
     },
     {
@@ -405,6 +409,7 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/kirovskie_dachi_1994.webp',
         link: './original_maps/forest/vyborg/kirovskie_dachi_1994_full.jpg',
         bounds: [[60.7804512083324, 28.704700469970703], [60.776931508206445, 28.754396438598636], [60.755385875026555, 28.696804046630863]],
+        author: 'SHLKHN_Y',
         types: ['ORIENT'],
     },
     {
@@ -459,6 +464,7 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/komsomolskoe.webp',
         link: './original_maps/forest/vyborg/komsomolskoe_full.jpg',
         bounds: [[60.87567129868857, 28.804950714111328], [60.87316473979831, 28.857822418212894], [60.84327976304758, 28.798427581787113]],
+        author: ['KZNTSVA_O','KZNTSV_S'],
         types: ['ORIENT'],
     },
     {
@@ -478,11 +484,12 @@ let vyborgMaps = [
     },
     {
         name: 'Каменногорск',
-        year: 2002,
-        info: 'Карта рисовалась под Мемориал Михаила Святкина.',
+        year: 2008,
+        info: 'Карта рисовалась под многодневки "Мемориал Михаила Святкина" и "Карельские скалы".',
         url: './maps/forest/vyborg/kamennogorsk_2002.webp',
         link: './original_maps/forest/vyborg/kamennogorsk_2002_full.jpg',
         bounds: [[61.007363934185655, 29.135141372680668], [60.998834400254225, 29.248008728027347], [60.95702738993799, 29.117288589477543]],
+        author: ['VLKV_K','KVZN','KZNTSV_S','NSNV','TKMKV_K','VRBY'],
         types: ['ORIENT'],
     },
     {

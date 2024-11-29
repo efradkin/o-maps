@@ -7,6 +7,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/roschino_1990.webp',
         link: './original_maps/forest/zelik/roschino_1990_full.jpg',
         bounds: [[60.26962029715062, 29.525671005249027], [60.26872641818245, 29.572706222534183], [60.238618240342404, 29.520864486694336]],
+        author: ['KRCHNKO_S','KRCHNKO_N'],
         types: ['ORIENT'],
     },
     {
@@ -23,6 +24,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/smoljachkovo_1988.webp',
         link: './original_maps/forest/zelik/smoljachkovo_1988_full.jpg',
         bounds: [[60.20635006920181, 29.43795204162598], [60.20285279909322, 29.50284004211426], [60.18126383410184, 29.431171417236328]],
+        author: 'BRDLN',
         types: ['ORIENT'],
     },
     {
@@ -91,6 +93,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/dolgoe_north_1983.webp',
         link: './original_maps/forest/zelik/dolgoe_north_1983_full.jpg',
         bounds: [[60.31687594388387, 29.709520339965824], [60.31449565570198, 29.7520923614502], [60.292937650406586, 29.701967239379886]],
+        author: 'KRCHNKO_S',
         types: ['ORIENT'],
     },
     {
@@ -107,10 +110,11 @@ let zelikMaps = [
         url: './maps/forest/zelik/repino_1983.webp',
         link: './original_maps/forest/zelik/repino_1983_full.jpg',
         bounds: [[60.21176583711235, 29.819898605346683], [60.208567657083265, 29.868822097778324], [60.191740095427, 29.814362525939945]],
+        author: ['BKSTN','IVNV_V','PTRV_A','TNV','BLZRV_V'],
         types: ['ORIENT'],
     },
     {
-        name: 'Зелногорск, Комаровский берег',
+        name: 'Зеленогорск, Комаровский берег',
         url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovsky_bereg_full.jpg',
         bounds: [[60.20033623997278, 29.729690551757816], [60.18583027344266, 29.80496406555176], [60.18941469676139, 29.723253250122074]],
@@ -122,6 +126,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/ilychevo_1991.webp',
         link: './original_maps/forest/zelik/ilychevo_1991_full.jpg',
         bounds: [[60.27285508361015, 29.768657684326175], [60.271322856205195, 29.817838668823246], [60.24628631594441, 29.7645378112793]],
+        author: ['HSMTLN'],
         types: ['ORIENT'],
     },
     {
@@ -130,6 +135,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/ilychevo_dolgoe_1995.webp',
         link: './original_maps/forest/zelik/ilychevo_dolgoe_1995_full.jpg',
         bounds: [[60.310244709596496, 29.704971313476566], [60.30331448158006, 29.81174468994141], [60.272259225923726, 29.692783355712894]],
+        author: ['KZNTSV_S','KVZN'],
         types: ['ORIENT'],
     },
     {
@@ -138,6 +144,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_komarovo_1985.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovo_1985_full.jpg',
         bounds: [[60.24645669723733, 29.76522445678711], [60.22140113412978, 29.890537261962894], [60.20059217005553, 29.727458953857425]],
+        author: 'KZNTSV_S',
         types: ['ORIENT'],
     },
     {
@@ -162,6 +169,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_komarovo_1992.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovo_1992_full.jpg',
         bounds: [[60.217521775369605, 29.73810195922852], [60.21257599321435, 29.803161621093754], [60.1930413934332, 29.728660583496097]],
+        author: 'BYMKV',
         types: ['ORIENT'],
     },
     {
@@ -170,6 +178,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_priboy_1992.webp',
         link: './original_maps/forest/zelik/zelenogorsk_priboy_1992_full.jpg',
         bounds: [[60.22736848216193, 29.720420837402347], [60.22250943804349, 29.776210784912113], [60.19709428614133, 29.71140861511231]],
+        author: 'BYMKV',
         types: ['ORIENT'],
     },
     {
@@ -211,6 +220,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_druzhinnoe_2024.webp',
         link: './original_maps/forest/zelik/zelenogorsk_druzhinnoe_2024_full.jpg',
         bounds: [[60.24373049018684, 29.735698699951175], [60.24040761853822, 29.776124954223636], [60.21909915243553, 29.72582817077637]],
+        author: 'RDNV_I',
         owner: 'RDNV_I',
         types: ['ORIENT'],
     },
@@ -282,6 +292,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/komarovo_1990.webp',
         link: './original_maps/forest/zelik/komarovo_1990_full.jpg',
         bounds: [[60.18559556540752, 29.80496406555176], [60.175245406790275, 29.856591224670414], [60.17349516066162, 29.794921875000004]],
+        author: ['SHRNN','FDRV_L'],
         types: ['ORIENT'],
     },
     {

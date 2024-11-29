@@ -241,6 +241,7 @@ let southMaps = [
         url: './maps/forest/south/shapki_2010.webp',
         link: './original_maps/forest/south/shapki_2010_full.jpg',
         bounds: [[59.6156854113636, 31.140747070312504], [59.61160434543937, 31.20151519775391], [59.59284243327236, 31.134738922119144]],
+        author: ['RYLOV_V','KRCHKN_V'],
         types: ['ORIENT'],
     },
     {

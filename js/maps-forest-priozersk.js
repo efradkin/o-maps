@@ -81,6 +81,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/granitnoe_1988.webp',
         link: './original_maps/forest/granitnoe_1988_full.jpg',
         bounds: [[61.064286632006386, 29.99297618865967], [61.06277084970437, 30.02250194549561], [61.05490007430921, 29.98954296112061]],
+        author: 'KNSTNTNV_D',
         types: ['ORIENT'],
     },
     {
@@ -97,6 +98,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_sopkino_1984.webp',
         link: './original_maps/forest/kuznechnoe_sopkino_1984_full.jpg',
         bounds: [[61.158185682196546, 29.812302589416507], [61.15619822139052, 29.851055145263675], [61.13834687040916, 29.807324409484867]],
+        author: ['VLKV_K','SHRNN'],
         types: ['ORIENT'],
     },
     {
@@ -105,6 +107,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_suuri_1987.webp',
         link: './original_maps/forest/kuznechnoe_suuri_1987_full.jpg',
         bounds: [[61.14315240323964, 29.887962341308597], [61.13954832218195, 29.9611759185791], [61.12177045767672, 29.884700775146488]],
+        author: ['BGCHNS','VLKV_K','OVTCHNNKV','SSNNA','USHNV'],
         types: ['ORIENT'],
     },
     {
@@ -113,6 +116,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_suuri_1979.webp',
         link: './original_maps/forest/kuznechnoe_suuri_1979_full.jpg',
         bounds: [[61.14161968340912, 29.899506568908695], [61.137311099433035, 29.95555400848389], [61.12483774980104, 29.901480674743656]],
+        author: ['VLKV_K','BGCHNS','OVTCHNNKV','PTRV_A'],
         types: ['ORIENT'],
     },
     {
@@ -131,7 +135,8 @@ let priozerskMaps = [
         link: './original_maps/forest/kuznechnoe_2008_full.pdf',
         bounds: [[61.15810287382887, 29.742393493652347], [61.14389802382198, 29.939460754394535], [61.083819196139416, 29.71887588500977]],
         types: ['ORIENT'],
-        info: 'Спасибо Косте Токмакову!',
+        author: 'TOKM',
+        owner: 'TOKM'
     },
     {
         name: 'Кузнечное - юго-восток',

@@ -307,6 +307,7 @@ let cityMaps = [
         url: './maps/city/narvskaya_384_school_2019.jpg',
         link: './original_maps/city/narvskaya_384_school_2019_full.jpg',
         bounds: [[59.898150319844724, 30.273513793945316], [59.89818260538584, 30.275981426239017], [59.89642837885074, 30.273309946060184]],
+        author: 'BVZ',
         owner: 'BVZ',
         types: ['ORIENT', 'CITY'],
     },
@@ -868,6 +869,7 @@ let cityMaps = [
         url: './maps/city/otechestvennaya_2024.webp',
         link: './original_maps/city/otechestvennaya_2024_full.jpg',
         bounds: [[59.961724222089416, 30.48261880874634], [59.96175644581698, 30.4906439781189], [59.95812570868364, 30.482790470123295]],
+        author: 'RDNV_I',
         owner: 'RDNV_I',
         types: ['ORIENT', 'CITY'],
     },
@@ -887,6 +889,7 @@ let cityMaps = [
         link: './original_maps/city/luga_krasnogvardeets_2024_full.jpg',
         bounds: [[58.86565902096061, 29.852578639984134], [58.86572558857591, 29.88564491271973], [58.857192795777856, 29.85290050506592]],
         types: ['ORIENT', 'CITY'],
+        author: 'RDNV_I',
         owner: 'RDNV_I',
     },
     {
@@ -975,6 +978,7 @@ let cityMaps = [
         url: './maps/city/okkervil_2003.webp',
         link: './original_maps/city/okkervil_2003_full.jpg',
         bounds: [[59.909104078836364, 30.486803054809574], [59.915838093527306, 30.521907806396488], [59.899097349342924, 30.495471954345707]],
+        author: ['DRBSHV','FDRV_L'],
         types: ['ORIENT', 'CITY'],
     },
     {

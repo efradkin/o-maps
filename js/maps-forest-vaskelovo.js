@@ -2,7 +2,7 @@
 let vaskelovoMaps = [
     // --- ВАСКЕЛОВО - ГРУЗИНО - ЛЕМБОЛОВО - ОРЕХОВО ---
     {
-        name: 'Лемболово, юз',
+        name: 'Лемболово, ю-з',
         year: 1991,
         url: './maps/forest/vaskelovo/lembolovo_south_west_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_south_west_1991_full.jpg',
@@ -10,7 +10,7 @@ let vaskelovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Лемболово, св',
+        name: 'Лемболово, с-в',
         year: 1991,
         url: './maps/forest/vaskelovo/lembolovo_north_east_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_north_east_1991_full.jpg',
@@ -23,6 +23,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/lembolovo_orekhovo_1995.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_1995_full.jpg',
         bounds: [[60.4479482150824, 30.235576629638675], [60.4409201932774, 30.3398609161377], [60.4233434866285, 30.22845268249512]],
+        author: ['DBRTSV_V','KZNTSV_V','CHGRVSKY_Y'],
         types: ['ORIENT'],
     },
     {
@@ -39,6 +40,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/lembolovsky_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovsky_1991_full.jpg',
         bounds: [[60.378490456569175, 30.22699356079102], [60.37535097486695, 30.292739868164066], [60.3178110096362, 30.210342407226562]],
+        author: 'BYMKV',
         types: ['ORIENT'],
     },
     {
@@ -63,6 +65,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/korosary_1993.webp',
         link: './original_maps/forest/vaskelovo/korosary_1993_full.jpg',
         bounds: [[60.42711374960327, 30.4167652130127], [60.41792031939828, 30.487232208251957], [60.40130624327883, 30.402431488037113]],
+        author: 'DBRTSV_V',
         types: ['ORIENT'],
     },
     {
@@ -71,6 +74,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/garbolovo_1991.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_1991_full.jpg',
         bounds: [[60.36440284798612, 30.50259590148926], [60.36198357968282, 30.556669235229496], [60.33718634477972, 30.49736022949219]],
+        author: 'VSLVSKY',
         types: ['ORIENT'],
     },
     {
@@ -79,6 +83,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/garbolovo_1994.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_1994_full.jpg',
         bounds: [[60.38900975707087, 30.44723510742188], [60.38417469408329, 30.515556335449222], [60.34470393627307, 30.43418884277344]],
+        author: 'CHGRVSKY_Y',
         types: ['ORIENT'],
     },
     {
@@ -164,6 +169,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_1991.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_1991_full.jpg',
         bounds: [[60.47739855580294, 30.23875236511231], [60.47380332259927, 30.28535842895508], [60.44604317864724, 30.230598449707035]],
+        author: 'BYMKV',
         owner: 'WN',
         types: ['ORIENT'],
     },
@@ -173,6 +179,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_1997.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_rakitinskoe_1997_full.jpg',
         bounds: [[60.46868471522234, 30.329475402832035], [60.46597702620726, 30.38423538208008], [60.443545294953346, 30.323724746704105]],
+        author: ['BYMKV','KZNTSV_S'],
         types: ['ORIENT'],
     },
     {
@@ -181,6 +188,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_smorodinka_1999.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_smorodinka_1999_full.jpg',
         bounds: [[60.472026707381744, 30.183219909667972], [60.467161667943785, 30.251798629760746], [60.44701687789359, 30.177211761474613]],
+        author: ['KRCHKN_V','PLMNN','GLTV_V','GLTV_Y'],
         types: ['ORIENT'],
     },
     {
@@ -241,6 +249,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/lembolovo_1987.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_1987_full.jpg',
         bounds: [[60.42139464000694, 30.33359527587891], [60.41844996541937, 30.37217617034912], [60.40340466224666, 30.32938957214356]],
+        author: ['FDTV_A','KNSTNTNV_D'],
         types: ['ORIENT'],
     },
     {

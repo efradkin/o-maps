@@ -89,6 +89,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/toksovo_south_west_1983.webp',
         link: './original_maps/forest/toksovo/toksovo_south_west_1983_full.jpg',
         bounds: [[60.15453530155787, 30.44998168945313], [60.1514169802039, 30.51066398620606], [60.113760209697055, 30.441055297851566]],
+        author: ['CHGRVSKY_V','CHGRVSKY_Y'],
         types: ['ORIENT'],
     },
     {
@@ -97,6 +98,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/toksovo_south_1982.webp',
         link: './original_maps/forest/toksovo/toksovo_south_1982_full.jpg',
         bounds: [[60.14898192089998, 30.47590255737305], [60.146247604300065, 30.531435012817386], [60.112990382545355, 30.467834472656254]],
+        author: ['CHGRVSKY_V','CHGRVSKY_Y'],
         types: ['ORIENT'],
     },
     {
@@ -121,6 +123,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/oselki_1985.webp',
         link: './original_maps/forest/toksovo/oselki_1985_full.jpg',
         bounds: [[60.228135633815285, 30.485515594482425], [60.22583412498815, 30.56078910827637], [60.19880061755633, 30.482854843139652]],
+        author: 'BYMKV',
         types: ['ORIENT'],
     },
     {
@@ -129,6 +132,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/oselki_hittolovo_1990.webp',
         link: './original_maps/forest/toksovo/oselki_hittolovo_1990_full.jpg',
         bounds: [[60.23030913266004, 30.48036575317383], [60.22562101414459, 30.542764663696293], [60.20464413035624, 30.472555160522464]],
+        author: 'DRBSHV',
         types: ['ORIENT'],
     },
     {
@@ -161,6 +165,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/oselki_2007.webp',
         link: './original_maps/forest/toksovo/oselki_2007_full.jpg',
         bounds: [[60.23082052320575, 30.48165321350098], [60.22775206023302, 30.509462356567386], [60.21210695791025, 30.47590255737305]],
+        author: 'DRBSHV',
         types: ['ORIENT'],
     },
     {
@@ -169,6 +174,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/kavgolovo_2004.webp',
         link: './original_maps/forest/toksovo/kavgolovo_2004_full.jpg',
         bounds: [[60.17716630128953, 30.522723197937015], [60.17676078847216, 30.545425415039066], [60.16224440174397, 30.519418716430668]],
+        author: 'VSLVSKY',
         types: ['ORIENT'],
     },
     {
@@ -358,6 +364,7 @@ let toksovoMaps = [
         year: 2013,
         url: './maps/forest/toksovo/karabselky_2013.webp',
         bounds: [[60.10702361186672, 30.393161773681644], [60.10807161759284, 30.451612472534183], [60.089202411877785, 30.393719673156742]],
+        author: 'SHRNN',
         owner: 'SHRNN',
         types: ['ORIENT'],
     },
