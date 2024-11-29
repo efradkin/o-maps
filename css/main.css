@@ -43,6 +43,9 @@ label:has(> span span .layer-separator) {
     font-weight: bold;
     color: red;
 }
+.wo-author {
+    border: dotted 3px hotpink;
+}
 .button-icon {
     display: block;
     height: 24px;

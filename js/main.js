@@ -1,6 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
-const THE_OWNER = urlParams.get('owner');
-const MAP_NAME = urlParams.get('map');
+const THE_OWNER_PARAM = urlParams.get('owner');
+const MAP_NAME_PARAM = urlParams.get('map');
+const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Спорт. карты <a href="https://t.me/orient_spb" target="_blank">СПб и области</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
 
@@ -93,17 +94,17 @@ for (const m of oMaps) {
     m.img.src = m.url;
 
     m.img.onload = function () {
-        if (THE_OWNER) {
+        if (THE_OWNER_PARAM) {
             if (Array.isArray(m.owner)) {
                 let own = false;
                 for (const o of m.owner) {
-                    if (THE_OWNER === o) {
+                    if (THE_OWNER_PARAM === o) {
                         own = true; break;
                     }
                 }
                 if (!own) return;
             } else {
-                if (THE_OWNER !== m.owner) return;
+                if (THE_OWNER_PARAM !== m.owner) return;
             }
         }
 
@@ -228,6 +229,10 @@ for (const m of oMaps) {
             else if (m.link) {
                 el.classList.add('full-size');
             }
+
+            if (HAS_WO_AUTHOR_PARAM && !m.author) {
+                el.classList.add('wo-author');
+            }
         }
     }
 }
@@ -237,7 +242,7 @@ const defaultZoom = 11;
 let mapElement = document.getElementById('map');
 if (mapElement) {
     let savedState;
-    if (!MAP_NAME) {
+    if (!MAP_NAME_PARAM) {
         savedState = loadMapState();
     }
     map = L.map('map', {
@@ -288,8 +293,8 @@ if (mapElement) {
         recalculateLayers();
         if (!loaded) {
             loaded = true;
-            if (MAP_NAME) {
-                locateMap(MAP_NAME);
+            if (MAP_NAME_PARAM) {
+                locateMap(MAP_NAME_PARAM);
             }
         }
     });
