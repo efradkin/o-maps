@@ -97,13 +97,13 @@ label:has(> span span .layer-separator) {
     border: solid 1px gray;
     font-size: 12px;
     border-collapse: collapse;
-    th:first-child {
+    td:nth-child(2) {
         text-align: left;
     }
-    td:nth-child(2) {
+    td:nth-child(3) {
         padding-left: 45px;
     }
-    td:nth-child(3) {
+    td:nth-child(4) {
         padding-left: 40px;
     }
     tr:nth-child(odd) {

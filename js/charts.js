@@ -142,9 +142,11 @@ function buildAuthorsTable() {
             break;
         }
         let row = table.insertRow(i + 1);
-        let cell1 = row.insertCell(0);
-        let cell2 = row.insertCell(1);
-        let cell3 = row.insertCell(2);
+        let cell0 = row.insertCell(0);
+        let cell1 = row.insertCell(1);
+        let cell2 = row.insertCell(2);
+        let cell3 = row.insertCell(3);
+        cell0.innerHTML = i + 1;
         cell1.innerHTML = authorLabel(authorsArray[i]);
         cell2.innerHTML = authorsArray[i].count;
         cell3.innerHTML = authorsArray[i].area.toFixed(2);
