@@ -345,6 +345,15 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Токсово, ВИФК',
+        year: 2023,
+        url: './maps/forest/toksovo/toksovo_vifk_2023.webp',
+        bounds: [[60.1892333514094, 30.55707693099976], [60.188070583878265, 30.57355642318726], [60.17998341001618, 30.553450584411625]],
+        author: ['SHRNN','CHSNKV'],
+        owner: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Токсово - восток оз Хепоярви',
         year: 2007,
         url: './maps/forest/toksovo/toksovo_hepojarvI_east_2007.webp',

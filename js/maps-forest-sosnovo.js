@@ -217,6 +217,15 @@ let sosnovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Петровское, лагерь "Связист"',
+        year: 2010,
+        url: './maps/forest/sosnovo/petrovskoe_svjazist_2010.webp',
+        bounds: [[60.64896547114925, 30.197918415069584], [60.647703325825276, 30.214891433715824], [60.64274892755333, 30.196609497070316]],
+        author: 'SHRNN',
+        owner: 'PPLVSKY',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Петяярви - запад',
         year: 2019,
         url: './maps/forest/sosnovo/petyajarvi_west_2019.webp',

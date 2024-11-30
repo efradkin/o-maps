@@ -139,6 +139,15 @@ let vaskelovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Орехово-запад',
+        year: 2011,
+        url: './maps/forest/vaskelovo/orekhovo_west_2011.webp',
+        bounds: [[60.47733511396385, 30.23797988891602], [60.47570673097479, 30.26265621185303], [60.460730235956845, 30.233860015869144]],
+        author: 'SHRNN',
+        owner: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Лемболово-Орехово',
         year: 2023,
         url: './maps/forest/vaskelovo/lembolovo_orekhovo_2023.webp',
