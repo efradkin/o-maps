@@ -11,6 +11,15 @@ let sosnovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: '69км, Игора',
+        year: 1974,
+        url: './maps/forest/sosnovo/69_km_1974.webp',
+        link: './original_maps/forest/sosnovo/69_km_1974_full.jpg',
+        bounds: [[60.52752109355479, 30.196094512939457], [60.52460715000577, 30.235576629638675], [60.51218827743973, 30.19051551818848]],
+        author: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
         name: '69км, запад',
         url: './maps/forest/sosnovo/69_km_west.webp',
         link: './original_maps/forest/sosnovo/69_km_west_full.jpg',
@@ -74,6 +83,15 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_2023.webp',
         bounds: [[60.60060051178703, 30.216908454895023], [60.59735604436446, 30.255746841430668], [60.585154771960084, 30.211415290832523]],
         owner: 'WN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Сосново, Чёрный лес',
+        year: 1974,
+        url: './maps/forest/sosnovo/sosnovo_black_forest_1974.webp',
+        link: './original_maps/forest/sosnovo/sosnovo_black_forest_1974_full.jpg',
+        bounds: [[60.54495704265323, 30.218925476074222], [60.55179376102548, 30.26218414306641], [60.51341347994116, 30.23600578308106]],
+        author: ['SHRNN','GRZNVCH'],
         types: ['ORIENT'],
     },
     {

@@ -77,6 +77,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     GRSMVA: { name: 'Герасимова Н.' },
+    GRZNVCH: { name: 'Грязневич М.' },
     GUSEV: {
         name: 'Гусев Илья',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
