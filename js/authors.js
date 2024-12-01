@@ -123,11 +123,12 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     MDVDKN: { name: 'Медведкин Г.' },
+    MLNKV_F: { name: 'Мельников Ф.' },
+    MLSHV_Y: { name: 'Малышев Ю.' },
     MLVA_M: {
         name: 'Малова Мария Михайловна',
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
-    MLSHV_Y: { name: 'Малышев Ю.' },
     MNKV: { name: 'Минаков Александр' },
     MRSKA_I: { name: 'Мурская Эльза' },
     MRSKY_S: { name: 'Мурский Сергей' },

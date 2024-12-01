@@ -331,6 +331,7 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/veschevo_1981.webp',
         link: './original_maps/forest/vyborg/veschevo_1981_full.jpg',
         bounds: [[60.759620692933005, 29.18972969055176], [60.755385875026555, 29.25264358520508], [60.73093040242884, 29.182691574096683]],
+        author: ['SHRNN','KZNTSV_S'],
         info: 'Первый чемпионат СССР.',
         types: ['ORIENT'],
     },

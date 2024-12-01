@@ -107,6 +107,7 @@ let forestMaps = [
         year: 2019,
         url: './maps/forest/yukki_south_2019.webp',
         bounds: [[60.111022964723404, 30.301430225372318], [60.108884333769765, 30.32962560653687], [60.1034836725298, 30.29909133911133]],
+        author: 'SHRNN',
         types: ['ORIENT'],
     },
     {
@@ -250,6 +251,7 @@ let forestMaps = [
         url: './maps/forest/kanneljarvi_istok_2006.webp',
         link: './original_maps/forest/kanneljarvi_istok_2006_full.jpg',
         bounds: [[60.371702007906244, 29.335298538208008], [60.36873161683617, 29.372549057006836], [60.34623272596288, 29.326457977294925]],
+        author: ['SHRNN','VSLVSKY','RYLOV_V'],
         types: ['ORIENT'],
     },
     {
@@ -273,6 +275,7 @@ let forestMaps = [
         year: 2022,
         url: './maps/forest/polyany_2022.webp',
         bounds: [[60.32252843308696, 29.2701530456543], [60.31449565570198, 29.337959289550785], [60.29808394979354, 29.2591667175293]],
+        author: ['SHRNN','DBRTSV_V'],
         owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
@@ -281,6 +284,7 @@ let forestMaps = [
         year: 2021,
         url: './maps/forest/polyany_2021.webp',
         bounds: [[60.31186013428563, 29.307317733764652], [60.308033998984186, 29.34036254882813], [60.28728003940577, 29.29435729980469]],
+        author: ['SHRNN','DBRTSV_V'],
         owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
@@ -297,6 +301,7 @@ let forestMaps = [
         year: 2017,
         url: './maps/forest/gladyshevskoe_oz_2017.webp',
         bounds: [[60.30601446912385, 29.317789077758793], [60.29963618682375, 29.36654090881348], [60.290513079858975, 29.31040763854981]],
+        author: 'SHRNN',
         types: ['ORIENT'],
     },
     {

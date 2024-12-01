@@ -100,6 +100,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/sosnovo_black_forest_1986.webp',
         link: './original_maps/forest/sosnovo/sosnovo_black_forest_1986_full.jpg',
         bounds: [[60.54052506459614, 30.245018005371097], [60.53744342689857, 30.319004058837894], [60.508470137955726, 30.241327285766605]],
+        author: 'SHRNN',
         types: ['ORIENT'],
     },
     {
@@ -116,6 +117,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/sosnovo_kalanchevka_2010.webp',
         link: './original_maps/forest/sosnovo/sosnovo_kalanchevka_2010.jpg',
         bounds: [[60.59151939590076, 30.304927825927738], [60.58566061576298, 30.37058830261231], [60.56419744911603, 30.294799804687504]],
+        author: 'SHRNN',
         types: ['ORIENT'],
     },
     {

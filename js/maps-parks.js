@@ -204,7 +204,7 @@ let parkMaps = [
         url: './maps/parks/lesotekchnicheskaya_2024.webp',
         link: './original_maps/parks/lesotekchnicheskaya_2024_full.jpg',
         bounds: [[59.99796683423708, 30.330204963684086], [59.996421750809226, 30.353980064392093], [59.99045533479755, 30.328638553619385]],
-        owner: 'RDNV_I',
+        owner: ['SHRNN','RDNV_I'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -326,6 +326,7 @@ let parkMaps = [
         info: 'Карта фотоквеста.',
         url: './maps/parks/peterhof_znamenka_2023.webp',
         bounds: [[59.88422156350759, 29.948644638061527], [59.882154357168154, 29.97696876525879], [59.87274263673272, 29.945297241210938]],
+        author: ['SHRNN','RYLOV_V'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -408,6 +409,7 @@ let parkMaps = [
         url: './maps/parks/politekh_2022.webp',
         bounds: [[60.009649191555134, 30.36827087402344], [60.00945612827708, 30.385394096374515], [60.00235490683813, 30.367970466613773]],
         types: ['ORIENT', 'PARK'],
+        author: 'SHRNN',
         owner: 'SFSO_SPB',
     },
     {
@@ -448,6 +450,7 @@ let parkMaps = [
         year: 2014,
         url: './maps/parks/murinsky_center_2014.webp',
         bounds: [[60.031222271957226, 30.39024353027344], [60.03017182186756, 30.410585403442386], [60.02412572517976, 30.389170646667484]],
+        author: ['SHRNN','FRSHLVA'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -512,6 +515,7 @@ let parkMaps = [
         year: 2022,
         url: './maps/parks/pavlovsk_mariental_2022.webp',
         bounds: [[59.68612493929105, 30.442535877227787], [59.684543652697684, 30.45796394348145], [59.679398539446694, 30.439789295196533]],
+        author: 'SHRNN',
         owner: 'EGRV_EGR',
         types: ['ORIENT', 'PARK'],
     },
@@ -520,6 +524,7 @@ let parkMaps = [
         year: 2022,
         url: './maps/parks/pavlovsk_sad_miranda_2020.webp',
         bounds: [[59.69078171961171, 30.43049812316895], [59.69061928468438, 30.44324398040772], [59.685215167081445, 30.43047666549683]],
+        author: 'SHRNN',
         owner: 'EGRV_EGR',
         types: ['ORIENT', 'PARK'],
     },

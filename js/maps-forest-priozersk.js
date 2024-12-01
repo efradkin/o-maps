@@ -72,6 +72,7 @@ let priozerskMaps = [
         name: 'Балахановское оз',
         url: './maps/forest/priozersk/balakhanovskoe.webp',
         bounds: [[60.82533535415073, 29.795951843261722], [60.81843097676924, 29.901695251464847], [60.75664380010026, 29.780330657958988]],
+        author: 'SHRNN',
         owner: 'SHRNN',
         types: ['ORIENT'],
     },
@@ -135,7 +136,7 @@ let priozerskMaps = [
         link: './original_maps/forest/kuznechnoe_2008_full.pdf',
         bounds: [[61.15810287382887, 29.742393493652347], [61.14389802382198, 29.939460754394535], [61.083819196139416, 29.71887588500977]],
         types: ['ORIENT'],
-        author: 'TOKM',
+        author: ['KZNTSV_S','NSNV','KVZN','TKMKV_K','SHRNN'],
         owner: 'TOKM'
     },
     {
