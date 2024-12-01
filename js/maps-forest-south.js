@@ -112,6 +112,7 @@ let southMaps = [
         year: 2019,
         url: './maps/forest/south/elizavetino_2019.webp',
         bounds: [[59.49776478166187, 29.74329471588135], [59.49525968670402, 29.769129753112797], [59.49083719575336, 29.74011898040772]],
+        author: 'TKMKV_K',
         types: ['ORIENT'],
     },
     {

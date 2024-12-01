@@ -187,6 +187,7 @@ let parkMaps = [
         url: './maps/parks/piskarevsky_2024.webp',
         bounds: [[60.0064313230872, 30.39530754089356], [60.004586270603426, 30.422816276550297], [59.994350796655525, 30.390887260437015]],
         types: ['ORIENT', 'PARK'],
+        author: 'DBRTSV_V',
         owner: 'SFSO_SPB',
     },
     {
@@ -409,7 +410,7 @@ let parkMaps = [
         url: './maps/parks/politekh_2022.webp',
         bounds: [[60.009649191555134, 30.36827087402344], [60.00945612827708, 30.385394096374515], [60.00235490683813, 30.367970466613773]],
         types: ['ORIENT', 'PARK'],
-        author: 'SHRNN',
+        author: 'ZCHNV',
         owner: 'SFSO_SPB',
     },
     {
@@ -648,6 +649,7 @@ let parkMaps = [
         url: './maps/parks/priozersk_karela.webp',
         info: 'Карта фотоквеста.',
         bounds: [[61.032226926267995, 30.121947526931766], [61.03167093183312, 30.12731194496155], [61.02892199371037, 30.12032747268677]],
+        author: 'MKHLV_A',
         owner: 'VST_PRZRSK',
         types: ['ORIENT', 'PARK'],
     },

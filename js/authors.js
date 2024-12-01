@@ -83,6 +83,7 @@ let authors = {
         name: 'Гусев Илья',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    GVRLK: { name: 'Гаврилюк Александр' },
     HSMTLN: { name: 'Хисматуллин Дамир' },
     IVNV_V: { name: 'Иванов В.' },
     IVNVA_G: { name: 'Иванова Галина' },
@@ -124,6 +125,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     MDVDKN: { name: 'Медведкин Г.' },
+    MKHLV_A: { name: 'Михайлов Александр' },
     MLNKV_F: { name: 'Мельников Ф.' },
     MLSHV_Y: { name: 'Малышев Ю.' },
     MLVA_M: {
@@ -169,6 +171,7 @@ let authors = {
         name: 'Швер Евгений',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    SLBDNK: { name: 'Слободянюк Роман' },
     SMV: { name: 'Сомов Никита' },
     SRBRNTSKY: {
         name: 'Серебряницкий Константин',
@@ -203,6 +206,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/vgu.html'
     },
     USHNV: { name: 'Ушанов В.' },
+    USNKO: { name: 'Усенко С.' },
     VYSS: { name: 'Вайсс Павел' },
     VRBY: {
         name: 'Воробей Сергей Валерьянович',
