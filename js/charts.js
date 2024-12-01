@@ -27,15 +27,15 @@ window.onload = function() {
         calcMapsArea(reliefGroup),
         calcMapsArea(winterGroup),
         calcMapsArea(veloGroup),
-        calcMapsArea(rogaineGroup)
     ];
 
     buildChart(
         document.getElementById('map_area_chart'),
-        mapTypes,
+        mapTypes.filter(val => val !== 'Рогейн'),
         mapAreas,
-        'Площадь карт (км²)');
+        'Площадь спортивных карт (км²)');
     document.getElementById('totalArea').innerHTML = mapAreas.reduce((a, c) => a + c).toFixed(0);
+    document.getElementById("all_rogaine_area").innerHTML = calcMapsArea(rogaineGroup).toFixed(0);
 
     buildChart(
         document.getElementById('mapYearChart'),
