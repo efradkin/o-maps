@@ -133,6 +133,7 @@ let forestMaps = [
         year: 2023,
         url: './maps/forest/new_sertolovo_2023.webp',
         bounds: [[60.16376038319639, 30.18669605255127], [60.16117676720578, 30.21471977233887], [60.153211119033074, 30.18300533294678]],
+        author: 'SVCHK',
         owner: 'SVCHK',
         types: ['ORIENT'],
     },

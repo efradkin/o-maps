@@ -14,6 +14,7 @@ let authors = {
         name: 'Бондаренко Игорь',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    BLV_V: { name: 'Белов В.' },
     BLZRV_V: {
         name: 'Белозеров Владимир Николаевич',
         about: 'https://o-site.spb.ru/history/Peoples/vnb.html'
@@ -133,6 +134,9 @@ let authors = {
     MRSKA_I: { name: 'Мурская Эльза' },
     MRSKY_S: { name: 'Мурский Сергей' },
     MRVNK_D: { name: 'Муравник Дмитрий' },
+    MSLVA: { name: 'Маслова Евгения' },
+    MSKV: { name: 'Москов Игорь' },
+    MSPN: { name: 'Мосьпан Олеся' },
     MTRNCHV: { name: 'Матреничев Вячеслав' },
     NGN: { name: 'Негин С.' },
     NSNV: { name: 'Несынов Сергей' },
@@ -165,6 +169,7 @@ let authors = {
         name: 'Швер Евгений',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    SMV: { name: 'Сомов Никита' },
     SRBRNTSKY: {
         name: 'Серебряницкий Константин',
         about: 'https://andybary.com/tver-map'
@@ -176,6 +181,7 @@ let authors = {
         name: 'Строганов Илья',
         about: 'https://adventure-race.redfox.ru/archive/archive_2020/news/v_komande_red_fox_adventure_race_popolnenie/'
     },
+    SVCHK: { name: 'Роман Сивачук' },
     SVTKN: {
         name: 'Святкин  Михаил',
         about: 'https://o-site.spb.ru/history/Peoples/svyatkin.html'
