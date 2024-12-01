@@ -24,6 +24,10 @@
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview.jpg">
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        let loadImagesRequired = false;
+    </script>
 </head>
 <body class="stat-body">
     <h1>
@@ -41,13 +45,16 @@
     <div class="chart-container">
         <canvas id="map_area_chart"></canvas>
     </div>
-    <strong>Общая площадь (приблизительно): <span id="totalArea"></span> км²</strong>
+    <strong>Общая площадь (приблизительно): <span id="totalArea"></span> (км²) <sup>⚹</sup></strong>
 
     <br /><br />
 
     <div class="chart-container">
         <canvas id="mapYearChart"></canvas>
     </div>
+
+    <p class="stat_result_article">Самая большая спортивная карта: <a id="largest_map" href="#" target="_blank"></a>. <sup>⚹</sup></p>
+    <p class="stat_result_article">Самая древняя карта: <a id="oldest_map" href="#" target="_blank"></a>.</p>
 
     <br /><br />
 
@@ -57,10 +64,14 @@
                 <th>&nbsp;</th>
                 <th>Автор-составитель</th>
                 <th>Количество карт</th>
-                <th>Площадь карт (км²)</th>
+                <th>Площадь карт (км²) <sup>⚹</sup></th>
             </thead>
         </table>
-        <small id="no_authors_panel">Количество карт, <a href="index.html?wo-author">где автор не указан</a>: <span id="no_authors_quantity"></span></small>
+
+        <p class="stat_result_article">Количество карт, <a href="index.html?wo-author">где автор не указан</a>: <span id="no_authors_quantity"></span>.</p>
+
+        <hr />
+        <p class="stat_result_article" style="text-align: left"><sup>⚹</sup> Площадь карт высчитывается исключительно исходя из координат листа карты. Для компенсации того, что реальная ката всегда меньше, введён понижающий коэффициент 70%.</p>
     </div>
 
     <script src="js/ext/leaflet.js"></script>

@@ -90,152 +90,159 @@ for (const m of oMaps) {
         m.url = './maps/olive.png';
     }
 
-    m.img = new Image();
-    m.img.src = m.url;
+    if (loadImagesRequired) {
+        m.img = new Image();
+        m.img.src = m.url;
+        m.img.onload = function () {
+            loadMap(m);
+        }
+    } else {
+        loadMap(m);
+    }
+}
 
-    m.img.onload = function () {
-        if (THE_OWNER_PARAM) {
-            if (Array.isArray(m.owner)) {
-                let own = false;
-                for (const o of m.owner) {
-                    if (THE_OWNER_PARAM === o) {
-                        own = true; break;
-                    }
+function loadMap(m) {
+    if (THE_OWNER_PARAM) {
+        if (Array.isArray(m.owner)) {
+            let own = false;
+            for (const o of m.owner) {
+                if (THE_OWNER_PARAM === o) {
+                    own = true; break;
                 }
-                if (!own) return;
-            } else {
-                if (THE_OWNER_PARAM !== m.owner) return;
             }
-        }
-
-        let bounds;
-        if (m.bounds.length === 3) {
-            bounds = m.bounds;
+            if (!own) return;
         } else {
-            bounds = [
-                m.bounds[0],
-                [m.bounds[0][0], m.bounds[0][1] + m.img.width * multiY],
-                [m.bounds[0][0] - m.img.height * multiX, m.bounds[0][1]]
-            ];
+            if (THE_OWNER_PARAM !== m.owner) return;
         }
-        let latLngs = [
-            L.latLng(bounds[0]),
-            L.latLng(bounds[1]),
-            L.latLng(bounds[2])
+    }
+
+    let bounds;
+    if (m.bounds.length === 3) {
+        bounds = m.bounds;
+    } else {
+        bounds = [
+            m.bounds[0],
+            [m.bounds[0][0], m.bounds[0][1] + m.img.width * multiY],
+            [m.bounds[0][0] - m.img.height * multiX, m.bounds[0][1]]
         ];
-        let imgLayer = L.imageOverlay.rotated(
-            m.url, latLngs[0], latLngs[1], latLngs[2],
-            {
-                opacity: 1,
-                interactive: true,
-                alt: m.name
-            });
-
-        m.area = getArea(latLngs);
-
-        // map popup
-        let popup = buildPopupText(m, latLngs);
-        imgLayer.bindPopup(popup);
-        imgLayer.on('mouseover', function (e) {
-            if (!editMode && enablePopup) {
-                this.openPopup();
-            }
+    }
+    let latLngs = [
+        L.latLng(bounds[0]),
+        L.latLng(bounds[1]),
+        L.latLng(bounds[2])
+    ];
+    let imgLayer = L.imageOverlay.rotated(
+        m.url, latLngs[0], latLngs[1], latLngs[2],
+        {
+            opacity: 1,
+            interactive: true,
+            alt: m.name
         });
 
-        imgLayer.on('click', function (e) {
-            onMapSelect(imgLayer, m);
-        });
+    m.area = getArea(latLngs);
 
-        let added = false;
-        if (m.types.includes('ROGAINE')) {
-            added = true;
-            imgLayer.addTo(rogaineGroup);
-            let el = imgLayer.getElement();
-            if (el) {
-                el.style.zIndex = 0;
-            }
+    // map popup
+    let popup = buildPopupText(m, latLngs);
+    imgLayer.bindPopup(popup);
+    imgLayer.on('mouseover', function (e) {
+        if (!editMode && enablePopup) {
+            this.openPopup();
+        }
+    });
 
-            if (m.year && m.year >= 2010) {
-                imgLayer.addTo(rogaineNewGroup);
-            }
-            if (m.year && m.year < 2010) {
-                imgLayer.addTo(rogaineOldGroup);
-            }
-            if (m.owner && (m.owner === 'KKM' || (Array.isArray(m.owner) && m.owner.includes('KKM')))) {
-                imgLayer.addTo(rogaineKkmGroup);
-            }
-            if (m.owner && (m.owner === 'BKTV' || (Array.isArray(m.owner) && m.owner.includes('BKTV')))) {
-                imgLayer.addTo(rogaineBeketovGroup);
-            }
-        }
-        if (m.types.includes('SPECIAL')) {
-            added = true;
-            imgLayer.addTo(specialGroup);
-        }
-        if (m.types.includes('RELIEF')) {
-            added = true;
-            imgLayer.addTo(reliefGroup);
-        }
-        if (m.types.includes('WINTER')) {
-            added = true;
-            imgLayer.addTo(winterGroup);
-        }
-        if (m.types.includes('VELO')) {
-            added = true;
-            imgLayer.addTo(veloGroup);
-        }
-        if (m.types.includes('CITY')) {
-            added = true;
-            imgLayer.addTo(cityGroup);
-        }
-        if (m.types.includes('PARK')) {
-            added = true;
-            imgLayer.addTo(parkGroup);
-        }
-        if (!added) {
-            imgLayer.addTo(forestGroup);
-        }
+    imgLayer.on('click', function (e) {
+        onMapSelect(imgLayer, m);
+    });
 
-        if (m.zindex) {
-            let el = imgLayer.getElement();
-            if (el) {
-                el.style.zIndex = m.zindex;
-            }
-        }
-
-        if (isOrientMap(m)) {
-            if (!m.year) {
-                imgLayer.addTo(groupUnknownYear);
-            } else if (m.year >= 2020) {
-                imgLayer.addTo(group2020th);
-            } else if (m.year >= 2010) {
-                imgLayer.addTo(group2010th);
-            } else if (m.year >= 2000) {
-                imgLayer.addTo(group2000th);
-            } else if (m.year >= 1990) {
-                imgLayer.addTo(group90th);
-            } else {
-                imgLayer.addTo(groupRetro);
-            }
-            imgLayer.addTo(groupAllOrient);
-        }
-        mapOverlays.push(imgLayer);
-
+    let added = false;
+    if (m.types.includes('ROGAINE')) {
+        added = true;
+        imgLayer.addTo(rogaineGroup);
         let el = imgLayer.getElement();
         if (el) {
-            if (m.restricted) {
-                el.classList.add('restricted');
-            }
-            else if (m.link) {
-                el.classList.add('full-size');
-            }
+            el.style.zIndex = 0;
+        }
 
-            if (HAS_WO_AUTHOR_PARAM && !m.author) {
-                if (m.link) {
-                    el.classList.add('wo-author-w-full');
-                } else {
-                    el.classList.add('wo-author');
-                }
+        if (m.year && m.year >= 2010) {
+            imgLayer.addTo(rogaineNewGroup);
+        }
+        if (m.year && m.year < 2010) {
+            imgLayer.addTo(rogaineOldGroup);
+        }
+        if (m.owner && (m.owner === 'KKM' || (Array.isArray(m.owner) && m.owner.includes('KKM')))) {
+            imgLayer.addTo(rogaineKkmGroup);
+        }
+        if (m.owner && (m.owner === 'BKTV' || (Array.isArray(m.owner) && m.owner.includes('BKTV')))) {
+            imgLayer.addTo(rogaineBeketovGroup);
+        }
+    }
+    if (m.types.includes('SPECIAL')) {
+        added = true;
+        imgLayer.addTo(specialGroup);
+    }
+    if (m.types.includes('RELIEF')) {
+        added = true;
+        imgLayer.addTo(reliefGroup);
+    }
+    if (m.types.includes('WINTER')) {
+        added = true;
+        imgLayer.addTo(winterGroup);
+    }
+    if (m.types.includes('VELO')) {
+        added = true;
+        imgLayer.addTo(veloGroup);
+    }
+    if (m.types.includes('CITY')) {
+        added = true;
+        imgLayer.addTo(cityGroup);
+    }
+    if (m.types.includes('PARK')) {
+        added = true;
+        imgLayer.addTo(parkGroup);
+    }
+    if (!added) {
+        imgLayer.addTo(forestGroup);
+    }
+
+    if (m.zindex) {
+        let el = imgLayer.getElement();
+        if (el) {
+            el.style.zIndex = m.zindex;
+        }
+    }
+
+    if (isOrientMap(m)) {
+        if (!m.year) {
+            imgLayer.addTo(groupUnknownYear);
+        } else if (m.year >= 2020) {
+            imgLayer.addTo(group2020th);
+        } else if (m.year >= 2010) {
+            imgLayer.addTo(group2010th);
+        } else if (m.year >= 2000) {
+            imgLayer.addTo(group2000th);
+        } else if (m.year >= 1990) {
+            imgLayer.addTo(group90th);
+        } else {
+            imgLayer.addTo(groupRetro);
+        }
+        imgLayer.addTo(groupAllOrient);
+    }
+    mapOverlays.push(imgLayer);
+
+    let el = imgLayer.getElement();
+    if (el) {
+        if (m.restricted) {
+            el.classList.add('restricted');
+        }
+        else if (m.link) {
+            el.classList.add('full-size');
+        }
+
+        if (HAS_WO_AUTHOR_PARAM && !m.author) {
+            if (m.link) {
+                el.classList.add('wo-author-w-full');
+            } else {
+                el.classList.add('wo-author');
             }
         }
     }

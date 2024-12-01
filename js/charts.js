@@ -163,3 +163,22 @@ function buildAuthorsTable() {
     }
     document.getElementById("no_authors_quantity").innerHTML = mapsWoAuthors;
 }
+
+let largestMap;
+let oldestMap;
+for (const m of oMaps) {
+    if (isOrientMap(m)) {
+        if (m.area && (!largestMap || (m.area > largestMap.area))) {
+            largestMap = m;
+        }
+        if ((m.year !== undefined) && (!oldestMap || (m.year < oldestMap.year))) {
+            oldestMap = m;
+            // console.log(oldestMap.year)
+        }
+    }
+}
+document.getElementById("largest_map").setAttribute('href', mapLink(largestMap.url));
+document.getElementById("largest_map").innerHTML = largestMap.name + ' (' + largestMap.area.toFixed(2) + 'км²)';
+
+document.getElementById("oldest_map").setAttribute('href', mapLink(oldestMap.url));
+document.getElementById("oldest_map").innerHTML = oldestMap.name + ' (' + oldestMap.year + ')';

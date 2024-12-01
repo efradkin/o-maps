@@ -113,8 +113,10 @@ label:has(> span span .layer-separator) {
         padding: 3px 10px;
     }
 }
-#no_authors_panel {
+.stat_result_article {
     display: inline-block;
     width: 100%;
     text-align: center;
+    font-size: 12px;
+    font-weight: bold;
 }
