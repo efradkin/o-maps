@@ -2,6 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const THE_OWNER_PARAM = urlParams.get('owner');
 const MAP_NAME_PARAM = urlParams.get('map');
 const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
+const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Спорт. карты <a href="https://t.me/orient_spb" target="_blank">СПб и области</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
 
@@ -102,6 +103,10 @@ for (const m of oMaps) {
 }
 
 function loadMap(m) {
+    if (HAS_ONLY_WO_AUTHOR_PARAM && m.author) {
+        return;
+    }
+
     if (THE_OWNER_PARAM) {
         if (Array.isArray(m.owner)) {
             let own = false;
