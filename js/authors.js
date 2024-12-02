@@ -87,6 +87,7 @@ let authors = {
     GVRLK: { name: 'Гаврилюк Александр' },
     HSMTLN: { name: 'Хисматуллин Дамир' },
     ILVS: { name: 'Ильвес Константин' },
+    IVNV_P: { name: 'Иванов Павел' },
     IVNV_V: { name: 'Иванов В.' },
     IVNVA_G: { name: 'Иванова Галина' },
     KBZRV: { name: 'Кобзарёв Александр' },
@@ -133,6 +134,7 @@ let authors = {
     MDVDKN: { name: 'Медведкин Г.' },
     MKHLV_A: { name: 'Михайлов Александр' },
     MLNKV_F: { name: 'Мельников Ф.' },
+    MLNKV_L: { name: 'Маланков Леонид' },
     MLSHV_Y: { name: 'Малышев Ю.' },
     MLVA_M: {
         name: 'Малова Мария Михайловна',
@@ -186,6 +188,7 @@ let authors = {
         name: 'Серебряницкий Константин',
         about: 'https://andybary.com/tver-map'
     },
+    SRTSKY: { name: 'Сиротский В.' },
     SSNNA: { name: 'Соснина Н.' },
     STLV: { name: 'Стулов Сергей' },
     STLRV: { name: 'Столяров А.' },

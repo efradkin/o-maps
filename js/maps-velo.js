@@ -41,6 +41,7 @@ let veloMaps = [
         name: 'Цвелодубово, Нахимовская т/б',
         url: './maps/velo/tsvelodubovo_nakhimovskaya_tb_velo.webp',
         bounds: [[60.38616818421505, 29.544897079467777], [60.384153486085516, 29.562406539916996], [60.37265671896538, 29.539189338684086]],
+        author: 'SHRNN',
         owner: 'SHRNN',
         types: ['ORIENT', 'VELO'],
     },

@@ -36,6 +36,7 @@ let reliefMaps = [
         year: 2014,
         url: './maps/relief/pervomayskoe_2014.webp',
         bounds: [[60.42006003635948, 29.68827724456787], [60.418047435229944, 29.725184440612793], [60.40315031563834, 29.68389987945557]],
+        author: ['SLBDNK','MKHLV_A','GVRLK'],
         owner: 'WN',
         types: ['ORIENT', 'RELIEF'],
     },
