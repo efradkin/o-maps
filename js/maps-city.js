@@ -530,6 +530,27 @@ let cityMaps = [
         bounds: [[59.833440936715064, 30.164873600006107], [59.833354674113856, 30.1760745048523], [59.82424192853449, 30.164916515350345]],
         types: ['ORIENT', 'CITY'],
         author: 'TMKN',
+        owner: 'TMKN'
+    },
+    {
+        name: 'Школа №217',
+        year: 2023,
+        url: './maps/city/school_217_2023.webp',
+        link: './original_maps/city/school_217_2023.ocd',
+        bounds: [[59.83421729007089, 30.165688991546634], [59.83299883852204, 30.178971290588382], [59.82475964241083, 30.16229867935181]],
+        types: ['ORIENT', 'CITY'],
+        author: ['TMKN','ALNKVA','TRSK','ZHMNTKV','SVLJV','KPJEV'],
+        owner: 'TMKN'
+    },
+    {
+        name: 'ул Отважных',
+        year: 2022,
+        url: './maps/city/otvazhnyich_2022.webp',
+        link: './original_maps/city/otvazhnyich_2022.ocd',
+        bounds: [[59.84425434030309, 30.166890621185303], [59.843251849400815, 30.17925024032593], [59.833343891273, 30.163350105285648]],
+        types: ['ORIENT', 'CITY'],
+        author: 'TMKN',
+        owner: 'TMKN'
     },
     {
         name: 'Школа №339',

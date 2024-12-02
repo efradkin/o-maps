@@ -1,4 +1,5 @@
 let authors = {
+    ALNKVA: { name: 'Алейникова Екатерина' },
     ANDRV_E: { name: 'Андреев Е.' },
     APTNKV: { name: 'Апатенков Сергей' },
     ARTMV: {
@@ -95,6 +96,7 @@ let authors = {
     KOUKNN_M: { name: 'Куокканен М.' },
     KOUKNN_Y: { name: 'Куокканен Юрий' },
     KNSTNTNV_D: { name: 'Константинов Д.' },
+    KPJEV: { name: 'Копьев Кирилл' },
     KRCHKN_V: {
         name: 'Курочкин Василий Васильевич',
         about: 'https://o-site.spb.ru/history/Peoples/kurochkin.html'
@@ -190,6 +192,7 @@ let authors = {
         about: 'https://adventure-race.redfox.ru/archive/archive_2020/news/v_komande_red_fox_adventure_race_popolnenie/'
     },
     SVCHK: { name: 'Роман Сивачук' },
+    SVLJV: { name: 'Савельев Никита' },
     SVTKN: {
         name: 'Святкин  Михаил',
         about: 'https://o-site.spb.ru/history/Peoples/svyatkin.html'
@@ -206,6 +209,7 @@ let authors = {
     },
     TRSV: { name: 'Тарасов Б.' },
     TNV: { name: 'Танаев А.' },
+    TRSK: { name: 'Тарасюк Виктория' },
     URVNTSV: {
         name: 'Урванцев Вадим Георгиевич ',
         about: 'https://o-site.spb.ru/history/Peoples/vgu.html'
@@ -232,6 +236,7 @@ let authors = {
     YGNV: { name: 'Яганов Алексей' },
     ZSLNKN: { name: 'Заслонкин Пётр' },
     ZCHNV: { name: 'Зачиняев Виктор' },
+    ZHMNTKV: { name: 'Жаманткова Надежда' },
     ZNDR: { name: 'Зиндер Л.' }
 };
 
