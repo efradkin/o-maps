@@ -85,9 +85,11 @@ let authors = {
     },
     GVRLK: { name: 'Гаврилюк Александр' },
     HSMTLN: { name: 'Хисматуллин Дамир' },
+    ILVS: { name: 'Ильвес Константин' },
     IVNV_V: { name: 'Иванов В.' },
     IVNVA_G: { name: 'Иванова Галина' },
     KBZRV: { name: 'Кобзарёв Александр' },
+    KCHTV: { name: 'Кочетов А.' },
     KHDNKCH: { name: 'Худеньких Ю.' },
     KLCHTSKA: { name: 'Кульчицкая Е.' },
     KOUKNN_M: { name: 'Куокканен М.' },
@@ -103,6 +105,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     KRNLJV: { name: 'Корнильев П.' },
+    KTS_JU: { name: 'Кац Юлия' },
     KVZN: {
         name: 'Ковязин Александр Николаевич',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -142,7 +145,9 @@ let authors = {
     MTRNCHV: { name: 'Матреничев Вячеслав' },
     NGN: { name: 'Негин С.' },
     NSNV: { name: 'Несынов Сергей' },
+    ORLV: { name: 'Орлов Александр' },
     OSMCHN: { name: 'Осмехин А.' },
+    OSTPNK: { name: 'Остапенко В.' },
     OVTCHNNKV: { name: 'Овчинников Юрий' },
     PKHMV: { name: 'Пахомов С.' },
     PLMNN: { name: 'Пульманен П.' },

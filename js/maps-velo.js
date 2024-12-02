@@ -27,6 +27,7 @@ let veloMaps = [
         url: './maps/velo/udelny_velo_2023.webp',
         link: './original_maps/velo/udelny_velo_2023_full.pdf',
         bounds: [[60.016727400055146, 30.2973747253418], [60.01428237207713, 30.32509803771973], [60.00308440770832, 30.2927827835083]],
+        author: 'MTRNCHV',
         owner: 'MTRNCHV',
         types: ['ORIENT', 'VELO'],
     },

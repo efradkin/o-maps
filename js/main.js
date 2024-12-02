@@ -243,7 +243,7 @@ function loadMap(m) {
             el.classList.add('full-size');
         }
 
-        if (HAS_WO_AUTHOR_PARAM && !m.author) {
+        if ((HAS_ONLY_WO_AUTHOR_PARAM || HAS_WO_AUTHOR_PARAM) && !m.author) {
             if (m.link) {
                 el.classList.add('wo-author-w-full');
             } else {

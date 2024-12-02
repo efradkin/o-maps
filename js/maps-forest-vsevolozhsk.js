@@ -28,6 +28,7 @@ let vsevolozhskMaps = [
         year: 2021,
         url: './maps/forest/vsevolozhsk/berngardovka_2021.webp',
         bounds: [[60.005165542352074, 30.604562759399418], [60.00211888840598, 30.635848045349125], [59.99190411384305, 30.599327087402347]],
+        author: ['KZNTSV_S','ILVS','DBRTSV_V'],
         owner: 'SHEIN',
         types: ['ORIENT'],
     },
@@ -112,6 +113,7 @@ let vsevolozhskMaps = [
         year: 2013,
         url: './maps/forest/vsevolozhsk/morozova_2013.webp',
         bounds: [[59.98602275023326, 31.040325164794925], [59.98361838824824, 31.072340011596683], [59.96656817067386, 31.03620529174805]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {

@@ -379,6 +379,7 @@ let zelikMaps = [
         year: 2007,
         url: './maps/forest/zelik/beloostrov_udachnoe_2007.webp',
         bounds: [[60.22464068641878, 29.95207786560059], [60.21820389368313, 30.0322437286377], [60.20370582617838, 29.947957992553714]],
+        author: ['RYLOV_V','SHRNN'],
         types: ['ORIENT'],
     },
     {

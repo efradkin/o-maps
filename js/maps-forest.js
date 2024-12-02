@@ -125,6 +125,7 @@ let forestMaps = [
         year: 2016,
         url: './maps/forest/sertolovo_2016.webp',
         bounds: [[60.158870558234405, 30.20523548126221], [60.15707672826544, 30.22875308990479], [60.14368397598858, 30.20021438598633]],
+        author: 'DBRTSV_V',
         owner: 'SHEIN',
         types: ['ORIENT'],
     },
