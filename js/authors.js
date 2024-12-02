@@ -129,6 +129,7 @@ let authors = {
         name: 'Левичев Александр',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    LSNNKV: { name: 'Лисененков А.' },
     MDVDKN: { name: 'Медведкин Г.' },
     MKHLV_A: { name: 'Михайлов Александр' },
     MLNKV_F: { name: 'Мельников Ф.' },
@@ -147,6 +148,7 @@ let authors = {
     MTRNCHV: { name: 'Матреничев Вячеслав' },
     NGN: { name: 'Негин С.' },
     NSNV: { name: 'Несынов Сергей' },
+    NKFRV: { name: 'Никифоров А.' },
     ORLV: { name: 'Орлов Александр' },
     OSMCHN: { name: 'Осмехин А.' },
     OSTPNK: { name: 'Остапенко В.' },
