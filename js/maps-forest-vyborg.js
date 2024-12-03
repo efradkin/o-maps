@@ -389,6 +389,16 @@ let vyborgMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Сайменские дачи',
+        year: 2013,
+        info: 'Мемориал Михаила Святкина 2013',
+        url: './maps/forest/vyborg/vyborg_saymenskie_dachi_2013.webp',
+        link: './original_maps/forest/vyborg/vyborg_saymenskie_dachi_2013_full.jpg',
+        bounds: [[60.80256618831815, 28.723926544189457], [60.79729013686225, 28.79422187805176], [60.76255538724196, 28.7138843536377]],
+        author: ['KRYLS','SMLGS','TMLNS'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Кировские дачи',
         year: 1980,
         url: './maps/forest/vyborg/kirovskie_dachi_1980.webp',

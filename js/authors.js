@@ -111,6 +111,7 @@ let authors = {
         name: 'Кириченко Сергей',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    KRYLS: { name: 'Саулюс Кирейлис' },
     KRNLJV: { name: 'Корнильев П.' },
     KRPLSN: { name: 'Карпельсон Александр' },
     KTS_JU: { name: 'Кац Юлия' },
@@ -189,8 +190,9 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     SLBDNK: { name: 'Слободянюк Роман' },
-    SMV: { name: 'Сомов Никита' },
+    SMLGS: { name: 'Андрюс Смилгюс' },
     SMRNV_A: { name: 'Смирнов А.' },
+    SMV: { name: 'Сомов Никита' },
     SRBRNTSKY: {
         name: 'Серебряницкий Константин',
         about: 'https://andybary.com/tver-map'
@@ -216,6 +218,7 @@ let authors = {
     },
     TKMKVA_P: { name: 'Токмакова Полина' },
     TLNV_A: { name: 'Тюленев А.' },
+    TMLNS: { name: 'Витаутас Тамуленис' },
     TMKN: {
         name: 'Темкин Вениамин Яковлевич',
         about: 'https://o-site.spb.ru/history/Peoples/temkin.html'
