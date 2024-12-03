@@ -61,6 +61,7 @@ let priozerskMaps = [
         year: 2002,
         url: './maps/forest/priozersk/vasilievo_2002.webp',
         bounds: [[60.87174426906526, 29.8214864730835], [60.86978057310173, 29.845819473266605], [60.854317471753944, 29.817366600036625]],
+        author: 'VRBY',
         owner: 'VST_PRZRSK',
         types: ['ORIENT'],
     },

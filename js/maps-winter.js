@@ -41,10 +41,11 @@ let winterMaps = [
         types: ['ORIENT', 'WINTER'],
     },
     {
-        name: 'Токсово - ВИФК',
+        name: 'Токсово, ВИФК',
         year: 2023,
         url: './maps/winter/toksovo_vifk_winter_2023.webp',
         bounds: [[60.193233383853695, 30.560145378112797], [60.18962804295176, 30.59679508209229], [60.18021815816931, 30.554866790771488]],
+        author: 'CHGRVSKY_Y',
         types: ['ORIENT', 'WINTER'],
     },
     {

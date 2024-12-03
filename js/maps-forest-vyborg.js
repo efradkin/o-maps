@@ -357,6 +357,7 @@ let vyborgMaps = [
         year: 2020,
         url: './maps/forest/vyborg/batarejnaya_gora_2020.webp',
         bounds: [[60.70882895498743, 28.752636909484867], [60.70691823952591, 28.76879453659058], [60.700429358009245, 28.748753070831302]],
+        author: 'DBRTSV_V',
         owner: 'KOSOR',
         types: ['ORIENT'],
         zindex: 2

@@ -210,6 +210,7 @@ let vaskelovoMaps = [
         year: 2022,
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2022.webp',
         bounds: [[60.506948957921466, 30.276346206665043], [60.49739769638699, 30.365867614746097], [60.48162773195609, 30.26570320129395]],
+        author: ['STLRV','DBRTSV_V','KZNTSV_A'],
         owner: 'SHEIN',
         types: ['ORIENT'],
     },
