@@ -24,6 +24,7 @@ let authors = {
         name: 'Бородулин Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/borodulin.html'
     },
+    BRNVA: { name: 'Баранова В.' },
     BRDR: { name: 'Бердар Азиз' },
     BVZ: { name: 'Бевза Татьяна' },
     BSTRV_A: { name: 'Быстров А.' },
@@ -52,6 +53,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/sedr.html'
     },
     EGRV_A: { name: 'Егоров Андрей' },
+    EGRV_E: { name: 'Егоров Е.' },
     EFRMV: { name: 'Ефремов Михаил' },
     ELZRV: { name: 'Елизаров В.' },
     FDRV_A: { name: 'Фёдоров Алексей' },
@@ -79,6 +81,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     GRSMVA: { name: 'Герасимова Н.' },
+    GRV_K: { name: 'Горев К.' },
     GRZNVCH: { name: 'Грязневич М.' },
     GUSEV: {
         name: 'Гусев Илья',
@@ -87,6 +90,7 @@ let authors = {
     GVRLK: { name: 'Гаврилюк Александр' },
     HSMTLN: { name: 'Хисматуллин Дамир' },
     ILVS: { name: 'Ильвес Константин' },
+    IVNV_A: { name: 'Иванов А.' },
     IVNV_P: { name: 'Иванов Павел' },
     IVNV_V: { name: 'Иванов В.' },
     IVNVA_G: { name: 'Иванова Галина' },
@@ -108,6 +112,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     KRNLJV: { name: 'Корнильев П.' },
+    KRPLSN: { name: 'Карпельсон Александр' },
     KTS_JU: { name: 'Кац Юлия' },
     KVZN: {
         name: 'Ковязин Александр Николаевич',
@@ -164,6 +169,7 @@ let authors = {
     RDNV_B: { name: 'Родионов Богдан' },
     RDNV_I: { name: 'Родионов Иван' },
     RDKV: { name: 'Рудаков В.' },
+    RMNTSV_S: { name: 'Румянцев С.' },
     RYLOV_V: {
         name: 'Рылов Виктор',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -184,6 +190,7 @@ let authors = {
     },
     SLBDNK: { name: 'Слободянюк Роман' },
     SMV: { name: 'Сомов Никита' },
+    SMRNV_A: { name: 'Смирнов А.' },
     SRBRNTSKY: {
         name: 'Серебряницкий Константин',
         about: 'https://andybary.com/tver-map'
@@ -208,6 +215,7 @@ let authors = {
         about: 'https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net'
     },
     TKMKVA_P: { name: 'Токмакова Полина' },
+    TLNV_A: { name: 'Тюленев А.' },
     TMKN: {
         name: 'Темкин Вениамин Яковлевич',
         about: 'https://o-site.spb.ru/history/Peoples/temkin.html'

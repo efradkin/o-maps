@@ -209,6 +209,7 @@ let sosnovoMaps = [
         year: 2024,
         url: './maps/forest/sosnovo/razdolje_2024.webp',
         bounds: [[60.594343032664085, 30.117559432983402], [60.59010748493463, 30.155110359191898], [60.583510724895596, 30.112752914428714]],
+        author: 'MKHLV_A',
         owner: 'WN',
         types: ['ORIENT'],
     },

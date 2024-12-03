@@ -27,8 +27,11 @@ let reliefMaps = [
     },
     {
         name: 'Токсово, Малиновая гора',
+        year: 1997,
         url: './maps/relief/toksovo_malinovaja_gora.webp',
+        link: './original_maps/relief/toksovo_malinovaja_gora_1997_full.jpg',
         bounds: [[60.17729435692855, 30.464100837707523], [60.17454105065943, 30.501523017883304], [60.16414470541026, 30.460324287414554]],
+        author: ['DBRTSV_V','CHGRVSKY_Y'],
         types: ['ORIENT', 'RELIEF'],
     },
     {

@@ -13,6 +13,7 @@ let winterMaps = [
         year: 2010,
         url: './maps/winter/orekhovo_winter_2010.webp',
         bounds: [[60.460666761529005, 30.279736518859867], [60.45687922940639, 30.326771736145023], [60.44310073619961, 30.274243354797367]],
+        author: ['KVZN','NSNV'],
         types: ['ORIENT', 'WINTER'],
     },
     {
