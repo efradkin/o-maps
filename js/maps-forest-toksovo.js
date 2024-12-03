@@ -50,6 +50,7 @@ let toksovoMaps = [
         year: 2007,
         url: './maps/forest/toksovo/schkolnoe_oz_2007.webp',
         bounds: [[60.1471875512765, 30.572247505187992], [60.14434626578051, 30.603919029235843], [60.12932396394884, 30.56602478027344]],
+        author: 'CHGRVSKY_V',
         owner: 'GUSEV',
         types: ['ORIENT'],
     },

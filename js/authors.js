@@ -21,7 +21,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/vnb.html'
     },
     BRDLN: {
-        name: 'Юрий Бородулин',
+        name: 'Бородулин Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/borodulin.html'
     },
     BRDR: { name: 'Бердар Азиз' },

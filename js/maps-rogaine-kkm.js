@@ -219,14 +219,14 @@ let rogaineKkmMaps = [
         owner: 'KKM',
         types: ['ROGAINE'],
     },
+*/
     {
-        name: 'Токсово, оз Хепоярви - ККМ',
-        year: 2017,
-        url: './maps/rogaine/kkm/toksovo_hepojarvy_KKM_2017_04.webp',
-        link: './original_maps/rogaine/kkm/toksovo_hepojarvy_KKM_2017_04_full.jpg',
-        bounds: [[60.19248674813239, 30.55280685424805], [60.184507351685134, 30.661983489990238], [60.15380914355222, 30.540018081665043]],
+        name: 'Токсово, оз Хепоярви - СКА, Марафонский круг - ККМ',
+        year: 2022,
+        url: './maps/rogaine/kkm/toksovo_hepojarvy_KKM_2022_02.webp',
+        link: 'https://kkmstart.ru/8246-2/',
+        bounds: [[60.197478218445276, 30.55057525634766], [60.191718762243006, 30.62576293945313], [60.14005182710981, 30.532207489013675]],
         owner: 'KKM',
         types: ['ROGAINE'],
     },
-*/
 ];

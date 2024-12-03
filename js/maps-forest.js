@@ -146,6 +146,7 @@ let forestMaps = [
         year: 2024,
         url: './maps/forest/sertolovo_chistjie_ruchji_2024.webp',
         bounds: [[60.14776432361967, 30.226349830627445], [60.14460263244195, 30.256776809692386], [60.13804329022207, 30.22270202636719]],
+        author: 'SVCHK',
         owner: 'SVCHK',
         types: ['ORIENT'],
     },

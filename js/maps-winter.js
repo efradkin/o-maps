@@ -34,13 +34,6 @@ let winterMaps = [
         types: ['ORIENT', 'WINTER'],
     },
     {
-        name: 'Токсово - СКА, Марафонский круг',
-        year: 2022,
-        url: './maps/winter/toksovo_ska_marathon_2022.webp',
-        bounds: [[60.176141838203385, 30.56044578552246], [60.171061736697986, 30.618896484375], [60.138684325957556, 30.548429489135746]],
-        types: ['ORIENT', 'WINTER'],
-    },
-    {
         name: 'Токсово, ВИФК',
         year: 2023,
         url: './maps/winter/toksovo_vifk_winter_2023.webp',
