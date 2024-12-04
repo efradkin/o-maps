@@ -24,12 +24,14 @@ let authors = {
         name: 'Бородулин Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/borodulin.html'
     },
+    BRGNTS: { name: 'Бригинец Константин' },
     BRNVA: { name: 'Баранова В.' },
     BRDR: { name: 'Бердар Азиз' },
     BVZ: { name: 'Бевза Татьяна' },
     BSTRV_A: { name: 'Быстров А.' },
     BRSVA_I: { name: 'Борисова И.' },
     BZNV_A: { name: 'Базанов Алексей' },
+    BZNVA_E: { name: 'Базанова Е.' },
     BYMKV: {
         name: 'Баймаков Владимир Михайлович',
         about: 'https://o-site.spb.ru/history/Peoples/baimakov.html'
@@ -52,6 +54,8 @@ let authors = {
         name: 'Дробышев Сергей',
         about: 'https://o-site.spb.ru/history/Peoples/sedr.html'
     },
+    DRSVNA: { name: 'Дресвина Е.' },
+    DRZDVA: { name: 'Дроздова Е.' },
     EGRV_A: { name: 'Егоров Андрей' },
     EGRV_E: { name: 'Егоров Е.' },
     EFRMV: { name: 'Ефремов Михаил' },
@@ -114,6 +118,7 @@ let authors = {
     KRYLS: { name: 'Саулюс Кирейлис' },
     KRNLJV: { name: 'Корнильев П.' },
     KRPLSN: { name: 'Карпельсон Александр' },
+    KSNFNTVA: { name: 'Ксенофонтова А.' },
     KTS_JU: { name: 'Кац Юлия' },
     KVZN: {
         name: 'Ковязин Александр Николаевич',
@@ -132,6 +137,7 @@ let authors = {
     KZNTSV_V: { name: 'Кузнецов Владимир' },
     KZNTSVA_Z: { name: 'Кузнецова З.' },
     LMVA: { name: 'Ломова Ирина' },
+    LUK_V: { name: 'Люк Владимир' },
     LVCHV: {
         name: 'Левичев Александр',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -156,7 +162,7 @@ let authors = {
     MTRNCHV: { name: 'Матреничев Вячеслав' },
     NGN: { name: 'Негин С.' },
     NSNV: { name: 'Несынов Сергей' },
-    NKFRV: { name: 'Никифоров А.' },
+    NKFRV: { name: 'Никифоров Андрей' },
     ORLV: { name: 'Орлов Александр' },
     OSMCHN: { name: 'Осмехин А.' },
     OSTPNK: { name: 'Остапенко В.' },
@@ -164,9 +170,11 @@ let authors = {
     PKHMV: { name: 'Пахомов С.' },
     PLMNN: { name: 'Пульманен П.' },
     PPV_D: { name: 'Попов Дмитрий' },
+    PRSCHPA: { name: 'Прищепа О.' },
     PSHKV: { name: 'Пашков Михаил' },
     PTRV_A: { name: 'Петров А.' },
     PTRNNA: { name: 'Петрянина О.' },
+    RBKV_D: { name: 'Рябков Д.' },
     RDNV_B: { name: 'Родионов Богдан' },
     RDNV_I: { name: 'Родионов Иван' },
     RDKV: { name: 'Рудаков В.' },
@@ -193,6 +201,8 @@ let authors = {
     SMLGS: { name: 'Андрюс Смилгюс' },
     SMRNV_A: { name: 'Смирнов А.' },
     SMV: { name: 'Сомов Никита' },
+    SNTSNA: { name: 'Синицина Л.' },
+    SRKN_A: { name: 'Сорокин А.' },
     SRBRNTSKY: {
         name: 'Серебряницкий Константин',
         about: 'https://andybary.com/tver-map'
@@ -252,6 +262,7 @@ let authors = {
     ZSLNKN: { name: 'Заслонкин Пётр' },
     ZCHNV: { name: 'Зачиняев Виктор' },
     ZHMNTKV: { name: 'Жаманткова Надежда' },
-    ZNDR: { name: 'Зиндер Л.' }
+    ZNDR: { name: 'Зиндер Л.' },
+    ZRNA: { name: 'Зорина Н.' },
 };
 

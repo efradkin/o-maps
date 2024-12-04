@@ -6,6 +6,7 @@ let parkMaps = [
         year: 2020,
         url: './maps/parks/aviatorov_2020.webp',
         bounds: [[59.873033427709515, 30.297803878784183], [59.8714502016217, 30.30941247940064], [59.86461022951216, 30.293469429016117]],
+        author: 'SHRNN',
         owner: 'SHRNN',
         types: ['ORIENT', 'PARK'],
     },
@@ -277,6 +278,7 @@ let parkMaps = [
         year: 2020,
         url: './maps/parks/aleksandrovsky_sad_2020.jpg',
         bounds: [[59.93639742638281, 30.300679206848148], [59.94020251615056, 30.310270786285404], [59.933602449579325, 30.30462741851807]],
+        author: ['FDRV_L','BBCH_A'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -425,6 +427,7 @@ let parkMaps = [
         year: 2005,
         url: './maps/parks/gatchina_zverinets_2005.webp',
         bounds: [[59.58639060698327, 30.08018016815186], [59.58306645580455, 30.124039649963382], [59.56650598635047, 30.074558258056644]],
+        author: ['VLKV_K','URVNTSV','MLVA_M','MRSKY_S'],
         types: ['ORIENT', 'PARK'],
     },
     {

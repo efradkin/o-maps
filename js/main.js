@@ -446,7 +446,7 @@ if (mapElement) {
     };
     opacitySlider = L.control.slider(function(value) {setOverlayOpacity(value);}, sliderOptions).addTo(map);}
 
-    //buildMapsCSV(oMaps);
+    //buildMapsCSV(oMaps); //, 'KOSOR'
 
 // --- functions ---
 

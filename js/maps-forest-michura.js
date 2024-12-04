@@ -15,6 +15,7 @@ let michuraMaps = [
         url: './maps/forest/michura/yagodnoe_1992.webp',
         link: './original_maps/forest/michura/yagodnoe_1992_full.jpg',
         bounds: [[60.63052271667331, 29.883584976196293], [60.62416578048736, 29.952764511108402], [60.601717038799606, 29.87337112426758]],
+        author: ['BYMKV','VSLVSKY','DRBSHV','FDRV_L','FLCHKN','RBKV_D','DRZDVA','KSNFNTVA','ZRNA','BZNVA_E'],
         types: ['ORIENT'],
     },
     {
@@ -123,6 +124,7 @@ let michuraMaps = [
         year: 2022,
         url: './maps/forest/michura/michurinskoe_2022.webp',
         bounds: [[60.66720846469397, 29.79578018188477], [60.637257175831714, 30.08914947509766], [60.57735534424474, 29.758701324462894]],
+        author: ['MKHLV_A','GVRLK','SLBDNK','ILVS','GRBTNKV'],
         owner: ['WN','ILVES'],
         types: ['ORIENT'],
     },
@@ -159,6 +161,7 @@ let michuraMaps = [
         year: 2023,
         url: './maps/forest/michura/bylinnoe_2023.webp',
         bounds: [[60.52760555177631, 29.930276870727543], [60.52131281110355, 29.99722480773926], [60.50310343444655, 29.919977188110355]],
+        author: 'MKHLV_A',
         owner: 'WN',
         types: ['ORIENT'],
     },
