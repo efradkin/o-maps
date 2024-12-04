@@ -132,13 +132,21 @@ function buildChart(ctx, labels, data, label) {
 
 // строит табличку с инфой об авторах-составителях
 function buildAuthorsTable() {
-    let authorsArray = Object.keys(authors).map((key) => authors[key]);
+    // let authorsArray = Object.keys(authors).map((key) => authors[key]);
+    let authorsEntries = Object.entries(authors);
+/*
     authorsArray
         .sort((a, b) => a.name.localeCompare(b.name))
         .sort((a, b) => (b.count || 0) - (a.count || 0));
+*/
+    authorsEntries
+        .sort((a, b) => a[1].name.localeCompare(b[1].name))
+        .sort((a, b) => (b[1].count || 0) - (a[1].count || 0));
     var table = document.getElementById("authors_table");
-    for (var i = 0; i < authorsArray.length; i++) {
-        if (!authorsArray[i].count) {
+    for (var i = 0; i < authorsEntries.length; i++) {
+        let key = authorsEntries[i][0];
+        let author = authorsEntries[i][1];
+        if (!author.count) {
             break;
         }
         let row = table.insertRow(i + 1);
@@ -146,10 +154,13 @@ function buildAuthorsTable() {
         let cell1 = row.insertCell(1);
         let cell2 = row.insertCell(2);
         let cell3 = row.insertCell(3);
+        let cell4 = row.insertCell(4);
         cell0.innerHTML = i + 1;
-        cell1.innerHTML = authorLabel(authorsArray[i]);
-        cell2.innerHTML = authorsArray[i].count;
-        cell3.innerHTML = authorsArray[i].area.toFixed(2);
+        cell1.innerHTML = authorLabel(author);
+        cell2.innerHTML = author.count;
+        cell3.innerHTML = author.area.toFixed(2);
+        let href = authorLink(key);
+        cell4.innerHTML = '<a href="' + href + '" title="Карты автора" target="_blank"><img src="./images/external-link.png" alt="Карты автора" /></a>';
     }
 
     // панель количества карт, где автор не указан

@@ -6,6 +6,10 @@ function mapLink(url) {
     return location.origin + '?map=' + extractFilename(url);
 }
 
+function authorLink(author) {
+    return location.origin + '?author=' + author;
+}
+
 function extractFilename(url) {
     const match = url.match(/\/([^\/]+)\.[^\.]+$/);
     return match ? match[1] : '';
