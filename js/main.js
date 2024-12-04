@@ -1,4 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
+const THE_AUTHOR_PARAM = urlParams.get('author');
 const THE_OWNER_PARAM = urlParams.get('owner');
 const MAP_NAME_PARAM = urlParams.get('map');
 const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
@@ -105,6 +106,20 @@ for (const m of oMaps) {
 function loadMap(m) {
     if (HAS_ONLY_WO_AUTHOR_PARAM && m.author) {
         return;
+    }
+
+    if (THE_AUTHOR_PARAM) {
+        if (Array.isArray(m.author)) {
+            let own = false;
+            for (const o of m.author) {
+                if (THE_AUTHOR_PARAM === o) {
+                    own = true; break;
+                }
+            }
+            if (!own) return;
+        } else {
+            if (THE_AUTHOR_PARAM !== m.author) return;
+        }
     }
 
     if (THE_OWNER_PARAM) {
