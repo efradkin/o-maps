@@ -62,6 +62,7 @@ let winterMaps = [
         year: 2024,
         url: './maps/winter/kirishi_ski_track_2024.webp',
         bounds: [[59.44023146251266, 31.985664367675785], [59.43905317578189, 32.00201511383057], [59.42154860449208, 31.97957038879395]],
+        author: 'TKMKV_K',
         owner: 'EGRV_SRG',
         types: ['ORIENT', 'WINTER'],
     },

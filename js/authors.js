@@ -148,6 +148,7 @@ let authors = {
     MLNKV_F: { name: 'Мельников Ф.' },
     MLNKV_L: { name: 'Маланков Леонид' },
     MLSHV_Y: { name: 'Малышев Ю.' },
+    MLV_AL: { name: 'Малов Алексей' },
     MLVA_M: {
         name: 'Малова Мария', //Михайловна
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
@@ -259,6 +260,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     YGNV: { name: 'Яганов Алексей' },
+    YUDNTSV: { name: 'Юдинцев Валерий' },
     ZSLNKN: { name: 'Заслонкин Пётр' },
     ZCHNV: { name: 'Зачиняев Виктор' },
     ZHMNTKV: { name: 'Жаманткова Надежда' },
