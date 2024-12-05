@@ -3,7 +3,7 @@ let authors = {
     ANDRV_E: { name: 'Андреев Е.' },
     APTNKV: { name: 'Апатенков Сергей' },
     ARTMV: {
-        name: 'Артемьев Юрий Михайлович',
+        name: 'Артемьев Юрий', //Михайлович
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     AZBKNA: { name: 'Азбукина О.' },
@@ -17,7 +17,7 @@ let authors = {
     },
     BLV_V: { name: 'Белов В.' },
     BLZRV_V: {
-        name: 'Белозеров Владимир Николаевич',
+        name: 'Белозеров Владимир', //Николаевич
         about: 'https://o-site.spb.ru/history/Peoples/vnb.html'
     },
     BRDLN: {
@@ -33,7 +33,7 @@ let authors = {
     BZNV_A: { name: 'Базанов Алексей' },
     BZNVA_E: { name: 'Базанова Е.' },
     BYMKV: {
-        name: 'Баймаков Владимир Михайлович',
+        name: 'Баймаков Владимир', //Михайлович
         about: 'https://o-site.spb.ru/history/Peoples/baimakov.html'
     },
     CHGRVSKY_M: { name: 'Чегаровский Михаил' },
@@ -69,7 +69,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     FRSHLVA: {
-        name: 'Фершалова Виктория Савельевна',
+        name: 'Фершалова Виктория', //Савельевна
         about: 'https://o-site.spb.ru/history/Peoples/vsfersh.html'
     },
     GLK: { name: 'Голик Елена' },
@@ -107,7 +107,7 @@ let authors = {
     KNSTNTNV_D: { name: 'Константинов Д.' },
     KPJEV: { name: 'Копьев Кирилл' },
     KRCHKN_V: {
-        name: 'Курочкин Василий Васильевич',
+        name: 'Курочкин Василий', //Васильевич
         about: 'https://o-site.spb.ru/history/Peoples/kurochkin.html'
     },
     KRCHNKO_N: { name: 'Кириченко Н.' },
@@ -121,15 +121,15 @@ let authors = {
     KSNFNTVA: { name: 'Ксенофонтова А.' },
     KTS_JU: { name: 'Кац Юлия' },
     KVZN: {
-        name: 'Ковязин Александр Николаевич',
+        name: 'Ковязин Александр', //Николаевич
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     KZNTSV_S: {
-        name: 'Казанцев Сергей Александрович',
+        name: 'Казанцев Сергей', //Александрович
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
     KZNTSVA_O: {
-        name: 'Казанцева (Малова) Ольга Михайловна',
+        name: 'Казанцева (Малова) Ольга', //Михайловна
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
     KZNTSV_A: { name: 'Кузнецов Александр' },
@@ -149,7 +149,7 @@ let authors = {
     MLNKV_L: { name: 'Маланков Леонид' },
     MLSHV_Y: { name: 'Малышев Ю.' },
     MLVA_M: {
-        name: 'Малова Мария Михайловна',
+        name: 'Малова Мария', //Михайловна
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
     MNKV: { name: 'Минаков Александр' },
@@ -190,7 +190,7 @@ let authors = {
     SHEIN: { name: 'Шеин Александр' },
     SHKLV: { name: 'Шкилев Виталий' },
     SHRNN: {
-        name: 'Ширинян Александр Альбертович',
+        name: 'Ширинян Александр', //Альбертович
         about: 'https://spbof.ru/ru/8-news/31-a-a-shirinyan-idealnykh-kart-ne-byvaet-lyudi-vidyat-ob-ekty-po-raznomu'
     },
     SHVR: {
@@ -230,32 +230,32 @@ let authors = {
     TLNV_A: { name: 'Тюленев А.' },
     TMLNS: { name: 'Витаутас Тамуленис' },
     TMKN: {
-        name: 'Темкин Вениамин Яковлевич',
+        name: 'Темкин Вениамин', //Яковлевич
         about: 'https://o-site.spb.ru/history/Peoples/temkin.html'
     },
     TRSV: { name: 'Тарасов Б.' },
     TNV: { name: 'Танаев А.' },
     TRSK: { name: 'Тарасюк Виктория' },
     URVNTSV: {
-        name: 'Урванцев Вадим Георгиевич ',
+        name: 'Урванцев Вадим ', //Георгиевич
         about: 'https://o-site.spb.ru/history/Peoples/vgu.html'
     },
     USHNV: { name: 'Ушанов В.' },
     USNKO: { name: 'Усенко С.' },
     VRBY: {
-        name: 'Воробей Сергей Валерьянович',
+        name: 'Воробей Сергей', //Валерьянович
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     VLKV_A: {
-        name: 'Волков Андрей Владимирович',
+        name: 'Волков Андрей', //Владимирович
         about: 'https://o-site.spb.ru/history/Peoples/avolkov.html'
     },
     VLKV_K: {
-        name: 'Волков Константин Владимирович',
+        name: 'Волков Константин', //Владимирович
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     VSLVSKY: {
-        name: 'Василевский Александр Михайлович',
+        name: 'Василевский Александр', //Михайлович
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     YGNV: { name: 'Яганов Алексей' },
