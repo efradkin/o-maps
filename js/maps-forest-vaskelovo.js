@@ -137,11 +137,28 @@ let vaskelovoMaps = [
     },
     {
         name: 'Стеклянный',
+        year: 1995,
+        url: './maps/forest/vaskelovo/stekljanny_1996.webp',
+        link: './original_maps/forest/vaskelovo/stekljanny_1996_full.jpg',
+        bounds: [[60.37645407048021, 30.229568481445316], [60.3710230852461, 30.28836250305176], [60.35171030068646, 30.218925476074222]],
+        author: 'SCHV',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Стеклянный',
         year: 2024,
         url: './maps/forest/vaskelovo/stekljanny_2024.webp',
         bounds: [[60.375966167411484, 30.230083465576175], [60.37272036537475, 30.27390003204346], [60.35519169168648, 30.223174095153812]],
         author: 'MKHLV_A',
         owner: 'WN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Стеклянный',
+        year: 2014,
+        url: './maps/forest/vaskelovo/stekljanny_2014.webp',
+        bounds: [[60.3755631115393, 30.23317337036133], [60.37337803765897, 30.25467395782471], [60.360052280500405, 30.225834846496586]],
+        author: 'MLNKV_L',
         types: ['ORIENT'],
     },
     {

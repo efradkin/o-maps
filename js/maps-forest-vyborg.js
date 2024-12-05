@@ -461,11 +461,19 @@ let vyborgMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Кировские дачи',
-        year: 1980,
+        name: 'Кировские дачи, стрельбище',
+        year: 1978,
         url: './maps/forest/vyborg/kirovskie_dachi_1980.webp',
         link: './original_maps/forest/vyborg/kirovskie_dachi_1980_full.jpg',
         bounds: [[60.745467505039386, 28.7601900100708], [60.74397843643192, 28.783407211303714], [60.73099334779663, 28.75602722167969]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Кировские дачи, стрельбище',
+        year: 1985,
+        url: './maps/forest/vyborg/kirovskie_dachi_1985.webp',
+        link: './original_maps/forest/vyborg/kirovskie_dachi_1985_full.jpg',
+        bounds: [[60.744586655899795, 28.75808715820313], [60.74431400721886, 28.78199100494385], [60.725180871895674, 28.75851631164551]],
         types: ['ORIENT'],
     },
     {

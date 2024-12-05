@@ -86,6 +86,7 @@ let authors = {
     },
     GRSMVA: { name: 'Герасимова Н.' },
     GRV_K: { name: 'Горев К.' },
+    GRV_S: { name: 'Гурьев С.' },
     GRZNVCH: { name: 'Грязневич М.' },
     GUSEV: {
         name: 'Гусев Илья',
@@ -189,6 +190,7 @@ let authors = {
         name: 'Рылов Виктор',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    SCHV: { name: 'Сычёв Владимир' },
     SHLKHN_Y: {
         name: 'Шелёхин Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/yushel.html'

@@ -200,7 +200,8 @@ let sosnovoMaps = [
     },
     {
         name: 'Кривко, оз Туманное',
-        year: 2024,
+        year: 2015,
+        info: 'Непонятно, чья карта и какого года.',
         url: './maps/forest/sosnovo/krivko_ulovnoe_2023.webp',
         link: './original_maps/forest/sosnovo/krivko_ulovnoe_2023_full.jpg',
         bounds: [[60.629722906202076, 30.178756713867188], [60.62408157424831, 30.258493423461918], [60.58751530860598, 30.165367126464847]],
