@@ -560,6 +560,17 @@ let cityMaps = [
         owner: 'TMKN'
     },
     {
+        name: 'ул Здоровцева',
+        year: 2024,
+        url: './maps/city/zdorovtseva_2024.webp',
+        link: './original_maps/city/zdorovtseva_2024.ocd',
+        info: 'Карта требует корректуры. Любой желающий может довести её до ума.',
+        bounds: [[59.83482110794599, 30.15558242797852], [59.834767196080826, 30.16405820846558], [59.82450078647835, 30.155711174011234]],
+        types: ['ORIENT', 'CITY'],
+        author: 'TMKN',
+        owner: 'TMKN'
+    },
+    {
         name: 'Школа №339',
         year: 2008,
         url: './maps/city/school_339_2008.webp',
