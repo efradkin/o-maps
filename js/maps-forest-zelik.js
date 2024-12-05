@@ -442,15 +442,6 @@ let zelikMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Сестрорецк, Ласковый пляж',
-        year: 2023,
-        url: './maps/forest/zelik/sestroretsk_pljazh_laskovy_2023.webp',
-        bounds: [[60.14590579873828, 29.92581367492676], [60.14403648673156, 29.94210004806519], [60.13880184782073, 29.922959804534912]],
-        author: 'KUZNTSV_A',
-        owner: 'SFSO_SPB',
-        types: ['ORIENT'],
-    },
-    {
         name: 'Тарховка',
         year: 1987,
         url: './maps/forest/zelik/tarkhovka_1987.webp',
@@ -483,6 +474,15 @@ let zelikMaps = [
         url: './maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012.webp',
         bounds: [[60.14058599180651, 29.95044708251953], [60.13898347169249, 29.967741966247562], [60.12789189290783, 29.946713447570804]],
         author: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Сестрорецк, Ласковый пляж',
+        year: 2023,
+        url: './maps/forest/zelik/sestroretsk_pljazh_laskovy_2023.webp',
+        bounds: [[60.14590579873828, 29.92581367492676], [60.14403648673156, 29.94210004806519], [60.13880184782073, 29.922959804534912]],
+        author: 'KUZNTSV_A',
+        owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
     {

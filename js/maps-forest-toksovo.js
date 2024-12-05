@@ -286,6 +286,14 @@ let toksovoMaps = [
         info: '"Бабочка"',
     },
     {
+        name: 'Токсово, Охта-Парк',
+        year: 2022,
+        url: './maps/forest/toksovo/toksovo_okhta_park_2022.webp',
+        bounds: [[60.14708074047316, 30.415349006652836], [60.14297894316743, 30.465002059936523], [60.12983692946053, 30.409383773803714]],
+        types: ['ORIENT'],
+        author: ['MKHLV_A','SLBDNK'],
+    },
+    {
         name: 'Токсово, КомБыт',
         year: 2017,
         url: './maps/forest/toksovo/toksovo_kombyt_2017.jpg',

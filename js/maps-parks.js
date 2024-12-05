@@ -23,6 +23,7 @@ let parkMaps = [
         name: 'Парк Победы',
         year: 2020,
         url: './maps/parks/pobedy_2020.webp',
+        link: './original_maps/parks/pobedy_2020_full.jpg',
         bounds: [[59.873216517019806, 30.318918228149418], [59.87246261338842, 30.34007549285889], [59.86449172940988, 30.31690120697022]],
         author: 'FDRV_L',
         types: ['ORIENT', 'PARK'],
@@ -441,6 +442,24 @@ let parkMaps = [
     },
     {
         name: 'Куракина дача',
+        year: 1985,
+        url: './maps/parks/kurakina_dacha_1985.webp',
+        link: './original_maps/parks/kurakina_dacha_1985_full.jpg',
+        bounds: [[59.876619640655804, 30.448071956634525], [59.87569350859724, 30.460066795349125], [59.86858512468797, 30.445196628570557]],
+        types: ['ORIENT', 'PARK'],
+        author: 'CHGRVSKY_Y',
+    },
+    {
+        name: 'Куракина дача',
+        year: 2017,
+        url: './maps/parks/kurakina_dacha_2017.webp',
+        bounds: [[59.87665194712237, 30.448544025421146], [59.87569350859724, 30.460066795349125], [59.86858512468797, 30.445539951324466]],
+        types: ['ORIENT', 'PARK'],
+        author: 'DRBSHV',
+        owner: 'KP31',
+    },
+    {
+        name: 'Куракина дача',
         year: 2023,
         url: './maps/parks/kurakina_dacha_2023.webp',
         bounds: [[59.87711500302675, 30.447857379913334], [59.876005811825685, 30.46041011810303], [59.86784188771747, 30.44393062591553]],
@@ -506,11 +525,22 @@ let parkMaps = [
         author: ['SHRNN','FRSHLVA'],
         types: ['ORIENT', 'PARK'],
     },
+/*
     {
         name: 'Муринский парк - запад',
         year: 2019,
         url: './maps/parks/murinsky_north_2019.webp',
         bounds: [[60.036527606425715, 30.366189479827884], [60.0340411719127, 30.38573741912842], [60.03137233352936, 30.364451408386234]],
+        author: 'KUZNTSV_A',
+        types: ['ORIENT', 'PARK'],
+    },
+*/
+    {
+        name: 'Муринский парк и САМПО',
+        year: 2012,
+        url: './maps/parks/murinsky_sampo_2012.webp',
+        bounds: [[60.03597031841169, 30.3663182258606], [60.03272285700718, 30.392239093780518], [60.023857698834135, 30.36056756973267]],
+        author: 'SHRNN',
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -542,7 +572,7 @@ let parkMaps = [
     {
         name: 'Колпино, Чухонка',
         year: 2020,
-        url: './maps/parks/kolpino_chuhonka_2020.jpg',
+        url: './maps/parks/kolpino_chuhonka_2020.webp',
         bounds: [[59.73920630976902, 30.589885711669925], [59.73907654981489, 30.60121536254883], [59.730143528979355, 30.589885711669925]],
         types: ['ORIENT', 'PARK'],
         author: ['SRBRNTSKY','BBCH_A'],
@@ -551,10 +581,10 @@ let parkMaps = [
     {
         name: 'Колпино, Никольский сквер',
         year: 2019,
-        url: './maps/parks/kolpino_nikolsky_skver_2019.jpg',
+        url: './maps/parks/kolpino_nikolsky_skver_2019.webp',
         bounds: [[59.74800718414132, 30.594584941864017], [59.74740179281272, 30.6049919128418], [59.740493068716916, 30.592632293701175]],
         types: ['ORIENT', 'PARK'],
-        author: 'DRBSHV',
+        author: ['DRBSHV','BBCH_A'],
         owner: 'BBCH_A',
     },
     {

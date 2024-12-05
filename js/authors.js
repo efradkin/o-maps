@@ -7,7 +7,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     AZBKNA: { name: 'Азбукина О.' },
-    BBCH_A: { name: 'Бибич А.' },
+    BBCH_A: { name: 'Бибич Андрей' },
     BBNN_I: { name: 'Бабанин И.' },
     BGCHNS: { name: 'Багочюнас С.' },
     BKSTN: { name: 'Бакустин Игорь' },
