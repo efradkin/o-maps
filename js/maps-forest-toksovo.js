@@ -187,6 +187,15 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Кавголово',
+        year: 2017,
+        url: './maps/forest/toksovo/kavgolovo_2017.webp',
+        bounds: [[60.17441298428561, 30.52538394927979], [60.171979628313395, 30.541520118713382], [60.16282090997341, 30.51886081695557]],
+        author: 'MKHLV_A',
+        owner: 'WN',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Орлиная гора',
         year: 2004,
         url: './maps/forest/toksovo/orlinaya_gora_2004.webp',
@@ -251,12 +260,21 @@ let toksovoMaps = [
     },
     {
         name: 'Токсово, оз Светлое',
+        year: 2003,
+        url: './maps/forest/toksovo/toksovo_svetloe_oz_2003.webp',
+        link: './original_maps/forest/toksovo/toksovo_svetloe_oz_2003_full.jpg',
+        bounds: [[60.15786687972026, 30.457835197448734], [60.1551546589464, 30.49585819244385], [60.14278665886592, 30.453543663024906]],
+        types: ['ORIENT'],
+        author: 'CHGRVSKY_M',
+    },
+    {
+        name: 'Токсово, оз Светлое',
         year: 2017,
         url: './maps/forest/toksovo/toksovo_oz_svetloe_2017.webp',
         bounds: [[60.16070699702129, 30.436120033264164], [60.15609435132153, 30.494484901428226], [60.14496581512473, 30.430884361267093]],
+        author: 'DBRTSV_V',
         owner: 'SHEIN',
         types: ['ORIENT'],
-        author: 'DBRTSV_V',
     },
     {
         name: 'Токсово, оз Светлое',

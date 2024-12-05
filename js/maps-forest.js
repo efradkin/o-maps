@@ -251,6 +251,15 @@ let forestMaps = [
     },
     {
         name: 'Яппиля, оз Пистолет',
+        year: 1997,
+        url: './maps/forest/yappilya_pistolet_1997.webp',
+        link: './original_maps/forest/yappilya_pistolet_1997_full.jpg',
+        bounds: [[60.21304502181074, 29.120850563049316], [60.21123282876284, 29.1547966003418], [60.18796390589544, 29.11484241485596]],
+        author: 'CHGRVSKY_V',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Яппиля, оз Пистолет',
         year: 2024,
         url: './maps/forest/yappilya_2024.webp',
         bounds: [[60.23520963053894, 29.110679626464847], [60.22787991859254, 29.183120727539066], [60.18736650278566, 29.091625213623047]],

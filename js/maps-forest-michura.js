@@ -124,7 +124,7 @@ let michuraMaps = [
         year: 2022,
         url: './maps/forest/michura/michurinskoe_2022.webp',
         bounds: [[60.66720846469397, 29.79578018188477], [60.637257175831714, 30.08914947509766], [60.57735534424474, 29.758701324462894]],
-        author: ['MKHLV_A','GVRLK','SLBDNK','ILVS','GRBTNKV'],
+        author: ['MKHLV_A','GVRLK','SLBDNK','ILVS','GRBTNKV','TRNV_V'],
         owner: ['WN','ILVES'],
         types: ['ORIENT'],
     },

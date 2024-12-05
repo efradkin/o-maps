@@ -239,6 +239,7 @@ let authors = {
         name: 'Темкин Вениамин', //Яковлевич
         about: 'https://o-site.spb.ru/history/Peoples/temkin.html'
     },
+    TRNV_V: { name: 'Трунов В.' },
     TRSV: { name: 'Тарасов Б.' },
     TNV: { name: 'Танаев А.' },
     TRSK: { name: 'Тарасюк Виктория' },

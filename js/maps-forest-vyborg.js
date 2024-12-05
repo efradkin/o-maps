@@ -414,6 +414,15 @@ let vyborgMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Калинино',
+        year: 2015,
+        url: './maps/forest/vyborg/vyborg_kalinina_2015.webp',
+        bounds: [[60.774312432904956, 28.6384391784668], [60.772363702039044, 28.658223152160648], [60.760584979255036, 28.633503913879398]],
+        author: ['TKMKV_K','KVZN'],
+        owner: 'NW',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Возрождение',
         year: 2024,
         url: './maps/forest/vyborg/vozrozhdenie_2024.webp',

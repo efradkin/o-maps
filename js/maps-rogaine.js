@@ -52,13 +52,6 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
-        name: 'Шуваловский лесопарк',
-        year: 2024,
-        url: './maps/rogaine/shuvalovsky_rogaine_2024.webp',
-        bounds: [[60.08453692889112, 30.291752815246586], [60.08190427782784, 30.32033443450928], [60.06931601663244, 30.28668880462647]],
-        types: ['ROGAINE'],
-    },
-    {
         name: 'Шапки - Финал КЛО',
         year: 2019,
         url: './maps/rogaine/shapki_KLO_2019.jpg',
