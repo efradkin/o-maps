@@ -7,7 +7,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/sosnovo_south_1989.webp',
         link: './original_maps/forest/sosnovo/sosnovo_south_1989_full.jpg',
         bounds: [[60.55445209468727, 30.23523330688477], [60.54968381690081, 30.297031402587894], [60.52874571620552, 30.22725105285645]],
-        author: ['MLVA_M','KZNTSVA_O'],
+        author: ['MLVA_M','KAZNTSVA_O'],
         types: ['ORIENT'],
     },
     {
@@ -49,7 +49,7 @@ let sosnovoMaps = [
         year: 2019,
         url: './maps/forest/sosnovo/69_km_2019.webp',
         bounds: [[60.52724660281343, 30.230169296264652], [60.525789651465296, 30.25621891021729], [60.50844901094424, 30.225105285644535]],
-        author: ['DBRTSV_V','KZNTSVA_O'],
+        author: ['DBRTSV_V','KAZNTSVA_O'],
         owner: 'SCHLKHN_AN',
         types: ['ORIENT'],
     },
@@ -141,7 +141,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/snegirevka_1991.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1991_full.jpg',
         bounds: [[60.52488166312165, 30.276002883911136], [60.52226313556185, 30.34831523895264], [60.494206271637864, 30.27016639709473]],
-        author: ['MLVA_M','KZNTSVA_O','KZNTSV_S'],
+        author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S'],
         types: ['ORIENT'],
     },
     {
@@ -150,7 +150,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/snegirevka_1988.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1988_full.jpg',
         bounds: [[60.538562137521424, 30.276474952697757], [60.53816109476326, 30.33908843994141], [60.514490774894206, 30.27467250823975]],
-        author: ['MLVA_M','KZNTSVA_O','KZNTSV_S','KOUKNN_M'],
+        author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S','KOUKNN_M'],
         types: ['ORIENT'],
     },
     {

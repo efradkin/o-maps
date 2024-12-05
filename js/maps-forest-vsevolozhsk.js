@@ -28,7 +28,7 @@ let vsevolozhskMaps = [
         year: 2021,
         url: './maps/forest/vsevolozhsk/berngardovka_2021.webp',
         bounds: [[60.005165542352074, 30.604562759399418], [60.00211888840598, 30.635848045349125], [59.99190411384305, 30.599327087402347]],
-        author: ['KZNTSV_S','ILVS','DBRTSV_V'],
+        author: ['KUZNTSV_S','ILVS','DBRTSV_V'],
         owner: 'SHEIN',
         types: ['ORIENT'],
     },

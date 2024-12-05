@@ -145,7 +145,7 @@ let priozerskMaps = [
         link: './original_maps/forest/kuznechnoe_2008_full.pdf',
         bounds: [[61.15810287382887, 29.742393493652347], [61.14389802382198, 29.939460754394535], [61.083819196139416, 29.71887588500977]],
         types: ['ORIENT'],
-        author: ['KZNTSV_S','NSNV','KVZN','TKMKV_K','SHRNN'],
+        author: ['KAZNTSV_S','NSNV','KVZN','TKMKV_K','SHRNN'],
         owner: 'TOKM'
     },
     {
@@ -154,7 +154,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_se.webp',
         link: './original_maps/forest/kuznechnoe_se_2003.pdf',
         bounds: [[61.101535452429026, 29.940662384033207], [61.09734585191786, 30.00572204589844], [61.07340056041223, 29.932250976562504]],
-        author: ['KZNTSV_S','NSNV','KVZN','TKMKV_K'],
+        author: ['KAZNTSV_S','NSNV','KVZN','TKMKV_K'],
         owner: 'TOKM',
         types: ['ORIENT'],
     },

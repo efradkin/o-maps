@@ -25,7 +25,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/lembolovo_orekhovo_1995.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_1995_full.jpg',
         bounds: [[60.4479482150824, 30.235576629638675], [60.4409201932774, 30.3398609161377], [60.4233434866285, 30.22845268249512]],
-        author: ['DBRTSV_V','KZNTSV_V','CHGRVSKY_Y'],
+        author: ['DBRTSV_V','KUZNTSV_V','CHGRVSKY_Y'],
         types: ['ORIENT'],
     },
     {
@@ -35,7 +35,7 @@ let vaskelovoMaps = [
         //link: './original_maps/forest/vaskelovo/Geolog92.pdf',
         link: './original_maps/forest/vaskelovo/silande_1992_full.jpg',
         bounds: [[60.42787622155024, 30.223689079284668], [60.4233434866285, 30.286216735839847], [60.37887226479014, 30.210857391357425]],
-        author: 'KZNTSV_V',
+        author: 'KUZNTSV_V',
         types: ['ORIENT'],
     },
     {
@@ -196,7 +196,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_1997.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_rakitinskoe_1997_full.jpg',
         bounds: [[60.46868471522234, 30.329475402832035], [60.46597702620726, 30.38423538208008], [60.443545294953346, 30.323724746704105]],
-        author: ['BYMKV','KZNTSV_S'],
+        author: ['BYMKV','KUZNTSV_S'],
         types: ['ORIENT'],
     },
     {
@@ -213,7 +213,7 @@ let vaskelovoMaps = [
         year: 2022,
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2022.webp',
         bounds: [[60.506948957921466, 30.276346206665043], [60.49739769638699, 30.365867614746097], [60.48162773195609, 30.26570320129395]],
-        author: ['STLRV','DBRTSV_V','KZNTSV_A'],
+        author: ['STLRV','DBRTSV_V','KUZNTSV_A'],
         owner: 'SHEIN',
         types: ['ORIENT'],
     },

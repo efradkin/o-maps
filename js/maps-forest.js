@@ -175,7 +175,7 @@ let forestMaps = [
         url: './maps/forest/vartemjagi_1987.webp',
         link: './original_maps/forest/vartemjagi_1987_full.jpg',
         bounds: [[60.202127708632986, 30.219097137451175], [60.19641172873261, 30.31711578369141], [60.17332439994863, 30.210857391357425]],
-        author: ['MLVA_M','KZNTSVA_O','KZNTSV_S'],
+        author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S'],
         types: ['ORIENT'],
     },
     {
@@ -219,7 +219,7 @@ let forestMaps = [
         url: './maps/forest/new_devjatkino_1993.webp',
         link: './original_maps/forest/new_devjatkino_1993_full.jpg',
         bounds: [[60.062077732217986, 30.468049049377445], [60.0611996074672, 30.498433113098148], [60.04744641082711, 30.464100837707523]],
-        author: 'KZNTSVA_O',
+        author: 'KAZNTSVA_O',
         types: ['ORIENT'],
     },
     {
@@ -246,7 +246,7 @@ let forestMaps = [
         url: './maps/forest/yappilya_pistolet_1979.webp',
         link: './original_maps/forest/yappilya_pistolet_1979_full.jpg',
         bounds: [[60.22353245455555, 29.121150970458988], [60.2216142724076, 29.172477722167972], [60.18412326764247, 29.114971160888675]],
-        author: ['KZNTSV_S','KZNTSVA_O','GYKVCH','PYNN','PTRV_V'],
+        author: ['KUZNTSV_S','KAZNTSVA_O','GYKVCH','PYNN','PTRV_V'],
         types: ['ORIENT'],
     },
     {
@@ -272,7 +272,7 @@ let forestMaps = [
         year: 2023,
         url: './maps/forest/kanneljarvi_2023.webp',
         bounds: [[60.33833320798648, 29.336500167846683], [60.3309416045955, 29.407052993774418], [60.313135413137786, 29.326286315917972]],
-        author: ['TKMKV_K','KZNTSV_A','KVZN'],
+        author: ['TKMKV_K','KUZNTSV_A','KVZN'],
         owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },

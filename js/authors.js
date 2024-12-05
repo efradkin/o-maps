@@ -126,18 +126,18 @@ let authors = {
         name: 'Ковязин Александр', //Николаевич
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
-    KZNTSV_S: {
+    KAZNTSV_S: {
         name: 'Казанцев Сергей', //Александрович
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
-    KZNTSVA_O: {
+    KAZNTSVA_O: {
         name: 'Казанцева (Малова) Ольга', //Михайловна
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
-    KZNTSV_A: { name: 'Кузнецов Александр' },
-    KZNTSV_S: { name: 'Кузнецов Сергей' },
-    KZNTSV_V: { name: 'Кузнецов Владимир' },
-    KZNTSVA_Z: { name: 'Кузнецова З.' },
+    KUZNTSV_A: { name: 'Кузнецов Александр' },
+    KUZNTSV_S: { name: 'Кузнецов Сергей' },
+    KUZNTSV_V: { name: 'Кузнецов Владимир' },
+    KUZNTSVA_Z: { name: 'Кузнецова З.' },
     LMVA: { name: 'Ломова Ирина' },
     LPTV_Y: { name: 'Лаптев Ю.' },
     LUK_V: { name: 'Люк Владимир' },

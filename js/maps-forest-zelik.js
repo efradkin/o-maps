@@ -122,7 +122,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_1978.webp',
         link: './original_maps/forest/zelik/zelenogorsk_1978_full.jpg',
         bounds: [[60.19410799266949, 29.683556556701664], [60.191356095993605, 29.71810340881348], [60.18747318270969, 29.6821403503418]],
-        author: ['KZNTSV_S','KZNTSVA_Z'],
+        author: ['KUZNTSV_S','KUZNTSVA_Z'],
         types: ['ORIENT'],
     },
     {
@@ -147,7 +147,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/ilychevo_dolgoe_1995.webp',
         link: './original_maps/forest/zelik/ilychevo_dolgoe_1995_full.jpg',
         bounds: [[60.310244709596496, 29.704971313476566], [60.30331448158006, 29.81174468994141], [60.272259225923726, 29.692783355712894]],
-        author: ['KZNTSV_S','KVZN'],
+        author: ['KUZNTSV_S','KVZN'],
         types: ['ORIENT'],
     },
     {
@@ -156,7 +156,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_komarovo_1985.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovo_1985_full.jpg',
         bounds: [[60.24645669723733, 29.76522445678711], [60.22140113412978, 29.890537261962894], [60.20059217005553, 29.727458953857425]],
-        author: 'KZNTSV_S',
+        author: 'KUZNTSV_S',
         types: ['ORIENT'],
     },
     {
@@ -173,7 +173,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_schuchye_2005.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_2005_full.jpg',
         bounds: [[60.2306926763174, 29.74059104919434], [60.22805039562937, 29.803075790405277], [60.20319401258867, 29.735183715820316]],
-        author: ['BYMKV','KZNTSV_S','SHRNN','VSLVSKY'],
+        author: ['BYMKV','KUZNTSV_S','SHRNN','VSLVSKY'],
         types: ['ORIENT'],
     },
     {
@@ -305,7 +305,7 @@ let zelikMaps = [
         year: 2015,
         url: './maps/forest/zelik/ilychevo-simagino_2015.webp',
         bounds: [[60.29246976482949, 29.792947769165043], [60.28749274926003, 29.86719131469727], [60.24356009471195, 29.772605895996097]],
-        author: ['KZNTSV_S','SHRNN'],
+        author: ['KUZNTSV_S','SHRNN'],
         owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
@@ -446,7 +446,7 @@ let zelikMaps = [
         year: 2023,
         url: './maps/forest/zelik/sestroretsk_pljazh_laskovy_2023.webp',
         bounds: [[60.14590579873828, 29.92581367492676], [60.14403648673156, 29.94210004806519], [60.13880184782073, 29.922959804534912]],
-        author: 'KZNTSV_A',
+        author: 'KUZNTSV_A',
         owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
