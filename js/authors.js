@@ -92,6 +92,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     GVRLK: { name: 'Гаврилюк Александр' },
+    GYKVCH: { name: 'Гайкович А.' },
     HSMTLN: { name: 'Хисматуллин Дамир' },
     ILVS: { name: 'Ильвес Константин' },
     IVNV_A: { name: 'Иванов А.' },
@@ -118,6 +119,7 @@ let authors = {
     KRYLS: { name: 'Саулюс Кирейлис' },
     KRNLJV: { name: 'Корнильев П.' },
     KRPLSN: { name: 'Карпельсон Александр' },
+    KRTSHV: { name: 'Крутышев В.А.' },
     KSNFNTVA: { name: 'Ксенофонтова А.' },
     KTS_JU: { name: 'Кац Юлия' },
     KVZN: {
@@ -137,6 +139,7 @@ let authors = {
     KZNTSV_V: { name: 'Кузнецов Владимир' },
     KZNTSVA_Z: { name: 'Кузнецова З.' },
     LMVA: { name: 'Ломова Ирина' },
+    LPTV_Y: { name: 'Лаптев Ю.' },
     LUK_V: { name: 'Люк Владимир' },
     LVCHV: {
         name: 'Левичев Александр',
@@ -174,7 +177,9 @@ let authors = {
     PRSCHPA: { name: 'Прищепа О.' },
     PSHKV: { name: 'Пашков Михаил' },
     PTRV_A: { name: 'Петров А.' },
+    PTRV_V: { name: 'Петров В.' },
     PTRNNA: { name: 'Петрянина О.' },
+    PYNN: { name: 'Паюнен В.' },
     RBKV_D: { name: 'Рябков Д.' },
     RDNV_B: { name: 'Родионов Богдан' },
     RDNV_I: { name: 'Родионов Иван' },

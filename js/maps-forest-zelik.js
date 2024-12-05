@@ -177,6 +177,14 @@ let zelikMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Зеленогорск, оз Щучье',
+        year: 2011,
+        url: './maps/forest/zelik/zelenogorsk_schuchye_2011.webp',
+        bounds: [[60.23789394042978, 29.747972488403324], [60.23252510072741, 29.815092086791996], [60.20374847695044, 29.736213684082035]],
+        author: ['SHRNN'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Зеленогорск - Комарово',
         year: 1992,
         url: './maps/forest/zelik/zelenogorsk_komarovo_1992.webp',

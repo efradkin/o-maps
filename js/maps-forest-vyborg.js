@@ -388,6 +388,15 @@ let vyborgMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Выборг, Анненские укреления',
+        year: 2017,
+        url: './maps/forest/vyborg/vyborg_annenskie_2017.webp',
+        bounds: [[60.721875475123724, 28.718798160552982], [60.72063717542608, 28.733968734741214], [60.71757270317024, 28.716931343078617]],
+        author: ['TKMKV_K','KVZN','KZNTSV_A'],
+        owner: 'NW',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Выборг, Батарейная гора',
         year: 2020,
         url: './maps/forest/vyborg/batarejnaya_gora_2020.webp',
@@ -402,6 +411,15 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/yuzhny_fort.webp',
         bounds: [[60.68845613981539, 28.770103454589847], [60.68627107175057, 28.792076110839847], [60.67126573142341, 28.76272201538086]],
         owner: 'KOSOR',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Возрождение',
+        year: 2024,
+        url: './maps/forest/vyborg/vozrozhdenie_2024.webp',
+        bounds: [[60.85099401743829, 28.860483169555668], [60.847084858357135, 28.902196884155277], [60.832572889193194, 28.85297298431397]],
+        author: ['TKMKV_K','KVZN'],
+        owner: 'NW',
         types: ['ORIENT'],
     },
     {
@@ -548,5 +566,14 @@ let vyborgMaps = [
         owner: 'KOSOR',
         types: ['ORIENT'],
         zindex: 2
+    },
+    {
+        name: 'Гаврилово',
+        year: 2014,
+        url: './maps/forest/vyborg/gavrilovo_2014.webp',
+        bounds: [[60.615975694756706, 29.031543731689457], [60.61422792656198, 29.05072689056397], [60.602622871964265, 29.027380943298343]],
+        author: 'DBRTSV_V',
+        owner: 'NW',
+        types: ['ORIENT'],
     },
 ];

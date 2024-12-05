@@ -3,6 +3,15 @@ let forestMaps = [
     // --- лесные карты ---
     {
         name: 'Цвелодубово',
+        year: 2020,
+        url: './maps/forest/tsvelodubovo_2020.webp',
+        bounds: [[60.390960544134856, 29.556913375854496], [60.38763141314447, 29.598112106323246], [60.36317201461962, 29.54730033874512]],
+        author: ['TKMKV_K','KVZN','NSNV','LPTV_Y'],
+        owner: 'NW',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Цвелодубово',
         year: 1986,
         url: './maps/forest/tsvelodubovo_1986.webp',
         link: './original_maps/forest/tsvelodubovo_1986_full.jpg',
@@ -229,6 +238,15 @@ let forestMaps = [
         link: './original_maps/forest/yappilya_1999_full.jpg',
         bounds: [[60.20214903505169, 29.16428089141846], [60.19801145030488, 29.23848152160645], [60.176163181510255, 29.15754318237305]],
         author: ['VLKV_K','URVNTSV','KRCHKN_V','FDRV_L'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Яппиля, оз Пистолет',
+        year: 1979,
+        url: './maps/forest/yappilya_pistolet_1979.webp',
+        link: './original_maps/forest/yappilya_pistolet_1979_full.jpg',
+        bounds: [[60.22353245455555, 29.121150970458988], [60.2216142724076, 29.172477722167972], [60.18412326764247, 29.114971160888675]],
+        author: ['KZNTSV_S','KZNTSVA_O','GYKVCH','PYNN','PTRV_V'],
         types: ['ORIENT'],
     },
     {
