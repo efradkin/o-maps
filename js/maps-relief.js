@@ -6,7 +6,7 @@ let reliefMaps = [
         url: './maps/relief/toksovo_origon_1.webp',
         link: './original_maps/relief/toksovo_origon_1_full.jpg',
         bounds: [[60.14966546452469, 30.491695404052734], [60.14599125046178, 30.532207489013675], [60.112605462220415, 30.483713150024418]],
-        author: ['CHGRVSKY_V'],
+        author: 'CHGRVSKY_V',
         types: ['ORIENT', 'RELIEF'],
     },
     {

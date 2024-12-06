@@ -532,10 +532,14 @@ function populateAuthor(map, a) {
         } else {
             author.count++;
         }
+        let area = map.area;
+        if (Array.isArray(map.author)) {
+            area /= map.author.length;
+        }
         if (!author.area) {
-            author.area = map.area;
+            author.area = area;
         } else {
-            author.area += map.area;
+            author.area += area;
         }
     }
 }
