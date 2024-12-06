@@ -37,6 +37,15 @@ let michuraMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Мичуринское',
+        year: 1991,
+        url: './maps/forest/michura/michurinskoe_sw_1991.webp',
+        link: './original_maps/forest/michura/michurinskoe_sw_1991_full.jpg',
+        bounds: [[60.59185655953876, 29.84169960021973], [60.5904657368445, 29.883327484130863], [60.56930098658817, 29.83818054199219]],
+        author: ['KNSTNTNV_D','EGRV_A'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Коробицыно',
         year: 2018,
         url: './maps/forest/michura/korobitsyno_2018.webp',

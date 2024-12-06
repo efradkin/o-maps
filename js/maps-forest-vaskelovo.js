@@ -29,6 +29,15 @@ let vaskelovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Орехово-Лемболово',
+        year: 1991,
+        url: './maps/forest/vaskelovo/lembolovo_orekhovo_1991.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_1991_full.jpg',
+        bounds: [[60.45539795142459, 30.237550735473636], [60.450615078418, 30.296087265014652], [60.426181815162266, 30.229568481445316]],
+        author: 'BYMKV',
+        types: ['ORIENT'],
+    },
+    {
         name: 'оз Силанде',
         year: 1992,
         url: './maps/forest/vaskelovo/silande_1992.webp',
@@ -223,6 +232,14 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/orekhovo_smorodinka_1999_full.jpg',
         bounds: [[60.472026707381744, 30.183219909667972], [60.467161667943785, 30.251798629760746], [60.44701687789359, 30.177211761474613]],
         author: ['KRCHKN_V','PLMNN','GLTV_V','GLTV_Y'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Орехово, т/б "Журавушка"',
+        year: 2009,
+        url: './maps/forest/vaskelovo/orekhovo_zhuravushka_2009.webp',
+        bounds: [[60.486469461686276, 30.296044349670414], [60.484524399472456, 30.319476127624515], [60.45960883612959, 30.28690338134766]],
+        author: ['MKHLV_A','SLBDNK'],
         types: ['ORIENT'],
     },
     {

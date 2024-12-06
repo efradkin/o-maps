@@ -169,6 +169,15 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, оз Щучье',
+        year: 1979,
+        url: './maps/forest/zelik/zelenogorsk_schuchye_1979.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_schuchye_1979_full.jpg',
+        bounds: [[60.226835727394075, 29.742650985717777], [60.22493905013458, 29.782862663269047], [60.20266086494259, 29.738616943359375]],
+        author: 'SPZHNKV_Y',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Зеленогорск, оз Щучье',
         year: 2005,
         url: './maps/forest/zelik/zelenogorsk_schuchye_2005.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_2005_full.jpg',

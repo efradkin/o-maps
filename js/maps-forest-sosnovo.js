@@ -33,7 +33,16 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/koloskovo_1987.webp',
         link: './original_maps/forest/sosnovo/koloskovo_1987_full.jpg',
         bounds: [[60.632964120663054, 30.16794204711914], [60.628249519190376, 30.268020629882816], [60.57566873393276, 30.15403747558594]],
-        author: ['ARTMV','BLZRV_V','URVNTSV'],
+        author: ['ARTMV','BLZRV_V','URVNTSV','MNV_Y','PRSCHPA'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Замостье',
+        year: 1999,
+        url: './maps/forest/sosnovo/zamostie_1999.webp',
+        link: './original_maps/forest/sosnovo/zamostie_1999_full.jpg',
+        bounds: [[60.538562137521424, 30.337886810302734], [60.538688781570556, 30.37153244018555], [60.51373033511651, 30.336771011352543]],
+        author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S'],
         types: ['ORIENT'],
     },
     {

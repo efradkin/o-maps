@@ -533,7 +533,7 @@ let cityMaps = [
     {
         name: 'Школа №217',
         year: 2012,
-        url: './maps/city/veteranov_2012.jpg',
+        url: './maps/city/veteranov_2012.webp',
         bounds: [[59.833440936715064, 30.164873600006107], [59.833354674113856, 30.1760745048523], [59.82424192853449, 30.164916515350345]],
         types: ['ORIENT', 'CITY'],
         author: 'TMKN',

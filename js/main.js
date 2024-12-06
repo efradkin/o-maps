@@ -482,7 +482,7 @@ function buildPopupText(map, latLngs) {
             result += '</ol>'
         } else {
             if (authors[map.author]) {
-                result += 'Автор-составитель: ' + authorLabel(authors[map.author]) + '.<br />';
+                result += 'Автор-составитель: ' + authorLabel(authors[map.author]) + '<br />';
                 populateAuthor(map, map.author);
             }
         }

@@ -1,6 +1,7 @@
 let authors = {
     ALNKVA: { name: 'Алейникова Екатерина' },
     ANDRV_E: { name: 'Андреев Е.' },
+    ANSFRV: { name: 'Анисифоров К.' },
     APTNKV: { name: 'Апатенков Сергей' },
     ARTMV: {
         name: 'Артемьев Юрий', //Михайлович
@@ -9,6 +10,7 @@ let authors = {
     AZBKNA: { name: 'Азбукина О.' },
     BBCH_A: { name: 'Бибич Андрей' },
     BBNN_I: { name: 'Бабанин И.' },
+    BBNNA_I: { name: 'Бабанина Ирина' },
     BGCHNS: { name: 'Багочюнас С.' },
     BKSTN: { name: 'Бакустин Игорь' },
     BNDRNK: {
@@ -56,6 +58,7 @@ let authors = {
     },
     DRSVNA: { name: 'Дресвина Е.' },
     DRZDVA: { name: 'Дроздова Е.' },
+    DVRKO_V: { name: 'Дворко Владимир' }, // Михайлович
     EGRV_A: { name: 'Егоров Андрей' },
     EGRV_E: { name: 'Егоров Е.' },
     EFRMV: { name: 'Ефремов Михаил' },
@@ -135,6 +138,7 @@ let authors = {
         name: 'Казанцева (Малова) Ольга', //Михайловна
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
+    KNSTNTNV_D: { name: 'Константинов Д.' },
     KUZNTSV_A: { name: 'Кузнецов Александр' },
     KUZNTSV_S: { name: 'Кузнецов Сергей' },
     KUZNTSV_V: { name: 'Кузнецов Владимир' },
@@ -149,6 +153,7 @@ let authors = {
     LSNNKV: { name: 'Лисененков А.' },
     MDVDKN: { name: 'Медведкин Г.' },
     MKHLV_A: { name: 'Михайлов Александр' },
+    MKHLV_B: { name: 'Михайлов Б.' },
     MLNKV_F: { name: 'Мельников Ф.' },
     MLNKV_L: { name: 'Маланков Леонид' },
     MLSHV_Y: { name: 'Малышев Ю.' },
@@ -157,6 +162,7 @@ let authors = {
         name: 'Малова Мария', //Михайловна
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
+    MNV_Y: { name: 'Минаев Ю.' },
     MNKV: { name: 'Минаков Александр' },
     MRSKA_I: { name: 'Мурская Эльза' },
     MRSKY_S: { name: 'Мурский Сергей' },
@@ -210,6 +216,7 @@ let authors = {
     SMRNV_A: { name: 'Смирнов А.' },
     SMV: { name: 'Сомов Никита' },
     SNTSNA: { name: 'Синицина Л.' },
+    SPZHNKV_Y: { name: 'Сапожников Ю.' },
     SRKN_A: { name: 'Сорокин А.' },
     SRBRNTSKY: {
         name: 'Серебряницкий Константин',
