@@ -88,7 +88,7 @@ const TOTAL_MAPS = oMaps.length;
 for (const m of oMaps) {
 
     // if (m.info && m.info.startsWith('ККП')) continue;
-    if (m.owner && m.owner === 'NW') {
+    if (m.hidden || (m.owner && m.owner === 'NW')) {
         m.url = './maps/olive.png';
     }
 

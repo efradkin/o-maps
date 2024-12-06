@@ -50,7 +50,8 @@ let sosnovoMaps = [
         year: 2006,
         url: './maps/forest/sosnovo/zamostie.webp',
         link: './original_maps/forest/sosnovo/zamostie_full.jpg',
-        bounds: [[60.54272002483506, 30.322780609130863], [60.539132031840055, 30.37779808044434], [60.51565252342285, 30.314540863037113]],
+        bounds: [[60.54394407261173, 30.314283370971683], [60.538118879447, 30.377626419067386], [60.51700432381264, 30.306472778320316]],
+        author: ['SHRNN','RYLOV_V'],
         types: ['ORIENT'],
     },
     {
@@ -132,7 +133,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/sosnovo_kalanchevka_2010.webp',
         link: './original_maps/forest/sosnovo/sosnovo_kalanchevka_2010.jpg',
         bounds: [[60.59151939590076, 30.304927825927738], [60.58566061576298, 30.37058830261231], [60.56419744911603, 30.294799804687504]],
-        author: 'SHRNN',
+        author: ['SHRNN','RYLOV_V'],
         types: ['ORIENT'],
     },
     {

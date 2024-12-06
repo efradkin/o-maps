@@ -21,7 +21,7 @@ let winterMaps = [
         year: 2013,
         url: './maps/winter/roschino_winter_2013.webp',
         bounds: [[60.27208897887721, 29.576182365417484], [60.27204641697717, 29.60000038146973], [60.26370321558072, 29.576439857482914]],
-        author: ['VSLVSKY','DRBSHV'],
+        author: 'SHRNN',
         types: ['ORIENT', 'WINTER'],
         zindex: 2
     },

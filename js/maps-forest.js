@@ -473,6 +473,15 @@ let forestMaps = [
         zindex: 2,
     },
     {
+        name: 'Парголовская лыжная трасса',
+        year: 2019,
+        url: './maps/forest/pargolovo_2020.webp',
+        bounds: [[60.07938915059505, 30.277998447418216], [60.07942125981127, 30.290057659149173], [60.073341357395044, 30.278856754302982]],
+        types: ['ORIENT'],
+        author: 'SHRNN',
+        zindex: 3,
+    },
+    {
         name: 'Барышево',
         year: 2022,
         url: './maps/forest/baryshevo_2022.webp',

@@ -12,6 +12,15 @@ let toksovoMaps = [
     },
     {
         name: 'Токсово, Малиновая гора',
+        year: 1983,
+        url: './maps/forest/toksovo/toksovo_malinovaya_gora_1983.webp',
+        link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_1983_full.jpg',
+        bounds: [[60.1867264159618, 30.454788208007816], [60.177038245151245, 30.50808906555176], [60.162308458713326, 30.439081192016605]],
+        author: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Токсово, Малиновая гора',
         year: 1997,
         url: './maps/forest/toksovo/toksovo_malinovaya_gora_1997.webp',
         link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_1997_full.jpg',
@@ -273,6 +282,15 @@ let toksovoMaps = [
         bounds: [[60.181669291321185, 30.533666610717777], [60.18063429849855, 30.543966293334964], [60.173559195700115, 30.530512332916263]],
         author: ['MNKV','TKMKVA_P','IVNVA_G'],
         owner: 'SFSO_SPB',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Кузьмолово',
+        year: 2004,
+        url: './maps/forest/toksovo/kuzmolovo_2004.webp',
+        bounds: [[60.1383851775022, 30.50937652587891], [60.1346455922666, 30.556454658508304], [60.106766952319965, 30.499806404113773]],
+        author: 'SHRNN',
+        owner: ['SHRNN','GLFSTRM'],
         types: ['ORIENT'],
     },
     {

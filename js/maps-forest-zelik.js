@@ -178,6 +178,15 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, оз Щучье',
+        year: 1986,
+        url: './maps/forest/zelik/zelenogorsk_schuchye_1986.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_schuchye_1986_full.jpg',
+        bounds: [[60.231544979485825, 29.739646911621097], [60.228263490678515, 29.806938171386722], [60.20647801103916, 29.734668731689457]],
+        author: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Зеленогорск, оз Щучье',
         year: 2005,
         url: './maps/forest/zelik/zelenogorsk_schuchye_2005.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_2005_full.jpg',
@@ -357,6 +366,14 @@ let zelikMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Рощино',
+        year: 2012,
+        url: './maps/forest/zelik/roschino_2012.webp',
+        bounds: [[60.27182296609358, 29.582598209381107], [60.271961293011, 29.601051807403568], [60.26382029051831, 29.582834243774418]],
+        author: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Пухтолова гора',
         year: 2009,
         url: './maps/forest/zelik/pukhtolova_gora_2009.webp',
@@ -423,6 +440,15 @@ let zelikMaps = [
         author: ['RYLOV_V','SHRNN','RDNV_I'],
         bounds: [[60.22485380363574, 29.951906204223636], [60.2185449475187, 30.032415390014652], [60.203663175350826, 29.946155548095707]],
         owner: 'RDNV_I',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Сестрорецкие Дюны',
+        year: 2019,
+        url: './maps/forest/zelik/sestroretskie_djuny_2019.webp',
+        bounds: [[60.129815556057196, 29.943172931671146], [60.126716265625745, 29.95851516723633], [60.12330670901339, 29.9383020401001]],
+        author: 'SHRNN',
+        owner: 'SHRNN',
         types: ['ORIENT'],
     },
     {
