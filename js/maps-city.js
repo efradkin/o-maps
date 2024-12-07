@@ -317,6 +317,15 @@ let cityMaps = [
         types: ['ORIENT', 'CITY'],
     },
     {
+        name: 'Коломна',
+        year: 2024,
+        url: './maps/city/kolomensky_island_2024.webp',
+        bounds: [[59.92382892931539, 30.27411460876465], [59.923914957454556, 30.287311077117923], [59.917064268663545, 30.274264812469486]],
+        author: 'GRBTNKV',
+        owner: 'WN',
+        types: ['ORIENT', 'CITY'],
+    },
+    {
         name: 'Любашинский сад',
         year: 2016,
         url: './maps/city/ljubashinsky_sad_2016.webp',
