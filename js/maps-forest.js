@@ -74,6 +74,7 @@ let forestMaps = [
     },
     {
         name: 'Стрельцово',
+        year: 2015,
         url: './maps/forest/streltsovo.webp',
         bounds: [[60.61690218407662, 29.277491569519047], [60.61747069844156, 29.308176040649418], [60.596618619933196, 29.27839279174805]],
         author: ['SHRNN','RYLOV_V'],
@@ -104,6 +105,15 @@ let forestMaps = [
         link: './original_maps/forest/yukki_1990_full.jpg',
         bounds: [[60.14936641593736, 30.269308090209964], [60.14577762073669, 30.33608436584473], [60.11012475663832, 30.2589225769043]],
         author: 'SHLKHN_Y',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Юкки, север',
+        year: 2007,
+        url: './maps/forest/yukki_north_2007.webp',
+        author: 'SHRNN',
+        owner: 'SHRNN',
+        bounds: [[60.1222271206045, 30.299735069274906], [60.12100853273321, 30.322694778442386], [60.11309730405933, 30.298447608947757]],
         types: ['ORIENT'],
     },
     {
@@ -464,6 +474,16 @@ let forestMaps = [
     },
     {
         name: 'Парголовская лыжная трасса',
+        year: 2007,
+        url: './maps/forest/pargolovo_2020.webp',
+        bounds: [[60.07938915059505, 30.277998447418216], [60.07942125981127, 30.290057659149173], [60.073341357395044, 30.278856754302982]],
+        types: ['ORIENT'],
+        author: 'SHRNN',
+        owner: 'SHRNN',
+        zindex: 3,
+    },
+    {
+        name: 'Парголовская лыжная трасса',
         year: 2021,
         url: './maps/forest/pargolovo_2021.webp',
         owner: 'SFSO_SPB',
@@ -471,15 +491,6 @@ let forestMaps = [
         types: ['ORIENT'],
         author: 'DBRTSV_V',
         zindex: 2,
-    },
-    {
-        name: 'Парголовская лыжная трасса',
-        year: 2019,
-        url: './maps/forest/pargolovo_2020.webp',
-        bounds: [[60.07938915059505, 30.277998447418216], [60.07942125981127, 30.290057659149173], [60.073341357395044, 30.278856754302982]],
-        types: ['ORIENT'],
-        author: 'SHRNN',
-        zindex: 3,
     },
     {
         name: 'Барышево',

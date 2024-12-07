@@ -79,6 +79,7 @@ let priozerskMaps = [
     },
     {
         name: 'Балахановское оз',
+        year: 2012,
         url: './maps/forest/priozersk/balakhanovskoe.webp',
         bounds: [[60.82533535415073, 29.795951843261722], [60.81843097676924, 29.901695251464847], [60.75664380010026, 29.780330657958988]],
         author: 'SHRNN',

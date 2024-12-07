@@ -172,7 +172,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'Орехово-запад',
-        year: 2011,
+        year: 2013,
         url: './maps/forest/vaskelovo/orekhovo_west_2011.webp',
         bounds: [[60.47733511396385, 30.23797988891602], [60.47570673097479, 30.26265621185303], [60.460730235956845, 30.233860015869144]],
         author: 'SHRNN',
@@ -244,6 +244,15 @@ let vaskelovoMaps = [
     },
     {
         name: 'Орехово, оз Ветренное',
+        year: 2002,
+        url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2015.webp',
+        bounds: [[60.50449801766844, 30.28887748718262], [60.49921518862048, 30.354194641113285], [60.47249202076819, 30.27917861938477]],
+        author: 'SHRNN',
+        owner: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Орехово, оз Ветренное',
         year: 2022,
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2022.webp',
         bounds: [[60.506948957921466, 30.276346206665043], [60.49739769638699, 30.365867614746097], [60.48162773195609, 30.26570320129395]],
@@ -253,7 +262,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'Пески, оз Пулконлампи',
-        year: 2001,
+        year: 1999,
         url: './maps/forest/vaskelovo/peski_pulkonlampi_2001.webp',
         link: './original_maps/forest/vaskelovo/peski_pulkonlampi_2001_full.jpg',
         info: 'Мемориал Михаила Святкина, 2001',
@@ -263,7 +272,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'Пески, Забытое оз',
-        year: 2001,
+        year: 1999,
         url: './maps/forest/vaskelovo/peski_zabytoe_2001.webp',
         link: './original_maps/forest/vaskelovo/peski_zabytoe_2001_full.jpg',
         info: 'Мемориал Михаила Святкина, 2001',
@@ -273,7 +282,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'Пески, оз Стайка',
-        year: 2001,
+        year: 1999,
         url: './maps/forest/vaskelovo/peski_stayka_2001.webp',
         link: './original_maps/forest/vaskelovo/peski_stayka_2001_full.jpg',
         info: 'Мемориал Михаила Святкина, 2001',

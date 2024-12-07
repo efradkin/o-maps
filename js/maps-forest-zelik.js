@@ -196,10 +196,11 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, оз Щучье',
-        year: 2011,
+        year: 2000,
         url: './maps/forest/zelik/zelenogorsk_schuchye_2011.webp',
         bounds: [[60.23789394042978, 29.747972488403324], [60.23252510072741, 29.815092086791996], [60.20374847695044, 29.736213684082035]],
-        author: ['SHRNN'],
+        author: 'SHRNN',
+        owner: 'SHRNN',
         types: ['ORIENT'],
     },
     {
@@ -337,7 +338,7 @@ let zelikMaps = [
     },
     {
         name: 'Комарово',
-        year: 1990,
+        year: 1985,
         url: './maps/forest/zelik/komarovo_1990.webp',
         link: './original_maps/forest/zelik/komarovo_1990_full.jpg',
         bounds: [[60.18559556540752, 29.80496406555176], [60.175245406790275, 29.856591224670414], [60.17349516066162, 29.794921875000004]],
