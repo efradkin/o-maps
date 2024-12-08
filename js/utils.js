@@ -35,6 +35,14 @@ function getImageOverlaysInView(total) {
     return imgs.length;
 }
 
+function getMapType(fileName) {
+    for (const m of oMaps) {
+        if (m.url.includes(fileName)) {
+            return m.types;
+        }
+    }
+}
+
 function upZindex(ovrl) {
     maxZindex++;
     let zIndex = ovrl.getElement().style.zIndex;

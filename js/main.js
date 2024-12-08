@@ -111,6 +111,16 @@ if (mapElement) {
     if (!MAP_NAME_PARAM) {
         savedState = loadMapState();
     }
+    let layers = [
+        osmMap, parkGroup, cityGroup, forestGroup, reliefGroup, winterGroup, veloGroup,
+        group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
+    ];
+    if (MAP_NAME_PARAM) {
+        let mapType = getMapType(MAP_NAME_PARAM);
+        if (mapType && mapType.includes('ROGAINE')) {
+            layers = [osmMap, rogaineGroup];
+        }
+    }
     map = L.map('map', {
         attributionControl: false,
         zoomControl: false,
@@ -118,10 +128,7 @@ if (mapElement) {
         maxZoom: 16,
         center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
         zoom: savedState ? savedState.zoom : defaultZoom,
-        layers: [
-            osmMap, parkGroup, cityGroup, forestGroup, reliefGroup, winterGroup, veloGroup,
-            group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
-        ],
+        layers: layers,
         contextmenu: true,
         contextmenuWidth: 160,
         contextmenuItems: [{
