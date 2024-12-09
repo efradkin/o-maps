@@ -101,13 +101,14 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/vsfersh.html'
     },
     GLK: { name: 'Голик Елена' },
+    GLV_N: { name: 'Гуляев Н.' },
+    GLVNV_V: { name: 'Голованов В.' },
+    GLTV_D: { name: 'Глотов Дмитрий' },
+    GLTV_V: { name: 'Гультяев Вячеслав' },
     GLTV_Y: {
         name: 'Гультяев Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
-    GLTV_V: { name: 'Гультяев Вячеслав' },
-    GLV_N: { name: 'Гуляев Н.' },
-    GLVNV_V: { name: 'Голованов В.' },
     GRBTNKV: {
         name: 'Горбатенков Игорь',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
