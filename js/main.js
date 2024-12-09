@@ -348,7 +348,9 @@ function loadMap(m) {
             alt: m.name
         });
 
-    m.area = getArea(latLngs);
+    if (!m.area) {
+        m.area = getArea(latLngs);
+    }
 
     // map popup
     let popup = buildPopupText(m, latLngs);

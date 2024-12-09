@@ -4,6 +4,7 @@ let toksovoMaps = [
     {
         name: 'оз Хепоярви, восток',
         year: 1985,
+        area: 5,
         url: './maps/forest/toksovo/hepojarvi_east_1985.webp',
         link: './original_maps/forest/toksovo/hepojarvi_east_1985_full.jpg',
         bounds: [[60.19342537315118, 30.609111785888675], [60.18996939397238, 30.662240982055668], [60.14898192089998, 30.59872627258301]],
@@ -13,6 +14,7 @@ let toksovoMaps = [
     {
         name: 'Токсово, Малиновая гора',
         year: 1983,
+        area: 3,
         url: './maps/forest/toksovo/toksovo_malinovaya_gora_1983.webp',
         link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_1983_full.jpg',
         bounds: [[60.1867264159618, 30.454788208007816], [60.177038245151245, 30.50808906555176], [60.162308458713326, 30.439081192016605]],
@@ -156,6 +158,7 @@ let toksovoMaps = [
     {
         name: 'Токсово, запад Хепоярви',
         year: 1989,
+        area: 3.5,
         url: './maps/forest/toksovo/toksovo_hepojarvi_west_1987.webp',
         link: './original_maps/forest/toksovo/toksovo_hepojarvi_west_1987_full.jpg',
         bounds: [[60.19636906842321, 30.543708801269535], [60.192700074357255, 30.589456558227543], [60.15790959006861, 30.53400993347168]],
@@ -263,6 +266,7 @@ let toksovoMaps = [
     {
         name: 'Токсово - Кавголово',
         year: 1989,
+        area: 3,
         url: './maps/forest/toksovo/kavgolovo_1989.webp',
         link: './original_maps/forest/toksovo/kavgolovo_1989_full.jpg',
         bounds: [[60.19180409489582, 30.51589965820313], [60.18749451865291, 30.55778503417969], [60.15585943074604, 30.507745742797855]],
@@ -453,6 +457,7 @@ let toksovoMaps = [
     {
         name: 'Токсово, ВИФК - Химаколово',
         year: 2020,
+        area: 11,
         url: './maps/forest/toksovo/toksovo_vifk_khimakolovo_2020.webp',
         bounds: [[60.22067645362063, 30.563192367553714], [60.209463178924935, 30.674858093261722], [60.17605646483715, 30.546026229858402]],
         author: ['CHGRVSKY_Y','CHGRVSKY_V'],

@@ -29,6 +29,7 @@ let winterMaps = [
     {
         name: 'Кузьмолово',
         year: 2003,
+        area: 1.5,
         url: './maps/winter/kuzmolovo_2003.webp',
         link: './original_maps/winter/kuzmolovo_2003_full.jpg',
         bounds: [[60.12306086526154, 30.505256652832035], [60.119426439074296, 30.552077293396], [60.106745563934105, 30.500020980834964]],

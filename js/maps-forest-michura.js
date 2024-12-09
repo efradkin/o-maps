@@ -132,6 +132,7 @@ let michuraMaps = [
     {
         name: 'Мичуринское',
         year: 2022,
+        area: 60,
         url: './maps/forest/michura/michurinskoe_2022.webp',
         bounds: [[60.66720846469397, 29.79578018188477], [60.637257175831714, 30.08914947509766], [60.57735534424474, 29.758701324462894]],
         author: ['MKHLV_A','GVRLK','SLBDNK','ILVS','GRBTNKV','TRNV_V'],
@@ -187,6 +188,7 @@ let michuraMaps = [
     {
         name: 'Тихое оз',
         year: 2024,
+        area: 3.5,
         url: './maps/forest/michura/tikhoe_2024.webp',
         bounds: [[60.65156323132944, 29.6381950378418], [60.64609401883211, 29.728059768676758], [60.63304830371036, 29.633388519287113]],
         author: ['MKHLV_A','SLBDNK'],

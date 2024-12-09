@@ -80,6 +80,7 @@ let priozerskMaps = [
     {
         name: 'Балахановское оз',
         year: 2012,
+        area: 10,
         url: './maps/forest/priozersk/balakhanovskoe.webp',
         bounds: [[60.82533535415073, 29.795951843261722], [60.81843097676924, 29.901695251464847], [60.75664380010026, 29.780330657958988]],
         author: 'SHRNN',
@@ -106,6 +107,7 @@ let priozerskMaps = [
     {
         name: 'Кузнечное - Сопкино оз',
         year: 1984,
+        area: 1.5,
         url: './maps/forest/priozersk/kuznechnoe_sopkino_1984.webp',
         link: './original_maps/forest/kuznechnoe_sopkino_1984_full.jpg',
         bounds: [[61.158185682196546, 29.812302589416507], [61.15619822139052, 29.851055145263675], [61.13834687040916, 29.807324409484867]],
@@ -142,6 +144,7 @@ let priozerskMaps = [
     {
         name: 'Кузнечное - запад',
         year: 2008,
+        area: 25,
         url: './maps/forest/priozersk/kuznechnoe_west_2008.webp',
         link: './original_maps/forest/kuznechnoe_2008_full.pdf',
         bounds: [[61.15810287382887, 29.742393493652347], [61.14389802382198, 29.939460754394535], [61.083819196139416, 29.71887588500977]],
