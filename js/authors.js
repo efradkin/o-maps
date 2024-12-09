@@ -29,11 +29,17 @@ let authors = {
     BRGNTS: { name: 'Бригинец Константин' },
     BRNVA: { name: 'Баранова В.' },
     BRDR: { name: 'Бердар Азиз' },
-    BVZ: { name: 'Бевза Татьяна' },
-    BSTRV_A: { name: 'Быстров А.' },
     BRSVA_I: { name: 'Борисова И.' },
-    BZNV_A: { name: 'Базанов Алексей' },
-    BZNVA_E: { name: 'Базанова Е.' },
+    BSTRV_A: { name: 'Быстров А.' },
+    BVZ: { name: 'Бевза Татьяна' },
+    BZNV_A: {
+        name: 'Базанов Алексей',
+        about: 'https://o-site.spb.ru/history/Peoples/bazanov.html'
+    },
+    BZNVA_E: {
+        name: 'Базанова Елена',
+        about: 'https://o-site.spb.ru/history/Peoples/bazanova.html'
+    },
     BYMKV: {
         name: 'Баймаков Владимир', //Михайлович
         about: 'https://o-site.spb.ru/history/Peoples/baimakov.html'
@@ -43,11 +49,20 @@ let authors = {
         name: 'Чегаровский Виталий',
         about: 'https://ar-info.ru/articles/?id_article_full=176'
     },
-    CHGRVSKY_Y: { name: 'Чегаровский Юрий' },
+    CHGRVSKY_Y: {
+        name: 'Чегаровский Юрий',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
     CHKVSKY_N: { name: 'Чайковский Н.' },
     CHSNKV: { name: 'Чесноков А.' },
-    DBRTSV_S: { name: 'Добрецов Сергей' },
-    DBRTSV_V: { name: 'Добрецов Виктор' },
+    DBRTSV_S: {
+        name: 'Добрецов Сергей',
+        about: 'https://o-site.spb.ru/history/Peoples/sergd.html'
+    },
+    DBRTSV_V: {
+        name: 'Добрецов Виктор',
+        about: 'https://o-site.spb.ru/history/Peoples/vd.html'
+    },
     DJCHKV: {
         name: 'Дьячков Виктор',
         about: 'https://infosport.ru/person/orientirovanie-cportivnoe/dyachkov-viktor-vasilevich'
@@ -62,9 +77,16 @@ let authors = {
     EGRV_A: { name: 'Егоров Андрей' },
     EGRV_E: { name: 'Егоров Е.' },
     EFRMV: { name: 'Ефремов Михаил' },
+    ELTSV: {
+        name: 'Ельцов Денис',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
     ELZRV: { name: 'Елизаров В.' },
     FDRV_A: { name: 'Фёдоров Алексей' },
-    FDRV_L: { name: 'Фёдоров Леонид' },
+    FDRV_L: {
+        name: 'Фёдоров Леонид',
+        about: 'https://o-site.spb.ru/history/Peoples/leonfed.html'
+    },
     FDTV_A: { name: 'Федотов А.' },
     FLCHKN: { name: 'Филичкин Н.' },
     FRSHLV: {
@@ -88,9 +110,15 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     GRSMVA: { name: 'Герасимова Н.' },
-    GRV_K: { name: 'Горев К.' },
+    GRV_K: {
+        name: 'Горев Кирилл',
+        about: 'https://o-site.spb.ru/history/Peoples/gorev.html'
+    },
     GRV_S: { name: 'Гурьев С.' },
-    GRZNVCH: { name: 'Грязневич М.' },
+    GRZNVCH: {
+        name: 'Грязневич Михаил',
+        about: 'https://o-site.spb.ru/history/Peoples/mgrazn.html'
+    },
     GUSEV: {
         name: 'Гусев Илья',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -98,11 +126,25 @@ let authors = {
     GVRLK: { name: 'Гаврилюк Александр' },
     GYKVCH: { name: 'Гайкович А.' },
     HSMTLN: { name: 'Хисматуллин Дамир' },
-    ILVS: { name: 'Ильвес Константин' },
+    ILVS: {
+        name: 'Ильвес Константин',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
     IVNV_A: { name: 'Иванов А.' },
     IVNV_P: { name: 'Иванов Павел' },
-    IVNV_V: { name: 'Иванов В.' },
+    IVNV_V: {
+        name: 'Иванов Владимир',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
     IVNVA_G: { name: 'Иванова Галина' },
+    KAZNTSV_S: {
+        name: 'Казанцев Сергей', //Александрович
+        about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
+    },
+    KAZNTSVA_O: {
+        name: 'Казанцева (Малова) Ольга', //Михайловна
+        about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
+    },
     KBZRV: { name: 'Кобзарёв Александр' },
     KCHTV: { name: 'Кочетов А.' },
     KHDNKCH: { name: 'Худеньких Ю.' },
@@ -130,22 +172,23 @@ let authors = {
         name: 'Ковязин Александр', //Николаевич
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
-    KAZNTSV_S: {
-        name: 'Казанцев Сергей', //Александрович
-        about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
-    },
-    KAZNTSVA_O: {
-        name: 'Казанцева (Малова) Ольга', //Михайловна
-        about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
-    },
     KNSTNTNV_D: { name: 'Константинов Д.' },
     KUZNTSV_A: { name: 'Кузнецов Александр' },
-    KUZNTSV_S: { name: 'Кузнецов Сергей' },
-    KUZNTSV_V: { name: 'Кузнецов Владимир' },
+    KUZNTSV_S: {
+        name: 'Кузнецов Сергей',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
+    KUZNTSV_V: {
+        name: 'Кузнецов Владимир',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
     KUZNTSVA_Z: { name: 'Кузнецова З.' },
     LMVA: { name: 'Ломова Ирина' },
     LPTV_Y: { name: 'Лаптев Ю.' },
-    LUK_V: { name: 'Люк Владимир' },
+    LUK_V: {
+        name: 'Люк Владимир',
+        about: 'https://rufso.ru/wp-content/uploads/2020/01/azimut_2_2019_all.pdf'
+    },
     LVCHV: {
         name: 'Левичев Александр',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -153,7 +196,10 @@ let authors = {
     LSNNKV: { name: 'Лисененков А.' },
     MDVDKN: { name: 'Медведкин Г.' },
     MKHLV_A: { name: 'Михайлов Александр' },
-    MKHLV_B: { name: 'Михайлов Б.' },
+    MKHLV_B: {
+        name: 'Михайлов Борис',
+        about: 'https://o-site.spb.ru/history/Peoples/bam.html'
+    },
     MLNKV_F: { name: 'Мельников Ф.' },
     MLNKV_L: { name: 'Маланков Леонид' },
     MLSHV_Y: { name: 'Малышев Ю.' },
@@ -165,19 +211,28 @@ let authors = {
     MNV_Y: { name: 'Минаев Ю.' },
     MNKV: { name: 'Минаков Александр' },
     MRSKA_I: { name: 'Мурская Эльза' },
-    MRSKY_S: { name: 'Мурский Сергей' },
+    MRSKY_S: {
+        name: 'Мурский Сергей',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
     MRVNK_D: { name: 'Муравник Дмитрий' },
     MSLVA: { name: 'Маслова Евгения' },
     MSKV: { name: 'Москов Игорь' },
     MSPN: { name: 'Мосьпан Олеся' },
     MTRNCHV: { name: 'Матреничев Вячеслав' },
     NGN: { name: 'Негин С.' },
-    NSNV: { name: 'Несынов Сергей' },
+    NSNV: {
+        name: 'Несынов Сергей',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
     NKFRV: { name: 'Никифоров Андрей' },
     ORLV: { name: 'Орлов Александр' },
     OSMCHN: { name: 'Осмехин А.' },
     OSTPNK: { name: 'Остапенко В.' },
-    OVTCHNNKV: { name: 'Овчинников Юрий' },
+    OVTCHNNKV: {
+        name: 'Овчинников Юрий',
+        about: 'https://o-site.spb.ru/history/Peoples/yurov.html'
+    },
     PKHMV: { name: 'Пахомов С.' },
     PLMNN: { name: 'Пульманен П.' },
     PPV_D: { name: 'Попов Дмитрий' },
@@ -205,7 +260,7 @@ let authors = {
     SHKLV: { name: 'Шкилев Виталий' },
     SHRNN: {
         name: 'Ширинян Александр', //Альбертович
-        about: 'https://spbof.ru/ru/8-news/31-a-a-shirinyan-idealnykh-kart-ne-byvaet-lyudi-vidyat-ob-ekty-po-raznomu'
+        about: 'https://o-site.spb.ru/history/Peoples/shar.html' //https://spbof.ru/ru/8-news/31-a-a-shirinyan-idealnykh-kart-ne-byvaet-lyudi-vidyat-ob-ekty-po-raznomu
     },
     SHVR: {
         name: 'Швер Евгений',
@@ -216,7 +271,10 @@ let authors = {
     SMRNV_A: { name: 'Смирнов А.' },
     SMV: { name: 'Сомов Никита' },
     SNTSNA: { name: 'Синицина Л.' },
-    SPZHNKV_Y: { name: 'Сапожников Ю.' },
+    SPZHNKV_Y: {
+        name: 'Сапожников Юрий',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
     SRKN_A: { name: 'Сорокин А.' },
     SRBRNTSKY: {
         name: 'Серебряницкий Константин',
@@ -249,7 +307,10 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/temkin.html'
     },
     TRNV_V: { name: 'Трунов В.' },
-    TRSV: { name: 'Тарасов Б.' },
+    TRSV: {
+        name: 'Тарасов Борис',
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+    },
     TNV: { name: 'Танаев А.' },
     TRSK: { name: 'Тарасюк Виктория' },
     URVNTSV: {

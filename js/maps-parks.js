@@ -68,6 +68,7 @@ let parkMaps = [
         url: './maps/parks/polezhaevsky_2015.webp',
         bounds: [[59.84651791838533, 30.179958343505863], [59.84528913795502, 30.21223068237305], [59.83302040442371, 30.177898406982425]],
         types: ['ORIENT', 'PARK'],
+        author: 'ELTSV',
         owner: 'ELTSV',
     },
     {
