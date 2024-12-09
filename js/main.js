@@ -533,20 +533,22 @@ function buildPopupText(map, latLngs) {
 
 function populateAuthor(map, a) {
     if (isOrientMap(map)) {
-        let author = authors[a];
-        if (!author.count) {
-            author.count = 1;
-        } else {
-            author.count++;
-        }
-        let area = map.area;
-        if (Array.isArray(map.author)) {
-            area /= map.author.length;
-        }
-        if (!author.area) {
-            author.area = area;
-        } else {
-            author.area += area;
+        if (!map.excluded) {
+            let author = authors[a];
+            if (!author.count) {
+                author.count = 1;
+            } else {
+                author.count++;
+            }
+            let area = map.area;
+            if (Array.isArray(map.author)) {
+                area /= map.author.length;
+            }
+            if (!author.area) {
+                author.area = area;
+            } else {
+                author.area += area;
+            }
         }
     }
 }

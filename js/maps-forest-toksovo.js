@@ -258,6 +258,15 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Токсово - Кавголово',
+        year: 1989,
+        url: './maps/forest/toksovo/kavgolovo_1989.webp',
+        link: './original_maps/forest/toksovo/kavgolovo_1989_full.jpg',
+        bounds: [[60.19180409489582, 30.51589965820313], [60.18749451865291, 30.55778503417969], [60.15585943074604, 30.507745742797855]],
+        author: ['SHRNN','MKHLV_B','CHGRVSKY_Y','DBRTSV_V','DJKV','PTRNNA','SMNA'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Кавголово, старый лыжедром',
         year: 1988,
         url: './maps/forest/toksovo/kavgolovo_old_ski_track_1988.webp',

@@ -261,4 +261,13 @@ let rogaineMaps = [
         owner: 'WN',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Поляны',
+        year: 2005,
+        url: './maps/rogaine/polyany_2005.webp',
+        link: './original_maps/rogaine/polyany_2005_full.jpg',
+        bounds: [[60.31081861962197, 29.285559654235843], [60.310457270040814, 29.327015876770023], [60.28706732816777, 29.282040596008304]],
+        author: 'MKHLV_B',
+        types: ['ROGAINE'],
+    },
 ];

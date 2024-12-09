@@ -12,6 +12,7 @@ let authors = {
     BBNN_I: { name: 'Бабанин И.' },
     BBNNA_I: { name: 'Бабанина Ирина' },
     BGCHNS: { name: 'Багочюнас С.' },
+    BGNV: { name: 'Богунов О.' },
     BKSTN: { name: 'Бакустин Игорь' },
     BNDRNK: {
         name: 'Бондаренко Игорь',
@@ -30,6 +31,7 @@ let authors = {
     BRNVA: { name: 'Баранова В.' },
     BRDR: { name: 'Бердар Азиз' },
     BRSVA_I: { name: 'Борисова И.' },
+    BRTNK: { name: 'Бортник В.' },
     BSTRV_A: { name: 'Быстров А.' },
     BVZ: { name: 'Бевза Татьяна' },
     BZNV_A: {
@@ -67,6 +69,7 @@ let authors = {
         name: 'Дьячков Виктор',
         about: 'https://infosport.ru/person/orientirovanie-cportivnoe/dyachkov-viktor-vasilevich'
     },
+    DJKV: { name: 'Дьяков А.' },
     DRBSHV: {
         name: 'Дробышев Сергей',
         about: 'https://o-site.spb.ru/history/Peoples/sedr.html'
@@ -109,6 +112,7 @@ let authors = {
         name: 'Горбатенков Игорь',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    GRKHVSKY: { name: 'Граховский В.' },
     GRSMVA: { name: 'Герасимова Н.' },
     GRV_K: {
         name: 'Горев Кирилл',
@@ -268,6 +272,7 @@ let authors = {
     },
     SLBDNK: { name: 'Слободянюк Роман' },
     SMLGS: { name: 'Андрюс Смилгюс' },
+    SMNA: { name: 'Симина М.' },
     SMRNV_A: { name: 'Смирнов А.' },
     SMV: { name: 'Сомов Никита' },
     SNTSNA: { name: 'Синицина Л.' },
