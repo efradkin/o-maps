@@ -123,6 +123,7 @@ let parkMaps = [
         url: './maps/parks/sosnovka_1981.webp',
         link: './original_maps/parks/sosnovka_1981_full.jpg',
         bounds: [[60.0331730192314, 30.33157825469971], [60.0316081431942, 30.36882877349854], [60.01155831217308, 30.327758789062504]],
+        author: ['SHLKHN_Y','BZNV_A'],
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -440,6 +441,7 @@ let parkMaps = [
         url: './maps/parks/gatchina_zverinets_1986.webp',
         link: './original_maps/parks/gatchina_zverinets_1986_full.jpg',
         bounds: [[59.5939719186284, 30.07962226867676], [59.591712909974746, 30.124168395996097], [59.563245091244305, 30.073528289794925]],
+        author: 'BYMKV', //Не 100%., надо бы уточнить
         types: ['ORIENT', 'PARK'],
     },
     {
@@ -524,6 +526,7 @@ let parkMaps = [
         year: 2021,
         url: './maps/parks/krestovsky_2021.jpg',
         bounds: [[59.97625394315225, 30.23162841796875], [59.974686371680654, 30.249352455139164], [59.969854348897655, 30.229310989379886]],
+        author: ['DBRTSV_V','FDRV_I'],
         owner: 'GLFSTRM',
         types: ['ORIENT', 'PARK'],
     },

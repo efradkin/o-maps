@@ -44,6 +44,7 @@ let forestMaps = [
         url: './maps/forest/tsvelodubovo_south.webp',
         link: './original_maps/forest/tsvelodubovo_south_full.jpg',
         bounds: [[60.37602980735656, 29.55107688903809], [60.37267793444899, 29.62626457214356], [60.3478039073735, 29.54455375671387]],
+        author: ['MLVA_M','KAZNTSVA_O'],
         types: ['ORIENT'],
     },
     {
@@ -96,6 +97,7 @@ let forestMaps = [
         url: './maps/forest/yukki_1988.webp',
         link: './original_maps/forest/yukki_1988_full.jpg',
         bounds: [[60.135008884902504, 30.266046524047855], [60.13039263307473, 30.35831451416016], [60.10319489936693, 30.259780883789066]],
+        author: ['SHLKHN_Y','BZNV_A'],
         types: ['ORIENT'],
     },
     {
@@ -194,6 +196,7 @@ let forestMaps = [
         url: './maps/forest/vartemjagi_1990.webp',
         link: './original_maps/forest/vartemjagi_1990_full.jpg',
         bounds: [[60.162287106404065, 30.295014381408695], [60.16510549128062, 30.34574031829834], [60.13069185421074, 30.301022529602054]],
+        author: ['SHLKHN_Y','BZNV_A'],
         types: ['ORIENT'],
     },
     {
@@ -319,6 +322,7 @@ let forestMaps = [
         url: './maps/forest/polyany_1977.webp',
         link: './original_maps/forest/polyany_1977_full.jpg',
         bounds: [[60.33761111363023, 29.254531860351566], [60.33395792081405, 29.298133850097656], [60.30790645342296, 29.24534797668457]],
+        author: 'MLVA_M',
         types: ['ORIENT'],
     },
     {
@@ -408,6 +412,7 @@ let forestMaps = [
         link: './original_maps/forest/pervomayskoe_chervonnoe_2006_full.jpg',
         info: 'Кубок России по СРП',
         bounds: [[60.42253854239894, 29.675359725952152], [60.41753896892244, 29.75303649902344], [60.395370588437366, 29.668235778808597]],
+        author: ['RYLOV_V','SHRNN','MKHLV_A'], //Гибрид карт Рылова, Шириняна и бригады Михайлова А.
         types: ['ORIENT'],
     },
     {
@@ -456,10 +461,20 @@ let forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Первомайское, окраина',
+        year: 2016,
+        url: './maps/forest/pervomayskoe_hill_2016.webp',
+        bounds: [[60.36097549822987, 29.71784591674805], [60.36019023423638, 29.726278781890873], [60.35531905260248, 29.718253612518314]],
+        author: 'SHRNN',
+        owner: 'KOSOR',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Вещево, заброшенный аэродром',
         year: 2021,
         url: './maps/forest/veschevo_2021.webp',
         bounds: [[60.68982173198891, 29.154109954833988], [60.68667027795842, 29.189515113830566], [60.666514683959356, 29.145269393920902]],
+        author: ['CHGRVSKY_V','CHGRVSKY_Y'],
         owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },

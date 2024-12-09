@@ -3,9 +3,10 @@ let winterMaps = [
     // --- зимние ---
     {
         name: 'Лемболово',
-        year: 2019,
+        year: 2019, // карта явно более ранняя
         url: './maps/winter/lembolovo_winter_2019.webp',
         bounds: [[60.42351294603261, 30.3063440322876], [60.420420172898, 30.34084796905518], [60.40628711821687, 30.30089378356934]],
+        author: ['DBRTSV_V','CHGRVSKY_Y'], //Возможно и Баймакова, надо уточнить
         types: ['ORIENT', 'WINTER'],
     },
     {
@@ -47,6 +48,7 @@ let winterMaps = [
         name: 'Зеленогорск - Чёрные озёра',
         url: './maps/winter/zelenogorsk_chernye_winter.webp',
         bounds: [[60.25463395700811, 29.77681159973145], [60.25224913383907, 29.816293716430668], [60.22557839180962, 29.768142700195316]],
+        author: ['SHRNN','KUZNTSV_S','VLKV_M'],
         types: ['ORIENT', 'WINTER'],
     },
     {

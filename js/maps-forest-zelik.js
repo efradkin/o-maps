@@ -79,6 +79,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/simagino_south_1988.webp',
         link: './original_maps/forest/zelik/simagino_south_1988_full.jpg',
         bounds: [[60.26732170189634, 29.790716171264652], [60.2643843729839, 29.852600097656254], [60.24032241226889, 29.78479385375977]],
+        author: 'TRSV',
         types: ['ORIENT'],
     },
     {
@@ -87,6 +88,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/simagino_1988.webp',
         link: './original_maps/forest/zelik/simagino_1988_full.jpg',
         bounds: [[60.29263990581418, 29.78702545166016], [60.291066067917924, 29.839553833007816], [60.25765732238409, 29.783849716186527]],
+        author: 'TRSV',
         types: ['ORIENT'],
     },
     {
@@ -364,6 +366,7 @@ let zelikMaps = [
         year: 2009,
         url: './maps/forest/zelik/roschino_2009.webp',
         bounds: [[60.27634488928318, 29.564423561096195], [60.27542991526678, 29.601931571960453], [60.263298771665085, 29.562621116638187]],
+        author: ['VSLVSKY','DRBSHV'],
         types: ['ORIENT'],
     },
     {
@@ -376,9 +379,10 @@ let zelikMaps = [
     },
     {
         name: 'Пухтолова гора',
-        year: 2009,
+        year: 2009, //Реально более ранняя
         url: './maps/forest/zelik/pukhtolova_gora_2009.webp',
         bounds: [[60.24266550392609, 29.629054069519047], [60.23987507571899, 29.678277969360355], [60.22879622224008, 29.625406265258793]],
+        author: ['BLZRV_V','URVNTSV','NKFRV'],
         types: ['ORIENT'],
     },
     {
@@ -572,6 +576,7 @@ let zelikMaps = [
         year: 2024,
         url: './maps/forest/zelik/pastorskoe_2024.webp',
         bounds: [[60.25263242070603, 29.988126754760746], [60.24522141278221, 30.060052871704105], [60.22809301475002, 29.97756958007813]],
+        author: ['CHGRVSKY_V','CHGRVSKY_V'],
         owner: 'SFSO_SPB',
         types: ['ORIENT'],
         zindex: 2
@@ -582,6 +587,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/molodezhnoe_2003.webp',
         link: './original_maps/forest/zelik/molodezhnoe_2003_full.jpg',
         bounds: [[60.203002080434125, 29.531786441802982], [60.20167985063764, 29.54835176467896], [60.19703029698733, 29.530413150787357]],
+        author: 'SHKLV', //Возможны соавторы
         types: ['ORIENT'],
     },
 ];

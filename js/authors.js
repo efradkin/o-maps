@@ -86,6 +86,7 @@ let authors = {
     },
     ELZRV: { name: 'Елизаров В.' },
     FDRV_A: { name: 'Фёдоров Алексей' },
+    FDRV_I: { name: 'Фёдоров И.' },
     FDRV_L: {
         name: 'Фёдоров Леонид',
         about: 'https://o-site.spb.ru/history/Peoples/leonfed.html'
@@ -226,11 +227,11 @@ let authors = {
     MSPN: { name: 'Мосьпан Олеся' },
     MTRNCHV: { name: 'Матреничев Вячеслав' },
     NGN: { name: 'Негин С.' },
+    NKFRV: { name: 'Никифоров Андрей' },
     NSNV: {
         name: 'Несынов Сергей',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
-    NKFRV: { name: 'Никифоров Андрей' },
     ORLV: { name: 'Орлов Александр' },
     OSMCHN: { name: 'Осмехин А.' },
     OSTPNK: { name: 'Остапенко В.' },
@@ -271,6 +272,7 @@ let authors = {
         name: 'Швер Евгений',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    SKLVA: { name: 'Соколова С.' },
     SLBDNK: { name: 'Слободянюк Роман' },
     SMLGS: { name: 'Андрюс Смилгюс' },
     SMNA: { name: 'Симина М.' },
@@ -337,11 +339,13 @@ let authors = {
         name: 'Волков Константин', //Владимирович
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    VLKV_M: { name: 'Волков Михаил' },
     VSLVSKY: {
         name: 'Василевский Александр', //Михайлович
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     YGNV: { name: 'Яганов Алексей' },
+    YKVLVA: { name: 'Яковлева И.' },
     YUDNTSV: { name: 'Юдинцев Валерий' },
     ZSLNKN: { name: 'Заслонкин Пётр' },
     ZCHNV: { name: 'Зачиняев Виктор' },

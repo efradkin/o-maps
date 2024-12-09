@@ -210,11 +210,12 @@ let sosnovoMaps = [
     },
     {
         name: 'Кривко, оз Туманное',
-        year: 2015,
-        info: 'Непонятно, чья карта и какого года.',
+        year: 2009, //уже в 2009 использовалась для 50-летия ориентрования
+        info: 'Год и авторы - не точно',
         url: './maps/forest/sosnovo/krivko_ulovnoe_2023.webp',
         link: './original_maps/forest/sosnovo/krivko_ulovnoe_2023_full.jpg',
         bounds: [[60.629722906202076, 30.178756713867188], [60.62408157424831, 30.258493423461918], [60.58751530860598, 30.165367126464847]],
+        author: ['ARTMV','BLZRV_V','VLKV_K','SKLVA','YKVLVA'],
         owner: 'RDNV_I',
         types: ['ORIENT'],
     },
@@ -241,6 +242,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/petjajarvy_kentavr.webp',
         link: './original_maps/forest/sosnovo/petjajarvy_kentavr_full.jpg',
         bounds: [[60.635110719708734, 30.137214660644535], [60.632501109973745, 30.17905712127686], [60.619197236209565, 30.133953094482425]],
+        author: 'TRSV',
         types: ['ORIENT'],
     },
     {

@@ -15,12 +15,14 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/nevskaya_dubrovka.webp',
         link: './original_maps/forest/vsevolozhsk/nevskaya_dubrovka_full.jpg',
         bounds: [[59.862466389665045, 30.91333866119385], [59.86143212605905, 30.930547714233402], [59.84972977927792, 30.909948348999027]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
         name: 'Невская Дубровка-2',
         url: './maps/forest/vsevolozhsk/nevskaya_dubrovka_east.webp',
         bounds: [[59.85246716099846, 30.934989452362064], [59.851766671366114, 30.948250293731693], [59.84371537045213, 30.93331575393677]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -149,6 +151,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/teplobetonnaya.webp',
         link: './original_maps/forest/vsevolozhsk/teplobetonnaya_full.jpg',
         bounds: [[59.88131451786498, 30.955009460449222], [59.879936274048134, 30.971488952636722], [59.860290089303376, 30.946426391601566]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -156,6 +159,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/prijutino_2016.webp',
         link: './original_maps/forest/vsevolozhsk/prijutino_2016_full.jpg',
         bounds: [[60.011751363177375, 30.580916404724125], [60.012158911595996, 30.59722423553467], [60.00196869398139, 30.582718849182132]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -163,12 +167,14 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/proba.webp',
         link: './original_maps/forest/vsevolozhsk/proba_full.jpg',
         bounds: [[60.11540672402396, 30.75081825256348], [60.11339668245151, 30.78854084014893], [60.098531397053165, 30.74687004089356]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
         name: 'Рахья',
         url: './maps/forest/vsevolozhsk/rakhja.webp',
         bounds: [[60.0987881207714, 30.846390724182132], [60.09572869968227, 30.89110851287842], [60.08776859518927, 30.843129158020023]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -184,10 +190,11 @@ let vsevolozhskMaps = [
         name: 'Разметелево',
         url: './maps/forest/vsevolozhsk/razmetelevo.webp',
         bounds: [[59.911234154508655, 30.686488151550297], [59.910093827964644, 30.704727172851566], [59.897978129762215, 30.68292617797852]],
+        author: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
-        name: 'Разметелево',
+        name: 'Всеволожск, Южный',
         year: 2016,
         author: 'RYLOV_V',
         url: './maps/forest/vsevolozhsk/vsevolozhsk_juzhny_2016.webp',

@@ -126,6 +126,7 @@ let michuraMaps = [
         year: 2007,
         url: './maps/forest/michura/yagodnoe_2007.webp',
         bounds: [[60.63254320212934, 29.86813545227051], [60.62265003454702, 29.96975898742676], [60.6050874521396, 29.861011505126957]],
+        author: ['MKHLV_A','SLBDNK','ILVS'],
         types: ['ORIENT'],
     },
     {

@@ -97,6 +97,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/enkolovo_1985.webp',
         link: './original_maps/forest/toksovo/enkolovo_1985_full.jpg',
         bounds: [[60.13252986721134, 30.408439636230472], [60.13037126003232, 30.444145202636722], [60.113375298370904, 30.406551361083984]],
+        author: ['MLVA_M','KAZNTSVA_O'],
         types: ['ORIENT'],
     },
     {
@@ -105,6 +106,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/enkolovo_1975.webp',
         link: './original_maps/forest/toksovo/enkolovo_1975_full.jpg',
         bounds: [[60.13282906891286, 30.410413742065433], [60.1311620533558, 30.44594764709473], [60.11412373292936, 30.41045665740967]],
+        author: ['MLVA_M','KAZNTSVA_O'],
         types: ['ORIENT'],
     },
     {
@@ -201,6 +203,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/oselki_kurgolovskoe.webp',
         link: './original_maps/forest/toksovo/oselki_kurgolovskoe_full.jpg',
         bounds: [[60.201658523913956, 30.50808906555176], [60.20118933248576, 30.556712150573734], [60.183845870817485, 30.507531166076664]],
+        author: 'BRDR',
         types: ['ORIENT'],
     },
     {
@@ -363,6 +366,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/toksovo_svetloe_1984_full.jpg',
         bounds: [[60.15365963844227, 30.469293594360355], [60.16363227479294, 30.501780509948734], [60.14458126862982, 30.4835844039917]],
         types: ['ORIENT'],
+        author: 'SHRNN',
         info: '"Бабочка"',
     },
     {
@@ -397,6 +401,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/toksovo_malinovaya_gora_2013.webp',
         link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_2013_full.jpg',
         bounds: [[60.17641930011107, 30.462856292724613], [60.173644575557304, 30.497488975524906], [60.16412335429406, 30.459079742431644]],
+        author: 'DBRTSV_V',
         owner: 'RDNV_I',
         types: ['ORIENT'],
     },
@@ -531,6 +536,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/lehtusi_1990.webp',
         link: './original_maps/forest/toksovo/lehtusi_1990_full.jpg',
         bounds: [[60.30514284398862, 30.501480102539066], [60.29948734537272, 30.56130409240723], [60.27736622539905, 30.491609573364258]],
+        author: 'BYMKV',
         types: ['ORIENT'],
     },
     {

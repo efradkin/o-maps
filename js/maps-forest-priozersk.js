@@ -173,6 +173,7 @@ let priozerskMaps = [
         year: 2024,
         url: './maps/forest/priozersk/vorobjevo_2024.webp',
         bounds: [[60.93677037663813, 30.30115127563477], [60.932975963650215, 30.34758567810059], [60.8995990235172, 30.288448333740238]],
+        author: ['MKHLV_A','SLBDNK'],
         owner: 'WN',
         types: ['ORIENT'],
     },
