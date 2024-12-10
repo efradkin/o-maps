@@ -459,6 +459,15 @@ let vyborgMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Бобовый мыс',
+        year: 2014,
+        url: './maps/forest/vyborg/bobovy_mys_2014.webp',
+        bounds: [[60.697089908587486, 28.7322735786438], [60.69607120246752, 28.742380142211918], [60.68831957740951, 28.728883266448978]],
+        author: 'TKMKVA_P',
+        owner: 'NW',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Возрождение',
         year: 1992,
         url: './maps/forest/vyborg/vozrozhdenie_1992.webp',
@@ -497,7 +506,7 @@ let vyborgMaps = [
     },
     {
         name: 'Кировские дачи, стрельбище',
-        year: 1985,
+        year: 1993,
         url: './maps/forest/vyborg/kirovskie_dachi_1985.webp',
         link: './original_maps/forest/vyborg/kirovskie_dachi_1985_full.jpg',
         bounds: [[60.744586655899795, 28.75808715820313], [60.74431400721886, 28.78199100494385], [60.725180871895674, 28.75851631164551]],
