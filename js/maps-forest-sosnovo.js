@@ -333,4 +333,13 @@ let sosnovoMaps = [
         author: ['RYLOV_V','VSLVSKY','BRDR','FDRV_A','FDRV_L','SHKLV'],
         types: ['ORIENT'],
     },
+    {
+        name: 'Лосево',
+        year: 2022,
+        url: './maps/forest/sosnovo/losevo_2022.webp',
+        bounds: [[60.698476137242736, 29.897747039794922], [60.68994778372843, 29.98701095581055], [60.67372506905266, 29.887275695800785]],
+        author: ['KVZN','TKMKV_K'],
+        owner: 'ILVS',
+        types: ['ORIENT'],
+    },
 ];

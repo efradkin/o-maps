@@ -18,7 +18,7 @@ let owners = {
     GUSEV: '© Гусев Илья gusev@ym.spb.ru',
     INGR: '© <a href="https://vk.com/ingriaorient" target="_blank">КСО "Ингрия"</a>, Кирьянов Юрий - 89117954827',
     IMPULS: '© АНО ОПОРА СО СПб и ЛО "Импульс". Контакт для связи: info@impulsnko.ru.',
-    ILVES: '© Константин Ильвес - <a href="https://vk.com/sport_for_oll" target="_blank">ВК</a>.',
+    ILVS: '© Константин Ильвес - <a href="https://vk.com/sport_for_oll" target="_blank">ВК</a>.',
     KKM: '© <b><a href="https://kkmstart.ru" target="_blank">Кубок Коротких Маршрутов</a></b>, <a href="https://vk.com/id18529372" target="_blank">Сергей Рыжов</a>.',
     KP31: 'Контакты правообладателя: controlpoint31@gmail.com.',
     KOSOR: 'Карта является собственностью ФСО г.Выборг. По вопросам использования карты - +79052770528 (Антон Косоруков).',

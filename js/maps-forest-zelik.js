@@ -172,6 +172,14 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, оз Щучье',
+        year: 1972,
+        url: './maps/forest/zelik/zelenogorsk_schuchye_1972.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_schuchye_1972_full.jpg',
+        bounds: [[60.2217208410269, 29.750890731811527], [60.22191266366871, 29.833030700683597], [60.19216675619548, 29.759387969970707]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Зеленогорск, оз Щучье',
         year: 1979,
         url: './maps/forest/zelik/zelenogorsk_schuchye_1979.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1979_full.jpg',
@@ -186,6 +194,16 @@ let zelikMaps = [
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1986_full.jpg',
         bounds: [[60.231544979485825, 29.739646911621097], [60.228263490678515, 29.806938171386722], [60.20647801103916, 29.734668731689457]],
         author: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Зеленогорск, т/б "Прибой", оз Щучье',
+        year: 2000,
+        area: 15,
+        url: './maps/forest/zelik/zelenogorsk_priboy_2000.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_priboy_2000_full.jpg',
+        bounds: [[60.2478197156723, 29.730205535888675], [60.23776612113594, 29.847879409790043], [60.19986702963659, 29.71484184265137]],
+        author: ['TKMKV_K','KUZNTSV_S'],
         types: ['ORIENT'],
     },
     {
