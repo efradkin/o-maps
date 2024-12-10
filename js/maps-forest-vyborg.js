@@ -362,6 +362,15 @@ let vyborgMaps = [
     },
     {
         name: 'Вещево, Макаровское оз',
+        year: 1979,
+        url: './maps/forest/vyborg/veschevo_1979.webp',
+        link: './original_maps/forest/vyborg/veschevo_1979_full.jpg',
+        bounds: [[60.76146538927379, 29.192905426025394], [60.76096230079381, 29.239339828491214], [60.736175426485566, 29.188184738159183]],
+        author: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Вещево, Макаровское оз',
         year: 1981,
         url: './maps/forest/vyborg/veschevo_1981.webp',
         link: './original_maps/forest/vyborg/veschevo_1981_full.jpg',
