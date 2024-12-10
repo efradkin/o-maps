@@ -30,6 +30,13 @@ html, body, #map {
     z-index: 777;
     text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
 }
+#spinner {
+    position:absolute;
+    bottom:120px;
+    left:15px;
+    z-index: 777;
+    display: none;
+}
 label:has(> span span .layer-separator) {
     margin-top: 10px;
 }
@@ -120,3 +127,12 @@ label:has(> span span .layer-separator) {
     font-size: 12px;
     font-weight: bold;
 }
+
+/*
+#btn-spin {
+    position: absolute;
+    left: 50px;
+    z-index: 10;
+    font-size: 1.5em;
+}
+*/

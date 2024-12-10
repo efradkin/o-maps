@@ -83,6 +83,7 @@ let oMaps = [
 ];
 
 const TOTAL_MAPS = oMaps.length;
+let imagesLoadCounter = 0;
 
 // Prepare the structures and overlay the maps
 for (const m of oMaps) {
@@ -93,10 +94,12 @@ for (const m of oMaps) {
     }
 
     if (loadImagesRequired) {
+        imagesLoadCounter++;
         m.img = new Image();
         m.img.src = m.url;
         m.img.onload = function () {
             loadMap(m);
+            imagesLoadCounter--;
         }
     } else {
         loadMap(m);
@@ -162,15 +165,6 @@ if (mapElement) {
 
     map.on('click', onMapClick);
     map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () { recalculateLayers();} );
-    osmMap.on('load', function () {
-        recalculateLayers();
-        if (!loaded) {
-            loaded = true;
-            if (MAP_NAME_PARAM) {
-                locateMap(MAP_NAME_PARAM);
-            }
-        }
-    });
 
     // Save the map state whenever the map is moved or zoomed
     map.on('moveend', () => saveMapState(map));
@@ -286,9 +280,35 @@ if (mapElement) {
         showValue: false,
         syncSlider: true
     };
-    opacitySlider = L.control.slider(function(value) {setOverlayOpacity(value);}, sliderOptions).addTo(map);}
+    opacitySlider = L.control.slider(function(value) {
+        setOverlayOpacity(value);
+        }, sliderOptions).addTo(map);
 
-    //buildMapsCSV(oMaps); //, 'KOSOR'
+    setTimeout(function () {
+        document.getElementById("spinner").style.display = 'block';
+    }, 1000);
+
+    let intervalCounter = 0;
+    let imagesLoadInterval = setInterval(function(){
+        if (imagesLoadCounter <= 0) {
+            if (intervalCounter++ > 3) {
+                document.getElementById("spinner").style.display = 'none';
+                clearInterval(imagesLoadInterval);
+
+                recalculateLayers();
+                if (!loaded) {
+                    loaded = true;
+                    // go to the specified map
+                    if (MAP_NAME_PARAM) {
+                        locateMap(MAP_NAME_PARAM);
+                    }
+                }
+            }
+        }
+    }, 1000);
+}
+
+//buildMapsCSV(oMaps); //, 'KOSOR'
 
 // --- functions ---
 
