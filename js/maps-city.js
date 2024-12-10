@@ -1263,4 +1263,13 @@ let cityMaps = [
         owner: 'VOLKOV_AM',
         types: ['ORIENT', 'CITY'],
     },
+    {
+        name: 'Дом-интернат для престарелых и инвалидов №1',
+        year: 2023,
+        url: './maps/city/dipi_2023.webp',
+        bounds: [[60.02172413160352, 30.300014019012455], [60.021391754459486, 30.30409097671509], [60.01989065475507, 30.299263000488285]],
+        author: 'SVCHK',
+        owner: 'VOLKOV_AM',
+        types: ['ORIENT', 'CITY'],
+    },
 ];
