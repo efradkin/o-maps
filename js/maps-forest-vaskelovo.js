@@ -12,11 +12,20 @@ let vaskelovoMaps = [
     },
     {
         name: 'Лемболово, с-в',
-        year: 1991,
-        url: './maps/forest/vaskelovo/lembolovo_north_east_1991.webp',
-        link: './original_maps/forest/vaskelovo/lembolovo_north_east_1991_full.jpg',
+        year: 1989,
+        url: './maps/forest/vaskelovo/lembolovo_north_east_1989.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_north_east_1989_full.jpg',
         bounds: [[60.44701687789359, 30.30509948730469], [60.44121658634549, 30.379428863525394], [60.42075912129117, 30.296773910522464]],
         author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Лемболово',
+        year: 1989,
+        url: './maps/forest/vaskelovo/lembolovo_1989.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_1989_full.jpg',
+        bounds: [[60.4409201932774, 30.28518676757813], [60.43704566381769, 30.339174270629886], [60.414488004146826, 30.277075767517093]],
+        author: 'BYMKV',
         types: ['ORIENT'],
     },
     {
