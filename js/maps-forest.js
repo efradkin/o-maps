@@ -11,6 +11,15 @@ let forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Заходское',
+        year: 1976,
+        url: './maps/forest/zakhodskoe_1976.webp',
+        link: './original_maps/forest/zakhodskoe_1976_full.jpg',
+        bounds: [[60.40160299760925, 29.367313385009766], [60.40266281241613, 29.423789978027347], [60.37526611981126, 29.370918273925785]],
+        types: ['ORIENT'],
+        zindex: 3
+    },
+    {
         name: 'Цвелодубово',
         year: 1986,
         url: './maps/forest/tsvelodubovo_1986.webp',
@@ -248,6 +257,15 @@ let forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Зеркальный',
+        year: 1991,
+        url: './maps/forest/zerkalny_1991.webp',
+        link: './original_maps/forest/zerkalny_1991_full.jpg',
+        bounds: [[60.27128029330853, 29.10587310791016], [60.26761967705652, 29.157972335815433], [60.24023720577793, 29.094028472900394]],
+        author: ['KUZNTSV_S','ISVNNA','KNSTNTNV_D','RDKV','URVNTSV'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Яппиля',
         year: 1999,
         url: './maps/forest/yappilya_1999.webp',
@@ -262,7 +280,7 @@ let forestMaps = [
         url: './maps/forest/yappilya_pistolet_1979.webp',
         link: './original_maps/forest/yappilya_pistolet_1979_full.jpg',
         bounds: [[60.22353245455555, 29.121150970458988], [60.2216142724076, 29.172477722167972], [60.18412326764247, 29.114971160888675]],
-        author: ['KUZNTSV_S','KAZNTSVA_O','GYKVCH','PYNN','PTRV_V'],
+        author: ['KAZNTSV_S','KAZNTSVA_O','GYKVCH','PYNN','PTRV_V'],
         types: ['ORIENT'],
     },
     {

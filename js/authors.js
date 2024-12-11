@@ -143,6 +143,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     IVNVA_G: { name: 'Иванова Галина' },
+    ISVNNA: { name: 'Исавнина О.' },
     KAZNTSV_S: {
         name: 'Казанцев Сергей', //Александрович
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'

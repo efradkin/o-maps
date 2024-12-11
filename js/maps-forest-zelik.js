@@ -136,6 +136,7 @@ let zelikMaps = [
         bounds: [[60.21176583711235, 29.819898605346683], [60.208567657083265, 29.868822097778324], [60.191740095427, 29.814362525939945]],
         author: ['BKSTN','IVNV_V','PTRV_A','TNV','BLZRV_V'],
         types: ['ORIENT'],
+        zindex: 2
     },
     {
         name: 'Зеленогорск',
@@ -430,6 +431,15 @@ let zelikMaps = [
         url: './maps/forest/zelik/pukhtolova_gora_2009.webp',
         bounds: [[60.24266550392609, 29.629054069519047], [60.23987507571899, 29.678277969360355], [60.22879622224008, 29.625406265258793]],
         author: ['BLZRV_V','URVNTSV','NKFRV'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Пухтолова гора',
+        year: 1979,
+        url: './maps/forest/zelik/pukhtolova_gora_1979.webp',
+        link: './original_maps/forest/zelik/pukhtolova_gora_1979_full.jpg',
+        bounds: [[60.24436946532331, 29.63716506958008], [60.24385828621133, 29.692697525024418], [60.21713807758243, 29.63373184204102]],
+        author: 'GRZNVCH',
         types: ['ORIENT'],
     },
     {
