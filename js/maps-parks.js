@@ -978,4 +978,13 @@ let parkMaps = [
         owner: 'VOLKOV_AM',
         types: ['ORIENT', 'PARK'],
     },
+    {
+        name: 'Ботанический Сад',
+        year: 2024,
+        url: './maps/parks/botanichesky_2024.webp',
+        bounds: [[59.973011350290115, 30.32185792922974], [59.97190536024053, 30.33357381820679], [59.96867308053542, 30.320484638214115]],
+        author: ['IVNVA_G','TKMKVA_P'],
+        owner: 'VOLKOV_AM',
+        types: ['ORIENT', 'PARK'],
+    },
 ];
