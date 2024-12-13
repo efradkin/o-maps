@@ -443,6 +443,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/toksovo_svetloe_1992_full.jpg',
         bounds: [[60.17379398977339, 30.577354431152347], [60.16790228578538, 30.64773559570313], [60.12919572132151, 30.55984497070313]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','DBRTSV_V','DBRTSV_S','GUSEV'],
+        areas: [50, 15, 25, 5, 5],
         types: ['ORIENT'],
     },
     {
