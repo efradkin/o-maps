@@ -46,6 +46,9 @@ label:has(> span span .layer-separator) {
 .restricted {
     border: solid 3px deeppink;
 }
+.highlighted {
+    border: solid thick tomato;
+}
 .restricted-text {
     font-weight: bold;
     color: red;
