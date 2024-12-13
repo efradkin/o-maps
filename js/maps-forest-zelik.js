@@ -120,15 +120,6 @@ let zelikMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Симагино - Майнило',
-        year: 2013,
-        url: './maps/forest/zelik/simagino_maynilo_2013.webp',
-        bounds: [[60.2838764935428, 29.879722595214847], [60.2777066636847, 29.956712722778324], [60.26046752431386, 29.87165451049805]],
-        author: ['MKHLV_A','SLBDNK'],
-        owner: 'WN',
-        types: ['ORIENT'],
-    },
-    {
         name: 'Репино',
         year: 1983,
         url: './maps/forest/zelik/repino_1983.webp',
@@ -591,6 +582,16 @@ let zelikMaps = [
         owner: 'SFSO_SPB',
         types: ['ORIENT'],
     },
+/*
+    {
+        name: 'Симагино - Майнило',
+        year: 2013,
+        url: './maps/forest/zelik/simagino_maynilo_2013.webp',
+        bounds: [[60.2838764935428, 29.879722595214847], [60.2777066636847, 29.956712722778324], [60.26046752431386, 29.87165451049805]],
+        author: ['MKHLV_A','SLBDNK'],
+        owner: 'WN',
+        types: ['ORIENT'],
+    },
     {
         name: 'Воронцовское',
         year: 2014,
@@ -614,6 +615,18 @@ let zelikMaps = [
         year: 2016,
         url: './maps/forest/zelik/vorontsovskoe_simagino_2016.webp',
         bounds: [[60.299827553407624, 29.864101409912113], [60.294086068431916, 29.944524765014652], [60.277876881498834, 29.858350753784183]],
+        author: ['MKHLV_A','SLBDNK','USNKO'],
+        owner: 'WN',
+        types: ['ORIENT'],
+    },
+*/
+    {
+        name: 'Воронцовское - Симагино',
+        year: 2021,
+        area: 30,
+        info: '2013-2021гг.',
+        url: './maps/forest/zelik/vorontsovskoe_simagino_2021.webp',
+        bounds: [[60.32363331664699, 29.857578277587894], [60.314453148979304, 29.99679565429688], [60.253015703086454, 29.838008880615238]],
         author: ['MKHLV_A','SLBDNK','USNKO'],
         owner: 'WN',
         types: ['ORIENT'],

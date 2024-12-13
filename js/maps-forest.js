@@ -400,6 +400,7 @@ let forestMaps = [
         types: ['ORIENT'],
         zindex: 2
     },
+/*
     {
         name: 'Первомайское, Семейные оз',
         year: 2012,
@@ -428,31 +429,12 @@ let forestMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Первомайское, Червонное оз',
-        year: 2006,
-        url: './maps/forest/pervomayskoe_chervonnoe_2006.webp',
-        link: './original_maps/forest/pervomayskoe_chervonnoe_2006_full.jpg',
-        info: 'Кубок России по СРП',
-        bounds: [[60.42253854239894, 29.675359725952152], [60.41753896892244, 29.75303649902344], [60.395370588437366, 29.668235778808597]],
-        author: ['RYLOV_V','SHRNN','MKHLV_A'], //Гибрид карт Рылова, Шириняна и бригады Михайлова А.
-        types: ['ORIENT'],
-    },
-    {
         name: 'Первомайское, Тайванчик',
         year: 2022,
         url: './maps/forest/pervomayskoe_taiwan_2022.webp',
         bounds: [[60.438337224965586, 29.690895080566406], [60.435584655732214, 29.73930358886719], [60.40736797338299, 29.683084487915043]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN',
-        types: ['ORIENT'],
-    },
-    {
-        name: 'Первомайское, оз Дедово',
-        year: 2004,
-        url: './maps/forest/pervomayskoe_dedovo_2004.webp',
-        link: './original_maps/forest/pervomayskoe_dedovo_2004_full.jpg',
-        bounds: [[60.42258090838146, 29.698233604431156], [60.420610831803856, 29.73556995391846], [60.39660020582283, 29.691238403320316]],
-        author: ['RYLOV_V','SHRNN'],
         types: ['ORIENT'],
     },
     {
@@ -480,6 +462,37 @@ let forestMaps = [
         bounds: [[60.41575927424778, 29.634590148925785], [60.41414899039554, 29.65965270996094], [60.40268400836027, 29.63145732879639]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN',
+        types: ['ORIENT'],
+    },
+*/
+    {
+        name: 'Первомайское',
+        year: 2021,
+        area: 30,
+        info: '2010-2021гг.',
+        url: './maps/forest/pervomayskoe_2021.webp',
+        bounds: [[60.44985313980648, 29.60197448730469], [60.44096253530979, 29.749946594238285], [60.39647300617815, 29.588928222656254]],
+        author: ['MKHLV_A','SLBDNK','GVRLK'],
+        owner: 'WN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Первомайское, Червонное оз',
+        year: 2006,
+        url: './maps/forest/pervomayskoe_chervonnoe_2006.webp',
+        link: './original_maps/forest/pervomayskoe_chervonnoe_2006_full.jpg',
+        info: 'Кубок России по СРП',
+        bounds: [[60.42253854239894, 29.675359725952152], [60.41753896892244, 29.75303649902344], [60.395370588437366, 29.668235778808597]],
+        author: ['RYLOV_V','SHRNN','MKHLV_A'], //Гибрид карт Рылова, Шириняна и бригады Михайлова А.
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Первомайское, оз Дедово',
+        year: 2004,
+        url: './maps/forest/pervomayskoe_dedovo_2004.webp',
+        link: './original_maps/forest/pervomayskoe_dedovo_2004_full.jpg',
+        bounds: [[60.42258090838146, 29.698233604431156], [60.420610831803856, 29.73556995391846], [60.39660020582283, 29.691238403320316]],
+        author: ['RYLOV_V','SHRNN'],
         types: ['ORIENT'],
     },
     {
@@ -531,9 +544,10 @@ let forestMaps = [
     },
     {
         name: 'Барышево',
-        year: 2022,
-        url: './maps/forest/baryshevo_2022.webp',
-        bounds: [[60.729860312298634, 29.52262401580811], [60.7267757353456, 29.559702873229984], [60.716512663563435, 29.51931953430176]],
+        year: 2015,
+        area: 4,
+        url: './maps/forest/baryshevo_2015.webp',
+        bounds: [[60.74678873341951, 29.500093460083008], [60.74041278013193, 29.570732116699222], [60.717331311087456, 29.483957290649414]],
         author: ['MKHLV_A','USNKO'],
         owner: 'WN',
         types: ['ORIENT'],

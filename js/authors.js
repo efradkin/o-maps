@@ -259,6 +259,7 @@ let authors = {
         name: 'Рылов Виктор',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    SBLV: { name: 'Сибилев Сергей' },
     SCHV: { name: 'Сычёв Владимир' },
     SHLKHN_Y: {
         name: 'Шелёхин Юрий',

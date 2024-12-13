@@ -379,10 +379,14 @@ function loadMap(m) {
         if (!editMode && enablePopup) {
             this.openPopup();
         }
-        e.originalEvent.target.classList.add('highlighted');
+        if (!editMode) {
+            e.originalEvent.target.classList.add('highlighted');
+        }
     });
     imgLayer.on('mouseout', function (e) {
-        e.originalEvent.target.classList.remove('highlighted');
+        if (!editMode) {
+            e.originalEvent.target.classList.remove('highlighted');
+        }
     });
 
     imgLayer.on('click', function (e) {
