@@ -299,6 +299,17 @@ let cityMaps = [
         types: ['ORIENT', 'CITY'],
     },
     {
+        name: 'Петроградский о-в',
+        year: 2024,
+        info: '2019-2024 гг',
+        url: './maps/city/petrogradka_2024.webp',
+        bounds: [[59.97024093666594, 30.28518676757813], [59.9699617348415, 30.33883094787598], [59.947338569228016, 30.28535842895508]],
+        author: 'GRBTNKV',
+        owner: 'WN',
+        types: ['ORIENT', 'CITY'],
+    },
+/*
+    {
         name: 'Покровский о-в',
         year: 2022,
         url: './maps/city/pokrovsky_island_2022.webp',
@@ -307,6 +318,7 @@ let cityMaps = [
         owner: 'WN',
         types: ['ORIENT', 'CITY'],
     },
+*/
     {
         name: 'Коломенский о-в',
         year: 2016,
@@ -318,9 +330,9 @@ let cityMaps = [
     },
     {
         name: 'Коломна',
-        year: 2024,
-        url: './maps/city/kolomensky_island_2024.webp',
-        bounds: [[59.92382892931539, 30.27411460876465], [59.923914957454556, 30.287311077117923], [59.917064268663545, 30.274264812469486]],
+        year: 2023,
+        url: './maps/city/kolomensky_island_2023.webp',
+        bounds: [[59.925216105860315, 30.27411460876465], [59.92530213040293, 30.307760238647464], [59.91560145802346, 30.2742862701416]],
         author: 'GRBTNKV',
         owner: 'WN',
         types: ['ORIENT', 'CITY'],
@@ -423,11 +435,23 @@ let cityMaps = [
         types: ['ORIENT', 'CITY'],
         author: 'YGNV',
     },
+/*
     {
         name: 'Литейный пр.',
         year: 2021,
         url: './maps/city/litejny_2021.webp',
         bounds: [[59.9482627047221, 30.336771011352543], [59.948327178330025, 30.34878730773926], [59.93826777930315, 30.33655643463135]],
+        author: 'GRBTNKV',
+        owner: 'WN',
+        types: ['ORIENT', 'CITY'],
+    },
+*/
+    {
+        name: 'Литейный пр.',
+        year: 2024,
+        url: './maps/city/litejny_2024.webp',
+        info: '2021-2024 гг',
+        bounds: [[59.95084155122974, 30.323209762573246], [59.95118538227185, 30.387325286865238], [59.927409662027465, 30.323038101196293]],
         author: 'GRBTNKV',
         owner: 'WN',
         types: ['ORIENT', 'CITY'],
@@ -504,6 +528,7 @@ let cityMaps = [
         owner: 'SHEIN',
         types: ['ORIENT', 'CITY'],
     },
+/*
     {
         name: 'Матвеевский сад',
         year: 2022,
@@ -513,6 +538,7 @@ let cityMaps = [
         owner: 'WN',
         types: ['ORIENT', 'CITY'],
     },
+*/
     {
         name: 'Сквер Андрея Петрова',
         year: 2017,
@@ -964,12 +990,22 @@ let cityMaps = [
     {
         name: 'М "Владимирская" - "Лиговский пр"',
         year: 2024,
-        url: './maps/city/vladimirskaya-ligovsky_2024.webp',
-        bounds: [[59.92502254982391, 30.3398609161377], [59.92510857486837, 30.353937149047855], [59.91656950169157, 30.339732170104984]],
+        url: './maps/city/vladimirskaya-ligovsky_2023.webp',
+        bounds: [[59.92636666566014, 30.338165760040287], [59.92629139661258, 30.355932712554935], [59.91516045099185, 30.338294506073]],
         author: 'GRBTNKV',
         owner: 'WN',
         types: ['ORIENT', 'CITY'],
     },
+    {
+        name: 'Васильевский о-в',
+        year: 2024,
+        url: './maps/city/vasiljevsky_2024.webp',
+        bounds: [[59.94814450278181, 30.266110897064213], [59.9482627047221, 30.294327735900882], [59.93547296012465, 30.266046524047855]],
+        author: 'GRBTNKV',
+        owner: 'WN',
+        types: ['ORIENT', 'CITY'],
+    },
+/*
     {
         name: 'М "Василеостровская"',
         year: 2021,
@@ -979,6 +1015,7 @@ let cityMaps = [
         owner: 'WN',
         types: ['ORIENT', 'CITY'],
     },
+*/
     {
         name: 'ВО, 18 линия',
         year: 2018,
@@ -988,6 +1025,7 @@ let cityMaps = [
         owner: 'KUZM',
         types: ['ORIENT', 'CITY'],
     },
+/*
     {
         name: 'М "Восстания", Невский пр',
         year: 2023,
@@ -997,6 +1035,7 @@ let cityMaps = [
         owner: 'WN',
         types: ['ORIENT', 'CITY'],
     },
+*/
     {
         name: 'М "Лесная", Кантемировский пр',
         year: 2024,
@@ -1006,6 +1045,7 @@ let cityMaps = [
         owner: 'WN',
         types: ['ORIENT', 'CITY'],
     },
+/*
     {
         name: 'Съезжинская ул',
         year: 2021,
@@ -1033,6 +1073,7 @@ let cityMaps = [
         owner: 'WN',
         types: ['ORIENT', 'CITY'],
     },
+*/
     {
         name: 'Новая Ладога',
         year: 2018,
