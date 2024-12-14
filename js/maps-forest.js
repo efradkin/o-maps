@@ -6,7 +6,7 @@ let forestMaps = [
         year: 2020,
         url: './maps/forest/tsvelodubovo_2020.webp',
         bounds: [[60.390960544134856, 29.556913375854496], [60.38763141314447, 29.598112106323246], [60.36317201461962, 29.54730033874512]],
-        author: ['TKMKV_K','KVZN','NSNV','LPTV_Y'],
+        author: ['TKMKV_K','KVZN','LPTV_Y'],
         owner: 'NW',
         types: ['ORIENT'],
     },
