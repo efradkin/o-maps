@@ -523,6 +523,15 @@ let parkMaps = [
         types: ['ORIENT', 'PARK'],
     },
     {
+        name: 'Крестовский о-в',
+        year: 1985,
+        url: './maps/parks/krestovsky_1985.webp',
+        link: './original_maps/parks/krestovsky_1985_full.jpg',
+        bounds: [[59.97831529404201, 30.21527767181397], [59.975803005537834, 30.262012481689457], [59.9683723873162, 30.212874412536625]],
+        author: ['CHGRVSKY_V','CHGRVSKA_O'],
+        types: ['ORIENT', 'PARK'],
+    },
+    {
         name: 'Крестовский о-в - юг',
         year: 2023,
         url: './maps/parks/krestovsky_south_2023.webp',
@@ -533,7 +542,7 @@ let parkMaps = [
     {
         name: 'Крестовский о-в',
         year: 2021,
-        url: './maps/parks/krestovsky_2021.jpg',
+        url: './maps/parks/krestovsky_2021.webp',
         bounds: [[59.97625394315225, 30.23162841796875], [59.974686371680654, 30.249352455139164], [59.969854348897655, 30.229310989379886]],
         author: ['DBRTSV_V','FDRV_I'],
         owner: 'GLFSTRM',

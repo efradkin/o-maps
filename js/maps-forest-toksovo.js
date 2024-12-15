@@ -12,6 +12,15 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'оз Хепоярви, юг',
+        year: 1992,
+        url: './maps/forest/toksovo/toksovo_hepojarvI_south_1992.webp',
+        link: './original_maps/forest/toksovo/toksovo_hepojarvI_south_1992_full.jpg',
+        bounds: [[60.16465712803696, 30.526285171508793], [60.15799501059879, 30.598382949829105], [60.13359843222354, 30.51486968994141]],
+        author: ['CHGRVSKY_V','CHGRVSKY_Y','DBRTSV_V','GRBTNKV','KPRNKO','PSTKN_M'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Токсово, Малиновая гора',
         year: 1983,
         area: 3,
@@ -325,6 +334,15 @@ let toksovoMaps = [
         bounds: [[60.12762470857684, 30.488841533660892], [60.12639563271471, 30.50491333007813], [60.11273376949533, 30.48461437225342]],
         author: ['TKMKVA_P','IVNVA_G'],
         owner: 'SHEIN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Кузьмолово, Зона-Z',
+        year: 1986,
+        url: './maps/forest/toksovo/kuzmolovo_zona_z_1986.webp',
+        link: './original_maps/forest/toksovo/kuzmolovo_zona_z_1986_full.jpg',
+        bounds: [[60.14453854096396, 30.51280975341797], [60.14030822724681, 30.581388473510746], [60.11320422522614, 30.50414085388184]],
+        author: ['CHGRVSKY_V','DBRTSV_V','CHKVSKY_N','KRNLJV','GBNV_A','CHGRVSKY_Y'],
         types: ['ORIENT'],
     },
     {

@@ -3,6 +3,7 @@ let authors = {
     ANDRV_E: { name: 'Андреев Е.' },
     ANSFRV: { name: 'Анисифоров К.' },
     APTNKV: { name: 'Апатенков Сергей' },
+    APRN: { name: 'Апарин Всеволод' },
     ARTMV: {
         name: 'Артемьев Юрий', //Михайлович
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -46,6 +47,7 @@ let authors = {
         name: 'Баймаков Владимир', //Михайлович
         about: 'https://o-site.spb.ru/history/Peoples/baimakov.html'
     },
+    CHGRVSKA_O: { name: 'Чегаровская О.' },
     CHGRVSKY_M: { name: 'Чегаровский Михаил' },
     CHGRVSKY_V: {
         name: 'Чегаровский Виталий',
@@ -101,6 +103,7 @@ let authors = {
         name: 'Фершалова Виктория', //Савельевна
         about: 'https://o-site.spb.ru/history/Peoples/vsfersh.html'
     },
+    GBNV_A: { name: 'Губанов А.' },
     GLK: { name: 'Голик Елена' },
     GLV_N: { name: 'Гуляев Н.' },
     GLVNV_V: { name: 'Голованов В.' },
@@ -143,6 +146,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     IVNVA_G: { name: 'Иванова Галина' },
+    IVNVA_I: { name: 'Иванова И.' },
     ISVNNA: { name: 'Исавнина О.' },
     KAZNTSV_S: {
         name: 'Казанцев Сергей', //Александрович
@@ -163,6 +167,10 @@ let authors = {
     KRCHKN_V: {
         name: 'Курочкин Василий', //Васильевич
         about: 'https://o-site.spb.ru/history/Peoples/kurochkin.html'
+    },
+    KPRNKO: {
+        name: 'Куприенко Денис', //Васильевич
+        about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     KRCHNKO_N: { name: 'Кириченко Н.' },
     KRCHNKO_S: {
@@ -202,6 +210,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     LSNNKV: { name: 'Лисененков А.' },
+    LVRV_R: { name: 'Лавров Роман' },
     MDVDKN: { name: 'Медведкин Г.' },
     MKHLV_A: { name: 'Михайлов Александр' },
     MKHLV_B: {
@@ -217,6 +226,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
     MNV_Y: { name: 'Минаев Ю.' },
+    MRKRV: { name: 'Меркурьев С.' },
     MNKV: { name: 'Минаков Александр' },
     MRSKA_I: { name: 'Мурская Эльза' },
     MRSKY_S: {
@@ -246,6 +256,7 @@ let authors = {
     PPV_D: { name: 'Попов Дмитрий' },
     PRSCHPA: { name: 'Прищепа О.' },
     PSHKV: { name: 'Пашков Михаил' },
+    PSTKN_M: { name: 'Пясткин Максим' },
     PTRV_A: { name: 'Петров А.' },
     PTRV_V: { name: 'Петров В.' },
     PTRNNA: { name: 'Петрянина О.' },
@@ -295,6 +306,10 @@ let authors = {
     SSNNA: { name: 'Соснина Н.' },
     STLV: { name: 'Стулов Сергей' },
     STLRV: { name: 'Столяров А.' },
+    STPNVA_I: {
+        name: 'Степанова Ирина',
+        about: 'https://o-site.spb.ru/history/Peoples/turist80.html'
+    },
     STRGNV: {
         name: 'Строганов Илья',
         about: 'https://adventure-race.redfox.ru/archive/archive_2020/news/v_komande_red_fox_adventure_race_popolnenie/'
