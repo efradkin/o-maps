@@ -60,7 +60,7 @@ let cityMaps = [
         year: 2024,
         url: './maps/city/petropavlovka_2024.webp',
         bounds: [[59.953688794515855, 30.310721397399906], [59.952281319914974, 30.32381057739258], [59.94795108051587, 30.30840396881104]],
-        author: 'KUZNTSV_A',
+        author: 'DBRTSV_V',
         owner: 'SFSO_SPB',
         types: ['ORIENT', 'SPRINT', 'CITY'],
     },
