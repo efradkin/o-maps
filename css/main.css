@@ -83,6 +83,10 @@ label:has(> span span .layer-separator) {
 }
 */
 
+.selected-menu-item {
+    background-color: lightgrey;
+}
+
 /* --- CHARTS --- */
 .stat-body {
     width: auto;

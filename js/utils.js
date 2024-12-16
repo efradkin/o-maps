@@ -20,6 +20,7 @@ function recalculateLayers() {
     let visible = getImageOverlaysInView(false);
     document.getElementById("counter").innerHTML =
         (total === visible ? total : visible + '/' + total);
+    return visible;
 }
 
 function getImageOverlaysInView(total) {

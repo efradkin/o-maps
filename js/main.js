@@ -25,6 +25,13 @@ let enablePopup = false;
 let editMode = false;
 let mapOpacity = 1;
 let selectedOverlay, selectedMap;
+let visibleMaps;
+
+let hideMapsOnMove = true;
+let hmo = localStorage.getItem('hideMapsOnMove');
+if (hmo != null) {
+    hideMapsOnMove = (hmo === 'true');
+}
 
 let mapOverlays = [];
 
@@ -140,9 +147,11 @@ if (mapElement) {
             callback: openWelcome
         }, '-', {
             text: 'Координаты',
+            icon: 'images/coordinates.png',
             callback: showCoordinates
         }, {
             text: 'Центр сюда',
+            icon: 'images/point.png',
             callback: centerMap
         }, '-', {
             text: 'Увеличить',
@@ -154,8 +163,12 @@ if (mapElement) {
             callback: zoomOut
         }, '-', {
             text: 'Всплыв.подсказки',
-            icon: 'images/popup.png',
+            icon: 'images/info.png',
             callback: popupsSwitch
+        }, {
+            text: 'Скрывать карты',
+            icon: 'images/hide.png',
+            callback: hideMapsSwitch
         }, {
             text: 'Редактирование',
             icon: 'images/edit.png',
@@ -163,8 +176,30 @@ if (mapElement) {
         }]
     });
 
+    let savedLayers;
+    map.on('movestart', function() {
+        savedLayers = [];
+        if (hideMapsOnMove && visibleMaps > 200) {
+            map.eachLayer(function (layer) {
+                if (layer instanceof L.ImageOverlay) {
+                    savedLayers.push(layer);
+                    map.removeLayer(layer);
+                }
+            })
+        }
+    });
+    map.on('moveend', function() {
+        if (savedLayers) {
+            for (const l of savedLayers) {
+                map.addLayer(l);
+            }
+        }
+    });
+
     map.on('click', onMapClick);
-    map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () { recalculateLayers();} );
+    map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () {
+        visibleMaps = recalculateLayers();
+    });
 
     // Save the map state whenever the map is moved or zoomed
     map.on('moveend', () => saveMapState(map));
@@ -295,7 +330,7 @@ if (mapElement) {
                 document.getElementById("spinner").style.display = 'none';
                 clearInterval(imagesLoadInterval);
 
-                recalculateLayers();
+                visibleMaps = recalculateLayers();
                 if (!loaded) {
                     loaded = true;
                     // go to the specified map
@@ -307,6 +342,8 @@ if (mapElement) {
         }
     }, 1000);
 }
+
+tuneContextMenu();
 
 //buildMapsCSV(oMaps); //, 'KOSOR'
 
@@ -487,6 +524,28 @@ function loadMap(m) {
     }
 }
 
+function tuneContextMenu() {
+    let menuIcons = document.querySelectorAll('.leaflet-contextmenu-icon');
+    menuIcons.forEach(
+        (element, index, array) => {
+            if (element.src.includes('info.png')) {
+                if (enablePopup) {
+                    element.classList.add('selected-menu-item');
+                } else {
+                    element.classList.remove('selected-menu-item');
+                }
+            }
+            if (element.src.includes('hide.png')) {
+                if (hideMapsOnMove) {
+                    element.classList.add('selected-menu-item');
+                } else {
+                    element.classList.remove('selected-menu-item');
+                }
+            }
+        }
+    );
+}
+
 function buildPopupText(map, latLngs) {
     // имя
     let result = '<b>' + map.name;
@@ -657,6 +716,13 @@ function editModeSwitch (e) {
 
 function popupsSwitch (e) {
     enablePopup = !enablePopup;
+    tuneContextMenu();
+}
+
+function hideMapsSwitch (e) {
+    hideMapsOnMove = !hideMapsOnMove;
+    localStorage.setItem('hideMapsOnMove', hideMapsOnMove);
+    tuneContextMenu();
 }
 
 function openStats() {
