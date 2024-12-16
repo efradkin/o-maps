@@ -86,6 +86,10 @@ label:has(> span span .layer-separator) {
 .selected-menu-item {
     background-color: lightgrey;
 }
+.hide-map-link {
+    width: 100%;
+    text-align: right;
+}
 
 /* --- CHARTS --- */
 .stat-body {

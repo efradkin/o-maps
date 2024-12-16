@@ -617,6 +617,8 @@ function buildPopupText(map, latLngs) {
         let onclick = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
         result += '<br />Поделиться <a href="' + mapLinkUrl + '" target="_blank">ссылкой</a> на карту: <a href="#" ' + onclick + ' target="_blank"><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
     }
+    let onclick = 'onclick="hideMap(map, \'' + map.url + '\'); return false;"';
+    result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть эту карту</a></div>';
     return result;
 }
 

@@ -53,6 +53,15 @@ function upZindex(ovrl) {
     ovrl.getElement().style.zIndex = maxZindex;
 }
 
+function hideMap(map, url) {
+    map.eachLayer(function(layer){
+        let layerUrl = layer._url;
+        if (layerUrl && layerUrl.includes(url)) {
+            layer.removeFrom(map);
+        }
+    });
+}
+
 function locateMap(mapName) {
     map.eachLayer( function(layer) {
         if(layer instanceof L.ImageOverlay && layer._url.includes(mapName)) {
