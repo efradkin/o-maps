@@ -27,7 +27,7 @@ let mapOpacity = 1;
 let selectedOverlay, selectedMap;
 let visibleMaps;
 
-let hideMapsOnMove = true;
+let hideMapsOnMove = false;
 let hmo = localStorage.getItem('hideMapsOnMove');
 if (hmo != null) {
     hideMapsOnMove = (hmo === 'true');
