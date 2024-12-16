@@ -154,6 +154,14 @@ let parkMaps = [
     },
     {
         name: 'Сосновка',
+        year: 2014,
+        url: './maps/parks/sosnovka_2014.webp',
+        bounds: [[60.0321976599927, 30.329003334045414], [60.0321547863984, 30.36709070205689], [60.010485786068074, 30.32861709594727]],
+        author: 'MSPN',
+        types: ['ORIENT', 'PARK'],
+    },
+    {
+        name: 'Сосновка',
         year: 2024,
         url: './maps/parks/sosnovka_2024.webp',
         author: 'ZCHNV',
