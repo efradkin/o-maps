@@ -1,5 +1,5 @@
 
-const mapTypes = ['Город', 'Парки', 'Лес', 'Рельеф', 'Зима', 'Вело', 'Рогейн'];
+const mapTypes = ['Город', 'Парки', 'Лес', 'Спец.', 'Рогейн'];
 
 window.onload = function() {
 
@@ -7,9 +7,7 @@ window.onload = function() {
         cityGroup.getLayers().length,
         parkGroup.getLayers().length,
         forestGroup.getLayers().length,
-        reliefGroup.getLayers().length,
-        winterGroup.getLayers().length,
-        veloGroup.getLayers().length,
+        specialGroup.getLayers().length,
         rogaineGroup.getLayers().length,
     ];
 
@@ -24,9 +22,7 @@ window.onload = function() {
         calcMapsArea(cityGroup),
         calcMapsArea(parkGroup),
         calcMapsArea(forestGroup),
-        calcMapsArea(reliefGroup),
-        calcMapsArea(winterGroup),
-        calcMapsArea(veloGroup),
+        calcMapsArea(specialGroup),
     ];
 
     buildChart(

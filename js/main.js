@@ -45,9 +45,7 @@ let openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
 });
 
 let funGroup = L.layerGroup([]);
-let winterGroup = L.layerGroup([]);
-let veloGroup = L.layerGroup([]);
-let reliefGroup = L.layerGroup([]);
+let specialGroup = L.layerGroup([]);
 let forestGroup = L.layerGroup([]);
 let parkGroup = L.layerGroup([]);
 let cityGroup = L.layerGroup([]);
@@ -72,9 +70,7 @@ let oMaps = [
     ...rogaineKkmMaps,
     ...rogaineBeketovMaps,
     ...rogaineMaps,
-    ...reliefMaps,
-    ...winterMaps,
-    ...veloMaps,
+    ...specialMaps,
     ...forestMaps,
     ...vsevolozhskMaps,
     ...southMaps,
@@ -122,7 +118,7 @@ if (mapElement) {
         savedState = loadMapState();
     }
     let layers = [
-        osmMap, parkGroup, cityGroup, forestGroup, reliefGroup, winterGroup, veloGroup,
+        osmMap, parkGroup, cityGroup, forestGroup, specialGroup,
         group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
     ];
     if (MAP_NAME_PARAM) {
@@ -222,9 +218,7 @@ if (mapElement) {
         "Город": cityGroup,
         "Парки": parkGroup,
         "Лес": forestGroup,
-        "Гидро-рельефные": reliefGroup,
-        "Зимние": winterGroup,
-        "Вело": veloGroup,
+        "Специальные": specialGroup,
         "Все": groupAllOrient,
         "<span class='layer-separator'>2020-е</span>": group2020th,
         "2010-е": group2010th,
@@ -458,15 +452,15 @@ function loadMap(m) {
     }
     if (m.types.includes('RELIEF')) {
         added = true;
-        imgLayer.addTo(reliefGroup);
+        imgLayer.addTo(specialGroup);
     }
     if (m.types.includes('WINTER')) {
         added = true;
-        imgLayer.addTo(winterGroup);
+        imgLayer.addTo(specialGroup);
     }
     if (m.types.includes('VELO')) {
         added = true;
-        imgLayer.addTo(veloGroup);
+        imgLayer.addTo(specialGroup);
     }
     if (m.types.includes('CITY')) {
         added = true;
