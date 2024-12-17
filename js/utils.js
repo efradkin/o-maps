@@ -1,5 +1,5 @@
 function isOrientMap(map) {
-    return !map.types.includes('ROGAINE') && !map.types.includes('SPECIAL');
+    return !map.types.includes('ROGAINE') && !map.types.includes('FUN');
 }
 
 function mapLink(url) {

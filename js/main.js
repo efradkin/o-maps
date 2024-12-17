@@ -44,7 +44,7 @@ let openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
     attribution: ATTRIBUTION
 });
 
-let specialGroup = L.layerGroup([]);
+let funGroup = L.layerGroup([]);
 let winterGroup = L.layerGroup([]);
 let veloGroup = L.layerGroup([]);
 let reliefGroup = L.layerGroup([]);
@@ -68,7 +68,7 @@ let groupUnknownYear = L.layerGroup([]);
 let groupAllOrient = L.layerGroup([]);
 
 let oMaps = [
-    ...specialMaps,
+    ...funMaps,
     ...rogaineKkmMaps,
     ...rogaineBeketovMaps,
     ...rogaineMaps,
@@ -232,7 +232,7 @@ if (mapElement) {
         "90-е": group90th,
         "Ретро": groupRetro,
         "???": groupUnknownYear,
-        "<span class='layer-separator'>Необычные</span>": specialGroup,
+        "<span class='layer-separator'>Необычные</span>": funGroup,
         "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
         "<span class='layer-separator'>Недавние</span>": rogaineNewGroup,
         "Давние": rogaineOldGroup,
@@ -452,9 +452,9 @@ function loadMap(m) {
             imgLayer.addTo(rogaineBeketovGroup);
         }
     }
-    if (m.types.includes('SPECIAL')) {
+    if (m.types.includes('FUN')) {
         added = true;
-        imgLayer.addTo(specialGroup);
+        imgLayer.addTo(funGroup);
     }
     if (m.types.includes('RELIEF')) {
         added = true;
