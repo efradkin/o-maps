@@ -63,4 +63,13 @@ let funMaps = [
         owner: 'MTRNCHV',
         types: ['FUN'],
     },
+    {
+        name: 'Пушкин, Екатерининский парк',
+        year: 2024,
+        url: './maps/fun/pushkin_ekaterininsky_park_2024.webp',
+        link: 'https://vk.com/wall-21533513_2463',
+        bounds: [[59.7214677793261, 30.37702560424805], [59.72135958869106, 30.410113334655765], [59.70828758557718, 30.37706851959229]],
+        owner: 'KKM',
+        types: ['FUN'],
+    },
 ];

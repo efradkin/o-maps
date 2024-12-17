@@ -592,7 +592,11 @@ function buildPopupText(map, latLngs) {
     // ссылки на просмотр и скачивание
     let link = map.link;
     if (link) {
-        result += 'Скачать можно тут: ' + buildDownloadLinks(link) + '.';
+        if (!Array.isArray(link) && link.startsWith('http')) {
+            result += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
+        } else {
+            result += 'Скачать можно тут: ' + buildDownloadLinks(link) + '.';
+        }
     } else {
         result += 'Посмотреть карту отдельно можно <a href="' + map.url + '" target="_blank">тут</a>.';
     }
