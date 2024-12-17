@@ -90,6 +90,10 @@ label:has(> span span .layer-separator) {
     width: 100%;
     text-align: right;
 }
+.ext-link {
+    text-transform: lowercase;
+    /*color: navy;*/
+}
 
 /* --- CHARTS --- */
 .stat-body {

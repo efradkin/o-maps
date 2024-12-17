@@ -560,7 +560,6 @@ function buildPopupText(map, latLngs) {
 
     // инфа о карте
     let info = map.info;
-    let link = map.link;
     if (info) {
         result += info + '<br />';
     }
@@ -607,8 +606,9 @@ function buildPopupText(map, latLngs) {
     }
 
     // ссылки на просмотр и скачивание
+    let link = map.link;
     if (link) {
-        result += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
+        result += 'Скачать можно тут: ' + buildDownloadLinks(link) + '.';
     } else {
         result += 'Посмотреть карту отдельно можно <a href="' + map.url + '" target="_blank">тут</a>.';
     }
@@ -619,6 +619,21 @@ function buildPopupText(map, latLngs) {
     }
     let onclick = 'onclick="hideMap(map, \'' + map.url + '\'); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть эту карту</a></div>';
+    return result;
+}
+
+function buildDownloadLinks(link) {
+    let result = '';
+    let links = link;
+    if (!Array.isArray(link)) {
+        links = [link];
+    }
+    links.forEach(function (value, index, array) {
+        if (index > 0) {
+            result += ', ';
+        }
+        result += '<a href="' + value + '" target="_blank" class="ext-link">' + extractFileExt(value) + '</a>';
+    })
     return result;
 }
 

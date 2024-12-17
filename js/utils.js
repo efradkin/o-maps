@@ -3,16 +3,37 @@ function isOrientMap(map) {
 }
 
 function mapLink(url) {
-    return location.origin + '?map=' + extractFilename(url);
+    return location.origin + '?map=' + extractFileName(url);
 }
 
 function authorLink(author) {
     return location.origin + '?author=' + author;
 }
 
-function extractFilename(url) {
+function extractFileName(url) {
     const match = url.match(/\/([^\/]+)\.[^\.]+$/);
     return match ? match[1] : '';
+}
+
+// from https://stackoverflow.com/questions/6997262/how-to-pull-url-file-extension-out-of-url-string-using-javascript
+function extractFileExt(url) {
+    // If queries are present, we removed them from the URL.
+    // If there is any trailing slash, we remove it from the URL.
+    if (url.includes('?')) {
+        url = url.replace(/[?&]+([^=&]+)=([^&]*)/gi,'')?.replace(/\/+$/gi,'');
+    }
+    // Extension starts after the first dot after the last slash
+    let extStart = url.indexOf('.',url.lastIndexOf('/')+1);
+    if (extStart == -1) {
+        return false;
+    }
+    var ext = url.substr(extStart+1);
+    // To handle multiple periods in the filename, we ensure that the current dot is the final one.
+    if ( (extStart = url.lastIndexOf('.')) ) {
+        ext = url.substr(extStart+1);
+    }
+    // end of extension must be one of: end-of-string or question-mark or hash-mark with ext.search(/$|[?#]/)
+    return ext.substring(0,ext.search(/$|[?#]/));
 }
 
 function recalculateLayers() {
