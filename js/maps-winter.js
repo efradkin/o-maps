@@ -21,6 +21,7 @@ let winterMaps = [
         name: 'Рощино',
         year: 2013,
         url: './maps/winter/roschino_winter_2013.webp',
+        link: './original_maps/winter/roschino_winter_2013_full.jpg',
         bounds: [[60.27208897887721, 29.576182365417484], [60.27204641697717, 29.60000038146973], [60.26370321558072, 29.576439857482914]],
         author: 'SHRNN',
         types: ['ORIENT', 'WINTER'],
@@ -48,6 +49,7 @@ let winterMaps = [
     {
         name: 'Зеленогорск - Чёрные озёра',
         url: './maps/winter/zelenogorsk_chernye_winter.webp',
+        link: './original_maps/winter/zelenogorsk_chernye_winter_full.jpg',
         bounds: [[60.25463395700811, 29.77681159973145], [60.25224913383907, 29.816293716430668], [60.22557839180962, 29.768142700195316]],
         author: ['SHRNN','KUZNTSV_S','VLKV_M'],
         types: ['ORIENT', 'WINTER'],

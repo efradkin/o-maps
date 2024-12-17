@@ -893,6 +893,7 @@ let cityMaps = [
         name: 'Пушкин, школа №645',
         year: 2016,
         url: './maps/city/pushkin_school_645.webp',
+        link: './original_maps/city/pushkin_school_645_full.jpg',
         bounds: [[59.74463414992654, 30.48191070556641], [59.74387733266911, 30.48364877700806], [59.74288263249571, 30.478863716125492]],
         author: 'SHRNN',
         owner: 'SHRNN',
@@ -910,6 +911,7 @@ let cityMaps = [
     {
         name: 'пр Пархоменко',
         url: './maps/city/parkhomenko.webp',
+        link: './original_maps/city/parkhomenko_full.jpg',
         bounds: [[60.0032775081867, 30.327436923980716], [60.00321314148582, 30.340461730957035], [59.99978006927887, 30.327394008636478]],
         author: 'SHRNN',
         owner: 'SHRNN',

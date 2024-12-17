@@ -205,6 +205,7 @@ let vaskelovoMaps = [
         name: 'Орехово-запад',
         year: 2013,
         url: './maps/forest/vaskelovo/orekhovo_west_2011.webp',
+        link: './original_maps/forest/vaskelovo/orekhovo_west_2011_full.jpg',
         bounds: [[60.47733511396385, 30.23797988891602], [60.47570673097479, 30.26265621185303], [60.460730235956845, 30.233860015869144]],
         author: 'SHRNN',
         owner: 'SHRNN',

@@ -422,6 +422,7 @@ let southMaps = [
         name: 'Павловск, школа №464',
         year: 2016,
         url: './maps/forest/south/pavlovsk_school_464.webp',
+        link: './original_maps/forest/south/pavlovsk_school_464.jpg',
         bounds: [[59.682886470899305, 30.420885086059574], [59.681857460558504, 30.43169975280762], [59.678965230682635, 30.419061183929447]],
         author: 'SHRNN',
         owner: 'SHRNN',
