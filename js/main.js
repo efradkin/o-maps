@@ -51,8 +51,6 @@ let parkGroup = L.layerGroup([]);
 let cityGroup = L.layerGroup([]);
 
 let rogaineGroup = L.layerGroup([]);
-let rogaineKkmGroup = L.layerGroup([]);
-let rogaineBeketovGroup = L.layerGroup([]);
 let rogaineNewGroup = L.layerGroup([]);
 let rogaineOldGroup = L.layerGroup([]);
 
@@ -230,8 +228,6 @@ if (mapElement) {
         "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
         "<span class='layer-separator'>Недавние</span>": rogaineNewGroup,
         "Давние": rogaineOldGroup,
-        "<span class='layer-separator'>Бекетов</span>": rogaineBeketovGroup,
-        "ККМ": rogaineKkmGroup,
     };
 
     let layerControlCollapsed = false;
@@ -438,12 +434,6 @@ function loadMap(m) {
         }
         if (m.year && m.year < 2010) {
             imgLayer.addTo(rogaineOldGroup);
-        }
-        if (m.owner && (m.owner === 'KKM' || (Array.isArray(m.owner) && m.owner.includes('KKM')))) {
-            imgLayer.addTo(rogaineKkmGroup);
-        }
-        if (m.owner && (m.owner === 'BKTV' || (Array.isArray(m.owner) && m.owner.includes('BKTV')))) {
-            imgLayer.addTo(rogaineBeketovGroup);
         }
     }
     if (m.types.includes('FUN')) {
