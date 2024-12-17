@@ -112,7 +112,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_sopkino_1984.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_sopkino_1984_full.jpg',
         bounds: [[61.158185682196546, 29.812302589416507], [61.15619822139052, 29.851055145263675], [61.13834687040916, 29.807324409484867]],
-        author: ['VLKV_K','SHRNN'],
+        author: ['VLKV_K','SKLVA','TLNKV','PLBTKO','SHRNN','DJKV'],
         types: ['ORIENT'],
     },
     {

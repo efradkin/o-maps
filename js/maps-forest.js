@@ -489,6 +489,18 @@ let forestMaps = [
 */
     {
         name: 'Первомайское',
+        year: 2005,
+        info: 'Белые Ночи 2005',
+        url: './maps/forest/pervomayskoe_2005.webp',
+        link: './original_maps/forest/pervomayskoe_2005.jpg',
+        bounds: [[60.42719846959152, 29.665489196777347], [60.42160647681901, 29.758358001708988], [60.386083357333455, 29.65493202209473]],
+        author: ['SHRNN','RYLOV_V'],
+        areas: [35,65],
+        owner: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Первомайское',
         year: 2021,
         area: 30,
         info: '2010-2021гг.',

@@ -252,6 +252,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/yurov.html'
     },
     PKHMV: { name: 'Пахомов С.' },
+    PLBTKO: { name: 'Полуботко А.' },
     PLMNN: { name: 'Пульманен П.' },
     PPV_D: { name: 'Попов Дмитрий' },
     PRSCHPA: { name: 'Прищепа О.' },
@@ -326,6 +327,7 @@ let authors = {
         about: 'https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net'
     },
     TKMKVA_P: { name: 'Токмакова Полина' },
+    TLNKV: { name: 'Туленков М.' },
     TLNV_A: { name: 'Тюленев А.' },
     TMLNS: { name: 'Витаутас Тамуленис' },
     TMKN: {
