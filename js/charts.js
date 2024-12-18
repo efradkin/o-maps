@@ -46,7 +46,7 @@ function calcMapsArea(group) {
     let area = 0;
     for (const m of group.getLayers()) {
         let latLngs = [m.getTopLeft(), m.getTopRight(), m.getBottomLeft()];
-        area += getArea(latLngs);
+        area += getMapArea(latLngs);
     }
     return area;
 }

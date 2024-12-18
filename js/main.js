@@ -290,6 +290,18 @@ if (mapElement) {
     };
     L.control.ruler(rulerOptions).addTo(map);
 
+    // --- lasso ---
+    let lassoOptions = {
+        position: 'topleft',
+        title: 'Измеритель площади'
+    };
+    const lassoControl = L.control.lasso(lassoOptions).addTo(map);
+    map.on('lasso.finished', event => {
+        let area = getArea(event.latLngs);
+        console.log(area);
+        alert(area.toFixed(2) + ' км²')
+    });
+
     // --- slider (https://github.com/Eclipse1979/leaflet-slider) ---
     let sliderOptions = {
         id: 'opacitySlider',
@@ -396,7 +408,7 @@ function loadMap(m) {
         });
 
     if (!m.area) {
-        m.area = getArea(latLngs);
+        m.area = getMapArea(latLngs);
     }
 
     // map popup
