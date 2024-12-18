@@ -125,7 +125,7 @@ let michuraMaps = [
     {
         name: 'Ягодное',
         year: 2007,
-        area: 11,
+        area: 12,
         info: 'Карта рисовалась для ММС и "Карельских Скал".',
         url: './maps/forest/michura/yagodnoe_2007.webp',
         link: './original_maps/forest/michura/yagodnoe_2007.pdf',
@@ -136,7 +136,7 @@ let michuraMaps = [
     {
         name: 'Мичуринское',
         year: 2022,
-        area: 50,
+        area: 60,
         url: './maps/forest/michura/michurinskoe_2022.webp',
         bounds: [[60.66720846469397, 29.79578018188477], [60.637257175831714, 30.08914947509766], [60.57735534424474, 29.758701324462894]],
         author: ['MKHLV_A','GVRLK','SLBDNK','ILVS','GRBTNKV','TRNV_V','TKMKV_K','KUZNTSV_S','VRBY'],

@@ -477,7 +477,7 @@ let toksovoMaps = [
     {
         name: 'Токсово, ВИФК - Химаколово',
         year: 2020,
-        area: 11,
+        area: 14,
         url: './maps/forest/toksovo/toksovo_vifk_khimakolovo_2020.webp',
         bounds: [[60.22067645362063, 30.563192367553714], [60.209463178924935, 30.674858093261722], [60.17605646483715, 30.546026229858402]],
         author: ['CHGRVSKY_Y','CHGRVSKY_V'],

@@ -602,7 +602,7 @@ let vyborgMaps = [
     {
         name: 'Каменногорск',
         year: 2009,
-        area: 12,
+        area: 17,
         info: 'Карта рисовалась под многодневки "Мемориал Михаила Святкина" и "Карельские скалы".',
         url: './maps/forest/vyborg/kamennogorsk_2002.webp',
         link: './original_maps/forest/vyborg/kamennogorsk_2002_full.jpg',

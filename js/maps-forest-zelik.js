@@ -646,7 +646,7 @@ let zelikMaps = [
     {
         name: 'Воронцовское - Симагино',
         year: 2021,
-        area: 30,
+        area: 27,
         info: '2013-2021гг.',
         url: './maps/forest/zelik/vorontsovskoe_simagino_2021.webp',
         bounds: [[60.32363331664699, 29.857578277587894], [60.314453148979304, 29.99679565429688], [60.253015703086454, 29.838008880615238]],
@@ -666,7 +666,7 @@ let zelikMaps = [
     {
         name: 'Пасторское-Медное оз',
         year: 2009,
-        area: 14,
+        area: 18,
         url: './maps/forest/zelik/pastorskoe_mednoe_2009.webp',
         link: './original_maps/forest/zelik/pastorskoe_mednoe_2009_full.jpg',
         bounds: [[60.24965118236976, 30.009841918945316], [60.2356783354143, 30.175838470458988], [60.21138207197383, 29.996194839477543]],

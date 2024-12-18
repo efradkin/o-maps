@@ -431,7 +431,7 @@ let vaskelovoMaps = [
     {
         name: 'Лемболово',
         year: 2007,
-        area: 30,
+        area: 22,
         url: './maps/forest/vaskelovo/lembolovo_2007.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_2007.pdf',
         bounds: [[60.45196959181943, 30.256347656250004], [60.442867869662955, 30.400457382202152], [60.38027218998218, 30.237550735473636]],
