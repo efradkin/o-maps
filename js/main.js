@@ -291,6 +291,16 @@ if (mapElement) {
         }
     }
 
+    // Compass
+    var compass = new L.Control.Compass({
+        autoActive: true,
+        showDigit: true,
+        callErr: function() {
+            compass.deactivate();
+        }
+    });
+    map.addControl(compass);
+
     // Set bounds for the overlay
     //map.fitBounds(oMap.getBounds());
 
