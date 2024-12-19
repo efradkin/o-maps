@@ -143,6 +143,10 @@ label:has(> span span .layer-separator) {
     font-weight: bold;
 }
 
+.leaflet-searchbox-autocomplete .leaflet-searchbox-autocomplete-item {
+    padding: 3px 0px 3px 0;
+}
+
 /*
 #btn-spin {
     position: absolute;

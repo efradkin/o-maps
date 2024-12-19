@@ -90,7 +90,7 @@ let imagesLoadCounter = 0;
 for (const m of oMaps) {
 
     // if (m.info && m.info.startsWith('ККП')) continue;
-    if (m.hidden || (m.owner && m.owner === 'NW')) {
+    if (isMapHidden(m)) {
         m.url = './maps/olive.png';
     }
 
@@ -109,6 +109,7 @@ for (const m of oMaps) {
 
 const defaultZoom = 13;
 
+let searchBox;
 let mapElement = document.getElementById('map');
 if (mapElement) {
     let savedState;
@@ -207,6 +208,7 @@ if (mapElement) {
     let attributionControl = L.control.attribution().addTo(map);
     attributionControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a>');
 
+    // --- layers control ---
     let baseMaps = {
         "Open Street Map": osmMap,
         "Open Topo Map": openTopoMap
@@ -237,6 +239,57 @@ if (mapElement) {
     let layerControl = L.control.layers(
         baseMaps, overlayMaps,
         {collapsed: layerControlCollapsed, autoZIndex: false}).addTo(map);
+
+    // --- search control ---
+    searchBox = L.control.searchbox({
+        position: 'topright',
+        expand: 'left',
+        // scrollbar: true,
+        clearButton: true,
+        // maxHeight: '40vh',
+        autocompleteFeatures: ['setValueOnClick', 'arrowKeyNavigation'],
+        title: 'Поиск карты (Ctrl-Shift-F)',
+    }).addTo(map);
+
+    searchBox.onInput("keyup", function (e) {
+        if (e.keyCode == 13) {
+            search();
+        } else {
+            var value = searchBox.getValue();
+            if (value != "") {
+                var results = searchMaps(value);
+                searchBox.setItems(results.map(m => '&nbsp;' + mapTitle(m)).slice(0, 10));
+            } else {
+                searchBox.clearItems();
+            }
+        }
+    });
+
+    searchBox.onButton("click", search);
+
+    function search() {
+        let value = searchBox.getValue();
+        if (value) {
+            let m = searchMap(value);
+            if (m) {
+                locateMap(m);
+            }
+        }
+
+        setTimeout(function () {
+            searchBox.hide();
+            searchBox.clear();
+        }, 600);
+    }
+
+    document.onkeydown = function(e){
+        e = e || window.event;
+        let key = e.which || e.keyCode;
+        if(key === 70){
+            searchBox.show();
+            document.querySelector(".leaflet-searchbox").focus();
+        }
+    }
 
     // Set bounds for the overlay
     //map.fitBounds(oMap.getBounds());
@@ -337,7 +390,7 @@ if (mapElement) {
                     loaded = true;
                     // go to the specified map
                     if (MAP_NAME_PARAM) {
-                        locateMap(MAP_NAME_PARAM);
+                        locateMapForUrl(MAP_NAME_PARAM);
                     }
                 }
             }
@@ -542,12 +595,17 @@ function tuneContextMenu() {
     );
 }
 
-function buildPopupText(map, latLngs) {
-    // имя
-    let result = '<b>' + map.name;
+function mapTitle(map) {
+    let result = map.name;
     if (map.year) {
         result += '&nbsp;(' + map.year + ')';
     }
+    return result;
+}
+
+function buildPopupText(map, latLngs) {
+    // имя
+    let result = '<b>' + mapTitle(map);
 
     // площадь
     let area = map.area.toFixed(2);
@@ -676,6 +734,7 @@ function onMapClick(e) {
     let coordinate = e.latlng.lat + ", " + e.latlng.lng;
     copyToClipboard(coordinate);
     welcomeDialog.close();
+    searchBox.hide();
 }
 
 function repositionImage(doLog) {
