@@ -182,6 +182,16 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
+        name: 'Гарболово',
+        year: 2022,
+        url: './maps/rogaine/garbolovo_2022.webp',
+        bounds: [[60.39155423873948, 30.440025329589847], [60.37772682670247, 30.554180145263675], [60.352092422734586, 30.418910980224613]],
+        info: 'Финал КЛО',
+        author: 'RYLOV_V',
+        owner: 'MLTSPRT',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Шалово',
         year: 2023,
         info: 'Рогейн на Лужских берегах',
@@ -246,11 +256,21 @@ let rogaineMaps = [
     {
         name: 'Гаврилово',
         year: 2008,
-        info: '100X24',
+        info: '<a href="https://ww.w.100x24.ru/history.htm" target="_blank">100X24</a>',
         author: 'APTNKV',
         url: './maps/rogaine/gavrilovo_2008.webp',
         link: './original_maps/rogaine/gavrilovo_2008_full.gif',
         bounds: [[60.66628342039226, 28.648567199707035], [60.66098492736882, 29.004077911376957], [60.53643022164579, 28.642387390136722]],
+        types: ['ROGAINE'],
+    },
+    {
+        name: 'Вещево',
+        year: 2009,
+        info: '<a href="https://ww.w.100x24.ru/history.htm" target="_blank">100X24</a>',
+        author: 'APTNKV',
+        url: './maps/rogaine/veschevo_2009.webp',
+        link: './original_maps/rogaine/veschevo_2009_full.gif',
+        bounds: [[60.764609513487414, 29.13059234619141], [60.760668828869505, 29.362163543701172], [60.60432913982012, 29.11960601806641]],
         types: ['ROGAINE'],
     },
     {
@@ -264,6 +284,7 @@ let rogaineMaps = [
     {
         name: 'Поляны',
         year: 2005,
+        info: 'Ref Fox Adventure Race 2004',
         url: './maps/rogaine/polyany_2005.webp',
         link: './original_maps/rogaine/polyany_2005_full.jpg',
         bounds: [[60.31081861962197, 29.285559654235843], [60.310457270040814, 29.327015876770023], [60.28706732816777, 29.282040596008304]],

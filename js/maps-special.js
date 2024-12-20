@@ -210,4 +210,15 @@ let specialMaps = [
         owner: 'WN',
         types: ['ORIENT', 'RELIEF'],
     },
+    // прочие
+    {
+        name: 'Сосново, оз Уловное',
+        year: 1981,
+        info: 'Азимутный полигон.',
+        url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_azimut_1981.webp',
+        link: './original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_azimut_1981_full.jpg',
+        bounds: [[60.60481361919038, 30.215578079223636], [60.60237008387057, 30.25969505310059], [60.58469107484903, 30.21072864532471]],
+        author: ['ARTMV','YKVLVA'],
+        types: ['ORIENT'],
+    },
 ];

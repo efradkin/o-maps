@@ -116,12 +116,21 @@ let priozerskMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Кузнечное - Берёзовское оз',
+        year: 1984,
+        url: './maps/forest/priozersk/kuznechnoe_berezovskoe_1984.webp',
+        link: './original_maps/forest/priozersk/kuznechnoe_berezovskoe_1984_full.jpg',
+        bounds: [[61.15381724416708, 29.787368774414066], [61.15207798205209, 29.817881584167484], [61.13849187563487, 29.782905578613285]],
+        author: ['OVCHNNKV'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Кузнечное - оз Волковское-Суури',
         year: 1987,
         url: './maps/forest/priozersk/kuznechnoe_suuri_1987.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1987_full.jpg',
         bounds: [[61.14315240323964, 29.887962341308597], [61.13954832218195, 29.9611759185791], [61.12177045767672, 29.884700775146488]],
-        author: ['BGCHNS','VLKV_K','OVTCHNNKV','SSNNA','USHNV'],
+        author: ['BGCHNS','VLKV_K','OVCHNNKV','SSNNA','USHNV'],
         types: ['ORIENT'],
     },
     {
@@ -130,7 +139,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_suuri_1979.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1979_full.jpg',
         bounds: [[61.14161968340912, 29.899506568908695], [61.137311099433035, 29.95555400848389], [61.12483774980104, 29.901480674743656]],
-        author: ['VLKV_K','BGCHNS','OVTCHNNKV','PTRV_A'],
+        author: ['VLKV_K','BGCHNS','OVCHNNKV','PTRV_A'],
         types: ['ORIENT'],
     },
     {

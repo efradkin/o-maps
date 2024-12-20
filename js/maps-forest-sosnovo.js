@@ -56,6 +56,15 @@ let sosnovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Колосково',
+        year: 1994,
+        url: './maps/forest/sosnovo/koloskovo_1994.webp',
+        link: './original_maps/forest/sosnovo/koloskovo_1994_full.jpg',
+        bounds: [[60.630249099534126, 30.177898406982425], [60.62702866180913, 30.224289894104007], [60.601063980517786, 30.170903205871582]],
+        author: 'MLVA_M',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Замостье',
         year: 1991,
         url: './maps/forest/sosnovo/zamostie_1991.webp',
@@ -123,7 +132,7 @@ let sosnovoMaps = [
         name: 'Сосново, оз Уловное',
         year: 2023,
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_2023.webp',
-        bounds: [[60.60060051178703, 30.216908454895023], [60.59735604436446, 30.255746841430668], [60.585154771960084, 30.211415290832523]],
+        bounds: [[60.62879678508205, 30.18914222717285], [60.62345002044758, 30.264759063720707], [60.588611213413415, 30.17704010009766]],
         author: 'MKHLV_A',
         owner: 'WN',
         types: ['ORIENT'],
@@ -358,7 +367,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/varshko_1988.webp',
         link: './original_maps/forest/sosnovo/varshko_1988_full.jpg',
         bounds: [[60.66989935154745, 30.036277770996097], [60.663045556032735, 30.122537612915043], [60.6504273943483, 30.03499031066895]],
-        author: ['VLKV_K','OVTCHNNKV'],
+        author: ['VLKV_K','OVCHNNKV'],
         types: ['ORIENT'],
     },
     {

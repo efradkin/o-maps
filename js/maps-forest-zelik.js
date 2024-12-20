@@ -87,6 +87,7 @@ let zelikMaps = [
         name: 'Солнечное, Дюны',
         year: 2007,
         url: './maps/forest/zelik/solnechnoe-djuny_2007.webp',
+        link: './original_maps/forest/zelik/solnechnoe-djuny_2007_full.jpg',
         bounds: [[60.148063386777785, 29.929761886596683], [60.14502990577005, 29.97053146362305], [60.130435379117884, 29.924783706665043]],
         author: 'SHRNN',
         owner: 'SFSO_SPB',
@@ -447,6 +448,15 @@ let zelikMaps = [
     },
     {
         name: 'Пухтолова гора',
+        year: 1993,
+        url: './maps/forest/zelik/pukhtolova_gora_1993.webp',
+        link: './original_maps/forest/zelik/pukhtolova_gora_1993_full.jpg',
+        bounds: [[60.244965830871294, 29.639139175415043], [60.241515279872864, 29.694242477416996], [60.21764967363427, 29.632444381713867]],
+        author: ['HSMTLN','APRN'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Пухтолова гора',
         year: 2017,
         url: './maps/forest/zelik/pukhtolova_gora_2023.webp',
         bounds: [[60.241919992941305, 29.645104408264164], [60.238937779331096, 29.682226181030277], [60.22871098577209, 29.641027450561527]],
@@ -456,7 +466,7 @@ let zelikMaps = [
     },
     {
         name: 'Озерки',
-        year: 2022,
+        year: 2015,
         url: './maps/forest/zelik/ozerki_2022.webp',
         bounds: [[60.3206797942916, 29.690594673156742], [60.317279725561335, 29.725527763366703], [60.30023154584922, 29.682269096374515]],
         author: ['MKHLV_A','SLBDNK'],
@@ -514,6 +524,15 @@ let zelikMaps = [
         author: ['RYLOV_V','SHRNN','RDNV_I'],
         bounds: [[60.22485380363574, 29.951906204223636], [60.2185449475187, 30.032415390014652], [60.203663175350826, 29.946155548095707]],
         owner: 'RDNV_I',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Сестрорецк, Ржавая канава',
+        year: 1996,
+        url: './maps/forest/zelik/sestroretsk_rjavaya_kanava_1996.webp',
+        link: './original_maps/forest/zelik/sestroretsk_rjavaya_kanava_1996_full.jpg',
+        bounds: [[60.14300030802044, 29.95083332061768], [60.14045779307042, 29.988126754760746], [60.118571221654584, 29.94486808776856]],
+        author: 'MLVA_M',
         types: ['ORIENT'],
     },
     {

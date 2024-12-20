@@ -247,7 +247,7 @@ let authors = {
     ORLV: { name: 'Орлов Александр' },
     OSMCHN: { name: 'Осмехин А.' },
     OSTPNK: { name: 'Остапенко В.' },
-    OVTCHNNKV: {
+    OVCHNNKV: {
         name: 'Овчинников Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/yurov.html'
     },

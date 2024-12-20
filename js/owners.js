@@ -29,6 +29,7 @@ let owners = {
     MSKV: 'По вопросам использования карты - 8-981-146-94-95 (Москов Игорь).',
     MTRNCHV: 'По вопросам использования карты - Матреничев Вячеслав (iambam@ya.ru).',
     NKLSK: '© Артём Никольский',
+    MLTSPRT: '© <a href="https://www.multsport.ru/" target="_blank">Мультиспорт</a>',
     NW: '© Клуб "Nord-West"',
     OPNBND: '© OpenBand - <a href="https://orientband.ru" target="_blank">сайт</a> и <a href="https://vk.com/openband_ru" target="_blank">ВК</a>',
     PARADA: '© Екатерина Новикова (PARADA) - <a href="https://parda.ru/about" target="_blank">сайт</a> и <a href="https://vk.com/parada_ekaterina" target="_blank">ВК</a>',
