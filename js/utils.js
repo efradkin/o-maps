@@ -169,13 +169,13 @@ function buildMapsCSV(maps, owner) {
     maps.sort((a, b) => a.name.localeCompare(b.name));
     for (const m of maps) {
         if (owner === undefined || owner === m.owner || (Array.isArray(m.owner) && m.owner.includes(owner))) {
-            result += '\n' + m.name + CSV_SPRTR + e(m.year) + CSV_SPRTR + o(m.owner) + CSV_SPRTR + link(m.url) +
-                CSV_SPRTR + link(m.link) + CSV_SPRTR + clean(e(m.info)) + CSV_SPRTR + m.types;
+            result += '\n' + m.name + CSV_SPRTR + safe(m.year) + CSV_SPRTR + o(m.owner) + CSV_SPRTR + link(m.url) +
+                CSV_SPRTR + link(m.link) + CSV_SPRTR + clean(safe(m.info)) + CSV_SPRTR + m.types;
         }
     }
     console.log(result);
 }
-function e(s) {
+function safe(s) {
     return s === undefined ? '' : s;
 }
 function link(s) {

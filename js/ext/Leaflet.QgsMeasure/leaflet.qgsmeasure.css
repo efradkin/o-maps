@@ -1,0 +1,65 @@
+.leaflet-control-draw-measure {
+    background-image: url(images/measure-control.png);
+}
+
+.show {
+    display: flex !important;
+}
+
+.segments-container {
+    display: none;
+    flex-direction: column;
+    margin: 10px 10px;
+    padding: 6px 5px;
+    background-color: #fafafa;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    min-width: 230px;
+    min-height: 80px;
+    max-height: 135px;
+    overflow-y: scroll;
+}
+
+.segments-container .segments-title {
+    font-weight: 700;
+    text-align: center;
+    padding: 1px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.segments-container .segments-measures-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 2px;
+    margin: 0;
+}
+
+.segments-container .segments-total-distance-container {
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
+
+.segments-container .segments-total-distance-container span {
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    margin: 0;
+}
+
+:root {
+    --tooltip-bg: #fafafa;
+}
+
+.leaflet-tooltip {
+    background-color: var(--tooltip-bg);
+    font-weight: 700;
+    padding: 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.leaflet-tooltip-right::before {
+    border-right-color: var(--tooltip-bg);
+}

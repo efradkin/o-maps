@@ -335,6 +335,7 @@ if (mapElement) {
         downloadSheet();
     }, 'Сводная таблица карт').addTo(map)
 
+/*
     // --- ruler (https://github.com/gokertanrisever/leaflet-ruler) ---
     let rulerOptions = {
         position: 'topleft',
@@ -352,6 +353,30 @@ if (mapElement) {
         }
     };
     L.control.ruler(rulerOptions).addTo(map);
+*/
+    // --- Leaflet.QgsMeasure (https://github.com/gabriel-russo/Leaflet.QgsMeasure)
+    let qgsmeasureOptions = {
+        position: 'topleft',
+        shapeOptions: {
+            color: "red",
+            stroke: true,
+            weight: 4,
+            opacity: 0.8,
+        },
+        icon: new L.DivIcon({
+            iconSize: new L.Point(9, 9),
+            className: 'leaflet-div-icon leaflet-editing-icon',
+        }),
+        text: {
+            title: 'Измерение расстояний', // Plugin Button Text
+            segments_title: 'Перегоны (м)', // Segments box title
+            segments_from: "", // Segment start label
+            segments_to: " - ", // Segment end label
+            segments_total: 'Всего: ', // Total distance label
+            segments_meters: "м", // Meters label
+        },
+    };
+    L.Control.qgsmeasure(qgsmeasureOptions).addTo(map);
 
     // --- lasso ---
     let lassoOptions = {
