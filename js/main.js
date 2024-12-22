@@ -118,8 +118,8 @@ if (mapElement) {
         let m = getMapForName(MAP_NAME_PARAM);
         if (m) {
             let mapType = m.types;
-            if (mapType && mapType.includes('ROGAINE')) {
-                layers = [osmMap, rogaineGroup];
+            if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN'))) {
+                layers = [osmMap, funGroup, rogaineGroup];
             }
         }
     }
