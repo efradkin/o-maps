@@ -1040,4 +1040,13 @@ let parkMaps = [
         owner: 'VOLKOV_AM',
         types: ['ORIENT', 'PARK'],
     },
+    {
+        name: 'Стрельна, Константиновский парк',
+        year: 1998,
+        url: './maps/parks/konstantinovsky_1998.webp',
+        link: ['./original_maps/parks/konstantinovsky_1998_full.jpg','./original_maps/parks/konstantinovsky_1998.ocd'],
+        bounds: [[59.862746497190884, 30.045032501220707], [59.861119685936934, 30.068485736846924], [59.85177744824139, 30.041277408599857]],
+        author: 'TMKN',
+        types: ['ORIENT', 'PARK'],
+    },
 ];
