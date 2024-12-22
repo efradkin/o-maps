@@ -24,6 +24,7 @@ let enablePopup = false;
 
 let editMode = false;
 let mapOpacity = 1;
+let imagesLoadCounter = 0;
 let selectedOverlay, selectedMap;
 let visibleMaps;
 
@@ -83,28 +84,16 @@ let oMaps = [
     ...cityMaps,
 ];
 
-const TOTAL_MAPS = oMaps.length;
-let imagesLoadCounter = 0;
-
 // Prepare the structures and overlay the maps
-for (const m of oMaps) {
-
-    // if (m.info && m.info.startsWith('ККП')) continue;
-    if (isMapHidden(m)) {
-        m.url = './maps/olive.png';
-    }
-
-    if (loadImagesRequired) {
-        imagesLoadCounter++;
-        m.img = new Image();
-        m.img.src = m.url;
-        m.img.onload = function () {
-            loadMap(m);
-            imagesLoadCounter--;
-        }
-    } else {
+// Firstly load the specified map
+if (MAP_NAME_PARAM) {
+    let m = getMapForName(MAP_NAME_PARAM);
+    if (m) {
         loadMap(m);
     }
+}
+for (const m of oMaps) {
+    loadMap(m);
 }
 
 const defaultZoom = 13;
@@ -121,9 +110,12 @@ if (mapElement) {
         group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
     ];
     if (MAP_NAME_PARAM) {
-        let mapType = getMapType(MAP_NAME_PARAM);
-        if (mapType && mapType.includes('ROGAINE')) {
-            layers = [osmMap, rogaineGroup];
+        let m = getMapForName(MAP_NAME_PARAM);
+        if (m) {
+            let mapType = m.types;
+            if (mapType && mapType.includes('ROGAINE')) {
+                layers = [osmMap, rogaineGroup];
+            }
         }
     }
     map = L.map('map', {
@@ -414,7 +406,11 @@ if (mapElement) {
     }, 1000);
 
     let intervalCounter = 0;
-    let imagesLoadInterval = setInterval(function(){
+    let imagesLoadInterval = setInterval(function() {
+        // go to the specified map
+        if (MAP_NAME_PARAM && intervalCounter === 0) {
+            locateMapForUrl(MAP_NAME_PARAM);
+        }
         if (imagesLoadCounter <= 0) {
             if (intervalCounter++ > 3) {
                 document.getElementById("spinner").style.display = 'none';
@@ -423,10 +419,6 @@ if (mapElement) {
                 visibleMaps = recalculateLayers();
                 if (!loaded) {
                     loaded = true;
-                    // go to the specified map
-                    if (MAP_NAME_PARAM) {
-                        locateMapForUrl(MAP_NAME_PARAM);
-                    }
                 }
             }
         }
@@ -440,6 +432,24 @@ tuneContextMenu();
 // --- functions ---
 
 function loadMap(m) {
+    if (isMapHidden(m)) {
+        m.url = './maps/olive.png';
+    }
+
+    if (loadImagesRequired) {
+        imagesLoadCounter++;
+        m.img = new Image();
+        m.img.src = m.url;
+        m.img.onload = function () {
+            buildMap(m);
+            imagesLoadCounter--;
+        }
+    } else {
+        buildMap(m);
+    }
+}
+
+function buildMap(m) {
     if (HAS_ONLY_WO_AUTHOR_PARAM && m.author) {
         return;
     }

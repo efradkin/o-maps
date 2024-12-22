@@ -35,10 +35,10 @@ function getImageOverlaysInView(total) {
     return imgs.length;
 }
 
-function getMapType(fileName) {
+function getMapForName(fileName) {
     for (const m of oMaps) {
         if (m.url.includes(fileName)) {
-            return m.types;
+            return m;
         }
     }
 }
