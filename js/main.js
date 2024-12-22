@@ -33,6 +33,11 @@ let hmo = localStorage.getItem('hideMapsOnMove');
 if (hmo != null) {
     hideMapsOnMove = (hmo === 'true');
 }
+let enableFullSize = false;
+let efs = localStorage.getItem('enableFullSize');
+if (efs != null) {
+    enableFullSize = (efs === 'true');
+}
 
 let mapOverlays = [];
 
@@ -127,7 +132,7 @@ if (mapElement) {
         zoom: savedState ? savedState.zoom : defaultZoom,
         layers: layers,
         contextmenu: true,
-        contextmenuWidth: 160,
+        contextmenuWidth: 190,
         contextmenuItems: [{
             text: 'О проекте',
             icon: 'images/information.png',
@@ -156,6 +161,10 @@ if (mapElement) {
             text: 'Скрывать карты',
             icon: 'images/hide.png',
             callback: hideMapsSwitch
+        }, {
+            text: 'Выделять полноразмеры',
+            icon: 'images/expand.png',
+            callback: fullSizeSwitch
         }, {
             text: 'Редактирование',
             icon: 'images/edit.png',
@@ -604,7 +613,7 @@ function buildMap(m) {
         if (m.restricted) {
             el.classList.add('restricted');
         }
-        else if (m.link) {
+        else if (m.link && enableFullSize) {
             el.classList.add('full-size');
         }
 
@@ -622,22 +631,20 @@ function tuneContextMenu() {
     let menuIcons = document.querySelectorAll('.leaflet-contextmenu-icon');
     menuIcons.forEach(
         (element, index, array) => {
-            if (element.src.includes('info.png')) {
-                if (enablePopup) {
-                    element.classList.add('selected-menu-item');
-                } else {
-                    element.classList.remove('selected-menu-item');
-                }
-            }
-            if (element.src.includes('hide.png')) {
-                if (hideMapsOnMove) {
-                    element.classList.add('selected-menu-item');
-                } else {
-                    element.classList.remove('selected-menu-item');
-                }
-            }
+            tuneContextMenuItem(element, 'info.png', enablePopup);
+            tuneContextMenuItem(element, 'hide.png', hideMapsOnMove);
+            tuneContextMenuItem(element, 'expand.png', enableFullSize);
         }
     );
+}
+function tuneContextMenuItem(element, icon, flag) {
+    if (element.src.includes(icon)) {
+        if (flag) {
+            element.classList.add('selected-menu-item');
+        } else {
+            element.classList.remove('selected-menu-item');
+        }
+    }
 }
 
 function mapTitle(map) {
@@ -844,6 +851,12 @@ function hideMapsSwitch (e) {
     hideMapsOnMove = !hideMapsOnMove;
     localStorage.setItem('hideMapsOnMove', hideMapsOnMove);
     tuneContextMenu();
+}
+
+function fullSizeSwitch (e) {
+    enableFullSize = !enableFullSize;
+    localStorage.setItem('enableFullSize', enableFullSize);
+    location.reload();
 }
 
 function openStats() {
