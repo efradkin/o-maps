@@ -58,7 +58,7 @@ let funMaps = [
         name: 'Саблино, Жемчужная пещера',
         year: 2024,
         url: './maps/fun/sablino_zhemchug_cave_2023.webp',
-        link: './original_maps/fun/sablino_zhemchug_cave_2023.pdf',
+        link: ['./original_maps/fun/sablino_zhemchug_cave_2023.pdf','./original_maps/fun/sablino_zhemchug_cave_2013.jpg'],
         bounds: [[59.67093717243588, 30.79830408096314], [59.66963690109736, 30.80598592758179], [59.66824988940891, 30.797746181488037]],
         owner: 'MTRNCHV',
         types: ['FUN'],
