@@ -695,13 +695,13 @@ function buildPopupText(map, latLngs) {
             result += 'Владельцы:<ol>'
             for (const o of map.owner) {
                 if (owners[o]) {
-                    result += '<li>' + owners[o] + '</li>';
+                    result += '<li>' + owners[o].name + '</li>';
                 }
             }
             result += '</ol>'
         } else {
             if (owners[map.owner]) {
-                result += owners[map.owner] + '<br />';
+                result += owners[map.owner].name + '<br />';
             }
         }
     }

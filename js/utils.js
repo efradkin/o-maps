@@ -193,7 +193,7 @@ function o(owner) {
         result += '"!'; // "!" отмечает многострочные ячейки
         for (const [i, o] of owner.entries()) {
             if (owners[o]) {
-                result += clean(owners[o]);
+                result += clean(owners[o].name);
                 if (i < owner.length - 1) {
                     result += '\n';
                 }
@@ -202,7 +202,7 @@ function o(owner) {
         result += '"';
     } else {
         if (owners[owner]) {
-            result += clean(owners[owner]);
+            result += clean(owners[owner].name);
         }
     }
     return result;
