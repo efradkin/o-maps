@@ -293,6 +293,15 @@ let sosnovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Петяярви',
+        year: 1995,
+        url: './maps/forest/sosnovo/petjajarvy_1995.webp',
+        link: './original_maps/forest/sosnovo/petjajarvy_1995_full.jpg',
+        bounds: [[60.63191181402526, 30.109448432922367], [60.6278706373631, 30.16159057617188], [60.61370147180539, 30.104727745056156]],
+        author: ['LVCHV','SVTKN','KAZNTSVA_O'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Петяярви - кентавр',
         url: './maps/forest/sosnovo/petjajarvy_kentavr.webp',
         link: './original_maps/forest/sosnovo/petjajarvy_kentavr_full.jpg',

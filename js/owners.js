@@ -16,6 +16,7 @@ let owners = {
     GLFSTRM: '© КСО "Гольфстрим"',
     GLTV_YU: '© ГБНОУ "СПб ГДТЮ", Юрий Гультяев - +79213017985, gultiaev@list.ru',
     GUSEV: '© Гусев Илья gusev@ym.spb.ru',
+    HARD: '© <a href="https://hardadventure.ru/" target="_blank">Hard Adventure</a>',
     INGR: '© <a href="https://vk.com/ingriaorient" target="_blank">КСО "Ингрия"</a>, Кирьянов Юрий - 89117954827',
     IMPULS: '© АНО ОПОРА СО СПб и ЛО "Импульс". Контакт для связи: info@impulsnko.ru.',
     ILVS: '© Константин Ильвес - <a href="https://vk.com/sport_for_oll" target="_blank">ВК</a>.',

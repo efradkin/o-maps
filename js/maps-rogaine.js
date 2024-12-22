@@ -69,6 +69,15 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
+        name: 'Кузнечное',
+        year: 2024,
+        url: './maps/rogaine/kuznechnoe_hard_2024.webp',
+        bounds: [[61.24538624075754, 29.621715545654297], [61.19604772352212, 30.040569305419925], [61.06675740931178, 29.538459777832035]],
+        info: '<a href="https://hardadventure.ru/rock2024" target="_blank">Hard Rogaine</a>',
+        owner: 'HARD',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Воробьёво оз',
         year: 2013,
         url: './maps/rogaine/vorobjevo_bn_2013.webp',

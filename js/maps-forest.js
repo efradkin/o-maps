@@ -296,6 +296,15 @@ let forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Тарасовское',
+        year: 1995,
+        url: './maps/forest/tarasovskoe_1995.webp',
+        link: './original_maps/forest/tarasovskoe_1995_full.jpg',
+        bounds: [[60.28153635026126, 29.11557197570801], [60.274642591558795, 29.210071563720707], [60.245732570621065, 29.104928970336918]],
+        author: ['EGRV_A','VLKV_K','URVNTSV'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Яппиля',
         year: 1999,
         url: './maps/forest/yappilya_1999.webp',
