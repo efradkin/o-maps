@@ -113,8 +113,11 @@ let owners = {
     RFAR: {
         name: 'Права на использования карты принадлежат компании Red Fox и оргкомитету соревнований <a href="https://adventure-race.redfox.ru/" target="_blank">Red Fox Adventure Race</a>.'
     },
-    SCHLKHN_AN: {
-        name: '© Шелёхин Анатолий'
+    RYLOV_V: {
+        name: '© <a href="https://vk.com/id287387360" target="_blank">Рылов Виктор</a>.'
+    },
+    SHLKHN_AN: {
+        name: '© Шелёхин Анатолий, <a href="markir.spb.ru" target="_blank">markir.spb.ru</a>.'
     },
     SHEIN: {
         name: 'По вопросам использования карты - 8-921-972-86-24 (<b>Александр Шеин</b>).'

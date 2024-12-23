@@ -386,6 +386,7 @@ let vyborgMaps = [
         link: './original_maps/forest/vyborg/veschevo_west_1981_full.jpg',
         bounds: [[60.72325014176067, 29.129734039306644], [60.72115139041765, 29.195652008056644], [60.69368709397291, 29.1258716583252]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {

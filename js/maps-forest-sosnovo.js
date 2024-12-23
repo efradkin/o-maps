@@ -97,7 +97,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/69_km_2019.webp',
         bounds: [[60.52724660281343, 30.230169296264652], [60.525789651465296, 30.25621891021729], [60.50844901094424, 30.225105285644535]],
         author: ['DBRTSV_V','KAZNTSVA_O'],
-        owner: 'SCHLKHN_AN',
+        owner: 'SHLKHN_AN',
         types: ['ORIENT'],
     },
     {
@@ -106,7 +106,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/igora_north_2019.webp',
         bounds: [[60.54225571873845, 30.220599174499515], [60.540060727006335, 30.24167060852051], [60.528365665856704, 30.216135978698734]],
         author: 'RYLOV_V',
-        owner: 'SCHLKHN_AN',
+        owner: 'SHLKHN_AN',
         types: ['ORIENT'],
     },
     {
@@ -224,7 +224,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/snegirevka_2022.webp',
         bounds: [[60.51717329489512, 30.27668952941895], [60.51474425085366, 30.314712524414066], [60.50625172654163, 30.273470878601078]],
         author: 'DBRTSV_V',
-        owner: 'SCHLKHN_AN',
+        owner: 'SHLKHN_AN',
         types: ['ORIENT'],
     },
     {

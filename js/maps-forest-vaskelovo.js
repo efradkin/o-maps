@@ -162,7 +162,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/garbolovo_zmeinoe_2014.webp',
         bounds: [[60.34459776766185, 30.50036430358887], [60.34098782928523, 30.5390739440918], [60.33213117104195, 30.495214462280277]],
         author: 'MLNKV_L',
-        owner: ['SHEIN','SCHLKHN_AN'],
+        owner: ['SHEIN','SHLKHN_AN'],
         types: ['ORIENT'],
     },
     {

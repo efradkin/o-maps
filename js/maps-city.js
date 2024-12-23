@@ -626,6 +626,7 @@ let cityMaps = [
         url: './maps/city/gatchina_aerodrom_2022.webp',
         bounds: [[59.56558209814125, 30.08565187454224], [59.56314725951065, 30.108740329742435], [59.557298579394455, 30.081961154937748]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT', 'CITY'],
     },
     {
@@ -1082,6 +1083,7 @@ let cityMaps = [
         url: './maps/city/novaja_ladoga_2018.webp',
         bounds: [[60.11106573592594, 32.30748653411866], [60.11108712150635, 32.32293605804444], [60.10064930790749, 32.307572364807136]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT', 'CITY'],
     },
     {
@@ -1091,6 +1093,16 @@ let cityMaps = [
         bounds: [[60.05007110026554, 30.69610118865967], [60.048742712098274, 30.710756778717045], [60.04303217685753, 30.69367647171021]],
         author: 'MNKV',
         owner: 'INGR',
+        types: ['ORIENT', 'CITY'],
+    },
+    {
+        name: 'Всеволожск, Рябовская ул',
+        year: 1991,
+        url: './maps/city/vsevolozhsk_rjabovskaja_1991.webp',
+        link: './original_maps/city/vsevolozhsk_rjabovskaja_1991_full.jpg',
+        bounds: [[60.02645210253869, 30.66389322280884], [60.02596968751366, 30.67693948745728], [60.020426769618474, 30.66267013549805]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT', 'CITY'],
     },
     {
@@ -1252,6 +1264,7 @@ let cityMaps = [
         url: './maps/city/dvortsovaya_2012.webp',
         bounds: [[59.94673679273074, 30.309519767761234], [59.946715300510945, 30.332651138305668], [59.93558045752517, 30.309433937072757]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT', 'CITY'],
     },
     {
@@ -1277,6 +1290,7 @@ let cityMaps = [
         url: './maps/city/shlisselburg_2019.webp',
         bounds: [[59.95011089842249, 31.029596328735355], [59.95006791834404, 31.045625209808353], [59.93890195548363, 31.029317378997806]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT', 'CITY'],
     },
     {
@@ -1313,6 +1327,15 @@ let cityMaps = [
         bounds: [[60.02172413160352, 30.300014019012455], [60.021391754459486, 30.30409097671509], [60.01989065475507, 30.299263000488285]],
         author: 'SVCHK',
         owner: 'VOLKOV_AM',
+        types: ['ORIENT', 'CITY'],
+    },
+    {
+        name: 'Волосово',
+        year: 2021,
+        url: './maps/city/volosovo_2021.webp',
+        bounds: [[59.456984876505906, 29.480051994323734], [59.45526192648708, 29.492754936218265], [59.44521690678352, 29.47391510009766]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT', 'CITY'],
     },
 ];

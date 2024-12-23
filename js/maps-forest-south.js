@@ -8,6 +8,7 @@ let southMaps = [
         link: './original_maps/forest/south/mga_1992_full.jpg',
         bounds: [[59.753390360325824, 31.02187156677246], [59.7482666342105, 31.071996688842777], [59.73721660178828, 31.016163825988773]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -145,8 +146,20 @@ let southMaps = [
         name: 'Пелеши',
         year: 2018,
         url: './maps/forest/south/peleshi_2018.webp',
+        link: './original_maps/forest/south/peleshi_2018_full.jpg',
         bounds: [[59.04607342200753, 28.045520782470707], [59.04417505299444, 28.07358741760254], [59.01824961979959, 28.03719520568848]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Сланцы',
+        year: 2018,
+        url: './maps/forest/south/slantsy_2018.webp',
+        link: './original_maps/forest/south/slantsy_2018_full.jpg',
+        bounds: [[59.13395662150237, 28.08717012405396], [59.1335272878623, 28.09860706329346], [59.129376785164105, 28.0866551399231]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -156,6 +169,7 @@ let southMaps = [
         link: './original_maps/forest/south/lemovzha_1992_full.jpg',
         bounds: [[59.124917461875384, 29.296503067016605], [59.12300142617275, 29.333152770996097], [59.10718453374521, 29.293198585510257]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -164,6 +178,7 @@ let southMaps = [
         url: './maps/forest/south/khotnezha_2017.webp',
         bounds: [[59.12615071552468, 29.295215606689457], [59.12112933377082, 29.33632850646973], [59.10989463099106, 29.288692474365238]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -171,6 +186,7 @@ let southMaps = [
         url: './maps/forest/south/ragin_bor_2017.webp',
         bounds: [[60.06852373745732, 32.26736068725587], [60.066489419991676, 32.309331893920906], [60.05473074902389, 32.265043258667]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -178,6 +194,7 @@ let southMaps = [
         url: './maps/forest/south/yushkovo.webp',
         bounds: [[60.08868881306909, 32.28620052337647], [60.085243214141705, 32.31443881988526], [60.0787790695464, 32.28122234344483]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
@@ -306,6 +323,16 @@ let southMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Шапки, Нестеровское оз',
+        year: 2023,
+        url: './maps/forest/south/shapki_nesterovskoe_2023.webp',
+        link: './original_maps/forest/south/shapki_nesterovskoe_2023_full.jpg',
+        bounds: [[59.606828000483425, 31.217393875122074], [59.60483041854183, 31.236405372619632], [59.593906757043015, 31.213402748107914]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Шапки',
         year: 2020,
         url: './maps/forest/south/shapki_otime_2020.webp',
@@ -416,6 +443,7 @@ let southMaps = [
         url: './maps/forest/south/siversky_orlinka.webp',
         bounds: [[59.348245546606904, 30.15884399414063], [59.347939238592836, 30.194077491760257], [59.32933678887218, 30.15910148620606]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT'],
     },
     {
