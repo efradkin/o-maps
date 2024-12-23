@@ -85,6 +85,7 @@ let rogaineBeketovMaps = [
     {
         name: 'Каменногорск - BikeAdventure',
         year: 2023,
+        icon: 'ba.jpg',
         url: './maps/rogaine/beketov/kamennogorsk_2023.webp',
         link: './original_maps/rogaine/beketov/svetBA2023.jpg',
         bounds: [[61.069082670716135, 28.70452880859375], [61.030028872681896, 29.312810897827152], [60.661237256330466, 28.583679199218754]],
@@ -184,6 +185,7 @@ let rogaineBeketovMaps = [
     {
         name: 'Цвелодубово, юг',
         year: 2017,
+        icon: 'ta.jpg',
         url: './maps/rogaine/beketov/tsvelodubovo_south_2017.webp',
         link: './original_maps/rogaine/beketov/TA281017.All.jpg',
         info: 'TrailAdventure',
@@ -194,6 +196,7 @@ let rogaineBeketovMaps = [
     {
         name: 'Орехово, р Смородинка',
         year: 2018,
+        icon: 'ta.jpg',
         url: './maps/rogaine/beketov/smorodinka_2018.webp',
         link: './original_maps/rogaine/beketov/map281018.png',
         info: 'TrailAdventure',

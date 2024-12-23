@@ -260,6 +260,7 @@ let zelikMaps = [
     {
         name: 'Зеленогорск, "Прибой"',
         year: 1992,
+        icon: 'nevsky_azimut.jpg',
         url: './maps/forest/zelik/zelenogorsk_priboy_1992.webp',
         link: './original_maps/forest/zelik/zelenogorsk_priboy_1992_full.jpg',
         bounds: [[60.22736848216193, 29.720420837402347], [60.22250943804349, 29.776210784912113], [60.19709428614133, 29.71140861511231]],

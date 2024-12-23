@@ -668,7 +668,7 @@ function buildPopupText(m, latLngs) {
         icon = authors[m.author].icon;
     }
     if (icon) {
-        result = '<img src="./icons/' + icon + '" alt="" style="position: fixed;" /><div style="margin-left: 170px;min-height: 155px;"';
+        result = '<img src="./icons/' + icon + '" alt="" style="position: fixed;" /><div style="margin-left: 170px;min-height: 160px;"';
     }
 
     // имя
