@@ -13,6 +13,7 @@ let zelikMaps = [
     {
         name: 'Серово',
         year: 1974,
+        icon: 'bear_1974.jpg',
         url: './maps/forest/zelik/serovo_1974.webp',
         link: './original_maps/forest/zelik/serovo_1974_full.jpg',
         bounds: [[60.237595694635125, 29.50309753417969], [60.23780872762262, 29.564123153686527], [60.20298075456985, 29.50387001037598]],

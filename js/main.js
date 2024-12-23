@@ -520,7 +520,7 @@ function buildMap(m) {
 
     // map popup
     let popup = buildPopupText(m, latLngs);
-    imgLayer.bindPopup(popup);
+    imgLayer.bindPopup(popup, {maxWidth: 500});
     imgLayer.on('mouseover', function (e) {
         if (!editMode && enablePopup) {
             this.openPopup();
@@ -655,64 +655,79 @@ function mapTitle(map) {
     return result;
 }
 
-function buildPopupText(map, latLngs) {
+function buildPopupText(m, latLngs) {
+    let icon, result = '';
+    // иконка
+    if (m.icon) {
+        icon = m.icon;
+    }
+    if (!icon && m.owner && owners[m.owner] && owners[m.owner].icon) {
+        icon = owners[m.owner].icon;
+    }
+    if (!icon && m.author && authors[m.author] && authors[m.author].icon) {
+        icon = authors[m.author].icon;
+    }
+    if (icon) {
+        result = '<img src="./icons/' + icon + '" alt="" style="position: fixed;" /><div style="margin-left: 170px;min-height: 155px;"';
+    }
+
     // имя
-    let result = '<b>' + mapTitle(map);
+    result += '<b>' + mapTitle(m);
 
     // площадь
-    let area = map.area.toFixed(2);
+    let area = m.area.toFixed(2);
     result += '&nbsp;-&nbsp;' + area + '&nbsp;км<sup>2</sup>';
     result += '</b><hr />';
 
     // инфа о карте
-    let info = map.info;
+    let info = m.info;
     if (info) {
         result += info + '<br />';
     }
 
     // автор-составитель
-    if (map.author) {
-        if (Array.isArray(map.author)) {
+    if (m.author) {
+        if (Array.isArray(m.author)) {
             result += 'Авторы-составители:<ol>'
-            for (const a of map.author) {
+            for (const a of m.author) {
                 if (authors[a]) {
                     result += '<li>' + authorLabel(authors[a]) + '</li>';
-                    populateAuthor(map, a);
+                    populateAuthor(m, a);
                 }
             }
             result += '</ol>'
         } else {
-            if (authors[map.author]) {
-                result += 'Автор-составитель: ' + authorLabel(authors[map.author]) + '<br />';
-                populateAuthor(map, map.author);
+            if (authors[m.author]) {
+                result += 'Автор-составитель: ' + authorLabel(authors[m.author]) + '<br />';
+                populateAuthor(m, m.author);
             }
         }
     }
 
     // владелец
-    if (map.owner) {
-        if (Array.isArray(map.owner)) {
+    if (m.owner) {
+        if (Array.isArray(m.owner)) {
             result += 'Владельцы:<ol>'
-            for (const o of map.owner) {
+            for (const o of m.owner) {
                 if (owners[o]) {
                     result += '<li>' + owners[o].name + '</li>';
                 }
             }
             result += '</ol>'
         } else {
-            if (owners[map.owner]) {
-                result += owners[map.owner].name + '<br />';
+            if (owners[m.owner]) {
+                result += owners[m.owner].name + '<br />';
             }
         }
     }
 
     // закрытый район
-    if (map.restricted) {
-        result += '<span class="restricted-text">Район закрыт ' + map.restricted + '.</span><br />';
+    if (m.restricted) {
+        result += '<span class="restricted-text">Район закрыт ' + m.restricted + '.</span><br />';
     }
 
     // ссылки на просмотр и скачивание
-    let link = map.link;
+    let link = m.link;
     if (link) {
         if (!Array.isArray(link) && link.startsWith('http')) {
             result += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
@@ -720,15 +735,19 @@ function buildPopupText(map, latLngs) {
             result += 'Скачать можно тут: ' + buildDownloadLinks(link) + '.';
         }
     } else {
-        result += 'Посмотреть карту отдельно можно <a href="' + map.url + '" target="_blank">тут</a>.';
+        result += 'Посмотреть карту отдельно можно <a href="' + m.url + '" target="_blank">тут</a>.';
     }
-    if (!map.url.includes('olive.png')) {
-        let mapLinkUrl = mapLink(map.url);
+    if (!m.url.includes('olive.png')) {
+        let mapLinkUrl = mapLink(m.url);
         let onclick = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
         result += '<br />Поделиться <a href="' + mapLinkUrl + '" target="_blank">ссылкой</a> на карту: <a href="#" ' + onclick + ' target="_blank"><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
     }
-    let onclick = 'onclick="hideMap(map, \'' + map.url + '\'); return false;"';
+    let onclick = 'onclick="hideMap(map, \'' + m.url + '\'); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть эту карту</a></div>';
+
+    if (icon) {
+        result += '</div>';
+    }
     return result;
 }
 

@@ -249,7 +249,8 @@ let authors = {
     OSTPNK: { name: 'Остапенко В.' },
     OVCHNNKV: {
         name: 'Овчинников Юрий',
-        about: 'https://o-site.spb.ru/history/Peoples/yurov.html'
+        about: 'https://o-site.spb.ru/history/Peoples/yurov.html',
+        icon: 'ovchnkv.jpg'
     },
     PKHMV: { name: 'Пахомов С.' },
     PLBTKO: { name: 'Полуботко А.' },

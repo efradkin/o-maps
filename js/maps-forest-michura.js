@@ -13,6 +13,7 @@ let michuraMaps = [
     {
         name: 'Ягодное',
         year: 1992,
+        icon: 'nevsky_azimut.jpg',
         url: './maps/forest/michura/yagodnoe_1992.webp',
         link: './original_maps/forest/michura/yagodnoe_1992_full.jpg',
         bounds: [[60.63052271667331, 29.883584976196293], [60.62416578048736, 29.952764511108402], [60.601717038799606, 29.87337112426758]],
@@ -31,6 +32,7 @@ let michuraMaps = [
     {
         name: 'Журавлёвское оз',
         year: 1992,
+        icon: 'nevsky_azimut.jpg',
         url: './maps/forest/michura/zhuravlevskoe_1992.webp',
         link: './original_maps/forest/michura/zhuravlevskoe_1992_full.jpg',
         bounds: [[60.6315750686474, 29.813547134399418], [60.6264813659105, 29.888048171997074], [60.603275898710784, 29.80470657348633]],

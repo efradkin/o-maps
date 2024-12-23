@@ -39,6 +39,7 @@ let vaskelovoMaps = [
     {
         name: 'Лемболово-Орехово',
         info: 'Карта лыжного марафона-Ретро, проводимого <a href="https://o-site.spb.ru/history/Peoples/bap.html" target="_blank">Борисом Панкратьевым</a>.',
+        icon: 'nevsky_azimut.jpg',
         year: 1991,
         excluded: true,
         area: 25,
@@ -79,6 +80,7 @@ let vaskelovoMaps = [
     {
         name: 'Лемболовское',
         year: 1991,
+        icon: 'nevsky_azimut.jpg',
         url: './maps/forest/vaskelovo/lembolovsky_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovsky_1991_full.jpg',
         bounds: [[60.378490456569175, 30.22699356079102], [60.37535097486695, 30.292739868164066], [60.3178110096362, 30.210342407226562]],
@@ -116,6 +118,7 @@ let vaskelovoMaps = [
     {
         name: 'Гарболово',
         year: 1991,
+        icon: 'azimut.jpg',
         url: './maps/forest/vaskelovo/garbolovo_1991.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_1991_full.jpg',
         bounds: [[60.36440284798612, 30.50259590148926], [60.36198357968282, 30.556669235229496], [60.33718634477972, 30.49736022949219]],
