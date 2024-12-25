@@ -180,6 +180,7 @@ let sosnovoMaps = [
         link: './original_maps/forest/sosnovo/snegirevka_schuchji_1978_full.jpg',
         bounds: [[60.53816109476326, 30.30183792114258], [60.537147911976085, 30.359859466552738], [60.514680882049724, 30.302696228027347]],
         author: 'SPZHNKV_Y',
+        owner: 'KSLV_VN',
         types: ['ORIENT'],
     },
     {
