@@ -151,6 +151,16 @@ let forestMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Юкки',
+        year: 2015,
+        url: './maps/forest/yukki_2015.webp',
+        link: './original_maps/forest/yukki_2015_full.jpg',
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        bounds: [[60.13171773459218, 30.296001434326175], [60.13135440561496, 30.335698127746586], [60.11743802435264, 30.295529365539554]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Юкки, юг',
         year: 2019,
         url: './maps/forest/yukki_south_2019.webp',

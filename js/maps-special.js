@@ -169,6 +169,25 @@ let specialMaps = [
         owner: 'SHRNN',
         types: ['ORIENT', 'VELO'],
     },
+    {
+        name: 'Воейково',
+        info: 'Карта рисовалась для Этапа Кубка Мира.',
+        url: './maps/velo/voejkovo_velo.webp',
+        link: './original_maps/velo/voejkovo_velo_full.jpg',
+        bounds: [[59.99666853981014, 30.66215515136719], [59.99370695029761, 30.72532653808594], [59.93777332844343, 30.651340484619144]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        types: ['ORIENT', 'VELO'],
+    },
+    {
+        name: 'Каннельярви, оз Исток',
+        url: './maps/velo/kanneljarvi_velo.webp',
+        link: './original_maps/velo/kanneljarvi_velo_full.jpg',
+        bounds: [[60.37832076259013, 29.283456802368168], [60.370641185033705, 29.37950134277344], [60.343260013555195, 29.272127151489258]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        types: ['ORIENT', 'VELO'],
+    },
     // --- гидро-рельефные ---
     {
         name: 'Токсово, Оригон-1',

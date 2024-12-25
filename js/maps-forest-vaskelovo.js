@@ -135,6 +135,17 @@ let vaskelovoMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Гарболово, Вуолы',
+        year: 2022,
+        info: 'Свадебные кольца.',
+        url: './maps/forest/vaskelovo/garbolovo_vuoly_2022.webp',
+        link: './original_maps/forest/vaskelovo/garbolovo_vuoly_2022.jpg',
+        bounds: [[60.35867271103374, 30.50233840942383], [60.35725063217634, 30.52813053131104], [60.34143378447364, 30.49959182739258]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Гарболово, оз Сиркиярви',
         year: 2022,
         url: './maps/forest/vaskelovo/garbolovo_sirkijarvi_2022.webp',
@@ -162,10 +173,11 @@ let vaskelovoMaps = [
     },
     {
         name: 'Гарболово, Змеиное оз',
-        url: './maps/forest/vaskelovo/garbolovo_zmeinoe_2014.webp',
-        bounds: [[60.34459776766185, 30.50036430358887], [60.34098782928523, 30.5390739440918], [60.33213117104195, 30.495214462280277]],
-        author: 'MLNKV_L',
-        owner: ['SHEIN','SHLKHN_AN'],
+        year: 2022,
+        url: './maps/forest/vaskelovo/garbolovo_zmeinoe_2022.webp',
+        bounds: [[60.344895038902564, 30.496544837951664], [60.341178953683816, 30.537743568420414], [60.33083539119732, 30.492510795593265]],
+        author: ['MLNKV_L','RYLOV_V'],
+        owner: ['SHLKHN_AN','SHEIN'],
         types: ['ORIENT'],
     },
     {

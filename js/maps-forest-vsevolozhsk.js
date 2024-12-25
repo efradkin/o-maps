@@ -178,6 +178,7 @@ let vsevolozhskMaps = [
         name: 'им Морозова',
         year: 2021,
         url: './maps/forest/vsevolozhsk/morozova_2021.webp',
+        link: './original_maps/forest/vsevolozhsk/morozova_2021_full.jpg',
         bounds: [[59.98432683448194, 31.039381027221683], [59.9807629815427, 31.07289791107178], [59.96895229322324, 31.03272914886475]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
