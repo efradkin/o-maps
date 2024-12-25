@@ -65,6 +65,15 @@ let rogaineKkmMaps = [
         types: ['ROGAINE'],
     },
     {
+        name: 'Автово - ККМ',
+        year: 2022,
+        url: './maps/rogaine/kkm/avtovo_KKM_2021_12.webp',
+        link: 'https://kkmstart.ru/marshrut-№12-2/',
+        bounds: [[59.90934076065998, 30.25694847106934], [59.90923317822206, 30.29252529144287], [59.88411389968469, 30.256519317626957]],
+        owner: 'KKM',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Петергофское ш. - ККМ',
         year: 2022,
         url: './maps/rogaine/kkm/peterhof_road_KKM_2022.jpg',
