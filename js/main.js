@@ -16,6 +16,7 @@ const multiY = 2e-5;
 
 let map;
 let opacitySlider;
+let notificationControl;
 let marker1, marker2, marker3;
 let loaded = false;
 
@@ -181,6 +182,16 @@ if (mapElement) {
             callback: editModeSwitch
         }]
     });
+
+    // --- notifications (https://gitlab.com/manuel.richter95/leaflet.notifications)
+    notificationControl = L.control
+        .notifications({
+            timeout: 10000,
+            className: 'modern',
+            position: 'topright',
+            closable: true,
+            dismissable: true,
+        }).addTo(map);
 
     let savedLayers;
     map.on('movestart', function() {
@@ -404,7 +415,7 @@ if (mapElement) {
         alert(area.toFixed(2) + ' км²')
     });
 
-    // --- GPX/KML viewer
+    // --- GPX/KML viewer (https://github.com/makinacorpus/Leaflet.FileLayer)
     var style = {
         color: 'red',
         opacity: 1.0,
@@ -415,6 +426,7 @@ if (mapElement) {
     L.Control.FileLayerLoad.LABEL = '<img class="icon" src="./images/gpx-file-format-symbol-24.png" alt="Просмотр GPX/KML" style="margin-top: 3px;"/>';
     let gpxViewerControl = L.Control.fileLayerLoad({
         fitBounds: true,
+        fileSizeLimit: 10240,
         layerOptions: {
             style: style,
             pointToLayer: function (data, latlng) {
@@ -427,8 +439,11 @@ if (mapElement) {
     });
     gpxViewerControl.addTo(map);
     gpxViewerControl.loader.on('data:loaded', function (e) {
-        var layer = e.layer;
-        console.log(layer);
+        let distance = getDistance(e.layer.getLayers()[0].getLatLngs());
+        notificationControl.info('Трек', 'Длина трека <b>' + e.filename + '</b> - ' + distance + ' км.');
+    });
+    gpxViewerControl.loader.on('data:error', function (e) {
+        notificationControl.alert('Трек', 'Ошибка загрузки трека: ' + e.error);
     });
 
     // --- slider (https://github.com/Eclipse1979/leaflet-slider) ---

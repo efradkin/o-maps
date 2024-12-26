@@ -67,6 +67,15 @@ function clean(s) {
 function getArea(latLngs) {
     return L.GeometryUtil.geodesicArea(latLngs)*0.000002*.465;
 }
+// считаем длину в км
+// https://gis.stackexchange.com/questions/422864/getting-total-length-of-polyline-from-leaflet-draw
+function getDistance(latLngs) {
+    var length = 0;
+    for (var i = 0; i < latLngs.length - 1; i++) {
+        length += latLngs[i].distanceTo(latLngs[i + 1]);
+    }
+    return (length / 1000).toFixed(2);
+}
 function getMapArea(latLngs) {
     return getArea(latLngs)*.7;
 }
