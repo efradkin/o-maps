@@ -404,6 +404,33 @@ if (mapElement) {
         alert(area.toFixed(2) + ' км²')
     });
 
+    // --- GPX/KML viewer
+    var style = {
+        color: 'red',
+        opacity: 1.0,
+        fillOpacity: 1.0,
+        weight: 3,
+        clickable: false
+    };
+    L.Control.FileLayerLoad.LABEL = '<img class="icon" src="./images/gpx-file-format-symbol-24.png" alt="Просмотр GPX/KML" style="margin-top: 3px;"/>';
+    let gpxViewerControl = L.Control.fileLayerLoad({
+        fitBounds: true,
+        layerOptions: {
+            style: style,
+            pointToLayer: function (data, latlng) {
+                return L.circleMarker(
+                    latlng,
+                    { style: style }
+                );
+            }
+        }
+    });
+    gpxViewerControl.addTo(map);
+    gpxViewerControl.loader.on('data:loaded', function (e) {
+        var layer = e.layer;
+        console.log(layer);
+    });
+
     // --- slider (https://github.com/Eclipse1979/leaflet-slider) ---
     let sliderOptions = {
         id: 'opacitySlider',
