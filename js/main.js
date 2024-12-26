@@ -434,6 +434,18 @@ if (mapElement) {
     }, 1000);
 }
 
+// --- call center
+L.easyButton({
+    position: 'bottomright',
+    leafletClasses: false,
+    states: [{
+        stateName: 'call-icon',
+        icon:      'call-icon',
+        title:     'Группа поддержки',
+        onClick: callCenter
+    }]
+}).addTo(map);
+
 tuneContextMenu();
 
 //buildMapsCSV(oMaps); //, 'KOSOR'
@@ -879,9 +891,13 @@ function fullSizeSwitch (e) {
 }
 
 function openStats() {
-    location.href = './charts.html'
+    location.href = './charts.html';
 }
 
 function downloadSheet() {
-    location.href = './o-maps.xlsx'
+    location.href = './o-maps.xlsx';
+}
+
+function callCenter() {
+    window.open('tg://resolve?domain=o_maps', '_blank').focus();
 }
