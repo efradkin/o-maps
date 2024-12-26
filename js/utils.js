@@ -178,11 +178,23 @@ function buildMapsCSV(maps, owner) {
 function safe(s) {
     return s === undefined ? '' : s;
 }
-function link(s) {
-    if (s === undefined)
+function link(url) {
+    if (url === undefined)
         return '';
-    else
-        return 'https://o-maps.spb.ru' + s.substring(1);
+    else {
+        let result = '';
+        let urls = url;
+        if (!Array.isArray(url)) {
+            urls = [url];
+        }
+        urls.forEach(function (u, index, array) {
+            if (index > 0) {
+                result += ', ';
+            }
+            result += 'https://o-maps.spb.ru' + u.substring(1);
+        });
+        return result;
+    }
 }
 // processes one or multiple owners
 function o(owner) {
