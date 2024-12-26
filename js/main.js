@@ -39,6 +39,11 @@ let efs = localStorage.getItem('enableFullSize');
 if (efs != null) {
     enableFullSize = (efs === 'true');
 }
+let hiddenButtonsMode = false;
+let hbm = localStorage.getItem('hiddenButtonsMode');
+if (hbm != null) {
+    hiddenButtonsMode = (hbm === 'true');
+}
 
 let mapOverlays = [];
 
@@ -176,6 +181,10 @@ if (mapElement) {
             text: 'Выделять полноразмеры',
             icon: 'images/expand.png',
             callback: fullSizeSwitch
+        }, {
+            text: hiddenButtonsMode ? 'Показать кнопки' : 'Скрыть кнопки',
+            icon: 'images/menu.png',
+            callback: hiddenButtonsModeSwitch
         }, '-', {
             text: 'Редактирование',
             icon: 'images/edit.png',
@@ -309,21 +318,23 @@ if (mapElement) {
     document.onkeydown = function(e){
         e = e || window.event;
         let key = e.which || e.keyCode;
-        if(key === 70){
+        if(key === 70) { // Ctrl-Shift-F
             searchBox.show();
             document.querySelector(".leaflet-searchbox").focus();
         }
     }
 
     // Compass
-    var compass = new L.Control.Compass({
-        autoActive: true,
-        showDigit: true,
-        callErr: function() {
-            compass.deactivate();
-        }
-    });
-    map.addControl(compass);
+    if (!hiddenButtonsMode) {
+        var compass = new L.Control.Compass({
+            autoActive: true,
+            showDigit: true,
+            callErr: function () {
+                compass.deactivate();
+            }
+        });
+        map.addControl(compass);
+    }
 
     // Set bounds for the overlay
     //map.fitBounds(oMap.getBounds());
@@ -345,20 +356,25 @@ if (mapElement) {
     if (welcomeOpenedTime == null || dateDiff(Number(welcomeOpenedTime), time) > 6) {
         openWelcome();
     }
-
-    L.easyButton('button-icon welcome-icon', function(btn, map) {
-        openWelcome();
-    }, 'О проекте').addTo(map)
-
-    // --- statistics ---
-    L.easyButton('button-icon statistics-icon', function(btn, map) {
-        openStats();
-    }, 'Немного статистики').addTo(map)
+    if (!hiddenButtonsMode) {
+        L.easyButton('button-icon welcome-icon', function (btn, map) {
+            openWelcome();
+        }, 'О проекте').addTo(map)
+    }
 
     // --- statistics ---
-    L.easyButton('button-icon papers-icon', function(btn, map) {
-        downloadSheet();
-    }, 'Сводная таблица карт').addTo(map)
+    if (!hiddenButtonsMode) {
+        L.easyButton('button-icon statistics-icon', function (btn, map) {
+            openStats();
+        }, 'Немного статистики').addTo(map)
+    }
+
+    // --- statistics ---
+    if (!hiddenButtonsMode) {
+        L.easyButton('button-icon papers-icon', function (btn, map) {
+            downloadSheet();
+        }, 'Сводная таблица карт').addTo(map)
+    }
 
 /*
     // --- ruler (https://github.com/gokertanrisever/leaflet-ruler) ---
@@ -380,90 +396,98 @@ if (mapElement) {
     L.control.ruler(rulerOptions).addTo(map);
 */
     // --- Leaflet.QgsMeasure (https://github.com/gabriel-russo/Leaflet.QgsMeasure)
-    let qgsmeasureOptions = {
-        position: 'topleft',
-        shapeOptions: {
-            color: "red",
-            stroke: true,
-            weight: 4,
-            opacity: 0.8,
-        },
-        icon: new L.DivIcon({
-            iconSize: new L.Point(9, 9),
-            className: 'leaflet-div-icon leaflet-editing-icon',
-        }),
-        text: {
-            title: 'Измерение расстояний', // Plugin Button Text
-            segments_title: 'Перегоны (м)', // Segments box title
-            segments_from: "", // Segment start label
-            segments_to: " - ", // Segment end label
-            segments_total: 'Всего: ', // Total distance label
-            segments_meters: "м", // Meters label
-        },
-    };
-    L.Control.qgsmeasure(qgsmeasureOptions).addTo(map);
+    if (!hiddenButtonsMode) {
+        let qgsmeasureOptions = {
+            position: 'topleft',
+            shapeOptions: {
+                color: "red",
+                stroke: true,
+                weight: 4,
+                opacity: 0.8,
+            },
+            icon: new L.DivIcon({
+                iconSize: new L.Point(9, 9),
+                className: 'leaflet-div-icon leaflet-editing-icon',
+            }),
+            text: {
+                title: 'Измерение расстояний', // Plugin Button Text
+                segments_title: 'Перегоны (м)', // Segments box title
+                segments_from: "", // Segment start label
+                segments_to: " - ", // Segment end label
+                segments_total: 'Всего: ', // Total distance label
+                segments_meters: "м", // Meters label
+            },
+        };
+        L.Control.qgsmeasure(qgsmeasureOptions).addTo(map);
+    }
 
     // --- lasso ---
-    let lassoOptions = {
-        position: 'topleft',
-        title: 'Измеритель площади'
-    };
-    const lassoControl = L.control.lasso(lassoOptions).addTo(map);
-    map.on('lasso.finished', event => {
-        let area = getArea(event.latLngs);
-        console.log(area);
-        alert(area.toFixed(2) + ' км²')
-    });
+    if (!hiddenButtonsMode) {
+        let lassoOptions = {
+            position: 'topleft',
+            title: 'Измеритель площади'
+        };
+        L.control.lasso(lassoOptions).addTo(map);
+        map.on('lasso.finished', event => {
+            let area = getArea(event.latLngs);
+            console.log(area);
+            alert(area.toFixed(2) + ' км²')
+        });
+    }
 
     // --- GPX/KML viewer (https://github.com/makinacorpus/Leaflet.FileLayer)
-    var style = {
-        color: 'red',
-        opacity: 1.0,
-        fillOpacity: 1.0,
-        weight: 3,
-        clickable: false
-    };
-    L.Control.FileLayerLoad.LABEL = '<img class="icon" src="./images/gpx-file-format-symbol-24.png" alt="Просмотр GPX/KML" style="margin-top: 3px;"/>';
-    let gpxViewerControl = L.Control.fileLayerLoad({
-        fitBounds: true,
-        fileSizeLimit: 10240,
-        layerOptions: {
-            style: style,
-            pointToLayer: function (data, latlng) {
-                return L.circleMarker(
-                    latlng,
-                    { style: style }
-                );
+    if (!hiddenButtonsMode) {
+        var style = {
+            color: 'red',
+            opacity: 1.0,
+            fillOpacity: 1.0,
+            weight: 3,
+            clickable: false
+        };
+        L.Control.FileLayerLoad.LABEL = '<img class="icon" src="./images/gpx-file-format-symbol-24.png" alt="Просмотр GPX/KML" style="margin-top: 3px;"/>';
+        let gpxViewerControl = L.Control.fileLayerLoad({
+            fitBounds: true,
+            fileSizeLimit: 10240,
+            layerOptions: {
+                style: style,
+                pointToLayer: function (data, latlng) {
+                    return L.circleMarker(
+                        latlng,
+                        {style: style}
+                    );
+                }
             }
-        }
-    });
-    gpxViewerControl.addTo(map);
-    gpxViewerControl.loader.on('data:loaded', function (e) {
-        let distance = getDistance(e.layer.getLayers()[0].getLatLngs());
-        notificationControl.info('Трек', 'Длина трека <b>' + e.filename + '</b> - ' + distance + ' км.');
-    });
-    gpxViewerControl.loader.on('data:error', function (e) {
-        notificationControl.alert('Трек', 'Ошибка загрузки трека: ' + e.error);
-    });
+        });
+        gpxViewerControl.addTo(map);
+        gpxViewerControl.loader.on('data:loaded', function (e) {
+            let distance = getDistance(e.layer.getLayers()[0].getLatLngs());
+            notificationControl.info('Трек', 'Длина трека <b>' + e.filename + '</b> - ' + distance + ' км.');
+        });
+        gpxViewerControl.loader.on('data:error', function (e) {
+            notificationControl.alert('Трек', 'Ошибка загрузки трека: ' + e.error);
+        });
+    }
 
     // --- slider (https://github.com/Eclipse1979/leaflet-slider) ---
-    let sliderOptions = {
-        id: 'opacitySlider',
-        orientation: 'vertical',
-        title: 'Прозрачность карт',
-        min: 0,
-        max: 1,
-        step: .1,
-        size: '100px',
-        position: 'topleft',
-        value: mapOpacity,
-        logo: '⛅',
-        showValue: false,
-        syncSlider: true
-    };
-    opacitySlider = L.control.slider(function(value) {
-        setOverlayOpacity(value);
+    if (!hiddenButtonsMode) {
+        let sliderOptions = {
+            id: 'opacitySlider',
+            orientation: 'vertical',
+            title: 'Прозрачность карт',
+            min: 0,
+            max: 1,
+            step: .1,
+            size: '100px',
+            position: 'topleft',
+            value: mapOpacity,
+            logo: '⛅',
+            showValue: false,
+            syncSlider: true
+        };
+        opacitySlider = L.control.slider(function (value) {
+            setOverlayOpacity(value);
         }, sliderOptions).addTo(map);
+    }
 
     setTimeout(function () {
         document.getElementById("spinner").style.display = 'block';
@@ -489,16 +513,18 @@ if (mapElement) {
     }, 1000);
 
     // --- call center
-    L.easyButton({
-        position: 'bottomright',
-        leafletClasses: false,
-        states: [{
-            stateName: 'call-icon',
-            icon:      'call-icon',
-            title:     'Группа поддержки',
-            onClick: callCenter
-        }]
-    }).addTo(map);
+    if (!hiddenButtonsMode) {
+        L.easyButton({
+            position: 'bottomright',
+            leafletClasses: false,
+            states: [{
+                stateName: 'call-icon',
+                icon: 'call-icon',
+                title: 'Группа поддержки',
+                onClick: callCenter
+            }]
+        }).addTo(map);
+    }
 }
 
 tuneContextMenu();
@@ -937,6 +963,12 @@ function hideMapsSwitch (e) {
     hideMapsOnMove = !hideMapsOnMove;
     localStorage.setItem('hideMapsOnMove', hideMapsOnMove);
     tuneContextMenu();
+}
+
+function hiddenButtonsModeSwitch (e) {
+    hiddenButtonsMode = !hiddenButtonsMode;
+    localStorage.setItem('hiddenButtonsMode', hiddenButtonsMode);
+    location.reload();
 }
 
 function fullSizeSwitch (e) {
