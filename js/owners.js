@@ -97,7 +97,7 @@ let owners = {
         name: 'По вопросам использования карты - Матреничев Вячеслав (iambam@ya.ru).'
     },
     NKLSK: {
-        name: '© Артём Никольский'
+        name: '© Артём Никольский, "Эверест", г.Кировск'
     },
     MLTSPRT: {
         name: '© <a href="https://www.multsport.ru/" target="_blank">Мультиспорт</a>'

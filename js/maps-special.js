@@ -97,6 +97,8 @@ let specialMaps = [
         info: 'Карта-авоська',
         url: './maps/winter/kirovsk_winter_2024.webp',
         bounds: [[59.90888891207802, 31.008138656616214], [59.90707069729489, 31.025068759918216], [59.89890364096045, 31.00423336029053]],
+        owner: 'NKLSK',
+        author: 'YGNV',
         types: ['ORIENT', 'WINTER'],
     },
     // --- вело ---
