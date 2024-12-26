@@ -70,3 +70,7 @@ function getArea(latLngs) {
 function getMapArea(latLngs) {
     return getArea(latLngs)*.7;
 }
+
+function dateDiff(first, second) {
+    return Math.round((second - first) / (1000 * 60 * 60 * 24));
+}

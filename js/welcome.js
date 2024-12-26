@@ -1,3 +1,4 @@
+const WELCOME_OPENED_TIME_KEY = 'welcomeOpenedTime';
 
 let welcomeDialog;
 
@@ -28,7 +29,7 @@ const welcomeDialogContent = `
 Исходный код сайта <a href="https://github.com/efradkin/o-maps" target="_blank">доступен свободно</a>, но при его использовании прошу указывать ссылку на <a href="https://github.com/efradkin/o-maps" target="_blank">мой проект на GitHub</a>. 
 Для коммерческого использования кода проекта или любой его части прошу связываться со мной.<br/>
 Буду благодарен за предложения, конструктивную критику и всяческую помощь. Если Вы видите какие-то недочёты, ошибки, или у Вас есть дополнительная информация о картах - сообщите мне, и я добавлю/исправлю.
-Если Вам нравится то, что я делаю, Вы можете меня поддержать морально или материально в любой форме.
+Если Вам нравится то, что я делаю, Вы можете меня поддержать в любой форме морально или материально - например, переводом на карту <b>5536 9139 5660 9602 (Т-Банк)</b> или по номеру телефона <b>+7-921-748-0424</b>.
 </p>
 <p><em>Евгений Фрадкин</em> 
 <hr />
@@ -64,4 +65,6 @@ function openWelcome() {
     welcomeDialog.setSize([dw, dh]);
     welcomeDialog.setLocation([y, x]);
     welcomeDialog.open();
+
+    localStorage.setItem(WELCOME_OPENED_TIME_KEY, new Date().getTime());
 }

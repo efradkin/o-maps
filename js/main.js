@@ -317,9 +317,10 @@ if (mapElement) {
 
     // --- welcome dialog (https://github.com/NBTSolutions/Leaflet.Dialog) ---
     welcomeDialog = L.control.dialog(dialogOptions).setContent(welcomeDialogContent).addTo(map);
-    if (localStorage.getItem('welcomeOpened') == null) {
+    let time = new Date().getTime();
+    let welcomeOpenedTime = localStorage.getItem(WELCOME_OPENED_TIME_KEY);
+    if (welcomeOpenedTime == null || dateDiff(Number(welcomeOpenedTime), time) > 6) {
         openWelcome();
-        localStorage.setItem('welcomeOpened', true);
     }
 
     L.easyButton('button-icon welcome-icon', function(btn, map) {
@@ -432,19 +433,19 @@ if (mapElement) {
             }
         }
     }, 1000);
-}
 
-// --- call center
-L.easyButton({
-    position: 'bottomright',
-    leafletClasses: false,
-    states: [{
-        stateName: 'call-icon',
-        icon:      'call-icon',
-        title:     'Группа поддержки',
-        onClick: callCenter
-    }]
-}).addTo(map);
+    // --- call center
+    L.easyButton({
+        position: 'bottomright',
+        leafletClasses: false,
+        states: [{
+            stateName: 'call-icon',
+            icon:      'call-icon',
+            title:     'Группа поддержки',
+            onClick: callCenter
+        }]
+    }).addTo(map);
+}
 
 tuneContextMenu();
 
