@@ -41,15 +41,6 @@ if (efs != null) {
 
 let mapOverlays = [];
 
-let osmMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 17,
-    attribution: ATTRIBUTION
-});
-let openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-    maxZoom: 17,
-    attribution: ATTRIBUTION
-});
-
 let funGroup = L.layerGroup([]);
 let specialGroup = L.layerGroup([]);
 let forestGroup = L.layerGroup([]);
@@ -106,12 +97,31 @@ const defaultZoom = 13;
 let searchBox;
 let mapElement = document.getElementById('map');
 if (mapElement) {
+
+    let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 17,
+        attribution: ATTRIBUTION
+    });
+    let openTopoLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+        maxZoom: 17,
+        attribution: ATTRIBUTION
+    });
+    let yandexLayer = L.yandex({
+        maxZoom: 17,
+        attribution: ATTRIBUTION
+    });
+    let yandexSatelliteLayer = L.yandex({
+        type: 'satellite',
+        maxZoom: 17,
+        attribution: ATTRIBUTION
+    });
+
     let savedState;
     if (!MAP_NAME_PARAM) {
         savedState = loadMapState();
     }
     let layers = [
-        osmMap, parkGroup, cityGroup, forestGroup, specialGroup,
+        osmLayer, parkGroup, cityGroup, forestGroup, specialGroup,
         group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
     ];
     if (MAP_NAME_PARAM) {
@@ -119,7 +129,7 @@ if (mapElement) {
         if (m) {
             let mapType = m.types;
             if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN'))) {
-                layers = [osmMap, funGroup, rogaineGroup];
+                layers = [osmLayer, funGroup, rogaineGroup];
             }
         }
     }
@@ -165,7 +175,7 @@ if (mapElement) {
             text: 'Выделять полноразмеры',
             icon: 'images/expand.png',
             callback: fullSizeSwitch
-        }, {
+        }, '-', {
             text: 'Редактирование',
             icon: 'images/edit.png',
             callback: editModeSwitch
@@ -211,8 +221,10 @@ if (mapElement) {
 
     // --- layers control ---
     let baseMaps = {
-        "Open Street Map": osmMap,
-        "Open Topo Map": openTopoMap
+        "Open Street Map": osmLayer,
+        "Open Topo Map": openTopoLayer,
+        "Яндекс Схема": yandexLayer,
+        "Яндекс Спутник": yandexSatelliteLayer
     };
 
     let overlayMaps = {
