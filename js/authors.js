@@ -252,7 +252,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/yurov.html',
         icon: 'ovchnkv.jpg'
     },
-    PKHMV: { name: 'Пахомов С.' },
+    PKHMV: { name: 'Пахомов Сергей' },
     PLBTKO: { name: 'Полуботко А.' },
     PLMNN: { name: 'Пульманен П.' },
     PPV_D: { name: 'Попов Дмитрий' },

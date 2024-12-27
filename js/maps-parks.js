@@ -545,6 +545,27 @@ let parkMaps = [
         types: ['ORIENT', 'PARK'],
     },
     {
+        name: 'Аллея Крыленко',
+        year: 2024,
+        url: './maps/parks/krylenko_2024.webp',
+        link: './original_maps/parks/krylenko_2024_full.jpg',
+        bounds: [[59.89821489089555, 30.473778247833256], [59.9008944788082, 30.484507083892826], [59.89679429878091, 30.475172996521]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        types: ['ORIENT', 'PARK'],
+    },
+    {
+        name: 'Кудрово, западные окраины',
+        year: 2022,
+        url: './maps/parks/kudrovo_west_2022.webp',
+        link: './original_maps/parks/kudrovo_west_2022_full.jpg',
+        bounds: [[59.912105509712376, 30.490279197692875], [59.91064248053053, 30.50559997558594], [59.90486503684274, 30.488262176513675]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        types: ['ORIENT', 'PARK'],
+        zindex: 2
+    },
+    {
         name: 'Крестовский о-в',
         year: 1985,
         url: './maps/parks/krestovsky_1985.webp',
@@ -908,6 +929,15 @@ let parkMaps = [
         url: './maps/parks/zelenogorsk_tspko_2024.webp',
         bounds: [[60.19371335499176, 29.696130752563477], [60.19243341635954, 29.70834016799927], [60.18712113764485, 29.693555831909183]],
         owner: 'SFSO_SPB',
+        types: ['ORIENT', 'PARK'],
+    },
+    {
+        name: 'Всеволожск, Румболовский парк',
+        url: './maps/parks/vsevolozhsk_rumbolovo.webp',
+        link: './original_maps/parks/vsevolozhsk_rumbolovo_full.jpg',
+        bounds: [[60.04408221803971, 30.6304407119751], [60.04324647368814, 30.647134780883793], [60.034877149228116, 30.62846660614014]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         types: ['ORIENT', 'PARK'],
     },
     {

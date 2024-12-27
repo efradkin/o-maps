@@ -122,7 +122,7 @@ let owners = {
         icon: 'redfox.jpg'
     },
     RYLOV_V: {
-        name: '© <a href="https://vk.com/id287387360" target="_blank">Рылов Виктор</a>.'
+        name: 'По вопросам использования карты обращайтесь к <a href="https://vk.com/id287387360" target="_blank">Рылову Виктору</a>.'
     },
     SHLKHN_AN: {
         name: '© Шелёхин Анатолий, <a href="markir.spb.ru" target="_blank">markir.spb.ru</a>.'

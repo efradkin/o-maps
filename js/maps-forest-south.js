@@ -475,4 +475,13 @@ let southMaps = [
         author: 'DBRTSV_V',
         types: ['ORIENT'],
     },
+    {
+        name: 'Кургальский заказник, Долина реки Выбья',
+        year: 2019,
+        url: './maps/forest/south/vybja_2019.webp',
+        link: './original_maps/forest/south/vybja_2019_full.jpg',
+        bounds: [[59.687608681434966, 28.220057487487797], [59.68399126787276, 28.253316879272464], [59.67601858248743, 28.215680122375492]],
+        author: 'FRSHLV',
+        types: ['ORIENT'],
+    },
 ];

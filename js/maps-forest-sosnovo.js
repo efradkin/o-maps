@@ -85,8 +85,8 @@ let sosnovoMaps = [
     {
         name: 'Замостье',
         year: 2006,
-        url: './maps/forest/sosnovo/zamostie.webp',
-        link: './original_maps/forest/sosnovo/zamostie_full.jpg',
+        url: './maps/forest/sosnovo/zamostie_2006.webp',
+        link: './original_maps/forest/sosnovo/zamostie_2006_full.jpg',
         bounds: [[60.54394407261173, 30.314283370971683], [60.538118879447, 30.377626419067386], [60.51700432381264, 30.306472778320316]],
         author: ['SHRNN','RYLOV_V'],
         types: ['ORIENT'],
@@ -208,6 +208,16 @@ let sosnovoMaps = [
         link: './original_maps/forest/sosnovo/snegirevka_1988_full.jpg',
         bounds: [[60.538562137521424, 30.276474952697757], [60.53816109476326, 30.33908843994141], [60.514490774894206, 30.27467250823975]],
         author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S','KOUKNN_M'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Снегирёвка',
+        year: 2004,
+        url: './maps/forest/sosnovo/snegirevka_2004.webp',
+        link: './original_maps/forest/sosnovo/snegirevka_2004_full.jpg',
+        bounds: [[60.54189693219184, 30.323939323425297], [60.54060948889669, 30.361232757568363], [60.51459639011832, 30.32200813293457]],
+        author: 'RYLOV_V',
+        owner: ['ILVS','RYLOV_V'],
         types: ['ORIENT'],
     },
     {

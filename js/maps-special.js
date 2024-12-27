@@ -190,6 +190,16 @@ let specialMaps = [
         owner: 'RYLOV_V',
         types: ['ORIENT', 'VELO'],
     },
+    {
+        name: 'Суоранда',
+        year: 2006,
+        url: './maps/velo/suoranda_2006.webp',
+        link: './original_maps/velo/suoranda_2006_full.jpg',
+        bounds: [[59.96626745834547, 30.609412193298343], [59.96388314254157, 30.660095214843754], [59.947231109940404, 30.606579780578617]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        types: ['ORIENT', 'VELO'],
+    },
     // --- гидро-рельефные ---
     {
         name: 'Токсово, Оригон-1',
