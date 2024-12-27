@@ -77,6 +77,14 @@ function searchMaps(text) {
 // searches the map is the best matches the given text
 function searchMap(text) {
     text = text.trim().toLocaleLowerCase();
+
+    let latLng = parseCoordinates(text);
+    console.log(latLng)
+    if (latLng) {
+        map.panTo(latLng);
+        return;
+    }
+
     let title, year;
     let idx = text.indexOf('(');
     if (idx >= 0) {

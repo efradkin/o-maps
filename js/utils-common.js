@@ -83,3 +83,18 @@ function getMapArea(latLngs) {
 function dateDiff(first, second) {
     return Math.round((second - first) / (1000 * 60 * 60 * 24));
 }
+
+// from ChatGPT
+function parseCoordinates(str) {
+    // Regex pattern to match latitude and longitude (separated by space)
+    const regex = /(-?\d{1,3}\.\d+)\s*,*\s*(-?\d{1,3}\.\d+)/;
+    const match = str.match(regex);
+
+    if (match) {
+        const lat = parseFloat(match[1]);
+        const lng = parseFloat(match[2]);
+        return new L.LatLng(lat, lng);
+    } else {
+        return null;  // If no valid coordinates are found
+    }
+}
