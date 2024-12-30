@@ -2,6 +2,7 @@ let authors = {
     ALNKVA: { name: 'Алейникова Екатерина' },
     ANDRV_E: { name: 'Андреев Е.' },
     ANSFRV: { name: 'Анисифоров К.' },
+    ANTPV: { name: 'Антипов М.' },
     APTNKV: { name: 'Апатенков Сергей' },
     APRN: { name: 'Апарин Всеволод' },
     ARTMV: {
@@ -160,6 +161,7 @@ let authors = {
     KCHTV: { name: 'Кочетов А.' },
     KHDNKCH: { name: 'Худеньких Ю.' },
     KLCHTSKA: { name: 'Кульчицкая Е.' },
+    KMN_I: { name: 'Комин И.' },
     KOUKNN_M: { name: 'Куокканен М.' },
     KOUKNN_Y: { name: 'Куокканен Юрий' },
     KNSTNTNV_D: { name: 'Константинов Д.' },
@@ -252,6 +254,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/yurov.html',
         icon: 'ovchnkv.jpg'
     },
+    OZRV: { name: 'Озеров А.' },
     PKHMV: { name: 'Пахомов Сергей' },
     PLBTKO: { name: 'Полуботко А.' },
     PLMNN: { name: 'Пульманен П.' },
