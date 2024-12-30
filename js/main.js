@@ -68,8 +68,8 @@ let groupAllOrient = L.layerGroup([]);
 
 let oMaps = [
     ...rogaineBeketovMaps,
-    ...rogaineMaps,
     ...rogaineKkmMaps,
+    ...rogaineMaps,
     ...funMaps,
     ...specialMaps,
     ...forestMaps,

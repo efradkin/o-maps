@@ -136,7 +136,7 @@ let rogaineKkmMaps = [
         owner: ['SHBN','KKM'],
         types: ['ROGAINE'],
     },
-/*
+/* карта Бекетова
     {
         name: 'Зеркальный - ККМ-лето',
         year: 2011,
