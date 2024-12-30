@@ -468,6 +468,12 @@ if (mapElement) {
         });
     }
 
+    // if (Math.random() < 0.3) {
+        setTimeout(function () {
+            notificationControl.success('С наступающим праздником! 🎄');
+        }, 5000);
+    // }
+
     // --- slider (https://github.com/Eclipse1979/leaflet-slider) ---
     if (!hiddenButtonsMode) {
         let sliderOptions = {
