@@ -42,7 +42,7 @@ let vaskelovoMaps = [
         icon: 'nevsky_azimut.jpg',
         year: 1991,
         excluded: true,
-        area: 25,
+        area: 28,
         url: './maps/forest/vaskelovo/lembolovo_orekhovo_east_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_east_1991_full.jpg',
         bounds: [[60.498581191274454, 30.26767730712891], [60.489619369375575, 30.39178848266602], [60.42410604699255, 30.2479362487793]],
@@ -99,7 +99,7 @@ let vaskelovoMaps = [
     {
         name: 'Васкелово, Банное оз',
         year: 1995,
-        area: 5,
+        area: 7.5,
         url: './maps/forest/vaskelovo/vaskelovo_bannoe_oz.webp',
         link: './original_maps/forest/vaskelovo/vaskelovo_bannoe_oz_full.jpg',
         bounds: [[60.40380737364446, 30.423889160156254], [60.400076803656404, 30.47916412353516], [60.364487731332744, 30.413331985473636]],
@@ -230,7 +230,7 @@ let vaskelovoMaps = [
         name: 'Лемболово-Орехово',
         year: 2023,
         excluded: true, // т.к. есть отчасти дублирующие карты от Родионова
-        area: 40,
+        area: 42,
         url: './maps/forest/vaskelovo/lembolovo_orekhovo_2023.webp',
         bounds: [[60.49050720754783, 30.263643264770508], [60.482684939856334, 30.385179519653324], [60.38871288792411, 30.23471832275391]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
@@ -359,7 +359,7 @@ let vaskelovoMaps = [
     {
         name: 'Орехово, оз Ветренное',
         year: 2022,
-        area: 6,
+        area: 5.6,
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2022.webp',
         bounds: [[60.51476537376076, 30.29368400573731], [60.507794066756006, 30.361404418945316], [60.483276961231034, 30.28012275695801]],
         author: ['STLRV','DBRTSV_V','KUZNTSV_A'],
@@ -408,7 +408,7 @@ let vaskelovoMaps = [
     {
         name: 'Лемболово',
         year: 2024,
-        area: 20,
+        area: 17,
         url: './maps/forest/vaskelovo/lembolovo_2024.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_2024_full.jpg',
         bounds: [[60.445492813989986, 30.259523391723636], [60.43689744859958, 30.369987487792972], [60.38858565746125, 30.23995399475098]],
@@ -446,7 +446,7 @@ let vaskelovoMaps = [
     {
         name: 'Лемболово',
         year: 2007,
-        area: 22,
+        area: 26,
         url: './maps/forest/vaskelovo/lembolovo_2007.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_2007.pdf',
         bounds: [[60.45196959181943, 30.256347656250004], [60.442867869662955, 30.400457382202152], [60.38027218998218, 30.237550735473636]],
@@ -456,7 +456,7 @@ let vaskelovoMaps = [
     {
         name: 'Орехово',
         year: 2024,
-        area: 18,
+        area: 18.5,
         url: './maps/forest/vaskelovo/orekhovo_2024.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_2024_full.jpg',
         bounds: [[60.49139502141355, 30.270080566406254], [60.4788788301667, 30.390758514404297], [60.443714649069115, 30.24973869323731]],

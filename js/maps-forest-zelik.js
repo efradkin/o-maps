@@ -189,7 +189,7 @@ let zelikMaps = [
     {
         name: 'Ильичёво, оз Долгое',
         year: 1995,
-        area: 9,
+        area: 11,
         url: './maps/forest/zelik/ilychevo_dolgoe_1995.webp',
         link: './original_maps/forest/zelik/ilychevo_dolgoe_1995_full.jpg',
         bounds: [[60.310244709596496, 29.704971313476566], [60.30331448158006, 29.81174468994141], [60.272259225923726, 29.692783355712894]],
@@ -720,7 +720,7 @@ let zelikMaps = [
     {
         name: 'Пасторское-Медное оз',
         year: 2009,
-        area: 18,
+        area: 20,
         url: './maps/forest/zelik/pastorskoe_mednoe_2009.webp',
         link: './original_maps/forest/zelik/pastorskoe_mednoe_2009_full.jpg',
         bounds: [[60.24965118236976, 30.009841918945316], [60.2356783354143, 30.175838470458988], [60.21138207197383, 29.996194839477543]],

@@ -42,7 +42,7 @@ let forestMaps = [
     {
         name: 'Цвелодубово',
         year: 1993,
-        area: 7,
+        area: 8,
         url: './maps/forest/tsvelodubovo_1993.webp',
         link: './original_maps/forest/tsvelodubovo_1993_full.jpg',
         bounds: [[60.40194214210233, 29.54704284667969], [60.39651540611492, 29.62077140808106], [60.36138934596662, 29.53554153442383]],
@@ -87,7 +87,7 @@ let forestMaps = [
     {
         name: 'Стрельцово',
         year: 2015,
-        area: 1.3,
+        area: 2,
         url: './maps/forest/streltsovo.webp',
         bounds: [[60.61690218407662, 29.277491569519047], [60.61747069844156, 29.308176040649418], [60.596618619933196, 29.27839279174805]],
         author: ['SHRNN','RYLOV_V'],
@@ -97,7 +97,7 @@ let forestMaps = [
     {
         name: 'Орловский парк',
         year: 1980,
-        area: 3,
+        area: 4,
         url: './maps/forest/orlovsky_park_1980.webp',
         link: './original_maps/forest/orlovsky_park_1980_full.jpg',
         bounds: [[60.06653224902049, 30.242314338684086], [60.05922909614627, 30.30561447143555], [60.04633219385438, 30.225920677185062]],
@@ -426,7 +426,7 @@ let forestMaps = [
     {
         name: 'Поляны',
         year: 2021,
-        area: 1.8,
+        area: 2.2,
         url: './maps/forest/polyany_2021.webp',
         bounds: [[60.31186013428563, 29.307317733764652], [60.308033998984186, 29.34036254882813], [60.28728003940577, 29.29435729980469]],
         author: ['SHRNN','DBRTSV_V'],
@@ -636,7 +636,7 @@ let forestMaps = [
     {
         name: 'Барышево',
         year: 2015,
-        area: 4,
+        area: 3,
         url: './maps/forest/baryshevo_2015.webp',
         bounds: [[60.74678873341951, 29.500093460083008], [60.74041278013193, 29.570732116699222], [60.717331311087456, 29.483957290649414]],
         author: ['MKHLV_A','USNKO'],

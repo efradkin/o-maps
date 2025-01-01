@@ -213,6 +213,7 @@ let rogaineBeketovMaps = [
         owner: 'BKTV',
         types: ['ROGAINE'],
     },
+/*
     {
         //  Бобочинский полигон
         name: 'Гаврилово',
@@ -241,4 +242,5 @@ let rogaineBeketovMaps = [
         owner: 'BKTV',
         types: ['ROGAINE'],
     },
+*/
 ];

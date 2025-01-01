@@ -430,7 +430,6 @@ if (mapElement) {
         L.control.lasso(lassoOptions).addTo(map);
         map.on('lasso.finished', event => {
             let area = getArea(event.latLngs);
-            console.log(area);
             alert(area.toFixed(2) + ' км²')
         });
     }

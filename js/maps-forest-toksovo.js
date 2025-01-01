@@ -4,7 +4,7 @@ let toksovoMaps = [
     {
         name: 'оз Хепоярви, восток',
         year: 1985,
-        area: 5,
+        area: 8.6,
         url: './maps/forest/toksovo/hepojarvi_east_1985.webp',
         link: './original_maps/forest/toksovo/hepojarvi_east_1985_full.jpg',
         bounds: [[60.19342537315118, 30.609111785888675], [60.18996939397238, 30.662240982055668], [60.14898192089998, 30.59872627258301]],
@@ -23,7 +23,7 @@ let toksovoMaps = [
     {
         name: 'Токсово, Малиновая гора',
         year: 1983,
-        area: 3,
+        area: 5.6,
         url: './maps/forest/toksovo/toksovo_malinovaya_gora_1983.webp',
         link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_1983_full.jpg',
         bounds: [[60.1867264159618, 30.454788208007816], [60.177038245151245, 30.50808906555176], [60.162308458713326, 30.439081192016605]],
@@ -167,7 +167,7 @@ let toksovoMaps = [
     {
         name: 'Токсово, запад Хепоярви',
         year: 1989,
-        area: 3.5,
+        area: 4,
         url: './maps/forest/toksovo/toksovo_hepojarvi_west_1987.webp',
         link: './original_maps/forest/toksovo/toksovo_hepojarvi_west_1987_full.jpg',
         bounds: [[60.19636906842321, 30.543708801269535], [60.192700074357255, 30.589456558227543], [60.15790959006861, 30.53400993347168]],
@@ -275,7 +275,7 @@ let toksovoMaps = [
     {
         name: 'Токсово - Кавголово',
         year: 1989,
-        area: 3,
+        area: 4,
         url: './maps/forest/toksovo/kavgolovo_1989.webp',
         link: './original_maps/forest/toksovo/kavgolovo_1989_full.jpg',
         bounds: [[60.19180409489582, 30.51589965820313], [60.18749451865291, 30.55778503417969], [60.15585943074604, 30.507745742797855]],
@@ -531,8 +531,9 @@ let toksovoMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Карабсельки, юг',
+        name: 'Корабсельки, юг',
         year: 2012,
+        area: 2.5,
         url: './maps/forest/toksovo/karabselky_2013.webp',
         link: './original_maps/forest/toksovo/karabselky_2013_full.jpg',
         bounds: [[60.10702361186672, 30.393161773681644], [60.10807161759284, 30.451612472534183], [60.089202411877785, 30.393719673156742]],
