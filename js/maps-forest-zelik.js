@@ -526,8 +526,12 @@ let zelikMaps = [
     },
     {
         name: 'Старый Белоостров',
-        url: './maps/forest/zelik/old_beloostrov.webp',
+        year: 2007,
+        url: './maps/forest/zelik/old_beloostrov_2007.webp',
+        link: './original_maps/forest/zelik/old_beloostrov_2007_full.jpg',
         bounds: [[60.2153687463682, 30.034604072570804], [60.21325821440992, 30.064344406127933], [60.20507062338418, 30.03121376037598]],
+        author: ['SHRNN','RYLOV_V'],
+        areas: [70, 30],
         types: ['ORIENT'],
         zindex: 2
     },
@@ -566,6 +570,14 @@ let zelikMaps = [
         bounds: [[60.129815556057196, 29.943172931671146], [60.126716265625745, 29.95851516723633], [60.12330670901339, 29.9383020401001]],
         author: 'SHRNN',
         owner: 'SHRNN',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Сестрорецкие Дюны',
+        year: 2021,
+        url: './maps/forest/zelik/sestroretskie_djuny_2021.webp',
+        bounds: [[60.11853915056914, 29.968643188476566], [60.118410865915045, 29.975595474243168], [60.11331114604577, 29.96703386306763]],
+        author: 'DRBSHV',
         types: ['ORIENT'],
     },
     {

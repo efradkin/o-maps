@@ -470,7 +470,7 @@ if (mapElement) {
 
     // if (Math.random() < 0.3) {
         setTimeout(function () {
-            notificationControl.success('С наступающим праздником! 🎄');
+            notificationControl.success('С Новым Годом! 🎄');
         }, 5000);
     // }
 
