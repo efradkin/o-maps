@@ -902,6 +902,16 @@ let cityMaps = [
         types: ['ORIENT', 'CITY'],
     },
     {
+        name: 'Пушкин, школа №552',
+        year: 2018,
+        url: './maps/city/pushkin_school_552_2018.webp',
+        link: './original_maps/city/pushkin_school_552_2018_full.jpg',
+        bounds: [[59.7369678799638, 30.398890972137455], [59.736784040904226, 30.40178775787354], [59.73483744766446, 30.398440361022953]],
+        author: 'SHRNN',
+        owner: 'SHRNN',
+        types: ['ORIENT', 'CITY'],
+    },
+    {
         name: 'Пушкин, школа №645',
         year: 2016,
         url: './maps/city/pushkin_school_645.webp',
