@@ -23,6 +23,7 @@ let parkMaps = [
     {
         name: 'Парк Победы',
         year: 2020,
+        info: 'Фото-квест по парку.',
         url: './maps/parks/pobedy_2020.webp',
         link: './original_maps/parks/pobedy_2020_full.jpg',
         bounds: [[59.873216517019806, 30.318918228149418], [59.87246261338842, 30.34007549285889], [59.86449172940988, 30.31690120697022]],
@@ -265,7 +266,7 @@ let parkMaps = [
     {
         name: 'Таврический сад',
         year: 2023,
-        url: './maps/parks/tavrichesky_2023.jpg',
+        url: './maps/parks/tavrichesky_2023.webp',
         bounds: [[59.94823046787108, 30.367712974548343], [59.947607215923064, 30.37899971008301], [59.943663263827155, 30.366854667663574]],
         author: 'FDRV_L',
         types: ['ORIENT', 'PARK'],
@@ -317,7 +318,8 @@ let parkMaps = [
     {
         name: 'Александровский сад',
         year: 2020,
-        url: './maps/parks/aleksandrovsky_sad_2020.jpg',
+        info: 'Адмиралтейский квест.',
+        url: './maps/parks/aleksandrovsky_sad_2020.webp',
         bounds: [[59.93639742638281, 30.300679206848148], [59.94020251615056, 30.310270786285404], [59.933602449579325, 30.30462741851807]],
         author: ['FDRV_L','BBCH_A'],
         types: ['ORIENT', 'PARK'],
@@ -423,7 +425,7 @@ let parkMaps = [
     {
         name: 'Южно-Приморский парк',
         year: 2021,
-        url: './maps/parks/yuzhno_promorsky_2021.jpg',
+        url: './maps/parks/yuzhno_promorsky_2021.webp',
         bounds: [[59.85716544875492, 30.1600456237793], [59.85613102033116, 30.174851417541507], [59.847466419624396, 30.157384872436523]],
         types: ['ORIENT', 'PARK'],
         author: 'ZCHNV',
