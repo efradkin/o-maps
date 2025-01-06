@@ -33,7 +33,7 @@ let authors = {
     BRNVA: { name: 'Баранова В.' },
     BRDR: { name: 'Бердар Азиз' },
     BRSVA_I: { name: 'Борисова И.' },
-    BRTNK: { name: 'Бортник В.' },
+    BRTNK_V: { name: 'Бортник В.' },
     BSTRV_A: { name: 'Быстров А.' },
     BVZ: { name: 'Бевза Татьяна' },
     BZNV_A: {
@@ -309,7 +309,7 @@ let authors = {
     },
     SRTSKY: { name: 'Сиротский В.' },
     SSNNA: { name: 'Соснина Н.' },
-    STLV: { name: 'Стулов Сергей' },
+    STLV_S: { name: 'Стулов Сергей' },
     STLRV: { name: 'Столяров А.' },
     STPNVA_I: {
         name: 'Степанова Ирина',
@@ -376,5 +376,81 @@ let authors = {
     ZHMNTKV: { name: 'Жаманткова Надежда' },
     ZNDR: { name: 'Зиндер Л.' },
     ZRNA: { name: 'Зорина Н.' },
+    /* --- МОСКВА --- */
+    BRTNK_A: {
+        name: 'Бортник Алексей'
+    },
+    SSO_MIFI: {
+        name: 'Бригада ССО МИФИ'
+    },
+    GRCHV_D: {
+        name: 'Дмитрий Грачев'
+    },
+    ERMCHNKV_A: {
+        name: 'Ермаченков Алексей'
+    },
+    ERMCHNKV_F: {
+        name: 'Ермаченков Филипп'
+    },
+    ZHRDV_V: {
+        name: 'Жердев Владимир'
+    },
+    ZLTRV_S: {
+        name: 'Золотарев Станислав'
+    },
+    ZUEV_A: {
+        name: 'Зуев Алексей'
+    },
+    KLZHNY: {
+        name: 'Калюжный Александр'
+    },
+    KSTLV_E: {
+        name: 'Костылев Егор'
+    },
+    KRSVSKY_A: {
+        name: 'Красовский Александр'
+    },
+    LKN_A: {
+        name: 'Лукин Андрей'
+    },
+    MTN_Y: {
+        name: 'Митин Юрий'
+    },
+    NKRSV_S: {
+        name: 'Некрасов Сергей'
+    },
+    PZDV_S: {
+        name: 'Поздеев Сергей'
+    },
+    SMKN_S: {
+        name: 'Симакин Сергей'
+    },
+    SKRPKO_S: {
+        name: 'Скрипко Сергей'
+    },
+    SYTV_N: {
+        name: 'Сытов Николай'
+    },
+    TRNN_A: {
+        name: 'Таранин Анатолий'
+    },
+    TTYNN_V: {
+        name: 'Тутынин Владимир'
+    },
+    TTYNN_M: {
+        name: 'Тутынин Марк'
+    },
+    FLVSKY_S: {
+        name: 'Фалевский Сергей'
+    },
+    JASHPTRV: {
+        name: 'Яшпатров Геннадий'
+    },
+    SHRKHV: {
+        name: 'Шорохов Сергей'
+    },
+    YURCHK: {
+        name: 'Юрчук Сергей'
+    },
 };
 

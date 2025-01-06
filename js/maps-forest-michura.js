@@ -56,7 +56,7 @@ let michuraMaps = [
         bounds: [[60.54723610930417, 29.801445007324222], [60.54394407261173, 29.87465858459473], [60.5113855334377, 29.794406890869144]],
         owner: 'KURD',
         types: ['ORIENT'],
-        author: ['DJCHKV','STLV','PPV_D'],
+        author: ['DJCHKV','STLV_S','PPV_D'],
     },
     {
         name: 'Золотая Долина',

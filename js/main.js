@@ -67,6 +67,7 @@ let groupUnknownYear = L.layerGroup([]);
 let groupAllOrient = L.layerGroup([]);
 
 let oMaps = [
+    ...moscowMaps,
     ...rogaineBeketovMaps,
     ...rogaineKkmMaps,
     ...rogaineMaps,
