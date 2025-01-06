@@ -106,7 +106,8 @@ let owners = {
         name: '© Клуб "Nord-West"'
     },
     OPNBND: {
-        name: '© OpenBand - <a href="https://orientband.ru" target="_blank">сайт</a> и <a href="https://vk.com/openband_ru" target="_blank">ВК</a>'
+        name: '© OpenBand - <a href="https://orientband.ru" target="_blank">сайт</a> и <a href="https://vk.com/openband_ru" target="_blank">ВК</a>',
+        icon: 'openband.jpg'
     },
     PARADA: {
         name: '© Екатерина Новикова (PARADA) - <a href="https://parda.ru/about" target="_blank">сайт</a> и <a href="https://vk.com/parada_ekaterina" target="_blank">ВК</a>'
@@ -177,7 +178,8 @@ let owners = {
         name: '@ Дмитрий Грачев'
     },
     ERMCHNKV_A: {
-        name: '@ Ермаченков Алексей, 89164951315'
+        name: '@ Ермаченков Алексей, 89164951315',
+        icon: 'mifi.jpg'
     },
     FSO_MSK: {
         name: '@ ФСО Москвы, 89036865593',
@@ -196,7 +198,8 @@ let owners = {
         name: '@ КСО Ориента-Весна'
     },
     ORNTA_KNTSVO: {
-        name: '@ КСО Ориента-Кунцево'
+        name: '@ КСО Ориента-Кунцево',
+        icon: 'orienta-kuntsevo.jpg'
     },
     ORNTA_SKRM: {
         name: '@ КСО Ориента-Скрум'
@@ -217,7 +220,8 @@ let owners = {
         name: '@ Сухарев Пётр, 89258822600'
     },
     SYTV_N: {
-        name: '@ Сытов Николай, 89164980105'
+        name: '@ Сытов Николай, 89164980105',
+        icon: 'mm.jpg'
     },
     KSTLV_E: {
         name: '@ Костылев Егор'
