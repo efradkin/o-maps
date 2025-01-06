@@ -452,5 +452,8 @@ let authors = {
     YURCHK: {
         name: 'Юрчук Сергей'
     },
+    JAKMV: {
+        name: 'Якимов Семён'
+    },
 };
 
