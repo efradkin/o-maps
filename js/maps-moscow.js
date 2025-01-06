@@ -690,11 +690,12 @@ let moscowMaps = [
     {
         name: 'Большая Битца',
         year: 2023,
-        info: 'Устаревшая условно-бесплатная карта, генерализация под 15000.',
+        excluded: true,
+        info: 'Устаревшая условно-бесплатная карта 2006-2022, генерализация А.Минакова под 15000 сделана в 2022-2023.',
         url: './maps/moscow/big_bitsa_2023.webp',
         link: './original_maps/moscow/big_bitsa_2023_full.jpg',
         bounds: [[55.6551224230224, 37.51118659973145], [55.64340221826978, 37.61770248413087], [55.55810734020984, 37.47779846191407]],
-        author: ['SYTV_N','MTN_Y','JASHPTRV','SKRPKO_S','KSTLV_E'],
+        author: ['MNKV','SYTV_N','MTN_Y','JASHPTRV','SKRPKO_S','KSTLV_E','DRNN_S','TTYNN_V','LUK_V','YURCHK','MKHLV_A','SLBDNK'],
         types: ['ORIENT'],
     },
     {
@@ -725,6 +726,16 @@ let moscowMaps = [
         bounds: [[55.63431906914142, 37.51470565795899], [55.631702731562676, 37.54294395446778], [55.60943256797078, 37.5069808959961]],
         author: ['JASHPTRV','SKRPKO_S',],
         owner: 'SYTV_N',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Ясенево, север',
+        year: 2012,
+        url: './maps/moscow/jasenevo_north_2012.webp',
+        link: './original_maps/moscow/jasenevo_north_2012_full.jpg',
+        bounds: [[55.61953931351675, 37.541055679321296], [55.618085265973335, 37.55766391754151], [55.61006280091969, 37.538352012634284]],
+        author: 'KSTLV_E',
+        owner: 'KSTLV_E',
         types: ['ORIENT'],
     },
 /*
