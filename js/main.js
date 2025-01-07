@@ -8,8 +8,6 @@ const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Спорт. карты <a href="https://t.me/orient_spb" target="_blank">СПб и области</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
 
 const ZERO_LATLNG = new L.LatLng(0, 0);
-const centerX = 59.93325843615562;
-const centerY = 30.338916778564457;
 
 const multiX = 1e-5;
 const multiY = 2e-5;
@@ -65,27 +63,6 @@ let group2020th = L.layerGroup([]);
 let groupUnknownYear = L.layerGroup([]);
 
 let groupAllOrient = L.layerGroup([]);
-
-let oMaps = [
-    ...moscowMaps,
-    ...rogaineBeketovMaps,
-    ...rogaineKkmMaps,
-    ...rogaineMaps,
-    ...funMaps,
-    ...specialMaps,
-    ...forestMaps,
-    ...vsevolozhskMaps,
-    ...southMaps,
-    ...priozerskMaps,
-    ...zelikMaps,
-    ...vyborgMaps,
-    ...sosnovoMaps,
-    ...michuraMaps,
-    ...vaskelovoMaps,
-    ...toksovoMaps,
-    ...parkMaps,
-    ...cityMaps,
-];
 
 // Prepare the structures and overlay the maps
 // Firstly load the specified map
@@ -984,7 +961,7 @@ function fullSizeSwitch (e) {
 }
 
 function openStats() {
-    location.href = './charts.html';
+    location.href = CHARTS_PAGE;
 }
 
 function downloadSheet() {

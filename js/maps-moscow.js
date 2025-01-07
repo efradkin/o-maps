@@ -282,7 +282,7 @@ let moscowMaps = [
         url: './maps/moscow/20230130_957.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_957.jpg',
         bounds: [[55.804850746322586, 37.742328643798835], [55.81083179796966, 37.87519454956055], [55.754216198504494, 37.74996757507325]],
-        author: ['MKHLV_A','SLBDNK','TTYNN_V','MNKV','FLVSKY_S',],
+        author: ['ZHRDV_V','TTYNN_V','MNKV','FLVSKY_S','LKN_A'],
         owner: 'FSO_MSK',
         types: ['ORIENT','PARK'],
     },
@@ -297,7 +297,7 @@ let moscowMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Китай-Город',
+        name: 'Москва, Китай-Город',
         year: 2021,
         url: './maps/moscow/20220426_526.webp',
         link: 'http://o-mephi.net/cup/maps/20220426_526.jpg',

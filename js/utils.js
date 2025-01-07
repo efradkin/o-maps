@@ -235,3 +235,19 @@ function authorLabel(author) {
         return author.name;
     }
 }
+
+function selectMapRegion(region) {
+    switch (region) {
+        case 'spb':location.href = './spb.html?map=dvortsovaya'; break;
+        case 'msk':location.href = './moscow.html?map=20220426_526'; break;
+        case 'all':location.href = './index.html'; break;
+    }
+}
+
+function selectChartsRegion(region) {
+    switch (region) {
+        case 'spb': location.href = './charts-spb.html'; break;
+        case 'msk': location.href = './charts-moscow.html'; break;
+        case 'all': location.href = './charts.html'; break;
+    }
+}

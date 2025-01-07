@@ -31,8 +31,8 @@
     <div id="map"></div>
     <select id="map_region_selector" onchange="selectMapRegion(this.value)">
         <option value="spb">Санкт-Петербург</option>
-        <option value="msk">Москва</option>
-        <option value="all" selected>Все регионы</option>
+        <option value="msk" selected>Москва</option>
+        <option value="all">Все регионы</option>
     </select>
     <img id="spinner" src="images/snowman.gif" alt="" />
     <div id="counter"></div>
@@ -57,23 +57,6 @@
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
 
-    <script src="js/maps-city.js"></script>
-    <script src="js/maps-parks.js"></script>
-    <script src="js/maps-forest.js"></script>
-    <script src="js/maps-forest-vsevolozhsk.js"></script>
-    <script src="js/maps-forest-south.js"></script>
-    <script src="js/maps-forest-priozersk.js"></script>
-    <script src="js/maps-forest-zelik.js"></script>
-    <script src="js/maps-forest-toksovo.js"></script>
-    <script src="js/maps-forest-sosnovo.js"></script>
-    <script src="js/maps-forest-michura.js"></script>
-    <script src="js/maps-forest-vaskelovo.js"></script>
-    <script src="js/maps-forest-vyborg.js"></script>
-    <script src="js/maps-special.js"></script>
-    <script src="js/maps-fun.js"></script>
-    <script src="js/maps-rogaine.js"></script>
-    <script src="js/maps-rogaine-beketov.js"></script>
-    <script src="js/maps-rogaine-kkm.js"></script>
     <script src="js/maps-moscow.js"></script>
 
     <script src="js/authors.js"></script>
@@ -83,31 +66,14 @@
     <script src="js/utils-common.js"></script>
 
     <script>
-        const centerX = 59.93325843615562;
-        const centerY = 30.338916778564457;
-        const CHARTS_PAGE = './charts.html';
+        const centerX = 55.753660736343456;
+        const centerY = 37.621006965637214;
+        const CHARTS_PAGE = './charts-moscow.html';
 
         let loadImagesRequired = true;
 
         let oMaps = [
             ...moscowMaps,
-            ...rogaineBeketovMaps,
-            ...rogaineKkmMaps,
-            ...rogaineMaps,
-            ...funMaps,
-            ...specialMaps,
-            ...forestMaps,
-            ...vsevolozhskMaps,
-            ...southMaps,
-            ...priozerskMaps,
-            ...zelikMaps,
-            ...vyborgMaps,
-            ...sosnovoMaps,
-            ...michuraMaps,
-            ...vaskelovoMaps,
-            ...toksovoMaps,
-            ...parkMaps,
-            ...cityMaps,
         ];
     </script>
 

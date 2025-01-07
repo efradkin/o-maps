@@ -28,12 +28,12 @@
 <body class="stat-body">
     <h1>
         O-maps ◪
-        <a href="index.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+        <a href="moscow.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
         <select id="charts_region_selector" onchange="selectChartsRegion(this.value)">
             <option value="spb">Санкт-Петербург</option>
-            <option value="msk">Москва</option>
-            <option value="all" selected>Все регионы</option>
+            <option value="msk" selected>Москва</option>
+            <option value="all">Все регионы</option>
         </select>
     </h1>
 
@@ -84,23 +84,6 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
-    <script src="js/maps-city.js"></script>
-    <script src="js/maps-parks.js"></script>
-    <script src="js/maps-forest.js"></script>
-    <script src="js/maps-forest-vsevolozhsk.js"></script>
-    <script src="js/maps-forest-south.js"></script>
-    <script src="js/maps-forest-priozersk.js"></script>
-    <script src="js/maps-forest-zelik.js"></script>
-    <script src="js/maps-forest-toksovo.js"></script>
-    <script src="js/maps-forest-sosnovo.js"></script>
-    <script src="js/maps-forest-michura.js"></script>
-    <script src="js/maps-forest-vaskelovo.js"></script>
-    <script src="js/maps-forest-vyborg.js"></script>
-    <script src="js/maps-special.js"></script>
-    <script src="js/maps-fun.js"></script>
-    <script src="js/maps-rogaine.js"></script>
-    <script src="js/maps-rogaine-beketov.js"></script>
-    <script src="js/maps-rogaine-kkm.js"></script>
     <script src="js/maps-moscow.js"></script>
 
     <script src="js/authors.js"></script>
@@ -113,23 +96,6 @@
 
         let oMaps = [
             ...moscowMaps,
-            ...rogaineBeketovMaps,
-            ...rogaineKkmMaps,
-            ...rogaineMaps,
-            ...funMaps,
-            ...specialMaps,
-            ...forestMaps,
-            ...vsevolozhskMaps,
-            ...southMaps,
-            ...priozerskMaps,
-            ...zelikMaps,
-            ...vyborgMaps,
-            ...sosnovoMaps,
-            ...michuraMaps,
-            ...vaskelovoMaps,
-            ...toksovoMaps,
-            ...parkMaps,
-            ...cityMaps,
         ];
     </script>
 
