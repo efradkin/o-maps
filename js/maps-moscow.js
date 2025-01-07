@@ -49,18 +49,6 @@ let moscowMaps = [
         owner: 'ORNTA_SKRM',
         types: ['ORIENT','CITY'],
     },
-/*
-    {
-        name: '74-й квартал Ивановского',
-        year: 2022,
-        url: './maps/moscow/20210529_95.webp',
-        link: 'http://o-mephi.net/cup/maps/20210529_95.jpg',
-        bounds: [[55.768474377390305, 37.82227993011475], [55.76738799349502, 37.8348970413208], [55.75811628612568, 37.81968355178834]],
-        author: ['MNKV','ERMCHNKV_F',],
-        owner: 'FSO_MSK',
-        types: ['ORIENT','CITY'],
-    },
-*/
     {
         name: '76-й квартал Вешняков',
         year: 2022,
@@ -1356,12 +1344,13 @@ let moscowMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Осташово',
-        year: 2024,
-        info: 'Московская васна 2024',
-        url: './maps/moscow/ivanovskoe_2024.webp',
-        bounds: [[55.76803982746506, 37.82283782958985], [55.76709828601, 37.83358812332154], [55.7583336169977, 37.8201985359192]],
-        author: ['MNKV','ERMCHNKV_F'],
+        name: '74-й квартал Ивановского',
+        year: 2022,
+        url: './maps/moscow/20210529_95.webp',
+        link: 'http://o-mephi.net/cup/maps/20210529_95.jpg',
+        bounds: [[55.768474377390305, 37.82227993011475], [55.76738799349502, 37.8348970413208], [55.75811628612568, 37.81968355178834]],
+        author: ['MNKV','ERMCHNKV_F',],
+        owner: 'FSO_MSK',
         types: ['ORIENT','CITY'],
     },
     {
