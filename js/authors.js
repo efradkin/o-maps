@@ -416,6 +416,9 @@ let authors = {
     LKN_A: {
         name: 'Лукин Андрей'
     },
+    LNTV: {
+        name: 'Леонтьев Игорь'
+    },
     MTN_Y: {
         name: 'Митин Юрий'
     },

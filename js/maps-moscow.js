@@ -1392,7 +1392,7 @@ let moscowMaps = [
         year: 2014,
         url: './maps/moscow/vatutinki_2014.webp',
         link: './original_maps/moscow/vatutinki_2014_full.jpg',
-        author: 'SHRNN',
+        author: ['LNTV','SHRNN'],
         owner: 'SHRNN',
         bounds: [[55.51738271777423, 37.306866645812995], [55.51495296402017, 37.343859672546394], [55.5021942954998, 37.3063087463379]],
         types: ['ORIENT'],
