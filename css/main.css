@@ -31,6 +31,13 @@ html, body, #map {
 .region-box a {
     text-decoration: none;
 }
+.index-body footer {
+    width: 67%;
+}
+.my-copyright {
+    font-style: italic;
+    font-size: .8em;
+}
 
 #opacityControls {
     text-align: center;
