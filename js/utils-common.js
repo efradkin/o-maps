@@ -36,7 +36,7 @@ function copyToClipboard(text) {
 }
 
 // Function to save map's view (center and zoom) to localStorage
-function saveMapState(map) {
+function saveMapState(map, region) {
     const center = map.getCenter();
     const zoom = map.getZoom();
     const mapState = {
@@ -44,12 +44,12 @@ function saveMapState(map) {
         lng: center.lng,
         zoom: zoom
     };
-    localStorage.setItem('mapState', JSON.stringify(mapState));
+    localStorage.setItem(region + '.mapState', JSON.stringify(mapState));
 }
 
 // Function to load saved map state from localStorage
-function loadMapState() {
-    const savedState = localStorage.getItem('mapState');
+function loadMapState(region) {
+    const savedState = localStorage.getItem(region + '.mapState');
     if (savedState) {
         return JSON.parse(savedState);
     }

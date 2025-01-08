@@ -1,24 +1,14 @@
-﻿ <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Спортивные карты: ориентирование и рогейн</title>
-    <meta name="description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга и области в наглядной форме с фильтрацией и описанием.">
+    <meta name="description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга и Москвы в наглядной форме с фильтрацией и описанием.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/leaflet.css" />
-    <link rel="stylesheet" href="js/ext/Leaflet.contextmenu/leaflet.contextmenu.min.css"/>
-    <link rel="stylesheet" href="js/ext/ZoomBar/L.Control.ZoomBar.css"/>
-    <link rel="stylesheet" href="js/ext/Leaflet.Dialog/Leaflet.Dialog.css"/>
-    <link rel="stylesheet" href="js/ext/Leaflet.EasyButton/easy-button.css"/>
-    <link rel="stylesheet" href="js/ext/leaflet-slider/leaflet-slider.css"/>
-    <link rel="stylesheet" href="js/ext/Leaflet.AnimatedSearchBox/Leaflet.AnimatedSearchBox.css"/>
-    <link rel="stylesheet" href="js/ext/leaflet-compass/leaflet-compass.css"/>
-    <link rel="stylesheet" href="js/ext/Leaflet.QgsMeasure/leaflet.draw.css"/>
-    <link rel="stylesheet" href="js/ext/Leaflet.QgsMeasure/leaflet.qgsmeasure.css"/>
-    <link rel="stylesheet" href="js/ext/leaflet.notifications/leaflet-notifications.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css"/>
 
     <meta property="og:title" content="Спортивные карты Санкт-Петербурга и области: ориентирование и рогейн">
@@ -26,91 +16,55 @@
     <meta property="og:url" content="https://o-maps.spb.ru/">
     <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга и области в наглядной форме с фильтрацией и описанием.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview.jpg">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/ext/jquery.slim.min.js"></script>
+    <script src="js/ext/bootstrap.min.js"></script>
 </head>
-<body>
-    <div id="map"></div>
-    <select id="map_region_selector" onchange="selectMapRegion(this.value)">
-        <option value="spb">Санкт-Петербург</option>
-        <option value="msk">Москва</option>
-        <option value="all" selected>Все регионы</option>
-    </select>
-    <img id="spinner" src="images/snowman.gif" alt="" />
-    <div id="counter"></div>
+<body class="index-body">
+    <header class="main-header">
+        <h1>O-maps ◪</h1>
+    </header>
 
-    <script src="js/ext/leaflet.js"></script>
-    <script src="https://api-maps.yandex.ru/2.1/?lang=en_RU&amp;apikey=<your API-key>" type="text/javascript"></script>
-    <script src="js/ext/Yandex.js"></script>
-    <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
-    <script src="js/ext/Leaflet.contextmenu/leaflet.contextmenu.min.js"></script>
-    <script src="js/ext/ZoomBar/L.Control.ZoomBar.js"></script>
-    <script src="js/ext/Leaflet.Dialog/Leaflet.Dialog.js"></script>
-    <script src="js/ext/Leaflet.EasyButton/easy-button.js"></script>
-    <script src="js/ext/leaflet-slider/leaflet-slider.js"></script>
-    <script src="js/ext/GeometryUtil.js"></script>
-<!--    <script src="js/ext/Leaflet.GeometryUtil/leaflet.geometryutil.js"></script>-->
-    <script src="js/ext/leaflet-lasso/leaflet-lasso.umd.js"></script>
-    <script src="js/ext/Leaflet.AnimatedSearchBox/Leaflet.AnimatedSearchBox.js"></script>
-    <script src="js/ext/leaflet-compass/leaflet-compass.js"></script>
-    <script src="js/ext/Leaflet.QgsMeasure/leaflet.draw.js"></script>
-    <script src="js/ext/Leaflet.QgsMeasure/leaflet.qgsmeasure.min.js"></script>
-    <script src="js/ext/Leaflet.FileLayer/togeojson.js"></script>
-    <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
-    <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
+    <main>
+        <div class="container">
+            <nav>
+                <div class="row g-5">
+                    <div class="col">
+                        <div class="region-box p-3">
+                            <a href="spb.html" target="_self">
+                                <img src="images/spb-half.gif" alt="Санкт-Петербург"> <br />
+                                <h2>СПб</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="region-box p-3">
+                            <a href="moscow.html" target="_self">
+                                <img src="images/moscow-half.gif" alt="Москва"> <br />
+                                <h2>Москва</h2>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="region-box p-3">
+                            <a href="all.html" target="_self">
+                                <img src="images/msk-spb-half.gif" alt="Все вместе"> <br />
+                                <h2>Все вместе</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
-    <script src="js/maps-city.js"></script>
-    <script src="js/maps-parks.js"></script>
-    <script src="js/maps-forest.js"></script>
-    <script src="js/maps-forest-vsevolozhsk.js"></script>
-    <script src="js/maps-forest-south.js"></script>
-    <script src="js/maps-forest-priozersk.js"></script>
-    <script src="js/maps-forest-zelik.js"></script>
-    <script src="js/maps-forest-toksovo.js"></script>
-    <script src="js/maps-forest-sosnovo.js"></script>
-    <script src="js/maps-forest-michura.js"></script>
-    <script src="js/maps-forest-vaskelovo.js"></script>
-    <script src="js/maps-forest-vyborg.js"></script>
-    <script src="js/maps-special.js"></script>
-    <script src="js/maps-fun.js"></script>
-    <script src="js/maps-rogaine.js"></script>
-    <script src="js/maps-rogaine-beketov.js"></script>
-    <script src="js/maps-rogaine-kkm.js"></script>
-    <script src="js/maps-moscow.js"></script>
-
-    <script src="js/authors.js"></script>
-    <script src="js/owners.js"></script>
-    <script src="js/welcome.js"></script>
-    <script src="js/utils.js"></script>
-    <script src="js/utils-common.js"></script>
-
-    <script>
-        const centerX = 59.93325843615562;
-        const centerY = 30.338916778564457;
-        const CHARTS_PAGE = './charts.html';
-
-        let loadImagesRequired = true;
-
-        let oMaps = [
-            ...moscowMaps,
-            ...rogaineBeketovMaps,
-            ...rogaineKkmMaps,
-            ...rogaineMaps,
-            ...funMaps,
-            ...specialMaps,
-            ...forestMaps,
-            ...vsevolozhskMaps,
-            ...southMaps,
-            ...priozerskMaps,
-            ...zelikMaps,
-            ...vyborgMaps,
-            ...sosnovoMaps,
-            ...michuraMaps,
-            ...vaskelovoMaps,
-            ...toksovoMaps,
-            ...parkMaps,
-            ...cityMaps,
-        ];
-    </script>
-
-    <script src="js/main.js"></script>
+            <section>
+                <h3>Карты на карте</h3>
+                <p>Добро пожаловать на сайт-каталог спортивных карт (ориентирование, рогейн, охота на лис, туризм итп).
+                <p>Тут представлены более тысячи карт разных авторов, мест, типов и годов издания.
+                В данный момент в каталоге два региона - <a href="spb.html" target="_self">Санкт-Петербург</a> и <a href="moscow.html" target="_self">Москва</a>. Возможно, этот список со временем расширится.
+                <p>Более подробную информацию о сайте можно найти в разделе "О Проекте" на страницах с картами.
+            </section>
+        </div>
+    </main>
 </body>
 </html>

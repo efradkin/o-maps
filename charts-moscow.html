@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Спортивные карты: ориентирование и рогейн</title>
-    <meta name="description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга и области в наглядной форме с фильтрацией и описанием.">
+    <title>Спортивные карты Москвы: ориентирование и рогейн</title>
+    <meta name="description" content="Карты? Найдутся все! Все спортивные карты Москвы и области в наглядной форме с фильтрацией и описанием.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css"/>
     <link
@@ -31,6 +31,7 @@
         <a href="moscow.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
         <select id="charts_region_selector" onchange="selectChartsRegion(this.value)">
+            <option value="index">Начальная страница</option>
             <option value="spb">Санкт-Петербург</option>
             <option value="msk" selected>Москва</option>
             <option value="all">Все регионы</option>
@@ -74,7 +75,7 @@
             </thead>
         </table>
 
-        <p class="stat_result_article">Количество карт, <a href="index.html?wo-author">где автор не указан</a>: <span id="no_authors_quantity"></span>.</p>
+        <p class="stat_result_article">Количество карт, <a href="all.html?wo-author">где автор не указан</a>: <span id="no_authors_quantity"></span>.</p>
 
         <hr />
         <p class="stat_result_article" style="text-align: left"><sup>⚹</sup> Площадь большинства карт высчитывается, исходя из координат листа карты. Для компенсации того, что реальная карта практически всегда меньше, введён понижающий коэффициент 70%. Площадь некоторых (в основном, крупных) карт указана вручную.</p>

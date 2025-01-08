@@ -102,7 +102,7 @@ if (mapElement) {
 
     let savedState;
     if (!MAP_NAME_PARAM) {
-        savedState = loadMapState();
+        savedState = loadMapState(REGION_KEY);
     }
     let layers = [
         osmLayer, parkGroup, cityGroup, forestGroup, specialGroup,
@@ -206,8 +206,8 @@ if (mapElement) {
     });
 
     // Save the map state whenever the map is moved or zoomed
-    map.on('moveend', () => saveMapState(map));
-    map.on('zoomend', () => saveMapState(map));
+    map.on('moveend', () => saveMapState(map, REGION_KEY));
+    map.on('zoomend', () => saveMapState(map, REGION_KEY));
 
     L.control.scale().addTo(map);
 

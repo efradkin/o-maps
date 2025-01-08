@@ -8,6 +8,30 @@ html, body, #map {
     height: 100%;
     width: 100%;
 }
+
+.index-body {
+    justify-items: center;
+    background-color: #bddab1;
+}
+.index-body h1 {
+    padding: 30px;
+}
+.index-body section h3 {
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+.region-box {
+    text-align: center;
+    border: 5px solid darkolivegreen;
+    border-radius: 30px;
+}
+.region-box h2 {
+    color: darkolivegreen;
+}
+.region-box a {
+    text-decoration: none;
+}
+
 #opacityControls {
     text-align: center;
     position:absolute;
