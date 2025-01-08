@@ -617,6 +617,16 @@ let cityMaps = [
         owner: 'TMKN'
     },
     {
+        name: 'Клуб "Альтаир", ул Лёни Голикова',
+        year: 2025,
+        url: './maps/city/altair_2025.webp',
+        link: './original_maps/city/altair_2025_full.jpg',
+        bounds: [[59.8422062084439, 30.238602161407474], [59.84134379943523, 30.258600711822513], [59.832578300647974, 30.238623619079593]],
+        types: ['ORIENT', 'CITY'],
+        author: 'TMKN',
+        owner: 'TMKN'
+    },
+    {
         name: 'Школа №339',
         year: 2008,
         url: './maps/city/school_339_2008.webp',
