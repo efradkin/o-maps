@@ -377,6 +377,9 @@ let authors = {
     ZNDR: { name: 'Зиндер Л.' },
     ZRNA: { name: 'Зорина Н.' },
     /* --- МОСКВА --- */
+    ALNKV_A: {
+        name: 'Алейников Алексей'
+    },
     DRNN_S: {
         name: 'Доронин Сергей' // Павлович, ака снеговик
     },
@@ -402,7 +405,7 @@ let authors = {
         name: 'Золотарев Станислав'
     },
     ZUEV_A: {
-        name: 'Зуев Алексей'
+        name: '<a href="mailto:Lesasa@mail.ru" target="_blank">Зуев Алексей</a>'
     },
     KLZHNY: {
         name: 'Калюжный Александр'
@@ -427,6 +430,9 @@ let authors = {
     },
     PZDV_S: {
         name: 'Поздеев Сергей'
+    },
+    RMNV_A: {
+        name: 'Романов Александр'
     },
     SMKN_S: {
         name: 'Симакин Сергей'

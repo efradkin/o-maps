@@ -174,6 +174,9 @@ let owners = {
     ALFRV: {
         name: '@ Алферьев Александр, 89851135004'
     },
+    ALNKV_A: {
+        name: '@ <a href="https://t.me/platforma88km" target="_blank">Алейников Алексей</a>'
+    },
     GRCHV_D: {
         name: '@ Дмитрий Грачев'
     },
@@ -190,6 +193,9 @@ let owners = {
     },
     ISKTL: {
         name: '@ КСО ИСКАТЕЛЬ'
+    },
+    KSTLV_E: {
+        name: '@ Костылев Егор'
     },
     MLKHT: {
         name: '@ КСО Малахит'
@@ -222,8 +228,5 @@ let owners = {
     SYTV_N: {
         name: '@ Сытов Николай, 89164980105',
         icon: 'mm.jpg'
-    },
-    KSTLV_E: {
-        name: '@ Костылев Егор'
     },
 }

@@ -1417,4 +1417,23 @@ let moscowMaps = [
         bounds: [[55.506204608339054, 37.32373237609864], [55.50524460093877, 37.337851524353034], [55.500237600672435, 37.32295989990235]],
         types: ['ORIENT','CITY'],
     },
+    {
+        name: 'Детский Черкизовский парк',
+        year: 2024,
+        url: './maps/moscow/detsky_cherkizovsky_park_2024.webp',
+        link: './original_maps/moscow/detsky_cherkizovsky_park_2024_full.jpg',
+        author: 'ALNKV_A',
+        owner: 'ALNKV_A',
+        bounds: [[55.81022891102612, 37.72597789764405], [55.808287551620985, 37.74322986602784], [55.79930298187762, 37.72194385528565]],
+        types: ['ORIENT','PARK'],
+    },
+    {
+        name: 'Яузский лесопарк',
+        year: 2006,
+        url: './maps/moscow/losiny_ostrov_2006.webp',
+        link: './original_maps/moscow/losiny_ostrov_2006_full.jpg',
+        author: ['RMNV_A','ZUEV_A'],
+        bounds: [[55.83845811140674, 37.670445442199714], [55.83571082279079, 37.69782543182374], [55.81857203662118, 37.665424346923835]],
+        types: ['ORIENT'],
+    },
 ];
