@@ -66,6 +66,15 @@ let sosnovoMaps = [
     },
     {
         name: 'Замостье',
+        year: 1989,
+        url: './maps/forest/sosnovo/zamostie_1989.webp',
+        link: './original_maps/forest/sosnovo/zamostie_1989_full.jpg',
+        bounds: [[60.54651864267247, 30.3178882598877], [60.54360640888423, 30.36423683166504], [60.51603272298398, 30.311708450317386]],
+        author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S','KOUKNN_M'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Замостье',
         year: 1991,
         url: './maps/forest/sosnovo/zamostie_1991.webp',
         link: './original_maps/forest/sosnovo/zamostie_1991_full.jpg',
@@ -204,6 +213,15 @@ let sosnovoMaps = [
     {
         name: 'Снегирёвка',
         year: 1988,
+        url: './maps/forest/sosnovo/snegirevka_1988_1.webp',
+        link: './original_maps/forest/sosnovo/snegirevka_1988_1_full.jpg',
+        bounds: [[60.55580227573843, 30.280079841613773], [60.55196255061042, 30.334196090698246], [60.53195485238091, 30.274500846862797]],
+        author: ['MLVA_M','KAZNTSVA_O','KOUKNN_M'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Снегирёвка',
+        year: 1988,
         url: './maps/forest/sosnovo/snegirevka_1988.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1988_full.jpg',
         bounds: [[60.538562137521424, 30.276474952697757], [60.53816109476326, 30.33908843994141], [60.514490774894206, 30.27467250823975]],
@@ -218,6 +236,15 @@ let sosnovoMaps = [
         bounds: [[60.54189693219184, 30.323939323425297], [60.54060948889669, 30.361232757568363], [60.51459639011832, 30.32200813293457]],
         author: 'RYLOV_V',
         owner: ['ILVS','RYLOV_V'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Снегирёвка',
+        year: 1999,
+        url: './maps/forest/sosnovo/snegirevka_1999.webp',
+        link: './original_maps/forest/sosnovo/snegirevka_1999_full.jpg',
+        bounds: [[60.53761229135715, 30.26119709014893], [60.53512145125236, 30.3178882598877], [60.515251196823, 30.259051322937015]],
+        author: 'SHRNN',
         types: ['ORIENT'],
     },
     {

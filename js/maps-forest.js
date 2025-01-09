@@ -31,6 +31,15 @@ let forestMaps = [
     },
     {
         name: 'Цвелодубово',
+        year: 1995,
+        url: './maps/forest/tsvelodubovo_south_1995.webp',
+        link: './original_maps/forest/tsvelodubovo_south_1995_full.jpg',
+        bounds: [[60.36376621584052, 29.55051898956299], [60.35947923565616, 29.62145805358887], [60.347485430770675, 29.546484947204593]],
+        author: 'MLVA_M',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Цвелодубово',
         year: 1987,
         url: './maps/forest/tsvelodubovo_1987.webp',
         link: './original_maps/forest/tsvelodubovo_1987_full.jpg',
@@ -312,6 +321,15 @@ let forestMaps = [
         link: './original_maps/forest/zerkalny_1991_full.jpg',
         bounds: [[60.276515114183645, 29.060039520263672], [60.26727913379481, 29.157886505126957], [60.24483803916793, 29.0493106842041]],
         author: ['KUZNTSV_S','ISVNNA','KNSTNTNV_D','RDKV','URVNTSV'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Зеркальный',
+        year: 2002,
+        url: './maps/forest/zerkalny_2002.webp',
+        link: './original_maps/forest/zerkalny_2002_full.jpg',
+        bounds: [[60.24590295479465, 29.13359642028809], [60.24462505188773, 29.15934562683106], [60.23596594645027, 29.132137298583988]],
+        author: ['VLKV_K','RDKV','URVNTSV','BLZRV_V','ARTMV'],
         types: ['ORIENT'],
     },
     {
