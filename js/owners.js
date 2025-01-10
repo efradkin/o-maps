@@ -170,15 +170,14 @@ let owners = {
     ZCHNV: {
         name: '© Зачиняев В.А.'
     },
+
     /* --- МОСКВА --- */
+
     ALFRV: {
         name: '@ Алферьев Александр, 89851135004'
     },
     ALNKV_A: {
         name: '@ <a href="https://t.me/platforma88km" target="_blank">Алейников Алексей</a>'
-    },
-    GRCHV_D: {
-        name: '@ Дмитрий Грачев'
     },
     ERMCHNKV_A: {
         name: '@ Ермаченков Алексей, 89164951315',
@@ -187,6 +186,9 @@ let owners = {
     FSO_MSK: {
         name: '@ ФСО Москвы, 89036865593',
         icon: 'fso_msk.jpg'
+    },
+    GRCHV_D: {
+        name: '@ Дмитрий Грачев'
     },
     IVNV_AL: {
         name: '@ Иванов Алексей'
@@ -200,8 +202,8 @@ let owners = {
     MLKHT: {
         name: '@ КСО Малахит'
     },
-    ORNTA_VSNA: {
-        name: '@ КСО Ориента-Весна'
+    NLTV_D: {
+        name: '@ Налётов Дмитрий, 89166509491'
     },
     ORNTA_KNTSVO: {
         name: '@ КСО Ориента-Кунцево',
@@ -210,11 +212,11 @@ let owners = {
     ORNTA_SKRM: {
         name: '@ КСО Ориента-Скрум'
     },
-    YZAO: {
-        name: '@ КСО ЮЗАО-Теам'
+    ORNTA_VSNA: {
+        name: '@ КСО Ориента-Весна'
     },
-    NLTV_D: {
-        name: '@ Налётов Дмитрий, 89166509491'
+    SKHRV_P: {
+        name: '@ Сухарев Пётр, 89258822600'
     },
     SRPNSKY: {
         name: '@ Серпинский Станислав, 89160426587'
@@ -222,11 +224,11 @@ let owners = {
     STLV_S: {
         name: '@ Стулов Сергей'
     },
-    SKHRV_P: {
-        name: '@ Сухарев Пётр, 89258822600'
-    },
     SYTV_N: {
         name: '@ Сытов Николай, 89164980105',
         icon: 'mm.jpg'
+    },
+    YZAO: {
+        name: '@ КСО ЮЗАО-Теам'
     },
 }

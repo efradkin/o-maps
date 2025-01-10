@@ -379,110 +379,45 @@ let authors = {
 
     /* --- МОСКВА --- */
 
-    ALNKV_A: {
-        name: 'Алейников Алексей'
-    },
-    ALSHN: {
-        name: 'Алешин В.'
-    },
+    ALNKV_A: { name: 'Алейников Алексей' },
+    ALSHN: { name: 'Алешин В.' },
+    BRTNK_A: { name: 'Бортник Алексей' },
     DRNN_S: {
         name: 'Доронин Сергей' // Павлович, ака снеговик
     },
-    BRTNK_A: {
-        name: 'Бортник Алексей'
-    },
-    SSO_MIFI: {
-        name: 'Бригада ССО МИФИ'
-    },
-    GRCHV_D: {
-        name: 'Дмитрий Грачев'
-    },
-    ERMCHNKV_A: {
-        name: 'Ермаченков Алексей'
-    },
-    ERMCHNKV_F: {
-        name: 'Ермаченков Филипп'
-    },
-    ZHRDV_V: {
-        name: 'Жердев Владимир'
-    },
-    ZLTRV_S: {
-        name: 'Золотарев Станислав'
-    },
-    ZUEV_A: {
-        name: '<a href="mailto:Lesasa@mail.ru" target="_blank">Зуев Алексей</a>'
-    },
-    KLZHNY: {
-        name: 'Калюжный Александр'
-    },
-    IGNTNKO: {
-        name: 'Игнатенко Валерий'
-    },
-    KSTLV_E: {
-        name: 'Костылев Егор'
-    },
-    KRSVSKY_A: {
-        name: 'Красовский Александр'
-    },
-    LKN_A: {
-        name: 'Лукин Андрей'
-    },
-    LNTV: {
-        name: 'Леонтьев Игорь'
-    },
-    MTN_Y: {
-        name: 'Митин Юрий'
-    },
-    MLNKV_V: {
-        name: 'Мыльников В.'
-    },
-    NKRSV_S: {
-        name: 'Некрасов Сергей'
-    },
-    PZDV_S: {
-        name: 'Поздеев Сергей'
-    },
-    RMNV_A: {
-        name: 'Романов Александр'
-    },
-    SDRNK: {
-        name: 'Сидоренко В.'
-    },
-    SMKN_S: {
-        name: 'Симакин Сергей'
-    },
-    SKRPKO_S: {
-        name: 'Скрипко Сергей'
-    },
-    SYTV_N: {
-        name: 'Сытов Николай'
-    },
-    TRNN_A: {
-        name: 'Таранин Анатолий'
-    },
-    TLMCHV: {
-        name: 'Толмачёв Г.'
-    },
-    TTYNN_V: {
-        name: 'Тутынин Владимир'
-    },
-    TTYNN_M: {
-        name: 'Тутынин Марк'
-    },
-    FLVSKY_S: {
-        name: 'Фалевский Сергей'
-    },
-    JASHPTRV: {
-        name: 'Яшпатров Геннадий'
-    },
-    SHRKHV: {
-        name: 'Шорохов Сергей'
-    },
-    YURCHK: {
-        name: 'Юрчук Сергей'
-    },
-    JAKMV: {
-        name: 'Якимов Семён'
-    },
+    ERMCHNKV_A: { name: 'Ермаченков Алексей' },
+    ERMCHNKV_F: { name: 'Ермаченков Филипп' },
+    FMN_I: { name: 'Фомин И.' },
+    GRCHV_D: { name: 'Дмитрий Грачев' },
+    FSHN_A: { name: 'Фишин А.' },
+    FLVSKY_S: { name: 'Фалевский Сергей' },
+    GLDRV: { name: 'Голдырев Е.' },
+    IGNTNKO: { name: 'Игнатенко Валерий' },
+    JAKMV: { name: 'Якимов Семён' },
+    JASHPTRV: { name: 'Яшпатров Геннадий' },
+    KLZHNY: { name: 'Калюжный Александр' },
+    KSTLV_E: { name: 'Костылев Егор' },
+    KRSVSKY_A: { name: 'Красовский Александр' },
+    LKN_A: { name: 'Лукин Андрей' },
+    LNTV: { name: 'Леонтьев Игорь' },
+    MTN_Y: { name: 'Митин Юрий' },
+    MLNKV_V: { name: 'Мыльников В.' },
+    NKRSV_S: { name: 'Некрасов Сергей' },
+    PZDV_S: { name: 'Поздеев Сергей' },
+    RMNV_A: { name: 'Романов Александр' },
+    SDRNK: { name: 'Сидоренко В.' },
+    SHRKHV: { name: 'Шорохов Сергей' },
+    SKRPKO_S: { name: 'Скрипко Сергей' },
+    SMKN_S: { name: 'Симакин Сергей' },
+    SSO_MIFI: { name: 'Бригада ССО МИФИ' },
+    SYTV_N: { name: 'Сытов Николай' },
+    TLMCHV: { name: 'Толмачёв Г.' },
+    TRNN_A: { name: 'Таранин Анатолий' },
+    TTYNN_M: { name: 'Тутынин Марк' },
+    TTYNN_V: { name: 'Тутынин Владимир' },
+    YURCHK: { name: 'Юрчук Сергей' },
+    ZHRDV_V: { name: 'Жердев Владимир' },
+    ZLTRV_S: { name: 'Золотарев Станислав' },
+    ZUEV_A: { name: '<a href="mailto:Lesasa@mail.ru" target="_blank">Зуев Алексей</a>' },
 };
 
