@@ -376,9 +376,14 @@ let authors = {
     ZHMNTKV: { name: 'Жаманткова Надежда' },
     ZNDR: { name: 'Зиндер Л.' },
     ZRNA: { name: 'Зорина Н.' },
+
     /* --- МОСКВА --- */
+
     ALNKV_A: {
         name: 'Алейников Алексей'
+    },
+    ALSHN: {
+        name: 'Алешин В.'
     },
     DRNN_S: {
         name: 'Доронин Сергей' // Павлович, ака снеговик
@@ -410,6 +415,9 @@ let authors = {
     KLZHNY: {
         name: 'Калюжный Александр'
     },
+    IGNTNKO: {
+        name: 'Игнатенко Валерий'
+    },
     KSTLV_E: {
         name: 'Костылев Егор'
     },
@@ -425,6 +433,9 @@ let authors = {
     MTN_Y: {
         name: 'Митин Юрий'
     },
+    MLNKV_V: {
+        name: 'Мыльников В.'
+    },
     NKRSV_S: {
         name: 'Некрасов Сергей'
     },
@@ -433,6 +444,9 @@ let authors = {
     },
     RMNV_A: {
         name: 'Романов Александр'
+    },
+    SDRNK: {
+        name: 'Сидоренко В.'
     },
     SMKN_S: {
         name: 'Симакин Сергей'
@@ -445,6 +459,9 @@ let authors = {
     },
     TRNN_A: {
         name: 'Таранин Анатолий'
+    },
+    TLMCHV: {
+        name: 'Толмачёв Г.'
     },
     TTYNN_V: {
         name: 'Тутынин Владимир'
