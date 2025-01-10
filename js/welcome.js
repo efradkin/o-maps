@@ -36,6 +36,8 @@ const welcomeDialogContent = `
 <ul>
 <li>Первое спасибо - всем, кто присылал карты, сообщал об ошибках, советовал улучшения.</li>
 <li>И отдельное - Владимиру Борисову, передавшему мне огромный архив бумажных карт для сканирования.</li>
+<li>Базой для Московского раздела каталога стала страничка <a href="http://o-mephi.net/index.php?pid=145" target="_blank">о-МИФИ</a> Алексея Ермаченкова.</li>
+<li>Бездонный источник карт практически любых регионов - <a href="https://disk.yandex.ru/d/Sb3qwOSMuEIpDg" target="_blank">онлайн архив</a> Виктора Быркина.</li>
 <li>Этот проект во многом является продолжением <a href="http://www.northernwind.spb.ru/mapbase/online/" target="_blank">Базы данных спортивных карт</a> Дениса Ельцова.</li>
 <li>Технической основой является JavaScript-библиотека <a href="https://leafletjs.com/" target="_blank">Leaflet</a> с дополнениями к ней.</li>
 <li>The icons created by <a href="https://www.flaticon.com/">Good Ware - Flaticon</a>.</li>
