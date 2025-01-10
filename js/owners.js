@@ -184,7 +184,7 @@ let owners = {
         icon: 'mifi.jpg'
     },
     FSO_MSK: {
-        name: '@ ФСО Москвы, 89036865593',
+        name: '@ ФСО Москвы, 8 (962) 947 17-88',
         icon: 'fso_msk.jpg'
     },
     GRCHV_D: {
