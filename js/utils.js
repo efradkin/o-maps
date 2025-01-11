@@ -7,11 +7,11 @@ function isMapHidden(m) {
 }
 
 function mapLink(url) {
-    return location.origin + '?map=' + extractFileName(url);
+    return location.origin + location.pathname + '?map=' + extractFileName(url);
 }
 
 function authorLink(author) {
-    return location.origin + '?author=' + author;
+    return location.origin + location.pathname + '?author=' + author;
 }
 
 function recalculateLayers() {
