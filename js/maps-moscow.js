@@ -1441,6 +1441,16 @@ let moscowMaps = [
         types: ['ORIENT','ROGAINE'],
     },
     {
+        name: 'МОСКВА',
+        year: 2023,
+        info: 'Мосдень',
+        url: './maps/moscow/moscow_rogaine_2023.webp',
+        link: './original_maps/moscow/mosden_2023.pdf',
+        bounds: [[55.829974629678674, 37.578306198120124], [55.81661903750816, 37.709455490112305], [55.72798009228692, 37.54577636718751]],
+        owner: 'GOLDMRSHRT',
+        types: ['ORIENT','ROGAINE'],
+    },
+    {
         name: 'Братеевский каскадный парк',
         year: 2023,
         info: 'Московская васна 2024',
