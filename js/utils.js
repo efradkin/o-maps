@@ -11,7 +11,11 @@ function mapLink(url) {
 }
 
 function authorLink(author) {
-    return location.origin + location.pathname + '?author=' + author;
+    let pathname = location.pathname;
+    if (pathname.includes('charts-')) {
+        pathname = pathname.split('charts-').join('');
+    }
+    return location.origin + pathname + '?author=' + author;
 }
 
 function recalculateLayers() {
