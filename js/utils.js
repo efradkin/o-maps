@@ -245,6 +245,14 @@ function selectMapRegion(region) {
     }
 }
 
+function selectStarts(value) {
+    switch (value) {
+        case 'index':location.href = './index.html'; break;
+        case 'maps':location.href = './spb.html'; break;
+        case 'starts':location.href = './starts.html'; break;
+    }
+}
+
 function selectChartsRegion(region) {
     switch (region) {
         case 'index':location.href = './index.html'; break;

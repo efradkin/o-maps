@@ -59,6 +59,15 @@ html, body, #map {
     padding: 5px;
     border-radius: 5px;
 }
+#starts_selector {
+    position:absolute;
+    top:20px;
+    right:160px;
+    z-index: 777;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
 #charts_region_selector {
     position: relative;
     top: -6px;
@@ -139,7 +148,9 @@ label:has(> span span .layer-separator) {
     border: 1px solid lightgray;
 }
 */
-
+.leaflet-popup-content {
+    min-height: 170px;
+}
 .selected-menu-item {
     background-color: lightgrey;
 }

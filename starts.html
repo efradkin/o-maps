@@ -29,11 +29,10 @@
 </head>
 <body>
     <div id="map"></div>
-    <select id="map_region_selector" onchange="selectMapRegion(this.value)">
+    <select id="starts_selector" onchange="selectStarts(this.value)">
         <option value="index">Начальная страница</option>
-        <option value="spb">Санкт-Петербург</option>
-        <option value="msk" selected>Москва</option>
-        <option value="all">Все регионы вместе</option>
+        <option value="maps">Карты на карте</option>
+        <option value="starts" selected>Старты на карте</option>
     </select>
     <img id="spinner" src="images/snowman.gif" alt="" />
     <div id="counter"></div>
@@ -58,7 +57,10 @@
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
 
-    <script src="js/maps-moscow.js"></script>
+    <script src="js/maps-rogaine.js"></script>
+    <script src="js/maps-forest-vyborg.js"></script>
+    <script src="js/maps-city.js"></script>
+    <script src="js/maps-starts.js"></script>
 
     <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
@@ -68,19 +70,22 @@
     <script src="js/utils-common.js"></script>
 
     <script>
-        const centerX = 55.753660736343456;
-        const centerY = 37.621006965637214;
-        const CHARTS_PAGE = './charts-moscow.html';
-        const REGION_KEY = 'msk';
+        const centerX = 60.60306524636498;
+        const centerY = 29.918861389160156;
+        const CHARTS_PAGE = './charts-spb.html';
+        const REGION_KEY = 'starts';
 
         let loadImagesRequired = true;
 
         let oMaps = [
-            ...moscowMaps,
+            ...rogaineMaps,
+            ...vyborgMaps,
+            ...cityMaps,
+            ...startsMaps,
         ];
     </script>
 
-    <script src="js/map-build.js"></script>
+    <script src="js/map-build-starts.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

@@ -35,6 +35,10 @@
         <option value="msk">Москва</option>
         <option value="all">Все регионы вместе</option>
     </select>
+    <select id="starts_selector" onchange="selectStarts(this.value)">
+        <option value="maps" selected>Карты на карте</option>
+        <option value="starts">Старты на карте</option>
+    </select>
     <img id="spinner" src="images/snowman.gif" alt="" />
     <div id="counter"></div>
 
@@ -76,6 +80,7 @@
     <script src="js/maps-rogaine-beketov.js"></script>
     <script src="js/maps-rogaine-kkm.js"></script>
 
+    <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
     <script src="js/owners.js"></script>
     <script src="js/welcome.js"></script>
@@ -111,6 +116,7 @@
         ];
     </script>
 
+    <script src="js/map-build.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

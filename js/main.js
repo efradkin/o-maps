@@ -5,8 +5,6 @@ const MAP_NAME_PARAM = urlParams.get('map');
 const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 
-const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | Спорт. карты <a href="https://t.me/orient_spb" target="_blank">СПб и области</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
-
 const ZERO_LATLNG = new L.LatLng(0, 0);
 
 const multiX = 1e-5;
@@ -45,25 +43,6 @@ if (hbm != null) {
 
 let mapOverlays = [];
 
-let funGroup = L.layerGroup([]);
-let specialGroup = L.layerGroup([]);
-let forestGroup = L.layerGroup([]);
-let parkGroup = L.layerGroup([]);
-let cityGroup = L.layerGroup([]);
-
-let rogaineGroup = L.layerGroup([]);
-let rogaineNewGroup = L.layerGroup([]);
-let rogaineOldGroup = L.layerGroup([]);
-
-let groupRetro = L.layerGroup([]);
-let group90th = L.layerGroup([]);
-let group2000th = L.layerGroup([]);
-let group2010th = L.layerGroup([]);
-let group2020th = L.layerGroup([]);
-let groupUnknownYear = L.layerGroup([]);
-
-let groupAllOrient = L.layerGroup([]);
-
 // Prepare the structures and overlay the maps
 // Firstly load the specified map
 if (MAP_NAME_PARAM) {
@@ -79,41 +58,18 @@ for (const m of oMaps) {
 const defaultZoom = 13;
 
 let searchBox;
-let mapElement = document.getElementById('map');
 if (mapElement) {
-
-    let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 17,
-        attribution: ATTRIBUTION
-    });
-    let openTopoLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-        maxZoom: 17,
-        attribution: ATTRIBUTION
-    });
-    let yandexLayer = L.yandex({
-        maxZoom: 17,
-        attribution: ATTRIBUTION
-    });
-    let yandexSatelliteLayer = L.yandex({
-        type: 'satellite',
-        maxZoom: 17,
-        attribution: ATTRIBUTION
-    });
 
     let savedState;
     if (!MAP_NAME_PARAM) {
         savedState = loadMapState(REGION_KEY);
     }
-    let layers = [
-        osmLayer, parkGroup, cityGroup, forestGroup, specialGroup,
-        group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
-    ];
     if (MAP_NAME_PARAM) {
         let m = getMapForName(MAP_NAME_PARAM);
         if (m) {
             let mapType = m.types;
             if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN'))) {
-                layers = [osmLayer, funGroup, rogaineGroup];
+                initialLayers = [osmLayer, funGroup, rogaineGroup];
             }
         }
     }
@@ -124,7 +80,7 @@ if (mapElement) {
         maxZoom: 16,
         center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
         zoom: savedState ? savedState.zoom : defaultZoom,
-        layers: layers,
+        layers: initialLayers,
         contextmenu: true,
         contextmenuWidth: 190,
         contextmenuItems: [{
@@ -215,7 +171,7 @@ if (mapElement) {
     new L.Control.ZoomBar({position: 'topleft'}).addTo(map);
 
     let attributionControl = L.control.attribution().addTo(map);
-    attributionControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a>');
+    attributionControl.setPrefix('');
 
     // --- layers control ---
     let baseMaps = {
@@ -225,31 +181,14 @@ if (mapElement) {
         "Яндекс Спутник": yandexSatelliteLayer
     };
 
-    let overlayMaps = {
-        "Город": cityGroup,
-        "Парки": parkGroup,
-        "Лес": forestGroup,
-        "Специальные": specialGroup,
-        "Все": groupAllOrient,
-        "<span class='layer-separator'>2020-е</span>": group2020th,
-        "2010-е": group2010th,
-        "2000-е": group2000th,
-        "90-е": group90th,
-        "Ретро": groupRetro,
-        "???": groupUnknownYear,
-        "<span class='layer-separator'>Необычные</span>": funGroup,
-        "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
-        "<span class='layer-separator'>Недавние</span>": rogaineNewGroup,
-        "Давние": rogaineOldGroup,
-    };
-
     let layerControlCollapsed = false;
     if (L.Browser.android || L.Browser.mobile) {  // || L.Browser.touch || L.Browser.retina
         layerControlCollapsed = true;
     }
+    let overlayMapsContents = buildOverlayMapsContents();
     let layerControl = L.control.layers(
-        baseMaps, overlayMaps,
-        {collapsed: layerControlCollapsed, autoZIndex: false}).addTo(map);
+        baseMaps, overlayMapsContents,
+        {collapsed: layerControlCollapsed, autoZIndex: false }).addTo(map);
 
     // --- search control ---
     searchBox = L.control.searchbox({
@@ -354,25 +293,6 @@ if (mapElement) {
         }, 'Сводная таблица карт').addTo(map)
     }
 
-/*
-    // --- ruler (https://github.com/gokertanrisever/leaflet-ruler) ---
-    let rulerOptions = {
-        position: 'topleft',
-        lengthUnit: {
-            display: 'км',
-            decimal: 2,
-            factor: null,
-            label: 'L:'
-        },
-        angleUnit: {
-            display: '&deg;',
-            decimal: 2,
-            factor: null,
-            label: 'A:'
-        }
-    };
-    L.control.ruler(rulerOptions).addTo(map);
-*/
     // --- Leaflet.QgsMeasure (https://github.com/gabriel-russo/Leaflet.QgsMeasure)
     if (!hiddenButtonsMode) {
         let qgsmeasureOptions = {
@@ -615,49 +535,7 @@ function buildMap(m) {
         onMapSelect(imgLayer, m);
     });
 
-    let added = false;
-    if (m.types.includes('ROGAINE')) {
-        added = true;
-        imgLayer.addTo(rogaineGroup);
-        let el = imgLayer.getElement();
-        if (el) {
-            el.style.zIndex = 0;
-        }
-
-        if (m.year && m.year >= 2010) {
-            imgLayer.addTo(rogaineNewGroup);
-        }
-        if (m.year && m.year < 2010) {
-            imgLayer.addTo(rogaineOldGroup);
-        }
-    }
-    if (m.types.includes('FUN')) {
-        added = true;
-        imgLayer.addTo(funGroup);
-    }
-    if (m.types.includes('RELIEF')) {
-        added = true;
-        imgLayer.addTo(specialGroup);
-    }
-    if (m.types.includes('WINTER')) {
-        added = true;
-        imgLayer.addTo(specialGroup);
-    }
-    if (m.types.includes('VELO')) {
-        added = true;
-        imgLayer.addTo(specialGroup);
-    }
-    if (m.types.includes('CITY')) {
-        added = true;
-        imgLayer.addTo(cityGroup);
-    }
-    if (m.types.includes('PARK')) {
-        added = true;
-        imgLayer.addTo(parkGroup);
-    }
-    if (!added) {
-        imgLayer.addTo(forestGroup);
-    }
+    allocateMap(m, imgLayer);
 
     if (m.zindex) {
         let el = imgLayer.getElement();
@@ -666,22 +544,6 @@ function buildMap(m) {
         }
     }
 
-    if (isOrientMap(m)) {
-        if (!m.year) {
-            imgLayer.addTo(groupUnknownYear);
-        } else if (m.year >= 2020) {
-            imgLayer.addTo(group2020th);
-        } else if (m.year >= 2010) {
-            imgLayer.addTo(group2010th);
-        } else if (m.year >= 2000) {
-            imgLayer.addTo(group2000th);
-        } else if (m.year >= 1990) {
-            imgLayer.addTo(group90th);
-        } else {
-            imgLayer.addTo(groupRetro);
-        }
-        imgLayer.addTo(groupAllOrient);
-    }
     mapOverlays.push(imgLayer);
 
     let el = imgLayer.getElement();
@@ -737,6 +599,9 @@ function buildPopupText(m, latLngs) {
     if (m.icon) {
         icon = m.icon;
     }
+    if (!icon && (typeof starts !== 'undefined') && m.start && starts[m.start] && starts[m.start].icon) {
+        icon = starts[m.start].icon;
+    }
     if (!icon && m.owner && owners[m.owner] && owners[m.owner].icon) {
         icon = owners[m.owner].icon;
     }
@@ -756,7 +621,13 @@ function buildPopupText(m, latLngs) {
     result += '</b><hr />';
 
     // инфа о карте
-    let info = m.info;
+    let info = '';
+    if (m.start) {
+        info += '<b>' + starts[m.start].name + '.</b> ';
+    }
+    if (m.info) {
+        info += m.info;
+    }
     if (info) {
         result += info + '<br />';
     }
