@@ -29,9 +29,13 @@
 </head>
 <body>
     <div id="map"></div>
-    <select id="starts_selector" onchange="selectStarts(this.value)">
+    <select id="map_region_selector" onchange="selectMapRegion(this.value)">
         <option value="index">Начальная страница</option>
-        <option value="maps">Карты на карте</option>
+        <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+        <option value="spb">Санкт-Петербург</option>
+        <option value="msk">Москва</option>
+        <option value="all">Все регионы вместе</option>
+        <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
         <option value="starts" selected>Старты на карте</option>
     </select>
     <img id="spinner" src="images/snowman.gif" alt="" />

@@ -246,13 +246,6 @@ function selectMapRegion(region) {
         case 'spb':location.href = './spb.html'; break;
         case 'msk':location.href = './moscow.html'; break;
         case 'all':location.href = './all.html'; break;
-    }
-}
-
-function selectStarts(value) {
-    switch (value) {
-        case 'index':location.href = './index.html'; break;
-        case 'maps':location.href = './spb.html'; break;
         case 'starts':location.href = './starts.html'; break;
     }
 }
