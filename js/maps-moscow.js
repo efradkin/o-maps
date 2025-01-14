@@ -690,7 +690,7 @@ let moscowMaps = [
             link: './original_maps/moscow/letovo_2022_full.jpg',
         bounds: [[55.5571000543419, 37.41692304611207], [55.55608060620929, 37.42868185043336], [55.55086158843829, 37.41529226303101]],
         author: 'KLZHNY',
-        owner: 'ERMCHNKV_A',
+        owner: 'LTVO',
         types: ['ORIENT','PARK'],
     },
     {
