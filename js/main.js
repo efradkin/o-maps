@@ -367,7 +367,7 @@ if (mapElement) {
 
     // if (Math.random() < 0.3) {
         setTimeout(function () {
-            notificationControl.success('У нас уже 1200 карт!');
+            notificationControl.success(news[Math.floor(Math.random() * news.length)]);
         }, 5000);
     // }
 
