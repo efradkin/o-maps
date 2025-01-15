@@ -432,7 +432,10 @@ let zelikMaps = [
     {
         name: 'Рощино',
         url: './maps/forest/zelik/roschino.webp',
+        link: './original_maps/forest/zelik/roschino_full.jpeg',
         bounds: [[60.28506777489139, 29.588584899902347], [60.284004132905885, 29.64145660400391], [60.26561893464418, 29.586868286132816]],
+        author: 'SHRPVA',
+        owner: 'SHRPVA',
         types: ['ORIENT'],
     },
     {

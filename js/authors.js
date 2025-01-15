@@ -287,6 +287,7 @@ let authors = {
         name: 'Ширинян Александр', //Альбертович
         about: 'https://o-site.spb.ru/history/Peoples/shar.html' //https://spbof.ru/ru/8-news/31-a-a-shirinyan-idealnykh-kart-ne-byvaet-lyudi-vidyat-ob-ekty-po-raznomu
     },
+    SHRPVA: { name: 'Шарапова Лидия' },
     SHVR: {
         name: 'Швер Евгений',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'

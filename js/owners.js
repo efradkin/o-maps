@@ -140,6 +140,9 @@ let owners = {
     SHRNN: {
         name: 'По вопросам использования карты - Александр Альбертович Ширинян, skishar@mail.ru.'
     },
+    SHRPVA: {
+        name: '© Шарапова Лидия'
+    },
     STRKZK: {
         name: '© Стрекозайки, 8-911-7546601',
         icon: 'strkzky.jpg'
