@@ -50,7 +50,7 @@ function getMapForName(fileName) {
 // searches all the maps for the given text
 function searchMaps(text) {
     let results = [];
-    text = text.toLocaleLowerCase();
+    text = unifyString(text);
     let year = Number(text);
     if (year) {
         for (const m of oMaps) {
@@ -60,12 +60,12 @@ function searchMaps(text) {
         }
     } else {
         for (const m of oMaps) {
-            if (m.name.toLocaleLowerCase().includes(text) && !isMapHidden(m)) {
+            if (unifyString(m.name).includes(text) && !isMapHidden(m)) {
                 results.push(m);
             }
         }
         for (const m of oMaps) {
-            if (!results.includes(m) && m.info && m.info.toLocaleLowerCase().includes(text) && !isMapHidden(m)) {
+            if (!results.includes(m) && m.info && unifyString(m.info).includes(text) && !isMapHidden(m)) {
                 results.push(m);
             }
         }
@@ -76,6 +76,10 @@ function searchMaps(text) {
         }
     }
     return results;
+}
+
+function unifyString(s) {
+    return s.toLocaleLowerCase().replaceAll('ё','е');
 }
 
 // searches the map is the best matches the given text
