@@ -88,15 +88,7 @@ function allocateMap(m, imgLayer) {
         added = true;
         imgLayer.addTo(funGroup);
     }
-    if (m.types.includes('RELIEF')) {
-        added = true;
-        imgLayer.addTo(specialGroup);
-    }
-    if (m.types.includes('WINTER')) {
-        added = true;
-        imgLayer.addTo(specialGroup);
-    }
-    if (m.types.includes('VELO')) {
+    if (m.types.includes('RELIEF') || m.types.includes('WINTER') || m.types.includes('VELO') || m.types.includes('INDOOR')) {
         added = true;
         imgLayer.addTo(specialGroup);
     }
