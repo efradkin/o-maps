@@ -106,7 +106,7 @@ let owners = {
         name: '© Клуб "Nord-West"'
     },
     OPNBND: {
-        name: '© OpenBand - <a href="https://orientband.ru" target="_blank">сайт</a> и <a href="https://vk.com/openband_ru" target="_blank">ВК</a>',
+        name: '© OpenBand, Прозоров Андрей - <a href="https://orientband.ru" target="_blank">сайт</a> и <a href="https://vk.com/openband_ru" target="_blank">ВК</a>',
         icon: 'openband.jpg'
     },
     PARADA: {
@@ -193,6 +193,10 @@ let owners = {
     GRCHV_D: {
         name: '@ Дмитрий Грачев'
     },
+    INCR: {
+        icon: 'inacor.jpg',
+        name: '@ Инакор — интернет активное ориентирование.'
+    },
     IVNV_AL: {
         name: '@ Иванов Алексей'
     },
@@ -233,6 +237,9 @@ let owners = {
     SYTV_N: {
         name: '@ Сытов Николай, 89164980105',
         icon: 'mm.jpg'
+    },
+    TTV_A: {
+        name: '@ Титов Алексей, +7 915 476 2397'
     },
     YZAO: {
         name: '@ КСО ЮЗАО-Теам'

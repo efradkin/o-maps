@@ -1,17 +1,17 @@
 let starts = {
-    'NA': {
+    NA: {
         name: 'Невский Азимут',
         icon: 'na.jpg'
     },
-    'YM': {
+    YM: {
         name: 'Яркий Мир',
         icon: 'ym.jpg'
     },
-    'KKP': {
+    KKP: {
         name: 'Камни (Кубок) Карельского Перешейка',
         icon: 'kkp.jpg'
     },
-    'ST': {
+    ST: {
         name: 'Спринт-Тур',
         icon: 'kjp.jpg'
     },
@@ -19,9 +19,13 @@ let starts = {
         name: '100x24',
         icon: '100x24.jpg'
     },
-    'RFAR': {
+    RFAR: {
         name: 'Redfox Adventure Race',
         icon: 'redfox.jpg'
+    },
+    INCR: {
+        name: 'Инакор — интернет активное ориентирование',
+        icon: 'inacor.jpg'
     },
 };
 
