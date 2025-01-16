@@ -399,6 +399,7 @@ let authors = {
     KLZHNY: { name: 'Калюжный Александр' },
     KCHRNA: { name: 'Качурина Ирина' },
     KHMZV: { name: 'Хамурзов Владимир' },
+    KLSNKV_V: { name: 'Колесников В.' },
     KSTLV_E: { name: 'Костылев Егор' },
     KRSVSKY_A: { name: 'Красовский Александр' },
     LKN_A: { name: 'Лукин Андрей' },
