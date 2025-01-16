@@ -608,6 +608,9 @@ function buildPopupText(m, latLngs) {
     if (!icon && m.author && authors[m.author] && authors[m.author].icon) {
         icon = authors[m.author].icon;
     }
+    if (!icon && m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].icon) {
+        icon = authors[m.author[0]].icon;
+    }
     if (icon) {
         result = '<img src="./icons/' + icon + '" alt="" style="position: fixed;" /><div style="margin-left: 170px;min-height: 160px;"';
     }

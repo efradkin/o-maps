@@ -401,13 +401,17 @@ let authors = {
     KHMZV: { name: 'Хамурзов Владимир' },
     KLSNKV_V: { name: 'Колесников В.' },
     KSTLV_E: { name: 'Костылев Егор' },
+    KRNVA: { name: 'Куранова Ирина' },
     KRSVSKY_A: { name: 'Красовский Александр' },
     LKN_A: { name: 'Лукин Андрей' },
     LNTV: { name: 'Леонтьев Игорь' },
     MTN_Y: { name: 'Митин Юрий' },
     MLNKV_V: { name: 'Мыльников Валентин' },
     MSTPNV: { name: 'Мостепанов Иван' },
-    NKRSV_S: { name: 'Некрасов Сергей' },
+    NKRSV_S: {
+        name: 'Некрасов Сергей',
+        icon: 'nkrsv.jpg'
+    },
     NLTV_D: { name: 'Налётов Дмитрий' },
     OKN_V: { name: 'Окин Вячеслав' },
     PTRV_VLNTN: { name: 'Петров Валентин' },

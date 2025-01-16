@@ -942,6 +942,15 @@ let moscowMaps = [
 */
     {
         name: 'пл. Весенняя, г. Климовск',
+        year: 1997,
+        url: './maps/moscow/vesennyaya_1997.webp',
+        link: './original_maps/moscow/vesennyaya_1997_full.jpg',
+        bounds: [[55.403558122982496, 37.47762680053712], [55.39848945864646, 37.54461765289307], [55.36925885816712, 37.47101783752442]],
+        author: ['NKRSV_S','KRNVA'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'пл. Весенняя, г. Климовск',
         year: 2019,
         url: './maps/moscow/20210105_949.webp',
         link: 'http://o-mephi.net/cup/maps/20210105_949.jpg',
