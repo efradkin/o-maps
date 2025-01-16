@@ -101,6 +101,15 @@ let moscowMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Загорье, Бирюлёвский лесопарк',
+        year: 2006,
+        url: './maps/moscow/zagorie_2006.webp',
+        link: './original_maps/moscow/zagorie_2006_full.jpg',
+        bounds: [[55.60880232489371, 37.678213119506836], [55.6049721684042, 37.7148199081421], [55.5886049454538, 37.67151832580567]],
+        author: 'ZUEV_A',
+        types: ['ORIENT','PARK'],
+    },
+    {
         name: 'Бирюлёвский Дендропарк',
         year: 2022,
         url: './maps/moscow/20210616_394.webp',
@@ -119,6 +128,14 @@ let moscowMaps = [
         author: 'BRTNK_A',
         owner: ['ISKTL','SKHRV_P',],
         types: ['ORIENT','PARK'],
+    },
+    {
+        name: 'Бутово',
+        year: 1996,
+        url: './maps/moscow/butovo_1996.webp',
+        link: './original_maps/moscow/butovo_1996_full.jpg',
+        bounds: [[55.6090447272758, 37.47797012329102], [55.60043852518014, 37.57341384887696], [55.556262652458436, 37.46252059936524]],
+        types: ['ORIENT'],
     },
     {
         name: 'Бутово',
@@ -1075,6 +1092,15 @@ let moscowMaps = [
     },
     {
         name: 'Северное Тушино',
+        year: 2013,
+        url: './maps/moscow/north_tushino_2013.webp',
+        link: './original_maps/moscow/north_tushino_2013_full.jpg',
+        bounds: [[55.87639421025881, 37.43535518646241], [55.87355329711283, 37.463164329528816], [55.85346837407153, 37.42866039276124]],
+        author: 'MTN_Y',
+        types: ['ORIENT','PARK'],
+    },
+    {
+        name: 'Северное Тушино',
         year: 2022,
         url: './maps/moscow/20210606_306.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_306.jpg',
@@ -1091,6 +1117,14 @@ let moscowMaps = [
         bounds: [[55.64345065608576, 37.581310272216804], [55.64133144561749, 37.60669469833375], [55.63079424015306, 37.57611751556397]],
         author: ['MNKV','SYTV_N',],
         owner: 'FSO_MSK',
+        types: ['ORIENT','CITY'],
+    },
+    {
+        name: 'КСК Битца',
+        year: 2000,
+        url: './maps/moscow/ksk_bitsa_2000.webp',
+        link: './original_maps/moscow/ksk_bitsa_2000_full.jpg',
+        bounds: [[55.645533425506486, 37.57959365844727], [55.64460103661007, 37.5893783569336], [55.63452497718321, 37.576525211334236]],
         types: ['ORIENT','CITY'],
     },
     {
@@ -1116,7 +1150,7 @@ let moscowMaps = [
     },
 */
     {
-        name: 'Соклльники и Путяевские Пруды',
+        name: 'Сокольники и Путяевские Пруды',
         year: 2021,
         url: './maps/moscow/20210608_573.webp',
         link: 'http://o-mephi.net/cup/maps/20210608_573.jpg',
@@ -1578,6 +1612,15 @@ let moscowMaps = [
         year: 2021,
         url: './maps/moscow/istra_2021.webp',
         bounds: [[55.92220530004892, 36.844475269317634], [55.92047393200941, 36.85964584350587], [55.9171432357415, 36.842458248138435]],
+        types: ['ORIENT','PARK'],
+    },
+    {
+        name: 'Поклонная гора, парк Победы',
+        year: 2001,
+        url: './maps/moscow/poklonnaja_gora_2001.webp',
+        link: './original_maps/moscow/poklonnaja_gora_2001_full.jpg',
+        bounds: [[55.737995862453005, 37.49305486679078], [55.735664314332844, 37.51919031143189], [55.72375070848684, 37.488677501678474]],
+        author: 'OKN_V',
         types: ['ORIENT','PARK'],
     },
     {
@@ -2050,6 +2093,24 @@ let moscowMaps = [
         url: './maps/moscow/miitovskaja_2021.webp',
         link: './original_maps/moscow/miitovskaja_2021_full.jpg',
         bounds: [[55.87721273988007, 37.07701206207276], [55.87535898631922, 37.100400924682624], [55.85961054987569, 37.0715618133545]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Алтуфьево, Хлебниковский лесопарк',
+        year: 1997,
+        url: './maps/moscow/altufievo_1997.webp',
+        link: './original_maps/moscow/altufievo_1997_full.jpg',
+        bounds: [[55.92251789992488, 37.59311199188233], [55.92124343846354, 37.61529922485352], [55.906090969781594, 37.58912086486817]],
+        author: ['PTRV_VLNTN','MLNKV_V'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Живописная ул',
+        year: 2007,
+        url: './maps/moscow/zhivopisnaja_2007.webp',
+        link: './original_maps/moscow/zhivopisnaja_2007_full.jpg',
+        bounds: [[55.805128113794865, 37.44837999343873], [55.8045613172881, 37.45606184005738], [55.796118690471815, 37.44625568389893]],
+        author: 'KSTLV_E',
         types: ['ORIENT'],
     },
 ];
