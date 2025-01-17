@@ -1010,6 +1010,16 @@ let moscowMaps = [
         types: ['ORIENT','PARK'],
     },
     {
+        name: 'Одинцово',
+        year: 2010,
+        url: './maps/moscow/odintsovo_2010.webp',
+        link: './original_maps/moscow/odintsovo_2010_full.jpg',
+        bounds: [[55.720632755110884, 37.21120834350587], [55.7137675463005, 37.27476596832276], [55.69352749962285, 37.20211029052735]],
+        author: ['ZUEV_A','LUK_V'],
+        owner: 'FSO_MSK',
+        types: ['ORIENT','PARK'],
+    },
+    {
         name: 'Район Кунцево',
         year: 2018,
         url: './maps/moscow/20210531_872.webp',
