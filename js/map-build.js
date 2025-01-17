@@ -42,7 +42,7 @@ if (mapElement) {
     });
 
     initialLayers = [
-        osmLayer, parkGroup, cityGroup, forestGroup, specialGroup,
+        osmLayer, parkGroup, cityGroup, forestGroup, specialGroup, groupAllOrient,
         group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
     ];
 }
