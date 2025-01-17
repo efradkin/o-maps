@@ -7,7 +7,11 @@ function isMapHidden(m) {
 }
 
 function mapLink(url) {
-    return location.origin + location.pathname + '?map=' + extractFileName(url);
+    let pathname = location.pathname;
+    if (pathname.includes('charts-')) {
+        pathname = pathname.split('charts-').join('');
+    }
+    return location.origin + pathname + '?map=' + extractFileName(url);
 }
 
 function authorLink(author) {
