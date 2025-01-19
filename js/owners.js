@@ -203,6 +203,9 @@ let owners = {
     ISKTL: {
         name: '@ КСО ИСКАТЕЛЬ'
     },
+    KHMCHKNA: {
+        name: '@ Химочкина Т.Н.'
+    },
     KSTLV_E: {
         name: '@ Костылев Егор'
     },
