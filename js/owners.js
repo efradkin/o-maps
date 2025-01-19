@@ -209,6 +209,10 @@ let owners = {
     KSTLV_E: {
         name: '@ Костылев Егор'
     },
+    KMPT: {
+        name: '@ Компот групп',
+        icon: 'kmpt.jpg'
+    },
     LTVO: {
         name: '@ ОАНО "Школа "ЛЕТОВО"'
     },
