@@ -76,7 +76,6 @@ function allocateMap(m, imgLayer) {
         case 'NA': imgLayer.addTo(naGroup); break;
         case 'YM': imgLayer.addTo(ymGroup); break;
         case 'KKP': imgLayer.addTo(kkpGroup); break;
-        case 'KKP': imgLayer.addTo(kkpGroup); break;
         case 'RFAR': imgLayer.addTo(rfarGroup); break;
         case '100X24': imgLayer.addTo(sto24Group); break;
         case 'ST': imgLayer.addTo(stGroup); break;
