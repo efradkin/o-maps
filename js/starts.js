@@ -27,5 +27,9 @@ let starts = {
         name: 'Инакор — интернет активное ориентирование',
         icon: 'inacor.jpg'
     },
+    LESKAR: {
+        name: 'Лесная карусель',
+        icon: 'les_kar.jpg'
+    },
 };
 

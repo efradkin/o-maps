@@ -382,6 +382,7 @@ let authors = {
 
     ALNKV_A: { name: 'Алейников Алексей' },
     ALSHN: { name: 'Алешин В.' },
+    BRLNV: { name: 'Бурлинов Николай' },
     BRTNK_A: { name: 'Бортник Алексей' },
     DRNN_S: {
         name: 'Доронин Сергей' // Павлович, ака снеговик
@@ -393,6 +394,7 @@ let authors = {
     GNDRV: { name: 'Гундоров С.' },
     FKN_S: { name: 'Фокин С.' },
     FLVSKY_S: { name: 'Фалевский Сергей' },
+    FMN_I: { name: 'Фомин Игорь' },
     FRLNA_V: { name: 'Фролина В.' },
     FSHN_A: { name: 'Фишин А.' },
     GLDRV: { name: 'Голдырев Е.' },
@@ -408,17 +410,21 @@ let authors = {
     KSTLV_E: { name: 'Костылев Егор' },
     KRNVA: { name: 'Куранова Ирина' },
     KRSVSKY_A: { name: 'Красовский Александр' },
+    KZMN_R: { name: 'Кузьмин Рэм' },
     LKN_A: { name: 'Лукин Андрей' },
     LNTV: { name: 'Леонтьев Игорь' },
+    LZRV: { name: 'Лазарев Константин' },
     MTN_Y: { name: 'Митин Юрий' },
     MLCHK: { name: 'Мальчик Игорь' },
     MLNKV_V: { name: 'Мыльников Валентин' },
     MSTPNV: { name: 'Мостепанов Иван' },
+    MTVV: { name: 'Матвеев Виктор' },
     NKRSV_S: {
         name: 'Некрасов Сергей',
         icon: 'nkrsv.jpg'
     },
     NLTV_D: { name: 'Налётов Дмитрий' },
+    OGRDNKV: { name: 'Огородников Борис' },
     OKN_V: { name: 'Окин Вячеслав' },
     PTRV_VLNTN: { name: 'Петров Валентин' },
     PZDV_S: { name: 'Поздеев Сергей' },
