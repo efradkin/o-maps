@@ -412,6 +412,7 @@ let authors = {
     KRSVSKY_A: { name: 'Красовский Александр' },
     KRVKV: { name: 'Корвяков Михаил' },
     KSTLV_E: { name: 'Костылев Егор' },
+    KSTLV_V: { name: 'Костылев Вячеслав' },
     KZMN_R: { name: 'Кузьмин Рэм' },
     LKN_A: { name: 'Лукин Андрей' },
     LNTV: { name: 'Леонтьев Игорь' },
@@ -429,6 +430,7 @@ let authors = {
     NLTV_D: { name: 'Налётов Дмитрий' },
     OGRDNKV: { name: 'Огородников Борис' },
     OKN_V: { name: 'Окин Вячеслав' },
+    ORLV_V: { name: 'Орлов В.' },
     PTRV_VLNTN: { name: 'Петров Валентин' },
     PZDV_S: { name: 'Поздеев Сергей' },
     RMNV_A: { name: 'Романов Александр' },
@@ -444,6 +446,7 @@ let authors = {
     TTYNN_V: { name: 'Тутынин Владимир' },
     YURCHK: { name: 'Юрчук Сергей' },
     ZHRDV_V: { name: 'Жердев Владимир' },
+    ZKHRV_Y: { name: 'Захаров Ю.' },
     ZLTRV_S: { name: 'Золотарев Станислав' },
     ZUEV_A: { name: '<a href="mailto:Lesasa@mail.ru" target="_blank">Зуев Алексей</a>' },
 };
