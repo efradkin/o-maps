@@ -1,5 +1,14 @@
 let moscowMaps = [
     {
+        name: 'Лапшинка',
+        year: 1989,
+        url: './maps/moscow/lapshinka_1989.webp',
+        link: './original_maps/moscow/lapshinka_1989_full.jpg',
+        bounds: [[55.62935272389321, 37.313861846923835], [55.62833515107742, 37.3537302017212], [55.60218416107511, 37.31150150299073]],
+        author: ['KRSVSKY_A','FMN_I'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Медвежьи оз',
         year: 1988,
         url: './maps/moscow/medvezhji_oz_1988.webp',
@@ -222,6 +231,7 @@ let moscowMaps = [
         url: './maps/moscow/butovo_1996.webp',
         link: './original_maps/moscow/butovo_1996_full.jpg',
         bounds: [[55.6090447272758, 37.47797012329102], [55.60043852518014, 37.57341384887696], [55.556262652458436, 37.46252059936524]],
+        author: ['MLNKV_V','DBRTSV_V','KLNN_B'],
         types: ['ORIENT'],
     },
     {
@@ -466,6 +476,15 @@ let moscowMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Крылатское',
+        year: 1990,
+        url: './maps/moscow/krylatskoe_1990.webp',
+        link: './original_maps/moscow/krylatskoe_1990_full.jpg',
+        bounds: [[55.77408687858283, 37.40896224975587], [55.7700073342752, 37.441191673278816], [55.7507383920938, 37.4026107788086]],
+        author: 'OKN_V',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Крылатские Холмы',
         year: 2015,
         url: './maps/moscow/o-mephi/20210531_610.webp',
@@ -550,7 +569,7 @@ let moscowMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Ландшафтный Парк Митино',
+        name: 'Ландшафтный парк Митино',
         year: 2022,
         url: './maps/moscow/o-mephi/20210531_770.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_770.jpg',
@@ -568,6 +587,14 @@ let moscowMaps = [
         author: 'PZDV_S',
         owner: 'FSO_MSK',
         types: ['ORIENT'],
+    },
+    {
+        name: 'Лианозово',
+        url: './maps/moscow/lianozovo.webp',
+        link: './original_maps/moscow/lianozovo_full.jpg',
+        bounds: [[55.9058143220635, 37.555818557739265], [55.90444308250402, 37.5744652748108], [55.89780271048334, 37.55487442016602]],
+        author: 'PTRV_VLNTN',
+        types: ['ORIENT','PARK'],
     },
     {
         name: 'Лианозовский лесопитомник',
@@ -736,6 +763,28 @@ let moscowMaps = [
         owner: 'ERMCHNKV_A',
         types: ['ORIENT','PARK'],
     },
+/*
+    {
+        name: 'Парк Борисовские Пруды',
+        year: 2024,
+        url: './maps/moscow/borisovsky_prud_2024.webp',
+        link: './original_maps/moscow/borisovsky_prud_2024_full.jpg',
+        bounds: [[55.62998263668108, 37.70857572555542], [55.63131511113747, 37.726900577545166], [55.626542220399145, 37.709348201751716]],
+        author: 'MNKV',
+        owner: 'ERMCHNKV_A',
+        types: ['ORIENT','PARK'],
+    },
+*/
+    {
+        name: 'Борисово, Братеево',
+        year: 2024,
+        url: './maps/moscow/borisovo_brateevo_2024.webp',
+        link: './original_maps/moscow/borisovo_brateevo_2024_full.jpg',
+        bounds: [[55.64238501029639, 37.70370483398438], [55.6445647093207, 37.7495813369751], [55.624143441624035, 37.70658016204835]],
+        author: ['MNKV','SMKN_S'],
+        owner: 'ERMCHNKV_A',
+        types: ['ORIENT','PARK'],
+    },
     {
         name: 'Парк Дружбы и Речного Вокзала',
         year: 2022,
@@ -888,6 +937,7 @@ let moscowMaps = [
         owner: 'SYTV_N',
         types: ['ORIENT','PARK'],
     },
+/*
     {
         name: 'Парк имени 850-летия Москвы',
         year: 2020,
@@ -898,6 +948,7 @@ let moscowMaps = [
         owner: 'ERMCHNKV_A',
         types: ['ORIENT','PARK'],
     },
+*/
     {
         name: 'Парк имени 850-летия Москвы',
         year: 2015,
@@ -1114,7 +1165,7 @@ let moscowMaps = [
         types: ['ORIENT'],
     },
     {
-        name: 'Пойма р. Битца',
+        name: 'Пойма р. Битца, блвр Дмитрия Донского',
         year: 2016,
         url: './maps/moscow/o-mephi/20210606_508.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_508.jpg',
@@ -1123,6 +1174,7 @@ let moscowMaps = [
         owner: 'ERMCHNKV_A',
         types: ['ORIENT','PARK'],
     },
+/*
     {
         name: 'Пойма р. Городни в Борисово',
         year: 2021,
@@ -1133,6 +1185,7 @@ let moscowMaps = [
         owner: 'ERMCHNKV_A',
         types: ['ORIENT'],
     },
+*/
     {
         name: 'Покровское-Стрешнево',
         year: 2022,
@@ -1151,6 +1204,14 @@ let moscowMaps = [
         bounds: [[54.87379179528579, 37.85669803619385], [54.8673959028809, 37.920126914978034], [54.85452696041073, 37.85094738006592]],
         author: 'LUK_V',
         owner: 'FSO_MSK',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Ромашковский лес',
+        year: 1989,
+        url: './maps/moscow/romashkovo_1989.webp',
+        link: './original_maps/moscow/romashkovo_1989_full.jpg',
+        bounds: [[55.76875200397332, 37.31042861938477], [55.76286106805897, 37.38595962524415], [55.732764785594725, 37.29283332824708]],
         types: ['ORIENT'],
     },
     {
@@ -1829,6 +1890,7 @@ let moscowMaps = [
         owner: 'GOLDMRSHRT',
         types: ['ORIENT','ROGAINE'],
     },
+/*
     {
         name: 'Братеевский каскадный парк',
         year: 2023,
@@ -1838,6 +1900,7 @@ let moscowMaps = [
         author: 'MNKV',
         types: ['ORIENT','PARK'],
     },
+*/
     {
         name: 'Лужки',
         year: 2016,
@@ -2931,5 +2994,84 @@ let moscowMaps = [
         bounds: [[56.16118182437624, 38.429446220397956], [56.158290084938955, 38.45223426818848], [56.146111322777685, 38.424768447875984]],
         owner: 'KMPT',
         types: ['ORIENT'],
+    },
+    {
+        name: 'Щапово',
+        year: 2023,
+        url: './maps/moscow/schapovo_2023.webp',
+        link: './original_maps/moscow/schapovo_2023_full.jpg',
+        bounds: [[55.42764975501086, 37.41552829742432], [55.4242890139506, 37.44707107543946], [55.416762839052446, 37.412738800048835]],
+        author: 'JASHPTRV',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Васильевский спуск',
+        year: 1999,
+        url: './maps/moscow/vasilevsky_spusk_1999.webp',
+        link: './original_maps/moscow/vasilevsky_spusk_1999_full.jpg',
+        bounds: [[55.754469776426404, 37.61787414550782], [55.75314149282239, 37.6334309577942], [55.742477359106445, 37.61435508728028]],
+        owner: 'FSO_MSK',
+        types: ['ORIENT','CITY'],
+    },
+    {
+        name: 'Зеленоград, парк "Рубеж"',
+        year: 1989,
+        url: './maps/moscow/rubezh_1989.webp',
+        link: './original_maps/moscow/rubezh_1989_full.jpg',
+        bounds: [[56.01366527051492, 37.20314025878907], [56.0097787809215, 37.24614143371583], [55.99850094997988, 37.20065116882325]],
+        author: 'SMRNV_V',
+        types: ['ORIENT','PARK'],
+    },
+    {
+        name: 'Зеленоград, 17 квартал',
+        year: 2011,
+        url: './maps/moscow/zelenograd_2011.webp',
+        link: './original_maps/moscow/zelenograd_2011_full.jpg',
+        bounds: [[56.00061279431713, 37.192518711090095], [55.998788935548426, 37.2078824043274], [55.98989639140051, 37.1889352798462]],
+        types: ['ORIENT','WINTER'],
+    },
+    {
+        name: 'Коломенское',
+        year: 2005,
+        info: 'Первые соревнования в МИФИ.',
+        url: './maps/moscow/kolomenskoe_2005.webp',
+        link: './original_maps/moscow/kolomenskoe_2005_full.jpg',
+        bounds: [[55.65879032000983, 37.659931182861335], [55.658112450744916, 37.66654014587403], [55.65319754751281, 37.6583218574524]],
+        author: ['DDNKV','BRKN','ERMCHNKV_A'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Лосиный остров, МГСГИ',
+        year: 2005,
+        url: './maps/moscow/mgsgi_2005.webp',
+        link: './original_maps/moscow/mgsgi_2005_full.jpg',
+        bounds: [[55.82935998737712, 37.724325656890876], [55.829106896547415, 37.72919654846192], [55.82696158432739, 37.723939418792725]],
+        author: ['ZUEV_A','KBZRV'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Лосиный остров',
+        year: 1998,
+        url: './maps/moscow/losiny_ostrov_1998.webp',
+        link: './original_maps/moscow/losiny_ostrov_1998_full.jpg',
+        bounds: [[55.879331207005016, 37.71147251129151], [55.876755328395376, 37.74258613586426], [55.85426329857709, 37.70426273345948]],
+        author: ['KNSTNTNV_Y','PTRV_VLNTN','IGNTNKO'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Лосиный остров, МГСУ',
+        year: 2006,
+        url: './maps/moscow/mgsu_2006.webp',
+        link: './original_maps/moscow/mgsu_2006_full.jpg',
+        bounds: [[55.854865503285694, 37.690958976745605], [55.85180620664904, 37.71228790283204], [55.845807359084496, 37.68799781799317]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Лосиный остров, МГСУ',
+        year: 2007,
+        url: './maps/moscow/mgsu_2007.webp',
+        link: './original_maps/moscow/mgsu_2007_full.jpg',
+        bounds: [[55.85650345287809, 37.68902778625488], [55.85346837407153, 37.69748210906983], [55.85187847627619, 37.6833200454712]],
+        types: ['ORIENT','CITY'],
     },
 ];

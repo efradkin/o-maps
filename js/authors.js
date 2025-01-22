@@ -189,7 +189,6 @@ let authors = {
         name: 'Ковязин Александр', //Николаевич
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
-    KNSTNTNV_D: { name: 'Константинов Д.' },
     KUZNTSV_A: { name: 'Кузнецов Александр' },
     KUZNTSV_S: {
         name: 'Кузнецов Сергей',
@@ -385,6 +384,8 @@ let authors = {
     BGCHV: { name: 'Богачёв В.' },
     BRLNV: { name: 'Бурлинов Николай' },
     BRTNK_A: { name: 'Бортник Алексей' },
+    BRKN: { name: 'Быркин Виктор' },
+    DDNKV: { name: 'Дудников Владимир' },
     DRNN_S: {
         name: 'Доронин Сергей' // Павлович, ака снеговик
     },
@@ -408,9 +409,11 @@ let authors = {
     JASHPTRV: { name: 'Яшпатров Геннадий' },
     KCHRNA: { name: 'Качурина Ирина' },
     KHMZV: { name: 'Хамурзов Владимир' },
+    KLNN_B: { name: 'Калинин Б.' },
     KLSNKV_V: { name: 'Колесников В.' },
     KLTKN_N: { name: 'Калиткин Н.' },
     KLZHNY: { name: 'Калюжный Александр' },
+    KNSTNTNV_Y: { name: 'Константинов Юрий' },
     KRNVA: { name: 'Куранова Ирина' },
     KRSVSKY_A: { name: 'Красовский Александр' },
     KRVKV: { name: 'Корвяков Михаил' },
@@ -445,6 +448,7 @@ let authors = {
     SHRKHV: { name: 'Шорохов Сергей' },
     SKRPKO_S: { name: 'Скрипко Сергей' },
     SMKN_S: { name: 'Симакин Сергей' },
+    SMRNV_V: { name: 'Смирнов В.' },
     SSO_MIFI: { name: 'Бригада ССО МИФИ' },
     SYTV_N: { name: 'Сытов Николай' },
     TLMCHV: { name: 'Толмачёв Г.' },
