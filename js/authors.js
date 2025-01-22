@@ -382,6 +382,7 @@ let authors = {
 
     ALNKV_A: { name: 'Алейников Алексей' },
     ALSHN: { name: 'Алешин В.' },
+    BGCHV: { name: 'Богачёв В.' },
     BRLNV: { name: 'Бурлинов Николай' },
     BRTNK_A: { name: 'Бортник Алексей' },
     DRNN_S: {
@@ -398,10 +399,12 @@ let authors = {
     FRLNA_V: { name: 'Фролина В.' },
     FSHN_A: { name: 'Фишин А.' },
     GLDRV: { name: 'Голдырев Е.' },
+    GRSHNV: { name: 'Гришанов Е.' },
     GTSLNKO: { name: 'Гуцаленко Владимир' },
     IGNTNKO: { name: 'Игнатенко Валерий' },
     JAKMV_A: { name: 'Якимов Александр' },
     JAKMV_S: { name: 'Якимов Семён' },
+    JANN_Y: { name: 'Янин Ю.' },
     JASHPTRV: { name: 'Яшпатров Геннадий' },
     KCHRNA: { name: 'Качурина Ирина' },
     KHMZV: { name: 'Хамурзов Владимир' },
@@ -413,7 +416,9 @@ let authors = {
     KRVKV: { name: 'Корвяков Михаил' },
     KSTLV_E: { name: 'Костылев Егор' },
     KSTLV_V: { name: 'Костылев Вячеслав' },
+    KTNKO: { name: 'Китаенко В.' },
     KZMN_R: { name: 'Кузьмин Рэм' },
+    KZNN_O: { name: 'Казанин Олег' },
     LKN_A: { name: 'Лукин Андрей' },
     LNTV: { name: 'Леонтьев Игорь' },
     LVN_B: { name: 'Левин Б.' },
@@ -423,6 +428,7 @@ let authors = {
     MLNKV_V: { name: 'Мыльников Валентин' },
     MSTPNV: { name: 'Мостепанов Иван' },
     MTVV: { name: 'Матвеев Виктор' },
+    NDRF: { name: 'Найдорф В.' },
     NKRSV_S: {
         name: 'Некрасов Сергей',
         icon: 'nkrsv.jpg'
@@ -435,6 +441,7 @@ let authors = {
     PZDV_S: { name: 'Поздеев Сергей' },
     RMNV_A: { name: 'Романов Александр' },
     SDRNK: { name: 'Сидоренко В.' },
+    SFRNV: { name: 'Сафронов Владимир' },
     SHRKHV: { name: 'Шорохов Сергей' },
     SKRPKO_S: { name: 'Скрипко Сергей' },
     SMKN_S: { name: 'Симакин Сергей' },

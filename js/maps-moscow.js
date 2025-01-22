@@ -1,5 +1,48 @@
 let moscowMaps = [
     {
+        name: 'Медвежьи оз',
+        year: 1988,
+        url: './maps/moscow/medvezhji_oz_1988.webp',
+        link: './original_maps/moscow/medvezhji_oz_1988_full.jpg',
+        bounds: [[55.8887906777956, 37.997760772705085], [55.886480180156624, 38.03501129150391], [55.85992365439616, 37.990808486938484]],
+        author: 'JANN_Y',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Медвежьи оз, юг',
+        year: 1985,
+        url: './maps/moscow/medvezhji_oz_1985.webp',
+        link: './original_maps/moscow/medvezhji_oz_1985_full.jpg',
+        bounds: [[55.8610797107667, 37.97136783599854], [55.85965871996614, 38.03041934967042], [55.832915136881745, 37.96935081481934]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Молжаниново',
+        year: 1989,
+        url: './maps/moscow/molzhaninovo_1989.webp',
+        link: './original_maps/moscow/molzhaninovo_1989_full.jpg',
+        bounds: [[55.94117314141259, 37.255668640136726], [55.93540443848254, 37.36613273620606], [55.90216960483922, 37.24931716918946]],
+        author: ['ALSHN','GLDRV','KTNKO','NDRF','LVN_B'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Вашутино',
+        year: 1991,
+        url: './maps/moscow/vashutino_1991.webp',
+        link: './original_maps/moscow/vashutino_1991_full.jpg',
+        bounds: [[55.95770532898682, 37.409777641296394], [55.95506257537483, 37.449173927307136], [55.923696138335394, 37.40192413330079]],
+        author: ['BGCHV','GRSHNV','KTNKO'],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Сходня',
+        year: 1981,
+        url: './maps/moscow/shodnya_1981.webp',
+        link: './original_maps/moscow/shodnya_1981_full.jpg',
+        bounds: [[55.968142441997244, 37.309656143188484], [55.968502706338, 37.330641746521], [55.96025181177015, 37.307853698730476]],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Жабкино',
         year: 1967,
         url: './maps/moscow/zhabkino_1967.webp',
@@ -64,7 +107,7 @@ let moscowMaps = [
     {
         name: '1-й микрорайон Марьинского Парка',
         year: 2022,
-        url: './maps/moscow/20210306_474.webp',
+        url: './maps/moscow/o-mephi/20210306_474.webp',
         link: 'http://o-mephi.net/cup/maps/20210306_474.jpg',
         bounds: [[55.65984341504818, 37.74314403533936], [55.65818508015621, 37.75741338729859], [55.65116361396208, 37.740097045898445]],
         author: 'MNKV',
@@ -74,7 +117,7 @@ let moscowMaps = [
     {
         name: '11-й квартал Нагатина, к/т Орбита',
         year: 2022,
-        url: './maps/moscow/20230130_701.webp',
+        url: './maps/moscow/o-mephi/20230130_701.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_701.jpg',
         bounds: [[55.677790091699016, 37.6628065109253], [55.67573323693717, 37.68226861953736], [55.66555626445608, 37.658665180206306]],
         author: ['MNKV','TTYNN_V',],
@@ -84,7 +127,7 @@ let moscowMaps = [
     {
         name: '139-й квартал Выхина',
         year: 2021,
-        url: './maps/moscow/20210302_129.webp',
+        url: './maps/moscow/o-mephi/20210302_129.webp',
         link: 'http://o-mephi.net/cup/maps/20210302_129.jpg',
         bounds: [[55.70182307559308, 37.818717956542976], [55.70016651962329, 37.832708358764656], [55.6900200940215, 37.8151559829712]],
         author: 'MNKV',
@@ -94,7 +137,7 @@ let moscowMaps = [
     {
         name: '64-й микрорайон Тимирязевского района',
         year: 2022,
-        url: './maps/moscow/20230130_363.webp',
+        url: './maps/moscow/o-mephi/20230130_363.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_363.jpg',
         bounds: [[55.81733032631157, 37.56435871124268], [55.816317640025616, 37.57364988327027], [55.811977257435515, 37.56238460540772]],
         author: 'MNKV',
@@ -104,7 +147,7 @@ let moscowMaps = [
     {
         name: '76-й квартал Вешняков',
         year: 2022,
-        url: './maps/moscow/20210529_370.webp',
+        url: './maps/moscow/o-mephi/20210529_370.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_370.jpg',
         bounds: [[55.739058905521354, 37.81453371047974], [55.737065676015845, 37.83167839050294], [55.73254731225675, 37.81185150146485]],
         author: 'MNKV',
@@ -114,7 +157,7 @@ let moscowMaps = [
     {
         name: 'Алёшкинский лес',
         year: 2022,
-        url: './maps/moscow/20210529_404.webp',
+        url: './maps/moscow/o-mephi/20210529_404.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_404.jpg',
         bounds: [[55.87954786189981, 37.40282535552979], [55.87494970412528, 37.44230747222901], [55.85187847627619, 37.39368438720704]],
         author: 'TTYNN_V',
@@ -125,7 +168,7 @@ let moscowMaps = [
     {
         name: 'Белая Дача - Чагино',
         year: 2019,
-        url: './maps/moscow/20210105_560.webp',
+        url: './maps/moscow/o-mephi/20210105_560.webp',
         link: 'http://o-mephi.net/cup/maps/20210105_560.jpg',
         bounds: [[55.68685106392214, 37.83077716827393], [55.684117266742426, 37.86330699920655], [55.65737404408103, 37.82305240631104]],
         author: ['ZUEV_A','LUK_V',],
@@ -137,7 +180,7 @@ let moscowMaps = [
     {
         name: 'Белопесоцкий',
         year: 2022,
-        url: './maps/moscow/20210603_109.webp',
+        url: './maps/moscow/o-mephi/20210603_109.webp',
         link: 'http://o-mephi.net/cup/maps/20210603_109.jpg',
         bounds: [[54.86781574160813, 38.097367286682136], [54.863221974231976, 38.14152717590333], [54.84676903077985, 38.090672492980964]],
         author: 'LUK_V',
@@ -156,7 +199,7 @@ let moscowMaps = [
     {
         name: 'Бирюлёвский Дендропарк',
         year: 2022,
-        url: './maps/moscow/20210616_394.webp',
+        url: './maps/moscow/o-mephi/20210616_394.webp',
         link: 'http://o-mephi.net/cup/maps/20210616_394.jpg',
         bounds: [[55.610886936417046, 37.67027378082276], [55.608244793729, 37.69546508789063], [55.58935677490841, 37.66430854797364]],
         author: 'TTYNN_V',
@@ -166,7 +209,7 @@ let moscowMaps = [
     {
         name: 'Бульвар Генерала Карбышева',
         year: 2018,
-        url: './maps/moscow/20210105_6.webp',
+        url: './maps/moscow/o-mephi/20210105_6.webp',
         link: 'http://o-mephi.net/cup/maps/20210105_6.jpg',
         bounds: [[55.784368332473164, 37.47056722640992], [55.784187344419095, 37.472949028015144], [55.776838519401174, 37.46782064437867]],
         author: 'BRTNK_A',
@@ -193,7 +236,7 @@ let moscowMaps = [
     {
         name: 'Бутовский Лес',
         year: 2022,
-        url: './maps/moscow/20210105_838.webp',
+        url: './maps/moscow/o-mephi/20210105_838.webp',
         link: 'http://o-mephi.net/cup/maps/20210105_838.jpg',
         bounds: [[55.5905451211244, 37.52376079559327], [55.58685870534306, 37.574272155761726], [55.55349545845371, 37.51423358917237]],
         author: ['MKHLV_A','SLBDNK','MTN_Y',],
@@ -203,7 +246,7 @@ let moscowMaps = [
     {
         name: 'Бутовский Полигон',
         year: 2015,
-        url: './maps/moscow/20210105_386.webp',
+        url: './maps/moscow/o-mephi/20210105_386.webp',
         link: 'http://o-mephi.net/cup/maps/20210105_386.jpg',
         bounds: [[55.54584825137649, 37.58510828018189], [55.54413652983743, 37.60186672210694], [55.53278386635189, 37.58062362670899]],
         author: 'NKRSV_S',
@@ -212,7 +255,7 @@ let moscowMaps = [
     {
         name: 'Видновский лесопарк',
         year: 2021,
-        url: './maps/moscow/20220112_715.webp',
+        url: './maps/moscow/o-mephi/20220112_715.webp',
         link: 'http://o-mephi.net/cup/maps/20220112_715.jpg',
         bounds: [[55.57378368988397, 37.71151542663575], [55.570496057623664, 37.750847339630134], [55.552560879620465, 37.706472873687744]],
         author: 'MTN_Y',
@@ -233,7 +276,7 @@ let moscowMaps = [
     {
         name: 'Воробьевы Горы, Лужники, Нескучный Сад, Большой Газон МГУ, МГДД(Ю)Т',
         year: 2020,
-        url: './maps/moscow/20210104_258.webp',
+        url: './maps/moscow/o-mephi/20210104_258.webp',
         link: 'http://o-mephi.net/cup/maps/20210104_258.jpg',
         bounds: [[55.74064133645501, 37.53749370574952], [55.73300642121597, 37.613239288330085], [55.701436149096594, 37.52406120300294]],
         author: ['TTYNN_V','ZUEV_A','SYTV_N','ERMCHNKV_A',],
@@ -243,7 +286,7 @@ let moscowMaps = [
     {
         name: 'Воронцовский Парк',
         year: 2022,
-        url: './maps/moscow/20230130_474.webp',
+        url: './maps/moscow/o-mephi/20230130_474.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_474.jpg',
         bounds: [[55.67155869923024, 37.52678632736207], [55.66980405043302, 37.54298686981202], [55.665011643162856, 37.524383068084724]],
         author: ['DBRTSV_V','MNKV',],
@@ -254,7 +297,7 @@ let moscowMaps = [
     {
         name: 'Восточное Измайлово',
         year: 2021,
-        url: './maps/moscow/20210529_221.webp',
+        url: './maps/moscow/o-mephi/20210529_221.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_221.jpg',
         bounds: [[55.80627374111197, 37.82442569732666], [55.803620658065675, 37.848458290100105], [55.780941482580346, 37.81567096710206]],
         author: 'TTYNN_V',
@@ -292,7 +335,7 @@ let moscowMaps = [
     {
         name: 'Горенский лесопарк',
         year: 2021,
-        url: './maps/moscow/20220112_999.webp',
+        url: './maps/moscow/o-mephi/20220112_999.webp',
         link: 'http://o-mephi.net/cup/maps/20220112_999.jpg',
         bounds: [[55.82242952461356, 37.93021202087403], [55.82011507771149, 37.953386306762695], [55.805670783568644, 37.925448417663574]],
         author: 'TTYNN_V',
@@ -302,7 +345,7 @@ let moscowMaps = [
     {
         name: 'Дзержинский карьер',
         year: 2018,
-        url: './maps/moscow/20210105_941.webp',
+        url: './maps/moscow/o-mephi/20210105_941.webp',
         link: 'http://o-mephi.net/cup/maps/20210105_941.jpg',
         bounds: [[55.65117572102199, 37.85656929016114], [55.64623572975855, 37.889399528503425], [55.63390724981146, 37.848501205444336]],
         author: 'ZUEV_A',
@@ -312,7 +355,7 @@ let moscowMaps = [
     {
         name: 'Долина р. Котловки в Зюзино',
         year: 2022,
-        url: './maps/moscow/20220112_79.webp',
+        url: './maps/moscow/o-mephi/20220112_79.webp',
         link: 'http://o-mephi.net/cup/maps/20220112_79.jpg',
         bounds: [[55.67036070615934, 37.58047342300416], [55.6687149184988, 37.59817600250245], [55.661199081890686, 37.5783920288086]],
         author: 'KLZHNY',
@@ -322,7 +365,7 @@ let moscowMaps = [
     {
         name: 'Долина р. Рожайка в Домодедово',
         year: 2012,
-        url: './maps/moscow/20210608_90.webp',
+        url: './maps/moscow/o-mephi/20210608_90.webp',
         link: 'http://o-mephi.net/cup/maps/20210608_90.jpg',
         bounds: [[55.40558053356262, 37.7237892150879], [55.40087766032485, 37.77623176574708], [55.385741819864045, 37.719111442565925]],
         author: 'LUK_V',
@@ -332,7 +375,7 @@ let moscowMaps = [
     {
         name: 'Долина р. Сетунь',
         year: 2017,
-        url: './maps/moscow/20210606_950.webp',
+        url: './maps/moscow/o-mephi/20210606_950.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_950.jpg',
         bounds: [[55.72517666621405, 37.45861530303956], [55.722928946485204, 37.47921466827393], [55.708037557524435, 37.45303630828858]],
         author: 'LUK_V',
@@ -342,7 +385,7 @@ let moscowMaps = [
     {
         name: 'Зябликово + Видновский л/п',
         year: 2021,
-        url: './maps/moscow/20210104_161.webp',
+        url: './maps/moscow/o-mephi/20210104_161.webp',
         link: 'http://o-mephi.net/cup/maps/20210104_161.jpg',
         bounds: [[55.612268536482844, 37.73872375488282], [55.61023247729086, 37.76689767837525], [55.593576453598466, 37.734603881835945]],
         author: 'ZUEV_A',
@@ -353,7 +396,7 @@ let moscowMaps = [
     {
         name: 'Измайловский Парк',
         year: 2022,
-        url: './maps/moscow/20230130_495.webp',
+        url: './maps/moscow/o-mephi/20230130_495.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_495.jpg',
         bounds: [[55.79414043893286, 37.7646017074585], [55.788542890225045, 37.82455444335938], [55.76421316483773, 37.75588989257813]],
         author: 'ZHRDV_V',
@@ -364,7 +407,7 @@ let moscowMaps = [
     {
         name: 'Измайловский Парк обзорная 15000',
         year: 2022,
-        url: './maps/moscow/20230130_957.webp',
+        url: './maps/moscow/o-mephi/20230130_957.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_957.jpg',
         bounds: [[55.804850746322586, 37.742328643798835], [55.81083179796966, 37.87519454956055], [55.754216198504494, 37.74996757507325]],
         author: ['ZHRDV_V','TTYNN_V','MNKV','FLVSKY_S','LKN_A'],
@@ -374,7 +417,7 @@ let moscowMaps = [
     {
         name: 'Икша',
         year: 2018,
-        url: './maps/moscow/20210106_562.webp',
+        url: './maps/moscow/o-mephi/20210106_562.webp',
         link: 'http://o-mephi.net/cup/maps/20210106_562.jpg',
         bounds: [[56.192928837435815, 37.49783992767335], [56.19077975554918, 37.519640922546394], [56.1779305109157, 37.49260425567628]],
         author: 'TRNN_A',
@@ -384,7 +427,7 @@ let moscowMaps = [
     {
         name: 'Китай-Город',
         year: 2021,
-        url: './maps/moscow/20220426_526.webp',
+        url: './maps/moscow/o-mephi/20220426_526.webp',
         link: 'http://o-mephi.net/cup/maps/20220426_526.jpg',
         bounds: [[55.760639664420516, 37.6327657699585], [55.75875620133741, 37.649416923522956], [55.75428864950754, 37.63034105300904]],
         author: 'GRCHV_D',
@@ -394,7 +437,7 @@ let moscowMaps = [
     {
         name: 'Коломенское',
         year: 2022,
-        url: './maps/moscow/20230130_756.webp',
+        url: './maps/moscow/o-mephi/20230130_756.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_756.jpg',
         bounds: [[55.67947179258099, 37.65083312988282], [55.674390173407154, 37.692117691040046], [55.64984392199002, 37.640190124511726]],
         author: ['MNKV','TTYNN_V',],
@@ -404,7 +447,7 @@ let moscowMaps = [
     {
         name: 'Красногорск-Митино',
         year: 2022,
-        url: './maps/moscow/20210616_347.webp',
+        url: './maps/moscow/o-mephi/20210616_347.webp',
         link: 'http://o-mephi.net/cup/maps/20210616_347.jpg',
         bounds: [[55.86312680952674, 37.31291770935059], [55.85987548463417, 37.35347270965577], [55.83836171860078, 37.307639122009284]],
         author: ['MTN_Y','JASHPTRV','LKN_A',],
@@ -425,7 +468,7 @@ let moscowMaps = [
     {
         name: 'Крылатские Холмы',
         year: 2015,
-        url: './maps/moscow/20210531_610.webp',
+        url: './maps/moscow/o-mephi/20210531_610.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_610.jpg',
         bounds: [[55.77707988213477, 37.41539955139161], [55.77353169942752, 37.44964599609376], [55.74984473898614, 37.40681648254395]],
         author: ['ZUEV_A','SYTV_N',],
@@ -436,7 +479,7 @@ let moscowMaps = [
         name: 'Кучинский лесопарк Вело (восток)',
         year: 2021,
         excluded: true,
-        url: './maps/moscow/20210530_87.webp',
+        url: './maps/moscow/o-mephi/20210530_87.webp',
         link: 'http://o-mephi.net/cup/maps/20210530_87.jpg',
         bounds: [[55.797517880886495, 37.93416023254395], [55.79433344350657, 37.96763420104981], [55.76488919564486, 37.92274475097657]],
         author: 'TTYNN_V',
@@ -447,7 +490,7 @@ let moscowMaps = [
         name: 'Кучинский лесопарк Вело (запад)',
         year: 2020,
         excluded: true,
-        url: './maps/moscow/20210530_758.webp',
+        url: './maps/moscow/o-mephi/20210530_758.webp',
         link: 'http://o-mephi.net/cup/maps/20210530_758.jpg',
         bounds: [[55.79558794992224, 37.89999961853028], [55.792137960041494, 37.93617725372315], [55.779445157818984, 37.895407676696784]],
         author: 'TTYNN_V',
@@ -458,7 +501,7 @@ let moscowMaps = [
         name: 'Кучинский лесопарк ЗИМНЯЯ',
         year: 2023,
         excluded: true,
-        url: './maps/moscow/20230227_550.webp',
+        url: './maps/moscow/o-mephi/20230227_550.webp',
         link: 'http://o-mephi.net/cup/maps/20230227_550.jpg',
         bounds: [[55.792885885889866, 37.93416023254395], [55.7897493264824, 37.96042442321778], [55.76817260712279, 37.92626380920411]],
         author: 'TTYNN_V',
@@ -468,7 +511,7 @@ let moscowMaps = [
     {
         name: 'Кучинский лесопарк',
         year: 2022,
-        url: './maps/moscow/20210529_464.webp',
+        url: './maps/moscow/o-mephi/20210529_464.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_464.jpg',
         bounds: [[55.800895029938275, 37.90197372436524], [55.7950089519825, 37.96634674072266], [55.767641485778434, 37.89201736450196]],
         author: 'TTYNN_V',
@@ -478,7 +521,7 @@ let moscowMaps = [
     {
         name: 'Ландшафтный Заказник Теплый стан',
         year: 2022,
-        url: './maps/moscow/20210103_264.webp',
+        url: './maps/moscow/o-mephi/20210103_264.webp',
         link: 'http://o-mephi.net/cup/maps/20210103_264.jpg',
         bounds: [[55.64652633473074, 37.47161865234376], [55.6424818883844, 37.51307487487794], [55.62528227409465, 37.46535301208497]],
         author: ['LUK_V','ZUEV_A',],
@@ -499,7 +542,7 @@ let moscowMaps = [
     {
         name: 'Ландшафтный заказник Химкинский',
         year: 2022,
-        url: './maps/moscow/20220112_220.webp',
+        url: './maps/moscow/o-mephi/20220112_220.webp',
         link: 'http://o-mephi.net/cup/maps/20220112_220.jpg',
         bounds: [[55.90139971976616, 37.46500968933106], [55.8991380939928, 37.489385604858406], [55.87165121367366, 37.45539665222169]],
         author: 'TTYNN_V',
@@ -509,7 +552,7 @@ let moscowMaps = [
     {
         name: 'Ландшафтный Парк Митино',
         year: 2022,
-        url: './maps/moscow/20210531_770.webp',
+        url: './maps/moscow/o-mephi/20210531_770.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_770.jpg',
         bounds: [[55.8436388731148, 37.35325813293458], [55.84004855820383, 37.390508651733406], [55.83183054944736, 37.34896659851075]],
         author: ['MTN_Y','SYTV_N','LKN_A',],
@@ -519,7 +562,7 @@ let moscowMaps = [
     {
         name: 'Летово',
         year: 2019,
-        url: './maps/moscow/20210531_130.webp',
+        url: './maps/moscow/o-mephi/20210531_130.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_130.jpg',
         bounds: [[55.55737918433739, 37.37372875213624], [55.5575733605561, 37.41188049316407], [55.53955943313645, 37.37415790557862]],
         author: 'PZDV_S',
@@ -529,7 +572,7 @@ let moscowMaps = [
     {
         name: 'Лианозовский лесопитомник',
         year: 2020,
-        url: './maps/moscow/20200918_83.webp',
+        url: './maps/moscow/o-mephi/20200918_83.webp',
         link: 'http://o-mephi.net/cup/maps/20200918_83.jpg',
         bounds: [[55.908640847130386, 37.59261846542359], [55.90665628724301, 37.610750198364265], [55.89821175175721, 37.58918523788453]],
         author: 'DBRTSV_V',
@@ -539,7 +582,7 @@ let moscowMaps = [
     {
         name: 'Липовая Роща',
         year: 2021,
-        url: './maps/moscow/20210531_231.webp',
+        url: './maps/moscow/o-mephi/20210531_231.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_231.jpg',
         bounds: [[55.80149806144807, 37.36186265945435], [55.79911000193182, 37.37960815429688], [55.791896690575065, 37.358279228210456]],
         author: 'JASHPTRV',
@@ -549,7 +592,7 @@ let moscowMaps = [
     {
         name: 'Люблинский парк, Парк Шкулёва',
         year: 2018,
-        url: './maps/moscow/20210531_842.webp',
+        url: './maps/moscow/o-mephi/20210531_842.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_842.jpg',
         bounds: [[55.69488199962934, 37.73563385009766], [55.692644630605336, 37.756576538085945], [55.6859801404321, 37.73277997970582]],
         author: ['DBRTSV_V','MNKV',],
@@ -559,7 +602,7 @@ let moscowMaps = [
     {
         name: 'Марьино-Запад',
         year: 2022,
-        url: './maps/moscow/20230130_849.webp',
+        url: './maps/moscow/o-mephi/20230130_849.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_849.jpg',
         bounds: [[55.65655088580865, 37.731106281280525], [55.65500136445839, 37.74548292160035], [55.64667163640817, 37.72754430770875]],
         author: 'KLZHNY',
@@ -569,7 +612,7 @@ let moscowMaps = [
     {
         name: 'МГДД(Ю)Т - бывш. Дворец Пионеров на Воробьевых Горах',
         year: 2015,
-        url: './maps/moscow/20210105_814.webp',
+        url: './maps/moscow/o-mephi/20210105_814.webp',
         link: 'http://o-mephi.net/cup/maps/20210105_814.jpg',
         bounds: [[55.707179195696895, 37.54903793334962], [55.70546241547193, 37.564530372619636], [55.699731208594976, 37.54663467407227]],
         author: 'SYTV_N',
@@ -578,7 +621,7 @@ let moscowMaps = [
     {
         name: 'Медведково',
         year: 2022,
-        url: './maps/moscow/20210531_623.webp',
+        url: './maps/moscow/o-mephi/20210531_623.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_623.jpg',
         bounds: [[55.88451855597379, 37.65600442886353], [55.8828577168966, 37.671432495117195], [55.871278009154246, 37.65139102935792]],
         author: 'MNKV',
@@ -606,7 +649,7 @@ let moscowMaps = [
     {
         name: 'Мещерский Парк',
         year: 2015,
-        url: './maps/moscow/20210531_700.webp',
+        url: './maps/moscow/o-mephi/20210531_700.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_700.jpg',
         bounds: [[55.68600433301321, 37.38819122314454], [55.68283497744586, 37.420721054077156], [55.66248208047731, 37.38089561462403]],
         author: 'DBRTSV_V',
@@ -616,7 +659,7 @@ let moscowMaps = [
     {
         name: 'Музей-заповедник Царицыно',
         year: 2019,
-        url: './maps/moscow/20200918_891.webp',
+        url: './maps/moscow/o-mephi/20200918_891.webp',
         link: 'http://o-mephi.net/cup/maps/20200918_891.jpg',
         bounds: [[55.62276225997318, 37.67186164855958], [55.620532881654384, 37.70074367523194], [55.60536004937333, 37.66851425170899]],
         author: 'SMKN_S',
@@ -626,7 +669,7 @@ let moscowMaps = [
     {
         name: 'НИЯУ МИФИ',
         year: 2017,
-        url: './maps/moscow/20210531_654.webp',
+        url: './maps/moscow/o-mephi/20210531_654.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_654.jpg',
         bounds: [[55.65305227004877, 37.66199111938477], [55.652107953393006, 37.67123937606812], [55.64843943030382, 37.66059637069703]],
         author: 'MNKV',
@@ -646,7 +689,7 @@ let moscowMaps = [
     {
         name: 'Новогорский лесопарк',
         year: 2021,
-        url: './maps/moscow/20210609_848.webp',
+        url: './maps/moscow/o-mephi/20210609_848.webp',
         link: 'http://o-mephi.net/cup/maps/20210609_848.jpg',
         bounds: [[55.861139921093454, 37.35791444778443], [55.858875948595745, 37.38141059875489], [55.849228502067795, 37.35448122024537]],
         author: ['TTYNN_V','SYTV_N',],
@@ -656,7 +699,7 @@ let moscowMaps = [
     {
         name: 'ООПТ Природный заказник Выхинский и Жулебинский',
         year: 2022,
-        url: './maps/moscow/20210529_576.webp',
+        url: './maps/moscow/o-mephi/20210529_576.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_576.jpg',
         bounds: [[55.70160542991016, 37.81858921051026], [55.69790526785271, 37.85223484039307], [55.68682687186491, 37.81408309936524]],
         author: ['MNKV','TTYNN_V',],
@@ -666,7 +709,7 @@ let moscowMaps = [
     {
         name: 'Останкинский парк',
         year: 2017,
-        url: './maps/moscow/20210531_344.webp',
+        url: './maps/moscow/o-mephi/20210531_344.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_344.jpg',
         bounds: [[55.83708449136194, 37.6029396057129], [55.835252922483285, 37.621972560882575], [55.8239844663004, 37.59869098663331]],
         author: 'TTYNN_V',
@@ -676,7 +719,7 @@ let moscowMaps = [
     {
         name: 'Парк "Радуга"',
         year: 2018,
-        url: './maps/moscow/20200907_659.webp',
+        url: './maps/moscow/o-mephi/20200907_659.webp',
         link: 'http://o-mephi.net/cup/maps/20200907_659.jpg',
         bounds: [[55.734178332760344, 37.81191587448121], [55.732196935997216, 37.830691337585456], [55.72785925910717, 37.80944824218751]],
         author: 'MNKV',
@@ -686,7 +729,7 @@ let moscowMaps = [
     {
         name: 'Парк Борисовские Пруды',
         year: 2020,
-        url: './maps/moscow/2019.webp',
+        url: './maps/moscow/o-mephi/2019.webp',
         link: 'http://o-mephi.net/cup/maps/2019.jpg',
         bounds: [[55.64035051509745, 37.67675399780274], [55.638461246364564, 37.698898315429695], [55.61837607979644, 37.67203330993653]],
         author: 'SMKN_S',
@@ -696,7 +739,7 @@ let moscowMaps = [
     {
         name: 'Парк Дружбы и Речного Вокзала',
         year: 2022,
-        url: './maps/moscow/20230130_563.webp',
+        url: './maps/moscow/o-mephi/20230130_563.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_563.jpg',
         bounds: [[55.85886390583609, 37.46554613113404], [55.85534726033314, 37.49781847000123], [55.846674719601886, 37.46108293533326]],
         author: 'DBRTSV_V',
@@ -706,7 +749,7 @@ let moscowMaps = [
     {
         name: 'Парк Дубки',
         year: 2022,
-        url: './maps/moscow/20230130_803.webp',
+        url: './maps/moscow/o-mephi/20230130_803.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_803.jpg',
         bounds: [[55.82439428554359, 37.56371498107911], [55.82364696485847, 37.571525573730476], [55.817559382650124, 37.56116151809693]],
         author: 'MNKV',
@@ -828,7 +871,7 @@ let moscowMaps = [
     {
         name: '40-й квартал Зюзина',
         year: 2021,
-        url: './maps/moscow/20210302_122.webp',
+        url: './maps/moscow/o-mephi/20210302_122.webp',
         link: 'http://o-mephi.net/cup/maps/20210302_122.jpg',
         bounds: [[55.65669615029089, 37.568070888519294], [55.65525558701049, 37.581803798675544], [55.65096990049448, 37.56611824035645]],
         author: ['MNKV','LKN_A','KLZHNY',],
@@ -838,7 +881,7 @@ let moscowMaps = [
     {
         name: 'Парк им. 50-летия Октября (Раменки)',
         year: 2018,
-        url: './maps/moscow/20210606_814.webp',
+        url: './maps/moscow/o-mephi/20210606_814.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_814.jpg',
         bounds: [[55.693019550021006, 37.49582290649415], [55.691181201060836, 37.51419067382813], [55.678237745757706, 37.49127388000489]],
         author: 'SYTV_N',
@@ -848,7 +891,7 @@ let moscowMaps = [
     {
         name: 'Парк имени 850-летия Москвы',
         year: 2020,
-        url: './maps/moscow/20200907_258.webp',
+        url: './maps/moscow/o-mephi/20200907_258.webp',
         link: 'http://o-mephi.net/cup/maps/20200907_258.jpg',
         bounds: [[55.648051975456504, 37.706408500671394], [55.643789719120456, 37.74803638458253], [55.64124667481385, 37.70426273345948]],
         author: 'SMKN_S',
@@ -868,7 +911,7 @@ let moscowMaps = [
     {
         name: 'Парк имени Артёма Боровика',
         year: 2017,
-        url: './maps/moscow/20200907_909.webp',
+        url: './maps/moscow/o-mephi/20200907_909.webp',
         link: 'http://o-mephi.net/cup/maps/20200907_909.jpg',
         bounds: [[55.66369241795032, 37.75370121002198], [55.66288149598116, 37.75973081588746], [55.660267065980186, 37.752327919006355]],
         author: 'MNKV',
@@ -878,7 +921,7 @@ let moscowMaps = [
     {
         name: 'Парк Искусств Музеон и район Якиманка',
         year: 2022,
-        url: './maps/moscow/20230130_215.webp',
+        url: './maps/moscow/o-mephi/20230130_215.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_215.jpg',
         bounds: [[55.75089538309322, 37.60379791259766], [55.74912014035681, 37.61838912963868], [55.73261980350401, 37.59708166122437]],
         author: 'MNKV',
@@ -888,7 +931,7 @@ let moscowMaps = [
     {
         name: 'Парк Кусково',
         year: 2021,
-        url: './maps/moscow/20220112_458.webp',
+        url: './maps/moscow/o-mephi/20220112_458.webp',
         link: 'http://o-mephi.net/cup/maps/20220112_458.jpg',
         bounds: [[55.74614914526591, 37.77417182922363], [55.74240488616572, 37.81850337982178], [55.72674757630733, 37.769193649292]],
         author: 'MNKV',
@@ -898,7 +941,7 @@ let moscowMaps = [
     {
         name: 'Парк Олимпийской деревни',
         year: 2019,
-        url: './maps/moscow/20210531_337.webp',
+        url: './maps/moscow/o-mephi/20210531_337.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_337.jpg',
         bounds: [[55.68601642929811, 37.47183322906495], [55.684504364683185, 37.487411499023445], [55.67550334645052, 37.468206882476814]],
         author: 'SYTV_N',
@@ -908,7 +951,7 @@ let moscowMaps = [
     {
         name: 'Парк Пехорка',
         year: 2022,
-        url: './maps/moscow/20230130_118.webp',
+        url: './maps/moscow/o-mephi/20230130_118.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_118.jpg',
         bounds: [[55.805345182612136, 37.935833930969245], [55.803789496009955, 37.952077388763435], [55.79745757199157, 37.93340921401978]],
         author: 'TTYNN_V',
@@ -919,7 +962,7 @@ let moscowMaps = [
     {
         name: 'Парк Садовники',
         year: 2022,
-        url: './maps/moscow/20210529_707.webp',
+        url: './maps/moscow/o-mephi/20210529_707.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_707.jpg',
         bounds: [[55.662788,37.652086]],
         author: 'MNKV',
@@ -941,7 +984,7 @@ let moscowMaps = [
     {
         name: 'Голубинский Лесопарк',
         year: 2021,
-        url: './maps/moscow/20201204_393.webp',
+        url: './maps/moscow/o-mephi/20201204_393.webp',
         link: 'http://o-mephi.net/cup/maps/20201204_393.jpg',
         bounds: [[55.61316533854215, 37.499878406524665], [55.61151714599359, 37.51395463943482], [55.60700850069994, 37.49833345413209]],
         author: ['TTYNN_V','TTYNN_M',],
@@ -951,7 +994,7 @@ let moscowMaps = [
     {
         name: 'ПИП "Битцевский Лес" (сводная)',
         year: 2020,
-        url: './maps/moscow/20210104_746.webp',
+        url: './maps/moscow/o-mephi/20210104_746.webp',
         link: 'http://o-mephi.net/cup/maps/20210104_746.jpg',
         bounds: [[55.65119993513056, 37.54611968994141], [55.643935030951084, 37.61658668518067], [55.585573228950324, 37.52577781677247]],
         author: ['SYTV_N','MTN_Y','JASHPTRV','SKRPKO_S',],
@@ -961,7 +1004,7 @@ let moscowMaps = [
     {
         name: 'ПИП Битцевский парк - Ясенево',
         year: 2021,
-        url: './maps/moscow/20210103_973.webp',
+        url: './maps/moscow/o-mephi/20210103_973.webp',
         link: 'http://o-mephi.net/cup/maps/20210103_973.jpg',
         bounds: [[55.63431906914142, 37.51470565795899], [55.631702731562676, 37.54294395446778], [55.60943256797078, 37.5069808959961]],
         author: ['JASHPTRV','SKRPKO_S',],
@@ -982,7 +1025,7 @@ let moscowMaps = [
     {
         name: 'ПиП Битцевский лес - Конно-Спортивный Комплекс',
         year: 2019,
-        url: './maps/moscow/20210105_17.webp',
+        url: './maps/moscow/o-mephi/20210105_17.webp',
         link: 'http://o-mephi.net/cup/maps/20210105_17.jpg',
         bounds: [[55.644218,37.569796]],
         author: 'SYTV_N',
@@ -992,7 +1035,7 @@ let moscowMaps = [
     {
         name: 'ПиП Битцевский лес (ЮГ)',
         year: 2019,
-        url: './maps/moscow/20210105_869.webp',
+        url: './maps/moscow/o-mephi/20210105_869.webp',
         link: 'http://o-mephi.net/cup/maps/20210105_869.jpg',
         bounds: [[55.592116,37.569019]],
         author: 'MTN_Y',
@@ -1002,7 +1045,7 @@ let moscowMaps = [
     {
         name: 'ПИП Битцевский лес 15000',
         year: 2022,
-        url: './maps/moscow/20230130_89.webp',
+        url: './maps/moscow/o-mephi/20230130_89.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_89.jpg',
         bounds: [[55.613873,37.566777]],
         author: ['SYTV_N','MTN_Y','JASHPTRV','SKRPKO_S','MTN_Y',],
@@ -1013,7 +1056,7 @@ let moscowMaps = [
     {
         name: 'ПИП Кузьминки',
         year: 2022,
-        url: './maps/moscow/20210603_681.webp',
+        url: './maps/moscow/o-mephi/20210603_681.webp',
         link: 'http://o-mephi.net/cup/maps/20210603_681.jpg',
         bounds: [[55.70104921876941, 37.75752067565919], [55.692705101722005, 37.833738327026374], [55.67889106951389, 37.750053405761726]],
         author: ['DBRTSV_V','TTYNN_V',],
@@ -1023,7 +1066,7 @@ let moscowMaps = [
     {
         name: 'ПИП Кузьминки + Кузьминки-Чагино + Белая Дача',
         year: 2022,
-        url: './maps/moscow/20210103_183.webp',
+        url: './maps/moscow/o-mephi/20210103_183.webp',
         link: 'http://o-mephi.net/cup/maps/20210103_183.jpg',
         bounds: [[55.69246321669408, 37.8151559829712], [55.686947832001486, 37.8609037399292], [55.659940249951156, 37.80447006225587]],
         author: ['DBRTSV_V','TTYNN_V','LUK_V','ZUEV_A','KRSVSKY_A',],
@@ -1034,7 +1077,7 @@ let moscowMaps = [
     {
         name: 'ПКиО Измайлово',
         year: 2021,
-        url: './maps/moscow/20210529_21.webp',
+        url: './maps/moscow/o-mephi/20210529_21.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_21.jpg',
         bounds: [[55.775277,37.755809]],
         author: 'TTYNN_V',
@@ -1063,7 +1106,7 @@ let moscowMaps = [
     {
         name: 'пл. Весенняя, г. Климовск',
         year: 2019,
-        url: './maps/moscow/20210105_949.webp',
+        url: './maps/moscow/o-mephi/20210105_949.webp',
         link: 'http://o-mephi.net/cup/maps/20210105_949.jpg',
         bounds: [[55.40372869172652, 37.478656768798835], [55.39840416306062, 37.54363059997559], [55.368941810824175, 37.470674514770515]],
         author: ['JASHPTRV','SKRPKO_S',],
@@ -1073,7 +1116,7 @@ let moscowMaps = [
     {
         name: 'Пойма р. Битца',
         year: 2016,
-        url: './maps/moscow/20210606_508.webp',
+        url: './maps/moscow/o-mephi/20210606_508.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_508.jpg',
         bounds: [[55.57640389340443, 37.56719112396241], [55.57504529118144, 37.579808235168464], [55.57299516849038, 37.566332817077644]],
         author: ['KSTLV_E','MNKV',],
@@ -1083,7 +1126,7 @@ let moscowMaps = [
     {
         name: 'Пойма р. Городни в Борисово',
         year: 2021,
-        url: './maps/moscow/20220112_994.webp',
+        url: './maps/moscow/o-mephi/20220112_994.webp',
         link: 'http://o-mephi.net/cup/maps/20220112_994.jpg',
         bounds: [[55.636378100864626, 37.72179365158082], [55.633071485512595, 37.75119066238404], [55.62603340080573, 37.71790981292725]],
         author: 'MNKV',
@@ -1093,7 +1136,7 @@ let moscowMaps = [
     {
         name: 'Покровское-Стрешнево',
         year: 2022,
-        url: './maps/moscow/20230130_140.webp',
+        url: './maps/moscow/o-mephi/20230130_140.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_140.jpg',
         bounds: [[55.830312076223876, 37.46299266815186], [55.8270339001494, 37.49399900436402], [55.814895012395596, 37.4576497077942]],
         author: 'TTYNN_V',
@@ -1103,7 +1146,7 @@ let moscowMaps = [
     {
         name: 'Прилуки-Турово-Малюшина Дача',
         year: 2022,
-        url: './maps/moscow/20210118_89.webp',
+        url: './maps/moscow/o-mephi/20210118_89.webp',
         link: 'http://o-mephi.net/cup/maps/20210118_89.jpg',
         bounds: [[54.87379179528579, 37.85669803619385], [54.8673959028809, 37.920126914978034], [54.85452696041073, 37.85094738006592]],
         author: 'LUK_V',
@@ -1113,7 +1156,7 @@ let moscowMaps = [
     {
         name: 'Раздоры (Парк Малевича)',
         year: 2018,
-        url: './maps/moscow/20210606_368.webp',
+        url: './maps/moscow/o-mephi/20210606_368.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_368.jpg',
         bounds: [[55.75267054504668, 37.30103015899659], [55.74788829179949, 37.34986782073975], [55.729647551979234, 37.29399204254151]],
         author: 'LUK_V',
@@ -1187,7 +1230,7 @@ let moscowMaps = [
     {
         name: 'Район Кунцево',
         year: 2018,
-        url: './maps/moscow/20210531_872.webp',
+        url: './maps/moscow/o-mephi/20210531_872.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_872.jpg',
         bounds: [[55.753032813071115, 37.397289276123054], [55.751257667603745, 37.415249347686775], [55.73518107450009, 37.391495704650886]],
         author: 'MNKV',
@@ -1197,7 +1240,7 @@ let moscowMaps = [
     {
         name: 'Район Нагорный',
         year: 2009,
-        url: './maps/moscow/20210531_661.webp',
+        url: './maps/moscow/o-mephi/20210531_661.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_661.jpg',
         bounds: [[55.64611464371704, 37.60620117187501], [55.64490376271123, 37.61881828308106], [55.64237290051855, 37.60514974594117]],
         author: 'MNKV',
@@ -1208,7 +1251,7 @@ let moscowMaps = [
     {
         name: 'Район Тёплый Стан',
         year: 2021,
-        url: './maps/moscow/20210529_120.webp',
+        url: './maps/moscow/o-mephi/20210529_120.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_120.jpg',
         bounds: [[55.632638,37.486191]],
         author: 'LUK_V',
@@ -1242,7 +1285,7 @@ let moscowMaps = [
     {
         name: 'Ромашково',
         year: 2021,
-        url: './maps/moscow/20210606_344.webp',
+        url: './maps/moscow/o-mephi/20210606_344.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_344.jpg',
         bounds: [[55.77027287973593, 37.343602180480964], [55.765106488772155, 37.391796112060554], [55.73232983770723, 37.33077049255372]],
         author: 'LUK_V',
@@ -1253,7 +1296,7 @@ let moscowMaps = [
     {
         name: 'Рублево (сводная)',
         year: 2021,
-        url: './maps/moscow/20210529_847.webp',
+        url: './maps/moscow/o-mephi/20210529_847.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_847.jpg',
         bounds: [[55.79315127548057, 37.33716487884522], [55.787046857373944, 37.39617347717286], [55.75986697262169, 37.32755184173585]],
         author: ['JASHPTRV','DBRTSV_V',],
@@ -1263,7 +1306,7 @@ let moscowMaps = [
     {
         name: 'Сад Будущего',
         year: 2022,
-        url: './maps/moscow/20210529_482.webp',
+        url: './maps/moscow/o-mephi/20210529_482.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_482.jpg',
         bounds: [[55.84510863792577, 37.63607025146485], [55.84379549004318, 37.64827966690064], [55.83680735161048, 37.63310909271241]],
         author: 'MNKV',
@@ -1282,7 +1325,7 @@ let moscowMaps = [
     {
         name: 'Салтыковский Лесопарк',
         year: 2022,
-        url: './maps/moscow/20220104_180.webp',
+        url: './maps/moscow/o-mephi/20220104_180.webp',
         link: 'http://o-mephi.net/cup/maps/20220104_180.jpg',
         bounds: [[55.74159559585095, 37.86536693572999], [55.73898642623194, 37.89753198623657], [55.72916423765875, 37.862191200256355]],
         author: 'TTYNN_V',
@@ -1292,7 +1335,7 @@ let moscowMaps = [
     {
         name: 'Самородинка',
         year: 2018,
-        url: './maps/moscow/20210606_18.webp',
+        url: './maps/moscow/o-mephi/20210606_18.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_18.jpg',
         bounds: [[55.66763785821878, 37.494664192199714], [55.665459443446785, 37.517623901367195], [55.651660000348535, 37.48977184295655]],
         author: ['DBRTSV_V','SYTV_N',],
@@ -1311,7 +1354,7 @@ let moscowMaps = [
     {
         name: 'Северное Тушино',
         year: 2022,
-        url: './maps/moscow/20210606_306.webp',
+        url: './maps/moscow/o-mephi/20210606_306.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_306.jpg',
         bounds: [[55.86749760638175, 37.446920871734626], [55.865823998475534, 37.46161937713624], [55.85250480741504, 37.44192123413087]],
         author: 'MNKV',
@@ -1321,7 +1364,7 @@ let moscowMaps = [
     {
         name: 'Северное Чертаново',
         year: 2022,
-        url: './maps/moscow/20210104_340.webp',
+        url: './maps/moscow/o-mephi/20210104_340.webp',
         link: 'http://o-mephi.net/cup/maps/20210104_340.jpg',
         bounds: [[55.64345065608576, 37.581310272216804], [55.64133144561749, 37.60669469833375], [55.63079424015306, 37.57611751556397]],
         author: ['MNKV','SYTV_N',],
@@ -1339,7 +1382,7 @@ let moscowMaps = [
     {
         name: 'Серебряный бор',
         year: 2021,
-        url: './maps/moscow/20210529_930.webp',
+        url: './maps/moscow/o-mephi/20210529_930.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_930.jpg',
         bounds: [[55.79449025901845, 37.40864038467408], [55.78985790391286, 37.450954914093025], [55.77715229066336, 37.40258932113648]],
         author: 'TTYNN_V',
@@ -1350,7 +1393,7 @@ let moscowMaps = [
     {
         name: 'Совхоз 1 мая + Восточное Измайлово',
         year: 2021,
-        url: './maps/moscow/20210529_204.webp',
+        url: './maps/moscow/o-mephi/20210529_204.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_204.jpg',
         bounds: [[55.796385,37.852077]],
         author: ['TTYNN_V','FLVSKY_S','LKN_A',],
@@ -1361,7 +1404,7 @@ let moscowMaps = [
     {
         name: 'Сокольники и Путяевские Пруды',
         year: 2021,
-        url: './maps/moscow/20210608_573.webp',
+        url: './maps/moscow/o-mephi/20210608_573.webp',
         link: 'http://o-mephi.net/cup/maps/20210608_573.jpg',
         bounds: [[55.821368753540376, 37.657957077026374], [55.818017491282326, 37.692375183105476], [55.79257224131492, 37.64907360076905]],
         author: ['ZUEV_A','SYTV_N','LUK_V','MNKV','LKN_A',],
@@ -1371,7 +1414,7 @@ let moscowMaps = [
     {
         name: 'СОЛ Волга, д. Видогощи',
         year: 2021,
-        url: './maps/moscow/20220112_35.webp',
+        url: './maps/moscow/o-mephi/20220112_35.webp',
         link: 'http://o-mephi.net/cup/maps/20220112_35.jpg',
         bounds: [[56.708057,36.367273]],
         author: 'SSO_MIFI',
@@ -1382,7 +1425,7 @@ let moscowMaps = [
     {
         name: 'Сосновка',
         year: 2022,
-        url: './maps/moscow/20230130_884.webp',
+        url: './maps/moscow/o-mephi/20230130_884.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_884.jpg',
         bounds: [[55.77176955668372, 37.38413572311402], [55.769476237927044, 37.40660190582276], [55.758864865141796, 37.38016605377198]],
         author: 'TTYNN_V',
@@ -1393,7 +1436,7 @@ let moscowMaps = [
     {
         name: 'Сосновка',
         year: 2021,
-        url: './maps/moscow/20210104_693.webp',
+        url: './maps/moscow/o-mephi/20210104_693.webp',
         link: 'http://o-mephi.net/cup/maps/20210104_693.jpg',
         bounds: [[55.763674,37.396116]],
         author: ['TTYNN_V','MTN_Y',],
@@ -1404,7 +1447,7 @@ let moscowMaps = [
     {
         name: 'Стадион Медик - Ромашково',
         year: 2022,
-        url: './maps/moscow/20210610_193.webp',
+        url: './maps/moscow/o-mephi/20210610_193.webp',
         link: 'http://o-mephi.net/cup/maps/20210610_193.jpg',
         bounds: [[55.76696550269323, 37.34313011169434], [55.76054307878295, 37.40359783172608], [55.73385213411148, 37.33167171478272]],
         author: ['LUK_V','SKRPKO_S','JASHPTRV',],
@@ -1414,7 +1457,7 @@ let moscowMaps = [
     {
         name: 'Стадион Металлург',
         year: 2012,
-        url: './maps/moscow/20210531_497.webp',
+        url: './maps/moscow/o-mephi/20210531_497.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_497.jpg',
         bounds: [[55.782292952333435, 37.69992828369141], [55.78078461251925, 37.715356349945075], [55.77069533469536, 37.69604444503785]],
         author: ['MNKV','ZUEV_A',],
@@ -1424,7 +1467,7 @@ let moscowMaps = [
     {
         name: 'Строгинский и Щукинский полуостровы, Стадион Янтарь',
         year: 2019,
-        url: './maps/moscow/20210606_570.webp',
+        url: './maps/moscow/o-mephi/20210606_570.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_570.jpg',
         bounds: [[55.82708211062275, 37.39385604858399], [55.820910684363255, 37.453165054321296], [55.7913900198309, 37.383298873901374]],
         author: ['SYTV_N','MNKV','MTN_Y',],
@@ -1434,7 +1477,7 @@ let moscowMaps = [
     {
         name: 'Таракановы Горы (Фосфоритный)',
         year: 2022,
-        url: './maps/moscow/20210616_136.webp',
+        url: './maps/moscow/o-mephi/20210616_136.webp',
         link: 'http://o-mephi.net/cup/maps/20210616_136.jpg',
         bounds: [[55.35128070221761, 38.900399208068855], [55.34549766047317, 38.95352840423584], [55.32189312078889, 38.89044284820557]],
         author: ['JASHPTRV','SHRKHV','LKN_A',],
@@ -1444,7 +1487,7 @@ let moscowMaps = [
     {
         name: 'Терлецкий лесопарк',
         year: 2020,
-        url: './maps/moscow/20200918_73.webp',
+        url: './maps/moscow/o-mephi/20200918_73.webp',
         link: 'http://o-mephi.net/cup/maps/20200918_73.jpg',
         bounds: [[55.76510,37.81225]],
         author: 'MNKV',
@@ -1455,7 +1498,7 @@ let moscowMaps = [
     {
         name: 'Тимирязевский лесопарк',
         year: 2022,
-        url: './maps/moscow/20210104_9.webp',
+        url: './maps/moscow/o-mephi/20210104_9.webp',
         //link: 'http://o-mephi.net/cup/maps/20210104_9.jpg',
         link: './original_maps/moscow/timiryazevsky_2022_full.jpg',
         bounds: [[55.83737367856191, 37.532858848571784], [55.833252557914705, 37.56895065307618], [55.8086372446261, 37.52264499664307]],
@@ -1466,7 +1509,7 @@ let moscowMaps = [
     {
         name: 'Томилинский Лесопарк (Лыткарино)',
         year: 2022,
-        url: './maps/moscow/20230130_388.webp',
+        url: './maps/moscow/o-mephi/20230130_388.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_388.jpg',
         bounds: [[55.6530885894653, 37.85399436950684], [55.63943011350706, 37.987289428710945], [55.57334697229908, 37.829704284667976]],
         author: ['STLV_S','ZLTRV_S','JASHPTRV','SKRPKO_S','TTYNN_V',],
@@ -1477,7 +1520,7 @@ let moscowMaps = [
     {
         name: 'Томилинский Лесопарк (Лыткарино) под рогейн 15000',
         year: 2022,
-        url: './maps/moscow/20230130_198.webp',
+        url: './maps/moscow/o-mephi/20230130_198.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_198.jpg',
         bounds: [[55.596483,37.938339]],
         author: ['STLV_S','ZLTRV_S','JASHPTRV','SKRPKO_S','TTYNN_V',],
@@ -1498,7 +1541,7 @@ let moscowMaps = [
     {
         name: 'Тучково',
         year: 2016,
-        url: './maps/moscow/20210606_905.webp',
+        url: './maps/moscow/o-mephi/20210606_905.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_905.jpg',
         bounds: [[55.631605826815836, 36.5282964706421], [55.62586379280664, 36.581768989562995], [55.60688729340343, 36.52018547058106]],
         author: ['SKRPKO_S','JASHPTRV',],
@@ -1509,7 +1552,7 @@ let moscowMaps = [
     {
         name: 'Тучково набережная',
         year: 2016,
-        url: './maps/moscow/20210606_190.webp',
+        url: './maps/moscow/o-mephi/20210606_190.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_190.jpg',
         bounds: [[55.617116,36.547226]],
         author: ['SKRPKO_S','JASHPTRV',],
@@ -1519,7 +1562,7 @@ let moscowMaps = [
 */
     {
         name: 'Усадьба Братцево',
-        url: './maps/moscow/20200919_688.webp',
+        url: './maps/moscow/o-mephi/20200919_688.webp',
         link: 'http://o-mephi.net/cup/maps/20200919_688.jpg',
         bounds: [[55.85195074576892, 37.39119529724122], [55.85223982239593, 37.42007732391358], [55.839542514007164, 37.39171028137208]],
         author: 'MTN_Y',
@@ -1528,7 +1571,7 @@ let moscowMaps = [
     },
     {
         name: 'Усадьба Братцево',
-        url: './maps/moscow/20200919_536.webp',
+        url: './maps/moscow/o-mephi/20200919_536.webp',
         link: 'http://o-mephi.net/cup/maps/20200919_536.jpg',
         bounds: [[55.851902566122014, 37.39437103271485], [55.85001146779927, 37.407267093658454], [55.8444701403675, 37.39046573638917]],
         author: 'DJCHKV',
@@ -1538,7 +1581,7 @@ let moscowMaps = [
     {
         name: 'Филёвская Пойма',
         year: 2022,
-        url: './maps/moscow/20230130_202.webp',
+        url: './maps/moscow/o-mephi/20230130_202.webp',
         link: 'http://o-mephi.net/cup/maps/20230130_202.jpg',
         bounds: [[55.768655438429555, 37.47887134552003], [55.76674821992664, 37.49897718429566], [55.763380182188605, 37.477133274078376]],
         author: 'KLZHNY',
@@ -1548,7 +1591,7 @@ let moscowMaps = [
     {
         name: 'Филёвский и Суворовский парки',
         year: 2019,
-        url: './maps/moscow/20210606_236.webp',
+        url: './maps/moscow/o-mephi/20210606_236.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_236.jpg',
         bounds: [[55.75921500200738, 37.42964744567872], [55.75257393967197, 37.49676704406739], [55.736630776050305, 37.423467636108406]],
         author: ['DBRTSV_V','KSTLV_E','SKRPKO_S','JASHPTRV','SYTV_N',],
@@ -1558,7 +1601,7 @@ let moscowMaps = [
     {
         name: 'Филёвский парк',
         year: 2018,
-        url: './maps/moscow/20210606_930.webp',
+        url: './maps/moscow/o-mephi/20210606_930.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_930.jpg',
         bounds: [[55.75460260229904, 37.472949028015144], [55.752767150182194, 37.4959945678711], [55.7419700456948, 37.470180988311775]],
         author: 'MTN_Y',
@@ -1568,7 +1611,7 @@ let moscowMaps = [
     {
         name: 'Фрязино (остров)',
         year: 2020,
-        url: './maps/moscow/20210606_172.webp',
+        url: './maps/moscow/o-mephi/20210606_172.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_172.jpg',
         bounds: [[55.94695300073396, 38.0791711807251], [55.9455832160192, 38.090887069702156], [55.94194223689547, 38.077261447906494]],
         author: 'TTYNN_V',
@@ -1578,7 +1621,7 @@ let moscowMaps = [
     {
         name: 'Хорошево-Мневники',
         year: 2020,
-        url: './maps/moscow/20210104_757.webp',
+        url: './maps/moscow/o-mephi/20210104_757.webp',
         link: 'http://o-mephi.net/cup/maps/20210104_757.jpg',
         bounds: [[55.78953217071357, 37.44835853576661], [55.788735922537114, 37.45788574218751], [55.781194886729565, 37.446234226226814]],
         author: ['KSTLV_E','BRTNK_A',],
@@ -1589,7 +1632,7 @@ let moscowMaps = [
     {
         name: 'ЦПКиО им. Горького (зима, каток)',
         year: 2018,
-        url: './maps/moscow/20210531_903.webp',
+        url: './maps/moscow/o-mephi/20210531_903.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_903.jpg',
         bounds: [[55.728551,37.600048]],
         author: 'MNKV',
@@ -1600,7 +1643,7 @@ let moscowMaps = [
     {
         name: 'ЦПКиО им. Горького (лето)',
         year: 2018,
-        url: './maps/moscow/20210531_345.webp',
+        url: './maps/moscow/o-mephi/20210531_345.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_345.jpg',
         bounds: [[55.73398503018637, 37.596502304077156], [55.73248690278119, 37.60905504226685], [55.72312230380605, 37.592511177062995]],
         author: 'MNKV',
@@ -1610,7 +1653,7 @@ let moscowMaps = [
     {
         name: 'Чертаново центральное и Чертаново Южное',
         year: 2022,
-        url: './maps/moscow/20210529_788.webp',
+        url: './maps/moscow/o-mephi/20210529_788.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_788.jpg',
         bounds: [[55.61435296375693, 37.574787139892585], [55.61268058321919, 37.59268283843995], [55.596352948669875, 37.56961584091187]],
         author: 'MNKV',
@@ -1620,7 +1663,7 @@ let moscowMaps = [
     {
         name: 'Щукинский Треугольник',
         year: 2016,
-        url: './maps/moscow/20210606_71.webp',
+        url: './maps/moscow/o-mephi/20210606_71.webp',
         link: 'http://o-mephi.net/cup/maps/20210606_71.jpg',
         bounds: [[55.809613956723354, 37.46563196182252], [55.80846842770551, 37.478377819061286], [55.80389803430175, 37.46408700942994]],
         author: 'KSTLV_E',
@@ -1630,7 +1673,7 @@ let moscowMaps = [
     {
         name: 'Ясеневский лесопарк (аквапарк Мореон)',
         year: 2018,
-        url: './maps/moscow/20210103_146.webp',
+        url: './maps/moscow/o-mephi/20210103_146.webp',
         link: 'http://o-mephi.net/cup/maps/20210103_146.jpg',
         bounds: [[55.604147908608944, 37.50807523727418], [55.60120225044219, 37.53479003906251], [55.594631302378225, 37.50434160232545]],
         author: ['LUK_V','SYTV_N'],
@@ -1640,7 +1683,7 @@ let moscowMaps = [
     {
         name: 'Ясеневский лесопарк (аквапарк Мореон)',
         year: 2022,
-        url: './maps/moscow/20210529_37.webp',
+        url: './maps/moscow/o-mephi/20210529_37.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_37.jpg',
         bounds: [[55.60458428359934, 37.5065302848816], [55.601044657557956, 37.53727912902833], [55.594570679653145, 37.502882480621345]],
         author: ['YURCHK','LUK_V'],
@@ -1835,7 +1878,7 @@ let moscowMaps = [
     {
         name: '74-й квартал Ивановского',
         year: 2022,
-        url: './maps/moscow/20210529_95.webp',
+        url: './maps/moscow/o-mephi/20210529_95.webp',
         link: 'http://o-mephi.net/cup/maps/20210529_95.jpg',
         bounds: [[55.768474377390305, 37.82227993011475], [55.76738799349502, 37.8348970413208], [55.75811628612568, 37.81968355178834]],
         author: ['MNKV','ERMCHNKV_F',],
@@ -2835,6 +2878,58 @@ let moscowMaps = [
         url: './maps/moscow/friazino_2008.webp',
         link: './original_maps/moscow/friazino_2008_full.jpg',
         bounds: [[55.970988438866414, 37.99784660339356], [55.968514715091594, 38.02951812744141], [55.94636423955699, 37.99098014831544]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Старбеево, Химкинский лес',
+        year: 2008,
+        url: './maps/moscow/starbeevo_2008.webp',
+        link: './original_maps/moscow/starbeevo_2008_full.jpg',
+        bounds: [[55.932904400411545, 37.44964599609376], [55.92970700125797, 37.480158805847175], [55.91097407855501, 37.441492080688484]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Старбеево, Химкинский лес',
+        year: 2021,
+        url: './maps/moscow/starbeevo_2021.webp',
+        link: './original_maps/moscow/starbeevo_2021_full.jpg',
+        bounds: [[55.91990881597845, 37.45649099349976], [55.9178045880953, 37.47556686401368], [55.91104623811357, 37.453207969665534]],
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Химки, ПКиО им Толстого',
+        year: 2003,
+        url: './maps/moscow/khimki_tolstogo_2003.webp',
+        link: './original_maps/moscow/khimki_tolstogo_2003_full.jpg',
+        bounds: [[55.90005238411934, 37.45423793792725], [55.89823581287431, 37.46850728988648], [55.89240055499103, 37.45157718658448]],
+        owner: 'FSO_MSK',
+        author: 'SFRNV',
+        types: ['ORIENT'],
+    },
+    {
+        name: 'Химки',
+        year: 2022,
+        url: './maps/moscow/khimki_2022.webp',
+        link: './original_maps/moscow/khimki_2022_full.jpg',
+        bounds: [[55.91418504894249, 37.455182075500495], [55.913198936516366, 37.46483802795411], [55.90484002525695, 37.451920509338386]],
+        types: ['ORIENT','CITY'],
+    },
+    {
+        name: 'Химки, Солнечная система',
+        year: 2021,
+        url: './maps/moscow/khimki_2021.webp',
+        link: './original_maps/moscow/khimki_2021_full.jpg',
+        bounds: [[55.91965631466339, 37.40735292434693], [55.91826151585836, 37.420742511749275], [55.91372807313155, 37.40557193756104]],
+        author: 'KZNN_O',
+        types: ['ORIENT','CITY'],
+    },
+    {
+        name: 'Фряново',
+        year: 2024,
+        url: './maps/moscow/frianovo_2024.webp',
+        link: './original_maps/moscow/frianovo_2024_full.jpg',
+        bounds: [[56.16118182437624, 38.429446220397956], [56.158290084938955, 38.45223426818848], [56.146111322777685, 38.424768447875984]],
+        owner: 'KMPT',
         types: ['ORIENT'],
     },
 ];
