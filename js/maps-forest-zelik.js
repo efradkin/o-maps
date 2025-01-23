@@ -311,6 +311,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_chertovo_oz_1995.webp',
         link: './original_maps/forest/zelik/zelenogorsk_chertovo_oz_1995_full.jpg',
         bounds: [[60.240024188580975, 29.76204872131348], [60.2312892908627, 29.77380752563477], [60.23047959706192, 29.734926223754886]],
+        author: 'KUZNTSV_S',
         types: ['ORIENT'],
     },
     {
