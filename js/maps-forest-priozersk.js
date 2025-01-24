@@ -121,7 +121,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_berezovskoe_1984.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_berezovskoe_1984_full.jpg',
         bounds: [[61.15381724416708, 29.787368774414066], [61.15207798205209, 29.817881584167484], [61.13849187563487, 29.782905578613285]],
-        author: ['OVCHNNKV'],
+        author: 'OVCHNNKV',
         types: ['ORIENT'],
     },
     {
