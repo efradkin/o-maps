@@ -603,7 +603,7 @@ let parkMaps = [
         types: ['ORIENT', 'PARK'],
     },
     {
-        name: 'Муринский парк - центр',
+        name: 'Муринский парк, центр',
         year: 2013,
         url: './maps/parks/murinsky_center_2014.webp',
         bounds: [[60.031222271957226, 30.39024353027344], [60.03017182186756, 30.410585403442386], [60.02412572517976, 30.389170646667484]],
@@ -629,7 +629,7 @@ let parkMaps = [
         types: ['ORIENT', 'PARK'],
     },
     {
-        name: 'Муринский парк - запад',
+        name: 'Муринский парк, запад',
         year: 2010,
         url: './maps/parks/murinsky_north_2010.webp',
         link: './original_maps/parks/murinsky_north_2010_full.jpg',
@@ -638,7 +638,7 @@ let parkMaps = [
         types: ['ORIENT', 'PARK'],
     },
     {
-        name: 'Муринский парк - восток',
+        name: 'Муринский парк, восток',
         year: 2018,
         url: './maps/parks/murinsky_east_2023.webp',
         link: './original_maps/parks/murinsky_east_2023_full.jpg',
@@ -646,6 +646,16 @@ let parkMaps = [
         types: ['ORIENT', 'PARK'],
         author: ['SHRNN','CHGRVSKY_M'],
         owner: 'SHRNN',
+    },
+    {
+        name: 'Муринский парк',
+        year: 2020,
+        url: './maps/parks/murinsky_2020.webp',
+        link: './original_maps/parks/murinsky_2020_full.jpg',
+        bounds: [[60.0369241325567, 30.366210937500004], [60.03225125190731, 30.41346073150635], [60.0264199417561, 30.36230564117432]],
+        types: ['ORIENT', 'PARK'],
+        author: 'KUZNTSV_A',
+        owner: 'KUZNTSV_A',
     },
     {
         name: 'Новоорловский лесопарк',
