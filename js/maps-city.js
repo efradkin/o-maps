@@ -597,6 +597,16 @@ let cityMaps = [
         owner: 'TMKN'
     },
     {
+        name: 'Авангардная ул, шк №383',
+        year: 2025,
+        url: './maps/city/school_383_2025.webp',
+        link: './original_maps/city/school_383_2025_full.jpg',
+        bounds: [[59.843338086364156, 30.17530202865601], [59.842238548347105, 30.186202526092533], [59.83326841128922, 30.171482563018802]],
+        types: ['ORIENT', 'CITY'],
+        author: 'TMKN',
+        owner: 'TMKN'
+    },
+    {
         name: 'Авангардная ул, шк №237',
         year: 2025,
         url: './maps/city/school_237_2025.webp',
