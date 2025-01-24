@@ -258,6 +258,7 @@ let authors = {
     PLBTKO: { name: 'Полуботко А.' },
     PLMNN: { name: 'Пульманен П.' },
     PPV_D: { name: 'Попов Дмитрий' },
+    PPV_V: { name: 'Попов В.' },
     PRSCHPA: { name: 'Прищепа О.' },
     PSHKV: { name: 'Пашков Михаил' },
     PSTKN_M: { name: 'Пясткин Максим' },
@@ -385,12 +386,15 @@ let authors = {
     BRLNV: { name: 'Бурлинов Николай' },
     BRTNK_A: { name: 'Бортник Алексей' },
     BRKN: { name: 'Быркин Виктор' },
+    BSHNSKY: { name: 'Бушинский А.' },
+    CHPKN: { name: 'Чупикин А.' },
     DDNKV: { name: 'Дудников Владимир' },
     DRNN_S: {
         name: 'Доронин Сергей' // Павлович, ака снеговик
     },
     ERMCHNKV_A: { name: 'Ермаченков Алексей' },
     ERMCHNKV_F: { name: 'Ермаченков Филипп' },
+    EFMV: { name: 'Ефимов В.' },
     ETNKO: { name: 'Этенко Г.' },
     FMN_I: { name: 'Фомин И.' },
     GRCHV_D: { name: 'Грачев Дмитрий' },
@@ -461,6 +465,7 @@ let authors = {
     SSO_MIFI: { name: 'Бригада ССО МИФИ' },
     SYTV_N: { name: 'Сытов Николай' },
     TLMCHV: { name: 'Толмачёв Г.' },
+    TNS_A: { name: 'Тонис А.' },
     TRNN_A: { name: 'Таранин Анатолий' },
     TTYNN_M: { name: 'Тутынин Марк' },
     TTYNN_V: { name: 'Тутынин Владимир' },
@@ -469,5 +474,6 @@ let authors = {
     ZKHRV_Y: { name: 'Захаров Ю.' },
     ZLTRV_S: { name: 'Золотарев Станислав' },
     ZUEV_A: { name: '<a href="mailto:Lesasa@mail.ru" target="_blank">Зуев Алексей</a>' },
+    ZVJLV: { name: 'Завьялов В.' },
 };
 

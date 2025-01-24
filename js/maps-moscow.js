@@ -1,5 +1,13 @@
 let moscowMaps = [
     {
+        name: 'Некрасовский',
+        url: './maps/moscow/nekrasovsky.webp',
+        link: './original_maps/moscow/nekrasovsky_full.jpg',
+        bounds: [[56.09669937808783, 37.44192123413087], [56.090618677710275, 37.49496459960938], [56.07342473269754, 37.43342399597169]],
+        author: 'IGNTNKO',
+        types: ['ORIENT'],
+    },
+    {
         name: 'Лапшинка',
         year: 1989,
         url: './maps/moscow/lapshinka_1989.webp',
@@ -2338,7 +2346,7 @@ let moscowMaps = [
         url: './maps/moscow/palchino_1987.webp',
         link: './original_maps/moscow/palchino_1987_full.jpg',
         bounds: [[56.43454984497366, 37.815027236938484], [56.43108548237159, 37.87073135375977], [56.386495187089096, 37.8061866760254]],
-        author: 'ALSHN',
+        author: ['ALSHN','BSHNSKY','EFMV','KZMN_R','LVN_B','PPV_V','JANN_Y'],
         types: ['ORIENT'],
     },
     {
@@ -2541,6 +2549,15 @@ let moscowMaps = [
         link: './original_maps/moscow/frolovskoe_south_west_1985_full.jpg',
         bounds: [[56.26518720706061, 36.68781280517579], [56.25889477015197, 36.7624855041504], [56.24182370942394, 36.68171882629395]],
         types: ['ORIENT'],
+    },
+    {
+        name: 'Ильясово',
+        year: 2014,
+        url: './maps/moscow/iliasovo_rogaine_2014.webp',
+        link: './original_maps/moscow/iliasovo_rogaine_2014_full.jpg',
+        bounds: [[54.97505217678069, 38.64612579345704], [54.94104765125723, 38.97674560546876], [54.81987650974958, 38.59840393066407]],
+        author: ['ZVJLV','CHPKN','TNS_A'],
+        types: ['ORIENT','ROGAINE'],
     },
     {
         name: 'Бебехово',
@@ -2964,6 +2981,24 @@ let moscowMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Каблуково',
+        year: 2008,
+        url: './maps/moscow/kablukovo_rogaine_2008.webp',
+        link: './original_maps/moscow/kablukovo_rogaine_2008_full.gif',
+        bounds: [[56.115605656237356, 38.09595108032227], [55.99703699016007, 38.33971023559571], [56.01877468958796, 37.94677734375001]],
+        author: ['RMNV_A','JAKMV_A'],
+        types: ['ORIENT','ROGAINE'],
+    },
+    {
+        name: 'Фрязино',
+        year: 2007,
+        url: './maps/moscow/friazino_rogaine_2007.webp',
+        link: './original_maps/moscow/friazino_rogaine_2007_full.gif',
+        bounds: [[56.00126072342197, 37.997245788574226], [55.98762792516235, 38.14950942993164], [55.93054844766919, 37.97887802124024]],
+        author: 'RMNV_A',
+        types: ['ORIENT','ROGAINE'],
+    },
+    {
         name: 'Фрязино',
         year: 2024,
         url: './maps/moscow/friazino_rogaine_2024.webp',
@@ -3119,6 +3154,14 @@ let moscowMaps = [
         bounds: [[55.65879032000983, 37.659931182861335], [55.658112450744916, 37.66654014587403], [55.65319754751281, 37.6583218574524]],
         author: ['DDNKV','BRKN','ERMCHNKV_A'],
         types: ['ORIENT'],
+    },
+    {
+        name: 'Лосиный остров',
+        year: 2007,
+        url: './maps/moscow/losiny_ostrov_rogaine_2007.webp',
+        link: './original_maps/moscow/losiny_ostrov_rogaine_2007_full.jpg',
+        bounds: [[55.881666201607885, 37.68233299255372], [55.86635378144085, 37.83777236938477], [55.818933692366976, 37.66405105590821]],
+        types: ['ORIENT','ROGAINE'],
     },
     {
         name: 'Лосиный остров, МГСГИ',
