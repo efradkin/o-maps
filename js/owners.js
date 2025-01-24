@@ -30,7 +30,7 @@ let owners = {
         name: '© Ельцов Денис'
     },
     ELZRV: {
-        name: 'По вопросам использования - Владимир Елизаров orunner1@gmail.com'
+        name: 'По вопросам использования - Владимир Елизаров, orunner1@gmail.com'
     },
     SFSO_SPB: {
         name: 'Карта принадлежит СФСО СПб. По вопросам использования - info@spbof.ru.',
@@ -49,7 +49,7 @@ let owners = {
         name: '© ГБНОУ "СПб ГДТЮ", Юрий Гультяев - +79213017985, gultiaev@list.ru'
     },
     GUSEV: {
-        name: '© Гусев Илья gusev@ym.spb.ru'
+        name: '© Гусев Илья, gusev@ym.spb.ru'
     },
     HARD: {
         name: '© <a href="https://hardadventure.ru/" target="_blank">Hard Adventure</a>'
@@ -81,7 +81,7 @@ let owners = {
         icon: 'kjp.jpg'
     },
     KUZNTSV_A: {
-        name: '© Кузнецов Александр'
+        name: '© Кузнецов Александр, sanek-orel@yandex.ru'
     },
     LENA: {
         name: '© Кропачёв В.Н. (т/б "Лена-Ладога").'
