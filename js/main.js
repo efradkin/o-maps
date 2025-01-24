@@ -676,6 +676,11 @@ function buildPopupText(m, latLngs) {
         result += '<span class="restricted-text">Район закрыт ' + m.restricted + '.</span><br />';
     }
 
+    // GPS-трансляция
+    if (m.gps) {
+        result += '<a href="' + m.gps + '" target="_blank">GPS-трансляция</a>.<br />';
+    }
+
     // ссылки на просмотр и скачивание
     let link = m.link;
     if (link) {
