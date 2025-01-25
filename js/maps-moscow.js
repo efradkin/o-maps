@@ -700,6 +700,15 @@ let moscowMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Мещерский парк',
+        year: 2002,
+        url: './maps/moscow/meschersky_2002.webp',
+        link: './original_maps/moscow/meschersky_2002_full.jpg',
+        bounds: [[55.687697776496876, 37.34802246093751], [55.682617226030914, 37.41861820220948], [55.6600370846146, 37.34291553497315]],
+        author: 'ZHRDV_V',
+        types: ['ORIENT','PARK'],
+    },
+    {
         name: 'Мещерский Парк',
         year: 2015,
         url: './maps/moscow/o-mephi/20210531_700.webp',
@@ -707,7 +716,7 @@ let moscowMaps = [
         bounds: [[55.68600433301321, 37.38819122314454], [55.68283497744586, 37.420721054077156], [55.66248208047731, 37.38089561462403]],
         author: 'DBRTSV_V',
         owner: 'SYTV_N',
-        types: ['ORIENT'],
+        types: ['ORIENT','PARK'],
     },
     {
         name: 'Музей-заповедник Царицыно',
