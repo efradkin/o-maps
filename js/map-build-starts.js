@@ -1,8 +1,15 @@
+const urlParams = new URLSearchParams(window.location.search);
+const THE_AUTHOR_PARAM = urlParams.get('author');
+const THE_OWNER_PARAM = urlParams.get('owner');
+const MAP_NAME_PARAM = urlParams.get('map');
+const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
+const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | <a href="https://t.me/orient_spb" target="_blank">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
 
 let naGroup = L.layerGroup([]);
 let ymGroup = L.layerGroup([]);
+let mmsGroup = L.layerGroup([]);
 let kkpGroup = L.layerGroup([]);
 let stGroup = L.layerGroup([]);
 let rfarGroup = L.layerGroup([]);
@@ -42,7 +49,7 @@ if (mapElement) {
     });
 
     initialLayers = [
-        osmLayer, naGroup, ymGroup, kkpGroup, stGroup, rfarGroup, sto24Group, groupAll,
+        osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, stGroup, rfarGroup, sto24Group, groupAll,
         ...Object.values(ageGroups),
     ];
 }
@@ -52,6 +59,7 @@ function buildOverlayMapsContents() {
         "Невский Азимут": naGroup,
         "Яркий Мир": ymGroup,
         "ККП": kkpGroup,
+        "ММС": mmsGroup,
         "Спринт-Тур": stGroup,
         "RFAR": rfarGroup,
         "100X24": sto24Group,
@@ -76,6 +84,7 @@ function allocateMap(m, imgLayer) {
         case 'NA': imgLayer.addTo(naGroup); break;
         case 'YM': imgLayer.addTo(ymGroup); break;
         case 'KKP': imgLayer.addTo(kkpGroup); break;
+        case 'MMS': imgLayer.addTo(mmsGroup); break;
         case 'RFAR': imgLayer.addTo(rfarGroup); break;
         case '100X24': imgLayer.addTo(sto24Group); break;
         case 'ST': imgLayer.addTo(stGroup); break;

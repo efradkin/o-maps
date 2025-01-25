@@ -7,6 +7,10 @@ let starts = {
         name: 'Яркий Мир',
         icon: 'ym.jpg'
     },
+    MMS: {
+        name: 'Мемориал Михаила Святкина',
+        icon: 'mms.jpg'
+    },
     KKP: {
         name: 'Камни (Кубок) Карельского Перешейка',
         icon: 'kkp.jpg'
