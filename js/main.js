@@ -1,10 +1,3 @@
-const urlParams = new URLSearchParams(window.location.search);
-const THE_AUTHOR_PARAM = urlParams.get('author');
-const THE_OWNER_PARAM = urlParams.get('owner');
-const MAP_NAME_PARAM = urlParams.get('map');
-const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
-const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
-
 const ZERO_LATLNG = new L.LatLng(0, 0);
 
 const multiX = 1e-5;

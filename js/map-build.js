@@ -1,3 +1,9 @@
+const urlParams = new URLSearchParams(window.location.search);
+const THE_AUTHOR_PARAM = urlParams.get('author');
+const THE_OWNER_PARAM = urlParams.get('owner');
+const MAP_NAME_PARAM = urlParams.get('map');
+const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
+const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">Евгений Фрадкин</a> | <a href="https://t.me/orient_spb" target="_blank">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
 
@@ -41,10 +47,17 @@ if (mapElement) {
         attribution: ATTRIBUTION
     });
 
-    initialLayers = [
-        osmLayer, parkGroup, cityGroup, forestGroup, specialGroup, groupAllOrient,
-        group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
-    ];
+    if (THE_OWNER_PARAM && owners[THE_OWNER_PARAM].rogaine) {
+        initialLayers = [
+            osmLayer, parkGroup, cityGroup, forestGroup, specialGroup, groupAllOrient,
+            group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear, rogaineGroup
+        ];
+    } else {
+        initialLayers = [
+            osmLayer, parkGroup, cityGroup, forestGroup, specialGroup, groupAllOrient,
+            group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
+        ];
+    }
 }
 
 function buildOverlayMapsContents() {

@@ -6,7 +6,8 @@ let owners = {
         name: '© Бибич Андрей - <a href="https://vk.com/id7840054" target="_blank">ВК</a> или <a href="https://t.me/andy_atta" target="_blank">Telegram</a>.'
     },
     BKTV: {
-        name: 'Все карты <a href="https://t.me/beketov" target="_blank">Константина Бекетова</a> можно свободно использовать в некоммерческих целях.'
+        name: 'Все карты <a href="https://t.me/beketov" target="_blank">Константина Бекетова</a> можно свободно использовать в некоммерческих целях.',
+        rogaine: true
     },
     BVZ: {
         name: '© Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru" target="_blank">Tanya-9-8@ya.ru</a>]'
@@ -37,7 +38,8 @@ let owners = {
         icon: 'sfso.jpg'
     },
     GK: {
-        name: '© Горный Кросс, Александр Шумский'
+        name: '© Горный Кросс, Александр Шумский',
+        rogaine: true
     },
     GOLDMRSHRT: {
         name: '© Золотой Маршрут - <a href="https://mosplay.ru/" target="_blank">сайт</a> и <a href="https://vk.com/rogaining" target="_blank">ВК</a>'
@@ -52,7 +54,8 @@ let owners = {
         name: '© Гусев Илья, gusev@ym.spb.ru'
     },
     HARD: {
-        name: '© <a href="https://hardadventure.ru/" target="_blank">Hard Adventure</a>'
+        name: '© <a href="https://hardadventure.ru/" target="_blank">Hard Adventure</a>',
+        rogaine: true
     },
     INGR: {
         name: '© <a href="https://vk.com/ingriaorient" target="_blank">КСО "Ингрия"</a>, Кирьянов Юрий - 89117954827'
@@ -65,7 +68,8 @@ let owners = {
     },
     KKM: {
         name: '© <b><a href="https://kkmstart.ru" target="_blank">Кубок Коротких Маршрутов</a></b>, <a href="https://vk.com/id18529372" target="_blank">Сергей Рыжов</a>.',
-        icon: 'kkm.jpg'
+        icon: 'kkm.jpg',
+        rogaine: true
     },
     KP31: {
         name: 'Контакты правообладателя: controlpoint31@gmail.com.'
@@ -88,7 +92,8 @@ let owners = {
     },
     LM: {
         name: '© Орлов Александр, "Лужский Меридиан".',
-        icon: 'lm.jpg'
+        icon: 'lm.jpg',
+        rogaine: true
     },
     MLV_AL: {
         name: '© Малов Алексей, leshamalov@yandex.ru'
@@ -103,14 +108,16 @@ let owners = {
         name: '© Артём Никольский, "Эверест", г.Кировск'
     },
     MLTSPRT: {
-        name: '© <a href="https://www.multsport.ru/" target="_blank">Мультиспорт</a>'
+        name: '© <a href="https://www.multsport.ru/" target="_blank">Мультиспорт</a>',
+        rogaine: true
     },
     NW: {
         name: '© Клуб "Nord-West"'
     },
     OPNBND: {
         name: '© OpenBand, Прозоров Андрей - <a href="https://orientband.ru" target="_blank">сайт</a> и <a href="https://vk.com/openband_ru" target="_blank">ВК</a>',
-        icon: 'openband.jpg'
+        icon: 'openband.jpg',
+        rogaine: true
     },
     PARADA: {
         name: '© Екатерина Новикова (PARADA) - <a href="https://parda.ru/about" target="_blank">сайт</a> и <a href="https://vk.com/parada_ekaterina" target="_blank">ВК</a>'
@@ -123,7 +130,8 @@ let owners = {
     },
     RFAR: {
         name: 'Права на использования карты принадлежат компании Red Fox и оргкомитету соревнований <a href="https://adventure-race.redfox.ru/" target="_blank">Red Fox Adventure Race</a>.',
-        icon: 'redfox.jpg'
+        icon: 'redfox.jpg',
+        rogaine: true
     },
     RYLOV_V: {
         name: 'По вопросам использования карты обращайтесь к <a href="https://vk.com/id287387360" target="_blank">Рылову Виктору</a>.'
@@ -135,7 +143,8 @@ let owners = {
         name: 'По вопросам использования карты - 8-921-972-86-24 (<b>Александр Шеин</b>).'
     },
     SHBN: {
-        name: '© Юрий Шубин'
+        name: '© Юрий Шубин',
+        rogaine: true
     },
     SHKLV: {
         name: '© Шкилев В.В. - 8 (921)7473259'
@@ -148,7 +157,8 @@ let owners = {
     },
     STRKZK: {
         name: '© Стрекозайки, 8-911-7546601',
-        icon: 'strkzky.jpg'
+        icon: 'strkzky.jpg',
+        rogaine: true
     },
     SVCHK: {
         name: 'Карта является собственностью КСО "Сертолово". По вопросам использования - 8 921 423 60 46 (Роман Сивачук).'
@@ -214,7 +224,8 @@ let owners = {
     },
     KMPT: {
         name: '@ Компот групп',
-        icon: 'kmpt.jpg'
+        icon: 'kmpt.jpg',
+        rogaine: true
     },
     LTVO: {
         name: '@ ОАНО "Школа "ЛЕТОВО"'
