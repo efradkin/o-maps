@@ -26,6 +26,15 @@ let moscowMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Московский',
+        year: 1990,
+        url: './maps/moscow/moskovsky_1990.webp',
+        link: './original_maps/moscow/moskovsky_1990_full.jpg',
+        bounds: [[55.6173824569948, 37.35411643981934], [55.613383476482376, 37.39840507507325], [55.59221844560303, 37.35162734985352]],
+        author: ['KRSVSKY_A','FMN_I'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Медвежьи оз',
         year: 1988,
         url: './maps/moscow/medvezhji_oz_1988.webp',
@@ -727,7 +736,7 @@ let moscowMaps = [
         //link: 'http://o-mephi.net/cup/maps/20210609_848.jpg',
         link: './original_maps/moscow/novogorsky_1989_full.jpg',
         bounds: [[55.877309036348095, 37.344803810119636], [55.872590228534605, 37.38368511199952], [55.85050533037905, 37.34012603759766]],
-        author: ['GLDRV','FMN_I',],
+        author: ['GLDRV','FMN_I'],
         types: ['ORIENT'],
     },
     {
@@ -2484,11 +2493,20 @@ let moscowMaps = [
         types: ['ORIENT'],
     },
     {
+        name: 'Павловская слобода',
+        url: './maps/moscow/pavlovska_sloboda.webp',
+        link: './original_maps/moscow/pavlovska_sloboda_full.jpg',
+        bounds: [[55.85325157365692, 37.07975864410401], [55.84833710649609, 37.12477684020997], [55.822140226280055, 37.070660591125495]],
+        author: ['GLDRV','MTN_Y'],
+        types: ['ORIENT'],
+    },
+    {
         name: 'Дедовск',
-        year: 2019,
+        year: 2017,
         url: './maps/moscow/dedovsk_2019.webp',
         link: './original_maps/moscow/dedovsk_2019_full.jpg',
         bounds: [[55.85197483556996, 37.08520889282227], [55.84884303622127, 37.117352485656745], [55.839060561029704, 37.080874443054206]],
+        author: ['GLDRV','MTN_Y'],
         types: ['ORIENT'],
     },
     {
