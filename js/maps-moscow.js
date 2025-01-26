@@ -3486,4 +3486,13 @@ let moscowMaps = [
         author: 'IVNV_ALXDR',
         types: ['ORIENT'],
     },
+    {
+        name: 'Красная пойма',
+        year: 2020,
+        info: 'Первенство ТК Ковчег.',
+        url: './maps/moscow/krasnaya_poyma_2020.webp',
+        link: './original_maps/moscow/krasnaya_poyma_2020_full.jpg',
+        bounds: [[55.000462844547805, 39.09077167510987], [54.99775510908976, 39.117636680603034], [54.9830070514586, 39.0855360031128]],
+        types: ['ORIENT'],
+    },
 ];
