@@ -1,4 +1,4 @@
-// types can be ORIENT, ROGAINE, SPRINT, CITY, RELIEF
+// types can be ROGAINE, SPRINT, CITY, RELIEF
 let rogaineBeketovMaps = [
     // --- рогейн ---
     {

@@ -133,18 +133,6 @@ label:has(> span span .layer-separator) {
     margin: 2px -2px;
     background-image: url(../images/chat_64.png);
 }
-/*
-.leaflet-popup-content {
-    padding: 15px;
-    border: 1px solid lightgray;
-}
-*/
-.leaflet-popup-content {
-    min-height: 170px;
-}
-.selected-menu-item {
-    background-color: lightgrey;
-}
 .hide-map-link {
     width: 100%;
     text-align: right;
@@ -152,6 +140,47 @@ label:has(> span span .layer-separator) {
 .ext-link {
     text-transform: lowercase;
     /*color: navy;*/
+}
+
+/* --- POP-UP --- */
+/*
+.leaflet-popup-content {
+    padding: 15px;
+    border: 1px solid lightgray;
+}
+*/
+.leaflet-popup-content {
+    min-height: 180px;
+    padding-top: 5px;
+}
+.selected-menu-item {
+    background-color: lightgrey;
+}
+.popup-logo {
+    position: fixed;
+}
+.popup-text {
+    margin-left: 170px;
+    min-height: 160px;
+}
+.popup-content {
+    border: solid lightgray;
+    border-radius: 10px;
+    padding: 15px 5px 5px;
+    width: 97%;
+}
+.popup-header {
+    position: absolute;
+    margin-top: -12px;
+    color: black;
+    font-weight: bold;
+    font-size: 8px;
+}
+.popup-left-header {
+    margin-left: 0px;
+}
+.popup-right-header {
+    right: 25px;
 }
 
 /* --- CHARTS --- */

@@ -1,4 +1,4 @@
-// types can be ORIENT, ROGAINE, PARK, CITY, PARK, RELIEF, VELO, WINTER
+// types can be ROGAINE, PARK, CITY, PARK, RELIEF, VELO, WINTER
 let specialMaps = [
     // --- зимние ---
     {
@@ -7,7 +7,7 @@ let specialMaps = [
         url: './maps/winter/lembolovo_winter_2019.webp',
         bounds: [[60.42351294603261, 30.3063440322876], [60.420420172898, 30.34084796905518], [60.40628711821687, 30.30089378356934]],
         author: ['DBRTSV_V','CHGRVSKY_Y'], //Возможно и Баймакова, надо уточнить
-        types: ['ORIENT', 'WINTER'],
+        types: [ 'WINTER'],
     },
     {
         name: 'Орехово',
@@ -15,7 +15,7 @@ let specialMaps = [
         url: './maps/winter/orekhovo_winter_2010.webp',
         bounds: [[60.460666761529005, 30.279736518859867], [60.45687922940639, 30.326771736145023], [60.44310073619961, 30.274243354797367]],
         author: ['KVZN','NSNV'],
-        types: ['ORIENT', 'WINTER'],
+        types: [ 'WINTER'],
     },
     {
         name: 'Рощино',
@@ -24,7 +24,7 @@ let specialMaps = [
         link: './original_maps/winter/roschino_winter_2013_full.jpg',
         bounds: [[60.27208897887721, 29.576182365417484], [60.27204641697717, 29.60000038146973], [60.26370321558072, 29.576439857482914]],
         author: 'SHRNN',
-        types: ['ORIENT', 'WINTER'],
+        types: [ 'WINTER'],
         zindex: 2
     },
     {
@@ -36,7 +36,7 @@ let specialMaps = [
         bounds: [[60.12306086526154, 30.505256652832035], [60.119426439074296, 30.552077293396], [60.106745563934105, 30.500020980834964]],
         author: 'SHRNN',
         owner: 'GLFSTRM',
-        types: ['ORIENT', 'WINTER'],
+        types: [ 'WINTER'],
     },
     {
         name: 'Токсово, ВИФК',
@@ -44,7 +44,7 @@ let specialMaps = [
         url: './maps/winter/toksovo_vifk_winter_2023.webp',
         bounds: [[60.193233383853695, 30.560145378112797], [60.18962804295176, 30.59679508209229], [60.18021815816931, 30.554866790771488]],
         author: 'CHGRVSKY_Y',
-        types: ['ORIENT', 'WINTER'],
+        types: [ 'WINTER'],
     },
     {
         name: 'Зеленогорск - Чёрные озёра',
@@ -52,7 +52,7 @@ let specialMaps = [
         link: './original_maps/winter/zelenogorsk_chernye_winter_full.jpg',
         bounds: [[60.25463395700811, 29.77681159973145], [60.25224913383907, 29.816293716430668], [60.22557839180962, 29.768142700195316]],
         author: ['SHRNN','KUZNTSV_S','VLKV_M'],
-        types: ['ORIENT', 'WINTER'],
+        types: [ 'WINTER'],
     },
     {
         name: 'Будогощь, оз Светлое',
@@ -60,7 +60,7 @@ let specialMaps = [
         url: './maps/winter/budogosch_svetloe_winter_2024.webp',
         bounds: [[59.28447396887775, 32.348299026489265], [59.28138309112493, 32.381472587585456], [59.273665632447134, 32.34443664550782]],
         owner: 'EGRV_SRG',
-        types: ['ORIENT', 'WINTER'],
+        types: [ 'WINTER'],
     },
     {
         name: 'Кириши, лыжная трасса',
@@ -69,7 +69,7 @@ let specialMaps = [
         bounds: [[59.44023146251266, 31.985664367675785], [59.43905317578189, 32.00201511383057], [59.42154860449208, 31.97957038879395]],
         author: 'TKMKV_K',
         owner: 'EGRV_SRG',
-        types: ['ORIENT', 'WINTER'],
+        types: [ 'WINTER'],
     },
     {
         name: 'Сосновка, лыжный полигон',
@@ -79,7 +79,7 @@ let specialMaps = [
         bounds: [[60.02691307031582, 30.330419540405277], [60.02258186362895, 30.369000434875492], [60.01312413781251, 30.324454307556152]],
         author: 'CHGRVSKY_V',
         owner: 'IMPULS',
-        types: ['ORIENT', 'WINTER', 'PARK'],
+        types: [ 'WINTER', 'PARK'],
     },
     {
         name: 'Шуваловский парк',
@@ -89,7 +89,7 @@ let specialMaps = [
         bounds: [[60.085243214141705, 30.291752815246586], [60.08293167886438, 30.32106399536133], [60.069273191217576, 30.287203788757324]],
         author: 'EFRMV',
         owner: 'EFRMV',
-        types: ['ORIENT', 'WINTER', 'PARK'],
+        types: [ 'WINTER', 'PARK'],
     },
     {
         name: 'Кировск',
@@ -99,7 +99,7 @@ let specialMaps = [
         bounds: [[59.90888891207802, 31.008138656616214], [59.90707069729489, 31.025068759918216], [59.89890364096045, 31.00423336029053]],
         owner: 'NKLSK',
         author: 'YGNV',
-        types: ['ORIENT', 'WINTER'],
+        types: [ 'WINTER'],
     },
     // --- вело ---
     {
@@ -110,7 +110,7 @@ let specialMaps = [
         bounds: [[60.16290631773987, 29.927186965942386], [60.156884526390876, 29.978599548339847], [60.14483763345936, 29.916973114013675]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
-        types: ['ORIENT', 'VELO'],
+        types: [ 'VELO'],
     },
     {
         name: 'Солнечное',
@@ -120,7 +120,7 @@ let specialMaps = [
         bounds: [[60.158763785381176, 29.92856025695801], [60.15547501163754, 29.97469425201416], [60.14475217873823, 29.924483299255375]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['ORIENT', 'VELO'],
+        types: [ 'VELO'],
     },
     {
         name: 'Тарховка',
@@ -131,7 +131,7 @@ let specialMaps = [
         bounds: [[60.08303869796451, 29.937143325805668], [60.07717353916566, 29.995079040527347], [60.04354648691466, 29.918432235717777]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
-        types: ['ORIENT', 'VELO'],
+        types: [ 'VELO'],
     },
     {
         name: 'Удельный парк',
@@ -141,7 +141,7 @@ let specialMaps = [
         bounds: [[60.016727400055146, 30.2973747253418], [60.01428237207713, 30.32509803771973], [60.00308440770832, 30.2927827835083]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
-        types: ['ORIENT', 'VELO'],
+        types: [ 'VELO'],
     },
     {
         name: 'Пухтолова гора',
@@ -149,7 +149,7 @@ let specialMaps = [
         url: './maps/velo/pukhtolova_gora_velo.webp',
         bounds: [[60.25603921789568, 29.63441848754883], [60.251354780368175, 29.691495895385746], [60.228732294909875, 29.625320434570316]],
         author: ['BLZRV_V','URVNTSV','NKFRV'],
-        types: ['ORIENT', 'VELO'],
+        types: [ 'VELO'],
     },
     {
         name: 'Цвелодубово, Нахимовская т/б',
@@ -159,7 +159,7 @@ let specialMaps = [
         bounds: [[60.38616818421505, 29.544897079467777], [60.384153486085516, 29.562406539916996], [60.37265671896538, 29.539189338684086]],
         author: ['SHRNN','RYLOV_V'],
         owner: 'SHRNN',
-        types: ['ORIENT', 'VELO'],
+        types: [ 'VELO'],
     },
     {
         name: 'Токсово, ВИФК',
@@ -169,7 +169,7 @@ let specialMaps = [
         bounds: [[60.19519588818361, 30.55482387542725], [60.19282806942666, 30.592374801635742], [60.17317498359659, 30.550875663757328]],
         author: ['SHRNN','CHGRVSKY_Y'],
         owner: 'SHRNN',
-        types: ['ORIENT', 'VELO'],
+        types: [ 'VELO'],
     },
     {
         name: 'Воейково',
@@ -179,7 +179,7 @@ let specialMaps = [
         bounds: [[59.99666853981014, 30.66215515136719], [59.99370695029761, 30.72532653808594], [59.93777332844343, 30.651340484619144]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['ORIENT', 'VELO'],
+        types: [ 'VELO'],
     },
     {
         name: 'Каннельярви, оз Исток',
@@ -188,7 +188,7 @@ let specialMaps = [
         bounds: [[60.37832076259013, 29.283456802368168], [60.370641185033705, 29.37950134277344], [60.343260013555195, 29.272127151489258]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['ORIENT', 'VELO'],
+        types: [ 'VELO'],
     },
     {
         name: 'Суоранда',
@@ -198,7 +198,7 @@ let specialMaps = [
         bounds: [[59.96626745834547, 30.609412193298343], [59.96388314254157, 30.660095214843754], [59.947231109940404, 30.606579780578617]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['ORIENT', 'VELO'],
+        types: [ 'VELO'],
     },
     // --- гидро-рельефные ---
     {
@@ -208,7 +208,7 @@ let specialMaps = [
         link: './original_maps/relief/toksovo_origon_1_full.jpg',
         bounds: [[60.14966546452469, 30.491695404052734], [60.14599125046178, 30.532207489013675], [60.112605462220415, 30.483713150024418]],
         author: 'CHGRVSKY_V',
-        types: ['ORIENT', 'RELIEF'],
+        types: [ 'RELIEF'],
     },
     {
         name: 'Токсово, Оригон-2',
@@ -217,7 +217,7 @@ let specialMaps = [
         link: './original_maps/relief/toksovo_origon_2_full.jpg',
         bounds: [[60.15978879045419, 30.39273262023926], [60.15295481948042, 30.51083564758301], [60.12744302199271, 30.385093688964847]],
         author: ['CHGRVSKY_V','AZBKNA','CHGRVSKY_Y'],
-        types: ['ORIENT', 'RELIEF'],
+        types: [ 'RELIEF'],
     },
     {
         name: 'Токсово, Оригон-3',
@@ -227,7 +227,7 @@ let specialMaps = [
         link: './original_maps/relief/toksovo_origon_3_full.jpg',
         bounds: [[60.1929987287428, 30.610399246215824], [60.18988405654998, 30.66267013549805], [60.14872558837722, 30.599584579467777]],
         author: ['CHGRVSKY_V','AZBKNA','KLCHTSKA','RDKV','CHGRVSKY_Y'],
-        types: ['ORIENT', 'RELIEF'],
+        types: [ 'RELIEF'],
     },
     {
         name: 'Токсово, Малиновая гора',
@@ -237,7 +237,7 @@ let specialMaps = [
         link: './original_maps/relief/toksovo_malinovaja_gora_1997_full.jpg',
         bounds: [[60.17729435692855, 30.464100837707523], [60.17454105065943, 30.501523017883304], [60.16414470541026, 30.460324287414554]],
         author: ['DBRTSV_V','CHGRVSKY_Y'],
-        types: ['ORIENT', 'RELIEF'],
+        types: [ 'RELIEF'],
     },
     {
         name: 'Первомайское',
@@ -247,7 +247,7 @@ let specialMaps = [
         bounds: [[60.42006003635948, 29.68827724456787], [60.418047435229944, 29.725184440612793], [60.40315031563834, 29.68389987945557]],
         author: ['SLBDNK','MKHLV_A','GVRLK'],
         owner: 'WN',
-        types: ['ORIENT', 'RELIEF'],
+        types: [ 'RELIEF'],
     },
     // прочие
     {
@@ -258,6 +258,6 @@ let specialMaps = [
         link: './original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_azimut_1981_full.jpg',
         bounds: [[60.60481361919038, 30.215578079223636], [60.60237008387057, 30.25969505310059], [60.58469107484903, 30.21072864532471]],
         author: ['ARTMV','YKVLVA'],
-        types: ['ORIENT'],
+        types: [],
     },
 ];

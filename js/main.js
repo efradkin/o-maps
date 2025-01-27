@@ -587,7 +587,12 @@ function mapTitle(map) {
 }
 
 function buildPopupText(m, latLngs) {
-    let icon, result = '';
+    let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
+    if (m.types.length > 0) {
+        result += '<div class="popup-header popup-right-header">' + m.types.join(', ') + '</div>';
+    }
+
+    let icon;
     // иконка
     if (m.icon) {
         icon = m.icon;
@@ -605,7 +610,7 @@ function buildPopupText(m, latLngs) {
         icon = authors[m.author[0]].icon;
     }
     if (icon) {
-        result = '<img src="./icons/' + icon + '" alt="" style="position: fixed;" /><div style="margin-left: 170px;min-height: 160px;"';
+        result += '<img src="./icons/' + icon + '" alt="" class="popup-logo" /><div class="popup-text"';
     }
 
     // имя
@@ -696,6 +701,7 @@ function buildPopupText(m, latLngs) {
     if (icon) {
         result += '</div>';
     }
+
     return result;
 }
 

@@ -10,7 +10,7 @@ let naStartsMaps = [
         bounds: [[60.42978232318777, 29.666261672973636], [60.427600886521, 29.7006368637085], [60.40510025550276, 29.660253524780277]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN',
-        types: ['ORIENT'],
+        types: [],
     },
     {
         name: 'Журавлёво, Раздельные оз',
@@ -21,7 +21,7 @@ let naStartsMaps = [
         link: './original_maps/starts/na/na_2013_razdelnoe_full.jpg',
         bounds: [[60.62965976242521, 29.86714839935303], [60.624376295123234, 29.921436309814457], [60.6049189398304, 29.8579216003418]],
         author: ['VSLVSKY','DRBSHV','MKHLV_A','SLBDNK','GVRLK'],
-        types: ['ORIENT'],
+        types: [],
     },
     {
         name: 'Первомайское, Дедово оз',
@@ -33,7 +33,7 @@ let naStartsMaps = [
         bounds: [[60.41940330652238, 29.69711780548096], [60.41688218817723, 29.73381042480469], [60.39676980457594, 29.691324234008793]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN',
-        types: ['ORIENT'],
+        types: [],
     },
     {
         name: 'Борисово, Долгое оз',
@@ -45,7 +45,7 @@ let naStartsMaps = [
         bounds: [[60.600726913009844, 29.93220806121826], [60.59824093145107, 29.969458580017093], [60.57480431202988, 29.92401123046875]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN',
-        types: ['ORIENT'],
+        types: [],
     },
     {
         name: 'Первомайское, р Волочаевка',
@@ -57,7 +57,7 @@ let naStartsMaps = [
         bounds: [[60.4402003702851, 29.657506942749027], [60.4382948795123, 29.68462944030762], [60.42209369625005, 29.653301239013675]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN',
-        types: ['ORIENT'],
+        types: [],
     },
     {
         name: 'Ягодное, Раздельные оз',
@@ -67,7 +67,7 @@ let naStartsMaps = [
         url: './maps/starts/na/na_2017_zhuravlevo.webp',
         link: './original_maps/starts/na/na_2017_zhuravlevo_full.jpg',
         bounds: [[60.628249519190376, 29.902296066284183], [60.624523654550764, 29.952979087829593], [60.61090058809483, 29.89736080169678]],
-        types: ['ORIENT'],
+        types: [],
     },
     {
         name: 'Лемболово',
@@ -79,7 +79,7 @@ let naStartsMaps = [
         bounds: [[60.4525833371081, 30.31690120697022], [60.44978964411541, 30.35209178924561], [60.42889282299763, 30.30986309051514]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
         owner: 'TOKM',
-        types: ['ORIENT'],
+        types: [],
     },
     {
         name: 'Луга, р Свинечная',
@@ -90,7 +90,7 @@ let naStartsMaps = [
         link: './original_maps/starts/na/na_2019_luga_full.jpg',
         bounds: [[58.72061577354446, 29.768142700195316], [58.71629276880788, 29.815478324890137], [58.70354346464922, 29.762392044067386]],
         author: ['TKMKV_K','KVZN','NSNV'],
-        types: ['ORIENT'],
+        types: [],
     },
     {
         name: 'Колосково',
@@ -102,6 +102,6 @@ let naStartsMaps = [
         bounds: [[60.626965512756385, 30.194892883300785], [60.62366053975521, 30.229139328002933], [60.602980985041754, 30.184936523437504]],
         author: ['DJCHKV','PPV_D'],
         owner: 'SHEIN',
-        types: ['ORIENT'],
+        types: [],
     },
 ];
