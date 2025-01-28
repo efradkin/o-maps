@@ -88,6 +88,15 @@ let rogaineMaps = [
         types: ['ROGAINE'],
     },
     {
+        name: 'Выборг',
+        start: 'RFAR',
+        year: 2013,
+        url: './maps/rogaine/vyborg_rfar_2013.webp',
+        bounds: [[61.037344734988274, 28.69834899902344], [61.00091498563656, 29.269466400146488], [60.74557236642184, 28.61775398254395]],
+        owner: 'RFAR',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Сортавала',
         start: 'RFAR',
         year: 2017,
