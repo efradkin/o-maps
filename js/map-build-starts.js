@@ -68,7 +68,7 @@ function buildOverlayMapsContents() {
         "100x24": sto24Group,
         "ККМ": kkmGroup,
         "Марш-Бросок": mbGroup,
-        "BikeAdventure": baGroup,
+        "BA/TA": baGroup,
     };
 
     let separated = false;
@@ -96,6 +96,7 @@ function allocateMap(m, imgLayer) {
         case 'ST': imgLayer.addTo(stGroup); break;
         case 'KKM': imgLayer.addTo(kkmGroup); break;
         case 'MB': imgLayer.addTo(mbGroup); break;
+        case 'TA':
         case 'BA': imgLayer.addTo(baGroup); break;
     }
 
