@@ -35,6 +35,10 @@ let starts = {
         name: '<a href="https://vk.com/bikeadventure" target="_blank">BikeAdventure</a>',
         icon: 'ba.jpg'
     },
+    MB: {
+        name: '<a href="https://vk.com/mbrosok" target="_blank">Марш-Бросок</a>',
+        icon: 'mb.jpg'
+    },
     INCR: {
         name: 'Инакор — интернет активное ориентирование',
         icon: 'inacor.jpg'

@@ -99,6 +99,7 @@ let rogaineBeketovMaps = [
         link: './original_maps/rogaine/beketov/omb2016.jpg',
         bounds: [[61.12409167912034, 29.086132049560547], [61.129396687868706, 29.24869537353516], [60.960943925313465, 29.10415649414063]],
         owner: 'BKTV',
+        start: 'MB',
         types: ['ROGAINE'],
     },
     {
@@ -108,6 +109,7 @@ let rogaineBeketovMaps = [
         link: './original_maps/rogaine/beketov/vmb22.jpg',
         bounds: [[61.09796810490464, 29.045104980468754], [61.10792248808013, 29.33830261230469], [60.940939539862185, 29.06639099121094]],
         owner: 'BKTV',
+        start: 'MB',
         types: ['ROGAINE'],
     },
     {
@@ -117,6 +119,7 @@ let rogaineBeketovMaps = [
         link: './original_maps/rogaine/beketov/map_omb12.gif',
         bounds: [[60.9247601360644, 29.632530212402344], [60.916583909979266, 30.024948120117188], [60.67216961239084, 29.60849761962891]],
         owner: 'BKTV',
+        start: 'MB',
         types: ['ROGAINE'],
     },
     {
@@ -126,6 +129,7 @@ let rogaineBeketovMaps = [
         link: './original_maps/rogaine/beketov/VMB20.jpg',
         bounds: [[61.051140518044775, 29.28714752197266], [61.06243861375529, 29.71063613891602], [60.84884090341096, 29.31032180786133]],
         owner: 'BKTV',
+        start: 'MB',
         types: ['ROGAINE'],
     },
     {
@@ -153,6 +157,7 @@ let rogaineBeketovMaps = [
         link: './original_maps/rogaine/beketov/zavyborgVMB19.jpg',
         bounds: [[60.84758659536134, 28.363952636718754], [60.92759629574196, 28.561019897460938], [60.70931186508957, 28.601875305175785]],
         owner: 'BKTV',
+        start: 'MB',
         types: ['ROGAINE'],
     },
     {
@@ -180,6 +185,7 @@ let rogaineBeketovMaps = [
         link: './original_maps/rogaine/beketov/roschino_2012_full.jpg',
         bounds: [[60.3451286072627, 29.34757232666016], [60.34461900141174, 29.740676879882816], [60.20451618136672, 29.34654235839844]],
         owner: 'BKTV',
+        start: 'MB',
         types: ['ROGAINE'],
     },
     {
@@ -211,6 +217,7 @@ let rogaineBeketovMaps = [
         link: './original_maps/rogaine/beketov/vmb2015_course.jpg',
         bounds: [[60.82382907162246, 28.449783325195312], [60.8218205845858, 28.669509887695316], [60.666872088022984, 28.443260192871097]],
         owner: 'BKTV',
+        start: 'MB',
         types: ['ROGAINE'],
     },
 /*

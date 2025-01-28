@@ -12,6 +12,7 @@ let ymGroup = L.layerGroup([]);
 let mmsGroup = L.layerGroup([]);
 let kkpGroup = L.layerGroup([]);
 let kkmGroup = L.layerGroup([]);
+let mbGroup = L.layerGroup([]);
 let baGroup = L.layerGroup([]);
 let stGroup = L.layerGroup([]);
 let rfarGroup = L.layerGroup([]);
@@ -66,6 +67,7 @@ function buildOverlayMapsContents() {
         "RFAR": rfarGroup,
         "100x24": sto24Group,
         "ККМ": kkmGroup,
+        "Марш-Бросок": mbGroup,
         "BikeAdventure": baGroup,
     };
 
@@ -93,6 +95,7 @@ function allocateMap(m, imgLayer) {
         case '100X24': imgLayer.addTo(sto24Group); break;
         case 'ST': imgLayer.addTo(stGroup); break;
         case 'KKM': imgLayer.addTo(kkmGroup); break;
+        case 'MB': imgLayer.addTo(mbGroup); break;
         case 'BA': imgLayer.addTo(baGroup); break;
     }
 
