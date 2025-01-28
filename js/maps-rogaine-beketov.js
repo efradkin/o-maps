@@ -13,11 +13,11 @@ let rogaineBeketovMaps = [
     {
         name: 'Токсово - BikeAdventure Light',
         year: 2018,
-        icon: 'ba.jpg',
         url: './maps/rogaine/beketov/toksovo_bal_2018.webp',
         link: './original_maps/rogaine/beketov/BAL18_distance.All.jpg',
         bounds: [[60.26536351191468, 30.36827087402344], [60.2365731170135, 30.713310241699222], [60.107472761261164, 30.31333923339844]],
         owner: 'BKTV',
+        start: 'BA',
         types: ['ROGAINE'],
     },
     {
@@ -85,11 +85,11 @@ let rogaineBeketovMaps = [
     {
         name: 'Каменногорск - BikeAdventure',
         year: 2023,
-        icon: 'ba.jpg',
         url: './maps/rogaine/beketov/kamennogorsk_2023.webp',
         link: './original_maps/rogaine/beketov/svetBA2023.jpg',
         bounds: [[61.069082670716135, 28.70452880859375], [61.030028872681896, 29.312810897827152], [60.661237256330466, 28.583679199218754]],
         owner: 'BKTV',
+        start: 'BA',
         types: ['ROGAINE'],
     },
     {

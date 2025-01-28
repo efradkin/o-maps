@@ -61,6 +61,7 @@
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
 
+    <script src="js/maps-rogaine-beketov.js"></script>
     <script src="js/maps-rogaine-kkm.js"></script>
     <script src="js/maps-rogaine.js"></script>
     <script src="js/maps-forest-vyborg.js"></script>
@@ -85,6 +86,7 @@
         let loadImagesRequired = true;
 
         let oMaps = [
+            ...rogaineBeketovMaps,
             ...rogaineKkmMaps,
             ...rogaineMaps,
             ...vyborgMaps,
