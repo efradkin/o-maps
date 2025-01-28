@@ -69,7 +69,7 @@ let funMaps = [
         url: './maps/fun/pushkin_ekaterininsky_park_2024.webp',
         link: 'https://vk.com/wall-21533513_2463',
         bounds: [[59.7214677793261, 30.37702560424805], [59.72135958869106, 30.410113334655765], [59.70828758557718, 30.37706851959229]],
-        owner: 'KKM',
+        owner: 'RYZHOV',
         types: ['FUN'],
     },
     {
@@ -79,7 +79,7 @@ let funMaps = [
         url: './maps/fun/oranienbaum_2024.webp',
         link: 'https://vk.com/wall-216835548_255',
         bounds: [[59.91983912934236, 29.735913276672363], [59.91555843320511, 29.766983985900882], [59.91028747108206, 29.730291366577152]],
-        owner: 'KKM',
+        owner: 'RYZHOV',
         types: ['FUN'],
     },
 ];

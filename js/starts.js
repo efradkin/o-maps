@@ -27,6 +27,10 @@ let starts = {
         name: 'Redfox Adventure Race',
         icon: 'redfox.jpg'
     },
+    KKM: {
+        name: '<a href="https://kkmstart.ru" target="_blank">Кубок Коротких Маршрутов</a>',
+        icon: 'kkm.jpg'
+    },
     INCR: {
         name: 'Инакор — интернет активное ориентирование',
         icon: 'inacor.jpg'

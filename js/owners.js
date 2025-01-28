@@ -66,8 +66,8 @@ let owners = {
     ILVS: {
         name: '© Константин Ильвес - <a href="https://vk.com/sport_for_oll" target="_blank">ВК</a>.'
     },
-    KKM: {
-        name: '© <b><a href="https://kkmstart.ru" target="_blank">Кубок Коротких Маршрутов</a></b>, <a href="https://vk.com/id18529372" target="_blank">Сергей Рыжов</a>.',
+    RYZHOV: {
+        name: '© <a href="https://vk.com/id18529372" target="_blank">Сергей Рыжов</a>.',
         icon: 'kkm.jpg',
         rogaine: true
     },

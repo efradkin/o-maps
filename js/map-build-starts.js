@@ -11,6 +11,7 @@ let naGroup = L.layerGroup([]);
 let ymGroup = L.layerGroup([]);
 let mmsGroup = L.layerGroup([]);
 let kkpGroup = L.layerGroup([]);
+let kkmGroup = L.layerGroup([]);
 let stGroup = L.layerGroup([]);
 let rfarGroup = L.layerGroup([]);
 let sto24Group = L.layerGroup([]);
@@ -49,8 +50,8 @@ if (mapElement) {
     });
 
     initialLayers = [
-        osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, stGroup, rfarGroup, sto24Group, groupAll,
-        ...Object.values(ageGroups),
+        osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, stGroup, // rfarGroup, sto24Group, groupAll,
+        //...Object.values(ageGroups),
     ];
 }
 
@@ -62,7 +63,8 @@ function buildOverlayMapsContents() {
         "ММС": mmsGroup,
         "Спринт-Тур": stGroup,
         "RFAR": rfarGroup,
-        "100X24": sto24Group,
+        "100x24": sto24Group,
+        "ККМ": kkmGroup,
     };
 
     let separated = false;
@@ -88,6 +90,7 @@ function allocateMap(m, imgLayer) {
         case 'RFAR': imgLayer.addTo(rfarGroup); break;
         case '100X24': imgLayer.addTo(sto24Group); break;
         case 'ST': imgLayer.addTo(stGroup); break;
+        case 'KKM': imgLayer.addTo(kkmGroup); break;
     }
 
     if (m.start) {
