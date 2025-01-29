@@ -16,6 +16,7 @@ let authors = {
     BGCHNS: { name: 'Багочюнас С.' },
     BGNV: { name: 'Богунов О.' },
     BKSTN: { name: 'Бакустин Игорь' },
+    BKTV: { name: 'Бекетов Константин' },
     BNDRNK: {
         name: 'Бондаренко Игорь',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
