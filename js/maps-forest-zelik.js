@@ -207,6 +207,15 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, оз Щучье',
+        year: 1970,
+        url: './maps/forest/zelik/zelenogorsk_schuchye_1970.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_schuchye_1970_full.jpg',
+        info: 'Первенство ОК Нефтехим.',
+        bounds: [[60.23516702067235, 29.75801467895508], [60.233249519326534, 29.818868637084964], [60.20033623997278, 29.753208160400394]],
+        types: [],
+    },
+    {
+        name: 'Зеленогорск, оз Щучье',
         year: 1982,
         url: './maps/forest/zelik/zelenogorsk_schuchye_1982.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1982_full.jpg',
