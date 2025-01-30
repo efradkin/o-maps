@@ -18,6 +18,19 @@ let stGroup = L.layerGroup([]);
 let rfarGroup = L.layerGroup([]);
 let sto24Group = L.layerGroup([]);
 
+allGroups = [
+    naGroup,
+    ymGroup,
+    mmsGroup,
+    kkpGroup,
+    kkmGroup,
+    mbGroup,
+    baGroup,
+    stGroup,
+    rfarGroup,
+    sto24Group
+];
+
 // populate age groups
 let ageGroups = {};
 for (const m of oMaps) {
@@ -27,8 +40,6 @@ for (const m of oMaps) {
         }
     }
 }
-
-let groupAll = L.layerGroup([]);
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, initialLayers
 let mapElement = document.getElementById('map');
@@ -52,7 +63,7 @@ if (mapElement) {
     });
 
     initialLayers = [
-        osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, stGroup, // rfarGroup, sto24Group, groupAll,
+        osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, stGroup, // rfarGroup, sto24Group,
         //...Object.values(ageGroups),
     ];
 }
@@ -80,7 +91,6 @@ function buildOverlayMapsContents() {
         }
         result[key] = ageGroups[y];
     }
-    result["<span class='layer-separator'>Все</span>"] = groupAll;
 
     return result;
 }
@@ -108,7 +118,6 @@ function allocateMap(m, imgLayer) {
             let yearGroup = getCreateAgeGroup(m.year);
             imgLayer.addTo(yearGroup);
         }
-        imgLayer.addTo(groupAll);
     }
 }
 
@@ -117,6 +126,7 @@ function getCreateAgeGroup(year) {
     if (!yearGroup) {
         yearGroup = L.layerGroup([]);
         ageGroups[year] = yearGroup;
+        allGroups.push(yearGroup);
     }
     return yearGroup;
 }
