@@ -88,6 +88,14 @@ if (mapElement) {
             text: 'Центр сюда',
             icon: 'images/point.png',
             callback: centerMap
+        }, {
+            text: 'Очистить карту',
+            icon: 'images/eraser.png',
+            callback: clearMap
+        }, {
+            text: 'Показать всё',
+            icon: 'images/maps.png',
+            callback: showAll
         }, '-', {
             text: 'Увеличить',
             icon: 'images/zoom-in.png',
@@ -791,6 +799,18 @@ function showCoordinates (e) {
 
 function centerMap (e) {
     map.panTo(e.latlng);
+}
+
+function clearMap (e) {
+    for (const g of allGroups) {
+        map.removeLayer(g);
+    }
+}
+
+function showAll (e) {
+    for (const g of allGroups) {
+        map.addLayer(g);
+    }
 }
 
 function zoomIn (e) {

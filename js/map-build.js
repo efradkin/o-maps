@@ -14,8 +14,6 @@ let parkGroup = L.layerGroup([]);
 let cityGroup = L.layerGroup([]);
 
 let rogaineGroup = L.layerGroup([]);
-let rogaineNewGroup = L.layerGroup([]);
-let rogaineOldGroup = L.layerGroup([]);
 
 let groupRetro = L.layerGroup([]);
 let group90th = L.layerGroup([]);
@@ -24,7 +22,18 @@ let group2010th = L.layerGroup([]);
 let group2020th = L.layerGroup([]);
 let groupUnknownYear = L.layerGroup([]);
 
-let groupAllOrient = L.layerGroup([]);
+let allGroups = [
+    specialGroup,
+    forestGroup,
+    parkGroup,
+    cityGroup,
+    groupRetro,
+    group90th,
+    group2000th,
+    group2010th,
+    group2020th,
+    groupUnknownYear
+];
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, initialLayers
 let mapElement = document.getElementById('map');
@@ -49,12 +58,12 @@ if (mapElement) {
 
     if (THE_OWNER_PARAM && owners[THE_OWNER_PARAM].rogaine) {
         initialLayers = [
-            osmLayer, parkGroup, cityGroup, forestGroup, specialGroup, groupAllOrient,
+            osmLayer, parkGroup, cityGroup, forestGroup, specialGroup,
             group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear, rogaineGroup
         ];
     } else {
         initialLayers = [
-            osmLayer, parkGroup, cityGroup, forestGroup, specialGroup, groupAllOrient,
+            osmLayer, parkGroup, cityGroup, forestGroup, specialGroup,
             group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
         ];
     }
@@ -66,7 +75,6 @@ function buildOverlayMapsContents() {
         "Парки": parkGroup,
         "Лес": forestGroup,
         "Специальные": specialGroup,
-        "Все": groupAllOrient,
         "<span class='layer-separator'>2020-е</span>": group2020th,
         "2010-е": group2010th,
         "2000-е": group2000th,
@@ -75,8 +83,6 @@ function buildOverlayMapsContents() {
         "???": groupUnknownYear,
         "<span class='layer-separator'>Необычные</span>": funGroup,
         "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
-        "<span class='layer-separator'>Недавние</span>": rogaineNewGroup,
-        "Давние": rogaineOldGroup,
     };
 }
 
@@ -88,13 +94,6 @@ function allocateMap(m, imgLayer) {
         let el = imgLayer.getElement();
         if (el) {
             el.style.zIndex = 0;
-        }
-
-        if (m.year && m.year >= 2010) {
-            imgLayer.addTo(rogaineNewGroup);
-        }
-        if (m.year && m.year < 2010) {
-            imgLayer.addTo(rogaineOldGroup);
         }
     }
     if (m.types.includes('FUN')) {
@@ -131,6 +130,5 @@ function allocateMap(m, imgLayer) {
         } else {
             imgLayer.addTo(groupRetro);
         }
-        imgLayer.addTo(groupAllOrient);
     }
 }

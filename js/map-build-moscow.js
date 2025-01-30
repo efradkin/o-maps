@@ -4,7 +4,6 @@ function buildOverlayMapsContents() {
         "Парки": parkGroup,
         "Лес": forestGroup,
         "Специальные": specialGroup,
-        "Все": groupAllOrient,
         "<span class='layer-separator'>2020-е</span>": group2020th,
         "2010-е": group2010th,
         "2000-е": group2000th,
