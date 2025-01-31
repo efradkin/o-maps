@@ -180,7 +180,6 @@ for (const m of oMaps) {
         }
         if ((m.year !== undefined) && (!oldestMap || (m.year < oldestMap.year))) {
             oldestMap = m;
-            // console.log(oldestMap.year)
         }
     }
 }

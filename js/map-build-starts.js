@@ -6,6 +6,10 @@ const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">O-maps</a> | <a href="https://t.me/orient_spb" target="_blank">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
+const CLEAR_MAP_LABEL = 'Очистить карту';
+const SHOW_ALL_LABEL = 'Показать всё';
+
+let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
 let naGroup = L.layerGroup([]);
 let ymGroup = L.layerGroup([]);
@@ -18,7 +22,7 @@ let stGroup = L.layerGroup([]);
 let rfarGroup = L.layerGroup([]);
 let sto24Group = L.layerGroup([]);
 
-allGroups = [
+let allOrientGroups = [
     naGroup,
     ymGroup,
     mmsGroup,
@@ -41,7 +45,6 @@ for (const m of oMaps) {
     }
 }
 
-let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, initialLayers
 let mapElement = document.getElementById('map');
 if (mapElement) {
     osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -62,10 +65,10 @@ if (mapElement) {
         attribution: ATTRIBUTION
     });
 
-    initialLayers = [
-        osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, stGroup, // rfarGroup, sto24Group,
+    activeLayers.push(
+        osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, stGroup // rfarGroup, sto24Group,
         //...Object.values(ageGroups),
-    ];
+    );
 }
 
 function buildOverlayMapsContents() {
@@ -95,28 +98,30 @@ function buildOverlayMapsContents() {
     return result;
 }
 
-function allocateMap(m, imgLayer) {
-    switch (m.start) {
-        case 'NA': imgLayer.addTo(naGroup); break;
-        case 'YM': imgLayer.addTo(ymGroup); break;
-        case 'KKP': imgLayer.addTo(kkpGroup); break;
-        case 'MMS': imgLayer.addTo(mmsGroup); break;
-        case 'RFAR': imgLayer.addTo(rfarGroup); break;
-        case '100X24': imgLayer.addTo(sto24Group); break;
-        case 'ST': imgLayer.addTo(stGroup); break;
-        case 'KKM': imgLayer.addTo(kkmGroup); break;
-        case 'MB': imgLayer.addTo(mbGroup); break;
-        case 'TA':
-        case 'BA': imgLayer.addTo(baGroup); break;
-    }
-
+function allocateMap(m) {
     if (m.start) {
+        m.groups = [];
+
+        switch (m.start) {
+            case 'NA': pushGroup(m, naGroup); break;
+            case 'YM': pushGroup(m, ymGroup); break;
+            case 'KKP': pushGroup(m, kkpGroup); break;
+            case 'MMS': pushGroup(m, mmsGroup); break;
+            case 'RFAR': pushGroup(m, rfarGroup); break;
+            case '100X24': pushGroup(m, sto24Group); break;
+            case 'ST': pushGroup(m, stGroup); break;
+            case 'KKM': pushGroup(m, kkmGroup); break;
+            case 'MB': pushGroup(m, mbGroup); break;
+            case 'TA':
+            case 'BA': pushGroup(m, baGroup); break;
+        }
+
         if (!m.year) {
             let groupUnknownYear = getCreateAgeGroup(0);
-            imgLayer.addTo(groupUnknownYear);
+            pushGroup(m, groupUnknownYear);
         } else {
             let yearGroup = getCreateAgeGroup(m.year);
-            imgLayer.addTo(yearGroup);
+            pushGroup(m, yearGroup);
         }
     }
 }
@@ -126,7 +131,12 @@ function getCreateAgeGroup(year) {
     if (!yearGroup) {
         yearGroup = L.layerGroup([]);
         ageGroups[year] = yearGroup;
-        allGroups.push(yearGroup);
+        allOrientGroups.push(yearGroup);
+        activeLayers.push(yearGroup);
     }
     return yearGroup;
+}
+
+function isMapAcceptable(m) {
+    return typeof m.start !== 'undefined';
 }

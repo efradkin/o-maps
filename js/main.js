@@ -4,8 +4,10 @@ const multiX = 1e-5;
 const multiY = 2e-5;
 
 let map;
+let layerControl;
 let opacitySlider;
 let notificationControl;
+let overlayMapsContents;
 let marker1, marker2, marker3;
 let loaded = false;
 
@@ -62,7 +64,7 @@ if (mapElement) {
         if (m) {
             let mapType = m.types;
             if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN'))) {
-                initialLayers = [osmLayer, funGroup, rogaineGroup];
+                activeLayers.push(osmLayer, funGroup, rogaineGroup);
             }
         }
     }
@@ -73,7 +75,7 @@ if (mapElement) {
         maxZoom: 16,
         center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
         zoom: savedState ? savedState.zoom : defaultZoom,
-        layers: initialLayers,
+        layers: activeLayers,
         contextmenu: true,
         contextmenuWidth: 190,
         contextmenuItems: [{
@@ -89,11 +91,11 @@ if (mapElement) {
             icon: 'images/point.png',
             callback: centerMap
         }, {
-            text: 'Очистить карту',
+            text: CLEAR_MAP_LABEL,
             icon: 'images/eraser.png',
             callback: clearMap
         }, {
-            text: 'Показать всё',
+            text: SHOW_ALL_LABEL,
             icon: 'images/maps.png',
             callback: showAll
         }, '-', {
@@ -161,6 +163,19 @@ if (mapElement) {
     map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () {
         visibleMaps = recalculateLayers();
     });
+    map.on('overlayadd', function (e) {
+        if (!e.name.includes('Рогейн') && !e.name.includes('Необычные')) {
+            activeLayers.push(overlayMapsContents[e.name]);
+            syncMaps();
+        }
+    });
+
+    map.on('overlayremove', function (e) {
+        if (!e.name.includes('Рогейн') && !e.name.includes('Необычные')) {
+            removeFromArray(activeLayers, overlayMapsContents[e.name]);
+            syncMaps();
+        }
+    });
 
     // Save the map state whenever the map is moved or zoomed
     map.on('moveend', () => saveMapState(map, REGION_KEY));
@@ -186,8 +201,9 @@ if (mapElement) {
     if (L.Browser.android || L.Browser.mobile) {  // || L.Browser.touch || L.Browser.retina
         layerControlCollapsed = true;
     }
-    let overlayMapsContents = buildOverlayMapsContents();
-    let layerControl = L.control.layers(
+    overlayMapsContents = buildOverlayMapsContents();
+
+    layerControl = L.control.layers(
         baseMaps, overlayMapsContents,
         {collapsed: layerControlCollapsed, autoZIndex: false }).addTo(map);
 
@@ -408,6 +424,7 @@ if (mapElement) {
                 document.getElementById("spinner").style.display = 'none';
                 clearInterval(imagesLoadInterval);
 
+                syncMaps();
                 visibleMaps = recalculateLayers();
                 if (!loaded) {
                     loaded = true;
@@ -510,6 +527,7 @@ function buildMap(m) {
             interactive: true,
             alt: m.name
         });
+    m.layer = imgLayer;
 
     if (!m.area) {
         m.area = getMapArea(latLngs);
@@ -563,6 +581,33 @@ function buildMap(m) {
                 el.classList.add('wo-author');
             }
         }
+    }
+}
+
+// show/hide maps according to the selected layers
+function syncMaps() {
+    let activeLayerIds = [];
+    for (const layer of activeLayers) {
+        activeLayerIds.push(layer._leaflet_id.toString());
+    }
+
+    let shownMaps = [];
+    let hiddenMaps = [];
+    for (const m of oMaps) {
+        if (isMapAcceptable(m)) {
+            if (activeLayerIds.includes(m.groups[0]) && activeLayerIds.includes(m.groups[1])) {
+                shownMaps.push(m);
+            } else {
+                hiddenMaps.push(m);
+            }
+        }
+    }
+
+    for (const m of hiddenMaps) {
+        map.removeLayer(m.layer);
+    }
+    for (const m of shownMaps) {
+        map.addLayer(m.layer);
     }
 }
 
@@ -802,13 +847,13 @@ function centerMap (e) {
 }
 
 function clearMap (e) {
-    for (const g of allGroups) {
+    for (const g of allOrientGroups) {
         map.removeLayer(g);
     }
 }
 
 function showAll (e) {
-    for (const g of allGroups) {
+    for (const g of allOrientGroups) {
         map.addLayer(g);
     }
 }

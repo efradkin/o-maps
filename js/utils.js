@@ -91,7 +91,6 @@ function searchMap(text) {
     text = text.trim().toLocaleLowerCase();
 
     let latLng = parseCoordinates(text);
-    console.log(latLng)
     if (latLng) {
         map.panTo(latLng);
         return;
@@ -105,7 +104,6 @@ function searchMap(text) {
     } else {
         year = Number(text);
     }
-    console.log(text, '||', title, '||', year)
     if (title) {
         for (const m of oMaps) {
             if (m.name.toLocaleLowerCase().includes(title) && (!year || year === m.year) && !isMapHidden(m)) {
@@ -265,4 +263,8 @@ function selectChartsRegion(region) {
         case 'msk': location.href = './charts-moscow.html'; break;
         case 'all': location.href = './charts-all.html'; break;
     }
+}
+
+function pushGroup(m, group) {
+    m.groups.push(group._leaflet_id.toString());
 }

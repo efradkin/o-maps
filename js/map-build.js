@@ -6,6 +6,10 @@ const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">O-maps</a> | <a href="https://t.me/orient_spb" target="_blank">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
+const CLEAR_MAP_LABEL = 'Убрать ориенты';
+const SHOW_ALL_LABEL = 'Показать все ориенты';
+
+let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
 let funGroup = L.layerGroup([]);
 let specialGroup = L.layerGroup([]);
@@ -22,7 +26,7 @@ let group2010th = L.layerGroup([]);
 let group2020th = L.layerGroup([]);
 let groupUnknownYear = L.layerGroup([]);
 
-let allGroups = [
+let allOrientGroups = [
     specialGroup,
     forestGroup,
     parkGroup,
@@ -35,7 +39,6 @@ let allGroups = [
     groupUnknownYear
 ];
 
-let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, initialLayers
 let mapElement = document.getElementById('map');
 if (mapElement) {
     osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -57,15 +60,15 @@ if (mapElement) {
     });
 
     if (THE_OWNER_PARAM && owners[THE_OWNER_PARAM].rogaine) {
-        initialLayers = [
+        activeLayers.push(
             osmLayer, parkGroup, cityGroup, forestGroup, specialGroup,
-            group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear, rogaineGroup
-        ];
+            group2020th, group2010th, group2000th, groupUnknownYear, rogaineGroup // group90th, groupRetro,
+        );
     } else {
-        initialLayers = [
+        activeLayers.push(
             osmLayer, parkGroup, cityGroup, forestGroup, specialGroup,
-            group2020th, group2010th, group2000th, group90th, groupRetro, groupUnknownYear,
-        ];
+            group2020th, group2010th, group2000th, groupUnknownYear // group90th, groupRetro,
+        );
     }
 }
 
@@ -88,6 +91,7 @@ function buildOverlayMapsContents() {
 
 function allocateMap(m, imgLayer) {
     let added = false;
+    m.groups = [];
     if (m.types.includes('ROGAINE')) {
         added = true;
         imgLayer.addTo(rogaineGroup);
@@ -102,33 +106,37 @@ function allocateMap(m, imgLayer) {
     }
     if (m.types.includes('RELIEF') || m.types.includes('WINTER') || m.types.includes('VELO') || m.types.includes('INDOOR')) {
         added = true;
-        imgLayer.addTo(specialGroup);
+        pushGroup(m, specialGroup);
     }
     if (m.types.includes('CITY')) {
         added = true;
-        imgLayer.addTo(cityGroup);
+        pushGroup(m, cityGroup);
     }
     if (m.types.includes('PARK')) {
         added = true;
-        imgLayer.addTo(parkGroup);
+        pushGroup(m, parkGroup);
     }
     if (!added) {
-        imgLayer.addTo(forestGroup);
+        pushGroup(m, forestGroup);
     }
 
     if (isOrientMap(m)) {
         if (!m.year) {
-            imgLayer.addTo(groupUnknownYear);
+            pushGroup(m, groupUnknownYear);
         } else if (m.year >= 2020) {
-            imgLayer.addTo(group2020th);
+            pushGroup(m, group2020th);
         } else if (m.year >= 2010) {
-            imgLayer.addTo(group2010th);
+            pushGroup(m, group2010th);
         } else if (m.year >= 2000) {
-            imgLayer.addTo(group2000th);
+            pushGroup(m, group2000th);
         } else if (m.year >= 1990) {
-            imgLayer.addTo(group90th);
+            pushGroup(m, group90th);
         } else {
-            imgLayer.addTo(groupRetro);
+            pushGroup(m, groupRetro);
         }
     }
+}
+
+function isMapAcceptable(m) {
+    return isOrientMap(m);
 }
