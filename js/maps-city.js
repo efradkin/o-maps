@@ -1476,7 +1476,7 @@ let cityMaps = [
         year: 2024,
         url: './maps/city/sosnovy_bor_andersengrad_2024.webp',
         bounds: [[59.89987217157585, 29.08413648605347], [59.89966770635328, 29.097225666046146], [59.892166191012564, 29.08413648605347]],
-        author: ['YGNV','MSPN'],
+        author: ['YGNV','MSPN','TKHNVA'],
         owner: 'YUVNT',
         types: ['CITY'],
     },

@@ -328,6 +328,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/svyatkin.html'
     },
     SVTLNV: { name: 'Светланов Константин' },
+    TKHNVA: { name: 'Тихонова Галина' }, // Валериановна
     TKMKV_K: {
         name: 'Токмаков Константин',
         about: 'https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net'

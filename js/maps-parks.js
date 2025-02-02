@@ -846,7 +846,7 @@ let parkMaps = [
         year: 2020,
         url: './maps/parks/sosnovy_bor.webp',
         bounds: [[59.90344472915467, 29.072313308715824], [59.901314153719255, 29.097247123718265], [59.88372630703435, 29.06510353088379]],
-        author: ['DBRTSV_V','PPV_D','MSPN'],
+        author: ['DBRTSV_V','PPV_D','MSPN','TKHNVA'],
         owner: 'YUVNT',
         types: ['PARK'],
     },

@@ -228,7 +228,7 @@ let southMaps = [
         year: 2021,
         url: './maps/forest/south/sosnovij_bor_2021.webp',
         bounds: [[59.904520725405696, 29.05892372131348], [59.89922648763698, 29.104671478271488], [59.862056997499586, 29.041585922241214]],
-        author: ['LVCHV','STLV_S','DBRTSV_V'],
+        author: ['LVCHV','STLV_S','DBRTSV_V','TKHNVA'],
         owner: 'YUVNT',
         types: [],
     },
