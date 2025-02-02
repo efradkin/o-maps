@@ -641,8 +641,14 @@ function mapTitle(map) {
 
 function buildPopupText(m, latLngs) {
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
-    if (m.types.length > 0) {
-        result += '<div class="popup-header popup-right-header">' + m.types.join(', ') + '</div>';
+    if (m.types.length > 0 || m.excluded) {
+        let types = [
+            ...m.types
+        ];
+        if (m.excluded) {
+            types.push('EXCLUDED');
+        }
+        result += '<div class="popup-header popup-right-header">' + types.join(', ') + '</div>';
     }
 
     let icon;
