@@ -1949,7 +1949,7 @@ let moscowMaps = [
         bounds: [[56.14507134774327, 37.69048690795899], [56.12297419573332, 37.87553787231446], [56.04510266360655, 37.652721405029304]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/18492/',
         owner: 'KMPT',
-        types: ['ROGAINE'],
+        types: ['WINTER','ROGAINE'],
     },
     {
         name: 'Крылатское',
@@ -2840,7 +2840,7 @@ let moscowMaps = [
         bounds: [[56.10603401776644, 37.90952682495118], [56.09387460519971, 38.025226593017585], [56.012201885145544, 37.87725448608399]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/9057/',
         owner: 'KMPT',
-        types: ['ROGAINE'],
+        types: ['WINTER','ROGAINE'],
     },
     {
         name: 'Ивантеевский парк',
@@ -3097,7 +3097,7 @@ let moscowMaps = [
         bounds: [[56.14181975002501, 37.3172950744629], [56.118620229333956, 37.51865386962891], [56.065040501043725, 37.2872543334961]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/12099/',
         owner: 'KMPT',
-        types: ['ROGAINE'],
+        types: ['WINTER','ROGAINE'],
     },
     {
         name: 'Дмитров',

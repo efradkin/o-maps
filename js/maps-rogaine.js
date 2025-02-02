@@ -41,7 +41,7 @@ let rogaineMaps = [
         year: 2011,
         url: './maps/winter/zelenogorsk_schuchje_winter_2011.webp',
         bounds: [[60.24662707764389, 29.71887588500977], [60.23708440981365, 29.847278594970707], [60.19291339919565, 29.716300964355472]],
-        types: ['ROGAINE'],
+        types: ['WINTER','ROGAINE'],
     },
     {
         name: 'Зеленогорск - Ильичёво',
@@ -456,7 +456,7 @@ let rogaineMaps = [
         link: './original_maps/rogaine/koltushi_100x24_2014.gif',
         bounds: [[60.000659827986084, 30.60876846313477], [59.99203289113303, 30.72635650634766], [59.949423210479104, 30.59477806091309]],
         author: ['APTNKV','FRSHLV','GRV_S'],
-        types: ['ROGAINE'],
+        types: ['VELO','ROGAINE'],
     },
     {
         name: 'Воейково',

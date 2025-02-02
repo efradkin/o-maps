@@ -288,7 +288,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/11956/',
         start: 'KKM',
         owner: 'RYZHOV',
-        types: ['ROGAINE'],
+        types: ['WINTER','ROGAINE'],
     },
     {
         name: 'Лемболово',
