@@ -465,13 +465,25 @@ function loadMap(m) {
         imagesLoadCounter++;
         m.img = new Image();
         m.img.src = m.url;
+        m.img.onerror = function () {
+            notificationControl.warning('Ошибка загрузки карты "' + m.name + '". Попробуем заново.');
+            m.img.src = null;
+            m.img.src = m.url;
+            m.img.onload = function () {
+                loadMapImage(m);
+            }
+        }
         m.img.onload = function () {
-            buildMap(m);
-            imagesLoadCounter--;
+            loadMapImage(m);
         }
     } else {
         buildMap(m);
     }
+}
+
+function loadMapImage(m) {
+    buildMap(m);
+    imagesLoadCounter--;
 }
 
 function buildMap(m) {
@@ -596,7 +608,7 @@ function syncMaps() {
     let shownMaps = [];
     let hiddenMaps = [];
     for (const m of oMaps) {
-        if (isMapAcceptable(m)) {
+        if (m.groups && isMapAcceptable(m)) {
             if (activeLayerIds.includes(m.groups[0]) && activeLayerIds.includes(m.groups[1])) {
                 shownMaps.push(m);
             } else {
