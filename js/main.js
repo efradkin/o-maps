@@ -419,12 +419,14 @@ if (mapElement) {
         if (MAP_NAME_PARAM && intervalCounter === 0) {
             locateMapForUrl(MAP_NAME_PARAM);
         }
+
+        syncMaps();
+
         if (imagesLoadCounter <= 0) {
             if (intervalCounter++ > 3) {
                 document.getElementById("spinner").style.display = 'none';
                 clearInterval(imagesLoadInterval);
 
-                syncMaps();
                 visibleMaps = recalculateLayers();
                 if (!loaded) {
                     loaded = true;
