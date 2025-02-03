@@ -25,7 +25,8 @@ let owners = {
         name: '© Егоров С.И., kinef-o@mail.ru'
     },
     EGRV_EGR: {
-        name: '© Егоров Е.А.'
+        name: '© Егоров Е.А.',
+        //icon: 'pshkn.jpg'
     },
     ELTSV: {
         name: '© Ельцов Денис'
