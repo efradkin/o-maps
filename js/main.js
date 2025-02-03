@@ -761,7 +761,11 @@ function buildPopupText(m, latLngs) {
             result += 'Скачать можно тут: ' + buildDownloadLinks(link) + '.';
         }
     } else {
-        result += 'Посмотреть карту отдельно можно <a href="' + m.url + '" target="_blank">тут</a>.';
+        if (isMapHidden(m)) {
+            result += 'Просмотр карты не разрешён правообладателем.';
+        } else {
+            result += 'Посмотреть карту отдельно можно <a href="' + m.url + '" target="_blank">тут</a>.';
+        }
     }
     if (!m.url.includes('olive.png')) {
         let mapLinkUrl = mapLink(m.url);
