@@ -2,6 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const THE_AUTHOR_PARAM = urlParams.get('author');
 const THE_OWNER_PARAM = urlParams.get('owner');
 const MAP_NAME_PARAM = urlParams.get('map');
+const START_NAME_PARAM = urlParams.get('start');
 const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 
@@ -38,6 +39,9 @@ let allOrientGroups = [
 // populate age groups
 let ageGroups = {};
 for (const m of oMaps) {
+    if (START_NAME_PARAM && START_NAME_PARAM !== m.start) {
+        continue;
+    }
     if (m.start) {
         if (m.year && !ageGroups[m.year]) {
             getCreateAgeGroup(m.year);
@@ -65,10 +69,26 @@ if (mapElement) {
         attribution: ATTRIBUTION
     });
 
-    activeLayers.push(
-        osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, stGroup // rfarGroup, sto24Group,
-        //...Object.values(ageGroups),
-    );
+    if (START_NAME_PARAM) {
+        switch (START_NAME_PARAM) {
+            case 'NA': activeLayers.push(osmLayer, naGroup); break;
+            case 'YM': activeLayers.push(osmLayer, ymGroup); break;
+            case 'KKP': activeLayers.push(osmLayer, kkpGroup); break;
+            case 'MMS': activeLayers.push(osmLayer, mmsGroup); break;
+            case 'RFAR': activeLayers.push(osmLayer, rfarGroup); break;
+            case '100X24': activeLayers.push(osmLayer, sto24Group); break;
+            case 'ST': activeLayers.push(osmLayer, stGroup); break;
+            case 'KKM': activeLayers.push(osmLayer, kkmGroup); break;
+            case 'MB': activeLayers.push(osmLayer, mbGroup); break;
+            case 'TA':
+            case 'BA': activeLayers.push(osmLayer, baGroup); break;
+        }
+    } else {
+        activeLayers.push(
+            osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, stGroup // rfarGroup, sto24Group,
+            //...Object.values(ageGroups),
+        );
+    }
 }
 
 function buildOverlayMapsContents() {
@@ -123,6 +143,7 @@ function allocateMap(m) {
             let yearGroup = getCreateAgeGroup(m.year);
             pushGroup(m, yearGroup);
         }
+        console.log(m, ageGroups)
     }
 }
 

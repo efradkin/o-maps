@@ -2,6 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const THE_AUTHOR_PARAM = urlParams.get('author');
 const THE_OWNER_PARAM = urlParams.get('owner');
 const MAP_NAME_PARAM = urlParams.get('map');
+const START_NAME_PARAM = urlParams.get('start');
 const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 

@@ -491,6 +491,10 @@ function buildMap(m) {
         return;
     }
 
+    if (START_NAME_PARAM && START_NAME_PARAM !== m.start) {
+        return;
+    }
+
     if (THE_AUTHOR_PARAM) {
         if (Array.isArray(m.author)) {
             let own = false;
