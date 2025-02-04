@@ -106,6 +106,7 @@
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
 
+    <script src="js/maps-rogaine-rfar.js"></script>
     <script src="js/maps-rogaine-beketov.js"></script>
     <script src="js/maps-rogaine-kkm.js"></script>
     <script src="js/maps-rogaine.js"></script>
@@ -131,6 +132,7 @@
         let loadImagesRequired = true;
 
         let oMaps = [
+            ...rogaineRfarMaps,
             ...rogaineBeketovMaps,
             ...rogaineKkmMaps,
             ...rogaineMaps,
