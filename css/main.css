@@ -243,3 +243,9 @@ label:has(> span span .layer-separator) {
     font-size: 1.5em;
 }
 */
+#noscript_content {
+    border-radius: 30px;
+    background-color: lightgoldenrodyellow;
+    margin: 20px;
+    padding: 20px;
+}
