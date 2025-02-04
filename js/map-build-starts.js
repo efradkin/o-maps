@@ -7,8 +7,8 @@ const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">O-maps</a> | <a href="https://t.me/orient_spb" target="_blank">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
-const CLEAR_MAP_LABEL = 'Очистить карту';
-const SHOW_ALL_LABEL = 'Показать всё';
+const CLEAR_MAP_LABEL = 'Убрать все старты';
+const SHOW_ALL_LABEL = 'Показать все старты';
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
@@ -143,7 +143,6 @@ function allocateMap(m) {
             let yearGroup = getCreateAgeGroup(m.year);
             pushGroup(m, yearGroup);
         }
-        console.log(m, ageGroups)
     }
 }
 
@@ -152,7 +151,6 @@ function getCreateAgeGroup(year) {
     if (!yearGroup) {
         yearGroup = L.layerGroup([]);
         ageGroups[year] = yearGroup;
-        allOrientGroups.push(yearGroup);
         activeLayers.push(yearGroup);
     }
     return yearGroup;

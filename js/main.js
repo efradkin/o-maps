@@ -91,13 +91,13 @@ if (mapElement) {
             icon: 'images/point.png',
             callback: centerMap
         }, {
-            text: CLEAR_MAP_LABEL,
-            icon: 'images/eraser.png',
-            callback: clearMap
-        }, {
             text: SHOW_ALL_LABEL,
             icon: 'images/maps.png',
             callback: showAll
+        }, {
+            text: CLEAR_MAP_LABEL,
+            icon: 'images/eraser.png',
+            callback: clearMap
         }, '-', {
             text: 'Увеличить',
             icon: 'images/zoom-in.png',

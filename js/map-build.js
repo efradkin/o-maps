@@ -32,12 +32,6 @@ let allOrientGroups = [
     forestGroup,
     parkGroup,
     cityGroup,
-    groupRetro,
-    group90th,
-    group2000th,
-    group2010th,
-    group2020th,
-    groupUnknownYear
 ];
 
 let mapElement = document.getElementById('map');
