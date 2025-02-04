@@ -90,14 +90,22 @@ if (mapElement) {
             text: 'Центр сюда',
             icon: 'images/point.png',
             callback: centerMap
-        }, {
+        }, '-', {
             text: SHOW_ALL_LABEL,
             icon: 'images/maps.png',
-            callback: showAll
+            callback: showAllOrients
         }, {
             text: CLEAR_MAP_LABEL,
             icon: 'images/eraser.png',
-            callback: clearMap
+            callback: hideOrients
+        }, {
+            text: 'Показать все годы',
+            icon: 'images/calendar.png',
+            callback: showAllAges
+        }, {
+            text: 'Очистить все годы',
+            icon: 'images/white-calendar.png',
+            callback: clearAges
         }, '-', {
             text: 'Увеличить',
             icon: 'images/zoom-in.png',
@@ -874,14 +882,26 @@ function centerMap (e) {
     map.panTo(e.latlng);
 }
 
-function clearMap (e) {
+function hideOrients (e) {
     for (const g of allOrientGroups) {
         map.removeLayer(g);
     }
 }
 
-function showAll (e) {
+function clearAges (e) {
+    for (const g of allAgeGroups) {
+        map.removeLayer(g);
+    }
+}
+
+function showAllOrients (e) {
     for (const g of allOrientGroups) {
+        map.addLayer(g);
+    }
+}
+
+function showAllAges (e) {
+    for (const g of allAgeGroups) {
         map.addLayer(g);
     }
 }

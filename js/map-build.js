@@ -33,6 +33,14 @@ let allOrientGroups = [
     parkGroup,
     cityGroup,
 ];
+let allAgeGroups = [
+    groupRetro,
+    group90th,
+    group2000th,
+    group2010th,
+    group2020th,
+    groupUnknownYear
+];
 
 let mapElement = document.getElementById('map');
 if (mapElement) {

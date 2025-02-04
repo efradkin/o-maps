@@ -35,6 +35,7 @@ let allOrientGroups = [
     rfarGroup,
     sto24Group
 ];
+let allAgeGroups = [];
 
 // populate age groups
 let ageGroups = {};
@@ -151,6 +152,7 @@ function getCreateAgeGroup(year) {
     if (!yearGroup) {
         yearGroup = L.layerGroup([]);
         ageGroups[year] = yearGroup;
+        allAgeGroups.push(yearGroup);
         activeLayers.push(yearGroup);
     }
     return yearGroup;
