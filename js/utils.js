@@ -182,19 +182,22 @@ const CSV_SPRTR = '\t';
 // формируем и печатаем в консоли таблицу информации о картах
 function buildMapsCSV(maps, owner) {
     let result = 'Название' + CSV_SPRTR + 'Год' + CSV_SPRTR + 'Инфо о владельцах' + CSV_SPRTR + 'Адрес предпросмотра' +
-        CSV_SPRTR + 'Адрес для скачивания' + CSV_SPRTR + 'Доп.информация' + CSV_SPRTR + 'Тип';
+        CSV_SPRTR + 'Адрес для скачивания' + CSV_SPRTR + 'Доп.информация' + CSV_SPRTR + 'Старт' + CSV_SPRTR + 'GPS-трансляция' + CSV_SPRTR + 'Тип';
 
     maps.sort((a, b) => a.name.localeCompare(b.name));
     for (const m of maps) {
         if (owner === undefined || owner === m.owner || (Array.isArray(m.owner) && m.owner.includes(owner))) {
             result += '\n' + m.name + CSV_SPRTR + safe(m.year) + CSV_SPRTR + o(m.owner) + CSV_SPRTR + link(m.url) +
-                CSV_SPRTR + link(m.link) + CSV_SPRTR + clean(safe(m.info)) + CSV_SPRTR + m.types;
+                CSV_SPRTR + link(m.link) + CSV_SPRTR + safe(m.info) + CSV_SPRTR + start(m.start) + CSV_SPRTR + safe(m.gps) + CSV_SPRTR + m.types;
         }
     }
     console.log(result);
 }
 function safe(s) {
     return s === undefined ? '' : s;
+}
+function start(s) {
+    return s === undefined ? '' : starts[s].short;
 }
 function link(url) {
     if (url === undefined)
