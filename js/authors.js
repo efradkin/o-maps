@@ -419,7 +419,7 @@ let authors = {
     KCHRNA: { name: 'Качурина Ирина' },
     KHMZV: { name: 'Хамурзов Владимир' },
     KLNN_B: { name: 'Калинин Борис' },
-    KLSNKV_V: { name: 'Колесников В.' },
+    KLSNKV_V: { name: 'Колесников Вячеслав' },
     KLTKN_N: { name: 'Калиткин Н.' },
     KLZHNY: { name: 'Калюжный Александр' },
     KNSTNTNV_Y: { name: 'Константинов Юрий' },
