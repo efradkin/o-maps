@@ -85,6 +85,15 @@ html, body, #map {
     z-index: 777;
     display: none;
 }
+.slider-container {
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+    width: 50%;
+    max-width: 800px;
+    z-index: 777;
+    display: none;
+}
 label:has(> span span .layer-separator) {
     margin-top: 10px;
 }

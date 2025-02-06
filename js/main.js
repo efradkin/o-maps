@@ -78,63 +78,7 @@ if (mapElement) {
         layers: activeLayers,
         contextmenu: true,
         contextmenuWidth: 190,
-        contextmenuItems: [{
-            text: 'О проекте',
-            icon: 'images/information.png',
-            callback: openWelcome
-        }, '-', {
-            text: 'Координаты',
-            icon: 'images/coordinates.png',
-            callback: showCoordinates
-        }, {
-            text: 'Центр сюда',
-            icon: 'images/point.png',
-            callback: centerMap
-        }, '-', {
-            text: SHOW_ALL_LABEL,
-            icon: 'images/maps.png',
-            callback: showAllOrients
-        }, {
-            text: CLEAR_MAP_LABEL,
-            icon: 'images/eraser.png',
-            callback: hideOrients
-        }, {
-            text: 'Показать все годы',
-            icon: 'images/calendar.png',
-            callback: showAllAges
-        }, {
-            text: 'Очистить все годы',
-            icon: 'images/white-calendar.png',
-            callback: clearAges
-        }, '-', {
-            text: 'Увеличить',
-            icon: 'images/zoom-in.png',
-            callback: zoomIn
-        }, {
-            text: 'Уменьшить',
-            icon: 'images/zoom-out.png',
-            callback: zoomOut
-        }, '-', {
-            text: 'Всплыв.подсказки',
-            icon: 'images/info.png',
-            callback: popupsSwitch
-        }, {
-            text: 'Скрывать карты',
-            icon: 'images/hide.png',
-            callback: hideMapsSwitch
-        }, {
-            text: 'Выделять полноразмеры',
-            icon: 'images/expand.png',
-            callback: fullSizeSwitch
-        }, {
-            text: hiddenButtonsMode ? 'Показать кнопки' : 'Скрыть кнопки',
-            icon: 'images/menu.png',
-            callback: hiddenButtonsModeSwitch
-        }, '-', {
-            text: 'Редактирование',
-            icon: 'images/edit.png',
-            callback: editModeSwitch
-        }]
+        contextmenuItems: buildContextmenuItems()
     });
 
     // --- notifications (https://gitlab.com/manuel.richter95/leaflet.notifications)
@@ -396,7 +340,7 @@ if (mapElement) {
         }, 5000);
     // }
 
-    // --- slider (https://github.com/Eclipse1979/leaflet-slider) ---
+    // --- opacity slider (https://github.com/Eclipse1979/leaflet-slider) ---
     if (!hiddenButtonsMode) {
         let sliderOptions = {
             id: 'opacitySlider',
@@ -438,6 +382,38 @@ if (mapElement) {
                 visibleMaps = recalculateLayers();
                 if (!loaded) {
                     loaded = true;
+
+                    // --- year slider (https://github.com/slawomir-zaziablo/range-slider) ---
+                    let yearSliderEl = document.getElementById("year_slider");
+                    if (yearSliderEl) {
+                        yearSliderEl.parentElement.style.display = 'block';
+                        let years = Object.keys(ageGroups);
+                        let wideScreen = window.innerWidth > 1000;
+                        let yearSlider = new rSlider({
+                            target: '#year_slider',
+                            values: years,
+                            range: true,
+                            set: [years[0], years[years.length-1]],
+                            labels: wideScreen,
+                            tooltip: !wideScreen,
+                            onChange: function (vals) {
+                                let values = vals.split(',');
+                                let start = Number(values[0]);
+                                let end = Number(values[1]);
+                                for (let y of years) {
+                                    let year = Number(y);
+                                    if (year < start || year > end) {
+                                        removeFromArray(activeLayers, ageGroups[y]);
+                                    } else {
+                                        if (!activeLayers.includes(ageGroups[y])) {
+                                            activeLayers.push(ageGroups[y]);
+                                        }
+                                    }
+                                }
+                                syncMaps();
+                            }
+                        });
+                    }
                 }
             }
         }

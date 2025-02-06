@@ -105,17 +105,6 @@ function buildOverlayMapsContents() {
         "Марш-Бросок": mbGroup,
         "BA/TA": baGroup,
     };
-
-    let separated = false;
-    for (let y in ageGroups) {
-        let key = "<span>" + y + "</span>";
-        if (!separated) {
-            key = "<span class='layer-separator'>" + y + "</span>";
-            separated = true;
-        }
-        result[key] = ageGroups[y];
-    }
-
     return result;
 }
 
@@ -160,4 +149,56 @@ function getCreateAgeGroup(year) {
 
 function isMapAcceptable(m) {
     return typeof m.start !== 'undefined';
+}
+
+function buildContextmenuItems() {
+    return [{
+        text: 'О проекте',
+        icon: 'images/information.png',
+        callback: openWelcome
+    }, '-', {
+        text: 'Координаты',
+        icon: 'images/coordinates.png',
+        callback: showCoordinates
+    }, {
+        text: 'Центр сюда',
+        icon: 'images/point.png',
+        callback: centerMap
+    }, '-', {
+        text: SHOW_ALL_LABEL,
+        icon: 'images/maps.png',
+        callback: showAllOrients
+    }, {
+        text: CLEAR_MAP_LABEL,
+        icon: 'images/eraser.png',
+        callback: hideOrients
+    }, '-', {
+        text: 'Увеличить',
+        icon: 'images/zoom-in.png',
+        callback: zoomIn
+    }, {
+        text: 'Уменьшить',
+        icon: 'images/zoom-out.png',
+        callback: zoomOut
+    }, '-', {
+        text: 'Всплыв.подсказки',
+        icon: 'images/info.png',
+        callback: popupsSwitch
+    }, {
+        text: 'Скрывать карты',
+        icon: 'images/hide.png',
+        callback: hideMapsSwitch
+    }, {
+        text: 'Выделять полноразмеры',
+        icon: 'images/expand.png',
+        callback: fullSizeSwitch
+    }, {
+        text: hiddenButtonsMode ? 'Показать кнопки' : 'Скрыть кнопки',
+        icon: 'images/menu.png',
+        callback: hiddenButtonsModeSwitch
+    }, '-', {
+        text: 'Редактирование',
+        icon: 'images/edit.png',
+        callback: editModeSwitch
+    }];
 }

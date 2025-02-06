@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="js/ext/Leaflet.QgsMeasure/leaflet.draw.css"/>
     <link rel="stylesheet" href="js/ext/Leaflet.QgsMeasure/leaflet.qgsmeasure.css"/>
     <link rel="stylesheet" href="js/ext/leaflet.notifications/leaflet-notifications.min.css"/>
+    <link rel="stylesheet" href="js/ext/range-slider/rSlider.css"/>
     <link rel="stylesheet" href="css/main.css"/>
 
     <meta property="og:title" content="Старты на карте">
@@ -85,6 +86,9 @@
     </select>
     <img id="spinner" src="images/snowman.gif" alt="" />
     <div id="counter"></div>
+    <div class="slider-container">
+        <input type="text" id="year_slider" class="slider" />
+    </div>
 
     <script src="js/ext/leaflet.js"></script>
     <script src="https://api-maps.yandex.ru/2.1/?lang=en_RU&amp;apikey=<your API-key>" type="text/javascript"></script>
@@ -105,6 +109,7 @@
     <script src="js/ext/Leaflet.FileLayer/togeojson.js"></script>
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
+    <script src="js/ext/range-slider/rSlider.js"></script>
 
     <script src="js/maps-rogaine-rfar.js"></script>
     <script src="js/maps-rogaine-beketov.js"></script>
