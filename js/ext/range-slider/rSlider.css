@@ -116,7 +116,8 @@
     font-size: 12px;
     font-weight: bold;
     margin-top: 20px;
-    text-decoration: none
+    text-decoration: none;
+    text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
 }
 
 .rs-container.disabled .rs-scale span ins {
