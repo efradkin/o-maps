@@ -116,7 +116,7 @@ if (mapElement) {
         visibleMaps = recalculateLayers();
     });
     map.on('overlayadd', function (e) {
-        if (!e.name.includes('Рогейн') && !e.name.includes('Необычные')) {
+        if (!(e.name.includes('Рогейн') || e.name.includes('Рогаине')) && !e.name.includes('Необычные')) {
             activeLayers.push(overlayMapsContents[e.name]);
             syncMaps();
         }

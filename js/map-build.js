@@ -109,33 +109,33 @@ function allocateMap(m, imgLayer) {
     }
     if (m.types.includes('RELIEF') || m.types.includes('WINTER') || m.types.includes('VELO') || m.types.includes('INDOOR')) {
         added = true;
-        pushGroup(m, specialGroup);
+        pushGroupToMap(m, specialGroup);
     }
     if (m.types.includes('CITY')) {
         added = true;
-        pushGroup(m, cityGroup);
+        pushGroupToMap(m, cityGroup);
     }
     if (m.types.includes('PARK')) {
         added = true;
-        pushGroup(m, parkGroup);
+        pushGroupToMap(m, parkGroup);
     }
     if (!added) {
-        pushGroup(m, forestGroup);
+        pushGroupToMap(m, forestGroup);
     }
 
     if (isOrientMap(m)) {
         if (!m.year) {
-            pushGroup(m, groupUnknownYear);
+            pushGroupToMap(m, groupUnknownYear);
         } else if (m.year >= 2020) {
-            pushGroup(m, group2020th);
+            pushGroupToMap(m, group2020th);
         } else if (m.year >= 2010) {
-            pushGroup(m, group2010th);
+            pushGroupToMap(m, group2010th);
         } else if (m.year >= 2000) {
-            pushGroup(m, group2000th);
+            pushGroupToMap(m, group2000th);
         } else if (m.year >= 1990) {
-            pushGroup(m, group90th);
+            pushGroupToMap(m, group90th);
         } else {
-            pushGroup(m, groupRetro);
+            pushGroupToMap(m, groupRetro);
         }
     }
 }

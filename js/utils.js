@@ -254,6 +254,7 @@ function selectMapRegion(region) {
         case 'index':location.href = './index.html'; break;
         case 'spb':location.href = './spb.html'; break;
         case 'msk':location.href = './moscow.html'; break;
+        case 'srb':location.href = './serbia.html'; break;
         case 'all':location.href = './all.html'; break;
         case 'starts':location.href = './starts.html'; break;
     }
@@ -264,10 +265,11 @@ function selectChartsRegion(region) {
         case 'index':location.href = './index.html'; break;
         case 'spb': location.href = './charts-spb.html'; break;
         case 'msk': location.href = './charts-moscow.html'; break;
+        case 'srb': location.href = './charts-serbia'; break;
         case 'all': location.href = './charts-all.html'; break;
     }
 }
 
-function pushGroup(m, group) {
+function pushGroupToMap(m, group) {
     m.groups.push(group._leaflet_id.toString());
 }

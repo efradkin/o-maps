@@ -266,4 +266,17 @@ let owners = {
     YZAO: {
         name: '@ КСО ЮЗАО-Теам'
     },
+
+    /* --- СЕРБИЯ --- */
+
+    KSTNK: {
+        name: '@ СК АОК Кошутњак',
+        icon: 'kosutnjak.jpg'
+    },
+    MGCMP: {
+        name: '@ SK "Magic Map"'
+    },
+    OSB: {
+        name: '@ Ориjентиринг Савез Београда'
+    },
 }

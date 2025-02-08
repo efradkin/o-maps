@@ -477,5 +477,19 @@ let authors = {
     ZLTRV_S: { name: 'Золотарев Станислав' },
     ZUEV_A: { name: '<a href="mailto:Lesasa@mail.ru" target="_blank">Зуев Алексей</a>' },
     ZVJLV: { name: 'Завьялов В.' },
+
+    /* --- СЕРБИЯ --- */
+
+    AVRMVCH: { name: 'Дејан Аврамовић' },
+    KRCH: { name: 'Душан Крњаић' },
+    RKSNDCH: { name: 'Стеван Роксандић' },
+    GLVCH: { name: 'Раде Гољовић' },
+    VLVCH: { name: 'Слободан Вељовић' },
+    STVNVCH: { name: 'Мирослав Стевановић' },
+    DRBL: { name: 'Jан Дрбал' },
+    AVRMVCH: { name: 'Дејан Аврамовић' },
+    LZCH: { name: 'Сава Лазић' },
+    SKLR: { name: 'Зденек Соколар' },
+    BLCH: { name: 'Милан Билић' },
 };
 

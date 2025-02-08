@@ -113,25 +113,25 @@ function allocateMap(m) {
         m.groups = [];
 
         switch (m.start) {
-            case 'NA': pushGroup(m, naGroup); break;
-            case 'YM': pushGroup(m, ymGroup); break;
-            case 'KKP': pushGroup(m, kkpGroup); break;
-            case 'MMS': pushGroup(m, mmsGroup); break;
-            case 'RFAR': pushGroup(m, rfarGroup); break;
-            case '100X24': pushGroup(m, sto24Group); break;
-            case 'ST': pushGroup(m, stGroup); break;
-            case 'KKM': pushGroup(m, kkmGroup); break;
-            case 'MB': pushGroup(m, mbGroup); break;
+            case 'NA': pushGroupToMap(m, naGroup); break;
+            case 'YM': pushGroupToMap(m, ymGroup); break;
+            case 'KKP': pushGroupToMap(m, kkpGroup); break;
+            case 'MMS': pushGroupToMap(m, mmsGroup); break;
+            case 'RFAR': pushGroupToMap(m, rfarGroup); break;
+            case '100X24': pushGroupToMap(m, sto24Group); break;
+            case 'ST': pushGroupToMap(m, stGroup); break;
+            case 'KKM': pushGroupToMap(m, kkmGroup); break;
+            case 'MB': pushGroupToMap(m, mbGroup); break;
             case 'TA':
-            case 'BA': pushGroup(m, baGroup); break;
+            case 'BA': pushGroupToMap(m, baGroup); break;
         }
 
         if (!m.year) {
             let groupUnknownYear = getCreateAgeGroup(0);
-            pushGroup(m, groupUnknownYear);
+            pushGroupToMap(m, groupUnknownYear);
         } else {
             let yearGroup = getCreateAgeGroup(m.year);
-            pushGroup(m, yearGroup);
+            pushGroupToMap(m, yearGroup);
         }
     }
 }

@@ -1,0 +1,137 @@
+﻿ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Спортивные карты Сербии: ориентирование и рогейн</title>
+    <meta name="description" content="Карты? Найдутся все! Все спортивные карты Сербии в наглядной форме с фильтрацией и описанием.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="js/ext/Leaflet.contextmenu/leaflet.contextmenu.min.css"/>
+    <link rel="stylesheet" href="js/ext/ZoomBar/L.Control.ZoomBar.css"/>
+    <link rel="stylesheet" href="js/ext/Leaflet.Dialog/Leaflet.Dialog.css"/>
+    <link rel="stylesheet" href="js/ext/Leaflet.EasyButton/easy-button.css"/>
+    <link rel="stylesheet" href="js/ext/leaflet-slider/leaflet-slider.css"/>
+    <link rel="stylesheet" href="js/ext/Leaflet.AnimatedSearchBox/Leaflet.AnimatedSearchBox.css"/>
+    <link rel="stylesheet" href="js/ext/leaflet-compass/leaflet-compass.css"/>
+    <link rel="stylesheet" href="js/ext/Leaflet.QgsMeasure/leaflet.draw.css"/>
+    <link rel="stylesheet" href="js/ext/Leaflet.QgsMeasure/leaflet.qgsmeasure.css"/>
+    <link rel="stylesheet" href="js/ext/leaflet.notifications/leaflet-notifications.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <meta property="og:title" content="Спортивные карты Сербии: ориентирование и рогейн">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Сербии в наглядной форме с фильтрацией и описанием.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview.jpg">
+</head>
+<body>
+
+    <noscript>
+        <div id="noscript_content">
+            <h1>O-maps. Карты на карте ◪ <br/> Спортивные карты Сербии.</h1>
+
+            <h2>Карта сайта:</h2>
+            <ul>
+                <li><a href="spb.html"><h3>Спортивные карты Санкт-Петербурга и области.</h3></a></li>
+                <li><a href="moscow.html"><h3>Спортивные карты Москвы и области.</h3></a></li>
+                <li><a href="all.html"><h3>Спортивные карты Санкт-Петербурга и Москвы с областями.</h3></a></li>
+                <li><a href="starts.html"><h3>Карты, показывающие районы и дистанции многодневок (Невский Азимут, Яркий Мир,
+                    ККП, ММС) и серий стартов (Спринт-Тур, RFAR, 100х24) хронологически.</h3></a></li>
+                <li><a href="charts-spb.html"><h3>Статистика карт Санкт-Петербурга и области.</h3></a></li>
+                <li><a href="charts-moscow.html"><h3>Статистика карт Москвы и области.</h3></a></li>
+                <li><a href="charts-all.html"><h3>Статистика карт Санкт-Петербурга и Москвы с областями.</h3></a></li>
+            </ul>
+
+            <p>
+                Добро пожаловать на сайт-каталог спортивных карт (ориентирование, рогейн, охота на лис, туризм итп).
+                Тут представлены почти полторы тысячи карт разных авторов, мест, типов и годов издания. Со временем их
+                будет ещё больше. Всё это позволяет решать три основные задачи:<br/>
+                <ol>
+                    <li><b>Карты для соревнований и тренировок</b> - достаточно свежие, актуальные, с доступными
+                        полноразмерными излбражениями для печати или с указанием правообладателя, у которого карту можно
+                        арендовать.
+                    </li>
+                    <li><b>Карты различных годов и авторов</b> в одних и тех же местах - от 50-летней давности до самых
+                        свежих. Позволяет наблюдать развитие картографии.
+                    </li>
+                    <li><b>Архив (музей)</b> - старые карты или уже не актуальные из-за сильного изменения местности</li>
+                </ol>
+            </p>
+            <p>
+                Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+            </p>
+            <p>
+                Исходный код проекта <a href="https://github.com/efradkin/o-maps" target="_blank">доступен свободно</a>,
+                но при его использовании прошу указывать ссылку на <a href="https://github.com/efradkin/o-maps">мою страницу на GitHub</a>.
+                Для коммерческого использования кода проекта или любой его части прошу связываться со мной.<br/>
+                Если Вам нравится то, что я делаю, Вы можете меня поддержать в любой форме морально или материально.
+            </p>
+            <p><em>Евгений Фрадкин</em></p>
+        </div>
+    </noscript>
+
+    <div id="map"></div>
+    <select id="map_region_selector" onchange="selectMapRegion(this.value)">
+        <option value="index">Начальная страница</option>
+        <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+        <option value="spb">Санкт-Петербург</option>
+        <option value="msk">Москва</option>
+        <option value="srb" selected>Србија</option>
+        <option value="all">Все регионы вместе</option>
+        <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+        <option value="starts">Старты на карте</option>
+    </select>
+    <img id="spinner" src="images/snowman.gif" alt="" />
+    <div id="counter"></div>
+
+    <script src="js/ext/leaflet.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=en_RU&amp;apikey=<your API-key>" type="text/javascript"></script>
+    <script src="js/ext/Yandex.js"></script>
+    <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
+    <script src="js/ext/Leaflet.contextmenu/leaflet.contextmenu.min.js"></script>
+    <script src="js/ext/ZoomBar/L.Control.ZoomBar.js"></script>
+    <script src="js/ext/Leaflet.Dialog/Leaflet.Dialog.js"></script>
+    <script src="js/ext/Leaflet.EasyButton/easy-button.js"></script>
+    <script src="js/ext/leaflet-slider/leaflet-slider.js"></script>
+    <script src="js/ext/GeometryUtil.js"></script>
+<!--    <script src="js/ext/Leaflet.GeometryUtil/leaflet.geometryutil.js"></script>-->
+    <script src="js/ext/leaflet-lasso/leaflet-lasso.umd.js"></script>
+    <script src="js/ext/Leaflet.AnimatedSearchBox/Leaflet.AnimatedSearchBox.js"></script>
+    <script src="js/ext/leaflet-compass/leaflet-compass.js"></script>
+    <script src="js/ext/Leaflet.QgsMeasure/leaflet.draw.js"></script>
+    <script src="js/ext/Leaflet.QgsMeasure/leaflet.qgsmeasure.min.js"></script>
+    <script src="js/ext/Leaflet.FileLayer/togeojson.js"></script>
+    <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
+    <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
+
+    <script src="js/maps-serbia.js"></script>
+
+    <script src="js/starts.js"></script>
+    <script src="js/authors.js"></script>
+    <script src="js/owners.js"></script>
+    <script src="js/welcome.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/utils-common.js"></script>
+
+    <script>
+        const centerX = 44.724295922018655;
+        const centerY = 20.450019836425785;
+        const CHARTS_PAGE = './charts-serbia.html';
+        const REGION_KEY = 'srb';
+
+        let loadImagesRequired = true;
+
+        let oMaps = [
+            ...serbiaMaps,
+        ];
+    </script>
+
+    <script src="js/map-build.js"></script>
+    <script src="js/map-build-serbia.js"></script>
+    <script src="js/dictionary.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
