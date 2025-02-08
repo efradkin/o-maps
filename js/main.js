@@ -336,7 +336,7 @@ if (mapElement) {
 
     // if (Math.random() < 0.3) {
         setTimeout(function () {
-            notificationControl.success(news[Math.floor(Math.random() * news.length)]);
+            notificationControl.success(tips[Math.floor(Math.random() * tips.length)]);
         }, 5000);
     // }
 
