@@ -4,11 +4,11 @@ const mapTypes = ['Город', 'Парки', 'Лес', 'Спец.', 'Рогей
 window.onload = function() {
 
     const mapsStat = [
-        cityGroup.getLayers().length,
-        parkGroup.getLayers().length,
-        forestGroup.getLayers().length,
-        specialGroup.getLayers().length,
-        rogaineGroup.getLayers().length,
+        mapsStatObj.cityGroup.length,
+        mapsStatObj.parkGroup.length,
+        mapsStatObj.forestGroup.length,
+        mapsStatObj.specialGroup.length,
+        mapsStatObj.rogaineGroup.length,
     ];
 
     buildChart(
@@ -19,10 +19,10 @@ window.onload = function() {
     document.getElementById('total_maps').innerHTML = oMaps.length;
 
     const mapAreas = [
-        calcMapsArea(cityGroup),
-        calcMapsArea(parkGroup),
-        calcMapsArea(forestGroup),
-        calcMapsArea(specialGroup),
+        calcMapsArea(mapsStatObj.cityGroup),
+        calcMapsArea(mapsStatObj.parkGroup),
+        calcMapsArea(mapsStatObj.forestGroup),
+        calcMapsArea(mapsStatObj.specialGroup),
     ];
 
     buildChart(
@@ -44,7 +44,7 @@ window.onload = function() {
 
 function calcMapsArea(group) {
     let area = 0;
-    for (const m of group.getLayers()) {
+    for (const m of (Array.isArray(group) ? group : group.getLayers())) {
         let latLngs = [m.getTopLeft(), m.getTopRight(), m.getBottomLeft()];
         area += getMapArea(latLngs);
     }

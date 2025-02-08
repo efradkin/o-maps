@@ -271,5 +271,7 @@ function selectChartsRegion(region) {
 }
 
 function pushGroupToMap(m, group) {
-    m.groups.push(group._leaflet_id.toString());
+    if (group._leaflet_id) {
+        m.groups.push(group._leaflet_id.toString());
+    }
 }

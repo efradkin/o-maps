@@ -42,6 +42,15 @@ let allAgeGroups = [
     groupUnknownYear
 ];
 
+const mapsStatObj = {
+    funGroup: [],
+    cityGroup: [],
+    parkGroup: [],
+    forestGroup: [],
+    specialGroup: [],
+    rogaineGroup: [],
+};
+
 let mapElement = document.getElementById('map');
 if (mapElement) {
     osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -97,6 +106,7 @@ function allocateMap(m, imgLayer) {
     m.groups = [];
     if (m.types.includes('ROGAINE')) {
         added = true;
+        mapsStatObj.rogaineGroup.push(imgLayer);
         imgLayer.addTo(rogaineGroup);
         let el = imgLayer.getElement();
         if (el) {
@@ -105,21 +115,26 @@ function allocateMap(m, imgLayer) {
     }
     if (m.types.includes('FUN')) {
         added = true;
+        mapsStatObj.funGroup.push(imgLayer);
         imgLayer.addTo(funGroup);
     }
     if (m.types.includes('RELIEF') || m.types.includes('WINTER') || m.types.includes('VELO') || m.types.includes('INDOOR')) {
         added = true;
+        mapsStatObj.specialGroup.push(imgLayer);
         pushGroupToMap(m, specialGroup);
     }
     if (m.types.includes('CITY')) {
         added = true;
+        mapsStatObj.cityGroup.push(imgLayer);
         pushGroupToMap(m, cityGroup);
     }
     if (m.types.includes('PARK')) {
         added = true;
+        mapsStatObj.parkGroup.push(imgLayer);
         pushGroupToMap(m, parkGroup);
     }
     if (!added) {
+        mapsStatObj.forestGroup.push(imgLayer);
         pushGroupToMap(m, forestGroup);
     }
 
