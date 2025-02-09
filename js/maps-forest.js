@@ -365,7 +365,7 @@ let forestMaps = [
         url: './maps/forest/yappilya_pistolet_1992.webp',
         link: './original_maps/forest/yappilya_pistolet_1992_full.jpg',
         bounds: [[60.24713821354549, 29.126043319702152], [60.243219301102904, 29.18552398681641], [60.18433664822085, 29.11188125610352]],
-        info: 'Кубок Мира',
+        info: 'Кубок Мира.',
         author: ['CHGRVSKY_V','CHGRVSKY_Y'],
         types: [],
     },
@@ -573,7 +573,7 @@ let forestMaps = [
     {
         name: 'Первомайское',
         year: 2005,
-        info: 'Белые Ночи 2005',
+        info: 'Белые Ночи 2005.',
         url: './maps/forest/pervomayskoe_2005.webp',
         link: './original_maps/forest/pervomayskoe_2005.jpg',
         bounds: [[60.42719846959152, 29.665489196777347], [60.42160647681901, 29.758358001708988], [60.386083357333455, 29.65493202209473]],
@@ -598,7 +598,7 @@ let forestMaps = [
         year: 2006,
         url: './maps/forest/pervomayskoe_chervonnoe_2006.webp',
         link: './original_maps/forest/pervomayskoe_chervonnoe_2006_full.jpg',
-        info: 'Кубок России по СРП',
+        info: 'Кубок России по СРП.',
         bounds: [[60.42253854239894, 29.675359725952152], [60.41753896892244, 29.75303649902344], [60.395370588437366, 29.668235778808597]],
         author: ['RYLOV_V','SHRNN','MKHLV_A'], //Гибрид карт Рылова, Шириняна и бригады Михайлова А.
         types: [],

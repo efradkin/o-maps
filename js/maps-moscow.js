@@ -1823,7 +1823,7 @@ let moscowMaps = [
     {
         name: 'Ульяновский лесопарк',
         year: 2024,
-        info: 'Аэророгейн',
+        info: 'Аэророгейн.',
         url: './maps/moscow/ulianovsky_aerorogaine_2024.webp',
         link: './original_maps/moscow/ulianovsky_aerorogaine_2024_full.jpg',
         bounds: [[55.66194952013165, 37.21429824829102], [55.661901105195454, 37.32699394226075], [55.6090447272758, 37.21532821655274]],
@@ -1833,7 +1833,7 @@ let moscowMaps = [
     {
         name: 'Московский',
         year: 2024,
-        info: 'Аэророгейн 2.0',
+        info: 'Аэророгейн 2.0.',
         url: './maps/moscow/moskovsky_aerorogaine_2024.webp',
         link: './original_maps/moscow/moskovsky_aerorogaine_2024_full.jpg',
         bounds: [[55.61122628129369, 37.26888656616212], [55.6133592389934, 37.402782440185554], [55.55708791821017, 37.27352142333985]],
@@ -1843,7 +1843,7 @@ let moscowMaps = [
     {
         name: 'Валуевский лесопарк',
         year: 2024,
-        info: 'Аэророгейн 3.0',
+        info: 'Аэророгейн 3.0.',
         url: './maps/moscow/valuevsky_aerorogaine_2024.webp',
         link: './original_maps/moscow/valuevsky_aerorogaine_2024_full.jpg',
         bounds: [[55.61437720063169, 37.30708122253419], [55.56640736346098, 37.43737220764161], [55.57693761713127, 37.26330757141114]],
@@ -1853,7 +1853,7 @@ let moscowMaps = [
     {
         name: 'Ново-Переделкино',
         year: 2024,
-        info: 'Городской рогейн "Территория"',
+        info: 'Городской рогейн "Территория".',
         url: './maps/moscow/novo_peredelkino_rogaine_2024.webp',
         link: './original_maps/moscow/novo_peredelkino_rogaine_2024.pdf',
         bounds: [[55.6668391202158, 37.29721069335938], [55.669307894089066, 37.418489456176765], [55.616703870853875, 37.29892730712891]],
@@ -1863,7 +1863,7 @@ let moscowMaps = [
     {
         name: 'Анциферово',
         year: 2024,
-        info: 'Городской рогейн "Территория"',
+        info: 'Городской рогейн "Территория".',
         url: './maps/moscow/antsiferovo_rogaine_2024.webp',
         link: './original_maps/moscow/antsiferovo_rogaine_2024.pdf',
         bounds: [[55.585888538377276, 38.733372688293464], [55.5707750924518, 38.888640403747566], [55.52066264738814, 38.71371746063233]],
@@ -1873,7 +1873,7 @@ let moscowMaps = [
     {
         name: 'Ступино',
         year: 2024,
-        info: 'Рогейн "Молния"',
+        info: 'Рогейн "Молния".',
         url: './maps/moscow/stupino_rogaine_2024.webp',
         link: './original_maps/moscow/stupino_rogaine_2024.pdf',
         bounds: [[54.88248265558986, 38.07629585266114], [54.87495233107354, 38.14285755157471], [54.84951165408857, 38.065180778503425]],
@@ -1933,7 +1933,7 @@ let moscowMaps = [
     {
         name: 'Марьина гора',
         year: 2024,
-        info: 'Лыжный Компот-рогейн',
+        info: 'Лыжный Компот-рогейн.',
         url: './maps/moscow/marjina_gora_2024.webp',
         link: 'https://rogaine.ru/results/ski2024/ski2024_map.jpg',
         bounds: [[56.14507134774327, 37.69048690795899], [56.12297419573332, 37.87553787231446], [56.04510266360655, 37.652721405029304]],
@@ -1953,7 +1953,7 @@ let moscowMaps = [
     {
         name: 'МОСКВА',
         year: 2023,
-        info: 'Мосдень',
+        info: 'Мосдень.',
         url: './maps/moscow/moscow_rogaine_2023.webp',
         link: './original_maps/moscow/mosden_2023.pdf',
         bounds: [[55.829974629678674, 37.578306198120124], [55.81661903750816, 37.709455490112305], [55.72798009228692, 37.54577636718751]],
@@ -1964,7 +1964,7 @@ let moscowMaps = [
     {
         name: 'Братеевский каскадный парк',
         year: 2023,
-        info: 'Московская васна 2024',
+        info: 'Московская васна 2024.',
         url: './maps/moscow/brateevsky_park_2024.webp',
         bounds: [[55.640180969060964, 37.71278142929078], [55.63955122021502, 37.73913145065308], [55.63542127016981, 37.71215915679932]],
         author: 'MNKV',
