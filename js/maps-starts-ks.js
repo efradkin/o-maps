@@ -1,0 +1,36 @@
+let ksStartsMaps = [
+    /* --- Карельские скалы --- */
+    {
+        name: 'Кузнечное',
+        start: 'KS',
+        year: 2009,
+        info: '23.06, короткая дистанция. <a href="https://o-site.spb.ru/race.php?id=09062325" target="_blank">Инфо и результаты.</a>',
+        url: './maps/starts/ks/ks_2009_06_23.webp',
+        link: './original_maps/starts/ks/ks_2009_06_23_full.gif',
+        bounds: [[61.12102431457125, 29.799921512603763], [61.11952161179514, 29.81723785400391], [61.107341901781304, 29.795436859130863]],
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','SHRNN'],
+        types: [],
+    },
+    {
+        name: 'Кузнечное',
+        start: 'KS',
+        year: 2009,
+        info: '24.06, классическая дистанция. <a href="https://o-site.spb.ru/race.php?id=09062325" target="_blank">Инфо и результаты.</a>',
+        url: './maps/starts/ks/ks_2009_06_24.webp',
+        link: './original_maps/starts/ks/ks_2009_06_24_full.gif',
+        bounds: [[61.14043902416167, 29.773936271667484], [61.13708322525923, 29.813590049743656], [61.11428750294256, 29.76603984832764]],
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','SHRNN'],
+        types: [],
+    },
+    {
+        name: 'Кузнечное',
+        start: 'KS',
+        year: 2009,
+        info: '25.06, средняя дистанция. <a href="https://o-site.spb.ru/race.php?id=09062325" target="_blank">Инфо и результаты.</a>',
+        url: './maps/starts/ks/ks_2009_06_25.webp',
+        link: './original_maps/starts/ks/ks_2009_06_25_full.gif',
+        bounds: [[61.12813268459107, 29.762907028198246], [61.1243403713046, 29.80552196502686], [61.11393507635153, 29.75883007049561]],
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','SHRNN'],
+        types: [],
+    },
+];

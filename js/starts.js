@@ -69,5 +69,10 @@ let starts = {
         name: 'Памяти Сергея Кузнецова',
         icon: 'kuznetsov.jpg'
     },
+    KS: {
+        short: 'Карельские скалы',
+        name: 'Карельские скалы',
+        icon: 'ks.jpg'
+    },
 };
 
