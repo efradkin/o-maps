@@ -265,7 +265,7 @@ function selectChartsRegion(region) {
         case 'index':location.href = './index.html'; break;
         case 'spb': location.href = './charts-spb.html'; break;
         case 'msk': location.href = './charts-moscow.html'; break;
-        case 'srb': location.href = './charts-serbia'; break;
+        case 'srb': location.href = './charts-serbia.html'; break;
         case 'all': location.href = './charts-all.html'; break;
     }
 }
