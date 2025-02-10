@@ -64,5 +64,10 @@ let starts = {
         name: 'Лесная карусель',
         icon: 'les_kar.jpg'
     },
+    KZNTSVA: {
+        short: 'Памяти Кузнецова',
+        name: 'Памяти Сергея Кузнецова',
+        icon: 'kuznetsov.jpg'
+    },
 };
 

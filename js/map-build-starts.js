@@ -15,6 +15,7 @@ let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [
 let naGroup = L.layerGroup([]);
 let ymGroup = L.layerGroup([]);
 let mmsGroup = L.layerGroup([]);
+let pskGroup = L.layerGroup([]);
 let kkpGroup = L.layerGroup([]);
 let kkmGroup = L.layerGroup([]);
 let mbGroup = L.layerGroup([]);
@@ -27,6 +28,7 @@ let allOrientGroups = [
     naGroup,
     ymGroup,
     mmsGroup,
+    pskGroup,
     kkpGroup,
     kkmGroup,
     mbGroup,
@@ -76,6 +78,7 @@ if (mapElement) {
             case 'YM': activeLayers.push(osmLayer, ymGroup); break;
             case 'KKP': activeLayers.push(osmLayer, kkpGroup); break;
             case 'MMS': activeLayers.push(osmLayer, mmsGroup); break;
+            case 'KZNTSVA': activeLayers.push(osmLayer, pskGroup); break;
             case 'RFAR': activeLayers.push(osmLayer, rfarGroup); break;
             case '100X24': activeLayers.push(osmLayer, sto24Group); break;
             case 'ST': activeLayers.push(osmLayer, stGroup); break;
@@ -86,7 +89,7 @@ if (mapElement) {
         }
     } else {
         activeLayers.push(
-            osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, stGroup // rfarGroup, sto24Group,
+            osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, pskGroup, stGroup // rfarGroup, sto24Group,
             //...Object.values(ageGroups),
         );
     }
@@ -98,6 +101,7 @@ function buildOverlayMapsContents() {
         "Яркий Мир": ymGroup,
         "ККП": kkpGroup,
         "ММС": mmsGroup,
+        "Памяти Кузнецова": pskGroup,
         "Спринт-Тур": stGroup,
         "RFAR": rfarGroup,
         "100x24": sto24Group,
@@ -117,6 +121,7 @@ function allocateMap(m) {
             case 'YM': pushGroupToMap(m, ymGroup); break;
             case 'KKP': pushGroupToMap(m, kkpGroup); break;
             case 'MMS': pushGroupToMap(m, mmsGroup); break;
+            case 'KZNTSVA': pushGroupToMap(m, pskGroup); break;
             case 'RFAR': pushGroupToMap(m, rfarGroup); break;
             case '100X24': pushGroupToMap(m, sto24Group); break;
             case 'ST': pushGroupToMap(m, stGroup); break;
