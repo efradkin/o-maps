@@ -450,12 +450,7 @@ function loadMap(m) {
         m.img = new Image();
         m.img.src = m.url;
         m.img.onerror = function () {
-            notificationControl.warning('Ошибка загрузки карты "' + m.name + '". Попробуем заново.');
-            m.img.src = null;
-            m.img.src = m.url;
-            m.img.onload = function () {
-                loadMapImage(m);
-            }
+            notificationControl.warning('Ошибка загрузки карты "' + m.name + '". Попробуйте обновить страницу.');
         }
         m.img.onload = function () {
             loadMapImage(m);
