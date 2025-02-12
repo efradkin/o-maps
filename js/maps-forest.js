@@ -115,6 +115,16 @@ let forestMaps = [
     },
     {
         name: 'Юкки',
+        year: 1966,
+        start: 'MEET_1966',
+        url: './maps/forest/yukki_1966.webp',
+        link: ['./original_maps/forest/meet_1966_title.jpg','./original_maps/forest/meet_1966_agenda.jpg','./original_maps/forest/yukki_1966_full.jpg'],
+        info: '11.03, маркир.',
+        bounds: [[60.13586367528046, 30.287075042724613], [60.13804329022207, 30.392217636108402], [60.0974189044925, 30.289564132690433]],
+        types: [],
+    },
+    {
+        name: 'Юкки',
         year: 1988,
         url: './maps/forest/yukki_1988.webp',
         link: './original_maps/forest/yukki_1988_full.jpg',

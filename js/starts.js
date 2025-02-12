@@ -74,5 +74,10 @@ let starts = {
         name: 'Карельские скалы',
         icon: 'ks.jpg'
     },
+    MEET_1966: {
+        short: 'Матч\'1966',
+        name: '<a href="https://o-site.spb.ru/history/Knots/match-66.html" target="_blank">Зимний матч городов СССР</a>',
+        icon: 'meet_1966.jpg'
+    },
 };
 

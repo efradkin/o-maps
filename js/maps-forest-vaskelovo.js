@@ -2,6 +2,16 @@
 let vaskelovoMaps = [
     // --- ВАСКЕЛОВО - ГРУЗИНО - ЛЕМБОЛОВО - ОРЕХОВО ---
     {
+        name: 'Орехово',
+        year: 1966,
+        start: 'MEET_1966',
+        url: './maps/forest/vaskelovo/orekhovo_1966.webp',
+        link: ['./original_maps/forest/meet_1966_title.jpg','./original_maps/forest/meet_1966_agenda.jpg','./original_maps/forest/vaskelovo/orekhovo_1966_full.jpg'],
+        info: '13.03, маркир-эстафета.',
+        bounds: [[60.4456198220461, 30.166482925415043], [60.44574682960571, 30.2464771270752], [60.41351333008904, 30.169658660888675]],
+        types: [],
+    },
+    {
         name: 'Лемболово, ю-з',
         year: 1991,
         url: './maps/forest/vaskelovo/lembolovo_south_west_1991.webp',
