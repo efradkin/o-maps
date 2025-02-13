@@ -655,7 +655,7 @@ let forestMaps = [
         url: './maps/forest/osinovaja_roscha_2018.webp',
         bounds: [[60.13996635995334, 30.22639274597168], [60.13612010806311, 30.27214050292969], [60.11160037127036, 30.216650962829593]],
         owner: 'SHLKHN_AN',
-        author: ['KVZN','TKMKV_K','SHRNN'],
+        author: ['KVZN','TKMKV_K','SHRNN','KUZNTSV_A'],
         types: [],
     },
     {
