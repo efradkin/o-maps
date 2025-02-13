@@ -432,7 +432,9 @@ if (mapElement) {
     }
 
     let timelineEl = document.getElementById("timeline");
-    timelineEl.checked = !timeline;
+    if (timelineEl) {
+        timelineEl.checked = !timeline;
+    }
 
     // --- call center
     if (!hiddenButtonsMode) {
