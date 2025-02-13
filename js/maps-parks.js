@@ -1166,6 +1166,15 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
+        name: 'Каменноостровский дворец',
+        year: 2025,
+        url: './maps/parks/kamennoostrovsky_palace_2025.webp',
+        bounds: [[59.981546632716686, 30.300507545471195], [59.980988417342736, 30.306301116943363], [59.97938886347081, 30.29962778091431]],
+        author: 'ZCHNV',
+        owner: 'VOLKOV_AM',
+        types: ['PARK'],
+    },
+    {
         name: 'Стрельна, Константиновский парк',
         year: 1998,
         url: './maps/parks/konstantinovsky_1998.webp',
