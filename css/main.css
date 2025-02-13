@@ -94,6 +94,18 @@ html, body, #map {
     z-index: 777;
     display: none;
 }
+.timeline-container {
+    position: absolute;
+    top: 0;
+    right: -60px;
+}
+.timeline-container label {
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    font-weight: bold;
+    text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
+}
 label:has(> span span .layer-separator) {
     margin-top: 10px;
 }

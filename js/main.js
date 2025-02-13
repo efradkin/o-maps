@@ -35,6 +35,11 @@ let hbm = localStorage.getItem('hiddenButtonsMode');
 if (hbm != null) {
     hiddenButtonsMode = (hbm === 'true');
 }
+let timeline = false;
+let tl = localStorage.getItem('timeline');
+if (tl != null) {
+    timeline = (tl === 'true');
+}
 
 let mapOverlays = [];
 
@@ -392,25 +397,12 @@ if (mapElement) {
                         let yearSlider = new rSlider({
                             target: '#year_slider',
                             values: years,
-                            range: true,
-                            set: [years[0], years[years.length-1]],
+                            range: !timeline,
+                            set: timeline ? [years[years.length-1]] : [years[0], years[years.length-1]],
                             labels: wideScreen,
                             tooltip: !wideScreen,
                             onChange: function (vals) {
-                                let values = vals.split(',');
-                                let start = Number(values[0]);
-                                let end = Number(values[1]);
-                                for (let y of years) {
-                                    let year = Number(y);
-                                    if (year < start || year > end) {
-                                        removeFromArray(activeLayers, ageGroups[y]);
-                                    } else {
-                                        if (!activeLayers.includes(ageGroups[y])) {
-                                            activeLayers.push(ageGroups[y]);
-                                        }
-                                    }
-                                }
-                                syncMaps();
+                                processYearSlider(years, vals);
                             }
                         });
                     }
@@ -418,6 +410,29 @@ if (mapElement) {
             }
         }
     }, 1000);
+
+    async function processYearSlider(years, vals) {
+        let values = vals.split(',');
+        let start = Number(values[0]);
+        let end = Number(values[1]);
+        if (timeline) {
+            end = start;
+        }
+        for (let y of years) {
+            let year = Number(y);
+            if (year < start || year > end) {
+                removeFromArray(activeLayers, ageGroups[y]);
+            } else {
+                if (!activeLayers.includes(ageGroups[y])) {
+                    activeLayers.push(ageGroups[y]);
+                }
+            }
+        }
+        syncMaps();
+    }
+
+    let timelineEl = document.getElementById("timeline");
+    timelineEl.checked = !timeline;
 
     // --- call center
     if (!hiddenButtonsMode) {
@@ -919,6 +934,12 @@ function hiddenButtonsModeSwitch (e) {
 function fullSizeSwitch (e) {
     enableFullSize = !enableFullSize;
     localStorage.setItem('enableFullSize', enableFullSize);
+    location.reload();
+}
+
+function timelineSwitch (e) {
+    timeline = !timeline;
+    localStorage.setItem('timeline', timeline);
     location.reload();
 }
 
