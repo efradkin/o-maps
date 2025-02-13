@@ -3054,6 +3054,15 @@ let moscowMaps = [
         types: ['CITY'],
     },
     {
+        name: 'Солнечногорск',
+        year: 2025,
+        url: './maps/moscow/solnechnogorsk_2025.webp',
+        link: './original_maps/moscow/solnechnogorsk_2025_full.jpg',
+        bounds: [[56.19421822878837, 36.99313402175904], [56.194194351564555, 37.005279064178474], [56.18958576915316, 36.993026733398445]],
+        author: 'SHRNN',
+        types: ['CITY'],
+    },
+    {
         name: 'Ржавки',
         year: 2000,
         url: './maps/moscow/rzhavki_2000.webp',
