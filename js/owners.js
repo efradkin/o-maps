@@ -1,6 +1,7 @@
 let owners = {
     ANCHKV: {
-        name: '© СШОР №2 ГБНОУ "СПб ГДТЮ"'
+        name: '© СШОР №2 ГБНОУ "СПб ГДТЮ"',
+        icon: 'anichkov.jpg'
     },
     BBCH_A: {
         name: '© Бибич Андрей - <a href="https://vk.com/id7840054" target="_blank">ВК</a> или <a href="https://t.me/andy_atta" target="_blank">Telegram</a>.'

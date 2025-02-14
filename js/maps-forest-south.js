@@ -21,6 +21,15 @@ let southMaps = [
         types: [],
     },
     {
+        name: 'Туутари',
+        year: 2004,
+        url: './maps/forest/south/tuutari_2004.webp',
+        link: './original_maps/forest/south/tuutari_2004_full.jpg',
+        bounds: [[59.70649086815244, 30.16549587249756], [59.70371983775948, 30.189528465271], [59.689146505392564, 30.157985687255863]],
+        owner: 'ANCHKV',
+        types: [],
+    },
+    {
         name: 'Ломоносов, Красный пруд',
         year: 1997,
         url: './maps/forest/south/lomonosov_1997.webp',
