@@ -752,6 +752,16 @@ let zelikMaps = [
         zindex: 2
     },
     {
+        name: 'Молодёжное (Марьина гора)',
+        year: 2024,
+        url: './maps/forest/zelik/molodezhnoe_2024.webp',
+        link: './original_maps/forest/zelik/molodezhnoe_2024_full.jpg',
+        bounds: [[60.206030212425404, 29.520928859710697], [60.203002080434125, 29.55105543136597], [60.1954838544896, 29.516723155975345]],
+        author: 'ZCHNV',
+        owner: 'SFSO_SPB',
+        types: [],
+    },
+    {
         name: 'Молодёжное',
         year: 2003,
         url: './maps/forest/zelik/molodezhnoe_2003.webp',
@@ -759,5 +769,15 @@ let zelikMaps = [
         bounds: [[60.203002080434125, 29.531786441802982], [60.20167985063764, 29.54835176467896], [60.19703029698733, 29.530413150787357]],
         author: 'SHKLV', //Возможны соавторы
         types: [],
+    },
+    {
+        name: 'ДООЛ "Молодёжное"',
+        year: 2024,
+        url: './maps/forest/zelik/molodezhny_dool_2024.webp',
+        link: './original_maps/forest/zelik/molodezhny_dool_2024_full.jpg',
+        bounds: [[60.201104024232556, 29.531250000000004], [60.199728398025975, 29.543244838714603], [60.1958678056339, 29.529211521148685]],
+        author: 'ZCHNV',
+        owner: 'SFSO_SPB',
+        types: ['CITY'],
     },
 ];
