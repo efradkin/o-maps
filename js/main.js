@@ -409,34 +409,38 @@ if (mapElement) {
 
                     // set required styles for the map elements
                     for (const m of oMaps) {
-                        if (m.layer) {
-                            let el = m.layer.getElement();
-                            if (el) {
-                                if (m.zindex) {
-                                    el.style.zIndex = m.zindex;
-                                }
-
-                                if (m.restricted) {
-                                    el.classList.add('restricted');
-                                }
-                                else if (m.link && enableFullSize) {
-                                    el.classList.add('full-size');
-                                }
-
-                                if ((HAS_ONLY_WO_AUTHOR_PARAM || HAS_WO_AUTHOR_PARAM) && !m.author) {
-                                    if (m.link) {
-                                        el.classList.add('wo-author-w-full');
-                                    } else {
-                                        el.classList.add('wo-author');
-                                    }
-                                }
-                            }
-                        }
+                        applyMapStyles(m);
                     }
                 }
             }
         }
     }, 1000);
+
+    function applyMapStyles(m) {
+        if (m.layer) {
+            let el = m.layer.getElement();
+            if (el) {
+                if (m.zindex) {
+                    el.style.zIndex = m.zindex;
+                }
+
+                if (m.restricted) {
+                    el.classList.add('restricted');
+                }
+                else if (m.link && enableFullSize) {
+                    el.classList.add('full-size');
+                }
+
+                if ((HAS_ONLY_WO_AUTHOR_PARAM || HAS_WO_AUTHOR_PARAM) && !m.author) {
+                    if (m.link) {
+                        el.classList.add('wo-author-w-full');
+                    } else {
+                        el.classList.add('wo-author');
+                    }
+                }
+            }
+        }
+    }
 
     async function processYearSlider(years, vals) {
         let values = vals.split(',');
