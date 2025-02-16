@@ -289,13 +289,13 @@ let rogaineBeketovMaps = [
         start: 'TA',
         types: ['ROGAINE'],
     },
-/*
     {
-        //  Бобочинский полигон
         name: 'Гаврилово',
         year: 2018,
+        hidden: true,
+        info: 'Бобочинский полигон.',
         url: './maps/rogaine/beketov/gavrilovo.webp',
-        link: './original_maps/rogaine/beketov/zona.jpg',
+        //link: './original_maps/rogaine/beketov/zona.jpg',
         bounds: [[60.59489087388518, 28.941421508789066], [60.59168797815975, 29.249382019042972], [60.50035635259788, 28.93833160400391]],
         owner: 'BKTV',
         start: 'MB',
@@ -304,20 +304,24 @@ let rogaineBeketovMaps = [
     {
         name: 'Луга',
         year: 2019,
+        hidden: true,
+        info: 'Лужский артиллерийский полигон.',
         url: './maps/rogaine/beketov/luga.webp',
-        link: './original_maps/rogaine/beketov/luga.jpg',
+        //link: './original_maps/rogaine/beketov/luga.jpg',
         bounds: [[58.7477225839728, 29.35306549072266], [58.74683198091693, 29.847106933593754], [58.64336713431344, 29.35855865478516]],
         owner: 'BKTV',
+        start: 'TA',
         types: ['ROGAINE'],
     },
     {
         name: 'Елизаветинка-Огоньки',
         year: 2010,
+        hidden: true,
+        info: 'Инженерно-испытательный полигон.',
         url: './maps/rogaine/beketov/elizavetinka_ogonki_2010.webp',
         bounds: [[60.39876252373886, 29.918174743652347], [60.3239732732973, 30.276603698730472], [60.271748482126604, 29.813117980957035]],
         owner: 'BKTV',
         start: 'MB',
         types: ['ROGAINE'],
     },
-*/
 ];

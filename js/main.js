@@ -768,7 +768,7 @@ function buildPopupText(m, latLngs) {
         }
     } else {
         if (isMapHidden(m)) {
-            result += 'Просмотр карты не разрешён правообладателем.';
+            result += 'Просмотр карты не разрешён правообладателем или не уместен.';
         } else {
             result += 'Посмотреть карту отдельно можно <a href="' + m.url + '" target="_blank">тут</a>.';
         }

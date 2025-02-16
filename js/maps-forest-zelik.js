@@ -514,6 +514,7 @@ let zelikMaps = [
         name: 'Линдуловская роща',
         year: 2022,
         url: './maps/forest/zelik/lindulovskaya_roscha_2015.webp',
+        link: './original_maps/forest/zelik/lindulovskaya_roscha_2015_full.jpg',
         bounds: [[60.256592788957555, 29.525198936462406], [60.25563467927723, 29.542450904846195], [60.23919340827815, 29.52185153961182]],
         author: 'RDNV_I',
         owner: 'RDNV_I',
