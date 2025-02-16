@@ -51,6 +51,7 @@ let southMaps = [
         name: 'Ульяновка, Саблино',
         year: 2020,
         url: './maps/forest/south/sablino_2020.webp',
+        link: './original_maps/forest/south/sablino_2020_full.jpg',
         bounds: [[59.67127306766719, 30.782189369201664], [59.67020035820331, 30.798819065093998], [59.65993745299763, 30.779120922088627]],
         author: 'DRBSHV',
         owner: 'VOLKOV_AM',
