@@ -125,7 +125,7 @@ let authors = {
         name: 'Горев Кирилл',
         about: 'https://o-site.spb.ru/history/Peoples/gorev.html'
     },
-    GRV_S: { name: 'Гурьев С.' },
+    GRV_S: { name: 'Гурьев Сергей' },
     GRZNVCH: {
         name: 'Грязневич Михаил',
         about: 'https://o-site.spb.ru/history/Peoples/mgrazn.html'
@@ -442,6 +442,7 @@ let authors = {
     MTN_Y: { name: 'Митин Юрий' },
     MLCHK: { name: 'Мальчик Игорь' },
     MLNKV_V: { name: 'Мыльников Валентин' },
+    MRTSHV: { name: 'Мартишев В.' },
     MSTPNV: { name: 'Мостепанов Иван' },
     MTVV: { name: 'Матвеев Виктор' },
     NDRF: { name: 'Найдорф В.' },
