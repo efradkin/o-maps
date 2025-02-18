@@ -336,6 +336,7 @@ let authors = {
     TKMKVA_P: { name: 'Токмакова Полина' },
     TLNKV: { name: 'Туленков М.' },
     TLNV_A: { name: 'Тюленев А.' },
+    TLNV_P: { name: 'Тюленев Пётр' },
     TMLNS: { name: 'Витаутас Тамуленис' },
     TMKN: {
         name: 'Темкин Вениамин', //Яковлевич
@@ -452,7 +453,10 @@ let authors = {
     },
     NLTV_D: { name: 'Налётов Дмитрий' },
     OGRDNKV: { name: 'Огородников Борис' },
-    OKN_V: { name: 'Окин Вячеслав' },
+    OKN_V: {
+        name: 'Окин Вячеслав',
+        icon: 'turtle.jpg',
+    },
     ORLV_V: { name: 'Орлов В.' },
     PTRV_VLNTN: { name: 'Петров Валентин' },
     PZDV_S: { name: 'Поздеев Сергей' },
