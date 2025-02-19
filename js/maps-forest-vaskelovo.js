@@ -476,4 +476,14 @@ let vaskelovoMaps = [
         owner: 'RDNV_I',
         types: [],
     },
+    {
+        name: 'Орехово, оз Бол.Борково',
+        year: 2024,
+        url: './maps/forest/vaskelovo/orekhovo_borkovo_2024.webp',
+        link: ['./original_maps/forest/vaskelovo/orekhovo_borkovo_2024_1_full.gif','./original_maps/forest/vaskelovo/orekhovo_borkovo_2024_2_full.gif'],
+        bounds: [[60.47384562177614, 30.26196956634522], [60.46955197409946, 30.307459831237797], [60.46144960413299, 30.256862640380863]],
+        author: 'CHGRVSKY_Y',
+        owner: 'KUZM',
+        types: [],
+    },
 ];
