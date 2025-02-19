@@ -22,7 +22,7 @@ let starts = {
     ST: {
         short: 'Спринт-Тур',
         name: 'Спринт-Тур',
-        icon: 'kjp.jpg'
+        icon: 'st.jpg'
     },
     '100X24': {
         short: '100x24',

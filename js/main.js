@@ -608,7 +608,9 @@ function buildMap(m) {
 function syncMaps() {
     let activeLayerIds = [];
     for (const layer of activeLayers) {
-        activeLayerIds.push(layer._leaflet_id.toString());
+        if (layer && layer._leaflet_id) {
+            activeLayerIds.push(layer._leaflet_id.toString());
+        }
     }
 
     let shownMaps = [];
