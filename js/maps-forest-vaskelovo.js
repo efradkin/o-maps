@@ -373,6 +373,7 @@ let vaskelovoMaps = [
         year: 2022,
         area: 5.6,
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2022.webp',
+        link: './original_maps/forest/vaskelovo/orekhovo_vetrennoe_2022_full.jpg',
         bounds: [[60.51476537376076, 30.29368400573731], [60.507794066756006, 30.361404418945316], [60.483276961231034, 30.28012275695801]],
         author: ['STLRV','DBRTSV_V','KUZNTSV_A'],
         owner: 'SHEIN',

@@ -62,6 +62,7 @@ let michuraMaps = [
         name: 'Золотая Долина',
         year: 2016,
         url: './maps/forest/michura/gold_dolina_2016.webp',
+        link: './original_maps/forest/michura/gold_dolina_2016_full.jpg',
         bounds: [[60.52945302025571, 29.753143787384037], [60.52875627309598, 29.764494895935062], [60.52086931681358, 29.751234054565433]],
         author: 'DBRTSV_V',
         owner: 'SHEIN',
