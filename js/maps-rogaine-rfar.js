@@ -72,4 +72,15 @@ let rogaineRfarMaps = [
         owner: 'RFAR',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Питкяранта',
+        start: 'RFAR',
+        year: 2024,
+        url: './maps/rogaine/pitkaranta_rfar_2024.webp',
+        bounds: [[61.854367394687124, 30.93406677246094], [61.79893034626891, 31.638908386230472], [61.601661501477075, 30.84720611572266]],
+        info: '<a href="https://adventure-race.redfox.ru/archive/archive_2024/" target="_blank">Инфо и результаты.</a>',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19675/',
+        owner: 'RFAR',
+        types: ['ROGAINE'],
+    },
 ];
