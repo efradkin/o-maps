@@ -8,6 +8,9 @@ html, body, #map {
     height: 100%;
     width: 100%;
 }
+.starts-body {
+    overflow-y: hidden;
+}
 
 .index-body {
     justify-items: center;
@@ -153,6 +156,9 @@ label:has(> span span .layer-separator) {
     background-position: center;
     margin: 2px -2px;
     background-image: url(../images/chat_64.png);
+}
+.starts-body .leaflet-bottom.leaflet-right .leaflet-control:first-child {
+    margin-bottom: 45px;
 }
 .hide-map-link {
     width: 100%;
