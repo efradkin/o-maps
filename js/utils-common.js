@@ -105,3 +105,7 @@ function removeFromArray(array, value) {
         array.splice(index, 1); // 2nd parameter means remove one item only
     }
 }
+
+function isObject(obj) {
+    return obj && typeof obj === 'object' && obj.constructor === Object;
+}

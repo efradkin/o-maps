@@ -757,7 +757,21 @@ function buildPopupText(m, latLngs) {
 
     // GPS-трансляция
     if (m.gps) {
-        result += '<span class="gps-info"><img src="./images/o-gps.ico" /> <a href="' + m.gps + '" target="_blank">GPS-трансляция</a>.</span><br />';
+        result += '<span class="gps-info"><img src="./images/o-gps.ico" /> ';
+        if (isObject(m.gps)) {
+            result += 'GPS-трансляции:';
+            let entries = Object.entries(Object.entries(m.gps));
+            for (const [index, [key, value]] of entries) {
+                console.log(`${index}: ${key} = ${value}`);
+                result += ` <a href="${value}" target="_blank">${key}</a>`;
+                if (index < entries.length - 1) {
+                    result += ',';
+                }
+            }
+        } else {
+            result += '<a href="' + m.gps + '" target="_blank">GPS-трансляция</a>';
+        }
+        result += '.</span><br />';
     }
 
     // ссылки на просмотр и скачивание

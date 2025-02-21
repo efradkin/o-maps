@@ -839,7 +839,10 @@ let cityMaps = [
         year: 2023,
         url: './maps/city/zhaka_djuklo_2023.webp',
         link: './original_maps/city/zhaka_djuklo_2023_st_full.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17480/',
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/17480/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/17482/'
+        },
         info: '04.10. <a href="https://reskeep.ru/event/get?id=619" target="_blank">Результаты.</a>',
         bounds: [[60.01458264841114, 30.345954895019535], [60.012298334901786, 30.36578178405762], [60.00745034864706, 30.343229770660404]],
         author: 'CHGRVSKY_Y',
