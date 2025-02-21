@@ -813,7 +813,7 @@ function buildDownloadLinks(link) {
         if (index > 0) {
             result += ', ';
         }
-        result += '<a href="' + value + '" target="_blank" class="ext-link">' + extractFileExt(value) + '</a>';
+        result += '<a href="' + value + '" target="_blank" class="ext-link"><img src="./images/' + extractFileExt(value) + '-file.png" /></a>';
     })
     return result;
 }
