@@ -267,6 +267,16 @@ label:has(> span span .layer-separator) {
     font-size: 12px;
     font-weight: bold;
 }
+.o-sheet-wrapper {
+    overflow-y: auto;
+    height: calc(100vh - 110px);
+
+    thead th {
+        position: sticky;
+        top: 0;
+        background: lightgrey;
+    }
+}
 
 .leaflet-searchbox-autocomplete .leaflet-searchbox-autocomplete-item {
     padding: 3px 0px 3px 0;

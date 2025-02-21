@@ -11,6 +11,9 @@ function mapLink(url) {
     if (pathname.includes('charts-')) {
         pathname = pathname.split('charts-').join('');
     }
+    else if (pathname.includes('sheet-')) {
+        pathname = pathname.split('sheet-').join('');
+    }
     return location.origin + pathname + '?map=' + extractFileName(url);
 }
 

@@ -28,7 +28,7 @@ function renderMapsTable() {
         let map = oMaps[i];
         const row = document.createElement('tr');
         td(row, i + 1);
-        td(row, map.name);
+        td(row, '<a href="' + mapLink(map.url) + '" target="_blank">' + map.name + '</a>');
         td(row, safe(map.year));
         td(row, map.start ? starts[map.start].name : '');
         td(row, buildDownloadLinks(map.link));
