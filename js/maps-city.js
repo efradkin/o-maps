@@ -88,12 +88,14 @@ let cityMaps = [
     },
     {
         name: 'Гимназия №101',
-        year: 2013,
+        year: 2012,
+        info: '19.09',
         url: './maps/city/school_101_2011.webp',
-        link: './original_maps/city/school_101_2011_full.jpg',
+        link: ['./original_maps/city/school_101_2011_full.jpg','./original_maps/starts/st/st_2012_school_101.jpg'],
         bounds: [[60.035573780830404, 30.32883167266846], [60.035573780830404, 30.34408807754517], [60.030579143213664, 30.328660011291507]],
         author: 'SHRNN',
         owner: 'SHEIN',
+        start: 'ST',
         types: ['CITY'],
     },
     {
