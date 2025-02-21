@@ -762,7 +762,6 @@ function buildPopupText(m, latLngs) {
             result += 'GPS-трансляции:';
             let entries = Object.entries(Object.entries(m.gps));
             for (const [index, [key, value]] of entries) {
-                console.log(`${index}: ${key} = ${value}`);
                 result += ` <a href="${value}" target="_blank">${key}</a>`;
                 if (index < entries.length - 1) {
                     result += ',';

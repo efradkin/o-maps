@@ -264,7 +264,13 @@ let vyborgMaps = [
         name: 'Пруды',
         year: 2023,
         start: 'KKP',
-        info: 'Классика.',
+        info: '19.06, Классика. <a href="https://o-site.spb.ru/race.php?id=230617-22_KKP" target="_blank">Инфо и результаты.</a>',
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/16497/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/16501/',
+            'М18':'https://viewer.o-gps-center.ru/viewer/event/16503/',
+            'М45/21А':'https://viewer.o-gps-center.ru/viewer/event/16598/'
+        },
         url: './maps/forest/vyborg/kkp_prudy_2023_06_19.webp',
         bounds: [[61.06272932040129, 29.08960819244385], [61.05876302107485, 29.135012626647953], [61.04573926994326, 29.082269668579105]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY'],
@@ -300,7 +306,13 @@ let vyborgMaps = [
         name: 'Пруды',
         year: 2023,
         start: 'KKP',
-        info: 'Лонг.',
+        info: '20.06, Лонг. <a href="https://o-site.spb.ru/race.php?id=230617-22_KKP" target="_blank">Инфо и результаты.</a>',
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/16498/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/16513/',
+            'М18':'https://viewer.o-gps-center.ru/viewer/event/16514/',
+            'М45/21А':'https://viewer.o-gps-center.ru/viewer/event/16599/'
+        },
         url: './maps/forest/vyborg/kkp_prudy_2023_06_20.webp',
         bounds: [[61.068169195524476, 29.113683700561527], [61.063809064586856, 29.15857315063477], [61.03796816794074, 29.10158157348633]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY'],
