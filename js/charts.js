@@ -138,7 +138,7 @@ function buildAuthorsTable() {
     authorsEntries
         .sort((a, b) => a[1].name.localeCompare(b[1].name))
         .sort((a, b) => (b[1].count || 0) - (a[1].count || 0));
-    var table = document.getElementById("authors_table");
+    var table = document.getElementsByClassName("o-main-table")[0];
     for (var i = 0; i < authorsEntries.length; i++) {
         let key = authorsEntries[i][0];
         let author = authorsEntries[i][1];

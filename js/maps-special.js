@@ -75,7 +75,7 @@ let specialMaps = [
         name: 'Сосновка, лыжный полигон',
         year: 2024,
         url: './maps/winter/sosnovka_winter_2024.webp',
-        link: 'https://o-site.spb.ru/race.php?id=poligon2025',
+        info: '<a href="https://o-site.spb.ru/race.php?id=poligon2025" target="_blank">Инфо</a>.',
         bounds: [[60.02682730935579, 30.330719947814945], [60.02253897755637, 30.36925792694092], [60.013102688647166, 30.32509803771973]],
         author: 'CHGRVSKY_V',
         owner: 'IMPULS',

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Спортивные карты Санкт-Петербурга: ориентирование и рогейн</title>
+    <title>Спортивные карты Санкт-Петербурга: ориентирование и рогейн. Диаграммы и статистика.</title>
     <meta name="description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга и области. Диаграммы и статистика.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
@@ -47,7 +47,7 @@
         O-maps ◪
         <a href="spb.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
-        <select id="charts_region_selector" onchange="selectChartsRegion(this.value)">
+        <select id="charts_region_selector" onchange="selectMapRegion(this.value, 'charts')">
             <option value="index">Начальная страница</option>
             <option value="spb" selected>Санкт-Петербург</option>
             <option value="msk">Москва</option>
@@ -83,7 +83,7 @@
     <br /><br />
 
     <div class="chart-container">
-        <table id="authors_table">
+        <table class="o-main-table">
             <thead>
                 <th>&nbsp;</th>
                 <th>Автор-составитель</th>

@@ -242,31 +242,26 @@ function o(owner) {
 }
 
 function authorLabel(author) {
-    if (author.about) {
-        return '<a href="' + author.about + '" target="_blank">' + author.name + '</a>'
+    if (author) {
+        if (author.about) {
+            return '<a href="' + author.about + '" target="_blank">' + author.name + '</a>'
+        } else {
+            return author.name;
+        }
     } else {
-        return author.name;
+        return '';
     }
 }
 
-function selectMapRegion(region) {
+function selectMapRegion(region, prefix) {
+    prefix = prefix ? prefix + '-' : '';
     switch (region) {
         case 'index':location.href = './index.html'; break;
-        case 'spb':location.href = './spb.html'; break;
-        case 'msk':location.href = './moscow.html'; break;
-        case 'srb':location.href = './serbia.html'; break;
-        case 'all':location.href = './all.html'; break;
+        case 'spb':location.href = './' + prefix + 'spb.html'; break;
+        case 'msk':location.href = './' + prefix + 'moscow.html'; break;
+        case 'srb':location.href = './' + prefix + 'serbia.html'; break;
+        case 'all':location.href = './' + prefix + 'all.html'; break;
         case 'starts':location.href = './starts.html'; break;
-    }
-}
-
-function selectChartsRegion(region) {
-    switch (region) {
-        case 'index':location.href = './index.html'; break;
-        case 'spb': location.href = './charts-spb.html'; break;
-        case 'msk': location.href = './charts-moscow.html'; break;
-        case 'srb': location.href = './charts-serbia.html'; break;
-        case 'all': location.href = './charts-all.html'; break;
     }
 }
 

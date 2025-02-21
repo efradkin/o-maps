@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Спортивные карты Москвы: ориентирование и рогейн. Диаграммы и статистика.</title>
-    <meta name="description" content="Карты? Найдутся все! Все спортивные карты Москвы и области. Диаграммы и статистика.">
+    <title>Спортивные карты Москвы: ориентирование и рогейн. Сводная таблица.</title>
+    <meta name="description" content="Карты? Найдутся все! Все спортивные карты Москвы и области. Сводная таблица.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -20,10 +20,8 @@
     <meta property="og:title" content="Спортивные карты Москвы и области: ориентирование и рогейн">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Москвы. Диаграммы и статистика.">
+    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Москвы. Сводная таблица.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview.jpg">
-
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
@@ -47,7 +45,7 @@
         O-maps ◪
         <a href="moscow.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
-        <select id="charts_region_selector" onchange="selectMapRegion(this.value, 'charts')">
+        <select id="charts_region_selector" onchange="selectMapRegion(this.value, 'sheet')">
             <option value="index">Начальная страница</option>
             <option value="spb">Санкт-Петербург</option>
             <option value="msk" selected>Москва</option>
@@ -56,48 +54,24 @@
         </select>
     </h1>
 
-    <div class="chart-container">
-        <canvas id="map_type_chart"></canvas>
-    </div>
-    <strong>Всего карт: <span id="total_maps"></span></strong>
-
-    <br /><br />
-
-    <div class="chart-container">
-        <canvas id="map_area_chart"></canvas>
-    </div>
-    <p>
-        <strong>Общая площадь (приблизительно): <span id="totalArea"></span> (км²). <sup>⚹</sup></strong> <br />
-        <span class="stat_result_article">Общая площадь рогейнерских карт: <span id="all_rogaine_area"></span> (км²). <sup>⚹</sup></span>
-    </p>
-
-    <br /><br />
-
-    <div class="chart-container">
-        <canvas id="mapYearChart"></canvas>
-    </div>
-
-    <p class="stat_result_article">Самая большая спортивная карта: <a id="largest_map" href="#" target="_blank"></a>. <sup>⚹</sup></p>
-    <p class="stat_result_article">Самая древняя карта: <a id="oldest_map" href="#" target="_blank"></a>.</p>
-
-    <br /><br />
-
-    <div class="chart-container">
-        <table class="o-main-table">
-            <thead>
-                <th>&nbsp;</th>
-                <th>Автор-составитель</th>
-                <th>Количество карт</th>
-                <th>Площадь карт (км²) <sup>⚹</sup></th>
-                <th>&nbsp;</th>
-            </thead>
-        </table>
-
-        <p class="stat_result_article">Количество карт, <a href="all.html?wo-author">где автор не указан</a>: <span id="no_authors_quantity"></span>.</p>
-
-        <hr />
-        <p class="stat_result_article" style="text-align: left"><sup>⚹</sup> Площадь большинства карт высчитывается, исходя из координат листа карты. Для компенсации того, что реальная карта практически всегда меньше, введён понижающий коэффициент 70%. Площадь некоторых (в основном, крупных) карт указана вручную.</p>
-    </div>
+    <table class="o-main-table">
+        <thead>
+        <tr>
+            <th>&nbsp</th>
+            <th data-sort="name" class="sortable">Название</th>
+            <th data-sort="year" class="sortable" style="text-align: end;">Год</th>
+            <th data-sort="start" class="sortable">Серия</th>
+            <th>Картинки</th>
+            <th>Инфо</th>
+            <th data-sort="area" class="sortable">Площадь (км²)<sup>⚹</sup></th>
+            <th>GPS</th>
+            <th>Автор-составитель</th>
+            <th>Владелец</th>
+            <th>Тип</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
 
     <script src="js/ext/leaflet.js"></script>
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
@@ -121,6 +95,6 @@
 
     <script src="js/map-build.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/charts.js"></script>
+    <script src="js/sheet.js"></script>
 </body>
 </html>

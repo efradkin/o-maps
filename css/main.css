@@ -235,7 +235,7 @@ label:has(> span span .layer-separator) {
     padding: 2px 10px;
     border: 1px solid black;
 }
-#authors_table {
+.o-main-table {
     width: 100%;
     background-color: white;
     border: solid 1px gray;
@@ -255,6 +255,9 @@ label:has(> span span .layer-separator) {
     }
     td, th {
         padding: 3px 10px;
+    }
+    th.sortable {
+        cursor: pointer;
     }
 }
 .stat_result_article {

@@ -736,18 +736,9 @@ function buildPopupText(m, latLngs) {
     // владелец
     if (m.owner) {
         if (Array.isArray(m.owner)) {
-            result += 'Владельцы:<ol>'
-            for (const o of m.owner) {
-                if (owners[o]) {
-                    result += '<li>' + owners[o].name + '</li>';
-                }
-            }
-            result += '</ol>'
-        } else {
-            if (owners[m.owner]) {
-                result += owners[m.owner].name + '<br />';
-            }
+            result += 'Владельцы:';
         }
+        result += buildOwners(m);
     }
 
     // закрытый район
@@ -758,18 +749,7 @@ function buildPopupText(m, latLngs) {
     // GPS-трансляция
     if (m.gps) {
         result += '<span class="gps-info"><img src="./images/o-gps.ico" /> ';
-        if (isObject(m.gps)) {
-            result += 'GPS-трансляции:';
-            let entries = Object.entries(Object.entries(m.gps));
-            for (const [index, [key, value]] of entries) {
-                result += ` <a href="${value}" target="_blank">${key}</a>`;
-                if (index < entries.length - 1) {
-                    result += ',';
-                }
-            }
-        } else {
-            result += '<a href="' + m.gps + '" target="_blank">GPS-трансляция</a>';
-        }
+        result += 'GPS-трансляции: ' + buildGpsLinks(m);
         result += '.</span><br />';
     }
 
@@ -803,18 +783,56 @@ function buildPopupText(m, latLngs) {
     return result;
 }
 
+function buildOwners(m) {
+    let result = '';
+    if (Array.isArray(m.owner)) {
+        result += '<ol>'
+        for (const o of m.owner) {
+            if (owners[o]) {
+                result += '<li>' + owners[o].name + '</li>';
+            }
+        }
+        result += '</ol>'
+    } else {
+        if (owners[m.owner]) {
+            result += owners[m.owner].name + '<br />';
+        }
+    }
+    return result;
+}
+
+function buildGpsLinks(m) {
+    let result = '';
+    if (m.gps) {
+        if (isObject(m.gps)) {
+            let entries = Object.entries(Object.entries(m.gps));
+            for (const [index, [key, value]] of entries) {
+                result += ` <a href="${value}" target="_blank">${key}</a>`;
+                if (index < entries.length - 1) {
+                    result += ',';
+                }
+            }
+        } else {
+            result += '<a href="' + m.gps + '" target="_blank"><img src="./images/url-file.png"></a>';
+        }
+    }
+    return result;
+}
+
 function buildDownloadLinks(link) {
     let result = '';
-    let links = link;
-    if (!Array.isArray(link)) {
-        links = [link];
-    }
-    links.forEach(function (value, index, array) {
-        if (index > 0) {
-            result += ', ';
+    if (link) {
+        let links = link;
+        if (!Array.isArray(link)) {
+            links = [link];
         }
-        result += '<a href="' + value + '" target="_blank" class="ext-link"><img src="./images/' + extractFileExt(value) + '-file.png" /></a>';
-    })
+        links.forEach(function (value, index, array) {
+            if (index > 0) {
+                result += ', ';
+            }
+            result += '<a href="' + value + '" target="_blank" class="ext-link"><img src="./images/' + extractFileExt(value) + '-file.png" /></a>';
+        })
+    }
     return result;
 }
 
@@ -971,7 +989,7 @@ function openStats() {
 }
 
 function downloadSheet() {
-    location.href = './o-maps.xlsx';
+    location.href = SHEET_PAGE;
 }
 
 function callCenter() {

@@ -14,7 +14,7 @@ function extractFileExt(url) {
     // Extension starts after the first dot after the last slash
     let extStart = url.indexOf('.',url.lastIndexOf('/')+1);
     if (extStart == -1) {
-        return false;
+        return 'url'; // hardcoded for the URL icon
     }
     var ext = url.substr(extStart+1);
     // To handle multiple periods in the filename, we ensure that the current dot is the final one.
@@ -108,4 +108,8 @@ function removeFromArray(array, value) {
 
 function isObject(obj) {
     return obj && typeof obj === 'object' && obj.constructor === Object;
+}
+
+function safe(s) {
+    return s || '';
 }
