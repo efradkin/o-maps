@@ -69,7 +69,10 @@ if (mapElement) {
         if (m) {
             let mapType = m.types;
             if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN'))) {
-                activeLayers.push(osmLayer, funGroup, rogaineGroup);
+                activeLayers.push(funGroup, rogaineGroup);
+            } else
+            if (m.year && m.year < 2000) {
+                activeLayers.push(groupRetro, group90th);
             }
         }
     }
