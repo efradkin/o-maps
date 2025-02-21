@@ -209,6 +209,13 @@ label:has(> span span .layer-separator) {
 .popup-right-header {
     right: 25px;
 }
+.gps-info img {
+    margin-bottom: -8px;
+}
+.gps-info a {
+    display: inline-block;
+    padding-bottom: 5px;
+}
 
 /* --- CHARTS --- */
 .stat-body {

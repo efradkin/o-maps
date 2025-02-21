@@ -757,7 +757,7 @@ function buildPopupText(m, latLngs) {
 
     // GPS-трансляция
     if (m.gps) {
-        result += '<a href="' + m.gps + '" target="_blank">GPS-трансляция</a>.<br />';
+        result += '<span class="gps-info"><img src="./images/o-gps.ico" /> <a href="' + m.gps + '" target="_blank">GPS-трансляция</a>.</span><br />';
     }
 
     // ссылки на просмотр и скачивание
