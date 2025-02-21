@@ -276,6 +276,9 @@ label:has(> span span .layer-separator) {
         top: 0;
         background: lightgrey;
     }
+    ol {
+        padding-inline-start: 0;
+    }
 }
 
 .leaflet-searchbox-autocomplete .leaflet-searchbox-autocomplete-item {

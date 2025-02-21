@@ -17,6 +17,9 @@ window.onload = function() {
     renderMapsTable();
 }
 
+// Фильтрация массива. Оставляем только карты, соответствующие критерию запроса (есди он задан).
+oMaps = oMaps.filter(m => (m.layer !== undefined));
+
 // Ссылка на тело таблицы
 const tbody = document.querySelector('.o-main-table tbody');
 
@@ -35,7 +38,7 @@ function renderMapsTable() {
         td(row, safe(map.info));
         td(row, map.area.toFixed(2));
         td(row, buildGpsLinks(map));
-        td(row, authorLabel(authors[map.author]));
+        td(row, buildAuthors(map));
         td(row, buildOwners(map));
         td(row, map.types);
         tbody.appendChild(row);

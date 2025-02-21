@@ -528,8 +528,8 @@ function buildMap(m) {
     if (THE_AUTHOR_PARAM) {
         if (Array.isArray(m.author)) {
             let own = false;
-            for (const o of m.author) {
-                if (THE_AUTHOR_PARAM === o) {
+            for (const a of m.author) {
+                if (THE_AUTHOR_PARAM === a) {
                     own = true; break;
                 }
             }
@@ -720,20 +720,11 @@ function buildPopupText(m, latLngs) {
     // автор-составитель
     if (m.author) {
         if (Array.isArray(m.author)) {
-            result += 'Авторы-составители:<ol>'
-            for (const a of m.author) {
-                if (authors[a]) {
-                    result += '<li>' + authorLabel(authors[a]) + '</li>';
-                    populateAuthor(m, a);
-                }
-            }
-            result += '</ol>'
+            result += 'Авторы-составители:';
         } else {
-            if (authors[m.author]) {
-                result += 'Автор-составитель: ' + authorLabel(authors[m.author]) + '<br />';
-                populateAuthor(m, m.author);
-            }
+            result += 'Автор-составитель: ';
         }
+        result += buildAuthors(m);
     }
 
     // владелец
@@ -783,6 +774,24 @@ function buildPopupText(m, latLngs) {
         result += '</div>';
     }
 
+    return result;
+}
+
+function buildAuthors(m) {
+    let result = '';
+    if (Array.isArray(m.author)) {
+        result += '<ol>'
+        for (const a of m.author) {
+            if (authors[a]) {
+                result += '<li>' + authorLabel(authors[a]) + '</li>';
+            }
+        }
+        result += '</ol>'
+    } else {
+        if (authors[m.author]) {
+            result += authorLabel(authors[m.author]) + '<br />';
+        }
+    }
     return result;
 }
 
