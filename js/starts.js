@@ -79,5 +79,10 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/Knots/match-66.html" target="_blank">Зимний матч городов СССР</a>',
         icon: 'meet_1966.jpg'
     },
+    USSR_V_1971: {
+        short: 'Всесоюзные\'1971',
+        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-71.html" target="_blank">Пятые Всесоюзные соревнования</a>',
+        icon: '1971.jpg'
+    },
 };
 
