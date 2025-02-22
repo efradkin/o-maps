@@ -777,7 +777,7 @@ function buildPopupText(m, latLngs) {
     return result;
 }
 
-function buildAuthors(m) {
+function buildAuthors(m, withIcon) {
     let result = '';
     if (Array.isArray(m.author)) {
         result += '<ol>'
@@ -789,13 +789,16 @@ function buildAuthors(m) {
         result += '</ol>'
     } else {
         if (authors[m.author]) {
+            if (withIcon && authors[m.author].icon) {
+                result += '<img src="./logo/' + authors[m.author].icon + '" alt="" class="sheet-icon" /> ';
+            }
             result += authorLabel(authors[m.author]) + '<br />';
         }
     }
     return result;
 }
 
-function buildOwners(m) {
+function buildOwners(m, withIcon) {
     let result = '';
     if (Array.isArray(m.owner)) {
         result += '<ol>'
@@ -807,6 +810,9 @@ function buildOwners(m) {
         result += '</ol>'
     } else {
         if (owners[m.owner]) {
+            if (withIcon && owners[m.owner].icon) {
+                result += '<img src="./logo/' + owners[m.owner].icon + '" alt="" class="sheet-icon" /> ';
+            }
             result += owners[m.owner].name + '<br />';
         }
     }

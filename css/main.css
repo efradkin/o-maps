@@ -280,6 +280,10 @@ label:has(> span span .layer-separator) {
         padding-inline-start: 0;
     }
 }
+.sheet-icon {
+    width: 20px;
+    vertical-align: top;
+}
 
 .leaflet-searchbox-autocomplete .leaflet-searchbox-autocomplete-item {
     padding: 3px 0px 3px 0;
