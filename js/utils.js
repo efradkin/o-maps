@@ -268,6 +268,14 @@ function selectMapRegion(region, prefix) {
     }
 }
 
+function selectStart(start) {
+    let url = location.href.split('?')[0];
+    if (start !== 'all') {
+        url += '?start=' + start;
+    }
+    location.href = url;
+}
+
 function pushGroupToMap(m, group) {
     if (group._leaflet_id) {
         m.groups.push(group._leaflet_id.toString());

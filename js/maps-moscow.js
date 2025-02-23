@@ -2011,7 +2011,7 @@ let moscowMaps = [
     {
         name: 'Ульяновский лесопарк',
         year: 2024,
-        info: 'Аэророгейн.',
+        start: 'AERO',
         url: './maps/moscow/ulianovsky_aerorogaine_2024.webp',
         link: './original_maps/moscow/ulianovsky_aerorogaine_2024_full.jpg',
         bounds: [[55.66194952013165, 37.21429824829102], [55.661901105195454, 37.32699394226075], [55.6090447272758, 37.21532821655274]],
@@ -2021,6 +2021,7 @@ let moscowMaps = [
     {
         name: 'Московский',
         year: 2024,
+        start: 'AERO',
         info: 'Аэророгейн 2.0.',
         url: './maps/moscow/moskovsky_aerorogaine_2024.webp',
         link: './original_maps/moscow/moskovsky_aerorogaine_2024_full.jpg',
@@ -2031,6 +2032,7 @@ let moscowMaps = [
     {
         name: 'Валуевский лесопарк',
         year: 2024,
+        start: 'AERO',
         info: 'Аэророгейн 3.0.',
         url: './maps/moscow/valuevsky_aerorogaine_2024.webp',
         link: './original_maps/moscow/valuevsky_aerorogaine_2024_full.jpg',
@@ -2127,6 +2129,7 @@ let moscowMaps = [
         bounds: [[56.14507134774327, 37.69048690795899], [56.12297419573332, 37.87553787231446], [56.04510266360655, 37.652721405029304]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/18492/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['WINTER','ROGAINE'],
     },
     {
@@ -3025,6 +3028,7 @@ let moscowMaps = [
         bounds: [[55.06008511526805, 36.599750518798835], [55.030678612630474, 36.86222076416016], [54.93345430690937, 36.559066772460945]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/6062/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {
@@ -3035,6 +3039,7 @@ let moscowMaps = [
         bounds: [[55.343398963927726, 36.10605239868165], [55.32650773003607, 36.261405944824226], [55.239496770821845, 36.06983184814454]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/8091/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {
@@ -3046,6 +3051,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/10989/',
         author: 'JAKMV_A',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {
@@ -3056,6 +3062,7 @@ let moscowMaps = [
         bounds: [[56.10603401776644, 37.90952682495118], [56.09387460519971, 38.025226593017585], [56.012201885145544, 37.87725448608399]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/9057/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['WINTER','ROGAINE'],
     },
     {
@@ -3322,6 +3329,7 @@ let moscowMaps = [
         bounds: [[56.14181975002501, 37.3172950744629], [56.118620229333956, 37.51865386962891], [56.065040501043725, 37.2872543334961]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/12099/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['WINTER','ROGAINE'],
     },
     {
@@ -3332,6 +3340,7 @@ let moscowMaps = [
         bounds: [[56.38335907941095, 37.50629425048829], [56.3690532533311, 37.62577056884766], [56.288202986946196, 37.46955871582032]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/13489/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {
@@ -3342,6 +3351,7 @@ let moscowMaps = [
         bounds: [[55.88691340894152, 37.967548370361335], [55.8611037949086, 38.18023681640626], [55.79906175679596, 37.934846878051765]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/13970/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {
@@ -3352,6 +3362,7 @@ let moscowMaps = [
         bounds: [[56.31663192612966, 37.27952957153321], [56.294728751038605, 37.46028900146485], [56.21033196468292, 37.23936080932618]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/14097/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {
@@ -3362,6 +3373,7 @@ let moscowMaps = [
         bounds: [[56.171456492543925, 38.044281005859375], [56.14440192363976, 38.26847076416016], [56.06791530019818, 38.00359725952149]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/16726/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {
@@ -3372,6 +3384,7 @@ let moscowMaps = [
         bounds: [[55.74663224930153, 38.13766479492188], [55.72005264329601, 38.35601806640626], [55.64621151258021, 38.10110092163087]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/17084/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {
@@ -3382,6 +3395,7 @@ let moscowMaps = [
         bounds: [[56.10938436201977, 38.60492706298829], [56.079891322549386, 38.84490966796876], [55.93304863776238, 38.53866577148438]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19325/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {
@@ -3392,6 +3406,7 @@ let moscowMaps = [
         bounds: [[55.9385292592098, 38.377819061279304], [55.91592872294483, 38.562097549438484], [55.834843217637676, 38.33799362182618]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19955/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {
@@ -3402,6 +3417,7 @@ let moscowMaps = [
         bounds: [[56.265473202335386, 37.82146453857422], [56.24420839313321, 37.99192428588867], [56.15635417078612, 37.77872085571289]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20293/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {
@@ -3412,6 +3428,7 @@ let moscowMaps = [
         bounds: [[55.94266325004071, 38.14538955688477], [55.92372018364429, 38.30177307128907], [55.85879164919982, 38.11337471008301]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20839/',
         owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
     },
     {

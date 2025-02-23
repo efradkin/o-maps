@@ -52,6 +52,15 @@
             <option value="srb">Белград</option>
             <option value="all">Все регионы вместе</option>
         </select>
+
+        <select id="start_selector" onchange="selectStart(this.value)">
+            <option value="all">все</option>
+            <option value="INCR">Инакор</option>
+            <option value="LESKAR">Лесная карусель</option>
+            <option value="KMPT_ROGAINE">Компот-рогейн</option>
+            <option value="AERO">Аэророгейн</option>
+        </select>
+    </h1>
     </h1>
 
     <div class="o-sheet-wrapper">
@@ -99,4 +108,9 @@
     <script src="js/main.js"></script>
     <script src="js/sheet.js"></script>
 </body>
+<script type="text/javascript">
+    if (START_NAME_PARAM) {
+        document.getElementById('start_selector').value = START_NAME_PARAM;
+    }
+</script>
 </html>

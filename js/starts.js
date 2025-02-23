@@ -54,16 +54,6 @@ let starts = {
         name: '<a href="https://vk.com/mbrosok" target="_blank">Марш-Бросок</a>',
         icon: 'mb.jpg'
     },
-    INCR: {
-        short: 'Инакор',
-        name: 'Инакор — интернет активное ориентирование',
-        icon: 'inacor.jpg'
-    },
-    LESKAR: {
-        short: 'Лесная карусель',
-        name: 'Лесная карусель',
-        icon: 'les_kar.jpg'
-    },
     KZNTSVA: {
         short: 'Памяти Кузнецова',
         name: 'Памяти Сергея Кузнецова',
@@ -83,6 +73,27 @@ let starts = {
         short: 'Всесоюзные\'1971',
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-71.html" target="_blank">Пятые Всесоюзные соревнования</a>',
         icon: '1971.jpg'
+    },
+    /* --- МОСКВА --- */
+    INCR: {
+        short: 'Инакор',
+        name: 'Инакор — интернет активное ориентирование',
+        icon: 'inacor.jpg'
+    },
+    LESKAR: {
+        short: 'Лесная карусель',
+        name: 'Лесная карусель',
+        icon: 'les_kar.jpg'
+    },
+    KMPT_ROGAINE: {
+        short: 'Компот-рогейн',
+        name: 'Компот-рогейн',
+        icon: 'kmpt-rogaine.jpg'
+    },
+    AERO: {
+        short: 'Аэророгейн',
+        name: 'Аэророгейн',
+        icon: 'aero.jpg'
     },
 };
 

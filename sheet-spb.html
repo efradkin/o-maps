@@ -52,6 +52,25 @@
             <option value="srb">Белград</option>
             <option value="all">Все регионы вместе</option>
         </select>
+
+        <select id="start_selector" onchange="selectStart(this.value)">
+            <option value="all">все</option>
+            <option value="NA">Невский Азимут</option>
+            <option value="YM">Яркий Мир</option>
+            <option value="MMS">Мемориал Михаила Святкина</option>
+            <option value="KKP">Камни Карельского Перешейка</option>
+            <option value="ST">Спринт-Тур</option>
+            <option value="100X24">100x24</option>
+            <option value="RFAR">Redfox Adventure Race</option>
+            <option value="KKM">Кубок Коротких Маршрутов</option>
+            <option value="BA">BikeAdventure</option>
+            <option value="TA">TrailAdventure</option>
+            <option value="MB">Марш-Бросок</option>
+            <option value="KZNTSVA">Памяти Сергея Кузнецова</option>
+            <option value="KS">Карельские скалы</option>
+            <option value="MEET_1966">Зимний матч городов СССР'1966</option>
+            <option value="USSR_V_1971">Пятые Всесоюзные соревнования</option>
+        </select>
     </h1>
 
     <div class="o-sheet-wrapper">
@@ -97,6 +116,11 @@
     <script src="js/maps-rogaine-beketov.js"></script>
     <script src="js/maps-rogaine-kkm.js"></script>
     <script src="js/maps-rogaine-rfar.js"></script>
+    <script src="js/maps-starts-mms.js"></script>
+    <script src="js/maps-starts-ym.js"></script>
+    <script src="js/maps-starts-na.js"></script>
+    <script src="js/maps-starts-ks.js"></script>
+    <script src="js/maps-starts-psk.js"></script>
 
     <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
@@ -108,6 +132,11 @@
         let loadImagesRequired = false;
 
         let oMaps = [
+            ...pskStartsMaps,
+            ...ymStartsMaps,
+            ...ksStartsMaps,
+            ...mmsStartsMaps,
+            ...naStartsMaps,
             ...rogaineRfarMaps,
             ...rogaineBeketovMaps,
             ...rogaineKkmMaps,
@@ -133,4 +162,9 @@
     <script src="js/main.js"></script>
     <script src="js/sheet.js"></script>
 </body>
+<script type="text/javascript">
+     if (START_NAME_PARAM) {
+         document.getElementById('start_selector').value = START_NAME_PARAM;
+     }
+</script>
 </html>

@@ -70,6 +70,14 @@ html, body, #map {
     padding: 5px;
     border-radius: 5px;
 }
+#start_selector {
+    position: relative;
+    top: -6px;
+    left: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
 #counter {
     text-align: center;
     font-size: 40px;
