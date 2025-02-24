@@ -2,6 +2,7 @@ let naStartsMaps = [
     /* --- Невский Азимут --- */
     {
         name: 'Первомайское, Семейные оз',
+        region: 'starts',
         start: 'NA',
         year: 2012,
         info: '<a href="https://o-site.spb.ru/race.php?id=12061517_NA" target="_blank">Инфо и результаты.</a>',
@@ -14,6 +15,7 @@ let naStartsMaps = [
     },
     {
         name: 'Журавлёво, Раздельные оз',
+        region: 'starts',
         start: 'NA',
         year: 2013,
         info: '14.06, спринт. <a href="https://o-site.spb.ru/race.php?id=13061416_NA" target="_blank">Инфо и результаты.</a>',
@@ -25,6 +27,7 @@ let naStartsMaps = [
     },
     {
         name: 'Журавлёво, Раздельные оз',
+        region: 'starts',
         start: 'NA',
         year: 2013,
         info: '15.06, удлинённая дистанция. <a href="https://o-site.spb.ru/race.php?id=13061416_NA" target="_blank">Инфо и результаты.</a>',
@@ -36,6 +39,7 @@ let naStartsMaps = [
     },
     {
         name: 'Журавлёво, Раздельные оз',
+        region: 'starts',
         start: 'NA',
         year: 2013,
         info: '16.06, средняя дистанция. <a href="https://o-site.spb.ru/race.php?id=13061416_NA" target="_blank">Инфо и результаты.</a>',
@@ -47,6 +51,7 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, Дедово оз',
+        region: 'starts',
         start: 'NA',
         year: 2014,
         info: '12.06, спринт. <a href="https://o-site.spb.ru/race.php?id=14061215-NA" target="_blank">Инфо и результаты.</a>',
@@ -59,6 +64,7 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, Дедово оз',
+        region: 'starts',
         start: 'NA',
         year: 2014,
         info: '14.06, удлинённая дистанция. <a href="https://o-site.spb.ru/race.php?id=14061215-NA" target="_blank">Инфо и результаты.</a>',
@@ -71,6 +77,7 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, Дедово оз',
+        region: 'starts',
         start: 'NA',
         year: 2014,
         info: '15.06, средняя дистанция. <a href="https://o-site.spb.ru/race.php?id=14061215-NA" target="_blank">Инфо и результаты.</a>',
@@ -83,6 +90,7 @@ let naStartsMaps = [
     },
     {
         name: 'Борисово, Долгое оз',
+        region: 'starts',
         start: 'NA',
         year: 2015,
         info: '12.06, спринт 25. <a href="https://o-site.spb.ru/race.php?id=15061215_NA" target="_blank">Инфо и результаты.</a>',
@@ -95,6 +103,7 @@ let naStartsMaps = [
     },
     {
         name: 'Борисово, Долгое оз',
+        region: 'starts',
         start: 'NA',
         year: 2015,
         info: '13.06, классика 60. <a href="https://o-site.spb.ru/race.php?id=15061215_NA" target="_blank">Инфо и результаты.</a>',
@@ -107,6 +116,7 @@ let naStartsMaps = [
     },
     {
         name: 'Борисово, Долгое оз',
+        region: 'starts',
         start: 'NA',
         year: 2015,
         info: '14.06, классика 40. <a href="https://o-site.spb.ru/race.php?id=15061215_NA" target="_blank">Инфо и результаты.</a>',
@@ -119,6 +129,7 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, р Волочаевка',
+        region: 'starts',
         start: 'NA',
         year: 2016,
         info: '17.06, спринт 25. <a href="https://o-site.spb.ru/race.php?id=16061719_" target="_blank">Инфо и результаты.</a>',
@@ -131,6 +142,7 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, р Волочаевка',
+        region: 'starts',
         start: 'NA',
         year: 2016,
         info: '18.06, классика 60. <a href="https://o-site.spb.ru/race.php?id=16061719_" target="_blank">Инфо и результаты.</a>',
@@ -143,6 +155,7 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, р Волочаевка',
+        region: 'starts',
         start: 'NA',
         year: 2016,
         info: '19.06, классика 40. <a href="https://o-site.spb.ru/race.php?id=16061719_" target="_blank">Инфо и результаты.</a>',
@@ -155,6 +168,7 @@ let naStartsMaps = [
     },
     {
         name: 'Ягодное, Раздельные оз',
+        region: 'starts',
         start: 'NA',
         year: 2017,
         info: '9.06, спринт 25. <a href="https://o-site.spb.ru/race.php?id=17060911" target="_blank">Инфо и результаты.</a>',
@@ -166,6 +180,7 @@ let naStartsMaps = [
     },
     {
         name: 'Ягодное, Раздельные оз',
+        region: 'starts',
         start: 'NA',
         year: 2017,
         info: '10.06, классика 60. <a href="https://o-site.spb.ru/race.php?id=17060911" target="_blank">Инфо и результаты.</a>',
@@ -177,6 +192,7 @@ let naStartsMaps = [
     },
     {
         name: 'Ягодное, Раздельные оз',
+        region: 'starts',
         start: 'NA',
         year: 2017,
         info: '11.06, классика 40. <a href="https://o-site.spb.ru/race.php?id=17060911" target="_blank">Инфо и результаты.</a>',
@@ -188,6 +204,7 @@ let naStartsMaps = [
     },
     {
         name: 'Лемболово',
+        region: 'starts',
         start: 'NA',
         year: 2018,
         info: '9.06, спринт. <a href="https://o-site.spb.ru/race.php?id=18060911" target="_blank">Инфо и результаты.</a>',
@@ -200,6 +217,7 @@ let naStartsMaps = [
     },
     {
         name: 'Лемболово',
+        region: 'starts',
         start: 'NA',
         year: 2018,
         info: '10.06, классика. <a href="https://o-site.spb.ru/race.php?id=18060911" target="_blank">Инфо и результаты.</a>',
@@ -212,6 +230,7 @@ let naStartsMaps = [
     },
     {
         name: 'Лемболово',
+        region: 'starts',
         start: 'NA',
         year: 2018,
         info: '11.06, классика. <a href="https://o-site.spb.ru/race.php?id=18060911" target="_blank">Инфо и результаты.</a>',
@@ -224,6 +243,7 @@ let naStartsMaps = [
     },
     {
         name: 'Луга, р Свинечная',
+        region: 'starts',
         start: 'NA',
         year: 2019,
         info: '7.06, спринт 20. <a href="https://o-site.spb.ru/race.php?id=190607" target="_blank">Инфо и результаты.</a>',
@@ -235,6 +255,7 @@ let naStartsMaps = [
     },
     {
         name: 'Луга, р Свинечная',
+        region: 'starts',
         start: 'NA',
         year: 2019,
         info: '8.06, классика 50. <a href="https://o-site.spb.ru/race.php?id=190607" target="_blank">Инфо и результаты.</a>',
@@ -246,6 +267,7 @@ let naStartsMaps = [
     },
     {
         name: 'Луга, р Свинечная',
+        region: 'starts',
         start: 'NA',
         year: 2019,
         info: '9.06, классика 40. <a href="https://o-site.spb.ru/race.php?id=190607" target="_blank">Инфо и результаты.</a>',
@@ -257,6 +279,7 @@ let naStartsMaps = [
     },
     {
         name: 'Колосково',
+        region: 'starts',
         start: 'NA',
         year: 2023,
         info: '10.06, спринт 20. <a href="https://o-site.spb.ru/race.php?id=230612" target="_blank">Инфо и результаты.</a>',
@@ -269,6 +292,7 @@ let naStartsMaps = [
     },
     {
         name: 'Колосково',
+        region: 'starts',
         start: 'NA',
         year: 2023,
         info: '11.06, классика 50. <a href="https://o-site.spb.ru/race.php?id=230612" target="_blank">Инфо и результаты.</a>',
@@ -281,6 +305,7 @@ let naStartsMaps = [
     },
     {
         name: 'Колосково',
+        region: 'starts',
         start: 'NA',
         year: 2023,
         info: '12.06, классика 40. <a href="https://o-site.spb.ru/race.php?id=230612" target="_blank">Инфо и результаты.</a>',
