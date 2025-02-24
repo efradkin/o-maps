@@ -143,7 +143,7 @@ function buildAuthorsTable() {
         let key = authorsEntries[i][0];
         let author = authorsEntries[i][1];
         if (!author.count) {
-            break;
+            continue;
         }
         let row = table.insertRow(i + 1);
         let cell0 = row.insertCell(0);

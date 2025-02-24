@@ -788,6 +788,7 @@ function buildAuthors(m, withIcon) {
                     result += '<img src="./logo/' + authors[a].icon + '" alt="" class="sheet-icon" /> ';
                 }
                 result += authorLabel(authors[a]) + '</li>';
+                populateAuthor(m, a);
             }
         }
         result += '</ol>'
@@ -797,6 +798,7 @@ function buildAuthors(m, withIcon) {
                 result += '<img src="./logo/' + authors[m.author].icon + '" alt="" class="sheet-icon" /> ';
             }
             result += authorLabel(authors[m.author]) + '<br />';
+            populateAuthor(m, m.author);
         }
     }
     return result;
