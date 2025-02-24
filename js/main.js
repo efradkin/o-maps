@@ -783,7 +783,12 @@ function buildAuthors(m, withIcon) {
         result += '<ol>'
         for (const a of m.author) {
             if (authors[a]) {
-                result += '<li>' + authorLabel(authors[a]) + '</li>';
+                result += '<li>';
+                if (withIcon && authors[a].icon) {
+                    console.log(authors[a])
+                    result += '<img src="./logo/' + authors[a].icon + '" alt="" class="sheet-icon" /> ';
+                }
+                result += authorLabel(authors[a]) + '</li>';
             }
         }
         result += '</ol>'
