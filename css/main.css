@@ -287,6 +287,13 @@ label:has(> span span .layer-separator) {
     ol {
         padding-inline-start: 0;
     }
+    table.o-sheet th[data-order="desc"]::after {
+        content: "▼";
+    }
+
+    table.o-sheet th[data-order="asc"]::after {
+        content: "▲";
+    }
 }
 .sheet-icon {
     width: 20px;

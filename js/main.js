@@ -785,7 +785,6 @@ function buildAuthors(m, withIcon) {
             if (authors[a]) {
                 result += '<li>';
                 if (withIcon && authors[a].icon) {
-                    console.log(authors[a])
                     result += '<img src="./logo/' + authors[a].icon + '" alt="" class="sheet-icon" /> ';
                 }
                 result += authorLabel(authors[a]) + '</li>';

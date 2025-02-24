@@ -74,6 +74,12 @@ function buildStart(m) {
 
 function sortMapsTable() {
     document.body.style.cursor = 'wait';
+
+    const sortable = document.querySelector('.o-sheet th.sortable[data-order="asc"], .o-sheet th.sortable[data-order="desc"]');
+    if (sortable !== this) {
+        sortable.dataset.order = '';
+    }
+
     const isAscending = this.dataset.order === 'asc';
     switch (this.dataset.sort) {
         case 'name':
