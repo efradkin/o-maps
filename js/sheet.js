@@ -57,7 +57,7 @@ function buildName(m) {
     if (m.icon) {
         result += '<img src="./logo/' + m.icon + '" alt="" class="sheet-icon" /> ';
     }
-    result += '<a href="' + mapLink(m.url) + '" target="_blank">' + m.name + '</a>';
+    result += '<a href="' + mapLink(m.url, m.region) + '" target="_blank">' + m.name + '</a>';
     return result;
 }
 

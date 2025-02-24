@@ -6,8 +6,11 @@ function isMapHidden(m) {
     return m.hidden || (m.owner && m.owner === 'NW');
 }
 
-function mapLink(url) {
+function mapLink(url, region) {
     let pathname = location.pathname;
+    if (region) {
+        pathname = '/' + region + '.html';
+    } else
     if (pathname.includes('charts-')) {
         pathname = pathname.split('charts-').join('');
     }
