@@ -12,6 +12,7 @@ const SHOW_ALL_LABEL = 'Показать все старты';
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
+let schoolGroup = L.layerGroup([]);
 let naGroup = L.layerGroup([]);
 let ymGroup = L.layerGroup([]);
 let mmsGroup = L.layerGroup([]);
@@ -26,6 +27,7 @@ let rfarGroup = L.layerGroup([]);
 let sto24Group = L.layerGroup([]);
 
 let allOrientGroups = [
+    schoolGroup,
     naGroup,
     ymGroup,
     mmsGroup,
@@ -76,6 +78,7 @@ if (mapElement) {
 
     if (START_NAME_PARAM) {
         switch (START_NAME_PARAM) {
+            case 'SCHOOL': activeLayers.push(osmLayer, schoolGroup); break;
             case 'NA': activeLayers.push(osmLayer, naGroup); break;
             case 'YM': activeLayers.push(osmLayer, ymGroup); break;
             case 'KKP': activeLayers.push(osmLayer, kkpGroup); break;
@@ -92,7 +95,7 @@ if (mapElement) {
         }
     } else {
         activeLayers.push(
-            osmLayer, naGroup, ymGroup, kkpGroup, mmsGroup, pskGroup, ksGroup, stGroup // rfarGroup, sto24Group,
+            osmLayer, schoolGroup, naGroup, ymGroup, kkpGroup, mmsGroup, pskGroup, ksGroup, stGroup // rfarGroup, sto24Group,
             //...Object.values(ageGroups),
         );
     }
@@ -107,6 +110,7 @@ function buildOverlayMapsContents() {
         "Карельские скалы": ksGroup,
         "Памяти Кузнецова": pskGroup,
         "Спринт-Тур": stGroup,
+        "Школы": schoolGroup,
         "RFAR": rfarGroup,
         "100x24": sto24Group,
         "ККМ": kkmGroup,
@@ -121,6 +125,7 @@ function allocateMap(m) {
         m.groups = [];
 
         switch (m.start) {
+            case 'SCHOOL': pushGroupToMap(m, schoolGroup); break;
             case 'NA': pushGroupToMap(m, naGroup); break;
             case 'YM': pushGroupToMap(m, ymGroup); break;
             case 'KKP': pushGroupToMap(m, kkpGroup); break;

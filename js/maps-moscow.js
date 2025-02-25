@@ -2711,6 +2711,7 @@ let moscowMaps = [
     },
     {
         name: 'Павловская слобода',
+        year: 1997,
         url: './maps/moscow/pavlovska_sloboda.webp',
         link: './original_maps/moscow/pavlovska_sloboda_full.jpg',
         bounds: [[55.85325157365692, 37.07975864410401], [55.84833710649609, 37.12477684020997], [55.822140226280055, 37.070660591125495]],

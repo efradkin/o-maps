@@ -160,6 +160,7 @@ let authors = {
     },
     KBZRV: { name: 'Кобзарёв Александр' },
     KCHTV: { name: 'Кочетов А.' },
+    KHFZVA: { name: 'Хафизова Инга.' },
     KHDNKCH: { name: 'Худеньких Ю.' },
     KLCHTSKA: { name: 'Кульчицкая Е.' },
     KMN_I: { name: 'Комин И.' },
@@ -215,6 +216,7 @@ let authors = {
     LVRV_R: { name: 'Лавров Роман' },
     MDVDKN: { name: 'Медведкин Г.' },
     MKHLV_A: { name: 'Михайлов Александр' },
+    MKSHN_A: { name: 'Микшин А.' },
     MKHLV_B: {
         name: 'Михайлов Борис',
         about: 'https://o-site.spb.ru/history/Peoples/bam.html'

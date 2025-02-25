@@ -642,14 +642,6 @@ let parkMaps = [
     },
 */
     {
-        name: 'Муринский парк и САМПО',
-        year: 2012,
-        url: './maps/parks/murinsky_sampo_2012.webp',
-        bounds: [[60.03597031841169, 30.3663182258606], [60.03272285700718, 30.392239093780518], [60.023857698834135, 30.36056756973267]],
-        author: ['SHRNN','MSPN'],
-        types: ['PARK'],
-    },
-    {
         name: 'Муринский парк, запад',
         year: 2010,
         url: './maps/parks/murinsky_north_2010.webp',
@@ -753,7 +745,7 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
-        name: 'Павловск, парк Мариенталь',
+        name: 'парк Мариенталь',
         year: 2019,
         url: './maps/parks/pavlovsk_mariental_2022.webp',
         link: './original_maps/parks/pavlovsk_mariental_2022_full.jpg',
@@ -763,17 +755,40 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
-        name: 'Павловск, сад Миранда',
+        name: 'Митрополичий сад Александро-Невской Лавры',
+        year: 2015,
+        start: 'SCHOOL',
+        info: '14.05. <a href="https://o-site.spb.ru/race.php?id=150514" target="_blank">Инфо и результаты.</a>',
+        url: './maps/parks/lavra_2015.webp',
+        link: './original_maps/parks/lavra_2015_full.gif',
+        bounds: [[59.92140929654905, 30.379428863525394], [59.92140929654905, 30.387110710144047], [59.91788169358888, 30.37955760955811]],
+        types: ['PARK'],
+    },
+    {
+        name: 'Муринский парк и САМПО, школа №150',
+        year: 2012,
+        start: 'SCHOOL',
+        info: '19.10.2016. <a href="https://o-site.spb.ru/race.php?id=161019s" target="_blank">Инфо и результаты.</a>',
+        url: './maps/parks/murinsky_sampo_2012.webp',
+        link: './original_maps/city/school_150_2016_full.gif',
+        bounds: [[60.03597031841169, 30.3663182258606], [60.03272285700718, 30.392239093780518], [60.023857698834135, 30.36056756973267]],
+        author: ['SHRNN','MSPN'],
+        types: ['PARK'],
+    },
+    {
+        name: 'Сад Миранда, Купальный пруд',
         year: 2022,
+        start: 'SCHOOL',
+        info: '15.05.2019. <a href="https://o-site.spb.ru/race.php?id=190515" target="_blank">Инфо и результаты.</a>',
         url: './maps/parks/pavlovsk_sad_miranda_2020.webp',
-        link: './original_maps/parks/pavlovsk_sad_miranda_2020_full.jpg',
+        link: ['./original_maps/parks/school_638_2019_full.gif','./original_maps/parks/pavlovsk_sad_miranda_2020_full.jpg'],
         bounds: [[59.690565139533554, 30.430455207824707], [59.690597626634556, 30.443093776702884], [59.68518267475988, 30.430562496185306]],
         author: 'SHRNN',
         owner: 'EGRV_EGR',
         types: ['PARK'],
     },
     {
-        name: 'Пушкин, Буферный парк',
+        name: 'Буферный парк',
         year: 2018,
         url: './maps/parks/pushkin_buferny_2018.webp',
         link: './original_maps/parks/pushkin_buferny_2018_full.jpg',
@@ -783,7 +798,7 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
-        name: 'Пушкин, Баболовский парк',
+        name: 'Баболовский парк',
         year: 2019,
         url: './maps/parks/pushkin_babolovsky_2019.webp',
         link: './original_maps/parks/pushkin_babolovsky_2019_full.jpg',
@@ -794,7 +809,7 @@ let parkMaps = [
     },
 /*
     {
-        name: 'Пушкин, Нижний (Отдельный) парк',
+        name: 'Нижний (Отдельный) парк',
         year: 2007,
         url: './maps/parks/pushkin_nizhny_2007.webp',
         link: './original_maps/parks/pushkin_nizhny_2007_full.jpg',
@@ -804,7 +819,7 @@ let parkMaps = [
     },
 */
     {
-        name: 'Пушкин, Нижний (Отдельный) парк',
+        name: 'Нижний (Отдельный) парк',
         year: 2019,
         url: './maps/parks/pushkin_nizhny_2019.webp',
         link: './original_maps/parks/pushkin_nizhny_2019_full.jpg',
@@ -814,7 +829,7 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
-        name: 'Пушкин, Александровский парк',
+        name: 'Александровский парк',
         year: 2024,
         url: './maps/parks/aleksandrovsky_park_2024.webp',
         bounds: [[59.72566530580253, 30.378935337066654], [59.72360988184809, 30.39822578430176], [59.71574401437546, 30.374794006347656]],
@@ -823,7 +838,7 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
-        name: 'Сестрорецк, парк "Дубки"',
+        name: 'парк "Дубки"',
         year: 1985,
         url: './maps/parks/sestroretsk_dubki_1985.webp',
         link: './original_maps/parks/sestroretsk_dubki_1985_full.jpg',
@@ -832,7 +847,7 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
-        name: 'Сестрорецк, парк "Дубки"',
+        name: 'парк "Дубки"',
         year: 2020,
         url: './maps/parks/sestroretsk_dubki_2020.webp',
         link: './original_maps/parks/sestroretsk_dubki_2020_full.jpg',
@@ -842,14 +857,14 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
-        name: 'Сестрорецк, сквер Генерала Андреева',
+        name: 'сквер Генерала Андреева',
         year: 2023,
         url: './maps/parks/sestroretsk_skver_generala_andreeva_2023.webp',
         bounds: [[60.109536630930116, 29.96332168579102], [60.10845124409252, 29.972677230834964], [60.106504943636345, 29.96155142784119]],
         types: ['PARK'],
     },
     {
-        name: 'Сестрорецк, сквер Пограничников',
+        name: 'сквер Пограничников',
         url: './maps/parks/sestroretsk_skver_pogranichnikov.webp',
         bounds: [[60.11275515399254, 29.971089363098148], [60.110199608247775, 29.985723495483402], [60.105922100518434, 29.96630430221558]],
         types: ['PARK'],

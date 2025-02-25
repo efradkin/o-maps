@@ -74,6 +74,11 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-71.html" target="_blank">Пятые Всесоюзные соревнования</a>',
         icon: '1971.jpg'
     },
+    SCHOOL: {
+        short: 'Ориентирование в школу',
+        name: '<a href="https://spbof.ru/ru/projects/o-school" target="_blank">Спортивное ориентирование в школу</a>',
+        icon: 'school.jpg'
+    },
     /* --- МОСКВА --- */
     INCR: {
         short: 'Инакор',
