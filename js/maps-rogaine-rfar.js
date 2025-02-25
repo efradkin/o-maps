@@ -25,6 +25,17 @@ let rogaineRfarMaps = [
         types: ['ROGAINE'],
     },
     {
+        name: 'Барышево',
+        start: 'RFAR',
+        year: 2018,
+        url: './maps/rogaine/baryshevo_rfar_2018.webp',
+        link: './original_maps/rogaine/baryshevo_rfar_2018_full.gif',
+        bounds: [[60.89688561144072, 28.830528259277347], [60.838888705540725, 29.703254699707035], [60.66022792862133, 28.767700195312504]],
+        info: '<a href="https://adventure-race.redfox.ru/archive/archive_2018/" target="_blank">Инфо и результаты.</a>',
+        owner: 'RFAR',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Кузнечное',
         start: 'RFAR',
         year: 2019,
