@@ -85,7 +85,7 @@ let vyborgMaps = [
         info: 'Спринт.',
         url: './maps/forest/vyborg/kkp_prudy_2017_06_19.webp',
         bounds: [[61.04638331323814, 29.07791376113892], [61.0448978388272, 29.09587383270264], [61.036077050185696, 29.07387971878052]],
-        author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V'],
+        author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V','KUZNTSV_A'],
         owner: 'NW',
         types: [],
         restricted: 'с 01.10.2024 по 16.06.2025'
