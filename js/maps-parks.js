@@ -642,6 +642,14 @@ let parkMaps = [
     },
 */
     {
+        name: 'Муринский парк и САМПО',
+        year: 2012,
+        url: './maps/parks/murinsky_sampo_2012.webp',
+        bounds: [[60.03597031841169, 30.3663182258606], [60.03272285700718, 30.392239093780518], [60.023857698834135, 30.36056756973267]],
+        author: ['SHRNN','MSPN'],
+        types: ['PARK'],
+    },
+    {
         name: 'Муринский парк, запад',
         year: 2010,
         url: './maps/parks/murinsky_north_2010.webp',
