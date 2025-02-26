@@ -3903,14 +3903,15 @@ let moscowMaps = [
         owner: 'NLTV_D',
         types: ['CITY'],
     },
+/*
     {
         name: 'Большая Всехсвятская роща',
         year: 2025,
         url: './maps/moscow/vsehsvjatskaya_roscha_2025.webp',
-        link: './original_maps/moscow/vsehsvjatskaya_roscha_2025_full.jpg',
         bounds: [[55.81067504826267, 37.483935356140144], [55.81006010100851, 37.49219655990601], [55.8048025082996, 37.48221874237061]],
         author: ['DBRTSV_V','SKLV_V'],
         icon: 'malakhit.jpg',
         types: ['PARK'],
     },
+*/
 ];
