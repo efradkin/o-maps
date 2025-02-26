@@ -321,3 +321,16 @@ label:has(> span span .layer-separator) {
     margin: 20px;
     padding: 20px;
 }
+
+/* --- media --- */
+@media only screen and (max-width : 480px) {
+    .stat-body {
+        width: inherit;
+        height: inherit;
+        justify-items: normal;
+    }
+    .o-sheet-wrapper {
+         overflow-y: inherit;
+         height: inherit;
+    }
+}
