@@ -468,6 +468,7 @@ let authors = {
     SFRNV: { name: 'Сафронов Владимир' },
     SHGV: { name: 'Шигаев Анатолий' },
     SHRKHV: { name: 'Шорохов Сергей' },
+    SKLV_V: { name: 'Соколов Вячеслав' },
     SKRPKO_S: { name: 'Скрипко Сергей' },
     SMKN_S: { name: 'Симакин Сергей' },
     SMRNV_V: { name: 'Смирнов В.' },

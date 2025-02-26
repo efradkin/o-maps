@@ -24,7 +24,7 @@ let schoolMaps = [
         types: ['SPRINT','CITY'],
     },
     {
-        name: 'Сад Миранда, Купальный пруд',
+        name: 'Сад Миранда, Купальный пруд, школа 638',
         year: 2022,
         start: 'SCHOOL',
         info: '15.05.2019. <a href="https://o-site.spb.ru/race.php?id=190515" target="_blank">Инфо и результаты.</a>',
