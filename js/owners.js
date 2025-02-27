@@ -215,6 +215,10 @@ let owners = {
         name: '@ КСО Фрязино, +79057778820',
         icon: 'friazino.jpg'
     },
+    O_FRZNO: {
+        name: '@ <a href="https://www.o-fryazino.ru/" target="_blank">О-Фрязино</a>, 8-926-1514712',
+        icon: 'o-friazino.jpg'
+    },
     GRCHV_D: {
         name: '@ Дмитрий Грачев'
     },
