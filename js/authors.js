@@ -436,6 +436,7 @@ let authors = {
         about: 'https://rufso.ru/wp-content/uploads/2021/01/Костылев-ВВ.pdf'
     },
     KTNKO: { name: 'Китаенко В.' },
+    KZLV_V: { name: 'Козлов Владимир' },
     KZMN_R: { name: 'Кузьмин Рэм' },
     KZNN_O: { name: 'Казанин Олег' },
     LKN_A: { name: 'Лукин Андрей' },

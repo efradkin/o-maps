@@ -211,6 +211,10 @@ let owners = {
         name: '@ ФСО Москвы, 8 (962) 947 17-88',
         icon: 'fso_msk.jpg'
     },
+    FRZNO: {
+        name: '@ КСО Фрязино, +79057778820',
+        icon: 'friazino.jpg'
+    },
     GRCHV_D: {
         name: '@ Дмитрий Грачев'
     },
