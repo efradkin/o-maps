@@ -201,6 +201,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     KUZNTSVA_Z: { name: 'Кузнецова З.' },
+    KVLVA_O: { name: 'Ковалёва Ольга' },
     KZKV: { name: 'Казаков' },
     LMVA: { name: 'Ломова Ирина' },
     LPTV_Y: { name: 'Лаптев Ю.' },

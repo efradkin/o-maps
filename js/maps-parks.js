@@ -1205,4 +1205,14 @@ let parkMaps = [
         author: 'TMKN',
         types: ['PARK'],
     },
+    {
+        name: 'Сквер Конашевича',
+        year: 2024,
+        url: './maps/parks/konashevicha_2024.webp',
+        link: './original_maps/parks/konashevicha_2024_full.gif',
+        bounds: [[60.04961045558399, 30.362391471862797], [60.04897839777023, 30.368185043334964], [60.04721071421861, 30.361211299896244]],
+        author: 'KVLVA_O',
+        owner: 'ZBKVA',
+        types: ['SPRINT', 'PARK'],
+    },
 ];
