@@ -212,7 +212,7 @@ let owners = {
         icon: 'fso_msk.jpg'
     },
     FRZNO: {
-        name: '@ КСО Фрязино, +79057778820',
+        name: '@ <a href="https://vk.com/club151229251" target="_blank">КСО Фрязино</a>, +79057778820',
         icon: 'friazino.jpg'
     },
     O_FRZNO: {
