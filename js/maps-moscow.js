@@ -3856,6 +3856,14 @@ let moscowMaps = [
         types: ['PARK'],
     },
     {
+        name: 'Сутоки',
+        year: 2018,
+        url: './maps/moscow/sutoki_2018.webp',
+        bounds: [[56.015044640391245, 38.170516490936286], [56.0144209314178, 38.175580501556404], [56.01247777351321, 38.16972255706788]],
+        owner: 'O_FRZNO',
+        types: [],
+    },
+    {
         name: 'Щапово',
         year: 2023,
         url: './maps/moscow/schapovo_2023.webp',
