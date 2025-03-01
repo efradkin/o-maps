@@ -406,7 +406,6 @@ if (mapElement) {
                             tooltip: !wideScreen,
                             onChange: function (vals) {
                                 processYearSlider(years, vals);
-                                recalculateLayers();
                             }
                         });
                     }
@@ -464,6 +463,7 @@ if (mapElement) {
             }
         }
         syncMaps();
+        recalculateLayers();
     }
 
     let timelineEl = document.getElementById("timeline");
