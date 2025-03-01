@@ -406,6 +406,7 @@ if (mapElement) {
                             tooltip: !wideScreen,
                             onChange: function (vals) {
                                 processYearSlider(years, vals);
+                                recalculateLayers();
                             }
                         });
                     }
