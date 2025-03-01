@@ -457,6 +457,7 @@ let authors = {
     },
     NLTV_D: { name: 'Налётов Дмитрий' },
     OGRDNKV: { name: 'Огородников Борис' },
+    OGRZKV: { name: 'Огрызков Алексей' },
     OKN_V: {
         name: 'Окин Вячеслав',
         icon: 'turtle.jpg',
