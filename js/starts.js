@@ -74,6 +74,11 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-71.html" target="_blank">Пятые Всесоюзные соревнования</a>',
         icon: '1971.jpg'
     },
+    VWC_1995: {
+        short: 'VWC\'1995',
+        name: '<a href="https://o-site.spb.ru/history/VWC-95/index.html" target="_blank">Кубок Мира среди ветеранов</a>',
+        icon: 'vwc95.gif'
+    },
     SCHOOL: {
         short: 'Ориентирование в школу',
         name: '<a href="https://spbof.ru/ru/projects/o-school" target="_blank">Спортивное ориентирование в школу</a>',

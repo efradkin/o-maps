@@ -60,12 +60,23 @@ let vaskelovoMaps = [
         types: [],
     },
     {
+        name: 'Лемболово',
+        year: 1995,
+        url: './maps/forest/vaskelovo/lembolovo_1995.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_1995_full.jpg',
+        bounds: [[60.44788471566771, 30.31612873077393], [60.442465641714136, 30.40054321289063], [60.41150032383842, 30.30565738677979]],
+        author: 'CHGRVSKY_V',
+        start: 'VWC_1995',
+        types: [],
+    },
+    {
         name: 'Лемболово-Орехово',
         year: 1995,
         url: './maps/forest/vaskelovo/lembolovo_orekhovo_1995.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_1995_full.jpg',
         bounds: [[60.4479482150824, 30.235576629638675], [60.4409201932774, 30.3398609161377], [60.4233434866285, 30.22845268249512]],
         author: ['DBRTSV_V','KUZNTSV_V','CHGRVSKY_Y'],
+        start: 'VWC_1995',
         types: [],
     },
     {
