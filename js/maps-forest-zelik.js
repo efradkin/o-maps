@@ -13,7 +13,7 @@ let zelikMaps = [
     {
         name: 'Серово',
         year: 1974,
-        icon: 'bear_1974.jpg',
+        logo: 'bear_1974.jpg',
         url: './maps/forest/zelik/serovo_1974.webp',
         link: './original_maps/forest/zelik/serovo_1974_full.jpg',
         bounds: [[60.237595694635125, 29.50309753417969], [60.23780872762262, 29.564123153686527], [60.20298075456985, 29.50387001037598]],
@@ -309,7 +309,7 @@ let zelikMaps = [
     {
         name: 'Зеленогорск, "Прибой"',
         year: 1992,
-        icon: 'nevsky_azimut.jpg',
+        logo: 'nevsky_azimut.jpg',
         url: './maps/forest/zelik/zelenogorsk_priboy_1992.webp',
         link: './original_maps/forest/zelik/zelenogorsk_priboy_1992_full.jpg',
         bounds: [[60.22736848216193, 29.720420837402347], [60.22250943804349, 29.776210784912113], [60.19709428614133, 29.71140861511231]],

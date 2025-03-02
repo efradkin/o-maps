@@ -396,7 +396,6 @@ let rogaineMaps = [
     {
         name: 'Воейково',
         year: 2014,
-        major: true,
         info: 'Чемпионат СЗФО.',
         url: './maps/rogaine/voejkovo_2014.webp',
         link: './original_maps/rogaine/voejkovo_2014_full.jpg',

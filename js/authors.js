@@ -255,7 +255,7 @@ let authors = {
     OVCHNNKV: {
         name: 'Овчинников Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/yurov.html',
-        icon: 'ovchnkv.jpg'
+        logo: 'ovchnkv.jpg'
     },
     OZRV: { name: 'Озеров А.' },
     PKHMV: { name: 'Пахомов Сергей' },
@@ -453,14 +453,14 @@ let authors = {
     NDRF: { name: 'Найдорф В.' },
     NKRSV_S: {
         name: 'Некрасов Сергей',
-        icon: 'nkrsv.jpg'
+        logo: 'nkrsv.jpg'
     },
     NLTV_D: { name: 'Налётов Дмитрий' },
     OGRDNKV: { name: 'Огородников Борис' },
     OGRZKV: { name: 'Огрызков Алексей' },
     OKN_V: {
         name: 'Окин Вячеслав',
-        icon: 'turtle.jpg',
+        logo: 'turtle.jpg',
     },
     ORLV_V: { name: 'Орлов В.' },
     PTRV_VLNTN: { name: 'Петров Валентин' },

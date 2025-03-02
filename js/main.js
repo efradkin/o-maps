@@ -280,7 +280,7 @@ if (mapElement) {
                 weight: 4,
                 opacity: 0.8,
             },
-            icon: new L.DivIcon({
+            logo: new L.DivIcon({
                 iconSize: new L.Point(9, 9),
                 className: 'leaflet-div-icon leaflet-editing-icon',
             }),
@@ -680,20 +680,20 @@ function buildPopupText(m, latLngs) {
 
     let icon;
     // иконка
-    if (m.icon) {
-        icon = m.icon;
+    if (m.logo) {
+        icon = m.logo;
     }
-    if (!icon && (typeof starts !== 'undefined') && m.start && starts[m.start] && starts[m.start].icon) {
-        icon = starts[m.start].icon;
+    if (!icon && (typeof starts !== 'undefined') && m.start && starts[m.start] && starts[m.start].logo) {
+        icon = starts[m.start].logo;
     }
-    if (!icon && m.owner && owners[m.owner] && owners[m.owner].icon) {
-        icon = owners[m.owner].icon;
+    if (!icon && m.owner && owners[m.owner] && owners[m.owner].logo) {
+        icon = owners[m.owner].logo;
     }
-    if (!icon && m.author && authors[m.author] && authors[m.author].icon) {
-        icon = authors[m.author].icon;
+    if (!icon && m.author && authors[m.author] && authors[m.author].logo) {
+        icon = authors[m.author].logo;
     }
-    if (!icon && m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].icon) {
-        icon = authors[m.author[0]].icon;
+    if (!icon && m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) {
+        icon = authors[m.author[0]].logo;
     }
     if (icon) {
         result += '<img src="./logo/' + icon + '" alt="" class="popup-logo" /><div class="popup-text"';
@@ -786,8 +786,8 @@ function buildAuthors(m, withIcon) {
         for (const a of m.author) {
             if (authors[a]) {
                 result += '<li>';
-                if (withIcon && authors[a].icon) {
-                    result += '<img src="./logo/' + authors[a].icon + '" alt="" class="sheet-icon" /> ';
+                if (withIcon && authors[a].logo) {
+                    result += '<img src="./logo/' + authors[a].logo + '" alt="" class="sheet-icon" /> ';
                 }
                 result += authorLabel(authors[a]) + '</li>';
                 populateAuthor(m, a);
@@ -796,8 +796,8 @@ function buildAuthors(m, withIcon) {
         result += '</ol>'
     } else {
         if (authors[m.author]) {
-            if (withIcon && authors[m.author].icon) {
-                result += '<img src="./logo/' + authors[m.author].icon + '" alt="" class="sheet-icon" /> ';
+            if (withIcon && authors[m.author].logo) {
+                result += '<img src="./logo/' + authors[m.author].logo + '" alt="" class="sheet-icon" /> ';
             }
             result += authorLabel(authors[m.author]) + '<br />';
             populateAuthor(m, m.author);
@@ -818,8 +818,8 @@ function buildOwners(m, withIcon) {
         result += '</ol>'
     } else {
         if (owners[m.owner]) {
-            if (withIcon && owners[m.owner].icon) {
-                result += '<img src="./logo/' + owners[m.owner].icon + '" alt="" class="sheet-icon" /> ';
+            if (withIcon && owners[m.owner].logo) {
+                result += '<img src="./logo/' + owners[m.owner].logo + '" alt="" class="sheet-icon" /> ';
             }
             result += owners[m.owner].name + '<br />';
         }

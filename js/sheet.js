@@ -54,8 +54,8 @@ function td(row, html) {
 
 function buildName(m) {
     let result = '';
-    if (m.icon) {
-        result += '<img src="./logo/' + m.icon + '" alt="" class="sheet-icon" /> ';
+    if (m.logo) {
+        result += '<img src="./logo/' + m.logo + '" alt="" class="sheet-icon" /> ';
     }
     result += '<a href="' + mapLink(m.url, m.region) + '" target="_blank">' + m.name + '</a>';
     return result;
@@ -64,8 +64,8 @@ function buildName(m) {
 function buildStart(m) {
     let result = '';
     if (m.start && starts[m.start]) {
-        if (starts[m.start].icon) {
-            result += '<img src="./logo/' + starts[m.start].icon + '" alt="" class="sheet-icon" /> ';
+        if (starts[m.start].logo) {
+            result += '<img src="./logo/' + starts[m.start].logo + '" alt="" class="sheet-icon" /> ';
         }
         result += starts[m.start].name;
     }

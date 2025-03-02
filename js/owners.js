@@ -1,7 +1,7 @@
 let owners = {
     ANCHKV: {
         name: '© СШОР №2 ГБНОУ "СПб ГДТЮ"',
-        icon: 'anichkov.jpg'
+        logo: 'anichkov.jpg'
     },
     BBCH_A: {
         name: '© Бибич Андрей - <a href="https://vk.com/id7840054" target="_blank">ВК</a> или <a href="https://t.me/andy_atta" target="_blank">Telegram</a>.'
@@ -27,7 +27,7 @@ let owners = {
     },
     EGRV_EGR: {
         name: '© Егоров Е.А.',
-        //icon: 'pshkn.jpg'
+        //logo: 'pshkn.jpg'
     },
     ELTSV: {
         name: '© Ельцов Денис'
@@ -37,7 +37,7 @@ let owners = {
     },
     SFSO_SPB: {
         name: 'Карта принадлежит СФСО СПб. По вопросам использования карты - info@spbof.ru.',
-        icon: 'sfso.jpg'
+        logo: 'sfso.jpg'
     },
     GK: {
         name: '© Горный Кросс, Александр Шумский',
@@ -70,7 +70,7 @@ let owners = {
     },
     RYZHOV: {
         name: '© <a href="https://vk.com/id18529372" target="_blank">Сергей Рыжов</a>.',
-        icon: 'kkm.jpg',
+        logo: 'kkm.jpg',
         rogaine: true
     },
     KP31: {
@@ -84,7 +84,7 @@ let owners = {
     },
     KUZM: {
         name: 'Карта является собственностью клуба КУЗЬМОЛОВО. По вопросам использования карты - +79213300490 (Михаил Чегаровский), +79219728624 (Александр Шеин).',
-        icon: 'kjp.jpg'
+        logo: 'kjp.jpg'
     },
     KUZNTSV_A: {
         name: '© Кузнецов Александр, sanek-orel@yandex.ru'
@@ -94,7 +94,7 @@ let owners = {
     },
     LM: {
         name: '© Орлов Александр, "Лужский Меридиан".',
-        icon: 'lm.jpg',
+        logo: 'lm.jpg',
         rogaine: true
     },
     MLV_AL: {
@@ -118,7 +118,7 @@ let owners = {
     },
     OPNBND: {
         name: '© OpenBand, Прозоров Андрей - <a href="https://orientband.ru" target="_blank">сайт</a> и <a href="https://vk.com/openband_ru" target="_blank">ВК</a>',
-        icon: 'openband.jpg',
+        logo: 'openband.jpg',
         rogaine: true
     },
     PARADA: {
@@ -135,7 +135,7 @@ let owners = {
     },
     RFAR: {
         name: 'Права на использования карты принадлежат компании Red Fox и оргкомитету соревнований <a href="https://adventure-race.redfox.ru/" target="_blank">Red Fox Adventure Race</a>.',
-        icon: 'redfox.jpg',
+        logo: 'redfox.jpg',
         rogaine: true
     },
     RKVA_S: {
@@ -165,7 +165,7 @@ let owners = {
     },
     STRKZK: {
         name: '© Стрекозайки, 8-911-7546601',
-        icon: 'strkzky.jpg',
+        logo: 'strkzky.jpg',
         rogaine: true
     },
     SVCHK: {
@@ -185,11 +185,11 @@ let owners = {
     },
     WN: {
         name: 'Права на использования карты принадлежат клубу <b>"Белые Ночи"</b>. По вопросам приобретения и использования карт-материала обращаться к Анне Горбатенковой (89219241742, Телеграмм, WhatsApp).',
-        icon: 'wn.jpg'
+        logo: 'wn.jpg'
     },
     YUVNT: {
         name: 'По вопросам использования карты обращаться в ДДТиЭ "Ювента".',
-        icon: 'yuventa.jpg'
+        logo: 'yuventa.jpg'
     },
     ZCHNV: {
         name: '© Зачиняев В.А.'
@@ -208,25 +208,25 @@ let owners = {
     },
     ERMCHNKV_A: {
         name: '@ Ермаченков Алексей, 89164951315',
-        icon: 'mifi.jpg'
+        logo: 'mifi.jpg'
     },
     FSO_MSK: {
         name: '@ ФСО Москвы, 8 (962) 947 17-88',
-        icon: 'fso_msk.jpg'
+        logo: 'fso_msk.jpg'
     },
     FRZNO: {
         name: '@ <a href="https://vk.com/club151229251" target="_blank">КСО Фрязино</a>, +79057778820',
-        icon: 'friazino.jpg'
+        logo: 'friazino.jpg'
     },
     O_FRZNO: {
         name: '@ <a href="https://www.o-fryazino.ru/" target="_blank">О-Фрязино</a>, 8-926-1514712',
-        icon: 'o-friazino.jpg'
+        logo: 'o-friazino.jpg'
     },
     GRCHV_D: {
         name: '@ Дмитрий Грачев'
     },
     INCR: {
-        icon: 'inacor.jpg',
+        logo: 'inacor.jpg',
         name: '@ Инакор — интернет активное ориентирование.'
     },
     IVNV_AL: {
@@ -243,7 +243,7 @@ let owners = {
     },
     KMPT: {
         name: '@ Компот групп',
-        icon: 'kmpt.jpg',
+        logo: 'kmpt.jpg',
         rogaine: true
     },
     LTVO: {
@@ -257,7 +257,7 @@ let owners = {
     },
     ORNTA_KNTSVO: {
         name: '@ КСО Ориента-Кунцево',
-        icon: 'orienta-kuntsevo.jpg'
+        logo: 'orienta-kuntsevo.jpg'
     },
     ORNTA_SKRM: {
         name: '@ КСО Ориента-Скрум'
@@ -276,7 +276,7 @@ let owners = {
     },
     SYTV_N: {
         name: '@ Сытов Николай, 89164980105',
-        icon: 'mm.jpg'
+        logo: 'mm.jpg'
     },
     TTV_A: {
         name: '@ Титов Алексей, +7 915 476 2397'
@@ -289,7 +289,7 @@ let owners = {
 
     KSTNK: {
         name: '@ СК АОК Кошутњак',
-        icon: 'kosutnjak.jpg'
+        logo: 'kosutnjak.jpg'
     },
     MGCMP: {
         name: '@ SK "Magic Map"'
@@ -299,13 +299,13 @@ let owners = {
     },
     OSS: {
         name: '@ Оријентиринг савез Србије',
-        icon: 'srb.jpg'
+        logo: 'srb.jpg'
     },
     RTN: {
         name: '@ ОК Ртањ'
     },
     AVALA: {
         name: '@ Планинарско друштво „Авала“',
-        icon: 'avala.jpg'
+        logo: 'avala.jpg'
     },
 }
