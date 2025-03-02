@@ -131,7 +131,8 @@ let sosnovoMaps = [
     {
         name: 'Сосново, оз Уловное',
         year: 1981,
-        info: 'Первый чемпионат СССР.',
+        major: true,
+        start: 'USSR_1991',
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981.webp',
         link: './original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_full.jpg',
         bounds: [[60.60475042664144, 30.21566390991211], [60.60226475491396, 30.262098312377933], [60.58557630901257, 30.209827423095707]],

@@ -378,6 +378,7 @@ let forestMaps = [
     {
         name: 'Яппиля, оз Пистолет',
         year: 1992,
+        major: true,
         url: './maps/forest/yappilya_pistolet_1992.webp',
         link: './original_maps/forest/yappilya_pistolet_1992_full.jpg',
         bounds: [[60.24713821354549, 29.126043319702152], [60.243219301102904, 29.18552398681641], [60.18433664822085, 29.11188125610352]],
@@ -595,6 +596,7 @@ let forestMaps = [
     {
         name: 'Первомайское, Червонное оз',
         year: 2006,
+        major: true,
         url: './maps/forest/pervomayskoe_chervonnoe_2006.webp',
         link: './original_maps/forest/pervomayskoe_chervonnoe_2006_full.jpg',
         info: 'Кубок России по СРП.',

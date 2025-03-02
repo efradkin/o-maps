@@ -63,6 +63,7 @@ let rogaineMaps = [
     {
         name: 'Кузнечное',
         year: 2009,
+        major: true,
         info: 'VI Чемпионат России по рогейну.',
         url: './maps/rogaine/kuznechnoe_2009.webp',
         link: './original_maps/rogaine/kuznechnoe_2009_full.jpg',
@@ -107,6 +108,7 @@ let rogaineMaps = [
     {
         name: 'Лосево',
         year: 2007,
+        major: true,
         url: './maps/rogaine/losevo_rrc_2007.webp',
         link: 'https://web.archive.org/web/20161220160945/http://www.rogaine-spb.ru/race0807/map.gif',
         bounds: [[60.803236100904606, 29.611244201660156], [60.9023956835838, 29.857749938964847], [60.635657869155416, 29.90409851074219]],
@@ -128,6 +130,7 @@ let rogaineMaps = [
     {
         name: 'Лемболово-Мичуринское',
         year: 2012,
+        major: true,
         start: '100X24',
         url: './maps/rogaine/lembolovo_michurinskoe_rrc_2012.webp',
         link: 'https://100x24.ru/2012/maps/100x24_2012.gif',
@@ -138,6 +141,7 @@ let rogaineMaps = [
     {
         name: 'Запорожское',
         year: 2016,
+        major: true,
         url: './maps/rogaine/zaporozhskoe_2016.webp',
         link: 'https://www.multsport.ru/images/rogRus16/map.jpg',
         bounds: [[60.67923162227499, 30.155410766601566], [60.688813300289965, 30.679321289062504], [60.43164595895512, 30.173263549804688]],
@@ -157,6 +161,7 @@ let rogaineMaps = [
     {
         name: 'Первомайское',
         year: 2012,
+        major: true,
         url: './maps/rogaine/pervomajskoe_rrc_2012.webp',
         link: 'https://rrc2012.rogaining.ru/download/9rrc_map.jpg',
         bounds: [[60.47701790290766, 29.584808349609375], [60.44993780053481, 29.986152648925785], [60.30824657381306, 29.535713195800785]],
@@ -187,6 +192,7 @@ let rogaineMaps = [
     {
         name: 'Зеркальный',
         year: 2022,
+        major: true,
         url: './maps/rogaine/zerkalny_rrc_2022.webp',
         link: './original_maps/rogaine/zerkalny_rrc_2022_full.jpg',
         bounds: [[60.34207085274035, 28.864517211914066], [60.37518126453458, 29.334526062011722], [60.138086026326405, 28.924255371093754]],
@@ -390,6 +396,7 @@ let rogaineMaps = [
     {
         name: 'Воейково',
         year: 2014,
+        major: true,
         info: 'Чемпионат СЗФО.',
         url: './maps/rogaine/voejkovo_2014.webp',
         link: './original_maps/rogaine/voejkovo_2014_full.jpg',

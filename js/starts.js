@@ -79,6 +79,11 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/VWC-95/index.html" target="_blank">Кубок Мира среди ветеранов</a>',
         icon: 'vwc95.gif'
     },
+    USSR_1991: {
+        short: 'I Чемпионат СССР',
+        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html" target="_blank">Первый чемпионат СССР</a>, <a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf" target="_blank">как это было</a>',
+        icon: 'ussr_1981.jpg'
+    },
     SCHOOL: {
         short: 'Ориентирование в школу',
         name: '<a href="https://spbof.ru/ru/projects/o-school" target="_blank">Спортивное ориентирование в школу</a>',

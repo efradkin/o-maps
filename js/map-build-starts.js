@@ -25,6 +25,7 @@ let baGroup = L.layerGroup([]);
 let stGroup = L.layerGroup([]);
 let rfarGroup = L.layerGroup([]);
 let sto24Group = L.layerGroup([]);
+let majorGroup = L.layerGroup([]);
 
 let allOrientGroups = [
     schoolGroup,
@@ -39,7 +40,8 @@ let allOrientGroups = [
     baGroup,
     stGroup,
     rfarGroup,
-    sto24Group
+    sto24Group,
+    majorGroup
 ];
 let allAgeGroups = [];
 
@@ -49,7 +51,7 @@ for (const m of oMaps) {
     if (START_NAME_PARAM && START_NAME_PARAM !== m.start) {
         continue;
     }
-    if (m.start) {
+    if (m.start || m.major) {
         if (m.year && !ageGroups[m.year]) {
             getCreateAgeGroup(m.year);
         }
@@ -116,12 +118,13 @@ function buildOverlayMapsContents() {
         "ККМ": kkmGroup,
         "Марш-Бросок": mbGroup,
         "BA/TA": baGroup,
+        "Чемпионаты и Кубки": majorGroup,
     };
     return result;
 }
 
 function allocateMap(m) {
-    if (m.start) {
+    if (m.start || m.major) {
         m.groups = [];
 
         switch (m.start) {
@@ -139,6 +142,10 @@ function allocateMap(m) {
             case 'MB': pushGroupToMap(m, mbGroup); break;
             case 'TA':
             case 'BA': pushGroupToMap(m, baGroup); break;
+        }
+
+        if (m.major) {
+            pushGroupToMap(m, majorGroup);
         }
 
         if (!m.year) {
@@ -163,7 +170,7 @@ function getCreateAgeGroup(year) {
 }
 
 function isMapAcceptable(m) {
-    return typeof m.start !== 'undefined';
+    return typeof m.start !== 'undefined' || m.major;
 }
 
 function buildContextmenuItems() {

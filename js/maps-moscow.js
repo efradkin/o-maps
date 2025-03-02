@@ -1574,6 +1574,7 @@ let moscowMaps = [
     {
         name: 'Район Ясенево',
         year: 2021,
+        major: true,
         url: './maps/moscow/yasenevo_2017.webp',
         //link: 'http://o-mephi.net/cup/maps/20210529_407.jpg',
         info: 'Чемпионат Мира (2018), спринт.',

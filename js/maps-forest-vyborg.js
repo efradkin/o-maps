@@ -418,11 +418,12 @@ let vyborgMaps = [
     {
         name: 'Вещево, Макаровское оз',
         year: 1981,
+        major: true,
         url: './maps/forest/vyborg/veschevo_1981.webp',
         link: './original_maps/forest/vyborg/veschevo_1981_full.jpg',
         bounds: [[60.759620692933005, 29.18972969055176], [60.755385875026555, 29.25264358520508], [60.73093040242884, 29.182691574096683]],
         author: ['SHRNN','KUZNTSV_S'],
-        info: 'Первый чемпионат СССР.',
+        start: 'USSR_1991',
         types: [],
     },
     {
@@ -527,7 +528,8 @@ let vyborgMaps = [
     {
         name: 'Сайменские дачи',
         year: 1981,
-        info: 'Первый чемпионат СССР.',
+        major: true,
+        start: 'USSR_1991',
         url: './maps/forest/vyborg/vyborg_saymenskie_dachi_1981.webp',
         link: './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_full.jpg',
         bounds: [[60.793185940251945, 28.719549179077152], [60.79037970721021, 28.77748489379883], [60.76498678767908, 28.721437454223636]],

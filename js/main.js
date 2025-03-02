@@ -396,7 +396,7 @@ if (mapElement) {
                     if (yearSliderEl) {
                         yearSliderEl.parentElement.style.display = 'block';
                         let years = Object.keys(ageGroups);
-                        let wideScreen = window.innerWidth > 1000;
+                        let wideScreen = false; //window.innerWidth > 1000;
                         let yearSlider = new rSlider({
                             target: '#year_slider',
                             values: years,
@@ -463,7 +463,6 @@ if (mapElement) {
             }
         }
         syncMaps();
-        recalculateLayers();
     }
 
     let timelineEl = document.getElementById("timeline");
@@ -635,6 +634,8 @@ function syncMaps() {
     for (const m of shownMaps) {
         map.addLayer(m.layer);
     }
+
+    recalculateLayers();
 }
 
 function tuneContextMenu() {
