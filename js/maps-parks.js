@@ -855,6 +855,16 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
+        name: 'сквер Пограничников',
+        year: 2020,
+        url: './maps/parks/sestroretsk_skver_pogranichnikov_2020.webp',
+        link: './original_maps/parks/sestroretsk_skver_pogranichnikov_2020_full.jpg',
+        bounds: [[60.1135249866435, 29.969716072082523], [60.11173937503819, 29.984629154205326], [60.10518417425355, 29.965231418609623]],
+        author: 'KUZNTSV_A',
+        owner: 'KUZNTSV_R',
+        types: ['PARK'],
+    },
+    {
         name: 'Охтинский (Ржевский) лесопарк',
         year: 1990,
         url: './maps/parks/rzhevsky_1990.webp',

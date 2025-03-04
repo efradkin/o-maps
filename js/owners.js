@@ -89,6 +89,9 @@ let owners = {
     KUZNTSV_A: {
         name: '© Кузнецов Александр, sanek-orel@yandex.ru'
     },
+    KUZNTSV_R: {
+        name: '© Кузнецов Роман (mapfox@mail.ru).'
+    },
     LENA: {
         name: '© Кропачёв В.Н. (т/б "Лена-Ладога").'
     },

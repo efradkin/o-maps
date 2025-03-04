@@ -3906,7 +3906,7 @@ let moscowMaps = [
         url: './maps/moscow/kolomenskoe_2005.webp',
         link: './original_maps/moscow/kolomenskoe_2005_full.jpg',
         bounds: [[55.65879032000983, 37.659931182861335], [55.658112450744916, 37.66654014587403], [55.65319754751281, 37.6583218574524]],
-        author: ['DDNKV','BRKN','ERMCHNKV_A'],
+        author: ['ZUEV_A','DDNKV','BRKN','ERMCHNKV_A'],
         types: [],
     },
     {
