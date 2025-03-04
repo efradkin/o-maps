@@ -753,7 +753,7 @@ function buildPopupText(m, latLngs) {
 
     // ссылки на просмотр и скачивание
     let link = m.link;
-    if (link) {
+    if (link && !isMapHidden(m)) {
         if (!Array.isArray(link) && link.startsWith('http')) {
             result += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
         } else {
