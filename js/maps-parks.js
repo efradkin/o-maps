@@ -261,6 +261,15 @@ let parkMaps = [
     },
     {
         name: 'Парк Лесотехнической академии',
+        year: 2001,
+        url: './maps/parks/lesotekchnicheskaya_2001.webp',
+        link: './original_maps/parks/lesotekchnicheskaya_2001_full.jpg',
+        bounds: [[59.99621788024605, 30.34260749816895], [59.99509120447892, 30.354387760162357], [59.989725555405016, 30.3403115272522]],
+        author: 'GRBTNKV',
+        types: ['PARK'],
+    },
+    {
+        name: 'Парк Лесотехнической академии',
         year: 2024,
         url: './maps/parks/lesotekchnicheskaya_2024.webp',
         link: './original_maps/parks/lesotekchnicheskaya_2024_full.jpg',
@@ -987,6 +996,15 @@ let parkMaps = [
         bounds: [[60.04408221803971, 30.6304407119751], [60.04324647368814, 30.647134780883793], [60.034877149228116, 30.62846660614014]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
+        types: ['PARK'],
+    },
+    {
+        name: 'Всеволожск, Румболовский парк',
+        year: 2001,
+        url: './maps/parks/vsevolozhsk_rumbolovo_2001.webp',
+        link: './original_maps/parks/vsevolozhsk_rumbolovo_2001_full.jpg',
+        bounds: [[60.04438222367325, 30.627179145812992], [60.04418936322172, 30.645632743835453], [60.03450203381863, 30.62700748443604]],
+        author: 'KUZNTSV_S',
         types: ['PARK'],
     },
     {

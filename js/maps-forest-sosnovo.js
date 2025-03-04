@@ -200,7 +200,7 @@ let sosnovoMaps = [
         year: 1991,
         url: './maps/forest/sosnovo/snegirevka_1991.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1991_full.jpg',
-        bounds: [[60.52488166312165, 30.276002883911136], [60.52226313556185, 30.34831523895264], [60.494206271637864, 30.27016639709473]],
+        bounds: [[60.52488166312165, 30.276002883911136], [60.52215754533236, 30.348358154296875], [60.494206271637864, 30.27016639709473]],
         author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S'],
         types: [],
     },

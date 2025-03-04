@@ -1,6 +1,17 @@
 let mmsStartsMaps = [
     /* --- Мемориал Михаила Святкина --- */
     {
+        name: 'Каменногорск,Обходное оз',
+        region: 'starts',
+        start: 'MMS',
+        year: 2003,
+        url: './maps/starts/mms/mms_2003_06_27.webp',
+        link: './original_maps/starts/mms/mms_2003_06_27.jpg',
+        bounds: [[61.00257935580872, 29.18324947357178], [61.00108142657904, 29.20028686523438], [60.98626476642206, 29.17779922485352]],
+        author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV'],
+        types: [],
+    },
+    {
         name: 'Лемболово',
         region: 'starts',
         start: 'MMS',

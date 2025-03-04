@@ -66,6 +66,15 @@ let vsevolozhskMaps = [
         types: [],
     },
     {
+        name: 'Голубая Дача',
+        year: 1998,
+        url: './maps/forest/vsevolozhsk/golubaya_dacha_1998.webp',
+        link: './original_maps/forest/vsevolozhsk/golubaya_dacha_1998_full.jpg',
+        bounds: [[59.96506458173234, 30.610570907592777], [59.96341055506748, 30.6599235534668], [59.947145142259515, 30.607910156250004]],
+        author: 'RYLOV_V',
+        types: [],
+    },
+    {
         name: 'Красная Горка (Орово)',
         year: 2016,
         url: './maps/forest/vsevolozhsk/krasnaja_gorka_2016.webp',
