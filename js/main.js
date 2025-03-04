@@ -51,8 +51,10 @@ if (MAP_NAME_PARAM) {
         loadMap(m);
     }
 }
-for (const m of oMaps) {
-    loadMap(m);
+if (!ONLY_MAP_NAME_PARAM) {
+    for (const m of oMaps) {
+        loadMap(m);
+    }
 }
 
 const defaultZoom = 13;
@@ -375,11 +377,6 @@ if (mapElement) {
 
     let intervalCounter = 0;
     let imagesLoadInterval = setInterval(function() {
-        // go to the specified map
-        if (MAP_NAME_PARAM && intervalCounter === 0) {
-            locateMapForUrl(MAP_NAME_PARAM);
-        }
-
         syncMaps();
 
         if (imagesLoadCounter <= 0) {
@@ -413,6 +410,11 @@ if (mapElement) {
                     // set required styles for the map elements
                     for (const m of oMaps) {
                         applyMapStyles(m);
+                    }
+
+                    // go to the specified map
+                    if (MAP_NAME_PARAM) {
+                        locateMapForUrl(MAP_NAME_PARAM);
                     }
                 }
             }

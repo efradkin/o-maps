@@ -1,10 +1,15 @@
 const urlParams = new URLSearchParams(window.location.search);
 const THE_AUTHOR_PARAM = urlParams.get('author');
 const THE_OWNER_PARAM = urlParams.get('owner');
-const MAP_NAME_PARAM = urlParams.get('map');
+let MAP_NAME_PARAM = urlParams.get('map');
+const ONLY_MAP_NAME_PARAM = urlParams.get('onlymap');
 const START_NAME_PARAM = urlParams.get('start');
 const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
+
+if (ONLY_MAP_NAME_PARAM) {
+    MAP_NAME_PARAM = ONLY_MAP_NAME_PARAM;
+}
 
 const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">O-maps</a> | <a href="https://t.me/orient_spb" target="_blank">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
 const CLEAR_MAP_LABEL = 'Убрать ориенты';
