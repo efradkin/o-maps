@@ -194,6 +194,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     KUZNTSV_A: { name: 'Кузнецов Александр' },
+    KUZNTSV_R: { name: 'Кузнецов Роман' },
     KUZNTSV_S: {
         name: 'Кузнецов Сергей',
         about: 'https://rufso.ru/wp-content/uploads/2018/08/2014№2-Памяти-Сергея-Владимировича-Кузнецова.pdf'

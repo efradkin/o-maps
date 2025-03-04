@@ -457,7 +457,7 @@ let zelikMaps = [
         name: 'Рощино',
         year: 2025,
         url: './maps/forest/zelik/roschino_2025.webp',
-        link: './original_maps/forest/zelik/roschino_2025_full.jpeg',
+        link: './original_maps/forest/zelik/roschino_2025_full.jpg',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21692/',
         bounds: [[60.285812303696865, 29.59047317504883], [60.28449341251603, 29.63943958282471], [60.26700243978524, 29.588413238525394]],
         author: 'SHRPVA',
