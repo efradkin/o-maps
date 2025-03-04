@@ -987,6 +987,7 @@ let parkMaps = [
         url: './maps/parks/zelenogorsk_tspko_2024.webp',
         link: './original_maps/parks/zelenogorsk_tspko_2024_full.jpg',
         bounds: [[60.19371335499176, 29.696130752563477], [60.19243341635954, 29.70834016799927], [60.18712113764485, 29.693555831909183]],
+        author: 'SVCHK',
         owner: 'SFSO_SPB',
         types: ['PARK'],
     },

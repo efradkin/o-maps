@@ -317,13 +317,6 @@ let zelikMaps = [
         types: [],
     },
     {
-        name: 'Зеленогорск, оз Щучье',
-        year: 2021,
-        url: './maps/forest/zelik/zelenogorsk_priboy_2021.webp',
-        bounds: [[60.22702752010804, 29.745526313781742], [60.22255206436886, 29.79753971099854], [60.203535222535606, 29.73711490631104]],
-        types: [],
-    },
-    {
         name: 'Зеленогорск, оз Красавица',
         year: 1998,
         url: './maps/forest/zelik/krasavitsa_1998.webp',
