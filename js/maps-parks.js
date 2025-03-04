@@ -44,6 +44,7 @@ let parkMaps = [
         name: 'Парк Екатерингоф',
         year: 1986,
         url: './maps/parks/ekateringof_1986.webp',
+        link: './original_maps/parks/ekateringof_1986_full.jpg',
         bounds: [[59.906952348502685, 30.255017280578617], [59.90583339361939, 30.27119636535645], [59.90037794856062, 30.253279209136966]],
         author: 'CHGRVSKY_V',
         types: ['PARK'],

@@ -53,11 +53,13 @@ let authors = {
     CHGRVSKY_M: { name: 'Чегаровский Михаил' },
     CHGRVSKY_V: {
         name: 'Чегаровский Виталий',
-        about: 'https://ar-info.ru/articles/?id_article_full=176'
+        about: 'https://ar-info.ru/articles/?id_article_full=176',
+        logo: 'che.jpg'
     },
     CHGRVSKY_Y: {
         name: 'Чегаровский Юрий',
-        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+        about: 'https://o-site.spb.ru/history/Peoples/280.html',
+        logo: 'che.jpg'
     },
     CHKVSKY_N: { name: 'Чайковский Н.' },
     CHSNKV: { name: 'Чесноков А.' },
