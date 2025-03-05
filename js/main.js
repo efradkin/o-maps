@@ -62,6 +62,10 @@ const defaultZoom = 13;
 let searchBox;
 if (mapElement) {
 
+    if(HAS_EMBEDDED_PARAM) {
+        document.getElementById('map_region_selector').style.display = 'none';
+    }
+
     let savedState;
     if (!MAP_NAME_PARAM) {
         savedState = loadMapState(REGION_KEY);
@@ -176,58 +180,62 @@ if (mapElement) {
     }
     overlayMapsContents = buildOverlayMapsContents();
 
-    layerControl = L.control.layers(
-        baseMaps, overlayMapsContents,
-        {collapsed: layerControlCollapsed, autoZIndex: false }).addTo(map);
-
-    // --- search control ---
-    searchBox = L.control.searchbox({
-        position: 'topright',
-        expand: 'left',
-        // scrollbar: true,
-        clearButton: true,
-        // maxHeight: '40vh',
-        autocompleteFeatures: ['setValueOnClick', 'arrowKeyNavigation'],
-        title: 'Поиск карты (Ctrl-Shift-F)',
-    }).addTo(map);
-
-    searchBox.onInput("keyup", function (e) {
-        if (e.keyCode == 13) {
-            search();
-        } else {
-            var value = searchBox.getValue();
-            if (value != "") {
-                var results = searchMaps(value);
-                searchBox.setItems(results.map(m => '&nbsp;' + mapTitle(m)).slice(0, 10));
-            } else {
-                searchBox.clearItems();
-            }
-        }
-    });
-
-    searchBox.onButton("click", search);
-
-    function search() {
-        let value = searchBox.getValue();
-        if (value) {
-            let m = searchMap(value);
-            if (m) {
-                locateMap(m);
-            }
-        }
-
-        setTimeout(function () {
-            searchBox.hide();
-            searchBox.clear();
-        }, 600);
+    if (!HAS_EMBEDDED_PARAM) {
+        layerControl = L.control.layers(
+            baseMaps, overlayMapsContents,
+            {collapsed: layerControlCollapsed, autoZIndex: false}).addTo(map);
     }
 
-    document.onkeydown = function(e){
-        e = e || window.event;
-        let key = e.which || e.keyCode;
-        if(key === 70) { // Ctrl-Shift-F
-            searchBox.show();
-            document.querySelector(".leaflet-searchbox").focus();
+    // --- search control ---
+    if (!HAS_EMBEDDED_PARAM) {
+        searchBox = L.control.searchbox({
+            position: 'topright',
+            expand: 'left',
+            // scrollbar: true,
+            clearButton: true,
+            // maxHeight: '40vh',
+            autocompleteFeatures: ['setValueOnClick', 'arrowKeyNavigation'],
+            title: 'Поиск карты (Ctrl-Shift-F)',
+        }).addTo(map);
+
+        searchBox.onInput("keyup", function (e) {
+            if (e.keyCode == 13) {
+                search();
+            } else {
+                var value = searchBox.getValue();
+                if (value != "") {
+                    var results = searchMaps(value);
+                    searchBox.setItems(results.map(m => '&nbsp;' + mapTitle(m)).slice(0, 10));
+                } else {
+                    searchBox.clearItems();
+                }
+            }
+        });
+
+        searchBox.onButton("click", search);
+
+        function search() {
+            let value = searchBox.getValue();
+            if (value) {
+                let m = searchMap(value);
+                if (m) {
+                    locateMap(m);
+                }
+            }
+
+            setTimeout(function () {
+                searchBox.hide();
+                searchBox.clear();
+            }, 600);
+        }
+
+        document.onkeydown = function(e){
+            e = e || window.event;
+            let key = e.which || e.keyCode;
+            if(key === 70) { // Ctrl-Shift-F
+                searchBox.show();
+                document.querySelector(".leaflet-searchbox").focus();
+            }
         }
     }
 
