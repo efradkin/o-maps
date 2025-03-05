@@ -78,13 +78,24 @@ if (mapElement) {
             }
         }
     }
+    let x = centerX;
+    let y = centerY;
+    if (savedState) {
+        x = savedState.lat;
+        y = savedState.lng;
+    }
+    if (X_PARAM) x = X_PARAM;
+    if (Y_PARAM) y = Y_PARAM;
+    let zoom = defaultZoom;
+    if (savedState) zoom = savedState.zoom;
+    if (ZOOM_PARAM) zoom = ZOOM_PARAM;
     map = L.map('map', {
         attributionControl: false,
         zoomControl: false,
         minZoom: 9,
         maxZoom: 16,
-        center: savedState ? [savedState.lat, savedState.lng] : [centerX, centerY],
-        zoom: savedState ? savedState.zoom : defaultZoom,
+        center: [x, y],
+        zoom: zoom,
         layers: activeLayers,
         contextmenu: true,
         contextmenuWidth: 190,
