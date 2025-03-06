@@ -140,6 +140,15 @@ let toksovoMaps = [
     {
         name: 'Токсово',
         year: 1989,
+        url: './maps/forest/toksovo/toksovo_malinovaya_gora_1989.webp',
+        link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_1989_full.jpg',
+        bounds: [[60.18638503121964, 30.44620513916016], [60.18087971211821, 30.52989006042481], [60.14902464279283, 30.436763763427738]],
+        author: ['DBRTSV_V','CHGRVSKY_Y','BSTRV_A','GBNV_A','KRPLSN','GRBTNKV','DBRTSV_S','GUSEV'],
+        types: ['WINTER'],
+    },
+    {
+        name: 'Токсово',
+        year: 1989,
         url: './maps/forest/toksovo/toksovo_1989.webp',
         link: './original_maps/forest/toksovo/toksovo_1989_full.jpg',
         bounds: [[60.16275685400291, 30.473070144653324], [60.160194512798185, 30.5116081237793], [60.14661076881676, 30.46920776367188]],

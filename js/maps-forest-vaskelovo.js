@@ -127,6 +127,8 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/vaskelovo_bannoe_oz_full.jpg',
         bounds: [[60.40380737364446, 30.423889160156254], [60.400076803656404, 30.47916412353516], [60.364487731332744, 30.413331985473636]],
         author: 'CHGRVSKY_V',
+        start: 'VWC_1995',
+        major: true,
         types: [],
     },
     {

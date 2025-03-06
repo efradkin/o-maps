@@ -116,7 +116,7 @@ let priozerskMaps = [
         types: [],
     },
     {
-        name: 'Кузнечное - Берёзовское оз',
+        name: 'Кузнечное, Берёзовское оз',
         year: 1984,
         url: './maps/forest/priozersk/kuznechnoe_berezovskoe_1984.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_berezovskoe_1984_full.jpg',
@@ -125,7 +125,7 @@ let priozerskMaps = [
         types: [],
     },
     {
-        name: 'Кузнечное - оз Волковское-Суури',
+        name: 'Кузнечное, оз Волковское-Суури',
         year: 1987,
         url: './maps/forest/priozersk/kuznechnoe_suuri_1987.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1987_full.jpg',
@@ -134,7 +134,7 @@ let priozerskMaps = [
         types: [],
     },
     {
-        name: 'Кузнечное - оз Волковское-Суури',
+        name: 'Кузнечное, оз Волковское-Суури',
         year: 1979,
         url: './maps/forest/priozersk/kuznechnoe_suuri_1979.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1979_full.jpg',
@@ -143,16 +143,19 @@ let priozerskMaps = [
         types: [],
     },
     {
-        name: 'Кузнечное - оз Волковское-Суури',
+        name: 'Кузнечное, оз Волковское-Суури',
         year: 2019,
+        major: true,
+        info: '25-26.05, Чемпионат России',
         url: './maps/forest/priozersk/kuznechnoe_suuri_2019.webp',
+        link: ['./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_25.jpg','./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_26.jpg'],
         bounds: [[61.14435367217603, 29.88916397094727], [61.13689678153038, 29.96950149536133], [61.12479630189204, 29.879465103149418]],
         owner: 'SHEIN',
         types: [],
         author: 'CHGRVSKY_V',
     },
     {
-        name: 'Кузнечное - запад',
+        name: 'Кузнечное, запад',
         year: 2008,
         area: 35,
         url: './maps/forest/priozersk/kuznechnoe_west_2008.webp',
@@ -163,7 +166,7 @@ let priozerskMaps = [
         owner: 'TOKM'
     },
     {
-        name: 'Кузнечное - юго-восток',
+        name: 'Кузнечное, юго-восток',
         year: 2003,
         url: './maps/forest/priozersk/kuznechnoe_se.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_se_2003.pdf',
@@ -171,6 +174,17 @@ let priozerskMaps = [
         author: ['KUZNTSV_S','NSNV','KVZN','TKMKV_K'],
         owner: 'TOKM',
         types: [],
+    },
+    {
+        name: 'Кузнечное, оз Травкино',
+        year: 2019,
+        major: true,
+        info: '24.05, Чемпионат России',
+        url: './maps/forest/priozersk/kuznechnoe_travkino_2019_05_24.webp',
+        link: './original_maps/forest/priozersk/kuznechnoe_travkino_2019_05_24.jpg',
+        bounds: [[61.150877007031895, 29.82371807098389], [61.14843350299322, 29.85045433044434], [61.138730097060204, 29.81873989105225]],
+        types: [],
+        author: 'SBLV',
     },
     {
         name: 'о Койонсаари',

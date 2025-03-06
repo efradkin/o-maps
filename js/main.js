@@ -32,7 +32,7 @@ if (efs != null) {
 }
 let hiddenButtonsMode = false;
 let hbm = localStorage.getItem('hiddenButtonsMode');
-if (hbm != null) {
+if (HAS_NO_BUTTONS_PARAM || hbm != null) {
     hiddenButtonsMode = HAS_NO_BUTTONS_PARAM || (hbm === 'true');
 }
 let timeline = false;
