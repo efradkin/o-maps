@@ -1429,6 +1429,23 @@ let cityMaps = [
         owner: 'KOSOR',
     },
     {
+        name: 'Выборг, исторический центр',
+        year: 2020,
+        major: true,
+        start: 'RUSSIA_2020',
+        info: '26.09, спринт.',
+        gps: {
+            'М': 'https://viewer.o-gps-center.ru/viewer/event/8200/',
+            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/8201/'
+        },
+        url: './maps/city/vyborg_center_2020_09_26.webp',
+        link: ['https://viewer.o-gps-center.ru/newmaps/map_6254_d07a76f95f30269314187498b6cda61d.gif','https://viewer.o-gps-center.ru/newmaps/course_8201_7f78af6185476657994fa01093426a57.gif'],
+        bounds: [[60.71571498693868, 28.729290962219242], [60.71430850886193, 28.74435424804688], [60.70959530894424, 28.72682332992554]],
+        types: ['CITY'],
+        author: ['TKMKVA_P','MSPN'],
+        owner: 'KOSOR',
+    },
+    {
         name: 'Выборг, школа №37',
         url: './maps/city/vyborg_school_37.webp',
         bounds: [[60.721256331241406, 28.750748634338382], [60.720395806367094, 28.76476049423218], [60.715893416324086, 28.74933242797852]],

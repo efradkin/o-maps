@@ -446,7 +446,14 @@ let vyborgMaps = [
     },
     {
         name: 'Выборг, Анненские укреления',
-        year: 2017,
+        year: 2020,
+        major: true,
+        start: 'RUSSIA_2020',
+        info: '25.09, смешанная эстафета.',
+        gps: {
+            '1, 2 этап': 'https://viewer.o-gps-center.ru/viewer/event/8199/',
+            '3, 4 этап': 'https://viewer.o-gps-center.ru/viewer/event/8207/'
+        },
         url: './maps/forest/vyborg/vyborg_annenskie_2017.webp',
         bounds: [[60.721875475123724, 28.718798160552982], [60.72063717542608, 28.733968734741214], [60.71757270317024, 28.716931343078617]],
         author: ['TKMKV_K','KVZN'],
@@ -456,9 +463,18 @@ let vyborgMaps = [
     {
         name: 'Выборг, Батарейная гора',
         year: 2020,
+        major: true,
+        excluded: true,
+        start: 'RUSSIA_2020',
+        info: '27.09, спринт-общий старт.',
+        gps: {
+            'М': 'https://viewer.o-gps-center.ru/viewer/event/8202/',
+            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/8203/'
+        },
         url: './maps/forest/vyborg/batarejnaya_gora_2020.webp',
+        link: ['https://viewer.o-gps-center.ru/newmaps/map_6255_b092c095d299e2c07778fccae312152d.png','https://viewer.o-gps-center.ru/newmaps/course_8203_3f630736090219a2871cf4d5a230f4e3.png'],
         bounds: [[60.70882895498743, 28.752636909484867], [60.70691823952591, 28.76879453659058], [60.700429358009245, 28.748753070831302]],
-        author: 'DBRTSV_V',
+        author: ['RYLOV_V','DBRTSV_V'],
         owner: 'KOSOR',
         types: [],
         zindex: 2

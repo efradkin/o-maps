@@ -89,6 +89,11 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/race.php?id=190524chRF" target="_blank">Чемпионат России</a>',
         logo: 'fsor.jpg'
     },
+    RUSSIA_2020: {
+        short: 'ЧР (спринт) 2020',
+        name: '<a href="https://o-site.spb.ru/race.php?id=20092428" target="_blank">Чемпионат России (спринт)</a>',
+        logo: 'fsor.jpg'
+    },
     RUSSIA_2021: {
         short: 'ЧР (спринт) 2021',
         name: '<a href="https://o-site.spb.ru/race.php?id=210531" target="_blank">Чемпионат России (спринт)</a>',
