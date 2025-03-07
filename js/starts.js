@@ -94,6 +94,11 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/race.php?id=22060911" target="_blank">Чемпионат России</a>',
         logo: 'fsor.jpg'
     },
+    RUSSIA_2024: {
+        short: 'ЧР (спринт) 2024',
+        name: '<a href="https://o-site.spb.ru/race.php?id=240519_russia" target="_blank">Чемпионат России (спринт)</a>',
+        logo: 'russia_2024.jpg'
+    },
     SCHOOL: {
         short: 'Ориентирование в школу',
         name: '<a href="https://spbof.ru/ru/projects/o-school" target="_blank">Спортивное ориентирование в школу</a>',

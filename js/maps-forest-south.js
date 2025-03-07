@@ -444,6 +444,7 @@ let southMaps = [
         link: ['./original_maps/forest/south/luga_omchino_2022_06_11.gif','./original_maps/forest/south/luga_omchino_2022_06_11_W.gif'],
         bounds: [[58.73460614874689, 29.80378389358521], [58.732601503940764, 29.824168682098392], [58.72341207053472, 29.79923486709595]],
         author: 'TKMKV_K',
+        owner: 'SHEIN',
         types: [],
     },
     {

@@ -444,8 +444,15 @@ let cityMaps = [
     {
         name: 'Серебряный пруд',
         year: 2024,
+        major: true,
+        start: 'RUSSIA_2024',
+        info: '19.05, кросс-спринт-общий старт.',
+        gps: {
+            'М': 'https://viewer.o-gps-center.ru/viewer/event/19474/',
+            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/19473/'
+        },
         url: './maps/city/serebrjany_prud_2024.webp',
-        link: './original_maps/city/serebrjany_prud_2024_full.gif',
+        link: ['./original_maps/city/serebrjany_prud_2024_full.gif','./original_maps/city/serebrjany_prud_2024_05_19.jpeg','./original_maps/city/serebrjany_prud_2024_05_19_W.jpeg'],
         bounds: [[60.00904854654385, 30.342221260070804], [60.007686329035806, 30.3547739982605], [60.0013893662409, 30.3388524055481]],
         author: ['MNKV','KUZNTSV_A'],
         owner: 'SFSO_SPB',
@@ -1213,6 +1220,9 @@ let cityMaps = [
     {
         name: 'Василеостровская',
         year: 2024,
+        major: true,
+        start: 'RUSSIA_2024',
+        info: '18.05, кросс-спринт.',
         url: './maps/city/vasileostrovskaya_2024.webp',
         link: './original_maps/city/vasileostrovskaya_2024_full.gif',
         bounds: [[59.94262077847527, 30.26769876480103], [59.94105161501355, 30.27969360351563], [59.93625768313655, 30.26443719863892]],
@@ -1642,8 +1652,12 @@ let cityMaps = [
     {
         name: 'Петропавловская крепость',
         year: 2024,
+        major: true,
+        start: 'RUSSIA_2024',
+        info: '17.05, кросс-эстафета-4 человека.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19452/',
         url: './maps/city/petropavlovka_2024.webp',
-        link: './original_maps/city/petropavlovka_2024_full.gif',
+        link: ['./original_maps/city/petropavlovka_2024_full.gif','./original_maps/city/petropavlovka_2024_05_17.jpeg'],
         bounds: [[59.953688794515855, 30.310721397399906], [59.952281319914974, 30.32381057739258], [59.94795108051587, 30.30840396881104]],
         author: 'DBRTSV_V',
         owner: 'SFSO_SPB',

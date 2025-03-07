@@ -185,7 +185,7 @@ label:has(> span span .layer-separator) {
 }
 */
 .leaflet-popup-content {
-    min-height: 180px;
+    min-height: 210px;
     padding-top: 5px;
 }
 .selected-menu-item {
