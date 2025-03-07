@@ -85,9 +85,14 @@ let starts = {
         logo: 'ussr_1981.jpg'
     },
     RUSSIA_2021: {
-        short: 'ЧР (спринт)',
+        short: 'ЧР (спринт) 2021',
         name: '<a href="https://o-site.spb.ru/race.php?id=210531" target="_blank">Чемпионат России (спринт)</a>',
         logo: 'russia_2021.jpg'
+    },
+    RUSSIA_2022: {
+        short: 'ЧР 2022',
+        name: '<a href="https://o-site.spb.ru/race.php?id=22060911" target="_blank">Чемпионат России</a>',
+        logo: 'fsor.jpg'
     },
     SCHOOL: {
         short: 'Ориентирование в школу',

@@ -110,7 +110,7 @@ if (mapElement) {
         }
     } else {
         activeLayers.push(
-            osmLayer, schoolGroup, naGroup, ymGroup, kkpGroup, mmsGroup, pskGroup, ksGroup, stGroup // rfarGroup, sto24Group,
+            osmLayer, schoolGroup, naGroup, ymGroup, kkpGroup, mmsGroup, pskGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
             //...Object.values(ageGroups),
         );
     }
@@ -131,7 +131,7 @@ function buildOverlayMapsContents() {
         "ККМ": kkmGroup,
         "Марш-Бросок": mbGroup,
         "BA/TA": baGroup,
-        "Чемпионаты и Кубки": majorGroup,
+        "<span class='layer-separator'>Чемпионаты и Кубки</span>": majorGroup,
     };
     return result;
 }
