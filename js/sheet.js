@@ -30,25 +30,25 @@ function renderMapsTable() {
     for (let i = 0; i < oMaps.length; i++) {
         let m = oMaps[i];
         const row = document.createElement('tr');
-        td(row, i + 1);
-        td(row, buildName(m));
-        td(row, safe(m.year));
-        td(row, buildStart(m));
-        td(row, buildDownloadLinks(m.link));
-        td(row, safe(m.info));
-        td(row, m.area.toFixed(2));
-        td(row, buildGpsLinks(m));
-        td(row, buildAuthors(m, true));
-        td(row, buildOwners(m, true));
-        td(row, m.types);
+        td(m, row, i + 1);
+        td(m, row, buildName(m));
+        td(m, row, safe(m.year));
+        td(m, row, buildStart(m));
+        td(m, row, buildDownloadLinks(m.link));
+        td(m, row, safe(m.info));
+        td(m, row, m.area.toFixed(2));
+        td(m, row, buildGpsLinks(m));
+        td(m, row, buildAuthors(m, true));
+        td(m, row, buildOwners(m, true));
+        td(m, row, m.types);
         tbody.appendChild(row);
     }
     document.body.style.cursor = 'default';
 }
 
-function td(row, html) {
+function td(m, row, html) {
     const td = document.createElement('td');
-    td.innerHTML = html;
+    td.innerHTML = (m.major ? '<b>' : '') + html + (m.major ? '</b>' : '');
     row.appendChild(td);
 }
 

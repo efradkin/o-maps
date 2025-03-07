@@ -542,8 +542,15 @@ function buildMap(m) {
         return;
     }
 
-    if (START_NAME_PARAM && START_NAME_PARAM !== m.start) {
-        return;
+    if (START_NAME_PARAM) {
+        if (START_NAME_PARAM === 'major') {
+            if (!m.major) {
+                return;
+            }
+        }
+        else if (START_NAME_PARAM !== m.start) {
+            return;
+        }
     }
 
     if (THE_AUTHOR_PARAM) {
