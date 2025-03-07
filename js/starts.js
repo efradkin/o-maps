@@ -84,6 +84,11 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html" target="_blank">Первый чемпионат СССР</a>, <a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf" target="_blank">как это было</a>',
         logo: 'ussr_1981.jpg'
     },
+    RUSSIA_2021: {
+        short: 'ЧР (спринт)',
+        name: '<a href="https://o-site.spb.ru/race.php?id=210531" target="_blank">Чемпионат России (спринт)</a>',
+        logo: 'russia_2021.jpg'
+    },
     SCHOOL: {
         short: 'Ориентирование в школу',
         name: '<a href="https://spbof.ru/ru/projects/o-school" target="_blank">Спортивное ориентирование в школу</a>',
