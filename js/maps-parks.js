@@ -127,6 +127,7 @@ let parkMaps = [
     {
         name: 'Сосновка',
         year: 1975,
+        logo: 'len_iskry.jpg',
         url: './maps/parks/sosnovka_1975.webp',
         link: './original_maps/parks/sosnovka_1975_full.jpg',
         info: '2-е соревнования на Приз газеты Ленинские Искры.',
@@ -277,6 +278,16 @@ let parkMaps = [
         bounds: [[59.99796683423708, 30.330204963684086], [59.996421750809226, 30.353980064392093], [59.99045533479755, 30.328638553619385]],
         author: ['SHRNN','RDNV_I'],
         owner: 'RDNV_I',
+        types: ['PARK'],
+    },
+    {
+        name: 'Парк Лесотехнической академии',
+        year: 2025,
+        url: './maps/parks/lesotekchnicheskaya_2025.webp',
+        link: './original_maps/parks/lesotekchnicheskaya_2025_full.jpg',
+        bounds: [[59.997816620959405, 30.330698490142826], [59.99547749763555, 30.354430675506595], [59.99100265878074, 30.328273773193363]],
+        author: ['SHRNN','ZCHNV'],
+        owner: 'SFSO_SPB',
         types: ['PARK'],
     },
     {

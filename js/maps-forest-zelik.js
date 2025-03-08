@@ -237,6 +237,8 @@ let zelikMaps = [
     {
         name: 'Зеленогорск, оз Щучье',
         year: 1982,
+        info: 'Кубок Ленинграда.',
+        logo: 'ded_1982.jpg',
         url: './maps/forest/zelik/zelenogorsk_schuchye_1982.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1982_full.jpg',
         bounds: [[60.23435742267945, 29.74780082702637], [60.23239726048873, 29.79380607604981], [60.202724843117544, 29.742393493652347]],
@@ -245,6 +247,7 @@ let zelikMaps = [
     {
         name: 'Зеленогорск, оз Щучье',
         year: 1972,
+        //start: 'BN',
         url: './maps/forest/zelik/zelenogorsk_schuchye_1972.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1972_full.jpg',
         bounds: [[60.2217208410269, 29.750890731811527], [60.22191266366871, 29.833030700683597], [60.19216675619548, 29.759387969970707]],

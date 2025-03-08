@@ -598,7 +598,6 @@ let forestMaps = [
     {
         name: 'Первомайское, Червонное оз',
         year: 2006,
-        major: true,
         url: './maps/forest/pervomayskoe_chervonnoe_2006.webp',
         link: './original_maps/forest/pervomayskoe_chervonnoe_2006_full.jpg',
         info: 'Кубок России по СРП.',
