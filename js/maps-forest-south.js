@@ -400,7 +400,6 @@ let southMaps = [
     {
         name: 'Луга, оз Омчино',
         year: 2022,
-        major: true,
         start: 'RUSSIA_2022',
         info: '9.06, кросс-многодневный (пролог 1).',
         gps: {
@@ -416,7 +415,6 @@ let southMaps = [
     {
         name: 'Луга, оз Омчино',
         year: 2022,
-        major: true,
         start: 'RUSSIA_2022',
         info: '10.06, кросс-многодневный (пролог 2).',
         gps: {
@@ -432,7 +430,6 @@ let southMaps = [
     {
         name: 'Луга, Штоль',
         year: 2022,
-        major: true,
         excluded: true,
         start: 'RUSSIA_2022',
         info: '11.06, кросс-многодневный (финал).',

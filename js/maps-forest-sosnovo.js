@@ -131,7 +131,6 @@ let sosnovoMaps = [
     {
         name: 'Сосново, оз Уловное',
         year: 1981,
-        major: true,
         start: 'USSR_1991',
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981.webp',
         link: './original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_full.jpg',

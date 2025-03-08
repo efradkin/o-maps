@@ -544,7 +544,7 @@ function buildMap(m) {
 
     if (START_NAME_PARAM) {
         if (START_NAME_PARAM === 'major') {
-            if (!m.major) {
+            if (!isMajor(m)) {
                 return;
             }
         }

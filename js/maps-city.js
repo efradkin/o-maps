@@ -444,7 +444,6 @@ let cityMaps = [
     {
         name: 'Серебряный пруд',
         year: 2024,
-        major: true,
         start: 'RUSSIA_2024',
         info: '19.05, кросс-спринт-общий старт.',
         gps: {
@@ -1220,7 +1219,6 @@ let cityMaps = [
     {
         name: 'Василеостровская',
         year: 2024,
-        major: true,
         start: 'RUSSIA_2024',
         info: '18.05, кросс-спринт.',
         url: './maps/city/vasileostrovskaya_2024.webp',
@@ -1431,7 +1429,6 @@ let cityMaps = [
     {
         name: 'Выборг, исторический центр',
         year: 2020,
-        major: true,
         start: 'RUSSIA_2020',
         info: '26.09, спринт.',
         gps: {
@@ -1618,7 +1615,6 @@ let cityMaps = [
     {
         name: 'Сосновый Бор',
         year: 2021,
-        major: true,
         start: 'RUSSIA_2021',
         info: '29.05, пролог №1.',
         url: './maps/city/sosnovy_bor_2021_05_29.webp',
@@ -1635,7 +1631,6 @@ let cityMaps = [
     {
         name: 'Сосновый Бор',
         year: 2021,
-        major: true,
         start: 'RUSSIA_2021',
         info: '30.05, пролог №2.',
         url: './maps/city/sosnovy_bor_2021_05_30.webp',
@@ -1652,7 +1647,6 @@ let cityMaps = [
     {
         name: 'Сосновый Бор',
         year: 2021,
-        major: true,
         start: 'RUSSIA_2021',
         info: '31.05, финал.',
         url: './maps/city/sosnovy_bor_2021_05_31.webp',
@@ -1669,7 +1663,6 @@ let cityMaps = [
     {
         name: 'Петропавловская крепость',
         year: 2024,
-        major: true,
         start: 'RUSSIA_2024',
         info: '17.05, кросс-эстафета-4 человека.',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19452/',

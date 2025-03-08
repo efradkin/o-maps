@@ -145,7 +145,6 @@ let priozerskMaps = [
     {
         name: 'Кузнечное, оз Волковское-Суури',
         year: 2019,
-        major: true,
         start: 'RUSSIA_2019',
         info: '25-26.05, кросс многодневный.',
         gps: {
@@ -185,7 +184,6 @@ let priozerskMaps = [
     {
         name: 'Кузнечное, оз Травкино',
         year: 2019,
-        major: true,
         start: 'RUSSIA_2019',
         info: '24.05, кросс-классика.',
         gps: {

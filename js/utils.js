@@ -6,6 +6,10 @@ function isMapHidden(m) {
     return m.hidden || (m.owner && m.owner === 'NW');
 }
 
+function isMajor(m) {
+    return m.major || (m.start && starts[m.start].major);
+}
+
 function mapLink(url, region) {
     let pathname = location.pathname;
     if (region) {

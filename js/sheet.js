@@ -48,7 +48,7 @@ function renderMapsTable() {
 
 function td(m, row, html) {
     const td = document.createElement('td');
-    td.innerHTML = (m.major ? '<b>' : '') + html + (m.major ? '</b>' : '');
+    td.innerHTML = (isMajor(m) ? '<b>' : '') + html + (isMajor(m) ? '</b>' : '');
     row.appendChild(td);
 }
 

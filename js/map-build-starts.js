@@ -64,7 +64,7 @@ for (const m of oMaps) {
     if (START_NAME_PARAM && START_NAME_PARAM !== m.start) {
         continue;
     }
-    if (m.start || m.major) {
+    if (m.start || isMajor(m)) {
         if (m.year && !ageGroups[m.year]) {
             getCreateAgeGroup(m.year);
         }
@@ -137,7 +137,7 @@ function buildOverlayMapsContents() {
 }
 
 function allocateMap(m) {
-    if (m.start || m.major) {
+    if (m.start || isMajor(m)) {
         m.groups = [];
 
         switch (m.start) {
@@ -157,7 +157,7 @@ function allocateMap(m) {
             case 'BA': pushGroupToMap(m, baGroup); break;
         }
 
-        if (m.major) {
+        if (isMajor(m)) {
             pushGroupToMap(m, majorGroup);
         }
 
@@ -183,7 +183,7 @@ function getCreateAgeGroup(year) {
 }
 
 function isMapAcceptable(m) {
-    return typeof m.start !== 'undefined' || m.major;
+    return typeof m.start !== 'undefined' || isMajor(m);
 }
 
 function buildContextmenuItems() {

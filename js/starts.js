@@ -75,36 +75,43 @@ let starts = {
         logo: '1971.jpg'
     },
     VWC_1995: {
+        major: true,
         short: 'VWC\'1995',
         name: '<a href="https://o-site.spb.ru/history/VWC-95/index.html" target="_blank">Кубок Мира среди ветеранов</a>',
         logo: 'vwc95.gif'
     },
     USSR_1991: {
+        major: true,
         short: 'I Чемпионат СССР',
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html" target="_blank">Первый чемпионат СССР</a>, <a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf" target="_blank">как это было</a>',
         logo: 'ussr_1981.jpg'
     },
     RUSSIA_2019: {
+        major: true,
         short: 'ЧР 2019',
         name: '<a href="https://o-site.spb.ru/race.php?id=190524chRF" target="_blank">Чемпионат России</a>',
         logo: 'fsor.jpg'
     },
     RUSSIA_2020: {
+        major: true,
         short: 'ЧР (спринт) 2020',
         name: '<a href="https://o-site.spb.ru/race.php?id=20092428" target="_blank">Чемпионат России (спринт)</a>',
         logo: 'fsor.jpg'
     },
     RUSSIA_2021: {
+        major: true,
         short: 'ЧР (спринт) 2021',
         name: '<a href="https://o-site.spb.ru/race.php?id=210531" target="_blank">Чемпионат России (спринт)</a>',
         logo: 'russia_2021.jpg'
     },
     RUSSIA_2022: {
+        major: true,
         short: 'ЧР 2022',
         name: '<a href="https://o-site.spb.ru/race.php?id=22060911" target="_blank">Чемпионат России</a>',
         logo: 'fsor.jpg'
     },
     RUSSIA_2024: {
+        major: true,
         short: 'ЧР (спринт) 2024',
         name: '<a href="https://o-site.spb.ru/race.php?id=240519_russia" target="_blank">Чемпионат России (спринт)</a>',
         logo: 'russia_2024.jpg'
