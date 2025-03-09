@@ -571,6 +571,18 @@ let moscowMaps = [
         types: [],
     },
     {
+        name: 'Аникеевка',
+        year: 2004,
+        major: true,
+        info: '3.10, ЧиП России, марафон.',
+        url: './maps/moscow/ak/anikeevka_2004.webp',
+        link: './original_maps/moscow/ak/anikeevka_2004_full.jpg',
+        bounds: [[55.86876179475812, 37.24485397338868], [55.86437909911537, 37.294893264770515], [55.835662623012354, 37.235498428344734]],
+        author: ['MTN_Y','BLTV','PZGRV','JASHPTRV'],
+        logo: 'fsor.jpg',
+        types: [],
+    },
+    {
         name: 'Крылатское',
         year: 1990,
         url: './maps/moscow/krylatskoe_1990.webp',
@@ -1277,6 +1289,17 @@ let moscowMaps = [
         owner: 'KSTLV_E',
         types: [],
     },
+    {
+        name: 'Бутовский л/п',
+        year: 2013,
+        major: true,
+        info: '12-13.10, <a href="https://moscompass.ru/news/index.php?m=99&mes=26179" target="_blank">Чемпионат России и Всероссийские соревнования в честь 50-летнего юбилея ориентирования</a>.',
+        url: './maps/moscow/ak/butovsky_2013.webp',
+        link: ['./original_maps/moscow/ak/butovsky_2013_full.pdf','./original_maps/moscow/ak/butovsky_2013_2_full.jpg'],
+        bounds: [[55.585221534678304, 37.52914667129517], [55.58292938102626, 37.56598949432374], [55.56788759269478, 37.52543449401856]],
+        logo: 'fsor.jpg',
+        types: [],
+    },
 /*
     {
         name: 'ПиП Битцевский лес - Конно-Спортивный Комплекс',
@@ -1574,10 +1597,9 @@ let moscowMaps = [
     {
         name: 'Район Ясенево',
         year: 2021,
-        major: true,
         url: './maps/moscow/yasenevo_2017.webp',
         //link: 'http://o-mephi.net/cup/maps/20210529_407.jpg',
-        info: 'Чемпионат Мира (2018), спринт.',
+        info: 'Чемпионат Москвы (2018), спринт.',
         link: './original_maps/moscow/yasenevo_2017_full.jpg',
         bounds: [[55.60402669247227, 37.53530502319337], [55.60425700281168, 37.555282115936286], [55.592776204574, 37.5354552268982]],
         author: 'LUK_V',

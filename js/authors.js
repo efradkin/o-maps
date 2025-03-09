@@ -392,6 +392,7 @@ let authors = {
     ALNKV_A: { name: 'Алейников Алексей' },
     ALSHN: { name: 'Алешин В.' },
     BGCHV: { name: 'Богачёв В.' },
+    BLTV: { name: 'Болотов С.' },
     BRLNV: { name: 'Бурлинов Николай' },
     BRTNK_A: { name: 'Бортник Алексей' },
     BRKN: { name: 'Быркин Виктор' },
