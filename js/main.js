@@ -81,6 +81,8 @@ if (mapElement) {
                 activeLayers.push(groupRetro, group90th);
             }
         }
+    } else if (START_NAME_PARAM === 'major') {
+        activeLayers.push(groupRetro, group90th);
     }
     let x = centerX;
     let y = centerY;
