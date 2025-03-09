@@ -91,6 +91,12 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html" target="_blank">Первый чемпионат СССР</a>, <a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf" target="_blank">как это было</a>',
         logo: 'ussr_1981.jpg'
     },
+    JWSOC_2003: {
+        major: true,
+        short: 'JWSOC 2003',
+        name: '<a href="https://spbof.ru/ru/2-uncategorised/582-istoriya-orientirovaniya-1992g-po-nastoyashchee-vremya" target="_blank">Чемпионат мира  по ориентированию  на лыжах среди  юниоров</a>',
+        logo: 'jwsoc_2003.jpg'
+    },
     RUSSIA_2019: {
         major: true,
         short: 'ЧР 2019',
