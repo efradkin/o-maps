@@ -74,6 +74,11 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-71.html" target="_blank">Пятые Всесоюзные соревнования</a>',
         logo: '1971.jpg'
     },
+    USSR_V_1975: {
+        short: 'Всесоюзные\'1975',
+        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-75.html" target="_blank">Всесоюзные зимние соревнования</a>',
+        logo: 'ussr_1975.jpg'
+    },
     VWC_1995: {
         major: true,
         short: 'VWC\'1995',
