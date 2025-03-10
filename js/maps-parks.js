@@ -1062,6 +1062,7 @@ let parkMaps = [
         name: 'Шуваловский лесопарк',
         year: 2017,
         url: './maps/rogaine/shuvalovsky_rogaine_2024.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18504/',
         bounds: [[60.08453692889112, 30.291752815246586], [60.08190427782784, 30.32033443450928], [60.06931601663244, 30.28668880462647]],
         author: 'KUZNTSV_A',
         owner: 'NW',
