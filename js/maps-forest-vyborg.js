@@ -420,9 +420,13 @@ let vyborgMaps = [
         year: 1981,
         url: './maps/forest/vyborg/veschevo_1981.webp',
         link: './original_maps/forest/vyborg/veschevo_1981_full.jpg',
+        gps: {
+            'М': './original_maps/forest/vyborg/vyborg_veschevo_1981_paths.jpg',
+            'Ж': './original_maps/forest/vyborg/vyborg_veschevo_1981_paths_W.jpg',
+        },
         bounds: [[60.759620692933005, 29.18972969055176], [60.755385875026555, 29.25264358520508], [60.73093040242884, 29.182691574096683]],
         author: ['SHRNN','KUZNTSV_S'],
-        start: 'USSR_1991',
+        start: 'USSR_1981',
         types: [],
     },
     {
@@ -541,9 +545,14 @@ let vyborgMaps = [
     {
         name: 'Сайменские дачи',
         year: 1981,
-        start: 'USSR_1991',
+        start: 'USSR_1981',
         url: './maps/forest/vyborg/vyborg_saymenskie_dachi_1981.webp',
         link: './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_full.jpg',
+        gps: {
+            'М1': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_1.jpg',
+            'М2': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_2.jpg',
+            'Ж': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_W.jpg',
+        },
         bounds: [[60.793185940251945, 28.719549179077152], [60.79037970721021, 28.77748489379883], [60.76498678767908, 28.721437454223636]],
         author: ['KHDNKCH','GLVNV_V'],
         types: [],

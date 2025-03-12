@@ -85,10 +85,10 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/VWC-95/index.html" target="_blank">Кубок Мира среди ветеранов</a>',
         logo: 'vwc95.gif'
     },
-    USSR_1991: {
+    USSR_1981: {
         major: true,
         short: 'I Чемпионат СССР',
-        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html" target="_blank">Первый чемпионат СССР</a>, <a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf" target="_blank">как это было</a>',
+        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html" target="_blank">Первый чемпионат СССР</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf" target="_blank">как это было</a>, <a href="./docs/ussr_champ_1981_program.pdf" target="_blank">программа</a>, <a href="./docs/ussr_champ_1981_resolution.pdf" target="_blank">постановление</a>)',
         logo: 'ussr_1981.jpg'
     },
     JWSOC_2003: {
