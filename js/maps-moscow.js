@@ -4453,13 +4453,22 @@ let moscowMaps = [
         owner: 'NLTV_D',
         types: ['PARK'],
     },
+    {
+        name: 'Красноармейск, г Пирожная',
+        year: 2013,
+        url: './maps/moscow/ak/krasnoarmeisk_pirozhnaya_gora_2013.webp',
+        link: './original_maps/moscow/ak/krasnoarmeisk_pirozhnaya_gora_2013_full.jpg',
+        bounds: [[56.14100680761645, 38.113117218017585], [56.139093934132646, 38.12830924987794], [56.12885844412381, 38.10852527618409]],
+        types: ['WINTER'],
+    },
 /*
     {
-        name: 'Большая Всехсвятская роща',
+        name: 'Большая Всехсвятская роща', // "Viacheslav Sokolov: Мне не жалко, но мои просят удалить. Выложим после того, как проведём там ещё один старт, может осенью..."
         year: 2025,
         url: './maps/moscow/vsehsvjatskaya_roscha_2025.webp',
         bounds: [[55.81067504826267, 37.483935356140144], [55.81006010100851, 37.49219655990601], [55.8048025082996, 37.48221874237061]],
         author: ['DBRTSV_V','SKLV_V'],
+        owner: 'MLKHT',
         logo: 'malakhit.jpg',
         types: ['PARK'],
     },
