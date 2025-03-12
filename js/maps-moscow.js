@@ -4478,6 +4478,32 @@ let moscowMaps = [
         owner: 'NLTV_D',
         types: [],
     },
+    {
+        name: 'Ильинское, школа №25',
+        year: 2009,
+        url: './maps/moscow/ak/ilinskoe_school_25.webp',
+        link: './original_maps/moscow/ak/ilinskoe_school_25_full.gif',
+        bounds: [[55.612026154027184, 38.095886707305915], [55.61161410041415, 38.097624778747566], [55.610693023740545, 38.094620704650886]],
+        author: 'KSTLV_E',
+        types: ['CITY'],
+    },
+    {
+        name: 'Загорново',
+        year: 1987,
+        url: './maps/moscow/zagornogo_1987.webp',
+        link: './original_maps/moscow/zagornogo_1987_full.jpg',
+        bounds: [[55.5267115782107, 38.286452293396], [55.52250900600764, 38.340096473693855], [55.508999433308176, 38.281688690185554]],
+        types: [],
+    },
+    {
+        name: 'Верзилово',
+        year: 2006,
+        url: './maps/moscow/verzilovo_2006.webp',
+        link: './original_maps/moscow/verzilovo_2006_full.gif',
+        bounds: [[55.02728416517494, 38.10670137405396], [55.02673069539478, 38.11983346939087], [55.01766500262448, 38.1058430671692]],
+        author: 'NKRSV_S',
+        types: [],
+    },
 /*
     {
         name: 'Большая Всехсвятская роща', // "Viacheslav Sokolov: Мне не жалко, но мои просят удалить. Выложим после того, как проведём там ещё один старт, может осенью..."
