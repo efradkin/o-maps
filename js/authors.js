@@ -407,7 +407,10 @@ let authors = {
     EFMV: { name: 'Ефимов В.' },
     ETNKO: { name: 'Этенко Г.' },
     FMN_I: { name: 'Фомин И.' },
-    GRCHV_D: { name: 'Грачев Дмитрий' },
+    GRCHV_D: {
+        name: 'Грачев Дмитрий',
+        logo: 'grachev.jpg'
+    },
     GNDRV: { name: 'Гундоров С.' },
     FKN_S: { name: 'Фокин С.' },
     FLVSKY_S: { name: 'Фалевский Сергей' },

@@ -530,6 +530,17 @@ let moscowMaps = [
         types: ['CITY'],
     },
     {
+        name: 'Сретенка',
+        year: 2024,
+        info: '<a href="https://t.me/moscow_orient/761" target="_blank">SRETENKA-SPRINT 03.07</a>',
+        url: './maps/moscow/sretenka_2024.webp',
+        link: './original_maps/moscow/sretenka_2024_full.gif',
+        bounds: [[55.77349549181662, 37.624719142913825], [55.77266270748257, 37.633216381073005], [55.76724314002161, 37.62255191802979]],
+        author: 'GRCHV_D',
+        owner: 'GRCHV_D',
+        types: ['SPRINT','CITY'],
+    },
+    {
         name: 'Коломенское',
         year: 1999,
         url: './maps/moscow/kolomenskoe_1999.webp',
