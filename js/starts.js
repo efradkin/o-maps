@@ -94,7 +94,7 @@ let starts = {
     JWSOC_2003: {
         major: true,
         short: 'JWSOC 2003',
-        name: '<a href="https://spbof.ru/ru/2-uncategorised/582-istoriya-orientirovaniya-1992g-po-nastoyashchee-vremya" target="_blank">Чемпионат мира  по ориентированию  на лыжах среди  юниоров</a>',
+        name: '<a href="https://spbof.ru/ru/2-uncategorised/582-istoriya-orientirovaniya-1992g-po-nastoyashchee-vremya" target="_blank">Чемпионат мира  по ориентированию  на лыжах среди  юниоров</a> (<a href="https://docs.cntd.ru/document/3641816" target="_blank">распоряжение</a>)',
         logo: 'jwsoc_2003.jpg'
     },
     RUSSIA_2019: {
