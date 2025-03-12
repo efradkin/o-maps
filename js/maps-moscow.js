@@ -4455,11 +4455,12 @@ let moscowMaps = [
     },
     {
         name: 'Красноармейск, г Пирожная',
-        year: 2013,
-        url: './maps/moscow/ak/krasnoarmeisk_pirozhnaya_gora_2013.webp',
-        link: './original_maps/moscow/ak/krasnoarmeisk_pirozhnaya_gora_2013_full.jpg',
-        bounds: [[56.14100680761645, 38.113117218017585], [56.139093934132646, 38.12830924987794], [56.12885844412381, 38.10852527618409]],
-        types: ['WINTER'],
+        year: 2012,
+        url: './maps/moscow/ak/krasnoarmeisk_pirozhnaya_gora_2012.webp',
+        link: './original_maps/moscow/ak/krasnoarmeisk_pirozhnaya_gora_2012_full.gif',
+        bounds: [[56.15176494755459, 38.10929775238038], [56.14899202622245, 38.13255786895753], [56.12967164342193, 38.10050010681153]],
+        owner: 'NLTV_D',
+        types: [],
     },
 /*
     {
