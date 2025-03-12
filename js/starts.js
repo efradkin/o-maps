@@ -127,6 +127,12 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/race.php?id=240519_russia" target="_blank">Чемпионат России (спринт)</a>',
         logo: 'russia_2024.jpg'
     },
+    RUSSIA_CUP_2024: {
+        major: true,
+        short: 'КР (спринт) 2024',
+        name: '<a href="https://сшгорелова.рф/кубок-россии-г-химки/" target="_blank">Кубок России (спринт)</a>',
+        logo: 'fso_msk.jpg'
+    },
     SCHOOL: {
         short: 'Ориентирование в школу',
         name: '<a href="https://spbof.ru/ru/projects/o-school" target="_blank">Спортивное ориентирование в школу</a>',

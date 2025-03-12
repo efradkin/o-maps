@@ -3757,6 +3757,36 @@ let moscowMaps = [
         types: [],
     },
     {
+        name: 'Химки, ПКиО им Толстого',
+        year: 2024,
+        start: 'RUSSIA_CUP_2024',
+        url: './maps/moscow/ak/khimki_tolstogo_2024.webp',
+        link: './original_maps/moscow/ak/khimki_tolstogo_2024_M.png',
+        gps: {
+            'М': 'https://viewer.o-gps-center.ru/viewer/event/20333/',
+            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/20334/'
+        },
+        bounds: [[55.89982381360787, 37.45438814163209], [55.89842830127382, 37.468185424804695], [55.89267729838337, 37.451941967010505]],
+        author: 'KZNN_O',
+        owner: 'FSO_MSK',
+        types: [],
+    },
+    {
+        name: 'Химки, яхт-клуб',
+        year: 2024,
+        start: 'RUSSIA_CUP_2024',
+        url: './maps/moscow/ak/khimki_2024.webp',
+        link: './original_maps/moscow/ak/khimki_2024_M.png',
+        gps: {
+            'М': 'https://viewer.o-gps-center.ru/viewer/event/20326/',
+            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/20327/'
+        },
+        bounds: [[55.90378150222149, 37.457456588745124], [55.90263874606277, 37.46822834014893], [55.89394066705849, 37.45413064956666]],
+        author: 'KZNN_O',
+        owner: 'FSO_MSK',
+        types: [],
+    },
+    {
         name: 'Химки',
         year: 2022,
         url: './maps/moscow/khimki_2022.webp',
