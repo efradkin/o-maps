@@ -144,11 +144,6 @@ let starts = {
         name: 'Инакор — интернет активное ориентирование',
         logo: 'inacor.jpg'
     },
-    LESKAR: {
-        short: 'Лесная карусель',
-        name: 'Лесная карусель',
-        logo: 'les_kar.jpg'
-    },
     KMPT_ROGAINE: {
         short: 'Компот-рогейн',
         name: 'Компот-рогейн',
