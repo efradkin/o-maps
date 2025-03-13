@@ -3379,6 +3379,17 @@ let moscowMaps = [
         types: [],
     },
     {
+        name: 'Сенеж',
+        year: 2008,
+        major: true,
+        info: 'V Чемпионат России по рогейну "Золото Сенежа".',
+        url: './maps/moscow/senezh_2008.webp',
+        link: './original_maps/moscow/senezh_2008_rogaine_full.gif',
+        bounds: [[56.348702164077835, 36.85363769531251], [56.35574068535468, 37.226486206054695], [56.21901863640133, 36.86084747314454]],
+        author: 'KSTLV_E',
+        types: ['ROGAINE'],
+    },
+    {
         name: 'Яркино',
         year: 1982,
         url: './maps/moscow/yarkino_1982.webp',
@@ -3601,6 +3612,14 @@ let moscowMaps = [
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         types: ['ROGAINE'],
+    },
+    {
+        name: 'Фрязино',
+        year: 1969,
+        url: './maps/moscow/ak/friazino_1969.webp',
+        link: './original_maps/moscow/ak/friazino_1969_full.jpg',
+        bounds: [[55.996460990768256, 38.04754257202149], [55.99286080008867, 38.09260368347168], [55.970868358840484, 38.042993545532234]],
+        types: [],
     },
     {
         name: 'Фрязино',
@@ -4502,6 +4521,14 @@ let moscowMaps = [
         link: './original_maps/moscow/verzilovo_2006_full.gif',
         bounds: [[55.02728416517494, 38.10670137405396], [55.02673069539478, 38.11983346939087], [55.01766500262448, 38.1058430671692]],
         author: 'NKRSV_S',
+        types: [],
+    },
+    {
+        name: 'Хрипань',
+        url: './maps/moscow/ak/khripan.webp',
+        link: './original_maps/moscow/ak/khripan_full.jpg',
+        bounds: [[55.663644005170006, 38.164787292480476], [55.65943186403789, 38.23439598083497], [55.63892146124507, 38.158907890319824]],
+        author: ['KRNVA','BLBN','KSHRN','YTKN'],
         types: [],
     },
 /*

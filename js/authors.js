@@ -392,6 +392,7 @@ let authors = {
     ALNKV_A: { name: 'Алейников Алексей' },
     ALSHN: { name: 'Алешин В.' },
     BGCHV: { name: 'Богачёв В.' },
+    BLBN: { name: 'Балабин В.' },
     BLTV: { name: 'Болотов С.' },
     BRLNV: { name: 'Бурлинов Николай' },
     BRTNK_A: { name: 'Бортник Алексей' },
@@ -435,9 +436,13 @@ let authors = {
     KLZHNY: { name: 'Калюжный Александр' },
     KNSTNTNV_Y: { name: 'Константинов Юрий' },
     KNTSN: { name: 'Куницын Николай' },
-    KRNVA: { name: 'Куранова Ирина' },
+    KRNVA: {
+        name: 'Куранова Ирина',
+        logo: 'krnva.jpg'
+    },
     KRSVSKY_A: { name: 'Красовский Александр' },
     KRVKV: { name: 'Корвяков Михаил' },
+    KSHRN: { name: 'Каширин Б.' },
     KSTLV_E: { name: 'Костылев Егор' },
     KSTLV_V: {
         name: 'Костылев Вячеслав', // Викторович
@@ -495,6 +500,7 @@ let authors = {
     ZLTRV_S: { name: 'Золотарев Станислав' },
     ZUEV_A: { name: '<a href="mailto:Lesasa@mail.ru" target="_blank">Зуев Алексей</a>' },
     ZVJLV: { name: 'Завьялов В.' },
+    YTKN: { name: 'Юткин С.' },
 
     /* --- СЕРБИЯ --- */
 
