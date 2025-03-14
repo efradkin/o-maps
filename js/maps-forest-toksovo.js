@@ -49,6 +49,15 @@ let toksovoMaps = [
         types: [],
     },
     {
+        name: 'Кузьмолово',
+        year: 1981,
+        url: './maps/forest/toksovo/kuzmolovo_1981.webp',
+        link: './original_maps/forest/toksovo/kuzmolovo_1981_full.jpg',
+        bounds: [[60.153424700467276, 30.465087890625], [60.146418505748684, 30.51109313964844], [60.11474385153375, 30.44491767883301]],
+        author: ['BYMKV','DRKHV'],
+        types: [],
+    },
+    {
         name: 'Токсово',
         year: 1991,
         url: './maps/forest/toksovo/toksovo_1991.webp',

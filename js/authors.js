@@ -80,6 +80,7 @@ let authors = {
         name: 'Дробышев Сергей',
         about: 'https://o-site.spb.ru/history/Peoples/sedr.html'
     },
+    DRKHV: { name: 'Дорохов В.' },
     DRSVNA: { name: 'Дресвина Е.' },
     DRZDVA: { name: 'Дроздова Е.' },
     DVRKO_V: { name: 'Дворко Владимир' }, // Михайлович

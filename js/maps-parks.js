@@ -498,7 +498,7 @@ let parkMaps = [
         owner: 'ZCHNV',
     },
     {
-        name: 'Гатчина - Приоратский парк',
+        name: 'Гатчина, Приоратский парк',
         year: 2021,
         url: './maps/parks/gatchina_prioratsky_2021.webp',
         bounds: [[59.56522340529709, 30.11159420013428], [59.562527651928654, 30.137000083923343], [59.544869479437935, 30.1030969619751]],
@@ -507,7 +507,7 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
-        name: 'Гатчина - парк Зверинец',
+        name: 'Гатчина, парк Зверинец',
         year: 1986,
         url: './maps/parks/gatchina_zverinets_1986.webp',
         link: './original_maps/parks/gatchina_zverinets_1986_full.jpg',
@@ -516,15 +516,18 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
-        name: 'Гатчина - парк Зверинец',
+        name: 'Гатчина, парк Зверинец',
         year: 2005,
+        major: true,
+        info: '06.02, Чемпионат России по ориентированию бегом на заснеженном грунте.',
         url: './maps/parks/gatchina_zverinets_2005.webp',
+        link: './original_maps/parks/gatchina_zverinets_2005_full.jpg',
         bounds: [[59.58639060698327, 30.08018016815186], [59.58306645580455, 30.124039649963382], [59.56650598635047, 30.074558258056644]],
         author: ['VLKV_K','URVNTSV','MLVA_M','MRSKY_S'],
         types: ['PARK'],
     },
     {
-        name: 'Парк 300-летя СПб',
+        name: 'Парк 300-летия СПб',
         year: 2022,
         url: './maps/parks/300_let_spb_2022.webp',
         link: './original_maps/parks/300_let_spb_2022_full.jpg',
