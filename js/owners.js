@@ -253,7 +253,8 @@ let owners = {
         name: '@ ОАНО "Школа "ЛЕТОВО"'
     },
     MLKHT: {
-        name: '@ КСО Малахит'
+        name: '@ КСО Малахит',
+        logo: 'malakhit.jpg',
     },
     NLTV_D: {
         name: '@ По вопросам использования карты обращайтесь к Дмитрию Налётову - +79166509491 (WhatsApp. Telegram), dmitry@sportident.ru.'

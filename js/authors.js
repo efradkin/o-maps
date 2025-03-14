@@ -391,6 +391,7 @@ let authors = {
 
     ALNKV_A: { name: 'Алейников Алексей' },
     ALSHN: { name: 'Алешин В.' },
+    AZRV: { name: 'Азаров А.' },
     BGCHV: { name: 'Богачёв В.' },
     BLBN: { name: 'Балабин В.' },
     BLTV: { name: 'Болотов С.' },
@@ -412,6 +413,7 @@ let authors = {
         name: 'Грачев Дмитрий',
         logo: 'grachev.jpg'
     },
+    GRBNVA: { name: 'Грибанова Татьяна' },
     GNDRV: { name: 'Гундоров С.' },
     FKN_S: { name: 'Фокин С.' },
     FLVSKY_S: { name: 'Фалевский Сергей' },
