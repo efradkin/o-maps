@@ -485,6 +485,7 @@ let authors = {
     SDRNK: { name: 'Сидоренко В.' },
     SFRNV: { name: 'Сафронов Владимир' },
     SHGV: { name: 'Шигаев Анатолий' },
+    SHLST: { name: 'Шелест Ю.' },
     SHRKHV: { name: 'Шорохов Сергей' },
     SKLV_V: { name: 'Соколов Вячеслав' },
     SKRPKO_S: { name: 'Скрипко Сергей' },

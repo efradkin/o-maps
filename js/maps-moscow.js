@@ -8,6 +8,24 @@ let moscowMaps = [
         types: [],
     },
     {
+        name: 'Ульяновский л/п',
+        year: 1989, // ??
+        url: './maps/moscow/ulianovsky_1990.webp',
+        link: './original_maps/moscow/ulianovsky_1990_full.jpg',
+        bounds: [[55.646744287044726, 37.23206520080567], [55.64471001827602, 37.259702682495124], [55.61709163580115, 37.22751617431641]],
+        author: 'OGRDNKV',
+        types: [],
+    },
+    {
+        name: 'Ульяновский л/п',
+        year: 1990, // ??
+        url: './maps/moscow/ulianovsky_winter_1990.webp',
+        link: './original_maps/moscow/ulianovsky_winter_1990_full.jpg',
+        bounds: [[55.670953656809296, 37.26253509521485], [55.66945311123119, 37.33205795288087], [55.62295611296545, 37.25850105285645]],
+        author: ['ZHRDV_V','SHLST'],
+        types: ['WINTER'],
+    },
+    {
         name: 'Лапшинка',
         year: 1989,
         url: './maps/moscow/lapshinka_1989.webp',
@@ -3369,6 +3387,7 @@ let moscowMaps = [
         url: './maps/moscow/semhoz_2006.webp',
         link: './original_maps/moscow/semhoz_2006_full.jpg',
         bounds: [[56.30625329120594, 38.03694248199463], [56.30292010381992, 38.067927360534675], [56.282795761869174, 38.028702735900886]],
+        author: 'SYTV_N',
         types: [],
     },
     {
