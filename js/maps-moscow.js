@@ -4734,6 +4734,23 @@ let moscowMaps = [
         author: ['KRNVA','BLBN','KSHRN','YTKN'],
         types: [],
     },
+    {
+        name: 'Глинково',
+        year: 2023,
+        url: './maps/moscow/ak/glinkovo_2023.webp',
+        link: './original_maps/moscow/ak/glinkovo_2023_full.jpg',
+        bounds: [[56.30632471346745, 38.19113731384278], [56.302491530057665, 38.2251262664795], [56.293228400262144, 38.18598747253419]],
+        author: 'LNTV',
+        types: [],
+    },
+    {
+        name: 'Сергиев Посад, Островок',
+        year: 2021,
+        url: './maps/moscow/ostrovok_2021.webp',
+        link: './original_maps/moscow/ostrovok_2021_full.jpg',
+        bounds: [[56.301896280746085, 38.16270589828492], [56.30052717213664, 38.17517280578614], [56.295419368902216, 38.16088199615479]],
+        types: ['PARK'],
+    },
 /*
     {
         name: 'Большая Всехсвятская роща', // "Viacheslav Sokolov: Мне не жалко, но мои просят удалить. Выложим после того, как проведём там ещё один старт, может осенью..."
