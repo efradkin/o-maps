@@ -241,6 +241,9 @@ let owners = {
     KHMCHKNA: {
         name: '@ Химочкина Т.Н.'
     },
+    KSTKN_SITE: {
+        name: 'Карта доступна в формате OCAD на <a href="http://www.kasatik.ru/sport.aspx?stori=11" target="_blank">сайте Николая Касаткина</a>.'
+    },
     KSTLV_E: {
         name: '@ Костылев Егор'
     },
