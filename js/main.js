@@ -53,7 +53,9 @@ if (MAP_NAME_PARAM) {
 }
 if (!ONLY_MAP_NAME_PARAM) {
     for (const m of oMaps) {
-        loadMap(m);
+        if (!TYPE_PARAM || (m.types.includes(TYPE_PARAM))) {
+            loadMap(m);
+        }
     }
 }
 
@@ -555,31 +557,31 @@ function buildMap(m) {
         }
     }
 
-    if (THE_AUTHOR_PARAM) {
+    if (AUTHOR_PARAM) {
         if (Array.isArray(m.author)) {
             let own = false;
             for (const a of m.author) {
-                if (THE_AUTHOR_PARAM === a) {
+                if (AUTHOR_PARAM === a) {
                     own = true; break;
                 }
             }
             if (!own) return;
         } else {
-            if (THE_AUTHOR_PARAM !== m.author) return;
+            if (AUTHOR_PARAM !== m.author) return;
         }
     }
 
-    if (THE_OWNER_PARAM) {
+    if (OWNER_PARAM) {
         if (Array.isArray(m.owner)) {
             let own = false;
             for (const o of m.owner) {
-                if (THE_OWNER_PARAM === o) {
+                if (OWNER_PARAM === o) {
                     own = true; break;
                 }
             }
             if (!own) return;
         } else {
-            if (THE_OWNER_PARAM !== m.owner) return;
+            if (OWNER_PARAM !== m.owner) return;
         }
     }
 

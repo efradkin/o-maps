@@ -1,6 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
-const THE_AUTHOR_PARAM = urlParams.get('author');
-const THE_OWNER_PARAM = urlParams.get('owner');
+const AUTHOR_PARAM = urlParams.get('author');
+const OWNER_PARAM = urlParams.get('owner');
+const TYPE_PARAM = urlParams.get('type');
 let MAP_NAME_PARAM = urlParams.get('map');
 const ONLY_MAP_NAME_PARAM = urlParams.get('onlymap');
 const START_NAME_PARAM = urlParams.get('start');
