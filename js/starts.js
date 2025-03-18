@@ -154,5 +154,10 @@ let starts = {
         name: 'Аэророгейн',
         logo: 'aero.jpg'
     },
+    MSK_LIGHT: {
+        short: 'Московский лайт',
+        name: '<a href="https://vk.com/moscow__lite" target="_blank">Московский лайт</a>',
+        logo: 'msk_light.jpg'
+    },
 };
 
