@@ -484,6 +484,7 @@ let authors = {
     PZDV_S: { name: 'Поздеев Сергей' },
     PZGRV: { name: 'Пызгарев В.' },
     RMNV_A: { name: 'Романов Александр' },
+    RZNKV_A: { name: 'Разинков Александр' },
     SDRNK: { name: 'Сидоренко В.' },
     SFRNV: { name: 'Сафронов Владимир' },
     SHGV: { name: 'Шигаев Анатолий' },
