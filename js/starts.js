@@ -159,5 +159,10 @@ let starts = {
         name: '<a href="https://vk.com/moscow__lite" target="_blank">Московский лайт</a>',
         logo: 'msk_light.jpg'
     },
+    BNO: {
+        short: 'БНО',
+        name: '<a href="https://tkmgtu.ru/library/Большое_Ночное_Ориентирование" target="_blank">Большое Ночное Ориентирование</a>',
+        logo: 'bno.jpg'
+    },
 };
 
