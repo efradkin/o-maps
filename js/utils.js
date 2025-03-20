@@ -42,15 +42,20 @@ function recalculateLayers() {
 
 function getImageOverlaysInView(total) {
     let imgs = [];
+    let bounds = map.getBounds();
     map.eachLayer( function(layer) {
         if(layer instanceof L.ImageOverlay) {
-            let bounds = map.getBounds();
-            if(total || bounds.contains(layer.getTopLeft()) || bounds.contains(layer.getTopRight()) || bounds.contains(layer.getBottomLeft())) {
+            let inside = inFrame(bounds, layer);
+            if (total || inside) {
                 imgs.push(layer);
             }
         }
     });
     return imgs.length;
+}
+
+function inFrame(bounds, layer) {
+    return bounds.contains(layer.getTopLeft()) || bounds.contains(layer.getTopRight()) || bounds.contains(layer.getBottomLeft());
 }
 
 function getMapForName(fileName) {

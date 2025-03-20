@@ -15,6 +15,13 @@ window.onload = function() {
 
     // Изначальный рендеринг таблицы
     renderMapsTable();
+
+    if (START_NAME_PARAM) {
+        document.querySelector('.o-sheet').classList.add("start-sheet");
+        let yearTH = document.getElementById('year-column');
+        yearTH.click();
+        yearTH.click();
+    }
 }
 
 // Фильтрация массива. Оставляем только карты, соответствующие критерию запроса (есди он задан).

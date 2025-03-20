@@ -322,6 +322,21 @@ label:has(> span span .layer-separator) {
     padding: 20px;
 }
 
+/* --- SHEETS --- */
+#year-column {
+    text-align: end;
+}
+.o-sheet {
+    td:nth-child(10) {
+        max-width: 400px;
+    }
+}
+.start-sheet {
+    td {
+        padding: 15px 10px;
+    }
+}
+
 /* --- integration --- */
 body.integration-body {
     background-color: #bddab1;

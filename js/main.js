@@ -522,23 +522,23 @@ function loadMap(m) {
     }
 
     if (loadImagesRequired) {
-        imagesLoadCounter++;
-        m.img = new Image();
-        m.img.src = m.url;
-        m.img.onerror = function () {
-            notificationControl.warning('Ошибка загрузки карты "' + m.name + '". Попробуйте обновить страницу.');
-        }
-        m.img.onload = function () {
-            loadMapImage(m);
-        }
+        loadMapImage(m);
     } else {
         buildMap(m);
     }
 }
 
 function loadMapImage(m) {
-    buildMap(m);
-    imagesLoadCounter--;
+    imagesLoadCounter++;
+    m.img = new Image();
+    m.img.src = m.url;
+    m.img.onerror = function () {
+        notificationControl.warning('Ошибка загрузки карты "' + m.name + '". Попробуйте обновить страницу.');
+    }
+    m.img.onload = function () {
+        buildMap(m);
+        imagesLoadCounter--;
+    }
 }
 
 function buildMap(m) {
