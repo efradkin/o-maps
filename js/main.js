@@ -698,8 +698,28 @@ function mapTitle(map) {
     return result;
 }
 
-function buildPopupText(m, latLngs) {
-    let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
+function mapLogo(m) {
+    let logo;
+    if (m.logo) {
+        logo = m.logo;
+    }
+    if (!logo && (typeof starts !== 'undefined') && m.start && starts[m.start] && starts[m.start].logo) {
+        logo = starts[m.start].logo;
+    }
+    if (!logo && m.owner && owners[m.owner] && owners[m.owner].logo) {
+        logo = owners[m.owner].logo;
+    }
+    if (!logo && m.author && authors[m.author] && authors[m.author].logo) {
+        logo = authors[m.author].logo;
+    }
+    if (!logo && m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) {
+        logo = authors[m.author[0]].logo;
+    }
+    return logo;
+}
+
+function getTypesList(m) {
+    let list;
     if (m.types.length > 0 || m.excluded) {
         let types = [
             ...m.types
@@ -707,28 +727,22 @@ function buildPopupText(m, latLngs) {
         if (m.excluded) {
             types.push('EXCLUDED');
         }
-        result += '<div class="popup-header popup-right-header">' + types.join(', ') + '</div>';
+        list = types.join(', ');
+    }
+    return list;
+}
+
+function buildPopupText(m, latLngs) {
+    let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
+    let typesList = getTypesList(m);
+    if (typesList) {
+        result += '<div class="popup-header popup-right-header">' + typesList + '</div>';
     }
 
-    let icon;
     // иконка
-    if (m.logo) {
-        icon = m.logo;
-    }
-    if (!icon && (typeof starts !== 'undefined') && m.start && starts[m.start] && starts[m.start].logo) {
-        icon = starts[m.start].logo;
-    }
-    if (!icon && m.owner && owners[m.owner] && owners[m.owner].logo) {
-        icon = owners[m.owner].logo;
-    }
-    if (!icon && m.author && authors[m.author] && authors[m.author].logo) {
-        icon = authors[m.author].logo;
-    }
-    if (!icon && m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) {
-        icon = authors[m.author[0]].logo;
-    }
-    if (icon) {
-        result += '<img src="./logo/' + icon + '" alt="" class="popup-logo" /><div class="popup-text"';
+    let logo = mapLogo(m);
+    if (logo) {
+        result += '<img src="./logo/' + logo + '" alt="" class="popup-logo" /><div class="popup-text"';
     }
 
     // имя
@@ -737,6 +751,10 @@ function buildPopupText(m, latLngs) {
     // площадь
     let area = m.area.toFixed(2);
     result += '&nbsp;-&nbsp;' + area + '&nbsp;км<sup>2</sup>';
+
+    // ссылка на страничку инфа
+    result += ' <a class="map-info-link" href="./map-info.html?map=' + extractFileName(m.url) + '" target="_blank" title="Информация о карте">🔗</a>';
+
     result += '</b><hr />';
 
     // инфа о карте
@@ -776,7 +794,7 @@ function buildPopupText(m, latLngs) {
 
     // GPS-трансляция
     if (m.gps) {
-        result += '<span class="gps-info"><img src="./images/o-gps.ico" /> ';
+        result += '<span class="gps-info"><img src="./images/o-gps.gif" /> ';
         result += 'GPS-трансляция: ' + buildGpsLinks(m);
         result += '.</span><br />';
     }
@@ -804,7 +822,7 @@ function buildPopupText(m, latLngs) {
     let onclick = 'onclick="hideMap(map, \'' + m.url + '\'); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть эту карту</a></div>';
 
-    if (icon) {
+    if (logo) {
         result += '</div>';
     }
 

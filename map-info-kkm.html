@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спортивные карты: ориентирование и рогейн</title>
+    <meta name="description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга и Москвы в наглядной форме с фильтрацией и описанием.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <meta property="og:title" content="Спортивные карты Санкт-Петербурга и Москвы: ориентирование и рогейн">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга и Москвы в наглядной форме с фильтрацией и описанием.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body">
+    <h1>O-maps ◪</h1>
+
+    <div class="container">
+
+        <h1 id="map_title">
+            Маршрут №<span class="map_month"></span> <span class="map_year"></span>
+            <span id="types_list"></span>
+        </h1>
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="true">Информация</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="preview-tab" data-bs-toggle="tab" data-bs-target="#preview" type="button" role="tab" aria-controls="preview" aria-selected="false">Карта</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
+                <div id="map_logo" class="row">
+                    <div class="col-md-3">
+                        <br />
+                        <p id="map_start"></p>
+                        <img alt="" />
+                    </div>
+                    <div class="col-md-9">
+                        <br />
+                        <h5>1. Время и место проведения</h5>
+                        <p>Маршрут от <span class="map_month"></span>.<span class="map_year"></span> <span id="map_place"></span></p>
+
+                        <h5>2. Организатор</h5>
+                        <p><a href="https://kkmstart.ru/kubok-korotkih-marshrutov/ob-avtore/">Сергей Рыжов</a></p>
+
+                        <h5>3. Формат</h5>
+                        <p>Соревнования проводятся в формате рогейна с контрольным временем 3 часа. Способ передвижения — бегом.</p>
+
+                        <h5>4. Участники соревнований</h5>
+                        <p>Команда с руководителем 2 — 5 человек. Состав команды переменный. Возможно прохождение маршрута одному с 18 лет.</p>
+
+                        <h5>5. Система отметки</h5>
+                        <p>Прохождение маршрута командами подтверждается треком или с помощью хронометража с использованием QR-кодов.</p>
+                        <p>Трек высылается — <a href="mailto:ryz@yandex.ru">ryz@yandex.ru</a></p>
+                        <p id="map_gps_url" class="value_place">O-GPS center: <a target="_blank"><span/></a></p>
+                        <p>Хронометраж с использованием QR-кодов: <a href="https://kkmstart.ru/hronometrazh-s-ispolzovaniem-qr-kodov/">https://kkmstart.ru/hronometrazh-s-ispolzovaniem-qr-kodov/</a></p>
+
+                        <h5>6. Определение результатов</h5>
+                        <p>Результатом команды является сумма очков, присуждённых за прохождение КП за вычетом штрафа. Контрольные пункты имеют стоимость от 1 до 9 очков, стоимость пункта равна первой цифре его номера.</p>
+                        <p>За каждую полную или неполную минуту опоздания после установленного контрольного времени команде начисляется 1 очко штрафа.</p>
+                        <p>Команде с большим количеством очков присуждается более высокое место. В случаи равенства очков, сравнивается время.</p>
+
+                        <h5>7. Безопасность</h5>
+                        <p>Участники соревнований несут полную ответственность за свое здоровье и безопасность, выступают в соревнованиях под свою ответственность.</p>
+
+                        <h5>8. Обязательное снаряжение:</h5>
+                        <p><ul>
+                            <li>одежда по погоде;</li>
+                            <li>часы;</li>
+                            <li>компас;</li>
+                            <li>мобильный телефон.</li>
+                        </ul></p>
+
+                        <h5>9. Награждение</h5>
+                        <p>Все команды, занявшие с 1 по 3 место награждаются дипломами.</p>
+
+                        <h5>10. Контакты</h5>
+                        <p>Ответственный за проведения соревнований: <a href="https://kkmstart.ru/kubok-korotkih-marshrutov/ob-avtore/">Сергей Рыжов</a> (<a href="mailto:ryz@yandex.ru">ryz@yandex.ru</a>, +7-921-866-15-95)</p>
+                        <p><b>Сайт соревнований:</b> <a href="https://kkmstart.ru/">https://kkmstart.ru/</a></p>
+                        <p><b>Обсуждение соревнований:</b> <a href="https://vk.com/club21533513">https://vk.com/club21533513</a></p>
+
+                        <p><span id="map_info"></span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="preview" role="tabpanel" aria-labelledby="preview-tab">
+                <p id="map_preview">
+                    <a target="_blank"><img width="80%"/></a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <noscript>
+        <div id="noscript_content">
+            Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+        </div>
+    </noscript>
+
+    <hr />
+    <span class="my-copyright">© <a href="https://o-maps.spb.ru" target="_blank">O-maps</a></span>
+
+    <script src="js/ext/leaflet.js"></script>
+    <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
+    <script src="js/ext/GeometryUtil.js"></script>
+
+    <script src="js/maps-rogaine-kkm.js"></script>
+
+    <script src="js/starts.js"></script>
+    <script src="js/authors.js"></script>
+    <script src="js/owners.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/utils-common.js"></script>
+
+
+    <script>
+        let loadImagesRequired = false;
+
+        let oMaps = [
+            ...rogaineKkmMaps,
+        ];
+    </script>
+
+    <script src="js/map-build.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/start-info.js"></script>
+    <script>
+        document.querySelectorAll('.map_month').forEach(el => el.innerHTML = m.month);
+        document.querySelectorAll('.map_year').forEach(el => el.innerHTML = m.year);
+        document.getElementById('map_place').innerHTML = m.name;
+        putValue('#map_gps_url', m.gps);
+        if (m.gps) {
+            document.querySelector('#map_gps_url a').href = m.gps;
+        }
+    </script>
+
+    <script src="js/ext/bootstrap.min.js"></script>
+</body>
+</html>
