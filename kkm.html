@@ -1,0 +1,107 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Кубок Коротких Маршрутов на O-maps</title>
+    <meta name="description" content="Кубок Коротких Маршрутов на O-maps">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <meta property="og:title" content="Кубок Коротких Маршрутов на O-maps">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/kkm.html">
+    <meta property="og:description" content="Кубок Коротких Маршрутов на O-maps">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="stat-body">
+    <h1>O-maps ◪</h1>
+    <h2 id="start_name"></h2>
+
+    <div class="container">
+    <div class="start-maps-wrapper"></div>
+    </div>
+
+    <script src="js/ext/leaflet.js"></script>
+    <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
+    <script src="js/ext/GeometryUtil.js"></script>
+
+    <script src="js/maps-rogaine-kkm.js"></script>
+
+    <script src="js/starts.js"></script>
+    <script src="js/authors.js"></script>
+    <script src="js/owners.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/utils-common.js"></script>
+
+    <script>
+        let loadImagesRequired = false;
+
+        let oMaps = [
+            ...rogaineKkmMaps,
+        ];
+    </script>
+
+    <script src="js/map-build.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Фильтрация массива. Оставляем только карты нужного старта.
+        oMaps = oMaps.filter(m => (m.layer !== undefined));
+        if (oMaps[0].month) {
+            oMaps.sort((a, b) => (b.month || 0) - (a.month || 0));
+        }
+        oMaps.sort((a, b) => (b.year || 0) - (a.year || 0));
+
+        document.getElementById('start_name').innerHTML = starts['KKM'].name;
+
+        let container = document.querySelector('.start-maps-wrapper');
+        oMaps.forEach(m => {
+/*
+            let row = `
+                    <div class="row">
+                        <div class="col-sm-2"><a href="#map_href" target="_blank"><img src="#map_img_src" width="100"/></a></div>
+                        <div class="col-sm-10"><a href="#map_link" target="_self">Маршрут от #map_month".#map_year - #map_place</a></div>
+                    </div>
+            `;
+*/
+            let row = `
+                    <div class="start-map-box align-items-center d-flex justify-content-center">
+                        <a href="#map_link" target="_self"><img src="#map_img_src" title="Маршрут ККМ от #map_month.#map_year - #map_place"/></a>
+                    </div>
+            `;
+            row = row.replace('#map_img_src', m.url);
+            row = row.replace('#map_href', m.link);
+            row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(m.url));
+            row = row.replace('#map_year', m.year);
+            row = row.replace('#map_month', m.month);
+            row = row.replace('#map_place', m.name);
+            const elRow = document.createElement("div");
+            elRow.classList.add("row");
+            elRow.innerHTML = row;
+            container.appendChild(elRow);
+        });
+    </script>
+
+    <script src="js/ext/bootstrap.min.js"></script>
+</body>
+</html>

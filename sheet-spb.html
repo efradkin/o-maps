@@ -76,6 +76,8 @@
             <option value="USSR_V_1975">Всесоюзные зимние соревнования'75</option>
             <option value="major">Чемпионаты и Кубки</option>
         </select>
+
+        <a href="start.html" target="_self" class="stat-map-link stat-map-link-right" title="Плитки" style="display: none"><img src="images/ceramics_24.png" alt="Плитки" /></a>
     </h1>
 
     <div class="o-sheet-wrapper">
@@ -174,6 +176,9 @@
 <script type="text/javascript">
      if (START_NAME_PARAM) {
          document.getElementById('start_selector').value = START_NAME_PARAM;
+         let link = document.querySelector('.stat-map-link-right');
+         link.href = './start.html?start=' + START_NAME_PARAM;
+         link.style.display = 'block';
      }
 </script>
 </html>
