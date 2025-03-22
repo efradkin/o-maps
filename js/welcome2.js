@@ -48,7 +48,7 @@ const welcomeDialogContent = `
 <li>The icons created by <a href="https://www.flaticon.com/">Good Ware - Flaticon</a>.</li>
 </ul> 
 <hr />
-Найти меня можно по электронной почте eugene.fradkin⚽gmail.com или в <a href="https://t.me/o_maps" target="_blank">чате проекта в Telegram</a>.
+Найти меня можно по электронной почте eugene.fradkin⚽gmail.com, в <a href="https://vk.com/fradkin" target="_blank">ВК</a> или в <a href="https://t.me/o_maps" target="_blank">чате проекта в Telegram</a>.
 </p>
 `;
 
