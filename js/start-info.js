@@ -11,7 +11,8 @@ if (m.info) {
 }
 document.querySelector('#map_preview img').src = m.url;
 if (m.link) {
-    document.querySelector('#map_preview a').href = m.link;
+    document.querySelector('#download_links').innerHTML = buildDownloadLinks(m.link);
+    document.querySelector('#map_preview').href = Array.isArray(m.link) ? m.link[0] : m.link;
 }
 putValue('#map_gps', buildGpsLinks(m));
 putValue('#map_author', buildAuthors(m));

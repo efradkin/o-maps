@@ -36,7 +36,7 @@ let starts = {
     },
     KKM: {
         short: 'ККМ',
-        name: '<a href="https://kkmstart.ru" target="_blank">Кубок Коротких Маршрутов</a>',
+        name: '<a href="https://vk.com/club21533513" target="_blank">Кубок Коротких Маршрутов</a>',
         logo: 'kkm.jpg'
     },
     BA: {

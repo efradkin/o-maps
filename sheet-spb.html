@@ -139,6 +139,7 @@
 
     <script>
         let loadImagesRequired = false;
+        let startInfoRequired = true;
 
         let oMaps = [
             ...pskStartsMaps,
@@ -173,12 +174,4 @@
     <script src="js/main.js"></script>
     <script src="js/sheet.js"></script>
 </body>
-<script type="text/javascript">
-     if (START_NAME_PARAM) {
-         document.getElementById('start_selector').value = START_NAME_PARAM;
-         let link = document.querySelector('.stat-map-link-right');
-         link.href = './start.html?start=' + START_NAME_PARAM;
-         link.style.display = 'block';
-     }
-</script>
 </html>

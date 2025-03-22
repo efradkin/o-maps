@@ -30,6 +30,19 @@ oMaps = oMaps.filter(m => (m.layer !== undefined));
 // Ссылка на тело таблицы
 const tbody = document.querySelector('.o-main-table tbody');
 
+if (START_NAME_PARAM) {
+    // Листбокс выбора соревнований
+    let selector = document.getElementById('start_selector');
+    if (selector) {
+        selector.value = START_NAME_PARAM;
+    }
+    let link = document.querySelector('.stat-map-link-right');
+    if (START_NAME_PARAM !== 'major' && link) {
+        link.href = './start.html?start=' + START_NAME_PARAM;
+        link.style.display = 'block';
+    }
+}
+
 // строит табличку с инфой об авторах-составителях
 function renderMapsTable() {
     tbody.innerHTML = '';

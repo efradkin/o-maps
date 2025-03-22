@@ -906,7 +906,7 @@ function buildDownloadLinks(link) {
             if (index > 0) {
                 result += ', ';
             }
-            result += '<a href="' + value + '" target="_blank" class="ext-link"><img src="./images/' + extractFileExt(value) + '-file.png" /></a>';
+            result += '<a href="' + value + '" target="_blank" class="ext-link" title="Скачать"><img src="./images/' + extractFileExt(value) + '-file.png" /></a>';
         })
     }
     return result;
