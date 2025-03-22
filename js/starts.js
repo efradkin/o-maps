@@ -6,7 +6,7 @@ let starts = {
     },
     YM: {
         short: 'Яркий Мир',
-        name: 'Яркий Мир',
+        name: '<a href="https://vk.com/club128591100" target="_blank">Яркий Мир</a>',
         logo: 'ym.jpg'
     },
     MMS: {
@@ -16,22 +16,22 @@ let starts = {
     },
     KKP: {
         short: 'ККП',
-        name: 'Камни (Кубок) Карельского Перешейка',
+        name: '<a href="https://o-nw.ru/kkp" target="_blank">Камни (Кубок) Карельского Перешейка</a>',
         logo: 'kkp.jpg'
     },
     ST: {
         short: 'Спринт-Тур',
-        name: 'Спринт-Тур',
+        name: '<a href="https://vk.com/sprinttourspb" target="_blank">Спринт-Тур</a>',
         logo: 'st.jpg'
     },
     '100X24': {
         short: '100x24',
-        name: '100x24',
+        name: '<a href="https://100x24.ru/" target="_blank">100x24</a>',
         logo: '100x24.jpg'
     },
     RFAR: {
         short: 'RFAR',
-        name: 'Redfox Adventure Race',
+        name: '<a href="https://adventure-race.redfox.ru/" target="_blank">Redfox Adventure Race</a>',
         logo: 'redfox.jpg'
     },
     KKM: {
@@ -141,12 +141,12 @@ let starts = {
     /* --- МОСКВА --- */
     INCR: {
         short: 'Инакор',
-        name: 'Инакор — интернет активное ориентирование',
+        name: '<a href="https://vk.com/inacor" target="_blank">Инакор — интернет активное ориентирование</a>',
         logo: 'inacor.jpg'
     },
     KMPT_ROGAINE: {
         short: 'Компот-рогейн',
-        name: 'Компот-рогейн',
+        name: '<a href="https://www.x-lite.run/" target="_blank">Компот-рогейн</a>',
         logo: 'kmpt-rogaine.jpg'
     },
     AERO: {

@@ -8,6 +8,11 @@ html, body, #map {
     height: 100%;
     width: 100%;
 }
+a, a:active, a:focus {
+    text-decoration: underline dotted;
+    color: #002200;
+}
+
 .starts-body {
     overflow-y: hidden;
 }

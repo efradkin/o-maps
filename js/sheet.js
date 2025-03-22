@@ -36,6 +36,7 @@ if (START_NAME_PARAM) {
     if (selector) {
         selector.value = START_NAME_PARAM;
     }
+    // Кнопка перехода на оглавление карт соревнования
     let link = document.querySelector('.stat-map-link-right');
     if (START_NAME_PARAM !== 'major' && link) {
         link.href = './start.html?start=' + START_NAME_PARAM;
