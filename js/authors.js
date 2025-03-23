@@ -391,16 +391,25 @@ let authors = {
     /* --- МОСКВА --- */
 
     ALNKV_A: { name: 'Алейников Алексей' },
-    ALSHN: { name: 'Алешин В.' },
+    ALSHN: {
+        name: 'Алешин Виктор',
+        about: 'https://o-moscow.ru/people/AleshinVM.html'
+    },
     AZRV: { name: 'Азаров А.' },
-    BGCHV: { name: 'Богачёв В.' },
+    BGCHV: {
+        name: 'Богачёв Владимир',
+        about: 'https://o-moscow.ru/people/BogachevVP.html'
+    },
     BLBN: { name: 'Балабин В.' },
     BLDV: { name: 'Бульдяев Тимофей' },
     BLTV: { name: 'Болотов С.' },
     BRLNV: { name: 'Бурлинов Николай' },
     BRTNK_A: { name: 'Бортник Алексей' },
     BRKN: { name: 'Быркин Виктор' },
-    BSHNSKY: { name: 'Бушинский А.' },
+    BSHNSKY: {
+        name: 'Бушинский Александр',
+        about: 'https://o-moscow.ru/people/BushinskiiAV.html'
+    },
     CHPKN: { name: 'Чупикин А.' },
     DDNKV: { name: 'Дудников Владимир' },
     DRNN_S: {
@@ -408,7 +417,10 @@ let authors = {
     },
     ERMCHNKV_A: { name: 'Ермаченков Алексей' },
     ERMCHNKV_F: { name: 'Ермаченков Филипп' },
-    EFMV: { name: 'Ефимов В.' },
+    EFMV: {
+        name: 'Ефимов Владимир',
+        about: 'https://o-moscow.ru/people/EfimovVA.html'
+    },
     ETNKO: { name: 'Этенко Г.' },
     FMN_I: { name: 'Фомин И.' },
     GRCHV_D: {
@@ -422,30 +434,61 @@ let authors = {
     FMN_I: { name: 'Фомин Игорь' },
     FRLNA_V: { name: 'Фролина В.' },
     FSHN_A: { name: 'Фишин А.' },
-    GLDRV: { name: 'Голдырев Е.' },
+    GLDRV: {
+        name: 'Голдырев Евгений',
+        about: 'https://o-moscow.ru/people/GoldyrevEP.html'
+    },
     GLSHKO: { name: 'Глушко Александр' },
-    GRSHNV: { name: 'Гришанов Е.' },
+    GRSHNV: {
+        name: 'Гришанов Евгений',
+        about: 'https://o-moscow.ru/people/GrishanovEP.html'
+    },
     GTSLNKO: { name: 'Гуцаленко Владимир' },
-    IGNTNKO: { name: 'Игнатенко Валерий' },
+    IGNTNKO: {
+        name: 'Игнатенко Валерий',
+        about: 'https://o-moscow.ru/people/IgnatenkoVA.html'
+    },
     IVNV_ALXDR: { name: 'Иванов Александр' },
     JAKMV_A: { name: 'Якимов Александр' },
     JAKMV_S: { name: 'Якимов Семён' },
-    JANN_Y: { name: 'Янин Ю.' },
+    JANN_Y: {
+        name: 'Янин Юрий',
+        about: 'https://o-moscow.ru/people/YaninUB.html'
+    },
     JASHPTRV: { name: 'Яшпатров Геннадий' },
     KCHRNA: { name: 'Качурина Ирина' },
     KHMZV: { name: 'Хамурзов Владимир' },
-    KLNN_B: { name: 'Калинин Борис' },
+    KLNN_B: {
+        name: 'Калинин Борис',
+        about: 'https://o-moscow.ru/people/KalininBN.html'
+    },
     KLNN_O: { name: 'Калинин Олег' },
-    KLSNKV_V: { name: 'Колесников Вячеслав' },
-    KLTKN_N: { name: 'Калиткин Н.' },
+    KLSNKV_V: {
+        name: 'Колесников Вячеслав',
+        about: 'https://o-moscow.ru/people/KolesnikovVA.html'
+    },
+    KLTKN_N: {
+        name: 'Калиткин Николай',
+        about: 'https://o-moscow.ru/people/KalitkinNN.html'
+    },
     KLZHNY: { name: 'Калюжный Александр' },
-    KNSTNTNV_Y: { name: 'Константинов Юрий' },
-    KNTSN: { name: 'Куницын Николай' },
+    KNSTNTNV_Y: {
+        name: 'Константинов Юрий',
+        about: 'https://o-moscow.ru/people/KonstantinovUS.html'
+    },
+    KNTSN: {
+        name: 'Куницын Николай',
+        about: 'https://o-moscow.ru/people/KunicynNN.html'
+    },
     KRNVA: {
         name: 'Куранова Ирина',
-        logo: 'krnva.jpg'
+        logo: 'krnva.jpg',
+        about: 'https://o-moscow.ru/people/KuranovaII.html'
     },
-    KRSVSKY_A: { name: 'Красовский Александр' },
+    KRSVSKY_A: {
+        name: 'Красовский Александр',
+        about: 'https://o-moscow.ru/people/KrasovskiiAB.html'
+    },
     KRVKV: { name: 'Корвяков Михаил' },
     KSHRN: { name: 'Каширин Б.' },
     KSTLV_E: { name: 'Костылев Егор' },
@@ -453,18 +496,30 @@ let authors = {
         name: 'Костылев Вячеслав', // Викторович
         about: 'https://rufso.ru/wp-content/uploads/2021/01/Костылев-ВВ.pdf'
     },
-    KTNKO: { name: 'Китаенко В.' },
+    KTNKO: {
+        name: 'Китаенко Валерий',
+        about: 'https://o-moscow.ru/people/KitaenkoVG.html'
+    },
     KZLV_V: { name: 'Козлов Владимир' },
-    KZMN_R: { name: 'Кузьмин Рэм' },
+    KZMN_R: {
+        name: 'Кузьмин Рэм',
+        about: 'https://o-moscow.ru/people/KuzminRN.html'
+    },
     KZNN_O: { name: 'Казанин Олег' },
     LKN_A: { name: 'Лукин Андрей' },
     LNTV: { name: 'Леонтьев Игорь' },
-    LVN_B: { name: 'Левин Б.' },
+    LVN_B: {
+        name: 'Левин Борис',
+        about: 'https://o-moscow.ru/people/LevinBK.html'
+    },
     LZRV: { name: 'Лазарев Константин' },
     MTN_Y: { name: 'Митин Юрий' },
     MLCHK: { name: 'Мальчик Игорь' },
     MLNKV_V: { name: 'Мыльников Валентин' },
-    MRTSHV: { name: 'Мартишев В.' },
+    MRTSHV: {
+        name: 'Мартишев Владислав',
+        about: 'https://o-moscow.ru/people/MartishevVI.html'
+    },
     MSTPNV: { name: 'Мостепанов Иван' },
     MTVV: { name: 'Матвеев Виктор' },
     NDRF: { name: 'Найдорф В.' },
@@ -473,11 +528,15 @@ let authors = {
         logo: 'nkrsv.jpg'
     },
     NLTV_D: { name: 'Налётов Дмитрий' },
-    OGRDNKV: { name: 'Огородников Борис' },
+    OGRDNKV: {
+        name: 'Огородников Борис',
+        about: 'https://o-moscow.ru/people/OgorodnikovBI.html'
+    },
     OGRZKV: { name: 'Огрызков Алексей' },
     OKN_V: {
         name: 'Окин Вячеслав',
         logo: 'turtle.jpg',
+        about: 'https://o-moscow.ru/people/OkinVI.html'
     },
     ORLV_V: { name: 'Орлов В.' },
     PTRV_VLNTN: { name: 'Петров Валентин' },
@@ -485,15 +544,27 @@ let authors = {
     PZGRV: { name: 'Пызгарев В.' },
     RMNV_A: { name: 'Романов Александр' },
     RZNKV_A: { name: 'Разинков Александр' },
-    SDRNK: { name: 'Сидоренко В.' },
+    SDRNK: {
+        name: 'Сидоренко Владимир',
+        about: 'https://o-moscow.ru/people/SidorenkoVI.html'
+    },
     SFRNV: { name: 'Сафронов Владимир' },
-    SHGV: { name: 'Шигаев Анатолий' },
+    SHGV: {
+        name: 'Шигаев Анатолий',
+        about: 'https://o-moscow.ru/people/ShigaevA.html'
+    },
     SHLST: { name: 'Шелест Ю.' },
     SHRKHV: { name: 'Шорохов Сергей' },
     SKLV_V: { name: 'Соколов Вячеслав' },
     SKRPKO_S: { name: 'Скрипко Сергей' },
-    SMKN_S: { name: 'Симакин Сергей' },
-    SMRNV_V: { name: 'Смирнов В.' },
+    SMKN_S: {
+        name: 'Симакин Сергей',
+        about: 'https://o-moscow.ru/people/SimakinSM.html'
+    },
+    SMRNV_V: {
+        name: 'Смирнов Виктор',
+        about: 'https://o-moscow.ru/people/SmirnovVS.html'
+    },
     SSO_MIFI: { name: 'Бригада ССО МИФИ' },
     SYTV_N: { name: 'Сытов Николай' },
     TLMCHV: { name: 'Толмачёв Г.' },
@@ -501,13 +572,16 @@ let authors = {
     TRNN_A: { name: 'Таранин Анатолий' },
     TTYNN_M: { name: 'Тутынин Марк' },
     TTYNN_V: { name: 'Тутынин Владимир' },
+    YTKN: { name: 'Юткин С.' },
     YURCHK: { name: 'Юрчук Сергей' },
     ZHRDV_V: { name: 'Жердев Владимир' },
-    ZKHRV_Y: { name: 'Захаров Ю.' },
+    ZKHRV_Y: {
+        name: 'Захаров Юрий',
+        about: 'https://o-moscow.ru/people/ZaharovUS.html'
+    },
     ZLTRV_S: { name: 'Золотарев Станислав' },
     ZUEV_A: { name: '<a href="mailto:Lesasa@mail.ru" target="_blank">Зуев Алексей</a>' },
     ZVJLV: { name: 'Завьялов В.' },
-    YTKN: { name: 'Юткин С.' },
 
     /* --- СЕРБИЯ --- */
 

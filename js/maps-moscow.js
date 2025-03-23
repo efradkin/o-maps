@@ -1468,7 +1468,7 @@ let moscowMaps = [
         url: './maps/moscow/o-mephi/20210103_183.webp',
         link: 'http://o-mephi.net/cup/maps/20210103_183.jpg',
         bounds: [[55.69246321669408, 37.8151559829712], [55.686947832001486, 37.8609037399292], [55.659940249951156, 37.80447006225587]],
-        author: ['DBRTSV_V','TTYNN_V','LUK_V','ZUEV_A','KRSVSKY_A',],
+        author: ['DBRTSV_V','TTYNN_V','LUK_V','ZUEV_A','KRSVSKY_A','SMKN_S','BRTNK_A'],
         owner: ['FSO_MSK','SYTV_N','ERMCHNKV_A',],
         types: [],
     },
