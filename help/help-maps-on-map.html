@@ -1,0 +1,188 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Спортивные карты: ориентирование и рогейн</title>
+    <meta name="description" content="Карты? Найдутся все! Описание сайта.">
+    <link rel="icon" type="image/png" href="../favicon.png"/>
+    <link href='../css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css"/>
+
+    <meta property="og:title" content="Спортивные карты Санкт-Петербурга и Москвы. Описание сайта.">
+    <meta property="og:site_name" content="Спортивные карты. Описание сайта.">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Карты? Найдутся все! Описание сайта.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview.jpg">
+
+    <script src="../js/ext/jquery.slim.min.js"></script>
+    <script src="../js/ext/bootstrap.min.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body help-body">
+    <header class="main-header">
+        <h1><a href="../index.html">O-maps</a> ◪ <a href="help.html">Справка</a></h1>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section>
+                <nav>
+                    <h2>Карты на карте</h2>
+                    <ol>
+                        <li><a href="#map_base">Подложка</a></li>
+                        <li><a href="#layers">Слои карт</a></li>
+                        <li><a href="#map_info">Информация о карте</a></li>
+                        <li><a href="#page_controls">Элементы управления</a></li>
+                        <li><a href="#context_menu">Всплывающее (контекстное) меню</a></li>
+                        <li><a href="#maps_counter">Счётчик карт</a></li>
+                        <li><a href="#page_query">Параметры запуска</a></li>
+                    </ol>
+                </nav>
+            </section>
+
+            <section>
+                <!-- <h2 id="maps_on_map">Карты на карте</h2> -->
+                <p><img src="img/maps_on_map.webp" class="help-figure help-figure-left" /> Каждый из разделов с картами
+                    (<a href="../spb.html">Санкт-Петербург</a>, <a href="../moscow.html">Москва</a>, <a href="../serbia.html">Белград</a> и <a href="../all.html">все регионы вместе</a>) представляет из себя картографическую подложку с "привязанными" к ней изображениями спортивных карт.
+                    Щелчком мыши по любой карте можно вызвать появление всплывающег окна с подробной информацией о карте.
+                <p>Все карты организованы в группы (слои) по типу и по году издания. Все такие слои можно включатьвыключать независимо друг от друга.
+                <p>Помимо собственно карт на экране расположено множество разнообразных элементов управления - кнопки, списки выбора, ссылки и пр.
+                <p>В левой нижней части экрана расположен счётчик показываемых карт.
+                <span class="clearfix" />
+            </section>
+
+            <section>
+                <h3 id="map_base">Подложка</h3>
+                <p><img src="img/map_base.webp" class="help-figure help-figure-right" /> Самый "нижний" слой на экране - это картографическая подложка. Для неё могут использоваться различные источники:
+                    <ul>
+                        <li>Open Street Map (OSM)</li>
+                        <li>Open Topo Map (OSM)</li>
+                        <li>Яндекс карты (Схема)</li>
+                        <li>Яндекс карты (Спутник)</li>
+                    </ul>
+                    Источник данных подложки можно выбрать с помощью переключателя в правой верхней части экрана.
+                </p>
+            </section>
+
+            <section>
+                <h3 id="layers">Слои карт</h3>
+                <p><img src="img/layers.webp" class="help-figure help-figure-left" /> Спортивные карты по типу бывают:
+                    <ul class="fugure-ul">
+                        <li>Городские (CITY)</li>
+                        <li>Парковые (PARK)</li>
+                        <li>Лесные</li>
+                        <li>Специальные</li>
+                    </ul>
+                    Специальные - это объединённый слой для зимних (WINTER), велосипедных (VELO) и гидро-рельефных карт (RELIEF).
+                    Кроме них есть ещё два слоя:
+                    <ul class="fugure-ul">
+                        <li>Рогейн (ROGAINE)</li>
+                        <li>Необычные (FUN)</li>
+                    </ul>
+                    Необычные карты - это разнообразные планы, схемы, фото-квесты и пр.
+                </p>
+                <p>Спортивные карты по году издания делятся на десятилетия:
+                    <ul>
+                        <li>2020-е</li>
+                        <li>2010-е</li>
+                        <li>2000-е</li>
+                        <li>90-е</li>
+                        <li>Ретро</li>
+                        <li>???</li>
+                    </ul>
+                    Ретро - это все карты более старые, чем 1990 г. В слой "???" попадают карты, год издания которых неизвестен.
+                </p>
+                <p>Слои (типы) карт можно включать/выключать независимо друг от друга с помощью галочек (чекбоксов) в правой части экрана.
+            </section>
+
+            <section>
+                <h3 id="map_info">Информация о карте</h3>
+                <p><img src="img/map_info.webp" class="help-figure help-figure-right" /> Каталог может хранить множество разной информации о каждой карте:
+                    <ul>
+                        <li>Название</li>
+                        <li>Год</li>
+                        <li>Координаты углов карты для "привязки"</li>
+                        <li>Имя файла для предварительного просмотра</li>
+                        <li>Имена файлов изображений карты в высоком (ну или в не очень высоком) качестве</li>
+                        <li>Список авторов</li>
+                        <li>Список владельцев</li>
+                        <li>Список типов (слоёв)</li>
+                        <li>Указание на многодневку или серию соревнований</li>
+                        <li>Ссылка на GPS-трансляцию</li>
+                        <li>Логотип</li>
+                        <li>Любая дополнительная информация</li>
+                    </ul>
+                </p>
+                <p>Помимо всего перечисленного, во всплывающем окошке информации о карте показывается следующие элементы:
+                    <ul>
+                        <li>Площадь карты</li>
+                        <li>Ссылка на карту</li>
+                        <li>Ссылка на страничку информации о карте</li>
+                        <li>Кнопка "Скрыть эту карту"</li>
+                    </ul>
+                    <p>Площадь карты может быть или заранее прописана в каталоге, или вычислена "на лету". Вычисление
+                        происходит на основе координат углов карты.
+                        Поскольку у нас нет никакой информации о том, какую часть листа бумаги занимает собственно карта,
+                        то используется такое условное правило - (площадь листа * 70%).</p>
+                    <p>"Ссылка на карту" - это ссылка на O-maps, который будет открыт именно на этой карте.
+                    <p>Страничка информации о карте во многом дублирует это окошко информации, разве что в другом дизайне.
+                        Но у неё есть постоянный адрес, который можно кому-то послать или где-то упомянуть, если это вдруг будет нужно.
+                        Найти её можно на "скрепке" справа от названия и площади карты.
+                    <p>Кнопка "Скрыть эту карту" может быть очень полезна, когда в одном месте расположено множество карт,
+                        перекрывающихся друг с другом. Т.о. можно добраться до самых "глубоко закопанных" карт.
+            </section>
+
+            <section>
+                <h3 id="page_controls">Элементы управления</h3>
+                <p>...</p>
+            </section>
+
+            <section>
+                <h3 id="context_menu">Всплывающее (контекстное) меню</h3>
+                <p>...</p>
+            </section>
+
+            <section>
+                <h3 id="maps_counter">Счётчик карт</h3>
+                <p>...</p>
+            </section>
+
+            <section>
+                <h3 id="page_query">Параметры запуска</h3>
+                <p>...</p>
+            </section>
+        </div>
+
+        <noscript>
+            <div id="noscript_content">
+                Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+            </div>
+        </noscript>
+    </main>
+
+    <footer>
+        <hr />
+        <span class="my-copyright">© <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>, <a href="https://t.me/o_maps" target="_blank">O-maps group</a></span>
+    </footer>
+</body>
+</html>
