@@ -539,6 +539,7 @@ let authors = {
         about: 'https://o-moscow.ru/people/OkinVI.html'
     },
     ORLV_V: { name: 'Орлов В.' },
+    PTPKN: { name: 'Потапкин П.' },
     PTRV_VLNTN: { name: 'Петров Валентин' },
     PZDV_S: { name: 'Поздеев Сергей' },
     PZGRV: { name: 'Пызгарев В.' },
