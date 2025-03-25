@@ -67,8 +67,8 @@ function openWelcome() {
     const sw = window.innerWidth;
     const sh = window.innerHeight;
 
-    let dw = sw - 400;
-    if (dw < sw/2) dw = sw - 100;
+    let dw = sw - 444;
+    if (dw < sw/2) dw = sw - 111;
     if (dw > 842) dw = 842;
     let dh = sh - 300;
     if (sh < 800) dh = sh - 100;
