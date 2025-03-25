@@ -178,6 +178,9 @@ label:has(> span span .layer-separator) {
     background-position: center;
     margin: 2px -2px;
 }
+.home-icon {
+    background-image: url(../images/home.png);
+}
 .welcome-icon {
     background-image: url(../images/information_24.png);
 }
@@ -272,7 +275,7 @@ label:has(> span span .layer-separator) {
 }
 .stat-map-link {
     float: left;
-    margin-right: 40px;
+    margin-right: 30px;
     background-color: white;
     padding: 2px 10px;
     border: 1px solid black;
@@ -468,8 +471,8 @@ body.integration-body {
 }
 
 /* --- media --- */
-@media only screen and (max-width : 480px) {
-    .stat-body {
+@media screen and (max-width : 600px) {
+    .sheet-body {
         width: inherit;
         height: inherit;
         justify-items: normal;
