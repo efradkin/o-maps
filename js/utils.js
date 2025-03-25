@@ -208,9 +208,6 @@ function buildMapsCSV(maps, owner) {
     }
     console.log(result);
 }
-function safe(s) {
-    return s === undefined ? '' : s;
-}
 function start(s) {
     return s === undefined ? '' : starts[s].short;
 }

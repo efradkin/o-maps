@@ -53,7 +53,7 @@ function renderMapsTable() {
         const row = document.createElement('tr');
         td(m, row, i + 1);
         td(m, row, buildName(m));
-        td(m, row, safe(m.year));
+        td(m, row, m.year === 1 ? 'Ретро' : safe(m.year));
         td(m, row, buildStart(m));
         td(m, row, buildDownloadLinks(m.link));
         td(m, row, safe(m.info));

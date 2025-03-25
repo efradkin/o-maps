@@ -162,6 +162,7 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, Комаровский берег',
+        year: 1,
         url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovsky_bereg_full.jpg',
         bounds: [[60.20033623997278, 29.729690551757816], [60.18583027344266, 29.80496406555176], [60.18941469676139, 29.723253250122074]],

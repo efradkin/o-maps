@@ -1,6 +1,7 @@
 let moscowMaps = [
     {
         name: 'Некрасовский',
+        year: 1,
         url: './maps/moscow/nekrasovsky.webp',
         link: './original_maps/moscow/nekrasovsky_full.jpg',
         bounds: [[56.09669937808783, 37.44192123413087], [56.090618677710275, 37.49496459960938], [56.07342473269754, 37.43342399597169]],

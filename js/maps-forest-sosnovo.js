@@ -346,6 +346,7 @@ let sosnovoMaps = [
     },
     {
         name: 'Петяярви - кентавр',
+        year: 1,
         url: './maps/forest/sosnovo/petjajarvy_kentavr.webp',
         link: './original_maps/forest/sosnovo/petjajarvy_kentavr_full.jpg',
         bounds: [[60.635110719708734, 30.137214660644535], [60.632501109973745, 30.17905712127686], [60.619197236209565, 30.133953094482425]],

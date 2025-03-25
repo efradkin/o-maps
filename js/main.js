@@ -695,10 +695,10 @@ function tuneContextMenuItem(element, icon, flag) {
     }
 }
 
-function mapTitle(map) {
-    let result = map.name;
-    if (map.year) {
-        result += '&nbsp;(' + map.year + ')';
+function mapTitle(m) {
+    let result = m.name;
+    if (m.year) {
+        result += '&nbsp;(' + (m.year > 1 ? m.year : 'ретро') + ')';
     }
     return result;
 }
