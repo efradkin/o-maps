@@ -48,22 +48,30 @@
             <section>
                 <nav>
                     <h2>Карты на карте</h2>
-                    <ol>
+                    <ul>
                         <li><a href="#map_base">Подложка</a></li>
                         <li><a href="#layers">Слои карт</a></li>
-                        <li><a href="#map_info">Информация о карте</a></li>
+                        <li><a href="#map_info">Всплывающее окошко информации о карте</a></li>
                         <li><a href="#page_controls">Элементы управления</a></li>
+                            <ol>
+                                <li><a href="#site_navigation">Навигация по сайту</a></li>
+                                <li><a href="#placement_zooming">Местоположение и масштаб</a></li>
+                                <li><a href="#info_resources">Информационные ресурсы</a></li>
+                                <li><a href="#measurement_tools">Инструменты измерения</a></li>
+                                <li><a href="#search_tool">Поиск</a></li>
+                                <li><a href="#other_tools">Прочее</a></li>
+                            </ol>
                         <li><a href="#context_menu">Всплывающее (контекстное) меню</a></li>
-                        <li><a href="#maps_counter">Счётчик карт</a></li>
                         <li><a href="#page_query">Параметры запуска</a></li>
-                    </ol>
+                    </ul>
                 </nav>
             </section>
 
             <section>
                 <!-- <h2 id="maps_on_map">Карты на карте</h2> -->
                 <p><img src="img/maps_on_map.webp" class="help-figure help-figure-left" /> Каждый из разделов с картами
-                    (<a href="../spb.html">Санкт-Петербург</a>, <a href="../moscow.html">Москва</a>, <a href="../serbia.html">Белград</a> и <a href="../all.html">все регионы вместе</a>) представляет из себя картографическую подложку с "привязанными" к ней изображениями спортивных карт.
+                    (<a href="../spb.html">Санкт-Петербург</a>, <a href="../moscow.html">Москва</a>, <a href="../serbia.html">Белград</a> и <a href="../all.html">все регионы вместе</a>)
+                    представляет из себя картографическую подложку с "привязанными" к ней изображениями спортивных карт.
                     Щелчком мыши по любой карте можно вызвать появление всплывающег окна с подробной информацией о карте.
                 <p>Все карты организованы в группы (слои) по типу и по году издания. Все такие слои можно включатьвыключать независимо друг от друга.
                 <p>Помимо собственно карт на экране расположено множество разнообразных элементов управления - кнопки, списки выбора, ссылки и пр.
@@ -116,8 +124,8 @@
             </section>
 
             <section>
-                <h3 id="map_info">Информация о карте</h3>
-                <p><img src="img/map_info.webp" width="400" class="help-figure help-figure-right" /> Каталог может хранить множество разной информации о каждой карте:
+                <h3 id="map_info">Всплывающее окошко информации о карте</h3>
+                <p><img src="img/map_info.webp" class="help-figure help-figure-right" /> Каталог может хранить множество разной информации о каждой карте:
                     <ul>
                         <li>Название</li>
                         <li>Год</li>
@@ -154,22 +162,156 @@
 
             <section>
                 <h3 id="page_controls">Элементы управления</h3>
-                <p>...</p>
+                <p><img src="img/all_controls.png" class="help-figure" /></p>
+            </section>
+
+            <section>
+                <h4 id="site_navigation">Навигация по сайту</h4>
+                <p class="clearfix"><img src="img/region_selector.png" class="help-figure help-figure-left" /> <img src="img/home.png" class="help-figure help-figure-right" />
+                    Для перехода на начальную страницу, на страницы другого региона или на страницу стартов можно использовать всплывающее меню в верхней левой части экрана.
+                    Для перехода на начальную страницу существует также отдельная кнопка - самая левая-верхняя.
+                </p>
+            </section>
+
+            <section>
+                <h4 id="placement_zooming">Местоположение и масштаб</h4>
+                <p><img src="img/zooming.png" class="help-figure help-figure-left" /> Кнопка "Моё местоположение" сдвинет карту в то место, где Вы находитесь.
+                    Но только, если определение местоположения разрешено в настройках Вашего браузера.</p>
+                <p>Кнопки "+" и "-" ступенчато увеличивают и уменьшаю масштаб карты.</p>
+                <p>Кнопка "Ограничить область" сдвинет карту и изменит масштаб в соответствии с выделенным районом.</p>
+            </section>
+
+            <section>
+                <h4 id="info_resources">Информационные ресурсы</h4>
+                <p class="clearfix"><img src="img/about.png" class="help-figure help-figure-left" /> Кнопка "О проекте" открывает окно с краткой информацией о проекте - его общее описание,
+                    задачи, структура, способы поддержки. А также благодарности и обращения к авторам и владельцам карт.</p>
+                <p class="clearfix"><img src="img/help.png" class="help-figure help-figure-left" /> Кнопка "Справка" переносит на страницу с этой документацией.</p>
+                <p class="clearfix"><img src="img/statistics.png" class="help-figure help-figure-left" /> Кнопка "Немного статистики" ведёт на страницу статистики для текущего региона.</p>
+                <p class="clearfix"><img src="img/sheet.png" class="help-figure help-figure-left" /> Кнопка "Сводная таблица карт" открывает соответствующую страницу для текущего региона.</p>
+            </section>
+
+            <section>
+                <h4 id="measurement_tools">Инструменты измерения</h4>
+                <p><img src="img/measurement.png" class="help-figure help-figure-left" /> Кнопка "Измерение расстояний" запускает инструмент позволяющий измерить длину дистанции
+                    или любой ломаной линии на местности.</p>
+                <p>Кнопка "Измеритель площади" позволяет измерить площадь произвольного участка местности с помощью инструмента, похожего на лассо.</p>
+            </section>
+
+            <section>
+                <h4 id="search_tool">Поиск</h4>
+                <p><img src="img/search.png" class="help-figure help-figure-left" /> Инструмент поиска позволяет быстро найти карту по её названию, имени файла,
+                    году издания или даже по любому слову, встречающемуся в её описании.</p>
+            </section>
+
+            <section>
+                <h4 id="other_tools">Прочее</h4>
+                <p class="clearfix"><img src="img/gpx.png" class="help-figure help-figure-left" /> Инструмент "Просмотр GPX/KML/GeoJSON" даёт возможность наложить трек из файла соответствующего формата на карту.</p>
+                <p class="clearfix"><img src="img/opacity.png" class="help-figure help-figure-left" /> Ползунок "Прозрачность карт" меняет её от 0 до 100%, оставляя подложку неизменной.</p>
+                <p class="clearfix"><img src="img/counter.png" class="help-figure help-figure-left" /> Счётчик карт показывает число карт, поместившихся в экран и общее их количество.
+                    Если эти два числа совпадают, то показывается только одно.</p>
+                <p class="clearfix"><img src="img/compass.png" class="help-figure help-figure-left" height="75" /> Компас при правильно откалиброванном встроенном компасе телефона должен реально показывать на север.
+                    Но не стоит относиться к нему слишком серьёзно.</p>
+                <p class="clearfix"><img src="img/chat.png" class="help-figure help-figure-left" /> Большая кнопка "Группа поддержки" в правом-нижнем углу экрана открывает телеграм-чат проекта.
+                    Там Вы можете узнать все связанные с ним новости и задать любые возникшие у Вас вопросы.</p>
             </section>
 
             <section>
                 <h3 id="context_menu">Всплывающее (контекстное) меню</h3>
-                <p>...</p>
-            </section>
-
-            <section>
-                <h3 id="maps_counter">Счётчик карт</h3>
-                <p>...</p>
+                <p><img src="img/context_menu.png" class="help-figure help-figure-left" /> Меню вызывается кликом правой кнопкой мыши по карте (или долгим "тапом" по ней на телефоне). <br /> Пункты меню:
+                    <ul class="fugure-ul">
+                        <li><b>"О проекте"</b> - <a href="#info_resources">окно</a> с краткой информацией о проекте.</li>
+                        <li><b>"Координаты"</b> - копирует координаты точки появления меню в буфер обмена.</li>
+                        <li><b>"Центр сюда"</b> - перемещает карту в точку появления меню.</li>
+                        <li><b>"Показать все ориенты"</b> - включает слои всех типов спортивных карт.</li>
+                        <li><b>"Убрать ориенты"</b> - выключает все слои спортивных карт.</li>
+                        <li><b>"Показать все годы"</b> - включает все слои временнЫх интервалов (2020-е, 2010-е итд).</li>
+                        <li><b>"Увеличить"</b> - <a href="#placement_zooming">приближает карту</a>.</li>
+                        <li><b>"Уменьшить"</b> - <a href="#placement_zooming">удаляет карту</a>.</li>
+                        <li><b>"Всплыв.подсказки"</b> - включает/выключает автоматический показ всплывающего окошка с информацией о карте при наведении курсора на неё.</li>
+                        <li><b>"Скрывать карты"</b> - включает/выключает режим, при котором карты временно скрываются с экрана при перемещении подложки.
+                                Иногда (когда на экране много карт) это заметно повышает производительность.</li>
+                        <li><b>"Выделять полноразмеры"</b> - включает/выключает режим, при котором карты, у которых есть качественный джипег, выделяются специальным пунктирным обрамлением.</li>
+                        <li><b>"Скрыть кнопки"/"Показать кнопки"</b> - выключает показ большинства элементов управления (кнопок) или возвращает их обратно.</li>
+                        <li><b>"Редактирование"</b> - выключает/выключает режим редактирования (привязки карт).</li>
+                    </ul>
+                </p>
             </section>
 
             <section>
                 <h3 id="page_query">Параметры запуска</h3>
-                <p>...</p>
+                <p>Страницы с картами или со сводными таблицами карт любого из регионов
+                    (<a href="../spb.html">СПб</a>, <a href="../moscow.html">Москва</a>, <a href="../serbia.html">Белград</a>, <a href="../all.html">все вместе</a>)
+                    можно открыть в сециальном режиме путём добавления специальных параметров к адресу страницы. Ниже - таблица с описанием возможных параметров:</p>
+                <table class="table table-striped table-hover">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Параметр</th>
+                        <th scope="col">Описание</th>
+                        <th scope="col">Пример использования</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">map</th>
+                        <td>Параметр <i>map</i> в адресе указывает на конкретную карту. O-maps откроется с заданной картой в центре.</td>
+                        <td><a href="https://o-maps.spb.ru/spb.html?map=petropavlovka_2024" target="_blank">https://o-maps.spb.ru/spb.html?map=petropavlovka_2024</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">onlymap</th>
+                        <td>Параметр <i>onlymap</i> подобен предыдущему, но показана будет ТОЛЬКО выбранная карта. Все остальные не будут загружены.</td>
+                        <td><a href="https://o-maps.spb.ru/spb.html?onlymap=petropavlovka_2024" target="_blank">https://o-maps.spb.ru/spb.html?onlymap=petropavlovka_2024</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">x, y, zoom</th>
+                        <td>Параметры <i>x</i>, <i>y</i> и <i>zoom</i> задают центральную точку и степень приближения карты (9 - 16).</td>
+                        <td><a href="https://o-maps.spb.ru/moscow.html?x=55.75163&y=37.61688&zoom=15" target="_blank">https://o-maps.spb.ru/moscow.html?x=55.75163&y=37.61688&zoom=15</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">no-buttons</th>
+                        <td>Если присутствует параметр <i>no-buttons</i>, с карты будут убраны все "лишние" элементы управления.</td>
+                        <td><a href="https://o-maps.spb.ru/spb.html?no-buttons" target="_blank">https://o-maps.spb.ru/spb.html?no-buttons</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">embedded</th>
+                        <td>Это "усиленный" вариант предыдущего параметра. С карты будут убраны все элементы управления, кроме кнопок зуммирования. Он очень удобен при
+                            <a href="../integration/integration1.html">интеграции карты O-maps на страницу стороннего сайта</a>.</td>
+                        <td><a href="https://o-maps.spb.ru/spb.html?embedded" target="_blank">https://o-maps.spb.ru/spb.html?embedded</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">author</th>
+                        <td>Параметр <i>author</i> указывает, что будут загружены карты лишь одного указанного автора. Список всех авторов можно посмотреть
+                            <a href="https://github.com/efradkin/o-maps/blob/main/js/authors.js" target="_blank">тут</a>.</td>
+                        <td><a href="https://o-maps.spb.ru/all.html?author=TKMKV_K" target="_blank">https://o-maps.spb.ru/all.html?author=TKMKV_K</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">owner</th>
+                        <td>Параметр <i>owner</i> указывает, что будут загружены карты лишь одного указанного правообладателя. Их полный список можно посмотреть
+                            <a href="https://github.com/efradkin/o-maps/blob/main/js/owners.js" target="_blank">тут</a></td>
+                        <td><a href="https://o-maps.spb.ru/moscow.html?owner=O_FRZNO" target="_blank">https://o-maps.spb.ru/moscow.html?owner=O_FRZNO</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">type</th>
+                        <td>При наличии параметра <i>type</i> будут загружены карты лишь одного указанного типа (PARK, ROGAINE, SPRINT, CITY, RELIEF, WINTER, VELO, FUN).</td>
+                        <td><a href="https://o-maps.spb.ru/sheet-serbia.html?type=PARK" target="_blank">https://o-maps.spb.ru/sheet-serbia.html?type=PARK</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">start</th>
+                        <td>При наличии параметра <i>start</i> будут загружены карты лишь одной указанной многодневки (серии стартов). Список всех стартов можно посмотреть
+                            <a href="https://github.com/efradkin/o-maps/blob/main/js/starts.js" target="_blank">тут</a>.</td>
+                        <td><a href="https://o-maps.spb.ru/sheet-spb.html?start=KKP" target="_blank">https://o-maps.spb.ru/sheet-spb.html?start=KKP</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">only-wo-author</th>
+                        <td>При наличии параметра <i>only-wo-author</i> будут загружены лишь те карты, автор-составитель которых неизвестен.</td>
+                        <td><a href="https://o-maps.spb.ru/all.html?only-wo-author" target="_blank">https://o-maps.spb.ru/all.html?only-wo-author</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>Практически все параметры можно использовать одновременно. Например, такой адрес
+                    <a href="https://o-maps.spb.ru/all.html?author=TKMKV_K&x=59.99791&y=30.26149&zoom=13&type=PARK&embedded" target="_blank">https://o-maps.spb.ru/all.html?author=TKMKV_K&x=59.99791&y=30.26149&zoom=13&type=PARK&embedded</a>
+                    соотвествует O-maps-странице всех регионов вместе, на которую будут загружены только парковые карты Константина Токмакова, причём указаны конкретные точка позиционирования и степень приближения,
+                    а также включён режим embedded.
+                </p>
             </section>
         </div>
 

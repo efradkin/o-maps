@@ -52,6 +52,7 @@ a, a:active, a:focus {
     .fugure-ul {
         position: relative;
         left: 2em;
+        margin-right: 2em;
     }
 }
 .region-box {
@@ -474,6 +475,12 @@ body.integration-body {
 }
 
 /* --- media --- */
+@media screen and (max-width : 1000px) {
+    .help-figure {
+        max-width: 400px;
+        max-height: 300px;
+    }
+}
 @media screen and (max-width : 600px) {
     .sheet-body {
         width: inherit;
