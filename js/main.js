@@ -165,9 +165,11 @@ if (mapElement) {
     L.control.scale().addTo(map);
 
     // Home
-    L.easyButton('button-icon home-icon', function (btn, map) {
-        selectMapRegion('index');
-    }, 'Начальная страница').addTo(map);
+    if (!HAS_EMBEDDED_PARAM) {
+        L.easyButton('button-icon home-icon', function (btn, map) {
+            selectMapRegion('index');
+        }, 'Начальная страница').addTo(map);
+    }
 
     // Instantiate the ZoomBar control..
     new L.Control.ZoomBar({position: 'topleft'}).addTo(map);
