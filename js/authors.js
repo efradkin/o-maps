@@ -34,7 +34,7 @@ let authors = {
     BRNVA: { name: 'Баранова В.' },
     BRDR: { name: 'Бердар Азиз' },
     BRSVA_I: { name: 'Борисова И.' },
-    BRTNK_V: { name: 'Бортник В.' },
+    BRTNK_V: { name: 'Бортник Василий' },
     BSTRV_A: { name: 'Быстров А.' },
     BVZ: { name: 'Бевза Татьяна' },
     BZNV_A: {
