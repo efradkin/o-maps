@@ -176,59 +176,59 @@ function isMapAcceptable(m) {
 function buildContextmenuItems() {
     return [{
         text: 'О проекте',
-        logo: 'images/information.png',
+        icon: 'images/information.png',
         callback: openWelcome
     }, '-', {
         text: 'Координаты',
-        logo: 'images/coordinates.png',
+        icon: 'images/coordinates.png',
         callback: showCoordinates
     }, {
         text: 'Центр сюда',
-        logo: 'images/point.png',
+        icon: 'images/point.png',
         callback: centerMap
     }, '-', {
         text: SHOW_ALL_LABEL,
-        logo: 'images/maps.png',
+        icon: 'images/maps.png',
         callback: showAllOrients
     }, {
         text: CLEAR_MAP_LABEL,
-        logo: 'images/eraser.png',
+        icon: 'images/eraser.png',
         callback: hideOrients
     }, {
         text: 'Показать все годы',
-        logo: 'images/calendar.png',
+        icon: 'images/calendar.png',
         callback: showAllAges
     }, {
         text: 'Очистить все годы',
-        logo: 'images/white-calendar.png',
+        icon: 'images/white-calendar.png',
         callback: clearAges
     }, '-', {
         text: 'Увеличить',
-        logo: 'images/zoom-in.png',
+        icon: 'images/zoom-in.png',
         callback: zoomIn
     }, {
         text: 'Уменьшить',
-        logo: 'images/zoom-out.png',
+        icon: 'images/zoom-out.png',
         callback: zoomOut
     }, '-', {
         text: 'Всплыв.подсказки',
-        logo: 'images/info.png',
+        icon: 'images/info.png',
         callback: popupsSwitch
     }, {
         text: 'Скрывать карты',
-        logo: 'images/hide.png',
+        icon: 'images/hide.png',
         callback: hideMapsSwitch
     }, {
         text: 'Выделять полноразмеры',
-        logo: 'images/expand.png',
+        icon: 'images/expand.png',
         callback: fullSizeSwitch
     }, {
         text: hiddenButtonsMode ? 'Показать кнопки' : 'Скрыть кнопки',
-        logo: 'images/menu.png',
+        icon: 'images/menu.png',
         callback: hiddenButtonsModeSwitch
     }, '-', {
         text: 'Редактирование',
-        logo: 'images/edit.png',
+        icon: 'images/edit.png',
         callback: editModeSwitch
     }];
 }
