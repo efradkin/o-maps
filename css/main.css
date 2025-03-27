@@ -184,6 +184,9 @@ label:has(> span span .layer-separator) {
 .welcome-icon {
     background-image: url(../images/information_24.png);
 }
+.help-icon {
+    background-image: url(../images/question_24.png);
+}
 .statistics-icon {
     background-image: url(../images/statistics_24.png);
 }

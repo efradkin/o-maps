@@ -286,6 +286,13 @@ if (mapElement) {
         }, 'О проекте').addTo(map)
     }
 
+    // --- help ---
+    if (!hiddenButtonsMode) {
+        L.easyButton('button-icon help-icon', function (btn, map) {
+            location.href = './help/help.html';
+        }, 'Справка').addTo(map)
+    }
+
     // --- statistics ---
     if (!hiddenButtonsMode) {
         L.easyButton('button-icon statistics-icon', function (btn, map) {
