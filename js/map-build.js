@@ -20,7 +20,8 @@ if (ONLY_MAP_NAME_PARAM) {
     MAP_NAME_PARAM = ONLY_MAP_NAME_PARAM;
 }
 
-const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">O-maps</a> | <a href="https://t.me/orient_spb" target="_blank">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
+const BASEMENT = HAS_EMBEDDED_PARAM ? '<a href="https://yandex.ru/maps" target="_blank">Я.Картах</a>' : '<a href="https://www.openstreetmap.org/copyright" target="_blank">OSM</a>';
+const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps" target="_blank">O-maps</a> | <a href="https://t.me/o_maps" target="_blank">Спорт. карты</a> на ' + BASEMENT;
 const CLEAR_MAP_LABEL = 'Убрать ориенты';
 const SHOW_ALL_LABEL = 'Показать все ориенты';
 
@@ -85,14 +86,19 @@ if (mapElement) {
         attribution: ATTRIBUTION
     });
 
+    if (HAS_EMBEDDED_PARAM) {
+        activeLayers.push(yandexLayer);
+    } else {
+        activeLayers.push(osmLayer);
+    }
     if ((OWNER_PARAM && owners[OWNER_PARAM].rogaine) || ('ROGAINE' === TYPE_PARAM)) {
         activeLayers.push(
-            osmLayer, parkGroup, cityGroup, forestGroup, specialGroup,
+            parkGroup, cityGroup, forestGroup, specialGroup,
             group2020th, group2010th, group2000th, groupUnknownYear, rogaineGroup // group90th, groupRetro,
         );
     } else {
         activeLayers.push(
-            osmLayer, parkGroup, cityGroup, forestGroup, specialGroup,
+            parkGroup, cityGroup, forestGroup, specialGroup,
             group2020th, group2010th, group2000th, groupUnknownYear // group90th, groupRetro,
         );
     }
