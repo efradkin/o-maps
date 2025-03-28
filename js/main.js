@@ -83,7 +83,7 @@ if (mapElement) {
                 activeLayers.push(groupRetro, group90th);
             }
         }
-    } else if (START_NAME_PARAM === 'major') {
+    } else if (START_NAME_PARAM === 'major' && (typeof groupRetro !== 'undefined')) {
         activeLayers.push(groupRetro, group90th);
     }
     let x = centerX;
