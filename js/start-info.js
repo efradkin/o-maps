@@ -7,7 +7,10 @@ if (m.start && starts[m.start]) {
     document.getElementById('map_start').innerHTML = starts[m.start].name;
 }
 if (m.info) {
-    document.getElementById('map_info').innerHTML = m.info;
+    let el = document.getElementById('map_info');
+    if (el) {
+        el.innerHTML = m.info;
+    }
 }
 document.querySelector('#map_preview img').src = m.url;
 if (m.link) {
@@ -34,7 +37,7 @@ function putValue(el, value) {
         let span = document.querySelector(el + ' span');
         if (span) {
             span.innerHTML = value;
-            document.querySelector(el).style.display = 'block';
+            document.querySelector(el).style.display = 'inline-block';
         }
     }
 }

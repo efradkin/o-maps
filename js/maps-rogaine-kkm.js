@@ -325,6 +325,7 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         types: ['ROGAINE'],
     },
+/*
     {
         name: 'Сестрорецк',
         year: 2024,
@@ -337,6 +338,7 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         types: ['ROGAINE'],
     },
+*/
 /*
     {
         name: 'Крестовский остров',
@@ -435,6 +437,19 @@ let rogaineKkmMaps = [
         link: ['./original_maps/rogaine/kkm/sportivnaja_KKM_2025_03.pdf','./original_maps/rogaine/kkm/sportivnaja_KKM_2025_03_pictures.jpg'],
         bounds: [[59.95788937472426, 30.226607322692875], [59.95771749442233, 30.306687355041507], [59.918419462165836, 30.226564407348633]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21705/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        types: ['ROGAINE'],
+    },
+    {
+        name: 'пл "Курорт"',
+        year: 2025,
+        month: 4,
+        info: 'Апрель, фотоориентирование.',
+        url: './maps/rogaine/kkm/kurort_KKM_2025_04.webp',
+        link: ['./original_maps/rogaine/kkm/kurort_KKM_2025_04_full.jpg','./original_maps/rogaine/kkm/kurort_KKM_2025_04_pictures.jpg'],
+        bounds: [[60.1304781251055, 29.919548034667972], [60.13039263307473, 30.019283294677738], [60.05910058045116, 29.919204711914066]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/21966/',
         start: 'KKM',
         owner: 'RYZHOV',
         types: ['ROGAINE'],
