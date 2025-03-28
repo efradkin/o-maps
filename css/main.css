@@ -487,6 +487,9 @@ body.integration-body {
         height: inherit;
         justify-items: normal;
     }
+    .help-body {
+        justify-items: normal;
+    }
     .o-sheet-wrapper {
          overflow-y: inherit;
          height: inherit;
