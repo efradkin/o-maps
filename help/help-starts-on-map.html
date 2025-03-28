@@ -1,0 +1,138 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Спортивные карты: ориентирование и рогейн</title>
+    <meta name="description" content="Карты? Найдутся все! Описание сайта.">
+    <link rel="icon" type="image/png" href="../favicon.png"/>
+    <link href='../css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css"/>
+
+    <meta property="og:title" content="Спортивные карты Санкт-Петербурга и Москвы. Описание сайта.">
+    <meta property="og:site_name" content="Спортивные карты. Описание сайта.">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Карты? Найдутся все! Описание сайта.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview.jpg">
+
+    <script src="../js/ext/jquery.slim.min.js"></script>
+    <script src="../js/ext/bootstrap.min.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body help-body">
+    <header class="main-header">
+        <h1><a href="../index.html">O-maps</a> ◪ <a href="help.html">Справка</a></h1>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section>
+                <nav>
+                    <h2>Старты на карте</h2>
+                    <ul>
+                        <li><a href="#general">Общее описание</a></li>
+                        <li><a href="#page_controls">Элементы управления</a></li>
+                            <ol>
+                                <li><a href="#starts_switcher">Переключатель слоёв стартов</a></li>
+                                <li><a href="#timeline">Выбор диапазона дат (time-line)</a></li>
+                            </ol>
+                        <li><a href="#context_menu">Всплывающее (контекстное) меню</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="general" class="clearfix">
+                <p><img src="img/starts_on_map.webp" class="help-figure help-figure-left" /> В отличие от основных страниц с картами разных регионов,
+                    тут акцент сделан в большей степени не на картографисечких материалах, а на дистанциях и истории проведения различных соревнований.
+                <p>Страница <a href="../starts.html">Старты на карте</a> организована в целом точно <a href="help-maps-on-map.html">так же как и основные страницы</a>
+                    с картами регионов и представляет из себя картографическую подложку с "привязанными" к ней изображениями спортивных карт.
+                    Щелчком мыши по любой карте можно вызвать появление всплывающего окна с подробной информацией о ней.
+                <p>Все карты собраны в группы (слои) по соревнованиям, к которым они относятся, и по году. Все слои соревнований можно включать,выключать независимо друг от друга.
+                    Для выбора диапазона лет показываемых карт используется специальный элемент управления - бегунок (или time-line).
+            </section>
+
+            <section>
+                <h3 id="page_controls">Элементы управления</h3>
+                <p><img src="img/all_controls_starts.png" class="help-figure" /></p>
+            </section>
+
+            <section>
+                <h4 id="starts_switcher">Слои карт</h4>
+                <p><img src="img/layers_starts.webp" class="help-figure help-figure-left" /> Карты на этой странице сгруппированы по соревнованиям, дистанции которых на них нанесены:
+                    <ul class="fugure-ul">
+                        <li>Невский Азимут</li>
+                        <li>Яркий Мир</li>
+                        <li>ККП</li>
+                        <li>Мемориал Михаила Святкина</li>
+                        <li>Карельские скалы</li>
+                        <li>Памяти Сергея Кузнецова</li>
+                        <li>Спринт-Тур</li>
+                        <li>Ориентирование в школу</li>
+                        <li>Bike/Trail Adventure</li>
+                        <li>Марш-Бросок</li>
+                        <li>RFAR</li>
+                        <li>100х24</li>
+                        <li>ККМ</li>
+                    </ul>
+                    Отдельно выделена группа (слой) карт с дистанциями Чемпионатов и Кубков Мира, Европы, России и Советского Союза.
+                <p>Включать/выключать все эти слои можно независимо друг от друга, используя элемент управления в правой верхней части страницы.
+            </section>
+
+            <section>
+                <h4 id="timeline">Выбор диапазона дат (time-line)</h4>
+                <p>Для выбора того, карты каких лет показывать на экране, тут используется особый элемент управления -
+                    слайдер (бегунок, time-line). Он может работать в двух различных режимах:
+                    <ul>
+                        <li>Диапазон дат (годов)</li>
+                        <li>Выбор одного единственного года (time-line)</li>
+                    </ul>
+                </p>
+                <p>Переключение режима осуществляется с помощью галочки (чекбокса) справа от слайдера.</p>
+                <p class="clearfix"><img src="img/years_range.png" class="help-figure help-figure-left" /> В режиме "Диапазон" слайдер содержит два бегунка, смещая которые Вы можете выбрать
+                    начальный и конечный год врменнОго отрезка для показываемых карт.</p>
+                <p class="clearfix"><img src="img/time_line.png" class="help-figure help-figure-right" /> В режиме "Time-line" бегунок только один. Соответственно,
+                    перемещая его мы выбираем тот единственный год, к которому относятся показываемые карты/дистанции. Т.о. очень наглядно видно, как перемещались
+                    районы соревнований от года к году - своеобразная "лента времени".</p>
+            </section>
+
+            <section>
+                <h3 id="context_menu">Всплывающее (контекстное) меню</h3>
+                <p class="clearfix"><img src="img/context_menu_starts.webp" class="help-figure help-figure-left" /> "Всплывающее" меню на этой странице очень похоже на аналогичное меню <a href="help-maps-on-map.html#context_menu">на основных страницах</a>.
+                    Разница лишь в том, что вместо включения/выключения слоёв всех типов карт тут аналогично переключаются слои карт всех соревнований.
+                </p>
+            </section>
+
+        </div>
+
+        <noscript>
+            <div id="noscript_content">
+                Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+            </div>
+        </noscript>
+    </main>
+
+    <footer>
+        <hr />
+        <span class="my-copyright">© <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>, <a href="https://t.me/o_maps" target="_blank">O-maps group</a></span>
+    </footer>
+</body>
+</html>
