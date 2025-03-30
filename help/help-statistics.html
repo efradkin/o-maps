@@ -1,0 +1,100 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Спортивные карты: ориентирование и рогейн</title>
+    <meta name="description" content="Карты? Найдутся все! Описание сайта.">
+    <link rel="icon" type="image/png" href="../favicon.png"/>
+    <link href='../css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css"/>
+
+    <meta property="og:title" content="Спортивные карты Санкт-Петербурга и Москвы. Описание сайта.">
+    <meta property="og:site_name" content="Спортивные карты. Описание сайта.">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Карты? Найдутся все! Описание сайта.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview.jpg">
+
+    <script src="../js/ext/jquery.slim.min.js"></script>
+    <script src="../js/ext/bootstrap.min.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body help-body">
+    <header class="main-header">
+        <h1><a href="../index.html">O-maps</a> ◪ <a href="help.html">Справка</a></h1>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section>
+                <nav>
+                    <h2>Статистика</h2>
+                    <ul>
+                        <li><a href="#maps_charts">Диаграммы</a></li>
+                        <li><a href="#authors_rating">Таблица рейтинга авторов</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="general" class="clearfix">
+                <p>Страничка статистики существует как отдельно для каждого региона каталога
+                    (<a href="../charts-spb.html">СПб</a>, <a href="../charts-moscow.html">Москва</a>, <a href="../charts-serbia.html">Белград</a>, ) так и для <a href="../charts-all.html">общая</a>.
+                    Попасть на неё можно по ссылке с главной страницы или нажав соответствующую кнопку на странице с картами. <img src="img/statistics.png" class="help-figure" />
+                <p>Важный нюанс - эта статистика не включает большинство карт, расположенных в разделе "Старты на карте".
+            </section>
+
+            <section>
+                <h3 id="maps_charts">Диаграммы</h3>
+                <p>Первая часть страницы содержит три статистические диаграммы с общей информацией о картах каталога:
+                    <ol>
+                        <li>Количество карт по типам (включая рогейнерские)</li>
+                        <li>Площадь спортивных карт</li>
+                        <li>Количество карт по годам</li>
+                    </ol>
+                    Диаграммы строятся автоматически по данным каталога.
+                <p>Дополнительно показаны самая старая и самая большая карты в каталоге, высчитывается общая (приблизительная) площадь всех карт каталога.
+                <p>Площадь большинства карт определяется, исходя из координат листа. Для компенсации того, что реальная карта практически всегда меньше, введён понижающий коэффициент 70%. Площадь некоторых (в основном, крупных) карт указана вручную.
+            </section>
+
+            <section>
+                <h4 id="authors_rating">Таблица рейтинга авторов</h4>
+                <p>Во второй части у нас рейтинговая таблица авторов-составителей карт. Для каждого автора указано количество карт, в составлении которых он принимал участие,
+                    их оценочная площадь и дана ссылка на страницу O-maps, на которой будут показаны исключительно карты этого автора.
+                <p>Если у карты указано несколько авторов, то и её площадь, попадающая в рейтинг, будет разделена между всеми участниками.
+                <p>Также как и диаграммы, рейтинговая таблица высчитывается автоматически..
+            </section>
+
+        </div>
+
+        <noscript>
+            <div id="noscript_content">
+                Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+            </div>
+        </noscript>
+    </main>
+
+    <footer>
+        <hr />
+        <span class="my-copyright">© <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>, <a href="https://t.me/o_maps" target="_blank">O-maps group</a></span>
+    </footer>
+</body>
+</html>
