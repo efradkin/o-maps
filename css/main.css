@@ -37,6 +37,7 @@ a, a:active, a:focus {
 
     h1, h2, h3, h4, h5, h6 {
         text-align: left;
+        margin-top: 0;
     }
     .help-figure {
         border: 5px solid darkolivegreen;
@@ -49,10 +50,15 @@ a, a:active, a:focus {
         float: right;
         margin-left: 15px;
     }
-    .fugure-ul {
+    .fugure-list {
         position: relative;
         left: 2em;
         margin-right: 2em;
+    }
+    #charts-carousel {
+        width: 415px;
+        float: left;
+        margin-right: 20px;
     }
 }
 .region-box {

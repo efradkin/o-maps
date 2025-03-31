@@ -64,8 +64,38 @@
 
             <section>
                 <h3 id="maps_charts">Диаграммы</h3>
+                <div id="charts-carousel" class="carousel carousel-dark slide" title="Карусель диаграмм статистики">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/chart_maps.png" class="d-block" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/chart_squares.png" class="d-block" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/chart_years.png" class="d-block" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
                 <p>Первая часть страницы содержит три статистические диаграммы с общей информацией о картах каталога:
-                    <ol>
+                    <ol class="fugure-list">
                         <li>Количество карт по типам (включая рогейнерские)</li>
                         <li>Площадь спортивных карт</li>
                         <li>Количество карт по годам</li>
@@ -75,9 +105,9 @@
                 <p>Площадь большинства карт определяется, исходя из координат листа. Для компенсации того, что реальная карта практически всегда меньше, введён понижающий коэффициент 70%. Площадь некоторых (в основном, крупных) карт указана вручную.
             </section>
 
-            <section>
-                <h4 id="authors_rating">Таблица рейтинга авторов</h4>
-                <p>Во второй части у нас рейтинговая таблица авторов-составителей карт. Для каждого автора указано количество карт, в составлении которых он принимал участие,
+            <section class="clearfix">
+                <h3 id="authors_rating">Таблица рейтинга авторов</h3>
+                <p><img src="img/authors_rating.png" class="help-figure help-figure-right" title="Рейтинговая таблица авторов-составителей карт" /> Во второй части у нас - рейтинговая таблица авторов-составителей карт. Для каждого автора указано количество карт, в составлении которых он принимал участие,
                     их оценочная площадь и дана ссылка на страницу O-maps, на которой будут показаны исключительно карты этого автора.
                 <p>Если у карты указано несколько авторов, то и её площадь, попадающая в рейтинг, будет разделена между всеми участниками.
                 <p>Также как и диаграммы, рейтинговая таблица высчитывается автоматически..
