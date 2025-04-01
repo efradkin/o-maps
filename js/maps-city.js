@@ -844,6 +844,7 @@ let cityMaps = [
         author: 'CHGRVSKY_Y',
         start: 'ST',
         owner: 'KUZM',
+        restricted: 'с 01.04.2025 по 12.05.2025, ЧиП СПб',
         types: ['CITY'],
     },
     {
@@ -1692,5 +1693,14 @@ let cityMaps = [
         author: 'KVLVA_O',
         owner: 'ZBKVA',
         types: ['SPRINT', 'CITY'],
+    },
+    {
+        name: 'Зеленогорск',
+        year: 2025,
+        url: './maps/city/zelenogorsk_2025.png',
+        bounds: [[60.202756832158244, 29.706709384918216], [60.20180781068867, 29.71760988235474], [60.195654499997175, 29.70561504364014]],
+        owner: 'SFSO_SPB',
+        restricted: 'с 01.04.2025 по 05.10.2025, ЧиП СПб',
+        types: ['CITY'],
     },
 ];
