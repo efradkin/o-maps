@@ -531,33 +531,16 @@ tuneContextMenu();
 // --- functions ---
 
 function loadMap(m) {
-    if (isMapHidden(m)) {
-        m.url = './maps/olive.png';
-    }
-
-    if (loadImagesRequired) {
-        loadMapImage(m);
-    } else {
-        buildMap(m);
-    }
-}
-
-function loadMapImage(m) {
-    imagesLoadCounter++;
-    m.img = new Image();
-    m.img.src = m.url;
-    m.img.onerror = function () {
-        notificationControl.warning('Ошибка загрузки карты "' + m.name + '". Попробуйте обновить страницу.');
-    }
-    m.img.onload = function () {
-        buildMap(m);
-        imagesLoadCounter--;
-    }
-}
-
-function buildMap(m) {
     if (HAS_ONLY_WO_AUTHOR_PARAM && m.author) {
         return;
+    }
+
+    if (HAS_RESTRICTED_PARAM && !m.restricted) {
+        return;
+    }
+
+    if (isMapHidden(m)) {
+        m.url = './maps/olive.png';
     }
 
     if (START_NAME_PARAM) {
@@ -599,6 +582,27 @@ function buildMap(m) {
         }
     }
 
+    if (loadImagesRequired) {
+        loadMapImage(m);
+    } else {
+        buildMap(m);
+    }
+}
+
+function loadMapImage(m) {
+    imagesLoadCounter++;
+    m.img = new Image();
+    m.img.src = m.url;
+    m.img.onerror = function () {
+        notificationControl.warning('Ошибка загрузки карты "' + m.name + '". Попробуйте обновить страницу.');
+    }
+    m.img.onload = function () {
+        buildMap(m);
+        imagesLoadCounter--;
+    }
+}
+
+function buildMap(m) {
     let bounds;
     if (m.bounds.length === 3) {
         bounds = m.bounds;
@@ -803,7 +807,7 @@ function buildPopupText(m, latLngs) {
 
     // закрытый район
     if (m.restricted) {
-        result += '<span class="restricted-text">Район закрыт ' + m.restricted + '.</span><br />';
+        result += getRestrictedText(m) + '<br />';
     }
 
     // GPS-трансляция
@@ -841,6 +845,10 @@ function buildPopupText(m, latLngs) {
     }
 
     return result;
+}
+
+function getRestrictedText(m) {
+    return '<span class="restricted-text">Район закрыт ' + m.restricted + '.</span>';
 }
 
 function buildAuthors(m, withIcon) {

@@ -56,7 +56,7 @@ function renderMapsTable() {
         td(m, row, m.year === 1 ? 'Ретро' : safe(m.year));
         td(m, row, buildStart(m));
         td(m, row, buildDownloadLinks(m.link));
-        td(m, row, safe(m.info));
+        td(m, row, buildInfo(m));
         td(m, row, m.area.toFixed(2));
         td(m, row, buildGpsLinks(m));
         td(m, row, buildAuthors(m, true));
@@ -89,6 +89,18 @@ function buildStart(m) {
             result += '<img src="./logo/' + starts[m.start].logo + '" alt="" class="sheet-icon" /> ';
         }
         result += starts[m.start].name;
+    }
+    return result;
+}
+
+function buildInfo(m) {
+    let result = '';
+    if (m.restricted) {
+        result += getRestrictedText(m);
+    }
+    if (m.info) {
+        result += '<br />'
+        result += m.info;
     }
     return result;
 }
