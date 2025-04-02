@@ -129,6 +129,15 @@ let vaskelovoMaps = [
         types: [],
     },
     {
+        name: 'Гарболово, Банное оз',
+        year: 2006,
+        url: './maps/forest/vaskelovo/vaskelovo_bannoe_2006.webp',
+        link: './original_maps/forest/vaskelovo/vaskelovo_bannoe_2006_full.jpg',
+        bounds: [[60.38116302014467, 30.430583953857425], [60.37838439793587, 30.45890808105469], [60.36851943568496, 30.42672157287598]],
+        author: 'CHGRVSKY_V',
+        types: [],
+    },
+    {
         name: 'Коросары',
         year: 1993,
         url: './maps/forest/vaskelovo/korosary_1993.webp',
@@ -168,7 +177,7 @@ let vaskelovoMaps = [
         types: [],
     },
     {
-        name: 'Гарболово, оз Сиркиярви',
+        name: 'оз Сиркиярви',
         year: 2022,
         url: './maps/forest/vaskelovo/garbolovo_sirkijarvi_2022.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_sirkijarvi_2022_full.gif',
@@ -178,7 +187,7 @@ let vaskelovoMaps = [
         types: [],
     },
     {
-        name: 'Гарболово, оз Сиркиярви',
+        name: 'оз Сиркиярви',
         year: 2016,
         url: './maps/forest/vaskelovo/garbolovo_2016.webp',
         bounds: [[60.37399326745597, 30.473756790161136], [60.370238063287275, 30.513024330139164], [60.347676517105526, 30.46388626098633]],
