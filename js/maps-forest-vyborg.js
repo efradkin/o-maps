@@ -700,4 +700,14 @@ let vyborgMaps = [
         owner: 'NW',
         types: [],
     },
+    {
+        name: 'Вещево',
+        year: 2024,
+        url: './maps/forest/vyborg/veschevo_2024.png',
+        bounds: [[60.668848250638945, 29.18191909790039], [60.668806205888785, 29.217367172241214], [60.648071456651905, 29.181833267211914]],
+        author: 'CHGRVSKY_V',
+        owner: 'SFSO_SPB',
+        restricted: 'с 01.04.2025 по 09.06.2025, ЧиП СПб',
+        types: [],
+    },
 ];

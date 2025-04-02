@@ -630,9 +630,8 @@ let forestMaps = [
         url: './maps/forest/veschevo_2021.webp',
         link: './original_maps/forest/veschevo_2021_full.jpg',
         bounds: [[60.68982173198891, 29.154109954833988], [60.68667027795842, 29.189515113830566], [60.666514683959356, 29.145269393920902]],
-        author: ['CHGRVSKY_V','CHGRVSKY_Y'],
+        author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB',
-        restricted: 'с 01.04.2025 по 09.06.2025, ЧиП СПб',
         types: [],
     },
     {
