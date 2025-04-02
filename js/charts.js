@@ -54,7 +54,7 @@ function calcMapsArea(group) {
 function calcYears() {
     let y2020 = 0, y2010 = 0, y2000 = 0, y1990 = 0, yRetro = 0, yUnknown = 0;
     for (const m of oMaps) {
-        if (m.year) {
+        if (m.year && m.year > 1) {
             if (m.year < 1990) {
                 yRetro++;
             } else
@@ -178,7 +178,7 @@ for (const m of oMaps) {
         if (m.area && (!largestMap || (m.area > largestMap.area))) {
             largestMap = m;
         }
-        if ((m.year !== undefined) && (!oldestMap || (m.year < oldestMap.year))) {
+        if ((m.year !== undefined && m.year > 1) && (!oldestMap || (m.year < oldestMap.year))) {
             oldestMap = m;
         }
     }
