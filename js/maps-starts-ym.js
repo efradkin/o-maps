@@ -1,6 +1,17 @@
 let ymStartsMaps = [
     /* --- Яркий Мир --- */
     {
+        name: 'Лемболово',
+        region: 'starts',
+        start: 'YM',
+        year: 1999,
+        url: './maps/starts/ym/ym_1999_lembolovo.webp',
+        link: './original_maps/starts/ym/ym_1999_lembolovo_full.jpg',
+        bounds: [[60.4257158379246, 30.27917861938477], [60.42279273746613, 30.330419540405277], [60.40747393764326, 30.27570247650147]],
+        author: 'CHGRVSKY_Y',
+        types: [],
+    },
+    {
         name: 'Мичуринское',
         region: 'starts',
         start: 'YM',
