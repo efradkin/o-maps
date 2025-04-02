@@ -17,6 +17,25 @@ let moscowMaps = [
         types: [],
     },
     {
+        name: 'Терехово',
+        year: 1965,
+        info: '<a href="https://t.me/lamporient/6379" target="_blank">24 октября. Марафонское ориентирование. "Золотая осень"</a>',
+        url: './original_maps/moscow/terekhovo_1965_full.jpg',
+        link: './original_maps/moscow/terekhovo_1965_full.jpg',
+        bounds: [[56.16151639174862, 37.072162628173835], [56.16734695513503, 37.1993637084961], [56.09349156919378, 37.07113265991212]],
+        types: [],
+    },
+    {
+        name: 'Лыткино',
+        year: 1976,
+        info: '<a href="https://t.me/lamporient/6401" target="_blank">17 октября. Марафонское ориентирование. "Золотая осень"</a>',
+        logo: 'golden_autumn_1976.jpg',
+        url: './maps/moscow/lytkino_1976.webp',
+        link: ['./original_maps/moscow/lytkino_1976_1_full.jpg','./original_maps/moscow/lytkino_1976_2_full.jpg'],
+        bounds: [[56.03325969526153, 36.9301986694336], [56.03081393328615, 36.992769241333015], [56.00457219141722, 36.92839622497559]],
+        types: [],
+    },
+    {
         name: 'Ульяновский л/п',
         year: 1989, // ??
         url: './maps/moscow/ulianovsky_1990.webp',
