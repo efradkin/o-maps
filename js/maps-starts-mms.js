@@ -1,6 +1,28 @@
 let mmsStartsMaps = [
     /* --- Мемориал Михаила Святкина --- */
     {
+        name: 'Ягодное,Раздельные оз',
+        region: 'starts',
+        start: 'MMS',
+        year: 1996,
+        url: './maps/starts/mms/mms_1996_06_29.webp',
+        link: './original_maps/starts/mms/mms_1996_06_29.jpg',
+        bounds: [[60.6278706373631, 29.910192489624027], [60.62412367739534, 29.956712722778324], [60.60314950746827, 29.90160942077637]],
+        author: 'BYMKV',
+        types: [],
+    },
+    {
+        name: 'Ягодное',
+        region: 'starts',
+        start: 'MMS',
+        year: 1996,
+        url: './maps/starts/mms/mms_1996_06_30.webp',
+        link: './original_maps/starts/mms/mms_1996_06_30.jpg',
+        bounds: [[60.63666796681373, 29.948258399963382], [60.630564811411745, 30.02769470214844], [60.61243794534338, 29.938945770263675]],
+        author: 'BYMKV',
+        types: [],
+    },
+    {
         name: 'Каменногорск,Обходное оз',
         region: 'starts',
         start: 'MMS',
