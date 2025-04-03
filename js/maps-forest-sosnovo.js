@@ -223,6 +223,7 @@ let sosnovoMaps = [
     {
         name: 'Снегирёвка',
         year: 1988,
+        startYear: 1990,
         start: 'WN',
         url: './maps/forest/sosnovo/snegirevka_1988_1.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1988_1_full.jpg',
@@ -233,6 +234,7 @@ let sosnovoMaps = [
     {
         name: 'Снегирёвка',
         year: 1988,
+        startYear: 1990,
         start: 'WN',
         url: './maps/forest/sosnovo/snegirevka_1988.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1988_full.jpg',

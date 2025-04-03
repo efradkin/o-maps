@@ -3,7 +3,7 @@ const mapTypes = ['Город', 'Парки', 'Лес', 'Спец.', 'Рогей
 
 window.onload = function() {
 
-    oMaps.sort((a, b) => (a.year || 0) - (b.year || 0))
+    oMaps.sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)))
         .sort((a, b) => a.name.localeCompare(b.name));
 
     // Навешиваем обработчик на заголовок таблицы
@@ -53,7 +53,7 @@ function renderMapsTable() {
         const row = document.createElement('tr');
         td(m, row, i + 1);
         td(m, row, buildName(m));
-        td(m, row, m.year === 1 ? 'Ретро' : safe(m.year));
+        td(m, row, buildYear(m));
         td(m, row, buildStart(m));
         td(m, row, buildDownloadLinks(m.link));
         td(m, row, buildInfo(m));
@@ -80,6 +80,16 @@ function buildName(m) {
     }
     result += '<a href="' + mapLink(m.url, m.region) + '" target="_blank">' + m.name + '</a>';
     return result;
+}
+
+function buildYear(m) {
+    if (m.year === 1 ) {
+        return 'Ретро';
+    }
+    if (m.startYear) {
+        return m.startYear;
+    }
+    return safe(m.year);
 }
 
 function buildStart(m) {
@@ -127,7 +137,7 @@ function sortMapsTable() {
             break;
         case 'year':
             oMaps.sort((a, b) => {
-                return isAscending ? (a.year || 0) - (b.year || 0) : (b.year || 0) - (a.year || 0);
+                return isAscending ? (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)) : (b.startYear || (b.year || 0)) - (a.startYear || (a.year || 0));
             });
             break;
         case 'area':

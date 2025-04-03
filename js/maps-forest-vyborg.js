@@ -534,7 +534,8 @@ let vyborgMaps = [
     },
     {
         name: 'Возрождение',
-        year: 1993,
+        year: 1992,
+        startYear: 1993,
         logo: 'akka.jpg',
         start: 'WN',
         url: './maps/forest/vyborg/vozrozhdenie_1992.webp',

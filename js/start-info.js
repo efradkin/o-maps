@@ -1,7 +1,7 @@
 let m = getMapForName(MAP_NAME_PARAM);
 let elName = document.getElementById('map_name');
 if (elName) {
-    elName.innerHTML = mapTitle(m);
+    elName.innerHTML = mapTitle(m, true);
 }
 if (m.start && starts[m.start]) {
     document.getElementById('map_start').innerHTML = starts[m.start].name;

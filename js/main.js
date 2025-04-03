@@ -708,10 +708,14 @@ function tuneContextMenuItem(element, icon, flag) {
     }
 }
 
-function mapTitle(m) {
+function mapTitle(m, forStart) {
     let result = m.name;
     if (m.year) {
-        result += '&nbsp;(' + (m.year > 1 ? m.year : 'ретро') + ')';
+        let year = m.year > 1 ? m.year : 'ретро';
+        if (forStart && m.startYear) {
+            year = m.startYear;
+        }
+        result += '&nbsp;(' + year + ')';
     }
     return result;
 }
@@ -778,7 +782,7 @@ function buildPopupText(m, latLngs) {
     // инфа о карте
     let info = '';
     if (m.start) {
-        info += '<b>' + starts[m.start].name + '.</b> ';
+        info += '<b>' + starts[m.start].name + (m.startYear ? ', '+m.startYear : '') + '.</b> ';
     }
     if (m.info) {
         info += m.info;
