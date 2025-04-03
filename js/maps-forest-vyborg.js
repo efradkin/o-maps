@@ -534,8 +534,9 @@ let vyborgMaps = [
     },
     {
         name: 'Возрождение',
-        year: 1992,
+        year: 1993,
         logo: 'akka.jpg',
+        start: 'WN',
         url: './maps/forest/vyborg/vozrozhdenie_1992.webp',
         link: './original_maps/forest/vyborg/vozrozhdenie_1992_full.jpg',
         bounds: [[60.85970951117796, 28.839025497436527], [60.8549444998421, 28.909235000610355], [60.82901707952645, 28.833532333374027]],
@@ -648,7 +649,8 @@ let vyborgMaps = [
     },
     {
         name: 'Комсомольское',
-        year: 1992,
+        year: 1993,
+        start: 'WN',
         logo: 'akka.jpg',
         url: './maps/forest/vyborg/komsomolskoe.webp',
         link: './original_maps/forest/vyborg/komsomolskoe_full.jpg',

@@ -4,6 +4,7 @@ let sosnovoMaps = [
     {
         name: 'Сосново, юг',
         year: 1989,
+        start: 'WN',
         url: './maps/forest/sosnovo/sosnovo_south_1989.webp',
         link: './original_maps/forest/sosnovo/sosnovo_south_1989_full.jpg',
         bounds: [[60.55445209468727, 30.23523330688477], [60.54968381690081, 30.297031402587894], [60.52874571620552, 30.22725105285645]],
@@ -22,6 +23,7 @@ let sosnovoMaps = [
     {
         name: '69км',
         year: 1989,
+        start: 'WN',
         url: './maps/forest/sosnovo/69_km_1989.webp',
         link: './original_maps/forest/sosnovo/69_km_1989_full.jpg',
         bounds: [[60.54314211550559, 30.23669242858887], [60.53841438550446, 30.297718048095707], [60.509484218309254, 30.229053497314457]],
@@ -58,6 +60,7 @@ let sosnovoMaps = [
     {
         name: 'Колосково',
         year: 1994,
+        start: 'WN',
         url: './maps/forest/sosnovo/koloskovo_1994.webp',
         link: './original_maps/forest/sosnovo/koloskovo_1994_full.jpg',
         bounds: [[60.630249099534126, 30.177898406982425], [60.62702866180913, 30.224289894104007], [60.601063980517786, 30.170903205871582]],
@@ -67,6 +70,7 @@ let sosnovoMaps = [
     {
         name: 'Замостье',
         year: 1989,
+        start: 'WN',
         url: './maps/forest/sosnovo/zamostie_1989.webp',
         link: './original_maps/forest/sosnovo/zamostie_1989_full.jpg',
         bounds: [[60.54651864267247, 30.3178882598877], [60.54360640888423, 30.36423683166504], [60.51603272298398, 30.311708450317386]],
@@ -76,6 +80,7 @@ let sosnovoMaps = [
     {
         name: 'Замостье',
         year: 1991,
+        start: 'WN',
         url: './maps/forest/sosnovo/zamostie_1991.webp',
         link: './original_maps/forest/sosnovo/zamostie_1991_full.jpg',
         bounds: [[60.52663426892839, 30.328273773193363], [60.5241425840469, 30.374622344970707], [60.49295920575224, 30.32381057739258]],
@@ -84,7 +89,8 @@ let sosnovoMaps = [
     },
     {
         name: 'Замостье',
-        year: 1999,
+        year: 2000,
+        start: 'WN',
         url: './maps/forest/sosnovo/zamostie_1999.webp',
         link: './original_maps/forest/sosnovo/zamostie_1999_full.jpg',
         bounds: [[60.538562137521424, 30.337886810302734], [60.538688781570556, 30.37153244018555], [60.51373033511651, 30.336771011352543]],
@@ -198,6 +204,7 @@ let sosnovoMaps = [
     {
         name: 'Снегирёвка',
         year: 1991,
+        start: 'WN',
         url: './maps/forest/sosnovo/snegirevka_1991.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1991_full.jpg',
         bounds: [[60.52488166312165, 30.276002883911136], [60.52215754533236, 30.348358154296875], [60.494206271637864, 30.27016639709473]],
@@ -216,6 +223,7 @@ let sosnovoMaps = [
     {
         name: 'Снегирёвка',
         year: 1988,
+        start: 'WN',
         url: './maps/forest/sosnovo/snegirevka_1988_1.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1988_1_full.jpg',
         bounds: [[60.55580227573843, 30.280079841613773], [60.55196255061042, 30.334196090698246], [60.53195485238091, 30.274500846862797]],
@@ -225,6 +233,7 @@ let sosnovoMaps = [
     {
         name: 'Снегирёвка',
         year: 1988,
+        start: 'WN',
         url: './maps/forest/sosnovo/snegirevka_1988.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1988_full.jpg',
         bounds: [[60.538562137521424, 30.276474952697757], [60.53816109476326, 30.33908843994141], [60.514490774894206, 30.27467250823975]],
@@ -290,6 +299,7 @@ let sosnovoMaps = [
     {
         name: 'Кривко, оз Уловное',
         year: 1992,
+        start: 'WN',
         url: './maps/forest/sosnovo/krivko_ulovnoe_1992.webp',
         link: './original_maps/forest/sosnovo/krivko_ulovnoe_1992_full.jpg',
         bounds: [[60.61582829627545, 30.21471977233887], [60.614017345690115, 30.26063919067383], [60.575753066539036, 30.2094841003418]],
@@ -337,10 +347,21 @@ let sosnovoMaps = [
     },
     {
         name: 'Петяярви',
-        year: 1995,
+        year: 1996,
+        start: 'WN',
         url: './maps/forest/sosnovo/petjajarvy_1995.webp',
         link: './original_maps/forest/sosnovo/petjajarvy_1995_full.jpg',
         bounds: [[60.63191181402526, 30.109448432922367], [60.6278706373631, 30.16159057617188], [60.61370147180539, 30.104727745056156]],
+        author: ['LVCHV','SVTKN','KAZNTSVA_O'],
+        types: [],
+    },
+    {
+        name: 'Петяярви',
+        year: 1997,
+        start: 'WN',
+        url: './maps/forest/sosnovo/petjajarvy_1997.webp',
+        link: ['./original_maps/forest/sosnovo/petjajarvy_1997_full.jpg','./original_maps/forest/sosnovo/petjajarvy_wn_1997.jpg'],
+        bounds: [[60.634921319659725, 30.012931823730472], [60.63241692549768, 30.06588935852051], [60.616691620658365, 30.008082389831547]],
         author: ['LVCHV','SVTKN','KAZNTSVA_O'],
         types: [],
     },
@@ -395,6 +416,7 @@ let sosnovoMaps = [
     {
         name: 'Петяярви',
         year: 2001,
+        start: 'WN',
         url: './maps/forest/sosnovo/petjajarvy_2001.webp',
         link: './original_maps/forest/sosnovo/petyajarv_2001_full.jpg',
         bounds: [[60.634479381884795, 30.074815750122074], [60.6279548337094, 30.161375999450687], [60.616186262847506, 30.069322586059574]],

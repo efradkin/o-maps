@@ -453,6 +453,7 @@ let vaskelovoMaps = [
     {
         name: 'Лемболово',
         year: 1983,
+        start: 'WN',
         url: './maps/forest/vaskelovo/lembolovo_1983.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_1983_full.jpg',
         bounds: [[60.445111786842475, 30.256090164184574], [60.44248681173031, 30.30312538146973], [60.415801649062175, 30.252141952514652]],

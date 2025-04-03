@@ -19,6 +19,11 @@ let starts = {
         name: '<a href="https://o-nw.ru/kkp" target="_blank">Камни (Кубок) Карельского Перешейка</a>',
         logo: 'kkp.jpg'
     },
+    WN: {
+        short: 'БН',
+        name: '<a href="http://www.w-n.ru/white%20nights/" target="_blank">Белые Ночи</a>',
+        logo: 'wn_retro.webp'
+    },
     ST: {
         short: 'Спринт-Тур',
         name: '<a href="https://vk.com/sprinttourspb" target="_blank">Спринт-Тур</a>',
