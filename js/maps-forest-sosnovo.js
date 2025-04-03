@@ -358,7 +358,7 @@ let sosnovoMaps = [
         types: [],
     },
     {
-        name: 'Петяярви',
+        name: 'Ягодное',
         year: 1997,
         start: 'WN',
         url: './maps/forest/sosnovo/petjajarvy_1997.webp',
