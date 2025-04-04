@@ -216,6 +216,9 @@ let owners = {
         name: '@ <a href="https://odmitrov2007.narod.ru/index_map_Dubna.htm" target="_blank">Спортивное ориентирование в Дмитрове и в Дубне</a>',
         logo: 'dubna.jpg'
     },
+    DYTS_ALXNDRV: {
+        name: 'ДЮЦ г.Александрова Владимирской обл.',
+    },
     ERMCHNKV_A: {
         name: '@ Ермаченков Алексей, 89164951315',
         logo: 'mifi.jpg'
@@ -262,6 +265,9 @@ let owners = {
     LTVO: {
         name: '@ ОАНО "Школа "ЛЕТОВО"'
     },
+    LZRV: {
+        name: '@ Лазарев Константин, +7(929)992-38-55'
+    },
     MLKHT: {
         name: '@ КСО Малахит',
         logo: 'malakhit.jpg',
@@ -278,6 +284,9 @@ let owners = {
     },
     ORNTA_VSNA: {
         name: '@ КСО Ориента-Весна'
+    },
+    SKBLV: {
+        name: '@ Скобелев Алексей Алексеевич, +79030063030'
     },
     SKHRV_P: {
         name: '@ Сухарев Пётр, 89258822600'
