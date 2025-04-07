@@ -1051,6 +1051,7 @@ let cityMaps = [
         name: 'Сертолово, Пограничная ул',
         year: 2024,
         url: './maps/city/sertolovo_pogranichnaya_2024.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22089/',
         bounds: [[60.146354417809526, 30.222294330596924], [60.144997860463, 30.23516893386841], [60.1407676058273, 30.21995544433594]],
         types: ['CITY'],
         author: 'SVCHK',
