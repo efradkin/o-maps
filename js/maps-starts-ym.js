@@ -14,7 +14,7 @@ let ymStartsMaps = [
     {
         name: 'Мичуринское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2010,
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=10061520" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2010_michurinskoe_klassika.webp',
@@ -26,7 +26,7 @@ let ymStartsMaps = [
     {
         name: 'Мичуринское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2010,
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=10061520" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2010_michurinskoe_long.webp',
@@ -38,7 +38,7 @@ let ymStartsMaps = [
     {
         name: 'Мичуринское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2010,
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=10061520" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2010_michurinskoe_sprint.webp',
@@ -50,7 +50,7 @@ let ymStartsMaps = [
     {
         name: 'Ягодное, Берестовое оз',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2011,
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=11061419" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2011_yagodnoe_long.webp',
@@ -62,7 +62,7 @@ let ymStartsMaps = [
     {
         name: 'Ягодное, Берестовое оз',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2011,
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=11061419" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2011_yagodnoe_klassika2.webp',
@@ -74,7 +74,7 @@ let ymStartsMaps = [
     {
         name: 'Ягодное, Берестовое оз',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2011,
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=11061419" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2011_yagodnoe_sprint.webp',
@@ -86,7 +86,7 @@ let ymStartsMaps = [
     {
         name: 'Первомайское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2012,
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=12061924" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2012_pervomayskoe_long.webp',
@@ -98,7 +98,7 @@ let ymStartsMaps = [
     {
         name: 'Первомайское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2012,
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=12061924" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2012_pervomayskoe_klassika.webp',
@@ -110,7 +110,7 @@ let ymStartsMaps = [
     {
         name: 'Первомайское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2012,
         info: 'Классика №2. <a href="https://o-site.spb.ru/race.php?id=12061924" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2012_pervomayskoe_klassika2.webp',
@@ -122,7 +122,7 @@ let ymStartsMaps = [
     {
         name: 'Борисово',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2013,
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=13061823" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2013_borisovo_long.webp',
@@ -134,7 +134,7 @@ let ymStartsMaps = [
     {
         name: 'Ягодное',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2013,
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=13061823" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2013_yagodnoe_klassika.webp',
@@ -146,7 +146,7 @@ let ymStartsMaps = [
     {
         name: 'Ягодное',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2013,
         info: 'Классика №2. <a href="https://o-site.spb.ru/race.php?id=13061823" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2013_yagodnoe_klassika2.webp',
@@ -158,7 +158,7 @@ let ymStartsMaps = [
     {
         name: 'Первомайское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2014,
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=14061722" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2014_pervomayskoe_long.webp',
@@ -170,7 +170,7 @@ let ymStartsMaps = [
     {
         name: 'Первомайское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2014,
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=14061722" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2014_pervomayskoe_klassika.webp',
@@ -182,7 +182,7 @@ let ymStartsMaps = [
     {
         name: 'Первомайское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2014,
         info: 'Классика №2. <a href="https://o-site.spb.ru/race.php?id=14061722" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2014_pervomayskoe_klassika2.webp',
@@ -193,7 +193,7 @@ let ymStartsMaps = [
     {
         name: 'Ягодное, г Журавлёвка',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2015,
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=15061621" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2015_yagodnoe_long.webp',
@@ -205,7 +205,7 @@ let ymStartsMaps = [
     {
         name: 'Ягодное, г Журавлёвка',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2015,
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=15061621" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2015_yagodnoe_klassika.webp',
@@ -217,7 +217,7 @@ let ymStartsMaps = [
     {
         name: 'Ягодное, г Журавлёвка',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2015,
         info: 'Классика №2. <a href="https://o-site.spb.ru/race.php?id=15061621" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2015_yagodnoe_klassika2.webp',
@@ -229,7 +229,7 @@ let ymStartsMaps = [
     {
         name: 'Первомайское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2016,
         info: 'Классика №2. <a href="https://o-site.spb.ru/race.php?id=16061016" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2016_pervomayskoe_klassika2.webp',
@@ -241,7 +241,7 @@ let ymStartsMaps = [
     {
         name: 'Первомайское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2016,
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=16061016" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2016_pervomayskoe_klassika.webp',
@@ -253,7 +253,7 @@ let ymStartsMaps = [
     {
         name: 'Первомайское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2016,
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=16061016" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2016_pervomayskoe_sprint.webp',
@@ -264,7 +264,7 @@ let ymStartsMaps = [
     {
         name: 'Первомайское',
         region: 'starts',
-        start: 'YM',
+        start: ['YM','WN'],
         year: 2016,
         info: 'Городской спринт. <a href="https://o-site.spb.ru/race.php?id=16061016" target="_blank">Инфо и результаты.</a>',
         url: './maps/starts/ym/ym_2016_pervomayskoe_city_sprint.webp',

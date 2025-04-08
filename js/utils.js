@@ -7,7 +7,7 @@ function isMapHidden(m) {
 }
 
 function isMajor(m) {
-    return m.major || (m.start && starts[m.start].major);
+    return m.major || (m.start && starts[m.start] && starts[m.start].major);
 }
 
 function mapLink(url, region) {
@@ -289,4 +289,39 @@ function pushGroupToMap(m, group) {
     if (group._leaflet_id) {
         m.groups.push(group._leaflet_id.toString());
     }
+}
+
+function checkStartMap(start, m) {
+    if (!m.start) {
+        return false;
+    }
+    if (Array.isArray(m.start)) {
+        let accepted = false;
+        for (const s of m.start) {
+            if (start === s) {
+                accepted = true;
+                break;
+            }
+        }
+        return accepted;
+    }
+    return (start === m.start);
+}
+
+function getMapStarts(m) {
+    let start = '';
+    if (Array.isArray(m.start)) {
+        for (const s of m.start) {
+            if (start) {
+                start += ', ';
+            }
+            start += starts[s].name;
+        }
+    } else {
+        start = starts[m.start].name;
+    }
+    if (start) {
+        start += '. ';
+    }
+    return start;
 }

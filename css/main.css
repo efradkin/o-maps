@@ -238,6 +238,10 @@ label:has(> span span .layer-separator) {
 .popup-logo {
     position: fixed;
 }
+#logo-carousel {
+    width: 150px;
+    position: fixed;
+}
 .popup-text {
     margin-left: 170px;
     min-height: 160px;

@@ -65,7 +65,7 @@ let allAgeGroups = [];
 // populate age groups
 let ageGroups = {};
 for (const m of oMaps) {
-    if (START_NAME_PARAM && START_NAME_PARAM !== m.start) {
+    if (START_NAME_PARAM && !checkStartMap(START_NAME_PARAM, m)) {
         continue;
     }
     if (m.start || isMajor(m)) {
@@ -146,22 +146,12 @@ function allocateMap(m) {
     if (m.start || isMajor(m)) {
         m.groups = [];
 
-        switch (m.start) {
-            case 'SCHOOL': pushGroupToMap(m, schoolGroup); break;
-            case 'WN': pushGroupToMap(m, wnGroup); break;
-            case 'NA': pushGroupToMap(m, naGroup); break;
-            case 'YM': pushGroupToMap(m, ymGroup); break;
-            case 'KKP': pushGroupToMap(m, kkpGroup); break;
-            case 'MMS': pushGroupToMap(m, mmsGroup); break;
-            case 'KZNTSVA': pushGroupToMap(m, pskGroup); break;
-            case 'KS': pushGroupToMap(m, ksGroup); break;
-            case 'RFAR': pushGroupToMap(m, rfarGroup); break;
-            case '100X24': pushGroupToMap(m, sto24Group); break;
-            case 'ST': pushGroupToMap(m, stGroup); break;
-            case 'KKM': pushGroupToMap(m, kkmGroup); break;
-            case 'MB': pushGroupToMap(m, mbGroup); break;
-            case 'TA':
-            case 'BA': pushGroupToMap(m, baGroup); break;
+        if (Array.isArray(m.start)) {
+            for (const s of m.start) {
+                pushStartGroupToMap(s, m);
+            }
+        } else {
+            pushStartGroupToMap(m.start, m);
         }
 
         if (isMajor(m)) {
@@ -175,6 +165,26 @@ function allocateMap(m) {
             let yearGroup = getCreateAgeGroup(m.year);
             pushGroupToMap(m, yearGroup);
         }
+    }
+}
+
+function pushStartGroupToMap(start, m) {
+    switch (start) {
+        case 'SCHOOL': pushGroupToMap(m, schoolGroup); break;
+        case 'WN': pushGroupToMap(m, wnGroup); break;
+        case 'NA': pushGroupToMap(m, naGroup); break;
+        case 'YM': pushGroupToMap(m, ymGroup); break;
+        case 'KKP': pushGroupToMap(m, kkpGroup); break;
+        case 'MMS': pushGroupToMap(m, mmsGroup); break;
+        case 'KZNTSVA': pushGroupToMap(m, pskGroup); break;
+        case 'KS': pushGroupToMap(m, ksGroup); break;
+        case 'RFAR': pushGroupToMap(m, rfarGroup); break;
+        case '100X24': pushGroupToMap(m, sto24Group); break;
+        case 'ST': pushGroupToMap(m, stGroup); break;
+        case 'KKM': pushGroupToMap(m, kkmGroup); break;
+        case 'MB': pushGroupToMap(m, mbGroup); break;
+        case 'TA':
+        case 'BA': pushGroupToMap(m, baGroup); break;
     }
 }
 

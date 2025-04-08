@@ -20,9 +20,9 @@ if (m.link) {
 putValue('#map_gps', buildGpsLinks(m));
 putValue('#map_author', buildAuthors(m));
 putValue('#map_owner', buildOwners(m));
-let logo = mapLogo(m);
+let logo = mapLogoList(m);
 if (logo) {
-    document.querySelector('#map_logo img').src = './logo/' + logo;
+    document.querySelector('#map_logo img').src = './logo/' + logo[0];
 } else {
     document.querySelector('#map_logo .col-md-3').classList.remove('col-md-3');
     document.querySelector('#map_logo .col-md-9').classList.remove('col-md-9');

@@ -543,17 +543,19 @@ function loadMap(m) {
         m.url = './maps/olive.png';
     }
 
+    // the specified start maps filtering
     if (START_NAME_PARAM) {
         if (START_NAME_PARAM === 'major') {
             if (!isMajor(m)) {
                 return;
             }
         }
-        else if (START_NAME_PARAM !== m.start) {
+        else if (!checkStartMap(START_NAME_PARAM, m)) {
             return;
         }
     }
 
+    // the specified author maps filtering
     if (AUTHOR_PARAM) {
         if (Array.isArray(m.author)) {
             let own = false;
@@ -568,6 +570,7 @@ function loadMap(m) {
         }
     }
 
+    // the specified owner maps filtering
     if (OWNER_PARAM) {
         if (Array.isArray(m.owner)) {
             let own = false;
@@ -670,7 +673,10 @@ function syncMaps() {
     let hiddenMaps = [];
     for (const m of oMaps) {
         if (m.groups && isMapAcceptable(m)) {
-            if (activeLayerIds.includes(m.groups[0]) && activeLayerIds.includes(m.groups[1])) {
+            let moreStarts = m.groups.length > 2;
+            let forOneStart = !moreStarts && activeLayerIds.includes(m.groups[0]) && activeLayerIds.includes(m.groups[1]);
+            let forMoreStarts = moreStarts && (activeLayerIds.includes(m.groups[0]) || activeLayerIds.includes(m.groups[1])) && activeLayerIds.includes(m.groups[m.groups.length - 1]);
+            if (forOneStart || forMoreStarts) {
                 shownMaps.push(m);
             } else {
                 hiddenMaps.push(m);
@@ -720,22 +726,32 @@ function mapTitle(m, forStart) {
     return result;
 }
 
-function mapLogo(m) {
-    let logo;
+function mapLogoList(m) {
+    let logo = [];
     if (m.logo) {
-        logo = m.logo;
+        logo.push(m.logo);
     }
-    if (!logo && (typeof starts !== 'undefined') && m.start && starts[m.start] && starts[m.start].logo) {
-        logo = starts[m.start].logo;
+    if ((typeof starts !== 'undefined') && m.start) {
+        if (Array.isArray(m.start)) {
+            for (const s of m.start) {
+                if (starts[s] && starts[s].logo) {
+                    logo.push(starts[s].logo);
+                }
+            }
+        } else {
+            if (starts[m.start] && starts[m.start].logo) {
+                logo.push(starts[m.start].logo);
+            }
+        }
     }
-    if (!logo && m.owner && owners[m.owner] && owners[m.owner].logo) {
-        logo = owners[m.owner].logo;
+    if (m.owner && owners[m.owner] && owners[m.owner].logo) {
+        logo.push(owners[m.owner].logo);
     }
-    if (!logo && m.author && authors[m.author] && authors[m.author].logo) {
-        logo = authors[m.author].logo;
+    if (m.author && authors[m.author] && authors[m.author].logo) {
+        logo.push(authors[m.author].logo);
     }
-    if (!logo && m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) {
-        logo = authors[m.author[0]].logo;
+    if (m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) {
+        logo.push(authors[m.author[0]].logo);
     }
     return logo;
 }
@@ -755,6 +771,34 @@ function getTypesList(m) {
 }
 
 function buildPopupText(m, latLngs) {
+
+    const LOGO_CAROUSEL_TEMPLATE = `
+        <div id="logo-carousel" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#logo-carousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#logo-carousel" data-bs-slide-to="1"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./logo/image_1" class="d-block">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./logo/image_2" class="d-block">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#logo-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#logo-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    `;
+
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
     let typesList = getTypesList(m);
     if (typesList) {
@@ -762,9 +806,15 @@ function buildPopupText(m, latLngs) {
     }
 
     // иконка
-    let logo = mapLogo(m);
+    let logo = mapLogoList(m);
     if (logo) {
-        result += '<img src="./logo/' + logo + '" alt="" class="popup-logo" /><div class="popup-text"';
+        if (logo.length >= 2) {
+            let carousel = LOGO_CAROUSEL_TEMPLATE.replace('image_1', logo[0]);
+            carousel = carousel.replace('image_2', logo[1]);
+            result += carousel + '<div class="popup-text"<div class="popup-text"';
+        } else if (logo.length === 1) {
+            result += '<img src="./logo/' + logo[0] + '" alt="" class="popup-logo" /><div class="popup-text"';
+        }
     }
 
     // имя
@@ -782,7 +832,9 @@ function buildPopupText(m, latLngs) {
     // инфа о карте
     let info = '';
     if (m.start) {
-        info += '<b>' + starts[m.start].name + (m.startYear ? ', '+m.startYear : '') + '.</b> ';
+        info += '<b>';
+        info += getMapStarts(m);
+        info += (m.startYear ? ', '+m.startYear : '') + '</b> ';
     }
     if (m.info) {
         info += m.info;

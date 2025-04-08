@@ -94,11 +94,30 @@ function buildYear(m) {
 
 function buildStart(m) {
     let result = '';
-    if (m.start && starts[m.start]) {
-        if (starts[m.start].logo) {
-            result += '<img src="./logo/' + starts[m.start].logo + '" alt="" class="sheet-icon" /> ';
+    if (m.start) {
+        if (Array.isArray(m.start)) {
+            let start = '';
+            for (const s of m.start) {
+                if (start) {
+                    start += '<br />';
+                }
+                start += oneStart(s);
+            }
+            return start;
+        } else {
+            return  oneStart(m.start);
         }
-        result += starts[m.start].name;
+    }
+    return result;
+}
+
+function oneStart(s) {
+    let result = '', start = starts[s];
+    if (start) {
+        if (start.logo) {
+            result += '<img src="./logo/' + start.logo + '" alt="" class="sheet-icon" /> ';
+        }
+        result += start.name;
     }
     return result;
 }

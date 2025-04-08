@@ -2,6 +2,7 @@ let wnStartsMaps = [
     /* --- Белые Ночи --- */
     {
         name: 'Петяярви',
+        region: 'starts',
         year: 1996,
         start: 'WN',
         url: './maps/forest/sosnovo/petjajarvy_1996.webp',
@@ -12,6 +13,7 @@ let wnStartsMaps = [
     },
     {
         name: 'Колосково',
+        region: 'starts',
         year: 2002,
         start: 'WN',
         info: '20 июня',
@@ -23,6 +25,7 @@ let wnStartsMaps = [
     },
     {
         name: 'Первомайское, оз Монетка',
+        region: 'starts',
         year: 2003,
         start: 'WN',
         info: '20 июня',
@@ -34,6 +37,7 @@ let wnStartsMaps = [
     },
     {
         name: 'Первомайское, оз Монетка',
+        region: 'starts',
         year: 2003,
         start: 'WN',
         info: '21 июня',
@@ -45,6 +49,7 @@ let wnStartsMaps = [
     },
     {
         name: 'Первомайское, оз Монетка',
+        region: 'starts',
         year: 2003,
         start: 'WN',
         info: '22 июня',
@@ -56,6 +61,7 @@ let wnStartsMaps = [
     },
     {
         name: 'Первомайское, оз Дедово',
+        region: 'starts',
         year: 2004,
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=040618_WN" target="_blank">20 июня</a>',
@@ -66,8 +72,9 @@ let wnStartsMaps = [
     },
     {
         name: 'Кузнечное, оз Верх Подосиновское',
+        region: 'starts',
         year: 2005,
-        start: 'WN',
+        start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=050517" target="_blank">18 июня</a>',
         url: './maps/starts/wn/wn_2005_06_18.webp',
         link: './original_maps/starts/wn/wn_2005_06_18_full.jpg',
@@ -76,8 +83,9 @@ let wnStartsMaps = [
     },
     {
         name: 'Кузнечное, оз Верх Подосиновское',
+        region: 'starts',
         year: 2005,
-        start: 'WN',
+        start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=050517" target="_blank">19 июня</a>',
         url: './maps/starts/wn/wn_2005_06_19.webp',
         link: './original_maps/starts/wn/wn_2005_06_19_full.jpg',
@@ -86,8 +94,9 @@ let wnStartsMaps = [
     },
     {
         name: 'Журавлёвское оз',
+        region: 'starts',
         year: 2007,
-        start: 'WN',
+        start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=070629_WN" target="_blank">19 июня</a>',
         url: './maps/starts/wn/wn_2007_07_01.webp',
         link: './original_maps/starts/wn/wn_2007_07_01_full.jpg',
@@ -97,8 +106,9 @@ let wnStartsMaps = [
     },
     {
         name: 'Ягодное, Заросшее оз',
+        region: 'starts',
         year: 2008,
-        start: 'WN',
+        start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=08061722" target="_blank">18 июня</a>',
         url: './maps/starts/wn/wn_2008_06_18.webp',
         link: './original_maps/starts/wn/wn_2008_06_18_full.jpg',
@@ -108,8 +118,9 @@ let wnStartsMaps = [
     },
     {
         name: 'Ягодное, Заросшее оз',
+        region: 'starts',
         year: 2008,
-        start: 'WN',
+        start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=08061722" target="_blank">19 июня</a>',
         url: './maps/starts/wn/wn_2008_06_19.webp',
         link: './original_maps/starts/wn/wn_2008_06_19_full.jpg',
@@ -119,8 +130,9 @@ let wnStartsMaps = [
     },
     {
         name: 'Мичуринское, Окунёвое оз',
+        region: 'starts',
         year: 2009,
-        start: 'WN',
+        start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=09061621" target="_blank">19 июня</a>',
         url: './maps/starts/wn/wn_2009_06_19.webp',
         link: './original_maps/starts/wn/wn_2009_06_19_full.jpg',
