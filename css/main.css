@@ -394,6 +394,11 @@ label:has(> span span .layer-separator) {
 }
 
 /* --- MAP INFO --- */
+#start_info {
+    display: none;
+}
+
+/* --- MAP INFO --- */
 .value_place {
     display: none;
 }

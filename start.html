@@ -34,11 +34,13 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 </head>
-<body class="stat-body">
+<body class="index-body help-body">
     <h1><a href="./index.html" target="_self">O-maps ◪</a></h1>
     <h2 id="start_name"></h2>
 
-    <div class="container start-maps-wrapper"></div>
+    <div class="container start-maps-wrapper">
+        <section id="start_info"></section>
+    </div>
 
     <script src="js/ext/leaflet.js"></script>
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
@@ -130,6 +132,12 @@
 
         let strt = starts[START_NAME_PARAM];
         document.getElementById('start_name').innerHTML = strt.name;
+
+        if (strt.info) {
+            let section = document.getElementById('start_info');
+            section.style.display = 'block';
+            section.innerHTML = strt.info;
+        }
 
         let container = document.querySelector('.start-maps-wrapper');
         oMaps.forEach(m => {

@@ -377,7 +377,7 @@ let authors = {
     VLKV_M: { name: 'Волков Михаил' },
     VSLVSKY: {
         name: 'Василевский Александр', //Михайлович
-        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+        about: 'https://vk.com/wall-154221178_8955'
     },
     YGNV: { name: 'Яганов Алексей' },
     YKVLVA: { name: 'Яковлева И.' },
