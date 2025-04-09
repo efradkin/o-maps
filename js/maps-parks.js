@@ -1275,4 +1275,13 @@ let parkMaps = [
         owner: 'VOLKOV_AM',
         types: ['SPRINT', 'PARK'],
     },
+    {
+        name: 'Сад "Прометей"',
+        year: 2025,
+        url: './maps/parks/forsh_2025.webp',
+        link: './original_maps/parks/forsh_2025_full.jpg',
+        bounds: [[60.0424214232607, 30.38427829742432], [60.04187494994124, 30.392346382141117], [60.03752427116003, 30.382883548736576]],
+        author: 'TKMKVA_P',
+        types: ['SPRINT', 'PARK'],
+    },
 ];
