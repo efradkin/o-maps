@@ -48,7 +48,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'Лемболово-Орехово',
-        info: 'Карта лыжного марафона-Ретро, проводимого <a href="https://o-site.spb.ru/history/Peoples/bap.html" target="_blank">Борисом Панкратьевым</a>.',
+        info: 'Карта лыжного марафона-Ретро, проводимого <a href="https://o-site.spb.ru/history/Peoples/bap.html"_blank">Борисом Панкратьевым</a>.',
         logo: 'nevsky_azimut.jpg',
         year: 1991,
         excluded: true,

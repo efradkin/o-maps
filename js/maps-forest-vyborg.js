@@ -264,7 +264,7 @@ let vyborgMaps = [
         name: 'Пруды',
         year: 2023,
         start: 'KKP',
-        info: '19.06, Классика. <a href="https://o-site.spb.ru/race.php?id=230617-22_KKP" target="_blank">Инфо и результаты.</a>',
+        info: '19.06, Классика. <a href="https://o-site.spb.ru/race.php?id=230617-22_KKP"_blank">Инфо и результаты.</a>',
         gps: {
             'М':'https://viewer.o-gps-center.ru/viewer/event/16497/',
             'Ж':'https://viewer.o-gps-center.ru/viewer/event/16501/',
@@ -306,7 +306,7 @@ let vyborgMaps = [
         name: 'Пруды',
         year: 2023,
         start: 'KKP',
-        info: '20.06, Лонг. <a href="https://o-site.spb.ru/race.php?id=230617-22_KKP" target="_blank">Инфо и результаты.</a>',
+        info: '20.06, Лонг. <a href="https://o-site.spb.ru/race.php?id=230617-22_KKP"_blank">Инфо и результаты.</a>',
         gps: {
             'М':'https://viewer.o-gps-center.ru/viewer/event/16498/',
             'Ж':'https://viewer.o-gps-center.ru/viewer/event/16513/',

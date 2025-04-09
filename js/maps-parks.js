@@ -54,7 +54,7 @@ let parkMaps = [
         year: 2021,
         url: './maps/parks/ekateringof_2021.webp',
         link: ['./original_maps/parks/ekateringof_2021_full.jpg','./original_maps/parks/ekateringof_2021_trailo_full.jpg'],
-        info: '<a href="https://vk.com/wall-135156716_1468" target="_blank">Карта решений Trail-O</a>',
+        info: '<a href="https://vk.com/wall-135156716_1468"_blank">Карта решений Trail-O</a>',
         bounds: [[59.90714600994303, 30.25347232818604], [59.9054030163161, 30.27038097381592], [59.900550126202404, 30.250597000122074]],
         author: 'GLTV_D',
         owner: 'VOLKOV_AM',
@@ -1267,7 +1267,7 @@ let parkMaps = [
     {
         name: 'Сад "Василеостровец"',
         year: 2010,
-        info: '<a href="https://vk.com/wall-135156716_2650" target="_blank">Карта решений Trail-O</a>',
+        info: '<a href="https://vk.com/wall-135156716_2650"_blank">Карта решений Trail-O</a>',
         url: './maps/parks/vasileostrovets_2010.webp',
         link: './original_maps/parks/vasileostrovets_2010_full.jpg',
         bounds: [[59.93639742638281, 30.254116058349613], [59.93628993163026, 30.25997400283814], [59.93215111872277, 30.254373550415043]],

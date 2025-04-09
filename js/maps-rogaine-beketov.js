@@ -73,7 +73,7 @@ let rogaineBeketovMaps = [
         url: './maps/rogaine/beketov/orekhovo.webp',
         link: './original_maps/rogaine/beketov/Orehovo_new.jpg',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20849/',
-        info: '<a href="https://www.multsport.ru/starts/omb24/" target="_blank">Инфо.</a>',
+        info: '<a href="https://www.multsport.ru/starts/omb24/"_blank">Инфо.</a>',
         bounds: [[60.565209785065306, 30.21926879882813], [60.57246393181694, 30.620613098144535], [60.39706660026772, 30.232315063476566]],
         owner: 'BKTV',
         start: 'MB',

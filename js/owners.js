@@ -4,14 +4,14 @@ let owners = {
         logo: 'anichkov.jpg'
     },
     BBCH_A: {
-        name: '© Бибич Андрей - <a href="https://vk.com/id7840054" target="_blank">ВК</a> или <a href="https://t.me/andy_atta" target="_blank">Telegram</a>.'
+        name: '© Бибич Андрей - <a href="https://vk.com/id7840054">ВК</a> или <a href="https://t.me/andy_atta">Telegram</a>.'
     },
     BKTV: {
-        name: 'Все карты <a href="https://t.me/beketov" target="_blank">Константина Бекетова</a> можно свободно использовать в некоммерческих целях.',
+        name: 'Все карты <a href="https://t.me/beketov">Константина Бекетова</a> можно свободно использовать в некоммерческих целях.',
         rogaine: true
     },
     BVZ: {
-        name: '© Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru" target="_blank">Tanya-9-8@ya.ru</a>]'
+        name: '© Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru">Tanya-9-8@ya.ru</a>]'
     },
     CHGRVSKY_M: {
         name: 'По вопросам использования карты обращаться к Михаилу Чегаровскому (+79213300490).'
@@ -47,7 +47,7 @@ let owners = {
         rogaine: true
     },
     GOLDMRSHRT: {
-        name: '© Золотой Маршрут - <a href="https://mosplay.ru/" target="_blank">сайт</a> и <a href="https://vk.com/rogaining" target="_blank">ВК</a>'
+        name: '© Золотой Маршрут - <a href="https://mosplay.ru/">сайт</a> и <a href="https://vk.com/rogaining">ВК</a>'
     },
     GLFSTRM: {
         name: '© КСО "Гольфстрим"'
@@ -59,20 +59,20 @@ let owners = {
         name: '© Гусев Илья, gusev@ym.spb.ru'
     },
     HARD: {
-        name: '© <a href="https://hardadventure.ru/" target="_blank">Hard Adventure</a>',
+        name: '© <a href="https://hardadventure.ru/">Hard Adventure</a>',
         rogaine: true
     },
     INGR: {
-        name: '© <a href="https://vk.com/ingriaorient" target="_blank">КСО "Ингрия"</a>, Кирьянов Юрий - 89117954827'
+        name: '© <a href="https://vk.com/ingriaorient">КСО "Ингрия"</a>, Кирьянов Юрий - 89117954827'
     },
     IMPULS: {
         name: '© АНО ОПОРА СО СПб и ЛО "Импульс". Контакт для связи: info@impulsnko.ru.'
     },
     ILVS: {
-        name: '© Константин Ильвес - <a href="https://vk.com/sport_for_oll" target="_blank">ВК</a>.'
+        name: '© Константин Ильвес - <a href="https://vk.com/sport_for_oll">ВК</a>.'
     },
     RYZHOV: {
-        name: '© <a href="https://vk.com/id18529372" target="_blank">Сергей Рыжов</a>.',
+        name: '© <a href="https://vk.com/id18529372">Сергей Рыжов</a>.',
         logo: 'kkm.jpg',
         rogaine: true
     },
@@ -116,19 +116,19 @@ let owners = {
         name: '© Артём Никольский, "Эверест", г.Кировск'
     },
     MLTSPRT: {
-        name: '© <a href="https://www.multsport.ru/" target="_blank">Мультиспорт</a>',
+        name: '© <a href="https://www.multsport.ru/">Мультиспорт</a>',
         rogaine: true
     },
     NW: {
         name: '© Клуб "Nord-West"'
     },
     OPNBND: {
-        name: '© OpenBand, Прозоров Андрей - <a href="https://orientband.ru" target="_blank">сайт</a> и <a href="https://vk.com/openband_ru" target="_blank">ВК</a>',
+        name: '© OpenBand, Прозоров Андрей - <a href="https://orientband.ru">сайт</a> и <a href="https://vk.com/openband_ru">ВК</a>',
         logo: 'openband.jpg',
         rogaine: true
     },
     PARADA: {
-        name: '© Екатерина Новикова (PARADA) - <a href="https://parda.ru/about" target="_blank">сайт</a> и <a href="https://vk.com/parada_ekaterina" target="_blank">ВК</a>'
+        name: '© Екатерина Новикова (PARADA) - <a href="https://parda.ru/about">сайт</a> и <a href="https://vk.com/parada_ekaterina">ВК</a>'
     },
     PPLVSKY: {
         name: '© Андрей Поплавский (ОК "Экран")'
@@ -140,7 +140,7 @@ let owners = {
         name: 'Карта доступна свободно для некоммерческого использования. Для получения OCAD-файла и по прочим вопросам обращаться к Ивану Родионову (+7 911 161 6770).'
     },
     RFAR: {
-        name: 'Права на использования карты принадлежат компании Red Fox и оргкомитету соревнований <a href="https://adventure-race.redfox.ru/" target="_blank">Red Fox Adventure Race</a>.',
+        name: 'Права на использования карты принадлежат компании Red Fox и оргкомитету соревнований <a href="https://adventure-race.redfox.ru/">Red Fox Adventure Race</a>.',
         logo: 'redfox.jpg',
         rogaine: true
     },
@@ -148,10 +148,10 @@ let owners = {
         name: '© Светлана Райкова'
     },
     RYLOV_V: {
-        name: 'По вопросам использования карты обращайтесь к <a href="https://vk.com/id287387360" target="_blank">Рылову Виктору</a>.'
+        name: 'По вопросам использования карты обращайтесь к <a href="https://vk.com/id287387360">Рылову Виктору</a>.'
     },
     SHLKHN_AN: {
-        name: '© Шелёхин Анатолий, <a href="markir.spb.ru" target="_blank">markir.spb.ru</a>.'
+        name: '© Шелёхин Анатолий, <a href="markir.spb.ru">markir.spb.ru</a>.'
     },
     SHEIN: {
         name: 'По вопросам использования карты - 8-921-972-86-24 (Александр Шеин).'
@@ -181,13 +181,13 @@ let owners = {
         name: '© Темкин Вениамин Яковлевич, temkinv60@mail.ru.'
     },
     TOKM: {
-        name: 'По вопросам использования карты обращайтесь к Константину Токмакову (<a href="mailto:tokma@bk.ru" target="_blank">tokma@bk.ru</a>).'
+        name: 'По вопросам использования карты обращайтесь к Константину Токмакову (<a href="mailto:tokma@bk.ru">tokma@bk.ru</a>).'
     },
     VOLKOV_AM: {
         name: '© Волков А.М.'
     },
     VST_PRZRSK: {
-        name: 'По вопросам использования карты - клуб <a href="https://vk.com/vesta_priozersk" target="_blank">Веста-Приозерск</a> (И.Скворцова ira-vesta@yandex.ru).'
+        name: 'По вопросам использования карты - клуб <a href="https://vk.com/vesta_priozersk">Веста-Приозерск</a> (И.Скворцова ira-vesta@yandex.ru).'
     },
     WN: {
         name: 'Права на любое использование карты принадлежат клубу <b>"Белые Ночи"</b>. По вопросам приобретения и использования карт-материала обращаться к Анне Горбатенковой (89219241742, Телеграмм, WhatsApp).',
@@ -210,10 +210,10 @@ let owners = {
         name: '@ Алферьев Александр, 89851135004'
     },
     ALNKV_A: {
-        name: '@ <a href="https://t.me/platforma88km" target="_blank">Алейников Алексей</a>'
+        name: '@ <a href="https://t.me/platforma88km">Алейников Алексей</a>'
     },
     DBNA: {
-        name: '@ <a href="https://odmitrov2007.narod.ru/index_map_Dubna.htm" target="_blank">Спортивное ориентирование в Дмитрове и в Дубне</a>',
+        name: '@ <a href="https://odmitrov2007.narod.ru/index_map_Dubna.htm">Спортивное ориентирование в Дмитрове и в Дубне</a>',
         logo: 'dubna.jpg'
     },
     DYTS_ALXNDRV: {
@@ -228,11 +228,11 @@ let owners = {
         logo: 'fso_msk.jpg'
     },
     FRZNO: {
-        name: '@ <a href="https://vk.com/club151229251" target="_blank">КСО Фрязино</a>, +79057778820',
+        name: '@ <a href="https://vk.com/club151229251">КСО Фрязино</a>, +79057778820',
         logo: 'friazino.jpg'
     },
     O_FRZNO: {
-        name: '@ <a href="https://www.o-fryazino.ru/" target="_blank">О-Фрязино</a>, 8-926-1514712',
+        name: '@ <a href="https://www.o-fryazino.ru/">О-Фрязино</a>, 8-926-1514712',
         logo: 'o-friazino.jpg'
     },
     GRCHV_D: {
@@ -252,7 +252,7 @@ let owners = {
         name: '@ Химочкина Т.Н.'
     },
     KSTKN_SITE: {
-        name: 'Карта доступна в формате OCAD на <a href="http://www.kasatik.ru/sport.aspx?stori=11" target="_blank">сайте Николая Касаткина</a>.'
+        name: 'Карта доступна в формате OCAD на <a href="http://www.kasatik.ru/sport.aspx?stori=11">сайте Николая Касаткина</a>.'
     },
     KSTLV_E: {
         name: '@ Костылев Егор'

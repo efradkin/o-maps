@@ -256,7 +256,7 @@ function o(owner) {
 function authorLabel(author) {
     if (author) {
         if (author.about) {
-            return '<a href="' + author.about + '" target="_blank">' + author.name + '</a>'
+            return '<a href="' + author.about + '">' + author.name + '</a>'
         } else {
             return author.name;
         }

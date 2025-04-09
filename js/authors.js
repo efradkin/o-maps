@@ -581,7 +581,7 @@ let authors = {
         about: 'https://o-moscow.ru/people/ZaharovUS.html'
     },
     ZLTRV_S: { name: 'Золотарев Станислав' },
-    ZUEV_A: { name: '<a href="mailto:Lesasa@mail.ru" target="_blank">Зуев Алексей</a>' },
+    ZUEV_A: { name: '<a href="mailto:Lesasa@mail.ru">Зуев Алексей</a>' },
     ZVJLV: { name: 'Завьялов В.' },
 
     /* --- СЕРБИЯ --- */

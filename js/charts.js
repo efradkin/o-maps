@@ -156,7 +156,7 @@ function buildAuthorsTable() {
         cell2.innerHTML = author.count;
         cell3.innerHTML = author.area.toFixed(2);
         let href = authorLink(key);
-        cell4.innerHTML = '<a href="' + href + '" title="Карты автора" target="_blank"><img src="./images/external-link.png" alt="Карты автора" /></a>';
+        cell4.innerHTML = '<a href="' + href + '" title="Карты автора"><img src="./images/external-link.png" alt="Карты автора" /></a>';
     }
 
     // панель количества карт, где автор не указан

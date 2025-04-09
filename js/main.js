@@ -825,7 +825,7 @@ function buildPopupText(m, latLngs) {
     result += '&nbsp;-&nbsp;' + area + '&nbsp;км<sup>2</sup>';
 
     // ссылка на страничку инфа
-    result += ' <a class="map-info-link" href="./map-info.html?map=' + extractFileName(m.url) + '" target="_blank" title="Информация о карте">🔗</a>';
+    result += ' <a class="map-info-link" href="./map-info.html?map=' + extractFileName(m.url) + '" title="Информация о карте">🔗</a>';
 
     result += '</b><hr />';
 
@@ -877,7 +877,7 @@ function buildPopupText(m, latLngs) {
     let link = m.link;
     if (link && !isMapHidden(m)) {
         if (!Array.isArray(link) && link.startsWith('http')) {
-            result += 'Скачать можно <a href="' + link + '" target="_blank">тут</a>.';
+            result += 'Скачать можно <a href="' + link + '">тут</a>.';
         } else {
             result += 'Скачать можно тут: ' + buildDownloadLinks(link) + '.';
         }
@@ -885,13 +885,13 @@ function buildPopupText(m, latLngs) {
         if (isMapHidden(m)) {
             result += 'Просмотр карты не разрешён правообладателем или не уместен.';
         } else {
-            result += 'Посмотреть карту отдельно можно <a href="' + m.url + '" target="_blank">тут</a>.';
+            result += 'Посмотреть карту отдельно можно <a href="' + m.url + '">тут</a>.';
         }
     }
     if (!m.url.includes('olive.png')) {
         let mapLinkUrl = mapLink(m.url);
         let onclick = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
-        result += '<br />Поделиться <a href="' + mapLinkUrl + '" target="_blank">ссылкой</a> на карту: <a href="#" ' + onclick + ' target="_blank"><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
+        result += '<br />Поделиться <a href="' + mapLinkUrl + '">ссылкой</a> на карту: <a href="#" ' + onclick + '><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
     }
     let onclick = 'onclick="hideMap(map, \'' + m.url + '\'); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть эту карту</a></div>';
@@ -961,13 +961,13 @@ function buildGpsLinks(m) {
         if (isObject(m.gps)) {
             let entries = Object.entries(Object.entries(m.gps));
             for (const [index, [key, value]] of entries) {
-                result += ` <a href="${value}" target="_blank">${key}</a>`;
+                result += ` <a href="${value}">${key}</a>`;
                 if (index < entries.length - 1) {
                     result += ',';
                 }
             }
         } else {
-            result += '<a href="' + m.gps + '" target="_blank"><img src="./images/url-file.png"></a>';
+            result += '<a href="' + m.gps + '"><img src="./images/url-file.png"></a>';
         }
     }
     return result;
@@ -984,7 +984,7 @@ function buildDownloadLinks(link) {
             if (index > 0) {
                 result += ', ';
             }
-            result += '<a href="' + value + '" target="_blank" class="ext-link" title="Скачать"><img src="./images/' + extractFileExt(value) + '-file.png" /></a>';
+            result += '<a href="' + value + '" class="ext-link" title="Скачать"><img src="./images/' + extractFileExt(value) + '-file.png" /></a>';
         })
     }
     return result;

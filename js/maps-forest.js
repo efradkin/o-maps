@@ -406,7 +406,7 @@ let forestMaps = [
         url: './maps/forest/yappilya_pistolet_1992.webp',
         link: './original_maps/forest/yappilya_pistolet_1992_full.jpg',
         bounds: [[60.24713821354549, 29.126043319702152], [60.243219301102904, 29.18552398681641], [60.18433664822085, 29.11188125610352]],
-        info: '<a href="https://o-site.spb.ru/history/Knots/wc-92.html" target="_blank">Кубок Мира</a>.',
+        info: '<a href="https://o-site.spb.ru/history/Knots/wc-92.html"_blank">Кубок Мира</a>.',
         author: ['CHGRVSKY_V','CHGRVSKY_Y'],
         types: [],
         zindex: 2
@@ -441,7 +441,7 @@ let forestMaps = [
     {
         name: 'Заходское',
         year: 1968,
-        info: '<a href="https://o-site.spb.ru/history/History/fenomen.html" target="_blank">Первые многодневные соревнования</a>.',
+        info: '<a href="https://o-site.spb.ru/history/History/fenomen.html"_blank">Первые многодневные соревнования</a>.',
         url: './maps/forest/zahodskoe_1968.webp',
         link: './original_maps/forest/zahodskoe_1968_full.jpg',
         bounds: [[60.4162253941698, 29.369373321533207], [60.41491176636754, 29.475460052490238], [60.379254068536234, 29.366111755371097]],
@@ -450,7 +450,7 @@ let forestMaps = [
     {
         name: 'Каннельярви',
         year: 1968,
-        info: '<a href="https://o-site.spb.ru/history/History/fenomen.html" target="_blank">Первые многодневные соревнования</a>.',
+        info: '<a href="https://o-site.spb.ru/history/History/fenomen.html"_blank">Первые многодневные соревнования</a>.',
         url: './maps/forest/kanneljarvi_1968.webp',
         link: './original_maps/forest/kanneljarvi_1968_full.jpg',
         bounds: [[60.38943385115715, 29.384651184082035], [60.38693161620689, 29.42173004150391], [60.31351798708459, 29.35976028442383]],

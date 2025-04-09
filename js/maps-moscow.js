@@ -19,7 +19,7 @@ let moscowMaps = [
     {
         name: 'Терехово',
         year: 1965,
-        info: '<a href="https://t.me/lamporient/6379" target="_blank">24 октября. Марафонское ориентирование. "Золотая осень"</a>',
+        info: '<a href="https://t.me/lamporient/6379"_blank">24 октября. Марафонское ориентирование. "Золотая осень"</a>',
         url: './original_maps/moscow/terekhovo_1965_full.jpg',
         link: './original_maps/moscow/terekhovo_1965_full.jpg',
         bounds: [[56.16151639174862, 37.072162628173835], [56.16734695513503, 37.1993637084961], [56.09349156919378, 37.07113265991212]],
@@ -28,7 +28,7 @@ let moscowMaps = [
     {
         name: 'Лыткино',
         year: 1976,
-        info: '<a href="https://t.me/lamporient/6401" target="_blank">17 октября. Марафонское ориентирование. "Золотая осень"</a>',
+        info: '<a href="https://t.me/lamporient/6401"_blank">17 октября. Марафонское ориентирование. "Золотая осень"</a>',
         logo: 'golden_autumn_1976.jpg',
         url: './maps/moscow/lytkino_1976.webp',
         link: ['./original_maps/moscow/lytkino_1976_1_full.jpg','./original_maps/moscow/lytkino_1976_2_full.jpg'],
@@ -593,7 +593,7 @@ let moscowMaps = [
     {
         name: 'Сретенка',
         year: 2024,
-        info: '<a href="https://t.me/moscow_orient/761" target="_blank">SRETENKA-SPRINT 03.07</a>',
+        info: '<a href="https://t.me/moscow_orient/761"_blank">SRETENKA-SPRINT 03.07</a>',
         url: './maps/moscow/sretenka_2024.webp',
         link: './original_maps/moscow/sretenka_2024_full.gif',
         bounds: [[55.77349549181662, 37.624719142913825], [55.77266270748257, 37.633216381073005], [55.76724314002161, 37.62255191802979]],
@@ -1431,7 +1431,7 @@ let moscowMaps = [
         name: 'Бутовский л/п',
         year: 2013,
         major: true,
-        info: '12-13.10, <a href="https://moscompass.ru/news/index.php?m=99&mes=26179" target="_blank">Чемпионат России и Всероссийские соревнования в честь 50-летнего юбилея ориентирования</a>.',
+        info: '12-13.10, <a href="https://moscompass.ru/news/index.php?m=99&mes=26179"_blank">Чемпионат России и Всероссийские соревнования в честь 50-летнего юбилея ориентирования</a>.',
         url: './maps/moscow/ak/butovsky_2013.webp',
         link: ['./original_maps/moscow/ak/butovsky_2013_full.pdf','./original_maps/moscow/ak/butovsky_2013_2_full.jpg'],
         bounds: [[55.585221534678304, 37.52914667129517], [55.58292938102626, 37.56598949432374], [55.56788759269478, 37.52543449401856]],
@@ -3288,7 +3288,7 @@ let moscowMaps = [
     {
         name: 'Новогорск',
         year: 2006,
-        info: '20.04, <a href="https://moscompass.ru/news/index.php?m=99&mes=26081" target="_blank">GRAND PRIX – Будущие звезды</a>',
+        info: '20.04, <a href="https://moscompass.ru/news/index.php?m=99&mes=26081"_blank">GRAND PRIX – Будущие звезды</a>',
         url: './maps/moscow/novogorsk_2006.webp',
         link: './original_maps/moscow/novogorsk_2006_full.gif',
         bounds: [[55.94646036444221, 37.27300643920899], [55.93218320560275, 37.382526397705085], [55.9004373419365, 37.25764274597169]],
