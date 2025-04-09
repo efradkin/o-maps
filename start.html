@@ -39,7 +39,7 @@
     <h2 id="start_name"></h2>
 
     <div class="container start-maps-wrapper">
-        <section id="start_info"></section>
+        <section id="start_info" class="clearfix"><img class="help-figure help-figure-left" /><span /></section>
     </div>
 
     <script src="js/ext/leaflet.js"></script>
@@ -134,9 +134,14 @@
         document.getElementById('start_name').innerHTML = strt.name;
 
         if (strt.info) {
-            let section = document.getElementById('start_info');
-            section.style.display = 'block';
-            section.innerHTML = strt.info;
+            document.getElementById('start_info').style.display = 'block';
+            document.querySelector('#start_info span').innerHTML = strt.info;
+
+            if (strt.logo) {
+                let logo = document.querySelector('#start_info img');
+                logo.style.display = 'block';
+                logo.src = './logo/' + strt.logo;
+            }
         }
 
         let container = document.querySelector('.start-maps-wrapper');

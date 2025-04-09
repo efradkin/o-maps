@@ -34,12 +34,13 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 </head>
-<body class="stat-body">
+<body class="index-body help-body">
     <h1><a href="./index.html" target="_self">O-maps ◪</a></h1>
     <h2 id="start_name"></h2>
 
     <div class="container">
-    <div class="start-maps-wrapper"></div>
+        <section id="start_info" class="clearfix"><img src="logo/kkm.jpg" class="help-figure help-figure-left" /><span /></section>
+        <div class="start-maps-wrapper"></div>
     </div>
 
     <script src="js/ext/leaflet.js"></script>
@@ -73,6 +74,10 @@
         oMaps.sort((a, b) => (b.year || 0) - (a.year || 0));
 
         document.getElementById('start_name').innerHTML = starts['KKM'].name;
+
+        document.querySelector('#start_info').style.display = 'block';
+        document.querySelector('#start_info img').style.display = 'block';
+        document.querySelector('#start_info span').innerHTML = starts['KKM'].info;
 
         let container = document.querySelector('.start-maps-wrapper');
         oMaps.forEach(m => {

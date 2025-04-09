@@ -395,6 +395,9 @@ label:has(> span span .layer-separator) {
 
 /* --- MAP INFO --- */
 #start_info {
+    width: 90%;
+}
+#start_info, #start_info img {
     display: none;
 }
 
