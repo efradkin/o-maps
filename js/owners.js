@@ -180,6 +180,9 @@ let owners = {
     TMKN: {
         name: '© Темкин Вениамин Яковлевич, temkinv60@mail.ru.'
     },
+    TKMKVA_P: {
+        name: '© Токмакова Полина'
+    },
     TOKM: {
         name: 'По вопросам использования карты обращайтесь к Константину Токмакову (<a href="mailto:tokma@bk.ru">tokma@bk.ru</a>).'
     },
