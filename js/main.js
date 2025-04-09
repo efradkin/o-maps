@@ -774,10 +774,6 @@ function buildPopupText(m, latLngs) {
 
     const LOGO_CAROUSEL_TEMPLATE = `
         <div id="logo-carousel" class="carousel carousel-dark slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#logo-carousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                <button type="button" data-bs-target="#logo-carousel" data-bs-slide-to="1"></button>
-            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
                     <img src="./logo/image_1" class="d-block">

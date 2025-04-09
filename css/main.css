@@ -229,7 +229,7 @@ label:has(> span span .layer-separator) {
 }
 */
 .leaflet-popup-content {
-    min-height: 210px;
+    min-height: 220px;
     padding-top: 5px;
 }
 .selected-menu-item {
