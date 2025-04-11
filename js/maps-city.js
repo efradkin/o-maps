@@ -753,6 +753,16 @@ let cityMaps = [
         owner: 'TMKN'
     },
     {
+        name: 'пр Ветеранов, шк №254',
+        year: 2025,
+        url: './maps/city/school_254_2025.webp',
+        link: './original_maps/city/school_254_2025_full.jpg',
+        bounds: [[59.836977510982265, 30.195086002349857], [59.83648155064958, 30.212187767028812], [59.83311745080844, 30.194935798645023]],
+        types: ['CITY'],
+        author: 'TMKN',
+        owner: 'TMKN'
+    },
+    {
         name: 'Школа №339',
         year: 2008,
         url: './maps/city/school_339_2008.webp',
@@ -1692,6 +1702,17 @@ let cityMaps = [
         bounds: [[60.042689299035956, 30.359237194061283], [60.042335702553665, 30.36254167556763], [60.04142490629978, 30.35876512527466]],
         author: 'KVLVA_O',
         owner: 'ZBKVA',
+        types: ['SPRINT', 'CITY'],
+    },
+    {
+        name: 'Парнас, школа №469',
+        year: 2024,
+        url: './maps/city/school_469_2024.webp',
+        link: './original_maps/city/school_469_2024_full.gif',
+        info: 'По вопросам использования карты обращайтесь к Александру Кузнецову (sanek-orel@yandex.ru).',
+        bounds: [[60.081733041209084, 30.336256027221683], [60.08104808584078, 30.34286499023438], [60.078629223351655, 30.334732532501224]],
+        author: 'KUZNTSV_A',
+        owner: 'BLNA',
         types: ['SPRINT', 'CITY'],
     },
     {
