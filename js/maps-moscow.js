@@ -5256,6 +5256,18 @@ let moscowMaps = [
         owner: 'DYTS_ALXNDRV',
         types: ['CITY'],
     },
+    {
+        name: 'Арбат',
+        year: 2025,
+        url: './maps/moscow/ak/arbat_2025.webp',
+        link: 'http://o-mephi.net/cup/maps/20250412_951.jpg',
+        info: '<a href="https://t.me/openband_orient/1391">Нокаут-Спринт</a>',
+        bounds: [[55.75814043406014, 37.58345603942872], [55.75830946918283, 37.598025798797615], [55.75264639372546, 37.58360624313355]],
+        author: ['MSTPNV','PRZRV'],
+        owner: 'PRZRV',
+        logo: 'arbat_2025.jpg',
+        types: ['CITY'],
+    },
 /*
     {
         name: 'Большая Всехсвятская роща', // "Viacheslav Sokolov: Мне не жалко, но мои просят удалить. Выложим после того, как проведём там ещё один старт, может осенью..."

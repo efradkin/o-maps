@@ -130,6 +130,9 @@ let owners = {
         logo: 'openband.jpg',
         rogaine: true
     },
+    PRZRV: {
+        name: '© Прозоров Андрей, +7 926 111 6410',
+    },
     PARADA: {
         name: '© Екатерина Новикова (PARADA) - <a href="https://parda.ru/about">сайт</a> и <a href="https://vk.com/parada_ekaterina">ВК</a>'
     },

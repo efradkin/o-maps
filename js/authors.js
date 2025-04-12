@@ -541,6 +541,7 @@ let authors = {
     ORLV_V: { name: 'Орлов В.' },
     PTPKN: { name: 'Потапкин П.' },
     PTRV_VLNTN: { name: 'Петров Валентин' },
+    PRZRV: { name: 'Прозоров Андрей' },
     PZDV_S: { name: 'Поздеев Сергей' },
     PZGRV: { name: 'Пызгарев В.' },
     RMNV_A: { name: 'Романов Александр' },
