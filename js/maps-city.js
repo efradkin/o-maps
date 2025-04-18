@@ -803,7 +803,7 @@ let cityMaps = [
         link: './original_maps/city/akademicheskaya_2023_full.jpg',
         bounds: [[60.0202659360725, 30.401659011840824], [60.01885056712136, 30.415606498718265], [60.011397435475146, 30.398161411285404]],
         author: 'CHGRVSKY_Y',
-        owner: 'SFSO_SPB',
+        owner: 'KUZM',
         types: ['CITY'],
     },
     {
