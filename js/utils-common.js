@@ -62,6 +62,22 @@ function clean(s) {
     return s.replace(/(<([^>]+)>)/gi, '').replace(/['"]+/g, '');
 }
 
+// Removes the HTML elements with their content (from ChatGPT)
+function strip(s) {
+    const temp = document.createElement('div');
+    temp.innerHTML = s;
+
+    let result = '';
+    // Iterate through all child nodes
+    temp.childNodes.forEach(node => {
+        if (node.nodeType === Node.TEXT_NODE) {
+            result += node.textContent;
+        }
+    });
+
+    return clean(result.trim());
+}
+
 // считаем площадь в км2
 // https://gis.stackexchange.com/questions/423601/leaftlet-map-with-carto-database-to-recalculate-area-on-polygon-edits
 function getArea(latLngs) {

@@ -338,7 +338,12 @@ let authors = {
     TKHNVA: { name: 'Тихонова Галина' }, // Валериановна
     TKMKV_K: {
         name: 'Токмаков Константин',
-        about: 'https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net'
+        about: 'https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net',
+        info: 'Воспитанник петербуржской школы ориентирования, один из ведущих составителей спортивных карт в стране. ' +
+            'Кроме того, многие годы он был ключевым специалистом по подготовке трасс для лыжного ориентирования в Санкт-Петербурге и Ленинградской области.' +
+            '<a href="https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net" target="_blank">Тут</a> одно из его интервью. ' +
+            'Костантин скоропостижно скончался 19.04.2025 года.',
+        foto: 'tokma.jpg'
     },
     TKMKVA_P: { name: 'Токмакова Полина' },
     TLNKV: { name: 'Туленков М.' },

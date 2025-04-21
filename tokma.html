@@ -1,0 +1,177 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Памяти Константина Токмакова</title>
+    <meta name="description" content="Памяти Константина Токмакова">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <meta property="og:title" content="Памяти Константина Токмакова">
+    <meta property="og:site_name" content="O-maps. Памяти Константина Токмакова">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Памяти Константина Токмакова">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body help-body">
+    <h1><a href="./index.html" target="_self">O-maps ◪</a></h1>
+    <h2 id="start_name"></h2>
+
+    <div class="container start-maps-wrapper">
+        <section id="start_info" class="clearfix"><img class="help-figure help-figure-left" /><span /></section>
+    </div>
+
+    <script src="js/ext/leaflet.js"></script>
+    <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
+    <script src="js/ext/GeometryUtil.js"></script>
+
+    <script src="js/maps-starts-schools.js"></script>
+    <script src="js/maps-city.js"></script>
+    <script src="js/maps-parks.js"></script>
+    <script src="js/maps-forest.js"></script>
+    <script src="js/maps-forest-vsevolozhsk.js"></script>
+    <script src="js/maps-forest-south.js"></script>
+    <script src="js/maps-forest-priozersk.js"></script>
+    <script src="js/maps-forest-zelik.js"></script>
+    <script src="js/maps-forest-toksovo.js"></script>
+    <script src="js/maps-forest-sosnovo.js"></script>
+    <script src="js/maps-forest-michura.js"></script>
+    <script src="js/maps-forest-vaskelovo.js"></script>
+    <script src="js/maps-forest-vyborg.js"></script>
+    <script src="js/maps-special.js"></script>
+    <script src="js/maps-fun.js"></script>
+    <script src="js/maps-rogaine.js"></script>
+    <script src="js/maps-rogaine-beketov.js"></script>
+    <script src="js/maps-rogaine-kkm.js"></script>
+    <script src="js/maps-rogaine-rfar.js"></script>
+    <script src="js/maps-moscow.js"></script>
+    <script src="js/maps-serbia.js"></script>
+    <script src="js/maps-starts-mms.js"></script>
+    <script src="js/maps-starts-wn.js"></script>
+    <script src="js/maps-starts-ym.js"></script>
+    <script src="js/maps-starts-na.js"></script>
+    <script src="js/maps-starts-ks.js"></script>
+    <script src="js/maps-starts-psk.js"></script>
+    <script src="js/maps-starts-kkp.js"></script>
+
+    <script src="js/starts.js"></script>
+    <script src="js/authors.js"></script>
+    <script src="js/owners.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/utils-common.js"></script>
+
+    <script>
+        let loadImagesRequired = false;
+
+        let oMaps = [
+            ...pskStartsMaps,
+            ...ymStartsMaps,
+            ...ksStartsMaps,
+            ...kkpStartsMaps,
+            ...mmsStartsMaps,
+            ...wnStartsMaps,
+            ...naStartsMaps,
+            ...serbiaMaps,
+            ...moscowMaps,
+            ...rogaineRfarMaps,
+            ...rogaineBeketovMaps,
+            ...rogaineKkmMaps,
+            ...rogaineMaps,
+            ...funMaps,
+            ...specialMaps,
+            ...forestMaps,
+            ...vsevolozhskMaps,
+            ...southMaps,
+            ...priozerskMaps,
+            ...zelikMaps,
+            ...vyborgMaps,
+            ...sosnovoMaps,
+            ...michuraMaps,
+            ...vaskelovoMaps,
+            ...toksovoMaps,
+            ...parkMaps,
+            ...cityMaps,
+            ...schoolMaps,
+        ];
+    </script>
+
+    <script src="js/map-build.js"></script>
+    <script>
+        AUTHOR_PARAM = 'TKMKV_K';
+    </script>
+    <script src="js/main.js"></script>
+    <script>
+
+        // Фильтрация массива. Оставляем только карты нужного старта.
+        oMaps = oMaps.filter(m => (m.layer !== undefined));
+        oMaps.sort((b, a) => ((b.startYear || (b.year || 9999)) - (a.startYear || (a.year || 9999))));
+
+        let authorObj = authors[AUTHOR_PARAM];
+        if (authorObj) {
+            document.getElementById('start_name').innerHTML = authorObj.name;
+            if (authorObj.info) {
+                document.getElementById('start_info').style.display = 'block';
+                document.querySelector('#start_info span').innerHTML = authorObj.info;
+
+                if (authorObj.foto) {
+                    let logo = document.querySelector('#start_info img');
+                    logo.style.display = 'block';
+                    logo.src = './foto/' + authorObj.foto;
+                }
+            }
+        }
+
+        let container = document.querySelector('.start-maps-wrapper');
+        oMaps.forEach(m => {
+            let row = `
+                    <div class="start-map-box align-items-center d-flex justify-content-center">
+                        <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_year - #map_place#map_start#map_info"/></a>
+                    </div>
+            `;
+            row = row.replace('#map_img_src', m.url);
+            row = row.replace('#map_href', m.link);
+            row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(m.url));
+            row = row.replace('#map_year', m.startYear ? m.startYear : m.year);
+            row = row.replace('#map_month', m.month);
+            row = row.replace('#map_place', m.name);
+            let strt;
+            if (m.start) {
+                if (Array.isArray(m.start)) {
+                    strt = clean(starts[m.start[0]].name);
+                } else {
+                    strt = clean(starts[m.start].name);
+                }
+            }
+            row = row.replace('#map_start', strt ? '\n' + strt + '. ' : '');
+            row = row.replace('#map_info', m.info ? (strt ? '' : '\n') + strip(m.info) : '');
+            const elRow = document.createElement("div");
+            elRow.classList.add("row");
+            elRow.innerHTML = row;
+            container.appendChild(elRow);
+        });
+    </script>
+
+    <script src="js/ext/bootstrap.min.js"></script>
+</body>
+</html>

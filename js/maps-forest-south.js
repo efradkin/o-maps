@@ -306,7 +306,7 @@ let southMaps = [
         types: [],
     },
     {
-        name: 'Шепелево',
+        name: 'Шепелево, Батарейная бухта',
         year: 2023,
         url: './maps/forest/south/shepelevo_2023.webp',
         link: './original_maps/forest/south/shepelevo_2023_full.jpg',

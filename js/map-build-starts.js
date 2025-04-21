@@ -1,5 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-const AUTHOR_PARAM = urlParams.get('author');
+let AUTHOR_PARAM = urlParams.get('author');
 const OWNER_PARAM = urlParams.get('owner');
 const TYPE_PARAM = urlParams.get('type');
 let MAP_NAME_PARAM = urlParams.get('map');
