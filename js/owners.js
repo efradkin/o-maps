@@ -342,9 +342,15 @@ let owners = {
     },
 
     /* --- Прочее --- */
+
     FSO_KARELIA: {
         name: '@ <a href="http://fso.karelia.ru/">ФСО Республики Карелия</a>',
         logo: 'fso_karelia.png'
     },
-
+    GRN_V: {
+        name: '@ Горин Владимир'
+    },
+    KRSHNV: {
+        name: '@ Коршунов Евгений Владимирович (+7-911-456-88-41, korshunov_e.v@mail.ru)' // , https://korshunyata.ru/
+    },
 }
