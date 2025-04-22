@@ -367,6 +367,7 @@ let authors = {
     },
     USHNV: { name: 'Ушанов В.' },
     USNKO: { name: 'Усенко С.' },
+    VRBJV_S: { name: 'Воробьёв Сергей' },
     VRBY: {
         name: 'Воробей Сергей', //Валерьянович
         about: 'https://o-site.spb.ru/history/Peoples/280.html'

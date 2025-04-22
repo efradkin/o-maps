@@ -35,9 +35,10 @@
     <!-- /Yandex.Metrika counter -->
 </head>
 <body class="index-body help-body">
-    <h1><a href="./index.html" target="_self">O-maps ◪</a></h1>
-    <h2 id="start_name"></h2>
-
+    <div class="container">
+        <h1 class="text-center"><a href="./index.html" target="_self">O-maps ◪</a></h1>
+        <h2 class="text-center" id="start_name"></h2>
+    </div>
     <div class="container start-maps-wrapper">
         <section id="start_info" class="clearfix"><img class="help-figure help-figure-left" /><span /></section>
     </div>
@@ -66,7 +67,7 @@
     <script src="js/maps-rogaine-kkm.js"></script>
     <script src="js/maps-rogaine-rfar.js"></script>
     <script src="js/maps-moscow.js"></script>
-    <script src="js/maps-serbia.js"></script>
+    <script src="js/maps-karjala.js"></script>
     <script src="js/maps-starts-mms.js"></script>
     <script src="js/maps-starts-wn.js"></script>
     <script src="js/maps-starts-ym.js"></script>
@@ -92,7 +93,7 @@
             ...mmsStartsMaps,
             ...wnStartsMaps,
             ...naStartsMaps,
-            ...serbiaMaps,
+            ...karjalaMaps,
             ...moscowMaps,
             ...rogaineRfarMaps,
             ...rogaineBeketovMaps,
@@ -146,13 +147,14 @@
         oMaps.forEach(m => {
             let row = `
                     <div class="start-map-box align-items-center d-flex justify-content-center">
-                        <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_year - #map_place#map_start#map_info"/></a>
+                        <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_year#map_place#map_start#map_info"/></a>
                     </div>
             `;
             row = row.replace('#map_img_src', m.url);
             row = row.replace('#map_href', m.link);
             row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(m.url));
-            row = row.replace('#map_year', m.startYear ? m.startYear : m.year);
+            let year = m.startYear ? m.startYear : m.year;
+            row = row.replace('#map_year', year ? year + ' - ' : '');
             row = row.replace('#map_month', m.month);
             row = row.replace('#map_place', m.name);
             let strt;

@@ -340,4 +340,11 @@ let owners = {
         name: '@ Планинарско друштво „Авала“',
         logo: 'avala.jpg'
     },
+
+    /* --- Прочее --- */
+    FSO_KARELIA: {
+        name: '@ <a href="http://fso.karelia.ru/">ФСО Республики Карелия</a>',
+        logo: 'fso_karelia.png'
+    },
+
 }
