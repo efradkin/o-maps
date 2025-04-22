@@ -123,6 +123,20 @@ let specialMaps = [
         author: 'YGNV',
         types: ['WINTER'],
     },
+    {
+        name: 'Аньялово',
+        year: 2023,
+        startYear: 2024,
+        excluded: true,
+        info: 'ЧиП СПб, ЛГ-маркир.',
+        url: './maps/winter/anyalovo_winter_2023.webp',
+        link: './original_maps/winter/anyalovo_2023_full.gif',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18157/',
+        bounds: [[60.312582798414866, 30.499763488769535], [60.30854417624976, 30.537958145141605], [60.29933850324382, 30.49461364746094]],
+        author: ['TKMKV_K','KVZN'],
+        owner: 'SFSO_SPB',
+        types: ['WINTER'],
+    },
     // --- вело ---
     {
         name: 'Солнечное',
