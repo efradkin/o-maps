@@ -284,6 +284,9 @@ let owners = {
     NLTV_D: {
         name: '@ По вопросам использования карты обращайтесь к Дмитрию Налётову - +79166509491 (WhatsApp. Telegram), dmitry@sportident.ru.'
     },
+    OKHTNKV: {
+        name: '@ Охотников С.В.',
+    },
     ORNTA_KNTSVO: {
         name: '@ КСО Ориента-Кунцево',
         logo: 'orienta-kuntsevo.jpg'

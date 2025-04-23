@@ -347,6 +347,9 @@ let vaskelovoMaps = [
     {
         name: 'Орехово, оз Ветренное',
         year: 2004,
+        startYear: 2005,
+        start: 'NA',
+        info: '<a href="https://o-site.spb.ru/race.php?id=050610">Результаты</a>.',
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2004.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_full.jpg',
         bounds: [[60.504476888067344, 30.289220809936527], [60.49853892434387, 30.352993011474613], [60.47278812581316, 30.27862071990967]],
@@ -356,6 +359,9 @@ let vaskelovoMaps = [
     {
         name: 'Орехово, оз Бол.Борково',
         year: 2004,
+        startYear: 2005,
+        start: 'NA',
+        info: '<a href="https://o-site.spb.ru/race.php?id=050610">Результаты</a>.',
         url: './maps/forest/vaskelovo/orekhovo_borkovo_2004.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_borkovo_2004_full.jpg',
         bounds: [[60.490295819711505, 30.285100936889652], [60.48761107431526, 30.321664810180668], [60.46318448533745, 30.278277397155765]],
@@ -365,6 +371,8 @@ let vaskelovoMaps = [
     {
         name: 'Орехово, оз Фигурное',
         year: 2001,
+        startYear: 2002,
+        start: 'NA',
         url: './maps/forest/vaskelovo/orekhovo_figurnoe_2001.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_2001_full.jpg',
         bounds: [[60.47063072719175, 30.259609222412113], [60.46479234123692, 30.332565307617188], [60.445111786842475, 30.255746841430668]],
@@ -383,6 +391,7 @@ let vaskelovoMaps = [
     {
         name: 'Орехово, оз Ракитинское',
         year: 2004,
+        start: 'NA',
         url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_2004.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_rakitinskoe_2004_full.jpg',
         bounds: [[60.47519916632469, 30.26939392089844], [60.46606164490792, 30.36827087402344], [60.44443439421304, 30.264072418212894]],

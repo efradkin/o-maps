@@ -15,10 +15,10 @@ let otherMaps = [
     {
         name: 'Радужный',
         year: 2021,
-        url: './maps/other/raduzhny_2021.webp',
-        link: './original_maps/other/raduzhny_2021_full.gif',
+        hidden: true,
+        url: './maps/olive.png',
         bounds: [[56.02592194441778, 40.313987731933594], [56.01743143363443, 40.38067817687989], [55.994012897588576, 40.30145645141602]],
-        author: ['TKMKV_K','LUK_V'],
+        author: ['TKMKV_K','KVZN','LUK_V'],
         owner: 'GRN_V',
         types: [],
     },

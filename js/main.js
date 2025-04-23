@@ -830,7 +830,7 @@ function buildPopupText(m, latLngs) {
     if (m.start) {
         info += '<b>';
         info += getMapStarts(m);
-        info += (m.startYear ? ', '+m.startYear : '') + '</b> ';
+        info += (m.startYear ? ' '+m.startYear : '') + '</b> ';
     }
     if (m.info) {
         info += m.info;
