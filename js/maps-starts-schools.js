@@ -5,7 +5,7 @@ let schoolMaps = [
         name: 'Митрополичий сад Александро-Невской Лавры',
         year: 2015,
         start: 'SCHOOL',
-        info: '14.05. <a href="https://o-site.spb.ru/race.php?id=150514"_blank">Инфо и результаты.</a>',
+        info: '14.05. <a href="https://o-site.spb.ru/race.php?id=150514">Инфо и результаты.</a>',
         url: './maps/parks/lavra_2015.webp',
         link: './original_maps/parks/lavra_2015_full.gif',
         bounds: [[59.92140929654905, 30.379428863525394], [59.92140929654905, 30.387110710144047], [59.91788169358888, 30.37955760955811]],
@@ -16,7 +16,7 @@ let schoolMaps = [
         year: 2016,
         start: 'SCHOOL',
         excluded: true,
-        info: '19.10. <a href="https://o-site.spb.ru/race.php?id=161019s"_blank">Инфо и результаты.</a>',
+        info: '19.10. <a href="https://o-site.spb.ru/race.php?id=161019s">Инфо и результаты.</a>',
         url: './maps/city/school_150_2016.webp',
         link: './original_maps/city/school_150_2016_full.gif',
         bounds: [[60.02993600195089, 30.365223884582523], [60.02766346922151, 30.38402080535889], [60.0226247496459, 30.361919403076175]],
@@ -27,7 +27,7 @@ let schoolMaps = [
         name: 'Сад Миранда, Купальный пруд, школа 638',
         year: 2022,
         start: 'SCHOOL',
-        info: '15.05.2019. <a href="https://o-site.spb.ru/race.php?id=190515"_blank">Инфо и результаты.</a>',
+        info: '15.05.2019. <a href="https://o-site.spb.ru/race.php?id=190515">Инфо и результаты.</a>',
         url: './maps/parks/pavlovsk_sad_miranda_2020.webp',
         link: ['./original_maps/parks/school_638_2019_full.gif','./original_maps/parks/pavlovsk_sad_miranda_2020_full.jpg'],
         bounds: [[59.690565139533554, 30.430455207824707], [59.690597626634556, 30.443093776702884], [59.68518267475988, 30.430562496185306]],
@@ -39,7 +39,7 @@ let schoolMaps = [
     {
         name: 'Школа №606, гимназия №406',
         year: 2015,
-        info: '22.04. <a href="https://o-site.spb.ru/race.php?id=150422"_blank">Инфо и результаты.</a>',
+        info: '22.04. <a href="https://o-site.spb.ru/race.php?id=150422">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_606_2015.webp',
         link: './original_maps/city/school_606_2015_full.gif',
@@ -49,7 +49,7 @@ let schoolMaps = [
     {
         name: 'Школа №98',
         year: 2015,
-        info: '20.05. <a href="https://o-site.spb.ru/race.php?id=150520"_blank">Инфо и результаты.</a>',
+        info: '20.05. <a href="https://o-site.spb.ru/race.php?id=150520">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_98_2015.webp',
         link: './original_maps/city/school_98_2015_full.gif',
@@ -59,7 +59,7 @@ let schoolMaps = [
     {
         name: 'Школа №141',
         year: 2015,
-        info: '21.10. <a href="https://www.o-site.spb.ru/race.php?id=151021"_blank">Инфо и результаты.</a>',
+        info: '21.10. <a href="https://www.o-site.spb.ru/race.php?id=151021">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_141_2015.webp',
         link: './original_maps/city/school_141_2015_full.gif',
@@ -70,7 +70,7 @@ let schoolMaps = [
     {
         name: 'Школа №559, гимназия №114',
         year: 2016,
-        info: '27.04. <a href="https://o-site.spb.ru/race.php?id=160427"_blank">Инфо и результаты.</a>',
+        info: '27.04. <a href="https://o-site.spb.ru/race.php?id=160427">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_559_2016.webp',
         link: './original_maps/city/school_559_2016_full.gif',
@@ -80,7 +80,7 @@ let schoolMaps = [
     {
         name: 'Школа №303',
         year: 2016,
-        info: '28.09. <a href="https://o-site.spb.ru/race.php?id=160928"_blank">Инфо и результаты.</a>',
+        info: '28.09. <a href="https://o-site.spb.ru/race.php?id=160928">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_303_2016.webp',
         link: './original_maps/city/school_303_2016_full.gif',
@@ -90,7 +90,7 @@ let schoolMaps = [
     {
         name: 'Школа №490',
         year: 2016,
-        info: '12.10. <a href="https://o-site.spb.ru/race.php?id=161012"_blank">Инфо и результаты.</a>',
+        info: '12.10. <a href="https://o-site.spb.ru/race.php?id=161012">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_490_2016.webp',
         link: './original_maps/city/school_490_2016_full.gif',
@@ -101,7 +101,7 @@ let schoolMaps = [
     {
         name: 'Школа №529',
         year: 2017,
-        info: '12.04. <a href="https://o-site.spb.ru/race.php?id=170412"_blank">Инфо и результаты.</a>',
+        info: '12.04. <a href="https://o-site.spb.ru/race.php?id=170412">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_529_2017.webp',
         link: './original_maps/city/school_529_2017_full.gif',
@@ -112,7 +112,7 @@ let schoolMaps = [
     {
         name: 'Школа №604',
         year: 2017,
-        info: '19.04. <a href="https://o-site.spb.ru/race.php?id=170419"_blank">Инфо и результаты.</a>',
+        info: '19.04. <a href="https://o-site.spb.ru/race.php?id=170419">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_604_2017.webp',
         link: './original_maps/city/school_604_2017_full.gif',
@@ -123,7 +123,7 @@ let schoolMaps = [
     {
         name: 'Школа №69',
         year: 2017,
-        info: '17.05. <a href="https://o-site.spb.ru/race.php?id=170517"_blank">Инфо и результаты.</a>',
+        info: '17.05. <a href="https://o-site.spb.ru/race.php?id=170517">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_69_2017.webp',
         link: './original_maps/city/school_69_2017_full.gif',
@@ -134,7 +134,7 @@ let schoolMaps = [
     {
         name: 'Лицей №226',
         year: 2017,
-        info: '04.10. <a href="https://o-site.spb.ru/race.php?id=171004"_blank">Инфо и результаты.</a>',
+        info: '04.10. <a href="https://o-site.spb.ru/race.php?id=171004">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_226_2017.webp',
         link: './original_maps/city/school_226_2017_full.gif',
@@ -145,7 +145,7 @@ let schoolMaps = [
     {
         name: 'Школа №133',
         year: 2017,
-        info: '18.10. <a href="https://o-site.spb.ru/race.php?id=171018"_blank">Инфо и результаты.</a>',
+        info: '18.10. <a href="https://o-site.spb.ru/race.php?id=171018">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_133_2017.webp',
         link: './original_maps/city/school_133_2017_full.gif',
@@ -155,7 +155,7 @@ let schoolMaps = [
     {
         name: 'Пушкин, школа №552',
         year: 2018,
-        info: '18.04. <a href="https://o-site.spb.ru/race.php?id=180418"_blank">Инфо и результаты.</a>',
+        info: '18.04. <a href="https://o-site.spb.ru/race.php?id=180418">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/pushkin_school_552_2018.webp',
         link: './original_maps/city/pushkin_school_552_2018_full.jpg',
@@ -167,7 +167,7 @@ let schoolMaps = [
     {
         name: 'Школа №467',
         year: 2018,
-        info: '16.05. <a href="https://o-site.spb.ru/race.php?id=180425"_blank">Инфо и результаты.</a>',
+        info: '16.05. <a href="https://o-site.spb.ru/race.php?id=180425">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_467_2018.webp',
         link: './original_maps/city/school_467_2018_full.gif',
@@ -178,7 +178,7 @@ let schoolMaps = [
     {
         name: 'Гимназия №642 "Земля и Вселенная"',
         year: 2018,
-        info: '16.05. <a href="https://o-site.spb.ru/race.php?id=180516"_blank">Инфо и результаты.</a>',
+        info: '16.05. <a href="https://o-site.spb.ru/race.php?id=180516">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_642_2018.webp',
         link: './original_maps/city/school_642_2018_full.gif',
@@ -189,7 +189,7 @@ let schoolMaps = [
     {
         name: 'Школа №175',
         year: 2018,
-        info: '10.10. <a href="https://o-site.spb.ru/race.php?id=181010"_blank">Инфо и результаты.</a>',
+        info: '10.10. <a href="https://o-site.spb.ru/race.php?id=181010">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_175_2018.webp',
         link: './original_maps/city/school_175_2018_full.gif',
@@ -199,7 +199,7 @@ let schoolMaps = [
     {
         name: 'Школа №212',
         year: 2018,
-        info: '24.10. <a href="https://o-site.spb.ru/race.php?id=181024"_blank">Инфо и результаты.</a>',
+        info: '24.10. <a href="https://o-site.spb.ru/race.php?id=181024">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_212_2018.webp',
         link: './original_maps/city/school_212_2018_full.gif',
@@ -210,7 +210,7 @@ let schoolMaps = [
     {
         name: 'Школа №312',
         year: 2019,
-        info: '15.05. <a href="https://o-site.spb.ru/race.php?id=190515"_blank">Инфо и результаты.</a>',
+        info: '15.05. <a href="https://o-site.spb.ru/race.php?id=190515">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_312_2021.webp',
         link: './original_maps/city/school_312_2019_full.gif',
@@ -222,7 +222,7 @@ let schoolMaps = [
         name: 'Лицей №384',
         year: 2019,
         start: 'SCHOOL',
-        info: '17.02. <a href="https://o-site.spb.ru/race.php?id=190918"_blank">Инфо и результаты.</a>',
+        info: '17.02. <a href="https://o-site.spb.ru/race.php?id=190918">Инфо и результаты.</a>',
         url: './maps/city/narvskaya_384_school_2019.webp',
         link: './original_maps/city/narvskaya_384_school_2019_full.gif',
         bounds: [[59.898128796133236, 30.27366399765015], [59.89818260538584, 30.275981426239017], [59.89648219085799, 30.273492336273197]],
@@ -233,7 +233,7 @@ let schoolMaps = [
     {
         name: 'Пушкин, школа №645',
         year: 2021,
-        info: 'Инфо и результаты: <a href="https://o-site.spb.ru/race.php?id=160420"_blank">20.04.2016</a>, <a href="https://o-site.spb.ru/race.php?id=210210"_blank">10.02.2021</a>',
+        info: 'Инфо и результаты: <a href="https://o-site.spb.ru/race.php?id=160420">20.04.2016</a>, <a href="https://o-site.spb.ru/race.php?id=210210">10.02.2021</a>',
         start: 'SCHOOL',
         url: './maps/city/pushkin_school_645.webp',
         link: ['./original_maps/city/pushkin_school_645_full.jpg','./original_maps/city/school_645_2021_open_full.gif','./original_maps/city/pushkin_school_645_full.gif'],
@@ -245,7 +245,7 @@ let schoolMaps = [
     {
         name: 'Школа №482',
         year: 2021,
-        info: 'Инфо и результаты: <a href="https://www.o-site.spb.ru/race.php?id=151007"_blank">07.10.2015</a>, <a href="https://o-site.spb.ru/race.php?id=210217"_blank">17.02.2021</a>',
+        info: 'Инфо и результаты: <a href="https://www.o-site.spb.ru/race.php?id=151007">07.10.2015</a>, <a href="https://o-site.spb.ru/race.php?id=210217">17.02.2021</a>',
         start: 'SCHOOL',
         url: './maps/city/school_482_2021.webp',
         link: ['./original_maps/city/school_482_2015_full.gif','./original_maps/city/school_482_2021_full.gif'],
@@ -256,7 +256,7 @@ let schoolMaps = [
     {
         name: 'Школа №292',
         year: 2021,
-        info: '21.04. <a href="https://o-site.spb.ru/race.php?id=210421"_blank">Инфо и результаты.</a>',
+        info: '21.04. <a href="https://o-site.spb.ru/race.php?id=210421">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_292_2021.webp',
         link: './original_maps/city/school_292_2021_full.gif',
@@ -267,7 +267,7 @@ let schoolMaps = [
     {
         name: 'Школы №150, 158',
         year: 2021,
-        info: 'Инфо и результаты: <a href="https://o-site.spb.ru/race.php?id=191023"_blank">23.10.2019</a>, <a href="https://o-site.spb.ru/race.php?id=210428"_blank">28.04.2021</a>',
+        info: 'Инфо и результаты: <a href="https://o-site.spb.ru/race.php?id=191023">23.10.2019</a>, <a href="https://o-site.spb.ru/race.php?id=210428">28.04.2021</a>',
         start: 'SCHOOL',
         url: './maps/city/school_158_2021.webp',
         link: ['./original_maps/city/school_150_2019_full.gif', './original_maps/city/school_158_2021_full.gif'],
@@ -278,7 +278,7 @@ let schoolMaps = [
     {
         name: 'Школа №556',
         year: 2021,
-        info: '13.05. <a href="https://o-site.spb.ru/race.php?id=210513"_blank">Инфо и результаты.</a>',
+        info: '13.05. <a href="https://o-site.spb.ru/race.php?id=210513">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_556_2021.webp',
         link: './original_maps/city/school_556_2021_full.gif',
@@ -289,7 +289,7 @@ let schoolMaps = [
     {
         name: 'Гимназия №11',
         year: 2021,
-        info: '19.05. <a href="https://o-site.spb.ru/race.php?id=210519"_blank">Инфо и результаты.</a>',
+        info: '19.05. <a href="https://o-site.spb.ru/race.php?id=210519">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_11_2021.webp',
         link: './original_maps/city/school_11_2021_full.gif',
@@ -299,7 +299,7 @@ let schoolMaps = [
     {
         name: 'Школа №303',
         year: 2022,
-        info: '18.05. <a href="https://o-site.spb.ru/race.php?id=220518"_blank">Инфо и результаты.</a>',
+        info: '18.05. <a href="https://o-site.spb.ru/race.php?id=220518">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_303_2022.webp',
         link: './original_maps/city/school_303_2022_full.gif',
@@ -310,7 +310,7 @@ let schoolMaps = [
     {
         name: 'Школа №468, лицей №101',
         year: 2022,
-        info: 'Инфо и результаты: <a href="https://o-site.spb.ru/race.php?id=141015"_blank">15.10.2014</a>, <a href="https://o-site.spb.ru/race.php?id=220914"_blank">14.09.2022</a>.',
+        info: 'Инфо и результаты: <a href="https://o-site.spb.ru/race.php?id=141015">15.10.2014</a>, <a href="https://o-site.spb.ru/race.php?id=220914">14.09.2022</a>.',
         start: 'SCHOOL',
         url: './maps/city/school_468_2014.webp',
         link: ['./original_maps/city/school_468_2014_full.gif','./original_maps/city/school_468_2022_full.gif'],
@@ -321,7 +321,7 @@ let schoolMaps = [
     {
         name: 'Школа №149',
         year: 2022,
-        info: 'Инфо и результаты: <a href="https://www.o-site.spb.ru/race.php?id=150930"_blank">30.09.2015</a>, <a href="https://o-site.spb.ru/race.php?id=220921"_blank">21.09.2022</a>.',
+        info: 'Инфо и результаты: <a href="https://www.o-site.spb.ru/race.php?id=150930">30.09.2015</a>, <a href="https://o-site.spb.ru/race.php?id=220921">21.09.2022</a>.',
         start: 'SCHOOL',
         url: './maps/city/school_149_2022.webp',
         link: ['./original_maps/city/school_149_2015_full.gif','./original_maps/city/school_149_2022_full.gif'],
@@ -331,7 +331,7 @@ let schoolMaps = [
     {
         name: 'Школа №464',
         year: 2023,
-        info: '27.09. <a href="https://o-site.spb.ru/race.php?id=230927"_blank">Инфо и результаты.</a>',
+        info: '27.09. <a href="https://o-site.spb.ru/race.php?id=230927">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_464_2023.webp',
         link: './original_maps/city/school_464_2023_full.gif',
@@ -342,7 +342,7 @@ let schoolMaps = [
     {
         name: 'Школа №437',
         year: 2023,
-        info: '29.09. <a href="https://o-site.spb.ru/race.php?id=230929"_blank">Инфо и результаты.</a>',
+        info: '29.09. <a href="https://o-site.spb.ru/race.php?id=230929">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_437_2023.webp',
         link: './original_maps/city/school_437_2023_full.gif',
@@ -352,7 +352,7 @@ let schoolMaps = [
     {
         name: 'Школа №57',
         year: 2023,
-        info: '03.10. <a href="https://o-site.spb.ru/race.php?id=231003"_blank">Инфо и результаты.</a>',
+        info: '03.10. <a href="https://o-site.spb.ru/race.php?id=231003">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_57_2023.webp',
         link: './original_maps/city/school_57_2023_full.gif',
@@ -363,7 +363,7 @@ let schoolMaps = [
     {
         name: 'Школа №339',
         year: 2024,
-        info: '02.10. <a href="https://o-site.spb.ru/race.php?id=241002"_blank">Инфо и результаты.</a>',
+        info: '02.10. <a href="https://o-site.spb.ru/race.php?id=241002">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_339_2024.webp',
         link: './original_maps/city/school_339_2024_full.gif',
@@ -374,7 +374,7 @@ let schoolMaps = [
     {
         name: 'Школа №605',
         year: 2024,
-        info: '09.10. <a href="https://o-site.spb.ru/race.php?id=241009"_blank">Инфо и результаты.</a>',
+        info: '09.10. <a href="https://o-site.spb.ru/race.php?id=241009">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_605_2024.webp',
         link: './original_maps/city/school_605_2024_full.gif',
@@ -384,7 +384,7 @@ let schoolMaps = [
     {
         name: 'Лицей №101',
         year: 2024,
-        info: '25.10. <a href="https://o-site.spb.ru/race.php?id=240925"_blank">Инфо и результаты.</a>',
+        info: '25.10. <a href="https://o-site.spb.ru/race.php?id=240925">Инфо и результаты.</a>',
         start: 'SCHOOL',
         url: './maps/city/school_101_2024.webp',
         link: './original_maps/city/school_101_2024_full.gif',
