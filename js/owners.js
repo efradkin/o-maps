@@ -257,6 +257,9 @@ let owners = {
     ISKTL: {
         name: '@ КСО ИСКАТЕЛЬ'
     },
+    JAKMV_S: {
+        name: '@ Якимов Семён, <a href="mailto:semyon@forestadventure.ru">semyon@forestadventure.ru</a>'
+    },
     KHMCHKNA: {
         name: '@ Химочкина Т.Н.'
     },
