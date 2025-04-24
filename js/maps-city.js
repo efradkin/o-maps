@@ -713,12 +713,13 @@ let cityMaps = [
     },
     {
         name: 'Школа №217',
-        year: 2023,
+        year: 2025,
+        logo: 'school_217.png',
         url: './maps/city/school_217_2023.webp',
-        link: ['./original_maps/city/school_217_2023.ocd','./original_maps/city/school_217_2023.jpg'],
+        link: ['./original_maps/city/school_217_2025_full.gif','./original_maps/city/school_217_2023.ocd','./original_maps/city/school_217_2023.jpg'],
         bounds: [[59.83421729007089, 30.165688991546634], [59.83299883852204, 30.178971290588382], [59.82475964241083, 30.16229867935181]],
         types: ['CITY'],
-        author: ['TMKN','ALNKVA','TRSK','ZHMNTKV','SVLJV','KPJEV'],
+        author: 'TMKN', // ,'ALNKVA','TRSK','ZHMNTKV','SVLJV','KPJEV'
         owner: 'TMKN'
     },
     {
@@ -756,8 +757,8 @@ let cityMaps = [
         name: 'пр Ветеранов, шк №254',
         year: 2025,
         url: './maps/city/school_254_2025.webp',
-        link: './original_maps/city/school_254_2025_full.jpg',
-        bounds: [[59.836977510982265, 30.195086002349857], [59.83648155064958, 30.212187767028812], [59.83311745080844, 30.194935798645023]],
+        link: './original_maps/city/school_254_2025_full.gif',
+        bounds: [[59.84341354352382, 30.19575119018555], [59.84251882619241, 30.214591026306156], [59.83307431911679, 30.19476413726807]],
         types: ['CITY'],
         author: 'TMKN',
         owner: 'TMKN'
