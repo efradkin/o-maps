@@ -263,6 +263,9 @@ let owners = {
     KHMCHKNA: {
         name: '@ Химочкина Т.Н.'
     },
+    KLNN_O: {
+        name: '@ Калинин Олег, +7 916 683 1372'
+    },
     KSTKN_SITE: {
         name: 'Карта доступна в формате OCAD на <a href="http://www.kasatik.ru/sport.aspx?stori=11">сайте Николая Касаткина</a>.'
     },

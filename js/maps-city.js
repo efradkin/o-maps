@@ -1686,7 +1686,7 @@ let cityMaps = [
         types: ['SPRINT', 'CITY'],
     },
     {
-        name: 'Школа №110, Сиреневый блв',
+        name: 'Школа №110, Сиреневый бульвар',
         year: 2024,
         url: './maps/city/school_110_1_2024.webp',
         link: './original_maps/city/school_110_1_2024_full.gif',
@@ -1696,7 +1696,7 @@ let cityMaps = [
         types: ['SPRINT', 'CITY'],
     },
     {
-        name: 'Школа №110, Поэтический блв',
+        name: 'Школа №110, Поэтический бульвар',
         year: 2024,
         url: './maps/city/school_110_2_2024.webp',
         link: './original_maps/city/school_110_2_2024_full.gif',
