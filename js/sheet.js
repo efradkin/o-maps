@@ -3,7 +3,8 @@ const mapTypes = ['Город', 'Парки', 'Лес', 'Спец.', 'Рогей
 
 window.onload = function() {
 
-    oMaps.sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)))
+    oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
+        .sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)))
         .sort((a, b) => a.name.localeCompare(b.name));
 
     // Навешиваем обработчик на заголовок таблицы

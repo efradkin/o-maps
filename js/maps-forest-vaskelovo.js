@@ -412,6 +412,7 @@ let vaskelovoMaps = [
     {
         name: 'Пески, оз Пулконлампи',
         year: 2001,
+        info: '28.06',
         url: './maps/forest/vaskelovo/peski_pulkonlampi_2001.webp',
         link: ['./original_maps/forest/vaskelovo/peski_pulkonlampi_2001_full.jpg','./original_maps/starts/mms/mms_2001_06_28.jpg'],
         start: 'MMS',
@@ -422,6 +423,7 @@ let vaskelovoMaps = [
     {
         name: 'Пески, Забытое оз',
         year: 2001,
+        info: '30.06',
         url: './maps/forest/vaskelovo/peski_zabytoe_2001.webp',
         link: './original_maps/forest/vaskelovo/peski_zabytoe_2001_full.jpg',
         start: 'MMS',
@@ -432,6 +434,7 @@ let vaskelovoMaps = [
     {
         name: 'Пески, оз Стайка',
         year: 2001,
+        info: '30.06',
         url: './maps/forest/vaskelovo/peski_stayka_2001.webp',
         link: './original_maps/starts/mms/mms_2001_06_30.jpg',
         start: 'MMS',
