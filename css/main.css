@@ -41,6 +41,7 @@ a, a:active, a:focus {
     }
     .help-figure {
         border: 5px solid darkolivegreen;
+        max-width: 100%;
     }
     .help-figure-left {
         float: left;

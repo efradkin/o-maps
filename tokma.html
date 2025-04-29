@@ -38,8 +38,48 @@
     <h1 class="text-center"><a href="./index.html" target="_self">O-maps ◪</a></h1>
     <h2 class="text-center" id="start_name"></h2>
 
-    <div class="container start-maps-wrapper">
+    <div class="container">
         <section id="start_info" class="clearfix"><img class="help-figure help-figure-left" /><span /></section>
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="maps-tab" data-bs-toggle="tab" data-bs-target="#maps" type="button" role="tab" aria-controls="maps" aria-selected="true">Карты</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="fotos-tab" data-bs-toggle="tab" data-bs-target="#fotos" type="button" role="tab" aria-controls="fotos" aria-selected="false">Фотографии</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="maps" role="tabpanel" aria-labelledby="maps-tab">
+                <div class="start-maps-wrapper"></div>
+            </div>
+            <div class="tab-pane fade" id="fotos" role="tabpanel" aria-labelledby="fotos-tab">
+                <section><img class="help-figure" src="foto/tokma/tokma_13.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_14.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_15.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_16.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_24.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_25.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_17.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_18.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_19.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_20.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_22.jpg" id="tokma_22" /><p><label for="tokma_22">Матч химиков, Беларусь (Малые Лётцы).</label></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_21.jpg" id="tokma_21" /><p><label for="tokma_21">Новогодняя эстафета, 2019 г (но это не точно).</label></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_23.jpg" id="tokma_23" /><p><label for="tokma_23">Новогодняя эстафета, 2019 г (но это не точно).</label></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_11.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_12.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_08.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_07.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_06.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_10.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_03.jpg" id="tokma_03" /><p><label for="tokma_03">Чемпионат Санкт-Петербурга 1996 г.</label></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_05.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_01.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_04.jpg" /></section>
+                <section><img class="help-figure" src="foto/tokma/tokma_09.jpg" id="tokma_09" /><p><label for="tokma_09">Команда "Динамо" (тренеры: Волков Андрей Владимирович и Соловьёва Александра Владимировна), 1996 г.</label></section>
+            </div>
+        </div>
     </div>
 
     <script src="js/ext/leaflet.js"></script>
