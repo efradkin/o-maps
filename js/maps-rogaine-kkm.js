@@ -454,4 +454,17 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Дудергоф (Можайка)',
+        year: 2025,
+        month: 5,
+        info: 'Май, фотоориентирование.',
+        url: './maps/rogaine/kkm/dudergof_KKM_2025_05.webp',
+        link: ['./original_maps/rogaine/kkm/dudergof_KKM_2025_05_full.jpg','./original_maps/rogaine/kkm/dudergof_KKM_2025_05_pictures.jpg'],
+        bounds: [[59.71326593717386, 30.109062194824222], [59.71071191886188, 30.141420364379883], [59.6931964926216, 30.102753639221195]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22402/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        types: ['ROGAINE'],
+    },
 ];
