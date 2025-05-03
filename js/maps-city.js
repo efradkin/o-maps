@@ -1340,17 +1340,6 @@ let cityMaps = [
         types: ['CITY'],
     },
     {
-        name: 'Рижский пр',
-        year: 2024,
-        info: 'Карта фотоквеста.',
-        url: './maps/city/rizhsky_2024.webp',
-        link: './original_maps/fun/rizhsky_2024_full.jpg',
-        bounds: [[59.913428634991995, 30.265789031982425], [59.91333182273538, 30.27765512466431], [59.90949137548744, 30.265488624572757]],
-        author: 'RYZHOV',
-        owner: 'RYZHOV',
-        types: ['CITY','FUN'],
-    },
-    {
         name: 'Кириши',
         year: 2005,
         url: './maps/city/kirishi_2005.webp',
