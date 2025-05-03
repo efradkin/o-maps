@@ -580,6 +580,7 @@ let authors = {
     TRNN_A: { name: 'Таранин Анатолий' },
     TTYNN_M: { name: 'Тутынин Марк' },
     TTYNN_V: { name: 'Тутынин Владимир' },
+    VSHKVRKO: { name: 'Вышкварко Алексей' },
     YTKN: { name: 'Юткин С.' },
     YURCHK: { name: 'Юрчук Сергей' },
     ZHRDV_V: { name: 'Жердев Владимир' },
