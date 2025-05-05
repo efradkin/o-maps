@@ -700,6 +700,15 @@ let moscowMaps = [
         types: [],
     },
     {
+        name: 'Опалиха',
+        year: 1996,
+        url: './maps/moscow/opaliha_1996.webp',
+        link: './original_maps/moscow/opaliha_1996_full.jpg',
+        bounds: [[55.81346027592875, 37.23039150238038], [55.81992220092163, 37.29918479919434], [55.788470502861415, 37.23760128021241]],
+        author: 'GNDRV',
+        types: [],
+    },
+    {
         name: 'Красногорск, стад им Утробина',
         year: 2024,
         url: './maps/moscow/ak/krasnoforsk_stadion_2024.webp',
@@ -724,6 +733,14 @@ let moscowMaps = [
         link: ['./original_maps/moscow/ak/krasnogorsk_school_1_2009_full.gif','./original_maps/moscow/ak/krasnogorsk_school_1_podval_2009_full.gif'],
         bounds: [[55.835493923317266, 37.324569225311286], [55.8343853071138, 37.326371669769294], [55.83480706700288, 37.32356071472169]],
         owner: 'NLTV_D',
+        types: ['CITY'],
+    },
+    {
+        name: 'Красногорск, школа №6',
+        year: 2009,
+        url: './maps/moscow/ak/krasnogorsk_school_6_2009.webp',
+        link: './original_maps/moscow/ak/krasnogorsk_school_6_2009_full.jpg',
+        bounds: [[55.818113934517655, 37.30532169342042], [55.81698071140579, 37.32081413269044], [55.812037543842, 37.303884029388435]],
         types: ['CITY'],
     },
     {
@@ -794,6 +811,13 @@ let moscowMaps = [
         author: ['ZUEV_A','SYTV_N',],
         owner: 'FSO_MSK',
         types: ['PARK'],
+    },
+    {
+        name: 'Крылатские Холмы, школа №1133',
+        url: './maps/moscow/school_1133.webp',
+        link: './original_maps/moscow/school_1133_full.gif',
+        bounds: [[55.75261016671553, 37.41694450378419], [55.752175439972206, 37.42087125778199], [55.750315720878156, 37.41636514663697]],
+        types: ['CITY'],
     },
     {
         name: 'Кучинский лесопарк Вело (восток)',

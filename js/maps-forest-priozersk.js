@@ -167,9 +167,18 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_west_2008.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_2008_full.pdf',
         bounds: [[61.15810287382887, 29.742393493652347], [61.14389802382198, 29.939460754394535], [61.083819196139416, 29.71887588500977]],
-        types: [],
         author: ['KUZNTSV_S','NSNV','KVZN','TKMKV_K','SHRNN'],
-        owner: 'TOKM'
+        owner: 'TOKM',
+        types: [],
+    },
+    {
+        name: 'Кузнечное, Богатыри',
+        year: 1998,
+        url: './maps/forest/priozersk/kuznechnoe_bogatyri_1998.webp',
+        link: './original_maps/forest/priozersk/kuznechnoe_bogatyri_1998_full.jpg',
+        bounds: [[61.11791519532813, 29.80376243591309], [61.11244240252194, 29.89165306091309], [61.08761637193672, 29.793934822082523]],
+        author: ['KUZNTSV_S','KVZN','VLKV_K','SHRNN'],
+        types: [],
     },
     {
         name: 'Кузнечное, юго-восток',
