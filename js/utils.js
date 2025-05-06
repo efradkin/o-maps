@@ -325,3 +325,8 @@ function getMapStarts(m) {
     }
     return start;
 }
+
+function downloadSheetTable(fileName) {
+    downloadTableAsCSV($('.o-main-table'), fileName);
+    return false;
+}

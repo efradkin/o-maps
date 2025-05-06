@@ -129,3 +129,21 @@ function isObject(obj) {
 function safe(s) {
     return s || '';
 }
+
+const downloadTableAsCSV = (table, filename) => {
+    const csv = Array.from(table.find('tr')).reduce((acc, row) => {
+        const cols = Array.from($(row).find('td, th'));
+        const rowData = cols.map((col) => `"${$(col).text().trim()}"`);
+        acc.push(rowData.join(';'));
+        return acc;
+    }, []);
+
+    const csvContent = `data:text/csv;charset=utf-8,\uFEFF${csv.join('\n')}`;
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement('a');
+    link.setAttribute('href', encodedUri);
+    link.setAttribute('download', filename);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};

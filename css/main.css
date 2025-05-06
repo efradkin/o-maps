@@ -332,9 +332,23 @@ label:has(> span span .layer-separator) {
     font-size: 12px;
     font-weight: bold;
 }
+.sheet-body {
+    h1 {
+        margin-bottom: 0;
+    }
+}
+.o-sheet-roof {
+    width: 100%;
+    text-align: end;
+    align-content: end;
+    img {
+        margin-bottom: 5px;
+    }
+}
 .o-sheet-wrapper {
     overflow-y: auto;
-    height: calc(100vh - 110px);
+    width: 100%;
+    height: calc(100vh - 120px);
 
     thead th {
         position: sticky;

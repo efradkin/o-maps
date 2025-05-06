@@ -79,9 +79,10 @@
     <p class="stat_result_article">Самая большая спортивная карта: <a id="largest_map" href="#"></a>. <sup>⚹</sup></p>
     <p class="stat_result_article">Самая древняя карта: <a id="oldest_map" href="#"></a>.</p>
 
-    <br /><br />
-
     <div class="chart-container">
+        <div class="o-sheet-roof">
+            <a href="#" onclick="downloadSheetTable('o-authors-serbia.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+        </div>
         <table class="o-main-table">
             <thead>
                 <th>&nbsp;</th>
@@ -97,6 +98,8 @@
         <hr />
         <p class="stat_result_article" style="text-align: left"><sup>⚹</sup> Площадь большинства карт высчитывается, исходя из координат листа карты. Для компенсации того, что реальная карта практически всегда меньше, введён понижающий коэффициент 70%. Площадь некоторых (в основном, крупных) карт указана вручную.</p>
     </div>
+
+    <script src="js/ext/jquery.slim.min.js"></script>
 
     <script src="js/ext/leaflet.js"></script>
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
