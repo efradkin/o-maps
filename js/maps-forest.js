@@ -425,7 +425,7 @@ let forestMaps = [
         year: 2024,
         url: './maps/forest/yappilya_2024.webp',
         bounds: [[60.23520963053894, 29.110679626464847], [60.22787991859254, 29.183120727539066], [60.18736650278566, 29.091625213623047]],
-        author: ['TKMKV_K','TKMKVA_P','KVZN','NSNV','NKFRV'],
+        author: ['TKMKV_K','TKMKVA_P','KVZN','NSNV','NKFRV_A'],
         owner: ['GLTV_YU', 'GLFSTRM'],
         types: [],
     },

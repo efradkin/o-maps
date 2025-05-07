@@ -118,7 +118,7 @@ let ksStartsMaps = [
         url: './maps/starts/ks/ks_2003_06_24.webp',
         link: './original_maps/starts/ks/ks_2003_06_24_full.jpg',
         bounds: [[60.99829342572871, 29.184365272521973], [60.994256632619305, 29.22998428344727], [60.980665100221245, 29.17754173278809]],
-        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','VLKV_K','NKFRV'],
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','VLKV_K','NKFRV_A'],
         types: [],
     },
     {
@@ -129,7 +129,7 @@ let ksStartsMaps = [
         url: './maps/starts/ks/ks_2003_06_25.webp',
         link: './original_maps/starts/ks/ks_2003_06_25_full.jpg',
         bounds: [[60.998730367407234, 29.202604293823246], [60.99525547455416, 29.24547672271729], [60.9807900105972, 29.196081161499027]],
-        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','NKFRV'],
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','NKFRV_A'],
         types: [],
     },
     {

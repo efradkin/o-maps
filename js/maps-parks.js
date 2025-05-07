@@ -212,7 +212,7 @@ let parkMaps = [
         url: './maps/parks/udelny_2009.webp',
         link: './original_maps/parks/udelny_2009_full.jpg',
         bounds: [[60.01284529757769, 30.299005508422855], [60.01089335008618, 30.322995185852054], [60.00254801157542, 30.296559333801273]],
-        author: ['NKFRV','TKMKV_K'],
+        author: ['NKFRV_A','TKMKV_K'],
         types: ['PARK'],
     },
     {
@@ -451,7 +451,7 @@ let parkMaps = [
         name: 'Петергоф, Александрийский парк',
         url: './maps/parks/aleksandrijsky.webp',
         bounds: [[59.87819185228175, 29.919676780700687], [59.87765343201456, 29.946413040161136], [59.86332825143852, 29.918217658996586]],
-        author: ['FDRV_L','LSNNKV','NKFRV','BLZRV_V'],
+        author: ['FDRV_L','LSNNKV','NKFRV_A','BLZRV_V'],
         owner: 'GLTV_YU',
         types: ['PARK'],
     },

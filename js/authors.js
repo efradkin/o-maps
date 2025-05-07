@@ -248,7 +248,7 @@ let authors = {
     MSPN: { name: 'Мосьпан Олеся' },
     MTRNCHV: { name: 'Матреничев Вячеслав' },
     NGN: { name: 'Негин С.' },
-    NKFRV: { name: 'Никифоров Андрей' },
+    NKFRV_A: { name: 'Никифоров Андрей' },
     NSNV: {
         name: 'Несынов Сергей',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -398,7 +398,7 @@ let authors = {
 
     ALNKV_A: { name: 'Алейников Алексей' },
     ALSHN: {
-        name: 'Алешин Виктор',
+        name: 'Алёшин Виктор',
         about: 'https://o-moscow.ru/people/AleshinVM.html'
     },
     AZRV: { name: 'Азаров А.' },
@@ -428,7 +428,6 @@ let authors = {
         about: 'https://o-moscow.ru/people/EfimovVA.html'
     },
     ETNKO: { name: 'Этенко Г.' },
-    FMN_I: { name: 'Фомин И.' },
     GRCHV_D: {
         name: 'Грачев Дмитрий',
         logo: 'grachev.jpg'
@@ -478,6 +477,7 @@ let authors = {
         about: 'https://o-moscow.ru/people/KalitkinNN.html'
     },
     KLZHNY: { name: 'Калюжный Александр' },
+    KNDRSHKN_V: { name: 'Кондрашкин В.' },
     KNSTNTNV_Y: {
         name: 'Константинов Юрий',
         about: 'https://o-moscow.ru/people/KonstantinovUS.html'
@@ -529,6 +529,10 @@ let authors = {
     MSTPNV: { name: 'Мостепанов Иван' },
     MTVV: { name: 'Матвеев Виктор' },
     NDRF: { name: 'Найдорф В.' },
+    NKFRV_D: {
+        name: 'Никифоров Дмитрий', // Львович
+        about: 'https://o-moscow.ru/people/NikiforovDL.html'
+    },
     NKRSV_S: {
         name: 'Некрасов Сергей',
         logo: 'nkrsv.jpg'
@@ -545,7 +549,7 @@ let authors = {
         about: 'https://o-moscow.ru/people/OkinVI.html'
     },
     ORLV_V: { name: 'Орлов В.' },
-    PTPKN: { name: 'Потапкин П.' },
+    PTPKN: { name: 'Потапкин Павел' },
     PTRV_VLNTN: { name: 'Петров Валентин' },
     PRZRV: { name: 'Прозоров Андрей' },
     PZDV_S: { name: 'Поздеев Сергей' },
@@ -565,6 +569,7 @@ let authors = {
     SHRKHV: { name: 'Шорохов Сергей' },
     SKLV_V: { name: 'Соколов Вячеслав' },
     SKRPKO_S: { name: 'Скрипко Сергей' },
+    SMKN_V: { name: 'Симкин В.' },
     SMKN_S: {
         name: 'Симакин Сергей',
         about: 'https://o-moscow.ru/people/SimakinSM.html'
