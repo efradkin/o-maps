@@ -22,6 +22,7 @@ let vsevolozhskMaps = [
     {
         name: 'Невская Дубровка-2',
         url: './maps/forest/vsevolozhsk/nevskaya_dubrovka_east.webp',
+        link: './original_maps/forest/vsevolozhsk/nevskaya_dubrovka_east_full.jpg',
         bounds: [[59.85246716099846, 30.934989452362064], [59.851766671366114, 30.948250293731693], [59.84371537045213, 30.93331575393677]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
@@ -254,6 +255,7 @@ let vsevolozhskMaps = [
     {
         name: 'Разметелево',
         url: './maps/forest/vsevolozhsk/razmetelevo.webp',
+        link: './original_maps/forest/vsevolozhsk/razmetelevo_full.jpg',
         bounds: [[59.911234154508655, 30.686488151550297], [59.910093827964644, 30.704727172851566], [59.897978129762215, 30.68292617797852]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',

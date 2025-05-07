@@ -482,6 +482,7 @@ let zelikMaps = [
         name: 'Рощино',
         year: 2009,
         url: './maps/forest/zelik/roschino_2009.webp',
+        link: './original_maps/forest/zelik/roschino_2009_full.jpg',
         bounds: [[60.27634488928318, 29.564423561096195], [60.27542991526678, 29.601931571960453], [60.263298771665085, 29.562621116638187]],
         author: ['VSLVSKY','DRBSHV'],
         types: [],
