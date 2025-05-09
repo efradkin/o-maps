@@ -126,6 +126,10 @@ function isObject(obj) {
     return obj && typeof obj === 'object' && obj.constructor === Object;
 }
 
+function isEmpty(array) {
+    return (array === undefined || array.length == 0);
+}
+
 function safe(s) {
     return s || '';
 }

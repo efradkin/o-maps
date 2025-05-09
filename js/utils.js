@@ -1,9 +1,9 @@
 function isOrientMap(m) {
-    return !m.types || m.types.includes('CITY') || m.types.includes('PARK') || isSpecialMap(m);
+    return isEmpty(m.types) || m.types.includes('CITY') || m.types.includes('PARK') || isSpecialMap(m);
 }
 
 function isSpecialMap(m) {
-    return m.types && (m.types.includes('RELIEF') || m.types.includes('WINTER') || m.types.includes('VELO') || m.types.includes('INDOOR'));
+    return !isEmpty(m.types) && (m.types.includes('RELIEF') || m.types.includes('WINTER') || m.types.includes('VELO') || m.types.includes('INDOOR'));
 }
 
 function isMapHidden(m) {
