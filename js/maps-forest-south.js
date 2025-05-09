@@ -536,6 +536,7 @@ let southMaps = [
         name: 'Дудергоф - Нагорный парк',
         year: 2020,
         url: './maps/forest/south/nagorny_park_2020.webp',
+        link: './original_maps/forest/south/nagorny_park_2020_full.jpg',
         bounds: [[59.7056032974501, 30.118718147277836], [59.70358994008143, 30.14111995697022], [59.691702169319946, 30.11365413665772]],
         info: 'Ковидный полигон от O-Time.',
         author: 'DBRTSV_V',

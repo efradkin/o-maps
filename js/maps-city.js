@@ -686,10 +686,12 @@ let cityMaps = [
     {
         name: 'Школа №217',
         year: 2012,
+        startYear: 2023,
+        start: 'RED_SELO_FOTO',
         url: './maps/city/veteranov_2012.webp',
-        link: './original_maps/city/veteranov_2012_full.jpg',
+        link: ['./original_maps/city/veteranov_2012_full.jpg','./original_maps/fun/school_217_foto_2023_full.pdf','./original_maps/fun/school_217_foto_2023_pictures.pdf'],
         bounds: [[59.833440936715064, 30.164873600006107], [59.833354674113856, 30.1760745048523], [59.82424192853449, 30.164916515350345]],
-        types: ['CITY'],
+        types: ['CITY','FOTO'],
         author: 'TMKN',
         owner: 'TMKN'
     },

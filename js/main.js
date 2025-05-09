@@ -76,7 +76,7 @@ if (mapElement) {
         let m = getMapForName(MAP_NAME_PARAM);
         if (m) {
             let mapType = m.types;
-            if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN'))) {
+            if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN') || mapType.includes('FOTO'))) {
                 activeLayers.push(funGroup, rogaineGroup);
             } else
             if (m.year && m.year < 2000 && (typeof groupRetro !== 'undefined')) {
@@ -674,7 +674,7 @@ function syncMaps() {
     for (const m of oMaps) {
         if (m.groups && isMapAcceptable(m)) {
             let moreStarts = m.groups.length > 2;
-            let forOneStart = !moreStarts && activeLayerIds.includes(m.groups[0]) && activeLayerIds.includes(m.groups[1]);
+            let forOneStart = !moreStarts && activeLayerIds.includes(m.groups[0]) && activeLayerIds.includes(m.groups[1]); // TODO какая-то левая логика
             let forMoreStarts = moreStarts && (activeLayerIds.includes(m.groups[0]) || activeLayerIds.includes(m.groups[1])) && activeLayerIds.includes(m.groups[m.groups.length - 1]);
             if (forOneStart || forMoreStarts) {
                 shownMaps.push(m);
@@ -827,10 +827,14 @@ function buildPopupText(m, latLngs) {
 
     // инфа о карте
     let info = '';
+    if (m.types.includes('FOTO')) {
+        info += '<b>Фото-ориентирование.</b> ';
+    }
     if (m.start) {
-        info += '<b>';
-        info += getMapStarts(m);
-        info += (m.startYear ? ' '+m.startYear : '') + '</b> ';
+        info += '<b>' + getMapStarts(m) + '</b> ';
+    }
+    if (m.startYear) {
+        info += '<b>' + m.startYear + '.</b> ';
     }
     if (m.info) {
         info += m.info;

@@ -433,7 +433,7 @@ let authors = {
         logo: 'grachev.jpg'
     },
     GRBNVA: { name: 'Грибанова Татьяна' },
-    GNDRV: { name: 'Гундоров С.' },
+    GNDRV: { name: 'Гундоров Сергей' },
     FKN_S: { name: 'Фокин С.' },
     FLVSKY_S: { name: 'Фалевский Сергей' },
     FMN_I: { name: 'Фомин Игорь' },

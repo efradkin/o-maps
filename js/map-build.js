@@ -134,12 +134,7 @@ function allocateMap(m, imgLayer) {
             el.style.zIndex = 0;
         }
     }
-    if (m.types.includes('FUN')) {
-        added = true;
-        mapsStatObj.funGroup.push(imgLayer);
-        imgLayer.addTo(funGroup);
-    }
-    if (m.types.includes('RELIEF') || m.types.includes('WINTER') || m.types.includes('VELO') || m.types.includes('INDOOR')) {
+    if (isSpecialMap(m)) {
         added = true;
         mapsStatObj.specialGroup.push(imgLayer);
         pushGroupToMap(m, specialGroup);
@@ -153,6 +148,11 @@ function allocateMap(m, imgLayer) {
         added = true;
         mapsStatObj.parkGroup.push(imgLayer);
         pushGroupToMap(m, parkGroup);
+    }
+    if (m.types.includes('FUN') || m.types.includes('FOTO')) {
+        added = true;
+        mapsStatObj.funGroup.push(imgLayer);
+        imgLayer.addTo(funGroup);
     }
     if (!added) {
         mapsStatObj.forestGroup.push(imgLayer);

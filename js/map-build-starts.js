@@ -123,20 +123,20 @@ if (mapElement) {
 
 function buildOverlayMapsContents() {
     let result = {
-        "Невский Азимут": naGroup,
-        "Яркий Мир": ymGroup,
-        "ККП": kkpGroup,
-        "ММС": mmsGroup,
         "Белые Ночи": wnGroup,
         "Карельские скалы": ksGroup,
+        "ККП": kkpGroup,
+        "ММС": mmsGroup,
+        "Невский Азимут": naGroup,
         "Памяти Кузнецова": pskGroup,
         "Спринт-Тур": stGroup,
         "Школы": schoolGroup,
-        "RFAR": rfarGroup,
+        "Яркий Мир": ymGroup,
         "100x24": sto24Group,
+        "BA/TA": baGroup,
+        "RFAR": rfarGroup,
         "ККМ": kkmGroup,
         "Марш-Бросок": mbGroup,
-        "BA/TA": baGroup,
         "<span class='layer-separator'>Чемпионаты и Кубки</span>": majorGroup,
     };
     return result;
