@@ -522,6 +522,18 @@ let vaskelovoMaps = [
         types: [],
     },
     {
+        name: 'Орехово, Фигурное оз',
+        year: 2025,
+        info: '<a href="https://o-site.spb.ru/race.php?id=250510_zg">Эстафета "Змей Горыныч"</a>.',
+        url: './maps/forest/vaskelovo/orekhovo_figurnoe_2025.webp',
+        link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_2025_full.gif',
+        bounds: [[60.46106876414282, 30.27862071990967], [60.456117437740424, 30.329904556274418], [60.44318541452643, 30.271968841552738]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22515/',
+        author: 'CHGRVSKY_V',
+        owner: ['CHGRVSKY_V','KUZM_CHGRVSKY'],
+        types: [],
+    },
+    {
         name: 'Васкелово, тб "Онега"',
         year: 2006,
         url: './maps/forest/vaskelovo/onega_2006.webp',
