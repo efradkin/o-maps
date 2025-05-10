@@ -4686,7 +4686,7 @@ let moscowMaps = [
         link: './original_maps/moscow/pokrov_rogaine_2014_full.jpg',
         bounds: [[56.1646707408543, 38.75598907470704], [56.16378659337049, 39.49675083160401], [55.85093896064062, 38.75770568847657]],
         owner: 'KSTKN_SITE',
-        types: ['ROGAINE','VELO'],
+        types: ['ROGAINE'],
     },
     {
         name: 'Воскресенск',
@@ -4695,7 +4695,18 @@ let moscowMaps = [
         link: './original_maps/moscow/voskresensk_rogaine_2012_full.gif',
         bounds: [[55.495776945292555, 38.66363525390626], [55.44362154041118, 39.1439437866211], [55.14336809548373, 38.543815612792976]],
         owner: 'KSTKN_SITE',
-        types: ['ROGAINE','VELO'],
+        types: ['ROGAINE'],
+    },
+    {
+        name: 'Электрогорск',
+        year: 2025,
+        url: './maps/moscow/ak/electrogorsk_rogaine_2025.webp',
+        link: './original_maps/moscow/ak/electrogorsk_rogaine_2025_full.gif',
+        bounds: [[56.04318502062839, 38.797874450683594], [56.01402511088384, 39.03614044189454], [55.89071598742222, 38.737621307373054]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22250/',
+        owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
+        types: ['ROGAINE'],
     },
     {
         name: 'Лосиный остров',
