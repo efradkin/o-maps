@@ -2868,6 +2868,16 @@ let moscowMaps = [
         types: ['PARK'],
     },
     {
+        name: 'Зеленоградский л/п',
+        year: 2025,
+        url: './maps/moscow/zelenograd_2025.webp',
+        link: './original_maps/moscow/zelenograd_2025_full.png',
+        bounds: [[55.99683299135716, 37.18887090682984], [55.99476894291238, 37.214212417602546], [55.981241898161215, 37.185029983520515]],
+        author: 'ZHRDV_V',
+        owner: 'FSO_MSK',
+        types: ['PARK'],
+    },
+    {
         name: 'Ходынское поле',
         year: 2024,
         info: 'Российский Азимут 2024.',
