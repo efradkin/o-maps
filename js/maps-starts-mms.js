@@ -37,6 +37,18 @@ let mmsStartsMaps = [
         types: [],
     },
     {
+        name: 'Орехово',
+        region: 'starts',
+        start: 'MMS',
+        year: 1997,
+        info: '29.06',
+        url: './maps/starts/mms/mms_1997_06_29.webp',
+        link: './original_maps/starts/mms/mms_1997_06_29_full.jpg',
+        bounds: [[60.46855779734536, 30.32981872558594], [60.46563854919883, 30.384407043457035], [60.443672310622915, 30.323724746704105]],
+        author: ['BYMKV','DBRTSV_V'],
+        types: [],
+    },
+    {
         name: 'Кузнечное, Богатыри',
         region: 'starts',
         start: 'MMS',
