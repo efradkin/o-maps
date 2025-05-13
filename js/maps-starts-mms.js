@@ -168,6 +168,17 @@ let mmsStartsMaps = [
         types: [],
     },
     {
+        name: 'Кузнечное, Богатыри',
+        region: 'starts',
+        start: 'MMS',
+        year: 2009,
+        info: '28.06, финал. <a href="https://o-site.spb.ru/race.php?id=09062628">Инфо и результаты.</a>',
+        url: './maps/starts/mms/mms_2009_06_28.webp',
+        link: './original_maps/starts/mms/mms_2009_06_28_full.jpg',
+        bounds: [[61.124236749799046, 29.818053245544437], [61.1221642483242, 29.85491752624512], [61.09946146213139, 29.810543060302738]],
+        types: [],
+    },
+    {
         name: 'Лемболово',
         region: 'starts',
         start: 'MMS',
