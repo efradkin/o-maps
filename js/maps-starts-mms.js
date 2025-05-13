@@ -25,6 +25,17 @@ let mmsStartsMaps = [
         types: [],
     },
     {
+        name: 'Кузнечное, Богатыри',
+        region: 'starts',
+        start: 'MMS',
+        year: 1998,
+        url: './maps/starts/mms/mms_1998_06.webp',
+        link: './original_maps/starts/mms/mms_1998_06_full.jpg',
+        bounds: [[61.119366155705585, 29.81569290161133], [61.11551060004153, 29.87088203430176], [61.10039477459529, 29.809942245483402]],
+        author: ['KUZNTSV_A','KVZN','SHRNN'],
+        types: [],
+    },
+    {
         name: 'Ягодное, Расстанное оз',
         region: 'starts',
         start: 'MMS',
