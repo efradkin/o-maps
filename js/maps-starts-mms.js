@@ -60,6 +60,18 @@ let mmsStartsMaps = [
         types: [],
     },
     {
+        name: 'Каменногорск',
+        region: 'starts',
+        start: 'MMS',
+        year: 2000,
+        info: '02.07',
+        url: './maps/starts/mms/mms_2000_07_02.webp',
+        link: './original_maps/starts/mms/mms_2000_07_02_full.jpg',
+        bounds: [[60.99881359371209, 29.16801452636719], [60.99461039272978, 29.22247409820557], [60.97972825675465, 29.161233901977543]],
+        author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV','TKMKV_K','VRBY'],
+        types: [],
+    },
+    {
         name: 'Ягодное, Расстанное оз',
         region: 'starts',
         start: 'MMS',
