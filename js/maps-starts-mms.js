@@ -180,6 +180,17 @@ let mmsStartsMaps = [
         types: [],
     },
     {
+        name: 'Каменногорск',
+        region: 'starts',
+        start: 'MMS',
+        year: 2008,
+        info: '28.06, полуфинал. <a href="https://o-site.spb.ru/race.php?id=080627_MS">Инфо и результаты.</a>',
+        url: './maps/starts/mms/mms_2008_06_28.webp',
+        link: './original_maps/starts/mms/mms_2008_06_28_full.jpg',
+        bounds: [[60.98897057120401, 29.17779922485352], [60.98643128413883, 29.209427833557132], [60.967900836236595, 29.170632362365726]],
+        types: [],
+    },
+    {
         name: 'Кузнечное, Богатыри',
         region: 'starts',
         start: 'MMS',

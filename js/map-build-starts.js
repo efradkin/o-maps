@@ -69,8 +69,9 @@ for (const m of oMaps) {
         continue;
     }
     if (m.start || isMajor(m)) {
-        if (m.year && !ageGroups[m.year]) {
-            getCreateAgeGroup(m.year);
+        let year = m.startYear || m.year;
+        if (year && !ageGroups[year]) {
+            getCreateAgeGroup(year);
         }
     }
 }
@@ -158,11 +159,12 @@ function allocateMap(m) {
             pushGroupToMap(m, majorGroup);
         }
 
-        if (!m.year) {
+        let year = m.startYear || m.year;
+        if (!year) {
             let groupUnknownYear = getCreateAgeGroup(0);
             pushGroupToMap(m, groupUnknownYear);
         } else {
-            let yearGroup = getCreateAgeGroup(m.year);
+            let yearGroup = getCreateAgeGroup(year);
             pushGroupToMap(m, yearGroup);
         }
     }
