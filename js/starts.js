@@ -16,6 +16,13 @@ let starts = {
         name: '<a href="https://vk.com/club128591100">Яркий Мир</a>',
         logo: 'ym.jpg'
     },
+    GS: {
+        short: 'Зелёный Змей',
+        name: 'Зелёный Змей',
+        logo: 'gs.jpg',
+        info: 'Дистанция средней длины с большим количеством пунктов.',
+        foto: ['gs_champions.jpg']
+    },
     MMS: {
         short: 'ММС',
         name: 'Мемориал Михаила Святкина',

@@ -35,6 +35,7 @@ let mmsGroup = L.layerGroup([]);
 let pskGroup = L.layerGroup([]);
 let ksGroup = L.layerGroup([]);
 let kkpGroup = L.layerGroup([]);
+let gsGroup = L.layerGroup([]);
 let kkmGroup = L.layerGroup([]);
 let mbGroup = L.layerGroup([]);
 let baGroup = L.layerGroup([]);
@@ -51,6 +52,7 @@ let allOrientGroups = [
     mmsGroup,
     pskGroup,
     ksGroup,
+    gsGroup,
     kkpGroup,
     kkmGroup,
     mbGroup,
@@ -103,6 +105,7 @@ if (mapElement) {
             case 'NA': activeLayers.push(osmLayer, naGroup); break;
             case 'YM': activeLayers.push(osmLayer, ymGroup); break;
             case 'KKP': activeLayers.push(osmLayer, kkpGroup); break;
+            case 'GS': activeLayers.push(osmLayer, gsGroup); break;
             case 'MMS': activeLayers.push(osmLayer, mmsGroup); break;
             case 'KZNTSVA': activeLayers.push(osmLayer, pskGroup); break;
             case 'KS': activeLayers.push(osmLayer, ksGroup); break;
@@ -116,7 +119,7 @@ if (mapElement) {
         }
     } else {
         activeLayers.push(
-            osmLayer, schoolGroup, wnGroup, naGroup, ymGroup, kkpGroup, mmsGroup, pskGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
+            osmLayer, schoolGroup, wnGroup, naGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
             //...Object.values(ageGroups),
         );
     }
@@ -130,6 +133,7 @@ function buildOverlayMapsContents() {
         "ММС": mmsGroup,
         "Невский Азимут": naGroup,
         "Памяти Кузнецова": pskGroup,
+        "Зелёный Змей": gsGroup,
         "Спринт-Тур": stGroup,
         "Школы": schoolGroup,
         "Яркий Мир": ymGroup,
@@ -176,6 +180,7 @@ function pushStartGroupToMap(start, m) {
         case 'WN': pushGroupToMap(m, wnGroup); break;
         case 'NA': pushGroupToMap(m, naGroup); break;
         case 'YM': pushGroupToMap(m, ymGroup); break;
+        case 'GS': pushGroupToMap(m, gsGroup); break;
         case 'KKP': pushGroupToMap(m, kkpGroup); break;
         case 'MMS': pushGroupToMap(m, mmsGroup); break;
         case 'KZNTSVA': pushGroupToMap(m, pskGroup); break;

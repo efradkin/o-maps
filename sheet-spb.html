@@ -59,6 +59,7 @@
             <option value="NA">Невский Азимут</option>
             <option value="SCHOOL">Ориентирование в школу</option>
             <option value="KZNTSVA">Памяти Сергея Кузнецова</option>
+            <option value="GS">Зелёный Змей</option>
             <option value="ST">Спринт-Тур</option>
             <option value="YM">Яркий Мир</option>
             <option value="100X24">100x24</option>
@@ -133,6 +134,7 @@
     <script src="js/maps-starts-ks.js"></script>
     <script src="js/maps-starts-psk.js"></script>
     <script src="js/maps-starts-kkp.js"></script>
+    <script src="js/maps-starts-gs.js"></script>
 
     <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
@@ -145,6 +147,7 @@
         let startInfoRequired = true;
 
         let oMaps = [
+            ...gsStartsMaps,
             ...pskStartsMaps,
             ...ymStartsMaps,
             ...ksStartsMaps,
