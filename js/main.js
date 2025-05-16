@@ -878,7 +878,7 @@ function buildPopupText(m, latLngs) {
 
     // начдист
     if (typeof planners !== 'undefined' && m.planner) {
-        result += 'Служба дистанции: ' + buildPlanners(m);
+        result += 'Планирование дистанции: ' + buildPlanners(m);
     }
 
     // закрытый район

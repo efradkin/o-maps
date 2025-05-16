@@ -31,6 +31,7 @@ let gsStartsMaps = [
         url: './maps/starts/gs/gs_2011_08_28.webp',
         link: './original_maps/starts/gs/gs_2011_08_28_full.jpg',
         bounds: [[60.42565229505659, 30.284714698791507], [60.42357649308147, 30.319132804870605], [60.40047955623369, 30.277547836303714]],
+        planner: 'GBNV_V',
         types: [],
     },
     {
@@ -43,6 +44,7 @@ let gsStartsMaps = [
         link: './original_maps/starts/gs/gs_2016_08_27_full.jpg',
         bounds: [[60.16079241028155, 30.436635017395023], [60.156969949585005, 30.483756065368652], [60.1451367232347, 30.432343482971195]],
         author: 'DBRTSV_V',
+        planner: 'GBNV_V',
         types: [],
     },
     {

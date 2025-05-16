@@ -216,7 +216,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2008_06_28.webp',
         link: './original_maps/starts/mms/mms_2008_06_28_full.jpg',
         bounds: [[60.98897057120401, 29.17779922485352], [60.98643128413883, 29.209427833557132], [60.967900836236595, 29.170632362365726]],
-        planner: ['TLNV_A','110'],
+        planner: 'TLNV_A',
         types: [],
     },
     {
@@ -241,7 +241,7 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2010_lembolovo.jpg',
         bounds: [[60.470588423824395, 30.324668884277347], [60.466188572545335, 30.381832122802738], [60.426351259774734, 30.309820175170902]],
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
-        planner: ['TLNV_A','110'],
+        planner: 'TLNV_A',
         types: [],
     },
     {
@@ -254,7 +254,7 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2011_lembolovo_orekhovo.jpg',
         bounds: [[60.47524146368212, 30.26913642883301], [60.465596239324626, 30.38200378417969], [60.4094871930249, 30.246391296386722]],
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
-        planner: ['TLNV_A','110'],
+        planner: 'TLNV_A',
         types: [],
     },
     {
@@ -345,7 +345,7 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2014_polyany.pdf',
         bounds: [[60.323314604072536, 29.266247749328617], [60.314963226000366, 29.337916374206543], [60.292576103048674, 29.252300262451175]],
         author: 'SHRNN',
-        planner: ['TLNV_A','110'],
+        planner: 'TLNV_A',
         types: [],
     },
     {
@@ -359,7 +359,7 @@ let mmsStartsMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/223/',
         bounds: [[60.3175134916191, 29.273242950439457], [60.311647582969606, 29.323024749755863], [60.30086941848394, 29.26496028900147]],
         author: 'SHRNN',
-        planner: ['TLNV_A','110'],
+        planner: 'TLNV_A',
         types: [],
     },
     {
