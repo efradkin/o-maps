@@ -585,6 +585,21 @@ function loadMap(m) {
         }
     }
 
+    // the specified planner maps filtering
+    if (PLANNER_PARAM) {
+        if (Array.isArray(m.planner)) {
+            let own = false;
+            for (const o of m.planner) {
+                if (PLANNER_PARAM === o) {
+                    own = true; break;
+                }
+            }
+            if (!own) return;
+        } else {
+            if (PLANNER_PARAM !== m.planner) return;
+        }
+    }
+
     if (loadImagesRequired) {
         loadMapImage(m);
     } else {
@@ -861,6 +876,11 @@ function buildPopupText(m, latLngs) {
         result += buildOwners(m);
     }
 
+    // начдист
+    if (typeof planners !== 'undefined' && m.planner) {
+        result += 'Служба дистанции: ' + buildPlanners(m);
+    }
+
     // закрытый район
     if (m.restricted) {
         result += getRestrictedText(m) + '<br />';
@@ -950,6 +970,26 @@ function buildOwners(m, withIcon) {
                 result += '<img src="./logo/' + owners[m.owner].logo + '" alt="" class="sheet-icon" /> ';
             }
             result += owners[m.owner].name + '<br />';
+        }
+    }
+    return result;
+}
+
+function buildPlanners(m) {
+    let result = '';
+    if (typeof planners !== 'undefined') {
+        if (Array.isArray(m.planner)) {
+            result += '<ol>'
+            for (const o of m.planner) {
+                if (planners[o]) {
+                    result += '<li>' + planners[o].name + '</li>';
+                }
+            }
+            result += '</ol>'
+        } else {
+            if (planners[m.planner]) {
+                result += planners[m.planner].name + '<br />';
+            }
         }
     }
     return result;

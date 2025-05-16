@@ -418,6 +418,7 @@ let vaskelovoMaps = [
         start: 'MMS',
         bounds: [[60.486406037584224, 30.397667884826664], [60.484989533656474, 30.419039726257328], [60.47170944442941, 30.39380550384522]],
         author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
+        planner: 'TLNV_A',
         types: [],
     },
     {
@@ -429,6 +430,7 @@ let vaskelovoMaps = [
         start: 'MMS',
         bounds: [[60.48579293153697, 30.409598350524906], [60.4841649730346, 30.437364578247074], [60.46202085574234, 30.40427684783936]],
         author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
+        planner: 'TLNV_A',
         types: [],
     },
     {
@@ -440,6 +442,7 @@ let vaskelovoMaps = [
         start: 'MMS',
         bounds: [[60.477250524652106, 30.40663719177246], [60.473782172990134, 30.458736419677738], [60.4592914517881, 30.402088165283207]],
         author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
+        planner: 'TLNV_A',
         types: [],
     },
     {

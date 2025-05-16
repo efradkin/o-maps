@@ -61,6 +61,7 @@ function renderMapsTable() {
         td(m, row, m.area.toFixed(2));
         td(m, row, buildGpsLinks(m));
         td(m, row, buildAuthors(m, true));
+        td(m, row, buildPlanners(m));
         td(m, row, buildOwners(m, true));
         td(m, row, m.types);
         tbody.appendChild(row);
