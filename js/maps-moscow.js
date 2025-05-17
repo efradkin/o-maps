@@ -1246,6 +1246,18 @@ let moscowMaps = [
         types: ['PARK'],
     },
     {
+        name: 'Останкино, ВДНХ',
+        year: 2025,
+        url: './maps/moscow/ostankino_vdnh_2025.webp',
+        link: './original_maps/moscow/ostankino_vdnh_2025_full.png',
+        info: 'РосАзимут.',
+        logo: 'msk_rosazimut.webp',
+        bounds: [[55.84207266912696, 37.61117935180665], [55.8402533837443, 37.626693248748786], [55.82744368726813, 37.60590076446534]],
+        author: 'ZHRDV_V',
+        owner: 'PRZRV',
+        types: ['PARK'],
+    },
+    {
         name: 'Парк Борисовские Пруды',
         year: 2020,
         url: './maps/moscow/o-mephi/2019.webp',
