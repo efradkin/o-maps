@@ -143,7 +143,7 @@ let rogaineBeketovMaps = [
         name: 'Мельниково',
         year: 2016,
         url: './maps/rogaine/beketov/melnikovo_ba_2016.webp',
-        link: './original_maps/rogaine/beketov/melnikovo_ba_2016_full.jpg',
+        link: './original_maps/rogaine/beketov/melnikovo_ba_2016_full.png',
         bounds: [[61.06991307984488, 29.122009277343754], [61.089338438107305, 29.87388610839844], [60.842903410323295, 29.14878845214844]],
         owner: 'BKTV',
         start: 'BA',

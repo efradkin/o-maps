@@ -467,4 +467,17 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Сиверская',
+        year: 2025,
+        month: 6,
+        info: 'Июнь, фотоориентирование.',
+        url: './maps/rogaine/kkm/siversky_KKM_2025_06.webp',
+        link: ['./original_maps/rogaine/kkm/siversky_KKM_2025_06_full.jpg','./original_maps/rogaine/kkm/siversky_KKM_2025_06_pictures.jpg'],
+        bounds: [[59.370489245853925, 30.060524940490726], [59.37051111055739, 30.136399269104007], [59.34340993333107, 30.060052871704105]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22627/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        types: ['ROGAINE'],
+    },
 ];
