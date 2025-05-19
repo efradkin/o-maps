@@ -426,11 +426,11 @@ label:has(> span span .layer-separator) {
     font-size: 10px;
     margin-top: 8px;
 }
-#map_preview img {
+.map_preview img {
     border: 3px solid darkolivegreen;
     width: 90%;
 }
-#map_preview img:hover {
+.map_preview img:hover {
      border: 3px solid lightgoldenrodyellow;
 }
 

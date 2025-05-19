@@ -836,7 +836,9 @@ function buildPopupText(m, latLngs) {
     result += '&nbsp;-&nbsp;' + area + '&nbsp;км<sup>2</sup>';
 
     // ссылка на страничку инфа
-    result += ' <a class="map-info-link" href="./map-info.html?map=' + extractFileName(m.url) + '" title="Информация о карте">🔗</a>';
+    if (!m.url.includes('olive.png')) {
+        result += ' <a class="map-info-link" href="./map-info.html?map=' + extractFileName(m.url) + '" title="Информация о карте">🔗</a>';
+    }
 
     result += '</b><hr />';
 
@@ -1024,7 +1026,7 @@ function buildDownloadLinks(link) {
             if (index > 0) {
                 result += ', ';
             }
-            result += '<a href="' + value + '" class="ext-link" title="Скачать"><img src="./images/' + extractFileExt(value) + '-file.png" /></a>';
+            result += '<a href="' + value + '" class="ext-link" title="Скачать" target="_blank"><img src="./images/' + extractFileExt(value) + '-file.png" /></a>';
         })
     }
     return result;

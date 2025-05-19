@@ -40,7 +40,7 @@
     <div class="container">
 
         <h3 class="text-center">
-            <span id="map_name"></span>
+            <a id="map_title" target="_blank"><span id="map_name"></span></a>
             <span id="types_list"></span>
         </h3>
 
@@ -71,7 +71,7 @@
             <div class="tab-pane fade" id="preview" role="tabpanel" aria-labelledby="preview-tab">
                 <p>
                     <p id="download_links"></p>
-                    <a id="map_preview" href="#" target="_blank" title="Скачать карту"><img /></a>
+                    <p id="preview_maps"></p>
                 </p>
             </div>
         </div>
@@ -169,7 +169,8 @@
     <script src="js/map-build.js"></script>
     <script src="js/main.js"></script>
     <script>
-        if ('KKM' === getMapForName(MAP_NAME_PARAM).start) {
+        let mn = getMapForName(MAP_NAME_PARAM);
+        if ('KKM' === mn.start || mn.url.includes('KKM')) {
             location.href = './map-info-kkm.html' + location.search;
         }
     </script>

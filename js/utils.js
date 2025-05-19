@@ -16,6 +16,9 @@ function isMajor(m) {
 
 function mapLink(url, region) {
     let pathname = location.pathname;
+    if (pathname.includes('map-info') && !region) {
+        region = 'spb';
+    }
     if (region) {
         pathname = '/' + region + '.html';
     } else

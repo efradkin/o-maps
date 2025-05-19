@@ -1,4 +1,5 @@
 let m = getMapForName(MAP_NAME_PARAM);
+document.getElementById('map_title').href = mapLink(m.url, m.region);
 let elName = document.getElementById('map_name');
 if (elName) {
     elName.innerHTML = mapTitle(m, true);
@@ -12,11 +13,24 @@ if (m.info) {
         el.innerHTML = m.info;
     }
 }
-document.querySelector('#map_preview img').src = m.url;
+
+let MAP_TEMPLATE = '<a href="#preview_href" target="_blank" title="Скачать карту" class="map_preview" target="_blank"><img src="#img_src" /></a><br /><br />';
+let previews = '';
 if (m.link) {
     document.querySelector('#download_links').innerHTML = buildDownloadLinks(m.link);
-    document.querySelector('#map_preview').href = Array.isArray(m.link) ? m.link[0] : m.link;
+
+    let links = Array.isArray(m.link) ? m.link : [m.link];
+    for (const l of links) {
+        if (!l.endsWith('pdf')) {
+            previews += MAP_TEMPLATE.replace('#preview_href', l).replace('#img_src', l);
+        }
+    }
 }
+if (!previews) {
+    previews = MAP_TEMPLATE.replace('#img_src', m.url).replace('#preview_href', '#');
+}
+document.querySelector('#preview_maps').innerHTML = previews;
+
 putValue('#map_gps', buildGpsLinks(m));
 putValue('#map_author', buildAuthors(m));
 putValue('#map_owner', buildOwners(m));
