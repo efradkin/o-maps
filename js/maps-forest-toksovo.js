@@ -9,6 +9,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/hepojarvi_east_1985_full.jpg',
         bounds: [[60.19342537315118, 30.609111785888675], [60.18996939397238, 30.662240982055668], [60.14898192089998, 30.59872627258301]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','AZBKNA','KLCHTSKA','RDKV'],
+        areas: [40,40,10,5,5],
         types: [],
     },
     {
@@ -18,6 +19,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/toksovo_hepojarvI_south_1992_full.jpg',
         bounds: [[60.16465712803696, 30.526285171508793], [60.15799501059879, 30.598382949829105], [60.13359843222354, 30.51486968994141]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','DBRTSV_V','GRBTNKV','KPRNKO','PSTKN_M'],
+        areas: [35,35,15,5,5,5],
         types: [],
     },
     {
@@ -46,6 +48,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/sjargi_1983_full.jpg',
         bounds: [[60.15902003964619, 30.391702651977543], [60.15269851792967, 30.46920776367188], [60.12915297366799, 30.383205413818363]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','AZBKNA'],
+        areas: [70,20,10],
         types: [],
     },
     {
@@ -64,6 +67,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/toksovo_1991_full.jpg',
         bounds: [[60.16183870470513, 30.43865203857422], [60.15773874834224, 30.512466430664066], [60.11448725214835, 30.42843818664551]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','GRBTNKV','DBRTSV_V'],
+        areas: [45,45,5,5],
         types: [],
     },
     {
@@ -73,6 +77,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/sjargi_1991_full.jpg',
         bounds: [[60.16785958842209, 30.38775444030762], [60.162052230086715, 30.475730895996094], [60.1284690036598, 30.37324905395508]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','DBRTSV_S','GRBTNKV','GUSEV','BNDRNK'],
+        areas: [40,40,5,5,5,5],
         types: [],
     },
     {
@@ -181,6 +186,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/toksovo_1989_full.jpg',
         bounds: [[60.16275685400291, 30.473070144653324], [60.160194512798185, 30.5116081237793], [60.14661076881676, 30.46920776367188]],
         author: ['CHGRVSKY_Y','DBRTSV_V','KRPLSN','BSTRV_A','BRSVA_I','GUSEV'],
+        areas: [40,30,5,5,10,10],
         types: [],
     },
     {
@@ -190,6 +196,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/toksovo_south_west_1983_full.jpg',
         bounds: [[60.15453530155787, 30.44998168945313], [60.1514169802039, 30.51066398620606], [60.113760209697055, 30.441055297851566]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y'],
+        areas: [80,20],
         types: [],
     },
     {
@@ -208,6 +215,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/kuzmolovo_1987_full.jpg',
         bounds: [[60.14868286609583, 30.494012832641605], [60.14629032974547, 30.530490875244144], [60.116112347817285, 30.486803054809574]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y'],
+        areas: [60,40],
         types: [],
     },
     {
@@ -218,6 +226,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/toksovo_hepojarvi_west_1987_full.jpg',
         bounds: [[60.19636906842321, 30.543708801269535], [60.192700074357255, 30.589456558227543], [60.15790959006861, 30.53400993347168]],
         author: ['CHGRVSKY_V','BRNVA','DBRTSV_V','KRPLSN'],
+        areas: [80,10,5,5],
         types: [],
     },
     {
@@ -227,6 +236,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/toksovo_krivoe_1987_full.jpg',
         bounds: [[60.163077132606894, 30.52431106567383], [60.15902003964619, 30.589971542358402], [60.14009456060476, 30.518989562988285]],
         author: ['CHGRVSKY_Y','DBRTSV_V','CHKVSKY_N','KRNLJV','GRSMVA','BSTRV_A','BRSVA_I','PTRNNA'],
+        areas: [40,15,7,9,7,7,7,8],
         types: [],
     },
     {
@@ -327,6 +337,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/kavgolovo_1989_full.jpg',
         bounds: [[60.19180409489582, 30.51589965820313], [60.18749451865291, 30.55778503417969], [60.15585943074604, 30.507745742797855]],
         author: ['SHRNN','MKHLV_B','CHGRVSKY_Y','DBRTSV_V','DJKV','PTRNNA','SMNA'],
+        areas: [30,1,40,5,22,1,1],
         types: [],
     },
     {
@@ -405,6 +416,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/kuzmolovo_zona_z_1986_full.jpg',
         bounds: [[60.14453854096396, 30.51280975341797], [60.14030822724681, 30.581388473510746], [60.11320422522614, 30.50414085388184]],
         author: ['CHGRVSKY_V','DBRTSV_V','CHKVSKY_N','KRNLJV','GBNV_A','CHGRVSKY_Y'],
+        areas: [50,10,3,4,4,29],
         types: [],
     },
     {
@@ -528,7 +540,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/toksovo_svetloe_1992_full.jpg',
         bounds: [[60.17379398977339, 30.577354431152347], [60.16790228578538, 30.64773559570313], [60.12919572132151, 30.55984497070313]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','DBRTSV_V','DBRTSV_S','GUSEV'],
-        areas: [50, 15, 25, 5, 5],
+        areas: [50,15,25,5,5],
         types: [],
     },
     {
@@ -577,7 +589,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/toksovo_vifk_2000.webp',
         link: './original_maps/forest/toksovo/toksovo_vifk_2002_full.jpg',
         bounds: [[60.205838296862595, 30.55709838867188], [60.20310870954749, 30.59306144714356], [60.179855364861766, 30.551176071166996]],
-        author: ['CHGRVSKY_V'],
+        author: 'CHGRVSKY_V',
         types: [],
     },
     {

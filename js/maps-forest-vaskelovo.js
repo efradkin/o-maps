@@ -27,6 +27,7 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/lembolovo_north_east_1989_full.jpg',
         bounds: [[60.44701687789359, 30.30509948730469], [60.44121658634549, 30.379428863525394], [60.42075912129117, 30.296773910522464]],
         author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
+        areas: [62,20,10,5,1,1,1],
         types: [],
     },
     {

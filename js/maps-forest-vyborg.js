@@ -556,7 +556,7 @@ let vyborgMaps = [
             'Ж': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_W.jpg',
         },
         bounds: [[60.793185940251945, 28.719549179077152], [60.79037970721021, 28.77748489379883], [60.76498678767908, 28.721437454223636]],
-        author: ['KHDNKCH','GLVNV_V'],
+        author: ['KHDNKCH','GLVNV_V','MTVV','BSHNSKY'],
         types: [],
     },
     {

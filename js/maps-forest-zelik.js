@@ -148,6 +148,7 @@ let zelikMaps = [
         link: './original_maps/forest/zelik/repino_1983_full.jpg',
         bounds: [[60.21176583711235, 29.819898605346683], [60.208567657083265, 29.868822097778324], [60.191740095427, 29.814362525939945]],
         author: ['BKSTN','IVNV_V','PTRV_A','TNV','BLZRV_V'],
+        areas: [40,10,40,10],
         types: [],
         zindex: 2
     },
@@ -180,11 +181,11 @@ let zelikMaps = [
     {
         name: 'Ильичёво',
         year: 1993,
-        areas: [15,80,5],
         url: './maps/forest/zelik/ilychevo_1993.webp',
         link: './original_maps/forest/zelik/ilychevo_1993_full.jpg',
         bounds: [[60.28693970076077, 29.740419387817386], [60.286556815550796, 29.796123504638675], [60.25676311663197, 29.73904609680176]],
         author: ['APRN','HSMTLN','LVRV_R'],
+        areas: [15,80,5],
         types: [],
     },
     {

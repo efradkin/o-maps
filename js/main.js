@@ -939,7 +939,12 @@ function buildAuthors(m, withIcon) {
                 if (withIcon && authors[a].logo) {
                     result += '<img src="./logo/' + authors[a].logo + '" alt="" class="sheet-icon" /> ';
                 }
-                result += authorLabel(authors[a]) + '</li>';
+                result += authorLabel(authors[a]);
+                if (m.areas) {
+                    let idx = m.author.indexOf(a);
+                    result += ' (' + m.areas[idx] + '%)';
+                }
+                result += '</li>';
                 populateAuthor(m, a);
             }
         }
@@ -1032,18 +1037,23 @@ function buildDownloadLinks(link) {
     return result;
 }
 
-function populateAuthor(map, a) {
-    if (isOrientMap(map)) {
-        if (!map.excluded) {
+function populateAuthor(m, a) {
+    if (isOrientMap(m)) {
+        if (!m.excluded) {
             let author = authors[a];
             if (!author.count) {
                 author.count = 1;
             } else {
                 author.count++;
             }
-            let area = map.area;
-            if (Array.isArray(map.author)) {
-                area /= map.author.length;
+            let area = m.area;
+            if (Array.isArray(m.author)) {
+                if (m.areas) {
+                    let idx = m.author.indexOf(a);
+                    area *= m.areas[idx] / 100;
+                } else {
+                    area /= m.author.length;
+                }
             }
             if (!author.area) {
                 author.area = area;

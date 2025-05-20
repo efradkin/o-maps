@@ -18,6 +18,7 @@ let michuraMaps = [
         link: './original_maps/forest/michura/yagodnoe_1992_full.jpg',
         bounds: [[60.63052271667331, 29.883584976196293], [60.62416578048736, 29.952764511108402], [60.601717038799606, 29.87337112426758]],
         author: ['BYMKV','VSLVSKY','DRBSHV','FDRV_L','FLCHKN','RBKV_D','DRZDVA','KSNFNTVA','ZRNA','BZNVA_E'],
+        areas: [70,5,10,5,2,2,1,1,1,1],
         types: [],
     },
     {
