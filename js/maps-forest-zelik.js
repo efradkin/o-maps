@@ -89,8 +89,9 @@ let zelikMaps = [
     {
         name: 'Солнечное, Дюны',
         year: 2007,
+        info: '16.09. <a href="https://o-site.spb.ru/race.php?id=070916">ЧиП СПб, марафон</a>',
         url: './maps/forest/zelik/solnechnoe-djuny_2007.webp',
-        link: './original_maps/forest/zelik/solnechnoe-djuny_2007_full.jpg',
+        link: ['./original_maps/forest/zelik/solnechnoe-djuny_2007_1_full.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_2_full.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_3_full.gif'],
         bounds: [[60.148063386777785, 29.929761886596683], [60.14502990577005, 29.97053146362305], [60.130435379117884, 29.924783706665043]],
         author: 'SHRNN',
         owner: 'SFSO_SPB',
@@ -417,8 +418,13 @@ let zelikMaps = [
     {
         name: 'Ильичёво - Симагино',
         year: 2015,
+        info: '6.09. <a href="https://o-site.spb.ru/race.php?id=150906">ЧиП СПб, марафон</a>',
         url: './maps/forest/zelik/ilychevo-simagino_2015.webp',
-        link: './original_maps/forest/zelik/ilychevo_simagino_2015_full.jpg',
+        link: ['./original_maps/forest/zelik/ilychevo_simagino_2015_full.jpg','./original_maps/forest/zelik/ilychevo_simagino_2015_marathon_full.jpg'],
+        gps: {
+            'МЭ': 'https://viewer.o-gps-center.ru/viewer/event/657/',
+            'ЖЭ': 'https://viewer.o-gps-center.ru/viewer/event/658/'
+        },
         bounds: [[60.29246976482949, 29.792947769165043], [60.28749274926003, 29.86719131469727], [60.24356009471195, 29.772605895996097]],
         author: ['KUZNTSV_S','SHRNN'],
         owner: 'SFSO_SPB',
