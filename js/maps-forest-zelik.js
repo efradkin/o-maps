@@ -507,6 +507,7 @@ let zelikMaps = [
         name: 'Пухтолова гора',
         year: 2009, //Реально более ранняя
         url: './maps/forest/zelik/pukhtolova_gora_2009.webp',
+        link: './original_maps/forest/zelik/pukhtolova_gora_2009_full.jpg',
         bounds: [[60.24266550392609, 29.629054069519047], [60.23987507571899, 29.678277969360355], [60.22879622224008, 29.625406265258793]],
         author: ['BLZRV_V','URVNTSV','NKFRV_A'],
         types: [],
