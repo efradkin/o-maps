@@ -98,6 +98,11 @@ if (mapElement) {
             parkGroup, cityGroup, forestGroup, specialGroup,
             group2020th, group2010th, group2000th, groupUnknownYear, rogaineGroup // group90th, groupRetro,
         );
+    } else if ('FOTO' === TYPE_PARAM) {
+        activeLayers.push(
+            parkGroup, cityGroup, forestGroup, specialGroup,
+            group2020th, group2010th, group2000th, groupUnknownYear, funGroup
+        );
     } else {
         activeLayers.push(
             parkGroup, cityGroup, forestGroup, specialGroup,
