@@ -154,8 +154,12 @@ let cityMaps = [
     {
         name: 'Дрезденская ул',
         year: 2023,
+        startYear: 2025,
+        month: 5,
+        start: 'ST',
+        info: '21.05. <a href="https://t.me/KuzmolovoDragons/26">Инфо и результаты.</a>',
         url: './maps/city/drezdenskaya_2023.webp',
-        link: './original_maps/city/drezdenskaya_2023_full.jpg',
+        link: ['./original_maps/city/drezdenskaya_2023_full.jpg','./original_maps/city/gdanskaya_2025.jpg'],
         bounds: [[60.02193856669679, 30.326192378997806], [60.020255213808284, 30.342242717742923], [60.01505450571147, 30.323188304901127]],
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
