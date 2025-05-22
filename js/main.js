@@ -621,6 +621,10 @@ function loadMapImage(m) {
 }
 
 function buildMap(m) {
+    if (!m.bounds) {
+        return;
+    }
+
     let bounds;
     if (m.bounds.length === 3) {
         bounds = m.bounds;

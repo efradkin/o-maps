@@ -281,6 +281,7 @@ function selectMapRegion(region, prefix) {
         case 'srb':location.href = './' + prefix + 'serbia.html'; break;
         case 'all':location.href = './' + prefix + 'all.html'; break;
         case 'starts':location.href = './starts.html'; break;
+        case 'docs':location.href = './documents.html'; break;
     }
 }
 
@@ -336,4 +337,8 @@ function getMapStarts(m) {
 function downloadSheetTable(fileName) {
     downloadTableAsCSV($('.o-main-table'), fileName);
     return false;
+}
+
+function isDocumentsPage() {
+    return typeof documentsPage != 'undefined' && documentsPage;
 }

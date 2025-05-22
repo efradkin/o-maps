@@ -4,8 +4,10 @@ const mapTypes = ['Город', 'Парки', 'Лес', 'Спец.', 'Рогей
 window.onload = function() {
 
     oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
-        .sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)))
-        .sort((a, b) => a.name.localeCompare(b.name));
+        .sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)));
+    if (!isDocumentsPage()) {
+        oMaps.sort((a, b) => a.name.localeCompare(b.name));
+    }
 
     // Навешиваем обработчик на заголовок таблицы
     document.querySelectorAll('th.sortable').forEach(
@@ -26,7 +28,9 @@ window.onload = function() {
 }
 
 // Фильтрация массива. Оставляем только карты, соответствующие критерию запроса (есди он задан).
-oMaps = oMaps.filter(m => (m.layer !== undefined));
+if (!isDocumentsPage()) {
+    oMaps = oMaps.filter(m => (m.layer !== undefined));
+}
 
 // Ссылка на тело таблицы
 const tbody = document.querySelector('.o-main-table tbody');
@@ -58,12 +62,16 @@ function renderMapsTable() {
         td(m, row, buildStart(m));
         td(m, row, buildDownloadLinks(m.link));
         td(m, row, buildInfo(m));
-        td(m, row, m.area.toFixed(2));
-        td(m, row, buildGpsLinks(m));
+        if (!isDocumentsPage()) {
+            td(m, row, m.area.toFixed(2));
+            td(m, row, buildGpsLinks(m));
+        }
         td(m, row, buildAuthors(m, true));
-        td(m, row, buildPlanners(m));
-        td(m, row, buildOwners(m, true));
-        td(m, row, m.types);
+        if (!isDocumentsPage()) {
+            td(m, row, buildPlanners(m));
+            td(m, row, buildOwners(m, true));
+            td(m, row, m.types);
+        }
         tbody.appendChild(row);
     }
     document.body.style.cursor = 'default';
@@ -71,7 +79,7 @@ function renderMapsTable() {
 
 function td(m, row, html) {
     const td = document.createElement('td');
-    td.innerHTML = (isMajor(m) ? '<b>' : '') + html + (isMajor(m) ? '</b>' : '');
+    td.innerHTML = ((isMajor(m) && !isDocumentsPage()) ? '<b>' : '') + html + ((isMajor(m) && !isDocumentsPage()) ? '</b>' : '');
     row.appendChild(td);
 }
 
@@ -80,7 +88,11 @@ function buildName(m) {
     if (m.logo) {
         result += '<img src="./logo/' + m.logo + '" alt="" class="sheet-icon" /> ';
     }
-    result += '<a href="' + mapLink(m.url, m.region) + '">' + m.name + '</a>';
+    if (!isDocumentsPage()) {
+        result += '<a href="' + mapLink(m.url, m.region) + '">' + m.name + '</a>';
+    } else {
+        result += m.name;
+    }
     return result;
 }
 
