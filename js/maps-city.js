@@ -160,7 +160,10 @@ let cityMaps = [
         info: '21.05. <a href="https://t.me/KuzmolovoDragons/26">Инфо и результаты.</a>',
         url: './maps/city/drezdenskaya_2023.webp',
         link: ['./original_maps/city/drezdenskaya_2023_full.jpg','./original_maps/city/gdanskaya_2025.jpg'],
-        bounds: [[60.02193856669679, 30.326192378997806], [60.020255213808284, 30.342242717742923], [60.01505450571147, 30.323188304901127]],
+        bounds: [[60.022635471141434, 30.321493148803714], [60.020480380626545, 30.342693328857425], [60.01349949595348, 30.31784534454346]],
+        gps: {
+            'Невский Спринт': 'https://viewer.o-gps-center.ru/viewer/event/17533/'
+        },
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
         types: ['CITY'],

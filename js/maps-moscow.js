@@ -1134,7 +1134,7 @@ let moscowMaps = [
         types: [],
     },
     {
-        name: 'Мещерский парк',
+        name: 'Солнцево, Мещерский парк',
         year: 2002,
         url: './maps/moscow/meschersky_2002.webp',
         link: './original_maps/moscow/meschersky_2002_full.png',
@@ -1144,7 +1144,7 @@ let moscowMaps = [
         types: ['PARK'],
     },
     {
-        name: 'Мещерский Парк',
+        name: 'Заречье, Мещерский Парк',
         year: 2015,
         url: './maps/moscow/o-mephi/20210531_700.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_700.jpg',
