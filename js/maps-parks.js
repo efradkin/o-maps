@@ -854,7 +854,16 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
-        name: 'парк "Дубки"',
+        name: 'Сестрорецк, парк "Дубки"',
+        year: 1,
+        url: './maps/parks/sestroretsk_dubki_old.webp',
+        link: './original_maps/parks/sestroretsk_dubki_old_full.jpg',
+        bounds: [[60.0966914852013, 29.919505119323734], [60.09602823596937, 29.955124855041507], [60.08699816046266, 29.918732643127445]],
+        author: 'MLVA_M',
+        types: ['PARK'],
+    },
+    {
+        name: 'Сестрорецк, парк "Дубки"',
         year: 1985,
         url: './maps/parks/sestroretsk_dubki_1985.webp',
         link: './original_maps/parks/sestroretsk_dubki_1985_full.jpg',
@@ -863,7 +872,7 @@ let parkMaps = [
         types: ['PARK'],
     },
     {
-        name: 'парк "Дубки"',
+        name: 'Сестрорецк, парк "Дубки"',
         year: 2020,
         url: './maps/parks/sestroretsk_dubki_2020.webp',
         link: './original_maps/parks/sestroretsk_dubki_2020_full.jpg',
