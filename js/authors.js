@@ -556,6 +556,7 @@ let authors = {
     PZGRV: { name: 'Пызгарев В.' },
     RMNV_A: { name: 'Романов Александр' },
     RZNKV_A: { name: 'Разинков Александр' },
+    SDV_G: { name: 'Седов Георгий' },
     SDRNK: {
         name: 'Сидоренко Владимир',
         about: 'https://o-moscow.ru/people/SidorenkoVI.html'

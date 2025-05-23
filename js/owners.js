@@ -307,6 +307,9 @@ let owners = {
     ORNTA_VSNA: {
         name: '@ КСО Ориента-Весна'
     },
+    SDV_G: {
+        name: '@ <a href="https://t.me/Sed_ov">Седов Георгий</a> (sge444@ya.ru, +79689451088)'
+    },
     SKBLV: {
         name: '@ Скобелев Алексей Алексеевич, +79030063030'
     },
