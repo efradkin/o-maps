@@ -2,6 +2,16 @@
 let vsevolozhskMaps = [
     // --- ВСЕВОЛОЖСК ---
     {
+        name: 'Воейково',
+        year: 1977,
+        logo: 'sparta_1977.jpg',
+        info: '26.02. VII Зимняя спартакиада.',
+        url: './maps/forest/vsevolozhsk/voeykovo_1977.webp',
+        link: './original_maps/forest/vsevolozhsk/voeykovo_1977_M_full.jpg',
+        bounds: [[59.97172281464221, 30.668807029724125], [59.96910263754175, 30.721721649169925], [59.94877849007448, 30.663871765136722]],
+        types: [],
+    },
+    {
         name: 'Всеволожск',
         year: 1987,
         url: './maps/forest/vsevolozhsk/vsevolozhsk_1987.webp',

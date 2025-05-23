@@ -2,6 +2,16 @@
 let zelikMaps = [
     // --- ЗЕЛЕНОГОРСК - РОЩИНО - СЕСТРОРЕЦК ---
     {
+        name: 'Решетниково',
+        year: 1972,
+        info: 'Первенство Ленинграда',
+        logo: 'chip_1972.jpg',
+        url: './maps/forest/zelik/reshetnikovo_1972.webp',
+        link: './original_maps/forest/zelik/reshetnikovo_1972_M_full.jpg',
+        bounds: [[60.26561893464418, 29.685487747192383], [60.26515065811729, 29.74685668945313], [60.236999194901045, 29.685058593750004]],
+        types: [],
+    },
+    {
         name: 'Рощино',
         year: 1990,
         url: './maps/forest/zelik/roschino_1990.webp',

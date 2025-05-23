@@ -2,6 +2,15 @@
 let forestMaps = [
     // --- лесные карты ---
     {
+        name: 'Уткино',
+        year: 1975,
+        info: '26.01. Первенство Ленинграда, маркир.',
+        url: './maps/forest/utkino_1975.webp',
+        link: './original_maps/forest/utkino_1975_full.jpg',
+        bounds: [[60.271748482126604, 29.158487319946293], [60.26715142915802, 29.21994209289551], [60.25318604937096, 29.15256500244141]],
+        types: [],
+    },
+    {
         name: 'Цвелодубово',
         year: 2020,
         url: './maps/forest/tsvelodubovo_2020.webp',
