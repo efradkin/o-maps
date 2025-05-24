@@ -12,6 +12,14 @@ let vaskelovoMaps = [
         types: [],
     },
     {
+        name: 'Орехово',
+        year: 1981,
+        url: './maps/forest/vaskelovo/orekhovo_1981.webp',
+        link: './original_maps/forest/vaskelovo/orekhovo_1981_full.jpg',
+        bounds: [[60.48676543918927, 30.285015106201175], [60.485602654889966, 30.317244529724125], [60.469171229153325, 30.281968116760254]],
+        types: [],
+    },
+    {
         name: 'Лемболово, ю-з',
         year: 1991,
         url: './maps/forest/vaskelovo/lembolovo_south_west_1991.webp',

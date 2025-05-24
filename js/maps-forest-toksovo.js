@@ -350,6 +350,15 @@ let toksovoMaps = [
         types: [],
     },
     {
+        name: 'Кавголово',
+        year: 1,
+        url: './maps/forest/toksovo/kavgolovo_old.webp',
+        link: './original_maps/forest/toksovo/kavgolovo_old_full.jpg',
+        bounds: [[60.18021815816931, 30.523495674133304], [60.17842549338922, 30.551648139953617], [60.162393867811595, 30.519461631774906]],
+        author: 'SMRNV_A',
+        types: [],
+    },
+    {
         name: 'Кавголово, старый лыжедром',
         year: 2023,
         url: './maps/forest/toksovo/kavgolovo_old_ski_track_2023.webp',

@@ -1,6 +1,17 @@
 let gsStartsMaps = [
     /* --- Зелёный Змей --- */
     {
+        name: 'Орехово-Лемболово',
+        region: 'starts',
+        start: 'GS',
+        year: 1991,
+        url: './maps/starts/gs/gs_1991.webp',
+        link: './original_maps/starts/gs/gs_1991_full.jpg',
+        bounds: [[60.455313304927685, 30.23712158203125], [60.45078439568225, 30.2959156036377], [60.42584292328806, 30.229139328002933]],
+        author: 'BYMKV',
+        types: [],
+    },
+    {
         name: 'Токсово, ВИФК',
         region: 'starts',
         start: 'GS',
