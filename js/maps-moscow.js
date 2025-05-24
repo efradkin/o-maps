@@ -1226,6 +1226,15 @@ let moscowMaps = [
         types: [],
     },
     {
+        name: 'Останкино, Ботанический сад',
+        year: 1984,
+        info: '<a href="https://o-moscow.ru/reports/moving_01.html">13.05. XV традиционные соревнований на призы Центрального телевидения</a>.',
+        url: './maps/moscow/ostankino_1984.webp',
+        link: './original_maps/moscow/ostankino_1994_full.jpg',
+        bounds: [[55.84096424048411, 37.59860515594483], [55.83886777816594, 37.62452602386475], [55.82428580439934, 37.59414196014405]],
+        types: ['PARK'],
+    },
+    {
         name: 'Останкино',
         year: 1998,
         info: 'бывш ПКиО им Дзержинского',
@@ -5574,9 +5583,9 @@ let moscowMaps = [
     },
     {
         name: 'Звенигородская биостанция МГУ и карьер Сима',
-        year: 2024,
-        url: './maps/moscow/zbs_msu_2024.webp',
-        link: './original_maps/moscow/zbs_msu_2024_full.gif',
+        year: 2021,
+        url: './maps/moscow/zbs_msu_2021.webp',
+        link: './original_maps/moscow/zbs_msu_2021_full.gif',
         bounds: [[55.71490377333545, 36.69497966766358], [55.70832770373708, 36.76094055175782], [55.66255470178119, 36.6789722442627]],
         author: 'SDV_G',
         owner: 'SDV_G',
