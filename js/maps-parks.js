@@ -412,6 +412,14 @@ let parkMaps = [
         owner: 'ZCHNV',
     },
     {
+        name: 'Петергоф, пл Университет',
+        year: 1,
+        url: './maps/parks/univer_old.webp',
+        link: './original_maps/parks/univer_old_full.jpg',
+        bounds: [[59.898473173843556, 29.820413589477543], [59.89748307830272, 29.85264301300049], [59.88625634417138, 29.82125043869019]],
+        types: ['PARK'],
+    },
+    {
         name: 'Петергоф, Сергиевка',
         year: 1989,
         startYear: 2022,

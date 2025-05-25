@@ -1,6 +1,18 @@
 let gsStartsMaps = [
     /* --- Зелёный Змей --- */
     {
+        name: 'Лемболово',
+        region: 'starts',
+        start: 'GS',
+        year: 1990,
+        info: '26.08.',
+        url: './maps/starts/gs/gs_1990.webp',
+        link: './original_maps/starts/gs/gs_1990_full.jpg',
+        bounds: [[60.446847540990575, 30.304541587829593], [60.44195755718785, 30.37955760955811], [60.42006003635948, 30.29788970947266]],
+        author: 'BYMKV',
+        types: [],
+    },
+    {
         name: 'Орехово-Лемболово',
         region: 'starts',
         start: 'GS',

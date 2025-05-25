@@ -537,6 +537,7 @@ let forestMaps = [
     {
         name: 'Гладышевский заказник',
         year: 1974,
+        start: 'WN',
         url: './maps/forest/gladyshevsky_zakaznik_1974.webp',
         link: './original_maps/forest/gladyshevsky_zakaznik_1974_full.jpg',
         bounds: [[60.270216202896975, 29.37332153320313], [60.270131074169086, 29.43923950195313], [60.22856182141975, 29.370231628417972]],

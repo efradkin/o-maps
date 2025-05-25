@@ -1,6 +1,29 @@
 let naStartsMaps = [
     /* --- Невский Азимут --- */
     {
+        name: 'Лемболово',
+        region: 'starts',
+        start: 'NA',
+        year: 1989,
+        url: './maps/starts/na/na_1989.webp',
+        link: './original_maps/starts/na/na_1989_full.jpg',
+        bounds: [[60.441258927991655, 30.28587341308594], [60.437257398671, 30.34037590026856], [60.41489057838761, 30.276260375976566]],
+        author: 'BYMKV',
+        types: [],
+    },
+    {
+        name: 'Ильичёво, Долгое оз',
+        region: 'starts',
+        start: 'NA',
+        year: 1997,
+        info: '13.06.',
+        url: './maps/starts/na/na_1997_06_13.webp',
+        link: './original_maps/starts/na/na_1997_06_13_full.jpg',
+        bounds: [[60.30395229403978, 29.736213684082035], [60.298679337096054, 29.809598922729496], [60.263064617640104, 29.724197387695316]],
+        author: ['KUZNTSV_S','KVZN'],
+        types: [],
+    },
+    {
         name: 'Лосево',
         region: 'starts',
         start: 'NA',

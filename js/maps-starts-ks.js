@@ -1,6 +1,17 @@
 let ksStartsMaps = [
     /* --- Карельские скалы --- */
     {
+        name: 'Кузнечное, оз Верх Подосиновское',
+        start: 'KS',
+        year: 1998,
+        info: 'Silva Cup',
+        url: './maps/starts/ks/sc_1998.webp',
+        link: './original_maps/starts/ks/sc_1998_full.jpg',
+        bounds: [[61.13059848014711, 29.76230621337891], [61.12599826917863, 29.818310737609867], [61.110804526529876, 29.756255149841312]],
+        author: ['KUZNTSV_S','KVZN','SHRNN'],
+        types: [],
+    },
+    {
         name: 'Кузнечное, оз Травкино',
         start: 'KS',
         year: 2000,
@@ -262,6 +273,17 @@ let ksStartsMaps = [
         link: './original_maps/starts/ks/ks_2007_06_28_full.jpg',
         bounds: [[60.626249814849636, 29.907960891723636], [60.62256582435062, 29.958815574645996], [60.60883662347368, 29.904012680053714]],
         author: ['KUZNTSV_S','TKMKV_K','SHRNN'],
+        types: [],
+    },
+    {
+        name: 'Кузнечное',
+        start: 'KS',
+        year: 2008,
+        info: '25.06, классическая дистанция. <a href="https://o-site.spb.ru/race.php?id=080624_KS">Инфо и результаты.</a>',
+        url: './maps/starts/ks/ks_2008_06_25.webp',
+        link: './original_maps/starts/ks/ks_2008_06_25_full.jpg',
+        bounds: [[60.99446472727906, 29.142651557922367], [60.991259918368534, 29.18603897094727], [60.97648031894923, 29.136643409729004]],
+        author: ['VRBY','KVZN','KUZNTSV_S','KUZNTSV_R','NSNV','TKMKV_K'],
         types: [],
     },
     {
