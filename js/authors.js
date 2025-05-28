@@ -133,7 +133,7 @@ let authors = {
         name: 'Грязневич Михаил',
         about: 'https://o-site.spb.ru/history/Peoples/mgrazn.html'
     },
-    GUSEV: {
+    GUSEV_I: {
         name: 'Гусев Илья',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
@@ -597,6 +597,36 @@ let authors = {
     ZLTRV_S: { name: 'Золотарев Станислав' },
     ZUEV_A: { name: '<a href="mailto:Lesasa@mail.ru">Зуев Алексей</a>' },
     ZVJLV: { name: 'Завьялов В.' },
+
+    /* --- РЯЗАНЬ --- */
+
+    ANDREYK: { name: 'Андрейкин А.' },
+    BELOKUR: { name: 'Белокуров В.' },
+    VEKOVISCH: { name: 'Вековищев Валерий' },
+    VORZHEIN: { name: 'Воржеинов' },
+    GUSEV_B: { name: 'Гусев Б.' },
+    DUBOV: { name: 'Дубов А.' },
+    DYACHKOV: { name: 'Дьячков' },
+    ELISEEV: { name: 'Елисеев В.' },
+    ZOTOV: { name: 'Зотов Николай' },
+    IVSHENTSE: { name: 'Ившенцев' },
+    KARPOV: { name: 'Карпов В.' },
+    KONEV: { name: 'Конев' },
+    KORNEEV: { name: 'Корнеев Валерий' },
+    KRYUKOV: { name: 'Крюков С.' },
+    MAMONTO: { name: 'Мамонтов' },
+    MITIN: { name: 'Митин' },
+    MOROZOV: { name: 'Морозов Станислав' },
+    MILIDIN: { name: 'Милидин Андрей' },
+    POSKREB: { name: 'Поскребышев А.' },
+    ROZENFE: { name: 'Розенфельд' },
+    SOKOLOV: { name: 'Соколов Владимир' },
+    TARASOV: { name: 'Тарасов А.' },
+    FROLOV: { name: 'Фролов Владимир' },
+    TSVETKOV: { name: 'Цветков' },
+    CHERNOV: { name: 'Чернов Ю.' },
+    SHIBANOV_A: { name: 'Шибанов Александр' },
+    SHIBANOV_V: { name: 'Шибанов Владимир' },
 
     /* --- СЕРБИЯ --- */
 

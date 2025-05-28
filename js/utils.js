@@ -278,6 +278,7 @@ function selectMapRegion(region, prefix) {
         case 'index':location.href = './index.html'; break;
         case 'spb':location.href = './' + prefix + 'spb.html'; break;
         case 'msk':location.href = './' + prefix + 'moscow.html'; break;
+        case 'rzn':location.href = './' + prefix + 'ryazan.html'; break;
         case 'srb':location.href = './' + prefix + 'serbia.html'; break;
         case 'all':location.href = './' + prefix + 'all.html'; break;
         case 'starts':location.href = './starts.html'; break;

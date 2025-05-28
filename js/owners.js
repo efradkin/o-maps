@@ -58,7 +58,7 @@ let owners = {
     GLTV_YU: {
         name: '© ГБНОУ "СПб ГДТЮ", Юрий Гультяев - +79213017985, gultiaev@list.ru'
     },
-    GUSEV: {
+    GUSEV_I: {
         name: '© Гусев Илья, gusev@ym.spb.ru'
     },
     HARD: {
@@ -356,6 +356,43 @@ let owners = {
         name: '@ Планинарско друштво „Авала“',
         logo: 'avala.jpg'
     },
+
+    /* --- Рязань --- */
+
+    ANDREYK: {
+        name: '@ Андрейкин А.'
+    },
+    VEKOVIS: {
+        name: '@ Вековищев Валерий'
+    },
+    GUSEV_I: {
+        name: '@ Гусев Б.'
+    },
+    ZOTOV: {
+        name: '@ Зотов Николай'
+    },
+    KORNEEV: {
+        name: '@ Корнеев Валерий'
+    },
+    SOKOLOV: {
+        name: '@ Соколов Владимир'
+    },
+    TARASOV: {
+        name: '@ Тарасов А.'
+    },
+    FSO_RYAZAN: {
+        name: '@ ФСО Рязанская обл'
+    },
+    TSDYUTK: {
+        name: '@ ЦДЮТК'
+    },
+    SHIBANOV_A: {
+        name: '@ Шибанов Александр'
+    },
+    SHIBANOV_V: {
+        name: '@ Шибанов Владимир'
+    },
+
 
     /* --- Прочее --- */
 
