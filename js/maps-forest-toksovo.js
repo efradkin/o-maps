@@ -209,7 +209,16 @@ let toksovoMaps = [
         types: [],
     },
     {
-        name: 'Токсово - Кузьмолово,восток',
+        name: 'Токсово - Кузьмолово, восток',
+        year: 1,
+        url: './maps/forest/toksovo/kuzmolovo_east_old.webp',
+        link: './original_maps/forest/toksovo/kuzmolovo_east_old_full.jpg',
+        bounds: [[60.14853333767382, 30.511007308959964], [60.14182522049563, 30.535039901733402], [60.11869950568384, 30.481567382812504]],
+        author: 'CHGRVSKY_V',
+        types: [],
+    },
+    {
+        name: 'Токсово - Кузьмолово, восток',
         year: 1987,
         url: './maps/forest/toksovo/kuzmolovo_1987.webp',
         link: './original_maps/forest/toksovo/kuzmolovo_1987_full.jpg',

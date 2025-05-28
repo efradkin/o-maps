@@ -201,6 +201,12 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">Первый чемпионат СССР</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./docs/ussr_champ_1981_program.pdf">программа</a>, <a href="./docs/ussr_champ_1981_resolution.pdf">постановление</a>)',
         logo: 'ussr_1981.jpg'
     },
+    LENINGRAD_30: {
+        major: true,
+        short: '30 лет Ленинградского ориентирования',
+        name: 'Многодневные соревнования, посвящённые 30 летию Ленинградского ориентирования',
+        logo: 'leningrad_30.webp'
+    },
     JWSOC_2003: {
         major: true,
         short: 'JWSOC 2003',

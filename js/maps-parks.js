@@ -532,7 +532,7 @@ let parkMaps = [
         url: './maps/parks/gatchina_zverinets_1986.webp',
         link: './original_maps/parks/gatchina_zverinets_1986_full.jpg',
         bounds: [[59.5939719186284, 30.07962226867676], [59.591712909974746, 30.124168395996097], [59.563245091244305, 30.073528289794925]],
-        author: 'BYMKV', //Не 100%., надо бы уточнить
+        author: ['MLVA_M','MRSKY_S'],
         types: ['PARK'],
     },
     {
