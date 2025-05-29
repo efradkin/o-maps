@@ -1754,6 +1754,16 @@ let cityMaps = [
         types: ['CITY'],
     },
     {
+        name: 'Университет физкультуры и спорта им.Лесгафта',
+        year: 2025,
+        url: './maps/city/lesgafta_2025.webp',
+        link: './original_maps/city/lesgafta_2025_full.jpg',
+        bounds: [[59.92858164974948, 30.28767585754395], [59.928130063053224, 30.29190301895142], [59.925560202692616, 30.286474227905277]],
+        author: ['SHRNN','LMVA'],
+        owner: 'SHRNN',
+        types: ['CITY'],
+    },
+    {
         name: 'Балтийский Берег',
         url: './maps/city/balt_bereg.webp',
         link: './original_maps/city/balt_bereg_full.jpg',
