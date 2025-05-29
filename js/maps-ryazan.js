@@ -1075,9 +1075,9 @@ let ryazanMaps = [
     },
     {
         name: 'Полково',
-        info: 'ЧР по рогейну',
+        info: 'ЧР по рогейну.',
         year: 2020,
-        url: './original_maps/ryazan/chr_2020_rogeyn_2020_full.jpg',
+        url: './maps/ryazan/chr_2020_rogeyn_2020.webp',
         link: './original_maps/ryazan/chr_2020_rogeyn_2020_full.jpg',
         bounds: [[54.862727989585636, 39.88586425781251], [54.83500575725284, 40.07597923278809], [54.707267747286174, 39.81943130493165]],
         author: 'VEKOVISCH',
