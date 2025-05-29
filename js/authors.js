@@ -606,7 +606,6 @@ let authors = {
     VORZHEIN: { name: 'Воржеинов' },
     GUSEV_B: { name: 'Гусев Б.' },
     DUBOV: { name: 'Дубов А.' },
-    DYACHKOV: { name: 'Дьячков' },
     ELISEEV: { name: 'Елисеев В.' },
     ZOTOV: { name: 'Зотов Николай' },
     IVSHENTSE: { name: 'Ившенцев' },
