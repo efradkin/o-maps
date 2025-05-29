@@ -240,7 +240,7 @@ let ryazanMaps = [
         types: ['CITY','SPRINT']
     },
     {
-        name: 'ДП шк59',
+        name: 'Школа №59',
         year: 2023,
         correct: 2024,
         url: './original_maps/ryazan/dp_shk59_2023_full.jpg',
@@ -251,7 +251,7 @@ let ryazanMaps = [
         types: ['CITY','SPRINT']
     },
     {
-        name: 'ДП шк71',
+        name: 'Школа №71',
         year: 2021,
         url: './original_maps/ryazan/dp_shk71_2021_full.jpg',
         link: './original_maps/ryazan/dp_shk71_2021_full.jpg',
@@ -489,7 +489,8 @@ let ryazanMaps = [
     },
     {
         name: 'Кузьминское-Подлуг',
-        year: 2017,
+        year: 2016,
+        info: '9 этап кубка Золотой Маршрут',
         url: './original_maps/ryazan/kuzminskoe_podlug_rogeyn_2017_full.jpg',
         link: './original_maps/ryazan/kuzminskoe_podlug_rogeyn_2017_full.jpg',
         bounds: [[54.88263077900905, 39.62614059448243], [54.86593878161604, 39.755573272705085], [54.77534585936449, 39.58442687988282]],
@@ -1114,7 +1115,7 @@ let ryazanMaps = [
         types: []
     },
     {
-        name: 'Шк-19 Шк-37',
+        name: 'Школа №19, Школа №37',
         year: 2023,
         url: './original_maps/ryazan/shk_19_shk_37_2023_full.jpg',
         link: './original_maps/ryazan/shk_19_shk_37_2023_full.jpg',
@@ -1124,7 +1125,7 @@ let ryazanMaps = [
         types: ['CITY','SPRINT']
     },
     {
-        name: 'Шк-64',
+        name: 'Школа №64',
         year: 2023,
         url: './original_maps/ryazan/shk_64_2023_full.jpg',
         link: './original_maps/ryazan/shk_64_2023_full.jpg',

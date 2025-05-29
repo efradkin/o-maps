@@ -381,7 +381,8 @@ let owners = {
         name: '@ Тарасов А.'
     },
     FSO_RYAZAN: {
-        name: '@ ФСО Рязанская обл'
+        name: '@ ФСО Рязанская обл',
+        logo: 'fso_ryazan.webp'
     },
     TSDYUTK: {
         name: '@ ЦДЮТК'
