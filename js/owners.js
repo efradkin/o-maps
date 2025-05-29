@@ -365,8 +365,8 @@ let owners = {
     VEKOVIS: {
         name: '@ Вековищев Валерий'
     },
-    GUSEV_I: {
-        name: '@ Гусев Б.'
+    GUSEV_B: {
+        name: '@ Гусев Борис'
     },
     ZOTOV: {
         name: '@ Зотов Николай'

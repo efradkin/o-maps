@@ -509,7 +509,7 @@ let ryazanMaps = [
         types: []
     },
     {
-        name: 'Ласковское',
+        name: 'оз Ласковское',
         year: 2024,
         url: './original_maps/ryazan/laskovskoe_2024_full.jpg',
         link: './original_maps/ryazan/laskovskoe_2024_full.jpg',
@@ -518,6 +518,17 @@ let ryazanMaps = [
         owner: 'SHIBANOV_V',
         types: []
     },
+/*
+    {
+        name: 'Сегденское оз',
+        year: 2023,
+        info: 'Кубок РФ по радиоспорту.',
+        url: './original_maps/ryazan/segdenskoe_2023_full.jpg',
+        link: './original_maps/ryazan/segdenskoe_2023_full.jpg',
+        bounds: [[54.82899923461889, 39.921097755432136], [54.82336267230953, 39.96839046478272], [54.79002165360763, 39.90706443786622]],
+        types: []
+    },
+*/
     {
         name: 'Ласточка',
         year: 2007,
@@ -654,24 +665,23 @@ let ryazanMaps = [
         types: ['PARK','SPRINT']
     },
     {
+        name: 'Передельцы',
+        correct: 2025,
+        url: './original_maps/ryazan/peredeltsy_2025_full.jpg',
+        link: './original_maps/ryazan/peredeltsy_2025_full.jpg',
+        bounds: [[54.894281448486076, 39.96568679809571], [54.884827879118724, 40.042719841003425], [54.87722392142789, 39.9595069885254]],
+        author: 'GUSEV_B',
+        owner: 'GUSEV_B',
+        types: []
+    },
+    {
         name: 'Передельцы юг',
         year: 2007,
         correct: 2025,
         url: './original_maps/ryazan/peredeltsy_yug_2007_full.jpg',
         link: './original_maps/ryazan/peredeltsy_yug_2007_full.jpg',
         bounds: [[54.87806338981041, 39.947919845581055], [54.87477948743567, 39.97345447540284], [54.86174000213818, 39.94204044342042]],
-        author: 'DJCHKV',
-        owner: 'GUSEV_B',
-        types: []
-    },
-    {
-        name: 'Передельцы северо-восток',
-        year: 2007,
-        correct: 2025,
-        url: './original_maps/ryazan/peredeltsy_severo_vostok_2007_full.jpg',
-        link: './original_maps/ryazan/peredeltsy_severo_vostok_2007_full.jpg',
-        bounds: [[54.890381811411785, 39.995512962341316], [54.88487725077851, 40.04314899444581], [54.873421404489775, 39.989333152771]],
-        author: 'DJCHKV',
+        author: 'GUSEV_B',
         owner: 'GUSEV_B',
         types: []
     },

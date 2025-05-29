@@ -604,7 +604,10 @@ let authors = {
     BELOKUR: { name: 'Белокуров В.' },
     VEKOVISCH: { name: 'Вековищев Валерий' },
     VORZHEIN: { name: 'Воржеинов' },
-    GUSEV_B: { name: 'Гусев Б.' },
+    GUSEV_B: {
+        name: 'Гусев Борис',
+        logo: 'gusev_ryazan.webp'
+    },
     DUBOV: { name: 'Дубов А.' },
     ELISEEV: { name: 'Елисеев В.' },
     ZOTOV: { name: 'Зотов Николай' },
