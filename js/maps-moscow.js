@@ -806,6 +806,7 @@ let moscowMaps = [
         url: './maps/moscow/opaliha_1987.webp',
         link: './original_maps/moscow/opaliha_1987_full.jpg',
         bounds: [[55.83122798780296, 37.21103668212891], [55.82848018835752, 37.25262165069581], [55.797011283266286, 37.20236778259278]],
+        author: 'GNDRV',
         types: [],
     },
     {
