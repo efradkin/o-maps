@@ -218,6 +218,13 @@ let vsevolozhskMaps = [
         types: [],
     },
     {
+        name: 'Невдубстрой',
+        url: './maps/forest/vsevolozhsk/nevdubstroy_2025.webp',
+        bounds: [[59.8626495371604, 30.97228288650513], [59.858048997565795, 31.013116836547855], [59.84624845287586, 30.965373516082767]],
+        owner: 'NKLSK',
+        types: [],
+    },
+    {
         name: 'Приютино',
         year: 1991,
         url: './maps/forest/vsevolozhsk/prijutino_1991.webp',
