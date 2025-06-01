@@ -801,6 +801,15 @@ let moscowMaps = [
         types: [],
     },
     {
+        name: 'Опалиховский л/п',
+        year: 1986,
+        url: './maps/moscow/opaliha_1986.webp',
+        link: './original_maps/moscow/opaliha_1986_full.jpg',
+        bounds: [[55.835397523162904, 37.25584030151368], [55.8304566952756, 37.32214450836182], [55.814907068780464, 37.25275039672852]],
+        author: 'KUZNTSV_V',
+        types: ['PARK'],
+    },
+    {
         name: 'Опалиха',
         year: 1987,
         url: './maps/moscow/opaliha_1987.webp',
@@ -2074,6 +2083,15 @@ let moscowMaps = [
     },
 */
     {
+        name: 'Рублево',
+        year: 1987,
+        url: './maps/moscow/rublevo_1987.webp',
+        link: './original_maps/moscow/rublevo_1987_full.jpg',
+        bounds: [[55.80340357963287, 37.36063957214356], [55.80210108361839, 37.38072395324708], [55.7733868687821, 37.352828979492195]],
+        author: 'GLDRV',
+        types: ['PARK'],
+    },
+    {
         name: 'Рублево (сводная)',
         year: 2005,
         url: './maps/moscow/rublevo_2005.webp',
@@ -2468,6 +2486,15 @@ let moscowMaps = [
         bounds: [[55.75921500200738, 37.42964744567872], [55.75257393967197, 37.49676704406739], [55.736630776050305, 37.423467636108406]],
         author: ['DBRTSV_V','KSTLV_E','SKRPKO_S','JASHPTRV','SYTV_N',],
         owner: 'SYTV_N',
+        types: ['PARK'],
+    },
+    {
+        name: 'Филёвский парк',
+        year: 1990,
+        url: './maps/moscow/ak/fili_1990.webp',
+        link: './original_maps/moscow/ak/fili_1990_full.jpg',
+        bounds: [[55.75443355110994, 37.461705207824714], [55.752936208593596, 37.49547958374024], [55.73781465904159, 37.459216117858894]],
+        author: 'OKN_V',
         types: ['PARK'],
     },
     {
