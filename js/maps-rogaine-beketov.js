@@ -324,4 +324,15 @@ let rogaineBeketovMaps = [
         start: 'MB',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Красная долина, оз Мамонтовское',
+        year: 2025,
+        url: './maps/rogaine/beketov/red_valley_2025.webp',
+        link: './original_maps/rogaine/beketov/red_valley_2025_omaps.gif',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22755/',
+        bounds: [[60.658040943395704, 28.69285583496094], [60.6482818152359, 29.27444458007813], [60.17294018509881, 28.666763305664066]],
+        owner: 'BKTV',
+        start: 'BA',
+        types: ['ROGAINE'],
+    },
 ];
