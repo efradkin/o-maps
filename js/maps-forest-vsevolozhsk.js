@@ -219,8 +219,10 @@ let vsevolozhskMaps = [
     },
     {
         name: 'Невдубстрой',
+        year: 2025,
         url: './maps/forest/vsevolozhsk/nevdubstroy_2025.webp',
         bounds: [[59.8626495371604, 30.97228288650513], [59.858048997565795, 31.013116836547855], [59.84624845287586, 30.965373516082767]],
+        author: ['BYMKV','KZMV'],
         owner: 'NKLSK',
         types: [],
     },
