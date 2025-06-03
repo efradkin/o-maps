@@ -181,7 +181,7 @@ let starts = {
     },
     USSR_BULGARIA_1968: {
         short: 'Матч СССР-Болгария\'1968',
-        name: '<a href="https://o-site.spb.ru/history/Knots/match-68.html">Международная товарищеская всреча сборных команд Болгарии и СССР</a> (<a href="./docs/ussr_bulgaria_1968_article.jpg">статья в газете "ТРУД"</a>)',
+        name: '<a href="https://o-site.spb.ru/history/Knots/match-68.html">Международная товарищеская встреча сборных команд Болгарии и СССР</a> (<a href="./docs/ussr_bulgaria_1968_article.jpg">статья в газете "ТРУД"</a>)',
         logo: 'ussr_bulgaria_1968.jpg'
     },
     USSR_V_1971: {
