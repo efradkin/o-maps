@@ -1,6 +1,12 @@
 let historyDocs = [
     // --- Исторические документы ---
     {
+        name: 'Статья в газете "ТРУД"',
+        start: 'USSR_BULGARIA_1968',
+        year: 1968,
+        link: './docs/ussr_bulgaria_1968_article.jpg',
+    },
+    {
         name: 'Программа',
         start: 'USSR_1981',
         year: 1981,
