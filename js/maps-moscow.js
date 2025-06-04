@@ -909,7 +909,7 @@ let moscowMaps = [
     },
     {
         name: 'Красногорск',
-        year: 1995,
+        year: 1983,
         url: './maps/moscow/ak/krasnogorsk_1995.webp',
         link: ['./original_maps/moscow/ak/krasnogorsk_1995_omaps.jpg','./original_maps/moscow/ak/krasnogorsk_1983_omaps.jpg'],
         bounds: [[55.86741332569357, 37.26330757141114], [55.8614891391486, 37.34579086303712], [55.83436120641055, 37.25532531738282]],
@@ -2800,14 +2800,15 @@ let moscowMaps = [
         types: ['CITY'],
     },
     {
-        name: 'Истра, Гефсиманский сад',
+        name: 'Истра, Гефсиманский сад и пойма реки',
         year: 2024,
         url: './maps/moscow/ak/istra_gefsimansky_2024.webp',
-        link: './original_maps/moscow/ak/istra_gefsimansky_2024_omaps.jpg',
-        bounds: [[55.925475450901466, 36.83205127716065], [55.92546342879338, 36.85305833816529], [55.91530341439046, 36.832501888275154]],
+        link: ['./original_maps/moscow/ak/istra_gefsimansky_2024_omaps.jpg','./original_maps/moscow/ak/istra_poima_2022_omaps.jpg'],
+        bounds: [[55.92554758347172, 36.81458473205567], [55.925595671777316, 36.86097621917725], [55.89764631120948, 36.81617259979249]],
         author: ['BLDV','OGRZKV'],
         types: ['PARK'],
     },
+/*
     {
         name: 'Истринский городской парк',
         year: 2021,
@@ -2815,6 +2816,7 @@ let moscowMaps = [
         bounds: [[55.92220530004892, 36.844475269317634], [55.92047393200941, 36.85964584350587], [55.9171432357415, 36.842458248138435]],
         types: ['PARK'],
     },
+*/
     {
         name: 'Поклонная гора, парк Победы',
         year: 2001,
@@ -3344,6 +3346,14 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/istra_sokolinaja_2024_omaps.jpg',
         bounds: [[55.92239766950172, 36.88329219818116], [55.922565991989714, 36.911873817443855], [55.90965112951672, 36.883378028869636]],
         author: ['BLDV','OGRZKV'],
+        types: [],
+    },
+    {
+        name: 'Истра, р Песочная',
+        year: 2020,
+        url: './maps/moscow/ak/istra_pesochnaja_2020.webp',
+        link: './original_maps/moscow/ak/istra_pesochnaja_2020_omaps.jpg',
+        bounds: [[55.92754319800888, 36.8668556213379], [55.92761532673049, 36.90144538879395], [55.90938653429286, 36.866426467895515]],
         types: [],
     },
     {
@@ -5716,6 +5726,15 @@ let moscowMaps = [
         author: 'SDV_G',
         owner: 'SDV_G',
         types: ['ROGAINE'],
+    },
+    {
+        name: 'Куркино',
+        year: 2016,
+        url: './maps/moscow/ak/kurkino_2016.webp',
+        link: './original_maps/moscow/ak/kurkino_2016_omaps.jpg',
+        bounds: [[55.89480695323321, 37.38583087921143], [55.893796284148955, 37.40072250366212], [55.889151680626476, 37.38488674163819]],
+        author: ['SVIR_A','SVIR_M'],
+        types: ['CITY'],
     },
 /*
     {

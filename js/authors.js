@@ -581,6 +581,8 @@ let authors = {
         about: 'https://o-moscow.ru/people/SmirnovVS.html'
     },
     SSO_MIFI: { name: 'Бригада ССО МИФИ' },
+    SVIR_A: { name: 'Свирь А.' },
+    SVIR_M: { name: 'Свирь М.' },
     SYTV_N: { name: 'Сытов Николай' },
     TLMCHV: { name: 'Толмачёв Г.' },
     TNS_A: { name: 'Тонис А.' },
