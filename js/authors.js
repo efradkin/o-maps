@@ -520,6 +520,7 @@ let authors = {
         about: 'https://o-moscow.ru/people/LevinBK.html'
     },
     LZRV: { name: 'Лазарев Константин' },
+    MDVDV_A: { name: 'Медведев Александр' },
     MTN_Y: { name: 'Митин Юрий' },
     MLCHK: { name: 'Мальчик Игорь' },
     MLNKV_V: { name: 'Мыльников Валентин' },
