@@ -418,6 +418,7 @@ let authors = {
         name: 'Бушинский Александр',
         about: 'https://o-moscow.ru/people/BushinskiiAV.html'
     },
+    BTV_E: { name: 'Батуев Е.' },
     CHPKN: { name: 'Чупикин А.' },
     DDNKV: { name: 'Дудников Владимир' },
     DRNN_S: {
