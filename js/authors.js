@@ -410,6 +410,7 @@ let authors = {
     BLBN: { name: 'Балабин В.' },
     BLDV: { name: 'Бульдяев Тимофей' },
     BLTV: { name: 'Болотов С.' },
+    BRBA: { name: 'Бурба П.' },
     BRLNV: { name: 'Бурлинов Николай' },
     BRTNK_A: { name: 'Бортник Алексей' },
     BRKN: { name: 'Быркин Виктор' },

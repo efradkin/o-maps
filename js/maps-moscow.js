@@ -3115,6 +3115,15 @@ let moscowMaps = [
     },
     {
         name: 'Черкизовский парк',
+        year: 2000,
+        url: './maps/moscow/ak/cherkizovsky_park_2000.webp',
+        link: './original_maps/moscow/ak/cherkizovsky_park_2000_omaps.jpg',
+        author: 'BRBA',
+        bounds: [[55.80779315270165, 37.731428146362305], [55.80745551080683, 37.741813659667976], [55.79935122671461, 37.72945404052735]],
+        types: ['PARK'],
+    },
+    {
+        name: 'Черкизовский парк',
         year: 2024,
         url: './maps/moscow/ak/detsky_cherkizovsky_park_2024.webp',
         link: 'http://o-mephi.net/cup/maps/20240826_107.jpg',

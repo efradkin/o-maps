@@ -14,6 +14,7 @@ let vsevolozhskMaps = [
     {
         name: 'Всеволожск',
         year: 1987,
+        info: 'Первая карта А.М.Василевского.',
         url: './maps/forest/vsevolozhsk/vsevolozhsk_1987.webp',
         link: './original_maps/forest/vsevolozhsk/vsevolozhsk_1987_omaps.jpg',
         bounds: [[60.06612537100185, 30.623531341552738], [60.06355549916492, 30.683269500732425], [60.03518795591195, 30.62052726745606]],
