@@ -179,6 +179,14 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/Knots/match-66.html">Зимний матч городов СССР</a>',
         logo: 'meet_1966.jpg'
     },
+    VOLKOV_A: {
+        short: 'Мемориал Андрея Волкова',
+        name: 'Мемориал Андрея Волкова',
+        logo: 'volkov_a.webp',
+        info: 'Андрей Владимирович Волков трагически ушел из жизни в июньский воскресный день 2005 года.' +
+            '<p> Траурный зал с трудом вместил всех желающих отдать последний долг доброму труженику. Его отношение к делу еще долго будет служить для нас примером.' +
+            '<p> © <a href="https://o-site.spb.ru/history/Peoples/avolkov.html">Посвящение</a>'
+    },
     USSR_BULGARIA_1968: {
         short: 'Матч СССР-Болгария\'1968',
         name: '<a href="https://o-site.spb.ru/history/Knots/match-68.html">Международная товарищеская встреча сборных команд Болгарии и СССР</a> (<a href="./docs/ussr_bulgaria_1968_article.jpg">статья в газете "ТРУД"</a>)',

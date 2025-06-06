@@ -5,7 +5,7 @@ const PLANNER_PARAM = urlParams.get('planner');
 const TYPE_PARAM = urlParams.get('type');
 let MAP_NAME_PARAM = urlParams.get('map');
 const ONLY_MAP_NAME_PARAM = urlParams.get('onlymap');
-const START_NAME_PARAM = urlParams.get('start');
+let START_NAME_PARAM = urlParams.get('start');
 const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 const HAS_RESTRICTED_PARAM = urlParams.has('restricted');
@@ -34,6 +34,7 @@ let naGroup = L.layerGroup([]);
 let ymGroup = L.layerGroup([]);
 let mmsGroup = L.layerGroup([]);
 let pskGroup = L.layerGroup([]);
+let volkovGroup = L.layerGroup([]);
 let ksGroup = L.layerGroup([]);
 let kkpGroup = L.layerGroup([]);
 let gsGroup = L.layerGroup([]);
@@ -52,6 +53,7 @@ let allOrientGroups = [
     ymGroup,
     mmsGroup,
     pskGroup,
+    volkovGroup,
     ksGroup,
     gsGroup,
     kkpGroup,
@@ -109,6 +111,7 @@ if (mapElement) {
             case 'GS': activeLayers.push(osmLayer, gsGroup); break;
             case 'MMS': activeLayers.push(osmLayer, mmsGroup); break;
             case 'KZNTSVA': activeLayers.push(osmLayer, pskGroup); break;
+            case 'VOLKOV_A': activeLayers.push(osmLayer, volkovGroup); break;
             case 'KS': activeLayers.push(osmLayer, ksGroup); break;
             case 'RFAR': activeLayers.push(osmLayer, rfarGroup); break;
             case '100X24': activeLayers.push(osmLayer, sto24Group); break;
@@ -120,7 +123,7 @@ if (mapElement) {
         }
     } else {
         activeLayers.push(
-            osmLayer, schoolGroup, wnGroup, naGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
+            osmLayer, schoolGroup, wnGroup, naGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup, volkovGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
             //...Object.values(ageGroups),
         );
     }
@@ -131,6 +134,7 @@ function buildOverlayMapsContents() {
         "Белые Ночи": wnGroup,
         "Карельские скалы": ksGroup,
         "ККП": kkpGroup,
+        "Мемориал Андрея Волкова": volkovGroup,
         "Мемориал Святкина": mmsGroup,
         "Невский Азимут": naGroup,
         "Памяти Кузнецова": pskGroup,
@@ -185,6 +189,7 @@ function pushStartGroupToMap(start, m) {
         case 'KKP': pushGroupToMap(m, kkpGroup); break;
         case 'MMS': pushGroupToMap(m, mmsGroup); break;
         case 'KZNTSVA': pushGroupToMap(m, pskGroup); break;
+        case 'VOLKOV_A': pushGroupToMap(m, volkovGroup); break;
         case 'KS': pushGroupToMap(m, ksGroup); break;
         case 'RFAR': pushGroupToMap(m, rfarGroup); break;
         case '100X24': pushGroupToMap(m, sto24Group); break;

@@ -530,7 +530,7 @@ tuneContextMenu();
 
 // --- functions ---
 
-function loadMap(m) {
+function loadMap(m, forse) {
     if (HAS_ONLY_WO_AUTHOR_PARAM && m.author) {
         return;
     }
@@ -543,15 +543,15 @@ function loadMap(m) {
         m.url = './maps/olive.png';
     }
 
-    // the specified start maps filtering
-    if (START_NAME_PARAM) {
-        if (START_NAME_PARAM === 'major') {
-            if (!isMajor(m)) {
+    if (!forse) { // the specified start maps filtering
+        if (START_NAME_PARAM) {
+            if (START_NAME_PARAM === 'major') {
+                if (!isMajor(m)) {
+                    return;
+                }
+            } else if (!checkStartMap(START_NAME_PARAM, m)) {
                 return;
             }
-        }
-        else if (!checkStartMap(START_NAME_PARAM, m)) {
-            return;
         }
     }
 

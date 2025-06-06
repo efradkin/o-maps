@@ -183,9 +183,9 @@ let specialMaps = [
         name: 'Пухтолова гора',
         year: 2009, //Реально более ранняя
         url: './maps/velo/pukhtolova_gora_velo.webp',
+        link: './original_maps/velo/pukhtolova_gora_velo_omaps.jpg',
         bounds: [[60.25603921789568, 29.63441848754883], [60.251354780368175, 29.691495895385746], [60.228732294909875, 29.625320434570316]],
         author: ['BLZRV_V','URVNTSV','NKFRV_A'],
-        restricted: 'с 01.04.2025 по 26.05.2025. Всероссийские соревнования, велокроссовые дисциплины',
         types: ['VELO'],
     },
     {
