@@ -431,12 +431,16 @@ let authors = {
         about: 'https://o-moscow.ru/people/EfimovVA.html'
     },
     ETNKO: { name: 'Этенко Г.' },
+    GNDRV: { name: 'Гундоров Сергей' },
+    GRBNVA: { name: 'Грибанова Татьяна' },
     GRCHV_D: {
         name: 'Грачев Дмитрий',
         logo: 'grachev.jpg'
     },
-    GRBNVA: { name: 'Грибанова Татьяна' },
-    GNDRV: { name: 'Гундоров Сергей' },
+    GRSHKN: {
+        name: 'Горышкин Александр',
+        logo: 'grshkn.webp'
+    },
     FKN_S: { name: 'Фокин С.' },
     FLVSKY_S: { name: 'Фалевский Сергей' },
     FMN_I: { name: 'Фомин Игорь' },

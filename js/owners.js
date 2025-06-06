@@ -330,6 +330,9 @@ let owners = {
         name: '@ Сытов Николай, 89164980105',
         logo: 'mm.jpg'
     },
+    TSLSCHVA: {
+        name: '@ Целищева Валентина (<a href="https://vk.com/valyat2">ВК</a>)' // Переляева
+    },
     TTV_A: {
         name: '@ Титов Алексей, +7 915 476 2397'
     },

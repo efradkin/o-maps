@@ -5846,6 +5846,16 @@ let moscowMaps = [
         owner: 'FSO_MSK',
         types: [],
     },
+    {
+        name: 'Прудно',
+        year: 2016,
+        url: './maps/moscow/prudno_2016.webp',
+        link: ['./original_maps/moscow/prudno_2016_omaps.gif','./original_maps/moscow/prudno_2016_omaps.ocd'],
+        bounds: [[55.03353169388017, 37.74627685546876], [55.0223149627636, 37.85502433776856], [54.98963080619362, 37.733573913574226]],
+        author: 'GRSHKN',
+        owner: 'TSLSCHVA',
+        types: [],
+    },
 /*
     {
         name: 'Большая Всехсвятская роща', // "Viacheslav Sokolov: Мне не жалко, но мои просят удалить. Выложим после того, как проведём там ещё один старт, может осенью..."
