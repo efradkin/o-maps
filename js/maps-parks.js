@@ -1,6 +1,16 @@
-// types can be ROGAINE, PARK, CITY, PARK, RELIEF, VELO
 let parkMaps = [
     // --- городские парки ---
+    {
+        name: 'Суздальские озёра',
+        year: 2000,
+        logo: 'orients.webp',
+        url: './maps/parks/ozerki_1999.webp',
+        link: './original_maps/parks/ozerki_1999_omaps.jpg',
+        bounds: [[60.05389527419454, 30.3008508682251], [60.050274638891295, 30.331020355224613], [60.03454490436674, 30.289993286132812]],
+        author: 'DBRTSV_V',
+        owner: 'SHEIN',
+        types: ['CITY'],
+    },
     {
         name: 'Парк Авиаторов',
         year: 2023,
