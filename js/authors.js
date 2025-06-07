@@ -536,7 +536,8 @@ let authors = {
     },
     MSTPNV: { name: 'Мостепанов Иван' },
     MTVV: { name: 'Матвеев Виктор' },
-    NDRF: { name: 'Найдорф В.' },
+    NDRF_M: { name: 'Найдорф М.' },
+    NDRF_V: { name: 'Найдорф В.' },
     NKFRV_D: {
         name: 'Никифоров Дмитрий', // Львович
         about: 'https://o-moscow.ru/people/NikiforovDL.html'
