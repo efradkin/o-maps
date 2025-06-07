@@ -219,6 +219,15 @@ let moscowMaps = [
     },
     {
         name: 'Овражки',
+        year: 1990, // но это не точно
+        url: './maps/moscow/ovrazhki_1990.webp',
+        link: './original_maps/moscow/ovrazhki_1990_omaps.jpg',
+        bounds: [[55.68750424381048, 38.03908824920655], [55.683972104026786, 38.10826778411866], [55.65880242471147, 38.03509712219239]],
+        author: 'KRNVA',
+        types: [],
+    },
+    {
+        name: 'Овражки',
         year: 2000,
         url: './maps/moscow/ovrazhki_2000.webp',
         link: './original_maps/moscow/ovrazhki_2000_omaps.jpg',
@@ -3473,8 +3482,9 @@ let moscowMaps = [
         name: 'Снегири',
         year: 1990,
         url: './maps/moscow/snegiri_1990.webp',
-        link: './original_maps/moscow/snegiri_1990_omaps.jpg',
+        link: ['./original_maps/moscow/snegiri_1990_omaps.jpg','./original_maps/moscow/snegiri_1991_omaps.jpg'],
         bounds: [[55.921459859401345, 36.96238517761231], [55.91520721217922, 37.03302383422852], [55.896010096389745, 36.95517539978028]],
+        author: ['IVNLV','KZMN_R','KZMN_A','LVN_B','PPV_V','FMN_I','BLKHN','SMKN_V'],
         types: [],
     },
     {
@@ -4189,9 +4199,18 @@ let moscowMaps = [
         name: 'Соколова Пустынь',
         year: 1989,
         url: './maps/moscow/sokolova_pustyn_1989.webp',
-        link: ['./original_maps/moscow/sokolova_pustyn_1989_omaps.jpg','./original_maps/moscow/sokolova_pustyn_2002_omaps.gif'],
+        link: './original_maps/moscow/sokolova_pustyn_1989_omaps.jpg',
         bounds: [[54.8717175629898, 38.007802963256836], [54.868161487865414, 38.06247711181641], [54.84474282895664, 38.00042152404786]],
         author: ['KLTKN_N','ORLV_V','LVN_B'],
+        types: [],
+    },
+    {
+        name: 'Соколова Пустынь',
+        year: 1997,
+        url: './maps/moscow/sokolova_pustyn_1997.webp',
+        link: ['./original_maps/moscow/sokolova_pustyn_1997_omaps.jpg','./original_maps/moscow/sokolova_pustyn_2002_omaps.gif'],
+        bounds: [[54.87213735671221, 38.005743026733406], [54.86707484678656, 38.06131839752198], [54.845459424157376, 38.000249862670906]],
+        author: ['KZMN_R','KLTKN_N','ORLV_V','ORLV_A','LVN_B'],
         types: [],
     },
     {

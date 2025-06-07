@@ -409,6 +409,7 @@ let authors = {
     },
     BLBN: { name: 'Балабин В.' },
     BLDV: { name: 'Бульдяев Тимофей' },
+    BLKHN: { name: 'Блохин О.' },
     BLTV: { name: 'Болотов С.' },
     BRBA: { name: 'Бурба П.' },
     BRLNV: { name: 'Бурлинов Николай' },
@@ -460,6 +461,7 @@ let authors = {
         name: 'Игнатенко Валерий',
         about: 'https://o-moscow.ru/people/IgnatenkoVA.html'
     },
+    IVNLV: { name: 'Иванилов Н.' },
     IVNV_ALXDR: { name: 'Иванов Александр' },
     JAKMV_A: { name: 'Якимов Александр' },
     JAKMV_S: { name: 'Якимов Семён' },
@@ -514,6 +516,7 @@ let authors = {
         about: 'https://o-moscow.ru/people/KitaenkoVG.html'
     },
     KZLV_V: { name: 'Козлов Владимир' },
+    KZMN_A: { name: 'Кузьмин А.' },
     KZMN_R: {
         name: 'Кузьмин Рэм',
         about: 'https://o-moscow.ru/people/KuzminRN.html'
@@ -557,6 +560,7 @@ let authors = {
         logo: 'turtle.jpg',
         about: 'https://o-moscow.ru/people/OkinVI.html'
     },
+    ORLV_A: { name: 'Орлов А.' },
     ORLV_V: { name: 'Орлов В.' },
     PTPKN: { name: 'Потапкин Павел' },
     PTRV_VLNTN: { name: 'Петров Валентин' },
