@@ -491,6 +491,7 @@ let authors = {
         name: 'Константинов Юрий',
         about: 'https://o-moscow.ru/people/KonstantinovUS.html'
     },
+    KPTNV_M: { name: 'Капитонов Максим' },
     KNTSN: {
         name: 'Куницын Николай',
         about: 'https://o-moscow.ru/people/KunicynNN.html'

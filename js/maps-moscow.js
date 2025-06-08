@@ -5911,6 +5911,18 @@ let moscowMaps = [
         owner: 'TSLSCHVA',
         types: [],
     },
+    {
+        name: 'Тверская',
+        year: 2025,
+        logo: 'msk_interes.webp',
+        info: '<a href="https://interesnaya.sport.mos.ru/">Квест Москва Интересная</a>',
+        url: './maps/moscow/tverskaya_2025.webp',
+        link: './original_maps/moscow/tverskaya_2025_omaps.pdf',
+        bounds: [[55.76450289376177, 37.59839057922364], [55.76467190130656, 37.61465549468995], [55.75438525063563, 37.59869098663331]],
+        author: ['MSTPNV','KPTNV_M'],
+        owner: 'OPNBND',
+        types: [],
+    },
 /*
     {
         name: 'Большая Всехсвятская роща', // "Viacheslav Sokolov: Мне не жалко, но мои просят удалить. Выложим после того, как проведём там ещё один старт, может осенью..."
