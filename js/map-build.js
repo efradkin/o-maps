@@ -59,7 +59,7 @@ let allAgeGroups = [
     groupUnknownYear
 ];
 
-const mapsStatObj = {
+const mapsStatObj = { // collects the maps statistics
     funGroup: [],
     cityGroup: [],
     parkGroup: [],

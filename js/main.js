@@ -1,3 +1,9 @@
+const OLIVE_IMAGE_URL = './maps/olive.png';
+const EMPTY_IMAGE_URL = './maps/olive.png';
+
+const EMPTY_MAPS_ZOOM_LEVEL = 12;
+const DEFAULT_ZOOM_LEVEL = 13;
+
 const ZERO_LATLNG = new L.LatLng(0, 0);
 
 const multiX = 1e-5;
@@ -20,10 +26,10 @@ let imagesLoadCounter = 0;
 let selectedOverlay, selectedMap;
 let visibleMaps;
 
-let hideMapsOnMove = false;
-let hmo = localStorage.getItem('hideMapsOnMove');
-if (hmo != null) {
-    hideMapsOnMove = (hmo === 'true');
+let showMapsOnSmallZoom = false;
+let smosz = localStorage.getItem('showMapsOnSmallZoom');
+if (smosz != null) {
+    showMapsOnSmallZoom = (smosz === 'true');
 }
 let enableFullSize = false;
 let efs = localStorage.getItem('enableFullSize');
@@ -41,7 +47,7 @@ if (tl != null) {
     timeline = (tl === 'true');
 }
 
-let mapOverlays = [];
+let mapOverlays = []; // all overlays to set their opacity
 
 // Prepare the structures and overlay the maps
 // Firstly load the specified map
@@ -58,8 +64,6 @@ if (!ONLY_MAP_NAME_PARAM) {
         }
     }
 }
-
-const defaultZoom = 13;
 
 let searchBox;
 if (mapElement) {
@@ -94,7 +98,7 @@ if (mapElement) {
     }
     if (X_PARAM) x = X_PARAM;
     if (Y_PARAM) y = Y_PARAM;
-    let zoom = defaultZoom;
+    let zoom = DEFAULT_ZOOM_LEVEL;
     if (savedState) zoom = savedState.zoom;
     if (ZOOM_PARAM) zoom = ZOOM_PARAM;
     map = L.map('map', {
@@ -123,7 +127,8 @@ if (mapElement) {
     let savedLayers;
     map.on('movestart', function() {
         savedLayers = [];
-        if (hideMapsOnMove && visibleMaps > 200) {
+/* отключил эту фичу за ненадобностью
+        if (showMapsOnSmallZoom && visibleMaps > 200) {
             map.eachLayer(function (layer) {
                 if (layer instanceof L.ImageOverlay) {
                     savedLayers.push(layer);
@@ -131,6 +136,7 @@ if (mapElement) {
                 }
             })
         }
+*/
     });
     map.on('moveend', function() {
         if (savedLayers) {
@@ -141,6 +147,11 @@ if (mapElement) {
     });
 
     map.on('click', onMapClick);
+    map.on('zoomend', function () {
+        if (!showMapsOnSmallZoom) {
+            syncMaps();
+        }
+    });
     map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () {
         visibleMaps = recalculateLayers();
     });
@@ -540,7 +551,7 @@ function loadMap(m, forse) {
     }
 
     if (isMapHidden(m)) {
-        m.url = './maps/olive.png';
+        m.url = OLIVE_IMAGE_URL;
     }
 
     if (!forse) { // the specified start maps filtering
@@ -706,7 +717,15 @@ function syncMaps() {
     for (const m of hiddenMaps) {
         map.removeLayer(m.layer);
     }
+    let zoom = map.getZoom();
     for (const m of shownMaps) {
+        if (!showMapsOnSmallZoom) {
+            if (zoom <= EMPTY_MAPS_ZOOM_LEVEL) {
+                m.layer.setUrl(EMPTY_IMAGE_URL);
+            } else {
+                m.layer.setUrl(m.url);
+            }
+        }
         map.addLayer(m.layer);
     }
 
@@ -718,7 +737,7 @@ function tuneContextMenu() {
     menuIcons.forEach(
         (element, index, array) => {
             tuneContextMenuItem(element, 'info.png', enablePopup);
-            tuneContextMenuItem(element, 'hide.png', hideMapsOnMove);
+            tuneContextMenuItem(element, 'hide.png', !showMapsOnSmallZoom);
             tuneContextMenuItem(element, 'expand.png', enableFullSize);
         }
     );
@@ -1068,10 +1087,11 @@ function populateAuthor(m, a) {
     }
 }
 
-function onMapSelect(ovrl, map) {
+function onMapSelect(ovrl, m) {
     selectedOverlay = ovrl;
-    selectedMap = map;
+    selectedMap = m;
 
+    ovrl.setUrl(m.url);
     upZindex(ovrl);
 
     if (editMode) {
@@ -1171,9 +1191,9 @@ function popupsSwitch (e) {
 }
 
 function hideMapsSwitch (e) {
-    hideMapsOnMove = !hideMapsOnMove;
-    localStorage.setItem('hideMapsOnMove', hideMapsOnMove);
-    tuneContextMenu();
+    showMapsOnSmallZoom = !showMapsOnSmallZoom;
+    localStorage.setItem('showMapsOnSmallZoom', showMapsOnSmallZoom);
+    location.reload();
 }
 
 function hiddenButtonsModeSwitch (e) {
