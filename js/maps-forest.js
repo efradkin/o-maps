@@ -679,16 +679,6 @@ let forestMaps = [
         types: [],
     },
     {
-        name: 'Вещево, заброшенный аэродром',
-        year: 2021,
-        url: './maps/forest/veschevo_2021.webp',
-        link: './original_maps/forest/veschevo_2021_omaps.jpg',
-        bounds: [[60.68982173198891, 29.154109954833988], [60.68667027795842, 29.189515113830566], [60.666514683959356, 29.145269393920902]],
-        author: 'CHGRVSKY_V',
-        owner: 'SFSO_SPB',
-        types: [],
-    },
-    {
         name: 'Осиновая Роща - Сертолово',
         year: 1993,
         url: './maps/forest/osinovaja_roscha_1993.webp',
