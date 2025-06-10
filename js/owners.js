@@ -33,7 +33,7 @@ let owners = {
     },
     EGRV_EGR: {
         name: '© Егоров Е.А.',
-        //logo: 'pshkn.jpg'
+        logo: 'forest_pushkin.webp'
     },
     ELTSV: {
         name: '© Ельцов Денис'
