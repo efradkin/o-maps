@@ -108,4 +108,15 @@ let rogaineRfarMaps = [
         owner: 'RFAR',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Карисалми',
+        start: 'RFAR',
+        year: 2025,
+        url: './maps/rogaine/gvardeyskoe_rfar_2025.webp',
+        link: './original_maps/rogaine/gvardeyskoe_rfar_2025_omaps.jpeg',
+        bounds: [[61.06011286454441, 28.699722290039066], [61.00723912825571, 29.469108581542972], [60.69637576747284, 28.600158691406254]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22778/',
+        owner: 'RFAR',
+        types: ['ROGAINE'],
+    },
 ];
