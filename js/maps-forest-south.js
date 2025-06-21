@@ -58,6 +58,15 @@ let southMaps = [
         types: [],
     },
     {
+        name: 'Ульяновка, Саблино',
+        year: 2022,
+        url: './maps/forest/south/ulianovka_2022.webp',
+        link: './original_maps/forest/south/ulianovka_2022_omaps.jpg',
+        bounds: [[59.67159812436367, 30.784184932708744], [59.67015701568526, 30.800814628601078], [59.66147654713086, 30.78051567077637]],
+        author: 'DRBSHV',
+        types: [],
+    },
+    {
         name: 'Тихвин, Царицыно оз',
         url: './maps/forest/south/tikhvin_tsaritsyno.webp',
         link: './original_maps/forest/south/tikhvin_tsaritsyno_omaps.jpg',
