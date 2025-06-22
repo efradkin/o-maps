@@ -48,6 +48,15 @@ let vaskelovoMaps = [
         types: [],
     },
     {
+        name: 'Орехово',
+        year: 1985,
+        url: './maps/forest/vaskelovo/orekhovo_1985.webp',
+        link: './original_maps/forest/vaskelovo/orekhovo_1985_omaps.jpg',
+        bounds: [[60.47280927607015, 30.260767936706543], [60.469128923883595, 30.337500572204593], [60.442656171363225, 30.255060195922855]],
+        author: 'BYMKV',
+        types: [],
+    },
+    {
         name: 'Орехово (Фигурное оз)',
         year: 1981,
         url: './maps/forest/vaskelovo/orekhovo_figurnoe_1981.webp',
