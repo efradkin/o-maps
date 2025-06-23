@@ -2,6 +2,28 @@
 let specialMaps = [
     // --- зимние ---
     {
+        name: 'Токсово, запад Хепоярви',
+        year: 1989,
+        url: './maps/winter/toksovo_hepojarvi_west_winter_1987.webp',
+        link: './original_maps/winter/toksovo_hepojarvi_west_winter_1987_omaps.jpg',
+        bounds: [[60.1977555000936, 30.534782409667972], [60.19380934837714, 30.595421791076664], [60.14077828897377, 30.51886081695557]],
+        author: ['CHGRVSKY_V','BRNVA','KRPLSN','SMNA','CHKVSKY_N','DBRTSV_V','GRSMVA','BSTRV_A','PTRNNA','KRNLJV','CHGRVSKY_Y'],
+        areas: [40,4,3,3,4,10,4,4,4,4,20],
+        types: ['WINTER'],
+        qtty: 50
+    },
+    {
+        name: 'Токсово',
+        year: 1989,
+        url: './maps/winter/toksovo_winter_1989.webp',
+        link: './original_maps/winter/toksovo_winter_1989_omaps.jpg',
+        bounds: [[60.16284226193584, 30.47345638275147], [60.16045075590866, 30.511994361877445], [60.14673894357099, 30.4696798324585]],
+        author: ['CHGRVSKY_Y','DBRTSV_V','KRPLSN','BSTRV_A','BRSVA_I','GUSEV_I'],
+        areas: [40,30,5,5,10,10],
+        types: ['WINTER'],
+        qtty: 20
+    },
+    {
         name: 'Лемболово',
         year: 2019, // карта явно более ранняя
         url: './maps/winter/lembolovo_winter_2019.webp',

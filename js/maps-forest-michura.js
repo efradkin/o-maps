@@ -41,6 +41,29 @@ let michuraMaps = [
         types: [],
     },
     {
+        name: 'Журавлёво, Плотвичное оз',
+        excluded: true,
+        year: 1992,
+        start: 'NA',
+        url: './maps/forest/michura/zhuravlevo_plotvichnoe_1992.webp',
+        link: './original_maps/forest/michura/zhuravlevo_plotvichnoe_1992_omaps.jpg',
+        bounds: [[60.62761804700513, 29.85294342041016], [60.62326055189589, 29.91010665893555], [60.600263439440035, 29.84466075897217]],
+        author: ['BYMKV','VSLVSKY','DRBSHV','FDRV_L'],
+        areas: [70,5,15,10],
+        types: [],
+        qtty: 100
+    },
+    {
+        name: 'Мичуринское',
+        year: 1989,
+        url: './maps/forest/michura/michurinskoe_1989.webp',
+        link: './original_maps/forest/michura/michurinskoe_1989_omaps.jpg',
+        bounds: [[60.633300851533505, 29.859809875488285], [60.61957621993714, 30.004177093505863], [60.56976490459024, 29.835605621337894]],
+        author: 'BYMKV',
+        types: [],
+        qtty: 100
+    },
+    {
         name: 'Мичуринское',
         year: 1991,
         url: './maps/forest/michura/michurinskoe_sw_1991.webp',

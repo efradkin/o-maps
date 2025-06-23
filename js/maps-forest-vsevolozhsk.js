@@ -160,6 +160,16 @@ let vsevolozhskMaps = [
         types: [],
     },
     {
+        name: 'Мельничный руч',
+        year: 1989,
+        url: './maps/forest/vsevolozhsk/melnichny_ruchej_1989.webp',
+        link: './original_maps/forest/vsevolozhsk/melnichny_ruchej_1989_omaps.jpg',
+        bounds: [[59.996904597131945, 30.662541389465336], [59.993385022420476, 30.726742744445804], [59.955869724868116, 30.65623283386231]],
+        author: 'VSLVSKY',
+        types: [],
+        qtty: 10
+    },
+    {
         name: 'Щеглово',
         year: 1986,
         url: './maps/forest/vsevolozhsk/scheglovo_1986.webp',

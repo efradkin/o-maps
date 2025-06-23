@@ -938,6 +938,13 @@ function buildPopupText(m, latLngs) {
         let onclick = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
         result += '<br />Поделиться <a href="' + mapLinkUrl + '">ссылкой</a> на карту: <a href="#" ' + onclick + '><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
     }
+
+    // Есть в наличии
+    if (m.qtty) {
+        result += '<br />Есть в наличии бумажные копии: ' + m.qtty + 'шт.';
+    }
+
+    // скрыть карту
     let onclick = 'onclick="hideMap(map, \'' + m.url + '\'); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть эту карту</a></div>';
 
