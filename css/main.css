@@ -366,6 +366,9 @@ label:has(> span span .layer-separator) {
         content: "▲";
     }
 }
+.o-sheet-maps-on-stroe-wrapper {
+    height: calc(100vh - 275px);
+}
 .sheet-icon {
     width: 20px;
     vertical-align: top;

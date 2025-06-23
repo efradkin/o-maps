@@ -64,13 +64,19 @@ function renderMapsTable() {
         td(m, row, buildInfo(m));
         if (!isDocumentsPage()) {
             td(m, row, m.area.toFixed(2));
-            td(m, row, buildGpsLinks(m));
+            if (!mapsOnStore) {
+                td(m, row, buildGpsLinks(m));
+            }
         }
         td(m, row, buildAuthors(m, true));
-        if (!isDocumentsPage()) {
-            td(m, row, buildPlanners(m));
-            td(m, row, buildOwners(m, true));
-            td(m, row, m.types);
+        if (!mapsOnStore) {
+            if (!isDocumentsPage()) {
+                td(m, row, buildPlanners(m));
+                td(m, row, buildOwners(m, true));
+                td(m, row, m.types);
+            }
+        } else {
+            td(m, row, m.qtty);
         }
         tbody.appendChild(row);
     }
@@ -176,6 +182,11 @@ function sortMapsTable() {
         case 'area':
             oMaps.sort((a, b) => {
                 return isAscending ? (a.area || 0) - (b.area || 0) : (b.area || 0) - (a.area || 0);
+            });
+            break;
+        case 'qtty':
+            oMaps.sort((a, b) => {
+                return isAscending ? (a.qtty || 0) - (b.qtty || 0) : (b.qtty || 0) - (a.qtty || 0);
             });
             break;
     }

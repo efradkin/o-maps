@@ -80,7 +80,7 @@ let zelikMaps = [
     {
         name: 'Песочная',
         year: 1986,
-        info: 'Приз Ленинградского телевидения',
+        info: 'Приз Ленинградского телевидения.',
         url: './maps/forest/zelik/pesochnaya_1986.webp',
         link: './original_maps/forest/zelik/pesochnaya_1986_omaps.jpg',
         bounds: [[60.122184363898974, 30.110778808593754], [60.11743802435264, 30.17480850219727], [60.10691667063196, 30.10614395141602]],

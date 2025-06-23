@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.8">
-    <title>Спортивные карты Санкт-Петербурга: ориентирование и рогейн. Сводная таблица.</title>
-    <meta name="description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга. Сводная таблица.">
+    <title>Спортивные карты Санкт-Петербурга в наличии.</title>
+    <meta name="description" content="Спортивные карты Санкт-Петербурга в наличии.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css"/>
 
-    <meta property="og:title" content="Спортивные карты Санкт-Петербурга: ориентирование и рогейн">
-    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:title" content="Спортивные карты Санкт-Петербурга в наличии">
+    <meta property="og:site_name" content="Спортивные карты Санкт-Петербурга в наличии">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга. Сводная таблица.">
+    <meta property="og:description" content="Спортивные карты Санкт-Петербурга в наличии.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview.jpg">
 
     <!-- Yandex.Metrika counter -->
@@ -36,57 +37,24 @@
 
     <base target="_blank">
 </head>
-<body class="stat-body sheet-body">
+<body class="stat-body sheet-body help-body">
     <h1>
         <a href="./index.html" target="_self">O-maps ◪</a>
         <a href="spb.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
-        <select id="charts_region_selector" onchange="selectMapRegion(this.value, 'sheet')">
-            <option value="index">Начальная страница</option>
-            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="spb" selected>Санкт-Петербург</option>
-            <option value="msk">Москва</option>
-            <option value="rzn">Рязань</option>
-            <option value="srb">Белград</option>
-            <option value="all">Все регионы вместе</option>
-            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="docs">Исторические документы</option>
-        </select>
-
-        <select id="start_selector" onchange="selectStart(this.value)">
-            <option value="all">все</option>
-            <option value="WN">Белые Ночи</option>
-            <option value="KKP">Камни Карельского Перешейка</option>
-            <option value="KS">Карельские скалы</option>
-            <option value="VOLKOV_A">Мемориал Андрея Волкова</option>
-            <option value="MMS">Мемориал Михаила Святкина</option>
-            <option value="NA">Невский Азимут</option>
-            <option value="SCHOOL">Ориентирование в школу</option>
-            <option value="KZNTSVA">Памяти Сергея Кузнецова</option>
-            <option value="GS">Зелёный Змей</option>
-            <option value="ST">Спринт-Тур</option>
-            <option value="YM">Яркий Мир</option>
-            <option value="100X24">100x24</option>
-            <option value="BA">BikeAdventure</option>
-            <option value="RFAR">Redfox Adventure Race</option>
-            <option value="TA">TrailAdventure</option>
-            <option value="KKM">Кубок Коротких Маршрутов</option>
-            <option value="MB">Марш-Бросок</option>
-            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="major">Чемпионаты и Кубки</option>
-            <option value="MEET_1966">Зимний матч городов СССР'66</option>
-            <option value="USSR_BULGARIA_1968">Матч СССР-Болгария'1968</option>
-            <option value="USSR_V_1971">Пятые Всесоюзные соревнования'71</option>
-            <option value="USSR_V_1975">Всесоюзные зимние соревнования'75</option>
-        </select>
-
         <a href="start.html" target="_self" class="stat-map-link stat-map-link-right" title="Плитки" style="display: none"><img src="images/ceramics_24.png" alt="Плитки" /></a>
     </h1>
+
+    <div class="container">
+        <section><span>O-MAPS дарит карты! Те, которые перечислены в этой таблице, имеются в стопках, чистые. Кроме них есть множество разных чистых и использованных карт с дистанциями. Если они Вам зачем-то нужны
+            (например, для теоретических занятий с детьми или просто как память), свяжитесь со мной, и я с удовольствием их Вам отдам.</span></section>
+        <div class="start-maps-wrapper"></div>
+    </div>
 
     <div class="o-sheet-roof">
         <a href="#" onclick="downloadSheetTable('o-maps-spb.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
-    <div class="o-sheet-wrapper">
+    <div class="o-sheet-wrapper o-sheet-maps-on-stroe-wrapper">
         <table class="o-main-table o-sheet">
             <thead>
             <tr>
@@ -97,11 +65,8 @@
                 <th>Изображения</th>
                 <th>Инфо</th>
                 <th data-sort="area" class="sortable">Площадь (км²)<sup>⚹</sup></th>
-                <th>GPS</th>
                 <th>Автор-составитель</th>
-                <th>Планирование дистанции</th>
-                <th>Владелец</th>
-                <th>Тип</th>
+                <th data-sort="qtty" class="sortable">К-во бумажных копий</th>
             </tr>
             </thead>
             <tbody></tbody>
@@ -152,7 +117,7 @@
 
     <script>
         let loadImagesRequired = false;
-        let mapsOnStore = false;
+        let mapsOnStore = true;
 
         let oMaps = [
             ...gsStartsMaps,
@@ -184,6 +149,7 @@
             ...cityMaps,
             ...schoolMaps,
         ];
+        oMaps = oMaps.filter(m => (m.qtty !== undefined));
     </script>
 
     <script src="js/map-build.js"></script>
