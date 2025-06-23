@@ -208,6 +208,7 @@ let authors = {
     KVLVA_O: { name: 'Ковалёва Ольга' },
     KZKV: { name: 'Казаков' },
     KZMV: { name: 'Козьмов Александр' }, // Николаевич
+    LBDKN: { name: 'Лебёдкин Лев' },
     LMVA: { name: 'Ломова Ирина' },
     LPTV_Y: { name: 'Лаптев Ю.' },
     LUK_V: {

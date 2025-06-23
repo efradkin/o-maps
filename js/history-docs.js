@@ -31,6 +31,12 @@ let historyDocs = [
         link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg'],
     },
     {
+        name: 'Условные знаки спортивных карт',
+        year: 1,
+        link: './docs/sport_maps_old_signs_omaps.jpg',
+        qtty: 2
+    },
+    {
         name: 'Сводная карта всех дней (Лемболово)',
         start: 'MMS',
         year: 2010,
