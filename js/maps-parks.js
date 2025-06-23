@@ -204,8 +204,9 @@ let parkMaps = [
         url: './maps/parks/udelny_1987.webp',
         link: './original_maps/parks/udelny_1987_omaps.jpg',
         bounds: [[60.01741369119426, 30.29788970947266], [60.015354775032456, 30.324969291687015], [60.00194723757934, 30.29338359832764]],
+        author: 'VSLVSKY',
         types: ['PARK'],
-        author: 'VSLVSKY'
+        qtty: 15
     },
     {
         name: 'Удельный парк',
@@ -981,6 +982,7 @@ let parkMaps = [
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
         types: ['PARK'],
+        qtty: 2
     },
     {
         name: 'Ржевский лесопарк',
@@ -1174,6 +1176,7 @@ let parkMaps = [
         bounds: [[60.08522181178067, 30.27892112731934], [60.082739043608704, 30.322523117065433], [60.0687806949504, 30.272741317749027]],
         author: ['VLKV_A','SHVR'],
         types: ['PARK'],
+        qtty: 12
     },
     {
         name: 'Шуваловский парк',

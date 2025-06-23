@@ -20,6 +20,7 @@ let michuraMaps = [
         author: ['BYMKV','VSLVSKY','DRBSHV','FDRV_L','FLCHKN','RBKV_D','DRZDVA','KSNFNTVA','ZRNA','BZNVA_E'],
         areas: [70,5,10,5,2,2,1,1,1,1],
         types: [],
+        qtty: 3
     },
     {
         name: 'Борисово',
@@ -29,6 +30,7 @@ let michuraMaps = [
         bounds: [[60.6256393540837, 29.92907524108887], [60.61978676452859, 30.005121231079105], [60.58578707547604, 29.915943145751957]],
         author: ['BYMKV','GRBTNKV'],
         types: [],
+        qtty: 8
     },
     {
         name: 'Журавлёвское оз',
@@ -39,6 +41,7 @@ let michuraMaps = [
         bounds: [[60.6315750686474, 29.813547134399418], [60.6264813659105, 29.888048171997074], [60.603275898710784, 29.80470657348633]],
         author: ['BYMKV','FLCHKN'],
         types: [],
+        qtty: 2
     },
     {
         name: 'Журавлёво, Плотвичное оз',

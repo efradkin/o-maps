@@ -38,6 +38,7 @@ let vaskelovoMaps = [
         author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
         areas: [62,20,10,5,1,1,1],
         types: [],
+        qtty: 2
     },
     {
         name: 'Лемболово',
@@ -119,6 +120,7 @@ let vaskelovoMaps = [
         bounds: [[60.42787622155024, 30.223689079284668], [60.4233434866285, 30.286216735839847], [60.37887226479014, 30.210857391357425]],
         author: 'KUZNTSV_V',
         types: [],
+        qtty: 2
     },
     {
         name: 'Лемболовское',
