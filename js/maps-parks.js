@@ -1208,6 +1208,16 @@ let parkMaps = [
     },
     {
         name: 'Малиновка',
+        year: 2018,
+        url: './maps/parks/malinovka_2018.webp',
+        link: ['./original_maps/parks/malinovka_2018_omaps.gif','./original_maps/parks/malinovka_2018_omaps.ocd'],
+        bounds: [[59.944404805621396, 30.46242713928223], [59.94772541977915, 30.475344657897953], [59.94165349470951, 30.46543121337891]],
+        author: ['FDRV_L','VSLVSKY'],
+        owner: 'VSLVSKY',
+        types: ['PARK'],
+    },
+    {
+        name: 'Малиновка',
         year: 2025,
         logo: 'krasnogv.png',
         url: './maps/parks/malinovka_2025.webp',
@@ -1393,5 +1403,15 @@ let parkMaps = [
         author: 'TKMKVA_P',
         owner: 'TKMKVA_P',
         types: ['SPRINT', 'PARK'],
+    },
+    {
+        name: 'Заневский парк (им Терешковой)',
+        year: 2019,
+        url: './maps/parks/zanevsky_2019.webp',
+        link: ['./original_maps/parks/zanevsky_2019_omaps.gif','./original_maps/parks/zanevsky_2019_omaps.ocd'],
+        bounds: [[59.922882605063975, 30.409061908721927], [59.92203304098512, 30.421893596649173], [59.91713955864316, 30.407559871673588]],
+        author: 'VSLVSKY',
+        owner: 'VSLVSKY',
+        types: ['PARK'],
     },
 ];
