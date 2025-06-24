@@ -2,6 +2,16 @@
 let michuraMaps = [
     // --- ТОКСОВО ---
     {
+        name: 'Мичуринское',
+        year: 1989,
+        url: './maps/forest/michura/michurinskoe_1989.webp',
+        link: './original_maps/forest/michura/michurinskoe_1989_omaps.jpg',
+        bounds: [[60.633300851533505, 29.859809875488285], [60.61957621993714, 30.004177093505863], [60.56976490459024, 29.835605621337894]],
+        author: 'BYMKV',
+        types: [],
+        qtty: 100
+    },
+    {
         name: 'Ягодное',
         year: 1990,
         url: './maps/forest/michura/yagodnoe_1990.webp',
@@ -28,9 +38,21 @@ let michuraMaps = [
         url: './maps/forest/michura/borisovo_1988.webp',
         link: './original_maps/forest/michura/borisovo_1988_omaps.jpg',
         bounds: [[60.6256393540837, 29.92907524108887], [60.61978676452859, 30.005121231079105], [60.58578707547604, 29.915943145751957]],
-        author: ['BYMKV','GRBTNKV'],
+        author: ['BYMKV','PVLV_M','GRBTNKV','VNGRDV_K','SMNV_K','BKKLV','NKSHN','CHRNV_G','SKBLV_A'],
+        areas: [55,5,10,5,5,5,5,5,5],
         types: [],
-        qtty: 8
+        qtty: 10
+    },
+    {
+        name: 'Мичуринское',
+        year: 1988,
+        url: './maps/forest/michura/michurinskoe_1988.webp',
+        link: './original_maps/forest/michura/michurinskoe_1988_omaps.jpg',
+        bounds: [[60.6080783992359, 29.91233825683594], [60.600958647299585, 29.997868537902836], [60.57048185567935, 29.898004531860355]],
+        author: ['BYMKV','PVLV_M','GRBTNKV','VNGRDV_K','SMNV_K','BKKLV','NKSHN'],
+        areas: [65,10,5,5,5,5,5],
+        types: [],
+        qtty: 10
     },
     {
         name: 'Журавлёвское оз',
@@ -53,16 +75,6 @@ let michuraMaps = [
         bounds: [[60.62761804700513, 29.85294342041016], [60.62326055189589, 29.91010665893555], [60.600263439440035, 29.84466075897217]],
         author: ['BYMKV','VSLVSKY','DRBSHV','FDRV_L'],
         areas: [70,5,15,10],
-        types: [],
-        qtty: 100
-    },
-    {
-        name: 'Мичуринское',
-        year: 1989,
-        url: './maps/forest/michura/michurinskoe_1989.webp',
-        link: './original_maps/forest/michura/michurinskoe_1989_omaps.jpg',
-        bounds: [[60.633300851533505, 29.859809875488285], [60.61957621993714, 30.004177093505863], [60.56976490459024, 29.835605621337894]],
-        author: 'BYMKV',
         types: [],
         qtty: 100
     },

@@ -649,7 +649,7 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2025_06_21_omaps.jpg',
         bounds: [[60.20716035907779, 29.119906425476078], [60.203663175350826, 29.155011177062992], [60.18700378845101, 29.111752510070804]],
         author: ['NSNV','KVZN','TKMKV_K','TKMKVA_P'],
-        planner: 'NKTN_I',
+        planner: 'ILVS',
         types: [],
     },
     {
@@ -677,7 +677,7 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2025_06_20_omaps.jpg',
         bounds: [[60.2073309438698, 29.119434356689457], [60.20374847695044, 29.15496826171875], [60.195750487705276, 29.11484241485596]],
         author: ['NSNV','KVZN','TKMKV_K','TKMKVA_P'],
-        planner: 'NKTN_I',
+        planner: 'ILVS',
         types: [],
     },
 ];

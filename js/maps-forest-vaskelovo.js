@@ -12,7 +12,17 @@ let vaskelovoMaps = [
         types: [],
     },
     {
-        name: 'Орехово',
+        name: 'Орехово, 67км',
+        year: 1988,
+        url: './maps/forest/vaskelovo/orekhovo_1988.webp',
+        link: ['./original_maps/forest/vaskelovo/orekhovo_1988_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_10000_1988_omaps.jpg'],
+        bounds: [[60.49600280765954, 30.284757614135742], [60.492430773536746, 30.338530540466312], [60.470144235137965, 30.27694702148438]],
+        author: 'BYMKV',
+        types: [],
+        qtty: 10
+    },
+    {
+        name: 'Орехово, 67км',
         year: 1981,
         url: './maps/forest/vaskelovo/orekhovo_1981.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_1981_omaps.jpg',
@@ -244,6 +254,16 @@ let vaskelovoMaps = [
         bounds: [[60.37955102391165, 30.228838920593265], [60.37628436589373, 30.284028053283695], [60.35047898807388, 30.22150039672852]],
         author: ['BYMKV','SMRNV_A','RMNTSV_S','GRV_K'],
         types: [],
+    },
+    {
+        name: 'Керро',
+        year: 1988,
+        url: './maps/forest/vaskelovo/kerro_1988.webp',
+        link: './original_maps/forest/vaskelovo/kerro_1988_omaps.jpg',
+        bounds: [[60.34907778268942, 30.21647930145264], [60.344725169953875, 30.285701751708988], [60.31761974836494, 30.208625793457035]],
+        author: 'BYMKV',
+        types: [],
+        qtty: 10
     },
     {
         name: 'Стеклянный',

@@ -3,7 +3,7 @@ let planners = {
     GBNV_V: { name: 'Губанов Валерий' },
     ILVS: { name: 'Ильвес Константин' },
     KSRKV: { name: 'Косоруков Антон' },
-    NKTN_I: { name: 'Никтин Иван' },
+    NKTN_I: { name: 'Никитин Иван' },
     PRVSKY: { name: 'Пировский Игорь' },
     SHEIN: { name: 'Шеин Александр' },
     SRBRNTSKY: {name: 'Серебряницкий Константин'},

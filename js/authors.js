@@ -15,6 +15,7 @@ let authors = {
     BBNNA_I: { name: 'Бабанина Ирина' },
     BGCHNS: { name: 'Багочюнас С.' },
     BGNV: { name: 'Богунов О.' },
+    BKKLV: { name: 'Биккулов Д.' },
     BKSTN: { name: 'Бакустин Игорь' },
     BKTV: { name: 'Бекетов Константин' },
     BNDRNK: {
@@ -62,6 +63,7 @@ let authors = {
         logo: 'che.jpg'
     },
     CHKVSKY_N: { name: 'Чайковский Н.' },
+    CHRNV_G: { name: 'Чернов Г.' },
     CHSNKV: { name: 'Чесноков А.' },
     DBRTSV_S: {
         name: 'Добрецов Сергей',
@@ -251,6 +253,7 @@ let authors = {
     MTRNCHV: { name: 'Матреничев Вячеслав' },
     NGN: { name: 'Негин С.' },
     NKFRV_A: { name: 'Никифоров Андрей' },
+    NKSHN: { name: 'Никишин О.' },
     NSNV: {
         name: 'Несынов Сергей',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -275,6 +278,7 @@ let authors = {
     PTRV_A: { name: 'Петров А.' },
     PTRV_V: { name: 'Петров В.' },
     PTRNNA: { name: 'Петрянина О.' },
+    PVLV_M: { name: 'Павлов М.' },
     PYNN: { name: 'Паюнен В.' },
     RBKV_D: { name: 'Рябков Д.' },
     RDNV_B: { name: 'Родионов Богдан' },
@@ -302,9 +306,11 @@ let authors = {
         name: 'Швер Евгений',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    SKBLV_A: { name: 'Скоблов А.' },
     SKLVA: { name: 'Соколова С.' },
     SLBDNK: { name: 'Слободянюк Роман' },
     SMLGS: { name: 'Андрюс Смилгюс' },
+    SMNV_K: { name: 'Семёнов К.' },
     SMNA: { name: 'Симина М.' },
     SMRNV_A: { name: 'Смирнов А.' },
     SMV: { name: 'Сомов Никита' },
@@ -383,6 +389,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     VLKV_M: { name: 'Волков Михаил' },
+    VNGRDV_K: { name: 'Виноградов К.' },
     VSLVSKY: {
         name: 'Василевский Александр', //Михайлович
         about: 'https://vk.com/wall-154221178_8955'
