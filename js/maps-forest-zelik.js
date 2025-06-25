@@ -49,9 +49,9 @@ let zelikMaps = [
     },
     {
         name: 'Песочная',
-        year: 2005,
+        year: 2008,
         url: './maps/forest/zelik/pesochnaya_2005.webp',
-        link: './original_maps/forest/zelik/pesochnaya_2005_omaps.jpg',
+        link: ['./original_maps/forest/zelik/pesochnaya_2005_omaps.jpg','./original_maps/forest/zelik/pesochnaya_2008_omaps.ocd'],
         bounds: [[60.122654684605095, 30.111250877380375], [60.11705315601863, 30.18030166625977], [60.10689528234335, 30.10640144348145]],
         author: ['SHKLV','VSLVSKY','DRBSHV'],
         owner: 'SHKLV',
