@@ -88,7 +88,6 @@ let vyborgMaps = [
         author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V','KUZNTSV_A'],
         owner: 'NW',
         types: [],
-        restricted: 'с 01.10.2024 по 16.06.2025'
     },
     {
         name: 'оз Тростинка',
@@ -144,7 +143,6 @@ let vyborgMaps = [
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A'],
         owner: 'NW',
         types: [],
-        restricted: 'с 01.10.2024 по 16.06.2025'
     },
     {
         name: 'Пруды',
@@ -156,7 +154,6 @@ let vyborgMaps = [
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A'],
         owner: 'NW',
         types: [],
-        restricted: 'с 01.10.2024 по 16.06.2025'
     },
     {
         name: 'Пруды',
@@ -168,7 +165,6 @@ let vyborgMaps = [
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A','LUK_V'],
         owner: 'NW',
         types: [],
-        restricted: 'с 01.10.2024 по 16.06.2025'
     },
     {
         name: 'Пруды',
@@ -180,7 +176,6 @@ let vyborgMaps = [
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A','LUK_V'],
         owner: 'NW',
         types: [],
-        restricted: 'с 01.10.2024 по 16.06.2025'
     },
     {
         name: 'Пруды',
@@ -192,7 +187,6 @@ let vyborgMaps = [
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A','LUK_V'],
         owner: 'NW',
         types: [],
-        restricted: 'с 01.10.2024 по 16.06.2025'
     },
     {
         name: 'Пальцево',
@@ -276,7 +270,6 @@ let vyborgMaps = [
         author: ['TKMKV_K','KVZN','NSNV','VRBY'],
         owner: 'NW',
         types: [],
-        restricted: 'с 01.10.2024 по 16.06.2025'
     },
     {
         name: 'Пруды',
@@ -288,7 +281,6 @@ let vyborgMaps = [
         author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V'],
         owner: 'NW',
         types: [],
-        restricted: 'с 01.10.2024 по 16.06.2025'
     },
     {
         name: 'Пруды',
@@ -300,7 +292,6 @@ let vyborgMaps = [
         author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V'],
         owner: 'NW',
         types: [],
-        restricted: 'с 01.10.2024 по 16.06.2025'
     },
     {
         name: 'Пруды',
@@ -318,7 +309,6 @@ let vyborgMaps = [
         author: ['TKMKV_K','KVZN','NSNV','VRBY'],
         owner: 'NW',
         types: [],
-        restricted: 'с 01.10.2024 по 16.06.2025'
     },
     {
         name: 'Обходное оз',
