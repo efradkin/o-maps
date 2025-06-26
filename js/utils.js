@@ -236,6 +236,22 @@ function link(url) {
         return result;
     }
 }
+
+function hasOCAD(m) {
+    let links = m.link;
+    if (links) {
+        if (!Array.isArray(links)) {
+            links = [m.link];
+        }
+        for (const link of links) {
+            if (link.endsWith('.ocd')) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
 // processes one or multiple owners
 function o(owner) {
     if (owner === undefined)

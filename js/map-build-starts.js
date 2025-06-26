@@ -14,6 +14,7 @@ const Y_PARAM = urlParams.get('y');
 const ZOOM_PARAM = urlParams.get('zoom');
 let HAS_NO_BUTTONS_PARAM = urlParams.has('no-buttons');
 const HAS_EMBEDDED_PARAM = urlParams.has('embedded');
+const HAS_OCAD = urlParams.has('ocad');
 
 if (HAS_EMBEDDED_PARAM) {
     HAS_NO_BUTTONS_PARAM = true;

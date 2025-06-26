@@ -550,6 +550,10 @@ function loadMap(m, forse) {
         return;
     }
 
+    if (HAS_OCAD && !hasOCAD(m)) {
+        return;
+    }
+
     if (isMapHidden(m)) {
         m.url = OLIVE_IMAGE_URL;
     }
