@@ -287,6 +287,16 @@ let zelikMaps = [
         types: [],
     },
     {
+        name: 'Комарово - Репино',
+        year: 2008,
+        logo: 'sestroretsk.webp',
+        url: './maps/forest/zelik/komarovo_repino_2008.webp',
+        link: ['./original_maps/forest/zelik/komarovo_repino_2008_omaps.gif','./original_maps/forest/zelik/komarovo_repino_2008_omaps.ocd'],
+        bounds: [[60.208738234557096, 29.818310737609867], [60.206414040182864, 29.866847991943363], [60.19133476256005, 29.81449127197266]],
+        author: 'FDRV_L',
+        types: [],
+    },
+    {
         name: 'Зеленогорск, т/б "Прибой", оз Щучье',
         year: 2000,
         area: 15,
