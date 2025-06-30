@@ -176,7 +176,7 @@ let michuraMaps = [
         types: [],
     },
     {
-        name: 'Ягодное, оз Расстанное',
+        name: 'Борисово-Ягодное',
         year: 2006,
         startYear: 2010,
         start: 'NA',
@@ -187,7 +187,7 @@ let michuraMaps = [
         types: [],
     },
     {
-        name: 'Ягодное, оз Раздельное',
+        name: 'Борисово-Ягодное',
         year: 2011,
         startYear: 2013,
         start: 'NA',

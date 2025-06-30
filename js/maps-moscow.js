@@ -86,6 +86,15 @@ let moscowMaps = [
         types: ['PARK'],
     },
     {
+        name: 'Измайловский парк',
+        year: 1988,
+        url: './maps/moscow/ak/izmailovsky_1988.webp',
+        link: './original_maps/moscow/ak/izmailovsky_1988_omaps.jpg',
+        bounds: [[55.790714448586236, 37.763357162475586], [55.78859114839274, 37.82240867614747], [55.76503405786429, 37.7570915222168]],
+        author: 'KRNVA',
+        types: ['PARK'],
+    },
+    {
         name: 'Лыткино',
         year: 1976,
         info: '<a href="https://t.me/lamporient/6401">17 октября. Марафонское ориентирование. "Золотая осень"</a>',
@@ -406,6 +415,15 @@ let moscowMaps = [
     },
     {
         name: 'Бутово',
+        year: 1,
+        url: './maps/moscow/ak/butovo_old.webp',
+        link: './original_maps/moscow/ak/butovo_old_omaps.jpg',
+        bounds: [[55.590690630433194, 37.52921104431153], [55.58193486003172, 37.572298049926765], [55.55818015505493, 37.50706672668458]],
+        author: 'KRNVA',
+        types: [],
+    },
+    {
+        name: 'Бутово',
         year: 1996,
         url: './maps/moscow/ak/butovo_1996.webp',
         link: './original_maps/moscow/ak/butovo_1996_omaps.jpg',
@@ -528,7 +546,7 @@ let moscowMaps = [
         name: 'Горенский лесопарк, запад',
         year: 1989,
         url: './maps/moscow/ak/gorensky_west_1989.webp',
-        link: './original_maps/moscow/ak/gorensky_west_1989_omaps.jpg',
+        link: ['./original_maps/moscow/ak/gorensky_west_1989_omaps.jpg','./original_maps/moscow/ak/balashiha_1989_omaps.jpg'],
         bounds: [[55.81632969596974, 37.84103393554688], [55.81165170922683, 37.91184425354004], [55.787722492227445, 37.835454940795906]],
         author: 'SMKN_S',
         types: [],
@@ -1688,6 +1706,15 @@ let moscowMaps = [
     },
     {
         name: 'Кусково',
+        year: 1991,
+        url: './maps/moscow/ak/kuskovo_1991.webp',
+        link: './original_maps/moscow/ak/kuskovo_1991_omaps.jpg',
+        bounds: [[55.74506213931466, 37.773528099060066], [55.74242904382759, 37.81764507293702], [55.725877541602586, 37.770266532897956]],
+        author: 'MRTSHV',
+        types: ['PARK'],
+    },
+    {
+        name: 'Кусково',
         year: 1998,
         url: './maps/moscow/ak/kuskovo_1998.webp',
         link: './original_maps/moscow/ak/kuskovo_1998_omaps.jpg',
@@ -2527,6 +2554,7 @@ let moscowMaps = [
 */
     {
         name: 'Усадьба Братцево',
+        year: 2015, // ???
         url: './maps/moscow/o-mephi/20200919_688.webp',
         link: 'http://o-mephi.net/cup/maps/20200919_688.jpg',
         bounds: [[55.85195074576892, 37.39119529724122], [55.85223982239593, 37.42007732391358], [55.839542514007164, 37.39171028137208]],
@@ -3480,10 +3508,10 @@ let moscowMaps = [
     },
     {
         name: 'Снегири',
-        year: 1990,
-        url: './maps/moscow/snegiri_1990.webp',
+        year: 1991,
+        url: './maps/moscow/snegiri_1991.webp',
         link: ['./original_maps/moscow/snegiri_1990_omaps.jpg','./original_maps/moscow/snegiri_1991_omaps.jpg'],
-        bounds: [[55.921459859401345, 36.96238517761231], [55.91520721217922, 37.03302383422852], [55.896010096389745, 36.95517539978028]],
+        bounds: [[55.92761532673049, 36.96599006652833], [55.92016131564876, 37.066926956176765], [55.89297810417991, 36.95689201354981]],
         author: ['IVNLV','KZMN_R','KZMN_A','LVN_B','PPV_V','FMN_I','BLKHN','SMKN_V'],
         types: [],
     },
@@ -3734,7 +3762,7 @@ let moscowMaps = [
     },
     {
         name: 'Мисайлово',
-        year: 1988,
+        year: 1998,
         url: './maps/moscow/misailovo_1998.webp',
         link: './original_maps/moscow/misailovo_1998_omaps.jpg',
         bounds: [[55.58979331443429, 37.78168201446533], [55.58770758176757, 37.82567024230958], [55.5609712890582, 37.77691841125489]],
@@ -3783,6 +3811,14 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/lytkarino_1988_omaps.jpg',
         bounds: [[55.60734787913749, 37.91570663452149], [55.60560247303119, 37.94445991516114], [55.584845582144304, 37.91175842285157]],
         author: ['PTPKN','STLV_S'],
+        types: [],
+    },
+    {
+        name: 'Лыткарино, Мирный',
+        year: 1989,
+        url: './maps/moscow/lytkarino_mirny_1989.webp',
+        link: './original_maps/moscow/lr/lytkarino_mirny_1989_omaps.jpg',
+        bounds: [[55.62809286794115, 37.923088073730476], [55.623634590888656, 37.97183990478516], [55.60397820591273, 37.916092872619636]],
         types: [],
     },
     {
