@@ -317,7 +317,7 @@ let moscowMaps = [
     {
         name: 'Алёшкино',
         year: 1992,
-        info: 'Многодневка "Жемчужины России".',
+        info: 'XXIII соревнования на приз TV, 24 мая.',
         url: './maps/moscow/ak/aleshkino_1992.webp',
         link: './original_maps/moscow/ak/aleshkino_1992_omaps.jpg',
         bounds: [[55.87892196668262, 37.3962163925171], [55.87545528738495, 37.441492080688484], [55.84361477814675, 37.391023635864265]],

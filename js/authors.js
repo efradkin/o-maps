@@ -97,7 +97,7 @@ let authors = {
     FDRV_A: { name: 'Фёдоров Алексей' },
     FDRV_I: { name: 'Фёдоров И.' },
     FDRV_L: {
-        name: 'Фёдоров Леонид',
+        name: 'Фёдоров Леонид', // Александрович
         about: 'https://o-site.spb.ru/history/Peoples/leonfed.html'
     },
     FDTV_A: { name: 'Федотов А.' },

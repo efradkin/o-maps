@@ -1871,4 +1871,15 @@ let cityMaps = [
         owner: 'VSLVSKY',
         types: ['CITY'],
     },
+    {
+        name: 'Спорт.база "Олимпиец", СДЮСШОР им Коренькова',
+        year: 2006,
+        logo: 'sestroretsk.webp',
+        url: './maps/city/komarovo_olimpiets_2006.webp',
+        link: ['./original_maps/city/komarovo_olimpiets_2006_omaps.gif','./original_maps/city/komarovo_olimpiets_2006_omaps.ocd'],
+        bounds: [[60.19344670522603, 29.807174205780033], [60.193233383853695, 29.80947017669678], [60.191484096303874, 29.80672359466553]],
+        author: 'VSLVSKY',
+        owner: 'VSLVSKY',
+        types: ['CITY'],
+    },
 ];
