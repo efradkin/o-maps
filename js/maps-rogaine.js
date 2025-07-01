@@ -40,6 +40,7 @@ let rogaineMaps = [
         name: 'Зеленогорск, Прибой',
         year: 2011,
         url: './maps/winter/zelenogorsk_schuchje_winter_2011.webp',
+        link: './original_maps/rogaine/zelenogorsk_schuchje_winter_2011_omaps.jpg',
         bounds: [[60.24662707764389, 29.71887588500977], [60.23708440981365, 29.847278594970707], [60.19291339919565, 29.716300964355472]],
         types: ['WINTER','ROGAINE'],
     },
