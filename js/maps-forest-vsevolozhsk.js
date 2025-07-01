@@ -64,7 +64,7 @@ let vsevolozhskMaps = [
         name: 'Колтуши - Воейково',
         year: 1990,
         url: './maps/forest/vsevolozhsk/koltushi_1990.webp',
-        link: ['./original_maps/forest/vsevolozhsk/koltushi_1990_omaps.jpg','./original_maps/forest/vsevolozhsk/voeykovo_1989_omaps.jpg'],
+        link: ['./original_maps/forest/vsevolozhsk/koltushi_1990_omaps.jpg','./original_maps/forest/vsevolozhsk/voeykovo_1988_omaps.jpg','./original_maps/forest/vsevolozhsk/voeykovo_1989_omaps.jpg'],
         bounds: [[59.9788091403029, 30.66172599792481], [59.97408509169904, 30.740690231323242], [59.92629139661258, 30.648250579833988]],
         author: 'VSLVSKY',
         types: [],
