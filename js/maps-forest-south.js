@@ -339,6 +339,15 @@ let southMaps = [
     },
     {
         name: 'Шапки',
+        year: 1969,
+        info: '<b>15.02, Матч ориентировщиков Москвы и Ленинграда.</b>',
+        url: './maps/forest/south/shapki_1969.webp',
+        link: ['./original_maps/forest/south/shapki_1969_omaps.jpg','./docs/sport_week_leningrad_1969_article_omaps.jpg','./docs/sov_sport_1969_article_omaps.jpg'],
+        bounds: [[59.63048596861456, 31.12933158874512], [59.62983505485158, 31.181859970092777], [59.5911915787326, 31.12212181091309]],
+        types: [],
+    },
+    {
+        name: 'Шапки',
         year: 1991,
         url: './maps/forest/south/shapki_1991.webp',
         link: ['./original_maps/forest/south/shapki_1991_full_1.jpg','./original_maps/forest/south/shapki_1991_full_2.jpg'],

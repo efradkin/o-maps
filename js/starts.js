@@ -189,7 +189,7 @@ let starts = {
     },
     USSR_BULGARIA_1968: {
         short: 'Матч СССР-Болгария\'1968',
-        name: '<a href="https://o-site.spb.ru/history/Knots/match-68.html">Международная товарищеская встреча сборных команд Болгарии и СССР</a> (<a href="./docs/ussr_bulgaria_1968_article.jpg">статья в газете "ТРУД"</a>)',
+        name: '<a href="https://o-site.spb.ru/history/Knots/match-68.html">Международная товарищеская встреча сборных команд Болгарии и СССР</a> (<a href="./docs/ussr_bulgaria_1968_article_omaps.jpg">статья в газете "ТРУД"</a>)',
         logo: 'ussr_bulgaria_1968.jpg'
     },
     USSR_V_1971: {
@@ -213,7 +213,7 @@ let starts = {
     USSR_1981: {
         major: true,
         short: 'I Чемпионат СССР',
-        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">Первый чемпионат СССР</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./docs/ussr_champ_1981_program.pdf">программа</a>, <a href="./docs/ussr_champ_1981_resolution.pdf">постановление</a>)',
+        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">Первый чемпионат СССР</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./docs/ussr_champ_1981_program_omaps.pdf">программа</a>, <a href="./docs/ussr_champ_1981_resolution_omaps.pdf">постановление</a>)',
         logo: 'ussr_1981.jpg'
     },
     LENINGRAD_30: {
