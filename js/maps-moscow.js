@@ -125,7 +125,7 @@ let moscowMaps = [
     {
         name: 'Лапшинка',
         year: 1989,
-        url: './maps/moscow/lapshinka_1989.webp',
+        url: './maps/moscow/lr/lapshinka_1989.webp',
         link: './original_maps/moscow/lr/lapshinka_1989_omaps.jpg',
         bounds: [[55.62935272389321, 37.313861846923835], [55.62833515107742, 37.3537302017212], [55.60218416107511, 37.31150150299073]],
         author: ['KRSVSKY_A','FMN_I'],
@@ -825,6 +825,16 @@ let moscowMaps = [
         bounds: [[55.87677940281839, 37.23159313201905], [55.87157898082079, 37.2982406616211], [55.84939714217351, 37.225499153137214]],
         author: 'NLTV_D',
         owner: 'NLTV_D',
+        types: [],
+    },
+    {
+        name: 'Опалиха, туристическая схема',
+        year: 1986,
+        excluded: true,
+        url: './maps/moscow/opaliha_25000_1986.webp',
+        link: './original_maps/moscow/opaliha_25000_1986_omaps.jpg',
+        bounds: [[55.84428943160727, 37.19266891479493], [55.83821712894382, 37.311630249023445], [55.79298239140481, 37.18623161315919]],
+        author: 'GNDRV',
         types: [],
     },
     {
@@ -2992,7 +3002,7 @@ let moscowMaps = [
     {
         name: 'Лефортовский парк',
         year: 2003,
-        url: './maps/moscow/lefortovsky_2003.webp',
+        url: './maps/moscow/lr/lefortovsky_2003.webp',
         link: './original_maps/moscow/lr/lefortovsky_2003_omaps.gif',
         bounds: [[55.769572801437626, 37.686645984649665], [55.76883649862789, 37.6977825164795], [55.7607000303225, 37.684886455535896]],
         author: 'ZUEV_A',
@@ -3002,7 +3012,7 @@ let moscowMaps = [
     {
         name: 'Лефортовский парк',
         year: 2015,
-        url: './maps/moscow/lefortovsky_2015.webp',
+        url: './maps/moscow/lr/lefortovsky_2015.webp',
         link: './original_maps/moscow/lr/lefortovsky_2015_omaps.jpg',
         bounds: [[55.769572801437626, 37.686645984649665], [55.76878821599053, 37.698168754577644], [55.760736249818855, 37.68507957458497]],
         author: 'DBRTSV_V',
@@ -5461,7 +5471,7 @@ let moscowMaps = [
     {
         name: 'Наро-Фоминск, Латышская',
         year: 2009,
-        url: './maps/moscow/latjishskaya_2009.webp',
+        url: './maps/moscow/lr/latjishskaya_2009.webp',
         link: './original_maps/moscow/lr/latjishskaya_2009_omaps.gif',
         bounds: [[55.37581872925556, 36.70476436614991], [55.371014766688134, 36.7509412765503], [55.35008512148678, 36.69643878936768]],
         author: 'FLVSKY_S',
