@@ -92,12 +92,13 @@ let vaskelovoMaps = [
         qtty: 100
     },
     {
-        name: 'Лемболово',
+        name: 'Лемболово, юг',
         year: 1995,
-        url: './maps/forest/vaskelovo/lembolovo_1995.webp',
-        link: './original_maps/forest/vaskelovo/lembolovo_1995_omaps.jpg',
-        bounds: [[60.44788471566771, 30.31612873077393], [60.442465641714136, 30.40054321289063], [60.41150032383842, 30.30565738677979]],
-        author: 'CHGRVSKY_V',
+        info: '29.05, Model.',
+        url: './maps/forest/vaskelovo/lembolovo_vwc_model_1995.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_vwc_model_1995_omaps.jpg',
+        bounds: [[60.40465517082461, 30.27913570404053], [60.40274759610977, 30.31359672546387], [60.37827833895728, 30.273342132568363]],
+        author: ['KRCHKN_V','DBRTSV_V'],
         start: 'VWC_1995',
         types: [],
     },

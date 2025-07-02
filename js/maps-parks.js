@@ -212,9 +212,10 @@ let parkMaps = [
         name: 'Удельный парк',
         year: 2004,
         url: './maps/parks/udelny_2004.webp',
-        link: './original_maps/parks/udelny_2004_omaps.jpg',
+        link: ['./original_maps/parks/udelny_2004_omaps.jpg','./original_maps/parks/udelny_2004_2_omaps.jpg'],
         bounds: [[60.01726356622507, 30.29643058776856], [60.01499016193073, 30.331192016601566], [60.00265529149791, 30.29239654541016]],
         author: 'DBRTSV_V',
+        qtty: 2,
         types: ['PARK'],
     },
     {
@@ -756,6 +757,7 @@ let parkMaps = [
         bounds: [[60.05668010805396, 30.267505645751957], [60.055994632288844, 30.296216011047367], [60.038424458619865, 30.26518821716309]],
         author: 'KUZNTSV_V',
         types: ['PARK'],
+        qtty: 2,
     },
     {
         name: 'Новоорловский лесопарк',
@@ -1186,6 +1188,7 @@ let parkMaps = [
         link: './original_maps/parks/shuvalovsky_2004_omaps.jpg',
         bounds: [[60.08877441342627, 30.29316902160645], [60.08644172418347, 30.32308101654053], [60.068395257960205, 30.28587341308594]],
         author: ['DBRTSV_V','DRBSHV'],
+        qtty: 2,
         types: ['PARK'],
     },
     {

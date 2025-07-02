@@ -16,7 +16,7 @@ let vsevolozhskMaps = [
         year: 1987,
         info: 'Первая карта А.М.Василевского.',
         url: './maps/forest/vsevolozhsk/vsevolozhsk_1987.webp',
-        link: './original_maps/forest/vsevolozhsk/vsevolozhsk_1987_omaps.jpg',
+        link: ['./original_maps/forest/vsevolozhsk/vsevolozhsk_1987_omaps.jpg','./original_maps/forest/vsevolozhsk/vsevolozhsk_1987_2_omaps.jpg'],
         bounds: [[60.06612537100185, 30.623531341552738], [60.06355549916492, 30.683269500732425], [60.03518795591195, 30.62052726745606]],
         author: ['VSLVSKY','MDVDKN'],
         types: [],
@@ -77,6 +77,7 @@ let vsevolozhskMaps = [
         link: './original_maps/forest/vsevolozhsk/golubaya_dacha_2005_omaps.jpg',
         bounds: [[59.96796429929518, 30.610613822937015], [59.965902303990916, 30.660524368286136], [59.947446028167285, 30.608124732971195]],
         author: ['RYLOV_V','DRBSHV'],
+        qtty: 2,
         types: [],
     },
     {

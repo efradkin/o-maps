@@ -89,7 +89,17 @@ let forestMaps = [
         types: [],
     },
     {
+        name: 'Цвелодубово',
+        year: 1980,
+        url: './maps/forest/tsvelodubovo_1980.webp',
+        link: './original_maps/forest/tsvelodubovo_1980_omaps.jpg',
+        bounds: [[60.39503137546792, 29.547643661499023], [60.39032443075989, 29.629783630371097], [60.352007507110805, 29.538974761962894]],
+        author: ['MLVA_M','KAZNTSVA_O'],
+        types: [],
+    },
+    {
         name: 'Цвелодубово, Щукино оз',
+        year: 1980,
         url: './maps/forest/tsvelodubovo_south.webp',
         link: './original_maps/forest/tsvelodubovo_south_omaps.jpg',
         bounds: [[60.37602980735656, 29.55107688903809], [60.37267793444899, 29.62626457214356], [60.3478039073735, 29.54455375671387]],

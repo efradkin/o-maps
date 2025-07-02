@@ -46,7 +46,7 @@ let sosnovoMaps = [
         name: 'пл 69км, запад',
         year: 1994,
         url: './maps/forest/sosnovo/69_km_west_1994.webp',
-        link: './original_maps/forest/sosnovo/69_km_west_1994_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/69_km_west_1994_omaps.jpg','./original_maps/forest/sosnovo/69_km_west_1994_2_omaps.jpg'],
         bounds: [[60.54103160709596, 30.186395645141605], [60.540229577809804, 30.236349105834964], [60.504624794985865, 30.1820182800293]],
         author: 'SHRNN',
         types: [],

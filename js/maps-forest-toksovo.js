@@ -13,7 +13,7 @@ let toksovoMaps = [
         types: [],
     },
     {
-        name: 'оз Хепоярви, юг',
+        name: 'Токсово, оз Хепоярви, гора Самурай',
         year: 1992,
         url: './maps/forest/toksovo/toksovo_hepojarvI_south_1992.webp',
         link: './original_maps/forest/toksovo/toksovo_hepojarvI_south_1992_omaps.jpg',
@@ -265,6 +265,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/oselki_hittolovo_1990_omaps.jpg',
         bounds: [[60.23030913266004, 30.48036575317383], [60.22562101414459, 30.542764663696293], [60.20464413035624, 30.472555160522464]],
         author: 'DRBSHV',
+        qtty: 2,
         types: [],
     },
     {
@@ -308,9 +309,10 @@ let toksovoMaps = [
         name: 'Кавголово',
         year: 1999,
         url: './maps/forest/toksovo/kavgolovo_1999.webp',
-        link: './original_maps/forest/toksovo/kavgolovo_1999_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/kavgolovo_1999_omaps.jpg','./original_maps/forest/toksovo/kavgolovo_2000_omaps.jpg'],
         bounds: [[60.17737972707715, 30.52212238311768], [60.17637661381631, 30.545682907104496], [60.161070001844394, 30.518131256103516]],
         author: ['SHRNN','BBNNA_I'],
+        qtty: 2,
         types: [],
     },
     {
@@ -320,6 +322,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/kavgolovo_2004_omaps.jpg',
         bounds: [[60.17716630128953, 30.522723197937015], [60.17676078847216, 30.545425415039066], [60.16224440174397, 30.519418716430668]],
         author: 'VSLVSKY',
+        qtty: 2,
         types: [],
     },
     {
@@ -338,6 +341,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/orlinaya_gora_2004_omaps.jpg',
         bounds: [[60.19611310540228, 30.531392097473145], [60.19353203338676, 30.559887886047367], [60.177230329171444, 30.52598476409912]],
         author: ['BRDR','VSLVSKY'],
+        qtty: 2,
         types: [],
     },
     {
@@ -464,8 +468,9 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/toksovo_svetloe_oz_2003.webp',
         link: './original_maps/forest/toksovo/toksovo_svetloe_oz_2003_omaps.jpg',
         bounds: [[60.15786687972026, 30.457835197448734], [60.1551546589464, 30.49585819244385], [60.14278665886592, 30.453543663024906]],
-        types: [],
         author: 'CHGRVSKY_M',
+        qtty: 2,
+        types: [],
     },
     {
         name: 'Токсово, оз Светлое',

@@ -179,6 +179,7 @@ let zelikMaps = [
         link: './original_maps/forest/zelik/ilychevo_1991_omaps.jpg',
         bounds: [[60.27285508361015, 29.768657684326175], [60.271322856205195, 29.817838668823246], [60.24628631594441, 29.7645378112793]],
         author: 'HSMTLN',
+        qtty: 2,
         types: [],
     },
     {
@@ -294,6 +295,7 @@ let zelikMaps = [
         link: ['./original_maps/forest/zelik/komarovo_repino_2008_omaps.gif','./original_maps/forest/zelik/komarovo_repino_2008_omaps.ocd'],
         bounds: [[60.208738234557096, 29.818310737609867], [60.206414040182864, 29.866847991943363], [60.19133476256005, 29.81449127197266]],
         author: 'FDRV_L',
+        qtty: 2,
         types: [],
     },
     {

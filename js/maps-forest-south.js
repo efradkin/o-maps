@@ -350,7 +350,7 @@ let southMaps = [
         name: 'Шапки',
         year: 1991,
         url: './maps/forest/south/shapki_1991.webp',
-        link: ['./original_maps/forest/south/shapki_1991_full_1.jpg','./original_maps/forest/south/shapki_1991_full_2.jpg'],
+        link: ['./original_maps/forest/south/shapki_1991_full_1.jpg','./original_maps/forest/south/shapki_1991_full_2.jpg','./original_maps/forest/south/shapki_1991_full_3.jpg'],
         bounds: [[59.63005202750804, 31.123924255371097], [59.62501790078504, 31.19928359985352], [59.59562263666977, 31.11611366271973]],
         author: 'KRCHKN_V',
         types: [],
