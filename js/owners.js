@@ -232,6 +232,9 @@ let owners = {
     ALNKV_A: {
         name: '@ <a href="https://t.me/platforma88km">Алейников Алексей</a>'
     },
+    BKLV_F: {
+        name: '@ Бакулов Фёдор'
+    },
     DBNA: {
         name: '@ <a href="https://odmitrov2007.narod.ru/index_map_Dubna.htm">Спортивное ориентирование в Дмитрове и в Дубне</a>',
         logo: 'dubna.jpg'
