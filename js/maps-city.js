@@ -1777,12 +1777,21 @@ let cityMaps = [
     },
     {
         name: 'Университет физкультуры и спорта им.Лесгафта',
+        year: 2002,
+        url: './maps/city/lesgafta_2002.webp',
+        link: './original_maps/city/lesgafta_2002_omaps.jpg',
+        bounds: [[59.92762470874761, 30.28458595275879], [59.92896871916807, 30.290057659149173], [59.92459242125602, 30.28743982315064]],
+        author: 'SHEIN',
+        types: ['CITY'],
+    },
+    {
+        name: 'Университет физкультуры и спорта им.Лесгафта',
         year: 2025,
         url: './maps/city/lesgafta_2025.webp',
         link: './original_maps/city/lesgafta_2025_omaps.jpg',
         bounds: [[59.92858164974948, 30.28767585754395], [59.928130063053224, 30.29190301895142], [59.925560202692616, 30.286474227905277]],
         author: ['SHRNN','LMVA'],
-        owner: 'SHRNN',
+        owner: ['LMVA','SHRNN'],
         types: ['CITY'],
     },
     {

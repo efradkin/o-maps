@@ -110,6 +110,9 @@ let owners = {
         logo: 'lm.jpg',
         rogaine: true
     },
+    LMVA: {
+        name: '© Ирина Александровна Ломова'
+    },
     MLV_AL: {
         name: '© Малов Алексей, leshamalov@yandex.ru'
     },
