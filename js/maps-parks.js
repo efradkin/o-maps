@@ -977,6 +977,15 @@ let parkMaps = [
     },
     {
         name: 'Охтинский (Ржевский) лесопарк',
+        year: 1981,
+        url: './maps/parks/rzhevsky_1981.webp',
+        link: './original_maps/parks/rzhevsky_1981_omaps.jpg',
+        bounds: [[59.97378444761395, 30.494699478149418], [59.97056308969253, 30.545983314514164], [59.954064827230084, 30.48989295959473]],
+        author: 'OSMCHN',
+        types: ['PARK'],
+    },
+    {
+        name: 'Охтинский (Ржевский) лесопарк',
         year: 1990,
         url: './maps/parks/rzhevsky_1990.webp',
         link: './original_maps/parks/rzhevsky_1990_omaps.jpg',

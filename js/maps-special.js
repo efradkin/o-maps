@@ -2,15 +2,14 @@
 let specialMaps = [
     // --- зимние ---
     {
-        name: 'Токсово, запад Хепоярви',
+        name: 'Снегирёвка',
         year: 1989,
-        url: './maps/winter/toksovo_hepojarvi_west_winter_1987.webp',
-        link: './original_maps/winter/toksovo_hepojarvi_west_winter_1987_omaps.jpg',
-        bounds: [[60.1977555000936, 30.534782409667972], [60.19380934837714, 30.595421791076664], [60.14077828897377, 30.51886081695557]],
-        author: ['CHGRVSKY_V','BRNVA','KRPLSN','SMNA','CHKVSKY_N','DBRTSV_V','GRSMVA','BSTRV_A','PTRNNA','KRNLJV','CHGRVSKY_Y'],
-        areas: [40,4,3,3,4,10,4,4,4,4,20],
+        logo: 'wn_retro.webp',
+        url: './maps/winter/snegirevka_winter_1989.webp',
+        link: './original_maps/winter/snegirevka_winter_1989_omaps.jpg',
+        bounds: [[60.558629034771705, 30.239353179931644], [60.552890877584524, 30.31514167785645], [60.52887239866379, 30.22948265075684]],
+        author: ['MLVA_M','KAZNTSVA_O'],
         types: ['WINTER'],
-        qtty: 50
     },
     {
         name: 'Токсово',

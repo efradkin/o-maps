@@ -27,6 +27,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_1981.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_1981_omaps.jpg',
         bounds: [[60.48676543918927, 30.285015106201175], [60.485602654889966, 30.317244529724125], [60.469171229153325, 30.281968116760254]],
+        author: 'TRSV',
         types: [],
     },
     {
@@ -75,6 +76,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_figurnoe_1981.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_1981_omaps.jpg',
         bounds: [[60.45903754208121, 30.264501571655277], [60.46927699208639, 30.28964996337891], [60.43986162453595, 30.294027328491214]],
+        author: 'TRSV',
         types: [],
     },
     {
@@ -346,9 +348,18 @@ let vaskelovoMaps = [
     },
     {
         name: 'Орехово, Ракитинское оз',
+        year: 1,
+        url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_old.webp',
+        link: './original_maps/forest/vaskelovo/orekhovo_rakitinskoe_old_omaps.jpg',
+        bounds: [[60.46733089894834, 30.299777984619144], [60.469657735791834, 30.379858016967777], [60.43994631130429, 30.302438735961918]],
+        author: ['BYMKV','KRVCHNKO_V','SMRNV_A','RMNTSV_S'],
+        types: [],
+    },
+    {
+        name: 'Орехово, Ракитинское оз',
         year: 1995,
         url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_1995.webp',
-        link: './original_maps/forest/vaskelovo/orekhovo_rakitinskoe_1995.pdf',
+        link: './original_maps/forest/vaskelovo/orekhovo_rakitinskoe_1995_omaps.pdf',
         bounds: [[60.47086339472666, 30.299048423767093], [60.465596239324626, 30.384879112243656], [60.44186229045466, 30.290164947509766]],
         author: ['BYMKV','KUZNTSV_S'],
         types: [],

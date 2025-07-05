@@ -186,6 +186,7 @@ let authors = {
         name: 'Кириченко Сергей',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    KRVCHNKO_V: { name: 'Кравченко В.' },
     KRYLS: { name: 'Саулюс Кирейлис' },
     KRNLJV: { name: 'Корнильев П.' },
     KRPLSN: { name: 'Карпельсон Александр' },

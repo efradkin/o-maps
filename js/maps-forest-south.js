@@ -388,7 +388,7 @@ let southMaps = [
         name: 'Луга, Зелёное оз',
         year: 1985,
         url: './maps/forest/south/luga_zelenoe_1985.webp',
-        link: './original_maps/forest/south/luga_zelenoe_1985_omaps.jpg',
+        link: ['./original_maps/forest/south/luga_zelenoe_1985_omaps.jpg',,'./original_maps/forest/south/shalovo_1980_omaps.jpg'],
         bounds: [[58.815652798287154, 29.898004531860355], [58.808319001138535, 29.942464828491214], [58.7674435939664, 29.87019538879395]],
         author: 'BYMKV',
         types: [],

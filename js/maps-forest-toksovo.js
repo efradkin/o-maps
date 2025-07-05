@@ -307,6 +307,15 @@ let toksovoMaps = [
     },
     {
         name: 'Кавголово',
+        year: 1981,
+        url: './maps/forest/toksovo/kavgolovo_1981.webp',
+        link: './original_maps/forest/toksovo/kavgolovo_1981_omaps.jpg',
+        bounds: [[60.18979871890575, 30.54031848907471], [60.18587294745061, 30.559630393981937], [60.164379566772716, 30.51860332489014]],
+        author: 'VLKV_K',
+        types: [],
+    },
+    {
+        name: 'Кавголово',
         year: 1999,
         url: './maps/forest/toksovo/kavgolovo_1999.webp',
         link: ['./original_maps/forest/toksovo/kavgolovo_1999_omaps.jpg','./original_maps/forest/toksovo/kavgolovo_2000_omaps.jpg'],
