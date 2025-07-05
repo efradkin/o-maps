@@ -162,7 +162,7 @@ let funMaps = [
         year: 2025,
         start: 'VO_FOTO',
         url: './maps/fun/vasileostrovets_foto_2025_04.webp',
-        link: ['./original_maps/fun/vasileostrovets_foto_2025_04_1_omaps.jpg','./original_maps/fun/vasileostrovets_foto_2025_04_2_omaps.jpg'],
+        link: ['./original_maps/fun/vasileostrovets_foto_2025_04_1_omaps.jpg','./original_maps/fun/vasileostrovets_foto_2025_04_2_omaps.jpg','./original_maps/fun/vasileostrovets_foto_2025_05_omaps.jpg'],
         bounds: [[59.93584919950214, 30.254073143005375], [59.93639742638281, 30.255875587463382], [59.932032859336466, 30.258407592773438]],
         owner: 'RYZHOV',
         types: ['FOTO'],
