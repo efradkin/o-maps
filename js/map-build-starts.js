@@ -117,6 +117,7 @@ if (mapElement) {
             case 'RFAR': activeLayers.push(osmLayer, rfarGroup); break;
             case '100X24': activeLayers.push(osmLayer, sto24Group); break;
             case 'ST': activeLayers.push(osmLayer, stGroup); break;
+            case 'VO_FOTO': activeLayers.push(osmLayer, kkmGroup); break;
             case 'KKM': activeLayers.push(osmLayer, kkmGroup); break;
             case 'MB': activeLayers.push(osmLayer, mbGroup); break;
             case 'TA':
@@ -195,6 +196,7 @@ function pushStartGroupToMap(start, m) {
         case 'RFAR': pushGroupToMap(m, rfarGroup); break;
         case '100X24': pushGroupToMap(m, sto24Group); break;
         case 'ST': pushGroupToMap(m, stGroup); break;
+        case 'VO_FOTO': pushGroupToMap(m, kkmGroup); break;
         case 'KKM': pushGroupToMap(m, kkmGroup); break;
         case 'MB': pushGroupToMap(m, mbGroup); break;
         case 'TA':

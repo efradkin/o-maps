@@ -480,4 +480,17 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Ново-Кавголовский л/п',
+        year: 2025,
+        month: 7,
+        info: 'Июль, фото-рогейн.',
+        url: './maps/rogaine/kkm/toksovo_KKM_2025_07.webp',
+        link: ['./original_maps/rogaine/kkm/toksovo_KKM_2025_07_omaps.jpg','./original_maps/rogaine/kkm/toksovo_KKM_2025_07_pictures.jpg'],
+        bounds: [[60.164443619580254, 30.386209487915043], [60.158037720780655, 30.481309890747074], [60.13146126749531, 30.378141403198246]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23000/',
+        start: 'VO_FOTO',
+        owner: 'RYZHOV',
+        types: ['ROGAINE'],
+    },
 ];
