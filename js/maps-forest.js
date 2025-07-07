@@ -693,6 +693,7 @@ let forestMaps = [
     {
         name: 'Осиновая Роща - Сертолово',
         year: 1993,
+        logo: 'wn_retro.webp',
         url: './maps/forest/osinovaja_roscha_1993.webp',
         link: './original_maps/forest/osinovaja_roscha_1993_omaps.jpg',
         bounds: [[60.13872706122912, 30.22493362426758], [60.136077369404795, 30.27042388916016], [60.10772941530803, 30.21746635437012]],
