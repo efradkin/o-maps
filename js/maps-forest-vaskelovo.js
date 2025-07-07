@@ -411,6 +411,7 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_omaps.jpg',
         bounds: [[60.504476888067344, 30.289220809936527], [60.49853892434387, 30.352993011474613], [60.47278812581316, 30.27862071990967]],
         author: ['VSLVSKY','DRBSHV','SHRNN'],
+        qtty: 3,
         types: [],
     },
     {
@@ -437,6 +438,16 @@ let vaskelovoMaps = [
         types: [],
     },
     {
+        name: 'Лемболово',
+        year: 2002,
+        logo: 'na.jpg',
+        url: './maps/forest/vaskelovo/lembolovo_2002.webp',
+        link: ['./original_maps/forest/vaskelovo/lembolovo_2002_omaps.jpg','./original_maps/forest/vaskelovo/lembolovo_2002_2_omaps.jpg'],
+        bounds: [[60.44807521353942, 30.28458595275879], [60.44282553011336, 30.369215011596683], [60.39774498025911, 30.271539688110355]],
+        author: ['CHGRVSKY_Y','DBRTSV_V','ILVS','FDRV_L','DRBSHV'],
+        types: [],
+    },
+    {
         name: 'Орехово-Лемболово',
         year: 2000,
         url: './maps/forest/vaskelovo/orekhovo-lembolovo_2000.webp',
@@ -450,7 +461,7 @@ let vaskelovoMaps = [
         year: 2004,
         start: 'NA',
         url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_2004.webp',
-        link: './original_maps/forest/vaskelovo/orekhovo_rakitinskoe_2004_omaps.jpg',
+        link: ['./original_maps/forest/vaskelovo/orekhovo_rakitinskoe_2004_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_2005_omaps.jpg'],
         bounds: [[60.47519916632469, 30.26939392089844], [60.46606164490792, 30.36827087402344], [60.44443439421304, 30.264072418212894]],
         author: ['VSLVSKY','BRDR','DRBSHV'],
         types: [],

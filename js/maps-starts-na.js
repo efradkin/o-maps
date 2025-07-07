@@ -40,7 +40,7 @@ let naStartsMaps = [
         start: 'NA',
         year: 2001,
         url: './maps/starts/na/na_2001_losevo_3.webp',
-        link: './original_maps/starts/na/na_2001_losevo_3_omaps.jpg',
+        link: ['./original_maps/starts/na/na_2001_losevo_3_omaps.jpg','./original_maps/starts/na/na_2000_losevo_3_omaps.jpg'],
         bounds: [[60.69515749014434, 29.892253875732422], [60.691502381234336, 29.95628356933594], [60.67174920579566, 29.88839149475098]],
         author: ['RYLOV_V','VSLVSKY','BRDR','FDRV_L','FDRV_A','SHKLV'],
         types: [],
