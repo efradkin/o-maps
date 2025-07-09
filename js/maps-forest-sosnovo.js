@@ -525,7 +525,7 @@ let sosnovoMaps = [
         name: 'Лосево',
         year: 2005,
         url: './maps/forest/sosnovo/losevo_2005.webp',
-        link: ['./original_maps/forest/sosnovo/losevo_2005_omaps.gif','./original_maps/forest/sosnovo/losevo_1_2000_omaps.jpg','./original_maps/starts/na/na_2000_losevo_3_omaps.jpg'],
+        link: ['./original_maps/forest/sosnovo/losevo_2005_omaps.gif','./original_maps/forest/sosnovo/losevo_1_2000_omaps.jpg','./original_maps/starts/na/na_2000_losevo_3_omaps.jpg','./original_maps/forest/sosnovo/losevo_2005_omaps.ocd','./original_maps/forest/sosnovo/losevo_2005_10000_omaps.ocd'],
         bounds: [[60.695241510752176, 29.892425537109375], [60.68944357380662, 30.01078605651856], [60.67120266901343, 29.88813400268555]],
         author: ['RYLOV_V','VSLVSKY','BRDR','FDRV_A','FDRV_L','SHKLV'],
         types: [],
