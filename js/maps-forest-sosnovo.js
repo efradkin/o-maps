@@ -539,4 +539,13 @@ let sosnovoMaps = [
         owner: 'ILVS',
         types: [],
     },
+    {
+        name: 'Лосево',
+        year: 2018,
+        url: './maps/forest/sosnovo/losevo_2018.webp',
+        link: ['./original_maps/forest/sosnovo/losevo_2018_omaps.gif','./original_maps/forest/sosnovo/losevo_west_2018_omaps.gif','./original_maps/forest/sosnovo/losevo_2014_omaps.gif','./original_maps/forest/sosnovo/losevo_2018_omaps.ocd','./original_maps/forest/sosnovo/losevo_west_2018_omaps.ocd','./original_maps/forest/sosnovo/losevo_2014_omaps.ocd'],
+        bounds: [[60.6833714253735, 29.92759466171265], [60.68118601193357, 29.974951744079593], [60.6703197823018, 29.925019741058353]],
+        author: ['VSLVSKY','DRBSHV'],
+        types: [],
+    },
 ];
