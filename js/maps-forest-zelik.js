@@ -745,9 +745,11 @@ let zelikMaps = [
         name: 'Сестрорецк, Таможенная дорога',
         year: 2012,
         url: './maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012.webp',
+        link: './original_maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012_omaps.gif',
         bounds: [[60.14058599180651, 29.95044708251953], [60.13898347169249, 29.967741966247562], [60.12789189290783, 29.946713447570804]],
         author: 'SHRNN',
         types: [],
+        zindex: 2
     },
     {
         name: 'Сестрорецк, Ласковый пляж',

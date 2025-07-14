@@ -268,6 +268,17 @@ let specialMaps = [
         owner: 'RYLOV_V',
         types: ['VELO'],
     },
+    {
+        name: 'Сестрорецк, Таможенная дорога',
+        year: 2021,
+        url: './maps/velo/sestroretsk_tamozhennaya_doroga_velo_2021.webp',
+        link: './original_maps/velo/sestroretsk_tamozhennaya_doroga_velo_2021_omaps.jpg',
+        bounds: [[60.13809671034381, 29.950232505798343], [60.13726334656544, 29.962935447692875], [60.12847969080049, 29.947400093078617]],
+        author: ['SHRNN','KUZNTSV_R'],
+        types: ['VELO'],
+        qtty: 10
+    },
+
     // --- гидро-рельефные ---
     {
         name: 'Токсово, Оригон-1',
