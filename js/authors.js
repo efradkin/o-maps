@@ -1,4 +1,6 @@
 let authors = {
+    AKSNV: { name: 'Аксёнов Игорь' },
+    AKSNVA: { name: 'Аксёнова Алёна' },
     ALNKVA: { name: 'Алейникова Екатерина' },
     ANDRV_E: { name: 'Андреев Е.' },
     ANSFRV: { name: 'Анисифоров К.' },
@@ -142,6 +144,7 @@ let authors = {
     GVRLK: { name: 'Гаврилюк Александр' },
     GYKVCH: { name: 'Гайкович А.' },
     HSMTLN: { name: 'Хисматуллин Дамир' },
+    IBRGMV: { name: 'Ибрагимов Д.' },
     ILVS: {
         name: 'Ильвес Константин',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -292,6 +295,7 @@ let authors = {
     },
     SBLV: { name: 'Сибилев Сергей' },
     SCHV: { name: 'Сычёв Владимир' },
+    SHLKHN_AN: { name: 'Шелёхин Анатолий' },
     SHLKHN_Y: {
         name: 'Шелёхин Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/yushel.html'
