@@ -437,4 +437,15 @@ let rogaineMaps = [
         owner: 'RYLOV_V',
         types: ['ROGAINE'],
     },
+    {
+        name: 'Юкки',
+        year: 2025,
+        url: './maps/rogaine/yukki_2025.webp',
+        link: './original_maps/rogaine/yukki_2025_omaps.jpg',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23127/',
+        bounds: [[60.14928097298427, 30.269308090209964], [60.14904600371844, 30.336470603942875], [60.1100392117335, 30.2687931060791]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        types: ['ROGAINE'],
+    },
 ];
