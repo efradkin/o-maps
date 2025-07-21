@@ -136,6 +136,17 @@ let vaskelovoMaps = [
         qtty: 2
     },
     {
+        name: 'оз Силанде',
+        year: 2025,
+        url: './maps/forest/vaskelovo/silande_2025.webp',
+        link: './original_maps/forest/vaskelovo/silande_2025_omaps.jpg',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23126/',
+        bounds: [[60.40421008005895, 30.233602523803714], [60.40211171302363, 30.262098312377933], [60.38440798114749, 30.22746562957764]],
+        author: ['RDNV_B','RDNV_I','DBRTSV_V'],
+        owner:  ['RDNV_B','RDNV_I'],
+        types: [],
+    },
+    {
         name: 'Лемболовское',
         year: 1991,
         logo: 'nevsky_azimut.jpg',
