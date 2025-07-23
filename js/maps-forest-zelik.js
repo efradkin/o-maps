@@ -477,7 +477,7 @@ let zelikMaps = [
     {
         name: 'Болотная станция',
         year: 2025,
-        url: './maps/city/zelenogorsk_2025.png',
+        url: './maps/forest/zelik/bolotnaya_station_2025.png',
         bounds: [[60.258934716804156, 29.787454605102543], [60.26515065811729, 29.79998588562012], [60.24475284442206, 29.82444763183594]],
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB',
