@@ -2,6 +2,15 @@ let otherMaps = [
     // --- Карелия ---
     {
         name: 'Сортавала, оз Хелмиярви',
+        year: 1992,
+        url: './maps/other/sortavala_helmijarvi_1992.webp',
+        link: './original_maps/other/sortavala_helmijarvi_1992_omaps.jpg',
+        bounds: [[61.770991561763616, 30.659880638122562], [61.76479979707796, 30.743308067321777], [61.7504829150452, 30.65194129943848]],
+        author: ['KHDNKCH','SCHV','NSNV'],
+        types: [],
+    },
+    {
+        name: 'Сортавала, оз Хелмиярви',
         year: 2024,
         url: './maps/other/sortavala_helmijarvi_2024.webp',
         link: './original_maps/other/sortavala_helmijarvi_2024_omaps.gif',
