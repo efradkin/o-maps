@@ -242,6 +242,12 @@ if (mapElement) {
         layerControl = L.control.layers(
             baseMaps, overlayMapsContents,
             {collapsed: layerControlCollapsed, autoZIndex: false}).addTo(map);
+        if (typeof funsRequired === 'undefined') {
+            let checkbox = document.getElementById("funs-group-check");
+            if (checkbox) {
+                checkbox.closest('label').style.display = 'none';
+            }
+        }
         if (typeof tracks === 'undefined') {
             let checkbox = document.getElementById("tracks-group-check");
             if (checkbox) {

@@ -126,7 +126,7 @@ function buildOverlayMapsContents() {
         "90-е": group90th,
         "Ретро": groupRetro,
         "???": groupUnknownYear,
-        "<span class='layer-separator'>Необычные</span>": funGroup,
+        "<span class='layer-separator' id='funs-group-check'>Необычные</span>": funGroup,
         "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
         "<span class='layer-separator' id='tracks-group-check'>Маршруты</span>": tracksGroup,
     };
