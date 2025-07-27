@@ -65,6 +65,42 @@ if (!ONLY_MAP_NAME_PARAM) {
     }
 }
 
+if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
+    for (const t of tracks) {
+        let gpx = new L.GPX(t.gpx, {
+            async: false,
+            display_wpt:false,
+            color: 'red',
+            weight: 5
+        });
+        var popup_text = buildTrackText(t, gpx);
+        gpx.bindPopup(popup_text, {maxWidth: 500});
+        gpx.addTo(tracksGroup);
+    }
+}
+
+function buildTrackText(t, gpx) {
+
+    let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
+    result += '<div class="popup-header popup-right-header">ROUTE</div>';
+
+    // картинка
+    result += '<img src="./tracks/' + t.pics[0] + '/pic_1.jpg" alt="" class="popup-logo" /><div class="popup-text"';
+
+    // имя, ссылка и длина
+    let len = gpx._humanLen(gpx.len);
+    result += '<b><a href="' + t.link + '">' + t.name + '</a> (' + len + ')</b>';
+    result += '<a href="' + t.gpx + '" target="_self" title="Скачать GPX-трек"> <img src="images/download_24.png" style="width:12px" /></a>'
+    result += '<hr />';
+
+    // инфа о маршруте
+    result += t.info;
+
+    result += '</div>';
+
+    return result;
+}
+
 let searchBox;
 if (mapElement) {
 
@@ -206,6 +242,12 @@ if (mapElement) {
         layerControl = L.control.layers(
             baseMaps, overlayMapsContents,
             {collapsed: layerControlCollapsed, autoZIndex: false}).addTo(map);
+        if (typeof tracks === 'undefined') {
+            let checkbox = document.getElementById("tracks-group-check");
+            if (checkbox) {
+                checkbox.closest('label').style.display = 'none';
+            }
+        }
     }
 
     // --- search control ---

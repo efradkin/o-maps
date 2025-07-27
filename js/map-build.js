@@ -30,6 +30,8 @@ const SHOW_ALL_LABEL = 'Показать все ориенты';
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
+let tracksGroup = L.layerGroup([]);
+
 let funGroup = L.layerGroup([]);
 let specialGroup = L.layerGroup([]);
 let forestGroup = L.layerGroup([]);
@@ -126,6 +128,7 @@ function buildOverlayMapsContents() {
         "???": groupUnknownYear,
         "<span class='layer-separator'>Необычные</span>": funGroup,
         "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
+        "<span class='layer-separator' id='tracks-group-check'>Маршруты</span>": tracksGroup,
     };
 }
 
