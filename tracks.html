@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/slideshow.css"/>
 
     <meta property="og:title" content="o-Maps: Маршруты">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
@@ -73,12 +74,27 @@
         </table>
     </div>
 
+    <!-- Модальное окно -->
+    <div id="slideshow-modal" class="modal">
+        <span class="close">&times;</span>
+
+        <div class="modal-content">
+            <!-- Слайды будут добавляться здесь -->
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
     <script src="js/ext/jquery.slim.min.js"></script>
 
     <script src="js/utils.js"></script>
     <script src="js/tracks.js"></script>
 
     <script>
+        // Массив с адресами картинок
+        const images = [];
+        var picCounter = 0;
 
         window.onload = function() {
 
@@ -142,10 +158,13 @@
         function buildFotos(t) {
             let result = '';
             for (let p = 1; p <= t.pics[1]; p++) {
-                result += '<a href="tracks/' + t.pics[0] + '/pic_' + p + '.jpg"><img src="tracks/' + t.pics[0] + '/pic_' + p + '.jpg" class="track-table-pic" /></a>';
+                let url = 'tracks/' + t.pics[0] + '/pic_' + p + '.jpg';
+                result += '<a href="#" onClick="openModal(' + picCounter++ + '); return false;"><img src="' + url + '" class="track-table-pic" /></a>';
+                images.push(url);
             }
             return result;
         }
     </script>
+    <script src="js/slideshow.js"></script>
 </body>
 </html>
