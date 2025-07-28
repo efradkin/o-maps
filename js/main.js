@@ -88,8 +88,12 @@ function buildTrackText(t, gpx) {
     result += '<img src="./tracks/' + t.pics[0] + '/pic_1.jpg" alt="" class="popup-logo" /><div class="popup-text"';
 
     // имя, ссылка и длина
+    result += '<b><a href="' + t.link + '">' + t.name + '</a>';
     let len = gpx._humanLen(gpx.len);
-    result += '<b><a href="' + t.link + '">' + t.name + '</a> (' + len + ')</b>';
+    if (len > 0) {
+        result += ' (' + len + ')';
+    }
+    result += '</b>';
     result += '<a href="' + t.gpx + '" target="_self" title="Скачать GPX-трек"> <img src="images/download_24.png" style="width:12px" /></a>'
     result += '<hr />';
 
