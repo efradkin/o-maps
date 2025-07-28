@@ -1,0 +1,151 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>o-Maps: Маршруты</title>
+    <meta name="description" content="Маршруты СПб и Лен.области">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <meta property="og:title" content="o-Maps: Маршруты">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Маршруты СПб и Лен.области">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <base target="_blank">
+</head>
+<body class="stat-body sheet-body">
+    <h1>
+        <a href="./index.html" target="_self">O-maps ◪</a>
+        <a href="spb.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+
+        <select id="charts_region_selector" onchange="selectMapRegion(this.value, 'sheet')">
+            <option value="index">Начальная страница</option>
+            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+            <option value="spb">Санкт-Петербург</option>
+            <option value="msk">Москва</option>
+            <option value="srb">Белград</option>
+            <option value="all">Все регионы вместе</option>
+            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+            <option value="docs">Исторические документы</option>
+            <option value="tracks" selected>Маршруты</option>
+        </select>
+    </h1>
+
+    <div class="o-sheet-roof">
+        <a href="#" onclick="downloadSheetTable('o-maps-tracks.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+    </div>
+    <div class="o-sheet-wrapper">
+        <table class="o-main-table o-sheet">
+            <thead>
+            <tr>
+                <th>&nbsp</th>
+                <th>Название</th>
+                <th>Инфо</th>
+                <th>GPX</th>
+                <th>Ссылки</th>
+                <th>Фотки</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="js/ext/jquery.slim.min.js"></script>
+
+    <script src="js/utils.js"></script>
+    <script src="js/tracks.js"></script>
+
+    <script>
+
+        window.onload = function() {
+
+            tracks.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+
+            // Изначальный рендеринг таблицы
+            renderTracksTable();
+        }
+
+        // Ссылка на тело таблицы
+        const tbody = document.querySelector('.o-main-table tbody');
+
+        // строит табличку с инфой об авторах-составителях
+        function renderTracksTable() {
+            tbody.innerHTML = '';
+
+            for (let i = 0; i < tracks.length; i++) {
+                let t = tracks[i];
+                const row = document.createElement('tr');
+                td(t, row, i + 1);
+                td(t, row, buildName(t));
+                td(t, row, buildInfo(t));
+                td(t, row, buildGPX(t));
+                td(t, row, buildLinks(t));
+                td(t, row, buildFotos(t));
+                tbody.appendChild(row);
+            }
+            document.body.style.cursor = 'default';
+        }
+
+        function td(m, row, html) {
+            const td = document.createElement('td');
+            td.innerHTML = html;
+            row.appendChild(td);
+        }
+
+        function buildName(t) {
+            let result = '';
+            result += '<b>' + t.name + '</b>';
+            return result;
+        }
+
+        function buildInfo(m) {
+            let result = '';
+            result += m.info;
+            return result;
+        }
+
+        function buildGPX(t) {
+            let result = '';
+            result += '<a href="' + t.gpx + '" class="ext-link"><img src="./images/gpx-file-format-symbol-24.png" style="width:20px" /></a>';
+            return result;
+        }
+
+        function buildLinks(t) {
+            let result = '';
+            result += '<a href="' + t.link + '" title="' + t.name + '" class="ext-link"><img src="./images/url-file.png" /></a>';
+            return result;
+        }
+
+        function buildFotos(t) {
+            let result = '';
+            for (let p = 1; p <= t.pics[1]; p++) {
+                result += '<a href="tracks/' + t.pics[0] + '/pic_' + p + '.jpg"><img src="tracks/' + t.pics[0] + '/pic_' + p + '.jpg" class="track-table-pic" /></a>';
+            }
+            return result;
+        }
+    </script>
+</body>
+</html>

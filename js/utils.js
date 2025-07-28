@@ -299,6 +299,7 @@ function selectMapRegion(region, prefix) {
         case 'all':location.href = './' + prefix + 'all.html'; break;
         case 'starts':location.href = './starts.html'; break;
         case 'docs':location.href = './documents.html'; break;
+        case 'tracks':location.href = './tracks.html'; break;
     }
 }
 

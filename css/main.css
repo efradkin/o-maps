@@ -460,6 +460,12 @@ label:has(> span span .layer-separator) {
     max-height: 194px;
 }
 
+/* --- TRACKS --- */
+.track-table-pic {
+    height: 50px;
+    margin: 3px;
+}
+
 /* --- integration --- */
 body.integration-body {
     background-color: #bddab1;
