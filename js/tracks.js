@@ -25,7 +25,7 @@ let tracks = [
         info: 'Пеший круговой экологический маршрут. Есть <a href="spb.html?onlymap=sestroretsky_swamp_2024">фото-квест</a>. Вообще, очень приятное место. Но если рассудок и жизнь дороги вам, держитесь подальше от торфяных болот...',
         link: 'https://oopt.spb.ru/protected_area/sestroretzkoye-boloto/',
         gpx: 'tracks/sestrorezkoe_boloto.gpx',
-        pics: ['sestrorezkoe_boloto',8]
+        pics: ['sestrorezk',8]
     },
     {
         name: 'Колтушские высоты, Камовые холмы',

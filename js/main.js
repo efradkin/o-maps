@@ -870,12 +870,12 @@ function buildPopupText(m, latLngs) {
         <div id="logo-carousel" class="carousel carousel-dark slide">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./logo/image_1" class="d-block">
+                    <img src="./image_1" class="d-block popup-logo">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./logo/image_2" class="d-block">
+                    <img src="./image_2" class="d-block popup-logo">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
@@ -897,13 +897,19 @@ function buildPopupText(m, latLngs) {
 
     // иконка
     let logo = mapLogoList(m);
+    logo.forEach((value, idx, arr) => {
+        arr[idx] = 'logo/' + arr[idx];
+    });
+    if (m.photo) {
+        logo.push(m.photo);
+    }
     if (logo) {
         if (logo.length >= 2) {
             let carousel = LOGO_CAROUSEL_TEMPLATE.replace('image_1', logo[0]);
             carousel = carousel.replace('image_2', logo[1]);
             result += carousel + '<div class="popup-text"<div class="popup-text"';
         } else if (logo.length === 1) {
-            result += '<img src="./logo/' + logo[0] + '" alt="" class="popup-logo" /><div class="popup-text"';
+            result += '<img src="./' + logo[0] + '" alt="" class="popup-logo" /><div class="popup-text"';
         }
     }
 
