@@ -85,10 +85,13 @@ function buildTrackText(t, gpx) {
     result += '<div class="popup-header popup-right-header">ROUTE</div>';
 
     // картинка
+    let pic;
     if (t.pics) {
-        result += '<img src="./tracks/' + t.pics[0] + '/pic_1.jpg" alt="" class="popup-logo" />';
+        pic = './tracks/' + t.pics[0] + '/pic_1.jpg';
+    } else {
+        pic = './logo/o-maps.webp';
     }
-    result += '<div class="popup-text"';
+    result += '<img src="' + pic + '" alt="" class="popup-logo" /><div class="popup-text"';
 
     // имя, ссылка и длина
     result += '<b><a href="' + t.link + '">' + t.name + '</a>';
@@ -906,14 +909,15 @@ function buildPopupText(m, latLngs) {
     if (m.photo) {
         logo.push(m.photo);
     }
-    if (logo) {
-        if (logo.length >= 2) {
-            let carousel = LOGO_CAROUSEL_TEMPLATE.replace('image_1', logo[0]);
-            carousel = carousel.replace('image_2', logo[1]);
-            result += carousel + '<div class="popup-text"<div class="popup-text"';
-        } else if (logo.length === 1) {
-            result += '<img src="./' + logo[0] + '" alt="" class="popup-logo" /><div class="popup-text"';
-        }
+    if (!logo.length) {
+        logo.push('logo/o-maps.webp');
+    }
+    if (logo.length >= 2) {
+        let carousel = LOGO_CAROUSEL_TEMPLATE.replace('image_1', logo[0]);
+        carousel = carousel.replace('image_2', logo[1]);
+        result += carousel + '<div class="popup-text"<div class="popup-text"';
+    } else if (logo.length === 1) {
+        result += '<img src="./' + logo[0] + '" alt="" class="popup-logo" /><div class="popup-text"';
     }
 
     // имя
