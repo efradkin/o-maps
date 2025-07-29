@@ -66,16 +66,20 @@ if (!ONLY_MAP_NAME_PARAM) {
 }
 
 if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
-    for (const t of tracks) {
-        let gpx = new L.GPX(t.gpx, {
-            async: false,
-            display_wpt:false,
-            color: 'red',
-            weight: 5
-        });
-        var popup_text = buildTrackText(t, gpx);
-        gpx.bindPopup(popup_text, {maxWidth: 500});
-        gpx.addTo(tracksGroup);
+    try {
+        for (const t of tracks) {
+            let gpx = new L.GPX(t.gpx, {
+                async: false,
+                display_wpt: false,
+                color: 'red',
+                weight: 5
+            });
+            var popup_text = buildTrackText(t, gpx);
+            gpx.bindPopup(popup_text, {maxWidth: 500});
+            gpx.addTo(tracksGroup);
+        }
+    } catch (e) {
+        //console.log(e);
     }
 }
 
