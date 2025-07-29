@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="AllTrails https://www.alltrails.com/ - &amp;#1069;&amp;#1082;&amp;#1086;&amp;#1084;&amp;#1072;&amp;#1088;&amp;#1096;&amp;#1088;&amp;#1091;&amp;#1090; &amp;#1051;&amp;#1072;&amp;#1076;&amp;#1086;&amp;#1078;&amp;#1089;&amp;#1082;&amp;#1080;&amp;#1077; &amp;#1073;&amp;#1077;&amp;#1088;&amp;#1077;&amp;#1075;&amp;#1072;" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Экомаршрут Ладожские берега</name>
+    <link href="https://www.gpsies.com/">
+      <text>Экомаршрут Ладожские берега on AllTrails</text>
+    </link>
+    <time>2025-07-29T09:12:25Z</time>
+  </metadata>
+  <rte>
+    <name>Экомаршрут Ладожские берега on AllTrails</name>
+    <rtept lat="60.02671630" lon="31.10935439">
+      <ele>12.000000</ele>
+    </rtept>
+    <rtept lat="60.02674851" lon="31.10961188">
+      <ele>12.000000</ele>
+    </rtept>
+    <rtept lat="60.02702234" lon="31.10968699">
+      <ele>12.000000</ele>
+    </rtept>
+    <rtept lat="60.02731763" lon="31.11006250">
+      <ele>11.000000</ele>
+    </rtept>
+    <rtept lat="60.02754850" lon="31.11028780">
+      <ele>11.000000</ele>
+    </rtept>
+    <rtept lat="60.02774178" lon="31.11018051">
+      <ele>12.000000</ele>
+    </rtept>
+    <rtept lat="60.02782768" lon="31.11026634">
+      <ele>12.000000</ele>
+    </rtept>
+    <rtept lat="60.02810150" lon="31.11039509">
+      <ele>13.000000</ele>
+    </rtept>
+    <rtept lat="60.02825720" lon="31.11035217">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.02841826" lon="31.11039509">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.02865986" lon="31.11055602">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.02892293" lon="31.11064185">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.02916989" lon="31.11079206">
+      <ele>15.000000</ele>
+    </rtept>
+    <rtept lat="60.02944906" lon="31.11086716">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.02967794" lon="31.11087119">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.02983900" lon="31.11110723">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.03005374" lon="31.11132181">
+      <ele>13.000000</ele>
+    </rtept>
+    <rtept lat="60.03033291" lon="31.11139691">
+      <ele>13.000000</ele>
+    </rtept>
+    <rtept lat="60.03078386" lon="31.11150420">
+      <ele>13.000000</ele>
+    </rtept>
+    <rtept lat="60.03111670" lon="31.11161148">
+      <ele>13.000000</ele>
+    </rtept>
+    <rtept lat="60.03131533" lon="31.11152565">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.03152470" lon="31.11178315">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.03191121" lon="31.11192262">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.03234067" lon="31.11200845">
+      <ele>15.000000</ele>
+    </rtept>
+    <rtept lat="60.03293116" lon="31.11229813">
+      <ele>15.000000</ele>
+    </rtept>
+    <rtept lat="60.03362901" lon="31.11248052">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.03413359" lon="31.11237323">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.03442346" lon="31.11202991">
+      <ele>16.000000</ele>
+    </rtept>
+    <rtept lat="60.03461670" lon="31.11170804">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.03478847" lon="31.11168659">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.03500318" lon="31.11190116">
+      <ele>16.000000</ele>
+    </rtept>
+    <rtept lat="60.03544870" lon="31.11162758">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.03569830" lon="31.11153102">
+      <ele>16.000000</ele>
+    </rtept>
+    <rtept lat="60.03606866" lon="31.11143446">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.03626458" lon="31.11142373">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.03650612" lon="31.11138618">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.03675034" lon="31.11147737">
+      <ele>16.000000</ele>
+    </rtept>
+    <rtept lat="60.03695430" lon="31.11120915">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.03712606" lon="31.11116087">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.03744542" lon="31.11104286">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.03768695" lon="31.11108041">
+      <ele>16.000000</ele>
+    </rtept>
+    <rtept lat="60.03796605" lon="31.11088729">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.03836591" lon="31.11050641">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.03873131" lon="31.11009093">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.03914995" lon="31.10972615">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.03949344" lon="31.10939355">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.03989060" lon="31.10914679">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.04012674" lon="31.10885711">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.04036825" lon="31.10867472">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.04049706" lon="31.10866399">
+      <ele>16.000000</ele>
+    </rtept>
+    <rtept lat="60.04067416" lon="31.10870691">
+      <ele>15.000000</ele>
+    </rtept>
+    <rtept lat="60.04084590" lon="31.10852452">
+      <ele>15.000000</ele>
+    </rtept>
+    <rtept lat="60.04112497" lon="31.10842796">
+      <ele>13.000000</ele>
+    </rtept>
+    <rtept lat="60.04141477" lon="31.10805245">
+      <ele>13.000000</ele>
+    </rtept>
+    <rtept lat="60.04163481" lon="31.10738726">
+      <ele>15.000000</ele>
+    </rtept>
+    <rtept lat="60.04179044" lon="31.10696883">
+      <ele>16.000000</ele>
+    </rtept>
+    <rtept lat="60.04190851" lon="31.10658260">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.04214464" lon="31.10659333">
+      <ele>15.000000</ele>
+    </rtept>
+    <rtept lat="60.04263299" lon="31.10633583">
+      <ele>13.000000</ele>
+    </rtept>
+    <rtept lat="60.04279399" lon="31.10576720">
+      <ele>15.000000</ele>
+    </rtept>
+    <rtept lat="60.04291742" lon="31.10457630">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.04305695" lon="31.10429735">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.04298718" lon="31.10410424">
+      <ele>19.000000</ele>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Экомаршрут Ладожские берега on AllTrails</name>
+    <rtept lat="60.03092655" lon="31.10676622">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.03091581" lon="31.10706663">
+      <ele>20.000000</ele>
+    </rtept>
+    <rtept lat="60.03087287" lon="31.10738849">
+      <ele>20.000000</ele>
+    </rtept>
+    <rtept lat="60.03066350" lon="31.10742068">
+      <ele>20.000000</ele>
+    </rtept>
+    <rtept lat="60.03019644" lon="31.10808587">
+      <ele>20.000000</ele>
+    </rtept>
+    <rtept lat="60.02990654" lon="31.10828972">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.02958979" lon="31.10847211">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.02929451" lon="31.10848284">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.02897239" lon="31.10859012">
+      <ele>15.000000</ele>
+    </rtept>
+    <rtept lat="60.02869858" lon="31.10861158">
+      <ele>15.000000</ele>
+    </rtept>
+    <rtept lat="60.02844625" lon="31.10859012">
+      <ele>14.000000</ele>
+    </rtept>
+    <rtept lat="60.02814023" lon="31.10918021">
+      <ele>13.000000</ele>
+    </rtept>
+    <rtept lat="60.02807043" lon="31.10974884">
+      <ele>13.000000</ele>
+    </rtept>
+    <rtept lat="60.02756038" lon="31.10957718">
+      <ele>12.000000</ele>
+    </rtept>
+    <rtept lat="60.02721677" lon="31.10953426">
+      <ele>12.000000</ele>
+    </rtept>
+    <rtept lat="60.02671744" lon="31.10936260">
+      <ele>12.000000</ele>
+    </rtept>
+    <rtept lat="60.02650805" lon="31.10892272">
+      <ele>11.000000</ele>
+    </rtept>
+    <rtept lat="60.02650805" lon="31.10862231">
+      <ele>10.000000</ele>
+    </rtept>
+    <rtept lat="60.02662617" lon="31.10783911">
+      <ele>10.000000</ele>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Экомаршрут Ладожские берега on AllTrails</name>
+    <rtept lat="60.04288305" lon="31.10376195">
+      <ele>20.000000</ele>
+    </rtept>
+    <rtept lat="60.04262785" lon="31.10424499">
+      <ele>21.000000</ele>
+    </rtept>
+    <rtept lat="60.04252588" lon="31.10456686">
+      <ele>20.000000</ele>
+    </rtept>
+    <rtept lat="60.04236489" lon="31.10453467">
+      <ele>21.000000</ele>
+    </rtept>
+    <rtept lat="60.04115739" lon="31.10463123">
+      <ele>22.000000</ele>
+    </rtept>
+    <rtept lat="60.04083618" lon="31.10472248">
+      <ele>22.000000</ele>
+    </rtept>
+    <rtept lat="60.03925294" lon="31.10569880">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.03876453" lon="31.10596702">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.03808827" lon="31.10611723">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.03713695" lon="31.10649960">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.03669145" lon="31.10652106">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.03611713" lon="31.10675709">
+      <ele>20.000000</ele>
+    </rtept>
+    <rtept lat="60.03542470" lon="31.10686438">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.03493624" lon="31.10688584">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.03438861" lon="31.10707944">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.03413632" lon="31.10712235">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.03384108" lon="31.10715454">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.03347069" lon="31.10736911">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.03215274" lon="31.10715653">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.03175012" lon="31.10696341">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.03096098" lon="31.10675956">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.02973431" lon="31.10593184">
+      <ele>20.000000</ele>
+    </rtept>
+    <rtept lat="60.02950346" lon="31.10571726">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.02896659" lon="31.10465511">
+      <ele>18.000000</ele>
+    </rtept>
+    <rtept lat="60.02839213" lon="31.10267027">
+      <ele>19.000000</ele>
+    </rtept>
+    <rtept lat="60.02809685" lon="31.10099657">
+      <ele>16.000000</ele>
+    </rtept>
+    <rtept lat="60.02728614" lon="31.09679087">
+      <ele>17.000000</ele>
+    </rtept>
+    <rtept lat="60.02693898" lon="31.09538725">
+      <ele>13.000000</ele>
+    </rtept>
+    <rtept lat="60.02692825" lon="31.09443238">
+      <ele>11.000000</ele>
+    </rtept>
+    <rtept lat="60.02692288" lon="31.09394958">
+      <ele>11.000000</ele>
+    </rtept>
+    <rtept lat="60.02699804" lon="31.09363845">
+      <ele>10.000000</ele>
+    </rtept>
+  </rte>
+</gpx>
+

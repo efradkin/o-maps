@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="AllTrails https://www.alltrails.com/ - Viola track" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Viola track</name>
+    <link href="https://www.gpsies.com/">
+      <text>Viola track on AllTrails</text>
+    </link>
+    <time>2025-07-29T09:06:44Z</time>
+  </metadata>
+  <rte>
+    <name>Viola track on AllTrails</name>
+    <rtept lat="60.18844900" lon="30.54801100">
+      <ele>81.000000</ele>
+    </rtept>
+    <rtept lat="60.18836100" lon="30.54799500">
+      <ele>81.000000</ele>
+    </rtept>
+    <rtept lat="60.18811700" lon="30.54793900">
+      <ele>83.000000</ele>
+    </rtept>
+    <rtept lat="60.18794800" lon="30.54794700">
+      <ele>84.000000</ele>
+    </rtept>
+    <rtept lat="60.18784400" lon="30.54794700">
+      <ele>85.000000</ele>
+    </rtept>
+    <rtept lat="60.18771300" lon="30.54796300">
+      <ele>86.000000</ele>
+    </rtept>
+    <rtept lat="60.18770300" lon="30.54783900">
+      <ele>86.000000</ele>
+    </rtept>
+    <rtept lat="60.18769800" lon="30.54766400">
+      <ele>85.000000</ele>
+    </rtept>
+    <rtept lat="60.18780100" lon="30.54673900">
+      <ele>85.000000</ele>
+    </rtept>
+    <rtept lat="60.18803000" lon="30.54551000">
+      <ele>83.000000</ele>
+    </rtept>
+    <rtept lat="60.18832400" lon="30.54528200">
+      <ele>82.000000</ele>
+    </rtept>
+    <rtept lat="60.18877400" lon="30.54539600">
+      <ele>82.000000</ele>
+    </rtept>
+    <rtept lat="60.18876800" lon="30.54455600">
+      <ele>81.000000</ele>
+    </rtept>
+    <rtept lat="60.18845300" lon="30.54388800">
+      <ele>81.000000</ele>
+    </rtept>
+    <rtept lat="60.18798400" lon="30.54306300">
+      <ele>81.000000</ele>
+    </rtept>
+    <rtept lat="60.18763500" lon="30.54255800">
+      <ele>80.000000</ele>
+    </rtept>
+    <rtept lat="60.18759400" lon="30.54221000">
+      <ele>80.000000</ele>
+    </rtept>
+    <rtept lat="60.18747100" lon="30.54174600">
+      <ele>79.000000</ele>
+    </rtept>
+    <rtept lat="60.18676000" lon="30.54040500">
+      <ele>76.000000</ele>
+    </rtept>
+    <rtept lat="60.18662600" lon="30.54005600">
+      <ele>75.000000</ele>
+    </rtept>
+    <rtept lat="60.18646500" lon="30.53939700">
+      <ele>71.000000</ele>
+    </rtept>
+    <rtept lat="60.18626000" lon="30.53888800">
+      <ele>66.000000</ele>
+    </rtept>
+    <rtept lat="60.18628000" lon="30.53920700">
+      <ele>67.000000</ele>
+    </rtept>
+    <rtept lat="60.18646500" lon="30.53939700">
+      <ele>71.000000</ele>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Viola track on AllTrails</name>
+    <rtept lat="60.18763500" lon="30.54256100">
+      <ele>80.000000</ele>
+    </rtept>
+    <rtept lat="60.18752700" lon="30.54336600">
+      <ele>81.000000</ele>
+    </rtept>
+    <rtept lat="60.18758200" lon="30.54391300">
+      <ele>81.000000</ele>
+    </rtept>
+    <rtept lat="60.18684700" lon="30.54390300">
+      <ele>83.000000</ele>
+    </rtept>
+    <rtept lat="60.18669300" lon="30.54393800">
+      <ele>84.000000</ele>
+    </rtept>
+    <rtept lat="60.18642500" lon="30.54387400">
+      <ele>84.000000</ele>
+    </rtept>
+    <rtept lat="60.18610900" lon="30.54387400">
+      <ele>84.000000</ele>
+    </rtept>
+    <rtept lat="60.18563200" lon="30.54399100">
+      <ele>83.000000</ele>
+    </rtept>
+    <rtept lat="60.18519800" lon="30.54454400">
+      <ele>83.000000</ele>
+    </rtept>
+    <rtept lat="60.18491700" lon="30.54507800">
+      <ele>83.000000</ele>
+    </rtept>
+    <rtept lat="60.18461400" lon="30.54593900">
+      <ele>82.000000</ele>
+    </rtept>
+    <rtept lat="60.18389700" lon="30.54580400">
+      <ele>79.000000</ele>
+    </rtept>
+    <rtept lat="60.18369900" lon="30.54557600">
+      <ele>80.000000</ele>
+    </rtept>
+    <rtept lat="60.18366700" lon="30.54559700">
+      <ele>80.000000</ele>
+    </rtept>
+    <rtept lat="60.18322300" lon="30.54767700">
+      <ele>87.000000</ele>
+    </rtept>
+    <rtept lat="60.18347200" lon="30.54783400">
+      <ele>85.000000</ele>
+    </rtept>
+    <rtept lat="60.18413600" lon="30.54809200">
+      <ele>84.000000</ele>
+    </rtept>
+    <rtept lat="60.18475200" lon="30.54846500">
+      <ele>87.000000</ele>
+    </rtept>
+    <rtept lat="60.18506100" lon="30.54843200">
+      <ele>89.000000</ele>
+    </rtept>
+    <rtept lat="60.18528000" lon="30.54832000">
+      <ele>90.000000</ele>
+    </rtept>
+    <rtept lat="60.18523400" lon="30.54869400">
+      <ele>90.000000</ele>
+    </rtept>
+    <rtept lat="60.18501600" lon="30.54922500">
+      <ele>89.000000</ele>
+    </rtept>
+    <rtept lat="60.18500000" lon="30.54960900">
+      <ele>90.000000</ele>
+    </rtept>
+    <rtept lat="60.18509300" lon="30.55004200">
+      <ele>91.000000</ele>
+    </rtept>
+    <rtept lat="60.18515700" lon="30.55019100">
+      <ele>92.000000</ele>
+    </rtept>
+    <rtept lat="60.18524800" lon="30.55033800">
+      <ele>94.000000</ele>
+    </rtept>
+    <rtept lat="60.18542600" lon="30.55047200">
+      <ele>95.000000</ele>
+    </rtept>
+    <rtept lat="60.18560400" lon="30.55054200">
+      <ele>97.000000</ele>
+    </rtept>
+    <rtept lat="60.18602300" lon="30.55049600">
+      <ele>99.000000</ele>
+    </rtept>
+    <rtept lat="60.18623400" lon="30.55056000">
+      <ele>100.00000</ele>
+    </rtept>
+    <rtept lat="60.18656700" lon="30.55079400">
+      <ele>100.00000</ele>
+    </rtept>
+    <rtept lat="60.18684000" lon="30.55090500">
+      <ele>99.000000</ele>
+    </rtept>
+    <rtept lat="60.18723600" lon="30.55086100">
+      <ele>95.000000</ele>
+    </rtept>
+    <rtept lat="60.18757300" lon="30.55057800">
+      <ele>92.000000</ele>
+    </rtept>
+    <rtept lat="60.18768400" lon="30.55035500">
+      <ele>92.000000</ele>
+    </rtept>
+    <rtept lat="60.18794600" lon="30.54957700">
+      <ele>88.000000</ele>
+    </rtept>
+    <rtept lat="60.18795100" lon="30.54913600">
+      <ele>88.000000</ele>
+    </rtept>
+    <rtept lat="60.18790200" lon="30.54872100">
+      <ele>86.000000</ele>
+    </rtept>
+    <rtept lat="60.18778000" lon="30.54821500">
+      <ele>85.000000</ele>
+    </rtept>
+    <rtept lat="60.18771300" lon="30.54796800">
+      <ele>86.000000</ele>
+    </rtept>
+  </rte>
+</gpx>
+

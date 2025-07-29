@@ -85,12 +85,15 @@ function buildTrackText(t, gpx) {
     result += '<div class="popup-header popup-right-header">ROUTE</div>';
 
     // картинка
-    result += '<img src="./tracks/' + t.pics[0] + '/pic_1.jpg" alt="" class="popup-logo" /><div class="popup-text"';
+    if (t.pics) {
+        result += '<img src="./tracks/' + t.pics[0] + '/pic_1.jpg" alt="" class="popup-logo" />';
+    }
+    result += '<div class="popup-text"';
 
     // имя, ссылка и длина
     result += '<b><a href="' + t.link + '">' + t.name + '</a>';
-    let len = gpx._humanLen(gpx.len);
-    if (len > 0) {
+    if (gpx.len > 0) {
+        let len = gpx._humanLen(gpx.len);
         result += ' (' + len + ')';
     }
     result += '</b>';
