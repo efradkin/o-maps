@@ -9,7 +9,7 @@ let cityMaps = [
         bounds: [[60.01515102114781, 30.371618270874027], [60.01509740149573, 30.379385948181156], [60.009359596215326, 30.371489524841312]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ВИФК',
@@ -19,7 +19,7 @@ let cityMaps = [
         bounds: [[59.97678002927403, 30.339238643646244], [59.97676929290612, 30.346212387084964], [59.973569700167744, 30.339260101318363]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Сад Жореса Алфёрова',
@@ -31,7 +31,7 @@ let cityMaps = [
         author: 'DBRTSV_V',
         start: 'ST',
         owner: 'NW',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Лицей №470',
@@ -43,7 +43,7 @@ let cityMaps = [
         author: 'CHGRVSKY_M',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Школа №71',
@@ -55,7 +55,7 @@ let cityMaps = [
         author: 'CHGRVSKY_Y',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ул Вавиловых, Школа №98',
@@ -67,7 +67,7 @@ let cityMaps = [
         author: 'CHGRVSKY_Y',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ЖК "Академ Парк"',
@@ -79,7 +79,7 @@ let cityMaps = [
         author: 'DBRTSV_V',
         start: 'ST',
         owner: 'KUZM',
-        types: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY'],
     },
     {
         name: 'Сад Олимпия',
@@ -88,7 +88,7 @@ let cityMaps = [
         bounds: [[59.91900024244188, 30.31836032867432], [59.91897873224253, 30.330290794372562], [59.909943215870214, 30.318703651428226]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY'],
     },
     {
         name: 'Обводный кан, ул Егорова',
@@ -97,7 +97,7 @@ let cityMaps = [
         bounds: [[59.916117751493246, 30.30711650848389], [59.91617153160115, 30.31836032867432], [59.90902877062958, 30.30711650848389]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY'],
     },
     {
         name: 'Колтуши',
@@ -108,7 +108,7 @@ let cityMaps = [
         bounds: [[59.946156497905406, 30.643272399902347], [59.94478094366959, 30.664515495300297], [59.93089324727928, 30.63893795013428]],
         author: 'DBRTSV_V',
         owner: 'SHEIN',
-        types: ['CITY', 'PARK'],
+        type: ['CITY', 'PARK'],
     },
     {
         name: 'Лицей №126',
@@ -118,7 +118,7 @@ let cityMaps = [
         bounds: [[59.97747788572093, 30.3892993927002], [59.97778923231374, 30.402109622955326], [59.97103557512989, 30.390093326568607]],
         author: 'SHRNN',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Гимназия №101',
@@ -130,7 +130,7 @@ let cityMaps = [
         author: 'SHRNN',
         owner: 'SHEIN',
         start: 'ST',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Гимназия №144',
@@ -140,7 +140,7 @@ let cityMaps = [
         bounds: [[60.047939225571504, 30.403182506561283], [60.0469857295227, 30.418052673339847], [60.04245356846846, 30.40225982666016]],
         author: 'SHRNN',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Школа №92',
@@ -150,7 +150,7 @@ let cityMaps = [
         bounds: [[60.02176701873349, 30.32037734985352], [60.02221733023808, 30.340676307678226], [60.01241630800898, 30.320291519165043]],
         author: 'SHRNN',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Дрезденская ул',
@@ -167,7 +167,7 @@ let cityMaps = [
         },
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Школа №332',
@@ -176,7 +176,7 @@ let cityMaps = [
         bounds: [[59.92493652455641, 30.480773448944095], [59.92362461159104, 30.49736022949219], [59.915504652103806, 30.477318763732914]],
         author: 'MNKV',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'пр Солидарности, Школа №332',
@@ -187,7 +187,7 @@ let cityMaps = [
         start: 'ST',
         author: ['MNKV','MSLVA'],
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Школа №156',
@@ -197,7 +197,7 @@ let cityMaps = [
         bounds: [[59.99765567740504, 30.426700115203857], [59.99798829322108, 30.43697834014893], [59.991603631550845, 30.427644252777103]],
         author: 'MSPN',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Школа №175',
@@ -207,7 +207,7 @@ let cityMaps = [
         bounds: [[60.040503369230905, 30.421657562255863], [60.03946393028264, 30.434081554412845], [60.03411619638205, 30.419554710388187]],
         author: ['MSPN','SHRNN'],
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Школа №136',
@@ -217,7 +217,7 @@ let cityMaps = [
         bounds: [[60.04160706756014, 30.38706779479981], [60.04166064421021, 30.398805141448978], [60.03331235391477, 30.38702487945557]],
         author: 'MSPN',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Канонерский о-в',
@@ -227,7 +227,7 @@ let cityMaps = [
         bounds: [[59.90541377581667, 30.20770311355591], [59.90543529480735, 30.223066806793216], [59.896665151030554, 30.207660198211673]],
         author: 'RYLOV_V',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Бумажная ул',
@@ -237,7 +237,7 @@ let cityMaps = [
         bounds: [[59.909061045596246, 30.261797904968265], [59.90903952895528, 30.276045799255375], [59.901088175579964, 30.26244163513184]],
         author: 'RYLOV_V',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'М "Выборгская"',
@@ -247,7 +247,7 @@ let cityMaps = [
         bounds: [[59.97443941872372, 30.339260101318363], [59.97404214271112, 30.351254940032963], [59.97046644411359, 30.338702201843265]],
         author: 'SHRNN',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'М "Удельная"',
@@ -258,7 +258,7 @@ let cityMaps = [
         start: 'ST',
         author: 'DBRTSV_V',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'М "Ломоносовская"',
@@ -269,7 +269,7 @@ let cityMaps = [
         author: 'MNKV',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'М "Политехническая"',
@@ -279,7 +279,7 @@ let cityMaps = [
         bounds: [[60.02562663254445, 30.36728382110596], [60.0253478977596, 30.384922027587894], [60.010142570366924, 30.367884635925297]],
         author: 'SHRNN',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'М "Нарвская"',
@@ -288,7 +288,7 @@ let cityMaps = [
         bounds: [[59.89892516416984, 30.259094238281254], [59.89888211773708, 30.27570247650147], [59.893479347569645, 30.259008407592777]],
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'ZSLNKN',
     },
     {
@@ -301,7 +301,7 @@ let cityMaps = [
         author: 'DBRTSV_V',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Оккервиль',
@@ -313,7 +313,7 @@ let cityMaps = [
         author: 'RDNV_B',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Посадский округ',
@@ -323,7 +323,7 @@ let cityMaps = [
         bounds: [[59.96178866951323, 30.318253040313724], [59.96041376394808, 30.3343677520752], [59.95477390588266, 30.31557083129883]],
         author: 'MNKV',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Бугры',
@@ -334,7 +334,7 @@ let cityMaps = [
         author: ['MSPN','SHRNN'],
         areas: [80, 20],
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Озерки',
@@ -345,7 +345,7 @@ let cityMaps = [
         start: 'ST',
         author: 'MNKV',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Наб. р. Смоленки',
@@ -356,7 +356,7 @@ let cityMaps = [
         author: 'MNKV',
         owner: 'SHEIN',
         start: 'ST',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Покровский о-в',
@@ -366,7 +366,7 @@ let cityMaps = [
         bounds: [[59.9224309407933, 30.28314828872681], [59.921022138933154, 30.301859378814697], [59.915816581278484, 30.28093814849854]],
         author: 'MNKV',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Петроградский о-в',
@@ -376,7 +376,7 @@ let cityMaps = [
         bounds: [[59.97024093666594, 30.28518676757813], [59.9699617348415, 30.33883094787598], [59.947338569228016, 30.28535842895508]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Введенская ул',
@@ -387,7 +387,7 @@ let cityMaps = [
         author: 'RDNV_B',
         owner: 'RDNV_B',
         start: 'ST',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 /*
     {
@@ -397,7 +397,7 @@ let cityMaps = [
         bounds: [[59.92167815334707, 30.281796455383304], [59.921656644883385, 30.29967069625855], [59.91620379962411, 30.281732082366947]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 */
     {
@@ -408,7 +408,7 @@ let cityMaps = [
         bounds: [[59.92428057455758, 30.27720451354981], [59.92340953894306, 30.28814792633057], [59.91696746701024, 30.27417898178101]],
         author: 'MNKV',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Коломна',
@@ -417,7 +417,7 @@ let cityMaps = [
         bounds: [[59.925216105860315, 30.27411460876465], [59.92530213040293, 30.307760238647464], [59.91560145802346, 30.2742862701416]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Любашинский сад',
@@ -428,7 +428,7 @@ let cityMaps = [
         start: 'ST',
         author: 'DBRTSV_V',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Полюстрово, школа №188',
@@ -436,7 +436,7 @@ let cityMaps = [
         url: './maps/city/poljustrovo_2023.webp',
         link: './original_maps/city/poljustrovo_2023_omaps.jpg',
         bounds: [[59.97492258582917, 30.42742967605591], [59.97373076088295, 30.43865203857422], [59.96792134236893, 30.424425601959232]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'RDNV_I',
         owner: 'RDNV_I',
     },
@@ -446,7 +446,7 @@ let cityMaps = [
         url: './maps/city/school_188_2016.webp',
         link: ['./original_maps/schools/school_188_2016_omaps.gif','./original_maps/schools/school_188_2016_omaps.ocd'],
         bounds: [[59.97220602138547, 30.427021980285648], [59.972195283534425, 30.433244705200195], [59.96838312640672, 30.427064895629886]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
     },
@@ -456,7 +456,7 @@ let cityMaps = [
         url: './maps/city/ddyt_na_lenskoy_2020.webp',
         link: ['./original_maps/city/ddyt_na_lenskoy_2020_omaps.gif','./original_maps/city/ddyt_na_lenskoy_2020_omaps.ocd'],
         bounds: [[59.944146879921945, 30.479035377502445], [59.943921193288915, 30.482532978057865], [59.9417824675087, 30.478713512420658]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
     },
@@ -468,7 +468,7 @@ let cityMaps = [
         bounds: [[60.010839723528704, 30.3408694267273], [60.00955266005702, 30.35509586334229], [60.00153956329607, 30.337908267974857]],
         author: 'MNKV',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Серебряный пруд',
@@ -484,7 +484,7 @@ let cityMaps = [
         bounds: [[60.00904854654385, 30.342221260070804], [60.007686329035806, 30.3547739982605], [60.0013893662409, 30.3388524055481]],
         author: ['MNKV','KUZNTSV_A'],
         owner: 'SFSO_SPB',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Серебряный пруд',
@@ -495,7 +495,7 @@ let cityMaps = [
         author: 'MNKV',
         start: 'ST',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ул Сантьяго-де-Куба, ДДЮТ Выборгского р-она',
@@ -506,7 +506,7 @@ let cityMaps = [
         start: 'ST',
         author: 'SRBRNTSKY',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ЦФКиЗ Московского р-она',
@@ -514,7 +514,7 @@ let cityMaps = [
         url: './maps/city/tsfkiz_moskovsky_2016.webp',
         bounds: [[59.851357147520275, 30.347199440002445], [59.85077518391201, 30.354130268096927], [59.8480807753212, 30.346212387084964]],
         author: 'TKMKVA_P',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Яблоневый сад',
@@ -524,7 +524,7 @@ let cityMaps = [
         bounds: [[59.86798191914129, 30.36058902740479], [59.866969370948034, 30.383205413818363], [59.85526897207686, 30.356640815734867]],
         author: ['FDRV_L','URVNTSV'],
         owner: 'EGRV_EGR',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Школа №536',
@@ -535,7 +535,7 @@ let cityMaps = [
         author: ['FDRV_L','SHEIN'],
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ул Рубинштейна',
@@ -544,7 +544,7 @@ let cityMaps = [
         link: './original_maps/city/5_uglov_2019_st_omaps.gif',
         bounds: [[59.93348419536735, 30.337951183319095], [59.932710157386865, 30.348916053771976], [59.92674300833662, 30.335676670074466]],
         start: 'ST',
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'YGNV',
         owner: 'SHEIN',
     },
@@ -556,7 +556,7 @@ let cityMaps = [
         bounds: [[59.9482627047221, 30.336771011352543], [59.948327178330025, 30.34878730773926], [59.93826777930315, 30.33655643463135]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 */
     {
@@ -567,7 +567,7 @@ let cityMaps = [
         bounds: [[59.95084155122974, 30.323209762573246], [59.95118538227185, 30.387325286865238], [59.927409662027465, 30.323038101196293]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Литейный пр.',
@@ -577,7 +577,7 @@ let cityMaps = [
         bounds: [[59.9468979839351, 30.33756494522095], [59.946854999690565, 30.349023342132572], [59.94200816870012, 30.337500572204593]],
         author: 'RYLOV_V',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кавалергардская ул',
@@ -587,7 +587,7 @@ let cityMaps = [
         bounds: [[59.9488751989346, 30.37754058837891], [59.948885944346074, 30.391466617584232], [59.94222312078742, 30.37754058837891]],
         author: 'RYLOV_V',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'АВРОРА',
@@ -597,7 +597,7 @@ let cityMaps = [
         bounds: [[59.95791085969932, 30.323960781097416], [59.95791085969932, 30.338487625122074], [59.95133580723119, 30.32413244247437]],
         author: 'RYLOV_V',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кузьмолово, Юбилейная ул',
@@ -607,7 +607,7 @@ let cityMaps = [
         bounds: [[60.12505962862844, 30.496330261230472], [60.1247389795779, 30.504248142242435], [60.11923401709187, 30.495235919952396]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кузьмолово',
@@ -617,7 +617,7 @@ let cityMaps = [
         bounds: [[60.11301176687593, 30.482983589172367], [60.112883460684216, 30.501286983489994], [60.107216105214334, 30.482833385467533]],
         author: 'MSPN',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Верх. Суздальское оз.',
@@ -626,7 +626,7 @@ let cityMaps = [
         link: './original_maps/city/high_suzd_lake_2015_omaps.jpg',
         bounds: [[60.03930318938035, 30.314025878906254], [60.03894955664152, 30.32110691070557], [60.03381609748235, 30.31235218048096]],
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'TKMKVA_P',
     },
     {
@@ -638,7 +638,7 @@ let cityMaps = [
         author: 'DBRTSV_V',
         owner: 'SHEIN',
         start: 'ST',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Поклонная гора, Берёзовый сад',
@@ -648,7 +648,7 @@ let cityMaps = [
         bounds: [[60.0304290780388, 30.312309265136722], [60.02928212883294, 30.32535552978516], [60.01837876400275, 30.30812501907349]],
         start: 'ST',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'DBRTSV_V',
     },
     {
@@ -660,7 +660,7 @@ let cityMaps = [
         author: 'DBRTSV_V',
         owner: 'SHEIN',
         start: 'ST',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 /*
     {
@@ -670,7 +670,7 @@ let cityMaps = [
         bounds: [[59.964538309478776, 30.307030677795414], [59.964463127045754, 30.31773805618286], [59.95868430952346, 30.306987762451175]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 */
     {
@@ -681,7 +681,7 @@ let cityMaps = [
         bounds: [[59.964785336271625, 30.30874729156494], [59.96391536416931, 30.318489074707035], [59.9595329350863, 30.306944847106937]],
         author: 'DBRTSV_V',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Сосновка, мототрек',
@@ -691,7 +691,7 @@ let cityMaps = [
         bounds: [[60.02631273892153, 30.325398445129398], [60.0264199417561, 30.34155607223511], [60.02084493317537, 30.324733257293705]],
         author: ['MSPN','MNKV'],
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кронштадт',
@@ -701,7 +701,7 @@ let cityMaps = [
         bounds: [[59.9962822605596, 29.766125679016117], [59.995767214543264, 29.792947769165043], [59.985357274664224, 29.76728439331055]],
         author: ['RYLOV_V','SHEIN'],
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кронштадт',
@@ -709,7 +709,7 @@ let cityMaps = [
         url: './maps/city/kronshtadt_2019.webp',
         bounds: [[59.99574575411855, 29.768936634063724], [59.993492332060875, 29.789621829986576], [59.986967273229695, 29.766104221343998]],
         author: ['DBRTSV_V','FDRV_A','KBZRV'],
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Школа №217',
@@ -719,7 +719,7 @@ let cityMaps = [
         url: './maps/city/veteranov_2012.webp',
         link: ['./original_maps/city/veteranov_2012_omaps.jpg','./original_maps/fun/school_217_foto_2023_omaps.pdf','./original_maps/fun/school_217_foto_2023_pictures.pdf'],
         bounds: [[59.833440936715064, 30.164873600006107], [59.833354674113856, 30.1760745048523], [59.82424192853449, 30.164916515350345]],
-        types: ['CITY','FOTO'],
+        type: ['CITY','FOTO'],
         author: 'TMKN',
         owner: 'TMKN'
     },
@@ -729,7 +729,7 @@ let cityMaps = [
         url: './maps/city/school_383_2025.webp',
         link: './original_maps/schools/school_383_2025_omaps.jpg',
         bounds: [[59.843338086364156, 30.17530202865601], [59.842238548347105, 30.186202526092533], [59.83326841128922, 30.171482563018802]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'TMKN',
         owner: 'TMKN'
     },
@@ -739,7 +739,7 @@ let cityMaps = [
         url: './maps/city/school_237_2025.webp',
         link: './original_maps/schools/school_237_2025_omaps.jpg',
         bounds: [[59.83366737498011, 30.1759672164917], [59.83254595136076, 30.187618732452396], [59.82444685790592, 30.17251253128052]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'TMKN',
         owner: 'TMKN'
     },
@@ -750,7 +750,7 @@ let cityMaps = [
         url: './maps/city/school_217_2023.webp',
         link: ['./original_maps/schools/school_217_2025_omaps.gif','./original_maps/schools/school_217_2023.ocd','./original_maps/schools/school_217_2023.jpg'],
         bounds: [[59.83421729007089, 30.165688991546634], [59.83299883852204, 30.178971290588382], [59.82475964241083, 30.16229867935181]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'TMKN', // ,'ALNKVA','TRSK','ZHMNTKV','SVLJV','KPJEV'
         owner: 'TMKN'
     },
@@ -760,7 +760,7 @@ let cityMaps = [
         url: './maps/city/otvazhnyich_2022.webp',
         link: ['./original_maps/city/otvazhnyich_2022.ocd','./original_maps/city/otvazhnyich_2022.jpg'],
         bounds: [[59.84425434030309, 30.166890621185303], [59.843251849400815, 30.17925024032593], [59.833343891273, 30.163350105285648]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'TMKN',
         owner: 'TMKN'
     },
@@ -771,7 +771,7 @@ let cityMaps = [
         link: ['./original_maps/city/zdorovtseva_2024.ocd','./original_maps/city/zdorovtseva_2024.jpg'],
         info: 'Карта требует корректуры. Любой желающий может довести её до ума.',
         bounds: [[59.83482110794599, 30.15558242797852], [59.834767196080826, 30.16405820846558], [59.82450078647835, 30.155711174011234]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'TMKN',
         owner: 'TMKN'
     },
@@ -781,7 +781,7 @@ let cityMaps = [
         url: './maps/city/altair_2025.webp',
         link: './original_maps/city/altair_2025_omaps.jpg',
         bounds: [[59.8422062084439, 30.238602161407474], [59.84134379943523, 30.258600711822513], [59.832578300647974, 30.238623619079593]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'TMKN',
         owner: 'TMKN'
     },
@@ -791,7 +791,7 @@ let cityMaps = [
         url: './maps/city/school_254_2025.webp',
         link: './original_maps/city/school_254_2025_omaps.gif',
         bounds: [[59.84341354352382, 30.19575119018555], [59.84251882619241, 30.214591026306156], [59.83307431911679, 30.19476413726807]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'TMKN',
         owner: 'TMKN'
     },
@@ -802,7 +802,7 @@ let cityMaps = [
         link: './original_maps/schools/school_339_2008_omaps.jpg',
         bounds: [[59.90844781586406, 30.45594692230225], [59.907038420393384, 30.470108985900882], [59.90223957196219, 30.453028678894047]],
         author: 'DRBSHV',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Яковлевский пер',
@@ -810,7 +810,7 @@ let cityMaps = [
         link: './original_maps/city/yakovlevsky_omaps.jpg',
         bounds: [[59.87587658325937, 30.320248603820804], [59.87590889044805, 30.328660011291507], [59.87168715181947, 30.32037734985352]],
         author: 'MSLVA', //Не 100%., надо бы уточнить
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Гатчина, Аэродром',
@@ -820,7 +820,7 @@ let cityMaps = [
         bounds: [[59.56504949223926, 30.086488723754886], [59.563277701759, 30.104770660400394], [59.55730945148959, 30.083034038543705]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Петергоф, СПбГУ',
@@ -828,7 +828,7 @@ let cityMaps = [
         url: './maps/city/peterhof_spbgu_2024.webp',
         bounds: [[59.88427539528826, 29.82543468475342], [59.88230509530967, 29.843544960021976], [59.878461059145124, 29.822881221771244]],
         author: 'SVCHK',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'М "Академическая"',
@@ -838,7 +838,7 @@ let cityMaps = [
         bounds: [[60.0202659360725, 30.401659011840824], [60.01885056712136, 30.415606498718265], [60.011397435475146, 30.398161411285404]],
         author: 'CHGRVSKY_Y',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Универсам "САМПО"',
@@ -849,7 +849,7 @@ let cityMaps = [
         bounds: [[60.030043193030735, 30.364322662353516], [60.02852104710428, 30.38406372070313], [60.02303216403132, 30.36230564117432]],
         author: ['IVNVA_G','TKMKVA_P'],
         owner: 'SFSO_SPB',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Лицей №179',
@@ -859,7 +859,7 @@ let cityMaps = [
         bounds: [[60.04643933173566, 30.41303157806397], [60.04556079084643, 30.427365303039554], [60.03634541714789, 30.409684181213382]],
         author: ['MSPN','SMV'],
         start: 'ST',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Дибуновская ул',
@@ -872,7 +872,7 @@ let cityMaps = [
         author: 'DBRTSV_V',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ул Жака Дюкло',
@@ -888,7 +888,7 @@ let cityMaps = [
         author: 'CHGRVSKY_Y',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ул Карпинского',
@@ -901,7 +901,7 @@ let cityMaps = [
         author: 'SRBRNTSKY',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ул Верности, Лицей №95',
@@ -913,7 +913,7 @@ let cityMaps = [
         author: 'SRBRNTSKY',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Манеж Алексеева',
@@ -925,7 +925,7 @@ let cityMaps = [
         bounds: [[60.019761985893915, 30.356168746948246], [60.0193652537523, 30.369558334350586], [60.00983152806055, 30.35458087921143]],
         author: 'SHRNN',
         start: 'ST',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Манеж Алексеева',
@@ -938,7 +938,7 @@ let cityMaps = [
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
         planner: 'CHGRVSKY_M',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ул Матроса Железняка',
@@ -950,7 +950,7 @@ let cityMaps = [
         author: 'CHGRVSKY_M',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Гимназия №74',
@@ -961,7 +961,7 @@ let cityMaps = [
         bounds: [[60.000713471052876, 30.34653425216675], [59.99927580678817, 30.36305665969849], [59.99538092476921, 30.34483909606934]],
         author: ['SHRNN','EFRMV'],
         owner: ['SHRNN','EFRMV'],
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ул Есенина',
@@ -973,7 +973,7 @@ let cityMaps = [
         author: ['SRBRNTSKY','RDNV_B'],
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Омская ул"',
@@ -986,7 +986,7 @@ let cityMaps = [
         author: 'CHGRVSKY_M',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'пр Просвещения, Школа №518',
@@ -998,7 +998,7 @@ let cityMaps = [
         author: 'SVCHK',
         start: 'ST',
         owner: 'RKVA_S',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'пр Металлистов, Школа №532',
@@ -1010,7 +1010,7 @@ let cityMaps = [
         author: 'RDNV_B',
         start: 'ST',
         owner: ['RDNV_B','RDNV_I'],
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Школа №535',
@@ -1021,7 +1021,7 @@ let cityMaps = [
         author: 'SRBRNTSKY',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Учительская ул',
@@ -1032,7 +1032,7 @@ let cityMaps = [
         bounds: [[60.03482356157328, 30.392689704895023], [60.03293722073611, 30.407860279083252], [60.028027942541264, 30.389213562011722]],
         author: 'ELZRV',
         owner: 'ELZRV',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'М "Чкаловская"',
@@ -1044,7 +1044,7 @@ let cityMaps = [
         author: 'SRBRNTSKY',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Сестрорецкая ул',
@@ -1057,7 +1057,7 @@ let cityMaps = [
         author: 'DBRTSV_V',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Аллея Поликарпова',
@@ -1069,7 +1069,7 @@ let cityMaps = [
         author: 'CHGRVSKY_Y',
         start: 'ST',
         owner: 'KUZM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Мартыновский сквер',
@@ -1078,7 +1078,7 @@ let cityMaps = [
         bounds: [[60.02540150078545, 30.24973869323731], [60.02556230934125, 30.263879299163822], [60.01974054103504, 30.2499532699585]],
         author: ['BLV_V','MSKV'],
         owner: 'MSKV',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Школа №515',
@@ -1086,14 +1086,14 @@ let cityMaps = [
         url: './maps/city/school_515_2023.webp',
         bounds: [[59.94797257193447, 30.414297580718998], [59.9469087299875, 30.422902107238773], [59.94273900011142, 30.41150808334351]],
         author: ['RDNV_B','RDNV_I'],
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Колпино - ул Танкистов',
         year: 2018,
         url: './maps/city/kolpino_tankistov_2018.jpg',
         bounds: [[59.74959628419852, 30.560982227325443], [59.748472030753305, 30.577397346496586], [59.74200683935883, 30.55907249450684]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'DRBSHV',
         owner: 'BBCH_A',
     },
@@ -1103,7 +1103,7 @@ let cityMaps = [
         url: './maps/city/new_sertolovo_2022.webp',
         bounds: [[60.169812935994486, 30.18354177474976], [60.16785958842209, 30.203347206115726], [60.16315186383203, 30.180580615997318]],
         author: 'SVCHK',
-        types: ['CITY'],
+        type: ['CITY'],
         owner: 'SVCHK',
     },
     {
@@ -1112,7 +1112,7 @@ let cityMaps = [
         url: './maps/city/sertolovo_pogranichnaya_2024.webp',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22089/',
         bounds: [[60.146354417809526, 30.222294330596924], [60.144997860463, 30.23516893386841], [60.1407676058273, 30.21995544433594]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'SVCHK',
         owner: 'SVCHK',
     },
@@ -1123,7 +1123,7 @@ let cityMaps = [
         info: 'Сясьстрой. Карта пришкольной территории на берегу реки Сясь.',
         bounds: [[60.14225252990766, 32.551020383834846], [60.141622246580134, 32.55666375160218], [60.140083877236236, 32.550022602081306]],
         author: 'DRBSHV',
-        types: ['CITY'],
+        type: ['CITY'],
         owner: 'KP31',
     },
     {
@@ -1132,7 +1132,7 @@ let cityMaps = [
         url: './maps/city/school_31_2019.webp',
         bounds: [[59.89791355825114, 30.423406362533573], [59.89867764641967, 30.425080060958866], [59.89710102267565, 30.42498350143433]],
         author: 'DRBSHV',
-        types: ['CITY'],
+        type: ['CITY'],
         owner: 'KP31',
     },
     {
@@ -1143,7 +1143,7 @@ let cityMaps = [
         bounds: [[59.73924956297513, 30.39575815200806], [59.73783299137785, 30.40775299072266], [59.73292318712285, 30.3927755355835]],
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Пушкин, Аграрный ун-т',
@@ -1151,7 +1151,7 @@ let cityMaps = [
         url: './maps/city/pushkin_agrarny_2022.webp',
         bounds: [[59.73475092977878, 30.3817892074585], [59.733691067509575, 30.39650917053223], [59.727904492347456, 30.379879474639896]],
         author: 'DRBSHV',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Школа №755',
@@ -1160,7 +1160,7 @@ let cityMaps = [
         bounds: [[59.945801868289415, 30.27390003204346], [59.945834107502165, 30.275981426239017], [59.94472720992396, 30.273985862731937]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'пр Пархоменко',
@@ -1171,7 +1171,7 @@ let cityMaps = [
         start: 'ST',
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Суворовское училище',
@@ -1180,7 +1180,7 @@ let cityMaps = [
         bounds: [[59.920140263057476, 30.313317775726322], [59.92038762085078, 30.3173303604126], [59.91786018266457, 30.31415462493897]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Агалатово',
@@ -1190,7 +1190,7 @@ let cityMaps = [
         bounds: [[60.21722334414536, 30.300486087799076], [60.21662647354862, 30.309069156646732], [60.21354602222042, 30.299198627471927]],
         author: ['TKMKVA_P','IVNVA_G'],
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кузнечное',
@@ -1198,7 +1198,7 @@ let cityMaps = [
         bounds: [[61.12902370855488, 29.872019290924076], [61.12792546611398, 29.88862752914429], [61.11938688322839, 29.868800640106205]],
         author: 'RYLOV_V',
         owner: 'VST_PRZRSK',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Севастьяново',
@@ -1206,7 +1206,7 @@ let cityMaps = [
         bounds: [[61.06172221813291, 29.779922962188724], [61.0613692056359, 29.802067279815677], [61.05464045078286, 29.77970838546753]],
         author: 'RYLOV_V',
         owner: 'VST_PRZRSK',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Приозерск, ул Героя Богданова',
@@ -1215,7 +1215,7 @@ let cityMaps = [
         author: 'PSHKV',
         bounds: [[61.03422738636866, 30.12434005737305], [61.03352074474647, 30.133781433105472], [61.031764464289076, 30.123524665832523]],
         owner: 'VST_PRZRSK',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Приозерск, дет.сад №9',
@@ -1224,7 +1224,7 @@ let cityMaps = [
         author: 'PSHKV',
         bounds: [[61.04319413212856, 30.12609958648682], [61.045251034855056, 30.139060020446777], [61.041043591125266, 30.127515792846683]],
         owner: 'VST_PRZRSK',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'М "Владимирская" - "Лиговский пр"',
@@ -1233,7 +1233,7 @@ let cityMaps = [
         bounds: [[59.92636666566014, 30.338165760040287], [59.92629139661258, 30.355932712554935], [59.91516045099185, 30.338294506073]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Васильевский о-в',
@@ -1242,7 +1242,7 @@ let cityMaps = [
         bounds: [[59.94814450278181, 30.266110897064213], [59.9482627047221, 30.294327735900882], [59.93547296012465, 30.266046524047855]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 /*
     {
@@ -1252,7 +1252,7 @@ let cityMaps = [
         bounds: [[59.94531827633585, 30.27645349502564], [59.94531827633585, 30.290594100952152], [59.93845050927692, 30.27619600296021]],
         author: 'YGNV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 */
     {
@@ -1264,7 +1264,7 @@ let cityMaps = [
         author: ['MNKV','SRBRNTSKY'],
         start: 'ST',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Василеостровская',
@@ -1274,7 +1274,7 @@ let cityMaps = [
         bounds: [[59.94299693676351, 30.267612934112552], [59.94182545833027, 30.281517505645756], [59.935257964278314, 30.264759063720707]],
         author: 'MNKV',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Василеостровская',
@@ -1286,7 +1286,7 @@ let cityMaps = [
         bounds: [[59.94262077847527, 30.26769876480103], [59.94105161501355, 30.27969360351563], [59.93625768313655, 30.26443719863892]],
         author: 'TKMKVA_P',
         owner: 'SFSO_SPB',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 /*
     {
@@ -1296,7 +1296,7 @@ let cityMaps = [
         bounds: [[59.93625768313655, 30.347886085510257], [59.93631143060866, 30.365138053894047], [59.931183529538366, 30.347929000854496]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 */
     {
@@ -1308,7 +1308,7 @@ let cityMaps = [
         start: 'ST',
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 /*
     {
@@ -1318,7 +1318,7 @@ let cityMaps = [
         bounds: [[59.95776046458139, 30.296216011047367], [59.95777120711246, 30.308318138122562], [59.949251286263994, 30.296237468719486]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Съезжинская ул',
@@ -1327,7 +1327,7 @@ let cityMaps = [
         bounds: [[59.95693327923127, 30.29640913009644], [59.956922536428564, 30.306236743927006], [59.951636655101844, 30.29653787612915]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Невская ратуша',
@@ -1336,7 +1336,7 @@ let cityMaps = [
         bounds: [[59.93989081617548, 30.370223522186283], [59.93995530606588, 30.38676738739014], [59.93329068756564, 30.370395183563236]],
         author: 'GRBTNKV',
         owner: 'WN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 */
     {
@@ -1347,7 +1347,7 @@ let cityMaps = [
         bounds: [[60.11106573592594, 32.30748653411866], [60.11108712150635, 32.32293605804444], [60.10064930790749, 32.307572364807136]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Романовка',
@@ -1356,7 +1356,7 @@ let cityMaps = [
         bounds: [[60.05007110026554, 30.69610118865967], [60.048742712098274, 30.710756778717045], [60.04303217685753, 30.69367647171021]],
         author: 'MNKV',
         owner: 'INGR',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Всеволожск, Рябовская ул',
@@ -1366,7 +1366,7 @@ let cityMaps = [
         bounds: [[60.02645210253869, 30.66389322280884], [60.02596968751366, 30.67693948745728], [60.020426769618474, 30.66267013549805]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Всеволожский ДДЮТ',
@@ -1375,7 +1375,7 @@ let cityMaps = [
         link: './original_maps/city/vsevolozhsky_ddjut_2015_omaps.jpg',
         bounds: [[60.01723139650011, 30.606086254119877], [60.016405696178985, 30.614798069000244], [60.01224471062299, 30.604841709136966]],
         author: 'PKHMV',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Мистолово Хиллс',
@@ -1385,7 +1385,7 @@ let cityMaps = [
         bounds: [[60.12386252290126, 30.419125556945804], [60.12291122033968, 30.42948961257935], [60.11904159398472, 30.417194366455078]],
         author: ['TKMKVA_P','IVNVA_G'],
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кириши',
@@ -1395,7 +1395,7 @@ let cityMaps = [
         bounds: [[59.46372316679135, 32.00411796569825], [59.46003798998254, 32.026476860046394], [59.443416995244554, 31.992702484130863]],
         author: 'BYMKV',
         owner: 'EGRV_SRG',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кириши, ЦД "КИНЕФ"',
@@ -1403,7 +1403,7 @@ let cityMaps = [
         link: './original_maps/city/kirishi_kinef_omaps.jpg',
         bounds: [[59.458522371686364, 32.00763702392579], [59.45659231333937, 32.02115535736085], [59.44589321242389, 32.00053453445435]],
         owner: 'EGRV_SRG',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кириши, турклуб "Ассоль"',
@@ -1412,7 +1412,7 @@ let cityMaps = [
         bounds: [[59.44421333155716, 32.00315237045289], [59.44128970357717, 32.02141284942627], [59.439500493169554, 32.00010538101197]],
         author: 'MLV_AL',
         owner: 'MLV_AL',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Отечественная улица',
@@ -1422,7 +1422,7 @@ let cityMaps = [
         bounds: [[59.961724222089416, 30.48261880874634], [59.96175644581698, 30.4906439781189], [59.95812570868364, 30.482790470123295]],
         author: 'RDNV_I',
         owner: 'RDNV_I',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'улица Новоселов',
@@ -1431,7 +1431,7 @@ let cityMaps = [
         link: './original_maps/city/novoselov_2000_omaps.jpg',
         bounds: [[59.8943619318266, 30.464186668396], [59.89251063054091, 30.491480827331547], [59.88277883930378, 30.462040901184086]],
         author: 'DRBSHV',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Луга, Толмачёво - СОЛ "Красногвардеец"',
@@ -1439,7 +1439,7 @@ let cityMaps = [
         url: './maps/city/luga_krasnogvardeets_2024.webp',
         link: './original_maps/city/luga_krasnogvardeets_2024_omaps.jpg',
         bounds: [[58.86565902096061, 29.852578639984134], [58.86572558857591, 29.88564491271973], [58.857192795777856, 29.85290050506592]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'RDNV_I',
         owner: 'RDNV_I',
     },
@@ -1447,14 +1447,14 @@ let cityMaps = [
         name: 'Выборг, школа №6',
         url: './maps/city/vyborg_school_6.webp',
         bounds: [[60.71197823805762, 28.747744560241703], [60.709773772311074, 28.772420883178714], [60.705574371608165, 28.746156692504886]],
-        types: ['CITY'],
+        type: ['CITY'],
         owner: 'KOSOR',
     },
     {
         name: 'Выборг, школа №8',
         url: './maps/city/vyborg_school_8.webp',
         bounds: [[60.70654028235265, 28.76795768737793], [60.70534338865169, 28.7852954864502], [60.697446973197486, 28.765704631805423]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'SHRNN',
         owner: 'KOSOR',
     },
@@ -1463,7 +1463,7 @@ let cityMaps = [
         year: 2015,
         url: './maps/city/vyborg_school_10.webp',
         bounds: [[60.700639374682595, 28.76928806304932], [60.69904321355946, 28.79439353942871], [60.6873636243352, 28.765854835510257]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'SHRNN',
         owner: 'KOSOR',
     },
@@ -1471,7 +1471,7 @@ let cityMaps = [
         name: 'Выборг, исторический центр',
         url: './maps/city/vyborg_center.webp',
         bounds: [[60.722074857901596, 28.73645782470703], [60.712555573147064, 28.762249946594242], [60.710739556868674, 28.718218803405765]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'RYLOV_V', //Возможны соавторы
         owner: 'KOSOR',
     },
@@ -1487,7 +1487,7 @@ let cityMaps = [
         url: './maps/city/vyborg_center_2020_09_26.webp',
         link: ['https://viewer.o-gps-center.ru/newmaps/map_6254_d07a76f95f30269314187498b6cda61d.gif','https://viewer.o-gps-center.ru/newmaps/course_8201_7f78af6185476657994fa01093426a57.gif'],
         bounds: [[60.71571498693868, 28.729290962219242], [60.71430850886193, 28.74435424804688], [60.70959530894424, 28.72682332992554]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: ['TKMKVA_P','MSPN'],
         owner: 'KOSOR',
     },
@@ -1495,7 +1495,7 @@ let cityMaps = [
         name: 'Выборг, школа №37',
         url: './maps/city/vyborg_school_37.webp',
         bounds: [[60.721256331241406, 28.750748634338382], [60.720395806367094, 28.76476049423218], [60.715893416324086, 28.74933242797852]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'SHRNN',
         owner: 'KOSOR',
     },
@@ -1503,7 +1503,7 @@ let cityMaps = [
         name: 'Выборг, Батарейная гора, школа №14',
         url: './maps/city/vyborg_batareynaja_gora.webp',
         bounds: [[60.70729619225505, 28.752958774566654], [60.70749566551487, 28.771626949310306], [60.69508397193243, 28.753645420074463]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'DBRTSV_V',
         owner: 'KOSOR',
     },
@@ -1511,7 +1511,7 @@ let cityMaps = [
         name: 'Выборг, Интендантская гора',
         url: './maps/city/vyborg_intendantskaja_gora.webp',
         bounds: [[60.70828304787419, 28.740448951721195], [60.70826205126157, 28.756370544433597], [60.6982661064393, 28.73959064483643]],
-        types: ['CITY'],
+        type: ['CITY'],
         author: 'MSPN',
         owner: 'KOSOR',
     },
@@ -1519,7 +1519,7 @@ let cityMaps = [
         name: 'Каменногорск',
         url: './maps/city/kamennogorsk.webp',
         bounds: [[60.95272489511888, 29.13054943084717], [60.95256861922491, 29.136750698089603], [60.94840097893197, 29.130291938781742]],
-        types: ['CITY'],
+        type: ['CITY'],
         owner: 'KOSOR',
     },
     {
@@ -1527,7 +1527,7 @@ let cityMaps = [
         url: './maps/city/pervomayskoe.webp',
         bounds: [[60.36189868981512, 29.727180004119877], [60.36038124613785, 29.74123477935791], [60.35727185768989, 29.725227355957035]],
         author: ['TKMKV_K','TKMKVA_P'],
-        types: ['CITY'],
+        type: ['CITY'],
         owner: 'KOSOR',
     },
     {
@@ -1536,7 +1536,7 @@ let cityMaps = [
         url: './maps/city/poljany_2015.webp',
         bounds: [[60.32321898969352, 29.252021312713627], [60.3230702556585, 29.261505603790287], [60.317322228605356, 29.251356124877933]],
         author: 'SHRNN',
-        types: ['CITY'],
+        type: ['CITY'],
         owner: 'KOSOR',
     },
     {
@@ -1547,7 +1547,7 @@ let cityMaps = [
         bounds: [[59.94673679273074, 30.309519767761234], [59.946715300510945, 30.332651138305668], [59.93558045752517, 30.309433937072757]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кудрово, Оккервиль',
@@ -1556,7 +1556,7 @@ let cityMaps = [
         link: './original_maps/city/okkervil_2003_omaps.jpg',
         bounds: [[59.909104078836364, 30.486803054809574], [59.915838093527306, 30.521907806396488], [59.899097349342924, 30.495471954345707]],
         author: ['DRBSHV','FDRV_L'],
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кудрово',
@@ -1566,7 +1566,7 @@ let cityMaps = [
         bounds: [[59.91764507265457, 30.50564289093018], [59.91504213103524, 30.52851676940918], [59.905984024357714, 30.50160884857178]],
         author: 'DRBSHV',
         owner: 'VSLVSKY',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Шлиссельбург',
@@ -1576,7 +1576,7 @@ let cityMaps = [
         bounds: [[59.95011089842249, 31.029596328735355], [59.95006791834404, 31.045625209808353], [59.93890195548363, 31.029317378997806]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кронштадт, Тулонская аллея',
@@ -1586,7 +1586,7 @@ let cityMaps = [
         bounds: [[59.98903868951069, 29.79526519775391], [59.988169354424066, 29.802303314208984], [59.985625613197065, 29.794063568115238]],
         author: 'GLTV_D',
         owner: 'VOLKOV_AM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Шуваловка',
@@ -1596,7 +1596,7 @@ let cityMaps = [
         bounds: [[59.870556237946154, 29.977977275848392], [59.86987767115975, 29.985616207122806], [59.86664621077985, 29.976582527160648]],
         author: 'GLTV_D',
         owner: 'VOLKOV_AM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Дом-интернат для престарелых и инвалидов №1',
@@ -1606,7 +1606,7 @@ let cityMaps = [
         bounds: [[60.02172413160352, 30.300014019012455], [60.021391754459486, 30.30409097671509], [60.01989065475507, 30.299263000488285]],
         author: 'SVCHK',
         owner: 'VOLKOV_AM',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Волосово',
@@ -1615,7 +1615,7 @@ let cityMaps = [
         bounds: [[59.456984876505906, 29.480051994323734], [59.45526192648708, 29.492754936218265], [59.44521690678352, 29.47391510009766]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Новолисино',
@@ -1625,7 +1625,7 @@ let cityMaps = [
         bounds: [[59.57348324062961, 30.763950347900394], [59.572755152409215, 30.778691768646244], [59.566690760949385, 30.76307058334351]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Кудрово, пл Европы',
@@ -1634,7 +1634,7 @@ let cityMaps = [
         bounds: [[59.90336940811142, 30.51265954971314], [59.90284215602527, 30.52237987518311], [59.89722478765577, 30.510921478271488]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Парк Боевого братства',
@@ -1643,7 +1643,7 @@ let cityMaps = [
         bounds: [[59.92551719078374, 30.443608760833744], [59.924398861581324, 30.456075668334964], [59.91876362948221, 30.44073343276978]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'им Свердлова, 2-й мкрр-он',
@@ -1652,7 +1652,7 @@ let cityMaps = [
         bounds: [[59.78680500820933, 30.69863319396973], [59.786329896887196, 30.705199241638187], [59.78465615537929, 30.698032379150394]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Сосновый Бор, Андерсенград',
@@ -1662,7 +1662,7 @@ let cityMaps = [
         bounds: [[59.89987217157585, 29.08413648605347], [59.89966770635328, 29.097225666046146], [59.892166191012564, 29.08413648605347]],
         author: ['YGNV','MSPN','TKHNVA'],
         owner: 'YUVNT',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Сосновый Бор',
@@ -1678,7 +1678,7 @@ let cityMaps = [
         bounds: [[59.89209084438972, 29.07814979553223], [59.89078839718945, 29.091238975524906], [59.882864973849955, 29.074587821960453]],
         author: ['DBRTSV_V'],
         owner: 'YUVNT',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Сосновый Бор',
@@ -1694,7 +1694,7 @@ let cityMaps = [
         bounds: [[59.90279911466906, 29.072592258453373], [59.89999054560306, 29.08838510513306], [59.89423277461944, 29.070467948913578]],
         author: ['PPV_D'],
         owner: 'YUVNT',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Сосновый Бор',
@@ -1710,7 +1710,7 @@ let cityMaps = [
         bounds: [[59.8945126146003, 29.082570075988773], [59.89341476731317, 29.094200134277347], [59.88766662168852, 29.08016681671143]],
         author: ['PPV_D'],
         owner: 'YUVNT',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Петропавловская крепость',
@@ -1723,7 +1723,7 @@ let cityMaps = [
         bounds: [[59.953688794515855, 30.310721397399906], [59.952281319914974, 30.32381057739258], [59.94795108051587, 30.30840396881104]],
         author: 'DBRTSV_V',
         owner: 'SFSO_SPB',
-        types: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY'],
     },
     {
         name: 'Школа №110, Сиреневый бульвар',
@@ -1733,7 +1733,7 @@ let cityMaps = [
         bounds: [[60.05534127494883, 30.354495048522953], [60.054944969932734, 30.357499122619632], [60.05410950052577, 30.353980064392093]],
         author: 'KVLVA_O',
         owner: 'ZBKVA',
-        types: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY'],
     },
     {
         name: 'Школа №110, Поэтический бульвар',
@@ -1743,7 +1743,7 @@ let cityMaps = [
         bounds: [[60.042689299035956, 30.359237194061283], [60.042335702553665, 30.36254167556763], [60.04142490629978, 30.35876512527466]],
         author: 'KVLVA_O',
         owner: 'ZBKVA',
-        types: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY'],
     },
     {
         name: 'Парнас, школа №469',
@@ -1754,7 +1754,7 @@ let cityMaps = [
         bounds: [[60.081733041209084, 30.336256027221683], [60.08104808584078, 30.34286499023438], [60.078629223351655, 30.334732532501224]],
         author: 'KUZNTSV_A',
         owner: 'BLNA',
-        types: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY'],
     },
     {
         name: 'Зеленогорск',
@@ -1763,7 +1763,7 @@ let cityMaps = [
         bounds: [[60.202756832158244, 29.706709384918216], [60.20180781068867, 29.71760988235474], [60.195654499997175, 29.70561504364014]],
         owner: 'SFSO_SPB',
         restricted: 'с 01.04.2025 по 05.10.2025, Всероссийские соревнования "Невский спринт"',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'ДООЛ "Солнечный"',
@@ -1774,7 +1774,7 @@ let cityMaps = [
         bounds: [[60.19223075483243, 29.506530761718754], [60.19184676113904, 29.51359033584595], [60.18739850679926, 29.505672454833988]],
         author: ['FDRV_L','BBCH_A'],
         owner: 'IMPULS',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Университет физкультуры и спорта им.Лесгафта',
@@ -1783,7 +1783,7 @@ let cityMaps = [
         link: './original_maps/city/lesgafta_2002_omaps.jpg',
         bounds: [[59.92762470874761, 30.28458595275879], [59.92896871916807, 30.290057659149173], [59.92459242125602, 30.28743982315064]],
         author: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Университет физкультуры и спорта им.Лесгафта',
@@ -1793,7 +1793,7 @@ let cityMaps = [
         bounds: [[59.92858164974948, 30.28767585754395], [59.928130063053224, 30.29190301895142], [59.925560202692616, 30.286474227905277]],
         author: ['SHRNN','LMVA'],
         owner: ['LMVA','SHRNN'],
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Балтийский Берег',
@@ -1802,7 +1802,7 @@ let cityMaps = [
         info: '<a href="https://vk.com/wall-135156716_1808">Карта решений Trail-O</a>',
         bounds: [[59.91989290342047, 30.358357429504398], [59.91991441302732, 30.36054611206055], [59.918709853574285, 30.358357429504398]],
         owner: 'BBCH_A',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Александровская',
@@ -1813,7 +1813,7 @@ let cityMaps = [
         bounds: [[60.06019294790669, 29.97681856155396], [60.05979670114627, 29.98754739761353], [60.05102450721059, 29.974157810211185]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Александровская, СДЮШОР',
@@ -1824,7 +1824,7 @@ let cityMaps = [
         bounds: [[60.05655158243244, 29.977612495422367], [60.05633737195098, 29.98529434204102], [60.054934258920305, 29.977118968963627]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Сестрорецк, шк №324',
@@ -1835,7 +1835,7 @@ let cityMaps = [
         bounds: [[60.09938713500164, 29.975831508636475], [60.09925877572626, 29.97802019119263], [60.09698031537153, 29.975123405456547]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Сестрорецк, шк №541 и окрестности',
@@ -1846,7 +1846,7 @@ let cityMaps = [
         bounds: [[60.10098088768468, 29.96982336044312], [60.10030702850802, 29.97480154037476], [60.096958920630925, 29.96782779693604]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Сестрорецк, шк №541',
@@ -1857,7 +1857,7 @@ let cityMaps = [
         bounds: [[60.1000503166248, 29.96932983398438], [60.09938713500164, 29.973921775817875], [60.097964458422496, 29.968364238739017]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'пос Комарово',
@@ -1868,7 +1868,7 @@ let cityMaps = [
         bounds: [[60.19709428614133, 29.789471626281742], [60.19464127929003, 29.821786880493168], [60.18653438748113, 29.786381721496586]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Спорт.база "Олимпиец", СДЮСШОР им Коренькова',
@@ -1879,7 +1879,7 @@ let cityMaps = [
         bounds: [[60.19331871256902, 29.807131290435795], [60.19320138552827, 29.809877872467045], [60.191142761034, 29.80670213699341]],
         author: ['VSLVSKY','DRBSHV'],
         owner: 'VSLVSKY',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Спорт.база "Олимпиец", СДЮСШОР им Коренькова',
@@ -1890,6 +1890,6 @@ let cityMaps = [
         bounds: [[60.19344670522603, 29.807174205780033], [60.193233383853695, 29.80947017669678], [60.191484096303874, 29.80672359466553]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
-        types: ['CITY'],
+        type: ['CITY'],
     },
 ];

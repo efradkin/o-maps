@@ -9,7 +9,7 @@ let parkMaps = [
         bounds: [[60.05389527419454, 30.3008508682251], [60.050274638891295, 30.331020355224613], [60.03454490436674, 30.289993286132812]],
         author: 'DBRTSV_V',
         owner: 'SHEIN',
-        types: ['CITY'],
+        type: ['CITY'],
     },
     {
         name: 'Парк Авиаторов',
@@ -19,7 +19,7 @@ let parkMaps = [
         bounds: [[59.873033427709515, 30.297803878784183], [59.8714502016217, 30.30941247940064], [59.86461022951216, 30.293469429016117]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк Победы',
@@ -28,7 +28,7 @@ let parkMaps = [
         link: './original_maps/parks/pobedy_1984_omaps.jpg',
         bounds: [[59.87226874969168, 30.320806503295902], [59.87180562628519, 30.33831596374512], [59.864502502163894, 30.319154262542728]],
         author: 'TRSV',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк Победы',
@@ -38,7 +38,7 @@ let parkMaps = [
         link: './original_maps/parks/pobedy_2020_omaps.jpg',
         bounds: [[59.873216517019806, 30.318918228149418], [59.87246261338842, 30.34007549285889], [59.86449172940988, 30.31690120697022]],
         author: 'FDRV_L',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк Интернационалистов',
@@ -48,7 +48,7 @@ let parkMaps = [
         bounds: [[59.86276804382595, 30.392925739288334], [59.86294041640396, 30.412087440490726], [59.855441383514496, 30.39324760437012]],
         author: 'SRBRNTSKY',
         owner: 'SFSO_SPB',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк Екатерингоф',
@@ -57,7 +57,7 @@ let parkMaps = [
         link: './original_maps/parks/ekateringof_1986_omaps.jpg',
         bounds: [[59.906952348502685, 30.255017280578617], [59.90583339361939, 30.27119636535645], [59.90037794856062, 30.253279209136966]],
         author: 'CHGRVSKY_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк Екатерингоф',
@@ -68,7 +68,7 @@ let parkMaps = [
         bounds: [[59.90714600994303, 30.25347232818604], [59.9054030163161, 30.27038097381592], [59.900550126202404, 30.250597000122074]],
         author: 'GLTV_D',
         owner: 'VOLKOV_AM',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк Екатерингоф',
@@ -78,7 +78,7 @@ let parkMaps = [
         bounds: [[59.90692007148612, 30.25269985198975], [59.905940987073635, 30.270016193389893], [59.9003349040107, 30.251369476318363]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Ивановский карьер',
@@ -88,7 +88,7 @@ let parkMaps = [
         bounds: [[59.88073307822387, 30.42002677917481], [59.87866565490324, 30.4391884803772], [59.87300111772655, 30.416893959045414]],
         author: 'GLTV_D',
         owner: 'VOLKOV_AM',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Полежаевский парк, север',
@@ -96,14 +96,14 @@ let parkMaps = [
         url: './maps/parks/polezhaevsky_north_2017.webp',
         bounds: [[59.84853345120984, 30.17757654190064], [59.84579574590888, 30.212037563323978], [59.84222776838285, 30.173478126525882]],
         author: 'ZCHNV',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Полежаевский парк',
         year: 2015,
         url: './maps/parks/polezhaevsky_2015.webp',
         bounds: [[59.84651791838533, 30.179958343505863], [59.84528913795502, 30.21223068237305], [59.83302040442371, 30.177898406982425]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'ELTSV',
         owner: 'ELTSV',
     },
@@ -114,7 +114,7 @@ let parkMaps = [
         link: './original_maps/parks/polezhaevsky_2001_omaps.jpg',
         bounds: [[59.84684127411712, 30.180387496948246], [59.84563406335706, 30.21124362945557], [59.833343891273, 30.17807006835938]],
         author: 'KRCHKN_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Полюстровский парк',
@@ -124,14 +124,14 @@ let parkMaps = [
         bounds: [[59.96915633177583, 30.420584678649906], [59.968082430555185, 30.433566570281986], [59.96020967154, 30.41796684265137]],
         author: ['FDRV_L','TKMKVA_P','RDNV_I'],
         owner: 'RDNV_I',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Пулковский парк',
         year: 2024,
         url: './maps/parks/pulkovsky_2024.webp',
         bounds: [[59.84401180495004, 30.3233814239502], [59.84255116579194, 30.339174270629886], [59.832470469568456, 30.31857490539551]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'IVNVA_G',
         owner: 'ANCHKV',
     },
@@ -143,7 +143,7 @@ let parkMaps = [
         link: './original_maps/parks/sosnovka_1975_omaps.jpg',
         info: '2-е соревнования на Приз газеты Ленинские Искры.',
         bounds: [[60.02974305713079, 30.340890884399418], [60.02905702197842, 30.368185043334964], [60.01237340874599, 30.338916778564457]],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сосновка',
@@ -152,7 +152,7 @@ let parkMaps = [
         link: './original_maps/parks/sosnovka_1981_omaps.jpg',
         bounds: [[60.0331730192314, 30.33157825469971], [60.0316081431942, 30.36882877349854], [60.01155831217308, 30.327758789062504]],
         author: ['SHLKHN_Y','BZNV_A'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сосновка',
@@ -161,7 +161,7 @@ let parkMaps = [
         link: './original_maps/parks/sosnovka_1997_omaps.jpg',
         bounds: [[60.036302548936476, 30.32724380493164], [60.03370891864321, 30.371446609497074], [60.012137461804485, 30.32187938690186]],
         author: ['DBRTSV_V','SHLKHN_Y'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сосновка',
@@ -170,7 +170,7 @@ let parkMaps = [
         link: './original_maps/parks/sosnovka_2004_omaps.jpg',
         bounds: [[60.03430911566367, 30.332007408142093], [60.03190826215154, 30.37054538726807], [60.01248065679911, 30.32655715942383]],
         author: ['SHKLV','BRDR','DRBSHV'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сосновка',
@@ -178,7 +178,7 @@ let parkMaps = [
         url: './maps/parks/sosnovka_2019.webp',
         bounds: [[60.03385896892066, 30.335440635681156], [60.03184395117591, 30.37007331848145], [60.01198731287414, 30.330247879028324]],
         author: ['DBRTSV_V','SHKLV','BRDR'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сосновка',
@@ -186,7 +186,7 @@ let parkMaps = [
         url: './maps/parks/sosnovka_2014.webp',
         bounds: [[60.0321976599927, 30.329003334045414], [60.0321547863984, 30.36709070205689], [60.010485786068074, 30.32861709594727]],
         author: 'MSPN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сосновка',
@@ -196,7 +196,7 @@ let parkMaps = [
         bounds: [[60.03570238813511, 30.334196090698246], [60.03145808269312, 30.373206138610843], [60.0129310948235, 30.324754714965824]],
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Удельный парк',
@@ -205,7 +205,7 @@ let parkMaps = [
         link: './original_maps/parks/udelny_1987_omaps.jpg',
         bounds: [[60.01741369119426, 30.29788970947266], [60.015354775032456, 30.324969291687015], [60.00194723757934, 30.29338359832764]],
         author: 'VSLVSKY',
-        types: ['PARK'],
+        type: ['PARK'],
         qtty: 20
     },
     {
@@ -216,7 +216,7 @@ let parkMaps = [
         bounds: [[60.01726356622507, 30.29643058776856], [60.01499016193073, 30.331192016601566], [60.00265529149791, 30.29239654541016]],
         author: 'DBRTSV_V',
         qtty: 2,
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Удельный парк',
@@ -225,7 +225,7 @@ let parkMaps = [
         link: './original_maps/parks/udelny_2009_omaps.jpg',
         bounds: [[60.01284529757769, 30.299005508422855], [60.01089335008618, 30.322995185852054], [60.00254801157542, 30.296559333801273]],
         author: ['NKFRV_A','TKMKV_K'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Удельный парк',
@@ -233,7 +233,7 @@ let parkMaps = [
         url: './maps/parks/udelny_2022.webp',
         link: './original_maps/parks/udelny_2021_omaps.jpg',
         bounds: [[60.01657727196921, 30.293726921081547], [60.0135102204092, 30.324454307556152], [60.003470607537736, 30.288448333740238]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'LVCHV',
         owner: 'SFSO_SPB',
     },
@@ -244,7 +244,7 @@ let parkMaps = [
         link: './original_maps/parks/piskarevsky_1985_omaps.jpg',
         bounds: [[60.006560043837936, 30.395092964172367], [60.00445754217033, 30.422773361206055], [59.994801481651656, 30.39123058319092]],
         author: 'RDKV',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Пискарёвский парк',
@@ -253,7 +253,7 @@ let parkMaps = [
         link: './original_maps/parks/piskarevsky_2001_omaps.jpg',
         bounds: [[60.00640986958004, 30.395436286926273], [60.00450045170369, 30.422172546386722], [59.994597601104296, 30.39123058319092]],
         author: ['RDKV','DBRTSV_V','BRDR'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Пискарёвский парк',
@@ -261,7 +261,7 @@ let parkMaps = [
         url: './maps/parks/piskarevsky_2024.webp',
         link: './original_maps/parks/piskarevsky_2024_omaps.jpg',
         bounds: [[60.0064313230872, 30.39530754089356], [60.004586270603426, 30.422816276550297], [59.994350796655525, 30.390887260437015]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'DBRTSV_V',
         owner: 'SFSO_SPB',
     },
@@ -272,7 +272,7 @@ let parkMaps = [
         link: './original_maps/parks/lesotekchnicheskaya_1984_omaps.jpg',
         bounds: [[59.99787026863688, 30.330977439880375], [59.99596035773898, 30.35460233688355], [59.9907021683028, 30.329711437225345]],
         author: ['KLCHTSKA','AZBKNA'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк Лесотехнической академии',
@@ -281,7 +281,7 @@ let parkMaps = [
         link: './original_maps/parks/lesotekchnicheskaya_2001_omaps.jpg',
         bounds: [[59.99621788024605, 30.34260749816895], [59.99509120447892, 30.354387760162357], [59.989725555405016, 30.3403115272522]],
         author: 'GRBTNKV',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк Лесотехнической академии',
@@ -291,7 +291,7 @@ let parkMaps = [
         bounds: [[59.99796683423708, 30.330204963684086], [59.996421750809226, 30.353980064392093], [59.99045533479755, 30.328638553619385]],
         author: ['SHRNN','RDNV_I'],
         owner: 'RDNV_I',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк Лесотехнической академии',
@@ -301,7 +301,7 @@ let parkMaps = [
         bounds: [[59.997816620959405, 30.330698490142826], [59.99547749763555, 30.354430675506595], [59.99100265878074, 30.328273773193363]],
         author: ['SHRNN','ZCHNV'],
         owner: 'SFSO_SPB',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парки Пионерский и им.акд. Сахарова',
@@ -312,7 +312,7 @@ let parkMaps = [
         start: 'ST',
         author: 'DBRTSV_V',
         owner: 'SHEIN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Таврический сад',
@@ -320,7 +320,7 @@ let parkMaps = [
         url: './maps/parks/tavrichesky_2023.webp',
         bounds: [[59.94823046787108, 30.367712974548343], [59.947607215923064, 30.37899971008301], [59.943663263827155, 30.366854667663574]],
         author: 'FDRV_L',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'ЦПКиО - Елагин остров',
@@ -329,7 +329,7 @@ let parkMaps = [
         link: './original_maps/parks/elagin_1984_omaps.jpg',
         bounds: [[59.98456297985705, 30.237379074096683], [59.98181500214218, 30.273942947387695], [59.97726316222692, 30.235877037048343]],
         author: 'CHGRVSKY_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'ЦПКиО - Елагин остров',
@@ -338,7 +338,7 @@ let parkMaps = [
         bounds: [[59.98518553686155, 30.23699283599854], [59.9827167074759, 30.275316238403324], [59.97616805074679, 30.23497581481934]],
         author: ['DBRTSV_V','URVNTSV'],
         owner: 'GLFSTRM',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Александрино, север',
@@ -347,7 +347,7 @@ let parkMaps = [
         link: './original_maps/parks/aleksandrino_north_omaps.gif',
         bounds: [[59.84785443506803, 30.217809677124027], [59.84677660322206, 30.238409042358402], [59.83603949282227, 30.214891433715824]],
         author: 'URVNTSV',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Александрино, север',
@@ -358,7 +358,7 @@ let parkMaps = [
         bounds: [[59.84873823113685, 30.21570682525635], [59.84690594488651, 30.23310899734497], [59.83649233247449, 30.210664272308353]],
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Александрино, юг',
@@ -367,7 +367,7 @@ let parkMaps = [
         link: './original_maps/parks/aleksandrino_1986.jpg',
         bounds: [[59.8382605045259, 30.223817825317386], [59.83750580842855, 30.24514675140381], [59.827369660673696, 30.220642089843754]],
         author: 'VLKV_K',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Александрино, юг',
@@ -376,7 +376,7 @@ let parkMaps = [
         link: './original_maps/parks/aleksandrino_south_2007_omaps.jpg',
         bounds: [[59.83944642097526, 30.219311714172367], [59.83789393998656, 30.24615526199341], [59.82556855423608, 30.215556621551517]],
         author: ['DBRTSV_V','SHRNN'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Александровский сад',
@@ -385,7 +385,7 @@ let parkMaps = [
         url: './maps/parks/aleksandrovsky_sad_2020.webp',
         bounds: [[59.93639742638281, 30.300679206848148], [59.94020251615056, 30.310270786285404], [59.933602449579325, 30.30462741851807]],
         author: ['FDRV_L','BBCH_A'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сад 9 Января',
@@ -395,7 +395,7 @@ let parkMaps = [
         bounds: [[59.896030167287805, 30.27392148971558], [59.89523372984083, 30.28205394744873], [59.88972272059391, 30.271797180175785]],
         author: 'BVZ',
         owner: 'BVZ',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Луга, парк Зелёного Бора',
@@ -404,7 +404,7 @@ let parkMaps = [
         link: './original_maps/parks/luga_zeleny_bor_park_2019_omaps.jpg',
         bounds: [[58.70154817741037, 29.82069253921509], [58.700611802096766, 29.833266735076908], [58.6919379869104, 29.817280769348148]],
         owner: 'SHEIN',
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'TKMKV_K',
     },
     {
@@ -413,14 +413,14 @@ let parkMaps = [
         url: './maps/parks/vorontsovsky_skver_2024.webp',
         bounds: [[59.85116316078165, 30.22746562957764], [59.851120052463955, 30.243279933929447], [59.84347822095314, 30.22772312164307]],
         author: 'SVTLNV',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Новознаменка, запад',
         year: 2014,
         url: './maps/parks/novoznamenka_2014.webp',
         bounds: [[59.85326462355383, 30.101037025451664], [59.85022554227052, 30.132408142089847], [59.84259428520911, 30.097217559814457]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'ZCHNV',
         owner: 'ZCHNV',
     },
@@ -430,7 +430,7 @@ let parkMaps = [
         url: './maps/parks/english_2010.webp',
         link: './original_maps/parks/english_2010_omaps.jpg',
         bounds: [[59.88594413724038, 29.86993789672852], [59.884049301223534, 29.896545410156254], [59.87063163340102, 29.866118431091312]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'ZCHNV',
         owner: 'ZCHNV',
     },
@@ -440,7 +440,7 @@ let parkMaps = [
         url: './maps/parks/univer_old.webp',
         link: './original_maps/parks/univer_old_omaps.jpg',
         bounds: [[59.898473173843556, 29.820413589477543], [59.89748307830272, 29.85264301300049], [59.88625634417138, 29.82125043869019]],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Петергоф, Сергиевка',
@@ -451,7 +451,7 @@ let parkMaps = [
         url: './maps/parks/sergievka_1989.webp',
         link: ['./original_maps/parks/sergievka_1989_omaps.jpg','./original_maps/parks/sergievka_1989_pictures.jpg'],
         bounds: [[59.899850648980106, 29.820370674133304], [59.8984946973319, 29.853544235229496], [59.885491970278125, 29.821143150329593]],
-        types: ['PARK','FOTO'],
+        type: ['PARK','FOTO'],
     },
     {
         name: 'Петергоф, Сергиевка',
@@ -461,7 +461,7 @@ let parkMaps = [
         bounds: [[59.89976455845772, 29.824147224426273], [59.896191604983244, 29.855389595031742], [59.88712835488943, 29.81848239898682]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Знаменка',
@@ -472,7 +472,7 @@ let parkMaps = [
         link: ['./original_maps/parks/peterhof_znamenka_2023_omaps.jpg','./original_maps/parks/peterhof_znamenka_2023_pictures.pdf'],
         bounds: [[59.88422156350759, 29.948644638061527], [59.882154357168154, 29.97696876525879], [59.87274263673272, 29.945297241210938]],
         author: ['SHRNN','RYLOV_V'],
-        types: ['PARK','FOTO'],
+        type: ['PARK','FOTO'],
     },
     {
         name: 'Александрийский (Пролетарский) парк',
@@ -485,7 +485,7 @@ let parkMaps = [
         bounds: [[59.87819185228175, 29.919676780700687], [59.87765343201456, 29.946413040161136], [59.86332825143852, 29.918217658996586]],
         author: ['FDRV_L','LSNNKV','NKFRV_A','BLZRV_V'],
         owner: 'GLTV_YU',
-        types: ['PARK','FOTO'],
+        type: ['PARK','FOTO'],
     },
     {
         name: 'Сосновая поляна',
@@ -495,14 +495,14 @@ let parkMaps = [
         bounds: [[59.8368373490284, 30.12556314468384], [59.83567290383133, 30.142879486083988], [59.825784260738835, 30.122966766357425]],
         author: ['SHKLV','BRDR'],
         owner: 'SHKLV',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Южно-Приморский парк',
         year: 2021,
         url: './maps/parks/yuzhno_promorsky_2021.webp',
         bounds: [[59.85716544875492, 30.1600456237793], [59.85613102033116, 30.174851417541507], [59.847466419624396, 30.157384872436523]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'ZCHNV',
         owner: 'ZCHNV',
     },
@@ -516,7 +516,7 @@ let parkMaps = [
         bounds: [[59.844922650798985, 30.158393383026127], [59.8439417388524, 30.16927242279053], [59.83431433296779, 30.1545524597168]],
         author: 'ZCHNV',
         owner: 'ZCHNV',
-        types: ['PARK','FOTO'],
+        type: ['PARK','FOTO'],
     },
     {
         name: 'парк Литания',
@@ -529,14 +529,14 @@ let parkMaps = [
         bounds: [[59.8477358752735, 30.147514343261722], [59.84629156750396, 30.161354541778568], [59.83768909333919, 30.143458843231205]],
         author: 'ZCHNV',
         owner: 'ZCHNV',
-        types: ['PARK','FOTO'],
+        type: ['PARK','FOTO'],
     },
     {
         name: 'Полежаевский парк, юг',
         year: 2021,
         url: './maps/parks/polezhaevsky_south_2021.webp',
         bounds: [[59.840610734212255, 30.184464454650882], [59.839176898218604, 30.20021438598633], [59.827779479675755, 30.179936885833744]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'ZCHNV',
         owner: 'ZCHNV',
     },
@@ -547,7 +547,7 @@ let parkMaps = [
         bounds: [[59.56522340529709, 30.11159420013428], [59.562527651928654, 30.137000083923343], [59.544869479437935, 30.1030969619751]],
         author: ['DBRTSV_V','KTS_JU'],
         owner: 'SHEIN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Гатчина, парк Зверинец',
@@ -556,7 +556,7 @@ let parkMaps = [
         link: './original_maps/parks/gatchina_zverinets_1986_omaps.jpg',
         bounds: [[59.5939719186284, 30.07962226867676], [59.591712909974746, 30.124168395996097], [59.563245091244305, 30.073528289794925]],
         author: ['MLVA_M','MRSKY_S'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Гатчина, парк Зверинец',
@@ -567,7 +567,7 @@ let parkMaps = [
         link: './original_maps/parks/gatchina_zverinets_2005_omaps.jpg',
         bounds: [[59.58639060698327, 30.08018016815186], [59.58306645580455, 30.124039649963382], [59.56650598635047, 30.074558258056644]],
         author: ['VLKV_K','URVNTSV','MLVA_M','MRSKY_S'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк 300-летия СПб',
@@ -577,7 +577,7 @@ let parkMaps = [
         bounds: [[59.987976165748115, 30.18676042556763], [59.9856148796975, 30.213110446929935], [59.97932445028676, 30.18249034881592]],
         author: ['TKMKV_K','TKMKVA_P','IVNVA_G'],
         owner: 'SFSO_SPB',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Куракина дача',
@@ -585,7 +585,7 @@ let parkMaps = [
         url: './maps/parks/kurakina_dacha_1985.webp',
         link: './original_maps/parks/kurakina_dacha_1985_omaps.jpg',
         bounds: [[59.876619640655804, 30.448071956634525], [59.87569350859724, 30.460066795349125], [59.86858512468797, 30.445196628570557]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'CHGRVSKY_Y',
     },
     {
@@ -593,7 +593,7 @@ let parkMaps = [
         year: 2017,
         url: './maps/parks/kurakina_dacha_2017.webp',
         bounds: [[59.87665194712237, 30.448544025421146], [59.87569350859724, 30.460066795349125], [59.86858512468797, 30.445539951324466]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'DRBSHV',
         owner: 'KP31',
     },
@@ -603,7 +603,7 @@ let parkMaps = [
         url: './maps/parks/kurakina_dacha_2023.webp',
         link: './original_maps/parks/kurakina_dacha_2023_omaps.jpg',
         bounds: [[59.87711500302675, 30.447857379913334], [59.876005811825685, 30.46041011810303], [59.86784188771747, 30.44393062591553]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
     },
@@ -616,7 +616,7 @@ let parkMaps = [
         bounds: [[59.949251286263994, 30.453372001647953], [59.94772541977915, 30.4676628112793], [59.93965435217093, 30.44923067092896]],
         author: 'RDNV_I',
         owner: 'RDNV_I',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк Политеха',
@@ -624,7 +624,7 @@ let parkMaps = [
         url: './maps/parks/politekh_2022.webp',
         link: './original_maps/parks/politekh_2022_omaps.jpg',
         bounds: [[60.009649191555134, 30.36827087402344], [60.00945612827708, 30.385394096374515], [60.00235490683813, 30.367970466613773]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
     },
@@ -635,7 +635,7 @@ let parkMaps = [
         bounds: [[59.93024816649769, 30.452105998992923], [59.928850448435995, 30.473091602325443], [59.9221835982304, 30.449767112731937]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Аллея Крыленко',
@@ -645,7 +645,7 @@ let parkMaps = [
         bounds: [[59.89821489089555, 30.473778247833256], [59.9008944788082, 30.484507083892826], [59.89679429878091, 30.475172996521]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Кудрово, западные окраины',
@@ -655,7 +655,7 @@ let parkMaps = [
         bounds: [[59.912105509712376, 30.490279197692875], [59.91064248053053, 30.50559997558594], [59.90486503684274, 30.488262176513675]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['PARK'],
+        type: ['PARK'],
         zindex: 2
     },
     {
@@ -665,7 +665,7 @@ let parkMaps = [
         link: './original_maps/parks/krestovsky_1985_omaps.jpg',
         bounds: [[59.97831529404201, 30.21527767181397], [59.975803005537834, 30.262012481689457], [59.9683723873162, 30.212874412536625]],
         author: ['CHGRVSKY_V','CHGRVSKA_O'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Крестовский о-в - юг',
@@ -673,7 +673,7 @@ let parkMaps = [
         url: './maps/parks/krestovsky_south_2023.webp',
         bounds: [[59.97251741755084, 30.24821519851685], [59.97133624417131, 30.26769876480103], [59.96627819811851, 30.244867801666263]],
         author: 'CHSNKV',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Крестовский о-в',
@@ -682,7 +682,7 @@ let parkMaps = [
         bounds: [[59.97625394315225, 30.23162841796875], [59.974686371680654, 30.249352455139164], [59.969854348897655, 30.229310989379886]],
         author: ['DBRTSV_V','FDRV_I'],
         owner: 'GLFSTRM',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Северомуринский парк',
@@ -691,7 +691,7 @@ let parkMaps = [
         link: './original_maps/parks/severomurinsky_1999_omaps.jpg',
         bounds: [[60.035745257125406, 30.36558866500855], [60.03470566842663, 30.39204597473145], [60.02675226833321, 30.36380767822266]],
         author: ['SHRNN','FRSHLVA'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Муринский парк, центр',
@@ -699,7 +699,7 @@ let parkMaps = [
         url: './maps/parks/murinsky_center_2014.webp',
         bounds: [[60.031222271957226, 30.39024353027344], [60.03017182186756, 30.410585403442386], [60.02412572517976, 30.389170646667484]],
         author: ['SHRNN','FRSHLVA'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
 /*
     {
@@ -708,7 +708,7 @@ let parkMaps = [
         url: './maps/parks/murinsky_north_2019.webp',
         bounds: [[60.036527606425715, 30.366189479827884], [60.0340411719127, 30.38573741912842], [60.03137233352936, 30.364451408386234]],
         author: 'KUZNTSV_A',
-        types: ['PARK'],
+        type: ['PARK'],
     },
 */
     {
@@ -717,7 +717,7 @@ let parkMaps = [
         url: './maps/parks/murinsky_sampo_2012.webp',
         bounds: [[60.03597031841169, 30.3663182258606], [60.03272285700718, 30.392239093780518], [60.023857698834135, 30.36056756973267]],
         author: ['SHRNN','MSPN'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Муринский парк, запад',
@@ -726,7 +726,7 @@ let parkMaps = [
         link: './original_maps/parks/murinsky_north_2010_omaps.jpg',
         bounds: [[60.036034621354716, 30.365953445434574], [60.03348384194909, 30.392346382141117], [60.02996815931137, 30.363485813140873]],
         author: 'MSPN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Муринский парк, восток',
@@ -734,7 +734,7 @@ let parkMaps = [
         url: './maps/parks/murinsky_east_2023.webp',
         link: ['./original_maps/parks/murinsky_east_2018_st_omaps.gif','./original_maps/parks/murinsky_east_2023_omaps.gif'],
         bounds: [[60.025712396620634, 30.40728092193604], [60.02525141209402, 30.430841445922855], [60.017563815481694, 30.407409667968754]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: ['SHRNN','CHGRVSKY_M'],
         owner: ['SHRNN','CHGRVSKY_M'],
         start: 'ST'
@@ -745,7 +745,7 @@ let parkMaps = [
         url: './maps/parks/murinsky_2020.webp',
         link: './original_maps/parks/murinsky_2020_omaps.jpg',
         bounds: [[60.0369241325567, 30.366210937500004], [60.03225125190731, 30.41346073150635], [60.0264199417561, 30.36230564117432]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: 'KUZNTSV_A',
         owner: 'KUZNTSV_A',
     },
@@ -756,7 +756,7 @@ let parkMaps = [
         link: './original_maps/parks/novoorlovsky_1989_omaps.jpg',
         bounds: [[60.05668010805396, 30.267505645751957], [60.055994632288844, 30.296216011047367], [60.038424458619865, 30.26518821716309]],
         author: 'KUZNTSV_V',
-        types: ['PARK'],
+        type: ['PARK'],
         qtty: 2,
     },
     {
@@ -767,7 +767,7 @@ let parkMaps = [
         bounds: [[60.05858651266601, 30.269222259521488], [60.05674437067704, 30.294284820556644], [60.046953588726694, 30.266175270080566]],
         info: 'Ковидный полигон от O-Time.',
         author: 'DBRTSV_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Невский лесопарк',
@@ -776,7 +776,7 @@ let parkMaps = [
         link: './original_maps/parks/nevsky_1990_omaps.jpg',
         bounds: [[59.847487976156614, 30.581130981445316], [59.83593167294976, 30.61748027801514], [59.82842655204491, 30.559458732604984]],
         author: ['OSMCHN','ANSFRV','FDRV_L'],
-        types: ['PARK'],
+        type: ['PARK'],
         qtty: 10
     },
     {
@@ -786,7 +786,7 @@ let parkMaps = [
         link: './original_maps/parks/nevsky_2007_omaps.jpg',
         bounds: [[59.837419556356814, 30.56602478027344], [59.834551547747445, 30.59846878051758], [59.825493056630116, 30.56233406066895]],
         author: ['VLKV_K','URVNTSV'],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Невский лесопарк',
@@ -796,14 +796,14 @@ let parkMaps = [
         bounds: [[59.835403350527976, 30.566668510437015], [59.83443294056883, 30.584585666656498], [59.825751904852474, 30.56428670883179]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Колпино, Чухонка',
         year: 2020,
         url: './maps/parks/kolpino_chuhonka_2020.webp',
         bounds: [[59.73920630976902, 30.589885711669925], [59.73907654981489, 30.60121536254883], [59.730143528979355, 30.589885711669925]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: ['SRBRNTSKY','BBCH_A'],
         owner: 'BBCH_A',
     },
@@ -812,7 +812,7 @@ let parkMaps = [
         year: 2019,
         url: './maps/parks/kolpino_nikolsky_skver_2019.webp',
         bounds: [[59.74800718414132, 30.594584941864017], [59.74740179281272, 30.6049919128418], [59.740493068716916, 30.592632293701175]],
-        types: ['PARK'],
+        type: ['PARK'],
         author: ['DRBSHV','BBCH_A'],
         owner: 'BBCH_A',
     },
@@ -824,7 +824,7 @@ let parkMaps = [
         bounds: [[59.703265193681084, 30.442900657653812], [59.70060215436709, 30.486330986022953], [59.68739208083911, 30.439124107360843]],
         author: ['VLKV_K','URVNTSV'],
         owner: 'SFSO_SPB',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'парк Мариенталь',
@@ -834,7 +834,7 @@ let parkMaps = [
         bounds: [[59.686298226434495, 30.44124841690064], [59.68455448368165, 30.458006858825687], [59.67956102878865, 30.438480377197266]],
         author: 'SHRNN',
         owner: 'EGRV_EGR',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Буферный парк',
@@ -844,7 +844,7 @@ let parkMaps = [
         bounds: [[59.7484828410627, 30.392925739288334], [59.74888282005145, 30.416636466979984], [59.740806641122326, 30.39348363876343]],
         author: 'SHRNN',
         owner: 'EGRV_EGR',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Баболовский парк',
@@ -854,7 +854,7 @@ let parkMaps = [
         bounds: [[59.7288671883041, 30.347971916198734], [59.72592492931705, 30.38376331329346], [59.70430437107323, 30.339989662170414]],
         author: 'NGN',
         owner: 'EGRV_EGR',
-        types: ['PARK'],
+        type: ['PARK'],
     },
 /*
     {
@@ -864,7 +864,7 @@ let parkMaps = [
         link: './original_maps/parks/pushkin_nizhny_2007_omaps.jpg',
         bounds: [[59.71666377798951, 30.418567657470707], [59.71430480410615, 30.44144153594971], [59.698675107646665, 30.412945747375492]],
         author: 'NGN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
 */
     {
@@ -875,7 +875,7 @@ let parkMaps = [
         bounds: [[59.71254087551759, 30.416936874389652], [59.710365596287126, 30.440776348114017], [59.700450592913356, 30.412044525146484]],
         author: ['SHRNN', 'RDNV_B','NGN'],
         owner: 'SHRNN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Александровский парк',
@@ -884,7 +884,7 @@ let parkMaps = [
         bounds: [[59.72566530580253, 30.378935337066654], [59.72360988184809, 30.39822578430176], [59.71574401437546, 30.374794006347656]],
         author: ['TKMKVA_P','IVNVA_G'],
         owner: 'EGRV_EGR',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сестрорецк, парк "Дубки"',
@@ -893,7 +893,7 @@ let parkMaps = [
         link: './original_maps/parks/sestroretsk_dubki_old_omaps.jpg',
         bounds: [[60.0966914852013, 29.919505119323734], [60.09602823596937, 29.955124855041507], [60.08699816046266, 29.918732643127445]],
         author: 'MLVA_M',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сестрорецк, парк "Дубки"',
@@ -902,7 +902,7 @@ let parkMaps = [
         link: './original_maps/parks/sestroretsk_dubki_1985_omaps.jpg',
         bounds: [[60.09512961893958, 29.917917251586918], [60.09416678778534, 29.946155548095707], [60.08676274626006, 29.9168872833252]],
         author: 'VLKV_K',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сестрорецк, парк "Дубки"',
@@ -913,7 +913,7 @@ let parkMaps = [
         bounds: [[60.09510822299736, 29.92083549499512], [60.09290436653909, 29.945726394653324], [60.08755458734924, 29.918475151062015]],
         author: ['DBRTSV_V','VSLVSKY'],
         owner: 'VSLVSKY',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сестрорецк, парк "Дубки"',
@@ -923,14 +923,14 @@ let parkMaps = [
         bounds: [[60.09616730546285, 29.921779632568363], [60.09412399463667, 29.94609117507935], [60.0876936926033, 29.918518066406254]],
         author: 'DBRTSV_V',
         owner: 'SFSO_SPB',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'сквер Генерала Андреева',
         year: 2023,
         url: './maps/parks/sestroretsk_skver_generala_andreeva_2023.webp',
         bounds: [[60.109536630930116, 29.96332168579102], [60.10845124409252, 29.972677230834964], [60.106504943636345, 29.96155142784119]],
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'сквер Генерала Андреева',
@@ -941,7 +941,7 @@ let parkMaps = [
         bounds: [[60.10858491435359, 29.964909553527836], [60.10803953627969, 29.972870349884037], [60.106542373575884, 29.96433019638062]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'сквер Пограничников',
@@ -952,7 +952,7 @@ let parkMaps = [
         bounds: [[60.11275515399254, 29.971089363098148], [60.110199608247775, 29.985723495483402], [60.105922100518434, 29.96630430221558]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Тарховский парк',
@@ -963,7 +963,7 @@ let parkMaps = [
         bounds: [[60.073277127090826, 29.95010375976563], [60.070322397877064, 29.97782707214356], [60.05963605921225, 29.946455955505375]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'сквер Пограничников',
@@ -973,7 +973,7 @@ let parkMaps = [
         bounds: [[60.1135249866435, 29.969716072082523], [60.11173937503819, 29.984629154205326], [60.10518417425355, 29.965231418609623]],
         author: 'KUZNTSV_A',
         owner: 'KUZNTSV_R',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Охтинский (Ржевский) лесопарк',
@@ -982,7 +982,7 @@ let parkMaps = [
         link: './original_maps/parks/rzhevsky_1981_omaps.jpg',
         bounds: [[59.97378444761395, 30.494699478149418], [59.97056308969253, 30.545983314514164], [59.954064827230084, 30.48989295959473]],
         author: 'OSMCHN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Охтинский (Ржевский) лесопарк',
@@ -992,7 +992,7 @@ let parkMaps = [
         bounds: [[59.97910973876822, 30.492811203002933], [59.97554532414374, 30.56233406066895], [59.94628545318887, 30.48585891723633]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['PARK'],
+        type: ['PARK'],
         qtty: 2
     },
     {
@@ -1003,7 +1003,7 @@ let parkMaps = [
         bounds: [[59.98001151778878, 30.49615859985352], [59.972538893040515, 30.55855751037598], [59.95165814413096, 30.484828948974613]],
         author: 'RDNV_I',
         owner: 'RDNV_I',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сосновый Бор',
@@ -1014,7 +1014,7 @@ let parkMaps = [
         bounds: [[59.90344472915467, 29.072313308715824], [59.901314153719255, 29.097247123718265], [59.88372630703435, 29.06510353088379]],
         author: ['DBRTSV_V','PPV_D','MSPN','TKHNVA'],
         owner: 'YUVNT',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сосновый Бор, "Белые пески"',
@@ -1024,7 +1024,7 @@ let parkMaps = [
         bounds: [[59.903068122230074, 29.072527885437015], [59.900453276388724, 29.091324806213382], [59.8942543008555, 29.06739950180054]],
         author: 'SHRNN',
         owner: 'YUVNT',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Новое Девяткино',
@@ -1034,7 +1034,7 @@ let parkMaps = [
         bounds: [[60.05669081849984, 30.473477840423588], [60.05640163524139, 30.47938942909241], [60.05402381016011, 30.472801923751835]],
         author: 'TKMKVA_P',
         owner: 'SHEIN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Всеволожск, трамплин',
@@ -1044,7 +1044,7 @@ let parkMaps = [
         bounds: [[60.03621681234677, 30.637307167053223], [60.035423738342054, 30.649430751800537], [60.02856392541414, 30.634796619415287]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Всеволожск, парк Песчанка',
@@ -1054,7 +1054,7 @@ let parkMaps = [
         bounds: [[60.034400216043906, 30.64094424247742], [60.0335427907553, 30.649087429046634], [60.03056842429522, 30.63917398452759]],
         author: 'DBRTSV_V',
         owner: 'INGR',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Всеволожск, парк Софиевка',
@@ -1064,7 +1064,7 @@ let parkMaps = [
         bounds: [[60.010142570366924, 30.616922378540043], [60.00904854654385, 30.633594989776615], [60.00500463455073, 30.615613460540775]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Тосно',
@@ -1074,7 +1074,7 @@ let parkMaps = [
         bounds: [[59.53418744665217, 30.86621761322022], [59.533436748788205, 30.882761478424076], [59.52739791868607, 30.865123271942142]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Тосно',
@@ -1084,7 +1084,7 @@ let parkMaps = [
         bounds: [[59.53415480796226, 30.866625308990482], [59.53348026796151, 30.88239669799805], [59.52749585429027, 30.865445137023926]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Приозерск, крепость Карела',
@@ -1094,7 +1094,7 @@ let parkMaps = [
         bounds: [[61.032226926267995, 30.121947526931766], [61.03167093183312, 30.12731194496155], [61.02892199371037, 30.12032747268677]],
         author: 'MKHLV_A',
         owner: 'VST_PRZRSK',
-        types: ['PARK','FOTO'],
+        type: ['PARK','FOTO'],
     },
     {
         name: 'Приозерск, КЦ "Карнавал"',
@@ -1103,7 +1103,7 @@ let parkMaps = [
         author: 'PSHKV',
         bounds: [[61.040202035371664, 30.140733718872074], [61.04305388390088, 30.149917602539066], [61.0382227328721, 30.142976045608524]],
         owner: 'VST_PRZRSK',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Приозерск, набережная',
@@ -1112,7 +1112,7 @@ let parkMaps = [
         author: 'PSHKV',
         bounds: [[61.03406111916813, 30.140036344528202], [61.03340643359281, 30.15008926391602], [61.031852800244216, 30.139381885528568]],
         owner: 'VST_PRZRSK',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Зеленогорск, Центральный парк',
@@ -1123,7 +1123,7 @@ let parkMaps = [
         author: 'SVCHK',
         owner: 'SFSO_SPB',
         restricted: 'с 01.04.2025 по 07.10.2025, Всероссийские соревнования "Невский спринт"',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Всеволожск, Румболовский парк',
@@ -1132,7 +1132,7 @@ let parkMaps = [
         bounds: [[60.04408221803971, 30.6304407119751], [60.04324647368814, 30.647134780883793], [60.034877149228116, 30.62846660614014]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Всеволожск, Румболовский парк',
@@ -1141,7 +1141,7 @@ let parkMaps = [
         link: './original_maps/parks/vsevolozhsk_rumbolovo_2001_omaps.jpg',
         bounds: [[60.04438222367325, 30.627179145812992], [60.04418936322172, 30.645632743835453], [60.03450203381863, 30.62700748443604]],
         author: 'KUZNTSV_S',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Всеволожск, Румболовский парк',
@@ -1150,7 +1150,7 @@ let parkMaps = [
         bounds: [[60.04215354531248, 30.63297271728516], [60.04129632127576, 30.651855468750004], [60.03469495084697, 30.631041526794437]],
         author: ['KUZNTSV_S','MSPN','GRBTNKV'],
         owner: 'WN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'парк Есенина',
@@ -1159,7 +1159,7 @@ let parkMaps = [
         link: './original_maps/parks/esenina_1999_omaps.jpg',
         bounds: [[59.91332106580055, 30.47620296478272], [59.915429358415565, 30.485000610351566], [59.90658654047794, 30.482554435729984]],
         author: 'FDRV_L',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'парк Есенина',
@@ -1167,7 +1167,7 @@ let parkMaps = [
         url: './maps/parks/esenina_2014.webp',
         bounds: [[59.91496683629783, 30.47916412353516], [59.914568846991216, 30.49088001251221], [59.907264358045, 30.478713512420658]],
         author: 'DRBSHV',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Шуваловский лесопарк',
@@ -1177,7 +1177,7 @@ let parkMaps = [
         bounds: [[60.08453692889112, 30.291752815246586], [60.08190427782784, 30.32033443450928], [60.06931601663244, 30.28668880462647]],
         author: 'KUZNTSV_A',
         owner: 'NW',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Шуваловский парк',
@@ -1187,7 +1187,7 @@ let parkMaps = [
         link: './original_maps/parks/shuvalovsky_park_1988_omaps.jpg',
         bounds: [[60.08522181178067, 30.27892112731934], [60.082739043608704, 30.322523117065433], [60.0687806949504, 30.272741317749027]],
         author: ['VLKV_A','SHVR'],
-        types: ['PARK'],
+        type: ['PARK'],
         qtty: 12
     },
     {
@@ -1198,7 +1198,7 @@ let parkMaps = [
         bounds: [[60.08877441342627, 30.29316902160645], [60.08644172418347, 30.32308101654053], [60.068395257960205, 30.28587341308594]],
         author: ['DBRTSV_V','DRBSHV'],
         qtty: 2,
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Шуваловский лесопарк',
@@ -1207,7 +1207,7 @@ let parkMaps = [
         bounds: [[60.08295308271218, 30.29492855072022], [60.08064138685821, 30.320463180541996], [60.07400506321456, 30.291795730590824]],
         author: 'MKHLV_A',
         owner: 'WN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Малиновка',
@@ -1216,7 +1216,7 @@ let parkMaps = [
         link: './original_maps/parks/malinovka_2003_omaps.jpg',
         bounds: [[59.944598248579176, 30.462234020233158], [59.94790809763683, 30.47519445419312], [59.94125582542067, 30.465517044067386]],
         author: 'DRBSHV',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Малиновка',
@@ -1226,7 +1226,7 @@ let parkMaps = [
         bounds: [[59.944404805621396, 30.46242713928223], [59.94772541977915, 30.475344657897953], [59.94165349470951, 30.46543121337891]],
         author: ['FDRV_L','VSLVSKY'],
         owner: 'VSLVSKY',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Малиновка',
@@ -1238,7 +1238,7 @@ let parkMaps = [
         bounds: [[59.948810726392544, 30.46468019485474], [59.94725260182579, 30.4786491394043], [59.942201625641374, 30.46195507049561]],
         author: 'RDNV_I',
         owner: 'RDNV_I',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'парк Бабушкина',
@@ -1247,7 +1247,7 @@ let parkMaps = [
         link: './original_maps/parks/babushkina_1999_omaps.jpg',
         bounds: [[59.88530894856813, 30.433888435363773], [59.884652215311405, 30.44545412063599], [59.88141142348299, 30.433030128479007]],
         author: 'DRBSHV',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Парк Бенуа',
@@ -1256,7 +1256,7 @@ let parkMaps = [
         bounds: [[60.021584748046855, 30.36882877349854], [60.0208020448489, 30.37582397460938], [60.01669522980843, 30.36633968353272]],
         author: 'RYLOV_V',
         owner: 'SHLKHN_AN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'сад Бенуа',
@@ -1266,7 +1266,7 @@ let parkMaps = [
         bounds: [[60.021145149902296, 30.367112159729007], [60.02122020365796, 30.374364852905277], [60.01642714320145, 30.367026329040527]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сквер Маршала Говорова',
@@ -1275,7 +1275,7 @@ let parkMaps = [
         bounds: [[59.9209683666848, 30.31458377838135], [59.92100063004424, 30.317759513854984], [59.919871393799674, 30.314455032348636]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Юсуповский сад',
@@ -1285,7 +1285,7 @@ let parkMaps = [
         bounds: [[59.924947277727036, 30.309712886810306], [59.9245279014899, 30.317008495330814], [59.921559856624285, 30.309004783630375]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Польский сад',
@@ -1295,7 +1295,7 @@ let parkMaps = [
         bounds: [[59.91943044350125, 30.309884548187256], [59.91907552802983, 30.31357526779175], [59.91696746701024, 30.30885457992554]],
         author: 'SHRNN',
         owner: 'VOLKOV_AM',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Измайловский сад',
@@ -1305,7 +1305,7 @@ let parkMaps = [
         bounds: [[59.92028007421066, 30.311944484710697], [59.919935922620226, 30.314497947692875], [59.91864532236978, 30.311236381530765]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Лопухинский сад',
@@ -1314,7 +1314,7 @@ let parkMaps = [
         bounds: [[59.97889502585721, 30.302932262420658], [59.97830455817192, 30.309455394744877], [59.97581374221907, 30.301988124847416]],
         author: 'LMVA',
         owner: 'SHRNN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сад Олимпия',
@@ -1324,7 +1324,7 @@ let parkMaps = [
         bounds: [[59.91420312288064, 30.318424701690677], [59.914170852912726, 30.321300029754642], [59.91180430309269, 30.318446159362797]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        types: ['PARK'],
+        type: ['PARK'],
         zindex: 2
     },
     {
@@ -1335,7 +1335,7 @@ let parkMaps = [
         bounds: [[59.923721393827826, 30.331149101257328], [59.92266752760656, 30.340633392333988], [59.91855928056855, 30.328745841979984]],
         author: 'SHRNN',
         owner: 'VOLKOV_AM',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Кириши, сквер Спортивный',
@@ -1344,7 +1344,7 @@ let parkMaps = [
         bounds: [[59.454520376667574, 32.026691436767585], [59.45308085117713, 32.0353388786316], [59.44722396790875, 32.02255010604859]],
         author: 'MLV_AL',
         owner: 'MLV_AL',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Осиновецкий редут',
@@ -1354,7 +1354,7 @@ let parkMaps = [
         bounds: [[60.11069148602039, 30.260059833526615], [60.11002851860477, 30.26615381240845], [60.10797537355959, 30.25920152664185]],
         author: 'GLTV_D',
         owner: 'VOLKOV_AM',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Ботанический Сад',
@@ -1364,7 +1364,7 @@ let parkMaps = [
         bounds: [[59.973011350290115, 30.32185792922974], [59.97190536024053, 30.33357381820679], [59.96867308053542, 30.320484638214115]],
         author: ['IVNVA_G','TKMKVA_P'],
         owner: 'VOLKOV_AM',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Каменноостровский дворец',
@@ -1374,7 +1374,7 @@ let parkMaps = [
         bounds: [[59.981578837162644, 30.300507545471195], [59.980966947332675, 30.30636548995972], [59.97939959898928, 30.299735069274906]],
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Стрельна, Константиновский парк',
@@ -1383,7 +1383,7 @@ let parkMaps = [
         link: ['./original_maps/parks/konstantinovsky_1998_omaps.jpg','./original_maps/parks/konstantinovsky_1998.ocd'],
         bounds: [[59.862746497190884, 30.045032501220707], [59.861119685936934, 30.068485736846924], [59.85177744824139, 30.041277408599857]],
         author: 'TMKN',
-        types: ['PARK'],
+        type: ['PARK'],
     },
     {
         name: 'Сквер Конашевича',
@@ -1393,7 +1393,7 @@ let parkMaps = [
         bounds: [[60.04961045558399, 30.362391471862797], [60.04897839777023, 30.368185043334964], [60.04721071421861, 30.361211299896244]],
         author: 'KVLVA_O',
         owner: 'ZBKVA',
-        types: ['SPRINT', 'PARK'],
+        type: ['SPRINT', 'PARK'],
     },
     {
         name: 'Сад "Василеостровец"',
@@ -1404,7 +1404,7 @@ let parkMaps = [
         bounds: [[59.93639742638281, 30.254116058349613], [59.93628993163026, 30.25997400283814], [59.93215111872277, 30.254373550415043]],
         author: 'FDRV_L',
         owner: 'VOLKOV_AM',
-        types: ['SPRINT', 'PARK'],
+        type: ['SPRINT', 'PARK'],
     },
     {
         name: 'Сад "Прометей"',
@@ -1414,7 +1414,7 @@ let parkMaps = [
         bounds: [[60.0424214232607, 30.38427829742432], [60.04187494994124, 30.392346382141117], [60.03752427116003, 30.382883548736576]],
         author: 'TKMKVA_P',
         owner: 'TKMKVA_P',
-        types: ['SPRINT', 'PARK'],
+        type: ['SPRINT', 'PARK'],
     },
     {
         name: 'Заневский парк (им Терешковой)',
@@ -1424,6 +1424,6 @@ let parkMaps = [
         bounds: [[59.922882605063975, 30.409061908721927], [59.92203304098512, 30.421893596649173], [59.91713955864316, 30.407559871673588]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
-        types: ['PARK'],
+        type: ['PARK'],
     },
 ];

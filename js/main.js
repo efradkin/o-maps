@@ -59,7 +59,7 @@ if (MAP_NAME_PARAM) {
 }
 if (!ONLY_MAP_NAME_PARAM) {
     for (const m of oMaps) {
-        if (!TYPE_PARAM || (m.types.includes(TYPE_PARAM))) {
+        if (!TYPE_PARAM || (m.type.includes(TYPE_PARAM))) {
             loadMap(m);
         }
     }
@@ -82,7 +82,11 @@ if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
 function buildTrackText(t, gpx) {
 
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
-    result += '<div class="popup-header popup-right-header">ROUTE</div>';
+    let typesList = getTypesList(t);
+    if (!typesList) {
+        typesList = 'МАРШРУТ';
+    }
+    result += '<div class="popup-header popup-right-header">' + typesList + '</div>';
 
     // картинка
     let pic;
@@ -125,7 +129,7 @@ if (mapElement) {
     if (MAP_NAME_PARAM) {
         let m = getMapForName(MAP_NAME_PARAM);
         if (m) {
-            let mapType = m.types;
+            let mapType = m.type;
             if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN') || mapType.includes('FOTO'))) {
                 activeLayers.push(funGroup, rogaineGroup);
             } else
@@ -856,20 +860,6 @@ function mapLogoList(m) {
     return logo;
 }
 
-function getTypesList(m) {
-    let list;
-    if (m.types.length > 0 || m.excluded) {
-        let types = [
-            ...m.types
-        ];
-        if (m.excluded) {
-            types.push('EXCLUDED');
-        }
-        list = types.join(', ');
-    }
-    return list;
-}
-
 function buildPopupText(m, latLngs) {
 
     const LOGO_CAROUSEL_TEMPLATE = `
@@ -936,7 +926,7 @@ function buildPopupText(m, latLngs) {
 
     // инфа о карте
     let info = '';
-    if (m.types.includes('FOTO')) {
+    if (m.type && m.type.includes('FOTO')) {
         info += '<b>Фото-ориентирование.</b> ';
     }
     if (m.start) {

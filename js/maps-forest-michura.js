@@ -8,7 +8,6 @@ let michuraMaps = [
         link: './original_maps/forest/michura/michurinskoe_1989_omaps.jpg',
         bounds: [[60.633300851533505, 29.859809875488285], [60.61957621993714, 30.004177093505863], [60.56976490459024, 29.835605621337894]],
         author: 'BYMKV',
-        types: [],
         qtty: 100
     },
     {
@@ -18,7 +17,6 @@ let michuraMaps = [
         link: './original_maps/forest/michura/yagodnoe_1990_omaps.jpg',
         bounds: [[60.63704674527589, 29.95044708251953], [60.63090156734067, 30.02451896667481], [60.61254324110497, 29.94186401367188]],
         author: 'BYMKV',
-        types: [],
     },
     {
         name: 'Ягодное',
@@ -29,7 +27,6 @@ let michuraMaps = [
         bounds: [[60.63052271667331, 29.883584976196293], [60.62416578048736, 29.952764511108402], [60.601717038799606, 29.87337112426758]],
         author: ['BYMKV','VSLVSKY','DRBSHV','FDRV_L','FLCHKN','RBKV_D','DRZDVA','KSNFNTVA','ZRNA','BZNVA_E'],
         areas: [70,5,10,5,2,2,1,1,1,1],
-        types: [],
         qtty: 3
     },
     {
@@ -40,7 +37,6 @@ let michuraMaps = [
         bounds: [[60.6256393540837, 29.92907524108887], [60.61978676452859, 30.005121231079105], [60.58578707547604, 29.915943145751957]],
         author: ['BYMKV','PVLV_M','GRBTNKV','VNGRDV_K','SMNV_K','BKKLV','NKSHN','CHRNV_G','SKBLV_A'],
         areas: [55,5,10,5,5,5,5,5,5],
-        types: [],
         qtty: 10
     },
     {
@@ -51,7 +47,6 @@ let michuraMaps = [
         bounds: [[60.6080783992359, 29.91233825683594], [60.600958647299585, 29.997868537902836], [60.57048185567935, 29.898004531860355]],
         author: ['BYMKV','PVLV_M','GRBTNKV','VNGRDV_K','SMNV_K','BKKLV','NKSHN'],
         areas: [65,10,5,5,5,5,5],
-        types: [],
         qtty: 10
     },
     {
@@ -62,7 +57,6 @@ let michuraMaps = [
         link: './original_maps/forest/michura/zhuravlevskoe_1992_omaps.jpg',
         bounds: [[60.6315750686474, 29.813547134399418], [60.6264813659105, 29.888048171997074], [60.603275898710784, 29.80470657348633]],
         author: ['BYMKV','FLCHKN'],
-        types: [],
         qtty: 2
     },
     {
@@ -75,7 +69,6 @@ let michuraMaps = [
         bounds: [[60.62761804700513, 29.85294342041016], [60.62326055189589, 29.91010665893555], [60.600263439440035, 29.84466075897217]],
         author: ['BYMKV','VSLVSKY','DRBSHV','FDRV_L'],
         areas: [70,5,15,10],
-        types: [],
         qtty: 100
     },
     {
@@ -85,7 +78,6 @@ let michuraMaps = [
         link: './original_maps/forest/michura/michurinskoe_sw_1991_omaps.jpg',
         bounds: [[60.59185655953876, 29.84169960021973], [60.5904657368445, 29.883327484130863], [60.56930098658817, 29.83818054199219]],
         author: ['KNSTNTNV_D','EGRV_A'],
-        types: [],
     },
     {
         name: 'Коробицыно',
@@ -94,7 +86,6 @@ let michuraMaps = [
         link: './original_maps/forest/michura/korobitsyno_2018_omaps.jpg',
         bounds: [[60.54723610930417, 29.801445007324222], [60.54394407261173, 29.87465858459473], [60.5113855334377, 29.794406890869144]],
         owner: 'KURD',
-        types: [],
         author: ['DJCHKV','STLV_S','PPV_D'],
     },
     {
@@ -105,7 +96,6 @@ let michuraMaps = [
         bounds: [[60.52945302025571, 29.753143787384037], [60.52875627309598, 29.764494895935062], [60.52086931681358, 29.751234054565433]],
         author: 'DBRTSV_V',
         owner: 'SHEIN',
-        types: [],
     },
     {
         name: 'Петриченко, Светлое оз',
@@ -115,7 +105,6 @@ let michuraMaps = [
         photo: './tracks/berestovoe/pic_1.jpg',
         bounds: [[60.60927891271937, 29.877018928527836], [60.603486549681946, 29.936757087707523], [60.58865336285576, 29.868822097778324]],
         author: 'BYMKV',
-        types: [],
     },
 /*
     {
@@ -123,7 +112,6 @@ let michuraMaps = [
         url: './maps/forest/michura/michurinskoe.webp',
         bounds: [[60.59244658743532, 29.848051071166996], [60.58781036355805, 29.913797378540043], [60.56795136908784, 29.84066963195801]],
         owner: 'WN',
-        types: [],
     },
 */
 /*
@@ -133,7 +121,6 @@ let michuraMaps = [
         url: './maps/forest/michura/petrichenko_2024.webp',
         bounds: [[60.60196983200712, 29.854745864868168], [60.59645006341276, 29.930276870727543], [60.57512056662774, 29.846506118774418]],
         owner: 'WN',
-        types: [],
     },
 */
 /*
@@ -143,7 +130,6 @@ let michuraMaps = [
         url: './maps/forest/michura/uzornoe_oz_2010.webp',
         bounds: [[60.60510851611638, 29.94482517242432], [60.60142211088886, 29.997310638427738], [60.58715702396935, 29.93937492370606]],
         owner: 'WN',
-        types: [],
     },
 */
 /*
@@ -153,7 +139,6 @@ let michuraMaps = [
         url: './maps/forest/michura/dolgoe_oz_2010.webp',
         bounds: [[60.59244658743532, 29.915428161621097], [60.589032705361774, 29.967613220214847], [60.57501514877231, 29.910192489624027]],
         owner: 'WN',
-        types: [],
     },
 */
 /*
@@ -162,7 +147,6 @@ let michuraMaps = [
         url: './maps/forest/michura/yagodnoe_berestovoe.webp',
         bounds: [[60.63805679941613, 29.95182037353516], [60.633427124703225, 30.014219284057617], [60.61325924317173, 29.94280815124512]],
         owner: 'WN',
-        types: [],
     },
 */
     {
@@ -175,7 +159,6 @@ let michuraMaps = [
         photo: 'tracks/berestovoe/pic_7.jpg',
         bounds: [[60.64213877912432, 29.869766235351566], [60.62858629929979, 30.022630691528324], [60.60529809128897, 29.856805801391605]],
         author: ['KUZNTSV_S','TKMKV_K','NSNV','KVZN','SHRNN'],
-        types: [],
     },
     {
         name: 'Борисово-Ягодное',
@@ -186,7 +169,6 @@ let michuraMaps = [
         link: ['./original_maps/forest/michura/yagodnoe_na_2006_omaps.gif','./original_maps/forest/michura/yagodnoe_na_2006_omaps.ocd'],
         bounds: [[60.626439265841256, 29.92684364318848], [60.62298687313406, 29.966154098510746], [60.613343477664465, 29.922208786010746]],
         author: ['VSLVSKY','DRBSHV'],
-        types: [],
     },
     {
         name: 'Борисово-Ягодное',
@@ -197,7 +179,6 @@ let michuraMaps = [
         link: ['./original_maps/forest/michura/yagodnoe_na_2011_omaps.gif','./original_maps/forest/michura/yagodnoe_na_2011_omaps.ocd'],
         bounds: [[60.62812322574257, 29.909677505493168], [60.625070983672735, 29.944653511047367], [60.603191637937435, 29.90109443664551]],
         author: 'VSLVSKY',
-        types: [],
     },
     {
         name: 'Мичуринское',
@@ -208,7 +189,6 @@ let michuraMaps = [
         photo: 'tracks/petrichenko/pic_1.jpg',
         author: ['MKHLV_A','GVRLK','SLBDNK','ILVS','GRBTNKV','TRNV_V','TKMKV_K','KUZNTSV_S','VRBY'],
         owner: ['WN','ILVS'],
-        types: [],
     },
 /*
     {
@@ -216,7 +196,6 @@ let michuraMaps = [
         year: 2017,
         url: './maps/forest/michura/yagodnoe_2017.webp',
         bounds: [[60.64659890810976, 29.949502944946293], [60.64394815114584, 29.9862813949585], [60.633279805957116, 29.944481849670414]],
-        types: [],
     },
 */
 /*
@@ -225,7 +204,6 @@ let michuraMaps = [
         year: 2011,
         url: './maps/forest/michura/yagodnoe_2011.webp',
         bounds: [[60.6479452408423, 29.935426712036136], [60.64394815114584, 29.98452186584473], [60.63014386155463, 29.93006229400635]],
-        types: [],
     },
 */
 /*
@@ -235,7 +213,6 @@ let michuraMaps = [
         url: './maps/forest/michura/yagodnoe_dubovjie_2022.webp',
         bounds: [[60.63241692549768, 30.011601448059082], [60.6281021767865, 30.04945278167725], [60.618333978875846, 30.00503540039063]],
         owner: 'WN',
-        types: [],
     },
 */
     {
@@ -245,7 +222,6 @@ let michuraMaps = [
         bounds: [[60.52760555177631, 29.930276870727543], [60.52131281110355, 29.99722480773926], [60.50310343444655, 29.919977188110355]],
         author: 'MKHLV_A',
         owner: 'WN',
-        types: [],
     },
     {
         name: 'Климово, Смоляное оз',
@@ -254,7 +230,6 @@ let michuraMaps = [
         bounds: [[60.63873015126027, 29.526014328002933], [60.6322485558861, 29.589614868164066], [60.62109211032432, 29.519748687744144]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN',
-        types: [],
     },
     {
         name: 'Тихое оз',
@@ -264,6 +239,5 @@ let michuraMaps = [
         bounds: [[60.65156323132944, 29.6381950378418], [60.64609401883211, 29.728059768676758], [60.63304830371036, 29.633388519287113]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN',
-        types: [],
     },
 ];

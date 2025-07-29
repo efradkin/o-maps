@@ -1,9 +1,42 @@
+let dic = {
+    RUN: 'БЕГ',
+    SKI: 'ЛЫЖИ',
+    VELO: 'ВЕЛО',
+    WALK: 'ПЕШИЙ',
+    WATER: 'ВОДНЫЙ',
+    // ---
+    CITY: 'ГОРОД',
+    EXCLUDED: 'НЕУЧТЁНКА',
+    FOTO: 'ФОТО',
+    FUN: 'НЕОБЫЧН0',
+    PARK: 'ПАРК',
+    RELIEF: 'РЕЛЬЕФ',
+    ROGAINE: 'РОГЕЙН',
+    SPRINT: 'СПРИНТ',
+    WINTER: 'ЗИМА',
+};
+
+function getTypesList(m) {
+    let list = [];
+    if (m.type && m.type.length > 0 || m.excluded) {
+        let types = [];
+        if (m.type) {
+            types = [ ...m.type ];
+        }
+        if (m.excluded) {
+            types.push('EXCLUDED');
+        }
+        list = types.map(t => dic[t]).join(', ');
+    }
+    return list;
+}
+
 function isOrientMap(m) {
-    return isEmpty(m.types) || m.types.includes('CITY') || m.types.includes('PARK') || isSpecialMap(m);
+    return isEmpty(m.type) || m.type.includes('CITY') || m.type.includes('PARK') || isSpecialMap(m);
 }
 
 function isSpecialMap(m) {
-    return !isEmpty(m.types) && (m.types.includes('RELIEF') || m.types.includes('WINTER') || m.types.includes('VELO') || m.types.includes('INDOOR'));
+    return !isEmpty(m.type) && (m.type.includes('RELIEF') || m.type.includes('WINTER') || m.type.includes('VELO') || m.type.includes('INDOOR'));
 }
 
 function isMapHidden(m) {
@@ -210,7 +243,7 @@ function buildMapsCSV(maps, owner) {
     for (const m of maps) {
         if (owner === undefined || owner === m.owner || (Array.isArray(m.owner) && m.owner.includes(owner))) {
             result += '\n' + m.name + CSV_SPRTR + safe(m.year) + CSV_SPRTR + o(m.owner) + CSV_SPRTR + link(m.url) +
-                CSV_SPRTR + link(m.link) + CSV_SPRTR + safe(m.info) + CSV_SPRTR + start(m.start) + CSV_SPRTR + safe(m.gps) + CSV_SPRTR + m.types;
+                CSV_SPRTR + link(m.link) + CSV_SPRTR + safe(m.info) + CSV_SPRTR + start(m.start) + CSV_SPRTR + safe(m.gps) + CSV_SPRTR + m.type;
         }
     }
     console.log(result);

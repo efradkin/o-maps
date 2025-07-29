@@ -135,34 +135,36 @@ function buildOverlayMapsContents() {
 function allocateMap(m, imgLayer) {
     let added = false;
     m.groups = [];
-    if (m.types.includes('ROGAINE')) {
-        added = true;
-        mapsStatObj.rogaineGroup.push(imgLayer);
-        imgLayer.addTo(rogaineGroup);
-        let el = imgLayer.getElement();
-        if (el) {
-            el.style.zIndex = 0;
+    if (m.type) {
+        if (m.type.includes('ROGAINE')) {
+            added = true;
+            mapsStatObj.rogaineGroup.push(imgLayer);
+            imgLayer.addTo(rogaineGroup);
+            let el = imgLayer.getElement();
+            if (el) {
+                el.style.zIndex = 0;
+            }
         }
-    }
-    if (isSpecialMap(m)) {
-        added = true;
-        mapsStatObj.specialGroup.push(imgLayer);
-        pushGroupToMap(m, specialGroup);
-    }
-    if (m.types.includes('CITY')) {
-        added = true;
-        mapsStatObj.cityGroup.push(imgLayer);
-        pushGroupToMap(m, cityGroup);
-    }
-    if (m.types.includes('PARK')) {
-        added = true;
-        mapsStatObj.parkGroup.push(imgLayer);
-        pushGroupToMap(m, parkGroup);
-    }
-    if (m.types.includes('FUN') || m.types.includes('FOTO')) {
-        added = true;
-        mapsStatObj.funGroup.push(imgLayer);
-        imgLayer.addTo(funGroup);
+        if (isSpecialMap(m)) {
+            added = true;
+            mapsStatObj.specialGroup.push(imgLayer);
+            pushGroupToMap(m, specialGroup);
+        }
+        if (m.type.includes('CITY')) {
+            added = true;
+            mapsStatObj.cityGroup.push(imgLayer);
+            pushGroupToMap(m, cityGroup);
+        }
+        if (m.type.includes('PARK')) {
+            added = true;
+            mapsStatObj.parkGroup.push(imgLayer);
+            pushGroupToMap(m, parkGroup);
+        }
+        if (m.type.includes('FUN') || m.type.includes('FOTO')) {
+            added = true;
+            mapsStatObj.funGroup.push(imgLayer);
+            imgLayer.addTo(funGroup);
+        }
     }
     if (!added) {
         mapsStatObj.forestGroup.push(imgLayer);

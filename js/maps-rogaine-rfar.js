@@ -10,7 +10,7 @@ let rogaineRfarMaps = [
         bounds: [[61.037344734988274, 28.69834899902344], [61.00091498563656, 29.269466400146488], [60.74557236642184, 28.61775398254395]],
         owner: 'RFAR',
         author: 'BKTV',
-        types: ['ROGAINE'],
+        type: ['ROGAINE'],
     },
     {
         name: 'Сортавала',
@@ -22,7 +22,7 @@ let rogaineRfarMaps = [
         info: '<a href="https://adventure-race.redfox.ru/archive/archive_2017/">Инфо и результаты.</a>',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/2319/',
         owner: 'RFAR',
-        types: ['ROGAINE'],
+        type: ['ROGAINE'],
     },
     {
         name: 'Барышево',
@@ -33,7 +33,7 @@ let rogaineRfarMaps = [
         bounds: [[60.89688561144072, 28.830528259277347], [60.838888705540725, 29.703254699707035], [60.66022792862133, 28.767700195312504]],
         info: '<a href="https://adventure-race.redfox.ru/archive/archive_2018/">Инфо и результаты.</a>',
         owner: 'RFAR',
-        types: ['ROGAINE'],
+        type: ['ROGAINE'],
     },
     {
         name: 'Кузнечное',
@@ -45,7 +45,7 @@ let rogaineRfarMaps = [
         info: '<a href="https://adventure-race.redfox.ru/archive/archive_2019/">Инфо и результаты.</a>',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/5882/',
         owner: 'RFAR',
-        types: ['ROGAINE'],
+        type: ['ROGAINE'],
     },
     {
         name: 'Лахденпохья',
@@ -57,7 +57,7 @@ let rogaineRfarMaps = [
         info: '<a href="https://adventure-race.redfox.ru/archive/archive_2020/">Инфо и результаты.</a>',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/7968/',
         owner: 'RFAR',
-        types: ['ROGAINE'],
+        type: ['ROGAINE'],
     },
     {
         name: 'Балтиец',
@@ -70,7 +70,7 @@ let rogaineRfarMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/10166/',
         author: ['STRGNV','CHGRVSKY_M'],
         owner: 'RFAR',
-        types: ['ROGAINE'],
+        type: ['ROGAINE'],
     },
     {
         name: 'Питкяранта',
@@ -82,7 +82,7 @@ let rogaineRfarMaps = [
         info: '<a href="https://adventure-race.redfox.ru/archive/archive_2022/">Инфо и результаты.</a>',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/13306/',
         owner: 'RFAR',
-        types: ['ROGAINE'],
+        type: ['ROGAINE'],
     },
     {
         name: 'оз Суоярви',
@@ -94,7 +94,7 @@ let rogaineRfarMaps = [
         info: '<a href="https://adventure-race.redfox.ru/archive/archive_2023/">Инфо и результаты.</a>',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/16300/',
         owner: 'RFAR',
-        types: ['ROGAINE'],
+        type: ['ROGAINE'],
     },
     {
         name: 'Питкяранта',
@@ -106,7 +106,7 @@ let rogaineRfarMaps = [
         info: '<a href="https://adventure-race.redfox.ru/archive/archive_2024/">Инфо и результаты.</a>',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19675/',
         owner: 'RFAR',
-        types: ['ROGAINE'],
+        type: ['ROGAINE'],
     },
     {
         name: 'Карисалми',
@@ -117,6 +117,6 @@ let rogaineRfarMaps = [
         bounds: [[61.06011286454441, 28.699722290039066], [61.00723912825571, 29.469108581542972], [60.69637576747284, 28.600158691406254]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22778/',
         owner: 'RFAR',
-        types: ['ROGAINE'],
+        type: ['ROGAINE'],
     },
 ];

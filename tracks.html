@@ -67,6 +67,7 @@
                 <th>Инфо</th>
                 <th>GPX</th>
                 <th>Ссылки</th>
+                <th>Тип</th>
                 <th>Фотки</th>
             </tr>
             </thead>
@@ -119,6 +120,7 @@
                 td(t, row, buildInfo(t));
                 td(t, row, buildGPX(t));
                 td(t, row, buildLinks(t));
+                td(t, row, getTypesList(t));
                 td(t, row, buildFotos(t));
                 tbody.appendChild(row);
             }

@@ -73,7 +73,7 @@ function renderMapsTable() {
             if (!isDocumentsPage()) {
                 td(m, row, buildPlanners(m));
                 td(m, row, buildOwners(m, true));
-                td(m, row, m.types);
+                td(m, row, getTypesList(m));
             }
         } else {
             td(m, row, m.qtty);
