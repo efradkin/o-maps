@@ -244,6 +244,7 @@ let specialMaps = [
         info: 'Карта рисовалась для Этапа Кубка Мира.',
         url: './maps/velo/voejkovo_velo.webp',
         link: './original_maps/velo/voejkovo_velo_omaps.jpg',
+        photo: './tracks/pavlovo/pic_3.jpg',
         bounds: [[59.99666853981014, 30.66215515136719], [59.99370695029761, 30.72532653808594], [59.93777332844343, 30.651340484619144]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',

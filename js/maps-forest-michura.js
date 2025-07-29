@@ -112,6 +112,7 @@ let michuraMaps = [
         year: 1993,
         url: './maps/forest/michura/petrichenko_svetloe_1993.webp',
         link: './original_maps/forest/michura/petrichenko_svetloe_1993_omaps.jpg',
+        photo: './tracks/berestovoe/pic_1.jpg',
         bounds: [[60.60927891271937, 29.877018928527836], [60.603486549681946, 29.936757087707523], [60.58865336285576, 29.868822097778324]],
         author: 'BYMKV',
         types: [],
