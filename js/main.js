@@ -87,7 +87,7 @@ function buildTrackText(t, gpx) {
 
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
     let typesList = getTypesList(t);
-    if (!typesList) {
+    if (!typesList.length) {
         typesList = 'МАРШРУТ';
     }
     result += '<div class="popup-header popup-right-header">' + typesList + '</div>';
