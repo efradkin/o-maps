@@ -59,7 +59,7 @@ if (MAP_NAME_PARAM) {
 }
 if (!ONLY_MAP_NAME_PARAM) {
     for (const m of oMaps) {
-        if (!TYPE_PARAM || (m.type.includes(TYPE_PARAM))) {
+        if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM))) {
             loadMap(m);
         }
     }
