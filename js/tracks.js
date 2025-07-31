@@ -37,7 +37,7 @@ let tracks = [
         link: 'https://ooptlo.ru/marshrut-kamovyie-xolmyi.html',
         gpx: 'tracks/koltushi_kamy_omaps.gpx',
         pics: ['koltushi_kamy',5],
-        type: ['RUN','SKI','VELO','WALK']
+        type: ['RUN','VELO','WALK']
     },
     {
         name: 'Колтушские высоты, "Заячья тропа"',
@@ -85,7 +85,7 @@ let tracks = [
         link: 'https://ooptlo.ru/ekomarshrut-malinovaya-gora.html',
         gpx: 'tracks/malinova_gora_omaps.gpx',
         // pics: ['toksovo',5],
-        type: ['RUN','SKI','VELO','WALK']
+        type: ['RUN','VELO','WALK']
     },
     {
         name: 'От Орехово до Ладоги',
@@ -314,5 +314,233 @@ let tracks = [
         info: '"Экотропа находится в исторически значимом месте – бывшем родовом поместье великого русского художника – Николая Константиновича Рериха. Тысячью воспоминаний и ассоциаций был связан Николай Константинович с Изварой, имением своих родителей. Тропа проведет по сохранившимся до сего дня памятникам архитектуры, природным объектам. " ©',
         link: 'https://ooptlo.ru/muzej-usadba-n.k.-rerixa.html',
         gpx: 'tracks/izvara_omaps.gpx',
+    },
+    // --- ЛЫЖИ ---
+    {
+        name: 'Московский парк Победы',
+        gpx: 'tracks/ski/victory_park_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Парк Авиаторов',
+        gpx: 'tracks/ski/aviatorov_park_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'парк Героев-пожарных',
+        gpx: 'tracks/ski/firemen_park_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Пушкин, Отдельный парк',
+        info: 'Лыжная трасса с небольшим плавным рельефом.',
+        gpx: 'tracks/ski/pushkin_otdelny_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Зеленогорск, марафонский круг',
+        info: 'Целиком прокатывается далеко не каждый год.',
+        gpx: 'tracks/ski/zelenogorsk_marathon_17_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Зеленогорск, прогулочная лыжня',
+        info: 'Спокойная трасса с минимумом рельефа.',
+        gpx: 'tracks/ski/zelenogorsk_walk_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Кавголово, Виролайнен',
+        year: 2024,
+        info: 'Возрождённая в 2024 году лыжная трасса рядом с УТЦ на месте старого лыжедрома.',
+        gpx: 'tracks/ski/kavgolovo_virolaynen_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Кавголово, Динамо',
+        info: 'Лыжная трасса в ООПТ "Токсовские высоты" со стартом у спорт.базы Динамо.',
+        gpx: 'tracks/ski/kavgolovo_dinamo_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Осельки',
+        info: 'Практически абсолютно плоская, часто самотопная, лыжня в окружении красивого леса.',
+        gpx: 'tracks/ski/oselki_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Токсовский марафон 50км',
+        year: 2024,
+        info: 'Старт - от базы СКА.',
+        link: 'https://vk.com/toksovocup',
+        gpx: 'tracks/ski/toksovo_cup_50_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Toksovo Cup 17km',
+        info: 'Старт - от базы СКА.',
+        link: 'https://vk.com/toksovocup',
+        gpx: 'tracks/ski/toksovo_cup_17_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Toksovo Cup 10km',
+        info: 'Старт - от базы СКА.',
+        link: 'https://vk.com/toksovocup',
+        gpx: 'tracks/ski/toksovo_cup_10_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Токсово, ВИФК',
+        info: 'Лыжная трасса на территории, принадлежащей МО РФ. Ограниченно доступна.',
+        gpx: 'tracks/ski/toksovo_vifk_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Токсово, Фирн',
+        info: 'Уже несколько лет эта трасса не подготавливается.',
+        gpx: 'tracks/ski/toksovo_firn_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Токсовская туристическая лыжня',
+        gpx: 'tracks/ski/toksovo_tourist_trail_ski_omaps.gpx',
+        info: 'Общая длина - почти 40км.',
+        type: ['SKI']
+    },
+    {
+        name: 'Токсово, Малиновая гора',
+        year: 2024,
+        info: 'Классическая лыжня, подготавливаемая энтузиастами. Периодически тут проводятся массовые "Лыжные стрелы".',
+        link: 'https://vk.com/malingora',
+        gpx: 'tracks/ski/toksovo_malinova_gora_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Токсово, Малиновая гора, болотная петля', // TODO не показывается
+        info: 'Классическая лыжня, подготавливаемая энтузиастами. Периодически тут проводятся массовые "Лыжные стрелы".',
+        link: 'https://vk.com/malingora',
+        gpx: 'tracks/ski/toksovo_malinova_gora_swamp_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Охта-парк',
+        info: 'Ближайший и возможно главный горнолыжный курорт в Санкт-Петербурге. Беговая лыжная трасса бесплатна, но посещение курорта - платное.',
+        link: 'https://vk.com/ohtapark',
+        gpx: 'tracks/ski/ohtapark_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Лемболово',
+        link: 'https://vk.com/trassalembolovo',
+        gpx: 'tracks/ski/lembolovo_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Орехово',
+        link: 'https://vk.com/orehovo_ski',
+        gpx: 'tracks/ski/orekhovo_20_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Гарболово, круг "Мастер"',
+        link: 'https://vk.com/sport_v_garbolovo',
+        gpx: 'tracks/ski/garbolovo_master_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Гарболово, круг "Турист"',
+        link: 'https://vk.com/sport_v_garbolovo',
+        gpx: 'tracks/ski/garbolovo_tourist_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Павлово',
+        info: 'Очень симпатичный лыжный круг с хорошим рельефом.',
+        gpx: 'tracks/ski/pavlovo_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Парголово',
+        info: 'Единственная в черте города лыжная трасса с более-менее серьёзным рельефом.',
+        link: 'https://vk.com/skipargolovo',
+        gpx: 'tracks/ski/pargolovo_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Красное озеро',
+        link: 'https://krasnoeozero.ru/',
+        gpx: 'tracks/ski/red_lake_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Игора-Драйв',
+        link: 'https://vk.com/igoradrive',
+        gpx: 'tracks/ski/igora_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Воронино',
+        gpx: 'tracks/ski/voronino_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Всеволожск, Румболовский парк',
+        gpx: 'tracks/ski/rumbolovo_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Выборг',
+        gpx: 'tracks/ski/vyborg_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Дудергоф, Можайская',
+        info: 'Отличная гора практически в черте города!',
+        link: 'https://vk.com/svdudergof',
+        gpx: 'tracks/ski/mozhaika_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Дудергофские медведи',
+        info: 'Практически плоская лыжная трасса по полям.',
+        link: 'https://vk.com/dudergof_bear',
+        gpx: 'tracks/ski/dudergof_bears_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Кириши',
+        link: 'https://vk.com/ori_ki',
+        gpx: 'tracks/ski/kirishi_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Кировск',
+        link: 'https://vk.com/club85930070',
+        gpx: 'tracks/ski/kirovsk_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Гатчина',
+        gpx: 'tracks/ski/gatchina_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Кингисепп',
+        gpx: 'tracks/ski/kingisepp_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Ломоносов',
+        info: 'Холмистую трассу готовит на энтузиазме бывший учитель физкультуры.',
+        gpx: 'tracks/ski/lomonosov_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Ломоносов, гольф-клуб "Strawberry Fields"',
+        link: 'https://vk.com/sfgolfclub',
+        info: 'Трасса мягкая, готовят бороной, подъёмов нет, душ, раздевалка, парковка. Платно.',
+        gpx: 'tracks/ski/lomonosov_strawberry_fields_ski_omaps.gpx',
+        type: ['SKI']
     },
 ];

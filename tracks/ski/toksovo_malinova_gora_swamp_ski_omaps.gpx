@@ -1,0 +1,6227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="AllTrails https://www.alltrails.com/ - Zepp" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Zepp</name>
+    <link href="https://www.gpsies.com/">
+      <text>Zepp on AllTrails</text>
+    </link>
+    <time>2024-01-09T20:14:38Z</time>
+  </metadata>
+  <wpt lat="60.16149000" lon="30.49474500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:04:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16146500" lon="30.49468000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16146200" lon="30.49468900">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16146800" lon="30.49469200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16147600" lon="30.49469000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16148400" lon="30.49468700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16148900" lon="30.49468700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16149200" lon="30.49468800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16149600" lon="30.49469000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16150400" lon="30.49469700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16151300" lon="30.49471200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16152400" lon="30.49473300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16153800" lon="30.49475700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16155900" lon="30.49479100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:05:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16160300" lon="30.49486200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:05:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16164500" lon="30.49493100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:05:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16169100" lon="30.49501000">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:05:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16174400" lon="30.49509700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:05:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16180000" lon="30.49518600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:05:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16185900" lon="30.49528300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:05:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16192000" lon="30.49538800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:05:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16198200" lon="30.49549400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:05:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16204200" lon="30.49559900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:05:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16210200" lon="30.49570200">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:05:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16216000" lon="30.49580100">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16222100" lon="30.49590600">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16228300" lon="30.49601300">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16234300" lon="30.49612100">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16240500" lon="30.49623000">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16246800" lon="30.49633800">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16253100" lon="30.49645100">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16259200" lon="30.49656400">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16265200" lon="30.49667700">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16271100" lon="30.49678700">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16277000" lon="30.49689100">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16283000" lon="30.49698900">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16288900" lon="30.49708700">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:05:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16294700" lon="30.49718900">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16300700" lon="30.49729000">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16306700" lon="30.49739000">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16312700" lon="30.49749200">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16318500" lon="30.49759900">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16324100" lon="30.49769600">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16330200" lon="30.49780200">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16336400" lon="30.49790800">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16342200" lon="30.49800200">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16348100" lon="30.49809200">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16354000" lon="30.49817200">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16359900" lon="30.49825000">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16366300" lon="30.49831700">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16372700" lon="30.49836600">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:06:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16379200" lon="30.49840500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:06:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16385700" lon="30.49844300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:06:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16392800" lon="30.49847700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:06:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16400200" lon="30.49850800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:06:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16407600" lon="30.49852700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:06:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16414900" lon="30.49853300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:06:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16421700" lon="30.49853000">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:06:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16427600" lon="30.49852600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:06:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16433300" lon="30.49851500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:06:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16439300" lon="30.49849900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:06:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16443800" lon="30.49848400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:06:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16448200" lon="30.49843800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:07:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16450200" lon="30.49844800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:07:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16455200" lon="30.49841400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:08:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16454300" lon="30.49843500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:09:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16446400" lon="30.49843000">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:10:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16442000" lon="30.49844700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:10:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16448800" lon="30.49841200">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:10:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16457200" lon="30.49833400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:10:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16463100" lon="30.49826200">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:10:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16468700" lon="30.49818200">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:10:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16474500" lon="30.49810200">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:10:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16482000" lon="30.49798100">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:11:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16486400" lon="30.49790600">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16491300" lon="30.49783100">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16496500" lon="30.49774800">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16502000" lon="30.49766200">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16507600" lon="30.49758200">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16513400" lon="30.49750400">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16519500" lon="30.49741900">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16525800" lon="30.49734300">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16531900" lon="30.49726900">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16537900" lon="30.49719500">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16543700" lon="30.49711500">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16549400" lon="30.49703200">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16554800" lon="30.49694400">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16559600" lon="30.49684600">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16564000" lon="30.49673600">
+    <ele>61.000000</ele>
+    <time>2024-01-06T11:11:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16568300" lon="30.49662500">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:11:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16572500" lon="30.49651100">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:11:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16576700" lon="30.49639100">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:11:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16580800" lon="30.49627400">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:11:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16584700" lon="30.49615700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:11:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16588400" lon="30.49604700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:11:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16592200" lon="30.49593900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:11:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16596100" lon="30.49583000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:11:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16600000" lon="30.49571800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:11:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16604300" lon="30.49560400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:11:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16608200" lon="30.49548900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:11:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16611300" lon="30.49537300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:11:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16614100" lon="30.49525600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:11:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16616800" lon="30.49514600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16620000" lon="30.49504100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16625000" lon="30.49488600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16628300" lon="30.49478200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16631500" lon="30.49467300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16634800" lon="30.49456000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16637900" lon="30.49444300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16640900" lon="30.49432600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16643700" lon="30.49421500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16646000" lon="30.49411100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16648200" lon="30.49400400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16650700" lon="30.49389600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16653200" lon="30.49378700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16655700" lon="30.49367800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16658300" lon="30.49357000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16660900" lon="30.49346000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16663500" lon="30.49335700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16666300" lon="30.49325400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16669100" lon="30.49315000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16672300" lon="30.49304400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16675500" lon="30.49293700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16679100" lon="30.49283300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16682600" lon="30.49273700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16685700" lon="30.49265100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16689100" lon="30.49256900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16692600" lon="30.49248300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16695900" lon="30.49239400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16699000" lon="30.49230300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:12:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16701600" lon="30.49221100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:12:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16705600" lon="30.49210100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:13:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16710200" lon="30.49204800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:13:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16715000" lon="30.49205800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:13:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16712700" lon="30.49226300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:14:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16711100" lon="30.49237600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:14:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16709200" lon="30.49250400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:14:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16707300" lon="30.49262800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:14:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16705500" lon="30.49273600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:14:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16704100" lon="30.49283300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:14:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16702800" lon="30.49296500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:14:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16701100" lon="30.49309600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:14:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16698600" lon="30.49324300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:14:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16697200" lon="30.49333900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:14:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16695300" lon="30.49346300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:15:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16693700" lon="30.49358500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:15:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16692300" lon="30.49369000">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:15:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16692000" lon="30.49384500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:15:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16693400" lon="30.49395600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:15:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16697100" lon="30.49405000">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:15:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16701400" lon="30.49413400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:15:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16707200" lon="30.49421600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:15:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16711400" lon="30.49427800">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:15:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16715400" lon="30.49434600">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:15:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16720500" lon="30.49445700">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:15:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16723100" lon="30.49452800">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:15:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16725300" lon="30.49460300">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:15:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16729400" lon="30.49470300">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16735000" lon="30.49479400">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16739700" lon="30.49486000">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16744300" lon="30.49492500">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16748600" lon="30.49498700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16755000" lon="30.49508400">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16759400" lon="30.49514800">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16764700" lon="30.49522700">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16769900" lon="30.49531500">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16775800" lon="30.49542500">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16779600" lon="30.49550400">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16783200" lon="30.49558200">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16788200" lon="30.49570000">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16791600" lon="30.49579100">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:16:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16794800" lon="30.49588500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16798000" lon="30.49597500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16801300" lon="30.49607000">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16804800" lon="30.49616700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16808100" lon="30.49626100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16811500" lon="30.49635500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16814600" lon="30.49644800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16818200" lon="30.49654300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16821000" lon="30.49664100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16823500" lon="30.49673900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16825500" lon="30.49684200">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16827500" lon="30.49694400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:16:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16829000" lon="30.49704000">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:17:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16830700" lon="30.49713700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:17:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16832800" lon="30.49723400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:17:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16835500" lon="30.49732600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16838200" lon="30.49741300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16842700" lon="30.49753700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16845900" lon="30.49761600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16849600" lon="30.49770500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16853600" lon="30.49779500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16857600" lon="30.49787900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16861100" lon="30.49797500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16863700" lon="30.49807100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16865900" lon="30.49817300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16867800" lon="30.49828200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16869200" lon="30.49838300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16871200" lon="30.49849100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16873900" lon="30.49859000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16876900" lon="30.49868400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16880100" lon="30.49878400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:17:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16882900" lon="30.49888400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:17:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16885600" lon="30.49898700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:17:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16888600" lon="30.49908500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:17:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16891700" lon="30.49916100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:17:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16898800" lon="30.49925200">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:17:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16904300" lon="30.49928800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:17:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16909300" lon="30.49929600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:17:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16919200" lon="30.49926300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:20:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16922600" lon="30.49916100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:20:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16924500" lon="30.49905200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:20:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16926400" lon="30.49892100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:20:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16927900" lon="30.49882900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:20:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16930600" lon="30.49868300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:20:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16932400" lon="30.49858300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:20:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16933900" lon="30.49847400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:20:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16935500" lon="30.49836100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:20:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16937400" lon="30.49825200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:20:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16939500" lon="30.49815000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:20:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16941300" lon="30.49804700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:20:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16942600" lon="30.49794000">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:20:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16943900" lon="30.49782800">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:20:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16945800" lon="30.49773000">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:20:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16950300" lon="30.49763800">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:20:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16956200" lon="30.49758000">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:20:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16963100" lon="30.49752900">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:20:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16968400" lon="30.49751400">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:20:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16975800" lon="30.49752700">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:21:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16982200" lon="30.49756100">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:21:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16989000" lon="30.49759300">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:21:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16994000" lon="30.49761700">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:21:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16999200" lon="30.49764300">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:21:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17004300" lon="30.49766800">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:21:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17011400" lon="30.49770400">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:21:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17016200" lon="30.49772800">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:21:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17023300" lon="30.49776600">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:21:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17028500" lon="30.49780200">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:21:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17033800" lon="30.49783800">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:21:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17039100" lon="30.49787200">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:21:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17044000" lon="30.49790500">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:21:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17049000" lon="30.49793400">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:21:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17054100" lon="30.49796300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:21:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17063600" lon="30.49803200">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:21:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17068500" lon="30.49806600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:21:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17073800" lon="30.49809200">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:21:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17079000" lon="30.49811600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:21:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17085300" lon="30.49812100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:21:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17089700" lon="30.49810100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:21:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17093800" lon="30.49797100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:22:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17094700" lon="30.49785300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:22:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17095600" lon="30.49772200">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:22:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17096400" lon="30.49759200">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:22:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17097300" lon="30.49747000">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:22:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17098100" lon="30.49735900">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:23:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17098900" lon="30.49725400">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:23:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17100000" lon="30.49710000">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:23:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17100900" lon="30.49699900">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:23:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17101700" lon="30.49690000">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:23:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17102400" lon="30.49674300">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:23:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17102600" lon="30.49663600">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:23:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17103900" lon="30.49643500">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:23:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17105600" lon="30.49628300">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:23:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17106600" lon="30.49618600">
+    <ele>70.000000</ele>
+    <time>2024-01-06T11:23:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17108400" lon="30.49605200">
+    <ele>70.000000</ele>
+    <time>2024-01-06T11:23:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17110800" lon="30.49592700">
+    <ele>70.000000</ele>
+    <time>2024-01-06T11:23:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17112900" lon="30.49578600">
+    <ele>70.000000</ele>
+    <time>2024-01-06T11:23:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17114000" lon="30.49567400">
+    <ele>70.000000</ele>
+    <time>2024-01-06T11:23:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17115100" lon="30.49555200">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:23:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17116500" lon="30.49544100">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:23:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17117800" lon="30.49533800">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:23:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17118600" lon="30.49523400">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:23:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17120000" lon="30.49501400">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:23:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17120500" lon="30.49489700">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:23:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17121000" lon="30.49477800">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:23:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17121200" lon="30.49466500">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:23:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17122000" lon="30.49456700">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:23:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17123800" lon="30.49443100">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:23:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17125100" lon="30.49428000">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:24:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17125900" lon="30.49417700">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:24:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17126600" lon="30.49407400">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:24:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17126900" lon="30.49397000">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:24:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17127500" lon="30.49381400">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:24:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17127900" lon="30.49371200">
+    <ele>71.000000</ele>
+    <time>2024-01-06T11:24:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17127900" lon="30.49362200">
+    <ele>70.000000</ele>
+    <time>2024-01-06T11:24:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17128000" lon="30.49351300">
+    <ele>70.000000</ele>
+    <time>2024-01-06T11:24:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17128000" lon="30.49340500">
+    <ele>70.000000</ele>
+    <time>2024-01-06T11:24:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17128000" lon="30.49329300">
+    <ele>70.000000</ele>
+    <time>2024-01-06T11:24:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17127800" lon="30.49318400">
+    <ele>70.000000</ele>
+    <time>2024-01-06T11:24:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17126000" lon="30.49308500">
+    <ele>70.000000</ele>
+    <time>2024-01-06T11:24:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17121500" lon="30.49302000">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:24:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17116600" lon="30.49299300">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:24:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17106000" lon="30.49290700">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:25:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17100000" lon="30.49286300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:25:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17095000" lon="30.49282900">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:25:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17090700" lon="30.49279300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:25:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17084100" lon="30.49274000">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:25:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17077400" lon="30.49269700">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:25:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17072200" lon="30.49266700">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:25:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17067000" lon="30.49263200">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:25:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17062000" lon="30.49259900">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:25:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17057200" lon="30.49256600">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:25:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17052300" lon="30.49253200">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:25:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17045400" lon="30.49249700">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:25:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17039400" lon="30.49249700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:26:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17032800" lon="30.49251900">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:26:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17026000" lon="30.49251600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:26:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17021800" lon="30.49250200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:26:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17014100" lon="30.49247700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:26:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17006900" lon="30.49243900">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:26:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17002000" lon="30.49241100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:26:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16996800" lon="30.49237600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16991200" lon="30.49233800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16985500" lon="30.49229300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16980100" lon="30.49224200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16974900" lon="30.49217900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16970600" lon="30.49209900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16967700" lon="30.49200000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16965800" lon="30.49189900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16964300" lon="30.49179800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16962900" lon="30.49168700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16961200" lon="30.49157300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16959700" lon="30.49145600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16958900" lon="30.49133900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16959600" lon="30.49121700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16961300" lon="30.49109800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16963700" lon="30.49098300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16966800" lon="30.49086500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16969800" lon="30.49075700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16973000" lon="30.49065200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:26:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16976500" lon="30.49054500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16982200" lon="30.49037300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16986000" lon="30.49025600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16989800" lon="30.49014100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16993600" lon="30.49003100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16997400" lon="30.48992400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17001100" lon="30.48982100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17007000" lon="30.48967500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17011000" lon="30.48958900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17015300" lon="30.48949600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17020200" lon="30.48939900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17024800" lon="30.48931300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17028600" lon="30.48921700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17032100" lon="30.48911100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17035500" lon="30.48901800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17039100" lon="30.48892100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17042500" lon="30.48881300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17046000" lon="30.48870500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17049800" lon="30.48860100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:27:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17053700" lon="30.48850300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:27:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17057300" lon="30.48840700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:27:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17060700" lon="30.48831200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:27:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17063500" lon="30.48820700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:27:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17066400" lon="30.48810200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:27:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17068900" lon="30.48798800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:27:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17071200" lon="30.48786600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:27:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17073500" lon="30.48774500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:27:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17075600" lon="30.48763000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:27:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17077600" lon="30.48751600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:27:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17079600" lon="30.48740400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:28:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17082200" lon="30.48729300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:28:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17085600" lon="30.48718400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:28:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17089400" lon="30.48709000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:28:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17093200" lon="30.48700400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:28:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17097600" lon="30.48692600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:28:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17101700" lon="30.48688600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:28:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17106300" lon="30.48686400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:28:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17113300" lon="30.48696600">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:29:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17119600" lon="30.48707300">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:29:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17123900" lon="30.48715300">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:29:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17128000" lon="30.48722900">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:29:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17138500" lon="30.48739900">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:29:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17145100" lon="30.48749200">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:29:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17150000" lon="30.48755600">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:29:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17154200" lon="30.48762200">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:29:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17157100" lon="30.48769900">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:29:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17158200" lon="30.48780300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:29:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17156500" lon="30.48791600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:29:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17153600" lon="30.48802900">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:29:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17151100" lon="30.48811400">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:29:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17147000" lon="30.48824700">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:30:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17144300" lon="30.48833600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:30:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17141400" lon="30.48843000">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:30:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17139300" lon="30.48848100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:30:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17136400" lon="30.48864100">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17133500" lon="30.48879500">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17131800" lon="30.48890500">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17130100" lon="30.48901600">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17128200" lon="30.48912000">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17125700" lon="30.48927900">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17124400" lon="30.48938300">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17123300" lon="30.48949300">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17122000" lon="30.48960800">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17120700" lon="30.48971800">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17119400" lon="30.48982700">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17118200" lon="30.48993800">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17117100" lon="30.49005500">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17116000" lon="30.49017600">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17114800" lon="30.49028600">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17113700" lon="30.49040300">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17112600" lon="30.49051900">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17111400" lon="30.49063200">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17110200" lon="30.49074900">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17108300" lon="30.49086700">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17106400" lon="30.49098600">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17105200" lon="30.49110100">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17105300" lon="30.49120600">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17107900" lon="30.49133200">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:31:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17114500" lon="30.49142900">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17119300" lon="30.49147000">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17123200" lon="30.49147700">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17127300" lon="30.49142100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17129200" lon="30.49131700">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17130500" lon="30.49117600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17131500" lon="30.49105500">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17132300" lon="30.49093300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17133100" lon="30.49081300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17134000" lon="30.49068600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17134800" lon="30.49057100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17136000" lon="30.49045300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17137500" lon="30.49033900">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17139300" lon="30.49023100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17141700" lon="30.49012400">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17144400" lon="30.49002000">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17147000" lon="30.48991900">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17149700" lon="30.48983100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17152500" lon="30.48974100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17154800" lon="30.48964600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17157300" lon="30.48956000">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17161400" lon="30.48942400">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17164300" lon="30.48932800">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:32:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17166800" lon="30.48924500">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:32:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17168800" lon="30.48916800">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:32:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17171300" lon="30.48905800">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:32:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17174200" lon="30.48893700">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:33:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17176400" lon="30.48884700">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:33:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17179600" lon="30.48871800">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:33:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17182600" lon="30.48858900">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:33:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17185900" lon="30.48845700">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:33:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17189000" lon="30.48833000">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:33:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17192200" lon="30.48820600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:33:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17195600" lon="30.48807100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:33:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17198000" lon="30.48797400">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:33:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17200400" lon="30.48787100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:33:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17202400" lon="30.48777600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:33:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17204600" lon="30.48768100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:33:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17206800" lon="30.48758300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:33:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17208900" lon="30.48748900">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:33:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17212100" lon="30.48735800">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:33:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17214900" lon="30.48728600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:33:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17222700" lon="30.48729500">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:34:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17229600" lon="30.48735900">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:34:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17235200" lon="30.48741500">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:34:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17240200" lon="30.48747200">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:34:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17245500" lon="30.48753100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:34:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17250800" lon="30.48759400">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:34:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17256400" lon="30.48765200">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:34:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17262000" lon="30.48771100">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:34:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17267300" lon="30.48777100">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:34:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17272500" lon="30.48783100">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17277500" lon="30.48789800">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17282400" lon="30.48796100">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17287500" lon="30.48802200">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17292700" lon="30.48807600">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17297600" lon="30.48811800">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17302700" lon="30.48815300">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17308200" lon="30.48818200">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17313700" lon="30.48819200">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17319200" lon="30.48817600">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17322900" lon="30.48811400">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17325100" lon="30.48801500">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17327000" lon="30.48789300">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17329200" lon="30.48775600">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17331100" lon="30.48762100">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17330800" lon="30.48751100">
+    <ele>69.000000</ele>
+    <time>2024-01-06T11:35:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17326300" lon="30.48741300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:35:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17320000" lon="30.48734600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:35:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17315000" lon="30.48730300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:35:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17310000" lon="30.48726000">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:35:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17303100" lon="30.48719400">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:35:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17298200" lon="30.48715200">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:35:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17293200" lon="30.48711100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:35:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17287800" lon="30.48706500">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:35:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17282700" lon="30.48701300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:35:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17277400" lon="30.48696400">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:36:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17272100" lon="30.48691800">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:36:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17266800" lon="30.48687500">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:36:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17262200" lon="30.48683500">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:36:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17255400" lon="30.48676600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:36:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17250400" lon="30.48671700">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:36:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17245100" lon="30.48666200">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:36:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17239900" lon="30.48660800">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:36:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17234800" lon="30.48655500">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:36:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17230000" lon="30.48650000">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:36:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17225300" lon="30.48644900">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:36:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17220100" lon="30.48640300">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:36:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17214800" lon="30.48636000">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:36:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17209500" lon="30.48632400">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:36:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17204500" lon="30.48629100">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:36:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17199400" lon="30.48626000">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:36:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17194300" lon="30.48622900">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:36:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17189300" lon="30.48619700">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:36:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17182200" lon="30.48615300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:36:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17174700" lon="30.48611400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:36:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17169700" lon="30.48609100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:36:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17164700" lon="30.48606600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:36:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17159700" lon="30.48604300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:36:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17152400" lon="30.48600800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:36:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17146300" lon="30.48595400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:36:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17141800" lon="30.48586200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:36:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17139300" lon="30.48575100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:37:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17139500" lon="30.48563600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:37:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17142000" lon="30.48554200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:37:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17147200" lon="30.48548600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:37:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17152200" lon="30.48543500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:37:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17158100" lon="30.48536200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:37:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17164700" lon="30.48528300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:37:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17169300" lon="30.48522900">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:37:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17175700" lon="30.48515300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:37:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17179900" lon="30.48509800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:37:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17184100" lon="30.48504000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:37:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17189500" lon="30.48496500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:37:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17193300" lon="30.48492200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:37:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17199500" lon="30.48488700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:39:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17205400" lon="30.48489800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:39:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17211500" lon="30.48495500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:39:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17216900" lon="30.48505200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:39:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17220100" lon="30.48512800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:39:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17223300" lon="30.48521800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:39:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17226800" lon="30.48531500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:39:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17230200" lon="30.48540600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:39:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17233100" lon="30.48550100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:39:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17236100" lon="30.48559600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:39:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17238800" lon="30.48568700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:39:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17241400" lon="30.48578700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:39:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17243900" lon="30.48588200">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:39:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17246500" lon="30.48598000">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17249100" lon="30.48607200">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17253900" lon="30.48616100">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17259800" lon="30.48621200">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17266100" lon="30.48619900">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17273300" lon="30.48615100">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17278300" lon="30.48612700">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17285500" lon="30.48612800">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17292100" lon="30.48615600">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17298600" lon="30.48618600">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17304900" lon="30.48619400">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17311300" lon="30.48618300">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17317600" lon="30.48617800">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17324300" lon="30.48619800">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17330000" lon="30.48623600">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:40:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17334600" lon="30.48628100">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:40:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17339100" lon="30.48636900">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:40:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17341500" lon="30.48645400">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:40:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17344800" lon="30.48659400">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:40:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17346100" lon="30.48668700">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:41:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17347700" lon="30.48681600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:41:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17350200" lon="30.48691600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:41:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17355300" lon="30.48698800">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:41:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17360200" lon="30.48703100">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:41:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17365000" lon="30.48707600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:41:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17369700" lon="30.48712200">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:41:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17375200" lon="30.48716400">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:41:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17381000" lon="30.48720200">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:41:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17386700" lon="30.48723300">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:41:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17391900" lon="30.48725600">
+    <ele>68.000000</ele>
+    <time>2024-01-06T11:41:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17397500" lon="30.48728200">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:41:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17401800" lon="30.48730500">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:41:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17411500" lon="30.48734300">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:41:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17418100" lon="30.48738700">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:41:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17423000" lon="30.48742300">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:41:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17428100" lon="30.48745700">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:42:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17433300" lon="30.48749000">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:42:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17438400" lon="30.48752000">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:42:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17443000" lon="30.48753300">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:42:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17448500" lon="30.48751200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:42:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17451600" lon="30.48745500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:42:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17453400" lon="30.48732800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:42:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17454100" lon="30.48722100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:42:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17454500" lon="30.48710300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:42:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17453600" lon="30.48697700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:42:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17452100" lon="30.48689300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:42:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17448100" lon="30.48680900">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:42:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17449000" lon="30.48682800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:43:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17453100" lon="30.48690800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:43:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17456400" lon="30.48715600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:44:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17455400" lon="30.48710200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:45:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17453000" lon="30.48699100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:45:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17450500" lon="30.48689300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:45:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17447900" lon="30.48682400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:45:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17442000" lon="30.48673800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:45:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17434800" lon="30.48668200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:45:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17429800" lon="30.48664600">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:45:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17425000" lon="30.48661400">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:45:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17417700" lon="30.48657800">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:45:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17412600" lon="30.48656000">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:45:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17407500" lon="30.48654500">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:45:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17400100" lon="30.48652900">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:46:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17394200" lon="30.48651600">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:46:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17388700" lon="30.48649300">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:46:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17382100" lon="30.48644700">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:46:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17374700" lon="30.48639900">
+    <ele>67.000000</ele>
+    <time>2024-01-06T11:46:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17368000" lon="30.48635100">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:46:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17363800" lon="30.48630000">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:46:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17359200" lon="30.48620500">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:46:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17355500" lon="30.48611700">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:46:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17352100" lon="30.48604200">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:46:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17349000" lon="30.48592900">
+    <ele>66.000000</ele>
+    <time>2024-01-06T11:46:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17348300" lon="30.48581500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:46:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17349600" lon="30.48567700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:46:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17351000" lon="30.48556400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:46:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17352700" lon="30.48543100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:46:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17354300" lon="30.48531300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:46:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17356400" lon="30.48521100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:46:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17358300" lon="30.48511100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:46:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17360000" lon="30.48501400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:46:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17361600" lon="30.48490700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:47:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17363200" lon="30.48479300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:47:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17364800" lon="30.48466700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:47:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17365800" lon="30.48454300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:47:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17366200" lon="30.48441200">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:47:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17366700" lon="30.48426700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:47:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17367000" lon="30.48412400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:47:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17368100" lon="30.48398600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:47:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17370400" lon="30.48387700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:47:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17372800" lon="30.48381800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:47:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17392400" lon="30.48395300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17399400" lon="30.48403500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17404600" lon="30.48409300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17409800" lon="30.48415400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17414800" lon="30.48421900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17419700" lon="30.48428400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17424500" lon="30.48434700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17429500" lon="30.48441000">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17434400" lon="30.48447700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17438800" lon="30.48455200">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17442100" lon="30.48462900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17444300" lon="30.48474700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17446400" lon="30.48487300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17450600" lon="30.48497500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:49:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17456600" lon="30.48507200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:50:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17461500" lon="30.48513900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:50:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17466400" lon="30.48520400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:50:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17471000" lon="30.48526800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:50:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17475200" lon="30.48532400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:50:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17479300" lon="30.48537000">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:50:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17485700" lon="30.48542600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:50:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17492400" lon="30.48547900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:50:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17497000" lon="30.48551200">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:50:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17504100" lon="30.48556400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:50:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17511000" lon="30.48557600">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:50:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17517300" lon="30.48553700">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:50:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17521400" lon="30.48546400">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:50:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17519900" lon="30.48536300">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:50:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17515800" lon="30.48528600">
+    <ele>62.000000</ele>
+    <time>2024-01-06T11:50:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17511400" lon="30.48522100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:50:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17505300" lon="30.48515100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:50:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17499200" lon="30.48507500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:50:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17492400" lon="30.48499100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:50:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17485900" lon="30.48490800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:50:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17481300" lon="30.48484300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:50:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17476900" lon="30.48477200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17473000" lon="30.48469900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17468900" lon="30.48463200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17463000" lon="30.48453600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17458800" lon="30.48447600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17454500" lon="30.48442000">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:51:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17448200" lon="30.48433600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:51:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17443600" lon="30.48427400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:51:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17439600" lon="30.48421200">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:51:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17435700" lon="30.48414300">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:51:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17431000" lon="30.48403500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:51:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17427300" lon="30.48389900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T11:51:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17425200" lon="30.48380700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17422500" lon="30.48370800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17419900" lon="30.48361300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17416900" lon="30.48351700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17413300" lon="30.48343300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17409500" lon="30.48336100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17404900" lon="30.48330200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17400700" lon="30.48326000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17394800" lon="30.48320800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:51:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17384700" lon="30.48310100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17379900" lon="30.48303600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17373900" lon="30.48295700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17369200" lon="30.48289100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17364600" lon="30.48282800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17359700" lon="30.48276700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17355400" lon="30.48270200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17351900" lon="30.48262400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17349800" lon="30.48252500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17349100" lon="30.48238100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17349500" lon="30.48223200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17350300" lon="30.48212100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17352200" lon="30.48201300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17354900" lon="30.48192700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17358400" lon="30.48185400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17362000" lon="30.48179600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17368600" lon="30.48172400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17375800" lon="30.48166200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17383000" lon="30.48159300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17388500" lon="30.48152800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17393300" lon="30.48145300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17397100" lon="30.48137500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17398900" lon="30.48130400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17398000" lon="30.48119900">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:52:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17393400" lon="30.48111200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:53:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17387700" lon="30.48102300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:53:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17383200" lon="30.48094300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:53:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17380500" lon="30.48088500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:53:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17379400" lon="30.48087900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:53:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17373000" lon="30.48085300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17366600" lon="30.48085000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17359600" lon="30.48085800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17352500" lon="30.48088800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17345600" lon="30.48093700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17341000" lon="30.48098100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17333700" lon="30.48108300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17329200" lon="30.48116300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17325600" lon="30.48124800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17323300" lon="30.48134000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17322000" lon="30.48143300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17321200" lon="30.48156800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:54:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17321700" lon="30.48170900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17322200" lon="30.48181300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17322500" lon="30.48191600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17323300" lon="30.48206300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17323800" lon="30.48220900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17323700" lon="30.48235100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17323600" lon="30.48249800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17322800" lon="30.48259700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17320800" lon="30.48274100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17317100" lon="30.48286800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17312400" lon="30.48295000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17306600" lon="30.48301300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17300600" lon="30.48309200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17297000" lon="30.48315400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17291200" lon="30.48325500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17287100" lon="30.48333000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17283000" lon="30.48339400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17278700" lon="30.48345000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17272600" lon="30.48352600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17266900" lon="30.48360100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17261100" lon="30.48368500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17255400" lon="30.48377900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:55:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17249500" lon="30.48390000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17246300" lon="30.48397800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17241800" lon="30.48409600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17238600" lon="30.48417900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17232900" lon="30.48429500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17229000" lon="30.48436400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17222800" lon="30.48446000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17218500" lon="30.48452100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17214200" lon="30.48458100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17209800" lon="30.48464400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17205700" lon="30.48470200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17199600" lon="30.48479000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17193400" lon="30.48486400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17187000" lon="30.48490100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17182300" lon="30.48488800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:56:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17180500" lon="30.48484100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:57:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17180500" lon="30.48469700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:58:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17180200" lon="30.48453300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:59:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17180000" lon="30.48442500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:59:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17179700" lon="30.48432500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:59:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17178200" lon="30.48423400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:59:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17173500" lon="30.48411300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:59:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17169900" lon="30.48404400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T11:59:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17164300" lon="30.48395000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17158800" lon="30.48385500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17154500" lon="30.48378500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17149500" lon="30.48371200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17144800" lon="30.48364700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17139400" lon="30.48358000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17134300" lon="30.48352600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17129000" lon="30.48349300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17124000" lon="30.48348100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17117000" lon="30.48351100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17111200" lon="30.48359600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17107100" lon="30.48371700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17105200" lon="30.48385700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17104700" lon="30.48399100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T11:59:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17103800" lon="30.48416000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:00:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17103300" lon="30.48428200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:00:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17103100" lon="30.48442700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:00:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17102600" lon="30.48458600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:00:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17102400" lon="30.48468900">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:00:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17102500" lon="30.48479200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:00:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17102300" lon="30.48491200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:00:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17102000" lon="30.48499800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:00:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17101500" lon="30.48513500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:00:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17101100" lon="30.48528000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:00:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17099300" lon="30.48541300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:00:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17095400" lon="30.48551500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:00:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17090800" lon="30.48557500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:00:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17084800" lon="30.48558800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:00:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17077400" lon="30.48558400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:00:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17072000" lon="30.48557400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:00:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17066200" lon="30.48556600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:00:56Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17060300" lon="30.48556100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:00:58Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17054700" lon="30.48556600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:00Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17049500" lon="30.48558900">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:02Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17044500" lon="30.48562800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17039400" lon="30.48567300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17034400" lon="30.48571500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17029400" lon="30.48575400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17025000" lon="30.48579300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17019100" lon="30.48587000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17013400" lon="30.48596500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17009300" lon="30.48604100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17005900" lon="30.48612800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17003400" lon="30.48622400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.17000700" lon="30.48632000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16997800" lon="30.48640500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16995000" lon="30.48648600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16991000" lon="30.48662200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16988300" lon="30.48671600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16985700" lon="30.48681700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16983300" lon="30.48692500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16981500" lon="30.48703900">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16979100" lon="30.48716100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:01:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16976600" lon="30.48728700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:01:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16973800" lon="30.48741200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:01:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16971600" lon="30.48753600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:01:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16969500" lon="30.48766100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:01:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16967200" lon="30.48778300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:01:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16965400" lon="30.48790100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:01:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16964600" lon="30.48801500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:01:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16963600" lon="30.48813100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:01:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16962400" lon="30.48824900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:02:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16960900" lon="30.48836400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:02:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16959300" lon="30.48846700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:02:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16957900" lon="30.48856500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:02:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16955000" lon="30.48871500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:02:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16952000" lon="30.48885600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:02:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16950000" lon="30.48895200">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:02:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16948000" lon="30.48904700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:02:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16944700" lon="30.48916700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:02:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16941600" lon="30.48928000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:02:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16938900" lon="30.48939200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:02:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16937400" lon="30.48947200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:02:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16933000" lon="30.48971900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:03:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16931000" lon="30.48982300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:03:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16929000" lon="30.48993400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:03:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16926800" lon="30.49005000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:03:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16924500" lon="30.49016900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:03:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16922000" lon="30.49028800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:03:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16919200" lon="30.49040300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:03:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16916700" lon="30.49051500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:03:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16914100" lon="30.49062500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:03:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16911100" lon="30.49073500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:03:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16908000" lon="30.49083700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16904600" lon="30.49093600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16901100" lon="30.49103100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:30Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16897100" lon="30.49112800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16893000" lon="30.49121800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16889100" lon="30.49130200">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16885000" lon="30.49138700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16880900" lon="30.49147100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16876600" lon="30.49155100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16872300" lon="30.49162400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:44Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16867600" lon="30.49167800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16862100" lon="30.49170500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16856400" lon="30.49168200">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16849200" lon="30.49163100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16844000" lon="30.49159500">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16838500" lon="30.49155900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:03:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16832700" lon="30.49152600">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:04:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16826900" lon="30.49149400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:04:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16821500" lon="30.49145700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:04:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16816300" lon="30.49142000">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:04:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16810800" lon="30.49138800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:04:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16805500" lon="30.49135700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:04:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16800300" lon="30.49132400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:04:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16795400" lon="30.49128900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:04:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16790600" lon="30.49125200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:04:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16786000" lon="30.49120700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:04:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16779000" lon="30.49115600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:04:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16772200" lon="30.49114900">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:04:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16765500" lon="30.49119200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:04:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16759200" lon="30.49126600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:04:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16755000" lon="30.49135700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:04:34Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16750400" lon="30.49145100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:04:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16745800" lon="30.49154100">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:04:40Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16740900" lon="30.49162000">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:04:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16734500" lon="30.49169600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:04:46Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16729200" lon="30.49174400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:04:48Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16724200" lon="30.49178600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:04:50Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16720200" lon="30.49181700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:04:52Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16708000" lon="30.49192300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16703000" lon="30.49195500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:06Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16698100" lon="30.49198400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:08Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16692600" lon="30.49201400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:10Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16686900" lon="30.49203500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16681000" lon="30.49204700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16674900" lon="30.49206200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16669100" lon="30.49208300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:18Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16663700" lon="30.49211600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16658800" lon="30.49217000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16654700" lon="30.49224800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:24Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16650800" lon="30.49239300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16649100" lon="30.49250000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16647100" lon="30.49261000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16645300" lon="30.49272200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16643600" lon="30.49283100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16642000" lon="30.49294100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:05:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16640300" lon="30.49305100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:05:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16638600" lon="30.49316400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:05:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16636700" lon="30.49327800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:05:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16634700" lon="30.49339100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:05:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16632300" lon="30.49350000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:05:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16629400" lon="30.49360500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:05:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16625600" lon="30.49370200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:05:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16621500" lon="30.49378800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:05:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16616200" lon="30.49388100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:05:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16610400" lon="30.49396300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:05:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16605600" lon="30.49402100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:05:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16601300" lon="30.49408700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16597700" lon="30.49416600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16594200" lon="30.49424500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16590700" lon="30.49432000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16586900" lon="30.49438300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16580500" lon="30.49445300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:12Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16573400" lon="30.49451700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16568800" lon="30.49455900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16562000" lon="30.49460900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16554900" lon="30.49463600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16550000" lon="30.49463200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16543100" lon="30.49457900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:28Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16537200" lon="30.49447900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16533700" lon="30.49439800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:06:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16530300" lon="30.49430800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:06:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16527300" lon="30.49421100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:06:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16525200" lon="30.49410800">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:06:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16524300" lon="30.49399900">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:06:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16524600" lon="30.49388400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:06:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16525700" lon="30.49376500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16527200" lon="30.49364300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16528900" lon="30.49352300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16530500" lon="30.49339800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16532000" lon="30.49327000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:06:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16533900" lon="30.49314300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:06:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16536100" lon="30.49302200">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:06:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16538300" lon="30.49290600">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:06:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16540700" lon="30.49280000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:07:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16543300" lon="30.49270500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:07:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16546000" lon="30.49261000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:07:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16548600" lon="30.49251200">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16550500" lon="30.49241200">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16551800" lon="30.49231600">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16553200" lon="30.49217500">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:14Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16555200" lon="30.49203600">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16557800" lon="30.49190500">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16560000" lon="30.49177500">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16560300" lon="30.49164100">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:26Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16558300" lon="30.49152300">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16553700" lon="30.49142700">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:32Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16548800" lon="30.49133500">
+    <ele>67.000000</ele>
+    <time>2024-01-06T12:07:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16544100" lon="30.49125000">
+    <ele>67.000000</ele>
+    <time>2024-01-06T12:07:38Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16538400" lon="30.49116900">
+    <ele>67.000000</ele>
+    <time>2024-01-06T12:07:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16534100" lon="30.49111000">
+    <ele>67.000000</ele>
+    <time>2024-01-06T12:07:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16529700" lon="30.49104900">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16525200" lon="30.49098800">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16520700" lon="30.49093200">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16516100" lon="30.49088700">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16509700" lon="30.49086400">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:54Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16505100" lon="30.49087900">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:07:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16499900" lon="30.49095400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:08:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16497000" lon="30.49100700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:08:04Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16489900" lon="30.49112100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:08:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16485100" lon="30.49119700">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:08:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16479500" lon="30.49128500">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:08:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16473700" lon="30.49138000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:08:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16468200" lon="30.49147600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:08:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16462900" lon="30.49157200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:08:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16457700" lon="30.49166500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:08:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16452300" lon="30.49175100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:08:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16446700" lon="30.49182900">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16441000" lon="30.49189800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16435100" lon="30.49196200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16429200" lon="30.49202800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16424200" lon="30.49210200">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16420000" lon="30.49219000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16415900" lon="30.49228700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16412000" lon="30.49238400">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16408000" lon="30.49249300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16404200" lon="30.49260100">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16400200" lon="30.49271500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16396500" lon="30.49282700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16392400" lon="30.49294500">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16388500" lon="30.49306300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16384100" lon="30.49318300">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:09:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16379700" lon="30.49329700">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:09:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16375200" lon="30.49341400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:09:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16370400" lon="30.49353100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:09:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16365500" lon="30.49364100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:09:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16360300" lon="30.49374800">
+    <ele>62.000000</ele>
+    <time>2024-01-06T12:09:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16354900" lon="30.49385000">
+    <ele>62.000000</ele>
+    <time>2024-01-06T12:09:41Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16349300" lon="30.49394600">
+    <ele>61.000000</ele>
+    <time>2024-01-06T12:09:43Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16343500" lon="30.49404000">
+    <ele>61.000000</ele>
+    <time>2024-01-06T12:09:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16337400" lon="30.49412400">
+    <ele>61.000000</ele>
+    <time>2024-01-06T12:09:47Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16331000" lon="30.49419700">
+    <ele>61.000000</ele>
+    <time>2024-01-06T12:09:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16324500" lon="30.49426000">
+    <ele>61.000000</ele>
+    <time>2024-01-06T12:09:51Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16317800" lon="30.49431000">
+    <ele>61.000000</ele>
+    <time>2024-01-06T12:09:53Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16311000" lon="30.49434900">
+    <ele>62.000000</ele>
+    <time>2024-01-06T12:09:55Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16304000" lon="30.49438200">
+    <ele>62.000000</ele>
+    <time>2024-01-06T12:09:57Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16296700" lon="30.49441300">
+    <ele>62.000000</ele>
+    <time>2024-01-06T12:09:59Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16289000" lon="30.49444100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:10:01Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16281600" lon="30.49446100">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:10:03Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16274500" lon="30.49447400">
+    <ele>63.000000</ele>
+    <time>2024-01-06T12:10:05Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16267300" lon="30.49448600">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:10:07Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16259900" lon="30.49448800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:10:09Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16252300" lon="30.49448800">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:10:11Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16244800" lon="30.49449000">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:10:13Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16237100" lon="30.49449700">
+    <ele>64.000000</ele>
+    <time>2024-01-06T12:10:15Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16229400" lon="30.49450300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:10:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16221300" lon="30.49451000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:10:19Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16213100" lon="30.49452300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:10:21Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16205200" lon="30.49453400">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:10:23Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16197200" lon="30.49453300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:10:25Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16189900" lon="30.49453100">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:10:27Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16182800" lon="30.49453300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:10:29Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16175300" lon="30.49453300">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:10:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16168100" lon="30.49453000">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:10:33Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16161400" lon="30.49452800">
+    <ele>65.000000</ele>
+    <time>2024-01-06T12:10:35Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16155200" lon="30.49452500">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:10:37Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16149900" lon="30.49452300">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:10:39Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16144900" lon="30.49452600">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:10:42Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16136200" lon="30.49447700">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:11:45Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16131100" lon="30.49443300">
+    <ele>67.000000</ele>
+    <time>2024-01-06T12:11:49Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16136800" lon="30.49449800">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:12:17Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16141700" lon="30.49448100">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:12:22Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16136800" lon="30.49450600">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:12:31Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16132600" lon="30.49448700">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:12:36Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16137600" lon="30.49449700">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:13:16Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+  <wpt lat="60.16142100" lon="30.49452900">
+    <ele>66.000000</ele>
+    <time>2024-01-06T12:13:20Z</time>
+    <name>Undefined</name>
+    <sym>Waypoint</sym>
+  </wpt>
+</gpx>
+

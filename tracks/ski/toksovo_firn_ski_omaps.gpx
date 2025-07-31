@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="SAS.Planet" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
+  <metadata>
+    <time>2016-01-30T22:32:40Z</time>
+    <link href="http://www.sasgis.org/">
+      <text>SAS.Planet</text>
+    </link>
+    <name>фирн</name>
+    <desc>31.01.2016 1:32:17</desc>
+    <author>
+      <name>Максим</name>
+    </author>
+    <bounds maxlat="60.1464859629653" maxlon="30.6045926332244" minlat="60.154325095938" minlon="30.5823195695647"/>
+  </metadata>
+  <rte>
+    <name>фирн</name>
+    <cmt>31.01.2016 1:32:17</cmt>
+    <number>1</number>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:Categories>
+          <gpxx:Category>default</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:RouteExtension>
+      <gpxtrx:TrackExtension>
+        <gpxtrx:Categories>
+          <gpxtrx:Category>default</gpxtrx:Category>
+        </gpxtrx:Categories>
+      </gpxtrx:TrackExtension>
+    </extensions>
+    <rtept lat="60.1497329150807" lon="30.5831778764495">
+      <name>фирн 1</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1490493728582" lon="30.5824483155974">
+      <name>фирн 2</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.148429900445" lon="30.5823195695647">
+      <name>фирн 3</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1480240328808" lon="30.5825770616302">
+      <name>фирн 4</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1477249693648" lon="30.5832207917937">
+      <name>фирн 5</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1476395221463" lon="30.5844653367766">
+      <name>фирн 6</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1479172247945" lon="30.5862677812346">
+      <name>фирн 7</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1478317780756" lon="30.5871690034636">
+      <name>фирн 8</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1474899889798" lon="30.5878985643157">
+      <name>фирн 9</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1470841098143" lon="30.5892718553313">
+      <name>фирн 10</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1473190930996" lon="30.5897868394622">
+      <name>фирн 11</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.147703607581" lon="30.5903876542815">
+      <name>фирн 12</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1480240328808" lon="30.5910313844451">
+      <name>фирн 13</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1480026712913" lon="30.5917609452971">
+      <name>фирн 14</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1478958631356" lon="30.5927909135589">
+      <name>фирн 15</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1480026712913" lon="30.5935633897552">
+      <name>фирн 16</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1483871777794" lon="30.594078373886">
+      <name>фирн 17</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1483230936769" lon="30.5950225114593">
+      <name>фирн 18</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1485367068661" lon="30.596052479721">
+      <name>фирн 19</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1489639290812" lon="30.5967391252288">
+      <name>фирн 20</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1493057028568" lon="30.5972970247039">
+      <name>фирн 21</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.14964747308" lon="30.597683262802">
+      <name>фирн 22</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1496261125451" lon="30.5984986543426">
+      <name>фирн 23</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1493697850443" lon="30.5986274003753">
+      <name>фирн 24</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1487289575498" lon="30.5987132310637">
+      <name>фирн 25</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1483017322817" lon="30.5989707231292">
+      <name>фирн 26</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1478745014628" lon="30.5994427919158">
+      <name>фирн 27</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1472763689908" lon="30.59948570726">
+      <name>фирн 28</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1468704871886" lon="30.5991423845061">
+      <name>фирн 29</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1466355006976" lon="30.59948570726">
+      <name>фирн 30</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1465286881011" lon="30.6001723527678">
+      <name>фирн 31</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1464859629653" lon="30.6016743898162">
+      <name>фирн 32</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1466995880889" lon="30.6027901887664">
+      <name>фирн 33</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1471054720005" lon="30.6034768342742">
+      <name>фирн 34</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1476608839717" lon="30.6039918184051">
+      <name>фирн 35</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1480881175661" lon="30.6039918184051">
+      <name>фирн 36</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1486435129402" lon="30.6044638871917">
+      <name>фирн 37</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1491134555452" lon="30.6045926332244">
+      <name>фирн 38</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1494125064332" lon="30.6042063951262">
+      <name>фирн 39</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1494552277666" lon="30.6033051728972">
+      <name>фирн 40</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1494979490444" lon="30.6027901887664">
+      <name>фирн 41</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1492629813291" lon="30.602361035324">
+      <name>фирн 42</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1493697850443" lon="30.6009877443084">
+      <name>фирн 43</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1496901941081" lon="30.6004298448333">
+      <name>фирн 44</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1500746808633" lon="30.6003440141448">
+      <name>фирн 45</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1504164430935" lon="30.6006444215545">
+      <name>фирн 46</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1508009213563" lon="30.6012452363738">
+      <name>фирн 47</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1511426760377" lon="30.6010306596526">
+      <name>фирн 48</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1510785973055" lon="30.6006444215545">
+      <name>фирн 49</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1506727624349" lon="30.6006444215545">
+      <name>фирн 50</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1502242022761" lon="30.5999577760467">
+      <name>фирн 51</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1500533206059" lon="30.598756146408">
+      <name>фирн 52</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1502028421159" lon="30.5981553315886">
+      <name>фирн 53</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1500533206059" lon="30.5968249559173">
+      <name>фирн 54</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1496901941081" lon="30.5951941728362">
+      <name>фирн 55</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1493057028568" lon="30.5939496278533">
+      <name>фирн 56</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1487289575498" lon="30.5936063050994">
+      <name>фирн 57</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1483444550583" lon="30.5924046754607">
+      <name>фирн 58</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1482590094496" lon="30.5913317918548">
+      <name>фирн 59</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1484512617569" lon="30.5903876542815">
+      <name>фирн 60</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1491348164131" lon="30.5897439241179">
+      <name>фирн 61</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1497969964355" lon="30.5897010087737">
+      <name>фирн 62</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1502455624224" lon="30.5894864320525">
+      <name>фирн 63</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1506941222898" lon="30.5887139558562">
+      <name>фирн 64</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1503096427781" lon="30.5883277177581">
+      <name>фирн 65</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1500319603347" lon="30.5877269029387">
+      <name>фирн 66</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.150331002869" lon="30.5870402574309">
+      <name>фирн 67</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1507795615707" lon="30.5869115113982">
+      <name>фирн 68</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1512921925938" lon="30.587598156906">
+      <name>фирн 69</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1515912236662" lon="30.5880273103484">
+      <name>фирн 70</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1519543291691" lon="30.5882848024138">
+      <name>фирн 71</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1519970471999" lon="30.5891431092986">
+      <name>фирн 72</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1521252009594" lon="30.5898726701507">
+      <name>фирн 73</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1525523765498" lon="30.5902159929046">
+      <name>фирн 74</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1527232452318" lon="30.5905164003142">
+      <name>фирн 75</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1529795465898" lon="30.591203045822">
+      <name>фирн 76</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1534280691583" lon="30.5917180299529">
+      <name>фирн 77</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.153833870019" lon="30.5916321992644">
+      <name>фирн 78</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1539620166186" lon="30.5909884691009">
+      <name>фирн 79</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1536630071093" lon="30.5902589082488">
+      <name>фирн 80</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1535135013348" lon="30.5899155854949">
+      <name>фирн 81</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1537484386752" lon="30.5898297548064">
+      <name>фирн 82</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1540047320408" lon="30.5902159929046">
+      <name>фирн 83</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1542610234084" lon="30.5902159929046">
+      <name>фирн 84</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.154325095938" lon="30.5894864320525">
+      <name>фирн 85</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1539620166186" lon="30.5888427018889">
+      <name>фирн 86</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1535989332892" lon="30.5884135484466">
+      <name>фирн 87</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1527446037546" lon="30.5881560563811">
+      <name>фирн 88</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1523174306619" lon="30.5878127336272">
+      <name>фирн 89</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1519543291691" lon="30.5874264955291">
+      <name>фирн 90</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1516766606159" lon="30.5863965272674">
+      <name>фирн 91</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1511426760377" lon="30.5857527971038">
+      <name>фирн 92</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1507582017713" lon="30.5854094743499">
+      <name>фирн 93</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1502028421159" lon="30.584894490219">
+      <name>фирн 94</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.149903798416" lon="30.583263707138">
+      <name>фирн 95</name>
+      <sym>waypoint</sym>
+    </rtept>
+  </rte>
+</gpx>

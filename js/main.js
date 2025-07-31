@@ -71,7 +71,7 @@ if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
             let gpx = new L.GPX(t.gpx, {
                 async: false,
                 display_wpt: false,
-                color: 'red',
+                color: (t.type && t.type.includes('SKI') ? 'blue' : 'red'),
                 weight: 5
             });
             var popup_text = buildTrackText(t, gpx);
@@ -101,8 +101,15 @@ function buildTrackText(t, gpx) {
     }
     result += '<img src="' + pic + '" alt="" class="popup-logo" /><div class="popup-text"';
 
-    // имя, ссылка и длина
-    result += '<b><a href="' + t.link + '">' + t.name + '</a>';
+    // имя, ссылка, год и длина
+    if (t.link) {
+        result += '<b><a href="' + t.link + '">' + t.name + '</a>';
+    } else {
+        result += '<b>' + t.name;
+    }
+    if (t.year) {
+        result += ' ' + t.year + ' ';
+    }
     if (gpx.len > 0) {
         let len = gpx._humanLen(gpx.len);
         result += ' (' + len + ')';
@@ -112,7 +119,9 @@ function buildTrackText(t, gpx) {
     result += '<hr />';
 
     // инфа о маршруте
-    result += t.info;
+    if (t.info) {
+        result += t.info;
+    }
 
     result += '</div>';
 

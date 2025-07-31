@@ -142,7 +142,9 @@
 
         function buildInfo(m) {
             let result = '';
-            result += m.info;
+            if (t.info) {
+                result += m.info;
+            }
             return result;
         }
 
@@ -154,7 +156,9 @@
 
         function buildLinks(t) {
             let result = '';
-            result += '<a href="' + t.link + '" title="' + t.name + '" class="ext-link"><img src="./images/url-file.png" /></a>';
+            if (t.link) {
+                result += '<a href="' + t.link + '" title="' + t.name + '" class="ext-link"><img src="./images/url-file.png" /></a>';
+            }
             return result;
         }
 

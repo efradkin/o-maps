@@ -1,0 +1,1859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="SAS.Planet" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
+  <metadata>
+    <time>2016-01-30T22:18:54Z</time>
+    <link href="http://www.sasgis.org/">
+      <text>SAS.Planet</text>
+    </link>
+    <name>туристическая лыжная трасса 38км часть 1</name>
+    <desc>31.01.2016 0:59:12</desc>
+    <author>
+      <name>Максим</name>
+    </author>
+    <bounds maxlat="60.118912810321" maxlon="30.6406122388711" minlat="60.1905473457748" minlon="30.5218535536611"/>
+  </metadata>
+  <rte>
+    <name>28-$$$-14 14:51:51 (2)</name>
+    <number>1</number>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:Categories>
+          <gpxx:Category>Новая категория</gpxx:Category>
+          <gpxx:Category>динамо.gpx</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:RouteExtension>
+      <gpxtrx:TrackExtension>
+        <gpxtrx:Categories>
+          <gpxtrx:Category>Новая категория</gpxtrx:Category>
+          <gpxtrx:Category>динамо.gpx</gpxtrx:Category>
+        </gpxtrx:Categories>
+      </gpxtrx:TrackExtension>
+    </extensions>
+    <rtept lat="60.172016" lon="30.525293">
+      <name>28-$$$-14 14:51:51 (2) 1</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.172016" lon="30.525295">
+      <name>28-$$$-14 14:51:51 (2) 2</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.172016" lon="30.525295">
+      <name>28-$$$-14 14:51:51 (2) 3</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.172016" lon="30.525295">
+      <name>28-$$$-14 14:51:51 (2) 4</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.172016" lon="30.525295">
+      <name>28-$$$-14 14:51:51 (2) 5</name>
+      <sym>waypoint</sym>
+    </rtept>
+  </rte>
+  <rte>
+    <name>туристическая лыжная трасса 38км часть 1</name>
+    <cmt>31.01.2016 0:59:12</cmt>
+    <number>2</number>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:Categories>
+          <gpxx:Category>Новая категория</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:RouteExtension>
+      <gpxtrx:TrackExtension>
+        <gpxtrx:Categories>
+          <gpxtrx:Category>Новая категория</gpxtrx:Category>
+        </gpxtrx:Categories>
+      </gpxtrx:TrackExtension>
+    </extensions>
+    <rtept lat="60.1854506741041" lon="30.5719819872886">
+      <name>туристическая лыжная трасса 38км часть 1 1</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1850536156744" lon="30.5727540569215">
+      <name>туристическая лыжная трасса 38км часть 1 2</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1848189020873" lon="30.5736981944947">
+      <name>туристическая лыжная трасса 38км часть 1 3</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1849042526767" lon="30.5761014537721">
+      <name>туристическая лыжная трасса 38км часть 1 4</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1852669902068" lon="30.578247220984">
+      <name>туристическая лыжная трасса 38км часть 1 5</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1854590261003" lon="30.5793201045899">
+      <name>туристическая лыжная трасса 38км часть 1 6</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.185949779392" lon="30.5803500728516">
+      <name>туристическая лыжная трасса 38км часть 1 7</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1865898813574" lon="30.5818091945557">
+      <name>туристическая лыжная трасса 38км часть 1 8</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1872939791054" lon="30.5838262157349">
+      <name>туристическая лыжная трасса 38км часть 1 9</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.188190081673" lon="30.5846845226197">
+      <name>туристическая лыжная трасса 38км часть 1 10</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.188531447646" lon="30.5848561839967">
+      <name>туристическая лыжная трасса 38км часть 1 11</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1888728100694" lon="30.5851136760621">
+      <name>туристическая лыжная трасса 38км часть 1 12</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1891928341176" lon="30.5862723903565">
+      <name>туристическая лыжная трасса 38км часть 1 13</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1895555242674" lon="30.5871306972413">
+      <name>туристическая лыжная трасса 38км часть 1 14</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1900462163274" lon="30.5882894115357">
+      <name>туристическая лыжная трасса 38км часть 1 15</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1901102190988" lon="30.5888473110108">
+      <name>туристическая лыжная трасса 38км часть 1 16</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1900675505984" lon="30.5897056178956">
+      <name>туристическая лыжная трасса 38км часть 1 17</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1900035477438" lon="30.5904351787476">
+      <name>туристическая лыжная трасса 38км часть 1 18</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1894275164368" lon="30.5913364009766">
+      <name>туристическая лыжная трасса 38км часть 1 19</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1887021293014" lon="30.5928813533692">
+      <name>туристическая лыжная трасса 38км часть 1 20</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.188062068518" lon="30.5941688136964">
+      <name>туристическая лыжная трасса 38км часть 1 21</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1873366512109" lon="30.5965291576295">
+      <name>туристическая лыжная трасса 38км часть 1 22</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.186632554378" lon="30.5983745174317">
+      <name>туристическая лыжная трасса 38км часть 1 23</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1859924532446" lon="30.600219877234">
+      <name>туристическая лыжная трасса 38км часть 1 24</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1853523396315" lon="30.6018077449708">
+      <name>туристическая лыжная трасса 38км часть 1 25</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1846695380218" lon="30.6036101894288">
+      <name>туристическая лыжная трасса 38км часть 1 26</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1842854558763" lon="30.6047689037232">
+      <name>туристическая лыжная трасса 38км часть 1 27</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1835812936073" lon="30.6068288402467">
+      <name>туристическая лыжная трасса 38км часть 1 28</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.179955102674" lon="30.6184545455299">
+      <name>туристическая лыжная трасса 38км часть 1 29</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1781624235344" lon="30.6241193709694">
+      <name>туристическая лыжная трасса 38км часть 1 30</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1767538212753" lon="30.6284967360817">
+      <name>туристическая лыжная трасса 38км часть 1 31</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1742352606128" lon="30.6362214980446">
+      <name>туристическая лыжная трасса 38км часть 1 32</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1727837989602" lon="30.6403413710914">
+      <name>туристическая лыжная трасса 38км часть 1 33</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1709033120406" lon="30.6375089583717">
+      <name>туристическая лыжная трасса 38км часть 1 34</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1701775156183" lon="30.6372514663063">
+      <name>туристическая лыжная трасса 38км часть 1 35</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.16701797967" lon="30.6347623763405">
+      <name>туристическая лыжная трасса 38км часть 1 36</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1647548820476" lon="30.6334749160133">
+      <name>туристическая лыжная трасса 38км часть 1 37</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1627051496943" lon="30.6306425032936">
+      <name>туристическая лыжная трасса 38км часть 1 38</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1613812962666" lon="30.629097550901">
+      <name>туристическая лыжная трасса 38км часть 1 39</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1599292666708" lon="30.625664323362">
+      <name>туристическая лыжная трасса 38км часть 1 40</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1591178104256" lon="30.6209436354957">
+      <name>туристическая лыжная трасса 38км часть 1 41</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1571958604564" lon="30.6165662703834">
+      <name>туристическая лыжная трасса 38км часть 1 42</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.155658219565" lon="30.6141630111061">
+      <name>туристическая лыжная трасса 38км часть 1 43</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1546758002278" lon="30.6096998153053">
+      <name>туристическая лыжная трасса 38км часть 1 44</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1541632219619" lon="30.6062665877662">
+      <name>туристическая лыжная трасса 38км часть 1 45</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1547185147225" lon="30.603348344358">
+      <name>туристическая лыжная трасса 38км часть 1 46</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1557436459459" lon="30.6004301009498">
+      <name>туристическая лыжная трасса 38км часть 1 47</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1553686167775" lon="30.597392413701">
+      <name>туристическая лыжная трасса 38км часть 1 48</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1550909770603" lon="30.5961907840623">
+      <name>туристическая лыжная трасса 38км часть 1 49</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1550482630495" lon="30.5943025089158">
+      <name>туристическая лыжная трасса 38км часть 1 50</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.155283189422" lon="30.5938304401292">
+      <name>туристическая лыжная трасса 38км часть 1 51</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1554754006597" lon="30.5942595935716">
+      <name>туристическая лыжная трасса 38км часть 1 52</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1561374529874" lon="30.5944741702928">
+      <name>туристическая лыжная трасса 38км часть 1 53</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1566072884857" lon="30.5947745777024">
+      <name>туристическая лыжная трасса 38км часть 1 54</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1569916943531" lon="30.5953324771775">
+      <name>туристическая лыжная трасса 38км часть 1 55</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1574188067111" lon="30.5952466464891">
+      <name>туристическая лыжная трасса 38км часть 1 56</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.157781847852" lon="30.5949033237352">
+      <name>туристическая лыжная трасса 38км часть 1 57</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1579953995912" lon="30.5944741702928">
+      <name>туристическая лыжная трасса 38км часть 1 58</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.158337079488" lon="30.5949891544236">
+      <name>туристическая лыжная трасса 38км часть 1 59</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1589350107611" lon="30.5947745777024">
+      <name>туристическая лыжная трасса 38км часть 1 60</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1591485550082" lon="30.5944741702928">
+      <name>туристическая лыжная трасса 38км часть 1 61</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1597678254792" lon="30.595589969243">
+      <name>туристическая лыжная трасса 38км часть 1 62</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1602162554331" lon="30.5956757999314">
+      <name>туристическая лыжная трасса 38км часть 1 63</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1608568590396" lon="30.5955041385545">
+      <name>туристическая лыжная трасса 38км часть 1 64</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1612412152101" lon="30.5953753925218">
+      <name>туристическая лыжная трасса 38км часть 1 65</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1614974501599" lon="30.5957616306199">
+      <name>туристическая лыжная трасса 38км часть 1 66</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1620739714926" lon="30.595589969243">
+      <name>туристическая лыжная трасса 38км часть 1 67</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1625650742805" lon="30.5955470538987">
+      <name>туристическая лыжная трасса 38км часть 1 68</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1628853547536" lon="30.5963624454393">
+      <name>туристическая лыжная трасса 38км часть 1 69</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1631629286387" lon="30.5975211597337">
+      <name>туристическая лыжная трасса 38км часть 1 70</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1637180693754" lon="30.5979932285203">
+      <name>туристическая лыжная трасса 38км часть 1 71</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.164337253749" lon="30.598121974553">
+      <name>туристическая лыжная трасса 38км часть 1 72</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1650418286722" lon="30.598121974553">
+      <name>туристическая лыжная трасса 38км часть 1 73</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.165575587496" lon="30.5981648898973">
+      <name>туристическая лыжная трасса 38км часть 1 74</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1653834353182" lon="30.5971349216356">
+      <name>туристическая лыжная трасса 38км часть 1 75</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1653834353182" lon="30.5962766147508">
+      <name>туристическая лыжная трасса 38км часть 1 76</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1653834353182" lon="30.5958474613084">
+      <name>туристическая лыжная трасса 38км часть 1 77</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1657677385501" lon="30.5955470538987">
+      <name>туристическая лыжная трасса 38км часть 1 78</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1659385385438" lon="30.5950749851121">
+      <name>туристическая лыжная трасса 38км часть 1 79</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1656823382203" lon="30.5938733554734">
+      <name>туристическая лыжная трасса 38км часть 1 80</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1655542373095" lon="30.5923713184251">
+      <name>туристическая лыжная трасса 38км часть 1 81</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1655969376686" lon="30.5914271808519">
+      <name>туристическая лыжная трасса 38км часть 1 82</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1654047856157" lon="30.5901826358689">
+      <name>туристическая лыжная трасса 38км часть 1 83</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1649991275917" lon="30.5888093448533">
+      <name>туристическая лыжная трасса 38км часть 1 84</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1644226575746" lon="30.5881226993455">
+      <name>туристическая лыжная трасса 38км часть 1 85</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1634618517391" lon="30.5875647998704">
+      <name>туристическая лыжная трасса 38км часть 1 86</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1632269838177" lon="30.5869210697068">
+      <name>туристическая лыжная трасса 38км часть 1 87</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1629707623525" lon="30.5855477786912">
+      <name>туристическая лыжная трасса 38км часть 1 88</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1630988733348" lon="30.5845607257737">
+      <name>туристическая лыжная трасса 38км часть 1 89</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1627785949427" lon="30.5840886569871">
+      <name>туристическая лыжная трасса 38км часть 1 90</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1623301999498" lon="30.5839169956102">
+      <name>туристическая лыжная трасса 38км часть 1 91</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1620099140662" lon="30.5828441120042">
+      <name>туристическая лыжная трасса 38км часть 1 92</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1616896250612" lon="30.5822003818406">
+      <name>туристическая лыжная трасса 38км часть 1 93</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1604784130869" lon="30.5819916488391">
+      <name>туристическая лыжная трасса 38км часть 1 94</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1604357060765" lon="30.5811762572985">
+      <name>туристическая лыжная трасса 38км часть 1 95</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1601154017296" lon="30.5804037811022">
+      <name>туристическая лыжная трасса 38км часть 1 96</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1596242623349" lon="30.5804037811022">
+      <name>туристическая лыжная трасса 38км часть 1 97</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1592185329514" lon="30.5805754424792">
+      <name>туристическая лыжная трасса 38км часть 1 98</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.158791443979" lon="30.5799746276599">
+      <name>туристическая лыжная трасса 38км часть 1 99</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.158513833171" lon="30.5791163207751">
+      <name>туристическая лыжная трасса 38км часть 1 100</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1579372493853" lon="30.5779576064807">
+      <name>туристическая лыжная трасса 38км часть 1 101</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1575742099608" lon="30.577485537694">
+      <name>туристическая лыжная трасса 38км часть 1 102</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1570403211702" lon="30.5764555694323">
+      <name>туристическая лыжная трасса 38км часть 1 103</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1565918478847" lon="30.5752968551379">
+      <name>туристическая лыжная трасса 38км часть 1 104</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1562287936006" lon="30.5743956329089">
+      <name>туристическая лыжная трасса 38км часть 1 105</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1564850676291" lon="30.5728935958605">
+      <name>туристическая лыжная трасса 38км часть 1 106</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1563142184988" lon="30.5721211196643">
+      <name>туристическая лыжная трасса 38км часть 1 107</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1563142184988" lon="30.571176982091">
+      <name>туристическая лыжная трасса 38км часть 1 108</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.156527779773" lon="30.5703615905505">
+      <name>туристическая лыжная трасса 38км часть 1 109</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1565491358241" lon="30.5693316222888">
+      <name>туристическая лыжная трасса 38км часть 1 110</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1567199837335" lon="30.568644976781">
+      <name>туристическая лыжная трасса 38км часть 1 111</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1570616768883" lon="30.5687308074694">
+      <name>туристическая лыжная трасса 38км часть 1 112</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1572111665267" lon="30.5690312148791">
+      <name>туристическая лыжная трасса 38км часть 1 113</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1574887883371" lon="30.5691599609118">
+      <name>туристическая лыжная трасса 38км часть 1 114</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1581080900799" lon="30.5688166381579">
+      <name>туристическая лыжная трасса 38км часть 1 115</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1588127985595" lon="30.5682587386828">
+      <name>туристическая лыжная трасса 38км часть 1 116</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1591117612286" lon="30.5673146011096">
+      <name>туристическая лыжная трасса 38км часть 1 117</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1591544699594" lon="30.5661558868151">
+      <name>туристическая лыжная трасса 38км часть 1 118</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1589836347034" lon="30.5649971725207">
+      <name>туристическая лыжная трасса 38км часть 1 119</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1585778974117" lon="30.5643105270129">
+      <name>туристическая лыжная трасса 38км часть 1 120</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.158364349457" lon="30.5642246963244">
+      <name>туристическая лыжная трасса 38км часть 1 121</name>
+      <sym>waypoint</sym>
+    </rtept>
+  </rte>
+  <rte>
+    <name>туристическая лыжная трасса 38км часть 2</name>
+    <cmt>31.01.2016 1:13:59</cmt>
+    <number>3</number>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:Categories>
+          <gpxx:Category>Новая категория</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:RouteExtension>
+      <gpxtrx:TrackExtension>
+        <gpxtrx:Categories>
+          <gpxtrx:Category>Новая категория</gpxtrx:Category>
+        </gpxtrx:Categories>
+      </gpxtrx:TrackExtension>
+    </extensions>
+    <rtept lat="60.1527228597735" lon="30.5584929744909">
+      <name>туристическая лыжная трасса 38км часть 2 1</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1524665564144" lon="30.5592225353429">
+      <name>туристическая лыжная трасса 38км часть 2 2</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1524665564144" lon="30.559780434818">
+      <name>туристическая лыжная трасса 38км часть 2 3</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1521888921872" lon="30.5607674877355">
+      <name>туристическая лыжная трасса 38км часть 2 4</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1518685074726" lon="30.5612824718663">
+      <name>туристическая лыжная трасса 38км часть 2 5</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1521675333033" lon="30.5623553554723">
+      <name>туристическая лыжная трасса 38км часть 2 6</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1526801426857" lon="30.5632565777013">
+      <name>туристическая лыжная трасса 38км часть 2 7</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1526801426857" lon="30.5641577999303">
+      <name>туристическая лыжная трасса 38км часть 2 8</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1524024802624" lon="30.5646727840612">
+      <name>туристическая лыжная трасса 38км часть 2 9</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1523170451988" lon="30.5656598369787">
+      <name>туристическая лыжная трасса 38км часть 2 10</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1521675333033" lon="30.5666468898961">
+      <name>туристическая лыжная трасса 38км часть 2 11</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1521034565686" lon="30.567891434879">
+      <name>туристическая лыжная трасса 38км часть 2 12</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1522316099132" lon="30.5685780803869">
+      <name>туристическая лыжная трасса 38км часть 2 13</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.15261606695" lon="30.5690072338292">
+      <name>туристическая лыжная трасса 38км часть 2 14</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1528937275695" lon="30.5700801174352">
+      <name>туристическая лыжная трасса 38км часть 2 15</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.153000519491" lon="30.5708955089757">
+      <name>туристическая лыжная трасса 38км часть 2 16</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1527442182965" lon="30.5719254772374">
+      <name>туристическая лыжная трасса 38км часть 2 17</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1527015012365" lon="30.5735133449743">
+      <name>туристическая лыжная трасса 38км часть 2 18</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1527655768057" lon="30.5746291439245">
+      <name>туристическая лыжная трасса 38км часть 2 19</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1530859527785" lon="30.575272874088">
+      <name>туристическая лыжная трасса 38км часть 2 20</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1541752077332" lon="30.5755303661535">
+      <name>туристическая лыжная трасса 38км часть 2 21</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1546664285518" lon="30.5753157894323">
+      <name>туристическая лыжная трасса 38км часть 2 22</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1551576420304" lon="30.574543313236">
+      <name>туристическая лыжная трасса 38км часть 2 23</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1555634215418" lon="30.5741999904821">
+      <name>туристическая лыжная трасса 38км часть 2 24</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.155905126719" lon="30.5748008053014">
+      <name>туристическая лыжная трасса 38км часть 2 25</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1562254720967" lon="30.5746720592687">
+      <name>туристическая лыжная трасса 38км часть 2 26</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1565244582993" lon="30.5755303661535">
+      <name>туристическая лыжная трасса 38км часть 2 27</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1569942882662" lon="30.5767319957921">
+      <name>туристическая лыжная трасса 38км часть 2 28</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1573146230297" lon="30.5778477947423">
+      <name>туристическая лыжная трасса 38км часть 2 29</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1576349546715" lon="30.5790923397252">
+      <name>туристическая лыжная трасса 38км часть 2 30</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.157933928054" lon="30.5802939693639">
+      <name>туристическая лыжная трасса 38км часть 2 31</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1581901887889" lon="30.5809806148717">
+      <name>туристическая лыжная трасса 38км часть 2 32</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1586736681417" lon="30.5812275953467">
+      <name>туристическая лыжная трасса 38км часть 2 33</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1590580498439" lon="30.5814421720679">
+      <name>туристическая лыжная трасса 38км часть 2 34</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1595064894818" lon="30.5813992567236">
+      <name>туристическая лыжная трасса 38км часть 2 35</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1600189844332" lon="30.5815709181006">
+      <name>туристическая лыжная трасса 38км часть 2 36</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1603819968554" lon="30.5821717329199">
+      <name>туристическая лыжная трасса 38км часть 2 37</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1609371845693" lon="30.5829442091162">
+      <name>туристическая лыжная трасса 38км часть 2 38</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1610012440867" lon="30.5835021085913">
+      <name>туристическая лыжная трасса 38км часть 2 39</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1611080096714" lon="30.5845749921973">
+      <name>туристическая лыжная трасса 38км часть 2 40</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1615991268941" lon="30.5850470609839">
+      <name>туристическая лыжная трасса 38км часть 2 41</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1619194167811" lon="30.585604960459">
+      <name>туристическая лыжная трасса 38км часть 2 42</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1621542940477" lon="30.5865920133765">
+      <name>туристическая лыжная трасса 38км часть 2 43</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1625813393226" lon="30.5869353361304">
+      <name>туристическая лыжная трасса 38км часть 2 44</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1627948598791" lon="30.5872786588843">
+      <name>туристическая лыжная трасса 38км часть 2 45</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1627735078859" lon="30.5879653043921">
+      <name>туристическая лыжная трасса 38км часть 2 46</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1626453956352" lon="30.5887377805884">
+      <name>туристическая лыжная трасса 38км часть 2 47</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1621969988249" lon="30.5895102567847">
+      <name>туристическая лыжная трасса 38км часть 2 48</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1619194167811" lon="30.589939410227">
+      <name>туристическая лыжная трасса 38км часть 2 49</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1615137157304" lon="30.5907548017676">
+      <name>туристическая лыжная трасса 38км часть 2 50</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1611934218895" lon="30.5909264631445">
+      <name>туристическая лыжная трасса 38км часть 2 51</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1610012440867" lon="30.5917847700293">
+      <name>туристическая лыжная трасса 38км часть 2 52</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1608090651601" lon="30.5925143308813">
+      <name>туристическая лыжная трасса 38км часть 2 53</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1603606432945" lon="30.5925143308813">
+      <name>туристическая лыжная трасса 38км часть 2 54</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1598054458413" lon="30.5920422620947">
+      <name>туристическая лыжная трасса 38км часть 2 55</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.159442427051" lon="30.5916989393408">
+      <name>туристическая лыжная трасса 38км часть 2 56</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1589726320763" lon="30.5918706007178">
+      <name>туристическая лыжная трасса 38км часть 2 57</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1584814756049" lon="30.5922568388159">
+      <name>туристическая лыжная трасса 38км часть 2 58</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.158139797209" lon="30.5925572462256">
+      <name>туристическая лыжная трасса 38км часть 2 59</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1575845622404" lon="30.592085177439">
+      <name>туристическая лыжная трасса 38км часть 2 60</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1570079621535" lon="30.5910552091772">
+      <name>туристическая лыжная трасса 38км часть 2 61</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1565381323821" lon="30.5900252409155">
+      <name>туристическая лыжная трасса 38км часть 2 62</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1562605025425" lon="30.5888665266211">
+      <name>туристическая лыжная трасса 38км часть 2 63</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1558547316359" lon="30.5886948652441">
+      <name>туристическая лыжная трасса 38км часть 2 64</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1555984526931" lon="30.5889094419653">
+      <name>туристическая лыжная трасса 38км часть 2 65</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1552353874373" lon="30.5890811033423">
+      <name>туристическая лыжная трасса 38км часть 2 66</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1548082467084" lon="30.5886519498999">
+      <name>туристическая лыжная трасса 38км часть 2 67</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1544451727252" lon="30.5887806959326">
+      <name>туристическая лыжная трасса 38км часть 2 68</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1540825718204" lon="30.5881636748221">
+      <name>туристическая лыжная трасса 38км часть 2 69</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1537835634075" lon="30.5873053679373">
+      <name>туристическая лыжная трасса 38км часть 2 70</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1533777619258" lon="30.5870049605277">
+      <name>туристическая лыжная трасса 38км часть 2 71</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1527797295595" lon="30.5864470610526">
+      <name>туристическая лыжная трасса 38км часть 2 72</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1522030451892" lon="30.5854600081351">
+      <name>туристическая лыжная трасса 38км часть 2 73</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1517758650599" lon="30.5842583784964">
+      <name>туристическая лыжная трасса 38км часть 2 74</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1511991630809" lon="30.5834859023001">
+      <name>туристическая лыжная трасса 38км часть 2 75</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1505583712401" lon="30.5823701033499">
+      <name>туристическая лыжная трасса 38км часть 2 76</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.15019525032" lon="30.5820696959402">
+      <name>туристическая лыжная трасса 38км часть 2 77</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1486572819625" lon="30.5816834578421">
+      <name>туристическая лыжная трасса 38км часть 2 78</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1475389284482" lon="30.580274594195">
+      <name>туристическая лыжная трасса 38км часть 2 79</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.146663078978" lon="30.5787725571467">
+      <name>туристическая лыжная трасса 38км часть 2 80</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1460221987324" lon="30.5779142502619">
+      <name>туристическая лыжная трасса 38км часть 2 81</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1455949382965" lon="30.577570927508">
+      <name>туристическая лыжная трасса 38км часть 2 82</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1449540372343" lon="30.5765838745905">
+      <name>туристическая лыжная трасса 38км часть 2 83</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1445053990591" lon="30.575940144427">
+      <name>туристическая лыжная трасса 38км часть 2 84</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1443985795439" lon="30.5751676682307">
+      <name>туристическая лыжная трасса 38км часть 2 85</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1438217481663" lon="30.5742235306574">
+      <name>туристическая лыжная трасса 38км часть 2 86</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1430953535212" lon="30.5731077317072">
+      <name>туристическая лыжная трасса 38км часть 2 87</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1425184992858" lon="30.572163594134">
+      <name>туристическая лыжная трасса 38км часть 2 88</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1422407510456" lon="30.5715627793147">
+      <name>туристическая лыжная трасса 38км часть 2 89</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1414715898313" lon="30.5710048798396">
+      <name>туристическая лыжная трасса 38км часть 2 90</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1406810442842" lon="30.5708761338069">
+      <name>туристическая лыжная трасса 38км часть 2 91</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1400543880564" lon="30.5712194565608">
+      <name>туристическая лыжная трасса 38км часть 2 92</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1396270500866" lon="30.571090710528">
+      <name>туристическая лыжная трасса 38км часть 2 93</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1393920118368" lon="30.5708332184626">
+      <name>туристическая лыжная трасса 38км часть 2 94</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1388364602065" lon="30.5707903031184">
+      <name>туристическая лыжная трасса 38км часть 2 95</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1383022670983" lon="30.5709190491511">
+      <name>туристическая лыжная трасса 38км часть 2 96</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1377680653152" lon="30.5708332184626">
+      <name>туристическая лыжная трасса 38км часть 2 97</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1371911176456" lon="30.5710048798396">
+      <name>туристическая лыжная трасса 38км часть 2 98</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1365073147121" lon="30.5709619644953">
+      <name>туристическая лыжная трасса 38км часть 2 99</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1359944531843" lon="30.5705757263972">
+      <name>туристическая лыжная трасса 38км часть 2 100</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.135823497565" lon="30.5698032502009">
+      <name>туристическая лыжная трасса 38км часть 2 101</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1354815836613" lon="30.5690307740046">
+      <name>туристическая лыжная трасса 38км часть 2 102</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1351396662042" lon="30.5680437210871">
+      <name>туристическая лыжная трасса 38км часть 2 103</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1347977451936" lon="30.5670995835139">
+      <name>туристическая лыжная трасса 38км часть 2 104</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1343917093782" lon="30.5659408692195">
+      <name>туристическая лыжная трасса 38км часть 2 105</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1340711512473" lon="30.5648679856135">
+      <name>туристическая лыжная трасса 38км часть 2 106</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1334513966716" lon="30.5635805252863">
+      <name>туристическая лыжная трасса 38км часть 2 107</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1328530018661" lon="30.5614347580744">
+      <name>туристическая лыжная трасса 38км часть 2 108</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1323843848012" lon="30.5602015409613">
+      <name>туристическая лыжная трасса 38км часть 2 109</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1321706666894" lon="30.5593861494208">
+      <name>туристическая лыжная трасса 38км часть 2 110</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1309524469448" lon="30.5555666837835">
+      <name>туристическая лыжная трасса 38км часть 2 111</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1305891095174" lon="30.5548371229315">
+      <name>туристическая лыжная трасса 38км часть 2 112</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1296486881341" lon="30.5521763715887">
+      <name>туристическая лыжная трасса 38км часть 2 113</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1288578584411" lon="30.5501164350653">
+      <name>туристическая лыжная трасса 38км часть 2 114</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1282380056663" lon="30.5477560911322">
+      <name>туристическая лыжная трасса 38км часть 2 115</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1279173875808" lon="30.5473269376898">
+      <name>туристическая лыжная трасса 38км часть 2 116</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1274685170134" lon="30.5456532392645">
+      <name>туристическая лыжная трасса 38км часть 2 117</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1269768898434" lon="30.5448807630682">
+      <name>туристическая лыжная трасса 38км часть 2 118</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1260363652283" lon="30.5432928953314">
+      <name>туристическая лыжная трасса 38км часть 2 119</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1249461780648" lon="30.5415762815619">
+      <name>туристическая лыжная трасса 38км часть 2 120</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1241719910669" lon="30.5399276861873">
+      <name>туристическая лыжная трасса 38км часть 2 121</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1222052413413" lon="30.5369236120906">
+      <name>туристическая лыжная трасса 38км часть 2 122</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1208583775431" lon="30.5349495062556">
+      <name>туристическая лыжная трасса 38км часть 2 123</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1203238925087" lon="30.5338766226497">
+      <name>туристическая лыжная трасса 38км часть 2 124</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.120281133331" lon="30.5331041464534">
+      <name>туристическая лыжная трасса 38км часть 2 125</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1207087226082" lon="30.532503331634">
+      <name>туристическая лыжная трасса 38км часть 2 126</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1209652735086" lon="30.5318596014705">
+      <name>туристическая лыжная трасса 38км часть 2 127</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1207301019263" lon="30.5302288183894">
+      <name>туристическая лыжная трасса 38км часть 2 128</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1201956148091" lon="30.5288555273738">
+      <name>туристическая лыжная трасса 38км часть 2 129</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1199604377284" lon="30.5276538977351">
+      <name>туристическая лыжная трасса 38км часть 2 130</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1194686984031" lon="30.5267526755061">
+      <name>туристическая лыжная трасса 38км часть 2 131</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1191052341809" lon="30.5262376913752">
+      <name>туристическая лыжная трасса 38км часть 2 132</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1191479948859" lon="30.525465215179">
+      <name>туристическая лыжная трасса 38км часть 2 133</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1194045579496" lon="30.5250789770808">
+      <name>туристическая лыжная трасса 38км часть 2 134</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1200673366097" lon="30.5252506384578">
+      <name>туристическая лыжная трасса 38км часть 2 135</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1205804464082" lon="30.5256368765559">
+      <name>туристическая лыжная трасса 38км часть 2 136</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1207514812305" lon="30.5268385061946">
+      <name>туристическая лыжная трасса 38км часть 2 137</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1210294109213" lon="30.528168881866">
+      <name>туристическая лыжная трасса 38км часть 2 138</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1214356116331" lon="30.5293275961604">
+      <name>туристическая лыжная трасса 38км часть 2 139</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1215211269338" lon="30.5304433951106">
+      <name>туристическая лыжная трасса 38км часть 2 140</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1218631859148" lon="30.5319025168147">
+      <name>туристическая лыжная трасса 38км часть 2 141</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1222052413413" lon="30.5323745856013">
+      <name>туристическая лыжная трасса 38км часть 2 142</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1228465856859" lon="30.5323316702571">
+      <name>туристическая лыжная трасса 38км часть 2 143</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1233382745543" lon="30.5319454321589">
+      <name>туристическая лыжная трасса 38км часть 2 144</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1236803146526" lon="30.5314304480281">
+      <name>туристическая лыжная трасса 38км часть 2 145</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1235306725469" lon="30.5305292257991">
+      <name>туристическая лыжная трасса 38км часть 2 146</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.123145875437" lon="30.5291988501277">
+      <name>туристическая лыжная трасса 38км часть 2 147</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1228252077424" lon="30.5280401358333">
+      <name>туристическая лыжная трасса 38км часть 2 148</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.122803829785" lon="30.5271389136042">
+      <name>туристическая лыжная трасса 38км часть 2 149</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1231031199249" lon="30.5267097601619">
+      <name>туристическая лыжная трасса 38км часть 2 150</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1236803146526" lon="30.5265810141291">
+      <name>туристическая лыжная трасса 38км часть 2 151</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1241506139842" lon="30.527267659637">
+      <name>туристическая лыжная трасса 38км часть 2 152</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1245140225017" lon="30.5285551199641">
+      <name>туристическая лыжная трасса 38км часть 2 153</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.124920180214" lon="30.529070104095">
+      <name>туристическая лыжная трасса 38км часть 2 154</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1253049565815" lon="30.5290271887507">
+      <name>туристическая лыжная трасса 38км часть 2 155</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1257111045337" lon="30.5292417654719">
+      <name>туристическая лыжная трасса 38км часть 2 156</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1261172474739" lon="30.5291130194392">
+      <name>туристическая лыжная трасса 38км часть 2 157</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.126416507486" lon="30.5282976278987">
+      <name>туристическая лыжная трасса 38км часть 2 158</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1267798909854" lon="30.5274822363582">
+      <name>туристическая лыжная трасса 38км часть 2 159</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1272928961539" lon="30.52709599826">
+      <name>туристическая лыжная трасса 38км часть 2 160</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1278058933258" lon="30.5268385061946">
+      <name>туристическая лыжная трасса 38км часть 2 161</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1278058933258" lon="30.5260231146541">
+      <name>туристическая лыжная трасса 38км часть 2 162</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1276135203235" lon="30.5249931463923">
+      <name>туристическая лыжная трасса 38км часть 2 163</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1273142711957" lon="30.5249502310481">
+      <name>туристическая лыжная трасса 38км часть 2 164</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1269508935967" lon="30.5246430510366">
+      <name>туристическая лыжная трасса 38км часть 2 165</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.126544760944" lon="30.5244284743154">
+      <name>туристическая лыжная трасса 38км часть 2 166</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1261599990709" lon="30.5243855589712">
+      <name>туристическая лыжная трасса 38км часть 2 167</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1257966087271" lon="30.5247288817251">
+      <name>туристическая лыжная трасса 38км часть 2 168</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1257111045337" lon="30.5255442732656">
+      <name>туристическая лыжная трасса 38км часть 2 169</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1256256001181" lon="30.5261880034292">
+      <name>туристическая лыжная трасса 38км часть 2 170</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1250698160026" lon="30.5265313261831">
+      <name>туристическая лыжная трасса 38км часть 2 171</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1244926456411" lon="30.5264454954946">
+      <name>туристическая лыжная трасса 38км часть 2 172</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1238727106459" lon="30.5258875960195">
+      <name>туристическая лыжная трасса 38км часть 2 173</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.123723069415" lon="30.5251151198232">
+      <name>туристическая лыжная трасса 38км часть 2 174</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1241292368877" lon="30.5241280669058">
+      <name>туристическая лыжная трасса 38км часть 2 175</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1243430072286" lon="30.523269760021">
+      <name>туристическая лыжная трасса 38км часть 2 176</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1240223511966" lon="30.5226260298574">
+      <name>туристическая лыжная трасса 38км часть 2 177</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1235520500322" lon="30.5218535536611">
+      <name>туристическая лыжная трасса 38км часть 2 178</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1233382745543" lon="30.5220681303823">
+      <name>туристическая лыжная трасса 38км часть 2 179</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.123017608734" lon="30.5224543684805">
+      <name>туристическая лыжная трасса 38км часть 2 180</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1225686713375" lon="30.5229693526113">
+      <name>туристическая лыжная трасса 38км часть 2 181</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1221197278179" lon="30.5238276594961">
+      <name>туристическая лыжная трасса 38км часть 2 182</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.121713535548" lon="30.5246859663809">
+      <name>туристическая лыжная трасса 38км часть 2 183</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1213287171949" lon="30.5247717970693">
+      <name>туристическая лыжная трасса 38км часть 2 184</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1209866526601" lon="30.5240851515615">
+      <name>туристическая лыжная трасса 38км часть 2 185</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1204307902098" lon="30.5238705748403">
+      <name>туристическая лыжная трасса 38км часть 2 186</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1200031973226" lon="30.5239134901846">
+      <name>туристическая лыжная трасса 38км часть 2 187</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1192762766677" lon="30.5235272520864">
+      <name>туристическая лыжная трасса 38км часть 2 188</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1189769517326" lon="30.5236130827749">
+      <name>туристическая лыжная трасса 38км часть 2 189</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.118912810321" lon="30.5244713896597">
+      <name>туристическая лыжная трасса 38км часть 2 190</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.118955571276" lon="30.5257159346426">
+      <name>туристическая лыжная трасса 38км часть 2 191</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1191479948859" lon="30.5272179716909">
+      <name>туристическая лыжная трасса 38км часть 2 192</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1194900785265" lon="30.5286341780508">
+      <name>туристическая лыжная трасса 38км часть 2 193</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1198535384999" lon="30.5295354002798">
+      <name>туристическая лыжная трасса 38км часть 2 194</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1201742351439" lon="30.53065119923">
+      <name>туристическая лыжная трасса 38км часть 2 195</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.120559066993" lon="30.5312520140493">
+      <name>туристическая лыжная трасса 38км часть 2 196</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1204094106974" lon="30.5323678129995">
+      <name>туристическая лыжная трасса 38км часть 2 197</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1200673366097" lon="30.533354865917">
+      <name>туристическая лыжная трасса 38км часть 2 198</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1202383740979" lon="30.5345564955557">
+      <name>туристическая лыжная трасса 38км часть 2 199</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1207514812305" lon="30.5356293791616">
+      <name>туристическая лыжная трасса 38км часть 2 200</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1215211269338" lon="30.5367880934561">
+      <name>туристическая лыжная трасса 38км часть 2 201</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1223762677217" lon="30.5380755537832">
+      <name>туристическая лыжная трасса 38км часть 2 202</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1239368423938" lon="30.540564643749">
+      <name>туристическая лыжная трасса 38км часть 2 203</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1253263329144" lon="30.5428820723379">
+      <name>туристическая лыжная трасса 38км часть 2 204</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1267798909854" lon="30.5451995009268">
+      <name>туристическая лыжная трасса 38км часть 2 205</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1272501460286" lon="30.5458861464346">
+      <name>туристическая лыжная трасса 38км часть 2 206</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1279982652037" lon="30.5483323210562">
+      <name>туристическая лыжная трасса 38км часть 2 207</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.129879250331" lon="30.5535794318586">
+      <name>туристическая лыжная трасса 38км часть 2 208</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1309906467457" lon="30.5566693366438">
+      <name>туристическая лыжная трасса 38км часть 2 209</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1318669136067" lon="30.5592871726423">
+      <name>туристическая лыжная трасса 38км часть 2 210</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1325294413511" lon="30.5611754477888">
+      <name>туристическая лыжная трасса 38км часть 2 211</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.133063728202" lon="30.5626774848371">
+      <name>туристическая лыжная трасса 38км часть 2 212</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1338544568195" lon="30.5647374213606">
+      <name>туристическая лыжная трасса 38км часть 2 213</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1344100925875" lon="30.5664540351301">
+      <name>туристическая лыжная трасса 38км часть 2 214</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1350084590743" lon="30.5684281409651">
+      <name>туристическая лыжная трасса 38км часть 2 215</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.135585445023" lon="30.5700589240461">
+      <name>туристическая лыжная трасса 38км часть 2 216</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1360342048761" lon="30.5710030616194">
+      <name>туристическая лыжная трасса 38км часть 2 217</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1365256967393" lon="30.5713892997175">
+      <name>туристическая лыжная трасса 38км часть 2 218</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1381002623483" lon="30.5713892997175">
+      <name>туристическая лыжная трасса 38км часть 2 219</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.138997707326" lon="30.5714322150617">
+      <name>туристическая лыжная трасса 38км часть 2 220</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1397882933308" lon="30.5715180457502">
+      <name>туристическая лыжная трасса 38км часть 2 221</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1399378615185" lon="30.5720759452253">
+      <name>туристическая лыжная трасса 38км часть 2 222</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1403010957146" lon="30.5725909293562">
+      <name>туристическая лыжная трасса 38км часть 2 223</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1405788603345" lon="30.5730629981428">
+      <name>туристическая лыжная трасса 38км часть 2 224</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1408352563633" lon="30.5738783896833">
+      <name>туристическая лыжная трасса 38км часть 2 225</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1413053105586" lon="30.5743075431257">
+      <name>туристическая лыжная трасса 38км часть 2 226</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1417753580365" lon="30.5740500510603">
+      <name>туристическая лыжная трасса 38км часть 2 227</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1423522253057" lon="30.5738354743391">
+      <name>туристическая лыжная трасса 38км часть 2 228</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1427581628746" lon="30.574007135716">
+      <name>туристическая лыжная трасса 38км часть 2 229</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.142843622777" lon="30.5746508658796">
+      <name>туристическая лыжная трасса 38км часть 2 230</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1426940678021" lon="30.5752087653547">
+      <name>туристическая лыжная трасса 38км часть 2 231</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1426940678021" lon="30.5760241568952">
+      <name>туристическая лыжная трасса 38км часть 2 232</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1432068248849" lon="30.5765820563703">
+      <name>туристическая лыжная трасса 38км часть 2 233</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1435619183982" lon="30.5762381547147">
+      <name>туристическая лыжная трасса 38км часть 2 234</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1440319336269" lon="30.5758733742887">
+      <name>туристическая лыжная трасса 38км часть 2 235</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1444164865451" lon="30.575937747305">
+      <name>туристическая лыжная трасса 38км часть 2 236</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1447583075864" lon="30.5763883584195">
+      <name>туристическая лыжная трасса 38км часть 2 237</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1450573980831" lon="30.5768604272062">
+      <name>туристическая лыжная трасса 38км часть 2 238</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.145473983885" lon="30.5775041573697">
+      <name>туристическая лыжная трасса 38км часть 2 239</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.145698297131" lon="30.5777831071073">
+      <name>туристическая лыжная трасса 38км часть 2 240</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.146072149141" lon="30.5781478875333">
+      <name>туристическая лыжная трасса 38км часть 2 241</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1464032716578" lon="30.5785984986478">
+      <name>туристическая лыжная трасса 38км часть 2 242</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1468198404109" lon="30.5792851441556">
+      <name>туристическая лыжная трасса 38км часть 2 243</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1477129282501" lon="30.5807533938084">
+      <name>туристическая лыжная трасса 38км часть 2 244</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1483217334776" lon="30.5815044123326">
+      <name>туристическая лыжная трасса 38км часть 2 245</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1486528333429" lon="30.5818906504307">
+      <name>туристическая лыжная трасса 38км часть 2 246</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.150062640609" lon="30.5821910578404">
+      <name>туристическая лыжная трасса 38км часть 2 247</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1504578030115" lon="30.5823627192173">
+      <name>туристическая лыжная трасса 38км часть 2 248</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1507141220304" lon="30.5829206186924">
+      <name>туристическая лыжная трасса 38км часть 2 249</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.151087917018" lon="30.5836716372166">
+      <name>туристическая лыжная трасса 38км часть 2 250</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1515044264267" lon="30.5841651636753">
+      <name>туристическая лыжная трасса 38км часть 2 251</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1517820964346" lon="30.5845728594456">
+      <name>туристическая лыжная трасса 38км часть 2 252</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1521772381718" lon="30.5858388621006">
+      <name>туристическая лыжная трасса 38км часть 2 253</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1526791681254" lon="30.586804457346">
+      <name>туристическая лыжная трасса 38км часть 2 254</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1530339290344" lon="30.5872284347176">
+      <name>туристическая лыжная трасса 38км часть 2 255</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1533436233305" lon="30.5875502997994">
+      <name>туристическая лыжная трасса 38км часть 2 256</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1535785618849" lon="30.5876790458321">
+      <name>туристическая лыжная трасса 38км часть 2 257</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1537707830897" lon="30.5879579955697">
+      <name>туристическая лыжная трасса 38км часть 2 258</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1539416454393" lon="30.588558810389">
+      <name>туристическая лыжная трасса 38км часть 2 259</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1541552221276" lon="30.5888163024545">
+      <name>туристическая лыжная трасса 38км часть 2 260</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.154390154882" lon="30.5889450484872">
+      <name>туристическая лыжная трасса 38км часть 2 261</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1544862632522" lon="30.5892883712411">
+      <name>туристическая лыжная трасса 38км часть 2 262</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1544862632522" lon="30.5899106437325">
+      <name>туристическая лыжная трасса 38км часть 2 263</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1545716926787" lon="30.5908547813058">
+      <name>туристическая лыжная трасса 38км часть 2 264</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1547639080767" lon="30.5915199691415">
+      <name>туристическая лыжная трасса 38км часть 2 265</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1548066224569" lon="30.5919276649117">
+      <name>туристическая лыжная трасса 38км часть 2 266</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1549027296096" lon="30.5924855643868">
+      <name>туристическая лыжная трасса 38км часть 2 267</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1552017278432" lon="30.5932794982552">
+      <name>туристическая лыжная трасса 38км часть 2 268</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1550482630495" lon="30.5943025089158">
+      <name>туристическая лыжная трасса 38км часть 2 269</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1549881579538" lon="30.5949961120248">
+      <name>туристическая лыжная трасса 38км часть 2 270</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1550522290663" lon="30.5961333686471">
+      <name>туристическая лыжная трасса 38км часть 2 271</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1552444416546" lon="30.5970989638924">
+      <name>туристическая лыжная трасса 38км часть 2 272</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1553832611582" lon="30.5978928977609">
+      <name>туристическая лыжная трасса 38км часть 2 273</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1556822550211" lon="30.6003176147103">
+      <name>туристическая лыжная трасса 38км часть 2 274</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1546876028011" lon="30.6031896360337">
+      <name>туристическая лыжная трасса 38км часть 2 275</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1541109518971" lon="30.6055285222947">
+      <name>туристическая лыжная трасса 38км часть 2 276</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1541109518971" lon="30.6064726598679">
+      <name>туристическая лыжная трасса 38км часть 2 277</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1545808163598" lon="30.6095625646531">
+      <name>туристическая лыжная трасса 38км часть 2 278</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1551681374944" lon="30.6123949773728">
+      <name>туристическая лыжная трасса 38км часть 2 279</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1555632385356" lon="30.614240337175">
+      <name>туристическая лыжная трасса 38км часть 2 280</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1571475735846" lon="30.6166394433717">
+      <name>туристическая лыжная трасса 38км часть 2 281</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1590161403171" lon="30.6209524354676">
+      <name>туристическая лыжная трасса 38км часть 2 282</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1594325492861" lon="30.6233986100892">
+      <name>туристическая лыжная трасса 38км часть 2 283</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.159859629928" lon="30.6256302079896">
+      <name>туристическая лыжная трасса 38км часть 2 284</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1613677204819" lon="30.6292078193936">
+      <name>туристическая лыжная трасса 38км часть 2 285</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1646025276729" lon="30.633413523129">
+      <name>туристическая лыжная трасса 38км часть 2 286</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1649868400377" lon="30.6336924728665">
+      <name>туристическая лыжная трасса 38км часть 2 287</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1670121534867" lon="30.6349372309381">
+      <name>туристическая лыжная трасса 38км часть 2 288</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1700863011115" lon="30.6372975748713">
+      <name>туристическая лыжная трасса 38км часть 2 289</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1708879050171" lon="30.6376296224465">
+      <name>туристическая лыжная трасса 38км часть 2 290</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1727556906022" lon="30.6406122388711">
+      <name>туристическая лыжная трасса 38км часть 2 291</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1742391703376" lon="30.6364279928078">
+      <name>туристическая лыжная трасса 38км часть 2 292</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1781626801667" lon="30.6243690020206">
+      <name>туристическая лыжная трасса 38км часть 2 293</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1826261064149" lon="30.6101608483409">
+      <name>туристическая лыжная трасса 38км часть 2 294</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1861665084811" lon="30.6000236908822">
+      <name>туристическая лыжная трасса 38км часть 2 295</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1875320352401" lon="30.5962256829171">
+      <name>туристическая лыжная трасса 38км часть 2 296</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1881614386076" lon="30.5942515770822">
+      <name>туристическая лыжная трасса 38км часть 2 297</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1893739574298" lon="30.5917178632032">
+      <name>туристическая лыжная трасса 38км часть 2 298</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1901099968402" lon="30.5904089452039">
+      <name>туристическая лыжная трасса 38км часть 2 299</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.190472676857" lon="30.5899368764173">
+      <name>туристическая лыжная трасса 38км часть 2 300</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1905473457748" lon="30.5894648076307">
+      <name>туристическая лыжная трасса 38км часть 2 301</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1904193418117" lon="30.5883704663526">
+      <name>туристическая лыжная трасса 38км часть 2 302</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1904406758402" lon="30.5869342831648">
+      <name>туристическая лыжная трасса 38км часть 2 303</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1903766737131" lon="30.5852605847395">
+      <name>туристическая лыжная трасса 38км часть 2 304</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1900779954699" lon="30.5845524815595">
+      <name>туристическая лыжная трасса 38км часть 2 305</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1898859865927" lon="30.5833079365766">
+      <name>туристическая лыжная трасса 38км часть 2 306</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1895446347048" lon="30.5826856640852">
+      <name>туристическая лыжная трасса 38км часть 2 307</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1890539351473" lon="30.5826427487409">
+      <name>туристическая лыжная трасса 38км часть 2 308</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.188755244869" lon="30.5824925450361">
+      <name>туристическая лыжная трасса 38км часть 2 309</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1886485691109" lon="30.5817415265119">
+      <name>туристическая лыжная трасса 38км часть 2 310</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1887019070333" lon="30.5808188466108">
+      <name>туристическая лыжная трасса 38км часть 2 311</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1885312253767" lon="30.5795743016279">
+      <name>туристическая лыжная трасса 38км часть 2 312</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1881898594014" lon="30.5791022328413">
+      <name>туристическая лыжная трасса 38км часть 2 313</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1880511784601" lon="30.5782868413008">
+      <name>туристическая лыжная трасса 38км часть 2 314</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1876991395932" lon="30.577793314842">
+      <name>туристическая лыжная трасса 38км часть 2 315</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1873684329764" lon="30.5767633465803">
+      <name>туристическая лыжная трасса 38км часть 2 316</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1872327994008" lon="30.5761100110074">
+      <name>туристическая лыжная трасса 38км часть 2 317</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1871581229436" lon="30.5751015004178">
+      <name>туристическая лыжная трасса 38км часть 2 318</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1872434674523" lon="30.5742646512051">
+      <name>туристическая лыжная трасса 38км часть 2 319</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1870834463166" lon="30.572977190878">
+      <name>туристическая лыжная трасса 38км часть 2 320</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.186870083589" lon="30.5722047146817">
+      <name>туристическая лыжная трасса 38км часть 2 321</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1863473390463" lon="30.5709816273709">
+      <name>туристическая лыжная трасса 38км часть 2 322</name>
+      <sym>waypoint</sym>
+    </rtept>
+  </rte>
+</gpx>

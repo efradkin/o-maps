@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="SAS.Planet" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
+  <metadata>
+    <time>2016-01-30T21:43:03Z</time>
+    <link href="http://www.sasgis.org/">
+      <text>SAS.Planet</text>
+    </link>
+    <name>вифк</name>
+    <desc>31.01.2016 0:40:40</desc>
+    <author>
+      <name>Максим</name>
+    </author>
+    <bounds maxlat="60.180958768814" maxlon="30.5723197496693" minlat="60.1888857939806" minlon="30.5568656122311"/>
+  </metadata>
+  <rte>
+    <name>вифк</name>
+    <cmt>31.01.2016 0:40:40</cmt>
+    <number>1</number>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:Categories>
+          <gpxx:Category>default</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:RouteExtension>
+      <gpxtrx:TrackExtension>
+        <gpxtrx:Categories>
+          <gpxtrx:Category>default</gpxtrx:Category>
+        </gpxtrx:Categories>
+      </gpxtrx:TrackExtension>
+    </extensions>
+    <rtept lat="60.1830073625413" lon="30.5617948346011">
+      <name>вифк 1</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1831353954058" lon="30.5629535488955">
+      <name>вифк 2</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1820471001446" lon="30.5641980938785">
+      <name>вифк 3</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1822178155119" lon="30.5652709774844">
+      <name>вифк 4</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1829220070209" lon="30.5666871838443">
+      <name>вифк 5</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1828153123084" lon="30.5674596600406">
+      <name>вифк 6</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1821964761395" lon="30.5674167446963">
+      <name>вифк 7</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1814922690713" lon="30.567545490729">
+      <name>вифк 8</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.180958768814" lon="30.5681463055484">
+      <name>вифк 9</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1809801089907" lon="30.5687900357119">
+      <name>вифк 10</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1814709292274" lon="30.5690046124331">
+      <name>вифк 11</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1818763838897" lon="30.5687042050235">
+      <name>вифк 12</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1824525476929" lon="30.5683179669253">
+      <name>вифк 13</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1829646848088" lon="30.5692191891543">
+      <name>вифк 14</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.183455475383" lon="30.5702062420718">
+      <name>вифк 15</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1837968905864" lon="30.5707212262027">
+      <name>вифк 16</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1843303447348" lon="30.5705066494815">
+      <name>вифк 17</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1846930886052" lon="30.5699058346621">
+      <name>вифк 18</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1846504130638" lon="30.5687471203677">
+      <name>вифк 19</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1841169641155" lon="30.5678888134829">
+      <name>вифк 20</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1835621680154" lon="30.5670734219424">
+      <name>вифк 21</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1831353954058" lon="30.5667300991885">
+      <name>вифк 22</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1827512953146" lon="30.5659576229922">
+      <name>вифк 23</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1824098692393" lon="30.5652709774844">
+      <name>вифк 24</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1828793291775" lon="30.5653568081729">
+      <name>вифк 25</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.183156734168" lon="30.5659576229922">
+      <name>вифк 26</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1833701210275" lon="30.5666013531558">
+      <name>вифк 27</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1840102732858" lon="30.5671592526309">
+      <name>вифк 28</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1844583724408" lon="30.5677600674502">
+      <name>вифк 29</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1850131533982" lon="30.5684896283023">
+      <name>вифк 30</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1854825786231" lon="30.5690904431216">
+      <name>вифк 31</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1853939458214" lon="30.5705173052113">
+      <name>вифк 32</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1854259517579" lon="30.5716331041615">
+      <name>вифк 33</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1854506741041" lon="30.5719819872886">
+      <name>вифк 34</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1856286552979" lon="30.5723197496693">
+      <name>вифк 35</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1861194060541" lon="30.5721695459645">
+      <name>вифк 36</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1862474267841" lon="30.5715687311452">
+      <name>вифк 37</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1862794318886" lon="30.5708606279652">
+      <name>вифк 38</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.186023390179" lon="30.5702598131459">
+      <name>вифк 39</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1857566779415" lon="30.5696589983266">
+      <name>вифк 40</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1855753123824" lon="30.5692727602284">
+      <name>вифк 41</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1855326379876" lon="30.568843606786">
+      <name>вифк 42</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1856286552979" lon="30.5682213342946">
+      <name>вифк 43</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1858206890761" lon="30.5677063501637">
+      <name>вифк 44</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1861300744673" lon="30.5672557390492">
+      <name>вифк 45</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1865708613823" lon="30.5669394343406">
+      <name>вифк 46</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1872216192975" lon="30.5662742465049">
+      <name>вифк 47</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1877123462434" lon="30.5656305163413">
+      <name>вифк 48</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1881390593645" lon="30.5650940745383">
+      <name>вифк 49</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1884270875858" lon="30.5645361750632">
+      <name>вифк 50</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1886724429664" lon="30.5638495295554">
+      <name>вифк 51</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1888857939806" lon="30.563227257064">
+      <name>вифк 52</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1888751264628" lon="30.5626693575889">
+      <name>вифк 53</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1886297725971" lon="30.5622402041465">
+      <name>вифк 54</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1883630815328" lon="30.5620470850974">
+      <name>вифк 55</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1881497271215" lon="30.5615535586387">
+      <name>вифк 56</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1880323816042" lon="30.5608454554587">
+      <name>вифк 57</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1879043678343" lon="30.5598584025412">
+      <name>вифк 58</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1876910104418" lon="30.5592575877219">
+      <name>вифк 59</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1873603037431" lon="30.5588498919516">
+      <name>вифк 60</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1869015760331" lon="30.558742603591">
+      <name>вифк 61</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1864961834195" lon="30.5588069766074">
+      <name>вифк 62</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1860694489446" lon="30.558742603591">
+      <name>вифк 63</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1856320403517" lon="30.5587855189353">
+      <name>вифк 64</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1851359009195" lon="30.5589786379844">
+      <name>вифк 65</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1850078758554" lon="30.5591288416892">
+      <name>вифк 66</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1848478438232" lon="30.5595794528037">
+      <name>вифк 67</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1846451354626" lon="30.5602231829673">
+      <name>вифк 68</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1844957706067" lon="30.5603090136557">
+      <name>вифк 69</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1842610530317" lon="30.5601158946067">
+      <name>вифк 70</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1839623191459" lon="30.5597725718528">
+      <name>вифк 71</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1833648432206" lon="30.5591502993613">
+      <name>вифк 72</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1829601171336" lon="30.5583676492794">
+      <name>вифк 73</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1826080236755" lon="30.5576380884274">
+      <name>вифк 74</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1823306140494" lon="30.5571231042965">
+      <name>вифк 75</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1821919083575" lon="30.5569514429195">
+      <name>вифк 76</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1817757877664" lon="30.5568656122311">
+      <name>вифк 77</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.181701098897" lon="30.5570587312801">
+      <name>вифк 78</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1817651179383" lon="30.5574235117062">
+      <name>вифк 79</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1820105231071" lon="30.5577239191158">
+      <name>вифк 80</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1823412836937" lon="30.5582603609188">
+      <name>вифк 81</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1825440062775" lon="30.5588611757382">
+      <name>вифк 82</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1827573971188" lon="30.5592259561642">
+      <name>вифк 83</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1831201583666" lon="30.5594834482296">
+      <name>вифк 84</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1835469311742" lon="30.5596551096066">
+      <name>вифк 85</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1838243305247" lon="30.5599340593441">
+      <name>вифк 86</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1840483821354" lon="30.5601486360653">
+      <name>вифк 87</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1841444037863" lon="30.560449043475">
+      <name>вифк 88</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1843897911739" lon="30.5605134164913">
+      <name>вифк 89</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1847009009833" lon="30.5603202974423">
+      <name>вифк 90</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.185042303237" lon="30.560277382098">
+      <name>вифк 91</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1853303586273" lon="30.5603632127865">
+      <name>вифк 92</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1856717543359" lon="30.5603846704586">
+      <name>вифк 93</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.185970472669" lon="30.5604061281307">
+      <name>вифк 94</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1862585199162" lon="30.5603202974423">
+      <name>вифк 95</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1864505500104" lon="30.5604275858028">
+      <name>вифк 96</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1865785694492" lon="30.5608781969174">
+      <name>вифк 97</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1867492612578" lon="30.5613717233761">
+      <name>вифк 98</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1868879476989" lon="30.5619939958675">
+      <name>вифк 99</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.186802602266" lon="30.5622729456051">
+      <name>вифк 100</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1865038915039" lon="30.5627235567196">
+      <name>вифк 101</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1862158464094" lon="30.5631312524899">
+      <name>вифк 102</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1859064618264" lon="30.5636676942928">
+      <name>вифк 103</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1856504172081" lon="30.5640324747189">
+      <name>вифк 104</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1853196899542" lon="30.5639466440304">
+      <name>вифк 105</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1850743095163" lon="30.5634316598995">
+      <name>вифк 106</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1848929401878" lon="30.5626377260311">
+      <name>вифк 107</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1849036089996" lon="30.5620369112118">
+      <name>вифк 108</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1850316344703" lon="30.5612429773434">
+      <name>вифк 109</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1849889593688" lon="30.5608352815731">
+      <name>вифк 110</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1847862518795" lon="30.5604705011471">
+      <name>вифк 111</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1845301985253" lon="30.5605777895077">
+      <name>вифк 112</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1843061502023" lon="30.5607279932125">
+      <name>вифк 113</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1840607621896" lon="30.5609211122616">
+      <name>вифк 114</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1839967476239" lon="30.5611571466549">
+      <name>вифк 115</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1840394240149" lon="30.5614360963924">
+      <name>вифк 116</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1841247766306" lon="30.5615863000973">
+      <name>вифк 117</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1843381571992" lon="30.5617794191464">
+      <name>вифк 118</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1844661848747" lon="30.5619725381954">
+      <name>вифк 119</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.184594212051" lon="30.562251487933">
+      <name>вифк 120</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1847222387282" lon="30.5627235567196">
+      <name>вифк 121</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1848609337317" lon="30.5633243715389">
+      <name>вифк 122</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1850316344703" lon="30.5637535249813">
+      <name>вифк 123</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1852450091455" lon="30.5641826784237">
+      <name>вифк 124</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.185373033285" lon="30.5646332895382">
+      <name>вифк 125</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1855010569253" lon="30.5652984773739">
+      <name>вифк 126</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.185639748639" lon="30.5666610395534">
+      <name>вифк 127</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1855490656618" lon="30.5672511255367">
+      <name>вифк 128</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1849996281494" lon="30.5673154985531">
+      <name>вифк 129</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1846955665449" lon="30.5674442445858">
+      <name>вифк 130</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1844181745549" lon="30.5672618543728">
+      <name>вифк 131</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1840287549224" lon="30.5668434297665">
+      <name>вифк 132</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1839860785174" lon="30.5666073953732">
+      <name>вифк 133</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1839647402942" lon="30.5664142763241">
+      <name>вифк 134</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1840180858263" lon="30.5661567842587">
+      <name>вифк 135</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1841781219028" lon="30.5661567842587">
+      <name>вифк 136</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1843594951798" lon="30.5664142763241">
+      <name>вифк 137</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1846262187671" lon="30.566757599078">
+      <name>вифк 138</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1849036089996" lon="30.5669078027828">
+      <name>вифк 139</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1852556778428" lon="30.5668219720944">
+      <name>вифк 140</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1854690510621" lon="30.5664571916683">
+      <name>вифк 141</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1855117255395" lon="30.5661782419308">
+      <name>вифк 142</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1853943705931" lon="30.5654272234066">
+      <name>вифк 143</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1852236717404" lon="30.5645689165218">
+      <name>вифк 144</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1850209657001" lon="30.5639037286861">
+      <name>вифк 145</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1847009009833" lon="30.5633672868832">
+      <name>вифк 146</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1846155498652" lon="30.5627450143917">
+      <name>вифк 147</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1845408674549" lon="30.5624231493099">
+      <name>вифк 148</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1843701641649" lon="30.5624231493099">
+      <name>вифк 149</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1841887909468" lon="30.5627450143917">
+      <name>вифк 150</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1840927694257" lon="30.5630668794735">
+      <name>вифк 151</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1839007255412" lon="30.5632814561947">
+      <name>вифк 152</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.18350596514" lon="30.5634531175716">
+      <name>вифк 153</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1831432081545" lon="30.5635818636044">
+      <name>вифк 154</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1828124556455" lon="30.5638178979977">
+      <name>вифк 155</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1825670564699" lon="30.5640753900631">
+      <name>вифк 156</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1824070125411" lon="30.5643543398007">
+      <name>вифк 157</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1823109858095" lon="30.5643543398007">
+      <name>вифк 158</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1823643340284" lon="30.564053932391">
+      <name>вифк 159</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1826524129129" lon="30.5637749826534">
+      <name>вифк 160</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1829298198204" lon="30.5635389482601">
+      <name>вифк 161</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1832178937438" lon="30.5632385408505">
+      <name>вифк 162</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1832819098281" lon="30.5628737604244">
+      <name>вифк 163</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.1831432081545" lon="30.5618223344906">
+      <name>вифк 164</name>
+      <sym>waypoint</sym>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="SAS.Planet" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
+  <metadata>
+    <time>2016-01-28T14:07:10Z</time>
+    <link href="http://www.sasgis.org/">
+      <text>SAS.Planet</text>
+    </link>
+    <name>лыжная трасса ЛМЗ</name>
+    <desc>28.01.2016 17:02:36</desc>
+    <author>
+      <name>Максим</name>
+    </author>
+    <bounds maxlat="60.4035178879598" maxlon="30.332188" minlat="60.4240937179267" minlon="30.297201"/>
+  </metadata>
+  <rte>
+    <name>лыжная трасса ЛМЗ</name>
+    <cmt>28.01.2016 17:02:36</cmt>
+    <number>1</number>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:Categories>
+          <gpxx:Category>default</gpxx:Category>
+        </gpxx:Categories>
+      </gpxx:RouteExtension>
+      <gpxtrx:TrackExtension>
+        <gpxtrx:Categories>
+          <gpxtrx:Category>default</gpxtrx:Category>
+        </gpxtrx:Categories>
+      </gpxtrx:TrackExtension>
+    </extensions>
+    <rtept lat="60.403561" lon="30.330374">
+      <name>лыжная трасса ЛМЗ 1</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4038479958043" lon="30.3302425797812">
+      <name>лыжная трасса ЛМЗ 2</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.404213" lon="30.330162">
+      <name>лыжная трасса ЛМЗ 3</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4047081427982" lon="30.3300895532553">
+      <name>лыжная трасса ЛМЗ 4</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4052044589979" lon="30.3302854951255">
+      <name>лыжная трасса ЛМЗ 5</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4057025211347" lon="30.3304571565024">
+      <name>лыжная трасса ЛМЗ 6</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4060539732696" lon="30.3303363164847">
+      <name>лыжная трасса ЛМЗ 7</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.406387" lon="30.329708">
+      <name>лыжная трасса ЛМЗ 8</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4065679174638" lon="30.3289093812888">
+      <name>лыжная трасса ЛМЗ 9</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.406914" lon="30.328222">
+      <name>лыжная трасса ЛМЗ 10</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.407196661807" lon="30.3280538972251">
+      <name>лыжная трасса ЛМЗ 11</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.407482" lon="30.328205">
+      <name>лыжная трасса ЛМЗ 12</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.407814" lon="30.328037">
+      <name>лыжная трасса ЛМЗ 13</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.407936" lon="30.327787">
+      <name>лыжная трасса ЛМЗ 14</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.407978" lon="30.327301">
+      <name>лыжная трасса ЛМЗ 15</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.408237" lon="30.326651">
+      <name>лыжная трасса ЛМЗ 16</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.408508" lon="30.325916">
+      <name>лыжная трасса ЛМЗ 17</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.408821" lon="30.325258">
+      <name>лыжная трасса ЛМЗ 18</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.408916" lon="30.325207">
+      <name>лыжная трасса ЛМЗ 19</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.408852" lon="30.324739">
+      <name>лыжная трасса ЛМЗ 20</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.40863" lon="30.323818">
+      <name>лыжная трасса ЛМЗ 21</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4083074231883" lon="30.3225459440007">
+      <name>лыжная трасса ЛМЗ 22</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4082226539791" lon="30.3214516027226">
+      <name>лыжная трасса ЛМЗ 23</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.408287" lon="30.320831">
+      <name>лыжная трасса ЛМЗ 24</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.408443" lon="30.320492">
+      <name>лыжная трасса ЛМЗ 25</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.408592" lon="30.320187">
+      <name>лыжная трасса ЛМЗ 26</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.408772" lon="30.319605">
+      <name>лыжная трасса ЛМЗ 27</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.408951" lon="30.319273">
+      <name>лыжная трасса ЛМЗ 28</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.409195" lon="30.31893">
+      <name>лыжная трасса ЛМЗ 29</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.409443" lon="30.318596">
+      <name>лыжная трасса ЛМЗ 30</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.409721" lon="30.318602">
+      <name>лыжная трасса ЛМЗ 31</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.410004" lon="30.318687">
+      <name>лыжная трасса ЛМЗ 32</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.410263" lon="30.318567">
+      <name>лыжная трасса ЛМЗ 33</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.410606" lon="30.318048">
+      <name>лыжная трасса ЛМЗ 34</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.410889" lon="30.31773">
+      <name>лыжная трасса ЛМЗ 35</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.411133" lon="30.317354">
+      <name>лыжная трасса ЛМЗ 36</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.41127" lon="30.317289">
+      <name>лыжная трасса ЛМЗ 37</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.41164" lon="30.317556">
+      <name>лыжная трасса ЛМЗ 38</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.411854" lon="30.317677">
+      <name>лыжная трасса ЛМЗ 39</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.412071" lon="30.317884">
+      <name>лыжная трасса ЛМЗ 40</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.417297" lon="30.318151">
+      <name>лыжная трасса ЛМЗ 41</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.417435" lon="30.317877">
+      <name>лыжная трасса ЛМЗ 42</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.417549" lon="30.316977">
+      <name>лыжная трасса ЛМЗ 43</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.417454" lon="30.316648">
+      <name>лыжная трасса ЛМЗ 44</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.417091" lon="30.316431">
+      <name>лыжная трасса ЛМЗ 45</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.416671883298" lon="30.3163010457564">
+      <name>лыжная трасса ЛМЗ 46</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4162905181845" lon="30.3155714849044">
+      <name>лыжная трасса ЛМЗ 47</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.416027" lon="30.314547">
+      <name>лыжная трасса ЛМЗ 48</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.41561252472" lon="30.3137690404463">
+      <name>лыжная трасса ЛМЗ 49</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4154218365119" lon="30.3129107335616">
+      <name>лыжная трасса ЛМЗ 50</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4155277745433" lon="30.3122026303817">
+      <name>лыжная трасса ЛМЗ 51</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.415615" lon="30.311342">
+      <name>лыжная трасса ЛМЗ 52</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.415878" lon="30.310946">
+      <name>лыжная трасса ЛМЗ 53</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.415997" lon="30.310392">
+      <name>лыжная трасса ЛМЗ 54</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4158985549362" lon="30.3098852017928">
+      <name>лыжная трасса ЛМЗ 55</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.415897" lon="30.30924">
+      <name>лыжная трасса ЛМЗ 56</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.415779" lon="30.308277">
+      <name>лыжная трасса ЛМЗ 57</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4155171807557" lon="30.3075705250121">
+      <name>лыжная трасса ЛМЗ 58</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.415413" lon="30.307547">
+      <name>лыжная трасса ЛМЗ 59</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4150616446243" lon="30.3065405567504">
+      <name>лыжная трасса ЛМЗ 60</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.41473" lon="30.306408">
+      <name>лыжная трасса ЛМЗ 61</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.414566" lon="30.306433">
+      <name>лыжная трасса ЛМЗ 62</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4143306547097" lon="30.3060470302917">
+      <name>лыжная трасса ЛМЗ 63</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.414024" lon="30.305559">
+      <name>лыжная трасса ЛМЗ 64</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.413723" lon="30.30496">
+      <name>лыжная трасса ЛМЗ 65</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.413734" lon="30.304319">
+      <name>лыжная трасса ЛМЗ 66</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.413788" lon="30.30303">
+      <name>лыжная трасса ЛМЗ 67</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4138327246377" lon="30.3018842419006">
+      <name>лыжная трасса ЛМЗ 68</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.413551" lon="30.300915">
+      <name>лыжная трасса ЛМЗ 69</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.413136" lon="30.300175">
+      <name>лыжная трасса ЛМЗ 70</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.412964" lon="30.299231">
+      <name>лыжная трасса ЛМЗ 71</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4129533827045" lon="30.2981291492797">
+      <name>лыжная трасса ЛМЗ 72</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4131546799437" lon="30.2973352154113">
+      <name>лыжная трасса ЛМЗ 73</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.413544" lon="30.297201">
+      <name>лыжная трасса ЛМЗ 74</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.414108" lon="30.297562">
+      <name>лыжная трасса ЛМЗ 75</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.414478" lon="30.297939">
+      <name>лыжная трасса ЛМЗ 76</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.414955" lon="30.298145">
+      <name>лыжная трасса ЛМЗ 77</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4154112426898" lon="30.2988372524596">
+      <name>лыжная трасса ЛМЗ 78</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.419380383144" lon="30.2990089138366">
+      <name>лыжная трасса ЛМЗ 79</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4220284081209" lon="30.2992878635742">
+      <name>лыжная трасса ЛМЗ 80</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.422344" lon="30.29937">
+      <name>лыжная трасса ЛМЗ 81</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.423786" lon="30.29941">
+      <name>лыжная трасса ЛМЗ 82</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4240407629036" lon="30.2997170170166">
+      <name>лыжная трасса ЛМЗ 83</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4240937179267" lon="30.3000388820984">
+      <name>лыжная трасса ЛМЗ 84</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4238818973168" lon="30.3005538662292">
+      <name>лыжная трасса ЛМЗ 85</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.423561" lon="30.301548">
+      <name>лыжная трасса ЛМЗ 86</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4231087403811" lon="30.3022919376709">
+      <name>лыжная трасса ЛМЗ 87</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.422802" lon="30.302759">
+      <name>лыжная трасса ЛМЗ 88</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4225473957449" lon="30.3037081440307">
+      <name>лыжная трасса ЛМЗ 89</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.422451" lon="30.304291">
+      <name>лыжная трасса ЛМЗ 90</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4224520721084" lon="30.3057895382263">
+      <name>лыжная трасса ЛМЗ 91</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.42220846599" lon="30.3071628292419">
+      <name>лыжная трасса ЛМЗ 92</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4219118995567" lon="30.3083644588806">
+      <name>лыжная трасса ЛМЗ 93</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4215729631783" lon="30.3094158848144">
+      <name>лыжная трасса ЛМЗ 94</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420887" lon="30.309504">
+      <name>лыжная трасса ЛМЗ 95</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420681" lon="30.309664">
+      <name>лыжная трасса ЛМЗ 96</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420231" lon="30.309654">
+      <name>лыжная трасса ЛМЗ 97</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4199417824491" lon="30.3099523266174">
+      <name>лыжная трасса ЛМЗ 98</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4195074932693" lon="30.3099952419616">
+      <name>лыжная трасса ЛМЗ 99</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.419151" lon="30.310457">
+      <name>лыжная трасса ЛМЗ 100</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4190943835457" lon="30.3106818874695">
+      <name>лыжная трасса ЛМЗ 101</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.419392" lon="30.311108">
+      <name>лыжная трасса ЛМЗ 102</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.419819" lon="30.311241">
+      <name>лыжная трасса ЛМЗ 103</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420238366849" lon="30.3113470753052">
+      <name>лыжная трасса ЛМЗ 104</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420609" lon="30.311274">
+      <name>лыжная трасса ЛМЗ 105</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420872" lon="30.311426">
+      <name>лыжная трасса ЛМЗ 106</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4208738957412" lon="30.3118406017639">
+      <name>лыжная трасса ЛМЗ 107</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4207361988685" lon="30.3122482975342">
+      <name>лыжная трасса ЛМЗ 108</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4210539600027" lon="30.312934943042">
+      <name>лыжная трасса ЛМЗ 109</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.421227" lon="30.313793">
+      <name>лыжная трасса ЛМЗ 110</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.421219" lon="30.314697">
+      <name>лыжная трасса ЛМЗ 111</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4211704716407" lon="30.3157888134338">
+      <name>лыжная трасса ЛМЗ 112</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4208844877842" lon="30.3166042049743">
+      <name>лыжная трасса ЛМЗ 113</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420672646269" lon="30.31726939281">
+      <name>лыжная трасса ЛМЗ 114</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420349" lon="30.31769">
+      <name>лыжная трасса ЛМЗ 115</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420006" lon="30.318504">
+      <name>лыжная трасса ЛМЗ 116</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.419956" lon="30.318817">
+      <name>лыжная трасса ЛМЗ 117</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420261" lon="30.319126">
+      <name>лыжная трасса ЛМЗ 118</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420658" lon="30.31992">
+      <name>лыжная трасса ЛМЗ 119</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4207611048456" lon="30.3205292059504">
+      <name>лыжная трасса ЛМЗ 120</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420704" lon="30.3211">
+      <name>лыжная трасса ЛМЗ 121</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420631" lon="30.321648">
+      <name>лыжная трасса ЛМЗ 122</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.420742" lon="30.322165">
+      <name>лыжная трасса ЛМЗ 123</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.42057" lon="30.323154">
+      <name>лыжная трасса ЛМЗ 124</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.42025" lon="30.32373">
+      <name>лыжная трасса ЛМЗ 125</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.419804" lon="30.324362">
+      <name>лыжная трасса ЛМЗ 126</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.419376" lon="30.325428">
+      <name>лыжная трасса ЛМЗ 127</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.419205" lon="30.326307">
+      <name>лыжная трасса ЛМЗ 128</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.418728" lon="30.327585">
+      <name>лыжная трасса ЛМЗ 129</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.41814" lon="30.327892">
+      <name>лыжная трасса ЛМЗ 130</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.417305" lon="30.327703">
+      <name>лыжная трасса ЛМЗ 131</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.416752" lon="30.327633">
+      <name>лыжная трасса ЛМЗ 132</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.416122" lon="30.327663">
+      <name>лыжная трасса ЛМЗ 133</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.415676" lon="30.327507">
+      <name>лыжная трасса ЛМЗ 134</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.415363" lon="30.327309">
+      <name>лыжная трасса ЛМЗ 135</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4148690037831" lon="30.3275673224055">
+      <name>лыжная трасса ЛМЗ 136</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.41465" lon="30.32773">
+      <name>лыжная трасса ЛМЗ 137</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.413887" lon="30.327694">
+      <name>лыжная трасса ЛМЗ 138</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.413438782283" lon="30.3279750181758">
+      <name>лыжная трасса ЛМЗ 139</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.412827" lon="30.327951">
+      <name>лыжная трасса ЛМЗ 140</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.412666" lon="30.327847">
+      <name>лыжная трасса ЛМЗ 141</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.412327" lon="30.327806">
+      <name>лыжная трасса ЛМЗ 142</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.411858" lon="30.327517">
+      <name>лыжная трасса ЛМЗ 143</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4113903463362" lon="30.3272025419795">
+      <name>лыжная трасса ЛМЗ 144</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.410759" lon="30.326786">
+      <name>лыжная трасса ЛМЗ 145</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.410461" lon="30.326742">
+      <name>лыжная трасса ЛМЗ 146</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.410233" lon="30.326445">
+      <name>лыжная трасса ЛМЗ 147</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.409798" lon="30.325651">
+      <name>лыжная трасса ЛМЗ 148</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4093030381102" lon="30.3255717588984">
+      <name>лыжная трасса ЛМЗ 149</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.409046" lon="30.326197">
+      <name>лыжная трасса ЛМЗ 150</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.408878" lon="30.326706">
+      <name>лыжная трасса ЛМЗ 151</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4083811893103" lon="30.3272454573237">
+      <name>лыжная трасса ЛМЗ 152</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.407974" lon="30.327955">
+      <name>лыжная трасса ЛМЗ 153</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4078308648396" lon="30.3284979817701">
+      <name>лыжная трасса ЛМЗ 154</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.407516" lon="30.32893">
+      <name>лыжная трасса ЛМЗ 155</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.407074" lon="30.329548">
+      <name>лыжная трасса ЛМЗ 156</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.40683" lon="30.330147">
+      <name>лыжная трасса ЛМЗ 157</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4064851078581" lon="30.3304935452772">
+      <name>лыжная трасса ЛМЗ 158</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.406124" lon="30.330759">
+      <name>лыжная трасса ЛМЗ 159</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.405735" lon="30.331396">
+      <name>лыжная трасса ЛМЗ 160</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.405342" lon="30.331934">
+      <name>лыжная трасса ЛМЗ 161</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.404995" lon="30.332188">
+      <name>лыжная трасса ЛМЗ 162</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.404620029791" lon="30.331888293965">
+      <name>лыжная трасса ЛМЗ 163</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.404316" lon="30.331379">
+      <name>лыжная трасса ЛМЗ 164</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.403873" lon="30.330975">
+      <name>лыжная трасса ЛМЗ 165</name>
+      <sym>waypoint</sym>
+    </rtept>
+    <rtept lat="60.4035178879598" lon="30.3306437489821">
+      <name>лыжная трасса ЛМЗ 166</name>
+      <sym>waypoint</sym>
+    </rtept>
+  </rte>
+</gpx>
