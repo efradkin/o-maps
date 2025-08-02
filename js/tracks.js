@@ -318,17 +318,54 @@ let tracks = [
     // --- ЛЫЖИ ---
     {
         name: 'Московский парк Победы',
+        info: 'Абсолютно плоский круг.',
         gpx: 'tracks/ski/victory_park_ski_omaps.gpx',
         type: ['SKI']
     },
     {
         name: 'Парк Авиаторов',
+        info: 'Абсолютно плоский круг, но можно покататься с единственной горки на севере парка.',
         gpx: 'tracks/ski/aviatorov_park_ski_omaps.gpx',
         type: ['SKI']
     },
     {
         name: 'парк Героев-пожарных',
         gpx: 'tracks/ski/firemen_park_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Елагин о-в, ЦПКиО',
+        info: 'Абсолютно плоский круг.',
+        gpx: 'tracks/ski/elagin_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Муринский парк',
+        info: 'Плавный рельеф и лыжероллерная трасса летом. Но мамочки и собачники тоже считают её своей.',
+        gpx: 'tracks/ski/murinsky_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Полюстровский парк',
+        gpx: 'tracks/ski/poljustrovsky_park_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Екатерингофский парк',
+        info: 'Абсолютно плоский круг.',
+        gpx: 'tracks/ski/ekateringof_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Полежаевский парк',
+        info: 'Единственная лыжная трасса с хоть сколько-то заметным рельефом на юге города.',
+        gpx: 'tracks/ski/polezhaevsky_park_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'парк им.акд.Сахарова',
+        info: 'Абсолютно плоский круг.',
+        gpx: 'tracks/ski/sakharova_ski_omaps.gpx',
         type: ['SKI']
     },
     {
@@ -509,6 +546,18 @@ let tracks = [
         type: ['SKI']
     },
     {
+        name: 'Ржевский л/п',
+        info: 'Самотопный "конёк" и лыжня сбоку от дороги.',
+        gpx: 'tracks/ski/rzhevsky_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Невский л/п, Богословка',
+        info: 'Прокатывается нерегулярно.',
+        gpx: 'tracks/ski/bogoslovka_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
         name: 'Кириши',
         link: 'https://vk.com/ori_ki',
         gpx: 'tracks/ski/kirishi_ski_omaps.gpx',
@@ -531,6 +580,16 @@ let tracks = [
         type: ['SKI']
     },
     {
+        name: 'Луга, Зелёный Бор',
+        gpx: 'tracks/ski/luga_zelbor_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Луга, б/о "Штоль"',
+        gpx: 'tracks/ski/luga_shtol_omaps.gpx',
+        type: ['SKI']
+    },
+    {
         name: 'Ломоносов',
         info: 'Холмистую трассу готовит на энтузиазме бывший учитель физкультуры.',
         gpx: 'tracks/ski/lomonosov_ski_omaps.gpx',
@@ -541,6 +600,12 @@ let tracks = [
         link: 'https://vk.com/sfgolfclub',
         info: 'Трасса мягкая, готовят бороной, подъёмов нет, душ, раздевалка, парковка. Платно.',
         gpx: 'tracks/ski/lomonosov_strawberry_fields_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Пески, лыжероллерная трасса Ярви',
+        link: 'https://jarviresort.ru/',
+        gpx: 'tracks/ski/peski_jarvi_omaps.gpx',
         type: ['SKI']
     },
 ];
