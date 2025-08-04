@@ -65,7 +65,7 @@ if (!ONLY_MAP_NAME_PARAM) {
     }
 }
 
-if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
+async function loadTracks() {
     try {
         for (const t of tracks) {
             let gpx = new L.GPX(t.gpx, {
@@ -74,7 +74,7 @@ if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
                 color: (t.type && t.type.includes('SKI') ? 'blue' : 'red'),
                 weight: 5
             });
-            var popup_text = buildTrackText(t, gpx);
+            var popup_text = buildTrackPopup(t, gpx);
             gpx.bindPopup(popup_text, {maxWidth: 500});
             gpx.addTo(tracksGroup);
         }
@@ -83,7 +83,7 @@ if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
     }
 }
 
-function buildTrackText(t, gpx) {
+function buildTrackPopup(t, gpx) {
 
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
     let typesList = getTypesList(t);
@@ -547,6 +547,11 @@ if (mapElement) {
                     if (MAP_NAME_PARAM) {
                         locateMapForUrl(MAP_NAME_PARAM);
                     }
+
+                    // load the tracks at the end
+                    if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
+                        loadTracks();
+                    }
                 }
             }
         }
@@ -752,7 +757,7 @@ function buildMap(m) {
     }
 
     // map popup
-    let popup = buildPopupText(m, latLngs);
+    let popup = buildPopup(m, latLngs);
     imgLayer.bindPopup(popup, {maxWidth: 500});
     imgLayer.on('mouseover', function (e) {
         if (!editMode && enablePopup) {
@@ -881,7 +886,7 @@ function mapLogoList(m) {
     return logo;
 }
 
-function buildPopupText(m, latLngs) {
+function buildPopup(m, latLngs) {
 
     const LOGO_CAROUSEL_TEMPLATE = `
         <div id="logo-carousel" class="carousel carousel-dark slide">
