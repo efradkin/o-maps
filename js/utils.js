@@ -1,6 +1,7 @@
 let dic = {
     RUN: 'БЕГ',
     SKI: 'ЛЫЖИ',
+    INDOOR: 'ВНУТРИ',
     VELO: 'ВЕЛО',
     WALK: 'ПЕШИЙ',
     WATER: 'ВОДНЫЙ',
