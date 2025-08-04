@@ -127,6 +127,10 @@ function buildTrackText(t, gpx) {
         result += t.info;
     }
 
+    // скрыть трек
+    let onclick = 'onclick="hideMap(map, \'' + t.gpx + '\'); return false;"';
+    result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть этот трек</a></div>';
+
     result += '</div>';
 
     return result;

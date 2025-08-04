@@ -205,8 +205,10 @@ function upZindex(ovrl) {
 
 function hideMap(map, url) {
     map.eachLayer(function(layer){
-        let layerUrl = layer._url;
-        if (layerUrl && layerUrl.includes(url)) {
+        if (layer._url && layer._url.includes(url)) {
+            layer.removeFrom(map);
+        }
+        else if (layer._gpx && layer._gpx === url) {
             layer.removeFrom(map);
         }
     });
