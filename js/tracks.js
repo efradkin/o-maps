@@ -376,14 +376,67 @@ let tracks = [
     },
     {
         name: 'Зеленогорск, марафонский круг',
+        logo: 'priboy.webp',
+        link: 'https://vk.com/bazapriboyzel',
         info: 'Целиком прокатывается далеко не каждый год.',
         gpx: 'tracks/ski/zelenogorsk_marathon_17_ski_omaps.gpx',
         type: ['SKI']
     },
     {
+        name: 'Зеленогорск, пятёрка',
+        logo: 'priboy.webp',
+        link: 'https://vk.com/bazapriboyzel',
+        gpx: 'tracks/ski/zelenogorsk_5_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Зеленогорск, десятка',
+        logo: 'priboy.webp',
+        link: 'https://vk.com/bazapriboyzel',
+        gpx: 'tracks/ski/zelenogorsk_10_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Зеленогорск, пятнашка',
+        logo: 'priboy.webp',
+        link: 'https://vk.com/bazapriboyzel',
+        info: 'Целиком прокатывается далеко не каждый год.',
+        gpx: 'tracks/ski/zelenogorsk_15_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
         name: 'Зеленогорск, прогулочная лыжня',
+        logo: 'priboy.webp',
+        link: 'https://vk.com/bazapriboyzel',
         info: 'Спокойная трасса с минимумом рельефа.',
         gpx: 'tracks/ski/zelenogorsk_walk_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Зеленогорск, прогулочная лыжня с петлёй',
+        logo: 'priboy.webp',
+        link: 'https://vk.com/bazapriboyzel',
+        info: 'Спокойная трасса с минимумом рельефа.',
+        gpx: 'tracks/ski/zelenogorsk_walk_round_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Рощино',
+        year: 2023,
+        link: 'https://vk.com/public210675528',
+        info: 'Лыжная трасса Рощино создана и поддерживается жителями Рощино. Подготовка, обслуживание и содержание осуществляется за счет собственных средств и за счет благотворительных средств не безразличных людей.',
+        gpx: 'tracks/ski/roschino_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Сестрорецк, сквер Пограничников',
+        gpx: 'tracks/ski/sestroretsk_pogranichnikov_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Сестрорецкий пляж',
+        info: 'классика двусторонняя',
+        gpx: 'tracks/ski/sestroretsk_beach_ski_omaps.gpx',
         type: ['SKI']
     },
     {
@@ -454,7 +507,7 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Токсово, Малиновая гора, болотная петля', // TODO не показывается
+        name: 'Токсово, Малиновая гора, болотная петля',
         info: 'Классическая лыжня, подготавливаемая энтузиастами. Периодически тут проводятся массовые "Лыжные стрелы".',
         link: 'https://vk.com/malingora',
         gpx: 'tracks/ski/toksovo_malinova_gora_swamp_ski_omaps.gpx',
@@ -474,19 +527,68 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Орехово',
+        name: 'Орехово, двадцать от станции',
         link: 'https://vk.com/orehovo_ski',
         gpx: 'tracks/ski/orekhovo_20_ski_omaps.gpx',
         type: ['SKI']
     },
     {
+        name: 'Орехово, "Лыжная стрела"',
+        year: 2025,
+        link: 'https://vk.com/orehovo_ski',
+        gpx: 'tracks/ski/orekhovo_ski_arrow_2025_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Орехово, спортивный круг',
+        link: 'https://vk.com/orehovo_ski',
+        pic: './tracks/orekhovo/ski_1.jpg',
+        gpx: 'tracks/ski/orekhovo_12_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Орехово, пятёрка',
+        link: 'https://vk.com/orehovo_ski',
+        pic: './tracks/orekhovo/ski_1.jpg',
+        gpx: 'tracks/ski/orekhovo_5_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Орехово, "Авангард"',
+        link: 'https://vk.com/orehovo_ski',
+        pic: './tracks/orekhovo/ski_1.jpg',
+        info: '"Авангард выкупили, идёт стройка. Вопрос там трассы пока под сомнением."',
+        gpx: 'tracks/ski/orekhovo_avangard_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
         name: 'Гарболово, круг "Мастер"',
+        logo: 'garbolovo_ski.webp',
+        info: 'По-настоящему спортивный круг, протяженностью 7 км., бросающий вызов силе, выносливости, характеру и умению спортсмена. К кругу «Любитель» добавлены три длинных подъема и четыре очень скоростных и техничных спуска, которые раскрывают потенциал НАШЕЙ ТРАССЫ для тренировок и соревнований. Набор высоты на кругу: 145 метров! <br />ВАЖНО!!! Начинающим лыжникам кататься по этому кругу ОПАСНО!!! Берегите себя и окружающих!',
         link: 'https://vk.com/sport_v_garbolovo',
         gpx: 'tracks/ski/garbolovo_master_ski_omaps.gpx',
         type: ['SKI']
     },
     {
+        name: 'Гарболово, круг "Любитель"',
+        logo: 'garbolovo_ski.webp',
+        info: 'Есть срезки на каждом километре дистанции. Присутствуют подъемы и спуски с перепадом до 15 метров, есть 4 относительно быстрых спуска. Катание на этому кругу требует уверенного владения лыжами, ну а сказочные пейзажи зимнего елового и соснового леса не оставят вас равнодушными!',
+        link: 'https://vk.com/sport_v_garbolovo',
+        gpx: 'tracks/ski/garbolovo_ljubitel_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Гарболово, круг "Семейный"',
+        logo: 'garbolovo_ski.webp',
+        info: 'Круг идеален для семейных прогулок с детьми, первоначального обучения технике конькового и классического хода. На нем нет опасных спусков и крутых подъемов, однако специально подобранный рельеф и красивые пейзажи позволят полноценно отдохнуть и освоить азы лыжной науки. Выход на круг прямо со стадиона и налево - по просеке 100 метров.',
+        link: 'https://vk.com/sport_v_garbolovo',
+        gpx: 'tracks/ski/garbolovo_family_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
         name: 'Гарболово, круг "Турист"',
+        logo: 'garbolovo_ski.webp',
+        info: 'Представляет собой круг длиной 12 километров(в состав которого входят трассы "Семейный", "Любитель" и частично "Мастер" - 6 км.) и 6 километровая дополнительная туристическая петля, которая периодически готовится под коньковый и классический ход. Петля проложена по живописному лесу и карельским болотам со средним рельефом. Однако на дополнительной петле присутствуют 2 очень длинных и технически сложных спуска и два крутых подъема. По сравнению с кругами «Семейный», «Любитель» и «Мастер» дополнительная петля довольно малолюдна, что многим лыжникам очень нравится. Отлично подходит уверенным в своих силах и подготовленным лыжным туристам. Уровень подготовки: как для круга «Мастер». Набор высоты: 210 метров. <br />ВАЖНО!!! На круге нет срезок! Пошли — идите до конца все 12 километров.',
         link: 'https://vk.com/sport_v_garbolovo',
         gpx: 'tracks/ski/garbolovo_tourist_ski_omaps.gpx',
         type: ['SKI']
@@ -606,6 +708,38 @@ let tracks = [
         name: 'Пески, лыжероллерная трасса Ярви',
         link: 'https://jarviresort.ru/',
         gpx: 'tracks/ski/peski_jarvi_omaps.gpx',
+        logo: 'jarvi.gif',
+        type: ['SKI']
+    },
+    {
+        name: 'оз Сиркоярви',
+        gpx: 'tracks/ski/sirkojarvi_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Сосновый Бор, Приморский парк',
+        gpx: 'tracks/ski/sosnovy_bor_primorsky_park_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Сосновый Бор, Малахит',
+        link: 'https://vk.com/club.sb_biathlon',
+        gpx: 'tracks/ski/sosnovy_bor_malakhit_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Тихвин', // TODO не показывается
+        gpx: 'tracks/ski/tikhvin_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Тихвин, Фишева гора',
+        gpx: 'tracks/ski/tikhvin_fisheva_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Юнтолово',
+        gpx: 'tracks/ski/juntolovo_omaps.gpx',
         type: ['SKI']
     },
 ];

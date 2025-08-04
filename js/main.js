@@ -94,7 +94,11 @@ function buildTrackText(t, gpx) {
 
     // картинка
     let pic;
-    if (t.pics) {
+    if (t.logo) {
+        pic = './logo/' + t.logo;
+    } else if (t.pic) {
+        pic = t.pic;
+    } else if (t.pics) {
         pic = './tracks/' + t.pics[0] + '/pic_1.jpg';
     } else {
         pic = './logo/o-maps.webp';
