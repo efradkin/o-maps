@@ -337,11 +337,15 @@ label:has(> span span .layer-separator) {
     img {
         margin-bottom: 5px;
     }
+    a {
+        margin-top: -30px;
+        float: right;
+    }
 }
 .o-sheet-wrapper {
     overflow-y: auto;
     width: 100%;
-    height: calc(100vh - 120px);
+    height: calc(100vh - 155px);
 
     thead th {
         position: sticky;
