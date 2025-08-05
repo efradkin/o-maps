@@ -71,6 +71,9 @@ async function loadTracks() {
             if (ONLY_TRACK_NAME_PARAM && !t.gpx.includes(ONLY_TRACK_NAME_PARAM)) {
                 continue;
             }
+            if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
+                continue;
+            }
             let gpx = new L.GPX(t.gpx, {
                 async: false,
                 display_wpt: false,

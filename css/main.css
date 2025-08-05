@@ -101,15 +101,7 @@ a, a:active, a:focus {
     padding: 5px;
     border-radius: 5px;
 }
-#charts_region_selector {
-    position: relative;
-    top: -6px;
-    left: 30px;
-    border: 1px solid black;
-    padding: 5px;
-    border-radius: 5px;
-}
-#start_selector {
+.header_selector {
     position: relative;
     top: -6px;
     left: 30px;

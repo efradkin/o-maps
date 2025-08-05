@@ -353,6 +353,14 @@ function selectMapRegion(region, prefix) {
     }
 }
 
+function selectTrackType(trackType) {
+    if (trackType === 'ALL') {
+        location.href = './tracks.html';
+    } else {
+        location.href = './tracks.html?track-type=' + trackType;
+    }
+}
+
 function selectStart(start) {
     let url = location.href.split('?')[0];
     if (start !== 'all') {

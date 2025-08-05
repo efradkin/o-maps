@@ -43,7 +43,7 @@
         <a href="./index.html" target="_self">O-maps ◪</a>
         <a href="ryazan.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
-        <select id="charts_region_selector" onchange="selectMapRegion(this.value, 'charts')">
+        <select class="header_selector" onchange="selectMapRegion(this.value, 'charts')">
             <option value="index">Начальная страница</option>
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
             <option value="spb">Санкт-Петербург</option>
@@ -59,7 +59,7 @@
     <div class="chart-container">
         <canvas id="map_type_chart"></canvas>
     </div>
-    <strong>Всего карт: <span id="total_maps"></span></strong>
+    <p><strong>Всего карт: <span id="total_maps"></span></strong></p>
 
     <br /><br />
 

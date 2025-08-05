@@ -42,7 +42,7 @@
         <a href="./index.html" target="_self">O-maps ◪</a>
         <a href="spb.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
-        <select id="charts_region_selector" onchange="selectMapRegion(this.value, 'sheet')">
+        <select class="header_selector" onchange="selectMapRegion(this.value, 'sheet')">
             <option value="index">Начальная страница</option>
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
             <option value="spb">Санкт-Петербург</option>
@@ -52,6 +52,15 @@
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
             <option value="docs">Исторические документы</option>
             <option value="tracks" selected>Маршруты</option>
+        </select>
+
+        <select id="track_type_selector" class="header_selector" onchange="selectTrackType(this.value)">
+            <option value="ALL">все</option>
+            <option value="WALK">Пешая ЭКО-тропа</option>
+            <option value="RUN">Бег</option>
+            <option value="SKI">Лыжи</option>
+            <option value="VELO">Вело</option>
+            <option value="WATER">Водный</option>
         </select>
     </h1>
     <h2 class="text-center">Маршруты Санкт-Петербурга и окрестностей</h2>
@@ -95,6 +104,12 @@
     <script src="js/tracks.js"></script>
 
     <script>
+        const TRACK_TYPE_PARAM = new URLSearchParams(window.location.search).get('track-type');
+        if (TRACK_TYPE_PARAM) {
+            let selector = document.getElementById('track_type_selector');
+            selector.value = TRACK_TYPE_PARAM;
+        }
+
         // Массив с адресами картинок
         const images = [];
         var picCounter = 0;
@@ -116,6 +131,11 @@
 
             for (let i = 0; i < tracks.length; i++) {
                 let t = tracks[i];
+
+                if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
+                    continue;
+                }
+
                 const row = document.createElement('tr');
                 td(t, row, i + 1);
                 td(t, row, buildName(t));
