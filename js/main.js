@@ -130,9 +130,13 @@ function buildTrackPopup(t, gpx) {
         result += t.info;
     }
 
+    let trackLinkUrl = trackLink(t.gpx, false);
+    let copyCick = 'onclick="copyToClipboard(\'' + trackLinkUrl + '\'); return false;"';
+    result += '<br />Поделиться <a href="' + trackLinkUrl + '">ссылкой</a> на трек: <a href="#" ' + copyCick + '><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
+
     // скрыть трек
-    let onclick = 'onclick="hideMap(map, \'' + t.gpx + '\'); return false;"';
-    result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть этот трек</a></div>';
+    let hideCick = 'onclick="hideMap(map, \'' + t.gpx + '\'); return false;"';
+    result += '<br /><div class="hide-map-link"><a href="#" ' + hideCick + '>Скрыть этот трек</a></div>';
 
     result += '</div>';
 

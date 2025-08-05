@@ -90,6 +90,7 @@
 
     <script src="js/ext/jquery.slim.min.js"></script>
 
+    <script src="js/utils-common.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/tracks.js"></script>
 
@@ -136,7 +137,7 @@
 
         function buildName(t) {
             let result = '';
-            result += '<b>' + t.name + '</b>';
+            result += '<b><a href="' + trackLink(t.gpx, true) + '">' + t.name + '"<a/></b>';
             return result;
         }
 

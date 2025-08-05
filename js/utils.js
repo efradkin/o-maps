@@ -65,6 +65,11 @@ function mapLink(url, region) {
     return location.origin + pathname + '?map=' + extractFileName(url);
 }
 
+function trackLink(url, exclusive) {
+    let pathname = 'spb.html';
+    return pathname + '?' + (exclusive ? 'only' : '') + 'track=' + extractFileName(url);
+}
+
 function authorLink(author) {
     let pathname = location.pathname;
     if (pathname.includes('charts-')) {
