@@ -4,7 +4,9 @@ const OWNER_PARAM = urlParams.get('owner');
 const PLANNER_PARAM = urlParams.get('planner');
 const TYPE_PARAM = urlParams.get('type');
 let MAP_NAME_PARAM = urlParams.get('map');
+let TRACK_NAME_PARAM = urlParams.get('track');
 const ONLY_MAP_NAME_PARAM = urlParams.get('onlymap');
+const ONLY_TRACK_NAME_PARAM = urlParams.get('onlytrack');
 let START_NAME_PARAM = urlParams.get('start');
 const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
@@ -21,6 +23,9 @@ if (HAS_EMBEDDED_PARAM) {
 }
 if (ONLY_MAP_NAME_PARAM) {
     MAP_NAME_PARAM = ONLY_MAP_NAME_PARAM;
+}
+if (ONLY_TRACK_NAME_PARAM) {
+    TRACK_NAME_PARAM = ONLY_TRACK_NAME_PARAM;
 }
 
 const BASEMENT = HAS_EMBEDDED_PARAM ? '<a href="https://yandex.ru/maps">Я.Картах</a>' : '<a href="https://www.openstreetmap.org/copyright">OSM</a>';

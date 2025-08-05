@@ -228,6 +228,15 @@ function locateMapForUrl(mapName) {
     });
 }
 
+function locateTrackForUrl(gpx) {
+    map.eachLayer( function(layer) {
+        if(layer._gpx && layer._gpx.includes(gpx)) {
+            map.fitBounds(layer.getBounds());
+            return false;
+        }
+    });
+}
+
 function setOverlayOpacity(opacity) {
     mapOpacity = opacity;
     for (const m of mapOverlays) {

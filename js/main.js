@@ -57,7 +57,7 @@ if (MAP_NAME_PARAM) {
         loadMap(m);
     }
 }
-if (!ONLY_MAP_NAME_PARAM) {
+if (!ONLY_MAP_NAME_PARAM && !ONLY_TRACK_NAME_PARAM) {
     for (const m of oMaps) {
         if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM))) {
             loadMap(m);
@@ -68,6 +68,9 @@ if (!ONLY_MAP_NAME_PARAM) {
 async function loadTracks() {
     try {
         for (const t of tracks) {
+            if (ONLY_TRACK_NAME_PARAM && !t.gpx.includes(ONLY_TRACK_NAME_PARAM)) {
+                continue;
+            }
             let gpx = new L.GPX(t.gpx, {
                 async: false,
                 display_wpt: false,
@@ -160,6 +163,9 @@ if (mapElement) {
         }
     } else if (START_NAME_PARAM === 'major' && (typeof groupRetro !== 'undefined')) {
         activeLayers.push(groupRetro, group90th);
+    }
+    if (TRACK_NAME_PARAM) {
+        activeLayers.push(tracksGroup);
     }
     let x = centerX;
     let y = centerY;
@@ -551,6 +557,11 @@ if (mapElement) {
                     // load the tracks at the end
                     if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
                         loadTracks();
+                    }
+
+                    // go to the specified track
+                    if (TRACK_NAME_PARAM) {
+                        locateTrackForUrl(TRACK_NAME_PARAM);
                     }
                 }
             }
