@@ -56,11 +56,11 @@
 
         <select id="track_type_selector" class="header_selector" onchange="selectTrackType(this.value)">
             <option value="ALL">все</option>
-            <option value="WALK">Пешая ЭКО-тропа</option>
-            <option value="RUN">Бег</option>
-            <option value="SKI">Лыжи</option>
-            <option value="VELO">Вело</option>
-            <option value="WATER">Водный</option>
+            <option value="WALK" class="WALK">Пешая ЭКО-тропа</option>
+            <option value="RUN" class="RUN">Бег</option>
+            <option value="SKI" class="SKI">Лыжи</option>
+            <option value="VELO" class="VELO">Вело</option>
+            <option value="WATER" class="WATER">Водный</option>
         </select>
     </h1>
     <h2 class="text-center">Маршруты Санкт-Петербурга и окрестностей</h2>
@@ -142,7 +142,7 @@
                 td(t, row, buildInfo(t));
                 td(t, row, buildGPX(t));
                 td(t, row, buildLinks(t));
-                td(t, row, getTypesList(t));
+                td(t, row, getTypesList(t, true));
                 td(t, row, buildFotos(t));
                 tbody.appendChild(row);
             }

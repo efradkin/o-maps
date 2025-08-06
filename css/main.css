@@ -461,6 +461,21 @@ label:has(> span span .layer-separator) {
     height: 50px;
     margin: 3px;
 }
+.RUN {
+    color: red;
+}
+.SKI {
+    color: blue;
+}
+.VELO {
+    color: brown;
+}
+.WALK {
+    color: green;
+}
+.WATER {
+    color: darkblue;
+}
 
 /* --- integration --- */
 body.integration-body {
@@ -530,7 +545,7 @@ body.integration-body {
         justify-items: normal;
     }
     .o-sheet-wrapper {
-         overflow-y: inherit;
-         height: inherit;
+        overflow-y: inherit;
+        height: inherit;
     }
 }

@@ -1,7 +1,6 @@
 let dic = {
     RUN: 'БЕГ',
     SKI: 'ЛЫЖИ',
-    INDOOR: 'ВНУТРИ',
     VELO: 'ВЕЛО',
     WALK: 'ПЕШИЙ',
     WATER: 'ВОДНЫЙ',
@@ -15,9 +14,17 @@ let dic = {
     ROGAINE: 'РОГЕЙН',
     SPRINT: 'СПРИНТ',
     WINTER: 'ЗИМА',
+    INDOOR: 'ВНУТРИ',
+};
+let color = {
+    RUN: 'red',
+    SKI: 'blue',
+    VELO: 'brown',
+    WALK: 'green',
+    WATER: 'darkblue',
 };
 
-function getTypesList(m) {
+function getTypesList(m, colored) {
     let list = [];
     if (m.type && m.type.length > 0 || m.excluded) {
         let types = [];
@@ -27,7 +34,7 @@ function getTypesList(m) {
         if (m.excluded) {
             types.push('EXCLUDED');
         }
-        list = types.map(t => dic[t]).join(', ');
+        list = types.map(t => (colored ? '<span class="' + t + '">' + dic[t] + '</span>' : dic[t])).join(', ');
     }
     return list;
 }

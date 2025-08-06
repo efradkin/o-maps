@@ -77,7 +77,7 @@ async function loadTracks() {
             let gpx = new L.GPX(t.gpx, {
                 async: false,
                 display_wpt: false,
-                color: (t.type && t.type.includes('SKI') ? 'blue' : 'red'),
+                color: (t.type ? color[t.type[0]] : 'green'),
                 weight: 5
             });
             var popup_text = buildTrackPopup(t, gpx);
@@ -92,7 +92,7 @@ async function loadTracks() {
 function buildTrackPopup(t, gpx) {
 
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
-    let typesList = getTypesList(t);
+    let typesList = getTypesList(t, true);
     if (!typesList.length) {
         typesList = 'МАРШРУТ';
     }
