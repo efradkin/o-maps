@@ -183,7 +183,7 @@ if (mapElement) {
     } else if (START_NAME_PARAM === 'major' && (typeof groupRetro !== 'undefined')) {
         activeLayers.push(groupRetro, group90th);
     }
-    if (TRACK_NAME_PARAM) {
+    if (TRACK_NAME_PARAM || HAS_TRACKS_PARAM) {
         activeLayers.push(tracksGroup);
     }
     let x = centerX;

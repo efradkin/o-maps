@@ -12,6 +12,7 @@ let START_NAME_PARAM = urlParams.get('start');
 const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 const HAS_RESTRICTED_PARAM = urlParams.has('restricted');
+const HAS_TRACKS_PARAM = urlParams.has('tracks');
 const X_PARAM = urlParams.get('x');
 const Y_PARAM = urlParams.get('y');
 const ZOOM_PARAM = urlParams.get('zoom');
