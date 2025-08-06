@@ -101,6 +101,7 @@
 
     <script src="js/utils-common.js"></script>
     <script src="js/utils.js"></script>
+    <script src="js/starts.js"></script>
     <script src="js/tracks.js"></script>
 
     <script>
@@ -129,6 +130,7 @@
         function renderTracksTable() {
             tbody.innerHTML = '';
 
+            let counter = 1;
             for (let i = 0; i < tracks.length; i++) {
                 let t = tracks[i];
 
@@ -137,7 +139,7 @@
                 }
 
                 const row = document.createElement('tr');
-                td(t, row, i + 1);
+                td(t, row, counter++);
                 td(t, row, buildName(t));
                 td(t, row, buildInfo(t));
                 td(t, row, buildGPX(t));
@@ -161,10 +163,16 @@
             return result;
         }
 
-        function buildInfo(m) {
+        function buildInfo(t) {
             let result = '';
-            if (m.info) {
-                result += m.info;
+            if (t.start) {
+                result += '<b>' + getMapStarts(t) + '</b> ';
+            }
+            if (t.info) {
+                result += t.info;
+            }
+            if (t.results) {
+                result += '<a href="' + t.results + '"> Результаты</a>';
             }
             return result;
         }

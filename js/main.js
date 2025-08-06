@@ -104,6 +104,8 @@ function buildTrackPopup(t, gpx) {
         pic = './logo/' + t.logo;
     } else if (t.pic) {
         pic = t.pic;
+    } else if (t.start && starts[t.start].logo) {
+        pic = './logo/' + starts[t.start].logo;
     } else if (t.pics) {
         pic = './tracks/' + t.pics[0] + '/pic_1.jpg';
     } else {
@@ -129,8 +131,18 @@ function buildTrackPopup(t, gpx) {
     result += '<hr />';
 
     // инфа о маршруте
+    let info = '';
+    if (t.start) {
+        info += '<b>' + getMapStarts(t) + '</b> ';
+    }
     if (t.info) {
-        result += t.info;
+        info += t.info;
+    }
+    if (t.results) {
+        info += '<a href="' + t.results + '"> Результаты</a>';
+    }
+    if (info) {
+        result += info + '<br />';
     }
 
     let trackLinkUrl = trackLink(t.gpx, false);

@@ -317,7 +317,7 @@ let tracks = [
         info: '"Экологическая тропа «Оредежское кольцо» расположена в Лужском районе Ленинградской области. Общая протяженность составляет 47 км: 10 км турист преодолевает пешком, 20 км – на велосипеде и 17 км – на байдарке вниз по течению реки Оредеж. Маршрут стал вторым многодневным маршрутом после маршрута «Тропа Южного берега». Кроме того, он объединяет разные виды активного туризма, что привлекательно для любителей активного отдыха." ©',
         link: 'https://ooptlo.ru/oredezhskoe-kolczo.html',
         gpx: 'tracks/oredezh_ring_omaps.gpx',
-        type: ['WALK','VELO']
+        type: ['WALK','VELO','WATER']
     },
     {
         name: 'Гладышевка',
@@ -356,7 +356,7 @@ let tracks = [
     },
     {
         name: 'Парк Авиаторов',
-        info: 'Абсолютно плоский круг, но можно покататься с единственной горки на севере парка.',
+        info: 'Абсолютно плоский круг, но можно покататься с единственной горки на северо-западе парка.',
         gpx: 'tracks/ski/aviatorov_park_ski_omaps.gpx',
         type: ['SKI']
     },
@@ -781,5 +781,96 @@ let tracks = [
         name: 'Юнтолово',
         gpx: 'tracks/ski/juntolovo_omaps.gpx',
         type: ['SKI']
+    },
+    // --- БЕГ ---
+    {
+        name: 'Московский парк Победы',
+        link: 'https://5verst.ru/moskovskyparkpobedy/',
+        results: 'https://5verst.ru/moskovskyparkpobedy/results/all/',
+        info: 'Маршрут проходит по дорожкам парка в два круга: первый малый круг проходит вокруг центральной части парка с возвратом к фонтану, далее трасса огибает фонтан с правой стороны и уходит на большой круг по периметру парка. Старт и финиш расположен у фонтана "Венок Славы" на центральной Аллее Героев со стороны Московского проспекта. Рельеф плоский. Покрытие — тротуарная плитка 1000 м и грунт 4000 м.',
+        gpx: 'tracks/run/victory_park_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Елагин о-в, ЦПКиО',
+        link: 'https://5verst.ru/elaginostrov/',
+        results: 'https://5verst.ru/elaginostrov/results/latest/',
+        info: 'Маршрут проходит в два круга через западную стрелку острова. Покрытие смешанное, грунта чуть больше, трасса плоская, набор высоты минимальный. Старт находится на аллее, идущей по периметру острова, в районе моста между 4-м Южным прудом и Средней Невкой. Финиш расположен на Зеленом пляже рядом с крытыми трибунами.',
+        gpx: 'tracks/run/elagin_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Александрино',
+        link: 'https://5verst.ru/aleksandrino',
+        results: 'https://5verst.ru/aleksandrino/results/latest',
+        info: 'Трасса проходит в два круга по дорожкам парка и имеет прямоугольную форму. Рельеф - плоский.',
+        gpx: 'tracks/run/aleksandrino_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'парк Интернационалистов',
+        link: 'https://5verst.ru/internatsionalistov',
+        results: 'https://5verst.ru/internatsionalistov/results/latest',
+        info: 'Трасса в три круга по парку, покрытие гранитная крошка, набор высоты отсутствует. Доступно для атлетов на колясках и родителей с детскими колясками.',
+        gpx: 'tracks/run/internationalistov_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Сосновка',
+        link: 'https://5verst.ru/sosnovka',
+        results: 'https://5verst.ru/sosnovka/results/latest',
+        info: 'Маршрут пролегает по грунтовым дорожкам парка Сосновка и представляет собой кольцо длиной 2.5 км, по которому участники пробегают дважды. Весь кольцевой маршрут располагается в юго-западной части парка, недалеко от проспектов Мориса Тореза и Светлановского, улицы/аллеи Жака Дюкло, южнее стрелкового поля. Старт и финиш располагаются рядом со стадионом на парковой дорожке у трибун. Маршрут проложен по благоустроенным грунтовым дорожкам шириной от 2 до 4 метров в тени деревьев.',
+        gpx: 'tracks/run/sosnovka_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Кудрово',
+        link: 'https://5verst.ru/megaparkkudrovo',
+        results: 'https://5verst.ru/megaparkkudrovo/results/latest',
+        info: 'Старт проходит в Ленинградская область, г. Кудрово, Мурманское шоссе, 12 км, МЕГА ПАРК (около ТЦ МЕГА Дыбенко). Маршрут старта проходит по асфальту и гладкий песчано-гравийный бульвар. Зона старта располагается в парка МегаПарк.',
+        gpx: 'tracks/run/kudrovo_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Петергоф',
+        link: 'https://5verst.ru/petergofaleksandriysky',
+        results: 'https://5verst.ru/petergofaleksandriysky/results/latest',
+        info: 'Маршрут проходит в один круг против часовой стрелки вдоль улиц Демьяна Бедного, Парковой, Санкт-Петербургского проспекта, уходит вглубь парка и выходит вдоль ул. Аврова . Старт и финиш от входа в Александрийский парк со стороны вокзала Новый Петергоф. Рельеф плоский.',
+        gpx: 'tracks/run/petergof_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Пушкин',
+        link: 'https://5verst.ru/pushkin',
+        results: 'https://5verst.ru/pushkin/results/latest',
+        info: 'Трасса в два круга: маленький и большой. Вся дистанция проходит по грунтовому покрытию, набор высоты отсутствует. Доступно для лиц на колясках.',
+        gpx: 'tracks/run/pushkin_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Колпино, Чухонка',
+        link: 'https://5verst.ru/kolpino',
+        results: 'https://5verst.ru/kolpino/results/latest',
+        info: 'Маршрут забега описывает круги в Колпинском парке на острове и полуострове Чухонка, по асфальтовой дорожке. Зона старта располагается рядом со входом в парк со стороны Большого Чухонского моста (на острове).',
+        gpx: 'tracks/run/kolpino_4uhonka_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Гатчина, Приорат',
+        link: 'https://5verst.ru/gatchinaprioratsky',
+        results: 'https://5verst.ru/gatchinaprioratsky/results/latest',
+        info: 'Мероприятие проводится в г. Гатчина, Ленинградской области, в Приоратском парке. На берегу Филькиного озера, у старой водонапорной башни.',
+        gpx: 'tracks/run/gat4ina_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
     },
 ];
