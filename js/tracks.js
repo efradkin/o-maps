@@ -5,7 +5,7 @@ let tracks = [
         link: 'https://ooptlo.ru/gryada-vyaryamyanselskaya-(malyij-marshrut).html',
         gpx: 'tracks/vyaryamyanselkya_petyajarvi_omaps.gpx',
         pics: ['petyajarvi',7],
-        type: ['VELO','WALK']
+        type: ['WALK','VELO']
     },
     {
         name: 'гряда Вярямянселькя, Берестовое оз',
@@ -13,7 +13,7 @@ let tracks = [
         link: 'https://ooptlo.ru/ozero-berestovoe.html',
         gpx: 'tracks/vyaryamyanselkya_berestovoe_omaps.gpx',
         pics: ['berestovoe',8],
-        type: ['VELO','WALK']
+        type: ['WALK','VELO']
     },
     {
         name: 'гряда Вярямянселькя, оз Светлое',
@@ -21,7 +21,7 @@ let tracks = [
         link: 'https://ooptlo.ru/gryada-vyaryamyanselskaya-(bolshoj-marshrut).html',
         gpx: 'tracks/vyaryamyanselkya_petrichenko_omaps.gpx',
         pics: ['petrichenko',7],
-        type: ['VELO','WALK']
+        type: ['WALK','VELO']
     },
     {
         name: 'Сестрорецкое болото',
@@ -37,7 +37,7 @@ let tracks = [
         link: 'https://ooptlo.ru/marshrut-kamovyie-xolmyi.html',
         gpx: 'tracks/koltushi_kamy_omaps.gpx',
         pics: ['koltushi_kamy',5],
-        type: ['RUN','VELO','WALK']
+        type: ['WALK','SKI']
     },
     {
         name: 'Колтушские высоты, "Заячья тропа"',
@@ -45,7 +45,7 @@ let tracks = [
         link: 'https://ooptlo.ru/zayachya-tropa-v-pamyatnike-prirodyi-koltushskie-vyisotyi.html',
         gpx: 'tracks/hare_trail_omaps.gpx',
         pics: ['hare_trail',5],
-        type: ['RUN','VELO','WALK']
+        type: ['WALK','SKI']
     },
     {
         name: 'Зеленогорские озёра',
@@ -69,7 +69,7 @@ let tracks = [
         link: 'https://ooptlo.ru/kurgolovskaya-tropa.html',
         gpx: 'tracks/kurgolovo_omaps.gpx',
         pics: ['kurgolovo',2],
-        type: ['RUN','VELO','WALK']
+        type: ['WALK']
     },
     {
         name: 'Кавголово, "Еловые холмы"',
@@ -77,11 +77,10 @@ let tracks = [
         link: 'https://ooptlo.ru/ecotoksovskie-vyisotyi.html',
         gpx: 'tracks/kavgolovo_omaps.gpx',
         pics: ['kavgolovo',2],
-        type: ['RUN','VELO','WALK']
+        type: ['WALK','VELO']
     },
     {
         name: 'Токсово, Малиновая гора',
-        info: 'Прекрасная классическая лыжня зимой и заросшие возвышенности, окружённые болотами, летом.',
         link: 'https://ooptlo.ru/ekomarshrut-malinovaya-gora.html',
         gpx: 'tracks/malinova_gora_omaps.gpx',
         // pics: ['toksovo',5],
@@ -98,7 +97,7 @@ let tracks = [
             '28км':'tracks/orekhovo_ladoga_28_omaps.gpx'
         },
         pics: ['orekhovo',2],
-        type: ['VELO','WALK']
+        type: ['WALK','VELO']
     },
     {
         name: 'Южное приладожье, Каньон реки Лава',
@@ -904,5 +903,103 @@ let tracks = [
             '5км':'tracks/run/shuvalovsky_heroleague_5_omaps.gpx',
         },
         type: ['RUN']
+    },
+    // --- ВЕЛО ---
+    {
+        name: 'Коскиярви МТБ марафон',
+        year: 2024,
+        link: 'https://koskijarvi.ru/',
+        results: 'https://reg.o-time.ru/race/24171',
+        info: 'Вас ждут на выбор три размеченных дистанции в один круг: 80 км, 60 км и 30 км скоростных лесных дорог, кросс-кантрийных секций, заковыристых синглтреков, затяжных подъемов и спусков - всё то, из-за чего мы все полюбили маунтинбайк! Трасса проложена в лесном массиве, протянувшемся от ж/д ст Лемболово до Сосново. Старт с территории Клуба загородного отдыха "Орех". 27-82км.',
+        gpx: {
+            'EPIC, 82km':'tracks/velo/koskijarvi_2024_epic_omaps.gpx',
+            'STRONG, 58km':'tracks/velo/koskijarvi_2024_strong_omaps.gpx',
+            'LIGHT, 27km':'tracks/velo/koskijarvi_2024_light_omaps.gpx',
+        },
+        logo: 'koskijarvi.gif',
+        type: ['VELO']
+    },
+    {
+        name: 'Петяярви веломарафон "Горные вершины"',
+        year: 2025,
+        link: 'https://marathoncup.ru/main/petyajarvi/',
+        results: 'https://reg.o-time.ru/race/25151',
+        info: 'Интересная и живописная трасса, проходящая по территории природного заказника «Гряда Вярямянселька», включающая три мостика через бурную речку Волчья и ручей Горюнец. 27-54км.',
+        gpx: {
+            '1й круг, 27km':'tracks/velo/petyajarvi_marathoncup_2025_1lap_omaps.gpx',
+            '2й круг, 27km':'tracks/velo/petyajarvi_marathoncup_2025_2lap_omaps.gpx',
+        },
+        start: 'KVMLO',
+        type: ['VELO']
+    },
+    {
+        name: 'Токсовский веломарафон "Горные вершины"',
+        year: 2025,
+        link: 'https://marathoncup.ru/main/toksovo/',
+        results: 'https://reg.o-time.ru/race/25154',
+        info: 'Трасса марафона проходит по лесным дорогам в районе Токсово и озера Хепоярви. 27-54км.',
+        gpx: {
+            '1й круг, 28km':'tracks/velo/toksovo_marathoncup_2025_1lap_omaps.gpx',
+            '2й круг, 26km':'tracks/velo/toksovo_marathoncup_2025_2lap_omaps.gpx',
+            'FUN, 10km':'tracks/velo/toksovo_marathoncup_2025_fun_omaps.gpx',
+        },
+        start: 'KVMLO',
+        type: ['VELO']
+    },
+    {
+        name: 'Лемболовский веломарафон "Горные вершины"',
+        year: 2025,
+        link: 'https://marathoncup.ru/main/lembolovo/',
+        results: 'https://reg.o-time.ru/race/25155',
+        info: 'Один из старейших и массовых марафонов в России. Трасса не раз оценивалась многими участниками, как самая интересная и разнообразная, но с более сложным рельефом. 14-60км.',
+        gpx: {
+            'Марафонский круг, 30km':'tracks/velo/lembolovo_marathoncup_2025_30km_omaps.gpx',
+            'FUN, 14km':'tracks/velo/lembolovo_marathoncup_2025_14km_omaps.gpx'
+        },
+        start: 'KVMLO',
+        type: ['VELO']
+    },
+    {
+        name: 'Ореховый веломарафон "Горные вершины"',
+        year: 2025,
+        link: 'https://marathoncup.ru/main/orekhovo/',
+        results: 'https://reg.o-time.ru/race/25152',
+        info: ' Благодаря очень большой площади является одним из самых подходящих мест для маунтинбайка, находящегося в пределах часа езды от Санкт-Петербурга. 13-58км.',
+        gpx: {
+            'SPORT, 28km':'tracks/velo/orekhovo_marathoncup_2025_sport_omaps.gpx',
+            'FUN, 13km':'tracks/velo/orekhovo_marathoncup_2025_fun_omaps.gpx'
+        },
+        start: 'KVMLO',
+        type: ['VELO']
+    },
+    {
+        name: 'Цвелодубово веломарафон "Горные вершины"',
+        year: 2024,
+        link: 'https://marathoncup.ru/main/tsvelodubovo/',
+        results: 'https://reg.o-time.ru/race/24126',
+        info: 'Трасса марафона разнообразна и проходит по традиционной для Карельского перешейка местности – лесные дороги, тропинки, крутые подъёмы и спуски, ровные участки, где можно перевести дух. В тоже время длина трассы не слишком протяжённа (круг 25 км). Набор высоты на одном круге - 320м, это минимальный набор среди всех этапов. 14-50км.',
+        gpx: {
+            '1й круг, 24km':'tracks/velo/tsvelodubovo_marathoncup_2024_1lap_omaps.gpx',
+            '2й круг, 25km':'tracks/velo/tsvelodubovo_marathoncup_2024_2lap_omaps.gpx',
+            'FUN, 13km':'tracks/velo/tsvelodubovo_marathoncup_2024_fun_omaps.gpx',
+        },
+        start: 'KVMLO',
+        pics: ['velo/tsvelodubovo',1],
+        type: ['VELO']
+    },
+    {
+        name: 'Мичуринский Author Grand Prix веломарафон',
+        year: 2025,
+        link: 'https://marathoncup.ru/main/author/',
+        results: 'https://reg.o-time.ru/race/25201',
+        info: 'Велосипедный кросс-кантри марафон для всех. 14-63км.',
+        gpx: {
+            '63км':'tracks/velo/mi4ura_marathoncup_2025_63km_omaps.gpx',
+            '35км':'tracks/velo/mi4ura_marathoncup_2025_35km_omaps.gpx',
+            '14км':'tracks/velo/mi4ura_marathoncup_2025_14km_omaps.gpx',
+        },
+        start: 'KVMLO',
+        pics: ['velo/mi4ura',1],
+        type: ['VELO']
     },
 ];

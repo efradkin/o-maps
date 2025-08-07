@@ -328,5 +328,10 @@ let starts = {
         name: '<a href="https://atrails.ru/">A-TRAILS - серия трейловых забегов Ленинградской области</a>',
         logo: 'a-trails.gif',
     },
+    KVMLO: {
+        short: 'КВМЛО',
+        name: '<a href="https://marathoncup.ru">Кубок веломарафонов Ленинградской области</a>',
+        logo: 'kvmlo.webp',
+    },
 };
 

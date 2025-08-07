@@ -351,7 +351,7 @@ let specialMaps = [
         url: './maps/velo/lembolovo_velo_2019.webp',
         link: './original_maps/velo/lembolovo_velo_2019_omaps.jpeg',
         info: '<a href="https://vk.com/lembolovomarathon">Лемболовский веломарафон "Горные вершины"</a>.',
-        logo: 'kvmlo.webp',
+        start: 'KVMLO',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/6347/',
         bounds: [[60.43240832461208, 30.250854492187504], [60.4456198220461, 30.31539916992188], [60.39151183234099, 30.285015106201175]],
         type: ['VELO'],

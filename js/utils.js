@@ -19,8 +19,8 @@ let dic = {
 let color = {
     RUN: 'red',
     SKI: 'blue',
-    VELO: 'brown',
-    WALK: 'green',
+    VELO: 'green',
+    WALK: 'brown',
     WATER: 'darkblue',
 };
 
