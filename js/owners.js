@@ -63,6 +63,7 @@ let owners = {
     },
     HARD: {
         name: '© <a href="https://hardadventure.ru/">Hard Adventure</a>',
+        logo: 'hard.gif',
         rogaine: true
     },
     INGR: {

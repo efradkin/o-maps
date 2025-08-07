@@ -314,7 +314,7 @@ let starts = {
     TROPA_THRSDAY: {
         short: 'Тропаревские четверги',
         name: 'Тропаревские четверги',
-        logo: 'tropa_thirsday.jpg',
+        logo: 'tropa_thirsday.jpg'
     },
     /* --- ТРЕКИ --- */
     PARKRUN: {
@@ -326,12 +326,17 @@ let starts = {
     ATRAILS: {
         short: 'A-TRAILS',
         name: '<a href="https://atrails.ru/">A-TRAILS - серия трейловых забегов Ленинградской области</a>',
-        logo: 'a-trails.gif',
+        logo: 'a-trails.gif'
     },
     KVMLO: {
         short: 'КВМЛО',
         name: '<a href="https://marathoncup.ru">Кубок веломарафонов Ленинградской области</a>',
-        logo: 'kvmlo.webp',
+        logo: 'kvmlo.webp'
+    },
+    HARD: {
+        short: 'HARD',
+        name: '© <a href="https://hardadventure.ru/">Hard Adventure</a>',
+        logo: 'hard.gif'
     },
 };
 

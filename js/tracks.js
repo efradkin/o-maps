@@ -1002,4 +1002,13 @@ let tracks = [
         pics: ['velo/mi4ura',1],
         type: ['VELO']
     },
+    {
+        name: 'Семиозерье, Hard Bike Race',
+        year: 2024,
+        link: 'https://hardadventure.ru/info2024bike',
+        results: 'https://reg.o-time.ru/race/24560',
+        gpx: 'tracks/velo/semiozerie_hard_bike_2024_omaps.gpx',
+        start: 'HARD',
+        type: ['VELO']
+    },
 ];
