@@ -68,13 +68,14 @@ if (!ONLY_MAP_NAME_PARAM && !ONLY_TRACK_NAME_PARAM) {
 async function loadTracks() {
     try {
         for (const t of tracks) {
-            if (ONLY_TRACK_NAME_PARAM && !t.gpx.includes(ONLY_TRACK_NAME_PARAM)) {
+            let firstTrack = getFirstTrack(t);
+            if (ONLY_TRACK_NAME_PARAM && !firstTrack.includes(ONLY_TRACK_NAME_PARAM)) {
                 continue;
             }
             if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
                 continue;
             }
-            let gpx = new L.GPX(t.gpx, {
+            let gpx = new L.GPX(firstTrack, {
                 async: false,
                 display_wpt: false,
                 color: (t.type ? color[t.type[0]] : 'green'),
@@ -89,8 +90,8 @@ async function loadTracks() {
     }
 }
 
-function buildTrackPopup(t, gpx) {
-
+function buildTrackPopup(t, gpxLayer) {
+    let firstTrack = getFirstTrack(t);
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
     let typesList = getTypesList(t, true);
     if (!typesList.length) {
@@ -122,12 +123,12 @@ function buildTrackPopup(t, gpx) {
     if (t.year) {
         result += ' ' + t.year + ' ';
     }
-    if (gpx.len > 0) {
-        let len = gpx._humanLen(gpx.len);
+    if (gpxLayer.len > 0) {
+        let len = gpxLayer._humanLen(gpxLayer.len);
         result += ' (' + len + ')';
     }
     result += '</b>';
-    result += '<a href="' + t.gpx + '" target="_self" title="Скачать GPX-трек"> <img src="images/download_24.png" style="width:12px" /></a>'
+    result += buildTrackDownloadLinks(t);
     result += '<hr />';
 
     // инфа о маршруте
@@ -145,12 +146,12 @@ function buildTrackPopup(t, gpx) {
         result += info + '<br />';
     }
 
-    let trackLinkUrl = trackLink(t.gpx, false);
+    let trackLinkUrl = trackLink(firstTrack, false);
     let copyCick = 'onclick="copyToClipboard(\'' + trackLinkUrl + '\'); return false;"';
     result += '<br />Поделиться <a href="' + trackLinkUrl + '">ссылкой</a> на трек: <a href="#" ' + copyCick + '><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
 
     // скрыть трек
-    let hideCick = 'onclick="hideMap(map, \'' + t.gpx + '\'); return false;"';
+    let hideCick = 'onclick="hideMap(map, \'' + firstTrack + '\'); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + hideCick + '>Скрыть этот трек</a></div>';
 
     result += '</div>';

@@ -75,6 +75,7 @@
                 <th>&nbsp</th>
                 <th>Название</th>
                 <th>Инфо</th>
+                <th>Длина</th>
                 <th>GPX</th>
                 <th>Ссылки</th>
                 <th>Тип</th>
@@ -98,6 +99,8 @@
     </div>
 
     <script src="js/ext/jquery.slim.min.js"></script>
+    <script src="js/ext/leaflet.js"></script>
+    <script src="js/ext/GPX.js"></script>
 
     <script src="js/utils-common.js"></script>
     <script src="js/utils.js"></script>
@@ -142,7 +145,8 @@
                 td(t, row, counter++);
                 td(t, row, buildName(t));
                 td(t, row, buildInfo(t));
-                td(t, row, buildGPX(t));
+                td(t, row, buildLength(t));
+                td(t, row, buildTrackDownloadLinks(t));
                 td(t, row, buildLinks(t));
                 td(t, row, getTypesList(t, true));
                 td(t, row, buildFotos(t));
@@ -159,7 +163,7 @@
 
         function buildName(t) {
             let result = '';
-            result += '<b><a href="' + trackLink(t.gpx, true) + '">' + t.name + '<a/></b>';
+            result += '<b><a href="' + trackLink(getFirstTrack(t), true) + '">' + t.name + '<a/></b>';
             return result;
         }
 
@@ -177,10 +181,13 @@
             return result;
         }
 
-        function buildGPX(t) {
-            let result = '';
-            result += '<a href="' + t.gpx + '" class="ext-link"><img src="./images/gpx-file-format-symbol-24.png" style="width:20px" /></a>';
-            return result;
+        function buildLength(t) {
+            let l = calculateTrackLength(t);
+            if ('0м' === l) {
+                return '';
+            } else {
+                return l;
+            }
         }
 
         function buildLinks(t) {

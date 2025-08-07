@@ -5618,7 +5618,7 @@ let moscowMaps = [
     {
         name: 'Баррикадная',
         year: 2025,
-        area: 1,
+        area: .257,
         url: './maps/moscow/ak/barrikadnaya_obsw_2025.webp',
         link: './original_maps/moscow/ak/barrikadnaya_obsw_2025_omaps.png',
         info: '2.08, Гонка преследования',
@@ -5646,7 +5646,7 @@ let moscowMaps = [
     {
         name: 'Старый Арбат',
         year: 2025,
-        area: 1,
+        area: .983,
         url: './maps/moscow/ak/arbat_obsw_2025.webp',
         link: './original_maps/moscow/ak/arbat_obsw_2025_omaps.gif',
         info: '3.08, Нокаут-спринт',

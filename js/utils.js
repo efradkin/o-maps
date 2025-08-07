@@ -72,9 +72,38 @@ function mapLink(url, region) {
     return location.origin + pathname + '?map=' + extractFileName(url);
 }
 
+function getFirstTrack(t) {
+    if (t.gpx === null) {
+        return null;
+    }
+    if (isObject(t.gpx)) {
+        return Object.values(t.gpx)[0];
+    }
+    return t.gpx;
+}
+
 function trackLink(url, exclusive) {
-    let pathname = 'spb.html';
-    return pathname + '?' + (exclusive ? 'only' : '') + 'track=' + extractFileName(url);
+    return location.origin + '/spb.html?' + (exclusive ? 'only' : '') + 'track=' + extractFileName(url);
+}
+
+function buildTrackDownloadLinks(t) {
+    if (isObject(t.gpx)) {
+        let result = '';
+        for (const [name, gpx] of Object.entries(t.gpx)) {
+            result += '<a href="' + gpx + '" title="Скачать GPX-трек ' + name + '"> <img src="images/download_24.png" style="width:12px" /></a>'
+        }
+        return result;
+    } else {
+        return '<a href="' + t.gpx + '" title="Скачать GPX-трек"> <img src="images/download_24.png" style="width:12px" /></a>';
+    }
+}
+
+function calculateTrackLength(t) {
+    let firstTrack = getFirstTrack(t);
+    let gpxLayer = new L.GPX(firstTrack, {
+        async: false,
+    });
+    return gpxLayer._humanLen(gpxLayer.len);
 }
 
 function authorLink(author) {

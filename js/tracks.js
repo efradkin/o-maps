@@ -5,7 +5,7 @@ let tracks = [
         link: 'https://ooptlo.ru/gryada-vyaryamyanselskaya-(malyij-marshrut).html',
         gpx: 'tracks/vyaryamyanselkya_petyajarvi_omaps.gpx',
         pics: ['petyajarvi',7],
-        type: ['RUN','VELO','WALK']
+        type: ['VELO','WALK']
     },
     {
         name: 'гряда Вярямянселькя, Берестовое оз',
@@ -13,7 +13,7 @@ let tracks = [
         link: 'https://ooptlo.ru/ozero-berestovoe.html',
         gpx: 'tracks/vyaryamyanselkya_berestovoe_omaps.gpx',
         pics: ['berestovoe',8],
-        type: ['RUN','VELO','WALK']
+        type: ['VELO','WALK']
     },
     {
         name: 'гряда Вярямянселькя, оз Светлое',
@@ -21,7 +21,7 @@ let tracks = [
         link: 'https://ooptlo.ru/gryada-vyaryamyanselskaya-(bolshoj-marshrut).html',
         gpx: 'tracks/vyaryamyanselkya_petrichenko_omaps.gpx',
         pics: ['petrichenko',7],
-        type: ['RUN','VELO','WALK']
+        type: ['VELO','WALK']
     },
     {
         name: 'Сестрорецкое болото',
@@ -53,7 +53,7 @@ let tracks = [
         link: 'https://ooptlo.ru/6-ozer.html',
         gpx: 'tracks/zelenogorsk_omaps.gpx',
         pics: ['zelenogorsk',2],
-        type: ['RUN','VELO','WALK']
+        type: ['VELO','WALK']
     },
     {
         name: 'Рощино, Линдуловская роща',
@@ -61,7 +61,7 @@ let tracks = [
         link: 'https://ooptlo.ru/ecolindulovskaya-roshha.html',
         gpx: 'tracks/lindulovska_omaps.gpx',
         // pics: ['roschino',5],
-        type: ['RUN','WALK']
+        type: ['WALK']
     },
     {
         name: 'Кавголово, Курголовская этнотропа',
@@ -91,9 +91,14 @@ let tracks = [
         name: 'От Орехово до Ладоги',
         info: 'Надо будет обязательно когда-нибудь съездить до самой до Ладоги.',
         link: 'https://ooptlo.ru/ot-orekhovo-do-ladogi.html',
-        gpx: 'tracks/orekhovo_ladoga_omaps.gpx',
+        gpx: {
+            'полный маршрут 90км':'tracks/orekhovo_ladoga_90_omaps.gpx',
+            '65км':'tracks/orekhovo_ladoga_65_omaps.gpx',
+            '30км':'tracks/orekhovo_ladoga_30_omaps.gpx',
+            '28км':'tracks/orekhovo_ladoga_28_omaps.gpx'
+        },
         pics: ['orekhovo',2],
-        type: ['RUN','VELO','WALK']
+        type: ['VELO','WALK']
     },
     {
         name: 'Южное приладожье, Каньон реки Лава',
@@ -125,7 +130,7 @@ let tracks = [
         link: 'https://ooptlo.ru/lesnyie-dali.html',
         gpx: 'tracks/shalovo_omaps.gpx',
         pics: ['shalovo',2],
-        type: ['RUN','VELO','WALK']
+        type: ['WALK']
     },
     {
         name: 'Юкковские камы',
@@ -140,10 +145,8 @@ let tracks = [
         info: 'Береговая артиллерия и "бронепоезд" на запасном пути в Красной горке, Шепелевский маяк и сосновый бор.',
         link: 'https://ooptlo.ru/tropa-yuzhnogo-berega.html',
         gpx: 'tracks/lebyazhje_omaps.gpx',
-        // pics: ['shalovo',5],
-        type: ['RUN','VELO','WALK']
+        type: ['WALK']
     },
-    // --- непосещённые ---
     {
         name: 'Берег Копорской губы',
         info: '"Экологическая тропа проходит по южному берегу Финского залива, по существующей дорожно-тропиночной сети, преимущественно по лесам (смешанным с сосной, березой, елью; сосновым), выходит на берег Копорской губы Финского залива." ©',
@@ -407,33 +410,16 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Зеленогорск, марафонский круг',
+        name: 'Зеленогорск, б/о "Прибой"',
         logo: 'priboy.webp',
         link: 'https://vk.com/bazapriboyzel',
         info: 'Целиком прокатывается далеко не каждый год.',
-        gpx: 'tracks/ski/zelenogorsk_marathon_17_ski_omaps.gpx',
-        type: ['SKI']
-    },
-    {
-        name: 'Зеленогорск, пятёрка',
-        logo: 'priboy.webp',
-        link: 'https://vk.com/bazapriboyzel',
-        gpx: 'tracks/ski/zelenogorsk_5_ski_omaps.gpx',
-        type: ['SKI']
-    },
-    {
-        name: 'Зеленогорск, десятка',
-        logo: 'priboy.webp',
-        link: 'https://vk.com/bazapriboyzel',
-        gpx: 'tracks/ski/zelenogorsk_10_ski_omaps.gpx',
-        type: ['SKI']
-    },
-    {
-        name: 'Зеленогорск, пятнашка',
-        logo: 'priboy.webp',
-        link: 'https://vk.com/bazapriboyzel',
-        info: 'Целиком прокатывается далеко не каждый год.',
-        gpx: 'tracks/ski/zelenogorsk_15_ski_omaps.gpx',
+        gpx: {
+            'марафонский круг':'tracks/ski/zelenogorsk_marathon_17_ski_omaps.gpx',
+            'пятёрка':'tracks/ski/zelenogorsk_5_ski_omaps.gpx',
+            'десятка':'tracks/ski/zelenogorsk_10_ski_omaps.gpx',
+            'пятнашка':'tracks/ski/zelenogorsk_15_ski_omaps.gpx',
+        },
         type: ['SKI']
     },
     {
@@ -441,15 +427,10 @@ let tracks = [
         logo: 'priboy.webp',
         link: 'https://vk.com/bazapriboyzel',
         info: 'Спокойная трасса с минимумом рельефа.',
-        gpx: 'tracks/ski/zelenogorsk_walk_ski_omaps.gpx',
-        type: ['SKI']
-    },
-    {
-        name: 'Зеленогорск, прогулочная лыжня с петлёй',
-        logo: 'priboy.webp',
-        link: 'https://vk.com/bazapriboyzel',
-        info: 'Спокойная трасса с минимумом рельефа.',
-        gpx: 'tracks/ski/zelenogorsk_walk_round_ski_omaps.gpx',
+        gpx: {
+            'к озеру':'tracks/ski/zelenogorsk_walk_ski_omaps.gpx',
+            'с петлёй по лесу':'tracks/ski/zelenogorsk_walk_round_ski_omaps.gpx'
+        },
         type: ['SKI']
     },
     {
@@ -491,25 +472,14 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Токсовский марафон 50км',
-        year: 2024,
+        name: 'Токсовский марафон',
         info: 'Старт - от базы СКА.',
         link: 'https://vk.com/toksovocup',
-        gpx: 'tracks/ski/toksovo_cup_50_ski_omaps.gpx',
-        type: ['SKI']
-    },
-    {
-        name: 'Toksovo Cup 17km',
-        info: 'Старт - от базы СКА.',
-        link: 'https://vk.com/toksovocup',
-        gpx: 'tracks/ski/toksovo_cup_17_ski_omaps.gpx',
-        type: ['SKI']
-    },
-    {
-        name: 'Toksovo Cup 10km',
-        info: 'Старт - от базы СКА.',
-        link: 'https://vk.com/toksovocup',
-        gpx: 'tracks/ski/toksovo_cup_10_ski_omaps.gpx',
+        gpx: {
+            '17km':'tracks/ski/toksovo_cup_17_ski_omaps.gpx',
+            '10km':'tracks/ski/toksovo_cup_10_ski_omaps.gpx',
+            'Full marathon 50km':'tracks/ski/toksovo_cup_50_ski_omaps.gpx'
+        },
         type: ['SKI']
     },
     {
@@ -535,14 +505,10 @@ let tracks = [
         year: 2024,
         info: 'Классическая лыжня, подготавливаемая энтузиастами. Периодически тут проводятся массовые "Лыжные стрелы".',
         link: 'https://vk.com/malingora',
-        gpx: 'tracks/ski/toksovo_malinova_gora_ski_omaps.gpx',
-        type: ['SKI']
-    },
-    {
-        name: 'Токсово, Малиновая гора, болотная петля',
-        info: 'Классическая лыжня, подготавливаемая энтузиастами. Периодически тут проводятся массовые "Лыжные стрелы".',
-        link: 'https://vk.com/malingora',
-        gpx: 'tracks/ski/toksovo_malinova_gora_swamp_ski_omaps.gpx',
+        gpx: {
+            'основная':'tracks/ski/toksovo_malinova_gora_ski_omaps.gpx',
+            'болотная петля':'tracks/ski/toksovo_malinova_gora_swamp_ski_omaps.gpx'
+        },
         type: ['SKI']
     },
     {
@@ -575,14 +541,10 @@ let tracks = [
         name: 'Орехово, спортивный круг',
         link: 'https://vk.com/orehovo_ski',
         pic: './tracks/orekhovo/ski_1.jpg',
-        gpx: 'tracks/ski/orekhovo_12_ski_omaps.gpx',
-        type: ['SKI']
-    },
-    {
-        name: 'Орехово, пятёрка',
-        link: 'https://vk.com/orehovo_ski',
-        pic: './tracks/orekhovo/ski_1.jpg',
-        gpx: 'tracks/ski/orekhovo_5_ski_omaps.gpx',
+        gpx: {
+            '12km':'tracks/ski/orekhovo_12_ski_omaps.gpx',
+            '5km':'tracks/ski/orekhovo_5_ski_omaps.gpx'
+        },
         type: ['SKI']
     },
     {
@@ -602,35 +564,19 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Гарболово, круг "Мастер"',
+        name: 'Гарболово, "НАША ТРАССА"',
         logo: 'garbolovo_ski.webp',
-        info: 'По-настоящему спортивный круг, протяженностью 7 км., бросающий вызов силе, выносливости, характеру и умению спортсмена. К кругу «Любитель» добавлены три длинных подъема и четыре очень скоростных и техничных спуска, которые раскрывают потенциал НАШЕЙ ТРАССЫ для тренировок и соревнований. Набор высоты на кругу: 145 метров! <br />ВАЖНО!!! Начинающим лыжникам кататься по этому кругу ОПАСНО!!! Берегите себя и окружающих!',
+        info: 'Круги: <ol><li><b>"Семейный"</b> - Идеален для семейных прогулок с детьми, первоначального обучения технике конькового и классического хода. На нем нет опасных спусков и крутых подъемов.</li>' +
+            '<li><b>"Любитель"</b> - Есть срезки на каждом километре дистанции. Присутствуют подъемы и спуски с перепадом до 15м. Катание на этому кругу требует уверенного владения лыжами.</li>' +
+            '<li><b>"Мастер"</b> - По-настоящему спортивный круг, протяженностью 7 км, бросающий вызов силе, выносливости, характеру и умению спортсмена.</li>' +
+            '<li><b>"Турист"</b> - Включает круги "Семейный", "Любитель", частично "Мастер" и 6-км дополнительную туристическую петлю, которая периодически готовится под коньковый и классический ход.</li></ol>',
         link: 'https://vk.com/sport_v_garbolovo',
-        gpx: 'tracks/ski/garbolovo_master_ski_omaps.gpx',
-        type: ['SKI']
-    },
-    {
-        name: 'Гарболово, круг "Любитель"',
-        logo: 'garbolovo_ski.webp',
-        info: 'Есть срезки на каждом километре дистанции. Присутствуют подъемы и спуски с перепадом до 15 метров, есть 4 относительно быстрых спуска. Катание на этому кругу требует уверенного владения лыжами, ну а сказочные пейзажи зимнего елового и соснового леса не оставят вас равнодушными!',
-        link: 'https://vk.com/sport_v_garbolovo',
-        gpx: 'tracks/ski/garbolovo_ljubitel_ski_omaps.gpx',
-        type: ['SKI']
-    },
-    {
-        name: 'Гарболово, круг "Семейный"',
-        logo: 'garbolovo_ski.webp',
-        info: 'Круг идеален для семейных прогулок с детьми, первоначального обучения технике конькового и классического хода. На нем нет опасных спусков и крутых подъемов, однако специально подобранный рельеф и красивые пейзажи позволят полноценно отдохнуть и освоить азы лыжной науки. Выход на круг прямо со стадиона и налево - по просеке 100 метров.',
-        link: 'https://vk.com/sport_v_garbolovo',
-        gpx: 'tracks/ski/garbolovo_family_ski_omaps.gpx',
-        type: ['SKI']
-    },
-    {
-        name: 'Гарболово, круг "Турист"',
-        logo: 'garbolovo_ski.webp',
-        info: 'Представляет собой круг длиной 12 километров(в состав которого входят трассы "Семейный", "Любитель" и частично "Мастер" - 6 км.) и 6 километровая дополнительная туристическая петля, которая периодически готовится под коньковый и классический ход. Петля проложена по живописному лесу и карельским болотам со средним рельефом. Однако на дополнительной петле присутствуют 2 очень длинных и технически сложных спуска и два крутых подъема. По сравнению с кругами «Семейный», «Любитель» и «Мастер» дополнительная петля довольно малолюдна, что многим лыжникам очень нравится. Отлично подходит уверенным в своих силах и подготовленным лыжным туристам. Уровень подготовки: как для круга «Мастер». Набор высоты: 210 метров. <br />ВАЖНО!!! На круге нет срезок! Пошли — идите до конца все 12 километров.',
-        link: 'https://vk.com/sport_v_garbolovo',
-        gpx: 'tracks/ski/garbolovo_tourist_ski_omaps.gpx',
+        gpx: {
+            'Турист, 12км':'tracks/ski/garbolovo_tourist_ski_omaps.gpx',
+            'Мастер, 7км':'tracks/ski/garbolovo_master_ski_omaps.gpx',
+            'Любитель, 6км':'tracks/ski/garbolovo_ljubitel_ski_omaps.gpx',
+            'Семейный, 3.5км':'tracks/ski/garbolovo_family_ski_omaps.gpx',
+        },
         type: ['SKI']
     },
     {
@@ -795,7 +741,7 @@ let tracks = [
     {
         name: 'Елагин о-в, ЦПКиО',
         link: 'https://5verst.ru/elaginostrov/',
-        results: 'https://5verst.ru/elaginostrov/results/latest/',
+        results: 'https://5verst.ru/elaginostrov/results/all/',
         info: 'Маршрут проходит в два круга через западную стрелку острова. Покрытие смешанное, грунта чуть больше, трасса плоская, набор высоты минимальный. Старт находится на аллее, идущей по периметру острова, в районе моста между 4-м Южным прудом и Средней Невкой. Финиш расположен на Зеленом пляже рядом с крытыми трибунами.',
         gpx: 'tracks/run/elagin_parkrun_omaps.gpx',
         start: 'PARKRUN',
@@ -804,7 +750,7 @@ let tracks = [
     {
         name: 'Александрино',
         link: 'https://5verst.ru/aleksandrino',
-        results: 'https://5verst.ru/aleksandrino/results/latest',
+        results: 'https://5verst.ru/aleksandrino/results/all',
         info: 'Трасса проходит в два круга по дорожкам парка и имеет прямоугольную форму. Рельеф - плоский.',
         gpx: 'tracks/run/aleksandrino_parkrun_omaps.gpx',
         start: 'PARKRUN',
@@ -813,7 +759,7 @@ let tracks = [
     {
         name: 'парк Интернационалистов',
         link: 'https://5verst.ru/internatsionalistov',
-        results: 'https://5verst.ru/internatsionalistov/results/latest',
+        results: 'https://5verst.ru/internatsionalistov/results/all',
         info: 'Трасса в три круга по парку, покрытие гранитная крошка, набор высоты отсутствует. Доступно для атлетов на колясках и родителей с детскими колясками.',
         gpx: 'tracks/run/internationalistov_parkrun_omaps.gpx',
         start: 'PARKRUN',
@@ -822,7 +768,7 @@ let tracks = [
     {
         name: 'Сосновка',
         link: 'https://5verst.ru/sosnovka',
-        results: 'https://5verst.ru/sosnovka/results/latest',
+        results: 'https://5verst.ru/sosnovka/results/all',
         info: 'Маршрут пролегает по грунтовым дорожкам парка Сосновка и представляет собой кольцо длиной 2.5 км, по которому участники пробегают дважды. Весь кольцевой маршрут располагается в юго-западной части парка, недалеко от проспектов Мориса Тореза и Светлановского, улицы/аллеи Жака Дюкло, южнее стрелкового поля. Старт и финиш располагаются рядом со стадионом на парковой дорожке у трибун. Маршрут проложен по благоустроенным грунтовым дорожкам шириной от 2 до 4 метров в тени деревьев.',
         gpx: 'tracks/run/sosnovka_parkrun_omaps.gpx',
         start: 'PARKRUN',
@@ -831,7 +777,7 @@ let tracks = [
     {
         name: 'Кудрово',
         link: 'https://5verst.ru/megaparkkudrovo',
-        results: 'https://5verst.ru/megaparkkudrovo/results/latest',
+        results: 'https://5verst.ru/megaparkkudrovo/results/all',
         info: 'Старт проходит в Ленинградская область, г. Кудрово, Мурманское шоссе, 12 км, МЕГА ПАРК (около ТЦ МЕГА Дыбенко). Маршрут старта проходит по асфальту и гладкий песчано-гравийный бульвар. Зона старта располагается в парка МегаПарк.',
         gpx: 'tracks/run/kudrovo_parkrun_omaps.gpx',
         start: 'PARKRUN',
@@ -840,7 +786,7 @@ let tracks = [
     {
         name: 'Петергоф',
         link: 'https://5verst.ru/petergofaleksandriysky',
-        results: 'https://5verst.ru/petergofaleksandriysky/results/latest',
+        results: 'https://5verst.ru/petergofaleksandriysky/results/all',
         info: 'Маршрут проходит в один круг против часовой стрелки вдоль улиц Демьяна Бедного, Парковой, Санкт-Петербургского проспекта, уходит вглубь парка и выходит вдоль ул. Аврова . Старт и финиш от входа в Александрийский парк со стороны вокзала Новый Петергоф. Рельеф плоский.',
         gpx: 'tracks/run/petergof_parkrun_omaps.gpx',
         start: 'PARKRUN',
@@ -849,7 +795,7 @@ let tracks = [
     {
         name: 'Пушкин',
         link: 'https://5verst.ru/pushkin',
-        results: 'https://5verst.ru/pushkin/results/latest',
+        results: 'https://5verst.ru/pushkin/results/all',
         info: 'Трасса в два круга: маленький и большой. Вся дистанция проходит по грунтовому покрытию, набор высоты отсутствует. Доступно для лиц на колясках.',
         gpx: 'tracks/run/pushkin_parkrun_omaps.gpx',
         start: 'PARKRUN',
@@ -858,7 +804,7 @@ let tracks = [
     {
         name: 'Колпино, Чухонка',
         link: 'https://5verst.ru/kolpino',
-        results: 'https://5verst.ru/kolpino/results/latest',
+        results: 'https://5verst.ru/kolpino/results/all',
         info: 'Маршрут забега описывает круги в Колпинском парке на острове и полуострове Чухонка, по асфальтовой дорожке. Зона старта располагается рядом со входом в парк со стороны Большого Чухонского моста (на острове).',
         gpx: 'tracks/run/kolpino_4uhonka_parkrun_omaps.gpx',
         start: 'PARKRUN',
@@ -867,10 +813,96 @@ let tracks = [
     {
         name: 'Гатчина, Приорат',
         link: 'https://5verst.ru/gatchinaprioratsky',
-        results: 'https://5verst.ru/gatchinaprioratsky/results/latest',
+        results: 'https://5verst.ru/gatchinaprioratsky/results/all',
         info: 'Мероприятие проводится в г. Гатчина, Ленинградской области, в Приоратском парке. На берегу Филькиного озера, у старой водонапорной башни.',
         gpx: 'tracks/run/gat4ina_parkrun_omaps.gpx',
         start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Полюстровский',
+        link: 'https://5verst.ru/polyustrovskiy/',
+        results: 'https://5verst.ru/polyustrovskiy/results/all/',
+        info: 'Маршрут проходит в два круга по дорожкам Полюстровского парка. Старт и финиш - на южном берегу большого пруда. Рельеф плоский.',
+        gpx: 'tracks/run/polyustrovskiy_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Шуваловский',
+        link: 'https://5verst.ru/shuvalovskypark/',
+        results: 'https://probeg.org/series/4565/races_by_event/',
+        info: '"5 вёрст" в Шуваловском парке пока на паузе.',
+        gpx: 'tracks/run/shuvalovsky_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Орехово трейл',
+        year: 2025,
+        link: 'https://atrails.ru/orehovo/',
+        results: 'https://reg.o-time.ru/race/25202',
+        info: 'Старейший трейл Ленинградской области! 4-22км.',
+        gpx: {
+            'LONG, 22km':'tracks/run/orekhovo_atrails_2025_long_omaps.gpx',
+            'CLASSIC, 11km':'tracks/run/orekhovo_atrails_2025_classic_omaps.gpx',
+            'FUN, 3.6km':'tracks/run/orekhovo_atrails_2025_fun_omaps.gpx',
+        },
+        start: 'ATRAILS',
+        type: ['RUN']
+    },
+    {
+        name: 'Петяярви трейл',
+        year: 2025,
+        link: 'https://atrails.ru/petyajarvi/',
+        results: 'https://reg.o-time.ru/race/25201',
+        info: 'Всё самое интересное гряды Вярямянселькя: крутые подъемы, спуски, камни, корни, бурная речка Волчья, старая финская ГЭС. Один из самых сложных и живописных трейлов в ЛО. 5-22км.',
+        gpx: {
+            'LONG, 22km':'tracks/run/petyajarvi_atrails_2025_long_omaps.gpx',
+            'CLASSIC, 10km':'tracks/run/petyajarvi_atrails_2025_classic_omaps.gpx',
+            'FUN, 5km':'tracks/run/petyajarvi_atrails_2025_fun_omaps.gpx',
+        },
+        start: 'ATRAILS',
+        type: ['RUN']
+    },
+    {
+        name: 'Золотая долина ультра трейл',
+        year: 2023,
+        link: 'https://atrails.ru/zoldol/',
+        results: 'https://reg.o-time.ru/start.php?event=23186',
+        info: 'Ультрамарафон в окрестностях горнолыжного курорта «Золотая долина» в посёлке Коробицыно. 4-51км.',
+        gpx: {
+            'ULTRA, 51km':'tracks/run/zoldol_atrails_2023_ultra_omaps.gpx',
+            'LONG, 21km':'tracks/run/zoldol_atrails_2023_long_omaps.gpx',
+            'CLASSIC, 13km':'tracks/run/zoldol_atrails_2023_classic_omaps.gpx',
+            'FUN, 4km':'tracks/run/zoldol_atrails_2023_fun_omaps.gpx'
+        },
+        start: 'ATRAILS',
+        type: ['RUN']
+    },
+    {
+        name: 'Мичуринское, Хампаала трейл',
+        year: 2024,
+        link: 'https://atrails.ru/hampaala/',
+        results: 'https://reg.o-time.ru/race/24223',
+        info: 'Трейл по болотам и горочкам в окрестностях Мичуринского. 6-19км.',
+        gpx: {
+            'LONG, 19km':'tracks/run/khampala_long_2024_omaps.gpx',
+            'CLASSIC, 11km':'tracks/run/khampala_classic_2024_omaps.gpx',
+            'FUN, 6km':'tracks/run/khampala_fun_2024_omaps.gpx',
+        },
+        start: 'ATRAILS',
+        type: ['RUN']
+    },
+    {
+        name: 'Hero League Trail',
+        year: 2022,
+        link: 'https://heroleague.ru/trail',
+        results: 'https://www.sports.ru/health/1110227213-rezultaty-hero-league-trail-2022.html',
+        gpx: {
+            '10км':'tracks/run/shuvalovsky_heroleague_10_omaps.gpx',
+            '5км':'tracks/run/shuvalovsky_heroleague_5_omaps.gpx',
+        },
         type: ['RUN']
     },
 ];
