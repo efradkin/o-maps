@@ -904,6 +904,16 @@ let tracks = [
         },
         type: ['RUN']
     },
+    {
+        name: 'Пробег Хепоярви',
+        year: 2025,
+        logo: 'khepojarvi.webp',
+        info: '«Пробег Хепоярви» - легендарный пробег вокруг одноимённого озера Хепоярви в одном из самых красивейших районов Ленинградской области, в посёлке Токсово.',
+        link: 'https://vk.com/heporunning',
+        results: 'https://reg.o-time.ru/race/25015',
+        gpx: 'tracks/run/khepoyarvi_2025_omaps.gpx',
+        type: ['RUN']
+    },
     // --- ВЕЛО ---
     {
         name: 'Коскиярви МТБ марафон',
