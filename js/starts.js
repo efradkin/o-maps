@@ -335,8 +335,13 @@ let starts = {
     },
     HARD: {
         short: 'HARD',
-        name: '© <a href="https://hardadventure.ru/">Hard Adventure</a>',
+        name: '<a href="https://hardadventure.ru/">Hard Adventure</a>',
         logo: 'hard.gif'
+    },
+    RLT: {
+        short: 'RLTrail',
+        name: '<a href="https://o-nw.ru/rlt">RLTrail</a>',
+        logo: 'rlt.webp'
     },
 };
 

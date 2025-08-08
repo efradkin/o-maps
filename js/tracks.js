@@ -905,6 +905,139 @@ let tracks = [
         type: ['RUN']
     },
     {
+        name: 'Ястребиное оз, Hard Trail | ROCK',
+        year: 2025,
+        link: 'https://hardadventure.ru/rock2025',
+        results: 'https://reg.o-time.ru/race/25024',
+        info: 'Скандинавский скальный трейл на границе Ленинградской области и Карелии. Самый красивый этап по мнению дизайнера трасс. В этом году дистанции перепланированы так, что каждый метр дистанций пройдет по самым живописным тропинкам и знаковым местам заказника! 6-20км.',
+        gpx: {
+            '20км':'tracks/run/yastrebinoe_hardadventure_rock_2025_20km_omaps.gpx',
+            '12км':'tracks/run/yastrebinoe_hardadventure_rock_2025_12km_omaps.gpx',
+            '6км':'tracks/run/yastrebinoe_hardadventure_rock_2025_6km_omaps.gpx',
+        },
+        start: 'HARD',
+        pics: ['run/yastrebinoe',1],
+        type: ['RUN']
+    },
+    {
+        name: 'Первомайское, Hard Trail | MUD',
+        year: 2025,
+        link: 'https://hardadventure.ru/mud2025',
+        results: 'https://reg.o-time.ru/race/25023',
+        info: 'Добавили рельефа, болот и чуточку грязи, - и вышла настоящая конфетка! 5-12км.',
+        gpx: {
+            '12км':'tracks/run/pervomayskoe_hardadventure_mud_2025_12km_omaps.gpx',
+            '6км':'tracks/run/pervomayskoe_hardadventure_mud_2025_6km_omaps.gpx',
+        },
+        start: 'HARD',
+        pics: ['run/pervomayskoe',1],
+        type: ['RUN']
+    },
+    {
+        name: 'Первомайское, Hard Trail | SNOW',
+        year: 2025,
+        link: 'https://hardadventure.ru/snow2025',
+        results: 'https://reg.o-time.ru/race/25021',
+        info: 'Вас ждёт короткий, но физически сложный трейл по снежным горкам.',
+        gpx: 'tracks/run/suoranda_hardadventure_snow_2025_omaps.gpx',
+        start: 'HARD',
+        type: ['RUN']
+    },
+    {
+        name: 'Первомайское, Hard Trail | SAND',
+        year: 2024,
+        link: 'https://hardadventure.ru/autumn2024',
+        results: 'https://reg.o-time.ru/race/24054',
+        info: 'Вас ждут песчаные склоны карьера, насыщенная пересеченка и разнообразное покрытие на протяжении всей дистанции. А виды на дистанциях в обрамлении Золотой Осени заслуживают отдельного внимания! 7-30км.',
+        gpx: {
+            '30км':'tracks/run/semiozerie_hardadventure_sand_2024_30km_omaps.gpx',
+            '14км':'tracks/run/semiozerie_hardadventure_sand_2024_14km_omaps.gpx',
+            '7км':'tracks/run/semiozerie_hardadventure_sand_2024_7km_omaps.gpx',
+        },
+        start: 'HARD',
+        type: ['RUN']
+    },
+    {
+        name: 'Орехово, Hard Trail',
+        year: 2024,
+        link: 'https://hardadventure.ru/chspb24',
+        results: 'https://reg.o-time.ru/race/24349',
+        info: 'Вас ждет скоростная и насыщенная дистанция, которая сочетает в себе всё лучшее от этой местности: захватывающие спуски и подъемы, чистый сосновый лес, болота, ручьи и прочие прелести весеннего леса.',
+        gpx: 'tracks/run/orekhovo_hardadventure_2024_omaps.gpx',
+        start: 'HARD',
+        type: ['RUN']
+    },
+    {
+        name: 'Моторное (Воробьёво оз), Hard Trail | FEST',
+        year: 2024,
+        link: 'https://hardadventure.ru/summer2024',
+        results: 'https://reg.o-time.ru/race/24052',
+        info: 'Удлиненные дистанции трейла по классической и многими любимой местности Карельского перешейка. Чистый сосновый лес в сочетании с бродами, болотами, подъемами и буреломами. 8-50км.',
+        gpx: {
+            '48км':'tracks/run/motornoe_hardadventure_fest_2024_48km_omaps.gpx',
+            '25км':'tracks/run/motornoe_hardadventure_fest_2024_25km_omaps.gpx',
+            '7км':'tracks/run/motornoe_hardadventure_fest_2024_7km_omaps.gpx'
+        },
+        start: 'HARD',
+        type: ['RUN']
+    },
+    {
+        name: 'Красный холм, Царь скалы',
+        year: 2022,
+        link: 'https://o-nw.ru/rlt-rock',
+        results: 'https://reg.o-time.ru/race/22183',
+        info: 'Грунт, скалы, болота, крутые склоны и техничные спуски, что ещё нужно для лучшего отдыха?! 7-22км.',
+        gpx: {
+            'L':'tracks/run/red_hill_rlt_2022_l_omaps.gpx',
+            'M':'tracks/run/red_hill_rlt_2022_m_omaps.gpx',
+            'S':'tracks/run/red_hill_rlt_2022_s_omaps.gpx'
+        },
+        start: 'RLT',
+        type: ['RUN']
+    },
+    {
+        name: 'Каменногорск, Скальный трейл',
+        year: 2024,
+        link: 'https://o-nw.ru/rlt-rock',
+        results: 'https://reg.o-time.ru/race/24088',
+        info: 'Грунт, скалы, болота, крутые склоны и техничные спуски, что ещё нужно для лучшего отдыха?! 5-33км.',
+        gpx: {
+            'XL':'tracks/run/kamennogorsk_rlt_2024_xl_omaps.gpx',
+            'L':'tracks/run/kamennogorsk_rlt_2024_l_omaps.gpx',
+            'M':'tracks/run/kamennogorsk_rlt_2024_m_omaps.gpx',
+            'S':'tracks/run/kamennogorsk_rlt_2024_s_omaps.gpx'
+        },
+        start: 'RLT',
+        type: ['RUN']
+    },
+    {
+        name: 'Пруды, Скальный трейл',
+        year: 2025,
+        link: 'https://o-nw.ru/rlt-rock',
+        results: 'https://reg.o-time.ru/race/25158',
+        info: 'Грунт, скалы, болота, крутые склоны и техничные спуски, что ещё нужно для лучшего отдыха?! 5-30км.',
+        gpx: {
+            'XL':'tracks/run/prudy_rlt_2025_xl_omaps.gpx',
+            'L':'tracks/run/prudy_rlt_2025_l_omaps.gpx',
+            'M':'tracks/run/prudy_rlt_2025_m_omaps.gpx',
+            'S':'tracks/run/prudy_rlt_2025_s_omaps.gpx'
+        },
+        start: 'RLT',
+        type: ['RUN']
+    },
+    {
+        name: 'Яппиля, Весенний трейл',
+        year: 2025,
+        link: 'https://o-nw.ru/rlt-spring',
+        results: 'https://reg.o-time.ru/race/25157',
+        info: 'Индивидуальная дистанция (М) в рамках эстафетных соревнований.',
+        gpx: {
+            'M':'tracks/run/yappilya_rlt_2025_m_omaps.gpx',
+        },
+        start: 'RLT',
+        type: ['RUN']
+    },
+    {
         name: 'Пробег Хепоярви',
         year: 2025,
         logo: 'khepojarvi.webp',
@@ -1017,6 +1150,7 @@ let tracks = [
         year: 2024,
         link: 'https://hardadventure.ru/info2024bike',
         results: 'https://reg.o-time.ru/race/24560',
+        info: 'Помимо скоростных лесных дорог вас ждут песчаные склоны и тропы карьера, насыщенная пересеченка и разнообразная, живописная дистанция в обрамлении Золотой Осени.',
         gpx: 'tracks/velo/semiozerie_hard_bike_2024_omaps.gpx',
         start: 'HARD',
         type: ['VELO']
