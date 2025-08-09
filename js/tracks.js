@@ -231,7 +231,7 @@ let tracks = [
         type: ['WALK']
     },
     {
-        name: 'оз Мелководное, "Карельская тишина"', // TODO не показывается
+        name: 'Мелководное оз, "Карельская тишина"', // TODO не показывается
         info: '"Экологическая тропа ведет через различные типы лесов, включая мелколиственные, еловые и сосновые леса, приуроченные к каменнистым сельгам, а так же через протоку Кивистёнсалми, соединяющую озёра Мелководное и Луговое. Кроме того, на тропе вы узнаете о финской истории этих мест, в том числе о коммуне Вуоксенранта и её образе жизни, и увидите лютеранскую кирху 1935 года постройки в поселке Озерское." ©',
         link: 'https://ooptlo.ru/karelskaya-tishina.html',
         gpx: 'tracks/melkovodnoe_omaps.gpx',
@@ -336,7 +336,7 @@ let tracks = [
         type: ['WALK']
     },
     {
-        name: 'оз Сяберо, Тропа Александра Невского',
+        name: 'Сяберо оз, Тропа Александра Невского',
         info: '"Экологическая маршрут "Тропа Александра Невского" основан по эпизоду в давнем прошлом Полужья. По территории сегодняшнего Лужского района некогда лежали торговые пути, ведущие из Новгорода в Юрьев (Тарту). Этим же путем в 1242 году князь Александр Невский направлялся освобождать псковские земли от Ливонского ордена, который начал крестовый поход на Русь." ©',
         link: 'https://ooptlo.ru/tropa-aleksandra-nevskogo.html',
         gpx: 'tracks/syabero_omaps.gpx',
@@ -348,6 +348,13 @@ let tracks = [
         link: 'https://ooptlo.ru/muzej-usadba-n.k.-rerixa.html',
         gpx: 'tracks/izvara_omaps.gpx',
         type: ['WALK']
+    },
+    {
+        name: 'Профиль Пушкина',
+        info: 'Профиль Пушкина - Новогодняя пробежка в Пушкине.',
+        link: 'https://hike.ru/pushkin_track.html',
+        gpx: 'tracks/run/pushkin_profile_omaps.gpx',
+        type: ['WALK','RUN']
     },
     // --- ЛЫЖИ ---
     {
@@ -697,7 +704,7 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'оз Сиркоярви',
+        name: 'Сиркоярви оз',
         gpx: 'tracks/ski/sirkojarvi_omaps.gpx',
         type: ['SKI']
     },
@@ -894,6 +901,20 @@ let tracks = [
         type: ['RUN']
     },
     {
+        name: 'Цвелодубово трейл',
+        year: 2022,
+        link: 'https://atrails.ru/tsvelotrail/',
+        results: 'https://reg.o-time.ru/race/22171',
+        info: 'Трейл по сухим еловым и сосновым лесам. 5-21км.',
+        gpx: {
+            'LONG, 21km':'tracks/run/tsvelodubovo_atrails_2022_long_omaps.gpx',
+            'CLASSIC, 10km':'tracks/run/tsvelodubovo_atrails_2022_classic_omaps.gpx',
+            'FUN, 5km':'tracks/run/tsvelodubovo_atrails_2022_fun_omaps.gpx',
+        },
+        start: 'ATRAILS',
+        type: ['RUN']
+    },
+    {
         name: 'Hero League Trail',
         year: 2022,
         link: 'https://heroleague.ru/trail',
@@ -1035,6 +1056,51 @@ let tracks = [
             'M':'tracks/run/yappilya_rlt_2025_m_omaps.gpx',
         },
         start: 'RLT',
+        type: ['RUN']
+    },
+    {
+        name: 'Банное оз, ВьюнОк трейл',
+        year: 2024,
+        link: 'https://goodtrail.ru/24_vyunok.html',
+        results: 'https://goodtrail.ru/24_vyunok.html',
+        gpx: {
+            '50км':'tracks/run/bannoe_vyunok_goodtrail_2024_50km_omaps.gpx',
+            '25км':'tracks/run/bannoe_vyunok_goodtrail_2024_25km_omaps.gpx',
+            '13км':'tracks/run/bannoe_vyunok_goodtrail_2024_13km_omaps.gpx',
+            '8км':'tracks/run/bannoe_vyunok_goodtrail_2024_8km_omaps.gpx'
+        },
+        pics: ['run/bannoe',1],
+        start: 'GOODTRAIL',
+        type: ['RUN']
+    },
+    {
+        name: 'Мишкино трейл',
+        year: 2025,
+        link: 'https://goodtrail.ru/25_mishkino.html',
+        results: 'https://goodtrail.ru/25_mishkino.html',
+        info: 'Все беговые дистанции в один круг. 8-22км.',
+        gpx: {
+            '22км':'tracks/run/mishkino_goodtrail_2025_22km_omaps.gpx',
+            '14км':'tracks/run/mishkino_goodtrail_2025_14km_omaps.gpx',
+            '8км':'tracks/run/mishkino_goodtrail_2025_8km_omaps.gpx'
+        },
+        pics: ['run/mishkino',1],
+        start: 'GOODTRAIL',
+        type: ['RUN']
+    },
+    {
+        name: 'Павловский забег',
+        year: 2024,
+        link: 'https://pushkin-run.ru/pavlovskautumn2025',
+        results: 'https://reg.russiarunning.com/event/OsenniyPavlovskiyzabeg2024',
+        info: 'Регулярный осенний и зимний забег в парке музея-заповедника Павловск. 3-21км.',
+        gpx: {
+            '21км':'tracks/run/pavlovsky_zabeg_21_omaps.gpx',
+            '10км':'tracks/run/pavlovsky_zabeg_10_omaps.gpx',
+            '3км':'tracks/run/pavlovsky_zabeg_3_omaps.gpx'
+        },
+        pics: ['run/pavlovsk',1],
+        start: 'PUSHKINRUN',
         type: ['RUN']
     },
     {

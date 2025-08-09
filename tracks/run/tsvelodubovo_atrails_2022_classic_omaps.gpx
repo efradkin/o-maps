@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>Classic Tsvelo 2022.gpx</name>
+</metadata>
+<trk>
+	<name>10</name>
+	<trkseg>
+		<trkpt lat="60.370821" lon="29.556572">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:28.27Z</time>
+		</trkpt>
+		<trkpt lat="60.370821" lon="29.556636">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:28.48Z</time>
+		</trkpt>
+		<trkpt lat="60.371271" lon="29.556379">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:31.60Z</time>
+		</trkpt>
+		<trkpt lat="60.371465" lon="29.556550">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:33.01Z</time>
+		</trkpt>
+		<trkpt lat="60.371808" lon="29.556100">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:35.73Z</time>
+		</trkpt>
+		<trkpt lat="60.372473" lon="29.556293">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:40.21Z</time>
+		</trkpt>
+		<trkpt lat="60.372967" lon="29.556658">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:43.72Z</time>
+		</trkpt>
+		<trkpt lat="60.373310" lon="29.556829">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:46.07Z</time>
+		</trkpt>
+		<trkpt lat="60.373524" lon="29.556872">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:47.51Z</time>
+		</trkpt>
+		<trkpt lat="60.373739" lon="29.557065">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:49.07Z</time>
+		</trkpt>
+		<trkpt lat="60.374340" lon="29.557452">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:53.28Z</time>
+		</trkpt>
+		<trkpt lat="60.374554" lon="29.558031">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:55.66Z</time>
+		</trkpt>
+		<trkpt lat="60.374597" lon="29.558203">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:56.30Z</time>
+		</trkpt>
+		<trkpt lat="60.374576" lon="29.558224">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:50:56.45Z</time>
+		</trkpt>
+		<trkpt lat="60.375348" lon="29.560670">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:06.02Z</time>
+		</trkpt>
+		<trkpt lat="60.375692" lon="29.561614">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:09.88Z</time>
+		</trkpt>
+		<trkpt lat="60.375863" lon="29.562430">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:12.80Z</time>
+		</trkpt>
+		<trkpt lat="60.375992" lon="29.562430">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:13.66Z</time>
+		</trkpt>
+		<trkpt lat="60.376421" lon="29.562044">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:16.79Z</time>
+		</trkpt>
+		<trkpt lat="60.376378" lon="29.561722">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:17.89Z</time>
+		</trkpt>
+		<trkpt lat="60.376614" lon="29.560670">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:21.70Z</time>
+		</trkpt>
+		<trkpt lat="60.376614" lon="29.560305">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:22.90Z</time>
+		</trkpt>
+		<trkpt lat="60.376765" lon="29.559533">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:25.64Z</time>
+		</trkpt>
+		<trkpt lat="60.376807" lon="29.559447">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:26.03Z</time>
+		</trkpt>
+		<trkpt lat="60.376893" lon="29.559447">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:26.61Z</time>
+		</trkpt>
+		<trkpt lat="60.377473" lon="29.560048">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:30.95Z</time>
+		</trkpt>
+		<trkpt lat="60.377859" lon="29.560606">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:34.12Z</time>
+		</trkpt>
+		<trkpt lat="60.378138" lon="29.560778">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:36.06Z</time>
+		</trkpt>
+		<trkpt lat="60.378910" lon="29.561657">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:41.97Z</time>
+		</trkpt>
+		<trkpt lat="60.379189" lon="29.562044">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:44.22Z</time>
+		</trkpt>
+		<trkpt lat="60.379576" lon="29.562237">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:46.88Z</time>
+		</trkpt>
+		<trkpt lat="60.379747" lon="29.562408">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:48.15Z</time>
+		</trkpt>
+		<trkpt lat="60.379962" lon="29.562837">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:50.16Z</time>
+		</trkpt>
+		<trkpt lat="60.380090" lon="29.562988">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:51.15Z</time>
+		</trkpt>
+		<trkpt lat="60.380090" lon="29.564211">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:55.18Z</time>
+		</trkpt>
+		<trkpt lat="60.380005" lon="29.565305">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:51:58.83Z</time>
+		</trkpt>
+		<trkpt lat="60.379769" lon="29.565327">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:00.40Z</time>
+		</trkpt>
+		<trkpt lat="60.379640" lon="29.565884">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:02.43Z</time>
+		</trkpt>
+		<trkpt lat="60.379576" lon="29.566013">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:03.03Z</time>
+		</trkpt>
+		<trkpt lat="60.379339" lon="29.566850">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:06.21Z</time>
+		</trkpt>
+		<trkpt lat="60.379125" lon="29.567215">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:08.08Z</time>
+		</trkpt>
+		<trkpt lat="60.379082" lon="29.567558">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:09.24Z</time>
+		</trkpt>
+		<trkpt lat="60.379103" lon="29.567837">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:10.17Z</time>
+		</trkpt>
+		<trkpt lat="60.378953" lon="29.568266">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:11.91Z</time>
+		</trkpt>
+		<trkpt lat="60.378846" lon="29.568374">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:12.70Z</time>
+		</trkpt>
+		<trkpt lat="60.378760" lon="29.568760">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:14.10Z</time>
+		</trkpt>
+		<trkpt lat="60.378610" lon="29.569103">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:15.61Z</time>
+		</trkpt>
+		<trkpt lat="60.378610" lon="29.569468">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:16.81Z</time>
+		</trkpt>
+		<trkpt lat="60.378760" lon="29.571099">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:22.28Z</time>
+		</trkpt>
+		<trkpt lat="60.378696" lon="29.571871">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:24.86Z</time>
+		</trkpt>
+		<trkpt lat="60.378481" lon="29.573330">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:29.87Z</time>
+		</trkpt>
+		<trkpt lat="60.378417" lon="29.574274">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:33.01Z</time>
+		</trkpt>
+		<trkpt lat="60.377945" lon="29.576613">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:41.34Z</time>
+		</trkpt>
+		<trkpt lat="60.377816" lon="29.577686">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:44.98Z</time>
+		</trkpt>
+		<trkpt lat="60.377923" lon="29.577729">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:45.70Z</time>
+		</trkpt>
+		<trkpt lat="60.378417" lon="29.577708">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:49Z</time>
+		</trkpt>
+		<trkpt lat="60.378975" lon="29.577793">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:52.73Z</time>
+		</trkpt>
+		<trkpt lat="60.379275" lon="29.577922">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:52:54.77Z</time>
+		</trkpt>
+		<trkpt lat="60.380090" lon="29.577901">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:00.21Z</time>
+		</trkpt>
+		<trkpt lat="60.380434" lon="29.577836">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:02.51Z</time>
+		</trkpt>
+		<trkpt lat="60.380605" lon="29.577493">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:04.11Z</time>
+		</trkpt>
+		<trkpt lat="60.380949" lon="29.576570">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:07.92Z</time>
+		</trkpt>
+		<trkpt lat="60.381271" lon="29.575347">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:12.49Z</time>
+		</trkpt>
+		<trkpt lat="60.381335" lon="29.574768">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:14.44Z</time>
+		</trkpt>
+		<trkpt lat="60.381507" lon="29.574532">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:15.83Z</time>
+		</trkpt>
+		<trkpt lat="60.381764" lon="29.574360">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:17.63Z</time>
+		</trkpt>
+		<trkpt lat="60.382451" lon="29.573716">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:22.68Z</time>
+		</trkpt>
+		<trkpt lat="60.383073" lon="29.572837">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:27.74Z</time>
+		</trkpt>
+		<trkpt lat="60.383159" lon="29.572257">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:29.73Z</time>
+		</trkpt>
+		<trkpt lat="60.383459" lon="29.571249">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:33.61Z</time>
+		</trkpt>
+		<trkpt lat="60.383545" lon="29.570305">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:36.77Z</time>
+		</trkpt>
+		<trkpt lat="60.383524" lon="29.570090">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:37.50Z</time>
+		</trkpt>
+		<trkpt lat="60.383631" lon="29.568223">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:43.69Z</time>
+		</trkpt>
+		<trkpt lat="60.383760" lon="29.567859">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:45.16Z</time>
+		</trkpt>
+		<trkpt lat="60.383803" lon="29.567451">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:46.54Z</time>
+		</trkpt>
+		<trkpt lat="60.384039" lon="29.566721">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:49.41Z</time>
+		</trkpt>
+		<trkpt lat="60.384082" lon="29.566292">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:50.85Z</time>
+		</trkpt>
+		<trkpt lat="60.384275" lon="29.565842">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:52.82Z</time>
+		</trkpt>
+		<trkpt lat="60.384532" lon="29.565434">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:54.99Z</time>
+		</trkpt>
+		<trkpt lat="60.384961" lon="29.565091">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:53:58.07Z</time>
+		</trkpt>
+		<trkpt lat="60.385305" lon="29.565391">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:00.57Z</time>
+		</trkpt>
+		<trkpt lat="60.385627" lon="29.565605">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:02.83Z</time>
+		</trkpt>
+		<trkpt lat="60.385777" lon="29.565648">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:03.84Z</time>
+		</trkpt>
+		<trkpt lat="60.385777" lon="29.565992">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:04.97Z</time>
+		</trkpt>
+		<trkpt lat="60.385519" lon="29.567022">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:08.77Z</time>
+		</trkpt>
+		<trkpt lat="60.385476" lon="29.567537">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:10.49Z</time>
+		</trkpt>
+		<trkpt lat="60.385283" lon="29.568223">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:13.10Z</time>
+		</trkpt>
+		<trkpt lat="60.385047" lon="29.569404">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:17.29Z</time>
+		</trkpt>
+		<trkpt lat="60.384768" lon="29.570970">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:22.78Z</time>
+		</trkpt>
+		<trkpt lat="60.384682" lon="29.571785">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:25.52Z</time>
+		</trkpt>
+		<trkpt lat="60.384940" lon="29.572257">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:27.84Z</time>
+		</trkpt>
+		<trkpt lat="60.385069" lon="29.572365">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:28.77Z</time>
+		</trkpt>
+		<trkpt lat="60.385269" lon="29.572422">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:29.93Z</time>
+		</trkpt>
+		<trkpt lat="60.385697" lon="29.572098">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:31.28Z</time>
+		</trkpt>
+		<trkpt lat="60.385871" lon="29.571583">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:32.85Z</time>
+		</trkpt>
+		<trkpt lat="60.386232" lon="29.571908">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:33.92Z</time>
+		</trkpt>
+		<trkpt lat="60.386580" lon="29.572449">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:36.71Z</time>
+		</trkpt>
+		<trkpt lat="60.387032" lon="29.572437">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:39.25Z</time>
+		</trkpt>
+		<trkpt lat="60.387350" lon="29.572115">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:40.80Z</time>
+		</trkpt>
+		<trkpt lat="60.387700" lon="29.571633">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:42.40Z</time>
+		</trkpt>
+		<trkpt lat="60.388034" lon="29.571021">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:46.28Z</time>
+		</trkpt>
+		<trkpt lat="60.388062" lon="29.570675">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:47.12Z</time>
+		</trkpt>
+		<trkpt lat="60.388285" lon="29.570449">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:47.99Z</time>
+		</trkpt>
+		<trkpt lat="60.388491" lon="29.569982">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:48.66Z</time>
+		</trkpt>
+		<trkpt lat="60.389000" lon="29.570111">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:49.57Z</time>
+		</trkpt>
+		<trkpt lat="60.389319" lon="29.570433">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:50.23Z</time>
+		</trkpt>
+		<trkpt lat="60.389621" lon="29.571045">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:51.01Z</time>
+		</trkpt>
+		<trkpt lat="60.389844" lon="29.571673">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:53.91Z</time>
+		</trkpt>
+		<trkpt lat="60.389971" lon="29.572139">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:56.06Z</time>
+		</trkpt>
+		<trkpt lat="60.390114" lon="29.572832">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:57.53Z</time>
+		</trkpt>
+		<trkpt lat="60.390281" lon="29.573717">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:58.94Z</time>
+		</trkpt>
+		<trkpt lat="60.390233" lon="29.574296">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:54:59.15Z</time>
+		</trkpt>
+		<trkpt lat="60.390027" lon="29.574828">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:03.40Z</time>
+		</trkpt>
+		<trkpt lat="60.390082" lon="29.575246">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:05.65Z</time>
+		</trkpt>
+		<trkpt lat="60.390103" lon="29.575173">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:09.26Z</time>
+		</trkpt>
+		<trkpt lat="60.390186" lon="29.575520">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:15.56Z</time>
+		</trkpt>
+		<trkpt lat="60.390412" lon="29.575455">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:18.14Z</time>
+		</trkpt>
+		<trkpt lat="60.390948" lon="29.575712">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:21.81Z</time>
+		</trkpt>
+		<trkpt lat="60.391077" lon="29.575927">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:22.93Z</time>
+		</trkpt>
+		<trkpt lat="60.391270" lon="29.576313">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:24.73Z</time>
+		</trkpt>
+		<trkpt lat="60.391828" lon="29.577836">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:30.98Z</time>
+		</trkpt>
+		<trkpt lat="60.392150" lon="29.578566">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:34.20Z</time>
+		</trkpt>
+		<trkpt lat="60.392364" lon="29.579231">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:36.82Z</time>
+		</trkpt>
+		<trkpt lat="60.392278" lon="29.579317">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:37.46Z</time>
+		</trkpt>
+		<trkpt lat="60.391978" lon="29.579489">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:39.54Z</time>
+		</trkpt>
+		<trkpt lat="60.391742" lon="29.579403">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:41.13Z</time>
+		</trkpt>
+		<trkpt lat="60.391463" lon="29.579403">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:42.99Z</time>
+		</trkpt>
+		<trkpt lat="60.390841" lon="29.579231">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:47.18Z</time>
+		</trkpt>
+		<trkpt lat="60.390605" lon="29.579253">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:48.75Z</time>
+		</trkpt>
+		<trkpt lat="60.390025" lon="29.579081">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:52.66Z</time>
+		</trkpt>
+		<trkpt lat="60.389940" lon="29.579081">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:53.23Z</time>
+		</trkpt>
+		<trkpt lat="60.389661" lon="29.579424">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:55.41Z</time>
+		</trkpt>
+		<trkpt lat="60.389403" lon="29.579467">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:57.13Z</time>
+		</trkpt>
+		<trkpt lat="60.389146" lon="29.579403">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:55:58.86Z</time>
+		</trkpt>
+		<trkpt lat="60.388910" lon="29.579446">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:00.44Z</time>
+		</trkpt>
+		<trkpt lat="60.388523" lon="29.579338">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:03.04Z</time>
+		</trkpt>
+		<trkpt lat="60.388330" lon="29.579338">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:04.33Z</time>
+		</trkpt>
+		<trkpt lat="60.388159" lon="29.579403">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:05.49Z</time>
+		</trkpt>
+		<trkpt lat="60.387729" lon="29.579274">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:08.39Z</time>
+		</trkpt>
+		<trkpt lat="60.387365" lon="29.579574">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:11.01Z</time>
+		</trkpt>
+		<trkpt lat="60.387129" lon="29.580047">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:13.22Z</time>
+		</trkpt>
+		<trkpt lat="60.387000" lon="29.580175">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:14.18Z</time>
+		</trkpt>
+		<trkpt lat="60.386807" lon="29.580111">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:15.48Z</time>
+		</trkpt>
+		<trkpt lat="60.386399" lon="29.579703">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:18.52Z</time>
+		</trkpt>
+		<trkpt lat="60.386142" lon="29.579360">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:20.57Z</time>
+		</trkpt>
+		<trkpt lat="60.385734" lon="29.578673">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:24.11Z</time>
+		</trkpt>
+		<trkpt lat="60.385562" lon="29.578544">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:25.33Z</time>
+		</trkpt>
+		<trkpt lat="60.384983" lon="29.578330">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:29.25Z</time>
+		</trkpt>
+		<trkpt lat="60.384747" lon="29.578287">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:30.83Z</time>
+		</trkpt>
+		<trkpt lat="60.384489" lon="29.578673">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:32.97Z</time>
+		</trkpt>
+		<trkpt lat="60.384403" lon="29.579124">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:34.57Z</time>
+		</trkpt>
+		<trkpt lat="60.384382" lon="29.579596">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:36.13Z</time>
+		</trkpt>
+		<trkpt lat="60.384103" lon="29.580261">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:39Z</time>
+		</trkpt>
+		<trkpt lat="60.384275" lon="29.581398">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:42.92Z</time>
+		</trkpt>
+		<trkpt lat="60.384275" lon="29.582064">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:45.11Z</time>
+		</trkpt>
+		<trkpt lat="60.384232" lon="29.582364">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:46.14Z</time>
+		</trkpt>
+		<trkpt lat="60.384275" lon="29.583802">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:50.89Z</time>
+		</trkpt>
+		<trkpt lat="60.384189" lon="29.584188">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:52.28Z</time>
+		</trkpt>
+		<trkpt lat="60.383996" lon="29.584617">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:54.19Z</time>
+		</trkpt>
+		<trkpt lat="60.383674" lon="29.584832">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:56.45Z</time>
+		</trkpt>
+		<trkpt lat="60.383459" lon="29.584896">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:56:57.90Z</time>
+		</trkpt>
+		<trkpt lat="60.383116" lon="29.584767">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:00.23Z</time>
+		</trkpt>
+		<trkpt lat="60.382751" lon="29.584789">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:02.66Z</time>
+		</trkpt>
+		<trkpt lat="60.382429" lon="29.585003">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:04.92Z</time>
+		</trkpt>
+		<trkpt lat="60.382129" lon="29.585432">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:07.37Z</time>
+		</trkpt>
+		<trkpt lat="60.381871" lon="29.585926">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:09.74Z</time>
+		</trkpt>
+		<trkpt lat="60.381550" lon="29.586012">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:11.90Z</time>
+		</trkpt>
+		<trkpt lat="60.381421" lon="29.585883">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:12.86Z</time>
+		</trkpt>
+		<trkpt lat="60.380605" lon="29.584467">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:20.02Z</time>
+		</trkpt>
+		<trkpt lat="60.380369" lon="29.584166">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:21.88Z</time>
+		</trkpt>
+		<trkpt lat="60.380048" lon="29.583437">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:25.10Z</time>
+		</trkpt>
+		<trkpt lat="60.379790" lon="29.583051">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:27.24Z</time>
+		</trkpt>
+		<trkpt lat="60.379490" lon="29.582407">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:30.16Z</time>
+		</trkpt>
+		<trkpt lat="60.379232" lon="29.582128">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:32.11Z</time>
+		</trkpt>
+		<trkpt lat="60.378953" lon="29.581677">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:34.49Z</time>
+		</trkpt>
+		<trkpt lat="60.378696" lon="29.581441">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:36.37Z</time>
+		</trkpt>
+		<trkpt lat="60.378524" lon="29.581227">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:37.72Z</time>
+		</trkpt>
+		<trkpt lat="60.378331" lon="29.580819">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:39.58Z</time>
+		</trkpt>
+		<trkpt lat="60.377923" lon="29.580154">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:43.07Z</time>
+		</trkpt>
+		<trkpt lat="60.377752" lon="29.579768">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:44.78Z</time>
+		</trkpt>
+		<trkpt lat="60.377215" lon="29.578909">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:49.34Z</time>
+		</trkpt>
+		<trkpt lat="60.377065" lon="29.578437">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:51.19Z</time>
+		</trkpt>
+		<trkpt lat="60.376850" lon="29.578094">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:53.02Z</time>
+		</trkpt>
+		<trkpt lat="60.376915" lon="29.578072">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:53.45Z</time>
+		</trkpt>
+		<trkpt lat="60.376829" lon="29.577944">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:54.17Z</time>
+		</trkpt>
+		<trkpt lat="60.376979" lon="29.577085">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:57:57.17Z</time>
+		</trkpt>
+		<trkpt lat="60.377086" lon="29.575819">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:01.40Z</time>
+		</trkpt>
+		<trkpt lat="60.377065" lon="29.575412">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:02.75Z</time>
+		</trkpt>
+		<trkpt lat="60.376979" lon="29.575111">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:03.89Z</time>
+		</trkpt>
+		<trkpt lat="60.376593" lon="29.574231">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:07.77Z</time>
+		</trkpt>
+		<trkpt lat="60.376464" lon="29.574081">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:08.76Z</time>
+		</trkpt>
+		<trkpt lat="60.376185" lon="29.573395">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:11.69Z</time>
+		</trkpt>
+		<trkpt lat="60.375863" lon="29.572043">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:16.64Z</time>
+		</trkpt>
+		<trkpt lat="60.375713" lon="29.571549">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:18.55Z</time>
+		</trkpt>
+		<trkpt lat="60.375263" lon="29.571206">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:21.75Z</time>
+		</trkpt>
+		<trkpt lat="60.375026" lon="29.570927">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:23.58Z</time>
+		</trkpt>
+		<trkpt lat="60.374898" lon="29.570562">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:25.06Z</time>
+		</trkpt>
+		<trkpt lat="60.374254" lon="29.569382">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:30.85Z</time>
+		</trkpt>
+		<trkpt lat="60.374104" lon="29.568674">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:33.39Z</time>
+		</trkpt>
+		<trkpt lat="60.374104" lon="29.567816">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:36.21Z</time>
+		</trkpt>
+		<trkpt lat="60.373932" lon="29.566979">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:39.20Z</time>
+		</trkpt>
+		<trkpt lat="60.373760" lon="29.566786">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:40.51Z</time>
+		</trkpt>
+		<trkpt lat="60.373439" lon="29.566614">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:42.73Z</time>
+		</trkpt>
+		<trkpt lat="60.373245" lon="29.565412">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:46.89Z</time>
+		</trkpt>
+		<trkpt lat="60.373224" lon="29.565069">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:48.03Z</time>
+		</trkpt>
+		<trkpt lat="60.373095" lon="29.564468">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:50.19Z</time>
+		</trkpt>
+		<trkpt lat="60.373181" lon="29.564404">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:50.80Z</time>
+		</trkpt>
+		<trkpt lat="60.373181" lon="29.564361">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:50.95Z</time>
+		</trkpt>
+		<trkpt lat="60.373074" lon="29.564168">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:51.90Z</time>
+		</trkpt>
+		<trkpt lat="60.372945" lon="29.564061">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:52.83Z</time>
+		</trkpt>
+		<trkpt lat="60.372731" lon="29.564490">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:54.84Z</time>
+		</trkpt>
+		<trkpt lat="60.372344" lon="29.564962">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:57.85Z</time>
+		</trkpt>
+		<trkpt lat="60.372344" lon="29.564833">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:58.28Z</time>
+		</trkpt>
+		<trkpt lat="60.372280" lon="29.564747">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:58.79Z</time>
+		</trkpt>
+		<trkpt lat="60.372237" lon="29.564769">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:58:59.08Z</time>
+		</trkpt>
+		<trkpt lat="60.372151" lon="29.565069">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:00.23Z</time>
+		</trkpt>
+		<trkpt lat="60.372022" lon="29.565262">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:01.30Z</time>
+		</trkpt>
+		<trkpt lat="60.371872" lon="29.565048">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:02.52Z</time>
+		</trkpt>
+		<trkpt lat="60.371872" lon="29.564854">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:03.16Z</time>
+		</trkpt>
+		<trkpt lat="60.371658" lon="29.564211">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:05.72Z</time>
+		</trkpt>
+		<trkpt lat="60.371786" lon="29.564189">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:06.57Z</time>
+		</trkpt>
+		<trkpt lat="60.372044" lon="29.563953">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:08.46Z</time>
+		</trkpt>
+		<trkpt lat="60.372108" lon="29.563567">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:09.80Z</time>
+		</trkpt>
+		<trkpt lat="60.371958" lon="29.563181">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:11.42Z</time>
+		</trkpt>
+		<trkpt lat="60.372022" lon="29.562237">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:14.56Z</time>
+		</trkpt>
+		<trkpt lat="60.371958" lon="29.561872">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:15.84Z</time>
+		</trkpt>
+		<trkpt lat="60.371701" lon="29.561829">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:17.56Z</time>
+		</trkpt>
+		<trkpt lat="60.371550" lon="29.562601">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:20.29Z</time>
+		</trkpt>
+		<trkpt lat="60.371314" lon="29.563116">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:22.61Z</time>
+		</trkpt>
+		<trkpt lat="60.371207" lon="29.562966">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:23.47Z</time>
+		</trkpt>
+		<trkpt lat="60.371100" lon="29.562408">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:25.45Z</time>
+		</trkpt>
+		<trkpt lat="60.370992" lon="29.562258">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:26.32Z</time>
+		</trkpt>
+		<trkpt lat="60.370907" lon="29.562215">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:26.90Z</time>
+		</trkpt>
+		<trkpt lat="60.370671" lon="29.562258">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:28.48Z</time>
+		</trkpt>
+		<trkpt lat="60.370241" lon="29.561958">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:31.52Z</time>
+		</trkpt>
+		<trkpt lat="60.369812" lon="29.561486">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:34.77Z</time>
+		</trkpt>
+		<trkpt lat="60.369641" lon="29.561207">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:36.24Z</time>
+		</trkpt>
+		<trkpt lat="60.369512" lon="29.560863">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:37.66Z</time>
+		</trkpt>
+		<trkpt lat="60.369512" lon="29.560541">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:38.72Z</time>
+		</trkpt>
+		<trkpt lat="60.369641" lon="29.559919">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:40.94Z</time>
+		</trkpt>
+		<trkpt lat="60.369598" lon="29.559383">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:42.73Z</time>
+		</trkpt>
+		<trkpt lat="60.369684" lon="29.558997">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:44.13Z</time>
+		</trkpt>
+		<trkpt lat="60.369898" lon="29.558718">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:45.83Z</time>
+		</trkpt>
+		<trkpt lat="60.369962" lon="29.558439">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:46.84Z</time>
+		</trkpt>
+		<trkpt lat="60.370284" lon="29.557945">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:49.53Z</time>
+		</trkpt>
+		<trkpt lat="60.370284" lon="29.557645">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:50.52Z</time>
+		</trkpt>
+		<trkpt lat="60.370177" lon="29.556872">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:53.17Z</time>
+		</trkpt>
+		<trkpt lat="60.370263" lon="29.556014">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:56.05Z</time>
+		</trkpt>
+		<trkpt lat="60.370392" lon="29.556014">
+			<ele>0.00</ele>
+			<time>1969-12-31T23:59:56.91Z</time>
+		</trkpt>
+		<trkpt lat="60.370928" lon="29.556465">
+			<ele>0.00</ele>
+			<time>1970-01-01T00:00:00.78Z</time>
+		</trkpt>
+		<trkpt lat="60.370928" lon="29.556529">
+			<ele>0.00</ele>
+			<time>1970-01-01T00:00:01Z</time>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#fbaf00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>

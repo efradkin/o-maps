@@ -343,5 +343,15 @@ let starts = {
         name: '<a href="https://o-nw.ru/rlt">RLTrail</a>',
         logo: 'rlt.webp'
     },
+    GOODTRAIL: {
+        short: 'Good Trail',
+        name: '<a href="https://goodtrail.ru">Хороший трейл</a>',
+        logo: 'goodtrail.webp'
+    },
+    PUSHKINRUN: {
+        short: 'ПУШКИНРАН',
+        name: '<a href="https://pushkin-run.ru/">ПУШКИНРАН</a>',
+        logo: 'pushkinrun.webp'
+    },
 };
 
