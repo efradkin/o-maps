@@ -1113,6 +1113,124 @@ let tracks = [
         gpx: 'tracks/run/khepoyarvi_2025_omaps.gpx',
         type: ['RUN']
     },
+    {
+        name: 'Скоростная десятка',
+        year: 2025,
+        start: 'PUSHKINRUN',
+        info: 'Скоростная десятка – праздник бега для любителей и профессионалов, где каждый участник может испытать свои силы и показать максимальный результат на дистанции 10 километров. Трасса «Скоростной десятки» специально разработана для достижения высоких скоростей. Маршрут минимизирует перепады высот и сложные участки, позволяя сосредоточиться на своем темпе и технике, чтобы достичь новых рекордов!',
+        link: 'https://pushkin-run.ru/10',
+        results: 'https://results.russiarunning.com/event/SkorostnayaDesyatka/results/10km',
+        gpx: 'tracks/run/fast_ten_2025_omaps.gpx',
+        type: ['RUN']
+    },
+    {
+        name: 'Дудергоф трейл',
+        year: 2025,
+        info: 'Участникам предстоит не просто пробежать дистанцию по пересечённой местности, но даже взобраться на самую высокую точку города — гору Ореховую.',
+        link: 'https://marathonec.ru/dudergof-trejl-gid/',
+        results: 'https://reg.o-time.ru/race/25240',
+        gpx: 'tracks/run/dudergof_trail_12km_omaps.gpx',
+        start: 'KOLYUCHIE',
+        type: ['RUN']
+    },
+    {
+        name: 'Кросс в Александрино',
+        year: 2024,
+        link: 'https://vk.com/krossvaleksandrino',
+        results: 'https://reg.o-time.ru/race/24166',
+        gpx: 'tracks/run/aleksandrino_2024_omaps.gpx',
+        start: 'KOLYUCHIE',
+        type: ['RUN']
+    },
+    {
+        name: 'Дубровка, Невский берег',
+        year: 2024,
+        link: 'https://vk.com/event226343434',
+        results: 'https://reg.o-time.ru/race/24512',
+        info: 'Трасса основных дистанций пролегает по берегу Невы и сосновому лесу, включает спуски и подъемы, движение по самой кромке берега. 10-20км.',
+        gpx: {
+            'T20':'tracks/run/nevsky_bereg_t20_omaps.gpx',
+            'T10':'tracks/run/nevsky_bereg_t10_omaps.gpx'
+        },
+        start: 'KOLYUCHIE',
+        type: ['RUN']
+    },
+    {
+        name: 'Кобона, Summer fest',
+        year: 2025,
+        link: 'https://tripandrun.ru/summer',
+        results: 'https://reg.o-time.ru/race/25125',
+        info: '4-40км.',
+        gpx: {
+            'HARD':'tracks/run/kobona_borzye_trails_2025_hard_omaps.gpx',
+            'LONG':'tracks/run/kobona_borzye_trails_2025_long_omaps.gpx',
+            'MEDIUM':'tracks/run/kobona_borzye_trails_2025_medium_omaps.gpx',
+            'SHORT':'tracks/run/kobona_borzye_trails_2025_short_omaps.gpx'
+        },
+        start: 'BORZYE',
+        pics: ['run/kobona',1],
+        type: ['RUN']
+    },
+    {
+        name: 'Аэропорт Пулково',
+        year: 2025,
+        results: 'https://reg.o-time.ru/race/25529',
+        info: '3-10км.',
+        gpx: {
+            '10км':'tracks/run/pulkovo_airport_2025_10k_omaps.gpx',
+            '3км':'tracks/run/pulkovo_airport_2025_3k_omaps.gpx',
+        },
+        logo: 'pulkovo.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Токсово, Комбыт, "Бегущий кабан"',
+        year: 2023,
+        link: 'https://www.fasl.ru/contest/n501/',
+        results: 'https://reg.o-time.ru/race/23493',
+        info: 'Традиционный осенний кросс "Бегущий кабан", посвященный памяти Дмитрия Поленова. Дистанция соревнований проходит по бывшей лыжной трассе «Комбыт», протяженность круга – 5 км.',
+        gpx: 'tracks/run/beguschiy_caban_2023_omaps.gpx',
+        type: ['RUN']
+    },
+    {
+        name: 'Игора, "неМартовский заяц"',
+        year: 2024,
+        link: 'https://vk.com/nemartovskiizayaz',
+        results: 'https://myrace.info/events/889',
+        info: 'Традиционный альпинистский горный кросс.',
+        gpx: 'tracks/run/igora_nemartovsky_2024_omaps.gpx',
+        logo: 'nemartovsky.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Лемболово, "Осенний марафон"',
+        year: 2024,
+        link: 'https://vk.com/omartrail',
+        results: 'https://reg.o-time.ru/race/24596',
+        info: 'Фестиваль двигательной активности для всех любителей активного образа жизни, от спортивного клуба «Атлетико».',
+        gpx: 'tracks/run/lembolovo_autumn_marathon_2024_omaps.gpx',
+        logo: 'autumn_marathon.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'Кубок Курортного района по бегу на песке',
+        year: 2025,
+        link: 'https://vk.com/peschanie_dyuni',
+        results: 'https://reg.o-time.ru/race/25430',
+        info: 'Поистине курортное событие – соревнования по бегу на песке.',
+        gpx: 'tracks/run/kurort_cup_2025_omaps.gpx',
+        logo: 'kurort.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Колпино, Ижорская миля',
+        year: 2025,
+        link: 'https://vk.com/sokizhorets',
+        results: 'https://reg.o-time.ru/race/25512',
+        info: 'Дистанция по территории городского ПКиО и о.Чухонка.',
+        gpx: 'tracks/run/izhorska_milya_2025_omaps.gpx',
+        type: ['RUN']
+    },
     // --- ВЕЛО ---
     {
         name: 'Коскиярви МТБ марафон',

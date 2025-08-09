@@ -148,7 +148,7 @@ function buildTrackPopup(t, gpxLayer) {
 
     let trackLinkUrl = trackLink(firstTrack, false);
     let copyCick = 'onclick="copyToClipboard(\'' + trackLinkUrl + '\'); return false;"';
-    result += '<br />Поделиться <a href="' + trackLinkUrl + '">ссылкой</a> на трек: <a href="#" ' + copyCick + '><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
+    result += '<br />Поделиться <a href="' + trackLinkUrl + '">ссылкой</a> на маршрут: <a href="#" ' + copyCick + '><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
 
     // скрыть трек
     let hideCick = 'onclick="hideMap(map, \'' + firstTrack + '\'); return false;"';

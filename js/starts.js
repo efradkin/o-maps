@@ -353,5 +353,15 @@ let starts = {
         name: '<a href="https://pushkin-run.ru/">ПУШКИНРАН</a>',
         logo: 'pushkinrun.webp'
     },
+    KOLYUCHIE: {
+        short: 'Колючие старты',
+        name: '<a href="https://vk.com/krossvaleksandrino">Колючие старты</a>',
+        logo: 'kolyuchie.gif'
+    },
+    BORZYE: {
+        short: 'Borzye Trails',
+        name: '<a href="https://tripandrun.ru/borzye_trails">BORZYE TRAILS</a>',
+        logo: 'borzye_trails.gif'
+    },
 };
 
