@@ -648,6 +648,15 @@ let forestMaps = [
         zindex: 2,
     },
     {
+        name: 'Западный Котлин',
+        year: 2025,
+        url: './maps/forest/kotlin_west_2025.webp',
+        link: './original_maps/forest/kotlin_west_2025_exercise_omaps.jpg',
+        bounds: [[60.02806010175881, 29.67269897460938], [60.02563735306615, 29.69456434249878], [60.01836804112632, 29.667720794677738]],
+        author: ['RYLOV_V','SHRNN'],
+        owner: ['RYLOV_V','SHRNN']
+    },
+    {
         name: 'Парголовская лыжная трасса',
         year: 2021,
         start: 'ST',
