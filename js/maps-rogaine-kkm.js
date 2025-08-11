@@ -493,4 +493,17 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         type: ['ROGAINE'],
     },
+    {
+        name: 'Кавголово',
+        year: 2025,
+        month: 8,
+        info: 'Август, фото-рогейн.',
+        url: './maps/rogaine/kkm/kavgolovo_KKM_2025_08.webp',
+        link: ['./original_maps/rogaine/kkm/kavgolovo_KKM_2025_08_omaps.gif','./original_maps/rogaine/kkm/toksovo_KKM_2025_07_pictures.jpg'],
+        bounds: [[60.19525988091439, 30.460023880004886], [60.19461994799159, 30.550746917724613], [60.156649611462456, 30.459809303283695]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23197/',
+        start: 'VO_FOTO',
+        owner: 'RYZHOV',
+        type: ['ROGAINE'],
+    },
 ];
