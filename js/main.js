@@ -112,16 +112,17 @@ function buildTrackPopup(t, gpxLayer) {
     } else {
         pic = './logo/o-maps.webp';
     }
-    result += '<img src="' + pic + '" alt="" class="popup-logo" /><div class="popup-text"';
+    result += '<img src="' + pic + '" alt="" class="popup-logo" /><div class="popup-text">';
 
     // имя, ссылка, год и длина
+    result += '<b>';
     if (t.link) {
-        result += '<b><a href="' + t.link + '">' + t.name + '</a>';
+        result += '<a href="' + t.link + '">' + t.name + '</a>';
     } else {
-        result += '<b>' + t.name;
+        result += t.name;
     }
     if (t.year) {
-        result += ' ' + t.year + ' ';
+        result += ' ' + (t.date ? t.date + '.' : '') + t.year + ' ';
     }
     if (gpxLayer.len > 0) {
         let len = gpxLayer._humanLen(gpxLayer.len);

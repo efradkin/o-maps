@@ -1172,6 +1172,105 @@ let tracks = [
         type: ['RUN']
     },
     {
+        name: 'Староселье, Autumn fest',
+        year: 2024,
+        link: 'https://tripandrun.ru/autumn_2024',
+        results: 'https://reg.o-time.ru/race/24079',
+        info: '5-23км.',
+        gpx: 'tracks/run/staroselie_borzye_trails_2024_omaps.gpx',
+        start: 'BORZYE',
+        type: ['RUN']
+    },
+    {
+        name: 'Невский лесопарк, Усадьба Богословка, Winter fest',
+        year: 2025,
+        date: '22.02',
+        link: 'https://tripandrun.ru/winter',
+        results: 'https://reg.o-time.ru/race/25122',
+        info: '5-20км.',
+        gpx: 'tracks/run/bogoslovka_borzye_trails_2025_omaps.gpx',
+        start: 'BORZYE',
+        type: ['RUN']
+    },
+    {
+        name: 'Пасторское оз, Spring fest',
+        year: 2025,
+        date: '12.04',
+        link: 'https://tripandrun.ru/spring',
+        results: 'https://reg.o-time.ru/race/25123',
+        info: '5-20км.',
+        gpx: 'tracks/run/pastorskoe_borzye_trails_2025_omaps.gpx',
+        start: 'BORZYE',
+        type: ['RUN']
+    },
+    {
+        name: 'Петергоф, Пробег памяти Героев Ораниенбаумского плацдарма',
+        year: 2025,
+        date: '17.05',
+        link: 'https://probeg.org/event/67383/',
+        results: 'https://reg.o-time.ru/race/25361',
+        info: '5-10км.',
+        gpx: 'tracks/run/peterhof_campus_2025_omaps.gpx',
+        type: ['RUN']
+    },
+    {
+        name: 'Удельный парк, Гоголь МарафонЪ',
+        year: 2024,
+        link: 'https://probeg.org/event/57172/',
+        results: 'https://reg.o-time.ru/race/24323',
+        info: '1-63км.',
+        gpx: 'tracks/run/udelny_grifon_2024_10k_omaps.gpx',
+        start: 'GRIFON',
+        type: ['RUN']
+    },
+    {
+        name: 'Удельный парк, Sosnovka Snake',
+        year: 2024,
+        date: '15.12',
+        link: 'https://probeg.org/event/62728/',
+        results: 'https://reg.o-time.ru/race/24628',
+        info: '1-63км.',
+        gpx: 'tracks/run/sosnovka_snake_grifon_2024_10k_omaps.gpx',
+        start: 'GRIFON',
+        type: ['RUN']
+    },
+    {
+        name: 'Пискарёвский парк, «Весна Победы»',
+        year: 2024,
+        date: '4.05',
+        link: 'https://probeg.org/event/60014/',
+        results: 'https://reg.o-time.ru/race/25128',
+        info: '1-21км.',
+        gpx: 'tracks/run/piskarevka_grifon_2024_7k_omaps.gpx',
+        start: 'GRIFON',
+        type: ['RUN']
+    },
+    {
+        name: 'Парк 300-летия Петербурга, «Алые паруса»',
+        year: 2025,
+        date: '22.06',
+        link: 'https://probeg.org/event/63037/',
+        results: 'https://reg.o-time.ru/race/25134',
+        info: '1-63км.',
+        gpx: 'tracks/run/300_letiya_alye_parusa_2025_10k_omaps.gpx',
+        start: 'GRIFON',
+        type: ['RUN']
+    },
+    {
+        name: 'Боровичи, Мста трейл',
+        year: 2025,
+        link: 'https://vk.com/msta_trail',
+        results: 'https://reg.o-time.ru/race/25257',
+        info: 'На дистанциях участников будут ждать неповторимо красивые виды, интересные пейзажи, разнообразный рельеф и естественные препятствия в виде высокой травы, бродов, оврагов итд. 5-30км.',
+        gpx: {
+            'K30':'tracks/run/borovichi_msta_trail_2025_k30_omaps.gpx',
+            'K10':'tracks/run/borovichi_msta_trail_2025_k10_omaps.gpx',
+            'K5':'tracks/run/borovichi_msta_trail_2025_k5_omaps.gpx',
+        },
+        logo: 'msta.webp',
+        type: ['RUN']
+    },
+    {
         name: 'Аэропорт Пулково',
         year: 2025,
         results: 'https://reg.o-time.ru/race/25529',
@@ -1181,6 +1280,143 @@ let tracks = [
             '3км':'tracks/run/pulkovo_airport_2025_3k_omaps.gpx',
         },
         logo: 'pulkovo.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Сиверский, "Орлёнок"',
+        year: 2025,
+        date: '21.06',
+        link: 'https://vk.com/club204547779',
+        results: 'https://reg.o-time.ru/race/25465',
+        info: 'Ежегодный спортивно-патриотический фестиваль «ОРЛЁНОК, ОРЛЁНОК, ВЗЛЕТИ ВЫШЕ СОЛНЦА». Посвящается памяти юных патриотов, погибших в борьбе с фашизмом.1-8км.',
+        gpx: 'tracks/run/siversky_orlenok_2025_7k_omaps.gpx',
+        type: ['RUN']
+    },
+    {
+        name: 'Усть-Лужский железнодорожный полумарафон',
+        year: 2025,
+        link: 'https://vk.com/21kmlugaozd',
+        results: 'https://reg.o-time.ru/race/25472',
+        info: 'Единственный индустриальный полумарафон в России, проходящий на крупнейшей железнодорожной станции в Европе. 11-21км.',
+        gpx: {
+            '21км':'tracks/run/ust_luga_2024_21k_omaps.gpx'
+        },
+        logo: 'ust-luga.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'Сосново трейл',
+        year: 2025,
+        link: 'https://sportdrivecompany.ru/трейл-в-сосново-2025/',
+        results: 'https://reg.o-time.ru/race/25444',
+        info: '14-28км.',
+        gpx: {
+            '13км':'tracks/run/sosnovo_sportdrive_2025_13_omaps.gpx'
+        },
+        start: 'SPORTDRIVE',
+        type: ['RUN']
+    },
+    {
+        name: 'Петрозаводск, Karelia Swamp Ultra',
+        year: 2024,
+        link: 'https://vk.com/kareliaswampultra',
+        results: 'https://reg.o-time.ru/race/24003',
+        info: '20-50км.',
+        gpx: {
+            '50км':'tracks/run/ptz_karelia_swamp_2024_50km_omaps.gpx',
+            '20км':'tracks/run/ptz_karelia_swamp_2024_20km_omaps.gpx'
+        },
+        logo: 'karelia_swamp.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Гатчина, кросс "Граф Орлов"',
+        year: 2020,
+        link: 'https://vk.com/gatchinasport',
+        results: 'https://reg.o-time.ru/race/20158',
+        info: 'Дистанции по территории парков  Орловая Роща и Зверинец. 0.5-21км.',
+        gpx: {
+            '10км':'tracks/run/gatchina_orlov_2020_10km_omaps.gpx',
+            '5км':'tracks/run/gatchina_orlov_2020_5km_omaps.gpx'
+        },
+        logo: 'gatchina.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Новгород, NOVGOROD ICE',
+        year: 2024,
+        link: 'https://vk.com/club201939547',
+        results: 'https://reg.o-time.ru/race/24103',
+        info: 'Живописный маршрут, стартующий у стен древнего Кремля и проходящий по территории музея Витославлицы, близ Юрьевского монастыря, по берегу седого Волхова и озера Мячино. 12-19км.',
+        gpx: {
+            '19км':'tracks/run/novgorod_ice_2024_19km_omaps.gpx',
+            '12км':'tracks/run/novgorod_ice_2024_12km_omaps.gpx',
+        },
+        logo: 'novgorod_ice.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Кировск, "НЕВСКИЙ ПЯТАЧОК"',
+        year: 2024,
+        link: 'https://vk.com/nev_pyatachok_run',
+        results: 'https://reg.o-time.ru/race/24305',
+        info: '5-21км.',
+        gpx: {
+            '21км':'tracks/run/nevsky_pyatachok_2024_21km_omaps.gpx',
+            '11км':'tracks/run/nevsky_pyatachok_2024_11km_omaps.gpx',
+            '5км':'tracks/run/nevsky_pyatachok_2024_5km_omaps.gpx',
+        },
+        logo: 'nevsky_pyatachok.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'Подпорожье, Свирский рубеж',
+        year: 2025,
+        link: 'https://vk.link/svirskiyrubezh',
+        results: 'https://reg.o-time.ru/race/25243',
+        info: '1-20км.',
+        gpx: 'tracks/run/podporozhye_rubezh_2025_omaps.gpx',
+        logo: 'svirsky_rubezh.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'Молодцово, "Синявинские высоты"',
+        year: 2024,
+        link: 'https://vk.com/sin_vysoty_run',
+        results: 'https://reg.o-time.ru/race/24012',
+        info: '2-21км.',
+        gpx: 'tracks/run/sinyavinskie_heights_2024_omaps.gpx',
+        logo: 'sinyavino.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'Янино, "Человек или Лошадь"',
+        year: 2024,
+        link: 'https://vk.com/sktoksovo',
+        results: 'https://reg.o-time.ru/race/24211',
+        info: 'Бегунам предстоит доказать что они могут быть быстрее лошадей со всадниками!',
+        gpx: 'tracks/run/yanino_humans_horses_2024_omaps.gpx',
+        logo: 'sktoksovo.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Снегирёвка, St.Petersburg Backyard Ultra',
+        year: 2022,
+        link: 'https://backyardultra.ru/',
+        results: 'https://clck.ru/gMLZA',
+        info: 'ST.PETERSBURG BACKYARD ULTRA – официальная гонка мировой экосистемы BYU.',
+        gpx: 'tracks/run/snegirevka_byut_2022_omaps.gpx',
+        start: 'DIKIYE',
+        type: ['RUN']
+    },
+    {
+        name: 'Борницкий карьер, St.Petersburg Backyard Ultra',
+        year: 2025,
+        link: 'https://backyardultra.ru/',
+        results: 'https://reg.o-time.ru/race/25285',
+        info: 'ST.PETERSBURG BACKYARD ULTRA – официальная гонка мировой экосистемы BYU.',
+        gpx: 'tracks/run/bornitsky_byut_2025_omaps.gpx',
+        start: 'DIKIYE',
         type: ['RUN']
     },
     {

@@ -363,5 +363,20 @@ let starts = {
         name: '<a href="https://tripandrun.ru/borzye_trails">BORZYE TRAILS</a>',
         logo: 'borzye_trails.gif'
     },
+    SPORTDRIVE: {
+        short: 'SPORT DRIVE',
+        name: '<a href="https://vk.com/public207072134">SPORT DRIVE</a>',
+        logo: 'sport_drive.gif'
+    },
+    DIKIYE: {
+        short: 'Дикие',
+        name: '<a href="https://dikiye.ru/trails/">Дикие</a>',
+        logo: 'dikiye.gif'
+    },
+    GRIFON: {
+        short: 'GRIFON RUN',
+        name: '<a href="https://vk.com/grifon_run">GRIFON RUN</a>',
+        logo: 'grifon.webp'
+    },
 };
 
