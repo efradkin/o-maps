@@ -353,6 +353,11 @@ let starts = {
         name: '<a href="https://pushkin-run.ru/">ПУШКИНРАН</a>',
         logo: 'pushkinrun.webp'
     },
+    GATCHINA: {
+        short: 'Гатчина',
+        name: '<a href="https://vk.com/gatchinasport">Гатчина</a>',
+        logo: 'gatchina.gif',
+    },
     KOLYUCHIE: {
         short: 'Колючие старты',
         name: '<a href="https://vk.com/krossvaleksandrino">Колючие старты</a>',
@@ -377,6 +382,11 @@ let starts = {
         short: 'GRIFON RUN',
         name: '<a href="https://vk.com/grifon_run">GRIFON RUN</a>',
         logo: 'grifon.webp'
+    },
+    GPSART: {
+        short: 'GPSарт',
+        name: '<a href="https://gpsart.ru/">GPSарт</a>',
+        logo: 'gpsart.gif'
     },
 };
 

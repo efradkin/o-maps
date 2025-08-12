@@ -354,6 +354,104 @@ let tracks = [
         info: 'Профиль Пушкина - Новогодняя пробежка в Пушкине.',
         link: 'https://hike.ru/pushkin_track.html',
         gpx: 'tracks/run/pushkin_profile_omaps.gpx',
+        type: ['RUN','WALK']
+    },
+    {
+        name: 'Пёс',
+        year: 2022,
+        gpx: 'tracks/gpsart_dog_12km_220312.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Летучая мышь',
+        year: 2022,
+        gpx: 'tracks/gpsart_bat_11km_220330.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Пиранья',
+        year: 2022,
+        gpx: 'tracks/gpsart_piranha_10km_220921.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Кролик',
+        year: 2022,
+        gpx: 'tracks/gpsart_rabbit_17km_221012.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Ведьма',
+        year: 2022,
+        gpx: 'tracks/gpsart_witch_17km_220427.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Всадник',
+        year: 2022,
+        gpx: 'tracks/gpsart_horseman_10km_220720.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Паровоз',
+        year: 2022,
+        gpx: 'tracks/gpsart_locomotive_10km_220824.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Такса',
+        year: 2023,
+        gpx: 'tracks/gpsart_dachshund_19km_230405.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Судно',
+        year: 2023,
+        gpx: 'tracks/gpsart_vessel_8km_230621.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Мышь',
+        year: 2023,
+        gpx: 'tracks/gpsart_mouse_13km_231025.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Собака',
+        year: 2024,
+        gpx: 'tracks/gpsart_dog_17km_240320.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Скуби-Ду',
+        year: 2024,
+        gpx: 'tracks/gpsart_piglet_12km_240904.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Цветок',
+        year: 2025,
+        gpx: 'tracks/gpsart_flower_21km_250305.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Волк',
+        year: 2025,
+        gpx: 'tracks/gpsart_wolf_16km_250312.gpx',
+        start: 'GPSART',
         type: ['WALK','RUN']
     },
     // --- ЛЫЖИ ---
@@ -955,12 +1053,24 @@ let tracks = [
         type: ['RUN']
     },
     {
-        name: 'Первомайское, Hard Trail | SNOW',
+        name: 'Суоранда, Hard Trail | SNOW',
         year: 2025,
+        date: '12.01',
         link: 'https://hardadventure.ru/snow2025',
         results: 'https://reg.o-time.ru/race/25021',
         info: 'Вас ждёт короткий, но физически сложный трейл по снежным горкам.',
         gpx: 'tracks/run/suoranda_hardadventure_snow_2025_omaps.gpx',
+        start: 'HARD',
+        type: ['RUN']
+    },
+    {
+        name: 'Суоранда, Hard Trail | NIGHT',
+        year: 2024,
+        date: '26.10',
+        link: 'https://hardadventure.ru/night2024',
+        results: 'https://reg.o-time.ru/race/24055',
+        info: 'Ночной трейл с фонариками в канун Хэллоуина! 7-13км.',
+        gpx: 'tracks/run/toksovo_hardadventure_night_2024_omaps.gpx',
         start: 'HARD',
         type: ['RUN']
     },
@@ -1143,6 +1253,17 @@ let tracks = [
         type: ['RUN']
     },
     {
+        name: 'Полежаевский парк, Кировский Полумарафон',
+        year: 2025,
+        date: '20.07',
+        link: 'https://kolyuchiestarty.ru/turnir',
+        results: 'https://reg.o-time.ru/race/25286',
+        info: '7-42км',
+        gpx: 'tracks/run/polezhaevsky_kirovsky_2025_omaps.gpx',
+        start: 'KOLYUCHIE',
+        type: ['RUN']
+    },
+    {
         name: 'Дубровка, Невский берег',
         year: 2024,
         link: 'https://vk.com/event226343434',
@@ -1288,8 +1409,81 @@ let tracks = [
         date: '21.06',
         link: 'https://vk.com/club204547779',
         results: 'https://reg.o-time.ru/race/25465',
-        info: 'Ежегодный спортивно-патриотический фестиваль «ОРЛЁНОК, ОРЛЁНОК, ВЗЛЕТИ ВЫШЕ СОЛНЦА». Посвящается памяти юных патриотов, погибших в борьбе с фашизмом.1-8км.',
+        info: 'Ежегодный спортивно-патриотический фестиваль «ОРЛЁНОК, ОРЛЁНОК, ВЗЛЕТИ ВЫШЕ СОЛНЦА». Посвящается памяти юных патриотов, погибших в борьбе с фашизмом. 1-8км.',
         gpx: 'tracks/run/siversky_orlenok_2025_7k_omaps.gpx',
+        type: ['RUN']
+    },
+    {
+        name: 'Сосновый Бор, Атомный ЗаБег',
+        year: 2023,
+        date: '23.09',
+        link: 'https://vk.com/atomrunning',
+        results: 'https://reg.o-time.ru/race/23465',
+        info: 'Первый крупный забег в Сосновом Бору. Трасса проходит по новой велодорожке вдоль южного берега Финского залива, по сосновому лесу и песочным дюнам. Это уникальная возможность увидеть природу и крупнейшее предприятие атомный энергетики России Ленинградскую атомную станцию. 3-10км.',
+        gpx: 'tracks/run/sosnovy_bor_atomny_2023_10k_omaps.gpx',
+        logo: 'atomny.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Шунгеровский заказник, Кубок Шунгеровского заповедника',
+        year: 2025,
+        date: '16.03',
+        link: 'https://probeg.org/race/162236/',
+        results: 'https://reg.o-time.ru/race/25249',
+        gpx: 'tracks/run/shungerovsky_2025_omaps.gpx',
+        logo: 'shungerovsky.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'Шунгеровский заказник, Кубок Шунгеровского заповедника',
+        year: 2024,
+        date: '15.06',
+        link: 'https://probeg.org/event/60608/',
+        results: 'https://reg.o-time.ru/race/24445',
+        gpx: 'tracks/run/shungerovsky_2024_omaps.gpx',
+        logo: 'shungerovsky.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'Крестовский о-в, Зелёный Марафон',
+        year: 2024,
+        date: '1.06',
+        link: 'https://probeg.org/event/57775/',
+        results: 'https://reg.o-time.ru/race/24458',
+        info: '4-10км.',
+        gpx: 'tracks/run/krestovsky_green_2024_omaps.gpx',
+        type: ['RUN']
+    },
+    {
+        name: 'Зеленогорск, Кросс нации',
+        year: 2024,
+        date: '14.09',
+        link: 'https://vk.com/kross_nacij_v_spb',
+        results: 'https://reg.o-time.ru/race/24547',
+        info: '5-9км.',
+        gpx: 'tracks/run/zelenogorsk_nation_2024_9km_omaps.gpx',
+        type: ['RUN']
+    },
+    {
+        name: 'Зеленогорский осенний кросс',
+        year: 2017,
+        date: '7.10',
+        link: 'https://probeg.org/event/17550/',
+        results: 'https://probeg.org/dj_media/uploads/171007_Pr_Zelenogorskiy_osenni_Zelenogorsk_3835.xls',
+        info: '8-16км.',
+        gpx: 'tracks/run/zelenogorsk_autumn_2017_16km_omaps.gpx',
+        logo: 'zelenogorsk.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'Луга, Шалово, TheOSTROV TRAIL',
+        year: 2019,
+        date: '27.04',
+        link: 'https://probeg.org/event/26316/',
+        results: 'https://reg.o-time.ru/race/19071',
+        info: '1-25км.',
+        gpx: 'tracks/run/shalovo_theostrov_2019_25k_omaps.gpx',
+        logo: 'theostrov.webp',
         type: ['RUN']
     },
     {
@@ -1332,14 +1526,30 @@ let tracks = [
     {
         name: 'Гатчина, кросс "Граф Орлов"',
         year: 2020,
-        link: 'https://vk.com/gatchinasport',
+        date: '27.09',
+        link: 'https://probeg.org/event/31917/',
         results: 'https://reg.o-time.ru/race/20158',
         info: 'Дистанции по территории парков  Орловая Роща и Зверинец. 0.5-21км.',
         gpx: {
             '10км':'tracks/run/gatchina_orlov_2020_10km_omaps.gpx',
             '5км':'tracks/run/gatchina_orlov_2020_5km_omaps.gpx'
         },
-        logo: 'gatchina.gif',
+        start: 'GATCHINA',
+        type: ['RUN']
+    },
+    {
+        name: 'Гатчинский полумарафон',
+        year: 2024,
+        date: '10.11',
+        link: 'https://gatchinahalf.ru',
+        results: 'https://reg.o-time.ru/race/24303',
+        info: '2-21км.',
+        gpx: {
+            '21км':'tracks/run/gatchina_half_2024_21km_omaps.gpx',
+            '10км':'tracks/run/gatchina_half_2024_10km_omaps.gpx',
+            '2км':'tracks/run/gatchina_half_2024_2km_omaps.gpx'
+        },
+        start: 'GATCHINA',
         type: ['RUN']
     },
     {
@@ -1377,6 +1587,17 @@ let tracks = [
         info: '1-20км.',
         gpx: 'tracks/run/podporozhye_rubezh_2025_omaps.gpx',
         logo: 'svirsky_rubezh.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'ул Чекистов, Пробег, посвящённый Дню народного единства',
+        year: 2024,
+        date: '3.11',
+        link: 'https://probeg.org/event/62529/',
+        results: 'https://vk.com/wall-12235248_16215',
+        info: '2.5-7км.',
+        gpx: 'tracks/run/krasnoselsky_unity_day_2024_omaps.gpx',
+        logo: 'krasnoselsky.gif',
         type: ['RUN']
     },
     {

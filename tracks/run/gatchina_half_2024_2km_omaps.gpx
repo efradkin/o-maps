@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="www.plotaroute.com" version="1.1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+<desc>Route created on plotaroute.com</desc>
+</metadata>
+<trk>
+<name>gatchina_half_2024_2km_omaps</name>
+<trkseg>
+<trkpt lat="59.5663848" lon="30.1225453">
+<ele>94</ele>
+<time>2025-08-12T00:00:00Z</time></trkpt>
+<trkpt lat="59.5667593" lon="30.1206408">
+<ele>94</ele>
+<time>2025-08-12T00:00:41Z</time></trkpt>
+<trkpt lat="59.5667804" lon="30.1205988">
+<ele>94</ele>
+<time>2025-08-12T00:00:43Z</time></trkpt>
+<trkpt lat="59.5668354" lon="30.1206311">
+<ele>94</ele>
+<time>2025-08-12T00:00:45Z</time></trkpt>
+<trkpt lat="59.5679462" lon="30.1215144">
+<ele>93</ele>
+<time>2025-08-12T00:01:33Z</time></trkpt>
+<trkpt lat="59.5691143" lon="30.1224085">
+<ele>95</ele>
+<time>2025-08-12T00:02:23Z</time></trkpt>
+<trkpt lat="59.5700436" lon="30.1231571">
+<ele>96</ele>
+<time>2025-08-12T00:03:03Z</time></trkpt>
+<trkpt lat="59.5711321" lon="30.1240856">
+<ele>96</ele>
+<time>2025-08-12T00:03:51Z</time></trkpt>
+<trkpt lat="59.5719935" lon="30.1249754">
+<ele>97</ele>
+<time>2025-08-12T00:04:30Z</time></trkpt>
+<trkpt lat="59.5728373" lon="30.1258404">
+<ele>96</ele>
+<time>2025-08-12T00:05:08Z</time></trkpt>
+<trkpt lat="59.5734131" lon="30.1264813">
+<ele>97</ele>
+<time>2025-08-12T00:05:34Z</time></trkpt>
+<trkpt lat="59.5738203" lon="30.1269337">
+<ele>95</ele>
+<time>2025-08-12T00:05:53Z</time></trkpt>
+<trkpt lat="59.5739315" lon="30.1271405">
+<ele>96</ele>
+<time>2025-08-12T00:05:59Z</time></trkpt>
+<trkpt lat="59.5739467" lon="30.1271093">
+<ele>95</ele>
+<time>2025-08-12T00:06:00Z</time></trkpt>
+<trkpt lat="59.5739561" lon="30.1270522">
+<ele>95</ele>
+<time>2025-08-12T00:06:01Z</time></trkpt>
+<trkpt lat="59.5738554" lon="30.1268346">
+<ele>95</ele>
+<time>2025-08-12T00:06:07Z</time></trkpt>
+<trkpt lat="59.573227" lon="30.1261334">
+<ele>96</ele>
+<time>2025-08-12T00:06:36Z</time></trkpt>
+<trkpt lat="59.5725576" lon="30.1254235">
+<ele>96</ele>
+<time>2025-08-12T00:07:07Z</time></trkpt>
+<trkpt lat="59.5719689" lon="30.1248084">
+<ele>97</ele>
+<time>2025-08-12T00:07:33Z</time></trkpt>
+<trkpt lat="59.5712538" lon="30.1240727">
+<ele>96</ele>
+<time>2025-08-12T00:08:06Z</time></trkpt>
+<trkpt lat="59.5707494" lon="30.1236138">
+<ele>95</ele>
+<time>2025-08-12T00:08:28Z</time></trkpt>
+<trkpt lat="59.5700179" lon="30.1229988">
+<ele>96</ele>
+<time>2025-08-12T00:09:00Z</time></trkpt>
+<trkpt lat="59.5692747" lon="30.1224225">
+<ele>95</ele>
+<time>2025-08-12T00:09:32Z</time></trkpt>
+<trkpt lat="59.5684799" lon="30.1217934">
+<ele>93</ele>
+<time>2025-08-12T00:10:06Z</time></trkpt>
+<trkpt lat="59.5677542" lon="30.1212247">
+<ele>93</ele>
+<time>2025-08-12T00:10:37Z</time></trkpt>
+<trkpt lat="59.567258" lon="30.1208401">
+<ele>93</ele>
+<time>2025-08-12T00:10:59Z</time></trkpt>
+<trkpt lat="59.5668916" lon="30.1205407">
+<ele>94</ele>
+<time>2025-08-12T00:11:15Z</time></trkpt>
+<trkpt lat="59.5667862" lon="30.1204663">
+<ele>94</ele>
+<time>2025-08-12T00:11:19Z</time></trkpt>
+<trkpt lat="59.5667406" lon="30.1204793">
+<ele>94</ele>
+<time>2025-08-12T00:11:21Z</time></trkpt>
+<trkpt lat="59.566359" lon="30.122499">
+<ele>94</ele>
+<time>2025-08-12T00:12:05Z</time></trkpt>
+</trkseg>
+</trk>
+</gpx>
