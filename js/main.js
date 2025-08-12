@@ -68,6 +68,9 @@ if (!ONLY_MAP_NAME_PARAM && !ONLY_TRACK_NAME_PARAM) {
 async function loadTracks() {
     try {
         for (const t of tracks) {
+            if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
+                continue;
+            }
             let firstTrack = getFirstTrack(t);
             if (ONLY_TRACK_NAME_PARAM && !firstTrack.includes(ONLY_TRACK_NAME_PARAM)) {
                 continue;
