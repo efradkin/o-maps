@@ -378,6 +378,13 @@ let tracks = [
         type: ['WALK','RUN']
     },
     {
+        name: 'Слон',
+        year: 2022,
+        gpx: 'tracks/gpsart_elephant_10km_220928.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
         name: 'Кролик',
         year: 2022,
         gpx: 'tracks/gpsart_rabbit_17km_221012.gpx',
@@ -430,6 +437,13 @@ let tracks = [
         name: 'Собака',
         year: 2024,
         gpx: 'tracks/gpsart_dog_17km_240320.gpx',
+        start: 'GPSART',
+        type: ['WALK','RUN']
+    },
+    {
+        name: 'Акула',
+        year: 2024,
+        gpx: 'tracks/gpsart_shark_12km_240403.gpx',
         start: 'GPSART',
         type: ['WALK','RUN']
     },
