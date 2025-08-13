@@ -66,8 +66,8 @@ if (!ONLY_MAP_NAME_PARAM && !ONLY_TRACK_NAME_PARAM) {
 }
 
 async function loadTracks() {
-    try {
-        for (const t of tracks) {
+    for (const t of tracks) {
+        try {
             if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
                 continue;
             }
@@ -87,9 +87,9 @@ async function loadTracks() {
             var popup_text = buildTrackPopup(t, gpx);
             gpx.bindPopup(popup_text, {maxWidth: 500});
             gpx.addTo(tracksGroup);
+        } catch (e) {
+            console.log('Error loading track', t, e);
         }
-    } catch (e) {
-        //console.log(e);
     }
 }
 
