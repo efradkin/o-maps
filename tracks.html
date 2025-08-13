@@ -76,6 +76,7 @@
             <tr>
                 <th>&nbsp</th>
                 <th>Название</th>
+                <th>Дата</th>
                 <th>Инфо</th>
                 <th>Длина</th>
                 <th>GPX</th>
@@ -153,6 +154,7 @@
                 const row = document.createElement('tr');
                 td(t, row, counter++);
                 td(t, row, buildName(t));
+                td(t, row, buildDate(t));
                 td(t, row, buildInfo(t));
                 td(t, row, buildLength(t));
                 td(t, row, buildTrackDownloadLinks(t));
@@ -205,6 +207,14 @@
             let result = '';
             result += '<b><a href="' + trackLink(getFirstTrack(t), true) + '">' + t.name + '<a/></b>';
             return result;
+        }
+
+        function buildDate(t) {
+            if (t.year) {
+                return (t.date ? t.date + '.' : '') + t.year;
+            } else {
+                return '';
+            }
         }
 
         function buildInfo(t) {

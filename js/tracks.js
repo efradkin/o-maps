@@ -958,6 +958,7 @@ let tracks = [
     {
         name: 'Орехово трейл',
         year: 2025,
+        date: '8.06',
         link: 'https://atrails.ru/orehovo/',
         results: 'https://reg.o-time.ru/race/25202',
         info: 'Старейший трейл Ленинградской области! 4-22км.',
@@ -972,6 +973,7 @@ let tracks = [
     {
         name: 'Петяярви трейл',
         year: 2025,
+        date: '3.05',
         link: 'https://atrails.ru/petyajarvi/',
         results: 'https://reg.o-time.ru/race/25201',
         info: 'Всё самое интересное гряды Вярямянселькя: крутые подъемы, спуски, камни, корни, бурная речка Волчья, старая финская ГЭС. Один из самых сложных и живописных трейлов в ЛО. 5-22км.',
@@ -986,8 +988,9 @@ let tracks = [
     {
         name: 'Золотая долина ультра трейл',
         year: 2023,
+        date: '7.10',
         link: 'https://atrails.ru/zoldol/',
-        results: 'https://reg.o-time.ru/start.php?event=23186',
+        results: 'https://reg.o-time.ru/race/23186',
         info: 'Ультрамарафон в окрестностях горнолыжного курорта «Золотая долина» в посёлке Коробицыно. 4-51км.',
         gpx: {
             'ULTRA, 51km':'tracks/run/zoldol_atrails_2023_ultra_omaps.gpx',
@@ -1001,6 +1004,7 @@ let tracks = [
     {
         name: 'Мичуринское, Хампаала трейл',
         year: 2024,
+        date: '11.08',
         link: 'https://atrails.ru/hampaala/',
         results: 'https://reg.o-time.ru/race/24223',
         info: 'Трейл по болотам и горочкам в окрестностях Мичуринского. 6-19км.',
@@ -1015,6 +1019,7 @@ let tracks = [
     {
         name: 'Цвелодубово трейл',
         year: 2022,
+        date: '10.05',
         link: 'https://atrails.ru/tsvelotrail/',
         results: 'https://reg.o-time.ru/race/22171',
         info: 'Трейл по сухим еловым и сосновым лесам. 5-21км.',
@@ -1029,6 +1034,7 @@ let tracks = [
     {
         name: 'Hero League Trail',
         year: 2022,
+        date: '2.07',
         link: 'https://heroleague.ru/trail',
         results: 'https://www.sports.ru/health/1110227213-rezultaty-hero-league-trail-2022.html',
         gpx: {
@@ -1040,6 +1046,7 @@ let tracks = [
     {
         name: 'Ястребиное оз, Hard Trail | ROCK',
         year: 2025,
+        date: '31.05',
         link: 'https://hardadventure.ru/rock2025',
         results: 'https://reg.o-time.ru/race/25024',
         info: 'Скандинавский скальный трейл на границе Ленинградской области и Карелии. Самый красивый этап по мнению дизайнера трасс. В этом году дистанции перепланированы так, что каждый метр дистанций пройдет по самым живописным тропинкам и знаковым местам заказника! 6-20км.',
@@ -1055,6 +1062,7 @@ let tracks = [
     {
         name: 'Первомайское, Hard Trail | MUD',
         year: 2025,
+        date: '1.05',
         link: 'https://hardadventure.ru/mud2025',
         results: 'https://reg.o-time.ru/race/25023',
         info: 'Добавили рельефа, болот и чуточку грязи, - и вышла настоящая конфетка! 5-12км.',
@@ -1091,6 +1099,7 @@ let tracks = [
     {
         name: 'Первомайское, Hard Trail | SAND',
         year: 2024,
+        date: '6.10',
         link: 'https://hardadventure.ru/autumn2024',
         results: 'https://reg.o-time.ru/race/24054',
         info: 'Вас ждут песчаные склоны карьера, насыщенная пересеченка и разнообразное покрытие на протяжении всей дистанции. А виды на дистанциях в обрамлении Золотой Осени заслуживают отдельного внимания! 7-30км.',
@@ -1105,6 +1114,7 @@ let tracks = [
     {
         name: 'Орехово, Hard Trail',
         year: 2024,
+        date: '28.04',
         link: 'https://hardadventure.ru/chspb24',
         results: 'https://reg.o-time.ru/race/24349',
         info: 'Вас ждет скоростная и насыщенная дистанция, которая сочетает в себе всё лучшее от этой местности: захватывающие спуски и подъемы, чистый сосновый лес, болота, ручьи и прочие прелести весеннего леса.',
@@ -1115,6 +1125,7 @@ let tracks = [
     {
         name: 'Моторное (Воробьёво оз), Hard Trail | FEST',
         year: 2024,
+        date: '1.06',
         link: 'https://hardadventure.ru/summer2024',
         results: 'https://reg.o-time.ru/race/24052',
         info: 'Удлиненные дистанции трейла по классической и многими любимой местности Карельского перешейка. Чистый сосновый лес в сочетании с бродами, болотами, подъемами и буреломами. 8-50км.',
@@ -1129,6 +1140,7 @@ let tracks = [
     {
         name: 'Красный холм, Царь скалы',
         year: 2022,
+        date: '11.06',
         link: 'https://o-nw.ru/rlt-rock',
         results: 'https://reg.o-time.ru/race/22183',
         info: 'Грунт, скалы, болота, крутые склоны и техничные спуски, что ещё нужно для лучшего отдыха?! 7-22км.',
@@ -1143,6 +1155,7 @@ let tracks = [
     {
         name: 'Каменногорск, Скальный трейл',
         year: 2024,
+        date: '15.06',
         link: 'https://o-nw.ru/rlt-rock',
         results: 'https://reg.o-time.ru/race/24088',
         info: 'Грунт, скалы, болота, крутые склоны и техничные спуски, что ещё нужно для лучшего отдыха?! 5-33км.',
@@ -1158,6 +1171,7 @@ let tracks = [
     {
         name: 'Пруды, Скальный трейл',
         year: 2025,
+        date: '14.06',
         link: 'https://o-nw.ru/rlt-rock',
         results: 'https://reg.o-time.ru/race/25158',
         info: 'Грунт, скалы, болота, крутые склоны и техничные спуски, что ещё нужно для лучшего отдыха?! 5-30км.',
@@ -1173,6 +1187,7 @@ let tracks = [
     {
         name: 'Яппиля, Весенний трейл',
         year: 2025,
+        date: '26.04',
         link: 'https://o-nw.ru/rlt-spring',
         results: 'https://reg.o-time.ru/race/25157',
         info: 'Индивидуальная дистанция (М) в рамках эстафетных соревнований.',
@@ -1185,6 +1200,7 @@ let tracks = [
     {
         name: 'Банное оз, ВьюнОк трейл',
         year: 2024,
+        date: '20.10',
         link: 'https://goodtrail.ru/24_vyunok.html',
         results: 'https://goodtrail.ru/24_vyunok.html',
         gpx: {
@@ -1200,6 +1216,7 @@ let tracks = [
     {
         name: 'Мишкино трейл',
         year: 2025,
+        date: '9.08',
         link: 'https://goodtrail.ru/25_mishkino.html',
         results: 'https://goodtrail.ru/25_mishkino.html',
         info: 'Все беговые дистанции в один круг. 8-22км.',
@@ -1215,6 +1232,7 @@ let tracks = [
     {
         name: 'Павловский забег',
         year: 2024,
+        date: '6.10',
         link: 'https://pushkin-run.ru/pavlovskautumn2025',
         results: 'https://reg.russiarunning.com/event/OsenniyPavlovskiyzabeg2024',
         info: 'Регулярный осенний и зимний забег в парке музея-заповедника Павловск. 3-21км.',
@@ -1230,6 +1248,7 @@ let tracks = [
     {
         name: 'Пробег Хепоярви',
         year: 2025,
+        date: '12.07',
         logo: 'khepojarvi.webp',
         info: '«Пробег Хепоярви» - легендарный пробег вокруг одноимённого озера Хепоярви в одном из самых красивейших районов Ленинградской области, в посёлке Токсово.',
         link: 'https://vk.com/heporunning',
@@ -1240,6 +1259,7 @@ let tracks = [
     {
         name: 'Скоростная десятка',
         year: 2025,
+        date: '27.04',
         start: 'PUSHKINRUN',
         info: 'Скоростная десятка – праздник бега для любителей и профессионалов, где каждый участник может испытать свои силы и показать максимальный результат на дистанции 10 километров. Трасса «Скоростной десятки» специально разработана для достижения высоких скоростей. Маршрут минимизирует перепады высот и сложные участки, позволяя сосредоточиться на своем темпе и технике, чтобы достичь новых рекордов!',
         link: 'https://pushkin-run.ru/10',
@@ -1250,6 +1270,7 @@ let tracks = [
     {
         name: 'Дудергоф трейл',
         year: 2025,
+        date: '20.04',
         info: 'Участникам предстоит не просто пробежать дистанцию по пересечённой местности, но даже взобраться на самую высокую точку города — гору Ореховую.',
         link: 'https://marathonec.ru/dudergof-trejl-gid/',
         results: 'https://reg.o-time.ru/race/25240',
@@ -1260,6 +1281,7 @@ let tracks = [
     {
         name: 'Кросс в Александрино',
         year: 2024,
+        date: '18.08',
         link: 'https://vk.com/krossvaleksandrino',
         results: 'https://reg.o-time.ru/race/24166',
         gpx: 'tracks/run/aleksandrino_2024_omaps.gpx',
@@ -1280,6 +1302,7 @@ let tracks = [
     {
         name: 'Дубровка, Невский берег',
         year: 2024,
+        date: '20.10',
         link: 'https://vk.com/event226343434',
         results: 'https://reg.o-time.ru/race/24512',
         info: 'Трасса основных дистанций пролегает по берегу Невы и сосновому лесу, включает спуски и подъемы, движение по самой кромке берега. 10-20км.',
@@ -1293,6 +1316,7 @@ let tracks = [
     {
         name: 'Кобона, Summer fest',
         year: 2025,
+        date: '2.08',
         link: 'https://tripandrun.ru/summer',
         results: 'https://reg.o-time.ru/race/25125',
         info: '4-40км.',
@@ -1309,6 +1333,7 @@ let tracks = [
     {
         name: 'Староселье, Autumn fest',
         year: 2024,
+        date: '12.10',
         link: 'https://tripandrun.ru/autumn_2024',
         results: 'https://reg.o-time.ru/race/24079',
         info: '5-23км.',
@@ -1351,6 +1376,7 @@ let tracks = [
     {
         name: 'Удельный парк, Гоголь МарафонЪ',
         year: 2024,
+        date: '3.11',
         link: 'https://probeg.org/event/57172/',
         results: 'https://reg.o-time.ru/race/24323',
         info: '1-63км.',
@@ -1394,6 +1420,7 @@ let tracks = [
     {
         name: 'Боровичи, Мста трейл',
         year: 2025,
+        date: '10.08',
         link: 'https://vk.com/msta_trail',
         results: 'https://reg.o-time.ru/race/25257',
         info: 'На дистанциях участников будут ждать неповторимо красивые виды, интересные пейзажи, разнообразный рельеф и естественные препятствия в виде высокой травы, бродов, оврагов итд. 5-30км.',
@@ -1408,6 +1435,7 @@ let tracks = [
     {
         name: 'Аэропорт Пулково',
         year: 2025,
+        date: '31.07',
         results: 'https://reg.o-time.ru/race/25529',
         info: '3-10км.',
         gpx: {
@@ -1503,6 +1531,7 @@ let tracks = [
     {
         name: 'Усть-Лужский железнодорожный полумарафон',
         year: 2025,
+        date: '12.07',
         link: 'https://vk.com/21kmlugaozd',
         results: 'https://reg.o-time.ru/race/25472',
         info: 'Единственный индустриальный полумарафон в России, проходящий на крупнейшей железнодорожной станции в Европе. 11-21км.',
@@ -1515,6 +1544,7 @@ let tracks = [
     {
         name: 'Сосново трейл',
         year: 2025,
+        date: '6.07',
         link: 'https://sportdrivecompany.ru/трейл-в-сосново-2025/',
         results: 'https://reg.o-time.ru/race/25444',
         info: '14-28км.',
@@ -1527,6 +1557,7 @@ let tracks = [
     {
         name: 'Петрозаводск, Karelia Swamp Ultra',
         year: 2024,
+        date: '14.07',
         link: 'https://vk.com/kareliaswampultra',
         results: 'https://reg.o-time.ru/race/24003',
         info: '20-50км.',
@@ -1569,6 +1600,7 @@ let tracks = [
     {
         name: 'Новгород, NOVGOROD ICE',
         year: 2024,
+        date: '11.02',
         link: 'https://vk.com/club201939547',
         results: 'https://reg.o-time.ru/race/24103',
         info: 'Живописный маршрут, стартующий у стен древнего Кремля и проходящий по территории музея Витославлицы, близ Юрьевского монастыря, по берегу седого Волхова и озера Мячино. 12-19км.',
@@ -1582,6 +1614,7 @@ let tracks = [
     {
         name: 'Кировск, "НЕВСКИЙ ПЯТАЧОК"',
         year: 2024,
+        date: '2.06',
         link: 'https://vk.com/nev_pyatachok_run',
         results: 'https://reg.o-time.ru/race/24305',
         info: '5-21км.',
@@ -1596,6 +1629,7 @@ let tracks = [
     {
         name: 'Подпорожье, Свирский рубеж',
         year: 2025,
+        date: '17.05',
         link: 'https://vk.link/svirskiyrubezh',
         results: 'https://reg.o-time.ru/race/25243',
         info: '1-20км.',
@@ -1617,6 +1651,7 @@ let tracks = [
     {
         name: 'Молодцово, "Синявинские высоты"',
         year: 2024,
+        date: '21.09',
         link: 'https://vk.com/sin_vysoty_run',
         results: 'https://reg.o-time.ru/race/24012',
         info: '2-21км.',
@@ -1627,6 +1662,7 @@ let tracks = [
     {
         name: 'Янино, "Человек или Лошадь"',
         year: 2024,
+        date: '24.08',
         link: 'https://vk.com/sktoksovo',
         results: 'https://reg.o-time.ru/race/24211',
         info: 'Бегунам предстоит доказать что они могут быть быстрее лошадей со всадниками!',
@@ -1637,6 +1673,7 @@ let tracks = [
     {
         name: 'Снегирёвка, St.Petersburg Backyard Ultra',
         year: 2022,
+        date: '21.05',
         link: 'https://backyardultra.ru/',
         results: 'https://clck.ru/gMLZA',
         info: 'ST.PETERSBURG BACKYARD ULTRA – официальная гонка мировой экосистемы BYU.',
@@ -1647,6 +1684,7 @@ let tracks = [
     {
         name: 'Борницкий карьер, St.Petersburg Backyard Ultra',
         year: 2025,
+        date: '25.05',
         link: 'https://backyardultra.ru/',
         results: 'https://reg.o-time.ru/race/25285',
         info: 'ST.PETERSBURG BACKYARD ULTRA – официальная гонка мировой экосистемы BYU.',
@@ -1657,6 +1695,7 @@ let tracks = [
     {
         name: 'Токсово, Комбыт, "Бегущий кабан"',
         year: 2023,
+        date: '15.10',
         link: 'https://www.fasl.ru/contest/n501/',
         results: 'https://reg.o-time.ru/race/23493',
         info: 'Традиционный осенний кросс "Бегущий кабан", посвященный памяти Дмитрия Поленова. Дистанция соревнований проходит по бывшей лыжной трассе «Комбыт», протяженность круга – 5 км.',
@@ -1666,6 +1705,7 @@ let tracks = [
     {
         name: 'Игора, "неМартовский заяц"',
         year: 2024,
+        date: '4.11',
         link: 'https://vk.com/nemartovskiizayaz',
         results: 'https://myrace.info/events/889',
         info: 'Традиционный альпинистский горный кросс.',
@@ -1676,6 +1716,7 @@ let tracks = [
     {
         name: 'Лемболово, "Осенний марафон"',
         year: 2024,
+        date: '20.10',
         link: 'https://vk.com/omartrail',
         results: 'https://reg.o-time.ru/race/24596',
         info: 'Фестиваль двигательной активности для всех любителей активного образа жизни, от спортивного клуба «Атлетико».',
@@ -1686,6 +1727,7 @@ let tracks = [
     {
         name: 'Кубок Курортного района по бегу на песке',
         year: 2025,
+        date: '6.08',
         link: 'https://vk.com/peschanie_dyuni',
         results: 'https://reg.o-time.ru/race/25430',
         info: 'Поистине курортное событие – соревнования по бегу на песке.',
@@ -1696,6 +1738,7 @@ let tracks = [
     {
         name: 'Колпино, Ижорская миля',
         year: 2025,
+        date: '27.07',
         link: 'https://vk.com/sokizhorets',
         results: 'https://reg.o-time.ru/race/25512',
         info: 'Дистанция по территории городского ПКиО и о.Чухонка.',
@@ -1706,6 +1749,7 @@ let tracks = [
     {
         name: 'Коскиярви МТБ марафон',
         year: 2024,
+        date: '18.08',
         link: 'https://koskijarvi.ru/',
         results: 'https://reg.o-time.ru/race/24171',
         info: 'Вас ждут на выбор три размеченных дистанции в один круг: 80 км, 60 км и 30 км скоростных лесных дорог, кросс-кантрийных секций, заковыристых синглтреков, затяжных подъемов и спусков - всё то, из-за чего мы все полюбили маунтинбайк! Трасса проложена в лесном массиве, протянувшемся от ж/д ст Лемболово до Сосново. Старт с территории Клуба загородного отдыха "Орех". 27-82км.',
@@ -1720,6 +1764,7 @@ let tracks = [
     {
         name: 'Петяярви веломарафон "Горные вершины"',
         year: 2025,
+        date: '10.05',
         link: 'https://marathoncup.ru/main/petyajarvi/',
         results: 'https://reg.o-time.ru/race/25151',
         info: 'Интересная и живописная трасса, проходящая по территории природного заказника «Гряда Вярямянселька», включающая три мостика через бурную речку Волчья и ручей Горюнец. 27-54км.',
@@ -1733,6 +1778,7 @@ let tracks = [
     {
         name: 'Токсовский веломарафон "Горные вершины"',
         year: 2025,
+        date: '5.07',
         link: 'https://marathoncup.ru/main/toksovo/',
         results: 'https://reg.o-time.ru/race/25154',
         info: 'Трасса марафона проходит по лесным дорогам в районе Токсово и озера Хепоярви. 27-54км.',
@@ -1747,6 +1793,7 @@ let tracks = [
     {
         name: 'Лемболовский веломарафон "Горные вершины"',
         year: 2025,
+        date: '27.07',
         link: 'https://marathoncup.ru/main/lembolovo/',
         results: 'https://reg.o-time.ru/race/25155',
         info: 'Один из старейших и массовых марафонов в России. Трасса не раз оценивалась многими участниками, как самая интересная и разнообразная, но с более сложным рельефом. 14-60км.',
@@ -1760,6 +1807,7 @@ let tracks = [
     {
         name: 'Ореховый веломарафон "Горные вершины"',
         year: 2025,
+        date: '31.05',
         link: 'https://marathoncup.ru/main/orekhovo/',
         results: 'https://reg.o-time.ru/race/25152',
         info: ' Благодаря очень большой площади является одним из самых подходящих мест для маунтинбайка, находящегося в пределах часа езды от Санкт-Петербурга. 13-58км.',
@@ -1773,6 +1821,7 @@ let tracks = [
     {
         name: 'Цвелодубово веломарафон "Горные вершины"',
         year: 2024,
+        date: '8.09',
         link: 'https://marathoncup.ru/main/tsvelodubovo/',
         results: 'https://reg.o-time.ru/race/24126',
         info: 'Трасса марафона разнообразна и проходит по традиционной для Карельского перешейка местности – лесные дороги, тропинки, крутые подъёмы и спуски, ровные участки, где можно перевести дух. В тоже время длина трассы не слишком протяжённа (круг 25 км). Набор высоты на одном круге - 320м, это минимальный набор среди всех этапов. 14-50км.',
@@ -1788,6 +1837,7 @@ let tracks = [
     {
         name: 'Мичуринский Author Grand Prix веломарафон',
         year: 2025,
+        date: '3.05',
         link: 'https://marathoncup.ru/main/author/',
         results: 'https://reg.o-time.ru/race/25201',
         info: 'Велосипедный кросс-кантри марафон для всех. 14-63км.',
@@ -1803,6 +1853,7 @@ let tracks = [
     {
         name: 'Семиозерье, Hard Bike Race',
         year: 2024,
+        date: '5.10',
         link: 'https://hardadventure.ru/info2024bike',
         results: 'https://reg.o-time.ru/race/24560',
         info: 'Помимо скоростных лесных дорог вас ждут песчаные склоны и тропы карьера, насыщенная пересеченка и разнообразная, живописная дистанция в обрамлении Золотой Осени.',
