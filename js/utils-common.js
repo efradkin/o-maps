@@ -151,3 +151,15 @@ const downloadTableAsCSV = (table, filename) => {
     link.click();
     document.body.removeChild(link);
 };
+
+function countEntries(o) {
+    if (typeof o === 'undefined' || o === undefined || o === null || !o) {
+        return 0;
+    }
+    else if (isObject(o)) {
+        return Object.entries(o).length;
+    } else {
+        return 1;
+    }
+
+}
