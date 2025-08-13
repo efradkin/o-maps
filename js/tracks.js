@@ -956,6 +956,51 @@ let tracks = [
         type: ['RUN']
     },
     {
+        name: 'Парк Городов-Героев',
+        link: 'https://5verst.ru/parkgorodovgeroev/',
+        results: 'https://5verst.ru/parkgorodovgeroev/results/all/',
+        info: 'Маршрут проходит в два круга по часовой стрелке по территории парка Городов-Героев (Пулковский парк). Рельеф - плоский. Покрытие: грунт, асфальт.',
+        gpx: 'tracks/run/pulkovsky_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Новгород великий, parkrun Кремлёвский',
+        link: 'https://5verst.ru/velikiynovgorodkremlevsky/',
+        results: 'https://probeg.org/series/5330/races_by_event/',
+        info: 'Забег в Новгороде пока на паузе.',
+        gpx: 'tracks/run/novgorod_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Боровичи, Парк 30-Летия Октября',
+        link: 'https://5verst.ru/park30letiyaoktyabrya/',
+        results: 'https://5verst.ru/park30letiyaoktyabrya/results/all/',
+        info: 'Мероприятие проводится в Новгородской области, в г Боровичи, в парке 30-летия Октября. Старт неподалеку от памятника С.М. Кирову, финиш возле монумента «Любовь».',
+        gpx: 'tracks/run/borovichi_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Петрозаводск Ямка',
+        link: 'https://5verst.ru/yamka/',
+        results: 'https://5verst.ru/yamka/results/all/',
+        info: 'Маршрут проходит в два круга по территории парка "Ямка", вдоль реки Лососинки до парка "Французский пруд", вокруг памятника "Пушка". Рельеф плоский.',
+        gpx: 'tracks/run/ptz_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Псков, Набережная Реки Великой',
+        link: 'https://5verst.ru/naberezhnayarekivelikoy/',
+        results: 'https://5verst.ru/naberezhnayarekivelikoy/results/all/',
+        info: 'Маршрут проходит по Набережной реки Великой, через живописную арку в стенах Кремля и продолжается по Набережной реки Псковы. Далее участники наслаждаются видами современного ухоженного парка Куопио (в народе - «Финского»), делают разворот и повторяют маршрут в обратном направлении. Маршрут проходит маятником, в 1 круг.',
+        gpx: 'tracks/run/pskov_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
         name: 'Орехово трейл',
         year: 2025,
         date: '8.06',
@@ -1598,20 +1643,6 @@ let tracks = [
         type: ['RUN']
     },
     {
-        name: 'Новгород, NOVGOROD ICE',
-        year: 2024,
-        date: '11.02',
-        link: 'https://vk.com/club201939547',
-        results: 'https://reg.o-time.ru/race/24103',
-        info: 'Живописный маршрут, стартующий у стен древнего Кремля и проходящий по территории музея Витославлицы, близ Юрьевского монастыря, по берегу седого Волхова и озера Мячино. 12-19км.',
-        gpx: {
-            '19км':'tracks/run/novgorod_ice_2024_19km_omaps.gpx',
-            '12км':'tracks/run/novgorod_ice_2024_12km_omaps.gpx',
-        },
-        logo: 'novgorod_ice.gif',
-        type: ['RUN']
-    },
-    {
         name: 'Кировск, "НЕВСКИЙ ПЯТАЧОК"',
         year: 2024,
         date: '2.06',
@@ -1743,6 +1774,76 @@ let tracks = [
         results: 'https://reg.o-time.ru/race/25512',
         info: 'Дистанция по территории городского ПКиО и о.Чухонка.',
         gpx: 'tracks/run/izhorska_milya_2025_omaps.gpx',
+        type: ['RUN']
+    },
+    {
+        name: 'Новгород, NOVGOROD ICE',
+        year: 2024,
+        date: '11.02',
+        link: 'https://vk.com/club201939547',
+        results: 'https://reg.o-time.ru/race/24103',
+        info: 'Живописный маршрут, стартующий у стен древнего Кремля и проходящий по территории музея Витославлицы, близ Юрьевского монастыря, по берегу седого Волхова и озера Мячино. 12-19км.',
+        gpx: {
+            '19км':'tracks/run/novgorod_ice_2024_19km_omaps.gpx',
+            '12км':'tracks/run/novgorod_ice_2024_12km_omaps.gpx',
+        },
+        logo: 'novgorod_ice.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Изборск, Truvor Ultra Trail',
+        year: 2024,
+        date: '7.09',
+        link: 'https://www.truvorultratrail.ru/',
+        results: 'https://reg.o-time.ru/race/24274',
+        info: 'TUT - это не только физическое испытание, но и настоящее приключение для любителей природы и активного образа жизни. Участники имеют возможность не только побороться с собой, но и насладиться великолепием российских пейзажей. 5-50км.',
+        gpx: {
+            '50км':'tracks/run/izborsk_truvor_2025_50km_omaps.gpx',
+            '25км':'tracks/run/izborsk_truvor_2025_25km_omaps.gpx',
+            '10км':'tracks/run/izborsk_truvor_2025_10km_omaps.gpx',
+            '5км':'tracks/run/izborsk_truvor_2025_5km_omaps.gpx',
+        },
+        logo: 'truvor.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Алоль, EDGE ULTRA',
+        year: 2025,
+        date: '24.05',
+        link: 'https://edge-ultra.ru/',
+        results: 'https://reg.o-time.ru/race/25006',
+        info: 'Летняя гонка по лесной тропе. 5-180км.',
+        gpx: {
+            '100км':'tracks/run/alol_edge_2025_100km_omaps.gpx',
+            '50км':'tracks/run/alol_edge_2025_50km_omaps.gpx',
+            '20км':'tracks/run/alol_edge_2025_20km_omaps.gpx',
+            '10км':'tracks/run/alol_edge_2025_10km_omaps.gpx',
+        },
+        logo: 'alol_edge.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Псковский полумарафон',
+        year: 2024,
+        date: '29.09',
+        link: 'https://edge-ultra.ru/',
+        results: 'https://reg.o-time.ru/race/24216',
+        info: '1-21км.',
+        gpx: 'tracks/run/pskov_halfmarathon_2024_omaps.gpx',
+        logo: 'pskov_half.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Дуброво',
+        year: 2024,
+        date: '13.10',
+        link: 'https://probeg.org/event/62170/',
+        results: 'https://probeg.org/dj_media/uploads/2024/241013_Pr_Probeg__Dubrovo__Dubrovo_6963.xls',
+        info: 'Забег от КЛБ "Скобарь". 1-10км.',
+        gpx: {
+            '10км':'tracks/run/dubrovo_2023_10km_omaps.gpx',
+            '5км':'tracks/run/dubrovo_2024_5km_omaps.gpx',
+        },
         type: ['RUN']
     },
     // --- ВЕЛО ---
