@@ -397,6 +397,14 @@ function selectTrackType(trackType) {
     }
 }
 
+function selectTrackMonth(month) {
+    if (month === '0') {
+        location.href = './tracks.html';
+    } else {
+        location.href = './tracks.html?track-month=' + month;
+    }
+}
+
 function selectStart(start) {
     let url = location.href.split('?')[0];
     if (start !== 'all') {

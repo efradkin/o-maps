@@ -4,6 +4,7 @@ const OWNER_PARAM = urlParams.get('owner');
 const PLANNER_PARAM = urlParams.get('planner');
 const TYPE_PARAM = urlParams.get('type');
 const TRACK_TYPE_PARAM = urlParams.get('track-type');
+const TRACK_MONTH_PARAM = urlParams.get('track-month');
 let MAP_NAME_PARAM = urlParams.get('map');
 let TRACK_NAME_PARAM = urlParams.get('track');
 const ONLY_MAP_NAME_PARAM = urlParams.get('onlymap');

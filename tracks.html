@@ -62,6 +62,23 @@
             <option value="VELO" class="VELO">Вело</option>
             <option value="WATER" class="WATER">Водный</option>
         </select>
+
+        <select id="track_month_selector" class="header_selector" onchange="selectTrackMonth(this.value)">
+            <option value="0">все</option>
+            <option value="01">Январь</option>
+            <option value="02">Февраль</option>
+            <option value="03">Март</option>
+            <option value="04">Апрель</option>
+            <option value="05">Май</option>
+            <option value="06">Июнь</option>
+            <option value="07">Июль</option>
+            <option value="08">Август</option>
+            <option value="09">Сентябрь</option>
+            <option value="10">Октябрь</option>
+            <option value="11">Ноябрь</option>
+            <option value="12">Декабрь</option>
+        </select>
+
         <img id="sheet-spinner" src="images/walk-spinner.gif" alt="" />
     </h1>
     <h2 class="text-center">Маршруты Санкт-Петербурга и окрестностей</h2>
@@ -111,16 +128,24 @@
     <script src="js/tracks.js"></script>
 
     <script>
-        const TRACK_TYPE_PARAM = new URLSearchParams(window.location.search).get('track-type');
+        let urlParams = new URLSearchParams(window.location.search);
+        const TRACK_TYPE_PARAM = urlParams.get('track-type');
         if (TRACK_TYPE_PARAM) {
             let selector = document.getElementById('track_type_selector');
             selector.value = TRACK_TYPE_PARAM;
+        }
+
+        const TRACK_MONTH_PARAM = urlParams.get('track-month');
+        if (TRACK_MONTH_PARAM) {
+            let selector = document.getElementById('track_month_selector');
+            selector.value = TRACK_MONTH_PARAM;
         }
 
         // Массив с адресами картинок
         const images = [];
         let picCounter = 0;
 
+        let totalRoutes = 0;
         let totalTracks = 0;
         let walkTracks = 0;
         let runTracks = 0;
@@ -150,6 +175,9 @@
                 if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
                     continue;
                 }
+                if (TRACK_MONTH_PARAM && (!t.date || t.date.slice(-2) !== TRACK_MONTH_PARAM)) {
+                    continue;
+                }
 
                 const row = document.createElement('tr');
                 td(t, row, counter++);
@@ -164,6 +192,7 @@
                 tbody.appendChild(row);
 
                 let kTracks = countEntries(t.gpx);
+                totalRoutes++;
                 totalTracks += kTracks;
                 if (t.type) {
                     if (t.type.includes('WALK')) {
@@ -185,7 +214,7 @@
             }
             document.body.style.cursor = 'default';
 
-            document.getElementById('total_routes').innerText = tracks.length;
+            document.getElementById('total_routes').innerText = totalRoutes;
             document.getElementById('total_tracks').innerText = totalTracks;
             document.getElementById('run_tracks').innerText = runTracks;
             document.getElementById('walk_tracks').innerText = walkTracks;

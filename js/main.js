@@ -78,6 +78,9 @@ async function loadTracks() {
             if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
                 continue;
             }
+            if (TRACK_MONTH_PARAM && (!t.date || t.date.slice(-2) !== TRACK_MONTH_PARAM)) {
+                continue;
+            }
             let gpx = new L.GPX(firstTrack, {
                 async: false,
                 display_wpt: false,
