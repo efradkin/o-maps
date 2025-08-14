@@ -26,7 +26,7 @@ let imagesLoadCounter = 0;
 let selectedOverlay, selectedMap;
 let visibleMaps;
 
-let showMapsOnSmallZoom = false;
+let showMapsOnSmallZoom = true;
 let smosz = localStorage.getItem('showMapsOnSmallZoom');
 if (smosz != null) {
     showMapsOnSmallZoom = (smosz === 'true');
