@@ -15,7 +15,9 @@ let opacitySlider;
 let notificationControl;
 let overlayMapsContents;
 let marker1, marker2, marker3;
+
 let loaded = false;
+let tracksLoaded = false;
 
 let maxZindex = 1;
 let enablePopup = false;
@@ -65,35 +67,42 @@ if (!ONLY_MAP_NAME_PARAM && !ONLY_TRACK_NAME_PARAM) {
     }
 }
 
-async function loadTracks() {
-    for (const t of tracks) {
-        try {
-            if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
-                continue;
+function loadTracks() {
+    showSpinner();
+    setTimeout(function() {
+        for (const t of tracks) {
+            try {
+                if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
+                    continue;
+                }
+                let firstTrack = getFirstTrack(t);
+                if (ONLY_TRACK_NAME_PARAM && !firstTrack.includes(ONLY_TRACK_NAME_PARAM)) {
+                    continue;
+                }
+                if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
+                    continue;
+                }
+                if (TRACK_MONTH_PARAM && (!t.date || t.date.slice(-2) !== TRACK_MONTH_PARAM)) {
+                    continue;
+                }
+                let gpx = new L.GPX(firstTrack, {
+                    async: false,
+                    display_wpt: false,
+                    color: (t.type ? color[t.type[0]] : 'green'),
+                    weight: 5
+                });
+                var popup_text = buildTrackPopup(t, gpx);
+                gpx.bindPopup(popup_text, {maxWidth: 500});
+                gpx.addTo(tracksGroup);
+            } catch (e) {
+                console.log('Error loading track', t, e);
             }
-            let firstTrack = getFirstTrack(t);
-            if (ONLY_TRACK_NAME_PARAM && !firstTrack.includes(ONLY_TRACK_NAME_PARAM)) {
-                continue;
-            }
-            if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
-                continue;
-            }
-            if (TRACK_MONTH_PARAM && (!t.date || t.date.slice(-2) !== TRACK_MONTH_PARAM)) {
-                continue;
-            }
-            let gpx = new L.GPX(firstTrack, {
-                async: false,
-                display_wpt: false,
-                color: (t.type ? color[t.type[0]] : 'green'),
-                weight: 5
-            });
-            var popup_text = buildTrackPopup(t, gpx);
-            gpx.bindPopup(popup_text, {maxWidth: 500});
-            gpx.addTo(tracksGroup);
-        } catch (e) {
-            console.log('Error loading track', t, e);
         }
-    }
+        tracksLoaded = true;
+        if (loaded) {
+            hideSpinner();
+        }
+    }, 100);
 }
 
 function buildTrackPopup(t, gpxLayer) {
@@ -263,6 +272,11 @@ if (mapElement) {
         if (!(e.name.includes('Рогейн') || e.name.includes('Рогаине')) && !e.name.includes('Необычные')) {
             activeLayers.push(overlayMapsContents[e.name]);
             syncMaps();
+        }
+        if (e.name.includes('Маршруты') && !tracksLoaded) {
+            if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
+                loadTracks();
+            }
         }
     });
 
@@ -535,9 +549,7 @@ if (mapElement) {
         }, sliderOptions).addTo(map);
     }
 
-    setTimeout(function () {
-        document.getElementById("spinner").style.display = 'block';
-    }, 1000);
+    setTimeout(showSpinner, 1000);
 
     let intervalCounter = 0;
     let imagesLoadInterval = setInterval(function() {
@@ -545,7 +557,7 @@ if (mapElement) {
 
         if (imagesLoadCounter <= 0) {
             if (intervalCounter++ > 3) {
-                document.getElementById("spinner").style.display = 'none';
+                hideSpinner();
                 clearInterval(imagesLoadInterval);
 
                 visibleMaps = recalculateLayers();
@@ -581,11 +593,6 @@ if (mapElement) {
                         locateMapForUrl(MAP_NAME_PARAM);
                     }
 
-                    // load the tracks at the end
-                    if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
-                        loadTracks();
-                    }
-
                     // go to the specified track
                     if (TRACK_NAME_PARAM) {
                         locateTrackForUrl(TRACK_NAME_PARAM);
@@ -594,6 +601,14 @@ if (mapElement) {
             }
         }
     }, 1000);
+
+    function showSpinner() {
+        document.getElementById("spinner").style.display = 'block';
+    }
+
+    function hideSpinner() {
+        document.getElementById("spinner").style.display = 'none';
+    }
 
     function applyMapStyles(m) {
         if (m.layer) {
