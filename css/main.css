@@ -96,6 +96,7 @@ a, a:active, a:focus {
     position:absolute;
     top:12px;
     left:60px;
+    width: 180px;
     z-index: 777;
     border: 2px solid gray;
     padding: 5px;
@@ -104,7 +105,7 @@ a, a:active, a:focus {
 #map_tracks_month_selector {
     position:absolute;
     top:12px;
-    left:260px;
+    left:250px;
     z-index: 777;
     border: 2px solid gray;
     padding: 5px;
