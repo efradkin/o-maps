@@ -141,57 +141,64 @@ function buildOverlayMapsContents() {
 }
 
 function allocateMap(m, imgLayer) {
-    let added = false;
     m.groups = [];
-    if (m.type) {
-        if (m.type.includes('ROGAINE')) {
-            added = true;
-            mapsStatObj.rogaineGroup.push(imgLayer);
-            imgLayer.addTo(rogaineGroup);
-            let el = imgLayer.getElement();
-            if (el) {
-                el.style.zIndex = 0;
+    if (m.gpx) {
+        // треки
+        pushGroupToMap(m, tracksGroup);
+        imgLayer.addTo(tracksGroup);
+    } else {
+        // карты
+        let added = false;
+        if (m.type) {
+            if (m.type.includes('ROGAINE')) {
+                added = true;
+                mapsStatObj.rogaineGroup.push(imgLayer);
+                imgLayer.addTo(rogaineGroup);
+                let el = imgLayer.getElement();
+                if (el) {
+                    el.style.zIndex = 0;
+                }
+            }
+            if (isSpecialMap(m)) {
+                added = true;
+                mapsStatObj.specialGroup.push(imgLayer);
+                pushGroupToMap(m, specialGroup);
+            }
+            if (m.type.includes('CITY')) {
+                added = true;
+                mapsStatObj.cityGroup.push(imgLayer);
+                pushGroupToMap(m, cityGroup);
+            }
+            if (m.type.includes('PARK')) {
+                added = true;
+                mapsStatObj.parkGroup.push(imgLayer);
+                pushGroupToMap(m, parkGroup);
+            }
+            if (m.type.includes('FUN') || m.type.includes('FOTO')) {
+                added = true;
+                mapsStatObj.funGroup.push(imgLayer);
+                imgLayer.addTo(funGroup);
             }
         }
-        if (isSpecialMap(m)) {
-            added = true;
-            mapsStatObj.specialGroup.push(imgLayer);
-            pushGroupToMap(m, specialGroup);
+        if (!added) {
+            mapsStatObj.forestGroup.push(imgLayer);
+            pushGroupToMap(m, forestGroup);
         }
-        if (m.type.includes('CITY')) {
-            added = true;
-            mapsStatObj.cityGroup.push(imgLayer);
-            pushGroupToMap(m, cityGroup);
-        }
-        if (m.type.includes('PARK')) {
-            added = true;
-            mapsStatObj.parkGroup.push(imgLayer);
-            pushGroupToMap(m, parkGroup);
-        }
-        if (m.type.includes('FUN') || m.type.includes('FOTO')) {
-            added = true;
-            mapsStatObj.funGroup.push(imgLayer);
-            imgLayer.addTo(funGroup);
-        }
-    }
-    if (!added) {
-        mapsStatObj.forestGroup.push(imgLayer);
-        pushGroupToMap(m, forestGroup);
-    }
 
-    if (isOrientMap(m)) {
-        if (!m.year) {
-            pushGroupToMap(m, groupUnknownYear);
-        } else if (m.year >= 2020) {
-            pushGroupToMap(m, group2020th);
-        } else if (m.year >= 2010) {
-            pushGroupToMap(m, group2010th);
-        } else if (m.year >= 2000) {
-            pushGroupToMap(m, group2000th);
-        } else if (m.year >= 1990) {
-            pushGroupToMap(m, group90th);
-        } else {
-            pushGroupToMap(m, groupRetro);
+        if (isOrientMap(m)) {
+            if (!m.year) {
+                pushGroupToMap(m, groupUnknownYear);
+            } else if (m.year >= 2020) {
+                pushGroupToMap(m, group2020th);
+            } else if (m.year >= 2010) {
+                pushGroupToMap(m, group2010th);
+            } else if (m.year >= 2000) {
+                pushGroupToMap(m, group2000th);
+            } else if (m.year >= 1990) {
+                pushGroupToMap(m, group90th);
+            } else {
+                pushGroupToMap(m, groupRetro);
+            }
         }
     }
 }

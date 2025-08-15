@@ -106,6 +106,7 @@
         <option value="all">Все регионы вместе</option>
         <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
         <option value="starts">Старты на карте</option>
+        <option value="tracks">Маршруты</option>
     </select>
     <img id="spinner" src="images/plant.gif" alt="" />
     <div id="counter"></div>
@@ -169,6 +170,7 @@
         const REGION_KEY = 'spb';
 
         let loadImagesRequired = true;
+        let loadTracksRequired = false;
         let funsRequired = true;
 
         let oMaps = [

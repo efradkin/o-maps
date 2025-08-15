@@ -43,6 +43,10 @@ let hbm = localStorage.getItem('hiddenButtonsMode');
 if (HAS_NO_BUTTONS_PARAM || hbm != null) {
     hiddenButtonsMode = HAS_NO_BUTTONS_PARAM || (hbm === 'true');
 }
+loadTracksRequired = (typeof loadTracksRequired !== 'undefined') && loadTracksRequired;
+if (loadTracksRequired) {
+    hiddenButtonsMode = true;
+}
 let timeline = false;
 let tl = localStorage.getItem('timeline');
 if (tl != null) {
@@ -59,12 +63,17 @@ if (MAP_NAME_PARAM) {
         loadMap(m);
     }
 }
-if (!ONLY_MAP_NAME_PARAM && !ONLY_TRACK_NAME_PARAM) {
+
+function loadMaps() {
+    showSpinner(true);
     for (const m of oMaps) {
-        if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM))) {
-            loadMap(m);
+        if (isMapAcceptable(m)) {
+            if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM))) {
+                loadMap(m);
+            }
         }
     }
+    checkMapsLoad();
 }
 
 function loadTracks() {
@@ -93,14 +102,20 @@ function loadTracks() {
                 });
                 var popup_text = buildTrackPopup(t, gpx);
                 gpx.bindPopup(popup_text, {maxWidth: 500});
-                gpx.addTo(tracksGroup);
+                // gpx.addTo(tracksGroup);
+                allocateMap(t, gpx);
             } catch (e) {
                 console.log('Error loading track', t, e);
             }
         }
         tracksLoaded = true;
-        if (loaded) {
+        if (loadTracksRequired || loaded) {
             hideSpinner();
+        }
+
+        // go to the specified track
+        if (TRACK_NAME_PARAM) {
+            locateTrackForUrl(TRACK_NAME_PARAM);
         }
     }, 100);
 }
@@ -200,7 +215,7 @@ if (mapElement) {
     } else if (START_NAME_PARAM === 'major' && (typeof groupRetro !== 'undefined')) {
         activeLayers.push(groupRetro, group90th);
     }
-    if (TRACK_NAME_PARAM || HAS_TRACKS_PARAM) {
+    if (!loadTracksRequired && (TRACK_NAME_PARAM || HAS_TRACKS_PARAM)) {
         activeLayers.push(tracksGroup);
     }
     let x = centerX;
@@ -269,19 +284,17 @@ if (mapElement) {
         visibleMaps = recalculateLayers();
     });
     map.on('overlayadd', function (e) {
-        if (!(e.name.includes('Рогейн') || e.name.includes('Рогаине')) && !e.name.includes('Необычные')) {
+        if (!(e.name.includes('Рогейн') || e.name.includes('Рогаине')) && !e.name.includes('Необычные') && !e.name.includes('Карты')) {
             activeLayers.push(overlayMapsContents[e.name]);
             syncMaps();
         }
         if (e.name.includes('Маршруты') && !tracksLoaded) {
-            if ((typeof tracks !== 'undefined') && (typeof tracksGroup !== 'undefined')) {
-                loadTracks();
-            }
+            loadTracks();
         }
     });
 
     map.on('overlayremove', function (e) {
-        if (!e.name.includes('Рогейн') && !e.name.includes('Необычные')) {
+        if (!e.name.includes('Рогейн') && !e.name.includes('Необычные') && !e.name.includes('Карты')) {
             removeFromArray(activeLayers, overlayMapsContents[e.name]);
             syncMaps();
         }
@@ -549,66 +562,15 @@ if (mapElement) {
         }, sliderOptions).addTo(map);
     }
 
-    setTimeout(showSpinner, 1000);
-
-    let intervalCounter = 0;
-    let imagesLoadInterval = setInterval(function() {
-        syncMaps();
-
-        if (imagesLoadCounter <= 0) {
-            if (intervalCounter++ > 3) {
-                hideSpinner();
-                clearInterval(imagesLoadInterval);
-
-                visibleMaps = recalculateLayers();
-                if (!loaded) {
-                    loaded = true;
-
-                    // --- year slider (https://github.com/slawomir-zaziablo/range-slider) ---
-                    let yearSliderEl = document.getElementById("year_slider");
-                    if (yearSliderEl) {
-                        yearSliderEl.parentElement.style.display = 'block';
-                        let years = Object.keys(ageGroups);
-                        let wideScreen = false; //window.innerWidth > 1000;
-                        let yearSlider = new rSlider({
-                            target: '#year_slider',
-                            values: years,
-                            range: !timeline,
-                            set: timeline ? [years[years.length-1]] : [years[0], years[years.length-1]],
-                            labels: wideScreen,
-                            tooltip: !wideScreen,
-                            onChange: function (vals) {
-                                processYearSlider(years, vals);
-                            }
-                        });
-                    }
-
-                    // set required styles for the map elements
-                    for (const m of oMaps) {
-                        applyMapStyles(m);
-                    }
-
-                    // go to the specified map
-                    if (MAP_NAME_PARAM) {
-                        locateMapForUrl(MAP_NAME_PARAM);
-                    }
-
-                    // go to the specified track
-                    if (TRACK_NAME_PARAM) {
-                        locateTrackForUrl(TRACK_NAME_PARAM);
-                    }
-                }
-            }
+    map.whenReady(function (e) {
+        showSpinner(true);
+        if (!ONLY_MAP_NAME_PARAM && !ONLY_TRACK_NAME_PARAM) {
+            loadMaps();
         }
-    }, 1000);
-
-    function showSpinner() {
-        document.getElementById("spinner").style.display = 'block';
-    }
-
-    function hideSpinner() {
-        document.getElementById("spinner").style.display = 'none';
-    }
+        if (loadTracksRequired) {
+            setTimeout(loadTracks, 1000);
+        }
+    });
 
     function applyMapStyles(m) {
         if (m.layer) {
@@ -674,6 +636,54 @@ if (mapElement) {
             }]
         }).addTo(map);
     }
+}
+
+function checkMapsLoad() {
+    let intervalCounter = 0;
+    let imagesLoadInterval = setInterval(function() {
+        syncMaps();
+
+        if (imagesLoadCounter <= 0) {
+            if (intervalCounter++ > 3) {
+                hideSpinner();
+                clearInterval(imagesLoadInterval);
+
+                visibleMaps = recalculateLayers();
+                if (!loaded) {
+                    loaded = true;
+
+                    // --- year slider (https://github.com/slawomir-zaziablo/range-slider) ---
+                    let yearSliderEl = document.getElementById("year_slider");
+                    if (yearSliderEl) {
+                        yearSliderEl.parentElement.style.display = 'block';
+                        let years = Object.keys(ageGroups);
+                        let wideScreen = false; //window.innerWidth > 1000;
+                        let yearSlider = new rSlider({
+                            target: '#year_slider',
+                            values: years,
+                            range: !timeline,
+                            set: timeline ? [years[years.length-1]] : [years[0], years[years.length-1]],
+                            labels: wideScreen,
+                            tooltip: !wideScreen,
+                            onChange: function (vals) {
+                                processYearSlider(years, vals);
+                            }
+                        });
+                    }
+
+                    // set required styles for the map elements
+                    for (const m of oMaps) {
+                        applyMapStyles(m);
+                    }
+
+                    // go to the specified map
+                    if (MAP_NAME_PARAM) {
+                        locateMapForUrl(MAP_NAME_PARAM);
+                    }
+                }
+            }
+        }
+    }, 1000);
 }
 
 tuneContextMenu();

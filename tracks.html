@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>o-Maps: карты Рязани</title>
-    <meta name="description" content="Карты? Найдутся все! Спортивные карты Рязани в наглядной форме с фильтрацией и описанием.">
+    <title>o-Maps: Маршруты</title>
+    <meta name="description" content="Интересные маршруты Санкт-Петербурга и окрестностей.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -24,10 +24,10 @@
 
     <script src="js/ext/bootstrap.min.js"></script>
 
-    <meta property="og:title" content="o-Maps: карты Рязани">
+    <meta property="og:title" content="o-Maps: маршруты">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Рязани в наглядной форме с фильтрацией и описанием.">
+    <meta property="og:description" content="Интересные маршруты Санкт-Петербурга и окрестностей.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <!-- Yandex.Metrika counter -->
@@ -53,19 +53,17 @@
 
     <noscript>
         <div id="noscript_content">
-            <h1>O-maps. Карты на карте ◪ <br/> Спортивные карты Рязани.</h1>
+            <h1>O-maps. Маршруты на карте ◪ <br/> Интересные маршруты Санкт-Петербурга и окрестностей.</h1>
 
             <h2>Карта сайта:</h2>
             <ul>
                 <li><a href="spb.html"><h3>Спортивные карты Санкт-Петербурга.</h3></a></li>
                 <li><a href="moscow.html"><h3>Спортивные карты Москвы.</h3></a></li>
-                <li><a href="serbia.html"><h3>Спортивные карты Белграда.</h3></a></li>
                 <li><a href="all.html"><h3>Спортивные карты Санкт-Петербурга и Москвы с областями.</h3></a></li>
                 <li><a href="starts.html"><h3>Карты, показывающие районы и дистанции многодневок (Невский Азимут, Яркий Мир,
                     ККП, ММС) и серий стартов (Спринт-Тур, RFAR, 100х24) хронологически.</h3></a></li>
                 <li><a href="charts-spb.html"><h3>Статистика карт Санкт-Петербурга.</h3></a></li>
                 <li><a href="charts-moscow.html"><h3>Статистика карт Москвы.</h3></a></li>
-                <li><a href="charts-serbia.html"><h3>Статистика карт Белграда.</h3></a></li>
                 <li><a href="charts-all.html"><h3>Статистика карт Санкт-Петербурга и Москвы с областями.</h3></a></li>
             </ul>
 
@@ -103,12 +101,12 @@
         <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
         <option value="spb">Санкт-Петербург</option>
         <option value="msk">Москва</option>
-        <option value="rzn" selected>Рязань</option>
-        <option value="srb">Београд</option>
+        <option value="rzn">Рязань</option>
+        <option value="srb">Белград</option>
         <option value="all">Все регионы вместе</option>
         <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
         <option value="starts">Старты на карте</option>
-        <option value="tracks">Маршруты</option>
+        <option value="tracks" selected>Маршруты</option>
     </select>
     <img id="spinner" src="images/plant.gif" alt="" />
     <div id="counter"></div>
@@ -132,31 +130,43 @@
     <script src="js/ext/Leaflet.FileLayer/togeojson.js"></script>
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
+    <script src="js/ext/GPX.js"></script>
 
-    <script src="js/maps-ryazan.js"></script>
+    <script src="js/maps-rogaine.js"></script>
+    <script src="js/maps-rogaine-beketov.js"></script>
+    <script src="js/maps-rogaine-kkm.js"></script>
+    <script src="js/maps-rogaine-rfar.js"></script>
+
+    <script src="js/tracks.js"></script>
 
     <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
     <script src="js/owners.js"></script>
+    <script src="js/planners.js"></script>
     <script src="js/welcome.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/utils-common.js"></script>
 
     <script>
-        const centerX = 54.636318257607456;
-        const centerY = 39.74879264831544;
-        const CHARTS_PAGE = './charts-ryazan.html';
-        const SHEET_PAGE = './sheet-ryazan.html';
-        const REGION_KEY = 'rzn';
+        const centerX = 59.93325843615562;
+        const centerY = 30.338916778564457;
+        const CHARTS_PAGE = './charts-spb.html';
+        const SHEET_PAGE = './sheet-spb.html';
+        const REGION_KEY = 'spb';
 
         let loadImagesRequired = true;
+        let loadTracksRequired = true;
+        let funsRequired = true;
 
         let oMaps = [
-            ...ryazanMaps,
+            ...rogaineRfarMaps,
+            ...rogaineBeketovMaps,
+            ...rogaineKkmMaps,
+            ...rogaineMaps,
         ];
     </script>
 
-    <script src="js/map-build.js"></script>
+    <script src="js/map-build-tracks.js"></script>
     <script src="js/tips.js"></script>
     <script src="js/main.js"></script>
 </body>

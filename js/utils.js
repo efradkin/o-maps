@@ -83,7 +83,7 @@ function getFirstTrack(t) {
 }
 
 function trackLink(url, exclusive) {
-    return location.origin + '/spb.html?' + (exclusive ? 'only' : '') + 'track=' + extractFileName(url);
+    return location.origin + '/tracks.html?' + (exclusive ? 'only' : '') + 'track=' + extractFileName(url);
 }
 
 function buildTrackDownloadLinks(t) {
@@ -126,10 +126,15 @@ function getImageOverlaysInView(total) {
     let imgs = [];
     let bounds = map.getBounds();
     map.eachLayer( function(layer) {
-        if(layer instanceof L.ImageOverlay) {
-            let inside = inFrame(bounds, layer);
-            if (total || inside) {
-                imgs.push(layer);
+        if(layer instanceof L.ImageOverlay || layer._gpx) {
+            if (layer._gpx) {
+                layer = layer.getLayers()[0];
+            }
+            if (layer) {
+                let inside = inFrame(bounds, layer);
+                if (total || inside) {
+                    imgs.push(layer);
+                }
             }
         }
     });
@@ -137,7 +142,12 @@ function getImageOverlaysInView(total) {
 }
 
 function inFrame(bounds, layer) {
-    return bounds.contains(layer.getTopLeft()) || bounds.contains(layer.getTopRight()) || bounds.contains(layer.getBottomLeft());
+    if (layer instanceof L.ImageOverlay.Rotated)
+        return bounds.contains(layer.getTopLeft()) || bounds.contains(layer.getTopRight()) || bounds.contains(layer.getBottomLeft());
+    else {
+        let layerBounds = layer.getBounds();
+        return bounds.contains(layerBounds.getNorthEast()) || bounds.contains(layerBounds.getSouthWest());
+    }
 }
 
 function getMapForName(fileName) {
@@ -383,9 +393,9 @@ function selectMapRegion(region, prefix) {
         case 'rzn':location.href = './' + prefix + 'ryazan.html'; break;
         case 'srb':location.href = './' + prefix + 'serbia.html'; break;
         case 'all':location.href = './' + prefix + 'all.html'; break;
+        case 'tracks':location.href = './' + prefix + 'tracks.html'; break;
         case 'starts':location.href = './starts.html'; break;
         case 'docs':location.href = './documents.html'; break;
-        case 'tracks':location.href = './sheet-tracks.html'; break;
     }
 }
 
@@ -461,4 +471,15 @@ function downloadSheetTable(fileName) {
 
 function isDocumentsPage() {
     return typeof documentsPage != 'undefined' && documentsPage;
+}
+
+function showSpinner() {
+    let el = document.getElementById("spinner");
+    if (el.style.display !== 'block') {
+        el.style.display = 'block';
+    }
+}
+
+function hideSpinner() {
+    document.getElementById("spinner").style.display = 'none';
 }
