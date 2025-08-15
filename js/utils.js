@@ -385,23 +385,23 @@ function selectMapRegion(region, prefix) {
         case 'all':location.href = './' + prefix + 'all.html'; break;
         case 'starts':location.href = './starts.html'; break;
         case 'docs':location.href = './documents.html'; break;
-        case 'tracks':location.href = './tracks.html'; break;
+        case 'tracks':location.href = './sheet-tracks.html'; break;
     }
 }
 
 function selectTrackType(trackType) {
     if (trackType === 'ALL') {
-        location.href = './tracks.html';
+        location.href = './sheet-tracks.html';
     } else {
-        location.href = './tracks.html?track-type=' + trackType;
+        location.href = './sheet-tracks.html?track-type=' + trackType;
     }
 }
 
 function selectTrackMonth(month) {
     if (month === '0') {
-        location.href = './tracks.html';
+        location.href = './sheet-tracks.html';
     } else {
-        location.href = './tracks.html?track-month=' + month;
+        location.href = './sheet-tracks.html?track-month=' + month;
     }
 }
 
