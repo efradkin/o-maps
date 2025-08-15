@@ -38,4 +38,15 @@ let otherMaps = [
         author: ['TKMKV_K','LUK_V'],
         owner: 'KRSHNV',
     },
+    // --- Оренбург ---
+    {
+        name: 'парк Ивушка',
+        year: 2025,
+        url: './maps/other/ivushka_2025.webp',
+        link: './original_maps/other/ivushka_2025_omaps.jpg',
+        bounds: [[51.79770790189836, 55.21902322769166], [51.79648701968797, 55.23048162460328], [51.78966539560376, 55.216641426086426]],
+        author: 'STPNV_P',
+        logo: 'orenburg.webp',
+        type: ['PARK']
+    },
 ];
