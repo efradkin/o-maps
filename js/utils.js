@@ -442,10 +442,12 @@ function selectTrackType(trackType) {
 }
 
 function selectTrackMonth(month) {
+    let href = location.origin + location.pathname;
+    console.log(href)
     if (month === '0') {
-        location.href = './sheet-tracks.html';
+        location.href = href;
     } else {
-        location.href = './sheet-tracks.html?track-month=' + month;
+        location.href = href + '?track-month=' + month;
     }
 }
 

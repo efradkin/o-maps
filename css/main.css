@@ -101,6 +101,15 @@ a, a:active, a:focus {
     padding: 5px;
     border-radius: 5px;
 }
+#map_tracks_month_selector {
+    position:absolute;
+    top:12px;
+    left:260px;
+    z-index: 777;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
 .header_selector {
     position: relative;
     top: -6px;

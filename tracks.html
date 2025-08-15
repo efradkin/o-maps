@@ -96,6 +96,7 @@
     </noscript>
 
     <div id="map"></div>
+
     <select id="map_region_selector" onchange="selectMapRegion(this.value)">
         <option value="index">Начальная страница</option>
         <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
@@ -108,6 +109,23 @@
         <option value="starts">Старты на карте</option>
         <option value="tracks" selected>Маршруты</option>
     </select>
+
+    <select id="map_tracks_month_selector" onchange="selectTrackMonth(this.value)">
+        <option value="0">все</option>
+        <option value="01">Январь</option>
+        <option value="02">Февраль</option>
+        <option value="03">Март</option>
+        <option value="04">Апрель</option>
+        <option value="05">Май</option>
+        <option value="06">Июнь</option>
+        <option value="07">Июль</option>
+        <option value="08">Август</option>
+        <option value="09">Сентябрь</option>
+        <option value="10">Октябрь</option>
+        <option value="11">Ноябрь</option>
+        <option value="12">Декабрь</option>
+    </select>
+
     <img id="spinner" src="images/plant.gif" alt="" />
     <div id="counter"></div>
 
@@ -169,5 +187,12 @@
     <script src="js/map-build-tracks.js"></script>
     <script src="js/tips.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+        if (TRACK_MONTH_PARAM) {
+            let selector = document.getElementById('map_tracks_month_selector');
+            selector.value = TRACK_MONTH_PARAM;
+        }
+    </script>
 </body>
 </html>
