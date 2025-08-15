@@ -317,6 +317,23 @@ let starts = {
         logo: 'tropa_thirsday.jpg'
     },
     /* --- ТРЕКИ --- */
+    OOPTSPB: {
+        short: 'ООПТ СПб',
+        name: '<a href="https://oopt.spb.ru/">ООПТ СПб</a>',
+        logo: 'oopt_spb.png',
+        info: 'Особо охраняемые природные территории Санкт-Петербурга.'
+    },
+    OOPTLO: {
+        short: 'ООПТ ЛО',
+        name: '<a href="https://ooptlo.ru/">ООПТ ЛО</a>',
+        logo: 'oopt_lo.gif',
+        info: 'Особо охраняемые природные территории Ленинградской области.'
+    },
+    RUTRAIL: {
+        short: 'RUTRAIL',
+        name: '<a href="https://rutrail.org/">RUTRAIL</a>',
+        logo: 'rutrail.gif',
+    },
     PARKRUN: {
         short: '5 вёрст',
         name: '<a href="https://5verst.ru/">5 вёрст</a>',
@@ -387,6 +404,11 @@ let starts = {
         short: 'GPSарт',
         name: '<a href="https://gpsart.ru/">GPSарт</a>',
         logo: 'gpsart.gif'
+    },
+    FOURESTCUP: {
+        short: '4Rest Cup',
+        name: '<a href="https://vk.com/4restcup">4Rest Cup</a>',
+        logo: '4rest_cup.gif'
     },
 };
 

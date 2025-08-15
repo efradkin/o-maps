@@ -478,10 +478,10 @@ label:has(> span span .layer-separator) {
     color: blue;
 }
 .VELO {
-    color: brown;
+    color: green;
 }
 .WALK {
-    color: green;
+    color: brown;
 }
 .WATER {
     color: darkblue;

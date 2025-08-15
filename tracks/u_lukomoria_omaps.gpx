@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version="1.1" creator="https://www.komoot.de" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>У Лукоморья</name>
+    <author>
+      <link href="https://www.komoot.de">
+        <text>komoot</text>
+        <type>text/html</type>
+      </link>
+    </author>
+  </metadata>
+  <trk>
+    <name>У Лукоморья</name>
+    <trkseg>
+      <trkpt lat="60.006560" lon="30.038169">
+        <ele>9.934188</ele>
+        <time>2025-08-14T11:34:48.976Z</time>
+      </trkpt>
+      <trkpt lat="60.005962" lon="30.037732">
+        <ele>9.934188</ele>
+        <time>2025-08-14T11:35:53.319Z</time>
+      </trkpt>
+      <trkpt lat="60.004480" lon="30.036646">
+        <ele>9.266005</ele>
+        <time>2025-08-14T11:38:32.364Z</time>
+      </trkpt>
+      <trkpt lat="60.000950" lon="30.034061">
+        <ele>6.316690</ele>
+        <time>2025-08-14T11:44:55.871Z</time>
+      </trkpt>
+      <trkpt lat="60.001247" lon="30.032234">
+        <ele>5.929035</ele>
+        <time>2025-08-14T11:46:32.111Z</time>
+      </trkpt>
+      <trkpt lat="60.001318" lon="30.031624">
+        <ele>5.851905</ele>
+        <time>2025-08-14T11:47:03.425Z</time>
+      </trkpt>
+      <trkpt lat="60.001305" lon="30.031211">
+        <ele>5.800944</ele>
+        <time>2025-08-14T11:47:24.206Z</time>
+      </trkpt>
+      <trkpt lat="60.001362" lon="30.029983">
+        <ele>5.649067</ele>
+        <time>2025-08-14T11:48:26.554Z</time>
+      </trkpt>
+      <trkpt lat="60.001349" lon="30.029339">
+        <ele>5.520983</ele>
+        <time>2025-08-14T11:48:59.290Z</time>
+      </trkpt>
+      <trkpt lat="60.001302" lon="30.029116">
+        <ele>5.471512</ele>
+        <time>2025-08-14T11:49:11.533Z</time>
+      </trkpt>
+      <trkpt lat="60.000929" lon="30.029841">
+        <ele>5.258856</ele>
+        <time>2025-08-14T11:50:04.315Z</time>
+      </trkpt>
+      <trkpt lat="60.000540" lon="30.031132">
+        <ele>4.950724</ele>
+        <time>2025-08-14T11:51:20.324Z</time>
+      </trkpt>
+      <trkpt lat="60.000466" lon="30.031315">
+        <ele>4.908043</ele>
+        <time>2025-08-14T11:51:32.123Z</time>
+      </trkpt>
+      <trkpt lat="60.000185" lon="30.031780">
+        <ele>4.906086</ele>
+        <time>2025-08-14T11:52:09.026Z</time>
+      </trkpt>
+      <trkpt lat="59.999811" lon="30.032222">
+        <ele>4.903756</ele>
+        <time>2025-08-14T11:52:52.568Z</time>
+      </trkpt>
+      <trkpt lat="59.999665" lon="30.032498">
+        <ele>4.902678</ele>
+        <time>2025-08-14T11:53:12.827Z</time>
+      </trkpt>
+      <trkpt lat="59.999563" lon="30.032774">
+        <ele>4.901757</ele>
+        <time>2025-08-14T11:53:30.024Z</time>
+      </trkpt>
+      <trkpt lat="59.999541" lon="30.032990">
+        <ele>4.901166</ele>
+        <time>2025-08-14T11:53:41.062Z</time>
+      </trkpt>
+      <trkpt lat="60.000305" lon="30.033583">
+        <ele>4.898466</ele>
+        <time>2025-08-14T11:55:03.752Z</time>
+      </trkpt>
+      <trkpt lat="60.000950" lon="30.034061">
+        <ele>4.898466</ele>
+        <time>2025-08-14T11:56:12.746Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
