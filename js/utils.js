@@ -126,7 +126,7 @@ function getImageOverlaysInView(total) {
     let imgs = [];
     let bounds = map.getBounds();
     map.eachLayer( function(layer) {
-        if(layer instanceof L.ImageOverlay || layer._gpx) {
+        if (layer instanceof L.ImageOverlay || layer._gpx) {
             if (layer._gpx) {
                 layer = layer.getLayers()[0];
             }
@@ -158,6 +158,17 @@ function getMapForName(fileName) {
     }
 }
 
+function isTracksDisplayed() {
+    let result = false;
+    map.eachLayer( function(layer) {
+        if (layer._gpx) {
+            result = true;
+            return false;
+        }
+    });
+    return result;
+}
+
 // searches all the maps for the given text
 function searchMaps(text) {
     let results = [];
@@ -185,17 +196,29 @@ function searchMaps(text) {
                 results.push(m);
             }
         }
+        if (isTracksDisplayed() && !isNull(tracks)) {
+            for (const t of tracks) {
+                if (unifyString(t.name).includes(text)) {
+                    results.push(t);
+                }
+            }
+            for (const t of tracks) {
+                if (!results.includes(t) && (t.info && unifyString(t.info).includes(text))) {
+                    results.push(t);
+                }
+            }
+        }
     }
     return results;
 }
 
 function unifyString(s) {
-    return s.toLocaleLowerCase().replaceAll('ё','е');
+    return s ? s.trim().toLocaleLowerCase().replaceAll('ё','е') : '';
 }
 
 // searches the map is the best matches the given text
 function searchMap(text) {
-    text = text.trim().toLocaleLowerCase();
+    text = unifyString(text);
 
     let latLng = parseCoordinates(text);
     if (latLng) {
@@ -213,8 +236,15 @@ function searchMap(text) {
     }
     if (title) {
         for (const m of oMaps) {
-            if (m.name.toLocaleLowerCase().includes(title) && (!year || year === m.year) && !isMapHidden(m)) {
+            if (unifyString(m.name).includes(title) && (!year || year === m.year) && !isMapHidden(m)) {
                 return m;
+            }
+        }
+        if (!isNull(tracks)) {
+            for (const t of tracks) {
+                if (unifyString(t.name).includes(title) && (!year || year === t.year)) {
+                    return t;
+                }
             }
         }
     } else
@@ -227,18 +257,18 @@ function searchMap(text) {
     } else {
         for (const m of oMaps) {
             for (const m of oMaps) {
-                if (m.name.toLocaleLowerCase().includes(text) && !isMapHidden(m)) {
+                let sameName = unifyString(m.name).includes(text);
+                let sameInfo = m.info && unifyString(m.info).includes(text);
+                let sameUrl = m.url.toLocaleLowerCase().includes(text);
+                if ((sameName || sameInfo || sameUrl) && !isMapHidden(m)) {
                     return m;
                 }
             }
-            for (const m of oMaps) {
-                if (m.info && m.info.toLocaleLowerCase().includes(text) && !isMapHidden(m)) {
-                    return m;
-                }
-            }
-            for (const m of oMaps) {
-                if (m.url.toLocaleLowerCase().includes(text) && !isMapHidden(m)) {
-                    return m;
+        }
+        if (!isNull(tracks)) {
+            for (const t of tracks) {
+                if (unifyString(t.name).includes(text) || unifyString(t.info).includes(text)) {
+                    return t;
                 }
             }
         }
@@ -266,24 +296,28 @@ function hideMap(map, url) {
 }
 
 function locateMap(m) {
-    map.fitBounds(m.bounds);
+    if (m.gpx) {
+        locateForUrl(m.gpx);
+    } else {
+        map.fitBounds(m.bounds);
+    }
 }
 
-function locateMapForUrl(mapName) {
+function locateForUrl(url) {
     map.eachLayer( function(layer) {
-        if(layer instanceof L.ImageOverlay && layer._url.includes(mapName)) {
-            map.fitBounds(layer.getBounds());
-            upZindex(layer);
-            return false;
-        }
-    });
-}
-
-function locateTrackForUrl(gpx) {
-    map.eachLayer( function(layer) {
-        if(layer._gpx && layer._gpx.includes(gpx)) {
-            map.fitBounds(layer.getBounds());
-            return false;
+        if(layer instanceof L.ImageOverlay) {
+            if(layer._url.includes(url)) {
+                map.fitBounds(layer.getBounds());
+                upZindex(layer);
+                return false;
+            }
+        } else {
+            if(layer._gpx) {
+                if(layer._gpx.includes(url)) {
+                    map.fitBounds(layer.getBounds());
+                    return false;
+                }
+            }
         }
     });
 }

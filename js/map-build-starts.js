@@ -221,7 +221,7 @@ function getCreateAgeGroup(year) {
 }
 
 function isMapAcceptable(m) {
-    return typeof m.start !== 'undefined' || isMajor(m);
+    return !isNull(m.start) || isMajor(m);
 }
 
 function buildContextmenuItems() {

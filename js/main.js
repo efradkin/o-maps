@@ -115,7 +115,7 @@ function loadTracks() {
 
         // go to the specified track
         if (TRACK_NAME_PARAM) {
-            locateTrackForUrl(TRACK_NAME_PARAM);
+            locateForUrl(TRACK_NAME_PARAM);
         }
     }, 100);
 }
@@ -208,11 +208,11 @@ if (mapElement) {
             if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN') || mapType.includes('FOTO'))) {
                 activeLayers.push(funGroup, rogaineGroup);
             } else
-            if (m.year && m.year < 2000 && (typeof groupRetro !== 'undefined')) {
+            if (m.year && m.year < 2000 && !isNull(groupRetro)) {
                 activeLayers.push(groupRetro, group90th);
             }
         }
-    } else if (START_NAME_PARAM === 'major' && (typeof groupRetro !== 'undefined')) {
+    } else if (START_NAME_PARAM === 'major' && !isNull(groupRetro)) {
         activeLayers.push(groupRetro, group90th);
     }
     if (!loadTracksRequired && (TRACK_NAME_PARAM || HAS_TRACKS_PARAM)) {
@@ -370,7 +370,7 @@ if (mapElement) {
                 var value = searchBox.getValue();
                 if (value != "") {
                     var results = searchMaps(value);
-                    searchBox.setItems(results.map(m => '&nbsp;' + mapTitle(m)).slice(0, 10));
+                    searchBox.setItems(results.map(m => '&nbsp;' + mapTitle(m, false, true)).slice(0, 10));
                 } else {
                     searchBox.clearItems();
                 }
@@ -678,7 +678,7 @@ function checkMapsLoad() {
 
                     // go to the specified map
                     if (MAP_NAME_PARAM) {
-                        locateMapForUrl(MAP_NAME_PARAM);
+                        locateForUrl(MAP_NAME_PARAM);
                     }
                 }
             }
@@ -907,14 +907,21 @@ function tuneContextMenuItem(element, icon, flag) {
     }
 }
 
-function mapTitle(m, forStart) {
-    let result = m.name;
+function mapTitle(m, forStart, colored) {
+    let result = '';
+    if (m.gpx) { // трек
+        result += '<span class="' + m.type[0] + '">';
+    }
+    result += m.name;
     if (m.year) {
         let year = m.year > 1 ? m.year : 'ретро';
         if (forStart && m.startYear) {
             year = m.startYear;
         }
         result += '&nbsp;(' + year + ')';
+    }
+    if (m.gpx) {
+        result += '</span>';
     }
     return result;
 }
@@ -924,7 +931,7 @@ function mapLogoList(m) {
     if (m.logo) {
         logo.push(m.logo);
     }
-    if ((typeof starts !== 'undefined') && m.start) {
+    if (!isNull(starts) && m.start) {
         if (Array.isArray(m.start)) {
             for (const s of m.start) {
                 if (starts[s] && starts[s].logo) {
@@ -1000,7 +1007,7 @@ function buildPopup(m, latLngs) {
     }
 
     // имя
-    result += '<b>' + mapTitle(m);
+    result += '<b>' + mapTitle(m, false, false);
 
     // площадь
     let area = m.area.toFixed(2);

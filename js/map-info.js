@@ -2,7 +2,7 @@ let m = getMapForName(MAP_NAME_PARAM);
 document.getElementById('map_title').href = mapLink(m.url, m.region);
 let elName = document.getElementById('map_name');
 if (elName) {
-    elName.innerHTML = mapTitle(m, true);
+    elName.innerHTML = mapTitle(m, true, false);
 }
 if (m.start && starts[m.start]) {
     document.getElementById('map_start').innerHTML = starts[m.start].name;

@@ -103,7 +103,6 @@ function allocateMap(m, layer) {
         }
         if (m.type.includes('WATER')) {
             processTrackMap(m, layer, waterGroup);
-
         }
         if (m.type.includes('SKI')) {
             processTrackMap(m, layer, skiGroup);
@@ -111,6 +110,7 @@ function allocateMap(m, layer) {
         if (m.type.includes('WALK')) {
             processTrackMap(m, layer, walkGroup);
         }
+        m.layer = layer; // save bounds for search
     } else {
         // карты
         if (m.type && m.type.includes('ROGAINE')) {

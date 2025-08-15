@@ -127,7 +127,7 @@ function isObject(obj) {
 }
 
 function isEmpty(array) {
-    return (array === undefined || array.length == 0);
+    return isNull(array) || array.length === 0;
 }
 
 function safe(s) {
@@ -153,7 +153,7 @@ const downloadTableAsCSV = (table, filename) => {
 };
 
 function countEntries(o) {
-    if (typeof o === 'undefined' || o === undefined || o === null || !o) {
+    if (isNull(o) || !o) {
         return 0;
     }
     else if (isObject(o)) {
@@ -161,5 +161,8 @@ function countEntries(o) {
     } else {
         return 1;
     }
+}
 
+function isNull(o) {
+    return typeof o === 'undefined' || o === undefined || o === null;
 }
