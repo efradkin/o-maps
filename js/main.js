@@ -462,11 +462,11 @@ if (mapElement) {
         }, 'Немного статистики').addTo(map)
     }
 
-    // --- statistics ---
-    if (!hiddenButtonsMode) {
+    // --- sheet ---
+    if (!hiddenButtonsMode || loadTracksRequired) {
         L.easyButton('button-icon papers-icon', function (btn, map) {
             downloadSheet();
-        }, 'Сводная таблица карт').addTo(map)
+        }, 'Сводная таблица ' + (loadTracksRequired ? 'маршрутов' : 'карт')).addTo(map)
     }
 
     // --- Leaflet.QgsMeasure (https://github.com/gabriel-russo/Leaflet.QgsMeasure)
