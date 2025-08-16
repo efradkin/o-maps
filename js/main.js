@@ -64,6 +64,10 @@ if (MAP_NAME_PARAM) {
     }
 }
 
+if (map === undefined) {
+    loadMaps();
+}
+
 function loadMaps() {
     showSpinner(true);
     for (const m of oMaps) {
@@ -73,7 +77,9 @@ function loadMaps() {
             }
         }
     }
-    checkMapsLoad();
+    if (map) {
+        checkMapsLoad();
+    }
 }
 
 function loadTracks() {
@@ -869,22 +875,24 @@ function syncMaps() {
         }
     }
 
-    for (const m of hiddenMaps) {
-        map.removeLayer(m.layer);
-    }
-    let zoom = map.getZoom();
-    for (const m of shownMaps) {
-        if (!showMapsOnSmallZoom) {
-            if (zoom <= EMPTY_MAPS_ZOOM_LEVEL) {
-                m.layer.setUrl(EMPTY_IMAGE_URL);
-            } else {
-                m.layer.setUrl(m.url);
-            }
+    if (map) {
+        for (const m of hiddenMaps) {
+            map.removeLayer(m.layer);
         }
-        map.addLayer(m.layer);
-    }
+        let zoom = map.getZoom();
+        for (const m of shownMaps) {
+            if (!showMapsOnSmallZoom) {
+                if (zoom <= EMPTY_MAPS_ZOOM_LEVEL) {
+                    m.layer.setUrl(EMPTY_IMAGE_URL);
+                } else {
+                    m.layer.setUrl(m.url);
+                }
+            }
+            map.addLayer(m.layer);
+        }
 
-    recalculateLayers();
+        recalculateLayers();
+    }
 }
 
 function tuneContextMenu() {
