@@ -1010,6 +1010,15 @@ let tracks = [
         type: ['RUN']
     },
     {
+        name: 'Сосновка',
+        link: 'https://probeg.org/event/65837/',
+        results: 'https://reg.russiarunning.com/event/StPeterburgKubokGubernatora3etap_2025',
+        info: 'Кубок Губернатора СПб. 5-10км.',
+        gpx: 'tracks/run/sosnovka_guber_2025_omaps.gpx',
+        start: 'SPBRUN',
+        type: ['RUN']
+    },
+    {
         name: 'Кудрово',
         link: 'https://5verst.ru/megaparkkudrovo',
         results: 'https://5verst.ru/megaparkkudrovo/results/all',

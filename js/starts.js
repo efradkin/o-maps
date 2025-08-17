@@ -410,5 +410,10 @@ let starts = {
         name: '<a href="https://vk.com/4restcup">4Rest Cup</a>',
         logo: '4rest_cup.gif'
     },
+    SPBRUN: {
+        short: 'SPb RUN',
+        name: '<a href="https://spbrun.run/">Спортивный Петербург</a>',
+        logo: 'spbrun.gif'
+    },
 };
 
