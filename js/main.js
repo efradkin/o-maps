@@ -100,16 +100,30 @@ function loadTracks() {
                 if (TRACK_MONTH_PARAM && (!t.date || t.date.slice(-2) !== TRACK_MONTH_PARAM)) {
                     continue;
                 }
-                let gpx = new L.GPX(firstTrack, {
+                let gpxLayer = new L.GPX(firstTrack, {
                     async: false,
                     display_wpt: false,
-                    color: (t.type ? color[t.type[0]] : 'green'),
-                    weight: 5
+                    color: (t.type ? color[t.type[0]] : 'brown'),
+                    opacity: .7,
+                    weight: 3
                 });
-                var popup_text = buildTrackPopup(t, gpx);
-                gpx.bindPopup(popup_text, {maxWidth: 500});
-                // gpx.addTo(tracksGroup);
-                allocateMap(t, gpx);
+                var popup_text = buildTrackPopup(t, gpxLayer);
+                gpxLayer.bindPopup(popup_text, {maxWidth: 500});
+                // gpxLayer.addTo(tracksGroup);
+                allocateMap(t, gpxLayer);
+
+                gpxLayer.on('mouseover', function(e) {
+                    e.target.setStyle({
+                        weight: 8,
+                        opacity: 1
+                    });
+                });
+                gpxLayer.on('mouseout', function(e) {
+                    e.target.setStyle({
+                        weight: 3,
+                        opacity: .7
+                    });
+                });
             } catch (e) {
                 console.log('Error loading track', t, e);
             }
