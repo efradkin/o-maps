@@ -467,6 +467,22 @@ let tracks = [
         type: ['WALK']
     },
     {
+        name: 'Ленинская тропа',
+        info: 'Тропа проходит через музей "Шалаш Ленина в Разливе". По пути есть оборудованные места для отдыха. Она прекрасна для любых видов активности - бег, вело, ролики, пешие прогулки.',
+        link: 'https://ru.wikiloc.com/marshruty-progulka/ekotropa-leninskaia-tropa-ecotrail-leninskaya-tropa-216506746',
+        gpx: 'tracks/tarkhovka_lenin_trail_omaps.gpx',
+        start: 'WIKILOC',
+        type: ['WALK','VELO','RUN']
+    },
+    {
+        name: 'Зеленогорск - Лахта',
+        info: 'Популярнейший маршрут в Куротном районе вдоль северного берега Невской губы. Прекрасен для любых видов активности - бег, вело, ролики, пешие прогулки.',
+        link: 'https://ru.wikiloc.com/marshruty-velosiped/ot-zelenogorska-do-muzhestva-132109579',
+        gpx: 'tracks/velo/zelenogorsk_lakhta_omaps.gpx',
+        start: 'WIKILOC',
+        type: ['VELO','WALK','RUN']
+    },
+    {
         name: 'Профиль Пушкина',
         info: 'Профиль Пушкина - Новогодняя пробежка в Пушкине.',
         link: 'https://hike.ru/pushkin_track.html',

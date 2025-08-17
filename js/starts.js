@@ -334,6 +334,11 @@ let starts = {
         name: '<a href="https://rutrail.org/">RUTRAIL</a>',
         logo: 'rutrail.gif',
     },
+    WIKILOC: {
+        short: 'Wikiloc',
+        name: '<a href="https://ru.wikiloc.com/">Wikiloc</a>',
+        logo: 'wikiloc.gif',
+    },
     PARKRUN: {
         short: '5 вёрст',
         name: '<a href="https://5verst.ru/">5 вёрст</a>',
