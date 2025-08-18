@@ -1027,6 +1027,8 @@ let tracks = [
     },
     {
         name: 'Сосновка',
+        year: 2025,
+        date: '17.08',
         link: 'https://probeg.org/event/65837/',
         results: 'https://reg.russiarunning.com/event/StPeterburgKubokGubernatora3etap_2025',
         info: 'Кубок Губернатора СПб. 5-10км.',

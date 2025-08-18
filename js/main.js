@@ -85,49 +85,24 @@ function loadMaps() {
 function loadTracks() {
     showSpinner();
     setTimeout(function() {
+        let actualTracks = [];
         for (const t of tracks) {
-            try {
-                if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
-                    continue;
-                }
-                let firstTrack = getFirstTrack(t);
-                if (ONLY_TRACK_NAME_PARAM && !firstTrack.includes(ONLY_TRACK_NAME_PARAM)) {
-                    continue;
-                }
-                if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
-                    continue;
-                }
-                if (TRACK_MONTH_PARAM && (!t.date || t.date.slice(-2) !== TRACK_MONTH_PARAM)) {
-                    continue;
-                }
-                let gpxLayer = new L.GPX(firstTrack, {
-                    async: false,
-                    display_wpt: false,
-                    color: (t.type ? color[t.type[0]] : 'brown'),
-                    opacity: .7,
-                    weight: 3
-                });
-                var popup_text = buildTrackPopup(t, gpxLayer);
-                gpxLayer.bindPopup(popup_text, {maxWidth: 500});
-                // gpxLayer.addTo(tracksGroup);
-                allocateMap(t, gpxLayer);
-
-                gpxLayer.on('mouseover', function(e) {
-                    e.target.setStyle({
-                        weight: 8,
-                        opacity: 1
-                    });
-                });
-                gpxLayer.on('mouseout', function(e) {
-                    e.target.setStyle({
-                        weight: 3,
-                        opacity: .7
-                    });
-                });
-            } catch (e) {
-                console.log('Error loading track', t, e);
+            if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
+                continue;
             }
+            if (ONLY_TRACK_NAME_PARAM && !firstTrack.includes(ONLY_TRACK_NAME_PARAM)) {
+                continue;
+            }
+            if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
+                continue;
+            }
+            if (TRACK_MONTH_PARAM && (!t.date || t.date.slice(-2) !== TRACK_MONTH_PARAM)) {
+                continue;
+            }
+            actualTracks.push(t);
         }
+        loadTracksRecursive(actualTracks.pop(), actualTracks);
+
         tracksLoaded = true;
         if (loadTracksRequired || loaded) {
             hideSpinner();
@@ -138,6 +113,45 @@ function loadTracks() {
             locateForUrl(TRACK_NAME_PARAM);
         }
     }, 100);
+}
+
+function loadTracksRecursive(t, actualTracks) {
+    try {
+        let firstTrack = getFirstTrack(t);
+        let gpxLayer = new L.GPX(firstTrack, {
+            async: false,
+            display_wpt: false,
+            color: (t.type ? color[t.type[0]] : 'brown'),
+            opacity: .7,
+            weight: 3
+        });
+        var popup_text = buildTrackPopup(t, gpxLayer);
+        gpxLayer.bindPopup(popup_text, {maxWidth: 500});
+        // gpxLayer.addTo(tracksGroup);
+        allocateMap(t, gpxLayer);
+
+        gpxLayer.on('mouseover', function(e) {
+            e.target.setStyle({
+                weight: 8,
+                opacity: 1
+            });
+        });
+        gpxLayer.on('mouseout', function(e) {
+            e.target.setStyle({
+                weight: 3,
+                opacity: .7
+            });
+        });
+    } catch (e) {
+        console.log('Error loading track', t, e);
+    }
+
+    let nextTrack = actualTracks.pop();
+    if (nextTrack) {
+        setTimeout(function () {
+            loadTracksRecursive(nextTrack, actualTracks);
+        }, 2)
+    }
 }
 
 function buildTrackPopup(t, gpxLayer) {

@@ -28,7 +28,7 @@ if (ONLY_MAP_NAME_PARAM) {
     MAP_NAME_PARAM = ONLY_MAP_NAME_PARAM;
 }
 
-const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-maps</a> | <a href="https://t.me/orient_spb">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright">OSM</a>';
+const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-maps</a> | <a href="https://t.me/o_maps">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright">OSM</a>';
 const CLEAR_MAP_LABEL = 'Убрать все старты';
 const SHOW_ALL_LABEL = 'Показать все старты';
 

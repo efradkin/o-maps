@@ -31,7 +31,7 @@ if (ONLY_TRACK_NAME_PARAM) {
     TRACK_NAME_PARAM = ONLY_TRACK_NAME_PARAM;
 }
 
-const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-maps</a> | <a href="https://t.me/orient_spb">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright">OSM</a>';
+const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-maps</a> | <a href="https://t.me/o_maps">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright">OSM</a>';
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
