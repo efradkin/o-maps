@@ -456,11 +456,9 @@ if (mapElement) {
     if (welcomeOpenedTime == null || dateDiff(Number(welcomeOpenedTime), time) > 6) {
         openWelcome();
     }
-    if (!hiddenButtonsMode) {
-        L.easyButton('button-icon welcome-icon', function (btn, map) {
-            openWelcome();
-        }, 'О проекте').addTo(map)
-    }
+    L.easyButton('button-icon welcome-icon', function (btn, map) {
+        openWelcome();
+    }, 'О проекте').addTo(map)
 
     // --- help ---
     if (!hiddenButtonsMode) {
@@ -477,11 +475,9 @@ if (mapElement) {
     }
 
     // --- sheet ---
-    if (!hiddenButtonsMode || loadTracksRequired) {
-        L.easyButton('button-icon papers-icon', function (btn, map) {
-            downloadSheet();
-        }, 'Сводная таблица ' + (loadTracksRequired ? 'маршрутов' : 'карт')).addTo(map)
-    }
+    L.easyButton('button-icon papers-icon', function (btn, map) {
+        downloadSheet();
+    }, 'Сводная таблица ' + (loadTracksRequired ? 'маршрутов' : 'карт')).addTo(map)
 
     // --- Leaflet.QgsMeasure (https://github.com/gabriel-russo/Leaflet.QgsMeasure)
     if (!hiddenButtonsMode) {
