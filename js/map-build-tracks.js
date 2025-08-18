@@ -40,7 +40,7 @@ let walkGroup = L.layerGroup([]);
 let skiGroup = L.layerGroup([]);
 let veloGroup = L.layerGroup([]);
 let waterGroup = L.layerGroup([]);
-let mapsGroup = L.layerGroup([]);
+//let mapsGroup = L.layerGroup([]);
 let rogaineGroup = L.layerGroup([]);
 
 let allOrientGroups = [
@@ -78,11 +78,11 @@ if (mapElement) {
 
 function buildOverlayMapsContents() {
     let result = {
-        "Бег": runGroup,
-        "Вело": veloGroup,
-        "Водные": waterGroup,
-        "Лыжи": skiGroup,
-        "Пешие": walkGroup,
+        "<span class='RUN'>Бег</span>": runGroup,
+        "<span class='VELO'>Вело</span>": veloGroup,
+        "<span class='WATER'>Водные</span>": waterGroup,
+        "<span class='SKI'>Лыжи</span>": skiGroup,
+        "<span class='WALK'>Пешие</span>": walkGroup,
         //"<span class='layer-separator'>Спорт.Карты</span>": mapsGroup,
         "<span class='layer-separator'>Карты</span>": rogaineGroup,
     };
@@ -99,7 +99,6 @@ function allocateMap(m, layer) {
         }
         if (m.type.includes('VELO')) {
             processTrackMap(m, layer, veloGroup);
-            layer.addTo(runGroup);
         }
         if (m.type.includes('WATER')) {
             processTrackMap(m, layer, waterGroup);
