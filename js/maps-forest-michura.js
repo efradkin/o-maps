@@ -190,6 +190,15 @@ let michuraMaps = [
         author: ['MKHLV_A','GVRLK','SLBDNK','ILVS','GRBTNKV','TRNV_V','TKMKV_K','KUZNTSV_S','VRBY'],
         owner: ['WN','ILVS'],
     },
+    {
+        name: 'Мичуринское',
+        year: 2025,
+        url: './maps/trnsprnt.png',
+        bounds: [[60.63732988815437, 29.829597473144535], [60.54868172542251, 30.03868103027344], [60.58155975236118, 29.82170104980469]],
+        photo: 'tracks/petrichenko/pic_1.jpg',
+        restricted: 'с 16.08.2025 по 21.09.2025, <a href="https://o-site.spb.ru/race.php?id=250921">Гран-при Владимира Алексеева</a>',
+        owner: 'WN'
+    },
 /*
     {
         name: 'Ягодное',

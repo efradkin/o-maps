@@ -510,6 +510,9 @@ function isDocumentsPage() {
 }
 
 function showSpinner() {
+    if (map === undefined) {
+        return;
+    }
     let el = document.getElementById("spinner");
     if (el.style.display !== 'block') {
         el.style.display = 'block';
@@ -517,5 +520,8 @@ function showSpinner() {
 }
 
 function hideSpinner() {
+    if (map === undefined) {
+        return;
+    }
     document.getElementById("spinner").style.display = 'none';
 }

@@ -334,6 +334,11 @@ let starts = {
         name: '<a href="https://rutrail.org/">RUTRAIL</a>',
         logo: 'rutrail.gif',
     },
+    WIKILOC: {
+        short: 'Wikiloc',
+        name: '<a href="https://ru.wikiloc.com/">Wikiloc</a>',
+        logo: 'wikiloc.gif',
+    },
     PARKRUN: {
         short: '5 вёрст',
         name: '<a href="https://5verst.ru/">5 вёрст</a>',
@@ -409,6 +414,11 @@ let starts = {
         short: '4Rest Cup',
         name: '<a href="https://vk.com/4restcup">4Rest Cup</a>',
         logo: '4rest_cup.gif'
+    },
+    SPBRUN: {
+        short: 'SPb RUN',
+        name: '<a href="https://spbrun.run/">Спортивный Петербург</a>',
+        logo: 'spbrun.gif'
     },
 };
 

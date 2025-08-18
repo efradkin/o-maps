@@ -64,6 +64,10 @@ if (MAP_NAME_PARAM) {
     }
 }
 
+if (map === undefined) {
+    loadMaps();
+}
+
 function loadMaps() {
     showSpinner(true);
     for (const m of oMaps) {
@@ -73,7 +77,9 @@ function loadMaps() {
             }
         }
     }
-    checkMapsLoad();
+    if (map) {
+        checkMapsLoad();
+    }
 }
 
 function loadTracks() {
@@ -94,16 +100,30 @@ function loadTracks() {
                 if (TRACK_MONTH_PARAM && (!t.date || t.date.slice(-2) !== TRACK_MONTH_PARAM)) {
                     continue;
                 }
-                let gpx = new L.GPX(firstTrack, {
+                let gpxLayer = new L.GPX(firstTrack, {
                     async: false,
                     display_wpt: false,
-                    color: (t.type ? color[t.type[0]] : 'green'),
-                    weight: 5
+                    color: (t.type ? color[t.type[0]] : 'brown'),
+                    opacity: .7,
+                    weight: 3
                 });
-                var popup_text = buildTrackPopup(t, gpx);
-                gpx.bindPopup(popup_text, {maxWidth: 500});
-                // gpx.addTo(tracksGroup);
-                allocateMap(t, gpx);
+                var popup_text = buildTrackPopup(t, gpxLayer);
+                gpxLayer.bindPopup(popup_text, {maxWidth: 500});
+                // gpxLayer.addTo(tracksGroup);
+                allocateMap(t, gpxLayer);
+
+                gpxLayer.on('mouseover', function(e) {
+                    e.target.setStyle({
+                        weight: 8,
+                        opacity: 1
+                    });
+                });
+                gpxLayer.on('mouseout', function(e) {
+                    e.target.setStyle({
+                        weight: 3,
+                        opacity: .7
+                    });
+                });
             } catch (e) {
                 console.log('Error loading track', t, e);
             }
@@ -456,11 +476,11 @@ if (mapElement) {
         }, 'Немного статистики').addTo(map)
     }
 
-    // --- statistics ---
-    if (!hiddenButtonsMode) {
+    // --- sheet ---
+    if (!hiddenButtonsMode || loadTracksRequired) {
         L.easyButton('button-icon papers-icon', function (btn, map) {
             downloadSheet();
-        }, 'Сводная таблица карт').addTo(map)
+        }, 'Сводная таблица ' + (loadTracksRequired ? 'маршрутов' : 'карт')).addTo(map)
     }
 
     // --- Leaflet.QgsMeasure (https://github.com/gabriel-russo/Leaflet.QgsMeasure)
@@ -869,22 +889,24 @@ function syncMaps() {
         }
     }
 
-    for (const m of hiddenMaps) {
-        map.removeLayer(m.layer);
-    }
-    let zoom = map.getZoom();
-    for (const m of shownMaps) {
-        if (!showMapsOnSmallZoom) {
-            if (zoom <= EMPTY_MAPS_ZOOM_LEVEL) {
-                m.layer.setUrl(EMPTY_IMAGE_URL);
-            } else {
-                m.layer.setUrl(m.url);
-            }
+    if (map) {
+        for (const m of hiddenMaps) {
+            map.removeLayer(m.layer);
         }
-        map.addLayer(m.layer);
-    }
+        let zoom = map.getZoom();
+        for (const m of shownMaps) {
+            if (!showMapsOnSmallZoom) {
+                if (zoom <= EMPTY_MAPS_ZOOM_LEVEL) {
+                    m.layer.setUrl(EMPTY_IMAGE_URL);
+                } else {
+                    m.layer.setUrl(m.url);
+                }
+            }
+            map.addLayer(m.layer);
+        }
 
-    recalculateLayers();
+        recalculateLayers();
+    }
 }
 
 function tuneContextMenu() {
