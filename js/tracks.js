@@ -60,7 +60,7 @@ let tracks = [
         gpx: 'tracks/zelenogorsk_omaps.gpx',
         pics: ['zelenogorsk',2],
         start: 'OOPTLO',
-        type: ['VELO','WALK']
+        type: ['WALK','VELO']
     },
     {
         name: 'Рощино, Линдуловская роща',
@@ -266,7 +266,7 @@ let tracks = [
         link: 'https://ooptlo.ru/karelskaya-tishina.html',
         gpx: 'tracks/melkovodnoe_omaps.gpx',
         start: 'OOPTLO',
-        type: ['VELO']
+        type: ['WALK','VELO']
     },
     {
         name: 'Воейково, Колтушский веломаршрут-1',
@@ -2164,6 +2164,17 @@ let tracks = [
         info: 'Помимо скоростных лесных дорог вас ждут песчаные склоны и тропы карьера, насыщенная пересеченка и разнообразная, живописная дистанция в обрамлении Золотой Осени.',
         gpx: 'tracks/velo/semiozerie_hard_bike_2024_omaps.gpx',
         start: 'HARD',
+        type: ['VELO']
+    },
+    {
+        name: 'НИССАН, Чемпионат Сотки',
+        year: 2025,
+        date: '9.08',
+        link: 'https://sotka.one/champion',
+        results: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTlbU2RTSyT4JpCL5cXjWLSiNCx-ggj94f0sZrsA6N19fW7xCYwnBFbscc1ioX7-knYOBUO_Ju4XyCr/pubhtml',
+        info: '13,5 км | два круга вокруг завода против часовой стрелки.',
+        gpx: 'tracks/velo/nissan_velo_2025_omaps.gpx',
+        start: 'SOTKA',
         type: ['VELO']
     },
 ];

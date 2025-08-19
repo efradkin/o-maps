@@ -420,5 +420,10 @@ let starts = {
         name: '<a href="https://spbrun.run/">Спортивный Петербург</a>',
         logo: 'spbrun.gif'
     },
+    SOTKA: {
+        short: 'Сотка',
+        name: '<a href="https://sotka.one">Сотка</a>',
+        logo: 'sotka.gif'
+    },
 };
 
