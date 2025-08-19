@@ -146,6 +146,11 @@ function loadTracksRecursive(t, actualTracks) {
             }
         });
         gpxLayer.on('click', function(e, f) {
+            document.querySelectorAll("path.leaflet-interactive").forEach(function (path) {
+                if (path.getAttribute('stroke-width') === '7') {
+                    path.setAttribute('stroke-width', 3);
+                }
+            });
             let target = e.originalEvent.target;
             let width = target.getAttribute('stroke-width');
             if (width === '6' || width === '3') {
