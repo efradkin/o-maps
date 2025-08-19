@@ -261,7 +261,7 @@ let tracks = [
         type: ['WALK']
     },
     {
-        name: 'Мелководное оз, "Карельская тишина"', // TODO не показывается
+        name: 'Мелководное оз, "Карельская тишина"',
         info: '"Экологическая тропа ведет через различные типы лесов, включая мелколиственные, еловые и сосновые леса, приуроченные к каменнистым сельгам, а так же через протоку Кивистёнсалми, соединяющую озёра Мелководное и Луговое. Кроме того, на тропе вы узнаете о финской истории этих мест, в том числе о коммуне Вуоксенранта и её образе жизни, и увидите лютеранскую кирху 1935 года постройки в поселке Озерское." ©',
         link: 'https://ooptlo.ru/karelskaya-tishina.html',
         gpx: 'tracks/melkovodnoe_omaps.gpx',
@@ -930,9 +930,14 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Кириши',
-        link: 'https://vk.com/ori_ki',
+        name: 'Киришский лыжный марафон',
+        year: 2023,
+        date: '19.02',
+        link: 'https://vk.com/kirishi_ski_marathon',
+        results: 'https://vk.com/wall-114713337_333',
+        info: '20-50км.',
         gpx: 'tracks/ski/kirishi_ski_omaps.gpx',
+        logo: 'kirishi_ski.webp',
         type: ['SKI']
     },
     {
@@ -1002,13 +1007,20 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Тихвин', // TODO не показывается
+        name: 'Тихвинский лыжный марафон',
+        year: 2024,
+        date: '28.01',
+        info: '20 и 50 км.',
+        link: 'https://vk.com/club199236798',
+        results: 'https://vk.com/wall-199236798_1340',
         gpx: 'tracks/ski/tikhvin_omaps.gpx',
+        logo: 'tikhvin.gif',
         type: ['SKI']
     },
     {
         name: 'Тихвин, Фишева гора',
         gpx: 'tracks/ski/tikhvin_fisheva_omaps.gpx',
+        logo: 'tikhvin.gif',
         type: ['SKI']
     },
     {
