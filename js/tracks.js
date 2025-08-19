@@ -661,16 +661,19 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Зеленогорск, б/о "Прибой"',
-        logo: 'priboy.webp',
+        name: 'Зеленогорск, б/о "Прибой", марафон «Двигатель»',
+        year: 2025,
+        date: '15.03',
         link: 'https://vk.com/bazapriboyzel',
-        info: 'Целиком прокатывается далеко не каждый год.',
+        info: 'Целиком прокатывается далеко не каждый год. Трассы марафона состоят из кругов 3, 5, 10 км.',
+        results: 'https://reg.o-time.ru/race/25055',
         gpx: {
             'марафонский круг':'tracks/ski/zelenogorsk_marathon_17_ski_omaps.gpx',
             'пятёрка':'tracks/ski/zelenogorsk_5_ski_omaps.gpx',
             'десятка':'tracks/ski/zelenogorsk_10_ski_omaps.gpx',
             'пятнашка':'tracks/ski/zelenogorsk_15_ski_omaps.gpx',
         },
+        logo: 'priboy.webp',
         type: ['SKI']
     },
     {
@@ -723,14 +726,18 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Токсовский марафон',
-        info: 'Старт - от базы СКА.',
+        name: 'Токсово, Toksovo Cup',
+        year: 2024,
+        date: '3.02',
+        info: 'Классическая трасса Токсовского лыжного марафона. Старт - от базы СКА.',
         link: 'https://vk.com/toksovocup',
+        results: 'https://reg.o-time.ru/race/24061',
         gpx: {
             '17km':'tracks/ski/toksovo_cup_17_ski_omaps.gpx',
             '10km':'tracks/ski/toksovo_cup_10_ski_omaps.gpx',
             'Full marathon 50km':'tracks/ski/toksovo_cup_50_ski_omaps.gpx'
         },
+        logo: 'toksovo_cup.gif',
         type: ['SKI']
     },
     {
@@ -763,10 +770,14 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Охта-парк',
-        info: 'Ближайший и возможно главный горнолыжный курорт в Санкт-Петербурге. Беговая лыжная трасса бесплатна, но посещение курорта - платное.',
+        name: 'Охта-парк, Toksovo Cup',
+        year: 2025,
+        date: '1.02',
+        results: 'https://reg.o-time.ru/race/25033',
+        info: 'Ближайший и возможно главный горнолыжный курорт в Санкт-Петербурге. Беговая лыжная трасса бесплатна, но посещение курорта - платное. Трасса Токсовского лыжного марафона 2025.',
         link: 'https://vk.com/ohtapark',
         gpx: 'tracks/ski/ohtapark_ski_omaps.gpx',
+        logo: 'ohta_park.gif',
         type: ['SKI']
     },
     {
@@ -789,13 +800,17 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Орехово, спортивный круг',
-        link: 'https://vk.com/orehovo_ski',
-        pic: './tracks/orekhovo/ski_1.jpg',
+        name: 'Ореховская Дюжина',
+        year: 2025,
+        date: '24.01',
+        link: 'https://www.multsport.ru/starts/orehovo-12km25/',
+        results: 'https://reg.o-time.ru/race/25061',
+        info: '1.3-26км',
         gpx: {
-            '12km':'tracks/ski/orekhovo_12_ski_omaps.gpx',
+            '13km':'tracks/ski/orekhovo_12_ski_omaps.gpx',
             '5km':'tracks/ski/orekhovo_5_ski_omaps.gpx'
         },
+        start: 'MULTSPORT',
         type: ['SKI']
     },
     {
@@ -815,12 +830,15 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Гарболово, "НАША ТРАССА"',
-        logo: 'garbolovo_ski.webp',
+        name: 'Гарболово, "НАША ТРАССА", GARBOSKI',
+        year: 2025,
+        date: '16.02',
+        results: 'https://reg.o-time.ru/race/25052',
         info: 'Круги: <ol><li><b>"Семейный"</b> - Идеален для семейных прогулок с детьми, первоначального обучения технике конькового и классического хода. На нем нет опасных спусков и крутых подъемов.</li>' +
             '<li><b>"Любитель"</b> - Есть срезки на каждом километре дистанции. Присутствуют подъемы и спуски с перепадом до 15м. Катание на этому кругу требует уверенного владения лыжами.</li>' +
             '<li><b>"Мастер"</b> - По-настоящему спортивный круг, протяженностью 7 км, бросающий вызов силе, выносливости, характеру и умению спортсмена.</li>' +
-            '<li><b>"Турист"</b> - Включает круги "Семейный", "Любитель", частично "Мастер" и 6-км дополнительную туристическую петлю, которая периодически готовится под коньковый и классический ход.</li></ol>',
+            '<li><b>"Турист"</b> - Включает круги "Семейный", "Любитель", частично "Мастер" и 6-км дополнительную туристическую петлю, которая периодически готовится под коньковый и классический ход.</li></ol>' +
+            'Актуальные треки - в <a href="https://reg.o-time.ru/bul/25052.pdf">положении</a>.',
         link: 'https://vk.com/sport_v_garbolovo',
         gpx: {
             'Турист, 12км':'tracks/ski/garbolovo_tourist_ski_omaps.gpx',
@@ -828,6 +846,7 @@ let tracks = [
             'Любитель, 6км':'tracks/ski/garbolovo_ljubitel_ski_omaps.gpx',
             'Семейный, 3.5км':'tracks/ski/garbolovo_family_ski_omaps.gpx',
         },
+        logo: 'garbolovo_ski.webp',
         type: ['SKI']
     },
     {
@@ -851,8 +870,12 @@ let tracks = [
     },
     {
         name: 'Игора-Драйв',
-        link: 'https://vk.com/igoradrive',
+        year: 2025,
+        date: '19.01',
+        link: 'https://drive-igora.ru/events/lyzhnaya-gonka-igora-drayv/',
+        results: 'https://reg.o-time.ru/race/25069',
         gpx: 'tracks/ski/igora_ski_omaps.gpx',
+        logo: 'igora.webp',
         type: ['SKI']
     },
     {
@@ -866,8 +889,14 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Выборг',
+        name: 'Выборгский лыжный марафон',
+        year: 2025,
+        date: '22.02',
+        link: 'https://vk.com/vyborgmarathon',
+        results: 'https://reg.o-time.ru/race/25053',
+        info: 'Гонка прошла по кругу 5 км. 1-30км.',
         gpx: 'tracks/ski/vyborg_ski_omaps.gpx',
+        logo: 'vyborg.webp',
         type: ['SKI']
     },
     {
@@ -879,9 +908,13 @@ let tracks = [
     },
     {
         name: 'Дудергофские медведи',
+        year: 2024,
+        date: '2.03',
         info: 'Практически плоская лыжная трасса по полям.',
         link: 'https://vk.com/dudergof_bear',
+        results: 'https://reg.o-time.ru/race/24298',
         gpx: 'tracks/ski/dudergof_bears_ski_omaps.gpx',
+        logo: 'dudergof_bear.gif',
         type: ['SKI']
     },
     {
@@ -909,8 +942,12 @@ let tracks = [
         type: ['SKI']
     },
     {
-        name: 'Гатчина',
+        name: 'Гатчинский лыжный марафон',
+        year: 2024,
+        date: '8.03',
+        results: 'https://reg.o-time.ru/race/24254',
         gpx: 'tracks/ski/gatchina_ski_omaps.gpx',
+        logo: 'gatchina.gif',
         type: ['SKI']
     },
     {

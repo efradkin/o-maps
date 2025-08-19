@@ -378,7 +378,7 @@ let starts = {
     GATCHINA: {
         short: 'Гатчина',
         name: '<a href="https://vk.com/gatchinasport">Гатчина</a>',
-        logo: 'gatchina.gif',
+        logo: 'gatchina_run.gif',
     },
     KOLYUCHIE: {
         short: 'Колючие старты',
@@ -424,6 +424,11 @@ let starts = {
         short: 'Сотка',
         name: '<a href="https://sotka.one">Сотка</a>',
         logo: 'sotka.gif'
+    },
+    MULTSPORT: {
+        short: 'МУЛЬТИСПОРТ',
+        name: '<a href="https://www.multsport.ru/">МУЛЬТИСПОРТ</a>',
+        logo: 'multsport.webp'
     },
 };
 
