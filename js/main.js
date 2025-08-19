@@ -131,16 +131,33 @@ function loadTracksRecursive(t, actualTracks) {
         allocateMap(t, gpxLayer);
 
         gpxLayer.on('mouseover', function(e) {
-            e.target.setStyle({
-                weight: 8,
-                opacity: 1
-            });
+            let target = e.originalEvent.target;
+            let width = target.getAttribute('stroke-width');
+            if (width !== '7') {
+                e.target.setStyle({
+                    weight: 6,
+                    opacity: 1
+                });
+            }
         });
         gpxLayer.on('mouseout', function(e) {
-            e.target.setStyle({
-                weight: 3,
-                opacity: .7
-            });
+            let target = e.originalEvent.target;
+            let width = target.getAttribute('stroke-width');
+            if (width !== '7') {
+                e.target.setStyle({
+                    weight: 3,
+                    opacity: .7
+                });
+            }
+        });
+        gpxLayer.on('click', function(e, f) {
+            let target = e.originalEvent.target;
+            let width = target.getAttribute('stroke-width');
+            if (width === '6' || width === '3') {
+                target.setAttribute('stroke-width', 7);
+            } else {
+                target.setAttribute('stroke-width', 6);
+            }
         });
     } catch (e) {
         console.log('Error loading track', t, e);
