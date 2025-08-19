@@ -1312,7 +1312,7 @@ let tracks = [
         type: ['RUN']
     },
     {
-        name: 'Суоранда, Hard Trail | NIGHT',
+        name: 'Токсово, Hard Trail | NIGHT',
         year: 2024,
         date: '26.10',
         link: 'https://hardadventure.ru/night2024',

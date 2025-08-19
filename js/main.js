@@ -77,7 +77,7 @@ function loadMaps() {
             }
         }
     }
-    if (map) {
+    if (map && !loadTracksRequired) {
         checkMapsLoad();
     }
 }
@@ -104,13 +104,8 @@ function loadTracks() {
         loadTracksRecursive(actualTracks.pop(), actualTracks);
 
         tracksLoaded = true;
-        if (loadTracksRequired || loaded) {
+        if (loaded) {
             hideSpinner();
-        }
-
-        // go to the specified track
-        if (TRACK_NAME_PARAM) {
-            locateForUrl(TRACK_NAME_PARAM);
         }
     }, 100);
 }
@@ -168,6 +163,17 @@ function loadTracksRecursive(t, actualTracks) {
         setTimeout(function () {
             loadTracksRecursive(nextTrack, actualTracks);
         }, 2)
+    } else {
+        finishTracksLoad();
+    }
+}
+
+function finishTracksLoad() {
+    hideSpinner();
+
+    // go to the specified track
+    if (TRACK_NAME_PARAM) {
+        locateForUrl(TRACK_NAME_PARAM);
     }
 }
 
