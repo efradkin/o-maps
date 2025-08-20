@@ -97,6 +97,7 @@
                 <th>Инфо</th>
                 <th>Длина</th>
                 <th>GPX</th>
+                <th>Маркир</th>
                 <th>Ссылки</th>
                 <th>Тип</th>
                 <th>Фотки</th>
@@ -186,6 +187,7 @@
                 td(t, row, buildInfo(t));
                 td(t, row, buildLength(t));
                 td(t, row, buildTrackDownloadLinks(t));
+                td(t, row, buildMarkir(t));
                 td(t, row, buildLinks(t));
                 td(t, row, getTypesList(t, true));
                 td(t, row, buildFotos(t));
@@ -267,6 +269,14 @@
             } else {
                 return l;
             }
+        }
+
+        function buildMarkir(t) {
+            let result = '';
+            if (t.markir) {
+                result += '<img src="./images/favorite.png" title="Маркированный маршрут" />';
+            }
+            return result;
         }
 
         function buildLinks(t) {

@@ -146,12 +146,12 @@ function loadTracksRecursive(t, actualTracks) {
             }
         });
         gpxLayer.on('click', function(e, f) {
+            let target = e.originalEvent.target;
             document.querySelectorAll("path.leaflet-interactive").forEach(function (path) {
-                if (path.getAttribute('stroke-width') === '7') {
+                if (path !== target && path.getAttribute('stroke-width') === '7') {
                     path.setAttribute('stroke-width', 3);
                 }
             });
-            let target = e.originalEvent.target;
             let width = target.getAttribute('stroke-width');
             if (width === '6' || width === '3') {
                 target.setAttribute('stroke-width', 7);
@@ -185,11 +185,15 @@ function finishTracksLoad() {
 function buildTrackPopup(t, gpxLayer) {
     let firstTrack = getFirstTrack(t);
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
+    let markir = '';
+    if (t.markir) {
+        markir += '<img src="./images/favorite.png" title="Маркированный маршрут" /> &nbsp;';
+    }
     let typesList = getTypesList(t, true);
     if (!typesList.length) {
         typesList = 'МАРШРУТ';
     }
-    result += '<div class="popup-header popup-right-header">' + typesList + '</div>';
+    result += '<div class="popup-header popup-right-header">' + markir + typesList + '</div>';
 
     // картинка
     let pic;
