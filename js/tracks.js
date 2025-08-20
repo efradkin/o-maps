@@ -968,6 +968,13 @@ let tracks = [
         type: ['SKI']
     },
     {
+        name: 'Туутари',
+        info: 'Довольно плоская и ветренная лыжная трасса, раскатанная под конёк.',
+        link: 'https://www.tyytari.ru/holidays/photos/42/',
+        gpx: 'tracks/ski/tuutari_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
         name: 'Дудергоф, Можайская',
         info: 'Отличная гора практически в черте города!',
         link: 'https://vk.com/svdudergof',

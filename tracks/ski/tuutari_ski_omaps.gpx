@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="Wikiloc - https://www.wikiloc.com" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Wikiloc - Туутари-парк. Трасса беговых лыж</name>
+    <link href="https://www.wikiloc.com/cross-country-skiing-trails/tuutari-park-trassa-begovykh-lyzh-174813261">
+      <text>Туутари-парк. Трасса беговых лыж on Wikiloc</text>
+    </link>
+    <time>2024-02-18T13:51:46.756Z</time>
+  </metadata>
+  <trk>
+    <name>Туутари-парк. Трасса беговых лыж</name>
+    <cmt></cmt>
+    <desc></desc>
+    <trkseg>
+      <trkpt lat="59.694877" lon="30.180648">
+        <ele>108.096</ele>
+        <time>2024-02-18T13:36:34.275Z</time>
+      </trkpt>
+      <trkpt lat="59.694767" lon="30.181263">
+        <ele>108.031</ele>
+        <time>2024-02-18T13:36:42.275Z</time>
+      </trkpt>
+      <trkpt lat="59.694783" lon="30.181507">
+        <ele>108.024</ele>
+        <time>2024-02-18T13:36:45.275Z</time>
+      </trkpt>
+      <trkpt lat="59.694877" lon="30.181783">
+        <ele>107.009</ele>
+        <time>2024-02-18T13:36:49.275Z</time>
+      </trkpt>
+      <trkpt lat="59.696418" lon="30.183402">
+        <ele>112.040</ele>
+        <time>2024-02-18T13:37:35.275Z</time>
+      </trkpt>
+      <trkpt lat="59.696728" lon="30.183610">
+        <ele>111.046</ele>
+        <time>2024-02-18T13:37:45.275Z</time>
+      </trkpt>
+      <trkpt lat="59.696920" lon="30.183623">
+        <ele>110.083</ele>
+        <time>2024-02-18T13:37:52.276Z</time>
+      </trkpt>
+      <trkpt lat="59.696987" lon="30.183565">
+        <ele>110.047</ele>
+        <time>2024-02-18T13:38:05.276Z</time>
+      </trkpt>
+      <trkpt lat="59.697398" lon="30.184820">
+        <ele>110.010</ele>
+        <time>2024-02-18T13:38:44.276Z</time>
+      </trkpt>
+      <trkpt lat="59.698162" lon="30.186290">
+        <ele>112.092</ele>
+        <time>2024-02-18T13:39:13.276Z</time>
+      </trkpt>
+      <trkpt lat="59.698613" lon="30.186863">
+        <ele>114.021</ele>
+        <time>2024-02-18T13:39:30.275Z</time>
+      </trkpt>
+      <trkpt lat="59.698825" lon="30.187220">
+        <ele>114.085</ele>
+        <time>2024-02-18T13:39:39.275Z</time>
+      </trkpt>
+      <trkpt lat="59.699103" lon="30.187743">
+        <ele>114.040</ele>
+        <time>2024-02-18T13:40:02.275Z</time>
+      </trkpt>
+      <trkpt lat="59.699282" lon="30.188250">
+        <ele>113.052</ele>
+        <time>2024-02-18T13:40:14.275Z</time>
+      </trkpt>
+      <trkpt lat="59.700075" lon="30.192787">
+        <ele>114.053</ele>
+        <time>2024-02-18T13:41:23.275Z</time>
+      </trkpt>
+      <trkpt lat="59.700422" lon="30.195410">
+        <ele>109.008</ele>
+        <time>2024-02-18T13:42:01.275Z</time>
+      </trkpt>
+      <trkpt lat="59.700472" lon="30.196118">
+        <ele>109.009</ele>
+        <time>2024-02-18T13:42:10.276Z</time>
+      </trkpt>
+      <trkpt lat="59.700503" lon="30.198680">
+        <ele>109.046</ele>
+        <time>2024-02-18T13:42:53.275Z</time>
+      </trkpt>
+      <trkpt lat="59.700345" lon="30.199847">
+        <ele>114.052</ele>
+        <time>2024-02-18T13:43:19.276Z</time>
+      </trkpt>
+      <trkpt lat="59.700415" lon="30.200128">
+        <ele>114.069</ele>
+        <time>2024-02-18T13:43:27.275Z</time>
+      </trkpt>
+      <trkpt lat="59.700545" lon="30.200178">
+        <ele>114.053</ele>
+        <time>2024-02-18T13:43:32.275Z</time>
+      </trkpt>
+      <trkpt lat="59.700643" lon="30.200108">
+        <ele>114.066</ele>
+        <time>2024-02-18T13:43:36.275Z</time>
+      </trkpt>
+      <trkpt lat="59.700778" lon="30.199867">
+        <ele>113.078</ele>
+        <time>2024-02-18T13:43:51.276Z</time>
+      </trkpt>
+      <trkpt lat="59.700877" lon="30.199352">
+        <ele>115.057</ele>
+        <time>2024-02-18T13:44:02.275Z</time>
+      </trkpt>
+      <trkpt lat="59.700892" lon="30.198342">
+        <ele>114.061</ele>
+        <time>2024-02-18T13:44:22.275Z</time>
+      </trkpt>
+      <trkpt lat="59.700800" lon="30.195892">
+        <ele>116.076</ele>
+        <time>2024-02-18T13:44:55.275Z</time>
+      </trkpt>
+      <trkpt lat="59.699927" lon="30.189948">
+        <ele>116.093</ele>
+        <time>2024-02-18T13:47:09.275Z</time>
+      </trkpt>
+      <trkpt lat="59.699445" lon="30.187363">
+        <ele>122.065</ele>
+        <time>2024-02-18T13:48:28.276Z</time>
+      </trkpt>
+      <trkpt lat="59.699183" lon="30.186732">
+        <ele>121.021</ele>
+        <time>2024-02-18T13:49:02.276Z</time>
+      </trkpt>
+      <trkpt lat="59.698483" lon="30.185785">
+        <ele>125.009</ele>
+        <time>2024-02-18T13:49:25.275Z</time>
+      </trkpt>
+      <trkpt lat="59.697563" lon="30.184258">
+        <ele>126.050</ele>
+        <time>2024-02-18T13:49:54.275Z</time>
+      </trkpt>
+      <trkpt lat="59.697363" lon="30.183798">
+        <ele>125.096</ele>
+        <time>2024-02-18T13:50:02.275Z</time>
+      </trkpt>
+      <trkpt lat="59.697162" lon="30.182980">
+        <ele>120.023</ele>
+        <time>2024-02-18T13:50:15.275Z</time>
+      </trkpt>
+      <trkpt lat="59.696773" lon="30.182477">
+        <ele>123.037</ele>
+        <time>2024-02-18T13:50:24.275Z</time>
+      </trkpt>
+      <trkpt lat="59.696652" lon="30.182178">
+        <ele>120.050</ele>
+        <time>2024-02-18T13:50:28.275Z</time>
+      </trkpt>
+      <trkpt lat="59.696350" lon="30.181688">
+        <ele>116.072</ele>
+        <time>2024-02-18T13:50:38.276Z</time>
+      </trkpt>
+      <trkpt lat="59.695332" lon="30.180588">
+        <ele>109.021</ele>
+        <time>2024-02-18T13:51:05.275Z</time>
+      </trkpt>
+      <trkpt lat="59.695112" lon="30.180410">
+        <ele>108.025</ele>
+        <time>2024-02-18T13:51:12.275Z</time>
+      </trkpt>
+      <trkpt lat="59.694970" lon="30.180410">
+        <ele>107.080</ele>
+        <time>2024-02-18T13:51:18.276Z</time>
+      </trkpt>
+      <trkpt lat="59.694877" lon="30.180635">
+        <ele>107.021</ele>
+        <time>2024-02-18T13:51:46.756Z</time>
+      </trkpt>
+    </trkseg>
+  </trk></gpx>
