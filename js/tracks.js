@@ -756,13 +756,14 @@ let tracks = [
     {
         name: 'Кавголово, Виролайнен',
         year: 2024,
-        info: 'Возрождённая в 2024 году лыжная трасса рядом с УТЦ на месте старого лыжедрома.',
+        info: 'Возрождённая в 2024 году лыжная трасса рядом с УТЦ на территории ООПТ "Токсовский".',
         gpx: 'tracks/ski/kavgolovo_virolaynen_ski_omaps.gpx',
         logo: 'utc.gif',
         type: ['SKI']
     },
     {
         name: 'Кавголово, УТЦ',
+        link: 'https://vk.com/utclesgaft',
         info: 'Учебно тренировочный центр. Самая цивильная спортивная трасса области. В т.ч. круглогодичная крытая лыжная трасса ("труба").',
         gpx: 'tracks/ski/utc_ski_omaps.gpx',
         logo: 'utc.gif',
@@ -994,6 +995,7 @@ let tracks = [
     },
     {
         name: 'Ржевский л/п',
+        link: 'https://vk.com/sport_krgv1',
         info: 'Самотопный "конёк" и лыжня сбоку от дороги.',
         gpx: 'tracks/ski/rzhevsky_ski_omaps.gpx',
         type: ['SKI']
@@ -1103,6 +1105,17 @@ let tracks = [
         link: 'https://vk.com/ski_shapki',
         info: 'Коньковый круг от лыжной базы.',
         gpx: 'tracks/ski/shapki_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Волхов',
+        info: 'Неплохая для небольшого городка лыжная трасса при лыжной базе "Двугорье". Есть прокат, раздевалка и магазин.',
+        gpx: 'tracks/ski/volhov_dvugorie_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Сясьстрой',
+        gpx: 'tracks/ski/syasstroy_ski_omaps.gpx',
         type: ['SKI']
     },
     {
