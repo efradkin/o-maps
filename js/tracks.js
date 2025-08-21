@@ -651,13 +651,13 @@ let tracks = [
     // --- ЛЫЖИ ---
     {
         name: 'Московский парк Победы',
-        info: 'Абсолютно плоский круг.',
+        info: 'Абсолютно плоский самотопный круг. Дорожки часто посыпают песком.',
         gpx: 'tracks/ski/victory_park_ski_omaps.gpx',
         type: ['SKI']
     },
     {
         name: 'Парк Авиаторов',
-        info: 'Абсолютно плоский круг, но можно покататься с единственной горки на северо-западе парка.',
+        info: 'Абсолютно плоский самотопный круг, но можно покататься с единственной горки на северо-западе парка.',
         gpx: 'tracks/ski/aviatorov_park_ski_omaps.gpx',
         type: ['SKI']
     },
@@ -702,9 +702,23 @@ let tracks = [
         type: ['SKI']
     },
     {
+        name: 'Крестовский остров',
+        link: 'https://vk.com/spbrun_run',
+        info: 'Широкая плоская трасса с двумя искусственными горками.',
+        gpx: 'tracks/ski/krestovsky_ski_omaps.gpx',
+        logo: 'spb_sport.gif',
+        type: ['SKI']
+    },
+    {
         name: 'Пушкин, Отдельный парк',
         info: 'Лыжная трасса с небольшим плавным рельефом.',
         gpx: 'tracks/ski/pushkin_otdelny_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Александровская',
+        info: 'Плоская самотопная лыжня.',
+        gpx: 'tracks/ski/aleksandrovskaya_ski_omaps.gpx',
         type: ['SKI']
     },
     {
@@ -745,6 +759,11 @@ let tracks = [
     {
         name: 'Сестрорецк, сквер Пограничников',
         gpx: 'tracks/ski/sestroretsk_pogranichnikov_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Сестрорецк, парк Дубки',
+        gpx: 'tracks/ski/sestroretsk_dubki_ski_omaps.gpx',
         type: ['SKI']
     },
     {

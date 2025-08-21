@@ -418,7 +418,7 @@ let starts = {
     SPBRUN: {
         short: 'SPb RUN',
         name: '<a href="https://spbrun.run/">Спортивный Петербург</a>',
-        logo: 'spbrun.gif'
+        logo: 'spb_sport.gif'
     },
     SOTKA: {
         short: 'Сотка',
