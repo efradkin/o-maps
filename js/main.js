@@ -122,7 +122,6 @@ function loadTracksRecursive(t, actualTracks) {
         });
         var popup_text = buildTrackPopup(t, gpxLayer);
         gpxLayer.bindPopup(popup_text, {maxWidth: 500});
-        // gpxLayer.addTo(tracksGroup);
         allocateMap(t, gpxLayer);
 
         gpxLayer.on('mouseover', function(e) {
@@ -1014,7 +1013,7 @@ function mapLogoList(m) {
     if (m.author && authors[m.author] && authors[m.author].logo) {
         logo.push(authors[m.author].logo);
     }
-    if (m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) {
+    if (m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) { // only the first one
         logo.push(authors[m.author[0]].logo);
     }
     return logo;

@@ -29,7 +29,8 @@ let owners = {
         name: 'По вопросам использования карты - 8-999-086-10-82 (<b>Ефремов Михаил</b>).'
     },
     EGRV_SRG: {
-        name: '© Егоров С.И., kinef-o@mail.ru'
+        name: '© Егоров С.И., kinef-o@mail.ru',
+        logo: 'kinef.gif'
     },
     EGRV_EGR: {
         name: '© Егоров Е.А.',

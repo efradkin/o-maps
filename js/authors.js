@@ -356,7 +356,8 @@ let authors = {
             'Многие годы он был ключевым специалистом по подготовке трасс для лыжного ориентирования в Санкт-Петербурге и Ленинградской области.' +
             '<a href="https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net" target="_blank">Тут</a> одно из его интервью. ' +
             'Костантин трагически погиб во время работы во Владимирской области 19.04.2025 года.',
-        foto: 'tokma/tokma.jpg'
+        foto: 'tokma/tokma.jpg',
+        logo: 'mourning.webp'
     },
     TKMKVA_P: { name: 'Токмакова Полина' },
     TLNKV: { name: 'Туленков М.' },
@@ -387,7 +388,8 @@ let authors = {
     },
     VLKV_A: {
         name: 'Волков Андрей', //Владимирович
-        about: 'https://o-site.spb.ru/history/Peoples/avolkov.html'
+        about: 'https://o-site.spb.ru/history/Peoples/avolkov.html',
+        logo: 'mourning.webp'
     },
     VLKV_K: {
         name: 'Волков Константин', //Владимирович
