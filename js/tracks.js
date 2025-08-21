@@ -551,6 +551,14 @@ let tracks = [
         type: ['WALK']
     },
     {
+        name: 'Борницкие карьеры',
+        info: 'Самый марсианский пейзаж в окрестностях Петербурга.',
+        link: 'https://it-s-a-wonderful-world.ru/bornickie-karery/',
+        gpx: 'tracks/bornitsky_career_omaps.gpx',
+        pics: ['bornitsky',4],
+        type: ['WALK']
+    },
+    {
         name: 'Гатчина, экотропа',
         info: 'На прогулке по экотропе, наряду с отдыхом и наслаждением красотой природы, вы узнаете о местных экологических системах, видах растений и животных, процессах и явлениях.',
         link: 'http://www.gatchina.org/eco/',
