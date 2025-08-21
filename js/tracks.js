@@ -544,6 +544,12 @@ let tracks = [
         type: ['WALK']
     },
     {
+        name: 'Сиверский - Вырица',
+        link: 'https://katerinakost.ru/blog/poselok-siverskaja-marshrut',
+        gpx: 'tracks/siversky_vyritsa_omaps.gpx',
+        type: ['WALK']
+    },
+    {
         name: 'Пёс',
         year: 2022,
         gpx: 'tracks/gpsart_dog_12km_220312.gpx',
