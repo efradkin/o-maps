@@ -767,6 +767,13 @@ let tracks = [
         type: ['SKI']
     },
     {
+        name: 'Сертолово',
+        link: 'https://vk.com/sport_v_sertolovo',
+        info: 'Трасса с небольшим плавным рельефом по полю. Два круга - большой 1700м и малый 400м.',
+        gpx: 'tracks/ski/sertolovo_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
         name: 'Сестрорецкий пляж',
         info: 'классика двусторонняя',
         gpx: 'tracks/ski/sestroretsk_beach_ski_omaps.gpx',
