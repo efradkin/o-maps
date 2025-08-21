@@ -297,7 +297,7 @@ function hideMap(map, url) {
 
 function locateMap(m) {
     if (m.gpx) {
-        locateForUrl(m.gpx);
+        locateForUrl(getFirstTrack(m));
     } else {
         map.fitBounds(m.bounds);
     }
