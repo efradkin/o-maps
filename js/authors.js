@@ -237,7 +237,10 @@ let authors = {
     MLNKV_F: { name: 'Мельников Ф.' },
     MLNKV_L: { name: 'Маланков Леонид' },
     MLSHV_Y: { name: 'Малышев Ю.' },
-    MLV_AL: { name: 'Малов Алексей' },
+    MLV_AL: {
+        name: 'Малов Алексей',
+        logo: 'oriki.gif'
+    },
     MLVA_M: {
         name: 'Малова Мария', //Михайловна
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'

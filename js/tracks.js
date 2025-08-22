@@ -802,7 +802,7 @@ let tracks = [
     {
         name: 'Сертолово',
         link: 'https://vk.com/sport_v_sertolovo',
-        info: 'Трасса с небольшим плавным рельефом по полю. Два круга - большой 1700м и малый 400м.',
+        info: 'Лыжная трасса с небольшим плавным рельефом по полю. Два круга - большой 1700м и малый 400м.',
         gpx: 'tracks/ski/sertolovo_ski_omaps.gpx',
         type: ['SKI']
     },
@@ -1074,6 +1074,13 @@ let tracks = [
         info: '20-50км.',
         gpx: 'tracks/ski/kirishi_ski_omaps.gpx',
         logo: 'kirishi_ski.webp',
+        type: ['SKI']
+    },
+    {
+        name: 'Кириши',
+        link: 'https://vk.com/ori_ki',
+        gpx: 'tracks/ski/kirishi_east_ski_omaps.gpx',
+        logo: 'oriki.gif',
         type: ['SKI']
     },
     {

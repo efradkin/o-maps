@@ -116,7 +116,8 @@ let owners = {
         name: '© Ирина Александровна Ломова'
     },
     MLV_AL: {
-        name: '© Малов Алексей, leshamalov@yandex.ru'
+        name: '© Малов Алексей, leshamalov@yandex.ru',
+        logo: 'oriki.gif'
     },
     MSKV: {
         name: 'По вопросам использования карты - 8-981-146-94-95 (Москов Игорь).'
