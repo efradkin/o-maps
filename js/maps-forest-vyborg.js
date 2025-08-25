@@ -592,10 +592,15 @@ let vyborgMaps = [
     },
     {
         name: 'Лейпясуо',
+        year: 2014,
+        startYear: 2025,
+        info: '24.08. <a href="https://o-site.spb.ru/race.php?id=250824_Tokma">Tokma-maps</a>.',
         url: './maps/forest/vyborg/leypjasuo.webp',
+        link: './original_maps/forest/vyborg/leypjasuo_2025_omaps.jpg',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23280/',
         bounds: [[60.57075597983445, 29.20054435729981], [60.568773798958446, 29.215564727783207], [60.55892435354992, 29.19573783874512]],
         author: 'TKMKV_K',
-        owner: 'KOSOR',
+        owner: 'KOSOR'
     },
     {
         name: 'Верхне-Черкасово',
