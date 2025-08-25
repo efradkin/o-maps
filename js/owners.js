@@ -210,7 +210,8 @@ let owners = {
         name: 'По вопросам использования карты обращаться к Александру Михайловичу Василевскому (<a href="v_aleksandr_mihajlovih@mail.ru">v_aleksandr_mihajlovih@mail.ru</a>).',
     },
     VST_PRZRSK: {
-        name: 'По вопросам использования карты - клуб <a href="https://vk.com/vesta_priozersk">Веста-Приозерск</a> (И.Скворцова ira-vesta@yandex.ru).'
+        name: 'По вопросам использования карты - клуб <a href="https://vk.com/vesta_priozersk">Веста-Приозерск</a> (И.Скворцова ira-vesta@yandex.ru).',
+        logo: 'vesta_przrsk.gif'
     },
     WN: {
         name: 'Права на любое использование карты принадлежат клубу <b>"Белые Ночи"</b>. По вопросам приобретения и использования карт-материала обращаться к Анне Горбатенковой (89219241742, Телеграмм, WhatsApp).',

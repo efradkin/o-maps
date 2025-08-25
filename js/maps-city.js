@@ -1195,6 +1195,7 @@ let cityMaps = [
     {
         name: 'Кузнечное',
         url: './maps/city/kuznechnoe.webp',
+        link: './original_maps/city/kuznechnoe_omaps.jpg',
         bounds: [[61.12902370855488, 29.872019290924076], [61.12792546611398, 29.88862752914429], [61.11938688322839, 29.868800640106205]],
         author: 'RYLOV_V',
         owner: 'VST_PRZRSK',
@@ -1203,6 +1204,7 @@ let cityMaps = [
     {
         name: 'Севастьяново',
         url: './maps/city/sevastjanovo.webp',
+        link: './original_maps/city/sevastjanovo_omaps.jpg',
         bounds: [[61.06172221813291, 29.779922962188724], [61.0613692056359, 29.802067279815677], [61.05464045078286, 29.77970838546753]],
         author: 'RYLOV_V',
         owner: 'VST_PRZRSK',
@@ -1212,6 +1214,7 @@ let cityMaps = [
         name: 'Приозерск, ул Героя Богданова',
         year: 2020,
         url: './maps/city/priozersk_geroja_bogdanova_2020.webp',
+        link: './original_maps/city/priozersk_geroja_bogdanova_2020_omaps.gif',
         author: 'PSHKV',
         bounds: [[61.03422738636866, 30.12434005737305], [61.03352074474647, 30.133781433105472], [61.031764464289076, 30.123524665832523]],
         owner: 'VST_PRZRSK',
@@ -1221,6 +1224,7 @@ let cityMaps = [
         name: 'Приозерск, дет.сад №9',
         year: 2021,
         url: './maps/city/priozersk_det_sad_9_2021.webp',
+        link: './original_maps/city/priozersk_det_sad_9_2021_omaps.jpg',
         author: 'PSHKV',
         bounds: [[61.04319413212856, 30.12609958648682], [61.045251034855056, 30.139060020446777], [61.041043591125266, 30.127515792846683]],
         owner: 'VST_PRZRSK',
