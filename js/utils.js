@@ -47,6 +47,10 @@ function isSpecialMap(m) {
     return !isEmpty(m.type) && (m.type.includes('RELIEF') || m.type.includes('WINTER') || m.type.includes('VELO') || m.type.includes('INDOOR'));
 }
 
+function isRogaineMap(m) {
+    return !isEmpty(m.type) && m.type.includes('ROGAINE');
+}
+
 function isMapHidden(m) {
     return m.hidden || (m.owner && m.owner === 'NW');
 }

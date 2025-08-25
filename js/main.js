@@ -71,7 +71,7 @@ if (map === undefined) {
 function loadMaps() {
     showSpinner(true);
     for (const m of oMaps) {
-        if (isMapAcceptable(m)) {
+        if (isMapAcceptable(m) || isRogaineMap(m)) {
             if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM))) {
                 loadMap(m);
             }
