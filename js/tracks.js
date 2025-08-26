@@ -1464,7 +1464,7 @@ let tracks = [
         date: '1.05',
         link: 'https://hardadventure.ru/mud2025',
         results: 'https://reg.o-time.ru/race/25023',
-        info: 'Добавили рельефа, болот и чуточку грязи, - и вышла настоящая конфетка! 5-12км.',
+        info: 'Добавили рельефа, болот и чуточку грязи - и вышла настоящая конфетка! 5-12км.',
         gpx: {
             '12км':'tracks/run/pervomayskoe_hardadventure_mud_2025_12km_omaps.gpx',
             '6км':'tracks/run/pervomayskoe_hardadventure_mud_2025_6km_omaps.gpx',
@@ -2042,6 +2042,17 @@ let tracks = [
         type: ['RUN']
     },
     {
+        name: 'Суйда, тематический трейл-пробег "Сказки Пушкина"',
+        year: 2022,
+        date: '5.06',
+        link: 'https://vk.com/wall-112729417_20227',
+        results: 'https://vk.com/wall-112729417_20233',
+        info: 'Пробег начнется от пруда, на берегу которого рос многовековой дуб, легший в основу легенды о сказочном Лукоморье🌿. В усадебном парке, овеянном легендами о сказочном Лукоморье, можно отдохнуть, присев на высеченную из валуна старинную скамью - каменный "диван Ганнибала".',
+        gpx: 'tracks/run/gatchina_pushkin_2022_omaps.gpx',
+        start: 'GATCHINA',
+        type: ['RUN']
+    },
+    {
         name: 'Гатчинский полумарафон',
         year: 2024,
         date: '10.11',
@@ -2245,6 +2256,110 @@ let tracks = [
         info: '1-21км.',
         gpx: 'tracks/run/pskov_halfmarathon_2024_omaps.gpx',
         logo: 'pskov_half.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Марафон "Белые ночи"',
+        year: 2025,
+        date: '5.07',
+        link: 'https://probeg.org/series/122/all_events/',
+        results: 'https://results.runc.run/event/spb_marathon_wn_2025/finishers/distance/435/',
+        info: '10,42км.',
+        gpx: {
+            '2025, 42км':'tracks/run/spb_wn_2025_42km_omaps.gpx',
+            '2025, 10км':'tracks/run/spb_wn_2025_10km_omaps.gpx',
+            '2022, 42км':'tracks/run/spb_wn_2022_42km_omaps.gpx',
+        },
+        logo: 'wn_marathon.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Марафон "Белые ночи"',
+        year: 2015,
+        date: '28.06',
+        link: 'https://probeg.org/event/7338/',
+        results: 'https://probeg.org/sever/protokol/150628_Pr_MarBN_SPb_122.xls',
+        gpx: {
+            '2015, 42км':'tracks/run/spb_wn_2015_42km_omaps.gpx',
+            '2019, 10км':'tracks/run/spb_wn_2019_10km_omaps.gpx',
+        },
+        logo: 'wn_marathon.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Пушкин - Санкт-Петербург',
+        year: 2023,
+        date: '3.09',
+        link: 'https://probeg.org/event/48806/',
+        results: 'https://results.russiarunning.com/event/PushkinSanktPeterburg100let/results/42km',
+        info: '5-42км.',
+        gpx: {
+            '42км':'tracks/run/pushkin_spb_2023_42km_omaps.gpx',
+            '30км':'tracks/run/pushkin_spb_2023_30km_omaps.gpx',
+            '10км':'tracks/run/pushkin_spb_2023_10km_omaps.gpx',
+        },
+        start: 'PUSHKINRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Гарботрейл',
+        year: 2025,
+        date: '1.06',
+        link: 'https://probeg.org/series/6090/',
+        results: 'https://reg.o-time.ru/race/25340',
+        info: '500м-10км.',
+        gpx: {
+            '10км':'tracks/run/garbotrail_2025_10km_omaps.gpx',
+            '5км':'tracks/run/garbotrail_2025_5km_omaps.gpx',
+            '3км':'tracks/run/garbotrail_2025_3km_omaps.gpx',
+        },
+        logo: 'garbolovo_ski.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'Марафон "Дорога жизни"',
+        year: 2025,
+        date: '26.01',
+        link: 'https://probeg.org/event/63066/',
+        results: 'https://heroleague.ru/results/doroga2025',
+        info: '5,42км.',
+        gpx: {
+            '42км':'tracks/run/roadlife_2025_42km_omaps.gpx',
+            '5км':'tracks/run/roadlife_2025_5km_omaps.gpx',
+        },
+        logo: 'roadlife.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'Тихвинский марафон',
+        year: 2024,
+        date: '12.10',
+        info: '11-42км.',
+        link: 'https://probeg.org/event/59080/',
+        results: 'https://reg.o-time.ru/race/24545',
+        gpx: 'tracks/run/tikhvin_marathon_2024_omaps.gpx',
+        logo: 'tikhvin.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Колтуши, Пробег памяти академика И.П.Павлова',
+        year: 2020,
+        date: '27.09',
+        info: '4-15км.',
+        link: 'https://probeg.org/event/35315/',
+        results: 'https://reg.o-time.ru/race/20108',
+        gpx: 'tracks/run/koltushi_pavlova_2020_15km_omaps.gpx',
+        type: ['RUN']
+    },
+    {
+        name: 'Сосновый Бор, "Кросс нации"',
+        year: 2024,
+        date: '21.09',
+        info: '1-8км.',
+        link: 'https://probeg.org/event/61515/',
+        results: 'https://reg.o-time.ru/race/24550',
+        gpx: 'tracks/run/sosnovybor_nation_2024_8km_omaps.gpx',
+        logo: 'atomny.gif',
         type: ['RUN']
     },
     {
