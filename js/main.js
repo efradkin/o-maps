@@ -22,6 +22,9 @@ let tracksLoaded = false;
 let maxZindex = 1;
 let enablePopup = false;
 
+let isMobile = L.Browser.android || L.Browser.mobile;  // || L.Browser.touch || L.Browser.retina
+let popupWidth = isMobile ? "auto" : 500;
+
 let editMode = false;
 let mapOpacity = 1;
 let imagesLoadCounter = 0;
@@ -121,7 +124,7 @@ function loadTracksRecursive(t, actualTracks) {
             weight: 3
         });
         var popup_text = buildTrackPopup(t, gpxLayer);
-        gpxLayer.bindPopup(popup_text, {maxWidth: 500});
+        gpxLayer.bindPopup(popup_text, {maxWidth: popupWidth});
         allocateMap(t, gpxLayer);
 
         gpxLayer.on('mouseover', function(e) {
@@ -393,7 +396,7 @@ if (mapElement) {
     };
 
     let layerControlCollapsed = false;
-    if (L.Browser.android || L.Browser.mobile) {  // || L.Browser.touch || L.Browser.retina
+    if (isMobile) {
         layerControlCollapsed = true;
     }
     overlayMapsContents = buildOverlayMapsContents();
@@ -882,7 +885,7 @@ function buildMap(m) {
 
     // map popup
     let popup = buildPopup(m, latLngs);
-    imgLayer.bindPopup(popup, {maxWidth: 500});
+    imgLayer.bindPopup(popup, {maxWidth: popupWidth});
     imgLayer.on('mouseover', function (e) {
         if (!editMode && enablePopup) {
             this.openPopup();
