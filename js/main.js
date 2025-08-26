@@ -58,6 +58,12 @@ if (tl != null) {
 
 let mapOverlays = []; // all overlays to set their opacity
 
+let oTracks = [
+    ...runTracks,
+    ...skiTracks,
+    ...tracks,
+];
+
 // Prepare the structures and overlay the maps
 // Firstly load the specified map
 if (MAP_NAME_PARAM) {
@@ -89,7 +95,7 @@ function loadTracks() {
     showSpinner();
     setTimeout(function() {
         let actualTracks = [];
-        for (const t of tracks) {
+        for (const t of oTracks) {
             if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
                 continue;
             }
@@ -411,7 +417,7 @@ if (mapElement) {
                 checkbox.closest('label').style.display = 'none';
             }
         }
-        if (typeof tracks === 'undefined') {
+        if (typeof oTracks === 'undefined') {
             let checkbox = document.getElementById("tracks-group-check");
             if (checkbox) {
                 checkbox.closest('label').style.display = 'none';

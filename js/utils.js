@@ -200,13 +200,13 @@ function searchMaps(text) {
                 results.push(m);
             }
         }
-        if (isTracksDisplayed() && !isNull(tracks)) {
-            for (const t of tracks) {
+        if (isTracksDisplayed() && !isNull(oTracks)) {
+            for (const t of oTracks) {
                 if (unifyString(t.name).includes(text)) {
                     results.push(t);
                 }
             }
-            for (const t of tracks) {
+            for (const t of oTracks) {
                 if (!results.includes(t) && (t.info && unifyString(t.info).includes(text))) {
                     results.push(t);
                 }
@@ -244,8 +244,8 @@ function searchMap(text) {
                 return m;
             }
         }
-        if (!isNull(tracks)) {
-            for (const t of tracks) {
+        if (!isNull(oTracks)) {
+            for (const t of oTracks) {
                 if (unifyString(t.name).includes(title) && (!year || year === t.year)) {
                     return t;
                 }
@@ -269,8 +269,8 @@ function searchMap(text) {
                 }
             }
         }
-        if (!isNull(tracks)) {
-            for (const t of tracks) {
+        if (!isNull(oTracks)) {
+            for (const t of oTracks) {
                 if (unifyString(t.name).includes(text) || unifyString(t.info).includes(text)) {
                     return t;
                 }

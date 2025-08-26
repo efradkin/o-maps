@@ -126,6 +126,8 @@
     <script src="js/utils-common.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/starts.js"></script>
+    <script src="js/tracks-run.js"></script>
+    <script src="js/tracks-ski.js"></script>
     <script src="js/tracks.js"></script>
 
     <script>
@@ -148,15 +150,21 @@
 
         let totalRoutes = 0;
         let totalTracks = 0;
-        let walkTracks = 0;
-        let runTracks = 0;
-        let veloTracks = 0;
-        let skiTracks = 0;
-        let waterTracks = 0;
+        let wlkTracks = 0;
+        let rTracks = 0;
+        let vTracks = 0;
+        let sTracks = 0;
+        let wtrTracks = 0;
+
+        let oTracks = [
+            ...runTracks,
+            ...skiTracks,
+            ...tracks,
+        ];
 
         window.onload = function() {
 
-            tracks.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+            oTracks.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
 
             // Изначальный рендеринг таблицы
             renderTracksTable();
@@ -170,8 +178,8 @@
             tbody.innerHTML = '';
 
             let counter = 1;
-            for (let i = 0; i < tracks.length; i++) {
-                let t = tracks[i];
+            for (let i = 0; i < oTracks.length; i++) {
+                let t = oTracks[i];
 
                 if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
                     continue;
@@ -198,19 +206,19 @@
                 totalTracks += kTracks;
                 if (t.type) {
                     if (t.type.includes('WALK')) {
-                        walkTracks += kTracks;
+                        wlkTracks += kTracks;
                     }
                     if (t.type.includes('RUN')) {
-                        runTracks += kTracks;
+                        rTracks += kTracks;
                     }
                     if (t.type.includes('VELO')) {
-                        veloTracks += kTracks;
+                        vTracks += kTracks;
                     }
                     if (t.type.includes('SKI')) {
-                        skiTracks += kTracks;
+                        sTracks += kTracks;
                     }
                     if (t.type.includes('WATER')) {
-                        waterTracks += kTracks;
+                        wtrTracks += kTracks;
                     }
                 }
             }
@@ -218,11 +226,11 @@
 
             document.getElementById('total_routes').innerText = totalRoutes;
             document.getElementById('total_tracks').innerText = totalTracks;
-            document.getElementById('run_tracks').innerText = runTracks;
-            document.getElementById('walk_tracks').innerText = walkTracks;
-            document.getElementById('velo_tracks').innerText = veloTracks;
-            document.getElementById('ski_tracks').innerText = skiTracks;
-            document.getElementById('water_tracks').innerText = waterTracks;
+            document.getElementById('run_tracks').innerText = rTracks;
+            document.getElementById('walk_tracks').innerText = wlkTracks;
+            document.getElementById('velo_tracks').innerText = vTracks;
+            document.getElementById('ski_tracks').innerText = sTracks;
+            document.getElementById('water_tracks').innerText = wtrTracks;
 
             document.getElementById('sheet-spinner').style.display = 'none';
             document.querySelector('.o-sheet-roof').style.display = 'block';
