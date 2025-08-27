@@ -4,12 +4,14 @@ let skiTracks = [
         name: 'Московский парк Победы',
         info: 'Абсолютно плоский самотопный круг. Дорожки часто посыпают песком.',
         gpx: 'tracks/ski/victory_park_ski_omaps.gpx',
+        ski_kind: 'WALKWAY',
         type: ['SKI']
     },
     {
         name: 'Парк Авиаторов',
         info: 'Абсолютно плоский самотопный круг, но можно покататься с единственной горки на северо-западе парка.',
         gpx: 'tracks/ski/aviatorov_park_ski_omaps.gpx',
+        ski_kind: 'WALKWAY',
         type: ['SKI']
     },
     {
@@ -21,29 +23,34 @@ let skiTracks = [
         name: 'Елагин о-в, ЦПКиО',
         info: 'Абсолютно плоский круг.',
         gpx: 'tracks/ski/elagin_ski_omaps.gpx',
+        ski_kind: 'WALKWAY',
         type: ['SKI']
     },
     {
         name: 'Муринский парк',
         info: 'Плавный рельеф и лыжероллерная трасса летом. Но мамочки и собачники тоже считают её своей.',
         gpx: 'tracks/ski/murinsky_ski_omaps.gpx',
+        ski_kind: 'WALKWAY',
         type: ['SKI']
     },
     {
         name: 'Полюстровский парк',
         gpx: 'tracks/ski/poljustrovsky_park_ski_omaps.gpx',
+        ski_kind: 'WALKWAY',
         type: ['SKI']
     },
     {
         name: 'Екатерингофский парк',
         info: 'Абсолютно плоский круг.',
         gpx: 'tracks/ski/ekateringof_ski_omaps.gpx',
+        ski_kind: 'WALKWAY',
         type: ['SKI']
     },
     {
         name: 'Полежаевский парк',
         info: 'Единственная лыжная трасса с хоть сколько-то заметным рельефом на юге города.',
         gpx: 'tracks/ski/polezhaevsky_park_ski_omaps.gpx',
+        ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
     {
@@ -58,18 +65,21 @@ let skiTracks = [
         info: 'Широкая плоская трасса с двумя искусственными горками.',
         gpx: 'tracks/ski/krestovsky_ski_omaps.gpx',
         logo: 'spb_sport.gif',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
         name: 'Пушкин, Отдельный парк',
         info: 'Лыжная трасса с небольшим плавным рельефом.',
         gpx: 'tracks/ski/pushkin_otdelny_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
         name: 'Александровская',
         info: 'Плоская самотопная лыжня.',
         gpx: 'tracks/ski/aleksandrovskaya_ski_omaps.gpx',
+        ski_kind: 'FURROW',
         type: ['SKI']
     },
     {
@@ -86,6 +96,7 @@ let skiTracks = [
             'пятнашка':'tracks/ski/zelenogorsk_15_ski_omaps.gpx',
         },
         logo: 'priboy.webp',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -97,6 +108,7 @@ let skiTracks = [
             'к озеру':'tracks/ski/zelenogorsk_walk_ski_omaps.gpx',
             'с петлёй по лесу':'tracks/ski/zelenogorsk_walk_round_ski_omaps.gpx'
         },
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -105,6 +117,7 @@ let skiTracks = [
         link: 'https://vk.com/public210675528',
         info: 'Лыжная трасса Рощино создана и поддерживается жителями Рощино. Подготовка, обслуживание и содержание осуществляется за счет собственных средств и за счет благотворительных средств не безразличных людей.',
         gpx: 'tracks/ski/roschino_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -115,6 +128,7 @@ let skiTracks = [
     {
         name: 'Сестрорецк, парк Дубки',
         gpx: 'tracks/ski/sestroretsk_dubki_ski_omaps.gpx',
+        ski_kind: 'WALKWAY',
         type: ['SKI']
     },
     {
@@ -122,6 +136,7 @@ let skiTracks = [
         link: 'https://vk.com/sport_v_sertolovo',
         info: 'Лыжная трасса с небольшим плавным рельефом по полю. Два круга - большой 1700м и малый 400м.',
         gpx: 'tracks/ski/sertolovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -136,6 +151,7 @@ let skiTracks = [
         info: 'Возрождённая в 2024 году лыжная трасса рядом с УТЦ на территории ООПТ "Токсовский".',
         gpx: 'tracks/ski/kavgolovo_virolaynen_ski_omaps.gpx',
         logo: 'utc.gif',
+        ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
     {
@@ -144,18 +160,21 @@ let skiTracks = [
         info: 'Учебно тренировочный центр. Самая цивильная спортивная трасса области. В т.ч. круглогодичная крытая лыжная трасса ("труба").',
         gpx: 'tracks/ski/utc_ski_omaps.gpx',
         logo: 'utc.gif',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
         name: 'Кавголово, Динамо',
         info: 'Лыжная трасса в ООПТ "Токсовские высоты" со стартом у спорт.базы Динамо.',
         gpx: 'tracks/ski/kavgolovo_dinamo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
         name: 'Осельки',
         info: 'Практически абсолютно плоская, часто самотопная, лыжня в окружении красивого леса.',
         gpx: 'tracks/ski/oselki_ski_omaps.gpx',
+        ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
     {
@@ -171,12 +190,14 @@ let skiTracks = [
             'Full marathon 50km':'tracks/ski/toksovo_cup_50_ski_omaps.gpx'
         },
         logo: 'toksovo_cup.gif',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
         name: 'Токсово, ВИФК',
         info: 'Лыжная трасса на территории, принадлежащей МО РФ. Ограниченно доступна.',
         gpx: 'tracks/ski/toksovo_vifk_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -198,6 +219,7 @@ let skiTracks = [
         link: 'https://vk.com/malingora',
         gpx: 'tracks/ski/toksovo_malinova_gora_ski_omaps.gpx',
         markir: true,
+        ski_kind: 'CLASSIC_ROUTE',
         type: ['SKI']
     },
     {
@@ -205,6 +227,7 @@ let skiTracks = [
         info: 'Абсолютно плоская классическая лыжня по болоту, подготавливаемая энтузиастами.',
         link: 'https://vk.com/malingora',
         gpx: 'tracks/ski/toksovo_malinova_gora_swamp_ski_omaps.gpx',
+        ski_kind: 'CLASSIC_ROUTE',
         type: ['SKI']
     },
     {
@@ -217,12 +240,14 @@ let skiTracks = [
         gpx: 'tracks/ski/ohtapark_ski_omaps.gpx',
         markir: true,
         logo: 'ohta_park.gif',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
         name: 'Лемболово',
         link: 'https://vk.com/trassalembolovo',
         gpx: 'tracks/ski/lembolovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -236,6 +261,7 @@ let skiTracks = [
         year: 2025,
         link: 'https://vk.com/orehovo_ski',
         gpx: 'tracks/ski/orekhovo_ski_arrow_2025_omaps.gpx',
+        ski_kind: 'CLASSIC_ROUTE',
         type: ['SKI']
     },
     {
@@ -251,6 +277,7 @@ let skiTracks = [
         },
         markir: true,
         start: 'MULTSPORT',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -268,6 +295,7 @@ let skiTracks = [
         info: 'Несложный круг с плавным рельефом.',
         gpx: 'tracks/ski/orekhovo_gto_ski_omaps.gpx',
         markir: true,
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -289,12 +317,14 @@ let skiTracks = [
         },
         markir: true,
         logo: 'garbolovo_ski.webp',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
         name: 'Павлово',
         info: 'Очень симпатичный лыжный круг с хорошим рельефом.',
         gpx: 'tracks/ski/pavlovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -302,6 +332,7 @@ let skiTracks = [
         info: 'Единственная в черте города лыжная трасса с более-менее серьёзным рельефом.',
         link: 'https://vk.com/skipargolovo',
         gpx: 'tracks/ski/pargolovo_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -321,6 +352,7 @@ let skiTracks = [
             '5км':'tracks/ski/igora_ski_omaps.gpx'
         },
         logo: 'igora.webp',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -331,6 +363,7 @@ let skiTracks = [
     {
         name: 'Всеволожск, Румболовский парк',
         gpx: 'tracks/ski/rumbolovo_ski_omaps.gpx',
+        ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
     {
@@ -343,6 +376,7 @@ let skiTracks = [
         gpx: 'tracks/ski/vyborg_ski_omaps.gpx',
         markir: true,
         logo: 'vyborg.webp',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -350,6 +384,7 @@ let skiTracks = [
         info: 'Довольно плоская и ветренная лыжная трасса, раскатанная под конёк.',
         link: 'https://www.tyytari.ru/holidays/photos/42/',
         gpx: 'tracks/ski/tuutari_ski_omaps.gpx',
+        ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
     {
@@ -357,6 +392,7 @@ let skiTracks = [
         info: 'Отличная гора практически в черте города!',
         link: 'https://vk.com/svdudergof',
         gpx: 'tracks/ski/mozhaika_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -368,6 +404,7 @@ let skiTracks = [
         results: 'https://reg.o-time.ru/race/24298',
         gpx: 'tracks/ski/dudergof_bears_ski_omaps.gpx',
         logo: 'dudergof_bear.gif',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -375,12 +412,14 @@ let skiTracks = [
         link: 'https://vk.com/sport_krgv1',
         info: 'Самотопный "конёк" и лыжня сбоку от дороги.',
         gpx: 'tracks/ski/rzhevsky_ski_omaps.gpx',
+        ski_kind: 'WALKWAY',
         type: ['SKI']
     },
     {
         name: 'Невский л/п, Богословка',
         info: 'Прокатывается нерегулярно.',
         gpx: 'tracks/ski/bogoslovka_ski_omaps.gpx',
+        ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
     {
@@ -414,6 +453,7 @@ let skiTracks = [
         results: 'https://reg.o-time.ru/race/24254',
         gpx: 'tracks/ski/gatchina_ski_omaps.gpx',
         logo: 'gatchina.gif',
+        ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
     {
@@ -442,6 +482,7 @@ let skiTracks = [
         link: 'https://vk.com/sfgolfclub',
         info: 'Трасса мягкая, готовят бороной, подъёмов нет, душ, раздевалка, парковка. Платно.',
         gpx: 'tracks/ski/lomonosov_strawberry_fields_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -449,6 +490,7 @@ let skiTracks = [
         link: 'https://jarviresort.ru/',
         gpx: 'tracks/ski/peski_jarvi_omaps.gpx',
         logo: 'jarvi.gif',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -489,6 +531,7 @@ let skiTracks = [
         link: 'https://vk.com/ski_shapki',
         info: 'Коньковый круг от лыжной базы.',
         gpx: 'tracks/ski/shapki_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
@@ -505,6 +548,7 @@ let skiTracks = [
     {
         name: 'Юнтолово',
         gpx: 'tracks/ski/juntolovo_omaps.gpx',
+        ski_kind: 'FURROW',
         type: ['SKI']
     },
 ];

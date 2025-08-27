@@ -58,11 +58,14 @@ if (tl != null) {
 
 let mapOverlays = []; // all overlays to set their opacity
 
-let oTracks = [
-    ...runTracks,
-    ...skiTracks,
-    ...tracks,
-];
+let oTracks = [];
+if (typeof tracks !== 'undefined') {
+    oTracks = [
+        ...runTracks,
+        ...skiTracks,
+        ...tracks,
+    ];
+}
 
 // Prepare the structures and overlay the maps
 // Firstly load the specified map

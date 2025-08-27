@@ -23,6 +23,28 @@ let color = {
     WALK: 'brown',
     WATER: 'darkblue',
 };
+let skiTrackKind = {
+    SKATE_ROUTE: {
+        name:'Конёк',
+        description:'Регулярная трасса. Конёк. Прокатывается техникой'
+    },
+    CLASSIC_ROUTE: {
+        name:'Классика',
+        description:'Постоянная классическая лыжня. Прокатывается техникой'
+    },
+    FICKLE_ROUTE: {
+        name:'Непостоянно',
+        description:'Трасса прокатывается техникой, но не регулярно'
+    },
+    WALKWAY: {
+        name:'Парк',
+        description:'Парковая дорожка. На хороших лыжах сюда не стоит'
+    },
+    FURROW: {
+        name:'Самотоп',
+        description:'Самотопная лыжня. Может вообще отсутствовать'
+    },
+};
 
 function getTypesList(m, colored) {
     let list = [];
@@ -34,7 +56,13 @@ function getTypesList(m, colored) {
         if (m.excluded) {
             types.push('EXCLUDED');
         }
-        list = types.map(t => (colored ? '<span class="' + t + '">' + dic[t] + '</span>' : dic[t])).join(', ');
+        list = types.map(t => {
+            let tp = dic[t];
+            if (t === 'SKI' && m.ski_kind) {
+                tp += ' <span title="' + skiTrackKind[m.ski_kind].description + '">(' + skiTrackKind[m.ski_kind].name + ')<span>';
+            }
+            return (colored ? '<span class="' + t + '">' + tp + '</span>' : tp);
+        }).join(', ');
     }
     return list;
 }

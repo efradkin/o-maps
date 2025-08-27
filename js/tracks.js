@@ -47,6 +47,7 @@ let tracks = [
         markir: true,
         pics: ['koltushi_kamy',5],
         start: 'OOPTLO',
+        ski_kind: 'FURROW',
         type: ['WALK','SKI']
     },
     {
@@ -57,6 +58,7 @@ let tracks = [
         markir: true,
         pics: ['hare_trail',5],
         start: 'OOPTLO',
+        ski_kind: 'FURROW',
         type: ['WALK','SKI']
     },
     {
