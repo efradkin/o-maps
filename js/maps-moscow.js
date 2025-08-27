@@ -5189,6 +5189,16 @@ let moscowMaps = [
         type: ['CITY'],
     },
     {
+        name: '"Нагорная", с/к КАНТ',
+        year: 2023,
+        url: './maps/moscow/lr/nagorna_kant_2023.webp',
+        link: './original_maps/moscow/lr/nagorna_kant_2023_omaps.gif',
+        bounds: [[55.68404468545196, 37.601995468139656], [55.68241157080355, 37.61860370635987], [55.67384567505679, 37.59888410568238]],
+        author: 'KLZHNY',
+        owner: 'OPNBND',
+        type: ['CITY'],
+    },
+    {
         name: 'Ястребки, гост "Горизонт"',
         year: 2023,
         url: './maps/moscow/ak/gorizont_2023.webp',

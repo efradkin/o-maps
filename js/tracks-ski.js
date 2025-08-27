@@ -489,6 +489,7 @@ let skiTracks = [
         name: 'Пески, лыжероллерная трасса Ярви',
         link: 'https://jarviresort.ru/',
         gpx: 'tracks/ski/peski_jarvi_omaps.gpx',
+        info: 'Трасса слабо холмистая, освещённая, виражи с необходимым уклоном, а на поворотах натянута яркая защитная сетка. Ширина 3-4 метра.',
         logo: 'jarvi.gif',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
