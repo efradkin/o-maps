@@ -46,6 +46,12 @@ let starts = {
         logo: 'kkp.jpg',
         info: '<p>Крупнейшие соревнования по спортивному ориентированию в России'
     },
+    ORIENTIR: {
+        short: 'Ориентир',
+        name: '<a href="https://o-site.spb.ru/history/History/azimuth.html">Ориентир</a>',
+        logo: 'azimut_retro.gif',
+        info: '<p>Серия тренировочных стартов от спорт.общества "Спартак" (в дальнейшем - КСО "Азимут").'
+    },
     WN: {
         short: 'БН',
         name: '<a href="http://www.w-n.ru/white%20nights/">Белые Ночи</a>',

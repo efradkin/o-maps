@@ -140,8 +140,10 @@ let priozerskMaps = [
     {
         name: 'Кузнечное, оз Волковское-Суури',
         year: 1984,
+        startYear: 1991,
         url: './maps/forest/priozersk/kuznechnoe_suuri_1984.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1984_omaps.jpg',
+        start: 'ORIENTIR',
         bounds: [[61.14238605262496, 29.901266098022464], [61.14060473338595, 29.93710041046143], [61.123863709565256, 29.898004531860355]],
         author: ['VLKV_K','OVCHNNKV','BGCHNS']
     },
