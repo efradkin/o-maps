@@ -671,26 +671,6 @@ if (mapElement) {
         }
     }
 
-    async function processYearSlider(years, vals) {
-        let values = vals.split(',');
-        let start = Number(values[0]);
-        let end = Number(values[1]);
-        if (timeline) {
-            end = start;
-        }
-        for (let y of years) {
-            let year = Number(y);
-            if (year < start || year > end) {
-                removeFromArray(activeLayers, ageGroups[y]);
-            } else {
-                if (!activeLayers.includes(ageGroups[y])) {
-                    activeLayers.push(ageGroups[y]);
-                }
-            }
-        }
-        syncMaps();
-    }
-
     let timelineEl = document.getElementById("timeline");
     if (timelineEl) {
         timelineEl.checked = !timeline;
@@ -709,6 +689,26 @@ if (mapElement) {
             }]
         }).addTo(map);
     }
+}
+
+async function processYearSlider(years, vals) {
+    let values = vals.split(',');
+    let start = Number(values[0]);
+    let end = Number(values[1]);
+    if (timeline) {
+        end = start;
+    }
+    for (let y of years) {
+        let year = Number(y);
+        if (year < start || year > end) {
+            removeFromArray(activeLayers, ageGroups[y]);
+        } else {
+            if (!activeLayers.includes(ageGroups[y])) {
+                activeLayers.push(ageGroups[y]);
+            }
+        }
+    }
+    syncMaps();
 }
 
 function checkMapsLoad() {
