@@ -110,7 +110,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_sopkino_1984.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_sopkino_1984_omaps.jpg',
         bounds: [[61.158185682196546, 29.812302589416507], [61.15619822139052, 29.851055145263675], [61.13834687040916, 29.807324409484867]],
-        author: ['VLKV_K','SKLVA','TLNKV','PLBTKO','SHRNN','DJKV'],
+        author: ['VLKV_K','SKLVA','TLNKV','PLBTKO','SHRNN','DJKV']
     },
     {
         name: 'Кузнечное, Берёзовское оз',
@@ -118,7 +118,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_berezovskoe_1984.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_berezovskoe_1984_omaps.jpg',
         bounds: [[61.15381724416708, 29.787368774414066], [61.15207798205209, 29.817881584167484], [61.13849187563487, 29.782905578613285]],
-        author: 'OVCHNNKV',
+        author: 'OVCHNNKV'
     },
     {
         name: 'Кузнечное, оз Волковское-Суури',
@@ -127,7 +127,7 @@ let priozerskMaps = [
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1987_omaps.jpg',
         bounds: [[61.14315240323964, 29.887962341308597], [61.13954832218195, 29.9611759185791], [61.12177045767672, 29.884700775146488]],
         author: ['BGCHNS','VLKV_K','OVCHNNKV','SSNNA','USHNV'],
-        areas: [5,35,50,5,5],
+        areas: [5,35,50,5,5]
     },
     {
         name: 'Кузнечное, оз Волковское-Суури',
@@ -135,7 +135,15 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_suuri_1979.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1979_omaps.jpg',
         bounds: [[61.14161968340912, 29.899506568908695], [61.137311099433035, 29.95555400848389], [61.12483774980104, 29.901480674743656]],
-        author: ['VLKV_K','BGCHNS','OVCHNNKV','PTRV_A'],
+        author: ['VLKV_K','BGCHNS','OVCHNNKV','PTRV_A']
+    },
+    {
+        name: 'Кузнечное, оз Волковское-Суури',
+        year: 1984,
+        url: './maps/forest/priozersk/kuznechnoe_suuri_1984.webp',
+        link: './original_maps/forest/priozersk/kuznechnoe_suuri_1984_omaps.jpg',
+        bounds: [[61.14238605262496, 29.901266098022464], [61.14060473338595, 29.93710041046143], [61.123863709565256, 29.898004531860355]],
+        author: ['VLKV_K','OVCHNNKV','BGCHNS']
     },
     {
         name: 'Кузнечное, оз Волковское-Суури',
