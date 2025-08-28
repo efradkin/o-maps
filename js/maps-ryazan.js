@@ -198,7 +198,7 @@ let ryazanMaps = [
         url: './maps/ryazan/vypolzovo_panino_2022.webp',
         link: './original_maps/ryazan/vypolzovo_panino_2022_omaps.jpg',
         bounds: [[54.54040569275587, 40.16773223876954], [54.52491717969398, 40.28978347778321], [54.482605106683145, 40.146617889404304]],
-        author: ['LUK_V','TTYNN_V',],
+        author: ['LUK_V','TTYNN_V'],
         owner: 'FSO_RYAZAN'
     },
     {
@@ -216,7 +216,7 @@ let ryazanMaps = [
         url: './maps/ryazan/golenischevo_2006.webp',
         link: './original_maps/ryazan/golenischevo_2006_omaps.jpg',
         bounds: [[54.14927816721851, 41.35097265243531], [54.14657612421337, 41.368288993835456], [54.141322345192215, 41.34768962860108]],
-        author: ['KORNEEV','SOKOLOV',],
+        author: ['KORNEEV','SOKOLOV'],
         owner: 'TSDYUTK'
     },
     {
@@ -226,7 +226,7 @@ let ryazanMaps = [
         url: './maps/ryazan/golenchino_nikkulino_tspkio_1999.webp',
         link: './original_maps/ryazan/golenchino_nikkulino_tspkio_1999_omaps.jpg',
         bounds: [[54.621537038019135, 39.72201347351075], [54.61795892710645, 39.76415634155274], [54.58584124224482, 39.71274375915528]],
-        author: ['KORNEEV','ZOTOV','VORZHEIN','VEKOVISCH',],
+        author: ['KORNEEV','ZOTOV','VORZHEIN','VEKOVISCH'],
         owner: 'FSO_RYAZAN'
     },
     {
@@ -235,8 +235,8 @@ let ryazanMaps = [
         url: './maps/ryazan/dp_kvartal_a_2022.webp',
         link: './original_maps/ryazan/dp_kvartal_a_2022_omaps.jpg',
         bounds: [[54.614927225802006, 39.7791337966919], [54.61282726749976, 39.79612827301026], [54.60816720972531, 39.7766661643982]],
-        author: ['TARASOV','SOKOLOV',],
-        owner: ['TARASOV','SOKOLOV',],
+        author: ['TARASOV','SOKOLOV'],
+        owner: ['TARASOV','SOKOLOV'],
         type: ['CITY','SPRINT']
     },
     {
@@ -256,7 +256,7 @@ let ryazanMaps = [
         url: './maps/ryazan/dp_shk71_2021.webp',
         link: './original_maps/ryazan/dp_shk71_2021_omaps.jpg',
         bounds: [[54.60469978059106, 39.81194257736207], [54.60313374804192, 39.82983827590943], [54.59750299054603, 39.80983972549439]],
-        author: ['DUBOV','TARASOV','KRYUKOV',],
+        author: ['DUBOV','TARASOV','KRYUKOV'],
         owner: 'FSO_RYAZAN',
         type: ['CITY','SPRINT']
     },
@@ -358,8 +358,8 @@ let ryazanMaps = [
         url: './maps/ryazan/ilinka_2019.webp',
         link: './original_maps/ryazan/ilinka_2019_omaps.jpg',
         bounds: [[53.94057815977318, 39.3804931640625], [53.936738311008945, 39.42340850830078], [53.92258845016338, 39.37585830688477]],
-        author: ['ZOTOV','TARASOV','KORNEEV',],
-        owner: ['ZOTOV','TARASOV','KORNEEV',]
+        author: ['ZOTOV','TARASOV','KORNEEV'],
+        owner: ['ZOTOV','TARASOV','KORNEEV']
     },
     {
         name: 'Касимов Ёлочка',
@@ -436,7 +436,7 @@ let ryazanMaps = [
         url: './maps/ryazan/korostovo_2024.webp',
         link: './original_maps/ryazan/korostovo_2024_omaps.jpg',
         bounds: [[54.74218817570285, 39.69150066375733], [54.739438261313325, 39.72853660583497], [54.72861020742489, 39.6903419494629]],
-        author: ['VEKOVISCH','ANDREYK',],
+        author: ['VEKOVISCH','ANDREYK'],
         owner: 'ANDREYK'
     },
     {
@@ -446,7 +446,7 @@ let ryazanMaps = [
         url: './maps/ryazan/kostino_poschupovo_2022.webp',
         link: './original_maps/ryazan/kostino_poschupovo_2022_omaps.jpg',
         bounds: [[54.82823290613604, 39.67596530914307], [54.82165671546502, 39.71943855285645], [54.79227328564422, 39.66115951538087]],
-        author: ['VEKOVISCH','ANDREYK',],
+        author: ['VEKOVISCH','ANDREYK'],
         owner: 'ANDREYK'
     },
     {
@@ -590,7 +590,7 @@ let ryazanMaps = [
         url: './maps/ryazan/orehovoe_2023.webp',
         link: './original_maps/ryazan/orehovoe_2023_omaps.jpg',
         bounds: [[54.6638293082498, 39.78793144226075], [54.652335529478194, 39.81187820434571], [54.64510991375584, 39.75887775421143]],
-        author: ['VEKOVISCH','GUSEV_B',],
+        author: ['VEKOVISCH','GUSEV_B'],
         owner: 'GUSEV_B'
     },
     {
@@ -672,7 +672,7 @@ let ryazanMaps = [
         url: './maps/ryazan/pehlets_2003.webp',
         link: './original_maps/ryazan/pehlets_2003_omaps.jpg',
         bounds: [[53.953282508101246, 40.06602287292481], [53.950555061728394, 40.10593414306641], [53.93403504762253, 40.05980014801026]],
-        author: ['SOKOLOV','ZOTOV','FROLOV',],
+        author: ['SOKOLOV','ZOTOV','FROLOV'],
         owner: 'TSDYUTK'
     },
     {
@@ -794,7 +794,7 @@ let ryazanMaps = [
         url: './maps/ryazan/sazhnevo_2022.webp',
         link: './original_maps/ryazan/sazhnevo_2022_omaps.jpg',
         bounds: [[54.486145251040185, 39.72922325134278], [54.48185714964661, 39.77660179138184], [54.4478355839141, 39.72098350524903]],
-        author: ['POSKREB','ZOTOV','TARASOV',],
+        author: ['POSKREB','ZOTOV','TARASOV'],
         owner: 'TSDYUTK'
     },
     {
@@ -813,7 +813,7 @@ let ryazanMaps = [
         url: './maps/ryazan/seltsy_1980.webp',
         link: './original_maps/ryazan/seltsy_1980_omaps.jpg',
         bounds: [[54.95125203059951, 39.475679397583015], [54.947456501233596, 39.53867912292481], [54.912219850527435, 39.46851253509522]],
-        author: ['POSKREB','KARPOV','IVSHENTSE',],
+        author: ['POSKREB','KARPOV','IVSHENTSE'],
         owner: 'FSO_RYAZAN'
     },
     {
@@ -844,7 +844,7 @@ let ryazanMaps = [
         url: './maps/ryazan/skopin_2008.webp',
         link: './original_maps/ryazan/skopin_2008_omaps.jpg',
         bounds: [[53.8066193026066, 39.54975128173828], [53.80469326298429, 39.57099437713624], [53.797672606446966, 39.54801321029664]],
-        author: ['ZOTOV','SOKOLOV',],
+        author: ['ZOTOV','SOKOLOV'],
         owner: 'KORNEEV'
     },
     {
@@ -873,7 +873,7 @@ let ryazanMaps = [
         url: './maps/ryazan/slemy_1985.webp',
         link: './original_maps/ryazan/slemy_1985_omaps.jpg',
         bounds: [[54.88122358454226, 39.425768852233894], [54.878359668594115, 39.46211814880372], [54.871791644552616, 39.43113327026368]],
-        author: ['ELISEEV','CHERNOV','BELOKUR',],
+        author: ['ELISEEV','CHERNOV','BELOKUR'],
         owner: 'FSO_RYAZAN'
     },
     {
@@ -883,8 +883,8 @@ let ryazanMaps = [
         url: './maps/ryazan/polyany_2023.webp',
         link: './original_maps/ryazan/polyany_2023_omaps.jpg',
         bounds: [[54.76063997736235, 39.80041980743409], [54.75727222215259, 39.84509468078614], [54.74293136376204, 39.796257019042976]],
-        author: ['VEKOVISCH','GUSEV_B','ANDREYK',],
-        owner: ['GUSEV_B','ANDREYK',]
+        author: ['VEKOVISCH','GUSEV_B','ANDREYK'],
+        owner: ['GUSEV_B','ANDREYK']
     },
     {
         name: 'Спартак',
@@ -933,8 +933,8 @@ let ryazanMaps = [
         url: './maps/ryazan/tuma_2018.webp',
         link: './original_maps/ryazan/tuma_2018_omaps.jpg',
         bounds: [[55.1663679673819, 40.56362628936768], [55.16651504541338, 40.5856204032898], [55.150590698880045, 40.56276798248292]],
-        author: ['KORNEEV','TARASOV',],
-        owner: ['KORNEEV','TARASOV',]
+        author: ['KORNEEV','TARASOV'],
+        owner: ['KORNEEV','TARASOV']
     },
     {
         name: 'Турлатовский Лес',
@@ -942,7 +942,7 @@ let ryazanMaps = [
         url: './maps/ryazan/turlatovskiy_les_2005.webp',
         link: './original_maps/ryazan/turlatovskiy_les_2005_omaps.jpg',
         bounds: [[54.54662932368576, 39.80417490005494], [54.545036164569105, 39.83211278915406], [54.536173081478, 39.80114936828614]],
-        author: ['KORNEEV','SOKOLOV','ZOTOV',],
+        author: ['KORNEEV','SOKOLOV','ZOTOV'],
         owner: 'TSDYUTK'
     },
     {
@@ -951,7 +951,7 @@ let ryazanMaps = [
         url: './maps/ryazan/turomsha_2015.webp',
         link: './original_maps/ryazan/turomsha_2015_omaps.jpg',
         bounds: [[54.227937030269054, 39.578804969787605], [54.22623110042036, 39.59940433502198], [54.21842808155942, 39.57644462585449]],
-        author: ['KORNEEV','SOKOLOV',],
+        author: ['KORNEEV','SOKOLOV'],
         owner: 'TSDYUTK'
     },
     {
@@ -968,7 +968,7 @@ let ryazanMaps = [
         url: './maps/ryazan/unkusovo_2006.webp',
         link: './original_maps/ryazan/unkusovo_2006_omaps.jpg',
         bounds: [[54.251536851974016, 41.54913425445557], [54.24996980087506, 41.56973361968995], [54.24313676238747, 41.546602249145515]],
-        author: ['KORNEEV','SOKOLOV',],
+        author: ['KORNEEV','SOKOLOV'],
         owner: 'TSDYUTK'
     },
     {
@@ -1037,7 +1037,7 @@ let ryazanMaps = [
         url: './maps/ryazan/chernava_1973.webp',
         link: './original_maps/ryazan/chernava_1973_omaps.jpg',
         bounds: [[53.82918031996693, 40.168848037719734], [53.835106747444215, 40.23425102233887], [53.797203675958706, 40.16575813293458]],
-        author: ['CHERNOV','KONEV','ROZENFE',],
+        author: ['CHERNOV','KONEV','ROZENFE'],
         owner: 'FSO_RYAZAN'
     },
     {
@@ -1055,7 +1055,7 @@ let ryazanMaps = [
         url: './maps/ryazan/shevtsovo_2023.webp',
         link: './original_maps/ryazan/shevtsovo_2023_omaps.jpg',
         bounds: [[54.371283603944754, 39.86135959625245], [54.36707097322616, 39.894683361053474], [54.35814426852959, 39.85702514648438]],
-        author: ['SHIBANOV_A','SHIBANOV_V',],
+        author: ['SHIBANOV_A','SHIBANOV_V'],
         owner: 'SHIBANOV_V'
     },
     {
@@ -1084,7 +1084,7 @@ let ryazanMaps = [
         url: './maps/ryazan/ekopark_polyany_2022.webp',
         link: './original_maps/ryazan/ekopark_polyany_2022_omaps.jpg',
         bounds: [[54.75271540147229, 39.866724014282234], [54.74696911389396, 39.91045475006104], [54.717010821499606, 39.85277652740479]],
-        author: ['VEKOVISCH','ANDREYK',],
+        author: ['VEKOVISCH','ANDREYK'],
         owner: 'ANDREYK',
         type: ['PARK']
     }
