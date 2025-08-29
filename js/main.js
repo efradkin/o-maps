@@ -998,6 +998,9 @@ function mapTitle(m, forStart, colored) {
     if (m.gpx) {
         result += '</span>';
     }
+    if (forStart && 'REPORT' === m.start) {
+        result += '. Отчёт'
+    }
     return result;
 }
 
@@ -1116,9 +1119,9 @@ function buildPopup(m, latLngs) {
     // автор-составитель
     if (m.author) {
         if (Array.isArray(m.author)) {
-            result += 'Авторы-составители:';
+            result += 'Авторы-составители карты:';
         } else {
-            result += 'Автор-составитель: ';
+            result += 'Автор-составитель карты: ';
         }
         result += buildAuthors(m);
     }
@@ -1280,14 +1283,22 @@ function buildGpsLinks(m) {
     return result;
 }
 
-function buildDownloadLinks(link) {
+function buildDownloadLinks(link, links) {
     let result = '';
-    if (link) {
-        let links = link;
-        if (!Array.isArray(link)) {
-            links = [link];
+    if (link || links) {
+        let linksList = [];
+        if (links) {
+            for (let d = 1; d <= links[1]; d++) {
+                let url = 'docs/' + links[0] + '/doc_' + d + '_omaps.jpg';
+                linksList.push(url);
+            }
+        } else {
+            linksList = link;
+            if (!Array.isArray(link)) {
+                linksList = [link];
+            }
         }
-        links.forEach(function (value, index, array) {
+        linksList.forEach(function (value, index, array) {
             if (index > 0) {
                 result += ', ';
             }

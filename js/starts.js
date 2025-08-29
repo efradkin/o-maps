@@ -161,6 +161,10 @@ let starts = {
         name: 'Памяти Сергея Кузнецова',
         logo: 'kuznetsov.jpg'
     },
+    REPORT: {
+        short: 'Отчёт',
+        name: 'Отчёт',
+    },
     KS: {
         short: 'Карельские скалы',
         name: 'Карельские скалы',

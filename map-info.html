@@ -51,6 +51,9 @@
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="preview-tab" data-bs-toggle="tab" data-bs-target="#preview" type="button" role="tab" aria-controls="preview" aria-selected="false">Карта</button>
             </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="docs-tab" data-bs-toggle="tab" data-bs-target="#docs" type="button" role="tab" aria-controls="docs" aria-selected="false">Документы</button>
+            </li>
         </ul>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
@@ -63,8 +66,8 @@
                         <br />
                         <p><strong><span id="map_start"></span></strong> <span id="map_info"></span></p>
                         <p><span id="map_gps" class="value_place"><img src="./images/o-gps.gif"/> GPS-трансляция: <span/></span></p>
-                        <p><span id="map_author" class="value_place">Авторы: <span/></span></p>
-                        <p><span id="map_owner" class="value_place">Владельцы: <span/></span></p>
+                        <p><span id="map_author" class="value_place">Авторы карты: <span/></span></p>
+                        <p><span id="map_owner" class="value_place">Владельцы карты: <span/></span></p>
                     </div>
                 </div>
             </div>
@@ -74,7 +77,15 @@
                     <p id="preview_maps"></p>
                 </p>
             </div>
+            <div class="tab-pane fade" id="docs" role="tabpanel" aria-labelledby="docs-tab">
+                <p>
+                    <p id="docs_images"></p>
+                </p>
+            </div>
         </div>
+
+        <hr />
+        <span class="my-copyright">© <a href="https://o-maps.spb.ru" target="_blank">O-maps</a></span>
     </div>
 
     <noscript>
@@ -83,13 +94,11 @@
         </div>
     </noscript>
 
-    <hr />
-    <span class="my-copyright">© <a href="https://o-maps.spb.ru" target="_blank">O-maps</a></span>
-
     <script src="js/ext/leaflet.js"></script>
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
+    <script src="js/maps-starts-other.js"></script>
     <script src="js/maps-starts-schools.js"></script>
     <script src="js/maps-starts-na.js"></script>
     <script src="js/maps-starts-ym.js"></script>
@@ -133,6 +142,7 @@
         let loadImagesRequired = false;
 
         let oMaps = [
+            ...otherStartsMaps,
             ...gsStartsMaps,
             ...kkpStartsMaps,
             ...naStartsMaps,

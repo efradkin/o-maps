@@ -34,6 +34,7 @@ const SHOW_ALL_LABEL = 'Показать все старты';
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
+let otherGroup = L.layerGroup([]);
 let schoolGroup = L.layerGroup([]);
 let wnGroup = L.layerGroup([]);
 let naGroup = L.layerGroup([]);
@@ -53,6 +54,7 @@ let sto24Group = L.layerGroup([]);
 let majorGroup = L.layerGroup([]);
 
 let allOrientGroups = [
+    otherGroup,
     schoolGroup,
     wnGroup,
     naGroup,
@@ -109,6 +111,7 @@ if (mapElement) {
 
     if (START_NAME_PARAM) {
         switch (START_NAME_PARAM) {
+            case 'REPORT': activeLayers.push(osmLayer, otherGroup); break;
             case 'SCHOOL': activeLayers.push(osmLayer, schoolGroup); break;
             case 'WN': activeLayers.push(osmLayer, wnGroup); break;
             case 'NA': activeLayers.push(osmLayer, naGroup); break;
@@ -130,7 +133,7 @@ if (mapElement) {
         }
     } else {
         activeLayers.push(
-            osmLayer, schoolGroup, wnGroup, naGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup, volkovGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
+            osmLayer, otherGroup, schoolGroup, wnGroup, naGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup, volkovGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
             //...Object.values(ageGroups),
         );
     }
@@ -155,6 +158,7 @@ function buildOverlayMapsContents() {
         "ККМ": kkmGroup,
         "Марш-Бросок": mbGroup,
         "<span class='layer-separator'>Чемпионаты и Кубки</span>": majorGroup,
+        "<span class='layer-separator'>Прочее</span>": otherGroup,
     };
     return result;
 }
@@ -188,6 +192,7 @@ function allocateMap(m) {
 
 function pushStartGroupToMap(start, m) {
     switch (start) {
+        case 'REPORT': pushGroupToMap(m, otherGroup); break;
         case 'SCHOOL': pushGroupToMap(m, schoolGroup); break;
         case 'WN': pushGroupToMap(m, wnGroup); break;
         case 'NA': pushGroupToMap(m, naGroup); break;

@@ -60,7 +60,7 @@ function renderMapsTable() {
         td(m, row, buildName(m));
         td(m, row, buildYear(m));
         td(m, row, buildStart(m));
-        td(m, row, buildDownloadLinks(m.link));
+        td(m, row, buildDownloadLinks(m.link, m.links));
         td(m, row, buildInfo(m));
         if (!isDocumentsPage()) {
             td(m, row, m.area.toFixed(2));

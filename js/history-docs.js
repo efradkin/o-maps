@@ -41,6 +41,12 @@ let historyDocs = [
         link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg'],
     },
     {
+        name: 'Кубок ЛГС ДСО "Спартак"',
+        year: 1983,
+        info: 'Протоколы результатов. Карты можно найти <a href="map-info.html?map=mruchey_1983_09_17">тут</a>.',
+        links: ['mruchey_1983_09_17', 6],
+    },
+    {
         name: 'Условные знаки спортивных карт',
         year: 1,
         link: './docs/sport_maps_old_signs_omaps.jpg',
