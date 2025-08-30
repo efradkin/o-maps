@@ -127,6 +127,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     GRKHVSKY: { name: 'Граховский В.' },
+    GRNV_A: { name: 'Гринёв А.' },
     GRSMVA: { name: 'Герасимова Н.' },
     GRV_K: {
         name: 'Горев Кирилл',
