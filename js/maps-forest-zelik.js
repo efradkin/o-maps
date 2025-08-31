@@ -735,6 +735,14 @@ let zelikMaps = [
         owner: 'WN',
     },
     {
+        name: 'Воронцовское',
+        year: 1964,
+        info: '19-20.09. Первенство ЛОС ДСО "Труд" по туристскому двоеборью. Ориентирование в заданном направлении, ночное, командное.',
+        url: './maps/forest/zelik/vorontsovskoe_1964.webp',
+        link: ['./original_maps/forest/zelik/vorontsovskoe_1964_bw_omaps.jpg','./original_maps/forest/zelik/vorontsovskoe_1964_omaps.jpg'],
+        bounds: [[60.30178368088176, 29.824790954589847], [60.29855175501573, 29.961948394775394], [60.247478966381564, 29.818267822265625]]
+    },
+    {
         name: 'Пасторское оз',
         year: 1982,
         url: './maps/forest/zelik/pastorskoe_1982.webp',
