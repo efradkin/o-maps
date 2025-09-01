@@ -8,6 +8,14 @@ let moscowMaps = [
         author: 'IGNTNKO',
     },
     {
+        name: 'Зосимова пустынь',
+        year: 1963,
+        url: './maps/moscow/zosimova_pustyn_1963.webp',
+        link: ['./original_maps/moscow/zosimova_pustyn_1963_bw_omaps.jpg','./original_maps/moscow/zosimova_pustyn_1963_omaps.jpg'],
+        info: '<a href="https://o-moscow.ru/years/chronology_1963.html">Соревнование туристов МАИ на маркированной дистанции.</a>',
+        bounds: [[55.436026009350144, 36.80969238281251], [55.43076670842493, 36.91406250000001], [55.34730342663028, 36.81415557861329]],
+    },
+    {
         name: 'Волкуша',
         year: 1970,
         url: './maps/moscow/volkusha_1970.webp',
