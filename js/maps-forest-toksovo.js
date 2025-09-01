@@ -243,7 +243,7 @@ let toksovoMaps = [
     },
     {
         name: 'Кавголово - Осельки',
-        year: 1990,
+        year: 1980,
         url: './maps/forest/toksovo/kavgolovo_oselki_1990.webp',
         link: './original_maps/forest/toksovo/kavgolovo_oselki_1990_omaps.jpg',
         bounds: [[60.21666910752298, 30.501480102539066], [60.21300238312461, 30.55932998657227], [60.17878830249272, 30.495214462280277]],

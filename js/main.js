@@ -761,7 +761,7 @@ function checkMapsLoad() {
 
 tuneContextMenu();
 
-//buildMapsCSV(oMaps); //, 'KOSOR'
+//buildMapsCSV(oMaps); //, 'VYBORG'
 
 // --- functions ---
 

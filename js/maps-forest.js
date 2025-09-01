@@ -169,7 +169,7 @@ let forestMaps = [
     },
     {
         name: 'Юкки',
-        year: 1990,
+        year: 1988,
         url: './maps/forest/yukki_1990.webp',
         link: './original_maps/forest/yukki_1990_omaps.jpg',
         bounds: [[60.14936641593736, 30.269308090209964], [60.14577762073669, 30.33608436584473], [60.11012475663832, 30.2589225769043]],
@@ -618,7 +618,7 @@ let forestMaps = [
         url: './maps/forest/pervomayskoe_hill_2016.webp',
         bounds: [[60.36097549822987, 29.71784591674805], [60.36019023423638, 29.726278781890873], [60.35531905260248, 29.718253612518314]],
         author: 'SHRNN',
-        owner: 'KOSOR',
+        owner: 'VYBORG',
     },
     {
         name: 'Осиновая Роща - Сертолово',

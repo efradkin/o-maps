@@ -359,7 +359,7 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/monrepo.webp',
         bounds: [[60.74662096140217, 28.696932792663578], [60.74263611819784, 28.746714591979984], [60.728832152898704, 28.69088172912598]],
         author: 'MKHLV_A',
-        owner: 'KOSOR',
+        owner: 'VYBORG',
     },
     {
         name: 'Вещево, Макаровское оз',
@@ -396,7 +396,7 @@ let vyborgMaps = [
         year: 2023,
         url: './maps/forest/vyborg/papula_2023.webp',
         bounds: [[60.72481362238408, 28.767485618591312], [60.724677214353164, 28.781111240386966], [60.71673307071793, 28.767592906951908]],
-        owner: 'KOSOR',
+        owner: 'VYBORG',
     },
     {
         name: 'Выборг, Анненские укреления',
@@ -426,14 +426,14 @@ let vyborgMaps = [
         link: ['https://viewer.o-gps-center.ru/newmaps/map_6255_b092c095d299e2c07778fccae312152d.png','https://viewer.o-gps-center.ru/newmaps/course_8203_3f630736090219a2871cf4d5a230f4e3.png'],
         bounds: [[60.70882895498743, 28.752636909484867], [60.70691823952591, 28.76879453659058], [60.700429358009245, 28.748753070831302]],
         author: ['RYLOV_V','DBRTSV_V'],
-        owner: 'KOSOR',
+        owner: 'VYBORG',
         zindex: 2
     },
     {
         name: 'Выборг, Южный форт',
         url: './maps/forest/vyborg/yuzhny_fort.webp',
         bounds: [[60.68845613981539, 28.770103454589847], [60.68627107175057, 28.792076110839847], [60.67126573142341, 28.76272201538086]],
-        owner: 'KOSOR',
+        owner: 'VYBORG',
     },
     {
         name: 'Калинино',
@@ -545,7 +545,7 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/gvardeyskoe.webp',
         bounds: [[60.813136611628465, 28.90811920166016], [60.80997631620071, 28.947472572326664], [60.79161531772246, 28.900265693664554]],
         author: ['KVZN','NSNV'],
-        owner: 'KOSOR',
+        owner: 'VYBORG',
     },
     {
         name: 'Красный Холм - Пальцево',
@@ -554,7 +554,7 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/paltsevo_2015.webp',
         bounds: [[60.784452302648944, 28.816280364990238], [60.77906851509545, 28.88018131256104], [60.76033342909643, 28.807311058044437]],
         author: 'MLNKV_L',
-        owner: 'KOSOR',
+        owner: 'VYBORG',
     },
     {
         name: 'Таммисуо',
@@ -564,13 +564,13 @@ let vyborgMaps = [
         link: './original_maps/forest/vyborg/tammisuo_1990_omaps.jpg',
         bounds: [[60.72912591608617, 28.78954410552979], [60.72440439655344, 28.837051391601562], [60.714098581481025, 28.783836364746094]],
         author: 'SHVR',
-        owner: 'KOSOR',
+        owner: 'VYBORG',
     },
     {
         name: 'Зимино',
         url: './maps/forest/vyborg/zimino.webp',
         bounds: [[60.6427384078507, 28.651657104492188], [60.64203357995182, 28.659617900848392], [60.63862494096181, 28.65009069442749]],
-        owner: 'KOSOR',
+        owner: 'VYBORG',
     },
     {
         name: 'Кировские дачи',
@@ -578,11 +578,11 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/kirovskie_dachi_2014.webp',
         bounds: [[60.764525674175374, 28.730278015136722], [60.76016572789462, 28.784265518188477], [60.74662096140217, 28.724441528320316]],
         author: ['BRGNTS','VRBY','MLNKV_L'],
-        owner: 'KOSOR',
+        owner: 'VYBORG',
     },
     {
         name: 'Комсомольское',
-        year: 1993,
+        year: 1992,
         start: 'WN',
         logo: 'akka.jpg',
         url: './maps/forest/vyborg/komsomolskoe.webp',
@@ -600,14 +600,14 @@ let vyborgMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23280/',
         bounds: [[60.57075597983445, 29.20054435729981], [60.568773798958446, 29.215564727783207], [60.55892435354992, 29.19573783874512]],
         author: 'TKMKV_K',
-        owner: 'KOSOR'
+        owner: 'VYBORG'
     },
     {
         name: 'Верхне-Черкасово',
         year: 2015,
         url: './maps/forest/vyborg/verkchne_cherkasovo_2015.webp',
         bounds: [[60.67509128654548, 28.88043880462647], [60.67347283794337, 28.91386985778809], [60.670046502936046, 28.880267143249515]],
-        owner: 'KOSOR',
+        owner: 'VYBORG',
     },
     {
         name: 'Каменногорск',
@@ -623,7 +623,7 @@ let vyborgMaps = [
         name: 'Каменногорск, оз Сувялампи',
         url: './maps/forest/vyborg/kamennogorsk_suvyalampi.webp',
         bounds: [[60.95655862334429, 29.136192798614506], [60.95538146789482, 29.147994518280033], [60.94809880379127, 29.13245916366577]],
-        owner: 'KOSOR',
+        owner: 'VYBORG',
         zindex: 2
     },
     {
