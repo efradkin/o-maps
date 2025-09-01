@@ -506,4 +506,17 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         type: ['ROGAINE'],
     },
+    {
+        name: 'Зеленогорск, оз Щучье',
+        year: 2025,
+        month: 9,
+        info: 'Сентябрь, фото-рогейн.',
+        url: './maps/rogaine/kkm/zelenogorsk_KKM_2025_09.webp',
+        link: ['./original_maps/rogaine/kkm/zelenogorsk_KKM_2025_09_omaps.jpg','./original_maps/rogaine/kkm/zelenogorsk_KKM_2025_09_pictures.jpg'],
+        bounds: [[60.23836260690754, 29.728660583496097], [60.2306926763174, 29.83938217163086], [60.194534622659134, 29.715270996093754]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23335/',
+        start: 'VO_FOTO',
+        owner: 'RYZHOV',
+        type: ['ROGAINE'],
+    },
 ];
