@@ -72,6 +72,14 @@ let sosnovoMaps = [
     },
     {
         name: 'Колосково',
+        year: 1984,
+        url: './maps/forest/sosnovo/koloskovo_1984.webp',
+        link: './original_maps/forest/sosnovo/koloskovo_1984_omaps.jpg',
+        bounds: [[60.632964120663054, 30.168886184692386], [60.63001757552591, 30.219869613647464], [60.600158103609864, 30.160388946533207]],
+        author: ['URVNTSV','VLKV_K','PTRV_A','SHLKHN_AN','KRNLJV','BNDRNK','SKLVA'],
+    },
+    {
+        name: 'Колосково',
         year: 1994,
         start: 'WN',
         url: './maps/forest/sosnovo/koloskovo_1994.webp',

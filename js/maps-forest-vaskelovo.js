@@ -255,6 +255,14 @@ let vaskelovoMaps = [
         qtty: 10
     },
     {
+        name: 'Васкелово, Киварин руч',
+        year: 1983,
+        url: './maps/forest/vaskelovo/vaskelovo_kivarin_1983.webp',
+        link: './original_maps/forest/vaskelovo/vaskelovo_kivarin_1983_omaps.jpg',
+        bounds: [[60.36295979727288, 30.219655036926273], [60.357802491037894, 30.283770561218265], [60.335189857116205, 30.213217735290527]],
+        author: 'BYMKV',
+    },
+    {
         name: 'Стеклянный',
         year: 1995,
         url: './maps/forest/vaskelovo/stekljanny_1996.webp',
