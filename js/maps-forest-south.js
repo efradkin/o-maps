@@ -388,6 +388,13 @@ let southMaps = [
         owner: 'NKLSK',
     },
     {
+        name: 'Луга, Шалово',
+        year: 1,
+        url: './maps/forest/south/luga_shalovo_1.webp',
+        link: ['./original_maps/forest/south/luga_shalovo_1_omaps.jpg','./original_maps/forest/south/luga_shalovo_1_bw_omaps.jpg'],
+        bounds: [[58.80720768446812, 29.875087738037113], [58.80742995065043, 29.993362426757816], [58.76459520046961, 29.876031875610355]],
+    },
+    {
         name: 'Луга, Зелёное оз',
         year: 1985,
         url: './maps/forest/south/luga_zelenoe_1985.webp',
