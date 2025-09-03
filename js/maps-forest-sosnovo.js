@@ -195,6 +195,15 @@ let sosnovoMaps = [
     },
     {
         name: 'Сосново, Чёрный лес',
+        year: 1978,
+        info: 'Зимний Кубок Ленинграда.',
+        url: './maps/forest/sosnovo/sosnovo_black_forest_1978.webp',
+        link: './original_maps/forest/sosnovo/sosnovo_black_forest_1978_omaps.jpg',
+        bounds: [[60.54854438985107, 30.246391296386722], [60.54449276865394, 30.294499397277836], [60.51746899216865, 30.2404260635376]],
+        author: ['GRZNVCH','SHRNN','FDRV_L'],
+    },
+    {
+        name: 'Сосново, Чёрный лес',
         year: 1986,
         startYear: 2004,
         start: 'YM',

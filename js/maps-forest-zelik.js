@@ -2,27 +2,30 @@
 let zelikMaps = [
     // --- ЗЕЛЕНОГОРСК - РОЩИНО - СЕСТРОРЕЦК ---
     {
+        name: 'Симагино',
+        year: 1977,
+        url: './maps/forest/zelik/simagino_1977.webp',
+        link: ['./original_maps/forest/zelik/simagino_1977_omaps.jpg','./original_maps/forest/zelik/simagino_retro_omaps.jpg'],
+        info: 'Многодневные сорвнования. Лен.обл.совет ДСО "Труд"',
+        author: ['SRGV','TRNTV_V'],
+        bounds: [[60.287407665484366, 29.796380996704105], [60.29013023649271, 29.867019653320316], [60.260935867848005, 29.79852676391602]],
+    },
+    {
         name: 'Решетниково',
         year: 1972,
         info: 'Первенство Ленинграда',
         logo: 'chip_1972.jpg',
         url: './maps/forest/zelik/reshetnikovo_1972.webp',
         link: './original_maps/forest/zelik/reshetnikovo_1972_M_omaps.jpg',
+        author: ['SRGV','TRNTV_V'],
         bounds: [[60.26561893464418, 29.685487747192383], [60.26515065811729, 29.74685668945313], [60.236999194901045, 29.685058593750004]],
-    },
-    {
-        name: 'Симагино',
-        year: 1977,
-        url: './maps/forest/zelik/simagino_1977.webp',
-        link: ['./original_maps/forest/zelik/simagino_1977_omaps.jpg','./original_maps/forest/zelik/simagino_retro_omaps.jpg'],
-        info: 'Многодневные сорвнования. Лен.обл.совет ДСО "Труд"',
-        bounds: [[60.287407665484366, 29.796380996704105], [60.29013023649271, 29.867019653320316], [60.260935867848005, 29.79852676391602]],
     },
     {
         name: 'Решетниково, Ловецкое оз',
         year: 1979,
         url: './maps/forest/zelik/reshetnikovo_1979.webp',
         link: './original_maps/forest/zelik/reshetnikovo_1979_omaps.jpg',
+        author: ['SRGV','TRNTV_V'],
         bounds: [[60.27755772237068, 29.71282482147217], [60.266853449734135, 29.733467102050785], [60.263064617640104, 29.68239784240723]],
     },
     {

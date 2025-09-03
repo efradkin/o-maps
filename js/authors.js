@@ -329,6 +329,7 @@ let authors = {
         name: 'Сапожников Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    SRGV: { name: 'Сергеев' },
     SRKN_A: { name: 'Сорокин А.' },
     SRBRNTSKY: {
         name: 'Серебряницкий Константин',
@@ -374,6 +375,10 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/temkin.html'
     },
     TRNV_V: { name: 'Трунов В.' },
+    TRNTV_V: {
+        name: 'Терентьев Валерий',
+        about: 'https://o-site.spb.ru/history/Peoples/valter.html'
+    },
     TRSV: {
         name: 'Тарасов Борис',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
