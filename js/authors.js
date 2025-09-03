@@ -90,6 +90,7 @@ let authors = {
     DVRKO_V: { name: 'Дворко Владимир' }, // Михайлович
     EGRV_A: { name: 'Егоров Андрей' },
     EGRV_E: { name: 'Егоров Е.' },
+    EGRV_EGR: { name: 'Егоров Егор' },
     EFRMV: { name: 'Ефремов Михаил' },
     ELTSV: {
         name: 'Ельцов Денис',

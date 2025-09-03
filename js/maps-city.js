@@ -1136,6 +1136,16 @@ let cityMaps = [
         owner: 'KP31',
     },
     {
+        name: 'Стадион СК "Царское село"',
+        year: 2024,
+        url: './maps/city/pushkin_stadium_2024.webp',
+        link: './original_maps/schools/pushkin_stadium_2024_omaps.jpg',
+        bounds: [[59.73334498275765, 30.404019355773926], [59.732977263783646, 30.40801048278809], [59.731776741333555, 30.403375625610355]],
+        author: 'EGRV_EGR',
+        owner: 'EGRV_EGR',
+        type: ['CITY'],
+    },
+    {
         name: 'Пушкин, школа №552',
         year: 2022,
         url: './maps/city/pushkin_school_552_2022.webp',
