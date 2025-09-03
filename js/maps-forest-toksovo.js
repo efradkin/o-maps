@@ -240,6 +240,13 @@ let toksovoMaps = [
         author: 'BYMKV',
     },
     {
+        name: 'Хиттолово',
+        year: 1,
+        url: './maps/forest/toksovo/hittolovo_old.webp',
+        link: './original_maps/forest/toksovo/hittolovo_old_omaps.jpg',
+        bounds: [[60.22353245455555, 30.526027679443363], [60.22566363642415, 30.595464706420902], [60.19363869327574, 30.528259277343754]],
+    },
+    {
         name: 'Осельки - Хиттолово',
         year: 1990,
         url: './maps/forest/toksovo/oselki_hittolovo_1990.webp',
