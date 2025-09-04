@@ -133,7 +133,7 @@ function buildTrackDownloadLinks(t) {
 function calculateTrackLength(t) {
     let firstTrack = getFirstTrack(t);
     let gpxLayer = new L.GPX(firstTrack, {
-        async: false,
+        async: false
     });
     return gpxLayer._humanLen(gpxLayer.len);
 }

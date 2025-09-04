@@ -163,7 +163,7 @@ let starts = {
     },
     REPORT: {
         short: 'Отчёт',
-        name: 'Отчёт',
+        name: 'Отчёт'
     },
     KS: {
         short: 'Карельские скалы',
@@ -342,12 +342,12 @@ let starts = {
     RUTRAIL: {
         short: 'RUTRAIL',
         name: '<a href="https://rutrail.org/">RUTRAIL</a>',
-        logo: 'rutrail.gif',
+        logo: 'rutrail.gif'
     },
     WIKILOC: {
         short: 'Wikiloc',
         name: '<a href="https://ru.wikiloc.com/">Wikiloc</a>',
-        logo: 'wikiloc.gif',
+        logo: 'wikiloc.gif'
     },
     PARKRUN: {
         short: '5 вёрст',
@@ -388,7 +388,7 @@ let starts = {
     GATCHINA: {
         short: 'Гатчина',
         name: '<a href="https://vk.com/gatchinasport">Гатчина</a>',
-        logo: 'gatchina_run.gif',
+        logo: 'gatchina_run.gif'
     },
     KOLYUCHIE: {
         short: 'Колючие старты',

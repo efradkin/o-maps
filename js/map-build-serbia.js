@@ -10,6 +10,6 @@ function buildOverlayMapsContents() {
         "90-те": group90th,
         "Ретро": groupRetro,
         "???": groupUnknownYear,
-        "<span class='layer-separator'>Рогаине</span>": rogaineGroup,
+        "<span class='layer-separator'>Рогаине</span>": rogaineGroup
     };
 }

@@ -9,7 +9,7 @@ let schoolMaps = [
         url: './maps/parks/lavra_2015.webp',
         link: './original_maps/parks/lavra_2015_omaps.gif',
         bounds: [[59.92140929654905, 30.379428863525394], [59.92140929654905, 30.387110710144047], [59.91788169358888, 30.37955760955811]],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Школа №150, универсам "САМПО"',
@@ -21,7 +21,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_150_2016_omaps.gif','./original_maps/schools/school_150_2016_omaps.ocd'],
         bounds: [[60.02993600195089, 30.365223884582523], [60.02766346922151, 30.38402080535889], [60.0226247496459, 30.361919403076175]],
         author: 'SHRNN',
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Сад Миранда, Купальный пруд, школа 638',
@@ -33,7 +33,7 @@ let schoolMaps = [
         bounds: [[59.690565139533554, 30.430455207824707], [59.690597626634556, 30.443093776702884], [59.68518267475988, 30.430562496185306]],
         author: 'SHRNN',
         owner: 'EGRV_EGR',
-        type: ['PARK'],
+        type: ['PARK']
     },
     // --- Город ---
     {
@@ -44,7 +44,7 @@ let schoolMaps = [
         url: './maps/city/school_606_2015.webp',
         link: ['./original_maps/schools/school_606_2015_omaps.gif','./original_maps/schools/school_606_2015_omaps.ocd'],
         bounds: [[59.7239127943663, 30.397882461547855], [59.72395606735925, 30.402302742004398], [59.72165170260266, 30.39775371551514]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №98',
@@ -54,7 +54,7 @@ let schoolMaps = [
         url: './maps/city/school_98_2015.webp',
         link: ['./original_maps/schools/school_98_2015_omaps.gif','./original_maps/schools/school_98_2015_omaps.ocd'],
         bounds: [[60.01983704279047, 30.40777444839478], [60.019761985893915, 30.412602424621586], [60.01695259090573, 30.407602787017826]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №141',
@@ -65,7 +65,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_141_sosh_2015_omaps.gif','./original_maps/schools/school_141_2015_omaps.gif','./original_maps/schools/school_141_2015_omaps.ocd','./original_maps/schools/school_141_yard_2015_omaps.ocd'],
         bounds: [[59.949981958019876, 30.492768287658695], [59.95001419316757, 30.50508499145508], [59.94562992529188, 30.492789745330814]],
         author: ['DRBSHV','VSLVSKY'],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №559, гимназия №114',
@@ -75,7 +75,7 @@ let schoolMaps = [
         url: './maps/city/school_559_2016.webp',
         link: ['./original_maps/schools/school_559_2016_omaps.gif','./original_maps/schools/school_559_2016_omaps.ocd'],
         bounds: [[60.05606960689406, 30.3393030166626], [60.056080317538054, 30.344409942626957], [60.05268486930301, 30.33932447433472]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №303',
@@ -85,7 +85,7 @@ let schoolMaps = [
         url: './maps/city/school_303_2016.webp',
         link: ['./original_maps/schools/school_303_2016_omaps.gif','./original_maps/schools/school_303_2016_omaps.ocd'],
         bounds: [[59.87232260083193, 30.397882461547855], [59.86901597909405, 30.402066707611088], [59.87096552550337, 30.393440723419193]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №490',
@@ -96,7 +96,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_490_sosh_2016_omaps.gif','./original_maps/schools/school_490_2017_omaps.gif','./original_maps/schools/school_490_2016_omaps.ocd','./original_maps/schools/school_490_2017_omaps.ocd'],
         bounds: [[59.9249042650236, 30.41648626327515], [59.926441934536946, 30.421099662780765], [59.9222696306353, 30.41996240615845]],
         author: 'VSLVSKY',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №529',
@@ -107,7 +107,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_529_2017_omaps.gif','./original_maps/schools/school_529_2017_omaps.ocd'],
         bounds: [[59.877405755763284, 29.889271259307865], [59.87644733897045, 29.898262023925785], [59.87483196724025, 29.888005256652836]],
         author: 'TKMKVA_P',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №604',
@@ -118,7 +118,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_604_2017_omaps.gif','./original_maps/schools/school_604_2017_omaps.ocd'],
         bounds: [[59.74362866040108, 30.465366840362552], [59.74280694757495, 30.467126369476322], [59.741985214546645, 30.462577342987064]],
         author: 'SHRNN',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №69',
@@ -129,7 +129,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_69_2017_omaps.gif','./original_maps/schools/school_69_2017_omaps.ocd'],
         bounds: [[60.048421319834084, 30.382239818573], [60.047928512285715, 30.38698196411133], [60.04597863637953, 30.38131713867188]],
         author: 'KUZNTSV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Лицей №226',
@@ -140,7 +140,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_226_2017_omaps.gif','./original_maps/schools/school_226_2017_omaps.ocd'],
         bounds: [[59.864901091609674, 30.37451505661011], [59.86484722845018, 30.383119583129886], [59.86180920505694, 30.374407768249515]],
         author: 'DRBSHV',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №133',
@@ -150,7 +150,7 @@ let schoolMaps = [
         url: './maps/city/school_133_2017.webp',
         link: ['./original_maps/schools/school_133_sosh_2017_omaps.gif','./original_maps/schools/school_133_2017_omaps.gif','./original_maps/schools/school_133_2017_omaps.ocd'],
         bounds: [[59.95786788973526, 30.437879562377933], [59.957986057002266, 30.446269512176517], [59.954763162379905, 30.438029766082767]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Пушкин, школа №552',
@@ -162,7 +162,7 @@ let schoolMaps = [
         bounds: [[59.7369678799638, 30.398890972137455], [59.736784040904226, 30.40178775787354], [59.73483744766446, 30.398440361022953]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №467',
@@ -173,7 +173,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_467_2018_omaps.gif','./original_maps/schools/school_467_2018_omaps.ocd'],
         bounds: [[59.7397253445486, 30.564973354339603], [59.73946582816621, 30.568943023681644], [59.737919501287976, 30.564479827880863]],
         author: 'TKMKVA_P',
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Гимназия №642 "Земля и Вселенная"',
@@ -184,7 +184,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_642_2018_omaps.gif','./original_maps/schools/school_642_2018_omaps.ocd'],
         bounds: [[59.94215863530755, 30.210835933685306], [59.9418684490961, 30.213840007781986], [59.940309998221245, 30.21047115325928]],
         author: 'TKMKVA_P',
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Школа №175',
@@ -194,7 +194,7 @@ let schoolMaps = [
         url: './maps/city/school_175_2018.webp',
         link: ['./original_maps/schools/school_175_2018_omaps.gif','./original_maps/schools/school_175_2018_omaps.ocd'],
         bounds: [[60.036034621354716, 30.426549911499027], [60.03564880181898, 30.43043375015259], [60.03460921008458, 30.426077842712406]],
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Школа №212',
@@ -205,7 +205,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_212_2018_omaps.gif','./original_maps/schools/school_212_2018_omaps.ocd'],
         bounds: [[59.83211462452894, 30.387217998504642], [59.83155389129605, 30.392968654632572], [59.829655954916, 30.386574268341068]],
         author: 'TKMKVA_P',
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Школа №312',
@@ -216,7 +216,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_312_2019_omaps.gif','./original_maps/schools/school_312_2019_omaps.ocd'],
         bounds: [[59.82729416714968, 30.392882823944095], [59.82718631896143, 30.396187305450443], [59.82528813369435, 30.392968654632572]],
         author: ['DRBSHV','MKSHN_A','TKMKVA_P'],
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Лицей №384',
@@ -228,7 +228,7 @@ let schoolMaps = [
         bounds: [[59.898128796133236, 30.27366399765015], [59.89818260538584, 30.275981426239017], [59.89648219085799, 30.273492336273197]],
         author: 'BVZ',
         owner: 'BVZ',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Пушкин, школа №645',
@@ -240,7 +240,7 @@ let schoolMaps = [
         bounds: [[59.74463414992654, 30.48191070556641], [59.74387733266911, 30.48364877700806], [59.74288263249571, 30.478863716125492]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №482',
@@ -251,7 +251,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_482_2015_omaps.gif','./original_maps/schools/school_482_2015_omaps.ocd','./original_maps/schools/school_482_2021_omaps.gif','./original_maps/schools/school_482_2021_omaps.ocd'],
         bounds: [[60.07337347250026, 30.332157611846927], [60.07299879432702, 30.336234569549564], [60.070932635380196, 30.33112764358521]],
         author: 'KHFZVA',
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Школа №292',
@@ -262,7 +262,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_292_2021_omaps.gif','./original_maps/schools/school_292_2021_omaps.ocd'],
         bounds: [[59.861421352310586, 30.382089614868168], [59.86107659051738, 30.385522842407227], [59.85894329746696, 30.381231307983402]],
         author: 'TKMKVA_P',
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Школы №150, 158',
@@ -273,7 +273,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_150_2019_omaps.gif','./original_maps/schools/school_150_2019_omaps.ocd','./original_maps/schools/school_158_2021_omaps.gif','./original_maps/schools/school_158_2021_omaps.ocd'],
         bounds: [[60.026923790420156, 30.372669696807865], [60.02640922148829, 30.37781953811646], [60.023493179515626, 30.371425151824955]],
         author: 'TKMKVA_P',
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Школа №556',
@@ -284,7 +284,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_556_2021_omaps.gif','./original_maps/schools/school_556_2021_omaps.ocd'],
         bounds: [[60.09072176149716, 29.94905233383179], [60.090304482310366, 29.952871799468998], [60.08923451153762, 29.948451519012455]],
         author: 'KUZNTSV_A',
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Гимназия №11',
@@ -294,7 +294,7 @@ let schoolMaps = [
         url: './maps/city/school_11_2021.webp',
         link: ['./original_maps/schools/school_11_2021_omaps.gif','./original_maps/schools/school_11_2021_omaps.ocd'],
         bounds: [[59.94270675788883, 30.2644157409668], [59.94257778868489, 30.26645421981812], [59.94169648569833, 30.264093875885013]],
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Школа №303',
@@ -305,7 +305,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_303_2022_omaps.gif','./original_maps/schools/school_303_2022_omaps.ocd'],
         bounds: [[59.86605374231585, 30.4062294960022], [59.86563362191864, 30.410327911376957], [59.86476104721357, 30.405821800231937]],
         author: 'TKMKVA_P',
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Школа №468, лицей №101',
@@ -316,7 +316,7 @@ let schoolMaps = [
         link: ['./original_maps/schools/school_468_2014_omaps.gif','./original_maps/schools/school_468_2014_omaps.ocd','./original_maps/schools/school_468_2022_omaps.gif','./original_maps/schools/school_468_2022_omaps.ocd'],
         bounds: [[60.03544517302496, 30.333981513977054], [60.035402303645235, 30.340139865875248], [60.03349455992169, 30.333917140960697]],
         author: ['SHRNN','FDRV_L'],
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Школа №149',
@@ -397,7 +397,7 @@ let schoolMaps = [
         url: './maps/city/school_605_2024.webp',
         link: ['./original_maps/schools/school_605_2024_omaps.gif','./original_maps/schools/school_605_2024_omaps.ocd'],
         bounds: [[60.052149277752704, 30.350739955902103], [60.051881478718755, 30.35329341888428], [60.05113162986575, 30.350267887115482]],
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Лицей №101',

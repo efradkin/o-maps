@@ -5,7 +5,7 @@ let moscowMaps = [
         url: './maps/moscow/nekrasovsky.webp',
         link: './original_maps/moscow/nekrasovsky_omaps.jpg',
         bounds: [[56.09669937808783, 37.44192123413087], [56.090618677710275, 37.49496459960938], [56.07342473269754, 37.43342399597169]],
-        author: 'IGNTNKO',
+        author: 'IGNTNKO'
     },
     {
         name: 'Зосимова пустынь',
@@ -13,14 +13,14 @@ let moscowMaps = [
         url: './maps/moscow/zosimova_pustyn_1963.webp',
         link: ['./original_maps/moscow/zosimova_pustyn_1963_bw_omaps.jpg','./original_maps/moscow/zosimova_pustyn_1963_omaps.jpg'],
         info: '<a href="https://o-moscow.ru/years/chronology_1963.html">Соревнование туристов МАИ на маркированной дистанции.</a>',
-        bounds: [[55.436026009350144, 36.80969238281251], [55.43076670842493, 36.91406250000001], [55.34730342663028, 36.81415557861329]],
+        bounds: [[55.436026009350144, 36.80969238281251], [55.43076670842493, 36.91406250000001], [55.34730342663028, 36.81415557861329]]
     },
     {
         name: 'Волкуша',
         year: 1970,
         url: './maps/moscow/volkusha_1970.webp',
         link: './original_maps/moscow/volkusha_1970_omaps.jpg',
-        bounds: [[55.617915623580316, 37.880129814147956], [55.615104299907586, 37.91729450225831], [55.59253370164766, 37.872447967529304]],
+        bounds: [[55.617915623580316, 37.880129814147956], [55.615104299907586, 37.91729450225831], [55.59253370164766, 37.872447967529304]]
     },
     {
         name: 'Лыткарино, Волкуша',
@@ -29,7 +29,7 @@ let moscowMaps = [
         url: './maps/moscow/lytkarino_1989.webp',
         link: ['./original_maps/moscow/lr/lytkarino_1989_omaps.jpg','./original_maps/moscow/volkusha_1989_omaps.jpg'],
         bounds: [[55.61936967741558, 37.87776947021485], [55.61585562166117, 37.91647911071778], [55.59200018993468, 37.87111759185792]],
-        author: ['STLV_S','MLNKV_V','ZLTRV_S','PTPKN'],
+        author: ['STLV_S','MLNKV_V','ZLTRV_S','PTPKN']
     },
     {
         name: 'Терехово',
@@ -37,7 +37,7 @@ let moscowMaps = [
         info: '<a href="https://t.me/lamporient/6379">24 октября. Марафонское ориентирование. "Золотая осень"</a>',
         url: './original_maps/moscow/terekhovo_1965_omaps.jpg',
         link: './original_maps/moscow/terekhovo_1965_omaps.jpg',
-        bounds: [[56.16151639174862, 37.072162628173835], [56.16734695513503, 37.1993637084961], [56.09349156919378, 37.07113265991212]],
+        bounds: [[56.16151639174862, 37.072162628173835], [56.16734695513503, 37.1993637084961], [56.09349156919378, 37.07113265991212]]
     },
     {
         name: 'Восточное Измайлово',
@@ -45,7 +45,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/izmailovo_1983.webp',
         link: './original_maps/moscow/ak/izmailovo_1983_omaps.jpg',
         bounds: [[55.80784138701898, 37.82215118408203], [55.80656315741559, 37.846484184265144], [55.78178615666911, 37.81755924224854]],
-        author: ['SDRNK','SMKN_S'],
+        author: ['SDRNK','SMKN_S']
     },
     {
         name: 'Восточное Измайлово',
@@ -53,7 +53,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/izmailovo_1990.webp',
         link: './original_maps/moscow/ak/izmailovo_1990_omaps.jpg',
         bounds: [[55.80359653829958, 37.81837463378907], [55.803451819389224, 37.844982147216804], [55.77517307579767, 37.81828880310059]],
-        author: 'PTPKN',
+        author: 'PTPKN'
     },
     {
         name: 'Измайловский ПКиО',
@@ -61,7 +61,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/izmailovo_1989.webp',
         link: './original_maps/moscow/ak/izmailovo_1989_omaps.jpg',
         bounds: [[55.77777982560901, 37.74773597717286], [55.77650060906283, 37.77417182922363], [55.759359885308086, 37.74327278137208]],
-        author: 'SDRNK',
+        author: 'SDRNK'
     },
     {
         name: 'Измайловский парк',
@@ -84,7 +84,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/izmailovsky_1966.webp',
         link: './original_maps/moscow/ak/izmailovsky_1966_omaps.jpg',
         bounds: [[55.788398115363265, 37.762069702148445], [55.788784180465655, 37.81794548034669], [55.76614465033217, 37.76412963867188]],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Измайловский парк',
@@ -93,7 +93,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/izmailovsky_1988_omaps.jpg',
         bounds: [[55.790714448586236, 37.763357162475586], [55.78859114839274, 37.82240867614747], [55.76503405786429, 37.7570915222168]],
         author: 'KRNVA',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Лыткино',
@@ -102,7 +102,7 @@ let moscowMaps = [
         logo: 'golden_autumn_1976.jpg',
         url: './maps/moscow/lytkino_1976.webp',
         link: ['./original_maps/moscow/lr/lytkino_1976_1_omaps.jpg','./original_maps/moscow/lr/lytkino_1976_2_omaps.jpg'],
-        bounds: [[56.03325969526153, 36.9301986694336], [56.03081393328615, 36.992769241333015], [56.00457219141722, 36.92839622497559]],
+        bounds: [[56.03325969526153, 36.9301986694336], [56.03081393328615, 36.992769241333015], [56.00457219141722, 36.92839622497559]]
     },
     {
         name: 'Ульяновский л/п',
@@ -110,7 +110,7 @@ let moscowMaps = [
         url: './maps/moscow/ulianovsky_1990.webp',
         link: './original_maps/moscow/ulianovsky_1990_omaps.jpg',
         bounds: [[55.646744287044726, 37.23206520080567], [55.64471001827602, 37.259702682495124], [55.61709163580115, 37.22751617431641]],
-        author: 'OGRDNKV',
+        author: 'OGRDNKV'
     },
     {
         name: 'Ульяновский л/п',
@@ -119,7 +119,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ulianovsky_winter_1990_omaps.jpg',
         bounds: [[55.670953656809296, 37.26253509521485], [55.66945311123119, 37.33205795288087], [55.62295611296545, 37.25850105285645]],
         author: ['ZHRDV_V','SHLST'],
-        type: ['WINTER'],
+        type: ['WINTER']
     },
     {
         name: 'Лапшинка',
@@ -127,7 +127,7 @@ let moscowMaps = [
         url: './maps/moscow/lr/lapshinka_1989.webp',
         link: './original_maps/moscow/lr/lapshinka_1989_omaps.jpg',
         bounds: [[55.62935272389321, 37.313861846923835], [55.62833515107742, 37.3537302017212], [55.60218416107511, 37.31150150299073]],
-        author: ['KRSVSKY_A','FMN_I'],
+        author: ['KRSVSKY_A','FMN_I']
     },
     {
         name: 'Рассказовка, Ульяновский л/п',
@@ -135,7 +135,7 @@ let moscowMaps = [
         url: './maps/moscow/rasskazovka_1990.webp',
         link: './original_maps/moscow/rasskazovka_1990_omaps.jpg',
         bounds: [[55.63826747006058, 37.337808609008796], [55.63482778116128, 37.38973617553712], [55.61132323643337, 37.33540534973145]],
-        author: ['KRSVSKY_A','FMN_I'],
+        author: ['KRSVSKY_A','FMN_I']
     },
     {
         name: 'Московский',
@@ -143,7 +143,7 @@ let moscowMaps = [
         url: './maps/moscow/moskovsky_1990.webp',
         link: './original_maps/moscow/moskovsky_1990_omaps.jpg',
         bounds: [[55.6173824569948, 37.35411643981934], [55.613383476482376, 37.39840507507325], [55.59221844560303, 37.35162734985352]],
-        author: ['KRSVSKY_A','FMN_I'],
+        author: ['KRSVSKY_A','FMN_I']
     },
     {
         name: 'Медвежьи оз',
@@ -151,14 +151,14 @@ let moscowMaps = [
         url: './maps/moscow/medvezhji_oz_1988.webp',
         link: './original_maps/moscow/medvezhji_oz_1988_omaps.jpg',
         bounds: [[55.8887906777956, 37.997760772705085], [55.886480180156624, 38.03501129150391], [55.85992365439616, 37.990808486938484]],
-        author: 'JANN_Y',
+        author: 'JANN_Y'
     },
     {
         name: 'Медвежьи оз, юг',
         year: 1985,
         url: './maps/moscow/medvezhji_oz_1985.webp',
         link: './original_maps/moscow/medvezhji_oz_1985_omaps.jpg',
-        bounds: [[55.8610797107667, 37.97136783599854], [55.85965871996614, 38.03041934967042], [55.832915136881745, 37.96935081481934]],
+        bounds: [[55.8610797107667, 37.97136783599854], [55.85965871996614, 38.03041934967042], [55.832915136881745, 37.96935081481934]]
     },
     {
         name: 'Молжаниново',
@@ -166,7 +166,7 @@ let moscowMaps = [
         url: './maps/moscow/molzhaninovo_1989.webp',
         link: './original_maps/moscow/molzhaninovo_1989_omaps.jpg',
         bounds: [[55.94117314141259, 37.255668640136726], [55.93540443848254, 37.36613273620606], [55.90216960483922, 37.24931716918946]],
-        author: ['ALSHN','GLDRV','KTNKO','NDRF_V','LVN_B'],
+        author: ['ALSHN','GLDRV','KTNKO','NDRF_V','LVN_B']
     },
     {
         name: 'Вашутино',
@@ -174,28 +174,28 @@ let moscowMaps = [
         url: './maps/moscow/vashutino_1991.webp',
         link: './original_maps/moscow/vashutino_1991_omaps.jpg',
         bounds: [[55.95770532898682, 37.409777641296394], [55.95506257537483, 37.449173927307136], [55.923696138335394, 37.40192413330079]],
-        author: ['BGCHV','GRSHNV','KTNKO'],
+        author: ['BGCHV','GRSHNV','KTNKO']
     },
     {
         name: 'Мелькисарово',
         year: 2011,
         url: './maps/moscow/melkisarovo_2011.webp',
         link: './original_maps/moscow/melkisarovo_2011_omaps.gif',
-        bounds: [[55.95631189956801, 37.40535736083985], [55.95448595060976, 37.44556903839112], [55.931413916343395, 37.40334033966065]],
+        bounds: [[55.95631189956801, 37.40535736083985], [55.95448595060976, 37.44556903839112], [55.931413916343395, 37.40334033966065]]
     },
     {
         name: 'Сходня',
         year: 1981,
         url: './maps/moscow/shodnya_1981.webp',
         link: './original_maps/moscow/shodnya_1981_omaps.jpg',
-        bounds: [[55.968142441997244, 37.309656143188484], [55.968502706338, 37.330641746521], [55.96025181177015, 37.307853698730476]],
+        bounds: [[55.968142441997244, 37.309656143188484], [55.968502706338, 37.330641746521], [55.96025181177015, 37.307853698730476]]
     },
     {
         name: 'Жабкино',
         year: 1967,
         url: './maps/moscow/zhabkino_1967.webp',
         link: './original_maps/moscow/zhabkino_1967_omaps.jpg',
-        bounds: [[55.56631029730008, 37.58294105529786], [55.564611600656804, 37.662677764892585], [55.526638705060954, 37.580022811889656]],
+        bounds: [[55.56631029730008, 37.58294105529786], [55.564611600656804, 37.662677764892585], [55.526638705060954, 37.580022811889656]]
     },
     {
         name: 'Чёрная грязь',
@@ -204,7 +204,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/chernaja_grjaz_1973_omaps.jpg',
         info: 'IV Первенство МИИГАиК.',
         bounds: [[55.993868887278886, 37.32098579406739], [55.9925247651832, 37.36999511718751], [55.962654000444125, 37.319869995117195]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Родники',
@@ -212,7 +212,7 @@ let moscowMaps = [
         url: './maps/moscow/rodniki_2009.webp',
         link: './original_maps/moscow/rodniki_2009_omaps.jpg',
         bounds: [[55.682520447235106, 38.061704635620124], [55.677826388164895, 38.10710906982422], [55.664902717994714, 38.058915138244636]],
-        author: 'KRSVSKY_A',
+        author: 'KRSVSKY_A'
     },
     {
         name: 'Овражки',
@@ -220,7 +220,7 @@ let moscowMaps = [
         url: './maps/moscow/ovrazhki_1990.webp',
         link: './original_maps/moscow/ovrazhki_1990_omaps.jpg',
         bounds: [[55.68750424381048, 38.03908824920655], [55.683972104026786, 38.10826778411866], [55.65880242471147, 38.03509712219239]],
-        author: 'KRNVA',
+        author: 'KRNVA'
     },
     {
         name: 'Овражки',
@@ -229,7 +229,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ovrazhki_2000_omaps.jpg',
         bounds: [[55.68743166880614, 38.03762912750245], [55.685399513995904, 38.07487964630128], [55.658947680838985, 38.03518295288087]],
         author: 'KRNVA',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Коренево, Овражки',
@@ -237,7 +237,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/korenevo_2006.webp',
         link: './original_maps/moscow/ak/korenevo_2006_omaps.jpg',
         bounds: [[55.69870337165095, 38.001365661621094], [55.696623430678706, 38.029990196228034], [55.67772959751437, 37.998275756835945]],
-        author: 'KRSVSKY_A',
+        author: 'KRSVSKY_A'
     },
     {
         name: 'Овражки',
@@ -245,7 +245,7 @@ let moscowMaps = [
         url: './maps/moscow/ovrazhki_2015.webp',
         link: './original_maps/moscow/ovrazhki_2015_omaps.jpg',
         bounds: [[55.67860070474721, 38.04149150848389], [55.67603572236136, 38.08221817016602], [55.66209476458093, 38.0387020111084]],
-        author: 'KRSVSKY_A',
+        author: 'KRSVSKY_A'
     },
     {
         name: 'Торбеево, Овражки',
@@ -253,7 +253,7 @@ let moscowMaps = [
         url: './maps/moscow/torbeevo_2015.webp',
         link: './original_maps/moscow/torbeevo_2015_omaps.jpg',
         bounds: [[55.69098768561549, 38.04003238677979], [55.68900409707626, 38.068442344665534], [55.66863020696663, 38.036212921142585]],
-        author: 'KRSVSKY_A',
+        author: 'KRSVSKY_A'
     },
     {
         name: 'Боково',
@@ -262,7 +262,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/bokovo_2000_omaps.jpg',
         bounds: [[56.008651145946786, 38.25439453125001], [55.99814096500151, 38.34271430969239], [55.96121270513161, 38.23817253112794]],
         author: ['SMKN_S','ZUEV_A'],
-        areas: [30,70],
+        areas: [30,70]
     },
     {
         name: '11-й квартал Нагатина, к/т Орбита',
@@ -272,7 +272,7 @@ let moscowMaps = [
         bounds: [[55.677790091699016, 37.6628065109253], [55.67573323693717, 37.68226861953736], [55.66555626445608, 37.658665180206306]],
         author: ['MNKV','TTYNN_V'],
         owner: 'ERMCHNKV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: '139-й квартал Выхина',
@@ -282,7 +282,7 @@ let moscowMaps = [
         bounds: [[55.70182307559308, 37.818717956542976], [55.70016651962329, 37.832708358764656], [55.6900200940215, 37.8151559829712]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: '64-й микрорайон Тимирязевского района',
@@ -292,7 +292,7 @@ let moscowMaps = [
         bounds: [[55.81733032631157, 37.56435871124268], [55.816317640025616, 37.57364988327027], [55.811977257435515, 37.56238460540772]],
         author: 'MNKV',
         owner: 'ORNTA_SKRM',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: '76-й квартал Вешняков, Парк "Радуга"',
@@ -303,7 +303,7 @@ let moscowMaps = [
         bounds: [[55.74013399917434, 37.805778980255134], [55.73665493728664, 37.83277273178101], [55.72111617504097, 37.79820442199708]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Алёшкино',
@@ -313,7 +313,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/aleshkino_1992_omaps.jpg',
         bounds: [[55.87892196668262, 37.3962163925171], [55.87545528738495, 37.441492080688484], [55.84361477814675, 37.391023635864265]],
         author: ['EFMV','FMN_I'],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Алёшкинский лес',
@@ -324,7 +324,7 @@ let moscowMaps = [
         bounds: [[55.87954786189981, 37.40282535552979], [55.87494970412528, 37.44230747222901], [55.85187847627619, 37.39368438720704]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
 /*
     {
@@ -352,7 +352,7 @@ let moscowMaps = [
         info: 'Одна из немногих транспортно доступных карт красивой чистой местности в Московской Области.',
         bounds: [[54.86781574160813, 38.097367286682136], [54.863221974231976, 38.14152717590333], [54.84676903077985, 38.090672492980964]],
         author: 'LUK_V',
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Бирюлёвский лесопарк',
@@ -362,7 +362,7 @@ let moscowMaps = [
         bounds: [[55.603420606170076, 37.68362045288086], [55.60194171629032, 37.7116870880127], [55.58744079401243, 37.680916786193855]],
         author: 'SMKN_S',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Загорье, Бирюлёвский лесопарк',
@@ -371,7 +371,7 @@ let moscowMaps = [
         link: './original_maps/moscow/zagorie_2006_omaps.jpg',
         bounds: [[55.60880232489371, 37.678213119506836], [55.6049721684042, 37.7148199081421], [55.5886049454538, 37.67151832580567]],
         author: 'ZUEV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Бирюлёвский Дендропарк',
@@ -381,7 +381,7 @@ let moscowMaps = [
         bounds: [[55.610886936417046, 37.67027378082276], [55.608244793729, 37.69546508789063], [55.58935677490841, 37.66430854797364]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Бульвар Генерала Карбышева',
@@ -392,7 +392,7 @@ let moscowMaps = [
         bounds: [[55.784368332473164, 37.47056722640992], [55.784187344419095, 37.472949028015144], [55.776838519401174, 37.46782064437867]],
         author: 'BRTNK_A',
         owner: ['ISKTL','SKHRV_P'],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Бутово',
@@ -400,7 +400,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/butovo_old.webp',
         link: './original_maps/moscow/ak/butovo_old_omaps.jpg',
         bounds: [[55.590690630433194, 37.52921104431153], [55.58193486003172, 37.572298049926765], [55.55818015505493, 37.50706672668458]],
-        author: 'KRNVA',
+        author: 'KRNVA'
     },
     {
         name: 'Бутово',
@@ -408,7 +408,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/butovo_1996.webp',
         link: './original_maps/moscow/ak/butovo_1996_omaps.jpg',
         bounds: [[55.6090447272758, 37.47797012329102], [55.60043852518014, 37.57341384887696], [55.556262652458436, 37.46252059936524]],
-        author: ['MLNKV_V','DBRTSV_V','KLNN_B'],
+        author: ['MLNKV_V','DBRTSV_V','KLNN_B']
     },
     {
         name: 'Бутовский Лес',
@@ -417,7 +417,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/butovo_2008_omaps.gif',
         bounds: [[55.58974481028229, 37.51865386962891], [55.58713762390764, 37.56289958953858], [55.55299782833485, 37.51105785369874]],
         author: ['JASHPTRV','GRV_S'],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Бутово',
@@ -426,7 +426,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/butovo_2023_omaps.gif',
         bounds: [[55.58867770377239, 37.52453327178956], [55.58501536760552, 37.56611824035645], [55.55427223433714, 37.51376152038575]],
         owner: 'FSO_MSK',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Бутовский Лес',
@@ -436,7 +436,7 @@ let moscowMaps = [
         info: 'Один из наиболее развитых околоМКАДных о-регионов, наряду с Красногорским лесом. Полноценный лес рядом с метро. Бег, лыжи, вело, раздевалки, лыжные трассы, вело-трейлы. Карта заметно подустарела, но за счет грамотной камеральной генерализации позволяет проводить соревнования любого уровня.',
         bounds: [[55.5905451211244, 37.52376079559327], [55.58685870534306, 37.574272155761726], [55.55349545845371, 37.51423358917237]],
         author: ['MKHLV_A','SLBDNK','MTN_Y'],
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Бутовский Полигон',
@@ -445,7 +445,7 @@ let moscowMaps = [
         link: ['http://o-mephi.net/cup/maps/20210105_386.jpg','http://o-mephi.net/cup/maps/20210105_744.ocd'],
         info: 'Карта у мемориала "Бутовский расстрельный полигон".',
         bounds: [[55.54584825137649, 37.58510828018189], [55.54413652983743, 37.60186672210694], [55.53278386635189, 37.58062362670899]],
-        author: 'NKRSV_S',
+        author: 'NKRSV_S'
     },
     {
         name: 'Видновский лесопарк',
@@ -456,7 +456,7 @@ let moscowMaps = [
         bounds: [[55.57378368988397, 37.71151542663575], [55.570496057623664, 37.750847339630134], [55.552560879620465, 37.706472873687744]],
         author: 'MTN_Y',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Видогощи',
@@ -467,7 +467,7 @@ let moscowMaps = [
         info: 'Карта с самой скандальной историей из всех. Карта была нарисована С. Поздеевым и С. Симакиным по заказу А. Ермаченкова в 2010-2011 году для тренировок и соревнований ССО МИФИ на пожертвования московских ориентировщиков, однако спустя 5 лет Поздеев вторично продал ее Тверской федерации внеся косметические правки, заявив, что перерисовал ее заново, вступив в преступный сговор с тогдашним председателем Тверсокй ФСО Машуковым. С тех пор Тверской ФСО на ней проводятся соревнования в т.ч. Всероссийского статуса без согласования с правообладателями.',
         bounds: [[56.72450162051474, 36.34762287139893], [56.71479935017126, 36.41607284545899], [56.704175791168936, 36.33762359619141]],
         author: ['PZDV_S','SMKN_S'],
-        owner: 'ERMCHNKV_A',
+        owner: 'ERMCHNKV_A'
     },
     {
         name: 'Воробьевы Горы',
@@ -476,7 +476,7 @@ let moscowMaps = [
         link: './original_maps/moscow/vorobjevy_gory_old_omaps.jpg',
         bounds: [[55.72046355672164, 37.53521919250489], [55.720221843465445, 37.58023738861085], [55.70612737450863, 37.534103393554695]],
         author: 'KRNVA',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Воробьевы Горы',
@@ -485,7 +485,7 @@ let moscowMaps = [
         link: './original_maps/moscow/vorobjevy_gory_2000_omaps.jpg',
         bounds: [[55.719291233462144, 37.53569126129151], [55.716608051921554, 37.56410121917725], [55.70833979311583, 37.532601356506355]],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Нескучный Сад',
@@ -494,7 +494,7 @@ let moscowMaps = [
         link: './original_maps/moscow/neskuchny_1998_omaps.jpg',
         bounds: [[55.72191380484338, 37.57946491241456], [55.72221593309014, 37.5949788093567], [55.70951244507756, 37.57907867431641]],
         author: 'ZUEV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Воробьевы Горы, Лужники, Нескучный Сад, Большой Газон МГУ, МГДД(Ю)Т',
@@ -505,7 +505,7 @@ let moscowMaps = [
         bounds: [[55.74064133645501, 37.53749370574952], [55.73300642121597, 37.613239288330085], [55.701436149096594, 37.52406120300294]],
         author: ['TTYNN_V','ZUEV_A','SYTV_N','ERMCHNKV_A'],
         owner: ['FSO_MSK','SYTV_N','ERMCHNKV_A'],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Воронцовский Парк',
@@ -516,7 +516,7 @@ let moscowMaps = [
         bounds: [[55.67155869923024, 37.52678632736207], [55.66980405043302, 37.54298686981202], [55.665011643162856, 37.524383068084724]],
         author: ['DBRTSV_V','MNKV','KLZHNY'],
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Горенский лесопарк, запад',
@@ -524,7 +524,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/gorensky_west_1989.webp',
         link: ['./original_maps/moscow/ak/gorensky_west_1989_omaps.jpg','./original_maps/moscow/ak/balashiha_1989_omaps.jpg'],
         bounds: [[55.81632969596974, 37.84103393554688], [55.81165170922683, 37.91184425354004], [55.787722492227445, 37.835454940795906]],
-        author: 'SMKN_S',
+        author: 'SMKN_S'
     },
     {
         name: 'Горенский лесопарк, запад',
@@ -532,7 +532,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/gorensky_west_1979.webp',
         link: './original_maps/moscow/ak/gorensky_west_1979_omaps.jpg',
         bounds: [[55.80571902051578, 37.84759998321534], [55.819078353724095, 37.88506507873536], [55.79300651774618, 37.86163330078126]],
-        author: ['SDRNK','SMKN_S'],
+        author: ['SDRNK','SMKN_S']
     },
     {
         name: 'Горенский лесопарк, Мазуринское оз',
@@ -540,14 +540,14 @@ let moscowMaps = [
         url: './maps/moscow/mazurinskoe_1978.webp',
         link: './original_maps/moscow/mazurinskoe_1978_omaps.jpg',
         bounds: [[55.82814272591888, 37.8940773010254], [55.823514374205224, 37.9510259628296], [55.80514017320536, 37.88862705230713]],
-        author: 'SMKN_S',
+        author: 'SMKN_S'
     },
     {
         name: 'Балашиха, Мазуринское оз',
         year: 1,
         url: './maps/moscow/ak/balashiha_old.webp',
         link: './original_maps/moscow/ak/balashiha_old_omaps.jpg',
-        bounds: [[55.81126587078674, 37.825241088867195], [55.83802434189814, 37.93373107910157], [55.77763501074921, 37.848930358886726]],
+        bounds: [[55.81126587078674, 37.825241088867195], [55.83802434189814, 37.93373107910157], [55.77763501074921, 37.848930358886726]]
     },
     {
         name: 'Горенский лесопарк',
@@ -558,7 +558,7 @@ let moscowMaps = [
         bounds: [[55.82242952461356, 37.93021202087403], [55.82011507771149, 37.953386306762695], [55.805670783568644, 37.925448417663574]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Дзержинский карьер',
@@ -567,7 +567,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/dzerzhinsky_1988_omaps.jpg',
         bounds: [[55.65090936483932, 37.856440544128425], [55.64938383543393, 37.88373470306397], [55.63807369279808, 37.85377979278565]],
         author: 'PTPKN',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Дзержинский карьер',
@@ -578,7 +578,7 @@ let moscowMaps = [
         bounds: [[55.65117572102199, 37.85656929016114], [55.64623572975855, 37.889399528503425], [55.63390724981146, 37.848501205444336]],
         author: 'ZUEV_A',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Долина р. Котловки в Зюзино',
@@ -588,7 +588,7 @@ let moscowMaps = [
         bounds: [[55.67036070615934, 37.58047342300416], [55.6687149184988, 37.59817600250245], [55.661199081890686, 37.5783920288086]],
         author: 'KLZHNY',
         owner: 'ERMCHNKV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Долина р. Рожайка в Домодедово',
@@ -599,7 +599,7 @@ let moscowMaps = [
         link: ['http://o-mephi.net/cup/maps/20210608_90.jpg','https://tkmgtu.ru/library/images/5/54/BNO2011B.jpg'],
         bounds: [[55.40558053356262, 37.7237892150879], [55.40087766032485, 37.77623176574708], [55.385741819864045, 37.719111442565925]],
         author: 'LUK_V',
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Долина р. Сетунь',
@@ -608,7 +608,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20210606_950.jpg',
         bounds: [[55.72517666621405, 37.45861530303956], [55.722928946485204, 37.47921466827393], [55.708037557524435, 37.45303630828858]],
         author: 'LUK_V',
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Зябликово + Видновский л/п',
@@ -618,7 +618,7 @@ let moscowMaps = [
         bounds: [[55.612268536482844, 37.73872375488282], [55.61023247729086, 37.76689767837525], [55.593576453598466, 37.734603881835945]],
         author: 'ZUEV_A',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Орехово-Борисово южное, Зябликово',
@@ -628,7 +628,7 @@ let moscowMaps = [
         bounds: [[55.61346830757587, 37.74091243743897], [55.61219582190348, 37.76769161224366], [55.595395140689504, 37.73726463317872]],
         author: 'KLZHNY',
         owner: 'ERMCHNKV_A',
-        type: ['PARK','CITY'],
+        type: ['PARK','CITY']
     },
     {
         name: 'Терлецкие пруды',
@@ -638,7 +638,7 @@ let moscowMaps = [
         bounds: [[55.773121344534445, 37.80219554901124], [55.77128676394706, 37.82425403594971], [55.76038612661169, 37.79914855957032]],
         author: 'ZHRDV_V',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Измайловский лесопарк',
@@ -648,7 +648,7 @@ let moscowMaps = [
         bounds: [[55.78272734337066, 37.77060985565186], [55.77985544613229, 37.81391143798829], [55.76515477596931, 37.76700496673585]],
         author: ['MTVV','SYTV_N','JASHPTRV'],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Измайловский парк обзорная 15000',
@@ -659,7 +659,7 @@ let moscowMaps = [
         bounds: [[55.804850746322586, 37.742328643798835], [55.81083179796966, 37.87519454956055], [55.754216198504494, 37.74996757507325]],
         author: ['ZHRDV_V','TTYNN_V','MNKV','FLVSKY_S','LKN_A'],
         owner: 'FSO_MSK',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Измайловский парк',
@@ -670,7 +670,7 @@ let moscowMaps = [
         bounds: [[55.79414043893286, 37.7646017074585], [55.788542890225045, 37.82455444335938], [55.76421316483773, 37.75588989257813]],
         author: 'ZHRDV_V',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Измайловский парк, стд Авангард',
@@ -680,7 +680,7 @@ let moscowMaps = [
         bounds: [[55.76952451971224, 37.76784181594849], [55.76838988195085, 37.780115604400635], [55.76298179289187, 37.766060829162605]],
         author: 'ZHRDV_V',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Измайлово, стд Авангард',
@@ -690,7 +690,7 @@ let moscowMaps = [
         bounds: [[55.76598772070707, 37.775309085845954], [55.76494955496837, 37.78766870498658], [55.76002392688244, 37.77363538742066]],
         author: 'ZHRDV_V',
         owner: 'FSO_MSK',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Икша',
@@ -699,7 +699,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20210106_562.jpg',
         bounds: [[56.192928837435815, 37.49783992767335], [56.19077975554918, 37.519640922546394], [56.1779305109157, 37.49260425567628]],
         author: 'TRNN_A',
-        owner: 'ALFRV',
+        owner: 'ALFRV'
     },
     {
         name: 'Китай-Город',
@@ -709,7 +709,7 @@ let moscowMaps = [
         bounds: [[55.760639664420516, 37.6327657699585], [55.75875620133741, 37.649416923522956], [55.75428864950754, 37.63034105300904]],
         author: 'GRCHV_D',
         owner: 'GRCHV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Сретенка',
@@ -720,7 +720,7 @@ let moscowMaps = [
         bounds: [[55.77349549181662, 37.624719142913825], [55.77266270748257, 37.633216381073005], [55.76724314002161, 37.62255191802979]],
         author: 'GRCHV_D',
         owner: 'GRCHV_D',
-        type: ['SPRINT','CITY'],
+        type: ['SPRINT','CITY']
     },
     {
         name: 'Коломенское',
@@ -730,7 +730,7 @@ let moscowMaps = [
         bounds: [[55.666258209609964, 37.66257047653199], [55.664975334807146, 37.675659656524665], [55.65301595059852, 37.658193111419685]],
         author: 'ZUEV_A',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Коломенское',
@@ -741,7 +741,7 @@ let moscowMaps = [
         bounds: [[55.67947179258099, 37.65083312988282], [55.674390173407154, 37.692117691040046], [55.64984392199002, 37.640190124511726]],
         author: ['MNKV','TTYNN_V'],
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Красногорск-Митино',
@@ -750,7 +750,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20210616_347.jpg',
         bounds: [[55.86312680952674, 37.31291770935059], [55.85987548463417, 37.35347270965577], [55.83836171860078, 37.307639122009284]],
         author: ['MTN_Y','JASHPTRV','LKN_A'],
-        owner: ['NLTV_D','SYTV_N'],
+        owner: ['NLTV_D','SYTV_N']
     },
     {
         name: 'Красногорский Лес',
@@ -763,7 +763,7 @@ let moscowMaps = [
         info: 'Карта Красногорского Леса, авторства Юрия Митина с корректировками Андрея Лукина (Моснанорогейн 2019, 2020) и Семёна Якимова (БНО 2020).',
         bounds: [[55.88484349443784, 37.13713645935059], [55.86649826645001, 37.3985767364502], [55.79862754788314, 37.11482048034669]],
         author: 'MTN_Y',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Дедовск',
@@ -771,7 +771,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/dedovsk_1988.webp',
         link: './original_maps/moscow/ak/dedovsk_1988_omaps.jpg',
         bounds: [[55.88710595351588, 37.14825153350831], [55.88409733539768, 37.18382835388184], [55.862572899331276, 37.14262962341309]],
-        author: ['ELZRV','KZMN_R','LVN_B','FMN_I'],
+        author: ['ELZRV','KZMN_R','LVN_B','FMN_I']
     },
     {
         name: 'Красногорск - Дедовск',
@@ -779,7 +779,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/krasnogorsk_2000.webp',
         link: './original_maps/moscow/ak/krasnogorsk_2000_omaps.gif',
         bounds: [[55.89052346075789, 37.14752197265626], [55.877814588886714, 37.34802246093751], [55.84033772335907, 37.135334014892585]],
-        author: 'NLTV_D',
+        author: 'NLTV_D'
     },
     {
         name: 'Опалиха',
@@ -788,7 +788,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20250404_434.jpg',
         bounds: [[55.832433101756216, 37.21687316894532], [55.827757050975436, 37.272920608520515], [55.7950089519825, 37.20708847045899]],
         author: 'MTN_Y',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Красногорск, Сабурово',
@@ -798,7 +798,7 @@ let moscowMaps = [
         link: 'https://tkmgtu.ru/library/images/e/e0/BNO2009B2.jpg',
         bounds: [[55.87677940281839, 37.23159313201905], [55.87157898082079, 37.2982406616211], [55.84939714217351, 37.225499153137214]],
         author: 'NLTV_D',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Опалиха, туристическая схема',
@@ -807,7 +807,7 @@ let moscowMaps = [
         url: './maps/moscow/opaliha_25000_1986.webp',
         link: './original_maps/moscow/opaliha_25000_1986_omaps.jpg',
         bounds: [[55.84428943160727, 37.19266891479493], [55.83821712894382, 37.311630249023445], [55.79298239140481, 37.18623161315919]],
-        author: 'GNDRV',
+        author: 'GNDRV'
     },
     {
         name: 'Опалиховский л/п',
@@ -816,7 +816,7 @@ let moscowMaps = [
         link: './original_maps/moscow/opaliha_1986_omaps.jpg',
         bounds: [[55.835397523162904, 37.25584030151368], [55.8304566952756, 37.32214450836182], [55.814907068780464, 37.25275039672852]],
         author: 'KUZNTSV_V',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Опалиха',
@@ -824,7 +824,7 @@ let moscowMaps = [
         url: './maps/moscow/opaliha_1987.webp',
         link: './original_maps/moscow/opaliha_1987_omaps.jpg',
         bounds: [[55.83122798780296, 37.21103668212891], [55.82848018835752, 37.25262165069581], [55.797011283266286, 37.20236778259278]],
-        author: 'GNDRV',
+        author: 'GNDRV'
     },
     {
         name: 'Опалиха',
@@ -832,7 +832,7 @@ let moscowMaps = [
         url: './maps/moscow/opaliha_1996.webp',
         link: './original_maps/moscow/opaliha_1996_omaps.jpg',
         bounds: [[55.81346027592875, 37.23039150238038], [55.81992220092163, 37.29918479919434], [55.788470502861415, 37.23760128021241]],
-        author: 'GNDRV',
+        author: 'GNDRV'
     },
     {
         name: 'Красногорский городской парк',
@@ -841,7 +841,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/krasnogorsk_park_1986_omaps.jpg',
         bounds: [[55.83228849005348, 37.307660579681404], [55.83571082279079, 37.32343196868897], [55.81852381560109, 37.318582534790046]],
         author: 'KUZNTSV_V',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Красногорск, стад им Утробина',
@@ -849,7 +849,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/krasnoforsk_stadion_2024.webp',
         link: './original_maps/moscow/ak/krasnoforsk_stadion_2024_omaps.gif',
         bounds: [[55.84198833327578, 37.31645822525025], [55.84066303158799, 37.32920408248902], [55.83687964912738, 37.315106391906745]],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Красногорск, лицей №4',
@@ -858,7 +858,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/krasnogorsk_school_4_2008_omaps.gif',
         bounds: [[55.84002446101049, 37.29957103729249], [55.84002446101049, 37.30173826217652], [55.837855652449065, 37.29954957962037]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Красногорск, школа №1',
@@ -867,7 +867,7 @@ let moscowMaps = [
         link: ['./original_maps/moscow/ak/krasnogorsk_school_1_2009_omaps.gif','./original_maps/moscow/ak/krasnogorsk_school_1_podval_2009_omaps.gif'],
         bounds: [[55.835493923317266, 37.324569225311286], [55.8343853071138, 37.326371669769294], [55.83480706700288, 37.32356071472169]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Красногорск, школа №6',
@@ -875,7 +875,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/krasnogorsk_school_6_2009.webp',
         link: './original_maps/moscow/ak/krasnogorsk_school_6_2009_omaps.jpg',
         bounds: [[55.818113934517655, 37.30532169342042], [55.81698071140579, 37.32081413269044], [55.812037543842, 37.303884029388435]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Красногорск, школа №15',
@@ -884,7 +884,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/krasnogorsk_school_15_2009_omaps.gif',
         bounds: [[55.8298782158423, 37.292125225067146], [55.829576921063236, 37.295107841491706], [55.82854044919917, 37.29169607162476]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Красногорск, школа №7',
@@ -893,14 +893,14 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/krasnogorsk_school_7_2006_omaps.jpg',
         bounds: [[55.81759554931718, 37.329590320587165], [55.816811930671875, 37.336821556091316], [55.8143765843133, 37.32924699783326]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Нахабино',
         year: 1,
         url: './maps/moscow/nakhabino_old.webp',
         link: './original_maps/moscow/nakhabino_old_omaps.jpg',
-        bounds: [[55.87169936883428, 37.200994491577156], [55.86770228729162, 37.26828575134278], [55.84207266912696, 37.19558715820313]],
+        bounds: [[55.87169936883428, 37.200994491577156], [55.86770228729162, 37.26828575134278], [55.84207266912696, 37.19558715820313]]
     },
     {
         name: 'Красногорск',
@@ -910,7 +910,7 @@ let moscowMaps = [
         info: 'XIX матч сильнейших юниорских команд России. Новогодние старты-96.',
         bounds: [[55.878416428563746, 37.22060680389405], [55.87290322844244, 37.31128692626954], [55.84101243369096, 37.21112251281739]],
         author: ['NLTV_D','BSHNSKY','KZMN_R'],
-        type: ['WINTER'],
+        type: ['WINTER']
     },
     {
         name: 'Красногорск',
@@ -918,7 +918,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/krasnogorsk_1995.webp',
         link: ['./original_maps/moscow/ak/krasnogorsk_1995_omaps.jpg','./original_maps/moscow/ak/krasnogorsk_1983_omaps.jpg'],
         bounds: [[55.86741332569357, 37.26330757141114], [55.8614891391486, 37.34579086303712], [55.83436120641055, 37.25532531738282]],
-        author: 'KUZNTSV_V',
+        author: 'KUZNTSV_V'
     },
     {
         name: 'Опалиха',
@@ -926,7 +926,7 @@ let moscowMaps = [
         url: './maps/moscow/opaliha_1993.webp',
         link: ['./original_maps/moscow/opaliha_1993_omaps.jpg','./original_maps/moscow/opaliha_1993_winter_omaps.jpg'],
         bounds: [[55.87812754668308, 37.22618579864503], [55.87417927888019, 37.2933053970337], [55.83604821956716, 37.21961975097657]],
-        author: 'KUZNTSV_V',
+        author: 'KUZNTSV_V'
     },
     {
         name: 'Аникеевка',
@@ -934,7 +934,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/anikeevka_1988.webp',
         link: './original_maps/moscow/ak/anikeevka_1988_omaps.jpg',
         bounds: [[55.84467494261356, 37.19357013702393], [55.838771386375626, 37.244939804077156], [55.82544292100879, 37.18884944915772]],
-        author: 'GNDRV',
+        author: 'GNDRV'
     },
     {
         name: 'Аникеевка',
@@ -945,7 +945,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/anikeevka_2004_omaps.jpg',
         bounds: [[55.86876179475812, 37.24485397338868], [55.86437909911537, 37.294893264770515], [55.835662623012354, 37.235498428344734]],
         author: ['MTN_Y','BLTV','PZGRV','JASHPTRV'],
-        logo: 'fsor.jpg',
+        logo: 'fsor.jpg'
     },
     {
         name: 'Крылатское',
@@ -953,7 +953,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/krylatskoe_1990.webp',
         link: './original_maps/moscow/ak/krylatskoe_1990_omaps.jpg',
         bounds: [[55.77408687858283, 37.40896224975587], [55.7700073342752, 37.441191673278816], [55.7507383920938, 37.4026107788086]],
-        author: 'OKN_V',
+        author: 'OKN_V'
     },
     {
         name: 'Крылатское, гребной канал',
@@ -961,7 +961,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/krylatskoe_grebnoy_1990.webp',
         link: './original_maps/moscow/ak/krylatskoe_grebnoy_1990_omaps.jpg',
         bounds: [[55.777031609707635, 37.42938995361329], [55.77558340908979, 37.46732711791993], [55.750617629356626, 37.42235183715821]],
-        author: 'OKN_V',
+        author: 'OKN_V'
     },
     {
         name: 'Крылатские Холмы',
@@ -972,14 +972,14 @@ let moscowMaps = [
         bounds: [[55.77707988213477, 37.41539955139161], [55.77353169942752, 37.44964599609376], [55.74984473898614, 37.40681648254395]],
         author: ['ZUEV_A','SYTV_N'],
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Крылатские Холмы, школа №1133',
         url: './maps/moscow/school_1133.webp',
         link: './original_maps/moscow/school_1133_omaps.gif',
         bounds: [[55.75261016671553, 37.41694450378419], [55.752175439972206, 37.42087125778199], [55.750315720878156, 37.41636514663697]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Кучинский лесопарк Вело (восток)',
@@ -990,7 +990,7 @@ let moscowMaps = [
         bounds: [[55.797517880886495, 37.93416023254395], [55.79433344350657, 37.96763420104981], [55.76488919564486, 37.92274475097657]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK','VELO'],
+        type: ['PARK','VELO']
     },
     {
         name: 'Кучинский лесопарк Вело (запад)',
@@ -1001,7 +1001,7 @@ let moscowMaps = [
         bounds: [[55.79558794992224, 37.89999961853028], [55.792137960041494, 37.93617725372315], [55.779445157818984, 37.895407676696784]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK','VELO'],
+        type: ['PARK','VELO']
     },
     {
         name: 'Кучинский лесопарк ЗИМНЯЯ',
@@ -1013,7 +1013,7 @@ let moscowMaps = [
         bounds: [[55.792885885889866, 37.93416023254395], [55.7897493264824, 37.96042442321778], [55.76817260712279, 37.92626380920411]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['WINTER'],
+        type: ['WINTER']
     },
     {
         name: 'Кучинский лесопарк',
@@ -1024,7 +1024,7 @@ let moscowMaps = [
         bounds: [[55.800895029938275, 37.90197372436524], [55.7950089519825, 37.96634674072266], [55.767641485778434, 37.89201736450196]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Тёплый стан',
@@ -1033,7 +1033,7 @@ let moscowMaps = [
         url: './maps/moscow/teply_stan_1990.webp',
         link: './original_maps/moscow/teply_stan_1990_omaps.jpg',
         bounds: [[55.64628416407032, 37.47449398040772], [55.64345065608576, 37.51165866851807], [55.62402228728622, 37.46981620788575]],
-        author: ['KNDRSHKN_V','KHDNKCH'],
+        author: ['KNDRSHKN_V','KHDNKCH']
     },
     {
         name: 'Ландшафтный заказник "Тёплый стан"',
@@ -1042,7 +1042,7 @@ let moscowMaps = [
         link: './original_maps/moscow/teply_stan_2007_omaps.gif',
         bounds: [[55.6463325983222, 37.47196197509766], [55.64228813196878, 37.515606880187995], [55.62496728118981, 37.46535301208497]],
         author: 'JASHPTRV',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Ландшафтный заказник "Тёплый стан"',
@@ -1052,7 +1052,7 @@ let moscowMaps = [
         bounds: [[55.64652633473074, 37.47161865234376], [55.6424818883844, 37.51307487487794], [55.62528227409465, 37.46535301208497]],
         author: ['LUK_V','ZUEV_A'],
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Тропарево',
@@ -1062,7 +1062,7 @@ let moscowMaps = [
         link: './original_maps/moscow/troparevo_1990_omaps.jpg',
         bounds: [[55.660981210029036, 37.44441032409669], [55.659068727200165, 37.48161792755128], [55.641464656509676, 37.44136333465577]],
         author: ['BSHNSKY','EFMV'],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Солнцево, Дудкино',
@@ -1072,7 +1072,7 @@ let moscowMaps = [
         link: './original_maps/moscow/solntsevo_1990_omaps.jpg',
         bounds: [[55.653306505257106, 37.42016315460206], [55.65027978847778, 37.45973110198975], [55.635772514531894, 37.416987419128425]],
         author: ['KRSVSKY_A','FMN_I'],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Ландшафтный заказник Тропаревский',
@@ -1083,7 +1083,7 @@ let moscowMaps = [
         bounds: [[55.670566424749744, 37.42681503295899], [55.66542313550653, 37.475910186767585], [55.63784358105393, 37.41539955139161]],
         author: ['DBRTSV_V','SYTV_N'],
         owner: 'SYTV_N',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Химкинский л/п',
@@ -1093,7 +1093,7 @@ let moscowMaps = [
         bounds: [[55.90171248741999, 37.46299266815186], [55.89928245702433, 37.48882770538331], [55.87165121367366, 37.45539665222169]],
         author: 'JASHPTRV',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Ландшафтный заказник Химкинский',
@@ -1104,7 +1104,7 @@ let moscowMaps = [
         bounds: [[55.90139971976616, 37.46500968933106], [55.8991380939928, 37.489385604858406], [55.87165121367366, 37.45539665222169]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Ландшафтный парк Митино',
@@ -1115,7 +1115,7 @@ let moscowMaps = [
         bounds: [[55.8436388731148, 37.35325813293458], [55.84004855820383, 37.390508651733406], [55.83183054944736, 37.34896659851075]],
         author: ['MTN_Y','SYTV_N','LKN_A'],
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Летово',
@@ -1125,7 +1125,7 @@ let moscowMaps = [
         info: 'Карта готовилась под Чемпионат Москвы 2019 на классике',
         bounds: [[55.55737918433739, 37.37372875213624], [55.5575733605561, 37.41188049316407], [55.53955943313645, 37.37415790557862]],
         author: 'PZDV_S',
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Лианозово',
@@ -1133,7 +1133,7 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/lianozovo_omaps.jpg',
         bounds: [[55.9058143220635, 37.555818557739265], [55.90444308250402, 37.5744652748108], [55.89780271048334, 37.55487442016602]],
         author: 'PTRV_VLNTN',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Лианозовский лесопитомник',
@@ -1143,7 +1143,7 @@ let moscowMaps = [
         bounds: [[55.90681265019239, 37.59272575378419], [55.90526102070719, 37.608239650726325], [55.899041851673346, 37.58858442306519]],
         author: 'PTRV_VLNTN',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Лианозовский л/п',
@@ -1154,7 +1154,7 @@ let moscowMaps = [
         bounds: [[55.908640847130386, 37.59261846542359], [55.90665628724301, 37.610750198364265], [55.89821175175721, 37.58918523788453]],
         author: 'DBRTSV_V',
         owner: 'MLKHT',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Липовая Роща',
@@ -1165,7 +1165,7 @@ let moscowMaps = [
         bounds: [[55.80149806144807, 37.36186265945435], [55.79911000193182, 37.37960815429688], [55.791896690575065, 37.358279228210456]],
         author: 'JASHPTRV',
         owner: 'SYTV_N',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Люблинский парк, Парк Шкулёва',
@@ -1176,7 +1176,7 @@ let moscowMaps = [
         bounds: [[55.69488199962934, 37.73563385009766], [55.692644630605336, 37.756576538085945], [55.6859801404321, 37.73277997970582]],
         author: ['DBRTSV_V','MNKV'],
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Марьино',
@@ -1187,7 +1187,7 @@ let moscowMaps = [
         bounds: [[55.660981210029036, 37.732329368591316], [55.657882456720166, 37.75691986083985], [55.64667163640817, 37.72754430770875]],
         author: ['MNKV','KLZHNY'],
         owner: 'ERMCHNKV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'МГДД(Ю)Т - Дворец Пионеров на Воробьевых Горах',
@@ -1197,7 +1197,7 @@ let moscowMaps = [
         bounds: [[55.70811009427958, 37.54839420318604], [55.70604274398695, 37.56442308425904], [55.6990782329618, 37.5459909439087]],
         logo: 'mgsyt.jpg',
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'МГДД(Ю)Т - бывш. Дворец Пионеров на Воробьевых Горах',
@@ -1207,7 +1207,7 @@ let moscowMaps = [
         info: 'Первая Карта Николая Сытова в Москве. На настоящее время (2021) территория недоступна и обнесена забором, установлен пропускной режим. Администрация неконтактна.',
         bounds: [[55.707179195696895, 37.54903793334962], [55.70546241547193, 37.564530372619636], [55.699731208594976, 37.54663467407227]],
         author: 'SYTV_N',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Медведково',
@@ -1217,7 +1217,7 @@ let moscowMaps = [
         info: 'Известен также как "Сквер по Олонецкому проезду".',
         bounds: [[55.88451855597379, 37.65600442886353], [55.8828577168966, 37.671432495117195], [55.871278009154246, 37.65139102935792]],
         author: 'MNKV',
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Медведково',
@@ -1225,7 +1225,7 @@ let moscowMaps = [
         url: './maps/moscow/medvedkovo_1999.webp',
         link: './original_maps/moscow/medvedkovo_1999_omaps.jpg',
         bounds: [[55.907726759434425, 37.63607025146485], [55.905104651501986, 37.66696929931641], [55.897405695710816, 37.63362407684327]],
-        author: 'PTRV_VLNTN',
+        author: 'PTRV_VLNTN'
     },
     {
         name: 'свх Нагорное',
@@ -1233,7 +1233,7 @@ let moscowMaps = [
         url: './maps/moscow/nagornoe_2002.webp',
         link: './original_maps/moscow/nagornoe_2002_omaps.jpg',
         bounds: [[55.931990884719845, 37.6113510131836], [55.92715850922621, 37.67130374908448], [55.904984367068984, 37.604484558105476]],
-        author: 'PTRV_VLNTN',
+        author: 'PTRV_VLNTN'
     },
     {
         name: 'Мещерский парк',
@@ -1242,7 +1242,7 @@ let moscowMaps = [
         link: './original_maps/moscow/meschersky_1986_omaps.jpg',
         bounds: [[55.687020407903816, 37.347078323364265], [55.68193976943114, 37.423725128173835], [55.658729796445584, 37.34287261962891]],
         author: 'ZHRDV_V',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Мещерский парк',
@@ -1251,7 +1251,7 @@ let moscowMaps = [
         link: './original_maps/moscow/meschersky_1993_omaps.jpg',
         bounds: [[55.69079416921233, 37.32527732849122], [55.68339144777604, 37.42441177368165], [55.66049704599454, 37.31901168823243]],
         author: 'ZHRDV_V',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Солнцево, Мещерский парк',
@@ -1261,7 +1261,7 @@ let moscowMaps = [
         bounds: [[55.68755262707189, 37.34793663024903], [55.6827623937756, 37.418746948242195], [55.65962553564054, 37.34252929687501]],
         author: 'ZHRDV_V',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Заречье, Мещерский Парк',
@@ -1272,7 +1272,7 @@ let moscowMaps = [
         bounds: [[55.68600433301321, 37.38819122314454], [55.68283497744586, 37.420721054077156], [55.66248208047731, 37.38089561462403]],
         author: 'DBRTSV_V',
         owner: 'SYTV_N',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Царицыно',
@@ -1280,7 +1280,7 @@ let moscowMaps = [
         url: './maps/moscow/tsaritsyno_1986.webp',
         link: './original_maps/moscow/tsaritsyno_1986_omaps.jpg',
         bounds: [[55.62247147868717, 37.67447948455811], [55.61949084613418, 37.70095825195313], [55.6057479265067, 37.668943405151374]],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Музей-заповедник Царицыно',
@@ -1290,7 +1290,7 @@ let moscowMaps = [
         bounds: [[55.617321869424, 37.672398090362556], [55.615443608288736, 37.69570112228394], [55.60555398841948, 37.6697587966919]],
         author: 'SMKN_S',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Музей-заповедник Царицыно',
@@ -1301,7 +1301,7 @@ let moscowMaps = [
         bounds: [[55.62276225997318, 37.67186164855958], [55.620532881654384, 37.70074367523194], [55.60536004937333, 37.66851425170899]],
         author: ['SMKN_S','MNKV'],
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'НИЯУ МИФИ',
@@ -1312,7 +1312,7 @@ let moscowMaps = [
         bounds: [[55.65305227004877, 37.66199111938477], [55.652107953393006, 37.67123937606812], [55.64843943030382, 37.66059637069703]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Новогорский лесопарк',
@@ -1321,7 +1321,7 @@ let moscowMaps = [
         //link: 'http://o-mephi.net/cup/maps/20210609_848.jpg',
         link: './original_maps/moscow/novogorsky_1989_omaps.jpg',
         bounds: [[55.877309036348095, 37.344803810119636], [55.872590228534605, 37.38368511199952], [55.85050533037905, 37.34012603759766]],
-        author: ['GLDRV','FMN_I'],
+        author: ['GLDRV','FMN_I']
     },
     {
         name: 'Новогорский лесопарк',
@@ -1332,7 +1332,7 @@ let moscowMaps = [
         bounds: [[55.861139921093454, 37.35791444778443], [55.858875948595745, 37.38141059875489], [55.849228502067795, 37.35448122024537]],
         author: ['TTYNN_V','SYTV_N'],
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'ООПТ Природный заказник Выхинский и Жулебинский',
@@ -1341,7 +1341,7 @@ let moscowMaps = [
         link: ['http://o-mephi.net/cup/maps/20250403_456.jpg','http://o-mephi.net/cup/maps/20201215_683.ocd'],
         bounds: [[55.70160542991016, 37.81858921051026], [55.69790526785271, 37.85223484039307], [55.68682687186491, 37.81408309936524]],
         author: ['MNKV','TTYNN_V'],
-        owner: 'ERMCHNKV_A',
+        owner: 'ERMCHNKV_A'
     },
     {
         name: 'Останкино, Ботанический сад',
@@ -1350,7 +1350,7 @@ let moscowMaps = [
         url: './maps/moscow/ostankino_1984.webp',
         link: './original_maps/moscow/ostankino_1994_omaps.jpg',
         bounds: [[55.84096424048411, 37.59860515594483], [55.83886777816594, 37.62452602386475], [55.82428580439934, 37.59414196014405]],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Останкино',
@@ -1360,7 +1360,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ostankino_1998_omaps.jpg',
         bounds: [[55.83392739119789, 37.60233879089356], [55.832794628660494, 37.61914014816285], [55.82312865337172, 37.599012851715095]],
         author: 'PTRV_VLNTN',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Останкинский парк',
@@ -1371,7 +1371,7 @@ let moscowMaps = [
         bounds: [[55.83708449136194, 37.6029396057129], [55.835252922483285, 37.621972560882575], [55.8239844663004, 37.59869098663331]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Останкино, ВДНХ',
@@ -1383,7 +1383,7 @@ let moscowMaps = [
         bounds: [[55.84207266912696, 37.61117935180665], [55.8402533837443, 37.626693248748786], [55.82744368726813, 37.60590076446534]],
         author: 'ZHRDV_V',
         owner: 'PRZRV',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Борисовские Пруды',
@@ -1393,7 +1393,7 @@ let moscowMaps = [
         bounds: [[55.64035051509745, 37.67675399780274], [55.638461246364564, 37.698898315429695], [55.61837607979644, 37.67203330993653]],
         author: 'SMKN_S',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
 /*
     {
@@ -1404,7 +1404,7 @@ let moscowMaps = [
         bounds: [[55.62998263668108, 37.70857572555542], [55.63131511113747, 37.726900577545166], [55.626542220399145, 37.709348201751716]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
 */
     {
@@ -1416,7 +1416,7 @@ let moscowMaps = [
         bounds: [[55.64937172781997, 37.70767450332642], [55.64291783681519, 37.76108264923096], [55.62517323837562, 37.69851207733155]],
         author: ['MNKV','SMKN_S'],
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Дружбы',
@@ -1427,7 +1427,7 @@ let moscowMaps = [
         link: ['./original_maps/moscow/ak/druzhby_1998_omaps.jpg','./original_maps/moscow/ak/druzhby_1998_cup_omaps.jpg','./original_maps/moscow/ak/druzhby_2002_cup_omaps.jpg'],
         bounds: [[55.86077865773299, 37.47421503067017], [55.8580690754459, 37.49874114990235], [55.850156013594166, 37.47033119201661]],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Дружбы и Речного Вокзала, Левобережный район',
@@ -1437,7 +1437,7 @@ let moscowMaps = [
         bounds: [[55.86796716686791, 37.46410846710206], [55.864066030503025, 37.501144409179695], [55.8468433707883, 37.4569845199585]],
         author: ['KLZHNY','DBRTSV_V'],
         owner: 'ERMCHNKV_A',
-        type: ['CITY','PARK'],
+        type: ['CITY','PARK']
     },
     {
         name: 'Парк Дубки',
@@ -1448,7 +1448,7 @@ let moscowMaps = [
         bounds: [[55.82439428554359, 37.56371498107911], [55.82364696485847, 37.571525573730476], [55.817559382650124, 37.56116151809693]],
         author: 'MNKV',
         owner: 'ORNTA_SKRM',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Химки, парк Дубки',
@@ -1458,7 +1458,7 @@ let moscowMaps = [
         bounds: [[55.89569728275817, 37.41063594818116], [55.894746795096026, 37.42786645889283], [55.88938031401581, 37.409477233886726]],
         author: 'LUK_V',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Химки, парк Экоберег',
@@ -1468,7 +1468,7 @@ let moscowMaps = [
         bounds: [[55.90853260102792, 37.472198009490974], [55.90746215108016, 37.485179901123054], [55.89142592124173, 37.466897964477546]],
         author: 'LUK_V',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Подрезково',
@@ -1478,7 +1478,7 @@ let moscowMaps = [
         bounds: [[55.95162672594178, 37.32328176498414], [55.951134149109784, 37.33338832855225], [55.945907643093655, 37.3216724395752]],
         author: ['LUK_V','STLRV'],
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Подрезково',
@@ -1486,7 +1486,7 @@ let moscowMaps = [
         url: './maps/moscow/podrezkovo_skhodnya_2024.webp',
         link: './original_maps/moscow/podrezkovo_skhodnya_2024_omaps.jpg',
         bounds: [[55.953272607949714, 37.31152296066285], [55.95174686568186, 37.33001947402955], [55.94701307790179, 37.3093342781067]],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Протвино',
@@ -1496,7 +1496,7 @@ let moscowMaps = [
         bounds: [[54.88213703216093, 37.22468376159669], [54.878458427704665, 37.26399421691895], [54.85840536578773, 37.21867561340333]],
         author: 'LUK_V',
         owner: 'KHMCHKNA',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Зюзино',
@@ -1507,7 +1507,7 @@ let moscowMaps = [
         bounds: [[55.657047203897676, 37.566311359405525], [55.653742333202146, 37.5963306427002], [55.64573927460921, 37.56242752075196]],
         author: 'KLZHNY',
         owner: 'ERMCHNKV_A',
-        type: ['PARK','CITY'],
+        type: ['PARK','CITY']
     },
     {
         name: 'Беловежский пруд',
@@ -1519,7 +1519,7 @@ let moscowMaps = [
         author: 'KLZHNY',
         owner: 'ERMCHNKV_A',
         start: 'OBSW',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Матвеевское',
@@ -1530,7 +1530,7 @@ let moscowMaps = [
         bounds: [[55.71699482819821, 37.46037483215333], [55.71410600036268, 37.49200344085694], [55.70277828397925, 37.45679140090943]],
         author: 'KLZHNY',
         owner: 'ERMCHNKV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Северное Медведково',
@@ -1541,7 +1541,7 @@ let moscowMaps = [
         bounds: [[55.89688836733528, 37.644975185394294], [55.89708086242042, 37.66282796859742], [55.88759934462764, 37.64512538909913]],
         author: 'KLZHNY',
         owner: 'ERMCHNKV_A',
-        type: ['CITY','PARK'],
+        type: ['CITY','PARK']
     },
     {
         name: 'Ясенево',
@@ -1550,7 +1550,7 @@ let moscowMaps = [
         link: './original_maps/moscow/yasenevo_1997_omaps.png',
         bounds: [[55.62613031933282, 37.5119161605835], [55.62390113257392, 37.5350046157837], [55.60974768571125, 37.506594657897956]],
         author: 'SYTV_N',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Ясенево',
@@ -1571,7 +1571,7 @@ let moscowMaps = [
         bounds: [[55.5571000543419, 37.41692304611207], [55.55608060620929, 37.42868185043336], [55.55086158843829, 37.41529226303101]],
         author: 'KLZHNY',
         owner: 'LTVO',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: '40-й квартал Зюзина',
@@ -1581,7 +1581,7 @@ let moscowMaps = [
         bounds: [[55.65669615029089, 37.568070888519294], [55.65525558701049, 37.581803798675544], [55.65096990049448, 37.56611824035645]],
         author: ['MNKV','LKN_A','KLZHNY'],
         owner: 'YZAO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Парк им. 50-летия Октября (Раменки)',
@@ -1591,7 +1591,7 @@ let moscowMaps = [
         bounds: [[55.693019550021006, 37.49582290649415], [55.691181201060836, 37.51419067382813], [55.678237745757706, 37.49127388000489]],
         author: 'SYTV_N',
         owner: 'SYTV_N',
-        type: ['PARK'],
+        type: ['PARK']
     },
 /*
     {
@@ -1602,7 +1602,7 @@ let moscowMaps = [
         bounds: [[55.648051975456504, 37.706408500671394], [55.643789719120456, 37.74803638458253], [55.64124667481385, 37.70426273345948]],
         author: 'SMKN_S',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
 */
     {
@@ -1613,7 +1613,7 @@ let moscowMaps = [
         bounds: [[55.651345219467586, 37.74649143218995], [55.64928697441751, 37.771382331848145], [55.64129511529555, 37.74522542953491]],
         author: 'DBRTSV_V',
         start: 'INCR',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк имени Артёма Боровика',
@@ -1623,7 +1623,7 @@ let moscowMaps = [
         bounds: [[55.66369241795032, 37.75370121002198], [55.66288149598116, 37.75973081588746], [55.660267065980186, 37.752327919006355]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Горького, Парк Искусств Музеон и район Якиманка',
@@ -1634,7 +1634,7 @@ let moscowMaps = [
         bounds: [[55.7517527843269, 37.59920597076417], [55.74919260082538, 37.62057781219483], [55.72198631583576, 37.58869171142579]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Кусково',
@@ -1644,7 +1644,7 @@ let moscowMaps = [
         bounds: [[55.74518291924918, 37.77224063873292], [55.742477359106445, 37.81764507293702], [55.726650906741924, 37.76962280273438]],
         author: ['ZHRDV_V','MRTSHV'],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Кусково',
@@ -1655,7 +1655,7 @@ let moscowMaps = [
         bounds: [[55.74614914526591, 37.77417182922363], [55.74240488616572, 37.81850337982178], [55.72674757630733, 37.769193649292]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Кусково',
@@ -1666,7 +1666,7 @@ let moscowMaps = [
         bounds: [[55.74117282557981, 37.78258323669434], [55.73769385629993, 37.814211845397956], [55.726916747470874, 37.778034210205085]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Кусково',
@@ -1675,7 +1675,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/kuskovo_1991_omaps.jpg',
         bounds: [[55.74506213931466, 37.773528099060066], [55.74242904382759, 37.81764507293702], [55.725877541602586, 37.770266532897956]],
         author: 'MRTSHV',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Кусково',
@@ -1686,7 +1686,7 @@ let moscowMaps = [
         author: 'SYTV_N',
         logo: 'mgsyt.jpg',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Олимпийской деревни',
@@ -1696,7 +1696,7 @@ let moscowMaps = [
         bounds: [[55.68601642929811, 37.47183322906495], [55.684504364683185, 37.487411499023445], [55.67550334645052, 37.468206882476814]],
         author: 'SYTV_N',
         owner: 'SYTV_N',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Пехорка',
@@ -1707,7 +1707,7 @@ let moscowMaps = [
         bounds: [[55.805345182612136, 37.935833930969245], [55.803789496009955, 37.952077388763435], [55.79745757199157, 37.93340921401978]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Парк Садовники',
@@ -1719,7 +1719,7 @@ let moscowMaps = [
         bounds: [[55.66967093593388, 37.64703512191773], [55.668097730279555, 37.661218643188484], [55.657700881535625, 37.64276504516602]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Битца',
@@ -1727,7 +1727,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/bitsa_1988.webp',
         link: ['./original_maps/moscow/ak/bitsa_1988_1_omaps.jpg','./original_maps/moscow/ak/bitsa_1988_2_omaps.jpg'],
         bounds: [[55.65057036344093, 37.52878189086915], [55.64722862117755, 37.60096549987794], [55.58664041986645, 37.512903213500984]],
-        author: 'KRNVA',
+        author: 'KRNVA'
     },
     {
         name: 'Большая Битца 15000',
@@ -1738,7 +1738,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20250403_949.jpg',
         bounds: [[55.6551224230224, 37.51118659973145], [55.64340221826978, 37.61770248413087], [55.55810734020984, 37.47779846191407]],
         author: ['MNKV','SYTV_N','MTN_Y','JASHPTRV','SKRPKO_S','KSTLV_E','DRNN_S','TTYNN_V','LUK_V','YURCHK','MKHLV_A','SLBDNK'],
-        owner: 'SYTV_N',
+        owner: 'SYTV_N'
     },
     {
         name: 'Голубинский Лесопарк',
@@ -1748,7 +1748,7 @@ let moscowMaps = [
         bounds: [[55.61316533854215, 37.499878406524665], [55.61151714599359, 37.51395463943482], [55.60700850069994, 37.49833345413209]],
         author: ['TTYNN_V','TTYNN_M'],
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'ПИП Битцевский Лес + Битцевский парк, Ясенево',
@@ -1758,7 +1758,7 @@ let moscowMaps = [
         info: 'Крупнейший лесной массив Москвы доступный для занятия ориентированием.',
         bounds: [[55.65396024535538, 37.52174377441407], [55.64359596917434, 37.61804580688477], [55.58955079307493, 37.49977111816407]],
         author: ['SYTV_N','JASHPTRV','SKRPKO_S'],
-        owner: 'SYTV_N',
+        owner: 'SYTV_N'
     },
     {
         name: 'Ясенево, север',
@@ -1767,7 +1767,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/jasenevo_north_2012_omaps.jpg',
         bounds: [[55.61953931351675, 37.541055679321296], [55.618085265973335, 37.55766391754151], [55.61006280091969, 37.538352012634284]],
         author: 'KSTLV_E',
-        owner: 'KSTLV_E',
+        owner: 'KSTLV_E'
     },
     {
         name: 'Бутовский л/п',
@@ -1778,7 +1778,7 @@ let moscowMaps = [
         link: ['./original_maps/moscow/ak/butovsky_2013_omaps.pdf','./original_maps/moscow/ak/butovsky_2013_2_omaps.jpg'],
         bounds: [[55.585221534678304, 37.52914667129517], [55.58292938102626, 37.56598949432374], [55.56788759269478, 37.52543449401856]],
         logo: 'fsor.jpg',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'ПиП Битцевский лес - Конно-Спортивный Комплекс',
@@ -1788,7 +1788,7 @@ let moscowMaps = [
         bounds: [[55.650219251755715, 37.561054229736335], [55.64780981423026, 37.584013938903816], [55.63794047037408, 37.557299137115486]],
         author: 'SYTV_N',
         owner: ['SYTV_N','ERMCHNKV_A'],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'ПиП Битцевский лес (ЮГ)',
@@ -1798,7 +1798,7 @@ let moscowMaps = [
         bounds: [[55.60688729340343, 37.54478931427003], [55.601044657557956, 37.603240013122566], [55.58436047677992, 37.53787994384766]],
         author: 'MTN_Y',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'ПИП Кузьминки',
@@ -1808,7 +1808,7 @@ let moscowMaps = [
         info: 'Один из крупнейших лесных массивов Москвы.',
         bounds: [[55.70170216147443, 37.75739192962647], [55.68999590392484, 37.8631353378296], [55.665532059226216, 37.744817733764656]],
         author: ['DBRTSV_V','TTYNN_V'],
-        owner: ['ERMCHNKV_A'],
+        owner: ['ERMCHNKV_A']
     },
     {
         name: 'Кузьминки',
@@ -1817,7 +1817,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/kuzminki_2001_omaps.jpg',
         bounds: [[55.70103712713496, 37.761297225952156], [55.69663552367866, 37.79219627380372], [55.691011875098525, 37.756576538085945]],
         author: 'ZUEV_A',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'ПИП Кузьминки + Кузьминки-Чагино + Белая Дача',
@@ -1828,7 +1828,7 @@ let moscowMaps = [
         bounds: [[55.69246321669408, 37.8151559829712], [55.686947832001486, 37.8609037399292], [55.659940249951156, 37.80447006225587]],
         author: ['DBRTSV_V','TTYNN_V','LUK_V','ZUEV_A','KRSVSKY_A','SMKN_S','BRTNK_V'],
         owner: ['FSO_MSK','SYTV_N','ERMCHNKV_A'],
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'ПКиО Измайлово',
@@ -1838,7 +1838,7 @@ let moscowMaps = [
         bounds: [[55.79044904239149, 37.7466630935669], [55.78682968653965, 37.77721881866456], [55.76150892439349, 37.73602008819581]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Потапово',
@@ -1846,7 +1846,7 @@ let moscowMaps = [
         url: './maps/moscow/potapovo_2017.webp',
         link: './original_maps/moscow/potapovo_2017_omaps.gif',
         bounds: [[55.52503546161305, 37.665681838989265], [55.5253269652816, 37.68336296081544], [55.51274175773283, 37.665960788726814]],
-        author: 'BTV_E',
+        author: 'BTV_E'
     },
     {
         name: 'Подольск, пойма Десны',
@@ -1854,7 +1854,7 @@ let moscowMaps = [
         url: './maps/moscow/podolsk_2015.webp',
         link: './original_maps/moscow/podolsk_2015_omaps.gif',
         bounds: [[55.45596116090207, 37.485394477844245], [55.456350514113794, 37.51024246215821], [55.43678075893205, 37.48505115509034]],
-        author: 'BTV_E',
+        author: 'BTV_E'
     },
     {
         name: 'пл. Весенняя, л/п Дубки',
@@ -1862,7 +1862,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/dubki_1999.webp',
         link: './original_maps/moscow/ak/dubki_1999_omaps.jpg',
         bounds: [[55.42555541373075, 37.48805522918702], [55.4220240053803, 37.534832954406745], [55.394614416286835, 37.478442192077644]],
-        author: ['NKRSV_S','KRNVA'],
+        author: ['NKRSV_S','KRNVA']
     },
     {
         name: 'пл. Весенняя, г. Климовск',
@@ -1870,7 +1870,7 @@ let moscowMaps = [
         url: './maps/moscow/vesennyaya_1997.webp',
         link: './original_maps/moscow/vesennyaya_1997_omaps.jpg',
         bounds: [[55.403558122982496, 37.47762680053712], [55.39848945864646, 37.54461765289307], [55.36925885816712, 37.47101783752442]],
-        author: ['NKRSV_S','KRNVA'],
+        author: ['NKRSV_S','KRNVA']
     },
     {
         name: 'пл. Весенняя, г. Климовск',
@@ -1880,7 +1880,7 @@ let moscowMaps = [
         info: 'Тренировочный полигон клуба Ориента-Весна.',
         bounds: [[55.40372869172652, 37.478656768798835], [55.39840416306062, 37.54363059997559], [55.368941810824175, 37.470674514770515]],
         author: ['JASHPTRV','SKRPKO_S'],
-        owner: ['ORNTA_VSNA','SRPNSKY'],
+        owner: ['ORNTA_VSNA','SRPNSKY']
     },
     {
         name: 'Пойма р. Битца, бульвар Дмитрия Донского',
@@ -1891,7 +1891,7 @@ let moscowMaps = [
         bounds: [[55.57640389340443, 37.56719112396241], [55.57504529118144, 37.579808235168464], [55.57299516849038, 37.566332817077644]],
         author: ['KSTLV_E','MNKV'],
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Знаменские Садки',
@@ -1902,7 +1902,7 @@ let moscowMaps = [
         bounds: [[55.57646454419328, 37.567062377929695], [55.575239380091226, 37.57982969284058], [55.5722066312637, 37.56547451019288]],
         author: 'KLZHNY',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Покровское-Стрешнево',
@@ -1910,7 +1910,7 @@ let moscowMaps = [
         url: './maps/moscow/pokrovskoe_stershnevo_1989.webp',
         link: './original_maps/moscow/pokrovskoe_stershnevo_1989_omaps.jpg',
         bounds: [[55.829685387452564, 37.46385097503663], [55.826756688768235, 37.492647171020515], [55.815618388875976, 37.45902299880982]],
-        author: 'GLDRV',
+        author: 'GLDRV'
     },
     {
         name: 'Покровское-Стрешнево',
@@ -1918,7 +1918,7 @@ let moscowMaps = [
         url: './maps/moscow/pokrovskoe_stershnevo_1996.webp',
         link: './original_maps/moscow/pokrovskoe_stershnevo_1996_omaps.jpg',
         bounds: [[55.83171003786532, 37.45651245117188], [55.82864891847891, 37.494363784790046], [55.815124083069186, 37.45209217071534]],
-        author: 'KUZNTSV_V',
+        author: 'KUZNTSV_V'
     },
     {
         name: 'Покровское-Стрешнево',
@@ -1927,7 +1927,7 @@ let moscowMaps = [
         link: ['http://o-mephi.net/cup/maps/20250614_81.jpg','http://o-mephi.net/cup/maps/20230130_388.ocd'],
         bounds: [[55.830312076223876, 37.46299266815186], [55.8270339001494, 37.49399900436402], [55.814895012395596, 37.4576497077942]],
         author: 'TTYNN_V',
-        owner: 'ERMCHNKV_A',
+        owner: 'ERMCHNKV_A'
     },
     {
         name: 'Прилуки-Турово-Малюшина Дача',
@@ -1937,14 +1937,14 @@ let moscowMaps = [
         info: 'Одна из лучших карт и местностей в Подмосковье. Сосняк на берегу Оки в Серпуховском районе.',
         bounds: [[54.87379179528579, 37.85669803619385], [54.8673959028809, 37.920126914978034], [54.85452696041073, 37.85094738006592]],
         author: 'LUK_V',
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Ромашковский лес',
         year: 1989,
         url: './maps/moscow/romashkovo_1989.webp',
         link: './original_maps/moscow/romashkovo_1989_omaps.jpg',
-        bounds: [[55.76875200397332, 37.31042861938477], [55.76286106805897, 37.38595962524415], [55.732764785594725, 37.29283332824708]],
+        bounds: [[55.76875200397332, 37.31042861938477], [55.76286106805897, 37.38595962524415], [55.732764785594725, 37.29283332824708]]
     },
     {
         name: 'Ромашково',
@@ -1952,7 +1952,7 @@ let moscowMaps = [
         url: './maps/moscow/romashkovo_1997.webp',
         link: './original_maps/moscow/romashkovo_1997_omaps.jpg',
         bounds: [[55.768365740363095, 37.34046936035157], [55.763899289407156, 37.402782440185554], [55.73114578834981, 37.33055591583253]],
-        author: ['KZMN_R','FMN_I','JANN_Y'],
+        author: ['KZMN_R','FMN_I','JANN_Y']
     },
     {
         name: 'Раздоры, парк Малевича',
@@ -1960,7 +1960,7 @@ let moscowMaps = [
         url: './maps/moscow/razdory_1976.webp',
         link: './original_maps/moscow/razdory_1976_omaps.jpg',
         bounds: [[55.75160787276572, 37.302103042602546], [55.74755013048943, 37.344589233398445], [55.73160491379211, 37.2942066192627]],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Раздоры, парки Малевича и Раздолье',
@@ -1970,7 +1970,7 @@ let moscowMaps = [
         bounds: [[55.753467530259364, 37.28703975677491], [55.74738104873525, 37.354331016540534], [55.72674757630733, 37.282147407531745]],
         author: ['KLNN_B','KNTSN','LUK_V','OKN_V'],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Раздоры, парк Малевича',
@@ -1986,7 +1986,7 @@ let moscowMaps = [
         bounds: [[55.75267054504668, 37.30103015899659], [55.74788829179949, 37.34986782073975], [55.729647551979234, 37.29399204254151]],
         author: 'LUK_V',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
 /*
     {
@@ -1997,7 +1997,7 @@ let moscowMaps = [
         bounds: [[55.752936208593596, 37.300858497619636], [55.748129833797876, 37.34978199005128], [55.72952672396005, 37.293863296508796]],
         author: 'ZHRDV_V',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
 */
     {
@@ -2007,7 +2007,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/aliauhovo_2000_omaps.gif',
         bounds: [[55.689850763030655, 36.82926177978516], [55.687020407903816, 36.881189346313484], [55.6584392820345, 36.82338237762452]],
         author: ['STLV_S','ZUEV_A'],
-        areas: '30,70',
+        areas: '30,70'
     },
     {
         name: 'Вязёмы',
@@ -2015,7 +2015,7 @@ let moscowMaps = [
         url: './maps/moscow/vyazemy_1989.webp',
         link: './original_maps/moscow/vyazemy_1989_omaps.jpg',
         bounds: [[55.66325670077184, 37.00315475463868], [55.660981210029036, 37.05430984497071], [55.640592722447984, 36.9981336593628]],
-        author: 'LUK_V',
+        author: 'LUK_V'
     },
     {
         name: 'Мичуринец',
@@ -2023,7 +2023,7 @@ let moscowMaps = [
         url: './maps/moscow/michurinets_1989.webp',
         link: './original_maps/moscow/michurinets_1989_omaps.jpg',
         bounds: [[55.6700823792861, 37.27274894714356], [55.66865441028025, 37.329611778259284], [55.64652633473074, 37.270431518554695]],
-        author: 'ZHRDV_V',
+        author: 'ZHRDV_V'
     },
     {
         name: 'Трёхгорка, Подушкинский лес',
@@ -2031,7 +2031,7 @@ let moscowMaps = [
         url: './maps/moscow/trehgorka_1997.webp',
         link: './original_maps/moscow/trehgorka_1997_omaps.jpg',
         bounds: [[55.725998380915314, 37.309098243713386], [55.71865067083524, 37.35669136047364], [55.706780232372225, 37.29948520660401]],
-        author: 'LUK_V',
+        author: 'LUK_V'
     },
     {
         name: 'Трёхгорка, Подушкинский лес',
@@ -2039,7 +2039,7 @@ let moscowMaps = [
         url: './maps/moscow/trehgorka_2007.webp',
         link: './original_maps/moscow/trehgorka_2007_omaps.gif',
         bounds: [[55.72976837962449, 37.276439666748054], [55.719907613995915, 37.355575561523445], [55.6854720927719, 37.26176261901856]],
-        author: ['GTSLNKO','LUK_V','MLCHK'],
+        author: ['GTSLNKO','LUK_V','MLCHK']
     },
     {
         name: 'Усово',
@@ -2047,14 +2047,14 @@ let moscowMaps = [
         url: './maps/moscow/usovo_2000.webp',
         link: './original_maps/moscow/usovo_2000_omaps.jpg',
         bounds: [[55.73890186689086, 37.20279693603516], [55.72943006127542, 37.292919158935554], [55.68856866173225, 37.18597412109376]],
-        author: 'IGNTNKO',
+        author: 'IGNTNKO'
     },
     {
         name: 'Одинцово',
         year: 1999,
         url: './maps/moscow/odintsovo_1999.webp',
         link: './original_maps/moscow/odintsovo_1999_omaps.gif',
-        bounds: [[55.692572065141846, 37.27062463760377], [55.690044284103195, 37.29401350021363], [55.68325837950437, 37.26712703704835]],
+        bounds: [[55.692572065141846, 37.27062463760377], [55.690044284103195, 37.29401350021363], [55.68325837950437, 37.26712703704835]]
     },
     {
         name: 'Одинцово',
@@ -2064,7 +2064,7 @@ let moscowMaps = [
         bounds: [[55.720632755110884, 37.21120834350587], [55.7137675463005, 37.27476596832276], [55.69352749962285, 37.20211029052735]],
         author: ['ZUEV_A','LUK_V'],
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Район Кунцево',
@@ -2074,7 +2074,7 @@ let moscowMaps = [
         bounds: [[55.753032813071115, 37.397289276123054], [55.751257667603745, 37.415249347686775], [55.73518107450009, 37.391495704650886]],
         author: 'MNKV',
         owner: 'ORNTA_KNTSVO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Район Нагорный',
@@ -2085,7 +2085,7 @@ let moscowMaps = [
         bounds: [[55.64611464371704, 37.60620117187501], [55.64490376271123, 37.61881828308106], [55.64237290051855, 37.60514974594117]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Район Тёплый Стан',
@@ -2096,7 +2096,7 @@ let moscowMaps = [
         bounds: [[55.637456021376934, 37.48035192489625], [55.63609953231416, 37.493612766265876], [55.627462924776744, 37.47736930847169]],
         author: 'LUK_V',
         owner: 'FSO_MSK',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Район Ясенево',
@@ -2107,7 +2107,7 @@ let moscowMaps = [
         bounds: [[55.60402669247227, 37.53530502319337], [55.60425700281168, 37.555282115936286], [55.592776204574, 37.5354552268982]],
         author: 'LUK_V',
         owner: 'FSO_MSK',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Парк им Величко',
@@ -2117,7 +2117,7 @@ let moscowMaps = [
         bounds: [[55.945090562301466, 37.29094505310059], [55.94465798313795, 37.296867370605476], [55.94170189619763, 37.29023694992066]],
         author: 'LUK_V',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
 /*
     {
@@ -2127,7 +2127,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20210606_344.jpg',
         bounds: [[55.77027287973593, 37.343602180480964], [55.765106488772155, 37.391796112060554], [55.73232983770723, 37.33077049255372]],
         author: 'LUK_V',
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
 */
     {
@@ -2137,7 +2137,7 @@ let moscowMaps = [
         link: './original_maps/moscow/rublevo_1987_omaps.jpg',
         bounds: [[55.80340357963287, 37.36063957214356], [55.80210108361839, 37.38072395324708], [55.7733868687821, 37.352828979492195]],
         author: 'GLDRV',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Рублево (сводная)',
@@ -2146,7 +2146,7 @@ let moscowMaps = [
         link: './original_maps/moscow/rublevo_2005_omaps.gif',
         bounds: [[55.79044904239149, 37.35943794250489], [55.785864468184386, 37.41188049316407], [55.761315757185166, 37.350554466247566]],
         author: ['OKN_V','JASHPTRV'],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Рублево (сводная)',
@@ -2156,7 +2156,7 @@ let moscowMaps = [
         info: 'Общая карта, состоящая из трех частей. Две северные части - внутри и за МКАДом нарисованы в начале 2000-х Г. Яшпатровым в соответствии с действовавшими тогда представлениями о рисовке Москвоских карт под проект "Народная Карта" Н. Сытова. Южная часть нарисована В. Добрецовым в 2012 году, но к настоящему моменту (2021) в значительной степени устарела и для проведения серьезных соревнований по ориентированию непригодна.',
         bounds: [[55.79315127548057, 37.33716487884522], [55.787046857373944, 37.39617347717286], [55.75986697262169, 37.32755184173585]],
         author: ['JASHPTRV','DBRTSV_V'],
-        owner: ['ERMCHNKV_A','SYTV_N'],
+        owner: ['ERMCHNKV_A','SYTV_N']
     },
     {
         name: 'Сад Будущего',
@@ -2167,7 +2167,7 @@ let moscowMaps = [
         bounds: [[55.84510863792577, 37.63607025146485], [55.84379549004318, 37.64827966690064], [55.83680735161048, 37.63310909271241]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Салтыковский Лесопарк',
@@ -2176,7 +2176,7 @@ let moscowMaps = [
         link: './original_maps/moscow/saltykovsky_2007_omaps.jpg',
         bounds: [[55.747767520239506, 37.86772727966309], [55.74006152188152, 37.93506145477295], [55.72072943957561, 37.86034584045411]],
         author: 'FLVSKY_S',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Салтыковский Лесопарк',
@@ -2186,7 +2186,7 @@ let moscowMaps = [
         bounds: [[55.74159559585095, 37.86536693572999], [55.73898642623194, 37.89753198623657], [55.72916423765875, 37.862191200256355]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Самородинка',
@@ -2197,7 +2197,7 @@ let moscowMaps = [
         bounds: [[55.66763785821878, 37.494664192199714], [55.665459443446785, 37.517623901367195], [55.651660000348535, 37.48977184295655]],
         author: ['DBRTSV_V','SYTV_N'],
         owner: 'SYTV_N',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Северное Тушино',
@@ -2206,7 +2206,7 @@ let moscowMaps = [
         link: './original_maps/moscow/north_tushino_2013_omaps.jpg',
         bounds: [[55.87639421025881, 37.43535518646241], [55.87355329711283, 37.463164329528816], [55.85346837407153, 37.42866039276124]],
         author: 'MTN_Y',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Северное Тушино',
@@ -2216,7 +2216,7 @@ let moscowMaps = [
         bounds: [[55.86749760638175, 37.446920871734626], [55.865823998475534, 37.46161937713624], [55.85250480741504, 37.44192123413087]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Северное Чертаново',
@@ -2227,7 +2227,7 @@ let moscowMaps = [
         bounds: [[55.64345065608576, 37.581310272216804], [55.64133144561749, 37.60669469833375], [55.63079424015306, 37.57611751556397]],
         author: ['MNKV','SYTV_N'],
         owner: 'FSO_MSK',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Чертановская',
@@ -2238,7 +2238,7 @@ let moscowMaps = [
         bounds: [[55.64205804498037, 37.60566473007203], [55.64032629428002, 37.62186527252198], [55.63424639545655, 37.60315418243409]],
         author: 'KLZHNY',
         owner: 'BKLV_F',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'КСК Битца',
@@ -2246,7 +2246,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/ksk_bitsa_2000.webp',
         link: './original_maps/moscow/ak/ksk_bitsa_2000_omaps.jpg',
         bounds: [[55.645533425506486, 37.57959365844727], [55.64460103661007, 37.5893783569336], [55.63452497718321, 37.576525211334236]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Серебряный бор',
@@ -2255,7 +2255,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ser_bor_1979_omaps.jpg',
         bounds: [[55.79192081758896, 37.407503128051765], [55.789508042220085, 37.444195747375495], [55.77609028542741, 37.4031686782837]],
         author: 'NKFRV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Серебряный бор',
@@ -2264,7 +2264,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ser_bor_1997_omaps.jpg',
         bounds: [[55.79375442691603, 37.4081039428711], [55.79032840261422, 37.446212768554695], [55.7767661102896, 37.402782440185554]],
         author: 'VSHKVRKO',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Серебряный бор',
@@ -2276,7 +2276,7 @@ let moscowMaps = [
         author: ['KVZN','NLTV_D'],
         logo: 'mgsyt.jpg',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Серебряный бор',
@@ -2287,7 +2287,7 @@ let moscowMaps = [
         bounds: [[55.79449025901845, 37.40864038467408], [55.78985790391286, 37.450954914093025], [55.77715229066336, 37.40258932113648]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Совхоз 1 мая + Восточное Измайлово',
@@ -2297,7 +2297,7 @@ let moscowMaps = [
         info: 'Сводная карта Восточной части Измайловского лесопарка и Лесопарка у свх 1 мая (Горенского Лесопарка) под Нанорогейн. Восточная часть в редакции 2006 года с корректировками А. Лукина под нанорогейн в 2021.',
         bounds: [[55.81288154372794, 37.82670021057129], [55.80733492370606, 37.87845611572266], [55.78113455255781, 37.81537055969238]],
         author: ['TTYNN_V','FLVSKY_S','LKN_A'],
-        owner: 'ERMCHNKV_A',
+        owner: 'ERMCHNKV_A'
     },
     {
         name: 'Сокольники',
@@ -2306,7 +2306,7 @@ let moscowMaps = [
         link: './original_maps/moscow/sokolniki_1995_omaps.jpg',
         bounds: [[55.820862466241415, 37.66413688659669], [55.81478650476378, 37.694950103759766], [55.79423694133928, 37.64860153198243]],
         author: 'IGNTNKO',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Сокольники и Путяевские Пруды',
@@ -2316,7 +2316,7 @@ let moscowMaps = [
         info: 'Карта парка Сокольники в редакции Андрея Лукина 2021. Также включает устаревшую карту Путяевских Прудов (пл. Маленковская). Карте 25 лет )))',
         bounds: [[55.821368753540376, 37.657957077026374], [55.818017491282326, 37.692375183105476], [55.79257224131492, 37.64907360076905]],
         author: ['ZUEV_A','SYTV_N','LUK_V','MNKV','LKN_A'],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Сосновка',
@@ -2326,7 +2326,7 @@ let moscowMaps = [
         bounds: [[55.77176955668372, 37.38413572311402], [55.769476237927044, 37.40660190582276], [55.758864865141796, 37.38016605377198]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Стадион Медик - Ромашково',
@@ -2336,7 +2336,7 @@ let moscowMaps = [
         info: 'Один из крупнейших лесных массивов Москвы. Лыжная Трасса. Вело трейлы. Раздевалки на стадионе Медик и в Раздорах (парк Малевича) Западная заМКАДная часть (Ромашково) - карта В. Люка 2020 года. Западная за железной дорогой (Парк Малевича) - свежая карта В.Жердева 2023 года. Восточная часть вблизи ст."Медик" изначально была нарисована неудачно. По состоянию на 2025 год для проведения полноценных соревнований карта непригодна.',
         bounds: [[55.77285581847797, 37.308111190795906], [55.760253320434906, 37.40295410156251], [55.72972004861125, 37.29197502136231]],
         author: ['LUK_V','SKRPKO_S','JASHPTRV','ZHRDV_V'],
-        owner: ['FSO_MSK','ERMCHNKV_A'],
+        owner: ['FSO_MSK','ERMCHNKV_A']
     },
     {
         name: 'Стадион Металлург',
@@ -2346,7 +2346,7 @@ let moscowMaps = [
         bounds: [[55.782292952333435, 37.69992828369141], [55.78078461251925, 37.715356349945075], [55.77069533469536, 37.69604444503785]],
         author: ['MNKV','ZUEV_A'],
         owner: 'FSO_MSK',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Строгино',
@@ -2355,7 +2355,7 @@ let moscowMaps = [
         link: './original_maps/moscow/strogino_1998_omaps.jpg',
         bounds: [[55.79876022334241, 37.42754459381104], [55.796926849688845, 37.44640588760377], [55.790690320825064, 37.424240112304695]],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Строгино и стд "Янтарь"',
@@ -2364,7 +2364,7 @@ let moscowMaps = [
         link: './original_maps/moscow/strogino_2008_omaps.gif',
         bounds: [[55.80528488583984, 37.410507202148445], [55.80395833322202, 37.42788791656495], [55.793199527939144, 37.40728855133057]],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Строгинский и Щукинский полуостровы, Стадион Янтарь',
@@ -2374,7 +2374,7 @@ let moscowMaps = [
         bounds: [[55.82708211062275, 37.39385604858399], [55.820910684363255, 37.453165054321296], [55.7913900198309, 37.383298873901374]],
         author: ['SYTV_N','MNKV','MTN_Y'],
         owner: 'SYTV_N',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Таракановы Горы (Фосфоритный)',
@@ -2384,7 +2384,7 @@ let moscowMaps = [
         url: './maps/moscow/o-mephi/20210616_136.webp',
         link: ['http://o-mephi.net/cup/maps/20210616_136.jpg','https://tkmgtu.ru/library/images/c/c7/BNO2017B.jpg'],
         bounds: [[55.35128070221761, 38.900399208068855], [55.34549766047317, 38.95352840423584], [55.32189312078889, 38.89044284820557]],
-        author: ['JASHPTRV','SHRKHV','LKN_A'],
+        author: ['JASHPTRV','SHRKHV','LKN_A']
     },
     {
         name: 'Таракановы Горы (Фосфоритный)',
@@ -2394,7 +2394,7 @@ let moscowMaps = [
         link: ['http://o-mephi.net/cup/maps/20250614_923.jpg','http://o-mephi.net/cup/maps/20250614_684.ocd'],
         bounds: [[55.34884070320437, 38.900785446167], [55.343301347428465, 38.94760608673096], [55.33019414819156, 38.89421939849854]],
         author: 'DBRTSV_V',
-        owner: 'ERMCHNKV_A',
+        owner: 'ERMCHNKV_A'
     },
     {
         name: 'Терлецкий лесопарк',
@@ -2405,7 +2405,7 @@ let moscowMaps = [
         bounds: [[55.77302478981411, 37.80296802520752], [55.770852245371344, 37.82464027404786], [55.76059137163165, 37.79880523681641]],
         author: 'MNKV',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Тимирязевский парк',
@@ -2414,7 +2414,7 @@ let moscowMaps = [
         link: './original_maps/moscow/timiryazevsky_1990_omaps.jpg',
         bounds: [[55.837132689377974, 37.53264427185059], [55.834288904211185, 37.564530372619636], [55.80791373838292, 37.524833679199226]],
         author: 'SMKN_V',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Тимирязевский лесопарк',
@@ -2425,7 +2425,7 @@ let moscowMaps = [
         bounds: [[55.83737367856191, 37.532858848571784], [55.833252557914705, 37.56895065307618], [55.8086372446261, 37.52264499664307]],
         author: 'LUK_V',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Томилинский Лесопарк (Лыткарино) под рогейн 15000',
@@ -2436,7 +2436,7 @@ let moscowMaps = [
         bounds: [[55.6550497879289, 37.85206317901612], [55.638219025834815, 37.99218177795411], [55.57596720495908, 37.82283782958985]],
         author: ['STLV_S','ZLTRV_S','JASHPTRV','SKRPKO_S','TTYNN_V'],
         owner: 'STLV_S',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Томилинский Лесопарк (Лыткарино)',
@@ -2447,7 +2447,7 @@ let moscowMaps = [
         bounds: [[55.65691404600361, 37.87837028503419], [55.58436047677992, 38.00222396850586], [55.63017645396335, 37.83004760742188]],
         author: ['STLV_S','ZLTRV_S','JASHPTRV','SKRPKO_S','TTYNN_V'],
         owner: 'STLV_S',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Карьер Волкуша (Лыткарино)',
@@ -2458,7 +2458,7 @@ let moscowMaps = [
         bounds: [[55.645969339973064, 37.87073135375977], [55.641077132656214, 37.92875289916993], [55.59221844560303, 37.855195999145515]],
         author: ['ZUEV_A','STLV_S','ZLTRV_S','JASHPTRV','SKRPKO_S','TTYNN_V'],
         owner: 'STLV_S',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Лыткарино, восток',
@@ -2466,7 +2466,7 @@ let moscowMaps = [
         start: 'BNO',
         url: './maps/moscow/lytkarino_bno_2016.webp',
         link: 'https://tkmgtu.ru/library/images/8/87/BNO2016B.jpg',
-        bounds: [[55.603081193750306, 37.91540622711182], [55.59643781660381, 37.970767021179206], [55.575142335756254, 37.90532112121583]],
+        bounds: [[55.603081193750306, 37.91540622711182], [55.59643781660381, 37.970767021179206], [55.575142335756254, 37.90532112121583]]
     },
     {
         name: 'Лыткарино, запад',
@@ -2475,7 +2475,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/324/',
         url: './maps/moscow/lytkarino_bno_2014.webp',
         link: 'https://tkmgtu.ru/library/images/4/40/BNO2014B.jpg',
-        bounds: [[55.61916368973445, 37.879142761230476], [55.61634033773273, 37.91813135147095], [55.592291197222735, 37.87231922149659]],
+        bounds: [[55.61916368973445, 37.879142761230476], [55.61634033773273, 37.91813135147095], [55.592291197222735, 37.87231922149659]]
     },
     {
         name: 'Тучково',
@@ -2483,7 +2483,7 @@ let moscowMaps = [
         url: './maps/moscow/tuchkovo_1994.webp',
         link: './original_maps/moscow/tuchkovo_1994_omaps.jpg',
         bounds: [[55.63749235525952, 36.51117324829102], [55.63133933752637, 36.594257354736335], [55.604147908608944, 36.50422096252442]],
-        author: ['KZMN_R','FMN_I'],
+        author: ['KZMN_R','FMN_I']
     },
     {
         name: 'Тучково',
@@ -2492,7 +2492,7 @@ let moscowMaps = [
         link: './original_maps/moscow/tuchkovo_2009_omaps.jpg',
         bounds: [[55.6394785562352, 36.534862518310554], [55.63594207964861, 36.58061027526856], [55.605117624217115, 36.52653694152833]],
         author: ['KZMN_R','FMN_I'],
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Тучково',
@@ -2501,7 +2501,7 @@ let moscowMaps = [
         link: ['http://o-mephi.net/cup/maps/20210606_905.jpg','http://o-mephi.net/cup/maps/20250614_524.jpg'],
         bounds: [[55.631605826815836, 36.5282964706421], [55.62586379280664, 36.581768989562995], [55.60688729340343, 36.52018547058106]],
         author: ['SKRPKO_S','JASHPTRV'],
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
 /*
     {
@@ -2512,7 +2512,7 @@ let moscowMaps = [
         info: 'Карта набережной в крупном масштабе 1:5000.',
         bounds: [[55.617116,36.547226]],
         author: ['SKRPKO_S','JASHPTRV'],
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
 */
     {
@@ -2522,7 +2522,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20200919_688.jpg',
         bounds: [[55.85195074576892, 37.39119529724122], [55.85223982239593, 37.42007732391358], [55.839542514007164, 37.39171028137208]],
         author: 'MTN_Y',
-        owner: 'MLKHT',
+        owner: 'MLKHT'
     },
     {
         name: 'Усадьба Братцево',
@@ -2530,7 +2530,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20200919_536.jpg',
         bounds: [[55.851902566122014, 37.39437103271485], [55.85001146779927, 37.407267093658454], [55.8444701403675, 37.39046573638917]],
         author: 'DJCHKV',
-        owner: 'MLKHT',
+        owner: 'MLKHT'
     },
     {
         name: 'Фили-Кунцевский л/п',
@@ -2539,7 +2539,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/fili_2000_omaps.png',
         bounds: [[55.74546071167968, 37.437951564788825], [55.74357651553955, 37.46048212051392], [55.73733144583148, 37.43606328964234]],
         author: 'OKN_V',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Филёвская Пойма',
@@ -2548,7 +2548,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20250614_809.jpg',
         bounds: [[55.768655438429555, 37.47887134552003], [55.76674821992664, 37.49897718429566], [55.763380182188605, 37.477133274078376]],
         author: 'KLZHNY',
-        owner: 'ERMCHNKV_A',
+        owner: 'ERMCHNKV_A'
     },
     {
         name: 'Филёвский и Суворовский парки',
@@ -2559,7 +2559,7 @@ let moscowMaps = [
         bounds: [[55.75921500200738, 37.42964744567872], [55.75257393967197, 37.49676704406739], [55.736630776050305, 37.423467636108406]],
         author: ['DBRTSV_V','KSTLV_E','SKRPKO_S','JASHPTRV','SYTV_N'],
         owner: 'SYTV_N',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Филёвский парк',
@@ -2568,7 +2568,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/fili_1990_omaps.jpg',
         bounds: [[55.75443355110994, 37.461705207824714], [55.752936208593596, 37.49547958374024], [55.73781465904159, 37.459216117858894]],
         author: 'OKN_V',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Филёвский парк',
@@ -2578,7 +2578,7 @@ let moscowMaps = [
         bounds: [[55.75460260229904, 37.472949028015144], [55.752767150182194, 37.4959945678711], [55.7419700456948, 37.470180988311775]],
         author: 'MTN_Y',
         owner: 'IVNV_AL',
-        type: ['PARK'],
+        type: ['PARK']
     },
 /*
     {
@@ -2588,7 +2588,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20210531_903.jpg',
         bounds: [[55.728551,37.600048]],
         author: 'MNKV',
-        owner: 'ERMCHNKV_A',
+        owner: 'ERMCHNKV_A'
     },
 */
     {
@@ -2600,7 +2600,7 @@ let moscowMaps = [
         bounds: [[55.73398503018637, 37.596502304077156], [55.73248690278119, 37.60905504226685], [55.72312230380605, 37.592511177062995]],
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Чертаново центральное и Чертаново Южное',
@@ -2611,7 +2611,7 @@ let moscowMaps = [
         bounds: [[55.61435296375693, 37.574787139892585], [55.61268058321919, 37.59268283843995], [55.596352948669875, 37.56961584091187]],
         author: 'MNKV',
         owner: 'FSO_MSK',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Щукинский Треугольник',
@@ -2622,7 +2622,7 @@ let moscowMaps = [
         logo: 'schukino.jpg',
         author: 'KSTLV_E',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Ясеневский лесопарк (аквапарк Мореон)',
@@ -2632,7 +2632,7 @@ let moscowMaps = [
         bounds: [[55.604147908608944, 37.50807523727418], [55.60120225044219, 37.53479003906251], [55.594631302378225, 37.50434160232545]],
         author: ['LUK_V','SYTV_N'],
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Ясеневский лесопарк (аквапарк Мореон)',
@@ -2643,7 +2643,7 @@ let moscowMaps = [
         bounds: [[55.60458428359934, 37.5065302848816], [55.601044657557956, 37.53727912902833], [55.594570679653145, 37.502882480621345]],
         author: ['YURCHK','LUK_V'],
         owner: 'FSO_MSK',
-        type: ['PARK','SPRINT'],
+        type: ['PARK','SPRINT']
     },
     {
         name: 'Ясенево',
@@ -2652,7 +2652,7 @@ let moscowMaps = [
         link: './original_maps/moscow/yasenevo_1983_omaps.jpg',
         bounds: [[55.601723514702876, 37.51401901245118], [55.59772293716675, 37.5359058380127], [55.59517690268927, 37.51075744628907]],
         author: 'MTVV',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Ульяновский лесопарк',
@@ -2662,7 +2662,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ulianovsky_aerorogaine_2024_omaps.jpg',
         bounds: [[55.66194952013165, 37.21429824829102], [55.661901105195454, 37.32699394226075], [55.6090447272758, 37.21532821655274]],
         owner: 'OPNBND',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Московский',
@@ -2673,7 +2673,7 @@ let moscowMaps = [
         link: './original_maps/moscow/moskovsky_aerorogaine_2024_omaps.jpg',
         bounds: [[55.61122628129369, 37.26888656616212], [55.6133592389934, 37.402782440185554], [55.55708791821017, 37.27352142333985]],
         owner: 'OPNBND',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Валуевский лесопарк',
@@ -2684,7 +2684,7 @@ let moscowMaps = [
         link: './original_maps/moscow/valuevsky_aerorogaine_2024_omaps.jpg',
         bounds: [[55.61437720063169, 37.30708122253419], [55.56640736346098, 37.43737220764161], [55.57693761713127, 37.26330757141114]],
         owner: 'OPNBND',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Ново-Переделкино',
@@ -2694,7 +2694,7 @@ let moscowMaps = [
         link: './original_maps/moscow/novo_peredelkino_rogaine_2024.pdf',
         bounds: [[55.6668391202158, 37.29721069335938], [55.669307894089066, 37.418489456176765], [55.616703870853875, 37.29892730712891]],
         owner: 'OPNBND',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Подосинки, им Цурюпы',
@@ -2703,7 +2703,7 @@ let moscowMaps = [
         link: './original_maps/moscow/podosinki_2012_omaps.gif',
         bounds: [[55.713960948980805, 38.508110046386726], [55.65686562483894, 39.10034179687501], [55.34320373068866, 38.398246765136726]],
         owner: 'KSTKN_SITE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Анциферово',
@@ -2713,7 +2713,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/antsiferovo_rogaine_2024.pdf',
         bounds: [[55.585888538377276, 38.733372688293464], [55.5707750924518, 38.888640403747566], [55.52066264738814, 38.71371746063233]],
         owner: 'OPNBND',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Ступино',
@@ -2723,7 +2723,7 @@ let moscowMaps = [
         link: './original_maps/moscow/stupino_rogaine_2024.pdf',
         bounds: [[54.88248265558986, 38.07629585266114], [54.87495233107354, 38.14285755157471], [54.84951165408857, 38.065180778503425]],
         owner: 'OPNBND',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Ёлкино',
@@ -2732,7 +2732,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/elkino_rogaine_2023_omaps.png',
         bounds: [[55.3300232622142, 38.76319885253907], [55.31508009664849, 38.88954162597657], [55.28009302741054, 38.746118545532234]],
         author: ['JAKMV_S','TTYNN_V'],
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Новочеркасское',
@@ -2742,7 +2742,7 @@ let moscowMaps = [
         info: 'Карта под ОМР 2022 в Воскресенском районе МО.',
         bounds: [[55.30848573268348, 38.83752822875977], [55.30428430680247, 38.86898517608643], [55.28349047070057, 38.82808685302735]],
         author: 'TTYNN_V',
-        owner: 'KLNN_O',
+        owner: 'KLNN_O'
     },
     {
         name: 'Осташово',
@@ -2753,7 +2753,7 @@ let moscowMaps = [
         url: './maps/moscow/ostashovo_bno_2024.webp',
         link: ['https://tkmgtu.ru/library/images/e/e9/Map_bno2024_zn.jpg','https://tkmgtu.ru/library/images/e/e9/Map_bno2024_vb.jpg'],
         bounds: [[55.38778951882971, 38.78259658813477], [55.38013448242731, 38.84808540344239], [55.34100729044037, 38.765344619750984]],
-        author: 'TTYNN_V',
+        author: 'TTYNN_V'
     },
     {
         name: 'Осташово',
@@ -2762,7 +2762,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ostashovo_2024_omaps.jpg',
         bounds: [[55.37986628549959, 38.80718708038331], [55.375477350153645, 38.84606838226319], [55.362234444872115, 38.800792694091804]],
         author: 'TTYNN_V',
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Хорлово',
@@ -2772,7 +2772,7 @@ let moscowMaps = [
         info: 'Легендарная карта Владимира Тутынина по материалам Сергея Юрчука на бывшем Лопатинском руднике в пос. Хорлово. Признана лучшей картой центральной России.',
         bounds: [[55.35755081000249, 38.78684520721436], [55.35476963959437, 38.80963325500489], [55.34115372357937, 38.78023624420167]],
         author: 'TTYNN_V',
-        owner: 'KLNN_O',
+        owner: 'KLNN_O'
     },
     {
         name: 'Марьина гора',
@@ -2784,7 +2784,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/18492/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['WINTER','ROGAINE'],
+        type: ['WINTER','ROGAINE']
     },
     {
         name: 'Степаньково',
@@ -2792,7 +2792,7 @@ let moscowMaps = [
         start: 'BNO',
         url: './maps/moscow/stepankovo_2018.webp',
         link: 'https://tkmgtu.ru/library/images/2/28/BNO2018.jpg',
-        bounds: [[56.11292583742176, 37.73632049560547], [56.112447278708856, 37.840690612792976], [56.06264467131311, 37.73546218872071]],
+        bounds: [[56.11292583742176, 37.73632049560547], [56.112447278708856, 37.840690612792976], [56.06264467131311, 37.73546218872071]]
     },
     {
         name: 'Крылатское',
@@ -2801,7 +2801,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/krylatskoe_2021_omaps.gif',
         bounds: [[55.85363699578003, 37.39213943481446], [55.84110881992539, 37.52002716064454], [55.75011042177816, 37.35935211181641]],
         owner: 'GOLDMRSHRT',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'МОСКВА',
@@ -2811,7 +2811,7 @@ let moscowMaps = [
         link: './original_maps/moscow/mosden_2023.pdf',
         bounds: [[55.829974629678674, 37.578306198120124], [55.81661903750816, 37.709455490112305], [55.72798009228692, 37.54577636718751]],
         owner: 'GOLDMRSHRT',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
 /*
     {
@@ -2821,7 +2821,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/brateevsky_park_2024.webp',
         bounds: [[55.640180969060964, 37.71278142929078], [55.63955122021502, 37.73913145065308], [55.63542127016981, 37.71215915679932]],
         author: 'MNKV',
-        type: ['PARK'],
+        type: ['PARK']
     },
 */
     {
@@ -2831,7 +2831,7 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/luzhki_2024_omaps.jpg',
         bounds: [[54.89763779577963, 37.51444816589356], [54.89326955361984, 37.55611896514893], [54.864580400806084, 37.50359058380128]],
         author: ['TTYNN_V','LUK_V'],
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Лужки',
@@ -2840,7 +2840,7 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/luzhki_2007_omaps.gif',
         bounds: [[54.89270189414958, 37.51221656799317], [54.89087545722829, 37.53277301788331], [54.871964501003035, 37.50792503356934]],
         author: ['DJCHKV','KRVKV'],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'им Цюрупы',
@@ -2851,7 +2851,7 @@ let moscowMaps = [
         link: ['./original_maps/moscow/tsjurupy_2015_omaps.gif','./original_maps/moscow/tsjurupy_2021_1_omaps.gif','./original_maps/moscow/tsjurupy_2021_2_omaps.gif','https://forestadventure.ru/2022/bno/bno2022v.png'],
         bounds: [[55.52496258535843, 38.6544942855835], [55.515876288118314, 38.740110397338874], [55.493418792536225, 38.643808364868164]],
         author: 'SMKN_S',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Ивановское, 74-й квартал',
@@ -2862,7 +2862,7 @@ let moscowMaps = [
         bounds: [[55.768474377390305, 37.82227993011475], [55.76738799349502, 37.8348970413208], [55.75811628612568, 37.81968355178834]],
         author: ['MNKV','ERMCHNKV_F'],
         owner: 'FSO_MSK',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Истра, Гефсиманский сад и пойма реки',
@@ -2871,7 +2871,7 @@ let moscowMaps = [
         link: ['./original_maps/moscow/ak/istra_gefsimansky_2024_omaps.jpg','./original_maps/moscow/ak/istra_poima_2022_omaps.jpg'],
         bounds: [[55.92554758347172, 36.81458473205567], [55.925595671777316, 36.86097621917725], [55.89764631120948, 36.81617259979249]],
         author: ['BLDV','OGRZKV'],
-        type: ['PARK'],
+        type: ['PARK']
     },
 /*
     {
@@ -2879,7 +2879,7 @@ let moscowMaps = [
         year: 2021,
         url: './maps/moscow/ak/istra_2021.webp',
         bounds: [[55.92220530004892, 36.844475269317634], [55.92047393200941, 36.85964584350587], [55.9171432357415, 36.842458248138435]],
-        type: ['PARK'],
+        type: ['PARK']
     },
 */
     {
@@ -2889,7 +2889,7 @@ let moscowMaps = [
         link: './original_maps/moscow/poklonnaja_gora_2001_omaps.jpg',
         bounds: [[55.737995862453005, 37.49305486679078], [55.735664314332844, 37.51919031143189], [55.72375070848684, 37.488677501678474]],
         author: 'OKN_V',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Поклонная гора, парк Победы',
@@ -2899,7 +2899,7 @@ let moscowMaps = [
         bounds: [[55.73567639525201, 37.49552249908448], [55.733731319105345, 37.51371860504151], [55.728016342167926, 37.49324798583985]],
         author: 'ZHRDV_V',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Сколково',
@@ -2909,7 +2909,7 @@ let moscowMaps = [
         bounds: [[55.699066140717555, 37.34894514083863], [55.69806247140481, 37.36021041870118], [55.68622206556947, 37.34501838684083]],
         author: 'KLZHNY',
         owner: 'FSO_MSK',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'МОСКВА, Кремль',
@@ -2919,7 +2919,7 @@ let moscowMaps = [
         bounds: [[55.75776613939548, 37.60884046554566], [55.75775406531426, 37.62559890747071], [55.74697041856728, 37.60929107666016]],
         author: 'DBRTSV_V',
         start: 'INCR',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа-интернат №31',
@@ -2928,7 +2928,7 @@ let moscowMaps = [
         link: './original_maps/moscow/school_31_2015_omaps.jpg',
         bounds: [[55.729405895566906, 37.80569314956666], [55.728463421266376, 37.81545639038087], [55.72537001240534, 37.80408382415772]],
         author: 'ZUEV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Михалково, Головинские пруды',
@@ -2938,7 +2938,7 @@ let moscowMaps = [
         bounds: [[55.848818944478936, 37.50271081924439], [55.84772275440471, 37.52339601516724], [55.837385727981896, 37.50082254409791]],
         author: 'DBRTSV_V',
         start: 'INCR',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Лефортовский парк',
@@ -2948,7 +2948,7 @@ let moscowMaps = [
         bounds: [[55.769572801437626, 37.686645984649665], [55.76883649862789, 37.6977825164795], [55.7607000303225, 37.684886455535896]],
         author: 'ZUEV_A',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Лефортовский парк',
@@ -2958,7 +2958,7 @@ let moscowMaps = [
         bounds: [[55.769572801437626, 37.686645984649665], [55.76878821599053, 37.698168754577644], [55.760736249818855, 37.68507957458497]],
         author: 'DBRTSV_V',
         start: 'INCR',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Екатерининский сад, с/к Олимпийский',
@@ -2968,7 +2968,7 @@ let moscowMaps = [
         bounds: [[55.78945978518826, 37.617208957672126], [55.786998597293184, 37.63280868530274], [55.77697126908963, 37.6119089126587]],
         author: 'OKN_V',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Екатерининский сад',
@@ -2978,7 +2978,7 @@ let moscowMaps = [
         bounds: [[55.78721576718586, 37.616221904754646], [55.78647979764906, 37.6249122619629], [55.78125522080794, 37.614741325378425]],
         author: 'DBRTSV_V',
         start: 'INCR',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Фестивальный парк',
@@ -2987,7 +2987,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/festivalny_2011_omaps.jpg',
         bounds: [[55.7932719065149, 37.616500854492195], [55.79249986143896, 37.623753547668464], [55.78853082567378, 37.6149344444275]],
         author: 'MNKV',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Ростокино, парк Акведук',
@@ -2996,7 +2996,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/akveduk_2010_omaps.jpg',
         bounds: [[55.83368638065533, 37.65287160873414], [55.83232464302957, 37.66563892364503], [55.82744368726813, 37.65055418014527]],
         author: 'ZUEV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Белокаменная, парк "Друзья леса"',
@@ -3005,7 +3005,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/belokamennaya_2012_omaps.jpg',
         bounds: [[55.83114362842779, 37.69404888153077], [55.830661571345026, 37.70645141601563], [55.825744247810654, 37.69349098205567]],
         author: ['ZUEV_A','KBZRV'],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Манеж МГТУ им Баумана',
@@ -3014,7 +3014,7 @@ let moscowMaps = [
         link: './original_maps/moscow/manezh_2011_omaps.jpg',
         bounds: [[55.771974741786075, 37.696623802185066], [55.7729403042376, 37.69831895828248], [55.77155230069221, 37.69750356674195]],
         author: ['ZUEV_A','KBZRV'],
-        type: ['INDOOR'],
+        type: ['INDOOR']
     },
     {
         name: 'Измайловский о-в, Серебряно-Виноградный пруд',
@@ -3023,7 +3023,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/izmailovsky_2019_omaps.jpg',
         bounds: [[55.79570857340955, 37.75211334228516], [55.79568444874199, 37.769644260406494], [55.788361921563784, 37.75239229202271]],
         author: ['ZUEV_A','KBZRV'],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Перовский ПКиО',
@@ -3033,7 +3033,7 @@ let moscowMaps = [
         bounds: [[55.74536408844991, 37.7726697921753], [55.744820578324095, 37.779021263122566], [55.73833410657008, 37.77088880538941]],
         author: 'DBRTSV_V',
         start: 'INCR',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Беляево',
@@ -3043,7 +3043,7 @@ let moscowMaps = [
         bounds: [[55.64283306944477, 37.52281665802003], [55.6414041061603, 37.538566589355476], [55.63322894971446, 37.52017736434937]],
         author: 'KLZHNY',
         owner: 'ERMCHNKV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Сквер "Два медведя"',
@@ -3053,7 +3053,7 @@ let moscowMaps = [
         bounds: [[55.66071492055117, 37.58695363998414], [55.66035179561638, 37.59032249450684], [55.6584392820345, 37.58618116378785]],
         author: 'KLZHNY',
         owner: 'ERMCHNKV_A',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Зеленоград, Парк 40-летия Победы',
@@ -3063,7 +3063,7 @@ let moscowMaps = [
         bounds: [[55.99146863646352, 37.21367597579957], [55.990028414437454, 37.23114252090455], [55.98505923657923, 37.21193790435792]],
         author: 'ZHRDV_V',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Зеленоградский л/п',
@@ -3073,7 +3073,7 @@ let moscowMaps = [
         bounds: [[55.99683299135716, 37.18887090682984], [55.99476894291238, 37.214212417602546], [55.981241898161215, 37.185029983520515]],
         author: 'ZHRDV_V',
         owner: 'FSO_MSK',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Ходынское поле',
@@ -3086,7 +3086,7 @@ let moscowMaps = [
         areas: [70, 30],
         owner: 'OPNBND',
         bounds: [[55.789604556104365, 37.52172231674195], [55.787662168163365, 37.53818035125733], [55.78559902894423, 37.520327568054206]],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Крылатское',
@@ -3096,7 +3096,7 @@ let moscowMaps = [
         owner: 'OPNBND',
         author: 'MNKV',
         bounds: [[55.77596960118306, 37.406258583068855], [55.774002395308436, 37.423725128173835], [55.76429766932963, 37.40209579467774]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Ватутинки, школа №1392',
@@ -3106,7 +3106,7 @@ let moscowMaps = [
         author: 'SHRNN',
         owner: 'SHRNN',
         bounds: [[55.51828168864266, 37.343795299530036], [55.51809946647747, 37.3471212387085], [55.51559686337447, 37.34328031539918]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Ватутинки',
@@ -3115,7 +3115,7 @@ let moscowMaps = [
         link: './original_maps/moscow/vatutinki_2014_omaps.jpg',
         author: ['LNTV','SHRNN'],
         owner: 'SHRNN',
-        bounds: [[55.51650802370428, 37.30875492095948], [55.5143940994372, 37.345361709594734], [55.50231582613284, 37.30566501617432]],
+        bounds: [[55.51650802370428, 37.30875492095948], [55.5143940994372, 37.345361709594734], [55.50231582613284, 37.30566501617432]]
     },
     {
         name: 'Ватутинки, север',
@@ -3125,7 +3125,7 @@ let moscowMaps = [
         author: 'SHRNN',
         owner: 'SHRNN',
         bounds: [[55.51166040833033, 37.32201576232911], [55.51063978164267, 37.33476161956788], [55.5025102743655, 37.32006311416627]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Ватутинки',
@@ -3135,7 +3135,7 @@ let moscowMaps = [
         author: 'SHRNN',
         owner: 'SHRNN',
         bounds: [[55.506204608339054, 37.32373237609864], [55.50524460093877, 37.337851524353034], [55.500237600672435, 37.32295989990235]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Новые Ватутинки',
@@ -3143,7 +3143,7 @@ let moscowMaps = [
         url: './maps/moscow/vatutinki_new_2025.webp',
         link: './original_maps/moscow/vatutinki_new_2025_omaps.jpg',
         bounds: [[55.52771964293233, 37.34624147415162], [55.52812043257231, 37.35651969909669], [55.52280052839589, 37.34664916992188]],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Черкизовский парк',
@@ -3152,7 +3152,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/cherkizovsky_park_2000_omaps.jpg',
         author: 'BRBA',
         bounds: [[55.80779315270165, 37.731428146362305], [55.80745551080683, 37.741813659667976], [55.79935122671461, 37.72945404052735]],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Черкизовский парк',
@@ -3162,7 +3162,7 @@ let moscowMaps = [
         author: 'ALNKV_A',
         owner: 'ALNKV_A',
         bounds: [[55.81022891102612, 37.72597789764405], [55.808287551620985, 37.74322986602784], [55.79930298187762, 37.72194385528565]],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Яузский лесопарк',
@@ -3170,7 +3170,7 @@ let moscowMaps = [
         url: './maps/moscow/losiny_ostrov_2006.webp',
         link: './original_maps/moscow/lr/losiny_ostrov_2006_omaps.jpg',
         author: ['RMNV_A','ZUEV_A'],
-        bounds: [[55.83845811140674, 37.670445442199714], [55.83571082279079, 37.69782543182374], [55.81857203662118, 37.665424346923835]],
+        bounds: [[55.83845811140674, 37.670445442199714], [55.83571082279079, 37.69782543182374], [55.81857203662118, 37.665424346923835]]
     },
     {
         name: 'Воскресенское',
@@ -3179,7 +3179,7 @@ let moscowMaps = [
         link: './original_maps/moscow/voskresenskoe_2019_omaps.gif',
         bounds: [[55.55672383251505, 37.41514205932618], [55.552815766960904, 37.45475292205811], [55.52608000642811, 37.40715980529786]],
         author: 'PZDV_S',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Перемилово',
@@ -3188,7 +3188,7 @@ let moscowMaps = [
         link: ['./original_maps/moscow/peremilovo_2011_omaps.gif','./original_maps/moscow/peremilovo_2013_omaps.jpg'],
         bounds: [[56.306110446282375, 37.49768972396851], [56.3032058169907, 37.52989768981934], [56.29321649248073, 37.49376296997071]],
         author: 'TRNN_A',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Ильинское',
@@ -3199,7 +3199,7 @@ let moscowMaps = [
         link: ['./original_maps/moscow/ak/ilinskoe_2011_omaps.jpg','https://tkmgtu.ru/library/images/0/04/BNO2013A.jpg'],
         bounds: [[56.27636326487207, 37.59156703948975], [56.27164541270659, 37.63950347900391], [56.26049181234496, 37.58637428283692]],
         author: ['MTN_Y','JASHPTRV','SKRPKO_S'],
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Ильинское',
@@ -3207,7 +3207,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/ilinskoe_2014.webp',
         link: './original_maps/moscow/ak/ilinskoe_2014_omaps.jpg',
         bounds: [[56.28813153080834, 37.59770393371583], [56.28567812239415, 37.62268066406251], [56.27490984718792, 37.59366989135743]],
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Дмитров',
@@ -3216,7 +3216,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/dmitrov_velo_2013_omaps.jpg',
         bounds: [[56.35772597925194, 37.56390810012818], [56.3554672535457, 37.58819818496705], [56.34415972595931, 37.559573650360115]],
         owner: 'FSO_MSK',
-        type: ['VELO'],
+        type: ['VELO']
     },
     {
         name: 'Дмитров, Внуково',
@@ -3224,7 +3224,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/dmitrov_2010.webp',
         link: './original_maps/moscow/ak/dmitrov_2010_omaps.gif',
         bounds: [[56.36066212264018, 37.56148338317872], [56.35847489560593, 37.58440017700196], [56.3442310773364, 37.55663394927979]],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Агафониха',
@@ -3232,7 +3232,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/agafoniha_1983.webp',
         link: ['./original_maps/moscow/ak/agafoniha_1983_omaps.jpg','./original_maps/moscow/ak/agafoniha_1983_north_omaps.jpg'],
         bounds: [[56.09191150539825, 37.32201576232911], [56.08736247495096, 37.432994842529304], [56.03148533435779, 37.31266021728516]],
-        author: 'IGNTNKO',
+        author: 'IGNTNKO'
     },
     {
         name: 'Голенищево',
@@ -3240,7 +3240,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/golenischevo_1989.webp',
         link: './original_maps/moscow/ak/golenischevo_1989_omaps.jpg',
         bounds: [[56.17781107396722, 37.53170013427735], [56.17007076744799, 37.58671760559083], [56.150187275470074, 37.52303123474122]],
-        author: ['MLNKV_V','TLMCHV'],
+        author: ['MLNKV_V','TLMCHV']
     },
     {
         name: 'Пальчино',
@@ -3248,20 +3248,20 @@ let moscowMaps = [
         url: './maps/moscow/palchino_1987.webp',
         link: './original_maps/moscow/palchino_1987_omaps.jpg',
         bounds: [[56.43454984497366, 37.815027236938484], [56.43108548237159, 37.87073135375977], [56.386495187089096, 37.8061866760254]],
-        author: ['ALSHN','BSHNSKY','EFMV','KZMN_R','LVN_B','PPV_V','JANN_Y'],
+        author: ['ALSHN','BSHNSKY','EFMV','KZMN_R','LVN_B','PPV_V','JANN_Y']
     },
     {
         name: 'Парамоново',
         year: 1988,
         url: './maps/moscow/paramonovo_1998.webp',
         link: './original_maps/moscow/paramonovo_1998_omaps.jpg',
-        bounds: [[56.26227946708592, 37.4355697631836], [56.25679706124028, 37.493677139282234], [56.21620284305977, 37.42509841918946]],
+        bounds: [[56.26227946708592, 37.4355697631836], [56.25679706124028, 37.493677139282234], [56.21620284305977, 37.42509841918946]]
     },
     {
         name: 'Парамоново',
         url: './maps/moscow/paramonovo.webp',
         link: './original_maps/moscow/paramonovo_omaps.jpg',
-        bounds: [[56.301586747439224, 37.3791790008545], [56.294347715151105, 37.46054649353028], [56.239915855533646, 37.36115455627442]],
+        bounds: [[56.301586747439224, 37.3791790008545], [56.294347715151105, 37.46054649353028], [56.239915855533646, 37.36115455627442]]
     },
     {
         name: 'Икша',
@@ -3270,14 +3270,14 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/iksha_2011_omaps.gif',
         bounds: [[56.18249272412734, 37.45239257812501], [56.178073834763374, 37.499170303344734], [56.160871152064054, 37.445697784423835]],
         author: 'TRNN_A',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Яхрома',
         year: 1971,
         url: './maps/moscow/ak/jahroma_1971.webp',
         link: './original_maps/moscow/ak/jahroma_1971_omaps.jpg',
-        bounds: [[56.30015809968222, 37.383041381835945], [56.294681121760405, 37.45016098022462], [56.272622389464544, 37.37763404846192]],
+        bounds: [[56.30015809968222, 37.383041381835945], [56.294681121760405, 37.45016098022462], [56.272622389464544, 37.37763404846192]]
     },
     {
         name: 'Ольгово',
@@ -3285,7 +3285,7 @@ let moscowMaps = [
         url: './maps/moscow/olgovo_1986.webp',
         link: './original_maps/moscow/olgovo_1986_omaps.jpg',
         bounds: [[56.27486219321396, 37.30021476745606], [56.26718912909186, 37.400293350219734], [56.22369525974297, 37.28510856628419]],
-        author: [],
+        author: []
     },
     {
         name: 'Долгопрудный, Долгие пруды',
@@ -3295,7 +3295,7 @@ let moscowMaps = [
         bounds: [[55.943576514089365, 37.52019882202149], [55.94189416887523, 37.552042007446296], [55.91934369170874, 37.512860298156745]],
         author: 'PTRV_VLNTN',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Долгопрудный, ПКиО',
@@ -3304,7 +3304,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/dolgoprudny_pkio_2011_omaps.gif',
         bounds: [[55.94785414846454, 37.49934196472169], [55.94682083063672, 37.508354187011726], [55.941533656821726, 37.49730348587037]],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Долгопрудный, Кампус МФТИ',
@@ -3313,7 +3313,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/dolgoprudny_campus_2024_omaps.jpg',
         bounds: [[55.93244764525802, 37.51577854156495], [55.93081289848175, 37.53114223480225], [55.92422513168521, 37.512903213500984]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Долгопрудный, Берёзовая роща, ФизТех',
@@ -3323,7 +3323,7 @@ let moscowMaps = [
         info: 'Карта парка Долгие Пруды у Физтеха в Долгопрудном. По состоянию на настоящее время (2025) для ориентирования непригодна.',
         bounds: [[55.942326778909944, 37.52376079559327], [55.94263921648545, 37.54637718200684], [55.92278240554305, 37.52440452575684]],
         author: ['PTRV_VLNTN','KCHRNA','KHMZV','NLTV_D'],
-        owner: 'TTV_A',
+        owner: 'TTV_A'
     },
     {
         name: 'Фосфоритный',
@@ -3333,14 +3333,14 @@ let moscowMaps = [
         bounds: [[55.33986021212368, 38.888919353485115], [55.33831038334608, 38.902158737182624], [55.332891607778755, 38.88662338256837]],
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Ляхово',
         year: 2010,
         url: './maps/moscow/liahovo_2010.webp',
         link: './original_maps/moscow/lr/liahovo_2010_omaps.jpg',
-        bounds: [[55.25219367189334, 37.96621799468995], [55.253172070139215, 37.994284629821784], [55.239496770821845, 37.96720504760743]],
+        bounds: [[55.25219367189334, 37.96621799468995], [55.253172070139215, 37.994284629821784], [55.239496770821845, 37.96720504760743]]
     },
     {
         name: 'Зарайск, Беспятовская роща',
@@ -3348,7 +3348,7 @@ let moscowMaps = [
         url: './maps/moscow/zarajsk_2019.webp',
         link: './original_maps/moscow/zarajsk_2019_omaps.jpg',
         bounds: [[54.75382988869222, 38.88945579528809], [54.75046156690285, 38.92202854156495], [54.740627436391534, 38.88606548309327]],
-        author: 'FSHN_A',
+        author: 'FSHN_A'
     },
     {
         name: 'Зарайск',
@@ -3357,7 +3357,7 @@ let moscowMaps = [
         link: './original_maps/moscow/zarajsk_city_2024_omaps.jpg',
         bounds: [[54.76472548067742, 38.863406181335456], [54.76328941136427, 38.87559413909913], [54.75519199807767, 38.86027336120606]],
         author: 'FSHN_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Зарайск, Карманово',
@@ -3365,7 +3365,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/karmanovo_2024.webp',
         link: './original_maps/moscow/ak/karmanovo_2024_omaps.jpg',
         bounds: [[54.72045628479659, 38.848299980163574], [54.716961244351126, 38.88057231903077], [54.70701980136917, 38.84379386901856]],
-        author: 'FSHN_A',
+        author: 'FSHN_A'
     },
     {
         name: 'Вельяминово',
@@ -3373,7 +3373,7 @@ let moscowMaps = [
         url: './maps/moscow/veliaminovo_old.webp',
         link: './original_maps/moscow/veliaminovo_old_omaps.jpg',
         bounds: [[55.883327091665635, 36.85762882232667], [55.878729381508776, 36.90148830413819], [55.86071844684628, 36.85084819793702]],
-        author: 'GLDRV',
+        author: 'GLDRV'
     },
     {
         name: 'Истра, Соколиная гора',
@@ -3381,7 +3381,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/istra_sokolinaja_1986.webp',
         link: './original_maps/moscow/ak/istra_sokolinaja_1986_omaps.jpg',
         bounds: [[55.92915404080984, 36.88633918762208], [55.925812068414, 36.93114280700684], [55.905056537773554, 36.880416870117195]],
-        author: ['ELZRV','FMN_I'],
+        author: ['ELZRV','FMN_I']
     },
     {
         name: 'Истра, Соколиная гора',
@@ -3389,14 +3389,14 @@ let moscowMaps = [
         url: './maps/moscow/ak/istra_sokolinaja_2024.webp',
         link: './original_maps/moscow/ak/istra_sokolinaja_2024_omaps.jpg',
         bounds: [[55.92239766950172, 36.88329219818116], [55.922565991989714, 36.911873817443855], [55.90965112951672, 36.883378028869636]],
-        author: ['BLDV','OGRZKV'],
+        author: ['BLDV','OGRZKV']
     },
     {
         name: 'Истра, р Песочная',
         year: 2020,
         url: './maps/moscow/ak/istra_pesochnaja_2020.webp',
         link: './original_maps/moscow/ak/istra_pesochnaja_2020_omaps.jpg',
-        bounds: [[55.92754319800888, 36.8668556213379], [55.92761532673049, 36.90144538879395], [55.90938653429286, 36.866426467895515]],
+        bounds: [[55.92754319800888, 36.8668556213379], [55.92761532673049, 36.90144538879395], [55.90938653429286, 36.866426467895515]]
     },
     {
         name: 'Павловская слобода, Шишкин лес',
@@ -3404,7 +3404,7 @@ let moscowMaps = [
         url: './maps/moscow/shiskin_les_2025.webp',
         link: './original_maps/moscow/shiskin_les_2025_omaps.jpg',
         bounds: [[55.804296005449615, 37.06121921539307], [55.80306589966498, 37.07623958587647], [55.7928255698216, 37.05757141113282]],
-        author: 'MTN_Y',
+        author: 'MTN_Y'
     },
     {
         name: 'Аносино',
@@ -3412,7 +3412,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/anosino_1988.webp',
         link: './original_maps/moscow/ak/anosino_1988_omaps.jpg',
         bounds: [[55.85599762287287, 36.94496154785157], [55.852914326163344, 37.00040817260743], [55.81951233456857, 36.937065124511726]],
-        author: 'GLDRV',
+        author: 'GLDRV'
     },
     {
         name: 'Кострово',
@@ -3420,7 +3420,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/kostrovo_1988.webp',
         link: './original_maps/moscow/ak/kostrovo_1988_omaps.jpg',
         bounds: [[55.90106289024169, 36.698112487792976], [55.89620259583252, 36.76274299621583], [55.8658721608619, 36.687898635864265]],
-        author: 'GLDRV',
+        author: 'GLDRV'
     },
     {
         name: 'Снегири',
@@ -3428,7 +3428,7 @@ let moscowMaps = [
         url: './maps/moscow/snegiri_1991.webp',
         link: ['./original_maps/moscow/snegiri_1990_omaps.jpg','./original_maps/moscow/snegiri_1991_omaps.jpg'],
         bounds: [[55.92761532673049, 36.96599006652833], [55.92016131564876, 37.066926956176765], [55.89297810417991, 36.95689201354981]],
-        author: ['IVNLV','KZMN_R','KZMN_A','LVN_B','PPV_V','FMN_I','BLKHN','SMKN_V'],
+        author: ['IVNLV','KZMN_R','KZMN_A','LVN_B','PPV_V','FMN_I','BLKHN','SMKN_V']
     },
     {
         name: 'Снегири, б/о "Ленино"',
@@ -3436,7 +3436,7 @@ let moscowMaps = [
         url: './maps/moscow/snegiri_lenino_2009.webp',
         link: './original_maps/moscow/snegiri_lenino_2009_omaps.gif',
         bounds: [[55.886576453637836, 37.07398653030396], [55.88658848780621, 37.08381414413453], [55.88201523512651, 37.07400798797608]],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Павловская слобода',
@@ -3444,7 +3444,7 @@ let moscowMaps = [
         url: './maps/moscow/pavlovska_sloboda.webp',
         link: './original_maps/moscow/pavlovska_sloboda_omaps.jpg',
         bounds: [[55.85325157365692, 37.07975864410401], [55.84833710649609, 37.12477684020997], [55.822140226280055, 37.070660591125495]],
-        author: ['GLDRV','MTN_Y'],
+        author: ['GLDRV','MTN_Y']
     },
     {
         name: 'Дедовск',
@@ -3452,7 +3452,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/dedovsk_2019.webp',
         link: './original_maps/moscow/ak/dedovsk_2019_omaps.jpg',
         bounds: [[55.85197483556996, 37.08520889282227], [55.84884303622127, 37.117352485656745], [55.839060561029704, 37.080874443054206]],
-        author: ['GLDRV','MTN_Y'],
+        author: ['GLDRV','MTN_Y']
     },
     {
         name: 'Малиновка',
@@ -3460,7 +3460,7 @@ let moscowMaps = [
         url: './maps/moscow/malinovka_1998.webp',
         link: './original_maps/moscow/malinovka_1998_omaps.jpg',
         bounds: [[55.884217684600166, 37.14348793029786], [55.882364265506844, 37.17198371887208], [55.86238023306408, 37.13971138000489]],
-        logo: 'mgsyt.jpg',
+        logo: 'mgsyt.jpg'
     },
     {
         name: 'Миитовская',
@@ -3469,14 +3469,14 @@ let moscowMaps = [
         link: './original_maps/moscow/miitovskaja_2001_omaps.jpg',
         bounds: [[55.87747755459241, 37.08023071289063], [55.87444411428237, 37.107610702514656], [55.86228389957216, 37.0721197128296]],
         author: 'OGRZKV',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Миитовская',
         year: 2021,
         url: './maps/moscow/miitovskaja_2021.webp',
         link: './original_maps/moscow/miitovskaja_2021_omaps.jpg',
-        bounds: [[55.87721273988007, 37.07701206207276], [55.87535898631922, 37.100400924682624], [55.85961054987569, 37.0715618133545]],
+        bounds: [[55.87721273988007, 37.07701206207276], [55.87535898631922, 37.100400924682624], [55.85961054987569, 37.0715618133545]]
     },
     {
         name: 'Алтуфьево, Хлебниковский лесопарк',
@@ -3484,7 +3484,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/altufievo_1997.webp',
         link: './original_maps/moscow/ak/altufievo_1997_omaps.jpg',
         bounds: [[55.92251789992488, 37.59311199188233], [55.92124343846354, 37.61529922485352], [55.906090969781594, 37.58912086486817]],
-        author: ['PTRV_VLNTN','MLNKV_V'],
+        author: ['PTRV_VLNTN','MLNKV_V']
     },
     {
         name: 'стд Октябрь',
@@ -3493,7 +3493,7 @@ let moscowMaps = [
         link: './original_maps/moscow/std_oktjabr_1995_omaps.jpg',
         bounds: [[55.79475563767708, 37.44681358337403], [55.79476770030042, 37.454473972320564], [55.78884450279229, 37.44662046432496]],
         author: ['SHGV','NLTV_D','MDVDV_A'],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Лысая гора',
@@ -3502,7 +3502,7 @@ let moscowMaps = [
         bounds: [[55.805574309495036, 37.44775772094727], [55.804344244100186, 37.45848655700684], [55.7899423528162, 37.44355201721192]],
         author: ['SKLV_V','KSTLV_E'],
         owner: 'MLKHT',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Живописная ул',
@@ -3512,7 +3512,7 @@ let moscowMaps = [
         bounds: [[55.805248707731664, 37.4481225013733], [55.80347593924496, 37.46827125549317], [55.78159308992029, 37.4420714378357]],
         author: 'KSTLV_E',
         owner: 'ISKTL',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Хорошево-Мневники',
@@ -3522,7 +3522,7 @@ let moscowMaps = [
         bounds: [[55.78953217071357, 37.44835853576661], [55.788735922537114, 37.45788574218751], [55.781194886729565, 37.446234226226814]],
         author: ['KSTLV_E','BRTNK_A'],
         owner: ['ISKTL','SKHRV_P'],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Фроловское, запад',
@@ -3530,14 +3530,14 @@ let moscowMaps = [
         url: './maps/moscow/ak/frolovskoe_west_1985.webp',
         link: './original_maps/moscow/ak/frolovskoe_west_1985_omaps.jpg',
         bounds: [[56.28186669027055, 36.68395042419434], [56.27753072432127, 36.7544174194336], [56.25541441750372, 36.67871475219727]],
-        author: ['PTRV_VLNTN','KLSNKV_V'],
+        author: ['PTRV_VLNTN','KLSNKV_V']
     },
     {
         name: 'Фроловское, юго-запад',
         year: 1985,
         url: './maps/moscow/ak/frolovskoe_south_west_1985.webp',
         link: './original_maps/moscow/ak/frolovskoe_south_west_1985_omaps.jpg',
-        bounds: [[56.26518720706061, 36.68781280517579], [56.25889477015197, 36.7624855041504], [56.24182370942394, 36.68171882629395]],
+        bounds: [[56.26518720706061, 36.68781280517579], [56.25889477015197, 36.7624855041504], [56.24182370942394, 36.68171882629395]]
     },
     {
         name: 'Ильясово',
@@ -3546,7 +3546,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/iliasovo_rogaine_2014_omaps.jpg',
         bounds: [[54.97505217678069, 38.64612579345704], [54.94104765125723, 38.97674560546876], [54.81987650974958, 38.59840393066407]],
         author: ['ZVJLV','CHPKN','TNS_A'],
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Ильясово',
@@ -3559,7 +3559,7 @@ let moscowMaps = [
         bounds: [[54.96283357307888, 38.72929573059083], [54.94681566221077, 38.85409355163575], [54.85892410510788, 38.69024276733399]],
         author: 'JAKMV_S',
         owner: 'JAKMV_S',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Бебехово',
@@ -3567,7 +3567,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/bebehovo_1998.webp',
         link: './original_maps/moscow/ak/bebehovo_1998_omaps.jpg',
         bounds: [[54.93621568893701, 38.75452995300294], [54.93143246055318, 38.80414009094239], [54.900500341559756, 38.74423027038575]],
-        author: ['DBRTSV_V','SMKN_S','ZUEV_A'],
+        author: ['DBRTSV_V','SMKN_S','ZUEV_A']
     },
     {
         name: 'Ильясово',
@@ -3575,7 +3575,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/iliasovo_1998.webp',
         link: ['./original_maps/moscow/ak/iliasovo_1998_clean_omaps.jpg','./original_maps/moscow/ak/iliasovo_1998_omaps.jpg'],
         bounds: [[54.93557467072232, 38.78199577331543], [54.93236942637941, 38.81564140319825], [54.915944706124804, 38.77770423889161]],
-        author: 'SMKN_S',
+        author: 'SMKN_S'
     },
     {
         name: 'Власьево',
@@ -3583,14 +3583,14 @@ let moscowMaps = [
         url: './maps/moscow/vlasievo_1998.webp',
         link: './original_maps/moscow/vlasievo_1998_omaps.jpg',
         bounds: [[54.92674730400552, 38.80019187927247], [54.92304811072695, 38.83903026580811], [54.90136400075775, 38.7929391860962]],
-        author: 'SMKN_S',
+        author: 'SMKN_S'
     },
     {
         name: 'Власьево',
         year: 2019,
         url: './maps/moscow/vlasievo_2019.webp',
         link: './original_maps/moscow/vlasievo_2019_omaps.jpg',
-        bounds: [[54.92127237713482, 38.79448413848878], [54.91772067483547, 38.83701324462891], [54.904250955616085, 38.78899097442627]],
+        bounds: [[54.92127237713482, 38.79448413848878], [54.91772067483547, 38.83701324462891], [54.904250955616085, 38.78899097442627]]
     },
     {
         name: 'пл Фруктовая',
@@ -3598,7 +3598,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/fruktovaya_2019.webp',
         link: './original_maps/moscow/ak/fruktovaya_2019_omaps.jpg',
         bounds: [[54.93355293096097, 39.2558240890503], [54.9313215026283, 39.276959896087654], [54.91689436581007, 39.25103902816773]],
-        author: 'FSHN_A',
+        author: 'FSHN_A'
     },
     {
         name: 'Коломна, кремль',
@@ -3607,7 +3607,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/kolomna_kreml_2019_omaps.jpg',
         bounds: [[55.10934665596558, 38.74884366989136], [55.10791056659611, 38.76461505889893], [55.10301274546913, 38.74725580215455]],
         author: 'FSHN_A',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Коломна, Окский пр',
@@ -3616,7 +3616,7 @@ let moscowMaps = [
         link: './original_maps/moscow/oksky_2019_omaps.jpg',
         bounds: [[55.08422606210372, 38.802487850189216], [55.08346458554247, 38.80984783172608], [55.07823211260226, 38.800771236419685]],
         author: 'FKN_S',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Коломна, Колычево',
@@ -3625,21 +3625,21 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/kolychevo_2019_omaps.jpg',
         bounds: [[55.06738421996596, 38.745560646057136], [55.06640125312684, 38.75789880752564], [55.057848422833956, 38.74302864074708]],
         author: 'FRLNA_V',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Хорошово',
         year: 1989,
         url: './maps/moscow/ak/horoshovo_1989.webp',
         link: './original_maps/moscow/ak/horoshovo_1989_omaps.jpg',
-        bounds: [[55.19204936909781, 38.81504058837891], [55.18680661068306, 38.87580871582032], [55.15116697932903, 38.80456924438477]],
+        bounds: [[55.19204936909781, 38.81504058837891], [55.18680661068306, 38.87580871582032], [55.15116697932903, 38.80456924438477]]
     },
     {
         name: 'Веледниково',
         year: 1,
         url: './maps/moscow/velednikovo_old.webp',
         link: './original_maps/moscow/velednikovo_old_omaps.jpg',
-        bounds: [[55.81415956585617, 37.12142944335938], [55.80936073742181, 37.17438697814942], [55.784850963173696, 37.11233139038087]],
+        bounds: [[55.81415956585617, 37.12142944335938], [55.80936073742181, 37.17438697814942], [55.784850963173696, 37.11233139038087]]
     },
     {
         name: 'Степановское',
@@ -3647,7 +3647,7 @@ let moscowMaps = [
         url: './maps/moscow/stepanovskoe_1989.webp',
         link: './original_maps/moscow/stepanovskoe_1989_omaps.jpg',
         bounds: [[55.78825333996346, 37.12142944335938], [55.78212402117773, 37.196531295776374], [55.76097771226809, 37.11396217346192]],
-        author: ['GNDRV','LKN_A'],
+        author: ['GNDRV','LKN_A']
     },
     {
         name: 'Степановское',
@@ -3655,7 +3655,7 @@ let moscowMaps = [
         url: './maps/moscow/stepanovskoe_1988.webp',
         link: './original_maps/moscow/stepanovskoe_1988_omaps.jpg',
         bounds: [[55.77169713815445, 37.14511871337891], [55.784054619311775, 37.18116760253907], [55.748564605626555, 37.171297073364265]],
-        author: 'LKN_A',
+        author: 'LKN_A'
     },
     {
         name: 'Мисайлово',
@@ -3663,7 +3663,7 @@ let moscowMaps = [
         url: './maps/moscow/misailovo_1998.webp',
         link: './original_maps/moscow/misailovo_1998_omaps.jpg',
         bounds: [[55.58979331443429, 37.78168201446533], [55.58770758176757, 37.82567024230958], [55.5609712890582, 37.77691841125489]],
-        author: 'MLNKV_V',
+        author: 'MLNKV_V'
     },
     {
         name: 'Коробово',
@@ -3671,7 +3671,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/korobovo_1982.webp',
         link: './original_maps/moscow/ak/korobovo_1982_omaps.jpg',
         bounds: [[55.536596784121315, 37.83082008361817], [55.53207952899007, 37.877683639526374], [55.51308195140151, 37.82378196716309]],
-        author: 'SMKN_S',
+        author: 'SMKN_S'
     },
     {
         name: 'Григорчиково',
@@ -3679,14 +3679,14 @@ let moscowMaps = [
         url: './maps/moscow/ak/grigorchikovo_2000.webp',
         link: './original_maps/moscow/ak/grigorchikovo_2000_omaps.jpg',
         bounds: [[55.52639579358684, 37.87751197814942], [55.52129430613972, 37.94179916381837], [55.50379846965286, 37.87279129028321]],
-        author: 'MLNKV_V',
+        author: 'MLNKV_V'
     },
     {
         name: 'Лыткарино',
         year: 1983,
         url: './maps/moscow/lytkarino_1983.webp',
         link: './original_maps/moscow/lr/lytkarino_1983_omaps.jpg',
-        bounds: [[55.60836599683034, 37.91647911071778], [55.60303270602203, 37.987804412841804], [55.584554519645074, 37.910127639770515]],
+        bounds: [[55.60836599683034, 37.91647911071778], [55.60303270602203, 37.987804412841804], [55.584554519645074, 37.910127639770515]]
     },
     {
         name: 'Лыткарино',
@@ -3694,7 +3694,7 @@ let moscowMaps = [
         url: './maps/moscow/lytkarino_1981.webp',
         link: './original_maps/moscow/lr/lytkarino_1981_omaps.jpg',
         bounds: [[55.58525791699051, 37.92690753936768], [55.58329322387571, 37.95179843902588], [55.56931923675477, 37.92253017425538]],
-        author: ['STLV_S','PTPKN'],
+        author: ['STLV_S','PTPKN']
     },
     {
         name: 'Лыткарино',
@@ -3702,14 +3702,14 @@ let moscowMaps = [
         url: './maps/moscow/lytkarino_1988.webp',
         link: './original_maps/moscow/lr/lytkarino_1988_omaps.jpg',
         bounds: [[55.60734787913749, 37.91570663452149], [55.60560247303119, 37.94445991516114], [55.584845582144304, 37.91175842285157]],
-        author: ['PTPKN','STLV_S'],
+        author: ['PTPKN','STLV_S']
     },
     {
         name: 'Лыткарино, Мирный',
         year: 1989,
         url: './maps/moscow/lytkarino_mirny_1989.webp',
         link: './original_maps/moscow/lr/lytkarino_mirny_1989_omaps.jpg',
-        bounds: [[55.62809286794115, 37.923088073730476], [55.623634590888656, 37.97183990478516], [55.60397820591273, 37.916092872619636]],
+        bounds: [[55.62809286794115, 37.923088073730476], [55.623634590888656, 37.97183990478516], [55.60397820591273, 37.916092872619636]]
     },
     {
         name: 'Октябрьский',
@@ -3717,7 +3717,7 @@ let moscowMaps = [
         url: './maps/moscow/oktiabrsky_1982.webp',
         link: './original_maps/moscow/oktiabrsky_1982_omaps.jpg',
         bounds: [[55.60485095481472, 37.96351432800294], [55.60143257736496, 37.98917770385743], [55.58346301605135, 37.955574989318855]],
-        author: 'MLNKV_V',
+        author: 'MLNKV_V'
     },
     {
         name: 'Токарево',
@@ -3726,7 +3726,7 @@ let moscowMaps = [
         url: './maps/moscow/tokarevo_1987.webp',
         link: './original_maps/moscow/tokarevo_1987_omaps.jpg',
         bounds: [[55.64504907040864, 37.87416458129883], [55.642820959805455, 37.90768146514893], [55.62472497723271, 37.86880016326905]],
-        author: ['STLV_S','ZLTRV_S'],
+        author: ['STLV_S','ZLTRV_S']
     },
     {
         name: 'Лыткарино, Тураевский лес',
@@ -3734,7 +3734,7 @@ let moscowMaps = [
         url: './maps/moscow/lytkarino_south_2006.webp',
         link: './original_maps/moscow/lr/lytkarino_south_2006_omaps.gif',
         bounds: [[55.575360685172726, 37.910127639770515], [55.57227941997869, 37.93639183044434], [55.56478147362673, 37.90660858154297]],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Наро-Фоминск, Таширово',
@@ -3742,7 +3742,7 @@ let moscowMaps = [
         url: './maps/moscow/narofominsk_1996.webp',
         link: './original_maps/moscow/narofominsk_1996_omaps.jpg',
         bounds: [[55.4259694202345, 36.64704322814942], [55.4319355025166, 36.70420646667481], [55.38079277626757, 36.6615915298462]],
-        author: ['SMKN_S','ZUEV_A'],
+        author: ['SMKN_S','ZUEV_A']
     },
     {
         name: 'Новогорск',
@@ -3752,28 +3752,28 @@ let moscowMaps = [
         link: './original_maps/moscow/novogorsk_2006_omaps.gif',
         bounds: [[55.94646036444221, 37.27300643920899], [55.93218320560275, 37.382526397705085], [55.9004373419365, 37.25764274597169]],
         author: ['VRBY','MTN_Y'],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Львовская',
         year: 1984,
         url: './maps/moscow/lvovskaya_1984.webp',
         link: './original_maps/moscow/lr/lvovskaya_1984_omaps.jpg',
-        bounds: [[55.32677628863401, 37.44466781616212], [55.32323605191713, 37.51869678497315], [55.304088880814014, 37.441449165344245]],
+        bounds: [[55.32677628863401, 37.44466781616212], [55.32323605191713, 37.51869678497315], [55.304088880814014, 37.441449165344245]]
     },
     {
         name: 'Митрополье',
         year: 1967,
         url: './maps/moscow/mitropolie_1967.webp',
         link: './original_maps/moscow/mitropolie_1967_omaps.jpg',
-        bounds: [[56.17828881953156, 37.854423522949226], [56.17761997407672, 37.90051460266113], [56.13330691237569, 37.84987449645997]],
+        bounds: [[56.17828881953156, 37.854423522949226], [56.17761997407672, 37.90051460266113], [56.13330691237569, 37.84987449645997]]
     },
     {
         name: 'Мураново',
         year: 2011,
         url: './maps/moscow/muranovo_2011.webp',
         link: './original_maps/moscow/muranovo_2011_omaps.jpg',
-        bounds: [[56.179889223851035, 37.888369560241706], [56.174848918759864, 37.92922496795655], [56.161994340082735, 37.88150310516358]],
+        bounds: [[56.179889223851035, 37.888369560241706], [56.174848918759864, 37.92922496795655], [56.161994340082735, 37.88150310516358]]
     },
     {
         name: 'Фирсановка',
@@ -3781,7 +3781,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/firsanovka_rogaine_2010.webp',
         link: 'https://moscow.rogaine.ru/download/maps/cup2010_5_map.gif',
         bounds: [[55.98834808759427, 37.19661712646485], [55.97072426231743, 37.38965034484864], [55.9063555874915, 37.17138290405274]],
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Одинцово',
@@ -3789,7 +3789,7 @@ let moscowMaps = [
         url: './maps/moscow/odintsovo_rogaine_2011.webp',
         link: 'https://moscow.rogaine.ru/download/maps/cup2011_4_map6_8.gif',
         bounds: [[55.78024159589275, 37.20039367675782], [55.76061551803356, 37.40209579467774], [55.666621279749144, 37.16485977172852]],
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Лисья нора',
@@ -3797,7 +3797,7 @@ let moscowMaps = [
         url: './maps/moscow/lisia_nora_rogaine_2012.webp',
         link: 'https://moscow.rogaine.ru/download/maps/msu2012_map.jpg',
         bounds: [[56.20703815145456, 37.52397537231446], [56.18268379976039, 37.767047882080085], [56.09717813261708, 37.48869895935059]],
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Воскресенское',
@@ -3805,7 +3805,7 @@ let moscowMaps = [
         url: './maps/moscow/voskresenskoe_rogaine_2014.webp',
         link: 'https://moscow.rogaine.ru/results/mr2014/mr2014_map.jpg',
         bounds: [[55.99406090090593, 38.249931335449226], [55.98008942005975, 38.38133811950684], [55.88720222544488, 38.215513229370124]],
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Королёв',
@@ -3813,7 +3813,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/korolev_rogaine_2018.webp',
         link: 'https://moscow.rogaine.ru/results/kr2018/kr2018_map.jpg',
         bounds: [[55.977352146926044, 37.803783416748054], [55.95352489024806, 38.010978698730476], [55.88282161091007, 37.77013778686524]],
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Трубино',
@@ -3824,7 +3824,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/6062/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Васильево',
@@ -3835,7 +3835,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/8091/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Невзорово',
@@ -3847,7 +3847,7 @@ let moscowMaps = [
         author: 'JAKMV_A',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Зелёный городок',
@@ -3858,7 +3858,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/9057/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['WINTER','ROGAINE'],
+        type: ['WINTER','ROGAINE']
     },
     {
         name: 'Ивантеевский парк',
@@ -3867,7 +3867,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/ivanteevka_2023_omaps.jpg',
         bounds: [[55.99040047693413, 37.91216611862183], [55.988312079791235, 37.928624153137214], [55.97726810477349, 37.90750980377198]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/17823/',
-        owner: 'KMPT',
+        owner: 'KMPT'
     },
     {
         name: 'Ивантеевка',
@@ -3876,7 +3876,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/ivanteevka_rogaine_2023_omaps.jpg',
         bounds: [[55.96894702773857, 37.88223266601563], [55.96426338344349, 37.921886444091804], [55.95297226973671, 37.87626743316651]],
         owner: 'KMPT',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Зелёный городок',
@@ -3884,7 +3884,7 @@ let moscowMaps = [
         url: './maps/moscow/zeleny_gorodok_2004.webp',
         link: './original_maps/moscow/zeleny_gorodok_2004_omaps.jpg',
         bounds: [[56.05907460882221, 37.90532112121583], [56.054306023222736, 37.97261238098145], [56.02587398067403, 37.89751052856446]],
-        author: ['OGRDNKV','MTVV','NSNV'],
+        author: ['OGRDNKV','MTVV','NSNV']
     },
     {
         name: 'р Скалба',
@@ -3893,7 +3893,7 @@ let moscowMaps = [
         link: './original_maps/moscow/skalba_2024_omaps.pdf',
         bounds: [[56.03660438353768, 37.93340921401978], [56.03512987926923, 37.946112155914314], [56.02479478068656, 37.9299545288086]],
         author: 'LZRV',
-        owner: 'LZRV',
+        owner: 'LZRV'
     },
     {
         name: 'Тишково',
@@ -3901,14 +3901,14 @@ let moscowMaps = [
         url: './maps/moscow/tishkovo_1989.webp',
         link: './original_maps/moscow/tishkovo_1989_omaps.jpg',
         bounds: [[56.114074354051965, 37.70293235778809], [56.11043726712695, 37.751340866088874], [56.08836809635873, 37.69572257995606]],
-        author: 'OGRDNKV',
+        author: 'OGRDNKV'
     },
     {
         name: 'Царёво',
         year: 2015,
         url: './maps/moscow/tsarevo_2015.webp',
         link: './original_maps/moscow/tsarevo_2015_omaps.jpg',
-        bounds: [[56.07476604052896, 38.1022596359253], [56.07270615572745, 38.13766479492188], [56.05864330372684, 38.10028553009033]],
+        bounds: [[56.07476604052896, 38.1022596359253], [56.07270615572745, 38.13766479492188], [56.05864330372684, 38.10028553009033]]
     },
     {
         name: 'Кратово, Геофизика',
@@ -3917,7 +3917,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/geofizika_2010_omaps.gif',
         bounds: [[55.609165927905, 38.18847656250001], [55.605844895190735, 38.21753025054932], [55.59692277270469, 38.1840991973877]],
         author: 'SCHV',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Геофизика',
@@ -3925,7 +3925,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/geofizika_2020.webp',
         link: './original_maps/moscow/ak/geofizika_2020_omaps.jpg',
         bounds: [[55.60424488124856, 38.20208072662354], [55.60121437294553, 38.23143482208253], [55.591515172992366, 38.19663047790528]],
-        author: 'STLV_S',
+        author: 'STLV_S'
     },
     {
         name: 'Раменское, Холодово',
@@ -3934,14 +3934,14 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/holodovo_2010_omaps.jpg',
         bounds: [[55.592194195033166, 38.20388317108155], [55.590508743712896, 38.21364641189576], [55.584530264339385, 38.19980621337891]],
         author: 'MTN_Y',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Верея',
         year: 2017,
         url: './maps/moscow/vereya_2017.webp',
         link: './original_maps/moscow/vereya_2017_omaps.jpg',
-        bounds: [[55.625476114623986, 38.01464796066285], [55.62288341820569, 38.03559064865113], [55.617212811560655, 38.01104307174683]],
+        bounds: [[55.625476114623986, 38.01464796066285], [55.62288341820569, 38.03559064865113], [55.617212811560655, 38.01104307174683]]
     },
     {
         name: 'Зюзино',
@@ -3949,7 +3949,7 @@ let moscowMaps = [
         url: './maps/moscow/zjuzino_2003.webp',
         link: ['./original_maps/moscow/zjuzino_2003_omaps.gif','./original_maps/moscow/vyalki_2003_full_1.jpg','./original_maps/moscow/vyalki_2003_full_2.jpg'],
         bounds: [[55.70428964195772, 38.112602233886726], [55.69751830256933, 38.19637298583985], [55.645242813166576, 38.09560775756837]],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Чулково',
@@ -3958,7 +3958,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/chulkovo_2007_omaps.gif',
         bounds: [[55.56623749752199, 38.027501106262214], [55.56157803108301, 38.062219619750984], [55.54948996411429, 38.02260875701905]],
         author: ['BRLNV','ZUEV_A'],
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Раменское',
@@ -3966,14 +3966,14 @@ let moscowMaps = [
         url: './maps/moscow/ramenskoe_2007.webp',
         link: './original_maps/moscow/ramenskoe_2007_omaps.gif',
         bounds: [[55.5886049454538, 38.21478366851807], [55.58465154071796, 38.24533939361573], [55.56924644255332, 38.20590019226075]],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Молодиково',
         year: 1977,
         url: './maps/moscow/molodikovo_1977.webp',
         link: './original_maps/moscow/molodikovo_1977_omaps.jpg',
-        bounds: [[55.64257876623279, 36.42439842224122], [55.65202320591278, 36.495895385742195], [55.606184283696905, 36.41684532165528]],
+        bounds: [[55.64257876623279, 36.42439842224122], [55.65202320591278, 36.495895385742195], [55.606184283696905, 36.41684532165528]]
     },
     {
         name: 'Семхоз, Копнинский лес',
@@ -3982,7 +3982,7 @@ let moscowMaps = [
         url: './maps/moscow/semhoz_bno_2008.webp',
         link: 'https://tkmgtu.ru/library/images/a/ad/BNO2008B1.jpg',
         bounds: [[56.3081102266081, 38.033294677734375], [56.30382485486449, 38.07947158813477], [56.28172375417481, 38.02381038665772]],
-        author: 'SYTV_N',
+        author: 'SYTV_N'
     },
     {
         name: 'Сергиев Посад',
@@ -3990,7 +3990,7 @@ let moscowMaps = [
         url: './maps/moscow/sergiev_posad_2023.webp',
         link: './original_maps/moscow/sergiev_posad_2023_omaps.jpg',
         bounds: [[56.32646046351636, 38.119597434997566], [56.32510413306534, 38.13380241394043], [56.319749726504064, 38.11725854873658]],
-        author: 'LNTV',
+        author: 'LNTV'
     },
     {
         name: 'Серпухов, Борисово',
@@ -3998,7 +3998,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/borisovo_2008.webp',
         link: './original_maps/moscow/ak/borisovo_2008_omaps.jpg',
         bounds: [[54.915106026989505, 37.45101928710938], [54.90913609998202, 37.51981258392335], [54.888012227282815, 37.442436218261726]],
-        author: ['DJCHKV','KRVKV'],
+        author: ['DJCHKV','KRVKV']
     },
     {
         name: 'Сенеж',
@@ -4009,7 +4009,7 @@ let moscowMaps = [
         link: './original_maps/moscow/senezh_2008_rogaine_omaps.gif',
         bounds: [[56.348702164077835, 36.85363769531251], [56.35574068535468, 37.226486206054695], [56.21901863640133, 36.86084747314454]],
         author: 'KSTLV_E',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Яркино',
@@ -4017,7 +4017,7 @@ let moscowMaps = [
         url: './maps/moscow/yarkino_1982.webp',
         link: './original_maps/moscow/yarkino_1982_omaps.jpg',
         bounds: [[56.333003485987255, 36.966333389282234], [56.328435384840326, 37.03482627868653], [56.29634811118038, 36.95869445800782]],
-        author: ['KLTKN_N','KZMN_R','LVN_B'],
+        author: ['KLTKN_N','KZMN_R','LVN_B']
     },
     {
         name: 'Поварово',
@@ -4025,14 +4025,14 @@ let moscowMaps = [
         url: './maps/moscow/povarovo_1987.webp',
         link: './original_maps/moscow/povarovo_1987_omaps.jpg',
         bounds: [[56.119481492552, 37.06250667572022], [56.10770922634679, 37.09018707275391], [56.095358833738224, 37.02834606170655]],
-        author: 'PTRV_VLNTN',
+        author: 'PTRV_VLNTN'
     },
     {
         name: 'Жуково, пл Березки-Дачные',
         year: 2007,
         url: './maps/moscow/zhukovo_2007.webp',
         link: './original_maps/moscow/zhukovo_2007_omaps.jpg',
-        bounds: [[56.11603632399745, 37.04074859619141], [56.1133326076486, 37.08319187164307], [56.09423369799521, 37.03336715698243]],
+        bounds: [[56.11603632399745, 37.04074859619141], [56.1133326076486, 37.08319187164307], [56.09423369799521, 37.03336715698243]]
     },
     {
         name: 'Красный воин',
@@ -4040,7 +4040,7 @@ let moscowMaps = [
         url: './maps/moscow/mendeleevo_1984.webp',
         link: './original_maps/moscow/mendeleevo_1984_omaps.jpg',
         bounds: [[56.053107793446586, 37.204771041870124], [56.05027982357805, 37.23335266113282], [56.02903945995316, 37.19859123229981]],
-        author: 'ZKHRV_Y',
+        author: 'ZKHRV_Y'
     },
     {
         name: 'Менделеево, Клушино',
@@ -4048,7 +4048,7 @@ let moscowMaps = [
         url: './maps/moscow/mendeleevo_2009.webp',
         link: './original_maps/moscow/mendeleevo_2009_omaps.jpg',
         bounds: [[56.05917045374383, 37.24536895751954], [56.055647996377516, 37.2887134552002], [56.038666197480076, 37.24032640457154]],
-        author: 'ZUEV_A',
+        author: 'ZUEV_A'
     },
     {
         name: 'Менделеево',
@@ -4056,7 +4056,7 @@ let moscowMaps = [
         url: './maps/moscow/mendeleevo_city_2009.webp',
         link: './original_maps/moscow/mendeleevo_city_2009_omaps.jpg',
         bounds: [[56.041351185381046, 37.230756282806404], [56.04137515764584, 37.24137783050538], [56.03600499835413, 37.230691909790046]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Солнечногорск',
@@ -4064,7 +4064,7 @@ let moscowMaps = [
         url: './maps/moscow/solnechnogorsk_2021.webp',
         link: './original_maps/moscow/solnechnogorsk_2022_omaps.gif',
         bounds: [[56.19391976242238, 36.990022659301765], [56.19391976242238, 37.005021572113044], [56.188200698387135, 36.98982954025269]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Солнечногорск',
@@ -4073,7 +4073,7 @@ let moscowMaps = [
         link: './original_maps/moscow/solnechnogorsk_2025_omaps.jpg',
         bounds: [[56.19421822878837, 36.99313402175904], [56.194194351564555, 37.005279064178474], [56.18958576915316, 36.993026733398445]],
         author: 'SHRNN',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Ржавки',
@@ -4081,7 +4081,7 @@ let moscowMaps = [
         url: './maps/moscow/rzhavki_2000.webp',
         link: './original_maps/moscow/rzhavki_2000_omaps.jpg',
         bounds: [[56.02105332051197, 37.24605560302735], [56.016591874938264, 37.28055953979493], [56.00039681553477, 37.238245010375984]],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Сходня',
@@ -4089,7 +4089,7 @@ let moscowMaps = [
         url: './maps/moscow/shodnya_2011.webp',
         link: './original_maps/moscow/shodnya_2011_omaps.jpg',
         bounds: [[55.98335468548506, 37.28180408477784], [55.97987332659237, 37.31296062469483], [55.960059630235115, 37.2727918624878]],
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Соколова Пустынь',
@@ -4097,7 +4097,7 @@ let moscowMaps = [
         url: './maps/moscow/sokolova_pustyn_1989.webp',
         link: './original_maps/moscow/sokolova_pustyn_1989_omaps.jpg',
         bounds: [[54.8717175629898, 38.007802963256836], [54.868161487865414, 38.06247711181641], [54.84474282895664, 38.00042152404786]],
-        author: ['KLTKN_N','ORLV_V','LVN_B'],
+        author: ['KLTKN_N','ORLV_V','LVN_B']
     },
     {
         name: 'Соколова Пустынь',
@@ -4105,7 +4105,7 @@ let moscowMaps = [
         url: './maps/moscow/sokolova_pustyn_1997.webp',
         link: ['./original_maps/moscow/sokolova_pustyn_1997_omaps.jpg','./original_maps/moscow/sokolova_pustyn_2002_omaps.gif'],
         bounds: [[54.87213735671221, 38.005743026733406], [54.86707484678656, 38.06131839752198], [54.845459424157376, 38.000249862670906]],
-        author: ['KZMN_R','KLTKN_N','ORLV_V','ORLV_A','LVN_B'],
+        author: ['KZMN_R','KLTKN_N','ORLV_V','ORLV_A','LVN_B']
     },
     {
         name: 'Ожигово',
@@ -4113,7 +4113,7 @@ let moscowMaps = [
         url: './maps/moscow/ozhigovo_2020.webp',
         link: './original_maps/moscow/ozhigovo_2020_omaps.jpg',
         bounds: [[55.635360710478764, 36.38045310974122], [55.63293824607828, 36.41160964965821], [55.62411921078643, 36.37783527374268]],
-        author: 'YURCHK',
+        author: 'YURCHK'
     },
     {
         name: 'Ожигово, Федьково',
@@ -4121,7 +4121,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/fedkovo_2020.webp',
         link: './original_maps/moscow/ak/fedkovo_2020_omaps.jpg',
         bounds: [[55.64463736386575, 36.36616230010987], [55.64289361758521, 36.38882160186768], [55.626166663718664, 36.36247158050538]],
-        author: ['YURCHK','KLNN_O'],
+        author: ['YURCHK','KLNN_O']
     },
     {
         name: 'Каблуково',
@@ -4130,7 +4130,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/kablukovo_rogaine_2008_omaps.gif',
         bounds: [[56.115605656237356, 38.09595108032227], [55.99703699016007, 38.33971023559571], [56.01877468958796, 37.94677734375001]],
         author: ['RMNV_A','JAKMV_A'],
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Бабаиха',
@@ -4141,7 +4141,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/12099/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['WINTER','ROGAINE'],
+        type: ['WINTER','ROGAINE']
     },
     {
         name: 'Бабаиха (ГАБО)',
@@ -4151,7 +4151,7 @@ let moscowMaps = [
         info: 'Устаревшая карта от А. Зуева на терристорию СОК ГАБО с общеизвестной лыжной трассой.',
         bounds: [[56.11998388719222, 37.32124328613282], [56.11577313871684, 37.3546314239502], [56.10672804159543, 37.31544971466065]],
         author: 'ZUEV_A',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Дмитров',
@@ -4162,7 +4162,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/13489/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Балашиха',
@@ -4173,7 +4173,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/13970/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Борносово',
@@ -4184,7 +4184,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/14097/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Красноармейск',
@@ -4193,7 +4193,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/krasnoarmeisk_rogaine_2012_omaps.gif',
         bounds: [[56.22589021268234, 38.01355361938477], [56.20804064630304, 38.19019317626954], [56.08429756206141, 37.96686172485352]],
         owner: 'KSTKN_SITE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Красноармейск',
@@ -4204,7 +4204,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/16726/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Булаково',
@@ -4213,7 +4213,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/ml2024/map2.jpg',
         bounds: [[56.1883678647531, 38.247699737548835], [56.17284216763236, 38.373785018920906], [56.08573427034111, 38.207015991210945]],
         start: 'MSK_LIGHT',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Фряново',
@@ -4222,7 +4222,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/ml2024/map3.jpg',
         bounds: [[56.217968703747005, 38.36769104003907], [56.19476740083496, 38.55171203613282], [56.14688829725396, 38.33868026733399]],
         start: 'MSK_LIGHT',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Электроугли',
@@ -4233,7 +4233,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/17084/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Ратьково',
@@ -4244,7 +4244,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19325/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Ногинск',
@@ -4255,7 +4255,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19955/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Мураново',
@@ -4266,7 +4266,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20293/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Лосино-Петровский',
@@ -4277,14 +4277,14 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20839/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Фрязино',
         year: 1969,
         url: './maps/moscow/ak/friazino_1969.webp',
         link: './original_maps/moscow/ak/friazino_1969_omaps.jpg',
-        bounds: [[55.996460990768256, 38.04754257202149], [55.99286080008867, 38.09260368347168], [55.970868358840484, 38.042993545532234]],
+        bounds: [[55.996460990768256, 38.04754257202149], [55.99286080008867, 38.09260368347168], [55.970868358840484, 38.042993545532234]]
     },
     {
         name: 'Камшиловка',
@@ -4292,7 +4292,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/friazino_1983.webp',
         link: ['./original_maps/moscow/ak/friazino_1983_omaps.gif','./original_maps/moscow/ak/friazino_1983_omaps.jpg'],
         bounds: [[55.952131310344974, 38.10577869415284], [55.94888743871877, 38.141655921936035], [55.9212674852941, 38.09603691101075]],
-        author: 'KSTLV_V',
+        author: 'KSTLV_V'
     },
     {
         name: 'Камшиловка',
@@ -4300,7 +4300,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/kamshilovka_2011.webp',
         link: './original_maps/moscow/ak/kamshilovka_2011_omaps.gif',
         bounds: [[55.95160269794901, 38.11002731323243], [55.948791319858316, 38.13822269439698], [55.93242360536395, 38.104147911071784]],
-        author: 'KZLV_V',
+        author: 'KZLV_V'
     },
     {
         name: 'Фрязино',
@@ -4309,7 +4309,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/friazino_rogaine_2007_omaps.gif',
         bounds: [[56.00126072342197, 37.997245788574226], [55.98762792516235, 38.14950942993164], [55.93054844766919, 37.97887802124024]],
         author: 'RMNV_A',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Фрязино, восток',
@@ -4319,7 +4319,7 @@ let moscowMaps = [
         bounds: [[56.00433223950498, 38.075523376464844], [55.97917701720645, 38.327865600585945], [55.90611502601166, 38.04496765136719]],
         author: 'RMNV_A',
         owner: 'FRZNO',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Фрязино',
@@ -4327,7 +4327,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/friazino_1990.webp',
         link: './original_maps/moscow/ak/friazino_1990_omaps.jpg',
         bounds: [[55.979153006314384, 38.082904815673835], [55.9744225698548, 38.13019752502442], [55.94783011813056, 38.07247638702393]],
-        author: 'KSTLV_V',
+        author: 'KSTLV_V'
     },
     {
         name: 'Фрязино',
@@ -4335,7 +4335,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/frjazino_2002.webp',
         link: './original_maps/moscow/ak/frjazino_2002_omaps.jpg',
         bounds: [[55.951506585828895, 38.03801536560059], [55.943696678808344, 38.10702323913575], [55.9261967705624, 38.030462265014656]],
-        author: ['RMNV_A','ETNKO','KSTLV_V'],
+        author: ['RMNV_A','ETNKO','KSTLV_V']
     },
     /*
         {
@@ -4363,7 +4363,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/friazino_2020_omaps.jpg',
         bounds: [[55.94278341759328, 38.04599761962891], [55.938072570369755, 38.08101654052735], [55.92641316384271, 38.04286479949952]],
         author: ['SBLV','RMNV_A'],
-        owner: 'FRZNO',
+        owner: 'FRZNO'
     },
     {
         name: 'Фрязино, юг',
@@ -4371,7 +4371,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/friazino_2015.webp',
         link: './original_maps/moscow/ak/friazino_2015_omaps.jpg',
         bounds: [[55.94641230202944, 38.05453777313233], [55.94348038204576, 38.085651397705085], [55.92489838550624, 38.04827213287354]],
-        author: ['TKMKV_K','RMNV_A','KSTLV_V','AZRV','ETNKO','GRBNVA'],
+        author: ['TKMKV_K','RMNV_A','KSTLV_V','AZRV','ETNKO','GRBNVA']
     },
     {
         name: 'Фрязино, Карея',
@@ -4381,7 +4381,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/friazino_2008.webp',
         link: ['./original_maps/moscow/ak/friazino_2008_omaps.jpg','https://tkmgtu.ru/library/images/1/18/BNO2010B.jpg'],
         bounds: [[55.96601681410712, 37.98870563507081], [55.96260595813182, 38.034968376159675], [55.93886576333085, 37.98093795776367]],
-        author: ['ETNKO','RMNV_A'],
+        author: ['ETNKO','RMNV_A']
     },
     {
         name: 'Фрязино - Щёлково',
@@ -4390,7 +4390,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/friazino_schelkovo_2024_omaps.jpg',
         bounds: [[55.97696795273797, 37.989778518676765], [55.9722612642278, 38.05561065673828], [55.93867347561964, 37.9793930053711]],
         author: 'RMNV_A',
-        owner: 'FRZNO',
+        owner: 'FRZNO'
     },
     {
         name: 'Фрязино, руч Ардыбаш',
@@ -4400,7 +4400,7 @@ let moscowMaps = [
         bounds: [[55.95131436087284, 38.060224056243904], [55.950521422841135, 38.07281970977784], [55.94543902533588, 38.05897951126099]],
         author: 'RMNV_A',
         owner: 'FRZNO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Фрязино, оз Большое',
@@ -4409,7 +4409,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/friazino_big_2009_omaps.gif',
         bounds: [[55.96757802111913, 38.02518367767335], [55.966965555107436, 38.03213596343995], [55.9626660110129, 38.02385330200196]],
         author: 'KSTLV_E',
-        owner: 'O_FRZNO',
+        owner: 'O_FRZNO'
     },
     {
         name: 'Фрязино, шк №1',
@@ -4419,7 +4419,7 @@ let moscowMaps = [
         bounds: [[55.95839001299435, 38.04715633392335], [55.95820983416657, 38.05054664611817], [55.95589145842736, 38.046684265136726]],
         author: ['KSTLV_E','RMNV_A'],
         owner: 'FRZNO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Фрязино, шк №2,3',
@@ -4429,7 +4429,7 @@ let moscowMaps = [
         bounds: [[55.95921882479945, 38.03659915924072], [55.95920681316088, 38.04335832595826], [55.95716478042589, 38.03655624389649]],
         author: 'RMNV_A',
         owner: 'FRZNO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Фрязино, шк №7',
@@ -4439,7 +4439,7 @@ let moscowMaps = [
         bounds: [[55.95399341015481, 38.05908679962159], [55.95204721340113, 38.06333541870118], [55.952131310344974, 38.05636167526246]],
         author: 'RMNV_A',
         owner: 'FRZNO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Фрязино, дс №6 "Чебурашка"',
@@ -4449,7 +4449,7 @@ let moscowMaps = [
         bounds: [[55.95591548375841, 38.04651260375977], [55.955483025518056, 38.05314302444459], [55.95234755879038, 38.045933246612556]],
         author: 'RMNV_A',
         owner: 'FRZNO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Сабурово, пансионат "Сосновый Бор"',
@@ -4459,7 +4459,7 @@ let moscowMaps = [
         bounds: [[56.00183665128433, 38.034946918487556], [56.00139270764854, 38.04013967514039], [55.998428953252436, 38.03415298461914]],
         author: 'RMNV_A',
         owner: 'FRZNO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Парк Щелково',
@@ -4469,7 +4469,7 @@ let moscowMaps = [
         bounds: [[55.92890159972095, 37.963085174560554], [55.926521360029746, 37.980530261993415], [55.92321522902461, 37.96076774597169]],
         author: 'RMNV_A',
         owner: 'FRZNO',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Щелковский городской ПКиО',
@@ -4479,7 +4479,7 @@ let moscowMaps = [
         bounds: [[55.928288521658274, 37.962291240692146], [55.92802405361709, 37.97986507415772], [55.921483906097635, 37.962312698364265]],
         author: 'RMNV_A',
         owner: 'FRZNO',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Чкаловский',
@@ -4489,7 +4489,7 @@ let moscowMaps = [
         bounds: [[55.90965112951672, 38.04795026779175], [55.90967518353843, 38.05897951126099], [55.90304773634601, 38.0481219291687]],
         author: 'RMNV_A',
         owner: 'FRZNO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Старбеево, Химкинский лес',
@@ -4497,21 +4497,21 @@ let moscowMaps = [
         url: './maps/moscow/starbeevo_1991.webp',
         link: './original_maps/moscow/starbeevo_1991_omaps.jpg',
         bounds: [[55.94948817619091, 37.443208694458015], [55.946700675611346, 37.48578071594239], [55.91087786560138, 37.43385314941407]],
-        author: ['KTNKO','NDRF_V','NDRF_M'],
+        author: ['KTNKO','NDRF_V','NDRF_M']
     },
     {
         name: 'Старбеево, Химкинский лес',
         year: 2008,
         url: './maps/moscow/starbeevo_2008.webp',
         link: './original_maps/moscow/starbeevo_2008_omaps.gif',
-        bounds: [[55.932904400411545, 37.44964599609376], [55.92970700125797, 37.480158805847175], [55.91097407855501, 37.441492080688484]],
+        bounds: [[55.932904400411545, 37.44964599609376], [55.92970700125797, 37.480158805847175], [55.91097407855501, 37.441492080688484]]
     },
     {
         name: 'Старбеево, Химкинский лес',
         year: 2021,
         url: './maps/moscow/starbeevo_2021.webp',
         link: './original_maps/moscow/starbeevo_2021_omaps.gif',
-        bounds: [[55.91990881597845, 37.45649099349976], [55.9178045880953, 37.47556686401368], [55.91104623811357, 37.453207969665534]],
+        bounds: [[55.91990881597845, 37.45649099349976], [55.9178045880953, 37.47556686401368], [55.91104623811357, 37.453207969665534]]
     },
     {
         name: 'Химки, ПКиО им Толстого',
@@ -4520,7 +4520,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/khimki_tolstogo_2003_omaps.jpg',
         bounds: [[55.90005238411934, 37.45423793792725], [55.89823581287431, 37.46850728988648], [55.89240055499103, 37.45157718658448]],
         owner: 'FSO_MSK',
-        author: 'SFRNV',
+        author: 'SFRNV'
     },
     {
         name: 'Химки, ПКиО им Толстого',
@@ -4534,7 +4534,7 @@ let moscowMaps = [
         },
         bounds: [[55.89982381360787, 37.45438814163209], [55.89842830127382, 37.468185424804695], [55.89267729838337, 37.451941967010505]],
         author: 'KZNN_O',
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Химки, яхт-клуб',
@@ -4548,7 +4548,7 @@ let moscowMaps = [
         },
         bounds: [[55.90378150222149, 37.457456588745124], [55.90263874606277, 37.46822834014893], [55.89394066705849, 37.45413064956666]],
         author: 'KZNN_O',
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Химки',
@@ -4556,7 +4556,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/khimki_2022.webp',
         link: './original_maps/moscow/ak/khimki_2022_omaps.jpg',
         bounds: [[55.91418504894249, 37.455182075500495], [55.913198936516366, 37.46483802795411], [55.90484002525695, 37.451920509338386]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Химки, Солнечная система',
@@ -4565,7 +4565,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/khimki_2021_omaps.gif',
         bounds: [[55.91965631466339, 37.40735292434693], [55.91826151585836, 37.420742511749275], [55.91372807313155, 37.40557193756104]],
         author: 'KZNN_O',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Фряново',
@@ -4573,7 +4573,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/frianovo_2000.webp',
         link: './original_maps/moscow/ak/frianovo_2000_omaps.jpg',
         bounds: [[56.16101453959729, 38.434982299804695], [56.15826618535897, 38.46429347991944], [56.14772502143155, 38.429274559021]],
-        author: 'SFRNV',
+        author: 'SFRNV'
     },
     {
         name: 'Фряново, р Ширенка',
@@ -4582,7 +4582,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/frianovo_2004_omaps.jpg',
         bounds: [[56.154728883579956, 38.407258987426765], [56.152697177886054, 38.43227863311768], [56.13321125180591, 38.40193748474122]],
         author: 'RMNV_A',
-        owner: 'FRZNO',
+        owner: 'FRZNO'
     },
     {
         name: 'Глазуны',
@@ -4591,7 +4591,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/glazuny_2010_omaps.gif',
         bounds: [[56.205940150833854, 38.48373413085938], [56.19591347369689, 38.55051040649415], [56.17303329130634, 38.471202850341804]],
         author: ['RMNV_A','KZLV_V'],
-        owner: 'FRZNO',
+        owner: 'FRZNO'
     },
 /*
     {
@@ -4600,7 +4600,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/frianovo_2024.webp',
         link: './original_maps/moscow/ak/frianovo_2024_omaps.jpg',
         bounds: [[56.16118182437624, 38.429446220397956], [56.158290084938955, 38.45223426818848], [56.146111322777685, 38.424768447875984]],
-        owner: 'KMPT',
+        owner: 'KMPT'
     },
 */
     {
@@ -4611,7 +4611,7 @@ let moscowMaps = [
         bounds: [[56.145214794248595, 38.4257984161377], [56.14378030510402, 38.44298601150513], [56.13616466214565, 38.42303037643433]],
         author: 'RMNV_A',
         owner: 'FRZNO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Фрязино, Барские пруды, остров',
@@ -4620,7 +4620,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/friazino_island_2003_omaps.jpg',
         bounds: [[55.952131310344974, 38.08030843734742], [55.95083379430734, 38.094620704650886], [55.94242291381701, 38.076746463775635]],
         author: 'RMNV_A',
-        owner: 'FRZNO',
+        owner: 'FRZNO'
     },
     {
         name: 'Фрязино, родник',
@@ -4628,7 +4628,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/friazino_rodnik_1986.webp',
         link: './original_maps/moscow/ak/friazino_rodnik_1986_omaps.jpg',
         bounds: [[55.96037192474495, 38.07063102722168], [55.95756118344201, 38.113632202148445], [55.94208644059833, 38.06530952453614]],
-        author: 'KSTLV_V',
+        author: 'KSTLV_V'
     },
     {
         name: 'Гребнево, родник',
@@ -4637,7 +4637,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/grebnevo_2008_omaps.jpg',
         bounds: [[55.96779418327927, 38.07784080505372], [55.963903079631436, 38.118138313293464], [55.94746966133118, 38.07114601135254]],
         author: 'RMNV_A',
-        owner: 'FRZNO',
+        owner: 'FRZNO'
     },
     {
         name: 'Гребнево, родник',
@@ -4645,7 +4645,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/grebnevo_2009.webp',
         link: './original_maps/moscow/ak/grebnevo_2009_omaps.gif',
         bounds: [[55.96010767570833, 38.077197074890144], [55.95867829737425, 38.095650672912605], [55.94763787492179, 38.073163032531745]],
-        author: 'KZLV_V',
+        author: 'KZLV_V'
     },
     {
         name: 'Домодедово, Городской лес',
@@ -4653,7 +4653,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/domodedovo_forest_2024.webp',
         bounds: [[55.42945177371087, 37.72820949554444], [55.425263171232345, 37.763314247131355], [55.413376810482305, 37.722330093383796]],
         author: 'RMNV_A',
-        owner: 'FRZNO',
+        owner: 'FRZNO'
     },
     {
         name: 'Фряновский парк',
@@ -4663,7 +4663,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/frianovsky_park_2000_omaps.jpg',
         bounds: [[56.13568639246422, 38.445217609405525], [56.134574392459065, 38.451976776123054], [56.13169260838407, 38.443479537963874]],
         author: 'SFRNV',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Фрязино, Барские пруды, остров',
@@ -4672,7 +4672,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20210606_172.jpg',
         bounds: [[55.94695300073396, 38.0791711807251], [55.9455832160192, 38.090887069702156], [55.94194223689547, 38.077261447906494]],
         author: 'TTYNN_V',
-        owner: 'ERMCHNKV_A',
+        owner: 'ERMCHNKV_A'
     },
     {
         name: 'Фрязино, Барские пруды, остров',
@@ -4680,7 +4680,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/friazino_island_2024.webp',
         bounds: [[55.94695300073396, 38.0791711807251], [55.9455832160192, 38.090887069702156], [55.94194223689547, 38.077261447906494]],
         author: ['TTYNN_V','JAKMV_A'],
-        owner: 'O_FRZNO',
+        owner: 'O_FRZNO'
     },
     {
         name: 'Фрязино, Шишкина гора',
@@ -4688,7 +4688,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/friazino_shishkina_gora_2024.webp',
         bounds: [[55.94614795769279, 38.0922818183899], [55.9454270094214, 38.09931993484498], [55.94290358477303, 38.090929985046394]],
         author: 'JAKMV_A',
-        owner: 'O_FRZNO',
+        owner: 'O_FRZNO'
     },
     {
         name: 'Кожино',
@@ -4697,7 +4697,7 @@ let moscowMaps = [
         bounds: [[55.92608857346916, 38.075952529907234], [55.9252590523852, 38.083012104034424], [55.92234957722804, 38.074665069580085]],
         author: 'MNKV',
         owner: 'O_FRZNO',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Фрязинский л/п',
@@ -4706,7 +4706,7 @@ let moscowMaps = [
         bounds: [[55.95257581972793, 38.04629802703858], [55.950929908097635, 38.060202598571784], [55.943864908788555, 38.04260730743409]],
         author: 'JAKMV_A',
         owner: 'O_FRZNO',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Фрязино, гимназия',
@@ -4716,7 +4716,7 @@ let moscowMaps = [
         bounds: [[55.94889945355957, 38.05436611175538], [55.94809445098426, 38.05310010910035], [55.949764512298366, 38.0523705482483]],
         author: 'KSTLV_E',
         owner: 'O_FRZNO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Фрязино, стадион "Олимп"',
@@ -4726,7 +4726,7 @@ let moscowMaps = [
         bounds: [[55.96190933790128, 38.04445266723633], [55.958293917723914, 38.044195175170906], [55.961945370289676, 38.03728580474854]],
         author: 'KSTLV_E',
         owner: 'O_FRZNO',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Фрязино, стадион "Олимп"',
@@ -4735,7 +4735,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/friazino_olimp_2014_omaps.gif',
         bounds: [[55.96270204269681, 38.03951740264893], [55.96010767570833, 38.04567575454712], [55.96025181177015, 38.03612709045411]],
         author: ['KSTLV_E','RMNV_A'],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Новопареево',
@@ -4744,7 +4744,7 @@ let moscowMaps = [
         bounds: [[56.16113402879946, 38.429703712463386], [56.15826618535897, 38.453221321105964], [56.146075462038056, 38.42416763305665]],
         author: 'JAKMV_A',
         owner: 'O_FRZNO',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Фрязино, треугольник',
@@ -4752,7 +4752,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/friazino_triangle_2022.webp',
         bounds: [[55.94666462903107, 38.059194087982185], [55.944549837592085, 38.076682090759284], [55.93989929342489, 38.056726455688484]],
         author: 'JAKMV_A',
-        owner: 'O_FRZNO',
+        owner: 'O_FRZNO'
     },
     {
         name: 'Фрязино, треугольник',
@@ -4761,7 +4761,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/friazino_triangle_2023_omaps.jpg',
         bounds: [[55.94799833015532, 38.0577564239502], [55.94672470664625, 38.07704687118531], [55.93917822882576, 38.055181503295906]],
         author: 'RMNV_A',
-        owner: 'FRZNO',
+        owner: 'FRZNO'
     },
     {
         name: 'Гребнево - снт "Лесная сказка"',
@@ -4770,14 +4770,14 @@ let moscowMaps = [
         bounds: [[55.96906711372771, 38.08020114898682], [55.96351875186775, 38.12697887420654], [55.952299503684685, 38.07410717010498]],
         author: 'JAKMV_A',
         owner: 'O_FRZNO',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Сутоки',
         year: 2018,
         url: './maps/moscow/sutoki_2018.webp',
         bounds: [[56.015044640391245, 38.170516490936286], [56.0144209314178, 38.175580501556404], [56.01247777351321, 38.16972255706788]],
-        owner: 'O_FRZNO',
+        owner: 'O_FRZNO'
     },
     {
         name: 'Щапово',
@@ -4785,7 +4785,7 @@ let moscowMaps = [
         url: './maps/moscow/schapovo_2023.webp',
         link: './original_maps/moscow/schapovo_2023_omaps.jpg',
         bounds: [[55.42764975501086, 37.41552829742432], [55.4242890139506, 37.44707107543946], [55.416762839052446, 37.412738800048835]],
-        author: 'JASHPTRV',
+        author: 'JASHPTRV'
     },
     {
         name: 'Васильевский спуск',
@@ -4794,7 +4794,7 @@ let moscowMaps = [
         link: './original_maps/moscow/vasilevsky_spusk_1999_omaps.jpg',
         bounds: [[55.754469776426404, 37.61787414550782], [55.75314149282239, 37.6334309577942], [55.742477359106445, 37.61435508728028]],
         owner: 'FSO_MSK',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Зеленоград, парк "Рубеж"',
@@ -4803,7 +4803,7 @@ let moscowMaps = [
         link: './original_maps/moscow/rubezh_1989_omaps.jpg',
         bounds: [[56.01366527051492, 37.20314025878907], [56.0097787809215, 37.24614143371583], [55.99850094997988, 37.20065116882325]],
         author: 'SMRNV_V',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Зеленоград, 17 квартал',
@@ -4811,7 +4811,7 @@ let moscowMaps = [
         url: './maps/moscow/zelenograd_2011.webp',
         link: './original_maps/moscow/zelenograd_2011_omaps.jpg',
         bounds: [[56.00061279431713, 37.192518711090095], [55.998788935548426, 37.2078824043274], [55.98989639140051, 37.1889352798462]],
-        type: ['WINTER'],
+        type: ['WINTER']
     },
     {
         name: 'Коломенское',
@@ -4820,14 +4820,14 @@ let moscowMaps = [
         url: './maps/moscow/ak/kolomenskoe_2005.webp',
         link: './original_maps/moscow/ak/kolomenskoe_2005_omaps.jpg',
         bounds: [[55.65879032000983, 37.659931182861335], [55.658112450744916, 37.66654014587403], [55.65319754751281, 37.6583218574524]],
-        author: ['ZUEV_A','DDNKV','BRKN','ERMCHNKV_A'],
+        author: ['ZUEV_A','DDNKV','BRKN','ERMCHNKV_A']
     },
     {
         name: 'Лосиный остров',
         year: 1990,
         url: './maps/moscow/losiny_ostrov_1990.webp',
         link: './original_maps/moscow/lr/losiny_ostrov_1990_omaps.jpg',
-        bounds: [[55.85170984693713, 37.678942680358894], [55.85149303671181, 37.72842407226563], [55.831300295693204, 37.67838478088379]],
+        bounds: [[55.85170984693713, 37.678942680358894], [55.85149303671181, 37.72842407226563], [55.831300295693204, 37.67838478088379]]
     },
     {
         name: 'Лосиный остров',
@@ -4837,7 +4837,7 @@ let moscowMaps = [
         bounds: [[55.927471069153, 37.696151733398445], [55.905633898575495, 37.91501998901368], [55.819030133331495, 37.66387939453126]],
         author: 'RMNV_A',
         owner: 'KSTKN_SITE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Суханово',
@@ -4846,7 +4846,7 @@ let moscowMaps = [
         link: './original_maps/moscow/sukhanovo_2011_omaps.gif',
         bounds: [[55.542424733766, 37.59332656860352], [55.551262142263575, 37.67357826232911], [55.48230683298449, 37.61366844177247]],
         owner: 'KSTKN_SITE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Покров',
@@ -4855,7 +4855,7 @@ let moscowMaps = [
         link: './original_maps/moscow/pokrov_rogaine_2014_omaps.jpg',
         bounds: [[56.1646707408543, 38.75598907470704], [56.16378659337049, 39.49675083160401], [55.85093896064062, 38.75770568847657]],
         owner: 'KSTKN_SITE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Воскресенск',
@@ -4864,7 +4864,7 @@ let moscowMaps = [
         link: './original_maps/moscow/voskresensk_rogaine_2012_omaps.gif',
         bounds: [[55.495776945292555, 38.66363525390626], [55.44362154041118, 39.1439437866211], [55.14336809548373, 38.543815612792976]],
         owner: 'KSTKN_SITE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Электрогорск',
@@ -4875,7 +4875,7 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22250/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Лосиный остров',
@@ -4883,7 +4883,7 @@ let moscowMaps = [
         url: './maps/moscow/losiny_ostrov_rogaine_2007.webp',
         link: './original_maps/moscow/lr/losiny_ostrov_rogaine_2007_omaps.jpg',
         bounds: [[55.881666201607885, 37.68233299255372], [55.86635378144085, 37.83777236938477], [55.818933692366976, 37.66405105590821]],
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Лосиный остров, МГСГИ',
@@ -4891,7 +4891,7 @@ let moscowMaps = [
         url: './maps/moscow/mgsgi_2005.webp',
         link: './original_maps/moscow/mgsgi_2005_omaps.jpg',
         bounds: [[55.82935998737712, 37.724325656890876], [55.829106896547415, 37.72919654846192], [55.82696158432739, 37.723939418792725]],
-        author: ['ZUEV_A','KBZRV'],
+        author: ['ZUEV_A','KBZRV']
     },
     {
         name: 'Лосиный остров',
@@ -4899,14 +4899,14 @@ let moscowMaps = [
         url: './maps/moscow/losiny_ostrov_1998.webp',
         link: './original_maps/moscow/lr/losiny_ostrov_1998_omaps.jpg',
         bounds: [[55.87995709562446, 37.71130084991456], [55.87285507477469, 37.78747558593751], [55.852480717942505, 37.70284652709962]],
-        author: ['KNSTNTNV_Y','PTRV_VLNTN','IGNTNKO'],
+        author: ['KNSTNTNV_Y','PTRV_VLNTN','IGNTNKO']
     },
     {
         name: 'Лосиный остров, МГСУ',
         year: 2006,
         url: './maps/moscow/mgsu_2006.webp',
         link: './original_maps/moscow/mgsu_2006_omaps.jpg',
-        bounds: [[55.854865503285694, 37.690958976745605], [55.85180620664904, 37.71228790283204], [55.845807359084496, 37.68799781799317]],
+        bounds: [[55.854865503285694, 37.690958976745605], [55.85180620664904, 37.71228790283204], [55.845807359084496, 37.68799781799317]]
     },
     {
         name: 'Лосиный остров, МГСУ',
@@ -4916,7 +4916,7 @@ let moscowMaps = [
         bounds: [[55.85676840882425, 37.6865816116333], [55.85296250455591, 37.71383285522462], [55.84643378806624, 37.68203258514405]],
         author: 'IGNTNKO',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Лосиный остров, МГСУ',
@@ -4924,7 +4924,7 @@ let moscowMaps = [
         url: './maps/moscow/mgsu_2007.webp',
         link: './original_maps/moscow/mgsu_2007_omaps.jpg',
         bounds: [[55.85650345287809, 37.68902778625488], [55.85346837407153, 37.69748210906983], [55.85187847627619, 37.6833200454712]],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'р Любосеевка',
@@ -4932,7 +4932,7 @@ let moscowMaps = [
         url: './maps/moscow/ljuboseevka_2003.webp',
         link: './original_maps/moscow/lr/ljuboseevka_2003_omaps.jpg',
         bounds: [[56.00118873183565, 38.010721206665046], [55.99713298922417, 38.045954704284675], [55.97266952009628, 38.000292778015144]],
-        author: ['PZGRV','KSTLV_V'],
+        author: ['PZGRV','KSTLV_V']
     },
     {
         name: 'Голиково',
@@ -4940,7 +4940,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/golikovo_2004.webp',
         link: './original_maps/moscow/ak/golikovo_2004_omaps.jpg',
         bounds: [[55.934755405641894, 37.275924682617195], [55.93249572500144, 37.308669090271], [55.91239319189145, 37.27025985717774]],
-        author: ['KZMN_R','KTNKO'],
+        author: ['KZMN_R','KTNKO']
     },
     {
         name: 'Северный',
@@ -4948,7 +4948,7 @@ let moscowMaps = [
         url: './maps/moscow/severnyj_2000.webp',
         link: './original_maps/moscow/severnyj_2000_omaps.jpg',
         bounds: [[55.95770532898682, 37.55590438842774], [55.95088185123231, 37.60954856872559], [55.92290263477277, 37.53942489624024]],
-        author: 'PTRV_VLNTN',
+        author: 'PTRV_VLNTN'
     },
     {
         name: 'Литвиново',
@@ -4956,7 +4956,7 @@ let moscowMaps = [
         url: './maps/moscow/litvinovo_2005.webp',
         link: './original_maps/moscow/lr/litvinovo_2005_omaps.gif',
         bounds: [[56.0238594496302, 38.11749458312989], [56.01781522581708, 38.14762115478516], [55.99958088479718, 38.10101509094239]],
-        author: 'RMNV_A',
+        author: 'RMNV_A'
     },
     {
         name: 'Улиткино',
@@ -4964,7 +4964,7 @@ let moscowMaps = [
         url: './maps/moscow/ulitkino_2003.webp',
         link: './original_maps/moscow/ulitkino_2003_omaps.gif',
         bounds: [[55.945354913856036, 38.14139842987061], [55.94432152933686, 38.17139625549317], [55.93076481665006, 38.13963890075684]],
-        author: 'RMNV_A',
+        author: 'RMNV_A'
     },
     {
         name: 'Мишнево',
@@ -4972,7 +4972,7 @@ let moscowMaps = [
         url: './maps/moscow/mishnevo_2005.webp',
         link: './original_maps/moscow/mishnevo_2005_omaps.jpg',
         bounds: [[56.00999470726829, 38.21491241455079], [56.00783538949041, 38.25799942016602], [55.98095378185551, 38.211221694946296]],
-        author: 'KSTLV_V',
+        author: 'KSTLV_V'
     },
     {
         name: 'Клопово',
@@ -4980,7 +4980,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/klopovo_2000.webp',
         link: './original_maps/moscow/ak/klopovo_2000_omaps.jpg',
         bounds: [[55.70554704725049, 36.84775829315186], [55.704821626057836, 36.87050342559815], [55.68532693508525, 36.844925880432136]],
-        author: ['ZUEV_A','SMKN_S'],
+        author: ['ZUEV_A','SMKN_S']
     },
     {
         name: 'Пчёлка',
@@ -4989,7 +4989,7 @@ let moscowMaps = [
         link: './original_maps/moscow/pchelka_2002_omaps.jpg',
         bounds: [[56.17011855190448, 37.52174377441407], [56.16500527783798, 37.588520050048835], [56.147270801995475, 37.51547813415528]],
         author: ['ZUEV_A','SMKN_S'],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Малино',
@@ -4997,7 +4997,7 @@ let moscowMaps = [
         url: './maps/moscow/malino_2000.webp',
         link: './original_maps/moscow/malino_2000_omaps.jpg',
         bounds: [[55.969811638541664, 37.20580101013184], [55.96760203919656, 37.24112033843995], [55.950449336760286, 37.20030784606934]],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'ст Пионерская',
@@ -5005,7 +5005,7 @@ let moscowMaps = [
         url: './maps/moscow/pionerskaja_2004.webp',
         link: './original_maps/moscow/pionerskaja_2004_omaps.jpg',
         bounds: [[55.69993677274029, 37.210521697998054], [55.693309807744484, 37.255711555480964], [55.667008550851484, 37.19515800476075]],
-        author: ['GTSLNKO','MLCHK'],
+        author: ['GTSLNKO','MLCHK']
     },
     {
         name: 'Ватутинки',
@@ -5013,7 +5013,7 @@ let moscowMaps = [
         url: './maps/moscow/vatutinki_2000.webp',
         link: './original_maps/moscow/vatutinki_2000_omaps.jpg',
         bounds: [[55.52469537126986, 37.35351562500001], [55.519156343289964, 37.41282463073731], [55.50199984570671, 37.34750747680665]],
-        author: ['GLSHKO','IVNV_ALXDR','PZDV_S','SKRPKO_S','SHRNN'],
+        author: ['GLSHKO','IVNV_ALXDR','PZDV_S','SKRPKO_S','SHRNN']
     },
     {
         name: 'Троицк',
@@ -5022,7 +5022,7 @@ let moscowMaps = [
         link: './original_maps/moscow/troitsk_2009_omaps.jpg',
         bounds: [[55.4948045282727, 37.27146148681641], [55.48913972187512, 37.3167371749878], [55.46627772247294, 37.26107597351075]],
         author: 'PZDV_S',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Красная пойма',
@@ -5030,7 +5030,7 @@ let moscowMaps = [
         info: 'Первенство ТК Ковчег.',
         url: './maps/moscow/ak/krasnaya_poyma_2020.webp',
         link: './original_maps/moscow/ak/krasnaya_poyma_2020_omaps.jpg',
-        bounds: [[55.000462844547805, 39.09077167510987], [54.99775510908976, 39.117636680603034], [54.9830070514586, 39.0855360031128]],
+        bounds: [[55.000462844547805, 39.09077167510987], [54.99775510908976, 39.117636680603034], [54.9830070514586, 39.0855360031128]]
     },
     {
         name: 'Новопареево',
@@ -5038,7 +5038,7 @@ let moscowMaps = [
         url: './maps/moscow/novopareevo_1999.webp',
         link: './original_maps/moscow/novopareevo_1999_omaps.jpg',
         bounds: [[56.1433738567798, 38.445196151733406], [56.154442061053544, 38.47922801971436], [56.12833224717993, 38.458671569824226]],
-        author: 'KLSNKV_V',
+        author: 'KLSNKV_V'
     },
     {
         name: 'Детский городок "Бригантина"',
@@ -5047,7 +5047,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/brigantina_2013_omaps.gif',
         bounds: [[55.832939238481174, 37.522623538970954], [55.83169798668659, 37.52665758132935], [55.83189080509834, 37.52178668975831]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Коптево',
@@ -5055,7 +5055,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/koptevo_omaps.gif',
         bounds: [[55.826202260079235, 37.523825168609626], [55.82584067189429, 37.53002643585206], [55.82222460518287, 37.52320289611817]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Центр образования № 1679',
@@ -5064,7 +5064,7 @@ let moscowMaps = [
         bounds: [[55.82915510445146, 37.51856803894044], [55.829106896547415, 37.522366046905525], [55.827323162093116, 37.5184178352356]],
         logo: 'schukino.jpg',
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа № 1189, Курчатовская',
@@ -5074,7 +5074,7 @@ let moscowMaps = [
         bounds: [[55.80386185490477, 37.46430158615113], [55.80667168797472, 37.46786355972291], [55.80205284218845, 37.46850728988648]],
         logo: 'schukino.jpg',
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа № 154',
@@ -5084,7 +5084,7 @@ let moscowMaps = [
         bounds: [[55.80205284218845, 37.46850728988648], [55.80462161518107, 37.47174739837647], [55.80099151560747, 37.470932006835945]],
         logo: 'schukino.jpg',
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа № 1874',
@@ -5094,7 +5094,7 @@ let moscowMaps = [
         bounds: [[55.8045492576983, 37.46249914169312], [55.80457337687418, 37.47061014175416], [55.79766262185323, 37.4630355834961]],
         logo: 'schukino.jpg',
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа № 1210',
@@ -5104,7 +5104,7 @@ let moscowMaps = [
         bounds: [[55.802185505976944, 37.455224990844734], [55.80193223835211, 37.458658218383796], [55.79950802202209, 37.454710006713874]],
         logo: 'schukino.jpg',
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа № 702, Курчатовская',
@@ -5114,7 +5114,7 @@ let moscowMaps = [
         bounds: [[55.795563825179954, 37.485437393188484], [55.79532257693508, 37.48998641967774], [55.79310302296223, 37.484922409057624]],
         logo: 'schukino.jpg',
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа № 809',
@@ -5122,7 +5122,7 @@ let moscowMaps = [
         link: './original_maps/moscow/school_809_omaps.png',
         bounds: [[55.71920663145319, 37.401752471923835], [55.71852980878415, 37.40707397460938], [55.71641466234701, 37.400293350219734]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа № 723',
@@ -5130,7 +5130,7 @@ let moscowMaps = [
         link: './original_maps/moscow/school_723_omaps.png',
         bounds: [[55.79208970626777, 37.81034946441651], [55.79216208690595, 37.814769744873054], [55.791209064396426, 37.810242176055915]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'ДТДМ Хорошево',
@@ -5140,7 +5140,7 @@ let moscowMaps = [
         bounds: [[55.784971619914664, 37.47803449630738], [55.784332134929606, 37.48181104660035], [55.783439251542795, 37.47728347778321]],
         author: 'TLNV_P',
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'ДТДМ Хорошево',
@@ -5150,7 +5150,7 @@ let moscowMaps = [
         bounds: [[55.78470617459131, 37.479150295257575], [55.78442866163768, 37.48144626617432], [55.78340305313606, 37.47833490371705]],
         author: 'KSTLV_E',
         owner: 'ISKTL',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №138',
@@ -5160,7 +5160,7 @@ let moscowMaps = [
         bounds: [[55.78236535117593, 37.46430158615113], [55.782111954638594, 37.465653419494636], [55.78085701416438, 37.46357202529908]],
         author: 'KSTLV_E',
         owner: 'ISKTL',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №1210',
@@ -5170,7 +5170,7 @@ let moscowMaps = [
         bounds: [[55.80073824021593, 37.45558977127076], [55.8010397583524, 37.45728492736817], [55.79972512217472, 37.456190586090095]],
         author: 'KSTLV_E',
         owner: 'ISKTL',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Школа №1517',
@@ -5180,7 +5180,7 @@ let moscowMaps = [
         bounds: [[55.78569555251356, 37.45123386383057], [55.78569555251356, 37.454667091369636], [55.784380398313544, 37.45108366012574]],
         author: 'KSTLV_E',
         owner: 'ISKTL',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Реабилитационно-образовательный центр № 76',
@@ -5188,7 +5188,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/internat_76_omaps.gif',
         bounds: [[55.845361624623344, 37.50706672668458], [55.845217060997776, 37.512109279632575], [55.84241001070216, 37.5069808959961]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Московский кадетский корпус',
@@ -5196,7 +5196,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/kadety_omaps.gif',
         bounds: [[55.84503635570975, 37.54539012908936], [55.84385572715532, 37.546098232269294], [55.844518329228364, 37.54277229309083]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'М "Нагорная", с/к КАНТ',
@@ -5205,7 +5205,7 @@ let moscowMaps = [
         link: './original_maps/moscow/nagorna_kant_2010_omaps.gif',
         bounds: [[55.68290756098144, 37.606480121612556], [55.68197606204649, 37.61819601058961], [55.67320436728083, 37.60392665863038]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: '"Нагорная", с/к КАНТ',
@@ -5215,7 +5215,7 @@ let moscowMaps = [
         bounds: [[55.68404468545196, 37.601995468139656], [55.68241157080355, 37.61860370635987], [55.67384567505679, 37.59888410568238]],
         author: 'KLZHNY',
         owner: 'OPNBND',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Ястребки, гост "Горизонт"',
@@ -5224,7 +5224,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/gorizont_2023_omaps.gif',
         bounds: [[55.68097195393251, 36.764395236969], [55.6810324431028, 36.772034168243415], [55.67723354167146, 36.76420211791993]],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Морозки',
@@ -5233,7 +5233,7 @@ let moscowMaps = [
         link: './original_maps/moscow/morozki_2000_omaps.gif',
         bounds: [[56.24797589072467, 37.440977096557624], [56.236767688820336, 37.54328727722169], [56.21023649581752, 37.42638587951661]],
         logo: 'mgsyt.jpg',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Григорово',
@@ -5242,7 +5242,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/grigorovo_2005_omaps.gif',
         bounds: [[56.26108770653754, 37.45200634002686], [56.25887093319655, 37.477884292602546], [56.24268221266673, 37.44775772094727]],
         logo: 'mgsyt.jpg',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Люберецкий парк',
@@ -5251,7 +5251,7 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/ljubertsy_2022_omaps.gif',
         bounds: [[55.678963660368765, 37.88976430892945], [55.67881847852428, 37.90278911590577], [55.67061482896678, 37.8895926475525]],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Ногинск, Центральный парк',
@@ -5260,7 +5260,7 @@ let moscowMaps = [
         link: './original_maps/moscow/noginsk_2022_omaps.gif',
         bounds: [[55.8540224140805, 38.41644287109376], [55.85197483556996, 38.4324073791504], [55.84457856522042, 38.412795066833496]],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Ногинск, парк Автомобилист',
@@ -5270,7 +5270,7 @@ let moscowMaps = [
         bounds: [[55.851842341479404, 38.43888759613038], [55.8496139640914, 38.45704078674317], [55.842976256051365, 38.435304164886475]],
         author: 'RMNV_A',
         owner: 'OKHTNKV',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Покровское',
@@ -5279,7 +5279,7 @@ let moscowMaps = [
         link: './original_maps/moscow/pokrovskoe_2024_omaps.gif',
         bounds: [[55.66163482197586, 36.81016445159913], [55.66185269019934, 36.82278156280518], [55.65502557620114, 36.81016445159913]],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Наро-Фоминск, Латышская',
@@ -5288,7 +5288,7 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/latjishskaya_2009_omaps.gif',
         bounds: [[55.37581872925556, 36.70476436614991], [55.371014766688134, 36.7509412765503], [55.35008512148678, 36.69643878936768]],
         author: 'FLVSKY_S',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Одинцово',
@@ -5299,7 +5299,7 @@ let moscowMaps = [
         link: ['./original_maps/moscow/odintsovo_2023_omaps.gif','https://tkmgtu.ru/library/images/3/34/Bno2021v.png','https://tkmgtu.ru/library/images/8/8e/Bno2021zn.png'],
         bounds: [[55.73890186689086, 37.202281951904304], [55.730058364447366, 37.28373527526856], [55.695438298536175, 37.188034057617195]],
         author: ['ZUEV_A','LUK_V','ZHRDV_V','KLNN_B'],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Власьево, Залесный овраг',
@@ -5308,7 +5308,7 @@ let moscowMaps = [
         link: './original_maps/moscow/zalesny_ovrag_1998_omaps.jpg',
         bounds: [[54.92398527186038, 38.775043487548835], [54.9209270865021, 38.802080154418945], [54.91293524689154, 38.77169609069825]],
         author: 'SMKN_S',
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Сергиев посад, Пересвет',
@@ -5318,7 +5318,7 @@ let moscowMaps = [
         bounds: [[56.41933751985299, 38.14006805419922], [56.41966983532886, 38.184528350830085], [56.40100820072286, 38.1401538848877]],
         author: 'BRTNK_V',
         owner: 'NLTV_D',
-        type: ['WINTER'],
+        type: ['WINTER']
     },
     {
         name: 'Раменское, оз Пионер',
@@ -5328,7 +5328,7 @@ let moscowMaps = [
         bounds: [[55.57192760660642, 38.236455917358406], [55.57084788382006, 38.24675559997559], [55.56430825424053, 38.23415994644166]],
         author: ['ZUEV_A','SMKN_S','NSNV'],
         owner: 'NLTV_D',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Сергиев посад, Скитские пруды',
@@ -5338,7 +5338,7 @@ let moscowMaps = [
         bounds: [[56.30528907760658, 38.16422939300538], [56.30422960497439, 38.1742286682129], [56.300479550084766, 38.16251277923585]],
         author: 'LNTV',
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Бутовский л/п',
@@ -5349,7 +5349,7 @@ let moscowMaps = [
         author: ['MLNKV_V','DBRTSV_V','KLNN_B'],
         areas: [50,30,20],
         owner: 'NLTV_D',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Красноармейск',
@@ -5358,7 +5358,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/krasnoarmeisk_2023_omaps.jpg',
         bounds: [[56.15795548946609, 38.09058666229249], [56.14990041904104, 38.15650463104249], [56.11735222339835, 38.075180053710945]],
         author: 'LZRV',
-        owner: 'LZRV',
+        owner: 'LZRV'
     },
     {
         name: 'Починки, 179 спасательный центр МЧС',
@@ -5367,7 +5367,7 @@ let moscowMaps = [
         url: './maps/moscow/pochinki_mchs_2002.webp',
         link: './original_maps/moscow/pochinki_mchs_2002_omaps.gif',
         bounds: [[55.92513883046516, 38.46064567565919], [55.921411765964045, 38.495879173278816], [55.90977139947616, 38.45686912536622]],
-        owner: 'NLTV_D',
+        owner: 'NLTV_D'
     },
     {
         name: 'Ильинское, школа №25',
@@ -5376,14 +5376,14 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/ilinskoe_school_25_omaps.gif',
         bounds: [[55.612026154027184, 38.095886707305915], [55.61161410041415, 38.097624778747566], [55.610693023740545, 38.094620704650886]],
         author: 'KSTLV_E',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Загорново',
         year: 1987,
         url: './maps/moscow/zagornogo_1987.webp',
         link: './original_maps/moscow/zagornogo_1987_omaps.jpg',
-        bounds: [[55.5267115782107, 38.286452293396], [55.52250900600764, 38.340096473693855], [55.508999433308176, 38.281688690185554]],
+        bounds: [[55.5267115782107, 38.286452293396], [55.52250900600764, 38.340096473693855], [55.508999433308176, 38.281688690185554]]
     },
     {
         name: 'Верзилово',
@@ -5391,7 +5391,7 @@ let moscowMaps = [
         url: './maps/moscow/verzilovo_2006.webp',
         link: './original_maps/moscow/verzilovo_2006_omaps.gif',
         bounds: [[55.02728416517494, 38.10670137405396], [55.02673069539478, 38.11983346939087], [55.01766500262448, 38.1058430671692]],
-        author: 'NKRSV_S',
+        author: 'NKRSV_S'
     },
     {
         name: 'Хрипань',
@@ -5399,7 +5399,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/khripan.webp',
         link: ['./original_maps/moscow/ak/khripan_omaps.jpg','./original_maps/moscow/ak/khripan_retro_omaps.jpg'],
         bounds: [[55.663644005170006, 38.164787292480476], [55.65943186403789, 38.23439598083497], [55.63892146124507, 38.158907890319824]],
-        author: ['KRNVA','BLBN','KSHRN','YTKN'],
+        author: ['KRNVA','BLBN','KSHRN','YTKN']
     },
     {
         name: 'Глинково',
@@ -5407,7 +5407,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/glinkovo_2023.webp',
         link: './original_maps/moscow/ak/glinkovo_2023_omaps.jpg',
         bounds: [[56.30632471346745, 38.19113731384278], [56.302491530057665, 38.2251262664795], [56.293228400262144, 38.18598747253419]],
-        author: 'LNTV',
+        author: 'LNTV'
     },
     {
         name: 'Сергиев Посад, Островок',
@@ -5415,7 +5415,7 @@ let moscowMaps = [
         url: './maps/moscow/ostrovok_2021.webp',
         link: './original_maps/moscow/ostrovok_2021_omaps.jpg',
         bounds: [[56.301896280746085, 38.16270589828492], [56.30052717213664, 38.17517280578614], [56.295419368902216, 38.16088199615479]],
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Сергиев Посад, Козьи горки',
@@ -5423,7 +5423,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/kozii_gorki_2012.webp',
         link: './original_maps/moscow/ak/kozii_gorki_2012_omaps.jpg',
         bounds: [[56.32029710029906, 38.16118240356445], [56.32027330160156, 38.187060356140144], [56.30720557704679, 38.161354064941406]],
-        author: 'MTN_Y',
+        author: 'MTN_Y'
     },
     {
         name: 'Зайцево',
@@ -5431,7 +5431,7 @@ let moscowMaps = [
         url: './maps/moscow/zaitsevo_2015.webp',
         link: './original_maps/moscow/zaitsevo_2015_omaps.gif',
         bounds: [[54.830358813874064, 37.52929687500001], [54.8208160725445, 37.61658668518067], [54.788462757971374, 37.517366409301765]],
-        owner: 'KSTKN_SITE',
+        owner: 'KSTKN_SITE'
     },
     {
         name: 'Ратмино',
@@ -5441,7 +5441,7 @@ let moscowMaps = [
         bounds: [[56.786353541802335, 37.21043586730958], [56.78386167289861, 37.24356651306153], [56.76232126813397, 37.20537185668946]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Ратмино, профилакторий',
@@ -5451,7 +5451,7 @@ let moscowMaps = [
         bounds: [[56.782451107703885, 37.23564863204957], [56.781898621882256, 37.241849899292], [56.77734912081747, 37.233953475952156]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Дубна, Комсомольская наб',
@@ -5461,7 +5461,7 @@ let moscowMaps = [
         bounds: [[56.74908754489452, 37.183806896209724], [56.74755801408207, 37.18518018722535], [56.74435756353461, 37.16724157333375]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Дубна, парк Белиловского',
@@ -5471,7 +5471,7 @@ let moscowMaps = [
         bounds: [[56.75581674067994, 37.123575210571296], [56.75668721290565, 37.12799549102784], [56.7506523081262, 37.126879692077644]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Дубна, институт',
@@ -5480,7 +5480,7 @@ let moscowMaps = [
         bounds: [[56.767754566518114, 37.20386981964112], [56.76620227578668, 37.23129272460938], [56.74818159954763, 37.198033332824714]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Дубна, парк на ул Балдина',
@@ -5490,7 +5490,7 @@ let moscowMaps = [
         bounds: [[56.75848690906695, 37.205994129180915], [56.75780468145684, 37.214705944061286], [56.750193474534264, 37.20344066619874]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Дубна, Александровский л/п',
@@ -5500,7 +5500,7 @@ let moscowMaps = [
         bounds: [[56.74018009479133, 37.20180988311768], [56.737638083728235, 37.229232788085945], [56.7327889562105, 37.199535369873054]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Дубна, Парк семейного отдыха',
@@ -5510,7 +5510,7 @@ let moscowMaps = [
         bounds: [[56.73941515584447, 37.152822017669685], [56.73840305884718, 37.16234922409058], [56.73546076162427, 37.151556015014656]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Дубна, шк №8',
@@ -5520,7 +5520,7 @@ let moscowMaps = [
         bounds: [[56.76349737342487, 37.19236850738526], [56.76187433846378, 37.20962047576905], [56.75062877833475, 37.18833446502686]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Дубна, шк №10, оз Суглинок',
@@ -5528,7 +5528,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/dubna_suglinok_omaps.jpg',
         bounds: [[56.757369460816534, 37.13966846466065], [56.75486390335783, 37.16940879821778], [56.747287398300905, 37.13653564453126]],
         author: 'RZNKV_A',
-        owner: 'DBNA',
+        owner: 'DBNA'
     },
     {
         name: 'Дубна, шк №10',
@@ -5538,7 +5538,7 @@ let moscowMaps = [
         bounds: [[56.75145231226612, 37.13788747787476], [56.74986405208886, 37.156083583831794], [56.74431049605124, 37.13578462600709]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Дубна, шк №7',
@@ -5548,7 +5548,7 @@ let moscowMaps = [
         bounds: [[56.73181199315812, 37.149088382720954], [56.733777664050386, 37.153809070587165], [56.728162870487886, 37.15415239334107]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Дубна, стдн "Наука"',
@@ -5558,7 +5558,7 @@ let moscowMaps = [
         bounds: [[56.74392218706376, 37.18369960784913], [56.74389865305675, 37.187004089355476], [56.74147457138417, 37.183527946472175]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Дубна, спорткомплекс "Олимп"',
@@ -5568,7 +5568,7 @@ let moscowMaps = [
         bounds: [[56.743522106939935, 37.22167968750001], [56.74293374607785, 37.228460311889656], [56.739980035339606, 37.22060680389405]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Дубна, Чёрная р',
@@ -5577,7 +5577,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/dubna_black_2012_omaps.jpg',
         bounds: [[56.739097407397, 37.16790676116944], [56.737026092421885, 37.19232559204102], [56.726644260233, 37.16374397277833]],
         author: 'RZNKV_A',
-        owner: 'DBNA',
+        owner: 'DBNA'
     },
     {
         name: 'Дубна, Южная канава',
@@ -5586,7 +5586,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/dubna_south_2012_omaps.jpg',
         bounds: [[56.75156995849672, 37.114884853363044], [56.75035818467364, 37.12971210479737], [56.74072142679126, 37.11140871047974]],
         author: 'RZNKV_A',
-        owner: 'DBNA',
+        owner: 'DBNA'
     },
     {
         name: 'Дубна, Большая Волга',
@@ -5595,7 +5595,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/dubna_big_volga_2012_omaps.jpg',
         bounds: [[56.72763312969115, 37.15292930603028], [56.720757594325775, 37.16234922409058], [56.72461935114187, 37.145354747772224]],
         author: 'RZNKV_A',
-        owner: 'DBNA',
+        owner: 'DBNA'
     },
     {
         name: 'Святье, ДОЛ "Сосоновый Бор"',
@@ -5604,7 +5604,7 @@ let moscowMaps = [
         link: './original_maps/moscow/sviatie_2011_omaps.jpg',
         bounds: [[56.828431703656456, 37.26377964019776], [56.82629486789628, 37.283928394317634], [56.81835698197009, 37.26026058197022]],
         author: 'RZNKV_A',
-        owner: 'DBNA',
+        owner: 'DBNA'
     },
     {
         name: 'о Липня',
@@ -5612,7 +5612,7 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/lipnya_omaps.jpg',
         bounds: [[56.769412624354175, 37.016716003417976], [56.768224944976595, 37.03688621520997], [56.76350913429174, 37.01557874679566]],
         author: 'RZNKV_A',
-        owner: 'DBNA',
+        owner: 'DBNA'
     },
     {
         name: 'Дубна, Большая Волга, лицей',
@@ -5622,7 +5622,7 @@ let moscowMaps = [
         bounds: [[56.72636172132499, 37.14365959167481], [56.72733882602327, 37.14612722396851], [56.72489013018538, 37.14565515518189]],
         author: 'RZNKV_A',
         owner: 'DBNA',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'ДОЛ "Дружба"',
@@ -5632,7 +5632,7 @@ let moscowMaps = [
         bounds: [[56.04388017722099, 37.92032003402711], [56.04325693396019, 37.92798042297364], [56.038438444375224, 37.918388843536384]],
         author: 'LZRV',
         owner: 'SKBLV',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'ДОЛ "Солнечный"',
@@ -5642,7 +5642,7 @@ let moscowMaps = [
         bounds: [[56.40751469517294, 38.890013694763184], [56.405496376117185, 38.90681505203248], [56.39542692703984, 38.885185718536384]],
         author: 'LZRV',
         owner: 'DYTS_ALXNDRV',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Баррикадная',
@@ -5656,7 +5656,7 @@ let moscowMaps = [
         areas: [90,5,5],
         owner: 'OPNBND',
         start: 'OBSW',
-        type: ['CITY','SPRINT'],
+        type: ['CITY','SPRINT']
     },
     {
         name: 'МЕГА Белая Дача',
@@ -5670,7 +5670,7 @@ let moscowMaps = [
         areas: [45,35,20],
         owner: 'OPNBND',
         start: 'OBSW',
-        type: ['INDOOR'],
+        type: ['INDOOR']
     },
     {
         name: 'Старый Арбат',
@@ -5684,7 +5684,7 @@ let moscowMaps = [
         areas: [45,45,5,5],
         owner: 'OPNBND',
         start: 'OBSW',
-        type: ['CITY','SPRINT'],
+        type: ['CITY','SPRINT']
     },
     {
         name: 'Арбат',
@@ -5699,7 +5699,7 @@ let moscowMaps = [
         areas: [80, 20],
         owner: 'PRZRV',
         logo: 'arbat_2025.jpg',
-        type: ['CITY','SPRINT'],
+        type: ['CITY','SPRINT']
     },
     {
         name: 'Красные Ворота',
@@ -5711,7 +5711,7 @@ let moscowMaps = [
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
         logo: 'msk_city_race.png',
-        type: ['CITY','SPRINT'],
+        type: ['CITY','SPRINT']
     },
     {
         name: 'Жуковский городской ПКиО, Треугольный лес',
@@ -5721,7 +5721,7 @@ let moscowMaps = [
         bounds: [[55.588386669688724, 38.12292337417603], [55.586070446509915, 38.14049720764161], [55.58143759008639, 38.12026262283326]],
         author: 'SDV_G',
         owner: 'SDV_G',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Спортгородок МГУ',
@@ -5731,7 +5731,7 @@ let moscowMaps = [
         bounds: [[55.704821626057836, 37.5319790840149], [55.70333447051243, 37.5448751449585], [55.69468850250172, 37.527837753295906]],
         author: 'SDV_G',
         owner: 'SDV_G',
-        type: ['CITY','SPRINT'],
+        type: ['CITY','SPRINT']
     },
     {
         name: 'Звенигородская биостанция МГУ и карьер Сима',
@@ -5741,7 +5741,7 @@ let moscowMaps = [
         bounds: [[55.71490377333545, 36.69497966766358], [55.70832770373708, 36.76094055175782], [55.66255470178119, 36.6789722442627]],
         author: 'SDV_G',
         owner: 'SDV_G',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Солнечногорск',
@@ -5753,7 +5753,7 @@ let moscowMaps = [
         bounds: [[56.13976345067892, 36.958780288696296], [56.13019782204047, 37.041950225830085], [56.10215682686386, 36.945304870605476]],
         author: 'SKLV_V',
         owner: 'SKLV_V',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Куркино',
@@ -5762,7 +5762,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/kurkino_2016_omaps.jpg',
         bounds: [[55.89480695323321, 37.38583087921143], [55.893796284148955, 37.40072250366212], [55.889151680626476, 37.38488674163819]],
         author: ['SVIR_A','SVIR_M'],
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Восточный',
@@ -5773,7 +5773,7 @@ let moscowMaps = [
         bounds: [[55.818077768332415, 37.87834882736206], [55.81607652035884, 37.898132801055915], [55.80453719810478, 37.873671054840095]],
         logo: 'kk_msk.webp',
         author: 'ZHRDV_V',
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Волочаевская',
@@ -5782,7 +5782,7 @@ let moscowMaps = [
         url: './maps/moscow/volochaevskaya_2016.webp',
         link: './original_maps/moscow/volochaevskaya_2016_omaps.jpg',
         bounds: [[55.75537539840437, 37.673642635345466], [55.75480787775792, 37.678685188293464], [55.751318048028374, 37.67226934432984]],
-        owner: 'FSO_MSK',
+        owner: 'FSO_MSK'
     },
     {
         name: 'Прудно',
@@ -5791,7 +5791,7 @@ let moscowMaps = [
         link: ['./original_maps/moscow/prudno_2016_omaps.gif','./original_maps/moscow/prudno_2016_omaps.ocd'],
         bounds: [[55.03353169388017, 37.74627685546876], [55.0223149627636, 37.85502433776856], [54.98963080619362, 37.733573913574226]],
         author: 'GRSHKN',
-        owner: 'TSLSCHVA',
+        owner: 'TSLSCHVA'
     },
     {
         name: 'Тверская',
@@ -5805,7 +5805,7 @@ let moscowMaps = [
         author: ['MSTPNV','KPTNV_M'],
         areas: [90,10],
         owner: 'OPNBND',
-        type: ['CITY','SPRINT'],
+        type: ['CITY','SPRINT']
     },
 /*
     {
@@ -5815,7 +5815,7 @@ let moscowMaps = [
         bounds: [[55.81067504826267, 37.483935356140144], [55.81006010100851, 37.49219655990601], [55.8048025082996, 37.48221874237061]],
         author: ['DBRTSV_V','SKLV_V'],
         owner: 'MLKHT',
-        type: ['PARK'],
+        type: ['PARK']
     },
 */
 ];

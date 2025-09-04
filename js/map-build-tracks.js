@@ -84,7 +84,7 @@ function buildOverlayMapsContents() {
         "<span class='SKI'>Лыжи</span>": skiGroup,
         "<span class='WALK'>Пешие</span>": walkGroup,
         //"<span class='layer-separator'>Спорт.Карты</span>": mapsGroup,
-        "<span class='layer-separator'>Карты</span>": rogaineGroup,
+        "<span class='layer-separator'>Карты</span>": rogaineGroup
     };
     return result;
 }

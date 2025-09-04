@@ -4,53 +4,53 @@ let historyDocs = [
         name: 'Статья в газете "ТРУД"',
         start: 'USSR_BULGARIA_1968',
         year: 1968,
-        link: './docs/ussr_bulgaria_1968_article_omaps.jpg',
+        link: './docs/ussr_bulgaria_1968_article_omaps.jpg'
     },
     {
         name: 'Статья в газете "Спортивная неделя Ленинграда"',
         year: 1969,
-        link: './docs/sport_week_leningrad_1969_article_omaps.jpg',
+        link: './docs/sport_week_leningrad_1969_article_omaps.jpg'
     },
     {
         name: 'Статья в газете "Советский спорт"',
         year: 1969,
-        link: './docs/sov_sport_1969_article_omaps.jpg',
+        link: './docs/sov_sport_1969_article_omaps.jpg'
     },
     {
         name: 'Программа',
         start: 'USSR_1981',
         year: 1981,
-        link: './docs/ussr_champ_1981_program_omaps.pdf',
+        link: './docs/ussr_champ_1981_program_omaps.pdf'
     },
     {
         name: 'Постановление',
         start: 'USSR_1981',
         year: 1981,
-        link: './docs/ussr_champ_1981_resolution_omaps.pdf',
+        link: './docs/ussr_champ_1981_resolution_omaps.pdf'
     },
     {
         name: 'Схема',
         start: 'USSR_1981',
         year: 1981,
-        link: './docs/ussr_champ_1981_relay_schema_omaps.jpg',
+        link: './docs/ussr_champ_1981_relay_schema_omaps.jpg'
     },
     {
         name: 'Буклет "Спортивное ориентирование"',
         year: 1989,
         info: 'Буклет формата А2 выпущен Московским турклубом по мотивам 3 места Алиды Аболы на ЧМ в Швеции 1989 года. Текст, статистика в таблицах и полноразмерная карта с путями движения всех призёров. Цена 1 руб. Тираж 10000 (десять тысяч) экземпляров.',
-        link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg'],
+        link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg']
     },
     {
         name: '17.09. Кубок ЛГС ДСО "Спартак"',
         year: 1983,
         info: 'Протоколы результатов. Карты можно найти <a href="map-info.html?map=mruchey_1983_09_17">тут</a>.',
-        links: ['mruchey_1983_09_17', 6],
+        links: ['mruchey_1983_09_17', 6]
     },
     {
         name: '21,27.04. Открытие сезона ЛГС ДСО "Спартак"',
         year: 1985,
         info: 'Протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',
-        links: ['gdacha_1985_04_21', 8],
+        links: ['gdacha_1985_04_21', 8]
     },
     {
         name: 'Условные знаки спортивных карт',
@@ -64,7 +64,7 @@ let historyDocs = [
         year: 2010,
         info: '<a href="https://o-site.spb.ru/race.php?id=10062527">Инфо и результаты.</a>',
         link: './original_maps/starts/mms/mms_2010_lembolovo.jpg',
-        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
         name: 'Календарь (Лемболово-Орехово)',
@@ -72,7 +72,7 @@ let historyDocs = [
         year: 2011,
         info: '<a href="https://o-site.spb.ru/race.php?id=11062126">Инфо и результаты.</a>',
         link: './original_maps/starts/mms/mms_2011_lembolovo_orekhovo.jpg',
-        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
         name: 'Сводная карта всех дней (Поляны)',
@@ -80,7 +80,7 @@ let historyDocs = [
         year: 2014,
         info: '<a href="https://o-site.spb.ru/race.php?id=14062729">Инфо и результаты.</a>',
         link: './original_maps/starts/mms/mms_2014_polyany.pdf',
-        author: 'SHRNN',
+        author: 'SHRNN'
     },
     {
         name: 'Сводная карта всех дней (Красная долина)',
@@ -88,7 +88,7 @@ let historyDocs = [
         year: 2015,
         info: '<a href="https://o-site.spb.ru/race.php?id=15062628">Инфо и результаты.</a>',
         link: './original_maps/starts/mms/mms_2015_krasna_dolina.pdf',
-        author: ['DJCHKV','STLV_S'],
+        author: ['DJCHKV','STLV_S']
     },
     {
         name: 'Сводная карта всех дней (Коробицыно)',
@@ -96,7 +96,7 @@ let historyDocs = [
         year: 2016,
         info: '<a href="https://o-site.spb.ru/race.php?id=20160624">Инфо и результаты.</a>',
         link: './original_maps/starts/mms/mms_2016_korobitsyno.pdf',
-        author: ['DJCHKV','STLV_S','PPV_D'],
+        author: ['DJCHKV','STLV_S','PPV_D']
     },
     {
         name: 'Сводная карта всех дней (Коробицыно)',
@@ -104,6 +104,6 @@ let historyDocs = [
         year: 2017,
         info: '<a href="https://o-site.spb.ru/race.php?id=17062325">Инфо и результаты.</a>',
         link: './original_maps/starts/mms/mms_2017_korobitsyno.pdf',
-        author: ['DJCHKV','STLV_S','PPV_D'],
+        author: ['DJCHKV','STLV_S','PPV_D']
     },
 ];

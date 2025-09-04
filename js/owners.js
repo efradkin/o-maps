@@ -143,7 +143,7 @@ let owners = {
         rogaine: true
     },
     PRZRV: {
-        name: '© Прозоров Андрей, +7 926 111 6410',
+        name: '© Прозоров Андрей, +7 926 111 6410'
     },
     PARADA: {
         name: '© Екатерина Новикова (PARADA) - <a href="https://parda.ru/about">сайт</a> и <a href="https://vk.com/parada_ekaterina">ВК</a>'
@@ -208,7 +208,7 @@ let owners = {
         name: '© Волков А.М.'
     },
     VSLVSKY: {
-        name: 'По вопросам использования карты обращаться к Александру Михайловичу Василевскому (<a href="v_aleksandr_mihajlovih@mail.ru">v_aleksandr_mihajlovih@mail.ru</a>).',
+        name: 'По вопросам использования карты обращаться к Александру Михайловичу Василевскому (<a href="v_aleksandr_mihajlovih@mail.ru">v_aleksandr_mihajlovih@mail.ru</a>).'
     },
     VST_PRZRSK: {
         name: 'По вопросам использования карты - клуб <a href="https://vk.com/vesta_priozersk">Веста-Приозерск</a> (И.Скворцова ira-vesta@yandex.ru).',
@@ -245,7 +245,7 @@ let owners = {
         logo: 'dubna.jpg'
     },
     DYTS_ALXNDRV: {
-        name: 'ДЮЦ г.Александрова Владимирской обл.',
+        name: 'ДЮЦ г.Александрова Владимирской обл.'
     },
     ERMCHNKV_A: {
         name: '@ Ермаченков Алексей, 89164951315',
@@ -304,13 +304,13 @@ let owners = {
     },
     MLKHT: {
         name: '@ КСО Малахит',
-        logo: 'malakhit.jpg',
+        logo: 'malakhit.jpg'
     },
     NLTV_D: {
         name: '@ По вопросам использования карты обращайтесь к Дмитрию Налётову - +79166509491 (WhatsApp. Telegram), dmitry@sportident.ru.'
     },
     OKHTNKV: {
-        name: '@ Охотников С.В.',
+        name: '@ Охотников С.В.'
     },
     ORNTA_KNTSVO: {
         name: '@ КСО Ориента-Кунцево',

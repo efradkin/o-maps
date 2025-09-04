@@ -158,7 +158,7 @@ function buildOverlayMapsContents() {
         "ККМ": kkmGroup,
         "Марш-Бросок": mbGroup,
         "<span class='layer-separator'>Чемпионаты и Кубки</span>": majorGroup,
-        "<span class='layer-separator'>Прочее</span>": otherGroup,
+        "<span class='layer-separator'>Прочее</span>": otherGroup
     };
     return result;
 }

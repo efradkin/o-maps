@@ -10,7 +10,7 @@ let rogaineKkmMaps = [
         bounds: [[60.265022945174344, 29.736213684082035], [60.25548563747356, 29.844360351562504], [60.19479059799103, 29.715785980224613]],
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Зеркальный-лето',
@@ -22,7 +22,7 @@ let rogaineKkmMaps = [
         start: 'KKM',
         author: 'BKTV',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Дибуны',
@@ -33,7 +33,7 @@ let rogaineKkmMaps = [
         bounds: [[60.13167499021484, 30.057735443115238], [60.13107656310189, 30.153694152832035], [60.083852031773, 30.06013870239258]],
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Орехово',
@@ -44,7 +44,7 @@ let rogaineKkmMaps = [
         bounds: [[60.47773691018313, 30.26767730712891], [60.470292298708905, 30.363636016845707], [60.44608551400392, 30.257635116577152]],
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Лосево',
@@ -55,7 +55,7 @@ let rogaineKkmMaps = [
         bounds: [[60.69515749014434, 29.89251136779785], [60.688519168422594, 30.01147270202637], [60.671581041620236, 29.88839149475098]],
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Солнечное',
@@ -66,7 +66,7 @@ let rogaineKkmMaps = [
         bounds: [[60.24509362207604, 29.76951599121094], [60.24475284442206, 29.962120056152347], [60.157397062225606, 29.768142700195316]],
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Орехово, р Смородинка',
@@ -77,7 +77,7 @@ let rogaineKkmMaps = [
         bounds: [[60.486997991046856, 30.13429641723633], [60.486067773612014, 30.262012481689457], [60.44409569260203, 30.133781433105472]],
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Рощино',
@@ -88,7 +88,7 @@ let rogaineKkmMaps = [
         bounds: [[60.27234434911475, 29.493484497070316], [60.272259225923726, 29.59253311157227], [60.19316938717165, 29.49434280395508]],
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Васкелово',
@@ -99,7 +99,7 @@ let rogaineKkmMaps = [
         bounds: [[60.40995340282287, 30.365867614746097], [60.41037722411491, 30.495815277099613], [60.3359544838447, 30.36552429199219]],
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Шевелево',
@@ -110,7 +110,7 @@ let rogaineKkmMaps = [
         bounds: [[60.33833320798648, 29.29040908813477], [60.338588061002966, 29.44318771362305], [60.285876119662845, 29.289207458496097]],
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Орехово, Ракитинское оз',
@@ -121,7 +121,7 @@ let rogaineKkmMaps = [
         bounds: [[60.474226311886945, 30.283470153808597], [60.46580778814421, 30.379900932312015], [60.44147063539492, 30.271110534667972]],
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Шапки',
@@ -133,7 +133,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/8635/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Кавголово',
@@ -145,7 +145,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/8914/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Колосково',
@@ -157,7 +157,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/9664/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Сиверский',
@@ -167,7 +167,7 @@ let rogaineKkmMaps = [
         link: './original_maps/rogaine/kkm/siversky_2021_omaps.jpg',
         bounds: [[59.34763292781556, 29.9403190612793], [59.34710781719707, 30.060310363769535], [59.29429276788343, 29.940490722656254]],
         owner: ['SHBN','KKM'],
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Петяярви',
@@ -179,7 +179,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/10336/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Сосновка',
@@ -191,7 +191,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/11161/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Екатерингоф',
@@ -203,7 +203,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/11440/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Токсово, оз Хепоярви - СКА, Марафонский круг',
@@ -215,7 +215,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/11956/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['WINTER','ROGAINE'],
+        type: ['WINTER','ROGAINE']
     },
     {
         name: 'Лемболово',
@@ -227,7 +227,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/12037/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Петергофское ш.',
@@ -239,7 +239,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/14304/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Автово',
@@ -251,7 +251,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/14693/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Петергоф',
@@ -263,7 +263,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/15154/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Гатчина',
@@ -275,7 +275,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/15840/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Сиверский, р.Оредеж',
@@ -287,7 +287,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/10000/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Петроградская сторона',
@@ -299,7 +299,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/18316/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'М "Владимирская"',
@@ -311,7 +311,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/18479/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Сенная, площадь',
@@ -323,7 +323,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/18762/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
 /*
     {
@@ -336,7 +336,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19207/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
 */
 /*
@@ -350,7 +350,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19609/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
 */
     {
@@ -363,7 +363,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20096/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Токсово',
@@ -375,7 +375,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20261/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
 /*
     {
@@ -388,7 +388,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20694/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
 */
     {
@@ -401,7 +401,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21292/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'М "Горный институт"',
@@ -413,7 +413,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21313/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'М "ЗЕНИТ"',
@@ -426,7 +426,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21534/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'М "Спортивная"',
@@ -439,7 +439,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21705/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'пл "Курорт"',
@@ -452,7 +452,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21966/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Дудергоф (Можайка)',
@@ -465,7 +465,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22402/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Сиверская',
@@ -478,7 +478,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22627/',
         start: 'VO_FOTO',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Ново-Кавголовский л/п',
@@ -491,7 +491,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23000/',
         start: 'VO_FOTO',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Кавголово',
@@ -504,7 +504,7 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23197/',
         start: 'VO_FOTO',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Зеленогорск, оз Щучье',
@@ -517,6 +517,6 @@ let rogaineKkmMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23335/',
         start: 'VO_FOTO',
         owner: 'RYZHOV',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
 ];
