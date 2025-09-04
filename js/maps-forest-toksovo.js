@@ -390,8 +390,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/kavgolovo_2024_omaps.gif',
         bounds: [[60.189009335179726, 30.542936325073246], [60.1873558347742, 30.55778503417969], [60.178478847920516, 30.538237094879154]],
         author: ['IVNVA_G','TKMKVA_P'],
-        owner: 'SFSO_SPB',
-        restricted: 'с 22.07.2025 по 01.09.2025, ЧиП СПб'
+        owner: 'SFSO_SPB'
     },
     {
         name: 'Кавголово, УТЦ',
