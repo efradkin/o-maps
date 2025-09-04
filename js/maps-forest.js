@@ -81,6 +81,13 @@ let forestMaps = [
     },
     {
         name: 'Цвелодубово',
+        year: 1,
+        url: './maps/forest/tsvelodubovo_old.webp',
+        link: './original_maps/forest/tsvelodubovo_old_omaps.jpg',
+        bounds: [[60.38120544002093, 29.5488452911377], [60.37726015519434, 29.63295936584473], [60.35158292567546, 29.542665481567386]],
+    },
+    {
+        name: 'Цвелодубово',
         year: 1980,
         url: './maps/forest/tsvelodubovo_1980.webp',
         link: './original_maps/forest/tsvelodubovo_1980_omaps.jpg',

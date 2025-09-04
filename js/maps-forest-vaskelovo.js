@@ -64,7 +64,15 @@ let vaskelovoMaps = [
         qtty: 100
     },
     {
-        name: 'Орехово (Фигурное оз)',
+        name: 'Орехово, Фигурное оз',
+        year: 1979,
+        url: './maps/forest/vaskelovo/orekhovo_figurnoe_1979.webp',
+        link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_1979_omaps.jpg',
+        bounds: [[60.46648473510251, 30.273942947387695], [60.463776862565204, 30.31514167785645], [60.4427831905086, 30.27016639709473]],
+        author: 'TRSV',
+    },
+    {
+        name: 'Орехово, Фигурное оз',
         year: 1981,
         url: './maps/forest/vaskelovo/orekhovo_figurnoe_1981.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_1981_omaps.jpg',
@@ -517,7 +525,7 @@ let vaskelovoMaps = [
         year: 1983,
         start: 'WN',
         url: './maps/forest/vaskelovo/lembolovo_1983.webp',
-        link: ['./original_maps/forest/vaskelovo/lembolovo_1983_omaps.jpg'],
+        link: ['./original_maps/forest/vaskelovo/lembolovo_1983_omaps.jpg','./original_maps/forest/vaskelovo/lembolovo_wn_1980_omaps.jpg'],
         bounds: [[60.44490010316294, 30.25694847106934], [60.440750824596094, 30.338487625122074], [60.41573808681991, 30.251798629760746]],
         author: ['KAZNTSVA_O','KAZNTSV_S'],
     },

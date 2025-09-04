@@ -47,6 +47,14 @@ let sosnovoMaps = [
         author: 'SHRNN',
     },
     {
+        name: 'Сосново, 69км',
+        year: 1,
+        url: './maps/forest/sosnovo/sosnovo_69km_old.webp',
+        link: './original_maps/forest/sosnovo/sosnovo_69km_old_omaps.jpg',
+        bounds: [[60.541706984762655, 30.192918777465824], [60.540989395523795, 30.23523330688477], [60.509948994532124, 30.186824798583988]],
+        author: ['SHRNN','FDRV_L']
+    },
+    {
         name: 'Сосново',
         year: 1981,
         url: './maps/forest/sosnovo/sosnovo_1981.webp',

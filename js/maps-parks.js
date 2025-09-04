@@ -1194,6 +1194,14 @@ let parkMaps = [
     },
     {
         name: 'Шуваловский парк',
+        year: 1,
+        url: './maps/parks/shuvalovsky_park_old.webp',
+        link: './original_maps/parks/shuvalovsky_park_old_omaps.jpg',
+        bounds: [[60.084815164281025, 30.28789043426514], [60.08308150550728, 30.320420265197757], [60.069123301827666, 30.285787582397464]],
+        type: ['PARK'],
+    },
+    {
+        name: 'Шуваловский парк',
         year: 1987,
         info: 'Единственная карта авторства Волкова Андрея Владимировича.',
         url: './maps/parks/shuvalovsky_park_1988.webp',

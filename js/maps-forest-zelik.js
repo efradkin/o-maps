@@ -37,6 +37,13 @@ let zelikMaps = [
         author: ['KRCHNKO_S','KRCHNKO_N'],
     },
     {
+        name: 'Ушково',
+        year: 1,
+        url: './maps/forest/zelik/ushkovo_old.webp',
+        link: './original_maps/forest/zelik/ushkovo_old_omaps.jpg',
+        bounds: [[60.24296370356934, 29.553909301757816], [60.2409827550597, 29.599442481994632], [60.2138764651104, 29.549489021301273]],
+    },
+    {
         name: 'Серово',
         year: 1974,
         logo: 'bear_1974.jpg',
@@ -223,6 +230,13 @@ let zelikMaps = [
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1971_omaps.jpg',
         info: '13.09, лично-командное первенство.',
         bounds: [[60.22357507955077, 29.7465991973877], [60.253952596684194, 29.827623367309574], [60.19491858490831, 29.79123115539551]],
+    },
+    {
+        name: 'Ленинское',
+        year: 1,
+        url: './maps/forest/zelik/leninskoe_old.webp',
+        link: './original_maps/forest/zelik/leninskoe_old_omaps.jpg',
+        bounds: [[60.25148254664529, 29.829082489013675], [60.24492323369224, 29.89062309265137], [60.23054352098402, 29.820713996887207]],
     },
     {
         name: 'Озерки',

@@ -82,6 +82,13 @@ let toksovoMaps = [
         author: 'BYMKV',
     },
     {
+        name: 'Ново-Токсово - Топкое оз',
+        year: 1,
+        url: './maps/forest/toksovo/novo_toksovo_topkoe_old.webp',
+        link: './original_maps/forest/toksovo/novo_toksovo_topkoe_old_omaps.jpg',
+        bounds: [[60.24119576602376, 30.564608573913578], [60.239938981314374, 30.595850944519047], [60.2230422631271, 30.562720298767093]],
+    },
+    {
         name: 'Ново-Токсово - оз Лассылампи',
         year: 1984,
         url: './maps/forest/toksovo/lassylampi_1984.webp',
@@ -114,11 +121,18 @@ let toksovoMaps = [
         author: ['MLVA_M','KAZNTSVA_O'],
     },
     {
+        name: 'Кавголово',
+        year: 1,
+        url: './maps/forest/toksovo/kavgolovo_bw.webp',
+        link: './original_maps/forest/toksovo/kavgolovo_bw_omaps.jpg',
+        bounds: [[60.18284295505148, 30.535469055175785], [60.1769315313213, 30.555295944213867], [60.15995962152526, 30.512723922729492]],
+    },
+    {
         name: 'Кавголово, оз Вероярви',
         year: 1975,
         start: 'USSR_V_1975',
         url: './maps/forest/toksovo/kavgolovo_verojarvi_1975.webp',
-        link: './original_maps/forest/toksovo/kavgolovo_verojarvi_1975_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/kavgolovo_verojarvi_1975_clean_omaps.jpg','./original_maps/forest/toksovo/kavgolovo_verojarvi_1975_omaps.jpg'],
         bounds: [[60.17272673046269, 30.53435325622559], [60.169268572114134, 30.619926452636722], [60.142060241359246, 30.52963256835938]],
     },
     {
