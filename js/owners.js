@@ -10,6 +10,9 @@ let owners = {
         name: 'Все карты <a href="https://t.me/beketov">Константина Бекетова</a> можно свободно использовать в некоммерческих целях.',
         rogaine: true
     },
+    BLZRV_V: {
+        name: '© Белозеров Владимир Николаевич',
+    },
     BVZ: {
         name: '© Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru">Tanya-9-8@ya.ru</a>]'
     },
