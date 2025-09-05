@@ -531,6 +531,13 @@ let forestMaps = [
         author: ['VLKV_K','EGRV_A','URVNTSV']
     },
     {
+        name: 'Сарженское оз',
+        year: 1,
+        url: './maps/forest/sarzhenskoe_old.webp',
+        link: './original_maps/forest/sarzhenskoe_old_omaps.jpg',
+        bounds: [[60.24952340894706, 30.157642364501953], [60.24994931841731, 30.23042678833008], [60.20758681939454, 30.16159057617188]],
+    },
+    {
         name: 'Медное оз',
         year: 2001,
         url: './maps/forest/mednoe_svetloe_2001.webp',
