@@ -20,7 +20,7 @@ let specialMaps = [
         author: ['CHGRVSKY_Y','DBRTSV_V','KRPLSN','BSTRV_A','BRSVA_I','GUSEV_I'],
         areas: [40,30,5,5,10,10],
         type: ['WINTER'],
-        qtty: 20
+        qtty: 10
     },
     {
         name: 'Лемболово',
@@ -278,7 +278,6 @@ let specialMaps = [
         bounds: [[60.13809671034381, 29.950232505798343], [60.13726334656544, 29.962935447692875], [60.12847969080049, 29.947400093078617]],
         author: ['SHRNN','KUZNTSV_R'],
         type: ['VELO'],
-        qtty: 10
     },
     {
         name: '69км, ДНТ "Свердловец", Осиновское оз',

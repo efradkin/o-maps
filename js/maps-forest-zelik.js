@@ -103,7 +103,7 @@ let zelikMaps = [
         bounds: [[60.122184363898974, 30.110778808593754], [60.11743802435264, 30.17480850219727], [60.10691667063196, 30.10614395141602]],
         author: 'VSLVSKY',
         owner: 'KSLV_VN',
-        qtty: 20
+        qtty: 10
     },
     {
         name: 'Песочная',
@@ -130,7 +130,7 @@ let zelikMaps = [
         link: './original_maps/forest/zelik/simagino_south_1988_omaps.jpg',
         bounds: [[60.26732170189634, 29.790716171264652], [60.2643843729839, 29.852600097656254], [60.24032241226889, 29.78479385375977]],
         author: 'TRSV',
-        qtty: 20
+        qtty: 10
     },
     {
         name: 'Симагино',
@@ -186,7 +186,6 @@ let zelikMaps = [
         link: './original_maps/forest/zelik/ilychevo_1991_omaps.jpg',
         bounds: [[60.27285508361015, 29.768657684326175], [60.271322856205195, 29.817838668823246], [60.24628631594441, 29.7645378112793]],
         author: 'HSMTLN',
-        qtty: 2
     },
     {
         name: 'Ильичёво',
@@ -297,7 +296,6 @@ let zelikMaps = [
         link: ['./original_maps/forest/zelik/komarovo_repino_2008_omaps.gif','./original_maps/forest/zelik/komarovo_repino_2008_omaps.ocd'],
         bounds: [[60.208738234557096, 29.818310737609867], [60.206414040182864, 29.866847991943363], [60.19133476256005, 29.81449127197266]],
         author: 'FDRV_L',
-        qtty: 2
     },
     {
         name: 'Зеленогорск, т/б "Прибой", оз Щучье',
@@ -359,7 +357,7 @@ let zelikMaps = [
         link: './original_maps/forest/zelik/zelenogorsk_priboy_1992_omaps.jpg',
         bounds: [[60.22736848216193, 29.720420837402347], [60.22250943804349, 29.776210784912113], [60.19709428614133, 29.71140861511231]],
         author: 'BYMKV',
-        qtty: 4
+        qtty: 2
     },
     {
         name: 'Зеленогорск, оз Красавица',
@@ -702,7 +700,6 @@ let zelikMaps = [
         link: './original_maps/forest/zelik/lisy_nos_1986_omaps.jpg',
         bounds: [[60.010678843334446, 30.013790130615238], [60.006281148244774, 30.071082115173343], [59.999372368285684, 30.009799003601078]],
         author: ['FRSHLVA','FRSHLV'],
-        qtty: 8
     },
     {
         name: 'Сестрорецк, Таможенная дорога',

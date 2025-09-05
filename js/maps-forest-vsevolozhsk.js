@@ -18,7 +18,7 @@ let vsevolozhskMaps = [
         link: ['./original_maps/forest/vsevolozhsk/vsevolozhsk_1987_omaps.jpg','./original_maps/forest/vsevolozhsk/vsevolozhsk_1987_2_omaps.jpg'],
         bounds: [[60.06612537100185, 30.623531341552738], [60.06355549916492, 30.683269500732425], [60.03518795591195, 30.62052726745606]],
         author: ['VSLVSKY','MDVDKN'],
-        qtty: 20
+        qtty: 10
     },
     {
         name: 'Невская Дубровка',
@@ -61,7 +61,6 @@ let vsevolozhskMaps = [
         link: ['./original_maps/forest/vsevolozhsk/koltushi_1990_omaps.jpg','./original_maps/forest/vsevolozhsk/voeykovo_1988_omaps.jpg','./original_maps/forest/vsevolozhsk/voeykovo_1989_omaps.jpg'],
         bounds: [[59.9788091403029, 30.66172599792481], [59.97408509169904, 30.740690231323242], [59.92629139661258, 30.648250579833988]],
         author: 'VSLVSKY',
-        qtty: 3
     },
     {
         name: 'Голубая Дача',
@@ -168,7 +167,7 @@ let vsevolozhskMaps = [
         link: './original_maps/forest/vsevolozhsk/melnichny_ruchej_1989_omaps.jpg',
         bounds: [[59.996904597131945, 30.662541389465336], [59.993385022420476, 30.726742744445804], [59.955869724868116, 30.65623283386231]],
         author: 'VSLVSKY',
-        qtty: 10
+        qtty: 2
     },
     {
         name: 'Щеглово',

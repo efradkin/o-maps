@@ -262,7 +262,7 @@ let sosnovoMaps = [
         link: './original_maps/forest/sosnovo/snegirevka_1987_omaps.jpg',
         bounds: [[60.55335503108095, 30.303297042846683], [60.55291197561523, 30.339131355285648], [60.53193374068237, 30.302824974060062]],
         author: ['MLVA_M','KOUKNN_M'],
-        qtty: 7
+        qtty: 3
     },
     {
         name: 'Снегирёвка',
@@ -283,7 +283,7 @@ let sosnovoMaps = [
         link: './original_maps/forest/sosnovo/snegirevka_1988_omaps.jpg',
         bounds: [[60.538562137521424, 30.276474952697757], [60.53816109476326, 30.33908843994141], [60.514490774894206, 30.27467250823975]],
         author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S','KOUKNN_M'],
-        qtty: 20
+        qtty: 10
     },
     {
         name: 'Снегирёвка',

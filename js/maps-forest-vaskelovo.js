@@ -17,7 +17,6 @@ let vaskelovoMaps = [
         link: ['./original_maps/forest/vaskelovo/orekhovo_1988_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_10000_1988_omaps.jpg'],
         bounds: [[60.49600280765954, 30.284757614135742], [60.492430773536746, 30.338530540466312], [60.470144235137965, 30.27694702148438]],
         author: 'BYMKV',
-        qtty: 10
     },
     {
         name: 'Орехово, 67км',
@@ -34,7 +33,7 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/lembolovo_south_west_1991_omaps.jpg',
         bounds: [[60.42791858057857, 30.266990661621097], [60.42228434534471, 30.342006683349613], [60.399610452340696, 30.2589225769043]],
         author: 'BYMKV',
-        qtty: 50
+        qtty: 40
     },
     {
         name: 'Лемболово, с-в',
@@ -44,7 +43,6 @@ let vaskelovoMaps = [
         bounds: [[60.44701687789359, 30.30509948730469], [60.44121658634549, 30.379428863525394], [60.42075912129117, 30.296773910522464]],
         author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
         areas: [62,20,10,5,1,1,1],
-        qtty: 2
     },
     {
         name: 'Лемболово',
@@ -61,7 +59,7 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/orekhovo_1985_omaps.jpg',
         bounds: [[60.47280927607015, 30.260767936706543], [60.469128923883595, 30.337500572204593], [60.442656171363225, 30.255060195922855]],
         author: 'BYMKV',
-        qtty: 100
+        qtty: 90
     },
     {
         name: 'Орехово, Фигурное оз',
@@ -90,7 +88,7 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_east_1991_omaps.jpg',
         bounds: [[60.498581191274454, 30.26767730712891], [60.489619369375575, 30.39178848266602], [60.42410604699255, 30.2479362487793]],
         author: 'BYMKV',
-        qtty: 100
+        qtty: 9-0
     },
     {
         name: 'Лемболово, юг',
@@ -128,7 +126,6 @@ let vaskelovoMaps = [
         link: ['./original_maps/forest/vaskelovo/silande_1992_omaps.jpg','./original_maps/forest/vaskelovo/silande_1991_omaps.jpg'],
         bounds: [[60.42787622155024, 30.223689079284668], [60.4233434866285, 30.286216735839847], [60.37887226479014, 30.210857391357425]],
         author: ['DBRTSV_V','LBDKN','KUZNTSV_V'],
-        qtty: 2
     },
     {
         name: 'оз Силанде',
@@ -191,7 +188,6 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/garbolovo_1991_omaps.jpg',
         bounds: [[60.36440284798612, 30.50259590148926], [60.36198357968282, 30.556669235229496], [60.33718634477972, 30.49736022949219]],
         author: 'VSLVSKY',
-        qtty: 6
     },
     {
         name: 'Гарболово',
@@ -260,7 +256,6 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/kerro_1988_omaps.jpg',
         bounds: [[60.34907778268942, 30.21647930145264], [60.344725169953875, 30.285701751708988], [60.31761974836494, 30.208625793457035]],
         author: 'BYMKV',
-        qtty: 10
     },
     {
         name: 'Васкелово, Киварин руч',
@@ -410,7 +405,6 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_omaps.jpg',
         bounds: [[60.504476888067344, 30.289220809936527], [60.49853892434387, 30.352993011474613], [60.47278812581316, 30.27862071990967]],
         author: ['VSLVSKY','DRBSHV','SHRNN'],
-        qtty: 3
     },
     {
         name: 'Орехово, оз Бол.Борково',

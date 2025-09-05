@@ -8,7 +8,7 @@ let michuraMaps = [
         link: './original_maps/forest/michura/michurinskoe_1989_omaps.jpg',
         bounds: [[60.633300851533505, 29.859809875488285], [60.61957621993714, 30.004177093505863], [60.56976490459024, 29.835605621337894]],
         author: 'BYMKV',
-        qtty: 100
+        qtty: 90
     },
     {
         name: 'Ягодное',
@@ -37,7 +37,6 @@ let michuraMaps = [
         bounds: [[60.6256393540837, 29.92907524108887], [60.61978676452859, 30.005121231079105], [60.58578707547604, 29.915943145751957]],
         author: ['BYMKV','PVLV_M','GRBTNKV','VNGRDV_K','SMNV_K','BKKLV','NKSHN','CHRNV_G','SKBLV_A'],
         areas: [55,5,10,5,5,5,5,5,5],
-        qtty: 10
     },
     {
         name: 'Мичуринское',
@@ -47,7 +46,7 @@ let michuraMaps = [
         bounds: [[60.6080783992359, 29.91233825683594], [60.600958647299585, 29.997868537902836], [60.57048185567935, 29.898004531860355]],
         author: ['BYMKV','PVLV_M','GRBTNKV','VNGRDV_K','SMNV_K','BKKLV','NKSHN'],
         areas: [65,10,5,5,5,5,5],
-        qtty: 10
+        qtty: 7
     },
     {
         name: 'Журавлёвское оз',

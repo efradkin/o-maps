@@ -181,7 +181,7 @@ let forestMaps = [
         link: './original_maps/forest/yukki_1990_omaps.jpg',
         bounds: [[60.14936641593736, 30.269308090209964], [60.14577762073669, 30.33608436584473], [60.11012475663832, 30.2589225769043]],
         author: 'SHLKHN_Y',
-        qtty: 30
+        qtty: 20
     },
     {
         name: 'Юкки, север',
@@ -242,7 +242,7 @@ let forestMaps = [
         link: './original_maps/forest/sertolovo_1988_omaps.jpg',
         bounds: [[60.15966066656816, 30.20429134368897], [60.158550238634156, 30.229396820068363], [60.1384279131624, 30.199613571166996]],
         author: 'IVNVA_I',
-        qtty: 30
+        qtty: 20
     },
     {
         name: 'Сертолово',
@@ -311,7 +311,7 @@ let forestMaps = [
         link: './original_maps/forest/vartemjagi_1990_omaps.jpg',
         bounds: [[60.162287106404065, 30.295014381408695], [60.16510549128062, 30.34574031829834], [60.13069185421074, 30.301022529602054]],
         author: ['SHLKHN_Y','BZNV_A'],
-        qtty: 30
+        qtty: 20
     },
     {
         name: 'Вартемяги, север',
