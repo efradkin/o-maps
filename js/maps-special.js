@@ -12,6 +12,16 @@ let specialMaps = [
         type: ['WINTER']
     },
     {
+        name: 'Токсово, запад Хепоярви',
+        year: 1987,
+        url: './maps/winter/toksovo_hepojarvi_west_winter_1987.webp',
+        link: './original_maps/winter/toksovo_hepojarvi_west_winter_1987_omaps.jpg',
+        bounds: [[60.19773417081921, 30.53461074829102], [60.193894675595104, 30.595893859863285], [60.140692823704896, 30.51890373229981]],
+        author: ['CHGRVSKY_V','BRNVA','KRPLSN','SMNA','CHKVSKY_N','DBRTSV_V','GRSMVA','BSTRV_A','PTRNNA','KRNLJV','CHGRVSKY_Y'],
+        areas: [50,3,2,2,3,10,2,3,2,3,20],
+        type: ['WINTER']
+    },
+    {
         name: 'Токсово',
         year: 1989,
         url: './maps/winter/toksovo_winter_1989.webp',

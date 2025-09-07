@@ -1911,7 +1911,7 @@ let cityMaps = [
         year: 2025,
         url: './maps/city/petrovsky_stadium_2025.webp',
         link: ['./original_maps/city/petrovsky_stadium_2025_omaps.gif','./original_maps/city/petrovsky_stadium_2025_omaps.ocd'],
-        bounds: [[59.95391441465639, 30.281217098236088], [59.95302266894879, 30.28516530990601], [59.95222759832616, 30.280036926269535]],
+        bounds: [[59.953935902208705, 30.281265377998352], [59.95297163458303, 30.285245776176456], [59.95235652999307, 30.279940366745]],
         author: ['BLZRV_V','GLTV_Y'],
         owner: ['BLZRV_V','GLTV_YU'],
         type: ['CITY']
