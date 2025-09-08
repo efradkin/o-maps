@@ -12,4 +12,16 @@ let otherStartsMaps = [
         bounds: [[59.99709773368789, 30.673484802246097], [59.994565409324075, 30.720434188842777], [59.96669704655032, 30.668506622314457]],
         author: ['VSLVSKY','DRBSHV','PTRV_A']
     },
+    {
+        name: 'Симагино',
+        region: 'starts',
+        start: 'REPORT',
+        year: 1988,
+        info: '7-8.10. День Конституции СССР. <a href="./docs/simagino_1988_10_07/doc_4_omaps.jpg">Информация</a>, <a href="./docs/simagino_1988_10_07/doc_3_omaps.jpg">положение</a>, <a href="./docs/simagino_1988_10_07/doc_5_omaps.jpg">7.10,МА(10км)</a>, <a href="./docs/simagino_1988_10_07/doc_6_omaps.jpg">9.10,МА(11км)</a>, <a href="./docs/simagino_1988_10_07/doc_7_omaps.jpg">7.10,ЖА(8км)</a>, <a href="./docs/simagino_1988_10_07/doc_8_omaps.jpg">8.10,ЖА(7км)</a>',
+        url: './maps/starts/other/simagino_1988_10_07.webp',
+        link: ['./docs/simagino_1988_10_07/doc_1_omaps.jpg','./docs/simagino_1988_10_07/doc_2_omaps.jpg'],
+        docs: ['simagino_1988_10_07', 8],
+        bounds: [[60.292342158509875, 29.789428710937504], [60.290598155553795, 29.840326309204105], [60.256848280136865, 29.78427886962891]],
+        author: 'TRSV'
+    },
 ];

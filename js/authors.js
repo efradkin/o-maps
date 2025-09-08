@@ -82,8 +82,8 @@ let authors = {
     DJKV: { name: 'Дьяков А.' },
     DRBSHV: {
         name: 'Дробышев Сергей',
-        about: 'https://o-site.spb.ru/history/Peoples/sedr.html'
-        info: '<a href="https://o-site.spb.ru/misc/2023/Drobyshev_rip.pdf">Памяти Сергея Дробышева</a>',
+        about: 'https://o-site.spb.ru/history/Peoples/sedr.html',
+        info: '<a href="https://o-site.spb.ru/misc/2023/Drobyshev_rip.pdf">Памяти Сергея Дробышева</a>'
     },
     DRKHV: { name: 'Дорохов В.' },
     DRSVNA: { name: 'Дресвина Е.' },
