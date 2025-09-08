@@ -354,7 +354,7 @@ let runTracks = [
         type: ['RUN']
     },
     {
-        name: 'Красный холм, Царь скалы',
+        name: 'Красный холм, "Царь скалы"',
         year: 2022,
         date: '11.06',
         link: 'https://o-nw.ru/rlt-rock',
@@ -369,7 +369,7 @@ let runTracks = [
         type: ['RUN']
     },
     {
-        name: 'Каменногорск, Скальный трейл',
+        name: 'Каменногорск, "Скальный трейл"',
         year: 2024,
         date: '15.06',
         link: 'https://o-nw.ru/rlt-rock',
@@ -385,7 +385,7 @@ let runTracks = [
         type: ['RUN']
     },
     {
-        name: 'Пруды, Скальный трейл',
+        name: 'Пруды, "Скальный трейл"',
         year: 2025,
         date: '14.06',
         link: 'https://o-nw.ru/rlt-rock',
@@ -401,7 +401,7 @@ let runTracks = [
         type: ['RUN']
     },
     {
-        name: 'Яппиля, Весенний трейл',
+        name: 'Яппиля, "Весенний трейл"',
         year: 2025,
         date: '26.04',
         link: 'https://o-nw.ru/rlt-spring',
@@ -409,6 +409,21 @@ let runTracks = [
         info: 'Индивидуальная дистанция (М) в рамках эстафетных соревнований.',
         gpx: {
             'M':'tracks/run/yappilya_rlt_2025_m_omaps.gpx',
+        },
+        start: 'RLT',
+        type: ['RUN']
+    },
+    {
+        name: 'Цвелодубово, "Болотный трейл"',
+        year: 2025,
+        date: '6.09',
+        link: 'https://o-nw.ru/rlt-swamp',
+        results: 'https://reg.o-time.ru/race/25159',
+        info: 'Мягкий мох и болотные кочки под ногами, уникальные пейзажи и адреналин — всё это Болотный трейл! 5-16 км.',
+        gpx: {
+            'L':'tracks/run/zvelodubovo_bolotny_rlt_2025_l_omaps.gpx',
+            'M':'tracks/run/zvelodubovo_bolotny_rlt_2025_m_omaps.gpx',
+            'S':'tracks/run/zvelodubovo_bolotny_rlt_2025_s_omaps.gpx',
         },
         start: 'RLT',
         type: ['RUN']

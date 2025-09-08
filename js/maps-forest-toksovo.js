@@ -471,7 +471,7 @@ let toksovoMaps = [
         owner: 'SHEIN'
     },
     {
-        name: 'Токсово, оз Светлое',
+        name: 'Токсово, оз Изумрудное',
         year: 1984,
         url: './maps/forest/toksovo/toksovo_svetloe_1984.webp',
         link: './original_maps/forest/toksovo/toksovo_svetloe_1984_omaps.jpg',
