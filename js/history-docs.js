@@ -47,6 +47,12 @@ let historyDocs = [
         links: ['mruchey_1983_09_17', 6]
     },
     {
+        name: '7-8.10. День Конституции СССР',
+        year: 1988,
+        info: '<a href="./docs/simagino_1988_10_07/doc_4_omaps.jpg">Информация</a>, <a href="./docs/simagino_1988_10_07/doc_3_omaps.jpg">положение</a>, <a href="./docs/simagino_1988_10_07/doc_5_omaps.jpg">7.10,МА(10км)</a>, <a href="./docs/simagino_1988_10_07/doc_6_omaps.jpg">9.10,МА(11км)</a>, <a href="./docs/simagino_1988_10_07/doc_7_omaps.jpg">7.10,ЖА(8км)</a>, <a href="./docs/simagino_1988_10_07/doc_8_omaps.jpg">8.10,ЖА(7км)</a>.',
+        links: ['simagino_1988_10_07', 8]
+    },
+    {
         name: '21,27.04. Открытие сезона ЛГС ДСО "Спартак"',
         year: 1985,
         info: 'Протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',
