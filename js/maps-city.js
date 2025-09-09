@@ -1916,4 +1916,14 @@ let cityMaps = [
         owner: ['BLZRV_V','GLTV_YU'],
         type: ['CITY']
     },
+    {
+        name: 'Кировск',
+        year: 2025,
+        url: './maps/city/kirovsk_2025.webp',
+        link: './original_maps/city/kirovsk_2025_omaps.jpg',
+        bounds: [[59.89022865212811, 30.98901987075806], [59.8891414280444, 31.00320339202881], [59.88488907142484, 30.987710952758793]],
+        author: 'YGNV',
+        owner: 'NKLSK',
+        type: ['CITY']
+    },
 ];
