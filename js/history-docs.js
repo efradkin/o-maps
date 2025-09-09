@@ -53,6 +53,12 @@ let historyDocs = [
         links: ['simagino_1988_10_07', 8]
     },
     {
+        name: '6-7.10. "Дыхание осени" на День Конституции СССР',
+        year: 1990,
+        info: '<a href="./docs/sosnovo_1990_10_06/doc_3_omaps.jpg">Положение</a>, <a href="./docs/sosnovo_1990_10_06/doc_4_omaps.jpg">МА</a>. Карты можно найти <a href="map-info.html?map=sosnovo_1990_10_06">тут</a>.',
+        links: ['sosnovo_1990_10_06', 4]
+    },
+    {
         name: '21,27.04. Открытие сезона ЛГС ДСО "Спартак"',
         year: 1985,
         info: 'Протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',

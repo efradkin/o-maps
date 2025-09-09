@@ -24,4 +24,16 @@ let otherStartsMaps = [
         bounds: [[60.292342158509875, 29.789428710937504], [60.290598155553795, 29.840326309204105], [60.256848280136865, 29.78427886962891]],
         author: 'TRSV'
     },
+    {
+        name: 'Сосново',
+        region: 'starts',
+        start: 'REPORT',
+        year: 1990,
+        info: '6-7.10. "Дыхание осени", ко Дню Конституции СССР. <a href="./docs/sosnovo_1990_10_06/doc_3_omaps.jpg">Положение</a>, <a href="./docs/sosnovo_1990_10_06/doc_4_omaps.jpg">МА</a>',
+        url: './maps/starts/other/sosnovo_1990_10_06.webp',
+        link: ['./docs/sosnovo_1990_10_06/doc_1_omaps.jpg','./docs/sosnovo_1990_10_06/doc_2_omaps.jpg'],
+        docs: ['sosnovo_1990_10_06', 4],
+        bounds: [[60.54250897743518, 30.23574829101563], [60.53968080947751, 30.292267799377445], [60.50912506848012, 30.228023529052738]],
+        author: 'TRSV'
+    },
 ];
