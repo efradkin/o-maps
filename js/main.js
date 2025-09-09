@@ -285,7 +285,7 @@ if (mapElement) {
             if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN') || mapType.includes('FOTO'))) {
                 activeLayers.push(funGroup, rogaineGroup);
             } else
-            if (m.year && m.year < 2000 && !isNull(groupRetro)) {
+            if (m.year && m.year < 2000 && (typeof groupRetro !== 'undefined')) {
                 activeLayers.push(groupRetro, group90th);
             }
         }
