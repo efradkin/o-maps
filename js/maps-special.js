@@ -19,7 +19,8 @@ let specialMaps = [
         bounds: [[60.19773417081921, 30.53461074829102], [60.193894675595104, 30.595893859863285], [60.140692823704896, 30.51890373229981]],
         author: ['CHGRVSKY_V','BRNVA','KRPLSN','SMNA','CHKVSKY_N','DBRTSV_V','GRSMVA','BSTRV_A','PTRNNA','KRNLJV','CHGRVSKY_Y'],
         areas: [50,3,2,2,3,10,2,3,2,3,20],
-        type: ['WINTER']
+        type: ['WINTER'],
+        qtty: 20
     },
     {
         name: 'Токсово',

@@ -59,7 +59,7 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/orekhovo_1985_omaps.jpg',
         bounds: [[60.47280927607015, 30.260767936706543], [60.469128923883595, 30.337500572204593], [60.442656171363225, 30.255060195922855]],
         author: 'BYMKV',
-        qtty: 90
+        qtty: 300
     },
     {
         name: 'Орехово, Фигурное оз',
@@ -88,7 +88,7 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_east_1991_omaps.jpg',
         bounds: [[60.498581191274454, 30.26767730712891], [60.489619369375575, 30.39178848266602], [60.42410604699255, 30.2479362487793]],
         author: 'BYMKV',
-        qtty: 9-0
+        qtty: 200
     },
     {
         name: 'Лемболово, юг',
@@ -116,7 +116,7 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_1991_omaps.jpg',
         bounds: [[60.45539795142459, 30.237550735473636], [60.450615078418, 30.296087265014652], [60.426181815162266, 30.229568481445316]],
         author: 'BYMKV',
-        qtty: 200
+        qtty: 600
     },
     {
         name: 'оз Силанде',

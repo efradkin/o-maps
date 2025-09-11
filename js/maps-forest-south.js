@@ -41,7 +41,7 @@ let southMaps = [
         link: './original_maps/forest/south/sablino_1992_omaps.jpg',
         bounds: [[59.67734027291342, 30.76103210449219], [59.6750435315491, 30.801458358764652], [59.65443081951741, 30.75407981872559]],
         author: 'DRBSHV',
-        qtty: 90
+        qtty: 100
     },
     {
         name: 'Ульяновка, Саблино',
@@ -360,7 +360,7 @@ let southMaps = [
         link: ['./original_maps/forest/south/shapki_1991_full_1.jpg','./original_maps/forest/south/shapki_1991_full_2.jpg','./original_maps/forest/south/shapki_1991_full_3.jpg'],
         bounds: [[59.63005202750804, 31.123924255371097], [59.62501790078504, 31.19928359985352], [59.59562263666977, 31.11611366271973]],
         author: 'KRCHKN_V',
-        qtty: 90
+        qtty: 200
     },
     {
         name: 'Шапки',
