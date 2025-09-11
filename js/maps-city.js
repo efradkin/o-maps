@@ -285,11 +285,25 @@ let cityMaps = [
         name: 'М "Нарвская"',
         year: 2015,
         url: './maps/city/narvskaya_2016.webp',
+        link: './original_maps/city/narvskaya_2016_omaps.jpg',
         bounds: [[59.89892516416984, 30.259094238281254], [59.89888211773708, 30.27570247650147], [59.893479347569645, 30.259008407592777]],
         start: 'ST',
         owner: 'KUZM',
         type: ['CITY'],
         author: 'ZSLNKN'
+    },
+    {
+        name: 'М "Нарвская", Ушаковский сквер',
+        year: 2025,
+        date: '10.09',
+        url: './maps/city/narvskaya_2025.webp',
+        link: './original_maps/city/narvskaya_2025_omaps.gif',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23375/',
+        bounds: [[59.90039947081465, 30.260939598083496], [59.89875297810411, 30.27718305587769], [59.89376995717028, 30.25797843933106]],
+        start: 'ST',
+        owner: 'KUZM_CHGRVSKY',
+        type: ['CITY'],
+        author: 'ZCHNV'
     },
     {
         name: 'М "Новочеркасская"',
