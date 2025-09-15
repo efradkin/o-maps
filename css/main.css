@@ -28,6 +28,17 @@ a, a:active, a:focus {
     text-align: center;
     margin: 30px 0 10px 0;
 }
+
+.banners {
+    text-align: center;
+    h3 {
+        text-align: center !important;
+    }
+    img {
+        margin: 20px;
+    }
+}
+
 .help-body section {
     background-color: beige;
     padding: 25px;
