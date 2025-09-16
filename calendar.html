@@ -107,6 +107,7 @@
 
     <script src="js/calendar-2025.js"></script>
 
+    <script src="js/owners.js"></script>
     <script src="js/starts.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/utils-common.js"></script>
@@ -169,6 +170,9 @@
 
             // Изначальный рендеринг таблицы
             renderMapsTable();
+
+            const firstCurrent = document.querySelector('.current');
+            firstCurrent.scrollIntoView();
         }
 
         // Ссылка на тело таблицы
@@ -184,7 +188,6 @@
                 const row = document.createElement('tr');
                 let date = new Date(event.date);
                 let now = new Date();
-                console.log(event, date - now)
                 if (date < now) {
                     row.classList.add('disabled');
                 } else {
@@ -198,9 +201,9 @@
                     row.classList.add('rogaine');
                 }
                 td(event, row, i + 1);
-                td(event, row, formatDateToRussian(event.date)); //buildYear(event)
+                td(event, row, buildDate(event));
                 td(event, row, buildName(event));
-                td(event, row, event.place ?? '');
+                td(event, row, buildPlace(event));
                 td(event, row, buildType(event));
                 td(event, row, event.fmt ?? '');
                 td(event, row, buildReg(event));
@@ -218,7 +221,7 @@
             row.appendChild(td);
         }
 
-        function formatDateToRussian(dateString) {
+        function buildDate(event) {
             var days = [
                 'ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'
             ];
@@ -227,26 +230,50 @@
                 'ИЮЛ', 'АВГ', 'СЕН', 'ОКТ', 'НОЯ', 'ДЕК'
             ];
 
-            const date = new Date(dateString);
+            const date = new Date(event.date);
             const day = date.getDate();
             const month = months[date.getMonth()];
             //const year = date.getFullYear();
             const dayWeek = days[date.getDay()];
 
-            return `${day} ${month} (${dayWeek})`; // ${year}
+            let result = day;
+            if (event.endDate) {
+                result += '-' + new Date(event.endDate).getDate();
+            }
+            result += ` ${month} (${dayWeek})`
+            return result;
         }
 
         function buildName(event) {
             let result = '';
-/*
-            if (event.logo) {
-                result += '<img src="./logo/' + event.logo + '" alt="" class="sheet-icon" /> ';
+
+            let logo;
+            if (event.start && starts[event.start].logo) {
+                logo = starts[event.start].logo;
+            } else if (event.owner && owners[event.owner].logo) {
+                logo = owners[event.owner].logo;
             }
-*/
+            if (logo) {
+                result += '<img src="./logo/' + logo + '" alt="" class="sheet-icon" /> ';
+            }
+
             if (event.link) {
                 result += buildLink(event.link, event.name);
             } else {
-                result += event.name;
+                if (event.start && starts[event.start].link) {
+                    result += buildLink(starts[event.start].link, event.name);
+                } else {
+                    result += event.name;
+                }
+            }
+            return result;
+        }
+
+        function buildPlace(event) {
+            if (event.map) {
+                return  buildLink('spb.html?map=' + event.map, event.place + ' 🗺️', 'Карта на o-Maps');
+            } else {
+                return event.place ?? '';
             }
             return result;
         }
@@ -300,7 +327,10 @@
                 case 'MULTI': return 'Мульти';
                 case 'TOURISM': return 'Кросс-поход';
             }
-            return 'Лыжный рогейн';
+            if (event.type.includes('SKI')) {
+                return 'Лыжный рогейн';
+            }
+            return 'Рогейн, Ориент';
         }
 
         function selectEventType(type) {

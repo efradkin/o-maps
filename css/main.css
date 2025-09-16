@@ -591,6 +591,10 @@ body.integration-body {
 }
 .disabled {
     color: grey;
+    a {
+        color: grey;
+        text-decoration: underline dotted;
+    }
 }
 .current {
     font-weight: bold;

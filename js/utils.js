@@ -123,6 +123,9 @@ function buildLink(link, content, title) {
         if (Array.isArray(link)) {
             link = link[0];
         }
+        if (title) {
+            title = ' title="' + title + '"';
+        }
         return '<a href="' + link + '"' + (title ?? '') + '">' + content + '</a>';
     }
     else

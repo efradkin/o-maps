@@ -71,6 +71,7 @@ let starts = {
     ST: {
         short: 'Спринт-Тур',
         name: '<a href="https://vk.com/sprinttourspb">Спринт-Тур</a>',
+        link: 'https://vk.com/sprinttourspb',
         logo: 'st.jpg'
     },
     '100X24': {
@@ -99,6 +100,11 @@ let starts = {
         name: '<a href="https://vk.com/club21533513">Кубок Коротких Маршрутов</a>',
         logo: 'kkm.jpg',
         info: '<p>Кубок коротких маршрутов – соревнования, в которых команды за 3 часа должны набрать наибольшее число очков за прохождение по выбору контрольных пунктов (КП) из числа обозначенных на карте. Каждое КП имеет стоимость в очках.'
+    },
+    ROGAINE_110: {
+        short: '110%',
+        name: '<a href="https://vk.com/rogaine110">Рогейн 110%</a>',
+        link: 'https://vk.com/rogaine110'
     },
     VO_FOTO: {
         short: 'Фотоориентирование на ВО',

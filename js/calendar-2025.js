@@ -70,7 +70,7 @@ let events_2025 =
     }, {
         date: '2025-04-26',
         place: 'Луга, оз. Омчино',
-        name: 'Short Rogain Cup /1 этап (КЛО)',
+        name: 'Кубок Коротких Рогейнов #1 (КЛО)',
         fmt:  '4',
         type: 'ROGAINE',
         link: 'https://vk.com/event166397868',
@@ -88,6 +88,33 @@ let events_2025 =
         res: 'https://o-site.spb.ru/_races/250502R/250502R_res.pdf',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22439/'
     }, {
+        date: '2025-05-08',
+        place: 'Стеклянный',
+        name: 'Кубок Белых Ночей #12',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250508_bn',
+        reg: 'http://orgeo.ru/event/43588',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22572/',
+        owner: 'WN'
+    }, {
+        date: '2025-05-11',
+        place: 'Манеж Алексеева',
+        name: 'ЧиП СПб',
+        fmt: 'спринт',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250511_sprint',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1666',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22533/',
+        owner: 'SFSO_SPB'
+    }, {
+        date: '2025-05-11',
+        place: 'Мичуринское',
+        name: 'Кубок Белых Ночей #13',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250511_bn',
+        reg: 'http://orgeo.ru/event/info/43589',
+        owner: 'WN'
+    }, {
         date: '2025-05-11',
         place: 'Луга, ст. Луга-2',
         name: 'Лужский меридиан',
@@ -97,13 +124,105 @@ let events_2025 =
         res: 'https://vk.com/wall-91656163_2573',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22558/'
     }, {
+        date: '2025-05-15',
+        place: 'Юкки',
+        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=25_KS',
+        reg: 'https://orgeo.ru/event/43174',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22595/',
+        owner: 'KUZM'
+    }, {
+        date: '2025-05-17',
+        place: 'Всеволожск, парк Песчанка',
+        name: 'ЧиП ЛО',
+        type: 'ORIENT',
+        fmt: 'эстафета 4х',
+        link: 'https://o-site.spb.ru/race.php?id=250517_LO',
+        map: 'vsevolozhsk_peschanka_2021'
+    }, {
+        date: '2025-05-17',
+        place: 'Пушкин, Баболовский парк',
+        name: 'Царскосельский азимут',
+        type: 'ORIENT',
+        fmt: 'выбор',
+        link: 'https://o-site.spb.ru/race.php?id=250517',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22607/',
+        owner: 'EGRV_EGR',
+        map: 'kanneljarvi_2023'
+    }, {
+        date: '2025-05-18',
+        place: 'Каннельярви',
+        name: 'ЧиП СПб',
+        type: 'ORIENT',
+        fmt: 'масстарт',
+        link: 'https://o-site.spb.ru/race.php?id=250518_PSPb',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22611/',
+        owner: 'SFSO_SPB',
+        map: 'kanneljarvi_2023'
+    }, {
+        date: '2025-05-21',
+        place: 'М"Удельная", Гданьская ул',
+        name: 'СПРИНТ ТУР #2',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/43938',
+        res: 'https://reskeep.ru/event/get?id=688',
+        start: 'ST'
+    }, {
+        date: '2025-05-22',
+        place: 'Новотоксово, ВИФК',
+        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=25_KS',
+        reg: 'http://orgeo.ru/event/43177',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22660/',
+        owner: 'KUZM'
+    }, {
         date: '2025-05-24',
         place: 'Бородинское',
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         link: ['https://t.me/pmarshbrosok','https://vk.com/mbrosok'],
         reg: 'https://orgeo.ru/event/40845',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22700/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22700/',
+        start: 'MB'
+    }, {
+        date: '2025-05-24',
+        endDate: '2025-05-25',
+        place: 'Выборг, река Петровка',
+        name: 'Выборгская Тройка',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250524-25_VTR',
+        reg: 'http://sportident.online/entry/?inf&id=6573',
+        owner: 'VYBORG'
+    }, {
+        date: '2025-05-28',
+        place: 'М"Пионерская", аллея Поликарпова',
+        name: 'СПРИНТ ТУР #3',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/info/44070',
+        res: 'https://reskeep.ru/event/get?id=703',
+        start: 'ST'
+    }, {
+        date: '2025-05-29',
+        place: 'Вартемяги',
+        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=25_KS',
+        reg: 'http://orgeo.ru/event/43177',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22829/',
+        owner: 'KUZM'
+    }, {
+        date: '2025-05-31',
+        place: 'Александрино',
+        name: 'Российский Азимут ',
+        fmt: 'спринт',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250531_RA',
+        reg: 'https://o-site.spb.ru/race.php?id=250531_RA',
+        map: 'aleksandrino_1986'
     }, {
         date: '2025-05-31',
         place: 'ст. Куолемаярви',
@@ -112,7 +231,8 @@ let events_2025 =
         type: 'ROGAINE',
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/info/40559',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22755/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22755/',
+        start: 'BA'
     }, {
         date: '2025-05-31',
         place: 'Кузнечное',
@@ -124,15 +244,77 @@ let events_2025 =
         res: 'https://o-site.spb.ru/_races/250531R/250531R_res.pdf',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22757/'
     }, {
+        date: '2025-05-31',
+        place: 'Петергоф, Английский парк',
+        name: 'Кольцо Юго-Запада',
+        fmt: '1',
+        type: 'ROGAINE',
+        link: 'https://vk.com/wall-199133936_3955',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22733/'
+    }, {
+        date: '2025-05-31',
+        place: 'Калелово',
+        name: 'Кубок Белых Ночей #14',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/44184',
+        map: 'vorontsovskoe_simagino_2021',
+        owner: 'WN'
+    }, {
+        date: '2025-06-01',
+        place: 'Орехово',
+        name: 'Кубок D2RUN #2',
+        type: 'ORIENT',
+        fmt: 'эстафета 2х2',
+        link: 'https://o-site.spb.ru/race.php?id=250601_D2RUN_2',
+        reg: 'http://orgeo.ru/event/43859',
+        map: 'orekhovo_borkovo_2024',
+        owner: 'DLT'
+    }, {
+        date: '2025-06-01',
+        place: 'Симагино',
+        name: 'Кубок Белых Ночей #15',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/44185',
+        map: 'ilychevo-simagino_2015',
+        owner: 'WN'
+    }, {
+        date: '2025-06-05',
+        place: 'Кавголово, Динамо',
+        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=25_KS',
+        reg: 'http://orgeo.ru/event/43177',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22827/',
+        owner: 'KUZM'
+    }, {
+        date: '2025-06-07',
+        endDate: '2025-06-08',
+        place: 'Вещево',
+        name: 'ЧиП СПб',
+        type: 'ORIENT',
+        fmt: 'классика, эстафета 3х',
+        link: 'https://o-site.spb.ru/race.php?id=250608_Ch_P',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22800/',
+        owner: 'SFSO_SPB',
+        map: 'veschevo_2021'
+    }, {
         date: '2025-06-08',
         place: 'Сосново',
         name: 'Рогейн 110%',
         fmt:  '3',
         type: 'ROGAINE',
-        link: 'https://vk.com/rogaine110  ',
         reg: 'https://orgeo.ru/event/44176',
         res: 'https://vk.com/rogaine110?w=wall-197270357_1119',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22822/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22822/',
+        start: 'ROGAINE_110'
+    }, {
+        date: '2025-06-12',
+        endDate: '2025-06-14',
+        place: 'Лосево',
+        name: 'Невский Азимут',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250614',
+        start: 'NA',
     }, {
         date: '2025-06-13',
         place: 'Гвардейское',
@@ -141,7 +323,8 @@ let events_2025 =
         type: 'MULTI',
         link: 'https://adventure-race.redfox.ru/docs/rules/',
         reg: 'https://adventure-race.redfox.ru/applications/',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22778/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22778/',
+        start: 'RFAR'
     }, {
         date: '2025-07-05',
         place: 'Орехово',
@@ -156,35 +339,109 @@ let events_2025 =
         place: 'Мичуринское',
         name: 'Мичуринский рогейн',
         fmt: '4, 8',
-        type: 'ROGAINE',
+        type: ['ROGAINE','ORIENT'],
         link: 'https://o-site.spb.ru/race.php?id=2025_michura_rog',
         reg: 'https://orgeo.ru/event/info/michura_rog_2025',
         res: 'https://o-site.spb.ru/_races/250705_bn/250706_res.htm',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23067/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23067/',
+        owner: 'WN'
+    }, {
+        date: '2025-07-12',
+        place: 'Токсово, СКА',
+        name: 'Dлительная серия #5',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250712_Dlit_5',
+        reg: 'http://orgeo.ru/event/44871',
+        owner: 'DLT',
+        map: 'toksovo_ska_2014'
+    }, {
+        date: '2025-07-08',
+        place: 'Парк Интернационалистов',
+        name: 'Физкультурное мероприятие',
+        type: 'ORIENT',
+        link: 'https://vk.com/wall-30686281_22293',
+    }, {
+        date: '2025-07-12',
+        endDate: '2025-07-13',
+        place: 'Койонсаари остров',
+        name: 'Летнее Первенство Белых Ночей',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250712_bn',
+        reg: 'http://orgeo.ru/event/44811',
+        owner: 'WN',
+        map: 'koyonsaari_2024'
+    }, {
+        date: '2025-07-13',
+        place: 'Лупполово',
+        name: 'Dлительная серия #6',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250713_Dlit_6',
+        reg: 'http://orgeo.ru/event/44872',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23094/',
+        owner: 'DLT',
+        map: 'luppolovo_2022'
     }, {
         date: '2025-07-20',
         place: 'Вартемяги/Юкки',
         name: 'Рогейн 110 (КЛО)',
         fmt:  '3',
         type: 'ROGAINE',
-        link: 'https://vk.com/rogaine110  ',
         reg: 'https://orgeo.ru/event/44984',
         res: 'https://vk.com/wall-197270357_1137',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23127/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23127/',
+        start: 'ROGAINE_110'
+    }, {
+        date: '2025-07-20',
+        place: 'Стеклянный, оз Силанде',
+        name: 'Перспектива',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250720_p',
+        reg: 'http://orgeo.ru/event/45019',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23126/'
     }, {
         date: '2025-07-26',
         place: 'Луга, оз. Раковическое',
-        name: '6-й Лужский приключенческий рогейн:  перезагрузка',
+        name: 'Лужский приключенческий рогейн',
         fmt: '6, 16',
         type: 'ROGAINE',
         link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/info/40554',
         res: 'https://vk.com/wall-166397868_4941',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23164/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23164/',
+        any: 'Винни-Пух...ing'
+    }, {
+        date: '2025-08-02',
+        place: 'Барышево',
+        name: 'Кубок Белых Ночей #16',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250802_bn',
+        reg: 'http://orgeo.ru/event/45276',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23174/',
+        map: 'baryshevo_2015',
+        owner: 'WN'
+    }, {
+        date: '2025-08-03',
+        place: 'Смоляное оз',
+        name: 'Кубок Белых Ночей #17',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250802_bn',
+        reg: 'http://orgeo.ru/event/info/45265',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23177/',
+        map: 'smoljanoe_2015',
+        owner: 'WN'
+    }, {
+        date: '2025-08-05',
+        place: 'М"Чёрная Речка"',
+        name: 'СПРИНТ ТУР #4',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/45316',
+        res: 'https://reskeep.ru/event/get?id=713',
+        start: 'ST'
     }, {
         date: '2025-08-09',
-        place: 'Луга, оз. Штоль',
-        name: 'Short Rogain Cup /3 этап',
+        place: 'Луга, Шалово',
+        name: 'Кубок Коротких Рогейнов #3',
         fmt:  '4',
         type: 'ROGAINE',
         link: ['https://vk.com/event166397868','https://t.me/lugarogein'],
@@ -198,7 +455,16 @@ let events_2025 =
         fmt: 'выбор',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250809_history',
-        reg: 'https://orgeo.ru/event/info/44975'
+        reg: 'https://orgeo.ru/event/info/44975',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23203/'
+    }, {
+        date: '2025-08-09',
+        endDate: '2025-08-10',
+        place: 'Первомайское, Семейные оз',
+        name: '«Яркий Кубок» и «Техника и Тактика»',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=25080910',
+        start: 'YM'
     }, {
         date: '2025-08-16',
         place: 'Яппиля',
@@ -208,7 +474,37 @@ let events_2025 =
         link: 'https://hardadventure.ru/swamp2025',
         reg: 'https://reg.o-time.ru/race/25450',
         res: 'https://hardrogaine.ru/2025/HR_Swamp_results.htm',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23251/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23251/',
+        start: 'HARD'
+    }, {
+        date: '2025-08-17',
+        place: 'Ягодное, Раздельные оз',
+        name: 'Кубок Белых Ночей #18',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/info/45477',
+        res: 'https://t.me/whitenightesspb/557',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23260/',
+        owner: 'WN'
+    }, {
+        date: '2025-08-23',
+        endDate: '2025-08-24',
+        place: 'Орехово',
+        name: 'Transbiotech O-Weekend',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250823-24',
+        reg: ['http://orgeo.ru/event/45172','http://orgeo.ru/event/info/45167'],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23280/',
+        owner: 'DLT',
+        map: 'orekhovo_south_2021'
+    }, {
+        date: '2025-08-24',
+        place: 'Лейпясуо',
+        name: 'Tokma-maps',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250824_Tokma',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1690',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23280/',
+        owner: 'VYBORG'
     }, {
         date: '2025-08-30',
         place: 'Сарженское озеро',
@@ -216,13 +512,84 @@ let events_2025 =
         fmt:  '4',
         type: 'ROGAINE',
         link: 'https://www.multsport.ru/starts/klo-sar-25/',
-        reg: 'https://www.multsport.ru/starts/klo-sar-25/registration.html'
+        reg: 'https://www.multsport.ru/starts/klo-sar-25/registration.html',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23326/'
+    }, {
+        date: '2025-08-30',
+        place: 'Пухтолова гора',
+        name: 'Отборочный старт Центра «Академия талантов»',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250830_AT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1693',
+    }, {
+        date: '2025-08-30',
+        place: 'Стеклянный',
+        name: 'Васкеловская средняя',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250830_bn',
+        reg: 'http://orgeo.ru/event/vaskelovo_middle',
+        owner: 'WN'
+    }, {
+        date: '2025-08-31',
+        place: 'Кавголово',
+        name: 'ЧиП СПб',
+        fmt:  'эстафета 2х',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250831_ch',
+        reg: 'https://o-reg.spb.ru/?filter[day_id]=1692',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23330/',
+        owner: 'SFSO_SPB'
+    }, {
+        date: '2025-09-06',
+        place: 'Зеленогорск, Дружинное оз',
+        name: 'Мохеркап',
+        fmt:  '3.5',
+        type: 'ROGAINE',
+        link: 'https://t.me/lone_rogaine',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23351/'
+    }, {
+        date: '2025-09-06',
+        place: 'Сосново, Уловное оз',
+        name: 'Кубок Белых Ночей #1',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250906_bn',
+        reg: 'https://orgeo.ru/event/info/45955',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23350/',
+        owner: 'WN'
+    }, {
+        date: '2025-09-07',
+        place: 'Кировск',
+        name: 'ЧиП ЛО',
+        type: 'ORIENT',
+        fmt: 'спринт, масстарт',
+        link: 'https://o-site.spb.ru/race.php?id=lo_kirovsk_2025',
+        reg: 'http://orgeo.ru/event/sprint_kirovsk_070925',
+    }, {
+        date: '2025-09-10',
+        place: 'М"Нарская", ул Турбинная',
+        name: 'СПРИНТ ТУР',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/46049',
+        res: 'https://reskeep.ru/event/get?id=792',
+        map: 'narvskaya_2016',
+        start: 'ST'
+    }, {
+        date: '2025-09-11',
+        place: 'Токсово, Изумрудное оз',
+        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
+        reg: 'https://orgeo.ru/event/46308',
+        any: 'Карта "Бабочка".',
+        owner: 'KUZM'
     }, {
         date: '2025-09-13',
         place: 'Калищенское оз',
         name: 'ЧиП Соснового Бора',
         type: 'ORIENT',
-        link: 'https://vk.com/wall-201330282_1914'
+        link: 'https://vk.com/wall-201330282_1914',
+        owner: 'YUVNT'
     }, {
         date: '2025-09-13',
         place: 'Луга, Крупели',
@@ -251,14 +618,16 @@ let events_2025 =
             'МЭ': 'https://viewer.o-gps-center.ru/viewer/event/23398/',
             'М50/Ж35': 'https://viewer.o-gps-center.ru/viewer/event/23395/',
             'Все КП': 'https://viewer.o-gps-center.ru/viewer/event/23388/'
-        }
+        },
+        owner: 'SFSO_SPB'
     }, {
         date: '2025-09-18',
         place: 'Токсово, Светлое оз',
         name: 'КОНТРОЛЬНЫЙ СТАРТ',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
-        reg: 'https://orgeo.ru/event/46308'
+        reg: 'https://orgeo.ru/event/46308',
+        owner: 'KUZM'
     }, {
         date: '2025-09-19',
         place: 'Полюстровский парк',
@@ -293,6 +662,7 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/info/46223'
     }, {
         date: '2025-09-20',
+        endDate: '2025-09-21',
         place: 'Приозерский р-он',
         name: 'Велоизоляция',
         fmt: '4, 8',
@@ -301,20 +671,23 @@ let events_2025 =
         reg: 'https://www.multsport.ru/starts/veloizol25/registration.html'
     }, {
         date: '2025-09-20',
+        endDate: '2025-09-21',
         place: 'Журавлевское оз',
         name: 'Гран-при Владимира Алексеева',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250921',
-        reg: 'https://orgeo.ru/event/alekseeva2025'
+        reg: 'https://orgeo.ru/event/alekseeva2025',
+        owner: 'WN'
     }, {
         date: '2025-09-24',
         place: 'Пионерская',
         name: 'СПРИНТ ТУР',
         fmt: 'спринт',
         type: 'ORIENT',
-        link: 'https://vk.com/sprinttourspb'
+        start: 'ST'
     }, {
         date: '2025-09-26',
+        endDate: '2025-09-30',
         place: 'Зеркальный',
         name: 'Старты в Зеркальном',
         type: 'ORIENT',
@@ -329,7 +702,7 @@ let events_2025 =
     }, {
         date: '2025-09-27',
         place: 'Луга, оз. Толони',
-        name: 'Short Rogain Cup /4 этап',
+        name: 'Кубок Коротких Рогейнов #4',
         fmt:  '4',
         type: 'ROGAINE',
         link:  ['https://vk.com/event166397868','https://t.me/lugarogein'],
@@ -352,12 +725,14 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/45800'
     }, {
         date: '2025-10-04',
+        endDate: '2025-10-06',
         place: 'Зеленогорск',
         name: 'Невский спринт',
         fmt: 'многодневка, спринт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251007_NS',
-        reg: 'https://orgeo.ru/event/info/45533'
+        reg: 'https://orgeo.ru/event/info/45533',
+        owner: 'SFSO_SPB'
     }, {
         date: '2025-10-11',
         place: 'Полюстровский парк',
@@ -380,20 +755,25 @@ let events_2025 =
         fmt:  '6',
         type: 'ROGAINE',
         link: ' vk.com/bikeadventure',
-        reg: 'https://orgeo.ru/event/44940'
+        reg: 'https://orgeo.ru/event/44940',
+        start: 'BA'
     }, {
         date: '2025-10-18',
+        endDate: '2025-10-19',
         place: 'Выборг',
         name: 'Золотая осень',
         type: 'ORIENT',
-        link: 'https://o-site.spb.ru/race.php?id=251019_ZO'
+        link: 'https://o-site.spb.ru/race.php?id=251019_ZO',
+        owner: 'VYBORG'
     }, {
         date: '2025-10-18',
+        endDate: '2025-10-19',
         place: 'Запад ЛО у залива',
         name: 'Осенний марш-бросок',
         type: 'TOURISM', // марш-бросок
         link:  ['https://t.me/pmarshbrosok','https://vk.com/mbrosok'],
-        reg: 'https://orgeo.ru/event/44894'
+        reg: 'https://orgeo.ru/event/44894',
+        start: 'MB'
     }, {
         date: '2025-10-19',
         place: 'Суоранда',
