@@ -83,7 +83,7 @@ if (map === undefined) {
 function loadMaps() {
     showSpinner(true);
     for (const m of oMaps) {
-        if (isMapAcceptable(m) || isRogaineMap(m)) {
+        if (isMapAcceptable(m) || isRogaine(m)) {
             if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM))) {
                 loadMap(m);
             }
@@ -1260,24 +1260,6 @@ function buildPlanners(m) {
             if (planners[m.planner]) {
                 result += planners[m.planner].name + '<br />';
             }
-        }
-    }
-    return result;
-}
-
-function buildGpsLinks(m) {
-    let result = '';
-    if (m.gps) {
-        if (isObject(m.gps)) {
-            let entries = Object.entries(Object.entries(m.gps));
-            for (const [index, [key, value]] of entries) {
-                result += ` <a href="${value}">${key}</a>`;
-                if (index < entries.length - 1) {
-                    result += ',';
-                }
-            }
-        } else {
-            result += '<a href="' + m.gps + '"><img src="./images/url-file.png"></a>';
         }
     }
     return result;

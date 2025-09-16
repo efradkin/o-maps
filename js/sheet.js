@@ -1,6 +1,4 @@
 
-const mapTypes = ['Город', 'Парки', 'Лес', 'Спец.', 'Рогейн'];
-
 window.onload = function() {
 
     oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))

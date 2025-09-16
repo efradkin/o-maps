@@ -1,0 +1,353 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>o-Maps: Календарь</title>
+    <meta name="description" content="Календарь О-стартов Санкт-Петербурга.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <meta property="og:title" content="o-Maps: Календарь">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Календарь О-стартов Санкт-Петербурга.">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <base target="_blank">
+</head>
+<body class="stat-body sheet-body calendar-body">
+    <h1>
+         <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
+        <a href="spb.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+
+        <select class="header_selector" onchange="selectMapRegion(this.value, 'sheet')">
+            <option value="index">Начальная страница</option>
+            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+            <option value="spb">Санкт-Петербург</option>
+            <option value="msk">Москва</option>
+            <option value="srb">Белград</option>
+            <option value="all">Все регионы вместе</option>
+            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+            <option value="docs">Исторические документы</option>
+            <option value="tracks">Маршруты</option>
+            <option value="calendar" selected>Календарь о-стартов</option>
+        </select>
+
+        <label for="event_type_selector">Спорт:</label>
+        <select id="event_type_selector" class="header_selector" onchange="selectEventType(this.value)">
+            <option value="ALL">все</option>
+            <option value="ORIENT">Ориент</option>
+            <option value="ROGAINE">Рогейн</option>
+            <option value="OTHER">Прочее</option>
+            <option value="SKI">Лыжи</option>
+        </select>
+
+        <label for="event_month_selector">Месяц:</label>
+        <select id="event_month_selector" class="header_selector" onchange="selectEventMonth(this.value)">
+            <option value="0">все</option>
+            <option value="1">Январь</option>
+            <option value="2">Февраль</option>
+            <option value="3">Март</option>
+            <option value="4">Апрель</option>
+            <option value="5">Май</option>
+            <option value="6">Июнь</option>
+            <option value="7">Июль</option>
+            <option value="8">Август</option>
+            <option value="9">Сентябрь</option>
+            <option value="10">Октябрь</option>
+            <option value="11">Ноябрь</option>
+            <option value="12">Декабрь</option>
+        </select>
+    </h1>
+    <h2 class="text-center">Календарь о-стартов СПб</h2>
+
+    <div class="o-sheet-roof">
+        <a href="#" onclick="downloadSheetTable('o-maps-documents.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+    </div>
+    <div class="o-sheet-wrapper">
+        <table class="o-main-table o-sheet">
+            <thead>
+            <tr>
+                <th>&nbsp</th>
+                <th data-sort="date" class="sortable" data-order="desc">Дата</th>
+                <th data-sort="name" class="sortable">Название</th>
+                <th data-sort="place" class="sortable">Место</th>
+                <th>Вид</th>
+                <th>Формат</th>
+                <th>Регистрация</th>
+                <th>Результаты</th>
+                <th>Трансляция</th>
+                <th>Прочее</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="js/ext/jquery.slim.min.js"></script>
+
+    <script src="js/calendar-2025.js"></script>
+
+    <script src="js/starts.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/utils-common.js"></script>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        let EVENT_TYPE_PARAM = urlParams.get('event-type');
+        let EVENT_MONTH_PARAM = urlParams.get('event-month');
+
+        let loadImagesRequired = false;
+        let mapsOnStore = false;
+        let documentsPage = true;
+
+        let oEvents = [
+            ...events_2025,
+        ];
+
+        // Фильтрация массива. Оставляем только эвенты, соответствующие критерию запроса (есди он задан).
+        if (EVENT_TYPE_PARAM && ('ALL' !== EVENT_TYPE_PARAM)) {
+            oEvents = oEvents.filter(event => {
+                if ('ROGAINE' === EVENT_TYPE_PARAM) {
+                    return isRogaine(event);
+                }
+                if ('ORIENT' === EVENT_TYPE_PARAM) {
+                    return event.type.includes('ORIENT');
+                }
+                if ('OTHER' === EVENT_TYPE_PARAM) {
+                    return !event.type.includes('ORIENT') && !isRogaine(event);
+                }
+                if ('SKI' === EVENT_TYPE_PARAM) {
+                    return event.type.includes('SKI');
+                }
+            });
+
+            let selector = document.getElementById('event_type_selector');
+            selector.value = EVENT_TYPE_PARAM;
+        }
+        if (EVENT_MONTH_PARAM && ('0' !== EVENT_MONTH_PARAM)) {
+            oEvents = oEvents.filter(event => {
+                const date = new Date(event.date);
+                const month = date.getMonth() + 1;
+                return month.toString() === EVENT_MONTH_PARAM;
+            });
+
+            let selector = document.getElementById('event_month_selector');
+            selector.value = EVENT_MONTH_PARAM;
+        }
+
+        window.onload = function() {
+/*
+            oEvents.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
+                .sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)));
+*/
+            // Навешиваем обработчик на заголовок таблицы
+            document.querySelectorAll('th.sortable').forEach(
+                (element) => {
+                    element.addEventListener('click', sortEventsTable);
+                }
+            );
+
+            // Изначальный рендеринг таблицы
+            renderMapsTable();
+        }
+
+        // Ссылка на тело таблицы
+        const tbody = document.querySelector('.o-main-table tbody');
+        const WEEK_TIME_RANGE = 1000 * 60 * 60 * 24 * 7;
+
+        // строит табличку с инфой об авторах-составителях
+        function renderMapsTable() {
+            tbody.innerHTML = '';
+
+            for (let i = 0; i < oEvents.length; i++) {
+                let event = oEvents[i];
+                const row = document.createElement('tr');
+                let date = new Date(event.date);
+                let now = new Date();
+                console.log(event, date - now)
+                if (date < now) {
+                    row.classList.add('disabled');
+                } else {
+                    if (date - now < WEEK_TIME_RANGE) {
+                        row.classList.add('current');
+                    }
+                }
+                if ('ORIENT' === event.type) {
+                    row.classList.add('orient');
+                } else if (isRogaine(event)) {
+                    row.classList.add('rogaine');
+                }
+                td(event, row, i + 1);
+                td(event, row, formatDateToRussian(event.date)); //buildYear(event)
+                td(event, row, buildName(event));
+                td(event, row, event.place ?? '');
+                td(event, row, buildType(event));
+                td(event, row, event.fmt ?? '');
+                td(event, row, buildReg(event));
+                td(event, row, buildRes(event));
+                td(event, row, buildGpsLinks(event, 'o-gps.gif'));
+                td(event, row, event.any ?? '');
+                tbody.appendChild(row);
+            }
+            document.body.style.cursor = 'default';
+        }
+
+        function td(m, row, html) {
+            const td = document.createElement('td');
+            td.innerHTML = ((false) ? '<b>' : '') + html + ((false) ? '</b>' : '');
+            row.appendChild(td);
+        }
+
+        function formatDateToRussian(dateString) {
+            var days = [
+                'ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'
+            ];
+            const months = [
+                'ЯНВ', 'ФЕВ', 'МАР', 'АПР', 'МАЯ', 'ИЮН',
+                'ИЮЛ', 'АВГ', 'СЕН', 'ОКТ', 'НОЯ', 'ДЕК'
+            ];
+
+            const date = new Date(dateString);
+            const day = date.getDate();
+            const month = months[date.getMonth()];
+            //const year = date.getFullYear();
+            const dayWeek = days[date.getDay()];
+
+            return `${day} ${month} (${dayWeek})`; // ${year}
+        }
+
+        function buildName(event) {
+            let result = '';
+/*
+            if (event.logo) {
+                result += '<img src="./logo/' + event.logo + '" alt="" class="sheet-icon" /> ';
+            }
+*/
+            if (event.link) {
+                result += buildLink(event.link, event.name);
+            } else {
+                result += event.name;
+            }
+            return result;
+        }
+
+        function buildReg(event) {
+            if (event.reg) {
+                if (event.reg.includes('orgeo')) {
+                    return buildLink(event.reg, 'Orgeo');
+                } else if (event.reg.includes('o-reg')) {
+                    return buildLink(event.reg, 'O-Reg');
+                } else if (event.reg.includes('o-time')) {
+                    return buildLink(event.reg, 'O-Time');
+                } else if (event.reg.includes('multsport')) {
+                    return buildLink(event.reg, 'Multsport');
+                } else if (event.reg.includes('sportident')) {
+                    return buildLink(event.reg, 'Sportident');
+                }
+            }
+            return buildLink(event.reg, '<img src="./images/url-file.png" />');
+        }
+
+        function buildRes(event) {
+            if (event.res) {
+                if (event.res.includes('orgeo')) {
+                    return buildLink(event.res, 'Orgeo');
+                } else if (event.res.includes('o-site')) {
+                    return buildLink(event.res, 'O-Site');
+                } else if (event.res.includes('o-time')) {
+                    return buildLink(event.res, 'O-Time');
+                } else if (event.res.includes('multsport')) {
+                    return buildLink(event.res, 'Multsport');
+                } else if (event.res.includes('sportident')) {
+                    return buildLink(event.res, 'Sportident');
+                } else if (event.res.includes('vk.com')) {
+                    return buildLink(event.res, 'VK');
+                } else if (event.res.includes('reskeep')) {
+                    return buildLink(event.res, 'Reskeep');
+                } else if (event.res.includes('t.me')) {
+                    return buildLink(event.res, 'Telegram');
+                } else if (event.res.includes('hard')) {
+                    return buildLink(event.res, 'HARD');
+                }
+            }
+            return buildLink(event.res, '<img src="./images/url-file.png" />');
+        }
+
+        function buildType(event) {
+            switch (event.type) {
+                case 'ORIENT': return 'Ориент';
+                case 'ROGAINE': return 'Рогейн';
+                case 'MULTI': return 'Мульти';
+                case 'TOURISM': return 'Кросс-поход';
+            }
+            return 'Лыжный рогейн';
+        }
+
+        function selectEventType(type) {
+            if (type === 'ALL') {
+                location.href = './calendar.html';
+            } else {
+                location.href = './calendar.html?event-type=' + type;
+            }
+        }
+
+        function selectEventMonth(month) {
+            if (month === '0') {
+                location.href = './calendar.html';
+            } else {
+                location.href = './calendar.html?event-month=' + month;
+            }
+        }
+
+        function sortEventsTable() {
+            document.body.style.cursor = 'wait';
+
+            const sortable = document.querySelector('.o-sheet th.sortable[data-order="asc"], .o-sheet th.sortable[data-order="desc"]');
+            if (sortable !== this) {
+                sortable.dataset.order = '';
+            }
+
+            const isAscending = this.dataset.order === 'asc';
+            switch (this.dataset.sort) {
+                case 'name':
+                    oEvents.sort((a, b) => {
+                        return isAscending ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name);
+                    });
+                    break;
+                case 'date':
+                    oEvents.sort((a, b) => {
+                        return isAscending ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date);
+                    });
+                    break;
+                case 'place':
+                    oEvents.sort((a, b) => {
+                        return isAscending ? (a.place || '').localeCompare(b.place) : (b.place || '').localeCompare(a.place);
+                    });
+                    break;
+            }
+            this.dataset.order = isAscending ? 'desc' : 'asc';
+            renderMapsTable();
+        }
+    </script>
+</body>
+</html>

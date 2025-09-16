@@ -349,6 +349,13 @@ label:has(> span span .layer-separator) {
 .sheet-body {
     h1 {
         margin-bottom: 0;
+        label {
+            font-size: .5em;
+            margin-right: -35px;
+            margin-left: 40px;
+            position: relative;
+            top: -5px;
+        }
     }
 }
 #sheet-spinner {
@@ -557,6 +564,36 @@ body.integration-body {
         border: solid 1px lightgray;
         white-space: normal;
     }
+}
+
+/* --- calendar --- */
+.calendar-body {
+    .o-main-table {
+        td, th {
+            text-align: left;
+            padding: 7px;
+            font-size: 14px;
+        }
+        td {
+            border-bottom: 1px solid lightgrey;
+            border-top: 1px solid lightgrey;
+        }
+        tr {
+            background-color: white;
+        }
+        .orient {
+            background-color: #d2f1da;
+        }
+        .rogaine {
+            background-color: #fef1cc;
+        }
+    }
+}
+.disabled {
+    color: grey;
+}
+.current {
+    font-weight: bold;
 }
 
 /* --- media --- */

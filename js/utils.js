@@ -75,7 +75,7 @@ function isSpecialMap(m) {
     return !isEmpty(m.type) && (m.type.includes('RELIEF') || m.type.includes('WINTER') || m.type.includes('VELO') || m.type.includes('INDOOR'));
 }
 
-function isRogaineMap(m) {
+function isRogaine(m) {
     return !isEmpty(m.type) && m.type.includes('ROGAINE');
 }
 
@@ -118,15 +118,44 @@ function trackLink(url, exclusive) {
     return location.origin + '/tracks.html?' + (exclusive ? 'only' : '') + 'track=' + extractFileName(url);
 }
 
+function buildLink(link, content, title) {
+    if (link) {
+        if (Array.isArray(link)) {
+            link = link[0];
+        }
+        return '<a href="' + link + '"' + (title ?? '') + '">' + content + '</a>';
+    }
+    else
+        return '';
+}
+
+function buildGpsLinks(m, img) {
+    let result = '';
+    if (m.gps) {
+        if (isObject(m.gps)) {
+            let entries = Object.entries(Object.entries(m.gps));
+            for (const [index, [key, value]] of entries) {
+                result += ` <a href="${value}">${key}</a>`;
+                if (index < entries.length - 1) {
+                    result += ',';
+                }
+            }
+        } else {
+            result += buildLink(m.gps, '<img src="./images/' + (img ?? 'url-file.png') +'">');
+        }
+    }
+    return result;
+}
+
 function buildTrackDownloadLinks(t) {
     if (isObject(t.gpx)) {
         let result = '';
         for (const [name, gpx] of Object.entries(t.gpx)) {
-            result += '<a href="' + gpx + '" title="Скачать GPX-трек ' + name + '"> <img src="images/download_24.png" style="width:12px" /></a>'
+            result += buildLink(gpx, '<img src="images/download_24.png" style="width:12px" />', 'Скачать GPX-трек ' + name);
         }
         return result;
     } else {
-        return '<a href="' + t.gpx + '" title="Скачать GPX-трек"> <img src="images/download_24.png" style="width:12px" /></a>';
+        return buildLink(t.gpx, '<<img src="images/download_24.png" style="width:12px" />', 'Скачать GPX-трек');
     }
 }
 
@@ -441,7 +470,7 @@ function o(owner) {
 function authorLabel(author) {
     if (author) {
         if (author.about) {
-            return '<a href="' + author.about + '">' + author.name + '</a>'
+            return buildLink(author.about, author.name);
         } else {
             return author.name;
         }
@@ -462,6 +491,7 @@ function selectMapRegion(region, prefix) {
         case 'tracks':location.href = './' + prefix + 'tracks.html'; break;
         case 'starts':location.href = './starts.html'; break;
         case 'docs':location.href = './documents.html'; break;
+        case 'calendar':location.href = './calendar.html'; break;
     }
 }
 
