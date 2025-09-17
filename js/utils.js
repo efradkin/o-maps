@@ -118,11 +118,27 @@ function trackLink(url, exclusive) {
     return location.origin + '/tracks.html?' + (exclusive ? 'only' : '') + 'track=' + extractFileName(url);
 }
 
-function buildLink(link, content, title) {
+function buildLink(link, content, title, allItems) {
     if (link) {
         if (Array.isArray(link)) {
-            link = link[0];
+            if (allItems) {
+                let result = '';
+                for (const l of link) {
+                    result += ' ' + buildOneLink(l, content, title);
+                }
+                return result;
+            } else {
+                link = link[0];
+            }
         }
+        return buildOneLink(link, content, title);
+    }
+    else
+        return '';
+}
+
+function buildOneLink(link, content, title) {
+    if (link) {
         if (title) {
             title = ' title="' + title + '"';
         }

@@ -106,6 +106,11 @@ let starts = {
         name: '<a href="https://vk.com/rogaine110">Рогейн 110%</a>',
         link: 'https://vk.com/rogaine110'
     },
+    GK: {
+        short: 'ГК',
+        name: '<a href="https://vk.com/club31941981">Горный кросс</a>',
+        link: 'https://vk.com/club31941981'
+    },
     VO_FOTO: {
         short: 'Фотоориентирование на ВО',
         name: '<a href="https://vk.com/club227807023">Фотоориентирование на Васильевском острове</a>',

@@ -95,7 +95,7 @@
                 <th>Формат</th>
                 <th>Регистрация</th>
                 <th>Результаты</th>
-                <th>Трансляция</th>
+                <th>Трансляции</th>
                 <th>Прочее</th>
             </tr>
             </thead>
@@ -195,7 +195,10 @@
                         row.classList.add('current');
                     }
                 }
-                if ('ORIENT' === event.type) {
+                if(event.cancelled) {
+                    row.classList.add('cancelled');
+                }
+                if (event.type.includes('ORIENT')) {
                     row.classList.add('orient');
                 } else if (isRogaine(event)) {
                     row.classList.add('rogaine');
@@ -208,7 +211,7 @@
                 td(event, row, event.fmt ?? '');
                 td(event, row, buildReg(event));
                 td(event, row, buildRes(event));
-                td(event, row, buildGpsLinks(event, 'o-gps.gif'));
+                td(event, row, buildTranslations(event));
                 td(event, row, event.any ?? '');
                 tbody.appendChild(row);
             }
@@ -328,9 +331,24 @@
                 case 'TOURISM': return 'Кросс-поход';
             }
             if (event.type.includes('SKI')) {
-                return 'Лыжный рогейн';
+                if (isRogaine(event)) {
+                    return 'Лыжный рогейн';
+                } else {
+                    return 'Лыжи';
+                }
             }
             return 'Рогейн, Ориент';
+        }
+
+        function buildTranslations(event) {
+            let result = buildGpsLinks(event, 'o-gps.gif');
+            if (event.photo) {
+                result += ' ' + buildLink(event.photo, '<img src="./images/photo-camera.png">', 'Фотографии', true);
+            }
+            if (event.video) {
+                result += ' ' + buildLink(event.video, '<img src="./images/video-camera.png">', 'Видео', true);
+            }
+            return result;
         }
 
         function selectEventType(type) {

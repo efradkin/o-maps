@@ -569,12 +569,16 @@ body.integration-body {
 /* --- calendar --- */
 .calendar-body {
     .o-main-table {
+        img {
+            vertical-align: middle;
+        }
         td, th {
             text-align: left;
             padding: 7px;
             font-size: 14px;
         }
         td {
+            max-width: 200px;
             border-bottom: 1px solid lightgrey;
             border-top: 1px solid lightgrey;
         }
@@ -587,17 +591,20 @@ body.integration-body {
         .rogaine {
             background-color: #fef1cc;
         }
+        .disabled {
+            color: grey;
+            a {
+                color: grey;
+                text-decoration: underline dotted;
+            }
+        }
+        .current {
+            font-weight: bold;
+        }
+        .cancelled {
+            text-decoration: line-through solid;
+        }
     }
-}
-.disabled {
-    color: grey;
-    a {
-        color: grey;
-        text-decoration: underline dotted;
-    }
-}
-.current {
-    font-weight: bold;
 }
 
 /* --- media --- */
