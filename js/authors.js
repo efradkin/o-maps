@@ -295,6 +295,7 @@ let authors = {
     RDNV_I: { name: 'Родионов Иван' },
     RDKV: { name: 'Рудаков В.' },
     RMNTSV_S: { name: 'Румянцев С.' },
+    RSKV_S: { name: 'Русаков Сергей' },
     RYLOV_V: {
         name: 'Рылов Виктор',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -375,6 +376,8 @@ let authors = {
         name: 'Темкин Вениамин', //Яковлевич
         about: 'https://o-site.spb.ru/history/Peoples/temkin.html'
     },
+    TRFMV_A: { name: 'Трофимов Александр' },
+    TRFMV_G: { name: 'Трофимов Герман' },
     TRNV_V: { name: 'Трунов В.' },
     TRNTV_V: {
         name: 'Терентьев Валерий',

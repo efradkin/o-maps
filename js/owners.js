@@ -211,6 +211,9 @@ let owners = {
     TOKM: {
         name: 'По вопросам использования карты обращайтесь к Константину Токмакову (<a href="mailto:tokma@bk.ru">tokma@bk.ru</a>).'
     },
+    TRFMV_A: {
+        name: '© Трофимов Александр'
+    },
     VOLKOV_AM: {
         name: '© Волков А.М.'
     },

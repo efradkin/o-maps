@@ -22,6 +22,16 @@ let parkMaps = [
         type: ['PARK']
     },
     {
+        name: 'Парк Авиаторов',
+        year: 2025,
+        url: './maps/parks/aviatorov_2025.webp',
+        link: './original_maps/parks/aviatorov_2025_omaps.jpg',
+        bounds: [[59.87262416560564, 30.297782421112064], [59.87112708499444, 30.30885457992554], [59.86475027454329, 30.29368400573731]],
+        author: ['SHRNN','RSKV_S','SVTLNV'],
+        owner: 'SFSO_SPB',
+        type: ['PARK']
+    },
+    {
         name: 'Парк Победы',
         year: 1984,
         url: './maps/parks/pobedy_1984.webp',
@@ -47,6 +57,16 @@ let parkMaps = [
         link: './original_maps/parks/internatsionalistov_2020_omaps.jpg',
         bounds: [[59.86276804382595, 30.392925739288334], [59.86294041640396, 30.412087440490726], [59.855441383514496, 30.39324760437012]],
         author: 'SRBRNTSKY',
+        owner: 'SFSO_SPB',
+        type: ['PARK']
+    },
+    {
+        name: 'Парк Интернационалистов',
+        year: 2025,
+        url: './maps/parks/internatsionalistov_2025.webp',
+        link: './original_maps/parks/internatsionalistov_2025_omaps.jpg',
+        bounds: [[59.86276804382595, 30.392925739288334], [59.86275727051017, 30.41202306747437], [59.85595861246709, 30.39326906204224]],
+        author: ['SRBRNTSKY','SHRNN'],
         owner: 'SFSO_SPB',
         type: ['PARK']
     },
@@ -938,6 +958,7 @@ let parkMaps = [
         name: 'сквер Генерала Андреева',
         year: 2023,
         url: './maps/parks/sestroretsk_skver_generala_andreeva_2023.webp',
+        link: './original_maps/parks/sestroretsk_skver_generala_andreeva_2023_omaps.jpg',
         bounds: [[60.109536630930116, 29.96332168579102], [60.10845124409252, 29.972677230834964], [60.106504943636345, 29.96155142784119]],
         type: ['PARK']
     },
@@ -950,6 +971,16 @@ let parkMaps = [
         bounds: [[60.10858491435359, 29.964909553527836], [60.10803953627969, 29.972870349884037], [60.106542373575884, 29.96433019638062]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
+        type: ['PARK']
+    },
+    {
+        name: 'сквер Генерала Андреева',
+        year: 2025,
+        url: './maps/parks/sestroretsk_skver_generala_andreeva_2025.webp',
+        link: './original_maps/parks/sestroretsk_skver_generala_andreeva_2025_omaps.jpg',
+        bounds: [[60.10895918819847, 29.961369037628177], [60.108937801236195, 29.97306346893311], [60.10638195924979, 29.961133003234867]],
+        author: ['TRFMV_A','TRFMV_G'],
+        owner: 'TRFMV_A',
         type: ['PARK']
     },
     {

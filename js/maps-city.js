@@ -526,6 +526,7 @@ let cityMaps = [
         name: 'ЦФКиЗ Московского р-она',
         year: 2016,
         url: './maps/city/tsfkiz_moskovsky_2016.webp',
+        link: './original_maps/city/tsfkiz_moskovsky_2016_omaps.jpg',
         bounds: [[59.851357147520275, 30.347199440002445], [59.85077518391201, 30.354130268096927], [59.8480807753212, 30.346212387084964]],
         author: 'TKMKVA_P',
         type: ['CITY']
