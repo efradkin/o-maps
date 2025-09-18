@@ -22,7 +22,8 @@ let events_2025 =
         type: ['ROGAINE','SKI'],
         link: 'https://www.multsport.ru/starts/winter-rogaine-25/',
         res: 'https://multsport.ru/starts/winter-rogaine-25/results.html',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21398/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/21398/',
+        photo: 'https://vk.com/album-8292013_308226055'
     }, {
         date: '2025-01-12',
         place: 'Кировск',
@@ -67,6 +68,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250202_chemp',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1650',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21563/',
+        video: 'https://vkvideo.ru/video-218850805_456259621',
         owner: 'SFSO_SPB'
     }, {
         date: '2025-02-01',
@@ -92,6 +94,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250215',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1651',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21654/',
+        photo: 'https://vk.com/album-154221178_306315249',
         owner: 'SFSO_SPB'
     }, {
         date: '2025-02-15',
@@ -103,6 +106,13 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/info/40338',
         res: 'https://vk.com/wall-166397868_4743',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21680/'
+    }, {
+        date: '2025-02-16',
+        place: 'Свердлова',
+        name: 'Февральский спринт',
+        fmt: 'спринт',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/41193',
     }, {
         date: '2025-02-22',
         place: 'Сосновка',
@@ -228,6 +238,39 @@ let events_2025 =
         owner: 'DLT',
         map: 'lembolovo_orekhovo_2023'
     }, {
+        date: '2025-04-05',
+        place: '8-я линия В.О.',
+        name: 'URBAN SPRINT',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/info/42325',
+        owner: 'WN'
+    }, {
+        date: '2025-04-05',
+        place: 'Белоостров, Удачное',
+        name: 'Длительная серия #2',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/42556',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22081/',
+        owner: 'DLT'
+    }, {
+        date: '2025-04-06',
+        place: 'Зеленогорск, Болотная станция',
+        name: 'Кубок Белых Ночей #8',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/42402',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22105/',
+        photo: 'https://vk.com/album-196511971_306922349',
+        owner: 'WN'
+    }, {
+        date: '2025-04-06',
+        place: 'Сертолово',
+        name: 'Физкультурное мероприятие по спортивному ориентированию',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250406_Sert',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22089/',
+        video: 'https://vkvideo.ru/video-210828901_456239072',
+    }, {
         date: '2025-04-12',
         place: 'Охта-Парк',
         name: 'Охта-Парк средняя',
@@ -272,13 +315,14 @@ let events_2025 =
     }, {
         date: '2025-04-19',
         place: 'Луга, ген.Омельченко',
-        name: 'Лужский меридиан',
+        name: 'Лужский меридиан #78',
         fmt:  '4',
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/41453',
         res: 'https://vk.com/wall-91656163_2545',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22283/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22283/',
+        photo: 'https://vk.com/album-91656163_309446849'
     }, {
         date: '2025-04-19',
         place: 'Невский лесопарк, Усадьба Богословка',
@@ -291,15 +335,9 @@ let events_2025 =
         name: 'Urban sprint Звенигородская',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/info/43078',
+        photo: 'https://vk.com/album-196511971_307063618',
+        video: 'https://www.youtube.com/watch?v=C-89lnZDmKg',
         owner: 'WN'
-    }, {
-        date: '2025-04-24',
-        place: 'Кузьмолово, Зона-Z',
-        name: 'КОНТРОЛЬНЫЙ СТАРТ',
-        type: 'ORIENT',
-        link: 'https://o-site.spb.ru/race.php?id=25_KS',
-        reg: 'https://orgeo.ru/event/43174',
-        owner: 'KUZM'
     }, {
         date: '2025-04-19',
         endDate: '2025-04-20',
@@ -311,7 +349,16 @@ let events_2025 =
             'М16/50':'https://viewer.o-gps-center.ru/viewer/event/22268/',
             'Все КП':'https://viewer.o-gps-center.ru/viewer/event/22248/'
         },
+        photo: 'https://vk.com/album-201330282_306915469',
         owner: 'YUVNT'
+    }, {
+        date: '2025-04-24',
+        place: 'Кузьмолово, Зона-Z',
+        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=25_KS',
+        reg: 'https://orgeo.ru/event/43174',
+        owner: 'KUZM'
     }, {
         date: '2025-04-26',
         place: 'Школа №527',
@@ -326,6 +373,7 @@ let events_2025 =
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/43281',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22373/',
+        photo: 'https://vk.com/album-196511971_307146284',
         owner: 'WN'
     }, {
         date: '2025-04-26',
@@ -343,6 +391,7 @@ let events_2025 =
         name: 'Кубок Белых Ночей #10',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/info/43282',
+        photo: 'https://vk.com/album-196511971_307146519',
         owner: 'WN'
     }, {
         date: '2025-04-27',
@@ -371,6 +420,7 @@ let events_2025 =
         link: 'https://vk.com/wall-92124592_2082',
         reg: 'https://orgeo.ru/event/43363',
         res: 'https://reskeep.ru/event/get?id=693',
+        photo: 'https://vk.com/album-92124592_307010019',
         start: 'ST'
     }, {
         date: '2025-05-01',
@@ -380,6 +430,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250501',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22425/',
+        photo: 'https://vk.com/album-128591100_307166407',
         start: 'YM'
     }, {
         date: '2025-05-02',
@@ -398,15 +449,17 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://hardadventure.ru/orient2025',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22447/',
+        photo: ['https://vk.com/album-163764238_307168266','https://vk.com/album-163764238_307175450','https://vk.com/album-163764238_307175330'],
         start: 'HARD'
     }, {
         date: '2025-05-03',
         place: 'Орово, Суоранда',
-        name: 'Всеволожский ориентир',
+        name: 'Всеволожский ориентир и Весеннее Первенство Белых ночей',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/42696',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22445/',
         map: 'orovo_2019',
+        photo: 'https://vk.com/album-196511971_307214315',
         owner: 'WN'
     }, {
         date: '2025-05-03',
@@ -478,7 +531,8 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250511_sprint',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1666',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22533/',
-        video: 'http://northernwind.spb.ru/videosplit/2025/ChiPSPB_SPRINT/',
+        video: ['http://northernwind.spb.ru/videosplit/2025/ChiPSPB_SPRINT/','https://vk.com/video-230167293_456239018'],
+        photo: ['https://vk.com/album-230167293_309692905','https://vk.com/album-230167293_309694417'],
         owner: 'SFSO_SPB'
     }, {
         date: '2025-05-11',
@@ -491,12 +545,13 @@ let events_2025 =
     }, {
         date: '2025-05-11',
         place: 'Луга, ст. Луга-2',
-        name: 'Лужский меридиан',
+        name: 'Лужский меридиан #79',
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/info/43129',
         res: 'https://vk.com/wall-91656163_2573',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22558/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22558/',
+        photo: 'https://vk.com/album-91656163_309676733'
     }, {
         date: '2025-05-15',
         place: 'Юкки',
@@ -579,6 +634,7 @@ let events_2025 =
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/info/44070',
         res: 'https://reskeep.ru/event/get?id=703',
+        photo: 'https://vk.com/album-92124592_307311265',
         start: 'ST'
     }, {
         date: '2025-05-29',
@@ -598,7 +654,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250531_RA',
         reg: 'https://o-site.spb.ru/race.php?id=250531_RA',
         map: 'aleksandrino_1986',
-        photo: 'https://vk.com/album-230167293_309692905'
+        photo: 'https://vk.com/album-230167293_309922104'
     }, {
         date: '2025-05-31',
         place: 'ст. Куолемаярви',
@@ -737,7 +793,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=mms2025',
         reg: 'http://orgeo.ru/event/43134',
         start: 'MMS',
-        photo: ['https://vk.com/album-230167293_310146909','https://vk.com/album-230167293_310169173','https://vk.com/album-230167293_310182665']
+        photo: ['https://vk.com/album-230167293_310146909','https://vk.com/album-230167293_310169173','https://vk.com/album-230167293_310182665','https://vk.com/album-128591100_307166407']
     }, {
         date: '2025-06-23',
         endDate: '2025-06-24',
@@ -844,6 +900,7 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/info/40554',
         res: 'https://vk.com/wall-166397868_4941',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23164/',
+        video: 'https://www.youtube.com/watch?v=_A6pHop6c6Y',
         any: 'Винни-Пух...ing'
     }, {
         date: '2025-08-02',
@@ -873,6 +930,7 @@ let events_2025 =
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/45316',
         res: 'https://reskeep.ru/event/get?id=713',
+        photo: 'https://vk.com/album-92124592_308044841',
         start: 'ST'
     }, {
         date: '2025-08-09',
@@ -911,6 +969,7 @@ let events_2025 =
         reg: 'https://reg.o-time.ru/race/25450',
         res: 'https://hardrogaine.ru/2025/HR_Swamp_results.htm',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23251/',
+        photo: ['https://vk.com/album-163764238_308306673','https://vk.com/album-163764238_308306672','https://vk.com/album-163764238_308306670','https://vk.com/album-163764238_308307812'],
         start: 'HARD'
     }, {
         date: '2025-08-17',
@@ -949,7 +1008,8 @@ let events_2025 =
         type: 'ROGAINE',
         link: 'https://www.multsport.ru/starts/klo-sar-25/',
         reg: 'https://www.multsport.ru/starts/klo-sar-25/registration.html',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23326/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23326/',
+        photo: 'https://vk.com/album-8292013_310872932'
     }, {
         date: '2025-08-30',
         place: 'Пухтолова гора',
@@ -1001,6 +1061,7 @@ let events_2025 =
         fmt: 'спринт, масстарт',
         link: 'https://o-site.spb.ru/race.php?id=lo_kirovsk_2025',
         reg: 'http://orgeo.ru/event/sprint_kirovsk_070925',
+        photo: 'https://vk.com/album-201330282_308352430'
     }, {
         date: '2025-09-10',
         place: 'М"Нарская", ул Турбинная',
@@ -1011,6 +1072,7 @@ let events_2025 =
         res: 'https://reskeep.ru/event/get?id=792',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23375/',
         map: 'narvskaya_2016',
+        photo: 'https://vk.com/album-92124592_308407207',
         start: 'ST'
     }, {
         date: '2025-09-11',
@@ -1027,16 +1089,18 @@ let events_2025 =
         name: 'ЧиП Соснового Бора',
         type: 'ORIENT',
         link: 'https://vk.com/wall-201330282_1914',
+        photo: 'https://vk.com/album-201330282_308427063',
         owner: 'YUVNT'
     }, {
         date: '2025-09-13',
         place: 'Луга, Крупели',
-        name: 'Лужский меридиан',
+        name: 'Лужский меридиан #82',
         fmt: '2.5, 5',
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/info/45324',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23387/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23387/',
+        photo: 'https://vk.com/album-91656163_311027241'
     }, {
         date: '2025-09-14',
         place: 'Колпино',
