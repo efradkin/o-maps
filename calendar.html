@@ -319,6 +319,13 @@
                 } else if (event.res.includes('hard')) {
                     return buildLink(event.res, 'HARD');
                 }
+            } else if (event.reskeep) {
+                let reskeep = event.reskeep;
+                if (!Array.isArray(event.reskeep)) {
+                    reskeep = [event.reskeep];
+                }
+                reskeep = reskeep.map(r => 'https://reskeep.ru/event/get?id=' + r);
+                return buildLink(reskeep, ' <img src="./images/r-k.gif" />', 'Анализ сплитов', true);
             }
             return buildLink(event.res, '<img src="./images/url-file.png" />');
         }
