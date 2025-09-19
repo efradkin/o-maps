@@ -109,6 +109,7 @@
 
     <script src="js/owners.js"></script>
     <script src="js/starts.js"></script>
+    <script src="js/welcome.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/utils-common.js"></script>
 
@@ -173,11 +174,15 @@
 
             const firstCurrent = document.querySelector('.current');
             firstCurrent.scrollIntoView();
+
+            // --- welcome dialog ---
+            openWelcomeIfRequired();
         }
 
         // Ссылка на тело таблицы
         const tbody = document.querySelector('.o-main-table tbody');
-        const WEEK_TIME_RANGE = 1000 * 60 * 60 * 24 * 7;
+        const DAY_TIME_RANGE = 1000 * 60 * 60 * 24;
+        const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 
         // строит табличку с инфой об авторах-составителях
         function renderMapsTable() {
@@ -188,7 +193,7 @@
                 const row = document.createElement('tr');
                 let date = new Date(event.date);
                 let now = new Date();
-                if (date < now) {
+                if ((date < now) && (Math.abs(date - now) > DAY_TIME_RANGE)) {
                     row.classList.add('disabled');
                 } else {
                     if (date - now < WEEK_TIME_RANGE) {

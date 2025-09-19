@@ -506,16 +506,11 @@ if (mapElement) {
     marker2.on('dragend', onDragEnd);
     marker3.on('dragend', onDragEnd);
 
-    // --- welcome dialog (https://github.com/NBTSolutions/Leaflet.Dialog) ---
-    welcomeDialog = L.control.dialog(dialogOptions).setContent(welcomeDialogContent).addTo(map);
-    let time = new Date().getTime();
-    let welcomeOpenedTime = localStorage.getItem(WELCOME_OPENED_TIME_KEY);
-    if (welcomeOpenedTime == null || dateDiff(Number(welcomeOpenedTime), time) > 6) {
-        openWelcome();
-    }
+    // --- welcome dialog ---
     L.easyButton('button-icon welcome-icon', function (btn, map) {
         openWelcome();
     }, 'О проекте').addTo(map)
+    openWelcomeIfRequired();
 
     // --- help ---
     if (!hiddenButtonsMode) {

@@ -1132,7 +1132,7 @@ let events_2025 =
         fmt: 'спринт, масстарт',
         link: 'https://o-site.spb.ru/race.php?id=lo_kirovsk_2025',
         reg: 'http://orgeo.ru/event/sprint_kirovsk_070925',
-        photo: 'https://vk.com/album-201330282_308352430',
+        photo: ['https://vk.com/album-201330282_308352430','https://disk.yandex.ru/d/IY8hUtWo4dbUEQ'],
         map: 'kirovsk_2025'
     }, {
         date: '2025-09-10',

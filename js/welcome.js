@@ -1,7 +1,5 @@
 const WELCOME_OPENED_TIME_KEY = 'welcomeOpenedTime';
 
-let welcomeDialog;
-
 const welcomeDialogContent = `
 <h2>O-maps / Карты на карте ◪</h2>
 <p>
@@ -17,10 +15,6 @@ const welcomeDialogContent = `
 Часть карт выложены в виде изображений низкого качества, достаточного только для просмотра, но не для печати.
 В тех случаях, когда правообладатели не возражают, карты сопровождаются ссылкой на скачивание полноразмерного файла (jpeg, pdf, ocad).
 Все карты в каталоге доступны для некоммерческого использования, если в их описании не указано обратное. Для проведения соревнований и получения качественных карт-материалов обращайтесь к их владельцам, имена и координаты которых везде по возможности указаны.
-</p>
-<p>
-В отдельном разделе <a href="starts.html" target="_self">собраны</a> карты, показывающие районы и дистанции многодневок и серий стартов хронологически. <br />
-Вся информация о картах каталога собрана в удобные сводные таблицы, которые есть как отдельно для каждого региона, так и <a href="sheet-all.html" target="_self">общая</a>.
 </p>
 <h4>Обращение к авторам и правообладателям:</h4> 
 <p>
@@ -52,34 +46,87 @@ const welcomeDialogContent = `
 </p>
 `;
 
+const styleSheetEl = document.createElement('style');
+styleSheetEl.innerHTML = `
+    dialog#welcome-modal[open] {
+        animation: show 1s;
+    }
+
+    dialog#welcome-modal.hide {
+        animation: hide 1s;
+    }
+    @keyframes show {
+        from {
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0%);
+        }
+    }
+    @keyframes hide {
+        to {
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+    }
+    dialog#welcome-modal {
+        div {
+            padding: 0 20px;
+        }
+        #close-btn {
+            float: right;
+        }
+    }
+`;
+document.head.appendChild(styleSheetEl);
+
+const dialogEl = document.createElement('dialog');
+dialogEl.setAttribute('id', 'welcome-modal');
+const closeBtnEl = document.createElement('button');
+closeBtnEl.setAttribute('id', 'close-btn');
+closeBtnEl.innerHTML = '╳';
+dialogEl.appendChild(closeBtnEl);
+const divEl = document.createElement('div');
+divEl.innerHTML = welcomeDialogContent;
+dialogEl.appendChild(divEl);
+document.body.appendChild(dialogEl);
+const onAnimationEnd = () => {
+    dialogEl.classList.remove("hide");
+    dialogEl.close();
+    dialogEl.removeEventListener("animationend", onAnimationEnd);
+};
+closeBtnEl.addEventListener("click", () => {
+    dialogEl.classList.add("hide");
+    dialogEl.addEventListener("animationend", onAnimationEnd);
+});
 
 // --- welcome dialog (https://github.com/NBTSolutions/Leaflet.Dialog) ---
-let dialogOptions = {
-    size: [ 0, 0 ],
-    minSize: [ 0, 0 ],
-    maxSize: [ 999, 1999 ],
-    anchor: [ 0, 0 ],
-    position: "topleft",
-    initOpen: false
-};
-
 function openWelcome() {
     const sw = window.innerWidth;
     const sh = window.innerHeight;
 
     let dw = sw - 444;
-    if (dw < sw/2) dw = sw - 111;
+    if (dw < sw / 2) dw = sw - 111;
     if (dw > 842) dw = 842;
     let dh = sh - 300;
     if (sh < 800) dh = sh - 100;
 
-    let x = (sw - dw)/2;
-    let y = 50;
+    dialogEl.style.width = dw + 'px';
+    dialogEl.style.height = dh + 'px';
 
-    welcomeDialog.hideResize();
-    welcomeDialog.setSize([dw, dh]);
-    welcomeDialog.setLocation([y, x]);
-    welcomeDialog.open();
+    dialogEl.showModal();
 
     localStorage.setItem(WELCOME_OPENED_TIME_KEY, new Date().getTime());
+}
+
+function openWelcomeIfRequired() {
+    let time = new Date().getTime();
+    let welcomeOpenedTime = localStorage.getItem(WELCOME_OPENED_TIME_KEY);
+    if (welcomeOpenedTime == null || dateDiff(Number(welcomeOpenedTime), time) > 6) {
+        setTimeout(() => {
+            openWelcome();
+        }, 3000);
+    }
 }
