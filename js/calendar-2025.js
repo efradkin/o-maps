@@ -242,7 +242,7 @@ let events_2025 =
     }, {
         date: '2025-03-30',
         place: 'Лемболово',
-        name: 'Dлительная серия #1',
+        name: 'Dлительная серия №1',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250330_Dlit_1',
         reg: 'http://orgeo.ru/event/42267',
@@ -261,7 +261,7 @@ let events_2025 =
     }, {
         date: '2025-04-05',
         place: 'Белоостров, Удачное',
-        name: 'Длительная серия #2',
+        name: 'Длительная серия №2',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/42556',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22081/',
@@ -270,7 +270,7 @@ let events_2025 =
     }, {
         date: '2025-04-06',
         place: 'Зеленогорск, Болотная станция',
-        name: 'Кубок Белых Ночей #8',
+        name: 'Кубок Белых Ночей №8',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/42402',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22105/',
@@ -313,7 +313,7 @@ let events_2025 =
     }, {
         date: '2025-04-13',
         place: 'Лемболово',
-        name: 'Dлительная серия #3',
+        name: 'Dлительная серия №3',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250413_Dlit_3',
         reg: 'http://orgeo.ru/event/42713',
@@ -323,7 +323,7 @@ let events_2025 =
     }, {
         date: '2025-04-17',
         place: 'Осиновая Роща',
-        name: 'Dлительная серия #4',
+        name: 'Dлительная серия №4',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250417_Dlit_4',
         reg: 'http://orgeo.ru/event/43056',
@@ -333,7 +333,7 @@ let events_2025 =
     }, {
         date: '2025-04-19',
         place: 'Луга, ген.Омельченко',
-        name: 'Лужский меридиан #78',
+        name: 'Лужский меридиан №78',
         fmt:  '4',
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
@@ -391,7 +391,7 @@ let events_2025 =
     }, {
         date: '2025-04-26',
         place: 'Кавголово',
-        name: 'Кубок Белых Ночей #9',
+        name: 'Кубок Белых Ночей №9',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/43281',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22373/',
@@ -400,7 +400,7 @@ let events_2025 =
     }, {
         date: '2025-04-26',
         place: 'Луга, оз. Омчино',
-        name: 'Кубок Коротких Рогейнов #1 (КЛО)',
+        name: 'Кубок Коротких Рогейнов №1 (КЛО)',
         fmt:  '4',
         type: 'ROGAINE',
         link: 'https://vk.com/event166397868',
@@ -410,7 +410,7 @@ let events_2025 =
     }, {
         date: '2025-04-27',
         place: 'Петяярви, "Кентавр"',
-        name: 'Кубок Белых Ночей #10',
+        name: 'Кубок Белых Ночей №10',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/info/43282',
         photo: 'https://vk.com/album-196511971_307146519',
@@ -439,7 +439,7 @@ let events_2025 =
     }, {
         date: '2025-04-29',
         place: 'М"Академическая"',
-        name: 'СПРИНТ ТУР #1',
+        name: 'СПРИНТ ТУР №1',
         fmt: 'спринт',
         type: 'ORIENT',
         link: 'https://vk.com/wall-92124592_2082',
@@ -508,14 +508,14 @@ let events_2025 =
     }, {
         date: '2025-05-04',
         place: 'Симагино',
-        name: 'Кубок Белых Ночей #11',
+        name: 'Кубок Белых Ночей №11',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/43467',
         owner: 'WN'
     }, {
         date: '2025-05-08',
         place: 'Стеклянный',
-        name: 'Кубок Белых Ночей #12',
+        name: 'Кубок Белых Ночей №12',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250508_bn',
         reg: 'http://orgeo.ru/event/43588',
@@ -525,7 +525,7 @@ let events_2025 =
     }, {
         date: '2025-05-08',
         place: 'Петяярви',
-        name: 'Кубок D2RUN #1',
+        name: 'Кубок D2RUN №1',
         type: 'ORIENT',
         fmt: 'эстафета 2х2',
         link: 'https://o-site.spb.ru/race.php?id=250508_D2RUN_1',
@@ -570,7 +570,7 @@ let events_2025 =
     }, {
         date: '2025-05-11',
         place: 'Мичуринское',
-        name: 'Кубок Белых Ночей #13',
+        name: 'Кубок Белых Ночей №13',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250511_bn',
         reg: 'http://orgeo.ru/event/info/43589',
@@ -578,7 +578,7 @@ let events_2025 =
     }, {
         date: '2025-05-11',
         place: 'Луга, ст. Луга-2',
-        name: 'Лужский меридиан #79',
+        name: 'Лужский меридиан №79',
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/info/43129',
@@ -627,7 +627,7 @@ let events_2025 =
     }, {
         date: '2025-05-21',
         place: 'М"Удельная", Гданьская ул',
-        name: 'СПРИНТ ТУР #2',
+        name: 'СПРИНТ ТУР №2',
         type: 'ORIENT',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/43938',
@@ -666,7 +666,7 @@ let events_2025 =
     }, {
         date: '2025-05-28',
         place: 'М"Пионерская", аллея Поликарпова',
-        name: 'СПРИНТ ТУР #3',
+        name: 'СПРИНТ ТУР №3',
         type: 'ORIENT',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/info/44070',
@@ -727,7 +727,7 @@ let events_2025 =
     }, {
         date: '2025-05-31',
         place: 'Калелово',
-        name: 'Кубок Белых Ночей #14',
+        name: 'Кубок Белых Ночей №14',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/44184',
         map: 'vorontsovskoe_simagino_2021',
@@ -735,7 +735,7 @@ let events_2025 =
     }, {
         date: '2025-06-01',
         place: 'Орехово',
-        name: 'Кубок D2RUN #2',
+        name: 'Кубок D2RUN №2',
         type: 'ORIENT',
         fmt: 'эстафета 2х2',
         link: 'https://o-site.spb.ru/race.php?id=250601_D2RUN_2',
@@ -745,7 +745,7 @@ let events_2025 =
     }, {
         date: '2025-06-01',
         place: 'Симагино',
-        name: 'Кубок Белых Ночей #15',
+        name: 'Кубок Белых Ночей №15',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/44185',
         map: 'ilychevo-simagino_2015',
@@ -889,7 +889,7 @@ let events_2025 =
     }, {
         date: '2025-07-12',
         place: 'Токсово, СКА',
-        name: 'Dлительная серия #5',
+        name: 'Dлительная серия №5',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250712_Dlit_5',
         reg: 'http://orgeo.ru/event/44871',
@@ -916,7 +916,7 @@ let events_2025 =
     }, {
         date: '2025-07-13',
         place: 'Лупполово',
-        name: 'Dлительная серия #6',
+        name: 'Dлительная серия №6',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250713_Dlit_6',
         reg: 'http://orgeo.ru/event/44872',
@@ -958,7 +958,7 @@ let events_2025 =
     }, {
         date: '2025-08-02',
         place: 'Барышево',
-        name: 'Кубок Белых Ночей #16',
+        name: 'Кубок Белых Ночей №16',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250802_bn',
         reg: 'http://orgeo.ru/event/45276',
@@ -969,7 +969,7 @@ let events_2025 =
     }, {
         date: '2025-08-03',
         place: 'Смоляное оз',
-        name: 'Кубок Белых Ночей #17',
+        name: 'Кубок Белых Ночей №17',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250802_bn',
         reg: 'http://orgeo.ru/event/info/45265',
@@ -980,7 +980,7 @@ let events_2025 =
     }, {
         date: '2025-08-05',
         place: 'М"Чёрная Речка"',
-        name: 'СПРИНТ ТУР #4',
+        name: 'СПРИНТ ТУР №4',
         type: 'ORIENT',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/45316',
@@ -990,7 +990,7 @@ let events_2025 =
     }, {
         date: '2025-08-09',
         place: 'Луга, Шалово',
-        name: 'Кубок Коротких Рогейнов #3',
+        name: 'Кубок Коротких Рогейнов №3',
         fmt:  '4',
         type: 'ROGAINE',
         link: ['https://vk.com/event166397868','https://t.me/lugarogein'],
@@ -1032,7 +1032,7 @@ let events_2025 =
     }, {
         date: '2025-08-17',
         place: 'Ягодное, Раздельные оз',
-        name: 'Кубок Белых Ночей #18',
+        name: 'Кубок Белых Ночей №18',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/info/45477',
         res: 'https://t.me/whitenightesspb/557',
@@ -1116,7 +1116,7 @@ let events_2025 =
     }, {
         date: '2025-09-06',
         place: 'Сосново, Уловное оз',
-        name: 'Кубок Белых Ночей #1',
+        name: 'Кубок Белых Ночей №1',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250906_bn',
         reg: 'https://orgeo.ru/event/info/45955',
@@ -1170,7 +1170,7 @@ let events_2025 =
     }, {
         date: '2025-09-13',
         place: 'Луга, Крупели',
-        name: 'Лужский меридиан #82',
+        name: 'Лужский меридиан №82',
         fmt: '2.5, 5',
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
@@ -1215,7 +1215,7 @@ let events_2025 =
     }, {
         date: '2025-09-17',
         place: 'Выборгский район, шк №161',
-        name: 'Спортивное ориентирование - в школу #58',
+        name: 'Спортивное ориентирование - в школу №58',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250917',
         photo: 'http://vk.com/album-230167293_311078726',
@@ -1279,7 +1279,7 @@ let events_2025 =
     }, {
         date: '2025-09-23',
         place: 'Кировский район, шк №221',
-        name: 'Спортивное ориентирование - в школу #59',
+        name: 'Спортивное ориентирование - в школу №59',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250923',
         owner: 'SFSO_SPB',
@@ -1287,7 +1287,7 @@ let events_2025 =
     }, {
         date: '2025-09-24',
         place: 'Фрунзенский район, шк №303',
-        name: 'Спортивное ориентирование - в школу #60',
+        name: 'Спортивное ориентирование - в школу №60',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250924',
         owner: 'SFSO_SPB',
@@ -1318,7 +1318,7 @@ let events_2025 =
     }, {
         date: '2025-09-27',
         place: 'Луга, оз. Толони',
-        name: 'Кубок Коротких Рогейнов #4',
+        name: 'Кубок Коротких Рогейнов №4',
         fmt:  '4',
         type: 'ROGAINE',
         link:  ['https://vk.com/event166397868','https://t.me/lugarogein'],
