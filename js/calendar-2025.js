@@ -47,7 +47,7 @@ let events_2025 =
         place: 'Орехово',
         name: 'ЧиП СПб',
         type: ['ORIENT','SKI'],
-        fmt: 'ЛГ-классика, ЛГ-классика-масстарт',
+        fmt: 'ЛГ-классика, ЛГ-масстарт',
         link: 'https://o-site.spb.ru/race.php?id=250119_chemp',
         owner: 'SFSO_SPB'
     }, {

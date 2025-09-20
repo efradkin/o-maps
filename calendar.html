@@ -91,8 +91,7 @@
                 <th data-sort="date" class="sortable" data-order="desc">Дата</th>
                 <th data-sort="name" class="sortable">Название</th>
                 <th data-sort="place" class="sortable">Место</th>
-                <th>Вид</th>
-                <th>Формат</th>
+                <th>Вид спорта / формат</th>
                 <th>Регистрация</th>
                 <th>Результаты</th>
                 <th>Трансляции</th>
@@ -213,7 +212,6 @@
                 td(event, row, buildName(event));
                 td(event, row, buildPlace(event));
                 td(event, row, buildType(event));
-                td(event, row, event.fmt ?? '');
                 td(event, row, buildReg(event));
                 td(event, row, buildRes(event));
                 td(event, row, buildTranslations(event));
@@ -336,20 +334,28 @@
         }
 
         function buildType(event) {
+            let result;
             switch (event.type) {
-                case 'ORIENT': return 'Ориент';
-                case 'ROGAINE': return 'Рогейн';
-                case 'MULTI': return 'Мульти';
-                case 'TOURISM': return 'Кросс-поход';
+                case 'ORIENT': result = 'Ориент'; break;
+                case 'ROGAINE': result = 'Рогейн'; break;
+                case 'MULTI': result = 'Мульти'; break;
+                case 'TOURISM': result = 'Кросс-поход';
             }
-            if (event.type.includes('SKI')) {
-                if (isRogaine(event)) {
-                    return 'Лыжный рогейн';
+            if (!result) {
+                if (event.type.includes('SKI')) {
+                    if (isRogaine(event)) {
+                        result = 'Лыжный рогейн';
+                    } else {
+                        result = 'Лыжи';
+                    }
                 } else {
-                    return 'Лыжи';
+                    result = 'Рогейн, Ориент';
                 }
             }
-            return 'Рогейн, Ориент';
+            if (event.fmt) {
+                result += '<br/><small>' + event.fmt + '</small>'
+            }
+            return result;
         }
 
         function buildTranslations(event) {
