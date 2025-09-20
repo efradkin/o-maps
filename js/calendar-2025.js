@@ -1159,11 +1159,12 @@ let events_2025 =
         map: 'toksovo_malinovaya_gora_2018'
     }, {
         date: '2025-09-13',
-        place: 'Калищенское оз',
+        place: 'Сосновый Бор, Калищенское оз',
         name: 'ЧиП Соснового Бора',
         type: 'ORIENT',
         link: 'https://vk.com/wall-201330282_1914',
         photo: 'https://vk.com/album-201330282_308427063',
+        video: 'https://vk.com/video-184397039_456268595',
         owner: 'YUVNT',
         map: 'kalischenskoe_oz_2021'
     }, {
@@ -1212,6 +1213,15 @@ let events_2025 =
         owner: 'KUZM',
         map: 'toksovo_oz_svetloe_2017'
     }, {
+        date: '2025-09-17',
+        place: 'Выборгский район, шк №161',
+        name: 'Спортивное ориентирование - в школу #58',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250917',
+        photo: 'http://vk.com/album-230167293_311078726',
+        owner: 'SFSO_SPB',
+        start: 'SCHOOL',
+    }, {
         date: '2025-09-19',
         place: 'Полюстровский парк',
         name: 'Золотая осень',
@@ -1219,6 +1229,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250919_zo',
         reg: 'https://orgeo.ru/event/45724',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23439/',
         map: 'polyustrovsky_2022'
     }, {
         date: '2025-09-20',
@@ -1244,6 +1255,8 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250920',
         reg: 'https://orgeo.ru/event/info/46223',
+        photo: 'https://vk.com/album-128591100_308572316',
+        video: 'https://vk.com/wall-128591100_3181',
         map: 'vsevolozhsk_zhdanovskie_oz_2023'
     }, {
         date: '2025-09-20',
@@ -1264,11 +1277,29 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/alekseeva2025',
         owner: 'WN'
     }, {
+        date: '2025-09-23',
+        place: 'Кировский район, шк №221',
+        name: 'Спортивное ориентирование - в школу #59',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250923',
+        owner: 'SFSO_SPB',
+        start: 'SCHOOL',
+    }, {
+        date: '2025-09-24',
+        place: 'Фрунзенский район, шк №303',
+        name: 'Спортивное ориентирование - в школу #60',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250924',
+        owner: 'SFSO_SPB',
+        start: 'SCHOOL',
+    }, {
         date: '2025-09-24',
         place: 'Пионерская',
         name: 'СПРИНТ ТУР',
         fmt: 'спринт',
         type: 'ORIENT',
+        link: 'https://vk.com/wall-92124592_2160',
+        reg: 'https://orgeo.ru/event/46442',
         start: 'ST'
     }, {
         date: '2025-09-26',
