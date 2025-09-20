@@ -89,10 +89,9 @@
             <tr>
                 <th>&nbsp</th>
                 <th data-sort="date" class="sortable" data-order="desc">Дата</th>
-                <th data-sort="name" class="sortable">Название</th>
+                <th data-sort="name" class="sortable">Старт / регистрация</th>
                 <th data-sort="place" class="sortable">Место</th>
                 <th>Вид спорта / формат</th>
-                <th>Регистрация</th>
                 <th>Результаты</th>
                 <th>Трансляции</th>
                 <th>Прочее</th>
@@ -209,10 +208,9 @@
                 }
                 td(event, row, i + 1);
                 td(event, row, buildDate(event));
-                td(event, row, buildName(event));
+                td(event, row, buildStart(event));
                 td(event, row, buildPlace(event));
                 td(event, row, buildType(event));
-                td(event, row, buildReg(event));
                 td(event, row, buildRes(event));
                 td(event, row, buildTranslations(event));
                 td(event, row, event.any ?? '');
@@ -250,7 +248,7 @@
             return result;
         }
 
-        function buildName(event) {
+        function buildStart(event) {
             let result = '';
 
             let logo;
@@ -272,6 +270,9 @@
                     result += event.name;
                 }
             }
+            if (event.reg) {
+                result += ', <span title="Регистрация">' + buildReg(event) + '</span>';
+            }
             return result;
         }
 
@@ -285,18 +286,16 @@
         }
 
         function buildReg(event) {
-            if (event.reg) {
-                if (event.reg.includes('orgeo')) {
-                    return buildLink(event.reg, 'Orgeo');
-                } else if (event.reg.includes('o-reg')) {
-                    return buildLink(event.reg, 'O-Reg');
-                } else if (event.reg.includes('o-time')) {
-                    return buildLink(event.reg, 'O-Time');
-                } else if (event.reg.includes('multsport')) {
-                    return buildLink(event.reg, 'Multsport');
-                } else if (event.reg.includes('sportident')) {
-                    return buildLink(event.reg, 'Sportident');
-                }
+            if (event.reg.includes('orgeo')) {
+                return buildLink(event.reg, 'Orgeo');
+            } else if (event.reg.includes('o-reg')) {
+                return buildLink(event.reg, 'O-Reg');
+            } else if (event.reg.includes('o-time')) {
+                return buildLink(event.reg, 'O-Time');
+            } else if (event.reg.includes('multsport')) {
+                return buildLink(event.reg, 'Multsport');
+            } else if (event.reg.includes('sportident')) {
+                return buildLink(event.reg, 'Sportident');
             }
             return buildLink(event.reg, '<img src="./images/url-file.png" />');
         }
