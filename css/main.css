@@ -264,6 +264,9 @@ label:has(> span span .layer-separator) {
     margin-left: 170px;
     min-height: 160px;
 }
+.mobile-popup-text {
+    min-width: 300px;
+}
 .popup-content {
     border: solid lightgray;
     border-radius: 10px;
@@ -632,5 +635,10 @@ body.integration-body {
     .o-sheet-wrapper {
         overflow-y: inherit;
         height: inherit;
+    }
+    .popup-logo {
+        position: unset;
+        max-width: 150px;
+        margin: 20px 75px;
     }
 }

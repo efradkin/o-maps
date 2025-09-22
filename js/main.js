@@ -1074,9 +1074,15 @@ function buildPopup(m, latLngs) {
     if (logo.length >= 2) {
         let carousel = LOGO_CAROUSEL_TEMPLATE.replace('image_1', logo[0]);
         carousel = carousel.replace('image_2', logo[1]);
-        result += carousel + '<div class="popup-text"<div class="popup-text"';
+        result += carousel;
     } else if (logo.length === 1) {
-        result += '<img src="./' + logo[0] + '" alt="" class="popup-logo" /><div class="popup-text"';
+        result += '<img src="./' + logo[0] + '" alt="" class="popup-logo" />';
+    }
+    if (isMobile) {
+        result += '<br />';
+        result += '<div class="mobile-popup-text">';
+    } else {
+        result += '<div class="popup-text">';
     }
 
     // имя
