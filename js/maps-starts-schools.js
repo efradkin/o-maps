@@ -410,4 +410,15 @@ let schoolMaps = [
         author: 'KUZNTSV_A',
         type: ['SPRINT','CITY']
     },
+    {
+        name: 'Школа №161',
+        year: 2025,
+        info: '17.09. <a href="https://o-site.spb.ru/race.php?id=250917">Инфо и результаты.</a>',
+        start: 'SCHOOL',
+        url: './maps/city/school_161_2025.webp',
+        link: ['./original_maps/schools/school_161_2025_omaps.gif','./original_maps/schools/school_161_2025_omaps.ocd'],
+        bounds: [[60.07128592561678, 30.311257839202884], [60.070718518243694, 30.316214561462406], [60.06999050958314, 30.310678482055668]],
+        author: 'KUZNTSV_A',
+        type: ['SPRINT','CITY']
+    },
 ];
