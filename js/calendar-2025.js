@@ -1238,6 +1238,8 @@ let events_2025 =
         fmt: '2, 5',
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/39879',
+        photo: 'https://vk.com/album-31941981_308581632',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23457/',
         start: 'GK'
     }, {
         date: '2025-09-20',
@@ -1245,8 +1247,10 @@ let events_2025 =
         name: 'Лемболовский Мемориал',
         fmt: 'ночное',
         type: 'ORIENT',
-        link: 'https://spb-orient.ru/lemb/2025/lemb.html',
-        reg: 'https://reg.spb-orient.ru/'
+        link: 'https://spb-orient.ru/lemb2025',
+        reg: 'https://reg.spb-orient.ru/',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23458/',
+        photo: 'https://vk.com/album-268751_308678065'
     }, {
         date: '2025-09-20',
         place: 'Ждановское оз',
@@ -1270,11 +1274,18 @@ let events_2025 =
     }, {
         date: '2025-09-20',
         endDate: '2025-09-21',
-        place: 'Журавлевское оз',
+        place: 'Мичуринское, Журавлевское оз',
         name: 'Гран-при Владимира Алексеева',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250921',
         reg: 'https://orgeo.ru/event/alekseeva2025',
+        gps: {
+            'МЭ': 'https://viewer.o-gps-center.ru/viewer/event/23442/',
+            'ЖЭ': 'https://viewer.o-gps-center.ru/viewer/event/23438/',
+            'М18/40': 'https://viewer.o-gps-center.ru/viewer/event/23453/'
+        },
+        photo: 'https://blinova-photo.ru/disk/memorial-alekseeva',
+        reskeep: ['797','798'],
         owner: 'WN'
     }, {
         date: '2025-09-23',
@@ -1301,6 +1312,19 @@ let events_2025 =
         link: 'https://vk.com/wall-92124592_2160',
         reg: 'https://orgeo.ru/event/46442',
         start: 'ST'
+    }, {
+        date: '2025-09-26',
+        place: 'Красногвардейский р-он, Ржевский л/п',
+        name: 'Физкультурное мероприятие по спортивному ориентированию',
+        type: 'ORIENT',
+        fmt: 'выбор',
+        reg: 'https://orgeo.ru/event/46431'
+    }, {
+        date: '2025-09-26',
+        place: 'Невский р-он, парк Есенина',
+        name: 'Физкультурное мероприятие по спортивному ориентированию',
+        type: 'ORIENT',
+        reg: 'https://vk.com/wall-84775415_29449'
     }, {
         date: '2025-09-26',
         endDate: '2025-09-30',
@@ -1367,11 +1391,20 @@ let events_2025 =
         owner: 'NW'
     }, {
         date: '2025-10-11',
+        place: 'Кавголово',
+        name: 'Тренировка от "Горный кросс"',
+        fmt:  '1',
+        type: 'ROGAINE',
+        link: 'https://vk.com/wall-31941981_4742',
+        reg: 'https://orgeo.ru/event/39880',
+        start: 'GK'
+    }, {
+        date: '2025-10-11',
         place: 'Моторное',
         name: 'BikeAdventure',
         fmt:  '6',
         type: 'ROGAINE',
-        link: ' vk.com/bikeadventure',
+        link: 'vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/44940',
         start: 'BA'
     }, {
