@@ -121,6 +121,7 @@
         let loadImagesRequired = false;
         let mapsOnStore = false;
         let documentsPage = true;
+        let currentSort = 'date';
 
         let oEvents = [
             ...events_2025,
@@ -190,10 +191,23 @@
         function renderMapsTable() {
             tbody.innerHTML = '';
 
+            let currentMonth = -1;
             for (let i = 0; i < oEvents.length; i++) {
                 let event = oEvents[i];
-                const row = document.createElement('tr');
                 let date = new Date(event.date);
+                let month = date.getMonth();
+                if (currentSort === 'date' && month !== currentMonth) {
+                    let monthName = date.toLocaleString('ru', { month: 'long' }).toUpperCase().split('').join(' ');
+                    currentMonth = month;
+                    const monthRow = document.createElement('tr');
+                    const td = document.createElement('td');
+                    td.setAttribute('colspan', 8);
+                    td.classList.add('month-row');
+                    td.innerHTML = monthName;
+                    monthRow.appendChild(td);
+                    tbody.appendChild(monthRow);
+                }
+                const row = document.createElement('tr');
                 let now = new Date();
                 if ((date < now) && (Math.abs(date - now) > DAY_TIME_RANGE)) {
                     row.classList.add('disabled');
@@ -210,22 +224,22 @@
                 } else if (isRogaine(event)) {
                     row.classList.add('rogaine');
                 }
-                td(event, row, i + 1);
-                td(event, row, buildDate(event));
-                td(event, row, buildStart(event));
-                td(event, row, buildPlace(event));
-                td(event, row, buildType(event));
-                td(event, row, buildRes(event));
-                td(event, row, buildTranslations(event));
-                td(event, row, event.any ?? '');
+                td(row, i + 1);
+                td(row, buildDate(event));
+                td(row, buildStart(event));
+                td(row, buildPlace(event));
+                td(row, buildType(event));
+                td(row, buildRes(event));
+                td(row, buildTranslations(event));
+                td(row, event.any ?? '');
                 tbody.appendChild(row);
             }
             document.body.style.cursor = 'default';
         }
 
-        function td(m, row, html) {
+        function td(row, html) {
             const td = document.createElement('td');
-            td.innerHTML = ((false) ? '<b>' : '') + html + ((false) ? '</b>' : '');
+            td.innerHTML = html;
             row.appendChild(td);
         }
 
@@ -399,7 +413,8 @@
             }
 
             const isAscending = this.dataset.order === 'asc';
-            switch (this.dataset.sort) {
+            currentSort = this.dataset.sort;
+            switch (currentSort) {
                 case 'name':
                     oEvents.sort((a, b) => {
                         return isAscending ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name);

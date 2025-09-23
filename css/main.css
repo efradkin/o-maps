@@ -630,6 +630,12 @@ body.integration-body {
         .cancelled {
             text-decoration: line-through solid;
         }
+        .month-row {
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            background-color: darkolivegreen;
+        }
     }
 }
 
