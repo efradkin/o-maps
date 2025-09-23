@@ -898,8 +898,8 @@ let events_2025 =
         map: 'toksovo_ska_2014'
     }, {
         date: '2025-07-08',
-        place: 'Парк Интернационалистов',
-        name: 'Физкультурное мероприятие',
+        place: 'Фрунзенский р-он, Парк Интернационалистов',
+        name: 'Физкультурное мероприятие по ориентированию',
         type: 'ORIENT',
         link: 'https://vk.com/wall-30686281_22293',
         map: 'internatsionalistov_2021'
@@ -1241,6 +1241,7 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/39879',
         photo: 'https://vk.com/album-31941981_308581632',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23457/',
+        map: 'molodezhnoe_gk_2024',
         start: 'GK'
     }, {
         date: '2025-09-20',

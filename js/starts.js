@@ -109,6 +109,7 @@ let starts = {
     GK: {
         short: 'ГК',
         name: '<a href="https://vk.com/club31941981">Горный кросс</a>',
+        logo: 'gk.gif',
         link: 'https://vk.com/club31941981'
     },
     VO_FOTO: {

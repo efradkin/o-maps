@@ -55,6 +55,7 @@ let owners = {
     },
     GK: {
         name: '© Горный Кросс, Александр Шумский',
+        logo: 'gk.gif',
         rogaine: true
     },
     GOLDMRSHRT: {

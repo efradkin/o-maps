@@ -38,6 +38,16 @@ let rogaineMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Молодёжное - ГК',
+        year: 2024,
+        url: './maps/rogaine/molodezhnoe_gk_2024.webp',
+        link: './original_maps/rogaine/molodezhnoe_gk_2024_omaps.jpg',
+        bounds: [[60.27319556884442, 29.48241233825684], [60.27323812924954, 29.62772369384766], [60.19039607775666, 29.482069015502933]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20578/',
+        owner: 'GK',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Зеленогорск, Прибой',
         year: 2011,
         url: './maps/winter/zelenogorsk_schuchje_winter_2011.webp',
