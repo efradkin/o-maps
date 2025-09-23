@@ -230,7 +230,7 @@
                         <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_year#map_place#map_start#map_info"/></a>
                     </div>
             `;
-            row = row.replace('#map_img_src', m.url);
+            row = row.replace('#map_img_src', mapImageUrl(m));
             row = row.replace('#map_href', m.link);
             row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(m.url));
             let year = m.startYear ? m.startYear : m.year;

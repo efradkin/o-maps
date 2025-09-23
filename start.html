@@ -167,7 +167,7 @@
                     </div>
             `;
             row = row.replace('#start_short', strt.short);
-            row = row.replace('#map_img_src', m.url);
+            row = row.replace('#map_img_src', mapImageUrl(m));
             row = row.replace('#map_href', m.link);
             row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(m.url));
             row = row.replace('#map_year', m.startYear ? m.startYear : m.year);

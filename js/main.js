@@ -259,7 +259,7 @@ function buildTrackPopup(t, gpxLayer) {
     result += '<br />Поделиться <a href="' + trackLinkUrl + '">ссылкой</a> на маршрут: <a href="#" ' + copyCick + '><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
 
     // скрыть трек
-    let hideCick = 'onclick="hideMap(map, \'' + firstTrack + '\'); return false;"';
+    let hideCick = 'onclick="hideTrack(map, \'' + firstTrack + '\'); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + hideCick + '>Скрыть этот трек</a></div>';
 
     result += '</div>';
@@ -773,10 +773,6 @@ function loadMap(m, forse) {
         return;
     }
 
-    if (isMapHidden(m)) {
-        m.url = OLIVE_IMAGE_URL;
-    }
-
     if (!forse) { // the specified start maps filtering
         if (START_NAME_PARAM) {
             if (START_NAME_PARAM === 'major') {
@@ -844,7 +840,7 @@ function loadMap(m, forse) {
 function loadMapImage(m) {
     imagesLoadCounter++;
     m.img = new Image();
-    m.img.src = m.url;
+    m.img.src = mapImageUrl(m);
     m.img.onerror = function () {
         notificationControl.warning('Ошибка загрузки карты "' + m.name + '". Попробуйте обновить страницу.');
     }
@@ -875,7 +871,7 @@ function buildMap(m) {
         L.latLng(bounds[2])
     ];
     let imgLayer = L.imageOverlay.rotated(
-        m.url, latLngs[0], latLngs[1], latLngs[2],
+        mapImageUrl(m), latLngs[0], latLngs[1], latLngs[2],
         {
             opacity: 1,
             interactive: true,
@@ -947,7 +943,7 @@ function syncMaps() {
                 if (zoom <= EMPTY_MAPS_ZOOM_LEVEL) {
                     m.layer.setUrl(EMPTY_IMAGE_URL);
                 } else {
-                    m.layer.setUrl(m.url);
+                    m.layer.setUrl(mapImageUrl(m));
                 }
             }
             map.addLayer(m.layer);
@@ -1093,9 +1089,7 @@ function buildPopup(m, latLngs) {
     result += '&nbsp;-&nbsp;' + area + '&nbsp;км<sup>2</sup>';
 
     // ссылка на страничку инфа
-    if (!m.url.includes('olive.png')) {
-        result += ' <a class="map-info-link" href="./map-info.html?map=' + extractFileName(m.url) + '" title="Информация о карте">🔗</a>';
-    }
+    result += ' <a class="map-info-link" href="./map-info.html?map=' + extractFileName(m.url) + '" title="Информация о карте">🔗</a>';
 
     result += '</b><hr />';
 
@@ -1167,7 +1161,7 @@ function buildPopup(m, latLngs) {
             result += 'Посмотреть карту отдельно можно <a href="' + m.url + '">тут</a>.';
         }
     }
-    if (!m.url.includes('olive.png')) {
+    if (!isMapHidden(m)) {
         let mapLinkUrl = mapLink(m.url);
         let onclick = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
         result += '<br />Поделиться <a href="' + mapLinkUrl + '">ссылкой</a> на карту: <a href="#" ' + onclick + '><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
@@ -1179,7 +1173,7 @@ function buildPopup(m, latLngs) {
     }
 
     // скрыть карту
-    let onclick = 'onclick="hideMap(map, \'' + m.url + '\'); return false;"';
+    let onclick = 'onclick="hideMap(map, \'' + m.url + '\', ' + isMapHidden(m) + ', \'' + m.name + '\', ' + m.year + '); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть эту карту</a></div>';
 
     if (logo) {
@@ -1322,7 +1316,7 @@ function onMapSelect(ovrl, m) {
     selectedOverlay = ovrl;
     selectedMap = m;
 
-    ovrl.setUrl(m.url);
+    ovrl.setUrl(mapImageUrl(m));
     upZindex(ovrl);
 
     if (editMode) {
@@ -1335,7 +1329,6 @@ function onMapSelect(ovrl, m) {
 function onMapClick(e) {
     let coordinate = e.latlng.lat + ", " + e.latlng.lng;
     copyToClipboard(coordinate);
-    welcomeDialog.close();
     searchBox.hide();
 }
 

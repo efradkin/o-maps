@@ -16,18 +16,22 @@ if (m.info) {
 
 let MAP_TEMPLATE = '<a href="#preview_href" target="_blank" title="Скачать карту" class="map_preview" target="_blank"><img src="#img_src" /></a><br /><br />';
 let previews = '';
-if (m.link) {
-    document.querySelector('#download_links').innerHTML = buildDownloadLinks(m.link, m.links);
+if (!isMapHidden(m)) {
+    if (m.link) {
+        document.querySelector('#download_links').innerHTML = buildDownloadLinks(m.link, m.links);
 
-    let links = Array.isArray(m.link) ? m.link : [m.link];
-    for (const l of links) {
-        if (!l.endsWith('pdf')) {
-            previews += MAP_TEMPLATE.replace('#preview_href', l).replace('#img_src', l);
+        let links = Array.isArray(m.link) ? m.link : [m.link];
+        for (const l of links) {
+            if (!l.endsWith('pdf')) {
+                previews += MAP_TEMPLATE.replace('#preview_href', l).replace('#img_src', l);
+            }
         }
     }
-}
-if (!previews) {
-    previews = MAP_TEMPLATE.replace('#img_src', m.url).replace('#preview_href', '#');
+    if (!previews) {
+        previews = MAP_TEMPLATE.replace('#img_src', m.url).replace('#preview_href', '#');
+    }
+} else {
+    putValue('#map_hidden', ' ');
 }
 document.querySelector('#preview_maps').innerHTML = previews;
 
@@ -40,11 +44,11 @@ if (m.docs) {
         let url = 'docs/' + m.docs[0] + '/doc_' + d + '_omaps.jpg';
         previews += DOC_TEMPLATE.replaceAll('#doc_src', url);
     }
+    if (!previews) {
+        previews = DOC_TEMPLATE.replace('#doc_src', m.url).replace('#preview_href', '#');
+    }
+    document.querySelector('#docs_images').innerHTML = previews;
 }
-if (!previews) {
-    previews = DOC_TEMPLATE.replace('#doc_src', m.url).replace('#preview_href', '#');
-}
-document.querySelector('#docs_images').innerHTML = previews;
 
 putValue('#map_gps', buildGpsLinks(m));
 putValue('#map_author', buildAuthors(m));

@@ -364,12 +364,26 @@ function upZindex(ovrl) {
     ovrl.getElement().style.zIndex = maxZindex;
 }
 
-function hideMap(map, url) {
+function mapImageUrl(m) {
+    return isMapHidden(m) ? OLIVE_IMAGE_URL : m.url;
+}
+
+function hideMap(map, url, isHidden, name, year) {
     map.eachLayer(function(layer){
-        if (layer._url && layer._url.includes(url)) {
+        if (isHidden) {
+            if (layer._url && layer._url.includes(OLIVE_IMAGE_URL) &&
+                (layer.options.alt === name) && (layer._popup._content.includes(`(${year})`))) {
+                layer.removeFrom(map);
+            }
+        } else if (layer._url && layer._url.includes(url)) {
             layer.removeFrom(map);
         }
-        else if (layer._gpx && layer._gpx === url) {
+    });
+}
+
+function hideTrack(map, url) {
+    map.eachLayer(function(layer){
+        if (layer._gpx && layer._gpx === url) {
             layer.removeFrom(map);
         }
     });
