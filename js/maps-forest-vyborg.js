@@ -578,7 +578,8 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/kirovskie_dachi_2014.webp',
         bounds: [[60.764525674175374, 28.730278015136722], [60.76016572789462, 28.784265518188477], [60.74662096140217, 28.724441528320316]],
         author: ['BRGNTS','VRBY','MLNKV_L'],
-        owner: 'VYBORG'
+        owner: 'VYBORG',
+        restricted: 'с 01.09.2025 по 19.10.2025, Золотая осень им.Б.В.Фролова'
     },
     {
         name: 'Комсомольское',
