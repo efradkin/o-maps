@@ -438,7 +438,7 @@ let events_2025 =
         map: 'silande_2024'
     }, {
         date: '2025-04-29',
-        place: 'М"Академическая"',
+        place: 'Академическая',
         name: 'СПРИНТ ТУР №1',
         fmt: 'спринт',
         type: 'ORIENT',
@@ -627,7 +627,7 @@ let events_2025 =
         photo: 'https://vk.com/album-230167293_309756773'
     }, {
         date: '2025-05-21',
-        place: 'М"Удельная", Гданьская ул',
+        place: 'Удельная, Гданьская ул',
         name: 'СПРИНТ ТУР №2',
         type: 'ORIENT',
         fmt: 'спринт',
@@ -666,7 +666,7 @@ let events_2025 =
         owner: 'VYBORG'
     }, {
         date: '2025-05-28',
-        place: 'М"Пионерская", аллея Поликарпова',
+        place: 'Пионерская, аллея Поликарпова',
         name: 'СПРИНТ ТУР №3',
         type: 'ORIENT',
         fmt: 'спринт',
@@ -980,7 +980,7 @@ let events_2025 =
         owner: 'WN'
     }, {
         date: '2025-08-05',
-        place: 'М"Чёрная Речка"',
+        place: 'Чёрная Речка',
         name: 'СПРИНТ ТУР №4',
         type: 'ORIENT',
         fmt: 'спринт',
@@ -1137,7 +1137,7 @@ let events_2025 =
         map: 'kirovsk_2025'
     }, {
         date: '2025-09-10',
-        place: 'М"Нарская", ул Турбинная',
+        place: 'Нарская, ул Турбинная',
         name: 'СПРИНТ ТУР',
         type: 'ORIENT',
         fmt: 'спринт',
@@ -1222,6 +1222,7 @@ let events_2025 =
         photo: 'http://vk.com/album-230167293_311078726',
         owner: 'SFSO_SPB',
         start: 'SCHOOL',
+        map: 'school_161_2025'
     }, {
         date: '2025-09-19',
         place: 'Полюстровский парк',
@@ -1252,7 +1253,8 @@ let events_2025 =
         link: 'https://spb-orient.ru/lemb2025',
         reg: 'https://reg.spb-orient.ru/',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23458/',
-        photo: 'https://vk.com/album-268751_308678065'
+        photo: 'https://vk.com/album-268751_308678065',
+        map: 'lembolovo_orekhovo_2023'
     }, {
         date: '2025-09-20',
         place: 'Ждановское оз',
@@ -1320,13 +1322,15 @@ let events_2025 =
         name: 'Физкультурное мероприятие по спортивному ориентированию',
         type: 'ORIENT',
         fmt: 'выбор',
-        reg: 'https://orgeo.ru/event/46431'
+        reg: 'https://orgeo.ru/event/46431',
+        map: 'rzhevsky_2024'
     }, {
         date: '2025-09-26',
         place: 'Невский р-он, парк Есенина',
         name: 'Физкультурное мероприятие по спортивному ориентированию',
         type: 'ORIENT',
-        reg: 'https://vk.com/wall-84775415_29449'
+        reg: 'https://vk.com/wall-84775415_29449',
+        map: 'esenina_2014'
     }, {
         date: '2025-09-26',
         endDate: '2025-09-30',
@@ -1356,7 +1360,8 @@ let events_2025 =
         fmt: 'лонг',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250928_MY',
-        reg: 'o-reg.spb.ru/?filter[day_id]=1696'
+        reg: 'o-reg.spb.ru/?filter[day_id]=1696',
+        map: 'yappilya_tarasovskoe_2024'
     }, {
         date: '2025-10-04',
         place: 'Лемболово',
@@ -1381,7 +1386,8 @@ let events_2025 =
         name: 'Легенда осени',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251011',
-        reg: 'https://orgeo.ru/event/info/legendaoseni25'
+        reg: 'https://orgeo.ru/event/info/legendaoseni25',
+        map: 'polyustrovsky_2022'
     }, {
         date: '2025-10-11',
         place: 'оз Силанде',
@@ -1390,7 +1396,8 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251011_50',
         reg: 'https://sportident.online/entry/?id=6732',
-        owner: 'NW'
+        owner: 'NW',
+        map: 'silande_2024'
     }, {
         date: '2025-10-11',
         place: 'Кавголово',
