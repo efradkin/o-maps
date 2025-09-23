@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.83">
     <title>o-Maps: карты в наличии</title>
     <meta name="description" content="Спортивные карты Санкт-Петербурга в наличии на o-Maps.">
     <link rel="icon" type="image/png" href="favicon.png"/>
@@ -108,6 +108,7 @@
     <script src="js/maps-starts-kkp.js"></script>
     <script src="js/maps-starts-gs.js"></script>
 
+    <script src="js/welcome.js"></script>
     <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
     <script src="js/owners.js"></script>
@@ -150,6 +151,8 @@
             ...schoolMaps,
         ];
         oMaps = oMaps.filter(m => (m.qtty !== undefined));
+
+        writeWelcomeButton();
     </script>
 
     <script src="js/map-build.js"></script>

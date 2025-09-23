@@ -113,17 +113,22 @@ closeBtnEl.addEventListener("click", () => {
 
 // --- welcome dialog (https://github.com/NBTSolutions/Leaflet.Dialog) ---
 function openWelcome() {
-    const sw = window.innerWidth;
-    const sh = window.innerHeight;
+    const sw = screen.availWidth;
+    const sh = screen.availHeight;
 
     let dw = sw - 444;
-    if (dw < sw / 2) dw = sw - 111;
+    if (sw < 800) {
+        dw = sw - 50;
+    }
     if (dw > 842) dw = 842;
     let dh = sh - 300;
-    if (sh < 800) dh = sh - 100;
+    if (sh < 800) {
+        dh = sh - 100;
+    }
 
     dialogEl.style.width = dw + 'px';
     dialogEl.style.height = dh + 'px';
+    dialogEl.style.top = '50px';
 
     dialogEl.showModal();
 
@@ -138,4 +143,12 @@ function openWelcomeIfRequired() {
             openWelcome();
         }, 3000);
     }
+}
+
+function writeWelcomeButton() {
+    const BUTTON = '<a href="#" onclick="openWelcome(); return false" class="about-button" title="О проекте"><img src="images/information_24.png" ></a>';
+    const template = document.createElement('template');
+    template.innerHTML = BUTTON;
+    document.body.prepend(template.content.firstChild);
+    openWelcomeIfRequired();
 }

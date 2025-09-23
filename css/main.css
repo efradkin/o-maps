@@ -128,7 +128,7 @@ a, a:active, a:focus {
 .header_selector {
     position: relative;
     top: -6px;
-    left: 30px;
+    left: 20px;
     border: 1px solid black;
     padding: 5px;
     border-radius: 5px;
@@ -310,9 +310,9 @@ label:has(> span span .layer-separator) {
 }
 .stat-map-link {
     float: left;
-    margin-right: 30px;
+    margin: 0 20px;
     background-color: white;
-    padding: 2px 10px;
+    padding: 8px 10px;
     border: 1px solid black;
 }
 .stat-map-link-right {
@@ -354,14 +354,20 @@ label:has(> span span .layer-separator) {
 }
 .sheet-body {
     h1 {
+        width: 100%;
+        text-align: center;
         margin-bottom: 0;
         label {
             font-size: .5em;
-            margin-right: -35px;
-            margin-left: 40px;
+            margin-right: -25px;
+            margin-left: 30px;
             position: relative;
             top: -5px;
         }
+    }
+    h2 {
+        width: 100%;
+        text-align: center;
     }
 }
 #sheet-spinner {
@@ -449,6 +455,17 @@ label:has(> span span .layer-separator) {
 .start-sheet {
     td {
         padding: 15px 10px;
+    }
+}
+.about-button {
+    float: left;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    img {
+        margin: 8px;
     }
 }
 
