@@ -450,12 +450,12 @@ let events_2025 =
     }, {
         date: '2025-05-01',
         place: 'Гарболово',
-        name: 'Приз газеты «Всеволожские вести»',
+            name: 'Приз газеты «Всеволожские вести»',
         fmt: 'лонг',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250501',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22425/',
-        photo: 'https://vk.com/album-128591100_307166407',
+        photo: ['https://vk.com/album-128591100_307166407','https://vk.com/album-128591100_307078157'],
         start: 'YM',
         map: 'garbolovo_2016'
     }, {
@@ -593,6 +593,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=25_KS',
         reg: 'https://orgeo.ru/event/43174',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22595/',
+        photo: 'https://vk.com/album-128591100_306187926',
         owner: 'KUZM'
     }, {
         date: '2025-05-17',
@@ -1284,7 +1285,7 @@ let events_2025 =
             'ЖЭ': 'https://viewer.o-gps-center.ru/viewer/event/23438/',
             'М18/40': 'https://viewer.o-gps-center.ru/viewer/event/23453/'
         },
-        photo: 'https://blinova-photo.ru/disk/memorial-alekseeva',
+        photo: ['https://blinova-photo.ru/disk/memorial-alekseeva','https://vk.com/album-196511971_308663761','https://vk.com/album-196511971_308664416'],
         reskeep: ['797','798'],
         owner: 'WN'
     }, {
