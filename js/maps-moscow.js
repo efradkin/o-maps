@@ -945,7 +945,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/anikeevka_2004_omaps.jpg',
         bounds: [[55.86876179475812, 37.24485397338868], [55.86437909911537, 37.294893264770515], [55.835662623012354, 37.235498428344734]],
         author: ['MTN_Y','BLTV','PZGRV','JASHPTRV'],
-        logo: 'fsor.jpg'
+        logo: 'fsor.webp'
     },
     {
         name: 'Крылатское',
@@ -1777,7 +1777,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/butovsky_2013.webp',
         link: ['./original_maps/moscow/ak/butovsky_2013_omaps.pdf','./original_maps/moscow/ak/butovsky_2013_2_omaps.jpg'],
         bounds: [[55.585221534678304, 37.52914667129517], [55.58292938102626, 37.56598949432374], [55.56788759269478, 37.52543449401856]],
-        logo: 'fsor.jpg',
+        logo: 'fsor.webp',
         type: ['PARK']
     },
     {

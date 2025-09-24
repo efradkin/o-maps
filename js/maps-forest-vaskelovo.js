@@ -80,7 +80,7 @@ let vaskelovoMaps = [
     {
         name: 'Лемболово-Орехово',
         info: 'Карта лыжного марафона-Ретро, проводимого <a href="https://o-site.spb.ru/history/Peoples/bap.html">Борисом Панкратьевым</a>.',
-        logo: 'nevsky_azimut.jpg',
+        logo: 'nevsky_azimut.gif',
         year: 1991,
         excluded: true,
         area: 28,
@@ -140,7 +140,7 @@ let vaskelovoMaps = [
     {
         name: 'Лемболовское',
         year: 1991,
-        logo: 'nevsky_azimut.jpg',
+        logo: 'nevsky_azimut.gif',
         url: './maps/forest/vaskelovo/lembolovsky_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovsky_1991_omaps.jpg',
         bounds: [[60.378490456569175, 30.22699356079102], [60.37535097486695, 30.292739868164066], [60.3178110096362, 30.210342407226562]],
@@ -183,7 +183,7 @@ let vaskelovoMaps = [
     {
         name: 'Гарболово',
         year: 1991,
-        logo: 'azimut.jpg',
+        logo: 'azimut.gif',
         url: './maps/forest/vaskelovo/garbolovo_1991.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_1991_omaps.jpg',
         bounds: [[60.36440284798612, 30.50259590148926], [60.36198357968282, 30.556669235229496], [60.33718634477972, 30.49736022949219]],
@@ -430,7 +430,7 @@ let vaskelovoMaps = [
     {
         name: 'Лемболово',
         year: 2002,
-        logo: 'na.jpg',
+        logo: 'na.gif',
         url: './maps/forest/vaskelovo/lembolovo_2002.webp',
         link: ['./original_maps/forest/vaskelovo/lembolovo_2002_omaps.jpg','./original_maps/forest/vaskelovo/lembolovo_2002_2_omaps.jpg'],
         bounds: [[60.44807521353942, 30.28458595275879], [60.44282553011336, 30.369215011596683], [60.39774498025911, 30.271539688110355]],

@@ -1274,7 +1274,9 @@ let events_2025 =
         fmt: '4, 8',
         type: 'ROGAINE',
         link: 'https://www.multsport.ru/starts/veloizol25/',
-        reg: 'https://www.multsport.ru/starts/veloizol25/registration.html'
+        reg: 'https://www.multsport.ru/starts/veloizol25/registration.html',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23470/',
+        photo: 'https://vk.com/album-8292013_311140243'
     }, {
         date: '2025-09-20',
         endDate: '2025-09-21',
@@ -1288,9 +1290,16 @@ let events_2025 =
             'ЖЭ': 'https://viewer.o-gps-center.ru/viewer/event/23438/',
             'М18/40': 'https://viewer.o-gps-center.ru/viewer/event/23453/'
         },
-        photo: ['https://blinova-photo.ru/disk/memorial-alekseeva','https://vk.com/album-196511971_308663761','https://vk.com/album-196511971_308664416'],
+        photo: ['https://blinova-photo.ru/disk/memorial-alekseeva','https://vk.com/album-196511971_308663761','https://vk.com/album-196511971_308664416','https://disk.yandex.ru/d/ZXRwTS4efDLiLQ'],
         reskeep: ['797','798'],
         owner: 'WN'
+    }, {
+        date: '2025-09-20',
+        place: 'Ягодное',
+        name: 'Турслёт ИТМО',
+        type: 'ORIENT',
+        fmt: 'ночное',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23464/'
     }, {
         date: '2025-09-23',
         place: 'Кировский район, шк №221',
