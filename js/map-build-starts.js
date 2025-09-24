@@ -37,6 +37,7 @@ let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [
 let otherGroup = L.layerGroup([]);
 let schoolGroup = L.layerGroup([]);
 let wnGroup = L.layerGroup([]);
+let orientirGroup = L.layerGroup([]);
 let naGroup = L.layerGroup([]);
 let ymGroup = L.layerGroup([]);
 let mmsGroup = L.layerGroup([]);
@@ -57,6 +58,7 @@ let allOrientGroups = [
     otherGroup,
     schoolGroup,
     wnGroup,
+    orientirGroup,
     naGroup,
     ymGroup,
     mmsGroup,
@@ -114,6 +116,7 @@ if (mapElement) {
             case 'REPORT': activeLayers.push(osmLayer, otherGroup); break;
             case 'SCHOOL': activeLayers.push(osmLayer, schoolGroup); break;
             case 'WN': activeLayers.push(osmLayer, wnGroup); break;
+            case 'ORIENTIR': activeLayers.push(osmLayer, orientirGroup); break;
             case 'NA': activeLayers.push(osmLayer, naGroup); break;
             case 'YM': activeLayers.push(osmLayer, ymGroup); break;
             case 'KKP': activeLayers.push(osmLayer, kkpGroup); break;
@@ -133,7 +136,7 @@ if (mapElement) {
         }
     } else {
         activeLayers.push(
-            osmLayer, otherGroup, schoolGroup, wnGroup, naGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup, volkovGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
+            osmLayer, otherGroup, schoolGroup, wnGroup, naGroup, orientirGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup, volkovGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
             //...Object.values(ageGroups),
         );
     }
@@ -152,6 +155,7 @@ function buildOverlayMapsContents() {
         "Спринт-Тур": stGroup,
         "Школы": schoolGroup,
         "Яркий Мир": ymGroup,
+        "Ориентир (ретро)": orientirGroup,
         "100x24": sto24Group,
         "BA/TA": baGroup,
         "RFAR": rfarGroup,
@@ -195,6 +199,7 @@ function pushStartGroupToMap(start, m) {
         case 'REPORT': pushGroupToMap(m, otherGroup); break;
         case 'SCHOOL': pushGroupToMap(m, schoolGroup); break;
         case 'WN': pushGroupToMap(m, wnGroup); break;
+        case 'ORIENTIR': pushGroupToMap(m, orientirGroup); break;
         case 'NA': pushGroupToMap(m, naGroup); break;
         case 'YM': pushGroupToMap(m, ymGroup); break;
         case 'GS': pushGroupToMap(m, gsGroup); break;

@@ -1318,12 +1318,13 @@ let events_2025 =
         start: 'SCHOOL',
     }, {
         date: '2025-09-24',
-        place: 'Пионерская',
+        place: 'Пионерская, Серебристый бульвар',
         name: 'СПРИНТ ТУР',
         fmt: 'спринт',
         type: 'ORIENT',
         link: 'https://vk.com/wall-92124592_2160',
         reg: 'https://orgeo.ru/event/46442',
+        reskeep: 799,
         start: 'ST'
     }, {
         date: '2025-09-26',
