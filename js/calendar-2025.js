@@ -1243,6 +1243,7 @@ let events_2025 =
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/39879',
         photo: 'https://vk.com/album-31941981_308581632',
+        video: 'https://vk.com/video-31941981_456239087',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23457/',
         map: 'molodezhnoe_gk_2024',
         start: 'GK'
