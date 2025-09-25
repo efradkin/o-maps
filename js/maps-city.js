@@ -1075,7 +1075,7 @@ let cityMaps = [
         type: ['CITY']
     },
     {
-        name: 'Аллея Поликарпова',
+        name: 'Пионерская, Аллея Поликарпова',
         year: 2024,
         url: './maps/city/alleya_polikarpova_2024.webp',
         link: ['./original_maps/city/polikarpova_2024_st_omaps.gif','./original_maps/city/polikarpova_2025_st_omaps.jpg'],
@@ -1084,6 +1084,18 @@ let cityMaps = [
         author: 'CHGRVSKY_Y',
         start: 'ST',
         owner: 'KUZM',
+        type: ['CITY']
+    },
+    {
+        name: 'Пионерская, Серебристый бульвар',
+        year: 2025,
+        url: './maps/city/pionerskaya_2025_st.webp',
+        link: './original_maps/city/pionerskaya_2025_st_omaps.gif',
+        info: '24-09. <a href="https://reskeep.ru/event/get?id=799">Результаты</a>, <a href="https://vk.com/@-92124592-noname-sprint-tur-2025-24092025?subtype=primary">разбор дистанций</a>.',
+        bounds: [[60.00517626951101, 30.281217098236088], [60.00342769666826, 30.29842615127564], [59.99954403247419, 30.278792381286625]],
+        author: 'CHGRVSKY_Y',
+        start: 'ST',
+        owner: 'KUZM_CHGRVSKY',
         type: ['CITY']
     },
     {

@@ -1325,7 +1325,10 @@ let events_2025 =
         link: 'https://vk.com/wall-92124592_2160',
         reg: 'https://orgeo.ru/event/46442',
         reskeep: 799,
-        start: 'ST'
+        map: 'pionerskaya_2025_st',
+        photo: ['https://vk.com/album-92124592_308559130','https://disk.yandex.ru/d/AZzu-M9KzcRvyg'],
+        start: 'ST',
+        any: '<a href="https://vk.com/@-92124592-noname-sprint-tur-2025-24092025?subtype=primary">Разбор дистанций</a>'
     }, {
         date: '2025-09-26',
         place: 'Красногвардейский р-он, Ржевский л/п',

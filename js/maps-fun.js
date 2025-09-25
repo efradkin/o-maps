@@ -108,7 +108,7 @@ let funMaps = [
         type: ['FOTO']
     },
     {
-        name: 'Андреевский блвр',
+        name: 'Андреевский бульвар',
         year: 2024,
         start: 'VO_FOTO',
         url: './maps/fun/andreevsky_blvr_quest_2024.webp',
