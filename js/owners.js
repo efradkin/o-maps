@@ -140,6 +140,7 @@ let owners = {
     },
     MLTSPRT: {
         name: '© <a href="https://www.multsport.ru/">Мультиспорт</a>',
+        logo: 'multsport.webp',
         rogaine: true
     },
     NW: {

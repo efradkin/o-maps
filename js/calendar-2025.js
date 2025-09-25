@@ -8,7 +8,6 @@ let events_2025 =
         fmt: 'маркир,спринт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250108_RS',
-        res: 'https://multsport.ru/starts/winter-rogaine-25/results.html',
         gps: {
             'маркир':'https://viewer.o-gps-center.ru/viewer/event/21366/',
             'спринт':'https://viewer.o-gps-center.ru/viewer/event/21375/'
@@ -23,7 +22,8 @@ let events_2025 =
         link: 'https://www.multsport.ru/starts/winter-rogaine-25/',
         res: 'https://multsport.ru/starts/winter-rogaine-25/results.html',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21398/',
-        photo: 'https://vk.com/album-8292013_308226055'
+        photo: 'https://vk.com/album-8292013_308226055',
+        start: 'MULTSPORT'
     }, {
         date: '2025-01-12',
         place: 'Кировск',
@@ -191,7 +191,8 @@ let events_2025 =
         link: 'https://www.multsport.ru/starts/ice-trail-2025/',
         reg: 'https://www.multsport.ru/starts/ice-trail-2025/registration.html',
         res: 'https://multsport.ru/starts/ice-trail-2025/results.html',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21771/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/21771/',
+        start: 'MULTSPORT'
     }, {
         date: '2025-03-09',
         place: 'Орехово',
@@ -1073,7 +1074,8 @@ let events_2025 =
         link: 'https://www.multsport.ru/starts/klo-sar-25/',
         reg: 'https://www.multsport.ru/starts/klo-sar-25/registration.html',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23326/',
-        photo: 'https://vk.com/album-8292013_310872932'
+        photo: 'https://vk.com/album-8292013_310872932',
+        start: 'MULTSPORT'
     }, {
         date: '2025-08-30',
         place: 'Пухтолова гора',
@@ -1276,7 +1278,8 @@ let events_2025 =
         link: 'https://www.multsport.ru/starts/veloizol25/',
         reg: 'https://www.multsport.ru/starts/veloizol25/registration.html',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23470/',
-        photo: 'https://vk.com/album-8292013_311140243'
+        photo: 'https://vk.com/album-8292013_311140243',
+        start: 'MULTSPORT'
     }, {
         date: '2025-09-20',
         endDate: '2025-09-21',
@@ -1456,12 +1459,14 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/44894',
         start: 'MB'
     }, {
-        date: '2025-10-19',
+        date: '2025-10-25',
         place: 'Суоранда',
         name: 'Рогейн на "Голубой даче" (финал КЛО)',
         fmt:  '4',
         type: 'ROGAINE',
-        link: 'https://vk.com/rogainingspb'
+        link: 'https://www.multsport.ru/starts/klo-final-25/',
+        reg: 'https://www.multsport.ru/starts/klo-final-25/registration.html',
+        start: 'MULTSPORT'
     }, {
         date: '2025-11-15',
         name: 'Рогейн на Лужских берегах',
