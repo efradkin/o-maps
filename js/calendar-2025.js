@@ -1306,6 +1306,7 @@ let events_2025 =
         name: 'Спортивное ориентирование - в школу №59',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250923',
+        photo: 'https://vk.com/album-230167293_311153204',
         owner: 'SFSO_SPB',
         start: 'SCHOOL',
     }, {
@@ -1358,6 +1359,12 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250927',
         reg: 'https://orgeo.ru/event/45984'
+    }, {
+        date: '2025-09-27',
+        place: 'Приозерск, о Каменистый',
+        name: 'XII Кубок Весты №1, Памяти друзей, П-во Приозерска',
+        type: 'ORIENT',
+        link: 'https://vk.com/wall-30365190_8650',
     }, {
         date: '2025-09-27',
         place: 'Луга, оз. Толони',
