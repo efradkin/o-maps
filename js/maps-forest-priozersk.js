@@ -138,7 +138,7 @@ let priozerskMaps = [
         author: ['VLKV_K','BGCHNS','OVCHNNKV','PTRV_A']
     },
     {
-        name: 'Кузнечное, оз Волковское-Суури',
+        name: 'Кузнечное, оз Суури',
         year: 1984,
         startYear: 1990,
         info: '28.07, Ориентир-22',

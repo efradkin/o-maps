@@ -799,7 +799,7 @@ let parkMaps = [
         type: ['PARK']
     },
     {
-        name: 'Невский лесопарк',
+        name: 'Невский л/п',
         year: 1990,
         url: './maps/parks/nevsky_1990.webp',
         link: './original_maps/parks/nevsky_1990_omaps.jpg',
