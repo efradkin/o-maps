@@ -68,11 +68,7 @@
     <script>
         // Фильтрация массива. Оставляем только карты нужного старта.
         oMaps = oMaps.filter(m => (m.layer !== undefined));
-        if (oMaps[0].month) {
-            oMaps.sort((a, b) => (b.month || 0) - (a.month || 0));
-        }
-        oMaps.sort((a, b) => (b.year || 0) - (a.year || 0));
-
+        oMaps.sort((a, b) => dateForCompare(b) - dateForCompare(a));
         document.getElementById('start_name').innerHTML = starts['KKM'].name;
 
         document.querySelector('#start_info').style.display = 'block';
@@ -94,11 +90,12 @@
                         <a href="#map_link" target="_self"><img src="#map_img_src" title='Маршрут ККМ от #map_month.#map_year - #map_place'/></a>
                     </div>
             `;
+            const date = new Date(m.date);
             row = row.replace('#map_img_src', m.url);
             row = row.replace('#map_href', m.link);
             row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(m.url));
-            row = row.replace('#map_year', m.year);
-            row = row.replace('#map_month', m.month);
+            row = row.replace('#map_year', date.getFullYear());
+            row = row.replace('#map_month', date.getMonth() + 1);
             row = row.replace('#map_place', m.name);
             const elRow = document.createElement("div");
             elRow.classList.add("row");

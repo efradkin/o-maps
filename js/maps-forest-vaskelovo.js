@@ -3,11 +3,11 @@ let vaskelovoMaps = [
     // --- ВАСКЕЛОВО - ГРУЗИНО - ЛЕМБОЛОВО - ОРЕХОВО ---
     {
         name: 'Орехово',
-        year: 1966,
+        date: '1966-03-13',
         start: 'MEET_1966',
         url: './maps/forest/vaskelovo/orekhovo_1966.webp',
         link: ['./original_maps/forest/meet_1966_title.jpg','./original_maps/forest/meet_1966_agenda.jpg','./original_maps/forest/vaskelovo/orekhovo_1966_omaps.jpg'],
-        info: '13.03, маркир-эстафета.',
+        info: 'Маркир-эстафета.',
         bounds: [[60.4456198220461, 30.166482925415043], [60.44574682960571, 30.2464771270752], [60.41351333008904, 30.169658660888675]]
     },
     {
@@ -92,8 +92,8 @@ let vaskelovoMaps = [
     },
     {
         name: 'Лемболово, юг',
-        year: 1995,
-        info: '29.05, Model.',
+        date: '1995-05-29',
+        info: 'Model.',
         url: './maps/forest/vaskelovo/lembolovo_vwc_model_1995.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_vwc_model_1995_omaps.jpg',
         bounds: [[60.40465517082461, 30.27913570404053], [60.40274759610977, 30.31359672546387], [60.37827833895728, 30.273342132568363]],
@@ -129,7 +129,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'оз Силанде',
-        year: 2025,
+        date: '2025-06-20',
         url: './maps/forest/vaskelovo/silande_2025.webp',
         link: './original_maps/forest/vaskelovo/silande_2025_omaps.jpg',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23126/',
@@ -319,10 +319,10 @@ let vaskelovoMaps = [
     },
     {
         name: 'Орехово, юг',
-        year: 2021,
+        date: '2021-06-06',
         url: './maps/forest/vaskelovo/orekhovo_south_2021.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_south_2021_omaps.gif',
-        info: '6.06. <a href="https://o-site.spb.ru/race.php?id=210606">Чип СПб, лонг</a>.',
+        info: '<a href="https://o-site.spb.ru/race.php?id=210606">Чип СПб, лонг</a>.',
         gps: {
             'М': 'https://viewer.o-gps-center.ru/viewer/event/10104/',
             'Ж': 'https://viewer.o-gps-center.ru/viewer/event/10105/',
@@ -465,8 +465,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'Пески, оз Пулконлампи',
-        year: 2001,
-        info: '28.06',
+        date: '2001-06-28',
         url: './maps/forest/vaskelovo/peski_pulkonlampi_2001.webp',
         link: ['./original_maps/forest/vaskelovo/peski_pulkonlampi_2001_omaps.jpg','./original_maps/starts/mms/mms_2001_06_28.jpg'],
         start: 'MMS',
@@ -476,8 +475,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'Пески, Забытое оз',
-        year: 2001,
-        info: '30.06',
+        date: '2001-06-30',
         url: './maps/forest/vaskelovo/peski_zabytoe_2001.webp',
         link: './original_maps/forest/vaskelovo/peski_zabytoe_2001_omaps.jpg',
         start: 'MMS',
@@ -487,8 +485,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'Пески, оз Стайка',
-        year: 2001,
-        info: '30.06',
+        date: '2001-06-30',
         url: './maps/forest/vaskelovo/peski_stayka_2001.webp',
         link: './original_maps/starts/mms/mms_2001_06_30.jpg',
         start: 'MMS',

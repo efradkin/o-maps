@@ -324,7 +324,7 @@ let parkMaps = [
     },
     {
         name: 'Парки Пионерский и им.акд. Сахарова',
-        year: 2015,
+        date: '2021-05-12',
         url: './maps/parks/sakharova_2015.webp',
         link: ['./original_maps/parks/sakharova_2015_omaps.jpg','./original_maps/parks/sakharova_2021_st_omaps.gif'],
         bounds: [[59.98593688316973, 30.405607223510746], [59.98421949511812, 30.424554347991947], [59.97620026042496, 30.402088165283207]],
@@ -590,9 +590,9 @@ let parkMaps = [
     },
     {
         name: 'Гатчина, парк Зверинец',
-        year: 2005,
+        date: '2005-02-06',
         major: true,
-        info: '06.02, Чемпионат России по ориентированию бегом на заснеженном грунте.',
+        info: 'Чемпионат России по ориентированию бегом на заснеженном грунте.',
         url: './maps/parks/gatchina_zverinets_2005.webp',
         link: './original_maps/parks/gatchina_zverinets_2005_omaps.jpg',
         bounds: [[59.58639060698327, 30.08018016815186], [59.58306645580455, 30.124039649963382], [59.56650598635047, 30.074558258056644]],
@@ -760,7 +760,7 @@ let parkMaps = [
     },
     {
         name: 'Муринский парк, восток',
-        year: 2018,
+        date: '2023-04-26',
         url: './maps/parks/murinsky_east_2023.webp',
         link: ['./original_maps/parks/murinsky_east_2018_st_omaps.gif','./original_maps/parks/murinsky_east_2023_omaps.gif'],
         bounds: [[60.025712396620634, 30.40728092193604], [60.02525141209402, 30.430841445922855], [60.017563815481694, 30.407409667968754]],

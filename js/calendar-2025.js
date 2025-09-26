@@ -1278,9 +1278,9 @@ let events_2025 =
         fmt: '4, 8',
         type: 'ROGAINE',
         link: 'https://www.multsport.ru/starts/veloizol25/',
-        reg: 'https://www.multsport.ru/starts/veloizol25/registration.html',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23470/',
         photo: 'https://vk.com/album-8292013_311140243',
+        video: 'https://vk.com/video-8292013_456239254',
         start: 'MULTSPORT'
     }, {
         date: '2025-09-20',
@@ -1477,12 +1477,12 @@ let events_2025 =
         type: 'ROGAINE',
         link:  ['https://vk.com/event166397868','https://t.me/lugarogein']
     }, {
-        date: '2025-11-29',
+        date: '2025-11-30',
         place: 'Великий Новгород',
         name: 'Исторический рогейн (ЛМ)',
         fmt: '2.5, 4',
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
-        reg: 'https://orgeo.ru/event/info/44912'
+        reg: 'https://orgeo.ru/event/44912'
     }
 ];

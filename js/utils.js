@@ -23,6 +23,63 @@ let color = {
     WALK: 'brown',
     WATER: 'darkblue',
 };
+var WEAK_DAYS_SHORT = [
+    'ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'
+];
+const MONTHS_SHORT = [
+    'ЯНВ', 'ФЕВ', 'МАР', 'АПР', 'МАЯ', 'ИЮН',
+    'ИЮЛ', 'АВГ', 'СЕН', 'ОКТ', 'НОЯ', 'ДЕК'
+];
+
+function year(o) { // map, track, event
+    if (o.year) return o.year;
+    if (o.date) {
+        return new Date(o.date).getFullYear();
+    }
+    return null;
+}
+
+function startYear(o) { // map, track, event
+    if (o.startYear) return o.startYear;
+    if (o.date) {
+        return new Date(o.date).getFullYear();
+    }
+    return null;
+}
+
+function dateForCompare(m) {
+    if (m.date) return new Date(m.date);
+    const sy = m.startYear;
+    if (sy) {
+        return new Date(sy, 0);
+    }
+    const y = m.year;
+    if (y) {
+        return new Date(y, 0);
+    }
+    return new Date(0, 0);
+}
+
+function formatDate(o, withYear, withDayOfWeek) { // map, track, event with ".date"
+    if (!o.date) {
+        return '';
+    }
+    const date = new Date(o.date);
+    const day = date.getDate();
+    const month = MONTHS_SHORT[date.getMonth()];
+    const year = date.getFullYear();
+    const dayWeek = WEAK_DAYS_SHORT[date.getDay()];
+    if (withYear && withDayOfWeek) {
+        return `${day} ${month} ${year} (${dayWeek})`;
+    } else if (withYear && !withDayOfWeek) {
+        return `${day} ${month} ${year}`;
+    } else if (!withYear && withDayOfWeek) {
+        return `${day} ${month} (${dayWeek})`;
+    } else {
+        return `${day} ${month}`;
+    }
+}
+
 let skiTrackKind = {
     SKATE_ROUTE: {
         name:'Конёк',
@@ -256,7 +313,8 @@ function searchMaps(text) {
     let year = Number(text);
     if (year) {
         for (const m of oMaps) {
-            if (m.year && m.year === year && !isMapHidden(m)) {
+            let y = year(m);
+            if (y && y === year && !isMapHidden(m)) {
                 results.push(m);
             }
         }
@@ -306,31 +364,31 @@ function searchMap(text) {
         return;
     }
 
-    let title, year;
+    let title, y;
     let idx = text.indexOf('(');
     if (idx >= 0) {
-        year = Number(text.substring(idx + 1, idx + 5));
+        y = Number(text.substring(idx + 1, idx + 5));
         title = text.substring(0, idx - 1).trim();
     } else {
-        year = Number(text);
+        y = Number(text);
     }
     if (title) {
         for (const m of oMaps) {
-            if (unifyString(m.name).includes(title) && (!year || year === m.year) && !isMapHidden(m)) {
+            if (unifyString(m.name).includes(title) && (!y || y === year(m)) && !isMapHidden(m)) {
                 return m;
             }
         }
         if (!isNull(oTracks)) {
             for (const t of oTracks) {
-                if (unifyString(t.name).includes(title) && (!year || year === t.year)) {
+                if (unifyString(t.name).includes(title) && (!y || y === t.year)) {
                     return t;
                 }
             }
         }
     } else
-    if (year) {
+    if (y) {
         for (const m of oMaps) {
-            if (year === m.year && !isMapHidden(m)) {
+            if (y === year(m) && !isMapHidden(m)) {
                 return m;
             }
         }
@@ -433,7 +491,7 @@ function buildMapsCSV(maps, owner) {
     maps.sort((a, b) => a.name.localeCompare(b.name));
     for (const m of maps) {
         if (owner === undefined || owner === m.owner || (Array.isArray(m.owner) && m.owner.includes(owner))) {
-            result += '\n' + m.name + CSV_SPRTR + safe(m.year) + CSV_SPRTR + o(m.owner) + CSV_SPRTR + link(m.url) +
+            result += '\n' + m.name + CSV_SPRTR + safe(year(m)) + CSV_SPRTR + o(m.owner) + CSV_SPRTR + link(m.url) +
                 CSV_SPRTR + link(m.link) + CSV_SPRTR + safe(m.info) + CSV_SPRTR + start(m.start) + CSV_SPRTR + safe(m.gps) + CSV_SPRTR + m.type;
         }
     }

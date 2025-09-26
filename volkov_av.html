@@ -74,10 +74,7 @@
 
         // Фильтрация массива. Оставляем только карты нужного старта.
         oMaps = oMaps.filter(m => (m.layer !== undefined));
-        if (oMaps[0].month) {
-            oMaps.sort((a, b) => (b.month || 0) - (a.month || 0));
-        }
-        oMaps.sort((a, b) => ((b.startYear || (b.year || 0)) - (a.startYear || (a.year || 0))));
+        oMaps.sort((a, b) => ((startYear(b) || (b.year || 0)) - (startYear(a) || (a.year || 0))));
 
         let strt = starts['VOLKOV_A'];
 
@@ -103,8 +100,8 @@
             row = row.replace('#map_img_src', m.url);
             row = row.replace('#map_href', m.link);
             row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(m.url));
-            row = row.replace('#map_year', m.startYear ? m.startYear : m.year);
-            row = row.replace('#map_month', m.month);
+            row = row.replace('#map_year', startYear(m) ?? year(m));
+            //row = row.replace('#map_month', m.month);
             row = row.replace('#map_place', m.name);
             const elRow = document.createElement("div");
             elRow.classList.add("row");

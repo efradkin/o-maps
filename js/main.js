@@ -221,7 +221,7 @@ function buildTrackPopup(t, gpxLayer) {
     }
     result += '<img src="' + pic + '" alt="" class="popup-logo" /><div class="popup-text">';
 
-    // имя, ссылка, год и длина
+    // имя, ссылка, год и длина трека
     result += '<b>';
     if (t.link) {
         result += '<a href="' + t.link + '">' + t.name + '</a>';
@@ -284,9 +284,11 @@ if (mapElement) {
             let mapType = m.type;
             if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN') || mapType.includes('FOTO'))) {
                 activeLayers.push(funGroup, rogaineGroup);
-            } else
-            if (m.year && m.year < 2000 && (typeof groupRetro !== 'undefined')) {
-                activeLayers.push(groupRetro, group90th);
+            } else {
+                let y = year(m);
+                if (y && y < 2000 && (typeof groupRetro !== 'undefined')) {
+                    activeLayers.push(groupRetro, group90th);
+                }
             }
         }
     } else if (START_NAME_PARAM === 'major' && !isNull(groupRetro)) {
@@ -979,10 +981,12 @@ function mapTitle(m, forStart, colored) {
         result += '<span class="' + m.type[0] + '">';
     }
     result += m.name;
-    if (m.year) {
-        let year = m.year > 1 ? m.year : 'ретро';
-        if (forStart && m.startYear) {
-            year = m.startYear;
+    let y = year(m);
+    if (y) {
+        let year = y > 1 ? y : 'ретро';
+        let sy = startYear(m);
+        if (forStart && sy) {
+            year = sy;
         }
         result += '&nbsp;(' + year + ')';
     }
@@ -1098,11 +1102,20 @@ function buildPopup(m, latLngs) {
     if (m.type && m.type.includes('FOTO')) {
         info += '<b>Фото-ориентирование.</b> ';
     }
+    let d = formatDate(m);
+    let sy = startYear(m);
+    if (d) {
+        info += `<b>${d}</b>`;
+    } else {
+        if (sy) {
+            info += `<b> ${sy}</b>`;
+        }
+    }
+    if (d || sy) {
+        info += '. ';
+    }
     if (m.start) {
         info += '<b>' + getMapStarts(m) + '</b> ';
-    }
-    if (m.startYear) {
-        info += '<b>' + m.startYear + '.</b> ';
     }
     if (m.info) {
         info += m.info;
@@ -1173,7 +1186,7 @@ function buildPopup(m, latLngs) {
     }
 
     // скрыть карту
-    let onclick = 'onclick="hideMap(map, \'' + m.url + '\', ' + isMapHidden(m) + ', \'' + m.name + '\', ' + m.year + '); return false;"';
+    let onclick = 'onclick="hideMap(map, \'' + m.url + '\', ' + isMapHidden(m) + ', \'' + m.name + '\', ' + year(m) + '); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть эту карту</a></div>';
 
     if (logo) {

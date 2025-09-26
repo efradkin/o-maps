@@ -151,8 +151,9 @@
     <script src="js/main.js"></script>
     <script src="js/map-info.js"></script>
     <script>
-        document.querySelectorAll('.map_month').forEach(el => el.innerHTML = m.month);
-        document.querySelectorAll('.map_year').forEach(el => el.innerHTML = m.year);
+        const date = new Date(m.date);
+        document.querySelectorAll('.map_month').forEach(el => el.innerHTML = date.getMonth() + 1);
+        document.querySelectorAll('.map_year').forEach(el => el.innerHTML = date.getFullYear());
         document.getElementById('map_place').innerHTML = m.name;
         putValue('#map_gps_url', m.gps);
         if (m.gps) {

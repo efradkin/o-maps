@@ -88,9 +88,9 @@ let specialMaps = [
     },
     {
         name: 'Цвелодубово',
-        year: 2003,
+        date: '2003-02-21',
         start: 'JWSOC_2003',
-        info: '21.02, ЛГ-спринт.',
+        info: 'ЛГ-спринт.',
         url: './maps/winter/tsvelodubovo_winter_2003.webp',
         link: './original_maps/winter/tsvelodubovo_winter_2003_omaps.jpg',
         bounds: [[60.38012371591987, 29.552407264709476], [60.37715409255567, 29.599828720092777], [60.36293857546221, 29.548244476318363]],
@@ -99,9 +99,9 @@ let specialMaps = [
     },
     {
         name: 'Цвелодубово, оз Рыбацкое',
-        year: 2003,
+        date: '2003-02-20',
         start: 'JWSOC_2003',
-        info: '20.02, ЛГ-спринт.',
+        info: 'ЛГ-спринт.',
         url: './maps/winter/tsvelodubovo_rybatskoe_2003.webp',
         link: './original_maps/winter/tsvelodubovo_rybatskoe_2003_omaps.jpg',
         bounds: [[60.36419063865247, 29.544124603271488], [60.3614317915913, 29.574251174926758], [60.35468224304794, 29.540390968322757]],

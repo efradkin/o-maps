@@ -206,7 +206,7 @@
 
         // Фильтрация массива. Оставляем только карты нужного старта.
         oMaps = oMaps.filter(m => (m.layer !== undefined));
-        oMaps.sort((b, a) => ((b.startYear || (b.year || 9999)) - (a.startYear || (a.year || 9999))));
+        oMaps.sort((b, a) => ((startYear(b) || (year(b) || 9999)) - (startYear(a) || (year(a) || 9999))));
 
         let authorObj = authors[AUTHOR_PARAM];
         if (authorObj) {
@@ -233,9 +233,9 @@
             row = row.replace('#map_img_src', mapImageUrl(m));
             row = row.replace('#map_href', m.link);
             row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(m.url));
-            let year = m.startYear ? m.startYear : m.year;
+            const year = startYear(m) ?? year(m);
             row = row.replace('#map_year', year ? year + ' - ' : '');
-            row = row.replace('#map_month', m.month);
+            //row = row.replace('#map_month', m.month);
             row = row.replace('#map_place', m.name);
             let strt;
             if (m.start) {

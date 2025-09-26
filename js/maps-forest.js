@@ -3,8 +3,8 @@ let forestMaps = [
     // --- лесные карты ---
     {
         name: 'Уткино',
-        year: 1975,
-        info: '26.01. Первенство Ленинграда, маркир.',
+        date: '1975-01-26',
+        info: 'Первенство Ленинграда, маркир.',
         url: './maps/forest/utkino_1975.webp',
         link: './original_maps/forest/utkino_1975_omaps.jpg',
         bounds: [[60.271748482126604, 29.158487319946293], [60.26715142915802, 29.21994209289551], [60.25318604937096, 29.15256500244141]]
@@ -104,9 +104,8 @@ let forestMaps = [
     },
     {
         name: 'Цвелодубово, ур Нагорное',
-        year: 2003,
+        date: '2003-06-18',
         start: 'YM',
-        info: '18.06.',
         url: './maps/forest/tsvelodubovo_nagornoe_2003.webp',
         link: './original_maps/forest/tsvelodubovo_nagornoe_2003_omaps.jpg',
         bounds: [[60.394692158963956, 29.56502437591553], [60.39312323665598, 29.591116905212406], [60.37842682143063, 29.559960365295414]],
@@ -114,9 +113,8 @@ let forestMaps = [
     },
     {
         name: 'Цвелодубово, Марченковский лес',
-        year: 2003,
+        date: '2003-06-17',
         start: 'YM',
-        info: '17.06.',
         url: './maps/forest/tsvelodubovo_marchenkovsky_2003.webp',
         link: './original_maps/forest/tsvelodubovo_marchenkovsky_2003_omaps.jpg',
         bounds: [[60.38037824246949, 29.55352306365967], [60.37719651765257, 29.605321884155277], [60.36198357968282, 29.549446105957035]],
@@ -159,11 +157,11 @@ let forestMaps = [
     },
     {
         name: 'Юкки',
-        year: 1966,
+        date: '1966-03-11',
         start: 'MEET_1966',
         url: './maps/forest/yukki_1966.webp',
         link: ['./original_maps/forest/meet_1966_title.jpg','./original_maps/forest/meet_1966_agenda.jpg','./original_maps/forest/yukki_1966_omaps.jpg'],
-        info: '11.03, маркир.',
+        info: 'Маркир.',
         bounds: [[60.13586367528046, 30.287075042724613], [60.13804329022207, 30.392217636108402], [60.0974189044925, 30.289564132690433]]
     },
     {
@@ -690,6 +688,7 @@ let forestMaps = [
     {
         name: 'Парголовская лыжная трасса',
         year: 2021,
+        date: '2022-09-22',
         start: 'ST',
         url: './maps/forest/pargolovo_2021.webp',
         link: './original_maps/forest/pargolovo_2021_omaps.gif',

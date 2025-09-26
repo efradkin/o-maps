@@ -54,17 +54,18 @@ function calcMapsArea(group) {
 function calcYears() {
     let y2020 = 0, y2010 = 0, y2000 = 0, y1990 = 0, yRetro = 0, yUnknown = 0;
     for (const m of oMaps) {
-        if (m.year && m.year > 1) {
-            if (m.year < 1990) {
+        let y = year(m);
+        if (y && y > 1) {
+            if (y < 1990) {
                 yRetro++;
             } else
-            if (m.year < 2000) {
+            if (y < 2000) {
                 y1990++;
             } else
-            if (m.year < 2010) {
+            if (y < 2010) {
                 y2000++;
             } else
-            if (m.year < 2020) {
+            if (y < 2020) {
                 y2010++;
             } else {
                 y2020++;
@@ -178,7 +179,8 @@ for (const m of oMaps) {
         if (m.area && (!largestMap || (m.area > largestMap.area))) {
             largestMap = m;
         }
-        if ((m.year !== undefined && m.year > 1) && (!oldestMap || (m.year < oldestMap.year))) {
+        let y = year(m);
+        if ((y !== undefined && y > 1) && (!oldestMap || (y < oldestMap.year))) {
             oldestMap = m;
         }
     }
@@ -187,4 +189,4 @@ document.getElementById("largest_map").setAttribute('href', mapLink(largestMap.u
 document.getElementById("largest_map").innerHTML = largestMap.name + ' (' + largestMap.area.toFixed(2) + 'км²)';
 
 document.getElementById("oldest_map").setAttribute('href', mapLink(oldestMap.url));
-document.getElementById("oldest_map").innerHTML = oldestMap.name + ' (' + oldestMap.year + ')';
+document.getElementById("oldest_map").innerHTML = oldestMap.name + ' (' + year(oldestMap) + ')';

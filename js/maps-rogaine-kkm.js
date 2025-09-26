@@ -3,8 +3,7 @@ let rogaineKkmMaps = [
     // --- рогейн ---
     {
         name: 'Зеленогорск',
-        year: 2010,
-        month: 11,
+        date: '2010-11',
         url: './maps/rogaine/kkm/zelenogorsk_KKM_2010_11.webp',
         link: './original_maps/rogaine/kkm/zelenogorsk_KKM_2010_11_omaps.jpg',
         bounds: [[60.265022945174344, 29.736213684082035], [60.25548563747356, 29.844360351562504], [60.19479059799103, 29.715785980224613]],
@@ -14,8 +13,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Зеркальный-лето',
-        year: 2011,
-        month: 6,
+        date: '2011-06',
         url: './maps/rogaine/kkm/zerkalny_KKM_2011.webp',
         link: './original_maps/rogaine/kkm/zerkalny_KKM_2011_omaps.jpg',
         bounds: [[60.318448539117334, 28.91189575195313], [60.31351798708459, 29.250755310058594], [60.17003708320592, 28.90159606933594]],
@@ -26,8 +24,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Дибуны',
-        year: 2012,
-        month: 2,
+        date: '2012-02',
         url: './maps/rogaine/kkm/dibuny_KKM_2012_02.webp',
         link: './original_maps/rogaine/kkm/dibuny_KKM_2012_02_omaps.jpg',
         bounds: [[60.13167499021484, 30.057735443115238], [60.13107656310189, 30.153694152832035], [60.083852031773, 30.06013870239258]],
@@ -37,8 +34,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Орехово',
-        year: 2013,
-        month: 2,
+        date: '2013-02',
         url: './maps/rogaine/kkm/orekhovo_KKM_2013_02.webp',
         link: './original_maps/rogaine/kkm/orekhovo_KKM_2013_02_omaps.jpg',
         bounds: [[60.47773691018313, 30.26767730712891], [60.470292298708905, 30.363636016845707], [60.44608551400392, 30.257635116577152]],
@@ -48,8 +44,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Лосево',
-        year: 2013,
-        month: 6,
+        date: '2013-06',
         url: './maps/rogaine/kkm/losevo_KKM_2013_06.webp',
         link: './original_maps/rogaine/kkm/losevo_KKM_2013_06_omaps.jpg',
         bounds: [[60.69515749014434, 29.89251136779785], [60.688519168422594, 30.01147270202637], [60.671581041620236, 29.88839149475098]],
@@ -59,8 +54,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Солнечное',
-        year: 2013,
-        month: 7,
+        date: '2013-07',
         url: './maps/rogaine/kkm/solnechnoe_KKM_2013_07.webp',
         link: './original_maps/rogaine/kkm/solnechnoe_KKM_2013_07_omaps.jpg',
         bounds: [[60.24509362207604, 29.76951599121094], [60.24475284442206, 29.962120056152347], [60.157397062225606, 29.768142700195316]],
@@ -70,8 +64,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Орехово, р Смородинка',
-        year: 2013,
-        month: 8,
+        date: '2013-08',
         url: './maps/rogaine/kkm/orekhovo_KKM_2013_08.webp',
         link: './original_maps/rogaine/kkm/orekhovo_KKM_2013_08_omaps.jpg',
         bounds: [[60.486997991046856, 30.13429641723633], [60.486067773612014, 30.262012481689457], [60.44409569260203, 30.133781433105472]],
@@ -81,8 +74,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Рощино',
-        year: 2016,
-        month: 3,
+        date: '2016-03',
         url: './maps/rogaine/kkm/roschino_KKM_2016_03.webp',
         link: './original_maps/rogaine/kkm/roschino_KKM_2016_03_omaps.jpg',
         bounds: [[60.27234434911475, 29.493484497070316], [60.272259225923726, 29.59253311157227], [60.19316938717165, 29.49434280395508]],
@@ -92,8 +84,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Васкелово',
-        year: 2016,
-        month: 8,
+        date: '2016-08',
         url: './maps/rogaine/kkm/vaskelovo_KKM_2016_08.webp',
         link: './original_maps/rogaine/kkm/vaskelovo_KKM_2016_08_omaps.jpg',
         bounds: [[60.40995340282287, 30.365867614746097], [60.41037722411491, 30.495815277099613], [60.3359544838447, 30.36552429199219]],
@@ -103,8 +94,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Шевелево',
-        year: 2017,
-        month: 3,
+        date: '2017-03',
         url: './maps/rogaine/kkm/shevelevo_KKM_2017_03.webp',
         link: './original_maps/rogaine/kkm/shevelevo_KKM_2017_03_omaps.jpg',
         bounds: [[60.33833320798648, 29.29040908813477], [60.338588061002966, 29.44318771362305], [60.285876119662845, 29.289207458496097]],
@@ -114,8 +104,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Орехово, Ракитинское оз',
-        year: 2020,
-        month: 11,
+        date: '2020-11',
         url: './maps/rogaine/kkm/orekhovo_KKM_2020_11.webp',
         link: './original_maps/rogaine/kkm/orekhovo_KKM_2020_11_omaps.jpg',
         bounds: [[60.474226311886945, 30.283470153808597], [60.46580778814421, 30.379900932312015], [60.44147063539492, 30.271110534667972]],
@@ -125,8 +114,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Шапки',
-        year: 2020,
-        month: 12,
+        date: '2020-12',
         url: './maps/rogaine/kkm/shapki_KKM_2020.jpg',
         link: './original_maps/rogaine/kkm/shapki_KKM_2020_12_omaps.jpg',
         bounds: [[59.628663378277295, 31.12838745117188], [59.625712307963056, 31.18280410766602], [59.59401535961515, 31.12040519714356]],
@@ -137,8 +125,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Кавголово',
-        year: 2021,
-        month: 2,
+        date: '2021-02',
         url: './maps/rogaine/kkm/kavgolovo_KKM_2021_02.webp',
         link: './original_maps/rogaine/kkm/kavgolovo_KKM_2021_02_omaps.jpg',
         bounds: [[60.19291339919565, 30.44242858886719], [60.19461994799159, 30.553150177001957], [60.15718350659903, 30.43169975280762]],
@@ -149,8 +136,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Колосково',
-        year: 2021,
-        month: 5,
+        date: '2021-05',
         url: './maps/rogaine/kkm/koloskovo_KKM_2021_05.webp',
         link: './original_maps/rogaine/kkm/koloskovo_KKM_2021_05_omaps.jpg',
         bounds: [[60.63161716201196, 30.16450881958008], [60.633469215649896, 30.266475677490238], [60.580095898259955, 30.16794204711914]],
@@ -161,8 +147,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Сиверский',
-        year: 2021,
-        month: 6,
+        date: '2021-06',
         url: './maps/rogaine/siversky_2021.webp',
         link: './original_maps/rogaine/kkm/siversky_2021_omaps.jpg',
         bounds: [[59.34763292781556, 29.9403190612793], [59.34710781719707, 30.060310363769535], [59.29429276788343, 29.940490722656254]],
@@ -171,8 +156,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Петяярви',
-        year: 2021,
-        month: 7,
+        date: '2021-07',
         url: './maps/rogaine/kkm/petyajarvi_KKM_2021_07.webp',
         link: './original_maps/rogaine/kkm/petyajarvi_KKM_2021_07_omaps.jpg',
         bounds: [[60.633637578887054, 30.0062370300293], [60.63734134766943, 30.175666809082035], [60.576174726269265, 30.01052856445313]],
@@ -183,8 +167,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Сосновка',
-        year: 2021,
-        month: 10,
+        date: '2021-10',
         url: './maps/rogaine/kkm/sosnovka_KKM_2021_10.webp',
         link: './original_maps/rogaine/kkm/sosnovka_KKM_2021_10_omaps.jpg',
         bounds: [[60.03441629255553, 30.32106399536133], [60.03197257300201, 30.370244979858402], [60.012158911595996, 30.315999984741214]],
@@ -195,8 +178,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Екатерингоф',
-        year: 2021,
-        month: 11,
+        date: '2021-11',
         url: './maps/rogaine/kkm/ekateringof_KKM_2021_11.webp',
         link: './original_maps/rogaine/kkm/ekateringof_KKM_2021_11_omaps.jpg',
         bounds: [[59.91041656586618, 30.25566101074219], [59.90843705734661, 30.280551910400394], [59.892166191012564, 30.249309539794925]],
@@ -207,8 +189,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Токсово, оз Хепоярви - СКА, Марафонский круг',
-        year: 2022,
-        month: 2,
+        date: '2022-02',
         url: './maps/rogaine/kkm/toksovo_hepojarvy_KKM_2022_02.webp',
         link: './original_maps/rogaine/kkm/toksovo_hepojarvy_KKM_2022_02_omaps.jpg',
         bounds: [[60.197478218445276, 30.55057525634766], [60.191718762243006, 30.62576293945313], [60.14005182710981, 30.532207489013675]],
@@ -219,8 +200,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Лемболово',
-        year: 2022,
-        month: 3,
+        date: '2022-03',
         url: './maps/rogaine/kkm/lembolovo_KKM_2022_03.webp',
         link: './original_maps/rogaine/kkm/lembolovo_KKM_2022_03_omaps.jpg',
         bounds: [[60.44113190288759, 30.25716304779053], [60.43499176415236, 30.339474678039554], [60.401073077263845, 30.245404243469242]],
@@ -231,8 +211,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Петергофское ш.',
-        year: 2022,
-        month: 10,
+        date: '2022-10',
         url: './maps/rogaine/kkm/peterhof_road_KKM_2022.jpg',
         link: './original_maps/rogaine/kkm/peterhof_road_KKM_2022_10_omaps.jpg',
         bounds: [[59.847531089179114, 30.123653411865238], [59.847487976156614, 30.208883285522464], [59.8233574820502, 30.123610496521]],
@@ -243,8 +222,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Автово',
-        year: 2022,
-        month: 12,
+        date: '2022-12',
         url: './maps/rogaine/kkm/avtovo_KKM_2021_12.webp',
         link: './original_maps/rogaine/kkm/avtovo_KKM_2022_12_omaps.jpg',
         bounds: [[59.90934076065998, 30.25694847106934], [59.90923317822206, 30.29252529144287], [59.88411389968469, 30.256519317626957]],
@@ -255,8 +233,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Петергоф',
-        year: 2023,
-        month: 3,
+        date: '2023-03',
         url: './maps/rogaine/kkm/peterhof_KKM_2023_03.webp',
         link: './original_maps/rogaine/kkm/peterhof_KKM_2023_03_omaps.jpg',
         bounds: [[59.891305076568734, 29.884271621704105], [59.891132851001714, 29.97653961181641], [59.85714389849079, 29.88461494445801]],
@@ -267,8 +244,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Гатчина',
-        year: 2023,
-        month: 5,
+        date: '2023-05',
         url: './maps/rogaine/kkm/gatchina_KKM_2023_05.webp',
         link: './original_maps/rogaine/kkm/gatchina_KKM_2023_05_omaps.jpg',
         bounds: [[59.59449320676533, 30.072841644287113], [59.59414568223871, 30.14511108398438], [59.54336854286804, 30.073013305664066]],
@@ -279,8 +255,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Сиверский, р.Оредеж',
-        year: 2023,
-        month: 6,
+        date: '2023-06',
         url: './maps/rogaine/kkm/oredezh_KKM_2021_06.jpg',
         link: './original_maps/rogaine/kkm/oredezh_KKM_2021_06_omaps.jpg',
         bounds: [[59.370030083826, 30.057048797607425], [59.36989889353371, 30.190429687500004], [59.335947296651405, 30.06065368652344]],
@@ -291,8 +266,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Петроградская сторона',
-        year: 2024,
-        month: 2,
+        date: '2024-02',
         url: './maps/rogaine/kkm/petrogradka_2024_02.webp',
         link: './original_maps/rogaine/kkm/petrogradka_2024_02_omaps.jpg',
         bounds: [[59.97885208310792, 30.23420333862305], [59.97902385377091, 30.33831596374512], [59.947489011645466, 30.235061645507816]],
@@ -303,8 +277,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Владимирская',
-        year: 2024,
-        month: 3,
+        date: '2024-03',
         url: './maps/rogaine/kkm/spb_center_KKM_2024_03.webp',
         link: './original_maps/rogaine/kkm/spb_center_KKM_2024_03_omaps.jpg',
         bounds: [[59.956084587086806, 30.337028503417972], [59.95638539185255, 30.40002822875977], [59.91312744037747, 30.33711433410645]],
@@ -315,8 +288,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Сенная, площадь',
-        year: 2024,
-        month: 4,
+        date: '2024-04',
         url: './maps/rogaine/kkm/spb_center_KKM_2024_04.webp',
         link: './original_maps/rogaine/kkm/spb_center_KKM_2024_04_omaps.jpg',
         bounds: [[59.94929426740136, 30.265102386474613], [59.949681095129826, 30.348186492919925], [59.908652227033265, 30.264587402343754]],
@@ -328,8 +300,7 @@ let rogaineKkmMaps = [
 /*
     {
         name: 'Сестрорецк',
-        year: 2024,
-        month: 5,
+        date: '2024-05',
         url: './maps/rogaine/kkm/sestroretsk_KKM_2024_05.webp',
         link: './original_maps/rogaine/kkm/sestroretsk_KKM_2024_05_omaps.jpg',
         bounds: [[60.130820091007536, 29.91731643676758], [60.13124754338759, 30.013790130615238], [60.05935761134086, 29.91731643676758]],
@@ -342,8 +313,7 @@ let rogaineKkmMaps = [
 /*
     {
         name: 'Крестовский остров',
-        year: 2024,
-        month: 6,
+        date: '2024-06',
         url: './maps/rogaine/kkm/krestovsky_KKM_2024_06.webp',
         link: './original_maps/rogaine/kkm/krestovsky_KKM_2024_06_omaps.jpg',
         bounds: [[59.986065683681495, 30.188369750976566], [59.986237416917476, 30.273771286010746], [59.964377204056234, 30.188970565795902]],
@@ -355,8 +325,7 @@ let rogaineKkmMaps = [
 */
     {
         name: 'Токсово, Осельки',
-        year: 2024,
-        month: 8,
+        date: '2024-08',
         url: './maps/rogaine/kkm/toksovo_KKM_2024_08.webp',
         link: './original_maps/rogaine/kkm/toksovo_KKM_2024_08_omaps.jpg',
         bounds: [[60.2157737824211, 30.425090789794925], [60.217564408179925, 30.509548187255863], [60.160813763561954, 30.429897308349613]],
@@ -367,8 +336,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Токсово',
-        year: 2024,
-        month: 9,
+        date: '2024-09',
         url: './maps/rogaine/kkm/toksovo_KKM_2024_09.webp',
         link: './original_maps/rogaine/kkm/toksovo_KKM_2024_09_omaps.jpg',
         bounds: [[60.193937339120886, 30.399684906005863], [60.18856129813442, 30.501823425292972], [60.130820091007536, 30.383377075195316]],
@@ -380,8 +348,7 @@ let rogaineKkmMaps = [
 /*
     {
         name: 'Васильевский остров',
-        year: 2024,
-        month: 10,
+        date: '2024-10',
         url: './maps/rogaine/kkm/vasiljevsky_2024_10.webp',
         link: './original_maps/rogaine/kkm/vasiljevsky_2024_10_omaps.jpg',
         bounds: [[59.95896360641199, 30.220642089843754], [59.959006574955104, 30.308446884155277], [59.92792577181406, 30.21995544433594]],
@@ -393,8 +360,7 @@ let rogaineKkmMaps = [
 */
     {
         name: 'Павловск',
-        year: 2024,
-        month: 12,
+        date: '2024-12',
         url: './maps/rogaine/kkm/pavlovsk_2024_12.webp',
         link: './original_maps/rogaine/kkm/pavlovsk_KKM_2024_12_omaps.jpg',
         bounds: [[59.70690217342447, 30.43195724487305], [59.70698876336404, 30.49092292785645], [59.68386129364914, 30.432128906250004]],
@@ -405,8 +371,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Горный институт',
-        year: 2025,
-        month: 1,
+        date: '2025-01',
         url: './maps/rogaine/kkm/vasiljevsky_KKM_2025_01.webp',
         link: './original_maps/rogaine/kkm/vasiljevsky_KKM_2025_01_omaps.jpg',
         bounds: [[59.95896360641199, 30.220642089843754], [59.95896360641199, 30.308017730712894], [59.92792577181406, 30.21995544433594]],
@@ -417,8 +382,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'ЗЕНИТ',
-        year: 2025,
-        month: 2,
+        date: '2025-02',
         info: 'Февраль, фотоориентирование.',
         url: './maps/rogaine/kkm/zenit_KKM_2025_02.webp',
         link: ['./original_maps/rogaine/kkm/zenit_KKM_2025_02_omaps.jpeg','./original_maps/rogaine/kkm/zenit_KKM_2025_02_pictures.jpg'],
@@ -430,8 +394,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Спортивная',
-        year: 2025,
-        month: 3,
+        date: '2025-03',
         info: 'Март, фотоориентирование.',
         url: './maps/rogaine/kkm/sportivnaja_KKM_2025_03.webp',
         link: ['./original_maps/rogaine/kkm/sportivnaja_KKM_2025_03.pdf','./original_maps/rogaine/kkm/sportivnaja_KKM_2025_03_pictures.jpg'],
@@ -443,8 +406,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Курорт',
-        year: 2025,
-        month: 4,
+        date: '2025-04',
         info: 'Апрель, фотоориентирование.',
         url: './maps/rogaine/kkm/kurort_KKM_2025_04.webp',
         link: ['./original_maps/rogaine/kkm/kurort_KKM_2025_04_omaps.jpg','./original_maps/rogaine/kkm/kurort_KKM_2025_04_pictures.jpg'],
@@ -456,8 +418,7 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Дудергоф (Можайка)',
-        year: 2025,
-        month: 5,
+        date: '2025-05',
         info: 'Май, фотоориентирование.',
         url: './maps/rogaine/kkm/dudergof_KKM_2025_05.webp',
         link: ['./original_maps/rogaine/kkm/dudergof_KKM_2025_05_omaps.jpg','./original_maps/rogaine/kkm/dudergof_KKM_2025_05_pictures.jpg'],
@@ -469,66 +430,61 @@ let rogaineKkmMaps = [
     },
     {
         name: 'Сиверская',
-        year: 2025,
-        month: 6,
+        date: '2025-06',
         info: 'Июнь. Посещение ООПТ - платное!',
         url: './maps/rogaine/kkm/siversky_KKM_2025_06.webp',
         link: ['./original_maps/rogaine/kkm/siversky_KKM_2025_06_omaps.jpg','./original_maps/rogaine/kkm/siversky_KKM_2025_06_pictures.jpg'],
         bounds: [[59.370489245853925, 30.060524940490726], [59.37051111055739, 30.136399269104007], [59.34340993333107, 30.060052871704105]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22627/',
-        start: 'VO_FOTO',
+        start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
     {
         name: 'Ново-Кавголовский л/п',
-        year: 2025,
-        month: 7,
+        date: '2025-07',
         info: 'Июль, фото-рогейн.',
         url: './maps/rogaine/kkm/toksovo_KKM_2025_07.webp',
         link: ['./original_maps/rogaine/kkm/toksovo_KKM_2025_07_omaps.jpg','./original_maps/rogaine/kkm/toksovo_KKM_2025_07_pictures.jpg'],
         bounds: [[60.164443619580254, 30.386209487915043], [60.158037720780655, 30.481309890747074], [60.13146126749531, 30.378141403198246]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23000/',
-        start: 'VO_FOTO',
+        start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
     {
         name: 'Кавголово',
-        year: 2025,
-        month: 8,
+        date: '2025-08',
         info: 'Август, фото-рогейн.',
         url: './maps/rogaine/kkm/kavgolovo_KKM_2025_08.webp',
         link: ['./original_maps/rogaine/kkm/kavgolovo_KKM_2025_08_omaps.gif','./original_maps/rogaine/kkm/toksovo_KKM_2025_07_pictures.jpg'],
         bounds: [[60.19525988091439, 30.460023880004886], [60.19461994799159, 30.550746917724613], [60.156649611462456, 30.459809303283695]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23197/',
-        start: 'VO_FOTO',
+        start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
     {
         name: 'Зеленогорск, оз Щучье',
-        year: 2025,
-        month: 9,
+        date: '2025-09',
         info: 'Сентябрь, фото-рогейн.',
         url: './maps/rogaine/kkm/zelenogorsk_KKM_2025_09.webp',
         link: ['./original_maps/rogaine/kkm/zelenogorsk_KKM_2025_09_omaps.jpg','./original_maps/rogaine/kkm/zelenogorsk_KKM_2025_09_pictures.jpg'],
         bounds: [[60.23836260690754, 29.728660583496097], [60.2306926763174, 29.83938217163086], [60.194534622659134, 29.715270996093754]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23335/',
-        start: 'VO_FOTO',
+        start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
     {
         name: 'Горный институт',
-        year: 2025,
-        month: 10,
+        date: '2025-10',
         info: 'Октябрь, фото-рогейн.',
         url: './maps/rogaine/kkm/vasiljevsky_KKM_2025_10.webp',
         link: ['./original_maps/rogaine/kkm/vasiljevsky_KKM_2025_10_omaps.jpg','./original_maps/rogaine/kkm/vasiljevsky_KKM_2025_10_pictures.jpg'],
         bounds: [[59.95754561322883, 30.227165222167972], [59.957588583610786, 30.30664443969727], [59.91859154627015, 30.22673606872559]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23476/',
-        start: 'VO_FOTO',
+        start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },

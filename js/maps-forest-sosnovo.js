@@ -4,9 +4,8 @@ let sosnovoMaps = [
     {
         name: 'Сосново, юг',
         year: 1989,
-        startYear: 1991,
+        date: '1991-06-28',
         start: 'WN',
-        info: '28.06',
         url: './maps/forest/sosnovo/sosnovo_south_1989.webp',
         link: './original_maps/forest/sosnovo/sosnovo_south_1989_omaps.jpg',
         bounds: [[60.55445209468727, 30.23523330688477], [60.54968381690081, 30.297031402587894], [60.52874571620552, 30.22725105285645]],
@@ -22,18 +21,18 @@ let sosnovoMaps = [
     },
     {
         name: 'Снегирёвка',
-        year: 1968,
+        date: '1968-09-15',
         start: 'USSR_BULGARIA_1968',
-        info: '15.09. Эстафета.',
+        info: 'Эстафета.',
         url: './maps/forest/sosnovo/zamostie_1968.webp',
         link: './original_maps/forest/sosnovo/zamostie_1968_omaps.jpg',
         bounds: [[60.54892420332662, 30.30964851379395], [60.547489329022675, 30.363721847534183], [60.509568723572905, 30.302438735961918]]
     },
     {
         name: 'Петяярви',
-        year: 1968,
+        date: '1968-09-13',
         start: 'USSR_BULGARIA_1968',
-        info: '13.09. Заданное направление.',
+        info: 'Заданное направление.',
         url: './maps/forest/sosnovo/petyajarvi_1968.webp',
         link: './original_maps/forest/sosnovo/petyajarvi_1968_omaps.jpg',
         bounds: [[60.634647739846734, 30.077476501464847], [60.6278706373631, 30.17231941223145], [60.60529809128897, 30.071468353271488]]
@@ -107,9 +106,8 @@ let sosnovoMaps = [
     {
         name: 'Замостье',
         year: 1989,
-        startYear: 1990,
+        date: '1990-06-22',
         start: 'WN',
-        info: '22.06',
         url: './maps/forest/sosnovo/zamostie_1989.webp',
         link: './original_maps/forest/sosnovo/zamostie_1989_omaps.jpg',
         bounds: [[60.54651864267247, 30.3178882598877], [60.54360640888423, 30.36423683166504], [60.51603272298398, 30.311708450317386]],
@@ -177,9 +175,9 @@ let sosnovoMaps = [
     },
     {
         name: 'Сосново, оз Уловное',
-        year: 1981,
+        date: '1981-08-05',
         start: 'USSR_1981',
-        info: '5.08, <a href="./docs/ussr_champ_1981_relay_schema_omaps.jpg">эстафета</a>.',
+        info: '<a href="./docs/ussr_champ_1981_relay_schema_omaps.jpg">Эстафета</a>.',
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981.webp',
         link: ['./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M1_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M3_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_W3_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_all_omaps.jpg'],
         bounds: [[60.60475042664144, 30.21566390991211], [60.60226475491396, 30.262098312377933], [60.58557630901257, 30.209827423095707]],
@@ -288,9 +286,8 @@ let sosnovoMaps = [
     {
         name: 'Снегирёвка',
         year: 1999,
-        startYear: 2000,
+        date: '2000-06-21',
         start: 'YM',
-        info: '21.06',
         url: './maps/forest/sosnovo/snegirevka_1999.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1999_omaps.jpg',
         bounds: [[60.53761229135715, 30.26119709014893], [60.53512145125236, 30.3178882598877], [60.515251196823, 30.259051322937015]],
@@ -385,9 +382,8 @@ let sosnovoMaps = [
     },
     {
         name: 'Ягодное',
-        year: 1997,
+        date: '1997-06-20',
         start: 'WN',
-        info: '20.06',
         url: './maps/forest/sosnovo/petjajarvy_1997.webp',
         link: ['./original_maps/forest/sosnovo/petjajarvy_1997_omaps.jpg','./original_maps/forest/sosnovo/petjajarvy_wn_1997.jpg'],
         bounds: [[60.634921319659725, 30.012931823730472], [60.63241692549768, 30.06588935852051], [60.616691620658365, 30.008082389831547]],

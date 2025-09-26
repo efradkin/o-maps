@@ -244,19 +244,11 @@
         }
 
         function buildDate(event) {
-            var days = [
-                'ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'
-            ];
-            const months = [
-                'ЯНВ', 'ФЕВ', 'МАР', 'АПР', 'МАЯ', 'ИЮН',
-                'ИЮЛ', 'АВГ', 'СЕН', 'ОКТ', 'НОЯ', 'ДЕК'
-            ];
-
             const date = new Date(event.date);
             const day = date.getDate();
-            const month = months[date.getMonth()];
+            const month = MONTHS_SHORT[date.getMonth()];
             //const year = date.getFullYear();
-            const dayWeek = days[date.getDay()];
+            const dayWeek = WEAK_DAYS_SHORT[date.getDay()];
 
             let result = day;
             if (event.endDate) {

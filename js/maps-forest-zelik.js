@@ -115,8 +115,8 @@ let zelikMaps = [
     },
     {
         name: 'Солнечное, Дюны',
-        year: 2007,
-        info: '16.09. <a href="https://o-site.spb.ru/race.php?id=070916">ЧиП СПб, марафон</a>',
+        date: '2007-09-16',
+        info: '<a href="https://o-site.spb.ru/race.php?id=070916">ЧиП СПб, марафон</a>',
         url: './maps/forest/zelik/solnechnoe-djuny_2007.webp',
         link: ['./original_maps/forest/zelik/solnechnoe-djuny_2007_1_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_2_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_3_omaps.gif'],
         bounds: [[60.148063386777785, 29.929761886596683], [60.14502990577005, 29.97053146362305], [60.130435379117884, 29.924783706665043]],
@@ -223,11 +223,11 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, оз Щучье',
-        year: 1971,
+        date: '1971-09-13',
         start: 'USSR_V_1971',
         url: './maps/forest/zelik/zelenogorsk_schuchye_1971.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1971_omaps.jpg',
-        info: '13.09, лично-командное первенство.',
+        info: 'Лично-командное первенство.',
         bounds: [[60.22357507955077, 29.7465991973877], [60.253952596684194, 29.827623367309574], [60.19491858490831, 29.79123115539551]]
     },
     {
@@ -239,11 +239,11 @@ let zelikMaps = [
     },
     {
         name: 'Озерки',
-        year: 1971,
+        date: '1971-09-14',
         start: 'USSR_V_1971',
         url: './maps/forest/zelik/ozerki_1971.webp',
         link: './original_maps/forest/zelik/ozerki_1971_omaps.jpg',
-        info: '14.09, эстафета.',
+        info: 'Эстафета.',
         bounds: [[60.33306579997825, 29.686002731323246], [60.33293835215384, 29.742479324340824], [60.30178368088176, 29.685487747192383]]
     },
     {
@@ -444,8 +444,8 @@ let zelikMaps = [
     },
     {
         name: 'Ильичёво - Симагино',
-        year: 2015,
-        info: '6.09. <a href="https://o-site.spb.ru/race.php?id=150906">ЧиП СПб, марафон</a>',
+        date: '2015-09-06',
+        info: '<a href="https://o-site.spb.ru/race.php?id=150906">ЧиП СПб, марафон</a>',
         url: './maps/forest/zelik/ilychevo-simagino_2015.webp',
         link: ['./original_maps/forest/zelik/ilychevo_simagino_2015_omaps.jpg','./original_maps/forest/zelik/ilychevo_simagino_2015_marathon_omaps.jpg'],
         gps: {

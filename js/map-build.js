@@ -186,15 +186,16 @@ function allocateMap(m, imgLayer) {
         }
 
         if (isOrientMap(m)) {
-            if (!m.year) {
+            let y = year(m);
+            if (!y) {
                 pushGroupToMap(m, groupUnknownYear);
-            } else if (m.year >= 2020) {
+            } else if (y >= 2020) {
                 pushGroupToMap(m, group2020th);
-            } else if (m.year >= 2010) {
+            } else if (y >= 2010) {
                 pushGroupToMap(m, group2010th);
-            } else if (m.year >= 2000) {
+            } else if (y >= 2000) {
                 pushGroupToMap(m, group2000th);
-            } else if (m.year >= 1990) {
+            } else if (y >= 1990) {
                 pushGroupToMap(m, group90th);
             } else {
                 pushGroupToMap(m, groupRetro);

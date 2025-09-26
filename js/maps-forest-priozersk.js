@@ -140,8 +140,8 @@ let priozerskMaps = [
     {
         name: 'Кузнечное, оз Суури',
         year: 1984,
-        startYear: 1990,
-        info: '28.07, Ориентир-22',
+        date: '1990-07-28',
+        info: 'Ориентир-22',
         url: './maps/forest/priozersk/kuznechnoe_suuri_1984.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1984_omaps.jpg',
         start: 'ORIENTIR',
@@ -150,9 +150,9 @@ let priozerskMaps = [
     },
     {
         name: 'Кузнечное, оз Волковское-Суури',
-        year: 2019,
+        date: '2019-05-25',
         start: 'RUSSIA_2019',
-        info: '25-26.05, кросс многодневный.',
+        info: 'Кросс многодневный.',
         gps: {
             'М-25': 'https://viewer.o-gps-center.ru/viewer/event/5759/',
             'Ж-25': 'https://viewer.o-gps-center.ru/viewer/event/5767/',
@@ -194,9 +194,9 @@ let priozerskMaps = [
     },
     {
         name: 'Кузнечное, оз Травкино',
-        year: 2019,
+        date: '2019-05-24',
         start: 'RUSSIA_2019',
-        info: '24.05, кросс-классика.',
+        info: 'Кросс-классика.',
         gps: {
             'М': 'https://viewer.o-gps-center.ru/viewer/event/5759/',
             'Ж': 'https://viewer.o-gps-center.ru/viewer/event/5760/'

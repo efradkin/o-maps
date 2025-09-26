@@ -104,10 +104,11 @@ function buildYear(m) {
     if (m.year === 1 ) {
         return 'Ретро';
     }
-    if (m.startYear) {
-        return m.startYear;
+    let sy = startYear(m);
+    if (sy) {
+        return sy;
     }
-    return safe(m.year);
+    return safe(year(m));
 }
 
 function buildStart(m) {
@@ -123,7 +124,7 @@ function buildStart(m) {
             }
             return start;
         } else {
-            return  oneStart(m.start);
+            return oneStart(m.start);
         }
     }
     return result;
@@ -145,9 +146,17 @@ function buildInfo(m) {
     if (m.restricted) {
         result += getRestrictedText(m);
     }
-    if (m.info) {
-        result += '<br />'
-        result += m.info;
+    if (m.info || m.date) {
+        if (m.restricted) {
+            result += '<br />'
+        }
+        if (m.date && m.date.length > 7) {
+            const date = formatDate(m, false, true);
+            result += `<b>${date}</b>` + (m.info ? '. ' : '');
+        }
+        if (m.info) {
+            result += m.info;
+        }
     }
     return result;
 }
@@ -174,7 +183,7 @@ function sortMapsTable() {
             break;
         case 'year':
             oMaps.sort((a, b) => {
-                return isAscending ? (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)) : (b.startYear || (b.year || 0)) - (a.startYear || (a.year || 0));
+                return isAscending ? (dateForCompare(a) - dateForCompare(b)) : (dateForCompare(b) - dateForCompare(a));
             });
             break;
         case 'area':
