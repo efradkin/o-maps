@@ -1320,6 +1320,7 @@ let events_2025 =
         name: 'Спортивное ориентирование - в школу №60',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250924',
+        photo: 'https://vk.com/album-230167293_311165957',
         map: 'school_303_2016',
         owner: 'SFSO_SPB',
         start: 'SCHOOL',
