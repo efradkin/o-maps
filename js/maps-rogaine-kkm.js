@@ -302,7 +302,7 @@ let rogaineKkmMaps = [
         type: ['ROGAINE']
     },
     {
-        name: 'М "Владимирская"',
+        name: 'Владимирская',
         year: 2024,
         month: 3,
         url: './maps/rogaine/kkm/spb_center_KKM_2024_03.webp',
@@ -404,7 +404,7 @@ let rogaineKkmMaps = [
         type: ['ROGAINE']
     },
     {
-        name: 'М "Горный институт"',
+        name: 'Горный институт',
         year: 2025,
         month: 1,
         url: './maps/rogaine/kkm/vasiljevsky_KKM_2025_01.webp',
@@ -416,7 +416,7 @@ let rogaineKkmMaps = [
         type: ['ROGAINE']
     },
     {
-        name: 'М "ЗЕНИТ"',
+        name: 'ЗЕНИТ',
         year: 2025,
         month: 2,
         info: 'Февраль, фотоориентирование.',
@@ -429,7 +429,7 @@ let rogaineKkmMaps = [
         type: ['ROGAINE']
     },
     {
-        name: 'М "Спортивная"',
+        name: 'Спортивная',
         year: 2025,
         month: 3,
         info: 'Март, фотоориентирование.',
@@ -442,7 +442,7 @@ let rogaineKkmMaps = [
         type: ['ROGAINE']
     },
     {
-        name: 'пл "Курорт"',
+        name: 'Курорт',
         year: 2025,
         month: 4,
         info: 'Апрель, фотоориентирование.',
@@ -515,6 +515,19 @@ let rogaineKkmMaps = [
         link: ['./original_maps/rogaine/kkm/zelenogorsk_KKM_2025_09_omaps.jpg','./original_maps/rogaine/kkm/zelenogorsk_KKM_2025_09_pictures.jpg'],
         bounds: [[60.23836260690754, 29.728660583496097], [60.2306926763174, 29.83938217163086], [60.194534622659134, 29.715270996093754]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23335/',
+        start: 'VO_FOTO',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Горный институт',
+        year: 2025,
+        month: 10,
+        info: 'Октябрь, фото-рогейн.',
+        url: './maps/rogaine/kkm/vasiljevsky_KKM_2025_10.webp',
+        link: ['./original_maps/rogaine/kkm/vasiljevsky_KKM_2025_10_omaps.jpg','./original_maps/rogaine/kkm/vasiljevsky_KKM_2025_10_pictures.jpg'],
+        bounds: [[59.95754561322883, 30.227165222167972], [59.957588583610786, 30.30664443969727], [59.91859154627015, 30.22673606872559]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23476/',
         start: 'VO_FOTO',
         owner: 'RYZHOV',
         type: ['ROGAINE']
