@@ -1062,6 +1062,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250824_Tokma',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1690',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23280/',
+        video: 'https://vk.com/video7973032_456239601',
         reskeep: 782,
         owner: 'VYBORG',
         map: 'leypjasuo'
