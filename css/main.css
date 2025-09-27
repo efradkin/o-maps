@@ -529,6 +529,11 @@ label:has(> span span .layer-separator) {
 .WATER {
     color: darkblue;
 }
+.tracks-table {
+    td:nth-child(3) {
+        font-weight: bold;
+    }
+}
 
 /* --- integration --- */
 body.integration-body {

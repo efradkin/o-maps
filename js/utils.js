@@ -231,7 +231,7 @@ function buildTrackDownloadLinks(t) {
         }
         return result;
     } else {
-        return buildLink(t.gpx, '<<img src="images/download_24.png" style="width:12px" />', 'Скачать GPX-трек');
+        return buildLink(t.gpx, '<img src="images/download_24.png" style="width:12px" />', 'Скачать GPX-трек');
     }
 }
 
@@ -596,7 +596,6 @@ function selectTrackType(trackType) {
 
 function selectTrackMonth(month) {
     let href = location.origin + location.pathname;
-    console.log(href)
     if (month === '0') {
         location.href = href;
     } else {

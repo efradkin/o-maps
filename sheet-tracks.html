@@ -89,7 +89,7 @@
         <a href="#" onclick="downloadSheetTable('o-maps-tracks.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
     <div class="o-sheet-wrapper">
-        <table class="o-main-table o-sheet">
+        <table class="o-main-table o-sheet tracks-table">
             <thead>
             <tr>
                 <th>&nbsp</th>
@@ -186,7 +186,7 @@
                 if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
                     continue;
                 }
-                if (TRACK_MONTH_PARAM && (!t.date || t.date.slice(-2) !== TRACK_MONTH_PARAM)) {
+                if (TRACK_MONTH_PARAM && (!t.date || (new Date(t.date).getMonth() !== (TRACK_MONTH_PARAM - 1)))) {
                     continue;
                 }
 
@@ -251,8 +251,9 @@
         }
 
         function buildDate(t) {
-            if (t.year) {
-                return (t.date ? t.date + '.' : '') + t.year;
+            let y = year(t);
+            if (y) {
+                return t.date ? formatDate(t, true, false) : t.year;
             } else {
                 return '';
             }

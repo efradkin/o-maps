@@ -228,14 +228,15 @@ function buildTrackPopup(t, gpxLayer) {
     } else {
         result += t.name;
     }
-    if (t.year) {
-        result += ' ' + (t.date ? t.date + '.' : '') + t.year + ' ';
+    let y = year(t);
+    if (y) {
+        result += ' ' + (t.date ? formatDate(t, true, false) : t.year)  + ' ';
     }
     if (gpxLayer.len > 0) {
         let len = gpxLayer._humanLen(gpxLayer.len);
         result += ' (' + len + ')';
     }
-    result += '</b>';
+    result += '</b> ';
     result += buildTrackDownloadLinks(t);
     result += '<hr />';
 

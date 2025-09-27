@@ -84,8 +84,7 @@ let skiTracks = [
     },
     {
         name: 'Зеленогорск, б/о "Прибой", марафон «Двигатель»',
-        year: 2025,
-        date: '15.03',
+        date: '2025-03-15',
         link: 'https://vk.com/bazapriboyzel',
         info: 'Целиком прокатывается далеко не каждый год. Трассы марафона состоят из кругов 3, 5, 10 км.',
         results: 'https://reg.o-time.ru/race/25055',
@@ -179,8 +178,7 @@ let skiTracks = [
     },
     {
         name: 'Токсово, Toksovo Cup',
-        year: 2024,
-        date: '3.02',
+        date: '2024-02-03',
         info: 'Классическая трасса Токсовского лыжного марафона. Старт - от базы СКА.',
         link: 'https://vk.com/toksovocup',
         results: 'https://reg.o-time.ru/race/24061',
@@ -232,8 +230,7 @@ let skiTracks = [
     },
     {
         name: 'Охта-парк, Toksovo Cup',
-        year: 2025,
-        date: '1.02',
+        date: '2025-02-01',
         results: 'https://reg.o-time.ru/race/25033',
         info: 'Ближайший и возможно главный горнолыжный курорт в Санкт-Петербурге. Беговая лыжная трасса хороша и бесплатна, но посещение курорта - платное. Трасса Токсовского лыжного марафона 2025.',
         link: 'https://vk.com/ohtapark',
@@ -266,8 +263,7 @@ let skiTracks = [
     },
     {
         name: 'Ореховская Дюжина',
-        year: 2025,
-        date: '24.01',
+        date: '2025-01-24',
         link: 'https://www.multsport.ru/starts/orehovo-12km25/',
         results: 'https://reg.o-time.ru/race/25061',
         info: '1.3-26км',
@@ -300,8 +296,7 @@ let skiTracks = [
     },
     {
         name: 'Гарболово, "НАША ТРАССА", GARBOSKI',
-        year: 2025,
-        date: '16.02',
+        date: '2025-02-16',
         results: 'https://reg.o-time.ru/race/25052',
         info: 'Круги: <ol><li><b>"Семейный"</b> - Идеален для семейных прогулок с детьми, первоначального обучения технике конькового и классического хода. На нем нет опасных спусков и крутых подъемов.</li>' +
             '<li><b>"Любитель"</b> - Есть срезки на каждом километре дистанции. Присутствуют подъемы и спуски с перепадом до 15м. Катание на этому кругу требует уверенного владения лыжами.</li>' +
@@ -343,8 +338,7 @@ let skiTracks = [
     },
     {
         name: 'Игора-Драйв',
-        year: 2025,
-        date: '19.01',
+        date: '2025-01-19',
         link: 'https://drive-igora.ru/events/lyzhnaya-gonka-igora-drayv/',
         results: 'https://reg.o-time.ru/race/25069',
         gpx: {
@@ -368,8 +362,7 @@ let skiTracks = [
     },
     {
         name: 'Выборгский лыжный марафон',
-        year: 2025,
-        date: '22.02',
+        date: '2025-02-22',
         link: 'https://vk.com/vyborgmarathon',
         results: 'https://reg.o-time.ru/race/25053',
         info: 'Гонка прошла по кругу 5 км. 1-30км.',
@@ -397,8 +390,7 @@ let skiTracks = [
     },
     {
         name: 'Дудергофские медведи',
-        year: 2024,
-        date: '2.03',
+        date: '2024-03-02',
         info: 'Практически плоская лыжная трасса по полям.',
         link: 'https://vk.com/dudergof_bear',
         results: 'https://reg.o-time.ru/race/24298',
@@ -424,8 +416,7 @@ let skiTracks = [
     },
     {
         name: 'Киришский лыжный марафон',
-        year: 2023,
-        date: '19.02',
+        date: '2023-02-19',
         link: 'https://vk.com/kirishi_ski_marathon',
         results: 'https://vk.com/wall-114713337_333',
         info: '20-50км.',
@@ -448,8 +439,7 @@ let skiTracks = [
     },
     {
         name: 'Гатчинский лыжный марафон',
-        year: 2024,
-        date: '8.03',
+        date: '2024-03-08',
         results: 'https://reg.o-time.ru/race/24254',
         gpx: 'tracks/ski/gatchina_ski_omaps.gpx',
         logo: 'gatchina.gif',
@@ -512,8 +502,7 @@ let skiTracks = [
     },
     {
         name: 'Тихвинский лыжный марафон',
-        year: 2024,
-        date: '28.01',
+        date: '2024-01-28',
         info: '20 и 50 км.',
         link: 'https://vk.com/club199236798',
         results: 'https://vk.com/wall-199236798_1340',
