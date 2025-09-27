@@ -1454,6 +1454,13 @@ let events_2025 =
         owner: 'VYBORG'
     }, {
         date: '2025-10-18',
+        place: 'Кудрово',
+        name: 'Кубок Кудрово',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/46695',
+        map: 'kudrovo_evropy_2024'
+    }, {
+        date: '2025-10-18',
         endDate: '2025-10-19',
         place: 'Запад ЛО у залива',
         name: 'Осенний марш-бросок',
