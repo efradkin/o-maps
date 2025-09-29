@@ -622,6 +622,7 @@ let parkMaps = [
         name: 'Куракина дача',
         year: 2017,
         url: './maps/parks/kurakina_dacha_2017.webp',
+        link: './original_maps/parks/kurakina_dacha_2017_omaps.jpg',
         bounds: [[59.87665194712237, 30.448544025421146], [59.87569350859724, 30.460066795349125], [59.86858512468797, 30.445539951324466]],
         type: ['PARK'],
         author: 'DRBSHV',
@@ -1473,6 +1474,16 @@ let parkMaps = [
         bounds: [[59.922882605063975, 30.409061908721927], [59.92203304098512, 30.421893596649173], [59.91713955864316, 30.407559871673588]],
         author: 'VSLVSKY',
         owner: 'VSLVSKY',
+        type: ['PARK']
+    },
+    {
+        name: 'Ланской сквер',
+        year: 2017,
+        url: './maps/parks/lanskoy_skver_2017.webp',
+        link: './original_maps/parks/lanskoy_skver_2017_omaps.gif',
+        bounds: [[59.9983638231877, 30.32535552978516], [59.99798829322108, 30.331406593322757], [59.99470490681215, 30.32460451126099]],
+        author: 'DRBSHV',
+        owner: 'KP31',
         type: ['PARK']
     },
 ];

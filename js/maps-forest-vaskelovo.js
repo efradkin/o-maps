@@ -369,15 +369,16 @@ let vaskelovoMaps = [
         author: ['KRCHKN_V','PLMNN','GLTV_V','GLTV_Y']
     },
     {
-        name: 'Кириясалы, "Школьное лесничество"',
+        name: 'Кириясалы, Школьное лесничество',
         year: 2020,
         url: './maps/forest/vaskelovo/kirijasaly_2020.webp',
+        link: './original_maps/forest/vaskelovo/kirijasaly_2020_omaps.jpg',
         bounds: [[60.46616741797357, 30.157513618469242], [60.463840330912824, 30.185708999633793], [60.458677833264304, 30.154445171356205]],
         author: 'DRBSHV',
         owner: 'KP31'
     },
     {
-        name: 'Орехово, т/б "Журавушка"',
+        name: 'Орехово, т/б Журавушка',
         year: 2009,
         url: './maps/forest/vaskelovo/orekhovo_zhuravushka_2009.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_zhuravushka_2009_omaps.jpg',

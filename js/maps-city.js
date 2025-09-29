@@ -1144,6 +1144,7 @@ let cityMaps = [
         name: 'Сясьстрой',
         year: 2014,
         url: './maps/city/sjasstroy_2014.webp',
+        link: './original_maps/city/sjasstroy_2014_omaps.jpg',
         info: 'Сясьстрой. Карта пришкольной территории на берегу реки Сясь.',
         bounds: [[60.14225252990766, 32.551020383834846], [60.141622246580134, 32.55666375160218], [60.140083877236236, 32.550022602081306]],
         author: 'DRBSHV',
@@ -1154,8 +1155,19 @@ let cityMaps = [
         name: 'Школа-интернат №31',
         year: 2019,
         url: './maps/city/school_31_2019.webp',
+        link: './original_maps/schools/school_31_2019_omaps.jpg',
         bounds: [[59.89791355825114, 30.423406362533573], [59.89867764641967, 30.425080060958866], [59.89710102267565, 30.42498350143433]],
         author: 'DRBSHV',
+        type: ['CITY'],
+        owner: 'KP31'
+    },
+    {
+        name: 'Школа-интернат №1',
+        year: 2024,
+        url: './maps/city/school_internat_1_2024.webp',
+        link: './original_maps/schools/school_internat_1_2024_omaps.gif',
+        bounds: [[60.00025213783566, 30.324261188507084], [60.000295052824974, 30.32788753509522], [59.99751619235789, 30.324196815490726]],
+        author: ['DRBSHV','RSKV_S'],
         type: ['CITY'],
         owner: 'KP31'
     },
