@@ -191,6 +191,7 @@ function finishTracksLoad() {
     if (TRACK_NAME_PARAM) {
         locateForUrl(TRACK_NAME_PARAM);
     }
+    visibleMaps = recalculateLayers();
 }
 
 function buildTrackPopup(t, gpxLayer) {
