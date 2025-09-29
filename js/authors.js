@@ -87,7 +87,7 @@ let authors = {
     },
     DRKHV: { name: 'Дорохов В.' },
     DRSVNA: { name: 'Дресвина Е.' },
-    DRZDVA: { name: 'Дроздова Е.' },
+    DRZDVA: { name: 'Дроздова Елена' }, // Орлова
     DVRKO_V: { name: 'Дворко Владимир' }, // Михайлович
     EGRV_A: { name: 'Егоров Андрей' },
     EGRV_E: { name: 'Егоров Е.' },

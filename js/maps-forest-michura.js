@@ -19,14 +19,26 @@ let michuraMaps = [
         author: 'BYMKV'
     },
     {
-        name: 'Ягодное',
+        name: 'Ягодное №47',
         year: 1992,
         start: 'NA',
-        url: './maps/forest/michura/yagodnoe_1992.webp',
-        link: './original_maps/forest/michura/yagodnoe_1992_omaps.jpg',
+        url: './maps/forest/michura/yagodnoe_47_1992.webp',
+        link: './original_maps/forest/michura/yagodnoe_47_1992_omaps.jpg',
         bounds: [[60.63052271667331, 29.883584976196293], [60.62416578048736, 29.952764511108402], [60.601717038799606, 29.87337112426758]],
         author: ['BYMKV','VSLVSKY','DRBSHV','FDRV_L','FLCHKN','RBKV_D','DRZDVA','KSNFNTVA','ZRNA','BZNVA_E'],
         areas: [70,5,10,5,2,2,1,1,1,1],
+        qtty: 3
+    },
+    {
+        name: 'Ягодное №46',
+        excluded: true,
+        year: 1992,
+        start: 'NA',
+        url: './maps/forest/michura/yagodnoe_46_1992.webp',
+        link: './original_maps/forest/michura/yagodnoe_46_1992_omaps.jpg',
+        bounds: [[60.62679711467785, 29.905815124511722], [60.62469206450068, 29.970488548278812], [60.601106113708816, 29.903197288513187]],
+        author: ['BYMKV','GRBTNKV','CHRNV_G','DRBSHV','FDRV_L','FLCHKN','RBKV_D','DRZDVA','KSNFNTVA','ZRNA','BZNVA_E'],
+        areas: [75,5,5,3,3,3,2,1,1,1,1],
         qtty: 3
     },
     {
