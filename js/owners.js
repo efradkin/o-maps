@@ -245,200 +245,200 @@ let owners = {
     /* --- МОСКВА --- */
 
     ALFRV: {
-        name: '@ Алферьев Александр, 89851135004'
+        name: '© Алферьев Александр, 89851135004'
     },
     ALNKV_A: {
-        name: '@ <a href="https://t.me/platforma88km">Алейников Алексей</a>'
+        name: '© <a href="https://t.me/platforma88km">Алейников Алексей</a>'
     },
     BKLV_F: {
-        name: '@ Бакулов Фёдор'
+        name: '© Бакулов Фёдор'
     },
     DBNA: {
-        name: '@ <a href="https://odmitrov2007.narod.ru/index_map_Dubna.htm">Спортивное ориентирование в Дмитрове и в Дубне</a>',
+        name: '© <a href="https://odmitrov2007.narod.ru/index_map_Dubna.htm">Спортивное ориентирование в Дмитрове и в Дубне</a>',
         logo: 'dubna.jpg'
     },
     DYTS_ALXNDRV: {
         name: 'ДЮЦ г.Александрова Владимирской обл.'
     },
     ERMCHNKV_A: {
-        name: '@ Ермаченков Алексей, 89164951315',
+        name: '© Ермаченков Алексей, 89164951315',
         logo: 'mifi.jpg'
     },
     FSO_MSK: {
-        name: '@ ФСО Москвы, 8 (962) 947 17-88',
+        name: '© ФСО Москвы, 8 (962) 947 17-88',
         logo: 'fso_msk.jpg'
     },
     FRZNO: {
-        name: '@ <a href="https://vk.com/club151229251">КСО Фрязино</a>, +79057778820',
+        name: '© <a href="https://vk.com/club151229251">КСО Фрязино</a>, +79057778820',
         logo: 'friazino.jpg'
     },
     O_FRZNO: {
-        name: '@ <a href="https://www.o-fryazino.ru/">О-Фрязино</a>, 8-926-1514712',
+        name: '© <a href="https://www.o-fryazino.ru/">О-Фрязино</a>, 8-926-1514712',
         logo: 'o-friazino.jpg'
     },
     GRCHV_D: {
-        name: '@ Дмитрий Грачев'
+        name: '© Дмитрий Грачев'
     },
     INCR: {
         logo: 'inacor.jpg',
-        name: '@ Инакор — интернет активное ориентирование.'
+        name: '© Инакор — интернет активное ориентирование.'
     },
     IVNV_AL: {
-        name: '@ Иванов Алексей'
+        name: '© Иванов Алексей'
     },
     ISKTL: {
-        name: '@ КСО ИСКАТЕЛЬ'
+        name: '© КСО ИСКАТЕЛЬ'
     },
     JAKMV_S: {
-        name: '@ Якимов Семён, <a href="mailto:semyon@forestadventure.ru">semyon@forestadventure.ru</a>'
+        name: '© Якимов Семён, <a href="mailto:semyon@forestadventure.ru">semyon@forestadventure.ru</a>'
     },
     KHMCHKNA: {
-        name: '@ Химочкина Т.Н.'
+        name: '© Химочкина Т.Н.'
     },
     KLNN_O: {
-        name: '@ Калинин Олег, +7 916 683 1372'
+        name: '© Калинин Олег, +7 916 683 1372'
     },
     KSTKN_SITE: {
         name: 'Карта доступна в формате OCAD на <a href="http://www.kasatik.ru/sport.aspx?stori=11">сайте Николая Касаткина</a>.'
     },
     KSTLV_E: {
-        name: '@ Костылев Егор'
+        name: '© Костылев Егор'
     },
     KMPT: {
-        name: '@ Компот групп',
+        name: '© Компот групп',
         logo: 'kmpt.jpg',
         rogaine: true
     },
     LTVO: {
-        name: '@ ОАНО "Школа "ЛЕТОВО"'
+        name: '© ОАНО "Школа "ЛЕТОВО"'
     },
     LZRV: {
-        name: '@ Лазарев Константин, +7(929)992-38-55'
+        name: '© Лазарев Константин, +7(929)992-38-55'
     },
     MLKHT: {
-        name: '@ КСО Малахит',
+        name: '© КСО Малахит',
         logo: 'malakhit.jpg'
     },
     NLTV_D: {
-        name: '@ По вопросам использования карты обращайтесь к Дмитрию Налётову - +79166509491 (WhatsApp. Telegram), dmitry@sportident.ru.'
+        name: '© По вопросам использования карты обращайтесь к Дмитрию Налётову - +79166509491 (WhatsApp. Telegram), dmitry@sportident.ru.'
     },
     OKHTNKV: {
-        name: '@ Охотников С.В.'
+        name: '© Охотников С.В.'
     },
     ORNTA_KNTSVO: {
-        name: '@ КСО Ориента-Кунцево',
+        name: '© КСО Ориента-Кунцево',
         logo: 'orienta-kuntsevo.jpg'
     },
     ORNTA_SKRM: {
-        name: '@ КСО Ориента-Скрум'
+        name: '© КСО Ориента-Скрум'
     },
     ORNTA_VSNA: {
-        name: '@ КСО Ориента-Весна'
+        name: '© КСО Ориента-Весна'
     },
     SDV_G: {
-        name: '@ <a href="https://t.me/Sed_ov">Седов Георгий</a> (sge444@ya.ru, +79689451088)'
+        name: '© <a href="https://t.me/Sed_ov">Седов Георгий</a> (sge444@ya.ru, +79689451088)'
     },
     SKBLV: {
-        name: '@ Скобелев Алексей Алексеевич, +79030063030'
+        name: '© Скобелев Алексей Алексеевич, +79030063030'
     },
     SKHRV_P: {
-        name: '@ Сухарев Пётр, 89258822600'
+        name: '© Сухарев Пётр, 89258822600'
     },
     SKLV_V: {
-        name: '@ Соколов Вячеслав'
+        name: '© Соколов Вячеслав'
     },
     SRPNSKY: {
-        name: '@ Серпинский Станислав, 89160426587'
+        name: '© Серпинский Станислав, 89160426587'
     },
     STLV_S: {
-        name: '@ Стулов Сергей'
+        name: '© Стулов Сергей'
     },
     SYTV_N: {
-        name: '@ Сытов Николай, 89164980105',
+        name: '© Сытов Николай, 89164980105',
         logo: 'mm.jpg'
     },
     TSLSCHVA: {
-        name: '@ Целищева Валентина (<a href="https://vk.com/valyat2">ВК</a>)' // Переляева
+        name: '© Целищева Валентина (<a href="https://vk.com/valyat2">ВК</a>)' // Переляева
     },
     TTV_A: {
-        name: '@ Титов Алексей, +7 915 476 2397'
+        name: '© Титов Алексей, +7 915 476 2397'
     },
     YZAO: {
-        name: '@ КСО ЮЗАО-Теам'
+        name: '© КСО ЮЗАО-Теам'
     },
 
     /* --- СЕРБИЯ --- */
 
     KSTNK: {
-        name: '@ СК АОК Кошутњак',
+        name: '© СК АОК Кошутњак',
         logo: 'kosutnjak.jpg'
     },
     MGCMP: {
-        name: '@ SK "Magic Map"'
+        name: '© SK "Magic Map"'
     },
     OSB: {
-        name: '@ Ориjентиринг Савез Београда'
+        name: '© Ориjентиринг Савез Београда'
     },
     OSS: {
-        name: '@ Оријентиринг савез Србије',
+        name: '© Оријентиринг савез Србије',
         logo: 'srb.jpg'
     },
     RTN: {
-        name: '@ ОК Ртањ'
+        name: '© ОК Ртањ'
     },
     AVALA: {
-        name: '@ Планинарско друштво „Авала“',
+        name: '© Планинарско друштво „Авала“',
         logo: 'avala.jpg'
     },
 
     /* --- Рязань --- */
 
     ANDREYK: {
-        name: '@ Андрейкин А.'
+        name: '© Андрейкин А.'
     },
     VEKOVIS: {
-        name: '@ Вековищев Валерий'
+        name: '© Вековищев Валерий'
     },
     GUSEV_B: {
-        name: '@ Гусев Борис'
+        name: '© Гусев Борис'
     },
     ZOTOV: {
-        name: '@ Зотов Николай'
+        name: '© Зотов Николай'
     },
     KORNEEV: {
-        name: '@ Корнеев Валерий'
+        name: '© Корнеев Валерий'
     },
     SOKOLOV: {
-        name: '@ Соколов Владимир'
+        name: '© Соколов Владимир'
     },
     TARASOV: {
-        name: '@ Тарасов А.'
+        name: '© Тарасов А.'
     },
     FSO_RYAZAN: {
-        name: '@ ФСО Рязанская обл',
+        name: '© ФСО Рязанская обл',
         logo: 'fso_ryazan.webp'
     },
     TSDYUTK: {
-        name: '@ ЦДЮТК'
+        name: '© ЦДЮТК'
     },
     SHIBANOV_A: {
-        name: '@ Шибанов Александр'
+        name: '© Шибанов Александр'
     },
     SHIBANOV_V: {
-        name: '@ Шибанов Владимир'
+        name: '© Шибанов Владимир'
     },
 
 
     /* --- Прочее --- */
 
     FSO_KARELIA: {
-        name: '@ <a href="http://fso.karelia.ru/">ФСО Республики Карелия</a>',
+        name: '© <a href="http://fso.karelia.ru/">ФСО Республики Карелия</a>',
         logo: 'fso_karelia.png'
     },
     GRN_V: {
-        name: '@ Горин Владимир'
+        name: '© Горин Владимир'
     },
     KRSHNV: {
-        name: '@ Коршунов Евгений Владимирович (+7-911-456-88-41, korshunov_e.v@mail.ru)' // , https://korshunyata.ru/
+        name: '© Коршунов Евгений Владимирович (+7-911-456-88-41, korshunov_e.v@mail.ru)' // , https://korshunyata.ru/
     },
 }

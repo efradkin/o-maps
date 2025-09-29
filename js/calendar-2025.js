@@ -1395,7 +1395,8 @@ let events_2025 =
         reskeep: 800,
         gps: {
             'М18/50/55,Ж20/21К/35':'https://viewer.o-gps-center.ru/viewer/event/23504/',
-            'М21':'https://viewer.o-gps-center.ru/viewer/event/23505/'
+            'М21':'https://viewer.o-gps-center.ru/viewer/event/23505/',
+            'Все КП':'https://o-gps-center.ru/manage2/events/view/23494'
         },
         map: 'yappilya_tarasovskoe_2024'
     }, {

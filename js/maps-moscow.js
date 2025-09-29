@@ -5794,17 +5794,16 @@ let moscowMaps = [
         owner: 'TSLSCHVA'
     },
     {
-        name: 'Тверская',
+        name: 'Патриаршие и Тверская',
         year: 2025,
         logo: 'msk_interes.webp',
-        area: .53,
-        info: '<a href="https://interesnaya.sport.mos.ru/">Квест Москва Интересная</a>',
-        url: './maps/moscow/tverskaya_2025.webp',
-        link: ['./original_maps/moscow/tverskaya_2025_omaps.pdf','./original_maps/moscow/tverskaya_2025_obsw_omaps.gif'],
-        bounds: [[55.76450289376177, 37.59839057922364], [55.76467190130656, 37.61465549468995], [55.75438525063563, 37.59869098663331]],
-        author: ['MSTPNV','KPTNV_M'],
-        areas: [90,10],
-        owner: 'OPNBND',
+        info: '<a href="https://interesnaya.sport.mos.ru/">Квест Москва Интересная</a>, <a href="https://t.me/moscoworienteering/3186">MOSCOW CITY RACE</a>',
+        url: './maps/moscow/lr/patriki_2025.webp',
+        link: ['./original_maps/moscow/lr/patriki_2025_omaps.gif','./original_maps/moscow/tverskaya_2025_omaps.pdf','./original_maps/moscow/tverskaya_2025_obsw_omaps.gif'],
+        bounds: [[55.77092466547034, 37.589507102966316], [55.76743627786657, 37.61843204498292], [55.75801969423824, 37.58446455001832]],
+        author: ['MNKV','MSTPNV','KPTNV_M'],
+        areas: [60,35,5],
+        owner: ['ERMCHNKV_A','OPNBND'],
         type: ['CITY','SPRINT']
     },
 /*
