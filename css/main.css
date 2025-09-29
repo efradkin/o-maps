@@ -317,7 +317,6 @@ label:has(> span span .layer-separator) {
 }
 .stat-map-link-right {
     float: right;
-    margin-left: 60px;
     margin-right: 0;
 }
 .o-main-table {
