@@ -117,7 +117,7 @@ let events_2025 =
     }, {
         date: '2025-02-22',
         place: 'Сосновка',
-        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        name: 'Контрольный старт',
         fmt: 'One-man-relay',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/41339',
@@ -204,7 +204,7 @@ let events_2025 =
     }, {
         date: '2025-03-15',
         place: 'Токсово, Комбыт',
-        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        name: 'Контрольный старт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250315_ks',
         reg: 'http://orgeo.ru/event/41998',
@@ -376,7 +376,7 @@ let events_2025 =
     }, {
         date: '2025-04-24',
         place: 'Кузьмолово, Зона-Z',
-        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        name: 'Контрольный старт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=25_KS',
         reg: 'https://orgeo.ru/event/43174',
@@ -589,7 +589,7 @@ let events_2025 =
     }, {
         date: '2025-05-15',
         place: 'Юкки',
-        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        name: 'Контрольный старт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=25_KS',
         reg: 'https://orgeo.ru/event/43174',
@@ -639,7 +639,7 @@ let events_2025 =
     }, {
         date: '2025-05-22',
         place: 'Новотоксово, ВИФК',
-        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        name: 'Контрольный старт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=25_KS',
         reg: 'http://orgeo.ru/event/43177',
@@ -679,7 +679,7 @@ let events_2025 =
     }, {
         date: '2025-05-29',
         place: 'Вартемяги',
-        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        name: 'Контрольный старт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=25_KS',
         reg: 'http://orgeo.ru/event/43177',
@@ -755,7 +755,7 @@ let events_2025 =
     }, {
         date: '2025-06-05',
         place: 'Кавголово, Динамо',
-        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        name: 'Контрольный старт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=25_KS',
         reg: 'http://orgeo.ru/event/43177',
@@ -1154,7 +1154,7 @@ let events_2025 =
     }, {
         date: '2025-09-11',
         place: 'Токсово, Изумрудное оз',
-        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        name: 'Контрольный старт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
         reg: 'https://orgeo.ru/event/46308',
@@ -1210,7 +1210,7 @@ let events_2025 =
     }, {
         date: '2025-09-18',
         place: 'Токсово, Светлое оз',
-        name: 'КОНТРОЛЬНЫЙ СТАРТ',
+        name: 'Контрольный старт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
         reg: 'https://orgeo.ru/event/46308',
@@ -1366,6 +1366,7 @@ let events_2025 =
         name: 'Памяти Димы Фатидинова',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250927',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23487/',
         reg: 'https://orgeo.ru/event/45984'
     }, {
         date: '2025-09-27',
@@ -1380,7 +1381,9 @@ let events_2025 =
         fmt:  '4',
         type: 'ROGAINE',
         link:  ['https://vk.com/event166397868','https://t.me/lugarogein'],
-        reg: 'https://orgeo.ru/event/40549'
+        reg: 'https://orgeo.ru/event/40549',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/23509/',
+        res: 'https://vk.com/wall-166397868_5042'
     }, {
         date: '2025-09-28',
         place: 'Зеркальный',
@@ -1389,7 +1392,25 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250928_MY',
         reg: 'o-reg.spb.ru/?filter[day_id]=1696',
+        reskeep: 800,
+        gps: {
+            'М18/50/55,Ж20/21К/35':'https://viewer.o-gps-center.ru/viewer/event/23504/',
+            'М21':'https://viewer.o-gps-center.ru/viewer/event/23505/'
+        },
         map: 'yappilya_tarasovskoe_2024'
+    }, {
+        date: '2025-09-30',
+        place: 'Красногвардейский р-он, Полюстровский парк',
+        name: 'Тренировка',
+        type: 'ORIENT',
+        link: 'https://vk.com/wall-158501339_619',
+        map: 'polyustrovsky_2022_omaps'
+    }, {
+        date: '2025-10-02',
+        place: 'Сертолово',
+        name: 'Контрольный старт',
+        link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
+        type: 'ORIENT',
     }, {
         date: '2025-10-04',
         place: 'Лемболово',
