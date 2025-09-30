@@ -1129,7 +1129,7 @@ let moscowMaps = [
     },
     {
         name: 'Лианозово',
-        url: './maps/moscow/lianozovo.webp',
+        url: './maps/moscow/lr/lianozovo.webp',
         link: './original_maps/moscow/lr/lianozovo_omaps.jpg',
         bounds: [[55.9058143220635, 37.555818557739265], [55.90444308250402, 37.5744652748108], [55.89780271048334, 37.55487442016602]],
         author: 'PTRV_VLNTN',
@@ -1138,7 +1138,7 @@ let moscowMaps = [
     {
         name: 'Лианозовский лесопитомник',
         year: 2000,
-        url: './maps/moscow/lianozovo_2000.webp',
+        url: './maps/moscow/lr/lianozovo_2000.webp',
         link: './original_maps/moscow/lr/lianozovo_2000_omaps.png',
         bounds: [[55.90681265019239, 37.59272575378419], [55.90526102070719, 37.608239650726325], [55.899041851673346, 37.58858442306519]],
         author: 'PTRV_VLNTN',
@@ -1294,11 +1294,11 @@ let moscowMaps = [
     },
     {
         name: 'Музей-заповедник Царицыно',
-        year: 2024,
-        url: './maps/moscow/o-mephi/20200918_891.webp',
-        link: 'http://o-mephi.net/cup/maps/20250614_335.jpg',
+        year: 2025,
+        url: './maps/moscow/tsaritsyno_2025.webp',
+        link: './original_maps/moscow/tsaritsyno_2025_omaps.gif',
         info: 'Карты одного из красивейших парков Москвы от Сергея Симакина. Возможность использования сомнительна. Администрация хочет денег. Северная часть отредактирована Александром Минаковым под ночное памяти Горюнова в 2024 году.',
-        bounds: [[55.62276225997318, 37.67186164855958], [55.620532881654384, 37.70074367523194], [55.60536004937333, 37.66851425170899]],
+        bounds: [[55.622810723311126, 37.67332077026368], [55.61936967741558, 37.7012586593628], [55.60616004175812, 37.66799926757813]],
         author: ['SMKN_S','MNKV'],
         owner: 'ERMCHNKV_A',
         type: ['PARK']
@@ -1566,7 +1566,7 @@ let moscowMaps = [
     {
         name: 'Экопарк "Летова тропа"',
         year: 2022,
-        url: './maps/moscow/letovo_2022.webp',
+        url: './maps/moscow/lr/letovo_2022.webp',
             link: './original_maps/moscow/lr/letovo_2022_omaps.jpg',
         bounds: [[55.5571000543419, 37.41692304611207], [55.55608060620929, 37.42868185043336], [55.55086158843829, 37.41529226303101]],
         author: 'KLZHNY',
@@ -3338,7 +3338,7 @@ let moscowMaps = [
     {
         name: 'Ляхово',
         year: 2010,
-        url: './maps/moscow/liahovo_2010.webp',
+        url: './maps/moscow/lr/liahovo_2010.webp',
         link: './original_maps/moscow/lr/liahovo_2010_omaps.jpg',
         bounds: [[55.25219367189334, 37.96621799468995], [55.253172070139215, 37.994284629821784], [55.239496770821845, 37.96720504760743]]
     },
