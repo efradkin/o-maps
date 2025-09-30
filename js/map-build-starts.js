@@ -1,4 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
+let BACKGROUND_PARAM = urlParams.get('background');
 let AUTHOR_PARAM = urlParams.get('author');
 const OWNER_PARAM = urlParams.get('owner');
 const PLANNER_PARAM = urlParams.get('planner');
@@ -19,7 +20,7 @@ const Y_PARAM = urlParams.get('y');
 const ZOOM_PARAM = urlParams.get('zoom');
 let HAS_NO_BUTTONS_PARAM = urlParams.has('no-buttons');
 const HAS_EMBEDDED_PARAM = urlParams.has('embedded');
-const HAS_OCAD = urlParams.has('ocad');
+const HAS_OCAD_PARAM = urlParams.has('ocad');
 
 if (HAS_EMBEDDED_PARAM) {
     HAS_NO_BUTTONS_PARAM = true;
@@ -28,7 +29,12 @@ if (ONLY_MAP_NAME_PARAM) {
     MAP_NAME_PARAM = ONLY_MAP_NAME_PARAM;
 }
 
-const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-maps</a> | <a href="https://t.me/o_maps">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright">OSM</a>';
+let background = BACKGROUND_PARAM || localStorage.getItem('background') || BACKGROUND_YANDEX;
+
+const BASEMENT =
+    (HAS_EMBEDDED_PARAM || background === BACKGROUND_YANDEX || background === BACKGROUND_SATELLITE) ?
+        '<a href="https://yandex.ru/legal/maps_termsofuse/ru/?lang=ru">Я.Картах</a>' : '<a href="https://www.openstreetmap.org/copyright">OSM</a>';
+const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-maps</a> | <a href="https://t.me/o_maps">Спорт. карты</a> на ' + BASEMENT;
 const CLEAR_MAP_LABEL = 'Убрать все старты';
 const SHOW_ALL_LABEL = 'Показать все старты';
 
@@ -111,32 +117,33 @@ if (mapElement) {
         attribution: ATTRIBUTION
     });
 
+    setActiveBackground();
     if (START_NAME_PARAM) {
         switch (START_NAME_PARAM) {
-            case 'REPORT': activeLayers.push(osmLayer, otherGroup); break;
-            case 'SCHOOL': activeLayers.push(osmLayer, schoolGroup); break;
-            case 'WN': activeLayers.push(osmLayer, wnGroup); break;
-            case 'ORIENTIR': activeLayers.push(osmLayer, orientirGroup); break;
-            case 'NA': activeLayers.push(osmLayer, naGroup); break;
-            case 'YM': activeLayers.push(osmLayer, ymGroup); break;
-            case 'KKP': activeLayers.push(osmLayer, kkpGroup); break;
-            case 'GS': activeLayers.push(osmLayer, gsGroup); break;
-            case 'MMS': activeLayers.push(osmLayer, mmsGroup); break;
-            case 'KZNTSVA': activeLayers.push(osmLayer, pskGroup); break;
-            case 'VOLKOV_A': activeLayers.push(osmLayer, volkovGroup); break;
-            case 'KS': activeLayers.push(osmLayer, ksGroup); break;
-            case 'RFAR': activeLayers.push(osmLayer, rfarGroup); break;
-            case '100X24': activeLayers.push(osmLayer, sto24Group); break;
-            case 'ST': activeLayers.push(osmLayer, stGroup); break;
-            case 'VO_FOTO': activeLayers.push(osmLayer, kkmGroup); break;
-            case 'KKM': activeLayers.push(osmLayer, kkmGroup); break;
-            case 'MB': activeLayers.push(osmLayer, mbGroup); break;
+            case 'REPORT': activeLayers.push(otherGroup); break;
+            case 'SCHOOL': activeLayers.push(schoolGroup); break;
+            case 'WN': activeLayers.push(wnGroup); break;
+            case 'ORIENTIR': activeLayers.push(orientirGroup); break;
+            case 'NA': activeLayers.push(naGroup); break;
+            case 'YM': activeLayers.push(ymGroup); break;
+            case 'KKP': activeLayers.push(kkpGroup); break;
+            case 'GS': activeLayers.push(gsGroup); break;
+            case 'MMS': activeLayers.push(mmsGroup); break;
+            case 'KZNTSVA': activeLayers.push(pskGroup); break;
+            case 'VOLKOV_A': activeLayers.push(volkovGroup); break;
+            case 'KS': activeLayers.push(ksGroup); break;
+            case 'RFAR': activeLayers.push(rfarGroup); break;
+            case '100X24': activeLayers.push(sto24Group); break;
+            case 'ST': activeLayers.push(stGroup); break;
+            case 'VO_FOTO': activeLayers.push(kkmGroup); break;
+            case 'KKM': activeLayers.push(kkmGroup); break;
+            case 'MB': activeLayers.push(mbGroup); break;
             case 'TA':
-            case 'BA': activeLayers.push(osmLayer, baGroup); break;
+            case 'BA': activeLayers.push(baGroup); break;
         }
     } else {
         activeLayers.push(
-            osmLayer, otherGroup, schoolGroup, wnGroup, naGroup, orientirGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup, volkovGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
+            otherGroup, schoolGroup, wnGroup, naGroup, orientirGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup, volkovGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
             //...Object.values(ageGroups),
         );
     }

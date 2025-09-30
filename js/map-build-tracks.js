@@ -1,4 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
+let BACKGROUND_PARAM = urlParams.get('background');
 let AUTHOR_PARAM = urlParams.get('author');
 const OWNER_PARAM = urlParams.get('owner');
 const PLANNER_PARAM = urlParams.get('planner');
@@ -19,7 +20,7 @@ const Y_PARAM = urlParams.get('y');
 const ZOOM_PARAM = urlParams.get('zoom');
 let HAS_NO_BUTTONS_PARAM = urlParams.has('no-buttons');
 const HAS_EMBEDDED_PARAM = urlParams.has('embedded');
-const HAS_OCAD = urlParams.has('ocad');
+const HAS_OCAD_PARAM = urlParams.has('ocad');
 
 if (HAS_EMBEDDED_PARAM) {
     HAS_NO_BUTTONS_PARAM = true;
@@ -31,7 +32,12 @@ if (ONLY_TRACK_NAME_PARAM) {
     TRACK_NAME_PARAM = ONLY_TRACK_NAME_PARAM;
 }
 
-const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-maps</a> | <a href="https://t.me/o_maps">Спорт. карты</a> на <a href="https://www.openstreetmap.org/copyright">OSM</a>';
+let background = BACKGROUND_PARAM || localStorage.getItem('background') || BACKGROUND_YANDEX;
+
+const BASEMENT =
+    (HAS_EMBEDDED_PARAM || background === BACKGROUND_YANDEX || background === BACKGROUND_SATELLITE) ?
+        '<a href="https://yandex.ru/legal/maps_termsofuse/ru/?lang=ru">Я.Картах</a>' : '<a href="https://www.openstreetmap.org/copyright">OSM</a>';
+const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-maps</a> | <a href="https://t.me/o_maps">Спорт. карты</a> на ' + BASEMENT;
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
@@ -71,8 +77,9 @@ if (mapElement) {
         attribution: ATTRIBUTION
     });
 
+    setActiveBackground();
     activeLayers.push(
-        osmLayer, runGroup, walkGroup, skiGroup, veloGroup, waterGroup
+        runGroup, walkGroup, skiGroup, veloGroup, waterGroup
     );
 }
 

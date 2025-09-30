@@ -314,7 +314,7 @@ if (mapElement) {
         attributionControl: false,
         zoomControl: false,
         minZoom: 9,
-        maxZoom: 16,
+        maxZoom: 17,
         center: [x, y],
         zoom: zoom,
         layers: activeLayers,
@@ -384,6 +384,16 @@ if (mapElement) {
     // Save the map state whenever the map is moved or zoomed
     map.on('moveend', () => saveMapState(map, REGION_KEY));
     map.on('zoomend', () => saveMapState(map, REGION_KEY));
+
+    map.on('baselayerchange', function(e) {
+        switch (e.layer) {
+            case osmLayer: background = BACKGROUND_OSM; break
+            case openTopoLayer: background = BACKGROUND_TOPO; break
+            case yandexSatelliteLayer: background = BACKGROUND_SATELLITE; break
+            default: background = BACKGROUND_YANDEX;
+        }
+        localStorage.setItem('background', background);
+    });
 
     L.control.scale().addTo(map);
 
@@ -773,7 +783,7 @@ function loadMap(m, forse) {
         return;
     }
 
-    if (HAS_OCAD && !hasOCAD(m)) {
+    if (HAS_OCAD_PARAM && !hasOCAD(m)) {
         return;
     }
 

@@ -1,4 +1,4 @@
-let dic = {
+const dic = {
     RUN: 'БЕГ',
     SKI: 'ЛЫЖИ',
     VELO: 'ВЕЛО',
@@ -16,20 +16,28 @@ let dic = {
     WINTER: 'ЗИМА',
     INDOOR: 'ВНУТРИ',
 };
-let color = {
+
+const color = {
     RUN: 'red',
     SKI: 'blue',
     VELO: 'green',
     WALK: 'brown',
     WATER: 'darkblue',
 };
-var WEAK_DAYS_SHORT = [
+
+const WEAK_DAYS_SHORT = [
     'ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'
 ];
+
 const MONTHS_SHORT = [
     'ЯНВ', 'ФЕВ', 'МАР', 'АПР', 'МАЯ', 'ИЮН',
     'ИЮЛ', 'АВГ', 'СЕН', 'ОКТ', 'НОЯ', 'ДЕК'
 ];
+
+const BACKGROUND_OSM = 'osm';
+const BACKGROUND_TOPO = 'topo';
+const BACKGROUND_YANDEX = 'yandex';
+const BACKGROUND_SATELLITE = 'satellite';
 
 function year(o) { // map, track, event
     if (o.year) return o.year;
@@ -77,6 +85,15 @@ function formatDate(o, withYear, withDayOfWeek) { // map, track, event with ".da
         return `${day} ${month} (${dayWeek})`;
     } else {
         return `${day} ${month}`;
+    }
+}
+
+function setActiveBackground() {
+    switch (background) {
+        case BACKGROUND_OSM: activeLayers.push(osmLayer); break;
+        case BACKGROUND_TOPO: activeLayers.push(openTopoLayer); break;
+        case BACKGROUND_SATELLITE: activeLayers.push(yandexSatelliteLayer); break;
+        default: activeLayers.push(yandexLayer);
     }
 }
 
