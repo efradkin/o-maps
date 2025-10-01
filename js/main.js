@@ -1291,7 +1291,8 @@ function buildDownloadLinks(link, links) {
         let linksList = [];
         if (links) {
             for (let d = 1; d <= links[1]; d++) {
-                let url = 'docs/' + links[0] + '/doc_' + d + '_omaps.jpg';
+                let ext = links.length > 2 ? links[2] : 'jpg';
+                let url = 'docs/' + links[0] + '/doc_' + d + '_omaps.' + ext;
                 linksList.push(url);
             }
         } else {

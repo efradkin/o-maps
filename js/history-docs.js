@@ -53,6 +53,13 @@ let historyDocs = [
         links: ['simagino_1988_10_07', 8]
     },
     {
+        name: '6.06. Ориентир-9',
+        year: 1990,
+        start: 'ORIENTIR',
+        info: '<a href="./docs/1990_06_06_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1990_06_06_yukki/doc_2_omaps.gif">МБ</a>, <a href="./docs/1990_06_06_yukki/doc_3_omaps.gif">МС,Н</a>, <a href="./docs/1990_06_06_yukki/doc_4_omaps.gif">ЖА</a>, <a href="./docs/1990_06_06_yukki/doc_5_omaps.gif">ЖБ,ЖС</a>',
+        links: ['1990_06_06_yukki', 5, 'gif']
+    },
+    {
         name: '6-7.10. "Дыхание осени" на День Конституции СССР',
         year: 1990,
         info: '<a href="./docs/sosnovo_1990_10_06/doc_3_omaps.jpg">Положение</a>, <a href="./docs/sosnovo_1990_10_06/doc_4_omaps.jpg">МА</a>. Карты можно найти <a href="map-info.html?map=sosnovo_1990_10_06">тут</a>.',

@@ -41,7 +41,8 @@ if (m.docs) {
     //document.querySelector('#download_links').innerHTML = buildDownloadLinks(m.link);
 
     for (let d = 1; d <= m.docs[1]; d++) {
-        let url = 'docs/' + m.docs[0] + '/doc_' + d + '_omaps.jpg';
+        let ext = m.docs.length > 2 ? m.docs[2] : 'jpg';
+        let url = 'docs/' + m.docs[0] + '/doc_' + d + '_omaps.' + ext;
         previews += DOC_TEMPLATE.replaceAll('#doc_src', url);
     }
     if (!previews) {

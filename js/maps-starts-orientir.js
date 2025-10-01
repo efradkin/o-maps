@@ -3,11 +3,12 @@ let orientirStartsMaps = [
     {
         name: 'Юкки',
         date: '1990-06-06',
-        info: 'Ориентир-9',
+        info: 'Ориентир-9. <a href="./docs/1990_06_06_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1990_06_06_yukki/doc_2_omaps.gif">МБ</a>, <a href="./docs/1990_06_06_yukki/doc_3_omaps.gif">МС,Н</a>, <a href="./docs/1990_06_06_yukki/doc_4_omaps.gif">ЖА</a>, <a href="./docs/1990_06_06_yukki/doc_5_omaps.gif">ЖБ,ЖС</a>',
         url: './maps/starts/orientir/orientir_1990_06_06.webp',
         link: './original_maps/starts/orientir/orientir_1990_06_06_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.131290288320166, 30.287504196166996], [60.12919572132151, 30.331964492797855], [60.11021030132096, 30.28261184692383]],
+        docs: ['1990_06_06_yukki', 5, 'gif'],
         author: 'SHLKHN_Y'
     },
     {
