@@ -1345,6 +1345,7 @@ let events_2025 =
         type: 'ORIENT',
         fmt: 'выбор',
         reg: 'https://orgeo.ru/event/46431',
+        res: 'https://vk.com/wall-21809767_48344',
         map: 'rzhevsky_2024'
     }, {
         date: '2025-09-26',
@@ -1398,6 +1399,7 @@ let events_2025 =
             'М21':'https://viewer.o-gps-center.ru/viewer/event/23505/',
             'Все КП':'https://o-gps-center.ru/manage2/events/view/23494'
         },
+        photo: ['https://vk.com/album-230167293_311242634'],
         map: 'yappilya_tarasovskoe_2024'
     }, {
         date: '2025-09-30',
@@ -1411,6 +1413,7 @@ let events_2025 =
         place: 'Сертолово',
         name: 'Контрольный старт',
         link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
+        reg: 'http://orgeo.ru/event/46828',
         type: 'ORIENT',
     }, {
         date: '2025-10-04',
@@ -1420,6 +1423,14 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://touristclub.ru/okinchits/',
         reg: 'https://orgeo.ru/event/45800'
+    }, {
+        date: '2025-10-04',
+        place: 'Выборг, Балашовское шоссе',
+        name: 'Тренировка',
+        type: 'ORIENT',
+        link: 'https://vk.com/wall-39074786_8496',
+        any: 'новая карта',
+        owner: 'VYBORG'
     }, {
         date: '2025-10-04',
         endDate: '2025-10-06',
@@ -1454,7 +1465,7 @@ let events_2025 =
         name: 'Тренировка от "Горный кросс"',
         fmt:  '1',
         type: 'ROGAINE',
-        link: 'https://vk.com/wall-31941981_4742',
+        link: 'https://o-site.spb.ru/race.php?id=251011R',
         reg: 'https://orgeo.ru/event/39880',
         start: 'GK'
     }, {
@@ -1491,6 +1502,13 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/44894',
         start: 'MB'
     }, {
+        date: '2025-10-19',
+        place: 'Пухтолова гора',
+        name: 'Памяти Зои Викторовны Пятаковой',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251019_PZVP',
+        reg: 'http://orgeo.ru/event/info/46779',
+    }, {
         date: '2025-10-25',
         place: 'Суоранда',
         name: 'Рогейн на "Голубой даче" (финал КЛО)',
@@ -1499,6 +1517,18 @@ let events_2025 =
         link: 'https://www.multsport.ru/starts/klo-final-25/',
         reg: 'https://www.multsport.ru/starts/klo-final-25/registration.html',
         start: 'MULTSPORT'
+    }, {
+        date: '2025-10-26',
+        place: 'Колосково',
+        name: 'Петербургская осень',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251026',
+    }, {
+        date: '2025-11-04',
+        place: 'Ягодное, Берестовое оз',
+        name: 'Осенний марафон',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251104_OM',
     }, {
         date: '2025-11-15',
         name: 'Рогейн на Лужских берегах',
