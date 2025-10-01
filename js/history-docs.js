@@ -53,7 +53,7 @@ let historyDocs = [
         links: ['simagino_1988_10_07', 8]
     },
     {
-        name: '6.06. Ориентир-9',
+        name: '6.06. Ориентир-9, Юкки',
         year: 1990,
         start: 'ORIENTIR',
         info: '<a href="./docs/1990_06_06_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1990_06_06_yukki/doc_2_omaps.gif">МБ</a>, <a href="./docs/1990_06_06_yukki/doc_3_omaps.gif">МС,Н</a>, <a href="./docs/1990_06_06_yukki/doc_4_omaps.gif">ЖА</a>, <a href="./docs/1990_06_06_yukki/doc_5_omaps.gif">ЖБ,ЖС</a>',
@@ -64,6 +64,13 @@ let historyDocs = [
         year: 1990,
         info: '<a href="./docs/sosnovo_1990_10_06/doc_3_omaps.jpg">Положение</a>, <a href="./docs/sosnovo_1990_10_06/doc_4_omaps.jpg">МА</a>. Карты можно найти <a href="map-info.html?map=sosnovo_1990_10_06">тут</a>.',
         links: ['sosnovo_1990_10_06', 4]
+    },
+    {
+        name: '7.04. Ориентир-1, Воейково',
+        year: 1991,
+        start: 'ORIENTIR',
+        info: '<a href="./docs/1991_04_07_voeykovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991_04_07_voeykovo/doc_2_omaps.gif">МB</a>, <a href="./docs/1990_06_06_yukki/doc_3_omaps.gif">МB(2)</a>, <a href="./docs/1990_06_06_yukki/doc_4_omaps.gif">МС,Н</a>, <a href="./docs/1990_06_06_yukki/doc_5_omaps.gif">МС,Н(2)</a>, <a href="./docs/1990_06_06_yukki/doc_6_omaps.gif">МС,Н(3)</a>, <a href="./docs/1990_06_06_yukki/doc_7_omaps.gif">ЖЭ</a>, <a href="./docs/1990_06_06_yukki/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1990_06_06_yukki/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1990_06_06_yukki/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1990_06_06_yukki/doc_11_omaps.gif">ЖС,Н</a>',
+        links: ['1991_04_07_voeykovo', 11, 'gif']
     },
     {
         name: '21,27.04. Открытие сезона ЛГС ДСО "Спартак"',
