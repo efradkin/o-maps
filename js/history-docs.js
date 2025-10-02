@@ -213,8 +213,15 @@ let historyDocs = [
         name: 'Ориентир-1, Воейково',
         date: '1991-04-07',
         start: 'ORIENTIR',
-        info: '<a href="./docs/1991_04_07_voeykovo/doc_12_omaps.gif">МЭ</a>, <a href="./docs/1991_04_07_voeykovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991_04_07_voeykovo/doc_2_omaps.gif">МB</a>, <a href="./docs/1990_06_06_yukki/doc_3_omaps.gif">МB(2)</a>, <a href="./docs/1990_06_06_yukki/doc_4_omaps.gif">МС,Н</a>, <a href="./docs/1990_06_06_yukki/doc_5_omaps.gif">МС,Н(2)</a>, <a href="./docs/1990_06_06_yukki/doc_6_omaps.gif">МС,Н(3)</a>, <a href="./docs/1990_06_06_yukki/doc_7_omaps.gif">ЖЭ</a>, <a href="./docs/1990_06_06_yukki/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1990_06_06_yukki/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1990_06_06_yukki/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1990_06_06_yukki/doc_11_omaps.gif">ЖС,Н</a>',
+        info: '<a href="./docs/1991_04_07_voeykovo/doc_12_omaps.gif">МЭ</a>, <a href="./docs/1991_04_07_voeykovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991_04_07_voeykovo/doc_2_omaps.gif">МB</a>, <a href="./docs/1991_04_07_voeykovo/doc_3_omaps.gif">МB(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_4_omaps.gif">МС,Н</a>, <a href="./docs/1991_04_07_voeykovo/doc_5_omaps.gif">МС,Н(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_6_omaps.gif">МС,Н(3)</a>, <a href="./docs/1991_04_07_voeykovo/doc_7_omaps.gif">ЖЭ</a>, <a href="./docs/1991_04_07_voeykovo/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991_04_07_voeykovo/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991_04_07_voeykovo/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_11_omaps.gif">ЖС,Н</a>',
         links: ['1991_04_07_voeykovo', 12, 'gif']
+    },
+    {
+        name: 'Ориентир-3, Юкки',
+        date: '1991-04-27',
+        start: 'ORIENTIR',
+        info: '<a href="./docs/1991-04-27_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1991-04-27_yukki/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991-04-27_yukki/doc_3_omaps.gif">МB</a>, <a href="./docs/1991-04-27_yukki/doc_4_omaps.gif">МВ(2)</a>, <a href="./docs/1991-04-27_yukki/doc_5_omaps.gif">МС</a>, <a href="./docs/1991-04-27_yukki/doc_6_omaps.gif">МС,Н</a>, <a href="./docs/1991-04-27_yukki/doc_7_omaps.gif">МН</a>, <a href="./docs/1991-04-27_yukki/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991-04-27_yukki/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991-04-27_yukki/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991-04-27_yukki/doc_11_omaps.gif">ЖС</a>, <a href="./docs/1991-04-27_yukki/doc_12_omaps.gif">ЖН</a>',
+        links: ['1991-04-27_yukki', 12, 'gif']
     },
     {
         name: '1-3 марта. Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста, Нижний Новгород',
