@@ -17,7 +17,7 @@ window.onload = function() {
     // Изначальный рендеринг таблицы
     renderMapsTable();
 
-    if (START_NAME_PARAM) {
+    if (START_NAME_PARAM || isDocumentsPage()) {
         document.querySelector('.o-sheet').classList.add("start-sheet");
         let yearTH = document.getElementById('year-column');
         yearTH.click();
@@ -101,14 +101,26 @@ function buildName(m) {
 }
 
 function buildYear(m) {
+    let result;
     if (m.year === 1 ) {
-        return 'Ретро';
+        result = 'Ретро';
+    } else if (isDocumentsPage()) {
+        let date = formatDate(m, true, true);
+        if (date) {
+            result = date;
+        }
+        else {
+            result = m.year;
+        }
+    } else {
+        let sy = startYear(m);
+        if (sy) {
+            result = sy;
+        } else {
+            result = safe(year(m));
+        }
     }
-    let sy = startYear(m);
-    if (sy) {
-        return sy;
-    }
-    return safe(year(m));
+    return `<span class="doc-date">${result}</span>`
 }
 
 function buildStart(m) {
@@ -150,9 +162,11 @@ function buildInfo(m) {
         if (m.restricted) {
             result += '<br />'
         }
-        if (m.date && m.date.length > 7) {
-            const date = formatDate(m, false, true);
-            result += `<b>${date}</b>` + (m.info ? '. ' : '');
+        if (!isDocumentsPage()) {
+            if (m.date && m.date.length > 7) {
+                const date = formatDate(m, false, true);
+                result += `<b>${date}</b>` + (m.info ? '. ' : '');
+            }
         }
         if (m.info) {
             result += m.info;
@@ -169,6 +183,13 @@ function sortMapsTable() {
         sortable.dataset.order = '';
     }
 
+    function safeStart(m) {
+        if (Array.isArray(m.start))
+            return m.start[0];
+        else
+            return m.start || '';
+    }
+
     const isAscending = this.dataset.order === 'asc';
     switch (this.dataset.sort) {
         case 'name':
@@ -178,7 +199,7 @@ function sortMapsTable() {
             break;
         case 'start':
             oMaps.sort((a, b) => {
-                return isAscending ? (a.start || '').localeCompare(b.start || '') : (b.start || '').localeCompare(a.start || '');
+                return isAscending ? (safeStart(a)).localeCompare(safeStart(b)) : (safeStart(b)).localeCompare(safeStart(a));
             });
             break;
         case 'year':

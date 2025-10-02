@@ -448,6 +448,10 @@ label:has(> span span .layer-separator) {
         padding: 15px 10px;
     }
 }
+.doc-date {
+    font-weight: bold;
+    white-space: nowrap;
+}
 .about-button {
     float: left;
     background-color: white;
