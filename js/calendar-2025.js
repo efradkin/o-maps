@@ -1360,7 +1360,8 @@ let events_2025 =
         place: 'Зеркальный',
         name: 'Старты в Зеркальном',
         type: 'ORIENT',
-        link: 'https://o-site.spb.ru/race.php?id=250927_Zerk'
+        link: 'https://o-site.spb.ru/race.php?id=250927_Zerk',
+        photo: 'https://vk.com/album-230167293_311263696'
     }, {
         date: '2025-09-27',
         place: 'Юкки',
@@ -1441,6 +1442,13 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251007_NS',
         reg: 'https://orgeo.ru/event/info/45533',
         owner: 'SFSO_SPB'
+    }, {
+        date: '2025-10-08',
+        place: 'Сосновка',
+        name: 'Dлительная серия осень - этап 1',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/46877',
+        owner: 'DLT'
     }, {
         date: '2025-10-11',
         place: 'Полюстровский парк',
