@@ -323,14 +323,14 @@ label:has(> span span .layer-separator) {
     width: 100%;
     background-color: white;
     border: solid 1px gray;
-    font-size: 12px;
+    font-size: 14px;
     border-collapse: collapse;
     tr:nth-child(odd) {
         background-color: lightgray;
     }
     td, th {
         text-align: left;
-        padding: 3px 10px;
+        padding: 7px 10px;
     }
     th.sortable {
         cursor: pointer;
