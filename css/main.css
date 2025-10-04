@@ -463,6 +463,11 @@ label:has(> span span .layer-separator) {
         margin: 8px;
     }
 }
+.my-race {
+    font-weight: bold;
+    font-size: 8px;
+    color: navy;
+}
 
 /* --- MAP INFO --- */
 #start_info {

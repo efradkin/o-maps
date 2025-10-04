@@ -50,12 +50,14 @@ let historyDocs = [
         name: '21,27 апреля. Открытие сезона ЛГС ДСО "Спартак"',
         date: '1985-04-21',
         info: 'Протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',
-        links: ['gdacha_1985_04_21', 8]
+        links: ['gdacha_1985_04_21', 8],
+        me: 'М-13'
     },
     {
         name: 'Первенство клуба Азимут, Комарово',
         year: 1988,
-        link: './docs/1988_azimut_omaps.pdf'
+        link: './docs/1988_azimut_omaps.pdf',
+        me: 'М'
     },
     {
         name: 'Соревнования, посвящённые снятию блокады Ленинграда, Токсово',
@@ -85,7 +87,8 @@ let historyDocs = [
     {
         name: 'Открытие сезона клуба Азимут, эстафета, Шувалово',
         date: '1988-04-24',
-        link: './docs/1988_04_24_azimut_summer_open_omaps.pdf'
+        link: './docs/1988_04_24_azimut_summer_open_omaps.pdf',
+        me: 'М-13'
     },
     {
         name: '30 апреля - 2мая. Майская Ленинградская многодневка, Шалово',
@@ -95,7 +98,8 @@ let historyDocs = [
     {
         name: '"Лесной ландыш", Орехово',
         date: '1988-05-22',
-        link: './docs/1988_05_22_forest_landysh_omaps.pdf'
+        link: './docs/1988_05_22_forest_landysh_omaps.pdf',
+        me: 'МВ'
     },
     {
         name: '2 и 3 июня. Невский Азимут, Токсово (р Охта)',
@@ -188,7 +192,8 @@ let historyDocs = [
     {
         name: 'Новогодняя эстафета, Юкки',
         date: '1988-12-31',
-        link: './docs/1988_12_31_new_year_omaps.pdf'
+        link: './docs/1988_12_31_new_year_omaps.pdf',
+        me: 'М-15'
     },
     {
         name: 'Буклет "Спортивное ориентирование"',
@@ -201,7 +206,8 @@ let historyDocs = [
         date: '1990-06-06',
         start: 'ORIENTIR',
         info: '<a href="./docs/1990_06_06_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1990_06_06_yukki/doc_2_omaps.gif">МБ</a>, <a href="./docs/1990_06_06_yukki/doc_3_omaps.gif">МС,Н</a>, <a href="./docs/1990_06_06_yukki/doc_4_omaps.gif">ЖА</a>, <a href="./docs/1990_06_06_yukki/doc_5_omaps.gif">ЖБ,ЖС</a>',
-        links: ['1990_06_06_yukki', 5, 'gif']
+        links: ['1990_06_06_yukki', 5, 'gif'],
+        me: 'МА'
     },
     {
         name: '6 и 7 октября. "Дыхание осени" на День Конституции СССР',
@@ -214,14 +220,16 @@ let historyDocs = [
         date: '1991-04-07',
         start: 'ORIENTIR',
         info: '<a href="./docs/1991_04_07_voeykovo/doc_12_omaps.gif">МЭ</a>, <a href="./docs/1991_04_07_voeykovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991_04_07_voeykovo/doc_2_omaps.gif">МB</a>, <a href="./docs/1991_04_07_voeykovo/doc_3_omaps.gif">МB(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_4_omaps.gif">МС,Н</a>, <a href="./docs/1991_04_07_voeykovo/doc_5_omaps.gif">МС,Н(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_6_omaps.gif">МС,Н(3)</a>, <a href="./docs/1991_04_07_voeykovo/doc_7_omaps.gif">ЖЭ</a>, <a href="./docs/1991_04_07_voeykovo/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991_04_07_voeykovo/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991_04_07_voeykovo/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_11_omaps.gif">ЖС,Н</a>',
-        links: ['1991_04_07_voeykovo', 12, 'gif']
+        links: ['1991_04_07_voeykovo', 12, 'gif'],
+        me: 'МА'
     },
     {
         name: 'Ориентир-3, Юкки',
         date: '1991-04-27',
         start: 'ORIENTIR',
         info: '<a href="./docs/1991-04-27_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1991-04-27_yukki/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991-04-27_yukki/doc_3_omaps.gif">МB</a>, <a href="./docs/1991-04-27_yukki/doc_4_omaps.gif">МВ(2)</a>, <a href="./docs/1991-04-27_yukki/doc_5_omaps.gif">МС</a>, <a href="./docs/1991-04-27_yukki/doc_6_omaps.gif">МС,Н</a>, <a href="./docs/1991-04-27_yukki/doc_7_omaps.gif">МН</a>, <a href="./docs/1991-04-27_yukki/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991-04-27_yukki/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991-04-27_yukki/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991-04-27_yukki/doc_11_omaps.gif">ЖС</a>, <a href="./docs/1991-04-27_yukki/doc_12_omaps.gif">ЖН</a>',
-        links: ['1991-04-27_yukki', 12, 'gif']
+        links: ['1991-04-27_yukki', 12, 'gif'],
+        me: 'МА'
     },
     {
         name: '1-3 марта. Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста, Нижний Новгород',

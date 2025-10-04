@@ -97,6 +97,9 @@ function buildName(m) {
     } else {
         result += m.name;
     }
+    if (m.me) {
+        result += ` <sup class="my-race">${m.me}</sup>`;
+    }
     return result;
 }
 
