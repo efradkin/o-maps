@@ -165,6 +165,7 @@ let cityMaps = [
         },
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
+        planner: 'GRLNV',
         type: ['CITY']
     },
     {
@@ -300,6 +301,7 @@ let cityMaps = [
         bounds: [[59.90039947081465, 30.260939598083496], [59.89875297810411, 30.27718305587769], [59.89376995717028, 30.25797843933106]],
         start: 'ST',
         owner: 'KUZM_CHGRVSKY',
+        planner: 'CHGRVSKY_M',
         type: ['CITY'],
         author: 'ZCHNV'
     },
@@ -888,6 +890,20 @@ let cityMaps = [
         type: ['CITY']
     },
     {
+        name: 'Дибуновская ул',
+        excluded: true,
+        date: '2025-08-05',
+        url: './maps/city/dibunovskaya_2022.webp',
+        link: './original_maps/city/dibunovskaya_2022_st_omaps.gif',
+        info: '<a href="https://reskeep.ru/event/get?id=713">Результаты.</a>',
+        bounds: [[59.98930699819738, 30.271260738372806], [59.987927868402906, 30.2863883972168], [59.98401554936793, 30.269372463226322]],
+        author: 'DBRTSV_V',
+        start: 'ST',
+        owner: 'KUZM',
+        planner: 'MSLVSKY',
+        type: ['CITY']
+    },
+    {
         name: 'ул Жака Дюкло',
         date: '2023-10-04',
         url: './maps/city/zhaka_djuklo_2023.webp',
@@ -1073,14 +1089,28 @@ let cityMaps = [
     },
     {
         name: 'Пионерская, Аллея Поликарпова',
-        date: '2025-05-28',
+        date: '2025-09-25',
         url: './maps/city/alleya_polikarpova_2024.webp',
-        link: ['./original_maps/city/polikarpova_2024_st_omaps.gif','./original_maps/city/polikarpova_2025_st_omaps.jpg'],
-        info: '<a href="https://reskeep.ru/event/get?id=668">Результаты 25-09-2024</a>, <a href="https://reskeep.ru/event/get?id=703">Результаты 28-05-2025.</a>',
+        link: './original_maps/city/polikarpova_2024_st_omaps.gif',
+        info: '<a href="https://reskeep.ru/event/get?id=668">Результаты</a>.',
         bounds: [[60.010968427120524, 30.28368473052979], [60.0092416122016, 30.300571918487552], [60.00471499853547, 30.281302928924564]],
         author: 'CHGRVSKY_Y',
         start: 'ST',
         owner: 'KUZM',
+        type: ['CITY']
+    },
+    {
+        name: 'Пионерская, Аллея Поликарпова',
+        excluded: true,
+        date: '2025-05-28',
+        url: './maps/city/alleya_polikarpova_2024.webp',
+        link: './original_maps/city/polikarpova_2025_st_omaps.jpg',
+        info: '<a href="https://reskeep.ru/event/get?id=703">Результаты</a>.',
+        bounds: [[60.010968427120524, 30.28368473052979], [60.0092416122016, 30.300571918487552], [60.00471499853547, 30.281302928924564]],
+        author: 'CHGRVSKY_Y',
+        start: 'ST',
+        owner: 'KUZM',
+        planner: 'RYKV_A',
         type: ['CITY']
     },
     {
@@ -1093,6 +1123,7 @@ let cityMaps = [
         author: 'CHGRVSKY_Y',
         start: 'ST',
         owner: 'KUZM_CHGRVSKY',
+        planner: 'RYKV_A',
         type: ['CITY']
     },
     {
@@ -1817,6 +1848,7 @@ let cityMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23568/',
         author: 'SVCHK',
         owner: 'SFSO_SPB',
+        planner: 'PLKV_D',
         type: ['CITY']
     },
     {

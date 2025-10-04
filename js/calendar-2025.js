@@ -181,6 +181,7 @@ let events_2025 =
         },
         reskeep: 695,
         owner: 'SFSO_SPB',
+        any: 'новая карта',
         map: 'lesotekchnicheskaya_2025'
     }, {
         date: '2025-03-08',
@@ -944,6 +945,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250720_p',
         reg: 'http://orgeo.ru/event/45019',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23126/',
+        any: 'новая карта',
         map: 'silande_2025'
     }, {
         date: '2025-07-26',
@@ -1149,6 +1151,7 @@ let events_2025 =
         reskeep: 792,
         map: 'narvskaya_2016',
         photo: 'https://vk.com/album-92124592_308407207',
+        any: 'новая карта',
         start: 'ST',
         map: 'narvskaya_2025'
     }, {
@@ -1336,6 +1339,7 @@ let events_2025 =
         reskeep: 799,
         map: 'pionerskaya_2025_st',
         photo: ['https://vk.com/album-92124592_308559130','https://disk.yandex.ru/d/AZzu-M9KzcRvyg'],
+        any: 'новая карта',
         start: 'ST',
         any: '<a href="https://vk.com/@-92124592-noname-sprint-tur-2025-24092025?subtype=primary">Разбор дистанций</a>'
     }, {
@@ -1442,6 +1446,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251007_NS',
         reg: 'https://orgeo.ru/event/info/45533',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23568/',
+        any: 'новые карты',
         owner: 'SFSO_SPB',
         map: 'zelenogorsk_2025'
     }, {
