@@ -93,7 +93,7 @@ function buildName(m) {
         result += '<img src="./logo/' + m.logo + '" alt="" class="sheet-icon" /> ';
     }
     if (!isDocumentsPage()) {
-        result += '<a href="' + mapLink(m.url, m.region) + '">' + m.name + '</a>';
+        result += '<a href="' + mapLink(m.url, m) + '">' + m.name + '</a>';
     } else {
         result += m.name;
     }

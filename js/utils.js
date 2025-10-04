@@ -161,7 +161,17 @@ function isMajor(m) {
     return m.major || (m.start && starts[m.start] && starts[m.start].major);
 }
 
-function mapLink(url, region) {
+function mapLink(url, m) { // m - for region
+    let region;
+    if (m) {
+        if (m.region) {
+            region = m.region;
+        } else {
+            if (m.start && starts[m.start].region) {
+                region = starts[m.start].region;
+            }
+        }
+    }
     let pathname = location.pathname;
     if ((pathname.includes('map-info') || pathname.includes('maps-on-store')) && !region) {
         region = 'spb';

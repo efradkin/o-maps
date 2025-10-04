@@ -139,6 +139,7 @@ let priozerskMaps = [
     },
     {
         name: 'Кузнечное, оз Суури',
+        region: 'spb',
         year: 1984,
         date: '1990-07-28',
         info: 'Ориентир-22',

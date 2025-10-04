@@ -1,5 +1,5 @@
 let m = getMapForName(MAP_NAME_PARAM);
-document.getElementById('map_title').href = mapLink(m.url, m.region);
+document.getElementById('map_title').href = mapLink(m.url, m);
 let elName = document.getElementById('map_name');
 if (elName) {
     elName.innerHTML = mapTitle(m, true, false);

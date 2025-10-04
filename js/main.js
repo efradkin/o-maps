@@ -1002,6 +1002,9 @@ function mapTitle(m, forStart, colored) {
         }
         result += '&nbsp;(' + year + ')';
     }
+    if (m.me) {
+        result += ` <sup class="my-race">${m.me}</sup>`;
+    }
     if (m.gpx) {
         result += '</span>';
     }

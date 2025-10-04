@@ -9,7 +9,8 @@ let orientirStartsMaps = [
         start: 'ORIENTIR',
         bounds: [[60.131290288320166, 30.287504196166996], [60.12919572132151, 30.331964492797855], [60.11021030132096, 30.28261184692383]],
         docs: ['1990_06_06_yukki', 5, 'gif'],
-        author: 'SHLKHN_Y'
+        author: 'SHLKHN_Y',
+        me: 'МА'
     },
     {
         name: 'Юкки',
@@ -109,7 +110,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1990_11_10_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.14197477942133, 30.52388191223145], [60.138470648767054, 30.57756900787354], [60.123616683300746, 30.519032478332523]],
-        author: ['CHGRVSKY_V','DBRTSV_V','CHKVSKY_N','KRNLJV','GBNV_A','CHGRVSKY_Y'],
+        author: ['CHGRVSKY_V','DBRTSV_V','CHKVSKY_N','KRNLJV','GBNV_A','CHGRVSKY_Y']
     },
     {
         name: 'Токсово, оз Кривое',
@@ -119,7 +120,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1990_11_18_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.156799102974794, 30.533409118652347], [60.15291210269404, 30.58902740478516], [60.13970995715149, 30.529289245605472]],
-        author: ['CHGRVSKY_Y','DBRTSV_V','CHKVSKY_N','KRNLJV','GRSMVA','BSTRV_A','BRSVA_I','PTRNNA'],
+        author: ['CHGRVSKY_Y','DBRTSV_V','CHKVSKY_N','KRNLJV','GRSMVA','BSTRV_A','BRSVA_I','PTRNNA']
     },
     {
         name: 'Воейково',
@@ -131,6 +132,7 @@ let orientirStartsMaps = [
         bounds: [[59.95604161475451, 30.65889358520508], [59.9507985720987, 30.73210716247559], [59.925646226343105, 30.650825500488285]],
         docs: ['1991_04_07_voeykovo', 12, 'gif'],
         author: 'VSLVSKY',
+        me: 'МА'
     },
     {
         name: 'Колтуши',
@@ -145,13 +147,14 @@ let orientirStartsMaps = [
     {
         name: 'Юкки',
         date: '1991-04-27',
-        info: 'Ориентир-3. <a href="./docs/1991-04-27_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1991-04-27_yukki/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991-04-27_yukki/doc_3_omaps.gif">МB</a>, <a href="./docs/1991-04-27_yukki/doc_4_omaps.gif">МВ(2)</a>, <a href="./docs/1991-04-27_yukki/doc_5_omaps.gif">МС</a>, <a href="./docs/1991-04-27_yukki/doc_6_omaps.gif">МС,Н</a>, <a href="./docs/1991-04-27_yukki/doc_7_omaps.gif">МН</a>, <a href="./docs/1991-04-27_yukki/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991-04-27_yukki/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991-04-27_yukki/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991-04-27_yukki/doc_11_omaps.gif">ЖС</a>, <a href="./docs/1991-04-27_yukki/doc_12_omaps.gif">ЖН</a>',
+        info: 'Ориентир-3. <a href="./docs/1991_04_27_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1991_04_27_yukki/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991_04_27_yukki/doc_3_omaps.gif">МB</a>, <a href="./docs/1991_04_27_yukki/doc_4_omaps.gif">МВ(2)</a>, <a href="./docs/1991_04_27_yukki/doc_5_omaps.gif">МС</a>, <a href="./docs/1991_04_27_yukki/doc_6_omaps.gif">МС,Н</a>, <a href="./docs/1991_04_27_yukki/doc_7_omaps.gif">МН</a>, <a href="./docs/1991_04_27_yukki/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991_04_27_yukki/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991_04_27_yukki/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991_04_27_yukki/doc_11_omaps.gif">ЖС</a>, <a href="./docs/1991_04_27_yukki/doc_12_omaps.gif">ЖН</a>',
         url: './maps/starts/orientir/orientir_1991_04_27.webp',
         link: './original_maps/starts/orientir/orientir_1991_04_27_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.11771598201811, 30.27681827545166], [60.114166500104574, 30.34574031829834], [60.10248899875632, 30.274028778076172]],
-        docs: ['1991-04-27_yukki', 12, 'gif'],
-        author: ['SHLKHN_Y','BZNV_A']
+        docs: ['1991_04_27_yukki', 12, 'gif'],
+        author: ['SHLKHN_Y','BZNV_A'],
+        me: 'МА'
     },
     {
         name: 'Комарово',
@@ -186,12 +189,13 @@ let orientirStartsMaps = [
     {
         name: 'Токсово',
         date: '1991-06-12',
-        info: 'Ориентир-10',
+        info: 'Ориентир-10. <a href="./docs/1991_06_12_toksovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991_06_12_toksovo/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991_06_12_toksovo/doc_3_omaps.gif">МБ</a>, <a href="./docs/1991_06_12_toksovo/doc_4_omaps.gif">МБ(2)</a>, <a href="./docs/1991_06_12_toksovo/doc_5_omaps.gif">МС,Н</a>, <a href="./docs/1991_06_12_toksovo/doc_6_omaps.gif">ЖА,ЖС</a>, <a href="./docs/1991_06_12_toksovo/doc_7_omaps.gif">ЖБ</a>',
         url: './maps/starts/orientir/orientir_1991_06_12.webp',
         link: './original_maps/starts/orientir/orientir_1991_06_12_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.15248493177769, 30.390758514404297], [60.1483838085718, 30.462341308593754], [60.12620325146872, 30.3838062286377]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','AZBKNA'],
+        me: 'МА'
     },
     {
         name: 'Лемболово',

@@ -48,6 +48,7 @@ let starts = {
     },
     ORIENTIR: {
         short: 'Ориентир',
+        region: 'starts',
         name: '<a href="https://o-site.spb.ru/history/History/azimuth.html">Ориентир</a>',
         logo: 'azimut_retro.gif',
         info: '<p>Серия тренировочных стартов от спорт.общества "Спартак" (в дальнейшем - КСО "Азимут").'
