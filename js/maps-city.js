@@ -1809,11 +1809,14 @@ let cityMaps = [
     },
     {
         name: 'Зеленогорск',
-        year: 2025,
-        url: './maps/city/zelenogorsk_2025.png',
-        bounds: [[60.202756832158244, 29.706709384918216], [60.20180781068867, 29.71760988235474], [60.195654499997175, 29.70561504364014]],
+        date: '2025-10-04',
+        url: './maps/city/zelenogorsk_2025.webp',
+        link: './original_maps/city/zelenogorsk_2025_omaps.jpg',
+        bounds: [[60.20340726922134, 29.70664501190186], [60.20211704541842, 29.717910289764408], [60.19681699890615, 29.704005718231205]],
+        info: '<a href="https://o-site.spb.ru/race.php?id=251007_NS">Невский спринт</a>.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23568/',
+        author: 'SVCHK',
         owner: 'SFSO_SPB',
-        restricted: 'с 01.04.2025 по 05.10.2025, Всероссийские соревнования "Невский спринт"',
         type: ['CITY']
     },
     {

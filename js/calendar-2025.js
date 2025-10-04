@@ -1441,7 +1441,9 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251007_NS',
         reg: 'https://orgeo.ru/event/info/45533',
-        owner: 'SFSO_SPB'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23568/',
+        owner: 'SFSO_SPB',
+        map: 'zelenogorsk_2025'
     }, {
         date: '2025-10-08',
         place: 'Сосновка',
@@ -1467,6 +1469,14 @@ let events_2025 =
         reg: 'https://sportident.online/entry/?id=6732',
         owner: 'NW',
         map: 'silande_2024'
+    }, {
+        date: '2025-10-11',
+        place: 'Богословка, Невский л/п',
+        name: 'Нева-трейл, ЧиП Всеволожского р-она',
+        fmt: 'спринт',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/46023',
+        map: 'nevsky_2024'
     }, {
         date: '2025-10-11',
         place: 'Кавголово',
@@ -1503,7 +1513,7 @@ let events_2025 =
     }, {
         date: '2025-10-18',
         endDate: '2025-10-19',
-        place: 'Запад ЛО у залива',
+        place: 'Заовражные оз',
         name: 'Осенний марш-бросок',
         type: 'TOURISM', // марш-бросок
         link:  ['https://t.me/pmarshbrosok','https://vk.com/mbrosok'],
@@ -1537,6 +1547,14 @@ let events_2025 =
         name: 'Осенний марафон',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251104_OM',
+    }, {
+        date: '2025-11-08',
+        place: 'Лемболово-Орехово',
+        name: 'Горный Кросс - 111',
+        type: 'ROGAINE',
+        link: 'https://o-site.spb.ru/race.php?id=251108R',
+        reg: 'http://orgeo.ru/event/39881',
+        start: 'GK'
     }, {
         date: '2025-11-15',
         name: 'Рогейн на Лужских берегах',
