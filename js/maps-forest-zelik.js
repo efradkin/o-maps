@@ -467,7 +467,7 @@ let zelikMaps = [
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB',
         planner: 'CHGRVSKY_V',
-        me: 'FIT'
+        me: 'Фит'
     },
     {
         name: 'Болотная станция',
