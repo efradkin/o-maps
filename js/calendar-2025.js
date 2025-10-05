@@ -1445,10 +1445,14 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251007_NS',
         reg: 'https://orgeo.ru/event/info/45533',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23568/',
+        reskeep: 802,
+        gps: {
+            '4.10':'https://viewer.o-gps-center.ru/viewer/event/23568/',
+            '5.10':'https://viewer.o-gps-center.ru/viewer/event/23575/'
+        },
         any: 'новые карты',
         owner: 'SFSO_SPB',
-        map: 'zelenogorsk_2025'
+        map: ['zelenogorsk_2025','bolotnaya_station_2025']
     }, {
         date: '2025-10-08',
         place: 'Сосновка',

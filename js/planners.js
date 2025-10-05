@@ -1,5 +1,6 @@
 let planners = {
     CHGRVSKY_M: { name: 'Чегаровский Михаил' },
+    CHGRVSKY_V: { name: 'Чегаровский Виталий' },
     GBNV_V: { name: 'Губанов Валерий' },
     GRLNV: { name: 'Горланов Сергей' },
     ILVS: { name: 'Ильвес Константин' },

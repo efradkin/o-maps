@@ -458,12 +458,16 @@ let zelikMaps = [
     },
     {
         name: 'Болотная станция',
-        year: 2025,
-        url: './maps/forest/zelik/bolotnaya_station_2025.png',
-        bounds: [[60.258934716804156, 29.787454605102543], [60.26515065811729, 29.79998588562012], [60.24475284442206, 29.82444763183594]],
+        date: '2025-10-05',
+        url: './maps/forest/zelik/bolotnaya_station_2025.webp',
+        link: './original_maps/forest/zelik/bolotnaya_station_2025_omaps.gif',
+        bounds: [[60.263767074689504, 29.796123504638675], [60.25904116408923, 29.84672069549561], [60.24660578014152, 29.789900779724125]],
+        info: '<a href="https://o-site.spb.ru/race.php?id=251007_NS">Невский спринт</a>.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23575/',
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB',
-        restricted: 'с 22.07.2025 по 06.10.2025, Всероссийские соревнования "Невский спринт"'
+        planner: 'CHGRVSKY_V',
+        me: 'FIT'
     },
     {
         name: 'Болотная станция',
