@@ -11,6 +11,17 @@ let wnStartsMaps = [
         author: ['LVCHV','SVTKN','KAZNTSVA_O']
     },
     {
+        name: 'Сосново, Снегирёвка',
+        region: 'starts',
+        date: '1989-06-23',
+        start: 'WN',
+        url: './maps/starts/wn/wn_1989_06_23.webp',
+        link: './original_maps/starts/wn/wn_1989_06_23_omaps.jpg',
+        info: 'Ночной старт',
+        bounds: [[60.55356600774117, 30.3063440322876], [60.552553307221935, 30.33707141876221], [60.53170151108973, 30.304327011108402]],
+        author: ['MLVA_M','KOUKNN_M'],
+    },
+    {
         name: 'Колосково',
         region: 'starts',
         date: '2002-06-20',
