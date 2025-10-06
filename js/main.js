@@ -1038,6 +1038,9 @@ function mapLogoList(m) {
     if (m.author && authors[m.author] && authors[m.author].logo) {
         logo.push(authors[m.author].logo);
     }
+    if (m.owner && Array.isArray(m.owner) && owners[m.owner[0]] && owners[m.owner[0]].logo) { // only the first one
+        logo.push(owners[m.owner[0]].logo);
+    }
     if (m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) { // only the first one
         logo.push(authors[m.author[0]].logo);
     }
