@@ -4780,6 +4780,16 @@ let moscowMaps = [
         owner: 'O_FRZNO'
     },
     {
+        name: 'Кармолино, Чернышовка',
+        date: '2025-10-04',
+        url: './maps/moscow/ak/chernyshovka_2025.webp',
+        info: '<a href="https://t.me/moscow_orient/1745">Золотая осень.</a>',
+        bounds: [[55.99743298476265, 38.2266926765442], [55.9947449417008, 38.24887990951539], [55.98869616129454, 38.22416067123414]],
+        author: 'LZRV',
+        owner: 'O_FRZNO',
+        zindex: 2
+    },
+    {
         name: 'Щапово',
         year: 2023,
         url: './maps/moscow/schapovo_2023.webp',

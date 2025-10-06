@@ -232,6 +232,7 @@ label:has(> span span .layer-separator) {
 .hide-map-link {
     width: 100%;
     text-align: right;
+    margin-top: 10px;
 }
 .ext-link {
     text-transform: lowercase;
