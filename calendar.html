@@ -376,35 +376,39 @@
         }
 
         function buildRes(event) {
+            let res = '';
             if (event.res) {
                 if (event.res.includes('orgeo')) {
-                    return buildLink(event.res, 'Orgeo');
+                    res += buildLink(event.res, 'Orgeo');
                 } else if (event.res.includes('o-site')) {
-                    return buildLink(event.res, 'O-Site');
+                    res += buildLink(event.res, 'O-Site');
                 } else if (event.res.includes('o-time')) {
-                    return buildLink(event.res, 'O-Time');
+                    res += buildLink(event.res, 'O-Time');
                 } else if (event.res.includes('multsport')) {
-                    return buildLink(event.res, 'Multsport');
+                    res += buildLink(event.res, 'Multsport');
                 } else if (event.res.includes('sportident')) {
-                    return buildLink(event.res, 'Sportident');
+                    res += buildLink(event.res, 'Sportident');
                 } else if (event.res.includes('vk.com')) {
-                    return buildLink(event.res, 'VK');
+                    res += buildLink(event.res, 'VK');
                 } else if (event.res.includes('reskeep')) {
-                    return buildLink(event.res, 'Reskeep');
+                    res += buildLink(event.res, 'Reskeep');
                 } else if (event.res.includes('t.me')) {
-                    return buildLink(event.res, 'Telegram');
+                    res += buildLink(event.res, 'Telegram');
                 } else if (event.res.includes('hard')) {
-                    return buildLink(event.res, 'HARD');
+                    res += buildLink(event.res, 'HARD');
+                } else {
+                    res += buildLink(event.res, '<img src="./images/url-file.png" />');
                 }
-            } else if (event.reskeep) {
+            }
+            if (event.reskeep) {
                 let reskeep = event.reskeep;
                 if (!Array.isArray(event.reskeep)) {
                     reskeep = [event.reskeep];
                 }
                 reskeep = reskeep.map(r => 'https://reskeep.ru/event/get?id=' + r);
-                return buildLink(reskeep, ' <img src="./images/r-k.gif" />', 'Анализ сплитов', true);
+                res += buildLink(reskeep, ' <img src="./images/r-k.gif" />', 'Анализ сплитов', true);
             }
-            return buildLink(event.res, '<img src="./images/url-file.png" />');
+            return res;
         }
 
         function buildType(event) {

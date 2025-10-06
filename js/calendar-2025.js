@@ -1459,7 +1459,13 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://touristclub.ru/okinchits/',
         reg: 'https://orgeo.ru/event/45800',
-        res: 'https://touristclub.ru/wp-content/uploads/2025/10/res_okin2025.htm'
+        res: 'https://touristclub.ru/wp-content/uploads/2025/10/res_okin2025.htm',
+        gps: {
+            '2М':'https://viewer.o-gps-center.ru/viewer/event/23602/',
+            '4МВ,М20':'https://viewer.o-gps-center.ru/viewer/event/23589/',
+            '4МС,Ж20,М50,Ф-ср':'https://viewer.o-gps-center.ru/viewer/event/23582/'
+        },
+        reskeep: 803
     }, {
         date: '2025-10-04',
         place: 'Выборг, Балашовское шоссе',
@@ -1477,14 +1483,15 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251007_NS',
         reg: 'https://orgeo.ru/event/info/45533',
-        reskeep: 802,
+        reskeep: [801,802],
         gps: {
             '4.10':'https://viewer.o-gps-center.ru/viewer/event/23568/',
             '5.10':'https://viewer.o-gps-center.ru/viewer/event/23575/'
         },
         any: 'новые карты',
         owner: 'SFSO_SPB',
-        map: ['zelenogorsk_2025','bolotnaya_station_2025'],
+        map: ['zelenogorsk_2025','bolotnaya_station_2025','zelenogorsk_tspko_2024_omaps'],
+        photo: ['https://vk.com/album-230167293_311306913','https://disk.yandex.ru/d/H7HjD5tQNKFYoA','https://vk.com/album-18388945_308761615'],
         me: 'Фит'
     }, {
         date: '2025-10-08',
@@ -1493,6 +1500,13 @@ let events_2025 =
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/46877',
         owner: 'DLT'
+    }, {
+        date: '2025-10-09',
+        place: 'Шуваловский парк',
+        name: 'Контрольный старт',
+        link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
+        reg: 'https://orgeo.ru/event/46972',
+        type: 'ORIENT',
     }, {
         date: '2025-10-11',
         place: 'Полюстровский парк',
