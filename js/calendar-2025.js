@@ -1459,7 +1459,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://touristclub.ru/okinchits/',
         reg: 'https://orgeo.ru/event/45800',
-        res: 'https://touristclub.ru/wp-content/uploads/2025/10/res_okin2025.htm',
+        res: 'https://vk.ru/wall-21755_1416',
         gps: {
             '2М':'https://viewer.o-gps-center.ru/viewer/event/23602/',
             '4МВ,М20':'https://viewer.o-gps-center.ru/viewer/event/23589/',
@@ -1485,13 +1485,15 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/info/45533',
         reskeep: [801,802],
         gps: {
-            '4.10':'https://viewer.o-gps-center.ru/viewer/event/23568/',
-            '5.10':'https://viewer.o-gps-center.ru/viewer/event/23575/'
+            '4-М':'https://viewer.o-gps-center.ru/viewer/event/23568/',
+            '4-Фит':'https://viewer.o-gps-center.ru/viewer/event/23605/',
+            '5':'https://viewer.o-gps-center.ru/viewer/event/23575/'
         },
-        any: 'новые карты',
+        any: 'новые карты, видеосплиты',
         owner: 'SFSO_SPB',
         map: ['zelenogorsk_2025','bolotnaya_station_2025','zelenogorsk_tspko_2024_omaps'],
         photo: ['https://vk.com/album-230167293_311306913','https://disk.yandex.ru/d/H7HjD5tQNKFYoA','https://vk.com/album-18388945_308761615'],
+        video: ['http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day1/','http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day2/'],
         me: 'Фит'
     }, {
         date: '2025-10-08',
@@ -1582,6 +1584,14 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251019_PZVP',
         reg: 'http://orgeo.ru/event/info/46779',
+    }, {
+        date: '2025-10-22',
+        place: 'Кириши',
+        name: 'Кубок ООО Кинеф',
+        type: 'ORIENT',
+        fmt: 'ночное',
+        reg: 'https://orgeo.ru/event/night_o_2025',
+        owner: 'MLV_AL'
     }, {
         date: '2025-10-25',
         place: 'Суоранда',
