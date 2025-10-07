@@ -175,6 +175,20 @@ function buildInfo(m) {
             result += m.info;
         }
     }
+    if (m.planner) {
+        if (Array.isArray(m.planner)) {
+            let plnrs = '';
+            for (const p of m.planner) {
+                if (plnrs) {
+                    plnrs += ', ';
+                }
+                plnrs += planners[p].name;
+            }
+            result += ` Начальники дистанций ${plnrs}.`;
+        } else {
+            result += ` Начальник дистанции ${planners[m.planner].name}.`;
+        }
+    }
     return result;
 }
 

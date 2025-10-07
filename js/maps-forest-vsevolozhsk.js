@@ -90,7 +90,8 @@ let vsevolozhskMaps = [
         link: ['./original_maps/starts/other/gdacha_1985_04_21_M_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_M_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_MW13_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MB_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WB_omaps.jpg'],
         docs: ['gdacha_1985_04_21', 8],
         bounds: [[59.967685078278585, 30.609111785888675], [59.96579490488528, 30.659837722778324], [59.94538275567055, 30.607652664184574]],
-        author: ['RYLOV_V','FDRV_L','GRNV_A']
+        author: ['RYLOV_V','FDRV_L','GRNV_A'],
+        planner: 'RYLOV_V'
     },
     {
         name: 'Красная Горка (Орово)',

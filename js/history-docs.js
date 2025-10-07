@@ -47,64 +47,119 @@ let historyDocs = [
         links: ['mruchey_1983_09_17', 6]
     },
     {
-        name: '21,27 апреля. Открытие сезона ЛГС ДСО "Спартак"',
+        name: 'Открытие сезона ЛГС ДСО "Спартак"',
         date: '1985-04-21',
-        info: 'Протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',
+        info: '21, 27 апреля. Протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',
         links: ['gdacha_1985_04_21', 8],
+        planner: 'RYLOV_V',
         me: 'М-13'
     },
     {
         name: 'Первенство клуба Азимут, Комарово',
         year: 1988,
         link: './docs/1988_azimut_omaps.pdf',
+        planner: 'VSLVSKY',
         me: 'М'
+    },
+    {
+        name: 'Ранг зимнего сезона 1988г ЛОС ДФСО профсоюзов',
+        year: 1988,
+        link: './docs/1988_winter_rating_omaps.pdf',
+        me: 'М-13'
     },
     {
         name: 'Соревнования, посвящённые снятию блокады Ленинграда, Токсово',
         date: '1988-01-31',
-        link: './docs/1988_01_31_blockade_omaps.pdf'
+        link: './docs/1988_01_31_blockade_omaps.pdf',
+        planner: 'DRBSHV'
     },
     {
         name: 'Спринт "Метелица", выбор, Голубые дачи',
         date: '1988-02-14',
-        link: './docs/1988_02_14_metelitsa_omaps.pdf'
+        link: './docs/1988_02_14_metelitsa_omaps.pdf',
+        planner: 'EGRV_E'
     },
     {
         name: 'Первенство клуба Азимут, ст Морская',
         date: '1988-03-13',
-        link: './docs/1988_03_13_azimut_omaps.pdf'
+        link: './docs/1988_03_13_azimut_omaps.pdf',
+        planner: 'FRSHLVA'
     },
     {
         name: 'Закрытие зимнего сезона клуба Азимут, марафон, Токсово',
         date: '1988-03-20',
-        link: './docs/1988_03_20_azimut_winter_close_omaps.pdf'
+        link: './docs/1988_03_20_azimut_winter_close_omaps.pdf',
+        planner: ['SHRNN','SHVR']
     },
     {
         name: 'П-во обкома физкультурно-оздоровительного комплекса "ЭНЕРГИЯ", з/н, Охтинский парк',
         date: '1988-03-27',
-        link: './docs/1988_03_27_energy_omaps.pdf'
+        link: './docs/1988_03_27_energy_omaps.pdf',
+        planner: 'VSLVSKY'
+    },
+    {
+        name: 'Соревнования по эстафете с ориентированием, Зеленогорск',
+        date: '1988-04-05',
+        link: './docs/1988_06_05_relay_omaps.pdf',
+        planner: 'DRBSHV'
+    },
+    {
+        name: 'Кросс ориентировщиков, Голубые Дачи',
+        date: '1988-04-17',
+        link: './docs/1988_04_17_kross_omaps.pdf',
+        me: 'М-13'
     },
     {
         name: 'Открытие сезона клуба Азимут, эстафета, Шувалово',
         date: '1988-04-24',
         link: './docs/1988_04_24_azimut_summer_open_omaps.pdf',
-        me: 'М-13'
+        me: 'М-13',
+        planner: 'VLKV_A'
     },
     {
-        name: '30 апреля - 2мая. Майская Ленинградская многодневка, Шалово',
+        name: 'Майская Ленинградская многодневка, Шалово',
         date: '1988-04-30',
-        link: './docs/1988_04_30_mayski_omaps.pdf'
+        link: './docs/1988_04_30_mayski_omaps.pdf',
+        info: '30 апреля - 2мая.',
+        planner: 'BDKN_A'
+    },
+    {
+        name: 'Ориентир-2, Кавголово',
+        date: '1988-05-11',
+        start: 'ORIENTIR',
+        planner: 'ERMSHKN',
+        link: './docs/1988_05_11_orientir_2_omaps.pdf',
+        me: 'МА'
+    },
+    {
+        name: 'Ориентир-3, эстафета, Кузьмолово',
+        date: '1988-05-15',
+        start: 'ORIENTIR',
+        planner: 'SHLKV_L',
+        link: './docs/1988_05_15_orientir_3_omaps.pdf',
+        me: 'МБ'
     },
     {
         name: '"Лесной ландыш", Орехово',
         date: '1988-05-22',
         link: './docs/1988_05_22_forest_landysh_omaps.pdf',
-        me: 'МВ'
+        me: 'МБ',
+        planner: 'RDKV'
     },
     {
-        name: '2 и 3 июня. Невский Азимут, Токсово (р Охта)',
+        name: 'Ориентир-5, Орловский парк',
+        date: '1988-05-25',
+        start: 'ORIENTIR',
+        planner: 'SLVVA_L',
+        link: './docs/1988_05_25_orientir_5_omaps.pdf',
+        me: 'МB'
+    },
+    {
+        name: 'Невский Азимут, Токсово (р Охта)',
         date: '1988-06-02',
-        link: './docs/1988_06_02_nevsky_azimut_omaps.pdf'
+        link: './docs/1988_06_02_nevsky_azimut_omaps.pdf',
+        info: '2 и 3 июня.',
+        planner: 'VSLVSKY'
     },
     {
         name: 'Соревнования по эстафете с ориентированием, пл Морская',
@@ -112,26 +167,33 @@ let historyDocs = [
         link: './docs/1988_06_04_relay_omaps.pdf'
     },
     {
-        name: 'Соревнования по эстафете с ориентированием, Зеленогорск',
-        date: '1988-04-05',
-        link: './docs/1988_06_05_relay_omaps.pdf'
+        name: 'Ориентир-6, Токсово',
+        date: '1988-06-08',
+        start: 'ORIENTIR',
+        planner: 'DSHKO',
+        link: './docs/1988_06_08_orientir_6_omaps.pdf',
+        me: 'МБ'
     },
     {
-        name: '18 и 19 июня. П-во клуба Азимут, з/н, Токсово',
+        name: 'П-во клуба Азимут, з/н, Токсово',
         date: '1988-06-18',
-        link: './docs/1988_06_18_azimut_omaps.pdf'
+        link: './docs/1988_06_18_azimut_omaps.pdf',
+        info: '18 и 19 июня.',
+        planner: 'MKHLV_V'
     },
     {
         name: 'Ориентир-18, Ново-Токсово',
         date: '1988-07-27',
         start: 'ORIENTIR',
-        link: './docs/1988_07_27_orientir_18_omaps.pdf'
+        link: './docs/1988_07_27_orientir_18_omaps.pdf',
+        planner: 'GRGRV_B'
     },
     {
         name: 'Ориентир-19, Орехово',
         date: '1988-07-31',
         start: 'ORIENTIR',
-        link: './docs/1988_07_31_orientir_19_omaps.pdf'
+        link: './docs/1988_07_31_orientir_19_omaps.pdf',
+        planner: 'LBDV_S'
     },
     {
         name: 'Ориентир-20, "Зелёный змей", Токсово',
@@ -155,29 +217,46 @@ let historyDocs = [
         name: 'Ориентир-23, Большеохтинский парк',
         date: '1988-09-07',
         start: 'ORIENTIR',
-        link: './docs/1988_09_07_orientir_23_omaps.pdf'
+        link: './docs/1988_09_07_orientir_23_omaps.pdf',
+        planner: 'NKLVCH'
+    },
+    {
+        name: 'П-во Ленинграда среди ветеранов, Сосново',
+        date: '1988-09-17',
+        info: '17-18 сентября.',
+        planner: 'MLVA_M',
+        link: './docs/1988_09_17_leningrad_omaps.pdf'
     },
     {
         name: 'Ориентир-24, Шуваловский парк',
         date: '1988-09-22',
         start: 'ORIENTIR',
-        link: './docs/1988_09_22_orientir_24_omaps.pdf'
+        link: './docs/1988_09_22_orientir_24_omaps.pdf',
+        planner: 'KDNV_A'
     },
     {
         name: '"Золотая осень", Охтинский л/п',
         date: '1988-09-24',
-        link: './docs/1988_09_24_golden_autumn_omaps.pdf'
+        link: './docs/1988_09_24_golden_autumn_omaps.pdf',
+        planner: 'LVCHV'
     },
     {
-        name: '7 и 8 октября. День Конституции СССР',
+        name: 'День Конституции СССР',
         date: '1988-10-07',
-        info: '<a href="./docs/simagino_1988_10_07/doc_4_omaps.jpg">Информация</a>, <a href="./docs/simagino_1988_10_07/doc_3_omaps.jpg">положение</a>, <a href="./docs/simagino_1988_10_07/doc_5_omaps.jpg">7.10,МА(10км)</a>, <a href="./docs/simagino_1988_10_07/doc_6_omaps.jpg">9.10,МА(11км)</a>, <a href="./docs/simagino_1988_10_07/doc_7_omaps.jpg">7.10,ЖА(8км)</a>, <a href="./docs/simagino_1988_10_07/doc_8_omaps.jpg">8.10,ЖА(7км)</a>.',
-        links: ['simagino_1988_10_07', 8]
+        info: '7-8 октября. <a href="./docs/simagino_1988_10_07/doc_4_omaps.jpg">Информация</a>, <a href="./docs/simagino_1988_10_07/doc_3_omaps.jpg">положение</a>, <a href="./docs/simagino_1988_10_07/doc_5_omaps.jpg">7.10,МА(10км)</a>, <a href="./docs/simagino_1988_10_07/doc_6_omaps.jpg">9.10,МА(11км)</a>, <a href="./docs/simagino_1988_10_07/doc_7_omaps.jpg">7.10,ЖА(8км)</a>, <a href="./docs/simagino_1988_10_07/doc_8_omaps.jpg">8.10,ЖА(7км)</a>.',
+        links: ['simagino_1988_10_07', 8],
+        planner: 'TRSV'
+    },
+    {
+        name: 'Свадебные-88, Н.Токсово',
+        date: '1988-10-16',
+        link: './docs/1988_10_16_wedding_omaps.pdf'
     },
     {
         name: 'Соревнования по спортивному ориентированию, маркир, Лемболово (справа)',
         date: '1988-11-08',
-        link: './docs/1988_11_08_markir_omaps.pdf'
+        link: './docs/1988_11_08_markir_omaps.pdf',
+        planner: 'SMNV_M'
     },
     {
         name: 'Тренировочный старт в заданном направлении на лыжах, Токсово (оз Светлое)',
@@ -187,7 +266,8 @@ let historyDocs = [
     {
         name: 'Тренировочная дистанция, выбор, Кавголово',
         date: '1988-11-27',
-        link: './docs/1988_11_27_kavgolovo_omaps.pdf'
+        link: './docs/1988_11_27_kavgolovo_omaps.pdf',
+        planner: 'VSLVSKY'
     },
     {
         name: 'Новогодняя эстафета, Юкки',
@@ -202,12 +282,13 @@ let historyDocs = [
         link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg']
     },
     {
-        name: 'Сводный протокол соревнований, посвящённых XXX летию Ленинградского ориентирования',
+        name: 'XXX летие Ленинградского ориентирования',
         date: '1989-05-07',
-        info: '7-9 мая.',
+        info: '7-9 мая. Карты можно найти <a href="map-info.html?map=budogosch_orlenok_1988">тут</a> и <a href="map-info.html?map=budogosch_cheremukhovoe_1988">тут</a>.',
         link: './docs/1989_05_07_XXX_years_omaps.pdf',
         start: 'LENINGRAD_30',
-        me: 'М15-1'
+        me: 'М15-1',
+        planner: ['MLVA_M','MRSKY_S','KUOKNN_Y']
     },
     {
         name: 'Многодневка "Белые Ночи", Снегирёвка',
@@ -234,16 +315,18 @@ let historyDocs = [
         name: 'Ориентир-1, Воейково',
         date: '1991-04-07',
         start: 'ORIENTIR',
-        info: '<a href="./docs/1991_04_07_voeykovo/doc_12_omaps.gif">МЭ</a>, <a href="./docs/1991_04_07_voeykovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991_04_07_voeykovo/doc_2_omaps.gif">МB</a>, <a href="./docs/1991_04_07_voeykovo/doc_3_omaps.gif">МB(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_4_omaps.gif">МС,Н</a>, <a href="./docs/1991_04_07_voeykovo/doc_5_omaps.gif">МС,Н(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_6_omaps.gif">МС,Н(3)</a>, <a href="./docs/1991_04_07_voeykovo/doc_7_omaps.gif">ЖЭ</a>, <a href="./docs/1991_04_07_voeykovo/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991_04_07_voeykovo/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991_04_07_voeykovo/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_11_omaps.gif">ЖС,Н</a>',
+        info: '<a href="./docs/1991_04_07_voeykovo/doc_12_omaps.gif">МЭ</a>, <a href="./docs/1991_04_07_voeykovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991_04_07_voeykovo/doc_2_omaps.gif">МB</a>, <a href="./docs/1991_04_07_voeykovo/doc_3_omaps.gif">МB(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_4_omaps.gif">МС,Н</a>, <a href="./docs/1991_04_07_voeykovo/doc_5_omaps.gif">МС,Н(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_6_omaps.gif">МС,Н(3)</a>, <a href="./docs/1991_04_07_voeykovo/doc_7_omaps.gif">ЖЭ</a>, <a href="./docs/1991_04_07_voeykovo/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991_04_07_voeykovo/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991_04_07_voeykovo/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991_04_07_voeykovo/doc_11_omaps.gif">ЖС,Н</a>.',
         links: ['1991_04_07_voeykovo', 12, 'gif'],
+        planner: 'SMNV_M',
         me: 'МА'
     },
     {
         name: 'Ориентир-3, Юкки',
         date: '1991-04-27',
         start: 'ORIENTIR',
-        info: '<a href="./docs/1991_04_27_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1991_04_27_yukki/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991_04_27_yukki/doc_3_omaps.gif">МB</a>, <a href="./docs/1991_04_27_yukki/doc_4_omaps.gif">МВ(2)</a>, <a href="./docs/1991_04_27_yukki/doc_5_omaps.gif">МС</a>, <a href="./docs/1991_04_27_yukki/doc_6_omaps.gif">МС,Н</a>, <a href="./docs/1991_04_27_yukki/doc_7_omaps.gif">МН</a>, <a href="./docs/1991_04_27_yukki/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991_04_27_yukki/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991_04_27_yukki/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991_04_27_yukki/doc_11_omaps.gif">ЖС</a>, <a href="./docs/1991_04_27_yukki/doc_12_omaps.gif">ЖН</a>',
+        info: '<a href="./docs/1991_04_27_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1991_04_27_yukki/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991_04_27_yukki/doc_3_omaps.gif">МB</a>, <a href="./docs/1991_04_27_yukki/doc_4_omaps.gif">МВ(2)</a>, <a href="./docs/1991_04_27_yukki/doc_5_omaps.gif">МС</a>, <a href="./docs/1991_04_27_yukki/doc_6_omaps.gif">МС,Н</a>, <a href="./docs/1991_04_27_yukki/doc_7_omaps.gif">МН</a>, <a href="./docs/1991_04_27_yukki/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991_04_27_yukki/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991_04_27_yukki/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991_04_27_yukki/doc_11_omaps.gif">ЖС</a>, <a href="./docs/1991_04_27_yukki/doc_12_omaps.gif">ЖН</a>.',
         links: ['1991_04_27_yukki', 12, 'gif'],
+        planner: 'PVLV_M',
         me: 'МА'
     },
     {
@@ -255,9 +338,10 @@ let historyDocs = [
         me: 'МА'
     },
     {
-        name: '1-3 марта. Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста, Нижний Новгород',
+        name: 'Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста, Нижний Новгород',
         date: '1991-03-01',
-        link: './docs/1991_veteran_ussr_omaps.pdf'
+        link: './docs/1991_veteran_ussr_omaps.pdf',
+        info: '1-3 марта.'
     },
     {
         name: 'Сводная карта всех дней (Лемболово)',

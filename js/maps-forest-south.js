@@ -250,7 +250,7 @@ let southMaps = [
         url: './maps/forest/south/gatchina_prioratsky_1993.webp',
         link: './original_maps/forest/south/gatchina_prioratsky_1993_omaps.jpg',
         bounds: [[59.56337553311358, 30.105199813842777], [59.563071167965695, 30.13584136962891], [59.54445618473496, 30.103740692138675]],
-        author: ['MRSKY_S','HSMTLN','KOUKNN_Y','MRSKA_I','GLK'],
+        author: ['MRSKY_S','HSMTLN','KUOKNN_Y','MRSKA_I','GLK'],
         areas: [25,25,20,20,10]
     },
     {

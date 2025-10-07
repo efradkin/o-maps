@@ -111,7 +111,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/zamostie_1989.webp',
         link: './original_maps/forest/sosnovo/zamostie_1989_omaps.jpg',
         bounds: [[60.54651864267247, 30.3178882598877], [60.54360640888423, 30.36423683166504], [60.51603272298398, 30.311708450317386]],
-        author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S','KOUKNN_M']
+        author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S','KUOKNN_M']
     },
     {
         name: 'Замостье',
@@ -259,7 +259,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/snegirevka_1987.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1987_omaps.jpg',
         bounds: [[60.55335503108095, 30.303297042846683], [60.55291197561523, 30.339131355285648], [60.53193374068237, 30.302824974060062]],
-        author: ['MLVA_M','KOUKNN_M'],
+        author: ['MLVA_M','KUOKNN_M'],
         qtty: 3
     },
     {
@@ -270,7 +270,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/snegirevka_1988_1.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1988_1_omaps.jpg',
         bounds: [[60.55580227573843, 30.280079841613773], [60.55196255061042, 30.334196090698246], [60.53195485238091, 30.274500846862797]],
-        author: ['MLVA_M','KAZNTSVA_O','KOUKNN_M']
+        author: ['MLVA_M','KAZNTSVA_O','KUOKNN_M']
     },
     {
         name: 'Снегирёвка',
@@ -280,7 +280,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/snegirevka_1988.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1988_omaps.jpg',
         bounds: [[60.538562137521424, 30.276474952697757], [60.53816109476326, 30.33908843994141], [60.514490774894206, 30.27467250823975]],
-        author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S','KOUKNN_M'],
+        author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S','KUOKNN_M'],
         qtty: 10
     },
     {
