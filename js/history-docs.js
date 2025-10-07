@@ -202,6 +202,13 @@ let historyDocs = [
         link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg']
     },
     {
+        name: 'Многодневка "Белые Ночи", Снегирёвка',
+        date: '1989-06-23',
+        info: '23-25 июня.',
+        link: './docs/1989_06_23_wn_omaps.pdf',
+        me: 'М-15'
+    },
+    {
         name: 'Ориентир-9, Юкки',
         date: '1990-06-06',
         start: 'ORIENTIR',
