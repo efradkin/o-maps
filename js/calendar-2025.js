@@ -1554,6 +1554,12 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/44940',
         start: 'BA'
     }, {
+        date: '2025-10-12',
+        place: 'Всеволожск, Румболовский парк',
+        name: 'Соревнования памяти Дмитрия Лисового',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/46988',
+    }, {
         date: '2025-10-18',
         endDate: '2025-10-19',
         place: 'Выборг',

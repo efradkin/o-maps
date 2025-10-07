@@ -102,7 +102,7 @@ let southMaps = [
     },
     {
         name: 'Будогощь, Черёмуховое оз',
-        year: 1988,
+        date: '1989-05-08',
         start: 'LENINGRAD_30',
         url: './maps/forest/south/budogosch_cheremukhovoe_1988.webp',
         link: './original_maps/forest/south/budogosch_cheremukhovoe_1988_omaps.jpg',
@@ -126,7 +126,7 @@ let southMaps = [
     },
     {
         name: 'Будогощь, "Орлёнок"',
-        year: 1988,
+        date: '1989-05-07',
         start: 'LENINGRAD_30',
         url: './maps/forest/south/budogosch_orlenok_1988.webp',
         link: ['./original_maps/forest/south/budogosch_orlenok_1988_full_1.jpg','./original_maps/forest/south/budogosch_orlenok_1988_full_2.jpg'],

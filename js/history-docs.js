@@ -202,6 +202,14 @@ let historyDocs = [
         link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg']
     },
     {
+        name: 'Сводный протокол соревнований, посвящённых XXX летию Ленинградского ориентирования',
+        date: '1989-05-07',
+        info: '7-9 мая.',
+        link: './docs/1989_05_07_XXX_years_omaps.pdf',
+        start: 'LENINGRAD_30',
+        me: 'М15-1'
+    },
+    {
         name: 'Многодневка "Белые Ночи", Снегирёвка',
         date: '1989-06-23',
         info: '23-25 июня.',
