@@ -46,6 +46,7 @@ const welcomeDialogContent = `
 <li>В Белграде: Алексей Соболев.</li>
 </ul> 
 </li>
+<li>Огромную помощь в сканировании документов из архива Василевского оказал Константин Ильвес.</li>
 <li>Этот проект отчасти является продолжением <a href="http://www.northernwind.spb.ru/mapbase/online/">Базы данных спортивных карт</a> Дениса Ельцова.</li>
 <li>Технической основой является JavaScript-библиотека <a href="https://leafletjs.com/">Leaflet</a> с дополнениями к ней.</li>
 <li>The icons created by <a href="https://www.flaticon.com/">Good Ware - Flaticon</a>.</li>

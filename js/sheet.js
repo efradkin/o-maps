@@ -184,9 +184,9 @@ function buildInfo(m) {
                 }
                 plnrs += planners[p].name;
             }
-            result += ` Начальники дистанций ${plnrs}.`;
+            result += ` Начальники дистанций: ${plnrs}.`;
         } else {
-            result += ` Начальник дистанции ${planners[m.planner].name}.`;
+            result += ` Начальник дистанции - ${planners[m.planner].name}.`;
         }
     }
     return result;

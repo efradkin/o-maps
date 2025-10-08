@@ -1492,8 +1492,8 @@ let events_2025 =
         any: 'новые карты, видеосплиты',
         owner: 'SFSO_SPB',
         map: ['zelenogorsk_2025','bolotnaya_station_2025','zelenogorsk_tspko_2024_omaps'],
-        photo: ['https://vk.com/album-230167293_311306913','https://disk.yandex.ru/d/H7HjD5tQNKFYoA','https://vk.com/album-18388945_308761615'],
-        video: ['http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day1/','http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day2/'],
+        photo: ['https://vk.com/album-230167293_311306913','https://disk.yandex.ru/d/H7HjD5tQNKFYoA','https://vk.com/album-18388945_308761615','https://vk.ru/album-230167293_311317823','https://vk.com/album-230167293_311307465'],
+        video: ['http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day1/','http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day2/','http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day3/'],
         me: 'Фит'
     }, {
         date: '2025-10-08',
@@ -1556,7 +1556,7 @@ let events_2025 =
     }, {
         date: '2025-10-12',
         place: 'Всеволожск, Румболовский парк',
-        name: 'Соревнования памяти Дмитрия Лисового',
+        name: 'Памяти Дмитрия Лисового',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/46988',
     }, {
