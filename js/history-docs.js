@@ -481,6 +481,20 @@ let historyDocs = [
         me: 'МА'
     },
     {
+        name: 'Ориентир-8 (Орловский л/п)',
+        date: '1991-06-05',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_06_08">тут</a>.',
+        link: './docs/1991_06_05_orientir_8_omaps.pdf',
+    },
+    {
+        name: 'Ориентир-7 (Сертолово)',
+        date: '1991-05-29',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_05_29">тут</a>.',
+        link: './docs/1991_05_29_orientir_7_omaps.pdf',
+    },
+    {
         name: 'Ориентир-10 (Токсово)',
         date: '1991-06-12',
         start: 'ORIENTIR',
@@ -489,12 +503,58 @@ let historyDocs = [
         me: 'МА'
     },
     {
+        name: 'Ориентир-11 (Лемболово)',
+        date: '1991-06-26',
+        start: 'ORIENTIR',
+        planner: 'BYMKV',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_06_26">тут</a>.',
+        link: './docs/1991_06_26_orientir_11_omaps.pdf',
+    },
+    {
+        name: 'Ориентир-12 (Токсово)',
+        date: '1991-07-03',
+        start: 'ORIENTIR',
+        planner: 'BRSV_V',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_03">тут</a>.',
+        link: './docs/1991_07_03_orientir_12_omaps.pdf',
+    },
+    {
+        name: 'Ориентир-13 (Васкелово)',
+        date: '1991-07-07',
+        start: 'ORIENTIR',
+        planner: 'BLNV_A',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_07">тут</a>.',
+        link: './docs/1991_07_07_orientir_13_omaps.pdf',
+    },
+    {
+        name: 'Ориентир-14 (Кавголово)',
+        date: '1991-07-10',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_10">тут</a>.',
+        link: './docs/1991_07_10_orientir_14_omaps.pdf',
+    },
+    {
         name: 'Ориентир-16 (Токсово)',
         date: '1991-07-17',
         start: 'ORIENTIR',
         info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_20">тут</a>.',
         link: './docs/1991_07_17_orientir_16_omaps.pdf',
         me: 'МА'
+    },
+    {
+        name: 'Ориентир-17 (Кузнечное)',
+        date: '1991-07-21',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_21">тут</a>.',
+        link: './docs/1991_07_20_orientir_17_omaps.pdf'
+    },
+    {
+        name: 'Ориентир-19 (Невский л/п)',
+        date: '1991-07-24',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_24">тут</a>.',
+        link: './docs/1991_07_24_orientir_19_omaps.pdf',
+        planner: 'DSHKO'
     },
     {
         name: 'Зелёный змей',
@@ -507,8 +567,16 @@ let historyDocs = [
         name: 'Ориентир-22 (ст Песочное)',
         date: '1991-08-28',
         start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_08_28">тут</a>.',
         link: './docs/1991_08_28_orientir_22_omaps.pdf',
         me: 'H-A'
+    },
+    {
+        name: 'Ориентир-23 (Шуваловский парк)',
+        date: '1991-09-04',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_09_04">тут</a>.',
+        link: './docs/1991_09_04_orientir_23_omaps.pdf',
     },
     {
         name: 'Ориентир-24 (Сосновка)',
@@ -516,7 +584,24 @@ let historyDocs = [
         start: 'ORIENTIR',
         info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_09_11">тут</a>.',
         link: './docs/1991_09_11_orientir_24_omaps.pdf',
-        me: 'H-A'
+        me: 'H-A',
+        planner: 'AMSVA'
+    },
+    {
+        name: 'Ориентир-25 (Орехово)',
+        date: '1991-09-29',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_09_29">тут</a>.',
+        link: './docs/1991_09_29_orientir_25_omaps.pdf',
+        planner: 'FDRV_L'
+    },
+    {
+        name: 'Ориентир-27 (Лемболово)',
+        date: '1991-11-08',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_11_08">тут</a>.',
+        link: './docs/1991_11_08_orientir_27_omaps.pdf',
+        planner: 'FSNKO'
     },
     {
         name: 'Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста (Нижний Новгород)',

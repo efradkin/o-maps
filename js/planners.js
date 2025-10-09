@@ -1,7 +1,9 @@
 let planners = {
+    AMSVA: { name: 'Амосова В' },
     BBNNA_Y: { name: 'Бабанина Юлия' },
     BDKN_A: { name: 'Будкин А' },
     BLNV_A: { name: 'Блинов А' },
+    BYMKV: { name: 'Баймаков Владимир' },
     BRNTSV_V: { name: 'Брынцев В' },
     BRSV_V: { name: 'Борисов Владимир' },
     CHGRVSKA_O: { name: 'Чегаровская О' },
@@ -14,6 +16,7 @@ let planners = {
     ERMSHKN: { name: 'Ермошкин С' },
     FDRV_L: { name: 'Фёдоров Леонид' },
     FRSHLVA: { name: 'Фершалова Виктория' },
+    FSNKO: { name: 'Фисенко' },
     GBNV_V: { name: 'Губанов Валерий' },
     GRGRV_B: { name: 'Григорьев Б' },
     GRLNV: { name: 'Горланов Сергей' },

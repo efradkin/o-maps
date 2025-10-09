@@ -169,7 +169,7 @@ let orientirStartsMaps = [
     {
         name: 'Сертолово',
         date: '1991-05-29',
-        info: 'Ориентир-7',
+        info: 'Ориентир-7, <a href="./docs/1991_05_29_orientir_7_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_05_29.webp',
         link: './original_maps/starts/orientir/orientir_1991_05_29_omaps.jpg',
         start: 'ORIENTIR',
@@ -178,10 +178,10 @@ let orientirStartsMaps = [
     },
     {
         name: 'Орловский л/п',
-        date: '1991-06-08',
-        info: 'Ориентир-8',
+        date: '1991-06-05',
+        info: 'Ориентир-8, <a href="./docs/1991_06_05_orientir_8_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_06_08.webp',
-        link: './original_maps/starts/orientir/orientir_1991_06_08_omaps.jpg',
+        link: './original_maps/starts/orientir/orientir_1991_06_05_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.056380214158494, 30.268278121948246], [60.05569473216481, 30.29685974121094], [60.03827442908029, 30.264501571655277]],
         author: 'KUZNTSV_V',
@@ -200,17 +200,18 @@ let orientirStartsMaps = [
     {
         name: 'Лемболово',
         date: '1991-06-26',
-        info: 'Ориентир-11',
+        info: 'Ориентир-11, <a href="./docs/1991_06_26_orientir_11_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_06_26.webp',
         link: './original_maps/starts/orientir/orientir_1991_06_26_omaps.jpg',
         start: 'ORIENTIR',
+        planner: 'BYMKV',
         bounds: [[60.445450477860916, 30.305013656616214], [60.44062379750579, 30.37530899047852], [60.42050491032749, 30.298576354980472]],
         author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
     },
     {
         name: 'Токсово, Изумрудное оз',
         date: '1991-07-03',
-        info: 'Ориентир-12',
+        info: 'Ориентир-12, <a href="./docs/1991_07_03_orientir_12_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_07_03.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_03_omaps.jpg',
         start: 'ORIENTIR',
@@ -220,17 +221,18 @@ let orientirStartsMaps = [
     {
         name: 'Васкелово',
         date: '1991-07-07',
-        info: 'Ориентир-13',
+        info: 'Ориентир-13, <a href="./docs/1991_07_07_orientir_13_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_07_07.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_07_omaps.jpg',
         start: 'ORIENTIR',
+        planner: 'BLNV_A',
         bounds: [[60.379508601880914, 30.229353904724125], [60.376199513269, 30.28441429138184], [60.35058513754396, 30.22119998931885]],
         author: ['BYMKV','SMRNV_A','RMNTSV_S','GRV_K']
     },
     {
         name: 'Кавголово',
         date: '1991-07-10',
-        info: 'Ориентир-14',
+        info: 'Ориентир-14, <a href="./docs/1991_07_10_orientir_14_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_07_10.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_10_omaps.jpg',
         start: 'ORIENTIR',
@@ -250,7 +252,7 @@ let orientirStartsMaps = [
     {
         name: 'Кузнечное, оз Суури',
         date: '1991-07-21',
-        info: 'Ориентир-17',
+        info: 'Ориентир-17, <a href="./docs/1991_07_20_orientir_17_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_07_21.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_21_omaps.jpg',
         start: 'ORIENTIR',
@@ -260,17 +262,18 @@ let orientirStartsMaps = [
     {
         name: 'Невский л/п',
         date: '1991-07-24',
-        info: 'Ориентир-19',
+        info: 'Ориентир-19, <a href="./docs/1991_07_24_orientir_19_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_07_24.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_24_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[59.847250853534426, 30.58173179626465], [59.8366648411983, 30.61773777008057], [59.8281030174316, 30.560531616210938]],
         author: ['OSMCHN','ANSFRV','FDRV_L'],
+        planner: 'DSHKO'
     },
     {
         name: 'Песочная',
         date: '1991-08-28',
-        info: 'Ориентир-22',
+        info: 'Ориентир-22, <a href="./docs/1991_08_28_orientir_22_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_08_28.webp',
         link: './original_maps/starts/orientir/orientir_1991_08_28_omaps.jpg',
         start: 'ORIENTIR',
@@ -280,7 +283,7 @@ let orientirStartsMaps = [
     {
         name: 'Шуваловский парк',
         date: '1991-09-04',
-        info: 'Ориентир-23',
+        info: 'Ориентир-23, <a href="./docs/1991_09_04_orientir_23_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_09_04.webp',
         link: './original_maps/starts/orientir/orientir_1991_09_04_omaps.jpg',
         start: 'ORIENTIR',
@@ -294,26 +297,29 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_09_11.webp',
         link: './original_maps/starts/orientir/orientir_1991_09_11_omaps.jpg',
         start: 'ORIENTIR',
+        planner: 'AMSVA',
         bounds: [[60.03313014690289, 30.33136367797852], [60.03147951994929, 30.368485450744632], [60.01378905503624, 30.328016281127933]]
     },
     {
         name: 'Орехово',
         date: '1991-09-29',
-        info: 'Ориентир-25',
+        info: 'Ориентир-25, <a href="./docs/1991_09_29_orientir_25_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_09_29.webp',
         link: './original_maps/starts/orientir/orientir_1991_09_29_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.47701790290766, 30.239095687866214], [60.47359182588782, 30.285787582397464], [60.44578916534856, 30.23051261901856]],
-        author: 'BYMKV'
+        author: 'BYMKV',
+        planner: 'FDRV_L'
     },
     {
         name: 'Лемболово',
         date: '1991-11-08',
-        info: 'Ориентир-27',
+        info: 'Ориентир-27, <a href="./docs/1991_11_08_orientir_27_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_11_08.webp',
         link: './original_maps/starts/orientir/orientir_1991_11_08_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.440285056170616, 30.292739868164066], [60.43624105879434, 30.340762138366703], [60.41491176636754, 30.28364181518555]],
-        author: 'BYMKV'
+        author: 'BYMKV',
+        planner: 'FSNKO'
     },
 ];
