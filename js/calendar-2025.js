@@ -1501,6 +1501,7 @@ let events_2025 =
         name: 'Dлительная серия осень - этап 1',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/46877',
+        res: 'https://t.me/dlitelnyy/327',
         owner: 'DLT'
     }, {
         date: '2025-10-09',

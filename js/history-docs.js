@@ -320,13 +320,13 @@ let historyDocs = [
         planner: 'LBDV_S'
     },
     {
-        name: 'Ориентир-20, "Зелёный змей" (Токсово)',
+        name: 'Ориентир-20, Зелёный змей (Токсово)',
         date: '1988-08-24',
         start: ['ORIENTIR','GS'],
         link: './docs/1988_08_24_orientir_20_green_snake_omaps.pdf'
     },
     {
-        name: 'Ориентир-21, "Ретро-88" (Шапки)',
+        name: 'Ориентир-21, Ретро-88 (Шапки)',
         date: '1988-08-28',
         start: 'ORIENTIR',
         link: './docs/1988_08_28_orientir_21_retro_88_omaps.pdf'
@@ -487,6 +487,36 @@ let historyDocs = [
         info: '<a href="./docs/1991_06_12_toksovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991_06_12_toksovo/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991_06_12_toksovo/doc_3_omaps.gif">МБ</a>, <a href="./docs/1991_06_12_toksovo/doc_4_omaps.gif">МБ(2)</a>, <a href="./docs/1991_06_12_toksovo/doc_5_omaps.gif">МС,Н</a>, <a href="./docs/1991_06_12_toksovo/doc_6_omaps.gif">ЖА,ЖС</a>, <a href="./docs/1991_06_12_toksovo/doc_7_omaps.gif">ЖБ</a>',
         links: ['1991_06_12_toksovo', 7, 'gif'],
         me: 'МА'
+    },
+    {
+        name: 'Ориентир-16 (Токсово)',
+        date: '1991-07-17',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_20">тут</a>.',
+        link: './docs/1991_07_17_orientir_16_omaps.pdf',
+        me: 'МА'
+    },
+    {
+        name: 'Зелёный змей',
+        date: '1991-08-25',
+        start: 'GS',
+        link: './docs/1991_08_25_green_snake_omaps.pdf',
+        me: 'М'
+    },
+    {
+        name: 'Ориентир-22 (ст Песочное)',
+        date: '1991-08-28',
+        start: 'ORIENTIR',
+        link: './docs/1991_08_28_orientir_22_omaps.pdf',
+        me: 'H-A'
+    },
+    {
+        name: 'Ориентир-24 (Сосновка)',
+        date: '1991-09-11',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_09_11">тут</a>.',
+        link: './docs/1991_09_11_orientir_24_omaps.pdf',
+        me: 'H-A'
     },
     {
         name: 'Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста (Нижний Новгород)',
