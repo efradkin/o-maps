@@ -58,6 +58,7 @@
             <option value="ROGAINE">Рогейн</option>
             <option value="OTHER">Прочее</option>
             <option value="SKI">Лыжи</option>
+            <option value="VELO">Вело</option>
         </select>
 
 <!--
@@ -183,6 +184,9 @@
                 if ('SKI' === EVENT_TYPE_PARAM) {
                     return event.type.includes('SKI');
                 }
+                if ('VELO' === EVENT_TYPE_PARAM) {
+                    return event.type.includes('VELO');
+                }
             });
 
             let selector = document.getElementById('event_type_selector');
@@ -265,7 +269,7 @@
                 } else if (isRogaine(event)) {
                     row.classList.add('rogaine');
                 }
-                td(row, i + 1);
+                td(row, buildNumber(event, i));
                 td(row, buildDate(event));
                 td(row, buildStart(event));
                 td(row, buildPlace(event));
@@ -282,6 +286,16 @@
             const td = document.createElement('td');
             td.innerHTML = html;
             row.appendChild(td);
+        }
+
+        function buildNumber(event, i) {
+            let icon = '';
+            if (event.type.includes('SKI')) {
+                icon = '&nbsp;❄';
+            } else if (event.type.includes('VELO')) {
+                icon = '&nbsp;🚲';
+            }
+            return (i + 1) + icon;
         }
 
         function buildDate(event) {
@@ -415,6 +429,7 @@
             let result;
             switch (event.type) {
                 case 'ORIENT': result = 'Ориент'; break;
+                case 'VELO': result = 'Вело'; break;
                 case 'ROGAINE': result = 'Рогейн'; break;
                 case 'MULTI': result = 'Мульти'; break;
                 case 'TOURISM': result = 'Кросс-поход';
@@ -426,6 +441,8 @@
                     } else {
                         result = 'Лыжи';
                     }
+                } else if (event.type.includes('VELO')) {
+                    result = 'Рогейн';
                 } else {
                     result = 'Рогейн, Ориент';
                 }

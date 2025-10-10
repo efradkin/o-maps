@@ -573,6 +573,14 @@ let events_2025 =
         map: 'orekhovo_figurnoe_2025',
         me: 'М80'
     }, {
+        date: '2025-05-10',
+        place: 'Лемболово',
+        name: 'ЧиП СПб',
+        type: 'VELO',
+        fmt: 'спринт',
+        link: 'https://o-site.spb.ru/race.php?id=250510_velo',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1691',
+    }, {
         date: '2025-05-11',
         place: 'Манеж Алексеева',
         name: 'ЧиП СПб',
@@ -656,6 +664,16 @@ let events_2025 =
         reskeep: 688,
         start: 'ST',
         map: 'drezdenskaya_2023'
+    }, {
+        date: '2025-05-22',
+        endDate: '2025-05-26',
+        place: 'Зеленогорск',
+        name: 'Всероссийские и Международные соревнования',
+        type: 'VELO',
+        link: 'https://o-site.spb.ru/race.php?id=250522-26_VSMS',
+        reg: 'http://sportident.online/entry/?id=6558',
+        photo: ['http://cloud.mail.ru/public/2AEJ/TWonJiT4i','http://cloud.mail.ru/public/HZM2/uYGPqAUuW','http://cloud.mail.ru/public/Rcic/5fFUntpGS'],
+        video: ['http://vk.com/clip-220245153_456239040?c=1','http://vk.com/clip-220245153_456239041?c=1'],
     }, {
         date: '2025-05-22',
         place: 'Новотоксово, ВИФК',
@@ -1047,6 +1065,14 @@ let events_2025 =
         start: 'YM',
         map: 'pervomayskoe_2021'
     }, {
+        date: '2025-08-10',
+        place: 'Ушково, Пухтолова гора',
+        name: 'ЧиП СПб',
+        type: 'VELO',
+        fmt: 'масстарт',
+        link: 'https://o-site.spb.ru/race.php?id=250810',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1691',
+    }, {
         date: '2025-08-16',
         place: 'Яппиля',
         name: 'HARD ROGAINE | SWAMP',
@@ -1204,6 +1230,13 @@ let events_2025 =
         map: 'kalischenskoe_oz_2021'
     }, {
         date: '2025-09-13',
+        place: 'Стеклянный',
+        name: 'ЧиП СПб',
+        type: 'VELO',
+        link: 'https://o-site.spb.ru/race.php?id=250913_velo',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1694',
+    }, {
+        date: '2025-09-13',
         place: 'Луга, Крупели',
         name: 'Лужский меридиан №82',
         fmt: '2.5, 5',
@@ -1308,7 +1341,7 @@ let events_2025 =
         place: 'Приозерский р-он',
         name: 'Велоизоляция',
         fmt: '4, 8',
-        type: 'ROGAINE',
+        type: ['ROGAINE','VELO'],
         link: 'https://www.multsport.ru/starts/veloizol25/',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23470/',
         photo: 'https://vk.com/album-8292013_311140243',
@@ -1545,6 +1578,14 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251011R',
         reg: 'https://orgeo.ru/event/39880',
         start: 'GK'
+    }, {
+        date: '2025-10-11',
+        place: 'Лемболово',
+        name: 'ЧиП СПб',
+        fmt:  'эстафета 2х',
+        type: 'VELO',
+        link: 'https://o-site.spb.ru/race.php?id=251011',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1701',
     }, {
         date: '2025-10-11',
         place: 'Моторное',
