@@ -137,12 +137,13 @@ let orientirStartsMaps = [
     {
         name: 'Колтуши',
         date: '1991-04-13',
-        info: 'Ориентир-2',
+        info: 'Ориентир-2, <a href="./docs/1991_04_13_orientir_2_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_04_13.webp',
         link: './original_maps/starts/orientir/orientir_1991_04_13_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[59.96854421234714, 30.660009384155277], [59.964935699504515, 30.721807479858402], [59.93738636175856, 30.652112960815433]],
         author: 'VSLVSKY',
+        planner: 'NKLVCH'
     },
     {
         name: 'Юкки',
@@ -215,6 +216,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_07_03.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_03_omaps.jpg',
         start: 'ORIENTIR',
+        planner: 'BRSV_V',
         bounds: [[60.16215899225725, 30.474014282226566], [60.16013045170843, 30.508732795715336], [60.14667485625631, 30.469765663146976]],
         author: ['CHGRVSKY_Y','DBRTSV_V','KRPLSN','BSTRV_A','BRSVA_I','GUSEV_I']
     },

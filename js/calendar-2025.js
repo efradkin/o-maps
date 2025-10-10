@@ -1601,6 +1601,14 @@ let events_2025 =
         owner: 'MLV_AL'
     }, {
         date: '2025-10-25',
+        place: 'Сосновый бор',
+        name: 'Ночной рогейн',
+        fmt:  '1:30',
+        type: 'ROGAINE',
+        link: 'https://vk.ru/wall-201330282_1964',
+        owner: 'YUVNT'
+    }, {
+        date: '2025-10-25',
         place: 'Суоранда',
         name: 'Рогейн на "Голубой даче" (финал КЛО)',
         fmt:  '4',

@@ -472,6 +472,14 @@ let historyDocs = [
         me: 'МА'
     },
     {
+        name: 'Ориентир-2 (Колтуши)',
+        date: '1991-04-13',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_04_13">тут</a>.',
+        link: './docs/1991_04_13_orientir_2_omaps.pdf',
+        planner: 'NKLVCH'
+    },
+    {
         name: 'Ориентир-3 (Юкки)',
         date: '1991-04-27',
         start: 'ORIENTIR',
