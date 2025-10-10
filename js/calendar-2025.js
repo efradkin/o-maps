@@ -425,7 +425,7 @@ let events_2025 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22375/'
     }, {
         date: '2025-04-27',
-        place: 'Петяярви, "Кентавр"',
+        place: 'Петяярви, Кентавр',
         name: 'Кубок Белых Ночей №10',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/info/43282',
@@ -1215,7 +1215,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
         reg: 'https://orgeo.ru/event/46308',
-        any: 'Карта "Бабочка".',
+        any: 'Карта Бабочка',
         owner: 'KUZM',
         map: 'toksovo_malinovaya_gora_2018'
     }, {
@@ -1372,6 +1372,12 @@ let events_2025 =
         fmt: 'ночное',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23464/'
     }, {
+        date: '2025-09-21',
+        place: 'Южно-Приморский парк',
+        name: 'Соревновательные старты',
+        type: 'ORIENT',
+        reg: 'https://vk.com/wall-220245153_1660'
+    }, {
         date: '2025-09-23',
         place: 'Кировский район, шк №221',
         name: 'Спортивное ориентирование - в школу №59',
@@ -1381,6 +1387,12 @@ let events_2025 =
         map: 'school_221_2025',
         owner: 'SFSO_SPB',
         start: 'SCHOOL',
+    }, {
+        date: '2025-09-23',
+        place: 'Курортный р-он, сквер Пограничников',
+        name: 'Школа Безопасности',
+        type: 'FUN',
+        reg: 'https://orgeo.ru/event/46328',
     }, {
         date: '2025-09-24',
         place: 'Фрунзенский район, шк №303',
@@ -1529,12 +1541,19 @@ let events_2025 =
         video: ['http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day1/','http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day2/','http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day3/'],
         me: 'Фит'
     }, {
+        date: '2025-10-07',
+        place: 'Сосновая поляна',
+        name: 'Мастер-класс',
+        type: 'FUN',
+        link: 'https://vk.com/wall-12400_4234',
+    }, {
         date: '2025-10-08',
         place: 'Сосновка',
         name: 'Dлительная серия осень - этап 1',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/46877',
         res: 'https://t.me/dlitelnyy/327',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23620/',
         owner: 'DLT'
     }, {
         date: '2025-10-09',
@@ -1551,6 +1570,14 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251011',
         reg: 'https://orgeo.ru/event/info/legendaoseni25',
         map: 'polyustrovsky_2022'
+    }, {
+        date: '2025-10-11',
+        place: 'Выборгский район',
+        name: 'Физкультурное мероприятие',
+        type: 'FUN',
+        link: 'https://vk.com/wall-114454934_869',
+        reg: 'https://orgeo.ru/event/finalfoto25',
+        start: 'VYBORGSKY_DISTRICT'
     }, {
         date: '2025-10-11',
         place: 'оз Силанде',
@@ -1572,7 +1599,7 @@ let events_2025 =
     }, {
         date: '2025-10-11',
         place: 'Кавголово',
-        name: 'Тренировка от "Горный кросс"',
+        name: 'Тренировка от Горного кросса',
         fmt:  '1',
         type: 'ROGAINE',
         link: 'https://o-site.spb.ru/race.php?id=251011R',
@@ -1651,7 +1678,7 @@ let events_2025 =
     }, {
         date: '2025-10-25',
         place: 'Суоранда',
-        name: 'Рогейн на "Голубой даче" (финал КЛО)',
+        name: 'Рогейн на Голубой даче (финал КЛО)',
         fmt:  '4',
         type: 'ROGAINE',
         link: 'https://www.multsport.ru/starts/klo-final-25/',

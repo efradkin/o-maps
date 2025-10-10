@@ -56,9 +56,9 @@
             <option value="ALL">все форматы</option>
             <option value="ORIENT">Ориент</option>
             <option value="ROGAINE">Рогейн</option>
-            <option value="OTHER">Прочее</option>
             <option value="SKI">Лыжи</option>
             <option value="VELO">Вело</option>
+            <option value="OTHER">Прочее</option>
         </select>
 
 <!--
@@ -179,7 +179,7 @@
                     return event.type.includes('ORIENT');
                 }
                 if ('OTHER' === EVENT_TYPE_PARAM) {
-                    return !event.type.includes('ORIENT') && !isRogaine(event);
+                    return !event.type.includes('ORIENT') && !event.type.includes('VELO') && !isRogaine(event);
                 }
                 if ('SKI' === EVENT_TYPE_PARAM) {
                     return event.type.includes('SKI');
@@ -432,7 +432,8 @@
                 case 'VELO': result = 'Вело'; break;
                 case 'ROGAINE': result = 'Рогейн'; break;
                 case 'MULTI': result = 'Мульти'; break;
-                case 'TOURISM': result = 'Кросс-поход';
+                case 'TOURISM': result = 'Кросс-поход'; break;
+                case 'FUN': result = 'Интерактив';
             }
             if (!result) {
                 if (event.type.includes('SKI')) {
