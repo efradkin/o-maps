@@ -171,6 +171,16 @@ let specialMaps = [
     },
     // --- вело ---
     {
+        name: 'Дудергоф, Нагорный парк',
+        year: 1999,
+        url: './maps/velo/dudergof_199x.webp',
+        link: './original_maps/velo/dudergof_199x_omaps.jpg',
+        bounds: [[59.70363323936345, 30.120949745178226], [59.70228011032887, 30.138931274414066], [59.69221111300396, 30.11790275573731]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
         name: 'Солнечное',
         year: 2023,
         url: './maps/velo/solnechnoe_velo_2021.webp',
