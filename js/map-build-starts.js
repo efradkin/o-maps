@@ -58,6 +58,7 @@ let baGroup = L.layerGroup([]);
 let stGroup = L.layerGroup([]);
 let rfarGroup = L.layerGroup([]);
 let sto24Group = L.layerGroup([]);
+let twotwoGroup = L.layerGroup([]);
 let majorGroup = L.layerGroup([]);
 
 let allOrientGroups = [
@@ -79,6 +80,7 @@ let allOrientGroups = [
     stGroup,
     rfarGroup,
     sto24Group,
+    twotwoGroup,
     majorGroup
 ];
 let allAgeGroups = [];
@@ -134,6 +136,7 @@ if (mapElement) {
             case 'KS': activeLayers.push(ksGroup); break;
             case 'RFAR': activeLayers.push(rfarGroup); break;
             case '100X24': activeLayers.push(sto24Group); break;
+            case '2x2': activeLayers.push(twotwoGroup); break;
             case 'ST': activeLayers.push(stGroup); break;
             case 'VO_FOTO': activeLayers.push(kkmGroup); break;
             case 'KKM': activeLayers.push(kkmGroup); break;
@@ -143,7 +146,8 @@ if (mapElement) {
         }
     } else {
         activeLayers.push(
-            otherGroup, schoolGroup, wnGroup, naGroup, orientirGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup, volkovGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
+            otherGroup, schoolGroup, wnGroup, naGroup, orientirGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup,
+            twotwoGroup, volkovGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
             //...Object.values(ageGroups),
         );
     }
@@ -163,6 +167,7 @@ function buildOverlayMapsContents() {
         "Школы": schoolGroup,
         "Яркий Мир": ymGroup,
         "Ориентир (ретро)": orientirGroup,
+        "2x2": twotwoGroup,
         "100x24": sto24Group,
         "BA/TA": baGroup,
         "RFAR": rfarGroup,
@@ -217,6 +222,7 @@ function pushStartGroupToMap(start, m) {
         case 'KS': pushGroupToMap(m, ksGroup); break;
         case 'RFAR': pushGroupToMap(m, rfarGroup); break;
         case '100X24': pushGroupToMap(m, sto24Group); break;
+        case '2x2': pushGroupToMap(m, twotwoGroup); break;
         case 'ST': pushGroupToMap(m, stGroup); break;
         case 'VO_FOTO': pushGroupToMap(m, kkmGroup); break;
         case 'KKM': pushGroupToMap(m, kkmGroup); break;

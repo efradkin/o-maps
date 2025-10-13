@@ -1631,8 +1631,11 @@ let events_2025 =
         name: 'BikeAdventure',
         fmt:  '6',
         type: 'ROGAINE',
-        link: 'vk.com/bikeadventure',
+        link: 'https://www.bikeadventure.ru/',
         reg: 'https://orgeo.ru/event/44940',
+        res: 'https://www.bikeadventure.ru/results/',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23660/',
+        photo: ['https://disk.yandex.ru/d/RA9hL_hI24Wttg','https://vk.com/album-30311715_308828631'],
         start: 'BA'
     }, {
         date: '2025-10-12',
@@ -1667,7 +1670,7 @@ let events_2025 =
     }, {
         date: '2025-10-19',
         place: 'Пухтолова гора',
-        name: 'Памяти Зои Викторовны Пятаковой',
+        name: 'Памяти Зои Пятаковой',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251019_PZVP',
         reg: 'http://orgeo.ru/event/info/46779',
