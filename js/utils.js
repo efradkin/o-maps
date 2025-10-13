@@ -158,7 +158,18 @@ function isMapHidden(m) {
 }
 
 function isMajor(m) {
-    return m.major || (m.start && starts[m.start] && starts[m.start].major);
+    if (m.major) {
+        return true;
+    } else {
+        if (m.start) {
+            if (Array.isArray(m.start)) {
+                return starts[m.start[0]] && starts[m.start[0]].major;
+            } else {
+                return starts[m.start] && starts[m.start].major;
+            }
+        }
+    }
+    return false;
 }
 
 function mapLink(url, m) { // m - for region
@@ -167,8 +178,16 @@ function mapLink(url, m) { // m - for region
         if (m.region) {
             region = m.region;
         } else {
-            if (m.start && starts[m.start].region) {
-                region = starts[m.start].region;
+            if (m.start) {
+                if (Array.isArray(m.start)) {
+                    if (starts[m.start[0]].region) {
+                        region = starts[m.start[0]].region;
+                    }
+                } else {
+                    if (m.start && starts[m.start].region) {
+                        region = starts[m.start].region;
+                    }
+                }
             }
         }
     }
