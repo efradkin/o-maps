@@ -181,6 +181,18 @@ let rogaineBeketovMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Снетковское оз',
+        date: '2025-10-11',
+        url: './maps/rogaine/beketov/snetkovskoe_ba_2025.webp',
+        link: './original_maps/rogaine/beketov/snetkovskoe_ba_2025_omaps.gif',
+        info: '<a href="https://www.bikeadventure.ru/arhiv/arhiv-2025-2.php">Инфо и результаты</a>',
+        bounds: [[61.04332918539102, 30.12931823730469], [61.04997725007066, 30.34011840820313], [60.89120757161905, 30.14511108398438]],
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE'],
+        zindex: 2
+    },
+    {
         name: 'Выборг',
         year: 2019,
         url: './maps/rogaine/beketov/vyborg_2019.webp',

@@ -1636,7 +1636,8 @@ let events_2025 =
         res: 'https://www.bikeadventure.ru/results/',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23660/',
         photo: ['https://disk.yandex.ru/d/RA9hL_hI24Wttg','https://vk.com/album-30311715_308828631'],
-        start: 'BA'
+        start: 'BA',
+        map: 'snetkovskoe_ba_2025'
     }, {
         date: '2025-10-12',
         place: 'Всеволожск, Румболовский парк',

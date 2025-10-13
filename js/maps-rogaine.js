@@ -99,7 +99,8 @@ let rogaineMaps = [
         url: './maps/rogaine/vorobjevo_bn_2013.webp',
         bounds: [[60.93985560994127, 30.25995254516602], [60.93351805032942, 30.375652313232425], [60.899891223356235, 30.250511169433597]],
         owner: 'WN',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        zindex: 3
     },
     {
         name: 'Мичуринское',
