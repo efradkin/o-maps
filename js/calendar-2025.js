@@ -1283,7 +1283,7 @@ let events_2025 =
         map: 'toksovo_oz_svetloe_2017'
     }, {
         date: '2025-09-17',
-        place: 'Выборгский район, шк №161',
+        place: 'Выборгский р-он, шк №161',
         name: 'Спортивное ориентирование - в школу №58',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250917',
@@ -1379,7 +1379,7 @@ let events_2025 =
         reg: 'https://vk.com/wall-220245153_1660'
     }, {
         date: '2025-09-23',
-        place: 'Кировский район, шк №221',
+        place: 'Кировский р-он, шк №221',
         name: 'Спортивное ориентирование - в школу №59',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250923',
@@ -1395,7 +1395,7 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/46328',
     }, {
         date: '2025-09-24',
-        place: 'Фрунзенский район, шк №303',
+        place: 'Фрунзенский р-он, шк №303',
         name: 'Спортивное ориентирование - в школу №60',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250924',
@@ -1479,7 +1479,7 @@ let events_2025 =
             'М21':'https://viewer.o-gps-center.ru/viewer/event/23505/',
             'Все КП':'https://o-gps-center.ru/manage2/events/view/23494'
         },
-        photo: ['https://vk.com/album-230167293_311242634'],
+        photo: ['https://vk.com/album-230167293_311242634','https://disk.yandex.ru/d/3xE8JY0NWxKomA'],
         map: 'yappilya_tarasovskoe_2024',
         me: 'М50'
     }, {
@@ -1572,11 +1572,12 @@ let events_2025 =
         map: 'polyustrovsky_2022'
     }, {
         date: '2025-10-11',
-        place: 'Выборгский район',
+        place: 'Выборгский р-он',
         name: 'Физкультурное мероприятие',
         type: 'FUN',
         link: 'https://vk.com/wall-114454934_869',
         reg: 'https://orgeo.ru/event/finalfoto25',
+        photo: 'https://vk.com/album-26721608_308922347',
         start: 'VYBORGSKY_DISTRICT'
     }, {
         date: '2025-10-11',
@@ -1586,8 +1587,18 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251011_50',
         reg: 'https://sportident.online/entry/?id=6732',
+        gps: {
+            'М1':'https://viewer.o-gps-center.ru/viewer/event/23623/',
+            'М2':'https://viewer.o-gps-center.ru/viewer/event/23625/',
+            'Ж1':'https://viewer.o-gps-center.ru/viewer/event/23626/',
+            'Ж2':'https://viewer.o-gps-center.ru/viewer/event/23627/',
+            'Фит':'https://viewer.o-gps-center.ru/viewer/event/23634/'
+        },
+        photo: 'https://byzinaphoto.ru/disk/11-10-2025-50-vyorst-2025-0frvjr',
         owner: 'NW',
-        map: 'silande_2024'
+        map: 'silande_2024',
+        any: 'призы - шоколадки',
+        me: 'Фит-7'
     }, {
         date: '2025-10-11',
         place: 'Богословка, Невский л/п',
@@ -1613,6 +1624,7 @@ let events_2025 =
         type: 'VELO',
         link: 'https://o-site.spb.ru/race.php?id=251011',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1701',
+        photo: 'https://cloud.mail.ru/public/7u19/u2oH4pEz4'
     }, {
         date: '2025-10-11',
         place: 'Моторное',
@@ -1684,6 +1696,12 @@ let events_2025 =
         link: 'https://www.multsport.ru/starts/klo-final-25/',
         reg: 'https://www.multsport.ru/starts/klo-final-25/registration.html',
         start: 'MULTSPORT'
+    }, {
+        date: '2025-10-26',
+        place: 'Васильево',
+        name: 'XII Кубок Весты',
+        type: 'ORIENT',
+        link: 'https://vk.ru/wall-30365190_8705',
     }, {
         date: '2025-10-26',
         place: 'Колосково',

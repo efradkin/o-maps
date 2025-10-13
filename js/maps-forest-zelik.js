@@ -60,6 +60,15 @@ let zelikMaps = [
         author: 'BRDLN'
     },
     {
+        name: 'Смолячково',
+        year: 2025,
+        url: './maps/forest/zelik/smoljachkovo_2025.webp',
+        link: './original_maps/forest/zelik/smoljachkovo_2025_omaps.gif',
+        bounds: [[60.18255487783866, 29.495995044708252], [60.18129584406433, 29.507045745849613], [60.17908708345086, 29.494450092315677]],
+        author: ['IVNVA_G','TKMKVA_P'],
+        owner: 'KP31'
+    },
+    {
         name: 'Сосновая поляна, р Рощинка',
         year: 2020,
         url: './maps/forest/zelik/sosnovaya_polyana_roschinka_2020.webp',
