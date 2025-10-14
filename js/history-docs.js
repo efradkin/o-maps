@@ -665,4 +665,76 @@ let historyDocs = [
         link: './original_maps/starts/mms/mms_2017_korobitsyno.pdf',
         author: ['DJCHKV','STLV_S','PPV_D']
     },
+    {
+        name: 'Итоги и результаты',
+        start: '2x2',
+        year: 2005,
+        info: 'Карты можно найти <a href="map-info.html?map=2x2_2005_05_10">тут</a> и <a href="map-info.html?map=2x2_2005_05_07">тут</a>.',
+        link: './docs/2x2/2005_kuzmolovo_2x2_itogi_omaps.pdf',
+        planner: 'SHRNN'
+    },
+    {
+        name: 'Буклет',
+        start: '2x2',
+        year: 2005,
+        info: 'Карты можно найти <a href="map-info.html?map=2x2_2005_05_10">тут</a> и <a href="map-info.html?map=2x2_2005_05_07">тут</a>.',
+        link: './docs/2x2/2005_kuzmolovo_2x2_photos_omaps.doc',
+        planner: 'SHRNN'
+    },
+    {
+        name: 'Афиша',
+        start: '2x2',
+        year: 2006,
+        info: 'Карты можно найти <a href="map-info.html?map=2x2_2006_04_29">тут</a>, <a href="map-info.html?map=2x2_2006_04_30">тут</a> и <a href="map-info.html?map=2x2_2006_05_01">тут</a>.',
+        link: './docs/2x2/2006_2x2_info_omaps.jpg',
+        planner: 'SHRNN'
+    },
+    {
+        name: 'Положение',
+        start: '2x2',
+        year: 2006,
+        info: 'Карты можно найти <a href="map-info.html?map=2x2_2006_04_29">тут</a>, <a href="map-info.html?map=2x2_2006_04_30">тут</a> и <a href="map-info.html?map=2x2_2006_05_01">тут</a>.',
+        link: './docs/2x2/2006_2x2_rules_omaps.pdf',
+        planner: 'SHRNN'
+    },
+    {
+        name: 'Положение',
+        start: '2x2',
+        year: 2007,
+        info: 'Карты можно найти <a href="map-info.html?map=2x2_2007_04_29">тут</a>, <a href="map-info.html?map=2x2_2007_04_30">тут</a> и <a href="map-info.html?map=2x2_2007_05_01">тут</a>.',
+        link: './docs/2x2/2007_2x2_rules_omaps.pdf',
+        planner: 'SHRNN'
+    },
+    {
+        name: 'Результаты',
+        start: '2x2',
+        year: 2008,
+        info: 'Карты можно найти <a href="map-info.html?map=2x2_2008_05_01">тут</a>, <a href="map-info.html?map=2x2_2008_05_02">тут</a> и <a href="map-info.html?map=2x2_2008_05_03">тут</a>.',
+        link: './docs/2x2/2008_2x2_results_omaps.pdf',
+        planner: 'SHRNN'
+    },
+    {
+        name: 'Итоги',
+        start: '2x2',
+        year: 2008,
+        info: 'Карты можно найти <a href="map-info.html?map=2x2_2008_05_01">тут</a>, <a href="map-info.html?map=2x2_2008_05_02">тут</a> и <a href="map-info.html?map=2x2_2008_05_03">тут</a>.',
+        link: './docs/2x2/2008_2x2_total_omaps.pdf',
+        planner: 'SHRNN'
+    },
+    {
+        name: 'Положение',
+        start: '2x2',
+        year: 2009,
+        info: 'Карты можно найти <a href="map-info.html?map=2x2_2009_05_02">тут</a> и <a href="map-info.html?map=2x2_2009_05_03">тут</a>.',
+        link: './docs/2x2/2009_2x2_rules_omaps.pdf',
+        planner: 'SHRNN'
+    },
+    {
+        name: 'Результаты',
+        start: '2x2',
+        year: 2010,
+        info: 'Карту можно найти <a href="map-info.html?map=2x2_2010_05_09">тут</a>.',
+        link: './docs/2x2/2010_2x2_results_omaps.pdf',
+        planner: 'SHRNN'
+    },
 ];

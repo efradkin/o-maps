@@ -161,6 +161,7 @@ let authors = {
     IVNVA_G: { name: 'Иванова Галина' },
     IVNVA_I: { name: 'Иванова И.' },
     ISVNNA: { name: 'Исавнина О.' },
+    JBLCHKV: { name: 'Яблочков В.' },
     KAZNTSV_S: {
         name: 'Казанцев Сергей', //Александрович
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'

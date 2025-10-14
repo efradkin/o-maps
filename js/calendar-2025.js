@@ -1594,11 +1594,22 @@ let events_2025 =
             'Ж2':'https://viewer.o-gps-center.ru/viewer/event/23627/',
             'Фит':'https://viewer.o-gps-center.ru/viewer/event/23634/'
         },
-        photo: 'https://byzinaphoto.ru/disk/11-10-2025-50-vyorst-2025-0frvjr',
+        photo: ['https://byzinaphoto.ru/disk/11-10-2025-50-vyorst-2025-0frvjr','https://vk.com/album-93257360_308828694'],
         owner: 'NW',
         map: 'silande_2024',
         any: 'призы - шоколадки',
         me: 'Фит-7'
+    }, {
+        date: '2025-10-12',
+        place: 'оз Силанде',
+        name: '5 Вёрст',
+        fmt: 'детская эстафета',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251011_50',
+        reg: 'http://sportident.online/entry/?id=6733',
+        photo: 'https://byzinaphoto.ru/disk/12-10-2025-50-vyorst-deti-llk1dm',
+        owner: 'NW',
+        map: 'silande_2024',
     }, {
         date: '2025-10-11',
         place: 'Богословка, Невский л/п',
@@ -1647,7 +1658,7 @@ let events_2025 =
     }, {
         date: '2025-10-18',
         endDate: '2025-10-19',
-        place: 'Выборг',
+        place: 'Выборг, стд Авангард и Кировские дачи',
         name: 'Золотая осень',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251019_ZO',
@@ -1675,6 +1686,12 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251019_PZVP',
         reg: 'http://orgeo.ru/event/info/46779',
+    }, {
+        date: '2025-10-20',
+        place: 'Пионерский парк',
+        name: 'Тренировка в ДР Ирины Степановой',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/ivs25',
     }, {
         date: '2025-10-22',
         place: 'Кириши',
@@ -1718,6 +1735,13 @@ let events_2025 =
         name: 'Осенний марафон',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251104_OM',
+    }, {
+        date: '2025-11-04',
+        place: 'Будогощь',
+        name: 'XI Традиционные соревнования памяти Ю.А. Березюка',
+        type: 'ORIENT',
+        link: 'https://vk.ru/wall-116730504_215',
+        reg: 'https://orgeo.ru/event/berezuk_2025'
     }, {
         date: '2025-11-08',
         place: 'Лемболово-Орехово',
