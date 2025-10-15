@@ -1729,6 +1729,14 @@ let events_2025 =
         name: 'Петербургская осень',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251026',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1702'
+    }, {
+        date: '2025-10-26',
+        place: 'Колосково',
+        name: 'Чемпионат СПб среди ВУЗов',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251026_St',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1704'
     }, {
         date: '2025-11-04',
         place: 'Ягодное, Берестовое оз',
