@@ -1607,7 +1607,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251011_50',
         reg: 'http://sportident.online/entry/?id=6733',
-        photo: 'https://byzinaphoto.ru/disk/12-10-2025-50-vyorst-deti-llk1dm',
+        photo: ['https://byzinaphoto.ru/disk/12-10-2025-50-vyorst-deti-llk1dm','https://vk.ru/album-93257360_308843503'],
         owner: 'NW',
         map: 'silande_2024',
     }, {
@@ -1635,7 +1635,7 @@ let events_2025 =
         type: 'VELO',
         link: 'https://o-site.spb.ru/race.php?id=251011',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1701',
-        photo: 'https://cloud.mail.ru/public/7u19/u2oH4pEz4'
+        photo: ['https://cloud.mail.ru/public/7u19/u2oH4pEz4','https://vk.com/album-230167293_311390266']
     }, {
         date: '2025-10-11',
         place: 'Моторное',
@@ -1655,6 +1655,13 @@ let events_2025 =
         name: 'Памяти Дмитрия Лисового',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/46988',
+    }, {
+        date: '2025-10-17',
+        place: 'Фрунзенский р-он, парк Интернационалистов',
+        name: 'Ориентирование по памяти',
+        type: 'ORIENT',
+        fmt: 'по памяти',
+        link: 'https://vk.ru/wall-220245153_1724',
     }, {
         date: '2025-10-18',
         endDate: '2025-10-19',

@@ -384,6 +384,7 @@ let specialMaps = [
         info: '<a href="https://o-site.spb.ru/race.php?id=251011_velo">ЧиП СПб, эстафеты</a>.',
         bounds: [[60.41546264900147, 30.323510169982914], [60.41575927424778, 30.339903831481937], [60.40323509806197, 30.319733619689945]],
         type: ['VELO'],
+        author: ['TKMKV_K','KUZNTSV_R'],
         owner: 'SFSO_SPB'
     },
 
