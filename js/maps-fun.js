@@ -158,7 +158,7 @@ let funMaps = [
         type: ['FOTO']
     },
     {
-        name: 'Сад "Василеостровец"',
+        name: 'Сад Василеостровец',
         year: 2025,
         start: 'VO_FOTO',
         url: './maps/fun/vasileostrovets_foto_2025_04.webp',

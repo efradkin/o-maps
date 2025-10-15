@@ -70,7 +70,7 @@ let cityMaps = [
         type: ['CITY']
     },
     {
-        name: 'ЖК "Академ Парк"',
+        name: 'ЖК Академ Парк',
         date: '2022-11-12',
         url: './maps/city/akadem_park_2022.webp',
         link: ['./original_maps/city/akadem_park_2020_st_1.pdf','./original_maps/city/akadem_park_2020_st_2.pdf','./original_maps/city/akadem_park_2022_st_omaps.gif'],
@@ -465,7 +465,7 @@ let cityMaps = [
         owner: 'VSLVSKY'
     },
     {
-        name: 'ДДЮТ "На Ленской"',
+        name: 'ДДЮТ На Ленской',
         year: 2020,
         url: './maps/city/ddyt_na_lenskoy_2020.webp',
         link: ['./original_maps/city/ddyt_na_lenskoy_2020_omaps.gif','./original_maps/city/ddyt_na_lenskoy_2020_omaps.ocd'],
@@ -791,7 +791,7 @@ let cityMaps = [
         owner: 'TMKN'
     },
     {
-        name: 'Клуб "Альтаир", ул Лёни Голикова',
+        name: 'Клуб Альтаир, ул Лёни Голикова',
         year: 2025,
         url: './maps/city/altair_2025.webp',
         link: './original_maps/city/altair_2025_omaps.jpg',

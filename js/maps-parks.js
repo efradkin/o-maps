@@ -917,7 +917,7 @@ let parkMaps = [
         type: ['PARK']
     },
     {
-        name: 'Сестрорецк, парк "Дубки"',
+        name: 'Сестрорецк, парк Дубки',
         year: 1,
         url: './maps/parks/sestroretsk_dubki_old.webp',
         link: './original_maps/parks/sestroretsk_dubki_old_omaps.jpg',
@@ -926,7 +926,7 @@ let parkMaps = [
         type: ['PARK']
     },
     {
-        name: 'Сестрорецк, парк "Дубки"',
+        name: 'Сестрорецк, парк Дубки',
         year: 1985,
         url: './maps/parks/sestroretsk_dubki_1985.webp',
         link: './original_maps/parks/sestroretsk_dubki_1985_omaps.jpg',
@@ -935,7 +935,7 @@ let parkMaps = [
         type: ['PARK']
     },
     {
-        name: 'Сестрорецк, парк "Дубки"',
+        name: 'Сестрорецк, парк Дубки',
         year: 2014,
         logo: 'sestroretsk.webp',
         url: './maps/parks/sestroretsk_dubki_2014.webp',
@@ -946,7 +946,7 @@ let parkMaps = [
         type: ['PARK']
     },
     {
-        name: 'Сестрорецк, парк "Дубки"',
+        name: 'Сестрорецк, парк Дубки',
         year: 2020,
         url: './maps/parks/sestroretsk_dubki_2020.webp',
         link: './original_maps/parks/sestroretsk_dubki_2020_omaps.jpg',
@@ -1058,7 +1058,7 @@ let parkMaps = [
         type: ['PARK']
     },
     {
-        name: 'Сосновый Бор, "Белые пески"',
+        name: 'Сосновый Бор, Белые пески',
         year: 2003,
         url: './maps/parks/sosnovy_bor_bely_pesok_2003.webp',
         link: './original_maps/parks/sosnovy_bor_bely_pesok_2003_omaps.jpg',
@@ -1138,7 +1138,7 @@ let parkMaps = [
         type: ['PARK','FOTO']
     },
     {
-        name: 'Приозерск, КЦ "Карнавал"',
+        name: 'Приозерск, КЦ Карнавал',
         year: 2023,
         url: './maps/parks/priozersk_karnaval_2023.webp',
         link: './original_maps/parks/priozersk_karnaval_2023_omaps.jpg',
@@ -1446,7 +1446,7 @@ let parkMaps = [
         type: ['SPRINT', 'PARK']
     },
     {
-        name: 'Сад "Василеостровец"',
+        name: 'Сад Василеостровец',
         year: 2010,
         info: '<a href="https://vk.com/wall-135156716_2650">Карта решений Trail-O</a>',
         url: './maps/parks/vasileostrovets_2010.webp',
@@ -1457,7 +1457,7 @@ let parkMaps = [
         type: ['SPRINT', 'PARK']
     },
     {
-        name: 'Сад "Прометей"',
+        name: 'Сад Прометей',
         year: 2022,
         url: './maps/parks/forsh_2025.webp',
         link: './original_maps/parks/forsh_2025_omaps.jpg',
