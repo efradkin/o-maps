@@ -106,6 +106,7 @@
     <script src="js/ext/jquery.slim.min.js"></script>
 
     <script src="js/calendar-2025.js"></script>
+    <script src="js/calendar-2026.js"></script>
 
     <script src="js/maps-starts-schools.js"></script>
     <script src="js/maps-city.js"></script>
@@ -167,6 +168,7 @@
 
         let oEvents = [
             ...events_2025,
+            ...events_2026,
         ];
 
         // Фильтрация массива. Оставляем только эвенты, соответствующие критерию запроса (есди он задан).
@@ -241,6 +243,7 @@
                 let event = oEvents[i];
                 let date = new Date(event.date);
                 let month = date.getMonth();
+                let year = date.getFullYear();
                 if (currentSort === 'date' && month !== currentMonth) {
                     let monthName = date.toLocaleString('ru', { month: 'long' }).toUpperCase().split('').join(' ');
                     currentMonth = month;
@@ -248,7 +251,7 @@
                     const td = document.createElement('td');
                     td.setAttribute('colspan', 8);
                     td.classList.add('month-row');
-                    td.innerHTML = monthName;
+                    td.innerHTML = `${monthName}&nbsp;&nbsp;&nbsp;${year}`;
                     monthRow.appendChild(td);
                     tbody.appendChild(monthRow);
                 }

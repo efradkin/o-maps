@@ -1766,6 +1766,13 @@ let events_2025 =
         reg: 'http://orgeo.ru/event/39881',
         start: 'GK'
     }, {
+        date: '2025-11-09',
+        place: 'Лемболово',
+        name: 'Маркир 110%',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251109',
+        reg: 'http://orgeo.ru/event/47234',
+    }, {
         date: '2025-11-15',
         name: 'Рогейн на Лужских берегах',
         fmt: '3, 6',
