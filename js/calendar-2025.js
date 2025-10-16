@@ -1083,6 +1083,7 @@ let events_2025 =
         res: 'https://hardrogaine.ru/2025/HR_Swamp_results.htm',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23251/',
         photo: ['https://vk.com/album-163764238_308306673','https://vk.com/album-163764238_308306672','https://vk.com/album-163764238_308306670','https://vk.com/album-163764238_308307812'],
+        video: 'https://vksport.vkvideo.ru/video-163764238_456239534',
         start: 'HARD'
     }, {
         date: '2025-08-17',
@@ -1749,6 +1750,7 @@ let events_2025 =
         place: 'Ягодное, Берестовое оз',
         name: 'Осенний марафон',
         type: 'ORIENT',
+        fmt: 'лонг',
         link: 'https://o-site.spb.ru/race.php?id=251104_OM',
     }, {
         date: '2025-11-04',

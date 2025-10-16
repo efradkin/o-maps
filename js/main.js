@@ -83,8 +83,8 @@ if (map === undefined) {
 function loadMaps() {
     showSpinner(true);
     for (const m of oMaps) {
-        if (isMapAcceptable(m) || isRogaine(m)) {
-            if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM))) {
+        if (isMapAcceptable(m)) {
+            if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM)) || (TYPE_PARAM === 'FOREST' && !m.type)) {
                 loadMap(m);
             }
         }
@@ -284,7 +284,7 @@ if (mapElement) {
         let m = getMapForName(MAP_NAME_PARAM);
         if (m) {
             let mapType = m.type;
-            if (mapType && (mapType.includes('ROGAINE') || mapType.includes('FUN') || mapType.includes('FOTO'))) {
+            if (mapType && (isRogaine(m) || isFun(m))) {
                 activeLayers.push(funGroup, rogaineGroup);
             } else {
                 let y = year(m);

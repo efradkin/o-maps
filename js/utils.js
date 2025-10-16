@@ -153,6 +153,10 @@ function isRogaine(m) {
     return !isEmpty(m.type) && m.type.includes('ROGAINE');
 }
 
+function isFun(m) {
+    return !isEmpty(m.type) && (m.type.includes('FUN') || m.type.includes('FOTO'));
+}
+
 function isMapHidden(m) {
     return m.hidden || (m.owner && m.owner === 'NW');
 }
@@ -653,6 +657,14 @@ function selectStart(start) {
     let url = location.href.split('?')[0];
     if (start !== 'all') {
         url += '?start=' + start;
+    }
+    location.href = url;
+}
+
+function selectMapType(type) {
+    let url = location.href.split('?')[0];
+    if (type !== 'ALL') {
+        url += '?type=' + type;
     }
     location.href = url;
 }

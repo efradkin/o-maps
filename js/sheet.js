@@ -47,6 +47,14 @@ if (START_NAME_PARAM) {
     }
 }
 
+if (TYPE_PARAM) {
+    // Листбокс выбора типа
+    let selector = document.getElementById('type_selector');
+    if (selector) {
+        selector.value = TYPE_PARAM;
+    }
+}
+
 // строит табличку с инфой об авторах-составителях
 function renderMapsTable() {
     tbody.innerHTML = '';

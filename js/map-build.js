@@ -114,7 +114,7 @@ if (mapElement) {
             parkGroup, cityGroup, forestGroup, specialGroup,
             group2020th, group2010th, group2000th, groupUnknownYear, rogaineGroup // group90th, groupRetro,
         );
-    } else if ('FOTO' === TYPE_PARAM) {
+    } else if ('FOTO' === TYPE_PARAM || 'FUN' === TYPE_PARAM) {
         activeLayers.push(
             parkGroup, cityGroup, forestGroup, specialGroup,
             group2020th, group2010th, group2000th, groupUnknownYear, funGroup
@@ -179,7 +179,7 @@ function allocateMap(m, imgLayer) {
                 mapsStatObj.parkGroup.push(imgLayer);
                 pushGroupToMap(m, parkGroup);
             }
-            if (m.type.includes('FUN') || m.type.includes('FOTO')) {
+            if (isFun(m)) {
                 added = true;
                 mapsStatObj.funGroup.push(imgLayer);
                 imgLayer.addTo(funGroup);
@@ -210,7 +210,7 @@ function allocateMap(m, imgLayer) {
 }
 
 function isMapAcceptable(m) {
-    return isOrientMap(m);
+    return isOrientMap(m) || isRogaine(m) || isFun(m);
 }
 
 function buildContextmenuItems() {

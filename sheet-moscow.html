@@ -55,13 +55,23 @@
         </select>
 
         <select id="start_selector" class="header_selector" onchange="selectStart(this.value)">
-            <option value="all">все</option>
+            <option value="all">все старты</option>
             <option value="INCR">Инакор</option>
             <option value="BNO">Большое Ночное Ориентирование</option>
             <option value="KMPT_ROGAINE">Компот-рогейн</option>
             <option value="AERO">Аэророгейн</option>
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
             <option value="major">Чемпионаты и Кубки</option>
+        </select>
+
+        <select id="type_selector" class="header_selector" onchange="selectMapType(this.value)">
+            <option value="ALL">все типы</option>
+            <option value="CITY">Город</option>
+            <option value="PARK">Парки</option>
+            <option value="FOREST">Лес</option>
+            <option value="VELO">Вело</option>
+            <option value="WINTER">Зимние</option>
+            <option value="ROGAINE">Рогейн</option>
         </select>
 
         <a href="start.html" target="_self" class="stat-map-link stat-map-link-right" title="Плитки" style="display: none"><img src="images/ceramics_24.png" alt="Плитки" /></a>
