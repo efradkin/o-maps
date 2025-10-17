@@ -119,7 +119,7 @@ let vaskelovoMaps = [
         qtty: 600
     },
     {
-        name: 'оз Силанде',
+        name: 'Силанде',
         year: 1992,
         url: './maps/forest/vaskelovo/silande_1992.webp',
         //link: './original_maps/forest/vaskelovo/Geolog92.pdf',
@@ -128,7 +128,7 @@ let vaskelovoMaps = [
         author: ['DBRTSV_V','LBDKN','KUZNTSV_V'],
     },
     {
-        name: 'оз Силанде',
+        name: 'Силанде',
         date: '2025-06-20',
         url: './maps/forest/vaskelovo/silande_2025.webp',
         link: './original_maps/forest/vaskelovo/silande_2025_omaps.jpg',
@@ -309,7 +309,7 @@ let vaskelovoMaps = [
         owner: 'TOKM'
     },
     {
-        name: 'оз Силанде',
+        name: 'Силанде',
         year: 2024,
         url: './maps/forest/vaskelovo/silande_2024.webp',
         link: './original_maps/forest/vaskelovo/silande_2024_omaps.jpg',

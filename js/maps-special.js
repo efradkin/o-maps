@@ -159,7 +159,6 @@ let specialMaps = [
         name: 'Аньялово',
         year: 2023,
         startYear: 2024,
-        excluded: true,
         info: 'ЧиП СПб, ЛГ-маркир.',
         url: './maps/winter/anyalovo_winter_2023.webp',
         link: './original_maps/winter/anyalovo_2023_omaps.gif',
@@ -231,9 +230,39 @@ let specialMaps = [
         type: ['VELO']
     },
     {
+        name: 'Пухтолова гора',
+        year: 2025,
+        url: './maps/velo/pukhtolova_gora_velo_2025.webp',
+        link: './original_maps/velo/pukhtolova_gora_velo_2025_omaps.gif',
+        bounds: [[60.24453985658783, 29.631371498107914], [60.238852569238844, 29.678492546081547], [60.22871098577209, 29.62467670440674]],
+        author: 'KUZNTSV_R',
+        owner: 'SFSO_SPB',
+        type: ['VELO']
+    },
+    {
+        name: 'Рощино',
+        year: 2025,
+        url: './maps/velo/roschino_velo_2025.webp',
+        link: './original_maps/velo/roschino_velo_2025_omaps.gif',
+        bounds: [[60.27932369715627, 29.563522338867188], [60.27781304992234, 29.602575302124027], [60.26500165963541, 29.561719894409183]],
+        author: 'KUZNTSV_R',
+        owner: 'SFSO_SPB',
+        type: ['VELO']
+    },
+    {
         name: 'Зеленогорск, Щучье оз',
-        excluded: true,
-        year: 2010,
+        year: 2025,
+        url: './maps/velo/zelik_schuchje_velo_2025.webp',
+        link: './original_maps/velo/zelik_schuchje_velo_2025_omaps.gif',
+        info: 'Территория ООПТ.',
+        bounds: [[60.233249519326534, 29.748659133911136], [60.22583412498815, 29.811916351318363], [60.20246892966917, 29.73411083221436]],
+        author: ['SHRNN','KUZNTSV_S','KUZNTSV_R'],
+        owner: 'SFSO_SPB',
+        type: ['VELO']
+    },
+    {
+        name: 'Зеленогорск, Щучье оз',
+        year: 2012,
         url: './maps/velo/zelik_schuchje_velo_2010.webp',
         link: './original_maps/velo/zelik_schuchje_velo_2010_omaps.jpg',
         bounds: [[60.23018128377677, 29.745225906372074], [60.22566363642415, 29.79947090148926], [60.20485737756326, 29.73587036132813]],
@@ -378,6 +407,16 @@ let specialMaps = [
     },
     {
         name: 'Лемболово',
+        year: 2023,
+        url: './maps/velo/lembolovo_velo_2023.webp',
+        link: './original_maps/velo/lembolovo_velo_2023_omaps.gif',
+        bounds: [[60.435627004716906, 30.2808952331543], [60.43206949763859, 30.337800979614258], [60.38650748953201, 30.268020629882816]],
+        type: ['VELO'],
+        author: ['VRBY','KVZN','TKMKV_K','NSNV','KUZNTSV_R','STRGNV'],
+        owner: 'SFSO_SPB'
+    },
+    {
+        name: 'Лемболово, юг',
         date: '2025-10-11',
         url: './maps/velo/lembolovo_velo_relay_2025.webp',
         link: './original_maps/velo/lembolovo_velo_relay_2025_omaps.gif',
@@ -387,11 +426,52 @@ let specialMaps = [
         author: ['TKMKV_K','KUZNTSV_R'],
         owner: 'SFSO_SPB'
     },
+    {
+        name: 'Силанде',
+        year: 2025,
+        url: './maps/velo/silande_velo_2025.webp',
+        link: './original_maps/velo/silande_velo_2025_omaps.gif',
+        bounds: [[60.42196659623265, 30.254116058349613], [60.418810119787075, 30.289006233215336], [60.391660254494, 30.243301391601566]],
+        type: ['VELO'],
+        author: ['CHGRVSKY_V','DBRTSV_V','KUZNTSV_R'],
+        owner: 'SFSO_SPB'
+    },
+    {
+        name: 'Зеркальный',
+        year: 2023,
+        url: './maps/velo/zerkalny_velo_2023.webp',
+        link: './original_maps/velo/zerkalny_velo_2023_omaps.gif',
+        bounds: [[60.228071705196626, 29.10415649414063], [60.22242418522649, 29.180159568786625], [60.19683832877667, 29.09540176391602]],
+        type: ['VELO'],
+        author: ['KVZN','NSNV','TKMKV_K','TKMKVA_P','KUZNTSV_R'],
+        owner: 'SFSO_SPB'
+    },
+    {
+        name: 'Поляны, Семиозерье',
+        year: 2023,
+        url: './maps/velo/poljany_velo_2023.webp',
+        link: './original_maps/velo/poljany_velo_2023_omaps.gif',
+        info: 'Частично территория ООПТ.',
+        bounds: [[60.31806602292215, 29.28294181823731], [60.31100992072319, 29.37555313110352], [60.28889659959392, 29.268350601196293]],
+        type: ['VELO'],
+        author: ['SHRNN','DBRTSV_V','KUZNTSV_R'],
+        owner: 'SFSO_SPB'
+    },
+    {
+        name: 'Красная горка',
+        year: 2022,
+        url: './maps/velo/krasna_gorka_velo_2022.webp',
+        link: './original_maps/velo/krasna_gorka_velo_2022_omaps.gif',
+        info: 'Частично территория ООПТ.',
+        bounds: [[59.97897017553444, 29.325706958770756], [59.975985528645346, 29.357442855834964], [59.97140067289649, 29.323282241821293]],
+        author: ['DBRTSV_V','MKHLV_A','KUZNTSV_R'],
+        owner: 'YUVNT',
+        type: ['VELO']
+    },
 
     // --- гидро-рельефные ---
     {
         name: 'Токсово, Оригон-1',
-        excluded: true,
         url: './maps/relief/toksovo_origon_1.webp',
         link: './original_maps/relief/toksovo_origon_1_omaps.jpg',
         bounds: [[60.14966546452469, 30.491695404052734], [60.14599125046178, 30.532207489013675], [60.112605462220415, 30.483713150024418]],
@@ -400,7 +480,6 @@ let specialMaps = [
     },
     {
         name: 'Токсово, Оригон-2',
-        excluded: true,
         url: './maps/relief/toksovo_origon_2.webp',
         link: './original_maps/relief/toksovo_origon_2_omaps.jpg',
         bounds: [[60.15978879045419, 30.39273262023926], [60.15295481948042, 30.51083564758301], [60.12744302199271, 30.385093688964847]],
@@ -410,7 +489,6 @@ let specialMaps = [
     {
         name: 'Токсово, Оригон-3',
         year: 1985,
-        excluded: true,
         url: './maps/relief/toksovo_origon_3.webp',
         link: './original_maps/relief/toksovo_origon_3_omaps.jpg',
         bounds: [[60.1929987287428, 30.610399246215824], [60.18988405654998, 30.66267013549805], [60.14872558837722, 30.599584579467777]],
@@ -420,7 +498,6 @@ let specialMaps = [
     {
         name: 'Токсово, Малиновая гора',
         year: 1997,
-        excluded: true,
         url: './maps/relief/toksovo_malinovaja_gora.webp',
         link: './original_maps/relief/toksovo_malinovaja_gora_1997_omaps.jpg',
         bounds: [[60.17729435692855, 30.464100837707523], [60.17454105065943, 30.501523017883304], [60.16414470541026, 30.460324287414554]],
@@ -430,7 +507,6 @@ let specialMaps = [
     {
         name: 'Первомайское',
         year: 2014,
-        excluded: true,
         url: './maps/relief/pervomayskoe_2014.webp',
         bounds: [[60.42006003635948, 29.68827724456787], [60.418047435229944, 29.725184440612793], [60.40315031563834, 29.68389987945557]],
         author: ['SLBDNK','MKHLV_A','GVRLK'],
@@ -441,6 +517,7 @@ let specialMaps = [
     {
         name: 'Сосново, оз Уловное',
         year: 1981,
+        excluded: true,
         info: 'Азимутный полигон.',
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_azimut_1981.webp',
         link: './original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_azimut_1981_omaps.jpg',

@@ -176,6 +176,10 @@ function isMajor(m) {
     return false;
 }
 
+function filterMapsForCharts() {
+    //oMaps = oMaps.filter(m => !m.excluded && !(m.type && (m.type.includes('VELO') || m.type.includes('RELIEF') || m.type.includes('WINTER'))));
+}
+
 function mapLink(url, m) { // m - for region
     let region;
     if (m) {

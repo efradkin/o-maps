@@ -1709,6 +1709,13 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/night_o_2025',
         owner: 'MLV_AL'
     }, {
+        date: '2025-10-22',
+        place: 'Парк Лесотехнической академии',
+        name: 'Длительная серия №8',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/47226',
+        owner: 'DLT'
+    }, {
         date: '2025-10-25',
         place: 'Сосновый бор',
         name: 'Ночной рогейн',
@@ -1716,6 +1723,15 @@ let events_2025 =
         type: 'ROGAINE',
         link: 'https://vk.ru/wall-201330282_1964',
         owner: 'YUVNT'
+    }, {
+        date: '2025-10-25',
+        place: 'Токсовский карьер',
+        name: 'Кубок D2RUN, финал',
+        fmt:  'эстафета 2х2',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251025_D2RUN_final',
+        reg: 'http://orgeo.ru/event/47228',
+        owner: 'DLT'
     }, {
         date: '2025-10-25',
         place: 'Суоранда',
