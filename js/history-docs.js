@@ -435,6 +435,13 @@ let historyDocs = [
         planner: ['SHRNN','CHGRVSKY_V','CHGRVSKY_Y','CHGRVSKA_O','NVGRDTSV']
     },
     {
+        name: 'Ориентир-4 (Токсово)',
+        date: '1989-06-07',
+        start: 'ORIENTIR',
+        link: './docs/1989_06_07_orientir_4_omaps.pdf',
+        planner: 'BRSV_V'
+    },
+    {
         name: 'Летний чемпионат ЛОС ВДФСО профсоюзов (Токсово)',
         date: '1989-06-09',
         link: './docs/1989_06_09_vdfso_unions_omaps.pdf',
@@ -447,6 +454,45 @@ let historyDocs = [
         info: '23-25 июня.',
         link: './docs/1989_06_23_wn_omaps.pdf',
         me: 'М-15'
+    },
+    {
+        name: 'Ориентир-8 (Комарово)',
+        date: '1989-07-02',
+        start: 'ORIENTIR',
+        link: './docs/1989_07_02_orientir_8_omaps.pdf',
+    },
+    {
+        name: 'Ориентир-9 (Токсово, Большой Кавголовский трамплин)',
+        date: '1989-07-05',
+        start: 'ORIENTIR',
+        link: './docs/1989_07_05_orientir_9_omaps.pdf',
+    },
+    {
+        name: 'Ориентир-19, на призы газеты Невская заря (Всеволожский парк)',
+        date: '1989-09-02',
+        link: './docs/1989_09_02_orientir_19_omaps.pdf',
+        start: 'ORIENTIR',
+        planner: 'RYLOV_V',
+        me: 'М-Б'
+    },
+    {
+        name: 'Ориентир-20 (Токсово)',
+        date: '1989-09-06',
+        link: './docs/1989_09_06_orientir_20_omaps.pdf',
+        start: 'ORIENTIR',
+        me: 'М-Б'
+    },
+    {
+        name: 'Критериум-6 (садоводство Дружное)',
+        date: '1989-09-03',
+        link: './docs/1989_09_03_kriterium_6_omaps.pdf',
+    },
+    {
+        name: 'Ориентир-21 (Комарово)',
+        date: '1989-11-05',
+        link: './docs/1989_11_05_orientir_21_omaps.pdf',
+        start: 'ORIENTIR',
+        planner: 'DRBSHV'
     },
     {
         name: 'Ориентир-9 (Юкки)',
