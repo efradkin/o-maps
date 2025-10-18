@@ -418,6 +418,11 @@ let historyDocs = [
         link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg']
     },
     {
+        name: 'Бробег',
+        year: 1989,
+        link: './docs/1989_brobeg_omaps.pdf',
+    },
+    {
         name: 'XXX летие Ленинградского ориентирования',
         date: '1989-05-07',
         info: '7-9 мая. Карты можно найти <a href="map-info.html?map=budogosch_orlenok_1988">тут</a> и <a href="map-info.html?map=budogosch_cheremukhovoe_1988">тут</a>.',
@@ -427,12 +432,50 @@ let historyDocs = [
         planner: ['MLVA_M','MRSKY_S','KUOKNN_Y']
     },
     {
+        name: 'Ориентир-1 (Энколово)',
+        date: '1989-05-09',
+        start: 'ORIENTIR',
+        link: './docs/1989_05_09_orientir_1_omaps.pdf',
+        planner: 'NKLVCH'
+    },
+    {
+        name: 'Ориентир-2 (Токсово)',
+        date: '1989-05-17',
+        start: 'ORIENTIR',
+        link: './docs/1989_05_17_orientir_2_omaps.pdf',
+    },
+    {
+        name: 'Приз Ленинградского телевидения (Кавголово)',
+        date: '1989-05-21',
+        link: './docs/1989_05_21_tv_omaps.pdf',
+        planner: 'SHVR',
+        me: 'М-15'
+    },
+    {
+        name: 'Ориентир-3 (Токсово)',
+        date: '1989-05-24',
+        start: 'ORIENTIR',
+        link: './docs/1989_05_24_orientir_3_omaps.pdf',
+    },
+    {
         name: 'П-во ЛОС ВДФСО Профсоюзов среди юношей и девушек (Рапполово, Токсово)',
         date: '1989-05-24',
         link: './docs/1989_05_24_unions_omaps.pdf',
         info: '24-25 мая.',
         me: 'М-15',
         planner: ['SHRNN','CHGRVSKY_V','CHGRVSKY_Y','CHGRVSKA_O','NVGRDTSV']
+    },
+    {
+        name: 'Кубок Ленинграда (Петяярви)',
+        date: '1989-05-27',
+        link: './docs/1989_05_27_leningrad_cup_omaps.pdf',
+        me: 'М-15',
+    },
+    {
+        name: 'Кубок Ленинграда (Петяярви)',
+        date: '1989-05-28',
+        link: './docs/1989_05_28_leningrad_cup_omaps.pdf',
+        me: 'М-15',
     },
     {
         name: 'Ориентир-4 (Токсово)',
@@ -449,11 +492,32 @@ let historyDocs = [
         planner: 'CHGRVSKY_V'
     },
     {
+        name: 'Ориентир-5 (Шуваловский парк)',
+        date: '1989-06-14',
+        start: 'ORIENTIR',
+        link: './docs/1989_06_14_orientir_5_omaps.pdf',
+        me: 'МБ'
+    },
+    {
+        name: 'Ориентир-6 (Орехово)',
+        date: '1989-06-22',
+        start: 'ORIENTIR',
+        link: './docs/1989_06_22_orientir_6_omaps.pdf',
+        planner: 'TNV_A'
+    },
+    {
         name: 'Многодневка "Белые Ночи" (Снегирёвка)',
         date: '1989-06-23',
         info: '23-25 июня.',
         link: './docs/1989_06_23_wn_omaps.pdf',
         me: 'М-15'
+    },
+    {
+        name: 'Ориентир-7 (Лемболово)',
+        date: '1989-06-28',
+        start: 'ORIENTIR',
+        link: './docs/1989_06_28_orientir_7_omaps.pdf',
+        planner: 'DRBSHV'
     },
     {
         name: 'Ориентир-8 (Комарово)',
@@ -468,12 +532,77 @@ let historyDocs = [
         link: './docs/1989_07_05_orientir_9_omaps.pdf',
     },
     {
+        name: 'Ориентир-10 (Репино)',
+        date: '1989-07-09',
+        start: 'ORIENTIR',
+        link: './docs/1989_07_09_orientir_10_omaps.pdf',
+        planner: 'SHICK'
+    },
+    {
+        name: 'Ориентир-11 (Лемболово)',
+        date: '1989-07-13',
+        start: 'ORIENTIR',
+        link: './docs/1989_07_13_orientir_11_omaps.pdf',
+        planner: 'DRZGLSKY'
+    },
+    {
+        name: 'Ориентир-12 (Васкелово)',
+        date: '1989-07-16',
+        start: 'ORIENTIR',
+        link: './docs/1989_07_16_orientir_12_omaps.pdf',
+    },
+    {
+        name: 'Ориентир-13 (Кавголово)',
+        date: '1989-07-19',
+        start: 'ORIENTIR',
+        link: './docs/1989_07_19_orientir_13_omaps.pdf',
+        planner: 'KRZHNVSKY'
+    },
+    {
+        name: 'Ориентир-14 (Васкелово)',
+        date: '1989-07-23',
+        start: 'ORIENTIR',
+        link: './docs/1989_07_23_orientir_14_omaps.pdf',
+        planner: 'BLNV_A'
+    },
+    {
+        name: 'Ориентир-15 (Токсово)',
+        date: '1989-07-26',
+        start: 'ORIENTIR',
+        link: './docs/1989_07_26_orientir_15_omaps.pdf',
+        planner: 'BRDLN_Y'
+    },
+    {
+        name: 'Ориентир-16 (Всеволожск)',
+        date: '1989-07-30',
+        start: 'ORIENTIR',
+        link: './docs/1989_07_30_orientir_16_omaps.pdf',
+    },
+    {
+        name: 'Зелёный змей (Орехово)',
+        date: '1989-08-27',
+        start: 'GS',
+        link: './docs/1989_08_27_green_snake_omaps.pdf',
+    },
+    {
+        name: 'Ориентир-18 (Орловский парк)',
+        date: '1989-08-30',
+        start: 'ORIENTIR',
+        link: './docs/1989_08_30_orientir_18_omaps.pdf',
+        planner: 'TMKV_G'
+    },
+    {
         name: 'Ориентир-19, на призы газеты Невская заря (Всеволожский парк)',
         date: '1989-09-02',
         link: './docs/1989_09_02_orientir_19_omaps.pdf',
         start: 'ORIENTIR',
         planner: 'RYLOV_V',
         me: 'М-Б'
+    },
+    {
+        name: 'Критериум-6 (садоводство Дружное)',
+        date: '1989-09-03',
+        link: './docs/1989_09_03_kriterium_6_omaps.pdf',
     },
     {
         name: 'Ориентир-20 (Токсово)',
@@ -483,9 +612,52 @@ let historyDocs = [
         me: 'М-Б'
     },
     {
-        name: 'Критериум-6 (садоводство Дружное)',
-        date: '1989-09-03',
-        link: './docs/1989_09_03_kriterium_6_omaps.pdf',
+        name: 'Первенство КСО АЗИМУТ среди ветеранов (Токсово)',
+        date: '1989-09-10',
+        link: './docs/1989_09_10_veterans_omaps.pdf',
+        planner: 'SHVR'
+    },
+    {
+        name: 'Чемпионат Ленинграда (Лемболово)',
+        date: '1989-09-16',
+        link: './docs/1989_09_16_championship_omaps.pdf',
+        planner: 'BYMKV'
+    },
+    {
+        name: 'Летний чемпионат Ленинграда, эстафета (Петровское)',
+        date: '1989-09-17',
+        link: './docs/1989_09_17_championship_omaps.pdf',
+        planner: 'OVCHNNKV'
+    },
+    {
+        name: 'Летний чемпионат Ленинграда, удлиннённая дистанция (Юкки)',
+        date: '1989-09-24',
+        link: './docs/1989_09_24_championship_omaps.pdf',
+        planner: 'SHLKHN_Y'
+    },
+    {
+        name: 'Ориентир-20 (Песочная)',
+        date: '1989-09-24',
+        link: './docs/1989_09_24_orientir_20_omaps.pdf',
+        start: 'ORIENTIR',
+        planner: 'VSLVSKY'
+    },
+    {
+        name: 'День Конституции СССР (69км, о Щучье)',
+        date: '1989-10-07',
+        info: '7-8 октября.',
+        link: './docs/1989_10_07_constitution_omaps.pdf',
+        planner: 'ARTMV'
+    },
+    {
+        name: 'П-во обкома радиоэлектроники (Лемболово)',
+        date: '1989-10-15',
+        link: './docs/1989_10_15_obkom_electricity_omaps.pdf',
+    },
+    {
+        name: 'XXVIII командные ночные соревнования туристов памяти А.Окинчица (Мельничный ручей)',
+        date: '1989-10-20',
+        link: './docs/1989_10_20_okinchitsa_omaps.pdf',
     },
     {
         name: 'Ориентир-21 (Комарово)',
@@ -493,6 +665,30 @@ let historyDocs = [
         link: './docs/1989_11_05_orientir_21_omaps.pdf',
         start: 'ORIENTIR',
         planner: 'DRBSHV'
+    },
+    {
+        name: 'Соревнования в з/н (Лемболово)',
+        date: '1989-11-08',
+        link: './docs/1989_11_08_lembolovo_omaps.pdf',
+        planner: 'OSPV'
+    },
+    {
+        name: 'Соревнования на маркированной трассе (Токсово)',
+        date: '1989-11-12',
+        link: './docs/1989_11_12_toksovo_omaps.pdf',
+        planner: 'SMNV_M'
+    },
+    {
+        name: 'Ориентир-24, маркир (Токсово)',
+        date: '1989-11-19',
+        link: './docs/1989_11_19_orientir_24_omaps.pdf',
+        start: 'ORIENTIR',
+        me: 'М'
+    },
+    {
+        name: 'Соревнования (Зеленогорск)',
+        date: '1989-11-26',
+        link: './docs/1989_11_26_zelenogorsk_omaps.pdf',
     },
     {
         name: 'Ориентир-9 (Юкки)',
