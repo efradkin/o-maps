@@ -2787,6 +2787,18 @@ let moscowMaps = [
         type: ['WINTER','ROGAINE']
     },
     {
+        name: 'Пушкино',
+        date: '2025-10-18',
+        info: 'Финал Компот-Кубка 2025.',
+        url: './maps/moscow/lr/pushkino_rogaine_2025.webp',
+        link: 'https://rogaine.ru/results/fc2025/final2025_map.jpg',
+        bounds: [[56.073951680627324, 37.77485847473145], [56.05909857007496, 37.90008544921876], [55.97773633729803, 37.7376937866211]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23622/',
+        owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Степаньково',
         year: 2018,
         start: 'BNO',
