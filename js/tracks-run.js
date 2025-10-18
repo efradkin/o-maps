@@ -1125,4 +1125,27 @@ let runTracks = [
         },
         type: ['RUN']
     },
+    {
+        name: 'Выборг, Кировские дачи, "Тропа Хийси"',
+        date: '2025-10-18',
+        link: 'https://vk.com/vyborgmarathon',
+        results: 'https://reg.o-time.ru/race/25576',
+        info: '1-20км.',
+        gpx: {
+            '10км':'tracks/run/vyborg_hiisi_2025_10k_omaps.gpx',
+            '5км':'tracks/run/vyborg_hiisi_2025_5k_omaps.gpx',
+            '3км':'tracks/run/vyborg_hiisi_2025_3k_omaps.gpx',
+        },
+        logo: 'vyborg.webp',
+        type: ['RUN']
+    },
+    {
+        name: 'Павловск-Пушкин',
+        date: '2025-10-18',
+        link: 'https://vk.com/cfkcsnews',
+        results: 'https://reg.o-time.ru/race/25611',
+        info: '1-6км.',
+        gpx: 'tracks/run/pavlovsk_pushkin_2025_6k_omaps.gpx',
+        type: ['RUN']
+    },
 ];
