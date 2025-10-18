@@ -699,10 +699,44 @@ let historyDocs = [
         me: 'МА'
     },
     {
-        name: '6 и 7 октября. "Дыхание осени" на День Конституции СССР',
+        name: '"Дыхание осени" на День Конституции СССР',
         date: '1990-10-06',
-        info: '<a href="./docs/sosnovo_1990_10_06/doc_3_omaps.jpg">Положение</a>, <a href="./docs/sosnovo_1990_10_06/doc_4_omaps.jpg">МА</a>. Карты можно найти <a href="map-info.html?map=sosnovo_1990_10_06">тут</a>.',
+        info: '6 и 7 октября. <a href="./docs/sosnovo_1990_10_06/doc_3_omaps.jpg">Положение</a>, <a href="./docs/sosnovo_1990_10_06/doc_4_omaps.jpg">МА</a>. Карты можно найти <a href="map-info.html?map=sosnovo_1990_10_06">тут</a>.',
         links: ['sosnovo_1990_10_06', 4]
+    },
+    {
+        name: 'Ориентир-26 (Сосновка)',
+        start: 'ORIENTIR',
+        date: '1990-09-12',
+        link: './docs/1990_09_12_orientir_26_omaps.pdf',
+        planner: 'BLNV_A',
+    },
+    {
+        name: 'Ориентир-27 (Зеленогорск)',
+        start: 'ORIENTIR',
+        date: '1990-11-04',
+        link: './docs/1990_11_04_orientir_27_omaps.pdf',
+        planner: 'FDRV_L',
+    },
+    {
+        name: 'Ориентир-28 (Лемболово)',
+        start: 'ORIENTIR',
+        date: '1990-11-08',
+        link: './docs/1990_11_08_orientir_28_omaps.pdf',
+        planner: 'KRVCHNKO_A',
+        me: "М-А"
+    },
+    {
+        name: 'Ориентир-29, маркир (Токсово)',
+        start: 'ORIENTIR',
+        date: '1990-11-10',
+        link: './docs/1990_11_10_orientir_29_omaps.pdf',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1990_11_10">тут</a>.'
+    },
+    {
+        name: 'Соревнования по эстафете с ориентированием (Токсово)',
+        date: '1990-11-18',
+        link: './docs/1990_11_18_relay_omaps.pdf',
     },
     {
         name: 'Ориентир-1 (Воейково)',

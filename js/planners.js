@@ -28,6 +28,7 @@ let planners = {
     KHMPPU: { name: 'Хамппу И' },
     KRLV: { name: 'Королёв' },
     KRMCHV: { name: 'Курмачёв В' },
+    KRVCHNKO_A: { name: 'Кравченко Алексей' },
     KUOKNN_Y: { name: 'Куокканен Юрий' },
     KRZHNVSKY: { name: 'Крыжановский Н' },
     KSRKV: { name: 'Косоруков Антон' },

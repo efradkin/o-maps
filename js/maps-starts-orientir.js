@@ -105,7 +105,7 @@ let orientirStartsMaps = [
     {
         name: 'Токсово, Зона-Z',
         date: '1990-11-10',
-        info: 'Ориентир-29',
+        info: 'Ориентир-29, <a href="./docs/1990_11_10_orientir_29_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1990_11_10.webp',
         link: './original_maps/starts/orientir/orientir_1990_11_10_omaps.jpg',
         start: 'ORIENTIR',
@@ -120,7 +120,8 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1990_11_18_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.156799102974794, 30.533409118652347], [60.15291210269404, 30.58902740478516], [60.13970995715149, 30.529289245605472]],
-        author: ['CHGRVSKY_Y','DBRTSV_V','CHKVSKY_N','KRNLJV','GRSMVA','BSTRV_A','BRSVA_I','PTRNNA']
+        author: ['CHGRVSKY_Y','DBRTSV_V','CHKVSKY_N','KRNLJV','GRSMVA','BSTRV_A','BRSVA_I','PTRNNA'],
+        planner: 'SMNV_M'
     },
     {
         name: 'Воейково',
