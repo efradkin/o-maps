@@ -504,6 +504,16 @@ let tracks = [
         info: 'Экотропа «Бугаиная тропа» проходит по заболоченной местности вдоль побережья Финского залива в парке «Ближние дубки», созданному ещё во времена Петра Первого. Экотропа оборудована деревянным настилом, позволяющим побывать там, где по земле не пройдёшь — среди бурной прибрежной растительности северного побережья Невской Губы.',
         link: 'https://eco-trails.ru/catalog/lenoblast/bugainaya-tropa/',
         gpx: 'tracks/bugaina_trail_omaps.gpx',
+        start: 'OOPTSPB',
+        markir: true,
+        type: ['WALK']
+    },
+    {
+        name: 'Новоорловский л/п',
+        info: 'Экотропа <a href="https://ecotrail-novoorlovsky.ru/">«Привет, сосед!»</a> протянулась по северной части заказника между набережной реки Каменки и Заповедной улицей будет интересна не только жителям ближайших жилых комплексов, но и всем любителям познавательных прогулок.',
+        link: 'https://oopt.spb.ru/protected_area/novoorlovskiy/',
+        gpx: 'tracks/novoorlovsky_omaps.gpx',
+        start: 'OOPTSPB',
         markir: true,
         type: ['WALK']
     },
