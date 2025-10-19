@@ -1670,6 +1670,7 @@ let events_2025 =
         name: 'Золотая осень',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251019_ZO',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23707/',
         owner: 'VYBORG'
     }, {
         date: '2025-10-18',
@@ -1694,6 +1695,8 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251019_PZVP',
         reg: 'http://orgeo.ru/event/info/46779',
+        reskeep: 808,
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23712/'
     }, {
         date: '2025-10-20',
         place: 'Пионерский парк',
@@ -1741,6 +1744,12 @@ let events_2025 =
         link: 'https://www.multsport.ru/starts/klo-final-25/',
         reg: 'https://www.multsport.ru/starts/klo-final-25/registration.html',
         start: 'MULTSPORT'
+    }, {
+        date: '2025-10-26',
+        place: 'Новое Сертолово',
+        name: 'ЧиП Сертолово',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/47035',
     }, {
         date: '2025-10-26',
         place: 'Васильево',
@@ -1792,10 +1801,12 @@ let events_2025 =
         reg: 'http://orgeo.ru/event/47234',
     }, {
         date: '2025-11-15',
+        place: 'Луга, б/о Штоль',
         name: 'Рогейн на Лужских берегах',
         fmt: '3, 6',
         type: 'ROGAINE',
-        link:  ['https://vk.com/event166397868','https://t.me/lugarogein']
+        link:  ['https://vk.com/event166397868','https://t.me/lugarogein'],
+        reg: 'https://orgeo.ru/event/40555'
     }, {
         date: '2025-11-30',
         place: 'Великий Новгород',
