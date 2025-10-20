@@ -142,7 +142,7 @@ function getTypesList(m, colored) {
 }
 
 function isOrientMap(m) {
-    return isEmpty(m.type) || m.type.includes('CITY') || m.type.includes('PARK') || isSpecialMap(m);
+    return  !isRogaine(m) && (isEmpty(m.type) || m.type.includes('CITY') || m.type.includes('PARK') || isSpecialMap(m));
 }
 
 function isSpecialMap(m) {

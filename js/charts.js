@@ -31,7 +31,10 @@ window.onload = function() {
         mapAreas,
         'Площадь спортивных карт (км²)');
     document.getElementById('totalArea').innerHTML = mapAreas.reduce((a, c) => a + c).toFixed(0);
-    document.getElementById("all_rogaine_area").innerHTML = calcMapsArea(rogaineGroup).toFixed(0);
+    let el = document.getElementById("all_rogaine_area");
+    if (el != null) {
+        el.innerHTML = calcMapsArea(rogaineGroup).toFixed(0);
+    }
 
     buildChart(
         document.getElementById('mapYearChart'),
@@ -180,7 +183,7 @@ for (const m of oMaps) {
             largestMap = m;
         }
         let y = year(m);
-        if ((y !== undefined && y > 1) && (!oldestMap || (y < oldestMap.year))) {
+        if ((y !== undefined && y > 1) && (!oldestMap || (y < year(oldestMap)))) {
             oldestMap = m;
         }
     }
