@@ -279,17 +279,6 @@ let rogaineMaps = [
         owner: 'SHBN',
         type: ['ROGAINE']
     },
-/*
-    {
-        name: 'оз Омчино',
-        year: 2024,
-        info: 'Лужский лыжный рогейн.',
-        url: './maps/rogaine/omchino_luzhski_2024.webp',
-        bounds: [[58.73409386161734, 29.75131988525391], [58.72460404916333, 29.842386245727543], [58.68211323154789, 29.73183631896973]],
-        owner: 'SHBN',
-        type: ['ROGAINE']
-    },
-*/
     {
         name: 'оз Омчино',
         year: 2022,
@@ -312,17 +301,6 @@ let rogaineMaps = [
         owner: 'LM',
         type: ['ROGAINE']
     },
-/*
-    {
-        name: 'оз Омчино',
-        year: 2024,
-        info: 'Рогейн на Лужских берегах.',
-        url: './maps/rogaine/omchino_luzhsky_2024.webp',
-        bounds: [[58.7392609339061, 29.759130477905277], [58.72727749761397, 29.876804351806644], [58.686708127025476, 29.741020202636722]],
-        owner: 'SHBN',
-        type: ['ROGAINE']
-    },
-*/
     {
         name: 'оз Толони',
         year: 2025,

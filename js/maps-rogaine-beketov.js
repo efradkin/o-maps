@@ -149,18 +149,6 @@ let rogaineBeketovMaps = [
         start: 'BA',
         type: ['ROGAINE']
     },
-/*
-    {
-        name: 'Мельниково',
-        year: 2020,
-        url: './maps/rogaine/beketov/melnikovo_2020.webp',
-        link: './original_maps/rogaine/beketov/VMB20.jpg',
-        bounds: [[61.051140518044775, 29.28714752197266], [61.06243861375529, 29.71063613891602], [60.84884090341096, 29.31032180786133]],
-        owner: 'BKTV',
-        start: 'MB',
-        type: ['ROGAINE']
-    },
-*/
     {
         name: 'Первомайское',
         year: 2024,

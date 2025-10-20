@@ -102,9 +102,6 @@
     <script src="js/ext/GeometryUtil.js"></script>
 
 
-    <script src="js/maps-starts-2x2.js"></script>
-    <script src="js/maps-starts-orientir.js"></script>
-    <script src="js/maps-starts-schools.js"></script>
     <script src="js/maps-city.js"></script>
     <script src="js/maps-parks.js"></script>
     <script src="js/maps-forest.js"></script>
@@ -126,6 +123,7 @@
     <script src="js/maps-moscow.js"></script>
     <script src="js/maps-other.js"></script>
     <script src="js/maps-serbia.js"></script>
+    <script src="js/maps-samara.js"></script>
     <script src="js/maps-ryazan.js"></script>
     <script src="js/maps-starts-mms.js"></script>
     <script src="js/maps-starts-wn.js"></script>
@@ -136,6 +134,10 @@
     <script src="js/maps-starts-volkov.js"></script>
     <script src="js/maps-starts-kkp.js"></script>
     <script src="js/maps-starts-gs.js"></script>
+    <script src="js/maps-starts-2x2.js"></script>
+    <script src="js/maps-starts-orientir.js"></script>
+    <script src="js/maps-starts-schools.js"></script>
+    <script src="js/maps-starts-other.js"></script>
 
     <script src="js/welcome.js"></script>
     <script src="js/starts.js"></script>
@@ -150,6 +152,7 @@
         let mapsOnStore = false;
 
         let oMaps = [
+            ...otherStartsMaps,
             ...twotwoStartsMaps,
             ...orientirStartsMaps,
             ...gsStartsMaps,
@@ -162,8 +165,9 @@
             ...wnStartsMaps,
             ...naStartsMaps,
             ...serbiaMaps,
-            ...ryazanMaps,
             ...otherMaps,
+            ...samaraMaps,
+            ...ryazanMaps,
             ...moscowMaps,
             ...rogaineRfarMaps,
             ...rogaineBeketovMaps,

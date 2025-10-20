@@ -297,32 +297,6 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
-/*
-    {
-        name: 'Сестрорецк',
-        date: '2024-05',
-        url: './maps/rogaine/kkm/sestroretsk_KKM_2024_05.webp',
-        link: './original_maps/rogaine/kkm/sestroretsk_KKM_2024_05_omaps.jpg',
-        bounds: [[60.130820091007536, 29.91731643676758], [60.13124754338759, 30.013790130615238], [60.05935761134086, 29.91731643676758]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19207/',
-        start: 'KKM',
-        owner: 'RYZHOV',
-        type: ['ROGAINE']
-    },
-*/
-/*
-    {
-        name: 'Крестовский остров',
-        date: '2024-06',
-        url: './maps/rogaine/kkm/krestovsky_KKM_2024_06.webp',
-        link: './original_maps/rogaine/kkm/krestovsky_KKM_2024_06_omaps.jpg',
-        bounds: [[59.986065683681495, 30.188369750976566], [59.986237416917476, 30.273771286010746], [59.964377204056234, 30.188970565795902]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19609/',
-        start: 'KKM',
-        owner: 'RYZHOV',
-        type: ['ROGAINE']
-    },
-*/
     {
         name: 'Токсово, Осельки',
         date: '2024-08',
@@ -345,19 +319,6 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
-/*
-    {
-        name: 'Васильевский остров',
-        date: '2024-10',
-        url: './maps/rogaine/kkm/vasiljevsky_2024_10.webp',
-        link: './original_maps/rogaine/kkm/vasiljevsky_2024_10_omaps.jpg',
-        bounds: [[59.95896360641199, 30.220642089843754], [59.959006574955104, 30.308446884155277], [59.92792577181406, 30.21995544433594]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20694/',
-        start: 'KKM',
-        owner: 'RYZHOV',
-        type: ['ROGAINE']
-    },
-*/
     {
         name: 'Павловск',
         date: '2024-12',

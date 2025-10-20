@@ -122,6 +122,7 @@ if (mapElement) {
     setActiveBackground();
     if (START_NAME_PARAM) {
         switch (START_NAME_PARAM) {
+            case 'OTHER':
             case 'REPORT': activeLayers.push(otherGroup); break;
             case 'SCHOOL': activeLayers.push(schoolGroup); break;
             case 'WN': activeLayers.push(wnGroup); break;
@@ -146,7 +147,7 @@ if (mapElement) {
         }
     } else {
         activeLayers.push(
-            otherGroup, schoolGroup, wnGroup, naGroup, orientirGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup,
+            schoolGroup, wnGroup, naGroup, orientirGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup,
             twotwoGroup, volkovGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
             //...Object.values(ageGroups),
         );
@@ -208,6 +209,7 @@ function allocateMap(m) {
 
 function pushStartGroupToMap(start, m) {
     switch (start) {
+        case 'OTHER':
         case 'REPORT': pushGroupToMap(m, otherGroup); break;
         case 'SCHOOL': pushGroupToMap(m, schoolGroup); break;
         case 'WN': pushGroupToMap(m, wnGroup); break;

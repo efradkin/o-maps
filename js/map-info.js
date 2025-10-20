@@ -4,7 +4,7 @@ let elName = document.getElementById('map_name');
 if (elName) {
     elName.innerHTML = mapTitle(m, true, false);
 }
-if (m.start && starts[m.start] && ('REPORT' !== m.start)) {
+if (m.start && starts[m.start] && ('REPORT' !== m.start && 'OTHER' !== m.start)) {
     document.getElementById('map_start').innerHTML = starts[m.start].name;
 }
 if (m.info) {

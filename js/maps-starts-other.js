@@ -36,4 +36,78 @@ let otherStartsMaps = [
         bounds: [[60.54250897743518, 30.23574829101563], [60.53968080947751, 30.292267799377445], [60.50912506848012, 30.228023529052738]],
         author: 'TRSV'
     },
+
+    /* --- Рогейн --- */
+
+    {
+        name: 'Луга, оз Омчино',
+        year: 2024,
+        start: 'OTHER',
+        info: 'Лужский лыжный рогейн.',
+        url: './maps/rogaine/omchino_luzhski_2024.webp',
+        link: './original_maps/rogaine/omchino_luzhski_2024_omaps.gif',
+        bounds: [[58.73409386161734, 29.75131988525391], [58.72460404916333, 29.842386245727543], [58.68211323154789, 29.73183631896973]],
+        owner: 'SHBN',
+        type: ['ROGAINE','WINTER']
+    },
+    {
+        name: 'Луга, оз Омчино',
+        year: 2024,
+        start: 'OTHER',
+        info: 'Рогейн на Лужских берегах.',
+        url: './maps/rogaine/omchino_luzhsky_2024.webp',
+        link: './original_maps/rogaine/omchino_luzhsky_2024_omaps.gif',
+        bounds: [[58.7392609339061, 29.759130477905277], [58.72727749761397, 29.876804351806644], [58.686708127025476, 29.741020202636722]],
+        owner: 'SHBN',
+        type: ['ROGAINE']
+    },
+
+    /* --- ККМ --- */
+
+    {
+        name: 'Сестрорецк',
+        date: '2024-05',
+        url: './maps/rogaine/kkm/sestroretsk_KKM_2024_05.webp',
+        link: './original_maps/rogaine/kkm/sestroretsk_KKM_2024_05_omaps.jpg',
+        bounds: [[60.130820091007536, 29.91731643676758], [60.13124754338759, 30.013790130615238], [60.05935761134086, 29.91731643676758]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19207/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Крестовский остров',
+        date: '2024-06',
+        url: './maps/rogaine/kkm/krestovsky_KKM_2024_06.webp',
+        link: './original_maps/rogaine/kkm/krestovsky_KKM_2024_06_omaps.jpg',
+        bounds: [[59.986065683681495, 30.188369750976566], [59.986237416917476, 30.273771286010746], [59.964377204056234, 30.188970565795902]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19609/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Васильевский остров',
+        date: '2024-10',
+        url: './maps/rogaine/kkm/vasiljevsky_2024_10.webp',
+        link: './original_maps/rogaine/kkm/vasiljevsky_2024_10_omaps.jpg',
+        bounds: [[59.95896360641199, 30.220642089843754], [59.959006574955104, 30.308446884155277], [59.92792577181406, 30.21995544433594]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20694/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+
+    /* --- Бекетов --- */
+
+    {
+        name: 'Мельниково',
+        year: 2020,
+        url: './maps/rogaine/beketov/melnikovo_2020.webp',
+        link: './original_maps/rogaine/beketov/VMB20.jpg',
+        bounds: [[61.051140518044775, 29.28714752197266], [61.06243861375529, 29.71063613891602], [60.84884090341096, 29.31032180786133]],
+        owner: 'BKTV',
+        start: 'MB',
+        type: ['ROGAINE']
+    },
 ];
