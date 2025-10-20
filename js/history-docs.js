@@ -691,12 +691,26 @@ let historyDocs = [
         link: './docs/1989_11_26_zelenogorsk_omaps.pdf',
     },
     {
+        name: 'Ориентир-3 (Кузьмолово)',
+        date: '1990-04-22',
+        link: './docs/1990_04_22_orientir_3_omaps.pdf',
+        start: 'ORIENTIR',
+        planner: 'FDRV_L',
+        me: 'МА'
+    },
+    {
         name: 'Ориентир-9 (Юкки)',
         date: '1990-06-06',
         start: 'ORIENTIR',
         info: '<a href="./docs/1990_06_06_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1990_06_06_yukki/doc_2_omaps.gif">МБ</a>, <a href="./docs/1990_06_06_yukki/doc_3_omaps.gif">МС,Н</a>, <a href="./docs/1990_06_06_yukki/doc_4_omaps.gif">ЖА</a>, <a href="./docs/1990_06_06_yukki/doc_5_omaps.gif">ЖБ,ЖС</a>',
         links: ['1990_06_06_yukki', 5, 'gif'],
         me: 'МА'
+    },
+    {
+        name: 'Зелёный змей (Лемболово)',
+        date: '1990-08-26',
+        link: './docs/1990_08_26_green_snake_omaps.pdf',
+        start: 'GS',
     },
     {
         name: '"Дыхание осени" на День Конституции СССР',
