@@ -1681,12 +1681,13 @@ let events_2025 =
         map: 'kudrovo_evropy_2024'
     }, {
         date: '2025-10-18',
-        endDate: '2025-10-19',
         place: 'Заовражные оз',
         name: 'Осенний марш-бросок',
         type: 'TOURISM', // марш-бросок
         link:  ['https://t.me/pmarshbrosok','https://vk.com/mbrosok'],
         reg: 'https://orgeo.ru/event/44894',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23725/',
+        photo: 'https://disk.yandex.ru/d/S-rlnWSUiro4og',
         start: 'MB'
     }, {
         date: '2025-10-19',

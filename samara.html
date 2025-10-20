@@ -1,10 +1,10 @@
-﻿ <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>o-Maps: карты СПб</title>
-    <meta name="description" content="Карты? Найдутся все! Спортивные карты Санкт-Петербурга в наглядной форме с фильтрацией и описанием.">
+    <title>o-Maps: карты Рязани</title>
+    <meta name="description" content="Карты? Найдутся все! Спортивные карты Самары в наглядной форме с фильтрацией и описанием.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -23,10 +23,10 @@
 
     <script src="js/ext/bootstrap.min.js"></script>
 
-    <meta property="og:title" content="o-Maps: карты СПб">
+    <meta property="og:title" content="o-Maps: карты Самары">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга в наглядной форме с фильтрацией и описанием.">
+    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Самары в наглядной форме с фильтрацией и описанием.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <!-- Yandex.Metrika counter -->
@@ -52,17 +52,19 @@
 
     <noscript>
         <div id="noscript_content">
-            <h1>O-maps. Карты на карте ◪ <br/> Спортивные карты Санкт-Петербурга.</h1>
+            <h1>O-maps. Карты на карте ◪ <br/> Спортивные карты Рязани.</h1>
 
             <h2>Карта сайта:</h2>
             <ul>
                 <li><a href="spb.html"><h3>Спортивные карты Санкт-Петербурга.</h3></a></li>
                 <li><a href="moscow.html"><h3>Спортивные карты Москвы.</h3></a></li>
+                <li><a href="serbia.html"><h3>Спортивные карты Белграда.</h3></a></li>
                 <li><a href="all.html"><h3>Спортивные карты Санкт-Петербурга и Москвы с областями.</h3></a></li>
                 <li><a href="starts.html"><h3>Карты, показывающие районы и дистанции многодневок (Невский Азимут, Яркий Мир,
                     ККП, ММС) и серий стартов (Спринт-Тур, RFAR, 100х24) хронологически.</h3></a></li>
                 <li><a href="charts-spb.html"><h3>Статистика карт Санкт-Петербурга.</h3></a></li>
                 <li><a href="charts-moscow.html"><h3>Статистика карт Москвы.</h3></a></li>
+                <li><a href="charts-serbia.html"><h3>Статистика карт Белграда.</h3></a></li>
                 <li><a href="charts-all.html"><h3>Статистика карт Санкт-Петербурга и Москвы с областями.</h3></a></li>
             </ul>
 
@@ -98,16 +100,15 @@
     <select id="map_region_selector" onchange="selectMapRegion(this.value)">
         <option value="index">Начальная страница</option>
         <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-        <option value="spb" selected>Санкт-Петербург</option>
+        <option value="spb">Санкт-Петербург</option>
         <option value="msk">Москва</option>
         <option value="rzn">Рязань</option>
-        <option value="smr">Самара</option>
+        <option value="smr" selected>Самара</option>
         <option value="srb">Белград</option>
         <option value="all">Все регионы вместе</option>
         <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
         <option value="starts">Старты на карте</option>
         <option value="tracks">Маршруты</option>
-        <option value="calendar">Календарь о-стартов</option>
     </select>
     <img id="spinner" src="images/plant.gif" alt="" />
     <div id="counter"></div>
@@ -130,71 +131,27 @@
     <script src="js/ext/Leaflet.FileLayer/togeojson.js"></script>
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
-    <script src="js/ext/GPX.js"></script>
 
-    <script src="js/maps-starts-schools.js"></script>
-    <script src="js/maps-city.js"></script>
-    <script src="js/maps-parks.js"></script>
-    <script src="js/maps-forest.js"></script>
-    <script src="js/maps-forest-vsevolozhsk.js"></script>
-    <script src="js/maps-forest-south.js"></script>
-    <script src="js/maps-forest-priozersk.js"></script>
-    <script src="js/maps-forest-zelik.js"></script>
-    <script src="js/maps-forest-toksovo.js"></script>
-    <script src="js/maps-forest-sosnovo.js"></script>
-    <script src="js/maps-forest-michura.js"></script>
-    <script src="js/maps-forest-vaskelovo.js"></script>
-    <script src="js/maps-forest-vyborg.js"></script>
-    <script src="js/maps-special.js"></script>
-    <script src="js/maps-fun.js"></script>
-    <script src="js/maps-rogaine.js"></script>
-    <script src="js/maps-rogaine-beketov.js"></script>
-    <script src="js/maps-rogaine-kkm.js"></script>
-    <script src="js/maps-rogaine-rfar.js"></script>
-
-    <script src="js/tracks-run.js"></script>
-    <script src="js/tracks-ski.js"></script>
-    <script src="js/tracks.js"></script>
+    <script src="js/maps-samara.js"></script>
 
     <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
     <script src="js/owners.js"></script>
-    <script src="js/planners.js"></script>
     <script src="js/welcome.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/utils-common.js"></script>
 
     <script>
-        const centerX = 59.93325843615562;
-        const centerY = 30.338916778564457;
-        const CHARTS_PAGE = './charts-spb.html';
-        const SHEET_PAGE = './sheet-spb.html';
-        const REGION_KEY = 'spb';
+        const centerX = 53.195878;
+        const centerY = 50.100202;
+        const CHARTS_PAGE = './charts-samara.html';
+        const SHEET_PAGE = './sheet-samara.html';
+        const REGION_KEY = 'smr';
 
         let loadImagesRequired = true;
-        let loadTracksRequired = false;
-        let funsRequired = true;
 
         let oMaps = [
-            ...rogaineRfarMaps,
-            ...rogaineBeketovMaps,
-            ...rogaineKkmMaps,
-            ...rogaineMaps,
-            ...funMaps,
-            ...specialMaps,
-            ...forestMaps,
-            ...vsevolozhskMaps,
-            ...southMaps,
-            ...priozerskMaps,
-            ...zelikMaps,
-            ...vyborgMaps,
-            ...sosnovoMaps,
-            ...michuraMaps,
-            ...vaskelovoMaps,
-            ...toksovoMaps,
-            ...parkMaps,
-            ...cityMaps,
-            ...schoolMaps,
+            ...samaraMaps,
         ];
     </script>
 

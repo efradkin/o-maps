@@ -1593,6 +1593,7 @@ let cityMaps = [
         name: 'Выборг, Интендантская гора',
         url: './maps/city/vyborg_intendantskaja_gora.webp',
         bounds: [[60.70828304787419, 28.740448951721195], [60.70826205126157, 28.756370544433597], [60.6982661064393, 28.73959064483643]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23708/',
         type: ['CITY'],
         author: 'MSPN',
         owner: 'VYBORG'

@@ -428,6 +428,12 @@ let owners = {
         name: '© Шибанов Владимир'
     },
 
+    /* --- Самара --- */
+
+    ZNVJV_A: {
+        name: 'По вопросам использования карты обращайтесь к Артёму Зиновьеву (<a href="mailto:artemzinovuv@gmail.com">artemzinovuv@gmail.com</a>, <a href="vk.com/artemzinovuv">ВК</a>).',
+        logo: 'samara.webp'
+    },
 
     /* --- Прочее --- */
 

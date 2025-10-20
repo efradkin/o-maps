@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.83">
-    <title>o-Maps: Диаграммы и статистика по СПб</title>
-    <meta name="description" content="Карты? Найдутся все! Диаграммы и статистика по Санкт-Петербургу.">
+    <title>o-Maps: Диаграммы и статистика по Самаре</title>
+    <meta name="description" content="Карты? Найдутся все! Диаграммы и статистика по Самаре.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css"/>
 
-    <meta property="og:title" content="o-Maps: Диаграммы и статистика по СПб">
+    <meta property="og:title" content="o-Maps: Диаграммы и статистика по Самаре">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга. Диаграммы и статистика.">
+    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Самаре. Диаграммы и статистика.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <script src="./js/ext/chart-4.4.8.js"></script>
@@ -41,15 +41,15 @@
 <body class="stat-body">
     <h1>
          <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
-        <a href="spb.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+        <a href="samara.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
         <select class="header_selector" onchange="selectMapRegion(this.value, 'charts')">
             <option value="index">Начальная страница</option>
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="spb" selected>Санкт-Петербург</option>
+            <option value="spb">Санкт-Петербург</option>
             <option value="msk">Москва</option>
             <option value="rzn">Рязань</option>
-            <option value="smr">Самара</option>
+            <option value="smr" selected>Самара</option>
             <option value="srb">Белград</option>
             <option value="all">Все регионы вместе</option>
         </select>
@@ -60,7 +60,7 @@
     <div class="chart-container">
         <canvas id="map_type_chart"></canvas>
     </div>
-    <p><strong>Всего карт: <span id="total_maps"></span> <sup>⚹⚹</sup></strong></p>
+    <p><strong>Всего карт: <span id="total_maps"></span></strong></p>
 
     <br /><br />
 
@@ -83,7 +83,7 @@
 
     <div class="chart-container">
         <div class="o-sheet-roof">
-            <a href="#" onclick="downloadSheetTable('o-authors-spb.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+            <a href="#" onclick="downloadSheetTable('o-authors-samara.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
         </div>
         <table class="o-main-table">
             <thead>
@@ -95,11 +95,10 @@
             </thead>
         </table>
 
-        <p class="stat_result_article">Количество карт, <a href="spb.html?only-wo-author">где автор не указан</a>: <span id="no_authors_quantity"></span>.</p>
+        <p class="stat_result_article">Количество карт, <a href="samara.html?only-wo-author">где автор не указан</a>: <span id="no_authors_quantity"></span>.</p>
 
         <hr />
-        <p class="stat_result_article" style="text-align: left"><sup>⚹</sup> Площадь большинства карт высчитывается, исходя из координат листа карты. Для компенсации того, что реальная карта практически всегда меньше, введён понижающий коэффициент 70%. Площадь некоторых (в основном, крупных) карт указана вручную.</p>
-        <p class="stat_result_article" style="text-align: left"><sup>⚹⚹</sup> Эта статистика не включает большинство карт, расположенных в разделе "Старты на карте", а также зимние, вело- и рельефные карты.</p>
+        <p class="stat_result_article" style="text-align: left"><sup>⚹</sup> Площадь большинства карт высчитывается, исходя из координат листа карты. Для компенсации того, что реальная карта практически всегда меньше, введён понижающий коэффициент 70%.</p>
     </div>
 
     <script src="js/ext/jquery.slim.min.js"></script>
@@ -108,25 +107,7 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
-    <script src="js/maps-starts-schools.js"></script>
-    <script src="js/maps-city.js"></script>
-    <script src="js/maps-parks.js"></script>
-    <script src="js/maps-forest.js"></script>
-    <script src="js/maps-forest-vsevolozhsk.js"></script>
-    <script src="js/maps-forest-south.js"></script>
-    <script src="js/maps-forest-priozersk.js"></script>
-    <script src="js/maps-forest-zelik.js"></script>
-    <script src="js/maps-forest-toksovo.js"></script>
-    <script src="js/maps-forest-sosnovo.js"></script>
-    <script src="js/maps-forest-michura.js"></script>
-    <script src="js/maps-forest-vaskelovo.js"></script>
-    <script src="js/maps-forest-vyborg.js"></script>
-    <script src="js/maps-special.js"></script>
-    <script src="js/maps-fun.js"></script>
-    <script src="js/maps-rogaine.js"></script>
-    <script src="js/maps-rogaine-beketov.js"></script>
-    <script src="js/maps-rogaine-kkm.js"></script>
-    <script src="js/maps-rogaine-rfar.js"></script>
+    <script src="js/maps-samara.js"></script>
 
     <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
@@ -138,25 +119,7 @@
         let loadImagesRequired = false;
 
         let oMaps = [
-            ...rogaineRfarMaps,
-            ...rogaineBeketovMaps,
-            ...rogaineKkmMaps,
-            ...rogaineMaps,
-            ...funMaps,
-            ...specialMaps,
-            ...forestMaps,
-            ...vsevolozhskMaps,
-            ...southMaps,
-            ...priozerskMaps,
-            ...zelikMaps,
-            ...vyborgMaps,
-            ...sosnovoMaps,
-            ...michuraMaps,
-            ...vaskelovoMaps,
-            ...toksovoMaps,
-            ...parkMaps,
-            ...cityMaps,
-            ...schoolMaps,
+            ...samaraMaps,
         ];
         filterMapsForCharts();
     </script>

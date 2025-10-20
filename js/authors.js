@@ -379,7 +379,7 @@ let authors = {
     },
     TRFMV_A: { name: 'Трофимов Александр' },
     TRFMV_G: { name: 'Трофимов Герман' },
-    TRNV_V: { name: 'Трунов В.' },
+    TRNV_V: { name: 'Трунов Виктор' },
     TRNTV_V: {
         name: 'Терентьев Валерий',
         about: 'https://o-site.spb.ru/history/Peoples/valter.html'
@@ -395,7 +395,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/vgu.html'
     },
     USHNV: { name: 'Ушанов В.' },
-    USNKO: { name: 'Усенко С.' },
+    USNKO: { name: 'Усенко Сергей' },
     VRBJV_S: { name: 'Воробьёв Сергей' },
     VRBY: {
         name: 'Воробей Сергей', //Валерьянович
@@ -678,6 +678,17 @@ let authors = {
     SHIBANOV_A: { name: 'Шибанов Александр' },
     SHIBANOV_V: { name: 'Шибанов Владимир' },
 
+    /* --- САМАРА --- */
+
+    CHRMNCH: { name: 'Черемных Александр' },
+    KYKV: { name: 'Каюков Илья' },
+    KSKV_A: { name: 'Каськов А.' },
+    MLNTV: { name: 'Мелентьев В.' },
+    PPV_E: { name: 'Попов Евгений' },
+    PRKPCHK: { name: 'Прокопчук Вадим' },
+    VLKV_E: { name: 'Волков Егор' },
+    ZNVJV_A: { name: 'Зиновьев Артём' },
+
     /* --- ОРЕНБУРГ --- */
 
     STPNV_P: { name: 'Степанов Пётр' },
@@ -698,6 +709,6 @@ let authors = {
     PJKO: { name: 'Мргуд Паjко' },
     BNKVCH: { name: 'Алекса Банковић' },
     RDVNVCH: { name: 'Слободан Радовановић' },
-    STVNVCH_ML: { name: 'Миле Стевановић ' },
+    STVNVCH_ML: { name: 'Миле Стевановић' },
 };
 
