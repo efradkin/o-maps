@@ -101,11 +101,33 @@ let otherStartsMaps = [
     /* --- Бекетов --- */
 
     {
-        name: 'Мельниково',
-        year: 2020,
+        name: '78 км',
+        date: '2018-10-06',
+        url: './maps/rogaine/beketov/78km_michura_mb_2018.webp',
+        link: ['https://viewer.o-gps-center.ru/newmaps/map_3421_332d7c8ff45b7a653f959cb1d1fe196f.jpeg','https://kandid.ru/maps18/OMB18_2.jpg','https://kandid.ru/maps18/OMB18_1.jpg'],
+        bounds: [[60.64053971464434, 29.664802551269535], [60.65198390153074, 30.17532348632813], [60.54740492267005, 29.673042297363285]],
+        gps: ['https://viewer.o-gps-center.ru/viewer/event/4505/','https://viewer.o-gps-center.ru/viewer/event/4506/'],
+        owner: 'BKTV',
+        start: 'MB',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Мельниково, Студёное',
+        date: '2020-05-09',
         url: './maps/rogaine/beketov/melnikovo_2020.webp',
         link: './original_maps/rogaine/beketov/VMB20.jpg',
         bounds: [[61.051140518044775, 29.28714752197266], [61.06243861375529, 29.71063613891602], [60.84884090341096, 29.31032180786133]],
+        owner: 'BKTV',
+        start: 'MB',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Яппиля, Заовражные оз',
+        date: '2025-10-18',
+        url: './maps/rogaine/beketov/yappilya_mb_2025.webp',
+        link: 'https://viewer.o-gps-center.ru/newmaps/map_19854_f38c21d538e0f91b382ae6333ba7b9eb.jpeg',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23725/',
+        bounds: [[60.31980856041393, 28.889236450195316], [60.31402807870999, 29.24423217773438], [60.202810147156775, 28.882713317871097]],
         owner: 'BKTV',
         start: 'MB',
         type: ['ROGAINE']

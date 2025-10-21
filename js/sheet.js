@@ -1,4 +1,7 @@
 
+let hasAuthors = false;
+let hasPlanners = false;
+
 window.onload = function() {
 
     oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
@@ -17,10 +20,21 @@ window.onload = function() {
     // Изначальный рендеринг таблицы
     renderMapsTable();
 
+    if (START_NAME_PARAM && !isDocumentsPage()) {
+        if (!hasAuthors) {
+            document.querySelector('.o-sheet th:nth-child(9)').innerHTML = '&nbsp;';
+            document.querySelector('.o-sheet th:nth-child(9)').style.maxWidth = 0;
+            document.querySelector('.o-sheet td:nth-child(9)').style.maxWidth = 0;
+        }
+        if (!hasPlanners) {
+            document.querySelector('.o-sheet th:nth-child(10)').innerHTML = '&nbsp;';
+            document.querySelector('.o-sheet th:nth-child(10)').style.maxWidth = 0;
+            document.querySelector('.o-sheet td:nth-child(10)').style.maxWidth = 0;
+        }
+    }
     if (START_NAME_PARAM || isDocumentsPage()) {
         document.querySelector('.o-sheet').classList.add("start-sheet");
         let yearTH = document.getElementById('year-column');
-        yearTH.click();
         yearTH.click();
     }
 }
@@ -74,10 +88,18 @@ function renderMapsTable() {
                 td(m, row, buildGpsLinks(m));
             }
         }
-        td(m, row, buildAuthors(m, true));
+        let authors = buildAuthors(m, true);
+        if (authors) {
+            hasAuthors = true;
+        }
+        td(m, row, authors);
         if (!mapsOnStore) {
             if (!isDocumentsPage()) {
-                td(m, row, buildPlanners(m));
+                let planners = buildPlanners(m);
+                if (planners) {
+                    hasPlanners = true;
+                }
+                td(m, row, planners);
                 td(m, row, buildOwners(m, true));
                 td(m, row, getTypesList(m));
             }
@@ -157,7 +179,7 @@ function oneStart(s) {
     let result = '', start = starts[s];
     if (start) {
         if (start.logo) {
-            result += '<img src="./logo/' + start.logo + '" alt="" class="sheet-icon" /> ';
+            result += '<img src="./logo/' + start.logo + '" alt="" class="sheet-icon" />&nbsp;';
         }
         result += start.name;
     }

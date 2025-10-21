@@ -3,10 +3,11 @@ let rogaineBeketovMaps = [
     // --- рогейн ---
     {
         name: '78 км',
-        year: 2021,
+        date: '2020-10-03',
         url: './maps/rogaine/beketov/78km.webp',
         link: './original_maps/rogaine/beketov/78km.jpg',
         bounds: [[60.68007223452519, 30.020828247070316], [60.69015786886322, 30.436592102050785], [60.540060727006335, 30.037651062011722]],
+        gps: ['https://viewer.o-gps-center.ru/viewer/event/8281/','https://viewer.o-gps-center.ru/viewer/event/8283/'],
         owner: 'BKTV',
         start: 'MB',
         type: ['ROGAINE']
@@ -49,7 +50,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Кузнечное',
-        year: 2021,
+        date: '2023-05-13',
         url: './maps/rogaine/beketov/kuznechnoe.webp',
         link: './original_maps/rogaine/beketov/kuznechnoe.jpg',
         bounds: [[61.25389075952261, 29.516487121582035], [61.26132000895963, 29.839210510253906], [61.116961670809445, 29.530391693115238]],
@@ -59,17 +60,18 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Оять',
-        year: 2021,
+        date: '2021-05-09',
         url: './maps/rogaine/beketov/ojat.webp',
         link: './original_maps/rogaine/beketov/ojat.jpg',
         bounds: [[60.4903803750114, 33.1344223022461], [60.48801274327637, 33.73695373535157], [60.3750115533182, 33.13339233398438]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/9883/',
         owner: 'BKTV',
         start: 'MB',
         type: ['ROGAINE']
     },
     {
         name: 'Орехово',
-        year: 2024,
+        date: '2024-10-12',
         url: './maps/rogaine/beketov/orekhovo.webp',
         link: './original_maps/rogaine/beketov/Orehovo_new.jpg',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20849/',
@@ -101,7 +103,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Боровинка',
-        year: 2016,
+        date: '2016-09-24',
         url: './maps/rogaine/beketov/borovinka_2012.webp',
         link: './original_maps/rogaine/beketov/omb2016.jpg',
         bounds: [[61.12409167912034, 29.086132049560547], [61.129396687868706, 29.24869537353516], [60.960943925313465, 29.10415649414063]],
@@ -111,7 +113,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Каменногорск',
-        year: 2022,
+        date: '2022-05-21',
         url: './maps/rogaine/beketov/kamennogorsk_2022.webp',
         link: './original_maps/rogaine/beketov/vmb22.jpg',
         bounds: [[61.09796810490464, 29.045104980468754], [61.10792248808013, 29.33830261230469], [60.940939539862185, 29.06639099121094]],
@@ -121,7 +123,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Лосево',
-        year: 2012,
+        date: '2012-09-29',
         url: './maps/rogaine/beketov/losevo_2012.webp',
         link: './original_maps/rogaine/beketov/map_omb12.gif',
         bounds: [[60.9247601360644, 29.632530212402344], [60.916583909979266, 30.024948120117188], [60.67216961239084, 29.60849761962891]],
@@ -182,10 +184,11 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Выборг',
-        year: 2019,
+        date: '2019-05-18',
         url: './maps/rogaine/beketov/vyborg_2019.webp',
         link: './original_maps/rogaine/beketov/zavyborgVMB19.jpg',
         bounds: [[60.84758659536134, 28.363952636718754], [60.92759629574196, 28.561019897460938], [60.70931186508957, 28.601875305175785]],
+        gps: ['https://viewer.o-gps-center.ru/viewer/event/5748/','https://viewer.o-gps-center.ru/viewer/event/5749/'],
         owner: 'BKTV',
         start: 'MB',
         type: ['ROGAINE']
@@ -211,7 +214,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Рощино',
-        year: 2012,
+        date: '2012-05-13',
         url: './maps/rogaine/beketov/roschino_2012.webp',
         link: './original_maps/rogaine/beketov/roschino_2012_omaps.jpg',
         bounds: [[60.3451286072627, 29.34757232666016], [60.34461900141174, 29.740676879882816], [60.20451618136672, 29.34654235839844]],
@@ -241,7 +244,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Калинино',
-        year: 2015,
+        date: '2015-05-30',
         url: './maps/rogaine/beketov/kalinino_2015.webp',
         link: './original_maps/rogaine/beketov/vmb2015_course.jpg',
         bounds: [[60.82382907162246, 28.449783325195312], [60.8218205845858, 28.669509887695316], [60.666872088022984, 28.443260192871097]],
@@ -251,7 +254,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Гвардейское',
-        year: 2022,
+        date: '2022-10-08',
         url: './maps/rogaine/beketov/gvardeyskoe_mb_2022.webp',
         link: './original_maps/rogaine/beketov/gvardeyskoe_mb_2022_omaps.jpg',
         bounds: [[60.82625582522466, 28.98502349853516], [60.821151060885214, 29.31735992431641], [60.72417354891303, 28.97850036621094]],
@@ -291,7 +294,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Гаврилово',
-        year: 2018,
+        date: '2018-05-19',
         hidden: true,
         info: 'Бобочинский полигон.',
         url: './maps/rogaine/beketov/gavrilovo.webp',
@@ -315,7 +318,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Елизаветинка-Огоньки',
-        year: 2010,
+        date: '2010-05-22',
         hidden: true,
         info: 'Инженерно-испытательный полигон.',
         url: './maps/rogaine/beketov/elizavetinka_ogonki_2010.webp',
@@ -338,7 +341,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Бородинское',
-        year: 2025,
+        date: '2025-05-24',
         url: './maps/rogaine/beketov/borodinskoe_mb_2025.webp',
         link: ['./original_maps/rogaine/beketov/borodinskoe_mb_2025_1_omaps.gif','./original_maps/rogaine/beketov/borodinskoe_mb_2025_2_omaps.gif'],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22700/',
