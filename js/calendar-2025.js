@@ -1717,6 +1717,7 @@ let events_2025 =
         place: 'Парк Лесотехнической академии',
         name: 'Длительная серия №8',
         type: 'ORIENT',
+        link: 'https://t.me/dlitelnyy/340',
         reg: 'https://orgeo.ru/event/47226',
         owner: 'DLT'
     }, {

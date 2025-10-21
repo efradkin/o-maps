@@ -180,6 +180,16 @@ let specialMaps = [
         type: ['VELO']
     },
     {
+        name: 'Университет',
+        year: 2025,
+        url: './maps/velo/univer_velo_2025.webp',
+        link: './original_maps/velo/univer_velo_2025_omaps.gif',
+        bounds: [[59.90008739676608, 29.824340343475345], [59.89543822235865, 29.860410690307617], [59.88723600894675, 29.81751680374146]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
         name: 'Солнечное',
         year: 2023,
         url: './maps/velo/solnechnoe_velo_2021.webp',
@@ -221,12 +231,122 @@ let specialMaps = [
         type: ['VELO']
     },
     {
+        name: 'парк 9 Января',
+        year: 2025,
+        url: './maps/velo/9_janvarya_velo_2025.webp',
+        link: './original_maps/velo/9_janvarya_velo_2025_omaps.jpg',
+        bounds: [[59.89576110271853, 30.274329185485843], [59.89502923606423, 30.281978845596317], [59.89044393980611, 30.272719860076904]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
+        name: 'Екатерингоф',
+        year: 2025,
+        url: './maps/velo/ekateringof_velo_2025.webp',
+        link: './original_maps/velo/ekateringof_velo_2025_omaps.gif',
+        bounds: [[59.90728587583638, 30.25321483612061], [59.90558592735157, 30.27020931243897], [59.90035642629262, 30.25068283081055]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
+        name: 'Александрино, север',
+        year: 2022,
+        url: './maps/velo/aleksandrino_velo_2022.webp',
+        link: './original_maps/velo/aleksandrino_velo_2022_omaps.gif',
+        bounds: [[59.847250853534426, 30.21476268768311], [59.84578496709652, 30.232336521148685], [59.83585619883127, 30.211350917816166]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
+        name: 'Сестрорецк, Детские Дюны',
+        year: 2025,
+        url: './maps/velo/sestroretsk_detskie_djuny_velo_2025.webp',
+        link: './original_maps/velo/sestroretsk_detskie_djuny_velo_2025_omaps.gif',
+        bounds: [[60.12348841843245, 29.95630502700806], [60.1213826653873, 29.974629878997806], [60.11661482826964, 29.953000545501713]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
+        name: 'Сестрорецк, Дюны',
+        year: 2025,
+        url: './maps/velo/sestroretsk_djuny_velo_2025.webp',
+        link: './original_maps/velo/sestroretsk_djuny_velo_2025_omaps.gif',
+        bounds: [[60.12987967622557, 29.938688278198246], [60.12743233451537, 29.958922863006595], [60.12290587586561, 29.935201406478885]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
+        name: 'Сестрорецк, Ржавая канава',
+        year: 2025,
+        url: './maps/velo/sestroretsk_rzhava_kanava_velo_2025.webp',
+        link: './original_maps/velo/sestroretsk_rzhava_kanava_velo_2025_omaps.gif',
+        bounds: [[60.12842625506228, 29.952421188354496], [60.12647044734001, 29.967420101165775], [60.12307155415851, 29.94956731796265]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
+        name: 'Сестрорецк, КаУР',
+        year: 2024,
+        url: './maps/velo/sestroretsk_kaur_velo_2024.webp',
+        link: './original_maps/velo/sestroretsk_kaur_velo_2024_omaps.gif',
+        bounds: [[60.12027094447475, 29.969211816787723], [60.119891454221886, 29.975091218948368], [60.112899498985506, 29.965628385543827]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
+        name: 'Сестрорецк, парк Дубки',
+        year: 2024,
+        url: './maps/velo/sestroretsk_dubki_velo_2024.webp',
+        link: './original_maps/velo/sestroretsk_dubki_velo_2024_omaps.gif',
+        bounds: [[60.09575009522165, 29.922487735748295], [60.092952510609145, 29.9458122253418], [60.08796120105735, 29.91858243942261]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
+        name: 'Песочная',
+        year: 2019,
+        url: './maps/velo/pesochnaya_velo_2019.webp',
+        link: './original_maps/velo/pesochnaya_velo_2019_omaps.gif',
+        bounds: [[60.12374494766924, 30.11112213134766], [60.11985403945298, 30.16253471374512], [60.106873894040845, 30.106444358825687]],
+        author: ['VSLVSKY','DRBSHV','SHKLV','MTRNCHV'],
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
+        name: 'Зеленогорск, Чёрные оз',
+        year: 2025,
+        url: './maps/velo/zelenogorsk_chernye_velo_2025.webp',
+        link: './original_maps/velo/zelenogorsk_chernye_velo_2025_omaps.gif',
+        bounds: [[60.23736135674902, 29.759602546691898], [60.22817825282511, 29.836893081665043], [60.21087037813742, 29.747157096862797]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
+        type: ['VELO']
+    },
+    {
         name: 'Пухтолова гора',
         year: 2009, //Реально более ранняя
         url: './maps/velo/pukhtolova_gora_velo.webp',
         link: './original_maps/velo/pukhtolova_gora_velo_omaps.jpg',
         bounds: [[60.25603921789568, 29.63441848754883], [60.251354780368175, 29.691495895385746], [60.228732294909875, 29.625320434570316]],
         author: ['BLZRV_V','URVNTSV','NKFRV_A'],
+        type: ['VELO']
+    },
+    {
+        name: 'Пухтолова гора',
+        year: 2024,
+        url: './maps/velo/pukhtolova_gora_velo_2024.webp',
+        link: './original_maps/velo/pukhtolova_gora_velo_2024_omaps.gif',
+        bounds: [[60.257082478633, 29.637336730957035], [60.250140975871716, 29.691238403320316], [60.228774913143845, 29.6237325668335]],
+        author: 'MTRNCHV',
+        owner: 'MTRNCHV',
         type: ['VELO']
     },
     {
