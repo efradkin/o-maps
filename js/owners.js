@@ -1,7 +1,7 @@
 let owners = {
     ANCHKV: {
         name: '© СШОР №2 ГБНОУ "СПб ГДТЮ"',
-        logo: 'anichkov.jpg'
+        logo: 'sdjushor2.jpg'
     },
     BBCH_A: {
         name: '© Бибич Андрей - <a href="https://vk.com/id7840054">ВК</a> или <a href="https://t.me/andy_atta">Telegram</a>.'
@@ -88,6 +88,10 @@ let owners = {
         name: '© <a href="https://vk.com/id18529372">Сергей Рыжов</a>.',
         logo: 'kkm.gif',
         rogaine: true
+    },
+    KARTA: {
+        name: '© Клуб "Карта" Санкт-Петербургского дворца творчества юных',
+        logo: 'anichkov.gif'
     },
     KP31: {
         name: 'Контакты правообладателя (КП31): controlpoint31@gmail.com.',

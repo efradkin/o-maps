@@ -250,7 +250,7 @@ let wnStartsMaps = [
         link: './original_maps/starts/wn/wn_2023_06_30_omaps.jpg',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/16673/',
         bounds: [[60.60388678273997, 30.207853317260746], [60.59965248684091, 30.257806777954105], [60.58641936661552, 30.202488899230957]],
-        author: ['MKHLV_A','SBLV'],
+        author: ['MKHLV_A','SBLV_S'],
         zindex: 2
     },
     {
@@ -263,7 +263,7 @@ let wnStartsMaps = [
         link: './original_maps/starts/wn/wn_2023_07_01_omaps.jpg',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/16701/',
         bounds: [[60.62519728907414, 30.19746780395508], [60.622207928563185, 30.233345031738285], [60.603023115730856, 30.190644264221195]],
-        author: ['MKHLV_A','SBLV'],
+        author: ['MKHLV_A','SBLV_S'],
         zindex: 2
     },
     {
@@ -276,7 +276,7 @@ let wnStartsMaps = [
         link: './original_maps/starts/wn/wn_2023_07_02_omaps.jpg',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/16699/',
         bounds: [[60.62163949767975, 30.21403312683106], [60.618986687770374, 30.24415969848633], [60.59640792414513, 30.205621719360355]],
-        author: ['MKHLV_A','SBLV'],
+        author: ['MKHLV_A','SBLV_S'],
         zindex: 2
     },
     {
@@ -301,7 +301,7 @@ let wnStartsMaps = [
         link: './original_maps/starts/wn/wn_2024_06_29_omaps.jpg',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19933/',
         bounds: [[60.917460034557806, 30.294971466064457], [60.91357987141545, 30.34209251403809], [60.89980773796113, 30.288791656494144]],
-        author: ['MKHLV_A','SLBDNK','SBLV','USNKO']
+        author: ['MKHLV_A','SLBDNK','SBLV_S','USNKO']
     },
     {
         name: 'Воробьёво оз',

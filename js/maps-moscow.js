@@ -4382,7 +4382,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/friazino_2020.webp',
         link: './original_maps/moscow/ak/friazino_2020_omaps.jpg',
         bounds: [[55.94278341759328, 38.04599761962891], [55.938072570369755, 38.08101654052735], [55.92641316384271, 38.04286479949952]],
-        author: ['SBLV','RMNV_A'],
+        author: ['SBLV_S','RMNV_A'],
         owner: 'FRZNO'
     },
     {

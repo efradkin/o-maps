@@ -529,7 +529,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2023_06_25.webp',
         link: './original_maps/starts/mms/mms_2023_06_25.jpg',
         bounds: [[60.623997367789364, 30.201673507690433], [60.62117632436825, 30.23643493652344], [60.59771421586861, 30.192918777465824]],
-        author: ['MKHLV_A','SBLV'],
+        author: ['MKHLV_A','SBLV_S'],
         planner: 'TSVTKV_D'
     },
     {
@@ -541,7 +541,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2023_06_24.webp',
         link: './original_maps/starts/mms/mms_2023_06_24.jpg',
         bounds: [[60.610374079049734, 30.20776748657227], [60.60643551894273, 30.253987312316898], [60.594827661910934, 30.20274639129639]],
-        author: ['MKHLV_A','SBLV'],
+        author: ['MKHLV_A','SBLV_S'],
         planner: 'TSVTKV_D'
     },
     {
@@ -553,7 +553,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2023_06_23.webp',
         link: './original_maps/starts/mms/mms_2023_06_23.jpg',
         bounds: [[60.60074797983218, 30.216608047485355], [60.597419251389205, 30.25591850280762], [60.58523907981065, 30.21128654479981]],
-        author: ['MKHLV_A','SBLV'],
+        author: ['MKHLV_A','SBLV_S'],
         planner: 'TSVTKV_D'
     },
     {

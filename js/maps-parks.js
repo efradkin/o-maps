@@ -42,6 +42,16 @@ let parkMaps = [
     },
     {
         name: 'Парк Победы',
+        year: 1998,
+        url: './maps/parks/pobedy_1998.webp',
+        link: './original_maps/parks/pobedy_1998_omaps.jpg',
+        bounds: [[59.87189178926781, 30.320699214935303], [59.8718810189072, 30.336964130401615], [59.86423318226671, 30.32059192657471]],
+        author: ['SBLV_A','PRKHMNKO','JKBV'],
+        owner: 'KARTA',
+        type: ['PARK']
+    },
+    {
+        name: 'Парк Победы',
         year: 2020,
         info: 'Фото-квест по парку.',
         url: './maps/parks/pobedy_2020.webp',
@@ -77,6 +87,16 @@ let parkMaps = [
         link: './original_maps/parks/ekateringof_1986_omaps.jpg',
         bounds: [[59.906952348502685, 30.255017280578617], [59.90583339361939, 30.27119636535645], [59.90037794856062, 30.253279209136966]],
         author: 'CHGRVSKY_V',
+        type: ['PARK']
+    },
+    {
+        name: 'Парк Екатерингоф',
+        year: 1998,
+        url: './maps/parks/ekateringof_1998.webp',
+        link: './original_maps/parks/ekateringof_1998_omaps.jpg',
+        bounds: [[59.90647894911544, 30.251111984252933], [59.906565022233316, 30.268878936767578], [59.8999797843453, 30.251283645629886]],
+        author: ['MLN_S','PRKHMNKO'],
+        owner: 'KARTA',
         type: ['PARK']
     },
     {
@@ -185,6 +205,16 @@ let parkMaps = [
     },
     {
         name: 'Сосновка',
+        year: 1999,
+        url: './maps/parks/sosnovka_1999.webp',
+        link: './original_maps/parks/sosnovka_1999_omaps.jpg',
+        bounds: [[60.02459744626843, 30.32913208007813], [60.02500483633538, 30.359902381896976], [60.01046433519111, 30.329046249389652]],
+        author: ['GLBK','MLN_S','FLMNV','SBLV_A','SLV_J','JKBV','PRKHMNKO'],
+        owner: 'KARTA',
+        type: ['PARK']
+    },
+    {
+        name: 'Сосновка',
         year: 2004,
         url: './maps/parks/sosnovka_2004.webp',
         link: './original_maps/parks/sosnovka_2004_omaps.jpg',
@@ -230,6 +260,16 @@ let parkMaps = [
     },
     {
         name: 'Удельный парк',
+        year: 1998,
+        url: './maps/parks/udelny_1998.webp',
+        link: './original_maps/parks/udelny_1998_omaps.jpg',
+        bounds: [[60.01683463398483, 30.295271873474125], [60.0167917404547, 30.32175064086914], [60.00177558586194, 30.29462814331055]],
+        author: ['MLN_S','SBLV_A','JKBV'],
+        owner: 'KARTA',
+        type: ['PARK']
+    },
+    {
+        name: 'Удельный парк',
         year: 2004,
         url: './maps/parks/udelny_2004.webp',
         link: ['./original_maps/parks/udelny_2004_omaps.jpg','./original_maps/parks/udelny_2004_2_omaps.jpg'],
@@ -263,6 +303,16 @@ let parkMaps = [
         link: './original_maps/parks/piskarevsky_1985_omaps.jpg',
         bounds: [[60.006560043837936, 30.395092964172367], [60.00445754217033, 30.422773361206055], [59.994801481651656, 30.39123058319092]],
         author: 'RDKV',
+        type: ['PARK']
+    },
+    {
+        name: 'Пискарёвский парк',
+        year: 1999,
+        url: './maps/parks/piskarevsky_1999.webp',
+        link: './original_maps/parks/piskarevsky_1999_omaps.jpg',
+        bounds: [[60.00497245289651, 30.391874313354496], [60.00482227142947, 30.43225765228272], [59.99329917445757, 30.391573905944828]],
+        author: ['BSNKO','BLVA_D','MLN_S','JKBV'],
+        owner: 'KARTA',
         type: ['PARK']
     },
     {
@@ -335,6 +385,16 @@ let parkMaps = [
     },
     {
         name: 'Таврический сад',
+        year: 1998,
+        url: './maps/parks/tavrichesky_1998.webp',
+        link: './original_maps/parks/tavrichesky_1998_omaps.jpg',
+        bounds: [[59.94895041674183, 30.36754131317139], [59.948810726392544, 30.37829160690308], [59.9437814817462, 30.367369651794437]],
+        author: 'PRKHMNKO',
+        owner: 'KARTA',
+        type: ['PARK']
+    },
+    {
+        name: 'Таврический сад',
         year: 2023,
         url: './maps/parks/tavrichesky_2023.webp',
         link: './original_maps/parks/tavrichesky_2023_omaps.jpg',
@@ -353,7 +413,17 @@ let parkMaps = [
         type: ['PARK']
     },
     {
-        name: 'ЦПКиО - Елагин остров',
+        name: 'Каменный о-в',
+        year: 1998,
+        url: './maps/parks/kamenny_1998.webp',
+        link: './original_maps/parks/kamenny_1998_omaps.jpg',
+        bounds: [[59.981986757432736, 30.273299217224125], [59.98185794104837, 30.30604362487793], [59.97298987510682, 30.273084640502933]],
+        author: ['SBLV_A','SLV_J','PRKHMNKO','ARTMV'],
+        owner: 'KARTA',
+        type: ['PARK']
+    },
+    {
+        name: 'ЦПКиО, Елагин остров',
         year: 1984,
         url: './maps/parks/elagin_1984.webp',
         link: './original_maps/parks/elagin_1984_omaps.jpg',
@@ -362,7 +432,17 @@ let parkMaps = [
         type: ['PARK']
     },
     {
-        name: 'ЦПКиО - Елагин остров',
+        name: 'ЦПКиО им.Кирова',
+        year: 1998,
+        url: './maps/parks/elagin_1998.webp',
+        link: './original_maps/parks/elagin_1998_omaps.jpg',
+        bounds: [[59.982459079886844, 30.23617744445801], [59.98237320357825, 30.273985862731937], [59.97520174583225, 30.23622035980225]],
+        author: ['SBLV_A','JKBV','PRKHMNKO','ARTMV'],
+        owner: 'KARTA',
+        type: ['PARK']
+    },
+    {
+        name: 'ЦПКиО, Елагин остров',
         year: 2017,
         url: './maps/parks/elagin_2017.webp',
         bounds: [[59.98518553686155, 30.23699283599854], [59.9827167074759, 30.275316238403324], [59.97616805074679, 30.23497581481934]],
@@ -779,6 +859,16 @@ let parkMaps = [
         type: ['PARK'],
         author: 'KUZNTSV_A',
         owner: 'KUZNTSV_A'
+    },
+    {
+        name: 'Новоорловский лесопарк',
+        year: 1999,
+        url: './maps/parks/novoorlovsky_1999.webp',
+        link: './original_maps/parks/novoorlovsky_1999_omaps.jpg',
+        bounds: [[60.05680863317498, 30.266776084899906], [60.05659442436187, 30.29613018035889], [60.03628111480992, 30.266819000244144]],
+        author: ['GLBK','MLN_S','JKBV'],
+        owner: 'KARTA',
+        type: ['PARK']
     },
     {
         name: 'Новоорловский лесопарк',
@@ -1239,6 +1329,16 @@ let parkMaps = [
         author: ['VLKV_A','SHVR'],
         type: ['PARK'],
         qtty: 2
+    },
+    {
+        name: 'Шуваловский парк',
+        year: 1998,
+        url: './maps/parks/shuvalovsky_park_1998.webp',
+        link: './original_maps/parks/shuvalovsky_park_1998_omaps.jpg',
+        bounds: [[60.08479376164208, 30.2898645401001], [60.08464394278052, 30.32235145568848], [60.06843808451483, 30.289692878723148]],
+        author: ['MLN_S','SSV_V','PRKHMNKO','ARTMV'],
+        owner: 'KARTA',
+        type: ['PARK']
     },
     {
         name: 'Шуваловский парк',

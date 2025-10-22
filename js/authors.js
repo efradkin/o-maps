@@ -25,6 +25,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     BLV_V: { name: 'Белов В.' },
+    BLVA_D: { name: 'Беляева Диана' },
     BLZRV_V: {
         name: 'Белозеров Владимир', //Николаевич
         about: 'https://o-site.spb.ru/history/Peoples/vnb.html'
@@ -38,6 +39,7 @@ let authors = {
     BRDR: { name: 'Бердар Азиз' },
     BRSVA_I: { name: 'Борисова И.' },
     BRTNK_V: { name: 'Бортник Василий' },
+    BSNKO: { name: 'Басенко Михаил' },
     BSTRV_A: { name: 'Быстров А.' },
     BVZ: { name: 'Бевза Татьяна' },
     BZNV_A: {
@@ -106,6 +108,7 @@ let authors = {
     },
     FDTV_A: { name: 'Федотов А.' },
     FLCHKN: { name: 'Филичкин Н.' },
+    FLMNV: { name: 'Филимонов Фёдор' },
     FRSHLV: {
         name: 'Фершалов Андрей',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -115,6 +118,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/vsfersh.html'
     },
     GBNV_A: { name: 'Губанов А.' },
+    GLBK: { name: 'Голубок Сергей' },
     GLK: { name: 'Голик Елена' },
     GLV_N: { name: 'Гуляев Н.' },
     GLVNV_V: { name: 'Голованов В.' },
@@ -162,6 +166,7 @@ let authors = {
     IVNVA_I: { name: 'Иванова И.' },
     ISVNNA: { name: 'Исавнина О.' },
     JBLCHKV: { name: 'Яблочков В.' },
+    JKBV: { name: 'Якубов Сергей' },
     KAZNTSV_S: {
         name: 'Казанцев Сергей', //Александрович
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
@@ -238,6 +243,7 @@ let authors = {
         name: 'Михайлов Борис',
         about: 'https://o-site.spb.ru/history/Peoples/bam.html'
     },
+    MLN_S: { name: 'Малин Сергей' },
     MLNKV_F: { name: 'Мельников Ф.' },
     MLNKV_L: { name: 'Маланков Леонид' },
     MLSHV_Y: { name: 'Малышев Ю.' },
@@ -283,6 +289,7 @@ let authors = {
     PLMNN: { name: 'Пульманен П.' },
     PPV_D: { name: 'Попов Дмитрий' },
     PPV_V: { name: 'Попов В.' },
+    PRKHMNKO: { name: 'Пархоменко Александр' },
     PRSCHPA: { name: 'Прищепа О.' },
     PSHKV: { name: 'Пашков Михаил' },
     PSTKN_M: { name: 'Пясткин Максим' },
@@ -301,7 +308,8 @@ let authors = {
         name: 'Рылов Виктор',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
-    SBLV: { name: 'Сибилев Сергей' },
+    SBLV_A: { name: 'Соболев Алексей' },
+    SBLV_S: { name: 'Сибилев Сергей' },
     SCHV: { name: 'Сычёв Владимир' },
     SHLKHN_AN: { name: 'Шелёхин Анатолий' },
     SHLKHN_Y: {
@@ -322,6 +330,7 @@ let authors = {
     SKBLV_A: { name: 'Скоблов А.' },
     SKLVA: { name: 'Соколова С.' },
     SLBDNK: { name: 'Слободянюк Роман' },
+    SLV_J: { name: 'Сулоев Ярослав' },
     SMLGS: { name: 'Андрюс Смилгюс' },
     SMNV_K: { name: 'Семёнов К.' },
     SMNA: { name: 'Симина М.' },
@@ -340,6 +349,7 @@ let authors = {
     },
     SRTSKY: { name: 'Сиротский В.' },
     SSNNA: { name: 'Соснина Н.' },
+    SSV_V: { name: 'Сысоев Виктор' },
     STLV_S: { name: 'Стулов Сергей' },
     STLRV: { name: 'Столяров А.' },
     STPNVA_I: {

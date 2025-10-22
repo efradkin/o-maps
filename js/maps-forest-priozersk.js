@@ -205,7 +205,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_travkino_2019_05_24.webp',
         link: ['./original_maps/forest/priozersk/kuznechnoe_travkino_2019_05_24.jpg','./original_maps/forest/priozersk/kuznechnoe_travkino_2019_05_24_W.gif'],
         bounds: [[61.150877007031895, 29.82371807098389], [61.14843350299322, 29.85045433044434], [61.138730097060204, 29.81873989105225]],
-        author: 'SBLV'
+        author: 'SBLV_S'
     },
     {
         name: 'о Койонсаари',
@@ -221,7 +221,7 @@ let priozerskMaps = [
         info: '2011-2024гг.',
         url: './maps/forest/priozersk/vorobjevo_2024.webp',
         bounds: [[60.94031420018075, 30.258407592773438], [60.93226706714691, 30.354366302490238], [60.90076780680974, 30.24467468261719]],
-        author: ['MKHLV_A','SLBDNK','SBLV','USNKO'],
+        author: ['MKHLV_A','SLBDNK','SBLV_S','USNKO'],
         owner: 'WN'
     },
     {
