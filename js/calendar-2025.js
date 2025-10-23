@@ -1670,7 +1670,12 @@ let events_2025 =
         name: 'Золотая осень',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251019_ZO',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23707/',
+        gps: {
+            'Спринт':'https://viewer.o-gps-center.ru/viewer/event/23708/',
+            'Классика':'https://viewer.o-gps-center.ru/viewer/event/23707/'
+        },
+        photo: 'https://disk.yandex.ru/d/h9cZkNiDfKzFKQ',
+        video: 'http://vksport.vkvideo.ru/video-64963384_456263483',
         owner: 'VYBORG'
     }, {
         date: '2025-10-18',
@@ -1715,11 +1720,13 @@ let events_2025 =
     }, {
         date: '2025-10-22',
         place: 'Парк Лесотехнической академии',
-        name: 'Длительная серия №8',
+        name: 'Длительная серия №2',
         type: 'ORIENT',
         link: 'https://t.me/dlitelnyy/340',
         reg: 'https://orgeo.ru/event/47226',
-        owner: 'DLT'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23736/',
+        owner: 'DLT',
+        me: 'А'
     }, {
         date: '2025-10-25',
         place: 'Сосновый бор',

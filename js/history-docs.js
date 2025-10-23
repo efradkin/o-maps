@@ -908,6 +908,13 @@ let historyDocs = [
         info: '1-3 марта.'
     },
     {
+        name: 'Календарь "Субботнего марафона" клуба "Карта"',
+        year: 2003,
+        info: '2003-2004гг',
+        link: './docs/2003_karta_saturday_marathon_omaps.jpg',
+        owner: 'KARTA'
+    },
+    {
         name: 'Сводная карта всех дней (Лемболово)',
         start: 'MMS',
         year: 2010,
