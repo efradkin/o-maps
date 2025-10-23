@@ -157,6 +157,13 @@ let events_2025 =
         map: 'piskarevsky_2024',
         me: 'Фит'
     }, {
+        date: '2025-02-27',
+        place: 'сквер Пограничников',
+        name: 'Ориентирование на лыжах в Курортном р-не',
+        fmt: 'спринт',
+        type: 'SKI',
+        reg: 'https://orgeo.ru/event/41594',
+    }, {
         date: '2025-03-01',
         endDate: '2025-03-02',
         place: 'Орехово',
@@ -357,6 +364,12 @@ let events_2025 =
         photo: 'https://vk.com/album-91656163_309446849'
     }, {
         date: '2025-04-19',
+        place: 'Екатерингоф',
+        name: 'Физкультурное мероприятие по фото-ориентированию среди семейных команд Адмиралтейского р-она',
+        type: 'ORIENT',
+        link: 'https://vk.com/wall-66408967_9158',
+    }, {
+        date: '2025-04-19',
         place: 'Невский лесопарк, Усадьба Богословка',
         name: '30 меридиан',
         type: 'ORIENT',
@@ -396,6 +409,12 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/43174',
         owner: 'KUZM',
         map: 'kuzmolovo_zona_z_2018'
+    }, {
+        date: '2025-04-26',
+        place: 'Сосновка',
+        name: 'Физкультурное мероприятие среди семейных команд Выборгского р-она',
+        type: 'ORIENT',
+        link: 'https://vk.com/wall-70673510_1347',
     }, {
         date: '2025-04-26',
         place: 'Школа №527',
@@ -542,6 +561,13 @@ let events_2025 =
         map: 'stekljanny_2021'
     }, {
         date: '2025-05-08',
+        place: 'Киришский р-он, Красная горка',
+        name: 'ЧиП Киришского р-она',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/klassika_08052025',
+        owner: 'MLV_AL'
+    }, {
+        date: '2025-05-08',
         place: 'Петяярви',
         name: 'Кубок D2RUN №1',
         type: 'ORIENT',
@@ -623,6 +649,12 @@ let events_2025 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22595/',
         photo: 'https://vk.com/album-128591100_306187926',
         owner: 'KUZM'
+    }, {
+        date: '2025-05-15',
+        place: 'парк Малиновка',
+        name: 'Спартакиада трудовых коллективов Красногвардейского р-на',
+        type: 'ORIENT',
+        link: 'https://vk.com/wall-21809767_46010',
     }, {
         date: '2025-05-17',
         place: 'Всеволожск, парк Песчанка',
@@ -933,15 +965,6 @@ let events_2025 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23067/',
         owner: 'WN'
     }, {
-        date: '2025-07-12',
-        place: 'Токсово, СКА',
-        name: 'Dлительная серия №5',
-        type: 'ORIENT',
-        link: 'https://o-site.spb.ru/race.php?id=250712_Dlit_5',
-        reg: 'http://orgeo.ru/event/44871',
-        owner: 'DLT',
-        map: 'toksovo_ska_2014'
-    }, {
         date: '2025-07-08',
         place: 'Фрунзенский р-он, Парк Интернационалистов',
         name: 'Физкультурное мероприятие по ориентированию',
@@ -960,6 +983,15 @@ let events_2025 =
         owner: 'WN',
         map: 'koyonsaari_2024'
     }, {
+        date: '2025-07-12',
+        place: 'Токсово, СКА',
+        name: 'Dлительная серия №5',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250712_Dlit_5',
+        reg: 'http://orgeo.ru/event/44871',
+        owner: 'DLT',
+        map: 'toksovo_ska_2014'
+    }, {
         date: '2025-07-13',
         place: 'Лупполово',
         name: 'Dлительная серия №6',
@@ -974,7 +1006,7 @@ let events_2025 =
     }, {
         date: '2025-07-20',
         place: 'Вартемяги/Юкки',
-        name: 'Рогейн 110 (КЛО)',
+        name: 'Рогейн 110% (КЛО)',
         fmt:  '3',
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/44984',
@@ -1050,7 +1082,7 @@ let events_2025 =
     }, {
         date: '2025-08-09',
         place: 'Лемболово',
-        name: 'Исторический рогейн «По следам истории»',
+        name: 'Исторический не рогейн «По следам истории»',
         fmt: 'выбор',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250809_history',
@@ -1103,7 +1135,7 @@ let events_2025 =
         date: '2025-08-23',
         endDate: '2025-08-24',
         place: 'Орехово',
-        name: 'Transbiotech O-Weekend',
+        name: 'O-Weekend',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250823-24',
         reg: ['http://orgeo.ru/event/45172','http://orgeo.ru/event/info/45167'],
@@ -1241,6 +1273,13 @@ let events_2025 =
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1694',
     }, {
         date: '2025-09-13',
+        place: 'Муринский парк',
+        name: 'П-во Калининского р-она',
+        type: 'ORIENT',
+        link: 'https://vk.com/wall-43693120_28596',
+        res: 'https://vk.com/wall-43693120_28614',
+    }, {
+        date: '2025-09-13',
         place: 'Луга, Крупели',
         name: 'Лужский меридиан №82',
         fmt: '2.5, 5',
@@ -1277,6 +1316,16 @@ let events_2025 =
         map: 'pastorskoe_2024',
         me: 'М50'
     }, {
+        date: '2025-09-17',
+        place: 'Выборгский р-он, шк №161',
+        name: 'Спортивное ориентирование - в школу, №58',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=250917',
+        photo: 'http://vk.com/album-230167293_311078726',
+        owner: 'SFSO_SPB',
+        start: 'SCHOOL',
+        map: 'school_161_2025'
+    }, {
         date: '2025-09-18',
         place: 'Токсово, Светлое оз',
         name: 'Контрольный старт',
@@ -1285,16 +1334,6 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/46308',
         owner: 'KUZM',
         map: 'toksovo_oz_svetloe_2017'
-    }, {
-        date: '2025-09-17',
-        place: 'Выборгский р-он, шк №161',
-        name: 'Спортивное ориентирование - в школу №58',
-        type: 'ORIENT',
-        link: 'https://o-site.spb.ru/race.php?id=250917',
-        photo: 'http://vk.com/album-230167293_311078726',
-        owner: 'SFSO_SPB',
-        start: 'SCHOOL',
-        map: 'school_161_2025'
     }, {
         date: '2025-09-19',
         place: 'Полюстровский парк',
@@ -1384,7 +1423,7 @@ let events_2025 =
     }, {
         date: '2025-09-23',
         place: 'Кировский р-он, шк №221',
-        name: 'Спортивное ориентирование - в школу №59',
+        name: 'Спортивное ориентирование - в школу, №59',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250923',
         photo: 'https://vk.com/album-230167293_311153204',
@@ -1400,7 +1439,7 @@ let events_2025 =
     }, {
         date: '2025-09-24',
         place: 'Фрунзенский р-он, шк №303',
-        name: 'Спортивное ориентирование - в школу №60',
+        name: 'Спортивное ориентирование - в школу, №60',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250924',
         photo: 'https://vk.com/album-230167293_311165957',
@@ -1706,7 +1745,8 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251019_PZVP',
         reg: 'http://orgeo.ru/event/info/46779',
         reskeep: 808,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23712/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23712/',
+        photo: 'https://vk.com/album-91047483_311486654'
     }, {
         date: '2025-10-20',
         place: 'Пионерский парк',

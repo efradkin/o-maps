@@ -102,6 +102,12 @@ let events_2026 =
         name: 'Универсиада',
         type: 'ORIENT',
         owner: 'SFSO_SPB'
+    },{
+        date: '2026-05-23',
+        endDate: '2026-06-01',
+        name: 'Чемпионат России по спорту лиц с поражением ОДА',
+        type: 'ORIENT',
+        owner: 'SFSO_SPB'
     }, {
         date: '2025-05-24',
         name: 'Весенний марш-бросок',
@@ -168,8 +174,8 @@ let events_2026 =
         fmt: 'классика',
         owner: 'SFSO_SPB'
     },{
-        date: '2026-09-12',
-        endDate: '2026-09-13',
+        date: '2026-09-19',
+        endDate: '2026-09-20',
         name: 'Мемориал Владимира Алексеева',
         type: 'ORIENT',
         owner: 'WN'
