@@ -691,7 +691,10 @@ let events_2025 =
         type: 'TOURISM',
         link: ['https://t.me/pmarshbrosok','https://vk.com/mbrosok'],
         reg: 'https://orgeo.ru/event/40845',
+        res: 'https://kandid.ru/vmb25r.htm',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22700/',
+        planner: 'BKTV',
+        photo: ['https://vk.com/album-29327859_307649593','https://vk.com/album-29327859_307662077','https://vk.com/album-29327859_307676199'],
         start: 'MB'
     }, {
         date: '2025-05-24',
@@ -1663,6 +1666,7 @@ let events_2025 =
         type: 'ORIENT',
         fmt: 'по памяти',
         link: 'https://vk.ru/wall-220245153_1724',
+        res: 'https://vk.com/wall-30686281_22954'
     }, {
         date: '2025-10-18',
         endDate: '2025-10-19',
@@ -1720,13 +1724,20 @@ let events_2025 =
     }, {
         date: '2025-10-22',
         place: 'Парк Лесотехнической академии',
-        name: 'Длительная серия №2',
+        name: 'Длительная серия, осень №2',
         type: 'ORIENT',
         link: 'https://t.me/dlitelnyy/340',
         reg: 'https://orgeo.ru/event/47226',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23736/',
         owner: 'DLT',
         me: 'А'
+    }, {
+        date: '2025-10-24',
+        place: 'Фрунзенский р-он, Парк Интернационалистов',
+        name: 'Физкультурное мероприятие по ориентированию',
+        type: 'ORIENT',
+        link: 'https://vk.com/wall-30686281_22983',
+        map: 'internatsionalistov_2021'
     }, {
         date: '2025-10-25',
         place: 'Сосновый бор',
