@@ -101,6 +101,59 @@ let otherStartsMaps = [
     /* --- Бекетов --- */
 
     {
+        name: 'Приозерск',
+        date: '2014-05-17',
+        url: './maps/rogaine/beketov/priozersk_mb_2014.webp',
+        link: ['https://kandid.ru/maps14/short_vmb_14.png','https://kandid.ru/maps14/vmb_1.png','https://kandid.ru/maps14/vmb_2.png','https://kandid.ru/maps14/vmb_3.png'],
+        bounds: [[60.95861072825705, 30.04142761230469], [60.96844232834115, 30.481224060058597], [60.6620783385905, 30.07095336914063]],
+        owner: 'BKTV',
+        start: 'MB',
+        type: ['ROGAINE'],
+    },
+    {
+        name: 'Зеленогорск',
+        date: '2014-10-04',
+        url: './maps/rogaine/beketov/zelik_mb_2014.webp',
+        link: ['https://kandid.ru/maps14/MB-2014-fall_karta_1.png','https://kandid.ru/maps14/MB-2014-fall_karta_2.png','https://kandid.ru/maps14/MB-2014-fall_karta_3.png','https://kandid.ru/maps14/MB-2014-fall_karta_4.png'],
+        bounds: [[60.26357549698941, 29.73810195922852], [60.25557080430158, 29.84367370605469], [60.191121427461766, 29.713554382324222]],
+        owner: 'BKTV',
+        start: 'MB',
+        type: ['ROGAINE'],
+    },
+    {
+        name: 'Лемболово',
+        date: '2016-05-14',
+        url: './maps/rogaine/beketov/lembolovo_mb_2016.webp',
+        link: 'https://kandid.ru/maps16/VMB2016.jpg',
+        bounds: [[60.55035901399357, 30.25308609008789], [60.553903567535286, 30.484313964843754], [60.40961434181412, 30.28141021728516]],
+        owner: 'BKTV',
+        start: 'MB',
+        type: ['ROGAINE'],
+    },
+    {
+        name: 'Каннельярви',
+        date: '2017-10-07',
+        url: './maps/rogaine/beketov/kanneliarvi_mb_2017.webp',
+        link: 'https://kandid.ru/maps17/VMB_17.png',
+        bounds: [[60.41961515630588, 29.162864685058597], [60.4501917813959, 29.342250823974613], [60.270641843214285, 29.273328781127933]],
+        owner: 'BKTV',
+        start: 'MB',
+        type: ['ROGAINE'],
+        zindex: 2
+    },
+    {
+        name: 'Луга, оз Омчино',
+        date: '2017-10-07',
+        hidden: true,
+        url: './maps/rogaine/beketov/luga_mb_2017.webp',
+        link: ['https://kandid.ru/maps17/omb17_1.jpg','https://kandid.ru/maps17/omb17_2.jpg'],
+        info: 'Лужский артиллерийский полигон',
+        bounds: [[58.74513977226588, 29.462928771972656], [58.737301100282835, 29.79801177978516], [58.66176350414477, 29.451770782470707]],
+        owner: 'BKTV',
+        start: 'MB',
+        type: ['ROGAINE']
+    },
+    {
         name: '78 км',
         date: '2018-10-06',
         url: './maps/rogaine/beketov/78km_michura_mb_2018.webp',
@@ -122,12 +175,26 @@ let otherStartsMaps = [
         type: ['ROGAINE']
     },
     {
+        name: ' Каннельярви, Заходское',
+        hidden: true,
+        date: '2024-05',
+        url: './maps/rogaine/beketov/kanneliarvi_mb_2024.webp',
+        link: 'https://kandid.ru/maps24/vmb24.jpg',
+        info: 'ВМБ. Бобочинский полигон.',
+        bounds: [[60.45594814827666, 29.14810180664063], [60.45493239296129, 29.442501068115238], [60.28417431794843, 29.14758682250977]],
+        planner: 'BKTV',
+        owner: 'BKTV',
+        start: 'MB',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Яппиля, Заовражные оз',
         date: '2025-10-18',
         url: './maps/rogaine/beketov/yappilya_mb_2025.webp',
         link: 'https://viewer.o-gps-center.ru/newmaps/map_19854_f38c21d538e0f91b382ae6333ba7b9eb.jpeg',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23725/',
         bounds: [[60.31980856041393, 28.889236450195316], [60.31402807870999, 29.24423217773438], [60.202810147156775, 28.882713317871097]],
+        planner: 'BKTV',
         owner: 'BKTV',
         start: 'MB',
         type: ['ROGAINE']

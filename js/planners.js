@@ -3,6 +3,7 @@ let planners = {
     ARTMV: { name: 'Артемьев Юрий' },
     BBNNA_Y: { name: 'Бабанина Юлия' },
     BDKN_A: { name: 'Будкин А' },
+    BKTV: { name: 'Бекетов Константин' },
     BLNV_A: { name: 'Блинов А' },
     BRDLN_Y: { name: 'Бородулин Юрий' },
     BYMKV: { name: 'Баймаков Владимир' },
