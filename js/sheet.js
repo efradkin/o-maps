@@ -205,18 +205,24 @@ function buildInfo(m) {
             result += m.info;
         }
     }
-    if (m.planner) {
-        if (Array.isArray(m.planner)) {
-            let plnrs = '';
-            for (const p of m.planner) {
-                if (plnrs) {
-                    plnrs += ', ';
+    if (isDocumentsPage()) {
+        let planner = m.planner;
+        if (!planner && m.start && starts[m.start].planner) {
+            planner = starts[m.start].planner;
+        }
+        if (planner) {
+            if (Array.isArray(planner)) {
+                let plnrs = '';
+                for (const p of planner) {
+                    if (plnrs) {
+                        plnrs += ', ';
+                    }
+                    plnrs += planners[p].name;
                 }
-                plnrs += planners[p].name;
+                result += ` Начальники дистанций: ${plnrs}.`;
+            } else {
+                result += ` Начальник дистанции - ${planners[planner].name}.`;
             }
-            result += ` Начальники дистанций: ${plnrs}.`;
-        } else {
-            result += ` Начальник дистанции - ${planners[m.planner].name}.`;
         }
     }
     return result;

@@ -1287,6 +1287,11 @@ function buildPlanners(m) {
                 result += planners[m.planner].name + '<br />';
             }
         }
+        if (!result) {
+            if (!isNull(starts) && m.start && starts[m.start] && starts[m.start].planner) {
+                result += planners[starts[m.start].planner].name + '<br />';
+            }
+        }
     }
     return result;
 }
