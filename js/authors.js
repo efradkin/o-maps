@@ -600,7 +600,7 @@ let authors = {
     OGRZKV: { name: 'Огрызков Алексей' },
     OKN_V: {
         name: 'Окин Вячеслав',
-        logo: 'turtle.jpg',
+        logo: 'okin.gif',
         about: 'https://o-moscow.ru/people/OkinVI.html'
     },
     ORLV_A: { name: 'Орлов А.' },

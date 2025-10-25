@@ -973,6 +973,16 @@ let moscowMaps = [
     },
     {
         name: 'Крылатские Холмы',
+        year: 2012,
+        url: './maps/moscow/ak/krylatsky_hills_2012.webp',
+        link: './original_maps/moscow/ak/krylatsky_hills_2012_omaps.gif',
+        bounds: [[55.77064705436027, 37.41218090057374], [55.77155230069221, 37.432243824005134], [55.74798490877827, 37.413275241851814]],
+        author: ['OKN_V','ZUEV_A'],
+        owner: 'IVNV_AL',
+        type: ['PARK']
+    },
+    {
+        name: 'Крылатские Холмы',
         year: 2015,
         url: './maps/moscow/o-mephi/20210531_610.webp',
         link: 'http://o-mephi.net/cup/maps/20210531_610.jpg',
@@ -983,7 +993,7 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
-        name: 'Крылатские Холмы, школа №1133',
+        name: 'Крылатское, школа №1133',
         url: './maps/moscow/school_1133.webp',
         link: './original_maps/moscow/school_1133_omaps.gif',
         bounds: [[55.75261016671553, 37.41694450378419], [55.752175439972206, 37.42087125778199], [55.750315720878156, 37.41636514663697]],
