@@ -145,7 +145,7 @@ let rogaineMaps = [
         name: 'Лемболово-Мичуринское',
         year: 2012,
         major: true,
-        start: '100X24',
+        start: '100x24',
         url: './maps/rogaine/lembolovo_michurinskoe_rrc_2012.webp',
         link: 'https://100x24.ru/2012/maps/100x24_2012.gif',
         bounds: [[60.55576008343374, 29.872512817382816], [60.53246152901585, 30.360374450683597], [60.38994275676987, 29.843330383300785]],
@@ -342,7 +342,7 @@ let rogaineMaps = [
     {
         name: 'Гаврилово',
         year: 2008,
-        start: '100X24',
+        start: '100x24',
         info: '<a href="https://ww.w.100x24.ru/history.htm">Инфо и результаты.</a>',
         author: 'APTNKV',
         url: './maps/rogaine/gavrilovo_2008.webp',
@@ -353,7 +353,7 @@ let rogaineMaps = [
     {
         name: 'Вещево',
         year: 2009,
-        start: '100X24',
+        start: '100x24',
         info: '<a href="https://ww.w.100x24.ru/history.htm">Инфо и результаты.</a>',
         author: 'APTNKV',
         url: './maps/rogaine/veschevo_2009.webp',
@@ -404,7 +404,7 @@ let rogaineMaps = [
     {
         name: 'Колтуши',
         year: 2014,
-        start: '100X24',
+        start: '100x24',
         info: '<a href="https://ww.w.100x24.ru/results.htm">Инфо и результаты.</a>',
         url: './maps/rogaine/koltushi_2014.webp',
         link: './original_maps/rogaine/koltushi_100x24_2014.gif',
