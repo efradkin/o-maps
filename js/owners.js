@@ -49,10 +49,6 @@ let owners = {
     ELZRV: {
         name: 'По вопросам использования карты - Владимир Елизаров, orunner1@gmail.com'
     },
-    SFSO_SPB: {
-        name: 'Карта принадлежит СФСО СПб. По вопросам использования карты - info@spbof.ru.',
-        logo: 'sfso.gif'
-    },
     GK: {
         name: '© Горный Кросс, Александр Шумский',
         logo: 'gk.gif',
@@ -181,6 +177,14 @@ let owners = {
     },
     RYLOV_V: {
         name: 'По вопросам использования карты обращайтесь к <a href="https://vk.com/id287387360">Рылову Виктору</a>.'
+    },
+    SFSO_LO: {
+        name: '© Региональная спортивная федерация спортивного ориентирования Ленинградской области',
+        logo: 'len_obl.gif'
+    },
+    SFSO_SPB: {
+        name: 'Карта принадлежит СФСО СПб. По вопросам использования карты - info@spbof.ru.',
+        logo: 'sfso.gif'
     },
     SHLKHN_AN: {
         name: '© Шелёхин Анатолий, <a href="markir.spb.ru">markir.spb.ru</a>.'

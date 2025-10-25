@@ -28,25 +28,27 @@ let events_2025 =
         date: '2025-01-12',
         place: 'Кировск',
         name: 'ЧиП ЛО',
-        type: ['ORIENT','SKI'],
+        type: 'SKI',
         fmt: 'ЛГ-спринт',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_sprint',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21399/',
-        map: 'kirovsk_winter_2024'
+        map: 'kirovsk_winter_2024',
+        owner: 'SFSO_LO'
     }, {
         date: '2025-01-17',
         endDate: '2025-01-19',
         place: 'Будогощь',
         name: 'ЧиП ЛО',
-        type: ['ORIENT','SKI'],
+        type: 'SKI',
         link: 'https://o-site.spb.ru/race.php?id=25011719',
-        reg: 'http://orgeo.ru/event/lo_budogosh_2025'
+        reg: 'http://orgeo.ru/event/lo_budogosh_2025',
+        owner: 'SFSO_LO'
     }, {
         date: '2025-01-18',
         endDate: '2025-01-19',
         place: 'Орехово',
         name: 'ЧиП СПб',
-        type: ['ORIENT','SKI'],
+        type: 'SKI',
         fmt: 'ЛГ-классика, ЛГ-масстарт',
         link: 'https://o-site.spb.ru/race.php?id=250119_chemp',
         owner: 'SFSO_SPB'
@@ -54,7 +56,7 @@ let events_2025 =
         date: '2025-02-01',
         place: 'Орехово',
         name: 'Февральская лыжня',
-        type: ['ORIENT','SKI'],
+        type: 'SKI',
         fmt: 'ЛГ-спринт',
         link: 'https://o-site.spb.ru/race.php?id=250201_fl',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1654',
@@ -63,7 +65,7 @@ let events_2025 =
         date: '2025-02-02',
         place: 'Орехово',
         name: 'ЧиП СПб',
-        type: ['ORIENT','SKI'],
+        type: 'SKI',
         fmt: 'ЛГ-лонг',
         link: 'https://o-site.spb.ru/race.php?id=250202_chemp',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1650',
@@ -84,14 +86,14 @@ let events_2025 =
         endDate: '2025-02-16',
         place: 'Зеркальный',
         name: 'Зимние старты',
-        type: ['ORIENT','SKI'],
+        type: 'SKI',
         link: 'https://o-site.spb.ru/race.php?id=250216'
     }, {
         date: '2025-02-15',
         place: 'Зеркальный',
         name: 'ЧиП СПб',
         fmt: 'ЛГ-спринт',
-        type: ['ORIENT','SKI'],
+        type: 'SKI',
         link: 'https://o-site.spb.ru/race.php?id=250215',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1651',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21654/',
@@ -139,10 +141,11 @@ let events_2025 =
         place: 'Кировск',
         name: 'ЧиП ЛО',
         fmt: 'ЛГ-классика-масстарт',
-        type: ['ORIENT','SKI'],
+        type: 'SKI',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_os',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21695/',
-        map: 'kirovsk_winter_2024'
+        map: 'kirovsk_winter_2024',
+        owner: 'SFSO_LO'
     }, {
         date: '2025-02-23',
         place: 'Пискарёвский л/п',
@@ -169,7 +172,7 @@ let events_2025 =
         place: 'Орехово',
         name: 'ЧиП СПб',
         fmt: 'маркир,ЛГ-эстафета',
-        type: ['ORIENT','SKI'],
+        type: 'SKI',
         link: 'https://o-site.spb.ru/race.php?id=250302',
         gps: {
             '1':'https://viewer.o-gps-center.ru/viewer/event/21708/',
@@ -361,7 +364,8 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/41453',
         res: 'https://vk.com/wall-91656163_2545',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22283/',
-        photo: 'https://vk.com/album-91656163_309446849'
+        photo: 'https://vk.com/album-91656163_309446849',
+        owner: 'LM'
     }, {
         date: '2025-04-19',
         place: 'Екатерингоф',
@@ -389,7 +393,7 @@ let events_2025 =
         date: '2025-04-19',
         endDate: '2025-04-20',
         place: 'Сосновый Бор',
-        name: 'Сосновоборские Дюны',
+        name: 'Сосновоборские дюны',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250420_SD',
         gps: {
@@ -638,7 +642,8 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/info/43129',
         res: 'https://vk.com/wall-91656163_2573',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22558/',
-        photo: 'https://vk.com/album-91656163_309676733'
+        photo: 'https://vk.com/album-91656163_309676733',
+        owner: 'LM'
     }, {
         date: '2025-05-15',
         place: 'Юкки',
@@ -662,7 +667,8 @@ let events_2025 =
         type: 'ORIENT',
         fmt: 'эстафета 4х',
         link: 'https://o-site.spb.ru/race.php?id=250517_LO',
-        map: 'vsevolozhsk_peschanka_2021'
+        map: 'vsevolozhsk_peschanka_2021',
+        owner: 'SFSO_LO'
     }, {
         date: '2025-05-17',
         place: 'Пушкин, Баболовский парк',
@@ -762,14 +768,15 @@ let events_2025 =
     }, {
         date: '2025-05-31',
         place: 'Александрино',
-        name: 'Российский Азимут ',
+        name: 'Российский азимут ',
         fmt: 'спринт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250531_RA',
         reskeep: 704,
         map: 'aleksandrino_1986',
         photo: 'https://vk.com/album-230167293_309922104',
-        map: 'aleksandrino_north_2025'
+        map: 'aleksandrino_north_2025',
+        owner: 'SFSO_SPB'
     }, {
         date: '2025-05-31',
         place: 'ст. Куолемаярви',
@@ -1229,7 +1236,8 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=lo_kirovsk_2025',
         reg: 'http://orgeo.ru/event/sprint_kirovsk_070925',
         photo: ['https://vk.com/album-201330282_308352430','https://disk.yandex.ru/d/IY8hUtWo4dbUEQ'],
-        map: 'kirovsk_2025'
+        map: 'kirovsk_2025',
+        owner: 'SFSO_LO'
     }, {
         date: '2025-09-10',
         place: 'Нарская, ул Турбинная',
@@ -1287,7 +1295,8 @@ let events_2025 =
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/info/45324',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23387/',
-        photo: 'https://vk.com/album-91656163_311027241'
+        photo: 'https://vk.com/album-91656163_311027241',
+        owner: 'LM'
     }, {
         date: '2025-09-14',
         place: 'Колпино',
@@ -1343,7 +1352,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250919_zo',
         reg: 'https://orgeo.ru/event/45724',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23439/',
-        map: 'polyustrovsky_2022'
+        map: 'polyustrovsky_2022',
     }, {
         date: '2025-09-20',
         place: 'Молодежное',
@@ -1731,11 +1740,12 @@ let events_2025 =
         date: '2025-10-18',
         place: 'Заовражные оз',
         name: 'Осенний марш-бросок',
-        type: 'TOURISM', // марш-бросок
+        type: 'TOURISM',
         link:  ['https://t.me/pmarshbrosok','https://vk.com/mbrosok'],
         reg: 'https://orgeo.ru/event/44894',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23725/',
-        photo: 'https://disk.yandex.ru/d/S-rlnWSUiro4og',
+        photo: ['https://disk.yandex.ru/d/S-rlnWSUiro4og','https://disk.yandex.ru/d/I4lZbxUefrsWZQ'],
+        video: 'https://youtu.be/qpjohddGcKU',
         start: 'MB'
     }, {
         date: '2025-10-19',
@@ -1777,7 +1787,8 @@ let events_2025 =
         name: 'Физкультурное мероприятие по ориентированию',
         type: 'ORIENT',
         link: 'https://vk.com/wall-30686281_22983',
-        map: 'internatsionalistov_2021'
+        map: 'internatsionalistov_2021',
+        me: '51+'
     }, {
         date: '2025-10-25',
         place: 'Сосновый бор',
@@ -1859,6 +1870,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251109',
         reg: 'http://orgeo.ru/event/47234',
+        start: 'ROGAINE_110'
     }, {
         date: '2025-11-15',
         place: 'Луга, б/о Штоль',

@@ -4,38 +4,53 @@ let events_2026 =
         date: '2026-01-11',
         place: 'Лемболово',
         name: 'Новогодний маркир',
-        type: ['ORIENT', 'SKI'],
+        type: 'SKI',
         fmt: 'маркир',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-01-11',
+        place: 'Кировск',
+        name: 'ЧиП ЛО',
+        type: 'SKI',
+        fmt: 'спринт',
+        owner: 'SFSO_LO'
+    },{
+        date: '2026-01-16',
+        endDate: '2026-01-18',
+        place: 'Будогощь',
+        name: 'ЧиП ЛО',
+        type: 'SKI',
+        fmt: 'маркир, классика, многодневная',
+        owner: 'SFSO_LO'
+    },{
         date: '2026-01-17',
         name: 'ЧиП СПб',
-        type: ['ORIENT', 'SKI'],
+        type: 'SKI',
         fmt: 'маркир',
         owner: 'SFSO_SPB'
     },{
         date: '2026-01-18',
         name: 'ЧиП СПб',
-        type: ['ORIENT', 'SKI'],
+        type: 'SKI',
         fmt: 'классика',
         owner: 'SFSO_SPB'
     },{
         date: '2026-01-31',
         name: 'ЧиП СПб',
-        type: ['ORIENT', 'SKI'],
+        type: 'SKI',
         fmt: 'эстафета',
         owner: 'SFSO_SPB'
     },{
         date: '2026-02-01',
         name: 'ЧиП СПб',
-        type: ['ORIENT', 'SKI'],
+        type: 'SKI',
         fmt: 'масстарт',
         owner: 'SFSO_SPB'
     },{
         date: '2026-02-07',
         endDate: '2026-02-08',
         name: 'Универсиада',
-        type: ['ORIENT', 'SKI'],
+        type: 'SKI',
         fmt: 'спринт, классика',
         owner: 'SFSO_SPB'
     },{
@@ -43,8 +58,15 @@ let events_2026 =
         endDate: '2026-02-15',
         name: 'ЧиП СПб',
         place: 'Зеркальный',
-        type: ['ORIENT', 'SKI'],
+        type: 'SKI',
         owner: 'SFSO_SPB'
+    },{
+        date: '2026-02-22',
+        place: 'Кировск',
+        name: 'ЧиП ЛО',
+        type: 'SKI',
+        fmt: 'классика',
+        owner: 'SFSO_LO'
     },{
         date: '2026-02-23',
         name: 'Снежная тропа',
@@ -57,6 +79,13 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'SFSO_SPB'
+    },{
+        date: '2026-04-11',
+        endDate: '2026-04-12',
+        name: 'Сосновоборские дюны',
+        place: 'Сосновый бор',
+        type: 'ORIENT',
+        owner: 'YUVNT'
     },{
         date: '2026-04-25',
         name: 'Открытие сезона',
@@ -114,6 +143,12 @@ let events_2026 =
         type: 'TOURISM',
         link: ['https://t.me/pmarshbrosok','https://vk.com/mbrosok'],
         start: 'MB'
+    }, {
+        date: '2025-05-24',
+        name: 'ЧиП ЛО',
+        place: 'Лейпясуо',
+        type: 'ORIENT',
+        fmt: 'эстафета 2х',
     },{
         date: '2026-05-30',
         name: 'BikeAdventure',
@@ -134,7 +169,21 @@ let events_2026 =
         fmt: 'спринт',
         owner: 'SFSO_SPB'
     },{
-        date: '2026-07-02',
+        date: '2026-06-15',
+        endDate: '2026-06-21',
+        name: 'Камни Карельского перешейка',
+        place: 'Пруды',
+        type: 'ORIENT',
+        start: 'KKP'
+    },{
+        date: '2026-06-26',
+        endDate: '2026-06-29',
+        name: 'Мемориал Михаила Святкина XXXII',
+        place: 'Пески',
+        type: 'ORIENT',
+        start: 'MMS'
+    },{
+        date: '2026-07-03',
         endDate: '2026-07-07',
         name: 'Белые ночи',
         place: 'Сосново',
@@ -174,9 +223,17 @@ let events_2026 =
         fmt: 'классика',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-09-13',
+        name: 'ЧиП ЛО',
+        place: 'Выборг',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        owner: 'SFSO_LO'
+    },{
         date: '2026-09-19',
         endDate: '2026-09-20',
-        name: 'Мемориал Владимира Алексеева',
+        name: 'Гран-при Владимира Алексеева',
+        place: 'Мичуринское',
         type: 'ORIENT',
         owner: 'WN'
     },{
@@ -199,12 +256,26 @@ let events_2026 =
         fmt: 'эстафета 2х',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-10-10',
+        endDate: '2026-10-11',
+        name: 'Золотая осень',
+        place: 'Выборг',
+        type: 'ORIENT',
+        owner: 'VYBORG'
+    },{
         date: '2026-10-11',
         name: 'ЧиП СПб',
         place: 'Аньялово',
         type: 'ORIENT',
         fmt: 'классика',
         owner: 'SFSO_SPB'
+    },{
+        date: '2026-10-18',
+        name: 'ЧиП ЛО',
+        place: 'Сосновый бор',
+        type: 'ORIENT',
+        fmt: 'выбор',
+        owner: 'SFSO_LO'
     },{
         date: '2026-11-22',
         name: 'Снежная тропа',

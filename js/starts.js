@@ -112,7 +112,8 @@ let starts = {
     ROGAINE_110: {
         short: '110%',
         name: '<a href="https://vk.com/rogaine110">Рогейн 110%</a>',
-        link: 'https://vk.com/rogaine110'
+        link: 'https://vk.com/rogaine110',
+        logo: '110.gif'
     },
     GK: {
         short: 'ГК',
