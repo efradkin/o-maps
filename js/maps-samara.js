@@ -42,11 +42,12 @@ let samaraMaps = [
         owner: 'ZNVJV_A'
     },
     {
-        name: 'Волжский',
-        year: 2025,
-        url: './maps/samara/volzhsky_2025.webp',
-        link: './original_maps/samara/volzhsky_2025_omaps.gif',
-        bounds: [[53.457623374326225, 50.094695091247566], [53.45363699212735, 50.126023292541504], [53.44200790649137, 50.08937358856201]],
+        name: 'Курумоч, Волжский',
+        year: 2018,
+        url: './maps/samara/kurumoch_2018.webp',
+        link: './original_maps/samara/kurumoch_2018_omaps.gif',
+        bounds: [[53.47438252734813, 50.06512641906738], [53.46707675889915, 50.132417678833015], [53.440908729342624, 50.05568504333497]],
+        author: 'USNKO',
         owner: 'ZNVJV_A'
     },
     {
@@ -75,6 +76,15 @@ let samaraMaps = [
         owner: 'ZNVJV_A'
     },
     {
+        name: 'Гора Барсук',
+        year: 2022,
+        url: './maps/samara/barsuk_2022.webp',
+        link: './original_maps/samara/barsuk_2022_omaps.gif',
+        bounds: [[53.318620683963914, 50.20045995712281], [53.31662102092392, 50.215909481048584], [53.306787981523634, 50.196318626403816]],
+        author: 'KZNN_O',
+        owner: 'ZNVJV_A'
+    },
+    {
         name: 'Прибрежный',
         url: './maps/samara/pribrezhny.webp',
         link: './original_maps/samara/pribrezhny_omaps.gif',
@@ -90,6 +100,16 @@ let samaraMaps = [
         link: './original_maps/samara/solnechny_2022_omaps.gif',
         bounds: [[53.24495594479499, 50.18997788429261], [53.243806734449315, 50.19937634468079], [53.237418103185405, 50.18753170967103]],
         author: 'TTYNN_M',
+        owner: 'ZNVJV_A',
+        type: ['CITY','SPRINT']
+    },
+    {
+        name: 'Микрорайон 7А, школа №48',
+        year: 2025,
+        url: './maps/samara/school_48_2025.webp',
+        link: './original_maps/samara/school_48_2025_omaps.gif',
+        bounds: [[53.249982574781214, 50.22186398506165], [53.25018799282134, 50.2305543422699], [53.242535504932995, 50.22220730781556]],
+        author: 'ZNVJV_A',
         owner: 'ZNVJV_A',
         type: ['CITY','SPRINT']
     },

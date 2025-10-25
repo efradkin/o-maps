@@ -405,7 +405,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/vgu.html'
     },
     USHNV: { name: 'Ушанов В.' },
-    USNKO: { name: 'Усенко Сергей' },
+    USNKO: { name: 'Усенко Сергей' }, // Беларусь
     VRBJV_S: { name: 'Воробьёв Сергей' },
     VRBY: {
         name: 'Воробей Сергей', //Валерьянович
@@ -564,7 +564,7 @@ let authors = {
         name: 'Кузьмин Рэм',
         about: 'https://o-moscow.ru/people/KuzminRN.html'
     },
-    KZNN_O: { name: 'Казанин Олег' },
+    KZNN_O: { name: 'Казанин Олег' }, // Саранск
     LKN_A: { name: 'Лукин Андрей' },
     LNTV: { name: 'Леонтьев Игорь' },
     LVN_B: {
