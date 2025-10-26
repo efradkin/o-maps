@@ -1719,13 +1719,14 @@ let events_2025 =
         date: '2025-10-18',
         endDate: '2025-10-19',
         place: 'Выборг, стд Авангард и Кировские дачи',
-        name: 'Золотая осень',
+        name: 'Золотая осень им.Б.В.Фролова',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251019_ZO',
         gps: {
             'Спринт':'https://viewer.o-gps-center.ru/viewer/event/23708/',
             'Классика':'https://viewer.o-gps-center.ru/viewer/event/23707/'
         },
+        reskeep: [809,810],
         photo: 'https://disk.yandex.ru/d/h9cZkNiDfKzFKQ',
         video: 'http://vksport.vkvideo.ru/video-64963384_456263483',
         owner: 'VYBORG'
@@ -1805,6 +1806,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251025_D2RUN_final',
         reg: 'http://orgeo.ru/event/47228',
+        res: 'https://t.me/dlitelnyy/355',
         owner: 'DLT'
     }, {
         date: '2025-10-25',
@@ -1813,7 +1815,8 @@ let events_2025 =
         fmt:  '4',
         type: 'ROGAINE',
         link: 'https://www.multsport.ru/starts/klo-final-25/',
-        reg: 'https://www.multsport.ru/starts/klo-final-25/registration.html',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23740/',
+        res: 'https://t.me/mult_sport/345',
         start: 'MULTSPORT'
     }, {
         date: '2025-10-26',
@@ -1833,14 +1836,21 @@ let events_2025 =
         name: 'Петербургская осень',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251026',
-        reg: 'http://o-reg.spb.ru/?filter[day_id]=1702'
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1702',
+        gps: {
+            'М16/50/55,Ж18/40':'https://viewer.o-gps-center.ru/viewer/event/23751/',
+            'М18/40/45,Ж21/35':'https://viewer.o-gps-center.ru/viewer/event/23748/'
+        },
+        reskeep: 813,
+        me: 'М50'
     }, {
         date: '2025-10-26',
         place: 'Колосково',
         name: 'Чемпионат СПб среди ВУЗов',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251026_St',
-        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1704'
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1704',
+        reskeep: 814
     }, {
         date: '2025-11-04',
         place: 'Ягодное, Берестовое оз',
