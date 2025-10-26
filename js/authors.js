@@ -488,7 +488,7 @@ let authors = {
     FLVSKY_S: { name: 'Фалевский Сергей' },
     FMN_I: { name: 'Фомин Игорь' },
     FRLNA_V: { name: 'Фролина В.' },
-    FSHN_A: { name: 'Фишин А.' },
+    FSHN_A: { name: 'Фишин Александр' },
     GLDRV: {
         name: 'Голдырев Евгений',
         about: 'https://o-moscow.ru/people/GoldyrevEP.html'

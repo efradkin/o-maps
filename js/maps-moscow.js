@@ -5834,6 +5834,16 @@ let moscowMaps = [
         owner: 'TSLSCHVA'
     },
     {
+        name: 'Хорлово, Белая гора',
+        year: 2025,
+        url: './maps/moscow/ak/horlovo_bela_gora_2025.webp',
+        link: './original_maps/moscow/ak/horlovo_bela_gora_2025.gif',
+        bounds: [[55.33973818056078, 38.75822067260743], [55.332244722443285, 38.819246292114265], [55.313565932284334, 38.74852180480958]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23750/',
+        author: 'FSHN_A',
+        owner: 'KRLV_N'
+    },
+    {
         name: 'Патриаршие и Тверская',
         year: 2025,
         logo: 'msk_interes.webp',

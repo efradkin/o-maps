@@ -306,6 +306,9 @@ let owners = {
     KLNN_O: {
         name: '© Калинин Олег, +7 916 683 1372'
     },
+    KRLV_N: {
+        name: '© Крылов Николай'
+    },
     KSTKN_SITE: {
         name: 'Карта доступна в формате OCAD на <a href="http://www.kasatik.ru/sport.aspx?stori=11">сайте Николая Касаткина</a>.'
     },
