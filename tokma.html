@@ -233,8 +233,8 @@
             row = row.replace('#map_img_src', mapImageUrl(m));
             row = row.replace('#map_href', m.link);
             row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(m.url));
-            const year = startYear(m) ?? year(m);
-            row = row.replace('#map_year', year ? year + ' - ' : '');
+            const y = startYear(m) ?? year(m);
+            row = row.replace('#map_year', y ? y + ' - ' : '');
             //row = row.replace('#map_month', m.month);
             row = row.replace('#map_place', m.name);
             let strt;

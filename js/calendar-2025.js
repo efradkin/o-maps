@@ -1852,6 +1852,12 @@ let events_2025 =
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1704',
         reskeep: 814
     }, {
+        date: '2025-11-03',
+        place: 'СНТ Топограф',
+        name: 'Агалатовская средняя',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251103_bn',
+    }, {
         date: '2025-11-04',
         place: 'Ягодное, Берестовое оз',
         name: 'Осенний марафон',
