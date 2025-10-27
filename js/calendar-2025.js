@@ -1322,6 +1322,7 @@ let events_2025 =
         },
         owner: 'SFSO_SPB',
         photo: 'https://cloud.mail.ru/public/XGQt/iRcKxoYBX',
+        video: 'https://youtu.be/EqV2Kq-Uazo',
         map: 'pastorskoe_2024',
         me: 'М50'
     }, {

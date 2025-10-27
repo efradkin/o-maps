@@ -2,6 +2,14 @@
 let rogaineMaps = [
     // --- рогейн ---
     {
+        name: 'Пухтолова гора',
+        url: './maps/rogaine/pukhtolova_gora_tri_o_tlon.webp',
+        link: './original_maps/rogaine/pukhtolova_gora_tri_o_tlon_omaps.jpg',
+        bounds: [[60.25995659645224, 29.649524688720707], [60.25595405228613, 29.699821472167972], [60.228647058275634, 29.639353752136234]],
+        start: 'TRI_O_TLON',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Санкт-Петербург, юг',
         year: 2023,
         url: './maps/rogaine/spb_perekati_piter_2023.webp',

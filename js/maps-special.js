@@ -423,9 +423,10 @@ let specialMaps = [
     {
         name: 'Каннельярви, оз Исток',
         url: './maps/velo/kanneljarvi_velo.webp',
-        link: './original_maps/velo/kanneljarvi_velo_omaps.jpg',
+        info: 'Соревнования посвящённые памяти Бориса Панкратьева.',
+        link: ['./original_maps/velo/kanneljarvi_velo_omaps.jpg','./original_maps/velo/kanneljarvi_velo_2006_omaps.gif'],
         bounds: [[60.37832076259013, 29.283456802368168], [60.370641185033705, 29.37950134277344], [60.343260013555195, 29.272127151489258]],
-        author: 'RYLOV_V',
+        author: ['VSLVSKY','SHRNN','RYLOV_V'],
         owner: 'RYLOV_V',
         type: ['VELO']
     },
