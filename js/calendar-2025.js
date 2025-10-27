@@ -1839,7 +1839,8 @@ let events_2025 =
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1702',
         gps: {
             'М16/50/55,Ж18/40':'https://viewer.o-gps-center.ru/viewer/event/23751/',
-            'М18/40/45,Ж21/35':'https://viewer.o-gps-center.ru/viewer/event/23748/'
+            'М18/40/45,Ж21/35':'https://viewer.o-gps-center.ru/viewer/event/23748/',
+            'М60/65,Ж16/45/50':'https://viewer.o-gps-center.ru/viewer/event/23762/'
         },
         reskeep: 813,
         me: 'М50'
@@ -1851,6 +1852,12 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251026_St',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1704',
         reskeep: 814
+    }, {
+        date: '2025-11-02',
+        place: 'Политехнический парк',
+        name: 'УниверЛига Регионов',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251102_univerliga',
     }, {
         date: '2025-11-03',
         place: 'СНТ Топограф',

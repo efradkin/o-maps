@@ -401,6 +401,15 @@ let ryazanMaps = [
         owner: 'GUSEV_B'
     },
     {
+        name: 'Кельцы-узкоколейка',
+        year: 2025,
+        url: './maps/ryazan/keltsy_railroad_2025.webp',
+        link: './original_maps/ryazan/keltsy_railroad_2025_omaps.gif',
+        bounds: [[54.91646270509485, 39.95328426361085], [54.913650630540204, 39.97761726379395], [54.896403877082506, 39.946374893188484]],
+        author: 'GUSEV_B',
+        owner: 'GUSEV_B'
+    },
+    {
         name: 'Кирицы',
         year: 2017,
         url: './maps/ryazan/kiritsy_2017.webp',
