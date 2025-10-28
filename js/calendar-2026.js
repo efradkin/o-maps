@@ -100,6 +100,12 @@ let events_2026 =
         fmt: 'спринт',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-05-02',
+        name: 'Мемориал Ирины Вилениновны Степановой',
+        type: 'ORIENT',
+        fmt: 'классика',
+        start: 'HARD'
+    },{
         date: '2026-05-09',
         name: 'Памяти дня Победы',
         type: 'ORIENT',

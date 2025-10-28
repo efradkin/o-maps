@@ -1817,6 +1817,7 @@ let events_2025 =
         type: 'ROGAINE',
         link: 'https://www.multsport.ru/starts/klo-final-25/',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23740/',
+        photo: 'https://vk.ru/album-8292013_311531540',
         res: 'https://t.me/mult_sport/345',
         start: 'MULTSPORT'
     }, {
