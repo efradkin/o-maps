@@ -23,6 +23,12 @@ let historyDocs = [
         link: './docs/sov_sport_1969_article_omaps.jpg'
     },
     {
+        name: 'Золотые кольца',
+        date: '1969-11-16',
+        info: 'Приглашение. Карты можно найти <a href="map-info.html?map=lobnia_1969">тут</a>.',
+        link: './docs/1969_lobnia_welcome_omaps.jpg'
+    },
+    {
         name: 'Программа',
         start: 'USSR_1981',
         year: 1981,

@@ -3257,6 +3257,14 @@ let moscowMaps = [
         owner: 'NLTV_D'
     },
     {
+        name: 'Мышецкое, оз Круглое',
+        date: '1969-11-16',
+        url: './maps/moscow/lr/lobnia_1969.webp',
+        link: ['./original_maps/moscow/lr/lobnia_1969_M_omaps.jpg','./original_maps/moscow/lr/lobnia_1969_W_omaps.jpg'],
+        info: 'Закрытие сезона. Золотые кольца (<a href="./docs/1969_lobnia_welcome_omaps.jpg">приглашение</a>).',
+        bounds: [[56.07251453293933, 37.27060317993165], [56.08496803259325, 37.33428955078126], [56.02668935621428, 37.29583740234376]],
+    },
+    {
         name: 'Агафониха',
         year: 1983,
         url: './maps/moscow/ak/agafoniha_1983.webp',
