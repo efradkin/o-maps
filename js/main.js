@@ -992,7 +992,7 @@ function mapTitle(m, forStart, colored) {
     if (m.gpx) { // трек
         result += '<span class="' + m.type[0] + '">';
     }
-    result += m.name;
+    result += m.name ?? 'Нечто';
     let y = year(m);
     if (y) {
         let year = y > 1 ? y : 'ретро';
@@ -1111,7 +1111,8 @@ function buildPopup(m, latLngs) {
     result += '&nbsp;-&nbsp;' + area + '&nbsp;км<sup>2</sup>';
 
     // ссылка на страничку инфа
-    result += ' <a class="map-info-link" href="./map-info.html?map=' + extractFileName(m.url) + '" title="Информация о карте">🔗</a>';
+    let url = m.url ?? getFirstLink(m);
+    result += ' <a class="map-info-link" href="./map-info.html?map=' + extractFileName(url) + '" title="Информация о карте">🔗</a>';
 
     result += '</b><hr />';
 
@@ -1189,11 +1190,11 @@ function buildPopup(m, latLngs) {
         if (isMapHidden(m)) {
             result += 'Просмотр карты не разрешён правообладателем или не уместен.';
         } else {
-            result += 'Посмотреть карту отдельно можно <a href="' + m.url + '">тут</a>.';
+            result += 'Посмотреть карту отдельно можно <a href="' + url + '">тут</a>.';
         }
     }
     if (!isMapHidden(m)) {
-        let mapLinkUrl = mapLink(m.url);
+        let mapLinkUrl = mapLink(url);
         let onclick = 'onclick="copyToClipboard(\'' + mapLinkUrl + '\'); return false;"';
         result += '<br />Поделиться <a href="' + mapLinkUrl + '">ссылкой</a> на карту: <a href="#" ' + onclick + '><img src="./images/copy.png" alt="Copy" title="Copy" style="margin-bottom: -3px;" /></a>';
     }
@@ -1204,7 +1205,7 @@ function buildPopup(m, latLngs) {
     }
 
     // скрыть карту
-    let onclick = 'onclick="hideMap(map, \'' + m.url + '\', ' + isMapHidden(m) + ', \'' + m.name + '\', ' + year(m) + '); return false;"';
+    let onclick = 'onclick="hideMap(map, \'' + url + '\', ' + isMapHidden(m) + ', \'' + m.name + '\', ' + year(m) + '); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть эту карту</a></div>';
 
     if (logo) {

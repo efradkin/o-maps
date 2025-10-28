@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.83">
+    <title>Неизвестные карты</title>
+    <meta name="description" content="Неизвестные карты.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <meta property="og:title" content="Неизвестные карты">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Неизвестные карты.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body help-body stat-body sheet-body">
+    <h1 class="text-center"> <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a></h1>
+    <h2 class="text-center">Карты, про которые недостаточно информации</h2>
+
+    <div class="container">
+        <section>Если Вам что-то известно про эти карты, <a href="help/contacts.html">сообщите мне</a> пожалуйста. Спасибо заранее!</section>
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="map-tiles-tab" data-bs-toggle="tab" data-bs-target="#map-tiles" type="button" role="tab" aria-controls="map-tiles" aria-selected="true">Карты</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="maps-list-tab" data-bs-toggle="tab" data-bs-target="#maps-list" type="button" role="tab" aria-controls="maps-list" aria-selected="false">Список</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="map-tiles" role="tabpanel" aria-labelledby="map-tiles-tab">
+                <div class="start-maps-wrapper"></div>
+            </div>
+            <div class="tab-pane fade" id="maps-list" role="tabpanel" aria-labelledby="maps-list-tab">
+                <div class="o-sheet-wrapper" style="height: calc(100vh - 340px);">
+                    <table class="o-main-table o-sheet">
+                        <thead>
+                        <tr>
+                            <th>&nbsp</th>
+                            <th data-sort="name" class="sortable" id="name-column" data-order="asc">Название</th>
+                            <th data-sort="year" class="sortable" id="year-column" style="text-align: left">Дата</th>
+                            <th>Файлы</th>
+                            <th>Инфо</th>
+                        </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/ext/leaflet.js"></script>
+    <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
+    <script src="js/ext/GeometryUtil.js"></script>
+
+    <script src="js/maps-unknown.js"></script>
+
+    <script src="js/welcome.js"></script>
+    <script src="js/starts.js"></script>
+    <script src="js/authors.js"></script>
+    <script src="js/owners.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/utils-common.js"></script>
+
+    <script>
+        let loadImagesRequired = false;
+        let mapsOnStore = false;
+        let documentsPage = true;
+        let unknownPage = true;
+
+        let oMaps = [
+            ...unknownMaps,
+        ];
+        writeWelcomeButton();
+    </script>
+
+    <script src="js/map-build.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sheet.js"></script>
+    <script>
+
+        // Фильтрация массива. Оставляем только карты нужного старта.
+        //oMaps = oMaps.filter(m => (m.layer !== undefined));
+        oMaps.sort((b, a) => ((startYear(b) || (year(b) || 9999)) - (startYear(a) || (year(a) || 9999))));
+
+        let container = document.querySelector('.start-maps-wrapper');
+        oMaps.forEach(m => {
+            let row = `
+                    <div class="start-map-box align-items-center d-flex justify-content-center">
+                        <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_year#map_place#map_start#map_info"/></a>
+                    </div>
+            `;
+            let link = m.link;
+            if (Array.isArray(m.link)) {
+                link = m.link[0];
+            }
+            row = row.replace('#map_img_src', link);
+            row = row.replace('#map_href', link);
+            row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(link));
+            let y = startYear(m) ?? year(m);
+            if (y) {
+                y = y > 1 ? y : 'Ретро';
+            }
+            row = row.replace('#map_year', y ? y + ' - ' : '');
+            //row = row.replace('#map_month', m.month);
+            row = row.replace('#map_place', m.name ?? 'Нечто');
+            let strt;
+            if (m.start) {
+                if (Array.isArray(m.start)) {
+                    strt = clean(starts[m.start[0]].name);
+                } else {
+                    strt = clean(starts[m.start].name);
+                }
+            }
+            row = row.replace('#map_start', strt ? '\n' + strt + '. ' : '');
+            row = row.replace('#map_info', m.info ? (strt ? '' : '\n') + clean(m.info) : '');
+            const elRow = document.createElement("div");
+            elRow.classList.add("row");
+            elRow.innerHTML = row;
+            container.appendChild(elRow);
+        });
+    </script>
+
+    <script src="js/ext/bootstrap.min.js"></script>
+</body>
+</html>

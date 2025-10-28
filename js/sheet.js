@@ -34,8 +34,8 @@ window.onload = function() {
     }
     if (START_NAME_PARAM || isDocumentsPage()) {
         document.querySelector('.o-sheet').classList.add("start-sheet");
-        let yearTH = document.getElementById('year-column');
-        yearTH.click();
+        let th = document.getElementById(isUnknownPage() ? 'name-column' : 'year-column');
+        th.click();
     }
 }
 
@@ -79,7 +79,9 @@ function renderMapsTable() {
         td(m, row, i + 1);
         td(m, row, buildName(m));
         td(m, row, buildYear(m));
-        td(m, row, buildStart(m));
+        if (!isUnknownPage()) {
+            td(m, row, buildStart(m));
+        }
         td(m, row, buildDownloadLinks(m.link, m.links));
         td(m, row, buildInfo(m));
         if (!isDocumentsPage()) {
@@ -88,11 +90,13 @@ function renderMapsTable() {
                 td(m, row, buildGpsLinks(m));
             }
         }
-        let authors = buildAuthors(m, true);
-        if (authors) {
-            hasAuthors = true;
+        if (!isUnknownPage()) {
+            let authors = buildAuthors(m, true);
+            if (authors) {
+                hasAuthors = true;
+            }
+            td(m, row, authors);
         }
-        td(m, row, authors);
         if (!mapsOnStore) {
             if (!isDocumentsPage()) {
                 let planners = buildPlanners(m);
@@ -113,7 +117,7 @@ function renderMapsTable() {
 
 function td(m, row, html) {
     const td = document.createElement('td');
-    td.innerHTML = ((isMajor(m) && !isDocumentsPage()) ? '<b>' : '') + html + ((isMajor(m) && !isDocumentsPage()) ? '</b>' : '');
+    td.innerHTML = (isMajor(m) ? '<b>' : '') + html + (isMajor(m) ? '</b>' : '');
     row.appendChild(td);
 }
 
@@ -122,10 +126,11 @@ function buildName(m) {
     if (m.logo) {
         result += '<img src="./logo/' + m.logo + '" alt="" class="sheet-icon" /> ';
     }
-    if (!isDocumentsPage()) {
-        result += '<a href="' + mapLink(m.url, m) + '">' + m.name + '</a>';
+    let name = m.name ?? 'Нечто';
+    if (m.url) {
+        result += '<a href="' + mapLink(m.url, m) + '">' + name + '</a>';
     } else {
-        result += m.name;
+        result += name;
     }
     if (m.me) {
         result += ` <sup class="my-race">${m.me}</sup>`;
@@ -143,7 +148,7 @@ function buildYear(m) {
             result = date;
         }
         else {
-            result = m.year;
+            result = m.year ?? m.date;
         }
     } else {
         let sy = startYear(m);
@@ -207,8 +212,16 @@ function buildInfo(m) {
     }
     if (isDocumentsPage()) {
         let planner = m.planner;
-        if (!planner && m.start && starts[m.start].planner) {
-            planner = starts[m.start].planner;
+        if (!planner && m.start) {
+            let start = m.start;
+            if (start) {
+                if (Array.isArray(start)) {
+                    start = start[0];
+                }
+                if (starts[start].planner) {
+                    planner = starts[start].planner;
+                }
+            }
         }
         if (planner) {
             if (Array.isArray(planner)) {
@@ -247,7 +260,9 @@ function sortMapsTable() {
     switch (this.dataset.sort) {
         case 'name':
             oMaps.sort((a, b) => {
-                return isAscending ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name);
+                let aName = a.name ?? 'Нечто';
+                let bName = b.name ?? 'Нечто';
+                return isAscending ? aName.localeCompare(bName) : bName.localeCompare(aName);
             });
             break;
         case 'start':

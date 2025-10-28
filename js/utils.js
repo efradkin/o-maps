@@ -73,18 +73,22 @@ function formatDate(o, withYear, withDayOfWeek) { // map, track, event with ".da
         return '';
     }
     const date = new Date(o.date);
-    const day = date.getDate();
-    const month = MONTHS_SHORT[date.getMonth()];
-    const year = date.getFullYear();
-    const dayWeek = WEAK_DAYS_SHORT[date.getDay()];
-    if (withYear && withDayOfWeek) {
-        return `${day} ${month} ${year} (${dayWeek})`;
-    } else if (withYear && !withDayOfWeek) {
-        return `${day} ${month} ${year}`;
-    } else if (!withYear && withDayOfWeek) {
-        return `${day} ${month} (${dayWeek})`;
+    if (!isNaN(date.getTime())) {
+        const day = date.getDate();
+        const month = MONTHS_SHORT[date.getMonth()];
+        const year = date.getFullYear();
+        const dayWeek = WEAK_DAYS_SHORT[date.getDay()];
+        if (withYear && withDayOfWeek) {
+            return `${day} ${month} ${year} (${dayWeek})`;
+        } else if (withYear && !withDayOfWeek) {
+            return `${day} ${month} ${year}`;
+        } else if (!withYear && withDayOfWeek) {
+            return `${day} ${month} (${dayWeek})`;
+        } else {
+            return `${day} ${month}`;
+        }
     } else {
-        return `${day} ${month}`;
+        return '';
     }
 }
 
@@ -343,8 +347,16 @@ function inFrame(bounds, layer) {
 
 function getMapForName(fileName) {
     for (const m of oMaps) {
-        if (m.url.includes(fileName)) {
-            return m;
+        if (m.url) {
+            if (m.url.includes(fileName)) {
+                return m;
+            }
+        }
+        let link = getFirstLink(m);
+        if (link) {
+            if (link.includes(fileName)) {
+                return m;
+            }
         }
     }
 }
@@ -573,6 +585,14 @@ function link(url) {
     }
 }
 
+function getFirstLink(m) {
+    let link = m.link;
+    if (Array.isArray(link)) {
+        link = link[0];
+    }
+    return link;
+}
+
 function hasOCAD(m) {
     let links = m.link;
     if (links) {
@@ -722,6 +742,10 @@ function downloadSheetTable(fileName) {
 
 function isDocumentsPage() {
     return typeof documentsPage != 'undefined' && documentsPage;
+}
+
+function isUnknownPage() {
+    return typeof unknownPage != 'undefined' && unknownPage;
 }
 
 function showSpinner() {

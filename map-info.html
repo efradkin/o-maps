@@ -132,6 +132,7 @@
     <script src="js/maps-rogaine-rfar.js"></script>
     <script src="js/maps-moscow.js"></script>
     <script src="js/maps-other.js"></script>
+    <script src="js/maps-unknown.js"></script>
     <script src="js/maps-serbia.js"></script>
 
     <script src="js/starts.js"></script>
@@ -157,6 +158,7 @@
             ...pskStartsMaps,
             ...ksStartsMaps,
             ...serbiaMaps,
+            ...unknownMaps,
             ...otherMaps,
             ...moscowMaps,
             ...rogaineRfarMaps,
@@ -185,7 +187,7 @@
     <script src="js/main.js"></script>
     <script>
         let mn = getMapForName(MAP_NAME_PARAM);
-        if ('KKM' === mn.start || mn.url.includes('KKM')) {
+        if ('KKM' === mn.start || (mn.url && mn.url.includes('KKM'))) {
             location.href = './map-info-kkm.html' + location.search;
         }
     </script>

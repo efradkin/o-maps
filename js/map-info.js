@@ -1,5 +1,6 @@
 let m = getMapForName(MAP_NAME_PARAM);
-document.getElementById('map_title').href = mapLink(m.url, m);
+let url = m.url ?? m.link;
+document.getElementById('map_title').href = mapLink(url, m);
 let elName = document.getElementById('map_name');
 if (elName) {
     elName.innerHTML = mapTitle(m, true, false);
@@ -28,7 +29,7 @@ if (!isMapHidden(m)) {
         }
     }
     if (!previews) {
-        previews = MAP_TEMPLATE.replace('#img_src', m.url).replace('#preview_href', '#');
+        previews = MAP_TEMPLATE.replace('#img_src', url).replace('#preview_href', '#');
     }
 } else {
     putValue('#map_hidden', ' ');
