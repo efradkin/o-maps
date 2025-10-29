@@ -671,6 +671,7 @@ let zelikMaps = [
         name: 'Сестрорецк, Детские Дюны',
         year: 2010,
         url: './maps/forest/zelik/sestroretskie_detskie_djuny_2010.webp',
+        link: './original_maps/forest/zelik/sestroretskie_detskie_djuny_2010_omaps.jpg',
         bounds: [[60.12263330653698, 29.957356452941898], [60.1222805664083, 29.972226619720463], [60.11693555646363, 29.956669807434086]],
         author: 'SHRNN'
     },
@@ -678,9 +679,18 @@ let zelikMaps = [
         name: 'Сестрорецк, Детские Дюны',
         year: 2005,
         url: './maps/forest/zelik/sestroretskie_detskie_djuny_2005.webp',
+        link: './original_maps/forest/zelik/sestroretskie_detskie_djuny_2005_omaps.jpg',
         bounds: [[60.12263330653698, 29.957227706909183], [60.12231263384891, 29.972097873687748], [60.11691417468124, 29.956712722778324]],
         author: 'SHRNN',
         excluded: true
+    },
+    {
+        name: 'Сестрорецк, Детские Дюны',
+        year: 2020,
+        url: './maps/forest/zelik/sestroretskie_detskie_djuny_2020.webp',
+        link: './original_maps/forest/zelik/sestroretskie_detskie_djuny_2020_omaps.gif',
+        bounds: [[60.122964665032725, 29.962162971496586], [60.12140404426768, 29.974372386932377], [60.117694600742524, 29.95905160903931]],
+        author: ['SHRNN','BBCH_A','KUZNTSV_A'],
     },
     {
         name: 'Сестрорецк, Дюны, ТЭЦ',

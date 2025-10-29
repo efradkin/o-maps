@@ -135,6 +135,28 @@ let wnStartsMaps = [
         bounds: [[60.605129580079435, 29.91100788116455], [60.60102184727174, 29.96332168579102], [60.58724132659432, 29.90637302398682]]
     },
     {
+        name: 'Мичуринское, Раздельные оз',
+        region: 'starts',
+        start: 'WN',
+        date: '2015-06-20',
+        info: '<a href="https://o-site.spb.ru/race.php?id=15061621">Инфо и результаты.</a>',
+        url: './maps/starts/wn/wn_2015_06_20.webp',
+        link: './original_maps/starts/wn/wn_2015_06_20_omaps.gif',
+        bounds: [[60.597061076612974, 29.896287918090824], [60.594321961662295, 29.932165145874027], [60.57442480242727, 29.889464378356934]],
+        author: ['MKHLV_A','SLBDNK']
+    },
+    {
+        name: 'Мичуринское, Раздельные оз',
+        region: 'starts',
+        start: 'WN',
+        date: '2015-06-21',
+        info: '<a href="https://o-site.spb.ru/race.php?id=15061621">Инфо и результаты.</a>',
+        url: './maps/starts/wn/wn_2015_06_21.webp',
+        link: './original_maps/starts/wn/wn_2015_06_21_omaps.gif',
+        bounds: [[60.62408157424831, 29.906287193298343], [60.62022890369775, 29.95804309844971], [60.60614063414057, 29.90087985992432]],
+        author: ['MKHLV_A','SLBDNK']
+    },
+    {
         name: 'Воробьёво оз',
         region: 'starts',
         date: '2017-06-03',

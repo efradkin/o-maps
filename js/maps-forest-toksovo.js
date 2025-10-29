@@ -443,6 +443,14 @@ let toksovoMaps = [
         owner: 'SHEIN'
     },
     {
+        name: 'Кузьмолово',
+        year: 2017,
+        url: './maps/forest/toksovo/kuzmolovo_2017.webp',
+        link: './original_maps/forest/toksovo/kuzmolovo_2017_omaps.gif',
+        bounds: [[60.11902021357004, 30.512294769287113], [60.115663316243925, 30.548472404479984], [60.10894849471909, 30.509977340698246]],
+        author: 'TKMKV'
+    },
+    {
         name: 'Токсово, Охта-Парк',
         year: 2001,
         url: './maps/forest/toksovo/toksovo_okhta_park_2001.webp',

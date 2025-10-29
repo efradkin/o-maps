@@ -305,9 +305,9 @@ let mmsStartsMaps = [
         region: 'starts',
         start: 'MMS',
         year: 2014,
-        info: 'Сводная карта всех дней. <a href="https://o-site.spb.ru/race.php?id=14062729">Инфо и результаты.</a>',
+        info: 'Сводная карта всех дней + детская дистанция. <a href="https://o-site.spb.ru/race.php?id=14062729">Инфо и результаты.</a>',
         url: './maps/starts/mms/mms_2014_polyany.webp',
-        link: './original_maps/starts/mms/mms_2014_polyany.pdf',
+        link: ['./original_maps/starts/mms/mms_2014_polyany.pdf','./original_maps/starts/mms/mms_2014_kids_omaps.jpg'],
         bounds: [[60.323314604072536, 29.266247749328617], [60.314963226000366, 29.337916374206543], [60.292576103048674, 29.252300262451175]],
         author: 'SHRNN',
         planner: 'TLNV_A'
