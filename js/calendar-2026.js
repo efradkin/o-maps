@@ -120,9 +120,9 @@ let events_2026 =
     },{
         date: '2026-05-11',
         name: 'ЧиП СПб',
-        place: 'Поляны',
+        place: 'Аньялово',
         type: 'ORIENT',
-        fmt: 'масстарт',
+        fmt: 'классика',
         owner: 'SFSO_SPB'
     },{
         date: '2026-05-23',
@@ -209,18 +209,11 @@ let events_2026 =
         fmt: 'масстарт',
         owner: 'SFSO_SPB'
     },{
-        date: '2026-08-29',
-        name: 'ЧиП СПб',
-        place: 'Вещево',
-        type: 'ORIENT',
-        fmt: 'лонг',
-        owner: 'SFSO_SPB'
-    },{
         date: '2026-08-30',
         name: 'ЧиП СПб',
         place: 'Вещево',
         type: 'ORIENT',
-        fmt: 'эстафета 3х',
+        fmt: 'лонг',
         owner: 'SFSO_SPB'
     },{
         date: '2026-09-13',
@@ -250,7 +243,7 @@ let events_2026 =
         owner: 'SFSO_SPB'
     },{
         date: '2026-09-27',
-        name: 'Марафон на холмах Яппиля',
+        name: 'Марафон на холмах Яппиля, ЧиП СПб',
         place: 'Яппиля',
         type: 'ORIENT',
         fmt: 'лонг',
@@ -271,9 +264,9 @@ let events_2026 =
     },{
         date: '2026-10-11',
         name: 'ЧиП СПб',
-        place: 'Аньялово',
+        place: 'Поляны',
         type: 'ORIENT',
-        fmt: 'классика',
+        fmt: 'эстафета 3х',
         owner: 'SFSO_SPB'
     },{
         date: '2026-10-18',
