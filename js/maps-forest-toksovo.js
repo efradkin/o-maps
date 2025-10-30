@@ -660,6 +660,15 @@ let toksovoMaps = [
     },
     {
         name: 'Лехтуси',
+        year: 1,
+        url: './maps/forest/toksovo/lehtusi_old.webp',
+        link: './original_maps/forest/toksovo/lehtusi_old_omaps.jpg',
+        info: '<a href="./original_maps/forest/toksovo/lehtusi_old_draft_omaps.jpg">Черновой эскиз</a>.',
+        bounds: [[60.3206585449614, 30.498733520507816], [60.31934105948195, 30.60928344726563], [60.24522141278221, 30.49315452575684]],
+        author: 'KRCHNKO_S',
+    },
+    {
+        name: 'Лехтуси',
         year: 1990,
         url: './maps/forest/toksovo/lehtusi_1990.webp',
         link: './original_maps/forest/toksovo/lehtusi_1990_omaps.jpg',
