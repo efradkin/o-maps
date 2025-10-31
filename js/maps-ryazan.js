@@ -1096,5 +1096,78 @@ let ryazanMaps = [
         author: ['VEKOVISCH','ANDREYK'],
         owner: 'ANDREYK',
         type: ['PARK']
+    },
+
+    /*   Ночная ПРАГулка   */
+
+    {
+        name: 'р Пра, Бельское',
+        date: '2016-07-16',
+        url: './maps/ryazan/npw_2016.webp',
+        link: './original_maps/ryazan/npw_2016_omaps.gif',
+        bounds: [[54.78945253994424, 40.40539741516114], [54.77178128781134, 40.58538436889649], [54.708606629044674, 40.381793975830085]],
+        author: ['VNKRV_V','GUSEV_B','KRTNKO'],
+        start: 'NPW',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'р Пра, Деулино',
+        date: '2017-07-15',
+        url: './maps/ryazan/npw_2017.webp',
+        link: './original_maps/ryazan/npw_2017_omaps.gif',
+        bounds: [[54.92847347780156, 40.27227401733399], [54.917770006180895, 40.402050018310554], [54.82254678889676, 40.24472236633301]],
+        author: ['VNKRV_V','GUSEV_B','KRTNKO','SHIBANOV_A','SHIBANOV_V'],
+        start: 'NPW',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'р Пра, Фомино',
+        date: '2018-07-14',
+        url: './maps/ryazan/npw_2018.webp',
+        link: './original_maps/ryazan/npw_2018_omaps.gif',
+        bounds: [[55.217383722903165, 39.977552890777595], [55.19978975078116, 40.13065338134766], [55.107984213460355, 39.93804931640626]],
+        author: ['VNKRV_V','GUSEV_B','KRTNKO'],
+        start: 'NPW',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'р Пра, Гришино',
+        date: '2019-07-13',
+        url: './maps/ryazan/npw_2019.webp',
+        link: './original_maps/ryazan/npw_2019_omaps.gif',
+        bounds: [[55.072519829061726, 40.20498275756837], [55.05880702060849, 40.36145210266113], [54.96559293752828, 40.17700195312501]],
+        author: ['VNKRV_V','GUSEV_B','KRTNKO'],
+        start: 'NPW',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'р Пра, Киструсская старица',
+        date: '2021-07-17',
+        url: './maps/ryazan/npw_2021.webp',
+        link: './original_maps/ryazan/npw_2021_omaps.gif',
+        bounds: [[54.44269497088438, 40.53817749023438], [54.38795488075699, 40.94295501708985], [54.31992756299909, 40.49594879150391]],
+        author: ['KRTNKO','VNKRV_V','GUSEV_B'],
+        start: 'NPW',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'р Пра, Клепиковские оз',
+        date: '2023-07-01',
+        url: './maps/ryazan/npw_2023.webp',
+        link: './original_maps/ryazan/npw_2023_omaps.gif',
+        bounds: [[55.27838197466847, 39.98242378234864], [55.259824539469925, 40.14146804809571], [55.15494324944684, 39.93925094604493]],
+        author: ['VNKRV_V','GUSEV_B','KRTNKO','NVKV_S'],
+        start: 'NPW',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'р Пра, Деулино',
+        date: '2025-07-12',
+        url: './maps/ryazan/npw_2025.webp',
+        link: './original_maps/ryazan/npw_2025_omaps.gif',
+        bounds: [[54.84326017779287, 40.32402992248536], [54.816760960926395, 40.4978370666504], [54.76346273277833, 40.29510498046876]],
+        author: ['VNKRV_V','GUSEV_B','KRTNKO','NVKV_S'],
+        start: 'NPW',
+        type: ['ROGAINE']
     }
 ];

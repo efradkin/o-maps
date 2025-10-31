@@ -1866,6 +1866,7 @@ let events_2025 =
         name: 'Агалатовская средняя',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251103_bn',
+        reg: 'https://orgeo.ru/event/info/47191'
     }, {
         date: '2025-11-04',
         place: 'Ягодное, Берестовое оз',
@@ -1873,6 +1874,7 @@ let events_2025 =
         type: 'ORIENT',
         fmt: 'лонг',
         link: 'https://o-site.spb.ru/race.php?id=251104_OM',
+        reg: 'https://o-reg.spb.ru/?filter[day_id]=1703'
     }, {
         date: '2025-11-04',
         place: 'Будогощь',

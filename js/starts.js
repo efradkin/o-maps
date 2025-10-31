@@ -362,6 +362,13 @@ let starts = {
         name: 'Тропаревские четверги',
         logo: 'tropa_thirsday.jpg'
     },
+    /* --- РЯЗАНЬ --- */
+    NPW: {
+        short: 'Ночная ПРАгулка',
+        name: 'Водная приключенческая гонка "Ночная ПРАгулка"',
+        logo: 'pragulka.gif',
+        rogaine: true
+    },
     /* --- ТРЕКИ --- */
     OOPTSPB: {
         short: 'ООПТ СПб',
