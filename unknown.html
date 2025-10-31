@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.83">
-    <title>Неизвестные карты</title>
-    <meta name="description" content="Неизвестные карты.">
+    <title>o-Maps: Неизвестные карты</title>
+    <meta name="description" content="o-Maps: Неизвестные карты.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css"/>
 
-    <meta property="og:title" content="Неизвестные карты">
+    <meta property="og:title" content="o-Maps: Неизвестные карты">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Неизвестные карты.">
+    <meta property="og:description" content="o-Maps: Неизвестные карты.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <!-- Yandex.Metrika counter -->
@@ -109,8 +109,9 @@
         let container = document.querySelector('.start-maps-wrapper');
         oMaps.forEach(m => {
             let row = `
-                    <div class="start-map-box align-items-center d-flex justify-content-center">
-                        <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_year#map_place#map_start#map_info"/></a>
+                    <div class="start-map-box" style="text-align: center;">
+                        <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_place#map_start#map_year#map_info"/></a>
+                        <div style="font-size: 12px;">#map_place #map_start #map_year <br /> #map_info</div>
                     </div>
             `;
             let link = m.link;
@@ -124,9 +125,9 @@
             if (y) {
                 y = y > 1 ? y : 'Ретро';
             }
-            row = row.replace('#map_year', y ? y + ' - ' : '');
+            row = row.replaceAll('#map_year', y ? ' - ' + y : '');
             //row = row.replace('#map_month', m.month);
-            row = row.replace('#map_place', m.name ?? 'Нечто');
+            row = row.replaceAll('#map_place', m.name ?? 'Нечто');
             let strt;
             if (m.start) {
                 if (Array.isArray(m.start)) {
@@ -135,8 +136,8 @@
                     strt = clean(starts[m.start].name);
                 }
             }
-            row = row.replace('#map_start', strt ? '\n' + strt + '. ' : '');
-            row = row.replace('#map_info', m.info ? (strt ? '' : '\n') + clean(m.info) : '');
+            row = row.replaceAll('#map_start', strt ? '\n' + strt + '. ' : '');
+            row = row.replaceAll('#map_info', m.info ? (strt ? '' : '\n') + clean(m.info) : '');
             const elRow = document.createElement("div");
             elRow.classList.add("row");
             elRow.innerHTML = row;

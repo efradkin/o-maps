@@ -7,6 +7,7 @@ let unknownMaps = [
     },
     {
         year: 1,
+        name: 'Энколово',
         link: './original_maps/unknown/unknown_2_omaps.jpg',
     },
     {
@@ -31,10 +32,12 @@ let unknownMaps = [
     },
     {
         year: 1,
+        name: 'Энколово',
         link: './original_maps/unknown/unknown_8_omaps.jpg',
     },
     {
         year: 1,
+        name: 'Кузьмолово, Токсово',
         link: './original_maps/unknown/unknown_9_omaps.jpg',
     },
     {
@@ -59,10 +62,12 @@ let unknownMaps = [
     },
     {
         year: 1,
+        name: 'Сярьги, Охта-Парк',
         link: './original_maps/unknown/unknown_14_omaps.jpg',
     },
     {
         year: 1,
+        name: 'Гарболово, Змеиное оз',
         link: './original_maps/unknown/unknown_15_omaps.jpg',
     },
     {
@@ -71,12 +76,8 @@ let unknownMaps = [
     },
     {
         year: 1,
+        name: 'Корабсельки',
         link: './original_maps/unknown/unknown_17_omaps.jpg',
-    },
-    {
-        year: 1979,
-        info: 'XXX слёт ЦСТ МАИ',
-        link: './original_maps/unknown/unknown_18_omaps.jpg',
     },
     {
         year: 1,
@@ -86,7 +87,7 @@ let unknownMaps = [
     {
         year: 1973,
         name: 'Тарасово',
-        info: 'Бурвестник',
+        info: 'Буревестник',
         link: './original_maps/unknown/unknown_20_omaps.jpg',
     },
     {
@@ -96,6 +97,7 @@ let unknownMaps = [
     },
     {
         year: 1,
+        name: 'Охта-Парк',
         link: './original_maps/unknown/unknown_22_omaps.jpg',
     },
     {
