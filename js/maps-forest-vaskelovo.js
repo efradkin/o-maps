@@ -250,6 +250,14 @@ let vaskelovoMaps = [
         author: ['BYMKV','SMRNV_A','RMNTSV_S','GRV_K']
     },
     {
+        name: 'Стеклянный, оз Маролампи',
+        year: 1977,
+        start: 'WEDDING',
+        url: './maps/forest/vaskelovo/marolampi_1977.webp',
+        link: './original_maps/forest/vaskelovo/marolampi_1977_omaps.jpg',
+        bounds: [[60.379254068536234, 30.25239944458008], [60.369686414921595, 30.28518676757813], [60.36491214475014, 30.236134529113773]],
+    },
+    {
         name: 'Керро',
         year: 1988,
         url: './maps/forest/vaskelovo/kerro_1988.webp',

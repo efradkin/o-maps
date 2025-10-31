@@ -435,6 +435,13 @@ let toksovoMaps = [
     },
     {
         name: 'Кузьмолово, Зона-Z',
+        date: '1983-01-30',
+        url: './maps/forest/toksovo/kuzmolovo_zona_z_1983.webp',
+        link: './original_maps/forest/toksovo/kuzmolovo_zona_z_1983_omaps.jpg',
+        bounds: [[60.129131599820425, 30.51735877990723], [60.12849037793774, 30.563921928405765], [60.11393127995336, 30.516800880432132]],
+    },
+    {
+        name: 'Кузьмолово, Зона-Z',
         year: 2018,
         url: './maps/forest/toksovo/kuzmolovo_zona_z_2018.webp',
         link: './original_maps/forest/toksovo/kuzmolovo_zona_z_2018_omaps.jpg',

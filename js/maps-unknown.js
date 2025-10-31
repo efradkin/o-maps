@@ -51,11 +51,6 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_11_omaps.jpg',
     },
     {
-        year: 1983,
-        name: 'Кузьмолово, Зона-Z',
-        link: './original_maps/unknown/unknown_12_omaps.jpg',
-    },
-    {
         year: 1,
         name: 'Петяярви',
         link: './original_maps/unknown/unknown_13_omaps.jpg',
@@ -69,10 +64,6 @@ let unknownMaps = [
         year: 1,
         name: 'Гарболово, Змеиное оз',
         link: './original_maps/unknown/unknown_15_omaps.jpg',
-    },
-    {
-        year: 1977,
-        link: './original_maps/unknown/unknown_16_omaps.jpg',
     },
     {
         year: 1,
