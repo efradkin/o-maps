@@ -449,4 +449,16 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
+    {
+        name: 'Кировский завод',
+        date: '2025-11',
+        info: 'Ноябрь, фото-рогейн.',
+        url: './maps/rogaine/kkm/kirovsky_KKM_2025_11.webp',
+        link: ['./original_maps/rogaine/kkm/kirovsky_KKM_2025_11_omaps.jpg','./original_maps/rogaine/kkm/kirovsky_KKM_2025_11_pictures.jpg'],
+        bounds: [[59.909104078836364, 30.24544715881348], [59.90901801230037, 30.296258926391605], [59.869532997012875, 30.245404243469242]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23785/',
+        start: ['VO_FOTO','KKM'],
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
 ];
