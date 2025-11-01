@@ -22,6 +22,7 @@ let planners = {
     FRSHLVA: { name: 'Фершалова Виктория' },
     FSNKO: { name: 'Фисенко' },
     GBNV_V: { name: 'Губанов Валерий' },
+    GBNVA_A: { name: 'Губанова А.' },
     GRGRV_B: { name: 'Григорьев Б' },
     GRLNV: { name: 'Горланов Сергей' },
     ILVS: { name: 'Ильвес Константин' },

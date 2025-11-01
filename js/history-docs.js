@@ -705,6 +705,12 @@ let historyDocs = [
         me: 'МА'
     },
     {
+        name: 'Майские многодневные соревнования (Воейково)',
+        date: '1990-04-30',
+        link: './docs/1990_04_30_mayski_omaps.pdf',
+        info: '30 апреля - 2 мая.',
+    },
+    {
         name: 'Ориентир-9 (Юкки)',
         date: '1990-06-06',
         start: 'ORIENTIR',
@@ -783,6 +789,18 @@ let historyDocs = [
         links: ['1991_04_27_yukki', 12, 'gif'],
         planner: 'PVLV_M',
         me: 'МА'
+    },
+    {
+        name: 'Майские многодневные соревнования (Шалово)',
+        date: '1991-05-01',
+        link: './docs/1991_05_01_mayski_omaps.pdf',
+        info: '1-3 мая.',
+        planner: ['FDRV_L','DRBSHV']
+    },
+    {
+        name: 'Приз газеты "Охта" (Стадион "Химик")',
+        date: '1991-05-19',
+        link: './docs/1991_05_19_okhta_omaps.pdf',
     },
     {
         name: 'Ориентир-8 (Орловский л/п)',
@@ -883,6 +901,13 @@ let historyDocs = [
         link: './docs/1991_09_04_orientir_23_omaps.pdf',
     },
     {
+        name: 'П-во КСО "Невский азимут" (Гарболово)',
+        date: '1991-09-08',
+        link: './docs/1991_09_08_club_championship_omaps.pdf',
+        planner: 'KRZHNVSKY',
+        me: 'H-A'
+    },
+    {
         name: 'Ориентир-24 (Сосновка)',
         date: '1991-09-11',
         start: 'ORIENTIR',
@@ -892,12 +917,38 @@ let historyDocs = [
         planner: 'AMSVA'
     },
     {
+        name: 'Соревнования среди спортсменов старшего возраста (Васкелово)',
+        date: '1991-09-14',
+        info: '14-15 сентября.',
+        link: ['./docs/1991_09_14_veterans_omaps.pdf','./docs/1991_09_15_veterans_omaps.pdf'],
+        planner: 'SMNV_M'
+    },
+    {
         name: 'Ориентир-25 (Орехово)',
         date: '1991-09-29',
         start: 'ORIENTIR',
         info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_09_29">тут</a>.',
         link: './docs/1991_09_29_orientir_25_omaps.pdf',
         planner: 'FDRV_L'
+    },
+    {
+        name: 'Золотая осень (Осельки)',
+        date: '1991-10-05',
+        info: '5-6 октября.',
+        link: './docs/1991_10_05_golden_autumn_omaps.pdf',
+        planner: ['DRBSHV','FDRV_L'],
+        me: 'H17'
+    },
+    {
+        name: 'Ночной СПб, эстафеты (Лемболово)',
+        date: '1991-10-12',
+        link: './docs/1991_10_12_night_omaps.pdf',
+        planner: 'GBNVA_A',
+    },
+    {
+        name: 'Закрытие сезона (Мельничный ручей)',
+        date: '1991-10-27',
+        link: './docs/1991_10_27_season_close_omaps.pdf',
     },
     {
         name: 'Ориентир-27 (Лемболово)',
