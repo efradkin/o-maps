@@ -545,6 +545,15 @@ let zelikMaps = [
     },
     {
         name: 'Пухтолова гора',
+        year: 2025,
+        url: './maps/forest/zelik/pukhtolova_gora_2025.webp',
+        link: './original_maps/forest/zelik/pukhtolova_gora_2025_omaps.jpg',
+        bounds: [[60.2611487490574, 29.638881683349613], [60.2537609615383, 29.70235347747803], [60.22888145848637, 29.62347507476807]],
+        author: ['URVNTSV','NKFRV_A'],
+        owner: 'ANCHKV'
+    },
+    {
+        name: 'Пухтолова гора',
         year: 1979,
         url: './maps/forest/zelik/pukhtolova_gora_1979.webp',
         link: './original_maps/forest/zelik/pukhtolova_gora_1979_omaps.jpg',

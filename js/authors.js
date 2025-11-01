@@ -402,7 +402,7 @@ let authors = {
     TRSK: { name: 'Тарасюк Виктория' },
     URVNTSV: {
         name: 'Урванцев Вадим ', //Георгиевич
-        about: 'https://o-site.spb.ru/history/Peoples/vgu.html'
+        about: 'https://o-site.spb.ru/history/Peoples/vgu.html' // https://o-site.spb.ru/_races/251007_NS/UVG_80.pdf
     },
     USHNV: { name: 'Ушанов В.' },
     USNKO: { name: 'Усенко Сергей' }, // Беларусь
