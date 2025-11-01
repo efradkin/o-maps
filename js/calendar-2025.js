@@ -1387,7 +1387,8 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/info/46223',
         photo: 'https://vk.com/album-128591100_308572316',
         video: 'https://vk.com/wall-128591100_3181',
-        map: 'vsevolozhsk_zhdanovskie_oz_2023'
+        map: 'vsevolozhsk_zhdanovskie_oz_2023',
+        start: 'WEDDING'
     }, {
         date: '2025-09-20',
         endDate: '2025-09-21',
@@ -1906,6 +1907,16 @@ let events_2025 =
         type: 'ROGAINE',
         link:  ['https://vk.com/event166397868','https://t.me/lugarogein'],
         reg: 'https://orgeo.ru/event/40555'
+    }, {
+        date: '2025-11-23',
+        place: 'Сосновка',
+        name: 'Снежная тропа',
+        fmt: 'спринт',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251123_ST',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1705',
+        owner: 'SFSO_SPB',
+        map: 'sosnovka_2024',
     }, {
         date: '2025-11-30',
         place: 'Великий Новгород',
