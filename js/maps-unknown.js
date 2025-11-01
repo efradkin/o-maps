@@ -76,12 +76,6 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_19_omaps.jpg',
     },
     {
-        year: 1973,
-        name: 'Тарасово',
-        info: 'Буревестник',
-        link: './original_maps/unknown/unknown_20_omaps.jpg',
-    },
-    {
         year: 1,
         name: 'Токсово',
         link: './original_maps/unknown/unknown_21_omaps.jpg',
