@@ -355,6 +355,17 @@ let vyborgMaps = [
     },
     {
         name: 'Выборг, Монрепо',
+        year: 2007,
+        date: '2008-10-18',
+        url: './maps/forest/vyborg/monrepo_2007.webp',
+        //link: './original_maps/forest/vyborg/monrepo_2007_omaps.jpg',
+        info: '<a href="https://o-site.spb.ru/race.php?id=08101819">Золотая Осень</a>.',
+        bounds: [[60.741660804893876, 28.712124824523926], [60.7403288775669, 28.730170726776127], [60.73217879584651, 28.708970546722416]],
+        author: 'KRTSHV',
+        owner: 'VYBORG'
+    },
+    {
+        name: 'Выборг, Монрепо',
         year: 2012,
         url: './maps/forest/vyborg/monrepo.webp',
         bounds: [[60.74662096140217, 28.696932792663578], [60.74263611819784, 28.746714591979984], [60.728832152898704, 28.69088172912598]],

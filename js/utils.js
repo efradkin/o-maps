@@ -15,6 +15,7 @@ const dic = {
     SPRINT: 'СПРИНТ',
     WINTER: 'ЗИМА',
     INDOOR: 'ВНУТРИ',
+    SPECIAL: 'НЕЧТО',
 };
 
 const color = {
@@ -150,7 +151,7 @@ function isOrientMap(m) {
 }
 
 function isSpecialMap(m) {
-    return !isEmpty(m.type) && (m.type.includes('RELIEF') || m.type.includes('WINTER') || m.type.includes('VELO') || m.type.includes('INDOOR'));
+    return !isEmpty(m.type) && (m.type.includes('RELIEF') || m.type.includes('WINTER') || m.type.includes('VELO') || m.type.includes('INDOOR') || m.type.includes('SPECIAL'));
 }
 
 function isRogaine(m) {

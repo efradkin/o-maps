@@ -55,9 +55,19 @@ let samaraMaps = [
         year: 2010,
         url: './maps/samara/pribrezhny_2010.webp',
         link: './original_maps/samara/pribrezhny_2010_omaps.gif',
-        bounds: [[53.51813970109417, 49.8519229888916], [53.505201062547066, 49.98929500579835], [53.47323310169456, 49.8400354385376]],
+        bounds: [[53.51816521718794, 49.851794242858894], [53.505201062547066, 49.98929500579835], [53.4730798425885, 49.839563369750984]],
         author: ['SKRPKO_S','CHRMNCH','TRNV_V','PRKPCHK','USNKO'],
         owner: 'ZNVJV_A'
+    },
+    {
+        name: 'пл им Валерия Грушина',
+        year: 2001,
+        url: './maps/samara/grushina_2001.webp',
+        link: './original_maps/samara/grushina_2001_omaps.gif',
+        info: 'XXVIII фестиваль им.В.Грушина',
+        bounds: [[53.47918423558339, 49.89080429077149], [53.47555746361617, 49.928398132324226], [53.46646363022647, 49.88668441772462]],
+        author: ['MLNTV','DRBN_A','PSNV_A'],
+        type: ['SPECIAL']
     },
     {
         name: 'Задельное',

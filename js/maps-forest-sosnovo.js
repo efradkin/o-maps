@@ -12,6 +12,14 @@ let sosnovoMaps = [
         author: ['MLVA_M','KAZNTSVA_O']
     },
     {
+        name: 'пл 69км',
+        year: 1989,
+        url: './maps/forest/sosnovo/69_km_1989.webp',
+        link: './original_maps/forest/sosnovo/69_km_1989_omaps.jpg',
+        bounds: [[60.55445209468727, 30.23523330688477], [60.54968381690081, 30.297031402587894], [60.52874571620552, 30.22725105285645]],
+        author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S']
+    },
+    {
         name: 'пл 69км, Игора',
         year: 1974,
         url: './maps/forest/sosnovo/69_km_1974.webp',
@@ -132,11 +140,20 @@ let sosnovoMaps = [
         author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S']
     },
     {
+        name: 'Сосново, 69км',
+        year: 2000,
+        start: 'WN',
+        url: './maps/forest/sosnovo/sosnovo_69km_2000.webp',
+        link: './original_maps/forest/sosnovo/sosnovo_69km_2000_omaps.jpg',
+        bounds: [[60.54086276047696, 30.257034301757816], [60.53921645977455, 30.28819084167481], [60.51565252342285, 30.25171279907227]],
+        author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S']
+    },
+    {
         name: 'Замостье',
         year: 2000,
         start: 'WN',
         url: './maps/forest/sosnovo/zamostie_1999.webp',
-        link: './original_maps/forest/sosnovo/zamostie_1999_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/zamostie_1999_omaps.jpg','./original_maps/forest/sosnovo/zamostie_2000_wn_omaps.jpg'],
         bounds: [[60.538562137521424, 30.337886810302734], [60.538688781570556, 30.37153244018555], [60.51373033511651, 30.336771011352543]],
         author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S']
     },

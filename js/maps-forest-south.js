@@ -418,6 +418,7 @@ let southMaps = [
         name: 'Луга, Шалово',
         year: 2006,
         url: './maps/forest/south/luga_shalovo_2006.webp',
+        link: './original_maps/forest/south/luga_shalovo_2006_omaps.jpg',
         photo: './tracks/shalovo/pic_2.jpg',
         bounds: [[58.801650567053684, 29.925470352172855], [58.798716049977116, 29.97980117797852], [58.770247253260614, 29.919204711914066]],
         author: 'BYMKV'

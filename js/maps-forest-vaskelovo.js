@@ -294,6 +294,7 @@ let vaskelovoMaps = [
         name: 'Стеклянный',
         year: 2014,
         url: './maps/forest/vaskelovo/stekljanny_2014.webp',
+        link: './original_maps/forest/vaskelovo/stekljanny_2014_omaps.jpg',
         bounds: [[60.3755631115393, 30.23317337036133], [60.37337803765897, 30.25467395782471], [60.360052280500405, 30.225834846496586]],
         author: 'MLNKV_L'
     },

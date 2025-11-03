@@ -233,6 +233,15 @@ let forestMaps = [
         author: 'SHRNN'
     },
     {
+        name: 'Юкки, юг',
+        date: '2019-05-19',
+        url: './maps/forest/yukki_south_ra_2019.webp',
+        info: '<a href="https://o-site.spb.ru/race.php?id=100518RA">Российский Азимут</a>.',
+        link: './original_maps/forest/yukki_south_ra_2019_omaps.jpg',
+        bounds: [[60.110466934035564, 30.309262275695804], [60.110777029230896, 30.325741767883304], [60.10230717342192, 30.309240818023685]],
+        author: 'ZCHNV'
+    },
+    {
         name: 'Каменка',
         year: 2015,
         url: './maps/forest/kamenka_2015.webp',

@@ -202,7 +202,7 @@ let authors = {
     KRYLS: { name: 'Саулюс Кирейлис' },
     KRNLJV: { name: 'Корнильев П.' },
     KRPLSN: { name: 'Карпельсон Александр' },
-    KRTSHV: { name: 'Крутышев В.А.' },
+    KRTSHV: { name: 'Крутышев Валерий' },
     KSNFNTVA: { name: 'Ксенофонтова А.' },
     KTS_JU: { name: 'Кац Юлия' },
     KVZN: {
@@ -694,11 +694,13 @@ let authors = {
     /* --- САМАРА --- */
 
     CHRMNCH: { name: 'Черемных Александр' },
+    DRBN_A: { name: 'Дербин А.' },
     KYKV: { name: 'Каюков Илья' },
     KSKV_A: { name: 'Каськов А.' },
     MLNTV: { name: 'Мелентьев В.' },
     PPV_E: { name: 'Попов Евгений' },
     PRKPCHK: { name: 'Прокопчук Вадим' },
+    PSNV_A: { name: 'Писанов А.' },
     VLKV_E: { name: 'Волков Егор' },
     ZNVJV_A: { name: 'Зиновьев Артём' },
 
