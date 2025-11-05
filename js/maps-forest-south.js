@@ -72,8 +72,9 @@ let southMaps = [
         year: 2015,
         area: 43,
         url: './maps/forest/south/budogosch_2015.webp',
+        link: './original_maps/forest/south/budogosch_2015_omaps.jpg',
         bounds: [[59.33809215192027, 32.31679916381837], [59.32206812385745, 32.48983383178712], [59.25368420047816, 32.295856475830085]],
-        author: ['YUDNTSV','VRBY'],
+        author: ['BYMKV','YUDNTSV','VRBY'],
         owner: 'EGRV_SRG'
     },
     {
@@ -81,10 +82,11 @@ let southMaps = [
         url: './maps/forest/south/budogosch_linnoe.webp',
         link: './original_maps/forest/south/budogosch_linnoe_omaps.jpg',
         bounds: [[59.296396427716594, 32.37688064575196], [59.29328471812206, 32.42511749267579], [59.2658367640389, 32.368040084838874]],
+        author: 'BYMKV',
         owner: 'EGRV_SRG'
     },
     {
-        name: 'Будогощь, т/б "Мечта"',
+        name: 'Будогощь, т/б Мечта',
         year: 2005,
         url: './maps/forest/south/budogosch_mechta_2005.webp',
         link: './original_maps/forest/south/budogosch_mechta_2005_omaps.jpg',
@@ -96,6 +98,7 @@ let southMaps = [
         name: 'Будогощь, Светлое оз',
         year: 2010,
         url: './maps/forest/south/budogosch_svetloe_2010.webp',
+        link: './original_maps/forest/south/budogosch_svetloe_2010_omaps.jpg',
         bounds: [[59.296045826776194, 32.347269058227546], [59.292079402035064, 32.38919734954835], [59.27807269098165, 32.340788841247566]],
         author: ['TKMKV_K','VRBY'],
         owner: 'EGRV_SRG'
@@ -114,6 +117,7 @@ let southMaps = [
         name: 'Будогощь, Черёмуховое оз',
         year: 2010,
         url: './maps/forest/south/budogosch_cheremukhovoe_2010.webp',
+        link: './original_maps/forest/south/budogosch_cheremukhovoe_2010_omaps.jpg',
         bounds: [[59.29238621381673, 32.38606452941895], [59.28890154588962, 32.422928810119636], [59.27923465616935, 32.38181591033936]],
         owner: 'EGRV_SRG'
     },
@@ -126,7 +130,7 @@ let southMaps = [
         owner: 'EGRV_SRG'
     },
     {
-        name: 'Будогощь, "Орлёнок"',
+        name: 'Будогощь, Орлёнок',
         date: '1989-05-07',
         start: 'LENINGRAD_30',
         url: './maps/forest/south/budogosch_orlenok_1988.webp',
@@ -136,9 +140,10 @@ let southMaps = [
         planner: ['MLVA_M','MRSKY_S','KUOKNN_Y']
     },
     {
-        name: 'Будогощь, "Орлёнок"',
+        name: 'Будогощь, Орлёнок',
         year: 2006,
         url: './maps/forest/south/budogosch_orlenok_2006.webp',
+        link: './original_maps/forest/south/budogosch_orlenok_2006_omaps.jpg',
         bounds: [[59.32149882541276, 32.411727905273445], [59.31400947360146, 32.48803138732911], [59.29578287370009, 32.4023723602295]],
         author: 'KRTSHV',
         owner: 'EGRV_SRG'

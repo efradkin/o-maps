@@ -90,4 +90,162 @@ let unknownMaps = [
         name: 'Лемболово',
         link: './original_maps/unknown/unknown_23_omaps.jpg',
     },
+    {
+        year: 1,
+        name: 'Сосновка',
+        link: './original_maps/unknown/unknown_24_omaps.jpg',
+    },
+    {
+        year: 1,
+        info: 'Золотые кольца',
+        link: './original_maps/unknown/unknown_25_omaps.jpg',
+    },
+    {
+        year: 1,
+        link: './original_maps/unknown/unknown_26_omaps.jpg',
+    },
+    {
+        year: 1,
+        link: './original_maps/unknown/unknown_27_omaps.jpg',
+    },
+    {
+        year: 1,
+        link: './original_maps/unknown/unknown_28_omaps.jpg',
+    },
+    {
+        year: 1,
+        link: './original_maps/unknown/unknown_29_omaps.jpg',
+    },
+    {
+        year: 1976,
+        link: './original_maps/unknown/unknown_30_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'Павловск',
+        link: './original_maps/unknown/unknown_31_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'Кавголово',
+        link: './original_maps/unknown/unknown_32_omaps.jpg',
+    },
+    {
+        year: 1976,
+        name: 'п/л Ласточка',
+        info: '31.12.1976 - 09.01.1977',
+        link: './original_maps/unknown/unknown_33_omaps.jpg',
+    },
+    {
+        year: 1978,
+        link: ['./original_maps/unknown/unknown_34_omaps.jpg','./original_maps/unknown/unknown_35_omaps.jpg']
+    },
+    {
+        year: 1,
+        name: 'Сосново',
+        link: './original_maps/unknown/unknown_36_omaps.jpg'
+    },
+    {
+        year: 1977,
+        name: 'Москва, Красногорск',
+        info: 'Золотые кольца',
+        link: './original_maps/unknown/unknown_37_omaps.jpg',
+    },
+    {
+        year: 1,
+        info: 'Яппиля',
+        link: './original_maps/unknown/unknown_38_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'Кавголово',
+        info: 'Труд-Буревестник, эстафета',
+        link: './original_maps/unknown/unknown_39_omaps.jpg',
+    },
+    {
+        date: '1977-11-17',
+        info: 'Золотые кольца, Шумилов В.',
+        link: './original_maps/unknown/unknown_40_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'Москва',
+        link: './original_maps/unknown/unknown_41_omaps.jpg',
+        bounds:[[55.401322, 36.812733]]
+    },
+    {
+        year: 1977,
+        name: 'Москва',
+        link: ['./original_maps/unknown/unknown_42_omaps.jpg','./original_maps/unknown/unknown_43_omaps.jpg'],
+    },
+    {
+        year: 1977,
+        name: 'Москва, Кузьминки',
+        info: 'VIII приз телевидения, на перфокарте',
+        link: './original_maps/unknown/unknown_44_omaps.jpg',
+        bounds:[[55.694279, 37.767590]]
+    },
+    {
+        year: 1977,
+        name: 'Москва',
+        info: 'Кубок МГУ',
+        link: './original_maps/unknown/unknown_45_omaps.jpg',
+    },
+    {
+        year: 1977,
+        name: 'Краснополье?',
+        link: './original_maps/unknown/unknown_46_omaps.jpg',
+    },
+    {
+        year: 1972,
+        name: 'Яхрома',
+        link: './original_maps/unknown/unknown_47_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'Москва, М Курская',
+        link: './original_maps/unknown/unknown_48_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'Москва?',
+        link: './original_maps/unknown/unknown_49_omaps.jpg',
+    },
+    {
+        year: 1978,
+        name: 'Москва, Кунцево',
+        link: './original_maps/unknown/unknown_50_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'МО, Мал Вязёмы',
+        link: './original_maps/unknown/unknown_51_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'Москва, Кунцево',
+        link: './original_maps/unknown/unknown_52_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'МО, Фрязево',
+        link: './original_maps/unknown/unknown_53_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'Зеленогорск, Щучье оз',
+        link: './original_maps/unknown/unknown_54_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'Осельки - Кавголово',
+        info: 'III Матч МО - ЛО',
+        link: './original_maps/unknown/unknown_55_omaps.jpg',
+    },
+    {
+        year: 1973,
+        name: 'МО, Чёрная Грязь',
+        info: 'IV Первенство МИИГАиК',
+        link: './original_maps/unknown/unknown_56_omaps.jpg',
+    },
  ];

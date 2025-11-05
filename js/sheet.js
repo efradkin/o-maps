@@ -4,10 +4,12 @@ let hasPlanners = false;
 
 window.onload = function() {
 
-    oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
-        .sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)));
-    if (!isDocumentsPage()) {
-        oMaps.sort((a, b) => a.name.localeCompare(b.name));
+    if (!isUnknownPage()) {
+        oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
+            .sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)));
+        if (!isDocumentsPage()) {
+            oMaps.sort((a, b) => a.name.localeCompare(b.name));
+        }
     }
 
     // Навешиваем обработчик на заголовок таблицы
@@ -32,7 +34,7 @@ window.onload = function() {
             document.querySelector('.o-sheet td:nth-child(10)').style.maxWidth = 0;
         }
     }
-    if (START_NAME_PARAM || isDocumentsPage()) {
+    if ((START_NAME_PARAM || isDocumentsPage() && !isUnknownPage())) {
         document.querySelector('.o-sheet').classList.add("start-sheet");
         let th = document.getElementById(isUnknownPage() ? 'name-column' : 'year-column');
         th.click();

@@ -104,10 +104,10 @@
 
         // Фильтрация массива. Оставляем только карты нужного старта.
         //oMaps = oMaps.filter(m => (m.layer !== undefined));
-        oMaps.sort((b, a) => ((startYear(b) || (year(b) || 9999)) - (startYear(a) || (year(a) || 9999))));
+        //oMaps.sort((b, a) => ((startYear(b) || (year(b) || 9999)) - (startYear(a) || (year(a) || 9999))));
 
         let container = document.querySelector('.start-maps-wrapper');
-        oMaps.forEach(m => {
+        oMaps.forEach((m, idx, arr) => {
             let row = `
                     <div class="start-map-box" style="text-align: center;">
                         <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_place#map_start#map_year#map_info"/></a>
@@ -127,7 +127,7 @@
             }
             row = row.replaceAll('#map_year', y ? ' - ' + y : '');
             //row = row.replace('#map_month', m.month);
-            row = row.replaceAll('#map_place', m.name ?? 'Нечто');
+            row = row.replaceAll('#map_place', (idx+1) + ': ' + (m.name ?? 'Нечто'));
             let strt;
             if (m.start) {
                 if (Array.isArray(m.start)) {

@@ -552,9 +552,9 @@ let moscowMaps = [
     },
     {
         name: 'Горенский лесопарк, Мазуринское оз',
-        year: 1978,
+        year: 1976,
         url: './maps/moscow/mazurinskoe_1978.webp',
-        link: './original_maps/moscow/mazurinskoe_1978_omaps.jpg',
+        link: ['./original_maps/moscow/lr/mazurinskoe_1978_omaps.jpg','./original_maps/moscow/lr/mazurinskoe_1976_omaps.jpg'],
         bounds: [[55.82814272591888, 37.8940773010254], [55.823514374205224, 37.9510259628296], [55.80514017320536, 37.88862705230713]],
         author: 'SMKN_S'
     },

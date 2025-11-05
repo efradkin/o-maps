@@ -26,7 +26,8 @@ let historyDocs = [
         name: 'Золотые кольца',
         date: '1969-11-16',
         info: 'Приглашение. Карты можно найти <a href="map-info.html?map=lobnia_1969">тут</a>.',
-        link: './docs/1969_lobnia_welcome_omaps.jpg'
+        link: './docs/1969_lobnia_welcome_omaps.jpg',
+        start: 'WEDDING'
     },
     {
         name: 'Программа',
@@ -392,7 +393,8 @@ let historyDocs = [
     {
         name: 'Свадебные-88 (Н.Токсово)',
         date: '1988-10-16',
-        link: './docs/1988/1988_10_16_wedding_omaps.pdf'
+        link: './docs/1988/1988_10_16_wedding_omaps.pdf',
+        start: 'WEDDING'
     },
     {
         name: 'Соревнования по спортивному ориентированию, маркир, (Лемболово, справа)',

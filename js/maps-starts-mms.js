@@ -205,6 +205,17 @@ let mmsStartsMaps = [
         planner: 'TLNV_A'
     },
     {
+        name: 'Кузнечное, Богатыри',
+        region: 'starts',
+        start: 'MMS',
+        date: '2009-06-27',
+        info: 'Полуфинал. <a href="https://o-site.spb.ru/race.php?id=09062628">Инфо и результаты.</a>',
+        url: './maps/starts/mms/mms_2009_06_27.webp',
+        link: './original_maps/starts/mms/mms_2009_06_27_omaps.jpg',
+        bounds: [[61.106222169527726, 29.80698108673096], [61.103194546749435, 29.85547542572022], [61.08431721236532, 29.800157546997074]],
+        planner: 'TLNV_A'
+    },
+    {
         name: 'Лемболово',
         region: 'starts',
         start: 'MMS',

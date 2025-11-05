@@ -199,10 +199,19 @@ let vaskelovoMaps = [
     },
     {
         name: 'Гарболово, Вуолы',
+        year: 2008,
+        start: 'WEDDING',
+        url: './maps/forest/vaskelovo/garbolovo_vuoly_2008.webp',
+        link: './original_maps/forest/vaskelovo/garbolovo_vuoly_2008_omaps.gif',
+        bounds: [[60.358333115750035, 30.502510070800785], [60.35671998984692, 30.532293319702152], [60.342622968509154, 30.499248504638675]],
+        author: 'VSLVSKY',
+    },
+    {
+        name: 'Гарболово, Вуолы',
         year: 2022,
-        info: 'Свадебные кольца.',
+        start: 'WEDDING',
         url: './maps/forest/vaskelovo/garbolovo_vuoly_2022.webp',
-        link: './original_maps/forest/vaskelovo/garbolovo_vuoly_2022.jpg',
+        link: './original_maps/forest/vaskelovo/garbolovo_vuoly_2022_omaps.jpg',
         bounds: [[60.35867271103374, 30.50233840942383], [60.35725063217634, 30.52813053131104], [60.34143378447364, 30.49959182739258]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'

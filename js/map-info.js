@@ -1,5 +1,8 @@
 let m = getMapForName(MAP_NAME_PARAM);
 let url = m.url ?? m.link;
+if (Array.isArray(url)) {
+    url = url[0];
+}
 document.getElementById('map_title').href = mapLink(url, m);
 let elName = document.getElementById('map_name');
 if (elName) {

@@ -6,7 +6,7 @@ let forestMaps = [
         date: '1975-01-26',
         info: 'Первенство Ленинграда, маркир.',
         url: './maps/forest/utkino_1975.webp',
-        link: './original_maps/forest/utkino_1975_omaps.jpg',
+        link: ['./original_maps/forest/utkino_1975_omaps.jpg','./original_maps/forest/utkino_cup_1975_omaps.jpg'],
         bounds: [[60.271748482126604, 29.158487319946293], [60.26715142915802, 29.21994209289551], [60.25318604937096, 29.15256500244141]]
     },
     {
@@ -499,7 +499,7 @@ let forestMaps = [
         name: 'Поляны',
         year: 1977,
         url: './maps/forest/polyany_1977.webp',
-        link: './original_maps/forest/polyany_1977_omaps.jpg',
+        link: ['./original_maps/forest/polyany_1977_omaps.jpg','./original_maps/forest/polyany_1977_all_points_omaps.jpg','./original_maps/forest/polyany_1977_m1_omaps.jpg','./original_maps/forest/polyany_1977_w1_omaps.jpg','./original_maps/forest/polyany_1977_mb_omaps.jpg','./original_maps/forest/polyany_1977_wb_omaps.jpg'],
         bounds: [[60.33761111363023, 29.254531860351566], [60.33395792081405, 29.298133850097656], [60.30790645342296, 29.24534797668457]],
         author: 'MLVA_M'
     },

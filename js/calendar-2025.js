@@ -1877,7 +1877,8 @@ let events_2025 =
         name: 'Агалатовская средняя',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251103_bn',
-        reg: 'https://orgeo.ru/event/info/47191'
+        reg: 'https://orgeo.ru/event/info/47191',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23804/'
     }, {
         date: '2025-11-04',
         place: 'Ягодное, Берестовое оз',
@@ -1885,14 +1886,16 @@ let events_2025 =
         type: 'ORIENT',
         fmt: 'лонг',
         link: 'https://o-site.spb.ru/race.php?id=251104_OM',
-        reg: 'https://o-reg.spb.ru/?filter[day_id]=1703'
+        reg: 'https://o-reg.spb.ru/?filter[day_id]=1703',
+        gps: ['https://viewer.o-gps-center.ru/viewer/event/23812/','https://viewer.o-gps-center.ru/viewer/event/23817/']
     }, {
         date: '2025-11-04',
         place: 'Будогощь',
         name: 'XI Традиционные соревнования памяти Ю.А. Березюка',
         type: 'ORIENT',
         link: 'https://vk.ru/wall-116730504_215',
-        reg: 'https://orgeo.ru/event/berezuk_2025'
+        reg: 'https://orgeo.ru/event/berezuk_2025',
+        photo: ['https://vk.com/album-116730504_307486556','https://disk.yandex.ru/d/HpF7I9e_7EyAhA']
     }, {
         date: '2025-11-08',
         place: 'Лемболово-Орехово',
@@ -1927,6 +1930,13 @@ let events_2025 =
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1705',
         owner: 'SFSO_SPB',
         map: 'sosnovka_2024',
+    }, {
+        date: '2025-11-29',
+        place: 'школа №188',
+        name: 'День матери',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251129',
+        reg: 'http://orgeo.ru/event/dm25',
     }, {
         date: '2025-11-30',
         place: 'Великий Новгород',
