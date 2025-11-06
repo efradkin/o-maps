@@ -66,8 +66,9 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_15_omaps.jpg',
     },
     {
-        year: 1,
+        year: 1974,
         name: 'Корабсельки',
+        info: 'Матч Эстония-Ленинград, маркир. Одновременно - перезабег чемпионата Ленинграда, который был отменен из-за гололеда, хотя дистанции были полностью готовы (А. Лисененков и его бригада). Карту никто не корректировал, чертил рельеф с основы Крылов, а раскрашивать помогал Ширинян.',
         link: './original_maps/unknown/unknown_17_omaps.jpg',
     },
     {
@@ -106,10 +107,12 @@ let unknownMaps = [
     },
     {
         year: 1,
+        name: 'Латвия?',
         link: './original_maps/unknown/unknown_27_omaps.jpg',
     },
     {
         year: 1,
+        name: 'Латвия?',
         link: './original_maps/unknown/unknown_28_omaps.jpg',
     },
     {
@@ -138,11 +141,13 @@ let unknownMaps = [
     },
     {
         year: 1978,
+        info: 'Зенит',
         link: ['./original_maps/unknown/unknown_34_omaps.jpg','./original_maps/unknown/unknown_35_omaps.jpg']
     },
     {
-        year: 1,
+        year: 1973,
         name: 'Сосново',
+        info: 'Маркир первенства Ленинграда. Карту делали Ширинян с Грязневичем.',
         link: './original_maps/unknown/unknown_36_omaps.jpg'
     },
     {
@@ -157,13 +162,15 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_38_omaps.jpg',
     },
     {
-        year: 1,
+        year: 1972,
         name: 'Кавголово',
-        info: 'Труд-Буревестник, эстафета',
+        info: 'Труд-Буревестник, эстафета. Первая самостоятельная карта А.Шириняна.',
         link: './original_maps/unknown/unknown_39_omaps.jpg',
+        author: 'SHRNN'
     },
     {
-        date: '1977-11-17',
+        date: '1974-11-17',
+        name: 'Москва?',
         info: 'Золотые кольца, Шумилов В.',
         link: './original_maps/unknown/unknown_40_omaps.jpg',
     },
@@ -203,13 +210,14 @@ let unknownMaps = [
     },
     {
         year: 1,
-        name: 'Москва, М Курская',
+        name: 'Москва, Серебряный бор',
         link: './original_maps/unknown/unknown_48_omaps.jpg',
     },
     {
         year: 1,
-        name: 'Москва?',
+        name: 'Лыткарино',
         link: './original_maps/unknown/unknown_49_omaps.jpg',
+        bounds:[[55.572438, 37.954017]]
     },
     {
         year: 1978,
@@ -223,7 +231,7 @@ let unknownMaps = [
     },
     {
         year: 1,
-        name: 'Москва, Кунцево',
+        name: 'Москва, Зосимова Пустынь',
         link: './original_maps/unknown/unknown_52_omaps.jpg',
     },
     {
