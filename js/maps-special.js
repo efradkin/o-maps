@@ -112,18 +112,43 @@ let specialMaps = [
         name: 'Будогощь, оз Светлое',
         year: 2024,
         url: './maps/winter/budogosch_svetloe_winter_2024.webp',
+        link: './original_maps/winter/budogosch_svetloe_winter_2024_omaps.gif',
         bounds: [[59.28447396887775, 32.348299026489265], [59.28138309112493, 32.381472587585456], [59.273665632447134, 32.34443664550782]],
         owner: 'EGRV_SRG',
         type: ['WINTER']
     },
     {
+        name: 'Будогощь, Орлёнок',
+        excluded: true,
+        year: 2009,
+        url: './maps/winter/budogosch_orlenok_winter_2009.webp',
+        link: './original_maps/winter/budogosch_orlenok_winter_2009_omaps.gif',
+        bounds: [[59.311775487837515, 32.419924736022956], [59.30735088677822, 32.469363212585456], [59.2950378289487, 32.41451740264893]],
+        author: 'KRTSHV',
+        owner: 'EGRV_SRG',
+        type: ['WINTER'],
+        zindex: 2
+    },
+    {
+        name: 'Кириши, лыжная трасса Пушка',
+        excluded: true,
+        year: 2008,
+        url: './maps/winter/kirishi_pushka_2008.webp',
+        link: './original_maps/winter/kirishi_pushka_2008_omaps.gif',
+        bounds: [[59.44138788921422, 32.04626083374024], [59.43798395415987, 32.072868347167976], [59.4312187076711, 32.04325675964356]],
+        owner: 'EGRV_SRG',
+        zindex: 2
+    },
+    {
         name: 'Кириши, лыжная трасса',
         year: 2024,
         url: './maps/winter/kirishi_ski_track_2024.webp',
+        link: './original_maps/winter/kirishi_ski_track_2024_omaps.gif',
         bounds: [[59.44023146251266, 31.985664367675785], [59.43905317578189, 32.00201511383057], [59.42154860449208, 31.97957038879395]],
         author: 'TKMKV_K',
         owner: 'EGRV_SRG',
-        type: ['WINTER']
+        type: ['WINTER'],
+        zindex: 2
     },
     {
         name: 'Сосновка, лыжный полигон',

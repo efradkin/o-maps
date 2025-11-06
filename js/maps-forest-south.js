@@ -122,6 +122,41 @@ let southMaps = [
         owner: 'EGRV_SRG'
     },
     {
+        name: 'Васильково, Березняк',
+        year: 2012,
+        url: './maps/forest/south/vasilkovo_2012.webp',
+        link: './original_maps/forest/south/vasilkovo_2012_omaps.gif',
+        bounds: [[59.330825359776256, 32.33276367187501], [59.32727895112307, 32.397737503051765], [59.3000994295482, 32.31945991516114]],
+        author: 'YUDNTSV',
+        owner: 'EGRV_SRG'
+    },
+    {
+        name: 'Горчаково',
+        year: 2014,
+        url: './maps/forest/south/gorchakovo_2014.webp',
+        link: './original_maps/forest/south/gorchakovo_2014_omaps.gif',
+        bounds: [[59.34675773893997, 32.39130020141602], [59.34251275287995, 32.45511531829835], [59.32263741276709, 32.38537788391114]],
+        author: 'YUDNTSV',
+        owner: 'EGRV_SRG'
+    },
+    {
+        name: 'Городище',
+        year: 2007,
+        url: './maps/forest/south/gorodische_2007.webp',
+        link: './original_maps/forest/south/gorodische_2007_omaps.gif',
+        bounds: [[59.62636330165139, 32.10355281829835], [59.62456218827075, 32.12552547454835], [59.610931356105894, 32.098102569580085]],
+        author: ['VRBY','KRTSHV'],
+        owner: 'EGRV_SRG'
+    },
+    {
+        name: 'Змеева новинка',
+        year: 2009,
+        url: './maps/forest/south/zmeeva_novinka_2009.webp',
+        link: './original_maps/forest/south/zmeeva_novinka_2009_omaps.gif',
+        bounds: [[59.19553768598236, 32.540817260742195], [59.18969120621885, 32.60235786437989], [59.180545833407564, 32.53699779510499]],
+        owner: 'EGRV_SRG'
+    },
+    {
         name: 'Будогощь, 92 км',
         year: 2022,
         url: './maps/forest/south/budogosch_92km_2022.webp',
@@ -153,6 +188,16 @@ let southMaps = [
         url: './maps/forest/south/kirishi_east.webp',
         link: './original_maps/forest/south/kirishi_east_omaps.gif',
         bounds: [[59.441169698522636, 32.046389579772956], [59.438725866629234, 32.07750320434571], [59.42961449118175, 32.04353570938111]],
+        owner: 'EGRV_SRG',
+        zindex: 2
+    },
+    {
+        name: 'Кириши, р Нудыня',
+        year: 2009,
+        url: './maps/forest/south/nudynya_2009.webp',
+        link: './original_maps/forest/south/nudynya_2009_omaps.gif',
+        bounds: [[59.44941632791593, 31.97450637817383], [59.44114787937609, 32.07406997680665], [59.4038820760619, 31.96060180664063]],
+        author: 'YUDNTSV',
         owner: 'EGRV_SRG'
     },
     {

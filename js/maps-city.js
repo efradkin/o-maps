@@ -1470,6 +1470,16 @@ let cityMaps = [
     },
     {
         name: 'Кириши',
+        year: 2013,
+        url: './maps/city/kirishi_2013.webp',
+        link: './original_maps/city/kirishi_2013_omaps.gif',
+        bounds: [[59.46357053430788, 32.00527667999268], [59.457312008996055, 32.04729080200196], [59.43916227812911, 31.99004173278809]],
+        author: ['BYMKV','MSPN'],
+        owner: 'EGRV_SRG',
+        type: ['CITY']
+    },
+    {
+        name: 'Кириши',
         year: 2005,
         url: './maps/city/kirishi_2005.webp',
         link: './original_maps/city/kirishi_2005_omaps.jpg',
@@ -1479,7 +1489,7 @@ let cityMaps = [
         type: ['CITY']
     },
     {
-        name: 'Кириши, ЦД "КИНЕФ"',
+        name: 'Кириши, ЦД КИНЕФ',
         url: './maps/city/kirishi_kinef.webp',
         link: './original_maps/city/kirishi_kinef_omaps.jpg',
         bounds: [[59.458522371686364, 32.00763702392579], [59.45659231333937, 32.02115535736085], [59.44589321242389, 32.00053453445435]],
@@ -1487,10 +1497,31 @@ let cityMaps = [
         type: ['CITY']
     },
     {
-        name: 'Кириши, турклуб "Ассоль"',
+        name: 'Кириши, школа №7',
+        year: 2025,
+        url: './maps/city/kirishi_school_7_2025.webp',
+        link: './original_maps/city/kirishi_school_7_2025_omaps.gif',
+        bounds: [[59.44977080063917, 32.010437250137336], [59.448723732027005, 32.016713619232185], [59.44303518351402, 32.00609207153321]],
+        author: 'MLV_AL',
+        owner: 'MLV_AL',
+        type: ['CITY']
+    },
+    {
+        name: 'Кириши, турклуб Ассоль',
         year: 2024,
         url: './maps/city/kirishi_assol_2024.webp',
+        link: './original_maps/city/kirishi_assol_2024_omaps.gif',
         bounds: [[59.44421333155716, 32.00315237045289], [59.44128970357717, 32.02141284942627], [59.439500493169554, 32.00010538101197]],
+        author: 'MLV_AL',
+        owner: 'MLV_AL',
+        type: ['CITY']
+    },
+    {
+        name: 'Кириши, ТЦ Форум',
+        year: 2025,
+        url: './maps/city/kirishi_forum_2025.webp',
+        link: './original_maps/city/kirishi_forum_2025_omaps.gif',
+        bounds: [[59.44629680773395, 32.01427817344666], [59.44534235159319, 32.02130556106568], [59.44163880676976, 32.011198997497566]],
         author: 'MLV_AL',
         owner: 'MLV_AL',
         type: ['CITY']
