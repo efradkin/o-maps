@@ -518,6 +518,14 @@ label:has(> span span .layer-separator) {
     max-height: 194px;
 }
 
+/* --- Траурное --- */
+.mourning .help-figure {
+    border: 5px solid black !important;
+}
+.mourning .start-map-box {
+    border: 5px solid black !important;
+}
+
 /* --- TRACKS --- */
 .track-table-pic {
     height: 50px;

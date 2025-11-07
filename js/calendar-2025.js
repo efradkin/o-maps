@@ -1870,7 +1870,8 @@ let events_2025 =
         fmt: '2, ночной',
         link: 'https://docs.google.com/document/d/1izDA_mrnEgjZjqbEsGz-6UuMrg_Cp3TZcbbTtTGkULw/',
         res: 'https://docs.google.com/spreadsheets/d/1aKS2st7pwEeulHw9d59mKU7A74xvRZaZVjiohlWeiB4/edit?gid=22540084#gid=22540084',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23796/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23796/',
+        me: '50+'
     }, {
         date: '2025-11-03',
         place: 'СНТ Топограф',
