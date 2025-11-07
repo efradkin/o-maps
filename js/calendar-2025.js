@@ -103,7 +103,7 @@ let events_2025 =
         date: '2025-02-15',
         place: 'Луга, оз. Штоль',
         name: 'Лужский лыжный рогейн',
-        fmt: '3 / 6',
+        fmt: '3, 6',
         type: ['ROGAINE','SKI'],
         link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/info/40338',
@@ -502,7 +502,7 @@ let events_2025 =
         date: '2025-05-02',
         place: 'Луга',
         name: 'Горный кросс',
-        fmt: '2 / 4',
+        fmt: '2, 4',
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/39844',
         res: 'https://o-site.spb.ru/_races/250502R/250502R_res.pdf',
@@ -669,6 +669,14 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250517_LO',
         map: 'vsevolozhsk_peschanka_2021',
         owner: 'SFSO_LO'
+    },{
+        date: '2025-05-17',
+        name: 'Весенний водный рогейн',
+        link: 'http://www.multsport.ru/starts/canoe-rogaine-2025/',
+        type: ['ROGAINE','WATER'],
+        fmt: '4, 8, 16',
+        gps: 'http://viewer.o-gps-center.ru/viewer/event/22639/',
+        start: 'MULTSPORT'
     }, {
         date: '2025-05-17',
         place: 'Пушкин, Баболовский парк',
@@ -950,6 +958,17 @@ let events_2025 =
         start: 'WN',
         map: 'petjajarvy_2024',
         me: 'М50'
+    },{
+        date: '2025-06-28',
+        name: 'HARD ROGAINE | Ladoga',
+        place: 'Ладожское оз',
+        link: 'http://hardadventure.ru/ladoga2025',
+        reg: 'http://reg.o-time.ru/race/25005',
+        res: 'http://hardrogaine.ru/2025/HR_Ladoga_2025_results.htm',
+        type: ['ROGAINE','WATER'],
+        fmt: '4,6,12',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22978/',
+        start: 'HARD'
     }, {
         date: '2025-07-05',
         place: 'Орехово',
@@ -1899,9 +1918,10 @@ let events_2025 =
         photo: ['https://vk.com/album-116730504_307486556','https://disk.yandex.ru/d/HpF7I9e_7EyAhA']
     }, {
         date: '2025-11-08',
-        place: 'Лемболово-Орехово',
+        place: 'Орехово',
         name: 'Горный Кросс - 111',
         type: 'ROGAINE',
+        fmt: '2, 5',
         link: 'https://o-site.spb.ru/race.php?id=251108R',
         reg: 'http://orgeo.ru/event/39881',
         start: 'GK'

@@ -1,6 +1,13 @@
 let events_2026 =
 [
     {
+        date: '2026-01-10',
+        place: 'Колосково',
+        name: 'Зимний рогейн',
+        type: ['ROGAINE','SKI'],
+        fmt: '4',
+        start: 'MULTSPORT'
+    },{
         date: '2026-01-11',
         place: 'Лемболово',
         name: 'Новогодний маркир',
@@ -74,6 +81,13 @@ let events_2026 =
         fmt: 'спринт',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-03-07',
+        place: 'оз Вуокса',
+        name: 'Ice Trail',
+        type: 'ROGAINE',
+        fmt: '3, 6',
+        start: 'MULTSPORT'
+    },{
         date: '2026-03-08',
         name: 'Снежная тропа',
         type: 'ORIENT',
@@ -125,6 +139,12 @@ let events_2026 =
         fmt: 'классика',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-05-16',
+        name: 'Весенний водный рогейн',
+        type: ['ROGAINE','WATER'],
+        fmt: '4, 8, 16',
+        start: 'MULTSPORT'
+    },{
         date: '2026-05-23',
         endDate: '2026-05-24',
         name: 'Международные соревнования',
@@ -169,6 +189,12 @@ let events_2026 =
         fmt: 'эстафета 2х',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-05-30',
+        name: 'Турслёт СПЛАВ',
+        type: 'ROGAINE',
+        fmt: '4, 8',
+        start: 'MULTSPORT'
+    },{
         date: '2026-05-31',
         name: 'Российский азимут',
         type: 'ORIENT',
@@ -209,6 +235,12 @@ let events_2026 =
         fmt: 'масстарт',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-08-22',
+        name: 'Чемпионат России',
+        type: 'ROGAINE',
+        fmt: '24, 8',
+        start: 'MULTSPORT'
+    },{
         date: '2026-08-30',
         name: 'ЧиП СПб',
         place: 'Вещево',
@@ -228,6 +260,12 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'SFSO_LO'
+    },{
+        date: '2026-09-19',
+        name: 'Велоизоляция',
+        type: ['ROGAINE','VELO'],
+        fmt: '8, 4',
+        start: 'MULTSPORT'
     },{
         date: '2026-09-19',
         endDate: '2026-09-20',

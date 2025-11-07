@@ -269,7 +269,9 @@
                 if(event.cancelled) {
                     row.classList.add('cancelled');
                 }
-                if (event.type.includes('ORIENT')) {
+                if (event.type.includes('WATER')) {
+                    row.classList.add('water');
+                } else if (event.type.includes('ORIENT')) {
                     row.classList.add('orient');
                 } else if (isRogaine(event)) {
                     row.classList.add('rogaine');
@@ -299,6 +301,8 @@
                 icon = '&nbsp;❄';
             } else if (event.type.includes('VELO')) {
                 icon = '&nbsp;🚲';
+            } else if (event.type.includes('WATER')) {
+                icon = '&nbsp;🚣';
             }
             return (i + 1) + icon;
         }
@@ -441,7 +445,9 @@
                 case 'FUN': result = 'Интерактив';
             }
             if (!result) {
-                if (event.type.includes('SKI')) {
+                if (event.type.includes('WATER')) {
+                    result = 'Водный рогейн';
+                } else if (event.type.includes('SKI')) {
                     if (isRogaine(event)) {
                         result = 'Лыжный рогейн';
                     } else {

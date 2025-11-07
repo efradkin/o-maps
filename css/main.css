@@ -631,6 +631,9 @@ body.integration-body {
         .rogaine {
             background-color: #fef1cc;
         }
+        .water {
+            background-color: #D6EDFFFF;
+        }
         .disabled {
             color: grey;
             a {
