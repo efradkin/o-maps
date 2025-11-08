@@ -227,13 +227,20 @@ let sosnovoMaps = [
     },
     {
         name: 'Сосново, Чёрный лес',
-        year: 1986,
-        startYear: 2004,
-        start: 'YM',
+        year: 1982,
+        url: './maps/forest/sosnovo/sosnovo_black_forest_1982.webp',
+        link: './original_maps/forest/sosnovo/sosnovo_black_forest_1982_omaps.jpg',
+        bounds: [[60.539659702817346, 30.244975090026855], [60.53662020004658, 30.294542312622074], [60.51624394303434, 30.241756439208988]],
+        author: ['GRZNVCH','SHRNN','FDRV_L','BLZRV_V','YKVLVA']
+    },
+    {
+        name: 'Сосново, Чёрный лес',
+        year: 1996,
         url: './maps/forest/sosnovo/sosnovo_black_forest_1986.webp',
-        link: ['./original_maps/forest/sosnovo/sosnovo_black_forest_1986_omaps.jpg','./original_maps/starts/ym/ym_2004_06_14_omaps.jpg'],
+        link: './original_maps/forest/sosnovo/sosnovo_black_forest_1996_omaps.jpg',
         bounds: [[60.54052506459614, 30.245018005371097], [60.53744342689857, 30.319004058837894], [60.508470137955726, 30.241327285766605]],
-        author: 'SHRNN'
+        author: 'SHRNN',
+        start: 'CISM_96'
     },
     {
         name: 'Сосново, юг',

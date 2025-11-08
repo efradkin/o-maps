@@ -326,6 +326,12 @@ let starts = {
         logo: 'wedding.jpg',
         info: '<p>Открытые ежегодные соревнования семейных пар по спортивному ориентированию (since 1974).'
     },
+    CISM_96: {
+        major: true,
+        short: "CISM'96'",
+        name: "XXIX Orienteering Military World Championship'1996",
+        logo: 'military_1996.gif',
+    },
     /* --- МОСКВА --- */
     AERO: {
         short: 'Аэророгейн',

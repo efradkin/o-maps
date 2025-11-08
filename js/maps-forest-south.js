@@ -108,7 +108,7 @@ let southMaps = [
         date: '1989-05-08',
         start: 'LENINGRAD_30',
         url: './maps/forest/south/budogosch_cheremukhovoe_1988.webp',
-        link: './original_maps/forest/south/budogosch_cheremukhovoe_1988_omaps.jpg',
+        link: ['./original_maps/forest/south/budogosch_cheremukhovoe_1988_omaps.jpg','./original_maps/forest/south/budogosch_cheremukhovoe_1988_clean_omaps.jpg'],
         bounds: [[59.302662810107954, 32.37713813781739], [59.299705046163595, 32.433700561523445], [59.26748163360483, 32.37022876739503]],
         author: ['MRKRV','MRSKY_S'],
         planner: ['MLVA_M','MRSKY_S','KUOKNN_Y']

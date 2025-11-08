@@ -53,6 +53,15 @@ let ymStartsMaps = [
         owner: ['ILVS','RYLOV_V']
     },
     {
+        name: 'Сосново, Чёрный лес',
+        date: '2004-06-14',
+        url: './maps/starts/ym/ym_2004_06_14.webp',
+        link: './original_maps/starts/ym/ym_2004_06_14_omaps.jpg',
+        bounds: [[60.54020847150757, 30.24840831756592], [60.53843549297673, 30.287332534790043], [60.51324448924725, 30.24471759796143]],
+        author: 'SHRNN',
+        start: 'YM'
+    },
+    {
         name: 'Мичуринское',
         region: 'starts',
         start: ['YM','WN'],

@@ -27,6 +27,38 @@ let vaskelovoMaps = [
         author: 'TRSV'
     },
     {
+        name: 'Лемболово',
+        region: 'starts',
+        start: 'MMS',
+        date: '1997-06-28',
+        url: './maps/starts/mms/mms_1997_06_28.webp',
+        link: ['./original_maps/starts/mms/mms_1997_06_28_omaps.jpg','./original_maps/forest/vaskelovo/lembolovo_north_east_1997_omaps.jpg'],
+        bounds: [[60.44640302742059, 30.317201614379886], [60.44343944818274, 30.36608219146729], [60.4204837259908, 30.310249328613285]],
+        author: 'CHGRVSKY_V',
+        planner: 'TLNV_A'
+    },
+    {
+        name: 'Лемболово-Орехово',
+        info: 'Карта лыжного марафона-Ретро, проводимого <a href="https://o-site.spb.ru/history/Peoples/bap.html">Борисом Панкратьевым</a>.',
+        logo: 'nevsky_azimut.gif',
+        year: 1991,
+        excluded: true,
+        area: 28,
+        url: './maps/forest/vaskelovo/lembolovo_orekhovo_east_1991.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_east_1991_omaps.jpg',
+        bounds: [[60.498581191274454, 30.26767730712891], [60.489619369375575, 30.39178848266602], [60.42410604699255, 30.2479362487793]],
+        author: 'BYMKV',
+        qtty: 200
+    },
+    {
+        name: 'Лемболово, с-з',
+        year: 1991,
+        url: './maps/forest/vaskelovo/lembolovo_north_west_1991.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_north_west_1991_omaps.jpg',
+        bounds: [[60.445662157954466, 30.255832672119144], [60.43979810931484, 30.34037590026856], [60.415822836448655, 30.248365402221683]],
+        author: 'BYMKV',
+    },
+    {
         name: 'Лемболово, ю-з',
         year: 1991,
         url: './maps/forest/vaskelovo/lembolovo_south_west_1991.webp',
@@ -78,19 +110,6 @@ let vaskelovoMaps = [
         author: 'TRSV'
     },
     {
-        name: 'Лемболово-Орехово',
-        info: 'Карта лыжного марафона-Ретро, проводимого <a href="https://o-site.spb.ru/history/Peoples/bap.html">Борисом Панкратьевым</a>.',
-        logo: 'nevsky_azimut.gif',
-        year: 1991,
-        excluded: true,
-        area: 28,
-        url: './maps/forest/vaskelovo/lembolovo_orekhovo_east_1991.webp',
-        link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_east_1991_omaps.jpg',
-        bounds: [[60.498581191274454, 30.26767730712891], [60.489619369375575, 30.39178848266602], [60.42410604699255, 30.2479362487793]],
-        author: 'BYMKV',
-        qtty: 200
-    },
-    {
         name: 'Лемболово, юг',
         date: '1995-05-29',
         info: 'Model.',
@@ -107,6 +126,15 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_1995_omaps.jpg',
         bounds: [[60.4479482150824, 30.235576629638675], [60.4409201932774, 30.3398609161377], [60.4233434866285, 30.22845268249512]],
         author: ['DBRTSV_V','KUZNTSV_V','CHGRVSKY_Y'],
+        start: 'VWC_1995'
+    },
+    {
+        name: 'Лемболово',
+        year: 1995,
+        url: './maps/forest/vaskelovo/lembolovo_vwc_1995.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_vwc_1995_omaps.jpg',
+        bounds: [[60.42738908875795, 30.26716232299805], [60.422898651490996, 30.34235000610352], [60.397384592648955, 30.259137153625492]],
+        author: 'CHGRVSKY_Y',
         start: 'VWC_1995'
     },
     {
@@ -376,7 +404,8 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_1995.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_rakitinskoe_1995_omaps.pdf',
         bounds: [[60.47086339472666, 30.299048423767093], [60.465596239324626, 30.384879112243656], [60.44186229045466, 30.290164947509766]],
-        author: ['BYMKV','KUZNTSV_S']
+        author: ['BYMKV','KUZNTSV_S'],
+        start: 'CISM_96'
     },
     {
         name: 'Орехово, р.Смородинка',
@@ -545,6 +574,14 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/lembolovo_1982.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_1982_omaps.jpg',
         bounds: [[60.41643726465351, 30.276002883911136], [60.41368284071863, 30.339431762695316], [60.37793894790542, 30.266304016113285]],
+        author: ['LVCHV','SVTKN']
+    },
+    {
+        name: 'Лемболово',
+        year: 1988,
+        url: './maps/forest/vaskelovo/lembolovo_1988.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_1988_omaps.jpg',
+        bounds: [[60.40732558758223, 30.25866508483887], [60.40316621235959, 30.313242673873905], [60.37059875140048, 30.249137878417972]],
         author: ['LVCHV','SVTKN']
     },
     {

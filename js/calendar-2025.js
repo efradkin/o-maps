@@ -1930,6 +1930,7 @@ let events_2025 =
         place: 'Лемболово',
         name: 'Маркир 110%',
         type: 'ORIENT',
+        fmt: 'маркир',
         link: 'https://o-site.spb.ru/race.php?id=251109',
         reg: 'http://orgeo.ru/event/47234',
         start: 'ROGAINE_110'

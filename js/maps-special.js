@@ -543,6 +543,7 @@ let specialMaps = [
     {
         name: 'Лемболово',
         year: 2019,
+        excluded: true,
         url: './maps/velo/lembolovo_velo_2019.webp',
         link: './original_maps/velo/lembolovo_velo_2019_omaps.jpeg',
         info: '<a href="https://vk.com/lembolovomarathon">Лемболовский веломарафон "Горные вершины"</a>.',

@@ -23,17 +23,6 @@ let mmsStartsMaps = [
         planner: 'TLNV_A'
     },
     {
-        name: 'Лемболово',
-        region: 'starts',
-        start: 'MMS',
-        date: '1997-06-28',
-        url: './maps/starts/mms/mms_1997_06_28.webp',
-        link: './original_maps/starts/mms/mms_1997_06_28_omaps.jpg',
-        bounds: [[60.44640302742059, 30.317201614379886], [60.44343944818274, 30.36608219146729], [60.4204837259908, 30.310249328613285]],
-        author: 'CHGRVSKY_V',
-        planner: 'TLNV_A'
-    },
-    {
         name: 'Орехово',
         region: 'starts',
         start: 'MMS',

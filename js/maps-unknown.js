@@ -256,4 +256,8 @@ let unknownMaps = [
         info: 'IV Первенство МИИГАиК',
         link: './original_maps/unknown/unknown_56_omaps.jpg',
     },
+    {
+        year: 1977,
+        link: './original_maps/unknown/unknown_57_omaps.jpg',
+    },
  ];

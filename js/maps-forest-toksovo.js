@@ -177,8 +177,8 @@ let toksovoMaps = [
     {
         name: 'Токсово',
         year: 1989,
-        url: './maps/forest/toksovo/toksovo_malinovaya_gora_1989.webp',
-        link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_1989_omaps.jpg',
+        url: './maps/forest/toksovo/toksovo_malinovaya_gora_1989_winter.webp',
+        link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_1989_winter_omaps.jpg',
         bounds: [[60.18638503121964, 30.44620513916016], [60.18087971211821, 30.52989006042481], [60.14902464279283, 30.436763763427738]],
         author: ['DBRTSV_V','CHGRVSKY_Y','BSTRV_A','GBNV_A','KRPLSN','GRBTNKV','DBRTSV_S','GUSEV_I'],
         type: ['WINTER']
@@ -186,8 +186,16 @@ let toksovoMaps = [
     {
         name: 'Токсово',
         year: 1989,
+        url: './maps/forest/toksovo/toksovo_malinovaya_gora_1989.webp',
+        link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_1989_omaps.jpg',
+        bounds: [[60.18689710700171, 30.44620513916016], [60.18177598975739, 30.50384044647217], [60.15726892901616, 30.439896583557132]],
+        author: ['CHGRVSKY_Y','DBRTSV_V','GBNV_A','KRPLSN','GRBTNKV','DBRTSV_S'],
+    },
+    {
+        name: 'Токсово',
+        year: 1989,
         url: './maps/forest/toksovo/toksovo_1989.webp',
-        link: './original_maps/forest/toksovo/toksovo_1989_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/toksovo_1989_omaps.jpg','./original_maps/forest/toksovo/toksovo_1989_10000_omaps.jpg'],
         bounds: [[60.16275685400291, 30.473070144653324], [60.160194512798185, 30.5116081237793], [60.14661076881676, 30.46920776367188]],
         author: ['CHGRVSKY_Y','DBRTSV_V','KRPLSN','BSTRV_A','BRSVA_I','GUSEV_I'],
         areas: [40,30,5,5,10,10]

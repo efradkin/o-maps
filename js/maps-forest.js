@@ -64,6 +64,7 @@ let forestMaps = [
         name: 'Цвелодубово',
         year: 1993,
         area: 8,
+        info: 'Family games',
         url: './maps/forest/tsvelodubovo_1993.webp',
         link: './original_maps/forest/tsvelodubovo_1993_omaps.jpg',
         bounds: [[60.40194214210233, 29.54704284667969], [60.39651540611492, 29.62077140808106], [60.36138934596662, 29.53554153442383]],
@@ -674,6 +675,14 @@ let forestMaps = [
         link: './original_maps/forest/osinovaja_roscha_1993_omaps.jpg',
         bounds: [[60.13872706122912, 30.22493362426758], [60.136077369404795, 30.27042388916016], [60.10772941530803, 30.21746635437012]],
         author: ['KAZNTSVA_O','KAZNTSV_S']
+    },
+    {
+        name: 'Осиновая Роща',
+        year: 1,
+        url: './maps/forest/osinovaja_roscha_old.webp',
+        link: './original_maps/forest/osinovaja_roscha_old_omaps.jpg',
+        bounds: [[60.12592536546143, 30.247764587402344], [60.12438626201431, 30.267720222473148], [60.11160037127036, 30.24295806884766]],
+        author: 'MLVA_M'
     },
     {
         name: 'Осиновая Роща - Сертолово',
