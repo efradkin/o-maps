@@ -507,6 +507,7 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/39844',
         res: 'https://o-site.spb.ru/_races/250502R/250502R_res.pdf',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22439/',
+        photo: 'https://vk.com/album-31941981_306303089',
         start: 'GK'
     }, {
         date: '2025-05-02',
@@ -804,6 +805,7 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/39845',
         res: 'https://o-site.spb.ru/_races/250531R/250531R_res.pdf',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22757/',
+        photo: 'https://vk.com/album-31941981_306822215',
         start: 'GK'
     }, {
         date: '2025-05-31',
@@ -977,6 +979,7 @@ let events_2025 =
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/39846',
         res: 'https://o-site.spb.ru/_races/250705R/250705R_res.pdf',
+        photo: 'https://vk.com/album-31941981_307754452',
         start: 'GK'
     }, {
         date: '2025-07-05',
@@ -1924,6 +1927,8 @@ let events_2025 =
         fmt: '2, 5',
         link: 'https://o-site.spb.ru/race.php?id=251108R',
         reg: 'http://orgeo.ru/event/39881',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23833/',
+        photo: 'https://vk.com/album-31941981_309120792',
         start: 'GK'
     }, {
         date: '2025-11-09',
@@ -1933,15 +1938,17 @@ let events_2025 =
         fmt: 'маркир',
         link: 'https://o-site.spb.ru/race.php?id=251109',
         reg: 'http://orgeo.ru/event/47234',
-        start: 'ROGAINE_110'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23839/',
+        start: 'ROGAINE_110',
+        me: 'A'
     }, {
         date: '2025-11-15',
         place: 'Луга, б/о Штоль',
         name: 'Рогейн на Лужских берегах',
-        fmt: '3, 6',
+        fmt: '2, 5',
         type: 'ROGAINE',
         link:  ['https://vk.com/event166397868','https://t.me/lugarogein'],
-        reg: 'https://orgeo.ru/event/40555'
+        reg: 'https://orgeo.ru/event/47229'
     }, {
         date: '2025-11-23',
         place: 'Сосновка',

@@ -1,8 +1,16 @@
+const YEAR_PARAM = urlParams.get('year');
 
 let hasAuthors = false;
 let hasPlanners = false;
 
 window.onload = function() {
+
+    if (YEAR_PARAM && isDocumentsPage()) {
+        oMaps = oMaps.filter(m => {
+            let y = year(m);
+            return (y && YEAR_PARAM === y.toString());
+        });
+    }
 
     if (!isUnknownPage()) {
         oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
