@@ -254,9 +254,10 @@ let vaskelovoMaps = [
         owner: 'SFSO_SPB'
     },
     {
-        name: 'оз Сиркиярви',
+        name: 'Гарболово',
         year: 2016,
         url: './maps/forest/vaskelovo/garbolovo_2016.webp',
+        link: './original_maps/forest/vaskelovo/garbolovo_2016_omaps.jpg',
         bounds: [[60.37399326745597, 30.473756790161136], [60.370238063287275, 30.513024330139164], [60.347676517105526, 30.46388626098633]],
         author: ['KVZN','NSNV','TKMKV_K']
     },

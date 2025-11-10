@@ -1943,6 +1943,14 @@ let events_2025 =
         me: 'A'
     }, {
         date: '2025-11-15',
+        place: 'Пискарёвский л/п',
+        name: 'Длительная серия, осень №3',
+        type: 'ORIENT',
+        link: 'https://t.me/dlitelnyy/361',
+        reg: 'https://orgeo.ru/event/info/47735',
+        owner: 'DLT',
+    }, {
+        date: '2025-11-15',
         place: 'Луга, б/о Штоль',
         name: 'Рогейн на Лужских берегах',
         fmt: '2, 5',

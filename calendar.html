@@ -223,7 +223,7 @@
             renderMapsTable();
 
             setTimeout(() => {
-                const firstCurrent = document.querySelector('.current');
+                const firstCurrent = document.querySelector('.current').previousSibling;
                 firstCurrent.scrollIntoView();
             }, 1000);
 
