@@ -1852,7 +1852,7 @@ let events_2025 =
     }, {
         date: '2025-10-26',
         place: 'Васильево',
-        name: 'XII Кубок Весты',
+        name: 'XII Кубок Весты, этап 2',
         type: 'ORIENT',
         link: 'https://vk.ru/wall-30365190_8705',
     }, {
@@ -1949,6 +1949,12 @@ let events_2025 =
         type: 'ROGAINE',
         link:  ['https://vk.com/event166397868','https://t.me/lugarogein'],
         reg: 'https://orgeo.ru/event/47229'
+    }, {
+        date: '2025-11-16',
+        place: 'Приозерск, стд Сосновый',
+        name: 'XII Кубок Весты, этап 3',
+        type: 'ORIENT',
+        link: 'https://vk.com/wall-30365190_8767',
     }, {
         date: '2025-11-23',
         place: 'Сосновка',

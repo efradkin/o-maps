@@ -62,7 +62,7 @@ let historyDocs = [
         me: 'М-13'
     },
     {
-        name: 'Первенство клуба Азимут (Комарово)',
+        name: 'П-во клуба Азимут (Комарово)',
         year: 1988,
         link: './docs/1988/1988_azimut_omaps.pdf',
         planner: 'VSLVSKY',
@@ -101,7 +101,7 @@ let historyDocs = [
         planner: 'EGRV_E'
     },
     {
-        name: 'Первенство клуба Азимут (ст Морская)',
+        name: 'П-во клуба Азимут (ст Морская)',
         date: '1988-03-13',
         link: './docs/1988/1988_03_13_azimut_omaps.pdf',
         planner: 'FRSHLVA'
@@ -426,7 +426,7 @@ let historyDocs = [
         link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg']
     },
     {
-        name: 'Бробег',
+        name: 'Бро-бег',
         year: 1989,
         link: './docs/1989/1989_brobeg_omaps.pdf',
     },
@@ -518,6 +518,7 @@ let historyDocs = [
         date: '1989-06-23',
         info: '23-25 июня.',
         link: './docs/1989/1989_06_23_wn_omaps.pdf',
+        start: 'WN',
         me: 'М-15'
     },
     {
@@ -620,7 +621,7 @@ let historyDocs = [
         me: 'М-Б'
     },
     {
-        name: 'Первенство КСО АЗИМУТ среди ветеранов (Токсово)',
+        name: 'П-во КСО АЗИМУТ среди ветеранов (Токсово)',
         date: '1989-09-10',
         link: './docs/1989/1989_09_10_veterans_omaps.pdf',
         planner: 'SHVR'
@@ -767,6 +768,52 @@ let historyDocs = [
         link: './docs/1990/1990_11_18_relay_omaps.pdf',
     },
     {
+        name: 'Невская заря',
+        info: '5-6 января.',
+        date: '1991-01-05',
+        link: './docs/1991/1991_01_05_nzarya_omaps.pdf',
+    },
+    {
+        name: 'Кубок Ленинграда (Кавголово)',
+        date: '1991-01-19',
+        info: '19-20 января.',
+        link: ['./docs/1991/1991_01_19_leningrad_cup_omaps.pdf','./docs/1991/1991_01_20_leningrad_cup_omaps.pdf'],
+        planner: 'SHRNN',
+        me: 'М18'
+    },
+    {
+        name: 'П-во Ленинграда, маркир (Сосново)',
+        info: '2-3 февраля.',
+        date: '1991-02-02',
+        link: ['./docs/1991/1991_02_02_leningrad_omaps.pdf','./docs/1991/1991_02_03_leningrad_omaps.pdf'],
+        planner: 'MRSKY_S',
+        me: 'H17'
+    },
+    {
+        name: 'П-во Ленинграда, з/н и эстафета (Сосново)',
+        info: '9-10 февраля.',
+        date: '1991-02-09',
+        link: ['./docs/1991/1991_02_09_leningrad_omaps.pdf','./docs/1991/1991_02_10_leningrad_omaps.pdf'],
+        planner: ['MRSKY_S','RYLOV_V'],
+        me: 'М17а,М3'
+    },
+    {
+        name: 'П-во обкома профсоюза (Шуваловский парк)',
+        date: '1991-02-16',
+        link: './docs/1991/1991_02_16_obkom_unions_omaps.pdf',
+    },
+    {
+        name: 'Зимнее п-во клуба АЗИМУТ (Колтуши)',
+        date: '1991-02-17',
+        link: './docs/1991/1991_02_17_azimut_omaps.pdf',
+    },
+    {
+        name: 'Чемпионат ЛОС ДФСО профсоюзов, маркир (Кузьмолово)',
+        date: '1991-03-09',
+        link: './docs/1991/1991_03_09_vdfso_unions_omaps.pdf',
+        planner: ['BRDLN_Y','TLNV_A','SVTKN','LVCHV'],
+    },
+    {
         name: 'Ориентир-1 (Воейково)',
         date: '1991-04-07',
         start: 'ORIENTIR',
@@ -784,6 +831,12 @@ let historyDocs = [
         planner: 'NKLVCH'
     },
     {
+        name: 'Бро-бег',
+        date: '1991-04-14',
+        link: './docs/1991/1991_04_14_brobeg_omaps.pdf',
+        me: 'М-4'
+    },
+    {
         name: 'Ориентир-3 (Юкки)',
         date: '1991-04-27',
         start: 'ORIENTIR',
@@ -793,6 +846,12 @@ let historyDocs = [
         me: 'МА'
     },
     {
+        name: 'XV соревнования школьников "День эстафет" (Токсово)',
+        date: '1991-04-28',
+        link: './docs/1991/1991_04_28_relay_omaps.pdf',
+        planner: 'BRSNTSNA',
+    },
+    {
         name: 'Майские многодневные соревнования (Шалово)',
         date: '1991-05-01',
         link: './docs/1991/1991_05_01_mayski_omaps.pdf',
@@ -800,9 +859,52 @@ let historyDocs = [
         planner: ['FDRV_L','DRBSHV']
     },
     {
+        name: 'Подснежник (Токсово)',
+        date: '1991-05-09',
+        link: './docs/1991/1991_05_09_snowdrop_omaps.pdf',
+        planner: 'SVTKN',
+    },
+    {
+        name: 'Открытие сезона',
+        date: '1991-05-09',
+        link: './docs/1991/1991_05_09_open_omaps.pdf'
+    },
+    {
+        name: 'Приз Ленинградского телевидения (Орловский л/п)',
+        date: '1991-05-11',
+        link: './docs/1991/1991_05_11_tv_omaps.pdf',
+        planner: 'FDRV_L'
+    },
+    {
         name: 'Приз газеты "Охта" (Стадион "Химик")',
         date: '1991-05-19',
         link: './docs/1991/1991_05_19_okhta_omaps.pdf',
+    },
+    {
+        name: 'Летняя спартакиада клуба "ЭНЕРГИЯ" (Охтинский парк)',
+        date: '1991-05-23',
+        link: './docs/1991/1991_05_23_energy_omaps.pdf',
+        planner: 'VSLVSKY'
+    },
+    {
+        name: 'Кубок Ленинграда (69км)',
+        date: '1991-05-25',
+        info: '25-26 мая.',
+        link: ['./docs/1991/1991_05_25_leningrad_cup_omaps.pdf','./docs/1991/1991_05_26_leningrad_cup_omaps.pdf'],
+        planner: ['KUZNTSV_V','TRSV_D','BNDRNK']
+    },
+    {
+        name: 'П-во КНО (Юкки)',
+        date: '1991-05-28',
+        link: './docs/1991/1991_05_28_kno_omaps.pdf',
+        planner: 'RYZHOV'
+    },
+    {
+        name: 'Ориентир-7 (Сертолово)',
+        date: '1991-05-29',
+        start: 'ORIENTIR',
+        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_05_29">тут</a>.',
+        link: './docs/1991/1991_05_29_orientir_7_omaps.pdf',
     },
     {
         name: 'Ориентир-8 (Орловский л/п)',
@@ -812,11 +914,11 @@ let historyDocs = [
         link: './docs/1991/1991_06_05_orientir_8_omaps.pdf',
     },
     {
-        name: 'Ориентир-7 (Сертолово)',
-        date: '1991-05-29',
-        start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_05_29">тут</a>.',
-        link: './docs/1991/1991_05_29_orientir_7_omaps.pdf',
+        name: 'Чемпионат Ленинграда (Шапки)',
+        date: '1991-06-09',
+        link: './docs/1991/1991_06_09_leningrad_omaps.pdf',
+        info: 'С картой.',
+        planner: 'KRCHKN_V'
     },
     {
         name: 'Ориентир-10 (Токсово)',
@@ -827,12 +929,27 @@ let historyDocs = [
         me: 'МА'
     },
     {
+        name: 'Летний чемпионат ЛОС ВДФСО профсоюзов (Невский л/п, Вартемяки)',
+        date: '1991-06-15',
+        info: '15-16 июня',
+        link: ['./docs/1991/1991_06_15_vdfso_unions_omaps.pdf','./docs/1991/1991_06_16_vdfso_unions_omaps.pdf'],
+        planner: ['SHRNN','SHLKHN_Y']
+    },
+    {
         name: 'Ориентир-11 (Лемболово)',
         date: '1991-06-26',
         start: 'ORIENTIR',
         planner: 'BYMKV',
         info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_06_26">тут</a>.',
         link: './docs/1991/1991_06_26_orientir_11_omaps.pdf',
+    },
+    {
+        name: 'Многодневка "Белые Ночи" (Сосново)',
+        date: '1991-06-26',
+        start: 'WN',
+        info: '26-28 июня.',
+        link: './docs/1991/1991_06_26_wn_omaps.pdf',
+        me: 'H17'
     },
     {
         name: 'Ориентир-12 (Токсово)',
@@ -926,6 +1043,25 @@ let historyDocs = [
         planner: 'SMNV_M'
     },
     {
+        name: 'Кубок ЛГДТЮ (Комарово)',
+        date: '1991-09-15',
+        link: './docs/1991/1991_09_15_lgdty_omaps.pdf',
+        planner: 'GRV_M'
+    },
+    {
+        name: 'Чемпионат Ленинграда, удлиннённая дистанция (Шапки)',
+        date: '1991-09-21',
+        link: './docs/1991/1991_09_21_leningrad_omaps.pdf',
+        info: 'С картой.',
+        planner: 'KRCHKN_V'
+    },
+    {
+        name: 'Чемпионат Ленинграда, эстафета (Шапки)',
+        date: '1991-09-22',
+        link: './docs/1991/1991_09_22_leningrad_omaps.pdf',
+        planner: 'KRCHKN_V'
+    },
+    {
         name: 'Ориентир-25 (Орехово)',
         date: '1991-09-29',
         start: 'ORIENTIR',
@@ -948,6 +1084,17 @@ let historyDocs = [
         planner: 'GBNVA_A',
     },
     {
+        name: 'П-во ФОК Антей (Юкки)',
+        date: '1991-10-13',
+        link: './docs/1991/1991_10_13_antey_omaps.pdf',
+    },
+    {
+        name: 'Свадебные-91 (Лемболово)',
+        date: '1991-10-13',
+        link: './docs/1991/1991_10_13_wedding_omaps.pdf',
+        start: 'WEDDING'
+    },
+    {
         name: 'Закрытие сезона (Мельничный ручей)',
         date: '1991-10-27',
         link: './docs/1991/1991_10_27_season_close_omaps.pdf',
@@ -965,6 +1112,11 @@ let historyDocs = [
         date: '1991-03-01',
         link: './docs/1991/1991_veteran_ussr_omaps.pdf',
         info: '1-3 марта.'
+    },
+    {
+        name: 'Новогодняя ночь',
+        date: '1992-01-01',
+        link: './docs/1992/1992_01_01_new_year_omaps.pdf',
     },
     {
         name: 'Календарь "Субботнего марафона" клуба "Карта"',

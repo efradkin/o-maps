@@ -367,7 +367,7 @@ let authors = {
     SVCHK: { name: 'Роман Сивачук' },
     SVLJV: { name: 'Савельев Никита' },
     SVTKN: {
-        name: 'Святкин  Михаил',
+        name: 'Святкин Михаил',
         about: 'https://o-site.spb.ru/history/Peoples/svyatkin.html'
     },
     SVTLNV: { name: 'Светланов Константин' },
@@ -384,7 +384,7 @@ let authors = {
     },
     TKMKVA_P: { name: 'Токмакова Полина' },
     TLNKV: { name: 'Туленков М.' },
-    TLNV_A: { name: 'Тюленев А.' },
+    TLNV_A: { name: 'Тюленев Александр' },
     TLNV_P: { name: 'Тюленев Пётр' },
     TMLNS: { name: 'Витаутас Тамуленис' },
     TMKN: {
