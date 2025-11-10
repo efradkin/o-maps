@@ -944,14 +944,6 @@ let historyDocs = [
         link: './docs/1991/1991_06_26_orientir_11_omaps.pdf',
     },
     {
-        name: 'Многодневка "Белые Ночи" (Сосново)',
-        date: '1991-06-26',
-        start: 'WN',
-        info: '26-28 июня.',
-        link: './docs/1991/1991_06_26_wn_omaps.pdf',
-        me: 'H17'
-    },
-    {
         name: 'Ориентир-12 (Токсово)',
         date: '1991-07-03',
         start: 'ORIENTIR',
@@ -1117,6 +1109,14 @@ let historyDocs = [
         name: 'Новогодняя ночь',
         date: '1992-01-01',
         link: './docs/1992/1992_01_01_new_year_omaps.pdf',
+    },
+    {
+        name: 'Многодневка "Белые Ночи" (Сосново)',
+        date: '1992-06-26',
+        start: 'WN',
+        info: '26-28 июня.',
+        link: './docs/1992/1992_06_26_wn_omaps.pdf',
+        me: 'H17'
     },
     {
         name: 'Календарь "Субботнего марафона" клуба "Карта"',

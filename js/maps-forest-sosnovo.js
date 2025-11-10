@@ -356,6 +356,7 @@ let sosnovoMaps = [
         start: 'WN',
         url: './maps/forest/sosnovo/krivko_ulovnoe_1992.webp',
         link: ['./original_maps/forest/sosnovo/krivko_ulovnoe_1992_omaps.jpg','./original_maps/starts/wn/wn_19992_m21_omaps.jpg'],
+        info: '<a href="./docs/1992/1992_06_26_wn_omaps.pdf">Результаты</a>.',
         bounds: [[60.61582829627545, 30.21471977233887], [60.614017345690115, 30.26063919067383], [60.575753066539036, 30.2094841003418]],
         author: 'MLVA_M'
     },

@@ -1980,5 +1980,11 @@ let events_2025 =
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/44912'
+    }, {
+        date: '2025-11-30',
+        place: 'Пискарёвский л/п',
+        name: 'НатАлка',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=2025_Orientir',
     }
 ];
