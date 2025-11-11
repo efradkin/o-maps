@@ -112,6 +112,15 @@ let sosnovoMaps = [
         author: ['KAZNTSVA_O','MLVA_M']
     },
     {
+        name: 'Кривко, оз Уловное',
+        date: '1998-06-19',
+        start: 'WN',
+        url: './maps/forest/sosnovo/sosnovo_ulovnoe_1998.webp',
+        link: './original_maps/forest/sosnovo/sosnovo_ulovnoe_1998_omaps.jpg',
+        bounds: [[60.60816264725311, 30.20720958709717], [60.604434462040935, 30.260295867919925], [60.58871658691616, 30.200514793396]],
+        author: ['KAZNTSVA_O','MLVA_M']
+    },
+    {
         name: 'Замостье',
         year: 1989,
         date: '1990-06-22',

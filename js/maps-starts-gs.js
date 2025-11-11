@@ -52,6 +52,17 @@ let gsStartsMaps = [
         planner: 'GBNV_V'
     },
     {
+        name: 'Петяярви',
+        region: 'starts',
+        start: 'GS',
+        date: '2013-08-25',
+        info: '<a href="https://o-site.spb.ru/race.php?id=130825_ZZ">Инфо и результаты.</a>',
+        url: './maps/starts/gs/gs_2013_08_25.webp',
+        link: './original_maps/starts/gs/gs_2013_08_25_omaps.jpg',
+        bounds: [[60.633511306541614, 30.091252326965332], [60.63014386155463, 30.136699676513675], [60.61467014191949, 30.08618831634522]],
+        planner: 'GBNV_V'
+    },
+    {
         name: 'Токсово, оз Светлое',
         region: 'starts',
         start: 'GS',

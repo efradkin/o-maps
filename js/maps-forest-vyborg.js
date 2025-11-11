@@ -499,6 +499,13 @@ let vyborgMaps = [
     },
     {
         name: 'Сайменские дачи',
+        year: 1,
+        url: './maps/forest/vyborg/vyborg_saymenskie_dachi_old.webp',
+        link: './original_maps/forest/vyborg/vyborg_saymenskie_dachi_old_omaps.jpg',
+        bounds: [[60.78851572999128, 28.749933242797855], [60.78616989667208, 28.784608840942386], [60.7647143123192, 28.744053840637207]],
+    },
+    {
+        name: 'Сайменские дачи',
         year: 1981,
         start: 'USSR_1981',
         url: './maps/forest/vyborg/vyborg_saymenskie_dachi_1981.webp',

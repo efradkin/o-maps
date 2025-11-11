@@ -21,6 +21,14 @@ let vsevolozhskMaps = [
         qtty: 10
     },
     {
+        name: 'Всеволожск',
+        date: '2010-05-16',
+        info: '<a href="https://o-site.spb.ru/race.php?id=10RA_LO">Российский Азимут ЛО</a>',
+        url: './maps/forest/vsevolozhsk/vsevolozhsk_2010.webp',
+        link: './original_maps/forest/vsevolozhsk/vsevolozhsk_2010_omaps.jpg',
+        bounds: [[60.05582326112308, 30.640633106231693], [60.05360606644188, 30.675072669982914], [60.042882168248674, 30.63769340515137]],
+    },
+    {
         name: 'Невская Дубровка',
         url: './maps/forest/vsevolozhsk/nevskaya_dubrovka.webp',
         link: './original_maps/forest/vsevolozhsk/nevskaya_dubrovka_omaps.jpg',

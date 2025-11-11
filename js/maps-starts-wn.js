@@ -64,6 +64,16 @@ let wnStartsMaps = [
     {
         name: 'Первомайское, оз Дедово',
         region: 'starts',
+        date: '2004-06-19',
+        start: 'WN',
+        info: '<a href="https://o-site.spb.ru/race.php?id=040618_WN">Инфо и результаты</a>',
+        url: './maps/starts/wn/wn_2004_06_19.webp',
+        link: './original_maps/starts/wn/wn_2004_06_19_omaps.jpg',
+        bounds: [[60.42035661968097, 29.718790054321293], [60.41806862115358, 29.756426811218265], [60.39471336009898, 29.711794853210453]],
+    },
+    {
+        name: 'Первомайское, оз Дедово',
+        region: 'starts',
         date: '2004-06-20',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=040618_WN">Инфо и результаты</a>',
@@ -90,6 +100,16 @@ let wnStartsMaps = [
         url: './maps/starts/wn/wn_2005_06_19.webp',
         link: './original_maps/starts/wn/wn_2005_06_19_omaps.jpg',
         bounds: [[61.12759391372358, 29.769172668457035], [61.123511389745026, 29.822301864624027], [61.10983005371751, 29.76329326629639]]
+    },
+    {
+        name: 'Первомайское',
+        region: 'starts',
+        year: 2006,
+        start: 'WN',
+        info: '<a href="https://o-site.spb.ru/race.php?id=06061618_WN">Инфо и результаты</a>',
+        url: './maps/starts/wn/wn_2006.webp',
+        link: './original_maps/starts/wn/wn_2006_omaps.jpg',
+        bounds: [[60.423004565170935, 29.671111106872562], [60.420780305448474, 29.703683853149418], [60.40516383853125, 29.666347503662113]],
     },
     {
         name: 'Журавлёвское оз',
@@ -125,6 +145,28 @@ let wnStartsMaps = [
         author: ['TKMKV_K','KVZN','NSNV','VRBY','SHRNN','KUZNTSV_S']
     },
     {
+        name: 'Ягодное, Заросшее оз',
+        region: 'starts',
+        date: '2008-06-21',
+        start: ['WN','YM'],
+        info: '<a href="https://o-site.spb.ru/race.php?id=08061722">Инфо и результаты</a>',
+        url: './maps/starts/wn/wn_2008_06_21.webp',
+        link: './original_maps/starts/wn/wn_2008_06_21_omaps.jpg',
+        bounds: [[60.63186972104534, 29.790115356445316], [60.628691542362674, 29.836421012878418], [60.61711274612065, 29.785952568054203]],
+        author: 'VRBY'
+    },
+    {
+        name: 'Ягодное, Заросшее оз',
+        region: 'starts',
+        date: '2008-06-22',
+        start: ['WN','YM'],
+        info: '<a href="https://o-site.spb.ru/race.php?id=08061722">Инфо и результаты</a>',
+        url: './maps/starts/wn/wn_2008_06_22.webp',
+        link: './original_maps/starts/wn/wn_2008_06_22_omaps.jpg',
+        bounds: [[60.62654451591128, 29.82770919799805], [60.62332370820346, 29.8683500289917], [60.611342849054196, 29.8229455947876]],
+        author: ['VRBY','TRNV_V']
+    },
+    {
         name: 'Мичуринское, Окунёвое оз',
         region: 'starts',
         date: '2009-06-19',
@@ -133,6 +175,16 @@ let wnStartsMaps = [
         url: './maps/starts/wn/wn_2009_06_19.webp',
         link: './original_maps/starts/wn/wn_2009_06_19_omaps.jpg',
         bounds: [[60.605129580079435, 29.91100788116455], [60.60102184727174, 29.96332168579102], [60.58724132659432, 29.90637302398682]]
+    },
+    {
+        name: 'Мичуринское, Петриченко',
+        region: 'starts',
+        date: '2009-06-20',
+        start: ['WN','YM'],
+        info: '<a href="https://o-site.spb.ru/race.php?id=09061621">Инфо и результаты</a>',
+        url: './maps/starts/wn/wn_2009_06_20.webp',
+        link: './original_maps/starts/wn/wn_2009_06_20_omaps.jpg',
+        bounds: [[60.59739818239472, 29.852857589721683], [60.593647682344844, 29.903883934021], [60.580032657325816, 29.84697818756104]],
     },
     {
         name: 'Мичуринское, Раздельные оз',

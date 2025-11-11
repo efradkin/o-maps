@@ -2029,4 +2029,14 @@ let cityMaps = [
         owner: 'NKLSK',
         type: ['CITY']
     },
+    {
+        name: 'Осиновая Роща',
+        date: '2013-03-17',
+        url: './maps/city/osinovaja_roscha_2013.webp',
+        link: './original_maps/city/osinovaja_roscha__2013_omaps.jpg',
+        info: '<a href="https://o-site.spb.ru/race.php?id=121118_tropa">Снежная тропа</a>.',
+        bounds: [[60.111354440089926, 30.249567031860355], [60.111354440089926, 30.273320674896244], [60.10544084613376, 30.24971723556519]],
+        author: 'MSPN',
+        type: ['CITY']
+    },
 ];

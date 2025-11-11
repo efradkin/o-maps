@@ -488,11 +488,11 @@ let forestMaps = [
     },
     {
         name: 'Каннельярви, оз Исток, р Быстрянка',
-        year: 2006,
+        date: '2006-06-11',
         start: 'NA',
         info: '<a href="https://o-site.spb.ru/race.php?id=06061012_NA">Результаты</a>.',
         url: './maps/forest/kanneljarvi_istok.webp',
-        link: ['./original_maps/forest/kanneljarvi_bystrjanka_2006_omaps.jpg','./original_maps/forest/kanneljarvi_2006_omaps.ocd'],
+        link: ['./original_maps/starts/na/na_2006_06_11_omaps.jpg','./original_maps/forest/kanneljarvi_bystrjanka_2006_omaps.jpg','./original_maps/forest/kanneljarvi_2006_omaps.ocd'],
         bounds: [[60.371489846094434, 29.309291839599613], [60.3654638739312, 29.380359649658207], [60.34585053525739, 29.301223754882816]],
         author: ['VSLVSKY','RYLOV_V']
     },

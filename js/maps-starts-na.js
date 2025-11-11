@@ -52,6 +52,16 @@ let naStartsMaps = [
         author: ['KUZNTSV_S','SHRNN']
     },
     {
+        name: 'Орехово, Ястребиное',
+        region: 'starts',
+        start: 'NA',
+        year: 2002,
+        url: './maps/starts/na/na_2002_yastrebinoe.webp',
+        link: './original_maps/starts/na/na_2002_yastrebinoe_omaps.jpg',
+        bounds: [[60.46929814463166, 30.319476127624515], [60.465934716774235, 30.369172096252445], [60.42935875470396, 30.3083610534668]],
+        author: ['VSLVSKY','BRDR','DRBSHV']
+    },
+    {
         name: 'Зеленогорск, Серенада',
         region: 'starts',
         start: 'NA',

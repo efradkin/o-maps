@@ -262,6 +262,16 @@ let vaskelovoMaps = [
         author: ['KVZN','NSNV','TKMKV_K']
     },
     {
+        name: 'Гарболово',
+        year: 2014,
+        url: './maps/forest/vaskelovo/garbolovo_2014.webp',
+        link: './original_maps/forest/vaskelovo/garbolovo_2014_omaps.jpg',
+        info: '<a href="https://o-site.spb.ru/race.php?id=141004_ZK">Результаты</a>.',
+        bounds: [[60.364806041913866, 30.473971366882328], [60.362471692132196, 30.508732795715336], [60.346317656622645, 30.46937942504883]],
+        author: ['CHGRVSKY_Y','FDRV_L'],
+        start: 'WEDDING'
+    },
+    {
         name: 'Матокса',
         year: 2021,
         url: './maps/forest/vaskelovo/garbolovo_sirkkajarvi.webp',
