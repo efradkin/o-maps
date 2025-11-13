@@ -1954,7 +1954,7 @@ let events_2025 =
         place: 'Пискарёвский л/п',
         name: 'Длительная серия, осень №3',
         type: 'ORIENT',
-        link: 'https://t.me/dlitelnyy/361',
+        link: 'https://o-site.spb.ru/race.php?id=251115_Dlit_9',
         reg: 'https://orgeo.ru/event/info/47735',
         owner: 'DLT',
     }, {

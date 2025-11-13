@@ -183,7 +183,7 @@
                     return event.type.includes('ORIENT');
                 }
                 if ('OTHER' === EVENT_TYPE_PARAM) {
-                    return !event.type.includes('ORIENT') && !event.type.includes('VELO') && !isRogaine(event);
+                    return !event.type.includes('ORIENT') && !event.type.includes('VELO') && !event.type.includes('SKI') && !isRogaine(event);
                 }
                 if ('SKI' === EVENT_TYPE_PARAM) {
                     return event.type.includes('SKI');

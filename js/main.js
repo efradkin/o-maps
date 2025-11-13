@@ -14,6 +14,7 @@ let overlayMapsContents;
 let marker1, marker2, marker3;
 
 let loaded = false;
+let needToSync = false;
 let tracksLoaded = false;
 
 let maxZindex = 1;
@@ -707,6 +708,10 @@ async function processYearSlider(years, vals) {
 setInterval(checkMapsLoad, 1000);
 
 function checkMapsLoad() {
+    if (needToSync) {
+        syncMaps();
+        needToSync = false;
+    }
     resyncMaps();
 
     if (imagesLoadCounter <= 0) {
@@ -844,7 +849,7 @@ function loadMapImage(m) {
     m.img.onload = function () {
         buildMap(m);
         imagesLoadCounter--;
-        syncMaps();
+        needToSync = true;
     }
 }
 
