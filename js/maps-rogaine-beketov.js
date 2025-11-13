@@ -349,13 +349,12 @@ let rogaineBeketovMaps = [
     {
         name: 'Елизаветинка-Огоньки',
         date: '2010-05-22',
-        hidden: true,
         info: 'Инженерно-испытательный полигон.',
         url: './maps/rogaine/beketov/elizavetinka_ogonki_2010.webp',
         link: 'https://kandid.ru/maps10/mbs_10.gif',
         bounds: [[60.39876252373886, 29.918174743652347], [60.3239732732973, 30.276603698730472], [60.271748482126604, 29.813117980957035]],
         owner: 'BKTV',
-                start: 'MB',
+        start: 'MB',
         type: ['ROGAINE']
     },
     {
