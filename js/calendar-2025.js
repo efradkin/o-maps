@@ -1943,6 +1943,14 @@ let events_2025 =
         me: 'A'
     }, {
         date: '2025-11-15',
+        place: 'Петяярви, Кентавр',
+        name: 'Кубок Белых Ночей №2',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251115_bn',
+        reg: 'https://orgeo.ru/event/47770',
+        owner: 'WN',
+    }, {
+        date: '2025-11-15',
         place: 'Пискарёвский л/п',
         name: 'Длительная серия, осень №3',
         type: 'ORIENT',
@@ -1963,6 +1971,22 @@ let events_2025 =
         name: 'XII Кубок Весты, этап 3',
         type: 'ORIENT',
         link: 'https://vk.com/wall-30365190_8767',
+    }, {
+        date: '2025-11-16',
+        place: 'оз Ловецкое',
+        name: 'Тренировка от Феникса',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251116_feniks',
+        reg: 'https://orgeo.ru/event/info/47763',
+        any: 'новая карта'
+    }, {
+        date: '2025-11-22',
+        place: 'Выборг, Сайменские дачи',
+        name: 'Тренировочный старт',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251122',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1706',
+        owner: 'VYBORG'
     }, {
         date: '2025-11-23',
         place: 'Сосновка',
@@ -1990,7 +2014,7 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/44912'
     }, {
         date: '2025-11-30',
-        place: 'Пискарёвский л/п',
+        place: 'Удельный парк',
         name: 'НатАлка',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=2025_Orientir',
