@@ -1,13 +1,10 @@
 const OLIVE_IMAGE_URL = './maps/olive.png';
-const EMPTY_IMAGE_URL = './maps/olive.png';
+const EMPTY_IMAGE_URL = './maps/empty.png';
 
 const EMPTY_MAPS_ZOOM_LEVEL = 12;
 const DEFAULT_ZOOM_LEVEL = 13;
 
 const ZERO_LATLNG = new L.LatLng(0, 0);
-
-const multiX = 1e-5;
-const multiY = 2e-5;
 
 let map;
 let layerControl;
@@ -29,7 +26,7 @@ let editMode = false;
 let mapOpacity = 1;
 let imagesLoadCounter = 0;
 let selectedOverlay, selectedMap;
-let visibleMaps;
+let visibleMaps = 0;
 
 let showMapsOnSmallZoom = true;
 let smosz = localStorage.getItem('showMapsOnSmallZoom');
@@ -81,17 +78,19 @@ if (map === undefined) {
 }
 
 function loadMaps() {
-    showSpinner(true);
+    if (!map) {
+        return;
+    }
+
+    let viewBounds = map.getBounds();
     for (const m of oMaps) {
-        if (isMapAcceptable(m)) {
+        if (isMapAcceptable(m) && inFrame(viewBounds, m.bounds) && !m.loaded) {
             if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM)) || (TYPE_PARAM === 'FOREST' && !m.type)) {
                 loadMap(m);
             }
         }
     }
-    if (map && !loadTracksRequired) {
-        checkMapsLoad();
-    }
+    resyncMaps();
 }
 
 function loadTracks() {
@@ -333,28 +332,6 @@ if (mapElement) {
             dismissable: true,
         }).addTo(map);
 
-    let savedLayers;
-    map.on('movestart', function() {
-        savedLayers = [];
-/* отключил эту фичу за ненадобностью
-        if (showMapsOnSmallZoom && visibleMaps > 200) {
-            map.eachLayer(function (layer) {
-                if (layer instanceof L.ImageOverlay) {
-                    savedLayers.push(layer);
-                    map.removeLayer(layer);
-                }
-            })
-        }
-*/
-    });
-    map.on('moveend', function() {
-        if (savedLayers) {
-            for (const l of savedLayers) {
-                map.addLayer(l);
-            }
-        }
-    });
-
     map.on('click', onMapClick);
     map.on('zoomend', function () {
         if (!showMapsOnSmallZoom) {
@@ -363,6 +340,7 @@ if (mapElement) {
     });
     map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () {
         visibleMaps = recalculateLayers();
+        loadMaps();
     });
     map.on('overlayadd', function (e) {
         if (!(e.name.includes('Рогейн') || e.name.includes('Рогаине')) && !e.name.includes('Необычные') && !e.name.includes('Карты')) {
@@ -645,7 +623,6 @@ if (mapElement) {
     }
 
     map.whenReady(function (e) {
-        showSpinner(true);
         // go to the specified map
         if (MAP_NAME_PARAM) {
             let m = getMapForName(MAP_NAME_PARAM);
@@ -727,52 +704,49 @@ async function processYearSlider(years, vals) {
     syncMaps();
 }
 
+setInterval(checkMapsLoad, 1000);
+
 function checkMapsLoad() {
-    let intervalCounter = 0;
-    let imagesLoadInterval = setInterval(function() {
-        syncMaps();
+    resyncMaps();
 
-        if (imagesLoadCounter <= 0) {
-            if (intervalCounter++ > 3) {
-                hideSpinner();
-                clearInterval(imagesLoadInterval);
+    if (imagesLoadCounter <= 0) {
+        hideSpinner();
 
-                visibleMaps = recalculateLayers();
-                if (!loaded) {
-                    loaded = true;
+        if (!loaded) {
+            loaded = true;
 
-                    // --- year slider (https://github.com/slawomir-zaziablo/range-slider) ---
-                    let yearSliderEl = document.getElementById("year_slider");
-                    if (yearSliderEl) {
-                        yearSliderEl.parentElement.style.display = 'block';
-                        let years = Object.keys(ageGroups);
-                        let wideScreen = false; //window.innerWidth > 1000;
-                        let yearSlider = new rSlider({
-                            target: '#year_slider',
-                            values: years,
-                            range: !timeline,
-                            set: timeline ? [years[years.length-1]] : [years[0], years[years.length-1]],
-                            labels: wideScreen,
-                            tooltip: !wideScreen,
-                            onChange: function (vals) {
-                                processYearSlider(years, vals);
-                            }
-                        });
+            // --- year slider (https://github.com/slawomir-zaziablo/range-slider) ---
+            let yearSliderEl = document.getElementById("year_slider");
+            if (yearSliderEl) {
+                yearSliderEl.parentElement.style.display = 'block';
+                let years = Object.keys(ageGroups);
+                let wideScreen = false; //window.innerWidth > 1000;
+                let yearSlider = new rSlider({
+                    target: '#year_slider',
+                    values: years,
+                    range: !timeline,
+                    set: timeline ? [years[years.length-1]] : [years[0], years[years.length-1]],
+                    labels: wideScreen,
+                    tooltip: !wideScreen,
+                    onChange: function (vals) {
+                        processYearSlider(years, vals);
                     }
+                });
+            }
 
-                    // set required styles for the map elements
-                    for (const m of oMaps) {
-                        applyMapStyles(m);
-                    }
+            // set required styles for the map elements
+            for (const m of oMaps) {
+                applyMapStyles(m);
+            }
 
-                    // go to the specified map
-                    if (MAP_NAME_PARAM) {
-                        locateForUrl(MAP_NAME_PARAM);
-                    }
-                }
+            // go to the specified map
+            if (MAP_NAME_PARAM) {
+                locateForUrl(MAP_NAME_PARAM);
             }
         }
-    }, 1000);
+    } else {
+        showSpinner();
+    }
 }
 
 tuneContextMenu();
@@ -782,6 +756,8 @@ tuneContextMenu();
 // --- functions ---
 
 function loadMap(m, forse) {
+    m.loaded = true;
+
     if (HAS_ONLY_WO_AUTHOR_PARAM && m.author) {
         return;
     }
@@ -868,6 +844,7 @@ function loadMapImage(m) {
     m.img.onload = function () {
         buildMap(m);
         imagesLoadCounter--;
+        syncMaps();
     }
 }
 
@@ -876,16 +853,7 @@ function buildMap(m) {
         return;
     }
 
-    let bounds;
-    if (m.bounds.length === 3) {
-        bounds = m.bounds;
-    } else {
-        bounds = [
-            m.bounds[0],
-            [m.bounds[0][0], m.bounds[0][1] + m.img.width * multiY],
-            [m.bounds[0][0] - m.img.height * multiX, m.bounds[0][1]]
-        ];
-    }
+    let bounds = m.bounds;
     let latLngs = [
         L.latLng(bounds[0]),
         L.latLng(bounds[1]),
@@ -899,6 +867,7 @@ function buildMap(m) {
             alt: m.name
         });
     m.layer = imgLayer;
+    imgLayer.map = m;
 
     if (!m.area) {
         m.area = getMapArea(latLngs);
@@ -928,6 +897,14 @@ function buildMap(m) {
     allocateMap(m, imgLayer);
 
     mapOverlays.push(imgLayer);
+}
+
+function resyncMaps() {
+    let visibleMapsNow = recalculateLayers();
+    if (visibleMapsNow !== visibleMaps) {
+        visibleMaps = visibleMapsNow;
+        syncMaps();
+    }
 }
 
 // show/hide maps according to the selected layers
@@ -962,7 +939,7 @@ function syncMaps() {
         for (const m of shownMaps) {
             if (!showMapsOnSmallZoom) {
                 if (zoom <= EMPTY_MAPS_ZOOM_LEVEL) {
-                    m.layer.setUrl(EMPTY_IMAGE_URL);
+                    m.layer.setUrl(OLIVE_IMAGE_URL);
                 } else {
                     m.layer.setUrl(mapImageUrl(m));
                 }

@@ -319,31 +319,40 @@ function recalculateLayers() {
 }
 
 function getImageOverlaysInView(total) {
-    let imgs = [];
-    let bounds = map.getBounds();
+    let layers = [];
+    let viewBounds = map.getBounds();
     map.eachLayer( function(layer) {
         if (layer instanceof L.ImageOverlay || layer._gpx) {
             if (layer._gpx) {
                 layer = layer.getLayers()[0];
             }
             if (layer) {
-                let inside = inFrame(bounds, layer);
+                let inside = checkLayerInFrame(viewBounds, layer);
                 if (total || inside) {
-                    imgs.push(layer);
+                    layers.push(layer);
                 }
             }
         }
     });
-    return imgs.length;
+    return layers.length;
 }
 
-function inFrame(bounds, layer) {
+function checkLayerInFrame(frameBounds, layer) {
     if (layer instanceof L.ImageOverlay.Rotated)
-        return bounds.contains(layer.getTopLeft()) || bounds.contains(layer.getTopRight()) || bounds.contains(layer.getBottomLeft());
+        return inFrame(frameBounds, [layer.getTopLeft(), layer.getTopRight(), layer.getBottomLeft()]);
     else {
         let layerBounds = layer.getBounds();
-        return bounds.contains(layerBounds.getNorthEast()) || bounds.contains(layerBounds.getSouthWest());
+        return inFrame(frameBounds, [layerBounds.getNorthEast(), layerBounds.getSouthWest()]);
     }
+}
+
+function inFrame(frameBounds, coords) {
+    for (const c of coords) {
+        if (frameBounds.contains(c)) {
+            return true;
+        }
+    }
+    return false;
 }
 
 function getMapForName(fileName) {
@@ -749,13 +758,17 @@ function isUnknownPage() {
     return typeof unknownPage != 'undefined' && unknownPage;
 }
 
+let spinnerDisplayed = false;
 function showSpinner() {
     if (map === undefined) {
         return;
     }
-    let el = document.getElementById("spinner");
-    if (el.style.display !== 'block') {
-        el.style.display = 'block';
+    if (!spinnerDisplayed) {
+        spinnerDisplayed = true;
+        let el = document.getElementById("spinner");
+        if (el.style.display !== 'block') {
+            el.style.display = 'block';
+        }
     }
 }
 
@@ -763,5 +776,8 @@ function hideSpinner() {
     if (map === undefined) {
         return;
     }
-    document.getElementById("spinner").style.display = 'none';
+    if (spinnerDisplayed) {
+        spinnerDisplayed = false;
+        document.getElementById("spinner").style.display = 'none';
+    }
 }
