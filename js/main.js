@@ -646,6 +646,13 @@ if (mapElement) {
 
     map.whenReady(function (e) {
         showSpinner(true);
+        // go to the specified map
+        if (MAP_NAME_PARAM) {
+            let m = getMapForName(MAP_NAME_PARAM);
+            if (m) {
+                map.fitBounds(m.bounds);
+            }
+        }
         if (!ONLY_MAP_NAME_PARAM && !ONLY_TRACK_NAME_PARAM) {
             loadMaps();
         }
