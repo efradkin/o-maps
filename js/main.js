@@ -74,24 +74,23 @@ if (MAP_NAME_PARAM) {
     }
 }
 
-if (map === undefined) {
-    loadMaps();
-}
-
 function loadMaps() {
-    if (!map) {
-        return;
-    }
+    let inFrames = true;
 
-    let viewBounds = map.getBounds();
     for (const m of oMaps) {
-        if (isMapAcceptable(m) && inFrame(viewBounds, m.bounds) && !m.loaded) {
+        if (map) {
+            let viewBounds = map.getBounds();
+            inFrames = inFrame(viewBounds, m.bounds);
+        }
+        if (isMapAcceptable(m) && inFrames && !m.loaded) {
             if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM)) || (TYPE_PARAM === 'FOREST' && !m.type)) {
                 loadMap(m);
             }
         }
     }
-    resyncMaps();
+    if (map) {
+        resyncMaps();
+    }
 }
 
 function loadTracks() {
@@ -631,12 +630,16 @@ if (mapElement) {
                 map.fitBounds(m.bounds);
             }
         }
+
         if (!ONLY_MAP_NAME_PARAM && !ONLY_TRACK_NAME_PARAM) {
             loadMaps();
         }
+
         if (loadTracksRequired) {
             setTimeout(loadTracks, 1000);
         }
+
+        setInterval(checkMapsLoad, 1000);
     });
 
     function applyMapStyles(m) {
@@ -683,8 +686,9 @@ if (mapElement) {
             }]
         }).addTo(map);
     }
+} else {
+    loadMaps();
 }
-
 async function processYearSlider(years, vals) {
     let values = vals.split(',');
     let start = Number(values[0]);
@@ -704,8 +708,6 @@ async function processYearSlider(years, vals) {
     }
     syncMaps();
 }
-
-setInterval(checkMapsLoad, 1000);
 
 function checkMapsLoad() {
     if (needToSync) {
