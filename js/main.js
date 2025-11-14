@@ -95,7 +95,7 @@ function loadMaps() {
 
 function loadTracks() {
     showSpinner();
-    setTimeout(function() {
+    setTimeout(function () {
         let actualTracks = [];
         for (const t of oTracks) {
             if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
@@ -135,7 +135,7 @@ function loadTracksRecursive(t, actualTracks) {
         gpxLayer.bindPopup(popup_text, {maxWidth: popupWidth});
         allocateMap(t, gpxLayer);
 
-        gpxLayer.on('mouseover', function(e) {
+        gpxLayer.on('mouseover', function (e) {
             let target = e.originalEvent.target;
             let width = target.getAttribute('stroke-width');
             if (width !== '7') {
@@ -145,7 +145,7 @@ function loadTracksRecursive(t, actualTracks) {
                 });
             }
         });
-        gpxLayer.on('mouseout', function(e) {
+        gpxLayer.on('mouseout', function (e) {
             let target = e.originalEvent.target;
             let width = target.getAttribute('stroke-width');
             if (width !== '7') {
@@ -155,7 +155,7 @@ function loadTracksRecursive(t, actualTracks) {
                 });
             }
         });
-        gpxLayer.on('click', function(e, f) {
+        gpxLayer.on('click', function (e, f) {
             let target = e.originalEvent.target;
             document.querySelectorAll("path.leaflet-interactive").forEach(function (path) {
                 if (path !== target && path.getAttribute('stroke-width') === '7') {
@@ -230,7 +230,7 @@ function buildTrackPopup(t, gpxLayer) {
     }
     let y = year(t);
     if (y) {
-        result += ' ' + (t.date ? formatDate(t, true, false) : t.year)  + ' ';
+        result += ' ' + (t.date ? formatDate(t, true, false) : t.year) + ' ';
     }
     if (gpxLayer.len > 0) {
         let len = gpxLayer._humanLen(gpxLayer.len);
@@ -271,7 +271,7 @@ function buildTrackPopup(t, gpxLayer) {
 let searchBox;
 if (mapElement) {
 
-    if(HAS_EMBEDDED_PARAM) {
+    if (HAS_EMBEDDED_PARAM) {
         document.getElementById('map_region_selector').style.display = 'none';
     }
 
@@ -363,12 +363,19 @@ if (mapElement) {
     map.on('moveend', () => saveMapState(map, REGION_KEY));
     map.on('zoomend', () => saveMapState(map, REGION_KEY));
 
-    map.on('baselayerchange', function(e) {
+    map.on('baselayerchange', function (e) {
         switch (e.layer) {
-            case osmLayer: background = BACKGROUND_OSM; break
-            case openTopoLayer: background = BACKGROUND_TOPO; break
-            case yandexSatelliteLayer: background = BACKGROUND_SATELLITE; break
-            default: background = BACKGROUND_YANDEX;
+            case osmLayer:
+                background = BACKGROUND_OSM;
+                break
+            case openTopoLayer:
+                background = BACKGROUND_TOPO;
+                break
+            case yandexSatelliteLayer:
+                background = BACKGROUND_SATELLITE;
+                break
+            default:
+                background = BACKGROUND_YANDEX;
         }
         localStorage.setItem('background', background);
     });
@@ -463,10 +470,10 @@ if (mapElement) {
             }, 600);
         }
 
-        document.onkeydown = function(e){
+        document.onkeydown = function (e) {
             e = e || window.event;
             let key = e.which || e.keyCode;
-            if(key === 70) { // Ctrl-Shift-F
+            if (key === 70) { // Ctrl-Shift-F
                 searchBox.show();
                 document.querySelector(".leaflet-searchbox").focus();
             }
@@ -596,9 +603,9 @@ if (mapElement) {
     }
 
     // if (Math.random() < 0.3) {
-        setTimeout(function () {
-            notificationControl.success(tips[Math.floor(Math.random() * tips.length)]);
-        }, 5000);
+    setTimeout(function () {
+        notificationControl.success(tips[Math.floor(Math.random() * tips.length)]);
+    }, 5000);
     // }
 
     // --- opacity slider (https://github.com/Eclipse1979/leaflet-slider) ---
@@ -652,8 +659,7 @@ if (mapElement) {
 
                 if (m.restricted) {
                     el.classList.add('restricted');
-                }
-                else if (m.link && enableFullSize) {
+                } else if (m.link && enableFullSize) {
                     el.classList.add('full-size');
                 }
 
@@ -689,6 +695,7 @@ if (mapElement) {
 } else {
     loadMaps();
 }
+
 async function processYearSlider(years, vals) {
     let values = vals.split(',');
     let start = Number(values[0]);
@@ -732,7 +739,7 @@ function checkMapsLoad() {
                     target: '#year_slider',
                     values: years,
                     range: !timeline,
-                    set: timeline ? [years[years.length-1]] : [years[0], years[years.length-1]],
+                    set: timeline ? [years[years.length - 1]] : [years[0], years[years.length - 1]],
                     labels: wideScreen,
                     tooltip: !wideScreen,
                     onChange: function (vals) {
@@ -795,7 +802,8 @@ function loadMap(m, forse) {
             let own = false;
             for (const a of m.author) {
                 if (AUTHOR_PARAM === a) {
-                    own = true; break;
+                    own = true;
+                    break;
                 }
             }
             if (!own) return;
@@ -810,7 +818,8 @@ function loadMap(m, forse) {
             let own = false;
             for (const o of m.owner) {
                 if (OWNER_PARAM === o) {
-                    own = true; break;
+                    own = true;
+                    break;
                 }
             }
             if (!own) return;
@@ -825,7 +834,8 @@ function loadMap(m, forse) {
             let own = false;
             for (const o of m.planner) {
                 if (PLANNER_PARAM === o) {
-                    own = true; break;
+                    own = true;
+                    break;
                 }
             }
             if (!own) return;
@@ -951,7 +961,9 @@ function syncMaps() {
                     m.layer.setUrl(mapImageUrl(m));
                 }
             }
-            map.addLayer(m.layer);
+            if (!m.layer.hiddenMap) {
+                map.addLayer(m.layer);
+            }
         }
 
         recalculateLayers();
@@ -968,6 +980,7 @@ function tuneContextMenu() {
         }
     );
 }
+
 function tuneContextMenuItem(element, icon, flag) {
     if (element.src.includes(icon)) {
         if (flag) {
@@ -1384,47 +1397,47 @@ function onDragEnd() {
 
 // --- context menu functions ---
 
-function showCoordinates (e) {
+function showCoordinates(e) {
     alert(e.latlng);
 }
 
-function centerMap (e) {
+function centerMap(e) {
     map.panTo(e.latlng);
 }
 
-function hideOrients (e) {
+function hideOrients(e) {
     for (const g of allOrientGroups) {
         map.removeLayer(g);
     }
 }
 
-function clearAges (e) {
+function clearAges(e) {
     for (const g of allAgeGroups) {
         map.removeLayer(g);
     }
 }
 
-function showAllOrients (e) {
+function showAllOrients(e) {
     for (const g of allOrientGroups) {
         map.addLayer(g);
     }
 }
 
-function showAllAges (e) {
+function showAllAges(e) {
     for (const g of allAgeGroups) {
         map.addLayer(g);
     }
 }
 
-function zoomIn (e) {
+function zoomIn(e) {
     map.zoomIn();
 }
 
-function zoomOut (e) {
+function zoomOut(e) {
     map.zoomOut();
 }
 
-function editModeSwitch (e) {
+function editModeSwitch(e) {
     editMode = !editMode;
     if (!editMode) {
         marker1.setLatLng(ZERO_LATLNG);
@@ -1438,30 +1451,30 @@ function editModeSwitch (e) {
     // map.removeControl(opacitySlider);
 }
 
-function popupsSwitch (e) {
+function popupsSwitch(e) {
     enablePopup = !enablePopup;
     tuneContextMenu();
 }
 
-function hideMapsSwitch (e) {
+function hideMapsSwitch(e) {
     showMapsOnSmallZoom = !showMapsOnSmallZoom;
     localStorage.setItem('showMapsOnSmallZoom', showMapsOnSmallZoom);
     location.reload();
 }
 
-function hiddenButtonsModeSwitch (e) {
+function hiddenButtonsModeSwitch(e) {
     hiddenButtonsMode = !hiddenButtonsMode;
     localStorage.setItem('hiddenButtonsMode', hiddenButtonsMode);
     location.reload();
 }
 
-function fullSizeSwitch (e) {
+function fullSizeSwitch(e) {
     enableFullSize = !enableFullSize;
     localStorage.setItem('enableFullSize', enableFullSize);
     location.reload();
 }
 
-function timelineSwitch (e) {
+function timelineSwitch(e) {
     timeline = !timeline;
     localStorage.setItem('timeline', timeline);
     location.reload();

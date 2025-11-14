@@ -508,9 +508,11 @@ function hideMap(map, url, isHidden, name, year) {
             if (layer._url && layer._url.includes(OLIVE_IMAGE_URL) &&
                 (layer.options.alt === name) && (layer._popup._content.includes(`(${year})`))) {
                 layer.removeFrom(map);
+                layer.hiddenMap = true;
             }
         } else if (layer._url && layer._url.includes(url)) {
             layer.removeFrom(map);
+            layer.hiddenMap = true;
         }
     });
 }
