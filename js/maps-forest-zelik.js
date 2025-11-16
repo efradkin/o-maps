@@ -29,6 +29,15 @@ let zelikMaps = [
         bounds: [[60.27755772237068, 29.71282482147217], [60.266853449734135, 29.733467102050785], [60.263064617640104, 29.68239784240723]]
     },
     {
+        name: 'Решетниково, Ловецкое оз',
+        year: 2025,
+        url: './maps/forest/zelik/lovetskoe_2025.webp',
+        link: './original_maps/forest/zelik/lovetskoe_2025_omaps.gif',
+        author: 'RDNV_I',
+        bounds: [[60.27349349051767, 29.69561576843262], [60.27130157476378, 29.720420837402347], [60.25478300268887, 29.687461853027347]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23863/'
+    },
+    {
         name: 'Рощино',
         year: 1990,
         url: './maps/forest/zelik/roschino_1990.webp',

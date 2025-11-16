@@ -304,7 +304,10 @@ let authors = {
     PYNN: { name: 'Паюнен В.' },
     RBKV_D: { name: 'Рябков Д.' },
     RDNV_B: { name: 'Родионов Богдан' },
-    RDNV_I: { name: 'Родионов Иван' },
+    RDNV_I: {
+        name: 'Родионов Иван',
+        logo: 'feniks.webp'
+    },
     RDKV: { name: 'Рудаков В.' },
     RMNTSV_S: { name: 'Румянцев С.' },
     RSKV_S: { name: 'Русаков Сергей' },
