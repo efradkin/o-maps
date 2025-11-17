@@ -1054,6 +1054,14 @@ let events_2025 =
         map: 'silande_2025',
         me: 'A'
     }, {
+        date: '2025-07-22',
+        endDate: '2025-07-24',
+        place: 'Карелия, Хелюля',
+        name: 'Клубный Кубок Карелии (ККК)',
+        type: 'ORIENT',
+        link: 'https://vk.com/club197340171',
+        start: 'KKK'
+    }, {
         date: '2025-07-26',
         place: 'Луга, оз. Раковическое',
         name: 'Лужский приключенческий рогейн',
@@ -1531,6 +1539,7 @@ let events_2025 =
         name: 'XII Кубок Весты №1, Памяти друзей, П-во Приозерска',
         type: 'ORIENT',
         link: 'https://vk.com/wall-30365190_8650',
+        owner: 'VST_PRZRSK'
     }, {
         date: '2025-09-27',
         place: 'Луга, оз. Толони',
@@ -1861,6 +1870,7 @@ let events_2025 =
         name: 'XII Кубок Весты, этап 2',
         type: 'ORIENT',
         link: 'https://vk.ru/wall-30365190_8705',
+        owner: 'VST_PRZRSK'
     }, {
         date: '2025-10-26',
         place: 'Колосково',
@@ -1991,7 +2001,8 @@ let events_2025 =
         name: 'XII Кубок Весты, этап 3',
         type: 'ORIENT',
         link: 'https://vk.com/wall-30365190_8767',
-        map: 'priozersk_drsu_2015_omaps'
+        map: 'priozersk_drsu_2015_omaps',
+        owner: 'VST_PRZRSK'
     }, {
         date: '2025-11-16',
         place: 'Решетниково, Ловецкое оз',
@@ -2056,18 +2067,29 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=2025_Orientir',
         map: 'udelny_2021'
     }, {
+        date: '2025-12-07',
+        place: 'Кавголово',
+        name: 'Кавголовская классика',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251207_bn',
+        reg: 'http://orgeo.ru/event/info/kavgolovo_middle_2025',
+        owner: 'WN'
+    }, {
         date: '2025-12-13',
         place: 'Мистолово хиллс',
         name: 'Мистоловский спринт',
         type: 'ORIENT',
+        fmt: 'спринт',
         link: 'https://o-site.spb.ru/race.php?id=251213_bn',
-        map: 'mistolovo_2021'
+        map: 'mistolovo_2021',
+        owner: 'WN'
     }, {
         date: '2025-12-21',
         place: 'Кавголово',
         name: 'Приз Деда Мороза',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=2512321',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1707',
         owner: 'WN'
     }
 ];

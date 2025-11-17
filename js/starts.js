@@ -381,6 +381,12 @@ let starts = {
         logo: 'pragulka.gif',
         rogaine: true
     },
+    /* --- Прочее --- */
+    KKK: {
+        short: 'ККК',
+        name: '<a href="https://vk.com/club197340171">Клубный Кубок Карелии (ККК)</a>',
+        logo: 'kkk.gif',
+    },
     /* --- ТРЕКИ --- */
     OOPTSPB: {
         short: 'ООПТ СПб',

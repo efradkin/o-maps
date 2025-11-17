@@ -8,11 +8,11 @@ let events_2026 =
         fmt: '4',
         start: 'MULTSPORT'
     },{
-        date: '2026-01-11',
+        date: '2026-01-10',
         place: 'Лемболово',
-        name: 'Новогодний маркир',
+        name: 'Новогодняя эстафета',
         type: 'SKI',
-        fmt: 'маркир',
+        fmt: 'эстафета, маркир',
         owner: 'SFSO_SPB'
     },{
         date: '2026-01-11',
@@ -45,40 +45,52 @@ let events_2026 =
         date: '2026-01-31',
         name: 'ЧиП СПб',
         type: 'SKI',
-        fmt: 'эстафета',
+        fmt: 'спринт',
         owner: 'SFSO_SPB'
     },{
         date: '2026-02-01',
         name: 'ЧиП СПб',
         type: 'SKI',
-        fmt: 'масстарт',
+        fmt: 'эстафета',
         owner: 'SFSO_SPB'
     },{
         date: '2026-02-07',
         endDate: '2026-02-08',
-        name: 'Универсиада',
+        name: 'Универсиада, Февральская лыжня',
         type: 'SKI',
         fmt: 'спринт, классика',
         owner: 'SFSO_SPB'
     },{
         date: '2026-02-14',
         endDate: '2026-02-15',
-        name: 'ЧиП СПб',
+        name: 'ЧиП СПб, Зимние старты в Зеркальном',
         place: 'Зеркальный',
         type: 'SKI',
+        fmt: 'лонг, спринт',
         owner: 'SFSO_SPB'
     },{
         date: '2026-02-22',
         place: 'Кировск',
         name: 'ЧиП ЛО',
         type: 'SKI',
-        fmt: 'классика',
+        fmt: 'классика-масстарт',
         owner: 'SFSO_LO'
     },{
         date: '2026-02-23',
         name: 'Снежная тропа',
         type: 'ORIENT',
         fmt: 'спринт',
+        owner: 'SFSO_SPB'
+    },{
+        date: '2026-02-28',
+        name: 'Классический маркир',
+        type: 'SKI',
+        fmt: 'маркир',
+    },{
+        date: '2026-03-01',
+        name: 'ЧиП СПб',
+        type: 'SKI',
+        fmt: 'классика-масстарт',
         owner: 'SFSO_SPB'
     },{
         date: '2026-03-07',
@@ -94,17 +106,33 @@ let events_2026 =
         fmt: 'спринт',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-04-05',
+        name: 'Кубок D2RUN, 1 этап',
+        place: 'Романовка',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        owner: 'DLT'
+    },{
         date: '2026-04-11',
         endDate: '2026-04-12',
-        name: 'Сосновоборские дюны',
+        name: 'Сосновоборские дюны, ЧиП ЛО',
         place: 'Сосновый бор',
         type: 'ORIENT',
         owner: 'YUVNT'
     },{
+        date: '2026-04-17',
+        endDate: '2026-04-19',
+        name: 'Венок Славы Ал.Невского (ВСАН)',
+        place: 'Псков',
+        link: 'https://vk.com/skorus',
+        type: 'ORIENT',
+        owner: 'PSKOV_RUS'
+    },{
         date: '2026-04-25',
         name: 'Открытие сезона',
+        place: 'Петергоф (ПУНК)',
         type: 'ORIENT',
-        fmt: 'классика',
+        fmt: 'выбор',
         owner: 'SFSO_SPB'
     },{
         date: '2026-04-26',
@@ -116,6 +144,7 @@ let events_2026 =
     },{
         date: '2026-05-02',
         name: 'Мемориал Ирины Вилениновны Степановой',
+        place: 'Сосново',
         type: 'ORIENT',
         fmt: 'классика',
         start: 'HARD'
@@ -126,17 +155,39 @@ let events_2026 =
         fmt: 'классика',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-05-09',
+        endDate: '2026-05-11',
+        name: 'Мемориал Александра Матросова',
+        place: 'Псков',
+        link: 'https://vk.com/skorus',
+        type: 'ORIENT',
+        owner: 'PSKOV_RUS'
+    },{
         date: '2026-05-10',
         name: 'ЧиП СПб',
         type: 'VELO',
         fmt: 'спринт',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-05-10',
+        name: 'Змей Горыныч',
+        place: 'Сосново, оз Уловное',
+        type: 'ORIENT',
+        fmt: 'эстафета',
+        owner: 'KUZM'
+    },{
         date: '2026-05-11',
         name: 'ЧиП СПб',
         place: 'Аньялово',
         type: 'ORIENT',
         fmt: 'классика',
+        owner: 'SFSO_SPB'
+    },{
+        date: '2026-05-17',
+        name: 'ЧиП СПб',
+        place: 'Поляны',
+        type: 'ORIENT',
+        fmt: 'эстафета 3х',
         owner: 'SFSO_SPB'
     },{
         date: '2026-05-16',
@@ -154,7 +205,7 @@ let events_2026 =
     },{
         date: '2026-05-23',
         endDate: '2026-05-24',
-        name: 'Универсиада',
+        name: 'Универсиада, Майские старты',
         type: 'ORIENT',
         owner: 'SFSO_SPB'
     },{
@@ -170,24 +221,18 @@ let events_2026 =
         link: ['https://t.me/pmarshbrosok','https://vk.com/mbrosok'],
         start: 'MB'
     }, {
-        date: '2025-05-24',
-        name: 'ЧиП ЛО',
+        date: '2025-05-30',
+        name: 'ЧиП СПб, ЧиП ЛО',
         place: 'Лейпясуо',
         type: 'ORIENT',
         fmt: 'эстафета 2х',
+        owner: 'SFSO_SPB'
     },{
         date: '2026-05-30',
         name: 'BikeAdventure',
         type: 'ROGAINE',
         link: 'https://vk.com/bikeadventure',
         start: 'BA'
-    },{
-        date: '2026-05-30',
-        name: 'ЧиП СПб',
-        place: 'Красносельский р-он',
-        type: 'ORIENT',
-        fmt: 'эстафета 2х',
-        owner: 'SFSO_SPB'
     },{
         date: '2026-05-30',
         name: 'Турслёт СПЛАВ',
@@ -201,26 +246,54 @@ let events_2026 =
         fmt: 'спринт',
         owner: 'SFSO_SPB'
     },{
-        date: '2026-06-15',
-        endDate: '2026-06-21',
+        date: '2026-06-07',
+        name: 'Кубок D2RUN, 2 этап',
+        type: 'ORIENT',
+        fmt: 'лонг-масстарт',
+        owner: 'DLT'
+    },{
+        date: '2026-06-13',
+        name: 'Эстафета "Пирамида"',
+        place: 'Пруды',
+        type: 'ORIENT',
+        fmt: 'эстафета ночная',
+        start: 'KKP'
+    },{
+        date: '2026-06-14',
+        name: 'Эстафета "Каменюкола"',
+        place: 'Пруды',
+        type: 'ORIENT',
+        fmt: 'эстафета детская',
+        start: 'KKP'
+    },{
+        date: '2026-06-16',
+        endDate: '2026-06-20',
         name: 'Камни Карельского перешейка',
         place: 'Пруды',
         type: 'ORIENT',
         start: 'KKP'
     },{
         date: '2026-06-26',
-        endDate: '2026-06-29',
+        endDate: '2026-06-28',
         name: 'Мемориал Михаила Святкина XXXII',
         place: 'Пески',
         type: 'ORIENT',
         start: 'MMS'
     },{
-        date: '2026-07-03',
-        endDate: '2026-07-07',
-        name: 'Белые ночи',
+        date: '2026-07-04',
+        endDate: '2026-07-06',
+        name: 'Белые ночи, Чемпионат СЗФО',
         place: 'Сосново',
         type: 'ORIENT',
-        start: 'WN'
+        owner: 'WN'
+    },{
+        date: '2026-07-09',
+        endDate: '2026-07-19',
+        name: 'АЛОЛЬ-2026 (Русь, Рельеф, Иван Купала)',
+        place: 'Себежский р-он, Лешане',
+        link: 'https://vk.com/skorus',
+        type: 'ORIENT',
+        owner: 'PSKOV_RUS'
     },{
         date: '2026-07-11',
         endDate: '2026-07-12',
@@ -235,11 +308,34 @@ let events_2026 =
         fmt: 'масстарт',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-08-15',
+        endDate: '2026-07-16',
+        name: 'Transbiotech O-Weekend (Кубок D2RUN, 3 этап)',
+        type: 'ORIENT',
+        fmt: 'эстафета, классика',
+        owner: 'DLT'
+    },{
+        date: '2026-08-16',
+        name: 'Tokma-maps',
+        type: 'ORIENT',
+    },{
         date: '2026-08-22',
         name: 'Чемпионат России',
         type: 'ROGAINE',
         fmt: '24, 8',
         start: 'MULTSPORT'
+    },{
+        date: '2026-08-22',
+        endDate: '2026-08-23',
+        name: 'Выборгская Тройка',
+        type: 'ORIENT',
+    },{
+        date: '2026-08-29',
+        name: 'ЧиП ЛО',
+        place: 'Выборг',
+        type: 'ORIENT',
+        fmt: 'спринт-масстарт',
+        owner: 'SFSO_LO'
     },{
         date: '2026-08-30',
         name: 'ЧиП СПб',
@@ -248,18 +344,11 @@ let events_2026 =
         fmt: 'лонг',
         owner: 'SFSO_SPB'
     },{
-        date: '2026-09-13',
-        name: 'ЧиП СПб',
-        type: 'VELO',
-        fmt: 'классика',
-        owner: 'SFSO_SPB'
-    },{
-        date: '2026-09-13',
-        name: 'ЧиП ЛО',
-        place: 'Выборг',
+        date: '2026-09-11',
+        endDate: '2026-09-13',
+        name: 'Всероссийские соревнования НЕВСКИЙ СПРИНТ',
         type: 'ORIENT',
-        fmt: 'спринт',
-        owner: 'SFSO_LO'
+        owner: 'SFSO_SPB'
     },{
         date: '2026-09-19',
         name: 'Велоизоляция',
@@ -269,15 +358,23 @@ let events_2026 =
     },{
         date: '2026-09-19',
         endDate: '2026-09-20',
-        name: 'Гран-при Владимира Алексеева',
+        name: 'Гран-при Владимира Алексеева, ЧиП ЛО',
         place: 'Мичуринское',
         type: 'ORIENT',
         owner: 'WN'
     },{
-        date: '2026-09-19',
-        endDate: '2026-09-21',
-        name: 'Невский спринт',
+        date: '2026-09-20',
+        name: 'ЧиП СПб',
+        type: 'VELO',
+        fmt: 'классика',
+        owner: 'SFSO_SPB'
+    },{
+        date: '2026-09-24',
+        endDate: '2026-09-27',
+        name: 'Старты в Зеркальном',
+        place: 'Яппиля',
         type: 'ORIENT',
+        fmt: 'выбор, классика, спринт',
         owner: 'SFSO_SPB'
     },{
         date: '2026-09-27',
@@ -295,16 +392,15 @@ let events_2026 =
     },{
         date: '2026-10-10',
         endDate: '2026-10-11',
-        name: 'Золотая осень',
+        name: 'Золотая осень, ЧиП ЛО',
         place: 'Выборг',
         type: 'ORIENT',
         owner: 'VYBORG'
     },{
         date: '2026-10-11',
         name: 'ЧиП СПб',
-        place: 'Поляны',
-        type: 'ORIENT',
-        fmt: 'эстафета 3х',
+        type: 'VELO',
+        fmt: 'эстафета 2х',
         owner: 'SFSO_SPB'
     },{
         date: '2026-10-18',
@@ -314,11 +410,52 @@ let events_2026 =
         fmt: 'выбор',
         owner: 'SFSO_LO'
     },{
+        date: '2026-10-18',
+        name: 'Памяти Зои Пятаковой',
+        type: 'ORIENT',
+        fmt: 'спринт',
+    }, {
+        date: '2025-10-24',
+        name: '50 Вёрст',
+        fmt: 'ночная эстафета',
+        type: 'ORIENT',
+        owner: 'NW',
+    }, {
+        date: '2025-10-25',
+        name: '5 Вёрст',
+        fmt: 'детская эстафета',
+        type: 'ORIENT',
+        owner: 'NW',
+    },{
+        date: '2026-10-30',
+        endDate: '2026-11-01',
+        name: 'Алоль осенняя',
+        place: 'т/б Алоль',
+        link: 'https://vk.com/skorus',
+        type: 'ORIENT',
+        owner: 'PSKOV_RUS'
+    },{
+        date: '2026-11-01',
+        name: 'Кубок D2RUN, финал',
+        type: 'ORIENT',
+        fmt: 'лонг (гандикап)',
+        owner: 'DLT'
+    },{
+        date: '2026-11-15',
+        name: 'Первенство ГБУ ДО СШОР им. Коренькова',
+        type: 'ORIENT',
+        fmt: 'спринт',
+    },{
         date: '2026-11-22',
         name: 'Снежная тропа',
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'SFSO_SPB'
+    },{
+        date: '2026-12-06',
+        name: 'Первенство ГБУ ДО СШОР им. Коренькова',
+        type: 'ORIENT',
+        fmt: 'спринт',
     },{
         date: '2026-12-13',
         name: 'Снежная тропа',

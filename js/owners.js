@@ -453,6 +453,10 @@ let owners = {
         name: '© <a href="http://fso.karelia.ru/">ФСО Республики Карелия</a>',
         logo: 'fso_karelia.png'
     },
+    PSKOV_RUS: {
+        name: '© <a href="https://vk.com/skorus">СКО "Русь"</a>',
+        logo: 'pskov_rus.webp'
+    },
     GRN_V: {
         name: '© Горин Владимир'
     },
