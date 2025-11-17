@@ -410,8 +410,8 @@ let sosnovoMaps = [
         year: 1996,
         start: 'WN',
         url: './maps/forest/sosnovo/petjajarvy_1995.webp',
-        link: './original_maps/forest/sosnovo/petjajarvy_1995_omaps.jpg',
-        bounds: [[60.63191181402526, 30.109448432922367], [60.6278706373631, 30.16159057617188], [60.61370147180539, 30.104727745056156]],
+        link: ['./original_maps/forest/sosnovo/petjajarvy_1995_omaps.jpg','./original_maps/forest/sosnovo/petjajarvy_1995_wn_omaps.jpg'],
+        bounds: [[60.63513176408995, 30.066618919372562], [60.62854420197844, 30.161118507385257], [60.60831008075406, 30.059537887573246]],
         author: ['LVCHV','SVTKN','KAZNTSVA_O']
     },
     {

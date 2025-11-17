@@ -428,6 +428,14 @@ let forestMaps = [
         zindex: 2
     },
     {
+        name: 'Яппиля',
+        year: 1999,
+        start: 'MMS',
+        url: './maps/forest/yappilya_pistolet_1999.webp',
+        link: './original_maps/forest/yappilya_pistolet_1999_omaps.jpg',
+        bounds: [[60.225322656635996, 29.124455451965336], [60.22193397722629, 29.17552471160889], [60.18856129813442, 29.11557197570801]],
+    },
+    {
         name: 'Яппиля, оз Пистолет',
         year: 1997,
         url: './maps/forest/yappilya_pistolet_1997.webp',

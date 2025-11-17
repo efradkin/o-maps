@@ -32,6 +32,16 @@ let wnStartsMaps = [
         zindex: 2
     },
     {
+        name: 'Колосково',
+        region: 'starts',
+        date: '2002-06-21',
+        start: 'WN',
+        url: './maps/starts/wn/wn_2002_06_2.webp',
+        link: ['./original_maps/starts/wn/wn_2002_06_2_omaps.jpg','./original_maps/forest/sosnovo/koloskovo_2002_wn_omaps.jpg'],
+        bounds: [[60.62182897575392, 30.1750659942627], [60.61835503420761, 30.227379798889164], [60.604434462040935, 30.17051696777344]],
+        zindex: 2
+    },
+    {
         name: 'Первомайское, оз Монетка',
         region: 'starts',
         date: '2003-06-20',
