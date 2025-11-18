@@ -151,7 +151,7 @@ let vaskelovoMaps = [
         year: 1992,
         url: './maps/forest/vaskelovo/silande_1992.webp',
         //link: './original_maps/forest/vaskelovo/Geolog92.pdf',
-        link: ['./original_maps/forest/vaskelovo/silande_1992_omaps.jpg','./original_maps/forest/vaskelovo/silande_1991_omaps.jpg'],
+        link: ['./original_maps/forest/vaskelovo/silande_1992_omaps.jpg','./original_maps/forest/vaskelovo/silande_1991_omaps.jpg','./original_maps/forest/vaskelovo/silande_1995_08_12_h21_omaps.jpg','./original_maps/forest/vaskelovo/silande_1995_08_12_d21_omaps.jpg'],
         bounds: [[60.42787622155024, 30.223689079284668], [60.4233434866285, 30.286216735839847], [60.37887226479014, 30.210857391357425]],
         author: ['DBRTSV_V','LBDKN','KUZNTSV_V'],
     },

@@ -301,6 +301,19 @@ let mmsStartsMaps = [
         planner: 'TLNV_A'
     },
     {
+        name: 'Выборг, Сайменские дачи',
+        region: 'starts',
+        start: 'MMS',
+        date: '2013-06-28',
+        info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=13062830_MS">Инфо и результаты.</a>',
+        url: './maps/starts/mms/mms_2013_06_28.webp',
+        link: './original_maps/starts/mms/mms_2013_06_28_omaps.jpg',
+        bounds: [[60.77186078452044, 28.755168914794925], [60.77024720421924, 28.784265518188477], [60.759201428967856, 28.751950263977054]],
+        author: ['KRYLS','SMLGS','TMLNS'],
+        planner: 'TLNV_A',
+        zindex: 2
+    },
+    {
         name: 'Поляны',
         region: 'starts',
         start: 'MMS',

@@ -58,8 +58,9 @@ let funMaps = [
         name: 'Саблино, Жемчужная пещера',
         year: 2024,
         url: './maps/fun/sablino_zhemchug_cave_2023.webp',
+        info: '<a href="https://vlesah.com/stories/zdes-byl-lenin-istoriya-sablinskikh-pescher-i-ikh-obitateley">История</a> и <a href="https://pohod-vosemvrat.livejournal.com/48421.html">описание посещения</a>.',
         link: ['./original_maps/fun/sablino_zhemchug_cave_2023.pdf','./original_maps/fun/sablino_zhemchug_cave_2011.jpg','./original_maps/fun/sablino_zhemchug_cave_2013.jpg'],
-        bounds: [[59.67093717243588, 30.79830408096314], [59.66963690109736, 30.80598592758179], [59.66824988940891, 30.797746181488037]],
+        bounds: [[59.670249118469144, 30.801372528076175], [59.66872126309995, 30.80437660217285], [59.66853163080271, 30.798872709274296]],
         owner: 'MTRNCHV',
         type: ['FUN']
     },

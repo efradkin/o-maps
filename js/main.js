@@ -886,7 +886,7 @@ function buildMap(m) {
     m.layer = imgLayer;
     imgLayer.map = m;
 
-    if (!m.area) {
+    if (!m.area && latLngs && latLngs[1]) {
         m.area = getMapArea(latLngs);
     }
 
@@ -936,7 +936,7 @@ function syncMaps() {
     let shownMaps = [];
     let hiddenMaps = [];
     for (const m of oMaps) {
-        if (m.groups && isMapAcceptable(m)) {
+        if (m.groups && isMapAcceptable(m) && !isFun(m)) {
             let moreStarts = m.groups.length > 2;
             let forOneStart = !moreStarts && activeLayerIds.includes(m.groups[0]) && activeLayerIds.includes(m.groups[1]); // TODO какая-то левая логика
             let forMoreStarts = moreStarts && (activeLayerIds.includes(m.groups[0]) || activeLayerIds.includes(m.groups[1])) && activeLayerIds.includes(m.groups[m.groups.length - 1]);
@@ -1111,7 +1111,7 @@ function buildPopup(m, latLngs) {
     result += '<b>' + mapTitle(m, false, false);
 
     // площадь
-    let area = m.area.toFixed(2);
+    let area = m.area ? m.area.toFixed(2) : '';
     result += '&nbsp;-&nbsp;' + area + '&nbsp;км<sup>2</sup>';
 
     // ссылка на страничку инфа
@@ -1447,7 +1447,9 @@ function editModeSwitch(e) {
     } else {
         setOverlayOpacity(.5);
     }
-    opacitySlider.setValue(mapOpacity);
+    if (opacitySlider) {
+        opacitySlider.setValue(mapOpacity);
+    }
     // map.removeControl(opacitySlider);
 }
 

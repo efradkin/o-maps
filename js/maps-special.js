@@ -235,6 +235,14 @@ let specialMaps = [
         type: ['VELO']
     },
     {
+        name: 'Пасторское оз',
+        year: 2007,
+        url: './maps/velo/pastorskoe_velo_2007.webp',
+        link: './original_maps/velo/pastorskoe_velo_2007_omaps.jpg',
+        bounds: [[60.2504178124367, 30.02022743225098], [60.24326190049794, 30.09060859680176], [60.22510954246718, 30.00924110412598]],
+        type: ['VELO']
+    },
+    {
         name: 'Тарховка',
         year: 2023,
         area: 4,
@@ -382,6 +390,14 @@ let specialMaps = [
         bounds: [[60.24453985658783, 29.631371498107914], [60.238852569238844, 29.678492546081547], [60.22871098577209, 29.62467670440674]],
         author: 'KUZNTSV_R',
         owner: 'SFSO_SPB',
+        type: ['VELO']
+    },
+    {
+        name: 'Зеленогорск, Красавица',
+        url: './maps/velo/zelik_krasavitsa_velo.webp',
+        link: './original_maps/velo/zelik_krasavitsa_velo_omaps.jpg',
+        bounds: [[60.25629471339503, 29.732522964477543], [60.25318604937096, 29.788656234741214], [60.234847444906805, 29.725956916809086]],
+        author: 'TKMKV_K',
         type: ['VELO']
     },
     {
@@ -572,6 +588,16 @@ let specialMaps = [
         type: ['VELO'],
         author: ['TKMKV_K','KUZNTSV_R'],
         owner: 'SFSO_SPB'
+    },
+    {
+        name: 'Лемболово, восток',
+        date: '2007-06-28',
+        url: './maps/velo/lembolovo_russia_2007.webp',
+        link: './original_maps/velo/lembolovo_russia_2007_omaps.jpg',
+        info: 'MTBO Чемпионат России.',
+        major: true,
+        bounds: [[60.445662157954466, 30.319519042968754], [60.44214808981624, 30.381145477294925], [60.40197393671737, 30.308167934417728]],
+        type: ['VELO'],
     },
     {
         name: 'Силанде',

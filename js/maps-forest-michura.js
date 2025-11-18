@@ -201,6 +201,14 @@ let michuraMaps = [
         author: ['MKHLV_A','GVRLK','SLBDNK','ILVS','GRBTNKV','TRNV_V','TKMKV_K','KUZNTSV_S','VRBY'],
         owner: ['WN','ILVS']
     },
+    {
+        name: 'Мичуринское, Петриченко, Морозовское оз',
+        year: 2017,
+        url: './maps/forest/michura/michurinskoe_morozovskoe_2017.webp',
+        bounds: [[60.602306886537846, 29.838867187500004], [60.600010632870216, 29.875473976135257], [60.57845159374333, 29.831807613372806]],
+        author: ['MKHLV_A','SLBDNK'],
+        owner: 'WN'
+    },
 /*
     {
         name: 'Ягодное',

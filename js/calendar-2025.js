@@ -2018,6 +2018,15 @@ let events_2025 =
         me: 'МА'
     }, {
         date: '2025-11-22',
+        place: 'Пухтолова гора',
+        name: 'Кубок Белых Ночей №3',
+        type: 'ORIENT',
+        link: 'https://t.me/whitenightesspb/728',
+        reg: 'https://orgeo.ru/event/info/47911',
+        owner: 'WN',
+        map: 'pukhtolova_gora_2023'
+    }, {
+        date: '2025-11-22',
         place: 'Выборг, Сайменские дачи',
         name: 'Тренировочный старт',
         type: 'ORIENT',
