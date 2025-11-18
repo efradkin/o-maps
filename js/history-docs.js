@@ -30,6 +30,12 @@ let historyDocs = [
         start: 'WEDDING'
     },
     {
+        name: 'П-во Ленинграда, марафон (Рощино)',
+        date: '1979-09-23',
+        link: './docs/1979/1979_09_23_leningrad_marathon_omaps.pdf',
+        planner: 'KRCHNKO_S'
+    },
+    {
         name: 'Программа',
         start: 'USSR_1981',
         year: 1981,
@@ -423,7 +429,8 @@ let historyDocs = [
         name: 'Буклет "Спортивное ориентирование"',
         year: 1989,
         info: 'Буклет формата А2 выпущен Московским турклубом по мотивам 3 места Алиды Аболы на ЧМ в Швеции 1989 года. Текст, статистика в таблицах и полноразмерная карта с путями движения всех призёров. Цена 1 руб. Тираж 10000 (десять тысяч) экземпляров.',
-        link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg']
+        link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg'],
+        major: true
     },
     {
         name: 'Бро-бег',
@@ -519,7 +526,8 @@ let historyDocs = [
         info: '23-25 июня.',
         link: './docs/1989/1989_06_23_wn_omaps.pdf',
         start: 'WN',
-        me: 'М-15'
+        me: 'М-15',
+        major: true
     },
     {
         name: 'Ориентир-7 (Лемболово)',
@@ -1103,7 +1111,8 @@ let historyDocs = [
         name: 'Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста (Нижний Новгород)',
         date: '1991-03-01',
         link: './docs/1991/1991_veteran_ussr_omaps.pdf',
-        info: '1-3 марта.'
+        info: '1-3 марта.',
+        major: true
     },
     {
         name: 'Новогодняя ночь',
@@ -1116,7 +1125,8 @@ let historyDocs = [
         start: 'WN',
         info: '26-28 июня.',
         link: './docs/1992/1992_06_26_wn_omaps.pdf',
-        me: 'H17'
+        me: 'H17',
+        major: true
     },
     {
         name: 'Календарь "Субботнего марафона" клуба "Карта"',
