@@ -34,12 +34,10 @@ window.onload = function() {
         if (!hasAuthors) {
             document.querySelector('.o-sheet th:nth-child(9)').innerHTML = '&nbsp;';
             document.querySelector('.o-sheet th:nth-child(9)').style.maxWidth = 0;
-            document.querySelector('.o-sheet td:nth-child(9)').style.maxWidth = 0;
         }
         if (!hasPlanners) {
             document.querySelector('.o-sheet th:nth-child(10)').innerHTML = '&nbsp;';
             document.querySelector('.o-sheet th:nth-child(10)').style.maxWidth = 0;
-            document.querySelector('.o-sheet td:nth-child(10)').style.maxWidth = 0;
         }
     }
     if ((START_NAME_PARAM || isDocumentsPage() && !isUnknownPage())) {

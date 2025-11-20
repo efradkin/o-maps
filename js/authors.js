@@ -128,6 +128,7 @@ let authors = {
         name: 'Гультяев Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    GRBNTSVA: { name: 'Горбунцова Н.' },
     GRBTNKV: {
         name: 'Горбатенков Игорь',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
@@ -315,6 +316,7 @@ let authors = {
         name: 'Рылов Виктор',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    RYZHOV: { name: 'Рыжов Сергей' },
     SBLV_A: { name: 'Соболев Алексей' },
     SBLV_S: { name: 'Сибилев Сергей' },
     SCHV: { name: 'Сычёв Владимир' },
@@ -337,6 +339,7 @@ let authors = {
     SKBLV_A: { name: 'Скоблов А.' },
     SKLVA: { name: 'Соколова С.' },
     SLBDNK: { name: 'Слободянюк Роман' },
+    SLKHVA_D: { name: 'Салихова Д.' },
     SLV_J: { name: 'Сулоев Ярослав' },
     SMLGS: { name: 'Андрюс Смилгюс' },
     SMNV_K: { name: 'Семёнов К.' },

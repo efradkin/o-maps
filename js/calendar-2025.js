@@ -1993,6 +1993,7 @@ let events_2025 =
         type: 'ROGAINE',
         link:  ['https://vk.com/event166397868','https://t.me/lugarogein'],
         reg: 'https://orgeo.ru/event/47229',
+        res: 'https://t.me/lugarogein/229',
         photo: ['https://vk.com/album-166397868_309294009','https://disk.yandex.ru/d/HWKvXRSr7BG2Pg'],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23873/'
     }, {

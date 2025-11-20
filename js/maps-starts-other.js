@@ -61,6 +61,91 @@ let otherStartsMaps = [
         owner: 'SHBN',
         type: ['ROGAINE']
     },
+    {
+        name: 'Лемболово',
+        year: 2006,
+        start: '100x24',
+        info: 'Впервые 100х24 с подсчетом очков по системе рогейна.',
+        url: './maps/rogaine/lembolovo_2006_100x24_rogaine.webp',
+        link: './original_maps/rogaine/lembolovo_2006_100x24_rogaine_omaps.jpg',
+        bounds: [[60.547489329022675, 29.738616943359375], [60.548839800717374, 30.324668884277347], [60.32261342545747, 29.745140075683597]],
+        type: ['ROGAINE','WINTER']
+    },
+    {
+        name: 'Сосново',
+        date: '2007-02-23',
+        start: '100x24',
+        info: '<a href="https://o-site.spb.ru/race.php?id=070223_100x24">Инфо.</a>',
+        url: './maps/rogaine/sosnovo_2007_100x24_rogaine.webp',
+        link: './original_maps/rogaine/sosnovo_2007_100x24_rogaine_omaps.jpg',
+        bounds: [[60.64491591308642, 30.215148925781254], [60.642222938215085, 30.57580947875977], [60.37772682670247, 30.211544036865238]],
+        type: ['ROGAINE','WINTER']
+    },
+    {
+        name: 'Кузнечное',
+        date: '2007-06-10',
+        start: ['100x24','GK'],
+        info: '<a href="https://o-site.spb.ru/race.php?id=070611_RG">Инфо и результаты.</a>',
+        url: './maps/rogaine/kuznechnoe_2007_rogaine.webp',
+        link: './original_maps/rogaine/kuznechnoe_2007_rogaine_omaps.jpg',
+        bounds: [[61.177846515414885, 29.745740890502933], [61.11559352016569, 29.98005867004395], [61.09912961106288, 29.654331207275394]],
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Гаврилово',
+        date: '2010-03-06',
+        start: '100x24',
+        info: '<a href="https://www.o-site.spb.ru/race.php?id=10030607">Инфо и результаты.</a>',
+        url: './maps/rogaine/gavrilovo_2010_rogaine.webp',
+        link: './original_maps/rogaine/gavrilovo_2010_rogaine_omaps.gif',
+        bounds: [[60.655264940586704, 28.692512512207035], [60.649880495593806, 29.064331054687504], [60.51979223396951, 28.68616104125977]],
+        author: 'APTNKV',
+        type: ['ROGAINE','WINTER']
+    },
+    {
+        name: 'Токсово, оз Хепоярви',
+        date: '2010-06-19',
+        start: '100x24',
+        info: '<a href="https://www.o-site.spb.ru/race.php?id=100619">Инфо и результаты.</a>',
+        url: './maps/rogaine/gavrilovo_2010_velo.webp',
+        link: './original_maps/rogaine/gavrilovo_2010_velo_omaps.gif',
+        bounds: [[60.192188089088326, 30.625162124633793], [60.168542739576345, 30.67142486572266], [60.127742269949735, 30.49263954162598]],
+        author: 'APTNKV',
+        type: ['ROGAINE','VELO']
+    },
+    {
+        name: 'Токсово',
+        date: '2011-07-03',
+        start: '100x24',
+        info: '<a href="https://o-site.spb.ru/race.php?id=110703">Инфо и результаты.</a>',
+        url: './maps/rogaine/toksovo_2011_velo.webp',
+        link: './original_maps/rogaine/toksovo_2011_velo_omaps.jpg',
+        bounds: [[60.20468677990855, 30.404834747314457], [60.19602778395168, 30.512466430664066], [60.131290288320166, 30.379686355590824]],
+        author: ['APTNKV','SLKHVA_D','GRBNTSVA'],
+        type: ['ROGAINE','VELO']
+    },
+    {
+        name: 'оз Гладышевское',
+        date: '2012-06-23',
+        start: '100x24',
+        info: '<a href="https://o-site.spb.ru/race.php?id=120624">Инфо и результаты.</a>',
+        url: './maps/rogaine/gladyshevskoe_2012_velo.webp',
+        link: './original_maps/rogaine/gladyshevskoe_2012_velo_omaps.jpg',
+        bounds: [[60.314835707491916, 29.285001754760746], [60.32958204699688, 29.451255798339847], [60.25620954845013, 29.3031120300293]],
+        author: ['APTNKV','RYZHOV'],
+        type: ['ROGAINE','VELO']
+    },
+    {
+        name: 'Зеленогорск',
+        date: '2013-07-06',
+        start: '100x24',
+        info: '<a href="https://o-site.spb.ru/race.php?id=130706">Инфо и результаты.</a>',
+        url: './maps/rogaine/zelik_2013_100x24_velo.webp',
+        link: './original_maps/rogaine/zelik_2013_100x24_velo_omaps.gif',
+        bounds: [[60.26570407511102, 29.749517440795902], [60.252547246234435, 29.872255325317386], [60.19444929710485, 29.717416763305664]],
+        author: 'APTNKV',
+        type: ['ROGAINE','VELO']
+    },
 
     /* --- ККМ --- */
 

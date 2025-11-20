@@ -112,6 +112,16 @@ let forestMaps = [
         author: ['MLVA_M','KAZNTSVA_O']
     },
     {
+        name: 'Цвелодубово',
+        date: '2006-07-29',
+        url: './maps/forest/tsvelodubovo_triotlon_2006.webp',
+        link: './original_maps/forest/tsvelodubovo_triotlon_2006_omaps.jpg',
+        info: '<a href="https://www.o-site.spb.ru/race.php?id=tri-o-tlon-2006">Инфо и результаты</a>.',
+        bounds: [[60.395391789130606, 29.558157920837406], [60.392211530853125, 29.61725234985352], [60.362132136419376, 29.54953193664551]],
+        author: 'KUZNTSV_S',
+        start: 'TRI_O_TLON'
+    },
+    {
         name: 'Цвелодубово, ур Нагорное',
         date: '2003-06-18',
         start: 'YM',

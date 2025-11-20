@@ -132,7 +132,7 @@ let rogaineMaps = [
         year: 2007,
         major: true,
         url: './maps/rogaine/losevo_rrc_2007.webp',
-        link: 'https://web.archive.org/web/20161220160945/http://www.rogaine-spb.ru/race0807/map.gif',
+        link: './original_maps/rogaine/losevo_rrc_2007_omaps.jpg', // https://web.archive.org/web/20161220160945/http://www.rogaine-spb.ru/race0807/map.gif
         bounds: [[60.803236100904606, 29.611244201660156], [60.9023956835838, 29.857749938964847], [60.635657869155416, 29.90409851074219]],
         info: 'IV Чемпионат России по рогейну.',
         author: ['ANTPV','KMN_I','OZRV'],
@@ -151,14 +151,15 @@ let rogaineMaps = [
     },
     {
         name: 'Лемболово-Мичуринское',
-        year: 2012,
+        date: '2012-03-09',
         major: true,
         start: '100x24',
         url: './maps/rogaine/lembolovo_michurinskoe_rrc_2012.webp',
         link: 'https://100x24.ru/2012/maps/100x24_2012.gif',
         bounds: [[60.55576008343374, 29.872512817382816], [60.53246152901585, 30.360374450683597], [60.38994275676987, 29.843330383300785]],
-        info: '<a href="https://100x24.ru/2012/docs/100x24_nat.htm">Чемпионат России по рогейну на лыжах.</a>',
-        type: ['ROGAINE']
+        info: 'Чемпионат России по рогейну на лыжах. <a href="https://o-site.spb.ru/race.php?id=12030910">Инфо</a>, <a href="https://100x24.ru/2012/docs/100x24_nat.htm">интервью</a>.',
+        author: ['APTNKV','FRSHLV','BKTV','DBRTSV_V'],
+        type: ['ROGAINE','WINTER']
     },
     {
         name: 'Запорожское',
@@ -348,26 +349,26 @@ let rogaineMaps = [
         type: ['ROGAINE']
     },
     {
-        name: 'Гаврилово',
-        year: 2008,
+        name: 'Черкасово',
+        date: '2008-02-16',
         start: '100x24',
-        info: '<a href="https://ww.w.100x24.ru/history.htm">Инфо и результаты.</a>',
+        info: '<a href="https://www.o-site.spb.ru/race.php?id=080216_r">Инфо.</a>',
         author: 'APTNKV',
         url: './maps/rogaine/gavrilovo_2008.webp',
         link: './original_maps/rogaine/gavrilovo_2008_omaps.gif',
         bounds: [[60.66628342039226, 28.648567199707035], [60.66098492736882, 29.004077911376957], [60.53643022164579, 28.642387390136722]],
-        type: ['ROGAINE']
+        type: ['ROGAINE','WINTER']
     },
     {
         name: 'Вещево',
-        year: 2009,
+        date: '2009-02-21',
         start: '100x24',
-        info: '<a href="https://ww.w.100x24.ru/history.htm">Инфо и результаты.</a>',
+        info: '<a href="https://o-site.spb.ru/race.php?id=090221">Инфо и результаты.</a>',
         author: 'APTNKV',
         url: './maps/rogaine/veschevo_2009.webp',
         link: './original_maps/rogaine/veschevo_2009_omaps.gif',
         bounds: [[60.764609513487414, 29.13059234619141], [60.760668828869505, 29.362163543701172], [60.60432913982012, 29.11960601806641]],
-        type: ['ROGAINE']
+        type: ['ROGAINE','WINTER']
     },
     {
         name: 'Былинный рогейн',
@@ -411,14 +412,14 @@ let rogaineMaps = [
     },
     {
         name: 'Колтуши',
-        year: 2014,
+        date: '2014-06-08',
         start: '100x24',
-        info: '<a href="https://ww.w.100x24.ru/results.htm">Инфо и результаты.</a>',
+        info: '<a href="https://o-site.spb.ru/race.php?id=140608">Инфо и результаты.</a>',
         url: './maps/rogaine/koltushi_2014.webp',
         link: './original_maps/rogaine/koltushi_100x24_2014.gif',
         bounds: [[60.000659827986084, 30.60876846313477], [59.99203289113303, 30.72635650634766], [59.949423210479104, 30.59477806091309]],
         author: ['APTNKV','FRSHLV','GRV_S'],
-        type: ['VELO','ROGAINE']
+        type: ['ROGAINE','VELO']
     },
     {
         name: 'Воейково',
