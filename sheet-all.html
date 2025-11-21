@@ -138,6 +138,7 @@
     <script src="js/maps-starts-orientir.js"></script>
     <script src="js/maps-starts-schools.js"></script>
     <script src="js/maps-starts-other.js"></script>
+    <script src="js/maps-unknown.js"></script>
 
     <script src="js/welcome.js"></script>
     <script src="js/starts.js"></script>
@@ -152,6 +153,7 @@
         let mapsOnStore = false;
 
         let oMaps = [
+            ...unknownMaps,
             ...otherStartsMaps,
             ...twotwoStartsMaps,
             ...orientirStartsMaps,

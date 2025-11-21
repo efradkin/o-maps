@@ -16,7 +16,7 @@ window.onload = function() {
         oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
             .sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)));
         if (!isDocumentsPage()) {
-            oMaps.sort((a, b) => a.name.localeCompare(b.name));
+            oMaps.sort((a, b) => (a.name || '').localeCompare((b.name || '')));
         }
     }
 
@@ -48,7 +48,9 @@ window.onload = function() {
 }
 
 // Фильтрация массива. Оставляем только карты, соответствующие критерию запроса (есди он задан).
-if (!isDocumentsPage()) {
+if (!isDocumentsPage() &&
+    (MAP_NAME_PARAM || TYPE_PARAM || START_NAME_PARAM || OWNER_PARAM || AUTHOR_PARAM || PLANNER_PARAM ||
+        TRACK_NAME_PARAM || TRACK_TYPE_PARAM || TRACK_MONTH_PARAM)) {
     oMaps = oMaps.filter(m => (m.layer !== undefined));
 }
 
@@ -93,7 +95,7 @@ function renderMapsTable() {
         td(m, row, buildDownloadLinks(m.link, m.links));
         td(m, row, buildInfo(m));
         if (!isDocumentsPage()) {
-            td(m, row, m.area.toFixed(2));
+            td(m, row, m.area ? m.area.toFixed(2) : '');
             if (!mapsOnStore) {
                 td(m, row, buildGpsLinks(m));
             }
