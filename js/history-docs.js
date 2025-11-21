@@ -708,6 +708,12 @@ let historyDocs = [
         link: './docs/1989/1989_11_26_zelenogorsk_omaps.pdf',
     },
     {
+        name: 'Журнал "Невский Азимут" №1',
+        year: 1990,
+        info: 'Редакция: Н.Благово, А.Блинов, В.Зачиняев, Н.Крыжановский, Б.Панкратьев',
+        link: './docs/1990/1990_nevsky_azimuth_magazine_omaps.pdf',
+    },
+    {
         name: 'Ориентир-3 (Кузьмолово)',
         date: '1990-04-22',
         link: './docs/1990/1990_04_22_orientir_3_omaps.pdf',
