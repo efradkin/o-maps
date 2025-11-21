@@ -2046,6 +2046,14 @@ let events_2025 =
         owner: 'SFSO_SPB',
         map: 'sosnovka_2024',
     }, {
+        date: '2025-11-26',
+        place: 'Муринский парк',
+        name: 'Dлительная серия - этап 10',
+        type: 'ORIENT',
+        link: 'https://t.me/dlitelnyy/372',
+        reg: 'https://orgeo.ru/event/dlitelnyy26112025',
+        owner: 'DLT',
+    }, {
         date: '2025-11-29',
         place: 'школа №188',
         name: 'День матери',
@@ -2053,6 +2061,14 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251129',
         reg: 'http://orgeo.ru/event/dm25',
         map: 'poljustrovo_2023'
+    }, {
+        date: '2025-11-29',
+        place: 'Токсово, Малиновая гора',
+        name: 'Токсовская классика',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251129_bn',
+        reg: 'http://orgeo.ru/event/info/malina',
+        owner: 'WN'
     }, {
         date: '2025-11-29',
         place: 'Кривко, Тенистое оз',
@@ -2064,11 +2080,20 @@ let events_2025 =
     }, {
         date: '2025-11-30',
         place: 'Великий Новгород',
-        name: 'Исторический рогейн (ЛМ)',
+        name: 'Новгородский исторический рогейн (ЛМ)',
         fmt: '2.5, 4',
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
-        reg: 'https://orgeo.ru/event/44912'
+        reg: 'https://orgeo.ru/event/44912',
+        owner: 'LM'
+    }, {
+        date: '2025-11-30',
+        place: 'Суоранда',
+        name: 'Кубок Белых Ночей №4',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/47732',
+        owner: 'WN',
+        map: 'orovo_2019'
     }, {
         date: '2025-11-30',
         place: 'Удельный парк',
