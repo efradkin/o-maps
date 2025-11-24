@@ -341,6 +341,7 @@ let authors = {
     SLBDNK: { name: 'Слободянюк Роман' },
     SLKHVA_D: { name: 'Салихова Д.' },
     SLV_J: { name: 'Сулоев Ярослав' },
+    SLVVA_M: { name: 'Соловьева Марина' },
     SMLGS: { name: 'Андрюс Смилгюс' },
     SMNV_K: { name: 'Семёнов К.' },
     SMNA: { name: 'Симина М.' },

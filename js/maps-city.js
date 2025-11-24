@@ -1945,6 +1945,16 @@ let cityMaps = [
     },
     {
         name: 'Сестрорецк, шк №324',
+        year: 2006,
+        logo: 'sestroretsk.webp',
+        url: './maps/city/sestroretsk_school_324_2006.webp',
+        link: './original_maps/city/sestroretsk_school_324_2006_omaps.jpg',
+        bounds: [[60.104184204313015, 29.973428249359134], [60.10374570524615, 29.981174468994144], [60.093931424779946, 29.971400499343876]],
+        author: ['MLVA_M','SLVVA_M'],
+        type: ['CITY']
+    },
+    {
+        name: 'Сестрорецк, шк №324',
         year: 2008,
         logo: 'sestroretsk.webp',
         url: './maps/city/school_324_2008.webp',
