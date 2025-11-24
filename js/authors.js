@@ -294,6 +294,7 @@ let authors = {
     PLMNN: { name: 'Пульманен П.' },
     PPV_D: { name: 'Попов Дмитрий' },
     PPV_V: { name: 'Попов В.' },
+    PRKH_E: { name: 'Порох Э.' },
     PRKHMNKO: { name: 'Пархоменко Александр' },
     PRSCHPA: { name: 'Прищепа О.' },
     PSHKV: { name: 'Пашков Михаил' },

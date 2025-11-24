@@ -1768,6 +1768,16 @@ let cityMaps = [
         type: ['CITY']
     },
     {
+        name: 'Сосновый Бор, 9-й мкрр-он',
+        year: 2002,
+        url: './maps/city/sosnovy_bor_9_2002.webp',
+        link: './original_maps/city/sosnovy_bor_9_2002_omaps.jpg',
+        bounds: [[59.908662985480994, 29.084522724151615], [59.911642941279375, 29.094693660736088], [59.90395045173501, 29.090037345886234]],
+        author: 'PRKH_E',
+        owner: 'YUVNT',
+        type: ['CITY']
+    },
+    {
         name: 'Сосновый Бор, Андерсенград',
         year: 2024,
         url: './maps/city/sosnovy_bor_andersengrad_2024.webp',

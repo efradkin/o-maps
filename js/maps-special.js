@@ -484,12 +484,32 @@ let specialMaps = [
     },
     {
         name: 'Сестрорецк, Таможенная дорога',
+        excluded: true,
+        date: '2008-04-27',
+        url: './maps/velo/sestroretsk_tamozhennaya_doroga_velo_2008.webp',
+        link: './original_maps/velo/sestroretsk_tamozhennaya_doroga_velo_2008_omaps.jpg',
+        info: '<a href="https://o-site.spb.ru/race.php?id=080427_mtbo">Кубок MTBO SPb Club</a>.',
+        bounds: [[60.13906894140282, 29.937357902526855], [60.13716718784788, 29.963471889495853], [60.12769952040817, 29.934654235839844]],
+        author: 'SHRNN',
+        type: ['VELO'],
+    },
+    {
+        name: 'Сестрорецк, Таможенная дорога',
         year: 2021,
         url: './maps/velo/sestroretsk_tamozhennaya_doroga_velo_2021.webp',
         link: './original_maps/velo/sestroretsk_tamozhennaya_doroga_velo_2021_omaps.jpg',
         bounds: [[60.13809671034381, 29.950232505798343], [60.13726334656544, 29.962935447692875], [60.12847969080049, 29.947400093078617]],
         author: ['SHRNN','KUZNTSV_R'],
         type: ['VELO'],
+    },
+    {
+        name: 'Сосново, Чёрный лес',
+        date: '2006-06-03',
+        info: '<a href="https://o-site.spb.ru/race.php?id=06060203_MTB">ЧиП СПб</a>.',
+        url: './maps/velo/sosnovo_black_forest_velo_2006.webp',
+        link: './original_maps/velo/sosnovo_black_forest_velo_2006_omaps.jpg',
+        bounds: [[60.54060948889669, 30.245404243469242], [60.53754896728843, 30.31840324401856], [60.49623529328182, 30.239310264587406]],
+        type: ['VELO']
     },
     {
         name: '69км, ДНТ "Свердловец", Осиновское оз',
@@ -597,6 +617,15 @@ let specialMaps = [
         info: 'MTBO Чемпионат России.',
         major: true,
         bounds: [[60.445662157954466, 30.319519042968754], [60.44214808981624, 30.381145477294925], [60.40197393671737, 30.308167934417728]],
+        type: ['VELO'],
+    },
+    {
+        name: 'Силанде',
+        date: '2005-07-23',
+        url: './maps/velo/silande_velo_2005.webp',
+        link: './original_maps/velo/silande_velo_2005_omaps.jpg',
+        info: '<a href="https://o-site.spb.ru/race.php?id=05072324_mtbo">ЧиП СПб</a>.',
+        bounds: [[60.40622353738314, 30.247893333435062], [60.40518503284648, 30.281238555908207], [60.37986918738144, 30.24270057678223]],
         type: ['VELO'],
     },
     {

@@ -2047,6 +2047,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251123_ST',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1705',
         gps: {
+            'М21':'https://viewer.o-gps-center.ru/viewer/event/23897/',
             'М45':'https://viewer.o-gps-center.ru/viewer/event/23885/',
             'Все КП':'https://viewer.o-gps-center.ru/viewer/event/23883/'
         },
@@ -2133,6 +2134,7 @@ let events_2025 =
         name: 'Снежная тропа',
         fmt: 'спринт',
         type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251214_ST',
         owner: 'SFSO_SPB',
     }, {
         date: '2025-12-21',

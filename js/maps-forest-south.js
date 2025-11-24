@@ -323,6 +323,15 @@ let southMaps = [
     },
     {
         name: 'Сосновый Бор',
+        year: 2004,
+        url: './maps/forest/south/sosnovij_bor_2004.webp',
+        link: './original_maps/forest/south/sosnovij_bor_2004_omaps.jpg',
+        bounds: [[59.8994847627188, 29.062614440917972], [59.89474940043523, 29.10115242004395], [59.87015771627351, 29.05240058898926]],
+        author: ['SHRNN','DBRTSV_V'],
+        owner: 'YUVNT'
+    },
+    {
+        name: 'Сосновый Бор',
         year: 2021,
         url: './maps/forest/south/sosnovij_bor_2021.webp',
         link: './original_maps/forest/south/sosnovij_bor_2021_omaps.jpg',
