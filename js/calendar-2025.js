@@ -2024,8 +2024,11 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://t.me/whitenightesspb/728',
         reg: 'https://orgeo.ru/event/info/47911',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23882/',
+        reskeep: 821,
         owner: 'WN',
-        map: 'pukhtolova_gora_2023'
+        map: 'pukhtolova_gora_2023',
+        me: 'A'
     }, {
         date: '2025-11-22',
         place: 'Выборг, Сайменские дачи',
@@ -2043,14 +2046,20 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251123_ST',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1705',
+        gps: {
+            'М45':'https://viewer.o-gps-center.ru/viewer/event/23885/',
+            'Все КП':'https://viewer.o-gps-center.ru/viewer/event/23883/'
+        },
+        reskeep: 822,
         owner: 'SFSO_SPB',
         map: 'sosnovka_2024',
+        me: 'М45'
     }, {
         date: '2025-11-26',
         place: 'Муринский парк',
         name: 'Dлительная серия - этап 10',
         type: 'ORIENT',
-        link: 'https://t.me/dlitelnyy/372',
+        link: 'https://o-site.spb.ru/race.php?id=251126_Dlit_10',
         reg: 'https://orgeo.ru/event/dlitelnyy26112025',
         owner: 'DLT',
     }, {
@@ -2075,7 +2084,7 @@ let events_2025 =
         name: 'Ночное ориентирование от а/к Горняк',
         type: 'ORIENT',
         fmt: 'ночное',
-        link: 'https://t.me/lone_rogaine/92972',
+        link: 'https://vk.com/wall-252774_7218',
         reg: 'https://docs.google.com/spreadsheets/d/18pI62loeNEAHp1pG3j1PmkmnJPKe5CWN4J19XRH8x2I/edit?usp=drivesdk',
     }, {
         date: '2025-11-30',
@@ -2118,6 +2127,13 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251213_bn',
         map: 'mistolovo_2021',
         owner: 'WN'
+    }, {
+        date: '2025-12-14',
+        place: 'Парк Политехнического ин-та',
+        name: 'Снежная тропа',
+        fmt: 'спринт',
+        type: 'ORIENT',
+        owner: 'SFSO_SPB',
     }, {
         date: '2025-12-21',
         place: 'Кавголово',
