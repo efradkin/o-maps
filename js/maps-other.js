@@ -18,6 +18,19 @@ let otherMaps = [
         author: ['TKMKV_K','VRBJV_S','LUK_V','SBLV_S','TTYNN_V'],
         owner: 'FSO_KARELIA'
     },
+    // --- Псковская обл ---
+    {
+        name: 'Мальская долина',
+        date: '2010-06-05',
+        major: true,
+        url: './maps/other/malska_dolina_rogaine_2010.webp',
+        link: './original_maps/other/malska_dolina_rogaine_2010_omaps.jpg',
+        info: '<a href="https://7rrc.rogaining.ru/">7-й Чемпионат России по рогейну</a>.',
+        bounds: [[57.87178363722239, 27.708206176757816], [57.851830758429266, 28.029899597167972], [57.72335688189693, 27.675504684448242]],
+        author: 'LSHV_A',
+        owner: 'PSKOV_RUS',
+        type: ['ROGAINE']
+    },
     // --- Владимирская обл ---
     {
         name: 'Радужный',
