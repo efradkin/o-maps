@@ -109,7 +109,8 @@ if (mapElement) {
     } else {
         setActiveBackground();
     }
-    if ((OWNER_PARAM && owners[OWNER_PARAM].rogaine) || (START_NAME_PARAM && starts[START_NAME_PARAM].rogaine) || ('ROGAINE' === TYPE_PARAM)) {
+    if ((OWNER_PARAM && owners[OWNER_PARAM].rogaine) || (START_NAME_PARAM && starts[START_NAME_PARAM].rogaine) ||
+        ('ROGAINE' === TYPE_PARAM) || (typeof rogaineRequired !== 'undefined' && rogaineRequired)) {
         activeLayers.push(
             parkGroup, cityGroup, forestGroup, specialGroup,
             group2020th, group2010th, group2000th, groupUnknownYear, rogaineGroup // group90th, groupRetro,

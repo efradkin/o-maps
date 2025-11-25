@@ -1,6 +1,17 @@
 let samaraMaps = [
     // --- Самара ---
     {
+        name: 'Тольятти, Самарская Лука',
+        year: 2006,
+        major: true,
+        url: './maps/samara/samarska_luka_2006_rogaine.webp',
+        link: './original_maps/samara/samarska_luka_2006_rogaine_omaps.jpg',
+        info: '24-25 июня. Чемпионат и первенство России по рогейну.',
+        bounds: [[53.43387843556037, 49.26286697387695], [53.4224229569091, 49.43590164184571], [53.3495778642957, 49.24690246582032]],
+        author: ['SKRPKO_S','PZDV_S','ZKN_V','ERKHV'],
+        type: ['ROGAINE']
+    },
+    {
         name: 'Пискалинский взвоз',
         year: 2022,
         url: './maps/samara/piskalinsky_vzvoz_2022.webp',

@@ -302,6 +302,12 @@ let events_2026 =
         type: 'ORIENT',
         owner: 'WN'
     },{
+        date: '2026-07-18',
+        name: 'Лужский приключенческий рогейн',
+        info: '"Трое из Простоквашино"',
+        type: 'ROGAINE',
+        owner: 'SHBN'
+    },{
         date: '2026-08-09',
         name: 'ЧиП СПб',
         type: 'VELO',

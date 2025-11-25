@@ -108,7 +108,8 @@ let events_2025 =
         link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/info/40338',
         res: 'https://vk.com/wall-166397868_4743',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21680/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/21680/',
+        owner: 'SHBN'
     }, {
         date: '2025-02-16',
         place: 'Свердлова',
@@ -1072,7 +1073,8 @@ let events_2025 =
         res: 'https://vk.com/wall-166397868_4941',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23164/',
         video: 'https://www.youtube.com/watch?v=_A6pHop6c6Y',
-        any: 'Винни-Пух...ing'
+        any: 'Винни-Пух...ing',
+        owner: 'SHBN'
     }, {
         date: '2025-08-02',
         place: 'Барышево',
@@ -1995,7 +1997,8 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/47229',
         res: 'https://t.me/lugarogein/229',
         photo: ['https://vk.com/album-166397868_309294009','https://disk.yandex.ru/d/HWKvXRSr7BG2Pg'],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23873/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23873/',
+        owner: 'SHBN'
     }, {
         date: '2025-11-16',
         place: 'Приозерск, стд Сосновый',
@@ -2078,6 +2081,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251129_bn',
         reg: 'http://orgeo.ru/event/info/malina',
+        map: 'toksovo_malinovaya_gora_2018',
         owner: 'WN'
     }, {
         date: '2025-11-29',
@@ -2110,6 +2114,7 @@ let events_2025 =
         name: 'НатАлка',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=2025_Orientir',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1708',
         map: 'udelny_2021'
     }, {
         date: '2025-12-07',
@@ -2135,6 +2140,8 @@ let events_2025 =
         fmt: 'спринт',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251214_ST',
+        reg: 'https://o-reg.spb.ru/?filter[day_id]=1709',
+        map: 'politekh_2022',
         owner: 'SFSO_SPB',
     }, {
         date: '2025-12-21',

@@ -195,6 +195,7 @@ let owners = {
     },
     SHBN: {
         name: '© Юрий Шубин',
+        logo: 'luzhsky.gif',
         rogaine: true
     },
     SHKLV: {

@@ -707,6 +707,7 @@ let authors = {
 
     CHRMNCH: { name: 'Черемных Александр' },
     DRBN_A: { name: 'Дербин А.' },
+    ERKHV: { name: 'Ерухаев Вячеслав' },
     KYKV: { name: 'Каюков Илья' },
     KSKV_A: { name: 'Каськов А.' },
     MLNTV: { name: 'Мелентьев В.' },
@@ -714,6 +715,7 @@ let authors = {
     PRKPCHK: { name: 'Прокопчук Вадим' },
     PSNV_A: { name: 'Писанов А.' },
     VLKV_E: { name: 'Волков Егор' },
+    ZKN_V: { name: 'Заикин Валерий' },
     ZNVJV_A: { name: 'Зиновьев Артём' },
 
     /* --- ОРЕНБУРГ --- */
