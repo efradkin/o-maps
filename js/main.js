@@ -936,7 +936,7 @@ function syncMaps() {
     let shownMaps = [];
     let hiddenMaps = [];
     for (const m of oMaps) {
-        if (m.groups && isMapAcceptable(m) && (typeof startsPage !== 'undefined' || !(isRogaine(m) || isFun(m)))) {
+        if (m.groups && isMapAcceptable(m) && (typeof startsPage !== 'undefined' || !(m.type && m.type.length === 1 && (isRogaine(m) || isFun(m))))) {
             let moreStarts = m.groups.length > 2;
             let forOneStart = !moreStarts && activeLayerIds.includes(m.groups[0]) && activeLayerIds.includes(m.groups[1]); // TODO какая-то левая логика
             let forMoreStarts = moreStarts && (activeLayerIds.includes(m.groups[0]) || activeLayerIds.includes(m.groups[1])) && activeLayerIds.includes(m.groups[m.groups.length - 1]);
