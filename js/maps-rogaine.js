@@ -130,12 +130,12 @@ let rogaineMaps = [
     },
     {
         name: 'Мичуринское',
-        year: 2008,
+        date: '2008-07-12',
         major: true,
         url: './maps/rogaine/michurinskoe_erc_2008.webp',
         link: './original_maps/rogaine/michurinskoe_erc_2008_omaps.jpg', // link: 'https://web.archive.org/web/20160206161750/http://rogaine-spb.ru/erc08/erc08map.jpg',
         bounds: [[60.63229064837143, 29.750633239746097], [60.63229064837143, 30.021171569824222], [60.48124712867758, 29.749946594238285]],
-        info: 'European Rogaining Championships.',
+        info: '<a href="https://rogaine-spb.narod.ru/erc08/erc08-3rus.html">Чемпионат Европы по рогейну</a>.',
         type: ['ROGAINE']
     },
     {
