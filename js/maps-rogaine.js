@@ -73,6 +73,16 @@ let rogaineMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Назия',
+        date: '2010-11-05',
+        info: '<a href="https://o-site.spb.ru/race.php?id=10110506">Чемпионат СПб по рогейну</a>.',
+        url: './maps/rogaine/nazia_rogaine_2010.webp',
+        link: './original_maps/rogaine/nazia_rogaine_2010_omaps.jpg',
+        bounds: [[59.85856618598206, 31.519432067871097], [59.84390940060374, 31.760702133178714], [59.688453410376404, 31.47780418395996]],
+        logo: 'rogaine_spb.gif',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Шапки',
         year: 2019,
         info: 'КЛО 2019, 2024.',
