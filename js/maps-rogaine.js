@@ -93,9 +93,9 @@ let rogaineMaps = [
     },
     {
         name: 'Кузнечное',
-        year: 2009,
+        date: '2009-05-30',
         major: true,
-        info: 'VI Чемпионат России по рогейну.',
+        info: '<a href="https://o-site.spb.ru/race.php?id=090530_rog">VI Чемпионат России по рогейну</a>.',
         url: './maps/rogaine/kuznechnoe_2009.webp',
         link: './original_maps/rogaine/kuznechnoe_2009_omaps.jpg',
         bounds: [[61.19538604557029, 29.662742614746097], [61.194889777986376, 29.914054870605472], [61.04831536461298, 29.662055969238285]],
@@ -140,12 +140,12 @@ let rogaineMaps = [
     },
     {
         name: 'Лосево',
-        year: 2007,
+        date: '2007-08-25',
         major: true,
         url: './maps/rogaine/losevo_rrc_2007.webp',
         link: './original_maps/rogaine/losevo_rrc_2007_omaps.jpg', // https://web.archive.org/web/20161220160945/http://www.rogaine-spb.ru/race0807/map.gif
         bounds: [[60.803236100904606, 29.611244201660156], [60.9023956835838, 29.857749938964847], [60.635657869155416, 29.90409851074219]],
-        info: 'IV Чемпионат России по рогейну.',
+        info: '<a href="https://www.rogaine-spb.narod.ru/race0807/info.html">IV Чемпионат России по рогейну</a>.',
         author: ['ANTPV','KMN_I','OZRV'],
         type: ['ROGAINE']
     },
@@ -174,13 +174,14 @@ let rogaineMaps = [
     },
     {
         name: 'Запорожское',
-        year: 2016,
+        date: '2016-07-02',
         major: true,
         url: './maps/rogaine/zaporozhskoe_2016.webp',
         link: 'https://www.multsport.ru/images/rogRus16/map.jpg',
         bounds: [[60.67923162227499, 30.155410766601566], [60.688813300289965, 30.679321289062504], [60.43164595895512, 30.173263549804688]],
-        info: 'XIII Чемпионат России по рогейну.',
+        info: '<a href="https://www.multsport.ru/starts/rus-run-rogaine-2016/">XIII Чемпионат России по рогейну</a>.',
         author: 'RYLOV_V',
+        owner: 'MLTSPRT',
         type: ['ROGAINE']
     },
     {
@@ -196,12 +197,12 @@ let rogaineMaps = [
     },
     {
         name: 'Первомайское',
-        year: 2012,
+        date: '2012-07-21',
         major: true,
         url: './maps/rogaine/pervomajskoe_rrc_2012.webp',
         link: 'https://rrc2012.rogaining.ru/download/9rrc_map.jpg',
         bounds: [[60.47701790290766, 29.584808349609375], [60.44993780053481, 29.986152648925785], [60.30824657381306, 29.535713195800785]],
-        info: 'IX Чемпионат России по рогейну.',
+        info: '<a href="https://rrc2012.rogaining.ru/">IX Чемпионат России по рогейну</a>.',
         author: 'RYLOV_V',
         type: ['ROGAINE']
     },
@@ -259,10 +260,12 @@ let rogaineMaps = [
     },
     {
         name: 'Вуокса',
-        year: 2023,
-        url: './maps/rogaine/vuoksa_2023.webp',
-        bounds: [[61.07024523739947, 29.890708923339847], [61.052885339951935, 30.129661560058597], [60.93418522126774, 29.847793579101566]],
-        info: 'Водный рогейн.',
+        date: '2019-05-18',
+        major: true,
+        url: './maps/rogaine/vuoksa_rogaine_2019.webp',
+        link: 'https://www.multsport.ru/images/rogCanoe19/16.jpg',
+        bounds: [[61.069082670716135, 29.86942291259766], [61.06401670348004, 30.116786956787113], [60.910575549690314, 29.85508918762207]],
+        info: '<a href="https://rrc2012.rogaining.ru/">Чемпионат России по рогейну на байдарках.</a>.',
         owner: 'MLTSPRT',
         type: ['ROGAINE']
     },

@@ -524,6 +524,7 @@ let authors = {
         about: 'https://o-moscow.ru/people/YaninUB.html'
     },
     JASHPTRV: { name: 'Яшпатров Геннадий' },
+    KBRV_M: { name: 'Кубарев М.' },
     KCHRNA: { name: 'Качурина Ирина' },
     KHMZV: { name: 'Хамурзов Владимир' },
     KLNN_B: {
@@ -539,6 +540,7 @@ let authors = {
         name: 'Калиткин Николай',
         about: 'https://o-moscow.ru/people/KalitkinNN.html'
     },
+    KLSV_S: { name: 'Колесов С.' },
     KLZHNY: { name: 'Калюжный Александр' },
     KNDRSHKN_V: { name: 'Кондрашкин В.' },
     KNSTNTNV_Y: {
@@ -588,6 +590,7 @@ let authors = {
     MTN_Y: { name: 'Митин Юрий' },
     MLCHK: { name: 'Мальчик Игорь' },
     MLNKV_V: { name: 'Мыльников Валентин' },
+    MRDRS: { name: 'Мордирос А.' },
     MRTSHV: {
         name: 'Мартишев Владислав',
         about: 'https://o-moscow.ru/people/MartishevVI.html'
@@ -622,6 +625,7 @@ let authors = {
     PRZRV: { name: 'Прозоров Андрей' },
     PZDV_S: { name: 'Поздеев Сергей' },
     PZGRV: { name: 'Пызгарев В.' },
+    RSCHN_R: { name: 'Рощин Р.' },
     RMNV_A: { name: 'Романов Александр' },
     RZNKV_A: { name: 'Разинков Александр' },
     SDV_G: { name: 'Седов Георгий' },
