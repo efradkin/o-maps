@@ -112,17 +112,17 @@ if (mapElement) {
     if ((OWNER_PARAM && owners[OWNER_PARAM].rogaine) || (START_NAME_PARAM && starts[START_NAME_PARAM].rogaine) ||
         ('ROGAINE' === TYPE_PARAM) || (typeof rogaineRequired !== 'undefined' && rogaineRequired)) {
         activeLayers.push(
-            parkGroup, cityGroup, forestGroup, specialGroup,
+            parkGroup, cityGroup, forestGroup,
             group2020th, group2010th, group2000th, groupUnknownYear, rogaineGroup // group90th, groupRetro,
         );
     } else if ('FOTO' === TYPE_PARAM || 'FUN' === TYPE_PARAM) {
         activeLayers.push(
-            parkGroup, cityGroup, forestGroup, specialGroup,
+            parkGroup, cityGroup, forestGroup,
             group2020th, group2010th, group2000th, groupUnknownYear, funGroup
         );
     } else {
         activeLayers.push(
-            parkGroup, cityGroup, forestGroup, specialGroup,
+            parkGroup, cityGroup, forestGroup,
             group2020th, group2010th, group2000th, groupUnknownYear // group90th, groupRetro,
         );
     }
