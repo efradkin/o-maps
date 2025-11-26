@@ -461,4 +461,16 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
+    {
+        name: 'пл Восстания',
+        date: '2025-12',
+        info: 'Декабрь, фото-рогейн.',
+        url: './maps/rogaine/kkm/vosstania_KKM_2025_12.webp',
+        link: ['./original_maps/rogaine/kkm/vosstania_KKM_2025_12_omaps.jpg','./original_maps/rogaine/kkm/vosstania_KKM_2025_12_pictures.jpg'],
+        bounds: [[59.9562779618925, 30.336985588073734], [59.95638539185255, 30.40002822875977], [59.912847757216966, 30.33711433410645]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23910/',
+        start: ['VO_FOTO','KKM'],
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
 ];
