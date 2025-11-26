@@ -12,6 +12,16 @@ let samaraMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Рамено',
+        year: 2004,
+        major: true,
+        url: './maps/samara/rameno_2004.webp',
+        link: ['./original_maps/samara/rameno_2004_08_24_omaps.jpg','./original_maps/samara/rameno_2004_08_25_omaps.jpg','./original_maps/samara/rameno_2004_08_27_omaps.jpg','./original_maps/samara/rameno_2004_08_28_omaps.jpg'],
+        info: '24-28 августа. Первенство России среди юниоров, юношей и девушек.',
+        bounds: [[53.271783479238216, 48.344392776489265], [53.266034304965714, 48.39752197265626], [53.238406958742566, 48.335466384887695]],
+        author: ['ZHBNCHK','ZKN_V','SKRPKO_S','ERKHV','CHRMNCH_O'],
+    },
+    {
         name: 'Пискалинский взвоз',
         year: 2022,
         url: './maps/samara/piskalinsky_vzvoz_2022.webp',
@@ -67,7 +77,7 @@ let samaraMaps = [
         url: './maps/samara/pribrezhny_2010.webp',
         link: './original_maps/samara/pribrezhny_2010_omaps.gif',
         bounds: [[53.51816521718794, 49.851794242858894], [53.505201062547066, 49.98929500579835], [53.4730798425885, 49.839563369750984]],
-        author: ['SKRPKO_S','CHRMNCH','TRNV_V','PRKPCHK','USNKO'],
+        author: ['SKRPKO_S','CHRMNCH_A','TRNV_V','PRKPCHK','USNKO'],
         owner: 'ZNVJV_A'
     },
     {

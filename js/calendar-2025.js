@@ -2131,6 +2131,7 @@ let events_2025 =
         type: 'ORIENT',
         fmt: 'спринт',
         link: 'https://o-site.spb.ru/race.php?id=251213_bn',
+        reg: 'http://orgeo.ru/event/info/mistolovo',
         map: 'mistolovo_2021',
         owner: 'WN'
     }, {

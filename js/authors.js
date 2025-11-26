@@ -709,7 +709,8 @@ let authors = {
 
     /* --- САМАРА --- */
 
-    CHRMNCH: { name: 'Черемных Александр' },
+    CHRMNCH_A: { name: 'Черемных Александр' },
+    CHRMNCH_O: { name: 'Черемных Олег' },
     DRBN_A: { name: 'Дербин А.' },
     ERKHV: { name: 'Ерухаев Вячеслав' },
     KYKV: { name: 'Каюков Илья' },
@@ -719,6 +720,7 @@ let authors = {
     PRKPCHK: { name: 'Прокопчук Вадим' },
     PSNV_A: { name: 'Писанов А.' },
     VLKV_E: { name: 'Волков Егор' },
+    ZHBNCHK: { name: 'Жбанчик Василий' },
     ZKN_V: { name: 'Заикин Валерий' },
     ZNVJV_A: { name: 'Зиновьев Артём' },
 
