@@ -499,7 +499,7 @@ let sosnovoMaps = [
         name: 'Петяярви',
         year: 2014,
         url: './maps/forest/sosnovo/petyajarvi.webp',
-        link: './original_maps/forest/sosnovo/petyajarvi_2014_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/petyajarvi_2014_omaps.jpg','./original_maps/forest/sosnovo/petyajarvi_2014_omaps.gif'],
         photo: 'tracks/petyajarvi/pic_7.jpg',
         bounds: [[60.635110719708734, 30.071811676025394], [60.62888097901027, 30.160732269287113], [60.61443850605954, 30.068721771240238]]
     },

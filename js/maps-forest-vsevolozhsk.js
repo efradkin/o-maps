@@ -123,7 +123,7 @@ let vsevolozhskMaps = [
         name: 'Орово',
         year: 2007,
         url: './maps/forest/vsevolozhsk/orovo_2007.webp',
-        link: './original_maps/forest/vsevolozhsk/orovo_2007_omaps.jpg',
+        link: './original_maps/forest/vsevolozhsk/orovo_2007_omaps.gif',
         photo: 'tracks/hare_trail/pic_3.jpg',
         bounds: [[59.96566602549886, 30.621128082275394], [59.964742375222585, 30.64292907714844], [59.95511769613181, 30.61971187591553]],
         author: 'RYLOV_V',

@@ -400,7 +400,7 @@ let toksovoMaps = [
         name: 'Кавголово, УТЦ',
         year: 2023,
         url: './maps/forest/toksovo/kavgolovo_utts_2023.webp',
-        link: './original_maps/forest/toksovo/kavgolovo_uts_2023.jpg',
+        link: ['./original_maps/forest/toksovo/kavgolovo_uts_2023.jpg','./original_maps/forest/toksovo/kavgolovo_uts_2015.jpg'],
         bounds: [[60.181669291321185, 30.533666610717777], [60.18063429849855, 30.543966293334964], [60.173559195700115, 30.530512332916263]],
         author: ['MNKV','TKMKVA_P','IVNVA_G'],
         owner: 'SFSO_SPB'
@@ -452,7 +452,7 @@ let toksovoMaps = [
         name: 'Кузьмолово, Зона-Z',
         year: 2018,
         url: './maps/forest/toksovo/kuzmolovo_zona_z_2018.webp',
-        link: './original_maps/forest/toksovo/kuzmolovo_zona_z_2018_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/kuzmolovo_zona_z_2018_omaps.jpg','./original_maps/forest/toksovo/kuzmolovo_zona_z_yarky_cup_2018_omaps.jpg'],
         bounds: [[60.14483763345936, 30.508689880371097], [60.13996635995334, 30.5885124206543], [60.10909820311472, 30.500965118408207]],
         author: ['DBRTSV_V','KVZN','TKMKV_K'],
         owner: 'SHEIN'
@@ -501,6 +501,14 @@ let toksovoMaps = [
         bounds: [[60.15365963844227, 30.469293594360355], [60.16363227479294, 30.501780509948734], [60.14458126862982, 30.4835844039917]],
         author: 'SHRNN',
         info: '"Бабочка".'
+    },
+    {
+        name: 'Токсово, оз Изумрудное',
+        year: 2007,
+        url: './maps/forest/toksovo/toksovo_izumrudnoe_2007.webp',
+        link: './original_maps/forest/toksovo/toksovo_izumrudnoe_2007_omaps.gif',
+        bounds: [[60.16092052975573, 30.472941398620605], [60.15782416931641, 30.506072044372562], [60.147166189143604, 30.469851493835453]],
+        author: 'DBRTSV_V',
     },
     {
         name: 'Токсово, Охта-Парк',
@@ -578,7 +586,7 @@ let toksovoMaps = [
         name: 'Токсово - Светлое',
         year: 2014,
         url: './maps/forest/toksovo/toksovo_svetloe_2014.webp',
-        link: './original_maps/forest/toksovo/toksovo_svetloe_2014_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/toksovo_svetloe_2014_omaps.jpg','./original_maps/forest/toksovo/toksovo_svetloe_yarky_cup_2014_omaps.jpg'],
         bounds: [[60.173964748045265, 30.579929351806644], [60.171211162662146, 30.607438087463382], [60.151822805888436, 30.57181835174561]],
         author: 'DBRTSV_V',
         owner: 'SHEIN'

@@ -5,9 +5,9 @@ let pskStartsMaps = [
         region: 'starts',
         start: 'KZNTSVA',
         date: '2014-06-07',
-        info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=14060708">Инфо и результаты.</a>',
+        info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=14060708">Инфо и результаты</a>.',
         url: './maps/starts/psk/psk_2014_06_07.webp',
-        link: './original_maps/starts/psk/psk_2014_06_07.gif',
+        link: ['./original_maps/starts/psk/psk_2014_06_07.gif','./original_maps/starts/psk/psk_2014_06_07_clean_omaps.gif'],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/200/',
         bounds: [[60.96935867859056, 29.170460700988773], [60.96600554126039, 29.21114444732666], [60.9552564576784, 29.16655540466309]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K']
@@ -17,9 +17,9 @@ let pskStartsMaps = [
         region: 'starts',
         start: 'KZNTSVA',
         date: '2014-06-08',
-        info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=14060708">Инфо и результаты.</a>',
+        info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=14060708">Инфо и результаты</a>.',
         url: './maps/starts/psk/psk_2014_06_08.webp',
-        link: './original_maps/starts/psk/psk_2014_06_08.gif',
+        link: ['./original_maps/starts/psk/psk_2014_06_08.gif','./original_maps/starts/psk/psk_2014_06_08_clean_omaps.gif'],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/199/',
         bounds: [[60.992675068656666, 29.152135848999027], [60.98813804042685, 29.213590621948242], [60.967609259745885, 29.14278030395508]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K']

@@ -380,7 +380,7 @@ let funMaps = [
         year: 2023,
         start: 'RED_SELO_FOTO',
         url: './maps/fun/novoznamenka_foto_2023.webp',
-        link: ['./original_maps/fun/novoznamenka_foto_2023_omaps.pdf','./original_maps/fun/novoznamenka_foto_2023_pictures.pdf'],
+        link: ['./original_maps/city/novoznamenka_2012_omaps.gif','./original_maps/fun/novoznamenka_foto_2023_omaps.pdf','./original_maps/fun/novoznamenka_foto_2023_pictures.pdf'],
         bounds: [[59.84918012037049, 30.122237205505375], [59.8481346656308, 30.13283729553223], [59.83923080294449, 30.118525028228763]],
         author: 'ZCHNV',
         owner: 'ZCHNV',

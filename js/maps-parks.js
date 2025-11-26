@@ -226,6 +226,7 @@ let parkMaps = [
         name: 'Сосновка',
         year: 2011,
         url: './maps/parks/sosnovka_2019.webp',
+        link: './original_maps/parks/sosnovka_2011_omaps.gif',
         bounds: [[60.03385896892066, 30.335440635681156], [60.03184395117591, 30.37007331848145], [60.01198731287414, 30.330247879028324]],
         author: ['DBRTSV_V','SHKLV','BRDR'],
         type: ['PARK']
@@ -317,6 +318,15 @@ let parkMaps = [
     },
     {
         name: 'Пискарёвский парк',
+        year: 2012,
+        url: './maps/parks/piskarevsky_2012.webp',
+        link: './original_maps/parks/piskarevsky_2012_omaps.gif',
+        bounds: [[60.00598079651411, 30.39603710174561], [60.002934217667935, 30.434060096740726], [59.99465125400172, 30.391960144042972]],
+        author: 'DBRTSV_V',
+        type: ['PARK'],
+    },
+    {
+        name: 'Пискарёвский парк',
         year: 2001,
         url: './maps/parks/piskarevsky_2001.webp',
         link: './original_maps/parks/piskarevsky_2001_omaps.jpg',
@@ -330,9 +340,9 @@ let parkMaps = [
         url: './maps/parks/piskarevsky_2024.webp',
         link: './original_maps/parks/piskarevsky_2024_omaps.jpg',
         bounds: [[60.0064313230872, 30.39530754089356], [60.004586270603426, 30.422816276550297], [59.994350796655525, 30.390887260437015]],
-        type: ['PARK'],
         author: 'DBRTSV_V',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        type: ['PARK']
     },
     {
         name: 'Парк Лесотехнической академии',
@@ -445,6 +455,7 @@ let parkMaps = [
         name: 'ЦПКиО, Елагин остров',
         year: 2017,
         url: './maps/parks/elagin_2017.webp',
+        link: './original_maps/parks/elagin_2017_omaps.gif',
         bounds: [[59.98518553686155, 30.23699283599854], [59.9827167074759, 30.275316238403324], [59.97616805074679, 30.23497581481934]],
         author: ['DBRTSV_V','URVNTSV'],
         owner: 'GLFSTRM',
@@ -529,6 +540,7 @@ let parkMaps = [
         name: 'Новознаменка, запад',
         year: 2014,
         url: './maps/parks/novoznamenka_2014.webp',
+        link: './original_maps/parks/novoznamenka_2014_omaps.gif',
         bounds: [[59.85326462355383, 30.101037025451664], [59.85022554227052, 30.132408142089847], [59.84259428520911, 30.097217559814457]],
         type: ['PARK'],
         author: 'ZCHNV',
@@ -586,12 +598,12 @@ let parkMaps = [
     },
     {
         name: 'Александрийский (Пролетарский) парк',
-        year: 2005,
+        year: 2010,
         startYear: 2022,
         month: 12,
         start: 'RED_SELO_FOTO',
         url: './maps/parks/aleksandrijsky.webp',
-        link: ['./original_maps/fun/aleksandrijsky_foto_2022_omaps.pdf','./original_maps/fun/aleksandrijsky_foto_2022_pictures.pdf'],
+        link: ['./original_maps/parks/aleksandrijsky_park_2010_omaps.gif','./original_maps/fun/aleksandrijsky_foto_2022_omaps.pdf','./original_maps/fun/aleksandrijsky_foto_2022_pictures.pdf'],
         bounds: [[59.87819185228175, 29.919676780700687], [59.87765343201456, 29.946413040161136], [59.86332825143852, 29.918217658996586]],
         author: ['FDRV_L','LSNNKV','NKFRV_A','BLZRV_V'],
         owner: 'GLTV_YU',
@@ -733,7 +745,7 @@ let parkMaps = [
         name: 'Парк Политеха',
         year: 2022,
         url: './maps/parks/politekh_2022.webp',
-        link: './original_maps/parks/politekh_2022_omaps.jpg',
+        link: ['./original_maps/parks/politekh_2022_omaps.jpg','./original_maps/parks/politekh_2016_omaps.jpg'],
         bounds: [[60.009649191555134, 30.36827087402344], [60.00945612827708, 30.385394096374515], [60.00235490683813, 30.367970466613773]],
         type: ['PARK'],
         author: 'ZCHNV',
@@ -806,10 +818,12 @@ let parkMaps = [
     },
     {
         name: 'Муринский парк, центр',
-        year: 2013,
+        date: '2014-05-21',
         url: './maps/parks/murinsky_center_2014.webp',
+        link: './original_maps/parks/murinsky_center_2014_omaps.gif',
         bounds: [[60.031222271957226, 30.39024353027344], [60.03017182186756, 30.410585403442386], [60.02412572517976, 30.389170646667484]],
         author: ['SHRNN','FRSHLVA'],
+        start: 'ST',
         type: ['PARK']
     },
 /*
@@ -826,6 +840,7 @@ let parkMaps = [
         name: 'Муринский парк и САМПО',
         year: 2012,
         url: './maps/parks/murinsky_sampo_2012.webp',
+        link: './original_maps/parks/murinsky_sampo_2012_omaps.gif',
         bounds: [[60.03597031841169, 30.3663182258606], [60.03272285700718, 30.392239093780518], [60.023857698834135, 30.36056756973267]],
         author: ['SHRNN','MSPN'],
         type: ['PARK']
@@ -940,7 +955,7 @@ let parkMaps = [
         name: 'Павловский парк',
         year: 2003,
         url: './maps/parks/pavlovsk_2012.webp',
-        link: './original_maps/parks/pavlovsk_2012_omaps.jpg',
+        link: ['./original_maps/parks/pavlovsk_2012_omaps.jpg','./original_maps/parks/pavlovsk_2012_omaps.gif'],
         bounds: [[59.703265193681084, 30.442900657653812], [59.70060215436709, 30.486330986022953], [59.68739208083911, 30.439124107360843]],
         author: ['VLKV_K','URVNTSV'],
         owner: 'SFSO_SPB',
@@ -1295,10 +1310,12 @@ let parkMaps = [
     },
     {
         name: 'парк Есенина',
-        year: 2014,
+        date: '2014-05-28',
         url: './maps/parks/esenina_2014.webp',
+        link: './original_maps/parks/esenina_2014_omaps.gif',
         bounds: [[59.91496683629783, 30.47916412353516], [59.914568846991216, 30.49088001251221], [59.907264358045, 30.478713512420658]],
         author: 'DRBSHV',
+        start: 'ST',
         type: ['PARK']
     },
     {

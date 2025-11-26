@@ -12,7 +12,7 @@ let schoolMaps = [
         type: ['PARK']
     },
     {
-        name: 'Школа №150, универсам "САМПО"',
+        name: 'Школа №150, универсам САМПО',
         date: '2016-10-19',
         start: 'SCHOOL',
         excluded: true,

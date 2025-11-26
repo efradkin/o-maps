@@ -368,8 +368,9 @@ let southMaps = [
     },
     {
         name: 'Форт Красная Горка',
+        year: 2012,
         url: './maps/forest/south/fort_krasnaja_gorka.webp',
-        link: './original_maps/forest/south/fort_krasnaja_gorka_omaps.jpg',
+        link: ['./original_maps/forest/south/fort_krasnaja_gorka_2012_omaps.gif','./original_maps/forest/south/fort_krasnaja_gorka_omaps.jpg'],
         bounds: [[59.9807629815427, 29.305815696716312], [59.976221733526316, 29.357614517211918], [59.962916479136254, 29.298820495605472]],
         author: ['DBRTSV_V','MKHLV_A'],
         owner: 'YUVNT'

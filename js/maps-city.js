@@ -145,7 +145,7 @@ let cityMaps = [
         name: 'Школа №92',
         year: 2012,
         url: './maps/city/school_92_2012.webp',
-        link: './original_maps/schools/school_92_2012_omaps.jpg',
+        link: './original_maps/schools/school_92_2012_omaps.gif',
         bounds: [[60.02176701873349, 30.32037734985352], [60.02221733023808, 30.340676307678226], [60.01241630800898, 30.320291519165043]],
         author: 'SHRNN',
         owner: 'SHEIN',
@@ -190,9 +190,9 @@ let cityMaps = [
     },
     {
         name: 'Школа №156',
-        year: 2013,
+        year: 2012,
         url: './maps/city/school_156_2013.webp',
-        link: './original_maps/schools/school_156_2013_omaps.jpg',
+        link: './original_maps/schools/school_156_2013_omaps.gif',
         bounds: [[59.99765567740504, 30.426700115203857], [59.99798829322108, 30.43697834014893], [59.991603631550845, 30.427644252777103]],
         author: 'MSPN',
         owner: 'SHEIN',
@@ -272,12 +272,13 @@ let cityMaps = [
     },
     {
         name: 'Политехническая',
-        year: 2015,
+        date: '2014-05-14',
         url: './maps/city/politekhnicheskaya_2015.webp',
-        link: './original_maps/city/politekhnicheskaya_2015_omaps.jpg',
+        link: ['./original_maps/city/politekhnicheskaya_2015_omaps.jpg','./original_maps/schools/school_145_2014_omaps.gif'],
         bounds: [[60.02562663254445, 30.36728382110596], [60.0253478977596, 30.384922027587894], [60.010142570366924, 30.367884635925297]],
         author: 'SHRNN',
         owner: 'SHEIN',
+        start: 'ST',
         type: ['CITY']
     },
     {
@@ -285,7 +286,7 @@ let cityMaps = [
         year: 2011,
         date: '2016-05-25',
         url: './maps/city/narvskaya_2016.webp',
-        link: './original_maps/city/narvskaya_2016_omaps.jpg',
+        link: ['./original_maps/city/narvskaya_2016_omaps.jpg','./original_maps/city/narvskaya_clean_omaps.jpg'],
         bounds: [[59.89892516416984, 30.259094238281254], [59.89888211773708, 30.27570247650147], [59.893479347569645, 30.259008407592777]],
         start: 'ST',
         owner: 'KUZM',
@@ -946,10 +947,9 @@ let cityMaps = [
     },
     {
         name: 'Манеж Алексеева',
-        year: 2014,
         date: '2015-05-13',
         url: './maps/city/manezh_alekseeva_2015.webp',
-        link: './original_maps/city/manezh_alekseeva_2015_omaps.jpg', // ЧиП СПб тогда проводил НордВест
+        link: ['./original_maps/city/manezh_alekseeva_2015_omaps.jpg','./original_maps/city/manezh_alekseeva_2014_omaps.gif'], // ЧиП СПб тогда проводил НордВест
         bounds: [[60.019761985893915, 30.356168746948246], [60.0193652537523, 30.369558334350586], [60.00983152806055, 30.35458087921143]],
         author: 'SHRNN',
         start: 'ST',
@@ -1434,6 +1434,7 @@ let cityMaps = [
         name: 'Романовка',
         year: 2013,
         url: './maps/city/romanovka_2013.webp',
+        link: './original_maps/city/romanovka_2013_omaps.gif',
         bounds: [[60.05007110026554, 30.69610118865967], [60.048742712098274, 30.710756778717045], [60.04303217685753, 30.69367647171021]],
         author: 'MNKV',
         owner: 'INGR',

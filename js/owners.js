@@ -72,7 +72,8 @@ let owners = {
         rogaine: true
     },
     INGR: {
-        name: '© <a href="https://vk.com/ingriaorient">КСО "Ингрия"</a>, Кирьянов Юрий - 89117954827'
+        name: '© <a href="https://vk.com/ingriaorient">КСО "Ингрия"</a>, Кирьянов Юрий - 89117954827',
+        logo: 'ingria.gif'
     },
     IMPULS: {
         name: '© АНО ОПОРА СО СПб и ЛО "Импульс". Контакт для связи: info@impulsnko.ru.'
