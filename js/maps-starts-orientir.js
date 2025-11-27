@@ -126,12 +126,11 @@ let orientirStartsMaps = [
     {
         name: 'Воейково',
         date: '1991-04-07',
-        info: 'Ориентир-1. <a href="./docs/1991/1991_04_07_voeykovo/doc_12_omaps.gif">МЭ</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_2_omaps.gif">МB</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_3_omaps.gif">МB(2)</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_4_omaps.gif">МС,Н</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_5_omaps.gif">МС,Н(2)</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_6_omaps.gif">МС,Н(3)</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_7_omaps.gif">ЖЭ</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_11_omaps.gif">ЖС,Н</a>',
+        info: 'Ориентир-1, <a href="./docs/1991/1991_04_07_voeykovo_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_04_07.webp',
         link: './original_maps/starts/orientir/orientir_1991_04_07_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[59.95604161475451, 30.65889358520508], [59.9507985720987, 30.73210716247559], [59.925646226343105, 30.650825500488285]],
-        docs: ['1991_04_07_voeykovo', 12, 'gif'],
         author: 'VSLVSKY',
         me: 'МА'
     },
@@ -149,12 +148,11 @@ let orientirStartsMaps = [
     {
         name: 'Юкки',
         date: '1991-04-27',
-        info: 'Ориентир-3. <a href="./docs/1991/1991_04_27_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1991/1991_04_27_yukki/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991/1991_04_27_yukki/doc_3_omaps.gif">МB</a>, <a href="./docs/1991/1991_04_27_yukki/doc_4_omaps.gif">МВ(2)</a>, <a href="./docs/1991/1991_04_27_yukki/doc_5_omaps.gif">МС</a>, <a href="./docs/1991/1991_04_27_yukki/doc_6_omaps.gif">МС,Н</a>, <a href="./docs/1991/1991_04_27_yukki/doc_7_omaps.gif">МН</a>, <a href="./docs/1991/1991_04_27_yukki/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991/1991_04_27_yukki/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991/1991_04_27_yukki/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991/1991_04_27_yukki/doc_11_omaps.gif">ЖС</a>, <a href="./docs/1991/1991_04_27_yukki/doc_12_omaps.gif">ЖН</a>',
+        info: 'Ориентир-3, <a href="./docs/1991_04_27_yukki_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_04_27.webp',
         link: './original_maps/starts/orientir/orientir_1991_04_27_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.11771598201811, 30.27681827545166], [60.114166500104574, 30.34574031829834], [60.10248899875632, 30.274028778076172]],
-        docs: ['1991_04_27_yukki', 12, 'gif'],
         author: ['SHLKHN_Y','BZNV_A'],
         me: 'МА'
     },
@@ -191,7 +189,7 @@ let orientirStartsMaps = [
     {
         name: 'Токсово',
         date: '1991-06-12',
-        info: 'Ориентир-10. <a href="./docs/1991/1991_06_12_toksovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_3_omaps.gif">МБ</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_4_omaps.gif">МБ(2)</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_5_omaps.gif">МС,Н</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_6_omaps.gif">ЖА,ЖС</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_7_omaps.gif">ЖБ</a>',
+        info: 'Ориентир-10, <a href="./docs/1991/1991_06_12_toksovo_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_06_12.webp',
         link: './original_maps/starts/orientir/orientir_1991_06_12_omaps.jpg',
         start: 'ORIENTIR',

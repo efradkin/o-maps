@@ -56,14 +56,14 @@ let historyDocs = [
     {
         name: 'Кубок ЛГС ДСО "Спартак"',
         date: '1983-09-17',
-        info: 'Протоколы результатов. Карты можно найти <a href="map-info.html?map=mruchey_1983_09_17">тут</a>.',
-        links: ['mruchey_1983_09_17', 6]
+        info: 'Карты можно найти <a href="map-info.html?map=mruchey_1983_09_17">тут</a>.',
+        link: './docs/1983_09_17_mruchey_omaps.pdf'
     },
     {
         name: 'Открытие сезона ЛГС ДСО "Спартак"',
         date: '1985-04-21',
-        info: '21, 27 апреля. Протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',
-        links: ['gdacha_1985_04_21', 8],
+        info: '21, 27 апреля. Отчёт и протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',
+        link: './docs/1985_04_21_gdacha_omaps.pdf',
         planner: 'RYLOV_V',
         me: 'М-13'
     },
@@ -732,8 +732,7 @@ let historyDocs = [
         name: 'Ориентир-9 (Юкки)',
         date: '1990-06-06',
         start: 'ORIENTIR',
-        info: '<a href="./docs/1990/1990_06_06_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1990/1990_06_06_yukki/doc_2_omaps.gif">МБ</a>, <a href="./docs/1990/1990_06_06_yukki/doc_3_omaps.gif">МС,Н</a>, <a href="./docs/1990/1990_06_06_yukki/doc_4_omaps.gif">ЖА</a>, <a href="./docs/1990/1990_06_06_yukki/doc_5_omaps.gif">ЖБ,ЖС</a>',
-        links: ['1990_06_06_yukki', 5, 'gif'],
+        link: './docs/1990/1990_06_06_yukki_omaps.pdf',
         me: 'МА'
     },
     {
@@ -839,8 +838,7 @@ let historyDocs = [
         name: 'Ориентир-1 (Воейково)',
         date: '1991-04-07',
         start: 'ORIENTIR',
-        info: '<a href="./docs/1991/1991_04_07_voeykovo/doc_12_omaps.gif">МЭ</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_2_omaps.gif">МB</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_3_omaps.gif">МB(2)</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_4_omaps.gif">МС,Н</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_5_omaps.gif">МС,Н(2)</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_6_omaps.gif">МС,Н(3)</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_7_omaps.gif">ЖЭ</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991/1991_04_07_voeykovo/doc_11_omaps.gif">ЖС,Н</a>.',
-        links: ['1991_04_07_voeykovo', 12, 'gif'],
+        link: './docs/1991/1991_04_07_voeykovo_omaps.pdf',
         planner: 'SMNV_M',
         me: 'МА'
     },
@@ -862,8 +860,7 @@ let historyDocs = [
         name: 'Ориентир-3 (Юкки)',
         date: '1991-04-27',
         start: 'ORIENTIR',
-        info: '<a href="./docs/1991/1991_04_27_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1991/1991_04_27_yukki/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991/1991_04_27_yukki/doc_3_omaps.gif">МB</a>, <a href="./docs/1991/1991_04_27_yukki/doc_4_omaps.gif">МВ(2)</a>, <a href="./docs/1991/1991_04_27_yukki/doc_5_omaps.gif">МС</a>, <a href="./docs/1991/1991_04_27_yukki/doc_6_omaps.gif">МС,Н</a>, <a href="./docs/1991/1991_04_27_yukki/doc_7_omaps.gif">МН</a>, <a href="./docs/1991/1991_04_27_yukki/doc_8_omaps.gif">ЖА</a>, <a href="./docs/1991/1991_04_27_yukki/doc_9_omaps.gif">ЖВ</a>, <a href="./docs/1991/1991_04_27_yukki/doc_10_omaps.gif">ЖВ(2)</a>, <a href="./docs/1991/1991_04_27_yukki/doc_11_omaps.gif">ЖС</a>, <a href="./docs/1991/1991_04_27_yukki/doc_12_omaps.gif">ЖН</a>.',
-        links: ['1991_04_27_yukki', 12, 'gif'],
+        link: './docs/1991/1991_04_27_yukki_omaps.pdf',
         planner: 'PVLV_M',
         me: 'МА'
     },
@@ -946,8 +943,7 @@ let historyDocs = [
         name: 'Ориентир-10 (Токсово)',
         date: '1991-06-12',
         start: 'ORIENTIR',
-        info: '<a href="./docs/1991/1991_06_12_toksovo/doc_1_omaps.gif">МА</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_2_omaps.gif">МА(2)</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_3_omaps.gif">МБ</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_4_omaps.gif">МБ(2)</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_5_omaps.gif">МС,Н</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_6_omaps.gif">ЖА,ЖС</a>, <a href="./docs/1991/1991_06_12_toksovo/doc_7_omaps.gif">ЖБ</a>',
-        links: ['1991_06_12_toksovo', 7, 'gif'],
+        link: './docs/1991/1991_06_12_toksovo_omaps.pdf',
         me: 'МА'
     },
     {

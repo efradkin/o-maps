@@ -2085,6 +2085,14 @@ let events_2025 =
         owner: 'WN'
     }, {
         date: '2025-11-29',
+        place: 'Антифитнес на Газовой',
+        name: 'Старт для новичков от Длительных и Across the Runiverse',
+        type: 'ORIENT',
+        link: 'https://t.me/across_the_runiverse/14550',
+        reg: 'https://docs.google.com/forms/d/e/1FAIpQLSfJRIIAhNHVXd5FY8_2vWY7YdIOFpEgb4gMa5wGmQHf7bJ3Wg/viewform',
+        owner: 'DLT'
+    }, {
+        date: '2025-11-29',
         place: 'Кривко, Тенистое оз',
         name: 'Ночное ориентирование от а/к Горняк',
         type: 'ORIENT',
