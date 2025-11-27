@@ -2723,6 +2723,17 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Валуево',
+        date: '2025-11-23',
+        start: 'AERO',
+        info: '<a href="https://t.me/rogainomania/336">Аэророгейн 4.0</a>.',
+        url: './maps/moscow/lr/mariino_aerorogaine_2025.webp',
+        link: './original_maps/moscow/lr/mariino_aerorogaine_2025_omaps.gif',
+        bounds: [[55.57101772982136, 37.294378280639656], [55.57402630866593, 37.424755096435554], [55.50598587453494, 37.29746818542481]],
+        owner: 'OPNBND',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Подосинки, им Цурюпы',
         year: 2012,
         url: './maps/moscow/podosinki_2012.webp',
