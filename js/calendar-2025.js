@@ -2090,7 +2090,8 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://t.me/across_the_runiverse/14550',
         reg: 'https://docs.google.com/forms/d/e/1FAIpQLSfJRIIAhNHVXd5FY8_2vWY7YdIOFpEgb4gMa5wGmQHf7bJ3Wg/viewform',
-        owner: 'DLT'
+        owner: 'DLT',
+        logo: 'across.gif'
     }, {
         date: '2025-11-29',
         place: 'Кривко, Тенистое оз',

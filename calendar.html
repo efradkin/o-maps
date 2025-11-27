@@ -326,7 +326,9 @@
             let result = '';
 
             let logo;
-            if (event.start && starts[event.start].logo) {
+            if (event.logo) {
+                logo = event.logo;
+            } else if (event.start && starts[event.start].logo) {
                 logo = starts[event.start].logo;
             } else if (event.owner && owners[event.owner].logo) {
                 logo = owners[event.owner].logo;
