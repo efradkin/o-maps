@@ -1265,4 +1265,10 @@ let historyDocs = [
         link: './docs/2x2/2010_2x2_results_omaps.pdf',
         planner: 'SHRNN'
     },
+    {
+        name: 'Буклет-календарь от клуба KUZMOLOVO. Посвящается 45-летию КШСО и 80-летию Ленинградского тренера Сергея Николаевича Крылова.',
+        owner: 'KUZM',
+        year: 2020,
+        link: './docs/2020_kuzmolovo_kalendar_omaps.pdf'
+    },
 ];
