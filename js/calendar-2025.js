@@ -2054,6 +2054,7 @@ let events_2025 =
             'М45':'https://viewer.o-gps-center.ru/viewer/event/23885/',
             'Все КП':'https://viewer.o-gps-center.ru/viewer/event/23883/'
         },
+        photo: 'https://vk.com/album-230167293_311811604',
         reskeep: 822,
         owner: 'SFSO_SPB',
         map: 'sosnovka_2024',

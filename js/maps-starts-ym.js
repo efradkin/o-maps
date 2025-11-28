@@ -31,6 +31,16 @@ let ymStartsMaps = [
         author: ['LVCHV','SVTKN','ILVS','BNDRNK']
     },
     {
+        name: 'Ягодное',
+        region: 'starts',
+        date: '2001-06-19',
+        start: 'YM',
+        url: './maps/starts/ym/ym_2001_06_19.webp',
+        link: './original_maps/starts/ym/ym_2001_06_19_omaps.jpg',
+        bounds: [[60.63241692549768, 30.017566680908207], [60.6297018582902, 30.073056221008304], [60.6157230112337, 30.012631416320804]],
+        author: ['LVCHV','SVTKN','ILVS','BNDRNK']
+    },
+    {
         name: 'пл 67км, оз Ветреное',
         region: 'starts',
         date: '2002-06-18',
