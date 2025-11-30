@@ -3216,12 +3216,12 @@ let moscowMaps = [
     },
     {
         name: 'Черкизовский парк',
-        year: 2024,
-        url: './maps/moscow/ak/detsky_cherkizovsky_park_2024.webp',
-        link: 'http://o-mephi.net/cup/maps/20240826_107.jpg',
+        year: 2025,
+        url: './maps/moscow/ak/detsky_cherkizovsky_park_2025.webp',
+        link: './original_maps/moscow/ak/detsky_cherkizovsky_park_2025_omaps.gif',
         author: 'ALNKV_A',
         owner: 'ALNKV_A',
-        bounds: [[55.81022891102612, 37.72597789764405], [55.808287551620985, 37.74322986602784], [55.79930298187762, 37.72194385528565]],
+        bounds: [[55.81113323793958, 37.711708545684814], [55.80753992155508, 37.743079662323005], [55.79989397701215, 37.707374095916755]],
         type: ['PARK']
     },
     {
