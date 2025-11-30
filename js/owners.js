@@ -29,7 +29,7 @@ let owners = {
         name: 'По вопросам использования карты обращаться к Юрию Чегаровскому (+79219348300).'
     },
     DLT: {
-        name: 'Длительный',
+        name: '@ Клуб <a href="https://t.me/dlitelnyy">Длительный</a>',
         logo: 'dlitelny.gif'
     },
     EFRMV: {

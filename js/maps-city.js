@@ -2070,4 +2070,16 @@ let cityMaps = [
         author: 'MSPN',
         type: ['CITY']
     },
+    {
+        name: 'Газовая ул, АнтиФитнес',
+        date: '2025-11-29',
+        url: './maps/city/gazovaya_2025.webp',
+        link: './original_maps/city/gazovaya_2025_omaps.jpg',
+        info: '<a href="https://t.me/dlitelnyy/383">Совместная тренировка Длительного и Экросса</a>.',
+        bounds: [[59.96867308053542, 30.29093742370606], [59.968619385517876, 30.29441356658936], [59.96634800655828, 30.29090523719788]],
+        author: ['KZHN_L','KSHN_D'],
+        owner: 'DLT',
+        type: ['CITY'],
+        zindex: 2
+    },
 ];

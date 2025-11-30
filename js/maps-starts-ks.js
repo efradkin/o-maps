@@ -29,7 +29,7 @@ let ksStartsMaps = [
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
-        name: 'Кузнечное, оз Травкино',
+        name: 'Кузнечное, оз Берёзовское',
         start: 'KS',
         date: '2000-06-25',
         url: './maps/starts/ks/ks_2000_06_25.webp',

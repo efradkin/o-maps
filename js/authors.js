@@ -204,6 +204,7 @@ let authors = {
     KRNLJV: { name: 'Корнильев П.' },
     KRPLSN: { name: 'Карпельсон Александр' },
     KRTSHV: { name: 'Крутышев Валерий' },
+    KSHN_D: { name: 'Кашин Даниил' },
     KSNFNTVA: { name: 'Ксенофонтова А.' },
     KTS_JU: { name: 'Кац Юлия' },
     KVZN: {
@@ -222,6 +223,7 @@ let authors = {
     },
     KUZNTSVA_Z: { name: 'Кузнецова З.' },
     KVLVA_O: { name: 'Ковалёва Ольга' },
+    KZHN_L: { name: 'Кожин Леонид' },
     KZKV: { name: 'Казаков' },
     KZMV: { name: 'Козьмов Александр' }, // Николаевич
     LBDKN: { name: 'Лебёдкин Лев' },

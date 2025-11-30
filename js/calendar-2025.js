@@ -2066,6 +2066,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251126_Dlit_10',
         reg: 'https://orgeo.ru/event/dlitelnyy26112025',
+        reskeep: 823,
         owner: 'DLT',
     }, {
         date: '2025-11-29',
@@ -2074,6 +2075,11 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251129',
         reg: 'http://orgeo.ru/event/dm25',
+        gps: {
+            'Все КП':'https://viewer.o-gps-center.ru/viewer/event/23921/',
+            'МЭ,18,20':'https://viewer.o-gps-center.ru/viewer/event/23920/',
+            'ЖЭ,20':'https://viewer.o-gps-center.ru/viewer/event/23919/'
+        },
         map: 'poljustrovo_2023'
     }, {
         date: '2025-11-29',
@@ -2082,6 +2088,8 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251129_bn',
         reg: 'http://orgeo.ru/event/info/malina',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23918/',
+        reskeep: 824,
         map: 'toksovo_malinovaya_gora_2018',
         owner: 'WN'
     }, {
@@ -2091,6 +2099,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://t.me/across_the_runiverse/14550',
         reg: 'https://docs.google.com/forms/d/e/1FAIpQLSfJRIIAhNHVXd5FY8_2vWY7YdIOFpEgb4gMa5wGmQHf7bJ3Wg/viewform',
+        photo: 'https://blinova-photo.ru/disk/29-11-2025-orient',
         owner: 'DLT',
         logo: 'across.gif'
     }, {
@@ -2125,6 +2134,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=2025_Orientir',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1708',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23924/',
         map: 'udelny_2021'
     }, {
         date: '2025-12-07',
