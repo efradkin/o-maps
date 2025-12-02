@@ -871,6 +871,11 @@ function buildMap(m) {
     }
 
     let bounds = m.bounds;
+    if (bounds.length === 1) {
+        bounds.push([bounds[0][0],[bounds[0][1] + 0.1]]);
+        bounds.push([bounds[0][0] - 0.1,bounds[0][1]]);
+        m.bounds = bounds;
+    }
     let latLngs = [
         L.latLng(bounds[0]),
         L.latLng(bounds[1]),
@@ -1128,7 +1133,7 @@ function buildPopup(m, latLngs) {
     let d = formatDate(m);
     let sy = startYear(m);
     if (d) {
-        info += `<b>${d}</b>`;
+        info += `<b>${d} ${sy ?? ''}</b>`;
     } else {
         if (sy) {
             info += `<b> ${sy}</b>`;

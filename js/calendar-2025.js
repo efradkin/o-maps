@@ -2100,6 +2100,7 @@ let events_2025 =
         link: 'https://t.me/across_the_runiverse/14550',
         reg: 'https://docs.google.com/forms/d/e/1FAIpQLSfJRIIAhNHVXd5FY8_2vWY7YdIOFpEgb4gMa5wGmQHf7bJ3Wg/viewform',
         photo: 'https://blinova-photo.ru/disk/29-11-2025-orient',
+        map: 'gazovaya_2025',
         owner: 'DLT',
         logo: 'across.gif'
     }, {
@@ -2118,6 +2119,7 @@ let events_2025 =
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/44912',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23931/',
         owner: 'LM'
     }, {
         date: '2025-11-30',
@@ -2125,6 +2127,8 @@ let events_2025 =
         name: 'Кубок Белых Ночей №4',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/47732',
+        res: 'https://t.me/whitenightesspb/759',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23927/',
         owner: 'WN',
         map: 'orovo_2019'
     }, {
@@ -2137,12 +2141,28 @@ let events_2025 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23924/',
         map: 'udelny_2021'
     }, {
+        date: '2025-12-06',
+        place: 'Зеленогорск',
+        name: 'Кубок Белых Ночей №5',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/48172',
+        owner: 'WN'
+    }, {
+        date: '2025-12-07',
+        place: 'Приозерск, старый аэродром',
+        name: 'XII Кубок Весты, этап 4',
+        type: 'ORIENT',
+        link: 'https://vk.com/wall-30365190_8828',
+        map: 'priozersk_aerodrom_2020',
+        owner: 'VST_PRZRSK'
+    }, {
         date: '2025-12-07',
         place: 'Кавголово',
         name: 'Кавголовская классика',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251207_bn',
         reg: 'http://orgeo.ru/event/info/kavgolovo_middle_2025',
+        map: 'kavgolovo_old_ski_track_2023',
         owner: 'WN'
     }, {
         date: '2025-12-13',

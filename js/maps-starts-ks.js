@@ -250,6 +250,16 @@ let ksStartsMaps = [
     {
         name: 'Кузнечное',
         start: 'KS',
+        date: '2008-06-26',
+        info: 'Средняя дистанция. <a href="https://o-site.spb.ru/race.php?id=080624_KS">Инфо и результаты.</a>',
+        url: './maps/starts/ks/ks_2008_06_26.webp',
+        link: './original_maps/starts/ks/ks_2008_06_26_omaps.jpg',
+        bounds: [[60.97614717835907, 29.14878845214844], [60.973252872574626, 29.188356399536136], [60.96277703152636, 29.144196510314945]],
+        author: ['VRBY','KVZN','KUZNTSV_S','KUZNTSV_R','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Кузнечное',
+        start: 'KS',
         date: '2009-06-23',
         info: 'Короткая дистанция. <a href="https://o-site.spb.ru/race.php?id=09062325">Инфо и результаты.</a>',
         url: './maps/starts/ks/ks_2009_06_23.webp',

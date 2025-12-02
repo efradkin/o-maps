@@ -1139,11 +1139,23 @@ let historyDocs = [
         major: true
     },
     {
+        name: 'Плакат с чемпионами России',
+        year: 1996,
+        info: 'Взято с <a href="https://rufso.ru/1997-чемпионы-россии-1996/">сайта ФСОР</a>.',
+        link: './docs/1996/1996_russia_champions_omaps.jpg',
+    },
+    {
         name: 'Календарь "Субботнего марафона" клуба "Карта"',
         year: 2003,
         info: '2003-2004гг',
         link: './docs/2003_karta_saturday_marathon_omaps.jpg',
         owner: 'KARTA'
+    },
+    {
+        name: 'Победители',
+        year: 2006,
+        link: './docs/2006_gs_winners.jpg',
+        start: 'GS'
     },
     {
         name: 'Сводная карта всех дней (Лемболово)',

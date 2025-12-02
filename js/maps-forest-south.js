@@ -475,6 +475,14 @@ let southMaps = [
         author: 'BYMKV'
     },
     {
+        name: 'Луга, оз Омчино',
+        year: 1994,
+        url: './maps/forest/south/luga_omchino_1994.webp',
+        link: './original_maps/forest/south/luga_omchino_1994_omaps.jpg',
+        bounds: [[58.725539779482865, 29.7535514831543], [58.72095000412907, 29.827022552490238], [58.69611907999549, 29.74535465240479]],
+        author: ['BYMKV','DRBSHV','FDRV_L','KBTSVA','FLCHKN','KRNLV_A']
+    },
+    {
         name: 'Луга, Шалово',
         year: 2006,
         url: './maps/forest/south/luga_shalovo_2006.webp',

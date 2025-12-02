@@ -79,6 +79,14 @@ let specialMaps = [
         type: ['WINTER']
     },
     {
+        name: 'Всеволожск, Колтуши',
+        year: 1,
+        url: './maps/winter/vsevolozhsk_old_winter.webp',
+        link: './original_maps/winter/vsevolozhsk_old_winter_omaps.jpg',
+        bounds: [[60.003706616324685, 30.613918304443363], [60.001646846489315, 30.717515945434574], [59.944566008164585, 30.60945510864258]],
+        type: ['WINTER']
+    },
+    {
         name: 'Зеленогорск - Чёрные озёра',
         url: './maps/winter/zelenogorsk_chernye_winter.webp',
         link: './original_maps/winter/zelenogorsk_chernye_winter_omaps.jpg',

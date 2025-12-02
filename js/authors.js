@@ -94,6 +94,7 @@ let authors = {
     EGRV_A: { name: 'Егоров Андрей' },
     EGRV_E: { name: 'Егоров Е.' },
     EGRV_EGR: { name: 'Егоров Егор' },
+    EGRV_P: { name: 'Егоров Пётр' },
     EFRMV: { name: 'Ефремов Михаил' },
     ELTSV: {
         name: 'Ельцов Денис',
@@ -120,6 +121,7 @@ let authors = {
     GBNV_A: { name: 'Губанов А.' },
     GLBK: { name: 'Голубок Сергей' },
     GLK: { name: 'Голик Елена' },
+    GLSCHNKO_N: { name: 'Глущенко Н.' },
     GLV_N: { name: 'Гуляев Н.' },
     GLVNV_V: { name: 'Голованов В.' },
     GLTV_D: { name: 'Глотов Дмитрий' },
@@ -158,6 +160,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     IVNV_A: { name: 'Иванов А.' },
+    IVNV_N: { name: 'Иванов Николай' },
     IVNV_P: { name: 'Иванов Павел' },
     IVNV_V: {
         name: 'Иванов Владимир',
@@ -176,6 +179,7 @@ let authors = {
         name: 'Казанцева (Малова) Ольга', //Михайловна
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
+    KBTSVA: { name: 'Кобцева Е.' },
     KBZRV: { name: 'Кобзарёв Александр' },
     KCHTV: { name: 'Кочетов А.' },
     KHFZVA: { name: 'Хафизова Инга.' },
@@ -199,6 +203,7 @@ let authors = {
         name: 'Кириченко Сергей',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    KRNLV_A: { name: 'Корнилов А.' },
     KRVCHNKO_V: { name: 'Кравченко В.' },
     KRYLS: { name: 'Саулюс Кирейлис' },
     KRNLJV: { name: 'Корнильев П.' },
@@ -275,6 +280,7 @@ let authors = {
         foto: 'mospan/mospan.jpg'
     },
     MTRNCHV: { name: 'Матреничев Вячеслав' },
+    MTVV_A: { name: 'Матвеев Алексей' },
     NGN: { name: 'Негин С.' },
     NKFRV_A: { name: 'Никифоров Андрей' },
     NKSHN: { name: 'Никишин О.' },
@@ -750,6 +756,11 @@ let authors = {
 
     /* --- ПРОЧЕЕ --- */
 
+    AFNSV_L: { name: 'Афанасьев Л.' },
+    GLTSKY_V: { name: 'Гелецкий В.' },
+    KLM_K: { name: 'Калм К.' },
+    KVLVSKY_G: { name: 'Ковалевский Г.' },
     LSHV_A: { name: 'Лайшев Алексей' },
+    TRFNV_A: { name: 'Труфанов Александр' }, // Федорович
 };
 

@@ -3225,6 +3225,14 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
+        name: 'Яуза',
+        year: 1,
+        url: './maps/moscow/sz/yauza_old.webp',
+        link: './original_maps/moscow/sz/yauza_old_omaps.jpg',
+        author: 'IGNTNKO',
+        bounds: [[55.83614461810842, 37.67108917236329], [55.83322845650942, 37.70233154296876], [55.81881314082519, 37.66581058502198]],
+    },
+    {
         name: 'Яузский лесопарк',
         year: 2006,
         url: './maps/moscow/losiny_ostrov_2006.webp',

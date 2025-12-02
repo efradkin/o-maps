@@ -42,6 +42,16 @@ let otherMaps = [
         owner: 'PSKOV_RUS',
         type: ['ROGAINE']
     },
+    {
+        name: 'Аболенье',
+        date: '1996-09-05',
+        major: true,
+        url: './maps/other/abolenie_1996_09_05.webp',
+        link: './original_maps/other/abolenie_1996_09_05_omaps.jpg',
+        info: 'XVI-й Чемпионат России. Финал. <a href="./docs/1996/1996_russia_champions_omaps.jpg">Чемпионы</a>.',
+        bounds: [[56.54893338086099, 29.009914398193363], [56.545999923985995, 29.068536758422855], [56.50296555743434, 28.999614715576175]],
+        owner: 'PSKOV_RUS',
+    },
     // --- Владимирская обл ---
     {
         name: 'Радужный',
@@ -72,5 +82,26 @@ let otherMaps = [
         author: 'STPNV_P',
         logo: 'orenburg.webp',
         type: ['PARK']
+    },
+    // --- Дальний Восток ---
+    {
+        name: 'Амурск, о Сахалин',
+        year: 1990,
+        url: './maps/other/amursk_sakhalin_1990.webp',
+        link: './original_maps/other/amursk_sakhalin_1990_omaps.jpg',
+        bounds: [[50.20706582639933, 136.88261032104495], [50.2099497177539, 136.90685749053958], [50.18890704171708, 136.88651561737063]],
+        logo: 'amursk_snake.jpg',
+        author: 'TRFNV_A'
+    },
+    // --- Не Россия ---
+    {
+        name: 'Казахстан, Каркаралинск',
+        year: 1986,
+        major: true,
+        url: './maps/other/karkaralinsk_1986.webp',
+        link: './original_maps/other/karkaralinsk_1986_omaps.jpg',
+        info: '6-11 октября. Чемпионат СССР.',
+        bounds: [[49.38385349051448, 75.43367385864259], [49.381674326472776, 75.4750442504883], [49.35151930828741, 75.43144226074219]],
+        author: ['AFNSV_L','GLTSKY_V','KLM_K','KVLVSKY_G']
     },
 ];

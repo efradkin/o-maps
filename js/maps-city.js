@@ -171,10 +171,13 @@ let cityMaps = [
     {
         name: 'Школа №332',
         year: 2013,
+        date: '2016-06-08',
         url: './maps/city/school_332_2013.webp',
+        link: './original_maps/city/okkervil_2016_omaps.jpg',
         bounds: [[59.92493652455641, 30.480773448944095], [59.92362461159104, 30.49736022949219], [59.915504652103806, 30.477318763732914]],
         author: 'MNKV',
         owner: 'SHEIN',
+        start: 'ST',
         type: ['CITY']
     },
     {
@@ -1775,6 +1778,16 @@ let cityMaps = [
         link: './original_maps/city/sosnovy_bor_9_2002_omaps.jpg',
         bounds: [[59.908662985480994, 29.084522724151615], [59.911642941279375, 29.094693660736088], [59.90395045173501, 29.090037345886234]],
         author: 'PRKH_E',
+        owner: 'YUVNT',
+        type: ['CITY']
+    },
+    {
+        name: 'Сосновый Бор, 8-й мкрр-он',
+        year: 2002,
+        url: './maps/city/sosnovy_bor_8_2002.webp',
+        link: './original_maps/city/sosnovy_bor_8_2002_omaps.jpg',
+        bounds: [[59.909222419959086, 29.08643245697022], [59.90175534470259, 29.093996286392215], [59.90696310750121, 29.07817125320435]],
+        author: ['GLSCHNKO_N','TKHNVA'],
         owner: 'YUVNT',
         type: ['CITY']
     },

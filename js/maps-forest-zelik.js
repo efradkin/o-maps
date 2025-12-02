@@ -219,7 +219,7 @@ let zelikMaps = [
         year: 1995,
         area: 11,
         url: './maps/forest/zelik/ilychevo_dolgoe_1995.webp',
-        link: './original_maps/forest/zelik/ilychevo_dolgoe_1995_omaps.jpg',
+        link: ['./original_maps/forest/zelik/ilychevo_dolgoe_1995_omaps.jpg','./original_maps/forest/zelik/ilychevo_dolgoe_1995_h21e_omaps.jpg'],
         bounds: [[60.310244709596496, 29.704971313476566], [60.30331448158006, 29.81174468994141], [60.272259225923726, 29.692783355712894]],
         author: ['KUZNTSV_S','KVZN']
     },

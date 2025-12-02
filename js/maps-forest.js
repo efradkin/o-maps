@@ -18,6 +18,14 @@ let forestMaps = [
         bounds: [[60.261212613150235, 29.110679626464847], [60.2684284531, 29.170889854431156], [60.24266550392609, 29.118533134460453]],
     },
     {
+        name: 'Зеркальный',
+        year: 1989,
+        url: './maps/forest/zerkalny_1989.webp',
+        link: './original_maps/forest/zerkalny_1989_omaps.jpg',
+        bounds: [[60.271237730356496, 29.104027748107914], [60.269535166872394, 29.14805889129639], [60.24272940407817, 29.095788002014164]],
+        author: ['ARTMV','EGRV_A','EGRV_P','IVNV_N','MTVV_A']
+    },
+    {
         name: 'Цвелодубово',
         year: 2020,
         url: './maps/forest/tsvelodubovo_2020.webp',
@@ -412,7 +420,7 @@ let forestMaps = [
         year: 1999,
         start: 'MMS',
         url: './maps/forest/yappilya_1999.webp',
-        link: './original_maps/forest/yappilya_1999_omaps.jpg',
+        link: ['./original_maps/forest/yappilya_1999_omaps.jpg','./original_maps/forest/yappilya_mms_1999_omaps.jpg'],
         bounds: [[60.20214903505169, 29.16428089141846], [60.19801145030488, 29.23848152160645], [60.176163181510255, 29.15754318237305]],
         author: ['VLKV_K','URVNTSV','KRCHKN_V','FDRV_L'],
         areas: [35,35,20,10]
@@ -431,7 +439,7 @@ let forestMaps = [
         major: true,
         logo: 'owc_1992.jpg',
         url: './maps/forest/yappilya_pistolet_1992.webp',
-        link: './original_maps/forest/yappilya_pistolet_1992_omaps.jpg',
+        link: ['./original_maps/forest/yappilya_pistolet_1992_omaps.jpg','./original_maps/forest/yappilya_pistolet_1992_h21_omaps.jpg','./original_maps/forest/yappilya_pistolet_1992_h21_back_omaps.jpg'],
         bounds: [[60.24713821354549, 29.126043319702152], [60.243219301102904, 29.18552398681641], [60.18433664822085, 29.11188125610352]],
         info: '<a href="https://o-site.spb.ru/history/Knots/wc-92.html">Кубок Мира</a>.',
         author: ['CHGRVSKY_V','CHGRVSKY_Y'],

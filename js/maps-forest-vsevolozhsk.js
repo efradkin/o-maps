@@ -30,6 +30,7 @@ let vsevolozhskMaps = [
     },
     {
         name: 'Невская Дубровка',
+        year: 2003,
         url: './maps/forest/vsevolozhsk/nevskaya_dubrovka.webp',
         link: './original_maps/forest/vsevolozhsk/nevskaya_dubrovka_omaps.jpg',
         bounds: [[59.862466389665045, 30.91333866119385], [59.86143212605905, 30.930547714233402], [59.84972977927792, 30.909948348999027]],

@@ -327,6 +327,16 @@ let sosnovoMaps = [
         author: 'SHRNN'
     },
     {
+        name: 'Замостье',
+        year: 1999,
+        date: '2000-06-19',
+        start: 'YM',
+        url: './maps/forest/sosnovo/zamostie_ym_1999.webp',
+        link: './original_maps/forest/sosnovo/zamostie_ym_1999_omaps.jpg',
+        bounds: [[60.52635977066932, 30.33810138702393], [60.52336125354118, 30.372433662414554], [60.51465975908754, 30.335912704467777]],
+        author: 'SHRNN'
+    },
+    {
         name: 'Снегирёвка',
         year: 2021,
         url: './maps/forest/sosnovo/snegirevka_2021.webp',
@@ -523,7 +533,7 @@ let sosnovoMaps = [
         name: 'Лосево',
         year: 1990,
         url: './maps/forest/sosnovo/losevo_1990.webp',
-        link: './original_maps/forest/sosnovo/losevo_1990_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/losevo_1990_omaps.jpg','./original_maps/forest/sosnovo/losevo_1990_10000_omaps.jpg'],
         bounds: [[60.69452732858858, 29.919462203979496], [60.69036795262589, 29.994564056396488], [60.67044591045741, 29.912509918212894]],
         author: ['RYLOV_V','VSLVSKY']
     },
