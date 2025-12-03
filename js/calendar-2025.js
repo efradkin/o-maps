@@ -2142,6 +2142,13 @@ let events_2025 =
         map: 'udelny_2021'
     }, {
         date: '2025-12-06',
+        place: 'Шуваловский парк',
+        name: 'Длительная серия №11',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/info/48224',
+        owner: 'DLT',
+    }, {
+        date: '2025-12-06',
         place: 'Зеленогорск',
         name: 'Кубок Белых Ночей №5',
         type: 'ORIENT',
@@ -2155,6 +2162,12 @@ let events_2025 =
         link: 'https://vk.com/wall-30365190_8828',
         map: 'priozersk_aerodrom_2020',
         owner: 'VST_PRZRSK'
+    }, {
+        date: '2025-12-07',
+        place: 'Кудрово',
+        name: 'Кубок Кудрово №2',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/47288',
     }, {
         date: '2025-12-07',
         place: 'Кавголово',
