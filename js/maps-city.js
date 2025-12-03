@@ -1726,6 +1726,16 @@ let cityMaps = [
         type: ['CITY']
     },
     {
+        name: 'Центр адаптивного спорта, Яхтенная ул',
+        year: 2025,
+        url: './maps/city/yahtenaya_2025.webp',
+        link: './original_maps/city/yahtenaya_2025_omaps.gif',
+        bounds: [[60.01154758708426, 30.227851867675785], [60.01094161391353, 30.23244380950928], [60.00898955403469, 30.22695064544678]],
+        author: 'ZCHNV',
+        owner: 'VOLKOV_AM',
+        type: ['CITY']
+    },
+    {
         name: 'Волосово',
         year: 2021,
         url: './maps/city/volosovo_2021.webp',

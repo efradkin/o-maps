@@ -872,8 +872,8 @@ function buildMap(m) {
 
     let bounds = m.bounds;
     if (bounds.length === 1) {
-        bounds.push([bounds[0][0],[bounds[0][1] + 0.1]]);
-        bounds.push([bounds[0][0] - 0.1,bounds[0][1]]);
+        bounds.push([bounds[0][0],[bounds[0][1] + 0.01]]);
+        bounds.push([bounds[0][0] - 0.01,bounds[0][1]]);
         m.bounds = bounds;
     }
     let latLngs = [
