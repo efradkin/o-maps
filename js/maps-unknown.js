@@ -251,20 +251,7 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_55_omaps.jpg',
     },
     {
-        year: 1973,
-        name: 'МО, Чёрная Грязь',
-        info: 'IV Первенство МИИГАиК',
-        link: './original_maps/unknown/unknown_56_omaps.jpg',
-    },
-    {
         year: 1977,
         link: './original_maps/unknown/unknown_57_omaps.jpg',
-    },
-    {
-        year: 2006,
-        date: '2007-05-01',
-        name: 'Луга, Шалово',
-        info: '<a href="https://o-site.spb.ru/race.php?id=070429_lo">ЧиП ЛО</a>',
-        link: './original_maps/unknown/unknown_58_omaps.jpg',
     },
  ];
