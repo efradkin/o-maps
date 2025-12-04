@@ -526,7 +526,10 @@ let authors = {
     IVNLV: { name: 'Иванилов Н.' },
     IVNV_ALXDR: { name: 'Иванов Александр' },
     JAKMV_A: { name: 'Якимов Александр' },
-    JAKMV_S: { name: 'Якимов Семён' },
+    JAKMV_S: {
+        name: 'Якимов Семён',
+        logo: 'fa.png'
+    },
     JANN_Y: {
         name: 'Янин Юрий',
         about: 'https://o-moscow.ru/people/YaninUB.html'

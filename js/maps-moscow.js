@@ -3627,7 +3627,6 @@ let moscowMaps = [
     {
         name: 'Ильясово',
         year: 2024,
-        logo: 'fa.png',
         url: './maps/moscow/ak/iliasovo_rogaine_2024.webp',
         link: './original_maps/moscow/ak/iliasovo_rogaine_2024_omaps.png',
         info: '<a href="https://forestadventure.ru/2024/fa/">Рогейн Forest Adventure Осётр</a>',
@@ -5920,5 +5919,17 @@ let moscowMaps = [
         author: ['DBRTSV_V','SKLV_V'],
         owner: 'MLKHT',
         type: ['PARK']
+    },
+    {
+        name: 'Тушино',
+        date: '2025-11-29',
+        url: './maps/moscow/sz/tushino_rogaine_2025.webp',
+        link: './original_maps/moscow/sz/tushino_rogaine_2025_omaps.gif',
+        info: '<a href="https://forestadventure.ru/tu-info/">Рогейн ТУГЕЙН</a>',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23916/',
+        bounds: [[55.881618058807305, 37.404499053955085], [55.87478117490912, 37.46003150939942], [55.840771467059426, 37.38887786865235]],
+        author: ['JAKMV_S','TTYNN_V','MNKV','MTN_Y'],
+        owner: ['JAKMV_S','ERMCHNKV_A','MLKHT'],
+        type: ['ROGAINE']
     },
 ];
