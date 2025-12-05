@@ -229,10 +229,13 @@ let sosnovoMaps = [
     {
         name: 'Сосново, Чёрный лес',
         year: 1974,
+        date: '1973-02-18',
         url: './maps/forest/sosnovo/sosnovo_black_forest_1974.webp',
-        link: './original_maps/forest/sosnovo/sosnovo_black_forest_1974_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/sosnovo_black_forest_1974_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_black_forest_1973_02_18_H_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_black_forest_1973_02_18_W_omaps.jpg'],
+        info: 'П-во г.Ленинграда на маркированной трассе (<a href="./docs/1974_leningrad_omaps.pdf">отчёт</a>)',
         bounds: [[60.54495704265323, 30.218925476074222], [60.55179376102548, 30.26218414306641], [60.51341347994116, 30.23600578308106]],
-        author: ['SHRNN','GRZNVCH']
+        author: ['SHRNN','GRZNVCH'],
+        start: 'REPORT'
     },
     {
         name: 'Сосново, Чёрный лес',

@@ -36,6 +36,13 @@ let historyDocs = [
         planner: 'KRCHNKO_S'
     },
     {
+        name: 'П-во г.Ленинграда на маркированной трассе (Сосново)',
+        date: '1973-02-18',
+        info: 'Отчёт. Карты отдельно можно найти <a href="map-info.html?map=sosnovo_black_forest_1974">тут</a>.',
+        link: './docs/1974_leningrad_omaps.pdf',
+        planner: ['FDRV_A','SHRNN','GRZNVCH','SHRPV_V']
+    },
+    {
         name: 'Программа',
         start: 'USSR_1981',
         year: 1981,

@@ -2091,7 +2091,8 @@ let events_2025 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23918/',
         reskeep: 824,
         map: 'toksovo_malinovaya_gora_2018',
-        owner: 'WN'
+        owner: 'WN',
+        me: 'МА'
     }, {
         date: '2025-11-29',
         place: 'Антифитнес на Газовой',
@@ -2130,7 +2131,8 @@ let events_2025 =
         res: 'https://t.me/whitenightesspb/759',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23927/',
         owner: 'WN',
-        map: 'orovo_2019'
+        map: 'orovo_2019',
+        me: 'МА'
     }, {
         date: '2025-11-30',
         place: 'Удельный парк',
