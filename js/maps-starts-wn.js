@@ -2,7 +2,6 @@ let wnStartsMaps = [
     /* --- Белые Ночи --- */
     {
         name: 'Петяярви',
-        region: 'starts',
         year: 1996,
         start: 'WN',
         url: './maps/forest/sosnovo/petjajarvy_1996.webp',
@@ -12,7 +11,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Сосново, Снегирёвка',
-        region: 'starts',
         date: '1989-06-23',
         start: 'WN',
         url: './maps/starts/wn/wn_1989_06_23.webp',
@@ -23,7 +21,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Колосково',
-        region: 'starts',
         date: '2002-06-20',
         start: 'WN',
         url: './maps/starts/wn/wn_2002_06.webp',
@@ -33,7 +30,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Колосково',
-        region: 'starts',
         date: '2002-06-21',
         start: 'WN',
         url: './maps/starts/wn/wn_2002_06_2.webp',
@@ -43,7 +39,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Первомайское, оз Монетка',
-        region: 'starts',
         date: '2003-06-20',
         start: 'WN',
         url: './maps/starts/wn/wn_2003_06_20.webp',
@@ -53,7 +48,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Первомайское, оз Монетка',
-        region: 'starts',
         date: '2003-06-21',
         start: 'WN',
         url: './maps/starts/wn/wn_2003_06_21.webp',
@@ -63,7 +57,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Первомайское, оз Монетка',
-        region: 'starts',
         date: '2003-06-22',
         start: 'WN',
         url: './maps/starts/wn/wn_2003_06_22.webp',
@@ -73,7 +66,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Первомайское, оз Дедово',
-        region: 'starts',
         date: '2004-06-19',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=040618_WN">Инфо и результаты</a>',
@@ -83,7 +75,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Первомайское, оз Дедово',
-        region: 'starts',
         date: '2004-06-20',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=040618_WN">Инфо и результаты</a>',
@@ -93,7 +84,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Кузнечное, оз Верх Подосиновское',
-        region: 'starts',
         date: '2005-06-18',
         start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=050517">Инфо и результаты</a>',
@@ -103,7 +93,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Кузнечное, оз Верх Подосиновское',
-        region: 'starts',
         date: '2005-06-19',
         start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=050517">Инфо и результаты</a>',
@@ -113,7 +102,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         year: 2006,
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=06061618_WN">Инфо и результаты</a>',
@@ -123,7 +111,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Журавлёвское оз',
-        region: 'starts',
         date: '2007-06-19',
         start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=070629_WN">Инфо и результаты</a>',
@@ -134,7 +121,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Ягодное, Заросшее оз',
-        region: 'starts',
         date: '2008-06-18',
         start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=08061722">Инфо и результаты</a>',
@@ -145,7 +131,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Ягодное, Заросшее оз',
-        region: 'starts',
         date: '2008-06-19',
         start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=08061722">Инфо и результаты</a>',
@@ -156,7 +141,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Ягодное, Заросшее оз',
-        region: 'starts',
         date: '2008-06-21',
         start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=08061722">Инфо и результаты</a>',
@@ -167,7 +151,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Ягодное, Заросшее оз',
-        region: 'starts',
         date: '2008-06-22',
         start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=08061722">Инфо и результаты</a>',
@@ -178,7 +161,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Мичуринское, Окунёвое оз',
-        region: 'starts',
         date: '2009-06-19',
         start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=09061621">Инфо и результаты</a>',
@@ -188,7 +170,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Мичуринское, Петриченко',
-        region: 'starts',
         date: '2009-06-20',
         start: ['WN','YM'],
         info: '<a href="https://o-site.spb.ru/race.php?id=09061621">Инфо и результаты</a>',
@@ -198,7 +179,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Мичуринское, Раздельные оз',
-        region: 'starts',
         start: 'WN',
         date: '2015-06-20',
         info: '<a href="https://o-site.spb.ru/race.php?id=15061621">Инфо и результаты.</a>',
@@ -209,7 +189,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Мичуринское, Раздельные оз',
-        region: 'starts',
         start: 'WN',
         date: '2015-06-21',
         info: '<a href="https://o-site.spb.ru/race.php?id=15061621">Инфо и результаты.</a>',
@@ -220,7 +199,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Воробьёво оз',
-        region: 'starts',
         date: '2017-06-03',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=17060204">Классическая дистанция</a>',
@@ -231,7 +209,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Воробьёво оз',
-        region: 'starts',
         date: '2017-06-04',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=17060204">Удлинённая дистанция</a>',
@@ -242,7 +219,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Петяярви',
-        region: 'starts',
         date: '2018-06-30',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=180701">Кросс-лонг</a>',
@@ -254,7 +230,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Петяярви',
-        region: 'starts',
         date: '2018-07-01',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=180701">Кросс-классика</a>',
@@ -266,7 +241,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Сосново (Уловное оз)',
-        region: 'starts',
         date: '2019-06-28',
         start: 'WN',
         info: '<a href="https://www.o-site.spb.ru/race.php?id=190628">Кросс-спринт</a>',
@@ -278,7 +252,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Воробьёво оз',
-        region: 'starts',
         date: '2021-06-25',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=210627">Укороченная дистанция </a>',
@@ -289,7 +262,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Петяярви',
-        region: 'starts',
         date: '2022-06-24',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=220624">Кросс-спринт</a>',
@@ -301,7 +273,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Петяярви',
-        region: 'starts',
         date: '2022-06-25',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=220624">Кросс-лонг</a>',
@@ -314,7 +285,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Петяярви',
-        region: 'starts',
         date: '2022-06-26',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=220624">Кросс-классика</a>',
@@ -326,7 +296,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Сосново (Уловное оз)',
-        region: 'starts',
         date: '2023-06-30',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=bn_2023">Кросс-классика</a>',
@@ -339,7 +308,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Сосново (Уловное оз)',
-        region: 'starts',
         date: '2023-07-01',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=bn_2023">Кросс-лонг</a>',
@@ -352,7 +320,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Сосново (Уловное оз)',
-        region: 'starts',
         date: '2023-07-02',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=bn_2023">Кросс-классика</a>',
@@ -365,7 +332,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Воробьёво оз',
-        region: 'starts',
         date: '2024-06-28',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=bn_2024">Кросс-спринт</a>',
@@ -377,7 +343,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Воробьёво оз',
-        region: 'starts',
         date: '2024-06-29',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=bn_2024">Кросс-лонг</a>',
@@ -389,7 +354,6 @@ let wnStartsMaps = [
     },
     {
         name: 'Воробьёво оз',
-        region: 'starts',
         date: '2024-06-30',
         start: 'WN',
         info: '<a href="https://o-site.spb.ru/race.php?id=bn_2024">Кросс-классика</a>',

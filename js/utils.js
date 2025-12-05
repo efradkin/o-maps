@@ -1,3 +1,17 @@
+const regions = {
+    LNGRD: 'Ленинград',
+    SPB: 'СПб',
+    MSK: 'Москва',
+    RZN: 'Рязань',
+    SMR: 'Самара',
+    PSK: 'Псков',
+    DV: 'Дльний Восток',
+    KLNGRD: 'Калининград',
+    ORBG: 'Оренбург',
+    KRL: 'Карелия',
+    KZ: 'Казахстан',
+};
+
 const dic = {
     RUN: 'БЕГ',
     SKI: 'ЛЫЖИ',
@@ -188,17 +202,17 @@ function filterMapsForCharts() {
 function mapLink(url, m) { // m - for region
     let region;
     if (m) {
-        if (m.region) {
-            region = m.region;
+        if (m.page) {
+            region = m.page;
         } else {
             if (m.start) {
                 if (Array.isArray(m.start)) {
-                    if (starts[m.start[0]].region) {
-                        region = starts[m.start[0]].region;
+                    if (starts[m.start[0]].page) {
+                        region = starts[m.start[0]].page;
                     }
                 } else {
-                    if (m.start && starts[m.start].region) {
-                        region = starts[m.start].region;
+                    if (m.start && starts[m.start].page) {
+                        region = starts[m.start].page;
                     }
                 }
             }

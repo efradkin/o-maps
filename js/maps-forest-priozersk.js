@@ -139,7 +139,7 @@ let priozerskMaps = [
     },
     {
         name: 'Кузнечное, оз Суури, запад',
-        region: 'spb',
+        page: 'spb',
         year: 1984,
         date: '1990-07-28',
         info: 'Ориентир-22',
@@ -204,6 +204,7 @@ let priozerskMaps = [
     {
         name: 'Кузнечное',
         start: 'KZNTSVA',
+        page: 'spb',
         date: '2013-08-24',
         info: '<a href="https://o-site.spb.ru/race.php?id=13082425">Инфо и результаты</a>.',
         url: './maps/starts/psk/psk_2013_08_24.webp',

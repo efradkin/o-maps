@@ -2,7 +2,6 @@ let volkovStartsMaps = [
     /* --- Мемориал Андрея Волкова --- */
     {
         name: 'Пухтолова гора',
-        region: 'starts',
         start: 'VOLKOV_A',
         date: '2006-01-29',
         info: 'Маркир. <a href="https://o-site.spb.ru/race.php?id=060129_MV">Инфо и результаты.</a>',
@@ -13,7 +12,6 @@ let volkovStartsMaps = [
     },
     {
         name: 'Зеленогорск, оз Дружинное',
-        region: 'starts',
         start: 'VOLKOV_A',
         date: '2008-02-03',
         info: 'Маркир. <a href="https://o-site.spb.ru/race.php?id=080203">Инфо и результаты.</a>',
@@ -24,7 +22,6 @@ let volkovStartsMaps = [
     },
     {
         name: 'Орехово, база ПАН',
-        region: 'starts',
         start: 'VOLKOV_A',
         date: '2009-02-01',
         info: 'Маркир. <a href="https://o-site.spb.ru/race.php?id=090201">Инфо и результаты.</a>',
@@ -35,7 +32,6 @@ let volkovStartsMaps = [
     },
     {
         name: 'Орехово, Бол Борково оз',
-        region: 'starts',
         start: 'VOLKOV_A',
         date: '2010-02-06',
         info: 'Маркир. <a href="https://o-site.spb.ru/race.php?id=100206">Инфо и результаты.</a>',
@@ -46,7 +42,6 @@ let volkovStartsMaps = [
     },
     {
         name: 'Кузьмоловский',
-        region: 'starts',
         start: 'VOLKOV_A',
         date: '2011-02-12',
         info: 'Маркир. <a href="https://o-site.spb.ru/race.php?id=110212">Инфо и результаты.</a>',
@@ -57,7 +52,6 @@ let volkovStartsMaps = [
     },
     {
         name: 'Зеркальный',
-        region: 'starts',
         start: 'VOLKOV_A',
         date: '2013-02-23',
         info: 'Маркир. <a href="https://o-site.spb.ru/race.php?id=130224">Инфо и результаты.</a>',
@@ -68,7 +62,6 @@ let volkovStartsMaps = [
     },
     {
         name: 'Зеркальный',
-        region: 'starts',
         start: 'VOLKOV_A',
         date: '2015-02-07',
         info: 'Маркир. <a href="https://o-site.spb.ru/race.php?id=150207">Инфо и результаты.</a>',
@@ -79,7 +72,6 @@ let volkovStartsMaps = [
     },
     {
         name: 'Зеркальный',
-        region: 'starts',
         start: 'VOLKOV_A',
         date: '2017-02-11',
         info: 'Маркир. <a href="https://o-site.spb.ru/race.php?id=170211">Инфо и результаты.</a>',
@@ -89,7 +81,6 @@ let volkovStartsMaps = [
     },
     {
         name: 'Кузьмоловский',
-        region: 'starts',
         start: 'VOLKOV_A',
         date: '2019-02-17',
         info: 'Маркир-Д. <a href="https://o-site.spb.ru/race.php?id=190217">Инфо и результаты.</a>',

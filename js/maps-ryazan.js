@@ -1040,7 +1040,8 @@ let ryazanMaps = [
         bounds: [[54.862727989585636, 39.88586425781251], [54.83500575725284, 40.07597923278809], [54.707267747286174, 39.81943130493165]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        region: 'RZN'
     },
     {
         name: 'Чернава',

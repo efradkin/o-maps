@@ -137,6 +137,14 @@ function buildName(m) {
         result += '<img src="./logo/' + m.logo + '" alt="" class="sheet-icon" /> ';
     }
     let name = m.name ?? 'Нечто';
+    let regionRequired = (typeof regionViewRequired !== 'undefined') && regionViewRequired;
+    if (regionRequired) {
+        if (m.region) {
+            name = regions[m.region] + ', ' + name;
+        } else if (m.start && starts[m.start] && starts[m.start].region) {
+            name = regions[starts[m.start].region] + ', ' + name;
+        }
+    }
     if (m.url) {
         result += '<a href="' + mapLink(m.url, m) + '">' + name + '</a>';
     } else {

@@ -961,7 +961,8 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/anikeevka_2004_omaps.jpg',
         bounds: [[55.86876179475812, 37.24485397338868], [55.86437909911537, 37.294893264770515], [55.835662623012354, 37.235498428344734]],
         author: ['MTN_Y','BLTV','PZGRV','JASHPTRV'],
-        logo: 'fsor.webp'
+        logo: 'fsor.webp',
+        region: 'MSK'
     },
     {
         name: 'Крылатское',
@@ -1804,7 +1805,8 @@ let moscowMaps = [
         link: ['./original_maps/moscow/ak/butovsky_2013_omaps.pdf','./original_maps/moscow/ak/butovsky_2013_2_omaps.jpg'],
         bounds: [[55.585221534678304, 37.52914667129517], [55.58292938102626, 37.56598949432374], [55.56788759269478, 37.52543449401856]],
         logo: 'fsor.webp',
-        type: ['PARK']
+        type: ['PARK'],
+        region: 'MSK'
     },
     {
         name: 'ПиП Битцевский лес - Конно-Спортивный Комплекс',
@@ -2751,7 +2753,8 @@ let moscowMaps = [
         info: '<a href="https://rrc2014.rogaining.ru">XI Чемпионат России по рогейну</a>.',
         bounds: [[55.78004852149085, 38.40631484985352], [55.7280767585615, 38.91546249389649], [55.61714010614988, 38.35515975952149]],
         author: ['RSCHN_R','KLSV_S','MRDRS','KBRV_M','BRBA'],
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        region: 'MSK'
     },
     {
         name: 'Анциферово',
@@ -4094,7 +4097,8 @@ let moscowMaps = [
         link: './original_maps/moscow/senezh_2008_rogaine_omaps.gif',
         bounds: [[56.348702164077835, 36.85363769531251], [56.35574068535468, 37.226486206054695], [56.21901863640133, 36.86084747314454]],
         author: 'KSTLV_E',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        region: 'MSK'
     },
     {
         name: 'Яркино',

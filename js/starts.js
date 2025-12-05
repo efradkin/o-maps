@@ -9,19 +9,22 @@ let starts = {
             'Александр Лисиненков, <a href="https://o-site.spb.ru/history/Peoples/leonfed.html">Леонид Фёдоров</a>. Отличительной чертой этой многодневки до сегодняшнего дня ' +
             'является тщательное планирование детских и ветеранских дистанций. Это не удивительно, ведь основу КСО «Азимут» составляют ветераны; Фёдоров является организатором и вдохновителем ' +
             '«Кубка школьного двора», а Дробышев – инициатором ориентирования в школьных помещениях; наконец, Лисиненков – наиболее квалифицированным инспектором Петербурга.' +
-            '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>'
+            '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>',
+        page: 'starts'
     },
     YM: {
         short: 'Яркий Мир',
         name: '<a href="https://vk.com/club128591100">Яркий Мир</a>',
-        logo: 'ym.jpg'
+        logo: 'ym.jpg',
+        page: 'starts'
     },
     GS: {
         short: 'Зелёный Змей',
         name: 'Зелёный Змей',
         logo: 'gs.jpg',
         info: 'Дистанция средней длины с большим количеством пунктов.',
-        foto: ['gs_champions.jpg']
+        foto: ['gs_champions.jpg'],
+        page: 'starts',
     },
     MMS: {
         short: 'ММС',
@@ -38,7 +41,8 @@ let starts = {
             'ценные призы, дополняют фирменный стиль «Мемориала Михаила Святкина» (главный судья – Александр Курдюмов, картографы и служба дистанции: Сергей Воробей, Александр Ковязин, Леонид Маланков, ' +
             '<a href="https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net">Константин Токмаков</a>). Чёткая организация ' +
             'и по-настоящему ценные призы дополняют фирменный стиль «Мемориала Михаила Святкина» (главный судья – Александр Курдюмов). В течение многих лет не раз менялись картографы и служба дистанции.' +
-            '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>'
+            '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>',
+        page: 'starts'
     },
     KKP: {
         short: 'ККП',
@@ -48,7 +52,7 @@ let starts = {
     },
     ORIENTIR: {
         short: 'Ориентир',
-        region: 'starts',
+        page: 'starts',
         name: '<a href="https://o-site.spb.ru/history/History/azimuth.html">Ориентир</a>',
         logo: 'azimut_retro.gif',
         info: '<p>Серия тренировочных стартов от спорт.общества "Спартак" (в дальнейшем - КСО "Азимут").'
@@ -67,7 +71,8 @@ let starts = {
             '– в них приняли участие команды городов-побратимов Петербурга: Дрездена и Турку. <p>Начиная с 2001, года за проведение «Белых Ночей» взялся одноимённый клуб, ' +
             'возглавляемый Игорем и Светланой Горбатенковыми. Спонсорская поддержка позволяет клубу привлекать российских квалифицированных картографов для освоения новых интересных районов ' +
             'в окрестностях Первомайского–Мичуринского. Обслуживают соревнования многочисленные волонтёры из числа членов клуба.' +
-            '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>'
+            '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>',
+        page: 'starts'
     },
     ST: {
         short: 'Спринт-Тур',
@@ -79,7 +84,7 @@ let starts = {
         short: '2x2',
         name: '2х2=V',
         logo: '2x2.gif',
-        region: 'starts',
+        page: 'starts',
         info: '"2х2" - многодневные соревнования по спринтерским эстафетам с ориентированием, традиционно проводимые в конце апреля - начале мая. Организаторы - Александр Ширинян и Максим Антипов. Автор логотипа - Михаил Сенин.'
     },
     '100x24': {
@@ -187,7 +192,8 @@ let starts = {
     KZNTSVA: {
         short: 'Памяти Кузнецова',
         name: 'Памяти Сергея Кузнецова',
-        logo: 'kuznetsov.jpg'
+        logo: 'kuznetsov.jpg',
+        page: 'starts'
     },
     REPORT: {
         short: 'Отчёт',
@@ -220,12 +226,15 @@ let starts = {
             '<a href="https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net">Константин Токмаков</a> ' +
             'продолжают дело, начатое Сергеем Кузнецовым. Кузя, как со времён туристского кружка во Дворце пионеров звали его товарищи, оставил щедрое наследство всем российским ориентировщикам. ' +
             'Постараемся не растерять его.' +
-            '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>'
+            '<p> © <a href="https://rufso.ru/wp-content/uploads/2018/08/2013№4-Питерские-многодневки.pdf">Питерские многодневки</a>',
+        page: 'starts'
     },
     MEET_1966: {
         short: 'Матч\'1966',
         name: '<a href="https://o-site.spb.ru/history/Knots/match-66.html">Зимний матч городов СССР</a>',
-        logo: 'meet_1966.jpg'
+        logo: 'meet_1966.jpg',
+        major: true,
+        region: 'LNGRD'
     },
     VOLKOV_A: {
         short: 'Мемориал Андрея Волкова',
@@ -233,85 +242,101 @@ let starts = {
         logo: 'volkov_a.webp',
         info: 'Андрей Владимирович Волков трагически ушел из жизни в июньский воскресный день 2005 года.' +
             '<p> Траурный зал с трудом вместил всех желающих отдать последний долг доброму труженику. Его отношение к делу еще долго будет служить для нас примером.' +
-            '<p> © <a href="https://o-site.spb.ru/history/Peoples/avolkov.html">Посвящение</a>'
+            '<p> © <a href="https://o-site.spb.ru/history/Peoples/avolkov.html">Посвящение</a>',
+        page: 'starts'
     },
     USSR_BULGARIA_1968: {
         short: 'Матч СССР-Болгария\'1968',
         name: '<a href="https://o-site.spb.ru/history/Knots/match-68.html">Международная товарищеская встреча сборных команд Болгарии и СССР</a> (<a href="./docs/ussr_bulgaria_1968_article_omaps.jpg">статья в газете "ТРУД"</a>)',
         logo: 'ussr_bulgaria_1968.jpg',
-        major: true
+        major: true,
+        region: 'LNGRD'
     },
     USSR_V_1971: {
         short: 'Всесоюзные\'1971',
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-71.html">Пятые Всесоюзные соревнования</a>',
-        logo: '1971.gif'
+        logo: '1971.gif',
+        major: true,
+        region: 'LNGRD'
     },
     USSR_V_1975: {
         short: 'Всесоюзные\'1975',
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-75.html">Всесоюзные зимние соревнования</a>',
         info: 'Всесоюзные  лично-командные  соревнования  по  ориентированию  на местности,  посвященные  30-летию победы над фашистской Германией,  ' +
             'были проведены  в окрестностях  Ленинграда  10-13 марта 1975 года.',
-        logo: 'ussr_1975.jpg'
+        logo: 'ussr_1975.jpg',
+        major: true,
+        region: 'LNGRD'
     },
     VWC_1995: {
         major: true,
         short: 'VWC\'1995',
         name: '<a href="https://o-site.spb.ru/history/VWC-95/index.html">Кубок Мира среди ветеранов</a>',
-        logo: 'vwc95.gif'
+        logo: 'vwc95.gif',
+        region: 'SPB'
     },
     USSR_1981: {
         major: true,
         short: 'I Чемпионат СССР',
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">Первый чемпионат СССР</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./docs/ussr_champ_1981_program_omaps.pdf">программа</a>, <a href="./docs/ussr_champ_1981_resolution_omaps.pdf">постановление</a>)',
-        logo: 'ussr_1981.jpg'
+        logo: 'ussr_1981.jpg',
+        region: 'LNGRD'
     },
     LENINGRAD_30: {
         major: true,
         short: '30 лет Ленинградского ориентирования',
         name: 'Многодневные <a href="./docs/1989/1989_05_07_XXX_years_omaps.pdf">соревнования</a>, посвящённые 30 летию Ленинградского ориентирования',
-        logo: 'leningrad_30.webp'
+        logo: 'leningrad_30.webp',
+        region: 'LNGRD'
     },
     JWSOC_2003: {
         major: true,
         short: 'JWSOC 2003',
         name: '<a href="https://spbof.ru/ru/2-uncategorised/582-istoriya-orientirovaniya-1992g-po-nastoyashchee-vremya">Чемпионат мира  по ориентированию  на лыжах среди  юниоров</a> (<a href="https://docs.cntd.ru/document/3641816">распоряжение</a>)',
-        logo: 'jwsoc_2003.jpg'
+        logo: 'jwsoc_2003.jpg',
+        region: 'SPB'
     },
     RUSSIA_2019: {
         major: true,
         short: 'ЧР 2019',
         name: '<a href="https://o-site.spb.ru/race.php?id=190524chRF">Чемпионат России</a>',
-        logo: 'fsor.webp'
+        logo: 'fsor.webp',
+        region: 'SPB'
     },
     RUSSIA_2020: {
         major: true,
         short: 'ЧР (спринт) 2020',
         name: '<a href="https://o-site.spb.ru/race.php?id=20092428">Чемпионат России (спринт)</a>',
-        logo: 'fsor.webp'
+        logo: 'fsor.webp',
+        region: 'SPB'
     },
     RUSSIA_2021: {
         major: true,
         short: 'ЧР (спринт) 2021',
         name: '<a href="https://o-site.spb.ru/race.php?id=210531">Чемпионат России (спринт)</a>',
-        logo: 'russia_2021.jpg'
+        logo: 'russia_2021.jpg',
+        region: 'SPB'
     },
     RUSSIA_2022: {
         major: true,
         short: 'ЧР 2022',
         name: '<a href="https://o-site.spb.ru/race.php?id=22060911">Чемпионат России</a>',
-        logo: 'fsor.webp'
+        logo: 'fsor.webp',
+        region: 'SPB'
     },
     RUSSIA_2024: {
         major: true,
         short: 'ЧР (спринт) 2024',
         name: '<a href="https://o-site.spb.ru/race.php?id=240519_russia">Чемпионат России (спринт)</a>',
-        logo: 'russia_2024.jpg'
+        logo: 'russia_2024.jpg',
+        region: 'SPB'
     },
     RUSSIA_CUP_2024: {
         major: true,
         short: 'КР (спринт) 2024',
         name: '<a href="https://сшгорелова.рф/кубок-россии-г-химки/">Кубок России (спринт)</a>',
-        logo: 'fso_msk.jpg'
+        logo: 'fso_msk.jpg',
+        region: 'MSK'
     },
     SCHOOL: {
         short: 'Ориентирование в школу',
@@ -334,6 +359,7 @@ let starts = {
         short: "CISM'96'",
         name: "XXIX Orienteering Military World Championship'1996",
         logo: 'military_1996.gif',
+        region: 'SPB'
     },
     /* --- МОСКВА --- */
     AERO: {

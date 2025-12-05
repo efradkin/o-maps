@@ -2,7 +2,7 @@ let otherStartsMaps = [
     /* --- Прочие --- */
     {
         name: 'Мельничный ручей, Голубые дачи',
-        region: 'starts',
+        page: 'starts',
         start: 'REPORT',
         year: 1983,
         info: '17-18.09. Кубок ЛГС ДСО "Спартак". <a href="./docs/1983_09_17_mruchey_omaps.pdf">Результаты</a>.',
@@ -13,7 +13,7 @@ let otherStartsMaps = [
     },
     {
         name: 'Симагино',
-        region: 'starts',
+        page: 'starts',
         start: 'REPORT',
         year: 1988,
         info: '7-8.10. День Конституции СССР. <a href="./docs/1988/simagino_1988_10_07/doc_4_omaps.jpg">Информация</a>, <a href="./docs/1988/simagino_1988_10_07/doc_3_omaps.jpg">положение</a>, <a href="./docs/1988/simagino_1988_10_07/doc_5_omaps.jpg">7.10,МА(10км)</a>, <a href="./docs/1988/simagino_1988_10_07/doc_6_omaps.jpg">9.10,МА(11км)</a>, <a href="./docs/1988/simagino_1988_10_07/doc_7_omaps.jpg">7.10,ЖА(8км)</a>, <a href="./docs/1988/simagino_1988_10_07/doc_8_omaps.jpg">8.10,ЖА(7км)</a>',
@@ -25,7 +25,7 @@ let otherStartsMaps = [
     },
     {
         name: 'Сосново',
-        region: 'starts',
+        page: 'starts',
         start: 'REPORT',
         year: 1990,
         info: '6-7.10. "Дыхание осени", ко Дню Конституции СССР. <a href="./docs/1990/sosnovo_1990_10_06/doc_3_omaps.jpg">Положение</a>, <a href="./docs/1990/sosnovo_1990_10_06/doc_4_omaps.jpg">МА</a>',

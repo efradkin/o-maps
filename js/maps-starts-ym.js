@@ -2,7 +2,6 @@ let ymStartsMaps = [
     /* --- Яркий Мир --- */
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'YM',
         year: 1999,
         url: './maps/starts/ym/ym_1999_lembolovo.webp',
@@ -12,7 +11,6 @@ let ymStartsMaps = [
     },
     {
         name: 'пл 69км',
-        region: 'starts',
         date: '2000-06-20',
         start: 'YM',
         url: './maps/starts/ym/ym_2000_06_20.webp',
@@ -22,7 +20,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         date: '2001-06-18',
         start: 'YM',
         url: './maps/starts/ym/ym_2001_06_18.webp',
@@ -32,7 +29,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         date: '2001-06-19',
         start: 'YM',
         url: './maps/starts/ym/ym_2001_06_19.webp',
@@ -42,7 +38,6 @@ let ymStartsMaps = [
     },
     {
         name: 'пл 67км, оз Ветреное',
-        region: 'starts',
         date: '2002-06-18',
         start: 'YM',
         url: './maps/starts/ym/ym_2002_06_18.webp',
@@ -52,7 +47,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Снегирёвка',
-        region: 'starts',
         date: '2004-06-15',
         start: 'YM',
         info: '<a href="https://o-site.spb.ru/race.php?id=040614_YM">Инфо.</a>',
@@ -73,7 +67,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Мичуринское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2010-06-17',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=10061520">Инфо и результаты.</a>',
@@ -84,7 +77,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Мичуринское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2010-06-16',
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=10061520">Инфо и результаты.</a>',
@@ -95,7 +87,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Мичуринское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2010-06-15',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=10061520">Инфо и результаты.</a>',
@@ -106,7 +97,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное, Берестовое оз',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2011-06-15',
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=11061419">Инфо и результаты.</a>',
@@ -117,7 +107,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное, Берестовое оз',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2011-06-16',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=11061419">Инфо и результаты.</a>',
@@ -128,7 +117,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное, Берестовое оз',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2011-06-14',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=11061419">Инфо и результаты.</a>',
@@ -139,7 +127,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2012-06-20',
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=12061924">Инфо и результаты.</a>',
@@ -150,7 +137,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2012-06-19',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=12061924">Инфо и результаты.</a>',
@@ -161,7 +147,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2012-06-21',
         info: 'Классика №2. <a href="https://o-site.spb.ru/race.php?id=12061924">Инфо и результаты.</a>',
@@ -172,7 +157,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Борисово',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2013-06-20',
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=13061823">Инфо и результаты.</a>',
@@ -183,7 +167,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2013-06-18',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=13061823">Инфо и результаты.</a>',
@@ -194,7 +177,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2013-06-19',
         info: 'Классика №2. <a href="https://o-site.spb.ru/race.php?id=13061823">Инфо и результаты.</a>',
@@ -205,7 +187,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2014-06-18',
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=14061722">Инфо и результаты.</a>',
@@ -216,7 +197,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2014-06-17',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=14061722">Инфо и результаты.</a>',
@@ -227,7 +207,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2014-06-19',
         info: 'Классика №2. <a href="https://o-site.spb.ru/race.php?id=14061722">Инфо и результаты.</a>',
@@ -237,7 +216,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное, г Журавлёвка',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2015-06-17',
         info: '<a href="https://o-site.spb.ru/race.php?id=15061621">Инфо и результаты.</a>',
@@ -248,7 +226,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное, г Журавлёвка',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2015-06-16',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=15061621">Инфо и результаты.</a>',
@@ -259,7 +236,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное, г Журавлёвка',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2015-06-18',
         info: '<a href="https://o-site.spb.ru/race.php?id=15061621">Инфо и результаты.</a>',
@@ -270,7 +246,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2016-06-16',
         info: 'Классика №2. <a href="https://o-site.spb.ru/race.php?id=16061016">Инфо и результаты.</a>',
@@ -281,7 +256,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2016-06-15',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=16061016">Инфо и результаты.</a>',
@@ -292,7 +266,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2016-06-14',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=16061016">Инфо и результаты.</a>',
@@ -302,7 +275,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         start: ['YM','WN'],
         date: '2016-06-13',
         info: 'Городской спринт. <a href="https://o-site.spb.ru/race.php?id=16061016">Инфо и результаты.</a>',
@@ -313,7 +285,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         start: 'YM',
         date: '2017-06-16',
         info: 'Классика №2. <a href="https://o-site.spb.ru/race.php?id=17061218">Инфо и результаты.</a>',
@@ -324,7 +295,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         start: 'YM',
         date: '2017-06-13',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=17061218">Инфо и результаты.</a>',
@@ -335,7 +305,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         start: 'YM',
         date: '2017-06-14',
         info: 'Выбор. <a href="https://o-site.spb.ru/race.php?id=17061218">Инфо и результаты.</a>',
@@ -346,7 +315,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         start: 'YM',
         date: '2017-06-12',
         info: 'Городской спринт. <a href="https://o-site.spb.ru/race.php?id=17061218">Инфо и результаты.</a>',
@@ -357,7 +325,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         start: 'YM',
         date: '2017-06-15',
         info: 'Спринт, финал. <a href="https://o-site.spb.ru/race.php?id=17061218">Инфо и результаты.</a>',
@@ -367,7 +334,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         start: 'YM',
         date: '2017-06-15',
         info: 'Спринт, пролог. <a href="https://o-site.spb.ru/race.php?id=17061218">Инфо и результаты.</a>',
@@ -378,7 +344,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         start: 'YM',
         date: '2017-06-16',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=17061218">Инфо и результаты.</a>',
@@ -388,7 +353,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'YM',
         date: '2018-06-16',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=18061216">Инфо и результаты.</a>',
@@ -398,7 +362,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Орехово',
-        region: 'starts',
         start: 'YM',
         date: '2018-06-13',
         info: 'Выбор. <a href="https://o-site.spb.ru/race.php?id=18061216">Инфо и результаты.</a>',
@@ -408,7 +371,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Орехово',
-        region: 'starts',
         start: 'YM',
         date: '2018-06-14',
         info: 'Спринт, пролог. <a href="https://o-site.spb.ru/race.php?id=18061216">Инфо и результаты.</a>',
@@ -418,7 +380,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Орехово',
-        region: 'starts',
         start: 'YM',
         date: '2018-06-14',
         info: 'Спринт, финал. <a href="https://o-site.spb.ru/race.php?id=18061216">Инфо и результаты.</a>',
@@ -428,7 +389,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Орехово',
-        region: 'starts',
         start: 'YM',
         date: '2018-06-15',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=18061216">Инфо и результаты.</a>',
@@ -438,7 +398,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Луга, Глухое оз',
-        region: 'starts',
         start: 'YM',
         date: '2019-06-13',
         info: 'Финал. <a href="https://o-site.spb.ru/race.php?id=19061116">Инфо и результаты.</a>',
@@ -449,7 +408,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Луга, Глухое оз',
-        region: 'starts',
         start: 'YM',
         date: '2019-06-13',
         info: 'Пролог. <a href="https://o-site.spb.ru/race.php?id=19061116">Инфо и результаты.</a>',
@@ -460,7 +418,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Луга, Глухое оз',
-        region: 'starts',
         start: 'YM',
         date: '2019-06-14',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=19061116">Инфо и результаты.</a>',
@@ -471,7 +428,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Луга, р Свинечная',
-        region: 'starts',
         start: 'YM',
         date: '2019-06-15',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=19061116">Инфо и результаты.</a>',
@@ -482,7 +438,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Луга, р Свинечная',
-        region: 'starts',
         start: 'YM',
         date: '2019-06-16',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=19061116">Инфо и результаты.</a>',
@@ -493,7 +448,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Лосево',
-        region: 'starts',
         start: 'YM',
         date: '2021-06-13',
         info: 'Выбор. <a href="https://o-site.spb.ru/race.php?id=21061014">Инфо и результаты.</a>',
@@ -504,7 +458,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Лосево',
-        region: 'starts',
         start: 'YM',
         date: '2021-06-10',
         info: 'Пролог №1. <a href="https://o-site.spb.ru/race.php?id=21061014">Инфо и результаты.</a>',
@@ -515,7 +468,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Лосево',
-        region: 'starts',
         start: 'YM',
         date: '2021-06-10',
         info: 'Пролог №2. <a href="https://o-site.spb.ru/race.php?id=21061014">Инфо и результаты.</a>',
@@ -526,7 +478,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Лосево',
-        region: 'starts',
         start: 'YM',
         date: '2021-06-11',
         info: 'Пролог №2. <a href="https://o-site.spb.ru/race.php?id=21061014">Инфо и результаты.</a>',
@@ -537,7 +488,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Лосево',
-        region: 'starts',
         start: 'YM',
         date: '2021-06-12',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=21061014">Инфо и результаты.</a>',
@@ -548,7 +498,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное, База ИТМО',
-        region: 'starts',
         start: 'YM',
         date: '2022-06-21',
         info: 'Спринт, финал. <a href="https://o-site.spb.ru/race.php?id=22062023">Инфо и результаты.</a>',
@@ -559,7 +508,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное, Берестовое оз',
-        region: 'starts',
         start: 'YM',
         date: '2022-06-23',
         info: 'Выбор. <a href="https://o-site.spb.ru/race.php?id=22062023">Инфо и результаты.</a>',
@@ -570,7 +518,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное, Берестовое оз',
-        region: 'starts',
         start: 'YM',
         date: '2022-06-22',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=22062023">Инфо и результаты.</a>',
@@ -581,7 +528,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное, Берестовое оз',
-        region: 'starts',
         start: 'YM',
         date: '2022-06-21',
         info: 'Пролог №2. <a href="https://o-site.spb.ru/race.php?id=22062023">Инфо и результаты.</a>',
@@ -592,7 +538,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Ягодное, Берестовое оз',
-        region: 'starts',
         start: 'YM',
         date: '2022-06-20',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=22062023">Инфо и результаты.</a>',
@@ -603,7 +548,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Орехово, р Кожица',
-        region: 'starts',
         start: 'YM',
         date: '2023-06-29',
         info: 'Выбор. <a href="https://o-site.spb.ru/race.php?id=23062629">Инфо и результаты.</a>',
@@ -614,7 +558,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Орехово, База "ПАН"',
-        region: 'starts',
         start: 'YM',
         date: '2023-06-28',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=23062629">Инфо и результаты.</a>',
@@ -625,7 +568,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Орехово, оз Валкилампи',
-        region: 'starts',
         start: 'YM',
         date: '2023-06-23',
         info: 'Спринт, пролог №1. <a href="https://o-site.spb.ru/race.php?id=23062629">Инфо и результаты.</a>',
@@ -636,7 +578,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Орехово, оз Валкилампи',
-        region: 'starts',
         start: 'YM',
         date: '2023-06-27',
         info: 'Спринт, пролог №2. <a href="https://o-site.spb.ru/race.php?id=23062629">Инфо и результаты.</a>',
@@ -646,7 +587,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Орехово, Фигурное оз',
-        region: 'starts',
         start: 'YM',
         date: '2023-06-27',
         info: 'Спринт, финал. <a href="https://o-site.spb.ru/race.php?id=23062629">Инфо и результаты.</a>',
@@ -656,7 +596,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское',
-        region: 'starts',
         start: 'YM',
         date: '2024-06-25',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=24062427">Инфо и результаты.</a>',
@@ -668,7 +607,6 @@ let ymStartsMaps = [
     },
     {
         name: 'Первомайское, р Волочаевка',
-        region: 'starts',
         start: 'YM',
         date: '2024-06-26',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=24062427">Инфо и результаты.</a>',

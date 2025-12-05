@@ -2,7 +2,6 @@ let gsStartsMaps = [
     /* --- Зелёный Змей --- */
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'GS',
         date: '1990-08-26',
         url: './maps/starts/gs/gs_1990.webp',
@@ -12,7 +11,6 @@ let gsStartsMaps = [
     },
     {
         name: 'Орехово-Лемболово',
-        region: 'starts',
         start: 'GS',
         year: 1991,
         url: './maps/starts/gs/gs_1991.webp',
@@ -22,7 +20,6 @@ let gsStartsMaps = [
     },
     {
         name: 'Токсово, ВИФК',
-        region: 'starts',
         start: 'GS',
         year: 2002,
         url: './maps/starts/gs/gs_2002.webp',
@@ -32,7 +29,6 @@ let gsStartsMaps = [
     },
     {
         name: 'Лемболово, оз Горынское',
-        region: 'starts',
         start: 'GS',
         year: 2004,
         url: './maps/starts/gs/gs_2004.webp',
@@ -42,7 +38,6 @@ let gsStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'GS',
         date: '2011-08-28',
         info: '<a href="https://o-site.spb.ru/race.php?id=110828_Az">Инфо и результаты.</a>',
@@ -53,7 +48,6 @@ let gsStartsMaps = [
     },
     {
         name: 'Петяярви',
-        region: 'starts',
         start: 'GS',
         date: '2013-08-25',
         info: '<a href="https://o-site.spb.ru/race.php?id=130825_ZZ">Инфо и результаты.</a>',
@@ -64,7 +58,6 @@ let gsStartsMaps = [
     },
     {
         name: 'Токсово, оз Светлое',
-        region: 'starts',
         start: 'GS',
         date: '2016-08-27',
         info: '<a href="https://o-site.spb.ru/race.php?id=160827_ZZ">Инфо и результаты.</a>',
@@ -76,7 +69,6 @@ let gsStartsMaps = [
     },
     {
         name: 'Лемболово, оз Белое',
-        region: 'starts',
         start: 'GS',
         date: '2020-08-29',
         info: '<a href="https://o-site.spb.ru/race.php?id=200829ZZ">Инфо и результаты.</a>',
@@ -88,7 +80,6 @@ let gsStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'GS',
         date: '2021-08-21',
         info: '<a href="https://o-site.spb.ru/race.php?id=210821ZZ">Инфо и результаты.</a>',
@@ -101,7 +92,6 @@ let gsStartsMaps = [
     },
     {
         name: 'Пухтолова гора',
-        region: 'starts',
         start: 'GS',
         date: '2022-08-20',
         info: '<a href="https://o-site.spb.ru/race.php?id=220820ZZ">Инфо и результаты.</a>',
@@ -114,7 +104,6 @@ let gsStartsMaps = [
     },
     {
         name: 'оз Журавлёвское',
-        region: 'starts',
         start: 'GS',
         date: '2023-08-26',
         info: '<a href="https://o-site.spb.ru/race.php?id=230826ZZ">Инфо и результаты.</a>',
@@ -127,7 +116,6 @@ let gsStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         start: 'GS',
         date: '2024-09-01',
         info: '<a href="https://o-site.spb.ru/race.php?id=240901ZZ">Инфо и результаты.</a>',

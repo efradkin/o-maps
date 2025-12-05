@@ -2145,6 +2145,7 @@ let events_2025 =
         place: 'Шуваловский парк',
         name: 'Длительная серия №11',
         type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251206_Dlit_11',
         reg: 'https://orgeo.ru/event/info/48224',
         owner: 'DLT',
     }, {
@@ -2187,6 +2188,14 @@ let events_2025 =
         reg: 'http://orgeo.ru/event/info/mistolovo',
         map: 'mistolovo_2021',
         owner: 'WN'
+    }, {
+        date: '2025-12-13',
+        place: 'Саблино, Жемчужная пещера',
+        name: 'Соревнования по подземному ориентированию',
+        type: 'ORIENT',
+        fmt: 'спелео, комбинация',
+        reg: 'https://orgeo.ru/event/48286',
+        map: 'sablino_zhemchug_cave',
     }, {
         date: '2025-12-14',
         place: 'Парк Политехнического ин-та',

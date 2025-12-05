@@ -689,7 +689,8 @@ let parkMaps = [
         link: './original_maps/parks/gatchina_zverinets_2005_omaps.jpg',
         bounds: [[59.58639060698327, 30.08018016815186], [59.58306645580455, 30.124039649963382], [59.56650598635047, 30.074558258056644]],
         author: ['VLKV_K','URVNTSV','MLVA_M','MRSKY_S'],
-        type: ['PARK']
+        type: ['PARK'],
+        region: 'SPB'
     },
     {
         name: 'Парк 300-летия СПб',

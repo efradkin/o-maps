@@ -2,7 +2,6 @@ let mmsStartsMaps = [
     /* --- Мемориал Михаила Святкина --- */
     {
         name: 'Ягодное,Раздельные оз',
-        region: 'starts',
         start: 'MMS',
         date: '1996-06-29',
         url: './maps/starts/mms/mms_1996_06_29.webp',
@@ -13,7 +12,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Ягодное',
-        region: 'starts',
         start: 'MMS',
         date: '1996-06-30',
         url: './maps/starts/mms/mms_1996_06_30.webp',
@@ -24,7 +22,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Орехово',
-        region: 'starts',
         start: 'MMS',
         date: '1997-06-29',
         url: './maps/starts/mms/mms_1997_06_29.webp',
@@ -35,7 +32,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Кузнечное, Богатыри',
-        region: 'starts',
         start: 'MMS',
         year: 1998,
         url: './maps/starts/mms/mms_1998_06.webp',
@@ -46,7 +42,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Каменногорск',
-        region: 'starts',
         start: 'MMS',
         date: '2000-07-02',
         url: './maps/starts/mms/mms_2000_07_02.webp',
@@ -87,7 +82,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Ягодное, Расстанное оз',
-        region: 'starts',
         start: 'MMS',
         date: '2002-06-29',
         url: './maps/starts/mms/mms_2002_06_29.webp',
@@ -98,7 +92,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Ягодное, Расстанное оз',
-        region: 'starts',
         start: 'MMS',
         date: '2002-06-28',
         url: './maps/starts/mms/mms_2002_06_28.webp',
@@ -109,7 +102,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Ягодное, Расстанное оз',
-        region: 'starts',
         start: 'MMS',
         date: '2002-06-30',
         url: './maps/starts/mms/mms_2002_06_30.webp',
@@ -120,7 +112,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Каменногорск, Обходное оз',
-        region: 'starts',
         start: 'MMS',
         date: '2003-06-27',
         url: './maps/starts/mms/mms_2003_06_27.webp',
@@ -131,7 +122,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Петяярви',
-        region: 'starts',
         start: 'MMS',
         date: '2004-06-26',
         info: 'Полуфинал. <a href="https://o-site.spb.ru/race.php?id=040626_MS">Инфо и результаты.</a>',
@@ -143,7 +133,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Петяярви',
-        region: 'starts',
         start: 'MMS',
         date: '2004-06-27',
         info: 'Финал. <a href="https://o-site.spb.ru/race.php?id=040626_MS">Инфо и результаты.</a>',
@@ -155,7 +144,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Сосново, 78-й км',
-        region: 'starts',
         start: 'MMS',
         date: '2005-06-25',
         info: 'Полуфинал. <a href="https://o-site.spb.ru/race.php?id=050624">Результаты.</a>',
@@ -167,7 +155,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Сосново, 78-й км',
-        region: 'starts',
         start: 'MMS',
         date: '2005-06-26',
         info: 'Финал. <a href="https://o-site.spb.ru/race.php?id=050624">Результаты.</a>',
@@ -179,7 +166,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Сосново, 78-й км',
-        region: 'starts',
         start: 'MMS',
         date: '2006-06-24',
         info: '<a href="https://o-site.spb.ru/race.php?id=06062225_MS">Результаты.</a>',
@@ -191,7 +177,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Сосново, 78-й км',
-        region: 'starts',
         start: 'MMS',
         date: '2006-06-25',
         info: '<a href="https://o-site.spb.ru/race.php?id=06062225_MS">Результаты.</a>',
@@ -203,7 +188,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Каменногорск',
-        region: 'starts',
         start: 'MMS',
         date: '2008-06-28',
         info: 'Полуфинал. <a href="https://o-site.spb.ru/race.php?id=080627_MS">Инфо и результаты.</a>',
@@ -214,7 +198,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Кузнечное, Богатыри',
-        region: 'starts',
         start: 'MMS',
         date: '2009-06-28',
         info: 'Финал. <a href="https://o-site.spb.ru/race.php?id=09062628">Инфо и результаты.</a>',
@@ -225,7 +208,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Кузнечное, Богатыри',
-        region: 'starts',
         start: 'MMS',
         date: '2009-06-27',
         info: 'Полуфинал. <a href="https://o-site.spb.ru/race.php?id=09062628">Инфо и результаты.</a>',
@@ -236,7 +218,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'MMS',
         year: 2010,
         info: 'Сводная карта всех дней. <a href="https://o-site.spb.ru/race.php?id=10062527">Инфо и результаты.</a>',
@@ -248,7 +229,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Лемболово-Орехово',
-        region: 'starts',
         start: 'MMS',
         year: 2011,
         info: 'Календарь. <a href="https://o-site.spb.ru/race.php?id=11062126">Инфо и результаты.</a>',
@@ -260,7 +240,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'MMS',
         date: '2012-06-26',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=120626">Инфо и результаты.</a>',
@@ -272,7 +251,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'MMS',
         date: '2012-06-27',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=120626">Инфо и результаты.</a>',
@@ -284,7 +262,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'MMS',
         date: '2012-06-28',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=120626">Инфо и результаты.</a>',
@@ -296,7 +273,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'MMS',
         date: '2012-06-30',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=120626">Инфо и результаты.</a>',
@@ -308,7 +284,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'MMS',
         date: '2012-07-01',
         info: 'Финал. <a href="https://o-site.spb.ru/race.php?id=120626">Инфо и результаты.</a>',
@@ -320,7 +295,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'MMS',
         date: '2012-06-29',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=120626">Инфо и результаты.</a>',
@@ -332,7 +306,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Выборг, Сайменские дачи',
-        region: 'starts',
         start: 'MMS',
         date: '2013-06-28',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=13062830_MS">Инфо и результаты.</a>',
@@ -345,7 +318,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Поляны',
-        region: 'starts',
         start: 'MMS',
         year: 2014,
         info: 'Сводная карта всех дней + детская дистанция. <a href="https://o-site.spb.ru/race.php?id=14062729">Инфо и результаты.</a>',
@@ -357,7 +329,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Поляны',
-        region: 'starts',
         start: 'MMS',
         date: '2014-06-29',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=14062729">Инфо и результаты.</a>',
@@ -370,7 +341,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Красная долина',
-        region: 'starts',
         start: 'MMS',
         year: 2015,
         info: 'Сводная карта всех дней. <a href="https://o-site.spb.ru/race.php?id=15062628">Инфо и результаты.</a>',
@@ -382,7 +352,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Красная долина',
-        region: 'starts',
         start: 'MMS',
         date: '2015-06-28',
         info: 'Финал. <a href="https://o-site.spb.ru/race.php?id=15062628">Инфо и результаты.</a>',
@@ -395,7 +364,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Коробицыно',
-        region: 'starts',
         start: 'MMS',
         year: 2017,
         info: 'Сводная карта всех дней. <a href="https://o-site.spb.ru/race.php?id=17062325">Инфо и результаты.</a>',
@@ -407,7 +375,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Коробицыно',
-        region: 'starts',
         start: 'MMS',
         year: 2016,
         info: 'Сводная карта всех дней. <a href="https://o-site.spb.ru/race.php?id=20160624">Инфо и результаты.</a>',
@@ -419,7 +386,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Коробицыно',
-        region: 'starts',
         start: 'MMS',
         date: '2016-06-26',
         info: 'Финал. <a href="https://o-site.spb.ru/race.php?id=20160624">Инфо и результаты.</a>',
@@ -432,7 +398,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Коробицыно',
-        region: 'starts',
         start: 'MMS',
         date: '2017-06-25',
         info: 'Финал. <a href="https://o-site.spb.ru/race.php?id=17062325">Инфо и результаты.</a>',
@@ -445,7 +410,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Петяярви, р Волчья',
-        region: 'starts',
         start: 'MMS',
         date: '2018-06-24',
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=180622mms">Инфо и результаты.</a>',
@@ -457,7 +421,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Петяярви, р Волчья',
-        region: 'starts',
         start: 'MMS',
         date: '2018-06-23',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=180622mms">Инфо и результаты.</a>',
@@ -469,7 +432,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Петяярви, р Волчья',
-        region: 'starts',
         start: 'MMS',
         date: '2018-06-22',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=180622mms">Инфо и результаты.</a>',
@@ -481,7 +443,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Сосново, Уловное оз',
-        region: 'starts',
         start: 'MMS',
         date: '2019-06-23',
         info: 'Финал, лонг. <a href="https://o-site.spb.ru/race.php?id=190623MMS">Инфо и результаты.</a>',
@@ -493,7 +454,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Сосново, Уловное оз',
-        region: 'starts',
         start: 'MMS',
         date: '2019-06-22',
         info: 'Полуфинал, классика. <a href="https://o-site.spb.ru/race.php?id=190623MMS">Инфо и результаты.</a>',
@@ -505,7 +465,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Сосново, Уловное оз',
-        region: 'starts',
         start: 'MMS',
         date: '2019-06-21',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=190623MMS">Инфо и результаты.</a>',
@@ -517,7 +476,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Снегирёвка, оз Щучье',
-        region: 'starts',
         start: 'MMS',
         date: '2022-06-21',
         info: 'Праздник эстафет. <a href="https://o-site.spb.ru/race.php?id=22061820">Инфо и результаты.</a>',
@@ -529,7 +487,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Снегирёвка, оз Щучье',
-        region: 'starts',
         start: 'MMS',
         date: '2022-06-19',
         info: 'Финал. <a href="https://o-site.spb.ru/race.php?id=22061820">Инфо и результаты.</a>',
@@ -541,7 +498,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Снегирёвка, оз Щучье',
-        region: 'starts',
         start: 'MMS',
         date: '2022-06-18',
         info: 'Пролог. <a href="https://o-site.spb.ru/race.php?id=22061820">Инфо и результаты.</a>',
@@ -553,7 +509,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Снегирёвка, оз Щучье',
-        region: 'starts',
         start: 'MMS',
         date: '2022-06-17',
         info: 'Тренировка. <a href="https://o-site.spb.ru/race.php?id=22061820">Инфо и результаты.</a>',
@@ -565,7 +520,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Сосново, Уловное оз',
-        region: 'starts',
         start: 'MMS',
         date: '2023-06-25',
         info: 'Финал. <a href="https://o-site.spb.ru/race.php?id=mms2023">Инфо и результаты.</a>',
@@ -577,7 +531,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Сосново, Уловное оз',
-        region: 'starts',
         start: 'MMS',
         date: '2023-06-24',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=mms2023">Инфо и результаты.</a>',
@@ -589,7 +542,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Сосново, Уловное оз',
-        region: 'starts',
         start: 'MMS',
         date: '2023-06-23',
         info: 'Тренировка. <a href="https://o-site.spb.ru/race.php?id=mms2023">Инфо и результаты.</a>',
@@ -601,7 +553,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Первомайское, оз Семейные',
-        region: 'starts',
         start: 'MMS',
         date: '2024-06-23',
         info: 'Финал. <a href="https://o-site.spb.ru/race.php?id=mms2024">Инфо и результаты.</a>',
@@ -613,7 +564,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Первомайское, оз Семейные',
-        region: 'starts',
         start: 'MMS',
         date: '2024-06-22',
         info: 'Пролог. <a href="https://o-site.spb.ru/race.php?id=mms2024">Инфо и результаты.</a>',
@@ -625,7 +575,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Яппиля, оз Пистолет',
-        region: 'starts',
         start: 'MMS',
         year: 2024,
         date: '2025-06-21',
@@ -638,7 +587,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Яппиля, оз Пистолет',
-        region: 'starts',
         start: 'MMS',
         year: 2024,
         date: '2025-06-22',
@@ -651,7 +599,6 @@ let mmsStartsMaps = [
     },
     {
         name: 'Яппиля, оз Пистолет',
-        region: 'starts',
         start: 'MMS',
         year: 2024,
         date: '2025-06-20',

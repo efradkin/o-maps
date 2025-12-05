@@ -22,7 +22,8 @@ let rogaineRfarMaps = [
         info: '<a href="https://adventure-race.redfox.ru/archive/archive_2017/">Инфо и результаты.</a>',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/2319/',
         owner: 'RFAR',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        region: 'KRL'
     },
     {
         name: 'Барышево',

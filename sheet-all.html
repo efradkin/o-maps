@@ -57,37 +57,32 @@
 
         <select id="start_selector" class="header_selector" onchange="selectStart(this.value)">
             <option value="all">все старты</option>
-            <option value="WN">Белые Ночи</option>
-            <option value="KKP">Камни Карельского Перешейка</option>
-            <option value="KS">Карельские скалы</option>
-            <option value="VOLKOV_A">Мемориал Андрея Волкова</option>
-            <option value="MMS">Мемориал Михаила Святкина</option>
-            <option value="NA">Невский Азимут</option>
-            <option value="SCHOOL">Ориентирование в школу</option>
-            <option value="KZNTSVA">Памяти Сергея Кузнецова</option>
-            <option value="GS">Зелёный Змей</option>
-            <option value="ST">Спринт-Тур</option>
-            <option value="YM">Яркий Мир</option>
-            <option value="ORIENTIR">Ориентир (ретро)</option>
-            <option value="2x2">2x2</option>
-            <option value="100x24">100x24</option>
-            <option value="BA">BikeAdventure</option>
-            <option value="RFAR">Redfox Adventure Race</option>
-            <option value="TA">TrailAdventure</option>
-            <option value="KKM">Кубок Коротких Маршрутов</option>
-            <option value="MB">Марш-Бросок</option>
-            <option value="INCR">Инакор</option>
-            <option value="BNO">Большое Ночное Ориентирование</option>
-            <option value="KMPT_ROGAINE">Компот-рогейн</option>
-            <option value="AERO">Аэророгейн</option>
-            <option value="NPW">Ночная ПРАгулка</option>
+            <option value="2x2">2x2 (СПб)</option>
+            <option value="WN">Белые Ночи (СПб)</option>
+            <option value="SCHOOL">В школу (СПб)</option>
+            <option value="GS">Зелёный Змей (СПб)</option>
+            <option value="KKP">ККП (СПб)</option>
+            <option value="KS">Карельские скалы (СПб)</option>
+            <option value="VOLKOV_A">Мемориал Волкова (СПб)</option>
+            <option value="MMS">Мемориал Святкина (СПб)</option>
+            <option value="NA">Невский Азимут (СПб)</option>
+            <option value="ORIENTIR">Ориентир (Ленинград)</option>
+            <option value="KZNTSVA">Памяти Кузнецова (СПб)</option>
+            <option value="ST">Спринт-Тур (СПб)</option>
+            <option value="YM">Яркий Мир (СПб)</option>
+            <option value="100x24">100x24 (СПб)</option>
+            <option value="BA">BikeAdventure (СПб)</option>
+            <option value="RFAR">RFAR (СПб)</option>
+            <option value="TA">TrailAdventure (СПб)</option>
+            <option value="KKM">ККМ (СПб)</option>
+            <option value="MB">Марш-Бросок (СПб)</option>
+            <option value="AERO">Аэророгейн (Москва)</option>
+            <option value="BNO">БНО (Москва)</option>
+            <option value="INCR">Инакор (Москва)</option>
+            <option value="KMPT_ROGAINE">Компот-рогейн (Москва)</option>
+            <option value="NPW">Ночная ПРАгулка (Рязань)</option>
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
             <option value="major">Чемпионаты и Кубки</option>
-            <option value="MEET_1966">Зимний матч городов СССР'66</option>
-            <option value="USSR_BULGARIA_1968">Матч СССР-Болгария'1968</option>
-            <option value="USSR_V_1971">Пятые Всесоюзные соревнования'71</option>
-            <option value="USSR_V_1975">Всесоюзные зимние соревнования'75</option>
-            <option value="REPORT">Отчёты</option>
         </select>
 
         <select id="type_selector" class="header_selector" onchange="selectMapType(this.value)">
@@ -185,6 +180,7 @@
 
     <script>
         let loadImagesRequired = false;
+        let regionViewRequired = true;
         let mapsOnStore = false;
 
         let oMaps = [

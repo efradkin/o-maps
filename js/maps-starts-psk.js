@@ -2,7 +2,6 @@ let pskStartsMaps = [
     /* --- Памяти Сергея Кузнецова --- */
     {
         name: 'Каменногорск, Боровинка',
-        region: 'starts',
         start: 'KZNTSVA',
         date: '2014-06-07',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=14060708">Инфо и результаты</a>.',
@@ -14,7 +13,6 @@ let pskStartsMaps = [
     },
     {
         name: 'Каменногорск, Боровинка',
-        region: 'starts',
         start: 'KZNTSVA',
         date: '2014-06-08',
         info: 'Лонг. <a href="https://o-site.spb.ru/race.php?id=14060708">Инфо и результаты</a>.',
@@ -26,7 +24,6 @@ let pskStartsMaps = [
     },
     {
         name: 'Мичуринское, Журавлёвское оз',
-        region: 'starts',
         start: 'KZNTSVA',
         date: '2015-06-07',
         info: '<a href="https://o-site.spb.ru/race.php?id=150607">Инфо и результаты.</a>',

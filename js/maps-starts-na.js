@@ -2,7 +2,6 @@ let naStartsMaps = [
     /* --- Невский Азимут --- */
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'NA',
         year: 1989,
         url: './maps/starts/na/na_1989.webp',
@@ -12,7 +11,6 @@ let naStartsMaps = [
     },
     {
         name: 'Ильичёво, Долгое оз',
-        region: 'starts',
         start: 'NA',
         date: '1997-06-13',
         url: './maps/starts/na/na_1997_06_13.webp',
@@ -22,7 +20,6 @@ let naStartsMaps = [
     },
     {
         name: 'Лосево',
-        region: 'starts',
         start: 'NA',
         year: 2001,
         url: './maps/starts/na/na_2001_losevo_1.webp',
@@ -32,7 +29,6 @@ let naStartsMaps = [
     },
     {
         name: 'Лосево',
-        region: 'starts',
         start: 'NA',
         year: 2001,
         url: './maps/starts/na/na_2001_losevo_3.webp',
@@ -42,7 +38,6 @@ let naStartsMaps = [
     },
     {
         name: 'Зеленогорск, Чёрные оз',
-        region: 'starts',
         start: 'NA',
         year: 2000,
         startYear: 2003,
@@ -53,7 +48,6 @@ let naStartsMaps = [
     },
     {
         name: 'Орехово, Ястребиное',
-        region: 'starts',
         start: 'NA',
         year: 2002,
         url: './maps/starts/na/na_2002_yastrebinoe.webp',
@@ -63,7 +57,6 @@ let naStartsMaps = [
     },
     {
         name: 'Зеленогорск, Серенада',
-        region: 'starts',
         start: 'NA',
         year: 2002,
         startYear: 2003,
@@ -74,7 +67,6 @@ let naStartsMaps = [
     },
     {
         name: 'Борисово',
-        region: 'starts',
         start: 'NA',
         date: '2007-06-16',
         info: '<a href="https://o-site.spb.ru/race.php?id=070615">Инфо и результаты.</a>',
@@ -85,7 +77,6 @@ let naStartsMaps = [
     },
     {
         name: 'Мичуринское',
-        region: 'starts',
         start: 'NA',
         date: '2008-06-12',
         info: 'Спринт 30. <a href="https://o-site.spb.ru/race.php?id=080612_NA">Инфо и результаты.</a>',
@@ -95,7 +86,6 @@ let naStartsMaps = [
     },
     {
         name: 'Ягодное, оз Расстанное',
-        region: 'starts',
         start: 'NA',
         date: '2010-06-12',
         info: 'Спринт 30. <a href="https://o-site.spb.ru/race.php?id=10061214_na">Инфо и результаты.</a>',
@@ -105,7 +95,6 @@ let naStartsMaps = [
     },
     {
         name: 'Ягодное, оз Берестовое',
-        region: 'starts',
         start: 'NA',
         date: '2010-06-13',
         info: 'Классика 50. <a href="https://o-site.spb.ru/race.php?id=10061214_na">Инфо и результаты.</a>',
@@ -115,7 +104,6 @@ let naStartsMaps = [
     },
     {
         name: 'Ягодное, оз Берестовое',
-        region: 'starts',
         start: 'NA',
         date: '2010-06-14',
         info: 'Гандикап, классика 40. <a href="https://o-site.spb.ru/race.php?id=10061214_na">Инфо и результаты.</a>',
@@ -125,7 +113,6 @@ let naStartsMaps = [
     },
     {
         name: 'Ягодное-Мичуринское',
-        region: 'starts',
         start: 'NA',
         date: '2011-06-12',
         info: 'Классика 50. <a href="https://o-site.spb.ru/race.php?id=11061012_NA">Инфо и результаты.</a>',
@@ -135,7 +122,6 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, Семейные оз',
-        region: 'starts',
         start: 'NA',
         date: '2012-06-15',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=12061517_NA">Инфо и результаты.</a>',
@@ -147,7 +133,6 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, Семейные оз',
-        region: 'starts',
         start: 'NA',
         date: '2012-06-16',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=12061517_NA">Инфо и результаты.</a>',
@@ -159,7 +144,6 @@ let naStartsMaps = [
     },
     {
         name: 'Журавлёво, Раздельные оз',
-        region: 'starts',
         start: 'NA',
         date: '2013-06-14',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=13061416_NA">Инфо и результаты.</a>',
@@ -170,7 +154,6 @@ let naStartsMaps = [
     },
     {
         name: 'Журавлёво, Раздельные оз',
-        region: 'starts',
         start: 'NA',
         date: '2013-06-15',
         info: 'Удлинённая дистанция. <a href="https://o-site.spb.ru/race.php?id=13061416_NA">Инфо и результаты.</a>',
@@ -181,7 +164,6 @@ let naStartsMaps = [
     },
     {
         name: 'Журавлёво, Раздельные оз',
-        region: 'starts',
         start: 'NA',
         date: '2013-06-16',
         info: 'Средняя дистанция. <a href="https://o-site.spb.ru/race.php?id=13061416_NA">Инфо и результаты.</a>',
@@ -192,7 +174,6 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, Дедово оз',
-        region: 'starts',
         start: 'NA',
         date: '2014-06-12',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=14061215-NA">Инфо и результаты.</a>',
@@ -204,7 +185,6 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, Дедово оз',
-        region: 'starts',
         start: 'NA',
         date: '2014-06-14',
         info: 'Удлинённая дистанция. <a href="https://o-site.spb.ru/race.php?id=14061215-NA">Инфо и результаты.</a>',
@@ -216,7 +196,6 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, Дедово оз',
-        region: 'starts',
         start: 'NA',
         date: '2014-06-15',
         info: 'Средняя дистанция. <a href="https://o-site.spb.ru/race.php?id=14061215-NA">Инфо и результаты.</a>',
@@ -228,7 +207,6 @@ let naStartsMaps = [
     },
     {
         name: 'Борисово, Долгое оз',
-        region: 'starts',
         start: 'NA',
         date: '2015-06-12',
         info: 'Спринт 25. <a href="https://o-site.spb.ru/race.php?id=15061215_NA">Инфо и результаты.</a>',
@@ -240,7 +218,6 @@ let naStartsMaps = [
     },
     {
         name: 'Борисово, Долгое оз',
-        region: 'starts',
         start: 'NA',
         date: '2015-06-13',
         info: 'Классика 60. <a href="https://o-site.spb.ru/race.php?id=15061215_NA">Инфо и результаты.</a>',
@@ -252,7 +229,6 @@ let naStartsMaps = [
     },
     {
         name: 'Борисово, Долгое оз',
-        region: 'starts',
         start: 'NA',
         date: '2015-06-14',
         info: 'Классика 40. <a href="https://o-site.spb.ru/race.php?id=15061215_NA">Инфо и результаты.</a>',
@@ -264,7 +240,6 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, р Волочаевка',
-        region: 'starts',
         start: 'NA',
         date: '2016-06-17',
         info: 'Спринт 25. <a href="https://o-site.spb.ru/race.php?id=16061719_">Инфо и результаты.</a>',
@@ -276,7 +251,6 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, р Волочаевка',
-        region: 'starts',
         start: 'NA',
         date: '2016-06-18',
         info: 'Классика 60. <a href="https://o-site.spb.ru/race.php?id=16061719_">Инфо и результаты.</a>',
@@ -288,7 +262,6 @@ let naStartsMaps = [
     },
     {
         name: 'Первомайское, р Волочаевка',
-        region: 'starts',
         start: 'NA',
         date: '2016-06-19',
         info: 'Классика 40. <a href="https://o-site.spb.ru/race.php?id=16061719_">Инфо и результаты.</a>',
@@ -300,7 +273,6 @@ let naStartsMaps = [
     },
     {
         name: 'Ягодное, Раздельные оз',
-        region: 'starts',
         start: 'NA',
         date: '2017-06-09',
         info: 'Спринт 25. <a href="https://o-site.spb.ru/race.php?id=17060911">Инфо и результаты.</a>',
@@ -311,7 +283,6 @@ let naStartsMaps = [
     },
     {
         name: 'Ягодное, Раздельные оз',
-        region: 'starts',
         start: 'NA',
         date: '2017-06-10',
         info: 'Классика 60. <a href="https://o-site.spb.ru/race.php?id=17060911">Инфо и результаты.</a>',
@@ -322,7 +293,6 @@ let naStartsMaps = [
     },
     {
         name: 'Ягодное, Раздельные оз',
-        region: 'starts',
         start: 'NA',
         date: '2017-06-11',
         info: 'Классика 40. <a href="https://o-site.spb.ru/race.php?id=17060911">Инфо и результаты.</a>',
@@ -333,7 +303,6 @@ let naStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'NA',
         date: '2018-06-09',
         info: 'Спринт. <a href="https://o-site.spb.ru/race.php?id=18060911">Инфо и результаты.</a>',
@@ -345,7 +314,6 @@ let naStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'NA',
         date: '2018-06-10',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=18060911">Инфо и результаты.</a>',
@@ -357,7 +325,6 @@ let naStartsMaps = [
     },
     {
         name: 'Лемболово',
-        region: 'starts',
         start: 'NA',
         date: '2018-06-11',
         info: 'Классика. <a href="https://o-site.spb.ru/race.php?id=18060911">Инфо и результаты.</a>',
@@ -369,7 +336,6 @@ let naStartsMaps = [
     },
     {
         name: 'Луга, р Свинечная',
-        region: 'starts',
         start: 'NA',
         date: '2019-06-07',
         info: 'Спринт 20. <a href="https://o-site.spb.ru/race.php?id=190607">Инфо и результаты.</a>',
@@ -380,7 +346,6 @@ let naStartsMaps = [
     },
     {
         name: 'Луга, р Свинечная',
-        region: 'starts',
         start: 'NA',
         date: '2019-06-08',
         info: 'Классика 50. <a href="https://o-site.spb.ru/race.php?id=190607">Инфо и результаты.</a>',
@@ -391,7 +356,6 @@ let naStartsMaps = [
     },
     {
         name: 'Луга, р Свинечная',
-        region: 'starts',
         start: 'NA',
         date: '2019-06-09',
         info: 'Классика 40. <a href="https://o-site.spb.ru/race.php?id=190607">Инфо и результаты.</a>',
@@ -402,7 +366,6 @@ let naStartsMaps = [
     },
     {
         name: 'Колосково',
-        region: 'starts',
         start: 'NA',
         date: '2023-06-10',
         info: 'Спринт 20. <a href="https://o-site.spb.ru/race.php?id=230612">Инфо и результаты.</a>',
@@ -414,7 +377,6 @@ let naStartsMaps = [
     },
     {
         name: 'Колосково',
-        region: 'starts',
         start: 'NA',
         date: '2023-06-11',
         info: 'Классика 50. <a href="https://o-site.spb.ru/race.php?id=230612">Инфо и результаты.</a>',
@@ -426,7 +388,6 @@ let naStartsMaps = [
     },
     {
         name: 'Колосково',
-        region: 'starts',
         start: 'NA',
         date: '2023-06-12',
         info: 'Классика 40. <a href="https://o-site.spb.ru/race.php?id=230612">Инфо и результаты.</a>',

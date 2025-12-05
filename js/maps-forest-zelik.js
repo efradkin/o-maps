@@ -362,6 +362,7 @@ let zelikMaps = [
         name: 'Зеленогорск - Комарово',
         year: 1992,
         start: 'NA',
+        page: 'spb',
         url: './maps/forest/zelik/zelenogorsk_komarovo_1992.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovo_1992_omaps.jpg',
         bounds: [[60.217521775369605, 29.73810195922852], [60.21257599321435, 29.803161621093754], [60.1930413934332, 29.728660583496097]],

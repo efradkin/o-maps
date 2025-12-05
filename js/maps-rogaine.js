@@ -100,7 +100,8 @@ let rogaineMaps = [
         link: './original_maps/rogaine/kuznechnoe_2009_omaps.jpg',
         bounds: [[61.19538604557029, 29.662742614746097], [61.194889777986376, 29.914054870605472], [61.04831536461298, 29.662055969238285]],
         owner: 'GK',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        region: 'SPB'
     },
     {
         name: 'Кузнечное',
@@ -136,7 +137,8 @@ let rogaineMaps = [
         link: './original_maps/rogaine/michurinskoe_erc_2008_omaps.jpg', // link: 'https://web.archive.org/web/20160206161750/http://rogaine-spb.ru/erc08/erc08map.jpg',
         bounds: [[60.63229064837143, 29.750633239746097], [60.63229064837143, 30.021171569824222], [60.48124712867758, 29.749946594238285]],
         info: '<a href="https://rogaine-spb.narod.ru/erc08/erc08-3rus.html">Чемпионат Европы по рогейну</a>.',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        region: 'SPB'
     },
     {
         name: 'Лосево',
@@ -147,7 +149,8 @@ let rogaineMaps = [
         bounds: [[60.803236100904606, 29.611244201660156], [60.9023956835838, 29.857749938964847], [60.635657869155416, 29.90409851074219]],
         info: '<a href="https://www.rogaine-spb.narod.ru/race0807/info.html">IV Чемпионат России по рогейну</a>.',
         author: ['ANTPV','KMN_I','OZRV'],
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        region: 'SPB'
     },
     {
         name: 'Лосево',
@@ -170,7 +173,8 @@ let rogaineMaps = [
         bounds: [[60.55576008343374, 29.872512817382816], [60.53246152901585, 30.360374450683597], [60.38994275676987, 29.843330383300785]],
         info: 'Чемпионат России по рогейну на лыжах. <a href="https://o-site.spb.ru/race.php?id=12030910">Инфо</a>, <a href="https://100x24.ru/2012/docs/100x24_nat.htm">интервью</a>.',
         author: ['APTNKV','FRSHLV','BKTV','DBRTSV_V'],
-        type: ['ROGAINE','WINTER']
+        type: ['ROGAINE','WINTER'],
+        region: 'SPB'
     },
     {
         name: 'Запорожское',
@@ -182,7 +186,8 @@ let rogaineMaps = [
         info: '<a href="https://www.multsport.ru/starts/rus-run-rogaine-2016/">XIII Чемпионат России по рогейну</a>.',
         author: 'RYLOV_V',
         owner: 'MLTSPRT',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        region: 'SPB'
     },
     {
         name: 'Лемболово-Орехово',
@@ -204,7 +209,8 @@ let rogaineMaps = [
         bounds: [[60.47701790290766, 29.584808349609375], [60.44993780053481, 29.986152648925785], [60.30824657381306, 29.535713195800785]],
         info: '<a href="https://rrc2012.rogaining.ru/">IX Чемпионат России по рогейну</a>.',
         author: 'RYLOV_V',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        region: 'SPB'
     },
     {
         name: 'Первомайское',
@@ -235,7 +241,8 @@ let rogaineMaps = [
         bounds: [[60.34207085274035, 28.864517211914066], [60.37518126453458, 29.334526062011722], [60.138086026326405, 28.924255371093754]],
         author: 'RYLOV_V',
         info: 'II Кубок России по рогейну.',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        region: 'SPB'
     },
     {
         name: 'Гарболово',
@@ -267,7 +274,8 @@ let rogaineMaps = [
         bounds: [[61.069082670716135, 29.86942291259766], [61.06401670348004, 30.116786956787113], [60.910575549690314, 29.85508918762207]],
         info: '<a href="https://rrc2012.rogaining.ru/">Чемпионат России по рогейну на байдарках.</a>.',
         owner: 'MLTSPRT',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        region: 'SPB'
     },
     {
         name: 'Луга, оз Омчино',
