@@ -5936,4 +5936,16 @@ let moscowMaps = [
         owner: ['JAKMV_S','ERMCHNKV_A','MLKHT'],
         type: ['ROGAINE']
     },
+    {
+        name: 'Красносельская',
+        year: 2025,
+        area: .168,
+        url: './maps/moscow/ak/krasnoselska_2025.webp',
+        link: './original_maps/moscow/ak/krasnoselska_2025_omaps.gif',
+        bounds: [[55.78100181705107, 37.6663899421692], [55.781038017688644, 37.67598152160645], [55.77606614860845, 37.66634702682496]],
+        author: ['MSTPNV','ALDBV'],
+        areas: [90, 10],
+        owner: 'OPNBND',
+        type: ['CITY','SPRINT']
+    },
 ];
