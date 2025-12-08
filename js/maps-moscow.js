@@ -5772,8 +5772,20 @@ let moscowMaps = [
         type: ['INDOOR']
     },
     {
+        name: 'Патриаршие пруды',
+        year: 2025,
+        info: '<a href="https://t.me/rogainomania/387">Московский Нанорогейн</a>',
+        url: './maps/moscow/lr/patriki_rogaine_2025.webp',
+        link: './original_maps/moscow/lr/patriki_rogaine_2025_omaps.gif',
+        bounds: [[55.77071947484046, 37.589292526245124], [55.76689307523892, 37.62066364288331], [55.74536408844991, 37.57997989654542]],
+        author: ['MNKV','MSTPNV','KPTNV_M','DRN_E','PRZRV','ALDBV'],
+        owner: ['ERMCHNKV_A','OPNBND'],
+        type: ['CITY','SPRINT']
+    },
+    {
         name: 'Старый Арбат',
         date: '2025-08-03',
+        excluded: true,
         area: .983,
         url: './maps/moscow/ak/arbat_obsw_2025.webp',
         link: './original_maps/moscow/ak/arbat_obsw_2025_omaps.gif',
@@ -5904,6 +5916,7 @@ let moscowMaps = [
     },
     {
         name: 'Патриаршие и Тверская',
+        excluded: true,
         year: 2025,
         logo: 'msk_interes.webp',
         info: '<a href="https://interesnaya.sport.mos.ru/">Квест Москва Интересная</a>, <a href="https://t.me/moscoworienteering/3186">MOSCOW CITY RACE</a>',

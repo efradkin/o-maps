@@ -2131,8 +2131,7 @@ let events_2025 =
         res: 'https://t.me/whitenightesspb/759',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23927/',
         owner: 'WN',
-        map: 'orovo_2019',
-        me: 'МА'
+        map: 'orovo_2019'
     }, {
         date: '2025-11-30',
         place: 'Удельный парк',
@@ -2141,7 +2140,8 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=2025_Orientir',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1708',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23924/',
-        map: 'udelny_2021'
+        map: 'udelny_2021',
+        me: 'МА'
     }, {
         date: '2025-12-06',
         place: 'Шуваловский парк',
@@ -2149,6 +2149,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251206_Dlit_11',
         reg: 'https://orgeo.ru/event/info/48224',
+        res: 'https://t.me/dlitelnyy/404',
         owner: 'DLT',
     }, {
         date: '2025-12-06',
@@ -2156,7 +2157,15 @@ let events_2025 =
         name: 'Кубок Белых Ночей №5',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/48172',
-        owner: 'WN'
+        res: 'https://t.me/whitenightesspb/776',
+        reskeep: 826,
+        gps: {
+            'А':'https://viewer.o-gps-center.ru/viewer/event/23942/',
+            'Все КП':'https://viewer.o-gps-center.ru/viewer/event/23941/'
+        },
+        map: 'zelenogorsk_schuchye_2020',
+        owner: 'WN',
+        me: 'МА'
     }, {
         date: '2025-12-07',
         place: 'Приозерск, старый аэродром',
@@ -2170,7 +2179,10 @@ let events_2025 =
         place: 'Кудрово',
         name: 'Кубок Кудрово №2',
         type: 'ORIENT',
+        fmt: 'спринт',
         reg: 'https://orgeo.ru/event/47288',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23947/',
+        me: 'OPEN'
     }, {
         date: '2025-12-07',
         place: 'Кавголово',

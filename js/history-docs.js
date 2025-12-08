@@ -67,6 +67,12 @@ let historyDocs = [
         link: './docs/1983_09_17_mruchey_omaps.pdf'
     },
     {
+        name: 'ILVESTEADE',
+        year: 1984,
+        info: 'Информационный бюллетень в форме буклета.',
+        link: './docs/1984_ilvesteade_omaps.pdf'
+    },
+    {
         name: 'Открытие сезона ЛГС ДСО "Спартак"',
         date: '1985-04-21',
         info: '21, 27 апреля. Отчёт и протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',
