@@ -2214,7 +2214,7 @@ let events_2025 =
         date: '2025-12-14',
         place: 'Парк Политехнического ин-та',
         name: 'Снежная тропа',
-        fmt: 'спринт',
+        fmt: 'выбор',
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251214_ST',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1709',
