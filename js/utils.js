@@ -626,7 +626,7 @@ function hasOCAD(m) {
             links = [m.link];
         }
         for (const link of links) {
-            if (link.endsWith('.ocd')) {
+            if (link && link.endsWith('.ocd')) {
                 return true;
             }
         }

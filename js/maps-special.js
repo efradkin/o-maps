@@ -691,6 +691,7 @@ let specialMaps = [
     },
     {
         name: 'Токсово, Оригон-2',
+        year: 1,
         url: './maps/relief/toksovo_origon_2.webp',
         link: './original_maps/relief/toksovo_origon_2_omaps.jpg',
         bounds: [[60.15978879045419, 30.39273262023926], [60.15295481948042, 30.51083564758301], [60.12744302199271, 30.385093688964847]],

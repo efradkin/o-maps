@@ -21,6 +21,7 @@ const ZOOM_PARAM = urlParams.get('zoom');
 let HAS_NO_BUTTONS_PARAM = urlParams.has('no-buttons');
 const HAS_EMBEDDED_PARAM = urlParams.has('embedded');
 const HAS_OCAD_PARAM = urlParams.has('ocad');
+const HAS_RETRO_PARAM = urlParams.has('retro');
 
 if (HAS_EMBEDDED_PARAM) {
     HAS_NO_BUTTONS_PARAM = true;
@@ -109,22 +110,28 @@ if (mapElement) {
     } else {
         setActiveBackground();
     }
-    if ((OWNER_PARAM && owners[OWNER_PARAM].rogaine) || (START_NAME_PARAM && starts[START_NAME_PARAM].rogaine) ||
-        ('ROGAINE' === TYPE_PARAM) || (typeof rogaineRequired !== 'undefined' && rogaineRequired)) {
+    if (HAS_RETRO_PARAM) {
         activeLayers.push(
-            parkGroup, cityGroup, forestGroup,
-            group2020th, group2010th, group2000th, groupUnknownYear, rogaineGroup // group90th, groupRetro,
-        );
-    } else if ('FOTO' === TYPE_PARAM || 'FUN' === TYPE_PARAM) {
-        activeLayers.push(
-            parkGroup, cityGroup, forestGroup,
-            group2020th, group2010th, group2000th, groupUnknownYear, funGroup
+            parkGroup, cityGroup, forestGroup, groupRetro,
         );
     } else {
-        activeLayers.push(
-            parkGroup, cityGroup, forestGroup,
-            group2020th, group2010th, group2000th, groupUnknownYear // group90th, groupRetro,
-        );
+        if ((OWNER_PARAM && owners[OWNER_PARAM].rogaine) || (START_NAME_PARAM && starts[START_NAME_PARAM].rogaine) ||
+            ('ROGAINE' === TYPE_PARAM) || (typeof rogaineRequired !== 'undefined' && rogaineRequired)) {
+            activeLayers.push(
+                parkGroup, cityGroup, forestGroup,
+                group2020th, group2010th, group2000th, groupUnknownYear, rogaineGroup // group90th, groupRetro,
+            );
+        } else if ('FOTO' === TYPE_PARAM || 'FUN' === TYPE_PARAM) {
+            activeLayers.push(
+                parkGroup, cityGroup, forestGroup,
+                group2020th, group2010th, group2000th, groupUnknownYear, funGroup
+            );
+        } else {
+            activeLayers.push(
+                parkGroup, cityGroup, forestGroup,
+                group2020th, group2010th, group2000th, groupUnknownYear // group90th, groupRetro,
+            );
+        }
     }
 }
 

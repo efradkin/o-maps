@@ -769,29 +769,33 @@ tuneContextMenu();
 
 // --- functions ---
 
-function loadMap(m, forse) {
-    m.loaded = true;
+function skipMapLoad(m, forse) {
 
     if (HAS_ONLY_WO_AUTHOR_PARAM && m.author) {
-        return;
+        return true;
     }
 
     if (HAS_RESTRICTED_PARAM && !m.restricted) {
-        return;
+        return true;
     }
 
     if (HAS_OCAD_PARAM && !hasOCAD(m)) {
-        return;
+        return true;
+    }
+
+    let y = year(m);
+    if (HAS_RETRO_PARAM && (y === null || y >= 1990)) {
+        return true;
     }
 
     if (!forse) { // the specified start maps filtering
         if (START_NAME_PARAM) {
             if (START_NAME_PARAM === 'major') {
                 if (!isMajor(m)) {
-                    return;
+                    return true;
                 }
             } else if (!checkStartMap(START_NAME_PARAM, m)) {
-                return;
+                return true;
             }
         }
     }
@@ -806,9 +810,9 @@ function loadMap(m, forse) {
                     break;
                 }
             }
-            if (!own) return;
+            if (!own) return true;
         } else {
-            if (AUTHOR_PARAM !== m.author) return;
+            if (AUTHOR_PARAM !== m.author) return true;
         }
     }
 
@@ -822,9 +826,9 @@ function loadMap(m, forse) {
                     break;
                 }
             }
-            if (!own) return;
+            if (!own) return true;
         } else {
-            if (OWNER_PARAM !== m.owner) return;
+            if (OWNER_PARAM !== m.owner) return true;
         }
     }
 
@@ -838,10 +842,20 @@ function loadMap(m, forse) {
                     break;
                 }
             }
-            if (!own) return;
+            if (!own) return true;
         } else {
-            if (PLANNER_PARAM !== m.planner) return;
+            if (PLANNER_PARAM !== m.planner) return true;
         }
+    }
+
+    return false;
+}
+
+function loadMap(m, forse) {
+    m.loaded = true;
+
+    if (skipMapLoad(m, forse)) {
+        return;
     }
 
     if (loadImagesRequired) {
