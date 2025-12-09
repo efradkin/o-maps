@@ -236,6 +236,10 @@
         const DAY_TIME_RANGE = 1000 * 60 * 60 * 24;
         const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 
+        let currentDate;
+        let monthTD = null, prevDate = null;
+        let korients = 0, krogaines = 0, kothers = 0;
+
         // строит табличку с инфой об авторах-составителях
         function renderMapsTable() {
             tbody.innerHTML = '';
@@ -243,26 +247,26 @@
             let currentMonth = -1;
             for (let i = 0; i < oEvents.length; i++) {
                 let event = oEvents[i];
-                let date = new Date(event.date);
-                let month = date.getMonth();
-                let year = date.getFullYear();
+                currentDate = new Date(event.date);
+                let month = currentDate.getMonth();
                 if (currentSort === 'date' && month !== currentMonth) {
-                    let monthName = date.toLocaleString('ru', { month: 'long' }).toUpperCase().split('').join(' ');
+                    if (monthTD) {
+                        buildMonth();
+                    }
                     currentMonth = month;
                     const monthRow = document.createElement('tr');
-                    const td = document.createElement('td');
-                    td.setAttribute('colspan', 8);
-                    td.classList.add('month-row');
-                    td.innerHTML = `${monthName}&nbsp;&nbsp;&nbsp;${year}`;
-                    monthRow.appendChild(td);
+                    monthTD = document.createElement('td');
+                    monthTD.setAttribute('colspan', 8);
+                    monthTD.classList.add('month-row');
+                    monthRow.appendChild(monthTD);
                     tbody.appendChild(monthRow);
                 }
                 const row = document.createElement('tr');
                 let now = new Date();
-                if ((date < now) && (Math.abs(date - now) > DAY_TIME_RANGE)) {
+                if ((currentDate < now) && (Math.abs(currentDate - now) > DAY_TIME_RANGE)) {
                     row.classList.add('disabled');
                 } else {
-                    if (date - now < WEEK_TIME_RANGE) {
+                    if (currentDate - now < WEEK_TIME_RANGE) {
                         row.classList.add('current');
                     }
                 }
@@ -271,10 +275,19 @@
                 }
                 if (event.type.includes('WATER')) {
                     row.classList.add('water');
+                    krogaines++;
                 } else if (event.type.includes('ORIENT')) {
                     row.classList.add('orient');
+                    korients++;
                 } else if (isRogaine(event)) {
                     row.classList.add('rogaine');
+                    krogaines++;
+                } else {
+                    if (event.type.includes('SKI') || event.type.includes('VELO')) {
+                        korients++;
+                    } else {
+                        kothers++;
+                    }
                 }
                 td(row, buildNumber(event, i));
                 td(row, buildDate(event));
@@ -285,8 +298,18 @@
                 td(row, buildTranslations(event));
                 td(row, event.any ?? '');
                 tbody.appendChild(row);
+
+                prevDate = currentDate;
             }
+            buildMonth();
             document.body.style.cursor = 'default';
+        }
+
+        function buildMonth() {
+            let year = currentDate.getFullYear();
+            let monthName = prevDate.toLocaleString('ru', { month: 'long' }).toUpperCase().split('').join(' ');
+            monthTD.innerHTML = `${monthName}&nbsp;&nbsp;&nbsp;${year}&nbsp;&nbsp;&nbsp;(ориенты: ${korients}, рогейны: ${krogaines}, прочие: ${kothers})`;
+            korients = krogaines = kothers = 0;
         }
 
         function td(row, html) {

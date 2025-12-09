@@ -2229,6 +2229,14 @@ let events_2025 =
         map: 'politekh_2022',
         owner: 'SFSO_SPB',
     }, {
+        date: '2025-12-20',
+        place: 'Сосновый Бор',
+        name: 'Приз Деда Мороза',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        link: 'https://vk.com/wall-201330282_2053',
+        owner: 'YUVNT'
+    }, {
         date: '2025-12-21',
         place: 'Кавголово',
         name: 'Приз Деда Мороза',

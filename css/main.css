@@ -649,9 +649,10 @@ body.integration-body {
         }
         .month-row {
             font-weight: bold;
-            text-align: center;
+            text-align: left;
             color: white;
             background-color: darkolivegreen;
+            padding-left: 85px;
         }
     }
 }
