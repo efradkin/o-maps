@@ -2193,6 +2193,14 @@ let events_2025 =
         map: 'kavgolovo_old_ski_track_2023',
         owner: 'WN'
     }, {
+        date: '2025-12-11',
+        place: 'Сосновка',
+        name: 'Длительная серия №12',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251211_Dlit_12',
+        reg: 'http://orgeo.ru/event/48415',
+        owner: 'DLT',
+    }, {
         date: '2025-12-13',
         place: 'Мистолово хиллс',
         name: 'Мистоловский спринт',

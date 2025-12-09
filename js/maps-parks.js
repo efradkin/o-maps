@@ -779,6 +779,7 @@ let parkMaps = [
         bounds: [[59.912105509712376, 30.490279197692875], [59.91064248053053, 30.50559997558594], [59.90486503684274, 30.488262176513675]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
+        logo: 'kudrovo.gif',
         type: ['PARK'],
         zindex: 2
     },
@@ -1602,6 +1603,17 @@ let parkMaps = [
         bounds: [[59.9983638231877, 30.32535552978516], [59.99798829322108, 30.331406593322757], [59.99470490681215, 30.32460451126099]],
         author: 'DRBSHV',
         owner: 'KP31',
+        type: ['PARK']
+    },
+    {
+        name: 'МЕГА-парк',
+        year: 2025,
+        url: './maps/parks/mega_park_2025.webp',
+        link: './original_maps/parks/mega_park_2025_omaps.gif',
+        bounds: [[59.89809651053986, 30.50861477851868], [59.89716559576629, 30.518549680709842], [59.89451799611529, 30.507252216339115]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        logo: 'kudrovo.gif',
         type: ['PARK']
     },
 ];

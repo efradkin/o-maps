@@ -1755,12 +1755,37 @@ let cityMaps = [
         type: ['CITY']
     },
     {
-        name: 'Кудрово, пл Европы',
+        name: 'Кудрово, Школа №3',
         year: 2024,
-        url: './maps/city/kudrovo_evropy_2024.webp',
-        bounds: [[59.90336940811142, 30.51265954971314], [59.90284215602527, 30.52237987518311], [59.89722478765577, 30.510921478271488]],
+        url: './maps/city/kudrovo_school_3_2024.webp',
+        link: './original_maps/city/kudrovo_school_3_2024_omaps.gif',
+        bounds: [[59.90833485125695, 30.513195991516117], [59.907651676156604, 30.523517131805423], [59.902777593970065, 30.5116617679596]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
+        logo: 'kudrovo.gif',
+        type: ['CITY']
+    },
+    {
+        name: 'Южное Кудрово, Квартал Лондон',
+        year: 2025,
+        url: './maps/city/kudrovo_evropy_2024.webp',
+        link: './original_maps/city/kudrovo_evropy_2025_omaps.jpg',
+        bounds: [[59.90336940811142, 30.51265954971314], [59.90284215602527, 30.52237987518311], [59.89722478765577, 30.510921478271488]],
+        author: ['RYLOV_V','SHRNN'],
+        owner: 'RYLOV_V',
+        logo: 'kudrovo.gif',
+        type: ['CITY']
+    },
+    {
+        name: 'Южное Кудрово, Квартал Вена',
+        year: 2025,
+        url: './maps/city/kudrovo_vena_2025.webp',
+        link: './original_maps/city/kudrovo_vena_2025_omaps.jpg',
+        bounds: [[59.90376753169073, 30.505921840667728], [59.902992800332655, 30.514794588088993], [59.8964499036641, 30.50336837768555]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23947/',
+        author: ['RYLOV_V','SHRNN'],
+        owner: 'RYLOV_V',
+        logo: 'kudrovo.gif',
         type: ['CITY']
     },
     {
