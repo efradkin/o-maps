@@ -55,7 +55,6 @@ let ryazanMaps = [
     {
         name: 'Алешня',
         year: 2012,
-        correct: 2017,
         url: './maps/ryazan/aleshnya_2012.webp',
         link: './original_maps/ryazan/aleshnya_2012_omaps.jpg',
         bounds: [[53.650564894980874, 40.13198375701905], [53.6491404391569, 40.146875381469734], [53.63883713858995, 40.12945175170899]],
@@ -144,7 +143,8 @@ let ryazanMaps = [
     },
     {
         name: 'Бутырки',
-        year: 2025,
+        year: 2024,
+        correct: 2025,
         url: './maps/ryazan/butyrki_2025.webp',
         link: ['./original_maps/ryazan/butyrki_2025_omaps.gif','./original_maps/ryazan/butyrki_2024_omaps.jpg'],
         bounds: [[54.64131036343618, 39.70506191253663], [54.638143800227326, 39.72656250000001], [54.635821497131154, 39.70272302627564]],
@@ -174,7 +174,8 @@ let ryazanMaps = [
     },
     {
         name: 'Солотча',
-        year: 2023,
+        year: 2022,
+        correct: 2023,
         url: './maps/ryazan/solotcha_2023.webp',
         link: './original_maps/ryazan/solotcha_2023_omaps.gif',
         bounds: [[54.807957000388704, 39.84187602996827], [54.804840532173394, 39.87635850906373], [54.79722148684703, 39.83876466751099]],
@@ -275,7 +276,8 @@ let ryazanMaps = [
     },
     {
         name: 'Школа №71',
-        year: 2025,
+        year: 2021,
+        correct: 2025,
         url: './maps/ryazan/dp_shk71_2021.webp',
         link: './original_maps/ryazan/dp_shk71_2025_omaps.jpg',
         bounds: [[54.60469978059106, 39.81194257736207], [54.60313374804192, 39.82983827590943], [54.59750299054603, 39.80983972549439]],
@@ -341,7 +343,7 @@ let ryazanMaps = [
         owner: 'ANDREYKN'
     },
     {
-        name: 'Ермишь',
+        name: 'Ермишь, Токмаково',
         year: 2003,
         url: './maps/ryazan/ermish_2003.webp',
         link: './original_maps/ryazan/ermish_2003_omaps.gif',
@@ -392,7 +394,7 @@ let ryazanMaps = [
         link: './original_maps/ryazan/ilinka_2019_omaps.gif',
         bounds: [[53.94057815977318, 39.3804931640625], [53.936738311008945, 39.42340850830078], [53.92258845016338, 39.37585830688477]],
         author: ['ZOTOV','TARASOV','KORNEEV'],
-        owner: ['ZOTOV','TARASOV','KORNEEV']
+        owner: 'TSDYUTK'
     },
     {
         name: 'Касимов Ёлочка',
@@ -404,7 +406,7 @@ let ryazanMaps = [
         owner: 'FSO_RYAZAN'
     },
     {
-        name: 'Касимов-Лощинино',
+        name: 'Касимов, Лощинино',
         year: 2020,
         correct: 2021,
         url: './maps/ryazan/kasimov_loschinino_tsrb_2020.webp',
@@ -414,8 +416,9 @@ let ryazanMaps = [
         owner: 'FSO_RYAZAN'
     },
     {
-        name: 'Касимов-Лощинино-ЦРБ',
-        year: 2021,
+        name: 'Касимов, ЦРБ',
+        year: 2020,
+        correct: 2021,
         url: './maps/ryazan/kasimov_loschinino_tsrb_2021.webp',
         link: './original_maps/ryazan/kasimov_loschinino_tsrb_2021_omaps.jpg',
         bounds: [[54.95672287728029, 41.32601737976075], [54.953396099798816, 41.35588645935059], [54.94432615215542, 41.32155418395997]],
@@ -446,7 +449,7 @@ let ryazanMaps = [
         url: './maps/ryazan/keltsy_2024.webp',
         link: ['./original_maps/ryazan/keltsy_2024_omaps.jpg','./original_maps/ryazan/keltsy_2025_omaps.gif'],
         bounds: [[54.934785711200405, 39.96083736419678], [54.92216025372716, 40.067696571350105], [54.897168911128304, 39.947319030761726]],
-        author: 'GUSEV_B',
+        author: ['GUSEV_B','DJCHKV'],
         owner: 'GUSEV_B'
     },
     {
@@ -519,7 +522,8 @@ let ryazanMaps = [
     },
     {
         name: 'Крутоярский',
-        year: 2024,
+        year: 2022,
+        correct: 2024,
         url: './maps/ryazan/krutoyarskiy_2022.webp',
         link: ['./original_maps/ryazan/krutoyarskiy_2022_omaps.jpg','./original_maps/ryazan/krutoyarskiy_2022_omaps.gif'],
         bounds: [[54.91463734574264, 41.26357555389405], [54.908741362856816, 41.30752086639405], [54.89776118557002, 41.25580787658692]],
@@ -713,11 +717,12 @@ let ryazanMaps = [
     },
     {
         name: 'Передельцы',
-        year: 2025,
+        year: 2006,
+        correct: 2025,
         url: './maps/ryazan/peredeltsy_2025.webp',
         link: ['./original_maps/ryazan/peredeltsy_2025_omaps.jpg','./original_maps/ryazan/peredeltsy_east_2025_omaps.gif'],
         bounds: [[54.894281448486076, 39.96568679809571], [54.884827879118724, 40.042719841003425], [54.87722392142789, 39.9595069885254]],
-        author: 'GUSEV_B',
+        author: ['GUSEV_B','DJCHKV'],
         owner: 'GUSEV_B'
     },
     {
@@ -739,7 +744,8 @@ let ryazanMaps = [
     },
     {
         name: 'Сокольи горы',
-        year: 2025,
+        year: 2006,
+        correct: 2025,
         url: './maps/ryazan/peredeltsy_severo_zapad_2007.webp',
         link: ['./original_maps/ryazan/sokolii_gory_2025_omaps.gif','./original_maps/ryazan/peredeltsy_severo_zapad_2007_omaps.jpg'],
         bounds: [[54.89156655120832, 39.968562126159675], [54.88719765054682, 40.00156402587891], [54.877915249601735, 39.963626861572266]],
@@ -787,7 +793,7 @@ let ryazanMaps = [
         type: ['PARK','SPRINT']
     },
     {
-        name: 'Пронск, Лес Шарки',
+        name: 'Пронск, лес Шарки',
         year: 2022,
         url: './maps/ryazan/pronsk_les_sharki_2022.webp',
         link: './original_maps/ryazan/pronsk_les_sharki_2022_omaps.jpg',
@@ -796,8 +802,9 @@ let ryazanMaps = [
         owner: 'SHIBANOV_V'
     },
     {
-        name: 'Траново, лагерь Радуга',
-        year: 2025,
+        name: 'Траново, ДОЛ Радуга',
+        year: 2023,
+        correct: 2025,
         url: './maps/ryazan/raduga_2025.webp',
         link: './original_maps/ryazan/raduga_2025_omaps.gif',
         bounds: [[55.2077735048528, 40.14541625976563], [55.2003775664075, 40.20421028137208], [55.18435648702956, 40.135889053344734]],
@@ -858,7 +865,8 @@ let ryazanMaps = [
     },
     {
         name: 'РязГМУ',
-        year: 2024,
+        year: 2022,
+        correct: 2024,
         url: './maps/ryazan/ryazgmu_2024.webp',
         link: './original_maps/ryazan/ryazgmu_2024_omaps.jpg',
         bounds: [[54.626419160900774, 39.70557689666749], [54.6239222704874, 39.72231388092041], [54.61915166570606, 39.70280885696412]],
@@ -873,13 +881,12 @@ let ryazanMaps = [
         url: './maps/ryazan/sazhnevo_2022.webp',
         link: './original_maps/ryazan/sazhnevo_2022_omaps.gif',
         bounds: [[54.486145251040185, 39.72922325134278], [54.48185714964661, 39.77660179138184], [54.4478355839141, 39.72098350524903]],
-        author: ['POSKREB','ZOTOV','TARASOV'],
+        author: ['POSKREB','ZOTOV','TARASOV','ANDREYKN'],
         owner: 'TSDYUTK'
     },
     {
         name: 'Секиотово',
         year: 2003,
-        correct: 2023,
         url: './maps/ryazan/sekiotovo_2003.webp',
         link: './original_maps/ryazan/sekiotovo_2003_omaps.jpg',
         bounds: [[54.58419987533201, 39.62167739868165], [54.58365273833257, 39.648756980896], [54.56422461412183, 39.62167739868165]],
@@ -1033,7 +1040,7 @@ let ryazanMaps = [
         link: './original_maps/ryazan/tuma_2018_omaps.gif',
         bounds: [[55.1663679673819, 40.56362628936768], [55.16651504541338, 40.5856204032898], [55.150590698880045, 40.56276798248292]],
         author: ['KORNEEV','TARASOV'],
-        owner: ['KORNEEV','TARASOV']
+        owner: 'TSDYUTK'
     },
     {
         name: 'Турлатовский Лес',
@@ -1076,8 +1083,8 @@ let ryazanMaps = [
         url: './maps/ryazan/fedino_sreznevo_2000.webp',
         link: './original_maps/ryazan/fedino_sreznevo_2000_omaps.gif',
         bounds: [[54.77623695318089, 39.363069534301765], [54.77381115177969, 39.38899040222169], [54.752418199699115, 39.357318878173835]],
-        author: 'VEKOVISCH',
-        owner: 'VEKOVISCH'
+        author: ['VEKOVISCH','KUZNTSV_RZN'],
+        owner: 'KUZNTSV_RZN'
     },
     {
         name: 'Фефелов Бор',
@@ -1153,7 +1160,8 @@ let ryazanMaps = [
     },
     {
         name: 'Шевцово',
-        year: 2023,
+        year: 2022,
+        correct: 2023,
         url: './maps/ryazan/shevtsovo_2023.webp',
         link: './original_maps/ryazan/shevtsovo_2023_omaps.gif',
         bounds: [[54.371283603944754, 39.86135959625245], [54.36707097322616, 39.894683361053474], [54.35814426852959, 39.85702514648438]],

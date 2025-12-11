@@ -408,7 +408,7 @@ let owners = {
     /* --- Рязань --- */
 
     ANDREYKN: {
-        name: '© Андрейкин А.'
+        name: '© Андрейкин Алексей'
     },
     VEKOVIS: {
         name: '© Вековищев Валерий'
@@ -421,6 +421,9 @@ let owners = {
     },
     KORNEEV: {
         name: '© Корнеев Валерий'
+    },
+    KUZNTSV_RZN: {
+        name: '© Кузнецов'
     },
     SOKOLOV: {
         name: '© Соколов Владимир'
@@ -440,6 +443,9 @@ let owners = {
     },
     SHIBANOV_V: {
         name: '© Шибанов Владимир'
+    },
+    VEKOVISCH: {
+        name: '© Вековищев Валерий'
     },
 
     /* --- Самара --- */

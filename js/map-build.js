@@ -200,6 +200,9 @@ function allocateMap(m, imgLayer) {
 
         if (isOrientMap(m)) {
             let y = year(m);
+            if (m.correct) {
+                y = m.correct;
+            }
             if (!y) {
                 pushGroupToMap(m, groupUnknownYear);
             } else if (y >= 2020) {
