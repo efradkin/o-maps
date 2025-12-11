@@ -244,9 +244,10 @@
         function renderMapsTable() {
             tbody.innerHTML = '';
 
+            let idx = 0;
+            let prevYear = 0;
             let currentMonth = -1;
-            for (let i = 0; i < oEvents.length; i++) {
-                let event = oEvents[i];
+            for (const event of oEvents) {
                 currentDate = new Date(event.date);
                 let month = currentDate.getMonth();
                 if (currentSort === 'date' && month !== currentMonth) {
@@ -289,7 +290,12 @@
                         kothers++;
                     }
                 }
-                td(row, buildNumber(event, i));
+                const y = currentDate.getFullYear();
+                if (y !== prevYear) {
+                    prevYear = y;
+                    idx = 0;
+                }
+                td(row, buildNumber(event, idx++));
                 td(row, buildDate(event));
                 td(row, buildStart(event));
                 td(row, buildPlace(event));

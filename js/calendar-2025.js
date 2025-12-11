@@ -2212,6 +2212,14 @@ let events_2025 =
         owner: 'WN'
     }, {
         date: '2025-12-13',
+        place: 'Осиновая Роща',
+        name: 'Длительная серия №13',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251213_Dlit_13',
+        reg: 'http://orgeo.ru/event/48473',
+        owner: 'DLT',
+    }, {
+        date: '2025-12-13',
         place: 'Саблино, Жемчужная пещера',
         name: 'Соревнования по подземному ориентированию',
         type: 'ORIENT',

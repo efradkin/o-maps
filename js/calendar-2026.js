@@ -69,6 +69,13 @@ let events_2026 =
         fmt: 'лонг, спринт',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-02-21',
+        place: 'Орехово',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '5, 3',
+        start: 'GK'
+    },{
         date: '2026-02-22',
         place: 'Кировск',
         name: 'ЧиП ЛО',
@@ -143,6 +150,13 @@ let events_2026 =
         owner: 'SFSO_SPB'
     },{
         date: '2026-05-02',
+        place: 'Луга',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '5(4), 2',
+        start: 'GK'
+    },{
+        date: '2026-05-02',
         name: 'Мемориал Ирины Вилениновны Степановой',
         place: 'Сосново',
         type: 'ORIENT',
@@ -215,13 +229,13 @@ let events_2026 =
         type: 'ORIENT',
         owner: 'SFSO_SPB'
     }, {
-        date: '2025-05-24',
+        date: '2026-05-24',
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         link: ['https://t.me/pmarshbrosok','https://vk.com/mbrosok'],
         start: 'MB'
     }, {
-        date: '2025-05-30',
+        date: '2026-05-30',
         name: 'ЧиП СПб, ЧиП ЛО',
         place: 'Лейпясуо',
         type: 'ORIENT',
@@ -245,6 +259,13 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'SFSO_SPB'
+    },{
+        date: '2026-06-06',
+        place: 'Кузнечное',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '24, 8(7), 3',
+        start: 'GK'
     },{
         date: '2026-06-07',
         name: 'Кубок D2RUN, 2 этап',
@@ -286,6 +307,13 @@ let events_2026 =
         place: 'Сосново',
         type: 'ORIENT',
         owner: 'WN'
+    },{
+        date: '2026-07-04',
+        place: 'Орехово',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '6(5), 3',
+        start: 'GK'
     },{
         date: '2026-07-09',
         endDate: '2026-07-19',
@@ -369,6 +397,13 @@ let events_2026 =
         type: 'ORIENT',
         owner: 'WN'
     },{
+        date: '2026-09-19',
+        place: 'Молодёжное',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '5(4), 2',
+        start: 'GK'
+    },{
         date: '2026-09-20',
         name: 'ЧиП СПб',
         type: 'VELO',
@@ -389,6 +424,12 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'лонг',
         owner: 'SFSO_SPB'
+    },{
+        date: '2026-10-10',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '2(1)',
+        start: 'GK'
     },{
         date: '2026-10-10',
         name: 'ЧиП СПб',
@@ -421,13 +462,13 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'спринт',
     }, {
-        date: '2025-10-24',
+        date: '2026-10-24',
         name: '50 Вёрст',
         fmt: 'ночная эстафета',
         type: 'ORIENT',
         owner: 'NW',
     }, {
-        date: '2025-10-25',
+        date: '2026-10-25',
         name: '5 Вёрст',
         fmt: 'детская эстафета',
         type: 'ORIENT',
@@ -446,6 +487,13 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'лонг (гандикап)',
         owner: 'DLT'
+    },{
+        date: '2026-11-07',
+        place: 'Орехово',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '6(5), 3',
+        start: 'GK'
     },{
         date: '2026-11-15',
         name: 'Первенство ГБУ ДО СШОР им. Коренькова',
