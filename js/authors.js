@@ -685,7 +685,7 @@ let authors = {
 
     /* --- РЯЗАНЬ --- */
 
-    ANDREYK: { name: 'Андрейкин А.' },
+    ANDREYKN: { name: 'Андрейкин А.' },
     BELOKUR: { name: 'Белокуров В.' },
     VEKOVISCH: { name: 'Вековищев Валерий' },
     VNKRV_V: { name: 'Винокуров Василий' },
@@ -707,11 +707,13 @@ let authors = {
     MITIN: { name: 'Митин' },
     MOROZOV: { name: 'Морозов Станислав' },
     MILIDIN: { name: 'Милидин Андрей' },
+    NKTN_V: { name: 'Никитин В.' },
     NVKV_S: { name: 'Новиков Сергей' },
     POSKREB: { name: 'Поскребышев А.' },
     ROZENFE: { name: 'Розенфельд' },
     SOKOLOV: { name: 'Соколов Владимир' },
     TARASOV: { name: 'Тарасов А.' },
+    TMFV_K: { name: 'Тимофеев К.' },
     FROLOV: { name: 'Фролов Владимир' },
     TSVETKOV: { name: 'Цветков' },
     CHERNOV: { name: 'Чернов Ю.' },

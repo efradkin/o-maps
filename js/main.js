@@ -886,7 +886,7 @@ function buildMap(m) {
 
     let bounds = m.bounds;
     if (bounds.length === 1) {
-        bounds.push([bounds[0][0],[bounds[0][1] + 0.01]]);
+        bounds.push([bounds[0][0],[bounds[0][1] + 0.02]]);
         bounds.push([bounds[0][0] - 0.01,bounds[0][1]]);
         m.bounds = bounds;
     }
@@ -1022,6 +1022,9 @@ function mapTitle(m, forStart, colored) {
         let sy = startYear(m);
         if (forStart && sy) {
             year = sy;
+        }
+        if (m.correct) {
+            year += ', корректировка ' + m.correct;
         }
         result += '&nbsp;(' + year + ')';
     }

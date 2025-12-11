@@ -407,7 +407,7 @@ let owners = {
 
     /* --- Рязань --- */
 
-    ANDREYK: {
+    ANDREYKN: {
         name: '© Андрейкин А.'
     },
     VEKOVIS: {

@@ -306,7 +306,7 @@
         }
 
         function buildMonth() {
-            let year = currentDate.getFullYear();
+            let year = prevDate.getFullYear();
             let monthName = prevDate.toLocaleString('ru', { month: 'long' }).toUpperCase().split('').join(' ');
             monthTD.innerHTML = `${monthName}&nbsp;&nbsp;&nbsp;${year}&nbsp;&nbsp;&nbsp;(ориенты: ${korients}, рогейны: ${krogaines}, прочие: ${kothers})`;
             korients = krogaines = kothers = 0;
