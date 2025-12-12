@@ -2215,6 +2215,7 @@ let events_2025 =
         place: 'Осиновая Роща',
         name: 'Длительная серия №13',
         type: 'ORIENT',
+        fmt: 'гроздь',
         link: 'https://o-site.spb.ru/race.php?id=251213_Dlit_13',
         reg: 'http://orgeo.ru/event/48473',
         owner: 'DLT',
