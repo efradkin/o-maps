@@ -682,6 +682,14 @@ let toksovoMaps = [
         type: ['PARK']
     },
     {
+        name: 'Гарболово, оз Сиркоярви',
+        year: 1969,
+        url: './maps/forest/toksovo/sirkojarvi_1969.webp',
+        link: './original_maps/forest/toksovo/sirkojarvi_1969_omaps.jpg',
+        info: '10 лет спортивного ориентирования в Ленинграде.',
+        bounds: [[60.38841601607084, 30.513668060302738], [60.38981553111232, 30.599670410156254], [60.34207085274035, 30.518474578857425]],
+    },
+    {
         name: 'Лехтуси',
         year: 1,
         url: './maps/forest/toksovo/lehtusi_old.webp',
