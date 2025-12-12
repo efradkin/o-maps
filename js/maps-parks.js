@@ -571,8 +571,9 @@ let parkMaps = [
         month: 1,
         start: 'RED_SELO_FOTO',
         url: './maps/parks/sergievka_1989.webp',
-        link: ['./original_maps/parks/sergievka_1989_omaps.jpg','./original_maps/parks/sergievka_1989_pictures.jpg'],
+        link: ['./original_maps/parks/sergievka_1989_clean_omaps.jpg','./original_maps/parks/sergievka_1989_omaps.jpg','./original_maps/parks/sergievka_1989_pictures.jpg'],
         bounds: [[59.899850648980106, 29.820370674133304], [59.8984946973319, 29.853544235229496], [59.885491970278125, 29.821143150329593]],
+        author: 'OSMCHN',
         type: ['PARK','FOTO']
     },
     {
