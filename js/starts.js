@@ -236,6 +236,12 @@ let starts = {
         major: true,
         region: 'LNGRD'
     },
+    START_1968: {
+        short: '1-я многодневка\'1968',
+        name: '<a href="https://o-site.spb.ru/history/History/fenomen.html">Первые многодневные соревнования</a>',
+        major: true,
+        region: 'LNGRD'
+    },
     VOLKOV_A: {
         short: 'Мемориал Андрея Волкова',
         name: 'Мемориал Андрея Волкова',

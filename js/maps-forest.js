@@ -491,7 +491,7 @@ let forestMaps = [
     {
         name: 'Заходское',
         year: 1968,
-        info: '<a href="https://o-site.spb.ru/history/History/fenomen.html">Первые многодневные соревнования</a>.',
+        start: 'START_1968',
         url: './maps/forest/zahodskoe_1968.webp',
         link: './original_maps/forest/zahodskoe_1968_omaps.jpg',
         bounds: [[60.4162253941698, 29.369373321533207], [60.41491176636754, 29.475460052490238], [60.379254068536234, 29.366111755371097]]
@@ -499,10 +499,18 @@ let forestMaps = [
     {
         name: 'Каннельярви',
         year: 1968,
-        info: '<a href="https://o-site.spb.ru/history/History/fenomen.html">Первые многодневные соревнования</a>.',
+        start: 'START_1968',
         url: './maps/forest/kanneljarvi_1968.webp',
         link: './original_maps/forest/kanneljarvi_1968_omaps.jpg',
         bounds: [[60.38943385115715, 29.384651184082035], [60.38693161620689, 29.42173004150391], [60.31351798708459, 29.35976028442383]]
+    },
+    {
+        name: 'Гладышевское оз',
+        year: 1968,
+        start: 'START_1968',
+        url: './maps/forest/gladyshevskoe_1968.webp',
+        link: './original_maps/forest/gladyshevskoe_1968_omaps.jpg',
+        bounds: [[60.32618290524434, 29.316158294677738], [60.32329335645696, 29.413061141967777], [60.293490597455005, 29.313669204711918]],
     },
     {
         name: 'Каннельярви, карьер',
