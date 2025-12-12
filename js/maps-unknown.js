@@ -254,4 +254,20 @@ let unknownMaps = [
         year: 1977,
         link: './original_maps/unknown/unknown_57_omaps.jpg',
     },
+    {
+        year: 1,
+        name: 'Выборг, Кировские дачи (юг)',
+        info: 'Золотая осень?',
+        link: './original_maps/unknown/unknown_58_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'Выборг, Кировские дачи (север)',
+        link: './original_maps/unknown/unknown_59_omaps.jpg',
+    },
+    {
+        year: 1,
+        name: 'Выборг, Сайменские дачи',
+        link: './original_maps/unknown/unknown_60_omaps.jpg',
+    },
  ];
