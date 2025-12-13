@@ -763,10 +763,18 @@ let authors = {
     /* --- ПРОЧЕЕ --- */
 
     AFNSV_L: { name: 'Афанасьев Л.' },
+    ATMNTSV: { name: 'Атаманцев С.' },
+    BBRN_R: { name: 'Байбурин Р.' },
+    BCHNV_A: { name: 'Бучнев А.' },
+    VHTV_A: { name: 'Вахитов А.' },
     GLTSKY_V: { name: 'Гелецкий В.' },
+    GSMNV_R: { name: 'Гусманов Р.' },
     KLM_K: { name: 'Калм К.' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },
+    KUZNTSV_S_DV: { name: 'Кузнецов Сергей' },
+    KUZNTSV_V_DV: { name: 'Кузнецов В.' },
     LSHV_A: { name: 'Лайшев Алексей' },
+    PNCHKV: { name: 'Панчуков С.' },
     TRFNV_A: { name: 'Труфанов Александр' }, // Федорович
 };
 

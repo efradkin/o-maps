@@ -2,18 +2,19 @@ let events_2026 =
 [
     {
         date: '2026-01-10',
-        place: 'Колосково',
-        name: 'Зимний рогейн',
-        type: ['ROGAINE','SKI'],
-        fmt: '4',
-        start: 'MULTSPORT'
-    },{
-        date: '2026-01-10',
         place: 'Лемболово',
         name: 'Новогодняя эстафета',
         type: 'SKI',
         fmt: 'эстафета, маркир',
         owner: 'SFSO_SPB'
+    },{
+        date: '2026-01-11',
+        place: 'Колосково',
+        name: 'Зимний рогейн',
+        link: 'https://www.multsport.ru/starts/winter-rogaine-26/',
+        type: ['ROGAINE','SKI'],
+        fmt: '4',
+        start: 'MULTSPORT'
     },{
         date: '2026-01-11',
         place: 'Кировск',

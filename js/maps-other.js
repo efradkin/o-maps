@@ -101,6 +101,82 @@ let otherMaps = [
         author: 'TRFNV_A',
         region: 'DV'
     },
+    {
+        name: 'Атамановка',
+        year: 1988,
+        url: './maps/dv/atamanovka_1988.webp',
+        link: './original_maps/dv/atamanovka_1988_omaps.jpg',
+        bounds: [[51.947068937450204, 113.64725589752199], [51.951354046542924, 113.68639469146729], [51.92124381280325, 113.65257740020752]],
+        author: ['GSMNV_R','BCHNV_A'],
+        region: 'CHTA'
+    },
+    {
+        name: 'Верх.Карповка',
+        year: 1985,
+        url: './maps/dv/high_karpovka_1985.webp',
+        link: './original_maps/dv/high_karpovka_1985_omaps.jpg',
+        bounds: [[52.23815515549662, 113.52893829345705], [52.24188683382461, 113.5726261138916], [52.2113409192666, 113.53537559509279]],
+        author: ['KUZNTSV_V_DV','VEKOVISCH','KUZNTSV_S_DV','PNCHKV'],
+        region: 'CHTA'
+    },
+    {
+        name: 'гора Чита',
+        year: 1986,
+        url: './maps/dv/chita_mntn_1986.webp',
+        link: './original_maps/dv/chita_mntn_1986_omaps.jpg',
+        bounds: [[52.04114119231819, 113.53949546813965], [52.044678254987325, 113.58017921447755], [52.01864526044008, 113.54640483856203]],
+        author: ['BBRN_R','VHTV_A'],
+        region: 'CHTA'
+    },
+    {
+        name: 'Карповка',
+        year: 1986,
+        url: './maps/dv/karpovka_1986.webp',
+        link: './original_maps/dv/karpovka_1986_omaps.jpg',
+        bounds: [[52.216810234735156, 113.54473114013672], [52.22075403470394, 113.58944892883302], [52.18924644741894, 113.54919433593751]],
+        author: ['VHTV_A','PNCHKV','ATMNTSV'],
+        region: 'CHTA'
+    },
+/*
+    {
+        name: 'Лебяжьи озера',
+        year: 1,
+        url: './maps/dv/swan_lakes_old.webp',
+        link: './original_maps/dv/swan_lakes_old_omaps.jpg',
+        bounds: [[52.216810234735156, 113.54473114013672], [52.22075403470394, 113.58944892883302], [52.18924644741894, 113.54919433593751]],
+        author: ['VHTV_A','PNCHKV','ATMNTSV'],
+        region: 'CHTA'
+    },
+*/
+    {
+        name: 'Окружная',
+        year: 1986,
+        url: './maps/dv/ring_road_1986.webp',
+        link: './original_maps/dv/ring_road_1986_omaps.jpg',
+        bounds: [[52.07945325502219, 113.48679542541504], [52.08140491817397, 113.51031303405763], [52.063441121356036, 113.49005699157716]],
+        author: ['ATMNTSV','BBRN_R'],
+        logo: 'chita_mikky.webp',
+        region: 'CHTA'
+    },
+    {
+        name: 'Орбита',
+        year: 1985,
+        url: './maps/dv/orbita_1985.webp',
+        link: './original_maps/dv/orbita_1985_omaps.jpg',
+        bounds: [[52.05494470942748, 113.51602077484132], [52.057609907000106, 113.54953765869142], [52.03628387406958, 113.52026939392091]],
+        author: ['VEKOVISCH','KUZNTSV_V_DV','KUZNTSV_S_DV','PNCHKV'],
+        logo: 'chita_mikky.webp',
+        region: 'CHTA'
+    },
+    {
+        name: 'р Сухая',
+        year: 1988,
+        url: './maps/dv/dry_river_1988.webp',
+        link: './original_maps/dv/dry_river_1988_omaps.jpg',
+        bounds: [[52.08335649599008, 113.50653648376466], [52.086890217029634, 113.55537414550783], [52.036389473556774, 113.51675033569337]],
+        author: ['GSMNV_R','ATMNTSV'],
+        region: 'CHTA'
+    },
     // --- Не Россия ---
     {
         name: 'Казахстан, Каркаралинск',

@@ -10,6 +10,7 @@ const regions = {
     ORBG: 'Оренбург',
     KRL: 'Карелия',
     KZ: 'Казахстан',
+    CHTA: 'Чита',
 };
 
 const dic = {

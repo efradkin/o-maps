@@ -2208,8 +2208,10 @@ let events_2025 =
         fmt: 'спринт',
         link: 'https://o-site.spb.ru/race.php?id=251213_bn',
         reg: 'http://orgeo.ru/event/info/mistolovo',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23960/',
         map: 'mistolovo_2021',
-        owner: 'WN'
+        owner: 'WN',
+        me: 'М'
     }, {
         date: '2025-12-13',
         place: 'Осиновая Роща',
@@ -2218,6 +2220,7 @@ let events_2025 =
         fmt: 'гроздь',
         link: 'https://o-site.spb.ru/race.php?id=251213_Dlit_13',
         reg: 'http://orgeo.ru/event/48473',
+        res: 'https://t.me/dlitelnyy/411',
         owner: 'DLT',
     }, {
         date: '2025-12-13',
@@ -2245,6 +2248,17 @@ let events_2025 =
         fmt: 'спринт',
         link: 'https://vk.com/wall-201330282_2053',
         owner: 'YUVNT'
+    }, {
+        date: '2025-12-20',
+        place: 'Антифитнес на Газовой',
+        name: 'Что-то с чем-то',
+        type: 'ORIENT',
+        fmt: 'ночное',
+        link: 'https://t.me/across_the_runiverse/14677',
+        reg: 'https://forms.gle/K3q1zgUUJoxEgKEN6',
+        map: 'gazovaya_2025',
+        owner: 'DLT',
+        logo: 'across.gif'
     }, {
         date: '2025-12-21',
         place: 'Кавголово',
