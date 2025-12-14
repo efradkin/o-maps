@@ -2238,8 +2238,14 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251214_ST',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1709',
+        gps: {
+            'М20,21,35':'https://viewer.o-gps-center.ru/viewer/event/23968/',
+            'Все КП':'https://viewer.o-gps-center.ru/viewer/event/23969/',
+        },
+        photo: 'https://vk.com/album-230167293_312031217',
         map: 'politekh_2022',
         owner: 'SFSO_SPB',
+        any: '<a href="http://o-route.ru/">Треки участников</a>'
     }, {
         date: '2025-12-20',
         place: 'Сосновый Бор',

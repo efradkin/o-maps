@@ -177,6 +177,14 @@ let otherMaps = [
         author: ['GSMNV_R','ATMNTSV'],
         region: 'CHTA'
     },
+    {
+        name: 'гора Батарейная',
+        year: 1,
+        url: './maps/dv/batareynaya_old.webp',
+        link: './original_maps/dv/batareynaya_old_omaps.jpg',
+        bounds: [[52.02144466652407, 113.51992607116699], [52.0208372631053, 113.56056690216066], [51.994684688372, 113.51953983306886]],
+        region: 'CHTA'
+    },
     // --- Не Россия ---
     {
         name: 'Казахстан, Каркаралинск',
