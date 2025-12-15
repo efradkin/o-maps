@@ -75,8 +75,11 @@ if (MAP_NAME_PARAM) {
 }
 
 function loadMaps() {
-    let inFrames = true;
+    if (ONLY_MAP_NAME_PARAM || ONLY_TRACK_NAME_PARAM) {
+        return; // do nothing in this case
+    }
 
+    let inFrames = true;
     for (const m of oMaps) {
         if (map) {
             let viewBounds = map.getBounds();
@@ -638,9 +641,7 @@ if (mapElement) {
             }
         }
 
-        if (!ONLY_MAP_NAME_PARAM && !ONLY_TRACK_NAME_PARAM) {
-            loadMaps();
-        }
+        loadMaps();
 
         if (loadTracksRequired) {
             setTimeout(loadTracks, 1000);
