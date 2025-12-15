@@ -956,6 +956,15 @@ let parkMaps = [
     },
     {
         name: 'Павловский парк',
+        year: 1,
+        url: './maps/parks/pavlovsk_retro.webp',
+        link: './original_maps/parks/pavlovsk_retro_omaps.jpg',
+        bounds: [[59.708027825166575, 30.434103012084964], [59.70620944584369, 30.491952896118168], [59.68438118751815, 30.431356430053714]],
+        author: 'TRSV',
+        type: ['PARK']
+    },
+    {
+        name: 'Павловский парк',
         year: 2003,
         url: './maps/parks/pavlovsk_2012.webp',
         link: ['./original_maps/parks/pavlovsk_2012_omaps.jpg','./original_maps/parks/pavlovsk_2012_omaps.gif'],

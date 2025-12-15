@@ -280,6 +280,20 @@ let vaskelovoMaps = [
         owner: 'WN'
     },
     {
+        name: 'Гарболово',
+        year: 1978,
+        url: './maps/forest/vaskelovo/garbolovo_1978.webp',
+        link: ['./original_maps/forest/vaskelovo/garbolovo_1978_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_1978_M_omaps.jpg'],
+        bounds: [[60.364572614458304, 30.502681732177738], [60.362110914069895, 30.539331436157227], [60.34003219049826, 30.500278472900394]],
+    },
+    {
+        name: 'Гарболово, Змеиное оз',
+        year: 1,
+        url: './maps/forest/vaskelovo/garbolovo_zmeinoe_retro.webp',
+        link: './original_maps/forest/vaskelovo/garbolovo_zmeinoe_retro_omaps.jpg',
+        bounds: [[60.34396074873837, 30.516414642333988], [60.33495621759792, 30.537915229797367], [60.33829073229022, 30.506715774536136]],
+    },
+    {
         name: 'Гарболово, Змеиное оз',
         year: 2022,
         url: './maps/forest/vaskelovo/garbolovo_zmeinoe_2022.webp',

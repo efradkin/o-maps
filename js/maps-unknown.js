@@ -17,12 +17,8 @@ let unknownMaps = [
     },
     {
         year: 1,
-        name: 'Луга, Шалово',
-        link: './original_maps/unknown/unknown_5_omaps.jpg',
-    },
-    {
-        year: 1,
         name: 'Кузьмолово, Токсово',
+        info: 'Похожа на <a href="./spb.html?map=kuzmolovo_east_old">карту Чегаровского</a>, но другой масштаб, сечение и ч/б.',
         link: './original_maps/unknown/unknown_6_omaps.jpg',
     },
     {
@@ -56,20 +52,10 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_13_omaps.jpg',
     },
     {
-        year: 1,
+        year: 1983,
         name: 'Сярьги, Охта-Парк',
+        info: 'Очевидно, это ч/б кусочек <a href="./spb.html?map=sjargi_1983">карты Чегаровских</a> 1983.',
         link: './original_maps/unknown/unknown_14_omaps.jpg',
-    },
-    {
-        year: 1,
-        name: 'Гарболово, Змеиное оз',
-        link: './original_maps/unknown/unknown_15_omaps.jpg',
-    },
-    {
-        year: 1974,
-        name: 'Корабсельки',
-        info: 'Матч Эстония-Ленинград, маркир. Одновременно - перезабег чемпионата Ленинграда, который был отменен из-за гололеда, хотя дистанции были полностью готовы (А. Лисененков и его бригада). Карту никто не корректировал, чертил рельеф с основы Крылов, а раскрашивать помогал Ширинян.',
-        link: './original_maps/unknown/unknown_17_omaps.jpg',
     },
     {
         year: 1,
@@ -125,11 +111,6 @@ let unknownMaps = [
     },
     {
         year: 1,
-        name: 'Павловск',
-        link: './original_maps/unknown/unknown_31_omaps.jpg',
-    },
-    {
-        year: 1,
         name: 'Кавголово',
         link: './original_maps/unknown/unknown_32_omaps.jpg',
     },
@@ -138,17 +119,6 @@ let unknownMaps = [
         name: 'п/л Ласточка',
         info: '31.12.1976 - 09.01.1977',
         link: './original_maps/unknown/unknown_33_omaps.jpg',
-    },
-    {
-        year: 1978,
-        info: 'Зенит',
-        link: ['./original_maps/unknown/unknown_34_omaps.jpg','./original_maps/unknown/unknown_35_omaps.jpg']
-    },
-    {
-        year: 1973,
-        name: 'Сосново',
-        info: 'Маркир первенства Ленинграда. Карту делали Ширинян с Грязневичем.',
-        link: './original_maps/unknown/unknown_36_omaps.jpg'
     },
     {
         year: 1977,
@@ -160,13 +130,6 @@ let unknownMaps = [
         year: 1,
         info: 'Яппиля',
         link: './original_maps/unknown/unknown_38_omaps.jpg',
-    },
-    {
-        year: 1972,
-        name: 'Кавголово',
-        info: 'Труд-Буревестник, эстафета. Первая самостоятельная карта А.Шириняна.',
-        link: './original_maps/unknown/unknown_39_omaps.jpg',
-        author: 'SHRNN'
     },
     {
         date: '1974-11-17',
@@ -243,12 +206,6 @@ let unknownMaps = [
         year: 1,
         name: 'Зеленогорск, Щучье оз',
         link: './original_maps/unknown/unknown_54_omaps.jpg',
-    },
-    {
-        year: 1,
-        name: 'Осельки - Кавголово',
-        info: 'III Матч МО - ЛО',
-        link: './original_maps/unknown/unknown_55_omaps.jpg',
     },
     {
         year: 1977,
