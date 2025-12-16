@@ -469,6 +469,10 @@ label:has(> span span .layer-separator) {
     font-size: 8px;
     color: navy;
 }
+#lng_container {
+    font-size: .5em;
+    padding-left: 20px;
+}
 
 /* --- MAP INFO --- */
 #start_info {

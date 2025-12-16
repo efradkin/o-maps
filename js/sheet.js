@@ -81,10 +81,16 @@ if (TYPE_PARAM) {
 
 // строит табличку с инфой об авторах-составителях
 function renderMapsTable() {
+    const rusOnly = (typeof onlyRus !== 'undefined') && onlyRus;
     tbody.innerHTML = '';
 
     for (let i = 0; i < oMaps.length; i++) {
         let m = oMaps[i];
+
+        if (rusOnly && m.lng && (m.lng !== 'rus')) {
+            continue;
+        }
+
         const row = document.createElement('tr');
         td(m, row, i + 1);
         td(m, row, buildName(m));
@@ -140,8 +146,11 @@ function buildName(m) {
     if (logo) {
         result += '<img src="./logo/' + logo + '" alt="" class="sheet-icon" /> ';
     }
+    if (m.outdated) {
+        result += '<s>';
+    }
     let name = m.name ?? 'Нечто';
-    let regionRequired = (typeof regionViewRequired !== 'undefined') && regionViewRequired;
+    const regionRequired = (typeof regionViewRequired !== 'undefined') && regionViewRequired;
     if (regionRequired) {
         if (m.region) {
             name = regions[m.region] + ', ' + name;
@@ -160,6 +169,9 @@ function buildName(m) {
     }
     if (m.lng) {
         result += ` <sup class="my-race">${m.lng}</sup>`;
+    }
+    if (m.outdated) {
+        result += '</s>';
     }
     return result;
 }

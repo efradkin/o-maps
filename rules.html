@@ -46,10 +46,17 @@
     <h1>
         <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
     </h1>
-    <h2 class="text-center">Документы и правила, относящиеся к проведению соревнований по ориентированию (рогейну) и картографии</h2>
+    <h2 class="text-center">
+        Документы и правила проведения о-стартов и картографии
+
+        <sup id="lng_container">
+            <input type="checkbox" id="only-rus" name="only-rus" onclick="switchRus(this.checked);" />
+            <label for="only-rus">только на русском</label>
+        </sup>
+    </h2>
 
     <div class="o-sheet-roof">
-        <a href="#" onclick="downloadSheetTable('o-maps-documents.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+        <a href="#" onclick="downloadSheetTable('o-maps-rules.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
     <div class="o-sheet-wrapper">
         <table class="o-main-table o-sheet">
@@ -81,11 +88,24 @@
         let documentsPage = true;
         let unknownPage = true;
         let directURLs = true;
+        let onlyRus = false;
 
         let oMaps = [
             ...rules,
         ];
         writeWelcomeButton();
+
+        function switchRus(value) {
+            localStorage.setItem('onlyRus', value);
+            location.reload();
+        }
+        let rus = localStorage.getItem('onlyRus');
+        if (rus != null) {
+            onlyRus = (rus === 'true');
+        }
+        if (onlyRus) {
+            document.getElementById('only-rus').checked = 'checked';
+        }
     </script>
 
     <script src="js/map-build.js"></script>

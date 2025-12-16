@@ -25,17 +25,20 @@ let rules = [
         year: 2001,
         url: './docs/iof_isom_ 2000_2011_omaps.pdf',
         owner: 'IOF',
-        lng: 'en'
+        lng: 'en',
+        outdated: true
     },
     {
         name: 'Международные требования для карт ориентирования, ISOM 2000',
         year: 2001,
         url: 'https://moscompass.ru/news/rules/isom2000/index.htm',
+        outdated: true
     },
     {
         name: 'Условные знаки карт для спортивного ориентирования ISOM 2000',
         year: 2001,
         url: 'https://orient-murman.ru/images/pdf/International_Specification_for_Orienteering_Maps_2000_ru.pdf',
+        outdated: true
     },
     {
         name: 'International Specification for Sprint Orienteering Maps, ISSprOM 2019-2 rev 6',
@@ -107,6 +110,45 @@ let rules = [
         url: './docs/iof_printing_rev_4_2024_omaps.pdf',
         owner: 'IOF',
         lng: 'en'
+    },
+    {
+        name: 'International Specifcation for Control Descriptions',
+        year: 2024,
+        url: './docs/iof_control_descriptions_2024_omaps.pdf',
+        owner: 'IOF',
+        lng: 'en'
+    },
+    {
+        name: 'Международные описания контрольных пунктов (легенды)',
+        year: 2018,
+        url: 'https://rufso.ru/wp-content/uploads/2022/05/Легенды.pdf',
+        owner: 'FSOR'
+    },
+    {
+        name: 'IOF Guidelines for Course Planning Foot-O Forest Competitions',
+        year: 2020,
+        url: './docs/iof_course_planning_forest_2020_omaps.pdf',
+        owner: 'IOF',
+        lng: 'en'
+    },
+    {
+        name: 'Руководство ИОФ по планированию дистанций (трасс) соревнований по спортивному ориентированию бегом (лесные дисциплины)',
+        year: 2020,
+        url: 'https://rufso.ru/wp-content/uploads/2020/07/2020-Лес-Руководство-ИОФ-по-планированию-ЛЕСНЫХ-дистанций-1.pdf',
+        owner: 'FSOR'
+    },
+    {
+        name: 'IOF Guidelines for Course Planning Foot-O Sprint Competitions',
+        year: 2020,
+        url: './docs/iof_course_planning_sprint_2020_omaps.pdf',
+        owner: 'IOF',
+        lng: 'en'
+    },
+    {
+        name: 'Руководство ИОФ по планированию дистанций (трасс) соревнований по спортивному ориентированию бегом (спринтерские дисциплины)',
+        year: 2020,
+        url: 'https://rufso.ru/wp-content/uploads/2020/07/2020-Спринт-Руководство-ИОФ-по-планированию-СПРИНТЕРСКИХ-дистанций-1.pdf',
+        owner: 'FSOR'
     },
     {
         name: 'IRF Rules of Rogaining',
