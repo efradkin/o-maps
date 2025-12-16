@@ -188,6 +188,22 @@ let owners = {
         name: 'Карта принадлежит СФСО СПб. По вопросам использования карты - info@spbof.ru.',
         logo: 'sfso.gif'
     },
+    FSOR: {
+        name: '@ ФСОР',
+        logo: 'fsor.webp'
+    },
+    IOF: {
+        name: '@ International Orienteering Federation (IOF)',
+        logo: 'iof.gif'
+    },
+    IRF: {
+        name: '@ International Rogaine Federation (IRF)',
+        logo: 'irf.gif'
+    },
+    RRF: {
+        name: '@ Федерация рогейна России',
+        logo: 'rrf.gif'
+    },
     SHLKHN_AN: {
         name: '© Шелёхин Анатолий, <a href="markir.spb.ru">markir.spb.ru</a>.'
     },

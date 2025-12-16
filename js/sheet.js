@@ -133,8 +133,12 @@ function td(m, row, html) {
 
 function buildName(m) {
     let result = '';
-    if (m.logo) {
-        result += '<img src="./logo/' + m.logo + '" alt="" class="sheet-icon" /> ';
+    let logo = m.logo;
+    if (m.owner && owners[m.owner].logo) {
+        logo = owners[m.owner].logo;
+    }
+    if (logo) {
+        result += '<img src="./logo/' + logo + '" alt="" class="sheet-icon" /> ';
     }
     let name = m.name ?? 'Нечто';
     let regionRequired = (typeof regionViewRequired !== 'undefined') && regionViewRequired;
@@ -146,12 +150,16 @@ function buildName(m) {
         }
     }
     if (m.url) {
-        result += '<a href="' + mapLink(m.url, m) + '">' + name + '</a>';
+        const url = (typeof directURLs !== 'undefined') && directURLs ? m.url : mapLink(m.url, m);
+        result += '<a href="' + url + '">' + name + '</a>';
     } else {
         result += name;
     }
     if (m.me) {
         result += ` <sup class="my-race">${m.me}</sup>`;
+    }
+    if (m.lng) {
+        result += ` <sup class="my-race">${m.lng}</sup>`;
     }
     return result;
 }
@@ -262,7 +270,7 @@ function buildInfo(m) {
 function sortMapsTable() {
     document.body.style.cursor = 'wait';
 
-    const sortable = document.querySelector('.o-sheet th.sortable[data-order="asc"], .o-sheet th.sortable[data-order="desc"]');
+    const sortable = document.querySelector('.o-sheet th.sortable[data-order="asc"], .o-sheet th.sortable[data-order="desc"], .o-sheet th.sortable');
     if (sortable !== this) {
         sortable.dataset.order = '';
     }

@@ -322,12 +322,12 @@ label:has(> span span .layer-separator) {
 }
 .o-main-table {
     width: 100%;
-    background-color: white;
+    background-color: lightgray;
     border: solid 1px gray;
     font-size: 14px;
     border-collapse: collapse;
     tr:nth-child(odd) {
-        background-color: lightgray;
+        background-color: white;
     }
     td, th {
         text-align: left;

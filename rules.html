@@ -1,0 +1,95 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.83">
+    <title>o-Maps: Исторические документы</title>
+    <meta name="description" content="Карты? Найдутся все! Исторические документы.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <meta property="og:title" content="o-Maps: Исторические документы">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга. Исторические документы.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <base target="_blank">
+    <style>
+        td, th {
+            padding: 15px !important;
+        }
+    </style>
+</head>
+<body class="stat-body sheet-body">
+    <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+    <h1>
+        <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
+    </h1>
+    <h2 class="text-center">Документы и правила, относящиеся к проведению соревнований по ориентированию (рогейну) и картографии</h2>
+
+    <div class="o-sheet-roof">
+        <a href="#" onclick="downloadSheetTable('o-maps-documents.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+    </div>
+    <div class="o-sheet-wrapper">
+        <table class="o-main-table o-sheet">
+            <thead>
+            <tr>
+                <th>&nbsp</th>
+                <th data-sort="name" class="sortable">Название</th>
+                <th data-sort="year" class="sortable" id="year-column" style="text-align: left">Год</th>
+                <th>Доп.ссылки</th>
+                <th>&nbsp;</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="js/ext/leaflet.js"></script>
+
+    <script src="js/rules.js"></script>
+
+    <script src="js/welcome.js"></script>
+    <script src="js/owners.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/utils-common.js"></script>
+
+    <script>
+        let loadImagesRequired = false;
+        let mapsOnStore = false;
+        let documentsPage = true;
+        let unknownPage = true;
+        let directURLs = true;
+
+        let oMaps = [
+            ...rules,
+        ];
+        writeWelcomeButton();
+    </script>
+
+    <script src="js/map-build.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sheet.js"></script>
+</body>
+</html>

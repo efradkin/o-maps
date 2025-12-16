@@ -2121,6 +2121,7 @@ let events_2025 =
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/44912',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23931/',
+        video: 'https://disk.yandex.ru/i/PgKHbpnYhPkdJQ',
         owner: 'LM'
     }, {
         date: '2025-11-30',
@@ -2256,15 +2257,31 @@ let events_2025 =
         owner: 'YUVNT'
     }, {
         date: '2025-12-20',
+        place: 'Лемболово',
+        name: 'Длительная серия №14',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251220_Dlit_14',
+        reg: 'http://orgeo.ru/event/48581',
+        owner: 'DLT',
+    }, {
+        date: '2025-12-20',
         place: 'Антифитнес на Газовой',
         name: 'Что-то с чем-то',
-        type: 'ORIENT',
-        fmt: 'ночное',
+        type: 'ROGAINE',
+        fmt: 'дорогой ночной игровой по барам',
         link: 'https://t.me/across_the_runiverse/14677',
         reg: 'https://forms.gle/K3q1zgUUJoxEgKEN6',
         map: 'gazovaya_2025',
         owner: 'DLT',
         logo: 'across.gif'
+    }, {
+        date: '2025-12-21',
+        place: 'Приозерск',
+        name: 'XII Кубок Весты, этап 5',
+        type: 'ORIENT',
+        fmt: 'ночное',
+        link: 'https://vk.com/wall-30365190_8873',
+        owner: 'VST_PRZRSK'
     }, {
         date: '2025-12-21',
         place: 'Кавголово',
