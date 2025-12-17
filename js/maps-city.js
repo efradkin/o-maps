@@ -1541,7 +1541,16 @@ let cityMaps = [
         type: ['CITY']
     },
     {
-        name: 'улица Новоселов',
+        name: 'ул Крыленко, гимназия №343',
+        year: 2000,
+        url: './maps/city/krylenko_school_343_2025.webp',
+        link: './original_maps/city/krylenko_school_343_2025_omaps.gif',
+        bounds: [[59.90157241256712, 30.477018356323246], [59.899527808370514, 30.49405574798584], [59.8937376673402, 30.473327636718754]],
+        author: 'RYLOV_V',
+        type: ['CITY']
+    },
+    {
+        name: 'ул Новоселов',
         year: 2000,
         url: './maps/city/novoselov_2000.webp',
         link: './original_maps/city/novoselov_2000_omaps.jpg',
