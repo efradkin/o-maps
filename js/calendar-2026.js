@@ -68,6 +68,7 @@ let events_2026 =
         place: 'Зеркальный',
         type: 'SKI',
         fmt: 'лонг, спринт',
+        map: 'zerkalny_2002',
         owner: 'SFSO_SPB'
     },{
         date: '2026-02-21',
@@ -75,6 +76,7 @@ let events_2026 =
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '5, 3',
+        map: 'lembolovo_orekhovo_gk_2024',
         start: 'GK'
     },{
         date: '2026-02-22',
@@ -106,6 +108,7 @@ let events_2026 =
         name: 'Ice Trail',
         type: 'ROGAINE',
         fmt: '3, 6',
+        map: 'vuoksa_rogaine_2019',
         start: 'MULTSPORT'
     },{
         date: '2026-03-08',
@@ -119,6 +122,7 @@ let events_2026 =
         place: 'Романовка',
         type: 'ORIENT',
         fmt: 'спринт',
+        map: 'romanovka_2013',
         owner: 'DLT'
     },{
         date: '2026-04-11',
@@ -141,6 +145,7 @@ let events_2026 =
         place: 'Петергоф (ПУНК)',
         type: 'ORIENT',
         fmt: 'выбор',
+        map: 'peterhof_spbgu_2024',
         owner: 'SFSO_SPB'
     },{
         date: '2026-04-26',
@@ -155,6 +160,7 @@ let events_2026 =
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '5(4), 2',
+        map: 'luga_omchino_gk_2023',
         start: 'GK'
     },{
         date: '2026-05-02',
@@ -189,6 +195,7 @@ let events_2026 =
         place: 'Сосново, оз Уловное',
         type: 'ORIENT',
         fmt: 'эстафета',
+        map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'KUZM'
     },{
         date: '2026-05-11',
@@ -196,6 +203,7 @@ let events_2026 =
         place: 'Аньялово',
         type: 'ORIENT',
         fmt: 'классика',
+        map: 'anyalovo_2023',
         owner: 'SFSO_SPB'
     },{
         date: '2026-05-17',
@@ -203,6 +211,7 @@ let events_2026 =
         place: 'Поляны',
         type: 'ORIENT',
         fmt: 'эстафета 3х',
+        map: 'polyany_2019',
         owner: 'SFSO_SPB'
     },{
         date: '2026-05-16',
@@ -241,6 +250,7 @@ let events_2026 =
         place: 'Лейпясуо',
         type: 'ORIENT',
         fmt: 'эстафета 2х',
+        map: 'leypjasuo',
         owner: 'SFSO_SPB'
     },{
         date: '2026-05-30',
@@ -266,6 +276,7 @@ let events_2026 =
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '24, 8(7), 3',
+        map: 'kuznechnoe_2009',
         start: 'GK'
     },{
         date: '2026-06-07',
@@ -279,6 +290,7 @@ let events_2026 =
         place: 'Пруды',
         type: 'ORIENT',
         fmt: 'эстафета ночная',
+        map: 'kkp_prudy_2019_06_19',
         start: 'KKP'
     },{
         date: '2026-06-14',
@@ -286,6 +298,7 @@ let events_2026 =
         place: 'Пруды',
         type: 'ORIENT',
         fmt: 'эстафета детская',
+        map: 'kkp_prudy_2019_06_19',
         start: 'KKP'
     },{
         date: '2026-06-16',
@@ -293,6 +306,7 @@ let events_2026 =
         name: 'Камни Карельского перешейка',
         place: 'Пруды',
         type: 'ORIENT',
+        map: 'kkp_prudy_2019_06_19',
         start: 'KKP'
     },{
         date: '2026-06-26',
@@ -300,6 +314,7 @@ let events_2026 =
         name: 'Мемориал Михаила Святкина XXXII',
         place: 'Пески',
         type: 'ORIENT',
+        map: 'peski_2001',
         start: 'MMS'
     },{
         date: '2026-07-04',
@@ -314,6 +329,7 @@ let events_2026 =
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '6(5), 3',
+        map: 'lembolovo_orekhovo_gk_2024',
         start: 'GK'
     },{
         date: '2026-07-09',
@@ -329,6 +345,7 @@ let events_2026 =
         name: 'Летнее первенство Белых ночей',
         place: 'о Койонсаари',
         type: 'ORIENT',
+        map: 'koyonsaari_2024',
         owner: 'WN'
     },{
         date: '2026-07-18',
@@ -403,6 +420,7 @@ let events_2026 =
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '5(4), 2',
+        map: 'molodezhnoe_gk_2024',
         start: 'GK'
     },{
         date: '2026-09-20',
@@ -417,7 +435,8 @@ let events_2026 =
         place: 'Яппиля',
         type: 'ORIENT',
         fmt: 'выбор, классика, спринт',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'zerkalny_2002'
     },{
         date: '2026-09-27',
         name: 'Марафон на холмах Яппиля, ЧиП СПб',

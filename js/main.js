@@ -56,6 +56,8 @@ if (tl != null) {
 
 let mapOverlays = []; // all overlays to set their opacity
 
+const mapsCoords = {};
+
 let oTracks = [];
 if (typeof tracks !== 'undefined') {
     oTracks = [
@@ -428,6 +430,12 @@ if (mapElement) {
                 checkbox.closest('label').style.display = 'none';
             }
         }
+        if (typeof oEvents === 'undefined') {
+            let checkbox = document.getElementById("calendar-group-check");
+            if (checkbox) {
+                checkbox.closest('label').style.display = 'none';
+            }
+        }
     }
 
     // --- search control ---
@@ -648,6 +656,8 @@ if (mapElement) {
         }
 
         setInterval(checkMapsLoad, 1000);
+
+        loadCalendar();
     });
 
     function applyMapStyles(m) {
@@ -695,6 +705,69 @@ if (mapElement) {
     }
 } else {
     loadMaps();
+}
+
+async function loadCalendar() {
+    if (typeof oEvents != 'undefined') {
+        for (const evt of oEvents) {
+            createEventMarkers(evt);
+        }
+    }
+}
+
+function createEventMarkers(evt) {
+    if (evt.coord) {
+        createEventMarker(evt, null);
+    } else {
+        let evtMaps = evt.map;
+        if (evtMaps) {
+            if (!Array.isArray(evtMaps)) {
+                evtMaps = [evtMaps];
+            }
+            for (const evtMap of evtMaps) {
+                createEventMarker(evt, evtMap);
+            }
+        }
+    }
+}
+
+function createEventMarker(evt, evtMap) {
+    const currentDate = new Date(evt.date);
+    let now = new Date();
+
+    var cpIcon = L.icon({
+        iconUrl: (currentDate < now ? './images/cp_art_small_red.webp' : './images/cp_art_small.webp'),
+        //shadowUrl: './images/cp_art_small.webp',
+        //iconSize: [38, 95], // size of the icon
+        //shadowSize: [50, 64], // size of the shadow
+        iconAnchor: [20, 60], // point of the icon which corresponds to marker's location
+        //shadowAnchor: [4, 62], // the same for the shadow
+        popupAnchor: [-6, -62] // point from which the popup should open relative to the iconAnchor
+    });
+
+    let mapCoords;
+    const m = getMapForName(evtMap);
+    if (evt.coord) {
+        mapCoords = evt.coord;
+    } else {
+        if (!m) {
+            return;
+        }
+        mapCoords = mapsCoords[evtMap];
+        if (mapCoords) {
+            mapCoords = [mapCoords[0] + .001, mapCoords[1] + .002];
+        } else {
+            const x = (m.bounds[0][0] + m.bounds[2][0])/2;
+            const y = (m.bounds[0][1] + m.bounds[1][1])/2;
+            mapCoords = [x, y];
+        }
+        mapsCoords[evtMap] = mapCoords;
+    }
+    const marker = L.marker([mapCoords[0], mapCoords[1]], {icon: cpIcon});
+    const popup = buildEventPopup(evt, m);
+    marker.bindPopup(popup, {maxWidth: popupWidth});
+    // 2. Add the marker to the map using the custom icon
+    marker.addTo(calendarGroup);
 }
 
 async function processYearSlider(years, vals) {
@@ -911,7 +984,7 @@ function buildMap(m) {
     }
 
     // map popup
-    let popup = buildPopup(m, latLngs);
+    const popup = buildMapPopup(m);
     imgLayer.bindPopup(popup, {maxWidth: popupWidth});
     imgLayer.on('mouseover', function (e) {
         if (!editMode && enablePopup) {
@@ -1074,30 +1147,7 @@ function mapLogoList(m) {
     return logo;
 }
 
-function buildPopup(m, latLngs) {
-
-    const LOGO_CAROUSEL_TEMPLATE = `
-        <div id="logo-carousel" class="carousel carousel-dark slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./image_1" class="d-block popup-logo">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./image_2" class="d-block popup-logo">
-                    <div class="carousel-caption d-none d-md-block">
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#logo-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#logo-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </button>
-        </div>
-    `;
+function buildMapPopup(m) {
 
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
     let typesList = getTypesList(m);
@@ -1234,6 +1284,100 @@ function buildPopup(m, latLngs) {
     // скрыть карту
     let onclick = 'onclick="hideMap(map, \'' + url + '\', ' + isMapHidden(m) + ', \'' + m.name + '\', ' + year(m) + '); return false;"';
     result += '<br /><div class="hide-map-link"><a href="#" ' + onclick + '>Скрыть эту карту</a></div>';
+
+    if (logo) {
+        result += '</div>';
+    }
+
+    return result;
+}
+
+function buildEventPopup(evt, m) {
+
+    let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
+    if (evt.type) {
+        result += '<div class="popup-header popup-right-header">' + buildEventType(evt, false) + '</div>';
+    }
+
+    // логотип
+    let logo = mapLogoList(evt);
+    logo.forEach((value, idx, arr) => {
+        arr[idx] = 'logo/' + arr[idx];
+    });
+    if (!logo.length) {
+        logo.push('logo/o-maps.webp');
+    }
+    if (logo.length >= 2) {
+        let carousel = LOGO_CAROUSEL_TEMPLATE.replace('image_1', logo[0]);
+        carousel = carousel.replace('image_2', logo[1]);
+        result += carousel;
+    } else if (logo.length === 1) {
+        result += '<img src="./' + logo[0] + '" alt="" class="popup-logo" />';
+    }
+    if (isMobile) {
+        result += '<br />';
+        result += '<div class="mobile-popup-text">';
+    } else {
+        result += '<div class="popup-text">';
+    }
+
+    // имя
+    result += '<b>' + buildEventStart(evt);
+
+    result += '</b><hr />';
+
+    // дата
+    let info = '';
+    let d = buildEventDate(evt);
+    let sy = startYear(evt);
+    if (d) {
+        info += `<b>${d} ${sy}</b>. `;
+    }
+
+    // место
+    if (evt.place) {
+        info += `${evt.place}. `;
+    }
+
+    // формат
+    if (evt.fmt) {
+        info += (evt.type.includes('ROGAINE') ? 'Рогейн ' : '') + capitalize(evt.fmt) + '. ';
+    }
+    if (evt.info) {
+        info += evt.info;
+    }
+    if (info) {
+        result += info + '<br />';
+    }
+
+    // Результаты
+    const res = buildEventResults(evt);
+    if (res) {
+        result += 'Результаты: ' + res + '<br/>';
+    }
+
+    // GPS-трансляция
+    if (evt.gps) {
+        result += '<span class="gps-info"><img src="./images/o-gps.gif" /> ';
+        result += 'GPS-трансляция: ' + buildGpsLinks(evt);
+        result += '.</span><br />';
+    }
+
+    // Отчёты
+    const reports = buildEventReports(evt, false);
+    if(reports) {
+        result += 'Отчёты: ' + reports + '<br/>';
+    }
+
+    // автор-составитель
+    if (m && m.author) {
+        if (Array.isArray(m.author)) {
+            result += 'Авторы-составители карты:';
+        } else {
+            result += 'Автор-составитель карты: ';
+        }
+        result += buildAuthors(m);
+    }
 
     if (logo) {
         result += '</div>';

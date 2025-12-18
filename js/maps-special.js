@@ -42,6 +42,16 @@ let specialMaps = [
         type: ['WINTER']
     },
     {
+        name: 'Орехово, оз Нырково',
+        year: 2012,
+        url: './maps/winter/orekhovo_nyrkovo_winter_2012.webp',
+        link: './original_maps/winter/orekhovo_nyrkovo_winter_2012_omaps.jpg',
+        bounds: [[60.4759605103226, 30.297954082489017], [60.47338032779795, 30.334196090698246], [60.451101863173875, 30.29010057449341]],
+        author: 'TKMKV_K',
+        owner: 'SFSO_SPB',
+        type: ['WINTER']
+    },
+    {
         name: 'Орехово',
         year: 2010,
         url: './maps/winter/orekhovo_winter_2010.webp',

@@ -1,3 +1,6 @@
+
+/*   CONSTANTS   */
+
 const regions = {
     LNGRD: 'Ленинград',
     SPB: 'СПб',
@@ -24,6 +27,7 @@ const dic = {
     EXCLUDED: 'НЕУЧТЁНКА',
     FOTO: 'ФОТО',
     FUN: 'НЕОБЫЧН0',
+    ORIENT: 'ОРИЕНТ',
     PARK: 'ПАРК',
     RELIEF: 'РЕЛЬЕФ',
     ROGAINE: 'РОГЕЙН',
@@ -54,6 +58,31 @@ const BACKGROUND_OSM = 'osm';
 const BACKGROUND_TOPO = 'topo';
 const BACKGROUND_YANDEX = 'yandex';
 const BACKGROUND_SATELLITE = 'satellite';
+
+const LOGO_CAROUSEL_TEMPLATE = `
+        <div id="logo-carousel" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./image_1" class="d-block popup-logo">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./image_2" class="d-block popup-logo">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#logo-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#logo-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    `;
+
+/*   FUNCTIONS   */
 
 function year(o) { // map, track, event
     if (o.year) return o.year;
@@ -142,10 +171,14 @@ let skiTrackKind = {
 
 function getTypesList(m, colored) {
     let list = [];
-    if (m.type && m.type.length > 0 || m.excluded) {
+    let type = m.type;
+    if (type && !Array.isArray(type)) {
+        type = [type];
+    }
+    if (type && type.length > 0 || m.excluded) {
         let types = [];
-        if (m.type) {
-            types = [ ...m.type ];
+        if (type) {
+            types = [ ...type ];
         }
         if (m.excluded) {
             types.push('EXCLUDED');
@@ -371,6 +404,9 @@ function inFrame(frameBounds, coords) {
 }
 
 function getMapForName(fileName) {
+    if (!fileName) {
+        return null;
+    }
     for (const m of oMaps) {
         if (m.url) {
             if (m.url.includes(fileName)) {
@@ -797,4 +833,163 @@ function hideSpinner() {
         spinnerDisplayed = false;
         document.getElementById("spinner").style.display = 'none';
     }
+}
+
+/*   CALENDAR   */
+
+function buildEventDate(evt) {
+    const date = new Date(evt.date);
+    const day = date.getDate();
+    const month = MONTHS_SHORT[date.getMonth()];
+    //const year = date.getFullYear();
+    const dayWeek = WEAK_DAYS_SHORT[date.getDay()];
+
+    let result = day;
+    if (evt.endDate) {
+        result += '-' + new Date(evt.endDate).getDate();
+    }
+    result += ` ${month} (${dayWeek})`
+    return result;
+}
+
+function buildEventStart(event) {
+    let result = '';
+
+    let logo;
+    if (event.logo) {
+        logo = event.logo;
+    } else if (event.start && starts[event.start].logo) {
+        logo = starts[event.start].logo;
+    } else if (event.owner && owners[event.owner].logo) {
+        logo = owners[event.owner].logo;
+    }
+    if (logo) {
+        result += '<img src="./logo/' + logo + '" alt="" class="sheet-icon" /> ';
+    }
+
+    if (event.link) {
+        result += buildLink(event.link, event.name);
+    } else {
+        if (event.start && starts[event.start].link) {
+            result += buildLink(starts[event.start].link, event.name);
+        } else {
+            result += event.name;
+        }
+    }
+    if (event.reg) {
+        result += ', <span title="Регистрация">' + buildEventReg(event) + '</span>';
+    }
+    let me = event.me;
+    if (!me && event.map) {
+        let maps = Array.isArray(event.map) ? [...event.map] : [event.map];
+        for (const m of maps) {
+            let map = getMapForName(event.map);
+            if (map && map.me) {
+                me = map.me;
+                break;
+            }
+        }
+    }
+    if (me) {
+        result += ` <sup class="my-race">${me}</sup>`;
+    }
+    return result;
+}
+
+function buildEventReg(event) {
+    if (event.reg.includes('orgeo')) {
+        return buildLink(event.reg, 'Orgeo');
+    } else if (event.reg.includes('o-reg')) {
+        return buildLink(event.reg, 'O-Reg');
+    } else if (event.reg.includes('vk.com')) {
+        return buildLink(event.reg, 'VK');
+    } else if (event.reg.includes('o-time')) {
+        return buildLink(event.reg, 'O-Time');
+    } else if (event.reg.includes('multsport')) {
+        return buildLink(event.reg, 'Multsport');
+    } else if (event.reg.includes('sportident')) {
+        return buildLink(event.reg, 'Sportident');
+    }
+    return buildLink(event.reg, '<img src="./images/url-file.png" />');
+}
+
+function buildEventResults(evt) {
+    let res = '';
+    if (evt.res) {
+        if (evt.res.includes('orgeo')) {
+            res += buildLink(evt.res, 'Orgeo');
+        } else if (evt.res.includes('o-site')) {
+            res += buildLink(evt.res, 'O-Site');
+        } else if (evt.res.includes('o-time')) {
+            res += buildLink(evt.res, 'O-Time');
+        } else if (evt.res.includes('multsport')) {
+            res += buildLink(evt.res, 'Multsport');
+        } else if (evt.res.includes('sportident')) {
+            res += buildLink(evt.res, 'Sportident');
+        } else if (evt.res.includes('vk.com')) {
+            res += buildLink(evt.res, 'VK');
+        } else if (evt.res.includes('reskeep')) {
+            res += buildLink(evt.res, 'Reskeep');
+        } else if (evt.res.includes('t.me')) {
+            res += buildLink(evt.res, 'Telegram');
+        } else if (evt.res.includes('hard')) {
+            res += buildLink(evt.res, 'HARD');
+        } else {
+            res += buildLink(evt.res, '<img src="./images/url-file.png" />');
+        }
+    }
+    if (evt.reskeep) {
+        let reskeep = evt.reskeep;
+        if (!Array.isArray(evt.reskeep)) {
+            reskeep = [evt.reskeep];
+        }
+        reskeep = reskeep.map(r => 'https://reskeep.ru/event/get?id=' + r);
+        res += buildLink(reskeep, ' <img src="./images/r-k.gif" />', 'Анализ сплитов', true);
+    }
+    return res;
+}
+
+function buildEventReports(evt, withGPS) {
+    let result = '';
+    if (withGPS) {
+        result += buildGpsLinks(evt, 'o-gps.gif');
+    }
+    if (evt.photo) {
+        result += ' ' + buildLink(evt.photo, '<img src="./images/photo-camera.png">', 'Фотографии', true);
+    }
+    if (evt.video) {
+        result += ' ' + buildLink(evt.video, '<img src="./images/video-camera.png">', 'Видео', true);
+    }
+    return result;
+}
+
+function buildEventType(evt, withFmt) {
+    let result;
+    switch (evt.type) {
+        case 'ORIENT': result = 'Ориент'; break;
+        case 'VELO': result = 'Вело'; break;
+        case 'ROGAINE': result = 'Рогейн'; break;
+        case 'MULTI': result = 'Мульти'; break;
+        case 'TOURISM': result = 'Кросс-поход'; break;
+        case 'FUN': result = 'Интерактив';
+    }
+    if (!result) {
+        if (evt.type.includes('WATER')) {
+            result = 'Водный рогейн';
+        } else if (evt.type.includes('SKI')) {
+            if (isRogaine(evt)) {
+                result = 'Лыжный рогейн';
+            } else {
+                result = 'Лыжи';
+            }
+        } else if (evt.type.includes('VELO')) {
+            result = 'Рогейн';
+        } else {
+            result = 'Рогейн, Ориент';
+        }
+    }
+    if (withFmt && evt.fmt) {
+        result += '<br/><small>' + evt.fmt + '</small>'
+    }
+    return result;
 }

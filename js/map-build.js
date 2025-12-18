@@ -44,6 +44,8 @@ const SHOW_ALL_LABEL = 'Показать все ориенты';
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
+let calendarGroup = L.layerGroup([]);
+
 let tracksGroup = L.layerGroup([]);
 
 let funGroup = L.layerGroup([]);
@@ -149,7 +151,8 @@ function buildOverlayMapsContents() {
         "???": groupUnknownYear,
         "<span class='layer-separator' id='funs-group-check'>Необычные</span>": funGroup,
         "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
-        "<span class='layer-separator' id='tracks-group-check'>Маршруты</span>": tracksGroup
+        "<span class='layer-separator' id='tracks-group-check'>Маршруты</span>": tracksGroup,
+        "<span class='layer-separator' id='calendar-group-check'>Календарь</span>": calendarGroup
     };
 }
 

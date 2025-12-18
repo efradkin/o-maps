@@ -296,13 +296,13 @@
                     idx = 0;
                 }
                 td(row, buildNumber(event, idx++));
-                td(row, buildDate(event));
-                td(row, buildStart(event));
+                td(row, buildEventDate(event));
+                td(row, buildEventStart(event));
                 td(row, buildPlace(event));
-                td(row, buildType(event));
-                td(row, buildRes(event));
-                td(row, buildTranslations(event));
-                td(row, event.any ?? '');
+                td(row, buildEventType(event, true));
+                td(row, buildEventResults(event));
+                td(row, buildEventReports(event, true));
+                td(row, event.info ?? '');
                 tbody.appendChild(row);
 
                 prevDate = currentDate;
@@ -336,65 +336,6 @@
             return (i + 1) + icon;
         }
 
-        function buildDate(event) {
-            const date = new Date(event.date);
-            const day = date.getDate();
-            const month = MONTHS_SHORT[date.getMonth()];
-            //const year = date.getFullYear();
-            const dayWeek = WEAK_DAYS_SHORT[date.getDay()];
-
-            let result = day;
-            if (event.endDate) {
-                result += '-' + new Date(event.endDate).getDate();
-            }
-            result += ` ${month} (${dayWeek})`
-            return result;
-        }
-
-        function buildStart(event) {
-            let result = '';
-
-            let logo;
-            if (event.logo) {
-                logo = event.logo;
-            } else if (event.start && starts[event.start].logo) {
-                logo = starts[event.start].logo;
-            } else if (event.owner && owners[event.owner].logo) {
-                logo = owners[event.owner].logo;
-            }
-            if (logo) {
-                result += '<img src="./logo/' + logo + '" alt="" class="sheet-icon" /> ';
-            }
-
-            if (event.link) {
-                result += buildLink(event.link, event.name);
-            } else {
-                if (event.start && starts[event.start].link) {
-                    result += buildLink(starts[event.start].link, event.name);
-                } else {
-                    result += event.name;
-                }
-            }
-            if (event.reg) {
-                result += ', <span title="Регистрация">' + buildReg(event) + '</span>';
-            }
-            let me = event.me;
-            if (!me && event.map) {
-                let maps = Array.isArray(event.map) ? [...event.map] : [event.map];
-                for (const m of maps) {
-                    let map = getMapForName(event.map);
-                    if (map && map.me) {
-                        me = map.me;
-                        break;
-                    }
-                }
-            }
-            if (me) {
-                result += ` <sup class="my-race">${me}</sup>`;
-            }
-            return result;
-        }
-
         function buildPlace(event) {
             if (event.map) {
                 let maps = Array.isArray(event.map) ? [...event.map] : [event.map];
@@ -410,101 +351,6 @@
             } else {
                 return event.place ?? '';
             }
-        }
-
-        function buildReg(event) {
-            if (event.reg.includes('orgeo')) {
-                return buildLink(event.reg, 'Orgeo');
-            } else if (event.reg.includes('o-reg')) {
-                return buildLink(event.reg, 'O-Reg');
-            } else if (event.reg.includes('vk.com')) {
-                return buildLink(event.reg, 'VK');
-            } else if (event.reg.includes('o-time')) {
-                return buildLink(event.reg, 'O-Time');
-            } else if (event.reg.includes('multsport')) {
-                return buildLink(event.reg, 'Multsport');
-            } else if (event.reg.includes('sportident')) {
-                return buildLink(event.reg, 'Sportident');
-            }
-            return buildLink(event.reg, '<img src="./images/url-file.png" />');
-        }
-
-        function buildRes(event) {
-            let res = '';
-            if (event.res) {
-                if (event.res.includes('orgeo')) {
-                    res += buildLink(event.res, 'Orgeo');
-                } else if (event.res.includes('o-site')) {
-                    res += buildLink(event.res, 'O-Site');
-                } else if (event.res.includes('o-time')) {
-                    res += buildLink(event.res, 'O-Time');
-                } else if (event.res.includes('multsport')) {
-                    res += buildLink(event.res, 'Multsport');
-                } else if (event.res.includes('sportident')) {
-                    res += buildLink(event.res, 'Sportident');
-                } else if (event.res.includes('vk.com')) {
-                    res += buildLink(event.res, 'VK');
-                } else if (event.res.includes('reskeep')) {
-                    res += buildLink(event.res, 'Reskeep');
-                } else if (event.res.includes('t.me')) {
-                    res += buildLink(event.res, 'Telegram');
-                } else if (event.res.includes('hard')) {
-                    res += buildLink(event.res, 'HARD');
-                } else {
-                    res += buildLink(event.res, '<img src="./images/url-file.png" />');
-                }
-            }
-            if (event.reskeep) {
-                let reskeep = event.reskeep;
-                if (!Array.isArray(event.reskeep)) {
-                    reskeep = [event.reskeep];
-                }
-                reskeep = reskeep.map(r => 'https://reskeep.ru/event/get?id=' + r);
-                res += buildLink(reskeep, ' <img src="./images/r-k.gif" />', 'Анализ сплитов', true);
-            }
-            return res;
-        }
-
-        function buildType(event) {
-            let result;
-            switch (event.type) {
-                case 'ORIENT': result = 'Ориент'; break;
-                case 'VELO': result = 'Вело'; break;
-                case 'ROGAINE': result = 'Рогейн'; break;
-                case 'MULTI': result = 'Мульти'; break;
-                case 'TOURISM': result = 'Кросс-поход'; break;
-                case 'FUN': result = 'Интерактив';
-            }
-            if (!result) {
-                if (event.type.includes('WATER')) {
-                    result = 'Водный рогейн';
-                } else if (event.type.includes('SKI')) {
-                    if (isRogaine(event)) {
-                        result = 'Лыжный рогейн';
-                    } else {
-                        result = 'Лыжи';
-                    }
-                } else if (event.type.includes('VELO')) {
-                    result = 'Рогейн';
-                } else {
-                    result = 'Рогейн, Ориент';
-                }
-            }
-            if (event.fmt) {
-                result += '<br/><small>' + event.fmt + '</small>'
-            }
-            return result;
-        }
-
-        function buildTranslations(event) {
-            let result = buildGpsLinks(event, 'o-gps.gif');
-            if (event.photo) {
-                result += ' ' + buildLink(event.photo, '<img src="./images/photo-camera.png">', 'Фотографии', true);
-            }
-            if (event.video) {
-                result += ' ' + buildLink(event.video, '<img src="./images/video-camera.png">', 'Видео', true);
-            }
-            return result;
         }
 
         function selectEventType(type) {
