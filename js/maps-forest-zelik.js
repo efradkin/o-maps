@@ -326,7 +326,7 @@ let zelikMaps = [
         author: 'FDRV_L',
     },
     {
-        name: 'Зеленогорск, т/б "Прибой", оз Щучье',
+        name: 'Зеленогорск, т/б Прибой, оз Щучье',
         year: 2000,
         area: 15,
         url: './maps/forest/zelik/zelenogorsk_priboy_2000.webp',

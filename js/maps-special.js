@@ -34,9 +34,19 @@ let specialMaps = [
         qtty: 10
     },
     {
+        name: 'Силанде',
+        date: '2024-01-21',
+        url: './maps/winter/silande_winter_2024.webp',
+        link: './original_maps/winter/silande_winter_2024_omaps.gif',
+        bounds: [[60.415547399347886, 30.25016784667969], [60.41292003592953, 30.283727645874027], [60.39151183234099, 30.2409839630127]],
+        owner: 'SFSO_SPB',
+        type: ['WINTER']
+    },
+    {
         name: 'Лемболово',
-        year: 2019, // карта явно более ранняя
+        date: '2019-01-08', // карта явно более ранняя
         url: './maps/winter/lembolovo_winter_2019.webp',
+        link: './original_maps/winter/lembolovo_winter_2019_omaps.jpg',
         bounds: [[60.42351294603261, 30.3063440322876], [60.420420172898, 30.34084796905518], [60.40628711821687, 30.30089378356934]],
         author: ['DBRTSV_V','CHGRVSKY_Y'], //Возможно и Баймакова, надо уточнить
         type: ['WINTER']
@@ -81,11 +91,34 @@ let specialMaps = [
         type: ['WINTER']
     },
     {
-        name: 'Токсово, ВИФК',
+        name: 'Кузьмолово',
         year: 2023,
+        info: '<a href="https://o-site.spb.ru/race.php?id=2301_poligon">Тренировочный полигон Федерации ориентирования СПб</a>.',
+        url: './maps/winter/kuzmolovo_poligon_2023.webp',
+        link: './original_maps/winter/kuzmolovo_poligon_2023_omaps.gif',
+        bounds: [[60.12952701375337, 30.508496761322025], [60.12816976231101, 30.53508281707764], [60.112081535659236, 30.504527091979984]],
+        author: ['KVZN','TKMKV_K'],
+        owner: 'SFSO_SPB',
+        type: ['WINTER']
+    },
+    {
+        name: 'Токсово, ВИФК',
+        date: '2023-02-09',
         url: './maps/winter/toksovo_vifk_winter_2023.webp',
+        link: './original_maps/winter/toksovo_vifk_winter_2023_omaps.jpg',
+        info: '<a href="https://o-site.spb.ru/race.php?id=230213">Первенство России</a>.',
         bounds: [[60.193233383853695, 30.560145378112797], [60.18962804295176, 30.59679508209229], [60.18021815816931, 30.554866790771488]],
         author: 'CHGRVSKY_Y',
+        type: ['WINTER']
+    },
+    {
+        name: 'Токсово, Школьное оз',
+        date: '2013-02-16',
+        url: './maps/winter/toksovo_shkolnoe_winter_2013.webp',
+        link: './original_maps/winter/toksovo_shkolnoe_winter_2013_omaps.jpg',
+        info: 'Первенство СПб.',
+        bounds: [[60.147059378270846, 30.572462081909183], [60.1445171771102, 30.602331161499027], [60.136697074515965, 30.568556785583496]],
+        owner: 'SFSO_SPB',
         type: ['WINTER']
     },
     {
@@ -127,6 +160,23 @@ let specialMaps = [
         type: ['WINTER']
     },
     {
+        name: 'Зеркальный, Тарасовское',
+        date: '2023-02-05',
+        url: './maps/winter/zerkalny_tarasovskoe_winter_2023.webp',
+        link: './original_maps/winter/zerkalny_tarasovskoe_winter_2023_omaps.gif',
+        bounds: [[60.25993530761828, 29.112052917480472], [60.25676311663197, 29.154882431030277], [60.24515751749144, 29.106817245483402]],
+        owner: 'SFSO_SPB',
+        type: ['WINTER']
+    },
+    {
+        name: 'Зеркальный',
+        date: '2024-02-15',
+        url: './maps/winter/zerkalny_winter_2024.webp',
+        link: './original_maps/winter/zerkalny_winter_2024_omaps.jpg',
+        bounds: [[60.24515751749144, 29.137887954711918], [60.2447741431293, 29.15732860565186], [60.236061816234596, 29.137501716613773]],
+        type: ['WINTER']
+    },
+    {
         name: 'Будогощь, оз Светлое',
         year: 2024,
         url: './maps/winter/budogosch_svetloe_winter_2024.webp',
@@ -155,7 +205,8 @@ let specialMaps = [
         link: './original_maps/winter/kirishi_pushka_2008_omaps.gif',
         bounds: [[59.44138788921422, 32.04626083374024], [59.43798395415987, 32.072868347167976], [59.4312187076711, 32.04325675964356]],
         owner: 'EGRV_SRG',
-        zindex: 2
+        zindex: 2,
+        type: ['WINTER']
     },
     {
         name: 'Кириши, лыжная трасса',
@@ -204,11 +255,27 @@ let specialMaps = [
         startYear: 2024,
         info: 'ЧиП СПб, ЛГ-маркир.',
         url: './maps/winter/anyalovo_winter_2023.webp',
-        link: './original_maps/winter/anyalovo_2023_omaps.gif',
+        link: './original_maps/winter/anyalovo_winter_2023_omaps.gif',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/18157/',
         bounds: [[60.312582798414866, 30.499763488769535], [60.30854417624976, 30.537958145141605], [60.29933850324382, 30.49461364746094]],
         author: ['TKMKV_K','KVZN'],
         owner: 'SFSO_SPB',
+        type: ['WINTER']
+    },
+    {
+        name: 'Шапки',
+        year: 2019,
+        url: './maps/winter/shapki_winter_2019.webp',
+        link: './original_maps/winter/shapki_winter_2019_omaps.jpg',
+        bounds: [[59.59751217494185, 31.17151737213135], [59.59807684392958, 31.209154129028324], [59.584370083656665, 31.172375679016117]],
+        author: 'YUDNTSV',
+        type: ['WINTER']
+    },
+    {
+        name: 'Гатчина, парк Зверинец',
+        url: './maps/winter/gatchina_zverinets_winter.webp',
+        link: './original_maps/winter/gatchina_zverinets_winter_omaps.jpg',
+        bounds: [[59.587737555103494, 30.093741416931156], [59.5885413532801, 30.117602348327637], [59.57226612908946, 30.095458030700687]],
         type: ['WINTER']
     },
     // --- вело ---

@@ -12,7 +12,7 @@ let events_2025 =
             'маркир':'https://viewer.o-gps-center.ru/viewer/event/21366/',
             'спринт':'https://viewer.o-gps-center.ru/viewer/event/21375/'
         },
-        map: 'tsvelodubovo_2020',
+        map: 'tsvelodubovo_winter_2003_omaps',
         owner: 'NW'
     }, {
         date: '2025-01-11',
@@ -94,7 +94,7 @@ let events_2025 =
         name: 'Зимние старты',
         type: 'SKI',
         link: 'https://o-site.spb.ru/race.php?id=250216',
-        map: 'zerkalny_2002'
+        map: 'zerkalny_tarasovskoe_winter_2023'
     }, {
         date: '2025-02-15',
         place: 'Зеркальный',
@@ -106,7 +106,7 @@ let events_2025 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21654/',
         photo: 'https://vk.com/album-154221178_306315249',
         owner: 'SFSO_SPB',
-        map: 'zerkalny_2002'
+        map: 'zerkalny_tarasovskoe_winter_2023'
     }, {
         date: '2025-02-15',
         place: 'Луга, оз. Штоль',

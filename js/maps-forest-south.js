@@ -447,6 +447,7 @@ let southMaps = [
         name: 'Шапки',
         year: 2020,
         url: './maps/forest/south/shapki_otime_2020.webp',
+        link: './original_maps/forest/south/shapki_otime_2020_omaps.jpg',
         bounds: [[59.59822886857503, 31.170444488525394], [59.59875009071161, 31.21267318725586], [59.5807197983505, 31.17130279541016]],
         info: 'Ковидный полигон от O-Time.',
         owner: 'NKLSK'

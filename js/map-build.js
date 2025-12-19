@@ -122,6 +122,9 @@ if (mapElement) {
         if ('FOTO' === TYPE_PARAM || 'FUN' === TYPE_PARAM) {
             layers.push(funGroup);
         }
+        if ('WINTER' === TYPE_PARAM || 'VELO' === TYPE_PARAM || 'RELIEF' === TYPE_PARAM || 'SPECIAL' === TYPE_PARAM) {
+            layers.push(specialGroup);
+        }
     }
     if ((OWNER_PARAM && owners[OWNER_PARAM].rogaine) || (START_NAME_PARAM && starts[START_NAME_PARAM].rogaine) ||
         ('ROGAINE' === TYPE_PARAM) || (typeof rogaineRequired !== 'undefined' && rogaineRequired)) {

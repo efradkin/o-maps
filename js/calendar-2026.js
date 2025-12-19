@@ -203,7 +203,7 @@ let events_2026 =
         place: 'Аньялово',
         type: 'ORIENT',
         fmt: 'классика',
-        map: 'anyalovo_2023',
+        map: 'anyalovo_winter_2023_omaps',
         owner: 'SFSO_SPB'
     },{
         date: '2026-05-17',
