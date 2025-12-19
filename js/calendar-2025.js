@@ -2330,6 +2330,7 @@ let events_2025 =
         type: 'ORIENT',
         fmt: 'спелео, комбинация',
         reg: 'https://orgeo.ru/event/48286',
+        photo: 'https://vk.ru/album-222424338_309589045',
         map: 'sablino_zhemchug_cave',
     }, {
         date: '2025-12-14',

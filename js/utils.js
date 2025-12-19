@@ -852,7 +852,7 @@ function buildEventDate(evt) {
     return result;
 }
 
-function buildEventStart(event) {
+function buildEventStart(event, withoutLogo) {
     let result = '';
 
     let logo;
@@ -863,7 +863,7 @@ function buildEventStart(event) {
     } else if (event.owner && owners[event.owner].logo) {
         logo = owners[event.owner].logo;
     }
-    if (logo) {
+    if (!withoutLogo && logo) {
         result += '<img src="./logo/' + logo + '" alt="" class="sheet-icon" /> ';
     }
 

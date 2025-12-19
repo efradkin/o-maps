@@ -709,9 +709,7 @@ if (mapElement) {
 
 async function loadCalendar() {
     if (typeof oEvents != 'undefined') {
-        for (const evt of oEvents) {
-            createEventMarkers(evt);
-        }
+        oEvents.reverse().forEach(evt => createEventMarkers(evt));
     }
 }
 
@@ -735,9 +733,16 @@ function createEventMarker(evt, evtMap) {
     const currentDate = new Date(evt.date);
     let now = new Date();
 
+    let evtCPimage = currentDate < now ? './images/event_cp_old.webp' : './images/event_cp.webp';
+    if (evt.type && evt.type.includes('SKI')) {
+        evtCPimage = currentDate < now ? './images/event_cp_old_ski.webp' : './images/event_cp_ski.webp';
+    } else
+    if (evt.type && evt.type.includes('VELO')) {
+        evtCPimage = currentDate < now ? './images/event_cp_old_velo.webp' : './images/event_cp_velo.webp';
+    }
     var cpIcon = L.icon({
-        iconUrl: (currentDate < now ? './images/cp_art_small_red.webp' : './images/cp_art_small.webp'),
-        //shadowUrl: './images/cp_art_small.webp',
+        iconUrl: evtCPimage,
+        //shadowUrl: './images/event_cp.webp',
         //iconSize: [38, 95], // size of the icon
         //shadowSize: [50, 64], // size of the shadow
         iconAnchor: [20, 60], // point of the icon which corresponds to marker's location
@@ -1220,7 +1225,7 @@ function buildMapPopup(m) {
         result += info + '<br />';
     }
 
-    // автор-составитель
+    // авторы-составители
     if (m.author) {
         if (Array.isArray(m.author)) {
             result += 'Авторы-составители карты:';
@@ -1228,6 +1233,12 @@ function buildMapPopup(m) {
             result += 'Автор-составитель карты: ';
         }
         result += buildAuthors(m);
+    }
+
+    // редакторы
+    if (m.editor) {
+        result += 'Редактирование карты: ';
+        result += buildEditors(m);
     }
 
     // владелец
@@ -1322,7 +1333,7 @@ function buildEventPopup(evt, m) {
     }
 
     // имя
-    result += '<b>' + buildEventStart(evt);
+    result += '<b>' + buildEventStart(evt, true);
 
     result += '</b><hr />';
 
@@ -1417,6 +1428,38 @@ function buildAuthors(m, withIcon) {
             }
             result += authorLabel(authors[m.author]) + '<br />';
             populateAuthor(m, m.author);
+        }
+    }
+    return result;
+}
+
+function buildEditors(m, withIcon) {
+    let result = '';
+    if (Array.isArray(m.editor)) {
+        result += '<ol>'
+        for (const a of m.editor) {
+            if (authors[a]) {
+                result += '<li>';
+                if (withIcon && authors[a].logo) {
+                    result += '<img src="./logo/' + authors[a].logo + '" alt="" class="sheet-icon" /> ';
+                }
+                result += authorLabel(authors[a]);
+                if (m.areas) {
+                    let idx = m.editor.indexOf(a);
+                    result += ' (' + m.areas[idx] + '%)';
+                }
+                result += '</li>';
+                //populateeditor(m, a);
+            }
+        }
+        result += '</ol>'
+    } else {
+        if (authors[m.editor]) {
+            if (withIcon && authors[m.editor].logo) {
+                result += '<img src="./logo/' + authors[m.editor].logo + '" alt="" class="sheet-icon" /> ';
+            }
+            result += authorLabel(authors[m.editor]) + '<br />';
+            //populateeditor(m, m.editor);
         }
     }
     return result;

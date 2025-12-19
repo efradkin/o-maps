@@ -1547,6 +1547,7 @@ let cityMaps = [
         link: './original_maps/city/krylenko_school_343_2025_omaps.jpg',
         bounds: [[59.90157241256712, 30.477018356323246], [59.899527808370514, 30.49405574798584], [59.8937376673402, 30.473327636718754]],
         author: 'RYLOV_V',
+        editor: 'SHRNN',
         type: ['CITY']
     },
     {
