@@ -42,7 +42,7 @@ let cityMaps = [
         bounds: [[60.01080754755248, 30.389385223388675], [60.00952048282834, 30.403633117675785], [60.000702742446485, 30.385394096374515]],
         author: 'CHGRVSKY_M',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -54,7 +54,7 @@ let cityMaps = [
         bounds: [[60.02096287578616, 30.387411117553714], [60.01921513764612, 30.404083728790287], [60.01404643875856, 30.384900569915775]],
         author: 'CHGRVSKY_Y',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -66,7 +66,7 @@ let cityMaps = [
         bounds: [[60.026141213662754, 30.387153625488285], [60.02388986211038, 30.407431125640873], [60.018914903388506, 30.384857654571537]],
         author: 'CHGRVSKY_Y',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -78,7 +78,7 @@ let cityMaps = [
         bounds: [[60.00842643842314, 30.398890972137455], [60.00738599006695, 30.40973782539368], [60.000461347882606, 30.396466255187992]],
         author: 'DBRTSV_V',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['SPRINT','CITY']
     },
     {
@@ -270,7 +270,7 @@ let cityMaps = [
         bounds: [[59.88062540310008, 30.434575080871586], [59.87946248953721, 30.452041625976566], [59.87041621736219, 30.43019771575928]],
         author: 'MNKV',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -292,7 +292,7 @@ let cityMaps = [
         link: ['./original_maps/city/narvskaya_2016_omaps.jpg','./original_maps/city/narvskaya_clean_omaps.jpg'],
         bounds: [[59.89892516416984, 30.259094238281254], [59.89888211773708, 30.27570247650147], [59.893479347569645, 30.259008407592777]],
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY'],
         author: 'ZSLNKN'
     },
@@ -318,7 +318,7 @@ let cityMaps = [
         bounds: [[59.92931277708212, 30.401487350463867], [59.92768922249184, 30.42137861251831], [59.922258876596885, 30.39897680282593]],
         author: 'DBRTSV_V',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -330,7 +330,7 @@ let cityMaps = [
         bounds: [[59.93202210846225, 30.417537689208988], [59.931914599528554, 30.434296131134037], [59.92530213040293, 30.417301654815677]],
         author: 'RDNV_B',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -553,7 +553,7 @@ let cityMaps = [
         bounds: [[59.865385856119765, 30.348358154296875], [59.86585984125349, 30.359086990356445], [59.85591551036147, 30.349946022033695]],
         author: ['FDRV_L','SHEIN'],
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -856,7 +856,7 @@ let cityMaps = [
         link: './original_maps/city/akademicheskaya_2023_omaps.jpg',
         bounds: [[60.0202659360725, 30.401659011840824], [60.01885056712136, 30.415606498718265], [60.011397435475146, 30.398161411285404]],
         author: 'CHGRVSKY_Y',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -890,7 +890,7 @@ let cityMaps = [
         bounds: [[59.98930699819738, 30.271260738372806], [59.987927868402906, 30.2863883972168], [59.98401554936793, 30.269372463226322]],
         author: 'DBRTSV_V',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -903,7 +903,7 @@ let cityMaps = [
         bounds: [[59.98930699819738, 30.271260738372806], [59.987927868402906, 30.2863883972168], [59.98401554936793, 30.269372463226322]],
         author: 'DBRTSV_V',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         planner: 'MSLVSKY',
         type: ['CITY']
     },
@@ -920,7 +920,7 @@ let cityMaps = [
         bounds: [[60.01458264841114, 30.345954895019535], [60.012298334901786, 30.36578178405762], [60.00745034864706, 30.343229770660404]],
         author: 'CHGRVSKY_Y',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -933,7 +933,7 @@ let cityMaps = [
         bounds: [[60.016738123463774, 30.41652917861939], [60.01664161266094, 30.430562496185306], [60.0068282104595, 30.41650772094727]],
         author: 'SRBRNTSKY',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -945,7 +945,7 @@ let cityMaps = [
         bounds: [[60.011933688090885, 30.403869152069095], [60.009788625443875, 30.424318313598636], [60.00476863502597, 30.40097236633301]],
         author: 'SRBRNTSKY',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -980,7 +980,7 @@ let cityMaps = [
         bounds: [[60.00045598353898, 30.308468341827396], [59.99779516186407, 30.31932592391968], [59.9923441008481, 30.301001071929935]],
         author: 'CHGRVSKY_M',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -1003,7 +1003,7 @@ let cityMaps = [
         bounds: [[60.044703655255994, 30.32363891601563], [60.0436429191586, 30.33730745315552], [60.034652080493586, 30.32011985778809]],
         author: ['SRBRNTSKY','RDNV_B'],
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -1016,7 +1016,7 @@ let cityMaps = [
         bounds: [[60.00236563490866, 30.31413316726685], [59.99944747147775, 30.32662153244019], [59.993277712432054, 30.30559301376343]],
         author: 'CHGRVSKY_M',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -1051,7 +1051,7 @@ let cityMaps = [
         bounds: [[60.018914903388506, 30.41270971298218], [60.01864683478263, 30.433416366577152], [60.01177281321938, 30.4127311706543]],
         author: 'SRBRNTSKY',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -1074,7 +1074,7 @@ let cityMaps = [
         bounds: [[59.96962883728231, 30.28810501098633], [59.96869455851803, 30.29864072799683], [59.96200349335379, 30.28542280197144]],
         author: 'SRBRNTSKY',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -1087,7 +1087,7 @@ let cityMaps = [
         bounds: [[59.98958067081682, 30.284564495086673], [59.98846986790074, 30.296956300735477], [59.98436977012997, 30.28264403343201]],
         author: 'DBRTSV_V',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -1099,7 +1099,7 @@ let cityMaps = [
         bounds: [[60.010968427120524, 30.28368473052979], [60.0092416122016, 30.300571918487552], [60.00471499853547, 30.281302928924564]],
         author: 'CHGRVSKY_Y',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         type: ['CITY']
     },
     {
@@ -1112,7 +1112,7 @@ let cityMaps = [
         bounds: [[60.010968427120524, 30.28368473052979], [60.0092416122016, 30.300571918487552], [60.00471499853547, 30.281302928924564]],
         author: 'CHGRVSKY_Y',
         start: 'ST',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         planner: 'RYKV_A',
         type: ['CITY']
     },
@@ -1278,7 +1278,7 @@ let cityMaps = [
         link: './original_maps/city/kuznechnoe_omaps.jpg',
         bounds: [[61.12902370855488, 29.872019290924076], [61.12792546611398, 29.88862752914429], [61.11938688322839, 29.868800640106205]],
         author: 'RYLOV_V',
-        owner: 'VST_PRZRSK',
+        owner: 'VESTA_PRIOZERSK',
         type: ['CITY']
     },
     {
@@ -1287,7 +1287,7 @@ let cityMaps = [
         link: './original_maps/city/sevastjanovo_omaps.jpg',
         bounds: [[61.06172221813291, 29.779922962188724], [61.0613692056359, 29.802067279815677], [61.05464045078286, 29.77970838546753]],
         author: 'RYLOV_V',
-        owner: 'VST_PRZRSK',
+        owner: 'VESTA_PRIOZERSK',
         type: ['CITY']
     },
     {
@@ -1297,7 +1297,7 @@ let cityMaps = [
         link: './original_maps/city/priozersk_geroja_bogdanova_2020_omaps.gif',
         author: 'PSHKV',
         bounds: [[61.03422738636866, 30.12434005737305], [61.03352074474647, 30.133781433105472], [61.031764464289076, 30.123524665832523]],
-        owner: 'VST_PRZRSK',
+        owner: 'VESTA_PRIOZERSK',
         type: ['CITY']
     },
     {
@@ -1307,7 +1307,7 @@ let cityMaps = [
         link: './original_maps/city/priozersk_det_sad_9_2021_omaps.jpg',
         author: 'PSHKV',
         bounds: [[61.04319413212856, 30.12609958648682], [61.045251034855056, 30.139060020446777], [61.041043591125266, 30.127515792846683]],
-        owner: 'VST_PRZRSK',
+        owner: 'VESTA_PRIOZERSK',
         type: ['CITY']
     },
     {
@@ -1823,7 +1823,7 @@ let cityMaps = [
         link: './original_maps/city/sosnovy_bor_9_2002_omaps.jpg',
         bounds: [[59.908662985480994, 29.084522724151615], [59.911642941279375, 29.094693660736088], [59.90395045173501, 29.090037345886234]],
         author: 'PRKH_E',
-        owner: 'YUVNT',
+        owner: 'YUVENTA',
         type: ['CITY']
     },
     {
@@ -1833,7 +1833,7 @@ let cityMaps = [
         link: './original_maps/city/sosnovy_bor_8_2002_omaps.jpg',
         bounds: [[59.909222419959086, 29.08643245697022], [59.90175534470259, 29.093996286392215], [59.90696310750121, 29.07817125320435]],
         author: ['GLSCHNKO_N','TKHNVA'],
-        owner: 'YUVNT',
+        owner: 'YUVENTA',
         type: ['CITY']
     },
     {
@@ -1843,7 +1843,7 @@ let cityMaps = [
         link: './original_maps/city/sosnovy_bor_andersengrad_2024_omaps.jpg',
         bounds: [[59.89987217157585, 29.08413648605347], [59.89966770635328, 29.097225666046146], [59.892166191012564, 29.08413648605347]],
         author: ['YGNV','MSPN','TKHNVA'],
-        owner: 'YUVNT',
+        owner: 'YUVENTA',
         type: ['CITY']
     },
     {
@@ -1859,7 +1859,7 @@ let cityMaps = [
         },
         bounds: [[59.89209084438972, 29.07814979553223], [59.89078839718945, 29.091238975524906], [59.882864973849955, 29.074587821960453]],
         author: ['DBRTSV_V'],
-        owner: 'YUVNT',
+        owner: 'YUVENTA',
         type: ['CITY']
     },
     {
@@ -1875,7 +1875,7 @@ let cityMaps = [
         },
         bounds: [[59.90279911466906, 29.072592258453373], [59.89999054560306, 29.08838510513306], [59.89423277461944, 29.070467948913578]],
         author: ['PPV_D'],
-        owner: 'YUVNT',
+        owner: 'YUVENTA',
         type: ['CITY']
     },
     {
@@ -1891,7 +1891,7 @@ let cityMaps = [
         },
         bounds: [[59.8945126146003, 29.082570075988773], [59.89341476731317, 29.094200134277347], [59.88766662168852, 29.08016681671143]],
         author: ['PPV_D'],
-        owner: 'YUVNT',
+        owner: 'YUVENTA',
         type: ['CITY']
     },
     {
@@ -2136,7 +2136,7 @@ let cityMaps = [
         info: '<a href="https://t.me/dlitelnyy/383">Совместная тренировка Длительного и Экросса</a>.',
         bounds: [[59.96867308053542, 30.29093742370606], [59.968619385517876, 30.29441356658936], [59.96634800655828, 30.29090523719788]],
         author: ['KZHN_L','KSHN_D'],
-        owner: 'DLT',
+        owner: 'DLITELNY',
         type: ['CITY'],
         zindex: 2
     },

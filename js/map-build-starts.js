@@ -22,6 +22,8 @@ let HAS_NO_BUTTONS_PARAM = urlParams.has('no-buttons');
 const HAS_EMBEDDED_PARAM = urlParams.has('embedded');
 const HAS_OCAD_PARAM = urlParams.has('ocad');
 const HAS_RETRO_PARAM = urlParams.has('retro');
+const HAS_CALENDAR_PARAM = urlParams.has('calendar');
+const CALENDAR_NAME_PARAM = urlParams.get('calendar');
 
 if (HAS_EMBEDDED_PARAM) {
     HAS_NO_BUTTONS_PARAM = true;

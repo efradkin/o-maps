@@ -7,14 +7,14 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/priozersk_pogost.webp',
         bounds: [[61.064245104690514, 30.125412940979007], [61.063746772653495, 30.14455318450928], [61.05499353825801, 30.123674869537357]],
         author: ['BYMK','ZCHNV','PSHKV'],
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     },
     {
         name: 'Приозерск, у кладбища',
         url: './maps/forest/priozersk/priozersk_pogost2.webp',
         bounds: [[61.062459378604196, 30.141677856445312], [61.061338057285546, 30.159916877746586], [61.05066275243654, 30.139145851135257]],
         author: ['BYMK','ZCHNV','PSHKV'],
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     },
 */
     {
@@ -23,7 +23,7 @@ let priozerskMaps = [
         link: './original_maps/forest/priozersk/priozersk_kamenisty_omaps.jpg',
         bounds: [[61.03177485676714, 30.10837554931641], [61.0312552286918, 30.11685132980347], [61.02744089805183, 30.107238292694095]],
         author: ['MKHLV_A','PSHKV'],
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     },
     {
         name: 'Приозерск, яхт-клуб',
@@ -31,7 +31,7 @@ let priozerskMaps = [
         link: './original_maps/forest/priozersk/priozersk_yahtklub_omaps.gif',
         bounds: [[61.0458015972856, 30.17549514770508], [61.04297596795078, 30.20274639129639], [61.03771879623057, 30.172448158264164]],
         author: 'PSHKV',
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     },
     {
         name: 'Сторожевое',
@@ -40,7 +40,7 @@ let priozerskMaps = [
         link: './original_maps/forest/priozersk/storozhevoe_2020_omaps.jpg',
         bounds: [[61.07120017096263, 30.12206554412842], [61.06941483698061, 30.165925025939945], [61.05124437918049, 30.11858940124512]],
         author: ['BYMKV','ZCHNV','PSHKV'],
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     },
     {
         name: 'Приозерск, ДРСУ',
@@ -49,7 +49,7 @@ let priozerskMaps = [
         link: './original_maps/forest/priozersk/priozersk_drsu_2015_omaps.jpg',
         bounds: [[61.01807461505161, 30.13506889343262], [61.01607833499045, 30.16184806823731], [61.01108708546035, 30.132708549499515]],
         author: ['MKHLV_A','USNKO'],
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     },
     {
         name: 'Приозерск, старый аэродром',
@@ -58,7 +58,7 @@ let priozerskMaps = [
         link: './original_maps/forest/priozersk/priozersk_aerodrom_2020_omaps.jpg',
         bounds: [[61.063829828537415, 30.11888980865479], [61.06023746258067, 30.147428512573246], [61.045448407391945, 30.10760307312012]],
         author: 'RYLOV_V',
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     },
     {
         name: 'Васильево',
@@ -67,7 +67,7 @@ let priozerskMaps = [
         link: './original_maps/forest/priozersk/vasilievo_2002_omaps.jpg',
         bounds: [[60.87174426906526, 29.8214864730835], [60.86978057310173, 29.845819473266605], [60.854317471753944, 29.817366600036625]],
         author: 'VRBY',
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     },
     {
         name: 'Васильево',
@@ -76,7 +76,7 @@ let priozerskMaps = [
         link: './original_maps/forest/priozersk/vasilievo_2024_omaps.gif',
         bounds: [[60.87020883624216, 29.823331832885742], [60.868673329579174, 29.83599185943604], [60.86174696355457, 29.818053245544437]],
         author: 'PSHKV',
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     },
     {
         name: 'Балахановское оз',

@@ -311,7 +311,7 @@ let southMaps = [
         url: './maps/forest/south/kalischenskoe_oz_2021.webp',
         bounds: [[59.91607472734414, 29.105272293090824], [59.912202325545465, 29.146471023559574], [59.90314344395666, 29.100208282470707]],
         author: 'DBRTSV_V',
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     },
     {
         name: 'Сосновый Бор, Копанское оз',
@@ -319,7 +319,7 @@ let southMaps = [
         url: './maps/forest/south/kopanskoe_2018.webp',
         link: './original_maps/forest/south/kopanskoe_2018_omaps.jpg',
         bounds: [[59.77029092200125, 28.72585773468018], [59.76748195838195, 28.754224777221683], [59.76229555851045, 28.722982406616214]],
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     },
     {
         name: 'Сосновый Бор',
@@ -328,7 +328,7 @@ let southMaps = [
         link: './original_maps/forest/south/sosnovij_bor_2004_omaps.jpg',
         bounds: [[59.8994847627188, 29.062614440917972], [59.89474940043523, 29.10115242004395], [59.87015771627351, 29.05240058898926]],
         author: ['SHRNN','DBRTSV_V'],
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     },
     {
         name: 'Сосновый Бор',
@@ -337,7 +337,7 @@ let southMaps = [
         link: './original_maps/forest/south/sosnovij_bor_2021_omaps.jpg',
         bounds: [[59.904520725405696, 29.05892372131348], [59.89922648763698, 29.104671478271488], [59.862056997499586, 29.041585922241214]],
         author: ['LVCHV','STLV_S','DBRTSV_V','TKHNVA'],
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     },
     {
         name: 'Сосновый Бор, вдоль моря',
@@ -346,7 +346,7 @@ let southMaps = [
         link: './original_maps/forest/south/sosnovij_bor_bereg_2020_omaps.pdf',
         bounds: [[59.95431193211919, 29.060254096984867], [59.95251769387143, 29.08093929290772], [59.92587203736449, 29.048967361450195]],
         author: 'LVCHV',
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     },
     {
         name: 'Кандикюля - Липово',
@@ -364,7 +364,7 @@ let southMaps = [
         link: './original_maps/forest/south/sosnovij_bor_lipovo_2020_omaps.jpg',
         bounds: [[59.94432957749965, 29.061756134033207], [59.943426826724476, 29.07488822937012], [59.93117277838889, 29.056606292724613]],
         author: ['LVCHV','STLV_S'],
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     },
     {
         name: 'Форт Красная Горка',
@@ -373,7 +373,7 @@ let southMaps = [
         link: ['./original_maps/forest/south/fort_krasnaja_gorka_2012_omaps.gif','./original_maps/forest/south/fort_krasnaja_gorka_omaps.jpg'],
         bounds: [[59.9807629815427, 29.305815696716312], [59.976221733526316, 29.357614517211918], [59.962916479136254, 29.298820495605472]],
         author: ['DBRTSV_V','MKHLV_A'],
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     },
     {
         name: 'Форт Красная Горка',
@@ -382,7 +382,7 @@ let southMaps = [
         link: './original_maps/forest/south/fort_krasnaja_gorka_2020_omaps.jpg',
         bounds: [[59.97953916041285, 29.321157932281494], [59.975620481424144, 29.357635974884037], [59.97175502864446, 29.31828260421753]],
         author: 'STLV_S',
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     },
     {
         name: 'Лебяжье - Борки',
@@ -390,7 +390,7 @@ let southMaps = [
         url: './maps/forest/south/lebyazhje_borki_2011.webp',
         bounds: [[59.95763155393701, 29.44644927978516], [59.955397023083194, 29.48790550231934], [59.94918681445341, 29.4404411315918]],
         author: ['SHRNN','MLNKV_F'],
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     },
     {
         name: 'Шепелево, Батарейная бухта',
@@ -399,7 +399,7 @@ let southMaps = [
         link: './original_maps/forest/south/shepelevo_2023_omaps.jpg',
         bounds: [[59.98215851183213, 29.116559028625492], [59.97999004714518, 29.1423511505127], [59.96229350332903, 29.108920097351078]],
         author: ['SHRNN','LVCHV'],
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     },
     {
         name: 'Шапки',

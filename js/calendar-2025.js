@@ -85,7 +85,7 @@ let events_2025 =
         type: 'ORIENT',
         fmt: 'маркир',
         link: 'https://vk.com/wall-201330282_1661',
-        owner: 'YUVNT',
+        owner: 'YUVENTA',
         map: 'sosnovij_bor_2021'
     }, {
         date: '2025-02-09',
@@ -136,6 +136,7 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/41339',
         reskeep: 682,
         map: 'sosnovka_2014',
+        owner: 'KUZMOLOVO',
         me: 'A'
     }, {
         date: '2025-02-22',
@@ -239,6 +240,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250315_ks',
         reg: 'http://orgeo.ru/event/41998',
         map: 'toksovo_kombyt_2017',
+        owner: 'KUZMOLOVO',
         me: 'A'
     }, {
         date: '2025-03-16',
@@ -283,7 +285,7 @@ let events_2025 =
         reg: 'http://orgeo.ru/event/42267',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22038/',
         reskeep: 673,
-        owner: 'DLT',
+        owner: 'DLITELNY',
         map: 'lembolovo_2024',
         me: 'A'
     }, {
@@ -302,7 +304,7 @@ let events_2025 =
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/42556',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22081/',
-        owner: 'DLT',
+        owner: 'DLITELNY',
         map: 'beloostrov_udachnoe_2007',
         me: 'A'
     }, {
@@ -358,7 +360,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250413_Dlit_3',
         reg: 'http://orgeo.ru/event/42713',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22170/',
-        owner: 'DLT',
+        owner: 'DLITELNY',
         map: 'lembolovo_2024',
         me: 'A'
     }, {
@@ -369,7 +371,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250417_Dlit_4',
         reg: 'http://orgeo.ru/event/43056',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22224/',
-        owner: 'DLT',
+        owner: 'DLITELNY',
         map: 'osinovaja_roscha_2018'
     }, {
         date: '2025-04-19',
@@ -421,7 +423,7 @@ let events_2025 =
         },
         reskeep: [686,683],
         photo: 'https://vk.com/album-201330282_306915469',
-        owner: 'YUVNT',
+        owner: 'YUVENTA',
         map: 'sosnovij_bor_bereg_2020',
         me: 'М50'
     }, {
@@ -431,7 +433,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=25_KS',
         reg: 'https://orgeo.ru/event/43174',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         map: 'kuzmolovo_zona_z_2018'
     }, {
         date: '2025-04-26',
@@ -535,7 +537,7 @@ let events_2025 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22439/',
         photo: 'https://vk.com/album-31941981_306303089',
         map: 'luga_omchino_gk_2023',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     }, {
         date: '2025-05-02',
         place: 'Первомайское',
@@ -567,7 +569,7 @@ let events_2025 =
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/43400',
         map: 'michurinskoe_2022',
-        owner: 'DLT'
+        owner: 'DLITELNY'
     }, {
         date: '2025-05-04',
         place: 'Токсово, Малиновая гора',
@@ -612,7 +614,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250508_D2RUN_1',
         reg: 'http://orgeo.ru/event/43544',
         map: 'petyajarvi_west_2019',
-        owner: 'DLT'
+        owner: 'DLITELNY'
     }, {
         date: '2025-05-09',
         place: 'Цвелодубово, оз Щукино',
@@ -633,7 +635,7 @@ let events_2025 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22515/',
         reskeep: 698,
         video: ['http://northernwind.spb.ru/videosplit/2025/zg-prolog/','http://northernwind.spb.ru/videosplit/2025/zg-final/'],
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         map: 'orekhovo_figurnoe_2025',
         me: 'М80'
     }, {
@@ -691,7 +693,7 @@ let events_2025 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22595/',
         photo: 'https://vk.com/album-128591100_306187926',
         map: 'yukki_north_2020',
-        owner: 'KUZM'
+        owner: 'KUZMOLOVO'
     }, {
         date: '2025-05-15',
         place: 'парк Малиновка',
@@ -769,7 +771,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=25_KS',
         reg: 'http://orgeo.ru/event/43177',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22660/',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         map: 'toksovo_vifk_2020'
     }, {
         date: '2025-05-24',
@@ -814,7 +816,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=25_KS',
         reg: 'http://orgeo.ru/event/43177',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22829/',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         map: 'vartemjagi_south_2018'
     }, {
         date: '2025-05-31',
@@ -850,7 +852,7 @@ let events_2025 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22757/',
         photo: 'https://vk.com/album-31941981_306822215',
         map: 'kuznechnoe_2009',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     }, {
         date: '2025-05-31',
         place: 'Петергоф, Английский парк',
@@ -878,7 +880,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=250601_D2RUN_2',
         reg: 'http://orgeo.ru/event/43859',
         map: 'orekhovo_borkovo_2024',
-        owner: 'DLT'
+        owner: 'DLITELNY'
     }, {
         date: '2025-06-01',
         place: 'Симагино',
@@ -895,7 +897,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=25_KS',
         reg: 'http://orgeo.ru/event/43177',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22827/',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         map: 'kavgolovo_2017'
     }, {
         date: '2025-06-07',
@@ -1030,7 +1032,7 @@ let events_2025 =
         res: 'https://o-site.spb.ru/_races/250705R/250705R_res.pdf',
         photo: 'https://vk.com/album-31941981_307754452',
         map: 'lembolovo_orekhovo_gk_2024',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     }, {
         date: '2025-07-05',
         endDate: '2025-07-06',
@@ -1069,7 +1071,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=250712_Dlit_5',
         reg: 'http://orgeo.ru/event/44871',
-        owner: 'DLT',
+        owner: 'DLITELNY',
         map: 'toksovo_ska_2014'
     }, {
         date: '2025-07-13',
@@ -1080,7 +1082,7 @@ let events_2025 =
         reg: 'http://orgeo.ru/event/44872',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23094/',
         reskeep: 741,
-        owner: 'DLT',
+        owner: 'DLITELNY',
         map: 'luppolovo_2022',
         me: 'A'
     }, {
@@ -1237,7 +1239,7 @@ let events_2025 =
         reg: ['http://orgeo.ru/event/45172','http://orgeo.ru/event/info/45167'],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23280/',
         reskeep: 784,
-        owner: 'DLT',
+        owner: 'DLITELNY',
         map: 'orekhovo_south_2021'
     }, {
         date: '2025-08-24',
@@ -1351,7 +1353,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
         reg: 'https://orgeo.ru/event/46308',
         info: 'Карта Бабочка',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         map: 'toksovo_malinovaya_gora_2018'
     }, {
         date: '2025-09-13',
@@ -1361,7 +1363,7 @@ let events_2025 =
         link: 'https://vk.com/wall-201330282_1914',
         photo: 'https://vk.com/album-201330282_308427063',
         video: 'https://vk.com/video-184397039_456268595',
-        owner: 'YUVNT',
+        owner: 'YUVENTA',
         map: 'kalischenskoe_oz_2021'
     }, {
         date: '2025-09-13',
@@ -1436,7 +1438,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
         reg: 'https://orgeo.ru/event/46308',
-        owner: 'KUZM',
+        owner: 'KUZMOLOVO',
         map: 'toksovo_oz_svetloe_2017'
     }, {
         date: '2025-09-19',
@@ -1459,7 +1461,7 @@ let events_2025 =
         video: 'https://vk.com/video-31941981_456239087',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23457/',
         map: 'molodezhnoe_gk_2024',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     }, {
         date: '2025-09-20',
         place: 'Лемболово',
@@ -1610,7 +1612,7 @@ let events_2025 =
         name: 'XII Кубок Весты №1, Памяти друзей, П-во Приозерска',
         type: 'ORIENT',
         link: 'https://vk.com/wall-30365190_8650',
-        owner: 'VST_PRZRSK',
+        owner: 'VESTA_PRIOZERSK',
         map: 'priozersk_kamenisty'
     }, {
         date: '2025-09-27',
@@ -1654,6 +1656,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
         reg: 'http://orgeo.ru/event/46828',
         map: 'sertolovo_2016',
+        owner: 'KUZMOLOVO',
         type: 'ORIENT'
     }, {
         date: '2025-10-04',
@@ -1716,7 +1719,7 @@ let events_2025 =
         res: 'https://t.me/dlitelnyy/327',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23620/',
         map: 'sosnovka_winter_2024',
-        owner: 'DLT'
+        owner: 'DLITELNY'
     }, {
         date: '2025-10-09',
         place: 'Шуваловский парк',
@@ -1724,6 +1727,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=25_KS_a',
         reg: 'https://orgeo.ru/event/46972',
         type: 'ORIENT',
+        owner: 'KUZMOLOVO',
         map: 'shuvalovsky_rogaine_2024'
     }, {
         date: '2025-10-11',
@@ -1791,7 +1795,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251011R',
         reg: 'https://orgeo.ru/event/39880',
         map: 'kavgolovo_2017',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     }, {
         date: '2025-10-11',
         place: 'Лемболово',
@@ -1901,7 +1905,7 @@ let events_2025 =
         link: 'https://t.me/dlitelnyy/340',
         reg: 'https://orgeo.ru/event/47226',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23736/',
-        owner: 'DLT',
+        owner: 'DLITELNY',
         me: 'А',
         map: 'lesotekchnicheskaya_2025'
     }, {
@@ -1920,7 +1924,7 @@ let events_2025 =
         type: 'ROGAINE',
         link: 'https://vk.ru/wall-201330282_1964',
         map: 'sosnovij_bor_2021',
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     }, {
         date: '2025-10-25',
         place: 'Токсовский карьер',
@@ -1930,7 +1934,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251025_D2RUN_final',
         reg: 'http://orgeo.ru/event/47228',
         res: 'https://t.me/dlitelnyy/355',
-        owner: 'DLT',
+        owner: 'DLITELNY',
         map: 'toksovo_vifk_khimakolovo_2020'
     }, {
         date: '2025-10-25',
@@ -1958,7 +1962,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://vk.ru/wall-30365190_8705',
         map: 'vasilievo_2024',
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     }, {
         date: '2025-10-26',
         place: 'Колосково',
@@ -2041,7 +2045,7 @@ let events_2025 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23833/',
         photo: 'https://vk.com/album-31941981_309120792',
         map: 'lembolovo_orekhovo_gk_2024',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     }, {
         date: '2025-11-09',
         place: 'Лемболово',
@@ -2076,7 +2080,7 @@ let events_2025 =
         res: 'https://t.me/dlitelnyy/370',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23867/',
         reskeep: 818,
-        owner: 'DLT',
+        owner: 'DLITELNY',
         map: 'piskarevsky_2024',
         me: 'А'
     }, {
@@ -2099,7 +2103,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://vk.com/wall-30365190_8767',
         map: 'priozersk_drsu_2015_omaps',
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     }, {
         date: '2025-11-16',
         place: 'Решетниково, Ловецкое оз',
@@ -2160,7 +2164,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251126_Dlit_10',
         reg: 'https://orgeo.ru/event/dlitelnyy26112025',
         reskeep: 823,
-        owner: 'DLT',
+        owner: 'DLITELNY',
         map: 'murinsky_east_2023'
     }, {
         date: '2025-11-29',
@@ -2196,7 +2200,7 @@ let events_2025 =
         reg: 'https://docs.google.com/forms/d/e/1FAIpQLSfJRIIAhNHVXd5FY8_2vWY7YdIOFpEgb4gMa5wGmQHf7bJ3Wg/viewform',
         photo: 'https://blinova-photo.ru/disk/29-11-2025-orient',
         map: 'gazovaya_2025',
-        owner: 'DLT',
+        owner: 'DLITELNY',
         logo: 'across.gif'
     }, {
         date: '2025-11-29',
@@ -2248,7 +2252,7 @@ let events_2025 =
         reg: 'https://orgeo.ru/event/info/48224',
         res: 'https://t.me/dlitelnyy/404',
         map: 'shuvalovsky_rogaine_2024',
-        owner: 'DLT',
+        owner: 'DLITELNY',
     }, {
         date: '2025-12-06',
         place: 'Зеленогорск',
@@ -2271,7 +2275,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://vk.com/wall-30365190_8828',
         map: 'priozersk_aerodrom_2020',
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     }, {
         date: '2025-12-07',
         place: 'Кудрово',
@@ -2299,7 +2303,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251211_Dlit_12',
         reg: 'http://orgeo.ru/event/48415',
         map: 'sosnovka_2024',
-        owner: 'DLT',
+        owner: 'DLITELNY',
     }, {
         date: '2025-12-13',
         place: 'Мистолово хиллс',
@@ -2322,7 +2326,7 @@ let events_2025 =
         reg: 'http://orgeo.ru/event/48473',
         res: 'https://t.me/dlitelnyy/411',
         map: 'osinovaja_roscha_2018',
-        owner: 'DLT',
+        owner: 'DLITELNY',
     }, {
         date: '2025-12-13',
         place: 'Саблино, Жемчужная пещера',
@@ -2356,7 +2360,7 @@ let events_2025 =
         fmt: 'спринт',
         link: 'https://vk.com/wall-201330282_2053',
         map: 'sosnovy_bor',
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     }, {
         date: '2025-12-20',
         place: 'Лемболово',
@@ -2365,7 +2369,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=251220_Dlit_14',
         reg: 'http://orgeo.ru/event/48581',
         map: 'lembolovo_2024',
-        owner: 'DLT',
+        owner: 'DLITELNY',
     }, {
         date: '2025-12-20',
         place: 'Антифитнес на Газовой',
@@ -2375,7 +2379,7 @@ let events_2025 =
         link: 'https://t.me/across_the_runiverse/14677',
         reg: 'https://forms.gle/K3q1zgUUJoxEgKEN6',
         map: 'gazovaya_2025',
-        owner: 'DLT',
+        owner: 'DLITELNY',
         logo: 'across.gif'
     }, {
         date: '2025-12-21',
@@ -2385,7 +2389,7 @@ let events_2025 =
         fmt: 'ночное',
         link: 'https://vk.com/wall-30365190_8873',
         map: 'priozersk_karnaval_2023',
-        owner: 'VST_PRZRSK'
+        owner: 'VESTA_PRIOZERSK'
     }, {
         date: '2025-12-21',
         place: 'Кавголово',
@@ -2395,5 +2399,15 @@ let events_2025 =
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1707',
         map: 'kavgolovo_2017',
         owner: 'WN'
+    }, {
+        date: '2025-12-28',
+        place: 'Кавголово',
+        name: 'По следам Деда Мороза',
+        type: 'ORIENT',
+        fmt: 'маркир',
+        link: 'https://o-site.spb.ru/race.php?id=251228_markir',
+        reg: 'http://orgeo.ru/event/48645',
+        map: 'toksovo_vifk_2020',
+        owner: 'KUZMOLOVO'
     }
 ];

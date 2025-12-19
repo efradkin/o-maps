@@ -77,7 +77,7 @@ let events_2026 =
         type: 'ROGAINE',
         fmt: '5, 3',
         map: 'lembolovo_orekhovo_gk_2024',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },{
         date: '2026-02-22',
         place: 'Кировск',
@@ -123,14 +123,14 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'спринт',
         map: 'romanovka_2013',
-        owner: 'DLT'
+        owner: 'DLITELNY'
     },{
         date: '2026-04-11',
         endDate: '2026-04-12',
         name: 'Сосновоборские дюны, ЧиП ЛО',
         place: 'Сосновый бор',
         type: 'ORIENT',
-        owner: 'YUVNT'
+        owner: 'YUVENTA'
     },{
         date: '2026-04-17',
         endDate: '2026-04-19',
@@ -161,7 +161,7 @@ let events_2026 =
         type: 'ROGAINE',
         fmt: '5(4), 2',
         map: 'luga_omchino_gk_2023',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },{
         date: '2026-05-02',
         name: 'Мемориал Ирины Вилениновны Степановой',
@@ -196,7 +196,7 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'эстафета',
         map: 'sosnovo_ulovnoe_oz_2023',
-        owner: 'KUZM'
+        owner: 'KUZMOLOVO'
     },{
         date: '2026-05-11',
         name: 'ЧиП СПб',
@@ -277,13 +277,13 @@ let events_2026 =
         type: 'ROGAINE',
         fmt: '24, 8(7), 3',
         map: 'kuznechnoe_2009',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },{
         date: '2026-06-07',
         name: 'Кубок D2RUN, 2 этап',
         type: 'ORIENT',
         fmt: 'лонг-масстарт',
-        owner: 'DLT'
+        owner: 'DLITELNY'
     },{
         date: '2026-06-13',
         name: 'Эстафета "Пирамида"',
@@ -330,7 +330,7 @@ let events_2026 =
         type: 'ROGAINE',
         fmt: '6(5), 3',
         map: 'lembolovo_orekhovo_gk_2024',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },{
         date: '2026-07-09',
         endDate: '2026-07-19',
@@ -365,7 +365,7 @@ let events_2026 =
         name: 'Transbiotech O-Weekend (Кубок D2RUN, 3 этап)',
         type: 'ORIENT',
         fmt: 'эстафета, классика',
-        owner: 'DLT'
+        owner: 'DLITELNY'
     },{
         date: '2026-08-16',
         name: 'Tokma-maps',
@@ -421,7 +421,7 @@ let events_2026 =
         type: 'ROGAINE',
         fmt: '5(4), 2',
         map: 'molodezhnoe_gk_2024',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },{
         date: '2026-09-20',
         name: 'ЧиП СПб',
@@ -449,7 +449,7 @@ let events_2026 =
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '2(1)',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },{
         date: '2026-10-10',
         name: 'ЧиП СПб',
@@ -506,14 +506,14 @@ let events_2026 =
         name: 'Кубок D2RUN, финал',
         type: 'ORIENT',
         fmt: 'лонг (гандикап)',
-        owner: 'DLT'
+        owner: 'DLITELNY'
     },{
         date: '2026-11-07',
         place: 'Орехово',
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '6(5), 3',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },{
         date: '2026-11-15',
         name: 'Первенство ГБУ ДО СШОР им. Коренькова',

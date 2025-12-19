@@ -1171,7 +1171,7 @@ let parkMaps = [
         link: './original_maps/parks/sosnovy_bor_2020_omaps.jpg',
         bounds: [[59.90344472915467, 29.072313308715824], [59.901314153719255, 29.097247123718265], [59.88372630703435, 29.06510353088379]],
         author: ['DBRTSV_V','PPV_D','MSPN','TKHNVA'],
-        owner: 'YUVNT',
+        owner: 'YUVENTA',
         type: ['PARK']
     },
     {
@@ -1181,7 +1181,7 @@ let parkMaps = [
         link: './original_maps/parks/sosnovy_bor_bely_pesok_2003_omaps.jpg',
         bounds: [[59.903068122230074, 29.072527885437015], [59.900453276388724, 29.091324806213382], [59.8942543008555, 29.06739950180054]],
         author: 'SHRNN',
-        owner: 'YUVNT',
+        owner: 'YUVENTA',
         type: ['PARK']
     },
     {
@@ -1251,7 +1251,7 @@ let parkMaps = [
         link: ['./original_maps/parks/priozersk_karela_2020_omaps.jpg','./original_maps/parks/priozersk_karela_2020_pictures_1.jpg','./original_maps/parks/priozersk_karela_2020_pictures_2.jpg','./original_maps/parks/priozersk_karela_2020_pictures_3.jpg','./original_maps/parks/priozersk_karela_2020_pictures_4.jpg'],
         bounds: [[61.032226926267995, 30.121947526931766], [61.03167093183312, 30.12731194496155], [61.02892199371037, 30.12032747268677]],
         author: 'MKHLV_A',
-        owner: 'VST_PRZRSK',
+        owner: 'VESTA_PRIOZERSK',
         type: ['PARK','FOTO']
     },
     {
@@ -1261,7 +1261,7 @@ let parkMaps = [
         link: './original_maps/parks/priozersk_karnaval_2023_omaps.jpg',
         author: 'PSHKV',
         bounds: [[61.040202035371664, 30.140733718872074], [61.04305388390088, 30.149917602539066], [61.0382227328721, 30.142976045608524]],
-        owner: 'VST_PRZRSK',
+        owner: 'VESTA_PRIOZERSK',
         type: ['PARK']
     },
     {
@@ -1271,7 +1271,7 @@ let parkMaps = [
         link: './original_maps/parks/priozersk_naberezhnaja_2020_omaps.jpg',
         author: 'PSHKV',
         bounds: [[61.03406111916813, 30.140036344528202], [61.03340643359281, 30.15008926391602], [61.031852800244216, 30.139381885528568]],
-        owner: 'VST_PRZRSK',
+        owner: 'VESTA_PRIOZERSK',
         type: ['PARK']
     },
     {

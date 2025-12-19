@@ -120,7 +120,7 @@ let starts = {
         link: 'https://vk.com/rogaine110',
         logo: '110.gif'
     },
-    GK: {
+    GORNY_CROSS: {
         short: 'ГК',
         name: '<a href="https://vk.com/club31941981">Горный кросс</a>',
         logo: 'gk.gif',

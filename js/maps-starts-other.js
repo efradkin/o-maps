@@ -83,7 +83,7 @@ let otherStartsMaps = [
     {
         name: 'Кузнечное',
         date: '2007-06-10',
-        start: ['100x24','GK'],
+        start: ['100x24','GORNY_CROSS'],
         info: '<a href="https://o-site.spb.ru/race.php?id=070611_RG">Инфо и результаты.</a>',
         url: './maps/rogaine/kuznechnoe_2007_rogaine.webp',
         link: './original_maps/rogaine/kuznechnoe_2007_rogaine_omaps.jpg',

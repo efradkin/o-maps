@@ -42,7 +42,7 @@ let rogaineMaps = [
         url: './maps/rogaine/zelenogorsk_gk_2009.webp',
         link: './original_maps/rogaine/zelenogorsk_gk_2009_omaps.jpg',
         bounds: [[60.30476017195011, 29.679565429687504], [60.28970484971667, 29.871139526367188], [60.202810147156775, 29.64746475219727]],
-        owner: 'GK',
+        owner: 'GORNY_CROSS',
         type: ['ROGAINE']
     },
     {
@@ -52,7 +52,7 @@ let rogaineMaps = [
         link: './original_maps/rogaine/molodezhnoe_gk_2024_omaps.jpg',
         bounds: [[60.27319556884442, 29.48241233825684], [60.27323812924954, 29.62772369384766], [60.19039607775666, 29.482069015502933]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20578/',
-        owner: 'GK',
+        owner: 'GORNY_CROSS',
         type: ['ROGAINE']
     },
     {
@@ -99,7 +99,7 @@ let rogaineMaps = [
         url: './maps/rogaine/kuznechnoe_2009.webp',
         link: './original_maps/rogaine/kuznechnoe_2009_omaps.jpg',
         bounds: [[61.19538604557029, 29.662742614746097], [61.194889777986376, 29.914054870605472], [61.04831536461298, 29.662055969238285]],
-        owner: 'GK',
+        owner: 'GORNY_CROSS',
         type: ['ROGAINE'],
         region: 'SPB'
     },
@@ -197,7 +197,7 @@ let rogaineMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/18461/',
         bounds: [[60.48141628624153, 30.25789260864258], [60.47388792089789, 30.399856567382816], [60.40588443750511, 30.242099761962894]],
         info: 'Горный Кросс.',
-        owner: 'GK',
+        owner: 'GORNY_CROSS',
         type: ['ROGAINE']
     },
     {
@@ -285,7 +285,7 @@ let rogaineMaps = [
         link: './original_maps/rogaine/luga_omchino_gk_2023_omaps.gif',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/15856/',
         bounds: [[58.728926021785234, 29.727287292480472], [58.71653790199033, 29.844532012939453], [58.68550369843779, 29.71012115478516]],
-        owner: 'GK',
+        owner: 'GORNY_CROSS',
         type: ['ROGAINE']
     },
     {
