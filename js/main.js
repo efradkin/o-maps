@@ -738,13 +738,19 @@ function createEventMarker(evt, evtMap) {
     const currentDate = new Date(evt.date);
     let now = new Date();
 
-    let evtCPimage = currentDate < now ? './images/event_cp_old.webp' : './images/event_cp.webp';
+    let evtCPimage = './images/event_cp';
+    if ((currentDate > now && currentDate - now < WEEK_TIME_RANGE) || (currentDate < now && now - currentDate < DAY_TIME_RANGE)) {
+        evtCPimage += '_now';
+    } else if (currentDate < now) {
+            evtCPimage += '_old';
+    }
     if (evt.type && evt.type.includes('SKI')) {
-        evtCPimage = currentDate < now ? './images/event_cp_old_ski.webp' : './images/event_cp_ski.webp';
+        evtCPimage += '_ski';
     } else
     if (evt.type && evt.type.includes('VELO')) {
-        evtCPimage = currentDate < now ? './images/event_cp_old_velo.webp' : './images/event_cp_velo.webp';
+        evtCPimage += '_velo';
     }
+    evtCPimage += '.webp';
     var cpIcon = L.icon({
         iconUrl: evtCPimage,
         //shadowUrl: './images/event_cp.webp',

@@ -1,5 +1,7 @@
 
 /*   CONSTANTS   */
+const DAY_TIME_RANGE = 1000 * 60 * 60 * 24;
+const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 
 const regions = {
     LNGRD: 'Ленинград',
