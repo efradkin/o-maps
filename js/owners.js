@@ -291,6 +291,10 @@ let owners = {
         name: '© Ермаченков Алексей, 89164951315',
         logo: 'mifi.jpg'
     },
+    CLEVER_MSK: {
+        name: '© Массовые старты по ориентированию и рогейну в Москве, Event-Агентство CLEVER',
+        logo: 'clever_msk.gif'
+    },
     FSO_MSK: {
         name: '© ФСО Москвы, 8 (962) 947 17-88',
         logo: 'fso_msk.jpg'

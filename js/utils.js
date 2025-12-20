@@ -723,6 +723,7 @@ function selectMapRegion(region, prefix) {
         case 'starts':location.href = './starts.html'; break;
         case 'docs':location.href = './documents.html'; break;
         case 'calendar':location.href = './calendar.html'; break;
+        case 'calendar_msk':location.href = './calendar-msk.html'; break;
     }
 }
 

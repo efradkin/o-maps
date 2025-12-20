@@ -2368,6 +2368,7 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251220_Dlit_14',
         reg: 'http://orgeo.ru/event/48581',
+        res: 'https://t.me/dlitelnyy/414',
         map: 'lembolovo_2024',
         owner: 'DLITELNY',
     }, {

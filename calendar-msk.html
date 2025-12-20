@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.83">
     <title>o-Maps: Календарь</title>
-    <meta name="description" content="Календарь О-стартов Санкт-Петербурга.">
+    <meta name="description" content="Календарь О-стартов Москвы.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -13,7 +13,7 @@
     <meta property="og:title" content="o-Maps: Календарь">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Календарь О-стартов Санкт-Петербурга.">
+    <meta property="og:description" content="Календарь О-стартов Москвы.">
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
@@ -35,7 +35,7 @@
     <base target="_blank">
 </head>
 <body class="stat-body sheet-body calendar-body">
-    <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+    <a href="moscow.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
     <h1>
          <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
 
@@ -49,12 +49,10 @@
             <option value="srb">Белград</option>
             <option value="all">Все регионы вместе</option>
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="docs">Исторические документы</option>
-            <option value="tracks">Маршруты</option>
-            <option value="calendar" selected>Календарь о-стартов</option>
+            <option value="calendar_msk" selected>Календарь о-стартов</option>
         </select>
 
-        <select id="event_type_selector" class="header_selector" onchange="selectEventType(this.value)">
+        <select id="event_type_selector" class="header_selector" onchange="selectEventType(this.value, 'msk')">
             <option value="ALL">все форматы</option>
             <option value="ORIENT">Ориент</option>
             <option value="ROGAINE">Рогейн</option>
@@ -82,10 +80,10 @@
         </select>
 -->
     </h1>
-    <h2>Календарь о-стартов СПб</h2>
+    <h2>Календарь о-стартов Москвы</h2>
 
     <div class="o-sheet-roof">
-        <a href="#" onclick="downloadSheetTable('o-maps-calendar.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+        <a href="#" onclick="downloadSheetTable('o-maps-calendar-msk.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
     <div class="o-sheet-wrapper">
         <table class="o-main-table o-sheet">
@@ -107,28 +105,9 @@
 
     <script src="js/ext/jquery.slim.min.js"></script>
 
-    <script src="js/calendar-2025.js"></script>
-    <script src="js/calendar-2026.js"></script>
+    <script src="js/calendar-msk-2026.js"></script>
 
-    <script src="js/maps-starts-schools.js"></script>
-    <script src="js/maps-city.js"></script>
-    <script src="js/maps-parks.js"></script>
-    <script src="js/maps-forest.js"></script>
-    <script src="js/maps-forest-vsevolozhsk.js"></script>
-    <script src="js/maps-forest-south.js"></script>
-    <script src="js/maps-forest-priozersk.js"></script>
-    <script src="js/maps-forest-zelik.js"></script>
-    <script src="js/maps-forest-toksovo.js"></script>
-    <script src="js/maps-forest-sosnovo.js"></script>
-    <script src="js/maps-forest-michura.js"></script>
-    <script src="js/maps-forest-vaskelovo.js"></script>
-    <script src="js/maps-forest-vyborg.js"></script>
-    <script src="js/maps-special.js"></script>
-    <script src="js/maps-fun.js"></script>
-    <script src="js/maps-rogaine.js"></script>
-    <script src="js/maps-rogaine-beketov.js"></script>
-    <script src="js/maps-rogaine-kkm.js"></script>
-    <script src="js/maps-rogaine-rfar.js"></script>
+    <script src="js/maps-moscow.js"></script>
 
     <script src="js/owners.js"></script>
     <script src="js/starts.js"></script>
@@ -147,30 +126,11 @@
         let currentSort = 'date';
 
         let oMaps = [
-            ...rogaineRfarMaps,
-            ...rogaineBeketovMaps,
-            ...rogaineKkmMaps,
-            ...rogaineMaps,
-            ...funMaps,
-            ...specialMaps,
-            ...forestMaps,
-            ...vsevolozhskMaps,
-            ...southMaps,
-            ...priozerskMaps,
-            ...zelikMaps,
-            ...vyborgMaps,
-            ...sosnovoMaps,
-            ...michuraMaps,
-            ...vaskelovoMaps,
-            ...toksovoMaps,
-            ...parkMaps,
-            ...cityMaps,
-            ...schoolMaps,
+            ...moscowMaps
         ];
 
         let oEvents = [
-            ...events_2025,
-            ...events_2026,
+            ...mskEvents2026,
         ];
     </script>
     <script src="js/calendar.js"></script>

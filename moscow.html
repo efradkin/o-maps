@@ -107,6 +107,7 @@
         <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
         <option value="starts">Старты на карте</option>
         <option value="tracks">Маршруты</option>
+        <option value="calendar_msk">Календарь о-стартов</option>
     </select>
     <img id="spinner" src="images/snowman.gif" alt="" />
     <div id="counter"></div>
@@ -130,6 +131,8 @@
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
 
+    <script src="js/calendar-msk-2026.js"></script>
+
     <script src="js/maps-moscow.js"></script>
 
     <script src="js/starts.js"></script>
@@ -151,6 +154,10 @@
 
         let oMaps = [
             ...moscowMaps,
+        ];
+
+        const oEvents = [
+            ...mskEvents2026
         ];
     </script>
 
