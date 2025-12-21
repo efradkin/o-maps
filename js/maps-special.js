@@ -273,9 +273,10 @@ let specialMaps = [
     },
     {
         name: 'Гатчина, парк Зверинец',
+        hidden: true,
         url: './maps/winter/gatchina_zverinets_winter.webp',
-        link: './original_maps/winter/gatchina_zverinets_winter_omaps.jpg',
         bounds: [[59.587737555103494, 30.093741416931156], [59.5885413532801, 30.117602348327637], [59.57226612908946, 30.095458030700687]],
+        owner: 'PNKV_DNL',
         type: ['WINTER']
     },
     // --- вело ---

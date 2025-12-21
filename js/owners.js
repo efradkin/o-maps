@@ -159,6 +159,9 @@ let owners = {
     PARADA: {
         name: '© Екатерина Новикова (PARADA) - <a href="https://parda.ru/about">сайт</a> и <a href="https://vk.com/parada_ekaterina">ВК</a>'
     },
+    PNKV_DNL: {
+        name: '© Пьянков Даниил'
+    },
     PPLVSKY: {
         name: '© Андрей Поплавский (ОК "Экран")'
     },
