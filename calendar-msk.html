@@ -53,12 +53,15 @@
         </select>
 
         <select id="event_type_selector" class="header_selector" onchange="selectEventType(this.value, 'msk')">
-            <option value="ALL">все форматы</option>
+            <option value="ALL">все старты</option>
             <option value="ORIENT">Ориент</option>
             <option value="ROGAINE">Рогейн</option>
             <option value="SKI">Лыжи</option>
             <option value="VELO">Вело</option>
             <option value="OTHER">Прочее</option>
+            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+            <option value="actual">Текущие</option>
+            <option value="future">Будущие</option>
         </select>
 
 <!--
@@ -116,10 +119,6 @@
     <script src="js/utils-common.js"></script>
 
     <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        let EVENT_TYPE_PARAM = urlParams.get('event-type');
-        let EVENT_MONTH_PARAM = urlParams.get('event-month');
-
         let loadImagesRequired = false;
         let mapsOnStore = false;
         let documentsPage = true;

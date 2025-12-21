@@ -22,9 +22,14 @@ if (EVENT_TYPE_PARAM && ('ALL' !== EVENT_TYPE_PARAM)) {
             return event.type.includes('VELO');
         }
     });
-
+}
+if ((EVENT_TYPE_PARAM && ('ALL' !== EVENT_TYPE_PARAM)) || CALENDAR_NAME_PARAM) {
     let selector = document.getElementById('event_type_selector');
-    selector.value = EVENT_TYPE_PARAM;
+    if (EVENT_TYPE_PARAM) {
+        selector.value = EVENT_TYPE_PARAM;
+    } else if (CALENDAR_NAME_PARAM) {
+        selector.value = CALENDAR_NAME_PARAM;
+    }
 }
 if (EVENT_MONTH_PARAM && ('0' !== EVENT_MONTH_PARAM)) {
     oEvents = oEvents.filter(event => {
@@ -53,8 +58,11 @@ window.onload = function() {
     renderMapsTable();
 
     setTimeout(() => {
-        const firstCurrent = document.querySelector('.current').previousSibling;
-        firstCurrent.scrollIntoView();
+        const currentRow = document.querySelector('.current');
+        if (currentRow) {
+            const firstCurrent = currentRow.previousSibling;
+            firstCurrent.scrollIntoView();
+        }
     }, 1000);
 
     // --- welcome dialog ---
@@ -141,10 +149,12 @@ function renderMapsTable() {
 }
 
 function buildMonth() {
-    let year = prevDate.getFullYear();
-    let monthName = prevDate.toLocaleString('ru', { month: 'long' }).toUpperCase().split('').join(' ');
-    monthTD.innerHTML = `${monthName}&nbsp;&nbsp;&nbsp;${year}&nbsp;&nbsp;&nbsp;(ориенты: ${korients}, рогейны: ${krogaines}, прочие: ${kothers})`;
-    korients = krogaines = kothers = 0;
+    if (prevDate) {
+        let year = prevDate.getFullYear();
+        let monthName = prevDate.toLocaleString('ru', {month: 'long'}).toUpperCase().split('').join(' ');
+        monthTD.innerHTML = `${monthName}&nbsp;&nbsp;&nbsp;${year}&nbsp;&nbsp;&nbsp;(ориенты: ${korients}, рогейны: ${krogaines}, прочие: ${kothers})`;
+        korients = krogaines = kothers = 0;
+    }
 }
 
 function td(row, html) {
@@ -184,7 +194,9 @@ function buildPlace(event) {
 
 function selectEventType(type, region) {
     const page = `./calendar${region ? '-'+region : ''}.html`;
-    if (type === 'ALL') {
+    if (type === 'actual' || type === 'future') {
+        location.href = page + '?calendar=' + type;
+    } else if (type === 'ALL') {
         location.href = page;
     } else {
         location.href = page + '?event-type=' + type;
