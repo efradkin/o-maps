@@ -338,7 +338,7 @@ let toksovoMaps = [
         name: 'Кавголово',
         year: 1999,
         url: './maps/forest/toksovo/kavgolovo_1999.webp',
-        link: ['./original_maps/forest/toksovo/kavgolovo_1999_omaps.jpg','./original_maps/forest/toksovo/kavgolovo_2000_omaps.jpg'],
+        link: ['./original_maps/forest/toksovo/kavgolovo_1999_omaps.gif','./original_maps/forest/toksovo/kavgolovo_2000_omaps.jpg'],
         photo: './tracks/kavgolovo/pic_1.jpg',
         bounds: [[60.17737972707715, 30.52212238311768], [60.17637661381631, 30.545682907104496], [60.161070001844394, 30.518131256103516]],
         author: ['SHRNN','BBNNA_I'],

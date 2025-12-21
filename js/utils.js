@@ -84,6 +84,9 @@ const LOGO_CAROUSEL_TEMPLATE = `
         </div>
     `;
 
+const ACTUAL_EVENTS_CALENDAR_PARAM_VALUE = 'actual';
+const FUTURE_EVENTS_CALENDAR_PARAM_VALUE = 'future';
+
 /*   FUNCTIONS   */
 
 function year(o) { // map, track, event
@@ -839,6 +842,39 @@ function hideSpinner() {
 }
 
 /*   CALENDAR   */
+
+function isOutdated(date) {
+    const now = new Date();
+    return (date < now) && (Math.abs(date - now) > DAY_TIME_RANGE);
+}
+
+function isActual(date) {
+    const now = new Date();
+    return !isOutdated(date) && (date - now < WEEK_TIME_RANGE);
+}
+
+function validateEvent(evt) {
+    if (CALENDAR_NAME_PARAM) {
+        const currentDate = new Date(evt.date);
+        switch (CALENDAR_NAME_PARAM) {
+            case FUTURE_EVENTS_CALENDAR_PARAM_VALUE:
+                if (isOutdated(currentDate)) {
+                    return false;
+                }
+                break;
+            case ACTUAL_EVENTS_CALENDAR_PARAM_VALUE:
+                if (!isActual(currentDate)) {
+                    return false;
+                }
+                break;
+            default:
+                if (evt.owner !== CALENDAR_NAME_PARAM && evt.start !== CALENDAR_NAME_PARAM) {
+                    return false;
+                }
+        }
+    }
+    return true;
+}
 
 function buildEventDate(evt) {
     const date = new Date(evt.date);

@@ -710,10 +710,9 @@ if (mapElement) {
 async function loadCalendar() {
     if (typeof oEvents != 'undefined') {
         oEvents.reverse().forEach(evt => {
-            if (CALENDAR_NAME_PARAM && (evt.owner !== CALENDAR_NAME_PARAM && evt.start !== CALENDAR_NAME_PARAM)) {
-                return;
+            if (validateEvent(evt)) {
+                createEventMarkers(evt)
             }
-            createEventMarkers(evt)
         });
     }
 }

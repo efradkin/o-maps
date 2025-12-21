@@ -1,3 +1,7 @@
+const urlParams = new URLSearchParams(window.location.search);
+const EVENT_TYPE_PARAM = urlParams.get('event-type');
+const EVENT_MONTH_PARAM = urlParams.get('event-month');
+const CALENDAR_NAME_PARAM = urlParams.get('calendar');
 
 // Фильтрация массива. Оставляем только эвенты, соответствующие критерию запроса (есди он задан).
 if (EVENT_TYPE_PARAM && ('ALL' !== EVENT_TYPE_PARAM)) {
@@ -71,65 +75,66 @@ function renderMapsTable() {
     let idx = 0;
     let prevYear = 0;
     let currentMonth = -1;
-    for (const event of oEvents) {
-        currentDate = new Date(event.date);
-        let month = currentDate.getMonth();
-        if (currentSort === 'date' && month !== currentMonth) {
-            if (monthTD) {
-                buildMonth();
+    for (const evt of oEvents) {
+        if (validateEvent(evt)) {
+            currentDate = new Date(evt.date);
+            let month = currentDate.getMonth();
+            if (currentSort === 'date' && month !== currentMonth) {
+                if (monthTD) {
+                    buildMonth();
+                }
+                currentMonth = month;
+                const monthRow = document.createElement('tr');
+                monthTD = document.createElement('td');
+                monthTD.setAttribute('colspan', 8);
+                monthTD.classList.add('month-row');
+                monthRow.appendChild(monthTD);
+                tbody.appendChild(monthRow);
             }
-            currentMonth = month;
-            const monthRow = document.createElement('tr');
-            monthTD = document.createElement('td');
-            monthTD.setAttribute('colspan', 8);
-            monthTD.classList.add('month-row');
-            monthRow.appendChild(monthTD);
-            tbody.appendChild(monthRow);
-        }
-        const row = document.createElement('tr');
-        let now = new Date();
-        if ((currentDate < now) && (Math.abs(currentDate - now) > DAY_TIME_RANGE)) {
-            row.classList.add('disabled');
-        } else {
-            if (currentDate - now < WEEK_TIME_RANGE) {
-                row.classList.add('current');
-            }
-        }
-        if(event.cancelled) {
-            row.classList.add('cancelled');
-        }
-        if (event.type.includes('WATER')) {
-            row.classList.add('water');
-            krogaines++;
-        } else if (event.type.includes('ORIENT')) {
-            row.classList.add('orient');
-            korients++;
-        } else if (isRogaine(event)) {
-            row.classList.add('rogaine');
-            krogaines++;
-        } else {
-            if (event.type.includes('SKI') || event.type.includes('VELO')) {
-                korients++;
+            const row = document.createElement('tr');
+            if (isOutdated(currentDate)) {
+                row.classList.add('disabled');
             } else {
-                kothers++;
+                if (isActual(currentDate)) {
+                    row.classList.add('current');
+                }
             }
-        }
-        const y = currentDate.getFullYear();
-        if (y !== prevYear) {
-            prevYear = y;
-            idx = 0;
-        }
-        td(row, buildNumber(event, idx++));
-        td(row, buildEventDate(event));
-        td(row, buildEventStart(event));
-        td(row, buildPlace(event));
-        td(row, buildEventType(event, true));
-        td(row, buildEventResults(event));
-        td(row, buildEventReports(event, true));
-        td(row, event.info ?? '');
-        tbody.appendChild(row);
+            if(evt.cancelled) {
+                row.classList.add('cancelled');
+            }
+            if (evt.type.includes('WATER')) {
+                row.classList.add('water');
+                krogaines++;
+            } else if (evt.type.includes('ORIENT')) {
+                row.classList.add('orient');
+                korients++;
+            } else if (isRogaine(evt)) {
+                row.classList.add('rogaine');
+                krogaines++;
+            } else {
+                if (evt.type.includes('SKI') || evt.type.includes('VELO')) {
+                    korients++;
+                } else {
+                    kothers++;
+                }
+            }
+            const y = currentDate.getFullYear();
+            if (y !== prevYear) {
+                prevYear = y;
+                idx = 0;
+            }
+            td(row, buildNumber(evt, idx++));
+            td(row, buildEventDate(evt));
+            td(row, buildEventStart(evt));
+            td(row, buildPlace(evt));
+            td(row, buildEventType(evt, true));
+            td(row, buildEventResults(evt));
+            td(row, buildEventReports(evt, true));
+            td(row, evt.info ?? '');
+            tbody.appendChild(row);
 
-        prevDate = currentDate;
+            prevDate = currentDate;
+        }
     }
     buildMonth();
     document.body.style.cursor = 'default';

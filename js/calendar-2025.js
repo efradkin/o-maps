@@ -2220,7 +2220,7 @@ let events_2025 =
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/44912',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23931/',
-        video: 'https://disk.yandex.ru/i/PgKHbpnYhPkdJQ',
+        video: ['https://disk.yandex.ru/i/PgKHbpnYhPkdJQ','https://www.youtube.com/watch?v=Zvk2Eo8UOuc'],
         coord: [58.53014157280161, 31.251039505004886],
         owner: 'LM'
     }, {
@@ -2398,6 +2398,8 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=2512321',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1707',
+        photo: 'https://vk.ru/album-196511971_309604407',
+        reskeep: 834,
         map: 'kavgolovo_2017',
         owner: 'WN'
     }, {
