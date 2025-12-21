@@ -389,7 +389,7 @@ let owners = {
     },
     SYTV_N: {
         name: '© Сытов Николай, 89164980105',
-        logo: 'mm.jpg'
+        logo: 'mm.webp'
     },
     TSLSCHVA: {
         name: '© Целищева Валентина (<a href="https://vk.com/valyat2">ВК</a>)' // Переляева

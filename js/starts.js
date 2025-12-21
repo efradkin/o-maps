@@ -399,6 +399,11 @@ let starts = {
         name: '<a href="https://vk.com/moscow__lite">Московский лайт</a>',
         logo: 'msk_light.jpg'
     },
+    MSK_COMPASS: {
+        short: 'Московский компас',
+        name: '<a href="https://sportident.ru/mk/">Московский компас</a>',
+        logo: 'mos_comp.webp'
+    },
     OBSW: {
         short: 'OBSW',
         name: '<a href="https://orientband.ru/obsw">Open Band Sprint Weekend</a>',

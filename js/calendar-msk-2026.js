@@ -153,7 +153,6 @@ let mskEvents2026 = [ {
   name : "Первенство МКСШОР \"Запад\"",
   fmt : "ЛГ-Спринт",
   place : "Митино",
-  owner : "FSO_MSK",
   type : "SKI"
 }, {
   date : "2026-02-23",
@@ -190,7 +189,6 @@ let mskEvents2026 = [ {
   name : "XXXVIII МССИ ",
   fmt : "ЛГ-классика",
   place : "на согласовании",
-  owner : "FSO_MSK",
   type : "SKI"
 }, {
   date : "2026-03-07",
@@ -300,7 +298,7 @@ let mskEvents2026 = [ {
   coord : [ 55.695015, 37.842514 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-04-02",
@@ -310,7 +308,7 @@ let mskEvents2026 = [ {
   coord : [ 55.689663, 37.819153 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-04-04",
@@ -340,7 +338,7 @@ let mskEvents2026 = [ {
   coord : [ 55.689663, 37.819153 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-04-09",
@@ -350,14 +348,13 @@ let mskEvents2026 = [ {
   coord : [ 55.674133, 37.848701 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-04-11",
   name : "Откр. летн. сезона, XXXVIII МССИ ",
   fmt : "кросс-классика",
   place : "на согласовании",
-  owner : "FSO_MSK",
   type : "ORIENT"
 }, {
   date : "2026-04-11",
@@ -386,7 +383,7 @@ let mskEvents2026 = [ {
   coord : [ 55.674133, 37.848701 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-04-16",
@@ -396,7 +393,7 @@ let mskEvents2026 = [ {
   coord : [ 55.773251, 37.377041 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-04-18",
@@ -434,7 +431,7 @@ let mskEvents2026 = [ {
   coord : [ 55.783012, 37.362808 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-04-23",
@@ -444,7 +441,7 @@ let mskEvents2026 = [ {
   coord : [ 55.783012, 37.362808 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-04-25",
@@ -454,7 +451,7 @@ let mskEvents2026 = [ {
   coord : [ 55.604563, 37.963509 ],
   reg : "https://sportident.online/?en&d=2026&c=6&land=643&reg=50",
   link : "https://sportident.ru/mk/",
-  owner : "FSO_MSK",
+  owner : "MSK_COMPASS",
   type : "ORIENT"
 }, {
   date : "2026-04-26",
@@ -464,7 +461,7 @@ let mskEvents2026 = [ {
   coord : [ 55.604563, 37.963509 ],
   reg : "https://sportident.online/?en&d=2026&c=6&land=643&reg=50",
   link : "https://sportident.ru/mk/",
-  owner : "FSO_MSK",
+  owner : "MSK_COMPASS",
   type : "ORIENT"
 }, {
   date : "2026-04-28",
@@ -474,7 +471,7 @@ let mskEvents2026 = [ {
   coord : [ 55.641228, 37.556114 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-04-30",
@@ -484,7 +481,7 @@ let mskEvents2026 = [ {
   coord : [ 55.632622, 37.58086 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-05-01",
@@ -548,7 +545,7 @@ let mskEvents2026 = [ {
   coord : [ 55.693329, 37.772224 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-05-07",
@@ -558,7 +555,7 @@ let mskEvents2026 = [ {
   coord : [ 55.826338, 37.487866 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-05-09",
@@ -606,7 +603,7 @@ let mskEvents2026 = [ {
   coord : [ 55.632622, 37.58086 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-05-13",
@@ -616,7 +613,6 @@ let mskEvents2026 = [ {
   coord : [ 55.826338, 37.487866 ],
   reg : "https://sportident.online/?en&c=6&land=643&reg=77",
   link : "http://horoshevo-o-team.ru/",
-  owner : "FSO_MSK",
   type : "ORIENT"
 }, {
   date : "2026-05-14",
@@ -626,7 +622,7 @@ let mskEvents2026 = [ {
   coord : [ 55.626858, 37.544853 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-05-16",
@@ -654,7 +650,7 @@ let mskEvents2026 = [ {
   coord : [ 55.622139, 37.523602 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-05-21",
@@ -664,7 +660,7 @@ let mskEvents2026 = [ {
   coord : [ 55.760006, 37.398121 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-05-22",
@@ -701,7 +697,7 @@ let mskEvents2026 = [ {
   coord : [ 55.624519, 37.546818 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-05-28",
@@ -711,7 +707,7 @@ let mskEvents2026 = [ {
   coord : [ 55.62772, 37.538666 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-05-29",
@@ -751,7 +747,7 @@ let mskEvents2026 = [ {
   coord : [ 55.610455, 37.561783 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-06-04",
@@ -761,7 +757,7 @@ let mskEvents2026 = [ {
   coord : [ 55.585289, 37.570236 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-06-06",
@@ -791,7 +787,7 @@ let mskEvents2026 = [ {
   coord : [ 55.585289, 37.570236 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-06-11",
@@ -801,7 +797,7 @@ let mskEvents2026 = [ {
   coord : [ 55.738086, 37.386742 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-06-12",
@@ -1001,7 +997,7 @@ let mskEvents2026 = [ {
   coord : [ 55.783012, 37.362808 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-08-18",
@@ -1011,7 +1007,7 @@ let mskEvents2026 = [ {
   coord : [ 55.773251, 37.377041 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-08-20",
@@ -1021,7 +1017,7 @@ let mskEvents2026 = [ {
   coord : [ 55.783012, 37.362808 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-08-25",
@@ -1031,7 +1027,7 @@ let mskEvents2026 = [ {
   coord : [ 55.693329, 37.772224 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-08-27",
@@ -1041,7 +1037,7 @@ let mskEvents2026 = [ {
   coord : [ 55.585289, 37.570236 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-08-29",
@@ -1091,7 +1087,7 @@ let mskEvents2026 = [ {
   coord : [ 55.632622, 37.58086 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-09-03",
@@ -1101,7 +1097,7 @@ let mskEvents2026 = [ {
   coord : [ 55.585289, 37.570236 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-09-05",
@@ -1131,7 +1127,7 @@ let mskEvents2026 = [ {
   coord : [ 55.624519, 37.546818 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-09-10",
@@ -1141,7 +1137,7 @@ let mskEvents2026 = [ {
   coord : [ 55.626858, 37.544853 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-09-12",
@@ -1179,7 +1175,7 @@ let mskEvents2026 = [ {
   coord : [ 55.632622, 37.58086 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-09-17",
@@ -1188,7 +1184,7 @@ let mskEvents2026 = [ {
   place : "Битцевский лес",
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-09-19",
@@ -1216,7 +1212,7 @@ let mskEvents2026 = [ {
   place : "Ясенево",
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-09-24",
@@ -1226,7 +1222,7 @@ let mskEvents2026 = [ {
   coord : [ 55.693329, 37.772224 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-09-26",
@@ -1263,7 +1259,7 @@ let mskEvents2026 = [ {
   coord : [ 55.826338, 37.487866 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-10-01",
@@ -1273,7 +1269,7 @@ let mskEvents2026 = [ {
   coord : [ 55.760006, 37.398121 ],
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-10-03",
@@ -1320,7 +1316,7 @@ let mskEvents2026 = [ {
   place : "Ясенево",
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-10-08",
@@ -1329,7 +1325,7 @@ let mskEvents2026 = [ {
   place : "Серебряный Бор",
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-10-10",
@@ -1339,7 +1335,6 @@ let mskEvents2026 = [ {
   coord : [ 55.826338, 37.487866 ],
   reg : "https://sportident.online/?en&c=6&land=643&reg=77",
   link : "http://horoshevo-o-team.ru/",
-  owner : "FSO_MSK",
   type : "ORIENT"
 }, {
   date : "2026-10-10",
@@ -1367,7 +1362,7 @@ let mskEvents2026 = [ {
   place : "Серебряный Бор",
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-10-15",
@@ -1376,7 +1371,7 @@ let mskEvents2026 = [ {
   place : "л/з «Тропарёвский»",
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-10-17",
@@ -1386,7 +1381,6 @@ let mskEvents2026 = [ {
   coord : [ 55.826338, 37.487866 ],
   reg : "https://sportident.online/?en&c=6&land=643&reg=77",
   link : "http://horoshevo-o-team.ru/",
-  owner : "FSO_MSK",
   type : "ORIENT"
 }, {
   date : "2026-10-17",
@@ -1414,7 +1408,7 @@ let mskEvents2026 = [ {
   place : "Ясеневский лесопарк – Мореон",
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-10-22",
@@ -1423,7 +1417,7 @@ let mskEvents2026 = [ {
   place : "Самородинка-запад",
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-10-24",
@@ -1452,7 +1446,7 @@ let mskEvents2026 = [ {
   place : "Самородинка-восток",
   reg : null,
   link : "https://mosmeridian.website.yandexcloud.net/",
-  owner : "FSO_MSK",
+  owner : "SYTV_N",
   type : "ORIENT"
 }, {
   date : "2026-10-31",
