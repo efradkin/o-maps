@@ -333,7 +333,8 @@ let owners = {
         name: '© Калинин Олег, +7 916 683 1372'
     },
     KRLV_N: {
-        name: '© Крылов Николай'
+        name: '© Крылов Николай',
+        logo: 'o-ramenskoe.webp'
     },
     KSTKN_SITE: {
         name: 'Карта доступна в формате OCAD на <a href="http://www.kasatik.ru/sport.aspx?stori=11">сайте Николая Касаткина</a>.'

@@ -674,7 +674,7 @@ let authors = {
     VSHKVRKO: { name: 'Вышкварко Алексей' },
     YTKN: { name: 'Юткин С.' },
     YURCHK: { name: 'Юрчук Сергей' },
-    ZHRDV_V: { name: 'Жердев Владимир' },
+    ZHRDV_V: { name: 'Жердев Владимир' }, // Петрович
     ZKHRV_Y: {
         name: 'Захаров Юрий',
         about: 'https://o-moscow.ru/people/ZaharovUS.html'

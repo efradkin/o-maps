@@ -4024,12 +4024,22 @@ let moscowMaps = [
         author: 'STLV_S'
     },
     {
+        name: 'Кратово, Геофизика',
+        year: 2025,
+        url: './maps/moscow/ak/kratovo_geofizika_2025.webp',
+        link: './original_maps/moscow/ak/kratovo_geofizika_2025_omaps.gif',
+        bounds: [[55.606790327296515, 38.194055557250984], [55.603808502482295, 38.2190752029419], [55.594910165707255, 38.190793991088874]],
+        author: 'ZHRDV_V',
+        owner: 'KRLV_N'
+    },
+    {
         name: 'Раменское, Холодово',
         year: 2009,
         url: './maps/moscow/ak/holodovo_2010.webp',
         link: './original_maps/moscow/ak/holodovo_2010_omaps.jpg',
         bounds: [[55.592194195033166, 38.20388317108155], [55.590508743712896, 38.21364641189576], [55.584530264339385, 38.19980621337891]],
         author: 'MTN_Y',
+        logo: 'o-ramenskoe.webp',
         type: ['CITY']
     },
     {
@@ -4062,7 +4072,37 @@ let moscowMaps = [
         url: './maps/moscow/ramenskoe_2007.webp',
         link: './original_maps/moscow/ramenskoe_2007_omaps.gif',
         bounds: [[55.5886049454538, 38.21478366851807], [55.58465154071796, 38.24533939361573], [55.56924644255332, 38.20590019226075]],
-        owner: 'NLTV_D'
+        owner: 'NLTV_D',
+        logo: 'o-ramenskoe.webp'
+    },
+    {
+        name: 'Раменское,  мкрн Чернавка',
+        year: 2024,
+        url: './maps/moscow/lr/ramenskoe_2024.webp',
+        link: './original_maps/moscow/lr/ramenskoe_2024_omaps.gif',
+        bounds: [[55.57795652410087, 38.22828054428101], [55.576719276483516, 38.24016809463502], [55.56709895291459, 38.22428941726685]],
+        author: 'ZHRDV_V',
+        owner: 'KRLV_N',
+        type: ['CITY']
+    },
+    {
+        name: 'Раменское, оз Гидра',
+        year: 2025,
+        url: './maps/moscow/lr/ramenskoe_gidra_2025.webp',
+        link: './original_maps/moscow/lr/ramenskoe_gidra_2025_omaps.gif',
+        bounds: [[55.56990158550948, 38.176288604736335], [55.56706255377323, 38.201737403869636], [55.55643256153008, 38.171782493591316]],
+        author: 'ZHRDV_V',
+        owner: 'KRLV_N'
+    },
+    {
+        name: 'Домодедово, Константиновкий парк',
+        year: 2025,
+        url: './maps/moscow/ak/domodedovo_konstantinovsky_2025.webp',
+        link: './original_maps/moscow/ak/domodedovo_konstantinovsky_2025_omaps.gif',
+        bounds: [[55.438685828767696, 37.71007776260377], [55.43762070520878, 37.71946549415589], [55.433974721852074, 37.70846843719483]],
+        author: 'ZHRDV_V',
+        owner: 'KRLV_N',
+        type: ['PARK','CITY','SPRINT']
     },
     {
         name: 'Молодиково',
@@ -5435,6 +5475,7 @@ let moscowMaps = [
         bounds: [[55.57192760660642, 38.236455917358406], [55.57084788382006, 38.24675559997559], [55.56430825424053, 38.23415994644166]],
         author: ['ZUEV_A','SMKN_S','NSNV'],
         owner: 'NLTV_D',
+        logo: 'o-ramenskoe.webp',
         type: ['CITY']
     },
     {

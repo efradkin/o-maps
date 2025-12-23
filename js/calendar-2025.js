@@ -2401,8 +2401,18 @@ let events_2025 =
         photo: 'https://vk.ru/album-196511971_309604407',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23986/',
         reskeep: 834,
+        me: 'М50',
         map: 'kavgolovo_2017',
         owner: 'WN'
+    }, {
+        date: '2025-12-27',
+        place: 'Зеленогорск, оз Щучье',
+        name: 'Длительная серия №15',
+        type: 'ORIENT',
+        link: 'https://o-site.spb.ru/race.php?id=251227_Dlit_15',
+        reg: 'http://orgeo.ru/event/48742',
+        map: 'zelenogorsk_schuchye_2011',
+        owner: 'DLITELNY',
     }, {
         date: '2025-12-28',
         place: 'Кавголово',
