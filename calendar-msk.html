@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.83">
-    <title>o-Maps: Календарь</title>
+    <title>o-Maps: Календарь Москва</title>
     <meta name="description" content="Календарь О-стартов Москвы.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css"/>
 
-    <meta property="og:title" content="o-Maps: Календарь">
+    <meta property="og:title" content="o-Maps: Календарь Москва">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
     <meta property="og:description" content="Календарь О-стартов Москвы.">
@@ -34,8 +34,8 @@
 
     <base target="_blank">
 </head>
-<body class="stat-body sheet-body calendar-body">
-    <a href="moscow.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+<body class="stat-body sheet-body help-body calendar-body">
+    <a href="moscow.html" onclick="gotoMap('moscow.html'); return false;" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
     <h1>
          <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
 
@@ -85,10 +85,14 @@
     </h1>
     <h2>Календарь о-стартов Москвы</h2>
 
+    <div class="container">
+        <section>Если Вашего старта нет в таблице, <a href="help/contacts.html">сообщите мне</a>, и я его добавлю. Спасибо заранее!</section>
+    </div>
+
     <div class="o-sheet-roof">
         <a href="#" onclick="downloadSheetTable('o-maps-calendar-msk.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
-    <div class="o-sheet-wrapper">
+    <div class="o-sheet-wrapper" style="height: calc(100vh - 260px);">
         <table class="o-main-table o-sheet">
             <thead>
             <tr>
@@ -108,6 +112,7 @@
 
     <script src="js/ext/jquery.slim.min.js"></script>
 
+    <script src="js/calendar-msk-2025.js"></script>
     <script src="js/calendar-msk-2026.js"></script>
 
     <script src="js/maps-moscow.js"></script>
@@ -129,6 +134,7 @@
         ];
 
         let oEvents = [
+            ...mskEvents2025,
             ...mskEvents2026,
         ];
     </script>

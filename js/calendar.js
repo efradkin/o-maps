@@ -241,3 +241,8 @@ function sortEventsTable() {
     this.dataset.order = isAscending ? 'desc' : 'asc';
     renderMapsTable();
 }
+
+function gotoMap(page) {
+    page += '?calendar' + (CALENDAR_NAME_PARAM ? '=' + CALENDAR_NAME_PARAM : '');
+    location.href = page;
+}

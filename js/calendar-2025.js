@@ -2399,6 +2399,7 @@ let events_2025 =
         link: 'https://o-site.spb.ru/race.php?id=2512321',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1707',
         photo: 'https://vk.ru/album-196511971_309604407',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23986/',
         reskeep: 834,
         map: 'kavgolovo_2017',
         owner: 'WN'

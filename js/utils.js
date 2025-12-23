@@ -2,6 +2,7 @@
 /*   CONSTANTS   */
 const DAY_TIME_RANGE = 1000 * 60 * 60 * 24;
 const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
+const TWO_WEEKs_TIME_RANGE = DAY_TIME_RANGE * 7 * 2;
 
 const regions = {
     LNGRD: 'Ленинград',
@@ -850,7 +851,7 @@ function isOutdated(date) {
 
 function isActual(date) {
     const now = new Date();
-    return !isOutdated(date) && (date - now < WEEK_TIME_RANGE);
+    return !isOutdated(date) && (date - now < TWO_WEEKs_TIME_RANGE);
 }
 
 function validateEvent(evt) {
