@@ -453,6 +453,15 @@ let ryazanMaps = [
         owner: 'GUSEV_B'
     },
     {
+        name: 'Келецкая канава',
+        year: 2025,
+        url: './maps/ryazan/keletska_kanava_2025.webp',
+        link: './original_maps/ryazan/keletska_kanava_2025_omaps.gif',
+        bounds: [[54.909284125406025, 39.95075225830079], [54.90430030347235, 39.99435424804688], [54.87322386134021, 39.93792057037354]],
+        author: ['GUSEV_B','DJCHKV'],
+        owner: 'GUSEV_B'
+    },
+    {
         name: 'Кельцы-узкоколейка',
         year: 2025,
         url: './maps/ryazan/keltsy_railroad_2025.webp',

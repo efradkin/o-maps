@@ -90,6 +90,15 @@ let otherMaps = [
         type: ['PARK'],
         region: 'ORBG'
     },
+    {
+        name: 'Качкарский мар',
+        year: 1979,
+        url: './maps/other/kachkara_1979.webp',
+        link: './original_maps/other/kachkara_1979_omaps.jpg',
+        bounds: [[51.815300858811874, 55.175399780273445], [51.80951690365106, 55.2195167541504], [51.77782464156524, 55.1597785949707]],
+        logo: 'orenburg.webp',
+        region: 'ORBG'
+    },
     // --- Дальний Восток ---
     {
         name: 'Амурск, о Сахалин',
