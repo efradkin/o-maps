@@ -35,7 +35,11 @@
     <base target="_blank">
 </head>
 <body class="stat-body sheet-body calendar-body">
-    <a href="spb.html" onclick="gotoMap('spb.html'); return false;" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+    <a href="spb.html" onclick="gotoMap('spb.html'); return false;" target="_self" class="stat-map-link stat-map-link-right" title="Карта">
+        <img src="images/map_24.png" alt="Карта" />
+    </a>
+    <h4 style="float: right; margin-top: 1em;">Карта: </h4>
+
     <h1>
          <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
 
@@ -144,6 +148,7 @@
         let mapsOnStore = false;
         let documentsPage = true;
         let currentSort = 'date';
+        const REGION_KEY = 'spb';
 
         let oMaps = [
             ...rogaineRfarMaps,

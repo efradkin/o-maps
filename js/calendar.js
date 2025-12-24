@@ -176,17 +176,20 @@ function buildNumber(event, i) {
 }
 
 function buildPlace(event) {
+    const mapPage = REGION_KEY === 'spb' ? 'spb.html' : 'moscow.html';
     if (event.map) {
         let maps = Array.isArray(event.map) ? [...event.map] : [event.map];
         let result = '';
         for (const [i, m] of maps.entries()) {
             if (i === 0) {
-                result = buildLink('spb.html?map=' + m, event.place + ' 🗺️', 'Карта на o-Maps');
+                result = buildLink(`${mapPage}?calendar&map=${m}`, event.place + ' 🗺️', 'Карта на o-Maps');
             } else {
-                result += buildLink('spb.html?map=' + m, ' 🗺️', 'Карта на o-Maps');
+                result += buildLink(`${mapPage}?calendar&map=${m}`, ' 🗺️', 'Карта на o-Maps');
             }
         }
         return result;
+    } else if (event.coord) {
+        return buildLink(`${mapPage}?x=${event.coord[0]}&y=${event.coord[1]}&calendar`, event.place + ' 🗺️', 'Место на o-Maps');
     } else {
         return event.place ?? '';
     }
