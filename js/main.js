@@ -1618,7 +1618,8 @@ function onDragEnd() {
 // --- context menu functions ---
 
 function showCoordinates(e) {
-    alert(e.latlng);
+    copyToClipboard(coordLink(e.latlng));
+    alert(`Текущие координаты: ${e.latlng.lat}, ${e.latlng.lng}`);
 }
 
 function centerMap(e) {

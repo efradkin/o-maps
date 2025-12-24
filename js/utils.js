@@ -356,6 +356,10 @@ function calculateTrackLength(t) {
     return gpxLayer._humanLen(gpxLayer.len);
 }
 
+function coordLink(latLng) {
+    return `${location.href}?x=${latLng.lat}&y=${latLng.lng}`;
+}
+
 function authorLink(author) {
     let pathname = location.pathname;
     if (pathname.includes('charts-')) {
