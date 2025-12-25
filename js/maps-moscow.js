@@ -2915,6 +2915,15 @@ let moscowMaps = [
     },
     {
         name: 'им Цюрупы',
+        year: 2016,
+        url: './maps/moscow/sz/tsjurupy_2016.webp',
+        link: './original_maps/moscow/sz/tsjurupy_2016_omaps.gif',
+        bounds: [[55.49295686978984, 38.62256526947022], [55.48930992106184, 38.661661148071296], [55.47060792751129, 38.61625671386719]],
+        author: 'MTN_Y',
+        owner: 'KRLV_N'
+    },
+    {
+        name: 'им Цюрупы',
         year: 2021,
         start: 'BNO',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/14604/',
@@ -4067,6 +4076,15 @@ let moscowMaps = [
         owner: 'FSO_MSK'
     },
     {
+        name: 'Дементьево, Поповский пруд',
+        year: 2013,
+        url: './maps/moscow/ak/dementievo_popovka_2013.webp',
+        link: './original_maps/moscow/ak/dementievo_popovka_2013_omaps.gif',
+        bounds: [[55.61166257753454, 38.288125991821296], [55.60734787913749, 38.351469039917], [55.56286429318682, 38.28022956848145]],
+        author: 'ZUEV_A',
+        owner: 'KRLV_N'
+    },
+    {
         name: 'Раменское',
         year: 2007,
         url: './maps/moscow/ramenskoe_2007.webp',
@@ -4076,7 +4094,7 @@ let moscowMaps = [
         logo: 'o-ramenskoe.webp'
     },
     {
-        name: 'Раменское,  мкрн Чернавка',
+        name: 'Раменское, мкрн Чернавка',
         year: 2024,
         url: './maps/moscow/lr/ramenskoe_2024.webp',
         link: './original_maps/moscow/lr/ramenskoe_2024_omaps.gif',
@@ -5872,6 +5890,16 @@ let moscowMaps = [
         owner: 'ERMCHNKV_A',
         logo: 'msk_city_race.png',
         type: ['CITY','SPRINT']
+    },
+    {
+        name: 'Жуковский городской ПКиО, стд Метеор',
+        year: 2015,
+        url: './maps/moscow/sz/zhukovsky_meteor_2015.webp',
+        link: './original_maps/moscow/sz/zhukovsky_meteor_2015_omaps.gif',
+        bounds: [[55.59377045090429, 38.112902641296394], [55.58918700822593, 38.14148426055908], [55.57628259154565, 38.10483455657959]],
+        author: 'MLNKV_V',
+        owner: 'KRLV_N',
+        type: ['PARK']
     },
     {
         name: 'Жуковский городской ПКиО, Треугольный лес',

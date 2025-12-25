@@ -600,7 +600,7 @@ let authors = {
     MDVDV_A: { name: 'Медведев Александр' },
     MTN_Y: { name: 'Митин Юрий' },
     MLCHK: { name: 'Мальчик Игорь' },
-    MLNKV_V: { name: 'Мыльников Валентин' },
+    MLNKV_V: { name: 'Мыльников Валентин' }, // Михайлович
     MRDRS: { name: 'Мордирос А.' },
     MRTSHV: {
         name: 'Мартишев Владислав',
@@ -680,7 +680,7 @@ let authors = {
         about: 'https://o-moscow.ru/people/ZaharovUS.html'
     },
     ZLTRV_S: { name: 'Золотарев Станислав' },
-    ZUEV_A: { name: '<a href="mailto:Lesasa@mail.ru">Зуев Алексей</a>' },
+    ZUEV_A: { name: '<a href="mailto:Lesasa@mail.ru">Зуев Алексей</a>' }, // Викторович
     ZVJLV: { name: 'Завьялов В.' },
 
     /* --- РЯЗАНЬ --- */
