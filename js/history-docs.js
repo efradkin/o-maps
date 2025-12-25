@@ -73,12 +73,24 @@ let historyDocs = [
         link: './docs/1984_ilvesteade_omaps.pdf'
     },
     {
+        name: 'Бро-бег (Кузьмолово)',
+        date: '1985-04-07',
+        link: './docs/1985/1985_04_07_brobeg_omaps.pdf'
+    },
+    {
         name: 'Открытие сезона ЛГС ДСО "Спартак"',
         date: '1985-04-21',
         info: '21, 27 апреля. Отчёт и протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',
         link: './docs/1985_04_21_gdacha_omaps.pdf',
         planner: 'RYLOV_V',
         me: 'М-13'
+    },
+    {
+        name: 'Приз Ленинградского телевидения (Кузьмолово)',
+        date: '1985-05-10',
+        link: './docs/1985/1985_05_10_tv_omaps.pdf',
+        planner: 'KAZNTSV_S',
+        me: 'М-10'
     },
     {
         name: 'П-во клуба Азимут (Комарово)',
@@ -91,6 +103,18 @@ let historyDocs = [
         name: 'Буклет карт для спортивного ориентирования (Горький)',
         year: 1986,
         link: './docs/1986/1986_gorky_maps.pdf',
+    },
+    {
+        name: 'Бро-бег (Кузьмолово)',
+        date: '1986-04-13',
+        link: './docs/1986/1986_04_13_brobeg_omaps.pdf',
+        me: 'М-9'
+    },
+    {
+        name: 'Бро-бег (Кузьмолово)',
+        date: '1987-04-05',
+        link: './docs/1987/1987_04_05_brobeg_omaps.pdf',
+        me: 'М-6'
     },
     {
         name: 'Ранг зимнего сезона 1988г ЛОС ДФСО профсоюзов',
@@ -451,7 +475,7 @@ let historyDocs = [
         major: true
     },
     {
-        name: 'Бро-бег',
+        name: 'Бро-бег (Кузьмолово)',
         year: 1989,
         link: './docs/1989/1989_brobeg_omaps.pdf',
     },
@@ -869,7 +893,7 @@ let historyDocs = [
         planner: 'NKLVCH'
     },
     {
-        name: 'Бро-бег',
+        name: 'Бро-бег (Кузьмолово)',
         date: '1991-04-14',
         link: './docs/1991/1991_04_14_brobeg_omaps.pdf',
         me: 'М-4'

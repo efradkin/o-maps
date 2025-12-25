@@ -31,6 +31,7 @@ let planners = {
     GRV_M: { name: 'Гуреев М' },
     GRZNVCH: { name: 'Грязневич Михаил' },
     ILVS: { name: 'Ильвес Константин' },
+    KAZNTSV_S: { name: 'Казанцев Сергей' },
     KDNV_A: { name: 'Кудинов А' },
     KHMPPU: { name: 'Хамппу И' },
     KRCHKN_V: { name: 'Курочкин Василий' },

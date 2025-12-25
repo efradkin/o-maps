@@ -1,14 +1,6 @@
 let events_2026 =
 [
     {
-        date: '2026-01-07',
-        endDte: '2026-01-08',
-        place: 'Цвелодубово, Голубое Озеро',
-        name: 'Рождественские старты',
-        type: 'SKI',
-        fmt: 'эстафета, маркир',
-        owner: 'SFSO_SPB'
-    },{
         date: '2026-01-10',
         place: 'Лемболово',
         name: 'Новогодняя эстафета',
@@ -80,6 +72,7 @@ let events_2026 =
         name: 'Горный кросс',
         type: 'ROGAINE',
         fmt: '5, 3',
+        reg: 'https://orgeo.ru/event/48446',
         map: 'lembolovo_orekhovo_gk_2024',
         start: 'GORNY_CROSS'
     },{
@@ -130,6 +123,15 @@ let events_2026 =
         owner: 'DLITELNY'
     },{
         date: '2026-04-11',
+        place: 'Луга, Шалово',
+        name: 'Лужский меридиан',
+        fmt: '5',
+        type: 'ROGAINE',
+        link: 'https://vk.com/club91656163',
+        map: 'luga_shalovo_lm_2023',
+        owner: 'LM'
+    },{
+        date: '2026-04-11',
         endDate: '2026-04-12',
         name: 'Сосновоборские дюны, ЧиП ЛО',
         place: 'Сосновый бор',
@@ -158,6 +160,13 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'SFSO_SPB'
+    },{
+        date: '2026-04-26',
+        name: 'Кубок Обухово',
+        place: 'Школа №526',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/44669'
     },{
         date: '2026-05-02',
         place: 'Луга',
