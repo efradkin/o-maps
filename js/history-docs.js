@@ -70,7 +70,13 @@ let historyDocs = [
         name: 'ILVESTEADE',
         year: 1984,
         info: 'Информационный бюллетень в форме буклета.',
-        link: './docs/1984_ilvesteade_omaps.pdf'
+        link: './docs/1984/1984_ilvesteade_omaps.pdf'
+    },
+    {
+        name: 'Свадебные-84',
+        year: 1984,
+        link: './docs/1984/1984_wedding_omaps.pdf',
+        start: 'WEDDING'
     },
     {
         name: 'Бро-бег (Кузьмолово)',
@@ -81,7 +87,7 @@ let historyDocs = [
         name: 'Открытие сезона ЛГС ДСО "Спартак"',
         date: '1985-04-21',
         info: '21, 27 апреля. Отчёт и протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',
-        link: './docs/1985_04_21_gdacha_omaps.pdf',
+        link: './docs/1985/1985_04_21_gdacha_omaps.pdf',
         planner: 'RYLOV_V',
         me: 'М-13'
     },

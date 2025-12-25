@@ -808,7 +808,7 @@ let cityMaps = [
         name: 'пр Ветеранов, шк №254',
         year: 2025,
         url: './maps/city/school_254_2025.webp',
-        link: './original_maps/city/school_254_2025_omaps.gif',
+        link: './original_maps/schools/school_254_2025_omaps.gif',
         bounds: [[59.84341354352382, 30.19575119018555], [59.84251882619241, 30.214591026306156], [59.83307431911679, 30.19476413726807]],
         type: ['CITY'],
         author: 'TMKN',
