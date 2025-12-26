@@ -64,6 +64,14 @@ let events_2026 =
         type: 'SKI',
         fmt: 'эстафета',
         owner: 'SFSO_SPB'
+    }, {
+        date: '2025-02-07',
+        place: 'Луга, оз. Штоль',
+        name: 'ЛужSki рогейн',
+        type: ['ROGAINE','SKI'],
+        link: 'https://vk.com/event166397868',
+        map: 'omchino_luzhsky_2022',
+        owner: 'SHBN'
     },{
         date: '2026-02-07',
         endDate: '2026-02-08',

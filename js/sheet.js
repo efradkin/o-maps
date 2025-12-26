@@ -158,9 +158,12 @@ function buildName(m) {
             name = regions[starts[m.start].region] + ', ' + name;
         }
     }
+    if (m.about) {
+        name = `<a href="${m.about}">${name}</a>`;
+    }
     if (m.url) {
         const url = (typeof directURLs !== 'undefined') && directURLs ? m.url : mapLink(m.url, m);
-        result += '<a href="' + url + '">' + name + '</a>';
+        result += name + ' <a href="' + url + '">🗺️</a>';
     } else {
         result += name;
     }

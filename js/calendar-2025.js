@@ -2390,6 +2390,7 @@ let events_2025 =
         fmt: 'ночное',
         link: 'https://vk.com/wall-30365190_8873',
         map: 'priozersk_karnaval_2023',
+        video: 'https://vk.com/video7973032_456239618',
         owner: 'VESTA_PRIOZERSK'
     }, {
         date: '2025-12-21',

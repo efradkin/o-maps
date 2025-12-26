@@ -258,13 +258,14 @@ let rogaineKkmMaps = [
         name: 'Павловск',
         date: '2024-12',
         about: 'https://vk.com/wall-227807023_83',
+        info: 'Фото-рогейн',
         url: './maps/rogaine/kkm/pavlovsk_2024_12.webp',
         link: 'https://sun9-83.userapi.com/s/v1/ig2/s9QzdAln_q4ipzLerExlvRUy6fGszV3mMzjTT0ieUGCpc4ohyATfPzsK1-6mNOxGPwGoOxkxkpb33P3ol3L0LXwi.jpg?quality=95&as=32x25,48x38,72x56,108x85,160x125,240x188,360x282,480x376,540x423,640x501,720x564,1080x846,1280x1002,1440x1128,2560x2005&from=bu&cs=2560x0',
         bounds: [[59.70690217342447, 30.43195724487305], [59.70698876336404, 30.49092292785645], [59.68386129364914, 30.432128906250004]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21292/',
         start: 'KKM',
         owner: 'RYZHOV',
-        type: ['ROGAINE']
+        type: ['FUN','ROGAINE']
     },
     {
         name: 'Горный институт',
