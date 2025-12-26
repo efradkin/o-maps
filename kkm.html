@@ -47,6 +47,7 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
+    <script src="js/maps-starts-other.js"></script>
     <script src="js/maps-rogaine-kkm.js"></script>
 
     <script src="js/starts.js"></script>
@@ -59,6 +60,7 @@
         let loadImagesRequired = false;
 
         let oMaps = [
+            ...otherStartsMaps,
             ...rogaineKkmMaps,
         ];
     </script>
@@ -67,7 +69,7 @@
     <script src="js/main.js"></script>
     <script>
         // Фильтрация массива. Оставляем только карты нужного старта.
-        oMaps = oMaps.filter(m => (m.layer !== undefined));
+        oMaps = oMaps.filter(m => (m.start && m.start.includes('KKM') && m.layer !== undefined));
         oMaps.sort((a, b) => dateForCompare(b) - dateForCompare(a));
         document.getElementById('start_name').innerHTML = starts['KKM'].name;
 
@@ -94,8 +96,8 @@
             row = row.replace('#map_img_src', m.url);
             row = row.replace('#map_href', m.link);
             row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(m.url));
-            row = row.replace('#map_year', date.getFullYear());
-            row = row.replace('#map_month', date.getMonth() + 1);
+            row = row.replace('#map_year', m.date ? date.getFullYear() : m.year);
+            row = row.replace('#map_month', m.date ? date.getMonth() + 1 : m.month);
             row = row.replace('#map_place', m.name);
             const elRow = document.createElement("div");
             elRow.classList.add("row");

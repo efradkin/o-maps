@@ -4,7 +4,7 @@ let mskEvents2026 = [ {
   place : "Кучинский л/п",
   type : "ORIENT",
   fmt : "кросс-комбинация",
-  coord : [ 55.769496, 37.935015 ],
+  coord : [ 55.772515, 37.936149 ],
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
@@ -111,10 +111,10 @@ let mskEvents2026 = [ {
 }, {
   date : "2026-02-14",
   name : "Нано-Подкуст",
-  place : "Орехово-Борисово южное",
+  place : "Матвеевское",
   type : "ROGAINE",
   fmt : "рогейн 2 часа",
-  coord : [ 55.609926, 37.761802 ],
+  coord : [ 55.709211, 37.477354 ],
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
@@ -1151,6 +1151,7 @@ let mskEvents2026 = [ {
   place : "Битцевский лес",
   type : "ORIENT",
   fmt : "кросс-классика",
+  coord : [ 55.632622, 37.58086 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
 }, {
@@ -1178,6 +1179,7 @@ let mskEvents2026 = [ {
   place : "Ясенево",
   type : "ORIENT",
   fmt : "кросс-классика",
+  coord : [ 55.62772, 37.538666 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
 }, {
@@ -1204,6 +1206,7 @@ let mskEvents2026 = [ {
   place : "на согласовании",
   type : "ORIENT",
   fmt : "кросс-эстафета 2 чел.",
+  coord : [ 55.721404, 37.510822 ],
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
@@ -1278,6 +1281,7 @@ let mskEvents2026 = [ {
   place : "Ясенево",
   type : "ORIENT",
   fmt : "кросс-классика",
+  coord : [ 55.62772, 37.538666 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
 }, {
@@ -1286,6 +1290,7 @@ let mskEvents2026 = [ {
   place : "Серебряный Бор",
   type : "ORIENT",
   fmt : "кросс-выбор ночн.",
+  coord : [ 55.779381, 37.42537 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
 }, {
@@ -1322,6 +1327,7 @@ let mskEvents2026 = [ {
   place : "Серебряный Бор",
   type : "ORIENT",
   fmt : "кросс-выбор ночн.",
+  coord : [ 55.779381, 37.42537 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
 }, {
@@ -1330,6 +1336,7 @@ let mskEvents2026 = [ {
   place : "л/з «Тропарёвский»",
   type : "ORIENT",
   fmt : "кросс-выбор ночн.",
+  coord : [ 55.647988, 37.466378 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
 }, {
@@ -1366,6 +1373,7 @@ let mskEvents2026 = [ {
   place : "Ясеневский лесопарк – Мореон",
   type : "ORIENT",
   fmt : "кросс-выбор ночн.",
+  coord : [ 55.598554, 37.524075 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
 }, {
@@ -1374,6 +1382,7 @@ let mskEvents2026 = [ {
   place : "Самородинка-запад",
   type : "ORIENT",
   fmt : "кросс-выбор ночн.",
+  coord : [ 55.662663, 37.500954 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
 }, {
@@ -1402,6 +1411,7 @@ let mskEvents2026 = [ {
   place : "Самородинка-восток",
   type : "ORIENT",
   fmt : "кросс-выбор ночн.",
+  coord : [ 55.656926, 37.504983 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
 }, {

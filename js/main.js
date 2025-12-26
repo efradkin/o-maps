@@ -1104,7 +1104,13 @@ function mapTitle(m, forStart, colored) {
     if (m.gpx) { // трек
         result += '<span class="' + m.type[0] + '">';
     }
+    if (m.about && !forStart) {
+        result += `<a href="${m.about}">`;
+    }
     result += m.name ?? 'Нечто';
+    if (m.about && !forStart) {
+        result += '</a>';
+    }
     let y = year(m);
     if (y) {
         let year = y > 1 ? y : 'ретро';

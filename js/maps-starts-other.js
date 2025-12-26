@@ -51,7 +51,7 @@ let otherStartsMaps = [
     },
     {
         name: 'Луга, оз Омчино',
-        year: 2024,
+        date: '2024-11-16',
         start: 'OTHER',
         info: 'Рогейн на Лужских берегах.',
         url: './maps/rogaine/omchino_luzhsky_2024.webp',
@@ -149,6 +149,61 @@ let otherStartsMaps = [
     /* --- ККМ --- */
 
     {
+        name: 'Кавголово',
+        date: '2021-02',
+        url: './maps/rogaine/kkm/kavgolovo_KKM_2021_02.webp',
+        link: './original_maps/rogaine/kkm/kavgolovo_KKM_2021_02_omaps.jpg',
+        bounds: [[60.19291339919565, 30.44242858886719], [60.19461994799159, 30.553150177001957], [60.15718350659903, 30.43169975280762]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/8914/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Екатерингоф',
+        date: '2021-11',
+        url: './maps/rogaine/kkm/ekateringof_KKM_2021_11.webp',
+        link: './original_maps/rogaine/kkm/ekateringof_KKM_2021_11_omaps.jpg',
+        bounds: [[59.91041656586618, 30.25566101074219], [59.90843705734661, 30.280551910400394], [59.892166191012564, 30.249309539794925]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/11440/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Автово',
+        date: '2022-12',
+        url: './maps/rogaine/kkm/avtovo_KKM_2021_12.webp',
+        link: './original_maps/rogaine/kkm/avtovo_KKM_2022_12_omaps.jpg',
+        bounds: [[59.90934076065998, 30.25694847106934], [59.90923317822206, 30.29252529144287], [59.88411389968469, 30.256519317626957]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/14693/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Петроградская сторона',
+        date: '2024-02',
+        url: './maps/rogaine/kkm/petrogradka_2024_02.webp',
+        link: './original_maps/rogaine/kkm/petrogradka_2024_02_omaps.jpg',
+        bounds: [[59.97885208310792, 30.23420333862305], [59.97902385377091, 30.33831596374512], [59.947489011645466, 30.235061645507816]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18316/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Владимирская',
+        date: '2024-03',
+        url: './maps/rogaine/kkm/spb_center_KKM_2024_03.webp',
+        link: './original_maps/rogaine/kkm/spb_center_KKM_2024_03_omaps.jpg',
+        bounds: [[59.956084587086806, 30.337028503417972], [59.95638539185255, 30.40002822875977], [59.91312744037747, 30.33711433410645]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18479/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Сестрорецк',
         date: '2024-05',
         url: './maps/rogaine/kkm/sestroretsk_KKM_2024_05.webp',
@@ -171,13 +226,65 @@ let otherStartsMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Токсово',
+        date: '2024-09',
+        about: 'https://vk.com/wall18529372_4654',
+        url: './maps/rogaine/kkm/toksovo_KKM_2024_09.webp',
+        link: 'https://psv4.userapi.com/s/v1/d/mrJMM_bAfYa-m5iZMz2iG42fG3OGS37XEPJbabtBFcR50mzBXVZoitzA5TV80B0WXZVSa-jo5_ZDKM99IWi5gpWO19-bmvZ4jIty5IStcccUySxn-tR07g/KKM_9_2024.jpg?dl=1',
+        bounds: [[60.193937339120886, 30.399684906005863], [60.18856129813442, 30.501823425292972], [60.130820091007536, 30.383377075195316]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20261/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Ново-Кавголовский л/п',
+        date: '2024-10',
+        about: 'https://vk.com/wall-227807023_35',
+        start: ['VO_FOTO','KKM'],
+        info: 'Фото-рогейн',
+        url: './maps/fun/okhta_park_foto_2024_02.webp',
+        link: 'https://sun9-8.userapi.com/s/v1/ig2/DcUx3WdltWd2XvvMbzfbgjbENhSrUKeD8u2zjpIdJueWX7_jvDk-dhduD-5lhcXFVgvumfSJsYqCIqagtKY1Emtz.jpg?quality=95&as=32x23,48x34,72x51,108x76,160x113,240x169,360x254,480x338,540x381,640x451,720x508,1080x761,1280x902,1440x1015,2560x1805&from=bu&cs=2560x0',
+        bounds: [[60.16440091772243, 30.38603782653809], [60.158080430907006, 30.481224060058597], [60.1309910726259, 30.3783130645752]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20995/',
+        owner: 'RYZHOV',
+        type: ['FUN','ROGAINE']
+    },
+    {
         name: 'Васильевский остров',
         date: '2024-10',
+        about: 'https://vk.com/wall18529372_4695',
         url: './maps/rogaine/kkm/vasiljevsky_2024_10.webp',
-        link: './original_maps/rogaine/kkm/vasiljevsky_2024_10_omaps.jpg',
+        link: 'https://psv4.userapi.com/s/v1/d/ibLsPLUswVdgvWgma_1OLY1bQuy2TsYiDIBBID3ks1TNXdOzGRaSvr8XbJDriQqwqV1p4bzCEnJfAxBY0A_NK-10VV04fWIyUvRRH_U4B-EVzBxt36wgEA/KKM_10_2024.jpg?dl=1',
         bounds: [[59.95896360641199, 30.220642089843754], [59.959006574955104, 30.308446884155277], [59.92792577181406, 30.21995544433594]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20694/',
         start: 'KKM',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Спортивная',
+        date: '2025-03',
+        about: 'https://vk.com/wall-227807023_176',
+        info: 'Март, фотоориентирование.',
+        url: './maps/rogaine/kkm/sportivnaja_KKM_2025_03.webp',
+        link: ['https://psv4.userapi.com/s/v1/d/fFpIi_DHB9YMfKO0YrAJdEDClW2IWTeou2s7oNhuiEzWNUsnG8BwYog_SCTI3s6LGu2BFf3EpgWRlJLk08wR1JiKdVlAcFCaxgCBu21_Cxz1XNbvLmnE6g/KKM_3_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d/Z91CM1GgsRp_nEZDn4tCiUzrx_S-PJtDKVa02sN1grIYk5cpbb5iNChF0uKAfvnxwDUxejjNhzqOMkiwa_8GjntBSgHP90avTELEMQOVZPZ2SOlCoYKpGA/KKM_3_2025.pdf?dl=1'],
+        bounds: [[59.95788937472426, 30.226607322692875], [59.95771749442233, 30.306687355041507], [59.918419462165836, 30.226564407348633]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/21705/',
+        start: 'KKM',
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Горный институт',
+        date: '2025-10',
+        about: 'https://vk.com/wall-227807023_345',
+        info: 'Октябрь, фото-рогейн.',
+        url: './maps/rogaine/kkm/vasiljevsky_KKM_2025_10.webp',
+        link: ['https://psv4.userapi.com/s/v1/d2/TFkhOjWRZ2ujyVbtRG-2FigchFvHMPPX-iqGcvy06UPXzxxIMljikOlH4CJJxqfrq89NBaINY9J8fOVOlnSjhOu_GVxN3zbdJiUVrGieFChD8Zgr0tambecOGP7anUvWKyEKfg0Z5iYr/KKM_10_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/CTqusFJuEj5rge20tJwtMEXPLyoXB3RS3jX_bFuVng3TAV171JFRhrj9pw9mBVZFagNM00W0Z03K8OA_oKuIrahO4717ZGaXMIJiw0bEeJbx5Z4lA2foYOW-3VeV3x-do4HMz74Nkvog/SETKA_10_2025.jpg?dl=1'],
+        bounds: [[59.95754561322883, 30.227165222167972], [59.957588583610786, 30.30664443969727], [59.91859154627015, 30.22673606872559]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23476/',
+        start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },

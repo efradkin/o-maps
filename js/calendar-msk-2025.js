@@ -1179,9 +1179,9 @@ let mskEvents2025 = [ {
   type : "ORIENT",
   fmt : "кросс-классика",
   coord : [ 55.769528, 37.93502 ],
-  link : "https://vk.com/moscow_orienteering",
+  link : "https://moscompass.ru/news/more.php?id=6182",
   reg : "https://orgeo.ru/event/organizer/24222",
-  res : "http://celestia.su/ol",
+  res : "http://o-mephi.net/cup/prot/novnoch2026_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
 } ]
