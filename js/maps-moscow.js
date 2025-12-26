@@ -3447,20 +3447,37 @@ let moscowMaps = [
         author: 'FSHN_A'
     },
     {
-        name: 'Зарайск',
-        year: 2024,
-        url: './maps/moscow/zarajsk_city_2024.webp',
-        link: './original_maps/moscow/zarajsk_city_2024_omaps.jpg',
-        bounds: [[54.76472548067742, 38.863406181335456], [54.76328941136427, 38.87559413909913], [54.75519199807767, 38.86027336120606]],
+        name: 'Иванчиково',
+        year: 2025,
+        url: './maps/moscow/ak/ivanchikovo_2025.webp',
+        link: './original_maps/moscow/ak/ivanchikovo_2025_omaps.gif',
+        bounds: [[54.6957862616187, 38.79594326019288], [54.693355638421664, 38.81521224975587], [54.687290846766025, 38.79306793212891]],
+        author: 'FSHN_A',
+    },
+    {
+        name: 'Зарайский кремль',
+        year: 2025,
+        url: './maps/moscow/sz/zarajsk_city_2025.webp',
+        link: './original_maps/moscow/sz/zarajsk_city_2025_omaps.gif',
+        bounds: [[54.768340188202, 38.862676620483406], [54.766551443497995, 38.87710690498352], [54.75396610169298, 38.8572907447815]],
+        author: 'FSHN_A',
+        type: ['CITY']
+    },
+    {
+        name: 'Зарайск, мкрн № 1,2',
+        year: 2025,
+        url: './maps/moscow/sz/zarajsk_1_2_2025.webp',
+        link: './original_maps/moscow/sz/zarajsk_1_2_2025_omaps.gif',
+        bounds: [[54.7666319077609, 38.88960599899293], [54.76525780377047, 38.90057086944581], [54.75344601322448, 38.884670734405525]],
         author: 'FSHN_A',
         type: ['CITY']
     },
     {
         name: 'Зарайск, Карманово',
-        year: 2024,
-        url: './maps/moscow/ak/karmanovo_2024.webp',
-        link: './original_maps/moscow/ak/karmanovo_2024_omaps.jpg',
-        bounds: [[54.72045628479659, 38.848299980163574], [54.716961244351126, 38.88057231903077], [54.70701980136917, 38.84379386901856]],
+        year: 2025,
+        url: './maps/moscow/ak/karmanovo_2025.webp',
+        link: './original_maps/moscow/ak/karmanovo_2025_omaps.gif',
+        bounds: [[54.73255026902896, 38.845467567443855], [54.72412451376765, 38.91228675842286], [54.697100721662885, 38.832464218139656]],
         author: 'FSHN_A'
     },
     {

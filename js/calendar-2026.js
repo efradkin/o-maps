@@ -3,16 +3,18 @@ let events_2026 =
     {
         date: '2026-01-04',
         place: 'Сестрорецк, Таможенная дорога',
-        name: 'Кубок Белых ночей #6',
+        name: 'Кубок Белых ночей №6',
         reg: 'https://orgeo.ru/event/48813',
         type: 'ORIENT',
+        map: 'sestroretsk_tamozhennaya_doroga_2012',
         owner: 'WN'
     },{
         date: '2026-01-07',
         place: 'Суоранда',
-        name: 'Кубок Белых ночей #7',
+        name: 'Кубок Белых ночей №7',
         reg: 'https://orgeo.ru/event/48811',
         type: 'ORIENT',
+        map: 'orovo_2019',
         owner: 'WN'
     },{
         date: '2026-01-10',
