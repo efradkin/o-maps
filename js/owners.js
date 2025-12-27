@@ -306,6 +306,9 @@ let owners = {
         name: '© <a href="https://vk.com/club151229251">КСО Фрязино</a>, +79057778820',
         logo: 'friazino.jpg'
     },
+    FSHN_A: {
+        name: '© Фишин Александр (<a href="https://vk.ru/fishin_one">ВК</a>)'
+    },
     O_FRZNO: {
         name: '© <a href="https://www.o-fryazino.ru/">О-Фрязино</a>, 8-926-1514712',
         logo: 'o-friazino.jpg'

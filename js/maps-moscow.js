@@ -3439,46 +3439,56 @@ let moscowMaps = [
         bounds: [[55.25219367189334, 37.96621799468995], [55.253172070139215, 37.994284629821784], [55.239496770821845, 37.96720504760743]]
     },
     {
-        name: 'Зарайск, Беспятовская роща',
+        name: 'Беспятовская роща',
         year: 2019,
+        logo: 'zaraisk.webp',
         url: './maps/moscow/zarajsk_2019.webp',
         link: './original_maps/moscow/zarajsk_2019_omaps.jpg',
         bounds: [[54.75382988869222, 38.88945579528809], [54.75046156690285, 38.92202854156495], [54.740627436391534, 38.88606548309327]],
-        author: 'FSHN_A'
+        author: 'FSHN_A',
+        owner: 'FSHN_A'
     },
     {
         name: 'Иванчиково',
         year: 2025,
+        logo: 'zaraisk.webp',
         url: './maps/moscow/ak/ivanchikovo_2025.webp',
         link: './original_maps/moscow/ak/ivanchikovo_2025_omaps.gif',
         bounds: [[54.6957862616187, 38.79594326019288], [54.693355638421664, 38.81521224975587], [54.687290846766025, 38.79306793212891]],
         author: 'FSHN_A',
+        owner: 'FSHN_A'
     },
     {
         name: 'Зарайский кремль',
         year: 2025,
+        logo: 'zaraisk.webp',
         url: './maps/moscow/sz/zarajsk_city_2025.webp',
         link: './original_maps/moscow/sz/zarajsk_city_2025_omaps.gif',
         bounds: [[54.768340188202, 38.862676620483406], [54.766551443497995, 38.87710690498352], [54.75396610169298, 38.8572907447815]],
         author: 'FSHN_A',
+        owner: 'FSHN_A',
         type: ['CITY']
     },
     {
         name: 'Зарайск, мкрн № 1,2',
         year: 2025,
+        logo: 'zaraisk.webp',
         url: './maps/moscow/sz/zarajsk_1_2_2025.webp',
         link: './original_maps/moscow/sz/zarajsk_1_2_2025_omaps.gif',
         bounds: [[54.7666319077609, 38.88960599899293], [54.76525780377047, 38.90057086944581], [54.75344601322448, 38.884670734405525]],
         author: 'FSHN_A',
+        owner: 'FSHN_A',
         type: ['CITY']
     },
     {
-        name: 'Зарайск, Карманово',
+        name: 'Карманово',
         year: 2025,
+        logo: 'zaraisk.webp',
         url: './maps/moscow/ak/karmanovo_2025.webp',
         link: './original_maps/moscow/ak/karmanovo_2025_omaps.gif',
         bounds: [[54.73255026902896, 38.845467567443855], [54.72412451376765, 38.91228675842286], [54.697100721662885, 38.832464218139656]],
-        author: 'FSHN_A'
+        author: 'FSHN_A',
+        owner: 'FSHN_A'
     },
     {
         name: 'Вельяминово',
@@ -3713,30 +3723,83 @@ let moscowMaps = [
         author: 'FSHN_A'
     },
     {
+        name: 'Андреевское',
+        year: 2023,
+        logo: 'kolomna.gif',
+        url: './maps/moscow/ak/andreevskoe_2023.webp',
+        link: './original_maps/moscow/ak/andreevskoe_2023_omaps.gif',
+        bounds: [[55.1306609890482, 38.602480888366706], [55.126931495113496, 38.639688491821296], [55.10867157764791, 38.5951852798462]],
+        author: 'FSHN_A',
+        owner: 'FSHN_A',
+    },
+    {
         name: 'Коломна, кремль',
-        year: 2019,
+        year: 2023,
+        logo: 'kolomna.gif',
         url: './maps/moscow/ak/kolomna_kreml_2019.webp',
-        link: './original_maps/moscow/ak/kolomna_kreml_2019_omaps.jpg',
-        bounds: [[55.10934665596558, 38.74884366989136], [55.10791056659611, 38.76461505889893], [55.10301274546913, 38.74725580215455]],
+        link: './original_maps/moscow/ak/kolomna_kreml_2023_omaps.gif',
+        bounds: [[55.11008309203142, 38.74869346618653], [55.108021036841606, 38.7669324874878], [55.102754948781175, 38.746354579925544]],
         author: 'FSHN_A',
         type: ['CITY']
     },
     {
-        name: 'Коломна, Окский пр',
-        year: 2019,
-        url: './maps/moscow/oksky_2019.webp',
-        link: './original_maps/moscow/oksky_2019_omaps.jpg',
-        bounds: [[55.08422606210372, 38.802487850189216], [55.08346458554247, 38.80984783172608], [55.07823211260226, 38.800771236419685]],
+        name: 'пр Кирова, д/с №18',
+        year: 2022,
+        logo: 'kolomna.gif',
+        url: './maps/moscow/ak/kirova_2022.webp',
+        link: './original_maps/moscow/ak/kirova_2022_omaps.gif',
+        bounds: [[55.08259869538495, 38.754433393478394], [55.08181876408984, 38.76301646232606], [55.07609470845228, 38.75244855880738]],
         author: 'FKN_S',
         type: ['CITY']
     },
     {
-        name: 'Коломна, Колычево',
-        year: 2019,
-        url: './maps/moscow/ak/kolychevo_2019.webp',
-        link: './original_maps/moscow/ak/kolychevo_2019_omaps.jpg',
-        bounds: [[55.06738421996596, 38.745560646057136], [55.06640125312684, 38.75789880752564], [55.057848422833956, 38.74302864074708]],
-        author: 'FRLNA_V',
+        name: 'Щурово, Дубовая роща',
+        year: 2023,
+        logo: 'kolomna.gif',
+        url: './maps/moscow/lr/oak_grove_2023.webp',
+        link: './original_maps/moscow/lr/oak_grove_2023_omaps.gif',
+        bounds: [[55.07239697529561, 38.86012315750123], [55.07084898552182, 38.87458562850953], [55.06257974016625, 38.85731220245362]],
+        author: 'FSHN_A',
+        type: ['PARK']
+    },
+    {
+        name: 'Парк им 50-летия Октября',
+        year: 2022,
+        logo: 'kolomna.gif',
+        url: './maps/moscow/lr/park_oktober_50_2022.webp',
+        link: './original_maps/moscow/lr/park_oktober_50_2022_omaps.gif',
+        bounds: [[55.07065241110651, 38.76219034194947], [55.070640125173476, 38.7773609161377], [55.05878244146511, 38.76227617263795]],
+        author: 'FSHN_A',
+        type: ['PARK']
+    },
+    {
+        name: 'Парк Мира',
+        year: 2022,
+        logo: 'kolomna.gif',
+        url: './maps/moscow/lr/peace_park_2022.webp',
+        link: './original_maps/moscow/lr/peace_park_2022_omaps.gif',
+        bounds: [[55.08894198106267, 38.77502202987671], [55.08770165002882, 38.78774642944337], [55.08356284139734, 38.77345561981201]],
+        author: 'FSHN_A',
+        type: ['PARK']
+    },
+    {
+        name: 'ул Суворова',
+        year: 2024,
+        logo: 'kolomna.gif',
+        url: './maps/moscow/sz/suvorova_2024.webp',
+        link: ['./original_maps/moscow/sz/suvorova_2024_omaps.gif','./original_maps/moscow/oksky_2019_omaps.jpg'],
+        bounds: [[55.08421378033871, 38.802541494369514], [55.08264782440618, 38.81791591644288], [55.07518566287984, 38.79971981048585]],
+        author: ['FKN_S','FSHN_A'],
+        type: ['CITY']
+    },
+    {
+        name: 'Колычёво, КМЦ Русь',
+        year: 2022,
+        logo: 'kolomna.gif',
+        url: './maps/moscow/ak/kolychevo_2022.webp',
+        link: ['./original_maps/moscow/ak/kolychevo_2022_omaps.gif','./original_maps/moscow/ak/kolychevo_2019_omaps.jpg'],
+        bounds: [[55.0675930973089, 38.74347925186158], [55.06641354036135, 38.75935792922974], [55.056963542975986, 38.740625381469734]],
+        author: ['FRLNA_V','FSHN_A'],
         type: ['CITY']
     },
     {
