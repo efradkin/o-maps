@@ -4117,7 +4117,15 @@ let moscowMaps = [
     },
     {
         name: 'Кратово, Геофизика',
-        year: 2012,
+        year: 2006,
+        url: './maps/moscow/ak/geofizika_2006.webp',
+        link: './original_maps/moscow/ak/geofizika_2006_omaps.gif',
+        bounds: [[55.610329434887625, 38.187575340271], [55.60521459445939, 38.24332237243653], [55.58797436770928, 38.182039260864265]],
+        author: 'SKLV_D'
+    },
+    {
+        name: 'Кратово, Геофизика',
+        year: 2007,
         url: './maps/moscow/ak/geofizika_2010.webp',
         link: './original_maps/moscow/ak/geofizika_2010_omaps.gif',
         bounds: [[55.609165927905, 38.18847656250001], [55.605844895190735, 38.21753025054932], [55.59692277270469, 38.1840991973877]],
@@ -4125,8 +4133,16 @@ let moscowMaps = [
         owner: 'NLTV_D'
     },
     {
-        name: 'Геофизика',
+        name: 'Кратово, Геофизика',
         year: 2012,
+        url: './maps/moscow/ak/geofizika_2012.webp',
+        link: './original_maps/moscow/ak/geofizika_2012_omaps.gif',
+        bounds: [[55.61008704044624, 38.1886911392212], [55.606596394363464, 38.218259811401374], [55.59578311635954, 38.18341255187989]],
+        author: 'ZUEV_A'
+    },
+    {
+        name: 'Кратово, Геофизика',
+        year: 2017,
         url: './maps/moscow/ak/geofizika_2020.webp',
         link: './original_maps/moscow/ak/geofizika_2020_omaps.jpg',
         bounds: [[55.60424488124856, 38.20208072662354], [55.60121437294553, 38.23143482208253], [55.591515172992366, 38.19663047790528]],

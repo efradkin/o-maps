@@ -651,6 +651,7 @@ let authors = {
     },
     SHLST: { name: 'Шелест Ю.' },
     SHRKHV: { name: 'Шорохов Сергей' },
+    SKLV_D: { name: 'Соколов Данила' },
     SKLV_V: { name: 'Соколов Вячеслав' },
     SKRPKO_S: { name: 'Скрипко Сергей' },
     SMKN_V: { name: 'Симкин В.' },
