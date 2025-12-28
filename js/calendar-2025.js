@@ -2412,8 +2412,10 @@ let events_2025 =
         type: 'ORIENT',
         link: 'https://o-site.spb.ru/race.php?id=251227_Dlit_15',
         reg: 'http://orgeo.ru/event/48742',
+        reskeep: 835,
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23988/',
         map: 'zelenogorsk_schuchye_2011',
+        me: 'А',
         owner: 'DLITELNY',
     }, {
         date: '2025-12-28',

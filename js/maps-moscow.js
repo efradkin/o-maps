@@ -3491,6 +3491,25 @@ let moscowMaps = [
         owner: 'FSHN_A'
     },
     {
+        name: 'Луховицы, стд Спартак',
+        year: 2020,
+        logo: 'lukhovitsy.gif',
+        url: './maps/moscow/lr/lukhovitsy_spartak_2020.webp',
+        link: './original_maps/moscow/lr/lukhovitsy_spartak_2020_omaps.gif',
+        bounds: [[54.983043989924475, 39.028544425964355], [54.98130168861031, 39.04689073562623], [54.97608664591642, 39.02637720108033]],
+        author: 'FSHN_A',
+        type: ['CITY']
+    },
+    {
+        name: 'Голубые оз, Карьер №1',
+        year: 2023,
+        logo: 'lukhovitsy.gif',
+        url: './maps/moscow/ak/blue_lake_1_2023.webp',
+        link: './original_maps/moscow/ak/blue_lake_1_2023_omaps.gif',
+        bounds: [[55.00282580979323, 39.01884555816651], [55.001361280024966, 39.03180599212647], [54.99228985002795, 39.015240669250495]],
+        author: 'FSHN_A',
+    },
+    {
         name: 'Вельяминово',
         year: 1,
         url: './maps/moscow/veliaminovo_old.webp',
@@ -3708,11 +3727,12 @@ let moscowMaps = [
         author: 'SMKN_S'
     },
     {
-        name: 'Власьево',
-        year: 2019,
-        url: './maps/moscow/vlasievo_2019.webp',
-        link: './original_maps/moscow/vlasievo_2019_omaps.jpg',
-        bounds: [[54.92127237713482, 38.79448413848878], [54.91772067483547, 38.83701324462891], [54.904250955616085, 38.78899097442627]]
+        name: 'Ильясово',
+        year: 2022,
+        url: './maps/moscow/ak/iliasovo_2022.webp',
+        link: ['./original_maps/moscow/ak/iliasovo_2022_omaps.gif','./original_maps/moscow/vlasievo_2019_omaps.jpg'],
+        bounds: [[54.93838521323186, 38.75495910644531], [54.92926256115236, 38.84113311767579], [54.90079645537158, 38.74375820159913]],
+        author: 'SMKN_S'
     },
     {
         name: 'пл Фруктовая',
@@ -5272,6 +5292,7 @@ let moscowMaps = [
     {
         name: 'Красная пойма',
         year: 2020,
+        logo: 'lukhovitsy.gif',
         info: 'Первенство ТК Ковчег.',
         url: './maps/moscow/ak/krasnaya_poyma_2020.webp',
         link: './original_maps/moscow/ak/krasnaya_poyma_2020_omaps.jpg',
