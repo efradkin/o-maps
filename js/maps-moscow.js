@@ -3432,6 +3432,15 @@ let moscowMaps = [
         type: ['CITY']
     },
     {
+        name: 'Егорьевск, Жукова гора',
+        year: 2002,
+        logo: 'egorievsk_lylyk.webp',
+        url: './maps/moscow/ak/egorievsk_2002.webp',
+        link: ['./original_maps/moscow/ak/egorievsk_2002_omaps.jpg','./original_maps/moscow/ak/egorievsk_zhukova_hill_2002_omaps.jpg'],
+        bounds: [[55.36572241703397, 39.02832984924317], [55.36391749079489, 39.06085968017579], [55.34622973775743, 39.02395248413087]],
+        author: 'JASHPTRV',
+    },
+    {
         name: 'Ляхово',
         year: 2010,
         url: './maps/moscow/lr/liahovo_2010.webp',
@@ -3823,7 +3832,7 @@ let moscowMaps = [
         type: ['CITY']
     },
     {
-        name: 'Хорошово',
+        name: 'Хорошово, Рождественка',
         year: 1989,
         url: './maps/moscow/ak/horoshovo_1989.webp',
         link: './original_maps/moscow/ak/horoshovo_1989_omaps.jpg',
