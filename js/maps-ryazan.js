@@ -5,7 +5,7 @@ let ryazanMaps = [
         year: 2017,
         correct: 2018,
         url: './maps/ryazan/biatlonka_velo_2017.webp',
-        link: ['./original_maps/ryazan/biatlonka_velo_2017_omaps.jpg','./original_maps/ryazan/biatlonka_velo_tracks_2017_omaps.gif'],
+        link: ['./original_maps/ryazan/biatlonka_velo_2017_omaps.webp','./original_maps/ryazan/biatlonka_velo_tracks_2017_omaps.gif'],
         info: 'Веломаршруты.',
         bounds: [[54.8910235497936, 39.668197631835945], [54.8880615950405, 40.03795623779297], [54.67393022562334, 39.66236114501954]],
         author: 'VEKOVISCH',

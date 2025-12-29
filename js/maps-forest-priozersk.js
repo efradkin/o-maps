@@ -178,8 +178,9 @@ let priozerskMaps = [
         name: 'Кузнечное, запад',
         year: 2008,
         area: 35,
+        logo: 'mourning.webp',
         url: './maps/forest/priozersk/kuznechnoe_west_2008.webp',
-        link: './original_maps/forest/priozersk/kuznechnoe_2008_omaps.pdf',
+        link: './original_maps/forest/priozersk/kuznechnoe_2008_omaps.webp',
         bounds: [[61.15810287382887, 29.742393493652347], [61.14389802382198, 29.939460754394535], [61.083819196139416, 29.71887588500977]],
         author: ['KUZNTSV_S','NSNV','KVZN','TKMKV_K','SHRNN'],
         owner: 'TOKM'

@@ -106,7 +106,7 @@ let rogaineKkmMaps = [
         name: 'Орехово, Ракитинское оз',
         date: '2020-11',
         url: './maps/rogaine/kkm/orekhovo_KKM_2020_11.webp',
-        link: './original_maps/rogaine/kkm/orekhovo_KKM_2020_11_omaps.jpg',
+        link: './original_maps/rogaine/kkm/orekhovo_KKM_2020_11_omaps.gif',
         bounds: [[60.474226311886945, 30.283470153808597], [60.46580778814421, 30.379900932312015], [60.44147063539492, 30.271110534667972]],
         start: 'KKM',
         owner: 'RYZHOV',

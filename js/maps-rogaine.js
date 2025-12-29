@@ -87,7 +87,7 @@ let rogaineMaps = [
         year: 2019,
         info: 'КЛО 2019, 2024.',
         url: './maps/rogaine/shapki_KLO_2024.webp',
-        link: ['./original_maps/rogaine/shapki_KLO_2019_omaps.jpg','./original_maps/rogaine/shapki_KLO_2024_omaps.jpg'],
+        link: ['./original_maps/rogaine/shapki_KLO_2019_omaps.webp','./original_maps/rogaine/shapki_KLO_2024_omaps.gif'],
         bounds: [[59.62961808079296, 31.124010086059574], [59.6245838890069, 31.25473022460938], [59.568679740934435, 31.112508773803714]],
         type: ['ROGAINE']
     },
@@ -236,11 +236,18 @@ let rogaineMaps = [
         name: 'Зеркальный',
         year: 2022,
         major: true,
+        logo: 'rrc_2022.webp',
         url: './maps/rogaine/zerkalny_rrc_2022.webp',
-        link: './original_maps/rogaine/zerkalny_rrc_2022_omaps.jpg',
+        link: './original_maps/rogaine/zerkalny_rrc_2022_omaps.gif',
         bounds: [[60.34207085274035, 28.864517211914066], [60.37518126453458, 29.334526062011722], [60.138086026326405, 28.924255371093754]],
         author: 'RYLOV_V',
         info: 'II Кубок России по рогейну.',
+        gps: {
+            'Бег 24':'https://viewer.o-gps-center.ru/viewer/event/13197/',
+            'Бег 8':'https://viewer.o-gps-center.ru/viewer/event/13201/',
+            'Вело 16':'https://viewer.o-gps-center.ru/viewer/event/13200/',
+            'Вело 6':'https://viewer.o-gps-center.ru/viewer/event/13202/'
+        },
         type: ['ROGAINE'],
         region: 'SPB'
     },
