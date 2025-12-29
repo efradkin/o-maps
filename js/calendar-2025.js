@@ -2425,6 +2425,7 @@ let events_2025 =
         fmt: 'маркир',
         link: 'https://o-site.spb.ru/race.php?id=251228_markir',
         reg: 'http://orgeo.ru/event/48645',
+        photo: 'https://vk.ru/album-220245153_312176887',
         map: 'toksovo_vifk_2020',
         owner: 'KUZMOLOVO'
     }

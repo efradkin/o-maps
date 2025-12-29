@@ -3752,6 +3752,15 @@ let moscowMaps = [
         author: 'FSHN_A'
     },
     {
+        name: 'Щурово, Поляны',
+        year: 1,
+        logo: 'kolomna.gif',
+        url: './maps/moscow/sz/schurovo_old.webp',
+        link: './original_maps/moscow/sz/schurovo_old_omaps.gif',
+        bounds: [[55.059974512535376, 38.80383968353272], [55.05827856570009, 38.82252931594849], [55.0525880162342, 38.80212306976319]],
+        author: 'AFNSV_Y'
+    },
+    {
         name: 'Андреевское',
         year: 2023,
         logo: 'kolomna.gif',
