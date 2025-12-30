@@ -124,13 +124,14 @@ let zelikMaps = [
     },
     {
         name: 'Песочная',
-        year: 1986,
-        info: 'Приз Ленинградского телевидения.',
+        date: '1986-05-10',
+        info: 'Приз Ленинградского телевидения. <a href="./docs/1986/1986_05_10_tv_omaps.pdf">Результаты</a>.',
         url: './maps/forest/zelik/pesochnaya_1986.webp',
         link: './original_maps/forest/zelik/pesochnaya_1986_omaps.jpg',
         bounds: [[60.122184363898974, 30.110778808593754], [60.11743802435264, 30.17480850219727], [60.10691667063196, 30.10614395141602]],
         author: 'VSLVSKY',
         owner: 'KSLV_VN',
+        me: 'М-10',
         qtty: 10
     },
     {

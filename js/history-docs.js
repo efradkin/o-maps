@@ -99,13 +99,6 @@ let historyDocs = [
         me: 'М-10'
     },
     {
-        name: 'П-во клуба Азимут (Комарово)',
-        year: 1988,
-        link: './docs/1988/1988_azimut_omaps.pdf',
-        planner: 'VSLVSKY',
-        me: 'М'
-    },
-    {
         name: 'Буклет карт для спортивного ориентирования (Горький)',
         year: 1986,
         link: './docs/1986/1986_gorky_maps.pdf',
@@ -115,6 +108,14 @@ let historyDocs = [
         date: '1986-04-13',
         link: './docs/1986/1986_04_13_brobeg_omaps.pdf',
         me: 'М-9'
+    },
+    {
+        name: 'Приз Ленинградского телевидения (Песочное)',
+        date: '1986-05-10',
+        link: './docs/1986/1986_05_10_tv_omaps.pdf',
+        info: 'Карту можно найти <a href="map-info.html?map=pesochnaya_1986">тут</a>.',
+        planner: 'VSLVSKY',
+        me: 'М-10'
     },
     {
         name: 'Бро-бег (Кузьмолово)',
@@ -127,6 +128,13 @@ let historyDocs = [
         year: 1988,
         link: './docs/1988/1988_winter_rating_omaps.pdf',
         me: 'М-13'
+    },
+    {
+        name: 'П-во клуба Азимут (Комарово)',
+        year: 1988,
+        link: './docs/1988/1988_azimut_omaps.pdf',
+        planner: 'VSLVSKY',
+        me: 'М'
     },
     {
         name: 'Кубок ЛДФСО Ленинграда (Кузьмолово)',

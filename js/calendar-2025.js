@@ -2359,6 +2359,7 @@ let events_2025 =
         type: 'ORIENT',
         fmt: 'спринт',
         link: 'https://vk.com/wall-201330282_2053',
+        video: 'https://rutube.ru/video/6d1673752a19bd677060122a5e0db1b7/',
         map: 'sosnovy_bor',
         owner: 'YUVENTA'
     }, {
