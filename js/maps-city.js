@@ -2140,4 +2140,14 @@ let cityMaps = [
         type: ['CITY'],
         zindex: 2
     },
+    {
+        name: 'Светлый Мир Внутри',
+        year: 2025,
+        url: './maps/city/light_world_inside_2025.webp',
+        link: './original_maps/city/light_world_inside_2025_omaps.gif',
+        bounds: [[60.131509355228225, 29.93908524513245], [60.130862836495425, 29.944953918457035], [60.12786517457236, 29.937465190887455]],
+        author: ['SHRNN','TRFMV_A'],
+        owner: 'SHRNN',
+        type: ['CITY'],
+    },
 ];

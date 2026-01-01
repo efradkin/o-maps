@@ -9,6 +9,13 @@ let events_2026 =
         map: 'sestroretsk_tamozhennaya_doroga_2012',
         owner: 'WN'
     },{
+        date: '2026-01-06',
+        place: 'Чкаловская',
+        name: 'Длительный спринт №1',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        owner: 'DLITELNY',
+    },{
         date: '2026-01-07',
         place: 'Суоранда',
         name: 'Кубок Белых ночей №7',
@@ -18,11 +25,19 @@ let events_2026 =
         owner: 'WN'
     },{
         date: '2026-01-10',
-        place: 'Лемболово',
-        name: 'Новогодняя эстафета',
+        place: 'Мужества',
+        name: 'Длительный спринт №2',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        owner: 'DLITELNY',
+    },{
+        date: '2026-01-10',
+        place: 'Силанде',
+        name: 'Открытие сезона',
+        link: 'https://o-site.spb.ru/race.php?id=260110_markir_s_prokolom',
+        reg: 'https://orgeo.ru/event/48922',
         type: 'SKI',
-        fmt: 'эстафета, маркир',
-        owner: 'SFSO_SPB'
+        fmt: 'маркир',
     },{
         date: '2026-01-11',
         place: 'Колосково',
@@ -35,6 +50,8 @@ let events_2026 =
         date: '2026-01-11',
         place: 'Кировск',
         name: 'ЧиП ЛО',
+        link: 'https://o-site.spb.ru/race.php?id=260111_lo',
+        reg: 'https://orgeo.ru/event/kirovsk_ski_o_sprint_2026',
         type: 'SKI',
         fmt: 'спринт',
         owner: 'SFSO_LO'
@@ -48,12 +65,27 @@ let events_2026 =
         owner: 'SFSO_LO'
     },{
         date: '2026-01-17',
+        place: 'САМПО',
+        name: 'Длительный спринт №3',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        owner: 'DLITELNY',
+    },{
+        date: '2026-01-17',
         endDate: '2026-01-18',
         place: 'Орехово',
         name: 'ЧиП СПб',
+        link: 'https://o-site.spb.ru/race.php?id=26011718',
         type: 'SKI',
-        fmt: 'маркир,масстарт',
+        fmt: 'маркир,классика',
         owner: 'SFSO_SPB'
+    },{
+        date: '2026-01-24',
+        place: 'Удельная',
+        name: 'Длительный спринт №4',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        owner: 'DLITELNY',
     },{
         date: '2026-01-31',
         name: 'ЧиП СПб',
@@ -71,7 +103,9 @@ let events_2026 =
         place: 'Луга, оз. Штоль',
         name: 'ЛужSki рогейн',
         type: ['ROGAINE','SKI'],
+        fmt: '6, 3',
         link: 'https://vk.com/event166397868',
+        reg: 'https://orgeo.ru/event/48867',
         map: 'omchino_luzhsky_2022',
         owner: 'SHBN'
     },{
