@@ -726,6 +726,16 @@ let moscowMaps = [
         owner: 'ALFRV'
     },
     {
+        name: 'Ивановская горка',
+        year: 2025,
+        url: './maps/moscow/ak/ivanovskaya_gorka_2025.webp',
+        link: './original_maps/moscow/ak/ivanovskaya_gorka_2025_omaps.gif',
+        bounds: [[55.76112258901995, 37.63257265090943], [55.75897352864338, 37.649695873260505], [55.75193392302137, 37.62909650802613]],
+        author: 'ALDBV',
+        owner: 'ALDBV',
+        type: ['CITY','SPRINT']
+    },
+    {
         name: 'Китай-Город',
         year: 2021,
         url: './maps/moscow/o-mephi/20220426_526.webp',

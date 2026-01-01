@@ -274,6 +274,10 @@ let owners = {
 
     /* --- МОСКВА --- */
 
+    ALDBV: {
+        name: 'По вопросам использования карты обращайтесь к <a href="https://vk.com/iskatel_captain">Максиму Алдобаеву</a>.',
+        logo: 'makson.gif'
+    },
     ALFRV: {
         name: '© Алферьев Александр, 89851135004'
     },
