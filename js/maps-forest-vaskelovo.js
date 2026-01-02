@@ -210,12 +210,15 @@ let vaskelovoMaps = [
     },
     {
         name: 'Гарболово',
-        year: 1991,
+        date: '1991-09-08',
         logo: 'azimut.gif',
         url: './maps/forest/vaskelovo/garbolovo_1991.webp',
-        link: './original_maps/forest/vaskelovo/garbolovo_1991_omaps.jpg',
+        link: ['./original_maps/forest/vaskelovo/garbolovo_1991_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_na_champ_1991_omaps.jpg'],
+        info: 'П-во КСО "Невский азимут". <a href="./docs/1991/1991_09_08_club_championship_omaps.pdf">Результаты</a>.',
         bounds: [[60.36440284798612, 30.50259590148926], [60.36198357968282, 30.556669235229496], [60.33718634477972, 30.49736022949219]],
         author: 'VSLVSKY',
+        planner: 'KRZHNVSKY',
+        me: 'H-A'
     },
     {
         name: 'Гарболово',

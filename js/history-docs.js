@@ -1089,6 +1089,7 @@ let historyDocs = [
         name: 'П-во КСО "Невский азимут" (Гарболово)',
         date: '1991-09-08',
         link: './docs/1991/1991_09_08_club_championship_omaps.pdf',
+        info: 'Карту можно найти <a href="map-info.html?map=garbolovo_1991">тут</a>.',
         planner: 'KRZHNVSKY',
         me: 'H-A'
     },
