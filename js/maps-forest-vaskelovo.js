@@ -70,11 +70,14 @@ let vaskelovoMaps = [
     {
         name: 'Лемболово, с-в',
         year: 1989,
+        date: '1991-10-12',
         url: './maps/forest/vaskelovo/lembolovo_north_east_1989.webp',
-        link: './original_maps/forest/vaskelovo/lembolovo_north_east_1989_omaps.jpg',
+        link: ['./original_maps/forest/vaskelovo/lembolovo_north_east_1989_omaps.jpg','./original_maps/forest/vaskelovo/lembolovo_night_spb_1991_omaps.jpg'],
+        info: 'Ночной СПб. <a href="./docs/1991/1991_10_12_night_omaps.pdf">Результаты</a>.',
         bounds: [[60.44701687789359, 30.30509948730469], [60.44121658634549, 30.379428863525394], [60.42075912129117, 30.296773910522464]],
         author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
         areas: [62,20,10,5,1,1,1],
+        me: 'H-B'
     },
     {
         name: 'Лемболово',

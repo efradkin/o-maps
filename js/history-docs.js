@@ -1147,6 +1147,7 @@ let historyDocs = [
     {
         name: 'Ночной СПб, эстафеты (Лемболово)',
         date: '1991-10-12',
+        info: 'Карту можно найти <a href="map-info.html?map=lembolovo_north_east_1989">тут</a>.',
         link: './docs/1991/1991_10_12_night_omaps.pdf',
         planner: 'GBNVA_A',
         me: 'H-B'
