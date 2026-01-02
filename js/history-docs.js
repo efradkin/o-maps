@@ -1105,7 +1105,7 @@ let historyDocs = [
     {
         name: 'Соревнования среди спортсменов старшего возраста (Васкелово)',
         date: '1991-09-14',
-        info: '14-15 сентября.',
+        info: '14-15 сентября. Карту можно найти <a href="map-info.html?map=kerro_1988">тут</a>.',
         link: ['./docs/1991/1991_09_14_veterans_omaps.pdf','./docs/1991/1991_09_15_veterans_omaps.pdf'],
         planner: 'SMNV_M'
     },
@@ -1149,6 +1149,7 @@ let historyDocs = [
         date: '1991-10-12',
         link: './docs/1991/1991_10_12_night_omaps.pdf',
         planner: 'GBNVA_A',
+        me: 'H-B'
     },
     {
         name: 'П-во ФОК Антей (Юкки)',

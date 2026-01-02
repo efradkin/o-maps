@@ -323,12 +323,15 @@ let vaskelovoMaps = [
         bounds: [[60.379254068536234, 30.25239944458008], [60.369686414921595, 30.28518676757813], [60.36491214475014, 30.236134529113773]],
     },
     {
-        name: 'Керро',
+        name: 'Васкелово',
         year: 1988,
+        date: '1991-09-14',
         url: './maps/forest/vaskelovo/kerro_1988.webp',
-        link: './original_maps/forest/vaskelovo/kerro_1988_omaps.jpg',
+        link: ['./original_maps/forest/vaskelovo/kerro_1988_omaps.jpg','./original_maps/forest/vaskelovo/vaskelovo_masters_1991_omaps.jpg'],
+        info: 'Соревнования среди спортсменов старшего возраста. <a href="./docs/1991/1991_09_14_veterans_omaps.pdf">Результаты</a>.',
         bounds: [[60.34907778268942, 30.21647930145264], [60.344725169953875, 30.285701751708988], [60.31761974836494, 30.208625793457035]],
         author: 'BYMKV',
+        planner: 'SMNV_M'
     },
     {
         name: 'Васкелово, Киварин руч',
