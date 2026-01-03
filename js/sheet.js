@@ -162,8 +162,11 @@ function buildName(m) {
         name = `<a href="${m.about}">${name}</a>`;
     }
     if (m.url) {
-        const url = (typeof directURLs !== 'undefined') && directURLs ? m.url : mapLink(m.url, m);
-        result += name + ' <a href="' + url + '">🗺️</a>';
+        if ((typeof directURLs !== 'undefined') && directURLs) {
+            result += `<a href="${m.url}">${name}</a>`;
+        } else {
+            result += name + ' <a href="' + mapLink(m.url, m) + '">🗺️</a>';
+        }
     } else {
         result += name;
     }

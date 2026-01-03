@@ -10,20 +10,20 @@ let rules = [
         name: 'International Specification for Orienteering Maps, ISOM 2017-2 rev 6',
         year: 2024,
         url: 'https://omapwiki.orienteering.sport/specifications/isom/',
-        link: './docs/iof_isom_ 2017_2_rev_6_2024_01_omaps.pdf',
+        link: './docs/iof_isom_2017_2_rev_6_2024_01_omaps.pdf',
         owner: 'IOF',
         lng: 'en'
     },
     {
         name: 'Международные требования для карт ориентирования, ISOM 2017-2',
         year: 2022,
-        url: './docs/iof_isom_ 2017_2_2022_ru_omaps.pdf.pdf',
+        url: './docs/iof_isom_2017_2_2022_ru_omaps.pdf.pdf',
         owner: 'IOF',
     },
     {
         name: 'International Specification for Orienteering Maps, ISOM 2000',
         year: 2001,
-        url: './docs/iof_isom_ 2000_2011_omaps.pdf',
+        url: './docs/iof_isom_2000_2011_omaps.pdf',
         owner: 'IOF',
         lng: 'en',
         outdated: true

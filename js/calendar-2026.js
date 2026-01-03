@@ -10,10 +10,12 @@ let events_2026 =
         owner: 'WN'
     },{
         date: '2026-01-06',
-        place: 'Чкаловская',
+        place: 'Чкаловская, Антифитнес',
         name: 'Длительный спринт №1',
         type: 'ORIENT',
         fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/info/48923',
+        map: 'chkalovskaya_2021_st_omaps',
         owner: 'DLITELNY',
     },{
         date: '2026-01-07',
