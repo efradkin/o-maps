@@ -1044,7 +1044,6 @@ let historyDocs = [
         name: 'Ориентир-16 (Токсово)',
         date: '1991-07-17',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_20">тут</a>.',
         link: './docs/1991/1991_07_17_orientir_16_omaps.pdf',
         me: 'МА'
     },
@@ -1052,7 +1051,7 @@ let historyDocs = [
         name: 'Ориентир-17 (Кузнечное)',
         date: '1991-07-21',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_21">тут</a>.',
+        info: '20-21 июля. Карты можно найти <a href="map-info.html?map=orientir_1991_07_20">тут</a> и <a href="map-info.html?map=orientir_1991_07_21">тут</a>.',
         link: './docs/1991/1991_07_20_orientir_17_omaps.pdf'
     },
     {

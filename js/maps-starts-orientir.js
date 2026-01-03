@@ -243,7 +243,7 @@ let orientirStartsMaps = [
     {
         name: 'Кузнечное, оз Суури',
         date: '1991-07-20',
-        info: 'Ориентир-16, <a href="./docs/1991/1991_07_17_orientir_16_omaps.pdf">результаты</a>.',
+        info: 'Ориентир-17, <a href="./docs/1991/1991_07_20_orientir_17_omaps.pdf">результаты</a>.',
         url: './maps/starts/orientir/orientir_1991_07_20.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_20_omaps.jpg',
         start: 'ORIENTIR',
@@ -253,7 +253,7 @@ let orientirStartsMaps = [
     {
         name: 'Кузнечное, оз Суури',
         date: '1991-07-21',
-        info: 'Ориентир-17, <a href="./docs/1991/1991_07_20_orientir_17_omaps.pdf">результаты</a>.',
+        info: 'Ориентир-17.',
         url: './maps/starts/orientir/orientir_1991_07_21.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_21_omaps.jpg',
         start: 'ORIENTIR',

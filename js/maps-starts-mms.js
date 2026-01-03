@@ -35,7 +35,7 @@ let mmsStartsMaps = [
         start: 'MMS',
         year: 1998,
         url: './maps/starts/mms/mms_1998_06.webp',
-        link: './original_maps/starts/mms/mms_1998_06_omaps.jpg',
+        link: ['./original_maps/starts/mms/mms_1998_06_omaps.jpg','./original_maps/starts/mms/mms_1998_06_26_omaps.jpg'],
         bounds: [[61.119366155705585, 29.81569290161133], [61.11551060004153, 29.87088203430176], [61.10039477459529, 29.809942245483402]],
         author: ['KUZNTSV_A','KVZN','SHRNN'],
         planner: 'TLNV_A'

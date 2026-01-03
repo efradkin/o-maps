@@ -46,7 +46,7 @@ const SHOW_ALL_LABEL = 'Показать все ориенты';
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
-let calendarGroup = L.markerClusterGroup();
+let calendarGroup = L.markerClusterGroup ? L.markerClusterGroup() : L.layerGroup([]);
 
 let tracksGroup = L.layerGroup([]);
 
