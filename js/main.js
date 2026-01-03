@@ -527,6 +527,11 @@ if (mapElement) {
         }, 'Справка').addTo(map)
     }
 
+    // --- settings ---
+    L.easyButton('button-icon settings-icon', function (btn, map) {
+        contextMenu();
+    }, 'Контекстное меню настроек').addTo(map)
+
     // --- statistics ---
     if (!hiddenButtonsMode) {
         L.easyButton('button-icon statistics-icon', function (btn, map) {
@@ -1706,6 +1711,10 @@ function openStats() {
 
 function downloadSheet() {
     location.href = SHEET_PAGE;
+}
+
+function contextMenu() {
+    map.contextmenu.showAt(L.point(60, 250));
 }
 
 function callCenter() {

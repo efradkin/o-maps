@@ -217,6 +217,9 @@ label:has(> span span .layer-separator) {
 .papers-icon {
     background-image: url(../images/papers_24.png);
 }
+.settings-icon {
+    background-image: url(../images/settings_24.png);
+}
 .call-icon {
     display: block;
     height: 64px;
