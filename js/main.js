@@ -56,8 +56,6 @@ if (tl != null) {
 
 let mapOverlays = []; // all overlays to set their opacity
 
-const mapsCoords = {};
-
 let oTracks = [];
 if (typeof tracks !== 'undefined') {
     oTracks = [
@@ -768,20 +766,13 @@ function createEventMarker(evt, evtMap) {
         if (!m) {
             return;
         }
-        mapCoords = mapsCoords[evtMap];
-        if (mapCoords) {
-            mapCoords = [mapCoords[0] + .001, mapCoords[1] + .002];
-        } else {
-            const x = (m.bounds[0][0] + m.bounds[2][0])/2;
-            const y = (m.bounds[0][1] + m.bounds[1][1])/2;
-            mapCoords = [x, y];
-        }
-        mapsCoords[evtMap] = mapCoords;
+        const x = (m.bounds[0][0] + m.bounds[2][0])/2;
+        const y = (m.bounds[0][1] + m.bounds[1][1])/2;
+        mapCoords = [x, y];
     }
     const marker = L.marker([mapCoords[0], mapCoords[1]], {icon: cpIcon});
     const popup = buildEventPopup(evt, m);
     marker.bindPopup(popup, {maxWidth: popupWidth});
-    // 2. Add the marker to the map using the custom icon
     marker.addTo(calendarGroup);
 }
 
