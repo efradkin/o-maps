@@ -7,7 +7,10 @@ let events_2026 =
         reg: 'https://orgeo.ru/event/48813',
         type: 'ORIENT',
         map: 'sestroretsk_tamozhennaya_doroga_2012',
-        owner: 'WN'
+        res: 'https://t.me/whitenightesspb/849',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24008/',
+        owner: 'WN',
+        me: 'МА'
     },{
         date: '2026-01-06',
         place: 'Чкаловская, Антифитнес',
