@@ -765,6 +765,16 @@ let zelikMaps = [
         zindex: 2
     },
     {
+        name: 'Сестрорецк, Таможенная дорога',
+        year: 2021,
+        url: './maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2021.webp',
+        bounds: [[60.13862022294616, 29.950618743896484], [60.137338136484786, 29.965424537658695], [60.12825526011688, 29.946370124816898]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24008/',
+        author: 'MKHLV_A',
+        owner: 'WN',
+        zindex: 3
+    },
+    {
         name: 'Сестрорецк, Ласковый пляж',
         year: 2023,
         url: './maps/forest/zelik/sestroretsk_pljazh_laskovy_2023.webp',
