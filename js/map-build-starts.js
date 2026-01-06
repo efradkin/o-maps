@@ -286,10 +286,6 @@ function buildContextmenuItems() {
         icon: 'images/info.png',
         callback: popupsSwitch
     }, {
-        text: 'Скрывать карты',
-        icon: 'images/hide.png',
-        callback: hideMapsSwitch
-    }, {
         text: 'Выделять полноразмеры',
         icon: 'images/expand.png',
         callback: fullSizeSwitch

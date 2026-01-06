@@ -3,7 +3,7 @@ const EMPTY_IMAGE_URL = './maps/empty.png';
 
 const MIN_ZOOM = (typeof DEFAULT_MIN_ZOOM !== 'undefined') ? DEFAULT_MIN_ZOOM : 9;
 const MAX_ZOOM = 17;
-const EMPTY_MAPS_ZOOM_LEVEL = 12;
+const EMPTY_MAPS_ZOOM_LEVEL = 9;
 const DEFAULT_ZOOM_LEVEL = 13;
 
 const ZERO_LATLNG = new L.LatLng(0, 0);
@@ -31,11 +31,13 @@ let imagesLoadCounter = 0;
 let selectedOverlay, selectedMap;
 let visibleMaps = 0;
 
-let showMapsOnSmallZoom = true;
+let showMapsOnSmallZoom = false;
+/*
 let smosz = localStorage.getItem('showMapsOnSmallZoom');
 if (smosz != null) {
     showMapsOnSmallZoom = (smosz === 'true');
 }
+*/
 let enableFullSize = false;
 let efs = localStorage.getItem('enableFullSize');
 if (efs != null) {
