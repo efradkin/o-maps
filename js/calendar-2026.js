@@ -18,6 +18,7 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/info/48923',
+        res: 'https://t.me/dlitelnyy/426',
         map: 'chkalovskaya_2021_st_omaps',
         owner: 'DLITELNY',
     },{

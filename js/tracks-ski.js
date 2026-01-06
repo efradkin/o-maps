@@ -462,7 +462,7 @@ let skiTracks = [
         type: ['SKI']
     },
     {
-        name: 'Ломоносов',
+        name: 'Ломоносов, Верхние Венки',
         info: 'Холмистую трассу готовит на энтузиазме бывший учитель физкультуры.',
         gpx: 'tracks/ski/lomonosov_ski_omaps.gpx',
         type: ['SKI']
