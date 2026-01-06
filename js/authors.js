@@ -246,6 +246,7 @@ let authors = {
     LVRV_R: { name: 'Лавров Роман' },
     MDVDKN: { name: 'Медведкин Г.' },
     MKHLV_A: { name: 'Михайлов Александр' },
+    MKHLV_A_M: { name: 'Михайлов А.М.' },
     MKSHN_A: { name: 'Микшин А.' },
     MKHLV_B: {
         name: 'Михайлов Борис',

@@ -21,6 +21,8 @@ let events_2026 =
         res: 'https://t.me/dlitelnyy/426',
         map: 'chkalovskaya_2021_st_omaps',
         owner: 'DLITELNY',
+        logo: 'across.gif',
+        me: 'М'
     },{
         date: '2026-01-07',
         place: 'Суоранда',
@@ -62,14 +64,6 @@ let events_2026 =
         fmt: 'спринт',
         owner: 'SFSO_LO'
     },{
-        date: '2026-01-16',
-        endDate: '2026-01-18',
-        place: 'Будогощь',
-        name: 'ЧиП ЛО',
-        type: 'SKI',
-        fmt: 'маркир, классика, многодневная',
-        owner: 'SFSO_LO'
-    },{
         date: '2026-01-17',
         place: 'САМПО',
         name: 'Длительный спринт №3',
@@ -85,6 +79,14 @@ let events_2026 =
         type: 'SKI',
         fmt: 'маркир,классика',
         owner: 'SFSO_SPB'
+    },{
+        date: '2026-01-23',
+        endDate: '2026-01-25',
+        place: 'Будогощь',
+        name: 'ЧиП ЛО',
+        type: 'SKI',
+        fmt: 'маркир, классика, многодневная',
+        owner: 'SFSO_LO'
     },{
         date: '2026-01-24',
         place: 'Удельная',

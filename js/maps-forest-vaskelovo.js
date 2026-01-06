@@ -2,6 +2,17 @@
 let vaskelovoMaps = [
     // --- ВАСКЕЛОВО - ГРУЗИНО - ЛЕМБОЛОВО - ОРЕХОВО ---
     {
+        name: 'Лемболово, Пионер',
+        year: 2019,
+        hidden: true,
+        url: './maps/forest/vaskelovo/lembolovo_pioner_2019.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_pioner_2019_omaps.jpg',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24031/',
+        bounds: [[60.40386036161528, 30.320280790328983], [60.40413589767283, 30.335440635681156], [60.399001005890746, 30.320259332656864]],
+        author: 'MKHLV_A_M',
+        owner: 'PNKV_DNL'
+    },
+    {
         name: 'Орехово',
         date: '1966-03-13',
         start: 'MEET_1966',
