@@ -1466,6 +1466,16 @@ let parkMaps = [
         type: ['PARK']
     },
     {
+        name: 'Юсуповский сад',
+        year: 2025,
+        url: './maps/parks/yusupovsky_sad_2025.webp',
+        link: './original_maps/parks/yusupovsky_sad_2025_omaps.gif',
+        bounds: [[59.92483974586388, 30.309927463531498], [59.924495641559815, 30.316922664642338], [59.92159211940868, 30.309176445007328]],
+        author: ['SHRNN','RSKV_S'],
+        owner: 'SHRNN',
+        type: ['PARK']
+    },
+    {
         name: 'Польский сад',
         year: 2023,
         url: './maps/parks/polsky_sad.webp',
