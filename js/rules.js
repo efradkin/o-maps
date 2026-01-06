@@ -41,6 +41,19 @@ let rules = [
         outdated: true
     },
     {
+        name: 'Периодическая таблица знаков карт спортивного ориентирования (ISOM 2017)',
+        url: './rules/periodic_table_isom_2017_rus_omaps.gif',
+        author: ['NR_D','GLTV_D'],
+        owner: 'NR_D',
+    },
+    {
+        name: 'Periodic table of orienteering map symbols (ISOM 2017)',
+        url: './rules/periodic_table_isom_2017_en_omaps.gif',
+        author: 'NR_D',
+        owner: 'NR_D',
+        lng: 'en'
+    },
+    {
         name: 'International Specification for Sprint Orienteering Maps, ISSprOM 2019-2 rev 6',
         year: 2024,
         url: 'https://omapwiki.orienteering.sport/specifications/issprom/',

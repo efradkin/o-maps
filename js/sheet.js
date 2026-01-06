@@ -202,7 +202,7 @@ function buildYear(m) {
             result = safe(year(m));
         }
     }
-    return `<span class="doc-date">${result}</span>`
+    return result ? `<span class="doc-date">${result}</span>` : '';
 }
 
 function buildStart(m) {

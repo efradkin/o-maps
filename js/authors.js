@@ -777,6 +777,7 @@ let authors = {
     KUZNTSV_S_DV: { name: 'Кузнецов Сергей' },
     KUZNTSV_V_DV: { name: 'Кузнецов В.' },
     LSHV_A: { name: 'Лайшев Алексей' },
+    NR_D: { name: 'Nuri Dağdelen' },
     PNCHKV: { name: 'Панчуков С.' },
     TRFNV_A: { name: 'Труфанов Александр' }, // Федорович
 };
