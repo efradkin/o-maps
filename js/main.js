@@ -1,6 +1,8 @@
 const OLIVE_IMAGE_URL = './maps/olive.png';
 const EMPTY_IMAGE_URL = './maps/empty.png';
 
+const MIN_ZOOM = (typeof DEFAULT_MIN_ZOOM !== 'undefined') ? DEFAULT_MIN_ZOOM : 9;
+const MAX_ZOOM = 17;
 const EMPTY_MAPS_ZOOM_LEVEL = 12;
 const DEFAULT_ZOOM_LEVEL = 13;
 
@@ -315,8 +317,8 @@ if (mapElement) {
     map = L.map('map', {
         attributionControl: false,
         zoomControl: false,
-        minZoom: 9,
-        maxZoom: 17,
+        minZoom: MIN_ZOOM,
+        maxZoom: MAX_ZOOM,
         center: [x, y],
         zoom: zoom,
         layers: activeLayers,
