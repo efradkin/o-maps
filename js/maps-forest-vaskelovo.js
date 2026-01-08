@@ -2,17 +2,6 @@
 let vaskelovoMaps = [
     // --- ВАСКЕЛОВО - ГРУЗИНО - ЛЕМБОЛОВО - ОРЕХОВО ---
     {
-        name: 'Лемболово, Пионер',
-        year: 2019,
-        hidden: true,
-        url: './maps/forest/vaskelovo/lembolovo_pioner_2019.webp',
-        link: './original_maps/forest/vaskelovo/lembolovo_pioner_2019_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24031/',
-        bounds: [[60.40386036161528, 30.320280790328983], [60.40413589767283, 30.335440635681156], [60.399001005890746, 30.320259332656864]],
-        author: 'MKHLV_A_M',
-        owner: 'PNKV_DNL'
-    },
-    {
         name: 'Орехово',
         date: '1966-03-13',
         start: 'MEET_1966',
@@ -628,6 +617,15 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/lembolovo_2007.pdf',
         bounds: [[60.45196959181943, 30.256347656250004], [60.442867869662955, 30.400457382202152], [60.38027218998218, 30.237550735473636]],
         author: ['CHGRVSKY_Y','DBRTSV_V']
+    },
+    {
+        name: 'Лемболово, ДОЛ Пионер',
+        year: 2019,
+        url: './maps/forest/vaskelovo/lembolovo_pioner_2019.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_pioner_2019_omaps.jpg',
+        bounds: [[60.40386036161528, 30.320280790328983], [60.40413589767283, 30.335440635681156], [60.399001005890746, 30.320259332656864]],
+        author: 'MKHLV_A_M',
+        owner: 'PNKV_DNL'
     },
     {
         name: 'Орехово',

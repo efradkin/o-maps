@@ -8,6 +8,7 @@ let events_2026 =
         type: 'ORIENT',
         map: 'sestroretsk_tamozhennaya_doroga_2012',
         res: 'https://t.me/whitenightesspb/849',
+        reskeep: 838,
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24008/',
         owner: 'WN',
         me: 'МА'
@@ -19,6 +20,7 @@ let events_2026 =
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/info/48923',
         res: 'https://t.me/dlitelnyy/426',
+        reskeep: 837,
         map: 'chkalovskaya_2021_st_omaps',
         owner: 'DLITELNY',
         logo: 'across.gif',
@@ -28,16 +30,22 @@ let events_2026 =
         place: 'Суоранда',
         name: 'Кубок Белых ночей №7',
         reg: 'https://orgeo.ru/event/48811',
+        res: 'https://t.me/whitenightesspb/858',
+        reskeep: 839,
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24051/',
         type: 'ORIENT',
         map: 'orovo_2019',
-        owner: 'WN'
+        owner: 'WN',
+        me: 'МА'
     },{
         date: '2026-01-10',
         place: 'Мужества',
         name: 'Длительный спринт №2',
         type: 'ORIENT',
         fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/49046',
         owner: 'DLITELNY',
+        map: 'gimnazia_74_2024'
     },{
         date: '2026-01-10',
         place: 'Силанде',
@@ -85,7 +93,7 @@ let events_2026 =
         place: 'Будогощь',
         name: 'ЧиП ЛО',
         type: 'SKI',
-        fmt: 'маркир, классика, многодневная',
+        fmt: 'маркир, классика, <br/>многодневная',
         owner: 'SFSO_LO'
     },{
         date: '2026-01-24',
@@ -134,8 +142,8 @@ let events_2026 =
         owner: 'SFSO_SPB'
     },{
         date: '2026-02-21',
-        place: 'Орехово',
-        name: 'Горный кросс',
+        place: 'Орехово, ТБ Трансмост',
+        name: 'Горный кросс-112',
         type: 'ROGAINE',
         fmt: '5, 3',
         reg: 'https://orgeo.ru/event/48446',

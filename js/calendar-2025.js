@@ -2377,7 +2377,7 @@ let events_2025 =
         place: 'Антифитнес на Газовой',
         name: 'Что-то с чем-то',
         type: 'ROGAINE',
-        fmt: 'дорогой ночной игровой по барам',
+        fmt: 'дорогой ночной <br/> игровой по барам',
         link: 'https://t.me/across_the_runiverse/14677',
         reg: 'https://forms.gle/K3q1zgUUJoxEgKEN6',
         map: 'gazovaya_2025',
