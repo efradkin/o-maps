@@ -324,9 +324,10 @@ let skiTracks = [
     },
     {
         name: 'Парголово',
+        year: 2026,
         info: 'Единственная в черте города лыжная трасса с более-менее серьёзным рельефом.',
         link: 'https://vk.com/skipargolovo',
-        gpx: 'tracks/ski/pargolovo_ski_omaps.gpx',
+        gpx: 'tracks/ski/pargolovo_ski_2026_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -478,7 +479,10 @@ let skiTracks = [
     {
         name: 'Пески, лыжероллерная трасса Ярви',
         link: 'https://jarviresort.ru/',
-        gpx: 'tracks/ski/peski_jarvi_omaps.gpx',
+        gpx: {
+            'Все лыжни':'tracks/ski/peski_jarvi_total_omaps.gpx',
+            'Лыжероллерка':'tracks/ski/peski_jarvi_omaps.gpx'
+        },
         info: 'Трасса слабо холмистая, освещённая, виражи с необходимым уклоном, а на поворотах натянута яркая защитная сетка. Ширина 3-4 метра.',
         logo: 'jarvi.gif',
         ski_kind: 'SKATE_ROUTE',
@@ -522,6 +526,14 @@ let skiTracks = [
         info: 'Коньковый круг от лыжной базы.',
         gpx: 'tracks/ski/shapki_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Шапки, Лыжные стрелы 2025/2026',
+        link: 'https://vk.com/wall-210604144_10259',
+        info: 'Работают лыжные дистанции 5 и 10 км на запасной трассе (проход к старту в 500 метрах от ж/д станции в сторону базы отдыха Пикник).',
+        gpx: 'tracks/ski/shapki_ski_arrows_2025_omaps.gpx',
+        ski_kind: 'CLASSIC_ROUTE',
         type: ['SKI']
     },
     {
