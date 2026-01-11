@@ -66,6 +66,7 @@ let events_2026 =
         link: 'https://www.multsport.ru/starts/winter-rogaine-26/',
         type: ['ROGAINE','SKI'],
         fmt: '4',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24104/',
         start: 'MULTSPORT'
     },{
         date: '2026-01-11',
@@ -75,6 +76,7 @@ let events_2026 =
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_sprint_2026',
         type: 'SKI',
         fmt: 'спринт',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24101/',
         owner: 'SFSO_LO'
     },{
         date: '2026-01-17',

@@ -1197,10 +1197,80 @@ let historyDocs = [
         major: true
     },
     {
+        name: 'St.Petersburg',
+        date: '1994-01-09',
+        link: './docs/1994/1994_01_09_spb_cup_omaps.pdf',
+        me: 'H21',
+    },
+    {
+        name: 'Зелёный змей (Осельки)',
+        date: '1995-09-03',
+        link: './docs/1995/1995_09_03_green_snake_omaps.pdf',
+        start: 'GS',
+    },
+    {
         name: 'Плакат с чемпионами России',
         year: 1996,
         info: 'Взято с <a href="https://rufso.ru/1997-чемпионы-россии-1996/">сайта ФСОР</a>.',
         link: './docs/1996/1996_russia_champions_omaps.jpg',
+    },
+    {
+        name: 'Календарь соревнований СПб, лето',
+        year: 1996,
+        link: './docs/1996/1996_summer_spb_calendar_omaps.pdf',
+    },
+    {
+        name: 'Календарь соревнований ЛО',
+        year: 1996,
+        link: './docs/1996/1996_calendar_lo_omaps.pdf',
+    },
+    {
+        name: 'ЧиП СПб, удлинённая дистанция (Ильичёво)',
+        date: '1996-09-29',
+        link: './docs/1996/1996_09_29_spb_omaps.pdf',
+    },
+    {
+        name: 'ЧиП СПб, П-во ветеранов (Лемболово)',
+        date: '1998-06-06',
+        link: './docs/1998/1998_06_06_spb_omaps.pdf',
+    },
+    {
+        name: 'Зелёный змей (Юкки)',
+        date: '1998-08-29',
+        link: './docs/1998/1998_08_29_green_snake_omaps.pdf',
+        start: 'GS',
+    },
+    {
+        name: 'Чемпионат России (Орехово)',
+        date: '1998-02-18',
+        major: true,
+        info: 'Финал Чемпионата России по лыжному ориентированию. Главный судья соревнований А.М.Бровин, главный секретарь Е.А.Винер.',
+        link: './docs/1998/1998_02_18_russia_omaps.pdf',
+        planner: 'BRDN_V'
+    },
+    {
+        name: 'Предчемпионат мира по лыжному ориентированию среди ветеранов (Орехово)',
+        date: '1998-02-27',
+        link: './docs/1998/1998_02_27_world_masters_predchamp_omaps.pdf',
+        logo: 'wmsoc_1999.gif'
+    },
+    {
+        name: 'Зимний чемпионат СПб, маркир (Лемболово)',
+        date: '1999-03-07',
+        link: './docs/1999/1999_03_07_spb_markir_omaps.pdf',
+        planner: 'BRDN_V'
+    },
+    {
+        name: 'Зимний чемпионат СПб (Лемболово)',
+        date: '1999-03-21',
+        link: './docs/1999/1999_03_21_spb_winter_omaps.pdf',
+        planner: 'BRDN_V'
+    },
+    {
+        name: 'Зимний чемпионат СПб, эстафета 2х (Лемболово)',
+        date: '1999-03-14',
+        link: './docs/1999/1999_03_14_spb_relay_omaps.pdf',
+        planner: 'BRDN_V'
     },
     {
         name: 'Календарь "Субботнего марафона" клуба "Карта"',
