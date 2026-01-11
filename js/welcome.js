@@ -93,6 +93,17 @@ styleSheetEl.innerHTML = `
 document.head.appendChild(styleSheetEl);
 
 const dialogEl = document.createElement('dialog');
+dialogEl.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        event.preventDefault();
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        return false;
+    }
+}, true);
+dialogEl.addEventListener('cancel', (event) => {
+    event.preventDefault();
+});
 dialogEl.setAttribute('id', 'welcome-modal');
 const closeBtnEl = document.createElement('button');
 closeBtnEl.setAttribute('id', 'close-btn');

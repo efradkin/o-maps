@@ -152,7 +152,8 @@ let events_2026 =
         place: 'Орехово, ТБ Трансмост',
         name: 'Горный кросс-112',
         type: 'ROGAINE',
-        fmt: '5, 3',
+        fmt: '5, 2',
+        link: 'https://o-site.spb.ru/race.php?id=260221R',
         reg: 'https://orgeo.ru/event/48446',
         map: 'lembolovo_orekhovo_gk_2024',
         start: 'GORNY_CROSS'
