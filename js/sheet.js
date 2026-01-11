@@ -103,7 +103,7 @@ function renderMapsTable() {
         if (!isDocumentsPage()) {
             td(m, row, m.area ? m.area.toFixed(2) : '');
             if (!mapsOnStore) {
-                td(m, row, buildGpsLinks(m));
+                td(m, row, buildGpsLinks(m, 'o-gps.gif'));
             }
         }
         if (!isUnknownPage()) {

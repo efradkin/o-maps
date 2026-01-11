@@ -44,8 +44,13 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/49046',
+        res: 'https://t.me/dlitelnyy/436',
+        reskeep: 840,
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24093/',
+        planner: 'KSHN_D',
         owner: 'DLITELNY',
-        map: 'gimnazia_74_2024'
+        map: 'gimnazia_74_2024',
+        me: 'Pro'
     },{
         date: '2026-01-10',
         place: 'Силанде',

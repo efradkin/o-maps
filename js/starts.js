@@ -392,7 +392,8 @@ let starts = {
     KMPT_ROGAINE: {
         short: 'Компот-рогейн',
         name: '<a href="https://www.x-lite.run/">Компот-рогейн</a>',
-        logo: 'kmpt-rogaine.jpg'
+        logo: 'kmpt-rogaine.jpg',
+        rogaine: true
     },
     MSK_LIGHT: {
         short: 'Московский лайт',
