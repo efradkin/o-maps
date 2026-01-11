@@ -122,7 +122,7 @@ let events_2026 =
         fmt: 'эстафета',
         owner: 'SFSO_SPB'
     }, {
-        date: '2025-02-07',
+        date: '2026-02-07',
         place: 'Луга, оз. Штоль',
         name: 'ЛужSki рогейн',
         type: ['ROGAINE','SKI'],
@@ -236,6 +236,14 @@ let events_2026 =
         map: 'peterhof_spbgu_2024',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-04-25',
+        name: 'Лужский весенний рогейн',
+        place: 'Луга, оз Омчино',
+        type: 'ROGAINE',
+        fmt: '4',
+        map: 'toloni_2025',
+        owner: 'SHBN'
+    },{
         date: '2026-04-26',
         name: 'ЧиП СПб',
         place: 'Пушкинский р-он',
@@ -251,8 +259,8 @@ let events_2026 =
         reg: 'https://orgeo.ru/event/44669'
     },{
         date: '2026-05-02',
-        place: 'Луга',
-        name: 'Горный кросс',
+        place: 'Луга, оз Омчино',
+        name: 'Горный кросс-113',
         type: 'ROGAINE',
         fmt: '5(4), 2',
         map: 'luga_omchino_gk_2023',
@@ -351,6 +359,7 @@ let events_2026 =
         date: '2026-05-30',
         name: 'BikeAdventure',
         type: 'ROGAINE',
+        fmt: '24, 6',
         link: 'https://vk.com/bikeadventure',
         start: 'BA'
     },{
@@ -368,7 +377,7 @@ let events_2026 =
     },{
         date: '2026-06-06',
         place: 'Кузнечное',
-        name: 'Горный кросс',
+        name: 'Горный кросс-114',
         type: 'ROGAINE',
         fmt: '24, 8(7), 3',
         map: 'kuznechnoe_2009',
@@ -379,6 +388,15 @@ let events_2026 =
         type: 'ORIENT',
         fmt: 'лонг-масстарт',
         owner: 'DLITELNY'
+    }, {
+        date: '2026-06-13',
+        place: 'Сортавала',
+        name: 'RED FOX ADVENTURE RACE',
+        fmt: '12, 24, 48',
+        type: 'MULTI',
+        link: 'https://adventure-race.redfox.ru/docs/rules/',
+        reg: 'https://adventure-race.redfox.ru/applications/',
+        start: 'RFAR',
     },{
         date: '2026-06-13',
         name: 'Эстафета "Пирамида"',
@@ -412,6 +430,22 @@ let events_2026 =
         map: 'peski_2001',
         start: 'MMS'
     },{
+        date: '2026-06-27',
+        name: 'HARD ROGAINE | Ladoga',
+        place: 'Ладожское оз',
+        link: 'http://hardadventure.ru/ladoga2026',
+        type: ['ROGAINE','WATER'],
+        fmt: '4,6,12',
+        map: 'kuznechnoe_hard_2024',
+        start: 'HARD'
+    },{
+        date: '2026-06-27',
+        name: 'Рогейн на холмах Яппиля',
+        place: 'Яппиля',
+        type: 'ROGAINE',
+        fmt: '4',
+        owner: 'SHBN'
+    },{
         date: '2026-07-04',
         endDate: '2026-07-06',
         name: 'Белые ночи, Чемпионат СЗФО',
@@ -421,7 +455,7 @@ let events_2026 =
     },{
         date: '2026-07-04',
         place: 'Орехово',
-        name: 'Горный кросс',
+        name: 'Горный кросс-115',
         type: 'ROGAINE',
         fmt: '6(5), 3',
         map: 'lembolovo_orekhovo_gk_2024',
@@ -442,12 +476,50 @@ let events_2026 =
         type: 'ORIENT',
         map: 'koyonsaari_2024',
         owner: 'WN'
+    }, {
+        date: '2026-07-12',
+        name: 'Рогейн 110%',
+        fmt:  '4',
+        type: 'ROGAINE',
+        start: 'ROGAINE_110'
     },{
-        date: '2026-07-18',
+        date: '2026-07-25',
+        place: 'оз Малые Толони',
         name: 'Лужский приключенческий рогейн',
         info: '"Трое из Простоквашино"',
         type: 'ROGAINE',
+        fmt: '24, 6',
         owner: 'SHBN'
+    },{
+        date: '2026-08-08',
+        place: 'Зеленогорск, Ламмин-Суо',
+        name: 'Кубок коротких рогейнов №3',
+        type: 'ROGAINE',
+        fmt: '4',
+        owner: 'SHBN'
+    }, {
+        date: '2026-08-08',
+        place: 'Мичуринское',
+        name: 'HARD ROGAINE | SWAMP',
+        fmt:  '5(4)',
+        type: 'ROGAINE',
+        link: 'https://hardadventure.ru/swamp2026',
+        start: 'HARD'
+    }, {
+        date: '2026-08-22',
+        place: 'Выборг',
+        major: true,
+        name: 'Чемпионат России по рогейну',
+        fmt:  '24',
+        type: 'ROGAINE',
+        owner: 'MULTSPORT'
+    }, {
+        date: '2026-08-22',
+        place: 'Выборг',
+        name: 'Выборгский летний рогейн (КЛО)',
+        fmt:  '8',
+        type: 'ROGAINE',
+        owner: 'MULTSPORT'
     },{
         date: '2026-08-09',
         name: 'ЧиП СПб',
@@ -497,7 +569,7 @@ let events_2026 =
         type: 'ORIENT',
         owner: 'SFSO_SPB'
     },{
-        date: '2026-09-19',
+        date: '2026-09-18',
         name: 'Велоизоляция',
         type: ['ROGAINE','VELO'],
         fmt: '8, 4',
@@ -512,7 +584,7 @@ let events_2026 =
     },{
         date: '2026-09-19',
         place: 'Молодёжное',
-        name: 'Горный кросс',
+        name: 'Горный кросс-116',
         type: 'ROGAINE',
         fmt: '5(4), 2',
         map: 'molodezhnoe_gk_2024',
@@ -532,6 +604,13 @@ let events_2026 =
         fmt: 'выбор, классика, спринт',
         owner: 'SFSO_SPB',
         map: 'zerkalny_2002'
+    },{
+        date: '2026-09-26',
+        place: 'Луга, Золотой пляж',
+        name: 'Кубок коротких рогейнов №4',
+        type: 'ROGAINE',
+        fmt: '4',
+        owner: 'SHBN'
     },{
         date: '2026-09-27',
         name: 'Марафон на холмах Яппиля, ЧиП СПб',
@@ -583,6 +662,10 @@ let events_2026 =
         type: 'ORIENT',
         owner: 'NW',
     }, {
+        date: '2026-10-24',
+        name: 'Финал КЛО',
+        type: 'ROGAINE',
+    }, {
         date: '2026-10-25',
         name: '5 Вёрст',
         fmt: 'детская эстафета',
@@ -605,10 +688,18 @@ let events_2026 =
     },{
         date: '2026-11-07',
         place: 'Орехово',
-        name: 'Горный кросс',
+        name: 'Горный кросс-117',
         type: 'ROGAINE',
         fmt: '6(5), 3',
         start: 'GORNY_CROSS'
+    }, {
+        date: '2026-11-14',
+        place: 'Луга, б/о Штоль',
+        name: 'Рогейн на Лужских берегах',
+        fmt: '6',
+        type: 'ROGAINE',
+        map: 'omchino_luzhsky_2022',
+        owner: 'SHBN'
     },{
         date: '2026-11-15',
         name: 'Первенство ГБУ ДО СШОР им. Коренькова',
