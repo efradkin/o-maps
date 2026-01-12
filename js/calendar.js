@@ -131,14 +131,14 @@ function renderMapsTable() {
                 prevYear = y;
                 idx = 0;
             }
-            td(row, buildNumber(evt, idx++));
-            td(row, buildEventDate(evt));
-            td(row, buildEventStart(evt));
-            td(row, buildPlace(evt));
-            td(row, buildEventType(evt, true));
-            td(row, buildEventResults(evt));
-            td(row, buildEventReports(evt, true));
-            td(row, evt.info ?? '');
+            td(evt, row, buildNumber(evt, idx++));
+            td(evt, row, buildEventDate(evt));
+            td(evt, row, buildEventStart(evt));
+            td(evt, row, buildPlace(evt));
+            td(evt, row, buildEventType(evt, true));
+            td(evt, row, buildEventResults(evt));
+            td(evt, row, buildEventReports(evt, true));
+            td(evt, row, evt.info ?? '');
             tbody.appendChild(row);
 
             prevDate = currentDate;
@@ -157,8 +157,11 @@ function buildMonth() {
     }
 }
 
-function td(row, html) {
+function td(evt, row, html) {
     const td = document.createElement('td');
+    if (evt.major) {
+        html = `<b>${html}</b>`;
+    }
     td.innerHTML = html;
     row.appendChild(td);
 }

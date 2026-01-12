@@ -338,6 +338,7 @@ let events_2026 =
     },{
         date: '2026-05-23',
         endDate: '2026-06-01',
+        major: true,
         name: 'Чемпионат России по спорту лиц с поражением ОДА',
         type: 'ORIENT',
         owner: 'SFSO_SPB'
@@ -505,21 +506,6 @@ let events_2026 =
         type: 'ROGAINE',
         link: 'https://hardadventure.ru/swamp2026',
         start: 'HARD'
-    }, {
-        date: '2026-08-22',
-        place: 'Выборг',
-        major: true,
-        name: 'Чемпионат России по рогейну',
-        fmt:  '24',
-        type: 'ROGAINE',
-        owner: 'MULTSPORT'
-    }, {
-        date: '2026-08-22',
-        place: 'Выборг',
-        name: 'Выборгский летний рогейн (КЛО)',
-        fmt:  '8',
-        type: 'ROGAINE',
-        owner: 'MULTSPORT'
     },{
         date: '2026-08-09',
         name: 'ЧиП СПб',
@@ -537,11 +523,20 @@ let events_2026 =
         date: '2026-08-16',
         name: 'Tokma-maps',
         type: 'ORIENT',
-    },{
+    }, {
         date: '2026-08-22',
-        name: 'Чемпионат России',
+        place: 'Выборг',
+        major: true,
+        name: 'Чемпионат России по рогейну',
+        fmt:  '24',
         type: 'ROGAINE',
-        fmt: '24, 8',
+        start: 'MULTSPORT'
+    }, {
+        date: '2026-08-22',
+        place: 'Выборг',
+        name: 'Выборгский летний рогейн (КЛО)',
+        fmt:  '8',
+        type: 'ROGAINE',
         start: 'MULTSPORT'
     },{
         date: '2026-08-22',
