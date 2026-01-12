@@ -319,7 +319,7 @@ let authors = {
         name: 'Родионов Иван',
         logo: 'feniks.webp'
     },
-    RDKV: { name: 'Рудаков В.' },
+    RDKV: { name: 'Рудаков Виктор' },
     RMNTSV_S: { name: 'Румянцев С.' },
     RSKV_S: { name: 'Русаков Сергей' },
     RYLOV_V: {

@@ -248,7 +248,7 @@ let historyDocs = [
         date: '1988-05-20',
         link: './docs/1988/1988_05_20_universiada_omaps.pdf',
         info: '20-23 мая.',
-        planner: ['SGLDA','OSMCHN','BRSV_V','SHRNN','PNKRTV']
+        planner: ['SGLDA','OSMCHN','BRSV_V','SHRNN','PNKRTV_N']
     },
     {
         name: '"Лесной ландыш" (Орехово)',
@@ -438,7 +438,7 @@ let historyDocs = [
         date: '1988-10-01',
         link: './docs/1988/1988_10_01_unions_cup_omaps.pdf',
         info: '1-2 октября.',
-        planner: 'PNKRTV'
+        planner: 'PNKRTV_N'
     },
     {
         name: 'День Конституции СССР',
@@ -1200,6 +1200,80 @@ let historyDocs = [
         name: 'St.Petersburg',
         date: '1994-01-09',
         link: './docs/1994/1994_01_09_spb_cup_omaps.pdf',
+        me: 'H21',
+    },
+    {
+        name: 'Зимняя Универсиада ВУЗов СПб (Токсово)',
+        date: '1993-03-14',
+        link: './docs/1993/1993_03_14_universiada_omaps.pdf',
+        me: 'М',
+    },
+    {
+        name: 'Приз закрытия зимнего сезона, ретро-марафон (Лемболово)',
+        date: '1993-04-04',
+        link: './docs/1993/1993_04_04_close_marathon_omaps.pdf',
+        info: 'Карту можно найти <a href="map-info.html?map=lembolovo_orekhovo_east_1991">тут</a>.',
+        planner: 'PNKRTV_B'
+    },
+    {
+        name: 'Ориентир-1 (Воейково)',
+        date: '1993-04-11',
+        link: './docs/1993/1993_04_11_orientir_1_omaps.pdf',
+        me: 'HA',
+        start: 'ORIENTIR',
+        planner: 'RDKV'
+    },
+    {
+        name: 'Ориентир-12 (парк Челюскинцев)',
+        date: '1993-05-12',
+        link: './docs/1993/1993_05_12_orientir_12_omaps.pdf',
+        me: 'A',
+        start: 'ORIENTIR',
+        planner: 'KNDRSHKN_I'
+    },
+    {
+        name: 'Ориентир (Токсово)',
+        date: '1993-06-02',
+        link: './docs/1993/1993_06_02_orientir_omaps.pdf',
+        me: 'HA',
+        start: 'ORIENTIR'
+    },
+    {
+        name: 'ЧиП СПб, эстафета 3х (Токсово)',
+        date: '1993-06-13',
+        link: './docs/1993/1993_06_13_spb_relay_omaps.pdf',
+        me: 'H21A',
+        planner: 'RYLOV_V'
+    },
+    {
+        name: 'ЧиП СПб, спринт (Васкелово)',
+        date: '1993-07-03',
+        link: './docs/1993/1993_07_03_spb_sprint_omaps.pdf',
+        me: 'H21A',
+    },
+    {
+        name: 'ЧиП СПб (Васкелово)',
+        date: '1993-07-04',
+        link: './docs/1993/1993_07_04_spb_omaps.pdf',
+        me: 'H21A',
+    },
+    {
+        name: 'Зелёный змей (Токсово)',
+        date: '1993-09-05',
+        start: 'GS',
+        link: './docs/1993/1993_09_05_green_snake_omaps.pdf',
+        me: 'М'
+    },
+    {
+        name: 'Чемпионат ВУЗов (Токсово)',
+        date: '1993-10-17',
+        link: './docs/1993/1993_10_17_universities_omaps.pdf',
+        me: '+',
+    },
+    {
+        name: 'Кубок МОЛОДЁЖНОГО (Лемболово)',
+        date: '1993-09-19',
+        link: './docs/1993/1993_09_19_molodezhnoe_cup_omaps.pdf',
         me: 'H21',
     },
     {
