@@ -84,6 +84,7 @@ let events_2026 =
         name: 'Длительный спринт №3',
         type: 'ORIENT',
         fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/49111',
         owner: 'DLITELNY',
     },{
         date: '2026-01-17',
@@ -91,6 +92,7 @@ let events_2026 =
         place: 'Орехово',
         name: 'ЧиП СПб',
         link: 'https://o-site.spb.ru/race.php?id=26011718',
+        reg: ['http://o-reg.spb.ru/?filter[day_id]=1710','http://o-reg.spb.ru/?filter[day_id]=1711'],
         type: 'SKI',
         fmt: 'маркир,классика',
         owner: 'SFSO_SPB'

@@ -2,7 +2,6 @@
 /*   CONSTANTS   */
 const DAY_TIME_RANGE = 1000 * 60 * 60 * 24;
 const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
-const TWO_WEEKs_TIME_RANGE = DAY_TIME_RANGE * 7 * 2;
 
 const regions = {
     LNGRD: 'Ленинград',
@@ -855,7 +854,7 @@ function isOutdated(date) {
 
 function isActual(date) {
     const now = new Date();
-    return !isOutdated(date) && (date - now < TWO_WEEKs_TIME_RANGE);
+    return !isOutdated(date) && (date - now < WEEK_TIME_RANGE);
 }
 
 function validateEvent(evt) {
@@ -941,20 +940,35 @@ function buildEventStart(event, withoutLogo) {
 }
 
 function buildEventReg(event) {
-    if (event.reg.includes('orgeo')) {
-        return buildLink(event.reg, 'Orgeo');
-    } else if (event.reg.includes('o-reg')) {
-        return buildLink(event.reg, 'O-Reg');
-    } else if (event.reg.includes('vk.com')) {
-        return buildLink(event.reg, 'VK');
-    } else if (event.reg.includes('o-time')) {
-        return buildLink(event.reg, 'O-Time');
-    } else if (event.reg.includes('multsport')) {
-        return buildLink(event.reg, 'Multsport');
-    } else if (event.reg.includes('sportident')) {
-        return buildLink(event.reg, 'Sportident');
+    let reg = '';
+    if (Array.isArray(event.reg)) {
+        for (const r of event.reg) {
+            if (reg) {
+                reg += ', ';
+            }
+            reg += buildOneEventReg(r) + ' ';
+        }
+    } else {
+        reg = buildOneEventReg(event.reg);
     }
-    return buildLink(event.reg, '<img src="./images/url-file.png" />');
+    return reg;
+}
+
+function buildOneEventReg(reg) {
+    if (reg.includes('orgeo')) {
+        return buildLink(reg, 'Orgeo');
+    } else if (reg.includes('o-reg')) {
+        return buildLink(reg, 'O-Reg');
+    } else if (reg.includes('vk.com')) {
+        return buildLink(reg, 'VK');
+    } else if (reg.includes('o-time')) {
+        return buildLink(reg, 'O-Time');
+    } else if (reg.includes('multsport')) {
+        return buildLink(reg, 'Multsport');
+    } else if (reg.includes('sportident')) {
+        return buildLink(reg, 'Sportident');
+    }
+    return buildLink(reg, '<img src="./images/url-file.png" />');
 }
 
 function buildEventResults(evt) {
