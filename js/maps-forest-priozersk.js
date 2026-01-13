@@ -131,6 +131,16 @@ let priozerskMaps = [
     },
     {
         name: 'Кузнечное, оз Волковское-Суури',
+        year: 1978,
+        info: 'Многодневные соревнования, посвящённые 61-ой годовщине Великого Октября. Первая карта в районе Кузнечного.',
+        url: './maps/forest/priozersk/kuznechnoe_suuri_1978.webp',
+        link: './original_maps/forest/priozersk/kuznechnoe_suuri_1978_omaps.jpg',
+        bounds: [[61.1415368315689, 29.910793304443363], [61.13739396236131, 29.939160346984867], [61.131157919577575, 29.90362644195557]],
+        author: ['VLKV_K','OVCHNNKV'],
+        logo: 'ovchnkv.jpg'
+    },
+    {
+        name: 'Кузнечное, оз Волковское-Суури',
         year: 1979,
         url: './maps/forest/priozersk/kuznechnoe_suuri_1979.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1979_omaps.jpg',
