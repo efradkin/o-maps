@@ -35,7 +35,7 @@ a, a:active, a:focus {
         text-align: center !important;
     }
     img {
-        margin: 20px;
+        margin: 10px;
     }
 }
 
@@ -438,6 +438,17 @@ label:has(> span span .layer-separator) {
     padding: 20px;
 }
 
+/* --- tabs --- */
+ul.nav.nav-tabs {
+    margin-left: 30px;
+}
+button.nav-link {
+    font-weight: bold;
+}
+.tab-content section {
+    text-align: left;
+}
+
 /* --- SHEETS --- */
 #year-column {
     text-align: end;
@@ -672,6 +683,10 @@ body.integration-body {
     }
 }
 @media screen and (max-width : 600px) {
+    body.integration-body .container {
+        width: 100%;
+        margin-left: 0;
+    }
     .sheet-body {
         width: inherit;
         height: inherit;
