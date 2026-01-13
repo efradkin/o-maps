@@ -242,6 +242,20 @@ let runTracks = [
         type: ['RUN']
     },
     {
+        name: 'Силанде трейл',
+        date: '2025-09-28',
+        link: 'https://atrails.ru/silande/',
+        results: 'https://reg.o-time.ru/race/25205',
+        info: 'Заброшенный горнолыжный склон , сказочные ручейки на дне глубоких лощин. Всё очень красиво и немного необычно, всего в 30 минутах от КАД.',
+        gpx: {
+            'LONG, 18km':'tracks/run/silande_atrails_2025_long_omaps.gpx',
+            'CLASSIC, 11km':'tracks/run/silande_atrails_2025_classic_omaps.gpx',
+            'FUN, 5km':'tracks/run/silande_atrails_2025_fun_omaps.gpx',
+        },
+        start: 'ATRAILS',
+        type: ['RUN']
+    },
+    {
         name: 'Hero League Trail',
         date: '2022-07-02',
         link: 'https://heroleague.ru/trail',

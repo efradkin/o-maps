@@ -553,4 +553,10 @@ let skiTracks = [
         ski_kind: 'FURROW',
         type: ['SKI']
     },
+    {
+        name: 'Силанде',
+        gpx: 'tracks/ski/silande_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
 ];
