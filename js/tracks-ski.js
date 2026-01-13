@@ -47,11 +47,20 @@ let skiTracks = [
         type: ['SKI']
     },
     {
+        name: 'Петергофское ш, Дудергофский кан',
+        info: 'Подготавливается ЦФКСиЗ Красносельского района.',
+        gpx: 'tracks/ski/petergofsky_dudergofsky_ski_omaps.gpx',
+        ski_kind: 'CLASSIC_ROUTE',
+        type: ['SKI'],
+        logo: 'krasnoselsky.gif'
+    },
+    {
         name: 'Полежаевский парк',
         info: 'Единственная лыжная трасса с хоть сколько-то заметным рельефом на юге города.',
         gpx: 'tracks/ski/polezhaevsky_park_ski_omaps.gpx',
         ski_kind: 'FICKLE_ROUTE',
-        type: ['SKI']
+        type: ['SKI'],
+        logo: 'krasnoselsky.gif'
     },
     {
         name: 'парк им.акд.Сахарова',
@@ -266,7 +275,7 @@ let skiTracks = [
         date: '2025-01-24',
         link: 'https://www.multsport.ru/starts/orehovo-12km25/',
         results: 'https://reg.o-time.ru/race/25061',
-        info: '1.3-26км',
+        info: '1.3-26км. Основной Ореховский спортивный круг.',
         gpx: {
             '13km':'tracks/ski/orekhovo_12_ski_omaps.gpx',
             '5km':'tracks/ski/orekhovo_5_ski_omaps.gpx'
@@ -471,6 +480,7 @@ let skiTracks = [
     {
         name: 'Ломоносов, стд Спартак',
         gpx: 'tracks/ski/lomonosov_spartak_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
     {
