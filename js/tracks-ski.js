@@ -469,6 +469,11 @@ let skiTracks = [
         type: ['SKI']
     },
     {
+        name: 'Ломоносов, стд Спартак',
+        gpx: 'tracks/ski/lomonosov_spartak_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
         name: 'Ломоносов, гольф-клуб "Strawberry Fields"',
         link: 'https://vk.com/sfgolfclub',
         info: 'Трасса мягкая, готовят бороной, подъёмов нет, душ, раздевалка, парковка. Платно.',

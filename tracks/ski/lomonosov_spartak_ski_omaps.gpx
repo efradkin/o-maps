@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="StravaGPX" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>lomonosov_spartak_ski_omaps</name>
+    <author>
+      <name>gpx.studio</name>
+      <link href="https://gpx.studio"/>
+    </author>
+  </metadata>
+  <trk>
+    <name>лыжи2023/#7 стадион Спартак</name>
+    <type>NordicSki</type>
+    <trkseg>
+      <trkpt lat="59.908447" lon="29.76555">
+        <ele>31.5</ele>
+      </trkpt>
+      <trkpt lat="59.908555" lon="29.765288">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="59.908613" lon="29.76492">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="59.908624" lon="29.764848">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="59.908636" lon="29.764743">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="59.908653" lon="29.764591">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="59.908645" lon="29.764402">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="59.908566" lon="29.764339">
+        <ele>31</ele>
+      </trkpt>
+      <trkpt lat="59.90853" lon="29.764333">
+        <ele>31.1</ele>
+      </trkpt>
+      <trkpt lat="59.908379" lon="29.764291">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.908339" lon="29.764283">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.908118" lon="29.764205">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="59.90795" lon="29.76415">
+        <ele>29.9</ele>
+      </trkpt>
+      <trkpt lat="59.907838" lon="29.764122">
+        <ele>29.4</ele>
+      </trkpt>
+      <trkpt lat="59.907711" lon="29.764083">
+        <ele>28.7</ele>
+      </trkpt>
+      <trkpt lat="59.907564" lon="29.764062">
+        <ele>28.6</ele>
+      </trkpt>
+      <trkpt lat="59.90741" lon="29.764117">
+        <ele>28.6</ele>
+      </trkpt>
+      <trkpt lat="59.907374" lon="29.76416">
+        <ele>28.9</ele>
+      </trkpt>
+      <trkpt lat="59.907272" lon="29.764339">
+        <ele>29.6</ele>
+      </trkpt>
+      <trkpt lat="59.907213" lon="29.764514">
+        <ele>29.6</ele>
+      </trkpt>
+      <trkpt lat="59.907195" lon="29.764914">
+        <ele>29.6</ele>
+      </trkpt>
+      <trkpt lat="59.907237" lon="29.765088">
+        <ele>30.2</ele>
+      </trkpt>
+      <trkpt lat="59.907292" lon="29.765265">
+        <ele>30.6</ele>
+      </trkpt>
+      <trkpt lat="59.907355" lon="29.765395">
+        <ele>31</ele>
+      </trkpt>
+      <trkpt lat="59.907401" lon="29.765461">
+        <ele>31.5</ele>
+      </trkpt>
+      <trkpt lat="59.90743" lon="29.765485">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.907469" lon="29.765504">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.907536" lon="29.765528">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.9076" lon="29.765547">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.907702" lon="29.765567">
+        <ele>31.4</ele>
+      </trkpt>
+      <trkpt lat="59.907773" lon="29.765557">
+        <ele>31</ele>
+      </trkpt>
+      <trkpt lat="59.907946" lon="29.765504">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.907981" lon="29.765498">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.908017" lon="29.765508">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.908157" lon="29.765539">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.908235" lon="29.765555">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.908277" lon="29.765551">
+        <ele>31.6</ele>
+      </trkpt>
+      <trkpt lat="59.908427" lon="29.76553">
+        <ele>31.6</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
