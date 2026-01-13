@@ -64,8 +64,8 @@ let priozerskMaps = [
         name: 'Васильево',
         year: 2002,
         url: './maps/forest/priozersk/vasilievo_2002.webp',
-        link: './original_maps/forest/priozersk/vasilievo_2002_omaps.jpg',
-        bounds: [[60.87174426906526, 29.8214864730835], [60.86978057310173, 29.845819473266605], [60.854317471753944, 29.817366600036625]],
+        link: './original_maps/forest/priozersk/vasilievo_2002_omaps.gif',
+        bounds: [[60.871890496911746, 29.822387695312504], [60.87028195376524, 29.844317436218265], [60.85423386707908, 29.817624092102054]],
         author: 'VRBY',
         owner: 'VESTA_PRIOZERSK'
     },
