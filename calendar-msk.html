@@ -59,7 +59,7 @@
         <select id="event_type_selector" class="header_selector" onchange="selectEventType(this.value, 'msk')">
             <option value="ALL">все старты</option>
             <option value="ORIENT">Ориент</option>
-            <option value="ROGAINE">Рогейн</option>
+            <option value="ROGAINE">Рогейн итп</option>
             <option value="SKI">Лыжи</option>
             <option value="VELO">Вело</option>
             <option value="OTHER">Прочее</option>
@@ -87,7 +87,14 @@
         </select>
 -->
     </h1>
-    <h2>Календарь о-стартов Москвы</h2>
+    <h2>
+        Календарь о-стартов Москвы
+
+        <sup id="header_checkbox_container">
+            <input type="checkbox" id="only-major" name="only-major" onclick="switchRus(this.checked);" />
+            <label for="only-major">только важные</label>
+        </sup>
+    </h2>
 
     <div class="container">
         <section>Если Вашего старта нет в таблице, или Вы знаете ссылки на фото, видео и гпс-трансляции для стартов, которые тут уже есть, <a href="help/contacts.html">сообщите мне</a>, и я добавлю. Спасибо заранее!</section>
@@ -118,6 +125,7 @@
 
     <script src="js/calendar-msk-2025.js"></script>
     <script src="js/calendar-msk-2026.js"></script>
+    <script src="js/calendar-major-2026.js"></script>
 
     <script src="js/maps-moscow.js"></script>
 
@@ -141,6 +149,7 @@
         let oEvents = [
             ...mskEvents2025,
             ...mskEvents2026,
+            ...majorEvents2026,
         ];
     </script>
     <script src="js/calendar.js"></script>

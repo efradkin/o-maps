@@ -1,0 +1,303 @@
+let majorEvents2026 =
+[
+    {
+        date: '2026-01-03',
+        endDate: '2026-01-11',
+        place: 'Пермский край, Горнозаводск',
+        name: 'Кубок России, маркир',
+        major: true,
+        type: 'SKI',
+        fmt: 'маркир, эстафета, комбинация, лонг, классика',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-01-15',
+        endDate: '2026-01-20',
+        place: 'Пермь',
+        name: 'Кубок России',
+        major: true,
+        type: 'SKI',
+        fmt: 'спринт, многодневная, лонг',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-02-19',
+        endDate: '2026-02-24',
+        place: 'Красноярский край, Подгорный',
+        name: 'Чемпионат России',
+        major: true,
+        type: 'SKI',
+        fmt: 'маркир, эстафета 3х, комбинация, лонг',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-03-01',
+        endDate: '2026-03-06',
+        place: 'Rusutsu, Hokkaido, JAPAN',
+        name: 'Чемпионат Мира (SKI-WOC)',
+        major: true,
+        type: 'SKI',
+        fmt: 'sprint, pursuit, middle, sprint relay',
+        owner: 'IOF'
+    },
+    {
+        date: '2026-03-15',
+        endDate: '2026-03-21',
+        place: 'Коми, Сыктывкар',
+        name: 'Чемпионат России, лично-командные',
+        major: true,
+        type: 'SKI',
+        fmt: 'классика, эстафета 3х, спринт, марафон',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-04-23',
+        endDate: '2026-04-27',
+        place: 'Ставропольский край, Железноводск',
+        name: 'Кубок России',
+        major: true,
+        type: 'VELO',
+        fmt: 'многодневные, эстафета 2х',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-04-24',
+        endDate: '2026-04-26',
+        place: 'Locarno Switzerland',
+        name: 'Первый тур Кубка мира (World Cup)',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'sprint, sprint relay knock-out sprint',
+        owner: 'IOF'
+    },
+    {
+        date: '2026-05-12',
+        endDate: '2026-05-18',
+        place: 'Иркутск',
+        name: 'Чемпионат России',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'спринт, спринт-масстарт, эстафета 2х, эстафета 4х',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-05-22',
+        endDate: '2026-05-28',
+        place: 'Португалия',
+        name: 'Чемпионат Европы (EMTBOC)',
+        major: true,
+        type: 'VELO',
+        owner: 'IOF'
+    },
+    {
+        date: '2026-05-28',
+        endDate: '2026-05-31',
+        place: 'Skara-Lidköping Sweden',
+        name: 'Второй тур Кубка мира (World Cup)',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'knock-out sprint, sprint, sprint relay',
+        owner: 'IOF'
+    },
+    {
+        date: '2026-05-28',
+        endDate: '2026-06-01',
+        place: 'Челябинск',
+        name: 'Кубок России, лично-командные',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'эстафета 2х, эстафета 3х, эстафета 4х',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-06-04',
+        endDate: '2026-06-08',
+        place: 'Нижегородская обл, Вача',
+        name: 'Кубок России',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'классика, лонг, многодневный',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-06-25',
+        endDate: '2026-06-29',
+        place: 'Нижний Новгород',
+        name: 'Чемпионат России',
+        major: true,
+        type: 'VELO',
+        fmt: 'многодневные, эстафета 2х',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-06-27',
+        endDate: '2026-06-28',
+        place: 'Orlické Záhoří, Czech Republic',
+        name: 'European Rogaininig Championship (ERC)',
+        link: 'https://www.o-adventure.cz/stranka.php?co=2026erc',
+        major: true,
+        type: 'ROGAINE',
+        fmt: '24',
+        owner: 'IRF'
+    },
+    {
+        date: '2026-07-06',
+        endDate: '2026-07-11',
+        place: 'Италия',
+        name: 'Чемпионат мира (WOC)',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'sprint, knock-out, sprint relay',
+        owner: 'IOF'
+    },
+    {
+        date: '2026-08-06',
+        endDate: '2026-08-09',
+        place: 'Vyšší Brod, Czechia',
+        name: 'Третий тур Кубка мира (World Cup)',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'long, middle, relay',
+        owner: 'IOF'
+    },
+/*
+    {
+        date: '2026-08-06',
+        endDate: '2026-08-10',
+        place: 'Зеленоград',
+        name: 'Первенство России',
+        major: true,
+        link: 'https://t.me/ruschamp_mosoroient',
+        type: 'ORIENT',
+        fmt: 'классика, лонг, эстафета 3х',
+        owner: 'FSOR'
+    },
+*/
+    {
+        date: '2026-08-08',
+        endDate: '2026-08-14',
+        place: 'Rzeszów-Przeworsk, Poland',
+        name: 'Чемпионат мира среди ветеранов (WMOC)',
+        major: true,
+        type: 'ORIENT',
+        owner: 'IOF'
+    },
+    {
+        date: '2026-08-22',
+        place: 'Выборг',
+        major: true,
+        name: 'Чемпионат России по рогейну',
+        link: 'https://rogaining.ru/events/calendar/event/754-rrc2026',
+        fmt:  '24',
+        type: 'ROGAINE',
+        start: 'MULTSPORT'
+    },
+    {
+        date: '2026-08-25',
+        endDate: '2026-08-30',
+        place: 'Швеция',
+        name: 'Чемпионат мира (WMTBOC)',
+        major: true,
+        type: 'VELO',
+        owner: 'IOF'
+    },
+    {
+        date: '2026-09-02',
+        endDate: '2026-09-07',
+        place: 'Московская обл, Химки',
+        name: 'Чемпионат России, лично-командные',
+        major: true,
+        type: 'VELO',
+        fmt: 'спринт, лонг, эстафета 3х, масстарт',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-09-09',
+        endDate: '2026-09-14',
+        place: 'Тверская обл, Вышний Волочек',
+        name: 'Кубок России',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'масстарт, лонг-масстарт, марафон',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-09-09',
+        endDate: '2026-09-13',
+        place: 'Великобритания',
+        name: 'Чемпионат мира среди ветеранов (WMMTBOC)',
+        major: true,
+        type: 'VELO',
+        owner: 'IOF'
+    },
+    {
+        date: '2026-09-16',
+        endDate: '2026-09-21',
+        place: 'Новосибирск',
+        name: 'Кубок России',
+        major: true,
+        type: 'VELO',
+        fmt: 'спринт, лонг, эстафета 3х, масстарт',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-09-22',
+        endDate: '2026-09-28',
+        place: 'Удмуртия, Якшур-Бодья',
+        name: 'Чемпионат России, лично-командные',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'классика, лонг, многодневный, эстафета 3х',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-09-24',
+        endDate: '2026-09-27',
+        place: 'Druskininkai, Lithuania',
+        name: 'Финальный тур Кубка мира (World Cup)',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'long, middle, relay',
+        owner: 'IOF'
+    },
+    {
+        date: '2026-10-15',
+        endDate: '2026-10-19',
+        place: 'Калининград',
+        name: 'Кубок России, спринт',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'выбор, спринт, спринт-масстарт',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-11-01',
+        endDate: '2026-11-07',
+        place: 'Ставрополь',
+        name: 'Чемпионат России',
+        major: true,
+        type: 'ORIENT',
+        fmt: 'выбор, лонг, масстарт, марафон',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-12-10',
+        endDate: '2026-12-15',
+        place: 'Алтай, Семинский перевал',
+        name: 'Кубок России',
+        major: true,
+        type: 'SKI',
+        fmt: 'эстафета 2х, классика, марафон',
+        owner: 'FSOR'
+    },
+    {
+        date: '2026-12-17',
+        endDate: '2026-12-23',
+        place: 'Алтай, Семинский перевал',
+        name: 'Чемпионат России',
+        major: true,
+        type: 'SKI',
+        fmt: 'масстарт, многодневная, эстафета 2х, классика, лонг-масстарт',
+        owner: 'FSOR'
+    },
+];

@@ -61,7 +61,7 @@
         <select id="event_type_selector" class="header_selector" onchange="selectEventType(this.value)">
             <option value="ALL">все старты</option>
             <option value="ORIENT">Ориент</option>
-            <option value="ROGAINE">Рогейн</option>
+            <option value="ROGAINE">Рогейн итп</option>
             <option value="SKI">Лыжи</option>
             <option value="VELO">Вело</option>
             <option value="OTHER">Прочее</option>
@@ -89,7 +89,14 @@
         </select>
 -->
     </h1>
-    <h2>Календарь о-стартов СПб</h2>
+    <h2>
+        Календарь о-стартов СПб
+
+        <sup id="header_checkbox_container">
+            <input type="checkbox" id="only-major" name="only-major" onclick="switchRus(this.checked);" />
+            <label for="only-major">только важные</label>
+        </sup>
+    </h2>
 
     <div class="o-sheet-roof">
         <a href="#" onclick="downloadSheetTable('o-maps-calendar.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
@@ -116,6 +123,7 @@
 
     <script src="js/calendar-2025.js"></script>
     <script src="js/calendar-2026.js"></script>
+    <script src="js/calendar-major-2026.js"></script>
 
     <script src="js/maps-starts-schools.js"></script>
     <script src="js/maps-city.js"></script>
@@ -173,8 +181,9 @@
         ];
 
         let oEvents = [
-            ...events_2025,
-            ...events_2026,
+            ...events2025,
+            ...events2026,
+            ...majorEvents2026,
         ];
     </script>
     <script src="js/calendar.js"></script>

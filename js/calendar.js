@@ -3,17 +3,36 @@ const EVENT_TYPE_PARAM = urlParams.get('event-type');
 const EVENT_MONTH_PARAM = urlParams.get('event-month');
 const CALENDAR_NAME_PARAM = urlParams.get('calendar');
 
+let onlyMajor = false;
+let major = localStorage.getItem('onlyMajor');
+if (major != null) {
+    onlyMajor = (major === 'true');
+}
+if (onlyMajor) {
+    document.getElementById('only-major').checked = 'checked';
+}
+function switchRus(value) {
+    localStorage.setItem('onlyMajor', value);
+    location.reload();
+}
+
 // Фильтрация массива. Оставляем только эвенты, соответствующие критерию запроса (есди он задан).
+if (onlyMajor) {
+    oEvents = oEvents.filter(event => event.major);
+}
 if (EVENT_TYPE_PARAM && ('ALL' !== EVENT_TYPE_PARAM)) {
     oEvents = oEvents.filter(event => {
+        if (onlyMajor && !event.major) {
+            return false;
+        }
         if ('ROGAINE' === EVENT_TYPE_PARAM) {
-            return isRogaine(event);
+            return isRogaine(event) || event.type.includes('MULTI') || event.start === 'MB';
         }
         if ('ORIENT' === EVENT_TYPE_PARAM) {
             return event.type.includes('ORIENT');
         }
         if ('OTHER' === EVENT_TYPE_PARAM) {
-            return !event.type.includes('ORIENT') && !event.type.includes('VELO') && !event.type.includes('SKI') && !isRogaine(event);
+            return !event.type.includes('ORIENT') && !event.type.includes('VELO') && !event.type.includes('SKI') && !event.type.includes('MULTI') && !isRogaine(event) && event.start !== 'MB';
         }
         if ('SKI' === EVENT_TYPE_PARAM) {
             return event.type.includes('SKI');
@@ -43,10 +62,11 @@ if (EVENT_MONTH_PARAM && ('0' !== EVENT_MONTH_PARAM)) {
 }
 
 window.onload = function() {
-    /*
-                oEvents.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
-                    .sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)));
-    */
+
+    // сортировка стартов
+    oEvents.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
+        .sort((a, b) => dateForCompare(a) - dateForCompare(b));
+
     // Навешиваем обработчик на заголовок таблицы
     document.querySelectorAll('th.sortable').forEach(
         (element) => {

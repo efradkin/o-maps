@@ -1,4 +1,4 @@
-let events_2025 =
+let events2025 =
 [
     {
         date: '2025-01-07',

@@ -1,4 +1,4 @@
-let events_2026 =
+let events2026 =
 [
     {
         date: '2026-01-04',
@@ -47,6 +47,7 @@ let events_2026 =
         res: 'https://t.me/dlitelnyy/436',
         reskeep: 840,
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24093/',
+        info: '<a href="https://t.me/dlitelnyy/437">Разбор дистанций</a>.',
         planner: 'KSHN_D',
         owner: 'DLITELNY',
         map: 'gimnazia_74_2024',
@@ -80,10 +81,11 @@ let events_2026 =
         owner: 'SFSO_LO'
     },{
         date: '2026-01-17',
-        place: 'САМПО',
+        place: 'Выборгский р-он, САМПО',
         name: 'Длительный спринт №3',
         type: 'ORIENT',
         fmt: 'спринт',
+        link: 'https://t.me/dlitelnyy/440',
         reg: 'https://orgeo.ru/event/49111',
         owner: 'DLITELNY',
     },{
@@ -525,14 +527,6 @@ let events_2026 =
         date: '2026-08-16',
         name: 'Tokma-maps',
         type: 'ORIENT',
-    }, {
-        date: '2026-08-22',
-        place: 'Выборг',
-        major: true,
-        name: 'Чемпионат России по рогейну',
-        fmt:  '24',
-        type: 'ROGAINE',
-        start: 'MULTSPORT'
     }, {
         date: '2026-08-22',
         place: 'Выборг',
