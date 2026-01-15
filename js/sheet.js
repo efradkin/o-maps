@@ -5,17 +5,31 @@ let hasPlanners = false;
 
 window.onload = function() {
 
+    function filterYear(year) {
+        if (!YEAR_PARAM || YEAR_PARAM === 'ALL') {
+            return true;
+        }
+        if (!year) {
+            return false;
+        }
+        switch (YEAR_PARAM) {
+            case 'LATE': return year >= 2000;
+            case 'EARLY': return year < 1988;
+            case '1992-1999': return year <= 1999 && year >= 1992;
+        }
+        return YEAR_PARAM === year.toString();
+    }
+
     if (YEAR_PARAM && isDocumentsPage()) {
         oMaps = oMaps.filter(m => {
-            let y = year(m);
-            return (y && YEAR_PARAM === y.toString());
+            return filterYear(year(m));
         });
     }
 
     if (!isUnknownPage()) {
-        oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
-            .sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)));
         if (!isDocumentsPage()) {
+            oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
+                .sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)));
             oMaps.sort((a, b) => (a.name || '').localeCompare((b.name || '')));
         }
     }
@@ -44,6 +58,11 @@ window.onload = function() {
         document.querySelector('.o-sheet').classList.add("start-sheet");
         let th = document.getElementById(isUnknownPage() ? 'name-column' : 'year-column');
         th.click();
+        th.click();
+    }
+    if (YEAR_PARAM && isDocumentsPage()) {
+        let selector = document.getElementById('year_selector');
+        selector.value = YEAR_PARAM;
     }
 }
 

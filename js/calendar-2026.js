@@ -114,6 +114,13 @@ let events2026 =
         fmt: 'спринт',
         owner: 'DLITELNY',
     },{
+        date: '2026-01-25',
+        place: 'Полюстровский парк',
+        name: 'Кубок Красногвардейского р-на',
+        type: 'SKI',
+        fmt: 'спринт',
+        owner: 'RDNV_I'
+    },{
         date: '2026-01-31',
         name: 'ЧиП СПб',
         type: 'SKI',

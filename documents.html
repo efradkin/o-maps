@@ -53,6 +53,17 @@
             <option value="tracks">Маршруты</option>
             <option value="calendar">Календарь о-стартов</option>
         </select>
+
+        <select id="year_selector" class="header_selector" onchange="selectYear(this.value)">
+            <option value="ALL">Все годы</option>
+            <option value="LATE">2000-е</option>
+            <option value="1992-1999">1992-1999</option>
+            <option value="1991">1991</option>
+            <option value="1990">1990</option>
+            <option value="1989">1989</option>
+            <option value="1988">1988</option>
+            <option value="EARLY">Ранние</option>
+        </select>
     </h1>
     <h2 class="text-center">Сканы различных документов (протоколы, бюллетени, буклеты, карты и пр.)</h2>
 
@@ -101,6 +112,14 @@
             ...historyDocs,
         ];
         writeWelcomeButton();
+
+        function selectYear(year) {
+            if (year === 'ALL') {
+                location.href = './documents.html';
+            } else {
+                location.href = './documents.html?year=' + year;
+            }
+        }
     </script>
 
     <script src="js/map-build.js"></script>

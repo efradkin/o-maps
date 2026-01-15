@@ -764,6 +764,12 @@ let historyDocs = [
         link: './docs/1989/1989_11_26_zelenogorsk_omaps.pdf',
     },
     {
+        name: 'Ранг летнего сезона г.Ленинграда, мужчины',
+        year: 1990,
+        link: './docs/1990/1990_rank_summer_men_omaps.pdf',
+        me: 'М'
+    },
+    {
         name: 'Журнал "Невский Азимут" №1',
         major: true,
         year: 1990,
@@ -804,6 +810,20 @@ let historyDocs = [
         date: '1990-08-26',
         link: './docs/1990/1990_08_26_green_snake_omaps.pdf',
         start: 'GS',
+    },
+    {
+        name: 'Чемпионат Ленинграда (Сосново)',
+        date: '1990-09-15',
+        link: './docs/1990/1990_09_15_leningrad_omaps.pdf',
+        planner: 'LVCHV',
+        me: 'М-15'
+    },
+    {
+        name: 'Чемпионат Ленинграда (69км)',
+        date: '1990-09-16',
+        link: './docs/1990/1990_09_16_leningrad_omaps.pdf',
+        planner: 'LVCHV',
+        me: 'М-15'
     },
     {
         name: '"Дыхание осени" на День Конституции СССР',
@@ -851,6 +871,13 @@ let historyDocs = [
         name: 'Соревнования по эстафете с ориентированием (Токсово)',
         date: '1990-11-18',
         link: './docs/1990/1990_11_18_relay_omaps.pdf',
+    },
+    {
+        name: 'Открытие зимнего сезона в з/н (Колтуши)',
+        date: '1990-12-23',
+        link: './docs/1990/1990_12_23_open_omaps.pdf',
+        planner: 'RYLOV_V',
+        me: 'МБ'
     },
     {
         name: 'Журнал "Невский Азимут" №2',
