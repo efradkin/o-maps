@@ -372,4 +372,37 @@ let wnStartsMaps = [
         bounds: [[60.931078587607594, 30.3178882598877], [60.92909768981922, 30.343422889709476], [60.91203601923127, 30.31213760375977]],
         author: 'MKHLV_A'
     },
+    {
+        name: 'Петяярви',
+        date: '2025-06-28',
+        start: 'WN',
+        info: '<a href="https://o-site.spb.ru/race.php?id=2025_bn">Кросс-лонг</a>',
+        url: './maps/starts/wn/wn_2025_06_28.webp',
+        link: './original_maps/starts/wn/wn_2025_06_28_omaps.jpg',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22979/',
+        bounds: [[60.63035433717011, 30.1051139831543], [60.625428847692, 30.159187316894535], [60.612964420715436, 30.09841918945313]],
+        author: ['MKHLV_A','USNKO']
+    },
+    {
+        name: 'Петяярви',
+        date: '2025-06-29',
+        start: 'WN',
+        info: '<a href="https://o-site.spb.ru/race.php?id=2025_bn">Кросс-классика, финал</a>',
+        url: './maps/starts/wn/wn_2025_06_29.webp',
+        link: './original_maps/starts/wn/wn_2025_06_29_omaps.jpg',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22980/',
+        bounds: [[60.63462669514958, 30.08344173431397], [60.63109099100512, 30.118546485900882], [60.609763317795476, 30.073227882385257]],
+        author: ['MKHLV_A','USNKO']
+    },
+    {
+        name: 'Петяярви',
+        date: '2025-06-27',
+        start: 'WN',
+        info: '<a href="https://o-site.spb.ru/race.php?id=2025_bn">Кросс-спринт</a>',
+        url: './maps/starts/wn/wn_2025_06_27.webp',
+        link: './original_maps/starts/wn/wn_2025_06_27_omaps.jpg',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22977/',
+        bounds: [[60.62412367739534, 30.096230506896976], [60.62254477176717, 30.122795104980472], [60.607530781763366, 30.09142398834229]],
+        author: ['MKHLV_A','USNKO']
+    },
 ];

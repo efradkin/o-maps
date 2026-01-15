@@ -3914,7 +3914,7 @@ let moscowMaps = [
         url: './maps/moscow/sianska_cave_2015.webp',
         link: './original_maps/moscow/sianska_cave_2015_omaps.jpg',
         info: '<a href="https://ru.wikipedia.org/wiki/Сьяны">Wiki</a>, Спелеорогейн "Час подЗемли", отчёт <a href="https://www.vvv.ru/news/index.php3?news=474635">кратко</a> и <a href="https://hote-czai.livejournal.com/54577.html">подробнее</a>, <a href="https://www.youtube.com/watch?v=aflHxKJS8o4">видео</a>.',
-        bounds: [[55.49392933242712, 37.78717517852784], [55.49045266798632, 37.818846702575684], [55.47960739377975, 37.7776050567627]],
+        bounds: [[55.49166831981308, 37.78674602508545], [55.49091462009988, 37.807774543762214], [55.480507227394575, 37.77915000915528]],
         type: ['FUN'],
         logo: 'hour_under.webp'
     },
