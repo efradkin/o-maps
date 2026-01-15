@@ -485,7 +485,7 @@ button.nav-link {
 }
 #header_checkbox_container {
     font-size: .5em;
-    padding-left: 20px;
+    padding-left: 0;
 }
 
 /* --- MAP INFO --- */

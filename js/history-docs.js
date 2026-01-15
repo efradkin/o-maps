@@ -785,6 +785,14 @@ let historyDocs = [
         info: '30 апреля - 2 мая.',
     },
     {
+        name: 'Приз Ленинградского телевидения (Сосновка)',
+        date: '1990-05-20',
+        link: './docs/1990/1990_05_20_tv_omaps.pdf',
+        info: 'Матчевая встреча по ориентированию между командами инвалидов Ленинграда и Гетеборга. <a href="https://vk.com/wall-135156716_14">Фильм про эти старты</a>.',
+        planner: 'SHLKHN_Y',
+        me: 'М15'
+    },
+    {
         name: 'Ориентир-9 (Юкки)',
         date: '1990-06-06',
         start: 'ORIENTIR',
@@ -809,6 +817,13 @@ let historyDocs = [
         date: '1990-09-12',
         link: './docs/1990/1990_09_12_orientir_26_omaps.pdf',
         planner: 'BLNV_A',
+    },
+    {
+        name: 'Ночные соревнования на призы клуба АЗИМУТ (Лемболово)',
+        date: '1990-10-13',
+        link: './docs/1990/1990_10_13_night_lembolovo_omaps.pdf',
+        planner: 'FDRV_L',
+        me: 'МБ'
     },
     {
         name: 'Ориентир-27 (Зеленогорск)',
@@ -1197,12 +1212,6 @@ let historyDocs = [
         major: true
     },
     {
-        name: 'St.Petersburg',
-        date: '1994-01-09',
-        link: './docs/1994/1994_01_09_spb_cup_omaps.pdf',
-        me: 'H21',
-    },
-    {
         name: 'Зимняя Универсиада ВУЗов СПб (Токсово)',
         date: '1993-03-14',
         link: './docs/1993/1993_03_14_universiada_omaps.pdf',
@@ -1277,6 +1286,19 @@ let historyDocs = [
         me: 'H21',
     },
     {
+        name: 'Чемпионат С-Петербурга, спринт, марафон',
+        date: '1994-09-03',
+        link: './docs/1994/1994_09_03_spb_omaps.pdf',
+        info: '3-4 сентября.',
+        me: 'H21',
+    },
+    {
+        name: 'St.Petersburg',
+        date: '1994-01-09',
+        link: './docs/1994/1994_01_09_spb_cup_omaps.pdf',
+        me: 'H21',
+    },
+    {
         name: 'Зелёный змей (Осельки)',
         date: '1995-09-03',
         link: './docs/1995/1995_09_03_green_snake_omaps.pdf',
@@ -1297,6 +1319,14 @@ let historyDocs = [
         name: 'Календарь соревнований ЛО',
         year: 1996,
         link: './docs/1996/1996_calendar_lo_omaps.pdf',
+    },
+    {
+        name: 'Многодневка "Белые Ночи" (Петяярви)',
+        date: '1996-06-21',
+        info: '21-23 июня. Карту можно найти <a href="map-info.html?map=petjajarvy_1995">тут</a>.',
+        link: './docs/1996/1996_06_21_wn_omaps.pdf',
+        start: 'WN',
+        major: true
     },
     {
         name: 'ЧиП СПб, удлинённая дистанция (Ильичёво)',
@@ -1327,6 +1357,16 @@ let historyDocs = [
         date: '1998-02-27',
         link: './docs/1998/1998_02_27_world_masters_predchamp_omaps.pdf',
         logo: 'wmsoc_1999.gif'
+    },
+    {
+        name: 'Чемпионат СПб, спринт (Орехово)',
+        date: '1998-09-19',
+        link: './docs/1998/1998_09_19_spb_sprint_omaps.pdf',
+    },
+    {
+        name: 'Чемпионат СПб, удлинённая дистанция (Орехово)',
+        date: '1998-09-20',
+        link: './docs/1998/1998_09_20_spb_long_omaps.pdf',
     },
     {
         name: 'Зимний чемпионат СПб, маркир (Лемболово)',
