@@ -99,12 +99,13 @@ let events2026 =
         fmt: 'маркир,классика',
         owner: 'SFSO_SPB'
     },{
-        date: '2026-01-23',
+        date: '2026-01-24',
         endDate: '2026-01-25',
-        place: 'Будогощь',
+        place: 'Кировск',
         name: 'ЧиП ЛО',
+        reg: 'https://orgeo.ru/event/kirovsk_ski_o_2425012026',
         type: 'SKI',
-        fmt: 'маркир, классика, <br/>многодневная',
+        fmt: 'классика,многодневная',
         owner: 'SFSO_LO'
     },{
         date: '2026-01-24',
@@ -117,14 +118,18 @@ let events2026 =
         date: '2026-01-25',
         place: 'Полюстровский парк',
         name: 'Кубок Красногвардейского р-на',
+        link: 'https://o-site.spb.ru/race.php?id=260125',
+        reg: 'http://orgeo.ru/event/kubkrl',
         type: 'SKI',
-        fmt: 'спринт',
-        owner: 'RDNV_I'
+        fmt: 'спринт'
     },{
         date: '2026-01-31',
+        endDate: '2026-02-01',
+        place: 'Орехово',
         name: 'ЧиП СПб',
+        link: 'https://o-site.spb.ru/race.php?id=260201_ChiP',
         type: 'SKI',
-        fmt: 'спринт',
+        fmt: 'лонг,эстафета',
         owner: 'SFSO_SPB'
     },{
         date: '2026-02-01',
@@ -134,7 +139,7 @@ let events2026 =
         owner: 'SFSO_SPB'
     }, {
         date: '2026-02-07',
-        place: 'Луга, оз. Штоль',
+        place: 'Луга, оз Штоль',
         name: 'ЛужSki рогейн',
         type: ['ROGAINE','SKI'],
         fmt: '6, 3',
@@ -169,11 +174,13 @@ let events2026 =
         map: 'lembolovo_orekhovo_gk_2024',
         start: 'GORNY_CROSS'
     },{
-        date: '2026-02-22',
+        date: '2026-02-21',
+        endDate: '2026-02-22',
         place: 'Кировск',
         name: 'ЧиП ЛО',
+        reg: 'https://orgeo.ru/event/kirovsk_ski_o_2122022026',
         type: 'SKI',
-        fmt: 'классика-масстарт',
+        fmt: 'маркир,масстарт',
         owner: 'SFSO_LO'
     },{
         date: '2026-02-23',
@@ -248,7 +255,7 @@ let events2026 =
         owner: 'SFSO_SPB'
     },{
         date: '2026-04-25',
-        name: 'Лужский весенний рогейн',
+        name: 'Лужский весенний рогейн (ККР №1)',
         place: 'Луга, оз Омчино',
         type: 'ROGAINE',
         fmt: '4',
@@ -354,11 +361,12 @@ let events2026 =
         type: 'ORIENT',
         owner: 'SFSO_SPB'
     }, {
-        date: '2026-05-24',
+        date: '2026-05-23',
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         link: ['https://t.me/pmarshbrosok','https://vk.com/mbrosok'],
-        start: 'MB'
+        start: 'MB',
+        owner: ['BKTV','SHBN']
     }, {
         date: '2026-05-30',
         name: 'ЧиП СПб, ЧиП ЛО',
@@ -373,8 +381,9 @@ let events2026 =
         type: 'ROGAINE',
         fmt: '24, 6',
         link: 'https://vk.com/bikeadventure',
-        start: 'BA'
-    },{
+        start: 'BA',
+        owner: ['BKTV','SHBN']
+},{
         date: '2026-05-30',
         name: 'Турслёт СПЛАВ',
         type: 'ROGAINE',
@@ -400,6 +409,16 @@ let events2026 =
         type: 'ORIENT',
         fmt: 'лонг-масстарт',
         owner: 'DLITELNY'
+    },{
+        date: '2026-06-08',
+        endDate: '2026-06-15',
+        name: 'УТС ККП',
+        place: 'Пруды',
+        link: 'https://o-nw.ru/kkp',
+        reg: 'https://sportident.online/entry/?id=6852',
+        type: 'ORIENT',
+        map: 'kkp_prudy_2019_06_19',
+        start: 'KKP'
     }, {
         date: '2026-06-13',
         place: 'Сортавала',
@@ -411,16 +430,20 @@ let events2026 =
         start: 'RFAR',
     },{
         date: '2026-06-13',
-        name: 'Эстафета "Пирамида"',
+        name: 'Пирамида',
         place: 'Пруды',
+        link: 'https://o-nw.ru/kkp',
+        reg: 'https://sportident.online/entry/?id=6854',
         type: 'ORIENT',
         fmt: 'эстафета ночная',
         map: 'kkp_prudy_2019_06_19',
         start: 'KKP'
     },{
-        date: '2026-06-14',
-        name: 'Эстафета "Каменюкола"',
+        date: '2026-06-15',
+        name: 'Каменюкола',
         place: 'Пруды',
+        link: 'https://o-nw.ru/kkp',
+        reg: 'https://sportident.online/entry/?id=6853',
         type: 'ORIENT',
         fmt: 'эстафета детская',
         map: 'kkp_prudy_2019_06_19',
@@ -430,6 +453,8 @@ let events2026 =
         endDate: '2026-06-20',
         name: 'Камни Карельского перешейка',
         place: 'Пруды',
+        link: 'https://o-nw.ru/kkp',
+        reg: 'https://sportident.online/entry/?id=6855',
         type: 'ORIENT',
         map: 'kkp_prudy_2019_06_19',
         start: 'KKP'
@@ -452,8 +477,8 @@ let events2026 =
         start: 'HARD'
     },{
         date: '2026-06-27',
-        name: 'Рогейн на холмах Яппиля',
-        place: 'Яппиля',
+        name: 'Рогейн на холмах Яппиля (ККР №2)',
+        place: 'Яппиля, Заовражные оз',
         type: 'ROGAINE',
         fmt: '4',
         owner: 'SHBN'
@@ -496,7 +521,7 @@ let events2026 =
         start: 'ROGAINE_110'
     },{
         date: '2026-07-25',
-        place: 'оз Малые Толони',
+        place: 'Луга, оз Малые Толони',
         name: 'Лужский приключенческий рогейн',
         info: '"Трое из Простоквашино"',
         type: 'ROGAINE',
@@ -694,7 +719,7 @@ let events2026 =
         date: '2026-11-14',
         place: 'Луга, б/о Штоль',
         name: 'Рогейн на Лужских берегах',
-        fmt: '6',
+        fmt: '6, 3',
         type: 'ROGAINE',
         map: 'omchino_luzhsky_2022',
         owner: 'SHBN'

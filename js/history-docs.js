@@ -15,18 +15,24 @@ let historyDocs = [
     {
         name: 'Статья в газете "Спортивная неделя Ленинграда"',
         year: 1969,
-        link: './docs/sport_week_leningrad_1969_article_omaps.jpg'
+        link: './docs/1969/sport_week_leningrad_1969_article_omaps.jpg'
     },
     {
         name: 'Статья в газете "Советский спорт"',
         year: 1969,
-        link: './docs/sov_sport_1969_article_omaps.jpg'
+        link: './docs/1969/sov_sport_1969_article_omaps.jpg'
+    },
+    {
+        name: 'Рекламный буклет X матча ЛЕНИНГРАД - ЭСТОНСКАЯ ССР (Тырва)',
+        date: '1969-06-21',
+        info: 'Сводные результаты всех предыдущих матчей.',
+        link: './docs/1969/1969_06_21_leningrad_estonia_omaps.pdf',
     },
     {
         name: 'Золотые кольца',
         date: '1969-11-16',
         info: 'Приглашение. Карты можно найти <a href="map-info.html?map=lobnia_1969">тут</a>.',
-        link: './docs/1969_lobnia_welcome_omaps.jpg',
+        link: './docs/1969/1969_lobnia_welcome_omaps.jpg',
         start: 'WEDDING'
     },
     {
