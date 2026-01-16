@@ -777,6 +777,11 @@ let historyDocs = [
         link: './docs/1990/1990_nevsky_azimuth_magazine_omaps.pdf',
     },
     {
+        name: 'Бро-бег (Кузьмолово)',
+        date: '1990-04-08',
+        link: './docs/1990/1990_04_08_brobeg_omaps.pdf'
+    },
+    {
         name: 'Ориентир-3 (Кузьмолово)',
         date: '1990-04-22',
         link: './docs/1990/1990_04_22_orientir_3_omaps.pdf',
@@ -823,6 +828,13 @@ let historyDocs = [
         date: '1990-09-16',
         link: './docs/1990/1990_09_16_leningrad_omaps.pdf',
         planner: 'LVCHV',
+        me: 'М-15'
+    },
+    {
+        name: 'Первенство Ленинграда, марафон (69км)',
+        date: '1990-09-23',
+        link: './docs/1990/1990_09_23_leningrad_marathon_omaps.pdf',
+        planner: 'KAZNTSV_S',
         me: 'М-15'
     },
     {

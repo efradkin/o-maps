@@ -82,6 +82,9 @@ a, a:active, a:focus {
     a {
         font-weight: bold;
     }
+    ul li {
+        margin-top: 5px;
+    }
 }
 .region-box {
     text-align: center;

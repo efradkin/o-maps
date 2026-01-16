@@ -803,6 +803,27 @@ let specialMaps = [
         owner: 'WN',
         type: ['RELIEF']
     },
+    {
+        name: 'Лемболово, с-в',
+        excluded: true,
+        year: 1989,
+        url: './maps/relief/lembolovo_north_east_relief_1989.webp',
+        link: './original_maps/relief/lembolovo_north_east_relief_1989_omaps.jpg',
+        bounds: [[60.44701687789359, 30.30509948730469], [60.44210574932872, 30.380029678344727], [60.420081220972136, 30.297975540161136]],
+        author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
+        areas: [62,20,10,5,1,1,1],
+        type: ['RELIEF']
+    },
+    {
+        name: 'Юкки',
+        excluded: true,
+        year: 1988,
+        url: './maps/relief/yukki_relief_1988.webp',
+        link: './original_maps/relief/yukki_relief_1988_omaps.jpg',
+        bounds: [[60.133854882662625, 30.267848968505863], [60.12970868883226, 30.34629821777344], [60.11033861792823, 30.262269973754886]],
+        author: ['SHLKHN_Y','BZNV_A'],
+        type: ['RELIEF']
+    },
     // прочие
     {
         name: 'Сосново, оз Уловное',
