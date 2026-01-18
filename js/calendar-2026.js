@@ -88,7 +88,10 @@ let events2026 =
         fmt: 'спринт',
         link: 'https://t.me/dlitelnyy/440',
         reg: 'https://orgeo.ru/event/49111',
+        res: 'https://t.me/dlitelnyy/446',
+        reskeep: 841,
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24120/',
+        info: '<a href="https://t.me/dlitelnyy/447">Разбор дистанций</a>.',
         owner: 'DLITELNY',
     },{
         date: '2026-01-17',
@@ -97,6 +100,10 @@ let events2026 =
         name: 'ЧиП СПб',
         link: 'https://o-site.spb.ru/race.php?id=26011718',
         reg: ['http://o-reg.spb.ru/?filter[day_id]=1710','http://o-reg.spb.ru/?filter[day_id]=1711'],
+        gps: {
+            'М17/45/55/Ф-Сл':'https://viewer.o-gps-center.ru/viewer/event/24138/',
+            'Все КП':'https://viewer.o-gps-center.ru/viewer/event/24123/'
+        },
         type: 'SKI',
         fmt: 'маркир,классика',
         owner: 'SFSO_SPB'
@@ -204,9 +211,9 @@ let events2026 =
     },{
         date: '2026-03-07',
         place: 'оз Вуокса',
-        name: 'Ice Trail',
+        name: 'Ice Trail (КЛО)',
         type: 'ROGAINE',
-        fmt: '3, 6',
+        fmt: '6, 3',
         map: 'vuoksa_rogaine_2019',
         start: 'MULTSPORT'
     },{
@@ -227,7 +234,7 @@ let events2026 =
         date: '2026-04-11',
         place: 'Луга, Шалово',
         name: 'Лужский меридиан',
-        fmt: '5',
+        fmt: '5, 2.5',
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         map: 'luga_shalovo_lm_2023',
@@ -257,7 +264,7 @@ let events2026 =
         owner: 'SFSO_SPB'
     },{
         date: '2026-04-25',
-        name: 'Лужский весенний рогейн (ККР №1)',
+        name: 'Лужский весенний рогейн (ККР №1, КЛО)',
         place: 'Луга, оз Омчино',
         type: 'ROGAINE',
         fmt: '4',
@@ -329,6 +336,13 @@ let events2026 =
         map: 'anyalovo_winter_2023_omaps',
         owner: 'SFSO_SPB'
     },{
+        date: '2026-05-16',
+        name: 'Весенний водный рогейн',
+        place: 'Вуокса',
+        type: ['ROGAINE','WATER'],
+        fmt: '16, 8, 4',
+        start: 'MULTSPORT'
+    },{
         date: '2026-05-17',
         name: 'ЧиП СПб',
         place: 'Поляны',
@@ -336,12 +350,6 @@ let events2026 =
         fmt: 'эстафета 3х',
         map: 'polyany_2019',
         owner: 'SFSO_SPB'
-    },{
-        date: '2026-05-16',
-        name: 'Весенний водный рогейн',
-        type: ['ROGAINE','WATER'],
-        fmt: '4, 8, 16',
-        start: 'MULTSPORT'
     },{
         date: '2026-05-23',
         endDate: '2026-05-24',
@@ -425,7 +433,7 @@ let events2026 =
         date: '2026-06-13',
         place: 'Сортавала',
         name: 'RED FOX ADVENTURE RACE',
-        fmt: '12, 24, 48',
+        fmt: '48, 24, 12',
         type: 'MULTI',
         link: 'https://adventure-race.redfox.ru/docs/rules/',
         reg: 'https://adventure-race.redfox.ru/applications/',
@@ -474,7 +482,7 @@ let events2026 =
         place: 'Ладожское оз',
         link: 'http://hardadventure.ru/ladoga2026',
         type: ['ROGAINE','WATER'],
-        fmt: '4,6,12',
+        fmt: '12, 6, 4',
         map: 'kuznechnoe_hard_2024',
         start: 'HARD'
     },{
@@ -527,7 +535,7 @@ let events2026 =
         name: 'Лужский приключенческий рогейн',
         info: '"Трое из Простоквашино"',
         type: 'ROGAINE',
-        fmt: '24, 6',
+        fmt: '16, 6',
         owner: 'SHBN'
     },{
         date: '2026-08-08',
@@ -634,7 +642,7 @@ let events2026 =
         place: 'Луга, Золотой пляж',
         name: 'Кубок коротких рогейнов №4',
         type: 'ROGAINE',
-        fmt: '4',
+        fmt: '3',
         owner: 'SHBN'
     },{
         date: '2026-09-27',
@@ -690,6 +698,7 @@ let events2026 =
         date: '2026-10-24',
         name: 'Финал КЛО',
         type: 'ROGAINE',
+        fmt: '4'
     }, {
         date: '2026-10-25',
         name: '5 Вёрст',
@@ -720,7 +729,7 @@ let events2026 =
     }, {
         date: '2026-11-14',
         place: 'Луга, б/о Штоль',
-        name: 'Рогейн на Лужских берегах',
+        name: 'Рогейн на Лужских берегах (ККР №5)',
         fmt: '6, 3',
         type: 'ROGAINE',
         map: 'omchino_luzhsky_2022',
