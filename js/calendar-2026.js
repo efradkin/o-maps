@@ -65,9 +65,10 @@ let events2026 =
         place: 'Колосково',
         name: 'Зимний рогейн',
         link: 'https://www.multsport.ru/starts/winter-rogaine-26/',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24104/',
+        photo: 'https://vk.com/album-8292013_312343731',
         type: ['ROGAINE','SKI'],
         fmt: '4',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24104/',
         start: 'MULTSPORT'
     },{
         date: '2026-01-11',
@@ -87,6 +88,7 @@ let events2026 =
         fmt: 'спринт',
         link: 'https://t.me/dlitelnyy/440',
         reg: 'https://orgeo.ru/event/49111',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24120/',
         owner: 'DLITELNY',
     },{
         date: '2026-01-17',
