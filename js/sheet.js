@@ -274,6 +274,7 @@ function buildInfo(m) {
         }
     }
     if (isDocumentsPage()) {
+        // планировщики
         let planner = m.planner;
         if (!planner && m.start) {
             let start = m.start;
@@ -298,6 +299,23 @@ function buildInfo(m) {
                 result += ` Начальники дистанций: ${plnrs}.`;
             } else {
                 result += ` Начальник дистанции - ${planners[planner].name}.`;
+            }
+        }
+
+        // карты
+        let map = m.map;
+        if (map) {
+            if (Array.isArray(map)) {
+                let maps = '', count = 1;
+                for (const m of map) {
+                    if (count > 1) {
+                        maps += ', ';
+                    }
+                    maps += `<a href="map-info.html?map=${m}">[${count++}]</a>`;
+                }
+                result += ` Карты: ${maps}.`;
+            } else {
+                result += ` Карту можно найти <a href="map-info.html?map=${map}">тут</a>.`;
             }
         }
     }

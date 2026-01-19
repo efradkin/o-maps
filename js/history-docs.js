@@ -58,13 +58,15 @@ let historyDocs = [
     {
         name: '10-летие секции ориентирования в Ленинграде (Гарболово)',
         date: '1969-06-28',
-        info: '28-29 июня. Командные соревнования, эстафеты. Карты можно найти <a href="map-info.html?map=sirkojarvi_1969">тут</a>.',
-        link: './docs/1969/1969_06_21_garbolovo_10_years_omaps.pdf',
+        info: '28-29 июня. Командные соревнования, эстафеты.',
+        map: 'sirkojarvi_1969',
+        link: './docs/1969/1969_06_21_garbolovo_10_years_omaps.pdf'
     },
     {
         name: 'Золотые кольца',
         date: '1969-11-16',
-        info: 'Приглашение. Карты можно найти <a href="map-info.html?map=lobnia_1969">тут</a>.',
+        info: 'Приглашение.',
+        map: 'lobnia_1969',
         link: './docs/1969/1969_lobnia_welcome_omaps.jpg',
         start: 'WEDDING'
     },
@@ -77,7 +79,8 @@ let historyDocs = [
     {
         name: 'П-во г.Ленинграда на маркированной трассе (Сосново)',
         date: '1973-02-18',
-        info: 'Отчёт. Карты отдельно можно найти <a href="map-info.html?map=sosnovo_black_forest_1974">тут</a>.',
+        info: 'Отчёт.',
+        map: 'sosnovo_black_forest_1974',
         link: './docs/1974_leningrad_omaps.pdf',
         planner: ['FDRV_A','SHRNN','GRZNVCH','SHRPV_V']
     },
@@ -102,8 +105,8 @@ let historyDocs = [
     {
         name: 'Кубок ЛГС ДСО "Спартак"',
         date: '1983-09-17',
-        info: 'Карты можно найти <a href="map-info.html?map=mruchey_1983_09_17">тут</a>.',
-        link: './docs/1983_09_17_mruchey_omaps.pdf'
+        link: './docs/1983_09_17_mruchey_omaps.pdf',
+        map: 'mruchey_1983_09_17'
     },
     {
         name: 'ILVESTEADE',
@@ -125,7 +128,8 @@ let historyDocs = [
     {
         name: 'Открытие сезона ЛГС ДСО "Спартак"',
         date: '1985-04-21',
-        info: '21, 27 апреля. Отчёт и протоколы результатов. Карты можно найти <a href="map-info.html?map=golubaya_dacha_1982">тут</a>.',
+        info: '21, 27 апреля. Отчёт и протоколы результатов.',
+        map: 'golubaya_dacha_1982',
         link: './docs/1985/1985_04_21_gdacha_omaps.pdf',
         planner: 'RYLOV_V',
         me: 'М-13'
@@ -152,7 +156,7 @@ let historyDocs = [
         name: 'Приз Ленинградского телевидения (Песочное)',
         date: '1986-05-10',
         link: './docs/1986/1986_05_10_tv_omaps.pdf',
-        info: 'Карту можно найти <a href="map-info.html?map=pesochnaya_1986">тут</a>.',
+        map: 'pesochnaya_1986',
         planner: 'VSLVSKY',
         me: 'М-10'
     },
@@ -535,7 +539,8 @@ let historyDocs = [
     {
         name: 'XXX летие Ленинградского ориентирования',
         date: '1989-05-07',
-        info: '7-9 мая. Карты можно найти <a href="map-info.html?map=budogosch_orlenok_1988">тут</a> и <a href="map-info.html?map=budogosch_cheremukhovoe_1988">тут</a>.',
+        info: '7-9 мая.',
+        map: ['budogosch_orlenok_1988','budogosch_cheremukhovoe_1988'],
         link: './docs/1989/1989_05_07_XXX_years_omaps.pdf',
         start: 'LENINGRAD_30',
         me: 'М15-1',
@@ -879,7 +884,8 @@ let historyDocs = [
     {
         name: '"Дыхание осени" на День Конституции СССР',
         date: '1990-10-06',
-        info: '6 и 7 октября. <a href="./docs/1990/sosnovo_1990_10_06/doc_3_omaps.jpg">Положение</a>, <a href="./docs/1990/sosnovo_1990_10_06/doc_4_omaps.jpg">МА</a>. Карты можно найти <a href="map-info.html?map=sosnovo_1990_10_06">тут</a>.',
+        info: '6 и 7 октября. <a href="./docs/1990/sosnovo_1990_10_06/doc_3_omaps.jpg">Положение</a>, <a href="./docs/1990/sosnovo_1990_10_06/doc_4_omaps.jpg">МА</a>.',
+        map: 'sosnovo_1990_10_06',
         links: ['1990/sosnovo_1990_10_06', 4]
     },
     {
@@ -916,7 +922,7 @@ let historyDocs = [
         start: 'ORIENTIR',
         date: '1990-11-10',
         link: './docs/1990/1990_11_10_orientir_29_omaps.pdf',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1990_11_10">тут</a>.'
+        map: 'orientir_1990_11_10'
     },
     {
         name: 'Соревнования по эстафете с ориентированием (Токсово)',
@@ -995,7 +1001,7 @@ let historyDocs = [
         name: 'Ориентир-2 (Колтуши)',
         date: '1991-04-13',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_04_13">тут</a>.',
+        map: 'orientir_1991_04_13',
         link: './docs/1991/1991_04_13_orientir_2_omaps.pdf',
         planner: 'NKLVCH'
     },
@@ -1071,14 +1077,14 @@ let historyDocs = [
         name: 'Ориентир-7 (Сертолово)',
         date: '1991-05-29',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_05_29">тут</a>.',
+        map: 'orientir_1991_05_29',
         link: './docs/1991/1991_05_29_orientir_7_omaps.pdf',
     },
     {
         name: 'Ориентир-8 (Орловский л/п)',
         date: '1991-06-05',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_06_08">тут</a>.',
+        map: 'orientir_1991_06_08',
         link: './docs/1991/1991_06_05_orientir_8_omaps.pdf',
     },
     {
@@ -1107,7 +1113,7 @@ let historyDocs = [
         date: '1991-06-26',
         start: 'ORIENTIR',
         planner: 'BYMKV',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_06_26">тут</a>.',
+        map: 'orientir_1991_06_26',
         link: './docs/1991/1991_06_26_orientir_11_omaps.pdf',
     },
     {
@@ -1115,7 +1121,7 @@ let historyDocs = [
         date: '1991-07-03',
         start: 'ORIENTIR',
         planner: 'BRSV_V',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_03">тут</a>.',
+        map: 'orientir_1991_07_03',
         link: './docs/1991/1991_07_03_orientir_12_omaps.pdf',
     },
     {
@@ -1123,14 +1129,14 @@ let historyDocs = [
         date: '1991-07-07',
         start: 'ORIENTIR',
         planner: 'BLNV_A',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_07">тут</a>.',
+        map: 'orientir_1991_07_07',
         link: './docs/1991/1991_07_07_orientir_13_omaps.pdf',
     },
     {
         name: 'Ориентир-14 (Кавголово)',
         date: '1991-07-10',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_10">тут</a>.',
+        map: 'orientir_1991_07_10',
         link: './docs/1991/1991_07_10_orientir_14_omaps.pdf',
     },
     {
@@ -1144,14 +1150,15 @@ let historyDocs = [
         name: 'Ориентир-17 (Кузнечное)',
         date: '1991-07-21',
         start: 'ORIENTIR',
-        info: '20-21 июля. Карты можно найти <a href="map-info.html?map=orientir_1991_07_20">тут</a> и <a href="map-info.html?map=orientir_1991_07_21">тут</a>.',
+        info: '20-21 июля.',
+        map: ['orientir_1991_07_20','orientir_1991_07_21'],
         link: './docs/1991/1991_07_20_orientir_17_omaps.pdf'
     },
     {
         name: 'Ориентир-19 (Невский л/п)',
         date: '1991-07-24',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_07_24">тут</a>.',
+        map: 'orientir_1991_07_24',
         link: './docs/1991/1991_07_24_orientir_19_omaps.pdf',
         planner: 'DSHKO'
     },
@@ -1166,7 +1173,7 @@ let historyDocs = [
         name: 'Ориентир-22 (ст Песочное)',
         date: '1991-08-28',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_08_28">тут</a>.',
+        map: 'orientir_1991_08_28',
         link: './docs/1991/1991_08_28_orientir_22_omaps.pdf',
         me: 'H-A'
     },
@@ -1174,14 +1181,14 @@ let historyDocs = [
         name: 'Ориентир-23 (Шуваловский парк)',
         date: '1991-09-04',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_09_04">тут</a>.',
+        map: 'orientir_1991_09_04',
         link: './docs/1991/1991_09_04_orientir_23_omaps.pdf',
     },
     {
         name: 'П-во КСО "Невский азимут" (Гарболово)',
         date: '1991-09-08',
         link: './docs/1991/1991_09_08_club_championship_omaps.pdf',
-        info: 'Карту можно найти <a href="map-info.html?map=garbolovo_1991">тут</a>.',
+        map: 'garbolovo_1991',
         planner: 'KRZHNVSKY',
         me: 'H-A'
     },
@@ -1189,7 +1196,7 @@ let historyDocs = [
         name: 'Ориентир-24 (Сосновка)',
         date: '1991-09-11',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_09_11">тут</a>.',
+        map: 'orientir_1991_09_11',
         link: './docs/1991/1991_09_11_orientir_24_omaps.pdf',
         me: 'H-A',
         planner: 'AMSVA'
@@ -1197,7 +1204,7 @@ let historyDocs = [
     {
         name: 'Соревнования среди спортсменов старшего возраста (Васкелово)',
         date: '1991-09-14',
-        info: '14-15 сентября. Карту можно найти <a href="map-info.html?map=kerro_1988">тут</a>.',
+        map: 'kerro_1988',
         link: ['./docs/1991/1991_09_14_veterans_omaps.pdf','./docs/1991/1991_09_15_veterans_omaps.pdf'],
         planner: 'SMNV_M'
     },
@@ -1224,7 +1231,7 @@ let historyDocs = [
         name: 'Ориентир-25 (Орехово)',
         date: '1991-09-29',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_09_29">тут</a>.',
+        map: 'orientir_1991_09_29',
         link: './docs/1991/1991_09_29_orientir_25_omaps.pdf',
         planner: 'FDRV_L'
     },
@@ -1239,7 +1246,7 @@ let historyDocs = [
     {
         name: 'Ночной СПб, эстафеты (Лемболово)',
         date: '1991-10-12',
-        info: 'Карту можно найти <a href="map-info.html?map=lembolovo_north_east_1989">тут</a>.',
+        map: 'lembolovo_north_east_1989',
         link: './docs/1991/1991_10_12_night_omaps.pdf',
         planner: 'GBNVA_A',
         me: 'H-B'
@@ -1264,7 +1271,7 @@ let historyDocs = [
         name: 'Ориентир-27 (Лемболово)',
         date: '1991-11-08',
         start: 'ORIENTIR',
-        info: 'Карту можно найти <a href="map-info.html?map=orientir_1991_11_08">тут</a>.',
+        map: 'orientir_1991_11_08',
         link: './docs/1991/1991_11_08_orientir_27_omaps.pdf',
         planner: 'FSNKO'
     },
@@ -1299,7 +1306,7 @@ let historyDocs = [
         name: 'Приз закрытия зимнего сезона, ретро-марафон (Лемболово)',
         date: '1993-04-04',
         link: './docs/1993/1993_04_04_close_marathon_omaps.pdf',
-        info: 'Карту можно найти <a href="map-info.html?map=lembolovo_orekhovo_east_1991">тут</a>.',
+        map: 'lembolovo_orekhovo_east_1991',
         planner: 'PNKRTV_B'
     },
     {
@@ -1401,7 +1408,8 @@ let historyDocs = [
     {
         name: 'Многодневка "Белые Ночи" (Петяярви)',
         date: '1996-06-21',
-        info: '21-23 июня. Карту можно найти <a href="map-info.html?map=petjajarvy_1995">тут</a>.',
+        info: '21-23 июня.',
+        map: 'petjajarvy_1995',
         link: './docs/1996/1996_06_21_wn_omaps.pdf',
         start: 'WN',
         major: true
@@ -1529,7 +1537,7 @@ let historyDocs = [
         name: 'Итоги и результаты',
         start: '2x2',
         year: 2005,
-        info: 'Карты можно найти <a href="map-info.html?map=2x2_2005_05_10">тут</a> и <a href="map-info.html?map=2x2_2005_05_07">тут</a>.',
+        map: ['2x2_2005_05_10','2x2_2005_05_07'],
         link: './docs/2x2/2005_kuzmolovo_2x2_itogi_omaps.pdf',
         planner: 'SHRNN'
     },
@@ -1537,7 +1545,7 @@ let historyDocs = [
         name: 'Буклет',
         start: '2x2',
         year: 2005,
-        info: 'Карты можно найти <a href="map-info.html?map=2x2_2005_05_10">тут</a> и <a href="map-info.html?map=2x2_2005_05_07">тут</a>.',
+        map: ['2x2_2005_05_10','2x2_2005_05_07'],
         link: './docs/2x2/2005_kuzmolovo_2x2_photos_omaps.doc',
         planner: 'SHRNN'
     },
@@ -1545,7 +1553,7 @@ let historyDocs = [
         name: 'Афиша',
         start: '2x2',
         year: 2006,
-        info: 'Карты можно найти <a href="map-info.html?map=2x2_2006_04_29">тут</a>, <a href="map-info.html?map=2x2_2006_04_30">тут</a> и <a href="map-info.html?map=2x2_2006_05_01">тут</a>.',
+        map: ['2x2_2006_04_29','2x2_2006_04_30','2x2_2006_05_01'],
         link: './docs/2x2/2006_2x2_info_omaps.jpg',
         planner: 'SHRNN'
     },
@@ -1553,7 +1561,7 @@ let historyDocs = [
         name: 'Положение',
         start: '2x2',
         year: 2006,
-        info: 'Карты можно найти <a href="map-info.html?map=2x2_2006_04_29">тут</a>, <a href="map-info.html?map=2x2_2006_04_30">тут</a> и <a href="map-info.html?map=2x2_2006_05_01">тут</a>.',
+        map: ['2x2_2006_04_29','2x2_2006_04_30','2x2_2006_05_01'],
         link: './docs/2x2/2006_2x2_rules_omaps.pdf',
         planner: 'SHRNN'
     },
@@ -1561,7 +1569,7 @@ let historyDocs = [
         name: 'Положение',
         start: '2x2',
         year: 2007,
-        info: 'Карты можно найти <a href="map-info.html?map=2x2_2007_04_29">тут</a>, <a href="map-info.html?map=2x2_2007_04_30">тут</a> и <a href="map-info.html?map=2x2_2007_05_01">тут</a>.',
+        map: ['2x2_2007_04_29','2x2_2007_04_30','2x2_2007_05_01'],
         link: './docs/2x2/2007_2x2_rules_omaps.pdf',
         planner: 'SHRNN'
     },
@@ -1569,7 +1577,7 @@ let historyDocs = [
         name: 'Результаты',
         start: '2x2',
         year: 2008,
-        info: 'Карты можно найти <a href="map-info.html?map=2x2_2008_05_01">тут</a>, <a href="map-info.html?map=2x2_2008_05_02">тут</a> и <a href="map-info.html?map=2x2_2008_05_03">тут</a>.',
+        map: ['2x2_2008_05_01','2x2_2008_05_02','2x2_2008_05_03'],
         link: './docs/2x2/2008_2x2_results_omaps.pdf',
         planner: 'SHRNN'
     },
@@ -1577,7 +1585,7 @@ let historyDocs = [
         name: 'Итоги',
         start: '2x2',
         year: 2008,
-        info: 'Карты можно найти <a href="map-info.html?map=2x2_2008_05_01">тут</a>, <a href="map-info.html?map=2x2_2008_05_02">тут</a> и <a href="map-info.html?map=2x2_2008_05_03">тут</a>.',
+        map: ['2x2_2008_05_01','2x2_2008_05_02','2x2_2008_05_03'],
         link: './docs/2x2/2008_2x2_total_omaps.pdf',
         planner: 'SHRNN'
     },
@@ -1585,7 +1593,7 @@ let historyDocs = [
         name: 'Положение',
         start: '2x2',
         year: 2009,
-        info: 'Карты можно найти <a href="map-info.html?map=2x2_2009_05_02">тут</a> и <a href="map-info.html?map=2x2_2009_05_03">тут</a>.',
+        map: ['2x2_2009_05_02','2x2_2009_05_03'],
         link: './docs/2x2/2009_2x2_rules_omaps.pdf',
         planner: 'SHRNN'
     },
@@ -1593,7 +1601,7 @@ let historyDocs = [
         name: 'Результаты',
         start: '2x2',
         year: 2010,
-        info: 'Карту можно найти <a href="map-info.html?map=2x2_2010_05_09">тут</a>.',
+        map: '2x2_2010_05_09',
         link: './docs/2x2/2010_2x2_results_omaps.pdf',
         planner: 'SHRNN'
     },
