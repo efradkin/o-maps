@@ -1,0 +1,97 @@
+let runEvents2026 =
+[
+    {
+        date: '2026-01-25',
+        place: 'Коккорево - Всеволожск',
+        name: 'Дорога Жизни',
+        link: 'https://heroleague.ru/doroga',
+        type: 'RUN',
+        fmt: '42, 10, 5',
+        logo: 'roadlife.webp',
+        track: 'roadlife_2025_42km'
+    },
+    {
+        date: '2026-02-15',
+        place: 'Павловск',
+        name: 'Зимний Павловский забег',
+        link: 'https://pushkin-run.ru/pavlovskrun',
+        type: 'RUN',
+        fmt: '21, 10, 3',
+        start: 'PUSHKINRUN',
+        track: 'pavlovsky_zabeg_21'
+    },
+    {
+        date: '2026-04-19',
+        place: 'СПб',
+        name: 'Арена Полумарафон',
+        link: 'https://pushkin-run.ru',
+        type: 'RUN',
+        fmt: '21, 10, 5',
+        start: 'PUSHKINRUN',
+    },
+    {
+        date: '2026-05-10',
+        place: 'Пушкин',
+        name: 'Царскосельский Марафон',
+        link: 'https://pushkin-run.ru',
+        type: 'RUN',
+        fmt: '42, 21, 11, 3',
+        start: 'PUSHKINRUN',
+    },
+    {
+        date: '2026-05-23',
+        place: 'СПб',
+        name: 'Забег.РФ',
+        link: 'https://забег.рф',
+        type: 'RUN',
+        fmt: '21, 10, 5, 1',
+    },
+    {
+        date: '2026-06-09',
+        place: 'Пушкин - СПб',
+        name: 'Пушкин - Санкт-Петербург',
+        link: 'https://pushkin-run.ru',
+        type: 'RUN',
+        fmt: '42, 30, 10, 5',
+        start: 'PUSHKINRUN',
+        track: 'pushkin_spb_2023_42km'
+    },
+    {
+        date: '2026-07-04',
+        place: 'СПб',
+        name: 'Белые Ночи',
+        link: 'https://wnmarathon.runc.run/',
+        type: 'RUN',
+        fmt: '42, 10',
+        logo: 'wn_marathon.gif',
+        track: 'spb_wn_2025_42km'
+    },
+    {
+        date: '2026-08-09',
+        place: 'СПб',
+        name: 'Северная столица',
+        link: 'https://spbhalf.runc.run/',
+        type: 'RUN',
+        fmt: '21, 10',
+        owner: 'RUNC',
+    },
+    {
+        date: '2026-10-25',
+        place: 'СПб',
+        name: 'Арена марафон',
+        link: 'https://pushkin-run.ru',
+        type: 'RUN',
+        fmt: '42, 21, 10, 5',
+        start: 'PUSHKINRUN',
+    },
+    {
+        date: '2026-11-08',
+        place: 'Гатчина',
+        name: 'Гатчинский полумарафон',
+        link: 'https://gatchinahalf.ru/',
+        type: 'RUN',
+        fmt: '21, 10, 2',
+        start: 'GATCHINA',
+        track: 'gatchina_half_2024_21km'
+    },
+];

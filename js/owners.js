@@ -488,6 +488,10 @@ let owners = {
 
     /* --- Прочее --- */
 
+    RUNC: {
+        name: '© <a href="https://runc.run/">Беговое сообщество</a>',
+        logo: 'runc.gif'
+    },
     FSO_KARELIA: {
         name: '© <a href="http://fso.karelia.ru/">ФСО Республики Карелия</a>',
         logo: 'fso_karelia.png'

@@ -60,6 +60,7 @@ let events2026 =
         reg: 'https://orgeo.ru/event/48922',
         type: 'SKI',
         fmt: 'маркир',
+        map: 'silande_winter_2024_omaps'
     },{
         date: '2026-01-11',
         place: 'Колосково',
@@ -93,7 +94,9 @@ let events2026 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24120/',
         info: '<a href="https://t.me/dlitelnyy/447">Разбор дистанций</a>.',
         owner: 'DLITELNY',
-        planner: 'KSHN_D'
+        planner: 'KSHN_D',
+        map: 'school_150_2016_omaps',
+        me: 'Pro'
     },{
         date: '2026-01-17',
         endDate: '2026-01-18',
@@ -108,7 +111,8 @@ let events2026 =
         type: 'SKI',
         fmt: 'маркир,классика',
         planner: 'SMNV_M',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'orekhovo_nyrkovo_winter_2012_omaps'
     },{
         date: '2026-01-24',
         endDate: '2026-01-25',
@@ -125,6 +129,7 @@ let events2026 =
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'DLITELNY',
+        map: 'udelny_2021_omaps'
     },{
         date: '2026-01-25',
         place: 'Полюстровский парк',
@@ -133,6 +138,13 @@ let events2026 =
         reg: 'http://orgeo.ru/event/kubkrl',
         type: 'SKI',
         fmt: 'спринт'
+    },{
+        date: '2026-01-25',
+        place: 'Сестрорецкие дюны',
+        name: 'Праздничная тренировка',
+        link: 'https://t.me/whitenightesspb/868',
+        type: 'ORIENT',
+        owner: 'WN'
     },{
         date: '2026-01-31',
         endDate: '2026-02-01',
