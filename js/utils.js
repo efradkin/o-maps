@@ -1029,6 +1029,7 @@ function buildEventType(evt, withFmt) {
     let result;
     switch (evt.type) {
         case 'RUN': result = 'Бег'; break;
+        case 'SK_RACE': result = 'Лыжная гонка'; break;
         case 'ORIENT': result = 'Ориент'; break;
         case 'VELO': result = 'Вело'; break;
         case 'ROGAINE': result = 'Рогейн'; break;

@@ -1,5 +1,6 @@
-let runEvents2026 =
+let otherEvents2026 =
 [
+    /* --- БЕГ --- */
     {
         date: '2026-01-25',
         place: 'Коккорево - Всеволожск',
@@ -93,5 +94,52 @@ let runEvents2026 =
         fmt: '21, 10, 2',
         start: 'GATCHINA',
         track: 'gatchina_half_2024_21km'
+    },
+    /* --- ЛЫЖИ --- */
+    // https://docs.google.com/spreadsheets/d/e/2PACX-1vRJJXxtBc9nqhZpFvcvX-q39mVoblSGQW1pR6OnuLODBFyXLdgg0JZUdIdN1Lgp0I3jzwm7dB5zCudK/pubhtml?gid=1063843429&single=true
+    {
+        date: '2026-01-25',
+        place: 'Тихвин',
+        name: 'Тихвинский марафон',
+        link: 'https://vk.com/club199236798',
+        type: 'SK_RACE',
+        fmt: '50 skate',
+        logo: 'tikhvin.gif',
+        track: 'tikhvin_omaps',
+        coords: [59.644209, 33.542096]
+    },
+    {
+        date: '2026-01-31',
+        endDate: '2026-02-01',
+        place: 'Токсово',
+        name: 'Токсовский марафон',
+        link: 'https://toksovocup.com/',
+        type: 'SK_RACE',
+        fmt: '50,25,10 skate,classic',
+        logo: 'toksovo_cup.gif',
+        track: 'ohtapark_ski',
+        coords: [60.127481, 30.463336]
+    },
+    {
+        date: '2026-02-23',
+        place: 'Гарболово',
+        name: 'Быстрый Лис',
+        link: 'https://vk.com/sport_v_garbolovo',
+        reg: 'https://reg.o-time.ru/race/26099',
+        type: 'SK_RACE',
+        fmt: '50 classic',
+        logo: 'garbolovo_ski.webp',
+        track: 'garbolovo_master_ski',
+        coords: [60.338019, 30.500704]
+    },
+    {
+        date: '2026-03-21',
+        place: 'Орехово',
+        name: 'Ореховская лыжня',
+        type: 'SK_RACE',
+        fmt: '51,34,13,3 skate',
+        start: 'MULTSPORT',
+        track: 'orekhovo_12_ski',
+        coords: [60.461689, 30.294732]
     },
 ];

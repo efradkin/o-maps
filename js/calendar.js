@@ -188,7 +188,9 @@ function td(evt, row, html) {
 
 function buildNumber(event, i) {
     let icon = '';
-    if (event.type.includes('RUN')) {
+    if (event.type.includes('SK_RACE')) {
+        icon = '&nbsp;⛷';
+    } else     if (event.type.includes('RUN')) {
         icon = '&nbsp;🏃';
     } else if (event.type.includes('SKI')) {
         icon = '&nbsp;❄';
