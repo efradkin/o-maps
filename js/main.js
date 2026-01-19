@@ -1502,31 +1502,6 @@ function buildOwners(m, withIcon) {
     return result;
 }
 
-function buildPlanners(m) {
-    let result = '';
-    if (typeof planners !== 'undefined') {
-        if (Array.isArray(m.planner)) {
-            result += '<ol>'
-            for (const o of m.planner) {
-                if (planners[o]) {
-                    result += '<li>' + planners[o].name + '</li>';
-                }
-            }
-            result += '</ol>'
-        } else {
-            if (planners[m.planner]) {
-                result += planners[m.planner].name + '<br />';
-            }
-        }
-        if (!result) {
-            if (!isNull(starts) && m.start && starts[m.start] && starts[m.start].planner) {
-                result += planners[starts[m.start].planner].name + '<br />';
-            }
-        }
-    }
-    return result;
-}
-
 function buildDownloadLinks(link, links) {
     let result = '';
     if (link || links) {

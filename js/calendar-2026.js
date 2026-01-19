@@ -93,6 +93,7 @@ let events2026 =
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24120/',
         info: '<a href="https://t.me/dlitelnyy/447">Разбор дистанций</a>.',
         owner: 'DLITELNY',
+        planner: 'KSHN_D'
     },{
         date: '2026-01-17',
         endDate: '2026-01-18',
@@ -106,6 +107,7 @@ let events2026 =
         },
         type: 'SKI',
         fmt: 'маркир,классика',
+        planner: 'SMNV_M',
         owner: 'SFSO_SPB'
     },{
         date: '2026-01-24',

@@ -2351,6 +2351,7 @@ let events2025 =
         photo: 'https://vk.com/album-230167293_312031217',
         map: 'politekh_2022',
         owner: 'SFSO_SPB',
+        planner: 'ZMLKV_A',
         info: '<a href="http://o-route.ru/">Треки участников</a>'
     }, {
         date: '2025-12-20',

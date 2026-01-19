@@ -1021,6 +1021,10 @@ function buildEventReports(evt, withGPS) {
     return result;
 }
 
+function buildEventInfo(evt) {
+    return (evt.info ?? '') + (evt.planner ? ' Планирование дистанции: ' + buildPlanners(evt) : '');
+}
+
 function buildEventType(evt, withFmt) {
     let result;
     switch (evt.type) {
@@ -1048,6 +1052,31 @@ function buildEventType(evt, withFmt) {
     }
     if (withFmt && evt.fmt) {
         result += '<br/><small>' + evt.fmt + '</small>'
+    }
+    return result;
+}
+
+function buildPlanners(m) {
+    let result = '';
+    if (typeof planners !== 'undefined') {
+        if (Array.isArray(m.planner)) {
+            result += '<ol>'
+            for (const o of m.planner) {
+                if (planners[o]) {
+                    result += '<li>' + planners[o].name + '</li>';
+                }
+            }
+            result += '</ol>'
+        } else {
+            if (planners[m.planner]) {
+                result += planners[m.planner].name + '<br />';
+            }
+        }
+        if (!result) {
+            if (!isNull(starts) && m.start && starts[m.start] && starts[m.start].planner) {
+                result += planners[starts[m.start].planner].name + '<br />';
+            }
+        }
     }
     return result;
 }

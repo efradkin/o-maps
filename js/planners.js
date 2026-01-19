@@ -92,5 +92,6 @@ let planners = {
     TRSV: { name: 'Тарасов Борис' },
     TRSV_D: { name: 'Тарасов Д' },
     VLKV_A: { name: 'Волков Андрей' },
-    VSLVSKY: { name: 'Василевский Александр' }
+    VSLVSKY: { name: 'Василевский Александр' },
+    ZMLKV_A: { name: 'Земляков Алексей' }
 };

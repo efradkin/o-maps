@@ -158,7 +158,7 @@ function renderMapsTable() {
             td(evt, row, buildEventType(evt, true));
             td(evt, row, buildEventResults(evt));
             td(evt, row, buildEventReports(evt, true));
-            td(evt, row, evt.info ?? '');
+            td(evt, row, buildEventInfo(evt));
             tbody.appendChild(row);
 
             prevDate = currentDate;
