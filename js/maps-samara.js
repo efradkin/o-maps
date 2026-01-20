@@ -13,6 +13,17 @@ let samaraMaps = [
         region: 'SMR'
     },
     {
+        name: 'Тольятти, Ставропольский сосняк',
+        date: '2026-01-18',
+        url: './maps/samara/toliatti_stavropolsky_sosniak_2026_rogaine.webp',
+        link: 'https://viewer.o-gps-center.ru/newmaps/course_24013_fa3a18e75f6b9b8e078b3ac0de973b7f.jpeg',
+        info: 'Соревнования по спортивному ориентированию в формате рогейн памяти Г.В. Штритера.',
+        bounds: [[53.51262786469413, 49.3013620376587], [53.508161730732425, 49.35822486877442], [53.488173206973485, 49.295954704284675]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24013/',
+        type: ['ROGAINE'],
+        region: 'SMR'
+    },
+    {
         name: 'Рамено',
         year: 2004,
         major: true,
