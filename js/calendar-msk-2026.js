@@ -1,4 +1,5 @@
-let mskEvents2026 = [ {
+let mskEvents2026 = [
+{
   date : "2026-01-02",
   name : "Новогодняя Ночь 2026",
   place : "Кучинский л/п",
@@ -8,7 +9,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-01-11",
   name : "Нано-Подкуст",
   place : "Битцевский Лес",
@@ -18,7 +20,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-01-17",
   name : "ЧиП Москвы",
   place : "ст. \"Медик\"",
@@ -28,7 +31,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-01-18",
   name : "Нано-Подкуст",
   place : "Серебряный Бор",
@@ -38,7 +42,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-01-24",
   name : "ЧиП Москвы",
   place : "Битцевский Лес",
@@ -48,7 +53,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-01-25",
   name : "ЧиП Москвы",
   place : "Битцевский Лес",
@@ -58,7 +64,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-01-31",
   name : "ЧиП Москвы",
   place : "Волкуша",
@@ -68,7 +75,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-02-01",
   name : "ЧиП Москвы",
   place : "Волкуша",
@@ -78,7 +86,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-02-06",
   name : "Ночные сор-я пам. А.С. Горюнова ЗИМА",
   place : "БЛК \"Марьино\"",
@@ -88,7 +97,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-02-07",
   name : "Нано-Подкуст",
   place : "Люблино",
@@ -98,7 +108,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-02-08",
   name : "Нано-Подкуст",
   place : "Борисово",
@@ -108,7 +119,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-02-14",
   name : "Нано-Подкуст",
   place : "Матвеевское",
@@ -118,7 +130,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-02-15",
   name : "Нано-Подкуст",
   place : "Район Ясенево",
@@ -128,7 +141,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-02-21",
   name : "Московская Весна",
   place : "Борисово",
@@ -138,7 +152,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-02-22",
   name : "Московская Весна",
   place : "Левобережный",
@@ -148,13 +163,15 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-02-22",
   name : "Первенство МКСШОР \"Запад\"",
   place : "Митино",
   type : "SKI",
   fmt : "ЛГ-Спринт"
-}, {
+},
+{
   date : "2026-02-23",
   name : "Московская Весна",
   place : "Орехово-Борисово южное",
@@ -164,7 +181,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-02-28",
   name : "Московская Весна",
   place : "Матвеевское",
@@ -174,7 +192,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-03-01",
   name : "Московская Весна",
   place : "Можайский",
@@ -184,13 +203,15 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-03-01",
   name : "XXXVIII МССИ ",
   place : "на согласовании",
   type : "SKI",
   fmt : "ЛГ-классика"
-}, {
+},
+{
   date : "2026-03-07",
   name : "Московская Весна",
   place : "Северное Чертаново",
@@ -200,7 +221,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-03-08",
   name : "Международный Женский День",
   place : "Пойма р. Городня",
@@ -210,7 +232,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-03-09",
   name : "Московская Весна",
   place : "Филёвская Пойма",
@@ -220,7 +243,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-03-14",
   name : "Московская Весна",
   place : "Чертаново (м.Чертановская)",
@@ -230,7 +254,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-03-15",
   name : "ЧиП г. Москвы Юношеский Фест.",
   place : "Восточный",
@@ -240,7 +265,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-03-15",
   name : "Московская Весна",
   place : "Марьино",
@@ -250,7 +276,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-03-21",
   name : "Московская Весна",
   place : "Марьино",
@@ -260,7 +287,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-03-22",
   name : "Московская Весна",
   place : "Ясенево",
@@ -270,7 +298,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-03-28",
   name : "Московская Весна",
   place : "Медведково",
@@ -280,7 +309,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-03-29",
   name : "Московская Весна",
   place : "Орехово-Борисово южное",
@@ -290,7 +320,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-03-31",
   name : "Московский Меридиан",
   place : "Жулебино",
@@ -299,7 +330,8 @@ let mskEvents2026 = [ {
   coord : [ 55.695015, 37.842514 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-04-02",
   name : "Московский Меридиан",
   place : "Кузьминки",
@@ -308,7 +340,8 @@ let mskEvents2026 = [ {
   coord : [ 55.689663, 37.819153 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-04-04",
   name : "Московская Весна",
   place : "Братеевский Каскадный парк",
@@ -318,7 +351,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-04-05",
   name : "День Космонавтики",
   place : "Долина Шмелева Ручья",
@@ -328,7 +362,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-04-07",
   name : "Московский Меридиан",
   place : "Кузьминки",
@@ -337,7 +372,8 @@ let mskEvents2026 = [ {
   coord : [ 55.689663, 37.819153 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-04-09",
   name : "Московский Меридиан",
   place : "Белая Дача",
@@ -346,13 +382,15 @@ let mskEvents2026 = [ {
   coord : [ 55.674133, 37.848701 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-04-11",
   name : "Откр. летн. сезона, XXXVIII МССИ ",
   place : "на согласовании",
   type : "ORIENT",
   fmt : "кросс-классика"
-}, {
+},
+{
   date : "2026-04-11",
   name : "Moscow City Race",
   place : "Репинский сквер",
@@ -362,7 +400,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-04-12",
   name : "ЧиП Москвы",
   place : "на согласовании",
@@ -371,7 +410,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-04-14",
   name : "Московский Меридиан",
   place : "Белая Дача",
@@ -380,7 +420,8 @@ let mskEvents2026 = [ {
   coord : [ 55.674133, 37.848701 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-04-16",
   name : "Московский Меридиан",
   place : "Рублёво-восток",
@@ -389,7 +430,8 @@ let mskEvents2026 = [ {
   coord : [ 55.773251, 37.377041 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-04-18",
   name : "Московский Нанорогейн",
   place : "Рублево",
@@ -399,7 +441,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-04-18",
   name : "ЧиП Москвы",
   place : "на согласовании",
@@ -408,7 +451,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-04-19",
   name : "ЧиП Москвы",
   place : "на согласовании",
@@ -417,7 +461,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-04-21",
   name : "Московский Меридиан",
   place : "Рублёво-запад",
@@ -426,7 +471,8 @@ let mskEvents2026 = [ {
   coord : [ 55.783012, 37.362808 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-04-23",
   name : "Московский Меридиан",
   place : "Рублёво-запад",
@@ -435,7 +481,8 @@ let mskEvents2026 = [ {
   coord : [ 55.783012, 37.362808 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-04-25",
   name : "Московский Компас",
   place : "Лыткарино",
@@ -445,7 +492,8 @@ let mskEvents2026 = [ {
   link : "https://sportident.ru/mk/",
   reg : "https://sportident.online/?en&d=2026&c=6&land=643&reg=50",
   start : "MSK_COMPASS"
-}, {
+},
+{
   date : "2026-04-26",
   name : "Московский Компас",
   place : "Лыткарино",
@@ -455,7 +503,8 @@ let mskEvents2026 = [ {
   link : "https://sportident.ru/mk/",
   reg : "https://sportident.online/?en&d=2026&c=6&land=643&reg=50",
   start : "MSK_COMPASS"
-}, {
+},
+{
   date : "2026-04-28",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -464,7 +513,8 @@ let mskEvents2026 = [ {
   coord : [ 55.641228, 37.556114 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-04-30",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -473,7 +523,8 @@ let mskEvents2026 = [ {
   coord : [ 55.632622, 37.58086 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-05-01",
   name : "Кубок Федерации СО г.Москвы",
   place : "Кусково",
@@ -482,7 +533,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-01",
   name : "Гран-При Будущие звезды",
   place : "Бутово",
@@ -491,7 +543,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-02",
   name : "ЧиП г. Москвы",
   place : "Яхрома",
@@ -500,7 +553,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-02",
   name : "Гран-При Будущие звезды",
   place : "Бутово",
@@ -509,7 +563,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-03",
   name : "ЧиП г. Москвы",
   place : "Красногорск",
@@ -518,7 +573,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-03",
   name : "Гран-При Будущие звезды",
   place : "Бутово",
@@ -527,7 +583,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-05",
   name : "Московский Меридиан",
   place : "Кузьминки",
@@ -536,7 +593,8 @@ let mskEvents2026 = [ {
   coord : [ 55.693329, 37.772224 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-05-07",
   name : "Московский Меридиан",
   place : "Покровское-Стрешнево",
@@ -545,7 +603,8 @@ let mskEvents2026 = [ {
   coord : [ 55.826338, 37.487866 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-05-09",
   name : "Московская Весна",
   place : "Покровское-Стрешнево",
@@ -555,7 +614,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-05-10",
   name : "Кубок Федерации СО г.Москвы",
   place : "Лыткарино",
@@ -564,7 +624,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-10",
   name : "День Победы",
   place : "Парк Дружбы",
@@ -574,7 +635,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-05-11",
   name : "ЧиП Москвы",
   place : "Хорлово",
@@ -583,7 +645,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-12",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -592,7 +655,8 @@ let mskEvents2026 = [ {
   coord : [ 55.632622, 37.58086 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-05-13",
   name : "Откр. первенство КСО \"Хорошево\"",
   place : "Покровское-Стрешнево",
@@ -601,7 +665,8 @@ let mskEvents2026 = [ {
   coord : [ 55.826338, 37.487866 ],
   link : "http://horoshevo-o-team.ru/",
   reg : "https://sportident.online/?en&c=6&land=643&reg=77"
-}, {
+},
+{
   date : "2026-05-14",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -610,7 +675,8 @@ let mskEvents2026 = [ {
   coord : [ 55.626858, 37.544853 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-05-16",
   name : "РОСАЗИМУТ",
   place : "парк Победы",
@@ -619,7 +685,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-17",
   name : "ЧиП Москвы",
   place : "Теплый Стан",
@@ -628,7 +695,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-19",
   name : "Московский Меридиан",
   place : "Ясенево",
@@ -637,7 +705,8 @@ let mskEvents2026 = [ {
   coord : [ 55.622139, 37.523602 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-05-21",
   name : "Московский Меридиан",
   place : "Сосновка",
@@ -646,7 +715,8 @@ let mskEvents2026 = [ {
   coord : [ 55.760006, 37.398121 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-05-22",
   name : "Слет Ориентировщиков",
   place : "Битцевский Лес",
@@ -655,7 +725,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-23",
   name : "Слет Ориентировщиков",
   place : "Битцевский Лес",
@@ -664,7 +735,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-24",
   name : "Слет Ориентировщиков",
   place : "Битцевский Лес",
@@ -673,7 +745,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-05-26",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -682,7 +755,8 @@ let mskEvents2026 = [ {
   coord : [ 55.624519, 37.546818 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-05-28",
   name : "Московский Меридиан",
   place : "Ясенево",
@@ -691,7 +765,8 @@ let mskEvents2026 = [ {
   coord : [ 55.62772, 37.538666 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-05-29",
   name : "Московская Весна + Moscow Sprint Tour",
   place : "Дюссельдорфский парк",
@@ -701,7 +776,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-05-30",
   name : "Московская Весна + Moscow Sprint Tour",
   place : "Парк А. Боровика",
@@ -711,7 +787,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-05-31",
   name : "Московская Весна + Moscow Sprint Tour",
   place : "Новокосино",
@@ -721,7 +798,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-06-02",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -730,7 +808,8 @@ let mskEvents2026 = [ {
   coord : [ 55.610455, 37.561783 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-06-04",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -739,7 +818,8 @@ let mskEvents2026 = [ {
   coord : [ 55.585289, 37.570236 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-06-06",
   name : "Московская Весна",
   place : "Жулебино",
@@ -749,7 +829,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-06-07",
   name : "Московская Весна",
   place : "Рублево",
@@ -759,7 +840,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-06-09",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -768,7 +850,8 @@ let mskEvents2026 = [ {
   coord : [ 55.585289, 37.570236 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-06-11",
   name : "Московский Меридиан",
   place : "ст. \"Медик\"",
@@ -777,7 +860,8 @@ let mskEvents2026 = [ {
   coord : [ 55.738086, 37.386742 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-06-12",
   name : "Рогейн Большая Битца 2026",
   place : "Битцевский лес",
@@ -787,7 +871,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-06-16",
   name : "Московское Лето",
   place : "Покровское-Стрешнево",
@@ -797,7 +882,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-06-18",
   name : "Московское Лето",
   place : "Сосновка",
@@ -807,7 +893,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-06-23",
   name : "Московское Лето",
   place : "Воробьевы Горы",
@@ -817,7 +904,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-06-25",
   name : "Московское Лето",
   place : "Кусково",
@@ -827,7 +915,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-06-30",
   name : "Московское Лето",
   place : "ст. \"Медик\"",
@@ -837,7 +926,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-07-02",
   name : "Московское Лето",
   place : "Нескучный Сад",
@@ -847,7 +937,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-07-07",
   name : "Московское Лето",
   place : "Серебряный Бор",
@@ -857,7 +948,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-07-09",
   name : "Московское Лето",
   place : "Братеевский парк",
@@ -867,7 +959,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-07-14",
   name : "Московское Лето",
   place : "Воронцовский парк",
@@ -877,7 +970,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-07-16",
   name : "Московское Лето",
   place : "Парк Сев. Реч. вокзала",
@@ -887,7 +981,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-07-21",
   name : "Московское Лето",
   place : "Воробьевы Горы",
@@ -897,7 +992,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-07-23",
   name : "Московское Лето",
   place : "Парк 850 летия Москвы",
@@ -907,7 +1003,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-07-28",
   name : "Московское Лето",
   place : "Ходынское поле",
@@ -917,7 +1014,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-07-30",
   name : "Московское Лето",
   place : "Покровское-Стрешнево",
@@ -927,7 +1025,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-08-04",
   name : "Московское Лето",
   place : "Кусково",
@@ -937,7 +1036,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-08-06",
   name : "Московское Лето",
   place : "Серебряный Бор",
@@ -947,7 +1047,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-08-11",
   name : "Московское Лето",
   place : "Парк Дружбы",
@@ -957,7 +1058,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-08-13",
   name : "Московское Лето",
   place : "Пойма р. Городня",
@@ -967,7 +1069,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-08-13",
   name : "Московский Меридиан",
   place : "Рублёво-запад",
@@ -976,7 +1079,8 @@ let mskEvents2026 = [ {
   coord : [ 55.783012, 37.362808 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-08-18",
   name : "Московский Меридиан",
   place : "Рублёво-восток",
@@ -985,7 +1089,8 @@ let mskEvents2026 = [ {
   coord : [ 55.773251, 37.377041 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-08-20",
   name : "Московский Меридиан",
   place : "Рублёво-запад",
@@ -994,7 +1099,8 @@ let mskEvents2026 = [ {
   coord : [ 55.783012, 37.362808 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-08-25",
   name : "Московский Меридиан",
   place : "Кузьминки",
@@ -1003,7 +1109,8 @@ let mskEvents2026 = [ {
   coord : [ 55.693329, 37.772224 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-08-27",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -1012,7 +1119,8 @@ let mskEvents2026 = [ {
   coord : [ 55.585289, 37.570236 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-08-29",
   name : "Московская Осень",
   place : "Салтыковка",
@@ -1022,7 +1130,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-08-29",
   name : "Спортивное Долголетие",
   place : "Салтыковка",
@@ -1032,7 +1141,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-08-30",
   name : "Московская Осень",
   place : "Салтыковка",
@@ -1042,7 +1152,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-08-30",
   name : "Спортивное Долголетие",
   place : "Салтыковка",
@@ -1052,7 +1163,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-09-01",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -1061,7 +1173,8 @@ let mskEvents2026 = [ {
   coord : [ 55.632622, 37.58086 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-09-03",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -1070,7 +1183,8 @@ let mskEvents2026 = [ {
   coord : [ 55.585289, 37.570236 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-09-05",
   name : "Московская Осень",
   place : "Измайлово-запад",
@@ -1080,7 +1194,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-09-06",
   name : "Покровская Горизонталь",
   place : "Покровское-Стрешнево",
@@ -1090,7 +1205,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-09-08",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -1099,7 +1215,8 @@ let mskEvents2026 = [ {
   coord : [ 55.624519, 37.546818 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-09-10",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -1108,7 +1225,8 @@ let mskEvents2026 = [ {
   coord : [ 55.626858, 37.544853 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-09-12",
   name : "Кубок Федерации СО г.Москвы",
   place : "Кусково",
@@ -1117,7 +1235,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-09-12",
   name : "Московская Осень",
   place : "Измайлово-восток",
@@ -1127,7 +1246,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-09-13",
   name : "Кубок Клубов ФСОМ",
   place : "на согласовании",
@@ -1136,7 +1256,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-09-15",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -1145,7 +1266,8 @@ let mskEvents2026 = [ {
   coord : [ 55.632622, 37.58086 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-09-17",
   name : "Московский Меридиан",
   place : "Битцевский лес",
@@ -1154,7 +1276,8 @@ let mskEvents2026 = [ {
   coord : [ 55.632622, 37.58086 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-09-19",
   name : "Московская Осень",
   place : "ст. \"Медик\"",
@@ -1164,7 +1287,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-09-20",
   name : "ЧиП Москвы",
   place : "Фосфоритный",
@@ -1173,7 +1297,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-09-22",
   name : "Московский Меридиан",
   place : "Ясенево",
@@ -1182,7 +1307,8 @@ let mskEvents2026 = [ {
   coord : [ 55.62772, 37.538666 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-09-24",
   name : "Московский Меридиан",
   place : "Кузьминки",
@@ -1191,7 +1317,8 @@ let mskEvents2026 = [ {
   coord : [ 55.693329, 37.772224 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-09-26",
   name : "Кубок Федерации СО г.Москвы",
   place : "по назначению",
@@ -1200,7 +1327,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-09-26",
   name : "Ночные соревнования пам. А.С. Горюнова",
   place : "на согласовании",
@@ -1210,7 +1338,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-09-27",
   name : "ЧиП Москвы",
   place : "Парк Победы",
@@ -1219,7 +1348,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-09-29",
   name : "Московский Меридиан",
   place : "Покровское-Стрешнево",
@@ -1228,7 +1358,8 @@ let mskEvents2026 = [ {
   coord : [ 55.826338, 37.487866 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-10-01",
   name : "Московский Меридиан",
   place : "Сосновка",
@@ -1237,7 +1368,8 @@ let mskEvents2026 = [ {
   coord : [ 55.760006, 37.398121 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-10-03",
   name : "ЧиП Москвы",
   place : "Люберцы",
@@ -1246,7 +1378,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-10-03",
   name : "Moscow City Race",
   place : "Чистые Пруды",
@@ -1256,7 +1389,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-10-04",
   name : "ЧиП Москвы",
   place : "Битцевский Лес",
@@ -1265,7 +1399,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-10-04",
   name : "Первенство КСО Москомпасориента",
   place : "Белая Дача",
@@ -1275,7 +1410,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-10-06",
   name : "Московский Меридиан",
   place : "Ясенево",
@@ -1284,7 +1420,8 @@ let mskEvents2026 = [ {
   coord : [ 55.62772, 37.538666 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-10-08",
   name : "Московский Меридиан",
   place : "Серебряный Бор",
@@ -1293,7 +1430,8 @@ let mskEvents2026 = [ {
   coord : [ 55.779381, 37.42537 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-10-10",
   name : "Откр. первенство КСО \"Хорошево\"",
   place : "Покровское-Стрешнево",
@@ -1302,7 +1440,8 @@ let mskEvents2026 = [ {
   coord : [ 55.826338, 37.487866 ],
   link : "http://horoshevo-o-team.ru/",
   reg : "https://sportident.online/?en&c=6&land=643&reg=77"
-}, {
+},
+{
   date : "2026-10-10",
   name : "Московская Осень + Полуночное ориентирование в Дубках",
   place : "Парк Дубки",
@@ -1312,7 +1451,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-10-11",
   name : "Памяти Друзей",
   place : "Битцевский Лес",
@@ -1321,7 +1461,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-10-13",
   name : "Московский Меридиан",
   place : "Серебряный Бор",
@@ -1330,7 +1471,8 @@ let mskEvents2026 = [ {
   coord : [ 55.779381, 37.42537 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-10-15",
   name : "Московский Меридиан",
   place : "л/з «Тропарёвский»",
@@ -1339,7 +1481,8 @@ let mskEvents2026 = [ {
   coord : [ 55.647988, 37.466378 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-10-17",
   name : "Откр. первенство КСО \"Хорошево\"",
   place : "Покровское-Стрешнево",
@@ -1348,7 +1491,8 @@ let mskEvents2026 = [ {
   coord : [ 55.826338, 37.487866 ],
   link : "http://horoshevo-o-team.ru/",
   reg : "https://sportident.online/?en&c=6&land=643&reg=77"
-}, {
+},
+{
   date : "2026-10-17",
   name : "Московская Осень",
   place : "Воробьевы Горы",
@@ -1358,7 +1502,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-10-18",
   name : "ЧиП Москвы, One Man Relay",
   place : "Осташово",
@@ -1367,7 +1512,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-10-20",
   name : "Московский Меридиан",
   place : "Ясеневский лесопарк – Мореон",
@@ -1376,7 +1522,8 @@ let mskEvents2026 = [ {
   coord : [ 55.598554, 37.524075 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-10-22",
   name : "Московский Меридиан",
   place : "Самородинка-запад",
@@ -1385,7 +1532,8 @@ let mskEvents2026 = [ {
   coord : [ 55.662663, 37.500954 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-10-24",
   name : "Московская Осень",
   place : "Битцевский лес",
@@ -1395,7 +1543,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-10-25",
   name : "Золотая осень",
   place : "Кусково",
@@ -1405,7 +1554,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-10-27",
   name : "Московский Меридиан",
   place : "Самородинка-восток",
@@ -1414,7 +1564,8 @@ let mskEvents2026 = [ {
   coord : [ 55.656926, 37.504983 ],
   link : "https://mosmeridian.website.yandexcloud.net/",
   owner : "SYTV_N"
-}, {
+},
+{
   date : "2026-10-31",
   name : "Московская Осень",
   place : "Сосновка",
@@ -1424,7 +1575,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-11-01",
   name : "Московская Осень",
   place : "Битцевский лес(Ясенево)",
@@ -1434,7 +1586,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-11-04",
   name : "Московский Нанорогейн",
   place : "Лыткарино (Волкуша)",
@@ -1444,7 +1597,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-11-07",
   name : "Московская Осень",
   place : "Нескучный Сад",
@@ -1454,7 +1608,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-11-08",
   name : "Московская Осень",
   place : "Покровское-Стрешнево",
@@ -1464,7 +1619,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-11-14",
   name : "Московская Осень",
   place : "Рублево",
@@ -1474,7 +1630,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-11-15",
   name : "Московская Осень",
   place : "Тимирязевский парк",
@@ -1484,7 +1641,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-11-21",
   name : "Московская Осень",
   place : "Ст. \"Медик\"",
@@ -1494,7 +1652,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-11-22",
   name : "Московская Осень",
   place : "Долина Шмелева ручья",
@@ -1504,7 +1663,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-11-28",
   name : "Московская Осень",
   place : "Белая дача",
@@ -1514,7 +1674,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-11-29",
   name : "Покровская Снежнинка",
   place : "Покровское-Стрешнево",
@@ -1524,7 +1685,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-12-05",
   name : "Московский Нанорогейн",
   place : "Замоскворечье",
@@ -1534,7 +1696,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-12-06",
   name : "Рубеж Славы",
   place : "на согласовании",
@@ -1543,7 +1706,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-12-12",
   name : "Снежная Тропа",
   place : "Химкинский л/п",
@@ -1553,7 +1717,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-12-13",
   name : "Снежная Тропа",
   place : "Ясенево(юг)",
@@ -1563,7 +1728,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-12-19",
   name : "Снежная Тропа",
   place : "Парк Дружбы",
@@ -1573,7 +1739,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-12-20",
   name : "Снежная Тропа",
   place : "Тропарево",
@@ -1583,7 +1750,8 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-}, {
+},
+{
   date : "2026-12-20",
   name : "Открытие Зимнего Сезона",
   place : "по назначению",
@@ -1592,7 +1760,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-12-26",
   name : "Новогодние Старты",
   place : "на согласовании",
@@ -1601,7 +1770,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2026-12-27",
   name : "Новогодние Старты",
   place : "на согласовании",
@@ -1610,7 +1780,8 @@ let mskEvents2026 = [ {
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
-}, {
+},
+{
   date : "2027-01-02",
   name : "Новогодняя ночь 2027",
   place : "Салтыковка",
@@ -1620,4 +1791,5 @@ let mskEvents2026 = [ {
   link : "https://orienteering.moscow/",
   reg : "https://orgeo.ru/event/organizer/24222",
   owner : "CLEVER_MSK"
-} ]
+}
+]

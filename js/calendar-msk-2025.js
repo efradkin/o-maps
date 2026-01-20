@@ -1,4 +1,5 @@
-let mskEvents2025 = [ {
+let mskEvents2025 = [
+{
   date : "2025-01-02",
   name : "Новогодняя Ночь 2025",
   place : "Кучинский л/п",
@@ -10,7 +11,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/novnoch2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-01-09",
   name : "Ночной Четверг 2024-2025",
   place : "р-н Марьино",
@@ -22,7 +24,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/NT2024_10_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-01-16",
   name : "Ночной Четверг 2024-2025",
   place : "р-н Вешняки",
@@ -34,7 +37,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/NT2024_11_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-01-18",
   name : "Нано-Подкуст 2025",
   place : "Измайлово",
@@ -46,7 +50,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_1_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-01-23",
   name : "Ночной Четверг 2024-2025",
   place : "р-н Вешняки",
@@ -58,7 +63,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/NT2024_12_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-01-26",
   name : "Нано-Подкуст 2025",
   place : "Кузьминки",
@@ -70,7 +76,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_2_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-01-31",
   name : "Ночные сор-я пам. А.С. Горюнова ЗИМА",
   place : "БЛК \"Марьино\"",
@@ -82,7 +89,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Gorunov_2025W_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-02-01",
   name : "ЧиП Москвы",
   place : "Алёшкино",
@@ -94,7 +102,8 @@ let mskEvents2025 = [ {
   res : "http://celestia.su/ol",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-02-02",
   name : "Нано-Подкуст 2025",
   place : "Поворот на Рублево",
@@ -106,7 +115,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_3_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-02-08",
   name : "ЧиП Москвы",
   place : "Салтыковка",
@@ -118,7 +128,8 @@ let mskEvents2025 = [ {
   res : "http://celestia.su/ol",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-02-09",
   name : "ЧиП Москвы",
   place : "Салтыковка",
@@ -130,7 +141,8 @@ let mskEvents2025 = [ {
   res : "http://celestia.su/ol",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-02-08",
   name : "Нано-Подкуст 2025",
   place : "Район Ясенево",
@@ -142,7 +154,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_4_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-02-09",
   name : "Нано-Подкуст 2025",
   place : "Серебряный Бор",
@@ -154,7 +167,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_5_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-02-15",
   name : "Московская Зима",
   place : "Салтыковка",
@@ -166,7 +180,8 @@ let mskEvents2025 = [ {
   res : "http://celestia.su/ol",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-02-15",
   name : "Нано-Подкуст 2025",
   place : "Медик-Ромашково",
@@ -178,7 +193,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_6_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-02-16",
   name : "Нано-Подкуст 2025",
   place : "ПКиО Измайлово",
@@ -190,7 +206,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_7_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-02-22",
   name : "Нано-Подкуст 2025",
   place : "Битцевский Лес",
@@ -202,7 +219,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_8_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-03-01",
   name : "Московская Весна",
   place : "Борисово",
@@ -214,7 +232,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_1_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-03-02",
   name : "Московская Весна",
   place : "Левобережный",
@@ -226,7 +245,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_2_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-03-08",
   name : "Международный Женский День",
   place : "Зябликово",
@@ -238,7 +258,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/8marta2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-03-09",
   name : "Московская Весна",
   place : "Марьино",
@@ -250,7 +271,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_3_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-03-15",
   name : "Московская Весна",
   place : "Матвеевское",
@@ -262,7 +284,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_4_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-03-16",
   name : "Московская Весна",
   place : "Можайский",
@@ -274,7 +297,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_5_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-03-22",
   name : "Московская Весна",
   place : "Марьино",
@@ -286,7 +310,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_6_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-03-23",
   name : "Московская Весна",
   place : "Филёвская Пойма",
@@ -298,7 +323,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_7_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-03-29",
   name : "Московская Весна",
   place : "Медведково",
@@ -310,7 +336,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_8_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-03-30",
   name : "Московская Весна",
   place : "Северное Чертаново",
@@ -322,7 +349,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_9_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-04-05",
   name : "Московская Весна",
   place : "Ясенево",
@@ -334,7 +362,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_10_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-04-06",
   name : "День Космонавтики",
   place : "Садовники-Коломенское",
@@ -346,7 +375,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/den_kosmonavtiki_2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-04-12",
   name : "Московский Нанорогейн",
   place : "Белопесоцкий",
@@ -358,7 +388,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosNanorogaine_2025_1_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-04-19",
   name : "Moscow City Race",
   place : "Красные ворота",
@@ -370,7 +401,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MCR_2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-05-04",
   name : "Московский Нанорогейн",
   place : "Кузьминки-Белая Дача",
@@ -381,7 +413,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosNanorogaine_2025_2_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-05-08",
   name : "Московская Весна",
   place : "Покровское-Стрешнево",
@@ -393,7 +426,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_11_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-05-09",
   name : "День Победы",
   place : "Парк Дружбы",
@@ -405,7 +439,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Den_Pobedi_2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-05-10",
   name : "Московская Весна",
   place : "Кузьминки Заречье",
@@ -417,7 +452,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_12_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-05-31",
   name : "Московская Весна + Moscow Sprint Tour",
   place : "Чертаново (м.Чертановская)",
@@ -429,7 +465,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_13_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-06-01",
   name : "Московская Весна + Moscow Sprint Tour",
   place : "Орехово-Борисово южное",
@@ -441,7 +478,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_14_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-06-07",
   name : "Московская Весна",
   place : "Жулебино",
@@ -453,7 +491,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_15_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-06-08",
   name : "Московская Весна",
   place : "Алёшкино",
@@ -465,7 +504,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosVesna_2025_16_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-06-12",
   name : "Рогейн Большое Измайлово 2025",
   place : "с/х 1 мая",
@@ -477,7 +517,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/bigizmailovo_2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-06-17",
   name : "Московское Лето",
   place : "Покровское-Стрешнево",
@@ -489,7 +530,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_1_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-06-19",
   name : "Московское Лето",
   place : "Сосновка",
@@ -501,7 +543,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_2_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-06-24",
   name : "Московское Лето",
   place : "Парк Дружбы",
@@ -513,7 +556,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_3_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-06-26",
   name : "Московское Лето",
   place : "Кусково",
@@ -525,7 +569,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_4_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-06-29",
   name : "Нано-Подкуст 2025",
   place : "Салтыковка",
@@ -537,7 +582,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_9_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-07-01",
   name : "Московское Лето",
   place : "Серебряный Бор",
@@ -549,7 +595,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_5_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-07-03",
   name : "Московское Лето",
   place : "Нескучный Сад",
@@ -561,7 +608,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_6_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-07-06",
   name : "Нано-Подкуст 2025",
   place : "Битцевский лес",
@@ -573,7 +621,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_10_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-07-08",
   name : "Московское Лето",
   place : "Кузьминки (Волжская)",
@@ -585,7 +634,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_7_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-07-10",
   name : "Московское Лето",
   place : "Братеевский парк",
@@ -597,7 +647,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_8_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-07-15",
   name : "Московское Лето",
   place : "Воронцовский парк",
@@ -609,7 +660,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_9_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-07-17",
   name : "Московское Лето",
   place : "Парк Шкулёва",
@@ -621,7 +673,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_10_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-07-22",
   name : "Московское Лето",
   place : "Воробьевы Горы",
@@ -633,7 +686,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_11_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-07-24",
   name : "Московское Лето",
   place : "Парк 850 летия Москвы",
@@ -645,7 +699,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_12_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-07-29",
   name : "Московское Лето",
   place : "Ходынское поле",
@@ -657,7 +712,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_13_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-07-31",
   name : "Московское Лето",
   place : "Покровское-Стрешнево",
@@ -669,7 +725,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_14_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-08-05",
   name : "Московское Лето",
   place : "Кусково",
@@ -681,7 +738,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_15_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-08-07",
   name : "Московское Лето",
   place : "Серебряный Бор",
@@ -693,7 +751,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_16_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-08-12",
   name : "Московское Лето",
   place : "Кузьминки (Заречье)",
@@ -705,7 +764,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_17_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-08-14",
   name : "Московское Лето",
   place : "Воробьевы Горы",
@@ -717,7 +777,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Mosleto2025_18_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-08-23",
   name : "Московская Осень + Moscow Sprint Tour",
   place : "Вешняки",
@@ -729,7 +790,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_1_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-08-24",
   name : "Московская Осень + Moscow Sprint Tour",
   place : "Орехово-Борисово южное",
@@ -741,7 +803,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_2_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-08-30",
   name : "Московская Осень",
   place : "Салтыковка",
@@ -753,7 +816,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_3_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-08-30",
   name : "Спортивное Долголетие",
   place : "Салтыковка",
@@ -765,7 +829,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_3_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-08-31",
   name : "Московская Осень",
   place : "Салтыковка",
@@ -777,7 +842,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_4_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-08-31",
   name : "Спортивное Долголетие",
   place : "Салтыковка",
@@ -789,7 +855,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_4_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-09-06",
   name : "Московская Осень",
   place : "Измайлово-запад",
@@ -801,7 +868,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_5_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-09-07",
   name : "Московская Осень",
   place : "Измайлово-восток",
@@ -813,7 +881,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_6_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-09-13",
   name : "Покровская Горизонталь",
   place : "Покровское-Стрешнево",
@@ -825,7 +894,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/PokrGoriz_2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-09-27",
   name : "Moscow City Race",
   place : "Патриаршие Пруды",
@@ -837,7 +907,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MCR_2025_2_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-09-27",
   name : "Нано-Подкуст 2025",
   place : "Воробьевы Горы",
@@ -849,7 +920,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_11_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-09-28",
   name : "Нано-Подкуст 2025",
   place : "Фосфоритный",
@@ -861,7 +933,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/nano_podkust_2025_12_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-09-28",
   name : "ЧиП Москвы",
   place : "Фосфоритный",
@@ -873,7 +946,8 @@ let mskEvents2025 = [ {
   res : "http://celestia.su/ol",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-10-04",
   name : "Ночные соревнования пам. А.С. Горюнова",
   place : "Нескучный Сад",
@@ -885,7 +959,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Gorunov_2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-10-11",
   name : "Московский Нанорогейн",
   place : "Лыткарино (Яма)",
@@ -896,7 +971,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosNanorogaine_2025_3_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-10-11",
   name : "Московская Осень + Moscow Sprint Tour",
   place : "Орехово-Борисово южное",
@@ -908,7 +984,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_2_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-10-18",
   name : "Полуночное ориентирование в Дубках",
   place : "Парк Дубки",
@@ -920,7 +997,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Dubki_2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-10-18",
   name : "Московская Осень",
   place : "Парк Дубки",
@@ -932,7 +1010,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_7_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-10-19",
   name : "Первенство КСО Москомпасориента",
   place : "Кузьминки",
@@ -944,7 +1023,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/Moscompasorienta_2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-10-25",
   name : "Московская Осень, ночной этап",
   place : "Стадион \"Медик\"",
@@ -956,7 +1036,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_8x_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-10-25",
   name : "Московская Осень",
   place : "Стадион \"Медик\"",
@@ -968,7 +1049,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_8_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-10-26",
   name : "Золотая осень",
   place : "Кусково",
@@ -980,7 +1062,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/ZolOsen_2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-11-02",
   name : "Московская Осень",
   place : "Сосновка",
@@ -992,7 +1075,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_9_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-11-03",
   name : "Московская Осень",
   place : "Битцевский лес (Узкое)",
@@ -1004,7 +1088,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_10_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-11-04",
   name : "Московский Нанорогейн",
   place : "Лыткарино (Яма)",
@@ -1016,7 +1101,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosNanorogaine_2025_4_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-11-08",
   name : "Московская Осень",
   place : "Нескучный Сад",
@@ -1028,7 +1114,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_11_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-11-09",
   name : "Московская Осень",
   place : "Покровское-Стрешнево",
@@ -1040,7 +1127,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_12_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-11-15",
   name : "Московская Осень",
   place : "Рублево",
@@ -1052,7 +1140,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_13_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-11-16",
   name : "Московская Осень",
   place : "Ясенево-Битца",
@@ -1064,7 +1153,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_14_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-11-22",
   name : "Московская Осень",
   place : "Ст. \"Медик\"",
@@ -1076,7 +1166,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_15_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-11-23",
   name : "Московская Осень",
   place : "Алешкино",
@@ -1088,7 +1179,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_16_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-11-29",
   name : "Московская Осень",
   place : "Белая дача",
@@ -1100,7 +1192,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/mososen_2025_17_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-11-30",
   name : "Покровская Снежнинка",
   place : "Покровское-Стрешнево",
@@ -1112,7 +1205,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/pokr_2025_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-12-06",
   name : "Московский Нанорогейн",
   place : "Патриаршие пруды",
@@ -1124,7 +1218,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/MosNanorogaine_2025_5_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-12-13",
   name : "Снежная Тропа",
   place : "Химкинский л/п",
@@ -1136,7 +1231,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/snej_2025_1_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-12-14",
   name : "Снежная Тропа",
   place : "Ясенево(юг)",
@@ -1148,7 +1244,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/snej_2025_2_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-12-20",
   name : "Снежная Тропа",
   place : "Парк Дружбы",
@@ -1160,7 +1257,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/snej_2025_3_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2025-12-21",
   name : "Снежная Тропа",
   place : "Дендропарк",
@@ -1172,7 +1270,8 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/snej_2025_4_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-}, {
+},
+{
   date : "2026-01-02",
   name : "Новогодняя ночь 2026",
   place : "Салтыковка",
@@ -1184,4 +1283,5 @@ let mskEvents2025 = [ {
   res : "http://o-mephi.net/cup/prot/novnoch2026_.htm",
   owner : "CLEVER_MSK",
   photo : "https://vk.com/albums-78257998"
-} ]
+}
+]
