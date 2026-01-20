@@ -77,6 +77,16 @@ let otherEvents2026 =
         owner: 'RUNC',
     },
     {
+        date: '2026-10-04',
+        place: 'Павловск',
+        name: 'Осенний Павловский забег',
+        link: 'https://pushkin-run.ru',
+        type: 'RUN',
+        fmt: '21, 10, 3',
+        start: 'PUSHKINRUN',
+        track: 'pavlovsky_zabeg_21'
+    },
+    {
         date: '2026-10-25',
         place: 'СПб',
         name: 'Арена марафон',
@@ -141,5 +151,12 @@ let otherEvents2026 =
         start: 'MULTSPORT',
         track: 'orekhovo_12_ski',
         coords: [60.461689, 30.294732]
+    },
+    {
+        date: '2026-03-08',
+        place: 'Гатчина',
+        name: 'Гатчинский марафон',
+        type: 'SK_RACE',
+        fmt: '50,30,10 skate',
     },
 ];

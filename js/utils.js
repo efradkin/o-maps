@@ -1044,7 +1044,7 @@ function buildEventType(evt, withFmt) {
             if (isRogaine(evt)) {
                 result = 'Лыжный рогейн';
             } else {
-                result = 'Лыжи';
+                result = 'Ориент лыж';
             }
         } else if (evt.type.includes('VELO')) {
             result = 'Рогейн';

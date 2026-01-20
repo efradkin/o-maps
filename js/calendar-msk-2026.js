@@ -21,10 +21,10 @@ let mskEvents2026 = [ {
 }, {
   date : "2026-01-17",
   name : "ЧиП Москвы",
-  place : "Ромашково",
+  place : "ст. \"Медик\"",
   type : "SKI",
   fmt : "ЛГ-МТ",
-  coord : [ 55.733761, 37.359318 ],
+  coord : [ 55.738086, 37.386742 ],
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"
@@ -41,10 +41,10 @@ let mskEvents2026 = [ {
 }, {
   date : "2026-01-24",
   name : "ЧиП Москвы",
-  place : "Восточный",
+  place : "Битцевский Лес",
   type : "SKI",
   fmt : "ЛГ-Спринт",
-  coord : [ 55.814963, 37.881416 ],
+  coord : [ 55.614317, 37.578417 ],
   link : "https://mosorient.ru/",
   reg : "https://orgeo.ru/event/index/type/orienteering/region/moscow+mosobl/no_national/1?search=",
   owner : "FSO_MSK"

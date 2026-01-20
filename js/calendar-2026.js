@@ -108,6 +108,7 @@ let events2026 =
             'М17/45/55/Ф-Сл':'https://viewer.o-gps-center.ru/viewer/event/24138/',
             'Все КП':'https://viewer.o-gps-center.ru/viewer/event/24123/'
         },
+        photo: 'https://vk.com/album-230167293_312356826',
         type: 'SKI',
         fmt: 'маркир,классика',
         planner: 'SMNV_M',
@@ -118,6 +119,7 @@ let events2026 =
         endDate: '2026-01-25',
         place: 'Кировск',
         name: 'ЧиП ЛО',
+        link: 'https://o-site.spb.ru/race.php?id=260124_bn',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_2425012026',
         type: 'SKI',
         fmt: 'классика,многодневная',
