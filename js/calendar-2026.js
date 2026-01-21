@@ -185,14 +185,6 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
-    id: 'SPB_20260201_1',
-    date: '2026-02-01',
-    name: 'ЧиП СПб',
-    type: 'SKI',
-    fmt: 'эстафета',
-    owner: 'SFSO_SPB'
-},
-{
     id: 'SPB_20260207_1',
     date: '2026-02-07',
     place: 'Луга, оз Штоль',

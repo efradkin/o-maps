@@ -127,7 +127,8 @@ let otherEvents2026 = [
     fmt: '50 skate',
     logo: 'tikhvin.gif',
     track: 'tikhvin_omaps',
-    coords: [59.644209, 33.542096]
+    coords: [59.644209, 33.542096],
+    cancelled: true
 },
 {
     id: 'OTHER_20260131_1',

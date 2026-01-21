@@ -496,7 +496,7 @@ button.nav-link {
     font-size: 8px;
     color: navy;
 }
-#header_checkbox_container {
+.header_checkbox_container {
     font-size: .5em;
     padding-left: 0;
 }
@@ -684,6 +684,10 @@ body.integration-body {
             color: white;
             background-color: darkolivegreen;
             padding-left: 85px;
+        }
+        .my-cp {
+            color: #FF671F;
+            font-size: 20px;
         }
     }
 }

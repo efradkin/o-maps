@@ -92,9 +92,16 @@
     <h2>
         Календарь стартов СПб
 
-        <sup id="header_checkbox_container">
+        <sup class="header_checkbox_container">
             <input type="checkbox" id="only-major" name="only-major" onclick="switchRus(this.checked);" />
             <label for="only-major">только важные</label>
+        </sup>
+
+        <sup class="header_checkbox_container">
+            <input type="checkbox" id="only-my" name="only-my" onclick="switchMy(this.checked);" />
+            <label for="only-my">только мои</label>
+            <a href="#" id="edit-my-button" onclick="editMy(); return false" title="Правка своих" style="display: none">✏️</a>
+            <a href="#" id="edit-my-done-button" onclick="modifyDone(); return false" title="Готово" style="display: none">✔️</a>
         </sup>
     </h2>
 

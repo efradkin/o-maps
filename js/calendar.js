@@ -2,6 +2,8 @@ const urlParams = new URLSearchParams(window.location.search);
 const EVENT_TYPE_PARAM = urlParams.get('event-type');
 const EVENT_MONTH_PARAM = urlParams.get('event-month');
 const CALENDAR_NAME_PARAM = urlParams.get('calendar');
+const HAS_MY_PARAM = urlParams.has('my');
+const HAS_MY_EDIT_PARAM = urlParams.has('my-edit');
 
 let onlyMajor = false;
 let major = localStorage.getItem('onlyMajor');
@@ -11,9 +13,47 @@ if (major != null) {
 if (onlyMajor) {
     document.getElementById('only-major').checked = 'checked';
 }
+if (HAS_MY_PARAM) {
+    document.getElementById('only-my').checked = 'checked';
+}
+if (HAS_MY_EDIT_PARAM) {
+    document.getElementById('edit-my-done-button').style.display = 'inline';
+} else {
+    document.getElementById('edit-my-button').style.display = 'inline';
+}
+
+let myEvents = [];
+const me = localStorage.getItem('myEvents');
+if (me) {
+    myEvents = [
+        ...me.split(',')
+    ];
+}
+
 function switchRus(value) {
     localStorage.setItem('onlyMajor', value);
     location.reload();
+}
+
+function switchMy(checked) {
+    const href = location.origin + location.pathname;
+    location.href = href + (checked ? '?my' : '');
+}
+
+function saveMy() {
+    const checkboxes = document.querySelectorAll(`input.my-checkbox:checked`);
+    const checkedIds = Array.from(checkboxes).map(checkbox => checkbox.id);
+    localStorage.setItem('myEvents', checkedIds.join(','));
+}
+
+function editMy() {
+    const href = location.origin + location.pathname;
+    location.href = href + '?my-edit';
+}
+
+function modifyDone() {
+    const href = location.origin + location.pathname;
+    location.href = href;
 }
 
 // Фильтрация массива. Оставляем только эвенты, соответствующие критерию запроса (есди он задан).
@@ -81,7 +121,9 @@ window.onload = function() {
         const currentRow = document.querySelector('.current');
         if (currentRow) {
             const firstCurrent = currentRow.previousSibling;
-            firstCurrent.scrollIntoView();
+            if (firstCurrent) {
+                firstCurrent.scrollIntoView();
+            }
         }
     }, 1000);
 
@@ -104,6 +146,10 @@ function renderMapsTable() {
     let prevYear = 0;
     let currentMonth = -1;
     for (const evt of oEvents) {
+        if (HAS_MY_PARAM && (!evt.id || !myEvents.includes(evt.id))) {
+            continue;
+        }
+
         if (validateEvent(evt)) {
             currentDate = new Date(evt.date);
             let month = currentDate.getMonth();
@@ -117,8 +163,11 @@ function renderMapsTable() {
                 monthTD.setAttribute('colspan', 8);
                 monthTD.classList.add('month-row');
                 monthRow.appendChild(monthTD);
-                tbody.appendChild(monthRow);
+                if (!HAS_MY_PARAM) {
+                    tbody.appendChild(monthRow);
+                }
             }
+
             const row = document.createElement('tr');
             if (isOutdated(currentDate)) {
                 row.classList.add('disabled');
@@ -179,7 +228,7 @@ function buildMonth() {
 
 function td(evt, row, html) {
     const td = document.createElement('td');
-    if (evt.major) {
+    if (evt.major || (evt.id && myEvents.includes(evt.id))) {
         html = `<b>${html}</b>`;
     }
     td.innerHTML = html;
@@ -199,7 +248,17 @@ function buildNumber(event, i) {
     } else if (event.type.includes('WATER')) {
         icon = '&nbsp;🚣';
     }
-    return (i + 1) + icon;
+    let checkbox =  '', myEvent = '';
+    if (event.id) {
+        if (HAS_MY_EDIT_PARAM) {
+            const checked = myEvents.includes(event.id) ? ' checked' : '';
+            // console.log(event.id, checked)
+            checkbox = `<input class="my-checkbox" type="checkbox" id="${event.id}" name="only-my" ${checked} onclick="saveMy();" />&nbsp;`;
+        } else {
+            myEvent = myEvents.includes(event.id) ? '&nbsp;<span class="my-cp">◪</span>' : '';
+        }
+    }
+    return `${checkbox}${i + 1}${icon}${myEvent}`;
 }
 
 function buildPlace(event) {
