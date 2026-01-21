@@ -79,8 +79,12 @@ let skiTracks = [
     },
     {
         name: 'Пушкин, Отдельный парк',
+        year: 2026,
         info: 'Лыжная трасса с небольшим плавным рельефом.',
-        gpx: 'tracks/ski/pushkin_otdelny_ski_omaps.gpx',
+        gpx: {
+            '2026г':'tracks/ski/pushkin_otdelny_ski_2026_omaps.gpx',
+            '2025г':'tracks/ski/pushkin_otdelny_ski_2025_omaps.gpx'
+        },
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },

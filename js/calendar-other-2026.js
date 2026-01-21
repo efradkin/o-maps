@@ -144,8 +144,8 @@ let otherEvents2026 = [
     coords: [60.127481, 30.463336]
 },
 {
-    id: 'OTHER_20260223_1',
-    date: '2026-02-23',
+    id: 'OTHER_20260208_1',
+    date: '2026-02-08',
     place: 'Гарболово',
     name: 'Быстрый Лис',
     link: 'https://vk.com/sport_v_garbolovo',
