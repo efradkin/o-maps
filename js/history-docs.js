@@ -50,10 +50,10 @@ let historyDocs = [
         link: './docs/1969/1969_05_25_lkt_omaps.pdf',
     },
     {
-        name: 'Рекламный буклет X матча ЛЕНИНГРАД - ЭСТОНСКАЯ ССР (Тырва)',
+        name: 'X матч ЛЕНИНГРАД - ЭСТОНСКАЯ ССР (Тырва)',
         date: '1969-06-21',
-        info: 'Сводные результаты всех предыдущих матчей.',
-        link: './docs/1969/1969_06_21_leningrad_estonia_omaps.pdf',
+        info: 'Рекламный буклет и в нём сводные результаты всех предыдущих матчей. Протокол результатов.',
+        link: ['./docs/1969/1969_06_21_leningrad_estonia_booklet_omaps.pdf','./docs/1969/1969_06_21_leningrad_estonia_omaps.pdf'],
     },
     {
         name: '10-летие секции ориентирования в Ленинграде (Гарболово)',
@@ -61,6 +61,21 @@ let historyDocs = [
         info: '28-29 июня. Командные соревнования, эстафеты.',
         map: 'sirkojarvi_1969',
         link: './docs/1969/1969_06_21_garbolovo_10_years_omaps.pdf'
+    },
+    {
+        name: 'II-я матчевая встреча Рига - Ленинград (Ильичёво, оз Долгое)',
+        date: '1969-07-19',
+        info: '19-20 июля.',
+        map: 'ilychevo_dolgoe_1979',
+        link: './docs/1969/1969_07_19_riga_leningrad_omaps.pdf',
+        planner: 'KPSTN'
+    },
+    {
+        name: 'П-во Ленинграда, эстафета (Можайское)',
+        date: '1969-09-28',
+        info: '21-28 сентября.',
+        link: './docs/1969/1969_09_28_leningrad_relay_omaps.pdf',
+        planner: 'KPSTN'
     },
     {
         name: 'Золотые кольца',

@@ -174,6 +174,7 @@ let zelikMaps = [
         year: 1979,
         url: './maps/forest/zelik/ilychevo_dolgoe_1979.webp',
         link: './original_maps/forest/zelik/ilychevo_dolgoe_1979_omaps.jpg',
+        info: 'II-я матчевая встреча Рига - Ленинград. <a href="./docs/1969/1969_07_19_riga_leningrad_omaps.pdf">Результаты</a>.',
         bounds: [[60.29327792662018, 29.75552558898926], [60.273833969108, 29.798097610473636], [60.279621563023944, 29.73209381103516]],
         author: 'TRSV'
     },
