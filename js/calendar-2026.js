@@ -1,5 +1,6 @@
 let events2026 = [
 {
+    id: 'SPB_20260104_1',
     date: '2026-01-04',
     place: 'Сестрорецк, Таможенная дорога',
     name: 'Кубок Белых ночей №6',
@@ -13,6 +14,7 @@ let events2026 = [
     me: 'МА'
 },
 {
+    id: 'SPB_20260106_1',
     date: '2026-01-06',
     place: 'Чкаловская, Антифитнес',
     name: 'Длительный спринт №1',
@@ -27,6 +29,7 @@ let events2026 = [
     me: 'М'
 },
 {
+    id: 'SPB_20260107_1',
     date: '2026-01-07',
     place: 'Суоранда',
     name: 'Кубок Белых ночей №7',
@@ -40,6 +43,7 @@ let events2026 = [
     me: 'МА'
 },
 {
+    id: 'SPB_20260110_1',
     date: '2026-01-10',
     place: 'Мужества',
     name: 'Длительный спринт №2',
@@ -56,6 +60,7 @@ let events2026 = [
     me: 'Pro'
 },
 {
+    id: 'SPB_20260110_2',
     date: '2026-01-10',
     place: 'Силанде',
     name: 'Открытие сезона',
@@ -66,6 +71,7 @@ let events2026 = [
     map: 'silande_winter_2024_omaps'
 },
 {
+    id: 'SPB_20260111_1',
     date: '2026-01-11',
     place: 'Колосково',
     name: 'Зимний рогейн',
@@ -77,6 +83,7 @@ let events2026 = [
     start: 'MULTSPORT'
 },
 {
+    id: 'SPB_20260111_2',
     date: '2026-01-11',
     place: 'Кировск',
     name: 'ЧиП ЛО',
@@ -88,6 +95,7 @@ let events2026 = [
     owner: 'SFSO_LO'
 },
 {
+    id: 'SPB_20260117_1',
     date: '2026-01-17',
     place: 'Выборгский р-он, САМПО',
     name: 'Длительный спринт №3',
@@ -105,6 +113,7 @@ let events2026 = [
     me: 'Pro'
 },
 {
+    id: 'SPB_20260117_2',
     date: '2026-01-17',
     endDate: '2026-01-18',
     place: 'Орехово',
@@ -123,6 +132,7 @@ let events2026 = [
     map: 'orekhovo_nyrkovo_winter_2012_omaps'
 },
 {
+    id: 'SPB_20260124_1',
     date: '2026-01-24',
     endDate: '2026-01-25',
     place: 'Кировск',
@@ -134,15 +144,18 @@ let events2026 = [
     owner: 'SFSO_LO'
 },
 {
+    id: 'SPB_20260124_2',
     date: '2026-01-24',
     place: 'Удельная',
     name: 'Длительный спринт №4',
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'DLITELNY',
-    map: 'udelny_2021_omaps'
+    map: 'udelny_2021_omaps',
+    cancelled: true
 },
 {
+    id: 'SPB_20260125_1',
     date: '2026-01-25',
     place: 'Полюстровский парк',
     name: 'Кубок Красногвардейского р-на',
@@ -152,6 +165,7 @@ let events2026 = [
     fmt: 'спринт'
 },
 {
+    id: 'SPB_20260125_2',
     date: '2026-01-25',
     place: 'Сестрорецкие дюны',
     name: 'Праздничная тренировка',
@@ -160,6 +174,7 @@ let events2026 = [
     owner: 'WN'
 },
 {
+    id: 'SPB_20260131_1',
     date: '2026-01-31',
     endDate: '2026-02-01',
     place: 'Орехово',
@@ -170,6 +185,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260201_1',
     date: '2026-02-01',
     name: 'ЧиП СПб',
     type: 'SKI',
@@ -177,6 +193,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260207_1',
     date: '2026-02-07',
     place: 'Луга, оз Штоль',
     name: 'ЛужSki рогейн',
@@ -188,6 +205,7 @@ let events2026 = [
     owner: 'SHBN'
 },
 {
+    id: 'SPB_20260207_2',
     date: '2026-02-07',
     endDate: '2026-02-08',
     name: 'Универсиада, Февральская лыжня',
@@ -196,6 +214,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260214_1',
     date: '2026-02-14',
     endDate: '2026-02-15',
     name: 'ЧиП СПб, Зимние старты в Зеркальном',
@@ -206,6 +225,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260221_1',
     date: '2026-02-21',
     place: 'Орехово, ТБ Трансмост',
     name: 'Горный кросс-112',
@@ -217,6 +237,7 @@ let events2026 = [
     start: 'GORNY_CROSS'
 },
 {
+    id: 'SPB_20260221_2',
     date: '2026-02-21',
     endDate: '2026-02-22',
     place: 'Кировск',
@@ -227,6 +248,7 @@ let events2026 = [
     owner: 'SFSO_LO'
 },
 {
+    id: 'SPB_20260223_1',
     date: '2026-02-23',
     name: 'Снежная тропа',
     type: 'ORIENT',
@@ -234,12 +256,14 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260228_1',
     date: '2026-02-28',
     name: 'Классический маркир',
     type: 'SKI',
     fmt: 'маркир',
 },
 {
+    id: 'SPB_20260301_1',
     date: '2026-03-01',
     name: 'ЧиП СПб',
     type: 'SKI',
@@ -247,6 +271,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260307_1',
     date: '2026-03-07',
     place: 'оз Вуокса',
     name: 'Ice Trail (КЛО)',
@@ -256,6 +281,7 @@ let events2026 = [
     start: 'MULTSPORT'
 },
 {
+    id: 'SPB_20260308_1',
     date: '2026-03-08',
     name: 'Снежная тропа',
     type: 'ORIENT',
@@ -263,6 +289,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260405_1',
     date: '2026-04-05',
     name: 'Кубок D2RUN, 1 этап',
     place: 'Романовка',
@@ -272,6 +299,7 @@ let events2026 = [
     owner: 'DLITELNY'
 },
 {
+    id: 'SPB_20260411_1',
     date: '2026-04-11',
     place: 'Луга, Шалово',
     name: 'Лужский меридиан',
@@ -282,6 +310,7 @@ let events2026 = [
     owner: 'LM'
 },
 {
+    id: 'SPB_20260411_2',
     date: '2026-04-11',
     endDate: '2026-04-12',
     name: 'Сосновоборские дюны, ЧиП ЛО',
@@ -290,6 +319,7 @@ let events2026 = [
     owner: 'YUVENTA'
 },
 {
+    id: 'SPB_20260417_1',
     date: '2026-04-17',
     endDate: '2026-04-19',
     name: 'Венок Славы Ал.Невского (ВСАН)',
@@ -299,6 +329,7 @@ let events2026 = [
     owner: 'PSKOV_RUS'
 },
 {
+    id: 'SPB_20260425_1',
     date: '2026-04-25',
     name: 'Открытие сезона',
     place: 'Петергоф (ПУНК)',
@@ -308,6 +339,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260425_2',
     date: '2026-04-25',
     name: 'Лужский весенний рогейн (ККР №1, КЛО)',
     place: 'Луга, оз Омчино',
@@ -317,6 +349,7 @@ let events2026 = [
     owner: 'SHBN'
 },
 {
+    id: 'SPB_20260426_1',
     date: '2026-04-26',
     name: 'ЧиП СПб',
     place: 'Пушкинский р-он',
@@ -325,6 +358,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260426_2',
     date: '2026-04-26',
     name: 'Кубок Обухово',
     place: 'Школа №526',
@@ -333,6 +367,7 @@ let events2026 = [
     reg: 'https://orgeo.ru/event/44669'
 },
 {
+    id: 'SPB_20260502_1',
     date: '2026-05-02',
     place: 'Луга, оз Омчино',
     name: 'Горный кросс-113',
@@ -342,6 +377,7 @@ let events2026 = [
     start: 'GORNY_CROSS'
 },
 {
+    id: 'SPB_20260502_2',
     date: '2026-05-02',
     name: 'Мемориал Ирины Вилениновны Степановой',
     place: 'Сосново',
@@ -350,6 +386,7 @@ let events2026 = [
     start: 'HARD'
 },
 {
+    id: 'SPB_20260509_1',
     date: '2026-05-09',
     name: 'Памяти дня Победы',
     type: 'ORIENT',
@@ -357,6 +394,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260509_2',
     date: '2026-05-09',
     endDate: '2026-05-11',
     name: 'Мемориал Александра Матросова',
@@ -366,6 +404,7 @@ let events2026 = [
     owner: 'PSKOV_RUS'
 },
 {
+    id: 'SPB_20260510_1',
     date: '2026-05-10',
     name: 'ЧиП СПб',
     type: 'VELO',
@@ -373,6 +412,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260510_2',
     date: '2026-05-10',
     name: 'Змей Горыныч',
     place: 'Сосново, оз Уловное',
@@ -382,6 +422,7 @@ let events2026 = [
     owner: 'KUZMOLOVO'
 },
 {
+    id: 'SPB_20260511_1',
     date: '2026-05-11',
     name: 'ЧиП СПб',
     place: 'Аньялово',
@@ -391,6 +432,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260516_1',
     date: '2026-05-16',
     name: 'Весенний водный рогейн',
     place: 'Вуокса',
@@ -399,6 +441,7 @@ let events2026 = [
     start: 'MULTSPORT'
 },
 {
+    id: 'SPB_20260517_1',
     date: '2026-05-17',
     name: 'ЧиП СПб',
     place: 'Поляны',
@@ -408,6 +451,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260523_1',
     date: '2026-05-23',
     endDate: '2026-05-24',
     name: 'Международные соревнования',
@@ -416,6 +460,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260523_2',
     date: '2026-05-23',
     endDate: '2026-05-24',
     name: 'Универсиада, Майские старты',
@@ -423,6 +468,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260523_3',
     date: '2026-05-23',
     endDate: '2026-06-01',
     major: true,
@@ -431,6 +477,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260523_4',
     date: '2026-05-23',
     name: 'Весенний марш-бросок',
     type: 'TOURISM',
@@ -439,6 +486,7 @@ let events2026 = [
     owner: ['BKTV','SHBN']
 },
 {
+    id: 'SPB_20260530_1',
     date: '2026-05-30',
     name: 'ЧиП СПб, ЧиП ЛО',
     place: 'Лейпясуо',
@@ -448,6 +496,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260530_2',
     date: '2026-05-30',
     name: 'BikeAdventure',
     type: 'ROGAINE',
@@ -457,6 +506,7 @@ let events2026 = [
     owner: ['BKTV','SHBN']
 },
 {
+    id: 'SPB_20260530_3',
     date: '2026-05-30',
     name: 'Турслёт СПЛАВ',
     type: 'ROGAINE',
@@ -464,6 +514,7 @@ let events2026 = [
     start: 'MULTSPORT'
 },
 {
+    id: 'SPB_20260531_1',
     date: '2026-05-31',
     name: 'Российский азимут',
     type: 'ORIENT',
@@ -471,6 +522,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260606_1',
     date: '2026-06-06',
     place: 'Кузнечное',
     name: 'Горный кросс-114',
@@ -480,6 +532,7 @@ let events2026 = [
     start: 'GORNY_CROSS'
 },
 {
+    id: 'SPB_20260607_1',
     date: '2026-06-07',
     name: 'Кубок D2RUN, 2 этап',
     type: 'ORIENT',
@@ -487,6 +540,7 @@ let events2026 = [
     owner: 'DLITELNY'
 },
 {
+    id: 'SPB_20260608_1',
     date: '2026-06-08',
     endDate: '2026-06-15',
     name: 'УТС ККП',
@@ -498,6 +552,7 @@ let events2026 = [
     start: 'KKP'
 },
 {
+    id: 'SPB_20260613_1',
     date: '2026-06-13',
     place: 'Сортавала',
     name: 'RED FOX ADVENTURE RACE',
@@ -508,6 +563,7 @@ let events2026 = [
     start: 'RFAR',
 },
 {
+    id: 'SPB_20260613_2',
     date: '2026-06-13',
     name: 'Пирамида',
     place: 'Пруды',
@@ -519,6 +575,7 @@ let events2026 = [
     start: 'KKP'
 },
 {
+    id: 'SPB_20260615_1',
     date: '2026-06-15',
     name: 'Каменюкола',
     place: 'Пруды',
@@ -530,6 +587,7 @@ let events2026 = [
     start: 'KKP'
 },
 {
+    id: 'SPB_20260616_1',
     date: '2026-06-16',
     endDate: '2026-06-20',
     name: 'Камни Карельского перешейка',
@@ -541,6 +599,7 @@ let events2026 = [
     start: 'KKP'
 },
 {
+    id: 'SPB_20260626_1',
     date: '2026-06-26',
     endDate: '2026-06-28',
     name: 'Мемориал Михаила Святкина XXXII',
@@ -550,6 +609,7 @@ let events2026 = [
     start: 'MMS'
 },
 {
+    id: 'SPB_20260627_1',
     date: '2026-06-27',
     name: 'HARD ROGAINE | Ladoga',
     place: 'Ладожское оз',
@@ -560,6 +620,7 @@ let events2026 = [
     start: 'HARD'
 },
 {
+    id: 'SPB_20260627_2',
     date: '2026-06-27',
     name: 'Рогейн на холмах Яппиля (ККР №2)',
     place: 'Яппиля, Заовражные оз',
@@ -568,6 +629,7 @@ let events2026 = [
     owner: 'SHBN'
 },
 {
+    id: 'SPB_20260704_1',
     date: '2026-07-04',
     endDate: '2026-07-06',
     name: 'Белые ночи, Чемпионат СЗФО',
@@ -576,6 +638,7 @@ let events2026 = [
     owner: 'WN'
 },
 {
+    id: 'SPB_20260704_2',
     date: '2026-07-04',
     place: 'Орехово',
     name: 'Горный кросс-115',
@@ -585,6 +648,7 @@ let events2026 = [
     start: 'GORNY_CROSS'
 },
 {
+    id: 'SPB_20260709_1',
     date: '2026-07-09',
     endDate: '2026-07-19',
     name: 'АЛОЛЬ-2026 (Русь, Рельеф, Иван Купала)',
@@ -594,6 +658,7 @@ let events2026 = [
     owner: 'PSKOV_RUS'
 },
 {
+    id: 'SPB_20260711_1',
     date: '2026-07-11',
     endDate: '2026-07-12',
     name: 'Летнее первенство Белых ночей',
@@ -603,6 +668,7 @@ let events2026 = [
     owner: 'WN'
 },
 {
+    id: 'SPB_20260712_1',
     date: '2026-07-12',
     name: 'Рогейн 110%',
     fmt:  '4',
@@ -610,6 +676,7 @@ let events2026 = [
     start: 'ROGAINE_110'
 },
 {
+    id: 'SPB_20260725_1',
     date: '2026-07-25',
     place: 'Луга, оз Малые Толони',
     name: 'Лужский приключенческий рогейн',
@@ -619,6 +686,7 @@ let events2026 = [
     owner: 'SHBN'
 },
 {
+    id: 'SPB_20260808_1',
     date: '2026-08-08',
     place: 'Зеленогорск, Ламмин-Суо',
     name: 'Кубок коротких рогейнов №3',
@@ -627,6 +695,7 @@ let events2026 = [
     owner: 'SHBN'
 },
 {
+    id: 'SPB_20260808_2',
     date: '2026-08-08',
     place: 'Мичуринское',
     name: 'HARD ROGAINE | SWAMP',
@@ -636,6 +705,7 @@ let events2026 = [
     start: 'HARD'
 },
 {
+    id: 'SPB_20260809_1',
     date: '2026-08-09',
     name: 'ЧиП СПб',
     type: 'VELO',
@@ -643,6 +713,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260815_1',
     date: '2026-08-15',
     endDate: '2026-07-16',
     name: 'Transbiotech O-Weekend (Кубок D2RUN, 3 этап)',
@@ -651,11 +722,13 @@ let events2026 = [
     owner: 'DLITELNY'
 },
 {
+    id: 'SPB_20260816_1',
     date: '2026-08-16',
     name: 'Tokma-maps',
     type: 'ORIENT',
 },
 {
+    id: 'SPB_20260822_1',
     date: '2026-08-22',
     place: 'Выборг',
     name: 'Выборгский летний рогейн (КЛО)',
@@ -664,12 +737,14 @@ let events2026 = [
     start: 'MULTSPORT'
 },
 {
+    id: 'SPB_20260822_2',
     date: '2026-08-22',
     endDate: '2026-08-23',
     name: 'Выборгская Тройка',
     type: 'ORIENT',
 },
 {
+    id: 'SPB_20260829_1',
     date: '2026-08-29',
     name: 'ЧиП ЛО',
     place: 'Выборг',
@@ -678,6 +753,7 @@ let events2026 = [
     owner: 'SFSO_LO'
 },
 {
+    id: 'SPB_20260830_1',
     date: '2026-08-30',
     name: 'ЧиП СПб',
     place: 'Вещево',
@@ -686,6 +762,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260911_1',
     date: '2026-09-11',
     endDate: '2026-09-13',
     name: 'Всероссийские соревнования НЕВСКИЙ СПРИНТ',
@@ -693,6 +770,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260918_1',
     date: '2026-09-18',
     name: 'Велоизоляция',
     type: ['ROGAINE','VELO'],
@@ -700,6 +778,7 @@ let events2026 = [
     start: 'MULTSPORT'
 },
 {
+    id: 'SPB_20260919_1',
     date: '2026-09-19',
     endDate: '2026-09-20',
     name: 'Гран-при Владимира Алексеева, ЧиП ЛО',
@@ -708,6 +787,7 @@ let events2026 = [
     owner: 'WN'
 },
 {
+    id: 'SPB_20260919_2',
     date: '2026-09-19',
     place: 'Молодёжное',
     name: 'Горный кросс-116',
@@ -717,6 +797,7 @@ let events2026 = [
     start: 'GORNY_CROSS'
 },
 {
+    id: 'SPB_20260920_1',
     date: '2026-09-20',
     name: 'ЧиП СПб',
     type: 'VELO',
@@ -724,6 +805,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260924_1',
     date: '2026-09-24',
     endDate: '2026-09-27',
     name: 'Старты в Зеркальном',
@@ -734,6 +816,7 @@ let events2026 = [
     map: 'zerkalny_2002'
 },
 {
+    id: 'SPB_20260926_1',
     date: '2026-09-26',
     place: 'Луга, Золотой пляж',
     name: 'Кубок коротких рогейнов №4',
@@ -742,6 +825,7 @@ let events2026 = [
     owner: 'SHBN'
 },
 {
+    id: 'SPB_20260927_1',
     date: '2026-09-27',
     name: 'Марафон на холмах Яппиля, ЧиП СПб',
     place: 'Яппиля',
@@ -750,6 +834,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20261010_1',
     date: '2026-10-10',
     name: 'Горный кросс',
     type: 'ROGAINE',
@@ -757,6 +842,7 @@ let events2026 = [
     start: 'GORNY_CROSS'
 },
 {
+    id: 'SPB_20261010_2',
     date: '2026-10-10',
     name: 'ЧиП СПб',
     type: 'VELO',
@@ -764,6 +850,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20261010_3',
     date: '2026-10-10',
     endDate: '2026-10-11',
     name: 'Золотая осень, ЧиП ЛО',
@@ -772,6 +859,7 @@ let events2026 = [
     owner: 'VYBORG'
 },
 {
+    id: 'SPB_20261011_1',
     date: '2026-10-11',
     name: 'ЧиП СПб',
     type: 'VELO',
@@ -779,6 +867,7 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20261018_1',
     date: '2026-10-18',
     name: 'ЧиП ЛО',
     place: 'Сосновый бор',
@@ -787,12 +876,14 @@ let events2026 = [
     owner: 'SFSO_LO'
 },
 {
+    id: 'SPB_20261018_2',
     date: '2026-10-18',
     name: 'Памяти Зои Пятаковой',
     type: 'ORIENT',
     fmt: 'спринт',
 },
 {
+    id: 'SPB_20261024_1',
     date: '2026-10-24',
     name: '50 Вёрст',
     fmt: 'ночная эстафета',
@@ -800,12 +891,14 @@ let events2026 = [
     owner: 'NW',
 },
 {
+    id: 'SPB_20261024_2',
     date: '2026-10-24',
     name: 'Финал КЛО',
     type: 'ROGAINE',
     fmt: '4'
 },
 {
+    id: 'SPB_20261025_1',
     date: '2026-10-25',
     name: '5 Вёрст',
     fmt: 'детская эстафета',
@@ -813,6 +906,7 @@ let events2026 = [
     owner: 'NW',
 },
 {
+    id: 'SPB_20261030_1',
     date: '2026-10-30',
     endDate: '2026-11-01',
     name: 'Алоль осенняя',
@@ -822,6 +916,7 @@ let events2026 = [
     owner: 'PSKOV_RUS'
 },
 {
+    id: 'SPB_20261101_1',
     date: '2026-11-01',
     name: 'Кубок D2RUN, финал',
     type: 'ORIENT',
@@ -829,6 +924,7 @@ let events2026 = [
     owner: 'DLITELNY'
 },
 {
+    id: 'SPB_20261107_1',
     date: '2026-11-07',
     place: 'Орехово',
     name: 'Горный кросс-117',
@@ -837,6 +933,7 @@ let events2026 = [
     start: 'GORNY_CROSS'
 },
 {
+    id: 'SPB_20261114_1',
     date: '2026-11-14',
     place: 'Луга, б/о Штоль',
     name: 'Рогейн на Лужских берегах (ККР №5)',
@@ -846,12 +943,14 @@ let events2026 = [
     owner: 'SHBN'
 },
 {
+    id: 'SPB_20261115_1',
     date: '2026-11-15',
     name: 'Первенство ГБУ ДО СШОР им. Коренькова',
     type: 'ORIENT',
     fmt: 'спринт',
 },
 {
+    id: 'SPB_20261122_1',
     date: '2026-11-22',
     name: 'Снежная тропа',
     type: 'ORIENT',
@@ -859,12 +958,14 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20261206_1',
     date: '2026-12-06',
     name: 'Первенство ГБУ ДО СШОР им. Коренькова',
     type: 'ORIENT',
     fmt: 'спринт',
 },
 {
+    id: 'SPB_20261213_1',
     date: '2026-12-13',
     name: 'Снежная тропа',
     type: 'ORIENT',

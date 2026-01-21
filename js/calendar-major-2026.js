@@ -1,5 +1,6 @@
 let majorEvents2026 = [
 {
+    id: 'MAJOR_20260103_1',
     date: '2026-01-03',
     endDate: '2026-01-11',
     place: 'Пермский край, Горнозаводск',
@@ -10,6 +11,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260115_1',
     date: '2026-01-15',
     endDate: '2026-01-20',
     place: 'Пермь',
@@ -20,6 +22,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260219_1',
     date: '2026-02-19',
     endDate: '2026-02-24',
     place: 'Красноярский край, Подгорный',
@@ -30,6 +33,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260301_1',
     date: '2026-03-01',
     endDate: '2026-03-06',
     place: 'Rusutsu, Hokkaido, JAPAN',
@@ -40,6 +44,7 @@ let majorEvents2026 = [
     owner: 'IOF'
 },
 {
+    id: 'MAJOR_20260315_1',
     date: '2026-03-15',
     endDate: '2026-03-21',
     place: 'Коми, Сыктывкар',
@@ -50,6 +55,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260423_1',
     date: '2026-04-23',
     endDate: '2026-04-27',
     place: 'Ставропольский край, Железноводск',
@@ -60,6 +66,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260424_1',
     date: '2026-04-24',
     endDate: '2026-04-26',
     place: 'Locarno Switzerland',
@@ -70,6 +77,7 @@ let majorEvents2026 = [
     owner: 'IOF'
 },
 {
+    id: 'MAJOR_20260512_1',
     date: '2026-05-12',
     endDate: '2026-05-18',
     place: 'Иркутск',
@@ -80,6 +88,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260522_1',
     date: '2026-05-22',
     endDate: '2026-05-28',
     place: 'Португалия',
@@ -89,6 +98,7 @@ let majorEvents2026 = [
     owner: 'IOF'
 },
 {
+    id: 'MAJOR_20260528_1',
     date: '2026-05-28',
     endDate: '2026-05-31',
     place: 'Skara-Lidköping Sweden',
@@ -99,6 +109,7 @@ let majorEvents2026 = [
     owner: 'IOF'
 },
 {
+    id: 'MAJOR_20260528_2',
     date: '2026-05-28',
     endDate: '2026-06-01',
     place: 'Челябинск',
@@ -109,6 +120,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260604_1',
     date: '2026-06-04',
     endDate: '2026-06-08',
     place: 'Нижегородская обл, Вача',
@@ -119,6 +131,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260625_1',
     date: '2026-06-25',
     endDate: '2026-06-29',
     place: 'Нижний Новгород',
@@ -129,6 +142,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260627_1',
     date: '2026-06-27',
     endDate: '2026-06-28',
     place: 'Orlické Záhoří, Czech Republic',
@@ -140,6 +154,7 @@ let majorEvents2026 = [
     owner: 'IRF'
 },
 {
+    id: 'MAJOR_20260706_1',
     date: '2026-07-06',
     endDate: '2026-07-11',
     place: 'Италия',
@@ -150,6 +165,7 @@ let majorEvents2026 = [
     owner: 'IOF'
 },
 {
+    id: 'MAJOR_20260806_1',
     date: '2026-08-06',
     endDate: '2026-08-09',
     place: 'Vyšší Brod, Czechia',
@@ -161,6 +177,7 @@ let majorEvents2026 = [
 },
 /*
 {
+    id: 'MAJOR_20260806_2',
     date: '2026-08-06',
     endDate: '2026-08-10',
     place: 'Зеленоград',
@@ -173,6 +190,7 @@ let majorEvents2026 = [
 },
 */
 {
+    id: 'MAJOR_20260808_1',
     date: '2026-08-08',
     endDate: '2026-08-14',
     place: 'Rzeszów-Przeworsk, Poland',
@@ -182,6 +200,7 @@ let majorEvents2026 = [
     owner: 'IOF'
 },
 {
+    id: 'MAJOR_20260822_1',
     date: '2026-08-22',
     place: 'Выборг',
     major: true,
@@ -192,6 +211,7 @@ let majorEvents2026 = [
     start: 'MULTSPORT'
 },
 {
+    id: 'MAJOR_20260825_1',
     date: '2026-08-25',
     endDate: '2026-08-30',
     place: 'Швеция',
@@ -201,6 +221,7 @@ let majorEvents2026 = [
     owner: 'IOF'
 },
 {
+    id: 'MAJOR_20260902_1',
     date: '2026-09-02',
     endDate: '2026-09-07',
     place: 'Московская обл, Химки',
@@ -211,6 +232,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260909_1',
     date: '2026-09-09',
     endDate: '2026-09-14',
     place: 'Тверская обл, Вышний Волочек',
@@ -221,6 +243,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260909_2',
     date: '2026-09-09',
     endDate: '2026-09-13',
     place: 'Великобритания',
@@ -230,6 +253,7 @@ let majorEvents2026 = [
     owner: 'IOF'
 },
 {
+    id: 'MAJOR_20260916_1',
     date: '2026-09-16',
     endDate: '2026-09-21',
     place: 'Новосибирск',
@@ -240,6 +264,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260922_1',
     date: '2026-09-22',
     endDate: '2026-09-28',
     place: 'Удмуртия, Якшур-Бодья',
@@ -250,6 +275,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20260924_1',
     date: '2026-09-24',
     endDate: '2026-09-27',
     place: 'Druskininkai, Lithuania',
@@ -260,6 +286,7 @@ let majorEvents2026 = [
     owner: 'IOF'
 },
 {
+    id: 'MAJOR_20261015_1',
     date: '2026-10-15',
     endDate: '2026-10-19',
     place: 'Калининград',
@@ -270,6 +297,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20261101_1',
     date: '2026-11-01',
     endDate: '2026-11-07',
     place: 'Ставрополь',
@@ -280,6 +308,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20261210_1',
     date: '2026-12-10',
     endDate: '2026-12-15',
     place: 'Алтай, Семинский перевал',
@@ -290,6 +319,7 @@ let majorEvents2026 = [
     owner: 'FSOR'
 },
 {
+    id: 'MAJOR_20261217_1',
     date: '2026-12-17',
     endDate: '2026-12-23',
     place: 'Алтай, Семинский перевал',

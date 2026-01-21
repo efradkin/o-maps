@@ -1,5 +1,6 @@
 let mskEvents2025 = [
 {
+    id: 'MSK_20250102_1',
     date: "2025-01-02",
     name: "Новогодняя Ночь 2025",
     place: "Кучинский л/п",
@@ -13,6 +14,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250109_1',
     date: "2025-01-09",
     name: "Ночной Четверг 2024-2025",
     place: "р-н Марьино",
@@ -26,6 +28,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250116_1',
     date: "2025-01-16",
     name: "Ночной Четверг 2024-2025",
     place: "р-н Вешняки",
@@ -39,6 +42,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250118_1',
     date: "2025-01-18",
     name: "Нано-Подкуст 2025",
     place: "Измайлово",
@@ -52,6 +56,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250123_1',
     date: "2025-01-23",
     name: "Ночной Четверг 2024-2025",
     place: "р-н Вешняки",
@@ -65,6 +70,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250126_1',
     date: "2025-01-26",
     name: "Нано-Подкуст 2025",
     place: "Кузьминки",
@@ -78,6 +84,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250131_1',
     date: "2025-01-31",
     name: "Ночные сор-я пам. А.С. Горюнова ЗИМА",
     place: "БЛК \"Марьино\"",
@@ -91,6 +98,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250201_1',
     date: "2025-02-01",
     name: "ЧиП Москвы",
     place: "Алёшкино",
@@ -104,6 +112,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250202_1',
     date: "2025-02-02",
     name: "Нано-Подкуст 2025",
     place: "Поворот на Рублево",
@@ -117,6 +126,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250208_1',
     date: "2025-02-08",
     name: "ЧиП Москвы",
     place: "Салтыковка",
@@ -130,6 +140,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250209_1',
     date: "2025-02-09",
     name: "ЧиП Москвы",
     place: "Салтыковка",
@@ -143,6 +154,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250208_2',
     date: "2025-02-08",
     name: "Нано-Подкуст 2025",
     place: "Район Ясенево",
@@ -156,6 +168,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250209_2',
     date: "2025-02-09",
     name: "Нано-Подкуст 2025",
     place: "Серебряный Бор",
@@ -169,6 +182,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250215_1',
     date: "2025-02-15",
     name: "Московская Зима",
     place: "Салтыковка",
@@ -182,6 +196,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250215_2',
     date: "2025-02-15",
     name: "Нано-Подкуст 2025",
     place: "Медик-Ромашково",
@@ -195,6 +210,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250216_1',
     date: "2025-02-16",
     name: "Нано-Подкуст 2025",
     place: "ПКиО Измайлово",
@@ -208,6 +224,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250222_1',
     date: "2025-02-22",
     name: "Нано-Подкуст 2025",
     place: "Битцевский Лес",
@@ -221,6 +238,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250301_1',
     date: "2025-03-01",
     name: "Московская Весна",
     place: "Борисово",
@@ -234,6 +252,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250302_1',
     date: "2025-03-02",
     name: "Московская Весна",
     place: "Левобережный",
@@ -247,6 +266,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250308_1',
     date: "2025-03-08",
     name: "Международный Женский День",
     place: "Зябликово",
@@ -260,6 +280,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250309_1',
     date: "2025-03-09",
     name: "Московская Весна",
     place: "Марьино",
@@ -273,6 +294,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250315_1',
     date: "2025-03-15",
     name: "Московская Весна",
     place: "Матвеевское",
@@ -286,6 +308,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250316_1',
     date: "2025-03-16",
     name: "Московская Весна",
     place: "Можайский",
@@ -299,6 +322,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250322_1',
     date: "2025-03-22",
     name: "Московская Весна",
     place: "Марьино",
@@ -312,6 +336,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250323_1',
     date: "2025-03-23",
     name: "Московская Весна",
     place: "Филёвская Пойма",
@@ -325,6 +350,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250329_1',
     date: "2025-03-29",
     name: "Московская Весна",
     place: "Медведково",
@@ -338,6 +364,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250330_1',
     date: "2025-03-30",
     name: "Московская Весна",
     place: "Северное Чертаново",
@@ -351,6 +378,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250405_1',
     date: "2025-04-05",
     name: "Московская Весна",
     place: "Ясенево",
@@ -364,6 +392,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250406_1',
     date: "2025-04-06",
     name: "День Космонавтики",
     place: "Садовники-Коломенское",
@@ -377,6 +406,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250412_1',
     date: "2025-04-12",
     name: "Московский Нанорогейн",
     place: "Белопесоцкий",
@@ -390,6 +420,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250419_1',
     date: "2025-04-19",
     name: "Moscow City Race",
     place: "Красные ворота",
@@ -403,6 +434,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250504_1',
     date: "2025-05-04",
     name: "Московский Нанорогейн",
     place: "Кузьминки-Белая Дача",
@@ -415,6 +447,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250508_1',
     date: "2025-05-08",
     name: "Московская Весна",
     place: "Покровское-Стрешнево",
@@ -428,6 +461,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250509_1',
     date: "2025-05-09",
     name: "День Победы",
     place: "Парк Дружбы",
@@ -441,6 +475,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250510_1',
     date: "2025-05-10",
     name: "Московская Весна",
     place: "Кузьминки Заречье",
@@ -454,6 +489,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250531_1',
     date: "2025-05-31",
     name: "Московская Весна + Moscow Sprint Tour",
     place: "Чертаново (м.Чертановская)",
@@ -467,6 +503,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250601_1',
     date: "2025-06-01",
     name: "Московская Весна + Moscow Sprint Tour",
     place: "Орехово-Борисово южное",
@@ -480,6 +517,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250607_1',
     date: "2025-06-07",
     name: "Московская Весна",
     place: "Жулебино",
@@ -493,6 +531,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250608_1',
     date: "2025-06-08",
     name: "Московская Весна",
     place: "Алёшкино",
@@ -506,6 +545,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250612_1',
     date: "2025-06-12",
     name: "Рогейн Большое Измайлово 2025",
     place: "с/х 1 мая",
@@ -519,6 +559,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250617_1',
     date: "2025-06-17",
     name: "Московское Лето",
     place: "Покровское-Стрешнево",
@@ -532,6 +573,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250619_1',
     date: "2025-06-19",
     name: "Московское Лето",
     place: "Сосновка",
@@ -545,6 +587,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250624_1',
     date: "2025-06-24",
     name: "Московское Лето",
     place: "Парк Дружбы",
@@ -558,6 +601,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250626_1',
     date: "2025-06-26",
     name: "Московское Лето",
     place: "Кусково",
@@ -571,6 +615,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250629_1',
     date: "2025-06-29",
     name: "Нано-Подкуст 2025",
     place: "Салтыковка",
@@ -584,6 +629,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250701_1',
     date: "2025-07-01",
     name: "Московское Лето",
     place: "Серебряный Бор",
@@ -597,6 +643,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250703_1',
     date: "2025-07-03",
     name: "Московское Лето",
     place: "Нескучный Сад",
@@ -610,6 +657,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250706_1',
     date: "2025-07-06",
     name: "Нано-Подкуст 2025",
     place: "Битцевский лес",
@@ -623,6 +671,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250708_1',
     date: "2025-07-08",
     name: "Московское Лето",
     place: "Кузьминки (Волжская)",
@@ -636,6 +685,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250710_1',
     date: "2025-07-10",
     name: "Московское Лето",
     place: "Братеевский парк",
@@ -649,6 +699,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250715_1',
     date: "2025-07-15",
     name: "Московское Лето",
     place: "Воронцовский парк",
@@ -662,6 +713,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250717_1',
     date: "2025-07-17",
     name: "Московское Лето",
     place: "Парк Шкулёва",
@@ -675,6 +727,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250722_1',
     date: "2025-07-22",
     name: "Московское Лето",
     place: "Воробьевы Горы",
@@ -688,6 +741,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250724_1',
     date: "2025-07-24",
     name: "Московское Лето",
     place: "Парк 850 летия Москвы",
@@ -701,6 +755,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250729_1',
     date: "2025-07-29",
     name: "Московское Лето",
     place: "Ходынское поле",
@@ -714,6 +769,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250731_1',
     date: "2025-07-31",
     name: "Московское Лето",
     place: "Покровское-Стрешнево",
@@ -727,6 +783,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250805_1',
     date: "2025-08-05",
     name: "Московское Лето",
     place: "Кусково",
@@ -740,6 +797,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250807_1',
     date: "2025-08-07",
     name: "Московское Лето",
     place: "Серебряный Бор",
@@ -753,6 +811,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250812_1',
     date: "2025-08-12",
     name: "Московское Лето",
     place: "Кузьминки (Заречье)",
@@ -766,6 +825,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250814_1',
     date: "2025-08-14",
     name: "Московское Лето",
     place: "Воробьевы Горы",
@@ -779,6 +839,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250823_1',
     date: "2025-08-23",
     name: "Московская Осень + Moscow Sprint Tour",
     place: "Вешняки",
@@ -792,6 +853,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250824_1',
     date: "2025-08-24",
     name: "Московская Осень + Moscow Sprint Tour",
     place: "Орехово-Борисово южное",
@@ -805,6 +867,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250830_1',
     date: "2025-08-30",
     name: "Московская Осень",
     place: "Салтыковка",
@@ -818,6 +881,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250830_2',
     date: "2025-08-30",
     name: "Спортивное Долголетие",
     place: "Салтыковка",
@@ -831,6 +895,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250831_1',
     date: "2025-08-31",
     name: "Московская Осень",
     place: "Салтыковка",
@@ -844,6 +909,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250831_2',
     date: "2025-08-31",
     name: "Спортивное Долголетие",
     place: "Салтыковка",
@@ -857,6 +923,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250906_1',
     date: "2025-09-06",
     name: "Московская Осень",
     place: "Измайлово-запад",
@@ -870,6 +937,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250907_1',
     date: "2025-09-07",
     name: "Московская Осень",
     place: "Измайлово-восток",
@@ -883,6 +951,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250913_1',
     date: "2025-09-13",
     name: "Покровская Горизонталь",
     place: "Покровское-Стрешнево",
@@ -896,6 +965,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250927_1',
     date: "2025-09-27",
     name: "Moscow City Race",
     place: "Патриаршие Пруды",
@@ -909,6 +979,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250927_2',
     date: "2025-09-27",
     name: "Нано-Подкуст 2025",
     place: "Воробьевы Горы",
@@ -922,6 +993,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250928_1',
     date: "2025-09-28",
     name: "Нано-Подкуст 2025",
     place: "Фосфоритный",
@@ -935,6 +1007,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20250928_2',
     date: "2025-09-28",
     name: "ЧиП Москвы",
     place: "Фосфоритный",
@@ -948,6 +1021,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251004_1',
     date: "2025-10-04",
     name: "Ночные соревнования пам. А.С. Горюнова",
     place: "Нескучный Сад",
@@ -961,6 +1035,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251011_1',
     date: "2025-10-11",
     name: "Московский Нанорогейн",
     place: "Лыткарино (Яма)",
@@ -973,6 +1048,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251011_2',
     date: "2025-10-11",
     name: "Московская Осень + Moscow Sprint Tour",
     place: "Орехово-Борисово южное",
@@ -986,6 +1062,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251018_1',
     date: "2025-10-18",
     name: "Полуночное ориентирование в Дубках",
     place: "Парк Дубки",
@@ -999,6 +1076,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251018_2',
     date: "2025-10-18",
     name: "Московская Осень",
     place: "Парк Дубки",
@@ -1012,6 +1090,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251019_1',
     date: "2025-10-19",
     name: "Первенство КСО Москомпасориента",
     place: "Кузьминки",
@@ -1025,6 +1104,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251025_1',
     date: "2025-10-25",
     name: "Московская Осень, ночной этап",
     place: "Стадион \"Медик\"",
@@ -1038,6 +1118,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251025_2',
     date: "2025-10-25",
     name: "Московская Осень",
     place: "Стадион \"Медик\"",
@@ -1051,6 +1132,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251026_1',
     date: "2025-10-26",
     name: "Золотая осень",
     place: "Кусково",
@@ -1064,6 +1146,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251102_1',
     date: "2025-11-02",
     name: "Московская Осень",
     place: "Сосновка",
@@ -1077,6 +1160,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251103_1',
     date: "2025-11-03",
     name: "Московская Осень",
     place: "Битцевский лес (Узкое)",
@@ -1090,6 +1174,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251104_1',
     date: "2025-11-04",
     name: "Московский Нанорогейн",
     place: "Лыткарино (Яма)",
@@ -1103,6 +1188,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251108_1',
     date: "2025-11-08",
     name: "Московская Осень",
     place: "Нескучный Сад",
@@ -1116,6 +1202,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251109_1',
     date: "2025-11-09",
     name: "Московская Осень",
     place: "Покровское-Стрешнево",
@@ -1129,6 +1216,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251115_1',
     date: "2025-11-15",
     name: "Московская Осень",
     place: "Рублево",
@@ -1142,6 +1230,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251116_1',
     date: "2025-11-16",
     name: "Московская Осень",
     place: "Ясенево-Битца",
@@ -1155,6 +1244,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251122_1',
     date: "2025-11-22",
     name: "Московская Осень",
     place: "Ст. \"Медик\"",
@@ -1168,6 +1258,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251123_1',
     date: "2025-11-23",
     name: "Московская Осень",
     place: "Алешкино",
@@ -1181,6 +1272,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251129_1',
     date: "2025-11-29",
     name: "Московская Осень",
     place: "Белая дача",
@@ -1194,6 +1286,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251130_1',
     date: "2025-11-30",
     name: "Покровская Снежнинка",
     place: "Покровское-Стрешнево",
@@ -1207,6 +1300,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251206_1',
     date: "2025-12-06",
     name: "Московский Нанорогейн",
     place: "Патриаршие пруды",
@@ -1220,6 +1314,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251213_1',
     date: "2025-12-13",
     name: "Снежная Тропа",
     place: "Химкинский л/п",
@@ -1233,6 +1328,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251214_1',
     date: "2025-12-14",
     name: "Снежная Тропа",
     place: "Ясенево(юг)",
@@ -1246,6 +1342,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251220_1',
     date: "2025-12-20",
     name: "Снежная Тропа",
     place: "Парк Дружбы",
@@ -1259,6 +1356,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20251221_1',
     date: "2025-12-21",
     name: "Снежная Тропа",
     place: "Дендропарк",
@@ -1272,6 +1370,7 @@ let mskEvents2025 = [
     photo: "https://vk.com/albums-78257998"
 },
 {
+    id: 'MSK_20260102_1',
     date: "2026-01-02",
     name: "Новогодняя ночь 2026",
     place: "Салтыковка",
@@ -1284,4 +1383,4 @@ let mskEvents2025 = [
     owner: "CLEVER_MSK",
     photo: "https://vk.com/albums-78257998"
 }
-]
+];

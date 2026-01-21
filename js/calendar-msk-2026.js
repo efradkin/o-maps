@@ -1,5 +1,6 @@
 let mskEvents2026 = [
 {
+    id: 'MSK_20260102_1',
     date: "2026-01-02",
     name: "Новогодняя Ночь 2026",
     place: "Кучинский л/п",
@@ -11,6 +12,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260111_1',
     date: "2026-01-11",
     name: "Нано-Подкуст",
     place: "Битцевский Лес",
@@ -22,6 +24,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260117_1',
     date: "2026-01-17",
     name: "ЧиП Москвы",
     place: "ст. \"Медик\"",
@@ -33,6 +36,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260118_1',
     date: "2026-01-18",
     name: "Нано-Подкуст",
     place: "Серебряный Бор",
@@ -44,6 +48,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260124_1',
     date: "2026-01-24",
     name: "ЧиП Москвы",
     place: "Битцевский Лес",
@@ -55,6 +60,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260125_1',
     date: "2026-01-25",
     name: "ЧиП Москвы",
     place: "Битцевский Лес",
@@ -66,6 +72,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260131_1',
     date: "2026-01-31",
     name: "ЧиП Москвы",
     place: "Волкуша",
@@ -77,6 +84,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260201_1',
     date: "2026-02-01",
     name: "ЧиП Москвы",
     place: "Волкуша",
@@ -88,6 +96,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260206_1',
     date: "2026-02-06",
     name: "Ночные сор-я пам. А.С. Горюнова ЗИМА",
     place: "БЛК \"Марьино\"",
@@ -99,6 +108,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260207_1',
     date: "2026-02-07",
     name: "Нано-Подкуст",
     place: "Люблино",
@@ -110,6 +120,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260208_1',
     date: "2026-02-08",
     name: "Нано-Подкуст",
     place: "Борисово",
@@ -121,6 +132,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260214_1',
     date: "2026-02-14",
     name: "Нано-Подкуст",
     place: "Матвеевское",
@@ -132,6 +144,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260215_1',
     date: "2026-02-15",
     name: "Нано-Подкуст",
     place: "Район Ясенево",
@@ -143,6 +156,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260221_1',
     date: "2026-02-21",
     name: "Московская Весна",
     place: "Борисово",
@@ -154,6 +168,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260222_1',
     date: "2026-02-22",
     name: "Московская Весна",
     place: "Левобережный",
@@ -165,6 +180,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260222_2',
     date: "2026-02-22",
     name: "Первенство МКСШОР \"Запад\"",
     place: "Митино",
@@ -172,6 +188,7 @@ let mskEvents2026 = [
     fmt: "ЛГ-Спринт"
 },
 {
+    id: 'MSK_20260223_1',
     date: "2026-02-23",
     name: "Московская Весна",
     place: "Орехово-Борисово южное",
@@ -183,6 +200,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260228_1',
     date: "2026-02-28",
     name: "Московская Весна",
     place: "Матвеевское",
@@ -194,6 +212,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260301_1',
     date: "2026-03-01",
     name: "Московская Весна",
     place: "Можайский",
@@ -205,6 +224,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260301_2',
     date: "2026-03-01",
     name: "XXXVIII МССИ ",
     place: "на согласовании",
@@ -212,6 +232,7 @@ let mskEvents2026 = [
     fmt: "ЛГ-классика"
 },
 {
+    id: 'MSK_20260307_1',
     date: "2026-03-07",
     name: "Московская Весна",
     place: "Северное Чертаново",
@@ -223,6 +244,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260308_1',
     date: "2026-03-08",
     name: "Международный Женский День",
     place: "Пойма р. Городня",
@@ -234,6 +256,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260309_1',
     date: "2026-03-09",
     name: "Московская Весна",
     place: "Филёвская Пойма",
@@ -245,6 +268,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260314_1',
     date: "2026-03-14",
     name: "Московская Весна",
     place: "Чертаново (м.Чертановская)",
@@ -256,6 +280,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260315_1',
     date: "2026-03-15",
     name: "ЧиП г. Москвы Юношеский Фест.",
     place: "Восточный",
@@ -267,6 +292,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260315_2',
     date: "2026-03-15",
     name: "Московская Весна",
     place: "Марьино",
@@ -278,6 +304,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260321_1',
     date: "2026-03-21",
     name: "Московская Весна",
     place: "Марьино",
@@ -289,6 +316,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260322_1',
     date: "2026-03-22",
     name: "Московская Весна",
     place: "Ясенево",
@@ -300,6 +328,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260328_1',
     date: "2026-03-28",
     name: "Московская Весна",
     place: "Медведково",
@@ -311,6 +340,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260329_1',
     date: "2026-03-29",
     name: "Московская Весна",
     place: "Орехово-Борисово южное",
@@ -322,6 +352,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260331_1',
     date: "2026-03-31",
     name: "Московский Меридиан",
     place: "Жулебино",
@@ -332,6 +363,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260402_1',
     date: "2026-04-02",
     name: "Московский Меридиан",
     place: "Кузьминки",
@@ -342,6 +374,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260404_1',
     date: "2026-04-04",
     name: "Московская Весна",
     place: "Братеевский Каскадный парк",
@@ -353,6 +386,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260405_1',
     date: "2026-04-05",
     name: "День Космонавтики",
     place: "Долина Шмелева Ручья",
@@ -364,6 +398,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260407_1',
     date: "2026-04-07",
     name: "Московский Меридиан",
     place: "Кузьминки",
@@ -374,6 +409,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260409_1',
     date: "2026-04-09",
     name: "Московский Меридиан",
     place: "Белая Дача",
@@ -384,6 +420,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260411_1',
     date: "2026-04-11",
     name: "Откр. летн. сезона, XXXVIII МССИ ",
     place: "на согласовании",
@@ -391,6 +428,7 @@ let mskEvents2026 = [
     fmt: "кросс-классика"
 },
 {
+    id: 'MSK_20260411_2',
     date: "2026-04-11",
     name: "Moscow City Race",
     place: "Репинский сквер",
@@ -402,6 +440,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260412_1',
     date: "2026-04-12",
     name: "ЧиП Москвы",
     place: "на согласовании",
@@ -412,6 +451,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260414_1',
     date: "2026-04-14",
     name: "Московский Меридиан",
     place: "Белая Дача",
@@ -422,6 +462,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260416_1',
     date: "2026-04-16",
     name: "Московский Меридиан",
     place: "Рублёво-восток",
@@ -432,6 +473,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260418_1',
     date: "2026-04-18",
     name: "Московский Нанорогейн",
     place: "Рублево",
@@ -443,6 +485,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260418_2',
     date: "2026-04-18",
     name: "ЧиП Москвы",
     place: "на согласовании",
@@ -453,6 +496,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260419_1',
     date: "2026-04-19",
     name: "ЧиП Москвы",
     place: "на согласовании",
@@ -463,6 +507,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260421_1',
     date: "2026-04-21",
     name: "Московский Меридиан",
     place: "Рублёво-запад",
@@ -473,6 +518,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260423_1',
     date: "2026-04-23",
     name: "Московский Меридиан",
     place: "Рублёво-запад",
@@ -483,6 +529,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260425_1',
     date: "2026-04-25",
     name: "Московский Компас",
     place: "Лыткарино",
@@ -494,6 +541,7 @@ let mskEvents2026 = [
     start: "MSK_COMPASS"
 },
 {
+    id: 'MSK_20260426_1',
     date: "2026-04-26",
     name: "Московский Компас",
     place: "Лыткарино",
@@ -505,6 +553,7 @@ let mskEvents2026 = [
     start: "MSK_COMPASS"
 },
 {
+    id: 'MSK_20260428_1',
     date: "2026-04-28",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -515,6 +564,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260430_1',
     date: "2026-04-30",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -525,6 +575,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260501_1',
     date: "2026-05-01",
     name: "Кубок Федерации СО г.Москвы",
     place: "Кусково",
@@ -535,6 +586,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260501_2',
     date: "2026-05-01",
     name: "Гран-При Будущие звезды",
     place: "Бутово",
@@ -545,6 +597,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260502_1',
     date: "2026-05-02",
     name: "ЧиП г. Москвы",
     place: "Яхрома",
@@ -555,6 +608,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260502_2',
     date: "2026-05-02",
     name: "Гран-При Будущие звезды",
     place: "Бутово",
@@ -565,6 +619,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260503_1',
     date: "2026-05-03",
     name: "ЧиП г. Москвы",
     place: "Красногорск",
@@ -575,6 +630,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260503_2',
     date: "2026-05-03",
     name: "Гран-При Будущие звезды",
     place: "Бутово",
@@ -585,6 +641,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260505_1',
     date: "2026-05-05",
     name: "Московский Меридиан",
     place: "Кузьминки",
@@ -595,6 +652,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260507_1',
     date: "2026-05-07",
     name: "Московский Меридиан",
     place: "Покровское-Стрешнево",
@@ -605,6 +663,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260509_1',
     date: "2026-05-09",
     name: "Московская Весна",
     place: "Покровское-Стрешнево",
@@ -616,6 +675,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260510_1',
     date: "2026-05-10",
     name: "Кубок Федерации СО г.Москвы",
     place: "Лыткарино",
@@ -626,6 +686,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260510_2',
     date: "2026-05-10",
     name: "День Победы",
     place: "Парк Дружбы",
@@ -637,6 +698,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260511_1',
     date: "2026-05-11",
     name: "ЧиП Москвы",
     place: "Хорлово",
@@ -647,6 +709,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260512_1',
     date: "2026-05-12",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -657,6 +720,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260513_1',
     date: "2026-05-13",
     name: "Откр. первенство КСО \"Хорошево\"",
     place: "Покровское-Стрешнево",
@@ -667,6 +731,7 @@ let mskEvents2026 = [
     reg: "https://sportident.online/?en&c=6&land=643&reg=77"
 },
 {
+    id: 'MSK_20260514_1',
     date: "2026-05-14",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -677,6 +742,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260516_1',
     date: "2026-05-16",
     name: "РОСАЗИМУТ",
     place: "парк Победы",
@@ -687,6 +753,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260517_1',
     date: "2026-05-17",
     name: "ЧиП Москвы",
     place: "Теплый Стан",
@@ -697,6 +764,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260519_1',
     date: "2026-05-19",
     name: "Московский Меридиан",
     place: "Ясенево",
@@ -707,6 +775,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260521_1',
     date: "2026-05-21",
     name: "Московский Меридиан",
     place: "Сосновка",
@@ -717,6 +786,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260522_1',
     date: "2026-05-22",
     name: "Слет Ориентировщиков",
     place: "Битцевский Лес",
@@ -727,6 +797,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260523_1',
     date: "2026-05-23",
     name: "Слет Ориентировщиков",
     place: "Битцевский Лес",
@@ -737,6 +808,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260524_1',
     date: "2026-05-24",
     name: "Слет Ориентировщиков",
     place: "Битцевский Лес",
@@ -747,6 +819,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260526_1',
     date: "2026-05-26",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -757,6 +830,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260528_1',
     date: "2026-05-28",
     name: "Московский Меридиан",
     place: "Ясенево",
@@ -767,6 +841,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260529_1',
     date: "2026-05-29",
     name: "Московская Весна + Moscow Sprint Tour",
     place: "Дюссельдорфский парк",
@@ -778,6 +853,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260530_1',
     date: "2026-05-30",
     name: "Московская Весна + Moscow Sprint Tour",
     place: "Парк А. Боровика",
@@ -789,6 +865,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260531_1',
     date: "2026-05-31",
     name: "Московская Весна + Moscow Sprint Tour",
     place: "Новокосино",
@@ -800,6 +877,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260602_1',
     date: "2026-06-02",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -810,6 +888,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260604_1',
     date: "2026-06-04",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -820,6 +899,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260606_1',
     date: "2026-06-06",
     name: "Московская Весна",
     place: "Жулебино",
@@ -831,6 +911,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260607_1',
     date: "2026-06-07",
     name: "Московская Весна",
     place: "Рублево",
@@ -842,6 +923,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260609_1',
     date: "2026-06-09",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -852,6 +934,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260611_1',
     date: "2026-06-11",
     name: "Московский Меридиан",
     place: "ст. \"Медик\"",
@@ -862,6 +945,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260612_1',
     date: "2026-06-12",
     name: "Рогейн Большая Битца 2026",
     place: "Битцевский лес",
@@ -873,6 +957,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260616_1',
     date: "2026-06-16",
     name: "Московское Лето",
     place: "Покровское-Стрешнево",
@@ -884,6 +969,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260618_1',
     date: "2026-06-18",
     name: "Московское Лето",
     place: "Сосновка",
@@ -895,6 +981,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260623_1',
     date: "2026-06-23",
     name: "Московское Лето",
     place: "Воробьевы Горы",
@@ -906,6 +993,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260625_1',
     date: "2026-06-25",
     name: "Московское Лето",
     place: "Кусково",
@@ -917,6 +1005,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260630_1',
     date: "2026-06-30",
     name: "Московское Лето",
     place: "ст. \"Медик\"",
@@ -928,6 +1017,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260702_1',
     date: "2026-07-02",
     name: "Московское Лето",
     place: "Нескучный Сад",
@@ -939,6 +1029,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260707_1',
     date: "2026-07-07",
     name: "Московское Лето",
     place: "Серебряный Бор",
@@ -950,6 +1041,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260709_1',
     date: "2026-07-09",
     name: "Московское Лето",
     place: "Братеевский парк",
@@ -961,6 +1053,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260714_1',
     date: "2026-07-14",
     name: "Московское Лето",
     place: "Воронцовский парк",
@@ -972,6 +1065,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260716_1',
     date: "2026-07-16",
     name: "Московское Лето",
     place: "Парк Сев. Реч. вокзала",
@@ -983,6 +1077,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260721_1',
     date: "2026-07-21",
     name: "Московское Лето",
     place: "Воробьевы Горы",
@@ -994,6 +1089,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260723_1',
     date: "2026-07-23",
     name: "Московское Лето",
     place: "Парк 850 летия Москвы",
@@ -1005,6 +1101,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260728_1',
     date: "2026-07-28",
     name: "Московское Лето",
     place: "Ходынское поле",
@@ -1016,6 +1113,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260730_1',
     date: "2026-07-30",
     name: "Московское Лето",
     place: "Покровское-Стрешнево",
@@ -1027,6 +1125,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260804_1',
     date: "2026-08-04",
     name: "Московское Лето",
     place: "Кусково",
@@ -1038,6 +1137,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260806_1',
     date: "2026-08-06",
     name: "Московское Лето",
     place: "Серебряный Бор",
@@ -1049,6 +1149,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260811_1',
     date: "2026-08-11",
     name: "Московское Лето",
     place: "Парк Дружбы",
@@ -1060,6 +1161,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260813_1',
     date: "2026-08-13",
     name: "Московское Лето",
     place: "Пойма р. Городня",
@@ -1071,6 +1173,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260813_2',
     date: "2026-08-13",
     name: "Московский Меридиан",
     place: "Рублёво-запад",
@@ -1081,6 +1184,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260818_1',
     date: "2026-08-18",
     name: "Московский Меридиан",
     place: "Рублёво-восток",
@@ -1091,6 +1195,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260820_1',
     date: "2026-08-20",
     name: "Московский Меридиан",
     place: "Рублёво-запад",
@@ -1101,6 +1206,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260825_1',
     date: "2026-08-25",
     name: "Московский Меридиан",
     place: "Кузьминки",
@@ -1111,6 +1217,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260827_1',
     date: "2026-08-27",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -1121,6 +1228,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260829_1',
     date: "2026-08-29",
     name: "Московская Осень",
     place: "Салтыковка",
@@ -1132,6 +1240,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260829_2',
     date: "2026-08-29",
     name: "Спортивное Долголетие",
     place: "Салтыковка",
@@ -1143,6 +1252,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260830_1',
     date: "2026-08-30",
     name: "Московская Осень",
     place: "Салтыковка",
@@ -1154,6 +1264,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260830_2',
     date: "2026-08-30",
     name: "Спортивное Долголетие",
     place: "Салтыковка",
@@ -1165,6 +1276,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260901_1',
     date: "2026-09-01",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -1175,6 +1287,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260903_1',
     date: "2026-09-03",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -1185,6 +1298,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260905_1',
     date: "2026-09-05",
     name: "Московская Осень",
     place: "Измайлово-запад",
@@ -1196,6 +1310,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260906_1',
     date: "2026-09-06",
     name: "Покровская Горизонталь",
     place: "Покровское-Стрешнево",
@@ -1207,6 +1322,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260908_1',
     date: "2026-09-08",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -1217,6 +1333,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260910_1',
     date: "2026-09-10",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -1227,6 +1344,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260912_1',
     date: "2026-09-12",
     name: "Кубок Федерации СО г.Москвы",
     place: "Кусково",
@@ -1237,6 +1355,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260912_2',
     date: "2026-09-12",
     name: "Московская Осень",
     place: "Измайлово-восток",
@@ -1248,6 +1367,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260913_1',
     date: "2026-09-13",
     name: "Кубок Клубов ФСОМ",
     place: "на согласовании",
@@ -1258,6 +1378,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260915_1',
     date: "2026-09-15",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -1268,6 +1389,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260917_1',
     date: "2026-09-17",
     name: "Московский Меридиан",
     place: "Битцевский лес",
@@ -1278,6 +1400,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260919_1',
     date: "2026-09-19",
     name: "Московская Осень",
     place: "ст. \"Медик\"",
@@ -1289,6 +1412,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260920_1',
     date: "2026-09-20",
     name: "ЧиП Москвы",
     place: "Фосфоритный",
@@ -1299,6 +1423,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260922_1',
     date: "2026-09-22",
     name: "Московский Меридиан",
     place: "Ясенево",
@@ -1309,6 +1434,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260924_1',
     date: "2026-09-24",
     name: "Московский Меридиан",
     place: "Кузьминки",
@@ -1319,6 +1445,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20260926_1',
     date: "2026-09-26",
     name: "Кубок Федерации СО г.Москвы",
     place: "по назначению",
@@ -1329,6 +1456,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260926_2',
     date: "2026-09-26",
     name: "Ночные соревнования пам. А.С. Горюнова",
     place: "на согласовании",
@@ -1340,6 +1468,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20260927_1',
     date: "2026-09-27",
     name: "ЧиП Москвы",
     place: "Парк Победы",
@@ -1350,6 +1479,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20260929_1',
     date: "2026-09-29",
     name: "Московский Меридиан",
     place: "Покровское-Стрешнево",
@@ -1360,6 +1490,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20261001_1',
     date: "2026-10-01",
     name: "Московский Меридиан",
     place: "Сосновка",
@@ -1370,6 +1501,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20261003_1',
     date: "2026-10-03",
     name: "ЧиП Москвы",
     place: "Люберцы",
@@ -1380,6 +1512,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20261003_2',
     date: "2026-10-03",
     name: "Moscow City Race",
     place: "Чистые Пруды",
@@ -1391,6 +1524,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261004_1',
     date: "2026-10-04",
     name: "ЧиП Москвы",
     place: "Битцевский Лес",
@@ -1401,6 +1535,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20261004_2',
     date: "2026-10-04",
     name: "Первенство КСО Москомпасориента",
     place: "Белая Дача",
@@ -1412,6 +1547,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261006_1',
     date: "2026-10-06",
     name: "Московский Меридиан",
     place: "Ясенево",
@@ -1422,6 +1558,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20261008_1',
     date: "2026-10-08",
     name: "Московский Меридиан",
     place: "Серебряный Бор",
@@ -1432,6 +1569,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20261010_1',
     date: "2026-10-10",
     name: "Откр. первенство КСО \"Хорошево\"",
     place: "Покровское-Стрешнево",
@@ -1442,6 +1580,7 @@ let mskEvents2026 = [
     reg: "https://sportident.online/?en&c=6&land=643&reg=77"
 },
 {
+    id: 'MSK_20261010_2',
     date: "2026-10-10",
     name: "Московская Осень + Полуночное ориентирование в Дубках",
     place: "Парк Дубки",
@@ -1453,6 +1592,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261011_1',
     date: "2026-10-11",
     name: "Памяти Друзей",
     place: "Битцевский Лес",
@@ -1463,6 +1603,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20261013_1',
     date: "2026-10-13",
     name: "Московский Меридиан",
     place: "Серебряный Бор",
@@ -1473,6 +1614,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20261015_1',
     date: "2026-10-15",
     name: "Московский Меридиан",
     place: "л/з «Тропарёвский»",
@@ -1483,6 +1625,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20261017_1',
     date: "2026-10-17",
     name: "Откр. первенство КСО \"Хорошево\"",
     place: "Покровское-Стрешнево",
@@ -1493,6 +1636,7 @@ let mskEvents2026 = [
     reg: "https://sportident.online/?en&c=6&land=643&reg=77"
 },
 {
+    id: 'MSK_20261017_2',
     date: "2026-10-17",
     name: "Московская Осень",
     place: "Воробьевы Горы",
@@ -1504,6 +1648,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261018_1',
     date: "2026-10-18",
     name: "ЧиП Москвы, One Man Relay",
     place: "Осташово",
@@ -1514,6 +1659,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20261020_1',
     date: "2026-10-20",
     name: "Московский Меридиан",
     place: "Ясеневский лесопарк – Мореон",
@@ -1524,6 +1670,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20261022_1',
     date: "2026-10-22",
     name: "Московский Меридиан",
     place: "Самородинка-запад",
@@ -1534,6 +1681,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20261024_1',
     date: "2026-10-24",
     name: "Московская Осень",
     place: "Битцевский лес",
@@ -1545,6 +1693,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261025_1',
     date: "2026-10-25",
     name: "Золотая осень",
     place: "Кусково",
@@ -1556,6 +1705,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261027_1',
     date: "2026-10-27",
     name: "Московский Меридиан",
     place: "Самородинка-восток",
@@ -1566,6 +1716,7 @@ let mskEvents2026 = [
     owner: "SYTV_N"
 },
 {
+    id: 'MSK_20261031_1',
     date: "2026-10-31",
     name: "Московская Осень",
     place: "Сосновка",
@@ -1577,6 +1728,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261101_1',
     date: "2026-11-01",
     name: "Московская Осень",
     place: "Битцевский лес(Ясенево)",
@@ -1588,6 +1740,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261104_1',
     date: "2026-11-04",
     name: "Московский Нанорогейн",
     place: "Лыткарино (Волкуша)",
@@ -1599,6 +1752,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261107_1',
     date: "2026-11-07",
     name: "Московская Осень",
     place: "Нескучный Сад",
@@ -1610,6 +1764,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261108_1',
     date: "2026-11-08",
     name: "Московская Осень",
     place: "Покровское-Стрешнево",
@@ -1621,6 +1776,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261114_1',
     date: "2026-11-14",
     name: "Московская Осень",
     place: "Рублево",
@@ -1632,6 +1788,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261115_1',
     date: "2026-11-15",
     name: "Московская Осень",
     place: "Тимирязевский парк",
@@ -1643,6 +1800,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261121_1',
     date: "2026-11-21",
     name: "Московская Осень",
     place: "Ст. \"Медик\"",
@@ -1654,6 +1812,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261122_1',
     date: "2026-11-22",
     name: "Московская Осень",
     place: "Долина Шмелева ручья",
@@ -1665,6 +1824,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261128_1',
     date: "2026-11-28",
     name: "Московская Осень",
     place: "Белая дача",
@@ -1676,6 +1836,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261129_1',
     date: "2026-11-29",
     name: "Покровская Снежнинка",
     place: "Покровское-Стрешнево",
@@ -1687,6 +1848,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261205_1',
     date: "2026-12-05",
     name: "Московский Нанорогейн",
     place: "Замоскворечье",
@@ -1698,6 +1860,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261206_1',
     date: "2026-12-06",
     name: "Рубеж Славы",
     place: "на согласовании",
@@ -1708,6 +1871,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20261212_1',
     date: "2026-12-12",
     name: "Снежная Тропа",
     place: "Химкинский л/п",
@@ -1719,6 +1883,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261213_1',
     date: "2026-12-13",
     name: "Снежная Тропа",
     place: "Ясенево(юг)",
@@ -1730,6 +1895,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261219_1',
     date: "2026-12-19",
     name: "Снежная Тропа",
     place: "Парк Дружбы",
@@ -1741,6 +1907,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261220_1',
     date: "2026-12-20",
     name: "Снежная Тропа",
     place: "Тропарево",
@@ -1752,6 +1919,7 @@ let mskEvents2026 = [
     owner: "CLEVER_MSK"
 },
 {
+    id: 'MSK_20261220_2',
     date: "2026-12-20",
     name: "Открытие Зимнего Сезона",
     place: "по назначению",
@@ -1762,6 +1930,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20261226_1',
     date: "2026-12-26",
     name: "Новогодние Старты",
     place: "на согласовании",
@@ -1772,6 +1941,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20261227_1',
     date: "2026-12-27",
     name: "Новогодние Старты",
     place: "на согласовании",
@@ -1782,6 +1952,7 @@ let mskEvents2026 = [
     owner: "FSO_MSK"
 },
 {
+    id: 'MSK_20270102_1',
     date: "2027-01-02",
     name: "Новогодняя ночь 2027",
     place: "Салтыковка",
@@ -1792,4 +1963,4 @@ let mskEvents2026 = [
     reg: "https://orgeo.ru/event/organizer/24222",
     owner: "CLEVER_MSK"
 }
-]
+];

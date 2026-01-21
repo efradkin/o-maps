@@ -1,6 +1,7 @@
 let otherEvents2026 = [
 /* --- БЕГ --- */
 {
+    id: 'OTHER_20260125_1',
     date: '2026-01-25',
     place: 'Коккорево - Всеволожск',
     name: 'Дорога Жизни',
@@ -11,6 +12,7 @@ let otherEvents2026 = [
     track: 'roadlife_2025_42km'
 },
 {
+    id: 'OTHER_20260215_1',
     date: '2026-02-15',
     place: 'Павловск',
     name: 'Зимний Павловский забег',
@@ -21,6 +23,7 @@ let otherEvents2026 = [
     track: 'pavlovsky_zabeg_21'
 },
 {
+    id: 'OTHER_20260419_1',
     date: '2026-04-19',
     place: 'СПб',
     name: 'Арена Полумарафон',
@@ -30,6 +33,7 @@ let otherEvents2026 = [
     start: 'PUSHKINRUN',
 },
 {
+    id: 'OTHER_20260510_1',
     date: '2026-05-10',
     place: 'Пушкин',
     name: 'Царскосельский Марафон',
@@ -39,6 +43,7 @@ let otherEvents2026 = [
     start: 'PUSHKINRUN',
 },
 {
+    id: 'OTHER_20260523_1',
     date: '2026-05-23',
     place: 'СПб',
     name: 'Забег.РФ',
@@ -47,6 +52,7 @@ let otherEvents2026 = [
     fmt: '21, 10, 5, 1',
 },
 {
+    id: 'OTHER_20260609_1',
     date: '2026-06-09',
     place: 'Пушкин - СПб',
     name: 'Пушкин - Санкт-Петербург',
@@ -57,6 +63,7 @@ let otherEvents2026 = [
     track: 'pushkin_spb_2023_42km'
 },
 {
+    id: 'OTHER_20260704_1',
     date: '2026-07-04',
     place: 'СПб',
     name: 'Белые Ночи',
@@ -67,6 +74,7 @@ let otherEvents2026 = [
     track: 'spb_wn_2025_42km'
 },
 {
+    id: 'OTHER_20260809_1',
     date: '2026-08-09',
     place: 'СПб',
     name: 'Северная столица',
@@ -76,6 +84,7 @@ let otherEvents2026 = [
     owner: 'RUNC',
 },
 {
+    id: 'OTHER_20261004_1',
     date: '2026-10-04',
     place: 'Павловск',
     name: 'Осенний Павловский забег',
@@ -86,6 +95,7 @@ let otherEvents2026 = [
     track: 'pavlovsky_zabeg_21'
 },
 {
+    id: 'OTHER_20261025_1',
     date: '2026-10-25',
     place: 'СПб',
     name: 'Арена марафон',
@@ -95,6 +105,7 @@ let otherEvents2026 = [
     start: 'PUSHKINRUN',
 },
 {
+    id: 'OTHER_20261108_1',
     date: '2026-11-08',
     place: 'Гатчина',
     name: 'Гатчинский полумарафон',
@@ -107,6 +118,7 @@ let otherEvents2026 = [
 /* --- ЛЫЖИ --- */
 // https://docs.google.com/spreadsheets/d/e/2PACX-1vRJJXxtBc9nqhZpFvcvX-q39mVoblSGQW1pR6OnuLODBFyXLdgg0JZUdIdN1Lgp0I3jzwm7dB5zCudK/pubhtml?gid=1063843429&single=true
 {
+    id: 'OTHER_20260125_2',
     date: '2026-01-25',
     place: 'Тихвин',
     name: 'Тихвинский марафон',
@@ -118,6 +130,7 @@ let otherEvents2026 = [
     coords: [59.644209, 33.542096]
 },
 {
+    id: 'OTHER_20260131_1',
     date: '2026-01-31',
     endDate: '2026-02-01',
     place: 'Токсово',
@@ -130,6 +143,7 @@ let otherEvents2026 = [
     coords: [60.127481, 30.463336]
 },
 {
+    id: 'OTHER_20260223_1',
     date: '2026-02-23',
     place: 'Гарболово',
     name: 'Быстрый Лис',
@@ -142,6 +156,7 @@ let otherEvents2026 = [
     coords: [60.338019, 30.500704]
 },
 {
+    id: 'OTHER_20260321_1',
     date: '2026-03-21',
     place: 'Орехово',
     name: 'Ореховская лыжня',
@@ -152,6 +167,7 @@ let otherEvents2026 = [
     coords: [60.461689, 30.294732]
 },
 {
+    id: 'OTHER_20260308_1',
     date: '2026-03-08',
     place: 'Гатчина',
     name: 'Гатчинский марафон',
