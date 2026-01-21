@@ -334,7 +334,7 @@ if (mapElement) {
         .notifications({
             timeout: 10000,
             className: 'modern',
-            position: 'topright',
+            position: 'bottomleft',
             closable: true,
             dismissable: true,
         }).addTo(map);
