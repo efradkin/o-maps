@@ -52,17 +52,6 @@ let otherEvents2026 = [
     fmt: '21, 10, 5, 1',
 },
 {
-    id: 'OTHER_20260609_1',
-    date: '2026-06-09',
-    place: 'Пушкин - СПб',
-    name: 'Пушкин - Санкт-Петербург',
-    link: 'https://pushkin-run.ru',
-    type: 'RUN',
-    fmt: '42, 30, 10, 5',
-    start: 'PUSHKINRUN',
-    track: 'pushkin_spb_2023_42km'
-},
-{
     id: 'OTHER_20260704_1',
     date: '2026-07-04',
     place: 'СПб',
@@ -82,6 +71,17 @@ let otherEvents2026 = [
     type: 'RUN',
     fmt: '21, 10',
     owner: 'RUNC',
+},
+{
+    id: 'OTHER_20260906_1',
+    date: '2026-09-06',
+    place: 'Пушкин - СПб',
+    name: 'Пушкин - Санкт-Петербург',
+    link: 'https://pushkin-run.ru/pushkin-spb-2026',
+    type: 'RUN',
+    fmt: '42, 30, 10, 5',
+    start: 'PUSHKINRUN',
+    track: 'pushkin_spb_2023_42km'
 },
 {
     id: 'OTHER_20261004_1',

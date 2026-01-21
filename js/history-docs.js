@@ -66,7 +66,6 @@ let historyDocs = [
         name: 'II-я матчевая встреча Рига - Ленинград (Ильичёво, оз Долгое)',
         date: '1969-07-19',
         info: '19-20 июля.',
-        map: 'ilychevo_dolgoe_1979',
         link: './docs/1969/1969_07_19_riga_leningrad_omaps.pdf',
         planner: 'KPSTN'
     },

@@ -2,8 +2,6 @@ const urlParams = new URLSearchParams(window.location.search);
 const EVENT_TYPE_PARAM = urlParams.get('event-type');
 const EVENT_MONTH_PARAM = urlParams.get('event-month');
 const CALENDAR_NAME_PARAM = urlParams.get('calendar');
-const HAS_MY_PARAM = urlParams.has('my');
-const HAS_MY_EDIT_PARAM = urlParams.has('my-edit');
 
 let onlyMajor = false;
 let major = localStorage.getItem('onlyMajor');
@@ -13,10 +11,20 @@ if (major != null) {
 if (onlyMajor) {
     document.getElementById('only-major').checked = 'checked';
 }
-if (HAS_MY_PARAM) {
+let onlyMy = false;
+let my = localStorage.getItem('onlyMy');
+if (my != null) {
+    onlyMy = (my === 'true');
+}
+if (onlyMy) {
     document.getElementById('only-my').checked = 'checked';
 }
-if (HAS_MY_EDIT_PARAM) {
+let myEdit = false;
+let myedt = localStorage.getItem('myEdit');
+if (myedt != null) {
+    myEdit = (myedt === 'true');
+}
+if (myEdit) {
     document.getElementById('edit-my-done-button').style.display = 'inline';
 } else {
     document.getElementById('edit-my-button').style.display = 'inline';
@@ -36,8 +44,8 @@ function switchRus(value) {
 }
 
 function switchMy(checked) {
-    const href = location.origin + location.pathname;
-    location.href = href + (checked ? '?my' : '');
+    localStorage.setItem('onlyMy', !onlyMy);
+    location.reload();
 }
 
 function saveMy() {
@@ -47,13 +55,13 @@ function saveMy() {
 }
 
 function editMy() {
-    const href = location.origin + location.pathname;
-    location.href = href + '?my-edit';
+    localStorage.setItem('myEdit', 'true');
+    location.reload();
 }
 
-function modifyDone() {
-    const href = location.origin + location.pathname;
-    location.href = href;
+function myEditDone() {
+    localStorage.setItem('myEdit', 'false');
+    location.reload();
 }
 
 // Фильтрация массива. Оставляем только эвенты, соответствующие критерию запроса (есди он задан).
@@ -146,7 +154,7 @@ function renderMapsTable() {
     let prevYear = 0;
     let currentMonth = -1;
     for (const evt of oEvents) {
-        if (HAS_MY_PARAM && (!evt.id || !myEvents.includes(evt.id))) {
+        if (onlyMy && (!evt.id || !myEvents.includes(evt.id))) {
             continue;
         }
 
@@ -163,7 +171,7 @@ function renderMapsTable() {
                 monthTD.setAttribute('colspan', 8);
                 monthTD.classList.add('month-row');
                 monthRow.appendChild(monthTD);
-                if (!HAS_MY_PARAM) {
+                if (!onlyMy) {
                     tbody.appendChild(monthRow);
                 }
             }
@@ -250,7 +258,7 @@ function buildNumber(event, i) {
     }
     let checkbox =  '', myEvent = '';
     if (event.id) {
-        if (HAS_MY_EDIT_PARAM) {
+        if (myEdit) {
             const checked = myEvents.includes(event.id) ? ' checked' : '';
             // console.log(event.id, checked)
             checkbox = `<input class="my-checkbox" type="checkbox" id="${event.id}" name="only-my" ${checked} onclick="saveMy();" />&nbsp;`;

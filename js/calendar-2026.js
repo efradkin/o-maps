@@ -668,6 +668,16 @@ let events2026 = [
     start: 'ROGAINE_110'
 },
 {
+    id: 'SPB_20260720_1',
+    date: '2026-07-20',
+    endDate: '2026-07-26',
+    name: 'Клубный Кубок Карелии (ККК)',
+    place: 'Курмойла',
+    link: 'https://vk.com/club197340171',
+    type: 'ORIENT',
+    start: 'KKK'
+},
+{
     id: 'SPB_20260725_1',
     date: '2026-07-25',
     place: 'Луга, оз Малые Толони',
