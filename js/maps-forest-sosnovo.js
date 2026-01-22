@@ -41,9 +41,9 @@ let sosnovoMaps = [
         name: 'Петяярви',
         date: '1968-09-13',
         start: 'USSR_BULGARIA_1968',
-        info: 'Заданное направление.',
+        info: '1969, VIII слёт фабрики ЧАЙКА. 5 июня 1971, <a href="./docs/1971/1971_07_05_petyajarvi_omaps.pdf">Первенство</a> завода Вибратор.',
         url: './maps/forest/sosnovo/petyajarvi_1968.webp',
-        link: './original_maps/forest/sosnovo/petyajarvi_1968_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/petyajarvi_1968_omaps.jpg','./original_maps/forest/sosnovo/petyajarvi_1971_M_omaps.jpg','./original_maps/forest/sosnovo/petyajarvi_1971_W_omaps.jpg'],
         bounds: [[60.634647739846734, 30.077476501464847], [60.6278706373631, 30.17231941223145], [60.60529809128897, 30.071468353271488]]
     },
     {

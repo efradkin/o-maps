@@ -7,6 +7,16 @@ let historyDocs = [
         qtty: 2
     },
     {
+        name: 'Календарь соревнований на зиму',
+        year: 1967,
+        link: './docs/1967/1967_calendar_winter_omaps.pdf'
+    },
+    {
+        name: 'Календарь соревнований на зиму',
+        year: 1968,
+        link: './docs/1968/1968_calendar_winter_omaps.pdf'
+    },
+    {
         name: 'Статья в газете "ТРУД"',
         start: 'USSR_BULGARIA_1968',
         year: 1968,
@@ -85,10 +95,65 @@ let historyDocs = [
         start: 'WEDDING'
     },
     {
-        name: 'П-во Ленинграда, марафон (Рощино)',
-        date: '1979-09-23',
-        link: './docs/1979/1979_09_23_leningrad_marathon_omaps.pdf',
-        planner: 'KRCHNKO_S'
+        name: 'Календарь соревнований',
+        year: 1970,
+        link: './docs/1970/1970_calendar_omaps.pdf'
+    },
+    {
+        name: 'П-во Ленинграда (Приветнинское)',
+        date: '1970-02-22',
+        link: './docs/1970/1970_02_22_leningrad_omaps.pdf',
+    },
+    {
+        name: 'Календарь соревнований секции ориентирования',
+        year: 1971,
+        link: './docs/1971/1971_calendar_omaps.pdf'
+    },
+    {
+        name: 'IV матч Рига - Ленинград (Шапки)',
+        date: '1971-07-03',
+        link: './docs/1971/1971_07_03_riga_leningrad_omaps.pdf'
+    },
+    {
+        name: 'Первенство завода Вибратор (Петяярви)',
+        date: '1971-07-05',
+        link: './docs/1971/1971_07_05_petyajarvi_omaps.pdf',
+        map: 'petyajarvi_1968'
+    },
+    {
+        name: 'Первенство Ленинградской обл (Вартемяки)',
+        date: '1971-05-23',
+        link: './docs/1971/1971_05_23_lo_omaps.pdf',
+        planner: ['LNV_Y','MLVA_M']
+    },
+    {
+        name: 'Белые Ночи',
+        date: '1971-06-12',
+        info: 'Первые  массовые соревнования "Белые Ночи".',
+        link: './docs/1971/1971_06_12_wn_omaps.pdf',
+        start: 'WN',
+        map: 'roschino_1971_wn',
+        major: true
+    },
+    {
+        name: 'Матч Болгария - СССР (Псков)',
+        date: '1971-07-23',
+        link: './docs/1971/1971_07_23_bulgaria_ussr_omaps.pdf'
+    },
+    {
+        name: 'IV матч Рига - Ленинград, эстафета (Шапки)',
+        date: '1971-07-04',
+        link: './docs/1971/1971_07_04_riga_leningrad_omaps.pdf'
+    },
+    {
+        name: 'Первенство Ленинграда, марафон (Комарово)',
+        date: '1971-09-19',
+        link: './docs/1971/1971_09_19_leningrad_marathon_omaps.pdf'
+    },
+    {
+        name: 'Календарь соревнований на лето Центрального клуба туристов г.Ленинграда',
+        year: 1973,
+        link: './docs/1973/1973_calendar_summer_omaps.pdf'
     },
     {
         name: 'П-во г.Ленинграда на маркированной трассе (Сосново)',
@@ -97,6 +162,12 @@ let historyDocs = [
         map: 'sosnovo_black_forest_1974',
         link: './docs/1974_leningrad_omaps.pdf',
         planner: ['FDRV_A','SHRNN','GRZNVCH','SHRPV_V']
+    },
+    {
+        name: 'П-во Ленинграда, марафон (Рощино)',
+        date: '1979-09-23',
+        link: './docs/1979/1979_09_23_leningrad_marathon_omaps.pdf',
+        planner: 'KRCHNKO_S'
     },
     {
         name: 'Программа',

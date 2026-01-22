@@ -49,6 +49,7 @@ let planners = {
     KUZNTSV_V: { name: 'Кузнецов Владимир' },
     LBDV_S: { name: 'Лебедев С' },
     LKNVA: { name: 'Леканова Н' },
+    LNV_Y: { name: 'Леонов Ю' }, // Н.
     LVCHV: { name: 'Левичев Александр' },
     MDVDKN: { name: 'Медведкин Г' },
     MKHLV_V: { name: 'Михайлов В' },

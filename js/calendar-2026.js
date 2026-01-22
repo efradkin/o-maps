@@ -125,7 +125,7 @@ let events2026 = [
         'М17/45/55/Ф-Сл':'https://viewer.o-gps-center.ru/viewer/event/24138/',
         'Все КП':'https://viewer.o-gps-center.ru/viewer/event/24123/'
     },
-    photo: 'https://vk.com/album-230167293_312356826',
+    photo: ['https://vk.com/album-230167293_312356826','https://vk.com/album-230167293_312386022'],
     type: 'SKI',
     fmt: 'маркир,классика',
     planner: 'SMNV_M',
