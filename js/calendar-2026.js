@@ -92,6 +92,7 @@ let events2026 = [
     type: 'SKI',
     fmt: 'спринт',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24101/',
+    map: 'kirovsk_2025',
     owner: 'SFSO_LO'
 },
 {
@@ -141,6 +142,7 @@ let events2026 = [
     reg: 'https://orgeo.ru/event/kirovsk_ski_o_2425012026',
     type: 'SKI',
     fmt: 'классика,многодневная',
+    map: 'kirovsk_2025',
     owner: 'SFSO_LO'
 },
 {
@@ -162,6 +164,7 @@ let events2026 = [
     link: 'https://o-site.spb.ru/race.php?id=260125',
     reg: 'http://orgeo.ru/event/kubkrl',
     type: 'SKI',
+    map: 'polyustrovsky_2022',
     fmt: 'спринт'
 },
 {
@@ -237,6 +240,7 @@ let events2026 = [
     reg: 'https://orgeo.ru/event/kirovsk_ski_o_2122022026',
     type: 'SKI',
     fmt: 'маркир,масстарт',
+    map: 'kirovsk_2025',
     owner: 'SFSO_LO'
 },
 {

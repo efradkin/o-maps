@@ -1950,7 +1950,7 @@ let events2025 = [
     name: 'Тренировка',
     type: 'ORIENT',
     link: 'https://vk.com/wall-158501339_619',
-    map: 'polyustrovsky_2022_omaps'
+    map: 'polyustrovsky_2022'
 },
 {
     id: 'SPB_20251002_1',

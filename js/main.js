@@ -745,7 +745,7 @@ function createEventMarker(evt, evtMap) {
     let now = new Date();
 
     let evtCPimage = './images/event_cp';
-    if ((currentDate > now && currentDate - now < WEEK_TIME_RANGE) || (currentDate < now && now - currentDate < DAY_TIME_RANGE)) {
+    if (isActual(currentDate)) {
         evtCPimage += '_now';
     } else if (currentDate < now) {
             evtCPimage += '_old';

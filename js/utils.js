@@ -854,7 +854,8 @@ function isOutdated(date) {
 
 function isActual(date) {
     const now = new Date();
-    return !isOutdated(date) && (date - now < WEEK_TIME_RANGE);
+    const actualRange = ('ROGAINE' === urlParams.get('event-type') ? WEEK_TIME_RANGE*4 : WEEK_TIME_RANGE);
+    return !isOutdated(date) && (date - now < actualRange);
 }
 
 function validateEvent(evt) {
