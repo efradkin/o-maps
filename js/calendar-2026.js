@@ -311,16 +311,6 @@ let events2026 = [
     owner: 'YUVENTA'
 },
 {
-    id: 'SPB_20260417_1',
-    date: '2026-04-17',
-    endDate: '2026-04-19',
-    name: 'Венок Славы Ал.Невского (ВСАН)',
-    place: 'Псков',
-    link: 'https://vk.com/skorus',
-    type: 'ORIENT',
-    owner: 'PSKOV_RUS'
-},
-{
     id: 'SPB_20260425_1',
     date: '2026-04-25',
     name: 'Открытие сезона',
@@ -386,16 +376,6 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
-    id: 'SPB_20260509_2',
-    date: '2026-05-09',
-    endDate: '2026-05-11',
-    name: 'Мемориал Александра Матросова',
-    place: 'Псков',
-    link: 'https://vk.com/skorus',
-    type: 'ORIENT',
-    owner: 'PSKOV_RUS'
-},
-{
     id: 'SPB_20260510_1',
     date: '2026-05-10',
     name: 'ЧиП СПб',
@@ -456,15 +436,6 @@ let events2026 = [
     date: '2026-05-23',
     endDate: '2026-05-24',
     name: 'Универсиада, Майские старты',
-    type: 'ORIENT',
-    owner: 'SFSO_SPB'
-},
-{
-    id: 'SPB_20260523_3',
-    date: '2026-05-23',
-    endDate: '2026-06-01',
-    major: true,
-    name: 'Чемпионат России по спорту лиц с поражением ОДА',
     type: 'ORIENT',
     owner: 'SFSO_SPB'
 },
@@ -544,17 +515,6 @@ let events2026 = [
     start: 'KKP'
 },
 {
-    id: 'SPB_20260613_1',
-    date: '2026-06-13',
-    place: 'Сортавала',
-    name: 'RED FOX ADVENTURE RACE',
-    fmt: '48, 24, 12',
-    type: 'MULTI',
-    link: 'https://adventure-race.redfox.ru/docs/rules/',
-    reg: 'https://adventure-race.redfox.ru/applications/',
-    start: 'RFAR',
-},
-{
     id: 'SPB_20260613_2',
     date: '2026-06-13',
     name: 'Пирамида',
@@ -579,28 +539,6 @@ let events2026 = [
     start: 'KKP'
 },
 {
-    id: 'SPB_20260616_1',
-    date: '2026-06-16',
-    endDate: '2026-06-20',
-    name: 'Камни Карельского перешейка',
-    place: 'Пруды',
-    link: 'https://o-nw.ru/kkp',
-    reg: 'https://sportident.online/entry/?id=6855',
-    type: 'ORIENT',
-    map: 'kkp_prudy_2019_06_19',
-    start: 'KKP'
-},
-{
-    id: 'SPB_20260626_1',
-    date: '2026-06-26',
-    endDate: '2026-06-28',
-    name: 'Мемориал Михаила Святкина XXXII',
-    place: 'Пески',
-    type: 'ORIENT',
-    map: 'peski_2001',
-    start: 'MMS'
-},
-{
     id: 'SPB_20260627_1',
     date: '2026-06-27',
     name: 'HARD ROGAINE | Ladoga',
@@ -621,15 +559,6 @@ let events2026 = [
     owner: 'SHBN'
 },
 {
-    id: 'SPB_20260704_1',
-    date: '2026-07-04',
-    endDate: '2026-07-06',
-    name: 'Белые ночи, Чемпионат СЗФО',
-    place: 'Сосново',
-    type: 'ORIENT',
-    owner: 'WN'
-},
-{
     id: 'SPB_20260704_2',
     date: '2026-07-04',
     place: 'Орехово',
@@ -638,16 +567,6 @@ let events2026 = [
     fmt: '6(5), 3',
     map: 'lembolovo_orekhovo_gk_2024',
     start: 'GORNY_CROSS'
-},
-{
-    id: 'SPB_20260709_1',
-    date: '2026-07-09',
-    endDate: '2026-07-19',
-    name: 'АЛОЛЬ-2026 (Русь, Рельеф, Иван Купала)',
-    place: 'Себежский р-он, Лешане',
-    link: 'https://vk.com/skorus',
-    type: 'ORIENT',
-    owner: 'PSKOV_RUS'
 },
 {
     id: 'SPB_20260711_1',
@@ -666,16 +585,6 @@ let events2026 = [
     fmt:  '4',
     type: 'ROGAINE',
     start: 'ROGAINE_110'
-},
-{
-    id: 'SPB_20260720_1',
-    date: '2026-07-20',
-    endDate: '2026-07-26',
-    name: 'Клубный Кубок Карелии (ККК)',
-    place: 'Курмойла',
-    link: 'https://vk.com/club197340171',
-    type: 'ORIENT',
-    start: 'KKK'
 },
 {
     id: 'SPB_20260725_1',
@@ -764,29 +673,12 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
-    id: 'SPB_20260911_1',
-    date: '2026-09-11',
-    endDate: '2026-09-13',
-    name: 'Всероссийские соревнования НЕВСКИЙ СПРИНТ',
-    type: 'ORIENT',
-    owner: 'SFSO_SPB'
-},
-{
     id: 'SPB_20260918_1',
     date: '2026-09-18',
     name: 'Велоизоляция',
     type: ['ROGAINE','VELO'],
     fmt: '8, 4',
     start: 'MULTSPORT'
-},
-{
-    id: 'SPB_20260919_1',
-    date: '2026-09-19',
-    endDate: '2026-09-20',
-    name: 'Гран-при Владимира Алексеева, ЧиП ЛО',
-    place: 'Мичуринское',
-    type: 'ORIENT',
-    owner: 'WN'
 },
 {
     id: 'SPB_20260919_2',
