@@ -1,0 +1,198 @@
+let bashMaps = [
+    // --- Башкортостан ---
+    {
+        name: 'Уфа, Мед. колледж',
+        year: 2010,
+        url: './maps/bash/medkol_2010.webp',
+        link: ['./original_maps/bash/medkol_2010_omaps.gif','./original_maps/bash/medkol_2010_omaps.ocd'],
+        bounds: [[54.76659477042868, 55.978925228118904], [54.76540635780258, 55.993387699127204], [54.75374320745313, 55.97547054290772]],
+        author: ['GZTLN','GRSHN_V','ZRPV','YLMNV','LNTV','BRTSHV','ZKHRV_V','ISKNDRV'],
+        owner: 'YUSHV_A',
+        type: 'PARK'
+    },
+    {
+        name: 'Уфа, СОК Биатлон',
+        year: 2006,
+        url: './maps/bash/ufa_biatlon_2006.webp',
+        link: ['./original_maps/bash/ufa_biatlon_2006_omaps.jpg','./original_maps/bash/ufa_biatlon_2006_winter_omaps.jpg'],
+        bounds: [[54.824104370199, 56.03950023651124], [54.8215578172061, 56.05971336364747], [54.80110540046025, 56.03053092956544]],
+        author: ['BLTV','MTN_Y'],
+        owner: 'YUSHV_A',
+        type: ['ORIENT','WINTER']
+    },
+    {
+        name: 'оз Акманай',
+        year: 2010,
+        url: './maps/bash/akmanay_winter_2010.webp',
+        link: './original_maps/bash/akmanay_winter_2010_omaps.gif',
+        bounds: [[54.592580101075065, 55.68089962005616], [54.590441690985635, 55.703001022338874], [54.57683778006277, 55.67411899566651]],
+        owner: 'YUSHV_A',
+        type: 'WINTER'
+    },
+    {
+        name: 'Салават, оз Ялпой',
+        year: 2008,
+        url: './maps/bash/yalpoy_2008.webp',
+        link: './original_maps/bash/yalpoy_2008_omaps.jpg',
+        bounds: [[53.36458707964082, 55.949678421020515], [53.36271761919351, 55.969634056091316], [53.35047446756828, 55.945429801940925]],
+        owner: 'YUSHV_A'
+    },
+    {
+        name: 'Салават, Школа №22',
+        year: 2007,
+        url: './maps/bash/salavat_school_22_2007.webp',
+        link: ['./original_maps/bash/salavat_school_22_2007_omaps.gif','./original_maps/bash/salavat_school_22_2007_omaps.ocd'],
+        bounds: [[53.367365509711014, 55.91964840888977], [53.36710303904437, 55.92899322509766], [53.36174444293704, 55.919240713119514]],
+        author: 'DVTKN_A',
+        owner: 'YUSHV_A',
+        type: 'CITY'
+    },
+    {
+        name: 'Салават, Школа №24',
+        year: 2005,
+        url: './maps/bash/salavat_school_24_2005.webp',
+        link: './original_maps/bash/salavat_school_24_2005_omaps.jpg',
+        bounds: [[53.3529528370735, 55.9425973892212], [53.35304889500624, 55.948970317840576], [53.347009631985955, 55.94276905059815]],
+        author: ['ZHDNK_L','RHMTLNA'],
+        owner: 'YUSHV_A',
+        type: 'CITY'
+    },
+    {
+        name: 'Салават, ЦПКиО',
+        year: 2006,
+        url: './maps/bash/salavat_park_2006.webp',
+        link: './original_maps/bash/salavat_park_2006_omaps.jpg',
+        bounds: [[53.36566262245278, 55.936954021453865], [53.36434379833481, 55.95019340515137], [53.35664770956202, 55.9339714050293]],
+        author: 'DVTKN_A',
+        owner: 'YUSHV_A',
+        type: 'PARK'
+    },
+    {
+        name: 'Стерлитамак, Семёнкино',
+        year: 2005,
+        url: './maps/bash/semenkino_2005.webp',
+        link: ['./original_maps/bash/semenkino_2005_omaps.gif','./original_maps/bash/semenkino_2005_omaps.ocd'],
+        bounds: [[53.82127711219958, 55.71102619171143], [53.81709692844788, 55.748448371887214], [53.80435112827054, 55.704245567321784]],
+        author: 'ISHMHMDV',
+        owner: 'YUSHV_A',
+    },
+    {
+        name: 'Стерлитамак, Карасевка',
+        year: 2009,
+        url: './maps/bash/sterlitamak_karasevka_2009.webp',
+        link: './original_maps/bash/sterlitamak_karasevka_2009_omaps.gif',
+        bounds: [[53.663382832011536, 56.097478866577156], [53.66134849905954, 56.117005348205566], [53.65425299448453, 56.094732284545906]],
+        author: ['MTN_Y','ISHMHMDV','ZKHRV_V','YUSHV_A'],
+        logo: 'bash_fox.gif',
+        owner: 'YUSHV_A'
+    },
+    {
+        name: 'Стерлитамак, Урняк',
+        year: 2007,
+        url: './maps/bash/sterlitamak_urnyak_2007.webp',
+        link: ['./original_maps/bash/sterlitamak_urnyak_2007_omaps.jpg','./original_maps/bash/sterlitamak_urnyak_2007_relief_omaps.jpg'],
+        bounds: [[53.68021316917553, 56.10722064971924], [53.67909474506964, 56.118936538696296], [53.67445550984704, 56.105375289917]],
+        author: ['YUSHV_A','BBCH_AL','ZKHRV_V','AFNSV_E'],
+        owner: 'YUSHV_A',
+        type: ['ORIENT','RELIEF']
+    },
+    {
+        name: 'Стерлитамак, Вечный огонь',
+        year: 2006,
+        url: './maps/bash/sterlitamak_gymnasium_2_2006.webp',
+        link: './original_maps/bash/sterlitamak_gymnasium_2_2006_omaps.gif',
+        bounds: [[53.63951138213367, 55.92435836791992], [53.63962587524991, 55.9375548362732], [53.630058267431444, 55.924465656280525]],
+        author: 'YUSHV_A',
+        owner: 'YUSHV_A',
+        logo: 'bash_fox.gif',
+        type: 'CITY'
+    },
+    {
+        name: 'Стерлитамак, Гимназия №2',
+        year: 2006,
+        url: './maps/bash/sterlitamak_gymnasium_2_yard_2006.webp',
+        link: './original_maps/bash/sterlitamak_gymnasium_2_yard_2006_omaps.jpg',
+        bounds: [[53.636419950522416, 55.92786669731141], [53.636566257948694, 55.93061327934266], [53.63458152266024, 55.92782378196717]],
+        author: ['DKNV_A','YUSHV_A'],
+        owner: 'YUSHV_A',
+        logo: 'bash_fox.gif',
+        type: 'CITY'
+    },
+    {
+        name: 'Подлесное',
+        year: 2006,
+        url: './maps/bash/podlesnoe_2006.webp',
+        link: './original_maps/bash/podlesnoe_2006_omaps.gif',
+        bounds: [[53.83348592751201, 55.91135501861573], [53.83120654335547, 55.92783451080323], [53.824291652576626, 55.90714931488038]],
+        author: ['AFNSV_E','ZKHRV_V','YUSHV_A'],
+        owner: 'YUSHV_A',
+        logo: 'bash_fox.gif',
+    },
+    {
+        name: 'Октябрьский',
+        year: 2008,
+        url: './maps/bash/oktyabrsky_2008.webp',
+        link: './original_maps/bash/oktyabrsky_2008_omaps.gif',
+        bounds: [[54.515402028577036, 53.467540740966804], [54.512711479127816, 53.49732398986817], [54.49449578571309, 53.46234798431397]],
+        author: ['EKSHV','PRHRV_V'],
+        owner: 'YUSHV_A',
+    },
+    {
+        name: 'Октябрьский, СОК Спартак',
+        year: 2006,
+        url: './maps/bash/oktyabrsky_spartak_winter_2006.webp',
+        link: './original_maps/bash/oktyabrsky_spartak_winter_2006_omaps.jpg',
+        bounds: [[54.47013737002182, 53.53697776794434], [54.46774312970401, 53.561182022094734], [54.445390130032564, 53.52959632873536]],
+        owner: 'YUSHV_A',
+        type: 'WINTER'
+    },
+    {
+        name: 'Октябрьский, стд Спартак, парк Ю.Гагарина',
+        year: 2008,
+        url: './maps/bash/oktyabrsky_spartak_2008.webp',
+        link: './original_maps/bash/oktyabrsky_spartak_2008_omaps.jpg',
+        bounds: [[54.48537242877454, 53.45719814300538], [54.482891819920155, 53.4790849685669], [54.47755613120908, 53.45443010330201]],
+        author: 'PRHRV_V',
+        owner: 'YUSHV_A',
+        type: ['CITY','PARK']
+    },
+    {
+        name: 'Буриказган',
+        year: 2008,
+        url: './maps/bash/burikazgan_2008.webp',
+        link: './original_maps/bash/burikazgan_2008_omaps.gif',
+        bounds: [[53.678611780024674, 55.787844657897956], [53.67823048791952, 55.79121351242066], [53.67390893616498, 55.786600112915046]],
+        author: ['YUSHV_A','ZKHRV_V'],
+        owner: 'YUSHV_A',
+    },
+    {
+        name: 'Белорецк, СОК Металлург',
+        year: 2007,
+        url: './maps/bash/beloretsk_metallurg_2007.webp',
+        link: './original_maps/bash/beloretsk_metallurg_2007_omaps.jpg',
+        bounds: [[53.99745238138151, 58.421130180358894], [53.99553511942154, 58.44464778900147], [53.97856602627963, 58.41525077819825]],
+        author: 'EKSHV',
+        owner: 'YUSHV_A',
+        type: 'WINTER'
+    },
+    {
+        name: 'Белорецк, Белая глина',
+        year: 2007,
+        url: './maps/bash/beloretsk_bela_glina_2007.webp',
+        link: './original_maps/bash/beloretsk_bela_glina_2007_omaps.jpg',
+        bounds: [[53.981354731155314, 58.44990491867066], [53.97947458411722, 58.465783596038825], [53.96626068786408, 58.44520568847657]],
+        author: 'EKSHV',
+        owner: 'YUSHV_A',
+        type: 'WINTER'
+    },
+    {
+        name: 'Кушнаренково, дом Топорнина',
+        year: 2007,
+        url: './maps/bash/kushnarenkovo_2007.webp',
+        link: './original_maps/bash/kushnarenkovo_2007_omaps.jpg',
+        bounds: [[55.12845277812814, 55.34506559371948], [55.12626898278089, 55.36229610443116], [55.113789614134504, 55.33987283706666]],
+        author: ['SLTNBKV','BBRN_R'],
+        owner: 'YUSHV_A',
+        type: 'CITY'
+    },
+];

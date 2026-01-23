@@ -182,7 +182,7 @@ let authors = {
     KBTSVA: { name: 'Кобцева Е.' },
     KBZRV: { name: 'Кобзарёв Александр' },
     KCHTV: { name: 'Кочетов А.' },
-    KHFZVA: { name: 'Хафизова Инга.' },
+    KHFZVA: { name: 'Хафизова Инга' },
     KHDNKCH: { name: 'Худеньких Ю.' },
     KLCHTSKA: { name: 'Кульчицкая Е.' },
     KMN_I: { name: 'Комин И.' },
@@ -473,7 +473,7 @@ let authors = {
     BLBN: { name: 'Балабин В.' },
     BLDV: { name: 'Бульдяев Тимофей' },
     BLKHN: { name: 'Блохин О.' },
-    BLTV: { name: 'Болотов С.' },
+    BLTV: { name: 'Болотов Сергей' },
     BRBA: { name: 'Бурба П.' },
     BRLNV: { name: 'Бурлинов Николай' },
     BRTNK_A: { name: 'Бортник Алексей' },
@@ -744,6 +744,27 @@ let authors = {
     /* --- ОРЕНБУРГ --- */
 
     STPNV_P: { name: 'Степанов Пётр' },
+
+    /* --- БАШКОРТОСТАН --- */
+
+    AFNSV_E: { name: 'Афанасьев Евгений' },
+    BBCH_AL: { name: 'Бабич Александр' },
+    BRTSHV: { name: 'Братушев М.' },
+    DKNV_A: { name: 'Дьяконов Александр' },
+    DVTKN_A: { name: 'Девяткин А.' }, // В.
+    EKSHV: { name: 'Екишев М.' },
+    GZTLN: { name: 'Гизатулин М.' },
+    GRSHN_V: { name: 'Грушин В.' },
+    ISHMHMDV: { name: 'Ишмухаметов И.' }, // Б.
+    ISKNDRV: { name: 'Искандаров Ф.' },
+    PRHRV_V: { name: 'Прохоров В.' },
+    RHMTLNA: { name: 'Рахматуллина С.' },
+    SLTNBKV: { name: 'Султанбеков Э.' },
+    YLMNV: { name: 'Юлманов В.' },
+    YUSHV_A: { name: 'Яушев Азат' },
+    ZHDNK_L: { name: 'Жданюк Л.' },
+    ZKHRV_V: { name: 'Захаров Л.' },
+    ZRPV: { name: 'Зарипов Р.' },
 
     /* --- СЕРБИЯ --- */
 

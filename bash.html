@@ -1,10 +1,10 @@
-﻿ <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>o-Maps: карты Москвы</title>
-    <meta name="description" content="Карты? Найдутся все! Спортивные карты Москвы в наглядной форме с фильтрацией и описанием.">
+    <title>o-Maps: карты Башкирии</title>
+    <meta name="description" content="Карты? Найдутся все! Спортивные карты Башкирии в наглядной форме с фильтрацией и описанием.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,16 +19,14 @@
     <link rel="stylesheet" href="js/ext/Leaflet.QgsMeasure/leaflet.draw.css"/>
     <link rel="stylesheet" href="js/ext/Leaflet.QgsMeasure/leaflet.qgsmeasure.css"/>
     <link rel="stylesheet" href="js/ext/leaflet.notifications/leaflet-notifications.min.css"/>
-    <link rel="stylesheet" href="js/ext/Leaflet.markercluster/MarkerCluster.css"/>
-    <link rel="stylesheet" href="js/ext/Leaflet.markercluster/MarkerCluster.Default.css"/>
     <link rel="stylesheet" href="css/main.css?v=1"/>
 
     <script src="js/ext/bootstrap.min.js"></script>
 
-    <meta property="og:title" content="o-Maps: карты Москвы">
+    <meta property="og:title" content="o-Maps: карты Башкирии">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Москвы в наглядной форме с фильтрацией и описанием.">
+    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Башкирии в наглядной форме с фильтрацией и описанием.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <!-- Yandex.Metrika counter -->
@@ -54,17 +52,19 @@
 
     <noscript>
         <div id="noscript_content">
-            <h1>O-maps. Карты на карте ◪ <br/> Спортивные карты Москвы.</h1>
+            <h1>O-maps. Карты на карте ◪ <br/> Спортивные карты Башкирии.</h1>
 
             <h2>Карта сайта:</h2>
             <ul>
                 <li><a href="spb.html"><h3>Спортивные карты Санкт-Петербурга.</h3></a></li>
                 <li><a href="moscow.html"><h3>Спортивные карты Москвы.</h3></a></li>
+                <li><a href="serbia.html"><h3>Спортивные карты Белграда.</h3></a></li>
                 <li><a href="all.html"><h3>Спортивные карты Санкт-Петербурга и Москвы с областями.</h3></a></li>
                 <li><a href="starts.html"><h3>Карты, показывающие районы и дистанции многодневок (Невский Азимут, Яркий Мир,
                     ККП, ММС) и серий стартов (Спринт-Тур, RFAR, 100х24) хронологически.</h3></a></li>
                 <li><a href="charts-spb.html"><h3>Статистика карт Санкт-Петербурга.</h3></a></li>
                 <li><a href="charts-moscow.html"><h3>Статистика карт Москвы.</h3></a></li>
+                <li><a href="charts-serbia.html"><h3>Статистика карт Белграда.</h3></a></li>
                 <li><a href="charts-all.html"><h3>Статистика карт Санкт-Петербурга и Москвы с областями.</h3></a></li>
             </ul>
 
@@ -101,16 +101,15 @@
         <option value="index">Начальная страница</option>
         <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
         <option value="spb">Санкт-Петербург</option>
-        <option value="msk" selected>Москва</option>
+        <option value="msk">Москва</option>
         <option value="rzn">Рязань</option>
         <option value="smr">Самара</option>
-        <option value="bash">Башкортостан</option>
+        <option value="bash" selected>Башкортостан</option>
         <option value="srb">Белград</option>
         <option value="all">Все регионы вместе</option>
         <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
         <option value="starts">Старты на карте</option>
         <option value="tracks">Маршруты</option>
-        <option value="calendar_msk">Календарь стартов</option>
     </select>
     <img id="spinner" src="images/snowman.gif" alt="" />
     <div id="counter"></div>
@@ -133,12 +132,8 @@
     <script src="js/ext/Leaflet.FileLayer/togeojson.js"></script>
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
-    <script src="js/ext/Leaflet.markercluster/leaflet.markercluster.js"></script>
 
-    <script src="js/calendar-msk-2025.js"></script>
-    <script src="js/calendar-msk-2026.js"></script>
-
-    <script src="js/maps-moscow.js"></script>
+    <script src="js/maps-bash.js"></script>
 
     <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
@@ -148,22 +143,18 @@
     <script src="js/utils-common.js"></script>
 
     <script>
-        const centerX = 55.753660736343456;
-        const centerY = 37.621006965637214;
-        const CHARTS_PAGE = './charts-moscow.html';
-        const SHEET_PAGE = './sheet-moscow.html';
-        const REGION_KEY = 'msk';
+        const centerX = 54.757813;
+        const centerY = 55.986622;
+        const CHARTS_PAGE = './charts-bash.html';
+        const SHEET_PAGE = './sheet-bash.html';
+        const REGION_KEY = 'bash';
 
         let loadImagesRequired = true;
-        let funsRequired = true;
+        let specialRequired = true;
+        let rogaineRequired = true;
 
         let oMaps = [
-            ...moscowMaps,
-        ];
-
-        const oEvents = [
-            ...mskEvents2025,
-            ...mskEvents2026
+            ...bashMaps,
         ];
     </script>
 

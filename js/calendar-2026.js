@@ -188,6 +188,28 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260131_2',
+    date: '2026-01-31',
+    place: 'Калищенское оз',
+    name: 'Кубок снятия блокады',
+    link: 'https://vk.com/wall-201330282_2146',
+    info: 'МЖ12 и старше',
+    type: 'SKI',
+    fmt: 'маркир',
+    owner: 'YUVENTA'
+},
+{
+    id: 'SPB_20260203_1',
+    date: '2026-02-03',
+    place: 'Сосновый бор, Приморский парк',
+    name: 'Кубок снятия блокады',
+    link: 'https://vk.com/wall-201330282_2146',
+    info: 'МЖ10 и Фитнес',
+    type: 'SKI',
+    fmt: 'маркир',
+    owner: 'YUVENTA'
+},
+{
     id: 'SPB_20260207_1',
     date: '2026-02-07',
     place: 'Луга, оз Штоль',

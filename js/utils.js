@@ -200,7 +200,7 @@ function getTypesList(m, colored) {
 }
 
 function isOrientMap(m) {
-    return  isEmpty(m.type) || m.type.includes('CITY') || m.type.includes('PARK') || isSpecialMap(m);
+    return  isEmpty(m.type) || m.type.includes('ORIENT') || m.type.includes('CITY') || m.type.includes('PARK') || isSpecialMap(m);
 }
 
 function isSpecialMap(m) {
@@ -724,6 +724,7 @@ function selectMapRegion(region, prefix) {
         case 'msk':location.href = './' + prefix + 'moscow.html'; break;
         case 'rzn':location.href = './' + prefix + 'ryazan.html'; break;
         case 'smr':location.href = './' + prefix + 'samara.html'; break;
+        case 'bash':location.href = './' + prefix + 'bash.html'; break;
         case 'srb':location.href = './' + prefix + 'serbia.html'; break;
         case 'all':location.href = './' + prefix + 'all.html'; break;
         case 'tracks':location.href = './' + prefix + 'tracks.html'; break;

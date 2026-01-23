@@ -486,6 +486,13 @@ let owners = {
         logo: 'samara.webp'
     },
 
+    /* --- Башкортостан --- */
+
+    YUSHV_A: {
+        name: 'По вопросам использования карты обращайтесь к Азату Яушеву (<a href="mailto:o-sterlitamak@yandex.ru">o-sterlitamak@yandex.ru</a>).',
+        logo: 'bash.gif'
+    },
+
     /* --- Прочее --- */
 
     RUNC: {

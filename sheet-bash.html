@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.83">
-    <title>o-Maps: Исторические документы</title>
-    <meta name="description" content="Карты? Найдутся все! Исторические документы.">
+    <title>o-Maps: таблица карт Башкирии</title>
+    <meta name="description" content="Карты? Найдутся все! Сводная таблица спортивных карт Башкирии.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=1"/>
 
-    <meta property="og:title" content="o-Maps: Исторические документы">
+    <meta property="og:title" content="o-Maps: таблица карт Башкирии">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Санкт-Петербурга. Исторические документы.">
+    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Башкирии. Сводная таблица.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <!-- Yandex.Metrika counter -->
@@ -37,7 +37,7 @@
     <base target="_blank">
 </head>
 <body class="stat-body sheet-body">
-    <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+    <a href="bash.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
     <h1>
         <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
 
@@ -48,42 +48,43 @@
             <option value="msk">Москва</option>
             <option value="rzn">Рязань</option>
             <option value="smr">Самара</option>
-            <option value="bash">Башкортостан</option>
+            <option value="bash" selected>Башкортостан</option>
             <option value="srb">Белград</option>
             <option value="all">Все регионы вместе</option>
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="docs" selected>Исторические документы</option>
+            <option value="docs">Исторические документы</option>
             <option value="tracks">Маршруты</option>
-            <option value="calendar">Календарь стартов</option>
         </select>
 
-        <select id="year_selector" class="header_selector" onchange="selectYear(this.value)">
-            <option value="ALL">Все годы</option>
-            <option value="LATE">2000-е</option>
-            <option value="1992-1999">1992-1999</option>
-            <option value="1991">1991</option>
-            <option value="1990">1990</option>
-            <option value="1989">1989</option>
-            <option value="1988">1988</option>
-            <option value="EARLY">Ранние</option>
+        <select id="type_selector" class="header_selector" onchange="selectMapType(this.value)">
+            <option value="ALL">все типы</option>
+            <option value="CITY">Город</option>
+            <option value="PARK">Парки</option>
+            <option value="FOREST">Лес</option>
+            <option value="WINTER">Зимние</option>
         </select>
     </h1>
-    <h2 class="text-center">Сканы различных документов (протоколы, бюллетени, буклеты, карты и пр.)</h2>
+    <h2 class="text-center">Сводная таблица спортивных карт Башкирии и окрестностей</h2>
 
     <div class="o-sheet-roof">
-        <a href="#" onclick="downloadSheetTable('o-maps-documents.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+        <a href="#" onclick="downloadSheetTable('o-maps-bash.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
     <div class="o-sheet-wrapper">
         <table class="o-main-table o-sheet">
             <thead>
             <tr>
                 <th>&nbsp</th>
-                <th data-sort="name" class="sortable">Название</th>
-                <th data-sort="year" class="sortable" id="year-column" data-order="desc" style="text-align: left">Дата</th>
+                <th data-sort="name" class="sortable" data-order="desc">Название</th>
+                <th data-sort="year" class="sortable" id="year-column">Год</th>
                 <th data-sort="start" class="sortable">Серия</th>
-                <th>Файлы</th>
+                <th>Изображения</th>
                 <th>Инфо</th>
-                <th>Автор-составитель</th>
+                <th data-sort="area" class="sortable">Площадь (км²)<sup>⚹</sup></th>
+                <th>GPS</th>
+                <th>Автор-составитель карты</th>
+                <th>Планирование дистанции</th>
+                <th>Владелец</th>
+                <th>Тип</th>
             </tr>
             </thead>
             <tbody></tbody>
@@ -96,33 +97,23 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
-    <script src="js/history-docs.js"></script>
+    <script src="js/maps-bash.js"></script>
 
     <script src="js/welcome.js"></script>
     <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
     <script src="js/owners.js"></script>
-    <script src="js/planners.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/utils-common.js"></script>
 
     <script>
         let loadImagesRequired = false;
         let mapsOnStore = false;
-        let documentsPage = true;
 
         let oMaps = [
-            ...historyDocs,
+            ...bashMaps,
         ];
         writeWelcomeButton();
-
-        function selectYear(year) {
-            if (year === 'ALL') {
-                location.href = './documents.html';
-            } else {
-                location.href = './documents.html?year=' + year;
-            }
-        }
     </script>
 
     <script src="js/map-build.js"></script>
