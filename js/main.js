@@ -426,7 +426,7 @@ if (mapElement) {
                 checkbox.closest('label').style.display = 'none';
             }
         }
-        if (typeof oTracks === 'undefined') {
+        if (typeof tracks === 'undefined') {
             let checkbox = document.getElementById("tracks-group-check");
             if (checkbox) {
                 checkbox.closest('label').style.display = 'none';

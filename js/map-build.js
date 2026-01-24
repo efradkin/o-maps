@@ -119,6 +119,9 @@ if (mapElement) {
         layers.push(groupRetro);
     } else {
         layers.push(group2020th, group2010th, group2000th, groupUnknownYear);
+        if (typeof allYearsRequired !== 'undefined' && allYearsRequired) {
+            layers.push(group90th, groupRetro);
+        }
         if ('FOTO' === TYPE_PARAM || 'FUN' === TYPE_PARAM) {
             layers.push(funGroup);
         }

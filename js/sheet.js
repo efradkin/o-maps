@@ -159,7 +159,9 @@ function td(m, row, html) {
 function buildName(m) {
     let result = '';
     let logo = m.logo;
-    if (m.owner && owners[m.owner] && owners[m.owner].logo) {
+    if (m.logo) {
+        logo = m.logo;
+    } else if (m.owner && owners[m.owner] && owners[m.owner].logo) {
         logo = owners[m.owner].logo;
     }
     if (logo) {

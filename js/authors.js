@@ -754,12 +754,15 @@ let authors = {
     DVTKN_A: { name: 'Девяткин А.' }, // В.
     EKSHV: { name: 'Екишев М.' },
     GZTLN: { name: 'Гизатулин М.' },
+    GBDLN: { name: 'Губайдулин С.' },
     GRSHN_V: { name: 'Грушин В.' },
     ISHMHMDV: { name: 'Ишмухаметов И.' }, // Б.
     ISKNDRV: { name: 'Искандаров Ф.' },
     PRHRV_V: { name: 'Прохоров В.' },
     RHMTLNA: { name: 'Рахматуллина С.' },
+    SLDTV_S: { name: 'Солдатов С.' },
     SLTNBKV: { name: 'Султанбеков Э.' },
+    SMLNNV: { name: 'Смольянинов Андрей' }, // Евгеньевич
     YLMNV: { name: 'Юлманов В.' },
     YUSHV_A: { name: 'Яушев Азат' },
     ZHDNK_L: { name: 'Жданюк Л.' },
@@ -790,6 +793,7 @@ let authors = {
     ATMNTSV: { name: 'Атаманцев С.' },
     BBRN_R: { name: 'Байбурин Р.' },
     BCHNV_A: { name: 'Бучнев А.' },
+    BYMRZN: { name: 'Баймурзин Х.' },
     VHTV_A: { name: 'Вахитов А.' },
     GLTSKY_V: { name: 'Гелецкий В.' },
     GSMNV_R: { name: 'Гусманов Р.' },

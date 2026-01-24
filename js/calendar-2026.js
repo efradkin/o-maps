@@ -140,6 +140,7 @@ let events2026 = [
     name: 'ЧиП ЛО',
     link: 'https://o-site.spb.ru/race.php?id=260124_bn',
     reg: 'https://orgeo.ru/event/kirovsk_ski_o_2425012026',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24148/',
     type: 'SKI',
     fmt: 'классика,многодневная',
     map: 'kirovsk_2025',
