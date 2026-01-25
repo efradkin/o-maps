@@ -5,7 +5,8 @@ const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 
 const regions = {
     CHTA: 'Чита',
-    DV: 'Дльний Восток',
+    DV: 'Дальний Восток',
+    GLNDZHK: 'Геленджик',
     KLNGRD: 'Калининград',
     KRL: 'Карелия',
     KRSNDR: 'Краснодар',

@@ -39,6 +39,7 @@ let bashMaps = [
     },
     {
         name: 'Дёма, Чёрное оз',
+        year: 1982,
         url: './maps/bash/dema_black_lake.webp',
         link: './original_maps/bash/dema_black_lake_omaps.jpg',
         bounds: [[54.70295327204903, 55.862817764282234], [54.69963031737956, 55.90418815612794], [54.6646483951374, 55.85200309753419]],
@@ -46,6 +47,7 @@ let bashMaps = [
     },
     {
         name: 'Дёма, юг',
+        year: 1982,
         url: './maps/bash/dema_south.webp',
         link: './original_maps/bash/dema_south_omaps.jpg',
         bounds: [[54.66817276239828, 55.82479476928712], [54.664747677274214, 55.868053436279304], [54.64558172855026, 55.82427978515626]],
@@ -69,9 +71,11 @@ let bashMaps = [
     },
     {
         name: 'Уфа, Зелёная роща',
+        year: 1980,
         url: './maps/bash/ufa_green_forest.webp',
         link: './original_maps/bash/ufa_green_forest_omaps.jpg',
         bounds: [[54.717779259548735, 56.01044654846192], [54.71572179593547, 56.03173255920411], [54.69283477165047, 56.00306510925293]],
+        author: 'GZTLN'
     },
     {
         name: 'Уфа, Президент отель',

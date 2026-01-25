@@ -229,6 +229,39 @@ let otherMaps = [
         type: 'PARK',
         logo: 'novorossiysk.gif'
     },
+    {
+        name: 'СЦ ЦСКА',
+        year: 2024,
+        url: './maps/other/gelendzhik_tsska_2024.webp',
+        link: './original_maps/other/gelendzhik_tsska_2024_omaps.pdf',
+        bounds: [[44.55543274163521, 38.083645105361946], [44.55579205872829, 38.08655261993409], [44.553590251046344, 38.08395624160767]],
+        author: 'DRN_E',
+        owner: 'DRN_E',
+        region: 'GLNDZHK',
+        type: 'CITY',
+    },
+    {
+        name: 'ул Леселидзе',
+        year: 2025,
+        url: './maps/other/leselidze_2025.webp',
+        link: './original_maps/other/leselidze_2025_omaps.gif',
+        bounds: [[44.551870030829285, 38.06358218193055], [44.551870030829285, 38.07508349418641], [44.548207703775745, 38.063678741455085]],
+        author: ['DRN_E','GRBNKO'],
+        owner: 'DRN_E',
+        region: 'GLNDZHK',
+        type: 'CITY',
+    },
+    {
+        name: 'Архипо-Осиповка, школа №17',
+        year: 2025,
+        url: './maps/other/arhipo_osipovka_school_17_2024.webp',
+        link: './original_maps/other/arhipo_osipovka_school_17_2024_omaps.gif',
+        bounds: [[44.37178456062143, 38.53595137596131], [44.37111734025328, 38.54298949241639], [44.367811803106044, 38.535372018814094]],
+        author: ['DRN_E','ZZV_E'],
+        owner: 'DRN_E',
+        region: 'GLNDZHK',
+        type: 'CITY',
+    },
 
     // --- Не Россия ---
     {

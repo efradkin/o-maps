@@ -753,7 +753,7 @@ let authors = {
     DKNV_A: { name: 'Дьяконов Александр' },
     DVTKN_A: { name: 'Девяткин А.' }, // В.
     EKSHV: { name: 'Екишев М.' },
-    GZTLN: { name: 'Гизатулин М.' },
+    GZTLN: { name: 'Гизатулин Марат' },
     GBDLN: { name: 'Губайдулин С.' },
     GRSHN_V: { name: 'Грушин В.' },
     ISHMHMDV: { name: 'Ишмухаметов И.' }, // Б.
@@ -768,6 +768,7 @@ let authors = {
     ZHDNK_L: { name: 'Жданюк Л.' },
     ZKHRV_V: { name: 'Захаров Л.' },
     ZRPV: { name: 'Зарипов Р.' },
+    ZZV_E: { name: 'Зузов Егор' },
 
     /* --- СЕРБИЯ --- */
 
@@ -796,6 +797,7 @@ let authors = {
     BYMRZN: { name: 'Баймурзин Х.' },
     VHTV_A: { name: 'Вахитов А.' },
     GLTSKY_V: { name: 'Гелецкий В.' },
+    GRBNKO: { name: 'Горбенко Данила' },
     GSMNV_R: { name: 'Гусманов Р.' },
     KLM_K: { name: 'Калм К.' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },
