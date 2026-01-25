@@ -240,6 +240,17 @@ let specialMaps = [
         type: ['WINTER', 'PARK']
     },
     {
+        name: 'Полюстровский парк',
+        year: 2026,
+        url: './maps/winter/polustrovsky_park_winter_2026.webp',
+        link: './original_maps/winter/polustrovsky_park_winter_2026_omaps.gif',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24152/',
+        bounds: [[59.96878047030928, 30.42071342468262], [59.96811464809843, 30.43294429779053], [59.963346110798675, 30.41895389556885]],
+        author: 'RDNV_I',
+        owner: 'RDNV_I',
+        type: ['WINTER', 'PARK']
+    },
+    {
         name: 'Кировск',
         year: 2024,
         info: 'Карта-авоська.',

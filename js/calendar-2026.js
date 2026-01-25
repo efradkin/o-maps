@@ -167,6 +167,7 @@ let events2026 = [
     name: 'Кубок Красногвардейского р-на',
     link: 'https://o-site.spb.ru/race.php?id=260125',
     reg: 'http://orgeo.ru/event/kubkrl',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24152/',
     type: 'SKI',
     map: 'polyustrovsky_2022',
     fmt: 'спринт'
