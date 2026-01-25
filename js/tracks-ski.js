@@ -276,12 +276,13 @@ let skiTracks = [
     },
     {
         name: 'Ореховская Дюжина',
-        date: '2025-01-24',
-        link: 'https://www.multsport.ru/starts/orehovo-12km25/',
+        date: '2026-01-25',
+        link: 'https://www.multsport.ru/starts/orehovo-12km26/',
         results: 'https://reg.o-time.ru/race/25061',
         info: '1.3-26км. Основной Ореховский спортивный круг.',
         gpx: {
-            '13km':'tracks/ski/orekhovo_12_ski_omaps.gpx',
+            '13km 2026':'tracks/ski/orekhovo_12_ski_2026_omaps.gpx',
+            '13km 2025':'tracks/ski/orekhovo_12_ski_omaps.gpx',
             '5km':'tracks/ski/orekhovo_5_ski_omaps.gpx'
         },
         markir: true,
