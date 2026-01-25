@@ -38,6 +38,20 @@ let bashMaps = [
         owner: 'YUSHV_A',
     },
     {
+        name: 'Дёма, Чёрное оз',
+        url: './maps/bash/dema_black_lake.webp',
+        link: './original_maps/bash/dema_black_lake_omaps.jpg',
+        bounds: [[54.70295327204903, 55.862817764282234], [54.69963031737956, 55.90418815612794], [54.6646483951374, 55.85200309753419]],
+        author: ['GSMNV_R','VHTV_A'],
+    },
+    {
+        name: 'Дёма, юг',
+        url: './maps/bash/dema_south.webp',
+        link: './original_maps/bash/dema_south_omaps.jpg',
+        bounds: [[54.66817276239828, 55.82479476928712], [54.664747677274214, 55.868053436279304], [54.64558172855026, 55.82427978515626]],
+        author: 'GZTLN',
+    },
+    {
         name: 'Уфа, Кордон',
         url: './maps/bash/ufa_kordon.webp',
         link: ['./original_maps/bash/ufa_kordon_omaps.gif','./original_maps/bash/ufa_kordon_omaps.ocd'],
@@ -52,6 +66,12 @@ let bashMaps = [
         bounds: [[54.70843307279169, 55.86792469024659], [54.70587923062708, 55.88835239410401], [54.700771063844144, 55.86532831192017]],
         author: 'PRHRV_V',
         owner: 'YUSHV_A',
+    },
+    {
+        name: 'Уфа, Зелёная роща',
+        url: './maps/bash/ufa_green_forest.webp',
+        link: './original_maps/bash/ufa_green_forest_omaps.jpg',
+        bounds: [[54.717779259548735, 56.01044654846192], [54.71572179593547, 56.03173255920411], [54.69283477165047, 56.00306510925293]],
     },
     {
         name: 'Уфа, Президент отель',

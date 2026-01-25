@@ -200,6 +200,12 @@ let historyDocs = [
         link: './docs/1984/1984_ilvesteade_omaps.pdf'
     },
     {
+        name: 'Первенство Ленинграда',
+        year: 1984,
+        info: 'Информационный бюллетень, приуроченный к 25-летию ориентирования.',
+        link: './docs/1984/1984_leningrad_info_omaps.pdf'
+    },
+    {
         name: 'Свадебные-84',
         year: 1984,
         link: './docs/1984/1984_wedding_omaps.pdf',
