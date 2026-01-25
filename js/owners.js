@@ -495,6 +495,9 @@ let owners = {
 
     /* --- Прочее --- */
 
+    DRN_E: {
+        name: '© Дронь Елисей (8-918-363-26-89)'
+    },
     RUNC: {
         name: '© <a href="https://runc.run/">Беговое сообщество</a>',
         logo: 'runc.gif'

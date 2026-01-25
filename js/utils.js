@@ -4,18 +4,20 @@ const DAY_TIME_RANGE = 1000 * 60 * 60 * 24;
 const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 
 const regions = {
-    LNGRD: 'Ленинград',
-    SPB: 'СПб',
-    MSK: 'Москва',
-    RZN: 'Рязань',
-    SMR: 'Самара',
-    PSK: 'Псков',
+    CHTA: 'Чита',
     DV: 'Дльний Восток',
     KLNGRD: 'Калининград',
-    ORBG: 'Оренбург',
     KRL: 'Карелия',
+    KRSNDR: 'Краснодар',
     KZ: 'Казахстан',
-    CHTA: 'Чита',
+    LNGRD: 'Ленинград',
+    MSK: 'Москва',
+    NVRSYSK: 'Новороссийск',
+    PSK: 'Псков',
+    ORBG: 'Оренбург',
+    RZN: 'Рязань',
+    SMR: 'Самара',
+    SPB: 'СПб',
 };
 
 const dic = {

@@ -194,6 +194,42 @@ let otherMaps = [
         bounds: [[52.02144466652407, 113.51992607116699], [52.0208372631053, 113.56056690216066], [51.994684688372, 113.51953983306886]],
         region: 'CHTA'
     },
+    // --- Юг ---
+    {
+        name: 'Парк Краснодар',
+        year: 2024,
+        url: './maps/other/krasnodar_park_2024.webp',
+        link: './original_maps/other/krasnodar_park_2024_omaps.pdf',
+        bounds: [[45.046541218721764, 39.02678489685059], [45.04651089764259, 39.03708457946778], [45.03830845554792, 39.02667760849]],
+        author: 'DRN_E',
+        owner: 'DRN_E',
+        region: 'KRSNDR',
+        type: 'PARK'
+    },
+    {
+        name: 'Парк стд Кубань, Покровские оз',
+        year: 2025,
+        url: './maps/other/kuban_pokrovskie_2025.webp',
+        link: './original_maps/other/kuban_pokrovskie_2025_omaps.gif',
+        bounds: [[45.030665935675785, 38.990811109542854], [45.02951340364578, 39.00232315063477], [45.024561801368655, 38.989502191543586]],
+        author: 'DRN_E',
+        owner: 'DRN_E',
+        region: 'KRSNDR',
+        type: 'PARK'
+    },
+    {
+        name: 'блв Черняховского',
+        year: 2025,
+        url: './maps/other/chernyahovskogo_2025.webp',
+        link: './original_maps/other/chernyahovskogo_2025_omaps.pdf',
+        bounds: [[44.70843059571771, 37.78347373008729], [44.70849159520974, 37.78912782669068], [44.69915029925823, 37.78349518775941]],
+        author: ['DRN_E','MSTPNV'],
+        owner: 'DRN_E',
+        region: 'NVRSYSK',
+        type: 'PARK',
+        logo: 'novorossiysk.gif'
+    },
+
     // --- Не Россия ---
     {
         name: 'Казахстан, Каркаралинск',
