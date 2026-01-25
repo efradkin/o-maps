@@ -751,18 +751,22 @@ let authors = {
     BBCH_AL: { name: 'Бабич Александр' },
     BRTSHV: { name: 'Братушев М.' },
     DKNV_A: { name: 'Дьяконов Александр' },
+    DLMHMTV: { name: 'Дильмухаметов Р.' }, // Р.
     DVTKN_A: { name: 'Девяткин А.' }, // В.
     EKSHV: { name: 'Екишев М.' },
+    FDRV_S: { name: 'Фёдоров Сергей' },
     GZTLN: { name: 'Гизатулин Марат' },
     GBDLN: { name: 'Губайдулин С.' },
     GRSHN_V: { name: 'Грушин В.' },
-    ISHMHMDV: { name: 'Ишмухаметов И.' }, // Б.
+    ISHMHMDV: { name: 'Ишмухаметов Инсаф' }, // Б.
     ISKNDRV: { name: 'Искандаров Ф.' },
     PRHRV_V: { name: 'Прохоров В.' },
     RHMTLNA: { name: 'Рахматуллина С.' },
+    SDKV: { name: 'Садаков В.' }, // М.
     SLDTV_S: { name: 'Солдатов С.' },
-    SLTNBKV: { name: 'Султанбеков Э.' },
+    SLTNBKV: { name: 'Султанбеков Эрнст' },
     SMLNNV: { name: 'Смольянинов Андрей' }, // Евгеньевич
+    SMNV_MA: { name: 'Семёнов Михаил' }, // Александрович
     YLMNV: { name: 'Юлманов В.' },
     YUSHV_A: { name: 'Яушев Азат' },
     ZHDNK_L: { name: 'Жданюк Л.' },

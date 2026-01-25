@@ -8,6 +8,7 @@ let otherEvents2026 = [
     link: 'https://heroleague.ru/doroga',
     type: 'RUN',
     fmt: '42, 10, 5',
+    res: 'https://heroleague.ru/results/doroga2026',
     logo: 'roadlife.webp',
     track: 'roadlife_2025_42km'
 },

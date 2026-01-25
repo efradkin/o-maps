@@ -27,7 +27,7 @@ let bashMaps = [
         bounds: [[54.824104370199, 56.03950023651124], [54.8215578172061, 56.05971336364747], [54.80110540046025, 56.03053092956544]],
         author: ['BLTV','MTN_Y'],
         owner: 'YUSHV_A',
-        type: ['ORIENT','WINTER']
+        type: ['FOREST','WINTER']
     },
     {
         name: 'Архимандритское оз',
@@ -94,6 +94,16 @@ let bashMaps = [
         owner: 'YUSHV_A',
     },
     {
+        name: 'Толбазы',
+        year: 2021,
+        url: './maps/bash/tolbozy_2021.webp',
+        link: './original_maps/bash/tolbozy_2021_omaps.jpg',
+        bounds: [[54.016897508619614, 55.88667869567871], [54.016241919537, 55.89929580688477], [54.008071404417635, 55.88371753692627]],
+        author: 'ISHMHMDV',
+        owner: 'YUSHV_A',
+        type: 'CITY'
+    },
+    {
         name: 'Ботанический сад, Парк Лесоводов',
         url: './maps/bash/park_lesovodov.webp',
         link: ['./original_maps/bash/park_lesovodov_omaps.gif','./original_maps/bash/park_lesovodov_omaps.ocd'],
@@ -153,11 +163,29 @@ let bashMaps = [
         type: 'WINTER'
     },
     {
+        name: 'Бирск',
+        year: 2019,
+        url: './maps/bash/birsk_2019.webp',
+        link: './original_maps/bash/birsk_2019_omaps.jpg',
+        bounds: [[55.406189673094055, 55.56331157684327], [55.40416729368797, 55.57897567749024], [55.393956352496815, 55.55850505828858]],
+        author: 'SDKV',
+        owner: 'YUSHV_A'
+    },
+    {
         name: 'Салават, оз Ялпой',
         year: 2008,
         url: './maps/bash/yalpoy_2008.webp',
         link: './original_maps/bash/yalpoy_2008_omaps.jpg',
         bounds: [[53.36458707964082, 55.949678421020515], [53.36271761919351, 55.969634056091316], [53.35047446756828, 55.945429801940925]],
+        owner: 'YUSHV_A'
+    },
+    {
+        name: 'Салават, оз Ялпой',
+        year: 2019,
+        url: './maps/bash/yalpoy_2019.webp',
+        link: './original_maps/bash/yalpoy_2019_omaps.jpg',
+        bounds: [[53.36440781986581, 55.94980716705323], [53.362435912562916, 55.97177982330323], [53.35170406424846, 55.945172309875495]],
+        author: ['SMNV_MA','DLMHMTV'],
         owner: 'YUSHV_A'
     },
     {
@@ -210,6 +238,37 @@ let bashMaps = [
         owner: 'YUSHV_A'
     },
     {
+        name: 'г Торатау',
+        year: 2020,
+        url: './maps/bash/toratau_rogaine_2020.webp',
+        link: './original_maps/bash/toratau_rogaine_2020_omaps.gif',
+        bounds: [[53.591689719761675, 56.06254577636719], [53.58119404085943, 56.14837646484376], [53.495909347301925, 56.02838516235352]],
+        author: ['YUSHV_A','ZKHRV_V','FDRV_S','SLTNBKV'],
+        owner: 'YUSHV_A',
+        logo: 'bash_rogaine.webp',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Макарово',
+        year: 2020,
+        url: './maps/bash/makarovo_rogaine_2020.webp',
+        link: './original_maps/bash/makarovo_rogaine_2020_omaps.gif',
+        bounds: [[53.66061102911477, 56.61031723022462], [53.640465481939835, 56.757431030273445], [53.56712778327707, 56.57444000244141]],
+        author: ['YUSHV_A','FDRV_S'],
+        owner: 'YUSHV_A',
+        logo: 'bash_rogaine.webp',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Ишпатрово',
+        year: 2020,
+        url: './maps/bash/ishpatrovo_2020.webp',
+        link: './original_maps/bash/ishpatrovo_2020_omaps.jpg',
+        bounds: [[53.82535555622122, 55.95199584960938], [53.82274641107382, 55.97169399261475], [53.813372413495934, 55.94856262207032]],
+        author: 'ISHMHMDV',
+        owner: 'YUSHV_A'
+    },
+    {
         name: 'Красноусольский',
         year: 2009,
         url: './maps/bash/krasnousolsk.webp',
@@ -219,6 +278,17 @@ let bashMaps = [
         owner: 'YUSHV_A'
     },
     {
+        name: 'Стерлитамак, Слюдовая',
+        year: 2019,
+        url: './maps/bash/slyudovaja_2019.webp',
+        link: './original_maps/bash/slyudovaja_2019_omaps.jpg',
+        bounds: [[53.678255907500585, 56.10634088516235], [53.67725182238436, 56.12164020538331], [53.67010814632718, 56.10430240631104]],
+        author: 'MTN_Y',
+        owner: 'YUSHV_A',
+        logo: 'bash_fox.gif',
+        type: 'RELIEF'
+    },
+    {
         name: 'Стерлитамак, Урняк',
         year: 2007,
         url: './maps/bash/sterlitamak_urnyak_2007.webp',
@@ -226,7 +296,8 @@ let bashMaps = [
         bounds: [[53.68021316917553, 56.10722064971924], [53.67909474506964, 56.118936538696296], [53.67445550984704, 56.105375289917]],
         author: ['YUSHV_A','BBCH_AL','ZKHRV_V','AFNSV_E'],
         owner: 'YUSHV_A',
-        type: ['ORIENT','RELIEF']
+        logo: 'bash_fox.gif',
+        type: ['FOREST','RELIEF']
     },
     {
         name: 'Стерлитамак, Вечный огонь',

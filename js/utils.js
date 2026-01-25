@@ -33,6 +33,7 @@ const dic = {
     FOTO: 'ФОТО',
     FUN: 'НЕОБЫЧН0',
     ORIENT: 'ОРИЕНТ',
+    FOREST: 'ЛЕС',
     PARK: 'ПАРК',
     RELIEF: 'РЕЛЬЕФ',
     ROGAINE: 'РОГЕЙН',

@@ -215,7 +215,7 @@ let otherMaps = [
         author: 'DRN_E',
         owner: 'DRN_E',
         region: 'KRSNDR',
-        type: 'PARK'
+        type: ['PARK']
     },
     {
         name: 'блв Черняховского',
@@ -226,7 +226,7 @@ let otherMaps = [
         author: ['DRN_E','MSTPNV'],
         owner: 'DRN_E',
         region: 'NVRSYSK',
-        type: 'PARK',
+        type: ['PARK'],
         logo: 'novorossiysk.gif'
     },
     {
@@ -238,7 +238,7 @@ let otherMaps = [
         author: 'DRN_E',
         owner: 'DRN_E',
         region: 'GLNDZHK',
-        type: 'CITY',
+        type: ['CITY'],
     },
     {
         name: 'ул Леселидзе',
@@ -249,7 +249,7 @@ let otherMaps = [
         author: ['DRN_E','GRBNKO'],
         owner: 'DRN_E',
         region: 'GLNDZHK',
-        type: 'CITY',
+        type: ['CITY'],
     },
     {
         name: 'Архипо-Осиповка, школа №17',
@@ -260,7 +260,7 @@ let otherMaps = [
         author: ['DRN_E','ZZV_E'],
         owner: 'DRN_E',
         region: 'GLNDZHK',
-        type: 'CITY',
+        type: ['CITY'],
     },
 
     // --- Не Россия ---
