@@ -237,6 +237,14 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260208_1',
+    date: '2026-02-08',
+    name: 'Чемпионат ВУЗов СПБ',
+    link: 'https://o-site.spb.ru/race.php?id=260208_V',
+    place: 'Орехово',
+    type: 'SKI',
+},
+{
     id: 'SPB_20260214_1',
     date: '2026-02-14',
     endDate: '2026-02-15',

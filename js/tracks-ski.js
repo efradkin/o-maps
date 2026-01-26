@@ -399,7 +399,7 @@ let skiTracks = [
         name: 'Дудергоф, Можайская',
         info: 'Отличная гора практически в черте города!',
         link: 'https://vk.com/svdudergof',
-        gpx: 'tracks/ski/mozhaika_ski_omaps.gpx',
+        gpx: 'tracks/ski/mozhaika_dudergof_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -456,7 +456,11 @@ let skiTracks = [
         name: 'Гатчинский лыжный марафон',
         date: '2024-03-08',
         results: 'https://reg.o-time.ru/race/24254',
-        gpx: 'tracks/ski/gatchina_ski_omaps.gpx',
+        gpx: {
+            '2026г':'tracks/ski/gatchina_ski_2026_omaps.gpx',
+            '5км':'tracks/ski/gatchina_ski_2026_5k_omaps.gpx',
+            '2024г':'tracks/ski/gatchina_ski_omaps.gpx'
+        },
         logo: 'gatchina.gif',
         ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
@@ -464,6 +468,18 @@ let skiTracks = [
     {
         name: 'Кингисепп',
         gpx: 'tracks/ski/kingisepp_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
+        name: 'Сиверский',
+        gpx: 'tracks/ski/siversky_ski_omaps.gpx',
+        ski_kind: 'FURROW',
+        type: ['SKI']
+    },
+    {
+        name: 'Сиверский, р Оредеж',
+        gpx: 'tracks/ski/siversky_oredezh_ski_omaps.gpx',
+        ski_kind: 'FURROW',
         type: ['SKI']
     },
     {

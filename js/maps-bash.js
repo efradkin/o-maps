@@ -301,7 +301,7 @@ let bashMaps = [
         author: ['ZKHRV_V','YUSHV_A'],
         logo: 'bash_rogaine.webp',
         owner: 'YUSHV_A',
-
+        type: ['ROGAINE']
     },
     {
         name: 'Стерлитамак, Карасевка',
