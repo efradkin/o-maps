@@ -242,6 +242,16 @@ function filterMapsForCharts() {
     //oMaps = oMaps.filter(m => !m.excluded && !(m.type && (m.type.includes('VELO') || m.type.includes('RELIEF') || m.type.includes('WINTER'))));
 }
 
+function downloadIconExt(url) {
+    const ext = extractFileExt(url);
+    switch (ext) {
+        case 'jpeg': return 'jpg';
+        case 'omap': return 'ocd';
+        case 'webp': return 'url';
+    }
+    return ext;
+}
+
 function mapLink(url, m) { // m - for region
     let region;
     if (m) {
@@ -676,7 +686,7 @@ function hasOCAD(m) {
             links = [m.link];
         }
         for (const link of links) {
-            if (link && link.endsWith('.ocd')) {
+            if (link && (link.endsWith('.ocd') || link.endsWith('.omap'))) {
                 return true;
             }
         }

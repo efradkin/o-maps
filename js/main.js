@@ -1522,7 +1522,7 @@ function buildDownloadLinks(link, links) {
             if (index > 0) {
                 result += ', ';
             }
-            result += '<a href="' + value + '" class="ext-link" title="Скачать" target="_blank"><img src="./images/' + extractFileExt(value) + '-file.png" /></a>';
+            result += '<a href="' + value + '" class="ext-link" title="Скачать" target="_blank"><img src="./images/' + downloadIconExt(value) + '-file.png" /></a>';
         })
     }
     return result;

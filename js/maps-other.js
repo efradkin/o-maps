@@ -204,7 +204,7 @@ let otherMaps = [
         author: 'DRN_E',
         owner: 'DRN_E',
         region: 'KRSNDR',
-        type: 'PARK'
+        type: ['PARK']
     },
     {
         name: 'Парк стд Кубань, Покровские оз',

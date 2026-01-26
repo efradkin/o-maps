@@ -1,13 +1,40 @@
 let bashMaps = [
     // --- Башкортостан ---
     {
+        name: 'Воронки',
+        year: 1997,
+        url: './maps/bash/voronki_1998.webp',
+        link: ['./original_maps/bash/voronki_1997_omaps.gif','./original_maps/bash/voronki_1997_omaps.ocd'],
+        bounds: [[54.70315164879201, 55.80895900726319], [54.70139102129479, 55.82734823226929], [54.69440975309633, 55.806319713592536]],
+        author: ['PRHRV_V','BLTV'],
+        type: ['CITY','FOREST']
+    },
+    {
+        name: 'Воронки',
+        year: 2014,
+        url: './maps/bash/voronki_2014.webp',
+        link: ['./original_maps/bash/voronki_2014_omaps.gif','./original_maps/bash/voronki_2014_omaps.ocd'],
+        bounds: [[54.70352360257015, 55.80850839614868], [54.70254411695265, 55.81996679306031], [54.69672870898991, 55.80696344375611]],
+        author: 'SLTNBKV',
+        owner: 'YUSHV_A',
+    },
+    {
+        name: 'Речные зори',
+        year: 2012,
+        url: './maps/bash/river_dawns_2012.webp',
+        link: ['./original_maps/bash/river_dawns_2012_omaps.gif','./original_maps/bash/river_dawns_2012_omaps.ocd'],
+        bounds: [[54.78247406031503, 56.17849230766297], [54.781725410749125, 56.18571281433106], [54.777585932858365, 56.17720484733582]],
+        author: 'SLTNBKV',
+        owner: 'YUSHV_A',
+    },
+    {
         name: 'Уфа, гостиница Турист',
         url: './maps/bash/ufa_turist.webp',
         link: ['./original_maps/bash/ufa_turist_omaps.gif','./original_maps/bash/ufa_turist_omaps.ocd'],
         bounds: [[54.773613120753765, 55.97143650054932], [54.77084058461001, 56.000833511352546], [54.75442426933236, 55.96886157989502]],
         author: ['GZTLN','LNTV'],
         owner: 'YUSHV_A',
-        type: 'PARK'
+        type: ['PARK']
     },
     {
         name: 'Уфа, Медколледж',
@@ -17,7 +44,7 @@ let bashMaps = [
         bounds: [[54.76659477042868, 55.978925228118904], [54.76540635780258, 55.993387699127204], [54.75374320745313, 55.97547054290772]],
         author: ['GZTLN','GRSHN_V','ZRPV','YLMNV','LNTV','BRTSHV','ZKHRV_V','ISKNDRV'],
         owner: 'YUSHV_A',
-        type: 'PARK'
+        type: ['PARK']
     },
     {
         name: 'Уфа, СОК Биатлон',
@@ -28,6 +55,26 @@ let bashMaps = [
         author: ['BLTV','MTN_Y'],
         owner: 'YUSHV_A',
         type: ['FOREST','WINTER']
+    },
+    {
+        name: 'Уфа, МедУниверситет, парк им Ленина',
+        year: 2011,
+        url: './maps/bash/ufa_meduniver_2012.webp',
+        link: ['./original_maps/bash/ufa_meduniver_2012_omaps.gif','./original_maps/bash/ufa_meduniver_2012_omaps.ocd'],
+        bounds: [[54.72264982648217, 55.93879938125611], [54.721757552660875, 55.94733953475953], [54.716155607191084, 55.93661069869996]],
+        author: 'SLTNBKV',
+        owner: 'YUSHV_A',
+        type: ['CITY','PARK']
+    },
+    {
+        name: 'Уфа, Новогорная ул',
+        year: 2022,
+        url: './maps/bash/ufa_novogornaya_2022.webp',
+        link: ['./original_maps/bash/ufa_novogornaya_2022_omaps.gif','./original_maps/bash/ufa_novogornaya_2022_omaps.ocd'],
+        bounds: [[54.7735821783184, 56.028331518173225], [54.77295094747135, 56.03402853012086], [54.76745510987452, 56.025606393814094]],
+        author: 'SLTNBKV',
+        owner: 'YUSHV_A',
+        type: ['CITY']
     },
     {
         name: 'Архимандритское оз',
@@ -101,7 +148,16 @@ let bashMaps = [
         bounds: [[54.016897508619614, 55.88667869567871], [54.016241919537, 55.89929580688477], [54.008071404417635, 55.88371753692627]],
         author: 'ISHMHMDV',
         owner: 'YUSHV_A',
-        type: 'CITY'
+        type: ['CITY']
+    },
+    {
+        name: 'Таштамак',
+        year: 2011,
+        url: './maps/bash/tashtamak_2011.webp',
+        link: ['./original_maps/bash/tashtamak_2011_omaps.gif','./original_maps/bash/tashtamak_2011_omaps.ocd'],
+        bounds: [[54.00103439739704, 55.73136806488038], [53.99583785086403, 55.77029228210449], [53.97618096768041, 55.723943710327156]],
+        author: ['SLTNBKV','BBRN_R','SLDTV_S'],
+        owner: 'YUSHV_A',
     },
     {
         name: 'Ботанический сад, Парк Лесоводов',
@@ -110,7 +166,7 @@ let bashMaps = [
         bounds: [[54.74003285321624, 56.00353717803956], [54.737381897031995, 56.02748394012451], [54.72856064446176, 56.000447273254395]],
         author: 'LNTV',
         owner: 'YUSHV_A',
-        type: 'PARK'
+        type: ['PARK']
     },
     {
         name: 'Уфа, Парк Калинина',
@@ -119,7 +175,7 @@ let bashMaps = [
         bounds: [[54.80889684045362, 56.04297637939454], [54.807264472667924, 56.05816841125489], [54.79588553221108, 56.03877067565919]],
         author: 'LNTV',
         owner: 'YUSHV_A',
-        type: 'PARK'
+        type: ['PARK']
     },
     {
         name: 'Авдон',
@@ -127,6 +183,15 @@ let bashMaps = [
         link: ['./original_maps/bash/avdon_omaps.gif','./original_maps/bash/avdon_omaps.ocd'],
         bounds: [[54.672763908916394, 55.707292556762695], [54.66991001401221, 55.73604583740235], [54.65869102285384, 55.702958106994636]],
         author: 'EKSHV',
+        owner: 'YUSHV_A',
+    },
+    {
+        name: 'Юматово',
+        year: 2014,
+        url: './maps/bash/umatovo_2014.webp',
+        link: ['./original_maps/bash/umatovo_2014_omaps.gif','./original_maps/bash/umatovo_champ_2014_omaps.jpg','./original_maps/bash/umatovo_2014_omaps.ocd'],
+        bounds: [[54.647319946329134, 55.6454086303711], [54.64240308095191, 55.6893539428711], [54.62253090187571, 55.63613891601563]],
+        author: ['ISKNDRV','VRBJV_V','PRHRVA_E','SLTNBKV','ZKHRV_V'],
         owner: 'YUSHV_A',
     },
     {
@@ -160,7 +225,7 @@ let bashMaps = [
         link: './original_maps/bash/akmanay_winter_2010_omaps.gif',
         bounds: [[54.592580101075065, 55.68089962005616], [54.590441690985635, 55.703001022338874], [54.57683778006277, 55.67411899566651]],
         owner: 'YUSHV_A',
-        type: 'WINTER'
+        type: ['WINTER']
     },
     {
         name: 'Бирск',
@@ -196,7 +261,7 @@ let bashMaps = [
         bounds: [[53.367365509711014, 55.91964840888977], [53.36710303904437, 55.92899322509766], [53.36174444293704, 55.919240713119514]],
         author: 'DVTKN_A',
         owner: 'YUSHV_A',
-        type: 'CITY'
+        type: ['CITY']
     },
     {
         name: 'Салават, Школа №24',
@@ -206,7 +271,7 @@ let bashMaps = [
         bounds: [[53.3529528370735, 55.9425973892212], [53.35304889500624, 55.948970317840576], [53.347009631985955, 55.94276905059815]],
         author: ['ZHDNK_L','RHMTLNA'],
         owner: 'YUSHV_A',
-        type: 'CITY'
+        type: ['CITY']
     },
     {
         name: 'Салават, ЦПКиО',
@@ -216,7 +281,7 @@ let bashMaps = [
         bounds: [[53.36566262245278, 55.936954021453865], [53.36434379833481, 55.95019340515137], [53.35664770956202, 55.9339714050293]],
         author: 'DVTKN_A',
         owner: 'YUSHV_A',
-        type: 'PARK'
+        type: ['PARK']
     },
     {
         name: 'Стерлитамак, Семёнкино',
@@ -226,6 +291,17 @@ let bashMaps = [
         bounds: [[53.82127711219958, 55.71102619171143], [53.81709692844788, 55.748448371887214], [53.80435112827054, 55.704245567321784]],
         author: 'ISHMHMDV',
         owner: 'YUSHV_A',
+    },
+    {
+        name: 'Стерлитамак, рднк Ускан',
+        year: 2025,
+        url: './maps/bash/sterlitamak_uskan_rogaine_2025.webp',
+        link: './original_maps/bash/sterlitamak_uskan_rogaine_2025_omaps.gif',
+        bounds: [[53.66681554620711, 56.09885215759277], [53.658830876083556, 56.1643409729004], [53.628200475022666, 56.08511924743653]],
+        author: ['ZKHRV_V','YUSHV_A'],
+        logo: 'bash_rogaine.webp',
+        owner: 'YUSHV_A',
+
     },
     {
         name: 'Стерлитамак, Карасевка',
@@ -286,7 +362,7 @@ let bashMaps = [
         author: 'MTN_Y',
         owner: 'YUSHV_A',
         logo: 'bash_fox.gif',
-        type: 'RELIEF'
+        type: ['RELIEF']
     },
     {
         name: 'Стерлитамак, Урняк',
@@ -308,7 +384,7 @@ let bashMaps = [
         author: 'YUSHV_A',
         owner: 'YUSHV_A',
         logo: 'bash_fox.gif',
-        type: 'CITY'
+        type: ['CITY']
     },
     {
         name: 'Стерлитамак, Гимназия №2',
@@ -319,7 +395,7 @@ let bashMaps = [
         author: ['DKNV_A','YUSHV_A'],
         owner: 'YUSHV_A',
         logo: 'bash_fox.gif',
-        type: 'CITY'
+        type: ['CITY']
     },
     {
         name: 'Ольховка',
@@ -367,7 +443,7 @@ let bashMaps = [
         link: './original_maps/bash/oktyabrsky_spartak_winter_2006_omaps.jpg',
         bounds: [[54.47013737002182, 53.53697776794434], [54.46774312970401, 53.561182022094734], [54.445390130032564, 53.52959632873536]],
         owner: 'YUSHV_A',
-        type: 'WINTER'
+        type: ['WINTER']
     },
     {
         name: 'Октябрьский, стд Спартак, парк Ю.Гагарина',
@@ -378,6 +454,15 @@ let bashMaps = [
         author: 'PRHRV_V',
         owner: 'YUSHV_A',
         type: ['CITY','PARK']
+    },
+    {
+        name: 'Золотой рог, восток',
+        year: 2011,
+        url: './maps/bash/zolotoj_rog_east.webp',
+        link: ['./original_maps/bash/zolotoj_rog_east_omaps.gif','./original_maps/bash/zolotoj_rog_east_omaps.ocd'],
+        bounds: [[54.519736429931065, 53.59053611755372], [54.51652303854306, 53.623366355896], [54.49556752187409, 53.58358383178712]],
+        author: 'SLTNBKV',
+        owner: 'YUSHV_A',
     },
     {
         name: 'Буриказган',
@@ -396,7 +481,7 @@ let bashMaps = [
         bounds: [[53.99745238138151, 58.421130180358894], [53.99553511942154, 58.44464778900147], [53.97856602627963, 58.41525077819825]],
         author: 'EKSHV',
         owner: 'YUSHV_A',
-        type: 'WINTER'
+        type: ['WINTER']
     },
     {
         name: 'Белорецк, Белая глина',
@@ -406,7 +491,7 @@ let bashMaps = [
         bounds: [[53.981354731155314, 58.44990491867066], [53.97947458411722, 58.465783596038825], [53.96626068786408, 58.44520568847657]],
         author: 'EKSHV',
         owner: 'YUSHV_A',
-        type: 'WINTER'
+        type: ['WINTER']
     },
     {
         name: 'Актан, Белая заря',
@@ -430,10 +515,19 @@ let bashMaps = [
         name: 'Кушнаренково, дом Топорнина',
         year: 2007,
         url: './maps/bash/kushnarenkovo_2007.webp',
-        link: './original_maps/bash/kushnarenkovo_2007_omaps.jpg',
+        link: ['./original_maps/bash/kushnarenkovo_2007_omaps.jpg','./original_maps/bash/kushnarenkovo_2007_omaps.ocd'],
         bounds: [[55.12845277812814, 55.34506559371948], [55.12626898278089, 55.36229610443116], [55.113789614134504, 55.33987283706666]],
         author: ['SLTNBKV','BBRN_R'],
         owner: 'YUSHV_A',
-        type: 'CITY'
+        type: ['CITY']
+    },
+    {
+        name: 'Чекмагуш, Игенче',
+        year: 2022,
+        url: './maps/bash/chekmagush_2022.webp',
+        link: ['./original_maps/bash/chekmagush_2022_omaps.gif','./original_maps/bash/chekmagush_2022_omaps.omap'],
+        bounds: [[55.168279939472995, 54.57818984985352], [55.16303405314434, 54.61329460144044], [55.156316349951155, 54.57321166992188]],
+        author: 'SLTNBKV',
+        owner: 'YUSHV_A',
     },
 ];
