@@ -491,11 +491,27 @@ let runTracks = [
     {
         name: 'Дудергоф трейл',
         date: '2025-04-20',
-        info: 'Участникам предстоит не просто пробежать дистанцию по пересечённой местности, но даже взобраться на самую высокую точку города — гору Ореховую.',
+        info: '12 и 6 км. Участникам предстоит не просто пробежать дистанцию по пересечённой местности, но даже взобраться на самую высокую точку города — гору Ореховую.',
         link: 'https://marathonec.ru/dudergof-trejl-gid/',
         results: 'https://reg.o-time.ru/race/25240',
-        gpx: 'tracks/run/dudergof_trail_12km_omaps.gpx',
+        gpx: 'tracks/run/dudergof_trail_omaps.gpx',
         start: 'KOLYUCHIE',
+        type: ['RUN']
+    },
+    {
+        name: 'Вентилятор (Fun)',
+        info: 'Сегмент в Strava с максимальным набором рельефа по горнолыжке.',
+        link: 'https://www.strava.com/segments/34714021',
+        gpx: 'tracks/run/dudergof_fun_omaps.gpx',
+        logo: 'strava.gif',
+        type: ['RUN']
+    },
+    {
+        name: 'Пятюня Горного Короля',
+        info: 'Популярный сегмент в Strava.',
+        link: 'https://www.strava.com/segments/31883935',
+        gpx: 'tracks/run/dudergof_hill_king_omaps.gpx',
+        logo: 'strava.gif',
         type: ['RUN']
     },
     {

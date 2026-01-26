@@ -108,13 +108,14 @@ function loadTracks() {
             if (START_NAME_PARAM && START_NAME_PARAM !== t.start) {
                 continue;
             }
-            if (ONLY_TRACK_NAME_PARAM && !firstTrack.includes(ONLY_TRACK_NAME_PARAM)) {
-                continue;
-            }
             if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
                 continue;
             }
             if (TRACK_MONTH_PARAM && (!t.date || t.date.slice(-2) !== TRACK_MONTH_PARAM)) {
+                continue;
+            }
+            let firstTrack = getFirstTrack(t);
+            if (ONLY_TRACK_NAME_PARAM && !firstTrack.includes(ONLY_TRACK_NAME_PARAM)) {
                 continue;
             }
             actualTracks.push(t);
