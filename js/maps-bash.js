@@ -85,6 +85,13 @@ let bashMaps = [
         owner: 'YUSHV_A',
     },
     {
+        name: 'Дёма, север',
+        year: 1980,
+        url: './maps/bash/dema_north_1980.webp',
+        link: './original_maps/bash/dema_north_1980_omaps.jpg',
+        bounds: [[54.73408654143435, 55.85959911346436], [54.7269250326727, 55.92229843139649], [54.70300286632571, 55.85093021392823]],
+    },
+    {
         name: 'Дёма, Чёрное оз',
         year: 1982,
         url: './maps/bash/dema_black_lake.webp',
@@ -461,7 +468,7 @@ let bashMaps = [
         url: './maps/bash/zolotoj_rog_east.webp',
         link: ['./original_maps/bash/zolotoj_rog_east_omaps.gif','./original_maps/bash/zolotoj_rog_east_omaps.ocd'],
         bounds: [[54.519736429931065, 53.59053611755372], [54.51652303854306, 53.623366355896], [54.49556752187409, 53.58358383178712]],
-        author: 'SLTNBKV',
+        author: ['PRHRV_V','SLDTV_S','SLTNBKV'],
         owner: 'YUSHV_A',
     },
     {
