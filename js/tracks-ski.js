@@ -254,6 +254,15 @@ let skiTracks = [
         type: ['SKI']
     },
     {
+        name: 'Малиновая гора - Осельки',
+        info: 'Лесная дорога, соединяющая две известные трассы.',
+        link: 'https://vk.com/malingora',
+        gpx: 'tracks/ski/toksovo_malinova_gora_oselki_ski_omaps.gpx',
+        pics: ['ski/malinovaya',2],
+        ski_kind: 'CLASSIC_ROUTE',
+        type: ['SKI']
+    },
+    {
         name: 'Охта-парк, Toksovo Cup',
         date: '2025-02-01',
         results: 'https://reg.o-time.ru/race/25033',
