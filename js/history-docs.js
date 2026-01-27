@@ -110,6 +110,12 @@ let historyDocs = [
         link: './docs/1971/1971_calendar_omaps.pdf'
     },
     {
+        name: 'П-во ЛОМО (Сярьги)',
+        date: '1971-02-07',
+        link: './docs/1971/1971_02_07_lomo_omaps.pdf',
+        map: 'sjargi_1971_lomo'
+    },
+    {
         name: 'IV матч Рига - Ленинград (Шапки)',
         date: '1971-07-03',
         link: './docs/1971/1971_07_03_riga_leningrad_omaps.pdf'
@@ -144,6 +150,11 @@ let historyDocs = [
         name: 'IV матч Рига - Ленинград, эстафета (Шапки)',
         date: '1971-07-04',
         link: './docs/1971/1971_07_04_riga_leningrad_omaps.pdf'
+    },
+    {
+        name: 'Первенство Ленинграда (Горьковское)',
+        date: '1971-08-29',
+        link: './docs/1971/1971_08_29_leningrad_omaps.pdf'
     },
     {
         name: 'Первенство Ленинграда, марафон (Комарово)',

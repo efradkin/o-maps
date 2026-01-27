@@ -2,6 +2,14 @@
 let toksovoMaps = [
     // --- ТОКСОВО ---
     {
+        name: 'Сярьги',
+        date: '1971-02-07',
+        url: './maps/forest/toksovo/sjargi_1971_lomo.webp',
+        link: './original_maps/forest/toksovo/sjargi_1971_lomo_omaps.jpg',
+        bounds: [[60.13614147737142, 30.40225982666016], [60.13641927711658, 30.466289520263675], [60.11474385153375, 30.404834747314457]],
+        info: 'П-во ЛОМО. <a href="./docs/1971/1971_02_07_lomo_omaps.pdf">Результаты</a>.'
+    },
+    {
         name: 'оз Хепоярви, восток',
         year: 1985,
         area: 8.6,
