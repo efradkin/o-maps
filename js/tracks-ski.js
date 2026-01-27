@@ -209,7 +209,7 @@ let skiTracks = [
             'Full marathon 50km':'tracks/ski/toksovo_cup_50_ski_omaps.gpx'
         },
         logo: 'toksovo_cup.gif',
-        pics: ['ski/ska',2],
+        pics: ['ski/ska',5],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
