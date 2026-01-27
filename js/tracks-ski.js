@@ -145,6 +145,7 @@ let skiTracks = [
     {
         name: 'Сестрорецк, парк Дубки',
         gpx: 'tracks/ski/sestroretsk_dubki_ski_omaps.gpx',
+        pics: ['ski/dubki',1],
         ski_kind: 'WALKWAY',
         type: ['SKI']
     },
@@ -158,8 +159,9 @@ let skiTracks = [
     },
     {
         name: 'Сестрорецкий пляж',
-        info: 'классика двусторонняя',
+        info: 'Классика двусторонняя.',
         gpx: 'tracks/ski/sestroretsk_beach_ski_omaps.gpx',
+        pics: ['ski/sestroretsk_beach',1],
         type: ['SKI']
     },
     {
