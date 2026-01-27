@@ -189,6 +189,7 @@ let events2026 = [
     place: 'Орехово',
     name: 'ЧиП СПб',
     link: 'https://o-site.spb.ru/race.php?id=260201_ChiP',
+    reg: ['http://o-reg.spb.ru/?filter[day_id]=1712','http://o-reg.spb.ru/?filter[day_id]=1713'],
     type: 'SKI',
     fmt: 'лонг,эстафета',
     owner: 'SFSO_SPB'

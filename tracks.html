@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="js/ext/Leaflet.QgsMeasure/leaflet.qgsmeasure.css"/>
     <link rel="stylesheet" href="js/ext/leaflet.notifications/leaflet-notifications.min.css"/>
     <link rel="stylesheet" href="css/main.css?v=1"/>
+    <link rel="stylesheet" href="css/slideshow.css"/>
 
     <script src="js/ext/bootstrap.min.js"></script>
 
@@ -93,6 +94,18 @@
             <p><em><a href="https://vk.com/fradkin">Фрадкин Евгений</a></em></p>
         </div>
     </noscript>
+
+    <!-- Модальное окно -->
+    <div id="slideshow-modal" class="modal">
+        <span class="close">&times;</span>
+
+        <div class="modal-content">
+            <!-- Слайды будут добавляться здесь -->
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
 
     <div id="map"></div>
 
@@ -185,8 +198,13 @@
             ...rogaineKkmMaps,
             ...rogaineMaps,
         ];
+
+        // Массив с адресами картинок
+        const images = [];
+        let picCounter = 0;
     </script>
 
+    <script src="js/slideshow.js"></script>
     <script src="js/map-build-tracks.js"></script>
     <script src="js/tips.js"></script>
     <script src="js/main.js"></script>

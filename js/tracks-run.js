@@ -1156,7 +1156,7 @@ let runTracks = [
         type: ['RUN']
     },
     {
-        name: 'Выборг, Кировские дачи, "Тропа Хийси"',
+        name: 'Выборг, Кировские дачи, Тропа Хийси',
         date: '2025-10-18',
         link: 'https://vk.com/vyborgmarathon',
         results: 'https://reg.o-time.ru/race/25576',

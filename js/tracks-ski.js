@@ -4,6 +4,7 @@ let skiTracks = [
         name: 'Московский парк Победы',
         info: 'Абсолютно плоский самотопный круг. Дорожки часто посыпают песком.',
         gpx: 'tracks/ski/victory_park_ski_omaps.gpx',
+        pics: ['ski/pobedy',3],
         ski_kind: 'WALKWAY',
         type: ['SKI']
     },
@@ -58,6 +59,7 @@ let skiTracks = [
         name: 'Полежаевский парк',
         info: 'Единственная лыжная трасса с хоть сколько-то заметным рельефом на юге города.',
         gpx: 'tracks/ski/polezhaevsky_park_ski_omaps.gpx',
+        pics: ['ski/polezhaevsky',2],
         ski_kind: 'FICKLE_ROUTE',
         type: ['SKI'],
         logo: 'krasnoselsky.gif'
@@ -74,6 +76,7 @@ let skiTracks = [
         info: 'Широкая плоская трасса с двумя искусственными горками.',
         gpx: 'tracks/ski/krestovsky_ski_omaps.gpx',
         logo: 'spb_sport.gif',
+        pics: ['ski/krestovsky',2],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -85,6 +88,7 @@ let skiTracks = [
             '2026г':'tracks/ski/pushkin_otdelny_ski_2026_omaps.gpx',
             '2025г':'tracks/ski/pushkin_otdelny_ski_2025_omaps.gpx'
         },
+        pics: ['ski/pushkin',1],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -108,6 +112,7 @@ let skiTracks = [
             'пятнашка':'tracks/ski/zelenogorsk_15_ski_omaps.gpx',
         },
         logo: 'priboy.webp',
+        pics: ['ski/priboy',2],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -180,6 +185,7 @@ let skiTracks = [
         info: 'Лыжная трасса в ООПТ "Токсовские высоты" со стартом у спорт.базы Динамо.',
         gpx: 'tracks/ski/kavgolovo_dinamo_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
+        pics: ['ski/dinamo',1],
         type: ['SKI']
     },
     {
@@ -201,6 +207,7 @@ let skiTracks = [
             'Full marathon 50km':'tracks/ski/toksovo_cup_50_ski_omaps.gpx'
         },
         logo: 'toksovo_cup.gif',
+        pics: ['ski/ska',2],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -208,6 +215,7 @@ let skiTracks = [
         name: 'Токсово, ВИФК',
         info: 'Лыжная трасса на территории, принадлежащей МО РФ. Ограниченно доступна.',
         gpx: 'tracks/ski/toksovo_vifk_ski_omaps.gpx',
+        pics: ['ski/vifk',3],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -229,6 +237,7 @@ let skiTracks = [
         info: 'Классическая лыжня, подготавливаемая энтузиастами. Периодически тут проводятся массовые "Лыжные стрелы".',
         link: 'https://vk.com/malingora',
         gpx: 'tracks/ski/toksovo_malinova_gora_ski_omaps.gpx',
+        pics: ['ski/malinovaya',1],
         markir: true,
         ski_kind: 'CLASSIC_ROUTE',
         type: ['SKI']
@@ -238,6 +247,7 @@ let skiTracks = [
         info: 'Абсолютно плоская классическая лыжня по болоту, подготавливаемая энтузиастами.',
         link: 'https://vk.com/malingora',
         gpx: 'tracks/ski/toksovo_malinova_gora_swamp_ski_omaps.gpx',
+        pics: ['ski/malinovaya',2],
         ski_kind: 'CLASSIC_ROUTE',
         type: ['SKI']
     },
@@ -250,6 +260,7 @@ let skiTracks = [
         gpx: 'tracks/ski/ohtapark_ski_omaps.gpx',
         markir: true,
         logo: 'ohta_park.gif',
+        pics: ['ski/ohtapark',7],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -258,6 +269,7 @@ let skiTracks = [
         link: 'https://vk.com/trassalembolovo',
         gpx: 'tracks/ski/lembolovo_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
+        pics: ['ski/lembolovo',3],
         type: ['SKI']
     },
     {
@@ -267,10 +279,11 @@ let skiTracks = [
         type: ['SKI']
     },
     {
-        name: 'Орехово, "Лыжная стрела"',
+        name: 'Орехово, "Лыжные стрелы"',
         year: 2025,
         link: 'https://vk.com/orehovo_ski',
         gpx: 'tracks/ski/orekhovo_ski_arrow_2025_omaps.gpx',
+        pics: ['ski/orekhovo_arrows',1],
         ski_kind: 'CLASSIC_ROUTE',
         type: ['SKI']
     },
@@ -287,6 +300,7 @@ let skiTracks = [
         },
         markir: true,
         start: 'MULTSPORT',
+        pics: ['ski/orekhovo',1],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -326,6 +340,7 @@ let skiTracks = [
         },
         markir: true,
         logo: 'garbolovo_ski.webp',
+        pics: ['ski/garbolovo',4],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -333,6 +348,7 @@ let skiTracks = [
         name: 'Павлово',
         info: 'Очень симпатичный лыжный круг с хорошим рельефом.',
         gpx: 'tracks/ski/pavlovo_ski_omaps.gpx',
+        pics: ['ski/pavlovo',2],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -361,6 +377,7 @@ let skiTracks = [
             '5км':'tracks/ski/igora_ski_omaps.gpx'
         },
         logo: 'igora.webp',
+        pics: ['ski/igora',1],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -372,6 +389,7 @@ let skiTracks = [
     {
         name: 'Всеволожск, Румболовский парк',
         gpx: 'tracks/ski/rumbolovo_ski_omaps.gpx',
+        pics: ['ski/rumbolovo',1],
         ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
@@ -384,6 +402,7 @@ let skiTracks = [
         gpx: 'tracks/ski/vyborg_ski_omaps.gpx',
         markir: true,
         logo: 'vyborg.webp',
+        pics: ['ski/vyborg',1],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -400,6 +419,7 @@ let skiTracks = [
         info: 'Отличная гора практически в черте города!',
         link: 'https://vk.com/svdudergof',
         gpx: 'tracks/ski/mozhaika_dudergof_ski_omaps.gpx',
+        pics: ['ski/mozhaika',3],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },
@@ -426,6 +446,7 @@ let skiTracks = [
         name: 'Невский л/п, Богословка',
         info: 'Прокатывается нерегулярно.',
         gpx: 'tracks/ski/bogoslovka_ski_omaps.gpx',
+        pics: ['ski/bogoslovka',1],
         ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
@@ -538,6 +559,7 @@ let skiTracks = [
         name: 'Сосновый Бор, Малахит',
         link: 'https://vk.com/club.sb_biathlon',
         gpx: 'tracks/ski/sosnovy_bor_malakhit_omaps.gpx',
+        pics: ['ski/malakhit',1],
         type: ['SKI']
     },
     {
@@ -569,6 +591,7 @@ let skiTracks = [
         link: 'https://vk.com/wall-210604144_10259',
         info: 'Работают лыжные дистанции 5 и 10 км на запасной трассе (проход к старту в 500 метрах от ж/д станции в сторону базы отдыха Пикник).',
         gpx: 'tracks/ski/shapki_ski_arrows_2025_omaps.gpx',
+        pics: ['ski/shapki_arrows',1],
         ski_kind: 'CLASSIC_ROUTE',
         type: ['SKI']
     },
@@ -592,6 +615,18 @@ let skiTracks = [
     {
         name: 'Силанде',
         gpx: 'tracks/ski/silande_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+
+    {
+        name: 'Смоленск, Биатлонный комплекс ЧАЙКА',
+        gpx: 'tracks/ski/smolensk_chaika_omaps.gpx',
+        link: 'http://www.fbso.su/trenirovochnaya-baza/',
+        info: 'Центр биатлона и лыжного спорта имеет полный набор трасс – от разминочных кругов, до кругов протяженностью 2,5 и 4 км. Этот единственный в Смоленской области ' +
+              'комплекс со стрельбищем — огневой рубеж составляет 90 метров. Финишный слой асфальта на трассах той же «рецептуры», что был уложен на олимпийских объектах в Сочи. ' +
+              'Биатлонный центр имеет развитую инфраструктуру: хозяйственные постройки, зрительские трибуны, вакс-кабины, корпус судей, раздевалки, тренерскую зону.',
+        logo: 'smolensk_chaika.gif',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
     },

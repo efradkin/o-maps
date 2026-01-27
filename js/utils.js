@@ -518,7 +518,7 @@ function searchMap(text) {
     let idx = text.indexOf('(');
     if (idx >= 0) {
         y = Number(text.substring(idx + 1, idx + 5));
-        title = text.substring(0, idx - 1).trim();
+        title = unifyString(text.substring(0, idx - 1));
     } else {
         y = Number(text);
     }
@@ -530,7 +530,7 @@ function searchMap(text) {
         }
         if (!isNull(oTracks)) {
             for (const t of oTracks) {
-                if (unifyString(t.name).includes(title) && (!y || y === t.year)) {
+                if (unifyString(t.name).includes(title) && (!y || y === year(t))) {
                     return t;
                 }
             }

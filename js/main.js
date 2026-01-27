@@ -257,7 +257,16 @@ function buildTrackPopup(t, gpxLayer) {
         info += t.info;
     }
     if (t.results) {
-        info += '<a href="' + t.results + '"> Результаты</a>';
+        info += '<a href="' + t.results + '"> Результаты</a>.';
+    }
+    // Картинки
+    if (t.pics) {
+        info += ' <a href="#" onClick="openModal(' + picCounter + '); return false;">Картинки</a>.';
+        for (let p = 1; p <= t.pics[1]; p++) {
+            let url = 'tracks/' + t.pics[0] + '/pic_' + p + '.jpg';
+            images.push(url);
+            picCounter++;
+        }
     }
     if (info) {
         result += info + '<br />';
