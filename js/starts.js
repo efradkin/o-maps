@@ -428,6 +428,11 @@ let starts = {
         name: '<a href="https://vk.com/club197340171">Клубный Кубок Карелии (ККК)</a>',
         logo: 'kkk.gif',
     },
+    PRZHVLSKY: {
+        short: 'Пржевальского',
+        name: '<a href="https://vk.com/event205283247">Приз Пржевальского</a>',
+        logo: 'przhevalsky.webp',
+    },
     /* --- ТРЕКИ --- */
     OOPTSPB: {
         short: 'ООПТ СПб',

@@ -319,10 +319,11 @@ let vaskelovoMaps = [
     },
     {
         name: 'Стеклянный, оз Маролампи',
-        year: 1977,
+        date: '1977-10-09',
         start: 'WEDDING',
         url: './maps/forest/vaskelovo/marolampi_1977.webp',
         link: './original_maps/forest/vaskelovo/marolampi_1977_omaps.jpg',
+        info: '<a href="./docs/1977/1977_10_09_wedding_omaps.pdf">Результаты</a>.',
         bounds: [[60.379254068536234, 30.25239944458008], [60.369686414921595, 30.28518676757813], [60.36491214475014, 30.236134529113773]],
     },
     {

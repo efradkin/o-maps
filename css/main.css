@@ -425,6 +425,9 @@ label:has(> span span .layer-separator) {
     width: 20px;
     vertical-align: top;
 }
+.partly {
+    font-weight: bold;
+}
 
 .leaflet-searchbox-autocomplete .leaflet-searchbox-autocomplete-item {
     padding: 3px 0px 3px 0;

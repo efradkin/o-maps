@@ -111,7 +111,7 @@ function renderMapsTable() {
         }
 
         const row = document.createElement('tr');
-        td(m, row, i + 1);
+        td(m, row, buildNumber(m, i));
         td(m, row, buildName(m));
         td(m, row, buildYear(m));
         if (!isUnknownPage()) {
@@ -154,6 +154,15 @@ function td(m, row, html) {
     const td = document.createElement('td');
     td.innerHTML = (isMajor(m) ? '<b>' : '') + html + (isMajor(m) ? '</b>' : '');
     row.appendChild(td);
+}
+
+function buildNumber(m, i) {
+    let number = i + 1;
+    if (m.partly) {
+        return `<span class="partly" title="Не полностью">${number}&nbsp;(½)</span>`;
+    } else {
+        return number;
+    }
 }
 
 function buildName(m) {

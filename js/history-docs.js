@@ -175,6 +175,49 @@ let historyDocs = [
         planner: ['FDRV_A','SHRNN','GRZNVCH','SHRPV_V']
     },
     {
+        name: 'Многодневка "Белые Ночи" (Токсово)',
+        date: '1977-06-18',
+        link: './docs/1977/1977_06_18_wn_omaps.pdf',
+        info: '18-19 июня.',
+        start: 'WN',
+        partly: true,
+        major: true
+    },
+    {
+        name: 'Многодневка на приз Пржевальского (Смоленск, Баклановский)',
+        date: '1977-07-24',
+        link: './docs/1977/1977_07_24_przhevalsky_omaps.pdf',
+        info: '24-25 июля.',
+        start: 'PRZHVLSKY',
+        partly: true,
+        major: true
+    },
+    {
+        name: 'П-во Ленинграда, марафон (Поляны)',
+        date: '1977-09-04',
+        link: './docs/1977/1977_09_04_leningrad_marathon_omaps.pdf',
+        map: 'polyany_1977'
+    },
+    {
+        name: 'Всесоюзные летние лично-командные соревнования (Сигулда)',
+        date: '1977-09-24',
+        link: './docs/1977/1977_09_24_sigulda_omaps.pdf',
+        info: '24-25 сентября. Буклет.'
+    },
+    {
+        name: 'Свадебные-77 (Васкелово)',
+        date: '1977-10-09',
+        link: './docs/1977/1977_10_09_wedding_omaps.pdf',
+        start: 'WEDDING',
+        map: 'marolampi_1977'
+    },
+    {
+        name: 'VI командные ночные соревнования памяти А.Окинчица (Поляны)',
+        date: '1977-10-29',
+        link: './docs/1977/1977_10_29_okinchitsa_omaps.pdf',
+        map: 'polyany_1977',
+    },
+    {
         name: 'П-во Ленинграда, марафон (Рощино)',
         date: '1979-09-23',
         link: './docs/1979/1979_09_23_leningrad_marathon_omaps.pdf',
