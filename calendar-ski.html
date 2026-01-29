@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.83">
+    <title>o-Maps: Календарь Москва</title>
+    <meta name="description" content="Календарь стартов Москвы.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css?v=1"/>
+
+    <meta property="og:title" content="o-Maps: Календарь Москва">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Календарь стартов Москвы.">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <base target="_blank">
+</head>
+<body class="stat-body sheet-body help-body calendar-body ski-bodi">
+    <a href="tracks.html" onclick="gotoMap('tracks.html'); return false;" target="_self" class="stat-map-link stat-map-link-right" title="Карта">
+        <img src="images/map_24.png" alt="Карта" />
+    </a>
+    <h4 style="float: right; margin-top: 1em;">На карте: </h4>
+
+    <h1>
+         <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
+
+        <select id="event_type_selector" class="header_selector" onchange="selectEventType(this.value, 'ski')">
+            <option value="ALL">все гонки</option>
+            <option value="actual">Текущие</option>
+            <option value="future">Будущие</option>
+        </select>
+    </h1>
+    <h2>
+        Календарь лыжных гонок
+        <sup class="header_checkbox_container">
+            <input type="checkbox" id="only-my" name="only-my" onclick="switchMy(this.checked);" />
+            <label for="only-my">только мои</label>
+            <a href="#" id="edit-my-button" onclick="editMy(); return false" title="Правка своих" style="display: none">✏️</a>
+            <a href="#" id="edit-my-done-button" onclick="myEditDone(); return false" title="Готово" style="display: none">✔️</a>
+        </sup>
+    </h2>
+
+    <div class="o-sheet-roof">
+        <a href="#" onclick="downloadSheetTable('o-maps-ski-calendar.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+    </div>
+    <div class="o-sheet-wrapper">
+        <table class="o-main-table o-sheet">
+            <thead>
+            <tr>
+                <th>&nbsp</th>
+                <th data-sort="date" class="sortable" data-order="desc">Дата</th>
+                <th data-sort="name" class="sortable">Старт, регистрация</th>
+                <th data-sort="place" class="sortable">Место</th>
+                <th>Дистанция</th>
+<!--
+                <th>Результаты</th>
+                <th>Трансляции</th>
+                <th>Прочее</th>
+-->
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="js/ext/jquery.slim.min.js"></script>
+
+    <script src="js/calendar-ski-2026.js"></script>
+
+    <script>
+        let loadImagesRequired = false;
+        let mapsOnStore = false;
+        let documentsPage = true;
+        let oneSportOnly = true;
+        let currentSort = 'date';
+        const REGION_KEY = 'tracks';
+
+        let oEvents = [
+            ...skiEvents2026,
+        ];
+    </script>
+
+    <script src="js/owners.js"></script>
+    <script src="js/starts.js"></script>
+    <script src="js/welcome.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/utils-common.js"></script>
+    <script src="js/calendar.js"></script>
+</body>
+</html>

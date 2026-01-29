@@ -547,5 +547,15 @@ let starts = {
         name: '<a href="https://www.multsport.ru/">МУЛЬТИСПОРТ</a>',
         logo: 'multsport.webp'
     },
+    TOKSOVO_CUP: {
+        short: 'ToksovoCup',
+        name: '<a href="https://toksovocup.com">ToksovoCup</a>',
+        logo: 'toksovo_cup.gif'
+    },
+    VYBORG_SKI: {
+        short: 'Выборгский марафон',
+        name: '<a href="https://vk.com/vyborgmarathon">Выборгский лыжный марафон</a>',
+        logo: 'vyborg.webp'
+    },
 };
 

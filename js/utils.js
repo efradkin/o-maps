@@ -91,6 +91,8 @@ const LOGO_CAROUSEL_TEMPLATE = `
 const ACTUAL_EVENTS_CALENDAR_PARAM_VALUE = 'actual';
 const FUTURE_EVENTS_CALENDAR_PARAM_VALUE = 'future';
 
+const onlyOneSport = (typeof oneSportOnly !== 'undefined') && oneSportOnly;
+
 /*   FUNCTIONS   */
 
 function year(o) { // map, track, event
@@ -914,6 +916,10 @@ function buildEventDate(evt) {
 function buildEventStart(event, withoutLogo) {
     let result = '';
 
+    if (!withoutLogo && event.russialoppet) {
+        result += '<img src="./logo/russialoppet.gif" alt="" class="sheet-icon" /> ';
+    }
+
     let logo;
     if (event.logo) {
         logo = event.logo;
@@ -983,6 +989,12 @@ function buildOneEventReg(reg) {
         return buildLink(reg, 'Multsport');
     } else if (reg.includes('sportident')) {
         return buildLink(reg, 'Sportident');
+    } else if (reg.includes('russialoppet')) {
+        return buildLink(reg, 'Russialoppet');
+    } else if (reg.includes('gosuslugi')) {
+        return buildLink(reg, 'ГУ');
+    } else if (reg.includes('russiarunning')) {
+        return buildLink(reg, 'RR');
     }
     return buildLink(reg, '<img src="./images/url-file.png" />');
 }
@@ -1042,34 +1054,54 @@ function buildEventInfo(evt) {
 }
 
 function buildEventType(evt, withFmt) {
-    let result;
-    switch (evt.type) {
-        case 'RUN': result = 'Бег'; break;
-        case 'SK_RACE': result = 'Лыжная гонка'; break;
-        case 'ORIENT': result = 'Ориент'; break;
-        case 'VELO': result = 'Вело'; break;
-        case 'ROGAINE': result = 'Рогейн'; break;
-        case 'MULTI': result = 'Мульти'; break;
-        case 'TOURISM': result = 'Кросс-поход'; break;
-        case 'FUN': result = 'Интерактив';
-    }
-    if (!result) {
-        if (evt.type.includes('WATER')) {
-            result = 'Водный рогейн';
-        } else if (evt.type.includes('SKI')) {
-            if (isRogaine(evt)) {
-                result = 'Лыжный рогейн';
+    let result = '';
+    if (!onlyOneSport) {
+        switch (evt.type) {
+            case 'RUN':
+                result = 'Бег';
+                break;
+            case 'SK_RACE':
+                result = 'Лыжная гонка';
+                break;
+            case 'ORIENT':
+                result = 'Ориент';
+                break;
+            case 'VELO':
+                result = 'Вело';
+                break;
+            case 'ROGAINE':
+                result = 'Рогейн';
+                break;
+            case 'MULTI':
+                result = 'Мульти';
+                break;
+            case 'TOURISM':
+                result = 'Кросс-поход';
+                break;
+            case 'FUN':
+                result = 'Интерактив';
+        }
+        if (!result) {
+            if (evt.type.includes('WATER')) {
+                result = 'Водный рогейн';
+            } else if (evt.type.includes('SKI')) {
+                if (isRogaine(evt)) {
+                    result = 'Лыжный рогейн';
+                } else {
+                    result = 'Ориент лыж';
+                }
+            } else if (evt.type.includes('VELO')) {
+                result = 'Рогейн';
             } else {
-                result = 'Ориент лыж';
+                result = 'Рогейн, Ориент';
             }
-        } else if (evt.type.includes('VELO')) {
-            result = 'Рогейн';
-        } else {
-            result = 'Рогейн, Ориент';
         }
     }
     if (withFmt && evt.fmt) {
-        result += '<br/><small>' + evt.fmt + '</small>'
+        if (!onlyOneSport) {
+            result += '<br/>'
+        }
+        result += '<small>' + evt.fmt + '</small>'
     }
     return result;
 }

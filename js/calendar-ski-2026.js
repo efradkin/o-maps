@@ -11,7 +11,8 @@ let skiEvents2026 = [
             30.245021
         ],
         link: 'https://vk.com/spbrun_run',
-        reg: 'https://reg.russiarunning.com/events/'
+        reg: 'https://reg.russiarunning.com/events/',
+        start: 'SPBRUN'
     },
     {
         id: 'SKI_20260124_2',
@@ -25,7 +26,8 @@ let skiEvents2026 = [
             30.53827748548657
         ],
         link: 'https://vk.com/club_llg',
-        reg: 'https://reg.o-time.ru/race/26214'
+        reg: 'https://reg.o-time.ru/race/26214',
+        owner: 'KLLG'
     },
     {
         id: 'SKI_20260125_1',
@@ -39,12 +41,13 @@ let skiEvents2026 = [
             30.53827748548657
         ],
         link: 'https://vk.com/club_llg',
-        reg: 'https://reg.o-time.ru/race/26214'
+        reg: 'https://reg.o-time.ru/race/26214',
+        owner: 'KLLG'
     },
     {
         id: 'SKI_20260125_2',
         date: '2026-01-25',
-        name: 'Ореховская дюжина 2026 ',
+        name: 'Ореховская дюжина 2026',
         place: 'Орехово, лыжный стадион рядом с базой Трансмост',
         type: 'SK_RACE',
         fmt: '26, 12.8, 5,1 свободный',
@@ -53,12 +56,13 @@ let skiEvents2026 = [
             30.29462
         ],
         link: 'https://vk.com/multsport',
-        reg: 'https://reg.o-time.ru/race/26203'
+        reg: 'https://reg.o-time.ru/race/26203',
+        start: 'MULTSPORT'
     },
     {
         id: 'SKI_20260131_1',
         date: '2026-01-31',
-        name: 'Токсовский марафон (этап Russialoppet)',
+        name: 'Токсовский марафон',
         place: 'Токсово/Кузьмолово, Охта-Парк',
         type: 'SK_RACE',
         fmt: '25, 10 свободный<br/>25 М, Ж свободный<br/>10  М, Ж свободный',
@@ -67,12 +71,14 @@ let skiEvents2026 = [
             30.463336
         ],
         link: 'https://toksovocup.com/',
-        reg: 'https://russialoppet.ru/events/toksovo2026.html'
+        reg: 'https://russialoppet.ru/events/toksovo2026.html',
+        start: 'TOKSOVO_CUP',
+        russialoppet: true
     },
     {
         id: 'SKI_20260201_1',
         date: '2026-02-01',
-        name: 'Токсовский марафон  (этап Russialoppet)',
+        name: 'Токсовский марафон ',
         place: 'Токсово/Кузьмолово, Охта-Парк',
         type: 'SK_RACE',
         fmt: '50, 25 классика<br/>50М, 50Ж классика<br/>25М, 25Ж классика',
@@ -81,7 +87,9 @@ let skiEvents2026 = [
             30.463336
         ],
         link: 'https://toksovocup.com/',
-        reg: 'https://russialoppet.ru/events/toksovo2026.html'
+        reg: 'https://russialoppet.ru/events/toksovo2026.html',
+        start: 'TOKSOVO_CUP',
+        russialoppet: true
     },
     {
         id: 'SKI_20260207_1',
@@ -95,7 +103,8 @@ let skiEvents2026 = [
             30.420615
         ],
         link: 'https://vk.com/cfkcsnews',
-        reg: 'https://reg.o-time.ru/race/26095'
+        reg: 'https://reg.o-time.ru/race/26095',
+        owner: 'PUSHKIN'
     },
     {
         id: 'SKI_20260208_1',
@@ -109,7 +118,8 @@ let skiEvents2026 = [
             30.420615
         ],
         link: 'https://vk.com/cfkcsnews',
-        reg: 'https://reg.o-time.ru/race/26095'
+        reg: 'https://reg.o-time.ru/race/26095',
+        owner: 'PUSHKIN'
     },
     {
         id: 'SKI_20260208_2',
@@ -123,12 +133,13 @@ let skiEvents2026 = [
             30.500704
         ],
         link: 'https://vk.com/sport_v_garbolovo',
-        reg: 'https://reg.o-time.ru/race/26099'
+        reg: 'https://reg.o-time.ru/race/26099',
+        owner: 'GARBOLOVO'
     },
     {
         id: 'SKI_20260208_3',
         date: '2026-02-08',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Крестовский остров',
         type: 'SK_RACE',
         coord: [
@@ -136,34 +147,38 @@ let skiEvents2026 = [
             30.245021
         ],
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260208_4',
         date: '2026-02-08',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Пискаревский парк',
         type: 'SK_RACE',
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260208_5',
         date: '2026-02-08',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Туллонская аллея',
         type: 'SK_RACE',
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260208_6',
         date: '2026-02-08',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Туллонская аллея',
         type: 'SK_RACE',
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260213_1',
@@ -177,12 +192,13 @@ let skiEvents2026 = [
             30.53827748548657
         ],
         link: 'https://vk.com/club_llg',
-        reg: 'https://reg.o-time.ru/race/26137'
+        reg: 'https://reg.o-time.ru/race/26137',
+        owner: 'KLLG'
     },
     {
         id: 'SKI_20260214_1',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Крестовский остров',
         type: 'SK_RACE',
         coord: [
@@ -190,21 +206,23 @@ let skiEvents2026 = [
             30.245021
         ],
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_2',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Парк \'Екатерингоф\'',
         type: 'SK_RACE',
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_3',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Парголово,СШОР Выборгского р-на, Выборгское шоссе 369к5',
         type: 'SK_RACE',
         coord: [
@@ -212,12 +230,13 @@ let skiEvents2026 = [
             30.276791
         ],
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_4',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Полежаевский парк',
         type: 'SK_RACE',
         coord: [
@@ -225,30 +244,33 @@ let skiEvents2026 = [
             30.185474
         ],
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_5',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Колпино, Парк культуры и отдыха Чухонка',
         type: 'SK_RACE',
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_6',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Полюстровский парк',
         type: 'SK_RACE',
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_7',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Полежаевский парк',
         type: 'SK_RACE',
         coord: [
@@ -256,39 +278,43 @@ let skiEvents2026 = [
             30.185474
         ],
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_8',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Сестрорецк, пляж Северный',
         type: 'SK_RACE',
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_9',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Парк Городов-Героев',
         type: 'SK_RACE',
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_10',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Яблоновский сад',
         type: 'SK_RACE',
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_11',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Крестовский остров',
         type: 'SK_RACE',
         coord: [
@@ -296,21 +322,23 @@ let skiEvents2026 = [
             30.245021
         ],
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_12',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'ж/д Старый Петергоф, Английский парк',
         type: 'SK_RACE',
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_13',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Ольгино, заказник \'Северное побережье невской губы\'',
         type: 'SK_RACE',
         coord: [
@@ -318,12 +346,13 @@ let skiEvents2026 = [
             30.062373
         ],
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_14',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Пушкин, Отдельный парк',
         type: 'SK_RACE',
         coord: [
@@ -331,21 +360,23 @@ let skiEvents2026 = [
             30.420615
         ],
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_15',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Парк Интренацианолистов',
         type: 'SK_RACE',
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260214_16',
         date: '2026-02-14',
-        name: 'Лыжня России ',
+        name: 'Лыжня России',
         place: 'Гарболово',
         type: 'SK_RACE',
         coord: [
@@ -353,7 +384,8 @@ let skiEvents2026 = [
             30.500704
         ],
         link: 'http://www.minsport.gov.ru/',
-        reg: 'https://www.gosuslugi.ru/'
+        reg: 'https://www.gosuslugi.ru/',
+        owner: 'MINSPORT'
     },
     {
         id: 'SKI_20260215_1',
@@ -367,12 +399,13 @@ let skiEvents2026 = [
             30.500704
         ],
         link: 'https://vk.com/sport_v_garbolovo',
-        reg: 'https://reg.o-time.ru/race/26102'
+        reg: 'https://reg.o-time.ru/race/26102',
+        owner: 'GARBOLOVO'
     },
     {
         id: 'SKI_20260218_1',
         date: '2026-02-18',
-        name: 'КубокМасс Спорт 4ый этап',
+        name: 'Кубок Масс Спорт 4ый этап',
         place: 'Парголово,СШОР Выборгского р-на, Выборгское шоссе 369к5',
         type: 'SK_RACE',
         fmt: '7.5, 5, 1 свободный<br/>7.5 (М>18) свободный<br/>5М (14-16), 5М (>60) свободный<br/>5Ж (14-16), 5Ж (>60) свободный<br/>1М (8-12), 1Ж (8-12) свободный',
@@ -381,7 +414,8 @@ let skiEvents2026 = [
             30.276791
         ],
         link: 'https://vk.com/mass_sport',
-        reg: 'https://reg.o-time.ru/race/26123'
+        reg: 'https://reg.o-time.ru/race/26123',
+        start: 'VYBORG_SKI'
     },
     {
         id: 'SKI_20260221_1',
@@ -395,7 +429,8 @@ let skiEvents2026 = [
             30.245021
         ],
         link: 'https://vk.com/spbrun_run',
-        reg: 'https://reg.russiarunning.com/events/'
+        reg: 'https://reg.russiarunning.com/events/',
+        start: 'SPBRUN'
     },
     {
         id: 'SKI_20260221_2',
@@ -409,7 +444,8 @@ let skiEvents2026 = [
             30.29462
         ],
         link: 'https://vk.com/public207072134',
-        reg: 'https://reg.o-time.ru/race/26230'
+        reg: 'https://reg.o-time.ru/race/26230',
+        start: 'SPORTDRIVE'
     },
     {
         id: 'SKI_20260222_1',
@@ -423,7 +459,8 @@ let skiEvents2026 = [
             28.748437
         ],
         link: 'https://vk.com/vyborgmarathon',
-        reg: 'https://reg.o-time.ru/race/26024'
+        reg: 'https://reg.o-time.ru/race/26024',
+        start: 'VYBORG_SKI'
     },
     {
         id: 'SKI_20260222_2',
@@ -437,7 +474,8 @@ let skiEvents2026 = [
             30.53827748548657
         ],
         link: 'https://vk.com/club_llg',
-        reg: 'https://reg.o-time.ru/race/26137'
+        reg: 'https://reg.o-time.ru/race/26137',
+        owner: 'KLLG'
     },
     {
         id: 'SKI_20260223_1',
@@ -451,7 +489,8 @@ let skiEvents2026 = [
             30.55947
         ],
         link: 'http://vk.com/alpskispb',
-        reg: 'https://reg.o-time.ru/race/26009'
+        reg: 'https://reg.o-time.ru/race/26009',
+        owner: 'ALP_SPB'
     },
     {
         id: 'SKI_20260223_2',
@@ -465,12 +504,13 @@ let skiEvents2026 = [
             34.330565
         ],
         link: 'https://vk.com/skilab10',
-        reg: 'https://reg.o-time.ru/race/26216'
+        reg: 'https://reg.o-time.ru/race/26216',
+        owner: 'KARELIA_SKI'
     },
     {
         id: 'SKI_20260227_1',
         date: '2026-02-27',
-        name: 'Деминские спутники (этап Russialoppet)',
+        name: 'Деминские спутники',
         place: 'Демино',
         type: 'SK_RACE',
         fmt: '30, 10, 5 свободный<br/>30М, 30Ж свободный<br/>10М, 10Ж свободный<br/>5М, 5Ж свободный',
@@ -479,12 +519,14 @@ let skiEvents2026 = [
             39.113445
         ],
         link: 'https://deminom.ru/marathons/lyzhnyy-marafon-wl/19-traditsionnyy-mezhdunarodnyy-deminskiy-lyzhnyy-marafon-2026/',
-        reg: 'https://russialoppet.ru/events/demino2026short.html'
+        reg: 'https://russialoppet.ru/events/demino2026short.html',
+        owner: 'DEMINO_SKI',
+        russialoppet: true
     },
     {
         id: 'SKI_20260228_1',
         date: '2026-02-28',
-        name: 'Деминский марафон  (этап Russialoppet)',
+        name: 'Деминский марафон ',
         place: 'Демино',
         type: 'SK_RACE',
         fmt: '50 свободный',
@@ -493,7 +535,9 @@ let skiEvents2026 = [
             39.113445
         ],
         link: 'https://deminom.ru/marathons/lyzhnyy-marafon-wl/19-traditsionnyy-mezhdunarodnyy-deminskiy-lyzhnyy-marafon-2026/',
-        reg: 'https://russialoppet.ru/events/demino2026short.html'
+        reg: 'https://russialoppet.ru/events/demino2026short.html',
+        owner: 'DEMINO_SKI',
+        russialoppet: true
     },
     {
         id: 'SKI_20260228_2',
@@ -520,7 +564,8 @@ let skiEvents2026 = [
             30.276791
         ],
         link: 'https://vk.com/mass_sport',
-        reg: 'https://reg.o-time.ru/race/26034'
+        reg: 'https://reg.o-time.ru/race/26034',
+        owner: 'MASS_SPORT'
     },
     {
         id: 'SKI_20260228_4',
@@ -534,12 +579,12 @@ let skiEvents2026 = [
             30.29462
         ],
         link: 'https://vk.com/multsport',
-        reg: 'пока не открыта'
+        start: 'MULTSPORT'
     },
     {
         id: 'SKI_20260301_1',
         date: '2026-03-01',
-        name: 'Деминский марафон  (этап Russialoppet)',
+        name: 'Деминский марафон ',
         place: 'Демино',
         type: 'SK_RACE',
         fmt: '30, 2,1 классика<br/>30М, 30Ж классика<br/>2М (8-12), 2Ж (8-12) классика<br/>1М (до 8), 1Ж (до 8) классика',
@@ -548,12 +593,14 @@ let skiEvents2026 = [
             39.113445
         ],
         link: 'https://deminom.ru/marathons/lyzhnyy-marafon-wl/19-traditsionnyy-mezhdunarodnyy-deminskiy-lyzhnyy-marafon-2026/',
-        reg: 'https://russialoppet.ru/events/demino2026short.html'
+        reg: 'https://russialoppet.ru/events/demino2026short.html',
+        owner: 'DEMINO_SKI',
+        russialoppet: true
     },
     {
         id: 'SKI_20260301_2',
         date: '2026-03-01',
-        name: 'Ореховская лыжня 2026 день2 ',
+        name: 'Ореховская лыжня 2026 день2',
         place: 'Орехово, лыжный стадион рядом с базой Трансмост',
         type: 'SK_RACE',
         fmt: '28, 14, 5 свободный',
@@ -562,7 +609,7 @@ let skiEvents2026 = [
             30.29462
         ],
         link: 'https://vk.com/multsport',
-        reg: 'пока не открыта'
+        start: 'MULTSPORT'
     },
     {
         id: 'SKI_20260308_1',
@@ -570,7 +617,8 @@ let skiEvents2026 = [
         name: 'Гатчинский марафон',
         place: 'Гатчина',
         type: 'SK_RACE',
-        fmt: '50, 30, 10 свободный'
+        fmt: '50, 30, 10 свободный',
+        owner: 'GATCHINA'
     },
     {
         id: 'SKI_20260321_1',
@@ -578,11 +626,12 @@ let skiEvents2026 = [
         name: 'Ореховская лыжня',
         place: 'Орехово',
         type: 'SK_RACE',
-        fmt: '51, 34, 13, 3  свободный',
+        fmt: '51, 34, 13, 3 свободный',
         coord: [
             60.461689,
             30.294732
-        ]
+        ],
+        start: 'MULTSPORT'
     },
     {
         id: 'SKI_20260213_2',
@@ -596,12 +645,13 @@ let skiEvents2026 = [
             30.53827748548657
         ],
         link: 'https://vk.com/club_llg',
-        reg: 'https://reg.o-time.ru/race/26137'
+        reg: 'https://reg.o-time.ru/race/26137',
+        owner: 'KLLG'
     },
     {
         id: 'SKI_20260227_2',
         date: '2026-02-27',
-        name: 'Деминские спутники (этап Russialoppet)',
+        name: 'Деминские спутники',
         place: 'Демино',
         type: 'SK_RACE',
         fmt: '30, 10, 5 свободный',
@@ -610,6 +660,8 @@ let skiEvents2026 = [
             39.113445
         ],
         link: 'https://deminom.ru/marathons/lyzhnyy-marafon-wl/19-traditsionnyy-mezhdunarodnyy-deminskiy-lyzhnyy-marafon-2026/',
-        reg: 'https://russialoppet.ru/events/demino2026short.html'
+        reg: 'https://russialoppet.ru/events/demino2026short.html',
+        owner: 'DEMINO_SKI',
+        russialoppet: true
     }
 ]

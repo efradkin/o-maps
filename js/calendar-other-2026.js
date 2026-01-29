@@ -140,7 +140,7 @@ let otherEvents2026 = [
     link: 'https://toksovocup.com/',
     type: 'SK_RACE',
     fmt: '50,25,10 skate,classic',
-    logo: 'toksovo_cup.gif',
+    start: 'TOKSOVO_CUP',
     track: 'ohtapark_ski',
     coords: [60.127481, 30.463336]
 },
@@ -153,7 +153,7 @@ let otherEvents2026 = [
     reg: 'https://reg.o-time.ru/race/26099',
     type: 'SK_RACE',
     fmt: '50 classic',
-    logo: 'garbolovo_ski.webp',
+    owner: 'GARBOLOVO',
     track: 'garbolovo_master_ski',
     coords: [60.338019, 30.500704]
 },

@@ -519,4 +519,44 @@ let owners = {
     KRSHNV: {
         name: '© Коршунов Евгений Владимирович (+7-911-456-88-41, korshunov_e.v@mail.ru)' // , https://korshunyata.ru/
     },
+    MINSPORT: {
+        name: '© Минспорт России',
+        logo: 'minsport.gif'
+    },
+    GARBOLOVO: {
+        name: '@ НАША ТРАССА в <a href="https://vk.com/sport_v_garbolovo">Гарболово</a>',
+        logo: 'garbolovo_ski.webp'
+    },
+    HERO_LEAGUE: {
+        name: '@ <a href="https://heroleague.ru/">Лига героев</a>',
+        logo: 'heroleague.webp'
+    },
+    KLLG: {
+        name: '@ <a href="https://kllg.ru/">Клуб Любителей Лыжных Гонок</a>',
+        logo: 'kllg.webp'
+    },
+    PUSHKIN: {
+        name: '@ <a href="https://cfkcs.ru/">ЦФКСЗ "Царское Село"</a>',
+        logo: 'tsarskoe_selo.gif'
+    },
+    GATCHINA: {
+        name: '@ <a href="https://gatchinasport.ru/">Гатчина</a>',
+        logo: 'gatchina.gif'
+    },
+    ALP_SPB: {
+        name: '@ <a href="https://www.fasl.ru/">Федерация альпинизма СПб</a>',
+        logo: 'alp_spb.webp'
+    },
+    KARELIA_SKI: {
+        name: '@ <a href="https://flgrk.orgs.biz/">Лыжные гонки Республики Карелия</a>',
+        logo: 'karelia_ski.webp'
+    },
+    DEMINO_SKI: {
+        name: '@ <a href="https://deminom.ru/">Деминские марафоны</a>',
+        logo: 'demino.gif'
+    },
+    MASS_SPORT: {
+        name: '@ <a href="https://mass-sport.ru/">Масс-спорт</a>',
+        logo: 'mass-sport.webp'
+    },
 }

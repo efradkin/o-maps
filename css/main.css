@@ -690,7 +690,17 @@ body.integration-body {
         }
         .my-cp {
             color: #FF671F;
-            font-size: 20px;
+            font-size: 24px;
+        }
+    }
+}
+.ski-bodi {
+    .o-main-table {
+        tr:nth-child(odd) {
+            background-color: lightgray !important;
+        }
+        .my-cp {
+            color: #0A7CFF !important;
         }
     }
 }

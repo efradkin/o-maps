@@ -44,6 +44,8 @@ const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-maps</a> 
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
+let calendarGroup = L.markerClusterGroup ? L.markerClusterGroup() : L.layerGroup([]);
+
 let runGroup = L.layerGroup([]);
 let walkGroup = L.layerGroup([]);
 let skiGroup = L.layerGroup([]);
@@ -81,9 +83,11 @@ if (mapElement) {
     });
 
     setActiveBackground();
-    activeLayers.push(
-        runGroup, walkGroup, skiGroup, veloGroup, waterGroup
-    );
+    const layers = [runGroup, walkGroup, skiGroup, veloGroup, waterGroup];
+    if (HAS_CALENDAR_PARAM) {
+        layers.push(calendarGroup);
+    }
+    activeLayers.push(...layers);
 }
 
 function buildOverlayMapsContents() {

@@ -213,9 +213,11 @@ function renderMapsTable() {
             td(evt, row, buildEventStart(evt));
             td(evt, row, buildPlace(evt));
             td(evt, row, buildEventType(evt, true));
-            td(evt, row, buildEventResults(evt));
-            td(evt, row, buildEventReports(evt, true));
-            td(evt, row, buildEventInfo(evt));
+            if (!onlyOneSport) {
+                td(evt, row, buildEventResults(evt));
+                td(evt, row, buildEventReports(evt, true));
+                td(evt, row, buildEventInfo(evt));
+            }
             tbody.appendChild(row);
 
             prevDate = currentDate;
@@ -229,7 +231,7 @@ function buildMonth() {
     if (prevDate) {
         let year = prevDate.getFullYear();
         let monthName = prevDate.toLocaleString('ru', {month: 'long'}).toUpperCase().split('').join(' ');
-        monthTD.innerHTML = `${monthName}&nbsp;&nbsp;&nbsp;${year}&nbsp;&nbsp;&nbsp;(ориенты: ${korients}, рогейны: ${krogaines}, прочие: ${kothers})`;
+        monthTD.innerHTML = `${monthName}&nbsp;&nbsp;&nbsp;${year}` + (onlyOneSport ? '' : `&nbsp;&nbsp;&nbsp;(ориенты: ${korients}, рогейны: ${krogaines}, прочие: ${kothers})`);
         korients = krogaines = kothers = 0;
     }
 }
@@ -245,32 +247,39 @@ function td(evt, row, html) {
 
 function buildNumber(event, i) {
     let icon = '';
-    if (event.type.includes('SK_RACE')) {
-        icon = '&nbsp;⛷';
-    } else     if (event.type.includes('RUN')) {
-        icon = '&nbsp;🏃';
-    } else if (event.type.includes('SKI')) {
-        icon = '&nbsp;❄';
-    } else if (event.type.includes('VELO')) {
-        icon = '&nbsp;🚲';
-    } else if (event.type.includes('WATER')) {
-        icon = '&nbsp;🚣';
+    if (!onlyOneSport) {
+        if (event.type.includes('SK_RACE')) {
+            icon = '&nbsp;⛷';
+        } else if (event.type.includes('RUN')) {
+            icon = '&nbsp;🏃';
+        } else if (event.type.includes('SKI')) {
+            icon = '&nbsp;❄';
+        } else if (event.type.includes('VELO')) {
+            icon = '&nbsp;🚲';
+        } else if (event.type.includes('WATER')) {
+            icon = '&nbsp;🚣';
+        }
     }
-    let checkbox =  '', myEvent = '';
+    let checkbox = '', myEvent = '';
     if (event.id) {
         if (myEdit) {
             const checked = myEvents.includes(event.id) ? ' checked' : '';
-            // console.log(event.id, checked)
             checkbox = `<input class="my-checkbox" type="checkbox" id="${event.id}" name="only-my" ${checked} onclick="saveMy();" />&nbsp;`;
         } else {
-            myEvent = myEvents.includes(event.id) ? '&nbsp;<span class="my-cp">◪</span>' : '';
+            const mySign = (onlyOneSport ? '⛷' : '◪');
+            myEvent = myEvents.includes(event.id) ? `&nbsp;<span class="my-cp">${mySign}</span>` : '';
         }
     }
     return `${checkbox}${i + 1}${icon}${myEvent}`;
 }
 
 function buildPlace(event) {
-    const mapPage = REGION_KEY === 'spb' ? 'spb.html' : 'moscow.html';
+    let mapPage ='spb.html';
+    if (REGION_KEY == 'msk') {
+        mapPage = 'moscow.html';
+    } else if (REGION_KEY == 'tracks') {
+        mapPage = 'tracks.html';
+    }
     if (event.map) {
         let maps = Array.isArray(event.map) ? [...event.map] : [event.map];
         let result = '';

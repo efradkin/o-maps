@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="js/ext/Leaflet.QgsMeasure/leaflet.draw.css"/>
     <link rel="stylesheet" href="js/ext/Leaflet.QgsMeasure/leaflet.qgsmeasure.css"/>
     <link rel="stylesheet" href="js/ext/leaflet.notifications/leaflet-notifications.min.css"/>
+    <link rel="stylesheet" href="js/ext/Leaflet.markercluster/MarkerCluster.css"/>
+    <link rel="stylesheet" href="js/ext/Leaflet.markercluster/MarkerCluster.Default.css"/>
     <link rel="stylesheet" href="css/main.css?v=1"/>
     <link rel="stylesheet" href="css/slideshow.css"/>
 
@@ -162,7 +164,10 @@
     <script src="js/ext/Leaflet.FileLayer/togeojson.js"></script>
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
+    <script src="js/ext/Leaflet.markercluster/leaflet.markercluster.js"></script>
     <script src="js/ext/GPX.js"></script>
+
+    <script src="js/calendar-ski-2026.js"></script>
 
     <script src="js/maps-rogaine.js"></script>
     <script src="js/maps-rogaine-beketov.js"></script>
@@ -197,6 +202,10 @@
             ...rogaineBeketovMaps,
             ...rogaineKkmMaps,
             ...rogaineMaps,
+        ];
+
+        const oEvents = [
+            ...skiEvents2026,
         ];
 
         // Массив с адресами картинок
