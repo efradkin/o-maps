@@ -409,4 +409,17 @@ let rogaineKkmMaps = [
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
+    {
+        name: 'Юго-Западная',
+        date: '2026-02',
+        about: 'https://vk.com/wall-227807023_411',
+        info: 'Февраль, фото-рогейн.',
+        url: './maps/rogaine/kkm/south_west_KKM_2026_02.webp',
+        link: ['https://psv4.userapi.com/s/v1/d2/3ovAd4OYzIRvidz28ELQ7--oelNfXdDgJH6k0KjzP8lPIfSTrxhsgmq2i_J_aVToK0W-2GrGRrqrHsiWTQm7H9mgkLaMkL8HMqAzX12oDujPHmJ1dPENXzDk7B40lnJlIO6gA3dtNTO-/KKM_02_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/eGGegOMnjGkMU1fXT5mJGRBVY_MaFia0I3bguM-EpvlTFRiyCcg_82csKcFGLWE2Ku54repvnN0-K6qfAjwWd9A_1GnKHW1rcu5ISQ5zUGB8PMr4kYhs0-Ci9lkjTn2_oFAtZudAFUYU/SETKA_2_2026.jpg?dl=1'],
+        bounds: [[59.87170869266283, 30.135283470153812], [59.871924100328755, 30.23042678833008], [59.841775006732156, 30.135240554809574]],
+        // gps: 'https://viewer.o-gps-center.ru/viewer/event/23987/',
+        start: ['VO_FOTO','KKM'],
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
 ];
