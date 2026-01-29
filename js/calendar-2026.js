@@ -284,6 +284,7 @@ let events2026 = [
     id: 'SPB_20260223_1',
     date: '2026-02-23',
     name: 'Снежная тропа',
+    link: 'https://o-site.spb.ru/race.php?id=260223_ST',
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'SFSO_SPB'
