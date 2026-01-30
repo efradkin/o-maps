@@ -750,6 +750,7 @@ let authors = {
     AFNSV_E: { name: 'Афанасьев Евгений' },
     BBCH_AL: { name: 'Бабич Александр' },
     BRTSHV: { name: 'Братушев М.' },
+    CHGLNTSV: { name: 'Чиглинцев Олег' },
     DKNV_A: { name: 'Дьяконов Александр' },
     DLMHMTV: { name: 'Дильмухаметов Р.' }, // Р.
     DVTKN_A: { name: 'Девяткин А.' }, // В.
@@ -760,8 +761,8 @@ let authors = {
     GRSHN_V: { name: 'Грушин В.' },
     ISHMHMDV: { name: 'Ишмухаметов Инсаф' }, // Б.
     ISKNDRV: { name: 'Искандаров Ф.' },
-    PRHRV_V: { name: 'Прохоров В.' },
-    PRHRVA_E: { name: 'Прохорова Е.' },
+    PRHRV_V: { name: 'Прохоров Владимир' },
+    PRHRVA_E: { name: 'Прохорова Елена' },
     RHMTLNA: { name: 'Рахматуллина С.' },
     SDKV: { name: 'Садаков В.' }, // М.
     SLDTV_S: { name: 'Солдатов С.' },
@@ -772,7 +773,7 @@ let authors = {
     YLMNV: { name: 'Юлманов В.' },
     YUSHV_A: { name: 'Яушев Азат' },
     ZHDNK_L: { name: 'Жданюк Л.' },
-    ZKHRV_V: { name: 'Захаров В.' },
+    ZKHRV_V: { name: 'Захаров Вадим' },
     ZRPV: { name: 'Зарипов Р.' },
     ZZV_E: { name: 'Зузов Егор' },
 
