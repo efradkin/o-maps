@@ -180,7 +180,8 @@ let events2026 = [
     link: 'https://t.me/whitenightesspb/868',
     type: 'ORIENT',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24150/',
-    owner: 'WN'
+    owner: 'WN',
+    map: 'sestroretsk_tamozhennaya_doroga_2021'
 },
 {
     id: 'SPB_20260131_1',
@@ -192,6 +193,7 @@ let events2026 = [
     reg: ['http://o-reg.spb.ru/?filter[day_id]=1712','http://o-reg.spb.ru/?filter[day_id]=1713'],
     type: 'SKI',
     fmt: 'лонг,эстафета',
+    map: 'orekhovo_nyrkovo_winter_2012',
     owner: 'SFSO_SPB'
 },
 {
@@ -203,7 +205,8 @@ let events2026 = [
     info: 'МЖ12 и старше',
     type: 'SKI',
     fmt: 'маркир',
-    owner: 'YUVENTA'
+    owner: 'YUVENTA',
+    map: 'kalischenskoe_oz_2021'
 },
 {
     id: 'SPB_20260203_1',
@@ -214,6 +217,7 @@ let events2026 = [
     info: 'МЖ10 и Фитнес',
     type: 'SKI',
     fmt: 'маркир',
+    map: 'sosnovij_bor_2021',
     owner: 'YUVENTA'
 },
 {
@@ -284,9 +288,12 @@ let events2026 = [
     id: 'SPB_20260223_1',
     date: '2026-02-23',
     name: 'Снежная тропа',
+    place: 'Удельный парк',
     link: 'https://o-site.spb.ru/race.php?id=260223_ST',
     type: 'ORIENT',
     fmt: 'спринт',
+    info: 'Квест в стиле средневекового фэнтези.',
+    map: 'udelny_2021',
     owner: 'SFSO_SPB'
 },
 {

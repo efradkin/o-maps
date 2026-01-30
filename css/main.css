@@ -694,10 +694,14 @@ body.integration-body {
         }
     }
 }
-.ski-bodi {
+body.ski-bodi {
+    background-color: #bff2f3;
     .o-main-table {
         tr:nth-child(odd) {
             background-color: lightgray !important;
+        }
+        .month-row {
+            background-color: #044E71;
         }
         .my-cp {
             color: #0A7CFF !important;

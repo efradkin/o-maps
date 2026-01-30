@@ -618,7 +618,8 @@ let skiEvents2026 = [
         place: 'Гатчина',
         type: 'SK_RACE',
         fmt: '50, 30, 10 свободный',
-        owner: 'GATCHINA'
+        owner: 'GATCHINA',
+        cancelled: true
     },
     {
         id: 'SKI_20260321_1',
