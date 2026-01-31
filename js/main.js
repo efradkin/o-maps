@@ -236,10 +236,6 @@ function buildTrackPopup(t, gpxLayer) {
     } else {
         result += t.name;
     }
-    let y = year(t);
-    if (y) {
-        result += ' ' + (t.date ? formatDate(t, true, false) : t.year) + ' ';
-    }
     if (gpxLayer.len > 0) {
         let len = gpxLayer._humanLen(gpxLayer.len);
         result += ' (' + len + ')';
@@ -250,8 +246,13 @@ function buildTrackPopup(t, gpxLayer) {
 
     // инфа о маршруте
     let info = '';
+    let y = year(t);
+    if (y) {
+        const date = t.date ? formatDate(t, true, false) : t.year;
+        info += `<b>${date}</b>. `;
+    }
     if (t.start) {
-        info += '<b>' + getMapStarts(t) + '</b> ';
+        info += `<b>${getMapStarts(t)}</b> `;
     }
     if (t.info) {
         info += t.info;
