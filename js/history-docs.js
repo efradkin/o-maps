@@ -33,6 +33,20 @@ let historyDocs = [
         link: './docs/1969/sov_sport_1969_article_omaps.jpg'
     },
     {
+        name: 'П-во ЦС СДСО Буревестник, маркир (Уфа, Тавтиманово)',
+        date: '1969-03-02',
+        link: './docs/1969/1969_03_02_ufa_tavtimanovo_omaps.pdf',
+        info: '2-4 марта.',
+        map: 'tavtimanovo_1969'
+    },
+    {
+        name: 'П-во ЦС СДСО Буревестник, эстафеты (Уфа, Юматово)',
+        date: '1969-03-04',
+        link: './docs/1969/1969_03_04_ufa_umatovo_omaps.pdf',
+        info: '2-4 марта.',
+        map: 'umatovo_1969_03_04'
+    },
+    {
         name: 'Матч городов-героев (Одесса, Бендеры)',
         date: '1969-04-12',
         link: './docs/1969/1969_04_12_odessa_omaps.pdf',
@@ -182,6 +196,13 @@ let historyDocs = [
         start: 'WN',
         partly: true,
         major: true
+    },
+    {
+        name: 'П-во ЦС СДСО Буревестник, маркир (Уфа, Юматово)',
+        date: '1977-03-14',
+        link: './docs/1977/1977_03_14_ufa_umatovo_omaps.pdf',
+        info: '13-15 марта.',
+        map: 'ufa_markir_1977_03_14'
     },
     {
         name: 'Многодневка на приз Пржевальского (Смоленск, Баклановский)',
