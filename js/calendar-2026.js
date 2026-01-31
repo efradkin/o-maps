@@ -194,6 +194,7 @@ let events2026 = [
     type: 'SKI',
     fmt: 'лонг,эстафета',
     map: 'orekhovo_nyrkovo_winter_2012',
+    planner: 'GRLNV',
     owner: 'SFSO_SPB'
 },
 {

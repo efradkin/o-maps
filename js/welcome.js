@@ -159,7 +159,7 @@ function openWelcomeIfRequired() {
 }
 
 function writeWelcomeButton() {
-    const BUTTON = '<a href="#" onclick="openWelcome(); return false" class="about-button stat-map-link-about-button" title="О проекте"><img src="images/information_24.png" ></a>';
+    const BUTTON = '<a href="#" onclick="openWelcome(); return false" class="about-button stat-map-link-about-button tbank" title="О проекте"><img src="images/information_24.png" ></a>';
     const template = document.createElement('template');
     template.innerHTML = BUTTON;
     document.body.prepend(template.content.firstChild);

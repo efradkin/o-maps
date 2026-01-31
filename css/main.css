@@ -442,7 +442,7 @@ label:has(> span span .layer-separator) {
 }
 */
 .tbank {
-    background-color: yellow;
+    background-color: yellow !important;
 }
 #noscript_content {
     border-radius: 30px;
