@@ -208,7 +208,7 @@ let skiTracks = [
             '10km':'tracks/ski/toksovo_cup_10_ski_omaps.gpx',
             'Full marathon 50km':'tracks/ski/toksovo_cup_50_ski_omaps.gpx'
         },
-        logo: 'toksovo_cup.gif',
+        start: 'TOKSOVO_CUP',
         pics: ['ski/ska',5],
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI']
@@ -260,6 +260,18 @@ let skiTracks = [
         gpx: 'tracks/ski/toksovo_malinova_gora_oselki_ski_omaps.gpx',
         pics: ['ski/malinovaya',2],
         ski_kind: 'CLASSIC_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Охта-парк, Toksovo Cup',
+        date: '2026-01-31',
+        results: 'https://reg.o-time.ru/race/26025',
+        link: 'https://vk.com/ohtapark',
+        gpx: 'tracks/ski/ohtapark_toksovo_cup_10_ski_2026_omaps.gpx',
+        markir: true,
+        pics: ['ski/ohtapark',7],
+        ski_kind: 'SKATE_ROUTE',
+        start: 'TOKSOVO_CUP',
         type: ['SKI']
     },
     {
