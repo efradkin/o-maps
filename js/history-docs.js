@@ -1662,6 +1662,12 @@ let historyDocs = [
         planner: 'BRDN_V'
     },
     {
+        name: 'ПУТЧ-99 (Песочный)',
+        date: '1999-08-22',
+        link: './docs/1999/1999_08_22_putch_omaps.pdf',
+        planner: 'MLNN_E'
+    },
+    {
         name: 'Невский Азимут (Орехово)',
         date: '2000-06-10',
         link: './docs/2000/2000_06_10_nevsky_azimut_omaps.pdf',
@@ -1678,6 +1684,29 @@ let historyDocs = [
         planner: ['FDRV_L','BRDR','SHKLV'],
         start: 'NA',
         map: ['na_2001_losevo_1','na_2001_losevo_3']
+    },
+    {
+        name: 'Мемориал Михаила Святкина (Пески)',
+        date: '2001-06-28',
+        link: './docs/2001/2001_06_28_svyatkina_omaps.pdf',
+        info: '28-30 июня.',
+        partly: true,
+        start: 'MMS',
+        map: ['peski_pulkonlampi_2001','peski_zabytoe_2001','peski_stayka_2001']
+    },
+    {
+        name: 'Яркий Мир (Петяярви)',
+        date: '2001-06-18',
+        link: './docs/2001/2001_06_18_ym_omaps.pdf',
+        info: '18-20 июня.',
+        start: 'YM',
+        map: ['ym_2001_06_18','ym_2001_06_19']
+    },
+    {
+        name: 'Зелёный змей (Токсово)',
+        date: '2001-08-26',
+        link: './docs/2001/2001_08_26_green_snake_omaps.pdf',
+        start: 'GS',
     },
     {
         name: 'Календарь "Субботнего марафона" клуба "Карта"',

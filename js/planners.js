@@ -55,6 +55,7 @@ let planners = {
     LVCHV: { name: 'Левичев Александр' },
     MDVDKN: { name: 'Медведкин Г' },
     MKHLV_V: { name: 'Михайлов В' },
+    MLNN_E: { name: 'Малинин Е' },
     MLVA_M: { name: 'Малова Мария' },
     MRSKY_S: { name: 'Мурский Сергей' },
     MSLVSKY: { name: 'Масловский Дмитрий' },
