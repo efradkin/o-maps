@@ -245,6 +245,16 @@ let historyDocs = [
         planner: 'KRCHNKO_S'
     },
     {
+        name: 'Новогодняя эстафета (Кузьмолово)',
+        date: '1979-01-14',
+        link: './docs/1979/1979_01_14_new_year_relay_omaps.pdf',
+    },
+    {
+        name: 'Новогодняя эстафета',
+        date: '1980-01-15',
+        link: './docs/1980/1980_01_18_new_year_relay_omaps.pdf',
+    },
+    {
         name: 'Программа',
         start: 'USSR_1981',
         year: 1981,

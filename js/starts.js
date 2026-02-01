@@ -95,7 +95,7 @@ let starts = {
     },
     RFAR: {
         short: 'RFAR',
-        name: '<a href="https://adventure-race.redfox.ru/">Redfox Adventure Race</a>',
+        name: '<a href="https://adventure-race.redfox.ru/">Red Fox Adventure Race</a>',
         logo: 'redfox.jpg',
         info: '<p>«Проверь себя на прочность!», - под таким девизом проходит крупнейшая российская приключенческая гонка Red Fox Adventure Race. ' +
             'Проводимая компанией Red Fox - ведущим российским производителем одежды и экипировки для экстремального спорта и активного отдыха - ' +
