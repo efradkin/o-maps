@@ -245,6 +245,17 @@ let historyDocs = [
         planner: 'KRCHNKO_S'
     },
     {
+        name: 'П-во Ленинграда среди к/ф, эстафета (Кавголово)',
+        date: '1979-03-08',
+        link: './docs/1979/1979_03_08_leningrad_kf_relay_omaps.pdf',
+        planner: 'DVRKO_V'
+    },
+    {
+        name: 'П-во Ленинграда, марафон (Сосново)',
+        date: '1979-03-10',
+        link: './docs/1979/1979_03_10_leningrad_marathon_omaps.pdf',
+    },
+    {
         name: 'Новогодняя эстафета (Кузьмолово)',
         date: '1979-01-14',
         link: './docs/1979/1979_01_14_new_year_relay_omaps.pdf',

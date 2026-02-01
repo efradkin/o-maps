@@ -19,6 +19,7 @@ let planners = {
     DRBSHV: { name: 'Дробышев Сергей' },
     DRZGLSKY: { name: 'Друзгальский И' },
     DSHKO: { name: 'Дешко Валерий' },
+    DVRKO_V: { name: 'Дворко Владимир' },
     EGRV_E: { name: 'Егоров Е' },
     ERMSHKN: { name: 'Ермошкин С' },
     FDRV_A: { name: 'Фёдоров А' },
