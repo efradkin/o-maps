@@ -42,53 +42,55 @@
     <h1>
         <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
 
-        <select class="header_selector" onchange="selectMapRegion(this.value, 'sheet')">
-            <option value="index">Начальная страница</option>
-            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="spb">Санкт-Петербург</option>
-            <option value="msk">Москва</option>
-            <option value="bash">Башкортостан</option>
-            <option value="srb">Белград</option>
-            <option value="rzn">Рязань</option>
-            <option value="smr">Самара</option>
-            <option value="all">Все регионы вместе</option>
-            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="docs">Исторические документы</option>
-            <option value="tracks" selected>Маршруты</option>
-            <option value="calendar">Календарь стартов</option>
-        </select>
+        <span style="white-space: nowrap;">
+            <select class="header_selector" onchange="selectMapRegion(this.value, 'sheet')">
+                <option value="index">Начальная страница</option>
+                <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+                <option value="spb">Санкт-Петербург</option>
+                <option value="msk">Москва</option>
+                <option value="bash">Башкортостан</option>
+                <option value="srb">Белград</option>
+                <option value="rzn">Рязань</option>
+                <option value="smr">Самара</option>
+                <option value="all">Все регионы вместе</option>
+                <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+                <option value="docs">Документы</option>
+                <option value="tracks" selected>Маршруты</option>
+                <option value="calendar">Календарь стартов</option>
+            </select>
 
-        <select id="track_type_selector" class="header_selector" onchange="selectTrackType(this.value)">
-            <option value="ALL">все типы</option>
-            <option value="WALK" class="WALK">Пешая ЭКО-тропа</option>
-            <option value="RUN" class="RUN">Бег</option>
-            <option value="SKI" class="SKI">Лыжи</option>
-            <option value="VELO" class="VELO">Вело</option>
-            <option value="WATER" class="WATER">Водный</option>
-        </select>
+            <select id="track_type_selector" class="header_selector" onchange="selectTrackType(this.value)">
+                <option value="ALL">все типы</option>
+                <option value="WALK" class="WALK">Пеший</option>
+                <option value="RUN" class="RUN">Бег</option>
+                <option value="SKI" class="SKI">Лыжи</option>
+                <option value="VELO" class="VELO">Вело</option>
+                <option value="WATER" class="WATER">Водный</option>
+            </select>
 
-        <select id="track_month_selector" class="header_selector" onchange="selectTrackMonth(this.value)">
-            <option value="0">все даты</option>
-            <option value="01">Январь</option>
-            <option value="02">Февраль</option>
-            <option value="03">Март</option>
-            <option value="04">Апрель</option>
-            <option value="05">Май</option>
-            <option value="06">Июнь</option>
-            <option value="07">Июль</option>
-            <option value="08">Август</option>
-            <option value="09">Сентябрь</option>
-            <option value="10">Октябрь</option>
-            <option value="11">Ноябрь</option>
-            <option value="12">Декабрь</option>
-        </select>
+            <select id="track_month_selector" class="header_selector" onchange="selectTrackMonth(this.value)">
+                <option value="0">все даты</option>
+                <option value="01">Январь</option>
+                <option value="02">Февраль</option>
+                <option value="03">Март</option>
+                <option value="04">Апрель</option>
+                <option value="05">Май</option>
+                <option value="06">Июнь</option>
+                <option value="07">Июль</option>
+                <option value="08">Август</option>
+                <option value="09">Сентябрь</option>
+                <option value="10">Октябрь</option>
+                <option value="11">Ноябрь</option>
+                <option value="12">Декабрь</option>
+            </select>
+        </span>
 
         <img id="sheet-spinner" src="images/walk-spinner.gif" alt="" />
     </h1>
-    <h2 class="text-center">Маршруты Санкт-Петербурга и окрестностей</h2>
+    <h2 class="text-center">Маршруты СПб и окрестностей</h2>
 
     <div class="o-sheet-roof" style="display: none">
-        <div>Всего маршрутов - <span id="total_routes"></span>, отдельных треков - <span id="total_tracks"></span>. Из них <span id="run_tracks" class="RUN"></span> беговых, <span id="velo_tracks" class="VELO"></span> вело, <span id="ski_tracks" class="SKI"></span> лыжных, <span id="walk_tracks" class="WALK"></span> пеших и <span id="water_tracks" class="WATER"></span> водных.</div>
+        <div>Всего - <span id="total_routes"></span> (<span id="run_tracks" class="RUN"></span> беговых, <span id="velo_tracks" class="VELO"></span> вело, <span id="ski_tracks" class="SKI"></span> лыжных, <span id="walk_tracks" class="WALK"></span> пеших и <span id="water_tracks" class="WATER"></span> водных).</div>
         <a href="#" onclick="downloadSheetTable('o-maps-tracks.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
     <div class="o-sheet-wrapper">
@@ -154,7 +156,6 @@
         let picCounter = 0;
 
         let totalRoutes = 0;
-        let totalTracks = 0;
         let wlkTracks = 0;
         let rTracks = 0;
         let vTracks = 0;
@@ -208,7 +209,6 @@
 
                 let kTracks = countEntries(t.gpx);
                 totalRoutes++;
-                totalTracks += kTracks;
                 if (t.type) {
                     if (t.type.includes('WALK')) {
                         wlkTracks += kTracks;
@@ -230,7 +230,6 @@
             document.body.style.cursor = 'default';
 
             document.getElementById('total_routes').innerText = totalRoutes;
-            document.getElementById('total_tracks').innerText = totalTracks;
             document.getElementById('run_tracks').innerText = rTracks;
             document.getElementById('walk_tracks').innerText = wlkTracks;
             document.getElementById('velo_tracks').innerText = vTracks;

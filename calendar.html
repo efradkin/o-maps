@@ -41,36 +41,37 @@
     <h4 style="float: right; margin-top: 1em;">На карте: </h4>
 
     <h1>
-         <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
+        <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
 
-        <select class="header_selector" onchange="selectMapRegion(this.value, 'sheet')">
-            <option value="index">Начальная страница</option>
-            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="spb">Санкт-Петербург</option>
-            <option value="msk">Москва</option>
-            <option value="bash">Башкортостан</option>
-            <option value="srb">Белград</option>
-            <option value="rzn">Рязань</option>
-            <option value="smr">Самара</option>
-            <option value="all">Все регионы вместе</option>
-            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="docs">Исторические документы</option>
-            <option value="tracks">Маршруты</option>
-            <option value="calendar" selected>Календарь стартов</option>
-        </select>
+        <span style="white-space: nowrap;">
+            <select class="header_selector" onchange="selectMapRegion(this.value, 'sheet')">
+                <option value="index">Начальная страница</option>
+                <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+                <option value="spb">Санкт-Петербург</option>
+                <option value="msk">Москва</option>
+                <option value="bash">Башкортостан</option>
+                <option value="srb">Белград</option>
+                <option value="rzn">Рязань</option>
+                <option value="smr">Самара</option>
+                <option value="all">Все регионы вместе</option>
+                <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+                <option value="docs">Документы</option>
+                <option value="tracks">Маршруты</option>
+                <option value="calendar" selected>Календарь стартов</option>
+            </select>
 
-        <select id="event_type_selector" class="header_selector" onchange="selectEventType(this.value)">
-            <option value="ALL">все старты</option>
-            <option value="ORIENT">Ориент</option>
-            <option value="ROGAINE">Рогейн итп</option>
-            <option value="SKI">Лыжи</option>
-            <option value="VELO">Вело</option>
-            <option value="OTHER">Прочее</option>
-            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="actual">Текущие</option>
-            <option value="future">Будущие</option>
-        </select>
-
+            <select id="event_type_selector" class="header_selector" onchange="selectEventType(this.value)">
+                <option value="ALL">все старты</option>
+                <option value="ORIENT">Ориент</option>
+                <option value="ROGAINE">Рогейн итп</option>
+                <option value="SKI">Лыжи</option>
+                <option value="VELO">Вело</option>
+                <option value="OTHER">Прочее</option>
+                <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+                <option value="actual">Текущие</option>
+                <option value="future">Будущие</option>
+            </select>
+        </span>
 <!--
         <label for="event_month_selector">Месяц:</label>
         <select id="event_month_selector" class="header_selector" onchange="selectEventMonth(this.value)">
@@ -91,7 +92,7 @@
 -->
     </h1>
     <h2>
-        Календарь стартов СПб
+        Календарь СПб
 
         <sup class="header_checkbox_container">
             <input type="checkbox" id="only-major" name="only-major" onclick="switchRus(this.checked);" />
