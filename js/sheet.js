@@ -69,7 +69,7 @@ window.onload = function() {
 // Фильтрация массива. Оставляем только карты, соответствующие критерию запроса (есди он задан).
 if (!isDocumentsPage() &&
     (MAP_NAME_PARAM || TYPE_PARAM || START_NAME_PARAM || OWNER_PARAM || AUTHOR_PARAM || PLANNER_PARAM ||
-        TRACK_NAME_PARAM || TRACK_TYPE_PARAM || TRACK_MONTH_PARAM || HAS_RETRO_PARAM || HAS_OCAD_PARAM)) {
+        TRACK_NAME_PARAM || TRACK_TYPE_PARAM || TRACK_MONTH_PARAM || HAS_RETRO_PARAM || HAS_OCAD_PARAM || HAS_RESTRICTED_PARAM)) {
     oMaps = oMaps.filter(m => (m.layer !== undefined));
 }
 
