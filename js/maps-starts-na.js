@@ -24,6 +24,7 @@ let naStartsMaps = [
         year: 2001,
         url: './maps/starts/na/na_2001_losevo_1.webp',
         link: ['./original_maps/starts/na/na_2001_losevo_1_omaps.jpg','./original_maps/forest/sosnovo/losevo_2005_10000_omaps.ocd'],
+        info: '<a href="./docs/2001/2001_06_10_nevsky_azimut_omaps.pdf">Результаты.</a>',
         bounds: [[60.693750112330534, 29.93358135223389], [60.68938054701066, 30.012373924255375], [60.66996241651063, 29.928731918334964]],
         author: ['RYLOV_V','VSLVSKY','BRDR','FDRV_L','DRBSHV','SHKLV']
     },
@@ -33,6 +34,7 @@ let naStartsMaps = [
         year: 2001,
         url: './maps/starts/na/na_2001_losevo_3.webp',
         link: ['./original_maps/starts/na/na_2001_losevo_3_omaps.jpg','./original_maps/starts/na/na_2000_losevo_3_omaps.jpg','./original_maps/forest/sosnovo/losevo_2005_omaps.ocd'],
+        info: '<a href="./docs/2001/2001_06_10_nevsky_azimut_omaps.pdf">Результаты.</a>',
         bounds: [[60.69515749014434, 29.892253875732422], [60.691502381234336, 29.95628356933594], [60.67174920579566, 29.88839149475098]],
         author: ['RYLOV_V','VSLVSKY','BRDR','FDRV_L','FDRV_A','SHKLV']
     },

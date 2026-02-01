@@ -507,7 +507,8 @@ let historyDocs = [
         date: '1988-06-02',
         link: './docs/1988/1988_06_02_nevsky_azimut_omaps.pdf',
         info: '2 и 3 июня.',
-        planner: 'VSLVSKY'
+        planner: 'VSLVSKY',
+        start: 'NA'
     },
     {
         name: 'Соревнования по эстафете с ориентированием (пл Морская)',
@@ -1377,6 +1378,7 @@ let historyDocs = [
         link: './docs/1991/1991_09_08_club_championship_omaps.pdf',
         map: 'garbolovo_1991',
         planner: 'KRZHNVSKY',
+        start: 'NA',
         me: 'H-A'
     },
     {
@@ -1660,6 +1662,24 @@ let historyDocs = [
         planner: 'BRDN_V'
     },
     {
+        name: 'Невский Азимут (Орехово)',
+        date: '2000-06-10',
+        link: './docs/2000/2000_06_10_nevsky_azimut_omaps.pdf',
+        info: '10-12 июня.',
+        partly: true,
+        start: 'NA'
+    },
+    {
+        name: 'Невский Азимут (Лосево)',
+        date: '2001-06-10',
+        link: './docs/2001/2001_06_10_nevsky_azimut_omaps.pdf',
+        info: '10-12 июня.',
+        partly: true,
+        planner: ['FDRV_L','BRDR','SHKLV'],
+        start: 'NA',
+        map: ['na_2001_losevo_1','na_2001_losevo_3']
+    },
+    {
         name: 'Календарь "Субботнего марафона" клуба "Карта"',
         year: 2003,
         info: '2003-2004гг',
@@ -1793,15 +1813,17 @@ let historyDocs = [
         planner: 'SHRNN'
     },
     {
-        name: 'Буклет-календарь от клуба KUZMOLOVO. Посвящается 45-летию Кузьмоловской школы спортивного ориентирования (КШСО) и 80-летию Ленинградского тренера Сергея Николаевича Крылова.',
+        name: 'Буклет-календарь от клуба KUZMOLOVO.',
         owner: 'KUZMOLOVO',
         year: 2020,
-        link: './docs/2020_kuzmolovo_kalendar_omaps.pdf'
+        link: './docs/2020_kuzmolovo_kalendar_omaps.pdf',
+        info: 'Посвящается 45-летию Кузьмоловской школы спортивного ориентирования (КШСО) и 80-летию Ленинградского тренера Сергея Николаевича Крылова.'
     },
     {
-        name: 'Буклет-календарь от клуба KUZMOLOVO. Посвящается 50-летию Кузьмоловской школы спортивного ориентирования (КШСО), 85-летию Ленинградского тренера Сергея Николаевича Крылова и 90-летию Кузьмоловского учителя физкультуры Николая Николаевича Бондика.',
+        name: 'Буклет-календарь от клуба KUZMOLOVO.',
         owner: 'KUZMOLOVO',
         year: 2025,
-        link: './docs/2025_kuzmolovo_kalendar_omaps.pdf'
+        link: './docs/2025_kuzmolovo_kalendar_omaps.pdf',
+        info: 'Посвящается 50-летию Кузьмоловской школы спортивного ориентирования (КШСО), 85-летию Ленинградского тренера Сергея Николаевича Крылова и 90-летию Кузьмоловского учителя физкультуры Николая Николаевича Бондика.'
     },
 ];

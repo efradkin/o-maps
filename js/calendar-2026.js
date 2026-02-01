@@ -191,6 +191,10 @@ let events2026 = [
     name: 'ЧиП СПб',
     link: 'https://o-site.spb.ru/race.php?id=260201_ChiP',
     reg: ['http://o-reg.spb.ru/?filter[day_id]=1712','http://o-reg.spb.ru/?filter[day_id]=1713'],
+    gps: {
+        'М17/45':'https://viewer.o-gps-center.ru/viewer/event/24178/',
+        'М55':'https://viewer.o-gps-center.ru/viewer/event/24179/'
+    },
     type: 'SKI',
     fmt: 'лонг,эстафета',
     map: 'orekhovo_nyrkovo_winter_2012',
