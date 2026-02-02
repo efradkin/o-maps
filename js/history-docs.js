@@ -189,7 +189,7 @@ let historyDocs = [
         planner: ['FDRV_A','SHRNN','GRZNVCH','SHRPV_V']
     },
     {
-        name: 'Многодневка "Белые Ночи" (Токсово)',
+        name: 'Белые Ночи (Токсово)',
         date: '1977-06-18',
         link: './docs/1977/1977_06_18_wn_omaps.pdf',
         info: '18-19 июня.',
@@ -809,7 +809,7 @@ let historyDocs = [
         planner: 'TNV_A'
     },
     {
-        name: 'Многодневка "Белые Ночи" (Снегирёвка)',
+        name: 'Белые Ночи (Снегирёвка)',
         date: '1989-06-23',
         info: '23-25 июня.',
         link: './docs/1989/1989_06_23_wn_omaps.pdf',
@@ -1477,7 +1477,7 @@ let historyDocs = [
         link: './docs/1992/1992_01_01_new_year_omaps.pdf',
     },
     {
-        name: 'Многодневка "Белые Ночи" (Сосново)',
+        name: 'Белые Ночи (Сосново)',
         date: '1992-06-26',
         start: 'WN',
         info: '26-28 июня.',
@@ -1595,7 +1595,7 @@ let historyDocs = [
         link: './docs/1996/1996_calendar_lo_omaps.pdf',
     },
     {
-        name: 'Многодневка "Белые Ночи" (Петяярви)',
+        name: 'Белые Ночи (Петяярви)',
         date: '1996-06-21',
         info: '21-23 июня.',
         map: 'petjajarvy_1995',
@@ -1662,10 +1662,45 @@ let historyDocs = [
         planner: 'BRDN_V'
     },
     {
+        name: 'Бро-бег (Кузьмолово)',
+        date: '1999-04-11',
+        link: './docs/1999/1999_04_11_brobeg_omaps.pdf'
+    },
+    {
+        name: 'Белые Ночи (Цвелодубово)',
+        date: '1999-06-18',
+        link: './docs/1999/1999_06_18_wn_omaps.pdf',
+        info: '18-20 июня.',
+        start: 'WN',
+        map: 'yappilya_1999'
+    },
+    {
+        name: 'Мемориал Михаила Святкина (Яппиля)',
+        date: '1999-06-26',
+        link: './docs/1999/1999_06_26_svyatkina_omaps.pdf',
+        info: '26-27 июня.',
+        partly: true,
+        start: 'MMS',
+        map: 'yappilya_1999'
+    },
+    {
+        name: 'Яркий Мир (Лемболово)',
+        date: '1999-07-02',
+        link: './docs/1999/1999_07_02_ym_omaps.pdf',
+        info: '2-4 июля.',
+        start: 'YM',
+        map: ['ym_2001_06_18','ym_2001_06_19']
+    },
+    {
         name: 'ПУТЧ-99 (Песочный)',
         date: '1999-08-22',
         link: './docs/1999/1999_08_22_putch_omaps.pdf',
         planner: 'MLNN_E'
+    },
+    {
+        name: 'Чемпионат СПб, марафон (Орехово)',
+        date: '1999-09-19',
+        link: './docs/1999/1999_09_19_spb_marathon_omaps.pdf',
     },
     {
         name: 'Невский Азимут (Орехово)',

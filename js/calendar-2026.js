@@ -243,7 +243,9 @@ let events2026 = [
     id: 'SPB_20260207_2',
     date: '2026-02-07',
     endDate: '2026-02-08',
-    name: 'Универсиада, Февральская лыжня',
+    name: 'Февральская лыжня',
+    o_site: '260208',
+    reg: ['http://o-reg.spb.ru/?filter[day_id]=1716','http://o-reg.spb.ru/?filter[day_id]=1717'],
     type: 'SKI',
     fmt: 'спринт, классика',
     owner: 'SFSO_SPB'
@@ -253,8 +255,11 @@ let events2026 = [
     date: '2026-02-08',
     name: 'Чемпионат ВУЗов СПБ',
     o_site: '260208_V',
+    reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1715',
     place: 'Орехово',
     type: 'SKI',
+    fmt: 'лично-командные',
+    owner: 'SFSO_SPB'
 },
 {
     id: 'SPB_20260214_1',

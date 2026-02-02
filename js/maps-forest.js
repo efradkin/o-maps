@@ -431,6 +431,7 @@ let forestMaps = [
         page: 'spb',
         url: './maps/forest/yappilya_1999.webp',
         link: ['./original_maps/forest/yappilya_1999_omaps.jpg','./original_maps/forest/yappilya_mms_1999_omaps.jpg'],
+        results: './docs/1999/1999_06_26_svyatkina_omaps.pdf',
         bounds: [[60.20214903505169, 29.16428089141846], [60.19801145030488, 29.23848152160645], [60.176163181510255, 29.15754318237305]],
         author: ['VLKV_K','URVNTSV','KRCHKN_V','FDRV_L'],
         areas: [35,35,20,10]
