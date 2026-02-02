@@ -393,7 +393,7 @@ let sosnovoMaps = [
         page: 'spb',
         url: './maps/forest/sosnovo/krivko_ulovnoe_1992.webp',
         link: ['./original_maps/forest/sosnovo/krivko_ulovnoe_1992_omaps.jpg','./original_maps/starts/wn/wn_19992_omaps.jpg','./original_maps/starts/wn/wn_19992_m21_omaps.jpg'],
-        info: '<a href="./docs/1992/1992_06_26_wn_omaps.pdf">Результаты</a>.',
+        results: './docs/1992/1992_06_26_wn_omaps.pdf',
         bounds: [[60.61582829627545, 30.21471977233887], [60.614017345690115, 30.26063919067383], [60.575753066539036, 30.2094841003418]],
         author: 'MLVA_M'
     },
@@ -440,7 +440,8 @@ let sosnovoMaps = [
         page: 'spb',
         url: './maps/forest/sosnovo/petjajarvy_1995.webp',
         link: ['./original_maps/forest/sosnovo/petjajarvy_1995_wn_omaps.jpg','./original_maps/starts/wn/wn_1996_06_21_omaps.jpg','./original_maps/starts/wn/wn_1996_06_23_omaps.jpg'],
-        info: '21-23 июня. <a href="./docs/1996/1996_06_21_wn_omaps.pdf">Результаты</a>.',
+        info: '21-23 июня.',
+        results: './docs/1996/1996_06_21_wn_omaps.pdf',
         bounds: [[60.63513176408995, 30.066618919372562], [60.62854420197844, 30.161118507385257], [60.60831008075406, 30.059537887573246]],
         author: ['LVCHV','SVTKN','KAZNTSVA_O']
     },

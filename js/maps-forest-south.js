@@ -498,7 +498,8 @@ let southMaps = [
         date: '2007-05-01',
         url: './maps/forest/south/luga_omelchenko_2006.webp',
         link: './original_maps/forest/south/luga_omelchenko_2006_omaps.jpg',
-        info: '<a href="https://o-site.spb.ru/race.php?id=070429_lo">ЧиП ЛО</a>',
+        info: 'ЧиП ЛО.',
+        o_site: '070429_lo',
         bounds: [[58.799494165803985, 29.87066745758057], [58.798071312216926, 29.886546134948734], [58.78806522556854, 29.868006706237797]],
         author: 'BYMKV'
     },

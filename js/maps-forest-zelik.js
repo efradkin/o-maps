@@ -125,7 +125,8 @@ let zelikMaps = [
     {
         name: 'Песочная',
         date: '1986-05-10',
-        info: 'Приз Ленинградского телевидения. <a href="./docs/1986/1986_05_10_tv_omaps.pdf">Результаты</a>.',
+        info: 'Приз Ленинградского телевидения.',
+        results: './docs/1986/1986_05_10_tv_omaps.pdf',
         url: './maps/forest/zelik/pesochnaya_1986.webp',
         link: './original_maps/forest/zelik/pesochnaya_1986_omaps.jpg',
         bounds: [[60.122184363898974, 30.110778808593754], [60.11743802435264, 30.17480850219727], [60.10691667063196, 30.10614395141602]],
@@ -145,7 +146,8 @@ let zelikMaps = [
     {
         name: 'Солнечное, Дюны',
         date: '2007-09-16',
-        info: '<a href="https://o-site.spb.ru/race.php?id=070916">ЧиП СПб, марафон</a>',
+        info: 'ЧиП СПб, марафон',
+        o_site: '070916',
         url: './maps/forest/zelik/solnechnoe-djuny_2007.webp',
         link: ['./original_maps/forest/zelik/solnechnoe-djuny_2007_1_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_2_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_3_omaps.gif'],
         bounds: [[60.148063386777785, 29.929761886596683], [60.14502990577005, 29.97053146362305], [60.130435379117884, 29.924783706665043]],
@@ -475,7 +477,8 @@ let zelikMaps = [
     {
         name: 'Ильичёво - Симагино',
         date: '2015-09-06',
-        info: '<a href="https://o-site.spb.ru/race.php?id=150906">ЧиП СПб, марафон</a>',
+        info: 'ЧиП СПб, марафон',
+        o_site: '150906',
         url: './maps/forest/zelik/ilychevo-simagino_2015.webp',
         link: ['./original_maps/forest/zelik/ilychevo_simagino_2015_omaps.jpg','./original_maps/forest/zelik/ilychevo_simagino_2015_marathon_omaps.jpg'],
         gps: {
@@ -492,7 +495,8 @@ let zelikMaps = [
         url: './maps/forest/zelik/bolotnaya_station_2025.webp',
         link: './original_maps/forest/zelik/bolotnaya_station_2025_omaps.gif',
         bounds: [[60.263767074689504, 29.796123504638675], [60.25904116408923, 29.84672069549561], [60.24660578014152, 29.789900779724125]],
-        info: '<a href="https://o-site.spb.ru/race.php?id=251007_NS">Невский спринт</a>.',
+        info: 'Невский спринт.',
+        o_site: '251007_NS',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23575/',
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB',

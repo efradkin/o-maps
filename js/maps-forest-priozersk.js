@@ -217,7 +217,7 @@ let priozerskMaps = [
         start: 'KZNTSVA',
         page: 'spb',
         date: '2013-08-24',
-        info: '<a href="https://o-site.spb.ru/race.php?id=13082425">Инфо и результаты</a>.',
+        o_site: '13082425',
         url: './maps/starts/psk/psk_2013_08_24.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_travkino_2013_08_24_omaps.gif',
         bounds: [[61.15230574802124, 29.81273174285889], [61.14934466220918, 29.849853515625], [61.13946546490655, 29.807109832763675]],

@@ -719,7 +719,8 @@ let toksovoMaps = [
         date: '1969-06-28',
         url: './maps/forest/toksovo/sirkojarvi_1969.webp',
         link: './original_maps/forest/toksovo/sirkojarvi_1969_omaps.jpg',
-        info: '10 лет спортивного ориентирования в Ленинграде. 28-29 июня. <a href="./docs/1969/1969_06_21_garbolovo_10_years_omaps.pdf">Результаты</a>.',
+        info: '10 лет спортивного ориентирования в Ленинграде. 28-29 июня.',
+        results: './docs/1969/1969_06_21_garbolovo_10_years_omaps.pdf',
         bounds: [[60.38841601607084, 30.513668060302738], [60.38981553111232, 30.599670410156254], [60.34207085274035, 30.518474578857425]],
     },
     {

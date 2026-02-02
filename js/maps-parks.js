@@ -473,7 +473,8 @@ let parkMaps = [
     {
         name: 'Александрино, север',
         year: 2025,
-        info: '<a href="https://o-site.spb.ru/race.php?id=250531_RA">Российский азимут</a>',
+        info: 'Российский азимут.',
+        o_site: '250531_RA',
         url: './maps/parks/aleksandrino_north_2025.webp',
         link: './original_maps/parks/aleksandrino_north_2025_omaps.gif',
         bounds: [[59.84873823113685, 30.21570682525635], [59.84690594488651, 30.23310899734497], [59.83649233247449, 30.210664272308353]],

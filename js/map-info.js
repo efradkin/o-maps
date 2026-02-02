@@ -11,10 +11,17 @@ if (elName) {
 if (m.start && starts[m.start] && ('REPORT' !== m.start && 'OTHER' !== m.start)) {
     document.getElementById('map_start').innerHTML = starts[m.start].name;
 }
-if (m.info) {
+let info = m.info;
+if (info) {
     let el = document.getElementById('map_info');
     if (el) {
-        el.innerHTML = m.info;
+        if (m.results) {
+            info += ` <a href="${m.results}">Результаты</a>.`;
+        }
+        if (m.o_site) {
+            info += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;
+        }
+        el.innerHTML = info;
     }
 }
 

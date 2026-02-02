@@ -5,7 +5,8 @@ let bashMaps = [
         date: '1969-03-02',
         url: './maps/bash/tavtimanovo_1969.webp',
         link: './original_maps/bash/tavtimanovo_1969_omaps.jpg',
-        info: 'П-во ЦС СДСО Буревестник, маркир. <a href="./docs/1969/1969_03_02_ufa_tavtimanovo_omaps.pdf">Результаты</a>.',
+        info: 'П-во ЦС СДСО Буревестник, маркир.',
+        results: './docs/1969/1969_03_02_ufa_tavtimanovo_omaps.pdf',
         bounds: [[54.8772979928709, 56.603450775146484], [54.87068040681515, 56.65718078613282], [54.84958577645536, 56.58757209777832]],
     },
     {
@@ -13,7 +14,8 @@ let bashMaps = [
         date: '1977-03-14',
         url: './maps/bash/ufa_markir_1977_03_14.webp',
         link: './original_maps/bash/ufa_markir_1977_03_14_omaps.jpg',
-        info: 'П-во ЦС СДСО Буревестник, маркир. <a href="./docs/1977/1977_03_14_ufa_umatovo_omaps.pdf">Результаты</a>.',
+        info: 'П-во ЦС СДСО Буревестник, маркир.',
+        results: './docs/1977/1977_03_14_ufa_umatovo_omaps.pdf',
         bounds: [[54.811073228251814, 55.9695053100586], [54.80600305239223, 56.02439403533936], [54.77116240658752, 55.957403182983406]],
     },
     {
@@ -254,7 +256,8 @@ let bashMaps = [
         info: 'П-во ЦС СДСО Буревестник.',
         url: './maps/bash/umatovo_1969_03_04.webp',
         link: './original_maps/bash/umatovo_1969_03_04_omaps.jpg',
-        info: 'П-во ЦС СДСО Буревестник, эстафеты. <a href="./docs/1969/1969_03_04_ufa_umatovo_omaps.pdf">Результаты</a>.',
+        info: 'П-во ЦС СДСО Буревестник, эстафеты.',
+        results: './docs/1969/1969_03_04_ufa_umatovo_omaps.pdf',
         bounds: [[54.65794628989235, 55.63725471496583], [54.651243078944766, 55.69707870483399], [54.6213382623344, 55.61090469360352]],
     },
     {

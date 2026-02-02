@@ -3,6 +3,8 @@
 const DAY_TIME_RANGE = 1000 * 60 * 60 * 24;
 const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 
+const O_SITE_ADDRESS_PREFIX = 'https://o-site.spb.ru/race.php?id=';
+
 const regions = {
     CHTA: 'Чита',
     DV: 'Дальний Восток',
@@ -934,6 +936,8 @@ function buildEventStart(event, withoutLogo) {
 
     if (event.link) {
         result += buildLink(event.link, event.name);
+    } else if (event.o_site) {
+        result += buildLink(O_SITE_ADDRESS_PREFIX + event.o_site, event.name);
     } else {
         if (event.start && starts[event.start].link) {
             result += buildLink(starts[event.start].link, event.name);

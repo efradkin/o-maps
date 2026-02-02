@@ -283,6 +283,12 @@ function buildInfo(m) {
         if (m.info) {
             result += m.info;
         }
+        if (m.results) {
+            result += ` <a href="${m.results}">Результаты</a>.`;
+        }
+        if (m.o_site) {
+            result += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;
+        }
     }
     if (isDocumentsPage()) {
         // планировщики
