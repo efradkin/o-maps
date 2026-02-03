@@ -152,8 +152,7 @@ let historyDocs = [
         info: 'Первые  массовые соревнования "Белые Ночи".',
         link: './docs/1971/1971_06_12_wn_omaps.pdf',
         start: 'WN',
-        map: 'roschino_1971_wn',
-        major: true
+        map: 'roschino_1971_wn'
     },
     {
         name: 'Матч Болгария - СССР (Псков)',
@@ -194,8 +193,7 @@ let historyDocs = [
         link: './docs/1977/1977_06_18_wn_omaps.pdf',
         info: '18-19 июня.',
         start: 'WN',
-        partly: true,
-        major: true
+        partly: true
     },
     {
         name: 'П-во ЦС СДСО Буревестник, маркир (Уфа, Юматово)',
@@ -313,6 +311,32 @@ let historyDocs = [
         link: './docs/1985/1985_04_07_brobeg_omaps.pdf'
     },
     {
+        name: 'Белые Ночи (Будогощь)',
+        date: '1984-06-17',
+        link: './docs/1984/1984_06_17_wn_omaps.pdf',
+        info: '17-19 июня.',
+        start: 'WN',
+        partly: true,
+    },
+    {
+        name: 'XXVI Чемпионат Ленинграда (Петяярви)',
+        date: '1984-08-25',
+        link: './docs/1984/1984_08_25_leningrad_omaps.pdf',
+        planner: ['LVCHV','SVTKN']
+    },
+    {
+        name: 'XXVI Чемпионат Ленинграда, эстафета (Петяярви)',
+        date: '1984-08-26',
+        link: './docs/1984/1984_08_26_leningrad_relay_omaps.pdf',
+        planner: ['LVCHV','SVTKN']
+    },
+    {
+        name: 'XXVI Чемпионат Ленинграда, удлинённая дистанция (Токсово)',
+        date: '1984-09-02',
+        link: './docs/1984/1984_09_02_leningrad_long_omaps.pdf',
+        planner: 'SHRNN'
+    },
+    {
         name: 'Открытие сезона ЛГС ДСО "Спартак"',
         date: '1985-04-21',
         info: '21, 27 апреля. Отчёт и протоколы результатов.',
@@ -327,6 +351,15 @@ let historyDocs = [
         link: './docs/1985/1985_05_10_tv_omaps.pdf',
         planner: 'KAZNTSV_S',
         me: 'М-10'
+    },
+    {
+        name: 'Белые Ночи (Петяярви)',
+        date: '1985-06-21',
+        link: './docs/1985/1985_06_21_wn_omaps.pdf',
+        info: '21-23 июня.',
+        start: 'WN',
+        partly: true,
+        me: 'М-13'
     },
     {
         name: 'Буклет карт для спортивного ориентирования (Горький)',
@@ -346,6 +379,14 @@ let historyDocs = [
         map: 'pesochnaya_1986',
         planner: 'VSLVSKY',
         me: 'М-10'
+    },
+    {
+        name: 'Чемпионат СССР (Казахская ССР, Карагандинская обл)',
+        date: '1986-09-09',
+        link: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
+        map: 'karkaralinsk_1986',
+        info: '9-11 сентября. Выписка из результатов.',
+        major: true
     },
     {
         name: 'Бро-бег (Кузьмолово)',
@@ -814,8 +855,7 @@ let historyDocs = [
         info: '23-25 июня.',
         link: './docs/1989/1989_06_23_wn_omaps.pdf',
         start: 'WN',
-        me: 'М-15',
-        major: true
+        me: 'М-15'
     },
     {
         name: 'Ориентир-7 (Лемболово)',
@@ -1482,8 +1522,7 @@ let historyDocs = [
         start: 'WN',
         info: '26-28 июня.',
         link: './docs/1992/1992_06_26_wn_omaps.pdf',
-        me: 'H17',
-        major: true
+        me: 'H17'
     },
     {
         name: 'Зимняя Универсиада ВУЗов СПб (Токсово)',
@@ -1600,8 +1639,7 @@ let historyDocs = [
         info: '21-23 июня.',
         map: 'petjajarvy_1995',
         link: './docs/1996/1996_06_21_wn_omaps.pdf',
-        start: 'WN',
-        major: true
+        start: 'WN'
     },
     {
         name: 'ЧиП СПб, удлинённая дистанция (Ильичёво)',
@@ -1667,6 +1705,14 @@ let historyDocs = [
         link: './docs/1999/1999_04_11_brobeg_omaps.pdf'
     },
     {
+        name: 'Невский Азимут (Орехово)',
+        date: '1999-06-12',
+        link: './docs/1999/1999_06_12_nevsky_azimut_omaps.pdf',
+        info: '12-14 июня.',
+        partly: true,
+        start: 'NA'
+    },
+    {
         name: 'Белые Ночи (Цвелодубово)',
         date: '1999-06-18',
         link: './docs/1999/1999_06_18_wn_omaps.pdf',
@@ -1696,6 +1742,12 @@ let historyDocs = [
         date: '1999-08-22',
         link: './docs/1999/1999_08_22_putch_omaps.pdf',
         planner: 'MLNN_E'
+    },
+    {
+        name: 'Зелёный змей (Лемболово)',
+        date: '1999-08-28',
+        link: './docs/1999/1999_08_28_green_snake_omaps.pdf',
+        start: 'GS'
     },
     {
         name: 'Чемпионат СПб, марафон (Орехово)',

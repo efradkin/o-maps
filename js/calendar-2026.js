@@ -264,11 +264,25 @@ let events2026 = [
 {
     id: 'SPB_20260214_1',
     date: '2026-02-14',
-    endDate: '2026-02-15',
-    name: 'ЧиП СПб, Зимние старты в Зеркальном',
+    name: 'ЧиП СПб',
     place: 'Зеркальный',
+    o_site: '260214',
+    reg: 'http://o-reg.spb.ru/?filter[day_id]=1718',
     type: 'SKI',
-    fmt: 'лонг, спринт',
+    fmt: 'спринт',
+    map: 'zerkalny_2002',
+    owner: 'SFSO_SPB'
+},
+{
+    id: 'SPB_20260215_1',
+    date: '2026-02-15',
+    endDate: '2026-02-17',
+    name: 'Зимние старты в Зеркальном',
+    place: 'Зеркальный',
+    o_site: '260217',
+    reg: ['http://o-reg.spb.ru/?filter[day_id]=1719','http://o-reg.spb.ru/?filter[day_id]=1720'],
+    type: 'SKI',
+    fmt: 'классика, спринт',
     map: 'zerkalny_2002',
     owner: 'SFSO_SPB'
 },
@@ -337,8 +351,10 @@ let events2026 = [
     id: 'SPB_20260308_1',
     date: '2026-03-08',
     name: 'Снежная тропа',
+    place: 'Пулковский парк',
     type: 'ORIENT',
     fmt: 'спринт',
+    map: 'pulkovsky_2024',
     owner: 'SFSO_SPB'
 },
 {

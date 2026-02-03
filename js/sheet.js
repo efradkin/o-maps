@@ -332,7 +332,7 @@ function buildInfo(m) {
                 }
                 result += ` Карты: ${maps}.`;
             } else {
-                result += ` Карту можно найти <a href="map-info.html?map=${map}">тут</a>.`;
+                result += ` Карту можно посмотреть <a href="map-info.html?map=${map}">тут</a>.`;
             }
         }
     }
