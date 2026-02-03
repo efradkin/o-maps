@@ -645,7 +645,7 @@ body.integration-body {
         }
         td, th {
             text-align: left;
-            padding: 7px;
+            padding: 15px;
             font-size: 14px;
         }
         td {
@@ -706,6 +706,35 @@ body.ski-bodi {
         .my-cp {
             color: #0A7CFF !important;
         }
+    }
+}
+
+.expandable-text {
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    .text-full {
+        display: block;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: all 0.4s ease-in-out;
+    }
+    .text-full.expanded {
+        max-height: 1000px;
+        opacity: 1;
+        margin-top: 5px;
+    }
+    .text-short {
+        display: inline;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+    }
+    .text-short.hidden {
+        opacity: 0;
+        display: none;
+    }
+    .toggle-button:hover {
+        cursor: pointer;
     }
 }
 

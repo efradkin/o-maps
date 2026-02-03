@@ -152,7 +152,8 @@ let historyDocs = [
         info: 'Первые  массовые соревнования "Белые Ночи".',
         link: './docs/1971/1971_06_12_wn_omaps.pdf',
         start: 'WN',
-        map: 'roschino_1971_wn'
+        map: 'roschino_1971_wn',
+        major: true
     },
     {
         name: 'Матч Болгария - СССР (Псков)',

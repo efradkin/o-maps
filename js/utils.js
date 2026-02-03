@@ -1102,12 +1102,31 @@ function buildEventType(evt, withFmt) {
         }
     }
     if (withFmt && evt.fmt) {
+        result += '<small>';
         if (!onlyOneSport) {
-            result += '<br/>'
+            result += '<br/>' + evt.fmt;
+        } else {
+            result += buildSkiFormat(evt.fmt);
         }
-        result += '<small>' + evt.fmt + '</small>'
+        result += '</small>';
     }
     return result;
+}
+
+const EXPANDABLE_TEMPLATE = `
+        <div class="expandable-text">
+            <span class="text-short">short_text... <span class="toggle-button" onclick="toggleLongText(this)" title="Раскрыть">▶</span></span>
+            <div class="text-full">long_text <span class="toggle-button" onclick="toggleLongText(this)" title="Закрыть">◀</span></div>
+        </div>
+    `;
+
+function buildSkiFormat(fmt) {
+    if (fmt.includes('<br/>')) {
+        const shortText = fmt.substring(0, fmt.indexOf('<br/>'));
+        return  EXPANDABLE_TEMPLATE.replace('short_text', shortText).replace('long_text', fmt);
+    } else {
+        return fmt;
+    }
 }
 
 function buildPlanners(m) {
@@ -1133,4 +1152,24 @@ function buildPlanners(m) {
         }
     }
     return result;
+}
+
+function toggleLongText(button) {
+    const block = button.closest('.expandable-text');
+    const shortSpan = block.querySelector('.text-short');
+    const fullText = block.querySelector('.text-full');
+
+    if (fullText.classList.contains('expanded')) {
+        fullText.classList.remove('expanded');
+
+        setTimeout(() => {
+            shortSpan.classList.remove('hidden');
+        }, 300); // should be the same as animation length
+
+    } else {
+        shortSpan.classList.add('hidden');
+        setTimeout(() => {
+            fullText.classList.add('expanded');
+        }, 10); // small timeout to run animation
+    }
 }
