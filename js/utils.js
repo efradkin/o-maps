@@ -915,44 +915,71 @@ function buildEventDate(evt) {
     return result;
 }
 
-function buildEventStart(event, withoutLogo) {
+function logoList(m) { // for map, event or track
+    let logo = [];
+    if (m.logo) {
+        logo.push(m.logo);
+    }
+    if (!isNull(starts) && m.start) {
+        if (Array.isArray(m.start)) {
+            for (const s of m.start) {
+                if (starts[s] && starts[s].logo) {
+                    logo.push(starts[s].logo);
+                }
+            }
+        } else {
+            if (starts[m.start] && starts[m.start].logo) {
+                logo.push(starts[m.start].logo);
+            }
+        }
+    }
+    if (m.owner && owners[m.owner] && owners[m.owner].logo) {
+        logo.push(owners[m.owner].logo);
+    }
+    if (m.author && authors[m.author] && authors[m.author].logo) {
+        logo.push(authors[m.author].logo);
+    }
+    if (m.owner && Array.isArray(m.owner) && owners[m.owner[0]] && owners[m.owner[0]].logo) { // only the first one
+        logo.push(owners[m.owner[0]].logo);
+    }
+    if (m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) { // only the first one
+        logo.push(authors[m.author[0]].logo);
+    }
+    return logo;
+}
+
+function buildEventStart(evt, withoutLogo) {
     let result = '';
 
-    if (!withoutLogo && event.russialoppet) {
+    if (!withoutLogo && evt.russialoppet) {
         result += '<img src="./logo/russialoppet.gif" alt="" class="sheet-icon" /> ';
     }
 
-    let logo;
-    if (event.logo) {
-        logo = event.logo;
-    } else if (event.start && starts[event.start].logo) {
-        logo = starts[event.start].logo;
-    } else if (event.owner && owners[event.owner].logo) {
-        logo = owners[event.owner].logo;
-    }
+    const logos = logoList(evt);
+    let logo = (logos.length > 0 ? logos[0] : null);
     if (!withoutLogo && logo) {
         result += '<img src="./logo/' + logo + '" alt="" class="sheet-icon" /> ';
     }
 
-    if (event.link) {
-        result += buildLink(event.link, event.name);
-    } else if (event.o_site) {
-        result += buildLink(O_SITE_ADDRESS_PREFIX + event.o_site, event.name);
+    if (evt.link) {
+        result += buildLink(evt.link, evt.name);
+    } else if (evt.o_site) {
+        result += buildLink(O_SITE_ADDRESS_PREFIX + evt.o_site, evt.name);
     } else {
-        if (event.start && starts[event.start].link) {
-            result += buildLink(starts[event.start].link, event.name);
+        if (evt.start && starts[evt.start].link) {
+            result += buildLink(starts[evt.start].link, evt.name);
         } else {
-            result += event.name;
+            result += evt.name;
         }
     }
-    if (event.reg) {
-        result += ', <span title="Регистрация">' + buildEventReg(event) + '</span>';
+    if (evt.reg) {
+        result += ', <span title="Регистрация">' + buildEventReg(evt) + '</span>';
     }
-    let me = event.me;
-    if (!me && event.map) {
-        let maps = Array.isArray(event.map) ? [...event.map] : [event.map];
+    let me = evt.me;
+    if (!me && evt.map) {
+        let maps = Array.isArray(evt.map) ? [...evt.map] : [evt.map];
         for (const m of maps) {
-            let map = getMapForName(event.map);
+            let map = getMapForName(evt.map);
             if (map && map.me) {
                 me = map.me;
                 break;
@@ -965,17 +992,17 @@ function buildEventStart(event, withoutLogo) {
     return result;
 }
 
-function buildEventReg(event) {
+function buildEventReg(evt) {
     let reg = '';
-    if (Array.isArray(event.reg)) {
-        for (const r of event.reg) {
+    if (Array.isArray(evt.reg)) {
+        for (const r of evt.reg) {
             if (reg) {
                 reg += ', ';
             }
             reg += buildOneEventReg(r) + ' ';
         }
     } else {
-        reg = buildOneEventReg(event.reg);
+        reg = buildOneEventReg(evt.reg);
     }
     return reg;
 }

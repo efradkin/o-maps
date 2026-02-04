@@ -133,6 +133,7 @@
     <script src="js/utils.js"></script>
     <script src="js/welcome.js"></script>
     <script src="js/starts.js"></script>
+    <script src="js/owners.js"></script>
     <script src="js/tracks-run.js"></script>
     <script src="js/tracks-ski.js"></script>
     <script src="js/tracks.js"></script>
@@ -248,6 +249,10 @@
 
         function buildName(t) {
             let result = '';
+            const logos = logoList(t);
+            if (logos.length > 0) {
+                result += '<img src="./logo/' + logos[0] + '" alt="" class="sheet-icon" />&nbsp;&nbsp;';
+            }
             result += '<b><a href="' + trackLink(getFirstTrack(t), true) + '">' + t.name + '<a/></b>';
             return result;
         }

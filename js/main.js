@@ -216,12 +216,13 @@ function buildTrackPopup(t, gpxLayer) {
 
     // картинка
     let pic;
+    const logos = logoList(t);
     if (t.logo) {
         pic = './logo/' + t.logo;
     } else if (t.pic) {
         pic = t.pic;
-    } else if (t.start && starts[t.start].logo) {
-        pic = './logo/' + starts[t.start].logo;
+    } else if (logos.length > 0) {
+        pic = './logo/' + logos[0];
     } else if (t.pics) {
         pic = './tracks/' + t.pics[0] + '/pic_1.jpg';
     } else {
@@ -1146,39 +1147,6 @@ function mapTitle(m, forStart, colored) {
     return result;
 }
 
-function mapLogoList(m) {
-    let logo = [];
-    if (m.logo) {
-        logo.push(m.logo);
-    }
-    if (!isNull(starts) && m.start) {
-        if (Array.isArray(m.start)) {
-            for (const s of m.start) {
-                if (starts[s] && starts[s].logo) {
-                    logo.push(starts[s].logo);
-                }
-            }
-        } else {
-            if (starts[m.start] && starts[m.start].logo) {
-                logo.push(starts[m.start].logo);
-            }
-        }
-    }
-    if (m.owner && owners[m.owner] && owners[m.owner].logo) {
-        logo.push(owners[m.owner].logo);
-    }
-    if (m.author && authors[m.author] && authors[m.author].logo) {
-        logo.push(authors[m.author].logo);
-    }
-    if (m.owner && Array.isArray(m.owner) && owners[m.owner[0]] && owners[m.owner[0]].logo) { // only the first one
-        logo.push(owners[m.owner[0]].logo);
-    }
-    if (m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) { // only the first one
-        logo.push(authors[m.author[0]].logo);
-    }
-    return logo;
-}
-
 function buildMapPopup(m) {
 
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
@@ -1188,7 +1156,7 @@ function buildMapPopup(m) {
     }
 
     // иконка
-    let logo = mapLogoList(m);
+    let logo = logoList(m);
     logo.forEach((value, idx, arr) => {
         arr[idx] = 'logo/' + arr[idx];
     });
@@ -1344,7 +1312,7 @@ function buildEventPopup(evt, m) {
     }
 
     // логотип
-    let logo = mapLogoList(evt);
+    let logo = logoList(evt);
     logo.forEach((value, idx, arr) => {
         arr[idx] = 'logo/' + arr[idx];
     });

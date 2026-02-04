@@ -167,11 +167,10 @@ function buildNumber(m, i) {
 
 function buildName(m) {
     let result = '';
-    let logo = m.logo;
-    if (m.logo) {
-        logo = m.logo;
-    } else if (m.owner && owners[m.owner] && owners[m.owner].logo) {
-        logo = owners[m.owner].logo;
+    let logo;
+    const logos = logoList(m);
+    if (logos.length > 0) {
+        logo = logos[0];
     }
     if (logo) {
         result += '<img src="./logo/' + logo + '" alt="" class="sheet-icon" /> ';
@@ -257,9 +256,6 @@ function buildStart(m) {
 function oneStart(s) {
     let result = '', start = starts[s];
     if (start) {
-        if (start.logo) {
-            result += '<img src="./logo/' + start.logo + '" alt="" class="sheet-icon" />&nbsp;';
-        }
         result += start.name;
     }
     return result;

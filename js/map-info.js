@@ -65,7 +65,7 @@ if (m.docs) {
 putValue('#map_gps', buildGpsLinks(m));
 putValue('#map_author', buildAuthors(m));
 putValue('#map_owner', buildOwners(m));
-let logo = mapLogoList(m);
+let logo = logoList(m);
 if (!isEmpty(logo)) {
     document.querySelector('#map_logo img').src = './logo/' + logo[0];
 } else {

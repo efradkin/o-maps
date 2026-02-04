@@ -93,10 +93,16 @@ let skiTracks = [
         type: ['SKI']
     },
     {
-        name: 'Александровская',
+        name: 'Александровская, Баболовский парк',
         info: 'Плоская самотопная лыжня.',
         gpx: 'tracks/ski/aleksandrovskaya_ski_omaps.gpx',
         ski_kind: 'FURROW',
+        type: ['SKI']
+    },
+    {
+        name: 'Колпино, ПКиО о.Чухонка',
+        gpx: 'tracks/ski/kolpino_pkio_ski_omaps.gpx',
+        ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
     {
@@ -302,7 +308,7 @@ let skiTracks = [
         type: ['SKI']
     },
     {
-        name: 'Орехово, "Лыжные стрелы"',
+        name: 'Орехово, Лыжные стрелы',
         year: 2025,
         link: 'https://vk.com/orehovo_ski',
         gpx: 'tracks/ski/orekhovo_ski_arrow_2025_omaps.gpx',
@@ -533,8 +539,34 @@ let skiTracks = [
         type: ['SKI']
     },
     {
-        name: 'Луга, б/о "Штоль"',
+        name: 'Луга, б/о Штоль',
         gpx: 'tracks/ski/luga_shtol_omaps.gpx',
+        info: 'Асфальтовая лыжероллерная дорожка.',
+        owner: 'LUGA_RUN_SKI',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Луга, Розановский круг',
+        gpx: 'tracks/ski/luga_rozanovsky_omaps.gpx',
+        owner: 'LUGA_RUN_SKI',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Петергоф, парк Александрия',
+        info: 'Планируется проведение лыжных гонок для спортсменов отделения лыжных гонок СШОР «Пламя».',
+        gpx: 'tracks/ski/petergof_aleksandria_1_ski_omaps.gpx',
+        link: 'https://www.fontanka.ru/2026/02/03/76247143/',
+        ski_kind: 'FICKLE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Петергоф, парк Александрия',
+        info: 'Планируется проведение лыжных гонок для спортсменов отделения лыжных гонок СШОР «Пламя».',
+        gpx: 'tracks/ski/petergof_aleksandria_2_ski_omaps.gpx',
+        link: 'https://www.fontanka.ru/2026/02/03/76247143/',
+        ski_kind: 'FICKLE_ROUTE',
         type: ['SKI']
     },
     {
@@ -629,6 +661,28 @@ let skiTracks = [
         name: 'Сясьстрой',
         gpx: 'tracks/ski/syasstroy_ski_omaps.gpx',
         type: ['SKI']
+    },
+    {
+        name: 'Лодейное Поле',
+        gpx: 'tracks/ski/lodeynoe_pole_ski_omaps.gpx',
+        info: 'Проводятся тренировки местной спортшколы. Максимальный круг 5 км. Рельефная. Широкая. Есть прокат. Телефон лыжной базы: +7 (81364) 2-64-63.',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI']
+    },
+    {
+        name: 'Петрозаводск, Курган',
+        gpx: 'tracks/ski/ptz_kurgan_ski_omaps.gpx',
+        info: 'Лыжный центр им Терентьева.',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI'],
+        owner: 'KARELIA_SKI'
+    },
+    {
+        name: 'Петрозаводск, Фонтаны',
+        gpx: 'tracks/ski/ptz_fontany_ski_omaps.gpx',
+        ski_kind: 'SKATE_ROUTE',
+        type: ['SKI'],
+        owner: 'KARELIA_SKI'
     },
     {
         name: 'Юнтолово',

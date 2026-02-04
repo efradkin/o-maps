@@ -551,6 +551,10 @@ let owners = {
         name: '@ <a href="https://flgrk.orgs.biz/">Лыжные гонки Республики Карелия</a>',
         logo: 'karelia_ski.webp'
     },
+    LUGA_RUN_SKI: {
+        name: '@ <a href="https://vk.com/luga_ski_run">LUGA RUN SKI TEAM</a>',
+        logo: 'luga_run_ski.webp'
+    },
     DEMINO_SKI: {
         name: '@ <a href="https://deminom.ru/">Деминские марафоны</a>',
         logo: 'demino.gif'
