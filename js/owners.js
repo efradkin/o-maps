@@ -506,6 +506,10 @@ let owners = {
         name: '© <a href="http://fso.karelia.ru/">ФСО Республики Карелия</a>',
         logo: 'fso_karelia.png'
     },
+    NBLSNV: {
+        name: 'Небольсинов Алексей',
+        logo: 'maloyaroslavets.gif'
+    },
     NR_D: {
         name: '© <a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>',
     },

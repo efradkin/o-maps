@@ -1,4 +1,16 @@
 let otherMaps = [
+    // --- Калуга ---
+    {
+        name: 'Малоярославец, гимназия',
+        year: 2025,
+        url: './maps/other/maloyaroslavets_gymnasium_2025.webp',
+        link: './original_maps/other/maloyaroslavets_gymnasium_2025_omaps.gif',
+        bounds: [[55.00345344904105, 36.457926034927375], [55.00310886400309, 36.46158456802369], [55.00127512955002, 36.457207202911384]],
+        author: 'NBLSNV',
+        owner: 'NBLSNV',
+        region: 'KLGA',
+        type: ['CITY']
+    },
     // --- Карелия ---
     {
         name: 'Сортавала, оз Хелмиярви',
@@ -260,7 +272,7 @@ let otherMaps = [
         author: ['DRN_E','ZZV_E'],
         owner: 'DRN_E',
         region: 'GLNDZHK',
-        type: ['CITY'],
+        type: ['CITY']
     },
 
     // --- Не Россия ---
