@@ -305,31 +305,31 @@ function trackLink(url, exclusive) {
     return location.origin + '/tracks.html?' + (exclusive ? 'only' : '') + 'track=' + extractFileName(url);
 }
 
-function buildLink(link, content, title, allItems) {
+function buildLink(link, content, title, allItems, isDownload) {
     if (link) {
         if (Array.isArray(link)) {
             if (allItems) {
                 let result = '';
                 for (const l of link) {
-                    result += ' ' + buildOneLink(l, content, title);
+                    result += ' ' + buildOneLink(l, content, title, isDownload);
                 }
                 return result;
             } else {
                 link = link[0];
             }
         }
-        return buildOneLink(link, content, title);
+        return buildOneLink(link, content, title, isDownload);
     }
     else
         return '';
 }
 
-function buildOneLink(link, content, title) {
+function buildOneLink(link, content, title, isDownload) {
     if (link) {
         if (title) {
             title = ' title="' + title + '"';
         }
-        return '<a href="' + link + '"' + (title ?? '') + '">' + content + '</a>';
+        return `<a href="${link}" ${(title ?? '')} ${(isDownload ? 'download' : '')}>${content}</a>`;
     }
     else
         return '';
@@ -357,11 +357,11 @@ function buildTrackDownloadLinks(t) {
     if (isObject(t.gpx)) {
         let result = '';
         for (const [name, gpx] of Object.entries(t.gpx)) {
-            result += buildLink(gpx, '<img src="images/download_24.png" style="width:12px" />', 'Скачать GPX-трек ' + name);
+            result += buildLink(gpx, '<img src="images/download_24.png" style="width:12px" />', 'Скачать GPX-трек ' + name, false, true);
         }
         return result;
     } else {
-        return buildLink(t.gpx, '<img src="images/download_24.png" style="width:12px" />', 'Скачать GPX-трек');
+        return buildLink(t.gpx, '<img src="images/download_24.png" style="width:12px" />', 'Скачать GPX-трек', false, true);
     }
 }
 

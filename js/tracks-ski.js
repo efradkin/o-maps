@@ -529,6 +529,7 @@ let skiTracks = [
     {
         name: 'Луга, Зелёный Бор',
         gpx: 'tracks/ski/luga_zelbor_omaps.gpx',
+        ski_kind: 'FURROW',
         type: ['SKI']
     },
     {
