@@ -68,6 +68,15 @@ let schoolMaps = [
         type: ['CITY']
     },
     {
+        name: 'Школы №559 и №114',
+        year: 2006, // ?
+        url: './maps/city/school_559.webp',
+        link: './original_maps/schools/school_559_omaps.jpg',
+        bounds: [[60.05678185714936, 30.339378118515018], [60.05677114673304, 30.34433484077454], [60.05269022517463, 30.33932447433472]],
+        author: 'FDRV_L',
+        type: ['CITY']
+    },
+    {
         name: 'Школа №559, гимназия №114',
         date: '2016-04-27',
         o_site: '160427',
@@ -75,6 +84,34 @@ let schoolMaps = [
         url: './maps/city/school_559_2016.webp',
         link: ['./original_maps/schools/school_559_2016_omaps.gif','./original_maps/schools/school_559_2016_omaps.ocd'],
         bounds: [[60.05606960689406, 30.3393030166626], [60.056080317538054, 30.344409942626957], [60.05268486930301, 30.33932447433472]],
+        author: ['FDRV_L','SHKLV'],
+        type: ['CITY']
+    },
+    {
+        name: 'Школа №494',
+        year: 2007,
+        url: './maps/city/school_494_2007.webp',
+        link: './original_maps/schools/school_494_2007_omaps.jpg',
+        bounds: [[60.063978470999345, 30.30683755874634], [60.063978470999345, 30.31904697418213], [60.05902025788759, 30.30689120292664]],
+        author: 'FDRV_L',
+        type: ['CITY']
+    },
+    {
+        name: 'Школа №453',
+        year: 2007, // ?
+        url: './maps/city/school_453.webp',
+        link: './original_maps/schools/school_453_omaps.jpg',
+        bounds: [[60.06696588980581, 30.304981470108036], [60.06692306133995, 30.314658880233768], [60.06333062585542, 30.304981470108036]],
+        author: 'FDRV_L',
+        type: ['CITY']
+    },
+    {
+        name: 'Лицей №534',
+        year: 2007,
+        url: './maps/city/school_534_2007.webp',
+        link: './original_maps/schools/school_534_2007_omaps.jpg',
+        bounds: [[60.00983152806055, 30.343251228332523], [60.00984761652746, 30.348358154296875], [60.00661904068128, 30.343261957168583]],
+        author: 'FDRV_L',
         type: ['CITY']
     },
     {

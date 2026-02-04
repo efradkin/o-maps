@@ -56,6 +56,14 @@ let zelikMaps = [
         author: ['KRCHNKO_S','KRCHNKO_N']
     },
     {
+        name: 'Рощино',
+        year: 1999,
+        url: './maps/forest/zelik/roschino_1999.webp',
+        link: './original_maps/forest/zelik/roschino_1999_omaps.jpg',
+        bounds: [[60.2687689844013, 29.526443481445312], [60.268130485304354, 29.561891555786136], [60.23870345104413, 29.521250724792484]],
+        author: ['KRCHNKO_S','FDRV_L','FDRV_A']
+    },
+    {
         name: 'Ушково',
         year: 1,
         url: './maps/forest/zelik/ushkovo_old.webp',
@@ -79,6 +87,14 @@ let zelikMaps = [
         author: 'BRDLN'
     },
     {
+        name: 'ДОЛ Солнечный',
+        year: 2004, // ?
+        url: './maps/forest/zelik/dol_solnechny_2004.webp',
+        link: './original_maps/forest/zelik/dol_solnechny_2004_omaps.jpg',
+        bounds: [[60.189276020994114, 29.50889110565186], [60.18821993247182, 29.520950317382812], [60.18119981408328, 29.506766796112064]],
+        author: 'FDRV_L'
+    },
+    {
         name: 'Смолячково',
         year: 2025,
         url: './maps/forest/zelik/smoljachkovo_2025.webp',
@@ -86,6 +102,14 @@ let zelikMaps = [
         bounds: [[60.18255487783866, 29.495995044708252], [60.18129584406433, 29.507045745849613], [60.17908708345086, 29.494450092315677]],
         author: ['IVNVA_G','TKMKVA_P'],
         owner: 'KP31'
+    },
+    {
+        name: 'Молодёжное',
+        year: 2004,
+        url: './maps/forest/zelik/molodezhnoe_2004.webp',
+        link: './original_maps/forest/zelik/molodezhnoe_2004_omaps.jpg',
+        bounds: [[60.23273816668364, 29.503955841064457], [60.228774913143845, 29.541463851928714], [60.21274654984367, 29.49730396270752]],
+        author: 'FDRV_L'
     },
     {
         name: 'Сосновая поляна, р Рощинка',
@@ -868,7 +892,7 @@ let zelikMaps = [
         zindex: 2
     },
     {
-        name: 'Молодёжное (Марьина гора)',
+        name: 'Молодёжное, Марьина гора',
         year: 2024,
         url: './maps/forest/zelik/molodezhnoe_2024.webp',
         link: './original_maps/forest/zelik/molodezhnoe_2024_omaps.jpg',
@@ -877,12 +901,12 @@ let zelikMaps = [
         owner: 'SFSO_SPB'
     },
     {
-        name: 'Молодёжное',
+        name: 'Молодёжное, Марьина гора',
         year: 2003,
         url: './maps/forest/zelik/molodezhnoe_2003.webp',
-        link: './original_maps/forest/zelik/molodezhnoe_2003_omaps.jpg',
+        link: ['./original_maps/forest/zelik/molodezhnoe_2003_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_02_20_omaps.jpg'],
         bounds: [[60.203002080434125, 29.531786441802982], [60.20167985063764, 29.54835176467896], [60.19703029698733, 29.530413150787357]],
-        author: 'SHKLV', //Возможны соавторы
+        author: ['SHKLV','FDRV_L'], //Возможны соавторы
         type: []
     },
     {

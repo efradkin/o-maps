@@ -31,6 +31,15 @@ let cityMaps = [
         author: 'DBRTSV_V',
         start: 'ST',
         owner: 'NW',
+        type: ['CITY','PARK']
+    },
+    {
+        name: 'пл Ленина',
+        year: 2006,
+        url: './maps/city/pl_lenina_2006.webp',
+        link: './original_maps/city/pl_lenina_2006_omaps.jpg',
+        bounds: [[59.955230501530224, 30.35505294799805], [59.954967288336654, 30.356973409652714], [59.95342019710775, 30.35403370857239]],
+        author: 'FDRV_L',
         type: ['CITY']
     },
     {
@@ -1198,6 +1207,15 @@ let cityMaps = [
     },
     {
         name: 'Школа-интернат №1',
+        year: 2007,
+        url: './maps/city/school_internat_1_2007.webp',
+        link: './original_maps/schools/school_internat_1_2007_omaps.jpg',
+        bounds: [[60.00032723903039, 30.324411392211918], [60.00038088263653, 30.32931447029114], [59.99752692199779, 30.3243362903595]],
+        author: 'DRBSHV',
+        type: ['CITY']
+    },
+    {
+        name: 'Школа-интернат №1',
         year: 2024,
         url: './maps/city/school_internat_1_2024.webp',
         link: './original_maps/schools/school_internat_1_2024_omaps.gif',
@@ -1954,7 +1972,7 @@ let cityMaps = [
         type: ['CITY']
     },
     {
-        name: 'ДООЛ "Солнечный"',
+        name: 'ДООЛ Солнечный',
         year: 2023,
         url: './maps/city/dool_solnechny_2023.webp',
         link: ['./original_maps/city/dool_solnechny_2023_omaps.jpg','./original_maps/city/dool_solnechny_square_2023_omaps.jpg'],
@@ -1962,6 +1980,15 @@ let cityMaps = [
         bounds: [[60.19223075483243, 29.506530761718754], [60.19184676113904, 29.51359033584595], [60.18739850679926, 29.505672454833988]],
         author: ['FDRV_L','BBCH_A'],
         owner: 'IMPULS',
+        type: ['CITY']
+    },
+    {
+        name: 'ДОЛ Солнечный',
+        year: 2004,
+        url: './maps/city/dool_solnechny_2004.webp',
+        link: './original_maps/city/dool_solnechny_2004_omaps.jpg',
+        bounds: [[60.19223075483243, 29.506530761718754], [60.19192142693123, 29.512163400650028], [60.18702512469926, 29.50560808181763]],
+        author: 'FDRV_L',
         type: ['CITY']
     },
     {
