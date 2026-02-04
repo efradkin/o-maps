@@ -117,6 +117,9 @@ function renderMapsTable() {
         if (!isUnknownPage()) {
             td(m, row, buildStart(m));
         }
+        if (isRulesPage()) {
+            td(m, row, buildAuthors(m, true));
+        }
         td(m, row, buildDownloadLinks(m.link, m.links));
         td(m, row, buildInfo(m));
         if (!isDocumentsPage()) {

@@ -840,6 +840,10 @@ function isUnknownPage() {
     return typeof unknownPage != 'undefined' && unknownPage;
 }
 
+function isRulesPage() {
+    return typeof rulesPage != 'undefined' && rulesPage;
+}
+
 let spinnerDisplayed = false;
 function showSpinner() {
     if (map === undefined) {

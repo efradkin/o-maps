@@ -41,6 +41,11 @@ let rules = [
         outdated: true
     },
     {
+        name: 'Условные знаки и легенды КП (ISOM-2017-2)',
+        url: './rules/conventional_signs_control_points_omaps.pdf',
+        author: 'SHRNN'
+    },
+    {
         name: 'Периодическая таблица знаков карт спортивного ориентирования (ISOM 2017)',
         url: './rules/periodic_table_isom_2017_rus_omaps.gif',
         author: ['NR_D','GLTV_D'],
