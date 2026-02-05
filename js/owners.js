@@ -507,7 +507,7 @@ let owners = {
         logo: 'fso_karelia.png'
     },
     NBLSNV: {
-        name: 'Небольсинов Алексей',
+        name: '© Небольсинов Алексей (+79534611661)',
         logo: 'maloyaroslavets.gif'
     },
     NR_D: {

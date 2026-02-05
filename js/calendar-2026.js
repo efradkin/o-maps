@@ -276,6 +276,16 @@ let events2026 = [
 {
     id: 'SPB_20260215_1',
     date: '2026-02-15',
+    name: 'Февральский спринт',
+    place: 'им Свердлова, 2-й мкрр-он',
+    reg: 'https://orgeo.ru/event/49838',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    map: 'sverdlova_2024'
+},
+{
+    id: 'SPB_20260215_1',
+    date: '2026-02-15',
     endDate: '2026-02-17',
     name: 'Зимние старты в Зеркальном',
     place: 'Зеркальный',
@@ -326,6 +336,7 @@ let events2026 = [
     id: 'SPB_20260228_1',
     date: '2026-02-28',
     name: 'Классический маркир',
+    place: 'Орехово',
     type: 'SKI',
     fmt: 'маркир',
 },
@@ -333,6 +344,7 @@ let events2026 = [
     id: 'SPB_20260301_1',
     date: '2026-03-01',
     name: 'ЧиП СПб',
+    place: 'Орехово',
     type: 'SKI',
     fmt: 'классика-масстарт',
     owner: 'SFSO_SPB'
@@ -385,6 +397,7 @@ let events2026 = [
     name: 'Сосновоборские дюны, ЧиП ЛО',
     place: 'Сосновый бор',
     type: 'ORIENT',
+    fmt: 'классика, спринт',
     owner: 'YUVENTA'
 },
 {
@@ -439,7 +452,7 @@ let events2026 = [
     id: 'SPB_20260502_2',
     date: '2026-05-02',
     name: 'Мемориал Ирины Вилениновны Степановой',
-    place: 'Сосново',
+    place: 'Сосново-Петровское',
     type: 'ORIENT',
     fmt: 'классика',
     start: 'HARD'
@@ -456,6 +469,7 @@ let events2026 = [
     id: 'SPB_20260510_1',
     date: '2026-05-10',
     name: 'ЧиП СПб',
+    place: 'Поляны',
     type: 'VELO',
     fmt: 'спринт',
     owner: 'SFSO_SPB'
@@ -674,6 +688,24 @@ let events2026 = [
     owner: 'SHBN'
 },
 {
+    id: 'SPB_20260731_1',
+    date: '2026-07-31',
+    endDate: '2026-08-02',
+    name: 'Летнее первенство Белых ночей',
+    place: 'о Койонсаари',
+    type: 'ORIENT',
+    map: 'koyonsaari_2024',
+    owner: 'WN'
+},
+{
+    id: 'SPB_20260731_2',
+    date: '2026-07-31',
+    endDate: '2026-08-02',
+    name: 'ROCKET RACE',
+    place: 'Выборг',
+    type: 'ORIENT',
+},
+{
     id: 'SPB_20260808_1',
     date: '2026-08-08',
     place: 'Зеленогорск, Ламмин-Суо',
@@ -696,6 +728,7 @@ let events2026 = [
     id: 'SPB_20260809_1',
     date: '2026-08-09',
     name: 'ЧиП СПб',
+    place: 'Яппиля',
     type: 'VELO',
     fmt: 'масстарт',
     owner: 'SFSO_SPB'
@@ -729,6 +762,7 @@ let events2026 = [
     date: '2026-08-22',
     endDate: '2026-08-23',
     name: 'Выборгская Тройка',
+    place: 'Выборг',
     type: 'ORIENT',
 },
 {
@@ -771,6 +805,7 @@ let events2026 = [
     id: 'SPB_20260920_1',
     date: '2026-09-20',
     name: 'ЧиП СПб',
+    place: 'Сосново',
     type: 'VELO',
     fmt: 'классика',
     owner: 'SFSO_SPB'
