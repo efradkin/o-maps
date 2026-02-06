@@ -491,6 +491,15 @@ let forestMaps = [
         owner: ['GLTV_YU', 'GLFSTRM']
     },
     {
+        name: 'Зеркальный',
+        year: 1999,
+        url: './maps/forest/zerkalny_1999.webp',
+        link: './original_maps/forest/zerkalny_1999_omaps.jpg',
+        bounds: [[60.24638215553074, 29.132437705993656], [60.24599879550278, 29.143531322479248], [60.23816022902367, 29.130978584289554]],
+        author: ['BLZRV_V','ARTMV'],
+        editor: 'GLTV_Y'
+    },
+    {
         name: 'Заходское',
         year: 1968,
         start: 'START_1968',

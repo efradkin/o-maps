@@ -68,6 +68,17 @@ let gsStartsMaps = [
         planner: 'GBNV_V'
     },
     {
+        name: 'Лемболово',
+        start: 'GS',
+        date: '2019-08-24',
+        o_site: '190824',
+        url: './maps/starts/gs/gs_2019_08_24.webp',
+        link: './original_maps/starts/gs/gs_2019_08_24_omaps.jpg',
+        bounds: [[60.43098946308985, 30.286302566528324], [60.42664778572179, 30.337457656860355], [60.414466815890904, 30.28063774108887]],
+        author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
+        planner: 'PRVSKY'
+    },
+    {
         name: 'Лемболово, оз Белое',
         start: 'GS',
         date: '2020-08-29',
