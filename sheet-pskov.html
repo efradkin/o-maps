@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.83">
-    <title>o-Maps: таблица карт Москвы</title>
-    <meta name="description" content="Карты? Найдутся все! Сводная таблица спортивных карт Москвы.">
+    <title>o-Maps: таблица карт Пскова</title>
+    <meta name="description" content="Карты? Найдутся все! Сводная таблица спортивных карт Пскова.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=1"/>
 
-    <meta property="og:title" content="o-Maps: таблица карт Москвы">
+    <meta property="og:title" content="o-Maps: таблица карт Пскова">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Москвы. Сводная таблица.">
+    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Пскова. Сводная таблица.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <!-- Yandex.Metrika counter -->
@@ -37,8 +37,7 @@
     <base target="_blank">
 </head>
 <body class="stat-body sheet-body">
-    <a href="start.html" target="_self" class="stat-map-link stat-map-link-right" title="Плитки" style="display: none"><img src="images/ceramics_24.png" alt="Плитки" /></a>
-    <a href="moscow.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+    <a href="pskov.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
     <h1>
         <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
 
@@ -46,27 +45,16 @@
             <option value="index">Начальная страница</option>
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
             <option value="spb">Санкт-Петербург</option>
-            <option value="msk" selected>Москва</option>
+            <option value="msk">Москва</option>
             <option value="bash">Башкортостан</option>
             <option value="srb">Белград</option>
-            <option value="pskov">Псков</option>
+            <option value="pskov" selected>Псков</option>
             <option value="rzn">Рязань</option>
             <option value="smr">Самара</option>
             <option value="all">Все регионы вместе</option>
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
             <option value="docs">Документы</option>
             <option value="tracks">Маршруты</option>
-            <option value="calendar_msk">Календарь стартов</option>
-        </select>
-
-        <select id="start_selector" class="header_selector" onchange="selectStart(this.value)">
-            <option value="all">все старты</option>
-            <option value="INCR">Инакор</option>
-            <option value="BNO">БНО</option>
-            <option value="KMPT_ROGAINE">Компот-рогейн</option>
-            <option value="AERO">Аэророгейн</option>
-            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="major">Чемпионаты и Кубки</option>
         </select>
 
         <select id="type_selector" class="header_selector" onchange="selectMapType(this.value)">
@@ -74,17 +62,14 @@
             <option value="CITY">Город</option>
             <option value="PARK">Парки</option>
             <option value="FOREST">Лес</option>
-            <option value="VELO">Вело</option>
             <option value="WINTER">Зимние</option>
             <option value="ROGAINE">Рогейн</option>
         </select>
-
-        <a href="start.html" target="_self" class="stat-map-link stat-map-link-right" title="Плитки" style="display: none"><img src="images/ceramics_24.png" alt="Плитки" /></a>
     </h1>
-    <h2 class="text-center">Карты Москвы и окрестностей</h2>
+    <h2 class="text-center">Карты Пскова</h2>
 
     <div class="o-sheet-roof">
-        <a href="#" onclick="downloadSheetTable('o-maps-moscow.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+        <a href="#" onclick="downloadSheetTable('o-maps-pskov.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
     <div class="o-sheet-wrapper">
         <table class="o-main-table o-sheet">
@@ -114,7 +99,7 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
-    <script src="js/maps-moscow.js"></script>
+    <script src="js/maps-pskov.js"></script>
 
     <script src="js/welcome.js"></script>
     <script src="js/starts.js"></script>
@@ -128,7 +113,7 @@
         let mapsOnStore = false;
 
         let oMaps = [
-            ...moscowMaps,
+            ...pskovMaps,
         ];
         writeWelcomeButton();
     </script>

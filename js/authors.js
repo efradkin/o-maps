@@ -183,7 +183,7 @@ let authors = {
     KBZRV: { name: 'Кобзарёв Александр' },
     KCHTV: { name: 'Кочетов А.' },
     KHFZVA: { name: 'Хафизова Инга' },
-    KHDNKCH: { name: 'Худеньких Ю.' },
+    KHDNKCH: { name: 'Худеньких Юрий' },
     KLCHTSKA: { name: 'Кульчицкая Е.' },
     KMN_I: { name: 'Комин И.' },
     KUOKNN_M: { name: 'Куокканен М.' },
@@ -794,6 +794,16 @@ let authors = {
     BNKVCH: { name: 'Алекса Банковић' },
     RDVNVCH: { name: 'Слободан Радовановић' },
     STVNVCH_ML: { name: 'Миле Стевановић' },
+
+    /* --- ПСКОВ --- */
+
+    CHRNH_Y: { name: 'Черных Ю.' },
+    KBRSKY: { name: 'Кубарский Анатолий' },
+    KHLMV_A: { name: 'Холмов Александр' },
+    NKTN_A: { name: 'Никитин Алексей' },
+    NKTN_D: { name: 'Никитин Дмитрий' },
+    NKTN_V: { name: 'Никитин Валентин' },
+    SLDTSKY: { name: 'Солдатский Алексей' },
 
     /* --- ПРОЧЕЕ --- */
 

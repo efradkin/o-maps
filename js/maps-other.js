@@ -32,43 +32,6 @@ let otherMaps = [
         owner: 'FSO_KARELIA',
         region: 'KRL'
     },
-    // --- Псковская обл ---
-    {
-        name: 'Печорский район',
-        date: '2010-06-05',
-        major: true,
-        url: './maps/other/malska_dolina_rogaine_2010.webp',
-        link: 'https://7rrc.rogaining.ru/download/7rrc_map24.jpg',
-        info: '<a href="https://7rrc.rogaining.ru/">7-й Чемпионат России по рогейну</a>.',
-        bounds: [[57.87178363722239, 27.708206176757816], [57.851830758429266, 28.029899597167972], [57.72335688189693, 27.675504684448242]],
-        author: 'LSHV_A',
-        owner: 'PSKOV_RUS',
-        type: ['ROGAINE'],
-        region: 'PSK'
-    },
-    {
-        name: 'Алоль',
-        date: '2013-07-26',
-        major: true,
-        url: './maps/other/alol_rogaine_2013.webp',
-        link: 'https://wrc2013.rogaining.ru/results/wrc2013_map.jpg',
-        info: '<a href="https://wrc2013.rogaining.ru/ru/">11-й Чемпионат мира по рогейну</a>.',
-        bounds: [[56.572156439339906, 28.817138671875004], [56.54538481548953, 29.139347076416016], [56.40901055670117, 28.773193359375]],
-        owner: 'PSKOV_RUS',
-        type: ['ROGAINE'],
-        region: 'PSK'
-    },
-    {
-        name: 'Аболенье',
-        date: '1996-09-05',
-        major: true,
-        url: './maps/other/abolenie_1996_09_05.webp',
-        link: './original_maps/other/abolenie_1996_09_05_omaps.jpg',
-        info: 'XVI-й Чемпионат России. Финал. <a href="./docs/1996/1996_russia_champions_omaps.jpg">Чемпионы</a>.',
-        bounds: [[56.54893338086099, 29.009914398193363], [56.545999923985995, 29.068536758422855], [56.50296555743434, 28.999614715576175]],
-        owner: 'PSKOV_RUS',
-        region: 'PSK'
-    },
     // --- Владимирская обл ---
     {
         name: 'Радужный',

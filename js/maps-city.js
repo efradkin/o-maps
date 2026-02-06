@@ -844,10 +844,11 @@ let cityMaps = [
     },
     {
         name: 'Яковлевский пер',
+        year: 2013,
         url: './maps/city/yakovlevsky.jpg',
         link: './original_maps/city/yakovlevsky_omaps.jpg',
         bounds: [[59.87587658325937, 30.320248603820804], [59.87590889044805, 30.328660011291507], [59.87168715181947, 30.32037734985352]],
-        author: 'MSLVA', //Не 100%., надо бы уточнить
+        author: 'MSLVA',
         type: ['CITY']
     },
     {

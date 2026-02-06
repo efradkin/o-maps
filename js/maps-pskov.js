@@ -1,0 +1,96 @@
+let pskovMaps = [
+    // --- Псков ---
+    {
+        name: 'Печорский район',
+        date: '2010-06-05',
+        major: true,
+        url: './maps/other/malska_dolina_rogaine_2010.webp',
+        link: 'https://7rrc.rogaining.ru/download/7rrc_map24.jpg',
+        info: '<a href="https://7rrc.rogaining.ru/">7-й Чемпионат России по рогейну</a>.',
+        bounds: [[57.87178363722239, 27.708206176757816], [57.851830758429266, 28.029899597167972], [57.72335688189693, 27.675504684448242]],
+        author: 'LSHV_A',
+        owner: 'PSKOV_RUS',
+        type: ['ROGAINE'],
+    },
+    {
+        name: 'Алоль',
+        date: '2013-07-26',
+        major: true,
+        url: './maps/other/alol_rogaine_2013.webp',
+        link: 'https://wrc2013.rogaining.ru/results/wrc2013_map.jpg',
+        info: '<a href="https://wrc2013.rogaining.ru/ru/">11-й Чемпионат мира по рогейну</a>.',
+        bounds: [[56.572156439339906, 28.817138671875004], [56.54538481548953, 29.139347076416016], [56.40901055670117, 28.773193359375]],
+        owner: 'PSKOV_RUS',
+        type: ['ROGAINE'],
+    },
+    {
+        name: 'Аболенье',
+        date: '1996-09-05',
+        major: true,
+        url: './maps/other/abolenie_1996_09_05.webp',
+        link: './original_maps/other/abolenie_1996_09_05_omaps.jpg',
+        info: 'XVI-й Чемпионат России. Финал. <a href="./docs/1996/1996_russia_champions_omaps.jpg">Чемпионы</a>.',
+        bounds: [[56.54893338086099, 29.009914398193363], [56.545999923985995, 29.068536758422855], [56.50296555743434, 28.999614715576175]],
+        author: 'ALSHN',
+        owner: 'PSKOV_RUS',
+    },
+    {
+        name: 'Корытово',
+        year: 1,
+        url: './maps/pskov/korytovo_retro.webp',
+        link: './original_maps/pskov/korytovo_retro_omaps.jpg',
+        bounds: [[57.78714769069405, 28.316745758056644], [57.786186855911744, 28.35004806518555], [57.76778880191017, 28.317174911499023]],
+        owner: 'PSKOV_RUS'
+    },
+    {
+        name: 'Корытово',
+        year: 1989,
+        url: './maps/pskov/korytovo_1989.webp',
+        link: ['./original_maps/pskov/korytovo_1989_omaps.jpg','./original_maps/pskov/korytovo_1989_winter_omaps.jpg'],
+        bounds: [[57.792729177406706, 28.330736160278324], [57.79197435467371, 28.361849784851078], [57.7681321349938, 28.32455635070801]],
+        author: ['CHRNH_Y','NKTN_A'],
+        editor: 'KHDNKCH',
+        owner: 'PSKOV_RUS',
+        type: ['FOREST','WINTER']
+    },
+    {
+        name: 'Корытово',
+        year: 2001,
+        url: './maps/pskov/korytovo_2001.webp',
+        link: ['./original_maps/pskov/korytovo_2001_omaps.jpg','./original_maps/pskov/korytovo_2001_russia_cup_omaps.jpg'],
+        info: 'Кубок России.',
+        bounds: [[57.79183711248078, 28.33004951477051], [57.791608374332775, 28.35554122924805], [57.7686814611406, 28.3293628692627]],
+        author: ['KBRSKY','KHLMV_A','CHRNH_Y','NKTN_A','KHDNKCH','LSHV_A','NKTN_D','NKTN_V'],
+        owner: 'PSKOV_RUS'
+    },
+    {
+        name: 'Корытово',
+        year: 2018,
+        url: './maps/pskov/korytovo_2018.webp',
+        link: './original_maps/pskov/korytovo_2018_omaps.jpg',
+        bounds: [[57.79123095321933, 28.332130908966068], [57.791253827338565, 28.34060668945313], [57.78424223107681, 28.33157300949097]],
+        author: 'KRTSHV',
+        owner: 'PSKOV_RUS',
+        type: ['SPRINT']
+    },
+    {
+        name: 'Корытово',
+        year: 2019,
+        url: './maps/pskov/korytovo_2019.webp',
+        link: './original_maps/pskov/korytovo_2019_omaps.jpg',
+        bounds: [[57.792637684582886, 28.335928916931152], [57.79243182488125, 28.344640731811527], [57.78718772492166, 28.33510279655457]],
+        author: 'SLDTSKY',
+        owner: 'PSKOV_RUS',
+        type: ['SPRINT']
+    },
+    {
+        name: 'Корытово',
+        year: 2020,
+        url: './maps/pskov/korytovo_2020.webp',
+        link: './original_maps/pskov/korytovo_2020_omaps.jpg',
+        bounds: [[57.7924775715831, 28.335875272750858], [57.79243182488125, 28.344962596893314], [57.78697611492998, 28.33427667617798]],
+        author: 'SRBRNTSKY',
+        owner: 'PSKOV_RUS',
+        type: ['SPRINT']
+    },
+];

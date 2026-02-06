@@ -199,7 +199,7 @@ function allocateMap(m, imgLayer) {
                 imgLayer.addTo(funGroup);
             }
         }
-        if (!added || (m.type.includes('ORIENT'))) {
+        if (!added || (m.type.includes('FOREST'))) {
             mapsStatObj.forestGroup.push(imgLayer);
             pushGroupToMap(m, forestGroup);
         }

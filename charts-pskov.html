@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=0.83">
-    <title>o-Maps: Диаграммы и статистика по Москве</title>
-    <meta name="description" content="Карты? Найдутся все! Диаграммы и статистика по Москве.">
+    <title>o-Maps: Диаграммы и статистика по Пскову</title>
+    <meta name="description" content="Карты? Найдутся все! Диаграммы и статистика по Пскову.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=1"/>
 
-    <meta property="og:title" content="o-Maps: Диаграммы и статистика по Москве">
+    <meta property="og:title" content="o-Maps: Диаграммы и статистика по Пскову">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
     <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Москвы. Диаграммы и статистика.">
+    <meta property="og:description" content="Карты? Найдутся все! Все спортивные карты Пскова. Диаграммы и статистика.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <script src="./js/ext/chart-4.4.8.js"></script>
@@ -41,16 +41,16 @@
 <body class="stat-body">
     <h1>
          <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
-        <a href="moscow.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+        <a href="pskov.html" target="_self" class="stat-map-link" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
         <select class="header_selector" onchange="selectMapRegion(this.value, 'charts')">
             <option value="index">Начальная страница</option>
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
             <option value="spb">Санкт-Петербург</option>
-            <option value="msk" selected>Москва</option>
+            <option value="msk">Москва</option>
             <option value="bash">Башкортостан</option>
             <option value="srb">Белград</option>
-            <option value="pskov">Псков</option>
+            <option value="pskov" selected>Псков</option>
             <option value="rzn">Рязань</option>
             <option value="smr">Самара</option>
             <option value="all">Все регионы вместе</option>
@@ -71,23 +71,22 @@
     </div>
     <p>
         <strong>Общая площадь (приблизительно): <span id="totalArea"></span> (км²). <sup>⚹</sup></strong> <br />
-        <span class="stat_result_article">Самая большая спортивная карта: <a id="largest_map" href="#"></a>.</span> <br />
-        <span class="stat_result_article">Общая площадь рогейнерских карт: <span id="all_rogaine_area"></span> (км²).</span>
+        <span class="stat_result_article">Самая большая спортивная карта: <a id="largest_map" href="#"></a>.</span>
     </p>
 
-    <br /><br />
+    <br /><br /><br />
 
     <div class="chart-container">
         <canvas id="mapYearChart"></canvas>
     </div>
 
-    <p class="stat_result_article">Самая древняя карта: <a id="oldest_map" href="#"></a>.</p>
+    <p class="stat_result_article">Самая старая карта: <a id="oldest_map" href="#"></a>.</p>
 
     <br /><br /><br />
 
     <div class="chart-container">
         <div class="o-sheet-roof">
-            <a href="#" onclick="downloadSheetTable('o-authors-moscow.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+            <a href="#" onclick="downloadSheetTable('o-authors-pskov.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
         </div>
         <table class="o-main-table">
             <thead>
@@ -99,12 +98,12 @@
             </thead>
         </table>
 
-        <p class="stat_result_article">Количество карт, <a href="moscow.html?only-wo-author">где автор не указан</a>: <span id="no_authors_quantity"></span>.</p>
-
+        <p class="stat_result_article">Количество карт, <a href="pskov.html?only-wo-author">где автор не указан</a>: <span id="no_authors_quantity"></span>.</p>
         <br /><br />
 
+
         <hr />
-        <p class="stat_result_article" style="text-align: left"><sup>⚹</sup> Площадь большинства карт высчитывается, исходя из координат листа карты. Для компенсации того, что реальная карта практически всегда меньше, введён понижающий коэффициент 70%. Площадь некоторых (в основном, крупных) карт указана вручную.</p>
+        <p class="stat_result_article" style="text-align: left"><sup>⚹</sup> Площадь большинства карт высчитывается, исходя из координат листа карты. Для компенсации того, что реальная карта практически всегда меньше, введён понижающий коэффициент 70%.</p>
     </div>
 
     <script src="js/ext/jquery.slim.min.js"></script>
@@ -113,7 +112,7 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
-    <script src="js/maps-moscow.js"></script>
+    <script src="js/maps-pskov.js"></script>
 
     <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
@@ -125,7 +124,7 @@
         let loadImagesRequired = false;
 
         let oMaps = [
-            ...moscowMaps,
+            ...pskovMaps,
         ];
         filterMapsForCharts();
     </script>
