@@ -375,6 +375,16 @@ let cityMaps = [
         type: ['CITY']
     },
     {
+        name: 'Озерки',
+        year: 2025,
+        url: './maps/city/ozerki_2025.webp',
+        link: './original_maps/city/ozerki_2025_omaps.gif',
+        bounds: [[60.043525057488885, 30.306129455566406], [60.041478483245385, 30.324711799621586], [60.030343326204296, 30.300228595733646]],
+        author: 'EFRMV',
+        owner: 'EFRMV',
+        type: ['CITY']
+    },
+    {
         name: 'Наб. р. Смоленки',
         date: '2023-04-12',
         url: './maps/city/smolenka_2014.webp',
