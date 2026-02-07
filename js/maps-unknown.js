@@ -227,4 +227,9 @@ let unknownMaps = [
         name: 'Выборг, Сайменские дачи',
         link: './original_maps/unknown/unknown_60_omaps.jpg',
     },
+    {
+        name: 'Сосново',
+        link: './original_maps/unknown/unknown_61_omaps.jpg',
+        info: 'Зелёный змей. Но какой год?'
+    },
  ];

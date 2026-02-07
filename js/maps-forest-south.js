@@ -631,7 +631,7 @@ let southMaps = [
         name: 'Дудергоф - Нагорный парк',
         year: 1997,
         url: './maps/forest/south/nagorny_park_1997.webp',
-        link: './original_maps/forest/south/nagorny_park_1997_omaps.jpg',
+        link: ['./original_maps/forest/south/nagorny_park_1997_omaps.jpg','./original_maps/forest/south/crown_hill_1997_omaps.jpg'],
         photo: './tracks/dudergof/pic_1.jpg',
         bounds: [[59.70547340708053, 30.1201343536377], [59.70348169163133, 30.140476226806644], [59.69226525549391, 30.115199089050297]],
         info: 'Тренировка от Стрекозаек.',

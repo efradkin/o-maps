@@ -44,7 +44,7 @@ let parkMaps = [
         name: 'Парк Победы',
         year: 1998,
         url: './maps/parks/pobedy_1998.webp',
-        link: './original_maps/parks/pobedy_1998_omaps.jpg',
+        link: ['./original_maps/parks/pobedy_1998_omaps.jpg','./original_maps/parks/pobedy_1998_10000_omaps.jpg'],
         bounds: [[59.87189178926781, 30.320699214935303], [59.8718810189072, 30.336964130401615], [59.86423318226671, 30.32059192657471]],
         author: ['SBLV_A','PRKHMNKO','JKBV'],
         owner: 'KARTA',
@@ -318,6 +318,15 @@ let parkMaps = [
     },
     {
         name: 'Пискарёвский парк',
+        year: 1996,
+        url: './maps/parks/piskarevsky_1996.webp',
+        link: './original_maps/parks/piskarevsky_1996_omaps.jpg',
+        bounds: [[60.01179426324749, 30.395908355712894], [60.00851224713561, 30.441184043884277], [59.99462979285319, 30.391573905944828]],
+        author: 'DBRTSV_V',
+        type: ['PARK']
+    },
+    {
+        name: 'Пискарёвский парк',
         year: 1999,
         url: './maps/parks/piskarevsky_1999.webp',
         link: './original_maps/parks/piskarevsky_1999_omaps.jpg',
@@ -405,6 +414,16 @@ let parkMaps = [
     },
     {
         name: 'Таврический сад',
+        year: 1985,
+        url: './maps/parks/tavrichesky_1985.webp',
+        link: './original_maps/parks/tavrichesky_1985_omaps.jpg',
+        bounds: [[59.94809077448783, 30.36857128143311], [59.94820897661967, 30.378870964050297], [59.94363102250336, 30.36756277084351]],
+        author: ['RYLOV_V','VLKV_K'],
+        logo: 'leopold.webp',
+        type: ['PARK']
+    },
+    {
+        name: 'Таврический сад',
         year: 1998,
         url: './maps/parks/tavrichesky_1998.webp',
         link: './original_maps/parks/tavrichesky_1998_omaps.jpg',
@@ -459,6 +478,15 @@ let parkMaps = [
         bounds: [[59.982459079886844, 30.23617744445801], [59.98237320357825, 30.273985862731937], [59.97520174583225, 30.23622035980225]],
         author: ['SBLV_A','JKBV','PRKHMNKO','ARTMV'],
         owner: 'KARTA',
+        type: ['PARK']
+    },
+    {
+        name: 'ЦПКиО, Елагин остров',
+        year: 2000,
+        url: './maps/parks/elagin_2000.webp',
+        link: './original_maps/parks/elagin_2000_omaps.jpg',
+        bounds: [[59.98434830231292, 30.23686408996582], [59.98181500214218, 30.27441501617432], [59.97706990989173, 30.2354907989502]],
+        author: 'DBRTSV_V',
         type: ['PARK']
     },
     {
@@ -576,7 +604,7 @@ let parkMaps = [
         type: ['PARK']
     },
     {
-        name: 'Петергоф, Сергиевка',
+        name: 'Мартышкино, Сергиевка',
         year: 1989,
         startYear: 2022,
         month: 1,
@@ -635,6 +663,7 @@ let parkMaps = [
         name: 'Южно-Приморский парк',
         year: 2021,
         url: './maps/parks/yuzhno_promorsky_2021.webp',
+        link: './original_maps/parks/yuzhno_promorsky_2021_omaps.jpg',
         bounds: [[59.85716544875492, 30.1600456237793], [59.85613102033116, 30.174851417541507], [59.847466419624396, 30.157384872436523]],
         type: ['PARK'],
         author: 'ZCHNV',
@@ -664,6 +693,15 @@ let parkMaps = [
         author: 'ZCHNV',
         owner: 'ZCHNV',
         type: ['PARK','FOTO']
+    },
+    {
+        name: 'парк Литания',
+        year: 1999,
+        url: './maps/parks/litania_1999.webp',
+        link: './original_maps/parks/litania_1999_omaps.jpg',
+        bounds: [[59.84766042791165, 30.14755725860596], [59.846636482518385, 30.158972740173343], [59.841979828241634, 30.145604610443115]],
+        author: 'FDRV_A',
+        type: ['PARK']
     },
     {
         name: 'Полежаевский парк, юг',
@@ -698,7 +736,7 @@ let parkMaps = [
         major: true,
         info: 'Чемпионат России по ориентированию бегом на заснеженном грунте.',
         url: './maps/parks/gatchina_zverinets_2005.webp',
-        link: './original_maps/parks/gatchina_zverinets_2005_omaps.jpg',
+        link: ['./original_maps/parks/gatchina_zverinets_2005_omaps.jpg','./original_maps/parks/gatchina_zverinets_2005_M21_omaps.jpg'],
         bounds: [[59.58639060698327, 30.08018016815186], [59.58306645580455, 30.124039649963382], [59.56650598635047, 30.074558258056644]],
         author: ['VLKV_K','URVNTSV','MLVA_M','MRSKY_S'],
         type: ['PARK'],
@@ -765,6 +803,15 @@ let parkMaps = [
         owner: 'SFSO_SPB'
     },
     {
+        name: 'Парк Политеха',
+        year: 1986,
+        url: './maps/parks/politekh_1986.webp',
+        link: './original_maps/parks/politekh_1986_omaps.jpg',
+        bounds: [[60.0074610750649, 30.36782026290894], [60.0065171369767, 30.383892059326175], [60.000531084270904, 30.366189479827884]],
+        type: ['PARK'],
+        author: 'DBRTSV_V'
+    },
+    {
         name: 'Яблоновский сад',
         year: 2024,
         url: './maps/parks/yablonovsky_sad_2024.webp',
@@ -781,6 +828,14 @@ let parkMaps = [
         bounds: [[59.89821489089555, 30.473778247833256], [59.9008944788082, 30.484507083892826], [59.89679429878091, 30.475172996521]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
+        type: ['PARK']
+    },
+    {
+        name: 'Кудрово, р Оккервиль',
+        year: 1,
+        url: './maps/parks/kudrovo_west_retro.webp',
+        link: './original_maps/parks/kudrovo_west_retro_omaps.jpg',
+        bounds: [[59.91085763592447, 30.490128993988037], [59.91017989171182, 30.50240278244019], [59.904327048653506, 30.48914194107056]],
         type: ['PARK']
     },
     {
@@ -1324,6 +1379,14 @@ let parkMaps = [
     },
     {
         name: 'парк Есенина',
+        year: 1,
+        url: './maps/parks/park_esenina_retro.webp',
+        link: './original_maps/parks/park_esenina_retro_omaps.jpg',
+        bounds: [[59.91320273928732, 30.476310253143314], [59.915171207330616, 30.48512935638428], [59.90673716779972, 30.48266172409058]],
+        type: ['PARK']
+    },
+    {
+        name: 'парк Есенина',
         year: 1999,
         url: './maps/parks/esenina_1999.webp',
         link: './original_maps/parks/esenina_1999_omaps.jpg',
@@ -1383,9 +1446,10 @@ let parkMaps = [
     {
         name: 'Шуваловский парк',
         year: 2004,
-        url: './maps/parks/shuvalovsky_2004.webp',
-        link: './original_maps/parks/shuvalovsky_2004_omaps.jpg',
-        bounds: [[60.08877441342627, 30.29316902160645], [60.08644172418347, 30.32308101654053], [60.068395257960205, 30.28587341308594]],
+        url: './maps/parks/shuvalovsky_1999.webp',
+        link: ['./original_maps/parks/shuvalovsky_2004_omaps.jpg','./original_maps/parks/shuvalovsky_1999_omaps.jpg'],
+        editor: 'FDRV_L',
+        bounds: [[60.09179168399041, 30.28514385223389], [60.08864601280712, 30.32406806945801], [60.069080476162576, 30.278105735778812]],
         author: ['DBRTSV_V','DRBSHV'],
         type: ['PARK']
     },

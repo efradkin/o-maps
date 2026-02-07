@@ -11,6 +11,14 @@ let michuraMaps = [
         qtty: 90
     },
     {
+        name: 'Мичуринское',
+        year: 1986,
+        url: './maps/forest/michura/michurinskoe_1986.webp',
+        link: './original_maps/forest/michura/michurinskoe_1986_omaps.jpg',
+        bounds: [[60.61856558676941, 29.881696701049805], [60.60074797983218, 29.937400817871097], [60.57642771946657, 29.82968330383301]],
+        author: 'BYMKV',
+    },
+    {
         name: 'Ягодное',
         year: 1990,
         url: './maps/forest/michura/yagodnoe_1990.webp',

@@ -619,12 +619,13 @@ let cityMaps = [
     },
     {
         name: 'Кавалергардская ул',
-        year: 2012,
+        date: '2012-10-12',
         url: './maps/city/kavalergardskaya_2012.webp',
-        link: './original_maps/city/kavalergardskaya_2012_omaps.jpg',
+        link: ['./original_maps/city/kavalergardskaya_2012_omaps.jpg','./original_maps/starts/st/st_2012_10_12_kavalergardskaya.jpg'],
         bounds: [[59.9488751989346, 30.37754058837891], [59.948885944346074, 30.391466617584232], [59.94222312078742, 30.37754058837891]],
         author: 'RYLOV_V',
         owner: 'SHEIN',
+        start: 'ST',
         type: ['CITY']
     },
     {

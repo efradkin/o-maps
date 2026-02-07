@@ -737,6 +737,15 @@ let forestMaps = [
     },
     {
         name: 'Осиновая Роща',
+        year: 1999,
+        logo: 'wn_retro.webp',
+        url: './maps/forest/osinovaja_roscha_1999.webp',
+        link: './original_maps/forest/osinovaja_roscha_1999_omaps.jpg',
+        bounds: [[60.12438626201431, 30.241155624389652], [60.1228257086503, 30.267333984375004], [60.11023168745687, 30.237293243408207]],
+        author: 'KAZNTSVA_O'
+    },
+    {
+        name: 'Осиновая Роща',
         year: 1,
         url: './maps/forest/osinovaja_roscha_old.webp',
         link: './original_maps/forest/osinovaja_roscha_old_omaps.jpg',
