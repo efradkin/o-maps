@@ -4627,6 +4627,17 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Устинки',
+        date: '2026-02-07',
+        url: './maps/moscow/sz/ustinki_winter_rogaine_2026.webp',
+        link: 'https://rogaine.ru/results/mw2026/mw2026_map.jpg',
+        info: 'Лыжный трейл <a href="https://x-lite.run/mw2026">Московский White</a>.',
+        bounds: [[56.371430008427716, 37.74095535278321], [56.345087283451996, 38.009777069091804], [56.22169106247353, 37.694435119628906]],
+        owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Мураново',
         date: '2024-09-07',
         url: './maps/moscow/muranovo_rogaine_2024.webp',

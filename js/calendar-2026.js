@@ -236,6 +236,8 @@ let events2026 = [
     fmt: '6, 3',
     link: 'https://vk.com/event166397868',
     reg: 'https://orgeo.ru/event/48867',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24208/',
+    photo: 'https://vk.ru/album-166397868_310108895',
     map: 'omchino_luzhsky_2022',
     owner: 'SHBN'
 },
@@ -256,10 +258,22 @@ let events2026 = [
     name: 'Чемпионат ВУЗов СПБ',
     o_site: '260208_V',
     reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1715',
+    photo: 'https://drive.google.com/drive/folders/1fkqstomNhgUn82k-qqcHil0eq8518zZ8',
     place: 'Орехово',
     type: 'SKI',
     fmt: 'лично-командные',
     owner: 'SFSO_SPB'
+},
+{
+    id: 'SPB_20260208_2',
+    date: '2026-02-08',
+    name: 'Тренировка от Шириняна',
+    link: 'https://t.me/ositespbchat/4386',
+    place: 'Таврический сад',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24186/',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    owner: 'SHRNN'
 },
 {
     id: 'SPB_20260214_1',
