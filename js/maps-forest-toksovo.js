@@ -3,6 +3,14 @@ let toksovoMaps = [
     // --- ТОКСОВО ---
     {
         name: 'Сярьги',
+        year: 1964,
+        url: './maps/forest/toksovo/sjargi_1964.webp',
+        link: './original_maps/forest/toksovo/sjargi_1964_omaps.jpg',
+        bounds: [[60.145307630456486, 30.41848182678223], [60.1483838085718, 30.48517227172852], [60.121756793789224, 30.421915054321293]],
+        info: 'П-во Ленинграда среди школьников.'
+    },
+    {
+        name: 'Сярьги',
         date: '1971-02-07',
         url: './maps/forest/toksovo/sjargi_1971_lomo.webp',
         link: './original_maps/forest/toksovo/sjargi_1971_lomo_omaps.jpg',
@@ -599,7 +607,7 @@ let toksovoMaps = [
         owner: 'SHEIN'
     },
     {
-        name: 'Токсово - Светлое',
+        name: 'Токсово, оз Светлое',
         year: 1992,
         url: './maps/forest/toksovo/toksovo_svetloe_1992.webp',
         link: './original_maps/forest/toksovo/toksovo_svetloe_1992_omaps.jpg',
@@ -608,7 +616,15 @@ let toksovoMaps = [
         areas: [50,15,25,5,5]
     },
     {
-        name: 'Токсово - Светлое',
+        name: 'Токсово, оз Светлое',
+        year: 1999, // ?
+        url: './maps/forest/toksovo/toksovo_svetloe_1999.webp',
+        link: './original_maps/forest/toksovo/toksovo_svetloe_1999_omaps.jpg',
+        bounds: [[60.159895559977656, 30.441055297851566], [60.15654283139454, 30.486717224121097], [60.14520081354696, 30.43775081634522]],
+        owner: 'KARTA'
+    },
+    {
+        name: 'Токсово, оз Светлое',
         year: 2014,
         url: './maps/forest/toksovo/toksovo_svetloe_2014.webp',
         link: ['./original_maps/forest/toksovo/toksovo_svetloe_2014_omaps.jpg','./original_maps/forest/toksovo/toksovo_svetloe_yarky_cup_2014_omaps.jpg'],

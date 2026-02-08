@@ -314,6 +314,7 @@ let events2026 = [
     endDate: '2026-02-22',
     place: 'Кировск',
     name: 'ЧиП ЛО',
+    o_site: '260220_lo',
     reg: 'https://orgeo.ru/event/kirovsk_ski_o_2122022026',
     type: 'SKI',
     fmt: 'маркир,масстарт',

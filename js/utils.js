@@ -8,6 +8,7 @@ const O_SITE_ADDRESS_PREFIX = 'https://o-site.spb.ru/race.php?id=';
 const regions = {
     CHTA: 'Чита',
     DV: 'Дальний Восток',
+    FRA: 'Франция',
     GLNDZHK: 'Геленджик',
     KLGA: 'Калуга',
     KLNGRD: 'Калининград',

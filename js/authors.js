@@ -411,6 +411,7 @@ let authors = {
     TRFMV_A: { name: 'Трофимов Александр' },
     TRFMV_G: { name: 'Трофимов Герман' },
     TRNV_V: { name: 'Трунов Виктор' },
+    TRNV_VL: { name: 'Трунов Вл.' },
     TRNTV_V: {
         name: 'Терентьев Валерий',
         about: 'https://o-site.spb.ru/history/Peoples/valter.html'
@@ -797,12 +798,16 @@ let authors = {
 
     /* --- ПСКОВ --- */
 
+    ANNNKV: { name: 'Анненков А.' },
     CHRNH_Y: { name: 'Черных Ю.' },
     KBRSKY: { name: 'Кубарский Анатолий' },
     KHLMV_A: { name: 'Холмов Александр' },
+    MKHLEV_A: { name: 'Михалев А.' },
     NKTN_A: { name: 'Никитин Алексей' },
     NKTN_D: { name: 'Никитин Дмитрий' },
     NKTN_V: { name: 'Никитин Валентин' },
+    PRVLO: { name: 'Правило В.' },
+    SHSHKV: { name: 'Шишков Константин' },
     SLDTSKY: { name: 'Солдатский Алексей' },
 
     /* --- ПРОЧЕЕ --- */

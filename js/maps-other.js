@@ -251,4 +251,14 @@ let otherMaps = [
         results: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
         region: 'KZ'
     },
+    {
+        name: 'Париж, Диснейлэнд',
+        date: '2012-09-29',
+        url: './maps/other/paris_disneyland_2012.webp',
+        link: './original_maps/other/paris_disneyland_2012_omaps.webp',
+        info: 'Parc Disneyland. Le Bri\'O Tour Etape 2.',
+        bounds: [[48.87525102087206, 2.7719235420227055], [48.87530041538762, 2.781386375427246], [48.86795420960014, 2.77181625366211]],
+        logo: 'disney.gif',
+        region: 'FRA'
+    },
 ];

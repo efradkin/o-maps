@@ -93,4 +93,36 @@ let pskovMaps = [
         owner: 'PSKOV_RUS',
         type: ['SPRINT']
     },
+    {
+        name: 'Псков, Кремль',
+        year: 2003,
+        url: './maps/pskov/pskov_kremlin_2003.webp',
+        link: './original_maps/pskov/pskov_kremlin_2003_omaps.jpg',
+        info: '1100 лет городу Пскову. Кубок России.',
+        bounds: [[57.827148320551245, 28.324792385101322], [57.826702716289134, 28.354618549346927], [57.81656658821095, 28.324942588806156]],
+        author: ['SHSHKV','LSHV_A'],
+        owner: 'PSKOV_RUS',
+        type: ['CITY']
+    },
+    {
+        name: 'Ваулины горы',
+        year: 2003,
+        url: './maps/pskov/vauliny_hills_2003.webp',
+        link: './original_maps/pskov/vauliny_hills_2003_omaps.jpg',
+        info: '1100 лет городу Пскову. Кубок России.',
+        bounds: [[57.891657026189655, 28.29262733459473], [57.89081302976688, 28.3143424987793], [57.86826871528844, 28.288979530334476]],
+        author: ['PRVLO','SMKN_S','TRNV_V','JANN_Y'],
+        owner: 'PSKOV_RUS',
+        type: ['CITY']
+    },
+    {
+        name: 'оз Белое',
+        year: 1999,
+        url: './maps/pskov/white_lake_1999.webp',
+        link: './original_maps/pskov/white_lake_1999_omaps.jpg',
+        bounds: [[56.45755848600139, 28.973951339721683], [56.44916313236833, 29.078321456909183], [56.41888651563501, 28.96699905395508]],
+        author: ['ALSHN','ANNNKV','GLVNV_V','GRV_S','LVN_B','LNTV','MTN_Y','MKHLEV_A','PPV_V','SVIR_A','TRNV_V','TRNV_VL','JANN_Y'],
+        owner: 'PSKOV_RUS',
+        type: ['CITY']
+    },
 ];
