@@ -257,6 +257,17 @@ let otherMaps = [
         region: 'KRCHCHRK',
         type: ['CITY']
     },
+    {
+        name: 'Альплагерь Безенги',
+        year: 2022,
+        url: './maps/other/bezengi_2022.webp',
+        link: ['./original_maps/other/bezengi_2022_omaps.gif','./original_maps/other/bezengi_2022_omaps.ocd'],
+        bounds: [[43.11300637206235, 43.1458854675293], [43.11263826098369, 43.149629831314094], [43.10854972951116, 43.14490914344788]],
+        author: 'SMRNV_S',
+        owner: 'SMRNV_S',
+        region: 'KABARDA',
+        type: ['CITY']
+    },
 
     // --- Не Россия ---
     {

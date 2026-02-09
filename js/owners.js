@@ -530,6 +530,10 @@ let owners = {
         name: 'По вопросам использования карты - Кирилл Смирнов (920 9243226, <a href = "https://t.me/zzz_kir" >Telegram</a>).',
         logo: 'vladimir_obl.gif'
     },
+    SMRNV_S: {
+        name: 'По вопросам использования карты - Сергей Смирнов (89183038147, <a href="mailto:sergodrops@gmail.com">sergodrops@gmail.com</a>).',
+        logo: 'kabarda.gif'
+    },
     ZHRDV_T: {
         name: 'По вопросам использования карты - Тимур Жердев (8 903 416 6513, <a href = "https://t.me/Timyrnet" >Telegram</a>).',
         logo: 'karachay-cherkessia.gif'

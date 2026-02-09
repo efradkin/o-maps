@@ -831,6 +831,7 @@ let authors = {
     NR_D: { name: '<a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>' },
     PNCHKV: { name: 'Панчуков С.' },
     SMRNV_K: { name: 'Смирнов Кирилл' },
+    SMRNV_S: { name: 'Смирнов Сергей' },
     TRFNV_A: { name: 'Труфанов Александр' }, // Федорович
     ZHRDV_T: { name: 'Жердев Тимур' },
 };
