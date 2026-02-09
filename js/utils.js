@@ -305,7 +305,9 @@ function getFirstTrack(t) {
 }
 
 function trackLink(url, exclusive) {
-    return location.origin + '/tracks.html?' + (exclusive ? 'only' : '') + 'track=' + extractFileName(url);
+    let fileName = extractFileName(url);
+    if (fileName.endsWith('_omaps')) fileName = fileName.substring(0, fileName.length - 6);
+    return location.origin + '/tracks.html?' + (exclusive ? 'only' : '') + 'track=' + fileName;
 }
 
 function buildLink(link, content, title, allItems, isDownload) {
