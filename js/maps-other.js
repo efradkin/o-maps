@@ -42,6 +42,15 @@ let otherMaps = [
         author: ['TKMKV_K','KVZN','LUK_V'],
         owner: 'GRN_V'
     },
+    {
+        name: 'Ковров, Гридино',
+        year: 2025,
+        url: './maps/other/kovrov_gridino_2025.webp',
+        link: './original_maps/other/kovrov_gridino_2025_omaps.gif',
+        bounds: [[56.337071490774015, 41.33520126342774], [56.33516838462233, 41.3521957397461], [56.32967263288713, 41.33254051208497]],
+        author: 'SMRNV_K',
+        owner: 'SMRNV_K'
+    },
     // --- Калининградская обл ---
     {
         name: 'Матросовский лес',

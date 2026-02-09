@@ -526,8 +526,12 @@ let owners = {
     KRSHNV: {
         name: '© Коршунов Евгений Владимирович (+7-911-456-88-41, korshunov_e.v@mail.ru)' // , https://korshunyata.ru/
     },
+    SMRNV_K: {
+        name: 'По вопросам использования карты - Кирилл Смирнов (920 9243226, <a href = "https://t.me/zzz_kir" >Telegram</a>).',
+        logo: 'vladimir_obl.gif'
+    },
     ZHRDV_T: {
-        name: 'По вопросам использования карты - Жердев Тимур (8 903 416 6513, <a href = "https://t.me/Timyrnet" >Telegram</a>).',
+        name: 'По вопросам использования карты - Тимур Жердев (8 903 416 6513, <a href = "https://t.me/Timyrnet" >Telegram</a>).',
         logo: 'karachay-cherkessia.gif'
     },
 
