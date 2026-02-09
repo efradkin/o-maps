@@ -237,6 +237,17 @@ let otherMaps = [
         region: 'GLNDZHK',
         type: ['CITY']
     },
+    {
+        name: 'Домбай, отель Гранд Виктория',
+        year: 2025,
+        url: './maps/other/dombai_2025.webp',
+        link: './original_maps/other/dombai_2025_omaps.gif',
+        bounds: [[43.29037338009644, 41.61844253540039], [43.29003757536656, 41.62283062934876], [43.287483836877826, 41.6178846359253]],
+        author: 'ZHRDV_T',
+        owner: 'ZHRDV_T',
+        region: 'KRCHCHRK',
+        type: ['CITY']
+    },
 
     // --- Не Россия ---
     {

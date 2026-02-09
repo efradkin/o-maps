@@ -567,4 +567,8 @@ let owners = {
         name: '@ <a href="https://mass-sport.ru/">Масс-спорт</a>',
         logo: 'mass-sport.webp'
     },
+    ZHRDV_T: {
+        name: 'По вопросам использования карты - Жердев Тимур (8 903 416 6513, <a href = "https://t.me/Timyrnet" >Telegram</a>).',
+        logo: 'karachay-cherkessia.gif'
+    },
 }
