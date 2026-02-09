@@ -88,10 +88,11 @@ a, a:active, a:focus {
 }
 .region-box {
     text-align: center;
-    border: 5px solid darkolivegreen;
-    border-radius: 30px;
+    border: 3px solid darkolivegreen;
+    border-radius: 20px;
+    height: 180px;
 }
-.region-box h2 {
+.region-box h5 {
     color: darkolivegreen;
 }
 .region-box a {
