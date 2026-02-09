@@ -94,6 +94,23 @@ let pskovMaps = [
         type: ['SPRINT']
     },
     {
+        name: 'Выбуты',
+        year: 2021,
+        url: './maps/pskov/vybuty_2021.webp',
+        link: './original_maps/pskov/vybuty_2021_omaps.gif',
+        bounds: [[57.73293497257848, 28.263831138610843], [57.72997932514372, 28.29558849334717], [57.70843475761412, 28.255505561828617]],
+        author: 'TTYNN_V',
+        owner: 'O_PSKOV',
+    },
+    {
+        name: 'Аэропорт',
+        year: 2021,
+        url: './maps/pskov/pskov_aeroport_2021.webp',
+        link: './original_maps/pskov/pskov_aeroport_2021_omaps.gif',
+        bounds: [[57.78202294299561, 28.364596366882328], [57.779323006568035, 28.38674068450928], [57.7648588935378, 28.35948944091797]],
+        owner: 'O_PSKOV',
+    },
+    {
         name: 'Псков, Кремль',
         year: 2003,
         url: './maps/pskov/pskov_kremlin_2003.webp',
@@ -105,6 +122,15 @@ let pskovMaps = [
         type: ['CITY']
     },
     {
+        name: 'Плехановский посад',
+        year: 2020,
+        url: './maps/pskov/plehanovsky_posad_2020.webp',
+        link: './original_maps/pskov/plehanovsky_posad_2020_omaps.gif',
+        bounds: [[57.82405182835562, 28.34648609161377], [57.82402897502587, 28.36890935897827], [57.80890832237853, 28.34648609161377]],
+        author: 'ABRSMV',
+        owner: 'O_PSKOV',
+    },
+    {
         name: 'Ваулины горы',
         year: 2003,
         url: './maps/pskov/vauliny_hills_2003.webp',
@@ -114,6 +140,14 @@ let pskovMaps = [
         author: ['PRVLO','SMKN_S','TRNV_V','JANN_Y'],
         owner: 'PSKOV_RUS',
         type: ['CITY']
+    },
+    {
+        name: 'Муровицы',
+        year: 2022,
+        url: './maps/pskov/murovitsi_2022.webp',
+        link: './original_maps/pskov/murovitsi_2022_omaps.gif',
+        bounds: [[57.89202199147954, 28.14225196838379], [57.88805279501551, 28.17456722259522], [57.87052834737465, 28.13448429107666]],
+        owner: 'O_PSKOV',
     },
     {
         name: 'оз Белое',

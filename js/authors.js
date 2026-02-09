@@ -798,6 +798,7 @@ let authors = {
 
     /* --- ПСКОВ --- */
 
+    ABRSMV: { name: 'Абросимов Василий' },
     ANNNKV: { name: 'Анненков А.' },
     CHRNH_Y: { name: 'Черных Ю.' },
     KBRSKY: { name: 'Кубарский Анатолий' },

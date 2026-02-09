@@ -493,14 +493,21 @@ let owners = {
         logo: 'bash.gif'
     },
 
+    /* --- Псков --- */
+
+    PSKOV_RUS: {
+        name: '© <a href="https://vk.com/skorus">СКО "Русь"</a>',
+        logo: 'pskov_rus.webp'
+    },
+    O_PSKOV: {
+        name: '© <a href="https://vk.com/skopskov">О-ПСКОВ</a>, по вопросам использования карты обращайтесь к <a href="https://t.me/NikolaiNikolaevichPskov">Иванову Николаю</a>.',
+        logo: 'o-pskov.gif'
+    },
+
     /* --- Прочее --- */
 
     DRN_E: {
         name: '© Дронь Елисей (8-918-363-26-89)'
-    },
-    RUNC: {
-        name: '© <a href="https://runc.run/">Беговое сообщество</a>',
-        logo: 'runc.gif'
     },
     FSO_KARELIA: {
         name: '© <a href="http://fso.karelia.ru/">ФСО Республики Карелия</a>',
@@ -513,15 +520,22 @@ let owners = {
     NR_D: {
         name: '© <a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>',
     },
-    PSKOV_RUS: {
-        name: '© <a href="https://vk.com/skorus">СКО "Русь"</a>',
-        logo: 'pskov_rus.webp'
-    },
     GRN_V: {
         name: '© Горин Владимир'
     },
     KRSHNV: {
         name: '© Коршунов Евгений Владимирович (+7-911-456-88-41, korshunov_e.v@mail.ru)' // , https://korshunyata.ru/
+    },
+    ZHRDV_T: {
+        name: 'По вопросам использования карты - Жердев Тимур (8 903 416 6513, <a href = "https://t.me/Timyrnet" >Telegram</a>).',
+        logo: 'karachay-cherkessia.gif'
+    },
+
+    /* --- Не ориент --- */
+
+    RUNC: {
+        name: '© <a href="https://runc.run/">Беговое сообщество</a>',
+        logo: 'runc.gif'
     },
     MINSPORT: {
         name: '© Минспорт России',
@@ -566,9 +580,5 @@ let owners = {
     MASS_SPORT: {
         name: '@ <a href="https://mass-sport.ru/">Масс-спорт</a>',
         logo: 'mass-sport.webp'
-    },
-    ZHRDV_T: {
-        name: 'По вопросам использования карты - Жердев Тимур (8 903 416 6513, <a href = "https://t.me/Timyrnet" >Telegram</a>).',
-        logo: 'karachay-cherkessia.gif'
     },
 }
