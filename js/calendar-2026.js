@@ -348,14 +348,24 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
-    id: 'SPB_20260301_1',
+    id: 'SPB_20260228_1',
     date: '2026-02-28',
     endDate: '2026-03-01',
     name: 'ЧиП СПб',
     place: 'Орехово',
     o_site: '260228_ChiP',
     type: 'SKI',
-    fmt: 'масстарт, маркир',
+    fmt: 'масстарт',
+    owner: 'SFSO_SPB'
+},
+{
+    id: 'SPB_20260301_1',
+    date: '2026-03-01',
+    name: 'Региональные соревнования (Маркир)',
+    place: 'Орехово',
+    o_site: '260301_Reg',
+    type: 'SKI',
+    fmt: 'маркир',
     owner: 'SFSO_SPB'
 },
 {

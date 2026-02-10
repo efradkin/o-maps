@@ -1149,7 +1149,7 @@ function buildEventType(evt, withFmt) {
             case 'FUN':
                 result = 'Интерактив';
         }
-        if (!result) {
+        if (!result && evt.type) {
             if (evt.type.includes('WATER')) {
                 result = 'Водный рогейн';
             } else if (evt.type.includes('SKI')) {

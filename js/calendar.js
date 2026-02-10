@@ -190,12 +190,12 @@ function renderMapsTable() {
             if(evt.cancelled) {
                 row.classList.add('cancelled');
             }
-            if (evt.type.includes('WATER')) {
-                row.classList.add('water');
-                krogaines++;
-            } else if (evt.type.includes('ORIENT')) {
+            if (!evt.type || evt.type.includes('ORIENT')) {
                 row.classList.add('orient');
                 korients++;
+            } else if (evt.type.includes('WATER')) {
+                row.classList.add('water');
+                krogaines++;
             } else if (isRogaine(evt)) {
                 row.classList.add('rogaine');
                 krogaines++;
@@ -250,7 +250,7 @@ function td(evt, row, html) {
 
 function buildNumber(event, i) {
     let icon = '';
-    if (!onlyOneSport) {
+    if (!onlyOneSport && event.type) {
         if (event.type.includes('SK_RACE')) {
             icon = '&nbsp;⛷';
         } else if (event.type.includes('RUN')) {
