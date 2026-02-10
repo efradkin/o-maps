@@ -1,0 +1,177 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.83">
+    <title>o-Maps: внутренние структуры данных</title>
+    <meta name="description" content="Карты? Найдутся все! Описание сайта.">
+    <link rel="icon" type="image/png" href="../favicon.png"/>
+    <link href='../css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css"/>
+
+    <meta property="og:title" content="o-Maps: внутренние структуры данных.">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Карты? Найдутся все! Описание сайта.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <script src="../js/ext/jquery.slim.min.js"></script>
+    <script src="../js/ext/bootstrap.min.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body help-body">
+    <header class="main-header">
+        <h1><a href="../index.html">O-maps</a> ◪ <a href="help.html">Справка</a></h1>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section>
+                <nav>
+                    <h2>Внутренние структуры данных</h2>
+                    <ul>
+                        <li><a href="#maps">Карты</a></li>
+                        <li><a href="#tracks">Маршруты</a></li>
+                        <li><a href="#calendars">Календари</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="clearfix">
+                <p>Все внутренние данные проекта хранятся в виде JS/JSON массивов объектов в кодировке UTF-8. Поля объектов описаны ниже. Как правило, практически любые из них необязательны.
+            </section>
+
+            <section>
+                <h3 id="maps">Карты</h3>
+                <pre>
+                    <code class="language-javascript">
+{
+    name: 'some text', // название, желательно без двойных кавычек
+    year: 2025, // год издания (корректировки)
+    date: '2025-12-26', // дата связанного с картой старта
+    logo: 'logo.gif', // логотип
+    about: 'http://some.link', // внешняя ссылка на описание карты/события
+    info: 'some text', // любое текстовое описание
+    url: './maps/some.webp', // уменьшенная картинка карты (превьюшка)
+    link: 'some link', // ссылка на полноразмерное изображение карты в произвольном формате - строка или массив строк
+    bounds: [[x1, y1], [x2, y2], [x3, y3]], // координаты трёх углов карты (привязка)
+    area: 123, // площадь карты (в км2)
+    gps: 'some link', // GPS-трансляция - строка или объект вида 'имя':'ссылка'
+    start: ['START1','START2'], // код связанного с картой старта - строка или массив строк
+    o_site: 'some link', // идентификатор странички старта на сайте o-site.spb.ru
+    results: 'some link', // ссылка на страничку с результатами старта
+    author: ['AUTHOR1','AUTHOR2'], // код автора карты - строка или массив строк
+    areas: [20, 80], // проценты площади карты, отрисованные авторами
+    owner: ['OWNER1','OWNER2'], // код владельца карты - строка или массив строк
+    planner: ['PLANNER1','PLANNER2'], // код планировщика дистанции - строка или массив строк
+    type: ['WINTER','RELIEF','SPECIAL','FOTO','CITY','SPRINT','PARK','VELO','FUN','ROGAINE'] // тип карты - массив строк,
+    hidden: true, // такая карта не отображается
+    major: true, // карта важного старта, выделяется в списке
+    excluded: true, // такая карта не включается в статистику
+},
+                    </code>
+                </pre>
+                <p>Для <a href="https://o-maps.spb.ru/js/maps-unknown.js">списка карт, по которым недостаточно информации</a>,
+                    все поля данных, кроме <b>link</b>, необязательные. Для всех остальных обязательны только <b>url</b> и <b>name</b>.
+                    Пример такого набора данных - <a href="https://o-maps.spb.ru/js/maps-city.js">городские карты Санкт-Петербурга</a>.
+            </section>
+
+
+            <section>
+                <h3 id="tracks">Маршруты</h3>
+                <pre>
+                    <code class="language-javascript">
+{
+    name: 'some text', // название, желательно без двойных кавычек
+    date: '2023-10-07', // дата соревнований
+    year: 2025, // год проведения соревнований или когда сделан GPX-трек
+    results: 'some link', // внешняя ссылка на страничку результатов соревнований
+    info: 'some text', // любое текстовое описание
+    link: 'some link', // внешняя ссылка на страничку описания маршрута
+    gpx: 'gpx link', // GPX файл трека - строка или объект вида 'имя':'ссылка'
+    start: ['START1','START2'], // код связанного с маршрутом старта - строка или массив строк
+    type: ['WALK','RUN','VELO','SKI','WATER'], // тип маршрута - массив строк
+    ski_kind: 'SKATE_ROUTE', // код типа лыжни
+    logo: 'logo.gif', // логотип
+    pics: ['folder',3], // папка с картинками
+    markir: true, // признак того, что маршрут промаркирован на местности
+},
+                    </code>
+                </pre>
+                <p>Поля <b>name</b> и <b>gpx</b> - обязательные.
+                <p>Поле <b>ski_kind</b> может принимать значения SKATE_ROUTE (конёк), CLASSIC_ROUTE (классика), FICKLE_ROUTE (непостоянно), WALKWAY (парк) и FURROW (самотоп).
+                <p>Значение поля <b>pics</b> - массив из двух элементов: имя папки с картинками и их количество.
+                <p>Пример такого набора данных - <a href="https://o-maps.spb.ru/js/tracks-run.js">беговые маршруты</a>.
+            </section>
+
+            <section>
+                <h3 id="calendars">Календари</h3>
+                <pre>
+                    <code class="language-javascript">
+{
+    id: 'SPB_20260208_2', // идетификатор события в формате ПРЕФИКС_ДАТА_НОМЕР
+    date: '2025-12-26', // дата события
+    endDate: '2025-12-27', // конечная дата для многодневных стартов
+    place: 'some text', // место старта
+    name: 'some text', // название
+    logo: 'logo.gif', // логотип
+    type: ['ORIENT','ROGAINE','SKI','VELO','TOURISM','WATER','FUN','MULTI','SK_RACE','RUN'], // вид старта, возможны комбинации
+    fmt:  'any text', // формат старта (продолжительность рогейна, спринт, эстафета и пр)
+    link: 'some link', // ссылка на страничку старта
+    o_site: 'some link', // идентификатор странички старта на сайте o-site.spb.ru
+    reg: 'some link', // ссылка на страничку регистрации
+    info: 'some text', // комментарий или пояснение
+    res: 'some link', // ссылка на результаты
+    reskeep: 123, // идентификатор страницы результатов в RESKEEP
+    photo: 'some link', // ссылка на страничку с фотками - строка или массив строксфду
+    video: 'some link', // ссылка на видео отчёт или трансляция - строка или массив строк
+    gps: 'some link', // ссылка на GPS-трансляцию - строка или объект вида 'имя':'ссылка'
+    map: 'map_name', // идентификатор карты в о-мапс
+    coord: [123, 456], // координаты старта
+    owner: 'OWNER', // код владельца - строка или массив строк
+    planner: 'PLANNER', // код планировщика дистанции - строка или массив строк
+    start: 'START', // код старта-многодневки - строка или массив строк
+    russialoppet: true, // признак лыжного старта серии Russialoppet
+}
+                    </code>
+                </pre>
+                <p>Поле <b>map</b> для карты соответствует значению параметра <b>map</b> в ссылке на неё, которую можно получить,
+                    кликнув по кнопке "Копировать ссылку" во всплывающем окошке информации о карте. Или, иначе, оно соответствует значению поля <b>url</b> в JSON-описании карты.
+                <p>Поля <b>owner</b>, <b>start</b> и <b>russialoppet</b> используются для выбора соответствующего логотипа.
+                <p>Пример такого набора данных - <a href="https://o-maps.spb.ru/js/calendar-2026.js">питерский календарь 2026</a>.
+            </section>
+
+        </div>
+
+        <noscript>
+            <div id="noscript_content">
+                Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+            </div>
+        </noscript>
+    </main>
+
+    <footer>
+        <hr />
+        <span class="my-copyright">© <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>, <a href="https://t.me/o_maps" target="_blank">O-maps group</a></span>
+    </footer>
+</body>
+</html>
