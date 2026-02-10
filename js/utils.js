@@ -913,16 +913,19 @@ function validateEvent(evt) {
 
 function buildEventDate(evt) {
     const date = new Date(evt.date);
-    const day = date.getDate();
-    const month = MONTHS_SHORT[date.getMonth()];
+    let day = date.getDate();
+    let month = MONTHS_SHORT[date.getMonth()];
     //const year = date.getFullYear();
-    const dayWeek = WEAK_DAYS_SHORT[date.getDay()];
+    let dayWeek = WEAK_DAYS_SHORT[date.getDay()];
 
-    let result = day;
+    let result = `${day} ${month} (${dayWeek})`
     if (evt.endDate) {
-        result += '-' + new Date(evt.endDate).getDate();
+        const endDate = new Date(evt.endDate);
+        day = endDate.getDate();
+        month = MONTHS_SHORT[endDate.getMonth()];
+        dayWeek = WEAK_DAYS_SHORT[endDate.getDay()];
+        result += ` - ${day} ${month} (${dayWeek})`
     }
-    result += ` ${month} (${dayWeek})`
     return result;
 }
 
