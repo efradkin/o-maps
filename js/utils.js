@@ -186,6 +186,29 @@ let skiTrackKind = {
     },
 };
 
+let CALENDAR_PLACES = {
+    GARBO: ['гарболово','наша трасса'],
+    GATCH: ['гатчин'],
+    DDR: ['дудергоф','можай'],
+    ZELIK: ['зеленогорск','прибой','сестрорецк'],
+    OREKH: ['орехово'],
+    PSHK: ['пушкин','царско'],
+    SPB: ['спб','петербург','крестовский','парголово','екатерингоф','полежа','полюстр','яблоновский','интренацианолистов','пискаревск','городов-героев'],
+    TKS: ['токсово','кузьмолово','охта-парк','осельки','утц'],
+    VBR: ['выборг', 'выборж'],
+    NONP: ['демино', 'петрозаводск'],
+};
+
+function getEventPlaceCode(place) {
+    for (let p in CALENDAR_PLACES) {
+        for (const s of CALENDAR_PLACES[p]) {
+            if (place.toLowerCase().includes(s)) {
+                return p;
+            }
+        }
+    }
+}
+
 function getTypesList(m, colored) {
     let list = [];
     let type = m.type;

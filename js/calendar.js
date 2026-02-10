@@ -88,6 +88,9 @@ if (EVENT_TYPE_PARAM && ('ALL' !== EVENT_TYPE_PARAM)) {
         if ('VELO' === EVENT_TYPE_PARAM) {
             return event.type.includes('VELO');
         }
+        if (event.place && Object.keys(CALENDAR_PLACES).includes(EVENT_TYPE_PARAM)) {
+            return (EVENT_TYPE_PARAM === getEventPlaceCode(event.place));
+        }
     });
 }
 if ((EVENT_TYPE_PARAM && ('ALL' !== EVENT_TYPE_PARAM)) || CALENDAR_NAME_PARAM) {
