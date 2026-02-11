@@ -614,11 +614,14 @@ let forestMaps = [
     },
     {
         name: 'Медное оз',
-        year: 2001,
-        url: './maps/forest/mednoe_svetloe_2001.webp',
-        link: './original_maps/forest/mednoe_svetloe_2001_omaps.jpg',
-        bounds: [[60.231246675898234, 30.110778808593754], [60.226260342518756, 30.17231941223145], [60.20276749516488, 30.10116577148438]],
+        year: 2006,
+        excluded: true,
+        url: './maps/forest/mednoe_rfar_2006.webp',
+        link: ['./original_maps/forest/mednoe_rfar_2006_omaps.gif','./original_maps/forest/mednoe_rfar_2006_velo_omaps.gif','./original_maps/forest/mednoe_rfar_2006_last_omaps.gif','./original_maps/forest/mednoe_svetloe_2001_omaps.jpg'],
+        bounds: [[60.231246675898234, 30.110692977905277], [60.22634558535981, 30.172147750854496], [60.204900026838345, 30.10133743286133]],
         author: 'CHGRVSKY_V',
+        owner: 'CHGRVSKY_V',
+        start: 'RFAR',
         zindex: 2
     },
 /*

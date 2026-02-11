@@ -2,6 +2,28 @@
 let rogaineRfarMaps = [
     // --- RFAR ---
     {
+        name: 'Медное и Пасторское оз',
+        date: '2006-06-10',
+        url: './maps/rogaine/mednoe_pastorskoe_rfar_rogaine_2006.webp',
+        link: './original_maps/rogaine/mednoe_pastorskoe_rfar_rogaine_2006_omaps.gif',
+        bounds: [[60.28723749726887, 30.042285919189457], [60.260254638674034, 30.18630981445313], [60.22736848216193, 29.993705749511722]],
+        author: 'CHGRVSKY_V',
+        owner: 'CHGRVSKY_V',
+        start: 'RFAR',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Гарболово, Банное оз',
+        date: '2006-06-11',
+        url: './maps/rogaine/vaskelovo_bannoe_rfar_rogaine_2006.webp',
+        link: ['./original_maps/rogaine/vaskelovo_bannoe_rfar_rogaine_2006_omaps.gif','./original_maps/rogaine/vaskelovo_bannoe_rfar_rogaine_2006_north_omaps.gif'],
+        bounds: [[60.4606879196854, 30.409126281738285], [60.45163096876463, 30.534782409667972], [60.34979962328417, 30.37754058837891]],
+        author: 'CHGRVSKY_V',
+        owner: 'CHGRVSKY_V',
+        start: 'RFAR',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Выборг',
         start: 'RFAR',
         year: 2013,

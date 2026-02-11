@@ -198,11 +198,13 @@ let vaskelovoMaps = [
     },
     {
         name: 'Гарболово, Банное оз',
-        year: 2006,
+        date: '2006-06-11',
         url: './maps/forest/vaskelovo/vaskelovo_bannoe_2006.webp',
-        link: './original_maps/forest/vaskelovo/vaskelovo_bannoe_2006_omaps.jpg',
-        bounds: [[60.38116302014467, 30.430583953857425], [60.37838439793587, 30.45890808105469], [60.36851943568496, 30.42672157287598]],
-        author: 'CHGRVSKY_V'
+        link: ['./original_maps/forest/vaskelovo/vaskelovo_bannoe_2006_omaps.gif','./original_maps/forest/vaskelovo/vaskelovo_rfar_2006_etap3_omaps.gif','./original_maps/forest/vaskelovo/vaskelovo_rfar_2006_etap5_omaps.gif','./original_maps/forest/vaskelovo/vaskelovo_rfar_2006_roliki_omaps.gif'],
+        bounds: [[60.422326711658414, 30.438480377197266], [60.417835575234506, 30.48688888549805], [60.3592245458256, 30.415134429931644]],
+        author: 'CHGRVSKY_V',
+        owner: 'CHGRVSKY_V',
+        start: 'RFAR'
     },
     {
         name: 'Коросары',
