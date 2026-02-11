@@ -71,6 +71,18 @@ let rogaineRfarMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Кажма, северная Онега',
+        start: 'RFAR',
+        year: 2015,
+        url: './maps/rogaine/onega_kazhma_rfar_2015.webp',
+        link: './original_maps/rogaine/onega_kazhma_rfar_2015_omaps.gif',
+        bounds: [[62.755983287298086, 35.04226684570313], [62.39243781247059, 35.46970367431641], [62.6391349133703, 34.5736312866211]],
+        results: 'https://adventure-race.redfox.ru/archive/archive_2015/',
+        author: 'CHGRVSKY_V',
+        owner: 'RFAR',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Лахденпохья',
         start: 'RFAR',
         year: 2020,
