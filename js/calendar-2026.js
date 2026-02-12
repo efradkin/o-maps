@@ -415,6 +415,7 @@ let events2026 = [
     fmt: '5, 2.5',
     type: 'ROGAINE',
     link: 'https://vk.com/club91656163',
+    reg: 'https://orgeo.ru/event/49261',
     map: 'luga_shalovo_lm_2023',
     owner: 'LM'
 },
