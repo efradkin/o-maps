@@ -96,7 +96,7 @@ let vsevolozhskMaps = [
         year: 1982,
         startYear: 1985,
         info: '21,27.04. Открытие сезона ЛГС ДСО "Спартак".',
-        results: './docs/1985_04_21_gdacha_omaps.pdf',
+        results: './docs/1985/1985_04_21_gdacha_omaps.pdf',
         url: './maps/forest/vsevolozhsk/golubaya_dacha_1982.webp',
         link: ['./original_maps/starts/other/gdacha_1985_04_21_M_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_M_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_MW13_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MB_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WB_omaps.jpg'],
         bounds: [[59.967685078278585, 30.609111785888675], [59.96579490488528, 30.659837722778324], [59.94538275567055, 30.607652664184574]],

@@ -247,6 +247,16 @@ let otherMaps = [
         type: ['CITY']
     },
     {
+        name: 'Нижний Архыз',
+        year: 1987,
+        url: './maps/other/nizhny_archyz_1987.webp',
+        link: './original_maps/other/nizhny_archyz_1987_omaps.jpg',
+        bounds: [[43.70570110447654, 41.46034240722657], [43.70455322644414, 41.498408317565925], [43.678332191097546, 41.46330356597901]],
+        author: 'SKRSKY_A',
+        logo: 'karachay-cherkessia.gif',
+        region: 'KRCHCHRK',
+    },
+    {
         name: 'Домбай, отель Гранд Виктория',
         year: 2025,
         url: './maps/other/dombai_2025.webp',

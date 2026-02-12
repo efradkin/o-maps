@@ -67,7 +67,9 @@ let authors = {
         logo: 'che.jpg'
     },
     CHKVSKY_N: { name: 'Чайковский Н.' },
+    CHRNNKO_G: { name: 'Черненко Г.' },
     CHRNV_G: { name: 'Чернов Г.' },
+    CHRPNV_V: { name: 'Черепанов В.' },
     CHSNKV: { name: 'Чесноков А.' },
     DBRTSV_S: {
         name: 'Добрецов Сергей',
@@ -107,6 +109,7 @@ let authors = {
         name: 'Фёдоров Леонид', // Александрович
         about: 'https://o-site.spb.ru/history/Peoples/leonfed.html'
     },
+    FDRV_N: { name: 'Фёдоров Н.' },
     FDTV_A: { name: 'Федотов А.' },
     FLCHKN: { name: 'Филичкин Н.' },
     FLMNV: { name: 'Филимонов Фёдор' },
@@ -830,6 +833,7 @@ let authors = {
     NBLSNV: { name: 'Небольсинов Алексей' },
     NR_D: { name: '<a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>' },
     PNCHKV: { name: 'Панчуков С.' },
+    SKRSKY_A: { name: 'Сикорский А.' },
     SMRNV_K: { name: 'Смирнов Кирилл' },
     SMRNV_S: { name: 'Смирнов Сергей' },
     TRFNV_A: { name: 'Труфанов Александр' }, // Федорович

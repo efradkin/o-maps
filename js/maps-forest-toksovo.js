@@ -206,6 +206,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/toksovo_malinovaya_gora_1989_winter_omaps.jpg',
         bounds: [[60.18638503121964, 30.44620513916016], [60.18087971211821, 30.52989006042481], [60.14902464279283, 30.436763763427738]],
         author: ['DBRTSV_V','CHGRVSKY_Y','BSTRV_A','GBNV_A','KRPLSN','GRBTNKV','DBRTSV_S','GUSEV_I'],
+        logo: 'ski_retro.gif',
         type: ['WINTER']
     },
     {

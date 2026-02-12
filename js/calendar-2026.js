@@ -376,7 +376,8 @@ let events2026 = [
     type: 'ROGAINE',
     fmt: '6, 3',
     map: 'vuoksa_rogaine_2019',
-    start: 'MULTSPORT'
+    start: 'MULTSPORT',
+    cancelled: true
 },
 {
     id: 'SPB_20260308_1',
@@ -387,6 +388,14 @@ let events2026 = [
     fmt: 'спринт',
     map: 'pulkovsky_2024',
     owner: 'SFSO_SPB'
+},
+{
+    id: 'SPB_20260308_2',
+    date: '2026-03-08',
+    name: 'Лыжный рогейн',
+    place: 'Шапки',
+    type: ['ROGAINE','SKI'],
+    map: 'shapki_KKM_2020_12',
 },
 {
     id: 'SPB_20260405_1',

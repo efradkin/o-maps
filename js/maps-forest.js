@@ -214,6 +214,13 @@ let forestMaps = [
         qtty: 20
     },
     {
+        name: 'Юкки',
+        year: 1976,
+        url: './maps/forest/yukki_1976.webp',
+        link: './original_maps/forest/yukki_1976_omaps.jpg',
+        bounds: [[60.12637425707626, 30.27364253997803], [60.122718818726185, 30.34805774688721], [60.103023773335174, 30.26917934417725]],
+    },
+    {
         name: 'Юкки, север',
         year: 2007,
         url: './maps/forest/yukki_north_2007.webp',

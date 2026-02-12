@@ -20,6 +20,7 @@ let specialMaps = [
         author: ['CHGRVSKY_V','BRNVA','KRPLSN','SMNA','CHKVSKY_N','DBRTSV_V','GRSMVA','BSTRV_A','PTRNNA','KRNLJV','CHGRVSKY_Y'],
         areas: [50,3,2,2,3,10,2,3,2,3,20],
         type: ['WINTER'],
+        logo: 'ski_retro.gif',
         qtty: 20
     },
     {
@@ -31,6 +32,7 @@ let specialMaps = [
         author: ['CHGRVSKY_Y','DBRTSV_V','KRPLSN','BSTRV_A','BRSVA_I','GUSEV_I'],
         areas: [40,30,5,5,10,10],
         type: ['WINTER'],
+        logo: 'ski_retro.gif',
         qtty: 10
     },
     {
@@ -52,6 +54,16 @@ let specialMaps = [
         type: ['WINTER']
     },
     {
+        name: 'Орехово, Лемболово',
+        year: 1986,
+        url: './maps/winter/orekhovo_lembolovo_winter_1986.webp',
+        link: './original_maps/winter/orekhovo_lembolovo_winter_1986_omaps.jpg',
+        bounds: [[60.473041927987076, 30.27694702148438], [60.46627319069453, 30.38578033447266], [60.419954113089155, 30.263385772705078]],
+        author: 'BYMKV',
+        logo: 'winter_retro.gif',
+        type: ['WINTER']
+    },
+    {
         name: 'Орехово, оз Нырково',
         year: 2012,
         url: './maps/winter/orekhovo_nyrkovo_winter_2012.webp',
@@ -65,9 +77,11 @@ let specialMaps = [
         name: 'Орехово',
         year: 2010,
         url: './maps/winter/orekhovo_winter_2010.webp',
+        link: './original_maps/winter/orekhovo_winter_2010_omaps.jpg',
         bounds: [[60.460666761529005, 30.279736518859867], [60.45687922940639, 30.326771736145023], [60.44310073619961, 30.274243354797367]],
         author: ['KVZN','NSNV'],
-        type: ['WINTER']
+        type: ['WINTER'],
+        owner: 'SFSO_SPB'
     },
     {
         name: 'Рощино',
@@ -78,6 +92,17 @@ let specialMaps = [
         author: 'SHRNN',
         type: ['WINTER'],
         zindex: 2
+    },
+    {
+        name: 'Сярьги',
+        year: 1985,
+        url: './maps/winter/siargi_winter_1985.webp',
+        link: './original_maps/winter/siargi_winter_1985_omaps.jpg',
+        bounds: [[60.15902003964619, 30.405178070068363], [60.15167329174536, 30.532035827636722], [60.114786617903576, 30.39530754089356]],
+        author: ['CHGRVSKY_V','CHGRVSKY_Y'],
+        editor: 'FDRV_N',
+        logo: 'winter_retro.gif',
+        type: ['WINTER'],
     },
     {
         name: 'Кузьмолово',

@@ -175,5 +175,6 @@ let otherEvents2026 = [
     name: 'Гатчинский марафон',
     type: 'SK_RACE',
     fmt: '50,30,10 skate',
+    cancelled: true
 },
 ];

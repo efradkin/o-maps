@@ -71,6 +71,16 @@ let michuraMaps = [
         qtty: 7
     },
     {
+        name: 'Мичуринское, Петриченко',
+        year: 1990,
+        url: './maps/forest/michura/michurinskoe_petrichenko_1990.webp',
+        link: './original_maps/forest/michura/michurinskoe_petrichenko_1990_omaps.jpg',
+        bounds: [[60.61928145520045, 29.883456230163578], [60.60093758061472, 29.93752956390381], [60.57676504064867, 29.829554557800297]],
+        author: ['BYMKV','CHRNV_G','PVLV_M','GRBTNKV','CHRNNKO_G','SKBLV_A','VNGRDV_K','SMNV_K','BKKLV','NKSHN','CHRPNV_V'],
+        areas: [70,12,2,2,2,2,2,2,2,2,2],
+        logo: 'nevsky_azimut.gif'
+    },
+    {
         name: 'Журавлёвское оз',
         year: 1992,
         start: 'NA',
