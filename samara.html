@@ -134,6 +134,8 @@
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
 
+    <script src="js/calendar-samara-2026.js"></script>
+
     <script src="js/maps-samara.js"></script>
 
     <script src="js/starts.js"></script>
@@ -151,10 +153,16 @@
         const REGION_KEY = 'smr';
 
         let loadImagesRequired = true;
+        let specialRequired = true;
         let rogaineRequired = true;
+        let allYearsRequired = true;
 
         let oMaps = [
             ...samaraMaps,
+        ];
+
+        const oEvents = [
+            ...samaraEvents2026,
         ];
     </script>
 

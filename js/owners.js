@@ -481,6 +481,18 @@ let owners = {
 
     /* --- Самара --- */
 
+    FSO_SAMARA: {
+        name: '© <a href="https://o-63.ru/">ФСО Самарской области</a>',
+        logo: 'samara.webp'
+    },
+    SAKSOR: {
+        name: '© <a href="https://vk.com/saksorsamara">МБУ ДО СШ «Саксор» г.о. Самара</a>',
+        logo: 'samara_saksor.gif'
+    },
+    TRAINING_O_CLUB: {
+        name: '© <a href="https://t.me/TrainingoClub">Training oClub</a>',
+        logo: 'samara_trainingoclub.gif'
+    },
     ZNVJV_A: {
         name: 'По вопросам использования карты обращайтесь к Артёму Зиновьеву (<a href="mailto:artemzinovuv@gmail.com">artemzinovuv@gmail.com</a>, <a href="vk.com/artemzinovuv">ВК</a>).',
         logo: 'samara.webp'
