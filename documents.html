@@ -71,12 +71,10 @@
     </h1>
     <h2 class="text-center">Документы (сканы и не только)</h2>
 
-    <section><small>Если нужно поискать Вашу фамилию в этих документах, <a href="help/contacts.html">напишите мне</a>.</small></section>
-
     <div class="o-sheet-roof">
         <a href="#" onclick="downloadSheetTable('o-maps-documents.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
-    <div class="o-sheet-wrapper" style="height: calc(100vh - 260px);">
+    <div class="o-sheet-wrapper">
         <table class="o-main-table o-sheet">
             <thead>
             <tr>
@@ -117,6 +115,9 @@
         let oMaps = [
             ...historyDocs,
         ];
+
+        const popupMessage = 'Если нужно поискать Вашу фамилию в этих документах, <a href="help/contacts.html">напишите мне</a>.';
+
         writeWelcomeButton();
 
         function selectYear(year) {
@@ -131,5 +132,6 @@
     <script src="js/map-build.js"></script>
     <script src="js/main.js"></script>
     <script src="js/sheet.js"></script>
+    <script src="js/slide-popup.js"></script>
 </body>
 </html>

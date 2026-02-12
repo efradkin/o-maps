@@ -52,7 +52,6 @@
         </ul>
         <div class="tab-content">
             <div class="tab-pane fade show active" id="maps" role="tabpanel" aria-labelledby="maps-tab">
-                <section><small>Пожалуйста, если у Вас есть карты авторства Константина Токмакова, которых тут нет, сообщите мне. Заранее спасибо!</small></section>
                 <div class="start-maps-wrapper"></div>
             </div>
             <div class="tab-pane fade" id="fotos" role="tabpanel" aria-labelledby="fotos-tab">
@@ -208,6 +207,8 @@
             ...cityMaps,
             ...schoolMaps,
         ];
+
+        const popupMessage = 'Пожалуйста, если у Вас есть карты авторства Константина Токмакова, которых тут нет, <a href="help/contacts.html">сообщите мне</a>. Заранее спасибо!';
     </script>
 
     <script src="js/map-build.js"></script>
@@ -287,5 +288,6 @@
 
     <script src="js/ext/bootstrap.min.js"></script>
     <script src="js/slideshow.js"></script>
+    <script src="js/slide-popup.js"></script>
 </body>
 </html>

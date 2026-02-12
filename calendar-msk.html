@@ -90,15 +90,10 @@
         </sup>
     </h2>
 
-    <div class="container">
-        <section><small>Если Вашего старта нет в таблице, или Вы знаете ссылки на фото, видео и гпс-трансляции для стартов,
-            которые тут уже есть, <a href="help/contacts.html">сообщите мне</a>, и я добавлю. Спасибо заранее!</small></section>
-    </div>
-
     <div class="o-sheet-roof">
         <a href="#" onclick="downloadSheetTable('o-maps-calendar-msk.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
-    <div class="o-sheet-wrapper" style="height: calc(100vh - 260px);">
+    <div class="o-sheet-wrapper">
         <table class="o-main-table o-sheet">
             <thead>
             <tr>
@@ -141,12 +136,16 @@
             ...moscowMaps
         ];
 
-        let oEvents = [
+        const oEvents = [
             ...mskEvents2025,
             ...mskEvents2026,
             ...commonEvents2026,
         ];
+
+        const popupMessage = 'Если Вашего старта нет в таблице, или Вы знаете ссылки на фото, видео и гпс-трансляции для стартов, ' +
+            'которые тут уже есть, <a href="help/contacts.html">сообщите мне</a>, и я добавлю. Спасибо заранее!';
     </script>
     <script src="js/calendar.js"></script>
+    <script src="js/slide-popup.js"></script>
 </body>
 </html>

@@ -759,6 +759,66 @@ body.ski-bodi {
     }
 }
 
+/* --- slide pop-up --- */
+.slide-popup{
+    position: fixed;
+    z-index: 9999;
+    max-width: min(360px, calc(100vw - 32px));
+    background: #fff;
+    border: 2px solid #222;
+    border-radius: 10px;
+    box-shadow: 0 12px 32px rgba(85,107,47,.25);
+    padding: 0 14px 12px;
+    box-sizing: border-box;
+
+    /* Стартовое положение — за экраном (задаётся через CSS-переменную из JS) */
+    transform: var(--offscreen-transform, translateX(-120%));
+    opacity: 0;
+    transition: transform 450ms cubic-bezier(.2,.8,.2,1), opacity 450ms;
+    will-change: transform, opacity;
+}
+
+.slide-popup.is-visible{
+    transform: translate3d(0,0,0);
+    opacity: 1;
+}
+
+.slide-popup.is-hiding{
+    transform: var(--offscreen-transform, translateX(-120%));
+    opacity: 0;
+}
+
+.slide-popup__close{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 22px;
+    line-height: 30px;
+}
+.slide-popup__close:hover{ background: rgba(0,0,0,.06); }
+
+.slide-popup__content{
+    padding-right: 30px; /* место под крестик */
+    font: 14px/1.35 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    color: #111;
+}
+
+.slide-popup__content h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    /*color: darkolivegreen;*/
+}
+
+@media (prefers-reduced-motion: reduce){
+    .slide-popup{ transition: none; }
+}
+
 /* --- media --- */
 @media screen and (max-width : 1000px) {
     .help-figure {

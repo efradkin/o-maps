@@ -70,12 +70,10 @@
         </sup>
     </h2>
 
-    <section><small>Если тут не хватает какой-то гонки, <a href="help/contacts.html">напишите мне</a> или <a href="https://vk.com/centnerofuniverse">Андрею Давыдкину</a>.</small></section>
-
     <div class="o-sheet-roof">
         <a href="#" onclick="downloadSheetTable('o-maps-ski-calendar.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
-    <div class="o-sheet-wrapper" style="height: calc(100vh - 260px);">
+    <div class="o-sheet-wrapper">
         <table class="o-main-table o-sheet">
             <thead>
             <tr>
@@ -110,6 +108,9 @@
         let oEvents = [
             ...skiEvents2026,
         ];
+
+        const popupMessage = 'Если тут не хватает какой-то гонки, <a href="help/contacts.html">напишите мне</a> или ' +
+            '<a href="https://vk.com/centnerofuniverse">Андрею Давыдкину</a>. Добавим!';
     </script>
 
     <script src="js/owners.js"></script>
@@ -118,5 +119,6 @@
     <script src="js/utils.js"></script>
     <script src="js/utils-common.js"></script>
     <script src="js/calendar.js"></script>
+    <script src="js/slide-popup.js"></script>
 </body>
 </html>
