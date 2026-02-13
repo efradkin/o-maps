@@ -37,7 +37,7 @@ let rogaineRfarMaps = [
     {
         name: 'Сортавала',
         start: 'RFAR',
-        year: 2017,
+        date: '2017-06-10',
         url: './maps/rogaine/sortavala_redfox_2017.webp',
         link: './original_maps/rogaine/sortavala_redfox_2017_omaps.gif',
         bounds: [[62.001871751235875, 30.26664733886719], [61.9331357589708, 31.16477966308594], [61.446973504649996, 30.086746215820316]],
@@ -50,7 +50,7 @@ let rogaineRfarMaps = [
     {
         name: 'Барышево',
         start: 'RFAR',
-        year: 2018,
+        date: '2018-06-10',
         url: './maps/rogaine/baryshevo_rfar_2018.webp',
         link: './original_maps/rogaine/baryshevo_rfar_2018_omaps.gif',
         bounds: [[60.89688561144072, 28.830528259277347], [60.838888705540725, 29.703254699707035], [60.66022792862133, 28.767700195312504]],
@@ -61,7 +61,7 @@ let rogaineRfarMaps = [
     {
         name: 'Кузнечное',
         start: 'RFAR',
-        year: 2019,
+        date: '2019-06-10',
         url: './maps/rogaine/kuznechnoe_rfar_2019.webp',
         link: './original_maps/rogaine/kuznechnoe_rfar_2019_omaps.gif',
         bounds: [[61.34012679428879, 29.639053344726566], [61.2723780818547, 30.142707824707035], [61.08751263001799, 29.507217407226566]],
@@ -85,7 +85,7 @@ let rogaineRfarMaps = [
     {
         name: 'Лахденпохья',
         start: 'RFAR',
-        year: 2020,
+        date: '2020-08-07',
         url: './maps/rogaine/lahdenpohja_rfar_2020.webp',
         link: './original_maps/rogaine/lahdenpohja_rfar_2020_omaps.gif',
         bounds: [[61.58336831075355, 29.92160797119141], [61.53840616716746, 30.421142578125004], [61.293328225669015, 29.80796813964844]],
@@ -97,7 +97,7 @@ let rogaineRfarMaps = [
     {
         name: 'Балтиец',
         start: 'RFAR',
-        year: 2021,
+        date: '2021-06-12',
         url: './maps/rogaine/vjisotsk_rfar_2021.webp',
         link: './original_maps/rogaine/vjisotsk_rfar_2021_omaps.gif',
         bounds: [[60.89571668586482, 28.146972656250004], [60.89705259731161, 28.71414184570313], [60.524184817591255, 28.12362670898438]],
@@ -110,7 +110,7 @@ let rogaineRfarMaps = [
     {
         name: 'Питкяранта',
         start: 'RFAR',
-        year: 2022,
+        date: '2022-06-11',
         url: './maps/rogaine/pitkjaranta_rfar_2022.webp',
         link: './original_maps/rogaine/pitkjaranta_rfar_2022_omaps.gif',
         bounds: [[61.77328524344959, 31.55633926391602], [61.77612673574614, 31.897945404052738], [61.497802593442294, 31.568183898925785]],
@@ -122,7 +122,7 @@ let rogaineRfarMaps = [
     {
         name: 'оз Суоярви',
         start: 'RFAR',
-        year: 2023,
+        date: '2023-06-10',
         url: './maps/rogaine/soujarvi_rfar_2023.webp',
         link: './original_maps/rogaine/soujarvi_rfar_2023_omaps.gif',
         bounds: [[62.464106147686294, 32.15389251708985], [62.39927834122347, 32.79212951660157], [62.16085273339208, 32.01278686523438]],
@@ -134,7 +134,7 @@ let rogaineRfarMaps = [
     {
         name: 'Питкяранта',
         start: 'RFAR',
-        year: 2024,
+        date: '2024-06-14',
         url: './maps/rogaine/pitkaranta_rfar_2024.webp',
         link: './original_maps/rogaine/pitkaranta_rfar_2024_omaps.gif',
         bounds: [[61.854367394687124, 30.93406677246094], [61.79893034626891, 31.638908386230472], [61.601661501477075, 30.84720611572266]],

@@ -269,14 +269,14 @@ function buildInfo(m) {
     if (m.restricted) {
         result += getRestrictedText(m);
     }
-    if (m.info || m.date) {
+    if (m.info || m.date || m.results || m.o_site) {
         if (m.restricted) {
             result += '<br />'
         }
         if (!isDocumentsPage()) {
             if (m.date && m.date.length > 7) {
                 const date = formatDate(m, false, true);
-                result += `<b>${date}</b>` + (m.info ? '. ' : '');
+                result += `<b>${date}</b>. `;
             }
         }
         if (m.info) {
