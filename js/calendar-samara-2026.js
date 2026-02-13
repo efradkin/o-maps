@@ -1,5 +1,6 @@
 let samaraEvents2026 = [
     {
+        id: 'SMR_20250821_1',
         date: '2025-08-21',
         endDate: '2025-08-24',
         place: 'поляна им.Валерия Грушина',
@@ -14,6 +15,7 @@ let samaraEvents2026 = [
         ]
     },
     {
+        id: 'SMR_20251005_1',
         date: '2025-10-05',
         place: 'Курумоч верх',
         name: 'Самарский марафон',
@@ -27,6 +29,7 @@ let samaraEvents2026 = [
         ]
     },
     {
+        id: 'SMR_20260208_1',
         date: '2026-02-08',
         place: 'Загородный парк',
         name: 'Снежные парки',
@@ -41,6 +44,7 @@ let samaraEvents2026 = [
         owner: 'TRAINING_O_CLUB',
     },
     {
+        id: 'SMR_20260215_1',
         date: '2026-02-15',
         place: '7a микрорайон',
         name: 'Снежные парки 2 этап',
@@ -51,6 +55,7 @@ let samaraEvents2026 = [
         owner: 'TRAINING_O_CLUB',
     },
     {
+        id: 'SMR_20260223_1',
         date: '2026-02-23',
         place: 'п.Прибрежный',
         name: 'Чемпионат и первенство г.о. Самара',

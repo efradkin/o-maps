@@ -131,10 +131,11 @@ window.onload = function() {
     setTimeout(() => {
         const currentRow = document.querySelector('.current');
         if (currentRow) {
-            const firstCurrent = currentRow.previousSibling;
-            if (firstCurrent) {
-                firstCurrent.scrollIntoView();
-            }
+            const firstCurrent = currentRow.previousElementSibling;
+            (firstCurrent || currentRow).scrollIntoView({ block: "start" });
+
+            __updateSlidePopupPosition?.();
+            requestAnimationFrame(() => __updateSlidePopupPosition?.());
         }
     }, 1000);
 
