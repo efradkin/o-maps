@@ -270,8 +270,20 @@ function buildTrackPopup(t, gpxLayer) {
             picCounter++;
         }
     }
+    if (t.video) {
+        if (isObject(t.video)) {
+            info += '<br/>Видео:<br/><ol>'
+            for (const name in t.video) {
+                info += `<li><a href="${t.video[name]}">${name}</a></li>`;
+            }
+            info += '</ol>'
+
+        } else {
+            info += ' <a href="' + t.video + '"> Видео</a>.';
+        }
+    }
     if (info) {
-        result += info + '<br />';
+        result += info;
     }
 
     let trackLinkUrl = trackLink(firstTrack, false);

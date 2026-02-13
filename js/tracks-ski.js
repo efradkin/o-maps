@@ -32,6 +32,7 @@ let skiTracks = [
         info: 'Плавный рельеф и лыжероллерная трасса летом. Но мамочки и собачники тоже считают её своей.',
         gpx: 'tracks/ski/murinsky_ski_omaps.gpx',
         ski_kind: 'WALKWAY',
+        video: 'https://www.youtube.com/watch?v=Ha6Sx7xGi7A',
         type: ['SKI']
     },
     {
@@ -62,6 +63,7 @@ let skiTracks = [
         pics: ['ski/polezhaevsky',2],
         ski_kind: 'FICKLE_ROUTE',
         type: ['SKI'],
+        video: 'https://www.youtube.com/watch?v=DQ2A4HuTVXk',
         logo: 'krasnoselsky.gif'
     },
     {
@@ -78,6 +80,7 @@ let skiTracks = [
         logo: 'spb_sport.gif',
         pics: ['ski/krestovsky',2],
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=2TAmp_3ICtU',
         type: ['SKI']
     },
     {
@@ -120,6 +123,9 @@ let skiTracks = [
         logo: 'priboy.webp',
         pics: ['ski/priboy',2],
         ski_kind: 'SKATE_ROUTE',
+        video: {
+            '12км':'https://www.youtube.com/watch?v=SYaid9v4_oU'
+        },
         type: ['SKI']
     },
     {
@@ -141,6 +147,7 @@ let skiTracks = [
         info: 'Лыжная трасса Рощино создана и поддерживается жителями Рощино. Подготовка, обслуживание и содержание осуществляется за счет собственных средств и за счет благотворительных средств не безразличных людей.',
         gpx: 'tracks/ski/roschino_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=nHqDaJpovWo',
         type: ['SKI']
     },
     {
@@ -177,6 +184,7 @@ let skiTracks = [
         gpx: 'tracks/ski/kavgolovo_virolaynen_ski_omaps.gpx',
         logo: 'utc.gif',
         ski_kind: 'FICKLE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=CTadOHKRHY0',
         type: ['SKI']
     },
     {
@@ -186,6 +194,7 @@ let skiTracks = [
         gpx: 'tracks/ski/utc_ski_omaps.gpx',
         logo: 'utc.gif',
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=0HQTPMAkqqQ',
         type: ['SKI']
     },
     {
@@ -217,6 +226,9 @@ let skiTracks = [
         start: 'TOKSOVO_CUP',
         pics: ['ski/ska',5],
         ski_kind: 'SKATE_ROUTE',
+        video: {
+            '10км':'https://www.youtube.com/watch?v=QwAiQMg-Cic'
+        },
         type: ['SKI']
     },
     {
@@ -225,6 +237,7 @@ let skiTracks = [
         gpx: 'tracks/ski/toksovo_vifk_ski_omaps.gpx',
         pics: ['ski/vifk',3],
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=Ce1DTxaNGPg',
         type: ['SKI']
     },
     {
@@ -297,6 +310,7 @@ let skiTracks = [
         logo: 'ohta_park.gif',
         pics: ['ski/ohtapark',7],
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=uBvcEZDCgho',
         type: ['SKI']
     },
     {
@@ -305,6 +319,7 @@ let skiTracks = [
         gpx: 'tracks/ski/lembolovo_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         pics: ['ski/lembolovo',3],
+        video: 'https://www.youtube.com/watch?v=9Bp4HBZbOaQ',
         type: ['SKI']
     },
     {
@@ -337,6 +352,9 @@ let skiTracks = [
         start: 'MULTSPORT',
         pics: ['ski/orekhovo',1],
         ski_kind: 'SKATE_ROUTE',
+        video: {
+            '10км':'https://www.youtube.com/watch?v=f9ZH7s9gQYc'
+        },
         type: ['SKI']
     },
     {
@@ -364,8 +382,7 @@ let skiTracks = [
         info: 'Круги: <ol><li><b>"Семейный"</b> - Идеален для семейных прогулок с детьми, первоначального обучения технике конькового и классического хода. На нем нет опасных спусков и крутых подъемов.</li>' +
             '<li><b>"Любитель"</b> - Есть срезки на каждом километре дистанции. Присутствуют подъемы и спуски с перепадом до 15м. Катание на этому кругу требует уверенного владения лыжами.</li>' +
             '<li><b>"Мастер"</b> - По-настоящему спортивный круг, протяженностью 7 км, бросающий вызов силе, выносливости, характеру и умению спортсмена.</li>' +
-            '<li><b>"Турист"</b> - Включает круги "Семейный", "Любитель", частично "Мастер" и 6-км дополнительную туристическую петлю, которая периодически готовится под коньковый и классический ход.</li></ol>' +
-            'Актуальные треки - в <a href="https://reg.o-time.ru/bul/25052.pdf">положении</a>.',
+            '<li><b>"Турист"</b> - Включает круги "Семейный", "Любитель", частично "Мастер" и 6-км дополнительную туристическую петлю, которая периодически готовится под коньковый и классический ход.</li></ol>',
         link: 'https://vk.com/sport_v_garbolovo',
         gpx: {
             'Турист, 12км':'tracks/ski/garbolovo_tourist_ski_omaps.gpx',
@@ -377,6 +394,12 @@ let skiTracks = [
         logo: 'garbolovo_ski.webp',
         pics: ['ski/garbolovo',4],
         ski_kind: 'SKATE_ROUTE',
+        video: {
+            'Мастер':'https://www.youtube.com/watch?v=f7tIDvKjvbI',
+            'Любитель':'https://www.youtube.com/watch?v=1xHqOmx-ZLM',
+            'Семейный':'https://www.youtube.com/watch?v=Ew_GK79QCF8',
+            'Турист':'https://www.youtube.com/watch?v=VTO8QTDJqHM',
+        },
         type: ['SKI']
     },
     {
@@ -385,6 +408,7 @@ let skiTracks = [
         gpx: 'tracks/ski/pavlovo_ski_omaps.gpx',
         pics: ['ski/pavlovo',2],
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=_aktLV4niN8',
         type: ['SKI']
     },
     {
@@ -394,6 +418,7 @@ let skiTracks = [
         link: 'https://vk.com/skipargolovo',
         gpx: 'tracks/ski/pargolovo_ski_2026_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=WSbzjFLfQ6g',
         type: ['SKI']
     },
     {
@@ -456,6 +481,7 @@ let skiTracks = [
         gpx: 'tracks/ski/mozhaika_dudergof_ski_omaps.gpx',
         pics: ['ski/mozhaika',3],
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=5_JF6VXnPgE',
         type: ['SKI']
     },
     {
@@ -467,6 +493,7 @@ let skiTracks = [
         gpx: 'tracks/ski/dudergof_bears_ski_omaps.gpx',
         logo: 'dudergof_bear.gif',
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=sBNpO92xhuw',
         type: ['SKI']
     },
     {
@@ -493,6 +520,7 @@ let skiTracks = [
         info: '20-50км.',
         gpx: 'tracks/ski/kirishi_ski_omaps.gpx',
         logo: 'kirishi_ski.webp',
+        video: 'https://www.youtube.com/watch?v=SdOe-Iy5hOo',
         type: ['SKI']
     },
     {
@@ -519,6 +547,7 @@ let skiTracks = [
         },
         logo: 'gatchina.gif',
         ski_kind: 'FICKLE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=qnsl_rzihKA',
         type: ['SKI']
     },
     {
@@ -631,6 +660,7 @@ let skiTracks = [
         link: 'https://vk.com/club199236798',
         results: 'https://vk.com/wall-199236798_1340',
         gpx: 'tracks/ski/tikhvin_omaps.gpx',
+        video: 'https://www.youtube.com/watch?v=XTrHbv-BGz0',
         logo: 'tikhvin.gif',
         type: ['SKI']
     },

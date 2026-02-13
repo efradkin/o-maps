@@ -347,6 +347,13 @@ function buildLink(link, content, title, allItems, isDownload) {
                 link = link[0];
             }
         }
+        if (isObject(link)) {
+            let result = '';
+            for (const name in link) {
+                result += ' ' + buildOneLink(link[name], content, name, isDownload);
+            }
+            return result;
+        }
         return buildOneLink(link, content, title, isDownload);
     }
     else
