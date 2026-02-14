@@ -124,7 +124,9 @@ let skiTracks = [
         pics: ['ski/priboy',2],
         ski_kind: 'SKATE_ROUTE',
         video: {
-            '12км':'https://www.youtube.com/watch?v=SYaid9v4_oU'
+            'Обзор':'https://www.youtube.com/watch?v=KtCQy1LDGuY',
+            '12км':'https://www.youtube.com/watch?v=SYaid9v4_oU',
+            'Дальние петли':'https://www.youtube.com/watch?v=cKQ7XQodFzg'
         },
         type: ['SKI']
     },
@@ -138,6 +140,7 @@ let skiTracks = [
             'с петлёй по лесу':'tracks/ski/zelenogorsk_walk_round_ski_omaps.gpx'
         },
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=jvkhUAPIJqY',
         type: ['SKI']
     },
     {
@@ -160,6 +163,7 @@ let skiTracks = [
         gpx: 'tracks/ski/sestroretsk_dubki_ski_omaps.gpx',
         pics: ['ski/dubki',1],
         ski_kind: 'WALKWAY',
+        video: 'https://www.youtube.com/watch?v=hdThZvgvBGk',
         type: ['SKI']
     },
     {
@@ -203,6 +207,7 @@ let skiTracks = [
         gpx: 'tracks/ski/kavgolovo_dinamo_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         pics: ['ski/dinamo',1],
+        video: 'https://www.youtube.com/watch?v=8-C5m1z6TX4',
         type: ['SKI']
     },
     {
@@ -210,6 +215,7 @@ let skiTracks = [
         info: 'Практически абсолютно плоская, часто самотопная, лыжня в окружении красивого леса.',
         gpx: 'tracks/ski/oselki_ski_omaps.gpx',
         ski_kind: 'FICKLE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=UWJzXJuRsaE',
         type: ['SKI']
     },
     {
@@ -227,6 +233,7 @@ let skiTracks = [
         pics: ['ski/ska',5],
         ski_kind: 'SKATE_ROUTE',
         video: {
+            '5км':'https://www.youtube.com/watch?v=8fZ2RS6LknM',
             '10км':'https://www.youtube.com/watch?v=QwAiQMg-Cic'
         },
         type: ['SKI']
@@ -244,6 +251,7 @@ let skiTracks = [
         name: 'Токсово, Фирн',
         info: 'Уже несколько лет эта трасса не подготавливается.',
         gpx: 'tracks/ski/toksovo_firn_ski_omaps.gpx',
+        video: 'https://www.youtube.com/watch?v=KKcnqXc3Uy0',
         type: ['SKI']
     },
     {
@@ -256,6 +264,7 @@ let skiTracks = [
         name: 'По периметру оз Хепоярви',
         gpx: 'tracks/ski/hepojarvi_around_ski_omaps.gpx',
         info: 'Трасса по льду озера как правило раскатана лыжниками под конёк (самотоп), но часто - и снегоходами, втч и под классику.',
+        video: 'https://www.youtube.com/watch?v=pABvHqqRELk',
         type: ['SKI']
     },
     {
@@ -267,6 +276,9 @@ let skiTracks = [
         pics: ['ski/malinovaya',1],
         markir: true,
         ski_kind: 'CLASSIC_ROUTE',
+        video: {
+            'Обзор':'https://www.youtube.com/watch?v=Z2DvkCoSm_s'
+        },
         type: ['SKI']
     },
     {
@@ -297,6 +309,7 @@ let skiTracks = [
         pics: ['ski/ohtapark',7],
         ski_kind: 'SKATE_ROUTE',
         start: 'TOKSOVO_CUP',
+        video: 'https://www.youtube.com/watch?v=R9b1doErets',
         type: ['SKI']
     },
     {
@@ -319,7 +332,10 @@ let skiTracks = [
         gpx: 'tracks/ski/lembolovo_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         pics: ['ski/lembolovo',3],
-        video: 'https://www.youtube.com/watch?v=9Bp4HBZbOaQ',
+        video: {
+            'Обзор':'https://www.youtube.com/watch?v=TRKLaMRDWxA',
+            'Гонка':'https://www.youtube.com/watch?v=9Bp4HBZbOaQ'
+        },
         type: ['SKI']
     },
     {
@@ -335,6 +351,7 @@ let skiTracks = [
         gpx: 'tracks/ski/orekhovo_ski_arrow_2025_omaps.gpx',
         pics: ['ski/orekhovo_arrows',1],
         ski_kind: 'CLASSIC_ROUTE',
+        video: 'https://www.youtube.com/watch?v=Kf8aSOlAxMY',
         type: ['SKI']
     },
     {
@@ -353,7 +370,8 @@ let skiTracks = [
         pics: ['ski/orekhovo',1],
         ski_kind: 'SKATE_ROUTE',
         video: {
-            '10км':'https://www.youtube.com/watch?v=f9ZH7s9gQYc'
+            '10км':'https://www.youtube.com/watch?v=f9ZH7s9gQYc',
+            'Последний километр':'https://www.youtube.com/watch?v=Ejb3Cjr0Wf8'
         },
         type: ['SKI']
     },
@@ -418,7 +436,10 @@ let skiTracks = [
         link: 'https://vk.com/skipargolovo',
         gpx: 'tracks/ski/pargolovo_ski_2026_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
-        video: 'https://www.youtube.com/watch?v=WSbzjFLfQ6g',
+        video: {
+            'Семейно':'https://www.youtube.com/watch?v=FVlsml5bspI',
+            'Спортивно':'https://www.youtube.com/watch?v=WSbzjFLfQ6g'
+        },
         type: ['SKI']
     },
     {
@@ -439,6 +460,7 @@ let skiTracks = [
         logo: 'igora.webp',
         pics: ['ski/igora',1],
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=J0zGivAlQRU',
         type: ['SKI']
     },
     {
@@ -472,6 +494,7 @@ let skiTracks = [
         link: 'https://www.tyytari.ru/holidays/photos/42/',
         gpx: 'tracks/ski/tuutari_ski_omaps.gpx',
         ski_kind: 'FICKLE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=QU2NA4MgV2U',
         type: ['SKI']
     },
     {
@@ -502,6 +525,7 @@ let skiTracks = [
         info: 'Самотопный "конёк" и лыжня сбоку от дороги.',
         gpx: 'tracks/ski/rzhevsky_ski_omaps.gpx',
         ski_kind: 'WALKWAY',
+        video: 'https://www.youtube.com/watch?v=00mPxt5hV7w',
         type: ['SKI']
     },
     {
@@ -534,6 +558,7 @@ let skiTracks = [
         name: 'Кировск',
         link: 'https://vk.com/club85930070',
         gpx: 'tracks/ski/kirovsk_ski_omaps.gpx',
+        video: 'https://www.youtube.com/watch?v=FyM7SZGr2bc',
         type: ['SKI']
     },
     {
@@ -622,6 +647,7 @@ let skiTracks = [
         info: 'Трасса мягкая, готовят бороной, подъёмов нет, душ, раздевалка, парковка. Платно.',
         gpx: 'tracks/ski/lomonosov_strawberry_fields_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
+        video: 'https://www.youtube.com/watch?v=5DG0-Ghbank',
         type: ['SKI']
     },
     {
@@ -685,6 +711,7 @@ let skiTracks = [
         gpx: 'tracks/ski/shapki_ski_arrows_2025_omaps.gpx',
         pics: ['ski/shapki_arrows',1],
         ski_kind: 'CLASSIC_ROUTE',
+        video: 'https://www.youtube.com/watch?v=6yvlyBnY_zs',
         type: ['SKI']
     },
     {
@@ -711,6 +738,7 @@ let skiTracks = [
         info: 'Лыжный центр им Терентьева.',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI'],
+        video: 'https://www.youtube.com/watch?v=A70mYW2GTr4',
         owner: 'KARELIA_SKI'
     },
     {
@@ -718,6 +746,7 @@ let skiTracks = [
         gpx: 'tracks/ski/ptz_fontany_ski_omaps.gpx',
         ski_kind: 'SKATE_ROUTE',
         type: ['SKI'],
+        video: 'https://www.youtube.com/watch?v=mLBHp5Zt2Co',
         owner: 'KARELIA_SKI'
     },
     {

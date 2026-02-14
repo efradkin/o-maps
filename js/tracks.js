@@ -106,6 +106,7 @@ let tracks = [
         markir: true,
         // pics: ['toksovo',5],
         start: 'OOPTLO',
+        video: 'https://www.youtube.com/watch?v=UV-8IReuhEs',
         type: ['WALK','VELO']
     },
     {
