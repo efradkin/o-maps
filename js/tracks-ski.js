@@ -715,6 +715,12 @@ let skiTracks = [
         type: ['SKI']
     },
     {
+        name: 'Приозерск',
+        info: 'Приозерская городская лыжня. Широкая ровная трасса с одной небольшой горкой.',
+        gpx: 'tracks/ski/priozersk_ski_omaps.gpx',
+        type: ['SKI']
+    },
+    {
         name: 'Волхов',
         info: 'Неплохая для небольшого городка лыжная трасса при лыжной базе "Двугорье". Есть прокат, раздевалка и магазин.',
         gpx: 'tracks/ski/volhov_dvugorie_ski_omaps.gpx',
