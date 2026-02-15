@@ -6292,6 +6292,16 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Красногорск',
+        date: '2026-02-14',
+        url: './maps/moscow/ak/krasnogorsk_love_2026.webp',
+        link: './original_maps/moscow/ak/krasnogorsk_love_2026_omaps.gif',
+        info: '<a href="https://t.me/LoveIsRogaine">Love is... Рогейн</a>.',
+        bounds: [[55.850987141482136, 37.26957321166993], [55.83802434189814, 37.35772132873536], [55.81883725116344, 37.254209518432624]],
+        logo: 'love_rogaine.webp',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Красносельская',
         year: 2025,
         area: .168,

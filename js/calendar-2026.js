@@ -284,6 +284,7 @@ let events2026 = [
     reg: 'http://o-reg.spb.ru/?filter[day_id]=1718',
     type: 'SKI',
     fmt: 'спринт',
+    photo: 'https://vk.com/album-230167293_312624491',
     map: 'zerkalny_2002',
     owner: 'SFSO_SPB'
 },
@@ -336,11 +337,24 @@ let events2026 = [
     owner: 'SFSO_LO'
 },
 {
+    id: 'SPB_20260221_3',
+    date: '2026-02-21',
+    place: 'Павловск, парк Мариенталь',
+    name: 'Веселый Ветер',
+    o_site: '260221',
+    reg: 'http://orgeo.ru/event/info/ib26',
+    info: 'Бесплатно, но принимаются добровольные взносы.',
+    type: 'ORIENT',
+    map: 'pavlovsk_mariental_2022',
+    owner: 'EGRV_EGR'
+},
+{
     id: 'SPB_20260223_1',
     date: '2026-02-23',
     name: 'Снежная тропа',
     place: 'Удельный парк',
     o_site: '260223_ST',
+    reg: 'http://o-reg.spb.ru/?filter[day_id]=1714',
     type: 'ORIENT',
     fmt: 'спринт',
     info: 'Квест в стиле средневекового фэнтези.',
@@ -384,6 +398,8 @@ let events2026 = [
     date: '2026-03-08',
     name: 'Снежная тропа',
     place: 'Пулковский парк',
+    o_site: '260308_ST',
+    reg: 'http://o-reg.spb.ru/?filter[day_id]=1721',
     type: 'ORIENT',
     fmt: 'спринт',
     map: 'pulkovsky_2024',
