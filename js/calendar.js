@@ -134,8 +134,10 @@ window.onload = function() {
             const firstCurrent = currentRow.previousElementSibling;
             (firstCurrent || currentRow).scrollIntoView({ block: "start" });
 
-            __updateSlidePopupPosition?.();
-            requestAnimationFrame(() => __updateSlidePopupPosition?.());
+            if (isPopupSliderRequired()) {
+                __updateSlidePopupPosition?.();
+                requestAnimationFrame(() => __updateSlidePopupPosition?.());
+            }
         }
     }, 1000);
 

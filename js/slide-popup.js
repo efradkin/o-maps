@@ -13,6 +13,10 @@ slidePopupEl.insertAdjacentHTML('beforeend', slidePopupContent);
 document.body.appendChild(slidePopupEl);
 
 (function () {
+    if (!isPopupSliderRequired()) {
+        return;
+    }
+
     const popupEl = document.getElementById("slidePopup");
     if (!popupEl) return;
 

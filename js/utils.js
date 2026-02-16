@@ -881,6 +881,10 @@ function isRulesPage() {
     return typeof rulesPage != 'undefined' && rulesPage;
 }
 
+function isPopupSliderRequired() {
+    return typeof popupMessage != 'undefined';
+}
+
 let spinnerDisplayed = false;
 function showSpinner() {
     if (map === undefined) {
