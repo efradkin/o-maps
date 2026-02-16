@@ -1020,6 +1020,9 @@ function buildEventStart(evt, withoutLogo) {
             result += evt.name;
         }
     }
+    if (evt.price === -1) {
+        result += ' (закрытый)'
+    }
     if (evt.reg) {
         result += ', <span title="Регистрация">' + buildEventReg(evt) + '</span>';
     }

@@ -209,6 +209,21 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260220_1',
+        date: "2026-02-20",
+        name: "Московская Зима",
+        place: "БЛК \"Марьино\"",
+        type: "SKI",
+        fmt: "ЛГ-спринт",
+        coord: [
+            55.652843,
+            37.779896
+        ],
+        link: "https://orienteering.moscow/",
+        reg: "https://orgeo.ru/event/organizer/24222",
+        owner: "CLEVER_MSK"
+    },
+    {
         id: 'MSK_20260221_1',
         date: "2026-02-21",
         name: "Московская Весна",
