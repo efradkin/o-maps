@@ -357,7 +357,7 @@ let events2026 = [
     reg: 'http://o-reg.spb.ru/?filter[day_id]=1714',
     type: 'ORIENT',
     fmt: 'спринт',
-    info: 'Квест в стиле средневекового фэнтези.',
+    info: 'Медаль - каждому участнику. Квест в стиле средневекового фэнтези.',
     map: 'udelny_2021',
     owner: 'SFSO_SPB'
 },

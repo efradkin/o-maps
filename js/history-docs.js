@@ -344,13 +344,22 @@ let historyDocs = [
         planner: 'SHRNN'
     },
     {
-        name: 'Открытие сезона ЛГС ДСО "Спартак"',
+        name: 'Открытие сезона ЛГС ДСО Спартак',
         date: '1985-04-21',
         info: '21, 27 апреля. Отчёт и протоколы результатов.',
         map: 'golubaya_dacha_1982',
         link: './docs/1985/1985_04_21_gdacha_omaps.pdf',
         planner: 'RYLOV_V',
         me: 'М-13'
+    },
+    {
+        name: 'Юный спартаковец (Сосновка)',
+        date: '1985-03-14',
+        map: 'sosnovka_1981_omaps',
+        link: './docs/1985/1985_03_14_young_spartak_omaps.pdf',
+        info: 'М10, Ж10 и заявка.',
+        partly: true,
+        me: 'М-10'
     },
     {
         name: 'Приз Ленинградского телевидения (Кузьмолово)',
@@ -400,6 +409,14 @@ let historyDocs = [
         date: '1987-04-05',
         link: './docs/1987/1987_04_05_brobeg_omaps.pdf',
         me: 'М-6'
+    },
+    {
+        name: 'Азимут\'87. XIII Всесоюзные соревнования среди спортсменов среднего и старшего возраста (Петяярви)',
+        date: '1987-07-22',
+        link: './docs/1987/1987_07_22_masters_omaps.pdf',
+        info: '22-26 июля.',
+        map: 'petjajarvy_1987',
+        major: true
     },
     {
         name: 'Ранг зимнего сезона 1988г ЛОС ДФСО профсоюзов',
@@ -1041,6 +1058,14 @@ let historyDocs = [
         name: 'Соревнования (Зеленогорск)',
         date: '1989-11-26',
         link: './docs/1989/1989_11_26_zelenogorsk_omaps.pdf',
+    },
+    {
+        name: 'Чемпионат СССР (Горнозаводск)',
+        date: '1989-12-07',
+        link: './docs/1989/1989_12_07_gornozavodsk_ussr_omaps.pdf',
+        planner: ['MTN_Y','SVIR_A'],
+        partly: true,
+        major: true
     },
     {
         name: 'Ранг летнего сезона г.Ленинграда, мужчины',

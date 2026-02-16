@@ -493,6 +493,7 @@ let sosnovoMaps = [
         name: 'Петяярви',
         year: 1987,
         info: 'XIII Всесоюзные соревнования ветеранов.',
+        results: './docs/1987/1987_07_22_masters_omaps.pdf',
         url: './maps/forest/sosnovo/petjajarvy_1987.webp',
         link: './original_maps/forest/sosnovo/petjajarvy_1987_omaps.jpg',
         photo: './tracks/petyajarvi/pic_3.jpg',

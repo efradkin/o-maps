@@ -604,7 +604,7 @@ let authors = {
     },
     LZRV: { name: 'Лазарев Константин' },
     MDVDV_A: { name: 'Медведев Александр' },
-    MTN_Y: { name: 'Митин Юрий' },
+    MTN_Y: { name: 'Митин Юрий' }, // И.
     MLCHK: { name: 'Мальчик Игорь' },
     MLNKV_V: { name: 'Мыльников Валентин' }, // Михайлович
     MRDRS: { name: 'Мордирос А.' },
@@ -670,7 +670,10 @@ let authors = {
         about: 'https://o-moscow.ru/people/SmirnovVS.html'
     },
     SSO_MIFI: { name: 'Бригада ССО МИФИ' },
-    SVIR_A: { name: 'Свирь А.' },
+    SVIR_A: {
+        name: 'Свирь Александр', // Владимирович,
+        about: 'https://rufso.ru/wp-content/uploads/2020/12/биография-Свирь-АВ.pdf'
+    },
     SVIR_M: { name: 'Свирь М.' },
     SYTV_N: { name: 'Сытов Николай' },
     TLMCHV: { name: 'Толмачёв Г.' },
