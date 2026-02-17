@@ -373,6 +373,16 @@ let events2026 = [
     owner: 'SFSO_SPB'
 },
 {
+    id: 'SPB_20260228_2',
+    date: '2026-02-28',
+    place: 'Приозерск, Новая Корела',
+    name: 'XII Кубок Весты №6, П-во Приозерска',
+    type: 'ORIENT',
+    link: 'https://vk.com/wall-30365190_9023',
+    owner: 'VESTA_PRIOZERSK',
+    map: 'priozersk_kamenisty'
+},
+{
     id: 'SPB_20260301_1',
     date: '2026-03-01',
     name: 'Региональные соревнования (Маркир)',
