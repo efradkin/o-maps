@@ -202,6 +202,26 @@ let otherMaps = [
         type: ['PARK']
     },
     {
+        name: 'Горячий ключ',
+        year: 2013,
+        url: './maps/other/hot_key_2013.webp',
+        link: './original_maps/other/hot_key_2013_omaps.gif',
+        bounds: [[44.65680962521428, 39.120168685913086], [44.65070391371675, 39.20393943786622], [44.60165174422536, 39.11055564880371]],
+        author: 'ZAMOTA',
+        owner: 'ZAMOTA',
+        region: 'KRSNDR'
+    },
+    {
+        name: 'Сочи, Ахун',
+        year: 2001,
+        url: './maps/other/sochi_ahun_2001.webp',
+        link: './original_maps/other/sochi_ahun_2001_omaps.gif',
+        bounds: [[43.61165747364978, 39.79848861694337], [43.607742266333425, 39.8844051361084], [43.54229575224248, 39.79138612747193]],
+        author: 'ZAMOTA',
+        owner: 'ZAMOTA',
+        region: 'KRSNDR'
+    },
+    {
         name: 'блв Черняховского',
         year: 2025,
         url: './maps/other/chernyahovskogo_2025.webp',
@@ -210,8 +230,7 @@ let otherMaps = [
         author: ['DRN_E','MSTPNV'],
         owner: 'DRN_E',
         region: 'NVRSYSK',
-        type: ['PARK'],
-        logo: 'novorossiysk.gif'
+        type: ['PARK']
     },
     {
         name: 'СЦ ЦСКА',
@@ -247,14 +266,33 @@ let otherMaps = [
         type: ['CITY']
     },
     {
+        name: 'Возрождение',
+        year: 2002,
+        url: './maps/other/gelendzhik_vozrozhdenie_2002.webp',
+        link: './original_maps/other/gelendzhik_vozrozhdenie_2002_omaps.gif',
+        bounds: [[44.59508183834914, 38.14629077911378], [44.58429335853355, 38.24830055236817], [44.55332266457437, 38.13753604888917]],
+        author: 'ZAMOTA',
+        owner: 'ZAMOTA',
+        region: 'GLNDZHK',
+    },
+    {
         name: 'Нижний Архыз',
         year: 1987,
         url: './maps/other/nizhny_archyz_1987.webp',
         link: './original_maps/other/nizhny_archyz_1987_omaps.jpg',
         bounds: [[43.70570110447654, 41.46034240722657], [43.70455322644414, 41.498408317565925], [43.678332191097546, 41.46330356597901]],
         author: 'SKRSKY_A',
-        logo: 'karachay-cherkessia.gif',
         region: 'KRCHCHRK',
+    },
+    {
+        name: 'Архыз, поляна Таулу',
+        year: 2005,
+        url: './maps/other/archyz_taulu_2005.webp',
+        link: './original_maps/other/archyz_taulu_2005_omaps.gif',
+        bounds: [[43.53744272839921, 41.22186183929444], [43.536462743491214, 41.24653816223145], [43.51407430725295, 41.22038125991822]],
+        author: 'ZAMOTA',
+        owner: 'ZAMOTA',
+        region: 'KRCHCHRK'
     },
     {
         name: 'Домбай, отель Гранд Виктория',

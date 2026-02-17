@@ -185,9 +185,9 @@ function buildName(m) {
     const regionRequired = (typeof regionViewRequired !== 'undefined') && regionViewRequired;
     if (regionRequired) {
         if (m.region) {
-            name = regions[m.region] + ', ' + name;
+            name = regions[m.region].name + ', ' + name;
         } else if (m.start && starts[m.start] && starts[m.start].region) {
-            name = regions[starts[m.start].region] + ', ' + name;
+            name = regions[starts[m.start].region].name + ', ' + name;
         }
     }
     if (m.about) {

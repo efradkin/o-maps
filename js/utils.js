@@ -6,25 +6,67 @@ const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 const O_SITE_ADDRESS_PREFIX = 'https://o-site.spb.ru/race.php?id=';
 
 const regions = {
-    CHTA: 'Чита',
-    DV: 'Дальний Восток',
-    FRA: 'Франция',
-    GLNDZHK: 'Геленджик',
-    KLGA: 'Калуга',
-    KLNGRD: 'Калининград',
-    KABARDA: 'Кабардино-Балкария',
-    KRCHCHRK: 'Карачаево-Черкессия',
-    KRL: 'Карелия',
-    KRSNDR: 'Краснодар',
-    KZ: 'Казахстан',
-    LNGRD: 'Ленинград',
-    MSK: 'Москва',
-    NVRSYSK: 'Новороссийск',
-    PSKV: 'Псков',
-    ORBG: 'Оренбург',
-    RZN: 'Рязань',
-    SMR: 'Самара',
-    SPB: 'СПб',
+    CHTA: {
+        name: 'Чита'
+    },
+    DV: {
+        name: 'Дальний Восток'
+    },
+    FRA: {
+        name: 'Франция'
+    },
+    GLNDZHK: {
+        name: 'Геленджик',
+        logo: 'gelendzhik.gif'
+    },
+    KLGA: {
+        name: 'Калуга'
+    },
+    KLNGRD: {
+        name: 'Калининград'
+    },
+    KABARDA: {
+        name: 'Кабардино-Балкария'
+    },
+    KRCHCHRK: {
+        name: 'Карачаево-Черкессия',
+        logo: 'karachay-cherkessia.gif'
+    },
+    KRL: {
+        name: 'Карелия'
+    },
+    KRSNDR: {
+        name:'Краснодар',
+        logo: 'krasnodar_krai.webp'
+    },
+    KZ: {
+        name: 'Казахстан'
+    },
+    LNGRD: {
+        name: 'Ленинград'
+    },
+    MSK: {
+        name: 'Москва'
+    },
+    NVRSYSK: {
+        name: 'Новороссийск',
+        logo: 'novorossiysk.gif'
+    },
+    PSKV: {
+        name: 'Псков'
+    },
+    ORBG: {
+        name: 'Оренбург'
+    },
+    RZN: {
+        name: 'Рязань'
+    },
+    SMR: {
+        name: 'Самара'
+    },
+    SPB: {
+        name: 'СПб'
+    },
 };
 
 const dic = {
@@ -992,6 +1034,9 @@ function logoList(m) { // for map, event or track
     }
     if (m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) { // only the first one
         logo.push(authors[m.author[0]].logo);
+    }
+    if (m.region && regions[m.region].logo) {
+        logo.push(regions[m.region].logo);
     }
     return logo;
 }

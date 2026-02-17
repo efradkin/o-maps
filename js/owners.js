@@ -550,6 +550,10 @@ let owners = {
         name: 'По вопросам использования карты - Тимур Жердев (8 903 416 6513, <a href = "https://t.me/Timyrnet" >Telegram</a>).',
         logo: 'karachay-cherkessia.gif'
     },
+    ZAMOTA: {
+        name: '© Из свободного <a href = "https://yadi.sk/d/WdQu64to3ZvmXJ">архива</a> карт Михаила Михайловича Замоты.',
+        about: 'https://rufso.ru/м-м-замоте-70-лет/'
+    },
 
     /* --- Не ориент --- */
 
