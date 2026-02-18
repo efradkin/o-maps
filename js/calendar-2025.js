@@ -1147,6 +1147,7 @@ let events2025 = [
         '19 Ж':'https://viewer.o-gps-center.ru/viewer/event/22872/',
         '19 М50':'https://viewer.o-gps-center.ru/viewer/event/22898/'
     },
+    photo: 'https://vk.ru/album-227779225_309822985',
     start: 'KKP',
     map: 'kkp_prudy_2023_06_19',
     me: 'М50'

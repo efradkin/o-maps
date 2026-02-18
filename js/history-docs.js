@@ -289,9 +289,23 @@ let historyDocs = [
         link: './docs/ussr_champ_1981_relay_schema_omaps.jpg'
     },
     {
-        name: 'Кубок ЛГС ДСО "Спартак"',
+        name: 'Зимнее п-во ЛГС Спартак, выбор (Юкки)',
+        date: '1983-03-19',
+        link: './docs/1983/1983_03_19_spartak_omaps.pdf',
+        map: 'yukki_1983_03_19',
+        planner: 'SHLKHN_Y'
+    },
+    {
+        name: 'Зимнее п-во ЛГС Спартак, маркир (Всеволожск)',
+        date: '1983-03-20',
+        link: './docs/1983/1983_03_20_spartak_omaps.pdf',
+        map: 'vsevolozhsk_1983_03_20',
+        planner: 'EGRV_E'
+    },
+    {
+        name: 'Кубок ЛГС ДСО Спартак (Голубые Дачи)',
         date: '1983-09-17',
-        link: './docs/1983_09_17_mruchey_omaps.pdf',
+        link: './docs/1983/1983_09_17_mruchey_omaps.pdf',
         map: 'mruchey_1983_09_17'
     },
     {
@@ -344,7 +358,13 @@ let historyDocs = [
         planner: 'SHRNN'
     },
     {
-        name: 'Открытие сезона ЛГС ДСО Спартак',
+        name: 'Осеннее п-во ЛГС ДСО Спартак (Песочная)',
+        date: '1984-09-29',
+        link: './docs/1984/1984_09_29_spartak_omaps.pdf',
+        map: 'pesochnaya_1984_09_29_spartak'
+    },
+    {
+        name: 'Открытие сезона ЛГС ДСО Спартак (Голубые Дачи)',
         date: '1985-04-21',
         info: '21, 27 апреля. Отчёт и протоколы результатов.',
         map: 'golubaya_dacha_1982',
@@ -405,10 +425,26 @@ let historyDocs = [
         major: true
     },
     {
+        name: 'Юный спартаковец (Приморский парк Победы)',
+        date: '1986-11-06',
+        map: 'krestovsky_1985',
+        link: './docs/1986/1986_11_06_young_spartak_omaps.pdf',
+        me: 'М-10'
+    },
+    {
         name: 'Бро-бег (Кузьмолово)',
         date: '1987-04-05',
         link: './docs/1987/1987_04_05_brobeg_omaps.pdf',
         me: 'М-6'
+    },
+    {
+        name: 'Белые Ночи (Орехово)',
+        date: '1987-06-26',
+        link: './docs/1987/1987_06_26_wn_omaps.pdf',
+        info: '26-28 июня.',
+        start: 'WN',
+        partly: true,
+        me: 'М-13-II'
     },
     {
         name: 'Азимут\'87. XIII Всесоюзные соревнования среди спортсменов среднего и старшего возраста (Петяярви)',

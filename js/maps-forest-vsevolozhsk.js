@@ -202,7 +202,7 @@ let vsevolozhskMaps = [
         name: 'им Морозова',
         year: 1992,
         url: './maps/forest/vsevolozhsk/morozova_1992.webp',
-        link: './original_maps/forest/vsevolozhsk/morozova_1992_omaps.jpg',
+        link: ['./original_maps/forest/vsevolozhsk/morozova_1992_omaps.webp','./original_maps/forest/vsevolozhsk/morozova_1992_omaps.jpg'],
         bounds: [[59.99332063646918, 31.04075431823731], [59.991303146530086, 31.077747344970707], [59.96656817067386, 31.034574508666996]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'

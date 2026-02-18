@@ -285,6 +285,7 @@ let events2026 = [
     type: 'SKI',
     fmt: 'спринт',
     photo: 'https://vk.com/album-230167293_312624491',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24256/',
     map: 'zerkalny_2002',
     owner: 'SFSO_SPB'
 },
@@ -306,6 +307,7 @@ let events2026 = [
     place: 'Зеркальный',
     o_site: '260217',
     reg: ['http://o-reg.spb.ru/?filter[day_id]=1719','http://o-reg.spb.ru/?filter[day_id]=1720'],
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24257/',
     type: 'SKI',
     fmt: 'классика, спринт',
     map: 'zerkalny_2002',
@@ -418,10 +420,20 @@ let events2026 = [
 {
     id: 'SPB_20260308_2',
     date: '2026-03-08',
-    name: 'Лыжный рогейн',
+    name: 'Ski Adventure',
     place: 'Шапки',
     type: ['ROGAINE','SKI'],
+    fmt: '5, 3',
     map: 'shapki_KKM_2020_12',
+},
+{
+    id: 'SPB_20260315_2',
+    date: '2026-03-15',
+    name: 'Колтушская классика',
+    place: 'Колтуши',
+    o_site: '260315_bn',
+    type: 'ORIENT',
+    owner: 'WN'
 },
 {
     id: 'SPB_20260405_1',
@@ -432,6 +444,15 @@ let events2026 = [
     fmt: 'спринт',
     map: 'romanovka_2013',
     owner: 'DLITELNY'
+},
+{
+    id: 'SPB_20260405_2',
+    date: '2026-04-05',
+    name: 'Охта Парк классика',
+    place: 'Охта-Парк',
+    o_site: '260405_bn',
+    type: 'ORIENT',
+    owner: 'WN'
 },
 {
     id: 'SPB_20260411_1',
