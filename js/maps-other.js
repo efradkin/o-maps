@@ -222,6 +222,15 @@ let otherMaps = [
         region: 'KRSNDR'
     },
     {
+        name: 'Сочи, хребет Ачишхо, эко-тропа',
+        url: './maps/other/sochi_achishko_eco_trail.webp',
+        link: './original_maps/other/sochi_achishko_eco_trail_omaps.gif',
+        bounds: [[43.72973944370968, 40.17000675201417], [43.72555281372339, 40.20206451416016], [43.71624814386753, 40.1700496673584]],
+        author: 'ZAMOTA',
+        owner: 'ZAMOTA',
+        region: 'KRSNDR'
+    },
+    {
         name: 'блв Черняховского',
         year: 2025,
         url: './maps/other/chernyahovskogo_2025.webp',

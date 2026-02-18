@@ -64,6 +64,10 @@ const regions = {
     SMR: {
         name: 'Самара'
     },
+    SAMARA: {
+        name: 'Самарская обл',
+        logo: 'samara.webp'
+    },
     SPB: {
         name: 'СПб'
     },
