@@ -16,6 +16,9 @@ let owners = {
     BVZ: {
         name: '© Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru">Tanya-9-8@ya.ru</a>]'
     },
+    BLAGOVO: {
+        name: 'Все права на книгу принадлежат Никите Владимировичу Благово. По всем вопросам пишите ему на электронную почту <a href="mailto:nvblagovo@mail.ru">nvblagovo@mail.ru</a>.',
+    },
     BLNA: {
         name: '© Балина Нина Александровна'
     },
@@ -348,6 +351,9 @@ let owners = {
     },
     KSTLV_E: {
         name: '© Костылев Егор'
+    },
+    KSTLV_V_V: {
+        name: 'Для приобретения книг Вячеслава Викторовича Костылева пишите ему на электронную почту <a href="mailto:kostylev_v@mail.ru">kostylev_v@mail.ru</a>.'
     },
     KMPT: {
         name: '© Компот групп',

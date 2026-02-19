@@ -308,21 +308,6 @@
             return result;
         }
 
-        function buildFotos(t) {
-            let result = '';
-            if (t.pics) {
-                for (let p = 1; p <= t.pics[1]; p++) {
-                    let url = 'tracks/' + t.pics[0] + '/pic_' + p + '.jpg';
-                    result += '<a href="#" onClick="openModal(' + picCounter++ + '); return false;"><img src="' + url + '" class="track-table-pic" /></a>';
-                    images.push(url);
-                }
-            }
-            if (t.video) {
-                result += ' ' + buildLink(t.video, '<img src="./images/video-camera.png" class="track-table-pic">', 'Видео', true);
-            }
-            return result;
-        }
-
         writeWelcomeButton();
     </script>
     <script src="js/slideshow.js"></script>

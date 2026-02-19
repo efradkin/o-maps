@@ -114,7 +114,7 @@ function renderMapsTable() {
         td(m, row, buildNumber(m, i));
         td(m, row, buildName(m));
         td(m, row, buildYear(m));
-        if (!isUnknownPage()) {
+        if (!isUnknownPage() && !isBooksPage()) {
             td(m, row, buildStart(m));
         }
         if (isRulesPage()) {
@@ -142,11 +142,18 @@ function renderMapsTable() {
                     hasPlanners = true;
                 }
                 td(m, row, planners);
+            }
+            if (!isDocumentsPage() || isBooksPage()) {
                 td(m, row, buildOwners(m, true));
+            }
+            if (!isDocumentsPage()) {
                 td(m, row, getTypesList(m));
             }
         } else {
             td(m, row, m.qtty);
+        }
+        if (isBooksPage()) {
+            td(m, row, buildFotos(m, 'books'));
         }
         tbody.appendChild(row);
     }

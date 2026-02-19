@@ -24,6 +24,10 @@ let authors = {
         name: 'Бондаренко Игорь',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    BLAGOVO: {
+        name: 'Благово Никита Владимирович',
+        about: 'https://rufso.ru/wp-content/uploads/2020/03/Благово.pdf' // https://o-site.spb.ru/history/Peoples/blagovo1.html
+    },
     BLV_V: { name: 'Белов В.' },
     BLVA_D: { name: 'Беляева Диана' },
     BLZRV_V: {
@@ -585,6 +589,10 @@ let authors = {
         name: 'Костылев Вячеслав', // Викторович
         about: 'https://rufso.ru/wp-content/uploads/2021/01/Костылев-ВВ.pdf'
     },
+    KSTLV_V_V: {
+        name: 'Костылев Вячеслав Викторович',
+        about: 'https://rufso.ru/wp-content/uploads/2021/01/Костылев-ВВ.pdf'
+    },
     KTNKO: {
         name: 'Китаенко Валерий',
         about: 'https://o-moscow.ru/people/KitaenkoVG.html'
@@ -842,6 +850,10 @@ let authors = {
     SMRNV_K: { name: 'Смирнов Кирилл' },
     SMRNV_S: { name: 'Смирнов Сергей' },
     TRFNV_A: { name: 'Труфанов Александр' }, // Федорович
+    VYLNN_L: {
+        name: 'Лийса Вейялайнен (Liisa Veijalainen)',
+        about: 'https://ru.wikipedia.org/wiki/Вейялайнен,_Лийса'
+    },
     ZAMOTA: {
         name: 'Замота Михаил', // Михайлович
         about: 'https://rufso.ru/м-м-замоте-70-лет/'

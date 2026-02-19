@@ -923,6 +923,10 @@ function isUnknownPage() {
     return typeof unknownPage != 'undefined' && unknownPage;
 }
 
+function isBooksPage() {
+    return typeof booksPage != 'undefined' && booksPage;
+}
+
 function isRulesPage() {
     return typeof rulesPage != 'undefined' && rulesPage;
 }
@@ -1277,6 +1281,21 @@ function buildPlanners(m) {
                 result += planners[starts[m.start].planner].name + '<br />';
             }
         }
+    }
+    return result;
+}
+
+function buildFotos(t, root = 'tracks') {
+    let result = '';
+    if (t.pics) {
+        for (let p = 1; p <= t.pics[1]; p++) {
+            let url = root + '/' + t.pics[0] + '/pic_' + p + '.jpg';
+            result += '<a href="#" onClick="openModal(' + picCounter++ + '); return false;"><img src="' + url + '" class="track-table-pic" /></a>';
+            images.push(url);
+        }
+    }
+    if (t.video) {
+        result += ' ' + buildLink(t.video, '<img src="./images/video-camera.png" class="track-table-pic">', 'Видео', true);
     }
     return result;
 }
