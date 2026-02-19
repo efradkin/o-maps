@@ -193,6 +193,16 @@ let moscowMaps = [
         author: ['ALSHN','GLDRV','KTNKO','NDRF_V','LVN_B']
     },
     {
+        name: 'Планерная',
+        date: '1972-02-19',
+        url: './maps/moscow/lr/planernaya_1972.webp',
+        link: ['./original_maps/moscow/lr/planernaya_1972_omaps.webp','./original_maps/moscow/lr/planernaya_1972_course_omaps.webp'],
+        info: 'Первое личное первенство Москвы по ориентированию на лыжах в заданном направлении.',
+        about: 'https://t.me/moscow_orient/2073',
+        bounds: [[55.935140019008166, 37.271418571472175], [55.931558159242975, 37.35420227050782], [55.90363715593291, 37.26613998413087]],
+        author: ['MLTSV','ALSHN','BSHNSKY','LVN_B','SMLV_V','FROLOV']
+    },
+    {
         name: 'Вашутино',
         year: 1991,
         url: './maps/moscow/vashutino_1991.webp',

@@ -608,6 +608,7 @@ let authors = {
     MLCHK: { name: 'Мальчик Игорь' },
     MLNKV_V: { name: 'Мыльников Валентин' }, // Михайлович
     MRDRS: { name: 'Мордирос А.' },
+    MLTSV: { name: 'Мальцев А.' },
     MRTSHV: {
         name: 'Мартишев Владислав',
         about: 'https://o-moscow.ru/people/MartishevVI.html'
@@ -661,6 +662,7 @@ let authors = {
     SKLV_V: { name: 'Соколов Вячеслав' },
     SKRPKO_S: { name: 'Скрипко Сергей' },
     SMKN_V: { name: 'Симкин В.' },
+    SMLV_V: { name: 'Самойлов В.' },
     SMKN_S: {
         name: 'Симакин Сергей',
         about: 'https://o-moscow.ru/people/SimakinSM.html'
