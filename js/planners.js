@@ -5,6 +5,7 @@ let planners = {
     BDKN_A: { name: 'Будкин А' },
     BKTV: { name: 'Бекетов Константин' },
     BLNV_A: { name: 'Блинов А' },
+    BLZRV_V: { name: 'Белозеров Владимир' },
     BNDRNK: { name: 'Бондаренко Игорь' },
     BRDLN_Y: { name: 'Бородулин Юрий' },
     BRDN_V: { name: 'Бородин В' },

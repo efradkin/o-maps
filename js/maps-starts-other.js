@@ -39,6 +39,32 @@ let otherStartsMaps = [
         planner: 'EGRV_E'
     },
     {
+        name: 'Сосново',
+        page: 'starts',
+        date: '1983-06-11',
+        start: 'REPORT',
+        url: './maps/starts/other/sosnovo_1983_06_11.webp',
+        link: './original_maps/starts/other/sosnovo_1983_06_11_omaps.webp',
+        info: '<a href="./docs/1983/1983_06_11_spartak_rule_omaps.pdf">Летний Чемпионат ЛГС ДСО Спартак</a>.',
+        results: './docs/1983/1983_06_11_spartak_omaps.pdf',
+        bounds: [[60.54681407203587, 30.188713073730472], [60.54309990668631, 30.250082015991214], [60.515779257105685, 30.1820182800293]],
+        author: ['LVCHV','SVTKN'],
+        planner: 'BLZRV_V'
+    },
+    {
+        name: 'Лемболово',
+        page: 'starts',
+        date: '1983-06-12',
+        start: 'REPORT',
+        url: './maps/starts/other/lembolovo_1983_06_12.webp',
+        link: ['./original_maps/starts/other/lembolovo_1983_06_12_M_omaps.webp','./original_maps/starts/other/lembolovo_1983_06_12_W_omaps.webp'],
+        info: '<a href="./docs/1983/1983_06_11_spartak_rule_omaps.pdf">Летний Чемпионат ЛГС ДСО Спартак</a>.',
+        results: './docs/1983/1983_06_12_spartak_omaps.pdf',
+        bounds: [[60.41673388101221, 30.27291297912598], [60.41308954965064, 30.338745117187504], [60.38828878444807, 30.26741981506348]],
+        author: ['LVCHV','SVTKN'],
+        planner: 'CHGRVSKY_V'
+    },
+    {
         name: 'Песочная',
         page: 'starts',
         start: 'REPORT',

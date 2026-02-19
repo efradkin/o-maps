@@ -303,6 +303,13 @@ let historyDocs = [
         planner: 'EGRV_E'
     },
     {
+        name: 'Летний Чемпионат ЛГС ДСО Спартак (Сосново, Лемболово)',
+        date: '1983-06-11',
+        link: ['./docs/1983/1983_06_11_spartak_rule_omaps.pdf','./docs/1983/1983_06_11_spartak_omaps.pdf','./docs/1983/1983_06_12_spartak_omaps.pdf'],
+        map: ['sosnovo_1983_06_11','lembolovo_1983_06_12'],
+        planner: ['BLZRV_V','CHGRVSKY_V']
+    },
+    {
         name: 'Кубок ЛГС ДСО Спартак (Голубые Дачи)',
         date: '1983-09-17',
         link: './docs/1983/1983_09_17_mruchey_omaps.pdf',
