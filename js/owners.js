@@ -16,9 +16,6 @@ let owners = {
     BVZ: {
         name: '© Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru">Tanya-9-8@ya.ru</a>]'
     },
-    BLAGOVO: {
-        name: 'Все права на книгу принадлежат Никите Владимировичу Благово. По всем вопросам пишите ему на электронную почту <a href="mailto:nvblagovo@mail.ru">nvblagovo@mail.ru</a>.',
-    },
     BLNA: {
         name: '© Балина Нина Александровна'
     },
@@ -225,7 +222,7 @@ let owners = {
         name: '© Шкилев В.В. - 8 (921)7473259'
     },
     SHRNN: {
-        name: 'По вопросам использования карты - Александр Альбертович Ширинян, skishar@mail.ru.'
+        name: 'По вопросам использования карты - Александр Альбертович Ширинян, <a href="mailto:skishar@mail.ru">skishar@mail.ru</a>.'
     },
     SHRPVA: {
         name: '© Шарапова Лидия'
@@ -351,9 +348,6 @@ let owners = {
     },
     KSTLV_E: {
         name: '© Костылев Егор'
-    },
-    KSTLV_V_V: {
-        name: 'Для приобретения книг Вячеслава Викторовича Костылева пишите ему на электронную почту <a href="mailto:kostylev_v@mail.ru">kostylev_v@mail.ru</a>.'
     },
     KMPT: {
         name: '© Компот групп',
@@ -610,5 +604,16 @@ let owners = {
     MASS_SPORT: {
         name: '@ <a href="https://mass-sport.ru/">Масс-спорт</a>',
         logo: 'mass-sport.webp'
+    },
+
+    /* --- КНИГИ --- */
+    BLAGOVO: {
+        name: 'Все права на книгу принадлежат Никите Владимировичу Благово. По всем вопросам пишите ему на электронную почту <a href="mailto:nvblagovo@mail.ru">nvblagovo@mail.ru</a>.',
+    },
+    KSTLV_V_V: {
+        name: 'Для приобретения книг Вячеслава Викторовича Костылева пишите ему на электронную почту <a href="mailto:kostylev_v@mail.ru">kostylev_v@mail.ru</a>.'
+    },
+    SHRNN_AA: {
+        name: 'Александр Альбертович Ширинян, <a href="mailto:skishar@mail.ru">skishar@mail.ru</a>.'
     },
 }

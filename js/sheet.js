@@ -54,7 +54,7 @@ window.onload = function() {
             document.querySelector('.o-sheet th:nth-child(10)').style.maxWidth = 0;
         }
     }
-    if ((START_NAME_PARAM || isDocumentsPage() && !isUnknownPage())) {
+    if ((START_NAME_PARAM || isDocumentsPage() && !isUnknownPage() && !isBooksPage())) {
         document.querySelector('.o-sheet').classList.add("start-sheet");
         let th = document.getElementById(isUnknownPage() ? 'name-column' : 'year-column');
         th.click();

@@ -24,10 +24,6 @@ let authors = {
         name: 'Бондаренко Игорь',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
-    BLAGOVO: {
-        name: 'Благово Никита Владимирович',
-        about: 'https://rufso.ru/wp-content/uploads/2020/03/Благово.pdf' // https://o-site.spb.ru/history/Peoples/blagovo1.html
-    },
     BLV_V: { name: 'Белов В.' },
     BLVA_D: { name: 'Беляева Диана' },
     BLZRV_V: {
@@ -344,6 +340,7 @@ let authors = {
     },
     SHEIN: { name: 'Шеин Александр' },
     SHKLV: { name: 'Шкилев Виталий' },
+    SHNTSV: { name: 'Шанцев' },
     SHRNN: {
         name: 'Ширинян Александр', //Альбертович
         about: 'https://o-site.spb.ru/history/Peoples/shar.html' //https://spbof.ru/ru/8-news/31-a-a-shirinyan-idealnykh-kart-ne-byvaet-lyudi-vidyat-ob-ekty-po-raznomu
@@ -457,7 +454,7 @@ let authors = {
     },
     YGNV: { name: 'Яганов Алексей' },
     YKVLVA: { name: 'Яковлева И.' },
-    YUDNTSV: { name: 'Юдинцев Валерий' },
+    YUDNTSV: { name: 'Юдинцев Валерий' }, // Киров
     ZSLNKN: { name: 'Заслонкин Пётр' },
     ZCHNV: { name: 'Зачиняев Виктор' },
     ZHMNTKV: { name: 'Жаманткова Надежда' },
@@ -468,6 +465,7 @@ let authors = {
 
     AFNSV_Y: { name: 'Афанасьев Ю.' }, // Б.
     ALDBV: { name: 'Алдобаев Максим' },
+    ALFRV: { name: 'Алферьев Александр' },
     ALNKV_A: { name: 'Алейников Алексей' },
     ALSHN: {
         name: 'Алёшин Виктор',
@@ -533,6 +531,7 @@ let authors = {
         name: 'Игнатенко Валерий',
         about: 'https://o-moscow.ru/people/IgnatenkoVA.html'
     },
+    ILCJVA: { name: 'Ильичёва Е.' },
     IVNLV: { name: 'Иванилов Н.' },
     IVNV_ALXDR: { name: 'Иванов Александр' },
     JAKMV_A: { name: 'Якимов Александр' },
@@ -547,6 +546,7 @@ let authors = {
     JASHPTRV: { name: 'Яшпатров Геннадий' },
     KBRV_M: { name: 'Кубарев М.' },
     KCHRNA: { name: 'Качурина Ирина' },
+    KCHNV_D: { name: 'Кочнов Дмитрий' },
     KHMZV: { name: 'Хамурзов Владимир' },
     KLNN_B: {
         name: 'Калинин Борис',
@@ -573,6 +573,7 @@ let authors = {
         name: 'Куницын Николай',
         about: 'https://o-moscow.ru/people/KunicynNN.html'
     },
+    KRMV_H: { name: 'Каримов Халит' },
     KRNVA: {
         name: 'Куранова Ирина',
         logo: 'krnva.jpg',
@@ -585,12 +586,9 @@ let authors = {
     KRVKV: { name: 'Корвяков Михаил' },
     KSHRN: { name: 'Каширин Б.' },
     KSTLV_E: { name: 'Костылев Егор' },
+    KTKVA_E: { name: 'Коткова Эльвира' },
     KSTLV_V: {
         name: 'Костылев Вячеслав', // Викторович
-        about: 'https://rufso.ru/wp-content/uploads/2021/01/Костылев-ВВ.pdf'
-    },
-    KSTLV_V_V: {
-        name: 'Костылев Вячеслав Викторович',
         about: 'https://rufso.ru/wp-content/uploads/2021/01/Костылев-ВВ.pdf'
     },
     KTNKO: {
@@ -612,11 +610,13 @@ let authors = {
     },
     LZRV: { name: 'Лазарев Константин' },
     MDVDV_A: { name: 'Медведев Александр' },
+    MHVA_N: { name: 'Михеева Нина' },
     MTN_Y: { name: 'Митин Юрий' }, // И.
     MLCHK: { name: 'Мальчик Игорь' },
     MLNKV_V: { name: 'Мыльников Валентин' }, // Михайлович
     MRDRS: { name: 'Мордирос А.' },
     MLTSV: { name: 'Мальцев А.' },
+    MRKN_S: { name: 'Маркин Сергей' },
     MRTSHV: {
         name: 'Мартишев Владислав',
         about: 'https://o-moscow.ru/people/MartishevVI.html'
@@ -650,7 +650,7 @@ let authors = {
     PTRV_VLNTN: { name: 'Петров Валентин' },
     PRZRV: { name: 'Прозоров Андрей' },
     PZDV_S: { name: 'Поздеев Сергей' },
-    PZGRV: { name: 'Пызгарев В.' },
+    PZGRV: { name: 'Пызгарев Вячеслав' }, // Тула
     RSCHN_R: { name: 'Рощин Р.' },
     RMNV_A: { name: 'Романов Александр' },
     RZNKV_A: { name: 'Разинков Александр' },
@@ -666,6 +666,7 @@ let authors = {
     },
     SHLST: { name: 'Шелест Ю.' },
     SHRKHV: { name: 'Шорохов Сергей' },
+    SHVDV_A: { name: 'Шведов Андрей' },
     SKLV_D: { name: 'Соколов Данила' },
     SKLV_V: { name: 'Соколов Вячеслав' },
     SKRPKO_S: { name: 'Скрипко Сергей' },
@@ -679,6 +680,7 @@ let authors = {
         name: 'Смирнов Виктор',
         about: 'https://o-moscow.ru/people/SmirnovVS.html'
     },
+    SRBRKV_S: { name: 'Серебряков Сергей' },
     SSO_MIFI: { name: 'Бригада ССО МИФИ' },
     SVIR_A: {
         name: 'Свирь Александр', // Владимирович,
@@ -694,6 +696,7 @@ let authors = {
     VSHKVRKO: { name: 'Вышкварко Алексей' },
     YTKN: { name: 'Юткин С.' },
     YURCHK: { name: 'Юрчук Сергей' },
+    ZHCHKV_V: { name: 'Жучков Владимир' },
     ZHRDV_V: { name: 'Жердев Владимир' }, // Петрович
     ZKHRV_Y: {
         name: 'Захаров Юрий',
@@ -843,12 +846,14 @@ let authors = {
     KUZNTSV_S_DV: { name: 'Кузнецов Сергей' },
     KUZNTSV_V_DV: { name: 'Кузнецов В.' },
     LSHV_A: { name: 'Лайшев Алексей' },
+    MLSHNKO_V: { name: 'Малашенко Валерий' }, // Брянск
     NBLSNV: { name: 'Небольсинов Алексей' },
     NR_D: { name: '<a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>' },
     PNCHKV: { name: 'Панчуков С.' },
     SKRSKY_A: { name: 'Сикорский А.' },
     SMRNV_K: { name: 'Смирнов Кирилл' },
     SMRNV_S: { name: 'Смирнов Сергей' },
+    SRV_A: { name: 'Серов Александр' }, // Калуга
     TRFNV_A: { name: 'Труфанов Александр' }, // Федорович
     VYLNN_L: {
         name: 'Лийса Вейялайнен (Liisa Veijalainen)',
@@ -859,5 +864,19 @@ let authors = {
         about: 'https://rufso.ru/м-м-замоте-70-лет/'
     },
     ZHRDV_T: { name: 'Жердев Тимур' },
+
+    /* --- КНИГИ --- */
+    BLAGOVO: {
+        name: 'Благово Никита Владимирович',
+        about: 'https://rufso.ru/wp-content/uploads/2020/03/Благово.pdf' // https://o-site.spb.ru/history/Peoples/blagovo1.html
+    },
+    KSTLV_V_V: {
+        name: 'Костылев Вячеслав Викторович',
+        about: 'https://rufso.ru/wp-content/uploads/2021/01/Костылев-ВВ.pdf'
+    },
+    LSV_A_S: {
+        name: 'Андрей Сталиевич Лосев',
+        about: 'https://rufso.ru/wp-content/uploads/2019/11/Лосев-Андрей-Сталиевич.pdf'
+    },
 };
 

@@ -37,8 +37,7 @@
 
     <base target="_blank">
 </head>
-<body class="help-body stat-body sheet-body">
-    <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+<body class="help-body stat-body sheet-body books-body">
     <h1>
         <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
 
@@ -60,7 +59,7 @@
             <option value="calendar">Календарь стартов</option>
         </select>
    </h1>
-    <h2 class="text-center">Книги и статьи</h2>
+    <h2 class="text-center">Книги и статьи о спортивном ориентировании</h2>
 
     <div class="o-sheet-roof">
         <a href="#" onclick="downloadSheetTable('o-maps-books.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
@@ -71,7 +70,7 @@
             <tr>
                 <th>&nbsp</th>
                 <th data-sort="name" class="sortable">Название</th>
-                <th data-sort="year" class="sortable" id="year-column" data-order="desc" style="text-align: left">Год</th>
+                <th data-sort="year" class="sortable" id="year-column" style="text-align: left">Год</th>
                 <th>Файлы</th>
                 <th>Инфо</th>
                 <th>Автор</th>
@@ -125,7 +124,11 @@
             ...oBooks,
         ];
 
-        // const popupMessage = 'Если нужно поискать Вашу фамилию в этих документах, или Вы хотели бы помочь мне со сканированием, <a href="help/contacts.html">напишите мне</a>.';
+        const popupMessage = 'Хорошие подборки материалов есть на сайтах <a href="https://rufso.ru/literatura/">ФСОР</a>, ' +
+            '<a href="https://orient-murman.ru/index.php/book/45-2010-12-23-20-52-09">мурманского ориентирования</a> ' +
+            'и в <a href="https://vk.com/orienteeringbooks">ВК</a>. ' +
+            'Журнал «<a href="https://rufso.ru/журнал-азимут-по-номерам/">Азимут</a>» по номерам. ' +
+            'Множество старых статей на сайте <a href="https://moscompass.ru/news/index.php?m=3">МосКомпас</a>.';
 
         writeWelcomeButton();
     </script>
@@ -133,7 +136,7 @@
     <script src="js/map-build.js"></script>
     <script src="js/main.js"></script>
     <script src="js/sheet.js"></script>
-<!--    <script src="js/slide-popup.js"></script>-->
     <script src="js/slideshow.js"></script>
+    <script src="js/slide-popup.js"></script>
 </body>
 </html>

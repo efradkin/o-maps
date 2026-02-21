@@ -658,6 +658,23 @@ body.integration-body {
     }
 }
 
+/* --- books --- */
+.books-body {
+    .o-main-table {
+        td, th {
+            padding: 15px;
+            font-size: 14px;
+        }
+        td:nth-child(2) {
+            font-weight: bold;
+            min-width: 200px;
+        }
+        .track-table-pic {
+            height: 80px;
+        }
+    }
+}
+
 /* --- calendar --- */
 .calendar-body {
     .o-main-table {
