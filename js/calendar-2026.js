@@ -333,6 +333,7 @@ let events2026 = [
     name: 'ЧиП ЛО',
     o_site: '260220_lo',
     reg: 'https://orgeo.ru/event/kirovsk_ski_o_2122022026',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24278/',
     type: 'SKI',
     fmt: 'маркир,масстарт',
     map: 'kirovsk_2025',
@@ -346,6 +347,7 @@ let events2026 = [
     o_site: '260221',
     reg: 'http://orgeo.ru/event/info/ib26',
     info: 'Бесплатно, но принимаются добровольные взносы.',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24280/',
     type: 'ORIENT',
     map: 'pavlovsk_mariental_2022',
     owner: 'EGRV_EGR'

@@ -169,4 +169,10 @@ let oBooks = [
         author: 'SHNTSV',
         pics: ['multitech', 1]
     },
+    {
+        name: 'Orienteering Skills and Strategies',
+        year: 1985,
+        link: './books/lowry_sidney_skills_strategies_1985_omaps.pdf',
+        author: ['RN_L','KN_S'],
+    },
 ];

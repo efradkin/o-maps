@@ -870,6 +870,7 @@ let authors = {
         name: 'Благово Никита Владимирович',
         about: 'https://rufso.ru/wp-content/uploads/2020/03/Благово.pdf' // https://o-site.spb.ru/history/Peoples/blagovo1.html
     },
+    KN_S: { name: 'Ken Sidney' },
     KSTLV_V_V: {
         name: 'Костылев Вячеслав Викторович',
         about: 'https://rufso.ru/wp-content/uploads/2021/01/Костылев-ВВ.pdf'
@@ -878,5 +879,6 @@ let authors = {
         name: 'Андрей Сталиевич Лосев',
         about: 'https://rufso.ru/wp-content/uploads/2019/11/Лосев-Андрей-Сталиевич.pdf'
     },
+    RN_L: { name: 'Ron Lowry' },
 };
 
