@@ -871,6 +871,7 @@ let authors = {
         about: 'https://rufso.ru/wp-content/uploads/2020/03/Благово.pdf' // https://o-site.spb.ru/history/Peoples/blagovo1.html
     },
     KN_S: { name: 'Ken Sidney' },
+    KPRN_A_M: { name: 'Куприн Алексей Михайлович' },
     KSTLV_V_V: {
         name: 'Костылев Вячеслав Викторович',
         about: 'https://rufso.ru/wp-content/uploads/2021/01/Костылев-ВВ.pdf'
