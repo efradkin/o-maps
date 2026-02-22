@@ -368,7 +368,6 @@ let events2026 = [
 {
     id: 'SPB_20260228_1',
     date: '2026-02-28',
-    endDate: '2026-03-01',
     name: 'ЧиП СПб',
     place: 'Орехово',
     o_site: '260228_ChiP',
@@ -616,6 +615,15 @@ let events2026 = [
     link: ['https://t.me/pmarshbrosok','https://vk.com/mbrosok'],
     start: 'MB',
     owner: ['BKTV','SHBN']
+},
+{
+    id: 'SPB_20260523_5',
+    date: '2026-05-23',
+    name: 'Новгородский исторический рогейн',
+    link: 'https://vk.com/wall-91656163_2676',
+    type: 'ROGAINE',
+    fmt: '6, 3',
+    owner: 'LM'
 },
 {
     id: 'SPB_20260530_1',

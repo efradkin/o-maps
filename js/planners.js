@@ -61,6 +61,7 @@ let planners = {
     MRSKY_S: { name: 'Мурский Сергей' },
     MSLVSKY: { name: 'Масловский Дмитрий' },
     MTN_Y: { name: 'Митин Юрий' },
+    NKFRV_A: { name: 'Никифоров Андрей' },
     NKLVCH: { name: 'Николаевич А' },
     NKTN_I: { name: 'Никитин Иван' },
     NVGRDTSV: { name: 'Новгородцев Д' },

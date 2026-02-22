@@ -1391,6 +1391,12 @@ let historyDocs = [
         link: './docs/1991/1991_06_05_orientir_8_omaps.pdf',
     },
     {
+        name: 'Чемпионат Ленинграда (Вяртемяки)',
+        date: '1991-06-08',
+        link: './docs/1991/1991_06_08_leningrad_omaps.pdf',
+        planner: 'SHLKHN_Y'
+    },
+    {
         name: 'Чемпионат Ленинграда (Шапки)',
         date: '1991-06-09',
         link: './docs/1991/1991_06_09_leningrad_omaps.pdf',
@@ -1592,12 +1598,44 @@ let historyDocs = [
         link: './docs/1992/1992_01_01_new_year_omaps.pdf',
     },
     {
+        name: 'Майские многодневные соревнования (Колтуши)',
+        date: '1992-05-01',
+        link: ['./docs/1992/1992_05_mayski_omaps.pdf','./docs/1992/1992_05_01_mayski_omaps.pdf','./docs/1992/1992_05_02_mayski_omaps.pdf','./docs/1992/1992_05_03_mayski_omaps.pdf'],
+        planner: ['FDRV_L','NKFRV_A']
+    },
+    {
+        name: 'Лесной ландыш (Осельки)',
+        date: '1992-05-24',
+        link: './docs/1992/1992_05_24_forest_landysh_omaps.pdf',
+        planner: 'VLKV_A',
+        me: 'HA'
+    },
+    {
         name: 'Белые Ночи (Сосново)',
         date: '1992-06-26',
         start: 'WN',
         info: '26-28 июня.',
         link: './docs/1992/1992_06_26_wn_omaps.pdf',
         me: 'H17'
+    },
+    {
+        name: 'П-во КСО Азимут (Саблино)',
+        date: '1992-09-27',
+        link: './docs/1992/1992_09_27_azimuth_omaps.pdf',
+        planner: 'DRBSHV',
+        me: 'HA'
+    },
+    {
+        name: 'Чемпионат СПб, марафон (Воейково)',
+        date: '1992-10-04',
+        link: './docs/1992/1992_10_04_spb_marathon_omaps.pdf',
+        planner: 'VSLVSKY',
+        me: 'H-A'
+    },
+    {
+        name: 'Ночное п-во КСО Азимут',
+        date: '1992-10-17',
+        link: './docs/1992/1992_10_17_night_azimuth_omaps.pdf',
     },
     {
         name: 'Зимняя Универсиада ВУЗов СПб (Токсово)',
