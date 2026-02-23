@@ -229,10 +229,19 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, Комаровский берег',
+        year: 1977,
+        url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg_1977.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_komarovsky_bereg_1977_omaps.webp',
+        bounds: [[60.20131729444974, 29.71887588500977], [60.19060941756903, 29.77852821350098], [60.19142009621113, 29.710550308227543]],
+        author: ['KUZNTSV_S','KUZNTSVA_Z']
+    },
+    {
+        name: 'Зеленогорск, Комаровский берег',
         year: 1,
         url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovsky_bereg_omaps.jpg',
-        bounds: [[60.20033623997278, 29.729690551757816], [60.18583027344266, 29.80496406555176], [60.18941469676139, 29.723253250122074]]
+        bounds: [[60.20033623997278, 29.729690551757816], [60.18583027344266, 29.80496406555176], [60.18941469676139, 29.723253250122074]],
+        author: ['KUZNTSV_S','KUZNTSVA_Z']
     },
     {
         name: 'Ильичёво',

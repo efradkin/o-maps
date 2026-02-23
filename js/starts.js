@@ -251,6 +251,12 @@ let starts = {
             '<p> © <a href="https://o-site.spb.ru/history/Peoples/avolkov.html">Посвящение</a>',
         page: 'starts'
     },
+    ESTONIA_LENINGRAD: {
+        short: 'Матч Эстония-Ленинград',
+        name: '<a href="https://o-site.spb.ru/history/History/book.html#mark06">Матчевая встреча Эстония-Ленинград</a> (<a href="https://o-site.spb.ru/history/History/estle-s.html">лето</a>, <a href="https://o-site.spb.ru/history/History/estle-w.html">зима</a>)',
+        major: true,
+        region: 'LNGRD'
+    },
     USSR_BULGARIA_1968: {
         short: 'Матч СССР-Болгария\'1968',
         name: '<a href="https://o-site.spb.ru/history/Knots/match-68.html">Международная товарищеская встреча сборных команд Болгарии и СССР</a> (<a href="./docs/ussr_bulgaria_1968_article_omaps.jpg">статья в газете "ТРУД"</a>)',

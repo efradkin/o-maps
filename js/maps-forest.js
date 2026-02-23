@@ -327,13 +327,12 @@ let forestMaps = [
         owner: 'SVCHK'
     },
     {
-        name: 'Лупполово',
-        year: 2022,
-        url: './maps/forest/luppolovo_2022.webp',
-        link: './original_maps/forest/luppolovo_2022_omaps.jpg',
-        bounds: [[60.17394340330982, 30.242528915405277], [60.17061345472757, 30.277547836303714], [60.153488774626965, 30.233902931213382]],
-        author: 'DBRTSV_V',
-        owner: 'SHEIN'
+        name: 'Вартемяги',
+        date: '1970-06-28',
+        url: './maps/forest/vartemjagi_1970_06_28.webp',
+        link: ['./original_maps/forest/vartemjagi_1970_06_28_M_omaps.webp','./original_maps/forest/vartemjagi_1970_06_28_W_omaps.webp'],
+        bounds: [[60.191398762819176, 30.260252952575687], [60.188049248309405, 30.31904697418213], [60.16474253103123, 30.253343582153324]],
+        start: 'ESTONIA_LENINGRAD'
     },
     {
         name: 'Вартемяги',
@@ -379,6 +378,15 @@ let forestMaps = [
         url: './maps/forest/vartemjagi_south_2018.webp',
         link: './original_maps/forest/vartemjagi_south_2018_omaps.jpg',
         bounds: [[60.16493468695678, 30.30784606933594], [60.161731941494104, 30.348143577575687], [60.148319724462795, 30.303683280944828]],
+        author: 'DBRTSV_V',
+        owner: 'SHEIN'
+    },
+    {
+        name: 'Лупполово',
+        year: 2022,
+        url: './maps/forest/luppolovo_2022.webp',
+        link: './original_maps/forest/luppolovo_2022_omaps.jpg',
+        bounds: [[60.17394340330982, 30.242528915405277], [60.17061345472757, 30.277547836303714], [60.153488774626965, 30.233902931213382]],
         author: 'DBRTSV_V',
         owner: 'SHEIN'
     },

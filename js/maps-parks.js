@@ -260,6 +260,15 @@ let parkMaps = [
         type: ['PARK']
     },
     {
+        name: 'парк Челюскинцев-Удельный',
+        year: 1,
+        url: './maps/parks/udelny_retro.webp',
+        link: './original_maps/parks/udelny_retro_omaps.jpg',
+        bounds: [[60.018057076197195, 30.29866218566895], [60.0159767528074, 30.324625968933105], [60.002333450686606, 30.294499397277836]],
+        logo: 'leningrad_retro.gif',
+        type: ['PARK'],
+    },
+    {
         name: 'Удельный парк',
         year: 1987,
         url: './maps/parks/udelny_1987.webp',

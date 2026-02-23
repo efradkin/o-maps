@@ -13,6 +13,17 @@ let otherStartsMaps = [
         author: ['VSLVSKY','DRBSHV','PTRV_A']
     },
     {
+        name: 'Поляны',
+        page: 'starts',
+        start: 'REPORT',
+        date: '1978-01-21',
+        url: './maps/starts/other/polyany_1978_01_21_lningrad.webp',
+        link: ['./original_maps/starts/other/polyany_1978_01_21_lningrad_M_omaps.webp','./original_maps/starts/other/polyany_1978_01_21_lningrad_W_omaps.webp'],
+        info: 'XIX Зимний Чемпионат Ленинграда и области. Маркированная трасса.',
+        results: 'https://o-site.spb.ru/history/Localres/w78m.html',
+        bounds: [[60.33710139034609, 29.256162643432617], [60.3366341370077, 29.305944442749027], [60.30565306640177, 29.24371719360352]],
+    },
+    {
         name: 'Юкки',
         page: 'starts',
         date: '1983-03-19',

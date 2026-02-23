@@ -359,6 +359,7 @@ let events2026 = [
     place: 'Удельный парк',
     o_site: '260223_ST',
     reg: 'http://o-reg.spb.ru/?filter[day_id]=1714',
+    reskeep: 842,
     type: 'ORIENT',
     fmt: 'спринт',
     info: 'Медаль - каждому участнику. Квест в стиле средневекового фэнтези.',
