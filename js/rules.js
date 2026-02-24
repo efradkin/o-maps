@@ -169,6 +169,12 @@ let rules = [
         owner: 'FSOR'
     },
     {
+        name: 'Как работает ИОФ',
+        year: 2017,
+        url: 'https://rufso.ru/wp-content/uploads/2017/07/kak_rabotaet_iof.pdf',
+        owner: 'FSOR'
+    },
+    {
         name: 'IRF Rules of Rogaining',
         year: 2024,
         url: 'https://www.rogaining.com/rules',
