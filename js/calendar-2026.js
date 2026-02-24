@@ -322,6 +322,7 @@ let events2026 = [
     fmt: '5, 2',
     o_site: '260221R',
     reg: 'https://orgeo.ru/event/48446',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24300/',
     map: 'lembolovo_orekhovo_gk_2024',
     start: 'GORNY_CROSS'
 },
@@ -360,6 +361,7 @@ let events2026 = [
     o_site: '260223_ST',
     reg: 'http://o-reg.spb.ru/?filter[day_id]=1714',
     reskeep: 842,
+    photo: ['https://vk.ru/album-230167293_312706609'],
     type: 'ORIENT',
     fmt: 'спринт',
     info: 'Медаль - каждому участнику. Квест в стиле средневекового фэнтези.',

@@ -148,6 +148,27 @@ let samaraMaps = [
         type: ['CITY','SPRINT']
     },
     {
+        name: 'парк Гагарина',
+        year: 2026,
+        url: './maps/samara/gagarina_2026.webp',
+        link: './original_maps/samara/gagarina_2026_omaps.gif',
+        bounds: [[53.23291017349603, 50.196061134338386], [53.23181843821141, 50.20642518997193], [53.22692455327532, 50.19415140151978]],
+        author: ['MRZN_A','SHKRN_D'],
+        owner: 'ZNVJV_A',
+        type: ['PARK','SPRINT']
+    },
+    {
+        name: 'Загородный парк',
+        year: 2023,
+        correct: 2026,
+        url: './maps/samara/zagorodny_2026.webp',
+        link: './original_maps/samara/zagorodny_2026_omaps.gif',
+        bounds: [[53.23496512909674, 50.15754461288453], [53.232833110742106, 50.17642736434937], [53.22897979617951, 50.15584945678712]],
+        author: ['MRZN_A','ZNVJV_A'],
+        owner: 'ZNVJV_A',
+        type: ['PARK','SPRINT']
+    },
+    {
         name: 'Микрорайон 7А, школа №48',
         year: 2025,
         url: './maps/samara/school_48_2025.webp',
