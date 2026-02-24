@@ -155,17 +155,6 @@ let rogaineKkmMaps = [
         type: ['ROGAINE']
     },
     {
-        name: 'Сосновка',
-        date: '2021-10',
-        url: './maps/rogaine/kkm/sosnovka_KKM_2021_10.webp',
-        link: './original_maps/rogaine/kkm/sosnovka_KKM_2021_10_omaps.jpg',
-        bounds: [[60.03441629255553, 30.32106399536133], [60.03197257300201, 30.370244979858402], [60.012158911595996, 30.315999984741214]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/11161/',
-        start: 'KKM',
-        owner: 'RYZHOV',
-        type: ['ROGAINE']
-    },
-    {
         name: 'Токсово, оз Хепоярви - СКА, Марафонский круг',
         date: '2022-02',
         url: './maps/rogaine/kkm/toksovo_hepojarvy_KKM_2022_02.webp',
@@ -419,6 +408,29 @@ let rogaineKkmMaps = [
         bounds: [[59.87170869266283, 30.135283470153812], [59.871924100328755, 30.23042678833008], [59.841775006732156, 30.135240554809574]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24168/',
         start: ['VO_FOTO','KKM'],
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Удельная',
+        date: '2026-03',
+        about: 'https://vk.ru/wall-227807023_425',
+        info: 'Март, фото-рогейн.',
+        url: './maps/rogaine/kkm/udelnaya_KKM_2026_03.webp',
+        link: ['https://psv4.userapi.com/s/v1/d2/_NAxwKt2vrJrV0Syvr7CfhpmDB5e-jZM2tp8yTC8YPeaLynHOANfRYvrQ16k_MBVozm_Iqd-QQjDV2qfFzp4zz610I94qb-REoS-xR2G3SCvHpnXpMLm_zuKOGL7lJVO-SpqYYMTO4rE/KKM_3_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/CRRxeVWDIRNF0JDeofli6OJOq1_pFcdEuJ5RPdN8TY8DgBFBs3P76TH6WCJ3cWpbIdR6YZPLvDnfr_U9k-xKQzCivMX3FLm1hDM4HDmTJFkBNKchBRCXkKdokyr2xjjMzshIwqSswosB/SETKA_3_2026.jpg?dl=1'],
+        bounds: [[60.03222981515188, 30.294842720031742], [60.032336998789845, 30.37608146667481], [60.00081002835386, 30.294842720031742]],
+        start: ['VO_FOTO','KKM'],
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Сосновка',
+        date: '2021-10',
+        url: './maps/rogaine/kkm/sosnovka_KKM_2021_10.webp',
+        link: './original_maps/rogaine/kkm/sosnovka_KKM_2021_10_omaps.jpg',
+        bounds: [[60.03441629255553, 30.32106399536133], [60.03197257300201, 30.370244979858402], [60.012158911595996, 30.315999984741214]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/11161/',
+        start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },

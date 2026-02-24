@@ -348,7 +348,7 @@ if (mapElement) {
         center: [x, y],
         zoom: zoom,
         layers: activeLayers,
-        contextmenu: false,
+        contextmenu: true,
         contextmenuWidth: 190,
         contextmenuItems: buildContextmenuItems()
     });
