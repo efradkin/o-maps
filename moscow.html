@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="js/ext/leaflet.notifications/leaflet-notifications.min.css"/>
     <link rel="stylesheet" href="js/ext/Leaflet.markercluster/MarkerCluster.css"/>
     <link rel="stylesheet" href="js/ext/Leaflet.markercluster/MarkerCluster.Default.css"/>
+    <link rel="stylesheet" href="js/ext/leaflet-burgermenu/leaflet-burgermenu.css"/>
     <link rel="stylesheet" href="css/main.css?v=1"/>
 
     <script src="js/ext/bootstrap.min.js"></script>
@@ -97,22 +98,6 @@
     </noscript>
 
     <div id="map"></div>
-    <select id="map_region_selector" onchange="selectMapRegion(this.value)">
-        <option value="index">Начальная страница</option>
-        <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-        <option value="spb">Санкт-Петербург</option>
-        <option value="msk" selected>Москва</option>
-        <option value="bash">Башкортостан</option>
-        <option value="srb">Белград</option>
-        <option value="pskov">Псков</option>
-        <option value="rzn">Рязань</option>
-        <option value="smr">Самара</option>
-        <option value="all">Все регионы вместе</option>
-        <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-        <option value="starts">Старты на карте</option>
-        <option value="tracks">Маршруты</option>
-        <option value="calendar_msk">Календарь стартов</option>
-    </select>
     <img id="spinner" src="images/snowman.gif" alt="" />
     <div id="counter"></div>
 
@@ -134,6 +119,7 @@
     <script src="js/ext/Leaflet.FileLayer/togeojson.js"></script>
     <script src="js/ext/Leaflet.FileLayer/leaflet.filelayer.js"></script>
     <script src="js/ext/leaflet.notifications/leaflet-notifications.min.js"></script>
+    <script src="js/ext/leaflet-burgermenu/leaflet-burgermenu.umd.min.js"></script>
     <script src="js/ext/Leaflet.markercluster/leaflet.markercluster.js"></script>
 
     <script src="js/calendar-msk-2025.js"></script>
@@ -171,6 +157,7 @@
 
     <script src="js/map-build.js"></script>
     <script src="js/tips.js"></script>
+    <script src="js/global-menu.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

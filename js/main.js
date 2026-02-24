@@ -348,7 +348,7 @@ if (mapElement) {
         center: [x, y],
         zoom: zoom,
         layers: activeLayers,
-        contextmenu: true,
+        contextmenu: false,
         contextmenuWidth: 190,
         contextmenuItems: buildContextmenuItems()
     });
@@ -419,6 +419,9 @@ if (mapElement) {
             selectMapRegion('index');
         }, 'Начальная страница').addTo(map);
     }
+
+    // --- global menu ---
+    buildGlobalMenu();
 
     // Instantiate the ZoomBar control..
     new L.Control.ZoomBar({position: 'topleft'}).addTo(map);

@@ -1,0 +1,56 @@
+/* Base menu container */
+.leaflet-control-burgermenu {
+    position: relative;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+/* Menu toggle button */
+.burger-button {
+    background: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 5px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Hide elements */
+.hidden {
+    display: none;
+}
+
+/* Menu items */
+.burger-menu,
+.burger-menu-item {
+    background: white;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.burger-menu-item {
+    padding: 10px;
+}
+.burger-menu-item:hover {
+    background-color: olive;
+  }
+
+/* Submenu container (level > 1) */
+[class*="level-0"]>.level-1,
+[class*="level-1"]>.level-2,
+[class*="level-2"]>.level-3 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 2px;
+    z-index: 9999;
+    background: white;
+    /* border: 1px solid #ccc; */
+    min-width: 100px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
