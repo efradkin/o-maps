@@ -167,11 +167,6 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_46_omaps.jpg',
     },
     {
-        year: 1972,
-        name: 'Яхрома',
-        link: './original_maps/unknown/unknown_47_omaps.jpg',
-    },
-    {
         year: 1,
         name: 'Москва, Серебряный бор',
         link: './original_maps/unknown/unknown_48_omaps.jpg',

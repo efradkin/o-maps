@@ -39,8 +39,6 @@
     <h2 class="text-center">Карты, про которые недостаточно информации</h2>
 
     <div class="container">
-        <section>Если Вам что-то известно про эти карты, <a href="help/contacts.html">сообщите мне</a> пожалуйста. Спасибо заранее!</section>
-
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="map-tiles-tab" data-bs-toggle="tab" data-bs-target="#map-tiles" type="button" role="tab" aria-controls="map-tiles" aria-selected="true">Карты</button>
@@ -94,6 +92,9 @@
         let oMaps = [
             ...unknownMaps,
         ];
+
+        const popupMessage = 'Если Вам что-то известно про эти карты, <a href="help/contacts.html">сообщите мне</a> пожалуйста. Спасибо заранее!';
+
         writeWelcomeButton();
     </script>
 
@@ -146,5 +147,6 @@
     </script>
 
     <script src="js/ext/bootstrap.min.js"></script>
+    <script src="js/slide-popup.js"></script>
 </body>
 </html>
