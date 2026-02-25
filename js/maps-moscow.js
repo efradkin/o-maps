@@ -514,6 +514,15 @@ let moscowMaps = [
     },
     {
         name: 'Воробьевы Горы',
+        date: '1977-04-17',
+        url: './maps/moscow/sz/vorobjevy_gory_1977.webp',
+        link: ['./original_maps/moscow/sz/vorobjevy_gory_1977_omaps.jpg','./original_maps/moscow/sz/vorobjevy_gory_1977_back_omaps.jpg'],
+        info: 'Первенство МИИГАиК',
+        bounds: [[55.71949669472091, 37.53573417663575], [55.718312256149645, 37.55835056304932], [55.70721546488804, 37.53397464752198]],
+        type: ['PARK']
+    },
+    {
+        name: 'Воробьевы Горы',
         year: 2000,
         url: './maps/moscow/vorobjevy_gory_2000.webp',
         link: './original_maps/moscow/vorobjevy_gory_2000_omaps.jpg',
@@ -884,6 +893,16 @@ let moscowMaps = [
         url: './maps/moscow/ak/krasnogorsk_park_1986.webp',
         link: './original_maps/moscow/ak/krasnogorsk_park_1986_omaps.jpg',
         bounds: [[55.83228849005348, 37.307660579681404], [55.83571082279079, 37.32343196868897], [55.81852381560109, 37.318582534790046]],
+        author: 'KUZNTSV_V',
+        type: ['PARK']
+    },
+    {
+        name: 'Красногорский городской парк, Губайловский',
+        year: 1977,
+        url: './maps/moscow/ak/krasnogorsk_park_1977.webp',
+        link: './original_maps/moscow/ak/krasnogorsk_park_1977_omaps.jpg',
+        info: 'Кубок МГУ.',
+        bounds: [[55.83551802331853, 37.31107234954835], [55.83513242150619, 37.32703685760499], [55.82411705535151, 37.31115818023682]],
         author: 'KUZNTSV_V',
         type: ['PARK']
     },
@@ -2303,6 +2322,16 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/ksk_bitsa_2000_omaps.jpg',
         bounds: [[55.645533425506486, 37.57959365844727], [55.64460103661007, 37.5893783569336], [55.63452497718321, 37.576525211334236]],
         type: ['CITY']
+    },
+    {
+        name: 'Серебряный бор',
+        date: '1975-10-26',
+        url: './maps/moscow/sz/ser_bor_1975.webp',
+        link: './original_maps/moscow/sz/ser_bor_1975_omaps.jpg',
+        info: 'Матч юных ориентировщиков Москвы, Куйбышева и Днепропетровска.',
+        bounds: [[55.79192081758896, 37.407503128051765], [55.78945978518826, 37.44462490081788], [55.77594546428934, 37.40282535552979]],
+        author: 'NKFRV_D',
+        type: ['PARK']
     },
     {
         name: 'Серебряный бор',

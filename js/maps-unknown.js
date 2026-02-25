@@ -145,11 +145,6 @@ let unknownMaps = [
     },
     {
         year: 1977,
-        name: 'Москва',
-        link: ['./original_maps/unknown/unknown_42_omaps.jpg','./original_maps/unknown/unknown_43_omaps.jpg'],
-    },
-    {
-        year: 1977,
         name: 'Москва, Кузьминки',
         info: 'VIII приз телевидения, на перфокарте',
         link: './original_maps/unknown/unknown_44_omaps.jpg',
@@ -157,19 +152,8 @@ let unknownMaps = [
     },
     {
         year: 1977,
-        name: 'Москва',
-        info: 'Кубок МГУ',
-        link: './original_maps/unknown/unknown_45_omaps.jpg',
-    },
-    {
-        year: 1977,
         name: 'Краснополье?',
         link: './original_maps/unknown/unknown_46_omaps.jpg',
-    },
-    {
-        year: 1,
-        name: 'Москва, Серебряный бор',
-        link: './original_maps/unknown/unknown_48_omaps.jpg',
     },
     {
         year: 1,
