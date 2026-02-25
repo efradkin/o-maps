@@ -966,6 +966,14 @@ let moscowMaps = [
         bounds: [[55.87169936883428, 37.200994491577156], [55.86770228729162, 37.26828575134278], [55.84207266912696, 37.19558715820313]]
     },
     {
+        name: 'Нахабино',
+        date: '1976-11-14',
+        url: './maps/moscow/lr/nakhabino_1976.webp',
+        link: './original_maps/moscow/lr/nakhabino_1976_omaps.webp',
+        bounds: [[55.86856915918676, 37.218761444091804], [55.87213276259261, 37.259960174560554], [55.84000036380221, 37.22579956054688]],
+        start: 'WEDDING_MSK'
+    },
+    {
         name: 'Красногорск',
         year: 1996,
         url: './maps/moscow/ak/krasnogorsk_winter_1996.webp',
@@ -3382,6 +3390,7 @@ let moscowMaps = [
         link: ['./original_maps/moscow/lr/lobnia_1969_M_omaps.jpg','./original_maps/moscow/lr/lobnia_1969_W_omaps.jpg'],
         info: 'Закрытие сезона. Золотые кольца (<a href="./docs/1969_lobnia_welcome_omaps.jpg">приглашение</a>).',
         bounds: [[56.07251453293933, 37.27060317993165], [56.08496803259325, 37.33428955078126], [56.02668935621428, 37.29583740234376]],
+        start: 'WEDDING_MSK'
     },
     {
         name: 'Агафониха',

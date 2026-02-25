@@ -101,7 +101,7 @@ let toksovoMaps = [
         name: 'Ново-Токсово - Топкое оз',
         year: 1,
         url: './maps/forest/toksovo/novo_toksovo_topkoe_old.webp',
-        link: './original_maps/forest/toksovo/novo_toksovo_topkoe_old_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/novo_toksovo_topkoe_old_omaps.jpg','./original_maps/forest/toksovo/novo_toksovo_topkoe_retro_omaps.webp','./original_maps/forest/toksovo/novo_toksovo_topkoe_retro_winter_omaps.webp'],
         bounds: [[60.24119576602376, 30.564608573913578], [60.239938981314374, 30.595850944519047], [60.2230422631271, 30.562720298767093]]
     },
     {
@@ -304,6 +304,14 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/oselki_retro_omaps.jpg',
         info: 'III Матч МО - ЛО.',
         bounds: [[60.22540790191554, 30.48439979553223], [60.22694227904038, 30.544223785400394], [60.20246892966917, 30.48628807067871]],
+    },
+    {
+        name: 'Осельки',
+        year: 1978,
+        url: './maps/forest/toksovo/oselki_1978.webp',
+        link: './original_maps/forest/toksovo/oselki_1978_omaps.webp',
+        bounds: [[60.22811432428958, 30.485515594482425], [60.226302963966994, 30.534911155700687], [60.21001753733681, 30.481309890747074]],
+        author: 'BSGN_E'
     },
     {
         name: 'Осельки - Хиттолово',
@@ -698,12 +706,20 @@ let toksovoMaps = [
         owner: 'SHEIN'
     },
     {
+        name: 'Энколово',
+        year: 1,
+        url: './maps/forest/toksovo/enkolovo_retro.webp',
+        link: './original_maps/forest/toksovo/enkolovo_retro_omaps.webp',
+        bounds: [[60.12534821010302, 30.379686355590824], [60.12513444629072, 30.44474601745606], [60.104948889939706, 30.37625312805176]],
+    },
+    {
         name: 'Корабсельки',
         year: 1974,
         url: './maps/forest/toksovo/korabselky_1974.webp',
         link: './original_maps/forest/toksovo/korabselky_1974_omaps.jpg',
         info: 'Матч Эстония-Ленинград, маркир. Одновременно - перезабег чемпионата Ленинграда, который был отменен из-за гололеда, хотя дистанции были полностью готовы (А. Лисененков и его бригада). Карту никто не корректировал, чертил рельеф с основы Крылов, а раскрашивать помогал Ширинян.',
         bounds: [[60.1167110470559, 30.380029678344727], [60.116967629111215, 30.443029403686527], [60.09403840817261, 30.380973815917972]],
+        start: 'ESTONIA_LENINGRAD'
     },
     {
         name: 'Корабсельки, юг',

@@ -504,10 +504,13 @@ let events2026 = [
     id: 'SPB_20260426_1',
     date: '2026-04-26',
     name: 'ЧиП СПб',
-    place: 'Пушкинский р-он',
+    place: 'Пушкин',
+    o_site: '260426',
+    reg: 'https://o-reg.spb.ru/?filter[day_id]=1726',
     type: 'ORIENT',
     fmt: 'спринт',
-    owner: 'SFSO_SPB'
+    owner: 'SFSO_SPB',
+    map: 'pushkin_school_552_2022'
 },
 {
     id: 'SPB_20260426_2',

@@ -1239,6 +1239,14 @@ let parkMaps = [
         type: ['PARK']
     },
     {
+        name: 'Сосновый бор, Приморский парк',
+        year: 1,
+        url: './maps/parks/sosnovy_bor_primorsky_park_retro.webp',
+        link: './original_maps/parks/sosnovy_bor_primorsky_park_retro_omaps.webp',
+        bounds: [[59.895782627964266, 29.059224128723148], [59.89967846771216, 29.07317161560059], [59.88333870986376, 29.073858261108402]],
+        type: ['PARK']
+    },
+    {
         name: 'Сосновый Бор',
         year: 2020,
         excluded: true,

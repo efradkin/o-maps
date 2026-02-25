@@ -2,6 +2,14 @@
 let specialMaps = [
     // --- зимние ---
     {
+        name: 'Ново-Токсово',
+        year: 1980,
+        url: './maps/winter/novo_toksovo_winter_1980.webp',
+        link: './original_maps/winter/novo_toksovo_winter_1980_omaps.webp',
+        bounds: [[60.24143007648448, 30.566368103027347], [60.24027980905113, 30.596323013305668], [60.20485737756326, 30.553193092346195]],
+        type: ['WINTER']
+    },
+    {
         name: 'Снегирёвка',
         year: 1989,
         logo: 'wn_retro.webp',

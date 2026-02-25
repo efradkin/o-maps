@@ -86,9 +86,11 @@ let unknownMaps = [
         year: 1,
         info: 'Золотые кольца',
         link: './original_maps/unknown/unknown_25_omaps.jpg',
+        start: 'WEDDING_MSK'
     },
     {
         year: 1,
+        name: 'Нижегородская обл ?',
         link: './original_maps/unknown/unknown_26_omaps.jpg',
     },
     {
@@ -103,6 +105,7 @@ let unknownMaps = [
     },
     {
         year: 1,
+        name: 'Нижегородская обл ?',
         link: './original_maps/unknown/unknown_29_omaps.jpg',
     },
     {
@@ -125,6 +128,7 @@ let unknownMaps = [
         name: 'Москва, Красногорск',
         info: 'Золотые кольца',
         link: './original_maps/unknown/unknown_37_omaps.jpg',
+        start: 'WEDDING_MSK'
     },
     {
         year: 1,
@@ -136,6 +140,7 @@ let unknownMaps = [
         name: 'Москва?',
         info: 'Золотые кольца, Шумилов В.',
         link: './original_maps/unknown/unknown_40_omaps.jpg',
+        start: 'WEDDING_MSK'
     },
     {
         year: 1,
@@ -210,5 +215,26 @@ let unknownMaps = [
         name: 'Сосново',
         link: './original_maps/unknown/unknown_61_omaps.jpg',
         info: 'Зелёный змей. Но какой год?'
+    },
+    {
+        year: 1975,
+        name: 'Петяярви',
+        link: './original_maps/unknown/unknown_62_omaps.webp',
+        info: 'Скан с плёнки. Есть вензель автора.'
+    },
+    {
+        year: 1,
+        link: './original_maps/unknown/unknown_63_omaps.webp',
+        info: 'Скан с плёнки.'
+    },
+    {
+        year: 1,
+        link: './original_maps/unknown/unknown_64_omaps.webp',
+        info: 'Скан с плёнки.'
+    },
+    {
+        year: 1,
+        link: './original_maps/unknown/unknown_65_omaps.webp',
+        info: 'Скан с плёнки.'
     },
  ];

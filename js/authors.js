@@ -39,6 +39,7 @@ let authors = {
     BRDR: { name: 'Бердар Азиз' },
     BRSVA_I: { name: 'Борисова И.' },
     BRTNK_V: { name: 'Бортник Василий' },
+    BSGN_E: { name: 'Бусыгин Э.' },
     BSNKO: { name: 'Басенко Михаил' },
     BSTRV_A: { name: 'Быстров А.' },
     BVZ: { name: 'Бевза Татьяна' },

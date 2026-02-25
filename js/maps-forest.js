@@ -517,12 +517,21 @@ let forestMaps = [
         editor: 'GLTV_Y'
     },
     {
-        name: 'Заходское',
+        name: 'Каннельярви',
         year: 1968,
         start: 'START_1968',
         url: './maps/forest/zahodskoe_1968.webp',
         link: './original_maps/forest/zahodskoe_1968_omaps.jpg',
-        bounds: [[60.4162253941698, 29.369373321533207], [60.41491176636754, 29.475460052490238], [60.379254068536234, 29.366111755371097]]
+        bounds: [[60.4162253941698, 29.369373321533207], [60.41491176636754, 29.475460052490238], [60.379254068536234, 29.366111755371097]],
+        author: 'SPZHNKV_Y'
+    },
+    {
+        name: 'Заходское',
+        year: 1976,
+        start: 'OKINCHITSA',
+        url: './maps/forest/zahodskoe_1976.webp',
+        link: './original_maps/forest/zahodskoe_1976_omaps.webp',
+        bounds: [[60.42067438452408, 29.367914199829105], [60.42020832835832, 29.426622390747074], [60.38022976889057, 29.367742538452152]],
     },
     {
         name: 'Каннельярви',
@@ -594,7 +603,7 @@ let forestMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/gladyshevsky_zakaznik_1974.webp',
-        link: './original_maps/forest/gladyshevsky_zakaznik_1974_omaps.jpg',
+        link: ['./original_maps/forest/gladyshevsky_zakaznik_1974_omaps.jpg','./original_maps/forest/gladyshevsky_zakaznik_1974_clean_omaps.webp'],
         bounds: [[60.270216202896975, 29.37332153320313], [60.270131074169086, 29.43923950195313], [60.22856182141975, 29.370231628417972]]
     },
     {

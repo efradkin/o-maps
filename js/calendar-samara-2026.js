@@ -55,14 +55,43 @@ let samaraEvents2026 = [
         owner: 'TRAINING_O_CLUB',
     },
     {
+        date: '2026-02-22',
+        place: 'парк Гагарина',
+        name: 'Снежные парки 3 этап',
+        link: 'https://o-63.ru/data/2026/snezhnye-parki-3-etap/',
+        res: 'https://t.me/TrainingoClub',
+        type: 'ORIENT',
+        map: 'park_gagarina',
+        owner: 'TRAINING_O_CLUB',
+    },
+    {
         id: 'SMR_20260223_1',
         date: '2026-02-23',
         place: 'п.Прибрежный',
         name: 'Чемпионат и первенство г.о. Самара',
         link: 'https://o-63.ru/data/2026/chempionat-i-pervenstvo-g-o-samara-10/',
         reg: 'https://orgeo.ru/event/50117',
+        res: 'https://o-63.ru/wp-content/uploads/РЕЗУЛЬТАТЫ-23_02_26.html?sportorg=1',
         type: 'ORIENT',
         map: 'pribrezhny',
         owner: 'SAKSOR',
     },
-];
+    {
+        date: '2026-05-29',
+        endDate: '2026-05-31',
+        place: 'б.о.Радуга',
+        name: 'ЛУКА 2026',
+        link: 'https://o-63.ru/data/2026/luka-2026/',
+        reg: 'https://orgeo.ru/event/info/50315',
+        type: 'ORIENT',
+        map: 'Прибрежное запад 2022_06',
+        owner: [
+            'FSO_SAMARA',
+            'SAKSOR',
+            'TRAINING_O_CLUB'
+        ]
+    }
+
+];  
+
+

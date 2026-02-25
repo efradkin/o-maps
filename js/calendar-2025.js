@@ -1980,7 +1980,8 @@ let events2025 = [
         '4МС,Ж20,М50,Ф-ср':'https://viewer.o-gps-center.ru/viewer/event/23582/'
     },
     reskeep: 803,
-    map: 'lembolovo_2024'
+    map: 'lembolovo_2024',
+    start: 'OKINCHITSA'
 },
 {
     id: 'SPB_20251004_2',

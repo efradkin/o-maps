@@ -106,7 +106,7 @@ let historyDocs = [
         info: 'Приглашение.',
         map: 'lobnia_1969',
         link: './docs/1969/1969_lobnia_welcome_omaps.jpg',
-        start: 'WEDDING'
+        start: 'WEDDING_MSK'
     },
     {
         name: 'Календарь соревнований',
@@ -242,6 +242,7 @@ let historyDocs = [
         date: '1977-10-29',
         link: './docs/1977/1977_10_29_okinchitsa_omaps.pdf',
         map: 'polyany_1977',
+        start: 'OKINCHITSA'
     },
     {
         name: 'П-во Ленинграда, марафон (Рощино)',
@@ -1070,6 +1071,7 @@ let historyDocs = [
         name: 'XXVIII командные ночные соревнования туристов памяти А.Окинчица (Мельничный ручей)',
         date: '1989-10-20',
         link: './docs/1989/1989_10_20_okinchitsa_omaps.pdf',
+        start: 'OKINCHITSA'
     },
     {
         name: 'Ориентир-21 (Комарово)',
