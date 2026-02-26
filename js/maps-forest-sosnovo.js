@@ -47,6 +47,14 @@ let sosnovoMaps = [
         bounds: [[60.634647739846734, 30.077476501464847], [60.6278706373631, 30.17231941223145], [60.60529809128897, 30.071468353271488]]
     },
     {
+        name: 'Петяярви',
+        year: 1975,
+        url: './maps/forest/sosnovo/petyajarvi_1975.webp',
+        link: './original_maps/forest/sosnovo/petyajarvi_1975_omaps.webp',
+        bounds: [[60.634774007741235, 30.08039474487305], [60.629765001984644, 30.134897232055668], [60.60938421878922, 30.074472427368168]],
+        author: 'BLKV_L'
+    },
+    {
         name: 'пл 69км, запад',
         year: 1994,
         url: './maps/forest/sosnovo/69_km_west_1994.webp',

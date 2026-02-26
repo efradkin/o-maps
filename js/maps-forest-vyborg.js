@@ -534,6 +534,13 @@ let vyborgMaps = [
         planner: 'TLNV_A'
     },
     {
+        name: 'Лазаревка',
+        year: 1,
+        url: './maps/forest/vyborg/lazarevka_retro.webp',
+        link: './original_maps/forest/vyborg/lazarevka_retro_omaps.webp',
+        bounds: [[60.70383145922322, 28.817567825317386], [60.70297046763395, 28.84198665618897], [60.68776281698557, 28.815035820007328]],
+    },
+    {
         name: 'Кировские дачи, стрельбище',
         year: 1978,
         url: './maps/forest/vyborg/kirovskie_dachi_1980.webp',

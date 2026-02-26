@@ -84,12 +84,6 @@ let unknownMaps = [
     },
     {
         year: 1,
-        info: 'Золотые кольца',
-        link: './original_maps/unknown/unknown_25_omaps.jpg',
-        start: 'WEDDING_MSK'
-    },
-    {
-        year: 1,
         name: 'Нижегородская обл ?',
         link: './original_maps/unknown/unknown_26_omaps.jpg',
     },
@@ -107,10 +101,6 @@ let unknownMaps = [
         year: 1,
         name: 'Нижегородская обл ?',
         link: './original_maps/unknown/unknown_29_omaps.jpg',
-    },
-    {
-        year: 1976,
-        link: './original_maps/unknown/unknown_30_omaps.jpg',
     },
     {
         year: 1,
@@ -193,6 +183,7 @@ let unknownMaps = [
     },
     {
         year: 1977,
+        name: 'Латвия, в районе Сигулды на реке Гауе, Гран-При, 3 день',
         link: './original_maps/unknown/unknown_57_omaps.jpg',
     },
     {
@@ -217,24 +208,14 @@ let unknownMaps = [
         info: 'Зелёный змей. Но какой год?'
     },
     {
-        year: 1975,
-        name: 'Петяярви',
-        link: './original_maps/unknown/unknown_62_omaps.webp',
-        info: 'Скан с плёнки. Есть вензель автора.'
-    },
-    {
         year: 1,
+        name: 'Ленинское, Чёрные оз',
         link: './original_maps/unknown/unknown_63_omaps.webp',
         info: 'Скан с плёнки.'
     },
     {
         year: 1,
         link: './original_maps/unknown/unknown_64_omaps.webp',
-        info: 'Скан с плёнки.'
-    },
-    {
-        year: 1,
-        link: './original_maps/unknown/unknown_65_omaps.webp',
         info: 'Скан с плёнки.'
     },
  ];

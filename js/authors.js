@@ -24,6 +24,7 @@ let authors = {
         name: 'Бондаренко Игорь',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    BLKV_L: { name: 'Беляков Людвиг' }, // Викторович
     BLV_V: { name: 'Белов В.' },
     BLVA_D: { name: 'Беляева Диана' },
     BLZRV_V: {

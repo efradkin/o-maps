@@ -361,7 +361,7 @@ let events2026 = [
     o_site: '260223_ST',
     reg: 'http://o-reg.spb.ru/?filter[day_id]=1714',
     reskeep: 842,
-    photo: ['https://vk.ru/album-230167293_312706609'],
+    photo: ['https://vk.com/album-230167293_312706609'],
     type: 'ORIENT',
     fmt: 'спринт',
     info: 'Медаль - каждому участнику. Квест в стиле средневекового фэнтези.',

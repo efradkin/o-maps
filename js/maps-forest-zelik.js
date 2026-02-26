@@ -216,8 +216,8 @@ let zelikMaps = [
         year: 1976,
         url: './maps/forest/zelik/repino_1976.webp',
         link: './original_maps/forest/zelik/repino_1976_omaps.jpg',
-        bounds: [[60.23320690691104, 29.849252700805668], [60.22879622224008, 29.890322685241703], [60.20869559027179, 29.849553108215336]],
-        owner: 'KSLV_VN'
+        info: 'Приз ЛОСТиЭ.',
+        bounds: [[60.23320690691104, 29.849252700805668], [60.22879622224008, 29.890322685241703], [60.20869559027179, 29.849553108215336]]
     },
     {
         name: 'Зеленогорск',
@@ -328,8 +328,8 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, оз Щучье',
-        year: 1972,
-        //start: 'BN',
+        date: '1972-06-10',
+        start: 'BN',
         url: './maps/forest/zelik/zelenogorsk_schuchye_1972.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1972_omaps.jpg',
         bounds: [[60.2217208410269, 29.750890731811527], [60.22191266366871, 29.833030700683597], [60.19216675619548, 29.759387969970707]]

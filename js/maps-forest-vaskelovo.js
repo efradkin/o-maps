@@ -293,7 +293,7 @@ let vaskelovoMaps = [
         name: 'Гарболово',
         year: 1978,
         url: './maps/forest/vaskelovo/garbolovo_1978.webp',
-        link: ['./original_maps/forest/vaskelovo/garbolovo_1978_wedding_omaps.webp','./original_maps/forest/vaskelovo/garbolovo_1978_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_1978_M_omaps.jpg'],
+        link: ['./original_maps/forest/vaskelovo/garbolovo_1978_wedding_omaps.webp','./original_maps/forest/vaskelovo/garbolovo_1978_wedding_course_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_1978_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_1978_M_omaps.jpg'],
         bounds: [[60.365336552641395, 30.500707626342777], [60.36627023055039, 30.547227859497074], [60.335529693429564, 30.50362586975098]],
         start: 'WEDDING'
     },
