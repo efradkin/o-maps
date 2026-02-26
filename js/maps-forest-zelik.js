@@ -80,6 +80,13 @@ let zelikMaps = [
     },
     {
         name: 'Смолячково',
+        year: 1,
+        url: './maps/forest/zelik/smoljachkovo_retro.webp',
+        link: './original_maps/forest/zelik/smoljachkovo_retro_omaps.webp',
+        bounds: [[60.20681918683261, 29.43245887756348], [60.2032366640261, 29.503440856933597], [60.17644064323766, 29.42649364471436]],
+    },
+    {
+        name: 'Смолячково',
         year: 1988,
         url: './maps/forest/zelik/smoljachkovo_1988.webp',
         link: './original_maps/forest/zelik/smoljachkovo_1988_omaps.jpg',

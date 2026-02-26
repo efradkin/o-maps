@@ -516,7 +516,7 @@ let moscowMaps = [
         name: 'Воробьевы Горы',
         date: '1977-04-17',
         url: './maps/moscow/sz/vorobjevy_gory_1977.webp',
-        link: ['./original_maps/moscow/sz/vorobjevy_gory_1977_omaps.jpg','./original_maps/moscow/sz/vorobjevy_gory_1977_back_omaps.jpg'],
+        link: ['./original_maps/moscow/sz/vorobjevy_gory_1977_omaps.jpg','./original_maps/moscow/sz/vorobjevy_gory_1977_omaps.webp','./original_maps/moscow/sz/vorobjevy_gory_1977_back_omaps.jpg'],
         info: 'Первенство МИИГАиК',
         bounds: [[55.71949669472091, 37.53573417663575], [55.718312256149645, 37.55835056304932], [55.70721546488804, 37.53397464752198]],
         type: ['PARK']

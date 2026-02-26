@@ -12,6 +12,14 @@ let parkMaps = [
         type: ['CITY']
     },
     {
+        name: 'Парк Александрия',
+        year: 1,
+        url: './maps/parks/aleksandria_retro.webp',
+        link: './original_maps/parks/aleksandria_retro_omaps.webp',
+        bounds: [[59.88514745798696, 29.92808818817139], [59.88572882040662, 29.952721595764164], [59.874724273000844, 29.928431510925297]],
+        type: ['PARK']
+    },
+    {
         name: 'Парк Авиаторов',
         year: 2023,
         url: './maps/parks/aviatorov_2020.webp',
@@ -1236,6 +1244,15 @@ let parkMaps = [
         bounds: [[59.98001151778878, 30.49615859985352], [59.972538893040515, 30.55855751037598], [59.95165814413096, 30.484828948974613]],
         author: 'RDNV_I',
         owner: 'RDNV_I',
+        type: ['PARK']
+    },
+    {
+        name: 'Сосновый бор, Приморский парк',
+        year: 1,
+        url: './maps/parks/sosnovy_bor_primorsky_park_old.webp',
+        link: './original_maps/parks/sosnovy_bor_primorsky_park_old_omaps.webp',
+        bounds: [[59.89926953362341, 29.06295776367188], [59.896127029999214, 29.0929126739502], [59.87640426340962, 29.056520462036136]],
+        author: ['MLMGN_A','KRZCHN'],
         type: ['PARK']
     },
     {

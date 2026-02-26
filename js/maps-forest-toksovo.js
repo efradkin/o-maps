@@ -2,6 +2,14 @@
 let toksovoMaps = [
     // --- ТОКСОВО ---
     {
+        name: 'Рапполово',
+        date: '1963-03-10',
+        url: './maps/forest/toksovo/rappolovo_1963.webp',
+        link: './original_maps/forest/toksovo/rappolovo_1963_omaps.webp',
+        bounds: [[60.162778206006934, 30.35333633422852], [60.162778206006934, 30.478734970092777], [60.130820091007536, 30.35282135009766]],
+        info: 'П-во Ленинграда.'
+    },
+    {
         name: 'Сярьги',
         year: 1964,
         url: './maps/forest/toksovo/sjargi_1964.webp',
@@ -711,6 +719,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/enkolovo_retro.webp',
         link: './original_maps/forest/toksovo/enkolovo_retro_omaps.webp',
         bounds: [[60.12534821010302, 30.379686355590824], [60.12513444629072, 30.44474601745606], [60.104948889939706, 30.37625312805176]],
+        author: 'SPZHNKV_Y'
     },
     {
         name: 'Корабсельки',
@@ -749,6 +758,13 @@ let toksovoMaps = [
         author: 'DBRTSV_V',
         owner: 'SHEIN',
         type: ['PARK']
+    },
+    {
+        name: 'Гарболово, оз Паскоярви',
+        year: 1,
+        url: './maps/forest/vaskelovo/paskojarvi_retro.webp',
+        link: './original_maps/forest/vaskelovo/paskojarvi_retro_omaps.webp',
+        bounds: [[60.39350487336535, 30.44174194335938], [60.39100295125134, 30.501308441162113], [60.365378993126576, 30.433588027954105]],
     },
     {
         name: 'Гарболово, оз Сиркоярви',

@@ -14,7 +14,7 @@ let forestMaps = [
         year: 1973,
         info: 'Буревестник.',
         url: './maps/forest/zerkalny_1973.webp',
-        link: './original_maps/forest/zerkalny_1973_omaps.jpg',
+        link: ['./original_maps/forest/zerkalny_1973_omaps.jpg','./original_maps/forest/zerkalny_1973_clean_omaps.webp'],
         bounds: [[60.261212613150235, 29.110679626464847], [60.2684284531, 29.170889854431156], [60.24266550392609, 29.118533134460453]],
     },
     {

@@ -502,6 +502,21 @@ let vyborgMaps = [
         author: 'KRCHKN_V'
     },
     {
+        name: 'Таммисуо',
+        year: 1974,
+        url: './maps/forest/vyborg/tammisuo_1974.webp',
+        link: './original_maps/forest/vyborg/tammisuo_1974_omaps.webp',
+        info: 'Золотая осень.',
+        bounds: [[60.75635028866176, 28.757915496826175], [60.75639221903167, 28.809585571289066], [60.72383776756534, 28.75722885131836]],
+    },
+    {
+        name: 'Кировские дачи',
+        year: 1,
+        url: './maps/forest/vyborg/kirovskie_dachi_retro.webp',
+        link: './original_maps/forest/vyborg/kirovskie_dachi_retro_omaps.webp',
+        bounds: [[60.772070334445324, 28.708562850952152], [60.78480839678032, 28.761949539184574], [60.736972595130915, 28.744440078735355]],
+    },
+    {
         name: 'Сайменские дачи',
         year: 1,
         url: './maps/forest/vyborg/vyborg_saymenskie_dachi_old.webp',
@@ -537,7 +552,7 @@ let vyborgMaps = [
         name: 'Лазаревка',
         year: 1,
         url: './maps/forest/vyborg/lazarevka_retro.webp',
-        link: './original_maps/forest/vyborg/lazarevka_retro_omaps.webp',
+        link: ['./original_maps/forest/vyborg/lazarevka_retro_omaps.webp','./original_maps/forest/vyborg/lazarevka_retro_cources_omaps.webp'],
         bounds: [[60.70383145922322, 28.817567825317386], [60.70297046763395, 28.84198665618897], [60.68776281698557, 28.815035820007328]],
     },
     {

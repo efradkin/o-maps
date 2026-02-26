@@ -218,4 +218,28 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_64_omaps.webp',
         info: 'Скан с плёнки.'
     },
+    {
+        year: 1,
+        link: './original_maps/unknown/unknown_65_omaps.webp',
+        info: 'Скан с плёнки.'
+    },
+    {
+        year: 1,
+        link: './original_maps/unknown/unknown_66_omaps.webp',
+        info: 'Скан с плёнки.'
+    },
+    {
+        year: 1979,
+        name: 'Черкассы',
+        link: './original_maps/unknown/unknown_67_omaps.webp',
+        info: 'Скан с плёнки.',
+        author: 'YURDK'
+    },
+    {
+        year: 1979,
+        name: 'Черкассы',
+        link: './original_maps/unknown/unknown_68_omaps.webp',
+        info: 'Скан с плёнки.',
+        author: 'YURDK'
+    },
  ];

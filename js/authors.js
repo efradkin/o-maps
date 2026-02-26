@@ -214,6 +214,7 @@ let authors = {
     KRNLJV: { name: 'Корнильев П.' },
     KRPLSN: { name: 'Карпельсон Александр' },
     KRTSHV: { name: 'Крутышев Валерий' },
+    KRZCHN: { name: 'Корзухин Вадим' },
     KSHN_D: { name: 'Кашин Даниил' },
     KSNFNTVA: { name: 'Ксенофонтова А.' },
     KTS_JU: { name: 'Кац Юлия' },
@@ -260,6 +261,7 @@ let authors = {
     MLN_S: { name: 'Малин Сергей' },
     MLNKV_F: { name: 'Мельников Ф.' },
     MLNKV_L: { name: 'Маланков Леонид' },
+    MLMGN_A: { name: 'Малмыгин Алексей' },
     MLSHV_Y: { name: 'Малышев Ю.' },
     MLV_AL: {
         name: 'Малов Алексей',
@@ -859,6 +861,7 @@ let authors = {
     SMRNV_S: { name: 'Смирнов Сергей' },
     SRV_A: { name: 'Серов Александр' }, // Калуга
     TRFNV_A: { name: 'Труфанов Александр' }, // Федорович
+    YURDK: { name: 'Юрдик В.' },
     VYLNN_L: {
         name: 'Лийса Вейялайнен (Liisa Veijalainen)',
         about: 'https://ru.wikipedia.org/wiki/Вейялайнен,_Лийса'

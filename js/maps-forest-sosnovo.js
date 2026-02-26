@@ -50,7 +50,7 @@ let sosnovoMaps = [
         name: 'Петяярви',
         year: 1975,
         url: './maps/forest/sosnovo/petyajarvi_1975.webp',
-        link: './original_maps/forest/sosnovo/petyajarvi_1975_omaps.webp',
+        link: ['./original_maps/forest/sosnovo/petyajarvi_1975_omaps.webp','./original_maps/forest/sosnovo/petyajarvi_retro_omaps.webp'],
         bounds: [[60.634774007741235, 30.08039474487305], [60.629765001984644, 30.134897232055668], [60.60938421878922, 30.074472427368168]],
         author: 'BLKV_L'
     },
