@@ -771,19 +771,26 @@ function createEventMarker(evt, evtMap) {
     const currentDate = new Date(evt.date);
     let now = new Date();
 
-    let evtCPimage = './images/event_cp';
+    let evtCPimage = './images/event_marker';
     if (isActual(currentDate)) {
         evtCPimage += '_now';
     } else if (currentDate < now) {
             evtCPimage += '_old';
     }
+    if (evt.type && evt.type.includes('WATER')) {
+        evtCPimage += '_water';
+    } else
+    if (evt.type && (evt.type.includes('ROGAINE') || evt.type.includes('MULTI') || evt.type.includes('TOURISM'))) {
+        evtCPimage += '_rogaine';
+    } else
     if (evt.type && evt.type.includes('SKI')) {
         evtCPimage += '_ski';
     } else
     if (evt.type && evt.type.includes('VELO')) {
         evtCPimage += '_velo';
     }
-    evtCPimage += '.webp';
+
+    evtCPimage += '.png';
     var cpIcon = L.icon({
         iconUrl: evtCPimage,
         //shadowUrl: './images/event_cp.webp',

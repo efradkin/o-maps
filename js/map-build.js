@@ -46,7 +46,16 @@ const SHOW_ALL_LABEL = 'Показать все ориенты';
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
-let calendarGroup = L.markerClusterGroup ? L.markerClusterGroup() : L.layerGroup([]);
+let calendarGroup = L.markerClusterGroup ? L.markerClusterGroup({
+    spiderfyOnMaxZoom: true,
+    showCoverageOnHover: false,
+    zoomToBoundsOnClick: true,
+    removeOutsideVisibleBounds: true,
+    chunkedLoading: true,
+    maxClusterRadius: 10,
+    spiderfyDistanceMultiplier: 2
+    // disableClusteringAtZoom: 12
+}) : L.layerGroup([]);
 
 let tracksGroup = L.layerGroup([]);
 

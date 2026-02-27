@@ -28,11 +28,6 @@ let unknownMaps = [
     },
     {
         year: 1,
-        name: 'Энколово',
-        link: './original_maps/unknown/unknown_8_omaps.jpg',
-    },
-    {
-        year: 1,
         name: 'Кузьмолово, Токсово',
         link: './original_maps/unknown/unknown_9_omaps.jpg',
     },
@@ -185,12 +180,6 @@ let unknownMaps = [
         year: 1977,
         name: 'Латвия, в районе Сигулды на реке Гауе, Гран-При, 3 день',
         link: './original_maps/unknown/unknown_57_omaps.jpg',
-    },
-    {
-        year: 1,
-        name: 'Выборг, Кировские дачи (юг)',
-        info: 'Золотая осень?',
-        link: './original_maps/unknown/unknown_58_omaps.jpg',
     },
     {
         year: 1,

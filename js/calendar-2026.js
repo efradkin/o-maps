@@ -245,11 +245,13 @@ let events2026 = [
     id: 'SPB_20260207_2',
     date: '2026-02-07',
     endDate: '2026-02-08',
+    place: 'Орехово',
     name: 'Февральская лыжня',
     o_site: '260208',
     reg: ['http://o-reg.spb.ru/?filter[day_id]=1716','http://o-reg.spb.ru/?filter[day_id]=1717'],
     type: 'SKI',
     fmt: 'спринт, классика',
+    map: 'orekhovo_nyrkovo_winter_2012',
     owner: 'SFSO_SPB'
 },
 {
@@ -262,6 +264,7 @@ let events2026 = [
     place: 'Орехово',
     type: 'SKI',
     fmt: 'лично-командные',
+    map: 'orekhovo_nyrkovo_winter_2012',
     owner: 'SFSO_SPB'
 },
 {
@@ -376,6 +379,7 @@ let events2026 = [
     o_site: '260228_ChiP',
     type: 'SKI',
     fmt: 'масстарт',
+    map: 'orekhovo_nyrkovo_winter_2012',
     owner: 'SFSO_SPB'
 },
 {
@@ -396,6 +400,7 @@ let events2026 = [
     o_site: '260301_Reg',
     type: 'SKI',
     fmt: 'маркир',
+    map: 'orekhovo_nyrkovo_winter_2012',
     owner: 'SFSO_SPB'
 },
 {
@@ -584,7 +589,8 @@ let events2026 = [
     place: 'Вуокса',
     type: ['ROGAINE','WATER'],
     fmt: '16, 8, 4',
-    start: 'MULTSPORT'
+    start: 'MULTSPORT',
+    map: 'vuoksa_rogaine_2019'
 },
 {
     id: 'SPB_20260517_1',
@@ -645,10 +651,13 @@ let events2026 = [
     id: 'SPB_20260530_2',
     date: '2026-05-30',
     name: 'BikeAdventure',
-    type: 'ROGAINE',
-    fmt: '24, 6',
+    place: 'Оленьи оз',
+    type: ['ROGAINE','VELO'],
+    fmt: '24, 12, 6',
     link: 'https://vk.com/bikeadventure',
-    start: 'BA',
+    reg: 'https://orgeo.ru/event/48965',
+    info: '+ беговой TrailAdventure',
+    start: ['BA','TA'],
     owner: ['BKTV','SHBN']
 },
 {

@@ -419,6 +419,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/udelnaya_KKM_2026_03.webp',
         link: ['https://psv4.userapi.com/s/v1/d2/_NAxwKt2vrJrV0Syvr7CfhpmDB5e-jZM2tp8yTC8YPeaLynHOANfRYvrQ16k_MBVozm_Iqd-QQjDV2qfFzp4zz610I94qb-REoS-xR2G3SCvHpnXpMLm_zuKOGL7lJVO-SpqYYMTO4rE/KKM_3_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/CRRxeVWDIRNF0JDeofli6OJOq1_pFcdEuJ5RPdN8TY8DgBFBs3P76TH6WCJ3cWpbIdR6YZPLvDnfr_U9k-xKQzCivMX3FLm1hDM4HDmTJFkBNKchBRCXkKdokyr2xjjMzshIwqSswosB/SETKA_3_2026.jpg?dl=1'],
         bounds: [[60.03222981515188, 30.294842720031742], [60.032336998789845, 30.37608146667481], [60.00081002835386, 30.294842720031742]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24311/',
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['ROGAINE']
