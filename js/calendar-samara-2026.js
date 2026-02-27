@@ -55,6 +55,7 @@ let samaraEvents2026 = [
         owner: 'TRAINING_O_CLUB',
     },
     {
+        id: 'SMR_20260222_1',
         date: '2026-02-22',
         place: 'парк Гагарина',
         name: 'Снежные парки 3 этап',
@@ -77,6 +78,7 @@ let samaraEvents2026 = [
         owner: 'SAKSOR',
     },
     {
+        id: 'SMR_20260529_1',
         date: '2026-05-29',
         endDate: '2026-05-31',
         place: 'б.о.Радуга',

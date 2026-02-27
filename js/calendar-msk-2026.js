@@ -176,7 +176,8 @@ let mskEvents2026 = [
             37.394
         ],
         link: "https://vk.link/okuncevo",
-        reg: "https://orgeo.ru/event/winter26"
+        reg: "https://orgeo.ru/event/winter26",
+        owner: "O_KUNTSEVO"
     },
     {
         id: 'MSK_20260214_1',
@@ -563,7 +564,8 @@ let mskEvents2026 = [
             55.738855,
             37.394
         ],
-        link: "https://vk.link/okuncevo"
+        link: "https://vk.link/okuncevo",
+        owner: "O_KUNTSEVO"
     },
     {
         id: 'MSK_20260405_3',
@@ -1253,7 +1255,8 @@ let mskEvents2026 = [
         place: "Кунцево",
         type: "ORIENT",
         fmt: "кросс-спринт",
-        link: "https://vk.link/okuncevo"
+        link: "https://vk.link/okuncevo",
+        owner: "O_KUNTSEVO"
     },
     {
         id: 'MSK_20260618_1',
@@ -2021,7 +2024,8 @@ let mskEvents2026 = [
             55.762188,
             37.403176
         ],
-        link: "https://vk.link/okuncevo"
+        link: "https://vk.link/okuncevo",
+        owner: "O_KUNTSEVO"
     },
     {
         id: 'MSK_20261010_1',
@@ -2304,7 +2308,8 @@ let mskEvents2026 = [
             55.762188,
             37.403176
         ],
-        link: "https://vk.link/okuncevo"
+        link: "https://vk.link/okuncevo",
+        owner: "O_KUNTSEVO"
     },
     {
         id: 'MSK_20261115_1',

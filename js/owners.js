@@ -370,9 +370,9 @@ let owners = {
     OKHTNKV: {
         name: '© Охотников С.В.'
     },
-    ORNTA_KNTSVO: {
-        name: '© КСО Ориента-Кунцево',
-        logo: 'orienta-kuntsevo.jpg'
+    O_KUNTSEVO: {
+        name: '© КСО о-Кунцево',
+        logo: 'o-kuntsevo.webp'
     },
     ORNTA_SKRM: {
         name: '© КСО Ориента-Скрум'

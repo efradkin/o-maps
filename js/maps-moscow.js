@@ -2156,7 +2156,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20210531_872.jpg',
         bounds: [[55.753032813071115, 37.397289276123054], [55.751257667603745, 37.415249347686775], [55.73518107450009, 37.391495704650886]],
         author: 'MNKV',
-        owner: 'ORNTA_KNTSVO',
+        owner: 'O_KUNTSEVO',
         type: ['CITY']
     },
     {
