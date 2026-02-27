@@ -1890,7 +1890,7 @@ let cityMaps = [
             'Ж': 'https://viewer.o-gps-center.ru/viewer/event/10012/'
         },
         bounds: [[59.89209084438972, 29.07814979553223], [59.89078839718945, 29.091238975524906], [59.882864973849955, 29.074587821960453]],
-        author: ['DBRTSV_V'],
+        author: 'DBRTSV_V',
         owner: 'YUVENTA',
         type: ['CITY']
     },
@@ -1900,13 +1900,13 @@ let cityMaps = [
         start: 'RUSSIA_2021',
         info: 'Пролог №2.',
         url: './maps/city/sosnovy_bor_2021_05_30.webp',
-        link: ['./original_maps/city/sosnovy_bor_2021_05_30.gif','./original_maps/city/sosnovy_bor_2021_05_30_W.gif'],
+        link: ['./original_maps/city/sosnovy_bor_2021_05_30_correct.jpg','./original_maps/city/sosnovy_bor_2021_05_30.gif','./original_maps/city/sosnovy_bor_2021_05_30_W_correct.jpg','./original_maps/city/sosnovy_bor_2021_05_30_W.gif'],
         gps: {
             'M': 'https://viewer.o-gps-center.ru/viewer/event/10013/',
             'Ж': 'https://viewer.o-gps-center.ru/viewer/event/10014/'
         },
         bounds: [[59.90279911466906, 29.072592258453373], [59.89999054560306, 29.08838510513306], [59.89423277461944, 29.070467948913578]],
-        author: ['PPV_D'],
+        author: ['DBRTSV_V','MSPN'],
         owner: 'YUVENTA',
         type: ['CITY']
     },
