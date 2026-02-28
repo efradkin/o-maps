@@ -2,6 +2,14 @@
 let zelikMaps = [
     // --- ЗЕЛЕНОГОРСК - РОЩИНО - СЕСТРОРЕЦК ---
     {
+        name: 'Зеленогорск - Комарово',
+        year: 1985,
+        url: './maps/forest/zelik/zelenogorsk_komarovo_1985.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_komarovo_1985_omaps.jpg',
+        bounds: [[60.24645669723733, 29.76522445678711], [60.22140113412978, 29.890537261962894], [60.20059217005553, 29.727458953857425]],
+        author: 'KUZNTSV_S'
+    },
+    {
         name: 'Симагино',
         year: 1977,
         url: './maps/forest/zelik/simagino_1977.webp',
@@ -227,6 +235,21 @@ let zelikMaps = [
         bounds: [[60.23184328035814, 29.85045433044434], [60.231502364853846, 29.911565780639652], [60.208738234557096, 29.85045433044434]],
     },
     {
+        name: 'Репино, р Сестра',
+        year: 1,
+        url: './maps/forest/zelik/repino_sestra_retro.webp',
+        link: './original_maps/forest/zelik/repino_sestra_retro_omaps.webp',
+        bounds: [[60.22071908232925, 29.8504114151001], [60.21982386780802, 29.875774383544925], [60.20513459686016, 29.84890937805176]],
+    },
+    {
+        name: 'Зеленогорск, оз Красавица',
+        year: 1,
+        url: './maps/forest/zelik/zelik_krasavitsa_retro.webp',
+        link: './original_maps/forest/zelik/zelik_krasavitsa_retro_omaps.webp',
+        bounds: [[60.26038237022407, 29.78479385375977], [60.253015703086454, 29.814577102661136], [60.239512941657054, 29.759387969970707]],
+        author: 'NKFRV_A'
+    },
+    {
         name: 'Зеленогорск',
         year: 1978,
         url: './maps/forest/zelik/zelenogorsk_1978.webp',
@@ -275,14 +298,6 @@ let zelikMaps = [
         link: ['./original_maps/forest/zelik/ilychevo_dolgoe_1995_omaps.jpg','./original_maps/forest/zelik/ilychevo_dolgoe_1995_h21e_omaps.jpg'],
         bounds: [[60.310244709596496, 29.704971313476566], [60.30331448158006, 29.81174468994141], [60.272259225923726, 29.692783355712894]],
         author: ['KUZNTSV_S','KVZN']
-    },
-    {
-        name: 'Зеленогорск - Комарово',
-        year: 1985,
-        url: './maps/forest/zelik/zelenogorsk_komarovo_1985.webp',
-        link: './original_maps/forest/zelik/zelenogorsk_komarovo_1985_omaps.jpg',
-        bounds: [[60.24645669723733, 29.76522445678711], [60.22140113412978, 29.890537261962894], [60.20059217005553, 29.727458953857425]],
-        author: 'KUZNTSV_S'
     },
     {
         name: 'Зеленогорск, оз Щучье',
@@ -930,7 +945,6 @@ let zelikMaps = [
         link: ['./original_maps/forest/zelik/molodezhnoe_2003_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_02_20_omaps.jpg'],
         bounds: [[60.203002080434125, 29.531786441802982], [60.20167985063764, 29.54835176467896], [60.19703029698733, 29.530413150787357]],
         author: ['SHKLV','FDRV_L'], //Возможны соавторы
-        type: []
     },
     {
         name: 'ДООЛ "Молодёжное"',

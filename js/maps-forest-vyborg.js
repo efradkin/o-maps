@@ -513,8 +513,8 @@ let vyborgMaps = [
         name: 'Кировские дачи',
         year: 1,
         url: './maps/forest/vyborg/kirovskie_dachi_retro.webp',
-        link: './original_maps/forest/vyborg/kirovskie_dachi_retro_omaps.webp',
-        bounds: [[60.772070334445324, 28.708562850952152], [60.78480839678032, 28.761949539184574], [60.736972595130915, 28.744440078735355]],
+        link: ['./original_maps/forest/vyborg/kirovskie_dachi_retro_color_omaps.webp','./original_maps/forest/vyborg/kirovskie_dachi_retro_omaps.webp'],
+        bounds: [[60.772992337842574, 28.70761871337891], [60.78480839678032, 28.761434555053714], [60.73600759898539, 28.745641708374027]],
     },
     {
         name: 'Сайменские дачи',
@@ -549,11 +549,11 @@ let vyborgMaps = [
         planner: 'TLNV_A'
     },
     {
-        name: 'Лазаревка',
+        name: 'Выборг, Лазаревка',
         year: 1,
         url: './maps/forest/vyborg/lazarevka_retro.webp',
-        link: ['./original_maps/forest/vyborg/lazarevka_retro_omaps.webp','./original_maps/forest/vyborg/lazarevka_retro_cources_omaps.webp'],
-        bounds: [[60.70383145922322, 28.817567825317386], [60.70297046763395, 28.84198665618897], [60.68776281698557, 28.815035820007328]],
+        link: ['./original_maps/forest/vyborg/lazarevka_retro_color_omaps.webp','./original_maps/forest/vyborg/lazarevka_retro_omaps.webp','./original_maps/forest/vyborg/lazarevka_retro_cources_omaps.webp'],
+        bounds: [[60.70406245304352, 28.817868232727054], [60.703432465987824, 28.841643333435062], [60.68778382698783, 28.81520748138428]],
     },
     {
         name: 'Кировские дачи, стрельбище',

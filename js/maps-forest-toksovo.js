@@ -180,7 +180,7 @@ let toksovoMaps = [
         name: 'Токсово, юг Хепоярви',
         year: 1975,
         url: './maps/forest/toksovo/kavgolovo_hepojarvi_retro.webp',
-        link: './original_maps/forest/toksovo/kavgolovo_hepojarvi_retro_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/kavgolovo_hepojarvi_retro_omaps.jpg','./original_maps/forest/toksovo/kavgolovo_hepojarvi_1975_omaps.webp'],
         start: 'USSR_V_1975',
         info: 'Одна из двух первых цветных карт в Ленинграде.',
         bounds: [[60.164443619580254, 30.55229187011719], [60.162479276687904, 30.614862442016605], [60.13855611980983, 30.5500602722168]],

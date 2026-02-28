@@ -294,6 +294,7 @@ let vaskelovoMaps = [
         year: 1978,
         url: './maps/forest/vaskelovo/garbolovo_1978.webp',
         link: ['./original_maps/forest/vaskelovo/garbolovo_1978_wedding_omaps.webp','./original_maps/forest/vaskelovo/garbolovo_1978_wedding_course_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_1978_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_1978_M_omaps.jpg'],
+        info: 'ЗЕНИТ.',
         bounds: [[60.365336552641395, 30.500707626342777], [60.36627023055039, 30.547227859497074], [60.335529693429564, 30.50362586975098]],
         start: 'WEDDING'
     },
@@ -616,6 +617,16 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/lembolovo_1987_omaps.jpg',
         bounds: [[60.42139464000694, 30.33359527587891], [60.41844996541937, 30.37217617034912], [60.40340466224666, 30.32938957214356]],
         author: ['FDTV_A','KNSTNTNV_D']
+    },
+    {
+        name: 'Лемболово',
+        year: 1978,
+        url: './maps/forest/vaskelovo/lembolovo_1978_zenit.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_1978_zenit_omaps.webp',
+        info: 'Спартакиада ЗЕНИТ.',
+        bounds: [[60.41902197343451, 30.294456481933597], [60.41806862115358, 30.32612800598145], [60.40291716283444, 30.29660224914551]],
+        author: ['KRVCHNKO_V','SRGV','TRNTV_V'],
+        logo: 'zenit_1978.webp'
     },
     {
         name: 'Лемболово',

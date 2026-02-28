@@ -183,11 +183,6 @@ let unknownMaps = [
     },
     {
         year: 1,
-        name: 'Выборг, Кировские дачи (север)',
-        link: './original_maps/unknown/unknown_59_omaps.jpg',
-    },
-    {
-        year: 1,
         name: 'Выборг, Сайменские дачи',
         link: './original_maps/unknown/unknown_60_omaps.jpg',
     },
@@ -200,7 +195,8 @@ let unknownMaps = [
         year: 1,
         name: 'Ленинское, Чёрные оз',
         link: './original_maps/unknown/unknown_63_omaps.webp',
-        info: 'Скан с плёнки.'
+        info: 'Скан с плёнки.',
+        author: 'SPZHNKV_Y'
     },
     {
         year: 1,
@@ -217,6 +213,7 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_66_omaps.webp',
         info: 'Скан с плёнки.'
     },
+/*
     {
         year: 1979,
         name: 'Черкассы',
@@ -230,5 +227,33 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_68_omaps.webp',
         info: 'Скан с плёнки.',
         author: 'YURDK'
+    },
+*/
+    {
+        year: 1,
+        name: 'Выборг, Кировские дачи',
+        link: './original_maps/unknown/unknown_69_omaps.webp',
+        info: 'Скан с плёнки.',
+    },
+    {
+        year: 1,
+        name: 'Выборг, Сайменские дачи',
+        link: './original_maps/unknown/unknown_70_omaps.webp',
+        info: 'Скан с плёнки.',
+    },
+    {
+        year: 1,
+        name: 'Лемболово',
+        link: './original_maps/unknown/unknown_71_omaps.webp',
+        info: 'Скан с плёнки.',
+    },
+    {
+        year: 1,
+        name: 'Сярьги, Охта-Парк',
+        link: './original_maps/unknown/unknown_72_omaps.webp',
+    },
+    {
+        year: 1,
+        link: './original_maps/unknown/unknown_73_omaps.webp',
     },
  ];
