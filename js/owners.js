@@ -557,6 +557,18 @@ let owners = {
 
     /* --- Не ориент --- */
 
+    OOPTSPB: {
+        short: 'ООПТ СПб',
+        name: '<a href="https://oopt.spb.ru/">ООПТ СПб</a>',
+        logo: 'oopt_spb.png',
+        info: 'Особо охраняемые природные территории Санкт-Петербурга.'
+    },
+    OOPTLO: {
+        short: 'ООПТ ЛО',
+        name: '<a href="https://ooptlo.ru/">ООПТ ЛО</a>',
+        logo: 'oopt_lo.gif',
+        info: 'Особо охраняемые природные территории Ленинградской области.'
+    },
     RUNC: {
         name: '© <a href="https://runc.run/">Беговое сообщество</a>',
         logo: 'runc.gif'

@@ -6,7 +6,7 @@ let tracks = [
         gpx: 'tracks/vyaryamyanselkya_petyajarvi_omaps.gpx',
         markir: true,
         pics: ['petyajarvi',7],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO']
     },
     {
@@ -16,7 +16,7 @@ let tracks = [
         gpx: 'tracks/vyaryamyanselkya_berestovoe_omaps.gpx',
         markir: true,
         pics: ['berestovoe',8],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO']
     },
     {
@@ -26,7 +26,7 @@ let tracks = [
         gpx: 'tracks/vyaryamyanselkya_petrichenko_omaps.gpx',
         markir: true,
         pics: ['petrichenko',7],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO']
     },
     {
@@ -36,7 +36,7 @@ let tracks = [
         gpx: 'tracks/sestrorezkoe_boloto_omaps.gpx',
         markir: true,
         pics: ['sestrorezk',8],
-        start: 'OOPTSPB',
+        owner: 'OOPTSPB',
         type: ['WALK']
     },
     {
@@ -46,7 +46,7 @@ let tracks = [
         gpx: 'tracks/koltushi_kamy_omaps.gpx',
         markir: true,
         pics: ['koltushi_kamy',5],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         ski_kind: 'FURROW',
         type: ['WALK','SKI']
     },
@@ -57,7 +57,7 @@ let tracks = [
         gpx: 'tracks/hare_trail_omaps.gpx',
         markir: true,
         pics: ['hare_trail',5],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         ski_kind: 'FURROW',
         type: ['WALK','SKI']
     },
@@ -67,7 +67,7 @@ let tracks = [
         link: 'https://ooptlo.ru/6-ozer.html',
         gpx: 'tracks/zelenogorsk_omaps.gpx',
         pics: ['zelenogorsk',2],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO']
     },
     {
@@ -77,7 +77,7 @@ let tracks = [
         gpx: 'tracks/lindulovska_omaps.gpx',
         markir: true,
         // pics: ['roschino',5],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -86,7 +86,7 @@ let tracks = [
         link: 'https://ooptlo.ru/kurgolovskaya-tropa.html',
         gpx: 'tracks/kurgolovo_omaps.gpx',
         pics: ['kurgolovo',2],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -96,7 +96,7 @@ let tracks = [
         gpx: 'tracks/kavgolovo_omaps.gpx',
         markir: true,
         pics: ['kavgolovo',2],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO']
     },
     {
@@ -105,7 +105,7 @@ let tracks = [
         gpx: 'tracks/malinova_gora_omaps.gpx',
         markir: true,
         // pics: ['toksovo',5],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         video: 'https://www.youtube.com/watch?v=UV-8IReuhEs',
         type: ['WALK','VELO']
     },
@@ -121,7 +121,7 @@ let tracks = [
         },
         markir: true,
         pics: ['orekhovo',2],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO']
     },
     {
@@ -131,7 +131,7 @@ let tracks = [
         gpx: 'tracks/lava_omaps.gpx',
         markir: true,
         // pics: ['lava',5],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -141,7 +141,7 @@ let tracks = [
         gpx: 'tracks/kokkorevo_coast_omaps.gpx',
         markir: true,
         pics: ['kokkorevo',5],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -151,7 +151,7 @@ let tracks = [
         gpx: 'tracks/kokkorevo_shimpalatovskoe_omaps.gpx',
         markir: true,
         pics: ['kokkorevo',5],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -161,7 +161,7 @@ let tracks = [
         gpx: 'tracks/shalovo_omaps.gpx',
         markir: true,
         pics: ['shalovo',2],
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -171,7 +171,7 @@ let tracks = [
         gpx: 'tracks/yukki_omaps.gpx',
         markir: true,
         // pics: ['yukki',5]
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -180,7 +180,7 @@ let tracks = [
         link: 'https://ooptlo.ru/tropa-yuzhnogo-berega.html',
         gpx: 'tracks/lebyazhje_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -189,7 +189,7 @@ let tracks = [
         link: 'https://ooptlo.ru/bereg-koporskoi-guby.html',
         gpx: 'tracks/koporie_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -198,7 +198,7 @@ let tracks = [
         link: 'https://ooptlo.ru/bolshoe-kuzyomkino-–-narvskij-zaliv.html',
         markir: true,
         gpx: 'tracks/kuzemkino_omaps.gpx',
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO']
     },
     {
@@ -207,7 +207,7 @@ let tracks = [
         link: 'https://ooptlo.ru/peshij-marshrut-po-koltushiskim-vyisotam.html',
         gpx: 'tracks/versta_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -216,7 +216,7 @@ let tracks = [
         link: 'https://ooptlo.ru/lesnaya-tropa.html',
         gpx: 'tracks/koltushi_lesnaya_tropa_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -225,7 +225,7 @@ let tracks = [
         link: 'https://ooptlo.ru/rakovyie-ozyora.html',
         gpx: 'tracks/rakovy_lakes_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -233,7 +233,7 @@ let tracks = [
         info: 'Тропа начинается от пирса на оз. Охотничье, затем продолжается по правому притоку ручья Долгунец, и выходит на оз. Большое Раковое, где заканчивается у пирса вблизи эколого-просветительского центра.',
         link: 'https://ooptlo.ru/vodnyj-marshrut-rakovye-ozyora.html',
         gpx: 'tracks/rakovy_lakes_water_omaps.gpx',
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WATER']
     },
     {
@@ -242,7 +242,7 @@ let tracks = [
         link: 'https://ooptlo.ru/istoricheskij-marshrut-v-zakaznike-rakovyie-ozyora.html',
         gpx: 'tracks/rakovy_lakes_winter_war_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -250,7 +250,7 @@ let tracks = [
         info: 'Экологическая тропа располагается на стрелке между рекой Выбья и Лужской губой Финского залива. Эта часть территории заказника «Кургальский» отличается высоким разнообразием природных ландшафтов. По мере движения по тропе они сменяют друг друга, словно картинки в режиме слайд-шоу: сосны и вереск, таежный еловый лес, приречные и приморские сообщества растений, песчаные дюны. Эта динамичная смена ландшафтов и составляет главную  интригу прогулки. Дополнением к ней могут стать встречи с различными представителями местной фауны, например, пернатыми: малым лебедем и черной казаркой.',
         link: 'https://ooptlo.ru/dolina-reki-vyibya-i-luzhskaya-guba.html',
         gpx: 'tracks/vibya_guba_omaps.gpx',
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -258,7 +258,7 @@ let tracks = [
         info: 'Экотропа расположена в кластере «Река Охта» природного парка «Токсовский». Посетив тропу, можно познакомится с ландшафтами камовых холмов, относительные высоты которых могут достигать 30 м, еловыми лесами, где встречаются деревья возрастом 160 лет, и долиной реки Охта, одной из крупнейших притоков реки Невы.',
         link: 'https://ooptlo.ru/dolina-reki-oxta.html',
         gpx: 'tracks/okhta_omaps.gpx',
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO']
     },
     {
@@ -267,7 +267,7 @@ let tracks = [
         link: 'https://ooptlo.ru/ekologicheskij-marshrut-dolina-reki-ragusha.html',
         gpx: 'tracks/ragusha_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -276,7 +276,7 @@ let tracks = [
         link: 'https://ooptlo.ru/ecodubravyi-u-derevni-velkota.html',
         gpx: 'tracks/velkota_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -285,7 +285,7 @@ let tracks = [
         link: 'https://ooptlo.ru/kamenistaya-tropa.html',
         gpx: 'tracks/kivipark_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -294,7 +294,7 @@ let tracks = [
         link: 'https://ooptlo.ru/karelskaya-tishina.html',
         gpx: 'tracks/melkovodnoe_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO']
     },
     {
@@ -302,7 +302,7 @@ let tracks = [
         info: 'Маршрут в основном предназначен для прохождения в летний сезон. С момента стаивания снега до первого снега – с мая по октябрь. Кроме того, этот маршрут можно использовать для зимних лыжных прогулок в период с декабря по март.',
         link: 'https://ooptlo.ru/velomarshrut-po-koltushiskim-vyisotam.html',
         gpx: 'tracks/koltushi_velo_1_omaps.gpx',
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['VELO']
     },
     {
@@ -310,7 +310,7 @@ let tracks = [
         info: 'Веломаршрут позволяет насладиться красивыми видами хвойных лесов и постледниковых ландшафтов, промаркирован аншлагами и указателями и состоит из нескольких трасс, рассчитанных как на новичков, так и на профессионалов. При этом он проложен по существующим тропам, чтобы не страдали самые ценные, охраняемые природные комплексы ООПТ.',
         link: 'https://ooptlo.ru/velosipednyij-marshrut.html',
         gpx: 'tracks/koltushi_velo_2_omaps.gpx',
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['VELO']
     },
     {
@@ -319,7 +319,7 @@ let tracks = [
         link: 'https://ooptlo.ru/ecolisinskij.html',
         gpx: 'tracks/lisinsky_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -328,7 +328,7 @@ let tracks = [
         link: 'https://ooptlo.ru/kurbinskaya-tropa.html',
         gpx: 'tracks/kurbinskaya_tropa_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -337,7 +337,7 @@ let tracks = [
         link: 'https://ooptlo.ru/ladvinskaya.html',
         gpx: 'tracks/ladvinskaya_tropa_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -346,7 +346,7 @@ let tracks = [
         link: 'https://ooptlo.ru/lukinskaya-tropa.html',
         gpx: 'tracks/lukinskaya_tropa_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -355,7 +355,7 @@ let tracks = [
         link: 'https://ooptlo.ru/tropa-k-svyatomu-kamnyu.html',
         gpx: 'tracks/sacred_stone_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -364,7 +364,7 @@ let tracks = [
         link: 'https://ooptlo.ru/lazurnyie-vodyi.html',
         gpx: 'tracks/mshinskoe_boloto_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -372,7 +372,7 @@ let tracks = [
         info: 'Экотропа показывает разнообразие и уникальность севера Карельского перешейка: сельговый ландшафт, ледниковые озёра, реки и родники, заболоченные участки и болота, сосняки, ельники и, конечно, разнообразие животного мира. В заказнике «Анисимовские озёра» встречаются разнообразные насекомые, лесные и водоплавающие птицы, звери Карельского перешейка, в том числе и крупные представители: лось, кабан, волк, барсук и хозяин тайги – медведь.',
         link: 'https://ooptlo.ru/medvezhij-les.html',
         gpx: 'tracks/anisimovsky_lakes_omaps.gpx',
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO']
     },
     {
@@ -380,7 +380,7 @@ let tracks = [
         info: 'Половина экологической тропы проходит по живописным лесным дорогам, а вторая половина вдоль берега Онежского озера. На побережье озера на дневную поверхность выходят скальные породы, образованные кварцито-песчаниками, кварцитами, диабазами и габбро-диабазами. Растительные сообщества памятника природы весьма своеобразны и интересны. На вершинах скал распространены сосняки, в подлеске которых встречаются древовидные можжевельники; у подножия гряды и на её склонах – необычные для Ленинградской области сосново-кленовые леса.',
         link: 'https://ooptlo.ru/obitel-batyushki-onegi.html',
         gpx: 'tracks/scheleyki_omaps.gpx',
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -389,7 +389,7 @@ let tracks = [
         link: 'https://ooptlo.ru/myis-kiperort.html',
         gpx: 'tracks/kiperort_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO']
     },
     {
@@ -398,7 +398,7 @@ let tracks = [
         link: 'https://ooptlo.ru/oredezhskoe-kolczo.html',
         gpx: 'tracks/oredezh_ring_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK','VELO','WATER']
     },
     {
@@ -407,7 +407,7 @@ let tracks = [
         link: 'https://ooptlo.ru/eco-gladyishevskij.html',
         gpx: 'tracks/gladyshevka_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -416,7 +416,7 @@ let tracks = [
         link: 'https://ooptlo.ru/ecoradonovyie-istochniki-i-ozera-u-derevni-lopuxinka.html',
         gpx: 'tracks/lopuhinka_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -425,7 +425,7 @@ let tracks = [
         link: 'https://ooptlo.ru/tropa-aleksandra-nevskogo.html',
         gpx: 'tracks/syabero_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -434,7 +434,7 @@ let tracks = [
         link: 'https://ooptlo.ru/muzej-usadba-n.k.-rerixa.html',
         gpx: 'tracks/izvara_omaps.gpx',
         markir: true,
-        start: 'OOPTLO',
+        owner: 'OOPTLO',
         type: ['WALK']
     },
     {
@@ -479,7 +479,7 @@ let tracks = [
         link: 'https://oopt.spb.ru/protected_area/komarovskiy-bereg/',
         gpx: 'tracks/komarovo_coast_omaps.gpx',
         markir: true,
-        start: 'OOPTSPB',
+        owner: 'OOPTSPB',
         type: ['WALK']
     },
     {
@@ -488,7 +488,7 @@ let tracks = [
         link: 'https://oopt.spb.ru/protected_area/zapadniy-kotlin/',
         gpx: 'tracks/zapadniy_kotlin_omaps.gpx',
         markir: true,
-        start: 'OOPTSPB',
+        owner: 'OOPTSPB',
         type: ['WALK']
     },
     {
@@ -497,7 +497,7 @@ let tracks = [
         link: 'https://oopt.spb.ru/protected_area/dudergofskiye-visoti/',
         gpx: 'tracks/dudergof_heights_omaps.gpx',
         markir: true,
-        start: 'OOPTSPB',
+        owner: 'OOPTSPB',
         type: ['WALK']
     },
     {
@@ -505,7 +505,7 @@ let tracks = [
         info: 'Экотропа «Бугаиная тропа» проходит по заболоченной местности вдоль побережья Финского залива в парке «Ближние дубки», созданному ещё во времена Петра Первого. Экотропа оборудована деревянным настилом, позволяющим побывать там, где по земле не пройдёшь — среди бурной прибрежной растительности северного побережья Невской Губы.',
         link: 'https://eco-trails.ru/catalog/lenoblast/bugainaya-tropa/',
         gpx: 'tracks/bugaina_trail_omaps.gpx',
-        start: 'OOPTSPB',
+        owner: 'OOPTSPB',
         markir: true,
         type: ['WALK']
     },
@@ -514,7 +514,7 @@ let tracks = [
         info: 'Экотропа <a href="https://ecotrail-novoorlovsky.ru/">«Привет, сосед!»</a> протянулась по северной части заказника между набережной реки Каменки и Заповедной улицей будет интересна не только жителям ближайших жилых комплексов, но и всем любителям познавательных прогулок.',
         link: 'https://oopt.spb.ru/protected_area/novoorlovskiy/',
         gpx: 'tracks/novoorlovsky_omaps.gpx',
-        start: 'OOPTSPB',
+        owner: 'OOPTSPB',
         markir: true,
         type: ['WALK']
     },

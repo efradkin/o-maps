@@ -1,0 +1,258 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.83">
+    <title>o-Maps: старты</title>
+    <meta name="description" content="Сводная таблица соревнований">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/main.css?v=1"/>
+
+    <meta property="og:title" content="o-Maps: таблица стартов">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Сводная таблица соревнований">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <base target="_blank">
+</head>
+<body class="stat-body sheet-body sheet-body">
+    <a href="starts.html" target="_self" class="stat-map-link stat-map-link-right" title="Старты на карте"><img src="images/map_24.png" alt="Старты на карте" /></a>
+    <h4 style="float: right; margin-top: 1em;">На карте: </h4>
+
+    <h1>
+        <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
+    </h1>
+    <h2 class="text-center">Серии стартов и многодневки</h2>
+
+    <div class="o-sheet-roof" style="display: none">
+        <a href="#" onclick="downloadSheetTable('o-maps-starts.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+    </div>
+    <div class="o-sheet-wrapper">
+        <table class="o-main-table o-sheet tracks-table">
+            <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+                <th>Название</th>
+                <th>Период</th>
+                <th>Инфо</th>
+                <th>Карты</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="js/ext/jquery.slim.min.js"></script>
+    <script src="js/ext/leaflet.js"></script>
+    <script src="js/ext/GPX.js"></script>
+
+    <script src="js/utils-common.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/welcome.js"></script>
+    <script src="js/starts.js"></script>
+    <script src="js/owners.js"></script>
+
+    <script src="js/maps-city.js"></script>
+    <script src="js/maps-parks.js"></script>
+    <script src="js/maps-forest.js"></script>
+    <script src="js/maps-forest-vsevolozhsk.js"></script>
+    <script src="js/maps-forest-south.js"></script>
+    <script src="js/maps-forest-priozersk.js"></script>
+    <script src="js/maps-forest-zelik.js"></script>
+    <script src="js/maps-forest-toksovo.js"></script>
+    <script src="js/maps-forest-sosnovo.js"></script>
+    <script src="js/maps-forest-michura.js"></script>
+    <script src="js/maps-forest-vaskelovo.js"></script>
+    <script src="js/maps-forest-vyborg.js"></script>
+    <script src="js/maps-special.js"></script>
+    <script src="js/maps-fun.js"></script>
+    <script src="js/maps-rogaine.js"></script>
+    <script src="js/maps-rogaine-beketov.js"></script>
+    <script src="js/maps-rogaine-kkm.js"></script>
+    <script src="js/maps-rogaine-rfar.js"></script>
+    <script src="js/maps-moscow.js"></script>
+    <script src="js/maps-other.js"></script>
+    <script src="js/maps-bash.js"></script>
+    <script src="js/maps-serbia.js"></script>
+    <script src="js/maps-samara.js"></script>
+    <script src="js/maps-ryazan.js"></script>
+    <script src="js/maps-pskov.js"></script>
+    <script src="js/maps-starts-mms.js"></script>
+    <script src="js/maps-starts-wn.js"></script>
+    <script src="js/maps-starts-ym.js"></script>
+    <script src="js/maps-starts-na.js"></script>
+    <script src="js/maps-starts-ks.js"></script>
+    <script src="js/maps-starts-psk.js"></script>
+    <script src="js/maps-starts-volkov.js"></script>
+    <script src="js/maps-starts-kkp.js"></script>
+    <script src="js/maps-starts-gs.js"></script>
+    <script src="js/maps-starts-2x2.js"></script>
+    <script src="js/maps-starts-orientir.js"></script>
+    <script src="js/maps-starts-schools.js"></script>
+    <script src="js/maps-starts-rfar.js"></script>
+    <script src="js/maps-starts-other.js"></script>
+
+    <script>
+
+        let oMaps = [
+            ...otherStartsMaps,
+            ...twotwoStartsMaps,
+            ...orientirStartsMaps,
+            ...gsStartsMaps,
+            ...volkovStartsMaps,
+            ...pskStartsMaps,
+            ...ymStartsMaps,
+            ...ksStartsMaps,
+            ...kkpStartsMaps,
+            ...mmsStartsMaps,
+            ...wnStartsMaps,
+            ...naStartsMaps,
+            ...bashMaps,
+            ...serbiaMaps,
+            ...otherMaps,
+            ...samaraMaps,
+            ...ryazanMaps,
+            ...pskovMaps,
+            ...moscowMaps,
+            ...rfarStartsMaps,
+            ...rogaineRfarMaps,
+            ...rogaineBeketovMaps,
+            ...rogaineKkmMaps,
+            ...rogaineMaps,
+            ...funMaps,
+            ...specialMaps,
+            ...forestMaps,
+            ...vsevolozhskMaps,
+            ...southMaps,
+            ...priozerskMaps,
+            ...zelikMaps,
+            ...vyborgMaps,
+            ...sosnovoMaps,
+            ...michuraMaps,
+            ...vaskelovoMaps,
+            ...toksovoMaps,
+            ...parkMaps,
+            ...cityMaps,
+            ...schoolMaps,
+        ];
+
+        for (m of oMaps) {
+            if (m.start) {
+                let y = startYear(m);
+                if (!y) {
+                    y = year(m);
+                }
+
+                if (y) {
+                    if (Array.isArray(m.start)) {
+                        for (const s of m.start) {
+                            if (!s.begin || s.begin > y) s.begin = y;
+                            if (!s.end || s.end < y) s.end = y;
+                        }
+                    } else {
+                        const s = starts[m.start];
+                        if (!s.begin || s.begin > y) s.begin = y;
+                        if (!s.end || s.end < y) s.end = y;
+                    }
+                }
+            }
+        }
+
+        let oStarts = [];
+        for (const so in starts) {
+            const s = starts[so];
+            s.key = so;
+            oStarts.push(s);
+        }
+
+        window.onload = function() {
+
+            oStarts = oStarts.filter(s => (s.info || s.rogaine) && s.begin && (s.key !== 'MSK_LIGHT' && s.key !== 'TRI_O_TLON'));
+            //oStarts.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
+
+            // Изначальный рендеринг таблицы
+            renderStartsTable();
+        }
+
+        // Ссылка на тело таблицы
+        const tbody = document.querySelector('.o-main-table tbody');
+
+        // строит табличку с инфой об авторах-составителях
+        function renderStartsTable() {
+            tbody.innerHTML = '';
+
+            let counter = 1;
+            for (let i = 0; i < oStarts.length; i++) {
+                let s = oStarts[i];
+
+                const row = document.createElement('tr');
+                td(s, row, counter++);
+                td(s, row, buildLogo(s));
+                td(s, row, s.name);
+                td(s, row, buildPeriod(s));
+                td(s, row, buildInfo(s));
+                td(s, row, buildMore(s));
+                tbody.appendChild(row);
+            }
+        }
+
+        function td(m, row, html) {
+            const td = document.createElement('td');
+            td.innerHTML = html;
+            row.appendChild(td);
+        }
+
+        function buildPeriod(s) {
+            let period;
+            if (s.begin === s.end) {
+                period = s.begin;
+            } else {
+                period = `${s.begin}-${s.end}`;
+            }
+            return `<span class="doc-date">${period}</span>`;
+        }
+
+        function buildInfo(s) {
+            if (s.info) {
+                return s.info;
+            }
+            return '';
+        }
+
+        function buildLogo(s) {
+            if (s.logo) {
+                return `<img src="logo/${s.logo}" class="track-table-pic" />`
+            }
+            return '';
+        }
+
+        function buildMore(s) {
+            return `<a href="start.html?start=${s.key}" title="Страничка соревнований"><img src="./images/external-link.png" alt="Страничка соревнований" /></a>`;
+        }
+
+        writeWelcomeButton();
+    </script>
+</body>
+</html>
