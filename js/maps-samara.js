@@ -147,6 +147,7 @@ let samaraMaps = [
         owner: 'ZNVJV_A',
         type: ['CITY','SPRINT']
     },
+/*
     {
         name: 'парк Гагарина',
         year: 2026,
@@ -168,6 +169,7 @@ let samaraMaps = [
         owner: 'ZNVJV_A',
         type: ['PARK','SPRINT']
     },
+*/
     {
         name: 'Микрорайон 7А, школа №48',
         year: 2025,
