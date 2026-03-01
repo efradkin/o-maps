@@ -135,7 +135,7 @@
                 populateOMaps(rogaineKkmMaps, 'BASH');
                 populateOMaps(rogaineMaps, 'BASH');
         */
-        oMaps = oMaps.filter(m => !m.excluded && isOrientMap(m) && !(m.type && m.type.includes('RELIEF')));
+        oMaps = oMaps.filter(m => !m.excluded && isOrientMap(m) && !isRogaine(m) && !(m.type && m.type.includes('RELIEF')));
     </script>
 
     <script src="js/map-build.js"></script>
