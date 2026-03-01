@@ -276,6 +276,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/lena-ladoga_2021.webp',
         bounds: [[61.41811982926797, 30.185172557830814], [61.416549144625634, 30.200386047363285], [61.41306871866662, 30.183434486389164]],
         author: 'DRBSHV',
-        owner: 'LENA'
+        owner: 'LENA',
+        region: 'KARELIA'
     },
 ];

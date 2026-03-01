@@ -6,15 +6,6 @@ const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 const O_SITE_ADDRESS_PREFIX = 'https://o-site.spb.ru/race.php?id=';
 
 const regions = {
-    CHITA: {
-        name: 'Чита'
-    },
-    DV: {
-        name: 'Дальний Восток'
-    },
-    FRA: {
-        name: 'Франция'
-    },
     BASH: {
         name: 'Башкортостан',
         logo: 'bash.gif'
@@ -23,28 +14,32 @@ const regions = {
         name: 'Геленджик',
         logo: 'gelendzhik.gif'
     },
-    KLGA: {
-        name: 'Калуга'
+    DV: {
+        name: 'Дальний Восток'
+    },
+    KABARDA: {
+        name: 'Кабардино-Балкария'
+    },
+    KZKHSTN: {
+        name: 'Казахстан'
     },
     KLNNGRD: {
         name: 'Калининград'
     },
-    KABARDA: {
-        name: 'Кабардино-Балкария'
+    KLGA: {
+        name: 'Калуга'
     },
     KRCHCHRK: {
         name: 'Карачаево-Черкессия',
         logo: 'karachay-cherkessia.gif'
     },
     KARELIA: {
-        name: 'Карелия'
+        name: 'Карелия',
+        logo: 'karelia.gif'
     },
     KRSNDR: {
         name:'Краснодар',
         logo: 'krasnodar_krai.webp'
-    },
-    KZKHSTN: {
-        name: 'Казахстан'
     },
     LNGRD: {
         name: 'Ленинград'
@@ -56,11 +51,11 @@ const regions = {
         name: 'Новороссийск',
         logo: 'novorossiysk.gif'
     },
-    PSKOV: {
-        name: 'Псков'
-    },
     ORENBURG: {
         name: 'Оренбург'
+    },
+    PSKOV: {
+        name: 'Псков'
     },
     RYAZAN: {
         name: 'Рязань'
@@ -69,11 +64,21 @@ const regions = {
         name: 'Самарская обл',
         logo: 'samara.webp'
     },
+    SERBIA: {
+        name: 'Сербия'
+    },
     SPB: {
         name: 'С-Петербург'
     },
-    SERBIA: {
-        name: 'Сербия'
+    FRA: {
+        name: 'Франция'
+    },
+    CHELYABINSK: {
+        name: 'Челябинск',
+        logo: 'chelyabinsk.gif'
+    },
+    CHITA: {
+        name: 'Чита'
     },
 };
 
