@@ -6,7 +6,7 @@ const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 const O_SITE_ADDRESS_PREFIX = 'https://o-site.spb.ru/race.php?id=';
 
 const regions = {
-    CHTA: {
+    CHITA: {
         name: 'Чита'
     },
     DV: {
@@ -15,6 +15,10 @@ const regions = {
     FRA: {
         name: 'Франция'
     },
+    BASH: {
+        name: 'Башкортостан',
+        logo: 'bash.gif'
+    },
     GLNDZHK: {
         name: 'Геленджик',
         logo: 'gelendzhik.gif'
@@ -22,7 +26,7 @@ const regions = {
     KLGA: {
         name: 'Калуга'
     },
-    KLNGRD: {
+    KLNNGRD: {
         name: 'Калининград'
     },
     KABARDA: {
@@ -32,14 +36,14 @@ const regions = {
         name: 'Карачаево-Черкессия',
         logo: 'karachay-cherkessia.gif'
     },
-    KRL: {
+    KARELIA: {
         name: 'Карелия'
     },
     KRSNDR: {
         name:'Краснодар',
         logo: 'krasnodar_krai.webp'
     },
-    KZ: {
+    KZKHSTN: {
         name: 'Казахстан'
     },
     LNGRD: {
@@ -52,24 +56,24 @@ const regions = {
         name: 'Новороссийск',
         logo: 'novorossiysk.gif'
     },
-    PSKV: {
+    PSKOV: {
         name: 'Псков'
     },
-    ORBG: {
+    ORENBURG: {
         name: 'Оренбург'
     },
-    RZN: {
+    RYAZAN: {
         name: 'Рязань'
-    },
-    SMR: {
-        name: 'Самара'
     },
     SAMARA: {
         name: 'Самарская обл',
         logo: 'samara.webp'
     },
     SPB: {
-        name: 'СПб'
+        name: 'С-Петербург'
+    },
+    SERBIA: {
+        name: 'Сербия'
     },
 };
 
@@ -460,10 +464,14 @@ function coordLink(latLng) {
     return `${location.href}?x=${latLng.lat}&y=${latLng.lng}`;
 }
 
-function authorLink(author) {
+function authorLink(author, isGlobalTable) {
     let pathname = location.pathname;
-    if (pathname.includes('charts-')) {
-        pathname = pathname.split('charts-').join('');
+    if (isGlobalTable) {
+        pathname = pathname.substring(0, pathname.lastIndexOf('/') + 1) + 'all.html';
+    } else {
+        if (pathname.includes('charts-')) {
+            pathname = pathname.split('charts-').join('');
+        }
     }
     return location.origin + pathname + '?author=' + author;
 }
@@ -805,12 +813,16 @@ function o(owner) {
     return result;
 }
 
-function authorLabel(author) {
+function authorLabel(author, withLogo) {
     if (author) {
+        let name = author.name;
+        if (withLogo && author.logo) {
+            name = '<img src="./logo/' + author.logo + '" alt="" class="sheet-icon" />&nbsp;' + name;
+        }
         if (author.about) {
-            return buildLink(author.about, author.name);
+            return buildLink(author.about, name);
         } else {
-            return author.name;
+            return name;
         }
     } else {
         return '';
@@ -1299,6 +1311,95 @@ function buildFotos(t, root = 'tracks') {
     }
     if (t.video) {
         result += ' ' + buildLink(t.video, '<img src="./images/video-camera.png" class="track-table-pic">', 'Видео', true);
+    }
+    return result;
+}
+
+function buildPeriod(s) {
+    let period;
+    let begin = s.begin;
+    if (begin === 1) begin = 'Ретро';
+    if (!begin) begin = 'Неизвестно';
+    if (s.begin === s.end) {
+        period = begin;
+    } else {
+        period = `${begin} - ${s.end}`;
+    }
+    return `<span class="doc-date">${period}</span>`;
+}
+
+function populateStartsRanges() {
+    for (m of oMaps) {
+        if (m.start) {
+            let y = startYear(m);
+            if (!y) {
+                y = year(m);
+            }
+
+            if (y) {
+                if (Array.isArray(m.start)) {
+                    for (const ms of m.start) {
+                        const s = starts[ms];
+                        if (!s.begin || s.begin > y) s.begin = y;
+                        if (!s.end || s.end < y) s.end = y;
+                    }
+                } else {
+                    const s = starts[m.start];
+                    if (!s.begin || s.begin > y) s.begin = y;
+                    if (!s.end || s.end < y) s.end = y;
+                }
+            }
+        }
+    }
+}
+
+function populateAuthorsRangesRegions() {
+    for (m of oMaps) {
+        if (m.author) {
+            let y = year(m);
+            if (y) {
+                if (Array.isArray(m.author)) {
+                    for (const ma of m.author) {
+                        populateAuthorRangeRegions(ma, y, m);
+                    }
+                } else {
+                    populateAuthorRangeRegions(m.author, y, m);
+                }
+            }
+        }
+    }
+}
+
+function populateAuthorRangeRegions(ma, y, m) {
+    const a = authors[ma];
+    if (!a.begin || a.begin > y) a.begin = y;
+    if (!a.end || a.end < y) a.end = y;
+
+    const region = m.region;
+    if (region) {
+        if (!a.regions) a.regions = [];
+        if (!a.regions.includes(region)) {
+            a.regions.push(region);
+        }
+    }
+}
+
+function populateOMaps(maps, regionKey) {
+    for (const m of maps) {
+        if (regionKey && !m.region) m.region = regionKey;
+        oMaps.push(m);
+    }
+}
+
+function prettyRegions(aRegions) {
+    let result = '';
+    if (aRegions) {
+        for (const r of aRegions) {
+            if (result) {
+                result += ', ';
+            }
+            result += regions[r].name;
+        }
     }
     return result;
 }

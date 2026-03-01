@@ -19,7 +19,7 @@ let otherMaps = [
         link: './original_maps/other/sortavala_helmijarvi_1992_omaps.jpg',
         bounds: [[61.770991561763616, 30.659880638122562], [61.76479979707796, 30.743308067321777], [61.7504829150452, 30.65194129943848]],
         author: ['KHDNKCH','SCHV','NSNV'],
-        region: 'KRL'
+        region: 'KARELIA'
     },
     {
         name: 'Сортавала, оз Хелмиярви',
@@ -30,7 +30,7 @@ let otherMaps = [
         bounds: [[61.772919889678285, 30.661940574646], [61.76102322389487, 30.76875686645508], [61.74826878842556, 30.65043926239014]],
         author: ['TKMKV_K','VRBJV_S','LUK_V','SBLV_S','TTYNN_V'],
         owner: 'FSO_KARELIA',
-        region: 'KRL'
+        region: 'KARELIA'
     },
     // --- Владимирская обл ---
     {
@@ -60,7 +60,7 @@ let otherMaps = [
         bounds: [[54.84602774923302, 20.5759334564209], [54.84402622102956, 20.609107017517093], [54.81713187219776, 20.570869445800785]],
         author: ['TKMKV_K','LUK_V'],
         owner: 'KRSHNV',
-        region: 'KLNGRD'
+        region: 'KLNNGRD'
     },
     // --- Оренбург ---
     {
@@ -72,7 +72,7 @@ let otherMaps = [
         author: 'STPNV_P',
         logo: 'orenburg.webp',
         type: ['PARK'],
-        region: 'ORBG'
+        region: 'ORENBURG'
     },
     {
         name: 'Качкарский мар',
@@ -81,7 +81,7 @@ let otherMaps = [
         link: './original_maps/other/kachkara_1979_omaps.jpg',
         bounds: [[51.815300858811874, 55.175399780273445], [51.80951690365106, 55.2195167541504], [51.77782464156524, 55.1597785949707]],
         logo: 'orenburg.webp',
-        region: 'ORBG'
+        region: 'ORENBURG'
     },
     // --- Дальний Восток ---
     {
@@ -101,7 +101,7 @@ let otherMaps = [
         link: './original_maps/dv/atamanovka_1988_omaps.jpg',
         bounds: [[51.947068937450204, 113.64725589752199], [51.951354046542924, 113.68639469146729], [51.92124381280325, 113.65257740020752]],
         author: ['GSMNV_R','BCHNV_A'],
-        region: 'CHTA'
+        region: 'CHITA'
     },
     {
         name: 'Верх.Карповка',
@@ -110,7 +110,7 @@ let otherMaps = [
         link: './original_maps/dv/high_karpovka_1985_omaps.jpg',
         bounds: [[52.23815515549662, 113.52893829345705], [52.24188683382461, 113.5726261138916], [52.2113409192666, 113.53537559509279]],
         author: ['KUZNTSV_V_DV','VEKOVISCH','KUZNTSV_S_DV','PNCHKV'],
-        region: 'CHTA'
+        region: 'CHITA'
     },
     {
         name: 'гора Чита',
@@ -119,7 +119,7 @@ let otherMaps = [
         link: './original_maps/dv/chita_mntn_1986_omaps.jpg',
         bounds: [[52.04114119231819, 113.53949546813965], [52.044678254987325, 113.58017921447755], [52.01864526044008, 113.54640483856203]],
         author: ['BBRN_R','VHTV_A'],
-        region: 'CHTA'
+        region: 'CHITA'
     },
     {
         name: 'Карповка',
@@ -128,7 +128,7 @@ let otherMaps = [
         link: './original_maps/dv/karpovka_1986_omaps.jpg',
         bounds: [[52.216810234735156, 113.54473114013672], [52.22075403470394, 113.58944892883302], [52.18924644741894, 113.54919433593751]],
         author: ['VHTV_A','PNCHKV','ATMNTSV'],
-        region: 'CHTA'
+        region: 'CHITA'
     },
 /*
     {
@@ -138,7 +138,7 @@ let otherMaps = [
         link: './original_maps/dv/swan_lakes_old_omaps.jpg',
         bounds: [[52.216810234735156, 113.54473114013672], [52.22075403470394, 113.58944892883302], [52.18924644741894, 113.54919433593751]],
         author: ['VHTV_A','PNCHKV','ATMNTSV'],
-        region: 'CHTA'
+        region: 'CHITA'
     },
 */
     {
@@ -149,7 +149,7 @@ let otherMaps = [
         bounds: [[52.07945325502219, 113.48679542541504], [52.08140491817397, 113.51031303405763], [52.063441121356036, 113.49005699157716]],
         author: ['ATMNTSV','BBRN_R'],
         logo: 'chita_mikky.webp',
-        region: 'CHTA'
+        region: 'CHITA'
     },
     {
         name: 'Орбита',
@@ -159,7 +159,7 @@ let otherMaps = [
         bounds: [[52.05494470942748, 113.51602077484132], [52.057609907000106, 113.54953765869142], [52.03628387406958, 113.52026939392091]],
         author: ['VEKOVISCH','KUZNTSV_V_DV','KUZNTSV_S_DV','PNCHKV'],
         logo: 'chita_mikky.webp',
-        region: 'CHTA'
+        region: 'CHITA'
     },
     {
         name: 'р Сухая',
@@ -168,7 +168,7 @@ let otherMaps = [
         link: './original_maps/dv/dry_river_1988_omaps.jpg',
         bounds: [[52.08335649599008, 113.50653648376466], [52.086890217029634, 113.55537414550783], [52.036389473556774, 113.51675033569337]],
         author: ['GSMNV_R','ATMNTSV'],
-        region: 'CHTA'
+        region: 'CHITA'
     },
     {
         name: 'гора Батарейная',
@@ -176,7 +176,7 @@ let otherMaps = [
         url: './maps/dv/batareynaya_old.webp',
         link: './original_maps/dv/batareynaya_old_omaps.jpg',
         bounds: [[52.02144466652407, 113.51992607116699], [52.0208372631053, 113.56056690216066], [51.994684688372, 113.51953983306886]],
-        region: 'CHTA'
+        region: 'CHITA'
     },
     // --- Юг ---
     {
@@ -337,7 +337,7 @@ let otherMaps = [
         bounds: [[49.38385349051448, 75.43367385864259], [49.381674326472776, 75.4750442504883], [49.35151930828741, 75.43144226074219]],
         author: ['AFNSV_L','GLTSKY_V','KLM_K','KVLVSKY_G'],
         results: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
-        region: 'KZ'
+        region: 'KZKHSTN'
     },
     {
         name: 'Париж, Диснейлэнд',

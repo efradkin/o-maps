@@ -36,7 +36,7 @@
 
     <base target="_blank">
 </head>
-<body class="stat-body sheet-body sheet-body">
+<body class="stat-body sheet-body">
     <a href="starts.html" target="_self" class="stat-map-link stat-map-link-right" title="Старты на карте"><img src="images/map_24.png" alt="Старты на карте" /></a>
     <h4 style="float: right; margin-top: 1em;">На карте: </h4>
 
@@ -158,27 +158,7 @@
             ...schoolMaps,
         ];
 
-        for (m of oMaps) {
-            if (m.start) {
-                let y = startYear(m);
-                if (!y) {
-                    y = year(m);
-                }
-
-                if (y) {
-                    if (Array.isArray(m.start)) {
-                        for (const s of m.start) {
-                            if (!s.begin || s.begin > y) s.begin = y;
-                            if (!s.end || s.end < y) s.end = y;
-                        }
-                    } else {
-                        const s = starts[m.start];
-                        if (!s.begin || s.begin > y) s.begin = y;
-                        if (!s.end || s.end < y) s.end = y;
-                    }
-                }
-            }
-        }
+        populateStartsRanges();
 
         let oStarts = [];
         for (const so in starts) {
@@ -208,30 +188,20 @@
                 let s = oStarts[i];
 
                 const row = document.createElement('tr');
-                td(s, row, counter++);
-                td(s, row, buildLogo(s));
-                td(s, row, s.name);
-                td(s, row, buildPeriod(s));
-                td(s, row, buildInfo(s));
-                td(s, row, buildMore(s));
+                td(row, counter++);
+                td(row, buildLogo(s));
+                td(row, s.name);
+                td(row, buildPeriod(s));
+                td(row, buildInfo(s));
+                td(row, buildMore(s));
                 tbody.appendChild(row);
             }
         }
 
-        function td(m, row, html) {
+        function td(row, html) {
             const td = document.createElement('td');
             td.innerHTML = html;
             row.appendChild(td);
-        }
-
-        function buildPeriod(s) {
-            let period;
-            if (s.begin === s.end) {
-                period = s.begin;
-            } else {
-                period = `${s.begin}-${s.end}`;
-            }
-            return `<span class="doc-date">${period}</span>`;
         }
 
         function buildInfo(s) {

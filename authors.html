@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.83">
+    <title>o-Maps: Авторы-составители</title>
+    <meta name="description" content="Сводная таблица авторов-составителей карт.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/main.css?v=1"/>
+
+    <meta property="og:title" content="o-Maps: Авторы-составители">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Сводная таблица авторов-составителей карт.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <script src="./js/ext/chart-4.4.8.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <base target="_blank">
+</head>
+<body class="stat-body sheet-body">
+    <h1>
+        <a href="./index.html" target="_self" title="Главная страница">O-maps ◪</a>
+    </h1>
+    <h2 class="text-center">Авторы-составители спортивных карт</h2>
+
+    <div class="o-sheet-roof" style="display: none">
+        <a href="#" onclick="downloadSheetTable('o-authors-all.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
+    </div>
+    <div class="o-sheet-wrapper">
+        <table class="o-main-table o-sheet tracks-table">
+            <thead>
+            <th>&nbsp;</th>
+            <th>Автор-составитель</th>
+            <th><span title="Таблица не включает рогейнерские и рельефные карты.">Количество карт <sup>⚹</sup></span></th>
+            <th><span title="Площадь большинства карт приблизительна. Она высчитывается, исходя из координат листа карты.">Площадь карт (км²) <sup>⚹⚹</sup></span></th>
+            <th>Период</th>
+            <th>Регионы</th>
+            <th>Карты</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="js/ext/jquery.slim.min.js"></script>
+
+    <script src="js/ext/leaflet.js"></script>
+    <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
+    <script src="js/ext/GeometryUtil.js"></script>
+
+    <script src="js/maps-starts-schools.js"></script>
+    <script src="js/maps-city.js"></script>
+    <script src="js/maps-parks.js"></script>
+    <script src="js/maps-forest.js"></script>
+    <script src="js/maps-forest-vsevolozhsk.js"></script>
+    <script src="js/maps-forest-south.js"></script>
+    <script src="js/maps-forest-priozersk.js"></script>
+    <script src="js/maps-forest-zelik.js"></script>
+    <script src="js/maps-forest-toksovo.js"></script>
+    <script src="js/maps-forest-sosnovo.js"></script>
+    <script src="js/maps-forest-michura.js"></script>
+    <script src="js/maps-forest-vaskelovo.js"></script>
+    <script src="js/maps-forest-vyborg.js"></script>
+    <script src="js/maps-special.js"></script>
+    <script src="js/maps-fun.js"></script>
+    <script src="js/maps-other.js"></script>
+    <script src="js/maps-rogaine.js"></script>
+    <script src="js/maps-rogaine-beketov.js"></script>
+    <script src="js/maps-rogaine-kkm.js"></script>
+    <script src="js/maps-rogaine-rfar.js"></script>
+    <script src="js/maps-samara.js"></script>
+    <script src="js/maps-ryazan.js"></script>
+    <script src="js/maps-pskov.js"></script>
+    <script src="js/maps-moscow.js"></script>
+    <script src="js/maps-serbia.js"></script>
+    <script src="js/maps-bash.js"></script>
+
+    <script src="js/starts.js"></script>
+    <script src="js/authors.js"></script>
+    <script src="js/owners.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/utils-common.js"></script>
+    <script src="js/welcome.js"></script>
+
+    <script>
+        let loadImagesRequired = false;
+        let globalTable = true;
+
+        let oMaps = [];
+        populateOMaps(funMaps, 'SPB');
+        populateOMaps(specialMaps, 'SPB');
+        populateOMaps(forestMaps, 'SPB');
+        populateOMaps(vsevolozhskMaps, 'SPB');
+        populateOMaps(southMaps, 'SPB');
+        populateOMaps(priozerskMaps, 'SPB');
+        populateOMaps(zelikMaps, 'SPB');
+        populateOMaps(vyborgMaps, 'SPB');
+        populateOMaps(sosnovoMaps, 'SPB');
+        populateOMaps(michuraMaps, 'SPB');
+        populateOMaps(vaskelovoMaps, 'SPB');
+        populateOMaps(toksovoMaps, 'SPB');
+        populateOMaps(parkMaps, 'SPB');
+        populateOMaps(cityMaps, 'SPB');
+        populateOMaps(schoolMaps, 'SPB');
+        populateOMaps(moscowMaps, 'MSK');
+        populateOMaps(pskovMaps, 'PSKOV');
+        populateOMaps(bashMaps, 'BASH');
+        populateOMaps(ryazanMaps, 'RYAZAN');
+        populateOMaps(samaraMaps, 'SAMARA');
+        populateOMaps(serbiaMaps, 'SERBIA');
+        populateOMaps(otherMaps);
+        /*
+                populateOMaps(rogaineRfarMaps, 'BASH');
+                populateOMaps(rogaineBeketovMaps, 'BASH');
+                populateOMaps(rogaineKkmMaps, 'BASH');
+                populateOMaps(rogaineMaps, 'BASH');
+        */
+        oMaps = oMaps.filter(m => !m.excluded && isOrientMap(m) && !(m.type && m.type.includes('RELIEF')));
+    </script>
+
+    <script src="js/map-build.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/charts.js"></script>
+
+    <script>
+        writeWelcomeButton();
+    </script>
+</body>
+</html>

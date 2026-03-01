@@ -1147,7 +1147,7 @@ let ryazanMaps = [
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['ROGAINE'],
-        region: 'RZN'
+        region: 'RYAZAN'
     },
     {
         name: 'Чернава',

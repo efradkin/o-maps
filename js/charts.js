@@ -1,3 +1,4 @@
+const isGlobalTable = (typeof globalTable !== 'undefined') && globalTable;
 
 const mapTypes = ['Город', 'Парки', 'Лес', 'Спец.', 'Рогейн'];
 
@@ -11,12 +12,15 @@ window.onload = function() {
         mapsStatObj.rogaineGroup.length,
     ];
 
-    buildChart(
-        document.getElementById('map_type_chart'),
-        mapTypes,
-        mapsStat,
-        'Количество карт');
-    document.getElementById('total_maps').innerHTML = oMaps.length;
+    const mapTypeChartEl = document.getElementById('map_type_chart');
+    if (mapTypeChartEl) {
+        buildChart(
+            mapTypeChartEl,
+            mapTypes,
+            mapsStat,
+            'Количество карт');
+        document.getElementById('total_maps').innerHTML = oMaps.length;
+    }
 
     const mapAreas = [
         calcMapsArea(mapsStatObj.cityGroup),
@@ -25,22 +29,28 @@ window.onload = function() {
         calcMapsArea(mapsStatObj.specialGroup),
     ];
 
-    buildChart(
-        document.getElementById('map_area_chart'),
-        mapTypes.filter(val => val !== 'Рогейн'),
-        mapAreas,
-        'Площадь спортивных карт (км²)');
-    document.getElementById('totalArea').innerHTML = mapAreas.reduce((a, c) => a + c).toFixed(0);
-    let el = document.getElementById("all_rogaine_area");
-    if (el != null) {
-        el.innerHTML = calcMapsArea(rogaineGroup).toFixed(0);
+    const mapAreaChartEl = document.getElementById('map_area_chart');
+    if (mapAreaChartEl) {
+        buildChart(
+            mapAreaChartEl,
+            mapTypes.filter(val => val !== 'Рогейн'),
+            mapAreas,
+            'Площадь спортивных карт (км²)');
+        document.getElementById('totalArea').innerHTML = mapAreas.reduce((a, c) => a + c).toFixed(0);
+    }
+    let allRogaineAreaEl = document.getElementById("all_rogaine_area");
+    if (allRogaineAreaEl != null) {
+        allRogaineAreaEl.innerHTML = calcMapsArea(rogaineGroup).toFixed(0);
     }
 
-    buildChart(
-        document.getElementById('mapYearChart'),
-        ['2020-е', '2010-е', '2000-е', '1990-е', 'Ретро', '???'],
-        calcYears(),
-        'Год издания');
+    const mapYearChartEl = document.getElementById('mapYearChart');
+    if (mapYearChartEl) {
+        buildChart(
+            mapYearChartEl,
+            ['2020-е', '2010-е', '2000-е', '1990-е', 'Ретро', '???'],
+            calcYears(),
+            'Год издания');
+    }
 
     buildAuthorsTable();
 }
@@ -142,6 +152,11 @@ function buildAuthorsTable() {
     authorsEntries
         .sort((a, b) => a[1].name.localeCompare(b[1].name))
         .sort((a, b) => (b[1].count || 0) - (a[1].count || 0));
+
+    if (isGlobalTable) {
+        populateAuthorsRangesRegions();
+    }
+
     var table = document.getElementsByClassName("o-main-table")[0];
     for (var i = 0; i < authorsEntries.length; i++) {
         let key = authorsEntries[i][0];
@@ -149,18 +164,18 @@ function buildAuthorsTable() {
         if (!author.count) {
             continue;
         }
-        let row = table.insertRow(i + 1);
-        let cell0 = row.insertCell(0);
-        let cell1 = row.insertCell(1);
-        let cell2 = row.insertCell(2);
-        let cell3 = row.insertCell(3);
-        let cell4 = row.insertCell(4);
-        cell0.innerHTML = i + 1;
-        cell1.innerHTML = authorLabel(author);
-        cell2.innerHTML = author.count;
-        cell3.innerHTML = author.area.toFixed(2);
-        let href = authorLink(key);
-        cell4.innerHTML = '<a href="' + href + '" title="Карты автора"><img src="./images/external-link.png" alt="Карты автора" /></a>';
+        const row = table.insertRow(i + 1);
+        let idx = 0;
+        insertTD(row, idx++, i + 1);
+        insertTD(row, idx++, authorLabel(author, isGlobalTable));
+        insertTD(row, idx++, author.count);
+        insertTD(row, idx++, author.area.toFixed(2));
+        if (isGlobalTable) {
+            insertTD(row, idx++, buildPeriod(author));
+            insertTD(row, idx++, prettyRegions(author.regions));
+        }
+        let href = authorLink(key, isGlobalTable);
+        insertTD(row, idx++, '<a href="' + href + '" title="Карты автора"><img src="./images/external-link.png" alt="Карты автора" /></a>');
     }
 
     // панель количества карт, где автор не указан
@@ -172,7 +187,15 @@ function buildAuthorsTable() {
             }
         }
     }
-    document.getElementById("no_authors_quantity").innerHTML = mapsWoAuthors;
+    const mapsWoAuthorsEl = document.getElementById("no_authors_quantity");
+    if (mapsWoAuthorsEl) {
+        mapsWoAuthorsEl.innerHTML = mapsWoAuthors;
+    }
+}
+
+function insertTD(row, index, content) {
+    const cell = row.insertCell(index);
+    cell.innerHTML = content;
 }
 
 let largestMap;
@@ -188,8 +211,14 @@ for (const m of oMaps) {
         }
     }
 }
-document.getElementById("largest_map").setAttribute('href', mapLink(largestMap.url));
-document.getElementById("largest_map").innerHTML = largestMap.name + ' (' + largestMap.area.toFixed(2) + 'км²)';
+const largestEl = document.getElementById("largest_map");
+if (largestEl) {
+    largestEl.setAttribute('href', mapLink(largestMap.url));
+    largestEl.innerHTML = largestMap.name + ' (' + largestMap.area.toFixed(2) + 'км²)';
+}
 
-document.getElementById("oldest_map").setAttribute('href', mapLink(oldestMap.url));
-document.getElementById("oldest_map").innerHTML = oldestMap.name + ' (' + year(oldestMap) + ')';
+const oldestEl = document.getElementById("oldest_map");
+if (oldestEl) {
+    oldestEl.setAttribute('href', mapLink(oldestMap.url));
+    oldestEl.innerHTML = oldestMap.name + ' (' + year(oldestMap) + ')';
+}

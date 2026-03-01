@@ -45,7 +45,7 @@ let rogaineRfarMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/2319/',
         owner: 'RFAR',
         type: ['ROGAINE'],
-        region: 'KRL'
+        region: 'KARELIA'
     },
     {
         name: 'Барышево',

@@ -138,7 +138,8 @@ let authors = {
     GRBNTSVA: { name: 'Горбунцова Н.' },
     GRBTNKV: {
         name: 'Горбатенков Игорь',
-        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+        about: 'https://o-site.spb.ru/history/Peoples/280.html',
+        logo: 'wn.gif'
     },
     GRKHVSKY: { name: 'Граховский В.' },
     GRNV_A: { name: 'Гринёв А.' },
@@ -296,7 +297,10 @@ let authors = {
         name: 'Несынов Сергей',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
-    ORLV: { name: 'Орлов Александр' },
+    ORLV: {
+        name: 'Орлов Александр',
+        logo: 'lm.jpg'
+    },
     OSMCHN: { name: 'Осмехин А.' },
     OSTPNK: { name: 'Остапенко В.' },
     OVCHNNKV: {
@@ -333,7 +337,10 @@ let authors = {
         name: 'Рылов Виктор',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
-    RYZHOV: { name: 'Рыжов Сергей' },
+    RYZHOV: {
+        name: 'Рыжов Сергей',
+        logo: 'kkm.gif'
+    },
     SBLV_A: { name: 'Соболев Алексей' },
     SBLV_S: { name: 'Сибилев Сергей' },
     SCHV: { name: 'Сычёв Владимир' },
@@ -387,7 +394,8 @@ let authors = {
     },
     STRGNV: {
         name: 'Строганов Илья',
-        about: 'https://adventure-race.redfox.ru/archive/archive_2020/news/v_komande_red_fox_adventure_race_popolnenie/'
+        about: 'https://adventure-race.redfox.ru/archive/archive_2020/news/v_komande_red_fox_adventure_race_popolnenie/',
+        logo: 'multsport.webp',
     },
     SVCHK: { name: 'Роман Сивачук' },
     SVLJV: { name: 'Савельев Никита' },
@@ -468,7 +476,10 @@ let authors = {
     /* --- МОСКВА --- */
 
     AFNSV_Y: { name: 'Афанасьев Ю.' }, // Б.
-    ALDBV: { name: 'Алдобаев Максим' },
+    ALDBV: {
+        name: 'Алдобаев Максим',
+        logo: 'makson.gif'
+    },
     ALFRV: { name: 'Алферьев Александр' },
     ALNKV_A: { name: 'Алейников Алексей' },
     ALSHN: {
@@ -691,7 +702,10 @@ let authors = {
         about: 'https://rufso.ru/wp-content/uploads/2020/12/биография-Свирь-АВ.pdf'
     },
     SVIR_M: { name: 'Свирь М.' },
-    SYTV_N: { name: 'Сытов Николай' },
+    SYTV_N: {
+        name: 'Сытов Николай',
+        logo: 'mm.webp'
+    },
     TLMCHV: { name: 'Толмачёв Г.' },
     TNS_A: { name: 'Тонис А.' },
     TRNN_A: { name: 'Таранин Анатолий' },
@@ -765,7 +779,10 @@ let authors = {
     VLKV_E: { name: 'Волков Егор' },
     ZHBNCHK: { name: 'Жбанчик Василий' },
     ZKN_V: { name: 'Заикин Валерий' },
-    ZNVJV_A: { name: 'Зиновьев Артём' },
+    ZNVJV_A: {
+        name: 'Зиновьев Артём',
+        logo: 'samara.webp'
+    },
 
     /* --- ОРЕНБУРГ --- */
 
@@ -797,7 +814,10 @@ let authors = {
     SMNV_MA: { name: 'Семёнов Михаил' }, // Александрович
     VRBJV_V: { name: 'Воробьёв В.' },
     YLMNV: { name: 'Юлманов В.' },
-    YUSHV_A: { name: 'Яушев Азат' },
+    YUSHV_A: {
+        name: 'Яушев Азат',
+        logo: 'bash.gif'
+    },
     ZHDNK_L: { name: 'Жданюк Л.' },
     ZKHRV_V: { name: 'Захаров Вадим' },
     ZRPV: { name: 'Зарипов Р.' },

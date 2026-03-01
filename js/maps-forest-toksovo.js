@@ -516,7 +516,7 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/kuzmolovo_2017.webp',
         link: './original_maps/forest/toksovo/kuzmolovo_2017_omaps.gif',
         bounds: [[60.11902021357004, 30.512294769287113], [60.115663316243925, 30.548472404479984], [60.10894849471909, 30.509977340698246]],
-        author: 'TKMKV'
+        author: 'TKMKV_K'
     },
     {
         name: 'Токсово, Охта-Парк',
