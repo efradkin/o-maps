@@ -241,6 +241,15 @@ let otherMaps = [
         region: 'KRSNDR'
     },
     {
+        name: 'Мацеста, Орлиные скалы',
+        year: 1976,
+        url: './maps/other/matsesta_1976.webp',
+        link: './original_maps/other/matsesta_1976_omaps.webp',
+        bounds: [[43.565715431592736, 39.79282379150391], [43.56823413778868, 39.822778701782234], [43.54693064746983, 39.79346752166749]],
+        author: 'NKRSV_S',
+        region: 'KRSNDR'
+    },
+    {
         name: 'Сочи, хребет Ачишхо, эко-тропа',
         url: './maps/other/sochi_achishko_eco_trail.webp',
         link: './original_maps/other/sochi_achishko_eco_trail_omaps.gif',

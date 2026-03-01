@@ -217,7 +217,7 @@ let forestMaps = [
         name: 'Юкки',
         year: 1975,
         url: './maps/forest/yukki_1976.webp',
-        link: './original_maps/forest/yukki_1976_omaps.jpg',
+        link: ['./original_maps/forest/yukki_1976_omaps.jpg','./original_maps/forest/yukki_1976_course_omaps.webp'],
         info: ' Одна из двух первых цветных карт в Ленинграде.',
         bounds: [[60.12637425707626, 30.27364253997803], [60.122718818726185, 30.34805774688721], [60.103023773335174, 30.26917934417725]],
         start: 'USSR_FRANCE_ARMY_1975',
