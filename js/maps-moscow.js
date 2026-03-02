@@ -974,6 +974,14 @@ let moscowMaps = [
         start: 'WEDDING_MSK'
     },
     {
+        name: 'Красногорск, Изумрудные холмы',
+        date: '1977-11-13',
+        url: './maps/moscow/ak/emerald_hills_1977.webp',
+        link: './original_maps/moscow/ak/emerald_hills_1977_omaps.webp',
+        bounds: [[55.85479323921342, 37.258458137512214], [55.85975505996792, 37.31266021728516], [55.83195106065597, 37.264423370361335]],
+        start: 'WEDDING_MSK'
+    },
+    {
         name: 'Красногорск',
         year: 1996,
         url: './maps/moscow/ak/krasnogorsk_winter_1996.webp',
@@ -1884,6 +1892,15 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
+        name: 'Кузьминки',
+        year: 1977,
+        url: './maps/moscow/ak/kuzminki_1977.webp',
+        link: './original_maps/moscow/ak/kuzminki_1977_omaps.webp',
+        info: 'VIII приз телевидения.',
+        bounds: [[55.69884847968164, 37.760910987854004], [55.69483362543722, 37.8136968612671], [55.683972104026786, 37.758078575134284]],
+        type: ['PARK']
+    },
+    {
         name: 'ПИП Кузьминки',
         year: 2025,
         url: './maps/moscow/o-mephi/20250403_463.webp',
@@ -2624,6 +2641,14 @@ let moscowMaps = [
         bounds: [[55.851902566122014, 37.39437103271485], [55.85001146779927, 37.407267093658454], [55.8444701403675, 37.39046573638917]],
         author: 'DJCHKV',
         owner: 'MLKHT'
+    },
+    {
+        name: 'Филёвский парк',
+        year: 1978,
+        url: './maps/moscow/ak/filevsky_park_1978.webp',
+        link: './original_maps/moscow/ak/filevsky_park_1978_omaps.webp',
+        bounds: [[55.755592744550235, 37.47213363647462], [55.752598091038095, 37.49595165252686], [55.74204251944313, 37.468442916870124]],
+        type: ['PARK']
     },
     {
         name: 'Фили-Кунцевский л/п',

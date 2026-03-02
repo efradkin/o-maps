@@ -465,6 +465,13 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, Дружинное оз',
+        year: 1,
+        url: './maps/forest/zelik/zelenogorsk_druzhinnoe_retro.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_druzhinnoe_retro_omaps.webp',
+        bounds: [[60.24879935013485, 29.769430160522464], [60.24013069735259, 29.788613319396976], [60.22922240125491, 29.7315788269043]],
+    },
+    {
+        name: 'Зеленогорск, Дружинное оз',
         year: 1995,
         url: './maps/forest/zelik/zelenogorsk_chertovo_oz_1995.webp',
         link: './original_maps/forest/zelik/zelenogorsk_chertovo_oz_1995_omaps.jpg',

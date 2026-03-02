@@ -33,11 +33,6 @@ let unknownMaps = [
     },
     {
         year: 1,
-        name: 'Зеленогорск, Дружинное оз',
-        link: './original_maps/unknown/unknown_10_omaps.jpg',
-    },
-    {
-        year: 1,
         name: 'Уткино, Бол Вишневское оз',
         link: './original_maps/unknown/unknown_11_omaps.jpg',
     },
@@ -109,13 +104,6 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_33_omaps.jpg',
     },
     {
-        year: 1977,
-        name: 'Москва, Красногорск',
-        info: 'Золотые кольца',
-        link: './original_maps/unknown/unknown_37_omaps.jpg',
-        start: 'WEDDING_MSK'
-    },
-    {
         year: 1,
         info: 'Яппиля',
         link: './original_maps/unknown/unknown_38_omaps.jpg',
@@ -135,13 +123,6 @@ let unknownMaps = [
     },
     {
         year: 1977,
-        name: 'Москва, Кузьминки',
-        info: 'VIII приз телевидения, на перфокарте',
-        link: './original_maps/unknown/unknown_44_omaps.jpg',
-        bounds:[[55.694279, 37.767590]]
-    },
-    {
-        year: 1977,
         name: 'Краснополье?',
         link: './original_maps/unknown/unknown_46_omaps.jpg',
     },
@@ -150,11 +131,6 @@ let unknownMaps = [
         name: 'Лыткарино',
         link: './original_maps/unknown/unknown_49_omaps.jpg',
         bounds:[[55.572438, 37.954017]]
-    },
-    {
-        year: 1978,
-        name: 'Москва, Кунцево',
-        link: './original_maps/unknown/unknown_50_omaps.jpg',
     },
     {
         year: 1,
