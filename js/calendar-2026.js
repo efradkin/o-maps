@@ -380,6 +380,7 @@ let events2026 = [
     o_site: '260228_ChiP',
     type: 'SKI',
     fmt: 'масстарт',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24341/',
     map: 'orekhovo_nyrkovo_winter_2012',
     owner: 'SFSO_SPB'
 },

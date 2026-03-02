@@ -986,6 +986,19 @@ function hideSpinner() {
 
 /*   CALENDAR   */
 
+function buildCalendarGroup() {
+    return L.markerClusterGroup ? L.markerClusterGroup({
+        spiderfyOnMaxZoom: true,
+        showCoverageOnHover: false,
+        zoomToBoundsOnClick: true,
+        removeOutsideVisibleBounds: true,
+        chunkedLoading: true,
+        maxClusterRadius: 10,
+        spiderfyDistanceMultiplier: 2
+        // disableClusteringAtZoom: 12
+    }) : L.layerGroup([]);
+}
+
 function isOutdated(date) {
     const now = new Date();
     return (date < now) && (Math.abs(date - now) > DAY_TIME_RANGE);

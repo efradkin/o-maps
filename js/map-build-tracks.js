@@ -44,7 +44,8 @@ const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-maps</a> 
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
-let calendarGroup = L.markerClusterGroup ? L.markerClusterGroup() : L.layerGroup([]);
+let calendarGroup = buildCalendarGroup();
+let calendarPastGroup = buildCalendarGroup();
 
 let runGroup = L.layerGroup([]);
 let walkGroup = L.layerGroup([]);

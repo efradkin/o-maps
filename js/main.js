@@ -463,6 +463,7 @@ if (mapElement) {
             let checkbox = document.getElementById("calendar-group-check");
             if (checkbox) {
                 checkbox.closest('label').style.display = 'none';
+                document.getElementById("calendar-past-group-check").closest('label').style.display = 'none';
             }
         }
     }
@@ -816,7 +817,7 @@ function createEventMarker(evt, evtMap) {
     const marker = L.marker([mapCoords[0], mapCoords[1]], {icon: cpIcon});
     const popup = buildEventPopup(evt, m);
     marker.bindPopup(popup, {maxWidth: popupWidth});
-    marker.addTo(calendarGroup);
+    marker.addTo(currentDate < now ? calendarPastGroup : calendarGroup);
 }
 
 async function processYearSlider(years, vals) {

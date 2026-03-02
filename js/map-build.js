@@ -46,16 +46,8 @@ const SHOW_ALL_LABEL = 'Показать все ориенты';
 
 let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [];
 
-let calendarGroup = L.markerClusterGroup ? L.markerClusterGroup({
-    spiderfyOnMaxZoom: true,
-    showCoverageOnHover: false,
-    zoomToBoundsOnClick: true,
-    removeOutsideVisibleBounds: true,
-    chunkedLoading: true,
-    maxClusterRadius: 10,
-    spiderfyDistanceMultiplier: 2
-    // disableClusteringAtZoom: 12
-}) : L.layerGroup([]);
+let calendarGroup = buildCalendarGroup();
+let calendarPastGroup = buildCalendarGroup();
 
 let tracksGroup = L.layerGroup([]);
 
@@ -164,7 +156,8 @@ function buildOverlayMapsContents() {
         "<span class='layer-separator' id='funs-group-check'>Необычные</span>": funGroup,
         "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
         "<span class='layer-separator' id='tracks-group-check'>Маршруты</span>": tracksGroup,
-        "<span class='layer-separator' id='calendar-group-check'>Календарь</span>": calendarGroup
+        "<span class='layer-separator' id='calendar-group-check'>Календарь</span>": calendarGroup,
+        "<span class='layer-shifted' id='calendar-past-group-check'>прошлые</span>": calendarPastGroup
     };
 }
 
