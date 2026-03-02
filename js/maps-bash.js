@@ -133,6 +133,7 @@ let bashMaps = [
         url: './maps/bash/dema_north_1980.webp',
         link: './original_maps/bash/dema_north_1980_omaps.jpg',
         bounds: [[54.73408654143435, 55.85959911346436], [54.7269250326727, 55.92229843139649], [54.70300286632571, 55.85093021392823]],
+        start: 'MLTRY_FRCS'
     },
     {
         name: 'Дёма, Чёрное оз',
