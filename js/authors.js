@@ -792,18 +792,22 @@ let authors = {
 
     AFNSV_E: { name: 'Афанасьев Евгений' },
     BBCH_AL: { name: 'Бабич Александр' },
+    BKTSHV_R: { name: 'Бикташев Р.' },
     BRTSHV: { name: 'Братушев М.' },
     CHGLNTSV: { name: 'Чиглинцев Олег' },
     DKNV_A: { name: 'Дьяконов Александр' },
+    DLGNV_M: { name: 'Долганов М.' }, // Р.
     DLMHMTV: { name: 'Дильмухаметов Р.' }, // Р.
     DVTKN_A: { name: 'Девяткин А.' }, // В.
     EKSHV: { name: 'Екишев М.' },
     FDRV_S: { name: 'Фёдоров Сергей' },
     GZTLN: { name: 'Гизатулин Марат' },
     GBDLN: { name: 'Губайдулин С.' },
+    GLSHKV_V: { name: 'Глушков В.' },
     GRSHN_V: { name: 'Грушин В.' },
     ISHMHMDV: { name: 'Ишмухаметов Инсаф' }, // Б.
     ISKNDRV: { name: 'Искандаров Ф.' },
+    LKJNV_V: { name: 'Лукьянов В.' },
     PRHRV_V: { name: 'Прохоров Владимир' },
     PRHRVA_E: { name: 'Прохорова Елена' },
     RHMTLNA: { name: 'Рахматуллина С.' },

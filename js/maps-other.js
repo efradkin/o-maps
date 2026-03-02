@@ -166,6 +166,17 @@ let otherMaps = [
         author: 'SHRNN',
         region: 'KARELIA'
     },
+    // --- Мурманск ---
+    {
+        name: 'Апатиты',
+        year: 1979,
+        url: './maps/other/apatity_1979.webp',
+        link: './original_maps/other/apatity_1979_omaps.webp',
+        info: 'Первая местная цветная карта.',
+        bounds: [[67.61713141141243, 33.232440948486335], [67.60876287386016, 33.325309753417976], [67.57453870590122, 33.20960998535157]],
+        author: 'KUZNTSV_S',
+        region: 'MURMANSK'
+    },
     // --- Оренбург ---
     {
         name: 'парк Ивушка',
@@ -174,7 +185,6 @@ let otherMaps = [
         link: './original_maps/other/ivushka_2025_omaps.jpg',
         bounds: [[51.79770790189836, 55.21902322769166], [51.79648701968797, 55.23048162460328], [51.78966539560376, 55.216641426086426]],
         author: 'STPNV_P',
-        logo: 'orenburg.webp',
         type: ['PARK'],
         region: 'ORENBURG'
     },

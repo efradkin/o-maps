@@ -364,6 +364,7 @@ let events2026 = [
     o_site: '260223_ST',
     reg: 'http://o-reg.spb.ru/?filter[day_id]=1714',
     reskeep: 842,
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24299/',
     photo: ['https://vk.com/album-230167293_312706609'],
     type: 'ORIENT',
     fmt: 'спринт',

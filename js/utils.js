@@ -47,12 +47,17 @@ const regions = {
     MSK: {
         name: 'Москва'
     },
+    MURMANSK: {
+        name: 'Мурманск',
+        logo: 'murmansk.webp'
+    },
     NVRSYSK: {
         name: 'Новороссийск',
         logo: 'novorossiysk.gif'
     },
     ORENBURG: {
-        name: 'Оренбург'
+        name: 'Оренбург',
+        logo: 'orenburg.webp'
     },
     PSKOV: {
         name: 'Псков'

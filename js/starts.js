@@ -483,6 +483,11 @@ let starts = {
         name: '<a href="https://vk.com/club197340171">Клубный Кубок Карелии (ККК)</a>',
         logo: 'kkk.gif',
     },
+    MLTRY_FRCS: {
+        short: 'ВС',
+        name: 'Первенство Вооружённых Сил',
+        logo: 'military_retro.webp',
+    },
     PRZHVLSKY: {
         short: 'Пржевальского',
         name: '<a href="https://vk.com/event205283247">Приз Пржевальского</a>',
