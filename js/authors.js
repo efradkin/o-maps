@@ -135,6 +135,7 @@ let authors = {
         name: 'Гультяев Юрий',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    GNDL_A: { name: 'Гендель Артемий' },
     GRBNTSVA: { name: 'Горбунцова Н.' },
     GRBTNKV: {
         name: 'Горбатенков Игорь',
@@ -237,6 +238,7 @@ let authors = {
     KVLVA_O: { name: 'Ковалёва Ольга' },
     KZHN_L: { name: 'Кожин Леонид' },
     KZKV: { name: 'Казаков' },
+    KZLK: { name: 'Козляк Тимофей' },
     KZMV: { name: 'Козьмов Александр' }, // Николаевич
     LBDKN: { name: 'Лебёдкин Лев' },
     LMVA: { name: 'Ломова Ирина' },
@@ -364,6 +366,7 @@ let authors = {
     SKBLV_A: { name: 'Скоблов А.' },
     SKLVA: { name: 'Соколова С.' },
     SLBDNK: { name: 'Слободянюк Роман' },
+    SLDNKV: { name: 'Солодейников Фёдор' },
     SLKHVA_D: { name: 'Салихова Д.' },
     SLV_J: { name: 'Сулоев Ярослав' },
     SLVVA_M: { name: 'Соловьева Марина' },

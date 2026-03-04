@@ -233,6 +233,8 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_73_omaps.webp',
     },
     {
+        name: 'Новгород, Глебово',
         link: './original_maps/unknown/unknown_74_omaps.webp',
+        bounds: [[58.572653, 31.843187]]
     },
  ];

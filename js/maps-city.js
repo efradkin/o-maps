@@ -1729,6 +1729,19 @@ let cityMaps = [
         owner: 'VYBORG'
     },
     {
+        name: 'РГПУ им Герцена',
+        date: '2023-05-23',
+        url: './maps/city/gertsena_2023.webp',
+        link: ['./original_maps/city/gertsena_2023_omaps.gif','./original_maps/city/gertsena_2023_omaps.pdf'],
+        info: 'Герценовское кольцо.',
+        bounds: [[59.93619318605509, 30.315227508544925], [59.93612868884819, 30.326299667358402], [59.9303879350649, 30.315270423889164]],
+        logo: 'gertsena.gif',
+        author: 'SLDNKV',
+        editor: ['GNDL_A','KZLK'],
+        owner: 'SLDNKV',
+        type: ['CITY']
+    },
+    {
         name: 'Санкт-Петербург (СПб), Дворцовая пл',
         year: 2012,
         url: './maps/city/dvortsovaya_2012.webp',

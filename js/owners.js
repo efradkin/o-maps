@@ -227,6 +227,9 @@ let owners = {
     SHRPVA: {
         name: '© Шарапова Лидия'
     },
+    SLDNKV: {
+        name: 'По вопросам использования карты обращайтесь к Фёдору Солодейникову (+79215555512, <a href="mailto:arbo.les@mail.ru">arbo.les@mail.ru</a>).'
+    },
     STRKZK: {
         name: '© Стрекозайки, 8-911-7546601',
         logo: 'strkzky.jpg',
