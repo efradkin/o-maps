@@ -408,12 +408,15 @@ let funMaps = [
     },
     {
         name: 'Полежаевский парк',
-        year: 2025,
+        year: 2001,
+        startYear: 2025,
+        excluded: true,
         month: 1,
         start: 'RED_SELO_FOTO',
         url: './maps/fun/polezhaevsky_foto_2025.webp',
         link: ['./original_maps/fun/polezhaevsky_foto_2025_omaps.jpg','./original_maps/fun/polezhaevsky_foto_2025_pictures.pdf'],
         bounds: [[59.84679816020103, 30.18032312393189], [59.84556939011643, 30.211329460144047], [59.83326841128922, 30.178198814392093]],
+        author: 'KRCHKN_V',
         type: ['PARK','FOTO']
     },
     {

@@ -35,6 +35,14 @@ let southMaps = [
         author: 'KRCHKN_V'
     },
     {
+        name: 'Ломоносов, Красный пруд',
+        year: 2005,
+        url: './maps/forest/south/lomonosov_2005.webp',
+        link: ['./original_maps/forest/south/lomonosov_2005_omaps.gif','./original_maps/forest/south/lomonosov_2005_omaps.ocd'],
+        bounds: [[59.90428400922183, 29.730291366577152], [59.90183066940671, 29.76603984832764], [59.88187441309164, 29.72458362579346]],
+        author: 'KRCHKN_V'
+    },
+    {
         name: 'Ульяновка, Саблино',
         year: 1992,
         url: './maps/forest/south/sablino_1992.webp',
@@ -388,6 +396,7 @@ let southMaps = [
         name: 'Лебяжье - Борки',
         year: 2010,
         url: './maps/forest/south/lebyazhje_borki_2011.webp',
+        link: './original_maps/forest/south/lebyazhje_borki_2011_omaps.jpg',
         bounds: [[59.95763155393701, 29.44644927978516], [59.955397023083194, 29.48790550231934], [59.94918681445341, 29.4404411315918]],
         author: ['SHRNN','MLNKV_F'],
         owner: 'YUVENTA'

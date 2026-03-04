@@ -417,12 +417,23 @@ let events2026 = [
     cancelled: true
 },
 {
+    id: 'SPB_20260307_2',
+    date: '2026-03-07',
+    place: 'Сестрорецк, Таможенная дорога',
+    name: 'Кубок Белых ночей №8',
+    reg: 'https://orgeo.ru/event/info/50766',
+    type: 'ORIENT',
+    map: 'sestroretsk_tamozhennaya_doroga_2012',
+    owner: 'WN'
+},
+{
     id: 'SPB_20260308_1',
     date: '2026-03-08',
     name: 'Снежная тропа',
     place: 'Пулковский парк',
     o_site: '260308_ST',
     reg: 'http://o-reg.spb.ru/?filter[day_id]=1721',
+    info: 'С лабиринтом и бабочками.',
     type: 'ORIENT',
     fmt: 'спринт',
     map: 'pulkovsky_2024',
@@ -433,6 +444,7 @@ let events2026 = [
     date: '2026-03-08',
     name: 'Ski Adventure',
     place: 'Шапки',
+    reg: 'https://orgeo.ru/event/ski_adventure_2026',
     type: ['ROGAINE','SKI'],
     fmt: '5, 3',
     map: 'shapki_KKM_2020_12',
@@ -635,8 +647,9 @@ let events2026 = [
     date: '2026-05-23',
     name: 'Новгородский исторический рогейн',
     link: 'https://vk.com/wall-91656163_2676',
+    reg: 'https://orgeo.ru/event/info/50670',
     type: 'ROGAINE',
-    fmt: '6, 3',
+    fmt: '5, 2.5',
     owner: 'LM'
 },
 {
@@ -770,6 +783,14 @@ let events2026 = [
     place: 'о Койонсаари',
     type: 'ORIENT',
     map: 'koyonsaari_2024',
+    owner: 'WN'
+},
+{
+    id: 'SPB_20260711_2',
+    date: '2026-07-11',
+    name: 'Былинный рогейн + ориент',
+    o_site: '260711_rog',
+    type: ['ROGAINE','ORIENT'],
     owner: 'WN'
 },
 {

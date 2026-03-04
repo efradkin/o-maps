@@ -292,6 +292,14 @@ let vsevolozhskMaps = [
         owner: 'RYLOV_V'
     },
     {
+        name: 'Ладожское оз, оз Озерко',
+        year: 2007,
+        url: './maps/forest/vsevolozhsk/ozertso_2007.webp',
+        link: './original_maps/forest/vsevolozhsk/ozertso_2007_omaps.jpg',
+        bounds: [[60.147379809848296, 31.04049682617188], [60.14663213131049, 31.056118011474613], [60.136056000054836, 31.03770732879639]],
+        author: 'PKHMV',
+    },
+    {
         name: 'Коккорево, оз Шимполадово',
         url: './maps/forest/vsevolozhsk/kokkorevo_1990.webp',
         link: './original_maps/forest/vsevolozhsk/kokkorevo_1990_omaps.jpg',

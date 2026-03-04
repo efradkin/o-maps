@@ -105,8 +105,8 @@ let zelikMaps = [
         name: 'ДОЛ Солнечный',
         year: 2004, // ?
         url: './maps/forest/zelik/dol_solnechny_2004.webp',
-        link: './original_maps/forest/zelik/dol_solnechny_2004_omaps.jpg',
-        bounds: [[60.189276020994114, 29.50889110565186], [60.18821993247182, 29.520950317382812], [60.18119981408328, 29.506766796112064]],
+        link: ['./original_maps/forest/zelik/dol_solnechny_2004_omaps.jpg','./original_maps/forest/zelik/dol_solnechny_2004_omaps.gif','./original_maps/forest/zelik/dol_solnechny_2004_omaps.ocd'],
+        bounds: [[60.1959744579324, 29.511015415191654], [60.19432130835753, 29.53633546829224], [60.1809223925605, 29.507067203521732]],
         author: 'FDRV_L'
     },
     {
@@ -120,9 +120,9 @@ let zelikMaps = [
     },
     {
         name: 'Молодёжное',
-        year: 2004,
+        year: 2005,
         url: './maps/forest/zelik/molodezhnoe_2004.webp',
-        link: './original_maps/forest/zelik/molodezhnoe_2004_omaps.jpg',
+        link: ['./original_maps/forest/zelik/molodezhnoe_2004_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2005_omaps.ocd'],
         bounds: [[60.23273816668364, 29.503955841064457], [60.228774913143845, 29.541463851928714], [60.21274654984367, 29.49730396270752]],
         author: 'FDRV_L'
     },
@@ -597,6 +597,13 @@ let zelikMaps = [
         author: ['SHRNN','FDRV_L']
     },
     {
+        name: 'Зеленогорск, Комаровский берег',
+        year: 2012,
+        url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg_2012.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_komarovsky_bereg_2012_omaps.webp',
+        bounds: [[60.18798524151971, 29.780459403991703], [60.18635302621808, 29.80451345443726], [60.17743308330735, 29.777841567993168]],
+    },
+    {
         name: 'Комарово',
         year: 2013,
         url: './maps/forest/zelik/komarovo_2013.webp',
@@ -618,7 +625,7 @@ let zelikMaps = [
         name: 'Рощино',
         year: 2009,
         url: './maps/forest/zelik/roschino_2009.webp',
-        link: './original_maps/forest/zelik/roschino_2009_omaps.jpg',
+        link: ['./original_maps/forest/zelik/roschino_2009_omaps.jpg','./original_maps/forest/zelik/roschino_2009_omaps.ocd'],
         bounds: [[60.27634488928318, 29.564423561096195], [60.27542991526678, 29.601931571960453], [60.263298771665085, 29.562621116638187]],
         author: ['VSLVSKY','DRBSHV']
     },
@@ -696,6 +703,14 @@ let zelikMaps = [
         bounds: [[60.22357507955077, 29.56154823303223], [60.216328034176136, 29.63192939758301], [60.19760619488179, 29.550390243530277]],
         author: 'RDNV_I',
         owner: 'RDNV_I'
+    },
+    {
+        name: 'Серово',
+        year: 2006,
+        url: './maps/forest/zelik/serovo_2006.webp',
+        link: ['./original_maps/forest/zelik/serovo_2006_omaps.gif','./original_maps/forest/zelik/serovo_2006_omaps.ocd'],
+        bounds: [[60.20462280555932, 29.542772769927982], [60.204569493506334, 29.5543384552002], [60.20009097177034, 29.542922973632816]],
+        author: 'FDRV_L',
     },
     {
         name: 'Белоостров',
@@ -937,6 +952,14 @@ let zelikMaps = [
         zindex: 2
     },
     {
+        name: 'Молодёжное, ДОЛ Маяк',
+        year: 2013,
+        url: './maps/forest/zelik/molodezhnoe_mayak_2013.webp',
+        link: ['./original_maps/forest/zelik/molodezhnoe_mayak_2013_omaps.gif','./original_maps/forest/zelik/molodezhnoe_mayak_2013_omaps.ocd'],
+        bounds: [[60.206861833557305, 29.528245925903324], [60.2077787247283, 29.538695812225345], [60.20236229847656, 29.530348777771]],
+        type: ['CITY']
+    },
+    {
         name: 'Молодёжное, Марьина гора',
         year: 2024,
         url: './maps/forest/zelik/molodezhnoe_2024.webp',
@@ -949,7 +972,7 @@ let zelikMaps = [
         name: 'Молодёжное, Марьина гора',
         year: 2003,
         url: './maps/forest/zelik/molodezhnoe_2003.webp',
-        link: ['./original_maps/forest/zelik/molodezhnoe_2003_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_02_20_omaps.jpg'],
+        link: ['./original_maps/forest/zelik/molodezhnoe_2003_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_02_20_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_omaps.ocd'],
         bounds: [[60.203002080434125, 29.531786441802982], [60.20167985063764, 29.54835176467896], [60.19703029698733, 29.530413150787357]],
         author: ['SHKLV','FDRV_L'], //Возможны соавторы
     },

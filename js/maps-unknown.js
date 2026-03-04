@@ -232,4 +232,7 @@ let unknownMaps = [
         year: 1,
         link: './original_maps/unknown/unknown_73_omaps.webp',
     },
+    {
+        link: './original_maps/unknown/unknown_74_omaps.webp',
+    },
  ];

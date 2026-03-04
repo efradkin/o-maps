@@ -169,7 +169,7 @@ let parkMaps = [
         name: 'Полежаевский парк',
         year: 2001,
         url: './maps/parks/polezhaevsky_2001.webp',
-        link: './original_maps/parks/polezhaevsky_2001_omaps.jpg',
+        link: ['./original_maps/parks/polezhaevsky_2001_omaps.jpg','./original_maps/parks/polezhaevsky_2001_omaps.ocd'],
         bounds: [[59.84684127411712, 30.180387496948246], [59.84563406335706, 30.21124362945557], [59.833343891273, 30.17807006835938]],
         author: 'KRCHKN_V',
         type: ['PARK']
@@ -782,7 +782,7 @@ let parkMaps = [
         name: 'Куракина дача',
         year: 2017,
         url: './maps/parks/kurakina_dacha_2017.webp',
-        link: './original_maps/parks/kurakina_dacha_2017_omaps.jpg',
+        link: ['./original_maps/parks/kurakina_dacha_2017_omaps.jpg','./original_maps/parks/kurakina_dacha_2017_omaps.ocd'],
         bounds: [[59.87665194712237, 30.448544025421146], [59.87569350859724, 30.460066795349125], [59.86858512468797, 30.445539951324466]],
         type: ['PARK'],
         author: 'DRBSHV',
@@ -835,6 +835,13 @@ let parkMaps = [
         bounds: [[59.93024816649769, 30.452105998992923], [59.928850448435995, 30.473091602325443], [59.9221835982304, 30.449767112731937]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
+        type: ['PARK']
+    },
+    {
+        name: 'Яблоновский сад, курган',
+        url: './maps/parks/yablonovsky_sad_kurgan.webp',
+        link: ['./original_maps/parks/yablonovsky_sad_kurgan_omaps.gif','./original_maps/parks/yablonovsky_sad_kurgan_omaps.ocd'],
+        bounds: [[59.92855476976107, 30.45668721199036], [59.92785588241714, 30.46891808509827], [59.92388807368502, 30.455292463302616]],
         type: ['PARK']
     },
     {
@@ -1207,6 +1214,15 @@ let parkMaps = [
         type: ['PARK']
     },
     {
+        name: 'Сестрорецкий рубеж',
+        year: 2013,
+        url: './maps/parks/sestroretsk_2013.webp',
+        link: './original_maps/parks/sestroretsk_2013_omaps.jpg',
+        bounds: [[60.11645446300098, 29.971368312835697], [60.11624064142777, 29.982955455780033], [60.10929068433773, 29.967098236083988]],
+        author: 'DRBSHV',
+        type: ['PARK']
+    },
+    {
         name: 'сквер Пограничников',
         year: 2020,
         url: './maps/parks/sestroretsk_skver_pogranichnikov_2020.webp',
@@ -1436,6 +1452,23 @@ let parkMaps = [
         bounds: [[59.91496683629783, 30.47916412353516], [59.914568846991216, 30.49088001251221], [59.907264358045, 30.478713512420658]],
         author: 'DRBSHV',
         start: 'ST',
+        type: ['PARK']
+    },
+    {
+        name: 'парк Строителей',
+        url: './maps/parks/stroiteley_park.webp',
+        link: ['./original_maps/parks/stroiteley_park_omaps.gif','./original_maps/parks/stroiteley_park_omaps.ocd'],
+        bounds: [[59.90992707881959, 30.462749004364017], [59.91175051590873, 30.47046303749085], [59.907614020427374, 30.464830398559574]],
+        author: 'DRBSHV',
+        type: ['PARK']
+    },
+    {
+        name: 'парк Строителей, сквер Петровской церкви',
+        year: 2020,
+        url: './maps/parks/stroiteley_church_2020_park.webp',
+        link: ['./original_maps/parks/stroiteley_church_2020_park_omaps.gif','./original_maps/parks/stroiteley_church_2020_park_omaps.ocd'],
+        bounds: [[59.909867909566806, 30.450818538665775], [59.90988942567092, 30.464798212051395], [59.90501567197385, 30.4507327079773]],
+        author: 'DRBSHV',
         type: ['PARK']
     },
     {

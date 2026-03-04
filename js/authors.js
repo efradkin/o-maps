@@ -254,7 +254,7 @@ let authors = {
     MDVDKN: { name: 'Медведкин Г.' },
     MKHLV_A: { name: 'Михайлов Александр' },
     MKHLV_A_M: { name: 'Михайлов А.М.' },
-    MKSHN_A: { name: 'Микшин А.' },
+    MKSHN_A: { name: 'Микшин А.' }, // В.
     MKHLV_B: {
         name: 'Михайлов Борис',
         about: 'https://o-site.spb.ru/history/Peoples/bam.html'
@@ -309,7 +309,7 @@ let authors = {
         logo: 'ovchnkv.jpg'
     },
     OZRV: { name: 'Озеров А.' },
-    PKHMV: { name: 'Пахомов Сергей' },
+    PKHMV: { name: 'Пахомов Сергей' }, // П.
     PLBTKO: { name: 'Полуботко А.' },
     PLMNN: { name: 'Пульманен П.' },
     PPV_D: { name: 'Попов Дмитрий' },

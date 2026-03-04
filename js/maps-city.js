@@ -120,6 +120,18 @@ let cityMaps = [
         type: ['CITY', 'PARK']
     },
     {
+        name: 'Колтуши',
+        year: 2009,
+        startYear: 2012,
+        url: './maps/city/koltushi_2009.webp',
+        link: './original_maps/city/koltushi_2009_omaps.webp',
+        info: 'Российский Азимут.',
+        o_site: '120520',
+        bounds: [[59.94157826034501, 30.643765926361088], [59.94021326437332, 30.66219806671143], [59.934387216848364, 30.64196348190308]],
+        author: 'DRBSHV',
+        type: ['CITY', 'PARK']
+    },
+    {
         name: 'Лицей №126',
         year: 2009,
         url: './maps/city/school_126_2012.webp',
@@ -1592,6 +1604,24 @@ let cityMaps = [
         type: ['CITY']
     },
     {
+        name: 'ул Новоселов, ПДДТ',
+        year: 2021,
+        url: './maps/city/novoselov_pddt_2021.webp',
+        link: ['./original_maps/city/novoselov_pddt_2021_omaps.gif','./original_maps/city/novoselov_pddt_2021_omaps.ocd'],
+        bounds: [[59.88808646373915, 30.480784177780155], [59.88804340326015, 30.489528179168705], [59.88474911119819, 30.480816364288334]],
+        author: 'DRBSHV',
+        type: ['CITY']
+    },
+    {
+        name: 'Народная ул, шк №627',
+        year: 2020,
+        url: './maps/city/school_627_2020.webp',
+        link: ['./original_maps/city/school_627_2020_omaps.gif','./original_maps/city/school_627_2020_omaps.ocd'],
+        bounds: [[59.885847244837834, 30.452824831008915], [59.88430769431478, 30.47043085098267], [59.879295586566926, 30.45071125030518]],
+        author: 'DRBSHV',
+        type: ['CITY']
+    },
+    {
         name: 'Луга, Толмачёво - СОЛ "Красногвардеец"',
         year: 2024,
         url: './maps/city/luga_krasnogvardeets_2024.webp',
@@ -1726,6 +1756,15 @@ let cityMaps = [
         author: 'DRBSHV',
         owner: 'VSLVSKY',
         type: ['CITY']
+    },
+    {
+        name: 'Кудрово, р Оккервиль',
+        year: 2017,
+        url: './maps/city/kudrovo_okkervil_2017.webp',
+        link: ['./original_maps/city/kudrovo_okkervil_2017_omaps.gif','./original_maps/city/kudrovo_okkervil_2017_omaps.ocd'],
+        bounds: [[59.91608548338666, 30.507767200469974], [59.9145473339198, 30.524525642395023], [59.91050262877675, 30.50514936447144]],
+        author: ['DRBSHV','FDRV_L','MKSHN_A'],
+        type: ['PARK']
     },
     {
         name: 'Шлиссельбург',
@@ -1985,11 +2024,21 @@ let cityMaps = [
         type: ['CITY']
     },
     {
+        name: 'Молодёжное, ДОЛ Заря, ГОУ Балтийский Берег',
+        year: 2012,
+        url: './maps/city/molodezhnoe_zarya_2012.webp',
+        link: ['./original_maps/city/molodezhnoe_zarya_2012_omaps.gif','./original_maps/city/molodezhnoe_zarya_2012_omaps.ocd'],
+        info: 'Слёт школьных спортивных клубов. Игра на местности.',
+        bounds: [[60.19251874715449, 29.515779018402103], [60.1928920667742, 29.521508216857914], [60.185478210760756, 29.51534986495972]],
+        author: 'FDRV_L',
+        type: ['CITY']
+    },
+    {
         name: 'ДООЛ Солнечный',
         year: 2023,
         url: './maps/city/dool_solnechny_2023.webp',
         link: ['./original_maps/city/dool_solnechny_2023_omaps.jpg','./original_maps/city/dool_solnechny_square_2023_omaps.jpg'],
-        info: '<a href="https://vk.com/wall-135156716_2251">Карта решений Trail-O</a>',
+        info: '<a href="https://vk.com/wall-135156716_2251">Карта решений Trail-O</a>.',
         bounds: [[60.19223075483243, 29.506530761718754], [60.19184676113904, 29.51359033584595], [60.18739850679926, 29.505672454833988]],
         author: ['FDRV_L','BBCH_A'],
         owner: 'IMPULS',
@@ -2026,7 +2075,7 @@ let cityMaps = [
     {
         name: 'Балтийский Берег',
         url: './maps/city/balt_bereg.webp',
-        link: './original_maps/city/balt_bereg_omaps.jpg',
+        link: ['./original_maps/city/balt_bereg_omaps.jpg','./original_maps/city/balt_bereg_2_omaps.jpg'],
         info: '<a href="https://vk.com/wall-135156716_1808">Карта решений Trail-O</a>',
         bounds: [[59.91989290342047, 30.358357429504398], [59.91991441302732, 30.36054611206055], [59.918709853574285, 30.358357429504398]],
         owner: 'BBCH_A',
