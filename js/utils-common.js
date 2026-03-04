@@ -170,3 +170,26 @@ function countEntries(o) {
 function isNull(o) {
     return typeof o === 'undefined' || o === undefined || o === null;
 }
+
+function getTimeOfDay() {
+    const currentHour = new Date().getHours();
+
+    if (currentHour >= 6 && currentHour < 11) {
+        return 'MORNING';
+    } else if (currentHour >= 11 && currentHour < 18) {
+        return 'DAY';
+    } else if (currentHour >= 18 && currentHour < 22) {
+        return 'EVENING';
+    } else {
+        return 'NIGHT';
+    }
+}
+
+function getGreeting() {
+    switch (getTimeOfDay()) {
+        case 'MORNING': return 'Доброе утро!';
+        case 'DAY': return 'Добрый день!';
+        case 'EVENING': return 'Добрый вечер!';
+        default: return 'Доброй ночи!';
+    }
+}

@@ -2,7 +2,7 @@ const slidePopupContent = `
     <div id="slidePopup" class="slide-popup" data-from="left" data-corner="top-left" data-offset="20" data-show-delay="2000" data-auto-hide="17000">
         <button class="slide-popup__close" type="button" aria-label="Закрыть">×</button>
         <div class="slide-popup__content">
-            <h3>⚠️ Внимание! ⚠️</h3>
+            <h3></h3>
             <span></span>
         </div>
     </div>
@@ -88,8 +88,10 @@ document.body.appendChild(slidePopupEl);
         if (e.key === "Escape") hide();
     });
 
-    const contentEl = popupEl.querySelector(".slide-popup__content span");
-    contentEl.innerHTML = popupMessage;
+    const headerEl = popupEl.querySelector(".slide-popup__content h3");
+    headerEl.innerHTML = getGreeting();
+    const messageEl = popupEl.querySelector(".slide-popup__content span");
+    messageEl.innerHTML = popupMessage;
 
     // Старт
     if (prefersReduced) {
