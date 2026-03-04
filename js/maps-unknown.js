@@ -139,11 +139,6 @@ let unknownMaps = [
     },
     {
         year: 1,
-        name: 'Москва, Зосимова Пустынь',
-        link: './original_maps/unknown/unknown_52_omaps.jpg',
-    },
-    {
-        year: 1,
         name: 'МО, Фрязево',
         link: './original_maps/unknown/unknown_53_omaps.jpg',
     },
