@@ -223,10 +223,14 @@ let unknownMaps = [
         name: 'Сярьги, Охта-Парк',
         link: './original_maps/unknown/unknown_72_omaps.webp',
     },
+/*
     {
         year: 1,
+        name: 'Украина, Сумы',
         link: './original_maps/unknown/unknown_73_omaps.webp',
+        bounds: [[51.075671944531734, 34.88873142688256]]
     },
+*/
     {
         name: 'Новгород, Глебово',
         link: './original_maps/unknown/unknown_74_omaps.webp',

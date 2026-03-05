@@ -120,6 +120,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/koloskovo_1998.webp',
         link: './original_maps/forest/sosnovo/koloskovo_1998_omaps.jpg',
         bounds: [[60.6301017662667, 30.169658660888675], [60.62509203460731, 30.244503021240238], [60.604539783918085, 30.16227722167969]],
+        results: './docs/1998/1998_06_19_wn_omaps.pdf',
         author: ['KAZNTSVA_O','MLVA_M']
     },
     {
@@ -130,6 +131,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_1998.webp',
         link: './original_maps/forest/sosnovo/sosnovo_ulovnoe_1998_omaps.jpg',
         bounds: [[60.60816264725311, 30.20720958709717], [60.604434462040935, 30.260295867919925], [60.58871658691616, 30.200514793396]],
+        results: './docs/1998/1998_06_19_wn_omaps.pdf',
         author: ['KAZNTSVA_O','MLVA_M']
     },
     {

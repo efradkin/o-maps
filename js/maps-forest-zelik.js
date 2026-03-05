@@ -602,6 +602,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg_2012.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovsky_bereg_2012_omaps.webp',
         bounds: [[60.18798524151971, 29.780459403991703], [60.18635302621808, 29.80451345443726], [60.17743308330735, 29.777841567993168]],
+        author: 'DRBSHV'
     },
     {
         name: 'Комарово',

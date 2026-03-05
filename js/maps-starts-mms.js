@@ -6,6 +6,7 @@ let mmsStartsMaps = [
         date: '1996-06-29',
         url: './maps/starts/mms/mms_1996_06_29.webp',
         link: './original_maps/starts/mms/mms_1996_06_29.jpg',
+        results: './docs/1996/1999_06_29_svyatkina_omaps.pdf',
         bounds: [[60.6278706373631, 29.910192489624027], [60.62412367739534, 29.956712722778324], [60.60314950746827, 29.90160942077637]],
         author: 'BYMKV',
         planner: 'TLNV_A'
@@ -16,6 +17,7 @@ let mmsStartsMaps = [
         date: '1996-06-30',
         url: './maps/starts/mms/mms_1996_06_30.webp',
         link: './original_maps/starts/mms/mms_1996_06_30.jpg',
+        results: './docs/1996/1999_06_29_svyatkina_omaps.pdf',
         bounds: [[60.63666796681373, 29.948258399963382], [60.630564811411745, 30.02769470214844], [60.61243794534338, 29.938945770263675]],
         author: 'BYMKV',
         planner: 'TLNV_A'

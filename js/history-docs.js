@@ -412,15 +412,33 @@ let historyDocs = [
         me: 'М-13'
     },
     {
+        name: 'Юный спартаковец, маркир (Охтинский л/п)',
+        date: '1985-11-10',
+        map: 'rzhevsky_1981',
+        link: './docs/1985/1985_11_10_young_spartak_omaps.pdf',
+        me: 'М-10'
+    },
+    {
         name: 'Буклет карт для спортивного ориентирования (Горький)',
         year: 1986,
         link: './docs/1986/1986_gorky_maps.pdf',
+    },
+    {
+        name: 'Зимняя Спартакиада (Энколово)',
+        date: '1986-01-11',
+        link: './docs/1986/1986_01_11_spartakiada_omaps.pdf',
+        info: '11-12 января.',
     },
     {
         name: 'Бро-бег (Кузьмолово)',
         date: '1986-04-13',
         link: './docs/1986/1986_04_13_brobeg_omaps.pdf',
         me: 'М-9'
+    },
+    {
+        name: 'Летняя спартакиада (69км)',
+        date: '1986-06-07',
+        link: './docs/1986/1986_06_07_spartakiada_omaps.pdf',
     },
     {
         name: 'Приз Ленинградского телевидения (Песочное)',
@@ -1132,6 +1150,51 @@ let historyDocs = [
         link: './docs/1990/1990_nevsky_azimuth_magazine_omaps.pdf',
     },
     {
+        name: 'Кубок Ленинграда, маркир (Васкелово)',
+        date: '1990-01-20',
+        link: './docs/1990/1990_01_20_leningrad_cup_omaps.pdf',
+        planner: 'VLKV_A',
+        partly: true,
+        me: 'МБ'
+    },
+    {
+        name: 'Кубок Ленинграда (Лемболово)',
+        date: '1990-01-21',
+        link: './docs/1990/1990_01_21_leningrad_cup_omaps.pdf',
+        planner: 'SHVR',
+        me: 'МБ'
+    },
+    {
+        name: 'Зимний чемпионат Ленинграда, маркир (Васкелово)',
+        date: '1990-02-17',
+        link: './docs/1990/1990_02_17_leningrad_omaps.pdf',
+        planner: 'VLKV_A',
+        partly: true,
+        me: 'HB'
+    },
+    {
+        name: 'Зимний чемпионат Ленинграда (Васкелово)',
+        date: '1990-02-18',
+        link: './docs/1990/1990_02_18_leningrad_omaps.pdf',
+        planner: 'VLKV_A',
+        partly: true,
+        me: 'HB'
+    },
+    {
+        name: 'Зимний чемпионат Ленинграда (Васкелово)',
+        date: '1990-02-24',
+        link: './docs/1990/1990_02_24_leningrad_omaps.pdf',
+        planner: 'VLKV_A',
+        me: 'HB'
+    },
+    {
+        name: 'Зимний чемпионат Ленинграда, эстафета 3х (Васкелово)',
+        date: '1990-02-25',
+        link: './docs/1990/1990_02_25_relay_omaps.pdf',
+        planner: 'VLKV_A',
+        me: 'М21'
+    },
+    {
         name: 'Бро-бег (Кузьмолово)',
         date: '1990-04-08',
         link: './docs/1990/1990_04_08_brobeg_omaps.pdf'
@@ -1177,6 +1240,14 @@ let historyDocs = [
         link: './docs/1990/1990_09_15_leningrad_omaps.pdf',
         planner: 'LVCHV',
         me: 'М-15'
+    },
+    {
+        name: 'П-во Ленинграда среди ветеранов (Лесколово)',
+        date: '1990-09-09',
+        link: './docs/1990/1990_09_09_masters_omaps.pdf',
+        planner: 'FDRV_L',
+        partly: true,
+        me: 'МБ'
     },
     {
         name: 'Чемпионат Ленинграда (69км)',
@@ -1246,6 +1317,12 @@ let historyDocs = [
         link: './docs/1990/1990_12_23_open_omaps.pdf',
         planner: 'RYLOV_V',
         me: 'МБ'
+    },
+    {
+        name: 'Новогодняя эстафета (Всеволожск)',
+        date: '1990-12-30',
+        link: './docs/1990/1990_12_30_new_year_omaps.pdf',
+        me: 'МВ'
     },
     {
         name: 'Журнал "Невский Азимут" №2',
@@ -1763,6 +1840,15 @@ let historyDocs = [
         start: 'WN'
     },
     {
+        name: 'Мемориал Михаила Святкина (Ягодное)',
+        date: '1996-06-29',
+        link: './docs/1996/1999_06_29_svyatkina_omaps.pdf',
+        info: '29-30 июня.',
+        partly: true,
+        start: 'MMS',
+        map: ['mms_1996_06_29','mms_1996_06_30']
+    },
+    {
         name: 'ЧиП СПб, удлинённая дистанция (Ильичёво)',
         date: '1996-09-29',
         link: './docs/1996/1996_09_29_spb_omaps.pdf',
@@ -1771,6 +1857,31 @@ let historyDocs = [
         name: 'ЧиП СПб, П-во ветеранов (Лемболово)',
         date: '1998-06-06',
         link: './docs/1998/1998_06_06_spb_omaps.pdf',
+    },
+    {
+        name: 'Яркий Мир, Невский Азимут (Сосново)',
+        date: '1998-06-12',
+        link: './docs/1998/1998_06_12_ym_na_omaps.pdf',
+        info: '12-14 июня.',
+        start: ['YM','NA'],
+    },
+    {
+        name: 'Белые Ночи (Колосково)',
+        date: '1998-06-19',
+        link: './docs/1998/1998_06_19_wn_omaps.pdf',
+        info: '19-21 июня.',
+        partly: true,
+        start: 'WN',
+        map: ['koloskovo_1998','sosnovo_ulovnoe_1998']
+    },
+    {
+        name: 'Мемориал Михаила Святкина (Кузнечное, Богатыри)',
+        date: '1998-06-27',
+        link: './docs/1998/1998_06_27_svyatkina_omaps.pdf',
+        info: '27-28 июня.',
+        partly: true,
+        start: 'MMS',
+        map: 'mms_1998_06'
     },
     {
         name: 'Зелёный змей (Юкки)',
