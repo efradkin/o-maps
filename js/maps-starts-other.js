@@ -112,6 +112,18 @@ let otherStartsMaps = [
         bounds: [[60.54250897743518, 30.23574829101563], [60.53968080947751, 30.292267799377445], [60.50912506848012, 30.228023529052738]],
         author: 'TRSV'
     },
+    {
+        name: 'Токсово',
+        page: 'starts',
+        start: 'REPORT',
+        date: '1995-09-17',
+        url: './maps/starts/other/toksovo_1995_09_17.webp',
+        link: ['./original_maps/starts/other/toksovo_1995_09_17_h10_omaps.webp','./original_maps/starts/other/toksovo_1995_09_17_h17_omaps.webp'],
+        info: 'Открытое п-во ГО Молодёжное.',
+        results: './docs/1995/1995_09_17_molodezhnoe_omaps.pdf',
+        bounds: [[60.16305578079708, 30.472812652587894], [60.16038669531834, 30.512638092041016], [60.146867117825636, 30.46890735626221]],
+        author: 'CHGRVSKY_Y'
+    },
 
     /* --- Рогейн --- */
 

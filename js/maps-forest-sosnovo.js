@@ -142,6 +142,7 @@ let sosnovoMaps = [
         page: 'spb',
         url: './maps/forest/sosnovo/zamostie_1989.webp',
         link: './original_maps/forest/sosnovo/zamostie_1989_omaps.jpg',
+        results: './docs/1990/1990_06_24_wn_omaps.pdf',
         bounds: [[60.54651864267247, 30.3178882598877], [60.54360640888423, 30.36423683166504], [60.51603272298398, 30.311708450317386]],
         author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S','KUOKNN_M']
     },
@@ -470,6 +471,7 @@ let sosnovoMaps = [
         page: 'spb',
         url: './maps/forest/sosnovo/petjajarvy_1997.webp',
         link: ['./original_maps/forest/sosnovo/petjajarvy_1997_omaps.jpg','./original_maps/forest/sosnovo/petjajarvy_wn_1997.jpg'],
+        results: './docs/1997/1997_06_20_wn_omaps.pdf',
         bounds: [[60.634921319659725, 30.012931823730472], [60.63241692549768, 30.06588935852051], [60.616691620658365, 30.008082389831547]],
         author: ['LVCHV','SVTKN','KAZNTSVA_O']
     },

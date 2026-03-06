@@ -1150,6 +1150,14 @@ let historyDocs = [
         link: './docs/1990/1990_nevsky_azimuth_magazine_omaps.pdf',
     },
     {
+        name: 'Зимний чемпионат ЛОС ДФСОП (Кавголово)',
+        date: '1990-01-14',
+        link: './docs/1990/1990_01_14_los_dfsop_omaps.pdf',
+        planner: 'SHVR',
+        partly: true,
+        me: 'М-17'
+    },
+    {
         name: 'Кубок Ленинграда, маркир (Васкелово)',
         date: '1990-01-20',
         link: './docs/1990/1990_01_20_leningrad_cup_omaps.pdf',
@@ -1214,6 +1222,14 @@ let historyDocs = [
         info: '30 апреля - 2 мая.',
     },
     {
+        name: 'Приз открытия сезока клуба Азимут (Юкки)',
+        date: '1990-05-09',
+        link: './docs/1990/1990_05_09_open_omaps.pdf',
+        planner: 'SHLKHN_Y',
+        partly: true,
+        me: 'М-15'
+    },
+    {
         name: 'Приз Ленинградского телевидения (Сосновка)',
         date: '1990-05-20',
         link: './docs/1990/1990_05_20_tv_omaps.pdf',
@@ -1227,6 +1243,26 @@ let historyDocs = [
         start: 'ORIENTIR',
         link: './docs/1990/1990_06_06_yukki_omaps.pdf',
         me: 'МА'
+    },
+    {
+        name: 'Невский Азимут (Мичуринское)',
+        date: '1990-06-16',
+        link: './docs/1990/1990_06_16_nevsky_azimut_omaps.pdf',
+        info: '16-18 июня.',
+        planner: ['NKFRV_A','FDRV_L','SHLKHN_Y'],
+        start: 'NA',
+        partly: true,
+        me: 'М15'
+    },
+    {
+        name: 'Белые Ночи (Замостье)',
+        date: '1990-06-22',
+        info: '22-24 июня.',
+        link: './docs/1990/1990_06_24_wn_omaps.pdf',
+        start: 'WN',
+        partly: true,
+        map: 'zamostie_1989',
+        me: 'H15B'
     },
     {
         name: 'Зелёный змей (Лемболово)',
@@ -1283,6 +1319,12 @@ let historyDocs = [
         link: './docs/1990/1990_10_13_night_lembolovo_omaps.pdf',
         planner: 'FDRV_L',
         me: 'МБ'
+    },
+    {
+        name: 'Свадебные-90 (Лемболово)',
+        date: '1990-10-14',
+        link: './docs/1990/1990_10_14_wedding_omaps.pdf',
+        start: 'WEDDING'
     },
     {
         name: 'Ориентир-27 (Зеленогорск)',
@@ -1810,10 +1852,29 @@ let historyDocs = [
         me: 'H21',
     },
     {
+        name: 'Чемпионат С-Петербурга (Лемболово)',
+        date: '1995-06-10',
+        link: './docs/1995/1995_06_10_spb_omaps.pdf',
+        info: '10-12 июня.',
+        partly: true,
+        me: 'М21E'
+    },
+    {
         name: 'Зелёный змей (Осельки)',
         date: '1995-09-03',
         link: './docs/1995/1995_09_03_green_snake_omaps.pdf',
         start: 'GS',
+    },
+    {
+        name: 'Открытое п-во ГО Молодёжное (Токсово)',
+        date: '1995-09-17',
+        link: './docs/1995/1995_09_17_molodezhnoe_omaps.pdf',
+        map: 'toksovo_1995_09_17'
+    },
+    {
+        name: 'Новогодняя эстафета (Гатчина)',
+        date: '1995-12-31',
+        link: './docs/1995/1995_12_31_ny_relay_omaps.pdf',
     },
     {
         name: 'Плакат с чемпионами России',
@@ -1830,6 +1891,28 @@ let historyDocs = [
         name: 'Календарь соревнований ЛО',
         year: 1996,
         link: './docs/1996/1996_calendar_lo_omaps.pdf',
+    },
+    {
+        name: 'Лично-командное п-во России (Зеленогорск)',
+        date: '1996-01-26',
+        link: './docs/1996/1996_01_26_russia_omaps.pdf',
+        info: '26-28 января.',
+        major: true
+    },
+    {
+        name: 'Молодёжное п-во России (Ягодное)',
+        date: '1996-05-23',
+        link: './docs/1996/1996_05_23_russia_omaps.pdf',
+        info: '23-25 мая.',
+        major: true
+    },
+    {
+        name: 'Невский Азимут (Мичуринское)',
+        date: '1996-06-15',
+        link: './docs/1996/1996_06_15_na_omaps.pdf',
+        info: '15-17 июня.',
+        start: 'NA',
+        partly: true
     },
     {
         name: 'Белые Ночи (Петяярви)',
@@ -1852,6 +1935,42 @@ let historyDocs = [
         name: 'ЧиП СПб, удлинённая дистанция (Ильичёво)',
         date: '1996-09-29',
         link: './docs/1996/1996_09_29_spb_omaps.pdf',
+    },
+    {
+        name: 'Невский Азимут (Ильичёво)',
+        date: '1997-06-12',
+        link: './docs/1997/1997_06_12_na_omaps.pdf',
+        info: '12-14 июня.',
+        start: 'NA',
+        map: 'na_1997_06_13',
+        partly: true
+    },
+    {
+        name: 'Белые Ночи (Петяярви)',
+        date: '1997-06-20',
+        link: './docs/1997/1997_06_20_wn_omaps.pdf',
+        info: '20-22 июня.',
+        partly: true,
+        start: 'WN',
+        map: 'petjajarvy_1997'
+    },
+    {
+        name: 'Зелёный змей (Лемболово)',
+        date: '1997-08-31',
+        link: './docs/1997/1997_08_31_green_snake_omaps.pdf',
+        start: 'GS',
+    },
+    {
+        name: 'ЧиП СПб, спринт (Можайское)',
+        date: '1997-09-27',
+        link: './docs/1997/1997_09_27_spb_omaps.pdf',
+        partly: true
+    },
+    {
+        name: 'ЧиП СПб, удлинённая дистанция (Ольгино)',
+        date: '1997-09-28',
+        link: './docs/1997/1997_09_28_spb_omaps.pdf',
+        partly: true
     },
     {
         name: 'ЧиП СПб, П-во ветеранов (Лемболово)',
