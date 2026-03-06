@@ -125,8 +125,6 @@ if (mapElement) {
     setActiveBackground();
     if (START_NAME_PARAM) {
         switch (START_NAME_PARAM) {
-            case 'OTHER':
-            case 'REPORT': activeLayers.push(otherGroup); break;
             case 'SCHOOL': activeLayers.push(schoolGroup); break;
             case 'WN': activeLayers.push(wnGroup); break;
             case 'ORIENTIR': activeLayers.push(orientirGroup); break;
@@ -147,6 +145,7 @@ if (mapElement) {
             case 'MB': activeLayers.push(mbGroup); break;
             case 'TA':
             case 'BA': activeLayers.push(baGroup); break;
+            default: activeLayers.push(otherGroup);
         }
     } else {
         activeLayers.push(
@@ -212,8 +211,6 @@ function allocateMap(m) {
 
 function pushStartGroupToMap(start, m) {
     switch (start) {
-        case 'OTHER':
-        case 'REPORT': pushGroupToMap(m, otherGroup); break;
         case 'SCHOOL': pushGroupToMap(m, schoolGroup); break;
         case 'WN': pushGroupToMap(m, wnGroup); break;
         case 'ORIENTIR': pushGroupToMap(m, orientirGroup); break;
@@ -234,6 +231,7 @@ function pushStartGroupToMap(start, m) {
         case 'MB': pushGroupToMap(m, mbGroup); break;
         case 'TA':
         case 'BA': pushGroupToMap(m, baGroup); break;
+        default: pushGroupToMap(m, otherGroup);
     }
 }
 
