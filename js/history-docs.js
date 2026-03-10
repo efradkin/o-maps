@@ -205,6 +205,12 @@ let historyDocs = [
         link: './docs/1973/1973_06_02_hero_cities_match_tech_info_omaps.pdf'
     },
     {
+        name: 'Пятый матч городов-героев (Рощино)',
+        date: '1973-06-02',
+        info: '2-3 июня.',
+        link: './docs/1973/1973_06_02_hero_cities_match_results_omaps.pdf'
+    },
+    {
         name: 'П-во г.Ленинграда на маркированной трассе (Сосново)',
         date: '1973-02-18',
         info: 'Отчёт.',
