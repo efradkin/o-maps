@@ -490,7 +490,8 @@ let forestMaps = [
         url: './maps/forest/yappilya_pistolet_1997.webp',
         link: './original_maps/forest/yappilya_pistolet_1997_omaps.jpg',
         bounds: [[60.21304502181074, 29.120850563049316], [60.21123282876284, 29.1547966003418], [60.18796390589544, 29.11484241485596]],
-        author: 'CHGRVSKY_V'
+        author: 'CHGRVSKY_V',
+        start: 'EUROPEAN_HOPE'
     },
     {
         name: 'Яппиля, оз Пистолет',
@@ -638,7 +639,8 @@ let forestMaps = [
         url: './maps/forest/ozerki_1997.webp',
         link: './original_maps/forest/ozerki_1997_omaps.jpg',
         bounds: [[60.25808312606245, 29.01497840881348], [60.255826303456416, 29.06046867370606], [60.232652940467396, 29.0105152130127]],
-        author: ['VLKV_K','EGRV_A','URVNTSV']
+        author: ['VLKV_K','EGRV_A','URVNTSV'],
+        start: 'EUROPEAN_HOPE'
     },
     {
         name: 'Сарженское оз',

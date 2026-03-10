@@ -1896,6 +1896,12 @@ let historyDocs = [
         map: 'toksovo_1995_09_17'
     },
     {
+        name: 'European hope, спринт',
+        date: '1995-09-22',
+        link: './docs/1995/1995_09_22_european_hope_omaps.pdf',
+        start: 'EUROPEAN_HOPE'
+    },
+    {
         name: 'Новогодняя эстафета (Гатчина)',
         date: '1995-12-31',
         link: './docs/1995/1995_12_31_ny_relay_omaps.pdf',
@@ -1915,6 +1921,12 @@ let historyDocs = [
         name: 'Календарь соревнований ЛО',
         year: 1996,
         link: './docs/1996/1996_calendar_lo_omaps.pdf',
+    },
+    {
+        name: 'European hope',
+        year: 1996,
+        link: './docs/1996/1996_european_hope_omaps.pdf',
+        start: 'EUROPEAN_HOPE'
     },
     {
         name: 'Лично-командное п-во России (Зеленогорск)',
@@ -1945,6 +1957,13 @@ let historyDocs = [
         map: 'petjajarvy_1995',
         link: './docs/1996/1996_06_21_wn_omaps.pdf',
         start: 'WN'
+    },
+    {
+        name: 'European Youth Championship (Austria)',
+        date: '1996-06-28',
+        info: '28 июня - 1 июля.',
+        link: './docs/1996/1996_06_28_yeoc_omaps.pdf',
+        major: true
     },
     {
         name: 'Мемориал Михаила Святкина (Ягодное)',
@@ -1995,6 +2014,13 @@ let historyDocs = [
         date: '1997-09-28',
         link: './docs/1997/1997_09_28_spb_omaps.pdf',
         partly: true
+    },
+    {
+        name: 'European hope (Яппиля)',
+        date: '1997-10-04',
+        link: './docs/1997/1997_10_04_european_hope_omaps.pdf',
+        info: '4-6 октября.',
+        start: 'EUROPEAN_HOPE'
     },
     {
         name: 'ЧиП СПб, П-во ветеранов (Лемболово)',

@@ -173,9 +173,9 @@ let pskovMaps = [
         name: 'Алоль',
         year: 2021,
         url: './maps/pskov/alol_2021.webp',
-        link: './original_maps/pskov/alol_2021_omaps.webp',
         bounds: [[56.44185719100415, 29.160118103027347], [56.437349578606614, 29.204578399658207], [56.407585928007585, 29.149475097656254]],
         author: 'GRV_S',
         owner: 'PSKOV_RUS',
+        hidden: true
     },
 ];

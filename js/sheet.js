@@ -25,6 +25,11 @@ window.onload = function() {
             return filterYear(year(m));
         });
     }
+    if (START_NAME_PARAM && isDocumentsPage()) {
+        oMaps = oMaps.filter(m => {
+            return m.start && m.start === START_NAME_PARAM;
+        });
+    }
 
     if (!isUnknownPage()) {
         if (!isDocumentsPage()) {

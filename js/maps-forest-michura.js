@@ -110,7 +110,8 @@ let michuraMaps = [
         url: './maps/forest/michura/michurinskoe_sw_1991.webp',
         link: './original_maps/forest/michura/michurinskoe_sw_1991_omaps.jpg',
         bounds: [[60.59185655953876, 29.84169960021973], [60.5904657368445, 29.883327484130863], [60.56930098658817, 29.83818054199219]],
-        author: ['KNSTNTNV_D','EGRV_A']
+        author: ['KNSTNTNV_D','EGRV_A'],
+        start: 'EUROPEAN_HOPE'
     },
     {
         name: 'Коробицыно',
