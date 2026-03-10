@@ -57,6 +57,7 @@ let forestMaps = [
         page: 'spb',
         url: './maps/forest/tsvelodubovo_south_1995.webp',
         link: './original_maps/forest/tsvelodubovo_south_1995_omaps.jpg',
+        results: './docs/1995/1995_06_23_wn_omaps.pdf',
         bounds: [[60.36376621584052, 29.55051898956299], [60.35947923565616, 29.62145805358887], [60.347485430770675, 29.546484947204593]],
         author: 'MLVA_M'
     },
@@ -86,6 +87,7 @@ let forestMaps = [
         page: 'spb',
         url: './maps/forest/tsvelodubovo_1995.webp',
         link: './original_maps/forest/tsvelodubovo_1995_omaps.jpg',
+        results: './docs/1995/1995_06_23_wn_omaps.pdf',
         bounds: [[60.394904169693135, 29.55356597900391], [60.39036683870487, 29.6257495880127], [60.363002240852744, 29.548501968383793]],
         author: 'MLVA_M'
     },

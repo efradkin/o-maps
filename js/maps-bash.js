@@ -75,7 +75,7 @@ let bashMaps = [
         url: './maps/bash/medkol_2010.webp',
         link: ['./original_maps/bash/medkol_2010_omaps.gif','./original_maps/bash/medkol_2010_omaps.ocd'],
         bounds: [[54.76659477042868, 55.978925228118904], [54.76540635780258, 55.993387699127204], [54.75374320745313, 55.97547054290772]],
-        author: ['GZTLN','GRSHN_V','ZRPV','YLMNV','LNTV','BRTSHV','ZKHRV_V','ISKNDRV'],
+        author: ['GZTLN','GRSHN_V','ZRPV','YLMNV','LNTV','BRTSHV','ZKHRV_VD','ISKNDRV'],
         owner: 'YUSHV_A',
         type: ['PARK']
     },
@@ -115,7 +115,7 @@ let bashMaps = [
         url: './maps/bash/ufa_ugntu_2015.webp',
         link: './original_maps/bash/ufa_ugntu_2015_omaps.jpg',
         bounds: [[54.81871438868791, 56.058061122894294], [54.81809622556344, 56.06409072875977], [54.81294037661757, 56.0562801361084]],
-        author: ['YUSHV_A','ZKHRV_V','CHGLNTSV','SLTNBKV'],
+        author: ['YUSHV_A','ZKHRV_VD','CHGLNTSV','SLTNBKV'],
         owner: 'YUSHV_A',
         type: ['CITY']
     },
@@ -297,7 +297,7 @@ let bashMaps = [
         url: './maps/bash/umatovo_2014.webp',
         link: ['./original_maps/bash/umatovo_2014_omaps.gif','./original_maps/bash/umatovo_champ_2014_omaps.jpg','./original_maps/bash/umatovo_2014_omaps.ocd'],
         bounds: [[54.647319946329134, 55.6454086303711], [54.64240308095191, 55.6893539428711], [54.62253090187571, 55.63613891601563]],
-        author: ['ISKNDRV','VRBJV_V','PRHRVA_E','SLTNBKV','ZKHRV_V'],
+        author: ['ISKNDRV','VRBJV_V','PRHRVA_E','SLTNBKV','ZKHRV_VD'],
         owner: 'YUSHV_A',
     },
     {
@@ -419,7 +419,7 @@ let bashMaps = [
         url: './maps/bash/sterlitamak_uskan_rogaine_2025.webp',
         link: './original_maps/bash/sterlitamak_uskan_rogaine_2025_omaps.gif',
         bounds: [[53.66681554620711, 56.09885215759277], [53.658830876083556, 56.1643409729004], [53.628200475022666, 56.08511924743653]],
-        author: ['ZKHRV_V','YUSHV_A'],
+        author: ['ZKHRV_VD','YUSHV_A'],
         logo: 'bash_rogaine.webp',
         owner: 'YUSHV_A',
         type: ['ROGAINE']
@@ -430,7 +430,7 @@ let bashMaps = [
         url: './maps/bash/sterlitamak_karasevka_2009.webp',
         link: './original_maps/bash/sterlitamak_karasevka_2009_omaps.gif',
         bounds: [[53.663382832011536, 56.097478866577156], [53.66134849905954, 56.117005348205566], [53.65425299448453, 56.094732284545906]],
-        author: ['MTN_Y','ISHMHMDV','ZKHRV_V','YUSHV_A'],
+        author: ['MTN_Y','ISHMHMDV','ZKHRV_VD','YUSHV_A'],
         logo: 'bash_fox.gif',
         owner: 'YUSHV_A'
     },
@@ -440,7 +440,7 @@ let bashMaps = [
         url: './maps/bash/toratau_rogaine_2020.webp',
         link: './original_maps/bash/toratau_rogaine_2020_omaps.gif',
         bounds: [[53.591689719761675, 56.06254577636719], [53.58119404085943, 56.14837646484376], [53.495909347301925, 56.02838516235352]],
-        author: ['YUSHV_A','ZKHRV_V','FDRV_S','SLTNBKV'],
+        author: ['YUSHV_A','ZKHRV_VD','FDRV_S','SLTNBKV'],
         owner: 'YUSHV_A',
         logo: 'bash_rogaine.webp',
         type: ['ROGAINE']
@@ -452,7 +452,7 @@ let bashMaps = [
         link: ['./original_maps/bash/toratau_north_2014_omaps.gif','./original_maps/bash/toratau_north_2014_omaps.ocd'],
         bounds: [[53.59153688877165, 56.08469009399415], [53.59031422095183, 56.09735012054444], [53.57986915826821, 56.08129978179932]],
         logo: 'bash_fox.gif',
-        author: ['YUSHV_A','ZKHRV_V','SLTNBKV'],
+        author: ['YUSHV_A','ZKHRV_VD','SLTNBKV'],
         owner: 'YUSHV_A',
     },
     {
@@ -501,7 +501,7 @@ let bashMaps = [
         url: './maps/bash/sterlitamak_urnyak_2007.webp',
         link: ['./original_maps/bash/sterlitamak_urnyak_2007_omaps.jpg','./original_maps/bash/sterlitamak_urnyak_2007_relief_omaps.jpg'],
         bounds: [[53.68021316917553, 56.10722064971924], [53.67909474506964, 56.118936538696296], [53.67445550984704, 56.105375289917]],
-        author: ['YUSHV_A','BBCH_AL','ZKHRV_V','AFNSV_E'],
+        author: ['YUSHV_A','BBCH_AL','ZKHRV_VD','AFNSV_E'],
         owner: 'YUSHV_A',
         logo: 'bash_fox.gif',
         type: ['FOREST','RELIEF']
@@ -534,7 +534,7 @@ let bashMaps = [
         url: './maps/bash/olhovka_2005.webp',
         link: './original_maps/bash/olhovka_2005_omaps.jpg',
         bounds: [[53.59039063872702, 55.93328475952149], [53.587945201375845, 55.96130847930909], [53.5723267279556, 55.92834949493409]],
-        author: ['BYMRZN','ZKHRV_V','YUSHV_A'],
+        author: ['BYMRZN','ZKHRV_VD','YUSHV_A'],
         owner: 'YUSHV_A',
         logo: 'bash_fox.gif',
     },
@@ -554,7 +554,7 @@ let bashMaps = [
         url: './maps/bash/podlesnoe_2006.webp',
         link: './original_maps/bash/podlesnoe_2006_omaps.gif',
         bounds: [[53.83348592751201, 55.91135501861573], [53.83120654335547, 55.92783451080323], [53.824291652576626, 55.90714931488038]],
-        author: ['AFNSV_E','ZKHRV_V','YUSHV_A'],
+        author: ['AFNSV_E','ZKHRV_VD','YUSHV_A'],
         owner: 'YUSHV_A',
         logo: 'bash_fox.gif',
     },
@@ -608,7 +608,7 @@ let bashMaps = [
         url: './maps/bash/kandrykul_2006.webp',
         link: ['./original_maps/bash/kandrykul_2006_omaps.gif','./original_maps/bash/kandrykul_2006_omaps.ocd'],
         bounds: [[54.505062375269254, 54.10981178283692], [54.50085101961321, 54.14053916931153], [54.48031132842118, 54.10135746002198]],
-        author: ['ZKHRV_V','PRHRV_V','PRHRVA_E','BLTV'],
+        author: ['ZKHRV_VD','PRHRV_V','PRHRVA_E','BLTV'],
         owner: 'YUSHV_A',
     },
     {
@@ -617,7 +617,7 @@ let bashMaps = [
         url: './maps/bash/burikazgan_2008.webp',
         link: './original_maps/bash/burikazgan_2008_omaps.gif',
         bounds: [[53.678611780024674, 55.787844657897956], [53.67823048791952, 55.79121351242066], [53.67390893616498, 55.786600112915046]],
-        author: ['YUSHV_A','ZKHRV_V'],
+        author: ['YUSHV_A','ZKHRV_VD'],
         owner: 'YUSHV_A',
     },
     {

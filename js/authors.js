@@ -826,7 +826,7 @@ let authors = {
         logo: 'bash.gif'
     },
     ZHDNK_L: { name: 'Жданюк Л.' },
-    ZKHRV_V: { name: 'Захаров Вадим' },
+    ZKHRV_VD: { name: 'Захаров Вадим' },
     ZRPV: { name: 'Зарипов Р.' },
     ZZV_E: { name: 'Зузов Егор' },
 

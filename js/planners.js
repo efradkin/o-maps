@@ -104,5 +104,6 @@ let planners = {
     TRSV_D: { name: 'Тарасов Д' },
     VLKV_A: { name: 'Волков Андрей' },
     VSLVSKY: { name: 'Василевский Александр' },
+    ZKHRV_VCH: { name: 'Захаров Вячеслав' },
     ZMLKV_A: { name: 'Земляков Алексей' }
 };

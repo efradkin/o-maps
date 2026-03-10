@@ -1863,16 +1863,25 @@ let historyDocs = [
         me: 'H21',
     },
     {
+        name: 'St.Petersburg',
+        date: '1994-01-09',
+        link: './docs/1994/1994_01_09_spb_cup_omaps.pdf',
+        me: 'H21',
+    },
+    {
+        name: 'Невский Азимут (Борисово)',
+        date: '1994-06-17',
+        link: './docs/1994/1994_06_17_na_omaps.pdf',
+        info: '17-19 июня.',
+        start: 'NA',
+        partly: true,
+        planner: 'ZKHRV_VCH'
+    },
+    {
         name: 'Чемпионат С-Петербурга, спринт, марафон',
         date: '1994-09-03',
         link: './docs/1994/1994_09_03_spb_omaps.pdf',
         info: '3-4 сентября.',
-        me: 'H21',
-    },
-    {
-        name: 'St.Petersburg',
-        date: '1994-01-09',
-        link: './docs/1994/1994_01_09_spb_cup_omaps.pdf',
         me: 'H21',
     },
     {
@@ -1882,6 +1891,14 @@ let historyDocs = [
         info: '10-12 июня.',
         partly: true,
         me: 'М21E'
+    },
+    {
+        name: 'Белые Ночи (Цвелодубово)',
+        date: '1995-06-23',
+        info: '23-25 июня.',
+        map: ['tsvelodubovo_south_1995','tsvelodubovo_1995'],
+        link: './docs/1995/1995_06_23_wn_omaps.pdf',
+        start: 'WN'
     },
     {
         name: 'Зелёный змей (Осельки)',
