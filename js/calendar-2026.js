@@ -434,10 +434,14 @@ let events2026 = [
     o_site: '260308_ST',
     reg: 'http://o-reg.spb.ru/?filter[day_id]=1721',
     info: 'С лабиринтом и бабочками.',
+    reskeep: 843,
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24366/',
+    photo: 'https://vk.ru/album-230167293_312838601',
     type: 'ORIENT',
     fmt: 'спринт',
     map: 'pulkovsky_2024',
-    owner: 'SFSO_SPB'
+    owner: 'SFSO_SPB',
+    planner: 'LHMNV'
 },
 {
     id: 'SPB_20260308_2',
@@ -445,18 +449,43 @@ let events2026 = [
     name: 'Ski Adventure',
     place: 'Шапки',
     reg: 'https://orgeo.ru/event/ski_adventure_2026',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24374/',
     type: ['ROGAINE','SKI'],
     fmt: '5, 3',
     map: 'shapki_KKM_2020_12',
 },
 {
-    id: 'SPB_20260315_2',
+    id: 'SPB_20260314_1',
+    date: '2026-03-14',
+    name: 'Длительный спринт №4',
+    place: 'Удельная',
+    link: 'https://t.me/dlitelnyy/475',
+    reg: 'https://orgeo.ru/event/50876',
+    type: 'ORIENT',
+    owner: 'DLITELNY',
+    map: 'udelnaya_2015',
+    planner: 'KSHN_D'
+},
+{
+    id: 'SPB_20260315_1',
     date: '2026-03-15',
     name: 'Колтушская классика',
     place: 'Колтуши',
     o_site: '260315_bn',
+    reg: 'http://orgeo.ru/event/koltushi_classic',
     type: 'ORIENT',
-    owner: 'WN'
+    owner: 'WN',
+    map: 'orovo_2019'
+},
+{
+    id: 'SPB_20260315_2',
+    date: '2026-03-15',
+    name: 'XII Кубок Весты №7',
+    place: 'Приозерск, о Каменистый',
+    link: 'https://vk.com/wall-30365190_9097',
+    type: 'ORIENT',
+    owner: 'VESTA_PRIOZERSK',
+    map: 'priozersk_kamenisty'
 },
 {
     id: 'SPB_20260405_1',
@@ -474,6 +503,7 @@ let events2026 = [
     name: 'Охта Парк классика',
     place: 'Охта-Парк',
     o_site: '260405_bn',
+    reg: 'https://orgeo.ru/event/ohta_classic_2026',
     type: 'ORIENT',
     owner: 'WN'
 },
@@ -495,9 +525,12 @@ let events2026 = [
     endDate: '2026-04-12',
     name: 'Сосновоборские дюны, ЧиП ЛО',
     place: 'Сосновый бор',
+    o_site: '260412_SD',
+    reg: ['http://o-reg.spb.ru/?filter[day_id]=1724','http://o-reg.spb.ru/?filter[day_id]=1725'],
     type: 'ORIENT',
     fmt: 'классика, спринт',
-    owner: 'YUVENTA'
+    owner: 'YUVENTA',
+    map: ['sosnovij_bor_lipovo_2020','sosnovy_bor_2021_05_30']
 },
 {
     id: 'SPB_20260425_1',
