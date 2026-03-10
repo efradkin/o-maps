@@ -145,6 +145,14 @@ let oBooks = [
         pics: ['study_book', 1]
     },
     {
+        name: 'Карта в спортивном ориентировании',
+        year: 1983,
+        about: 'https://oren-orient.narod.ru/map/karta/index.htm',
+        info: 'Автор, известный специалист в спортивном ориентировании, судья всесоюзной категории, рассказывает о процессе создания спортивной карты - от выбора района для картографирования до подготовки ее к изданию.',
+        author: 'ALSHN',
+        pics: ['orienteering_map', 1]
+    },
+    {
         name: 'Зелеными маршрутами',
         year: 1986,
         link: ['http://www.northernwind.spb.ru/library/green_routes/','https://psv4.userapi.com/s/v1/d/108NeRKgauG_N-Peg__uLVHpGUMBK-7ptIU2cQXwZ8FPePAECJSmG61kz8b0HuGVDHV43xfB2Y3XHOxvWoMW1KpBi9zJuzduswmYA__L7sIXJCkgm7wQZg/Kniga_Liysa_Veyyalaynen_Zelenymi_marshrutami.pdf'],
