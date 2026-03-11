@@ -491,6 +491,90 @@ let events2026 = [
     map: 'priozersk_kamenisty'
 },
 {
+    id: 'SPB_20260328_1',
+    date: '2026-03-28',
+    name: 'Тренировка от Феникса',
+    place: 'Школа №141',
+    reg: 'https://orgeo.ru/event/50797',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    owner: 'FENIX',
+    map: 'school_141_2015'
+},
+{
+    id: 'SPB_20260329_1',
+    date: '2026-03-29',
+    name: 'Тренировка от Феникса',
+    place: 'Серово',
+    reg: 'https://orgeo.ru/event/50798',
+    type: 'ORIENT',
+    owner: 'FENIX',
+    map: 'serovo_2024'
+},
+{
+    id: 'SPB_20260331_1',
+    date: '2026-03-31',
+    name: 'Тренировка от Феникса',
+    place: 'Осиновая роща',
+    reg: 'https://orgeo.ru/event/50799',
+    type: 'ORIENT',
+    owner: 'FENIX',
+    map: 'osinovaja_roscha_2018'
+},
+{
+    id: 'SPB_20260401_1',
+    date: '2026-04-01',
+    name: 'Тренировка от Феникса',
+    place: 'Ильинский сад',
+    reg: 'https://orgeo.ru/event/50800',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    owner: 'FENIX',
+    info: 'Новая карта.',
+    coord: [59.96317425880231, 30.46989440917969]
+},
+{
+    id: 'SPB_20260402_1',
+    date: '2026-04-02',
+    name: 'Тренировка от Феникса',
+    place: 'Юкки',
+    reg: 'https://orgeo.ru/event/info/50869',
+    type: 'ORIENT',
+    owner: 'FENIX',
+    map: 'yukki_north_2020'
+},
+{
+    id: 'SPB_20260403_1',
+    date: '2026-04-03',
+    name: 'Тренировка от Феникса',
+    place: 'Школа №532',
+    reg: 'https://orgeo.ru/event/50802',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    owner: 'FENIX',
+    map: 'school_532_2023'
+},
+{
+    id: 'SPB_20260405_2', // don't change
+    date: '2026-04-04',
+    name: 'Охта Парк классика',
+    place: 'Охта-Парк',
+    o_site: '260405_bn',
+    reg: 'https://orgeo.ru/event/ohta_classic_2026',
+    type: 'ORIENT',
+    owner: 'WN'
+},
+{
+    id: 'SPB_20260405_1',
+    date: '2026-04-05',
+    name: 'Тренировка от Феникса',
+    place: 'Стеклянный, оз Силанде',
+    reg: 'https://orgeo.ru/event/50803',
+    type: 'ORIENT',
+    owner: 'FENIX',
+    map: 'silande_2025'
+},
+{
     id: 'SPB_20260405_1',
     date: '2026-04-05',
     name: 'Кубок D2RUN, 1 этап',
@@ -499,16 +583,6 @@ let events2026 = [
     fmt: 'спринт',
     map: 'romanovka_2013',
     owner: 'DLITELNY'
-},
-{
-    id: 'SPB_20260405_2',
-    date: '2026-04-05',
-    name: 'Охта Парк классика',
-    place: 'Охта-Парк',
-    o_site: '260405_bn',
-    reg: 'https://orgeo.ru/event/ohta_classic_2026',
-    type: 'ORIENT',
-    owner: 'WN'
 },
 {
     id: 'SPB_20260411_1',
@@ -534,6 +608,27 @@ let events2026 = [
     fmt: 'классика, спринт',
     owner: 'YUVENTA',
     map: ['sosnovij_bor_lipovo_2020','sosnovy_bor_2021_05_30']
+},
+{
+    id: 'SPB_20260419_1',
+    date: '2026-04-19',
+    name: 'Тренировка от Феникса',
+    place: 'Стеклянный, оз Силанде',
+    reg: 'https://orgeo.ru/event/50868',
+    type: 'ORIENT',
+    owner: 'FENIX',
+    map: 'silande_2025'
+},
+{
+    id: 'SPB_20260421_1',
+    date: '2026-04-21',
+    name: 'Тренировка от Феникса',
+    place: 'Школа №532',
+    reg: 'https://orgeo.ru/event/50871',
+    type: 'ORIENT',
+    owner: 'FENIX',
+    fmt: 'спринт',
+    map: 'school_532_2023'
 },
 {
     id: 'SPB_20260425_1',
@@ -651,6 +746,16 @@ let events2026 = [
     fmt: 'эстафета 3х',
     map: 'polyany_2019',
     owner: 'SFSO_SPB'
+},
+{
+    id: 'SPB_20260519_1',
+    date: '2026-05-19',
+    name: 'Тренировка от Феникса',
+    place: 'Юкки',
+    reg: 'https://orgeo.ru/event/50870',
+    type: 'ORIENT',
+    owner: 'FENIX',
+    map: 'yukki_north_2020'
 },
 {
     id: 'SPB_20260523_1',

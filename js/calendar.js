@@ -2,6 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const EVENT_TYPE_PARAM = urlParams.get('event-type');
 const EVENT_MONTH_PARAM = urlParams.get('event-month');
 const CALENDAR_NAME_PARAM = urlParams.get('calendar');
+const OWNER_PARAM = urlParams.get('owner');
 
 let onlyMajor = false;
 let major = localStorage.getItem('onlyMajor');
@@ -67,6 +68,9 @@ function myEditDone() {
 // Фильтрация массива. Оставляем только эвенты, соответствующие критерию запроса (есди он задан).
 if (onlyMajor) {
     oEvents = oEvents.filter(event => event.major);
+}
+if (OWNER_PARAM) {
+    oEvents = oEvents.filter(event => event.owner && event.owner === OWNER_PARAM);
 }
 if (EVENT_TYPE_PARAM && ('ALL' !== EVENT_TYPE_PARAM)) {
     oEvents = oEvents.filter(event => {

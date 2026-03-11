@@ -2506,7 +2506,7 @@ let events2025 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23863/',
     info: 'Новая карта.',
     map: 'lovetskoe_2025',
-    owner: 'RDNV_I',
+    owner: 'FENIX',
     reskeep: 819,
     me: 'МА'
 },
