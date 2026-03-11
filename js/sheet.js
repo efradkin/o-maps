@@ -14,8 +14,10 @@ window.onload = function() {
         }
         switch (YEAR_PARAM) {
             case 'LATE': return year >= 2000;
-            case 'EARLY': return year < 1988;
-            case '1992-1999': return year <= 1999 && year >= 1992;
+            case 'EARLY': return year < 1980;
+            case '1992-1995': return year <= 1995 && year >= 1992;
+            case '1996-1999': return year <= 1999 && year >= 1996;
+            case '1980-1987': return year <= 1987 && year >= 1980;
         }
         return YEAR_PARAM === year.toString();
     }

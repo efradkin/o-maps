@@ -691,6 +691,15 @@ let events2026 = [
     start: 'HARD'
 },
 {
+    id: 'SPB_20260503_1',
+    date: '2026-05-03',
+    name: 'Перспектива 100 КП',
+    place: 'Пухтолова гора',
+    reg: 'https://orgeo.ru/event/50962',
+    type: 'ORIENT',
+    fmt: 'выбор',
+},
+{
     id: 'SPB_20260509_1',
     date: '2026-05-09',
     name: 'Памяти дня Победы',

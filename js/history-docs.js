@@ -1832,6 +1832,15 @@ let historyDocs = [
         planner: 'RYLOV_V'
     },
     {
+        name: 'Невский Азимут (Мичуринское, Борисово)',
+        date: '1993-06-16',
+        link: './docs/1993/1993_06_16_na_omaps.pdf',
+        info: '16-21 июня.',
+        start: 'NA',
+        partly: true,
+        planner: ['VLKV_A','NKFRV_A','SKLV_B','FSNKO','SHRPV_V']
+    },
+    {
         name: 'ЧиП СПб, спринт (Васкелово)',
         date: '1993-07-03',
         link: './docs/1993/1993_07_03_spb_sprint_omaps.pdf',
@@ -1863,7 +1872,7 @@ let historyDocs = [
         me: 'H21',
     },
     {
-        name: 'St.Petersburg',
+        name: 'St.Petersburg Cup',
         date: '1994-01-09',
         link: './docs/1994/1994_01_09_spb_cup_omaps.pdf',
         me: 'H21',
@@ -1940,6 +1949,11 @@ let historyDocs = [
         link: './docs/1996/1996_calendar_lo_omaps.pdf',
     },
     {
+        name: 'Ранговая таблица клуба Азимут',
+        year: 1996,
+        link: './docs/1996/1996_azimuth_rating_omaps.pdf',
+    },
+    {
         name: 'European hope',
         year: 1996,
         link: './docs/1996/1996_european_hope_omaps.pdf',
@@ -1990,6 +2004,12 @@ let historyDocs = [
         partly: true,
         start: 'MMS',
         map: ['mms_1996_06_29','mms_1996_06_30']
+    },
+    {
+        name: 'Зелёный змей (Токсово)',
+        date: '1996-09-01',
+        link: './docs/1996/1996_09_01_green_snake_omaps.pdf',
+        start: 'GS',
     },
     {
         name: 'ЧиП СПб, удлинённая дистанция (Ильичёво)',
