@@ -18,6 +18,18 @@ let otherMaps = [
         author: 'SMRNV_K',
         owner: 'SMRNV_K'
     },
+    {
+        name: 'Иваново, Ломы',
+        date: '2011-03-06',
+        url: './maps/other/ivanovo_lomy_2011.webp',
+        link: './original_maps/other/ivanovo_lomy_rogaine_2011_omaps.webp',
+        info: '1-й Чемпионат России по рогейну на лыжах.',
+        about: 'https://ski.rogaining.ru',
+        bounds: [[56.96818761462326, 40.929222106933594], [56.95059166007404, 41.142082214355476], [56.78940938146706, 40.87926864624024]],
+        logo: 'rogaine_russia_2011.webp',
+        major: true,
+        type: ['ROGAINE']
+    },
     // --- Дальний Восток ---
     {
         name: 'Амурск, о Сахалин',
