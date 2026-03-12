@@ -24,6 +24,24 @@ let otherStartsMaps = [
         bounds: [[60.33710139034609, 29.256162643432617], [60.3366341370077, 29.305944442749027], [60.30565306640177, 29.24371719360352]],
     },
     {
+        name: 'Тарасовское',
+        year: 1999,
+        url: './maps/forest/tarasovskoe_1999.webp',
+        link: './original_maps/forest/tarasovskoe_1999_european_hope_omaps.webp',
+        bounds: [[60.272791242234234, 29.08488750457764], [60.270365177637856, 29.127502441406254], [60.255592095973995, 29.081797599792484]],
+        author: 'KRCHKN_V',
+        start: 'EUROPEAN_HOPE'
+    },
+    {
+        name: 'Зеркальный',
+        year: 1999,
+        url: './maps/forest/zerkalny_1999_european_hope.webp',
+        link: './original_maps/forest/zerkalny_1999_european_hope_omaps.webp',
+        bounds: [[60.245146868264186, 29.13754463195801], [60.244124526327596, 29.15767192840576], [60.236370728075904, 29.13554906845093]],
+        author: 'KRCHKN_V',
+        start: 'EUROPEAN_HOPE'
+    },
+    {
         name: 'Юкки',
         page: 'starts',
         date: '1983-03-19',

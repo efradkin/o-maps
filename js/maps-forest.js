@@ -418,12 +418,43 @@ let forestMaps = [
         author: 'OSMCHN'
     },
     {
+        name: 'Тарасовское',
+        year: 1994,
+        start: 'MMS',
+        page: 'spb',
+        url: './maps/forest/tarasovskoe_1995.webp',
+        link: './original_maps/forest/tarasovskoe_1995_omaps.jpg',
+        bounds: [[60.28153635026126, 29.11557197570801], [60.274642591558795, 29.210071563720707], [60.245732570621065, 29.104928970336918]],
+        author: ['EGRV_A','VLKV_K','URVNTSV'],
+        areas: [25,25,50]
+    },
+    {
         name: 'Зеркальный',
         year: 1991,
         url: './maps/forest/zerkalny_1991.webp',
-        link: './original_maps/forest/zerkalny_1991_omaps.jpg',
+        link: ['./original_maps/forest/zerkalny_1991_omaps.jpg','./original_maps/forest/zerkalny_1991_omaps.webp'],
         bounds: [[60.276515114183645, 29.060039520263672], [60.26727913379481, 29.157886505126957], [60.24483803916793, 29.0493106842041]],
         author: ['KUZNTSV_S','ISVNNA','KNSTNTNV_D','RDKV','URVNTSV']
+    },
+    {
+        name: 'Тарасовское',
+        year: 1997,
+        url: './maps/forest/tarasovskoe_1997.webp',
+        link: './original_maps/forest/tarasovskoe_1997_european_hope_omaps.webp',
+        results: './docs/1997/1997_10_04_european_hope_omaps.pdf',
+        bounds: [[60.271620794931536, 29.104542732238773], [60.26870513505224, 29.143896102905277], [60.255315303152855, 29.099779129028324]],
+        author: ['KUZNTSV_S','ISVNNA','KNSTNTNV_D','RDKV','URVNTSV','VLKV_K','MMLV_M','ELTSV','BLZRV_V','ARTMV'],
+        editor: 'GLTV_Y',
+        start: 'EUROPEAN_HOPE'
+    },
+    {
+        name: 'Зеркальный',
+        year: 2001,
+        url: './maps/forest/zerkalny_2001.webp',
+        link: './original_maps/forest/zerkalny_2001_omaps.webp',
+        info: 'Марафон на холмах Яппиля.',
+        bounds: [[60.27128029330853, 29.089050292968754], [60.26702372402289, 29.157886505126957], [60.22131587843069, 29.07917976379395]],
+        editor: 'GLTV_Y'
     },
     {
         name: 'Зеркальный',
@@ -435,14 +466,11 @@ let forestMaps = [
     },
     {
         name: 'Тарасовское',
-        year: 1994,
-        start: 'MMS',
-        page: 'spb',
-        url: './maps/forest/tarasovskoe_1995.webp',
-        link: './original_maps/forest/tarasovskoe_1995_omaps.jpg',
-        bounds: [[60.28153635026126, 29.11557197570801], [60.274642591558795, 29.210071563720707], [60.245732570621065, 29.104928970336918]],
-        author: ['EGRV_A','VLKV_K','URVNTSV'],
-        areas: [25,25,50]
+        year: 2000,
+        url: './maps/forest/tarasovskoe_2000.webp',
+        link: './original_maps/forest/tarasovskoe_2000_omaps.webp',
+        bounds: [[60.280855549864334, 29.132394790649418], [60.277323670364225, 29.189901351928714], [60.24675486236713, 29.120206832885746]],
+        author: ['KUZNTSV_S','TKMKV_K','KUZNTSVA_E'],
     },
     {
         name: 'Яппиля',
@@ -460,7 +488,7 @@ let forestMaps = [
         name: 'Яппиля, оз Пистолет',
         year: 1979,
         url: './maps/forest/yappilya_pistolet_1979.webp',
-        link: './original_maps/forest/yappilya_pistolet_1979_omaps.jpg',
+        link: ['./original_maps/forest/yappilya_pistolet_1979_omaps.jpg','./original_maps/forest/yappilya_pistolet_1979_omaps.webp'],
         bounds: [[60.22353245455555, 29.121150970458988], [60.2216142724076, 29.172477722167972], [60.18412326764247, 29.114971160888675]],
         author: ['KAZNTSV_S','KAZNTSVA_O','GYKVCH','PYNN','PTRV_V']
     },
@@ -470,7 +498,7 @@ let forestMaps = [
         major: true,
         logo: 'owc_1992.jpg',
         url: './maps/forest/yappilya_pistolet_1992.webp',
-        link: ['./original_maps/forest/yappilya_pistolet_1992_omaps.jpg','./original_maps/forest/yappilya_pistolet_1992_h21_omaps.jpg','./original_maps/forest/yappilya_pistolet_1992_h21_back_omaps.jpg'],
+        link: ['./original_maps/forest/yappilya_pistolet_1992_omaps.webp','./original_maps/forest/yappilya_pistolet_1992_omaps.jpg','./original_maps/forest/yappilya_pistolet_1992_h21_omaps.jpg','./original_maps/forest/yappilya_pistolet_1992_h21_back_omaps.jpg'],
         bounds: [[60.24713821354549, 29.126043319702152], [60.243219301102904, 29.18552398681641], [60.18433664822085, 29.11188125610352]],
         info: '<a href="https://o-site.spb.ru/history/Knots/wc-92.html">Кубок Мира</a>.',
         author: ['CHGRVSKY_V','CHGRVSKY_Y'],
@@ -562,6 +590,13 @@ let forestMaps = [
         bounds: [[60.31725847401856, 29.265003204345707], [60.312582798414866, 29.345855712890625], [60.288088329490414, 29.25822257995606]],
     },
     {
+        name: 'Поляны',
+        year: 1979,
+        url: './maps/forest/polyany_1979.webp',
+        link: './original_maps/forest/polyany_1979_omaps.webp',
+        bounds: [[60.3134117169933, 29.281997680664066], [60.30947948054481, 29.314012527465824], [60.29933850324382, 29.28015232086182]],
+    },
+    {
         name: 'Каннельярви, карьер',
         year: 2023,
         url: './maps/forest/kanneljarvi_2023.webp',
@@ -637,9 +672,10 @@ let forestMaps = [
     },
     {
         name: 'Озерки',
-        year: 1997,
+        date: '1997-10-06',
         url: './maps/forest/ozerki_1997.webp',
-        link: './original_maps/forest/ozerki_1997_omaps.jpg',
+        link: ['./original_maps/forest/ozerki_1997_omaps.jpg','./original_maps/forest/ozerki_1997_european_hope_omaps.webp'],
+        results: './docs/1997/1997_10_04_european_hope_omaps.pdf',
         bounds: [[60.25808312606245, 29.01497840881348], [60.255826303456416, 29.06046867370606], [60.232652940467396, 29.0105152130127]],
         author: ['VLKV_K','EGRV_A','URVNTSV'],
         start: 'EUROPEAN_HOPE'

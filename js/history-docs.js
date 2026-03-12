@@ -2057,6 +2057,7 @@ let historyDocs = [
         date: '1997-10-04',
         link: './docs/1997/1997_10_04_european_hope_omaps.pdf',
         info: '4-6 октября.',
+        map: ['ozerki_1997','tarasovskoe_1997'],
         start: 'EUROPEAN_HOPE'
     },
     {

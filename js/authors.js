@@ -234,6 +234,7 @@ let authors = {
         name: 'Кузнецов Владимир',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
+    KUZNTSVA_E: { name: 'Кузнецова Елизавета' },
     KUZNTSVA_Z: { name: 'Кузнецова З.' },
     KVLVA_O: { name: 'Ковалёва Ольга' },
     KZHN_L: { name: 'Кожин Леонид' },
@@ -274,6 +275,7 @@ let authors = {
         name: 'Малова Мария', //Михайловна
         about: 'https://o-site.spb.ru/history/Peoples/mmosk.html'
     },
+    MMLV_M: { name: 'Мамлеев Михаил' },
     MNV_Y: { name: 'Минаев Ю.' },
     MRKRV: { name: 'Меркурьев С.' },
     MNKV: { name: 'Минаков Александр' },

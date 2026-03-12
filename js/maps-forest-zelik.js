@@ -211,6 +211,14 @@ let zelikMaps = [
         author: 'TRSV'
     },
     {
+        name: 'Долгое оз, 104-я высота',
+        year: 1983,
+        url: './maps/forest/zelik/ilychevo_dolgoe_1983.webp',
+        link: './original_maps/forest/zelik/ilychevo_dolgoe_1983_omaps.webp',
+        bounds: [[60.316620921304846, 29.70857620239258], [60.31037224602904, 29.808053970336918], [60.28225968515541, 29.700765609741214]],
+        author: 'KUZNTSV_S'
+    },
+    {
         name: 'Долгое оз',
         year: 1979,
         url: './maps/forest/zelik/ilychevo_dolgoe_1979.webp',
@@ -444,7 +452,7 @@ let zelikMaps = [
         author: 'BYMKV'
     },
     {
-        name: 'Зеленогорск, "Прибой"',
+        name: 'Зеленогорск, Прибой',
         year: 1992,
         logo: 'nevsky_azimut.gif',
         url: './maps/forest/zelik/zelenogorsk_priboy_1992.webp',
@@ -452,6 +460,15 @@ let zelikMaps = [
         bounds: [[60.22736848216193, 29.720420837402347], [60.22250943804349, 29.776210784912113], [60.19709428614133, 29.71140861511231]],
         author: 'BYMKV',
         qtty: 2
+    },
+    {
+        name: 'Черные оз, Ленинское',
+        year: 1999,
+        url: './maps/forest/zelik/zelenogorsk_chernye_1999.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_chernye_1999_omaps.webp',
+        bounds: [[60.24620112496558, 29.75883007049561], [60.23593398979317, 29.843759536743168], [60.21839573690214, 29.74483966827393]],
+        author: ['KUZNTSV_S','SHRNN'],
+        excluded: true
     },
     {
         name: 'Зеленогорск, оз Красавица',
@@ -472,9 +489,9 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, Дружинное оз',
-        year: 1995,
+        year: 1985,
         url: './maps/forest/zelik/zelenogorsk_chertovo_oz_1995.webp',
-        link: './original_maps/forest/zelik/zelenogorsk_chertovo_oz_1995_omaps.jpg',
+        link: ['./original_maps/forest/zelik/zelenogorsk_chertovo_oz_1995_omaps.jpg','./original_maps/forest/zelik/zelenogorsk_chertovo_oz_1985_omaps.webp'],
         bounds: [[60.240024188580975, 29.76204872131348], [60.2312892908627, 29.77380752563477], [60.23047959706192, 29.734926223754886]],
         author: 'KUZNTSV_S'
     },
