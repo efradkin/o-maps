@@ -809,7 +809,7 @@ let forestMaps = [
         year: 1993,
         logo: 'wn_retro.webp',
         url: './maps/forest/osinovaja_roscha_1993.webp',
-        link: './original_maps/forest/osinovaja_roscha_1993_omaps.jpg',
+        link: ['./original_maps/forest/osinovaja_roscha_1993_omaps.jpg','./original_maps/forest/osinovaja_roscha_1993_omaps.webp'],
         bounds: [[60.13872706122912, 30.22493362426758], [60.136077369404795, 30.27042388916016], [60.10772941530803, 30.21746635437012]],
         author: ['KAZNTSVA_O','KAZNTSV_S']
     },
@@ -818,7 +818,7 @@ let forestMaps = [
         year: 1999,
         logo: 'wn_retro.webp',
         url: './maps/forest/osinovaja_roscha_1999.webp',
-        link: './original_maps/forest/osinovaja_roscha_1999_omaps.jpg',
+        link: './original_maps/forest/osinovaja_roscha_1999_omaps.webp',
         bounds: [[60.12438626201431, 30.241155624389652], [60.1228257086503, 30.267333984375004], [60.11023168745687, 30.237293243408207]],
         author: 'KAZNTSVA_O'
     },

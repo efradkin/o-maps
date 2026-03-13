@@ -490,14 +490,14 @@ let vyborgMaps = [
         owner: 'NW'
     },
     {
-        name: 'Возрождение',
+        name: 'Возрождение, оз Петровское',
         year: 1992,
         startYear: 1993,
         logo: 'akka.jpg',
         start: 'WN',
         page: 'spb',
         url: './maps/forest/vyborg/vozrozhdenie_1992.webp',
-        link: './original_maps/forest/vyborg/vozrozhdenie_1992_omaps.jpg',
+        link: ['./original_maps/forest/vyborg/vozrozhdenie_1992_omaps.jpg','./original_maps/forest/vyborg/vozrozhdenie_1992_course_omaps.webp'],
         bounds: [[60.85970951117796, 28.839025497436527], [60.8549444998421, 28.909235000610355], [60.82901707952645, 28.833532333374027]],
         author: 'KRCHKN_V'
     },
@@ -629,11 +629,12 @@ let vyborgMaps = [
     {
         name: 'Комсомольское',
         year: 1992,
+        startYear: 1993,
         start: 'WN',
         page: 'spb',
         logo: 'akka.jpg',
         url: './maps/forest/vyborg/komsomolskoe.webp',
-        link: './original_maps/forest/vyborg/komsomolskoe_omaps.jpg',
+        link: ['./original_maps/forest/vyborg/komsomolskoe_omaps.jpg','./original_maps/forest/vyborg/komsomolskoe_1992_wn_1_omaps.webp'],
         bounds: [[60.87567129868857, 28.804950714111328], [60.87316473979831, 28.857822418212894], [60.84327976304758, 28.798427581787113]],
         author: ['KAZNTSVA_O','KAZNTSV_S']
     },

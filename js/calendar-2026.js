@@ -491,6 +491,16 @@ let events2026 = [
     map: 'priozersk_kamenisty'
 },
 {
+    id: 'SPB_20260322_1',
+    date: '2026-03-22',
+    name: 'Перспектива',
+    place: 'Токсово, КомБыт',
+    o_site: '260322_p',
+    reg: 'http://orgeo.ru/event/51010',
+    type: 'ORIENT',
+    map: 'toksovo_kombyt_2017'
+},
+{
     id: 'SPB_20260328_1',
     date: '2026-03-28',
     name: 'Тренировка от Феникса',
@@ -675,6 +685,8 @@ let events2026 = [
     id: 'SPB_20260502_1',
     date: '2026-05-02',
     place: 'Луга, оз Омчино',
+    o_site: '260502R',
+    reg: 'http://orgeo.ru/event/49018',
     name: 'Горный кросс-113',
     type: 'ROGAINE',
     fmt: '5(4), 2',
@@ -847,6 +859,8 @@ let events2026 = [
     date: '2026-06-06',
     place: 'Кузнечное',
     name: 'Горный кросс-114',
+    o_site: '260606R',
+    reg: 'http://orgeo.ru/event/49045',
     type: 'ROGAINE',
     fmt: '24, 8(7), 3',
     map: 'kuznechnoe_2009',

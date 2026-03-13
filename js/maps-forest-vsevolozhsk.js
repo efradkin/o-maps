@@ -13,12 +13,21 @@ let vsevolozhskMaps = [
     {
         name: 'Всеволожск',
         year: 1987,
-        info: 'Первая карта А.М.Василевского.',
         url: './maps/forest/vsevolozhsk/vsevolozhsk_1987.webp',
         link: ['./original_maps/forest/vsevolozhsk/vsevolozhsk_1987_omaps.jpg','./original_maps/forest/vsevolozhsk/vsevolozhsk_1987_2_omaps.jpg'],
         bounds: [[60.06612537100185, 30.623531341552738], [60.06355549916492, 30.683269500732425], [60.03518795591195, 30.62052726745606]],
         author: ['VSLVSKY','MDVDKN'],
         qtty: 10
+    },
+    {
+        name: 'Всеволожск',
+        year: 1981,
+        info: 'Первая карта А.М.Василевского.',
+        url: './maps/forest/vsevolozhsk/vsevolozhsk_1981.webp',
+        link: './original_maps/forest/vsevolozhsk/vsevolozhsk_1981_omaps.webp',
+        bounds: [[60.05933619217652, 30.62160015106201], [60.057472671660285, 30.67708969116211], [60.034780691386814, 30.6194543838501]],
+        author: 'VSLVSKY',
+        editor: 'CHGRVSKY_V'
     },
     {
         name: 'Всеволожск',
@@ -86,9 +95,10 @@ let vsevolozhskMaps = [
         name: 'Голубая Дача',
         year: 1998,
         url: './maps/forest/vsevolozhsk/golubaya_dacha_1998.webp',
-        link: './original_maps/forest/vsevolozhsk/golubaya_dacha_1998_omaps.jpg',
+        link: ['./original_maps/forest/vsevolozhsk/golubaya_dacha_1998_omaps.jpg','./original_maps/forest/vsevolozhsk/golubaya_dacha_1999_omaps.webp'],
         bounds: [[59.96506458173234, 30.610570907592777], [59.96341055506748, 30.6599235534668], [59.947145142259515, 30.607910156250004]],
-        author: 'RYLOV_V'
+        author: 'RYLOV_V',
+        editor: 'FDRV_L'
     },
     {
         name: 'Голубая Дача',
@@ -98,7 +108,7 @@ let vsevolozhskMaps = [
         info: '21,27.04. Открытие сезона ЛГС ДСО "Спартак".',
         results: './docs/1985/1985_04_21_gdacha_omaps.pdf',
         url: './maps/forest/vsevolozhsk/golubaya_dacha_1982.webp',
-        link: ['./original_maps/starts/other/gdacha_1985_04_21_M_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_M_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_MW13_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MB_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WB_omaps.jpg'],
+        link: ['./original_maps/forest/vsevolozhsk/gdacha_1982_omaps.webp','./original_maps/starts/other/gdacha_1985_04_21_M_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_M_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_MW13_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MB_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WB_omaps.jpg'],
         bounds: [[59.967685078278585, 30.609111785888675], [59.96579490488528, 30.659837722778324], [59.94538275567055, 30.607652664184574]],
         author: ['RYLOV_V','FDRV_L','GRNV_A'],
         planner: 'RYLOV_V'

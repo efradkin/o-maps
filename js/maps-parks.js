@@ -1125,11 +1125,12 @@ let parkMaps = [
     },
     {
         name: 'Сестрорецк, парк Дубки',
-        year: 1,
+        year: 1995,
         url: './maps/parks/sestroretsk_dubki_old.webp',
-        link: './original_maps/parks/sestroretsk_dubki_old_omaps.jpg',
+        link: './original_maps/parks/sestroretsk_dubki_1995_omaps.webp',
         bounds: [[60.0966914852013, 29.919505119323734], [60.09602823596937, 29.955124855041507], [60.08699816046266, 29.918732643127445]],
         author: 'MLVA_M',
+        logo: 'wn_retro.webp',
         type: ['PARK']
     },
     {

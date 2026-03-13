@@ -144,10 +144,10 @@ let zelikMaps = [
         owner: 'SHKLV'
     },
     {
-        name: 'Ольгино',
+        name: 'Ольгино, Петровский пруд',
         year: 1997,
         url: './maps/forest/zelik/olgino_1997.webp',
-        link: './original_maps/forest/zelik/olgino_1997_omaps.jpg',
+        link: ['./original_maps/forest/zelik/olgino_1997_omaps.jpg','./original_maps/forest/zelik/olgino_1997_course_omaps.webp'],
         bounds: [[60.06068557237958, 30.07490158081055], [60.055630467498005, 30.140132904052738], [60.023825535526576, 30.060739517211918]],
         author: ['BZNV_A','KRCHKN_V']
     },
@@ -178,7 +178,7 @@ let zelikMaps = [
         name: 'Песочная',
         year: 1998,
         url: './maps/forest/zelik/pesochnaya_1998.webp',
-        link: './original_maps/forest/zelik/pesochnaya_1998_omaps.jpg',
+        link: ['./original_maps/forest/zelik/pesochnaya_1998_omaps.jpg','./original_maps/forest/zelik/pesochnaya_west_1998_omaps.webp'],
         bounds: [[60.12128646025379, 30.12837409973145], [60.11745940579484, 30.173993110656742], [60.10659584484433, 30.123052597045902]],
         author: ['VSLVSKY','DRBSHV']
     },
@@ -376,7 +376,7 @@ let zelikMaps = [
         name: 'Зеленогорск, оз Щучье',
         year: 1986,
         url: './maps/forest/zelik/zelenogorsk_schuchye_1986.webp',
-        link: './original_maps/forest/zelik/zelenogorsk_schuchye_1986_omaps.jpg',
+        link: ['./original_maps/forest/zelik/zelenogorsk_schuchye_1986_omaps.jpg','./original_maps/forest/zelik/zelenogorsk_schuchye_1986_wo_black_omaps.webp'],
         bounds: [[60.231544979485825, 29.739646911621097], [60.228263490678515, 29.806938171386722], [60.20647801103916, 29.734668731689457]],
         author: 'SHRNN'
     },
@@ -386,7 +386,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/repino_1983.webp',
         link: './original_maps/forest/zelik/repino_1983_omaps.jpg',
         bounds: [[60.21176583711235, 29.819898605346683], [60.208567657083265, 29.868822097778324], [60.191740095427, 29.814362525939945]],
-        author: ['BKSTN','IVNV_V','PTRV_A','TNV','BLZRV_V'],
+        author: ['BKSTN','IVNV_V','PTRV_A','TNV'],
         areas: [40,10,40,10]
     },
     {
@@ -684,7 +684,7 @@ let zelikMaps = [
         name: 'Пухтолова гора',
         year: 1993,
         url: './maps/forest/zelik/pukhtolova_gora_1993.webp',
-        link: './original_maps/forest/zelik/pukhtolova_gora_1993_omaps.jpg',
+        link: ['./original_maps/forest/zelik/pukhtolova_gora_1993_omaps.webp','./original_maps/forest/zelik/pukhtolova_gora_1993_winter_omaps.webp'],
         bounds: [[60.244965830871294, 29.639139175415043], [60.241515279872864, 29.694242477416996], [60.21764967363427, 29.632444381713867]],
         author: ['HSMTLN','APRN']
     },
@@ -769,8 +769,9 @@ let zelikMaps = [
         name: 'Сестрорецк, Ржавая канава',
         year: 1996,
         url: './maps/forest/zelik/sestroretsk_rjavaya_kanava_1996.webp',
-        link: './original_maps/forest/zelik/sestroretsk_rjavaya_kanava_1996_omaps.jpg',
+        link: './original_maps/forest/zelik/sestroretsk_rjavaya_kanava_1996_omaps.webp',
         bounds: [[60.14300030802044, 29.95083332061768], [60.14045779307042, 29.988126754760746], [60.118571221654584, 29.94486808776856]],
+        logo: 'wn_retro.webp',
         author: 'MLVA_M'
     },
     {
@@ -814,6 +815,13 @@ let zelikMaps = [
     },
     {
         name: 'Сестрорецк, Детские Дюны',
+        year: 1,
+        url: './maps/forest/zelik/sestroretskie_detskie_djuny_retro.webp',
+        link: './original_maps/forest/zelik/sestroretskie_detskie_djuny_retro_omaps.webp',
+        bounds: [[60.12827663453366, 29.951519966125492], [60.1271223961621, 29.979586601257328], [60.11172868246148, 29.94778633117676]],
+    },
+    {
+        name: 'Сестрорецк, Детские Дюны',
         year: 2005,
         url: './maps/forest/zelik/sestroretskie_detskie_djuny_2005.webp',
         link: './original_maps/forest/zelik/sestroretskie_detskie_djuny_2005_omaps.jpg',
@@ -844,6 +852,15 @@ let zelikMaps = [
         link: './original_maps/forest/zelik/tarkhovka_1987_omaps.jpg',
         bounds: [[60.073234306818485, 29.946198463439945], [60.07207813845158, 29.97581005096436], [60.05882212806155, 29.942722320556644]],
         author: 'BBNN_I'
+    },
+    {
+        name: 'Тарховка',
+        year: 1997,
+        url: './maps/forest/zelik/tarkhovka_1997.webp',
+        link: './original_maps/forest/zelik/tarkhovka_1997_omaps.webp',
+        bounds: [[60.07625299982382, 29.94709968566895], [60.07505411936656, 29.977440834045414], [60.05884354755957, 29.942378997802738]],
+        author: 'MLVA_M',
+        logo: 'wn_retro.webp'
     },
     {
         name: 'Тарховка',

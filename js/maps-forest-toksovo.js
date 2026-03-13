@@ -65,7 +65,7 @@ let toksovoMaps = [
         name: 'Сярьги, Охта-Парк',
         year: 1983,
         url: './maps/forest/toksovo/sjargi_1985.webp',
-        link: './original_maps/forest/toksovo/sjargi_1983_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/sjargi_1983_omaps.jpg','./original_maps/forest/toksovo/sjargi_1986_omaps.webp'],
         bounds: [[60.15902003964619, 30.391702651977543], [60.15269851792967, 30.46920776367188], [60.12915297366799, 30.383205413818363]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','AZBKNA'],
         areas: [70,20,10],
@@ -142,7 +142,7 @@ let toksovoMaps = [
         name: 'Энколово - север',
         year: 1985,
         url: './maps/forest/toksovo/enkolovo_1985.webp',
-        link: './original_maps/forest/toksovo/enkolovo_1985_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/enkolovo_1985_omaps.webp','./original_maps/forest/toksovo/enkolovo_1985_100_omaps.webp'],
         bounds: [[60.13252986721134, 30.408439636230472], [60.13037126003232, 30.444145202636722], [60.113375298370904, 30.406551361083984]],
         author: ['MLVA_M','KAZNTSVA_O']
     },
@@ -632,7 +632,7 @@ let toksovoMaps = [
         name: 'Токсово, оз Светлое',
         year: 1992,
         url: './maps/forest/toksovo/toksovo_svetloe_1992.webp',
-        link: './original_maps/forest/toksovo/toksovo_svetloe_1992_omaps.jpg',
+        link: './original_maps/forest/toksovo/toksovo_svetloe_1992_omaps.webp',
         bounds: [[60.17379398977339, 30.577354431152347], [60.16790228578538, 30.64773559570313], [60.12919572132151, 30.55984497070313]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','DBRTSV_V','DBRTSV_S','GUSEV_I'],
         areas: [50,15,25,5,5]
