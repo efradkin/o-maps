@@ -47,9 +47,18 @@ let mmsStartsMaps = [
         start: 'MMS',
         date: '2000-07-02',
         url: './maps/starts/mms/mms_2000_07_02.webp',
-        link: './original_maps/starts/mms/mms_2000_07_02_omaps.jpg',
+        link: ['./original_maps/starts/mms/mms_2000_07_02_omaps.jpg','./original_maps/starts/mms/mms_2000_07_02_clean_omaps.webp'],
         bounds: [[60.99881359371209, 29.16801452636719], [60.99461039272978, 29.22247409820557], [60.97972825675465, 29.161233901977543]],
         author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV','TKMKV_K','VRBY'],
+        planner: 'TLNV_A'
+    },
+    {
+        name: 'Каменногорск',
+        start: 'MMS',
+        date: '2000-06-30',
+        url: './maps/starts/mms/mms_2000_06_30.webp',
+        link: './original_maps/starts/mms/mms_2000_06_30_clean_omaps.webp',
+        bounds: [[61.00282900381116, 29.178786277771], [61.000602906518246, 29.205093383789066], [60.99423582307834, 29.175481796264652]],
         planner: 'TLNV_A'
     },
     {

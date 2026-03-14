@@ -148,6 +148,18 @@ let otherMaps = [
         region: 'KLGA',
         type: ['CITY']
     },
+    // --- Тверь ---
+    {
+        name: 'Нелидово',
+        year: 2025,
+        url: './maps/other/nelidovo_2025.webp',
+        link: './original_maps/other/nelidovo_2025_omaps.gif',
+        bounds: [[56.228949815008214, 32.78070330619813], [56.22815660823478, 32.78842806816102], [56.22246650837227, 32.7783215045929]],
+        author: 'SVCHK',
+        owner: 'SVCHK',
+        region: 'TVER',
+        type: ['CITY']
+    },
     // --- Карелия ---
     {
         name: 'Сортавала, оз Хелмиярви',

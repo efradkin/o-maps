@@ -118,7 +118,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/koloskovo_1998.webp',
-        link: './original_maps/forest/sosnovo/koloskovo_1998_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/koloskovo_1998_omaps.jpg','./original_maps/forest/sosnovo/koloskovo_1998_06_20_wn_omaps.webp'],
         bounds: [[60.6301017662667, 30.169658660888675], [60.62509203460731, 30.244503021240238], [60.604539783918085, 30.16227722167969]],
         results: './docs/1998/1998_06_19_wn_omaps.pdf',
         author: ['KAZNTSVA_O','MLVA_M']
@@ -152,7 +152,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/zamostie_1991.webp',
-        link: './original_maps/forest/sosnovo/zamostie_1991_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/zamostie_1991_clean_100_omaps.webp','./original_maps/forest/sosnovo/zamostie_1991_omaps.jpg'],
         bounds: [[60.52663426892839, 30.328273773193363], [60.5241425840469, 30.374622344970707], [60.49295920575224, 30.32381057739258]],
         author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S']
     },
@@ -162,7 +162,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/snegirevka_2000.webp',
-        link: './original_maps/forest/sosnovo/snegirevka_2000_omaps.jpg',
+        link: './original_maps/forest/sosnovo/snegirevka_2000_omaps.webp',
         bounds: [[60.55356600774117, 30.313425064086918], [60.55177266226546, 30.348958969116214], [60.52781669636631, 30.31016349792481]],
         author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S']
     },
@@ -340,6 +340,14 @@ let sosnovoMaps = [
     },
     {
         name: 'Снегирёвка',
+        year: 1978, // предположительно
+        url: './maps/forest/sosnovo/snegirevka_1978.webp',
+        link: './original_maps/forest/sosnovo/snegirevka_1978_omaps.webp',
+        bounds: [[60.53832995547764, 30.25797843933106], [60.53706347864553, 30.320806503295902], [60.51489211091417, 30.2574634552002]],
+        author: 'SPZHNKV_Y'
+    },
+    {
+        name: 'Снегирёвка',
         year: 1988,
         startYear: 1990,
         start: 'WN',
@@ -458,7 +466,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/petjajarvy_1995.webp',
-        link: ['./original_maps/forest/sosnovo/petjajarvy_1995_wn_omaps.jpg','./original_maps/starts/wn/wn_1996_06_21_omaps.jpg','./original_maps/starts/wn/wn_1996_06_23_omaps.jpg'],
+        link: ['./original_maps/forest/sosnovo/petjajarvy_1995_wn_omaps.jpg','./original_maps/forest/sosnovo/petjajarvy_1995_wn_west_omaps.webp','./original_maps/forest/sosnovo/petjajarvy_1995_wn_center_omaps.webp','./original_maps/forest/sosnovo/petjajarvy_1995_wn_east_omaps.webp','./original_maps/starts/wn/wn_1996_06_21_omaps.jpg','./original_maps/starts/wn/wn_1996_06_23_omaps.jpg'],
         info: '21-23 июня.',
         results: './docs/1996/1996_06_21_wn_omaps.pdf',
         bounds: [[60.63513176408995, 30.066618919372562], [60.62854420197844, 30.161118507385257], [60.60831008075406, 30.059537887573246]],
@@ -470,7 +478,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/petjajarvy_1997.webp',
-        link: ['./original_maps/forest/sosnovo/petjajarvy_1997_omaps.jpg','./original_maps/forest/sosnovo/petjajarvy_wn_1997.jpg'],
+        link: ['./original_maps/forest/sosnovo/petjajarvy_1997_omaps.webp','./original_maps/forest/sosnovo/petjajarvy_1997_omaps.jpg','./original_maps/forest/sosnovo/petjajarvy_wn_1997.jpg'],
         results: './docs/1997/1997_06_20_wn_omaps.pdf',
         bounds: [[60.634921319659725, 30.012931823730472], [60.63241692549768, 30.06588935852051], [60.616691620658365, 30.008082389831547]],
         author: ['LVCHV','SVTKN','KAZNTSVA_O']

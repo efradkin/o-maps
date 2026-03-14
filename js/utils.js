@@ -75,6 +75,10 @@ const regions = {
     SPB: {
         name: 'С-Петербург'
     },
+    TVER: {
+        name: 'Тверская область',
+        logo: 'tver.webp'
+    },
     FRA: {
         name: 'Франция'
     },

@@ -380,7 +380,8 @@ let authors = {
     SNTSNA: { name: 'Синицина Л.' },
     SPZHNKV_Y: {
         name: 'Сапожников Юрий',
-        about: 'https://o-site.spb.ru/history/Peoples/280.html'
+        about: 'https://o-site.spb.ru/history/Peoples/280.html',
+        logo: 'sapozhnikov.webp'
     },
     SRGV: { name: 'Сергеев' },
     SRKN_A: { name: 'Сорокин А.' },
