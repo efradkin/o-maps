@@ -334,6 +334,44 @@ let bashMaps = [
         type: ['WINTER']
     },
     {
+        name: 'Глумилино, ДОЛ Огонёк',
+        year: 2022,
+        url: './maps/bash/glumilino_ogonek_2022.webp',
+        link: ['./original_maps/bash/glumilino_ogonek_2022_omaps.gif','./original_maps/bash/glumilino_ogonek_2022_omaps.ocd'],
+        bounds: [[54.61097573509089, 55.729179382324226], [54.60637760576174, 55.76376914978028], [54.58807936328479, 55.719952583312995]],
+        author: 'SLTNBKV',
+        owner: 'YUSHV_A'
+    },
+    {
+        name: 'Глумилино, Зарянка',
+        year: 2010,
+        url: './maps/bash/glumilino_zaryanka_2010.webp',
+        link: ['./original_maps/bash/glumilino_zaryanka_2010_omaps.gif','./original_maps/bash/glumilino_zaryanka_2010_omaps.ocd'],
+        bounds: [[54.60759553923347, 55.733642578125], [54.60520934962113, 55.757417678833015], [54.59327630338921, 55.72875022888184]],
+        author: 'LNTV',
+        owner: 'YUSHV_A'
+    },
+    {
+        name: 'Глумилино',
+        year: 2026,
+        url: './maps/bash/glumilino_2026_winter.webp',
+        link: './original_maps/bash/glumilino_2026_winter_omaps.gif',
+        info: '<a href="https://o-bash.ru/universiade_winter_2026/">Зимняя Универсиада</a>.',
+        bounds: [[54.60356876312585, 55.73012351989747], [54.60066028821935, 55.752439498901374], [54.590168165317664, 55.724759101867676]],
+        owner: 'YUSHV_A',
+        type: ['WINTER']
+    },
+    {
+        name: 'Лекаревка',
+        year: 2026,
+        url: './maps/bash/lekarevka_2026_winter.webp',
+        link: './original_maps/bash/lekarevka_2026_winter_omaps.gif',
+        info: '<a href="https://o-bash.ru/pervenstvo-rossii-2/">Первенство России</a>.',
+        bounds: [[54.59367412793986, 55.684504508972175], [54.59131198770943, 55.70383787155152], [54.57964846664742, 55.677037239074714]],
+        owner: 'YUSHV_A',
+        type: ['WINTER']
+    },
+    {
         name: 'Бирск',
         year: 2019,
         url: './maps/bash/birsk_2019.webp',

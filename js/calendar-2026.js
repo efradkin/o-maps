@@ -476,6 +476,7 @@ let events2026 = [
     place: 'Колтуши',
     o_site: '260315_bn',
     reg: 'http://orgeo.ru/event/koltushi_classic',
+    reskeep: 844,
     type: 'ORIENT',
     owner: 'WN',
     map: 'orovo_2019'
@@ -595,6 +596,14 @@ let events2026 = [
     owner: 'DLITELNY'
 },
 {
+    id: 'SPB_20260407_1',
+    date: '2026-04-07',
+    name: 'Спринт у дома',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    owner: 'NW'
+},
+{
     id: 'SPB_20260411_1',
     date: '2026-04-11',
     place: 'Луга, Шалово',
@@ -639,6 +648,14 @@ let events2026 = [
     owner: 'FENIX',
     fmt: 'спринт',
     map: 'school_532_2023'
+},
+{
+    id: 'SPB_20260423_1',
+    date: '2026-04-23',
+    name: 'Спринт у дома',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    owner: 'NW'
 },
 {
     id: 'SPB_20260425_1',
@@ -711,6 +728,14 @@ let events2026 = [
     reg: 'https://orgeo.ru/event/50962',
     type: 'ORIENT',
     fmt: 'выбор',
+},
+{
+    id: 'SPB_20260507_1',
+    date: '2026-05-07',
+    name: 'Спринт у дома',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    owner: 'NW'
 },
 {
     id: 'SPB_20260509_1',

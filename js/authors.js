@@ -624,7 +624,7 @@ let authors = {
     },
     KZNN_O: { name: 'Казанин Олег' }, // Саранск
     LKN_A: { name: 'Лукин Андрей' },
-    LNTV: { name: 'Леонтьев Игорь' },
+    LNTV: { name: 'Леонтьев Игорь' }, // Тамбов
     LVN_B: {
         name: 'Левин Борис',
         about: 'https://o-moscow.ru/people/LevinBK.html'
