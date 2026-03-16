@@ -166,7 +166,8 @@ let otherEvents2026 = [
     fmt: '51,34,13,3 skate',
     start: 'MULTSPORT',
     track: 'orekhovo_12_ski',
-    coords: [60.461689, 30.294732]
+    coords: [60.461689, 30.294732],
+    cancelled: true
 },
 {
     id: 'OTHER_20260308_1',

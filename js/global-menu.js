@@ -204,7 +204,7 @@ function buildGlobalMenu() {
                 menuItems: [
                     {
                         title: '📞 Контакты',
-                        onClick: () => goPage('contacts')
+                        onClick: () => goPage('help/contacts')
                     },
                     {
                         title: 'ℹ️ Справка',

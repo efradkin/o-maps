@@ -1,7 +1,6 @@
 const WELCOME_OPENED_TIME_KEY = 'welcomeOpenedTime';
 
 const welcomeDialogContent = `
-<h2>O-maps / Карты на карте ◪</h2>
 <p>
 Добро пожаловать на сайт-каталог спортивных карт (ориентирование, рогейн, охота на лис, туризм итп).
 Тут представлены почти полторы тысячи карт разных авторов, мест, типов и годов издания. Со временем их будет ещё больше. Всё это позволяет решать три основные задачи:<br/>
@@ -84,7 +83,8 @@ styleSheetEl.innerHTML = `
     }
     dialog#welcome-modal {
         div {
-            padding: 0 20px;
+            margin-left: 20px;
+            overflow: auto;
         }
         #close-btn {
             float: right;
@@ -106,10 +106,13 @@ dialogEl.addEventListener('cancel', (event) => {
     event.preventDefault();
 });
 dialogEl.setAttribute('id', 'welcome-modal');
+const h2El = document.createElement('h2');
+h2El.innerHTML = 'O-maps / Карты на карте ◪';
+dialogEl.appendChild(h2El);
 const closeBtnEl = document.createElement('button');
 closeBtnEl.setAttribute('id', 'close-btn');
 closeBtnEl.innerHTML = '╳';
-dialogEl.appendChild(closeBtnEl);
+h2El.appendChild(closeBtnEl);
 const divEl = document.createElement('div');
 divEl.innerHTML = welcomeDialogContent;
 dialogEl.appendChild(divEl);
@@ -138,6 +141,9 @@ function openWelcome() {
     if (sh < 800) {
         dh = sh - 100;
     }
+
+    divEl.style.width = (dw - 30) + 'px';
+    divEl.style.height = (dh - 80) + 'px';
 
     dialogEl.style.width = dw + 'px';
     dialogEl.style.height = dh + 'px';

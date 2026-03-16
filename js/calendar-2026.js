@@ -354,7 +354,8 @@ let events2026 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24280/',
     type: 'ORIENT',
     map: 'pavlovsk_mariental_2022',
-    owner: 'EGRV_EGR'
+    owner: 'EGRV_EGR',
+    me: 'М45'
 },
 {
     id: 'SPB_20260223_1',
@@ -370,7 +371,8 @@ let events2026 = [
     fmt: 'спринт',
     info: 'Медаль - каждому участнику. Квест в стиле средневекового фэнтези.',
     map: 'udelny_2021',
-    owner: 'SFSO_SPB'
+    owner: 'SFSO_SPB',
+    me: 'М45'
 },
 {
     id: 'SPB_20260228_1',
@@ -424,7 +426,8 @@ let events2026 = [
     reg: 'https://orgeo.ru/event/info/50766',
     type: 'ORIENT',
     map: 'sestroretsk_tamozhennaya_doroga_2012',
-    owner: 'WN'
+    owner: 'WN',
+    me: 'МА'
 },
 {
     id: 'SPB_20260308_1',
@@ -435,13 +438,17 @@ let events2026 = [
     reg: 'http://o-reg.spb.ru/?filter[day_id]=1721',
     info: 'С лабиринтом и бабочками.',
     reskeep: 843,
-    gps: ['https://viewer.o-gps-center.ru/viewer/event/24366/','https://viewer.o-gps-center.ru/viewer/event/24380/'],
+    gps: {
+        'M14':'https://viewer.o-gps-center.ru/viewer/event/24366/',
+        'M21':'https://viewer.o-gps-center.ru/viewer/event/24380/'
+    },
     photo: 'https://vk.ru/album-230167293_312838601',
     type: 'ORIENT',
     fmt: 'спринт',
     map: 'pulkovsky_2024',
     owner: 'SFSO_SPB',
-    planner: 'LHMNV'
+    planner: 'LHMNV',
+    me: 'М45'
 },
 {
     id: 'SPB_20260308_2',
@@ -467,7 +474,8 @@ let events2026 = [
     type: 'ORIENT',
     owner: 'DLITELNY',
     map: 'udelnaya_2015',
-    planner: 'KSHN_D'
+    planner: 'KSHN_D',
+    me: 'Pro'
 },
 {
     id: 'SPB_20260315_1',
@@ -476,10 +484,15 @@ let events2026 = [
     place: 'Колтуши',
     o_site: '260315_bn',
     reg: 'http://orgeo.ru/event/koltushi_classic',
+    gps: {
+        'A':'https://viewer.o-gps-center.ru/viewer/event/24408/',
+        'B':'https://viewer.o-gps-center.ru/viewer/event/24415/'
+    },
     reskeep: 844,
     type: 'ORIENT',
     owner: 'WN',
-    map: 'orovo_2019'
+    map: 'orovo_2019',
+    me: 'MA'
 },
 {
     id: 'SPB_20260315_2',
