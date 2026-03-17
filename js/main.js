@@ -302,10 +302,6 @@ function buildTrackPopup(t, gpxLayer) {
 let searchBox;
 if (mapElement) {
 
-    if (HAS_EMBEDDED_PARAM) {
-        document.getElementById('map_region_selector').style.display = 'none';
-    }
-
     let savedState;
     if (!MAP_NAME_PARAM) {
         savedState = loadMapState(REGION_KEY);
@@ -418,10 +414,10 @@ if (mapElement) {
         L.easyButton('button-icon home-icon', function (btn, map) {
             selectMapRegion('index');
         }, 'Начальная страница').addTo(map);
-    }
 
-    // --- global menu ---
-    buildGlobalMenu();
+        // --- global menu ---
+        buildGlobalMenu();
+    }
 
     // Instantiate the ZoomBar control..
     new L.Control.ZoomBar({position: 'topleft'}).addTo(map);
@@ -572,9 +568,11 @@ if (mapElement) {
     }
 
     // --- sheet ---
-    L.easyButton('button-icon papers-icon', function (btn, map) {
-        downloadSheet();
-    }, 'Сводная таблица ' + (loadTracksRequired ? 'маршрутов' : 'карт')).addTo(map)
+    if (!HAS_EMBEDDED_PARAM) {
+        L.easyButton('button-icon papers-icon', function (btn, map) {
+            downloadSheet();
+        }, 'Сводная таблица ' + (loadTracksRequired ? 'маршрутов' : 'карт')).addTo(map)
+    }
 
     // --- Leaflet.QgsMeasure (https://github.com/gabriel-russo/Leaflet.QgsMeasure)
     if (!hiddenButtonsMode) {
