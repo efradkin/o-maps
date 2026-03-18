@@ -107,7 +107,7 @@ dialogEl.addEventListener('cancel', (event) => {
 });
 dialogEl.setAttribute('id', 'welcome-modal');
 const h2El = document.createElement('h2');
-h2El.innerHTML = 'O-maps / Карты на карте ◪';
+h2El.innerHTML = 'O-Maps / Карты на карте ◪';
 dialogEl.appendChild(h2El);
 const closeBtnEl = document.createElement('button');
 closeBtnEl.setAttribute('id', 'close-btn');

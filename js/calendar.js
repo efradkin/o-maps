@@ -297,16 +297,16 @@ function buildPlace(event) {
         let result = '';
         for (const [i, m] of maps.entries()) {
             if (i === 0) {
-                result = buildLink(`${mapPage}?calendar&map=${m}`, event.place + ' 🗺️', 'Карта на o-Maps');
+                result = buildLink(`${mapPage}?calendar&map=${m}`, event.place + ' 🗺️', 'Карта на O-Maps');
             } else {
-                result += buildLink(`${mapPage}?calendar&map=${m}`, ' 🗺️', 'Карта на o-Maps');
+                result += buildLink(`${mapPage}?calendar&map=${m}`, ' 🗺️', 'Карта на O-Maps');
             }
         }
         return result;
     } else if (event.coord) {
-        return buildLink(`${mapPage}?x=${event.coord[0]}&y=${event.coord[1]}&calendar`, event.place + ' 🗺️', 'Место на o-Maps');
+        return buildLink(`${mapPage}?x=${event.coord[0]}&y=${event.coord[1]}&calendar`, event.place + ' 🗺️', 'Место на O-Maps');
     }  else if (event.track) {
-        return buildLink(`tracks.html?track=${event.track}&calendar`,event.place + ' 🚸', 'Трек на o-Maps');
+        return buildLink(`tracks.html?track=${event.track}&calendar`,event.place + ' 🚸', 'Трек на O-Maps');
     } else {
         return event.place ?? '';
     }

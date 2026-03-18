@@ -39,7 +39,7 @@ let background = BACKGROUND_PARAM || localStorage.getItem('background') || BACKG
 const BASEMENT =
     (HAS_EMBEDDED_PARAM || background === BACKGROUND_YANDEX || background === BACKGROUND_SATELLITE) ?
         '<a href="https://yandex.ru/legal/maps_termsofuse/ru/?lang=ru">Я.Картах</a>' : '<a href="https://www.openstreetmap.org/copyright">OSM</a>';
-const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-maps</a> | <a href="https://t.me/o_maps">Спорт. карты</a> на ' + BASEMENT;
+const ATTRIBUTION = '© <a href="https://github.com/efradkin/o-maps">O-Maps</a> | <a href="https://t.me/o_maps">Спорт. карты</a> на ' + BASEMENT;
 const CLEAR_MAP_LABEL = 'Убрать ориенты';
 const SHOW_ALL_LABEL = 'Показать все ориенты';
 
