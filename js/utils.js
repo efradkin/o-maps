@@ -163,6 +163,8 @@ const FUTURE_EVENTS_CALENDAR_PARAM_VALUE = 'future';
 
 const onlyOneSport = (typeof oneSportOnly !== 'undefined') && oneSportOnly;
 
+const urlParams = new URLSearchParams(window.location.search);
+
 /*   FUNCTIONS   */
 
 function year(o) { // map, track, event

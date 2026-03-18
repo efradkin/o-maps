@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.83">
+    <title>O-Maps. Новости</title>
+    <meta name="description" content="Новости сайта O-Maps.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/slideshow.css"/>
+
+    <meta property="og:title" content="O-Maps. Новости">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Новости сайта O-Maps.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <script src="js/ext/jquery.slim.min.js"></script>
+    <script src="js/ext/bootstrap.min.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body help-body">
+    <header class="main-header">
+        <h1>
+            <a href="index.html">O-Maps</a> ◪ Новости
+
+            <sup class="header_checkbox_container">
+                <input type="checkbox" id="only-major-news" name="only-major" onclick="switchMajorNews(this.checked);" />
+                <label for="only-major-news">только важные</label>
+            </sup>
+        </h1>
+    </header>
+
+    <main>
+        <div class="container">
+        </div>
+
+        <noscript>
+            <div id="noscript_content">
+                Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+            </div>
+        </noscript>
+    </main>
+
+    <footer>
+        <hr />
+        <span class="my-copyright">© <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>, <a href="https://t.me/o_maps" target="_blank">O-maps group</a></span>
+    </footer>
+
+    <!-- Модальное окно -->
+    <div id="slideshow-modal" class="modal">
+        <span class="close">&times;</span>
+
+        <div class="modal-content">
+            <!-- Слайды будут добавляться здесь -->
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <script src="js/utils-common.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/news.js"></script>
+    <script>
+        let onlyMajorNews = false;
+        const major = localStorage.getItem('onlyMajorNews');
+        if (major != null) {
+            onlyMajorNews = (major === 'true');
+        }
+        if (onlyMajorNews) {
+            document.getElementById('only-major-news').checked = 'checked';
+        }
+
+        // Массив с адресами картинок
+        const images = [];
+        let picCounter = 0;
+
+        let container = document.querySelector('.container');
+        news.forEach(n => {
+            if (onlyMajorNews && !n.major) {
+                return;
+            }
+            const img = '<a href="#" onClick="openModal(#counter); return false;">' +
+                '<img src="#src" class="help-figure help-figure-left news-figure" /></a>';
+            //let img = '<img src="#src" class="help-figure help-figure-left news-figure" />'
+            let row = `
+                <section>
+                    <h4>#date #title</h4>
+                    <p>#img#text
+                </section>
+            `;
+            row = row.replace('#date', `<span class="news_date">${formatDate(n, true, true)}.</span>`);
+            row = row.replace('#title', n.title);
+            const text = n.info ?? '';
+            row = row.replace('#text', text);
+            let imgs = '';
+            let idx = picCounter;
+            if (n.pics) {
+                for (let p = 0; (p < n.pics[1] && p < 2); p++) {
+                    imgs += img.replace('#src', `news/${n.pics[0]}/thumb_${p+1}.jpg`).replace('#counter', picCounter+p);
+                }
+            }
+            row = row.replace('#img', imgs);
+
+            const elRow = document.createElement("div");
+            elRow.classList.add("row");
+            if (n.major) {
+                elRow.classList.add("major");
+            }
+            elRow.innerHTML = row;
+            container.appendChild(elRow);
+
+            if (n.pics) {
+                for (let p = 1; p <= n.pics[1]; p++) {
+                    let url = 'news/' + n.pics[0] + '/pic_' + p + '.jpg';
+                    images.push(url);
+                    picCounter++;
+                }
+            }
+        });
+
+        function switchMajorNews(value) {
+            localStorage.setItem('onlyMajorNews', value);
+            location.reload();
+        }
+    </script>
+    <script src="js/slideshow.js"></script>
+</body>
+</html>

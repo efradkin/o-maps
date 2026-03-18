@@ -1,4 +1,3 @@
-const urlParams = new URLSearchParams(window.location.search);
 const EVENT_TYPE_PARAM = urlParams.get('event-type');
 const EVENT_MONTH_PARAM = urlParams.get('event-month');
 const CALENDAR_NAME_PARAM = urlParams.get('calendar');
@@ -39,7 +38,7 @@ if (me) {
     ];
 }
 
-function switchRus(value) {
+function switchMajor(value) {
     localStorage.setItem('onlyMajor', value);
     location.reload();
 }

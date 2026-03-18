@@ -207,6 +207,10 @@ function buildGlobalMenu() {
                         onClick: () => goPage('help/contacts')
                     },
                     {
+                        title: 'ℹ️ Новости',
+                        onClick: () => goPage('news')
+                    },
+                    {
                         title: 'ℹ️ Справка',
                         onClick: () => goPage('help/help')
                     },

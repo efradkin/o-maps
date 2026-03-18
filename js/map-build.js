@@ -1,4 +1,3 @@
-const urlParams = new URLSearchParams(window.location.search);
 let BACKGROUND_PARAM = urlParams.get('background');
 let AUTHOR_PARAM = urlParams.get('author');
 const OWNER_PARAM = urlParams.get('owner');
