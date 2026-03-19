@@ -34,8 +34,8 @@
     <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 </head>
-<body class="index-body">
-    <h1> <a href="./index.html" target="_self" title="Главная страница">O-Maps ◪</a></h1>
+<body class="index-body stat-body">
+    <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
 
     <div class="container">
 
@@ -136,6 +136,7 @@
     <script src="js/maps-starts-other.js"></script>
     <script src="js/maps-rogaine-kkm.js"></script>
 
+    <script src="js/welcome.js"></script>
     <script src="js/starts.js"></script>
     <script src="js/authors.js"></script>
     <script src="js/owners.js"></script>
@@ -164,6 +165,7 @@
         if (m.gps) {
             document.querySelector('#map_gps_url a').href = m.gps;
         }
+        writeWelcomeButton();
     </script>
 
     <script src="js/ext/bootstrap.min.js"></script>

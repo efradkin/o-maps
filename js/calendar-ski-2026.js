@@ -910,7 +910,8 @@ let skiEvents2026 = [
         link: 'https://vk.com/multsport',
         reg: 'https://reg.o-time.ru/race/26098',
         start: 'MULTSPORT',
-        price: 1
+        price: 1,
+        cancelled: true
     },
     {
         id: 'SKI_20260323_1',

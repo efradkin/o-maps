@@ -42,18 +42,17 @@
     </style>
 </head>
 <body class="stat-body sheet-body">
+    <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
     <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
-    <h1>
-        <a href="./index.html" target="_self" title="Главная страница">O-Maps ◪</a>
-    </h1>
-    <h2 class="text-center">
-        Руководства и правила проведения стартов и картографии
 
+    <h2>O-Maps ◪ Руководства и правила по проведению стартов и картографии</h2>
+
+    <div class="sheet-filters">
         <sup class="header_checkbox_container">
             <input type="checkbox" id="only-rus" name="only-rus" onclick="switchRus(this.checked);" />
             <label for="only-rus">только на русском</label>
         </sup>
-    </h2>
+    </div>
 
     <div class="o-sheet-roof">
         <a href="#" onclick="downloadSheetTable('o-maps-rules.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
@@ -97,7 +96,6 @@
         let oMaps = [
             ...rules,
         ];
-        writeWelcomeButton();
 
         const popupMessage = 'Считаете, что было бы полезным добавить сюда ещё какой-то документ? <a href="help/contacts.html">Сообщите мне</a>, пожалуйста.';
 
@@ -112,6 +110,7 @@
         if (onlyRus) {
             document.getElementById('only-rus').checked = 'checked';
         }
+        writeWelcomeButton();
     </script>
 
     <script src="js/map-build.js"></script>

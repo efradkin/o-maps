@@ -82,12 +82,23 @@ styleSheetEl.innerHTML = `
         }
     }
     dialog#welcome-modal {
+        font-size: 16px;
         div {
-            margin-left: 20px;
+            margin: 10px 0 0 -10px;
+            padding-left: 30px;
             overflow: auto;
         }
         #close-btn {
             float: right;
+            font-size: 14px;
+            font-family: Arial;
+            line-height: normal;
+        }
+        h2 {
+            font-size: 1.5rem;
+            text-align: center;
+            font-weight: 700;
+            margin: 0 0 20px 0;
         }
     }
 `;
@@ -107,7 +118,7 @@ dialogEl.addEventListener('cancel', (event) => {
 });
 dialogEl.setAttribute('id', 'welcome-modal');
 const h2El = document.createElement('h2');
-h2El.innerHTML = 'O-Maps / Карты на карте ◪';
+h2El.innerHTML = 'O-Maps ◪ Карты на карте';
 dialogEl.appendChild(h2El);
 const closeBtnEl = document.createElement('button');
 closeBtnEl.setAttribute('id', 'close-btn');
@@ -143,7 +154,7 @@ function openWelcome() {
     }
 
     divEl.style.width = (dw - 30) + 'px';
-    divEl.style.height = (dh - 80) + 'px';
+    divEl.style.height = (dh - 90) + 'px';
 
     dialogEl.style.width = dw + 'px';
     dialogEl.style.height = dh + 'px';
@@ -164,8 +175,8 @@ function openWelcomeIfRequired() {
     }
 }
 
-function writeWelcomeButton() {
-    const BUTTON = '<a href="#" onclick="openWelcome(); return false" class="about-button stat-map-link-about-button tbank" title="О проекте"><img src="images/information_24.png" ></a>';
+function writeWelcomeButton(imagesPath = '') {
+    const BUTTON = `<a href="#" onclick="openWelcome(); return false" class="about-button stat-map-link-about-button tbank" title="О проекте"><img src="${imagesPath}images/information_24.png" ></a>`;
     const template = document.createElement('template');
     template.innerHTML = BUTTON;
     document.body.prepend(template.content.firstChild);

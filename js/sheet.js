@@ -90,7 +90,7 @@ if (START_NAME_PARAM) {
         selector.value = START_NAME_PARAM;
     }
     // Кнопка перехода на оглавление карт соревнования
-    let link = document.querySelector('.stat-map-link-right');
+    let link = document.querySelector('.stat-start-link');
     if (START_NAME_PARAM !== 'major' && link) {
         link.href = './start.html?start=' + START_NAME_PARAM;
         link.style.display = 'block';

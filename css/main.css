@@ -414,6 +414,15 @@ label:has(> span span .layer-shifted) {
     margin-left: 30px;
     margin-bottom: -5px;
 }
+.sheet-filters {
+    margin-left: -90px;
+    white-space: nowrap;
+}
+.sheet-map-link-label {
+    font-weight: bold;
+    float: right;
+    margin-top: 1em;
+}
 .o-sheet-roof {
     width: 100%;
     text-align: end;
@@ -435,7 +444,7 @@ label:has(> span span .layer-shifted) {
 .o-sheet-wrapper {
     overflow-y: auto;
     width: 100%;
-    height: calc(100vh - 155px);
+    height: calc(100vh - 125px);
 
     thead th {
         position: sticky;
@@ -453,8 +462,11 @@ label:has(> span span .layer-shifted) {
         content: "▲";
     }
 }
+.o-sheet-wrapper-wo-filters {
+    height: calc(100vh - 110px);
+}
 .o-sheet-maps-on-stroe-wrapper {
-    height: calc(100vh - 275px);
+    height: calc(100vh - 235px);
 }
 .sheet-icon {
     width: 20px;
@@ -535,8 +547,8 @@ button.nav-link {
     color: navy;
 }
 .header_checkbox_container {
-    font-size: .5em;
-    padding-left: 0;
+    font-weight: bold;
+    padding-left: 30px;
 }
 
 /* --- MAP INFO --- */

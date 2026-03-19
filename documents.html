@@ -37,10 +37,12 @@
     <base target="_blank">
 </head>
 <body class="help-body stat-body sheet-body">
+    <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
     <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
-    <h1>
-        <a href="./index.html" target="_self" title="Главная страница">O-Maps ◪</a>
 
+    <h2 class="text-center">O-Maps ◪ Документы (сканы и не только)</h2>
+
+    <div class="sheet-filters">
         <select id="year_selector" class="header_selector" onchange="selectYear(this.value)">
             <option value="ALL">Все годы</option>
             <option value="LATE">2000-е</option>
@@ -53,8 +55,7 @@
             <option value="1980-1987">1980-1987</option>
             <option value="EARLY">Ранние</option>
         </select>
-    </h1>
-    <h2 class="text-center">Документы (сканы и не только)</h2>
+    </div>
 
     <div class="o-sheet-roof">
         <a href="#" onclick="downloadSheetTable('o-maps-documents.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
