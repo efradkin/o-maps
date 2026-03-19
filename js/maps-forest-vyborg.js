@@ -648,6 +648,7 @@ let vyborgMaps = [
         link: './original_maps/forest/vyborg/leypjasuo_2025_omaps.jpg',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23280/',
         bounds: [[60.57075597983445, 29.20054435729981], [60.568773798958446, 29.215564727783207], [60.55892435354992, 29.19573783874512]],
+        restricted: 'с 19.03.2026 по 31.05.2026, ЧиП СПб',
         author: 'TKMKV_K',
         owner: 'VYBORG'
     },
@@ -707,6 +708,15 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/veschevo_south_2025.webp',
         link: './original_maps/forest/vyborg/veschevo_south_2025_omaps.jpg',
         bounds: [[60.67156002103652, 29.186425209045414], [60.66855393623469, 29.220070838928226], [60.65442368037886, 29.179086685180668]],
+        author: 'CHGRVSKY_V',
+        owner: 'SFSO_SPB'
+    },
+    {
+        name: 'Вещево, Ториковское оз',
+        year: 2026,
+        url: './maps/trnsprnt.png',
+        bounds: [[60.66716641780228, 29.185094833374027], [60.66809143673479, 29.21324729919434], [60.6484080297271, 29.210929870605472]],
+        restricted: 'с 19.03.2026 по 31.08.2026, ЧиП СПб',
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
     },

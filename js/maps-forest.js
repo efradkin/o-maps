@@ -528,6 +528,7 @@ let forestMaps = [
         year: 2024,
         url: './maps/forest/yappilya_2024.webp',
         bounds: [[60.23520963053894, 29.110679626464847], [60.22787991859254, 29.183120727539066], [60.18736650278566, 29.091625213623047]],
+        restricted: 'с 19.03.2026 по 28.09.2026, ЧиП СПб',
         author: ['TKMKV_K','TKMKVA_P','KVZN','NSNV','NKFRV_A'],
         owner: ['GLTV_YU', 'GLFSTRM']
     },
@@ -642,6 +643,7 @@ let forestMaps = [
         link: './original_maps/forest/polyany_2019_omaps.jpg',
         bounds: [[60.31740723452755, 29.281826019287113], [60.30782142277218, 29.369716644287113], [60.29008769806418, 29.269809722900394]],
         author: ['SHRNN','DBRTSV_V'],
+        restricted: 'с 19.03.2026 по 12.05.2026, ЧиП СПб',
         owner: 'SFSO_SPB'
     },
     {

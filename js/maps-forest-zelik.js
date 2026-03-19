@@ -438,6 +438,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_schuchye_2011.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_2011_omaps.jpg',
         bounds: [[60.23789394042978, 29.747972488403324], [60.23252510072741, 29.815092086791996], [60.20374847695044, 29.736213684082035]],
+        restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
         author: 'SHRNN',
         owner: 'SHRNN'
     },
@@ -587,6 +588,7 @@ let zelikMaps = [
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB',
         planner: 'CHGRVSKY_V',
+        restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
         me: 'Фит'
     },
     {
@@ -695,6 +697,14 @@ let zelikMaps = [
         bounds: [[60.241919992941305, 29.645104408264164], [60.238937779331096, 29.682226181030277], [60.22871098577209, 29.641027450561527]],
         author: 'MKHLV_A',
         owner: 'WN'
+    },
+    {
+        name: 'Пухтолова гора',
+        year: 2026,
+        url: './maps/trnsprnt.png',
+        bounds: [[60.23661572505161, 29.67192649841309], [60.23780872762262, 29.69012260437012], [60.2279651572218, 29.67244148254395]],
+        restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
+        owner: 'SFSO_SPB',
     },
     {
         name: 'Озерки',
