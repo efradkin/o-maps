@@ -173,10 +173,15 @@ ${indent}</div>`;
 
         const page = escapeJsString(item.page || '');
 
-        return `${indent}<a class="dropdown-item" href="#" onclick="return goPage('${options.urlPrefix}${page}')">${title}</a>`;
+        return `${indent}<a class="dropdown-item" href="${options.urlPrefix}${page}.html" target="_self">${title}</a>`;
     }
 
-    return `<div class="dropdown-button-right d-flex dropdown-hover-all">
+    const hoverClass =
+        window.matchMedia('(hover: hover) and (pointer: fine)').matches
+            ? ' dropdown-hover-all'
+            : '';
+
+    return `<div class="dropdown-button-right d-flex${hoverClass}">
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle btn-light" type="button" id="${rootButtonId}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <img src="${options.urlPrefix}${escapeHtml(buttonImage)}" alt="${escapeHtml(buttonAlt)}" />
