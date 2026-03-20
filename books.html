@@ -7,6 +7,7 @@
     <meta name="description" content="O-Maps. Книги и статьи про спортивное ориентирование.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=1"/>
@@ -38,9 +39,14 @@
     <base target="_blank">
 </head>
 <body class="help-body stat-body sheet-body books-body">
+    <script src="js/global-menu.js"></script>
+    <script>
+        writeGlobalMenuHtml();
+    </script>
+
     <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
 
-    <h2 class="text-center">O-Maps ◪ Книги и статьи о спортивном ориентировании</h2>
+    <h2 class="text-center">O-Maps ◪ Книги и статьи об ориентировании</h2>
 
     <div class="o-sheet-roof">
         <a href="#" onclick="downloadSheetTable('o-maps-books.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
@@ -75,6 +81,8 @@
         <a class="next">&#10095;</a>
     </div>
 
+    <script src="js/ext/bootstrap.min.js"></script>
+    <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
     <script src="js/ext/jquery.slim.min.js"></script>
 
     <script src="js/ext/leaflet.js"></script>

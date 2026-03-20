@@ -7,6 +7,7 @@
     <meta name="description" content="O-Maps. Календарь соревнований Санкт-Петербурга.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css?v=1"/>
 
@@ -35,11 +36,16 @@
     <base target="_blank">
 </head>
 <body class="stat-body sheet-body calendar-body">
+    <script src="js/global-menu.js"></script>
+    <script>
+        writeGlobalMenuHtml();
+    </script>
+
     <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
     <a href="spb.html" onclick="gotoMap('spb.html'); return false;" target="_self" class="stat-map-link stat-map-link-right" title="Карта" id="tracks_map_link"><img src="images/map_24.png" alt="Карта" /></a>
     <label class="sheet-map-link-label" for="tracks_map_link">На карте: </label>
 
-    <h2>O-Maps ◪ Календарь стартов СПб</h2>
+    <h2>O-Maps ◪ Календарь СПб</h2>
 
     <div class="sheet-filters">
         <span style="white-space: nowrap;">
@@ -105,6 +111,8 @@
         </table>
     </div>
 
+    <script src="js/ext/bootstrap.min.js"></script>
+    <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
     <script src="js/ext/jquery.slim.min.js"></script>
 
     <script src="js/calendar-2025.js"></script>

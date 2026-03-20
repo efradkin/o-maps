@@ -368,6 +368,22 @@ label:has(> span span .layer-shifted) {
     float: right;
     margin-right: 0;
 }
+
+.dropdown-hover-all .dropdown-menu, .dropdown-hover > .dropdown-menu.dropend {
+    margin-top:-2px !important;
+    margin-right:-2px !important;
+    margin-left:-2px !important;
+}
+.dropdown-button-right {
+    float: right;
+    margin: 0 0 0 20px;
+    border: 1px solid black;
+    button {
+        border-radius: 0;
+        padding: 7px;
+    }
+}
+
 .o-main-table {
     width: 100%;
     background-color: lightgray;
@@ -415,7 +431,7 @@ label:has(> span span .layer-shifted) {
     margin-bottom: -5px;
 }
 .sheet-filters {
-    margin-left: -90px;
+    margin: 20px 0 10px -170px;
     white-space: nowrap;
 }
 .sheet-map-link-label {

@@ -7,6 +7,7 @@
     <meta name="description" content="O-Maps. Руководства и правила проведения соревнований по спортивному ориентированию (рогейну) и картографии.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=1"/>
@@ -42,10 +43,15 @@
     </style>
 </head>
 <body class="stat-body sheet-body">
+    <script src="js/global-menu.js"></script>
+    <script>
+        writeGlobalMenuHtml();
+    </script>
+
     <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
     <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
-    <h2>O-Maps ◪ Руководства и правила по проведению стартов и картографии</h2>
+    <h2>O-Maps ◪ Руководства и правила по ориенту и картографии</h2>
 
     <div class="sheet-filters">
         <sup class="header_checkbox_container">
@@ -72,6 +78,9 @@
             <tbody></tbody>
         </table>
     </div>
+
+    <script src="js/ext/bootstrap.min.js"></script>
+    <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
 
     <script src="js/ext/leaflet.js"></script>
 

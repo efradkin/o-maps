@@ -7,6 +7,7 @@
     <meta name="description" content="O-Maps. Сводная таблица соревнований.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=1"/>
@@ -37,11 +38,16 @@
     <base target="_blank">
 </head>
 <body class="stat-body sheet-body">
-    <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
-    <a href="starts.html" target="_self" class="stat-map-link stat-map-link-right" title="Старты на карте"><img src="images/map_24.png" alt="Старты на карте" /></a>
-    <h4 style="float: right; margin-top: 1em;">На карте: </h4>
+    <script src="js/global-menu.js"></script>
+    <script>
+        writeGlobalMenuHtml();
+    </script>
 
-    <h2>O-Maps ◪ Серии стартов и многодневки</h2>
+    <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
+    <a href="starts.html" target="_self" class="stat-map-link stat-map-link-right" title="Старты на карте" id="starts_map_link"><img src="images/map_24.png" alt="Старты на карте" /></a>
+    <label class="sheet-map-link-label" for="starts_map_link">На карте: </label>
+
+    <h2>O-Maps ◪ Соревнования</h2>
 
     <div class="o-sheet-roof" style="display: none">
         <a href="#" onclick="downloadSheetTable('o-maps-starts.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
@@ -62,6 +68,8 @@
         </table>
     </div>
 
+    <script src="js/ext/bootstrap.min.js"></script>
+    <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
     <script src="js/ext/jquery.slim.min.js"></script>
     <script src="js/ext/leaflet.js"></script>
     <script src="js/ext/GPX.js"></script>

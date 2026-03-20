@@ -7,6 +7,7 @@
     <meta name="description" content="O-Maps. Сводная таблица маршрутов Санкт-Петербурга и Ленинградской области.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=1"/>
@@ -38,28 +39,18 @@
     <base target="_blank">
 </head>
 <body class="stat-body sheet-body sheet-body">
+    <script src="js/global-menu.js"></script>
+    <script>
+        writeGlobalMenuHtml();
+    </script>
+
     <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
     <a href="tracks.html" target="_self" class="stat-map-link stat-map-link-right" title="Маршруты на карте" id="tracks_map_link"><img src="images/map_24.png" alt="Маршруты на карте" /></a>
-<!--    <label class="sheet-map-link-label" for="tracks_map_link">На карте: </label>-->
+    <label class="sheet-map-link-label" for="tracks_map_link">На карте: </label>
 
-    <h2 class="text-center">O-Maps ◪ Маршруты СПб и окрестностей</h2>
+    <h2 class="text-center">O-Maps ◪ Маршруты</h2>
 
     <div class="sheet-filters">
-        <select class="header_selector" onchange="selectMapRegion(this.value, 'sheet')">
-            <option value="spb">Санкт-Петербург</option>
-            <option value="msk">Москва</option>
-            <option value="bash">Башкортостан</option>
-            <option value="srb">Белград</option>
-            <option value="pskov">Псков</option>
-            <option value="rzn">Рязань</option>
-            <option value="smr">Самара</option>
-            <option value="all">Все регионы вместе</option>
-            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-            <option value="tracks" selected>Маршруты</option>
-            <option value="calendar">Календарь стартов</option>
-            <option value="calendar_ski">Лыжные гонки</option>
-        </select>
-
         <select id="track_type_selector" class="header_selector" onchange="selectTrackType(this.value)">
             <option value="ALL">все типы</option>
             <option value="WALK" class="WALK">Пеший</option>
@@ -124,7 +115,10 @@
         <a class="next">&#10095;</a>
     </div>
 
+    <script src="js/ext/bootstrap.min.js"></script>
+    <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
     <script src="js/ext/jquery.slim.min.js"></script>
+
     <script src="js/ext/leaflet.js"></script>
     <script src="js/ext/GPX.js"></script>
 

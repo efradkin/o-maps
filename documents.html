@@ -7,6 +7,7 @@
     <meta name="description" content="O-Maps. Исторические документы - протоколы результатов, бюллетени, программы, календари.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=1"/>
@@ -37,10 +38,15 @@
     <base target="_blank">
 </head>
 <body class="help-body stat-body sheet-body">
+    <script src="js/global-menu.js"></script>
+    <script>
+        writeGlobalMenuHtml();
+    </script>
+
     <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
     <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
-    <h2 class="text-center">O-Maps ◪ Документы (сканы и не только)</h2>
+    <h2 class="text-center">O-Maps ◪ Документы</h2>
 
     <div class="sheet-filters">
         <select id="year_selector" class="header_selector" onchange="selectYear(this.value)">
@@ -77,6 +83,8 @@
         </table>
     </div>
 
+    <script src="js/ext/bootstrap.min.js"></script>
+    <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
     <script src="js/ext/jquery.slim.min.js"></script>
 
     <script src="js/ext/leaflet.js"></script>

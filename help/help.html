@@ -17,9 +17,6 @@
     <meta property="og:description" content="Описание сайта O-Maps.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
-    <script src="../js/ext/jquery.slim.min.js"></script>
-    <script src="../js/ext/bootstrap.min.js"></script>
-
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -38,6 +35,11 @@
     <!-- /Yandex.Metrika counter -->
 </head>
 <body class="index-body help-body stat-body">
+    <script src="../js/global-menu.js"></script>
+    <script>
+        writeGlobalMenuHtml('../');
+    </script>
+
     <a href="../index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="../images/home.png" alt="Главная страница" /></a>
 
     <header class="main-header">
@@ -119,6 +121,10 @@
         <hr />
         <span class="my-copyright">© <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>, <a href="https://t.me/o_maps" target="_blank">O-Maps group</a></span>
     </footer>
+
+    <script src="../js/ext/jquery.slim.min.js"></script>
+    <script src="../js/ext/bootstrap.min.js"></script>
+    <script src="../js/ext/bootstrap5-dropdown-ml-hack.js"></script>
 
     <script src="../js/utils-common.js"></script>
     <script src="../js/welcome.js"></script>
