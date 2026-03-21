@@ -522,6 +522,13 @@ let owners = {
         name: '© <a href="https://vk.com/skopskov">О-ПСКОВ</a>, по вопросам использования карты обращайтесь к <a href="https://t.me/NikolaiNikolaevichPskov">Иванову Николаю</a>.',
         logo: 'o-pskov.gif'
     },
+    GLTV_D: {
+        name: 'По вопросам использования карты обращайтесь к Дмитрию Глотову (<a href="mailto:glotov-95@mail.ru">glotov-95@mail.ru</a>, <a href="https://t.me/glotov_d">ТГ</a>, <a href="https://vk.com/pskovff">ВК</a>)',
+        logo: 'glotov.gif'
+    },
+    KUZMIN_PSKOV: {
+        name: '© Кузьмин Сергей',
+    },
 
     /* --- Прочее --- */
 

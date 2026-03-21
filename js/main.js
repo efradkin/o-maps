@@ -1300,7 +1300,7 @@ function buildMapPopup(m) {
         if (isMapHidden(m)) {
             result += 'Просмотр карты не разрешён правообладателем или не уместен.';
         } else {
-            result += 'Посмотреть карту отдельно можно <a href="' + url + '">тут</a>.';
+            result += 'Предпросмотр карты - <a href="' + url + '">тут</a>.';
         }
     }
     if (!isMapHidden(m)) {

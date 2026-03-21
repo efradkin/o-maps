@@ -526,6 +526,18 @@ let events2026 = [
     map: 'school_141_2015'
 },
 {
+    id: 'SPB_20260328_2',
+    date: '2026-03-28',
+    name: 'Спринт Тур',
+    place: 'Сосновка',
+    reg: 'https://orgeo.ru/event/51230',
+    type: 'ORIENT',
+    fmt: 'смешанный',
+    start: 'ST',
+    info: 'Сад КП',
+    map: 'sosnovka_2024',
+},
+{
     id: 'SPB_20260329_1',
     date: '2026-03-29',
     name: 'Тренировка от Феникса',
@@ -640,6 +652,16 @@ let events2026 = [
     fmt: 'классика, спринт',
     owner: 'YUVENTA',
     map: ['sosnovij_bor_lipovo_2020','sosnovy_bor_2021_05_30']
+},
+{
+    id: 'SPB_20260415_1',
+    date: '2026-04-15',
+    name: 'Спринт Тур',
+    place: 'пр Просвещения',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    start: 'ST',
+    info: 'Новая карта',
 },
 {
     id: 'SPB_20260419_1',
@@ -818,6 +840,14 @@ let events2026 = [
     map: 'yukki_north_2020'
 },
 {
+    id: 'SPB_20260520_1',
+    date: '2026-05-20',
+    name: 'Спринт Тур',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    start: 'ST',
+},
+{
     id: 'SPB_20260523_1',
     date: '2026-05-23',
     endDate: '2026-05-24',
@@ -852,6 +882,14 @@ let events2026 = [
     type: 'ROGAINE',
     fmt: '5, 2.5',
     owner: 'LM'
+},
+{
+    id: 'SPB_20260527_1',
+    date: '2026-05-27',
+    name: 'Спринт Тур',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    start: 'ST',
 },
 {
     id: 'SPB_20260530_1',
@@ -1100,6 +1138,13 @@ let events2026 = [
     type: 'ORIENT',
     fmt: 'спринт-масстарт',
     owner: 'SFSO_LO'
+},
+{
+    id: 'SPB_20260829_2',
+    date: '2026-08-29',
+    name: 'Кольцо Юго-Запада',
+    place: 'Петергоф',
+    type: 'ROGAINE',
 },
 {
     id: 'SPB_20260830_1',
