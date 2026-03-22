@@ -511,8 +511,10 @@ let events2026 = [
     place: 'Токсово, КомБыт',
     o_site: '260322_p',
     reg: 'http://orgeo.ru/event/51010',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24456/',
     type: 'ORIENT',
-    map: 'toksovo_kombyt_2017'
+    map: 'toksovo_kombyt_2017',
+    me: 'МА'
 },
 {
     id: 'SPB_20260328_1',
@@ -591,12 +593,18 @@ let events2026 = [
     map: 'school_532_2023'
 },
 {
-    id: 'SPB_20260405_2', // don't change
+    id: 'SPB_20260404',
     date: '2026-04-04',
-    name: 'Охта Парк классика',
-    place: 'Охта-Парк',
-    o_site: '260405_bn',
-    reg: 'https://orgeo.ru/event/ohta_classic_2026',
+    name: 'Кубок Белых ночей №9',
+    o_site: '250304_bn',
+    type: 'ORIENT',
+    owner: 'WN'
+},
+{
+    id: 'SPB_20260405_2',
+    date: '2026-04-05',
+    name: 'Кубок Белых ночей №10',
+    o_site: '260305_bn',
     type: 'ORIENT',
     owner: 'WN'
 },
@@ -662,6 +670,16 @@ let events2026 = [
     fmt: 'спринт',
     start: 'ST',
     info: 'Новая карта',
+},
+{
+    id: 'SPB_20260418',
+    date: '2026-04-18',
+    name: 'Охта Парк классика',
+    place: 'Охта-Парк',
+    o_site: '260418_bn',
+    reg: 'https://orgeo.ru/event/ohta_classic_2026',
+    type: 'ORIENT',
+    owner: 'WN'
 },
 {
     id: 'SPB_20260419_1',
@@ -749,7 +767,9 @@ let events2026 = [
     id: 'SPB_20260502_2',
     date: '2026-05-02',
     name: 'Мемориал Ирины Вилениновны Степановой',
-    place: 'Сосново-Петровское',
+    place: 'Петяярви',
+    link: 'https://hardadventure.ru/orient2026',
+    reg: 'https://orgeo.ru/event/51138',
     type: 'ORIENT',
     fmt: 'классика',
     start: 'HARD'

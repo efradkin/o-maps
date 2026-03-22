@@ -465,17 +465,9 @@ label:has(> span span .layer-shifted) {
     thead th {
         position: sticky;
         top: 0;
-        background: lightgrey;
     }
     ol {
         padding-inline-start: 0;
-    }
-    table.o-sheet th[data-order="desc"]::after {
-        content: "▼";
-    }
-
-    table.o-sheet th[data-order="asc"]::after {
-        content: "▲";
     }
 }
 .o-sheet-wrapper-wo-filters {
@@ -530,6 +522,15 @@ button.nav-link {
     text-align: end;
 }
 .o-sheet {
+    th {
+        background: lightgrey;
+    }
+    th[data-order="desc"]::after {
+        content: "▼";
+    }
+    th[data-order="asc"]::after {
+        content: "▲";
+    }
     td:nth-child(10) {
         max-width: 400px;
     }

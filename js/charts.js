@@ -1,6 +1,7 @@
 const isGlobalTable = (typeof globalTable !== 'undefined') && globalTable;
 
 const mapTypes = ['Город', 'Парки', 'Лес', 'Спец.', 'Рогейн'];
+let authorsTableData = [];
 
 window.onload = function() {
 
@@ -52,7 +53,19 @@ window.onload = function() {
             'Год издания');
     }
 
-    buildAuthorsTable();
+    prepareAuthorsTableData();
+
+    const sortableHeaders = document.querySelectorAll('.o-sheet th.sortable');
+    sortableHeaders.forEach((element) => {
+        element.addEventListener('click', sortAuthorsTable);
+    });
+
+    const qttyTh = document.querySelector('.o-sheet th[data-sort="qtty"]');
+    if (qttyTh) {
+        qttyTh.click();
+    } else {
+        renderAuthorsTable();
+    }
 }
 
 function calcMapsArea(group) {
@@ -140,44 +153,98 @@ function buildChart(ctx, labels, data, label) {
     });
 }
 
-// строит табличку с инфой об авторах-составителях
-function buildAuthorsTable() {
-    // let authorsArray = Object.keys(authors).map((key) => authors[key]);
-    let authorsEntries = Object.entries(authors);
-/*
-    authorsArray
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .sort((a, b) => (b.count || 0) - (a.count || 0));
-*/
-    authorsEntries
-        .sort((a, b) => a[1].name.localeCompare(b[1].name))
-        .sort((a, b) => (b[1].count || 0) - (a[1].count || 0));
-
+// готовит данные для сортируемой таблицы авторов
+function prepareAuthorsTableData() {
     if (isGlobalTable) {
         populateAuthorsRangesRegions();
     }
 
-    var table = document.getElementsByClassName("o-main-table")[0];
-    for (var i = 0; i < authorsEntries.length; i++) {
-        let key = authorsEntries[i][0];
-        let author = authorsEntries[i][1];
-        if (!author.count) {
-            continue;
-        }
-        const row = table.insertRow(i + 1);
-        let idx = 0;
-        insertTD(row, idx++, i + 1);
-        insertTD(row, idx++, authorLabel(author, isGlobalTable));
-        insertTD(row, idx++, author.count);
-        insertTD(row, idx++, author.area.toFixed(2));
-        if (isGlobalTable) {
-            insertTD(row, idx++, buildPeriod(author));
-            insertTD(row, idx++, prettyRegions(author.regions));
-        }
-        let href = authorLink(key, isGlobalTable);
-        insertTD(row, idx++, '<a href="' + href + '" title="Карты автора"><img src="./images/external-link.png" alt="Карты автора" /></a>');
+    authorsTableData = Object.entries(authors)
+        .filter(([, author]) => author.count)
+        .map(([key, author]) => ({
+            key: key,
+            name: author.name || '',
+            qtty: author.count || 0,
+            area: author.area || 0,
+            periodText: isGlobalTable ? buildPeriod(author) : '',
+            regionsText: isGlobalTable ? prettyRegions(author.regions) : '',
+            authorHtml: authorLabel(author, isGlobalTable),
+            linkHtml: '<a href="' + authorLink(key, isGlobalTable) + '" title="Карты автора"><img src="./images/external-link.png" alt="Карты автора" /></a>'
+        }))
+        .sort((a, b) => a.name.localeCompare(b.name, 'ru'));
+
+    updateMapsWoAuthorsPanel();
+}
+
+function renderAuthorsTable() {
+    const tbody = document.querySelector('.o-main-table tbody');
+    if (!tbody) {
+        return;
     }
 
+    tbody.innerHTML = '';
+
+    for (let i = 0; i < authorsTableData.length; i++) {
+        let author = authorsTableData[i];
+        const row = document.createElement('tr');
+        let idx = 0;
+
+        insertTD(row, idx++, i + 1);
+        insertTD(row, idx++, author.authorHtml);
+        insertTD(row, idx++, author.qtty);
+        insertTD(row, idx++, author.area.toFixed(2));
+
+        if (isGlobalTable) {
+            insertTD(row, idx++, author.periodText);
+            insertTD(row, idx++, author.regionsText);
+        }
+
+        insertTD(row, idx++, author.linkHtml);
+        tbody.appendChild(row);
+    }
+
+    document.body.style.cursor = 'default';
+}
+
+function sortAuthorsTable() {
+    document.body.style.cursor = 'wait';
+
+    document.querySelectorAll('.o-sheet th.sortable').forEach((element) => {
+        if (element !== this) {
+            element.dataset.order = '';
+        }
+    });
+
+    const isAscending = this.dataset.order === 'asc';
+
+    switch (this.dataset.sort) {
+        case 'name':
+            authorsTableData.sort((a, b) =>
+                isAscending ? a.name.localeCompare(b.name, 'ru') : b.name.localeCompare(a.name, 'ru'));
+            break;
+        case 'qtty':
+            authorsTableData.sort((a, b) =>
+                isAscending ? a.qtty - b.qtty : b.qtty - a.qtty);
+            break;
+        case 'area':
+            authorsTableData.sort((a, b) =>
+                isAscending ? a.area - b.area : b.area - a.area);
+            break;
+        case 'period':
+            authorsTableData.sort((a, b) =>
+                isAscending ? a.periodText.localeCompare(b.periodText, 'ru') : b.periodText.localeCompare(a.periodText, 'ru'));
+            break;
+        case 'regions':
+            authorsTableData.sort((a, b) =>
+                isAscending ? a.regionsText.localeCompare(b.regionsText, 'ru') : b.regionsText.localeCompare(a.regionsText, 'ru'));
+            break;
+    }
+
+    this.dataset.order = isAscending ? 'desc' : 'asc';
+    renderAuthorsTable();
+}
+
+function updateMapsWoAuthorsPanel() {
     // панель количества карт, где автор не указан
     let mapsWoAuthors = 0;
     for (const m of oMaps) {

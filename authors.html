@@ -49,18 +49,45 @@
 
     <h2 class="text-center">O-Maps ◪ Авторы-составители карт</h2>
 
+    <div class="sheet-filters">
+        <span style="white-space: nowrap;">
+            <select id="map_type_selector" class="header_selector" onchange="updateUrlParam('map-type', this.value)">
+                <option value="ALL">все карты</option>
+                <option value="ORIENT" selected>Ориент</option>
+                <option value="CITY">Город</option>
+                <option value="PARK">Парки</option>
+                <option value="FOREST">Лес</option>
+                <option value="VELO">Вело</option>
+                <option value="WINTER">Зимние</option>
+                <option value="ROGAINE">Рогейн</option>
+                <option value="OTHER">Прочие</option>
+            </select>
+
+            <select id="region_selector" class="header_selector" onchange="updateUrlParam('region', this.value)">
+                <option value="ALL" selected>все регионы</option>
+                <option value="SPB">С-Петербург</option>
+                <option value="MSK">Москва</option>
+                <option value="BASH">Башкортостан</option>
+                <option value="PSKOV">Псков</option>
+                <option value="RYAZAN">Рязань</option>
+                <option value="SAMARA">Самара</option>
+                <option value="OTHER">Прочие</option>
+            </select>
+        </span>
+    </div>
+
     <div class="o-sheet-roof" style="display: none">
         <a href="#" onclick="downloadSheetTable('o-authors-all.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
-    <div class="o-sheet-wrapper o-sheet-wrapper-wo-filters">
-        <table class="o-main-table o-sheet tracks-table">
+    <div class="o-sheet-wrapper">
+        <table class="o-main-table o-sheet">
             <thead>
             <th>&nbsp;</th>
-            <th>Автор-составитель</th>
-            <th><span title="Таблица не включает рогейнерские и рельефные карты.">Количество карт <sup>⚹</sup></span></th>
-            <th><span title="Площадь большинства карт приблизительна. Она высчитывается, исходя из координат листа карты.">Площадь карт (км²) <sup>⚹⚹</sup></span></th>
-            <th>Период</th>
-            <th>Регионы</th>
+            <th data-sort="name" class="sortable">Автор-составитель</th>
+            <th data-sort="qtty" class="sortable" data-order="desc"><span title="Таблица не включает рогейнерские и рельефные карты.">Количество карт <sup>⚹</sup></span></th>
+            <th data-sort="area" class="sortable"><span title="Площадь большинства карт приблизительна. Она высчитывается, исходя из координат листа карты.">Площадь карт (км²) <sup>⚹⚹</sup></span></th>
+            <th data-sort="period" class="sortable">Период</th>
+            <th data-sort="regions" class="sortable">Регионы</th>
             <th>Карты</th>
             </thead>
             <tbody></tbody>
@@ -142,7 +169,51 @@
                 populateOMaps(rogaineKkmMaps, 'BASH');
                 populateOMaps(rogaineMaps, 'BASH');
         */
-        oMaps = oMaps.filter(m => !m.excluded && isOrientMap(m) && !isRogaine(m) && !(m.type && m.type.includes('RELIEF')));
+
+        oMaps = oMaps.filter(m => !m.excluded && !(m.type && m.type.includes('RELIEF')));
+
+        const MAP_TYPE_PARAM = urlParams.get('map-type');
+        switch (MAP_TYPE_PARAM) {
+            case 'ALL':
+                break;
+            case 'CITY':
+                oMaps = oMaps.filter(m => m.type && m.type.includes('CITY')); break;
+            case 'PARK':
+                oMaps = oMaps.filter(m => m.type && m.type.includes('PARK')); break;
+            case 'VELO':
+                oMaps = oMaps.filter(m => m.type && m.type.includes('VELO')); break;
+            case 'WINTER':
+                oMaps = oMaps.filter(m => m.type && m.type.includes('WINTER')); break;
+            case 'OTHER':
+                oMaps = oMaps.filter(m => m.type && (m.type.includes('FOTO') || m.type.includes('FUN') || m.type.includes('INDOOR') || m.type.includes('SPECIAL'))); break;
+            case 'FOREST':
+                oMaps = oMaps.filter(m => !m.type || m.type.includes('FOREST')); break;
+            case 'ROGAINE':
+                oMaps = oMaps.filter(m => isRogaine(m)); break;
+            case 'ORIENT':
+            default:
+                oMaps = oMaps.filter(m => isOrientMap(m) && !isRogaine(m)); break;
+        }
+
+        const REGION_PARAM = urlParams.get('region');
+        if (REGION_PARAM && REGION_PARAM !== 'ALL') {
+            switch (REGION_PARAM) {
+                case 'SPB':
+                    oMaps = oMaps.filter(m => m.region === 'SPB' || m.region === 'LNGRD');
+                    break;
+                case 'MSK':
+                case 'BASH':
+                case 'PSKOV':
+                case 'RYAZAN':
+                case 'SAMARA':
+                    console.log('---------------')
+                    oMaps = oMaps.filter(m => m.region === REGION_PARAM);
+                    break;
+                case 'OTHER':
+                    oMaps = oMaps.filter(m => m.region !== 'SPB' && m.region !== 'LNGRD' && m.region !== 'MSK' && m.region !== 'BASH' && m.region !== 'PSKOV' && m.region !== 'RYAZAN' && m.region !== 'SAMARA');
+                    break;
+            }
+        }
     </script>
 
     <script src="js/map-build.js"></script>
@@ -150,6 +221,26 @@
     <script src="js/charts.js"></script>
 
     <script>
+        function updateUrlParam(paramName, paramValue) {
+            const url = new URL(window.location.href);
+
+            if (paramValue) {
+                url.searchParams.set(paramName, paramValue);
+            } else {
+                url.searchParams.delete(paramName);
+            }
+
+            window.location.href = url.toString();
+        }
+
+        if (MAP_TYPE_PARAM) {
+            document.getElementById('map_type_selector').value = MAP_TYPE_PARAM;
+        }
+
+        if (REGION_PARAM) {
+            document.getElementById('region_selector').value = REGION_PARAM;
+        }
+
         writeWelcomeButton();
     </script>
 

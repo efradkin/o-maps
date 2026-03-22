@@ -78,14 +78,15 @@
         <div class="o-sheet-roof">
             <a href="#" onclick="downloadSheetTable('o-authors-serbia.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
         </div>
-        <table class="o-main-table">
+        <table class="o-main-table o-sheet">
             <thead>
-                <th>&nbsp;</th>
-                <th>Автор-составитель</th>
-                <th>Количество карт</th>
-                <th>Площадь карт (км²) <sup>⚹</sup></th>
-                <th>&nbsp;</th>
+            <th>&nbsp;</th>
+            <th data-sort="name" class="sortable">Автор-составитель</th>
+            <th data-sort="qtty" class="sortable" data-order="desc">Количество карт</th>
+            <th data-sort="area" class="sortable">Площадь карт (км²) <sup>⚹</sup></th>
+            <th>&nbsp;</th>
             </thead>
+            <tbody></tbody>
         </table>
 
         <p class="stat_result_article">Количество карт, <a href="serbia.html?only-wo-author">где автор не указан</a>: <span id="no_authors_quantity"></span>.</p>

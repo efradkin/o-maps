@@ -66,7 +66,7 @@ const regions = {
         name: 'Рязань'
     },
     SAMARA: {
-        name: 'Самарская обл',
+        name: 'Самара',
         logo: 'samara.webp'
     },
     SERBIA: {
