@@ -629,6 +629,15 @@ let southMaps = [
         author: 'DBRTSV_V'
     },
     {
+        name: 'Ивангород',
+        date: '1979-08-04',
+        url: './maps/forest/south/ivangorod_1979.webp',
+        link: './original_maps/forest/south/ivangorod_1979_omaps.webp',
+        info: '4-5 августа. Кубок ЭССР. Кубок ЦСФиС.',
+        bounds: [[59.45521830635969, 28.11980724334717], [59.45702849435417, 28.189630508422855], [59.43100045139333, 28.11985015869141]],
+        author: 'NKTN_V'
+    },
+    {
         name: 'Сиверский, р Орлинка',
         url: './maps/forest/south/siversky_orlinka.webp',
         link: './original_maps/forest/south/siversky_orlinka_omaps.jpg',
