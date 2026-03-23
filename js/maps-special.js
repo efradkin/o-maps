@@ -13,8 +13,9 @@ let specialMaps = [
         name: 'Снегирёвка',
         year: 1989,
         logo: 'wn_retro.webp',
+        excluded: true,
         url: './maps/winter/snegirevka_winter_1989.webp',
-        link: './original_maps/winter/snegirevka_winter_1989_omaps.jpg',
+        link: './original_maps/winter/snegirevka_winter_1989_omaps.webp',
         bounds: [[60.558629034771705, 30.239353179931644], [60.552890877584524, 30.31514167785645], [60.52887239866379, 30.22948265075684]],
         author: ['MLVA_M','KAZNTSVA_O'],
         type: ['WINTER']

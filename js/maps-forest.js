@@ -48,6 +48,7 @@ let forestMaps = [
         link: './original_maps/forest/tsvelodubovo_1986_omaps.jpg',
         bounds: [[60.36730997674438, 29.568200111389164], [60.36440284798612, 29.624333381652832], [60.34954485783966, 29.565196037292484]],
         author: ['EGRV_A','KNSTNTNV_D','MRVNK_D','GLV_N'],
+        editor: 'ARTMV',
         zindex: 3
     },
     {
@@ -56,7 +57,7 @@ let forestMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/tsvelodubovo_south_1995.webp',
-        link: './original_maps/forest/tsvelodubovo_south_1995_omaps.jpg',
+        link: ['./original_maps/forest/tsvelodubovo_south_1995_omaps.jpg','./original_maps/forest/tsvelodubovo_south_1995_clean_omaps.webp'],
         results: './docs/1995/1995_06_23_wn_omaps.pdf',
         bounds: [[60.36376621584052, 29.55051898956299], [60.35947923565616, 29.62145805358887], [60.347485430770675, 29.546484947204593]],
         author: 'MLVA_M'
@@ -68,6 +69,7 @@ let forestMaps = [
         link: './original_maps/forest/tsvelodubovo_1987_omaps.jpg',
         bounds: [[60.37598738074033, 29.54704284667969], [60.37403569666894, 29.579615592956547], [60.363214457923185, 29.543266296386722]],
         author: ['EGRV_A','KNSTNTNV_D','MRVNK_D','GLV_N'],
+        editor: 'ARTMV',
         zindex: 3
     },
     {
@@ -76,7 +78,7 @@ let forestMaps = [
         area: 8,
         info: 'Family games',
         url: './maps/forest/tsvelodubovo_1993.webp',
-        link: './original_maps/forest/tsvelodubovo_1993_omaps.jpg',
+        link: ['./original_maps/forest/tsvelodubovo_1993_omaps.jpg','./original_maps/forest/tsvelodubovo_1993_omaps.webp'],
         bounds: [[60.40194214210233, 29.54704284667969], [60.39651540611492, 29.62077140808106], [60.36138934596662, 29.53554153442383]],
         author: ['SHRNN','KRCHKN_V']
     },
@@ -86,7 +88,7 @@ let forestMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/tsvelodubovo_1995.webp',
-        link: './original_maps/forest/tsvelodubovo_1995_omaps.jpg',
+        link: ['./original_maps/forest/tsvelodubovo_1995_omaps.jpg','./original_maps/forest/tsvelodubovo_1995_clean_omaps.webp'],
         results: './docs/1995/1995_06_23_wn_omaps.pdf',
         bounds: [[60.394904169693135, 29.55356597900391], [60.39036683870487, 29.6257495880127], [60.363002240852744, 29.548501968383793]],
         author: 'MLVA_M'
@@ -99,6 +101,16 @@ let forestMaps = [
         url: './maps/forest/tsvelodubovo_1999.webp',
         link: './original_maps/forest/tsvelodubovo_1999_omaps.jpg',
         bounds: [[60.38271130983792, 29.553737640380863], [60.37972071148227, 29.613561630249027], [60.362747578544536, 29.550175666809082]],
+        author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S']
+    },
+    {
+        name: 'Цвелодубово, Рыбачье оз',
+        year: 1999,
+        start: 'WN',
+        page: 'spb',
+        url: './maps/forest/tsvelodubovo_south_1999.webp',
+        link: './original_maps/forest/tsvelodubovo_south_1999_omaps.webp',
+        bounds: [[60.363893543264346, 29.550132751464847], [60.359776371277185, 29.622058868408203], [60.34737927121206, 29.54558372497559]],
         author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S']
     },
     {

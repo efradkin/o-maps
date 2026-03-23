@@ -403,6 +403,7 @@ let starts = {
     OKINCHITSA: {
         short: 'Окинчица',
         name: 'Памяти Окинчица',
+        logo: 'okinchitsa.webp'
     },
     CISM_96: {
         major: true,

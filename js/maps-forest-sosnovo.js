@@ -17,7 +17,7 @@ let sosnovoMaps = [
         year: 1989,
         url: './maps/forest/sosnovo/69_km_1989.webp',
         link: './original_maps/forest/sosnovo/69_km_1989_omaps.jpg',
-        bounds: [[60.55445209468727, 30.23523330688477], [60.54968381690081, 30.297031402587894], [60.52874571620552, 30.22725105285645]],
+        bounds: [[60.54322653297904, 30.237035751342773], [60.53984966226312, 30.29617309570313], [60.50927295418597, 30.230340957641605]],
         author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S']
     },
     {
@@ -108,7 +108,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/koloskovo_1994.webp',
-        link: ['./original_maps/forest/sosnovo/koloskovo_1994_omaps.jpg','./original_maps/forest/sosnovo/koloskovo_1994_2_omaps.jpg'],
+        link: ['./original_maps/forest/sosnovo/koloskovo_1994_omaps.jpg','./original_maps/forest/sosnovo/krivko_ulovnoe_1995_clean_omaps.webp','./original_maps/forest/sosnovo/koloskovo_1994_2_omaps.jpg'],
         bounds: [[60.630249099534126, 30.177898406982425], [60.62702866180913, 30.224289894104007], [60.601063980517786, 30.170903205871582]],
         author: 'MLVA_M'
     },
@@ -118,7 +118,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/koloskovo_1998.webp',
-        link: ['./original_maps/forest/sosnovo/koloskovo_1998_omaps.jpg','./original_maps/forest/sosnovo/koloskovo_1998_06_20_wn_omaps.webp'],
+        link: ['./original_maps/forest/sosnovo/koloskovo_1998_clean_omaps.webp','./original_maps/forest/sosnovo/koloskovo_1998_omaps.jpg','./original_maps/forest/sosnovo/koloskovo_1998_06_20_wn_omaps.webp'],
         bounds: [[60.6301017662667, 30.169658660888675], [60.62509203460731, 30.244503021240238], [60.604539783918085, 30.16227722167969]],
         results: './docs/1998/1998_06_19_wn_omaps.pdf',
         author: ['KAZNTSVA_O','MLVA_M']
@@ -172,7 +172,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/sosnovo_69km_2000.webp',
-        link: './original_maps/forest/sosnovo/sosnovo_69km_2000_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/sosnovo_69km_2000_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_69km_2000_omaps.webp'],
         bounds: [[60.54086276047696, 30.257034301757816], [60.53921645977455, 30.28819084167481], [60.51565252342285, 30.25171279907227]],
         author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S']
     },
@@ -182,7 +182,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/zamostie_1999.webp',
-        link: ['./original_maps/forest/sosnovo/zamostie_1999_omaps.jpg','./original_maps/forest/sosnovo/zamostie_2000_wn_omaps.jpg'],
+        link: ['./original_maps/forest/sosnovo/zamostie_1999_omaps.webp','./original_maps/forest/sosnovo/zamostie_2000_wn_omaps.jpg'],
         bounds: [[60.538562137521424, 30.337886810302734], [60.538688781570556, 30.37153244018555], [60.51373033511651, 30.336771011352543]],
         author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S']
     },
@@ -359,6 +359,16 @@ let sosnovoMaps = [
         qtty: 10
     },
     {
+        name: 'Снегирёвка, Щучьи оз',
+        year: 2000,
+        start: 'WN',
+        page: 'spb',
+        url: './maps/forest/sosnovo/snegirevka_schuchji_2000.webp',
+        link: './original_maps/forest/sosnovo/snegirevka_schuchji_2000_omaps.jpg',
+        bounds: [[60.53309486365822, 30.28141021728516], [60.5321448570483, 30.332779884338382], [60.51474425085366, 30.27544498443604]],
+        author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S'],
+    },
+    {
         name: 'Снегирёвка',
         year: 1999,
         date: '2000-06-21',
@@ -419,7 +429,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/krivko_ulovnoe_1992.webp',
-        link: ['./original_maps/forest/sosnovo/krivko_ulovnoe_1992_omaps.jpg','./original_maps/starts/wn/wn_19992_omaps.jpg','./original_maps/starts/wn/wn_19992_m21_omaps.jpg'],
+        link: ['./original_maps/forest/sosnovo/krivko_ulovnoe_1992_omaps.jpg','./original_maps/forest/sosnovo/krivko_ulovnoe_1992_100_omaps.webp','./original_maps/starts/wn/wn_19992_omaps.jpg','./original_maps/starts/wn/wn_19992_m21_omaps.jpg'],
         results: './docs/1992/1992_06_26_wn_omaps.pdf',
         bounds: [[60.61582829627545, 30.21471977233887], [60.614017345690115, 30.26063919067383], [60.575753066539036, 30.2094841003418]],
         author: 'MLVA_M'
@@ -585,7 +595,7 @@ let sosnovoMaps = [
         name: 'Лосево',
         year: 1990,
         url: './maps/forest/sosnovo/losevo_1990.webp',
-        link: ['./original_maps/forest/sosnovo/losevo_1990_omaps.jpg','./original_maps/forest/sosnovo/losevo_1990_10000_omaps.jpg'],
+        link: ['./original_maps/forest/sosnovo/losevo_1990_omaps.webp','./original_maps/forest/sosnovo/losevo_1990_10000_omaps.jpg'],
         bounds: [[60.69452732858858, 29.919462203979496], [60.69036795262589, 29.994564056396488], [60.67044591045741, 29.912509918212894]],
         author: ['RYLOV_V','VSLVSKY']
     },

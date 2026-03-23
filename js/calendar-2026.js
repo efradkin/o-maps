@@ -550,6 +550,16 @@ let events2026 = [
     map: 'serovo_2024'
 },
 {
+    id: 'SPB_20260329_2',
+    date: '2026-03-29',
+    name: 'XII Кубок Весты №8. Финал',
+    place: 'Приозерск, старый аэродром',
+    link: 'https://vk.com/wall-30365190_9141',
+    type: 'ORIENT',
+    owner: 'VESTA_PRIOZERSK',
+    map: 'priozersk_aerodrom_2020'
+},
+{
     id: 'SPB_20260331_1',
     date: '2026-03-31',
     name: 'Тренировка от Феникса',
@@ -601,14 +611,6 @@ let events2026 = [
     owner: 'WN'
 },
 {
-    id: 'SPB_20260405_2',
-    date: '2026-04-05',
-    name: 'Кубок Белых ночей №10',
-    o_site: '260305_bn',
-    type: 'ORIENT',
-    owner: 'WN'
-},
-{
     id: 'SPB_20260405_1',
     date: '2026-04-05',
     name: 'Тренировка от Феникса',
@@ -619,7 +621,15 @@ let events2026 = [
     map: 'silande_2025'
 },
 {
-    id: 'SPB_20260405_1',
+    id: 'SPB_20260405_2',
+    date: '2026-04-05',
+    name: 'Кубок Белых ночей №10',
+    o_site: '260305_bn',
+    type: 'ORIENT',
+    owner: 'WN'
+},
+{
+    id: 'SPB_20260405_3',
     date: '2026-04-05',
     name: 'Кубок D2RUN, 1 этап',
     place: 'Романовка',
