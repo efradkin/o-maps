@@ -903,6 +903,9 @@ body.ski-bodi {
         overflow-y: inherit;
         height: inherit;
     }
+    .sheet-filters {
+        margin: 20px 0 10px 0;
+    }
     .popup-logo {
         position: unset;
         max-width: 150px;

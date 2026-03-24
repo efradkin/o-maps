@@ -164,6 +164,7 @@ const FUTURE_EVENTS_CALENDAR_PARAM_VALUE = 'future';
 const onlyOneSport = (typeof oneSportOnly !== 'undefined') && oneSportOnly;
 
 const urlParams = new URLSearchParams(window.location.search);
+const YEAR_PARAM = urlParams.get('year');
 
 /*   FUNCTIONS   */
 
@@ -1012,14 +1013,14 @@ function isOutdated(date) {
 
 function isActual(date) {
     const now = new Date();
-    const actualRange = ('ROGAINE' === urlParams.get('event-type') ? WEEK_TIME_RANGE*4 : WEEK_TIME_RANGE);
+    const actualRange = ('ROGAINE' === urlParams.get('calendar') ? WEEK_TIME_RANGE*4 : WEEK_TIME_RANGE);
     return !isOutdated(date) && (date - now < actualRange);
 }
 
 function validateEvent(evt) {
-    if (CALENDAR_NAME_PARAM) {
+    if (CALENDAR_PARAM) {
         const currentDate = new Date(evt.date);
-        switch (CALENDAR_NAME_PARAM) {
+        switch (CALENDAR_PARAM) {
             case FUTURE_EVENTS_CALENDAR_PARAM_VALUE:
                 if (isOutdated(currentDate)) {
                     return false;
@@ -1031,7 +1032,7 @@ function validateEvent(evt) {
                 }
                 break;
             default:
-                if (evt.owner !== CALENDAR_NAME_PARAM && evt.start !== CALENDAR_NAME_PARAM) {
+                if (evt.owner !== CALENDAR_PARAM && evt.start !== CALENDAR_PARAM) {
                     return false;
                 }
         }

@@ -703,6 +703,21 @@ let mskEvents2026 = [
         owner: "FSO_MSK"
     },
     {
+        id: 'MSK_20260419_2',
+        date: "2026-04-19",
+        name: "Московская Весна",
+        place: "Покровское-Стрешнево",
+        type: "ORIENT",
+        fmt: "кросс-классика",
+        coord: [
+            55.826338,
+            37.487866
+        ],
+        link: "https://orienteering.moscow/",
+        reg: "https://orgeo.ru/event/organizer/24222",
+        owner: "CLEVER_MSK"
+    },
+    {
         id: 'MSK_20260421_1',
         date: "2026-04-21",
         name: "Московский Меридиан",
@@ -886,12 +901,12 @@ let mskEvents2026 = [
         id: 'MSK_20260509_1',
         date: "2026-05-09",
         name: "Московская Весна",
-        place: "Покровское-Стрешнево",
+        place: "Белая Дача",
         type: "ORIENT",
         fmt: "кросс-классика",
         coord: [
-            55.826338,
-            37.487866
+            55.674133,
+            37.848701
         ],
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",

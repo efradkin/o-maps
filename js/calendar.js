@@ -1,6 +1,5 @@
-const EVENT_TYPE_PARAM = urlParams.get('event-type');
 const EVENT_MONTH_PARAM = urlParams.get('event-month');
-const CALENDAR_NAME_PARAM = urlParams.get('calendar');
+const CALENDAR_PARAM = urlParams.get('calendar');
 const OWNER_PARAM = urlParams.get('owner');
 
 let onlyMajor = false;
@@ -71,37 +70,35 @@ if (onlyMajor) {
 if (OWNER_PARAM) {
     oEvents = oEvents.filter(event => event.owner && event.owner === OWNER_PARAM);
 }
-if (EVENT_TYPE_PARAM && ('ALL' !== EVENT_TYPE_PARAM)) {
+if (CALENDAR_PARAM && ('ALL' !== CALENDAR_PARAM)) {
     oEvents = oEvents.filter(event => {
         if (onlyMajor && !event.major) {
             return false;
         }
-        if ('ROGAINE' === EVENT_TYPE_PARAM) {
+        if ('ROGAINE' === CALENDAR_PARAM) {
             return isRogaine(event) || event.type.includes('MULTI') || event.start === 'MB';
         }
-        if ('ORIENT' === EVENT_TYPE_PARAM) {
+        if ('ORIENT' === CALENDAR_PARAM) {
             return event.type.includes('ORIENT');
         }
-        if ('OTHER' === EVENT_TYPE_PARAM) {
+        if ('OTHER' === CALENDAR_PARAM) {
             return !event.type.includes('ORIENT') && !event.type.includes('VELO') && !event.type.includes('SKI') && !event.type.includes('MULTI') && !isRogaine(event) && event.start !== 'MB';
         }
-        if ('SKI' === EVENT_TYPE_PARAM) {
+        if ('SKI' === CALENDAR_PARAM) {
             return event.type.includes('SKI');
         }
-        if ('VELO' === EVENT_TYPE_PARAM) {
+        if ('VELO' === CALENDAR_PARAM) {
             return event.type.includes('VELO');
         }
-        if (event.place && Object.keys(CALENDAR_PLACES).includes(EVENT_TYPE_PARAM)) {
-            return (EVENT_TYPE_PARAM === getEventPlaceCode(event.place));
+        if (event.place && Object.keys(CALENDAR_PLACES).includes(CALENDAR_PARAM)) {
+            return (CALENDAR_PARAM === getEventPlaceCode(event.place));
         }
     });
 }
-if ((EVENT_TYPE_PARAM && ('ALL' !== EVENT_TYPE_PARAM)) || CALENDAR_NAME_PARAM) {
+if (CALENDAR_PARAM) {
     let selector = document.getElementById('event_type_selector');
-    if (EVENT_TYPE_PARAM) {
-        selector.value = EVENT_TYPE_PARAM;
-    } else if (CALENDAR_NAME_PARAM) {
-        selector.value = CALENDAR_NAME_PARAM;
+    if (CALENDAR_PARAM) {
+        selector.value = CALENDAR_PARAM;
     }
 }
 if (EVENT_MONTH_PARAM && ('0' !== EVENT_MONTH_PARAM)) {
@@ -314,17 +311,6 @@ function buildPlace(event) {
     }
 }
 
-function selectEventType(type, region) {
-    const page = `./calendar${region ? '-'+region : ''}.html`;
-    if (type === 'actual' || type === 'future') {
-        location.href = page + '?calendar=' + type;
-    } else if (type === 'ALL') {
-        location.href = page;
-    } else {
-        location.href = page + '?event-type=' + type;
-    }
-}
-
 function selectEventMonth(month) {
     if (month === '0') {
         location.href = './calendar.html';
@@ -365,6 +351,6 @@ function sortEventsTable() {
 }
 
 function gotoMap(page) {
-    page += '?calendar' + (CALENDAR_NAME_PARAM ? '=' + CALENDAR_NAME_PARAM : '');
+    page += '?calendar' + (CALENDAR_PARAM ? '=' + CALENDAR_PARAM : '');
     location.href = page;
 }

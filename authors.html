@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
-    <link rel="stylesheet" href="css/main.css?v=1"/>
+    <link rel="stylesheet" href="css/main.css?v=2"/>
 
     <meta property="og:title" content="O-Maps. Авторы-составители">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
@@ -221,18 +221,6 @@
     <script src="js/charts.js"></script>
 
     <script>
-        function updateUrlParam(paramName, paramValue) {
-            const url = new URL(window.location.href);
-
-            if (paramValue) {
-                url.searchParams.set(paramName, paramValue);
-            } else {
-                url.searchParams.delete(paramName);
-            }
-
-            window.location.href = url.toString();
-        }
-
         if (MAP_TYPE_PARAM) {
             document.getElementById('map_type_selector').value = MAP_TYPE_PARAM;
         }

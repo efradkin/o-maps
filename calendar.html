@@ -9,7 +9,7 @@
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css?v=1"/>
+    <link rel="stylesheet" href="css/main.css?v=2"/>
 
     <meta property="og:title" content="O-Maps. Календарь СПб">
     <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
@@ -48,7 +48,13 @@
 
     <div class="sheet-filters">
         <span style="white-space: nowrap;">
-            <select id="event_type_selector" class="header_selector" onchange="selectEventType(this.value)">
+            <select id="year_selector" class="header_selector" onchange="updateUrlParam('year', this.value)">
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="ALL" selected>Все годы</option>
+            </select>
+
+            <select id="event_type_selector" class="header_selector" onchange="updateUrlParam('calendar', this.value)">
                 <option value="ALL">все старты</option>
                 <option value="ORIENT">Ориент</option>
                 <option value="ROGAINE">Рогейн итп</option>
@@ -143,8 +149,8 @@
     <script src="js/owners.js"></script>
     <script src="js/starts.js"></script>
     <script src="js/welcome.js"></script>
-    <script src="js/utils.js"></script>
     <script src="js/utils-common.js"></script>
+    <script src="js/utils.js"></script>
 
     <script>
         let loadImagesRequired = false;
@@ -175,12 +181,16 @@
             ...schoolMaps,
         ];
 
-        let oEvents = [
-            ...events2025,
-            ...events2026,
-            ...commonEvents2026,
-            ...otherEvents2026,
-        ];
+        const oEvents = [];
+        const y = YEAR_PARAM ?? '2026';
+        switch (y) {
+            case 'ALL': oEvents.push(...events2025); oEvents.push(...events2026); break;
+            case '2025': oEvents.push(...events2025); break;
+            case '2026':
+            default: oEvents.push(...events2026); break;
+        }
+
+        document.getElementById('year_selector').value = y;
     </script>
     <script src="js/calendar.js"></script>
 

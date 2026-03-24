@@ -1,5 +1,3 @@
-const YEAR_PARAM = urlParams.get('year');
-
 let hasAuthors = false;
 let hasPlanners = false;
 

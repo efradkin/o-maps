@@ -1,3 +1,15 @@
+function updateUrlParam(paramName, paramValue) {
+    const url = new URL(window.location.href);
+
+    if (paramValue) {
+        url.searchParams.set(paramName, paramValue);
+    } else {
+        url.searchParams.delete(paramName);
+    }
+
+    window.location.href = url.toString();
+}
+
 function capitalize(s) {
     if (!s) return s;
     return s.charAt(0).toUpperCase() + s.slice(1);
