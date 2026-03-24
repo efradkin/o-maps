@@ -82,7 +82,7 @@ if (CALENDAR_PARAM && ('ALL' !== CALENDAR_PARAM)) {
             return event.type.includes('ORIENT');
         }
         if ('OTHER' === CALENDAR_PARAM) {
-            return !event.type.includes('ORIENT') && !event.type.includes('VELO') && !event.type.includes('SKI') && !event.type.includes('MULTI') && !isRogaine(event) && event.start !== 'MB';
+            return !event.type.includes('ORIENT') && !event.type.includes('VELO') && !event.type.includes('SKI') && !isRogaine(event);
         }
         if ('SKI' === CALENDAR_PARAM) {
             return event.type.includes('SKI');
@@ -90,9 +90,10 @@ if (CALENDAR_PARAM && ('ALL' !== CALENDAR_PARAM)) {
         if ('VELO' === CALENDAR_PARAM) {
             return event.type.includes('VELO');
         }
-        if (event.place && Object.keys(CALENDAR_PLACES).includes(CALENDAR_PARAM)) {
+        if (!EVENT_TYPES.includes(CALENDAR_PARAM) && event.place && Object.keys(CALENDAR_PLACES).includes(CALENDAR_PARAM)) {
             return (CALENDAR_PARAM === getEventPlaceCode(event.place));
         }
+        return true;
     });
 }
 if (CALENDAR_PARAM) {

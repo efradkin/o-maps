@@ -113,6 +113,8 @@ const dic = {
     SPECIAL: 'НЕЧТО',
 };
 
+const EVENT_TYPES = ['ALL','ORIENT','ROGAINE','VELO','OTHER'];
+
 const color = {
     RUN: 'red',
     SKI: 'blue',
@@ -1031,8 +1033,8 @@ function validateEvent(evt) {
                     return false;
                 }
                 break;
-            default:
-                if (evt.owner !== CALENDAR_PARAM && evt.start !== CALENDAR_PARAM) {
+                default:
+                if (!EVENT_TYPES.includes(CALENDAR_PARAM) && CALENDAR_PARAM !== 'ALL' && evt.owner !== CALENDAR_PARAM && evt.start !== CALENDAR_PARAM) {
                     return false;
                 }
         }
