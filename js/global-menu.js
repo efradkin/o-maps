@@ -1,5 +1,6 @@
 // https://github.com/BenPortner/leaflet-burgermenu
 const GLOBAL_MENU_ITEMS = [
+    { title: '🏠 Домой', page: 'index' },
     {
         title: 'Регионы',
         menuItems: [

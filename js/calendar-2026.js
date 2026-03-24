@@ -514,6 +514,7 @@ let events2026 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24456/',
     type: 'ORIENT',
     map: 'toksovo_kombyt_2017',
+    planner: 'RDNV_B',
     me: 'МА'
 },
 {
@@ -558,6 +559,18 @@ let events2026 = [
     type: 'ORIENT',
     owner: 'VESTA_PRIOZERSK',
     map: 'priozersk_aerodrom_2020'
+},
+{
+    id: 'SPB_20260330_1',
+    date: '2026-03-30',
+    name: 'Первенство клуба Феникс',
+    place: 'Школа №491',
+    reg: 'https://orgeo.ru/event/50818',
+    type: 'ORIENT',
+    fmt: 'в помещении',
+    info: 'Несколько дистанций в зачёт',
+    owner: 'FENIX',
+    coord: [59.937728, 30.438297]
 },
 {
     id: 'SPB_20260331_1',
@@ -633,6 +646,8 @@ let events2026 = [
     date: '2026-04-05',
     name: 'Кубок D2RUN, 1 этап',
     place: 'Романовка',
+    o_site: '260405_D2RUN_1',
+    reg: 'http://orgeo.ru/event/51288',
     type: 'ORIENT',
     fmt: 'спринт',
     map: 'romanovka_2013',

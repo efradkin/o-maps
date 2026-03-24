@@ -75,6 +75,7 @@ let planners = {
     PNKRTV_B: { name: 'Панкратьев Борис' },
     PNKRTV_N: { name: 'Панкратьев Н' },
     PRVSKY: { name: 'Пировский Игорь' },
+    RDNV_B: { name: 'Родионов Богдан' },
     RDKV: { name: 'Рудаков Виктор' },
     RYLOV_V: { name: 'Рылов Виктор' },
     RYKV_A: { name: 'Райков Александр' },
