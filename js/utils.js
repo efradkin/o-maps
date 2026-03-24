@@ -1259,6 +1259,8 @@ function buildEventType(evt, withFmt) {
                 break;
             case 'FUN':
                 result = 'Интерактив';
+            case 'INDOOR':
+                result = 'В помещении';
         }
         if (!result && evt.type) {
             if (evt.type.includes('WATER')) {
