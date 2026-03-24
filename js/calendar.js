@@ -1,5 +1,4 @@
 const EVENT_MONTH_PARAM = urlParams.get('event-month');
-const CALENDAR_PARAM = urlParams.get('calendar');
 const OWNER_PARAM = urlParams.get('owner');
 
 let onlyMajor = false;

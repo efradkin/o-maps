@@ -106,12 +106,21 @@ let wnStartsMaps = [
         start: 'WN',
         o_site: '06061618_WN',
         url: './maps/starts/wn/wn_2006.webp',
-        link: './original_maps/starts/wn/wn_2006_omaps.jpg',
+        link: ['./original_maps/starts/wn/wn_2006_omaps.jpg','./original_maps/starts/wn/wn_2006_sprint_omaps.webp'],
         bounds: [[60.423004565170935, 29.671111106872562], [60.420780305448474, 29.703683853149418], [60.40516383853125, 29.666347503662113]],
     },
     {
+        name: 'Первомайское',
+        date: '2006-06-18',
+        start: 'WN',
+        o_site: '06061618_WN',
+        url: './maps/starts/wn/wn_2006_06_18.webp',
+        link: './original_maps/starts/wn/wn_2006_06_18_omaps.webp',
+        bounds: [[60.42366122228678, 29.684028625488285], [60.42128872108341, 29.72505569458008], [60.40825806244451, 29.679994583129883]],
+    },
+    {
         name: 'Журавлёвское оз',
-        date: '2007-06-19',
+        date: '2007-07-01',
         start: ['WN','YM'],
         o_site: '070629_WN',
         url: './maps/starts/wn/wn_2007_07_01.webp',
@@ -138,6 +147,17 @@ let wnStartsMaps = [
         link: './original_maps/starts/wn/wn_2008_06_19_omaps.jpg',
         bounds: [[60.62064998298668, 29.8524284362793], [60.618207646596694, 29.879336357116703], [60.60748865695755, 29.848136901855472]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','SHRNN','KUZNTSV_S']
+    },
+    {
+        name: 'Ягодное, Морозовское оз',
+        date: '2008-06-20',
+        start: 'WN',
+        o_site: '08061722',
+        url: './maps/starts/wn/wn_2008_06_20.webp',
+        link: './original_maps/starts/wn/wn_2008_06_20_omaps.webp',
+        info: 'Эстафета.',
+        bounds: [[60.602770330771435, 29.877791404724125], [60.59956821660953, 29.9238395690918], [60.58886410924247, 29.87345695495606]],
+        author: 'MKHLV_A'
     },
     {
         name: 'Ягодное, Заросшее оз',
@@ -176,6 +196,15 @@ let wnStartsMaps = [
         url: './maps/starts/wn/wn_2009_06_20.webp',
         link: './original_maps/starts/wn/wn_2009_06_20_omaps.jpg',
         bounds: [[60.59739818239472, 29.852857589721683], [60.593647682344844, 29.903883934021], [60.580032657325816, 29.84697818756104]],
+    },
+    {
+        name: 'Мичуринское, Петриченко',
+        date: '2009-06-21',
+        start: ['WN','YM'],
+        o_site: '09061621',
+        url: './maps/starts/wn/wn_2009_06_21.webp',
+        link: './original_maps/starts/wn/wn_2009_06_21_omaps.webp',
+        bounds: [[60.61022665497773, 29.898262023925785], [60.60683571543639, 29.948086738586426], [60.59693466103741, 29.89392757415772]],
     },
     {
         name: 'Ягодное, Дубовое оз',

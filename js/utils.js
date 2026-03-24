@@ -167,6 +167,7 @@ const onlyOneSport = (typeof oneSportOnly !== 'undefined') && oneSportOnly;
 
 const urlParams = new URLSearchParams(window.location.search);
 const YEAR_PARAM = urlParams.get('year');
+const CALENDAR_PARAM = urlParams.get('calendar');
 
 /*   FUNCTIONS   */
 

@@ -74,7 +74,7 @@ let naStartsMaps = [
         date: '2007-06-16',
         o_site: '070615',
         url: './maps/starts/na/na_2007_06_16.webp',
-        link: './original_maps/starts/na/na_2007_06_16_omaps.jpg',
+        link: ['./original_maps/starts/na/na_2007_06_16_omaps.jpg','./original_maps/starts/na/na_2007_06_16_m21_omaps.webp','./original_maps/starts/na/na_2007_06_17_m21_omaps.webp'],
         bounds: [[60.626923413319204, 29.907703399658207], [60.623386864387335, 29.952764511108402], [60.60915254498199, 29.90083694458008]],
         author: 'VSLVSKY'
     },

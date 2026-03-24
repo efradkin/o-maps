@@ -423,13 +423,33 @@ let vaskelovoMaps = [
         owner: 'TOKM'
     },
     {
-        name: 'Силанде',
+        name: 'Лемболово',
+        year: 2007,
+        area: 26,
+        url: './maps/forest/vaskelovo/lembolovo_2007.webp',
+        link: './original_maps/forest/vaskelovo/lembolovo_2007.pdf',
+        bounds: [[60.45196959181943, 30.256347656250004], [60.442867869662955, 30.400457382202152], [60.38027218998218, 30.237550735473636]],
+        author: ['CHGRVSKY_Y','DBRTSV_V']
+    },
+    {
+        name: 'Стеклянный, оз Силанде',
         year: 2024,
         url: './maps/forest/vaskelovo/silande_2024.webp',
         link: './original_maps/forest/vaskelovo/silande_2024_omaps.jpg',
         bounds: [[60.416013522306024, 30.259008407592777], [60.41427612096631, 30.286216735839847], [60.3923599498166, 30.249824523925785]],
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
+    },
+    {
+        name: 'Стеклянный, оз Силанде',
+        date: '2009-10-03',
+        url: './maps/forest/vaskelovo/silande_2009.webp',
+        link: './original_maps/forest/vaskelovo/silande_2009_omaps.webp',
+        bounds: [[60.39683340388056, 30.25596141815186], [60.39526458476412, 30.278706550598148], [60.37812985580713, 30.251283645629886]],
+        author: 'DBRTSV_V',
+        info: '50-летие секции ориентирования ЭКРАН.',
+        logo: 'wn_retro.webp',
+        o_site: '091003'
     },
     {
         name: 'Орехово, юг',
@@ -662,15 +682,6 @@ let vaskelovoMaps = [
         bounds: [[60.41902197343451, 30.294456481933597], [60.41806862115358, 30.32612800598145], [60.40291716283444, 30.29660224914551]],
         author: ['KRVCHNKO_V','SRGV','TRNTV_V'],
         logo: 'zenit_1978.webp'
-    },
-    {
-        name: 'Лемболово',
-        year: 2007,
-        area: 26,
-        url: './maps/forest/vaskelovo/lembolovo_2007.webp',
-        link: './original_maps/forest/vaskelovo/lembolovo_2007.pdf',
-        bounds: [[60.45196959181943, 30.256347656250004], [60.442867869662955, 30.400457382202152], [60.38027218998218, 30.237550735473636]],
-        author: ['CHGRVSKY_Y','DBRTSV_V']
     },
     {
         name: 'Лемболово, ДОЛ Пионер',

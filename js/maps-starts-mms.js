@@ -215,6 +215,16 @@ let mmsStartsMaps = [
         planner: 'TLNV_A'
     },
     {
+        name: 'Ягодное',
+        start: 'MMS',
+        date: '2007-06-24',
+        o_site: '06062225_MS',
+        url: './maps/starts/mms/mms_2007_06_24.webp',
+        link: './original_maps/starts/mms/mms_2007_06_24_omaps.webp',
+        bounds: [[60.62536569550654, 29.8853874206543], [60.62128159161396, 29.936714172363285], [60.607888840393066, 29.8798942565918]],
+        planner: 'TLNV_A'
+    },
+    {
         name: 'Каменногорск',
         start: 'MMS',
         date: '2008-06-28',
