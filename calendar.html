@@ -184,10 +184,10 @@
         let oEvents = [];
         const y = YEAR_PARAM ?? '2026';
         switch (y) {
-            case 'ALL': oEvents.push(...events2025); oEvents.push(...events2026); break;
+            case 'ALL': oEvents.push(...events2025); oEvents.push(...events2026); oEvents.push(...commonEvents2026); oEvents.push(...otherEvents2026); break;
             case '2025': oEvents.push(...events2025); break;
             case '2026':
-            default: oEvents.push(...events2026); break;
+            default: oEvents.push(...events2026); oEvents.push(...commonEvents2026); oEvents.push(...otherEvents2026); break;
         }
 
         document.getElementById('year_selector').value = y;

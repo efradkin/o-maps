@@ -207,7 +207,7 @@ let priozerskMaps = [
         name: 'Кузнечное, Богатыри',
         year: 1998,
         url: './maps/forest/priozersk/kuznechnoe_bogatyri_1998.webp',
-        link: './original_maps/forest/priozersk/kuznechnoe_bogatyri_1998_omaps.jpg',
+        link: './original_maps/forest/priozersk/kuznechnoe_bogatyri_1998_omaps.webp',
         bounds: [[61.11791519532813, 29.80376243591309], [61.11244240252194, 29.89165306091309], [61.08761637193672, 29.793934822082523]],
         author: ['KUZNTSV_S','KVZN','VLKV_K','SHRNN']
     },
