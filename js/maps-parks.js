@@ -451,12 +451,12 @@ let parkMaps = [
     },
     {
         name: 'Таврический сад',
-        year: 2023,
+        year: 2011,
         url: './maps/parks/tavrichesky_2023.webp',
-        link: './original_maps/parks/tavrichesky_2023_omaps.jpg',
+        link: ['./original_maps/parks/tavrichesky_2023_omaps.jpg','./original_maps/parks/tavrichesky_2011_omaps.webp','./original_maps/parks/tavrichesky_2011_pictures.webp'],
         bounds: [[59.94823046787108, 30.367712974548343], [59.947607215923064, 30.37899971008301], [59.943663263827155, 30.366854667663574]],
         author: 'FDRV_L',
-        type: ['PARK']
+        type: ['PARK','FOTO']
     },
     {
         name: 'Таврический сад',

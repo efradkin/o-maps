@@ -855,8 +855,11 @@ let authors = {
 
     ABRSMV: { name: 'Абросимов Василий' },
     ANNNKV: { name: 'Анненков А.' },
+    CHNTSV: { name: 'Ченцов В.' },
     CHRNH_Y: { name: 'Черных Ю.' },
+    EKHLKV: { name: 'Ехлаков А.' },
     KBRSKY: { name: 'Кубарский Анатолий' },
+    KRZHV: { name: 'Коржов П.' },
     KHLMV_A: { name: 'Холмов Александр' },
     MKHLEV_A: { name: 'Михалев А.' },
     NKTN_A: { name: 'Никитин Алексей' },

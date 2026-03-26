@@ -83,7 +83,7 @@ let toksovoMaps = [
         name: 'Токсово',
         year: 1991,
         url: './maps/forest/toksovo/toksovo_1991.webp',
-        link: './original_maps/forest/toksovo/toksovo_1991_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/toksovo_1991_omaps.jpg','./original_maps/forest/toksovo/toksovo_1991_omaps.webp'],
         bounds: [[60.16183870470513, 30.43865203857422], [60.15773874834224, 30.512466430664066], [60.11448725214835, 30.42843818664551]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','GRBTNKV','DBRTSV_V'],
         areas: [45,45,5,5]

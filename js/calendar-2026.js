@@ -756,6 +756,13 @@ let events2026 = [
     owner: 'SHBN'
 },
 {
+    id: 'SPB_20260425_3',
+    date: '2026-04-25',
+    name: 'Краснофлотская классика',
+    type: 'ORIENT',
+    owner: 'WN'
+},
+{
     id: 'SPB_20260426_1',
     date: '2026-04-26',
     name: 'ЧиП СПб',

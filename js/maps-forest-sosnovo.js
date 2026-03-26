@@ -108,7 +108,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/koloskovo_1994.webp',
-        link: ['./original_maps/forest/sosnovo/koloskovo_1994_omaps.jpg','./original_maps/forest/sosnovo/krivko_ulovnoe_1995_clean_omaps.webp','./original_maps/forest/sosnovo/koloskovo_1994_2_omaps.jpg'],
+        link: ['./original_maps/forest/sosnovo/koloskovo_1994_omaps.jpg','./original_maps/forest/sosnovo/krivko_ulovnoe_1995_clean_omaps.webp','./original_maps/forest/sosnovo/krivko_ulovnoe_1995_course_omaps.webp','./original_maps/forest/sosnovo/koloskovo_1994_2_omaps.jpg'],
         bounds: [[60.630249099534126, 30.177898406982425], [60.62702866180913, 30.224289894104007], [60.601063980517786, 30.170903205871582]],
         author: 'MLVA_M'
     },

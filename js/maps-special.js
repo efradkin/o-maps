@@ -692,7 +692,18 @@ let specialMaps = [
         url: './maps/velo/shuvalovsky_park_velo_2021.webp',
         link: './original_maps/velo/shuvalovsky_park_velo_2021_omaps.jpg',
         bounds: [[60.084964982364475, 30.295701026916507], [60.08310290925784, 30.321965217590336], [60.06895199883381, 30.291237831115726]],
-        type: ['VELO']
+        type: ['VELO','PARK']
+    },
+    {
+        name: 'Ново-орловский парк',
+        date: '2014-05-25',
+        o_site: '140525v',
+        info: 'ЧиП ЛО по вело-О, спринт.',
+        url: './maps/velo/novoorlovsky_park_velo_2014.webp',
+        link: './original_maps/velo/novoorlovsky_park_velo_2014_omaps.webp',
+        bounds: [[60.05674437067704, 30.26493072509766], [60.057194205535026, 30.299434661865238], [60.03480212648701, 30.266604423522953]],
+        type: ['VELO','PARK'],
+        author: ['SHRNN','MLSHV_Y','KUZNTSV_V','BNDRNK']
     },
     {
         name: 'Лосево',

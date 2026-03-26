@@ -678,7 +678,7 @@ let zelikMaps = [
         name: 'Пухтолова гора',
         year: 1979,
         url: './maps/forest/zelik/pukhtolova_gora_1979.webp',
-        link: './original_maps/forest/zelik/pukhtolova_gora_1979_omaps.jpg',
+        link: ['./original_maps/forest/zelik/pukhtolova_gora_1979_omaps.jpg','./original_maps/forest/zelik/pukhtolova_gora_1979_omaps.webp'],
         bounds: [[60.24543439618453, 29.637680053710938], [60.243986081737205, 29.69338417053223], [60.21713807758243, 29.63373184204102]],
         author: 'GRZNVCH'
     },
@@ -1017,9 +1017,9 @@ let zelikMaps = [
         name: 'Молодёжное, Марьина гора',
         year: 2003,
         url: './maps/forest/zelik/molodezhnoe_2003.webp',
-        link: ['./original_maps/forest/zelik/molodezhnoe_2003_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_02_20_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_omaps.ocd'],
+        link: ['./original_maps/forest/zelik/molodezhnoe_2003_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_omaps.webp','./original_maps/forest/zelik/molodezhnoe_2003_02_20_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_omaps.ocd'],
         bounds: [[60.203002080434125, 29.531786441802982], [60.20167985063764, 29.54835176467896], [60.19703029698733, 29.530413150787357]],
-        author: ['SHKLV','FDRV_L'], //Возможны соавторы
+        author: ['SHKLV','FDRV_L'],
     },
     {
         name: 'ДООЛ "Молодёжное"',

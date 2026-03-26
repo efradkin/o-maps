@@ -176,7 +176,7 @@ let vsevolozhskMaps = [
         name: 'Всеволожск, Ждановские оз',
         year: 1983,
         url: './maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_1983.webp',
-        link: './original_maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_1983_omaps.jpg',
+        link: ['./original_maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_1983_omaps.jpg','./original_maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_1983_omaps.webp'],
         bounds: [[60.004521906449504, 30.664987564086918], [60.00048816958782, 30.71760177612305], [59.96716958714084, 30.66043853759766]],
         author: ['VSLVSKY','DRBSHV','PTRV_A'],
         areas: [80,10,10]

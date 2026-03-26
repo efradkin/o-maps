@@ -590,7 +590,7 @@ let vaskelovoMaps = [
         start: 'NA',
         page: 'spb',
         url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_2004.webp',
-        link: ['./original_maps/forest/vaskelovo/orekhovo_rakitinskoe_2004_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_2005_omaps.jpg'],
+        link: ['./original_maps/forest/vaskelovo/orekhovo_rakitinskoe_2004_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_rakitinskoe_2004_na_omaps.webp','./original_maps/forest/vaskelovo/orekhovo_2005_omaps.jpg'],
         bounds: [[60.47519916632469, 30.26939392089844], [60.46606164490792, 30.36827087402344], [60.44443439421304, 30.264072418212894]],
         author: ['VSLVSKY','BRDR','DRBSHV']
     },

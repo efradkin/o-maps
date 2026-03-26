@@ -99,7 +99,7 @@ let mmsStartsMaps = [
         start: 'MMS',
         date: '2002-06-29',
         url: './maps/starts/mms/mms_2002_06_29.webp',
-        link: './original_maps/starts/mms/mms_2002_06_29_omaps.jpg',
+        link: ['./original_maps/starts/mms/mms_2002_06_29_omaps.jpg','./original_maps/starts/mms/mms_2002_06_29_omaps.webp'],
         bounds: [[60.62690236357998, 29.920663833618168], [60.622671087061754, 29.969716072082523], [60.612690654593976, 29.91662979125977]],
         author: ['TKMKV_K','SHRNN'],
         planner: 'TLNV_A'
