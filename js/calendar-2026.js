@@ -800,6 +800,7 @@ let events2026 = [
     date: '2026-05-02',
     name: 'Мемориал Ирины Вилениновны Степановой',
     place: 'Петяярви',
+    o_site: '260502',
     link: 'https://hardadventure.ru/orient2026',
     reg: 'https://orgeo.ru/event/51138',
     type: 'ORIENT',
