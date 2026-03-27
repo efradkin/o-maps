@@ -118,7 +118,7 @@ function renderMapsTable() {
         const row = document.createElement('tr');
         td(m, row, buildNumber(m, i));
         td(m, row, buildName(m));
-        td(m, row, buildYear(m));
+        td(m, row, buildSheetDate(m));
         if (!isUnknownPage() && !isBooksPage()) {
             td(m, row, buildStart(m));
         }
@@ -224,29 +224,6 @@ function buildName(m) {
         result += '</s>';
     }
     return result;
-}
-
-function buildYear(m) {
-    let result;
-    if (m.year === 1 ) {
-        result = 'Ретро';
-    } else if (isDocumentsPage()) {
-        let date = formatDate(m, true, true);
-        if (date) {
-            result = date;
-        }
-        else {
-            result = m.year ?? m.date;
-        }
-    } else {
-        let sy = startYear(m);
-        if (sy) {
-            result = sy;
-        } else {
-            result = safe(year(m));
-        }
-    }
-    return result ? `<span class="doc-date">${result}</span>` : '';
 }
 
 function buildStart(m) {

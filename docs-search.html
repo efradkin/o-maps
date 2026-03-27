@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.83">
+    <title>O-Maps. Поиск по текстам</title>
+
+    <meta name="description" content="Поиск по текстам документов O-Maps.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <link href="css/google-fonts.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <meta property="og:title" content="O-Maps. Поиск по текстам">
+    <meta property="og:site_name" content="Спортивные карты: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/help/help-search-texts.html">
+    <meta property="og:description" content="Поиск по текстам документов O-Maps.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript>
+        <div>
+            <img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" />
+        </div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <base target="_blank">
+</head>
+
+<body class="index-body help-body stat-body">
+    <script src="js/global-menu.js"></script>
+    <script>
+        writeGlobalMenuHtml('');
+    </script>
+
+    <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
+
+    <header class="main-header">
+        <h2>O-Maps ◪ Поиск по документам</h2>
+    </header>
+
+    <main>
+        <div class="container">
+            <section>
+    <!--            <h2>Поиск</h2>-->
+                <p>
+                    Вы можете осуществить поиск среди документов, хранящихся в электронном виде в каталоге O-Maps.
+                    Поисковая система далека от идеала и не гарантирует нахождение всех воможных вхождений искомого.
+                    И если Вы помните, что участвовали в соревнованиях, результаты которых есть на
+                    <a href="documents.html" target="_self">страничке документов</a>, но поиск их не находит,
+                    просмотрите протокол самостоятельно.
+                </p>
+
+                <div class="row">
+                    <div class="col-4"><input id="search_input" type="text" class="form-control search-page-input" placeholder="Введите строку для поиска"/></div>
+                    <div class="col-8 text-nowrap"><button id="search_button" type="button" class="btn btn-primary" disabled> Искать </button> <img id="sheet-spinner" src="images/spinner.gif" alt="" /></div>
+                </div>
+
+                <div id="search_message" class="search-page-message"></div>
+            </section>
+            <section id="results_section" style="display: none">
+                <ol id="search_results"></ol>
+            </section>
+        </div>
+
+        <noscript>
+            <div id="noscript_content">
+                <h1>O-Maps. Поиск по документам.</h1>
+                <p>
+                    Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+                </p>
+            </div>
+        </noscript>
+    </main>
+
+    <footer>
+        <hr />
+        <span class="my-copyright">
+          © <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>,
+          <a href="https://t.me/o_maps" target="_blank">O-Maps group</a>
+        </span>
+    </footer>
+
+    <script src="js/utils-common.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/history-docs.js"></script>
+    <script src="js/welcome.js"></script>
+    <script src="docs/docs-texts-index.js"></script>
+
+    <script src="js/ext/jquery.slim.min.js"></script>
+    <script src="js/ext/bootstrap.min.js"></script>
+    <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
+
+    <script>
+        const documentsPage = true;
+
+        const searchInput = document.getElementById('search_input');
+        const searchButton = document.getElementById('search_button');
+        const searchMessage = document.getElementById('search_message');
+        const resultsSection = document.getElementById('results_section');
+        const searchResults = document.getElementById('search_results');
+
+        function objectContainsText(value, searchWord) {
+            if (typeof value === 'string') {
+                return value.toLowerCase().includes(searchWord);
+            }
+
+            if (value && typeof value === 'object') {
+                for (const childValue of Object.values(value)) {
+                    if (objectContainsText(childValue, searchWord)) {
+                        return true;
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        function clearResults() {
+            resultsSection.style.display = 'none';
+            searchResults.innerHTML = '';
+            searchMessage.textContent = '';
+            searchMessage.className = 'search-page-message';
+        }
+
+        function showError(text) {
+            searchMessage.textContent = text;
+            searchMessage.className = 'search-page-message text-danger';
+        }
+
+        function showInfo(text) {
+            searchMessage.className = 'search-page-message';
+            if (text) {
+                searchMessage.textContent = text;
+            }
+        }
+
+        function performSearch() {
+            clearResults();
+
+            const rawValue = searchInput.value.trim();
+
+            if (rawValue.length === 0) {
+                showError('Введите строку для поиска - фамилия, имя, название клуба и т.п.');
+                return;
+            }
+
+            const searchWord = rawValue.toLowerCase().replaceAll(' ', '');
+            const matchedKeys = [];
+
+            for (const [key, value] of Object.entries(docsTexts)) {
+                if (objectContainsText(value, searchWord)) {
+                    matchedKeys.push(key);
+                }
+            }
+
+            if (matchedKeys.length === 0) {
+                showInfo('Совпадений не найдено.');
+                return;
+            }
+
+            showInfo(); // 'Найдено ключей: ' + matchedKeys.length
+            resultsSection.style.display = 'block';
+
+            matchedKeys.forEach(function(key) {
+                const li = document.createElement('li');
+                const doc = findDocument(key);
+                li.innerHTML = `<a href="${doc[1]}">${buildSheetDate(doc[0])}. ${doc[0].name}</a>`;
+                searchResults.appendChild(li);
+            });
+        }
+
+        function findDocument(doc) {
+            for (const d of historyDocs) {
+                if (d.link) {
+                    if (Array.isArray(d.link)) {
+                        for (const l of d.link) {
+                            if (l.endsWith(doc)) {
+                                return [d, l];
+                            }
+                        }
+                    } else {
+                        if (d.link.endsWith(doc)) {
+                            return [d, d.link];
+                        }
+                    }
+                }
+            }
+        }
+
+        searchButton.addEventListener('click', performSearch);
+        searchInput.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                performSearch();
+            }
+        });
+
+        writeWelcomeButton('');
+
+        const spinner = document.getElementById('sheet-spinner');
+        spinner.style.display = 'none';
+        searchButton.removeAttribute('disabled');
+    </script>
+</body>
+</html>

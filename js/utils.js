@@ -1043,6 +1043,29 @@ function validateEvent(evt) {
     return true;
 }
 
+function buildSheetDate(m) {
+    let result;
+    if (m.year === 1 ) {
+        result = 'Ретро';
+    } else if (isDocumentsPage()) {
+        let date = formatDate(m, true, true);
+        if (date) {
+            result = date;
+        }
+        else {
+            result = m.year ?? m.date;
+        }
+    } else {
+        let sy = startYear(m);
+        if (sy) {
+            result = sy;
+        } else {
+            result = safe(year(m));
+        }
+    }
+    return result ? `<span class="doc-date">${result}</span>` : '';
+}
+
 function buildEventDate(evt) {
     const date = new Date(evt.date);
     let day = date.getDate();

@@ -568,6 +568,21 @@ button.nav-link {
     padding-left: 30px;
 }
 
+/* --- documents search --- */
+.search-page-message {
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+#results_section {
+    a {
+        font-weight: normal;
+    }
+    li {
+        margin-bottom: 4px;
+    }
+}
+
 /* --- MAP INFO --- */
 #start_info {
     width: 90%;
