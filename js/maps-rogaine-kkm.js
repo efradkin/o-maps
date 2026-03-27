@@ -425,6 +425,19 @@ let rogaineKkmMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Беговая',
+        date: '2026-04',
+        about: 'https://vk.com/wall-227807023_449',
+        info: 'Апрель, фото-рогейн.',
+        url: './maps/rogaine/kkm/begovaya_KKM_2026_04.webp',
+        link: ['https://psv4.userapi.com/s/v1/d2/FuhM7Tab144gM3SGcytqjelfIAbuib-6k79aUTSZ_YjigUA_N0CPqXB6QqgmXVCZCO-hPu2SdyvKs0RU7674tWQxO4XquTiIlTUF6vQb45Bl-DcZ15u81w3XWAesLSigBo_Uvp_mI-rM/KKM_4_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/2eOaKAMZCjQAiRnOb6LT6LBq-o_kyUsoUA-O0syU9wluAcVG2aLH7BuCJfJ7TFeb_tFuSDLOKlNf_QLH6FImQ582yC4XHpjZguLHWp_S0tKiRl5hGj1Z-lsA2xz9F5IGA7yadRPxD-ky/SETKA_4_2026.jpg?dl=1'],
+        bounds: [[60.00834062948804, 30.169401168823246], [60.008254820330215, 30.228281021118168], [59.96785690687505, 30.168972015380863]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24509/',
+        start: ['VO_FOTO','KKM'],
+        owner: 'RYZHOV',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Сосновка',
         date: '2021-10',
         url: './maps/rogaine/kkm/sosnovka_KKM_2021_10.webp',
