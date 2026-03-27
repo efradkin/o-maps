@@ -79,6 +79,14 @@ const GLOBAL_MENU_ITEMS = [
         ],
     },
     {
+        title: 'Календарь',
+        menuItems: [
+            { title: '🗓️ С-Петербург', page: 'calendar' },
+            { title: '🗓️ Москва', page: 'calendar-msk' },
+            { title: '🗓️ Самара', page: 'calendar-samara' },
+        ]
+    },
+    {
         title: 'Разное',
         menuItems: [
             { title: '🗺️ Авторы-составители карт', page: 'authors' },
