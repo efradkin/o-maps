@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-bar {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  transform-origin: top left;
+  width: 100vw;
+  height: 4px;
+  background-color: #F63E59;
+  animation: loading-animation 20s cubic-bezier(0.25, 1, 0.75, 1);
+}
+
+@keyframes loading-animation {
+  from {
+    transform: scaleX(0)
+  }
+
+  to {
+    transform: scaleX(1)
+  }
+}
+
+.sidebar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: white;
+}
