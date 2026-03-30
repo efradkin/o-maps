@@ -1849,6 +1849,18 @@ let cityMaps = [
         type: ['CITY']
     },
     {
+        name: 'Новый Оккервиль',
+        year: 2026,
+        url: './maps/city/new_okkervil_2026.webp',
+        link: './original_maps/city/new_okkervil_2026_omaps.gif',
+        bounds: [[59.92093610329396, 30.50626516342163], [59.91908628309989, 30.522444248199466], [59.91271867188657, 30.502488613128666]],
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
+        editor: 'SHRNN',
+        logo: 'kudrovo.gif',
+        type: ['CITY']
+    },
+    {
         name: 'Кудрово, Школа №3',
         year: 2024,
         url: './maps/city/kudrovo_school_3_2024.webp',
@@ -1856,6 +1868,7 @@ let cityMaps = [
         bounds: [[59.90833485125695, 30.513195991516117], [59.907651676156604, 30.523517131805423], [59.902777593970065, 30.5116617679596]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
+        editor: 'SHRNN',
         logo: 'kudrovo.gif',
         type: ['CITY']
     },
@@ -1867,6 +1880,7 @@ let cityMaps = [
         bounds: [[59.90336940811142, 30.51265954971314], [59.90284215602527, 30.52237987518311], [59.89722478765577, 30.510921478271488]],
         author: ['RYLOV_V','SHRNN'],
         owner: 'RYLOV_V',
+        editor: 'SHRNN',
         logo: 'kudrovo.gif',
         type: ['CITY']
     },
@@ -1879,6 +1893,7 @@ let cityMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23947/',
         author: ['RYLOV_V','SHRNN'],
         owner: 'RYLOV_V',
+        editor: 'SHRNN',
         logo: 'kudrovo.gif',
         type: ['CITY']
     },

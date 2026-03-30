@@ -338,7 +338,7 @@ let authors = {
     RMNTSV_S: { name: 'Румянцев С.' },
     RSKV_S: { name: 'Русаков Сергей' },
     RYLOV_V: {
-        name: 'Рылов Виктор',
+        name: 'Рылов Виктор', // Александрович
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     RYZHOV: {
