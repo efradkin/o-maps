@@ -526,7 +526,11 @@ let events2026 = [
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'FENIX',
-    map: 'school_141_2015'
+    map: 'school_141_2015',
+    gps: {
+        'М':'https://viewer.o-gps-center.ru/viewer/event/24487/',
+        'Ж':'https://viewer.o-gps-center.ru/viewer/event/24488/'
+    }
 },
 {
     id: 'SPB_20260328_2',
@@ -539,14 +543,19 @@ let events2026 = [
     fmt: 'смешанный',
     start: 'ST',
     info: 'Сад КП.',
+    reskeep: 845,
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24537/',
     map: 'sosnovka_2024',
+    me: 'МА'
 },
 {
     id: 'SPB_20260329_1',
     date: '2026-03-29',
     name: 'Тренировка от Феникса',
     place: 'Серово',
+    o_site: '260329_f',
     reg: 'https://orgeo.ru/event/50798',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24486/',
     type: 'ORIENT',
     owner: 'FENIX',
     map: 'serovo_2024'
@@ -577,6 +586,7 @@ let events2026 = [
     date: '2026-03-31',
     name: 'Тренировка от Феникса',
     place: 'Осиновая роща',
+    o_site: '260329_f',
     reg: 'https://orgeo.ru/event/50799',
     type: 'ORIENT',
     owner: 'FENIX',
@@ -599,6 +609,7 @@ let events2026 = [
     date: '2026-04-02',
     name: 'Тренировка от Феникса',
     place: 'Юкки',
+    o_site: '260329_f',
     reg: 'https://orgeo.ru/event/info/50869',
     type: 'ORIENT',
     owner: 'FENIX',
@@ -619,7 +630,9 @@ let events2026 = [
     id: 'SPB_20260404',
     date: '2026-04-04',
     name: 'Кубок Белых ночей №9',
+    place: 'Ильичёво',
     o_site: '250304_bn',
+    reg: 'http://orgeo.ru/event/51427',
     type: 'ORIENT',
     owner: 'WN'
 },
@@ -628,6 +641,7 @@ let events2026 = [
     date: '2026-04-05',
     name: 'Тренировка от Феникса',
     place: 'Стеклянный, оз Силанде',
+    o_site: '260329_f',
     reg: 'https://orgeo.ru/event/50803',
     type: 'ORIENT',
     owner: 'FENIX',
@@ -637,7 +651,9 @@ let events2026 = [
     id: 'SPB_20260405_2',
     date: '2026-04-05',
     name: 'Кубок Белых ночей №10',
+    place: 'Пухтолова гора',
     o_site: '260305_bn',
+    reg: 'http://orgeo.ru/event/51441',
     type: 'ORIENT',
     owner: 'WN'
 },

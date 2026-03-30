@@ -275,6 +275,16 @@ label:has(> span span .layer-shifted) {
     /*color: navy;*/
 }
 
+/* --- Sub-index pages --- */
+body.sub-index-body {
+    .container {
+        width: 60%;
+    }
+    .sub-index-tile {
+        font-size: 64px;
+    }
+}
+
 /* --- Новости --- */
 .help-body .major section {
     background-color: white;
@@ -903,6 +913,10 @@ body.ski-bodi {
 }
 @media screen and (max-width : 600px) {
     body.integration-body .container {
+        width: 100%;
+        margin-left: 0;
+    }
+    body.sub-index-body .container {
         width: 100%;
         margin-left: 0;
     }
