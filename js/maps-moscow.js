@@ -6183,7 +6183,7 @@ let moscowMaps = [
         bounds: [[55.76983834985838, 37.57796287536622], [55.76997112339041, 37.58673906326295], [55.76306630005254, 37.57819890975953]],
         author: ['MSTPNV','DRN_E','ALDBV'],
         areas: [90,5,5],
-        owner: 'OPNBND',
+        owner: ['OPNBND','MSTPNV'],
         start: 'OBSW',
         type: ['CITY','SPRINT']
     },
@@ -6197,7 +6197,7 @@ let moscowMaps = [
         bounds: [[55.65998866731282, 37.84468173980713], [55.658741901165925, 37.84965991973878], [55.657410359488516, 37.84266471862794]],
         author: ['MSTPNV','DRN_E','ALDBV'],
         areas: [45,35,20],
-        owner: 'OPNBND',
+        owner: ['OPNBND','MSTPNV'],
         start: 'OBSW',
         type: ['INDOOR']
     },
@@ -6209,7 +6209,7 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/patriki_rogaine_2025_omaps.gif',
         bounds: [[55.77071947484046, 37.589292526245124], [55.76689307523892, 37.62066364288331], [55.74536408844991, 37.57997989654542]],
         author: ['MNKV','MSTPNV','KPTNV_M','DRN_E','PRZRV','ALDBV'],
-        owner: ['ERMCHNKV_A','OPNBND'],
+        owner: ['ERMCHNKV_A','OPNBND','MSTPNV'],
         type: ['CITY','SPRINT']
     },
     {
@@ -6223,7 +6223,7 @@ let moscowMaps = [
         bounds: [[55.75801969423824, 37.58216857910157], [55.758261173508274, 37.60019302368165], [55.74622161125257, 37.58259773254395]],
         author: ['MSTPNV','DRN_E','PRZRV','ALDBV'],
         areas: [45,45,5,5],
-        owner: 'OPNBND',
+        owner: ['OPNBND','MSTPNV'],
         start: 'OBSW',
         type: ['CITY','SPRINT']
     },
@@ -6238,7 +6238,7 @@ let moscowMaps = [
         bounds: [[55.75814043406014, 37.58345603942872], [55.75830946918283, 37.598025798797615], [55.75264639372546, 37.58360624313355]],
         author: ['MSTPNV','PRZRV'],
         areas: [80, 20],
-        owner: 'PRZRV',
+        owner: ['PRZRV','MSTPNV'],
         logo: 'arbat_2025.jpg',
         type: ['CITY','SPRINT']
     },
@@ -6365,7 +6365,7 @@ let moscowMaps = [
         bounds: [[55.77092466547034, 37.589507102966316], [55.76743627786657, 37.61843204498292], [55.75801969423824, 37.58446455001832]],
         author: ['MNKV','MSTPNV','KPTNV_M'],
         areas: [60,35,5],
-        owner: ['ERMCHNKV_A','OPNBND'],
+        owner: ['ERMCHNKV_A','OPNBND','MSTPNV'],
         type: ['CITY','SPRINT']
     },
     {
@@ -6408,7 +6408,7 @@ let moscowMaps = [
         bounds: [[55.78100181705107, 37.6663899421692], [55.781038017688644, 37.67598152160645], [55.77606614860845, 37.66634702682496]],
         author: ['MSTPNV','ALDBV'],
         areas: [90, 10],
-        owner: 'OPNBND',
+        owner: ['OPNBND','MSTPNV'],
         type: ['CITY','SPRINT']
     },
 ];

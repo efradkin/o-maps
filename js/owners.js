@@ -145,6 +145,9 @@ let owners = {
         logo: 'multsport.webp',
         rogaine: true
     },
+    MSTPNV: {
+        name: 'Карты Ивана Мостепанова можно свободно использовать для тренировок. По всем вопросам пишите в <a href="https://t.me/platforma88km">Telegram</a>.'
+    },
     NW: {
         name: '© Клуб "Nord-West"'
     },
