@@ -558,7 +558,8 @@ let events2026 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24486/',
     type: 'ORIENT',
     owner: 'FENIX',
-    map: 'serovo_2024'
+    map: 'serovo_2024',
+    me: 'МА'
 },
 {
     id: 'SPB_20260329_2',
@@ -651,7 +652,7 @@ let events2026 = [
     id: 'SPB_20260405_2',
     date: '2026-04-05',
     name: 'Кубок Белых ночей №10',
-    place: 'Пухтолова гора',
+    place: 'Болотная станция',
     o_site: '260305_bn',
     reg: 'http://orgeo.ru/event/51441',
     type: 'ORIENT',
@@ -672,10 +673,14 @@ let events2026 = [
 {
     id: 'SPB_20260407_1',
     date: '2026-04-07',
-    name: 'Спринт у дома',
+    name: 'NW Sprint',
+    place: 'Богатырский пр',
+    reg: 'https://orgeo.ru/event/info/nw_sprint',
     type: 'ORIENT',
     fmt: 'спринт',
-    owner: 'NW'
+    owner: 'NW',
+    coord: [60.006392, 30.207974],
+    planner: 'SDRV_A'
 },
 {
     id: 'SPB_20260411_1',
@@ -723,6 +728,16 @@ let events2026 = [
     owner: 'WN'
 },
 {
+    id: 'SPB_20260418_2',
+    date: '2026-04-18',
+    name: 'Красногвардейский о-спринт',
+    place: 'Передовиков, 29',
+    o_site: '260418',
+    reg: 'https://orgeo.ru/event/krosprint26',
+    type: 'ORIENT',
+    fmt: 'спринт'
+},
+{
     id: 'SPB_20260419_1',
     date: '2026-04-19',
     name: 'Тренировка от Феникса',
@@ -764,8 +779,9 @@ let events2026 = [
 {
     id: 'SPB_20260425_2',
     date: '2026-04-25',
-    name: 'Лужский весенний рогейн (ККР №1, КЛО)',
+    name: 'Лужский весенний рогейн, ККР №1, КЛО',
     place: 'Луга, оз Омчино',
+    reg: 'https://orgeo.ru/event/48937',
     type: 'ROGAINE',
     fmt: '4',
     map: 'toloni_2025',

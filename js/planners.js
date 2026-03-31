@@ -80,6 +80,7 @@ let planners = {
     RYLOV_V: { name: 'Рылов Виктор' },
     RYKV_A: { name: 'Райков Александр' },
     RYZHOV: { name: 'Рыжов Сергей' },
+    SDRV_A: { name: 'Сидоров Алексей' }, // NW, Казань
     SHEIN: { name: 'Шеин Александр' },
     SHICK: { name: 'Шик А' },
     SHKLV: { name: 'Шкилев Виталий' },

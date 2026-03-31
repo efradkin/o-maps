@@ -337,8 +337,11 @@ let commonEvents2026 = [
     name: 'Венок Славы Ал.Невского (ВСАН)',
     place: 'Псков',
     link: 'https://vk.com/skorus',
+    reg: 'https://orgeo.ru/event/49482',
     type: 'ORIENT',
-    owner: 'PSKOV_RUS'
+    fmt: 'спринт, лонг, классика',
+    owner: 'PSKOV_RUS',
+    coord: [57.818556, 28.294611]
 },
 {
     id: 'SPB_20260509_2',

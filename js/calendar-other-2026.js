@@ -128,7 +128,7 @@ let otherEvents2026 = [
     fmt: '50 skate',
     logo: 'tikhvin.gif',
     track: 'tikhvin_omaps',
-    coords: [59.644209, 33.542096],
+    coord: [59.644209, 33.542096],
     cancelled: true
 },
 {
@@ -142,7 +142,7 @@ let otherEvents2026 = [
     fmt: '50,25,10 skate,classic',
     start: 'TOKSOVO_CUP',
     track: 'ohtapark_ski',
-    coords: [60.127481, 30.463336]
+    coord: [60.127481, 30.463336]
 },
 {
     id: 'OTHER_20260208_1',
@@ -155,7 +155,7 @@ let otherEvents2026 = [
     fmt: '50 classic',
     owner: 'GARBOLOVO',
     track: 'garbolovo_master_ski',
-    coords: [60.338019, 30.500704]
+    coord: [60.338019, 30.500704]
 },
 {
     id: 'OTHER_20260321_1',
@@ -166,7 +166,7 @@ let otherEvents2026 = [
     fmt: '51,34,13,3 skate',
     start: 'MULTSPORT',
     track: 'orekhovo_12_ski',
-    coords: [60.461689, 30.294732],
+    coord: [60.461689, 30.294732],
     cancelled: true
 },
 {
