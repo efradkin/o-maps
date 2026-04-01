@@ -600,11 +600,16 @@ let events2026 = [
     name: 'Тренировка от Феникса',
     place: 'Ильинский сад',
     reg: 'https://orgeo.ru/event/50800',
+    gps: {
+        'М':'https://viewer.o-gps-center.ru/viewer/event/24580/',
+        'Ж':'https://viewer.o-gps-center.ru/viewer/event/24581/'
+    },
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'FENIX',
     info: 'Новая карта.',
-    coord: [59.96317425880231, 30.46989440917969]
+    map: 'ilinsky_garden_2026',
+    me: 'М'
 },
 {
     id: 'SPB_20260402_1',
@@ -656,6 +661,7 @@ let events2026 = [
     place: 'Болотная станция',
     o_site: '260305_bn',
     reg: 'http://orgeo.ru/event/51441',
+    info: '<span class="restricted-text">Закрытый район.</span>',
     type: 'ORIENT',
     owner: 'WN'
 },
@@ -676,6 +682,7 @@ let events2026 = [
     date: '2026-04-07',
     name: 'NW Sprint',
     place: 'Богатырский пр',
+    o_site: '260407_NWSprint_1',
     reg: 'https://orgeo.ru/event/info/nw_sprint',
     type: 'ORIENT',
     fmt: 'спринт',

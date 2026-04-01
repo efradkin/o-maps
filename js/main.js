@@ -351,7 +351,7 @@ if (mapElement) {
 
     if (ooptLayer) {
         map.createPane(OOPT_TOP_PANE);
-        map.getPane(OOPT_TOP_PANE).style.zIndex = 1000;
+        map.getPane(OOPT_TOP_PANE).style.zIndex = 500;
     }
 
     // --- notifications (https://gitlab.com/manuel.richter95/leaflet.notifications)
