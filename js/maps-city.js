@@ -2285,7 +2285,7 @@ let cityMaps = [
         name: 'Школа №491',
         date: '2026-03-30',
         url: './maps/city/school_491_2026.webp',
-        link: './original_maps/city/school_491_2026_omaps.gif',
+        link: ['./original_maps/city/school_491_2026_1_omaps.gif','./original_maps/city/school_491_2026_2_omaps.gif','./original_maps/city/school_491_2026_3_omaps.gif','./original_maps/city/school_491_2026_4_omaps.gif','./original_maps/city/school_491_2026_5_omaps.gif','./original_maps/city/school_491_2026_6_omaps.gif'],
         about: 'https://t.me/c/3634322394/3/88',
         info: 'Первенство клуба Феникс.',
         bounds: [[59.9382301583012, 30.437150001525882], [59.93821403500159, 30.439317226409916], [59.937488478405626, 30.43719291687012]],

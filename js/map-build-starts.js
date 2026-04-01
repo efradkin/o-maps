@@ -61,6 +61,8 @@ let sto24Group = L.layerGroup([]);
 let twotwoGroup = L.layerGroup([]);
 let majorGroup = L.layerGroup([]);
 
+let ooptLayer = buildOoptLayer();
+
 let allOrientGroups = [
     otherGroup,
     schoolGroup,
@@ -174,7 +176,8 @@ function buildOverlayMapsContents() {
         "ККМ": kkmGroup,
         "Марш-Бросок": mbGroup,
         "<span class='layer-separator'>Чемпионаты и Кубки</span>": majorGroup,
-        "<span class='layer-separator'>Прочее</span>": otherGroup
+        "<span class='layer-separator'>Прочее</span>": otherGroup,
+        "<span class='layer-separator'>ООПТ</span>": ooptLayer
     };
     return result;
 }

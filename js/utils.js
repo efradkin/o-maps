@@ -136,6 +136,7 @@ const BACKGROUND_OSM = 'osm';
 const BACKGROUND_TOPO = 'topo';
 const BACKGROUND_YANDEX = 'yandex';
 const BACKGROUND_SATELLITE = 'satellite';
+const OOPT_TOP_PANE = 'ooptTopPane';
 
 const LOGO_CAROUSEL_TEMPLATE = `
         <div id="logo-carousel" class="carousel carousel-dark slide">
@@ -993,6 +994,15 @@ function hideSpinner() {
         spinnerDisplayed = false;
         document.getElementById("spinner").style.display = 'none';
     }
+}
+
+function buildOoptLayer() {
+    return L.tileLayer('wdpa-russia-tiles/{z}/{x}/{y}.png', {
+        pane: OOPT_TOP_PANE,
+        maxNativeZoom: 9,
+        opacity: 0.85,
+        attribution: 'UNEP-WCMC and IUCN, Protected Planet, WDPA/WD-OECM, April 2026'
+    });
 }
 
 /*   CALENDAR   */

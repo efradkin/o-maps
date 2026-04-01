@@ -379,6 +379,7 @@ let commonEvents2026 = [
     endDate: '2026-06-20',
     name: 'Камни Карельского перешейка',
     place: 'Пруды',
+    o_site: '260616-21_KKP',
     link: 'https://o-nw.ru/kkp',
     reg: 'https://sportident.online/entry/?id=6855',
     type: 'ORIENT',

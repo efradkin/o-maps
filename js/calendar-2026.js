@@ -589,6 +589,7 @@ let events2026 = [
     place: 'Осиновая роща',
     o_site: '260329_f',
     reg: 'https://orgeo.ru/event/50799',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24568/',
     type: 'ORIENT',
     owner: 'FENIX',
     map: 'osinovaja_roscha_2018'

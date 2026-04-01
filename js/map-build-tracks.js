@@ -43,6 +43,8 @@ let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [
 let calendarGroup = buildCalendarGroup();
 let calendarPastGroup = buildCalendarGroup();
 
+let ooptLayer = buildOoptLayer();
+
 let runGroup = L.layerGroup([]);
 let walkGroup = L.layerGroup([]);
 let skiGroup = L.layerGroup([]);
@@ -95,7 +97,8 @@ function buildOverlayMapsContents() {
         "<span class='SKI'>Лыжи</span>": skiGroup,
         "<span class='WALK'>Пешие</span>": walkGroup,
         //"<span class='layer-separator'>Спорт.Карты</span>": mapsGroup,
-        "<span class='layer-separator'>Карты</span>": rogaineGroup
+        "<span class='layer-separator'>Карты</span>": rogaineGroup,
+        "<span class='layer-separator'>ООПТ</span>": ooptLayer
     };
     return result;
 }

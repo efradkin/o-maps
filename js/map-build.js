@@ -46,6 +46,8 @@ let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [
 let calendarGroup = buildCalendarGroup();
 let calendarPastGroup = buildCalendarGroup();
 
+let ooptLayer = buildOoptLayer();
+
 let tracksGroup = L.layerGroup([]);
 
 let funGroup = L.layerGroup([]);
@@ -135,6 +137,7 @@ if (mapElement) {
     if (HAS_CALENDAR_PARAM) {
         layers.push(calendarGroup);
     }
+
     activeLayers.push(...layers);
 }
 
@@ -154,7 +157,8 @@ function buildOverlayMapsContents() {
         "<span class='layer-separator'>Рогейн</span>": rogaineGroup,
         "<span class='layer-separator' id='tracks-group-check'>Маршруты</span>": tracksGroup,
         "<span class='layer-separator' id='calendar-group-check'>Календарь</span>": calendarGroup,
-        "<span class='layer-shifted' id='calendar-past-group-check'>прошлые</span>": calendarPastGroup
+        "<span class='layer-shifted' id='calendar-past-group-check'>прошлые</span>": calendarPastGroup,
+        "<span class='layer-separator'>ООПТ</span>": ooptLayer
     };
 }
 

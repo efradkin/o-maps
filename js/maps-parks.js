@@ -1769,4 +1769,14 @@ let parkMaps = [
         logo: 'kudrovo.gif',
         type: ['PARK']
     },
+    {
+        name: 'Ильинский сад',
+        year: 2026,
+        url: './maps/parks/ilinsky_garden_2026.webp',
+        link: './original_maps/parks/ilinsky_garden_2026_omaps.gif',
+        bounds: [[59.9678461676139, 30.468006134033207], [59.96559084562524, 30.48843383789063], [59.9604352472863, 30.46470165252686]],
+        author: 'RDNV_I',
+        owner: 'RDNV_I',
+        type: ['PARK']
+    },
 ];

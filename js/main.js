@@ -349,6 +349,11 @@ if (mapElement) {
         contextmenuItems: buildContextmenuItems()
     });
 
+    if (ooptLayer) {
+        map.createPane(OOPT_TOP_PANE);
+        map.getPane(OOPT_TOP_PANE).style.zIndex = 1000;
+    }
+
     // --- notifications (https://gitlab.com/manuel.richter95/leaflet.notifications)
     notificationControl = L.control
         .notifications({
