@@ -997,9 +997,10 @@ function hideSpinner() {
 }
 
 function buildOoptLayer() {
+    const max_zoom = (typeof OOPT_MAX_ZOOM !== 'undefined') ? OOPT_MAX_ZOOM : 9;
     return L.tileLayer('wdpa-russia-tiles/{z}/{x}/{y}.png', {
         pane: OOPT_TOP_PANE,
-        maxNativeZoom: 9,
+        maxNativeZoom: max_zoom,
         opacity: 0.85,
         attribution: 'UNEP-WCMC and IUCN, Protected Planet, WDPA/WD-OECM, April 2026'
     });
