@@ -59,6 +59,10 @@ const regions = {
         name: 'Оренбург',
         logo: 'orenburg.webp'
     },
+    PORTUGAL: {
+        name: 'Португалия',
+        logo: 'portugal.gif'
+    },
     PSKOV: {
         name: 'Псков'
     },

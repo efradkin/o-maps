@@ -618,6 +618,10 @@ let events2026 = [
     place: 'Юкки',
     o_site: '260329_f',
     reg: 'https://orgeo.ru/event/info/50869',
+    gps: {
+        'A':'https://viewer.o-gps-center.ru/viewer/event/24591/',
+        'B':'https://viewer.o-gps-center.ru/viewer/event/24592/'
+    },
     type: 'ORIENT',
     owner: 'FENIX',
     map: 'yukki_north_2020'
@@ -628,6 +632,10 @@ let events2026 = [
     name: 'Тренировка от Феникса',
     place: 'Школа №532',
     reg: 'https://orgeo.ru/event/50802',
+    gps: {
+        'М':'https://viewer.o-gps-center.ru/viewer/event/24603/',
+        'Ж':'https://viewer.o-gps-center.ru/viewer/event/24604/'
+    },
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'FENIX',
@@ -636,12 +644,13 @@ let events2026 = [
 {
     id: 'SPB_20260404',
     date: '2026-04-04',
-    name: 'Кубок Белых ночей №9',
+    name: 'Кубок Белых ночей №8',
     place: 'Ильичёво',
     o_site: '250304_bn',
     reg: 'http://orgeo.ru/event/51427',
     type: 'ORIENT',
-    owner: 'WN'
+    owner: 'WN',
+    map: 'ilychevo_2016'
 },
 {
     id: 'SPB_20260405_1',
@@ -657,13 +666,14 @@ let events2026 = [
 {
     id: 'SPB_20260405_2',
     date: '2026-04-05',
-    name: 'Кубок Белых ночей №10',
+    name: 'Кубок Белых ночей №9',
     place: 'Болотная станция',
     o_site: '260305_bn',
     reg: 'http://orgeo.ru/event/51441',
     info: '<span class="restricted-text">Закрытый район.</span>',
     type: 'ORIENT',
-    owner: 'WN'
+    owner: 'WN',
+    map: 'bolotnaya_station_2019'
 },
 {
     id: 'SPB_20260405_3',

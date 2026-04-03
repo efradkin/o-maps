@@ -411,4 +411,156 @@ let otherMaps = [
         logo: 'disney.gif',
         region: 'FRA'
     },
+    {
+        name: 'Colegio do Rosário',
+        year: 2025,
+        url: './maps/other/portugal/colegio_do_rosário_2025.webp',
+        link: './original_maps/other/portugal/colegio_do_rosário_2025_omaps.gif',
+        bounds: [[41.16434321071699, -8.6577844619751], [41.164391672294805, -8.65603566169739], [41.162622801486314, -8.657848834991457]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT']
+    },
+    {
+        name: 'Ermesinde',
+        year: 2026,
+        url: './maps/other/portugal/ermesinde_2026.webp',
+        link: './original_maps/other/portugal/ermesinde_2026_omaps.gif',
+        bounds: [[41.22210010926726, -8.554337024688722], [41.22203555075753, -8.542470932006838], [41.20576477476002, -8.554530143737795]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Escola Básica António Fernandes de Sá',
+        year: 2026,
+        url: './maps/other/portugal/escola_basica_antonio_fernandes_de_sa_2026.webp',
+        link: './original_maps/other/portugal/escola_basica_antonio_fernandes_de_sa_2026_omaps.gif',
+        bounds: [[41.12966784708218, -8.59284281730652], [41.12967592828674, -8.590160608291628], [41.127906120735304, -8.592724800109865]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Escola Básica de Miragaia',
+        year: 2024,
+        url: './maps/other/portugal/escola_basica_de_miragaia_2024.webp',
+        link: './original_maps/other/portugal/escola_basica_de_miragaia_2024_omaps.gif',
+        bounds: [[41.14439015047017, -8.619675636291506], [41.14436591229142, -8.618677854537966], [41.1432024691752, -8.619686365127565]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Escola Básica de Rio Tinto',
+        year: 2024,
+        url: './maps/other/portugal/escola_basica_de_rio_tinto_2024.webp',
+        link: './original_maps/other/portugal/escola_basica_de_rio_tinto_2024_omaps.gif',
+        bounds: [[41.17094173241573, -8.557813167572023], [41.170990189113446, -8.555356264114382], [41.16935071760144, -8.557866811752321]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Escola básica Dom Maria',
+        year: 2025,
+        url: './maps/other/portugal/escola_basica_dom_maria_2025.webp',
+        link: './original_maps/other/portugal/escola_basica_dom_maria_2025_omaps.gif',
+        bounds: [[41.41788630655365, -8.51519823074341], [41.41792653455813, -8.512526750564577], [41.41576223252812, -8.515251874923708]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Escola Básica Dr. Costa Matos',
+        year: 2025,
+        url: './maps/other/portugal/escola_basica_dr_costa_matos_2025.webp',
+        link: './original_maps/other/portugal/escola_basica_dr_costa_matos_2025_omaps.gif',
+        bounds: [[41.12407541488788, -8.62105965614319], [41.124051169202, -8.618752956390383], [41.122483262495564, -8.62107038497925]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Escola básica Leça da Palmeira',
+        year: 2024,
+        url: './maps/other/portugal/escola_basica_leca_da_palmeira_2024.webp',
+        link: './original_maps/other/portugal/escola_basica_leca_da_palmeira_2024_omaps.gif',
+        bounds: [[41.198410928894106, -8.70170831680298], [41.19842707435653, -8.699444532394411], [41.19617474387565, -8.701633214950563]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Escola básica Manoel de Oliveira',
+        year: 2026,
+        url: './maps/other/portugal/escola_basica_manoel_de_oliveira_2026.webp',
+        link: './original_maps/other/portugal/escola_basica_manoel_de_oliveira_2026_omaps.gif',
+        bounds: [[41.16919726742927, -8.667826652526857], [41.16919726742927, -8.665466308593752], [41.167985806083344, -8.667869567871096]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Escola secundária Abel Salazar',
+        year: 2025,
+        url: './maps/other/portugal/escola_secundaria_abel_salazar_2025.webp',
+        link: './original_maps/other/portugal/escola_secundaria_abel_salazar_2025_omaps.gif',
+        bounds: [[41.19722422650261, -8.608367443084719], [41.19712735188814, -8.605771064758303], [41.19464085438343, -8.608506917953493]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Escola secundária Augusto Gomes',
+        year: 2025,
+        url: './maps/other/portugal/escola_secundaria_augusto_gomes_2025.webp',
+        link: './original_maps/other/portugal/escola_secundaria_augusto_gomes_2025_omaps.gif',
+        bounds: [[41.183111313666906, -8.680615425109865], [41.18307094055977, -8.678104877471926], [41.18110877755345, -8.680583238601686]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Escola Secundária de São Pedro da Cova',
+        year: 2024,
+        url: './maps/other/portugal/escola_secundaria_de_sao_pedro_da_cova_2024.webp',
+        link: './original_maps/other/portugal/escola_secundaria_de_sao_pedro_da_cova_2024_omaps.gif',
+        bounds: [[41.15942417414414, -8.5174298286438], [41.15945648429171, -8.51595997810364], [41.15762285822115, -8.517333269119264]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Esola secundária Camila Castelo Branco',
+        year: 2025,
+        url: './maps/other/portugal/esola_secundaria_camila_castelo_branco_2025.webp',
+        link: './original_maps/other/portugal/esola_secundaria_camila_castelo_branco_2025_omaps.gif',
+        bounds: [[41.40509253736082, -8.525229692459108], [41.40514082047109, -8.520916700363161], [41.40327384741321, -8.525272607803347]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
+    {
+        name: 'Parque d o Carriçal',
+        year: 2025,
+        url: './maps/other/portugal/parque_d_o_carrical_2025.webp',
+        link: './original_maps/other/portugal/parque_d_o_carrical_2025_omaps.gif',
+        bounds: [[41.18592929504344, -8.662054538726808], [41.18656715938278, -8.653578758239748], [41.181859735771766, -8.661625385284426]],
+        region: 'PORTUGAL',
+        type: ['CITY','SPRINT','PARK'],
+        author: 'MSTPNV',
+        owner: 'MSTPNV'
+    },
 ];
