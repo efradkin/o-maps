@@ -11,6 +11,7 @@ let events2026 = [
     reskeep: 838,
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24008/',
     owner: 'WN',
+    strava: 16932346660,
     me: 'МА'
 },
 {
@@ -26,6 +27,7 @@ let events2026 = [
     map: 'chkalovskaya_2021_st_omaps',
     owner: 'DLITELNY',
     logo: 'across.gif',
+    strava: 16953908867,
     me: 'М'
 },
 {
@@ -40,6 +42,7 @@ let events2026 = [
     type: 'ORIENT',
     map: 'orovo_2019',
     owner: 'WN',
+    strava: 16966535224,
     me: 'МА'
 },
 {
@@ -57,6 +60,7 @@ let events2026 = [
     planner: 'KSHN_D',
     owner: 'DLITELNY',
     map: 'gimnazia_74_2024',
+    strava: 16998268240,
     me: 'Pro'
 },
 {
@@ -111,6 +115,7 @@ let events2026 = [
     owner: 'DLITELNY',
     planner: 'KSHN_D',
     map: 'school_150_2016_omaps',
+    strava: 17078824256,
     me: 'Pro'
 },
 {
@@ -355,6 +360,7 @@ let events2026 = [
     type: 'ORIENT',
     map: 'pavlovsk_mariental_2022',
     owner: 'EGRV_EGR',
+    strava: 17469230384,
     me: 'М45'
 },
 {
@@ -372,6 +378,7 @@ let events2026 = [
     info: 'Медаль - каждому участнику. Квест в стиле средневекового фэнтези.',
     map: 'udelny_2021',
     owner: 'SFSO_SPB',
+    strava: 17492293728,
     me: 'М45'
 },
 {
@@ -427,6 +434,7 @@ let events2026 = [
     type: 'ORIENT',
     map: 'sestroretsk_tamozhennaya_doroga_2012',
     owner: 'WN',
+    strava: 17634619444,
     me: 'МА'
 },
 {
@@ -448,6 +456,7 @@ let events2026 = [
     map: 'pulkovsky_2024',
     owner: 'SFSO_SPB',
     planner: 'LHMNV',
+    strava: 17645255591,
     me: 'М45'
 },
 {
@@ -475,6 +484,7 @@ let events2026 = [
     owner: 'DLITELNY',
     map: 'udelnaya_2015',
     planner: 'KSHN_D',
+    strava: 17717209233,
     me: 'Pro'
 },
 {
@@ -492,6 +502,7 @@ let events2026 = [
     type: 'ORIENT',
     owner: 'WN',
     map: 'orovo_2019',
+    strava: 17730150834,
     me: 'MA'
 },
 {
@@ -515,6 +526,7 @@ let events2026 = [
     type: 'ORIENT',
     map: 'toksovo_kombyt_2017',
     planner: 'RDNV_B',
+    strava: 17813096161,
     me: 'МА'
 },
 {
@@ -526,6 +538,7 @@ let events2026 = [
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'FENIX',
+    planner: 'RDNV_I',
     map: 'school_141_2015',
     gps: {
         'М':'https://viewer.o-gps-center.ru/viewer/event/24487/',
@@ -546,6 +559,7 @@ let events2026 = [
     reskeep: 845,
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24537/',
     map: 'sosnovka_2024',
+    strava: 17887209338,
     me: 'МА'
 },
 {
@@ -558,7 +572,9 @@ let events2026 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24486/',
     type: 'ORIENT',
     owner: 'FENIX',
+    planner: 'RDNV_I',
     map: 'serovo_2024',
+    strava: 17899008083,
     me: 'МА'
 },
 {
@@ -592,6 +608,7 @@ let events2026 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24568/',
     type: 'ORIENT',
     owner: 'FENIX',
+    planner: 'RDNV_I',
     map: 'osinovaja_roscha_2018'
 },
 {
@@ -607,8 +624,10 @@ let events2026 = [
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'FENIX',
+    planner: 'RDNV_I',
     info: 'Новая карта.',
     map: 'ilinsky_garden_2026',
+    strava: 17938992230,
     me: 'М'
 },
 {
@@ -624,7 +643,9 @@ let events2026 = [
     },
     type: 'ORIENT',
     owner: 'FENIX',
-    map: 'yukki_north_2020'
+    planner: 'RDNV_I',
+    map: 'yukki_north_2020',
+    strava: 17985342473
 },
 {
     id: 'SPB_20260403_1',
@@ -639,6 +660,7 @@ let events2026 = [
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'FENIX',
+    planner: 'RDNV_I',
     map: 'school_532_2023'
 },
 {
@@ -653,6 +675,7 @@ let events2026 = [
     type: 'ORIENT',
     owner: 'WN',
     map: 'ilychevo_2016',
+    strava: 17973292237,
     me: 'МА'
 },
 {
@@ -662,8 +685,13 @@ let events2026 = [
     place: 'Стеклянный, оз Силанде',
     o_site: '260329_f',
     reg: 'https://orgeo.ru/event/50803',
+    gps: {
+        'A':'https://viewer.o-gps-center.ru/viewer/event/24624/',
+        'B':'https://viewer.o-gps-center.ru/viewer/event/24625/'
+    },
     type: 'ORIENT',
     owner: 'FENIX',
+    planner: 'RDNV_I',
     map: 'silande_2025'
 },
 {
@@ -674,6 +702,7 @@ let events2026 = [
     o_site: '260305_bn',
     reg: 'http://orgeo.ru/event/51441',
     info: '<span class="restricted-text">Закрытый район.</span>',
+    reskeep: 853,
     type: 'ORIENT',
     owner: 'WN',
     map: 'bolotnaya_station_2019'
@@ -729,6 +758,18 @@ let events2026 = [
     map: ['sosnovij_bor_lipovo_2020','sosnovy_bor_2021_05_30']
 },
 {
+    id: 'SPB_20260411_3',
+    date: '2026-04-11',
+    name: 'ЧиП Киришей',
+    place: 'Кириши, клуб Ассоль',
+    link: 'https://vk.com/ori_ki',
+    reg: 'https://orgeo.ru/event/kirishi_o_110426',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    owner: 'MLV_AL',
+    map: 'kirishi_assol_2024'
+},
+{
     id: 'SPB_20260415_1',
     date: '2026-04-15',
     name: 'Спринт Тур',
@@ -761,8 +802,9 @@ let events2026 = [
 {
     id: 'SPB_20260419_1',
     date: '2026-04-19',
-    name: 'Тренировка от Феникса',
+    name: 'Перспектива',
     place: 'Стеклянный, оз Силанде',
+    o_site: '260419_p',
     reg: 'https://orgeo.ru/event/50868',
     type: 'ORIENT',
     owner: 'FENIX',

@@ -100,7 +100,8 @@ let events2025 = [
     fmt: 'маркир',
     link: 'https://vk.com/wall-201330282_1661',
     owner: 'YUVENTA',
-    map: 'sosnovij_bor_2021'
+    map: 'sosnovij_bor_2021',
+    strava: 13508432660
 },
 {
     id: 'SPB_20250209_1',
@@ -161,6 +162,7 @@ let events2025 = [
     reskeep: 682,
     map: 'sosnovka_2014',
     owner: 'KUZMOLOVO',
+    strava: 13695219356,
     me: 'A'
 },
 {
@@ -201,6 +203,7 @@ let events2025 = [
     reskeep: 681,
     owner: 'SFSO_SPB',
     map: 'piskarevsky_2024',
+    strava: 13702730016,
     me: 'Фит'
 },
 {
@@ -246,6 +249,7 @@ let events2025 = [
     owner: 'SFSO_SPB',
     info: 'Новая карта.',
     map: 'lesotekchnicheskaya_2025',
+    strava: 13820367367,
     me: 'М45'
 },
 {
@@ -283,6 +287,7 @@ let events2025 = [
     reg: 'http://orgeo.ru/event/41998',
     map: 'toksovo_kombyt_2017',
     owner: 'KUZMOLOVO',
+    strava: 13887628148,
     me: 'A'
 },
 {
@@ -297,6 +302,7 @@ let events2025 = [
     reskeep: 684,
     owner: 'WN',
     map: 'orovo_2019',
+    strava: 13896615167,
     me: 'A'
 },
 {
@@ -310,6 +316,7 @@ let events2025 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/21930/',
     reskeep: 685,
     map: 'toksovo_oz_svetloe_2017',
+    strava: 13961829941,
     me: 'A'
 },
 {
@@ -323,6 +330,7 @@ let events2025 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/22019/',
     owner: 'WN',
     map: 'kavgolovo_old_ski_track_2023',
+    strava: 14018881866,
     me: 'A'
 },
 {
@@ -337,6 +345,7 @@ let events2025 = [
     reskeep: 673,
     owner: 'DLITELNY',
     map: 'lembolovo_2024',
+    strava: 14028036913,
     me: 'A'
 },
 {
@@ -360,6 +369,7 @@ let events2025 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/22081/',
     owner: 'DLITELNY',
     map: 'beloostrov_udachnoe_2007',
+    strava: 14088158420,
     me: 'A'
 },
 {
@@ -374,6 +384,7 @@ let events2025 = [
     photo: 'https://vk.com/album-196511971_306922349',
     owner: 'WN',
     map: 'bolotnaya_station_2019',
+    strava: 14096003632,
     me: 'A'
 },
 {
@@ -398,6 +409,7 @@ let events2025 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/22150/',
     owner: 'WN',
     map: 'toksovo_okhta_park_2008',
+    strava: 14154047647,
     me: 'A'
 },
 {
@@ -426,6 +438,7 @@ let events2025 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/22170/',
     owner: 'DLITELNY',
     map: 'lembolovo_2024',
+    strava: 14163681570,
     me: 'A'
 },
 {
@@ -501,6 +514,7 @@ let events2025 = [
     photo: 'https://vk.com/album-201330282_306915469',
     owner: 'YUVENTA',
     map: 'sosnovij_bor_bereg_2020',
+    strava: [14221951114, 14231538856],
     me: 'М50'
 },
 {
@@ -544,6 +558,7 @@ let events2025 = [
     photo: 'https://vk.com/album-196511971_307146284',
     map: 'kavgolovo_2017',
     owner: 'WN',
+    strava: 14290488343,
     me: 'A'
 },
 {
@@ -569,6 +584,7 @@ let events2025 = [
     photo: 'https://vk.com/album-196511971_307146519',
     owner: 'WN',
     map: 'petjajarvy_kentavr_2014',
+    strava: 14300289183,
     me: 'B'
 },
 {
@@ -662,6 +678,7 @@ let events2025 = [
     photo: 'https://vk.com/album-196511971_307214315',
     map: 'orovo_2019',
     owner: 'WN',
+    strava: 14362839017,
     me: 'М21'
 },
 {
@@ -783,6 +800,7 @@ let events2025 = [
     photo: ['https://vk.com/album-230167293_309692905','https://vk.com/album-230167293_309694417'],
     owner: 'SFSO_SPB',
     map: 'manezh_alekseeva_2025',
+    strava: 14444795470,
     me: 'Фит'
 },
 {
@@ -865,6 +883,7 @@ let events2025 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/22607/',
     owner: 'EGRV_EGR',
     map: 'kanneljarvi_2023',
+    strava: 14506702093,
     me: 'М45'
 },
 {
@@ -1022,6 +1041,7 @@ let events2025 = [
     link: 'https://vk.com/wall-199133936_3955',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/22733/',
     map: 'english_2010',
+    strava: 14650299222,
     me: 'М'
 },
 {
@@ -1150,6 +1170,7 @@ let events2025 = [
     photo: 'https://vk.ru/album-227779225_309822985',
     start: 'KKP',
     map: 'kkp_prudy_2023_06_19',
+    strava: [14803778336, 14818986127, 14830428556, 14839302850, 14849160764],
     me: 'М50'
 },
 {
@@ -1194,6 +1215,7 @@ let events2025 = [
     reskeep: [710,711,712],
     start: 'WN',
     map: 'petjajarvy_2024',
+    strava: [14934051264, 14942090719, 14952833945],
     me: 'М50'
 },
 {
@@ -1283,6 +1305,7 @@ let events2025 = [
     reskeep: 741,
     owner: 'DLITELNY',
     map: 'luppolovo_2022',
+    strava: 15099876570,
     me: 'A'
 },
 {
@@ -1309,6 +1332,7 @@ let events2025 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23126/',
     info: 'Новая карта.',
     map: 'silande_2025',
+    strava: 15175627545,
     me: 'A'
 },
 {
@@ -1363,6 +1387,7 @@ let events2025 = [
     reskeep: 715,
     map: 'smoljanoe_2015',
     owner: 'WN',
+    strava: 15329091223,
     me: 'A'
 },
 {
@@ -1482,6 +1507,7 @@ let events2025 = [
     reskeep: 782,
     owner: 'VYBORG',
     map: 'leypjasuo',
+    strava: 15567854500,
     me: 'A'
 },
 {
@@ -1535,6 +1561,7 @@ let events2025 = [
     owner: 'SFSO_SPB',
     photo: 'https://vk.com/album-230167293_310894625',
     map: 'kavgolovo_2024',
+    strava: 15646774895,
     me: 'Ф-Сл'
 },
 {
@@ -1560,6 +1587,7 @@ let events2025 = [
     reskeep: 789,
     owner: 'WN',
     map: 'sosnovo_ulovnoe_oz_2023',
+    strava: 15716605554,
     me: 'A'
 },
 {
@@ -1589,7 +1617,9 @@ let events2025 = [
     photo: 'https://vk.com/album-92124592_308407207',
     info: 'Новая карта.',
     start: 'ST',
-    map: 'narvskaya_2025'
+    map: 'narvskaya_2025',
+    strava: 15765403877,
+    me: 'М'
 },
 {
     id: 'SPB_20250911_1',
@@ -1679,6 +1709,7 @@ let events2025 = [
     photo: 'https://cloud.mail.ru/public/XGQt/iRcKxoYBX',
     video: 'https://youtu.be/EqV2Kq-Uazo',
     map: 'pastorskoe_2024',
+    strava: 15807946368,
     me: 'М50'
 },
 {
@@ -1790,6 +1821,7 @@ let events2025 = [
     reskeep: ['797','798'],
     coord: [60.604963, 29.829899],
     owner: 'WN',
+    strava: 15887917340,
     me: 'М40'
 },
 {
@@ -1942,6 +1974,7 @@ let events2025 = [
     },
     photo: ['https://vk.com/album-230167293_311242634','https://disk.yandex.ru/d/3xE8JY0NWxKomA'],
     map: 'yappilya_tarasovskoe_2024',
+    strava: 15963718771,
     me: 'М50'
 },
 {
@@ -2014,6 +2047,7 @@ let events2025 = [
     map: ['zelenogorsk_2025','bolotnaya_station_2025','zelenogorsk_tspko_2024_omaps'],
     photo: ['https://vk.com/album-230167293_311306913','https://disk.yandex.ru/d/H7HjD5tQNKFYoA','https://vk.com/album-18388945_308761615','https://vk.ru/album-230167293_311317823','https://vk.com/album-230167293_311307465'],
     video: ['http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day1/','http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day2/','http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day3/'],
+    strava: 16040676104,
     me: 'Фит'
 },
 {
@@ -2104,6 +2138,8 @@ let events2025 = [
     photo: ['https://byzinaphoto.ru/disk/12-10-2025-50-vyorst-deti-llk1dm','https://vk.ru/album-93257360_308843503'],
     owner: 'NW',
     map: 'silande_2024',
+    strava: 16108321943,
+    me: 'Фит'
 },
 {
     id: 'SPB_20251011_4',
@@ -2226,7 +2262,9 @@ let events2025 = [
     reskeep: 808,
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23712/',
     photo: 'https://vk.com/album-91047483_311486654',
-    map: 'pukhtolova_gora_2025'
+    map: 'pukhtolova_gora_2025',
+    strava: 16190505013,
+    me: 'М35'
 },
 {
     id: 'SPB_20251020_1',
@@ -2258,6 +2296,7 @@ let events2025 = [
     reg: 'https://orgeo.ru/event/47226',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23736/',
     owner: 'DLITELNY',
+    strava: 16223114585,
     me: 'А',
     map: 'lesotekchnicheskaya_2025'
 },
@@ -2269,6 +2308,7 @@ let events2025 = [
     type: 'ORIENT',
     link: 'https://vk.com/wall-30686281_22983',
     map: 'internatsionalistov_2021',
+    strava: 16242272277,
     me: '51+'
 },
 {
@@ -2343,6 +2383,7 @@ let events2025 = [
     },
     reskeep: 813,
     me: 'М50',
+    strava: 16261630543,
     map: 'krivko_2021'
 },
 {
@@ -2377,6 +2418,7 @@ let events2025 = [
     res: 'https://docs.google.com/spreadsheets/d/1aKS2st7pwEeulHw9d59mKU7A74xvRZaZVjiohlWeiB4/edit?gid=22540084#gid=22540084',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23796/',
     coord: [60.158032, 30.512599],
+    strava: 16334988354,
     me: '50+'
 },
 {
@@ -2439,6 +2481,7 @@ let events2025 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23839/',
     start: 'ROGAINE_110',
     map: 'lembolovo_2024',
+    strava: 16403313501,
     me: 'A'
 },
 {
@@ -2468,6 +2511,7 @@ let events2025 = [
     reskeep: 818,
     owner: 'DLITELNY',
     map: 'piskarevsky_2024',
+    strava: 16463361062,
     me: 'А'
 },
 {
@@ -2508,6 +2552,7 @@ let events2025 = [
     map: 'lovetskoe_2025',
     owner: 'FENIX',
     reskeep: 819,
+    strava: 16474269594,
     me: 'МА'
 },
 {
@@ -2522,6 +2567,7 @@ let events2025 = [
     reskeep: 821,
     owner: 'WN',
     map: 'pukhtolova_gora_2023',
+    strava: 16532007025,
     me: 'A'
 },
 {
@@ -2553,6 +2599,7 @@ let events2025 = [
     reskeep: 822,
     owner: 'SFSO_SPB',
     map: 'sosnovka_2024',
+    strava: 16540895608,
     me: 'М45'
 },
 {
@@ -2594,6 +2641,7 @@ let events2025 = [
     reskeep: 824,
     map: 'toksovo_malinovaya_gora_2018',
     owner: 'WN',
+    strava: 16599232056,
     me: 'МА'
 },
 {
@@ -2656,6 +2704,7 @@ let events2025 = [
     reg: 'http://o-reg.spb.ru/?filter[day_id]=1708',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23924/',
     map: 'udelny_2021',
+    strava: 16608173278,
     me: 'МА'
 },
 {
@@ -2685,6 +2734,7 @@ let events2025 = [
     },
     map: 'zelenogorsk_schuchye_2020',
     owner: 'WN',
+    strava: 16664506283,
     me: 'МА'
 },
 {
@@ -2707,6 +2757,7 @@ let events2025 = [
     reg: 'https://orgeo.ru/event/47288',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23947/',
     map: 'kudrovo_vena_2025',
+    strava: 16675638894,
     me: 'OPEN'
 },
 {
@@ -2743,6 +2794,7 @@ let events2025 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23960/',
     map: 'mistolovo_2021',
     owner: 'WN',
+    strava: 16728969342,
     me: 'М'
 },
 {
@@ -2849,6 +2901,7 @@ let events2025 = [
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23986/',
     reskeep: 834,
     me: 'М50',
+    strava: 16800514329,
     map: 'kavgolovo_2017',
     owner: 'WN'
 },
@@ -2863,6 +2916,7 @@ let events2025 = [
     reskeep: 835,
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23988/',
     map: 'zelenogorsk_schuchye_2011',
+    strava: 16853608665,
     me: 'А',
     owner: 'DLITELNY',
 },

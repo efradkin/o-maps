@@ -1268,6 +1268,15 @@ function buildEventReports(evt, withGPS) {
     if (evt.video) {
         result += ' ' + buildLink(evt.video, '<img src="./images/video-camera.png">', 'Видео', true);
     }
+    if (evt.strava) {
+        let strava = evt.strava;
+        if (Array.isArray(strava)) {
+            strava = strava.map(s => 'https://www.strava.com/activities/' + s);
+        } else {
+            strava = 'https://www.strava.com/activities/' + strava;
+        }
+        result += ' ' + buildLink(strava, '<img src="./images/strava_32.gif">', 'Strava', true);
+    }
     return result;
 }
 
