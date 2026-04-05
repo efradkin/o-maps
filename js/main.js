@@ -975,6 +975,10 @@ function skipMapLoad(m, forse) {
         }
     }
 
+    if (HAS_ONLY_ME_PARAM && !m.me) {
+        return true;
+    }
+
     return false;
 }
 

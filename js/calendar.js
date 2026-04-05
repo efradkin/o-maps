@@ -66,6 +66,9 @@ function myEditDone() {
 if (onlyMajor) {
     oEvents = oEvents.filter(event => event.major);
 }
+if (HAS_ONLY_ME_PARAM) {
+    oEvents = oEvents.filter(event => event.me !== undefined || event.strava !== undefined);
+}
 if (OWNER_PARAM) {
     oEvents = oEvents.filter(event => event.owner && event.owner === OWNER_PARAM);
 }

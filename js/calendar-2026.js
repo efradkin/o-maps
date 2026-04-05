@@ -824,7 +824,8 @@ let events2026 = [
 {
     id: 'SPB_20260423_1',
     date: '2026-04-23',
-    name: 'Спринт у дома',
+    name: 'NW Sprint',
+    place: 'Комендантский пр',
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'NW'
@@ -915,7 +916,8 @@ let events2026 = [
 {
     id: 'SPB_20260507_1',
     date: '2026-05-07',
-    name: 'Спринт у дома',
+    name: 'NW Sprint',
+    place: 'Комендантский пр',
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'NW'

@@ -30,6 +30,11 @@ window.onload = function() {
             return m.start && m.start === START_NAME_PARAM;
         });
     }
+    if (HAS_ONLY_ME_PARAM) {
+        oMaps = oMaps.filter(m => {
+            return m.me !== undefined;
+        });
+    }
 
     if (!isUnknownPage()) {
         if (!isDocumentsPage()) {
