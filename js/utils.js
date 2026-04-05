@@ -174,6 +174,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const YEAR_PARAM = urlParams.get('year');
 const HAS_CALENDAR_PARAM = urlParams.has('calendar');
 const CALENDAR_PARAM = urlParams.get('calendar') ?? urlParams.get('event-type');
+const HAS_ME_PARAM = urlParams.has('me');
 
 /*   FUNCTIONS   */
 
@@ -1166,19 +1167,21 @@ function buildEventStart(evt, withoutLogo) {
     if (evt.reg) {
         result += ', <span title="Регистрация">' + buildEventReg(evt) + '</span>';
     }
-    let me = evt.me;
-    if (!me && evt.map) {
-        let maps = Array.isArray(evt.map) ? [...evt.map] : [evt.map];
-        for (const m of maps) {
-            let map = getMapForName(evt.map);
-            if (map && map.me) {
-                me = map.me;
-                break;
+    if (HAS_ME_PARAM) {
+        let me = evt.me;
+        if (!me && evt.map) {
+            let maps = Array.isArray(evt.map) ? [...evt.map] : [evt.map];
+            for (const m of maps) {
+                let map = getMapForName(evt.map);
+                if (map && map.me) {
+                    me = map.me;
+                    break;
+                }
             }
         }
-    }
-    if (me) {
-        result += ` <sup class="my-race">${me}</sup>`;
+        if (me) {
+            result += ` <sup class="my-race">${me}</sup>`;
+        }
     }
     return result;
 }
@@ -1268,7 +1271,7 @@ function buildEventReports(evt, withGPS) {
     if (evt.video) {
         result += ' ' + buildLink(evt.video, '<img src="./images/video-camera.png">', 'Видео', true);
     }
-    if (evt.strava) {
+    if (HAS_ME_PARAM && evt.strava) {
         let strava = evt.strava;
         if (Array.isArray(strava)) {
             strava = strava.map(s => 'https://www.strava.com/activities/' + s);

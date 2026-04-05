@@ -214,7 +214,7 @@ function buildName(m) {
     } else {
         result += name;
     }
-    if (m.me) {
+    if (HAS_ME_PARAM && m.me) {
         result += ` <sup class="my-race">${m.me}</sup>`;
     }
     if (m.lng) {
