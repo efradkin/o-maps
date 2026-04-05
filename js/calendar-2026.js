@@ -648,9 +648,12 @@ let events2026 = [
     place: 'Ильичёво',
     o_site: '250304_bn',
     reg: 'http://orgeo.ru/event/51427',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/24619/',
+    reskeep: 852,
     type: 'ORIENT',
     owner: 'WN',
-    map: 'ilychevo_2016'
+    map: 'ilychevo_2016',
+    me: 'МА'
 },
 {
     id: 'SPB_20260405_1',

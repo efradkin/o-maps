@@ -6411,4 +6411,14 @@ let moscowMaps = [
         owner: 'OPNBND',
         type: ['CITY','SPRINT']
     },
+    {
+        name: 'Новокузнецкая',
+        year: 2026,
+        url: './maps/moscow/lr/novokuznetskaya_2026.webp',
+        link: './original_maps/moscow/lr/novokuznetskaya_2026_omaps.gif',
+        bounds: [[55.748854450820616, 37.62508392333985], [55.74913221711092, 37.6392674446106], [55.73571263798704, 37.625749111175544]],
+        author: ['MSTPNV','ALDBV'],
+        owner: 'OPNBND',
+        type: ['CITY','SPRINT']
+    },
 ];
