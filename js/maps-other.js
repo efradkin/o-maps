@@ -347,6 +347,16 @@ let otherMaps = [
         region: 'GLNDZHK',
     },
     {
+        name: 'Цегельская щель',
+        year: 2002,
+        url: './maps/other/tsegelska_gap_2002.webp',
+        link: './original_maps/other/tsegelska_gap_2002_omaps.gif',
+        bounds: [[44.6063571736826, 38.115348815917976], [44.60427949857492, 38.15860748291016], [44.57359458845357, 38.11221599578858]],
+        author: 'ZAMOTA',
+        owner: 'ZAMOTA',
+        region: 'GLNDZHK',
+    },
+    {
         name: 'Нижний Архыз',
         year: 1987,
         url: './maps/other/nizhny_archyz_1987.webp',
