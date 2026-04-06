@@ -671,14 +671,14 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
-        name: 'Орехово-Борисово южное, Зябликово',
-        year: 2025,
-        url: './maps/moscow/o-mephi/20250614_738.webp',
-        link: 'http://o-mephi.net/cup/maps/20250614_738.jpg',
-        bounds: [[55.61346830757587, 37.74091243743897], [55.61219582190348, 37.76769161224366], [55.595395140689504, 37.73726463317872]],
+        name: 'Орехово-Борисово южное, долина Шмелёвки',
+        year: 2026,
+        url: './maps/moscow/sz/shmelevka_2026.webp',
+        link: './original_maps/moscow/sz/shmelevka_2026_omaps.webp',
+        bounds: [[55.619757415996816, 37.737114429473884], [55.617527866782645, 37.773785591125495], [55.59578311635954, 37.73245811462403]],
         author: 'KLZHNY',
         owner: 'ERMCHNKV_A',
-        type: ['PARK','CITY']
+        type: ['CITY','SPRINT']
     },
     {
         name: 'Терлецкие пруды',

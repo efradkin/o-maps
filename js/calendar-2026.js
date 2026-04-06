@@ -535,6 +535,7 @@ let events2026 = [
     name: 'Тренировка от Феникса',
     place: 'Школа №141',
     reg: 'https://orgeo.ru/event/50797',
+    reskeep: 855,
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'FENIX',
@@ -593,6 +594,7 @@ let events2026 = [
     name: 'Первенство клуба Феникс',
     place: 'Школа №491',
     reg: 'https://orgeo.ru/event/50818',
+    reskeep: 856,
     type: 'INDOOR',
     info: 'Несколько дистанций в зачёт.',
     owner: 'FENIX',
@@ -605,6 +607,7 @@ let events2026 = [
     place: 'Осиновая роща',
     o_site: '260329_f',
     reg: 'https://orgeo.ru/event/50799',
+    reskeep: 857,
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24568/',
     type: 'ORIENT',
     owner: 'FENIX',
@@ -617,6 +620,7 @@ let events2026 = [
     name: 'Тренировка от Феникса',
     place: 'Ильинский сад',
     reg: 'https://orgeo.ru/event/50800',
+    reskeep: 858,
     gps: {
         'М':'https://viewer.o-gps-center.ru/viewer/event/24580/',
         'Ж':'https://viewer.o-gps-center.ru/viewer/event/24581/'
@@ -637,6 +641,7 @@ let events2026 = [
     place: 'Юкки',
     o_site: '260329_f',
     reg: 'https://orgeo.ru/event/info/50869',
+    reskeep: 859,
     gps: {
         'A':'https://viewer.o-gps-center.ru/viewer/event/24591/',
         'B':'https://viewer.o-gps-center.ru/viewer/event/24592/'
@@ -653,6 +658,7 @@ let events2026 = [
     name: 'Тренировка от Феникса',
     place: 'Школа №532',
     reg: 'https://orgeo.ru/event/50802',
+    reskeep: 860,
     gps: {
         'М':'https://viewer.o-gps-center.ru/viewer/event/24603/',
         'Ж':'https://viewer.o-gps-center.ru/viewer/event/24604/'
@@ -685,6 +691,7 @@ let events2026 = [
     place: 'Стеклянный, оз Силанде',
     o_site: '260329_f',
     reg: 'https://orgeo.ru/event/50803',
+    reskeep: 861,
     gps: {
         'A':'https://viewer.o-gps-center.ru/viewer/event/24624/',
         'B':'https://viewer.o-gps-center.ru/viewer/event/24625/'
@@ -797,7 +804,8 @@ let events2026 = [
     o_site: '260418',
     reg: 'https://orgeo.ru/event/krosprint26',
     type: 'ORIENT',
-    fmt: 'спринт'
+    fmt: 'спринт',
+    coord: [59.951177, 30.463848]
 },
 {
     id: 'SPB_20260419_1',
@@ -926,6 +934,8 @@ let events2026 = [
     id: 'SPB_20260509_1',
     date: '2026-05-09',
     name: 'Памяти дня Победы',
+    place: 'Стеклянный',
+    o_site: '260509',
     type: 'ORIENT',
     fmt: 'классика',
     owner: 'SFSO_SPB'
