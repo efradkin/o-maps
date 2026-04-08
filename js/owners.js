@@ -32,6 +32,9 @@ let owners = {
         name: '@ Клуб <a href="https://t.me/dlitelnyy">Длительный</a>',
         logo: 'dlitelny.gif'
     },
+    DRIBAS: {
+        name: '© Сергей Дрибас'
+    },
     EFRMV: {
         name: 'По вопросам использования карты - 8-999-086-10-82 (<b>Ефремов Михаил</b>).'
     },

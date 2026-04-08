@@ -296,7 +296,7 @@ let otherMaps = [
         name: 'Плато Лаго-Наки, Утюг',
         date: '2003-06-10',
         major: true,
-        info: 'Чемпионат России',
+        info: 'Чемпионат России.',
         url: './maps/other/lago_naki_iron_2003.webp',
         link: './original_maps/other/lago_naki_iron_2003_omaps.gif',
         bounds: [[44.10635453999059, 39.997830390930176], [44.104813753670705, 40.02486705780029], [44.07599365217524, 39.994783401489265]],
