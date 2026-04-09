@@ -167,6 +167,7 @@ const LOGO_CAROUSEL_TEMPLATE = `
 
 const ACTUAL_EVENTS_CALENDAR_PARAM_VALUE = 'actual';
 const FUTURE_EVENTS_CALENDAR_PARAM_VALUE = 'future';
+const MEDIA_EVENTS_CALENDAR_PARAM_VALUE = 'media';
 
 const onlyOneSport = (typeof oneSportOnly !== 'undefined') && oneSportOnly;
 
@@ -1046,6 +1047,11 @@ function validateEvent(evt) {
     if (CALENDAR_PARAM) {
         const currentDate = new Date(evt.date);
         switch (CALENDAR_PARAM) {
+            case MEDIA_EVENTS_CALENDAR_PARAM_VALUE:
+                if (!evt.photo && !evt.video) {
+                    return false;
+                }
+                break;
             case FUTURE_EVENTS_CALENDAR_PARAM_VALUE:
                 if (isOutdated(currentDate)) {
                     return false;
