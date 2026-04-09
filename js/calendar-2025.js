@@ -630,7 +630,7 @@ let events2025 = [
     id: 'SPB_20250501_1',
     date: '2025-05-01',
     place: 'Гарболово',
-        name: 'Приз газеты «Всеволожские вести»',
+    name: 'Приз газеты «Всеволожские вести»',
     fmt: 'лонг',
     type: 'ORIENT',
     o_site: '250501',
@@ -998,6 +998,7 @@ let events2025 = [
     fmt: 'спринт',
     type: 'ORIENT',
     o_site: '250531_RA',
+    reg: 'http://o-reg.spb.ru/?filter[day_id]=1670',
     reskeep: 704,
     map: 'aleksandrino_1986',
     photo: 'https://vk.com/album-230167293_309922104',
@@ -1125,6 +1126,7 @@ let events2025 = [
     name: 'Невский Азимут',
     type: 'ORIENT',
     o_site: '250614',
+    video: ['https://www.youtube.com/watch?v=xtKl0eVwiCE','https://www.youtube.com/watch?v=n1M2CqhIsuM','https://www.youtube.com/watch?v=xtKl0eVwiCE'],
     start: 'NA',
     map: 'losevo_2022'
 },
@@ -1818,7 +1820,7 @@ let events2025 = [
         'М18/40': 'https://viewer.o-gps-center.ru/viewer/event/23453/'
     },
     photo: ['https://blinova-photo.ru/disk/memorial-alekseeva','https://vk.com/album-196511971_308663761','https://vk.com/album-196511971_308664416','https://disk.yandex.ru/d/ZXRwTS4efDLiLQ'],
-    reskeep: ['797','798'],
+    reskeep: [797,798],
     coord: [60.604963, 29.829899],
     owner: 'WN',
     strava: 15887917340,
@@ -2430,7 +2432,8 @@ let events2025 = [
     o_site: '251103_bn',
     reg: 'https://orgeo.ru/event/info/47191',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23804/',
-    map: 'topograph_2017'
+    map: 'topograph_2017',
+    reskeep: 815
 },
 {
     id: 'SPB_20251104_1',
@@ -2442,7 +2445,8 @@ let events2025 = [
     o_site: '251104_OM',
     reg: 'https://o-reg.spb.ru/?filter[day_id]=1703',
     gps: ['https://viewer.o-gps-center.ru/viewer/event/23812/','https://viewer.o-gps-center.ru/viewer/event/23817/'],
-    map: 'michurinskoe_2022'
+    map: 'michurinskoe_2022',
+    reskeep: 816
 },
 {
     id: 'SPB_20251104_2',
@@ -2692,7 +2696,8 @@ let events2025 = [
     res: 'https://t.me/whitenightesspb/759',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/23927/',
     owner: 'WN',
-    map: 'orovo_2019'
+    map: 'orovo_2019',
+    reskeep: 825
 },
 {
     id: 'SPB_20251130_3',
@@ -2718,6 +2723,7 @@ let events2025 = [
     res: 'https://t.me/dlitelnyy/404',
     map: 'shuvalovsky_rogaine_2024',
     owner: 'DLITELNY',
+    reskeep: 827
 },
 {
     id: 'SPB_20251206_2',
@@ -2781,6 +2787,7 @@ let events2025 = [
     reg: 'http://orgeo.ru/event/48415',
     map: 'sosnovka_2024',
     owner: 'DLITELNY',
+    reskeep: 830
 },
 {
     id: 'SPB_20251213_1',
@@ -2809,6 +2816,7 @@ let events2025 = [
     res: 'https://t.me/dlitelnyy/411',
     map: 'osinovaja_roscha_2018',
     owner: 'DLITELNY',
+    reskeep: 832
 },
 {
     id: 'SPB_20251213_3',
@@ -2838,7 +2846,8 @@ let events2025 = [
     map: 'politekh_2022',
     owner: 'SFSO_SPB',
     planner: 'ZMLKV_A',
-    info: '<a href="http://o-route.ru/">Треки участников</a>'
+    info: '<a href="http://o-route.ru/">Треки участников</a>',
+    reskeep: 831
 },
 {
     id: 'SPB_20251220_1',
@@ -2863,6 +2872,7 @@ let events2025 = [
     res: 'https://t.me/dlitelnyy/414',
     map: 'lembolovo_2024',
     owner: 'DLITELNY',
+    reskeep: 833
 },
 {
     id: 'SPB_20251220_3',
@@ -2931,6 +2941,7 @@ let events2025 = [
     reg: 'http://orgeo.ru/event/48645',
     photo: 'https://vk.ru/album-220245153_312176887',
     map: 'toksovo_vifk_2020',
-    owner: 'KUZMOLOVO'
+    owner: 'KUZMOLOVO',
+    reskeep: 836
 }
 ];

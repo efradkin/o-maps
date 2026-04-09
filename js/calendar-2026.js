@@ -295,7 +295,8 @@ let events2026 = [
     photo: 'https://vk.com/album-230167293_312624491',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24256/',
     map: 'zerkalny_2002',
-    owner: 'SFSO_SPB'
+    owner: 'SFSO_SPB',
+    reskeep: 847
 },
 {
     id: 'SPB_20260215_1',
@@ -391,7 +392,8 @@ let events2026 = [
     fmt: 'масстарт',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24341/',
     map: 'orekhovo_nyrkovo_winter_2012',
-    owner: 'SFSO_SPB'
+    owner: 'SFSO_SPB',
+    reskeep: 846
 },
 {
     id: 'SPB_20260228_2',
@@ -544,7 +546,8 @@ let events2026 = [
     gps: {
         'М':'https://viewer.o-gps-center.ru/viewer/event/24487/',
         'Ж':'https://viewer.o-gps-center.ru/viewer/event/24488/'
-    }
+    },
+    video: 'https://www.youtube.com/watch?v=kwG2LAEPqvQ'
 },
 {
     id: 'SPB_20260328_2',
@@ -559,6 +562,7 @@ let events2026 = [
     info: 'Сад КП.',
     reskeep: 845,
     gps: 'https://viewer.o-gps-center.ru/viewer/event/24537/',
+    video: 'https://www.youtube.com/watch?v=iP2Ed47FwB4',
     map: 'sosnovka_2024',
     strava: 17887209338,
     me: 'МА'
@@ -726,7 +730,8 @@ let events2026 = [
     type: 'ORIENT',
     fmt: 'спринт',
     map: 'romanovka_2013',
-    owner: 'DLITELNY'
+    owner: 'DLITELNY',
+    reskeep: 864
 },
 {
     id: 'SPB_20260407_1',
@@ -735,11 +740,13 @@ let events2026 = [
     place: 'Богатырский пр',
     o_site: '260407_NWSprint_1',
     reg: 'https://orgeo.ru/event/info/nw_sprint',
+    info: '<a href="https://vk.com/@nordwestmedia-razbor-nwsprint-1-etap-07042026">Разбор дистанций</a>.',
     type: 'ORIENT',
     fmt: 'спринт',
     owner: 'NW',
     coord: [60.006392, 30.207974],
-    planner: 'SDRV_A'
+    planner: 'SDRV_A',
+    reskeep: 865
 },
 {
     id: 'SPB_20260411_1',

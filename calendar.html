@@ -49,6 +49,29 @@
     <div class="sheet-filters">
         <span style="white-space: nowrap;">
             <select id="year_selector" class="header_selector" onchange="updateUrlParam('year', this.value)">
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
                 <option value="2025">2025</option>
                 <option value="2026">2026</option>
                 <option value="ALL" selected>Все годы</option>
@@ -120,6 +143,29 @@
     <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
     <script src="js/ext/jquery.slim.min.js"></script>
 
+    <script src="js/calendar-2002.js"></script>
+    <script src="js/calendar-2003.js"></script>
+    <script src="js/calendar-2004.js"></script>
+    <script src="js/calendar-2005.js"></script>
+    <script src="js/calendar-2006.js"></script>
+    <script src="js/calendar-2007.js"></script>
+    <script src="js/calendar-2008.js"></script>
+    <script src="js/calendar-2009.js"></script>
+    <script src="js/calendar-2010.js"></script>
+    <script src="js/calendar-2011.js"></script>
+    <script src="js/calendar-2012.js"></script>
+    <script src="js/calendar-2013.js"></script>
+    <script src="js/calendar-2014.js"></script>
+    <script src="js/calendar-2015.js"></script>
+    <script src="js/calendar-2016.js"></script>
+    <script src="js/calendar-2017.js"></script>
+    <script src="js/calendar-2018.js"></script>
+    <script src="js/calendar-2019.js"></script>
+    <script src="js/calendar-2020.js"></script>
+    <script src="js/calendar-2021.js"></script>
+    <script src="js/calendar-2022.js"></script>
+    <script src="js/calendar-2023.js"></script>
+    <script src="js/calendar-2024.js"></script>
     <script src="js/calendar-2025.js"></script>
     <script src="js/calendar-2026.js"></script>
     <script src="js/calendar-common-2026.js"></script>
@@ -183,8 +229,58 @@
 
         let oEvents = [];
         const y = YEAR_PARAM ?? '2026';
+        const allYearsEvents = [
+            ...events2026,
+            ...events2025,
+            ...events2024,
+            ...events2023,
+            ...events2022,
+            ...events2021,
+            ...events2020,
+            ...events2019,
+            ...events2018,
+            ...events2017,
+            ...events2016,
+            ...events2015,
+            ...events2014,
+            ...events2013,
+            ...events2012,
+            ...events2011,
+            ...events2010,
+            ...events2009,
+            ...events2008,
+            ...events2007,
+            ...events2006,
+            ...events2005,
+            ...events2004,
+            ...events2003,
+            ...events2002
+        ];
         switch (y) {
-            case 'ALL': oEvents.push(...events2025); oEvents.push(...events2026); oEvents.push(...commonEvents2026); oEvents.push(...otherEvents2026); break;
+            case 'ALL': oEvents.push(...allYearsEvents); oEvents.push(...commonEvents2026); oEvents.push(...otherEvents2026); break;
+            case '2002': oEvents.push(...events2002); break;
+            case '2003': oEvents.push(...events2003); break;
+            case '2004': oEvents.push(...events2004); break;
+            case '2005': oEvents.push(...events2005); break;
+            case '2006': oEvents.push(...events2006); break;
+            case '2007': oEvents.push(...events2007); break;
+            case '2008': oEvents.push(...events2008); break;
+            case '2009': oEvents.push(...events2009); break;
+            case '2010': oEvents.push(...events2010); break;
+            case '2011': oEvents.push(...events2011); break;
+            case '2012': oEvents.push(...events2012); break;
+            case '2013': oEvents.push(...events2013); break;
+            case '2014': oEvents.push(...events2014); break;
+            case '2015': oEvents.push(...events2015); break;
+            case '2016': oEvents.push(...events2016); break;
+            case '2017': oEvents.push(...events2017); break;
+            case '2018': oEvents.push(...events2018); break;
+            case '2019': oEvents.push(...events2019); break;
+            case '2020': oEvents.push(...events2020); break;
+            case '2021': oEvents.push(...events2021); break;
+            case '2022': oEvents.push(...events2022); break;
+            case '2023': oEvents.push(...events2023); break;
+            case '2024': oEvents.push(...events2024); break;
             case '2025': oEvents.push(...events2025); break;
             case '2026':
             default: oEvents.push(...events2026); oEvents.push(...commonEvents2026); oEvents.push(...otherEvents2026); break;

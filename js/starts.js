@@ -259,6 +259,11 @@ let starts = {
         info: 'Одна из первых мультиспортивных гонок в России.',
         logo: 'triotlon.gif'
     },
+    VSEV_VESTI: {
+        short: 'Всеволожские Вести',
+        name: 'Всеволожские Вести',
+        logo: 'vsevolozhsk_vesti.webp'
+    },
     EUROPEAN_HOPE: {
         short: 'European hope',
         name: 'Надежды Европы',

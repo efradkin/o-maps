@@ -420,6 +420,9 @@ function buildLink(link, content, title, allItems, isDownload) {
             if (allItems) {
                 let result = '';
                 for (const l of link) {
+                    if (title === 'Видео') {
+                        content = `<img src="./images/${getVideoImg(l)}">`;
+                    }
                     result += ' ' + buildOneLink(l, content, title, isDownload);
                 }
                 return result;
@@ -1262,6 +1265,22 @@ function buildEventResults(evt) {
     return res;
 }
 
+function getVideoImg(vLink) {
+    if (vLink.includes('vkvideo') || vLink.includes('vk.com') || vLink.includes('vk.ru')) {
+        return 'vkvideo.gif';
+    }
+    if (vLink.includes('rutube')) {
+        return 'rutube.webp';
+    }
+    if (vLink.includes('youtu')) {
+        return 'youtube.webp';
+    }
+    if (vLink.includes('yandex')) {
+        return 'ya_video.webp';
+    }
+    return 'video-camera.png';
+}
+
 function buildEventReports(evt, withGPS) {
     let result = '';
     if (withGPS) {
@@ -1271,7 +1290,7 @@ function buildEventReports(evt, withGPS) {
         result += ' ' + buildLink(evt.photo, '<img src="./images/photo-camera.png">', 'Фотографии', true);
     }
     if (evt.video) {
-        result += ' ' + buildLink(evt.video, '<img src="./images/video-camera.png">', 'Видео', true);
+        result += ' ' + buildLink(evt.video, `<img src="./images/${getVideoImg(evt.video)}">`, 'Видео', true);
     }
     if (HAS_ME_PARAM && evt.strava) {
         let strava = evt.strava;
@@ -1398,7 +1417,7 @@ function buildFotos(t, root = 'tracks') {
         }
     }
     if (t.video) {
-        result += ' ' + buildLink(t.video, '<img src="./images/video-camera.png" class="track-table-pic">', 'Видео', true);
+        result += ' ' + buildLink(t.video, `<img src="./images/${getVideoImg(t.video)}" class="track-table-pic">`, 'Видео', true);
     }
     return result;
 }

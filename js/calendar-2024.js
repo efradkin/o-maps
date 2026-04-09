@@ -1,0 +1,1203 @@
+let events2024 = [
+    {
+        date: '2024-01-02',
+        endDate: '2024-01-08',
+        place: 'Цвелодубово, ДОЛ Голубое озеро',
+        name: 'Зимний УТС',
+        type: 'SKI',
+        reg: 'http://sportident.online/entry/?id=6012',
+        res: 'https://o-site.spb.ru/_races/240106_UTS/02_01_lager_split.htm',
+        o_site: '240106_UTS'
+    },
+    {
+        date: '2024-01-07',
+        endDate: '2024-01-08',
+        place: 'Цвелодубово, ДОЛ Голубое озеро',
+        name: 'Рождественские старты',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240108_RS/07_01_split_RS.htm',
+        info: 'Традиционные Рождественские старты от клуба Норд Вест',
+        owner: 'NW',
+        o_site: '240108_RS',
+        reskeep: [
+            637,
+            638
+        ]
+    },
+    {
+        date: '2024-01-08',
+        place: 'г.Кировск Кировского района Ленинградской области',
+        name: 'Чемпионат и первенство ЛО, лыжная гонка - спринт',
+        type: 'SKI',
+        reg: 'http://orgeo.ru/event/kirovsk_ski_o_2024',
+        owner: 'SFSO_LO',
+        o_site: '240107',
+    },
+    {
+        date: '2024-01-13',
+        endDate: '2024-01-14',
+        place: 'п.Аньялово',
+        name: 'Чемпионат и Первенство Санкт-Петербурга, Аньялово',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240114/split1.htm',
+        info: 'Проходит при поддержке: ДОЛ "Зарница", ГУП "Горэлектротранс"',
+        owner: 'SFSO_SPB',
+        o_site: '240114',
+        reskeep: [
+            639,
+            640
+        ]
+    },
+    {
+        date: '2024-01-14',
+        place: 'район Орехово',
+        name: 'Зимний рогейн, 1-й этап Кубка ЛО по рогейну',
+        type: 'ROGAINE',
+        reg: 'http://www.multsport.ru/starts/winter-rogaine-24/registration.html',
+        res: 'https://o-site.spb.ru/_races/240114r/240114_res.pdf',
+        fmt: 'рогейн 4 часа. Разрешено участие на лыжах, бегом или на снегоступах',
+        start: 'MULTSPORT',
+        o_site: '240114r'
+    },
+    {
+        date: '2024-01-19',
+        endDate: '2024-01-21',
+        place: 'Будогощь',
+        name: 'Чемпионат и первенство ЛО, Будогощь',
+        type: 'ORIENT',
+        owner: 'SFSO_LO',
+        o_site: '24011921'
+    },
+    {
+        date: '2024-01-20',
+        endDate: '2024-01-21',
+        place: 'п. Стеклянный (Ленинградская область)',
+        name: 'Чемпионат и Первенство Санкт-Петербурга, Стеклянный',
+        type: 'SKI',
+        res: 'http://orgeo.ru/live/#/33000/2',
+        photo: 'http://vk.com/album-154221178_301140651',
+        info: 'Чемпионат и Первенство Санкт-Петербурга. Межмуниципальные соревнования. Первенство СФСО Санкт-Петербурга. Программа: 20 января (суббота) — «Лыжная гонка‐спринт»; 21 января (воскресенье) — «Лыжная гонка‐классика».',
+        owner: 'SFSO_SPB',
+        o_site: '240121',
+        reskeep: [
+            635,
+            636
+        ]
+    },
+    {
+        date: '2024-01-27',
+        name: 'ОТМЕНА - Тренировка п. СТЕКЛЯННЫЙ - ОТМЕНА',
+        type: 'ORIENT',
+        info: 'По техническим причинам тренировка отменяется',
+        o_site: '240127_OT'
+    },
+    {
+        date: '2024-01-28',
+        place: 'Политехнический парк',
+        name: 'Соревнования, посвященные Дню снятия Блокады Ленинграда',
+        type: 'ORIENT',
+        res: 'http://orgeo.ru/live/#/31914',
+        info: 'Официальные соревнования Санкт-Петербурга с присвоением разрядов.',
+        o_site: '240128'
+    },
+    {
+        date: '2024-02-03',
+        endDate: '2024-02-04',
+        name: 'VIII Всероссийская Зимняя Универсиада',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240204/team_total.pdf',
+        o_site: '240204'
+    },
+    {
+        date: '2024-02-03',
+        endDate: '2024-02-04',
+        place: 'ВИФК, Токсово',
+        name: 'Февральская Лыжня',
+        type: 'SKI',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1585',
+        res: 'http://orgeo.ru/event/33335',
+        o_site: '240204_fl'
+    },
+    {
+        date: '2024-02-11',
+        place: 'п.Зеркальный',
+        name: 'Чемпионат и Первенство Санкт-Петербурга, Зеркальный',
+        type: 'ORIENT',
+        res: 'http://orgeo.ru/event/33534',
+        owner: 'SFSO_SPB',
+        o_site: '240211'
+    },
+    {
+        date: '2024-02-17',
+        endDate: '2024-02-18',
+        place: 'Зеркальный',
+        name: 'Зимние старты в Зеркальном',
+        type: 'ORIENT',
+        res: 'http://orgeo.ru/live/#/33723',
+        o_site: '240218'
+    },
+    {
+        date: '2024-02-24',
+        name: 'Kite Adventure Orient Race «ТУУТАРЭЙС»',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/kiteadv',
+        info: 'В связи с погодными условиями соревнования Kite Adventure Orient Race «ТУУТАРЭЙС» переносятся предварительно на следующие выходные!!!',
+        o_site: '240224'
+    },
+    {
+        date: '2024-02-24',
+        place: 'Орехово',
+        name: 'Горный Кросс - 99',
+        type: 'ROGAINE',
+        res: 'https://o-site.spb.ru/_races/240224R/240224R_res.pdf',
+        fmt: 'рогейн 5/2 часа лыжи',
+        start: 'GORNY_CROSS',
+        o_site: '240224R'
+    },
+    {
+        date: '2024-03-08',
+        place: 'Пискаревский парк',
+        name: 'Снежная тропа',
+        type: 'ORIENT',
+        res: 'http://orgeo.ru/live/#/31914',
+        owner: 'SFSO_SPB',
+        o_site: '240308',
+        reskeep: 641
+    },
+    {
+        date: '2024-03-09',
+        endDate: '2024-03-10',
+        place: 'пос.Токсово',
+        name: 'Чемпионат и Первенство Санкт-Петербурга, Токсово',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1589',
+        res: 'http://orgeo.ru/live/#/31914',
+        owner: 'SFSO_SPB',
+        o_site: '240310'
+    },
+    {
+        date: '2024-03-17',
+        name: 'Рогейн Ice Trail',
+        type: 'ROGAINE',
+        reg: 'http://www.multsport.ru/starts/ice-trail-2024/registration.html',
+        fmt: 'рогейн 3 и 6 часов. Разрешено участие на лыжах, бегом или велосипеде',
+        start: 'MULTSPORT',
+        o_site: '240317r'
+    },
+    {
+        date: '2024-03-24',
+        place: 'Осиновая Роща',
+        name: 'Перспектива',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/34408',
+        res: 'https://o-site.spb.ru/_races/240324/Results_split - SportOrg.pdf',
+        o_site: '240324',
+        reskeep: 629
+    },
+    {
+        date: '2024-03-24',
+        place: 'Ж.д. ст. Шапки Тосненского района',
+        name: 'Рогейн Ski Adventure',
+        type: 'ROGAINE',
+        reg: 'http://orgeo.ru/event/info/ski_adventure_2024',
+        fmt: '3-х часовой рогейн, способ передвижения - лыжи',
+        o_site: '240324r'
+    },
+    {
+        date: '2024-03-31',
+        place: 'Токсово, Зубровник (напротив Изумрудного оз.)',
+        name: 'Перспектива',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/34534',
+        res: 'https://o-site.spb.ru/_races/240331_p/240331_split.htm',
+        fmt: 'Общий старт в 12:00. Старт по станции с 12:01 до 12:20',
+        o_site: '240331_p',
+        reskeep: 629
+    },
+    {
+        date: '2024-04-13',
+        place: 'Ладожский парк',
+        name: 'Первенство Красногвардейского района',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/34692',
+        res: 'https://o-site.spb.ru/_races/240413_pkr/240413_split.htm',
+        o_site: '240413_pkr'
+    },
+    {
+        date: '2024-04-13',
+        place: 'ГБОУ СОШ 527, 2-й Рабфаковский пер., 1, корп. 4',
+        name: 'Районные соревнования «Кубок Обухово»',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/34596',
+        o_site: '240413_nr'
+    },
+    {
+        date: '2024-04-14',
+        place: 'Ржевский лесопарк (со стороны ФОК "Коммуны")',
+        name: 'Открытие сезона',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1597',
+        res: 'http://orgeo.ru/live/#/34995/1',
+        o_site: '340414_os',
+        reskeep: 642
+    },
+    {
+        date: '2024-04-20',
+        place: 'Петяярви',
+        name: 'Кубок Белых ночей 6 этап',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1607',
+        owner: 'WN',
+        o_site: '240420_BN'
+    },
+    {
+        date: '2024-04-20',
+        endDate: '2024-04-21',
+        name: 'Сосновоборские Дюны 2024, ЧиП ЛО',
+        type: 'ORIENT',
+        res: 'http://orgeo.ru/live/#/35163/2',
+        owner: 'YUVENTA',
+        o_site: 'sos_dunu_2024'
+    },
+    {
+        date: '2024-04-27',
+        place: 'Кавголово (Динамо)',
+        name: 'Перспектива - Кавголово',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/35206',
+        res: 'https://o-site.spb.ru/_races/240427_d/240427_res.htm',
+        o_site: '240427_d'
+    },
+    {
+        date: '2024-04-28',
+        place: 'д. Энколово',
+        name: 'Техника и Тактика',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240428TT/240428TT-vosst-combi.htm',
+        o_site: '240428TT'
+    },
+    {
+        date: '2024-04-28',
+        place: 'п.Ушково',
+        name: 'Чемпионат и первенство Санкт-Петербурга, велокросс-классика',
+        type: 'VELO',
+        res: 'http://sportident.online/ol/?id=1746',
+        owner: 'SFSO_SPB',
+        o_site: '240428'
+    },
+    {
+        date: '2024-04-29',
+        place: 'ГБУК «Зеленогорский парк культуры и отдыха», ГБУ «Курортный берег»',
+        name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-спринт',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1599',
+        res: 'http://orgeo.ru/live/#/31914',
+        photo: 'http://vk.com/album-154221178_302584074',
+        owner: 'SFSO_SPB',
+        o_site: '240429',
+        reskeep: 632
+    },
+    {
+        date: '2024-04-30',
+        place: 'оз. Омчино, Луга',
+        name: 'Горный Кросс - 100',
+        type: 'ROGAINE',
+        res: 'https://o-site.spb.ru/_races/240430R/240430R_res.pdf',
+        fmt: 'рогейн: 4/2 часа бег, 4 часа вело',
+        start: 'GORNY_CROSS',
+        o_site: '240430R'
+    },
+    {
+        date: '2024-04-30',
+        place: 'Петяярви',
+        name: 'Кубок Белых Ночей, 6 этап',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1609',
+        res: 'https://o-site.spb.ru/_races/240430_BN/240430_res.htm',
+        owner: 'WN',
+        o_site: '240430_BN'
+    },
+    {
+        date: '2024-05-01',
+        place: 'Раздолье',
+        name: 'Кубок Белых Ночей, 7 этап',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1610',
+        res: 'https://o-site.spb.ru/_races/240501_WN/240501_res.htm',
+        owner: 'WN',
+        o_site: '240501_WN',
+        reskeep: 646
+    },
+    {
+        date: '2024-05-04',
+        name: 'Кубок Белых Ночей, 8 этап',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1613',
+        res: 'https://o-site.spb.ru/_races/240504_wn/240505_res.htm',
+        owner: 'WN',
+        o_site: '240504_wn',
+    },
+    {
+        date: '2024-05-05',
+        name: 'Кубок белых ночей - 9 этап',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1614',
+        res: 'https://o-site.spb.ru/_races/240505_wn/240505_res_WN_corr.htm',
+        owner: 'WN',
+        o_site: '240505_wn',
+    },
+    {
+        date: '2024-05-05',
+        place: 'Токсово, карьеры',
+        name: 'Перспектива 100кп',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/35023',
+        res: 'https://o-site.spb.ru/_races/240505_100kp/240505_res.htm',
+        o_site: '240505_100kp'
+    },
+    {
+        date: '2024-05-05',
+        place: 'Пухтолова гора',
+        name: 'Тренировочный старт',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1612',
+        res: 'https://o-site.spb.ru/_races/240905/240505_RES.htm',
+        o_site: '240905'
+    },
+    {
+        date: '2024-05-09',
+        place: 'Будет организован автобус от ж/д ст.Васкелово до места старта и обратно',
+        name: 'Соревнования, посвященные Дню Победы',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240509/Split_240509.htm',
+        o_site: '240509',
+        reskeep: 653
+    },
+    {
+        date: '2024-05-10',
+        name: 'Всеволожский ориентир, Кубок Белых ночей 10 этап',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/35406',
+        res: 'http://orgeo.ru/live/#/35406',
+        info: 'Первенство Заневского городского поселения по спортивному ориентированию «Всеволожский ориентир», посвященных Дню Великой Победы Кубок Белых Ночей 10 этап.',
+        owner: 'WN',
+        o_site: '240510'
+    },
+    {
+        date: '2024-05-11',
+        name: 'Кубок Белых ночей - 11 этап',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1617',
+        res: 'https://o-site.spb.ru/_races/240511_wn/240511_res_WN.htm',
+        owner: 'WN',
+        o_site: '240511_wn',
+    },
+    {
+        date: '2024-05-11',
+        name: 'Царскосельский Азимут-2024',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/sa24',
+        res: 'https://o-site.spb.ru/_races/241105/240511_rez.htm',
+        info: 'Первенство Пушкинского р-на с присвоением взрослых разрядов. Кросс-выбор ВАРИАНТ В!!!',
+        o_site: '241105'
+    },
+    {
+        date: '2024-05-12',
+        place: 'Орехово, оз.Большое Борково',
+        name: 'Клубная эстафета «Змей Горыныч»',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/34733',
+        res: 'https://o-site.spb.ru/_races/240512_zg/res_prolog.htm',
+        photo: 'http://vk.com/album-220245153_305202683',
+        info: 'II клубная эстафета «Змей Горыныч» Организаторы эстафеты: клуб "Кузьмолово" и АНО "ОПОРА СО СПб и ЛО "Импульс"". Мероприятие проходит при поддержке СФСО Санкт-Петербурга.',
+        o_site: '240512_zg'
+    },
+    {
+        date: '2024-05-16',
+        endDate: '2024-05-20',
+        place: 'Санкт-Петербург',
+        name: 'Чемпионат России',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/33466',
+        res: 'https://o-site.spb.ru/_races/240519_russia/240518_results_.pdf',
+        photo: 'http://disk.yandex.ru/d/gauoPfUSaHxVlQ',
+        info: '16-20 мая 2024 года в Санкт-Петербурге пройдёт Чемпионат России по спортивному ориентированию (спринтерские дисциплины). Проводящая организация: Федерация спортивного ориентирования Санкт-Петербурга. Программа: 16.05 (четверг) — день приезда. Работа комиссии по допуску участников с 13:00 до 17:00. Совещание представителей команд в 18:00. («Галерея 2/17» , 2-я линия Васильевского острова, д.17). 17.05 (пятница) — кросс-эстафета-4 человека (0830081811Я) 18.05 (суббота) — кросс-спринт (0830011811Я) 19.05 (воскресенье) — кросс-спринт-общий старт (0830091811Я) 20.05 (понедельник) — день отъезда',
+        owner: 'SFSO_SPB',
+        o_site: '240519_russia',
+        reskeep: 654
+    },
+    {
+        date: '2024-05-18',
+        name: 'Кубок Белых Ночей 12 этап',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/35710',
+        res: 'https://o-site.spb.ru/_races/240518_wn/240518_res_WN.htm',
+        owner: 'WN',
+        o_site: '240518_wn',
+    },
+    {
+        date: '2024-05-18',
+        endDate: '2024-05-19',
+        place: 'Ленинградская область, Приозерский район, оз.Вуокса',
+        name: 'Водный рогейн',
+        type: 'ROGAINE',
+        reg: 'http://www.multsport.ru/starts/canoe-rogaine-2024/registration.html',
+        start: 'MULTSPORT',
+        o_site: '240518r'
+    },
+    {
+        date: '2024-05-19',
+        name: 'Кубок Белых Ночей 13 этап',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/35711',
+        res: 'https://o-site.spb.ru/_races/240519_wn/240519_res_WN.htm',
+        owner: 'WN',
+        o_site: '240519_wn',
+        reskeep: 647
+    },
+    {
+        date: '2024-05-19',
+        name: 'Тренировочный старт',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240519_KYP/YP_1_r.pdf',
+        o_site: '240519_KYP'
+    },
+    {
+        date: '2024-05-25',
+        place: 'Пулковский парк',
+        name: 'Российский Азимут',
+        type: 'ORIENT',
+        res: 'http://orgeo.ru/live/#/35998',
+        owner: 'SFSO_SPB',
+        o_site: '240525_RA'
+    },
+    {
+        date: '2024-05-26',
+        place: 'Всеволожский район, оз.Сиркиярви',
+        name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-эстафета',
+        type: 'ORIENT',
+        res: 'http://orgeo.ru/live/#/36008',
+        owner: 'SFSO_SPB',
+        o_site: '240526',
+        reskeep: [
+            655,
+            656
+        ]
+    },
+    {
+        date: '2024-06-01',
+        name: 'Рогейн Hard rogaine, Моторное',
+        type: 'ROGAINE',
+        reg: 'http://reg.o-time.ru/race/24343',
+        fmt: 'Бег 3 и 6 часов, вело 5 часов',
+        start: 'HARD',
+        o_site: '240601hr'
+    },
+    {
+        date: '2024-06-01',
+        endDate: '2024-06-02',
+        place: 'Кузнечное',
+        name: 'Горный Кросс - 101',
+        type: 'ROGAINE',
+        res: 'https://o-site.spb.ru/_races/240601R/240601R_res.pdf',
+        fmt: 'Рогейн 24/8/3-бег, 8-вело',
+        start: 'GORNY_CROSS',
+        o_site: '240601R'
+    },
+    {
+        date: '2024-06-01',
+        endDate: '2024-06-02',
+        place: 'Лемболово',
+        name: 'Приз начала лета',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1619',
+        res: 'http://orgeo.ru/live/#/36161/2',
+        o_site: '240602'
+    },
+    {
+        date: '2024-06-01',
+        endDate: '2024-06-02',
+        name: 'Чемпионат ВУЗов',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240602_univer/240602_resof_kom.pdf',
+        o_site: '240602_univer'
+    },
+    {
+        name: 'Тренировка в Яппиля',
+        type: 'ORIENT',
+        info: 'ОТМЕНА ПО ТРЕБОВАНИЮ СФСО СПБ',
+        o_site: '240604',
+        date: '2024-06-04'
+    },
+    {
+        date: '2024-06-08',
+        name: 'Чемпионат и первенство Санкт-Петербурга, кросс-лонг',
+        type: 'ORIENT',
+        res: 'http://orgeo.ru/live/#/36303/1',
+        owner: 'SFSO_SPB',
+        o_site: '240608',
+        reskeep: 648
+    },
+    {
+        date: '2024-06-10',
+        endDate: '2024-06-16',
+        place: 'Выборгский район Ленинградской области, вблизи г. Каменногорск',
+        name: 'Учебно-тренировочный сбор ККП',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240610-16_UTS_KKP/result_UTS_0610.htm',
+        start: 'KKP',
+        o_site: '240610-16_UTS_KKP'
+    },
+    {
+        date: '2024-06-15',
+        endDate: '2024-06-21',
+        place: 'Выборгский район Ленинградской области, вблизи г. Каменногорск',
+        name: 'Камни Карельского Перешейка',
+        type: 'ORIENT',
+        reg: 'http://sportident.online/entry/?id=5930',
+        video: [
+            'https://www.youtube.com/watch?v=8KtdCrgRpOc',
+            'https://www.youtube.com/watch?v=b4xly5c1uj0',
+            'https://www.youtube.com/watch?v=5qnkvAx7M4I',
+            'https://www.youtube.com/watch?v=TOsJ0NYzKh8'
+        ],
+        start: 'KKP',
+        o_site: '240615-20_KKP',
+        reskeep: [
+            657,
+            658,
+            659
+        ]
+    },
+    {
+        date: '2024-06-16',
+        endDate: '2024-06-20',
+        place: 'Выборгский район Ленинградской области, вблизи г. Каменногорск',
+        name: 'Всероссийские соревнования по трейл-ориентированию',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/32124',
+        o_site: '240616'
+    },
+    {
+        date: '2024-06-21',
+        endDate: '2024-06-23',
+        name: 'Мемориал Михаила Святкина',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/mms2024/prolog_compressed.pdf',
+        video: [
+            'https://www.youtube.com/watch?v=EBNBDpK8i6w',
+            'https://www.youtube.com/watch?v=bBAqaBj5BxQ'
+        ],
+        start: 'MMS',
+        o_site: 'mms2024',
+        reskeep: [
+            660,
+            661,
+            662
+        ]
+    },
+    {
+        date: '2024-06-24',
+        endDate: '2024-06-27',
+        place: 'п. Первомайское',
+        name: 'Спортивный фестиваль «Яркий Мир»',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/24062427/240625_split.htm',
+        info: 'Традиционные многодневные соревнования по спортивному ориентированию, центр соревнований совмещен с XXX Мемориалом МИХАИЛА СВЯТКИНА.',
+        start: 'YM',
+        o_site: '24062427'
+    },
+    {
+        date: '2024-06-27',
+        name: 'Многодневка Белые Ночи, ЧиП СЗФО',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/bn_2024/240701_Perv_kom.pdf',
+        video: [
+            'https://www.youtube.com/watch?v=NtIA9JzaYyA',
+            'https://www.youtube.com/watch?v=xpQ84Ueyc44'
+        ],
+        owner: 'WN',
+        start: 'WN',
+        o_site: 'bn_2024'
+    },
+    {
+        date: '2024-06-29',
+        endDate: '2024-06-30',
+        name: 'Водный рогейн HARD ROGAINE | LADOGA',
+        type: 'ROGAINE',
+        reg: 'http://reg.o-time.ru/start/24263',
+        fmt: '6, 10 и 16 часов - байдарки. SUP - 4 часа.',
+        start: 'HARD',
+        o_site: '240630r'
+    },
+    {
+        date: '2024-07-01',
+        place: 'Воробьево озеро',
+        name: 'Чемпионат и Первенство Ленинградской области',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/',
+        owner: 'SFSO_LO',
+        o_site: '240701'
+    },
+    {
+        date: '2024-07-06',
+        name: 'Горный кросс - 102',
+        type: 'ROGAINE',
+        res: 'https://o-site.spb.ru/_races/240706_GK/240706R_res.pdf',
+        info: '06 июля 2024 г. п. Орехово, СЗ берег оз. Фигурное',
+        start: 'GORNY_CROSS',
+        o_site: '240706_GK'
+    },
+    {
+        date: '2024-07-06',
+        place: 'Орехово',
+        name: 'Открытая тренировка клуба Dлительный',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/36550',
+        res: 'https://o-site.spb.ru/_races/240706_tren_Dlit/20240706result.htm',
+        o_site: '240706_tren_Dlit'
+    },
+    {
+        date: '2024-07-07',
+        place: 'Петяярви',
+        name: 'Петяярви Рогейн + ориентирование',
+        type: 'ROGAINE',
+        reg: 'http://orgeo.ru/event/info/petayarvi_rogeyn_orient_2024',
+        res: 'https://o-site.spb.ru/_races/240707_rogaine/240707_split.htm',
+        o_site: '240707_rogaine'
+    },
+    {
+        date: '2024-07-13',
+        endDate: '2024-07-14',
+        name: 'Кубок Белых Ночей 14 и 15 этапы',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/36749',
+        res: 'https://o-site.spb.ru/_races/240713_bn/240713_res.htm',
+        owner: 'WN',
+        o_site: '240713_bn',
+        reskeep: [
+            649,
+            650
+        ]
+    },
+    {
+        date: '2024-07-14',
+        place: 'Медное озеро',
+        name: 'Карельский рубеж, 3-й этап Кубка ЛО по рогейну',
+        type: 'ROGAINE',
+        reg: 'http://www.multsport.ru/starts/klo-med-24/registration.html',
+        start: 'MULTSPORT',
+        o_site: '240714r'
+    },
+    {
+        date: '2024-07-14',
+        name: 'Перспектива - Лемболово',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/36612#',
+        res: 'https://o-site.spb.ru/_races/240714/240714_split.htm',
+        o_site: '240714'
+    },
+    {
+        date: '2024-07-28',
+        name: 'Перспектива - Комарово',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/36827',
+        res: 'https://o-site.spb.ru/_races/240728_p/240728_split.htm',
+        o_site: '240728_p'
+    },
+    {
+        date: '2024-08-10',
+        place: 'пос.Лосево и акватория р.Вуокса',
+        name: 'Рогейн «На Лосевских порогах»',
+        type: 'ROGAINE',
+        reg: 'http://www.multsport.ru/starts/klo-los-24/registration.html',
+        info: 'Старт является 4-м этапом Кубка Ленинградской области по рогейну',
+        start: 'MULTSPORT',
+        o_site: '240810r'
+    },
+    {
+        date: '2024-08-17',
+        endDate: '2024-08-18',
+        place: 'в районе г. Выборг, Ленинградская обл',
+        name: 'Выборгская Тройка',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240817-18_VTR/VTR_split_1.htm',
+        info: 'Соревнования пройдут в традиционном формате: 1 старт - Cб 17.08 ДЕНЬ 2 старт - Сб 17.08 НОЧЬ 3 старт - Вс 18.08 ДЕНЬ Ночной старт проводится в группах MЖ16-MЖ55. Спортсмены MЖ60 могут участвовать в ночном старте, но при подведении итогов он не учитывается.',
+        owner: 'VYBORG',
+        o_site: '240817-18_VTR'
+    },
+    {
+        date: '2024-08-17',
+        endDate: '2024-08-18',
+        name: 'Рогейн Hard Adventure, оз.Ястребиное',
+        type: 'ROGAINE',
+        reg: 'http://reg.o-time.ru/race/24357',
+        fmt: 'Рогейн БЕГ 4 часа, ВЕЛО 6 часов, мультигонка 24 часа',
+        start: 'HARD',
+        o_site: '240818r'
+    },
+    {
+        date: '2024-08-18',
+        place: 'п.Стеклянный',
+        name: 'Чемпионат и Первенство Санкт-Петербурга, велокросс-лонг',
+        type: 'VELO',
+        res: 'https://o-site.spb.ru/_races/240818/240818_ResultList.htm',
+        owner: 'SFSO_SPB',
+        o_site: '240818'
+    },
+    {
+        date: '2024-08-31',
+        place: 'район п. Мичуринское',
+        name: 'History Race',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/historyrace2024',
+        res: 'https://o-site.spb.ru/_races/240831/240831_split.htm',
+        info: 'Ежегодные соревнования History Race, посвященные истории довоенной Финляндии. Старт в 6км от пос.Мичуринское Приозерского р-на Ленинградской обл. Участников ждут велорогейн, беговое ориентирование, поиск КП по космоснимку и старинной карте, бонусные КП, фото-КП. Форматы: приключенческий велорогейн на 8 и 12 часов, беговой рогейн на 10 часов. Командой и лично.',
+        o_site: '240831'
+    },
+    {
+        date: '2024-08-31',
+        place: 'п.Цвелодубово (Ленинградская область)',
+        name: 'Мероприятие, посвящённое 65-летию спортивного ориентирования в России',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/36862',
+        res: 'https://o-site.spb.ru/_races/240831_retro/split.htm',
+        photo: 'http://vk.com/album-220245153_306513663',
+        info: 'Мероприятие проводится с целью сохранения исторической памяти и повышения преемственности поколений. К участию приглашаются все желающие без возрастных ограничений: от детей до ветеранов. Программа: - Ретро-старт по спортивному ориентированию по чёрно-белой карте. - Мобильная выставка по истории спортивного ориентирования и общение с ветеранами спорта. - Современные дистанции по спортивному ориентированию по цветной карте с электронной отметкой SFR.',
+        video: 'http://vk.com/orient_spb_lo?z=clip-220245153_456239032',
+        o_site: '240831_retro'
+    },
+    {
+        date: '2024-09-01',
+        place: 'п. Ягодное',
+        name: 'Зеленый Змей 2024',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240901ZZ/240901zz_split.htm',
+        start: 'GS',
+        o_site: '240901ZZ',
+        reskeep: 665
+    },
+    {
+        date: '2024-09-07',
+        place: 'Орехово',
+        name: 'Приз газеты «Всеволожские вести»',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240907VV/240907_split-experimental.htm',
+        start: 'VSEV_VESTI',
+        o_site: '240907VV',
+        reskeep: 663
+    },
+    {
+        date: '2024-09-08',
+        place: 'Лемболово',
+        name: 'Петербургская осень',
+        type: 'ORIENT',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1633',
+        res: 'https://o-site.spb.ru/_races/240908/Res_240908.htm',
+        info: 'Традиционный старт КСО "Азимут"',
+        logo: 'azimut.gif',
+        o_site: '240908',
+        reskeep: 671
+    },
+    {
+        date: '2024-09-14',
+        endDate: '2024-09-15',
+        name: 'Всероссийские соревнования «Балтийский берег» (трейл-ориентирование)',
+        type: 'ORIENT',
+        res: 'http://vk.com/trailopiter',
+        info: 'Всероссийские соревнования по спортивному ориентированию в дисциплинах трейл-ориентирования «Балтийский берег» Всероссийский фестиваль среди обучающихся, обучающихся с ограниченными возможностями здоровья и инвалидов по спортивному ориентированию в 2024 году',
+        o_site: '240915_baltbereg'
+    },
+    {
+        date: '2024-09-14',
+        endDate: '2024-09-15',
+        name: 'Мемориал Владимира Алексеева',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240915/split1.htm',
+        owner: 'WN',
+        o_site: '240915',
+        reskeep: [
+            675,
+            667
+        ]
+    },
+    {
+        date: '2024-09-15',
+        place: 'Курортный район, Таможенная дорога',
+        name: 'Чемпионат и Первенство Санкт-Петербурга, велокросс-спринт',
+        type: 'VELO',
+        owner: 'SFSO_SPB',
+        o_site: '240915_velo_sprint'
+    },
+    {
+        date: '2024-09-20',
+        name: 'Золотая осень',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/participants/37889',
+        res: 'https://o-site.spb.ru/_races/240920_zo/240920_split.htm',
+        owner: 'VYBORG',
+        o_site: '240920_zo'
+    },
+    {
+        date: '2024-09-21',
+        place: 'п. Молодежное',
+        name: 'Горный кросс - 103',
+        type: 'ROGAINE',
+        res: 'https://o-site.spb.ru/_races/240921R/240921R_res.pdf',
+        start: 'GORNY_CROSS',
+        o_site: '240921R'
+    },
+    {
+        date: '2024-09-21',
+        place: 'Гарболово',
+        name: 'Золотые кольца',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240921/240921_res.pdf',
+        info: 'Традиционные соревнования семейных пар - командные соревнования с раздельным выбором',
+        start: 'WEDDING',
+        o_site: '240921'
+    },
+    {
+        date: '2024-09-22',
+        place: 'П. Петровское (вблизи базы "Связист")',
+        name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-классика',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1628',
+        res: 'http://orgeo.ru/live/#/38071/1',
+        owner: 'SFSO_SPB',
+        o_site: '240922',
+        reskeep: 677
+    },
+    {
+        date: '2024-09-25',
+        place: 'Санкт-Петербург, ул. Лиственная д.13, стр. 1, лицей №101',
+        name: 'Спортивное ориентирование - в школу, Выборгский район, лицей №101',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/240925/240925_res_lab.pdf',
+        photo: 'http://vk.com/album-154221178_304402723',
+        info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по физической культуре и спорту Санкт-Петербурга Комитета по образованию Санкт-Петербурга ГБНОУ "Балтийский Берег"',
+        owner: 'VYBORG',
+        o_site: '240925'
+    },
+    {
+        date: '2024-09-27',
+        endDate: '2024-09-30',
+        name: 'Старты в Зеркальном',
+        type: 'ORIENT',
+        res: 'http://orgeo.ru/live/#/38224',
+        o_site: '240930'
+    },
+    {
+        date: '2024-09-28',
+        endDate: '2024-09-29',
+        place: 'Ленинградская область, Приозерский район, п.Овраги - п.Ольховка - п.Удальцово - п.Колосково - п.Петровское',
+        name: 'Рогейн ВелоИзоляция',
+        type: 'ROGAINE',
+        reg: 'http://www.multsport.ru/starts/veloizol24/registration.html',
+        fmt: 'Рогейн на 4 и 8 часов. Велосипедный и беговой формат',
+        start: 'MULTSPORT',
+        o_site: '240929r'
+    },
+    {
+        date: '2024-09-29',
+        name: 'Чемпионат и Первенство Санкт-Петербурга, эстафета',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1632',
+        res: 'http://orgeo.ru/event/38241',
+        owner: 'SFSO_SPB',
+        o_site: '240929',
+    },
+    {
+        date: '2024-10-02',
+        place: 'Школа № 339 Невского района (ул. Дыбенко, д. 12, корп. 2)',
+        name: 'Спортивное ориентирование - в школу, Невский район',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/241002/241002_res_lab.pdf',
+        photo: 'http://vk.com/album-154221178_304491669',
+        info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по физической культуре и спорту Санкт-Петербурга Комитета по образованию Санкт-Петербурга ГБНОУ "Балтийский Берег"',
+        owner: 'SFSO_SPB',
+        o_site: '241002'
+    },
+    {
+        date: '2024-10-05',
+        place: 'Токсово',
+        name: 'Открытая тренировка клуба Dлительный',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/38249',
+        res: 'https://o-site.spb.ru/_races/241005_tren_Dlit/241005_result_Dlit.htm',
+        o_site: '241005_tren_Dlit'
+    },
+    {
+        date: '2024-10-05',
+        place: 'Лемболово',
+        name: 'Чемпионат и Первенство Санкт-Петербурга, велокросс-эстафета 2 человека',
+        type: 'VELO',
+        res: 'https://o-site.spb.ru/_races/241005_velo/241005_split.htm',
+        owner: 'SFSO_SPB',
+        o_site: '241005_velo'
+    },
+    {
+        date: '2024-10-05',
+        endDate: '2024-10-06',
+        name: 'Мемориал А.Окинчица',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/37551',
+        start: 'OKINCHITSA',
+        o_site: '241005-06'
+    },
+    {
+        date: '2024-10-06',
+        place: 'Невский лесопарк, парковый комплекс «Усадьба Богословка»',
+        name: 'Соревнования по спортивному ориентированию «Нева-трейл»',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/38192',
+        o_site: '241006nt'
+    },
+    {
+        date: '2024-10-06',
+        place: 'Яппиля',
+        name: 'Чемпионат и первенство Санкт-Петербурга, марафон',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1635',
+        res: 'http://orgeo.ru/live/#/38447',
+        owner: 'SFSO_SPB',
+        o_site: '241006'
+    },
+    {
+        date: '2024-10-09',
+        place: 'школа № 605 Выборгского района (пр. Просвещения, д. 46, корп. 4, лит. А)',
+        name: 'Спортивное ориентирование - в школу, Выборгский район, школа №605',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/241009/241009_res_lab.pdf',
+        photo: 'http://vk.com/album-154221178_304577699',
+        info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по физической культуре и спорту Санкт-Петербурга Комитета по образованию Санкт-Петербурга ГБНОУ "Балтийский Берег"',
+        owner: 'VYBORG',
+        o_site: '241009'
+    },
+    {
+        date: '2024-10-11',
+        endDate: '2024-10-14',
+        name: 'Всероссийские соревнования Невский спринт',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/37598',
+        res: 'http://orgeo.ru/live/#/37598',
+        owner: 'SFSO_SPB',
+        o_site: '241014'
+    },
+    {
+        date: '2024-10-19',
+        name: 'Первенство Красногвардейского района',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/participants/38276#tab',
+        res: 'https://o-site.spb.ru/_races/241019/241019_split-1.htm',
+        o_site: '241019'
+    },
+    {
+        date: '2024-10-19',
+        place: 'Кавголово',
+        name: 'Тренировка Горный Кросс',
+        type: 'ROGAINE',
+        res: 'https://o-site.spb.ru/_races/241019GK/241019_gktren_split.htm',
+        info: 'Тренировка по рогейну, формат - 1 час бегом.',
+        start: 'GORNY_CROSS',
+        o_site: '241019GK'
+    },
+    {
+        date: '2024-10-19',
+        endDate: '2024-10-20',
+        place: 'г. Выборг и ст. Гвардейское',
+        name: '«Золотая осень 2024»',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/24101920/split1.htm',
+        info: 'Традиционные соревнования в г. Выборге',
+        owner: 'VYBORG',
+        o_site: '24101920'
+    },
+    {
+        date: '2024-10-20',
+        place: 'г.Сестрорецк, Таможенная дорога',
+        name: 'Первенство ГБУ СШОР им.В.Коренькова «Памяти З.В.Пятаковой»',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/241020_PZVP/241020_ofrez.pdf',
+        o_site: '241020_PZVP'
+    },
+    {
+        date: '2024-10-20',
+        place: 'Ленинградская область, пос. Шапки Тосненского района',
+        name: 'Финальный этап Кубка ЛО по рогейну',
+        type: 'ROGAINE',
+        reg: 'http://www.multsport.ru/starts/klo-final-24/registration.html',
+        fmt: 'Рогейн 4 часа. Велосипедный и беговой формат',
+        start: 'MULTSPORT',
+        o_site: '241020r'
+    },
+    {
+        date: '2024-10-26',
+        endDate: '2024-10-27',
+        place: 'Сосново, оз. Уловное',
+        name: 'Ночная эстафета 50 ВЁРСТ',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/241026/241027_result_5v_kids.htm',
+        info: 'V клубная ночная эстафета 50 ВЁРСТ',
+        o_site: '241026'
+    },
+    {
+        date: '2024-11-03',
+        place: 'Пухтолова гора',
+        name: 'Тренировочный старт',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1641',
+        res: 'https://o-site.spb.ru/_races/241102/241103_res.htm',
+        o_site: '241102'
+    },
+    {
+        date: '2024-11-04',
+        name: 'Осенний марафон',
+        type: 'ORIENT',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1640',
+        res: 'https://o-site.spb.ru/_races/241104_OM/Res1_OM_241104.htm',
+        photo: 'http://photos.app.goo.gl/2VZttyFAQ4PyErVCA',
+        info: 'Традиционные праздничные соревнования КСО "Азимут"',
+        logo: 'azimut.gif',
+        o_site: '241104_OM'
+    },
+    {
+        date: '2024-11-09',
+        place: 'Орехово',
+        name: 'Горный кросс - 104',
+        type: 'ROGAINE',
+        res: 'https://o-site.spb.ru/_races/241109R/241109R_res.pdf',
+        fmt: '6/2 часа БЕГ, 5 часов ВЕЛО',
+        start: 'GORNY_CROSS',
+        o_site: '241109R'
+    },
+    {
+        date: '2024-11-09',
+        name: 'МАРКИР 110%',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/38765',
+        res: 'https://o-site.spb.ru/_races/241109_Markir/241109_RES.htm',
+        start: 'ROGAINE_110',
+        o_site: '241109_Markir'
+    },
+    {
+        date: '2024-11-17',
+        place: 'д.Орово',
+        name: 'Чемпионат и Первенство Ленинградской области',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1643',
+        res: 'http://orgeo.ru/live/#/39248',
+        owner: 'SFSO_LO',
+        o_site: '241117',
+        reskeep: 670
+    },
+    {
+        date: '2024-11-23',
+        name: 'Зеленогорский рогейн + ориентирование',
+        type: 'ROGAINE',
+        reg: 'http://orgeo.ru/event/zele_rog',
+        res: 'https://o-site.spb.ru/_races/241103_zr/241123_res.htm',
+        o_site: '241103_zr'
+    },
+    {
+        date: '2024-11-23',
+        name: 'Соревнования посвященные Дню матери',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/dm24',
+        res: 'http://orgeo.ru/live/#/dm24',
+        o_site: '241123'
+    },
+    {
+        date: '2024-11-24',
+        place: 'парк Сосновка',
+        name: 'Снежная тропа, Сосновка',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1642',
+        res: 'http://orgeo.ru/live/#/38447',
+        owner: 'SFSO_SPB',
+        o_site: '241124',
+        reskeep: 672
+    },
+    {
+        date: '2024-11-26',
+        name: 'Онлайн соревнования ТОЧНЫЙ АЗИМУТ',
+        type: 'ORIENT',
+        reg: 'http://forms.yandex.ru/cloud/636d0ae92530c205eae4cc20/',
+        info: 'Заключительное мероприятие Всероссийского фестиваля среди обучающихся, обучающихся с ограниченными возможностями здоровья и инвалидов по спортивному ориентированию на 2024 год «Онлайн соревнования «ТОЧНЫЙ АЗИМУТ»: 26 ноября с 00:00 до 20:00 (МСК).',
+        o_site: '241126_online'
+    },
+    {
+        date: '2024-11-30',
+        place: 'Пискаревский парк',
+        name: 'Ориентир НатАлка',
+        type: 'ORIENT',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1645',
+        res: 'https://o-site.spb.ru/_races/2024_Orientir/Split_241130.htm',
+        info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
+        logo: 'azimut.gif',
+        o_site: '2024_Orientir'
+    },
+    {
+        date: '2024-12-01',
+        place: 'п. Токсово, Малиновая гора',
+        name: 'Dлительное ЗАКРЫТИЕ СЕЗОНА',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/39278',
+        res: 'https://o-site.spb.ru/_races/241201_est_Dlit/241201_split_tren_Dlit.htm',
+        info: 'Эстафета 2х2 и открытая тренировка от клуба Dлительный',
+        o_site: '241201_est_Dlit'
+    },
+    {
+        date: '2024-12-06',
+        place: 'ГБНОУ «Балтийский берег» по адресу ул. Черняховского, 49Б',
+        name: 'Судейский семинар для судей 1, 2 и 3 категорий',
+        type: 'ORIENT',
+        reg: 'http://forms.yandex.ru/u/6747428902848f0b601de02f/',
+        o_site: '241206_seminar'
+    },
+    {
+        date: '2024-12-14',
+        place: 'Охта-Парк',
+        name: 'Кубок Белых Ночей 7 этап',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/info/39730',
+        res: 'https://o-site.spb.ru/_races/241026_bn/241214_res.htm',
+        owner: 'WN',
+        o_site: '241026_bn'
+    },
+    {
+        date: '2024-12-15',
+        name: 'Снежная тропа, Удельный парк',
+        type: 'ORIENT',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1644',
+        res: 'http://orgeo.ru/live/#38447/2',
+        owner: 'SFSO_SPB',
+        o_site: '241215',
+        reskeep: 680
+    },
+    {
+        date: '2024-12-21',
+        name: 'Приз Деда Мороза 2024',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/39581',
+        res: 'https://o-site.spb.ru/_races/moroz_2024/241221_res.htm',
+        o_site: 'moroz_2024'
+    },
+    {
+        date: '2024-12-22',
+        place: 'г.Кировск',
+        name: 'Чемпионат и первенство ЛО, ЛГ-классика-общий старт',
+        type: 'ORIENT',
+        reg: 'http://orgeo.ru/event/kirovsk_ski_o_mass',
+        owner: 'SFSO_LO',
+        o_site: '241222'
+    },
+    {
+        date: '2024-12-30',
+        place: 'магазин Планета-спорт, Большой Сампсониевский просп., д. 45',
+        name: 'Итоговый вечер СФСО СПб',
+        type: 'ORIENT',
+        info: 'Вечер Федерации спортивного ориентирования Санкт-Петербурга по итогам 2024г. В программе: - награждение за 3-й этап Снежной Тропы (15 декабря, Удельный парк) - награждение призёров Чемпионатов России 2024 - награждение за Эстафетную Лигу 2024 - чаепитие, праздничная лотерея На вечере можно будет забрать дипломы за летний Чемпионат и первенство СПб (кроссовые и велокроссовые дисциплины) Начало в 18:00',
+        o_site: '241230'
+    }
+];
