@@ -676,6 +676,7 @@ let events2017 = [
         name: 'Кубок Карельского Перешейка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20170518_23KKP/vseros_KKP.rar',
+        video: 'https://www.youtube.com/watch?v=Ln3P0EaC9SU',
         start: 'KKP',
         o_site: '20170518_23KKP'
     },

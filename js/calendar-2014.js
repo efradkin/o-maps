@@ -717,6 +717,7 @@ let events2014 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/141005/141005_res.htm',
         photo: 'http://fotki.yandex.ru/users/wavygirl/album/453782',
+        video: 'https://www.youtube.com/watch?v=mxzdkz77ZB4',
         owner: 'SFSO_SPB',
         o_site: '141005',
         reskeep: 225

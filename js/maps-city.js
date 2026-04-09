@@ -2275,7 +2275,6 @@ let cityMaps = [
         name: 'Богатырский пр',
         year: 2025,
         url: './maps/city/bogatyrsky_2025.webp',
-        link: './original_maps/city/bogatyrsky_2025_omaps.gif',
         bounds: [[60.00844789062215, 30.197811126708988], [60.00692474991096, 30.212155580520633], [60.002864486345956, 30.195322036743168]],
         author: 'DRIBAS',
         owner: 'DRIBAS',

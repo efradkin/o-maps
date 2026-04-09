@@ -490,6 +490,7 @@ let events2016 = [
         name: 'Выборгская тройка - 2016',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16060405VT/160605_res.pdf',
+        video: 'https://www.youtube.com/watch?v=Xe47MvA0hBc',
         owner: 'VYBORG',
         o_site: '16060405VT'
     },
@@ -531,6 +532,7 @@ let events2016 = [
         name: 'Кубок Карельского Перешейка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/160619-24/16_06_19-23_vserosKKP.rar',
+        video: 'https://www.youtube.com/watch?v=3npql35PxRA',
         start: 'KKP',
         o_site: '160619-24'
     },

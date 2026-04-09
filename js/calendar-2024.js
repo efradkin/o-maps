@@ -601,6 +601,10 @@ let events2024 = [
         name: 'Учебно-тренировочный сбор ККП',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/240610-16_UTS_KKP/result_UTS_0610.htm',
+        video: [
+            'https://www.youtube.com/watch?v=U3GnqTpcdhU',
+            'https://www.youtube.com/watch?v=CGn7ziD_m70'
+        ],
         start: 'KKP',
         o_site: '240610-16_UTS_KKP'
     },
@@ -616,7 +620,10 @@ let events2024 = [
             'https://www.youtube.com/watch?v=8KtdCrgRpOc',
             'https://www.youtube.com/watch?v=b4xly5c1uj0',
             'https://www.youtube.com/watch?v=5qnkvAx7M4I',
-            'https://www.youtube.com/watch?v=TOsJ0NYzKh8'
+            'https://www.youtube.com/watch?v=TOsJ0NYzKh8',
+            'https://www.youtube.com/watch?v=E8VJL0bXcWo',
+            'https://www.youtube.com/watch?v=8MI6LGyKN7E',
+            'https://www.youtube.com/watch?v=FoZ1wwh5yFU'
         ],
         start: 'KKP',
         o_site: '240615-20_KKP',
@@ -671,9 +678,11 @@ let events2024 = [
         id: 'SPB_20240627_1',
         date: '2024-06-27',
         name: 'Многодневка Белые Ночи, ЧиП СЗФО',
+        place: 'Воробьево оз',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/bn_2024/240701_Perv_kom.pdf',
         video: [
+            'https://www.youtube.com/watch?v=cS5LZSSWWho',
             'https://www.youtube.com/watch?v=NtIA9JzaYyA',
             'https://www.youtube.com/watch?v=xpQ84Ueyc44'
         ],
@@ -695,10 +704,11 @@ let events2024 = [
     {
         id: 'SPB_20240701_1',
         date: '2024-07-01',
-        place: 'Воробьево озеро',
+        place: 'Воробьево оз',
         name: 'Чемпионат и Первенство Ленинградской области',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
+        video: 'https://www.youtube.com/watch?v=-7rs51U0QAk',
         owner: 'SFSO_LO',
         o_site: '240701'
     },
@@ -895,6 +905,7 @@ let events2024 = [
         name: 'Мемориал Владимира Алексеева',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/240915/split1.htm',
+        video: ['https://www.youtube.com/watch?v=6yK90nhheOU','https://www.youtube.com/watch?v=QEMQ87EVN9g'],
         owner: 'WN',
         o_site: '240915',
         reskeep: [

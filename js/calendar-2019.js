@@ -331,6 +331,7 @@ let events2019 = [
         reg: 'http://sportident.ru/entry/event_info.php?id=4208',
         res: 'https://o-site.spb.ru/_races/190427_V3/190427_V3_sp_rez.htm',
         info: 'В связи с неблагоприятной снежной обстановкой, ночной старт перенесен в район Батарейной горы',
+        video: 'https://www.youtube.com/watch?v=rnk_WpK7qKs',
         owner: 'VYBORG',
         o_site: '190427_V3',
         reskeep: [

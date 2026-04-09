@@ -444,6 +444,10 @@ let events2022 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/220606-12/220606_uts_result.htm',
         info: 'Учебно-тренирововчный сбор ККП 2022 Пн 06.06 Результаты Сплиты Вт 07.06 Результаты Сплиты Ср 08.06 Результаты Сплиты Чт 09.06 Результаты Сплиты Пт 10.06 Результаты A, B, C, D, Кор A, Кор B Сплиты A, B, C, D, Кор A, Кор B Результаты Зеленый Змей, Нитка Сплиты Зеленый Змей, Нитка Сб 11.06 Результаты A, B, C, D, Кор A, Кор B Сплиты A, B, C, D, Кор A, Кор B Результаты Зеленый Змей, Нитка Сплиты Зеленый Змей, Нитка Вс 12.06 Результаты A, B, C, D, Кор A, Кор B Сплиты A, B, C, D, Кор A, Кор B Результаты Зеленый Змей, Нитка Сплиты Зеленый Змей, Нитка',
+        video: [
+            'https://www.youtube.com/watch?v=8QNlmlvIm_M',
+            'https://www.youtube.com/watch?v=FtDmRArvH9A'
+        ],
         start: 'KKP',
         o_site: '220606-12'
     },
@@ -467,7 +471,13 @@ let events2022 = [
         reg: 'http://sportident.online/entry/?id=5132',
         res: 'http://o-site.spb.ru/_races/220613-16_KKP/220611_Piramida_result.htm',
         info: 'В рамках соревнований "Камни Карельского Перешейка 2022" также состоятся: 11 июня - Трейл «Царь скалы» Сайт трейла 11 июня - Ночная эстафета по ориентированию «Пирамида» Заявка Результаты Сплиты Видеотрансляция ВК 12 июня - Детская эстафета по ориентированию «Каменюкола» Заявка Результаты Сплиты Видеотрансляция ВК',
-        video: 'http://vk.com/video-93257360_456239179?list=af3bee201b2b6ed951',
+        video: [
+            'http://vk.com/video-93257360_456239179',
+            'https://www.youtube.com/watch?v=7flfOdWND4g',
+            'https://www.youtube.com/watch?v=Mj49gwogR-0',
+            'https://www.youtube.com/watch?v=2Y35LlCDc6Y',
+            'https://www.youtube.com/watch?v=VVIKbMxqd0U'
+        ],
         start: 'KKP',
         o_site: '220613-16_KKP',
         reskeep: [
@@ -525,6 +535,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220624/split1.htm',
         info: '51-е Многодневные соревнования по спортивному ориентированию.',
+        video: ['https://www.youtube.com/watch?v=8mHajIP-jZE','https://www.youtube.com/watch?v=h5ZbD7u3F1E','https://www.youtube.com/watch?v=VOmzXQ9S3Uc'],
         owner: 'WN',
         start: 'WN',
         o_site: '220624',
@@ -644,6 +655,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/23013',
         res: 'https://o-site.spb.ru/_races/220904/220904_res.htm',
+        video: 'https://www.youtube.com/watch?v=VOmzXQ9S3Uc',
         owner: 'WN',
         o_site: '220904',
         reskeep: 554
@@ -789,6 +801,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220925/220925-res.pdf',
         photo: 'http://disk.yandex.ru/d/p_S-LrobJUwbDw',
+        video: 'https://www.youtube.com/watch?v=9exCYNfbY4M',
         o_site: '220925',
         reskeep: 541
     },
@@ -846,6 +859,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/221010_vseros/221008_res_sum.htm',
         photo: 'http://vk.com/album-154221178_287261227',
+        video: ['https://www.youtube.com/watch?v=fRPq_D5p_-4','https://www.youtube.com/watch?v=29hiuxaqDbk','https://www.youtube.com/watch?v=hiu3bViJPqU'],
         owner: 'SFSO_SPB',
         o_site: '221010_vseros',
         reskeep: [

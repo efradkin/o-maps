@@ -372,6 +372,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/21050103/210501_split.htm',
         photo: 'http://vk.com/album-19102553_281720876',
         info: 'Открытые массовые соревнования Ленинградской области 1 мая - кросс-спринт, г. Сертолово 2 мая - кросс-классика, д. Энколово 3 мая - кросс-классика, п. Юкки',
+        video: ['https://www.youtube.com/watch?v=2aQF0F5Y52w','https://www.youtube.com/watch?v=t414a10nXVc'],
         o_site: '21050103',
         reskeep: [
             450,
@@ -650,6 +651,13 @@ let events2021 = [
         reg: 'https://sportident.online/entry/?id=4855',
         res: 'https://o-site.spb.ru/_races/210612-18_KKP/210613-24_vseros.rar',
         info: 'В рамках соревнований "Кубок Карельского Перешейка - 2021" состоятся: 12 июня - Трейл «Скалы бесконечности». 12 июня - Ночная эстафета по ориентированию «Пирамида». Заявка. 13 июня - Детская эстафета по ориентированию «Каменюкола». Заявка.',
+        video: [
+            'https://www.youtube.com/watch?v=91gHZ73pbJ4',
+            'https://www.youtube.com/watch?v=xa-xlJAm9rY',
+            'https://www.youtube.com/watch?v=GiBMhw5FW5M',
+            'https://www.youtube.com/watch?v=JQ_BQAA4Mho',
+            'https://www.youtube.com/watch?v=2aQF0F5Y52w'
+        ],
         start: 'KKP',
         o_site: '210612-18_KKP',
         reskeep: [
@@ -932,6 +940,7 @@ let events2021 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210926/210926_res.htm',
         info: 'Официальный старт СФСО СПб с присвоением массовых разрядов',
+        video: 'https://www.youtube.com/watch?v=rpXVZCsQDr0',
         o_site: '210926',
         reskeep: 492
     },
@@ -1103,6 +1112,26 @@ let events2021 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20211030_bel/res1.htm',
         o_site: '20211030_bel'
+    },
+    {
+        id: 'SPB_20211030_2',
+        date: '2021-10-30',
+        name: 'Sprint Tour SPb. 10 этап',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        reskeep: 489,
+        video: 'https://www.youtube.com/watch?v=Dt6N_G1KZuk',
+        start: 'ST'
+    },
+    {
+        id: 'SPB_20211030_3',
+        date: '2021-10-30',
+        name: 'White Nights Middle #4',
+        place: 'Матокса',
+        type: 'ORIENT',
+        reskeep: 344,
+        video: 'https://www.youtube.com/watch?v=WMpD5ohFhQY',
+        owner: 'WN'
     },
     {
         id: 'SPB_20211031_1',

@@ -684,6 +684,11 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=3624',
         res: 'http://moscompass.ru/news/2018/20180618.htm',
+        video: [
+            'https://www.youtube.com/watch?v=2_8qq972LFc',
+            'https://www.youtube.com/watch?v=bHNLjeT8PH8',
+            'https://www.youtube.com/watch?v=PQjKShU4L1k'
+        ],
         start: 'KKP',
         o_site: '180617-18',
         reskeep: [

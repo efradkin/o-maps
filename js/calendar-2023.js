@@ -335,6 +335,7 @@ let events2023 = [
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/28273/1',
         info: 'Внимание! Изменилось место проведения!',
+        video: 'https://www.youtube.com/watch?v=lfOejh6_0dQ',
         owner: 'YUVENTA',
         o_site: '230423'
     },
@@ -537,6 +538,10 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=5643',
         info: 'Учебно-тренировочный сбор ККП 2023 пройдет в районе соседнем с ККП 2023, на аналогичной местности 7 тренировочных дней, каждый день участникам будут предложены дистанции различной длины и сложности, а также технические задания',
+        video: [
+            'https://www.youtube.com/watch?v=-FElZ_4Z6wg',
+            'https://www.youtube.com/watch?v=VmMfo1LcdEc'
+        ],
         start: 'KKP',
         o_site: '230612-18'
     },
@@ -549,6 +554,11 @@ let events2023 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '230617-22_KKP',
+        video: [
+            'https://www.youtube.com/watch?v=DvbP31HGfIc',
+            'https://www.youtube.com/watch?v=g-YOzBUM3a8',
+            'https://www.youtube.com/watch?v=LQlzH_ehSKM'
+        ],
         reskeep: [
             599,
             600,
@@ -575,6 +585,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/28788',
         res: 'http://orgeo.ru/live/#/28788/3',
+        video: ['https://www.youtube.com/watch?v=mFBr2MNJL9M','https://www.youtube.com/watch?v=0N8VrUFS6Wk&pp=0gcJCdoKAYcqIYzv'],
         start: 'MMS',
         o_site: 'mms2023',
         reskeep: [
@@ -602,6 +613,7 @@ let events2023 = [
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/26278',
         info: '52-е Многодневные соревнования по спортивному ориентированию Работа секретариата 30 июня с 13.00 до 19.00.',
+        video: ['https://www.youtube.com/watch?v=tPWKitRe-x0','https://www.youtube.com/watch?v=D_rMh8eZ1Vg'],
         owner: 'WN',
         start: 'WN',
         o_site: 'bn_2023'
@@ -943,6 +955,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1555',
         res: 'https://o-site.spb.ru/_races/230924/230924_split.htm',
+        video: 'https://www.youtube.com/watch?v=zrHmTnWIQhk',
         o_site: '230924',
         reskeep: 614
     },
@@ -1001,6 +1014,7 @@ let events2023 = [
         name: 'Всероссийские соревнования Невский спринт',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/29568/1',
+        video: 'https://www.youtube.com/watch?v=pSrwKLYU-OE',
         owner: 'SFSO_SPB',
         o_site: '231009_NS'
     },
