@@ -557,7 +557,14 @@ let events2023 = [
         video: [
             'https://www.youtube.com/watch?v=DvbP31HGfIc',
             'https://www.youtube.com/watch?v=g-YOzBUM3a8',
-            'https://www.youtube.com/watch?v=LQlzH_ehSKM'
+            'https://www.youtube.com/watch?v=LQlzH_ehSKM',
+            'https://vkvideo.ru/video-93257360_456239213',
+            'https://vkvideo.ru/video-93257360_456239214',
+            'https://vkvideo.ru/video-93257360_456239218',
+            'https://vkvideo.ru/video-93257360_456239220',
+            'https://vksport.vkvideo.ru/video-93257360_456239221',
+            'https://vkvideo.ru/video-93257360_456239222',
+            'https://vkvideo.ru/video-93257360_456239223'
         ],
         reskeep: [
             599,

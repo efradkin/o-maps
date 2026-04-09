@@ -1249,7 +1249,12 @@ let events2025 = [
         photo: 'https://vk.ru/album-227779225_309822985',
         video: [
             'https://www.youtube.com/watch?v=Hd7rUUf1vDg',
-            'https://www.youtube.com/watch?v=YzshhewPboE'
+            'https://www.youtube.com/watch?v=YzshhewPboE',
+            'https://vkvideo.ru/video-93257360_456239276',
+            'https://vkvideo.ru/video-93257360_456239278',
+            'https://vkvideo.ru/video-93257360_456239279',
+            'https://vkvideo.ru/video-93257360_456239280',
+            'https://vkvideo.ru/video-93257360_456239281'
         ],
         start: 'KKP',
         map: 'kkp_prudy_2023_06_19',

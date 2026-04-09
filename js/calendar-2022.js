@@ -473,6 +473,11 @@ let events2022 = [
         info: 'В рамках соревнований "Камни Карельского Перешейка 2022" также состоятся: 11 июня - Трейл «Царь скалы» Сайт трейла 11 июня - Ночная эстафета по ориентированию «Пирамида» Заявка Результаты Сплиты Видеотрансляция ВК 12 июня - Детская эстафета по ориентированию «Каменюкола» Заявка Результаты Сплиты Видеотрансляция ВК',
         video: [
             'http://vk.com/video-93257360_456239179',
+            'https://vkvideo.ru/video-93257360_456239176',
+            'https://vkvideo.ru/video-93257360_456239172',
+            'https://vkvideo.ru/video-93257360_456239173',
+            'https://vkvideo.ru/video-93257360_456239174',
+            'https://vkvideo.ru/video-93257360_456239175',
             'https://www.youtube.com/watch?v=7flfOdWND4g',
             'https://www.youtube.com/watch?v=Mj49gwogR-0',
             'https://www.youtube.com/watch?v=2Y35LlCDc6Y',
@@ -952,6 +957,7 @@ let events2022 = [
         name: 'Ночная эстафета 50 ВЁРСТ',
         type: 'ORIENT',
         res: 'http://sportident.online/ol/?id=942',
+        video: 'https://vkvideo.ru/video-93257360_456239204',
         info: 'III клубная ночная эстафета 50 ВЁРСТ',
         o_site: '221022_50Verst'
     },

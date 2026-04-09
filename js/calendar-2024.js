@@ -623,7 +623,13 @@ let events2024 = [
             'https://www.youtube.com/watch?v=TOsJ0NYzKh8',
             'https://www.youtube.com/watch?v=E8VJL0bXcWo',
             'https://www.youtube.com/watch?v=8MI6LGyKN7E',
-            'https://www.youtube.com/watch?v=FoZ1wwh5yFU'
+            'https://www.youtube.com/watch?v=FoZ1wwh5yFU',
+            'https://vkvideo.ru/video-93257360_456239235',
+            'https://vkvideo.ru/video-93257360_456239236',
+            'https://vkvideo.ru/video-93257360_456239239',
+            'https://vkvideo.ru/video-93257360_456239244',
+            'https://vkvideo.ru/video-93257360_456239249',
+            'https://vkvideo.ru/video-93257360_456239251'
         ],
         start: 'KKP',
         o_site: '240615-20_KKP',
@@ -887,6 +893,14 @@ let events2024 = [
         logo: 'azimut.gif',
         o_site: '240908',
         reskeep: 671
+    },
+    {
+        id: 'SPB_20240911_1',
+        date: '2024-09-11',
+        name: 'Спринт Тур, 4 этап',
+        reskeep: 666,
+        type: 'ORIENT',
+        video: 'https://vkvideo.ru/video-92124592_456239031'
     },
     {
         id: 'SPB_20240914_1',
@@ -1153,6 +1167,7 @@ let events2024 = [
         name: 'Ночная эстафета 50 ВЁРСТ',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/241026/241027_result_5v_kids.htm',
+        video: 'https://vkvideo.ru/video-93257360_456239262',
         info: 'V клубная ночная эстафета 50 ВЁРСТ',
         o_site: '241026'
     },
