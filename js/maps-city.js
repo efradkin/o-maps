@@ -1484,7 +1484,7 @@ let cityMaps = [
         link: './original_maps/city/romanovka_2013_omaps.gif',
         bounds: [[60.05007110026554, 30.69610118865967], [60.048742712098274, 30.710756778717045], [60.04303217685753, 30.69367647171021]],
         author: 'MNKV',
-        owner: 'INGR',
+        owner: 'INGRIA',
         type: ['CITY']
     },
     {

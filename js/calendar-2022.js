@@ -152,6 +152,14 @@ let events2022 = [
         o_site: '220313'
     },
     {
+        id: 'SPB_20220409_1',
+        date: '2022-04-09',
+        place: 'Осиновая Роща',
+        name: 'Перспектива Middle Cup #1',
+        type: 'ORIENT',
+        reskeep: 510
+    },
+    {
         id: 'SPB_20220410_1',
         date: '2022-04-10',
         place: 'Полюстровский парк',
@@ -223,6 +231,24 @@ let events2022 = [
         ]
     },
     {
+        id: 'SPB_20220423_3',
+        date: '2022-04-23',
+        place: 'Голубая Дача',
+        name: 'Кубок Белых Ночей #5',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 529
+    },
+    {
+        id: 'SPB_20220430_1',
+        date: '2022-04-30',
+        place: 'Петяярви',
+        name: 'Кубок Белых Ночей #6',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 528
+    },
+    {
         id: 'SPB_20220501_1',
         date: '2022-05-01',
         endDate: '2022-05-03',
@@ -231,6 +257,33 @@ let events2022 = [
         reg: 'http://orgeo.ru/event/info/21216',
         res: 'http://sportident.online/ol/?id=704',
         o_site: '220403'
+    },
+    {
+        id: 'SPB_20220501_2',
+        date: '2022-05-01',
+        place: 'Пухтолова Гора',
+        name: 'Кубок Белых Ночей #7',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 511
+    },
+    {
+        id: 'SPB_20220503_1',
+        date: '2022-05-03',
+        place: 'Воейково',
+        name: 'Кубок Белых Ночей #8',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 530
+    },
+    {
+        id: 'SPB_20220506_1',
+        date: '2022-05-06',
+        place: 'Покровский остров',
+        name: 'White Nights Sprint #1 (Дом-утюг спринт)',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 522
     },
     {
         id: 'SPB_20220508_1',
@@ -262,6 +315,14 @@ let events2022 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1429',
         res: 'https://o-site.spb.ru/_races/220510_mtbo/2022_05_10_splits.htm',
         o_site: '220510_mtbo'
+    },
+    {
+        id: 'SPB_20220510_1',
+        date: '2022-05-10',
+        place: 'Линдуловская роща',
+        name: 'Перспектива Middle Cup #5',
+        type: 'ORIENT',
+        reskeep: 524
     },
     {
         id: 'SPB_20220511_1',
@@ -304,6 +365,15 @@ let events2022 = [
         fmt: 'Рогейн 4, 8 и 16 часов',
         start: 'MULTSPORT',
         o_site: '220515r'
+    },
+    {
+        id: 'SPB_20220514_4',
+        date: '2022-05-14',
+        place: 'Стеклянный',
+        name: 'Кубок Белых Ночей #12',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 525
     },
     {
         id: 'SPB_20220515_1',
@@ -434,6 +504,15 @@ let events2022 = [
         fmt: '24/8/3 часа - бег, 8 часов - вело',
         start: 'GORNY_CROSS',
         o_site: '2022GK'
+    },
+    {
+        id: 'SPB_20220605_1',
+        date: '2022-06-05',
+        place: 'Мичуринское',
+        name: 'Кубок Белых Ночей #14',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 534
     },
     {
         id: 'SPB_20220606_1',
@@ -570,6 +649,15 @@ let events2022 = [
         o_site: '2022_GK_89'
     },
     {
+        id: 'SPB_20220702_1',
+        date: '2022-07-02',
+        place: 'Ильичёво',
+        name: 'White Nights Middle #5',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 539
+    },
+    {
         id: 'SPB_20220709_1',
         date: '2022-07-09',
         endDate: '2022-07-10',
@@ -674,6 +762,15 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220912/team3.pdf',
         o_site: '220912'
+    },
+    {
+        id: 'SPB_20220910_1',
+        date: '2022-09-10',
+        place: 'Болотная станция',
+        name: 'Кубок Белых Ночей #1',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 542
     },
     {
         id: 'SPB_20220911_1',
@@ -962,6 +1059,15 @@ let events2022 = [
         o_site: '221022_50Verst'
     },
     {
+        id: 'SPB_20221022_3',
+        date: '2022-10-22',
+        place: 'Раздолье',
+        name: 'Кубок Белых Ночей #2',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 561
+    },
+    {
         id: 'SPB_20221023_1',
         date: '2022-10-23',
         place: 'Цвелодубово, база отдыха Голубое озеро',
@@ -1003,6 +1109,15 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/221030/221030_res.htm',
         owner: 'SFSO_LO',
         o_site: '221030'
+    },
+    {
+        id: 'SPB_20221030_2',
+        date: '2022-10-30',
+        place: 'Сосново, Уловное оз',
+        name: 'White Nights Middle #6',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 562
     },
     {
         id: 'SPB_20221103_1',
@@ -1079,6 +1194,15 @@ let events2022 = [
         o_site: '221113'
     },
     {
+        id: 'SPB_20221119_1',
+        date: '2022-11-19',
+        place: 'Озерки',
+        name: 'Кубок Белых Ночей #7',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 566
+    },
+    {
         id: 'SPB_20221120_1',
         date: '2022-11-20',
         place: 'д. Лупполово',
@@ -1134,6 +1258,15 @@ let events2022 = [
         res: 'http://disk.yandex.ru/i/3pvLSbc80DIFcA',
         info: 'Финальное мероприятие «Всероссийские игры по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций» Всероссийского фестиваля среди обучающихся, обучающихся с ограниченными возможностями здоровья и инвалидов по ориентированию на местности.',
         o_site: '221129_az'
+    },
+    {
+        id: 'SPB_20221204_1',
+        date: '2022-12-04',
+        place: 'Петяярви',
+        name: 'Кубок Белых Ночей #8',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 568
     },
     {
         id: 'SPB_20221210_1',

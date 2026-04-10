@@ -74,7 +74,7 @@ let owners = {
         logo: 'hard_bear.webp',
         rogaine: true
     },
-    INGR: {
+    INGRIA: {
         name: '© <a href="https://vk.com/ingriaorient">КСО "Ингрия"</a>, Кирьянов Юрий - 89117954827',
         logo: 'ingria.gif'
     },

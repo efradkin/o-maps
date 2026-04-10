@@ -569,6 +569,16 @@ let events2021 = [
         ]
     },
     {
+        id: 'SPB_20210530_1',
+        date: '2021-05-30',
+        place: 'Первомайское',
+        name: 'Кубок Белых Ночей #19',
+        o_site: '2021BN',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 472
+    },
+    {
         id: 'SPB_20210601_1',
         date: '2021-06-01',
         name: 'Онлайн-старт по трейл-о, посвященный Дню защиты детей',
@@ -596,6 +606,15 @@ let events2021 = [
         res: 'http://sportident.online/ol/?id=360',
         owner: 'SFSO_SPB',
         o_site: '210605_MTBO_klass'
+    },
+    {
+        id: 'SPB_20210605_2',
+        date: '2021-06-05',
+        place: 'Василеостровская',
+        name: 'White Nights Sprint #4',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 461
     },
     {
         id: 'SPB_20210606_1',
@@ -735,6 +754,22 @@ let events2021 = [
         o_site: '2021BN_0710'
     },
     {
+        id: 'SPB_20210807_1',
+        date: '2021-08-07',
+        name: 'Яркий Кубок #6',
+        place: 'Первомайское',
+        type: 'ORIENT',
+        reskeep: 480
+    },
+    {
+        id: 'SPB_20210808_1',
+        date: '2021-08-08',
+        name: 'Яркий Кубок. Отдельный старт',
+        place: 'Первомайское',
+        type: 'ORIENT',
+        reskeep: 481,
+    },
+    {
         id: 'SPB_20210815_1',
         date: '2021-08-15',
         name: 'Индивидуальная тренировка от клуба ИНГРИЯ',
@@ -820,6 +855,16 @@ let events2021 = [
         info: '2ая ночная эстафета от клуба Nord West',
         video: 'https://www.youtube.com/watch?v=nOUZ0_ku74g',
         o_site: '280821_50Verst'
+    },
+    {
+        id: 'SPB_20210904_2',
+        date: '2021-09-04',
+        name: 'White Nights Sprint #5',
+        place: 'Литейный проспект',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 462,
+        me: 'М'
     },
     {
         id: 'SPB_20210905_1',
@@ -933,6 +978,15 @@ let events2021 = [
         o_site: '210925_MTBO'
     },
     {
+        id: 'SPB_20210925_3',
+        date: '2021-09-25',
+        place: 'Петроградка',
+        name: 'White Nights Sprint #6 (ЦОЙ-спринт)',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 369
+    },
+    {
         id: 'SPB_20210926_1',
         date: '2021-09-26',
         place: 'Яппиля',
@@ -1011,13 +1065,12 @@ let events2021 = [
     {
         id: 'SPB_20211009_3',
         date: '2021-10-09',
-        name: 'Петербургская осень',
+        name: 'Чемпионат СПб по ориентированию среди ВУЗов',
         type: 'ORIENT',
-        reg: 'http://www.o-reg.spb.ru/entry-list?id=1311',
-        res: 'https://o-site.spb.ru/_races/211009_/Res_PetOs_211009.htm',
-        info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
-        logo: 'azimut.gif',
-        o_site: '211009'
+        reg: 'http://www.o-reg.spb.ru/entry-list?id=1312',
+        res: 'https://o-site.spb.ru/_races/211009/Res_Vus.pdf',
+        o_site: '211009',
+        reskeep: 495
     },
     {
         id: 'SPB_20211010_1',
@@ -1144,6 +1197,15 @@ let events2021 = [
         o_site: '211031P'
     },
     {
+        id: 'SPB_20211031_2',
+        date: '2021-10-31',
+        place: 'Болотная станция',
+        name: 'Кубок Белых Ночей #1',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 500
+    },
+    {
         id: 'SPB_20211104_1',
         date: '2021-11-04',
         place: 'Лемболово, рядом с бывшей базой "Искра"',
@@ -1163,6 +1225,15 @@ let events2021 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20211104_adyg/res1.htm',
         o_site: '20211104_adyg'
+    },
+    {
+        id: 'SPB_20211107_1',
+        date: '2021-11-07',
+        place: 'Петяярви',
+        name: 'Кубок Белых Ночей #2',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 502
     },
     {
         id: 'SPB_20211113_1',
@@ -1196,6 +1267,15 @@ let events2021 = [
         o_site: '211014_markir110'
     },
     {
+        id: 'SPB_20211121_1',
+        date: '2021-11-21',
+        place: 'Первомайское',
+        name: 'Кубок Белых Ночей #3',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 503
+    },
+    {
         id: 'SPB_20211123_1',
         date: '2021-11-23',
         endDate: '2021-11-24',
@@ -1205,6 +1285,15 @@ let events2021 = [
         res: 'http://drive.google.com/drive/folders/1qarCC_fULRflQJwSsMb2mnZpK9hUSV6N',
         info: '5-й этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций',
         o_site: '211123_az'
+    },
+    {
+        id: 'SPB_20211127_1',
+        date: '2021-11-27',
+        place: 'Васкелово',
+        name: 'Кубок Белых Ночей #4',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 504
     },
     {
         id: 'SPB_20211128_1',

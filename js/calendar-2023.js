@@ -278,6 +278,15 @@ let events2023 = [
         o_site: '230326'
     },
     {
+        id: 'SPB_20230401_1',
+        date: '2023-04-01',
+        name: 'Восстано-Невский Спринт',
+        place: 'пл Восстания',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 569
+    },
+    {
         id: 'SPB_20230402_1',
         date: '2023-04-02',
         name: 'Перспектива. Мини рогейн',
@@ -348,6 +357,15 @@ let events2023 = [
         fmt: '4/2 часа бег, 4 часа вело',
         start: 'GORNY_CROSS',
         o_site: '230429R'
+    },
+    {
+        id: 'SPB_20230429_2',
+        date: '2023-04-29',
+        place: 'Кавголово',
+        name: 'Кубок Белых Ночей #11',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 574
     },
     {
         id: 'SPB_20230430_1',
@@ -817,6 +835,15 @@ let events2023 = [
         o_site: '230903'
     },
     {
+        id: 'SPB_20230903_2',
+        date: '2023-09-03',
+        place: 'Симагино',
+        name: 'Кубок Белых Ночей #1',
+        type: 'ORIENT',
+        owner: 'WN',
+        reskeep: 591
+    },
+    {
         id: 'SPB_20230909_1',
         date: '2023-09-09',
         name: 'Памяти Димы Фатидинова',
@@ -1023,7 +1050,8 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/29568/1',
         video: 'https://www.youtube.com/watch?v=pSrwKLYU-OE',
         owner: 'SFSO_SPB',
-        o_site: '231009_NS'
+        o_site: '231009_NS',
+        reskeep: 616
     },
     {
         id: 'SPB_20231007_1',

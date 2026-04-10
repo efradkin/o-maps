@@ -859,6 +859,15 @@ let events2026 = [
         ]
     },
     {
+        id: 'SPB_20260418_3',
+        date: '2026-04-18',
+        name: '30-й меридиан',
+        place: 'усадьба Богословка',
+        reg: 'https://orgeo.ru/event/51698',
+        type: 'ORIENT',
+        map: 'nevsky_2024'
+    },
+    {
         id: 'SPB_20260419_1',
         date: '2026-04-19',
         name: 'Перспектива',
@@ -1203,6 +1212,18 @@ let events2026 = [
         fmt: 'эстафета детская',
         map: 'kkp_prudy_2019_06_19',
         start: 'KKP'
+    },
+    {
+        id: 'SPB_20260625_1',
+        date: '2026-06-25',
+        endDate: '2026-06-26',
+        name: 'Ингрия',
+        place: 'Пески',
+        o_site: '260625',
+        type: 'ORIENT',
+        fmt: 'командный спринт / эстафета',
+        map: 'peski_2001',
+        owner: 'INGRIA'
     },
     {
         id: 'SPB_20260627_1',
