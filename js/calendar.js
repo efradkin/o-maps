@@ -163,7 +163,7 @@ function renderMapsTable() {
     let prevYear = 0;
     let currentMonth = -1;
     for (const evt of oEvents) {
-        if (onlyMy && (!evt.id || !myEvents.includes(evt.id))) {
+        if (onlyMy && !evt.strava && !evt.my && (!evt.id || !myEvents.includes(evt.id))) {
             continue;
         }
 

@@ -770,6 +770,7 @@ let events2026 = [
         o_site: '260407_NWSprint_1',
         reg: 'https://orgeo.ru/event/info/nw_sprint',
         info: '<a href="https://vk.com/@nordwestmedia-razbor-nwsprint-1-etap-07042026">Разбор дистанций</a>.',
+        video: 'https://rutube.ru/video/12708e94ecc5e049206368e381b5d0e1/',
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'NW',
@@ -884,8 +885,10 @@ let events2026 = [
         date: '2026-04-23',
         name: 'NW Sprint',
         place: 'Комендантский пр',
+        reg: 'http://orgeo.ru/event/nw_sprint_23_04',
         type: 'ORIENT',
         fmt: 'спринт',
+        o_site: '260423_NWSprint_2',
         owner: 'NW'
     },
     {
