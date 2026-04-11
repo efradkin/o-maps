@@ -692,7 +692,10 @@ let events2020 = [
         name: 'ЧиП ЛО, кросс-классика',
         type: 'ORIENT',
         info: 'Чемпионат Ленинградской области, Первенство Ленинградской области, индивидуальные тренировочные старты. в дисциплине кросс-классика',
-        video: 'https://www.youtube.com/watch?v=ip1I2EftTj4',
+        video: [
+            'https://www.youtube.com/watch?v=ip1I2EftTj4',
+            'https://rutube.ru/video/1f5933100cc56ae8255dd9594f27ddc9/'
+        ],
         owner: 'SFSO_LO',
         o_site: '201025LO'
     },

@@ -1202,7 +1202,8 @@ let events2025 = [
         video: [
             'https://www.youtube.com/watch?v=xtKl0eVwiCE',
             'https://www.youtube.com/watch?v=n1M2CqhIsuM',
-            'https://www.youtube.com/watch?v=xtKl0eVwiCE'
+            'https://www.youtube.com/watch?v=xtKl0eVwiCE',
+            'https://rutube.ru/video/8f3abca85ab6d91d10833c97d906944b/'
         ],
         start: 'NA',
         map: 'losevo_2022'
@@ -1858,7 +1859,10 @@ let events2025 = [
         },
         owner: 'SFSO_SPB',
         photo: 'https://cloud.mail.ru/public/XGQt/iRcKxoYBX',
-        video: 'https://youtu.be/EqV2Kq-Uazo',
+        video: [
+            'https://youtu.be/EqV2Kq-Uazo',
+            'https://rutube.ru/video/b1267189df8aebb8490730aec92ae994/'
+        ],
         map: 'pastorskoe_2024',
         strava: 15807946368,
         me: 'М50'

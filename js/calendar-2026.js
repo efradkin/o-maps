@@ -804,13 +804,16 @@ let events2026 = [
             'http://o-reg.spb.ru/?filter[day_id]=1724',
             'http://o-reg.spb.ru/?filter[day_id]=1725'
         ],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24688/',
         type: 'ORIENT',
         fmt: 'классика, спринт',
         owner: 'YUVENTA',
         map: [
             'sosnovij_bor_lipovo_2020',
             'sosnovy_bor_2021_05_30'
-        ]
+        ],
+        strava: '18064614080',
+        me: 'М45'
     },
     {
         id: 'SPB_20260411_3',

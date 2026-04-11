@@ -560,7 +560,8 @@ let events2022 = [
             'https://www.youtube.com/watch?v=7flfOdWND4g',
             'https://www.youtube.com/watch?v=Mj49gwogR-0',
             'https://www.youtube.com/watch?v=2Y35LlCDc6Y',
-            'https://www.youtube.com/watch?v=VVIKbMxqd0U'
+            'https://www.youtube.com/watch?v=VVIKbMxqd0U',
+            'https://rutube.ru/video/dde67d2dd1ae459b0693e8b180183657/'
         ],
         start: 'KKP',
         o_site: '220613-16_KKP',
@@ -619,7 +620,13 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220624/split1.htm',
         info: '51-е Многодневные соревнования по спортивному ориентированию.',
-        video: ['https://www.youtube.com/watch?v=8mHajIP-jZE','https://www.youtube.com/watch?v=h5ZbD7u3F1E','https://www.youtube.com/watch?v=VOmzXQ9S3Uc'],
+        video: [
+            'https://www.youtube.com/watch?v=8mHajIP-jZE',
+            'https://www.youtube.com/watch?v=h5ZbD7u3F1E',
+            'https://www.youtube.com/watch?v=VOmzXQ9S3Uc',
+            'https://rutube.ru/video/3d0559bc8bc82eff5e64d4341678d2aa/',
+            'https://rutube.ru/video/f487266b84e2b0f4c930117a4565f1ad/'
+        ],
         owner: 'WN',
         start: 'WN',
         o_site: '220624',
@@ -903,7 +910,10 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220925/220925-res.pdf',
         photo: 'http://disk.yandex.ru/d/p_S-LrobJUwbDw',
-        video: 'https://www.youtube.com/watch?v=9exCYNfbY4M',
+        video: [
+            'https://www.youtube.com/watch?v=9exCYNfbY4M',
+            'https://rutube.ru/video/82cf8112083a2cf94056d4be46250886/'
+        ],
         o_site: '220925',
         reskeep: 541
     },
@@ -961,7 +971,14 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/221010_vseros/221008_res_sum.htm',
         photo: 'http://vk.com/album-154221178_287261227',
-        video: ['https://www.youtube.com/watch?v=fRPq_D5p_-4','https://www.youtube.com/watch?v=29hiuxaqDbk','https://www.youtube.com/watch?v=hiu3bViJPqU'],
+        video: [
+            'https://www.youtube.com/watch?v=fRPq_D5p_-4',
+            'https://www.youtube.com/watch?v=29hiuxaqDbk',
+            'https://www.youtube.com/watch?v=hiu3bViJPqU',
+            'https://rutube.ru/video/82cf8112083a2cf94056d4be46250886/',
+            'https://rutube.ru/video/ff83fee8a7495ff510885e2d4cf2883c/',
+            'https://rutube.ru/video/18fc6e072db903c5397238607ded3c21/'
+        ],
         owner: 'SFSO_SPB',
         o_site: '221010_vseros',
         reskeep: [

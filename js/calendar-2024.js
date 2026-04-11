@@ -638,7 +638,9 @@ let events2024 = [
             'https://vkvideo.ru/video-93257360_456239239',
             'https://vkvideo.ru/video-93257360_456239244',
             'https://vkvideo.ru/video-93257360_456239249',
-            'https://vkvideo.ru/video-93257360_456239251'
+            'https://vkvideo.ru/video-93257360_456239251',
+            'https://rutube.ru/video/454b701d752663a0460ba82012cb8313/',
+            'https://rutube.ru/video/f1a0fb311cd42b02cbafad0792993efc/'
         ],
         start: 'KKP',
         o_site: '240615-20_KKP',
@@ -667,7 +669,8 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/mms2024/prolog_compressed.pdf',
         video: [
             'https://www.youtube.com/watch?v=EBNBDpK8i6w',
-            'https://www.youtube.com/watch?v=bBAqaBj5BxQ'
+            'https://www.youtube.com/watch?v=bBAqaBj5BxQ',
+            'https://rutube.ru/video/fef298061836473c2363f83cf319743c/'
         ],
         start: 'MMS',
         o_site: 'mms2024',
@@ -699,7 +702,9 @@ let events2024 = [
         video: [
             'https://www.youtube.com/watch?v=cS5LZSSWWho',
             'https://www.youtube.com/watch?v=NtIA9JzaYyA',
-            'https://www.youtube.com/watch?v=xpQ84Ueyc44'
+            'https://www.youtube.com/watch?v=xpQ84Ueyc44',
+            'https://rutube.ru/video/0ff002ced26f57c75a9efbd8edbe6e08/',
+            'https://rutube.ru/video/49ebcc7099d3cc7561c7e09c2f3422a0/'
         ],
         owner: 'WN',
         start: 'WN',

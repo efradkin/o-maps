@@ -372,7 +372,13 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/21050103/210501_split.htm',
         photo: 'http://vk.com/album-19102553_281720876',
         info: 'Открытые массовые соревнования Ленинградской области 1 мая - кросс-спринт, г. Сертолово 2 мая - кросс-классика, д. Энколово 3 мая - кросс-классика, п. Юкки',
-        video: ['https://www.youtube.com/watch?v=2aQF0F5Y52w','https://www.youtube.com/watch?v=t414a10nXVc'],
+        video: [
+            'https://www.youtube.com/watch?v=2aQF0F5Y52w',
+            'https://www.youtube.com/watch?v=t414a10nXVc',
+            'https://rutube.ru/video/0f784e1a8e2e99a52b4ca93c50bd49c3/',
+            'https://rutube.ru/video/51c3c897bd21b09f5bb0fed5af54eace/',
+            'https://rutube.ru/video/dcdf891fa2710a525a0b9e470134738f/'
+        ],
         o_site: '21050103',
         reskeep: [
             450,
@@ -675,7 +681,8 @@ let events2021 = [
             'https://www.youtube.com/watch?v=xa-xlJAm9rY',
             'https://www.youtube.com/watch?v=GiBMhw5FW5M',
             'https://www.youtube.com/watch?v=JQ_BQAA4Mho',
-            'https://www.youtube.com/watch?v=2aQF0F5Y52w'
+            'https://www.youtube.com/watch?v=2aQF0F5Y52w',
+            'https://rutube.ru/video/0e7079b094a626fbe51935aa7cf880ce/'
         ],
         start: 'KKP',
         o_site: '210612-18_KKP',
@@ -994,7 +1001,10 @@ let events2021 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210926/210926_res.htm',
         info: 'Официальный старт СФСО СПб с присвоением массовых разрядов',
-        video: 'https://www.youtube.com/watch?v=rpXVZCsQDr0',
+        video: [
+            'https://www.youtube.com/watch?v=rpXVZCsQDr0',
+            'https://rutube.ru/video/7a72bea569687b79d3d107a33cbc7394/'
+        ],
         o_site: '210926',
         reskeep: 492
     },
@@ -1173,7 +1183,10 @@ let events2021 = [
         type: 'ORIENT',
         fmt: 'спринт',
         reskeep: 489,
-        video: 'https://www.youtube.com/watch?v=Dt6N_G1KZuk',
+        video: [
+            'https://www.youtube.com/watch?v=Dt6N_G1KZuk',
+            'https://rutube.ru/video/409376f72a7df555a6972b578524e3b1/'
+        ],
         start: 'ST'
     },
     {
@@ -1183,7 +1196,10 @@ let events2021 = [
         place: 'Матокса',
         type: 'ORIENT',
         reskeep: 344,
-        video: 'https://www.youtube.com/watch?v=WMpD5ohFhQY',
+        video: [
+            'https://www.youtube.com/watch?v=WMpD5ohFhQY',
+            'https://rutube.ru/video/993111f4f4d11d1e3e2cad57d1a224f0/'
+        ],
         owner: 'WN'
     },
     {

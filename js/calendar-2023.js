@@ -638,7 +638,11 @@ let events2023 = [
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/26278',
         info: '52-е Многодневные соревнования по спортивному ориентированию Работа секретариата 30 июня с 13.00 до 19.00.',
-        video: ['https://www.youtube.com/watch?v=tPWKitRe-x0','https://www.youtube.com/watch?v=D_rMh8eZ1Vg'],
+        video: [
+            'https://www.youtube.com/watch?v=tPWKitRe-x0',
+            'https://www.youtube.com/watch?v=D_rMh8eZ1Vg',
+            'https://rutube.ru/video/82cf8112083a2cf94056d4be46250886/'
+        ],
         owner: 'WN',
         start: 'WN',
         o_site: 'bn_2023'
@@ -989,7 +993,10 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1555',
         res: 'https://o-site.spb.ru/_races/230924/230924_split.htm',
-        video: 'https://www.youtube.com/watch?v=zrHmTnWIQhk',
+        video: [
+            'https://www.youtube.com/watch?v=zrHmTnWIQhk',
+            'https://rutube.ru/video/d0cfec4658b9f623f39c9c6ae643feff/'
+        ],
         o_site: '230924',
         reskeep: 614
     },
@@ -1048,7 +1055,10 @@ let events2023 = [
         name: 'Всероссийские соревнования Невский спринт',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/29568/1',
-        video: 'https://www.youtube.com/watch?v=pSrwKLYU-OE',
+        video: [
+            'https://www.youtube.com/watch?v=pSrwKLYU-OE',
+            'https://rutube.ru/video/d0cfec4658b9f623f39c9c6ae643feff/'
+        ],
         owner: 'SFSO_SPB',
         o_site: '231009_NS',
         reskeep: 616
