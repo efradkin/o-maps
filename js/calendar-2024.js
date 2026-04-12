@@ -286,6 +286,14 @@ let events2024 = [
         o_site: 'sos_dunu_2024'
     },
     {
+        id: 'SPB_20240423_1',
+        date: '2024-04-23',
+        place: 'Ручей Оккервиль',
+        name: 'Noname Спринт Тур 2024. 1 этап',
+        type: 'ORIENT',
+        reskeep: 643
+    },
+    {
         id: 'SPB_20240427_1',
         date: '2024-04-27',
         place: 'Кавголово (Динамо)',
@@ -370,6 +378,14 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240504_wn/240505_res.htm',
         owner: 'WN',
         o_site: '240504_wn',
+    },
+    {
+        id: 'SPB_20240504_2',
+        date: '2024-05-04',
+        place: 'м.Чкаловская',
+        name: 'Noname Sprint Tour 2024. 2 этап',
+        type: 'ORIENT',
+        reskeep: 644
     },
     {
         id: 'SPB_20240505_1',
@@ -1376,6 +1392,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/39581',
         res: 'https://o-site.spb.ru/_races/moroz_2024/241221_res.htm',
+        strava: '13213734052',
         o_site: 'moroz_2024'
     },
     {

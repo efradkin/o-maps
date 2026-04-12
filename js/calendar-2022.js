@@ -152,6 +152,14 @@ let events2022 = [
         o_site: '220313'
     },
     {
+        id: 'SPB_20220406_1',
+        date: '2022-04-06',
+        place: 'Сестрорецкая ул',
+        name: 'Noname Sprint Tour SPb 2022 - 1 этап',
+        type: 'ORIENT',
+        reskeep: 515
+    },
+    {
         id: 'SPB_20220409_1',
         date: '2022-04-09',
         place: 'Осиновая Роща',
@@ -201,6 +209,14 @@ let events2022 = [
         o_site: '220417'
     },
     {
+        id: 'SPB_20220420_1',
+        date: '2022-04-20',
+        place: 'Новочеркасская',
+        name: 'Noname Sprint Tour SPb 2022 - 2 этап',
+        type: 'ORIENT',
+        reskeep: 516
+    },
+    {
         id: 'SPB_20220423_1',
         date: '2022-04-23',
         endDate: '2022-04-24',
@@ -240,6 +256,14 @@ let events2022 = [
         reskeep: 529
     },
     {
+        id: 'SPB_20220427_1',
+        date: '2022-04-27',
+        place: 'Парголово, лыжный стадион',
+        name: 'Noname Sprint Tour SPb 2022 - 3 этап (MASS-SPRINT)',
+        type: 'ORIENT',
+        reskeep: 517
+    },
+    {
         id: 'SPB_20220430_1',
         date: '2022-04-30',
         place: 'Петяярви',
@@ -247,6 +271,14 @@ let events2022 = [
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 528
+    },
+    {
+        id: 'SPB_20220430_2',
+        date: '2022-04-30',
+        place: 'Энколово',
+        name: 'Техника и Тактика',
+        type: 'ORIENT',
+        reskeep: 531
     },
     {
         id: 'SPB_20220501_1',
@@ -416,6 +448,14 @@ let events2022 = [
         o_site: '220518'
     },
     {
+        id: 'SPB_20220518_2',
+        date: '2022-05-18',
+        place: 'ул. Сантьяго-де-Куба',
+        name: 'Noname Sprint Tour SPb 2022 - 4 этап',
+        type: 'ORIENT',
+        reskeep: 518
+    },
+    {
         id: 'SPB_20220521_1',
         date: '2022-05-21',
         place: 'Парк 300-летия Санкт Петербурга',
@@ -493,6 +533,14 @@ let events2022 = [
         owner: 'SFSO_SPB',
         o_site: '220529_long',
         reskeep: 533
+    },
+    {
+        id: 'SPB_20220601_1',
+        date: '2022-06-01',
+        place: 'ул.Вавиловых',
+        name: 'Noname Sprint Tour SPb 2022 - 5 этап',
+        type: 'ORIENT',
+        reskeep: 519
     },
     {
         id: 'SPB_20220604_1',
@@ -698,6 +746,22 @@ let events2022 = [
         o_site: '22073031'
     },
     {
+        id: 'SPB_20220730_2',
+        date: '2022-07-30',
+        place: 'Барышево',
+        name: 'Кубок Белых Ночей. 15 этап',
+        type: 'ORIENT',
+        reskeep: 550
+    },
+    {
+        id: 'SPB_20220731_1',
+        date: '2022-07-31',
+        place: 'Смоляное озеро',
+        name: 'Кубок Белых Ночей. 16 этап',
+        type: 'ORIENT',
+        reskeep: 553
+    },
+    {
         id: 'SPB_20220806_1',
         date: '2022-08-06',
         place: 'Тихое озеро',
@@ -759,6 +823,14 @@ let events2022 = [
         owner: 'WN',
         o_site: '220904',
         reskeep: 554
+    },
+    {
+        id: 'SPB_20220906_1',
+        date: '2022-09-06',
+        place: 'ул.Омская',
+        name: 'Noname Sprint Tour SPb - 2023. 6 этап',
+        type: 'ORIENT',
+        reskeep: 555
     },
     {
         id: 'SPB_20220908_1',
@@ -853,6 +925,14 @@ let events2022 = [
         o_site: '220921'
     },
     {
+        id: 'SPB_20220921_2',
+        date: '2022-09-21',
+        place: 'ул. Фаворского',
+        name: 'Noname Sprint Tour SPb - 2022. 7 этап',
+        type: 'ORIENT',
+        reskeep: 557
+    },
+    {
         id: 'SPB_20220924_1',
         date: '2022-09-24',
         name: 'Горный Кросс - 90',
@@ -938,6 +1018,14 @@ let events2022 = [
         res: 'http://sportident.online/ol/?id=906',
         owner: 'SFSO_SPB',
         o_site: '221001_MTBO'
+    },
+    {
+        id: 'SPB_20221001_3',
+        date: '2022-10-01',
+        place: 'ул.Крашенинникова',
+        name: 'Noname Sprint Tour SPb - 2022. 8 этап (RUNLAB-SPRINT)',
+        type: 'ORIENT',
+        reskeep: 540
     },
     {
         id: 'SPB_20221002_1',
@@ -1085,6 +1173,14 @@ let events2022 = [
         reskeep: 561
     },
     {
+        id: 'SPB_20221022_4',
+        date: '2022-10-22',
+        place: 'Чёрная речка - ул.Дибуновская',
+        name: 'Noname Sprint Tour SPb - 2022. 9 этап',
+        type: 'ORIENT',
+        reskeep: 571
+    },
+    {
         id: 'SPB_20221023_1',
         date: '2022-10-23',
         place: 'Цвелодубово, база отдыха Голубое озеро',
@@ -1197,6 +1293,14 @@ let events2022 = [
         fmt: '6 и 2 часа - бег, 5 часов - вело',
         start: 'GORNY_CROSS',
         o_site: '221112R'
+    },
+    {
+        id: 'SPB_20221112_2',
+        date: '2022-11-12',
+        place: 'ЖК "Академ Парк" (ул.Верности)',
+        name: 'Noname Sprint Tour - 2022. 10 этап',
+        type: 'ORIENT',
+        reskeep: 564
     },
     {
         id: 'SPB_20221113_1',
