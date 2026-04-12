@@ -162,7 +162,8 @@ let events2019 = [
         place: 'Сестрорецкие Дюны',
         name: 'Кубок Белых Ночей. 8 этап',
         type: 'ORIENT',
-        reskeep: 127
+        reskeep: 127,
+        owner: 'WN'
     },
     {
         id: 'SPB_20190303_1',
@@ -225,7 +226,8 @@ let events2019 = [
         place: 'Кавголово',
         name: 'Кубок Белых Ночей. 9 этап',
         type: 'ORIENT',
-        reskeep: 126
+        reskeep: 126,
+        owner: 'WN'
     },
     {
         id: 'SPB_20190316_1',
@@ -233,7 +235,8 @@ let events2019 = [
         place: 'Голубые дачи',
         name: 'Кубок Белых Ночей. 10 этап',
         type: 'ORIENT',
-        reskeep: 125
+        reskeep: 125,
+        owner: 'WN'
     },
     {
         id: 'SPB_20190317_1',
@@ -290,7 +293,8 @@ let events2019 = [
         place: 'Щучье озеро',
         name: 'Кубок Белых Ночей. 11 этап',
         type: 'ORIENT',
-        reskeep: 124
+        reskeep: 124,
+        owner: 'WN'
     },
     {
         id: 'SPB_20190414_1',
@@ -407,7 +411,8 @@ let events2019 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 14 этап',
         type: 'ORIENT',
-        reskeep: 123
+        reskeep: 123,
+        owner: 'WN'
     },
     {
         id: 'SPB_20190501_1',
@@ -671,7 +676,8 @@ let events2019 = [
         place: 'Симагино',
         name: 'Кубок Белых ночей. 13 этап',
         type: 'ORIENT',
-        reskeep: 146
+        reskeep: 146,
+        owner: 'WN'
     },
     {
         id: 'SPB_20190602_1',
@@ -871,7 +877,8 @@ let events2019 = [
         place: 'Воробьево озеро',
         name: 'Кубок Белых Ночей. 16 этап',
         type: 'ORIENT',
-        reskeep: 182
+        reskeep: 182,
+        owner: 'WN'
     },
     {
         id: 'SPB_20190728_1',
@@ -888,7 +895,8 @@ let events2019 = [
         place: 'Воробьево озеро',
         name: 'Кубок Белых Ночей. 17 этап',
         type: 'ORIENT',
-        reskeep: 183
+        reskeep: 183,
+        owner: 'WN'
     },
     {
         id: 'SPB_20190801_1',
@@ -960,7 +968,8 @@ let events2019 = [
         place: 'Осельки',
         name: 'Кубок Белых Ночей. 18 этап',
         type: 'ORIENT',
-        reskeep: 191
+        reskeep: 191,
+        owner: 'WN'
     },
     {
         id: 'SPB_20190817_1',
@@ -1231,7 +1240,8 @@ let events2019 = [
         place: 'Васкелово',
         name: 'Кубок Белых ночей. 1 этап',
         type: 'ORIENT',
-        reskeep: 222
+        reskeep: 222,
+        owner: 'WN'
     },
     {
         id: 'SPB_20190929_1',

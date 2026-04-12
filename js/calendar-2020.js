@@ -40,7 +40,8 @@ let events2020 = [
         place: 'Охта-парк',
         name: 'Кубок Белых Ночей. 10 этап',
         type: 'ORIENT',
-        reskeep: 299
+        reskeep: 299,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200119_1',
@@ -79,7 +80,8 @@ let events2020 = [
         place: 'Сестрорецкие Дюны',
         name: 'Кубок Белых Ночей. 11 этап',
         type: 'ORIENT',
-        reskeep: 307
+        reskeep: 307,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200126_1',
@@ -108,7 +110,8 @@ let events2020 = [
         place: 'Кавголово',
         name: 'Кубок Белых Ночей. 12 этап',
         type: 'ORIENT',
-        reskeep: 306
+        reskeep: 306,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200202_1',
@@ -172,7 +175,8 @@ let events2020 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 13 этап',
         type: 'ORIENT',
-        reskeep: 315
+        reskeep: 315,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200223_1',
@@ -198,7 +202,8 @@ let events2020 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 14 этап',
         type: 'ORIENT',
-        reskeep: 316
+        reskeep: 316,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200229_1',
@@ -274,7 +279,8 @@ let events2020 = [
         place: 'Васкелово',
         name: 'Кубок Белых Ночей 2019/20. 15 этап',
         type: 'ORIENT',
-        reskeep: 330
+        reskeep: 330,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200315_1',
@@ -282,7 +288,8 @@ let events2020 = [
         place: 'Зеленогорск',
         name: 'Кубок Белых Ночей 2019/20. 16 этап',
         type: 'ORIENT',
-        reskeep: 331
+        reskeep: 331,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200321_1',
@@ -290,7 +297,8 @@ let events2020 = [
         place: 'Кавголово',
         name: 'Кубок Белых Ночей. 17 этап',
         type: 'ORIENT',
-        reskeep: 332
+        reskeep: 332,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200322_1',
@@ -440,7 +448,8 @@ let events2020 = [
         place: 'Семейные озера. Первомайское',
         name: 'Индивидуальная тренировка Белых ночей. 1 этап',
         type: 'ORIENT',
-        reskeep: 340
+        reskeep: 340,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200628_1',
@@ -456,7 +465,8 @@ let events2020 = [
         place: 'Семейные озера. Первомайское',
         name: 'Индивидуальная тренировка Белых ночей. 2 этап',
         type: 'ORIENT',
-        reskeep: 341
+        reskeep: 341,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200629_1',
@@ -474,7 +484,8 @@ let events2020 = [
         place: 'Мичуринское',
         name: 'Индивидуальная тренировка Белых ночей. 3 этап',
         type: 'ORIENT',
-        reskeep: 338
+        reskeep: 338,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200705_1',
@@ -482,7 +493,8 @@ let events2020 = [
         place: 'Мичуринское',
         name: 'Индивидуальная тренировка Белых ночей. 4 этап',
         type: 'ORIENT',
-        reskeep: 339
+        reskeep: 339,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200711_1',
@@ -490,7 +502,8 @@ let events2020 = [
         place: 'Мичуринское',
         name: 'Индивидуальная тренировка Белых ночей. 5 этап',
         type: 'ORIENT',
-        reskeep: 342
+        reskeep: 342,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200712_1',
@@ -514,7 +527,8 @@ let events2020 = [
         place: 'Воробьево озеро',
         name: 'Индивидуальная тренировка Белых ночей. 7 этап',
         type: 'ORIENT',
-        reskeep: 345
+        reskeep: 345,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200719_1',
@@ -533,7 +547,8 @@ let events2020 = [
         place: 'Воробьево озеро',
         name: 'Индивидуальная тренировка Белых ночей. 8 этап',
         type: 'ORIENT',
-        reskeep: 346
+        reskeep: 346,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200719_3',
@@ -559,7 +574,8 @@ let events2020 = [
         place: 'Воробьево озеро',
         name: 'Индивидуальная тренировка Белых ночей. 9 этап',
         type: 'ORIENT',
-        reskeep: 348
+        reskeep: 348,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200729_1',
@@ -617,7 +633,8 @@ let events2020 = [
         place: 'Сосново',
         name: 'Индивидуальная тренировка Белых ночей. 9 этап',
         type: 'ORIENT',
-        reskeep: 353
+        reskeep: 353,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200816_1',
@@ -625,7 +642,8 @@ let events2020 = [
         place: 'Сосново',
         name: 'Индивидуальная тренировка Белых ночей. 10 этап',
         type: 'ORIENT',
-        reskeep: 355
+        reskeep: 355,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200822_1',
@@ -633,7 +651,8 @@ let events2020 = [
         place: 'Сосново',
         name: 'Индивидуальная тренировка Белых ночей. 11 этап',
         type: 'ORIENT',
-        reskeep: 357
+        reskeep: 357,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200823_1',
@@ -650,7 +669,8 @@ let events2020 = [
         place: 'Сосново',
         name: 'Индивидуальная тренировка Белых ночей. 12 этап',
         type: 'ORIENT',
-        reskeep: 356
+        reskeep: 356,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200825_1',
@@ -833,7 +853,8 @@ let events2020 = [
         place: 'Муринский парк',
         name: 'White Nights Sprint #1',
         type: 'ORIENT',
-        reskeep: 374
+        reskeep: 374,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200919_1',
@@ -851,7 +872,8 @@ let events2020 = [
         place: 'Васкелово',
         name: 'White Nights Middle',
         type: 'ORIENT',
-        reskeep: 368
+        reskeep: 368,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200920_1',
@@ -925,7 +947,8 @@ let events2020 = [
         place: 'Симагино',
         name: 'Кубок Белых ночей 2019/20. 2 этап',
         type: 'ORIENT',
-        reskeep: 380
+        reskeep: 380,
+        owner: 'WN'
     },
     {
         id: 'SPB_20200927_1',
@@ -941,7 +964,8 @@ let events2020 = [
         place: 'Запорожское',
         name: 'Кубок Белых ночей 2019/20. 3 этап',
         type: 'ORIENT',
-        reskeep: 381
+        reskeep: 381,
+        owner: 'WN'
     },
     {
         id: 'SPB_20201003_1',
@@ -999,7 +1023,8 @@ let events2020 = [
         place: 'Первомайское',
         name: 'Кубок Белых ночей 2019/20. 4 этап',
         type: 'ORIENT',
-        reskeep: 386
+        reskeep: 386,
+        owner: 'WN'
     },
     {
         id: 'SPB_20201017_1',
@@ -1046,7 +1071,8 @@ let events2020 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2019/20. 5 этап',
         type: 'ORIENT',
-        reskeep: 389
+        reskeep: 389,
+        owner: 'WN'
     },
     {
         id: 'SPB_20201024_1',
@@ -1167,7 +1193,8 @@ let events2020 = [
         place: 'Пухтолова гора',
         name: 'Кубок Белых Ночей 2019/20. 6 этап',
         type: 'ORIENT',
-        reskeep: 397
+        reskeep: 397,
+        owner: 'WN'
     },
     {
         id: 'SPB_20201114_1',
@@ -1186,7 +1213,8 @@ let events2020 = [
         place: 'Горьковская',
         name: 'White Nights Sprint #2',
         type: 'ORIENT',
-        reskeep: 398
+        reskeep: 398,
+        owner: 'WN'
     },
     {
         id: 'SPB_20201115_1',
@@ -1204,7 +1232,8 @@ let events2020 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2019/20. 7 этап',
         type: 'ORIENT',
-        reskeep: 399
+        reskeep: 399,
+        owner: 'WN'
     },
     {
         id: 'SPB_20201121_1',
@@ -1234,7 +1263,8 @@ let events2020 = [
         place: 'Первомайское',
         name: 'Кубок Белых Ночей. 8 этап',
         type: 'ORIENT',
-        reskeep: 401
+        reskeep: 401,
+        owner: 'WN'
     },
     {
         id: 'SPB_20201128_1',
@@ -1242,7 +1272,8 @@ let events2020 = [
         place: 'Орлиная гора. Кавголово',
         name: 'White Nights middle. 2 этап',
         type: 'ORIENT',
-        reskeep: 405
+        reskeep: 405,
+        owner: 'WN'
     },
     {
         id: 'SPB_20201129_1',
@@ -1261,7 +1292,8 @@ let events2020 = [
         place: 'Болотная станция',
         name: 'Кубок Белых Ночей. 9 этап',
         type: 'ORIENT',
-        reskeep: 406
+        reskeep: 406,
+        owner: 'WN'
     },
     {
         id: 'SPB_20201130_1',
@@ -1296,7 +1328,8 @@ let events2020 = [
         res: 'http://o-site.spb.ru/_races/2020WN/200919_res.htm',
         info: 'Серия тренировочных стартов, проводимая клубом Белые Ночи 1-й этап 19.09.20 Васкелово Результаты Сплиты 2-й этап 28.11.20 Кавголово, Орлиная гора Результаты Сплиты',
         o_site: '2020WN',
-        reskeep: 409
+        reskeep: 409,
+        owner: 'WN'
     },
     {
         id: 'SPB_20201212_2',
@@ -1336,7 +1369,8 @@ let events2020 = [
         place: 'Мичуринское',
         name: 'Кубок Белых Ночей. 10 этап',
         type: 'ORIENT',
-        reskeep: 410
+        reskeep: 410,
+        owner: 'WN'
     },
     {
         id: 'SPB_20201219_1',

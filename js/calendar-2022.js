@@ -756,7 +756,8 @@ let events2022 = [
         place: 'Барышево',
         name: 'Кубок Белых Ночей. 15 этап',
         type: 'ORIENT',
-        reskeep: 550
+        reskeep: 550,
+        owner: 'WN'
     },
     {
         id: 'SPB_20220731_1',
@@ -764,7 +765,8 @@ let events2022 = [
         place: 'Смоляное озеро',
         name: 'Кубок Белых Ночей. 16 этап',
         type: 'ORIENT',
-        reskeep: 553
+        reskeep: 553,
+        owner: 'WN'
     },
     {
         id: 'SPB_20220806_1',
@@ -1434,7 +1436,8 @@ let events2022 = [
         res: 'http://o-site.spb.ru/_races/2023_bn/221030_res.htm',
         info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 1-й этап 30.10.22 Cосново Результаты Сплиты',
         o_site: '220702',
-        reskeep: 581
+        reskeep: 581,
+        owner: 'WN'
     },
     {
         id: 'SPB_20221225_1',

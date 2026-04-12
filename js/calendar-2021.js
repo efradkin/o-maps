@@ -303,7 +303,8 @@ let events2021 = [
         place: 'Сестрорецкие дюны',
         name: 'Кубок Белых Ночей. 11 этап',
         type: 'ORIENT',
-        reskeep: 437
+        reskeep: 437,
+        owner: 'WN'
     },
     {
         id: 'SPB_20210414_1',
@@ -342,7 +343,8 @@ let events2021 = [
         place: 'Голубая дача',
         name: 'Кубок Белых Ночей. 12 этап',
         type: 'ORIENT',
-        reskeep: 441
+        reskeep: 441,
+        owner: 'WN'
     },
     {
         id: 'SPB_20210417_5',
@@ -377,7 +379,8 @@ let events2021 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 13 этап',
         type: 'ORIENT',
-        reskeep: 442
+        reskeep: 442,
+        owner: 'WN'
     },
     {
         id: 'SPB_20210421_1',
@@ -499,7 +502,8 @@ let events2021 = [
         place: 'Болотная станция',
         name: 'Кубок Белых ночей. 14 этап',
         type: 'ORIENT',
-        reskeep: 452
+        reskeep: 452,
+        owner: 'WN'
     },
     {
         id: 'SPB_20210505_1',
@@ -507,7 +511,8 @@ let events2021 = [
         place: 'Ильичёво',
         name: 'Кубок Белых ночей. 15 этап',
         type: 'ORIENT',
-        reskeep: 453
+        reskeep: 453,
+        owner: 'WN'
     },
     {
         id: 'SPB_20210506_1',
@@ -515,7 +520,8 @@ let events2021 = [
         place: 'Петяярви',
         name: 'Кубок Белых ночей. 16 этап',
         type: 'ORIENT',
-        reskeep: 454
+        reskeep: 454,
+        owner: 'WN'
     },
     {
         id: 'SPB_20210507_1',
@@ -523,7 +529,8 @@ let events2021 = [
         place: 'садоводство Топограф',
         name: 'Кубок Белых ночей. 17 этап',
         type: 'ORIENT',
-        reskeep: 455
+        reskeep: 455,
+        owner: 'WN'
     },
     {
         id: 'SPB_20210509_1',
@@ -705,7 +712,8 @@ let events2021 = [
         place: 'Болотная станция',
         name: 'Кубок Белых Ночей. 18 этап',
         type: 'ORIENT',
-        reskeep: 470
+        reskeep: 470,
+        owner: 'WN'
     },
     {
         id: 'SPB_20210530_1',

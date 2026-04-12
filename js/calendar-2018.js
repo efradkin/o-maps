@@ -1257,7 +1257,8 @@ let events2018 = [
         place: 'Черные озера',
         name: 'Кубок Белых ночей. 1 этап',
         type: 'ORIENT',
-        reskeep: 61
+        reskeep: 61,
+        owner: 'WN'
     },
     {
         id: 'SPB_20181018_1',
@@ -1400,7 +1401,8 @@ let events2018 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 2 этап',
         type: 'ORIENT',
-        reskeep: 76
+        reskeep: 76,
+        owner: 'WN'
     },
     {
         id: 'SPB_20181105_1',
@@ -1417,7 +1419,8 @@ let events2018 = [
         place: 'садоводство Топограф',
         name: 'Кубок Белых Ночей. 3 этап',
         type: 'ORIENT',
-        reskeep: 80
+        reskeep: 80,
+        owner: 'WN'
     },
     {
         id: 'SPB_20181107_1',
@@ -1451,7 +1454,8 @@ let events2018 = [
         place: 'Охта-парк',
         name: 'Кубок Белых ночей. 4 этап',
         type: 'ORIENT',
-        reskeep: 91
+        reskeep: 91,
+        owner: 'WN'
     },
     {
         id: 'SPB_20181117_1',
@@ -1539,7 +1543,8 @@ let events2018 = [
         place: 'Зеленогорск',
         name: 'Кубок Белых ночей. 6 этап',
         type: 'ORIENT',
-        reskeep: 95
+        reskeep: 95,
+        owner: 'WN'
     },
     {
         id: 'SPB_20181202_2',
@@ -1565,7 +1570,8 @@ let events2018 = [
         place: 'Голубые дачи',
         name: 'Кубок Белых Ночей. 7 этап',
         type: 'ORIENT',
-        reskeep: 128
+        reskeep: 128,
+        owner: 'WN'
     },
     {
         id: 'SPB_20181209_1',

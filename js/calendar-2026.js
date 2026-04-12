@@ -790,6 +790,7 @@ let events2026 = [
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/49261',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24697/',
         map: 'luga_shalovo_lm_2023',
         owner: 'LM'
     },
@@ -804,7 +805,11 @@ let events2026 = [
             'http://o-reg.spb.ru/?filter[day_id]=1724',
             'http://o-reg.spb.ru/?filter[day_id]=1725'
         ],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24688/',
+        gps: {
+            '11:М45':'https://viewer.o-gps-center.ru/viewer/event/24688/',
+            '11:ALL':'https://viewer.o-gps-center.ru/viewer/event/24681/',
+            '12':'https://viewer.o-gps-center.ru/viewer/event/24691/'
+        },
         type: 'ORIENT',
         fmt: 'классика, спринт',
         owner: 'YUVENTA',
@@ -926,7 +931,11 @@ let events2026 = [
         owner: 'SHBN'
     },
     {
-        id: 'SPB_20260425_3', date: '2026-04-25', name: 'Краснофлотская классика', type: 'ORIENT', owner: 'WN'
+        id: 'SPB_20260425_3',
+        date: '2026-04-25',
+        name: 'Краснофлотская классика',
+        type: 'ORIENT',
+        owner: 'WN'
     },
     {
         id: 'SPB_20260426_1',
@@ -1065,7 +1074,12 @@ let events2026 = [
         map: 'yukki_north_2020'
     },
     {
-        id: 'SPB_20260520_1', date: '2026-05-20', name: 'Спринт Тур', type: 'ORIENT', fmt: 'спринт', start: 'ST',
+        id: 'SPB_20260520_1',
+        date: '2026-05-20',
+        name: 'Спринт Тур',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        start: 'ST',
     },
     {
         id: 'SPB_20260523_1',
@@ -1110,7 +1124,12 @@ let events2026 = [
         owner: 'LM'
     },
     {
-        id: 'SPB_20260527_1', date: '2026-05-27', name: 'Спринт Тур', type: 'ORIENT', fmt: 'спринт', start: 'ST',
+        id: 'SPB_20260527_1',
+        date: '2026-05-27',
+        name: 'Спринт Тур',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        start: 'ST',
     },
     {
         id: 'SPB_20260530_1',
@@ -1283,7 +1302,12 @@ let events2026 = [
         owner: 'WN'
     },
     {
-        id: 'SPB_20260712_1', date: '2026-07-12', name: 'Рогейн 110%', fmt: '4', type: 'ROGAINE', start: 'ROGAINE_110'
+        id: 'SPB_20260712_1',
+        date: '2026-07-12',
+        name: 'Рогейн 110%',
+        fmt: '4',
+        type: 'ROGAINE',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20260725_1',
@@ -1351,7 +1375,10 @@ let events2026 = [
         owner: 'DLITELNY'
     },
     {
-        id: 'SPB_20260816_1', date: '2026-08-16', name: 'Tokma-maps', type: 'ORIENT',
+        id: 'SPB_20260816_1',
+        date: '2026-08-16',
+        name: 'Tokma-maps',
+        type: 'ORIENT',
     },
     {
         id: 'SPB_20260822_1',
@@ -1380,7 +1407,11 @@ let events2026 = [
         owner: 'SFSO_LO'
     },
     {
-        id: 'SPB_20260829_2', date: '2026-08-29', name: 'Кольцо Юго-Запада', place: 'Петергоф', type: 'ROGAINE',
+        id: 'SPB_20260829_2',
+        date: '2026-08-29',
+        name: 'Кольцо Юго-Запада',
+        place: 'Петергоф',
+        type: 'ROGAINE',
     },
     {
         id: 'SPB_20260830_1',
@@ -1459,7 +1490,12 @@ let events2026 = [
         start: 'GORNY_CROSS'
     },
     {
-        id: 'SPB_20261010_2', date: '2026-10-10', name: 'ЧиП СПб', type: 'VELO', fmt: 'эстафета 2х', owner: 'SFSO_SPB'
+        id: 'SPB_20261010_2',
+        date: '2026-10-10',
+        name: 'ЧиП СПб',
+        type: 'VELO',
+        fmt: 'эстафета 2х',
+        owner: 'SFSO_SPB'
     },
     {
         id: 'SPB_20261010_3',
@@ -1471,7 +1507,12 @@ let events2026 = [
         owner: 'VYBORG'
     },
     {
-        id: 'SPB_20261011_1', date: '2026-10-11', name: 'ЧиП СПб', type: 'VELO', fmt: 'эстафета 2х', owner: 'SFSO_SPB'
+        id: 'SPB_20261011_1',
+        date: '2026-10-11',
+        name: 'ЧиП СПб',
+        type: 'VELO',
+        fmt: 'эстафета 2х',
+        owner: 'SFSO_SPB'
     },
     {
         id: 'SPB_20261018_1',
@@ -1483,16 +1524,34 @@ let events2026 = [
         owner: 'SFSO_LO'
     },
     {
-        id: 'SPB_20261018_2', date: '2026-10-18', name: 'Памяти Зои Пятаковой', type: 'ORIENT', fmt: 'спринт',
+        id: 'SPB_20261018_2',
+        date: '2026-10-18',
+        name: 'Памяти Зои Пятаковой',
+        type: 'ORIENT',
+        fmt: 'спринт',
     },
     {
-        id: 'SPB_20261024_1', date: '2026-10-24', name: '50 Вёрст', fmt: 'ночная эстафета', type: 'ORIENT', owner: 'NW',
+        id: 'SPB_20261024_1',
+        date: '2026-10-24',
+        name: '50 Вёрст',
+        fmt: 'ночная эстафета',
+        type: 'ORIENT',
+        owner: 'NW',
     },
     {
-        id: 'SPB_20261024_2', date: '2026-10-24', name: 'Финал КЛО', type: 'ROGAINE', fmt: '4'
+        id: 'SPB_20261024_2',
+        date: '2026-10-24',
+        name: 'Финал КЛО',
+        type: 'ROGAINE',
+        fmt: '4'
     },
     {
-        id: 'SPB_20261025_1', date: '2026-10-25', name: '5 Вёрст', fmt: 'детская эстафета', type: 'ORIENT', owner: 'NW',
+        id: 'SPB_20261025_1',
+        date: '2026-10-25',
+        name: '5 Вёрст',
+        fmt: 'детская эстафета',
+        type: 'ORIENT',
+        owner: 'NW',
     },
     {
         id: 'SPB_20261030_1',
