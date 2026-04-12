@@ -9,7 +9,6 @@ let MAP_NAME_PARAM = urlParams.get('map');
 let TRACK_NAME_PARAM = urlParams.get('track');
 const ONLY_MAP_NAME_PARAM = urlParams.get('onlymap');
 const ONLY_TRACK_NAME_PARAM = urlParams.get('onlytrack');
-let START_NAME_PARAM = urlParams.get('start');
 const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
 const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
 const HAS_RESTRICTED_PARAM = urlParams.has('restricted');

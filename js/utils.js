@@ -175,6 +175,8 @@ const urlParams = new URLSearchParams(window.location.search);
 const YEAR_PARAM = urlParams.get('year');
 const HAS_CALENDAR_PARAM = urlParams.has('calendar');
 const CALENDAR_PARAM = urlParams.get('calendar') ?? urlParams.get('event-type');
+let START_NAME_PARAM = urlParams.get('start');
+
 let HAS_ME_PARAM = urlParams.has('me');
 const HAS_ONLY_ME_PARAM = urlParams.has('only-me');
 if (HAS_ONLY_ME_PARAM) HAS_ME_PARAM = true;
@@ -1067,6 +1069,9 @@ function validateEvent(evt) {
                     return false;
                 }
         }
+    }
+    if (START_NAME_PARAM && evt.start !== START_NAME_PARAM) {
+        return false;
     }
     return true;
 }
