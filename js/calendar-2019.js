@@ -271,6 +271,7 @@ let events2019 = [
         date: '2019-04-10',
         place: 'Среднеохтинский проспект',
         name: 'Sprint Tour 2019. 1 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 110
     },
@@ -306,6 +307,7 @@ let events2019 = [
         date: '2019-04-17',
         place: 'Муринский парк',
         name: 'Sprint Tour 2019. 2 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 112
     },
@@ -659,6 +661,7 @@ let events2019 = [
         date: '2019-05-29',
         place: 'Гражданский проспект',
         name: 'Sprint Tour 2019. 4 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 143
     },
@@ -1108,6 +1111,7 @@ let events2019 = [
         date: '2019-09-11',
         place: 'Учительская улица',
         name: 'Sprint Tour SPb - осень 2019. 1 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 195
     },
@@ -1193,6 +1197,7 @@ let events2019 = [
         date: '2019-09-25',
         place: 'Улица Карпинского',
         name: 'Sprint Tour SPb - осень 2019. 2 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 196
     },
@@ -1305,6 +1310,7 @@ let events2019 = [
         date: '2019-10-09',
         place: 'Озерки',
         name: 'Sprint Tour SPb - осень 2019. 3 этап. MassSprint',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 197
     },
@@ -1429,6 +1435,7 @@ let events2019 = [
         date: '2019-10-23',
         place: 'метро Лесная',
         name: 'Sprint Tour SPb - осень 2019. 4 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 198
     },
@@ -1457,6 +1464,7 @@ let events2019 = [
         date: '2019-11-02',
         place: 'Улица Рубинштейна',
         name: 'Sprint Tour SPb - осень 2019. 5 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 199
     },

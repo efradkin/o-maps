@@ -309,6 +309,7 @@ let events2023 = [
         date: '2023-04-12',
         place: 'Смоленка (Приморская)',
         name: 'Noname Sprint Tour SPb 2023 - 1 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 570
     },
@@ -361,6 +362,7 @@ let events2023 = [
         date: '2023-04-26',
         place: 'Муринский парк (лыжная трасса)',
         name: 'Noname Sprint Tour SPb 2023 - 2 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 573
     },
@@ -420,6 +422,7 @@ let events2023 = [
         date: '2023-05-10',
         place: 'Сад Жореса Алфёрова (пр.Науки)',
         name: 'Noname Sprint Tour SPb 2023 - 3 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 586
     },
@@ -459,6 +462,7 @@ let events2023 = [
         date: '2023-05-17',
         place: 'пр. Металлистов',
         name: 'RUNLAB-спринт (Noname Sprint Tour SPb 2023 - 4 этап)',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 587
     },
@@ -813,6 +817,7 @@ let events2023 = [
         date: '2023-08-16',
         place: 'ул.Карпинского',
         name: 'Noname Sprint Tour 2023 - 5 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 603
     },
@@ -1093,6 +1098,7 @@ let events2023 = [
         date: '2023-10-04',
         place: 'ул. Жака Дюкло',
         name: 'Noname Sprint Tour 2023. 6 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 619
     },
@@ -1251,6 +1257,7 @@ let events2023 = [
         date: '2023-10-28',
         place: 'Чёрная Речка (Савушкина 21)',
         name: 'Noname Sprint Tour 2023. 7 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 621
     },

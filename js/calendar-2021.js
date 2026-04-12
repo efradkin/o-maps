@@ -293,6 +293,7 @@ let events2021 = [
         date: '2021-04-07',
         place: 'Среднеохтинский проспект',
         name: 'Noname Sprint Tour SPb - 2021. 1 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 429
     },
@@ -309,6 +310,7 @@ let events2021 = [
         date: '2021-04-14',
         place: 'Удельная, Поклонная гора',
         name: 'Noname Sprint Tour SPb - 2021. 2 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 430
     },
@@ -430,6 +432,7 @@ let events2021 = [
         date: '2021-04-28',
         place: 'пр. Пархоменко',
         name: 'Noname Sprint Tour SPb - 2021. 3 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 431
     },
@@ -557,6 +560,7 @@ let events2021 = [
         date: '2021-05-12',
         place: 'Парк академика Сахарова',
         name: 'Noname Sprint Tour SPb - 2021. 4 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 432
     },
@@ -659,6 +663,7 @@ let events2021 = [
         date: '2021-05-26',
         place: 'м.Ладожская (ручей Оккервиль)',
         name: 'Runlab-Sprint (Спринт Тур СПб 2021 - 5 этап)',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 433
     },
@@ -985,6 +990,7 @@ let events2021 = [
         date: '2021-09-01',
         place: 'Академическая',
         name: 'Noname Sprint Tour SPb - 2021. 6 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 485
     },
@@ -1068,6 +1074,7 @@ let events2021 = [
         date: '2021-09-15',
         place: 'пр. Солидарности',
         name: 'Noname Sprint Tour SPb - 2021. 7 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 486
     },
@@ -1169,6 +1176,7 @@ let events2021 = [
         date: '2021-09-29',
         place: 'м. Озерки - напротив "Масс-Спорта"',
         name: 'Noname Sprint Tour SPb - 2021. 8 этап (MASS-SPRINT)',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 487
     },
@@ -1239,6 +1247,7 @@ let events2021 = [
         date: '2021-10-09',
         place: 'ул. Матроса Железняка',
         name: 'Noname Sprint Tour SPb - 2021. 9 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 488
     },

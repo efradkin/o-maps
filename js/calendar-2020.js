@@ -256,6 +256,7 @@ let events2020 = [
         date: '2020-03-11',
         place: 'Полюстровский проспект',
         name: 'Sprint Tour SPb - 2020. 1 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 322
     },
@@ -748,6 +749,7 @@ let events2020 = [
         date: '2020-09-09',
         place: 'Новочеркасская',
         name: 'Sprint Tour SPb - 2020. 2 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 363
     },
@@ -888,6 +890,7 @@ let events2020 = [
         date: '2020-09-23',
         place: 'ул. Бутлерова',
         name: 'Sprint Tour SPb - 2020. 3 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 327
     },
@@ -1013,6 +1016,7 @@ let events2020 = [
         date: '2020-10-17',
         place: 'Удельная - ул.Нежинская',
         name: 'Sprint Tour SPb - 2020. 4 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 387
     },
@@ -1097,6 +1101,7 @@ let events2020 = [
         date: '2020-10-31',
         place: 'м.Академическая',
         name: 'Sprint Tour SPb - 2020. 5 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 388
     },

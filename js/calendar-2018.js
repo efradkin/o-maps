@@ -905,6 +905,7 @@ let events2018 = [
         date: '2018-09-05',
         place: 'Красногвардейский р.',
         name: 'Sprint Tour SPb 2018. 1 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 24
     },
@@ -949,6 +950,7 @@ let events2018 = [
         date: '2018-09-12',
         place: 'Выборгский район',
         name: 'Sprint Tour SPb 2018. 2 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 31
     },
@@ -992,6 +994,7 @@ let events2018 = [
         date: '2018-09-19',
         place: 'Серебряный пруд',
         name: 'Sprint Tour SPb 2018. 3 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 40
     },
@@ -1172,6 +1175,7 @@ let events2018 = [
         date: '2018-10-06',
         place: 'Васильевский остров',
         name: 'Sprint Tour SPb 2018. 4 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 58
     },

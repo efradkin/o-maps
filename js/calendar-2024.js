@@ -290,6 +290,7 @@ let events2024 = [
         date: '2024-04-23',
         place: 'Ручей Оккервиль',
         name: 'Noname Спринт Тур 2024. 1 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 643
     },
@@ -384,6 +385,7 @@ let events2024 = [
         date: '2024-05-04',
         place: 'м.Чкаловская',
         name: 'Noname Sprint Tour 2024. 2 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 644
     },
@@ -946,6 +948,7 @@ let events2024 = [
         id: 'SPB_20240911_1',
         date: '2024-09-11',
         name: 'Спринт Тур, 4 этап',
+        start: 'ST',
         reskeep: 666,
         type: 'ORIENT',
         video: 'https://vkvideo.ru/video-92124592_456239031'

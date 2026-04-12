@@ -156,6 +156,7 @@ let events2022 = [
         date: '2022-04-06',
         place: 'Сестрорецкая ул',
         name: 'Noname Sprint Tour SPb 2022 - 1 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 515
     },
@@ -213,6 +214,7 @@ let events2022 = [
         date: '2022-04-20',
         place: 'Новочеркасская',
         name: 'Noname Sprint Tour SPb 2022 - 2 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 516
     },
@@ -260,6 +262,7 @@ let events2022 = [
         date: '2022-04-27',
         place: 'Парголово, лыжный стадион',
         name: 'Noname Sprint Tour SPb 2022 - 3 этап (MASS-SPRINT)',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 517
     },
@@ -452,6 +455,7 @@ let events2022 = [
         date: '2022-05-18',
         place: 'ул. Сантьяго-де-Куба',
         name: 'Noname Sprint Tour SPb 2022 - 4 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 518
     },
@@ -539,6 +543,7 @@ let events2022 = [
         date: '2022-06-01',
         place: 'ул.Вавиловых',
         name: 'Noname Sprint Tour SPb 2022 - 5 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 519
     },
@@ -829,6 +834,7 @@ let events2022 = [
         date: '2022-09-06',
         place: 'ул.Омская',
         name: 'Noname Sprint Tour SPb - 2023. 6 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 555
     },
@@ -929,6 +935,7 @@ let events2022 = [
         date: '2022-09-21',
         place: 'ул. Фаворского',
         name: 'Noname Sprint Tour SPb - 2022. 7 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 557
     },
@@ -1024,6 +1031,7 @@ let events2022 = [
         date: '2022-10-01',
         place: 'ул.Крашенинникова',
         name: 'Noname Sprint Tour SPb - 2022. 8 этап (RUNLAB-SPRINT)',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 540
     },
@@ -1177,6 +1185,7 @@ let events2022 = [
         date: '2022-10-22',
         place: 'Чёрная речка - ул.Дибуновская',
         name: 'Noname Sprint Tour SPb - 2022. 9 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 571
     },
@@ -1299,6 +1308,7 @@ let events2022 = [
         date: '2022-11-12',
         place: 'ЖК "Академ Парк" (ул.Верности)',
         name: 'Noname Sprint Tour - 2022. 10 этап',
+        start: 'ST',
         type: 'ORIENT',
         reskeep: 564
     },
