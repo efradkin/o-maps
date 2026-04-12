@@ -540,6 +540,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/29108',
         res: 'https://o-site.spb.ru/_races/23_KS_s/230601_split.htm',
+        owner: 'KUZMOLOVO',
         o_site: '23_KS_s'
     },
     {

@@ -720,6 +720,7 @@ let events2020 = [
         id: 'SPB_20200901_1',
         date: '2020-09-01',
         name: 'Кузьмоловские старты',
+        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/13945',
         res: 'https://o-site.spb.ru/_races/200903_KS/201008_res.htm',
@@ -732,6 +733,7 @@ let events2020 = [
         date: '2020-09-03',
         place: 'Токсово',
         name: 'Кузьмоловские старты 2020. 1 этап',
+        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         reskeep: 359
     },
@@ -778,6 +780,7 @@ let events2020 = [
         date: '2020-09-10',
         place: 'Кузьмолово',
         name: 'Кузьмоловские старты. 2 этап',
+        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         reskeep: 366
     },
@@ -844,6 +847,7 @@ let events2020 = [
         date: '2020-09-17',
         place: 'Вартемяги',
         name: 'Кузьмоловские старты. 3 этап',
+        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         reskeep: 373
     },

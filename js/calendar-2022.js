@@ -1111,6 +1111,7 @@ let events2022 = [
         id: 'SPB_20221013_1',
         date: '2022-10-13',
         name: 'Кузьмоловские старты',
+        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/24650',
         res: 'https://o-site.spb.ru/_races/220505/221013_split.htm',

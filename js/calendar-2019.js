@@ -1065,6 +1065,7 @@ let events2019 = [
         id: 'SPB_20190905_1',
         date: '2019-09-05',
         name: 'Кузьмоловские старты',
+        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/10295',
         res: 'http://o-site.spb.ru/_races/190905/190905_split.html',

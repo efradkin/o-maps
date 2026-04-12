@@ -227,6 +227,7 @@ let events2017 = [
         id: 'SPB_20170401_2',
         date: '2017-04-01',
         name: 'Кузьмоловские старты',
+        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2017_KS/171005_res.htm',
         info: 'Серия тренировочных стартов в окрестностях поселка Кузьмоловский',

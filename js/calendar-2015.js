@@ -202,6 +202,7 @@ let events2015 = [
         id: 'SPB_20150401_1',
         date: '2015-04-01',
         name: 'Кузьмоловские старты - 15 этап',
+        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/150409/151022_res.htm',
         info: 'Серия тренировочных стартов команды "Кузьмолово"',
