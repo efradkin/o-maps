@@ -98,6 +98,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://reg.o-time.ru/start/23170',
         res: 'https://o-site.spb.ru/_races/230128/230128_res.pdf',
+        strava: 8464270393,
         o_site: '230128'
     },
     {
@@ -138,6 +139,7 @@ let events2023 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230205/230205_res.htm',
         owner: 'SFSO_SPB',
+        strava: 8508408303,
         o_site: '230205'
     },
     {
@@ -199,6 +201,7 @@ let events2023 = [
         res: 'http://orgeo.ru/event/27065',
         photo: 'http://vk.com/album-154221178_291503790',
         info: 'Региональные и межмуниципальные соревнования «Февральская лыжня» Программа: 25 февраля (суббота) — «Лыжная гонка‐спринт»; 26 февраля (воскресенье) — «Лыжная гонка‐многодневная» — задержанный старт (гонка преследования) по результатам пролога 25 февраля.',
+        strava: [8618271672,8624967044],
         o_site: '23022526'
     },
     {
@@ -218,6 +221,7 @@ let events2023 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, база ВИФК',
         type: 'ORIENT',
         res: 'http://sportident.online/ol/?id=1150',
+        strava: 8657127604,
         owner: 'SFSO_SPB',
         o_site: '23030405',
         endDate: '2023-03-05'
@@ -240,6 +244,7 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/24205',
         owner: 'SFSO_SPB',
         o_site: '230308_st',
+        strava: 8679956622,
         reskeep: 582
     },
     {
@@ -280,12 +285,21 @@ let events2023 = [
     {
         id: 'SPB_20230318_1',
         date: '2023-03-18',
-        name: 'Веселый ветер - 2023, Пушкин',
+        name: 'Веселый ветер - 2023',
+        place: 'Пушкин',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/vveter23',
         res: 'http://orgeo.ru/live/#/vveter23',
         info: 'Информация: Заявка починина, можно заявляться! Шипы, в связи погодных условий, будут разрешены. Старт БЕСПЛАТНЫЙ для всех!',
         o_site: '230318'
+    },
+    {
+        id: 'SPB_20230318_2',
+        date: '2023-03-18',
+        name: 'Контрольный забег',
+        place: 'Пискаревский парк',
+        type: 'ORIENT',
+        strava: 8735227589
     },
     {
         id: 'SPB_20230326_1',
@@ -302,6 +316,7 @@ let events2023 = [
         date: '2023-04-01',
         name: 'Восстано-Невский Спринт',
         place: 'пл Восстания',
+        strava: 8811602107,
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 569
@@ -309,10 +324,12 @@ let events2023 = [
     {
         id: 'SPB_20230402_1',
         date: '2023-04-02',
+        place: 'Гатчина, Приоратский парк',
         name: 'Перспектива. Мини рогейн',
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/27702',
         res: 'https://o-site.spb.ru/_races/230402/230402_res.htm',
+        strava: 8818009842,
         o_site: '230402'
     },
     {
@@ -322,8 +339,19 @@ let events2023 = [
         name: 'Минирогейн',
         type: 'ROGAINE',
         fmt: '1',
+        strava: 8853074533,
         res: 'https://o-site.spb.ru/_races/230312_VV/230408_res.html',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/15533/'
+    },
+    {
+        id: 'SPB_20230408_2',
+        date: '2023-04-08',
+        place: 'Техноложка',
+        name: 'Олимпийский спринт',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        strava: 8851858533,
+        info: 'Разбор дистанции https://m.vk.com/@white_nights_club_spb-gruppa-m'
     },
     {
         id: 'SPB_20230409_1',
@@ -369,6 +397,7 @@ let events2023 = [
         id: 'SPB_20230422_1',
         date: '2023-04-22',
         name: 'Лужский меридиан',
+        strava: 8938074426,
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/26740',
         owner: 'LM',
@@ -384,6 +413,7 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/28273/1',
         info: 'Внимание! Изменилось место проведения!',
         video: 'https://www.youtube.com/watch?v=lfOejh6_0dQ',
+        strava: 8942247123,
         owner: 'YUVENTA',
         o_site: '230423'
     },
@@ -411,6 +441,7 @@ let events2023 = [
         date: '2023-04-29',
         place: 'Кавголово',
         name: 'Кубок Белых Ночей #11',
+        strava: 8977074012,
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 574
@@ -424,6 +455,7 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/28235',
         res: 'https://o-site.spb.ru/_races/230430_kur/230430_rez.htm',
         o_site: '230430_kur',
+        strava: 8982825410,
         reskeep: 575
     },
     {
@@ -454,7 +486,16 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '4',
         res: 'https://vk.com/wall-166397868_3648',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/15972/'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/15972/',
+        strava: 9021310183
+    },
+    {
+        id: 'SPB_20230507_1',
+        date: '2023-05-07',
+        place: 'Лемболово',
+        name: '100 КП',
+        type: 'ORIENT',
+        strava: 9026040472
     },
     {
         id: 'SPB_20230508_1',
@@ -476,6 +517,7 @@ let events2023 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1523',
         res: 'https://o-site.spb.ru/_races/230509/Res_230509.htm',
         o_site: '230509',
+        strava: 9038712842,
         reskeep: 576
     },
     {
@@ -509,6 +551,15 @@ let events2023 = [
         o_site: '230513r'
     },
     {
+        id: 'SPB_20230513_2',
+        date: '2023-05-13',
+        place: 'Пухтолова гора',
+        name: 'Кубок Белых Ночей #17',
+        type: 'ORIENT',
+        owner: 'WN',
+        strava: 9062244567
+    },
+    {
         id: 'SPB_20230514_1',
         date: '2023-05-14',
         name: 'Царскосельский азимут, г. Пушкин',
@@ -516,6 +567,7 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/info/28059',
         res: 'http://orgeo.ru/live/#/28059',
         info: 'Первенство Пушкинского р-на по спортивному ориентированию «Царскосельский Азимут» ВНИМАНИЕ!!! Ограничения движения транспортных средств в связи с проведением легкоатлетического пробега «Царскосельский марафон» 14 мая 2021 14 мая в связи с проведением легкоатлетического пробега «Царскосельский марафон» в г. Пушкин движение транспортных средств будет прекращено: - с 7.00 до 13.00 по Садовой ул. в направлении от Парковой ул. к Оранжерейной ул. и Парковой ул. от Красносельского шоссе до Садовой ул. - с 07.00 до 15.00 по Петербургскому шоссе в направлении от Октябрьского бульвара к Детскосельскому бульвару, Дворцовой ул., Садовой ул. от Дворцовой ул. до Оранжерейной ул., Парковой ул. от Красносельского шоссе до дороги на Александровку, по дороге на Александровку и Кузьминскому шоссе.',
+        strava: 9068508402,
         o_site: '230513'
     },
     {
@@ -558,6 +610,7 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/28922',
         owner: 'SFSO_SPB',
         o_site: '230520',
+        strava: 9105042997,
         reskeep: 577
     },
     {
@@ -569,6 +622,7 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/230521_RA/230521_res.pdf',
         owner: 'SFSO_SPB',
         o_site: '230521_RA',
+        strava: 9112152704,
         reskeep: 579
     },
     {
@@ -592,6 +646,7 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/29049/1',
         owner: 'SFSO_SPB',
         o_site: '230528',
+        strava: [9149254568,9154988624],
         reskeep: 595
     },
     {
@@ -616,11 +671,8 @@ let events2023 = [
         info: 'Соревнования пройдут в традиционном формате: 1 старт - Сб 03.06 ДЕНЬ 2 старт - Сб 03.06 НОЧЬ 3 старт - Вс 04.06 ДЕНЬ Ночной старт проводится в группах MW16-MW55. Спортсмены MW60 могут участвовать в ночном старте, но при подведении итогов он не учитывается.',
         owner: 'VYBORG',
         o_site: '230603-04_VTR',
-        reskeep: [
-            594,
-            592,
-            593
-        ]
+        strava: [9193509746,9197336971,9201368608],
+        reskeep: [594, 592, 593]
     },
     {
         id: 'SPB_20230604_1',
@@ -654,6 +706,7 @@ let events2023 = [
         fmt: '4',
         res: 'https://vk.com/wall-91656163_2242',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/16419/',
+        strava: 9240368460,
         owner: 'LM'
     },
     {
@@ -691,6 +744,7 @@ let events2023 = [
             'https://www.youtube.com/watch?v=-FElZ_4Z6wg',
             'https://www.youtube.com/watch?v=VmMfo1LcdEc'
         ],
+        strava: [9292376222,9321294363],
         start: 'KKP',
         o_site: '230612-18'
     },
@@ -715,12 +769,8 @@ let events2023 = [
             'https://vkvideo.ru/video-93257360_456239222',
             'https://vkvideo.ru/video-93257360_456239223'
         ],
-        reskeep: [
-            599,
-            600,
-            601,
-            602
-        ]
+        strava: [9321298380,9321303067,9321307758,9321312836],
+        reskeep: [599, 600, 601, 602]
     },
     {
         id: 'SPB_20230617_2',
@@ -828,10 +878,12 @@ let events2023 = [
         id: 'SPB_20230709_1',
         date: '2023-07-09',
         name: 'Былинный Рогейн, ориентирование',
+        place: 'Былинное оз',
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/29174',
         res: 'https://o-site.spb.ru/_races/br_2023/230709_orient.htm',
         info: 'Рогейн, ориентировние, исследование новых мест',
+        strava: [9419128022,9419135962],
         o_site: 'br_2023'
     },
     {
@@ -853,6 +905,7 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/info/29517',
         res: 'https://o-site.spb.ru/_races/230716/230716_split.htm',
         o_site: '230716',
+        strava: 9462844137,
         reskeep: 589
     },
     {
@@ -959,6 +1012,7 @@ let events2023 = [
         name: 'Noname Sprint Tour 2023 - 5 этап',
         start: 'ST',
         type: 'ORIENT',
+        strava: 9660997231,
         reskeep: 603
     },
     {
@@ -980,9 +1034,11 @@ let events2023 = [
         id: 'SPB_20230820_1',
         date: '2023-08-20',
         name: 'Рогейн-110',
+        place: 'Мичуринское',
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/29317',
         start: 'ROGAINE_110',
+        strava: 9685482559,
         o_site: '230508_110'
     },
     {
@@ -995,6 +1051,7 @@ let events2023 = [
         info: 'Традиционные соревнования в заданном направлении с большим количеством КП',
         start: 'GS',
         o_site: '230826ZZ',
+        strava: 9723034967,
         reskeep: 590
     },
     {
@@ -1025,6 +1082,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/29896',
         res: 'https://o-site.spb.ru/_races/230827_infop/230708_res_p.htm',
+        strava: 9730244634,
         o_site: '230827_infop'
     },
     {
@@ -1054,6 +1112,7 @@ let events2023 = [
         name: 'Кубок Белых Ночей #1',
         type: 'ORIENT',
         owner: 'WN',
+        strava: 9774518451,
         reskeep: 591
     },
     {
@@ -1096,6 +1155,7 @@ let events2023 = [
         video: 'http://vk.com/clip-220245153_456239024',
         owner: 'SFSO_SPB',
         o_site: '230910',
+        strava: 9821070571,
         reskeep: 618
     },
     {
@@ -1172,6 +1232,7 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/28922',
         owner: 'WN',
         o_site: '230917',
+        strava: 9867187438,
         reskeep: 613
     },
     {
@@ -1228,6 +1289,7 @@ let events2023 = [
             'https://rutube.ru/video/d0cfec4658b9f623f39c9c6ae643feff/'
         ],
         o_site: '230924',
+        strava: 9910454778,
         reskeep: 614
     },
     {
@@ -1267,7 +1329,7 @@ let events2023 = [
     {
         id: 'SPB_20231001_1',
         date: '2023-10-01',
-        place: 'п.Аньялово',
+        place: 'Аньялово',
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-классика-общий старт',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1553',
@@ -1275,6 +1337,7 @@ let events2023 = [
         info: 'Проходит при поддержке: ДОЛ "Зарница", ГУП "Горэлектротранс"',
         owner: 'SFSO_SPB',
         o_site: '231001',
+        strava: 9956332506,
         reskeep: 615
     },
     {
@@ -1310,6 +1373,7 @@ let events2023 = [
         ],
         owner: 'SFSO_SPB',
         o_site: '231009_NS',
+        strava: 9986789707,
         reskeep: 616
     },
     {
@@ -1341,6 +1405,7 @@ let events2023 = [
         name: 'Первенство ГБУ СШОР им.В.Коренькова «Памяти З.В.Пятаковой»',
         type: 'ORIENT',
         info: 'Проходит при поддержке: ДоДо Пицца',
+        strava: 10035784170,
         o_site: '231014_PZVP'
     },
     {
@@ -1362,6 +1427,7 @@ let events2023 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/231015R/231015R_res.pdf',
         start: 'GORNY_CROSS',
+        strava: 10042669382,
         o_site: '231015R'
     },
     {
@@ -1389,11 +1455,20 @@ let events2023 = [
     {
         id: 'SPB_20231020_1',
         date: '2023-10-20',
-        name: 'Тренировочный старт - Крестовский Остров',
+        name: 'Тренировочный старт',
+        place: 'Крестовский Остров',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/31280',
         res: 'https://o-site.spb.ru/_races/231020/231020Results - SportOrg.pdf',
         o_site: '231020'
+    },
+    {
+        id: 'SPB_20231020_2',
+        date: '2023-10-20',
+        name: 'Физкультурное мерприятие Фрунзенского ЦФКиС',
+        place: 'Парк Интернационалистов',
+        type: 'ROGAINE',
+        strava: 10072753747
     },
     {
         id: 'SPB_20231021_1',
@@ -1417,6 +1492,7 @@ let events2023 = [
         res: 'http://sportident.online/ol/?id=1496',
         info: 'Открытое первенство КСО Nord West',
         o_site: '231022_perv_NW',
+        strava: 10083310628,
         reskeep: 624
     },
     {
@@ -1495,6 +1571,7 @@ let events2023 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1568',
         res: 'https://o-site.spb.ru/_races/231029/Res1_231029.htm',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга, с выполнением массовых разрядов',
+        strava: 10124307608,
         logo: 'azimut.gif',
         o_site: '231029',
         reskeep: 617
@@ -1518,6 +1595,7 @@ let events2023 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1570',
         res: 'https://o-site.spb.ru/_races/231104_OM/Res_OM_231104.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
+        strava: 10157953030,
         logo: 'azimut.gif',
         o_site: '231104_OM',
         reskeep: 626
@@ -1560,6 +1638,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/30951',
         res: 'https://o-site.spb.ru/_races/231111/231111_res.htm',
+        strava: 10198903643,
         start: 'ROGAINE_110',
         o_site: '231111'
     },
@@ -1584,6 +1663,7 @@ let events2023 = [
         photo: 'http://vk.com/album-30365190_299230795',
         owner: 'SFSO_LO',
         o_site: '231112_LO',
+        strava: 10204714151,
         reskeep: 627
     },
     {
@@ -1593,6 +1673,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/31632',
         res: 'https://o-site.spb.ru/_races/231119/231119_res.htm',
+        strava: 10244406309,
         o_site: '231119',
         reskeep: 628
     },
@@ -1606,6 +1687,7 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/2023_Orientir/Split1_231125.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
+        strava: 10279018304,
         o_site: '2023_Orientir'
     },
     {

@@ -35,6 +35,7 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/kirovsk_ski_o_2024',
         owner: 'SFSO_LO',
         o_site: '240107',
+        strava: 10517183623
     },
     {
         id: 'SPB_20240108_2',
@@ -201,7 +202,8 @@ let events2024 = [
         fmt: '1.0',
         link: 'https://orgeo.ru/event/33767',
         res: 'https://vk.com/wall-92124592_1894',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18468'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18468',
+        strava: 10832167769
     },
     {
         id: 'SPB_20240303_1',
@@ -223,7 +225,8 @@ let events2024 = [
         fmt: '1.0',
         link: 'https://orgeo.ru/event/33952',
         res: 'https://o-site.spb.ru/_races/231105_P/Results%20-%20SportOrg.pdf',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18504'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18504',
+        strava: 10882033709
     },
     {
         id: 'SPB_20240308_1',
@@ -256,7 +259,8 @@ let events2024 = [
         type: 'ROGAINE',
         fmt: '1.0',
         link: 'https://vk.com/orient_spb_lo?w=wall-220245153_709',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18598'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18598',
+        strava: 10971228761
     },
     {
         id: 'SPB_20240317_1',
@@ -277,6 +281,7 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/info/34408',
         res: 'https://o-site.spb.ru/_races/240324/Results_split - SportOrg.pdf',
         o_site: '240324',
+        strava: 11026409836,
         reskeep: 629
     },
     {
@@ -299,7 +304,16 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240331_p/240331_split.htm',
         fmt: 'Общий старт в 12:00. Старт по станции с 12:01 до 12:20',
         o_site: '240331_p',
+        strava: 11075131561,
         reskeep: 629
+    },
+    {
+        id: 'SPB_20240406_1',
+        date: '2024-04-06',
+        place: 'Ржевский л/п',
+        name: 'Турнир на Ржевке',
+        type: 'ROGAINE',
+        strava: 11118506694,
     },
     {
         id: 'SPB_20240413_1',
@@ -309,6 +323,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/34692',
         res: 'https://o-site.spb.ru/_races/240413_pkr/240413_split.htm',
+        strava: 11170743986,
         o_site: '240413_pkr'
     },
     {
@@ -319,6 +334,15 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/34596',
         o_site: '240413_nr'
+    },
+    {
+        id: 'SPB_20240413_4',
+        date: '2024-04-13',
+        place: 'Сквер Виктора Цоя',
+        name: 'Цой-спринт',
+        type: 'ORIENT',
+        strava: 11168984919,
+        owner: 'WN'
     },
     {
         id: 'SPB_20240413_3',
@@ -370,6 +394,7 @@ let events2024 = [
         name: 'Noname Спринт Тур 2024. 1 этап',
         start: 'ST',
         type: 'ORIENT',
+        strava: 11247373096,
         reskeep: 643
     },
     {
@@ -402,6 +427,14 @@ let events2024 = [
         o_site: '240428'
     },
     {
+        id: 'SPB_20240428_3',
+        date: '2024-04-28',
+        place: 'Воронцовский сквер',
+        name: 'Level up',
+        type: 'ORIENT',
+        strava: [11280974914,11281226032]
+    },
+    {
         id: 'SPB_20240429_1',
         date: '2024-04-29',
         place: 'ГБУК «Зеленогорский парк культуры и отдыха», ГБУ «Курортный берег»',
@@ -412,6 +445,7 @@ let events2024 = [
         photo: 'http://vk.com/album-154221178_302584074',
         owner: 'SFSO_SPB',
         o_site: '240429',
+        strava: 11289850267,
         reskeep: 632
     },
     {
@@ -446,6 +480,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240501_WN/240501_res.htm',
         owner: 'WN',
         o_site: '240501_WN',
+        strava: [11306454272,11306455132],
         reskeep: 646
     },
     {
@@ -478,6 +513,7 @@ let events2024 = [
             'https://orgeo.ru/event/33547',
             'https://vk.com/event166397868'
         ],
+        strava: 11330077100,
         res: 'https://vk.com/event166397868?w=wall-166397868_4225',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19280'
     },
@@ -518,6 +554,7 @@ let events2024 = [
         name: 'Соревнования, посвященные Дню Победы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/240509/Split_240509.htm',
+        strava: 11369203305,
         o_site: '240509',
         reskeep: 653
     },
@@ -554,10 +591,12 @@ let events2024 = [
         id: 'SPB_20240511_2',
         date: '2024-05-11',
         name: 'Царскосельский Азимут-2024',
+        place: 'Пушкин, Нижний (Отдельный) парк',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/sa24',
         res: 'https://o-site.spb.ru/_races/241105/240511_rez.htm',
         info: 'Первенство Пушкинского р-на с присвоением взрослых разрядов. Кросс-выбор ВАРИАНТ В!!!',
+        strava: 11383832188,
         o_site: '241105'
     },
     {
@@ -570,6 +609,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240512_zg/res_prolog.htm',
         photo: 'http://vk.com/album-220245153_305202683',
         info: 'II клубная эстафета «Змей Горыныч» Организаторы эстафеты: клуб "Кузьмолово" и АНО "ОПОРА СО СПб и ЛО "Импульс"". Мероприятие проходит при поддержке СФСО Санкт-Петербурга.',
+        strava: [11391400011,11392907213],
         o_site: '240512_zg'
     },
     {
@@ -586,6 +626,22 @@ let events2024 = [
         res: 'https://vk.com/rogaine110?w=wall-197270357_995',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19401',
         start: 'ROGAINE_110'
+    },
+    {
+        id: 'SPB_20240514_1',
+        date: '2024-05-14',
+        place: 'Новгородская ул',
+        name: 'Sprint camp Saint-Pi #2',
+        type: 'ORIENT',
+        strava: 11409657567
+    },
+    {
+        id: 'SPB_20240515_1',
+        date: '2024-05-15',
+        place: 'Владимирская',
+        name: 'Sprint camp Saint-Pi #3',
+        type: 'ORIENT',
+        strava: 11418443568
     },
     {
         id: 'SPB_20240516_1',
@@ -627,11 +683,13 @@ let events2024 = [
         id: 'SPB_20240519_1',
         date: '2024-05-19',
         name: 'Кубок Белых Ночей 13 этап',
+        place: 'Симагино',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/35711',
         res: 'https://o-site.spb.ru/_races/240519_wn/240519_res_WN.htm',
         owner: 'WN',
         o_site: '240519_wn',
+        strava: 11446769643,
         reskeep: 647
     },
     {
@@ -659,6 +717,7 @@ let events2024 = [
         name: 'Александрийские субботники',
         type: 'ROGAINE',
         fmt: '1.0',
+        strava: 11491875845,
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19543'
     },
     {
@@ -763,10 +822,12 @@ let events2024 = [
         id: 'SPB_20240608_1',
         date: '2024-06-08',
         name: 'Чемпионат и первенство Санкт-Петербурга, кросс-лонг',
+        place: 'Пасторское оз',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/36303/1',
         owner: 'SFSO_SPB',
         o_site: '240608',
+        strava: 11602451194,
         reskeep: 648
     },
     {
@@ -794,6 +855,7 @@ let events2024 = [
             'https://www.youtube.com/watch?v=U3GnqTpcdhU',
             'https://www.youtube.com/watch?v=CGn7ziD_m70'
         ],
+        strava: 11661372372,
         start: 'KKP',
         o_site: '240610-16_UTS_KKP'
     },
@@ -836,11 +898,8 @@ let events2024 = [
         ],
         start: 'KKP',
         o_site: '240615-20_KKP',
-        reskeep: [
-            657,
-            658,
-            659
-        ]
+        strava: [11675022463,11681133944,11688407003,11696132252],
+        reskeep: [657, 658, 659]
     },
     {
         id: 'SPB_20240616_1',
@@ -866,11 +925,7 @@ let events2024 = [
         ],
         start: 'MMS',
         o_site: 'mms2024',
-        reskeep: [
-            660,
-            661,
-            662
-        ]
+        reskeep: [660, 661, 662]
     },
     {
         id: 'SPB_20240622_1',
@@ -996,6 +1051,7 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/info/petayarvi_rogeyn_orient_2024',
         res: 'https://o-site.spb.ru/_races/240707_rogaine/240707_split.htm',
+        strava: 11829592249,
         o_site: '240707_rogaine'
     },
     {
@@ -1008,10 +1064,8 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240713_bn/240713_res.htm',
         owner: 'WN',
         o_site: '240713_bn',
-        reskeep: [
-            649,
-            650
-        ]
+        strava: [11876861235,11884905539],
+        reskeep: [649, 650]
     },
     {
         id: 'SPB_20240714_1',
@@ -1052,6 +1106,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/36827',
         res: 'https://o-site.spb.ru/_races/240728_p/240728_split.htm',
+        strava: 12000800125,
         o_site: '240728_p'
     },
     {
@@ -1074,6 +1129,7 @@ let events2024 = [
         date: '2024-08-03',
         place: 'оз Тихое',
         name: 'Кубок Белых Ночей #18',
+        strava: [12050980404,12050981150],
         type: 'ORIENT',
         reskeep: 651,
         owner: 'WN'
@@ -1090,12 +1146,22 @@ let events2024 = [
         o_site: '240810r'
     },
     {
+        id: 'SPB_20240810_2',
+        date: '2024-08-10',
+        place: 'Сосново, оз. Уловное',
+        name: 'Кубок Белых Ночей #20',
+        type: 'ORIENT',
+        strava: [12110067916,12110447883],
+        owner: 'WN'
+    },
+    {
         id: 'SPB_20240811_1',
         date: '2024-08-11',
         place: 'Былинное оз',
         name: 'Кубок Белых Ночей #21',
         type: 'ORIENT',
         reskeep: 664,
+        strava: 12119068051,
         owner: 'WN'
     },
     {
@@ -1139,6 +1205,7 @@ let events2024 = [
         type: 'ROGAINE',
         fmt: '3.0',
         link: 'https://t.me/lonerogaine',
+        strava: 12238250944,
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20287'
     },
     {
@@ -1163,6 +1230,7 @@ let events2024 = [
         photo: 'http://vk.com/album-220245153_306513663',
         info: 'Мероприятие проводится с целью сохранения исторической памяти и повышения преемственности поколений. К участию приглашаются все желающие без возрастных ограничений: от детей до ветеранов. Программа: - Ретро-старт по спортивному ориентированию по чёрно-белой карте. - Мобильная выставка по истории спортивного ориентирования и общение с ветеранами спорта. - Современные дистанции по спортивному ориентированию по цветной карте с электронной отметкой SFR.',
         video: 'http://vk.com/orient_spb_lo?z=clip-220245153_456239032',
+        strava: [12287822011,12287103979],
         o_site: '240831_retro'
     },
     {
@@ -1174,6 +1242,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240901ZZ/240901zz_split.htm',
         start: 'GS',
         o_site: '240901ZZ',
+        strava: 12297265168,
         reskeep: 665
     },
     {
@@ -1200,6 +1269,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240907VV/240907_split-experimental.htm',
         start: 'VSEV_VESTI',
         o_site: '240907VV',
+        strava: 12348470229,
         reskeep: 663
     },
     {
@@ -1213,6 +1283,7 @@ let events2024 = [
         info: 'Традиционный старт КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '240908',
+        strava: 12356929743,
         reskeep: 671
     },
     {
@@ -1222,6 +1293,7 @@ let events2024 = [
         start: 'ST',
         reskeep: 666,
         type: 'ORIENT',
+        strava: 12384865213,
         video: 'https://vkvideo.ru/video-92124592_456239031'
     },
     {
@@ -1244,6 +1316,7 @@ let events2024 = [
         video: ['https://www.youtube.com/watch?v=6yK90nhheOU','https://www.youtube.com/watch?v=QEMQ87EVN9g'],
         owner: 'WN',
         o_site: '240915',
+        strava: 12415797588,
         reskeep: [
             675,
             667
@@ -1331,6 +1404,7 @@ let events2024 = [
         name: 'Спринт-Тур, 5 этап',
         type: 'ORIENT',
         reskeep: 668,
+        strava: 12501717192,
         start: 'ST'
     },
     {
@@ -1361,12 +1435,11 @@ let events2024 = [
         name: 'Лужский меридиан',
         type: 'ROGAINE',
         fmt: '3, 5',
-        link: [
-            'https://orgeo.ru/event/info/36929',
-            'https://vk.com/club91656163'
-        ],
+        link: 'https://vk.com/club91656163',
+        reg: 'https://orgeo.ru/event/info/36929',
         res: 'https://vk.com/club91656163?w=wall-91656163_2475',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20664',
+        strava: 12523064593,
         owner: 'LM'
     },
     {
@@ -1452,7 +1525,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1635',
         res: 'http://orgeo.ru/live/#/38447',
-        strava: '12589151496',
+        strava: 12589151496,
         owner: 'SFSO_SPB',
         o_site: '241006'
     },
@@ -1505,7 +1578,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/participants/38276#tab',
         res: 'https://o-site.spb.ru/_races/241019/241019_split-1.htm',
-        strava: '12691370592',
+        strava: 12691370592,
         o_site: '241019'
     },
     {
@@ -1538,7 +1611,7 @@ let events2024 = [
         name: 'Первенство ГБУ СШОР им.В.Коренькова «Памяти З.В.Пятаковой»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/241020_PZVP/241020_ofrez.pdf',
-        strava: '12699879053',
+        strava: 12699879053,
         o_site: '241020_PZVP'
     },
     {
@@ -1573,7 +1646,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/241026/241027_result_5v_kids.htm',
         video: 'https://vkvideo.ru/video-93257360_456239262',
         info: 'V клубная ночная эстафета 50 ВЁРСТ',
-        strava: '12749766988',
+        strava: 12749766988,
         o_site: '241026'
     },
     {
@@ -1595,7 +1668,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/241104_OM/Res1_OM_241104.htm',
         photo: 'http://photos.app.goo.gl/2VZttyFAQ4PyErVCA',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
-        strava: '12820185310',
+        strava: 12820185310,
         logo: 'azimut.gif',
         o_site: '241104_OM'
     },
@@ -1618,7 +1691,7 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/38765',
         res: 'https://o-site.spb.ru/_races/241109_Markir/241109_RES.htm',
         start: 'ROGAINE_110',
-        strava: '12858739605',
+        strava: 12858739605,
         o_site: '241109_Markir'
     },
     {
@@ -1641,7 +1714,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1643',
         res: 'http://orgeo.ru/live/#/39248',
-        strava: '12920500574',
+        strava: 12920500574,
         owner: 'SFSO_LO',
         o_site: '241117',
         reskeep: 670
@@ -1653,7 +1726,7 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/zele_rog',
         res: 'https://o-site.spb.ru/_races/241103_zr/241123_res.htm',
-        strava: '12964367498',
+        strava: 12964367498,
         o_site: '241103_zr'
     },
     {
@@ -1675,7 +1748,7 @@ let events2024 = [
         res: 'http://orgeo.ru/live/#/38447',
         owner: 'SFSO_SPB',
         o_site: '241124',
-        strava: '12970748065',
+        strava: 12970748065,
         reskeep: 672
     },
     {
@@ -1697,7 +1770,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/2024_Orientir/Split_241130.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
-        strava: '13014282495',
+        strava: 13014282495,
         o_site: '2024_Orientir'
     },
     {
@@ -1717,7 +1790,7 @@ let events2024 = [
         place: 'Лиговка',
         name: 'Saint-pi Sprint camp',
         type: 'ORIENT',
-        strava: '13020611828',
+        strava: 13020611828,
         owner: 'WN'
     },
     {
@@ -1735,7 +1808,7 @@ let events2024 = [
         place: 'Коломна',
         name: 'Saint-pi Sprint camp',
         type: 'ORIENT',
-        strava: '13063189120',
+        strava: 13063189120,
         owner: 'WN'
     },
     {
@@ -1767,7 +1840,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/39581',
         res: 'https://o-site.spb.ru/_races/moroz_2024/241221_res.htm',
-        strava: '13160271093',
+        strava: 13160271093,
         o_site: 'moroz_2024'
     },
     {
@@ -1786,7 +1859,7 @@ let events2024 = [
         name: 'Приз Деда Мороза',
         place: 'Сосновый Бор',
         type: 'ORIENT',
-        strava: '13213734052',
+        strava: 13213734052,
     },
     {
         id: 'SPB_20241230_1',

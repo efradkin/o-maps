@@ -818,7 +818,7 @@ let events2026 = [
             'sosnovij_bor_lipovo_2020',
             'sosnovy_bor_2021_05_30'
         ],
-        strava: ['18064614080','18078563936'],
+        strava: [18064614080,18078563936],
         reskeep: [868,869],
         video: 'https://vk.com/video3554909_456247816',
         me: 'М45'

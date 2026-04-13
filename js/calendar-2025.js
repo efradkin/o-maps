@@ -529,17 +529,11 @@ let events2025 = [
             'М16/50': 'https://viewer.o-gps-center.ru/viewer/event/22268/',
             'Все КП': 'https://viewer.o-gps-center.ru/viewer/event/22248/'
         },
-        reskeep: [
-            686,
-            683
-        ],
+        reskeep: [686, 683],
         photo: 'https://vk.com/album-201330282_306915469',
         owner: 'YUVENTA',
         map: 'sosnovij_bor_bereg_2020',
-        strava: [
-            14221951114,
-            14231538856
-        ],
+        strava: [14221951114, 14231538856],
         me: 'М50'
     },
     {
