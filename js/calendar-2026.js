@@ -791,6 +791,7 @@ let events2026 = [
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/49261',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24697/',
+        photo: 'https://vk.com/album-91656163_313208177',
         map: 'luga_shalovo_lm_2023',
         owner: 'LM'
     },
@@ -806,8 +807,8 @@ let events2026 = [
             'http://o-reg.spb.ru/?filter[day_id]=1725'
         ],
         gps: {
-            '11:М45':'https://viewer.o-gps-center.ru/viewer/event/24688/',
-            '11:ALL':'https://viewer.o-gps-center.ru/viewer/event/24681/',
+            '11 М45':'https://viewer.o-gps-center.ru/viewer/event/24688/',
+            '11 ALL':'https://viewer.o-gps-center.ru/viewer/event/24681/',
             '12':'https://viewer.o-gps-center.ru/viewer/event/24691/'
         },
         type: 'ORIENT',
@@ -817,7 +818,9 @@ let events2026 = [
             'sosnovij_bor_lipovo_2020',
             'sosnovy_bor_2021_05_30'
         ],
-        strava: '18064614080',
+        strava: ['18064614080','18078563936'],
+        reskeep: [868,869],
+        video: 'https://vk.com/video3554909_456247816',
         me: 'М45'
     },
     {
@@ -837,6 +840,8 @@ let events2026 = [
         date: '2026-04-15',
         name: 'Спринт Тур',
         place: 'пр Просвещения',
+        link: 'https://vk.com/wall-92124592_2210',
+        reg: 'https://orgeo.ru/event/51902',
         type: 'ORIENT',
         fmt: 'спринт',
         start: 'ST',
@@ -850,7 +855,18 @@ let events2026 = [
         o_site: '260418_bn',
         reg: 'https://orgeo.ru/event/ohta_classic_2026',
         type: 'ORIENT',
+        map: 'toksovo_okhta_park_2008',
         owner: 'WN'
+    },
+    {
+        id: 'SPB_20260416',
+        date: '2026-04-16',
+        name: 'П-во Невского р-она',
+        place: 'Куракина дача',
+        reg: 'https://orgeo.ru/event/51917',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        map: 'kurakina_dacha_2023'
     },
     {
         id: 'SPB_20260418_2',
@@ -861,10 +877,8 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/krosprint26',
         type: 'ORIENT',
         fmt: 'спринт',
-        coord: [
-            59.951177,
-            30.463848
-        ]
+        info: 'Новая карта.',
+        coord: [59.951177, 30.463848]
     },
     {
         id: 'SPB_20260418_3',
@@ -879,12 +893,12 @@ let events2026 = [
         id: 'SPB_20260419_1',
         date: '2026-04-19',
         name: 'Перспектива',
-        place: 'Стеклянный, оз Силанде',
+        place: 'Лемболово, р Вьюн',
         o_site: '260419_p',
-        reg: 'https://orgeo.ru/event/50868',
+        reg: 'http://orgeo.ru/event/51889',
         type: 'ORIENT',
         owner: 'FENIX',
-        map: 'silande_2025'
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20260421_1',
@@ -1025,6 +1039,8 @@ let events2026 = [
         date: '2026-05-10',
         name: 'Змей Горыныч',
         place: 'Сосново, оз Уловное',
+        o_site: '260510_zg',
+        reg: 'http://orgeo.ru/event/info/51859',
         type: 'ORIENT',
         fmt: 'эстафета',
         map: 'sosnovo_ulovnoe_oz_2023',
@@ -1045,13 +1061,24 @@ let events2026 = [
         date: '2026-05-16',
         name: 'Весенний водный рогейн',
         place: 'Вуокса',
-        type: [
-            'ROGAINE',
-            'WATER'
-        ],
+        link: 'https://www.multsport.ru/starts/canoe-rogaine-2026/',
+        reg: 'https://www.multsport.ru/starts/canoe-rogaine-2026/registration.html',
+        type: ['ROGAINE','WATER'],
         fmt: '16, 8, 4',
         start: 'MULTSPORT',
         map: 'vuoksa_rogaine_2019'
+    },
+    {
+        id: 'SPB_20260516_1',
+        date: '2026-05-16',
+        name: 'По Саблинским тропам Козьмы',
+        place: 'Ульяновка',
+        o_site: '260516',
+        reg: 'http://orgeo.ru/event/sabl26',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        map: 'ulianovka_2022',
+        owner: 'EGRV_EGR'
     },
     {
         id: 'SPB_20260517_1',
@@ -1253,10 +1280,10 @@ let events2026 = [
         name: 'HARD ROGAINE | Ladoga',
         place: 'Ладожское оз',
         link: 'http://hardadventure.ru/ladoga2026',
-        type: [
-            'ROGAINE',
-            'WATER'
-        ],
+        o_site: '260627r',
+        reg: 'http://reg.o-time.ru/race/26238',
+        info: 'Водный рогейн по шхерам Ладожского озера на байдарках, каяках и SUP-ах.',
+        type: ['ROGAINE','WATER'],
         fmt: '12, 6, 4',
         map: 'kuznechnoe_hard_2024',
         start: 'HARD'

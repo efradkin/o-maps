@@ -1141,6 +1141,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1635',
         res: 'http://orgeo.ru/live/#/38447',
+        strava: '12589151496',
         owner: 'SFSO_SPB',
         o_site: '241006'
     },
@@ -1183,6 +1184,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/participants/38276#tab',
         res: 'https://o-site.spb.ru/_races/241019/241019_split-1.htm',
+        strava: '12691370592',
         o_site: '241019'
     },
     {
@@ -1215,6 +1217,7 @@ let events2024 = [
         name: 'Первенство ГБУ СШОР им.В.Коренькова «Памяти З.В.Пятаковой»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/241020_PZVP/241020_ofrez.pdf',
+        strava: '12699879053',
         o_site: '241020_PZVP'
     },
     {
@@ -1238,6 +1241,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/241026/241027_result_5v_kids.htm',
         video: 'https://vkvideo.ru/video-93257360_456239262',
         info: 'V клубная ночная эстафета 50 ВЁРСТ',
+        strava: '12749766988',
         o_site: '241026'
     },
     {
@@ -1259,6 +1263,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/241104_OM/Res1_OM_241104.htm',
         photo: 'http://photos.app.goo.gl/2VZttyFAQ4PyErVCA',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
+        strava: '12820185310',
         logo: 'azimut.gif',
         o_site: '241104_OM'
     },
@@ -1281,6 +1286,7 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/38765',
         res: 'https://o-site.spb.ru/_races/241109_Markir/241109_RES.htm',
         start: 'ROGAINE_110',
+        strava: '12858739605',
         o_site: '241109_Markir'
     },
     {
@@ -1291,6 +1297,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1643',
         res: 'http://orgeo.ru/live/#/39248',
+        strava: '12920500574',
         owner: 'SFSO_LO',
         o_site: '241117',
         reskeep: 670
@@ -1302,6 +1309,7 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/zele_rog',
         res: 'https://o-site.spb.ru/_races/241103_zr/241123_res.htm',
+        strava: '12964367498',
         o_site: '241103_zr'
     },
     {
@@ -1323,6 +1331,7 @@ let events2024 = [
         res: 'http://orgeo.ru/live/#/38447',
         owner: 'SFSO_SPB',
         o_site: '241124',
+        strava: '12970748065',
         reskeep: 672
     },
     {
@@ -1344,6 +1353,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/2024_Orientir/Split_241130.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
+        strava: '13014282495',
         o_site: '2024_Orientir'
     },
     {
@@ -1358,6 +1368,15 @@ let events2024 = [
         o_site: '241201_est_Dlit'
     },
     {
+        id: 'SPB_20241201_2',
+        date: '2024-12-01',
+        place: 'Лиговка',
+        name: 'Saint-pi Sprint camp',
+        type: 'ORIENT',
+        strava: '13020611828',
+        owner: 'WN'
+    },
+    {
         id: 'SPB_20241206_1',
         date: '2024-12-06',
         place: 'ГБНОУ «Балтийский берег» по адресу ул. Черняховского, 49Б',
@@ -1365,6 +1384,15 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://forms.yandex.ru/u/6747428902848f0b601de02f/',
         o_site: '241206_seminar'
+    },
+    {
+        id: 'SPB_20241207_1',
+        date: '2024-12-07',
+        place: 'Коломна',
+        name: 'Saint-pi Sprint camp',
+        type: 'ORIENT',
+        strava: '13063189120',
+        owner: 'WN'
     },
     {
         id: 'SPB_20241214_1',
@@ -1395,7 +1423,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/39581',
         res: 'https://o-site.spb.ru/_races/moroz_2024/241221_res.htm',
-        strava: '13213734052',
+        strava: '13160271093',
         o_site: 'moroz_2024'
     },
     {
@@ -1407,6 +1435,14 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/kirovsk_ski_o_mass',
         owner: 'SFSO_LO',
         o_site: '241222'
+    },
+    {
+        id: 'SPB_20241229_1',
+        date: '2024-12-29',
+        name: 'Приз Деда Мороза',
+        place: 'Сосновый Бор',
+        type: 'ORIENT',
+        strava: '13213734052',
     },
     {
         id: 'SPB_20241230_1',
