@@ -1299,6 +1299,17 @@ let events2026 = [
         owner: 'SHBN'
     },
     {
+        id: 'SPB_20260628_1',
+        date: '2026-06-28',
+        endDate: '2026-06-30',
+        name: 'Праздник эстафет',
+        place: 'Пески',
+        o_site: '260628',
+        type: 'ORIENT',
+        fmt: 'эстафета',
+        map: 'peski_2001',
+    },
+    {
         id: 'SPB_20260704_2',
         date: '2026-07-04',
         place: 'Орехово',

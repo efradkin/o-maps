@@ -1183,6 +1183,16 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
+        name: 'Тропарево',
+        year: 2026,
+        url: './maps/moscow/sz/troparevo_2026.webp',
+        link: './original_maps/moscow/sz/troparevo_2026_omaps.gif',
+        bounds: [[55.64925065147458, 37.46973037719727], [55.64974706211164, 37.49181032180787], [55.639878206456366, 37.47028827667237]],
+        author: 'MSTPNV',
+        owner: 'OPNBND',
+        type: ['CITY','SPRINT']
+    },
+    {
         name: 'Химкинский л/п',
         year: 2003,
         url: './maps/moscow/ak/khimki_2003.webp',
