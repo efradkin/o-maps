@@ -37,6 +37,15 @@ let events2024 = [
         o_site: '240107',
     },
     {
+        id: 'SPB_20240108_2',
+        date: '2024-01-08',
+        place: 'Псков',
+        name: 'Псковский Новогодний рогейн',
+        type: 'ROGAINE',
+        fmt: '3.0',
+        link: 'https://orgeo.ru/event/32150'
+    },
+    {
         id: 'SPB_20240113_1',
         date: '2024-01-13',
         endDate: '2024-01-14',
@@ -130,6 +139,20 @@ let events2024 = [
         o_site: '240204_fl'
     },
     {
+        id: 'SPB_20240203_3',
+        date: '2024-02-03',
+        place: 'Луга, Штоль',
+        name: 'ЛужSki рогейн',
+        type: 'ROGAINE',
+        fmt: '3 / 6',
+        link: 'https://orgeo.ru/event/participants/32042',
+        res: [
+            'https://vk.com/doc482749_671075732?hash=To73cT5QHBVSaTUIuZymFhiwQ2hEzbSIPWzzPnXzsZH',
+            'https://vk.com/event166397868?w=wall-166397868_4110'
+        ],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18329'
+    },
+    {
         id: 'SPB_20240211_1',
         date: '2024-02-11',
         place: 'п.Зеркальный',
@@ -170,6 +193,39 @@ let events2024 = [
         o_site: '240224R'
     },
     {
+        id: 'SPB_20240225_1',
+        date: '2024-02-25',
+        place: 'Сосновка',
+        name: 'Контрольный старт. Мини рогейн',
+        type: 'ROGAINE',
+        fmt: '1.0',
+        link: 'https://orgeo.ru/event/33767',
+        res: 'https://vk.com/wall-92124592_1894',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18468'
+    },
+    {
+        id: 'SPB_20240303_1',
+        date: '2024-03-03',
+        place: 'Токсово',
+        name: 'Hard Adventure Winter Fest',
+        type: 'ROGAINE',
+        fmt: '4.0',
+        link: 'https://reg.o-time.ru/start/24160',
+        res: 'https://hardrogaine.ru/Results_Hard_Rogaine_winter_2024.htm',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18502'
+    },
+    {
+        id: 'SPB_20240303_2',
+        date: '2024-03-03',
+        place: 'Шуваловский парк',
+        name: 'Контрольный старт. Мини рогейн',
+        type: 'ROGAINE',
+        fmt: '1.0',
+        link: 'https://orgeo.ru/event/33952',
+        res: 'https://o-site.spb.ru/_races/231105_P/Results%20-%20SportOrg.pdf',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18504'
+    },
+    {
         id: 'SPB_20240308_1',
         date: '2024-03-08',
         place: 'Пискаревский парк',
@@ -191,6 +247,16 @@ let events2024 = [
         res: 'http://orgeo.ru/live/#/31914',
         owner: 'SFSO_SPB',
         o_site: '240310'
+    },
+    {
+        id: 'SPB_20240316_1',
+        date: '2024-03-16',
+        place: 'Ржевка',
+        name: 'Турнир по спортивному ориентированию для жителей Красногвардейского района',
+        type: 'ROGAINE',
+        fmt: '1.0',
+        link: 'https://vk.com/orient_spb_lo?w=wall-220245153_709',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/18598'
     },
     {
         id: 'SPB_20240317_1',
@@ -253,6 +319,18 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/34596',
         o_site: '240413_nr'
+    },
+    {
+        id: 'SPB_20240413_3',
+        date: '2024-04-13',
+        place: 'Луга, Омчино',
+        name: 'Лужский меридиан',
+        type: 'ROGAINE',
+        fmt: '4 (OMR)',
+        link: 'https://orgeo.ru/event/info/33379',
+        res: 'https://vk.com/doc17383066_673298132?hash=n2x8gjMtY5CYdlKsO3ErLi1QZAMy4Jnpkm4Z4aCmLZL',
+        gps: 'https://o-gps-center.ru/manage2/events/view/18894',
+        owner: 'LM'
     },
     {
         id: 'SPB_20240414_1',
@@ -390,6 +468,20 @@ let events2024 = [
         reskeep: 644
     },
     {
+        id: 'SPB_20240504_3',
+        date: '2024-05-04',
+        place: 'Яппиля',
+        name: 'Рогейн на холмах Яппиля',
+        type: 'ROGAINE',
+        fmt: '4.0',
+        link: [
+            'https://orgeo.ru/event/33547',
+            'https://vk.com/event166397868'
+        ],
+        res: 'https://vk.com/event166397868?w=wall-166397868_4225',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19280'
+    },
+    {
         id: 'SPB_20240505_1',
         date: '2024-05-05',
         name: 'Кубок белых ночей - 9 этап',
@@ -428,6 +520,14 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240509/Split_240509.htm',
         o_site: '240509',
         reskeep: 653
+    },
+    {
+        id: 'SPB_20240509_2',
+        date: '2024-05-09',
+        place: 'Каннельярви',
+        name: 'ВМБ',
+        type: 'ROGAINE',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19360'
     },
     {
         id: 'SPB_20240510_1',
@@ -471,6 +571,21 @@ let events2024 = [
         photo: 'http://vk.com/album-220245153_305202683',
         info: 'II клубная эстафета «Змей Горыныч» Организаторы эстафеты: клуб "Кузьмолово" и АНО "ОПОРА СО СПб и ЛО "Импульс"". Мероприятие проходит при поддержке СФСО Санкт-Петербурга.',
         o_site: '240512_zg'
+    },
+    {
+        id: 'SPB_20240512_2',
+        date: '2024-05-12',
+        place: 'Токсово/Кузьмолово',
+        name: 'Рогейн 110%',
+        type: 'ROGAINE',
+        fmt: '3.0',
+        link: [
+            'https://orgeo.ru/event/35037',
+            'https://vk.com/rogaine110'
+        ],
+        res: 'https://vk.com/rogaine110?w=wall-197270357_995',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19401',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20240516_1',
@@ -538,6 +653,29 @@ let events2024 = [
         o_site: '240525_RA'
     },
     {
+        id: 'SPB_20240525_3',
+        date: '2024-05-25',
+        place: 'Петергоф',
+        name: 'Александрийские субботники',
+        type: 'ROGAINE',
+        fmt: '1.0',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19543'
+    },
+    {
+        id: 'SPB_20240525_4',
+        date: '2024-05-25',
+        place: 'Каннельярви',
+        name: 'BikeAdventure',
+        type: 'ROGAINE',
+        fmt: '6 / 24',
+        link: [
+            'https://vk.com/bikeadventure',
+            'https://orgeo.ru/event/34584'
+        ],
+        res: 'https://vk.com/bikeadventure?w=wall-30311715_2075',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19599'
+    },
+    {
         id: 'SPB_20240526_1',
         date: '2024-05-26',
         place: 'Всеволожский район, оз.Сиркиярви',
@@ -594,6 +732,17 @@ let events2024 = [
         o_site: '240602_univer'
     },
     {
+        id: 'SPB_20240601_5',
+        date: '2024-06-01',
+        place: 'Воробьево оз',
+        name: 'Hard Adventure Summer Fest',
+        type: 'ROGAINE',
+        fmt: '3 / 6',
+        link: 'https://reg.o-time.ru/race/24343',
+        res: 'https://vk.com/wall-163764238_11599',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19630'
+    },
+    {
         id: 'SPB_20240604_1',
         name: 'Тренировка в Яппиля',
         type: 'ORIENT',
@@ -621,6 +770,19 @@ let events2024 = [
         reskeep: 648
     },
     {
+        id: 'SPB_20240609_1',
+        date: '2024-06-09',
+        place: 'Мичуринское',
+        name: 'Рогейн 110%',
+        type: 'ROGAINE',
+        fmt: '3, 6',
+        link: 'https://vk.com/rogaine110',
+        reg: 'https://orgeo.ru/event/35851',
+        res: 'https://vk.com/wall-197270357_1025',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19740',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20240610_1',
         date: '2024-06-10',
         endDate: '2024-06-16',
@@ -634,6 +796,18 @@ let events2024 = [
         ],
         start: 'KKP',
         o_site: '240610-16_UTS_KKP'
+    },
+    {
+        id: 'SPB_20240613_1',
+        date: '2024-06-13',
+        endDate: '2024-06-16',
+        place: 'Импилахти',
+        name: 'RED FOX ADVENTURE RACE',
+        type: 'ROGAINE',
+        fmt: '24, 48',
+        link: 'https://adventure-race.redfox.ru/docs/rules',
+        res: 'https://adventure-race.redfox.ru/results/results.pdf',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19675'
     },
     {
         id: 'SPB_20240615_1',
@@ -699,6 +873,31 @@ let events2024 = [
         ]
     },
     {
+        id: 'SPB_20240622_1',
+        date: '2024-06-22',
+        place: 'Санкт-Петербург',
+        name: 'Пальмира Севера (ЗМ)',
+        type: 'ROGAINE',
+        link: 'https://orgeo.ru/event/ps2024',
+        res: 'https://fractal.mosplay.ru/events/310274394/days/310274412/results-table',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19787'
+    },
+    {
+        id: 'SPB_20240623_1',
+        date: '2024-06-23',
+        place: 'Луга',
+        name: 'Лужский меридиан',
+        type: 'ROGAINE',
+        fmt: '3, 6 (OMR)',
+        link: [
+            'https://orgeo.ru/event/34859',
+            'https://vk.com/wall-91656163_2350'
+        ],
+        res: 'https://vk.com/doc17383066_675610275?hash=TS6ZwLzVx1HkHbnyDZ01fhWPnzoIrzozdMa4hOhZTrD',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19863',
+        owner: 'LM'
+    },
+    {
         id: 'SPB_20240624_1',
         date: '2024-06-24',
         endDate: '2024-06-27',
@@ -740,6 +939,16 @@ let events2024 = [
         o_site: '240630r'
     },
     {
+        id: 'SPB_20240629_2',
+        date: '2024-06-29',
+        place: 'Выборг',
+        name: 'Пограничье (б/п гонка)',
+        type: 'ROGAINE',
+        link: 'https://t.me/borderlandrace',
+        res: 'https://docs.google.com/spreadsheets/d/1pQEsmbSAN5J9lIg_KnmJ8iSv63hsBV6nOMs1XU2lg7Q/edit?gid=0',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19954'
+    },
+    {
         id: 'SPB_20240701_1',
         date: '2024-07-01',
         place: 'Воробьево оз',
@@ -769,6 +978,15 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/36550',
         res: 'https://o-site.spb.ru/_races/240706_tren_Dlit/20240706result.htm',
         o_site: '240706_tren_Dlit'
+    },
+    {
+        id: 'SPB_20240706_4',
+        date: '2024-07-06',
+        place: 'Псков',
+        name: 'Кубок реки Великой 2024',
+        type: 'ROGAINE',
+        link: 'https://orgeo.ru/event/info/36109',
+        res: 'https://vk.com/velikayarivercub?w=wall-40068620_1185'
     },
     {
         id: 'SPB_20240707_1',
@@ -815,6 +1033,19 @@ let events2024 = [
         o_site: '240714'
     },
     {
+        id: 'SPB_20240720_2',
+        date: '2024-07-20',
+        endDate: '2024-07-21',
+        place: 'Луга, оз. Раковическое',
+        name: '6-й Лужский приключенческий рогейн: перезагрузка',
+        type: 'ROGAINE',
+        fmt: '6, 16',
+        link: [
+            'https://vk.com/event166397868',
+            'https://orgeo.ru/event/36062'
+        ]
+    },
+    {
         id: 'SPB_20240728_1',
         date: '2024-07-28',
         name: 'Перспектива - Комарово',
@@ -822,6 +1053,21 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/36827',
         res: 'https://o-site.spb.ru/_races/240728_p/240728_split.htm',
         o_site: '240728_p'
+    },
+    {
+        id: 'SPB_20240728_2',
+        date: '2024-07-28',
+        place: 'Цвелодубово',
+        name: 'Рогейн 110%',
+        type: 'ROGAINE',
+        fmt: '3.0',
+        link: [
+            'https://orgeo.ru/event/36650',
+            'https://vk.com/rogaine110'
+        ],
+        res: 'https://vk.com/rogaine110?w=wall-197270357_1040',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20114',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20240803_1',
@@ -886,6 +1132,16 @@ let events2024 = [
         o_site: '240818'
     },
     {
+        id: 'SPB_20240825_1',
+        date: '2024-08-25',
+        place: 'Лемболово',
+        name: 'Рогейн в себе',
+        type: 'ROGAINE',
+        fmt: '3.0',
+        link: 'https://t.me/lonerogaine',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20287'
+    },
+    {
         id: 'SPB_20240831_1',
         date: '2024-08-31',
         place: 'район п. Мичуринское',
@@ -919,6 +1175,21 @@ let events2024 = [
         start: 'GS',
         o_site: '240901ZZ',
         reskeep: 665
+    },
+    {
+        id: 'SPB_20240901_2',
+        date: '2024-09-01',
+        place: 'Первомайское',
+        name: 'Рогейн 110%',
+        type: 'ROGAINE',
+        fmt: '3.0',
+        link: [
+            'https://vk.com/rogaine110',
+            'https://orgeo.ru/event/37188'
+        ],
+        res: 'https://vk.com/rogaine110?w=wall-197270357_1063',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20355',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20240907_1',
@@ -1019,6 +1290,17 @@ let events2024 = [
         o_site: '240921'
     },
     {
+        id: 'SPB_20240921_3',
+        date: '2024-09-21',
+        place: 'Лемболово',
+        name: 'Лемболовсккий мемориал',
+        type: 'ROGAINE',
+        fmt: 'Ночные соревнования по ориентированию',
+        link: 'https://spb-orient.ru/lemb/2024/lemb.html',
+        res: 'https://spb-orient.ru/lemb/2024/lemb-result-Night.html',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20592'
+    },
+    {
         id: 'SPB_20240922_1',
         date: '2024-09-22',
         place: 'П. Петровское (вблизи базы "Связист")',
@@ -1073,6 +1355,21 @@ let events2024 = [
         o_site: '240929r'
     },
     {
+        id: 'SPB_20240928_2',
+        date: '2024-09-28',
+        place: 'В.Новгород',
+        name: 'Лужский меридиан',
+        type: 'ROGAINE',
+        fmt: '3, 5',
+        link: [
+            'https://orgeo.ru/event/info/36929',
+            'https://vk.com/club91656163'
+        ],
+        res: 'https://vk.com/club91656163?w=wall-91656163_2475',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20664',
+        owner: 'LM'
+    },
+    {
         id: 'SPB_20240929_1',
         date: '2024-09-29',
         name: 'Чемпионат и Первенство Санкт-Петербурга, эстафета',
@@ -1123,6 +1420,20 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/37551',
         start: 'OKINCHITSA',
         o_site: '241005-06'
+    },
+    {
+        id: 'SPB_20241005_4',
+        date: '2024-10-05',
+        place: 'Первомайское',
+        name: 'BikeAdventure',
+        type: 'ROGAINE',
+        fmt: '6.0',
+        link: [
+            'https://orgeo.ru/event/37086',
+            'https://vk.com/bikeadventure'
+        ],
+        res: 'https://vk.com/bikeadventure?w=wall-30311715_2181',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20726'
     },
     {
         id: 'SPB_20241006_1',
@@ -1178,6 +1489,16 @@ let events2024 = [
         o_site: '241014'
     },
     {
+        id: 'SPB_20241012_3',
+        date: '2024-10-12',
+        place: 'Лемболово',
+        name: 'ОМБ',
+        type: 'ROGAINE',
+        fmt: 'марш-бросок 75км',
+        link: 'https://multsport.ru/starts/omb24',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20849'
+    },
+    {
         id: 'SPB_20241019_1',
         date: '2024-10-19',
         name: 'Первенство Красногвардейского района',
@@ -1230,6 +1551,17 @@ let events2024 = [
         fmt: 'Рогейн 4 часа. Велосипедный и беговой формат',
         start: 'MULTSPORT',
         o_site: '241020r'
+    },
+    {
+        id: 'SPB_20241020_3',
+        date: '2024-10-20',
+        place: 'Шапки',
+        name: 'Финал КЛО',
+        type: 'ROGAINE',
+        fmt: '4.0',
+        link: 'https://multsport.ru/starts/klo-final-24/rules.html',
+        res: 'https://vk.com/multsport?w=wall-8292013_9612',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20892'
     },
     {
         id: 'SPB_20241026_1',
@@ -1288,6 +1620,18 @@ let events2024 = [
         start: 'ROGAINE_110',
         strava: '12858739605',
         o_site: '241109_Markir'
+    },
+    {
+        id: 'SPB_20241116_1',
+        date: '2024-11-16',
+        place: 'Луга, Омчино',
+        name: 'Рогейн на Лужских берегах',
+        type: 'ROGAINE',
+        fmt: '3, 6',
+        link: 'https://vk.com/event166397868',
+        reg: 'https://orgeo.ru/event/38049',
+        res: 'https://vk.com/event166397868?w=wall-166397868_4588',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/21099'
     },
     {
         id: 'SPB_20241117_1',

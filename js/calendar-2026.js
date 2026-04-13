@@ -1021,6 +1021,7 @@ let events2026 = [
         name: 'Памяти дня Победы',
         place: 'Стеклянный',
         o_site: '260509',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1728',
         type: 'ORIENT',
         fmt: 'классика',
         owner: 'SFSO_SPB'

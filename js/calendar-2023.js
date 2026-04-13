@@ -121,6 +121,16 @@ let events2023 = [
         o_site: '230204'
     },
     {
+        id: 'SPB_20230204_2',
+        date: '2023-02-04',
+        place: 'Луга, оз. Штолль',
+        name: 'Лужский лыжный рогейн',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        res: 'https://vk.com/wall-166397868_3508',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/14968/'
+    },
+    {
         id: 'SPB_20230205_1',
         date: '2023-02-05',
         place: 'пос.Зеркальный',
@@ -213,6 +223,16 @@ let events2023 = [
         endDate: '2023-03-05'
     },
     {
+        id: 'SPB_20230305_1',
+        date: '2023-03-05',
+        place: 'Токсово',
+        name: 'HARD-Rogaine | Ice',
+        type: 'ROGAINE',
+        fmt: '4',
+        res: 'http://reg.o-time.ru/result/23122.htm',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/15185/'
+    },
+    {
         id: 'SPB_20230308_1',
         date: '2023-03-08',
         name: 'Снежная тропа',
@@ -294,6 +314,16 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/27702',
         res: 'https://o-site.spb.ru/_races/230402/230402_res.htm',
         o_site: '230402'
+    },
+    {
+        id: 'SPB_20230408_1',
+        date: '2023-04-08',
+        place: 'Шувалово',
+        name: 'Минирогейн',
+        type: 'ROGAINE',
+        fmt: '1',
+        res: 'https://o-site.spb.ru/_races/230312_VV/230408_res.html',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/15533/'
     },
     {
         id: 'SPB_20230409_1',
@@ -405,6 +435,37 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/230501/230501_res_official.pdf',
         info: 'Официальные соревнования с выполнением разрядов.',
         o_site: '230501'
+    },
+    {
+        id: 'SPB_20230501_2',
+        date: '2023-05-01',
+        place: 'Пальцево',
+        name: 'RockRunRace',
+        type: 'ROGAINE',
+        fmt: '8',
+        res: 'https://vk.com/wall-218862139_123?reply=124&w=wall-218862139_123',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/15912/'
+    },
+    {
+        id: 'SPB_20230506_1',
+        date: '2023-05-06',
+        place: 'Яппиля',
+        name: 'Рогейн на холмах Яппиля',
+        type: 'ROGAINE',
+        fmt: '4',
+        res: 'https://vk.com/wall-166397868_3648',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/15972/'
+    },
+    {
+        id: 'SPB_20230508_1',
+        date: '2023-05-08',
+        place: 'Зеленогорск',
+        name: 'Рогейн 110%',
+        type: 'ROGAINE',
+        fmt: '3',
+        res: 'https://vk.com/wall-197270357_753',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16021/',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20230509_1',
@@ -585,6 +646,39 @@ let events2023 = [
         o_site: '230612'
     },
     {
+        id: 'SPB_20230610_2',
+        date: '2023-06-10',
+        place: 'Луга, Шалово',
+        name: 'Лужский Меридиан',
+        type: 'ROGAINE',
+        fmt: '4',
+        res: 'https://vk.com/wall-91656163_2242',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16419/',
+        owner: 'LM'
+    },
+    {
+        id: 'SPB_20230611_1',
+        date: '2023-06-11',
+        place: 'Лемболово',
+        name: 'Рогейн-110%, 2 этап',
+        type: 'ROGAINE',
+        fmt: '3',
+        res: 'https://vk.com/wall-197270357_814',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16434/',
+        start: 'ROGAINE_110'
+    },
+    {
+        id: 'SPB_20230611_2',
+        date: '2023-06-11',
+        endDate: '2023-06-14',
+        place: 'Карелия',
+        name: 'RED FOX ADVENTURE RACE',
+        type: 'MULTI',
+        fmt: '48',
+        res: 'https://adventure-race.redfox.ru/archive/archive_2023/results/',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16300/'
+    },
+    {
         id: 'SPB_20230612_1',
         date: '2023-06-12',
         endDate: '2023-06-18',
@@ -629,6 +723,16 @@ let events2023 = [
         ]
     },
     {
+        id: 'SPB_20230617_2',
+        date: '2023-06-17',
+        place: 'Моторное',
+        name: 'HARD ROGAINE FEST',
+        type: 'ROGAINE',
+        fmt: '4, 8',
+        res: 'https://vk.com/hardrogaine?w=wall-162510284_2679',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16496/'
+    },
+    {
         id: 'SPB_20230618_1',
         date: '2023-06-18',
         place: 'Зеленогорск, Черные озера',
@@ -647,7 +751,10 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/28788',
         res: 'http://orgeo.ru/live/#/28788/3',
-        video: ['https://www.youtube.com/watch?v=mFBr2MNJL9M','https://www.youtube.com/watch?v=0N8VrUFS6Wk&pp=0gcJCdoKAYcqIYzv'],
+        video: [
+            'https://www.youtube.com/watch?v=mFBr2MNJL9M',
+            'https://www.youtube.com/watch?v=0N8VrUFS6Wk&pp=0gcJCdoKAYcqIYzv'
+        ],
         start: 'MMS',
         o_site: 'mms2023',
         reskeep: [
@@ -655,6 +762,17 @@ let events2023 = [
             596,
             597
         ]
+    },
+    {
+        id: 'SPB_20230624_1',
+        date: '2023-06-24',
+        endDate: '2023-06-25',
+        place: 'Ладога',
+        name: 'HARD ROGAINE | Ladoga I',
+        type: ['WATER','ROGAINE'],
+        fmt: '6',
+        res: 'http://hardrogaine.ru/HR_Ladoga_I_2023_%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B.htm',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16571/'
     },
     {
         id: 'SPB_20230626_1',
@@ -752,6 +870,16 @@ let events2023 = [
         ]
     },
     {
+        id: 'SPB_20230722_2',
+        date: '2023-07-22',
+        place: 'Ладога',
+        name: 'HARD ROGAINE | Ladoga II',
+        type: ['WATER','ROGAINE'],
+        fmt: '6, 10',
+        res: 'http://hardrogaine.ru/HR_Ladoga_2_2023_rez.htm',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16880/'
+    },
+    {
         id: 'SPB_20230805_1',
         date: '2023-08-05',
         endDate: '2023-08-06',
@@ -793,6 +921,17 @@ let events2023 = [
         ]
     },
     {
+        id: 'SPB_20230812_2',
+        date: '2023-08-12',
+        endDate: '2023-08-13',
+        place: 'Луга, Шалово',
+        name: 'Лужский приключенческий рогейн',
+        type: 'ROGAINE',
+        fmt: '24',
+        res: 'https://vk.com/wall-166397868_3883',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16998/'
+    },
+    {
         id: 'SPB_20230813_1',
         date: '2023-08-13',
         place: 'Район оз. Зеркальное',
@@ -823,6 +962,21 @@ let events2023 = [
         reskeep: 603
     },
     {
+        id: 'SPB_20230819_1',
+        date: '2023-08-19',
+        endDate: '2023-08-20',
+        place: 'Бородинское',
+        name: 'HARD ADVENTURE RACE',
+        type: 'ROGAINE',
+        fmt: '8, 24',
+        res: 'http://hardrogaine.ru/HARD_ADVENTURE_RACE_results.htm',
+        gps: {
+            'бег': 'https://viewer.o-gps-center.ru/viewer/event/17034/',
+            'вело': 'https://viewer.o-gps-center.ru/viewer/event/17052/',
+            'гонка': 'https://viewer.o-gps-center.ru/viewer/event/17041/'
+        }
+    },
+    {
         id: 'SPB_20230820_1',
         date: '2023-08-20',
         name: 'Рогейн-110',
@@ -842,6 +996,15 @@ let events2023 = [
         start: 'GS',
         o_site: '230826ZZ',
         reskeep: 590
+    },
+    {
+        id: 'SPB_20230826_2',
+        date: '2023-08-26',
+        place: 'Выборгский район',
+        name: 'Приключенческий рогейн History Race',
+        type: 'ROGAINE',
+        res: 'https://vk.com/wall-97183103_1422',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17089/'
     },
     {
         id: 'SPB_20230827_1',
@@ -913,6 +1076,16 @@ let events2023 = [
         o_site: '230909'
     },
     {
+        id: 'SPB_20230909_3',
+        date: '2023-09-09',
+        place: 'Псков',
+        name: 'Псковский городской рогейн',
+        type: 'ROGAINE',
+        fmt: '6',
+        res: 'https://vk.com/rogainpskov?w=wall-170062837_717',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17178/'
+    },
+    {
         id: 'SPB_20230910_1',
         date: '2023-09-10',
         place: 'ЛО, Выборгский р-н, окрестности ж/д станции Каннельярви и п.Семиозерье',
@@ -924,6 +1097,17 @@ let events2023 = [
         owner: 'SFSO_SPB',
         o_site: '230910',
         reskeep: 618
+    },
+    {
+        id: 'SPB_20230910_2',
+        date: '2023-09-10',
+        place: 'Лемболово',
+        name: 'Рогейн 110% - финал',
+        type: 'ROGAINE',
+        fmt: '3',
+        res: 'https://vk.com/wall-197270357_963',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17188/',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20230916_1',
@@ -1071,6 +1255,16 @@ let events2023 = [
         o_site: '230929'
     },
     {
+        id: 'SPB_20230930_1',
+        date: '2023-09-30',
+        place: 'Луга, Шалово',
+        name: 'На Лужских берегах',
+        type: 'ROGAINE',
+        fmt: '6',
+        res: 'https://vk.com/wall-166397868_4003',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17419/'
+    },
+    {
         id: 'SPB_20231001_1',
         date: '2023-10-01',
         place: 'п.Аньялово',
@@ -1148,6 +1342,17 @@ let events2023 = [
         type: 'ORIENT',
         info: 'Проходит при поддержке: ДоДо Пицца',
         o_site: '231014_PZVP'
+    },
+    {
+        id: 'SPB_20231014_3',
+        date: '2023-10-14',
+        place: 'Луга, ДОЛ "Звёздный"',
+        name: 'Лужский Меридиан',
+        type: 'ROGAINE',
+        fmt: '4',
+        res: 'https://vk.com/wall-91656163_2272',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17568/',
+        owner: 'LM'
     },
     {
         id: 'SPB_20231015_1',
@@ -1261,6 +1466,26 @@ let events2023 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 621
+    },
+    {
+        id: 'SPB_20231028_4',
+        date: '2023-10-28',
+        place: 'Сосновый бор',
+        name: 'Ночной рогейн',
+        type: 'ROGAINE',
+        fmt: '1,5',
+        res: 'https://vk.com/juventa_sbor?w=wall-201330282_1124',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17679/'
+    },
+    {
+        id: 'SPB_20231028_5',
+        date: '2023-10-28',
+        place: 'Орехово',
+        name: 'HARD-Rogaine | Night',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        res: 'http://hardrogaine.ru/HR_Night2023_results.htm',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17677/'
     },
     {
         id: 'SPB_20231029_1',
