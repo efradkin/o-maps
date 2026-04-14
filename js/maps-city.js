@@ -2094,11 +2094,11 @@ let cityMaps = [
         name: 'Университет физкультуры и спорта им.Лесгафта',
         year: 2025,
         url: './maps/city/lesgafta_2025.webp',
-        link: './original_maps/city/lesgafta_2025_omaps.jpg',
+        link: ['./original_maps/city/lesgafta_2025_omaps.jpg','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[59.92858164974948, 30.28767585754395], [59.928130063053224, 30.29190301895142], [59.925560202692616, 30.286474227905277]],
         author: ['SHRNN','LMVA'],
         owner: ['LMVA','SHRNN'],
-        type: ['CITY']
+        type: ['CITY','FOTO']
     },
     {
         name: 'Балтийский Берег',
@@ -2265,11 +2265,11 @@ let cityMaps = [
         name: 'Светлый Мир Внутри',
         year: 2025,
         url: './maps/city/light_world_inside_2025.webp',
-        link: './original_maps/city/light_world_inside_2025_omaps.gif',
+        link: ['./original_maps/city/light_world_inside_2025_omaps.gif','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[60.131509355228225, 29.93908524513245], [60.130862836495425, 29.944953918457035], [60.12786517457236, 29.937465190887455]],
         author: ['SHRNN','TRFMV_A'],
         owner: 'SHRNN',
-        type: ['CITY'],
+        type: ['CITY','FOTO'],
     },
     {
         name: 'Богатырский пр',

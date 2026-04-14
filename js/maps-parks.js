@@ -318,9 +318,9 @@ let parkMaps = [
         name: 'Удельный парк',
         year: 2021,
         url: './maps/parks/udelny_2022.webp',
-        link: './original_maps/parks/udelny_2021_omaps.jpg',
+        link: ['./original_maps/parks/udelny_2021_omaps.jpg','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[60.01657727196921, 30.293726921081547], [60.0135102204092, 30.324454307556152], [60.003470607537736, 30.288448333740238]],
-        type: ['PARK'],
+        type: ['PARK','FOTO'],
         author: 'LVCHV',
         owner: 'SFSO_SPB'
     },
@@ -462,11 +462,11 @@ let parkMaps = [
         name: 'Таврический сад',
         year: 2025,
         url: './maps/parks/tavrichesky_2025.webp',
-        link: './original_maps/parks/tavrichesky_2025_omaps.jpg',
+        link: ['./original_maps/parks/tavrichesky_2025_omaps.jpg','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[59.94842388850684, 30.368850231170658], [59.94747826578113, 30.379149913787845], [59.94386745814988, 30.36726236343384]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        type: ['PARK']
+        type: ['PARK','FOTO']
     },
     {
         name: 'Каменный о-в',
@@ -627,7 +627,7 @@ let parkMaps = [
         month: 1,
         start: 'RED_SELO_FOTO',
         url: './maps/parks/sergievka_1989.webp',
-        link: ['./original_maps/parks/sergievka_1989_clean_omaps.jpg','./original_maps/parks/sergievka_1989_omaps.jpg','./original_maps/parks/sergievka_1989_pictures.jpg'],
+        link: ['./original_maps/parks/sergievka_1989_clean_omaps.jpg','./original_maps/parks/sergievka_1989_omaps.jpg','./original_maps/parks/sergievka_1989_pictures.jpg','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[59.899850648980106, 29.820370674133304], [59.8984946973319, 29.853544235229496], [59.885491970278125, 29.821143150329593]],
         author: 'OSMCHN',
         type: ['PARK','FOTO']
@@ -813,9 +813,9 @@ let parkMaps = [
         name: 'Парк Политеха',
         year: 2022,
         url: './maps/parks/politekh_2022.webp',
-        link: ['./original_maps/parks/politekh_2022_omaps.jpg','./original_maps/parks/politekh_2016_omaps.jpg'],
+        link: ['./original_maps/parks/politekh_2022_omaps.jpg','./original_maps/parks/politekh_2016_omaps.jpg','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[60.009649191555134, 30.36827087402344], [60.00945612827708, 30.385394096374515], [60.00235490683813, 30.367970466613773]],
-        type: ['PARK'],
+        type: ['PARK','FOTO'],
         author: 'ZCHNV',
         owner: 'SFSO_SPB'
     },
@@ -1057,11 +1057,11 @@ let parkMaps = [
         name: 'Павловский парк',
         year: 2003,
         url: './maps/parks/pavlovsk_2012.webp',
-        link: ['./original_maps/parks/pavlovsk_2012_omaps.jpg','./original_maps/parks/pavlovsk_2012_omaps.gif'],
+        link: ['./original_maps/parks/pavlovsk_2012_omaps.jpg','./original_maps/parks/pavlovsk_2012_omaps.gif','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[59.703265193681084, 30.442900657653812], [59.70060215436709, 30.486330986022953], [59.68739208083911, 30.439124107360843]],
         author: ['VLKV_K','URVNTSV'],
         owner: 'SFSO_SPB',
-        type: ['PARK']
+        type: ['PARK','FOTO']
     },
     {
         name: 'парк Мариенталь',
@@ -1613,21 +1613,21 @@ let parkMaps = [
         name: 'Польский сад',
         year: 2023,
         url: './maps/parks/polsky_sad.webp',
-        link: './original_maps/parks/polsky_sad_2023_omaps.jpg',
+        link: ['./original_maps/parks/polsky_sad_2023_omaps.jpg','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[59.91943044350125, 30.309884548187256], [59.91907552802983, 30.31357526779175], [59.91696746701024, 30.30885457992554]],
         author: 'SHRNN',
         owner: 'VOLKOV_AM',
-        type: ['PARK']
+        type: ['PARK','FOTO']
     },
     {
         name: 'Измайловский сад',
         year: 2023,
         url: './maps/parks/izmajlovsky_sad.webp',
-        link: './original_maps/parks/izmajlovsky_sad_omaps.jpg',
+        link: ['./original_maps/parks/izmajlovsky_sad_omaps.jpg','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[59.92028007421066, 30.311944484710697], [59.919935922620226, 30.314497947692875], [59.91864532236978, 30.311236381530765]],
         author: 'SHRNN',
         owner: 'SHRNN',
-        type: ['PARK']
+        type: ['PARK','FOTO']
     },
     {
         name: 'Лопухинский сад',
@@ -1653,11 +1653,11 @@ let parkMaps = [
         name: 'Пионерская пл, ТЮЗ',
         year: 2023,
         url: './maps/parks/tuz_2023.webp',
-        link: './original_maps/parks/tuz_2023_omaps.jpg',
+        link: ['./original_maps/parks/tuz_2023_omaps.jpg','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[59.923721393827826, 30.331149101257328], [59.92266752760656, 30.340633392333988], [59.91855928056855, 30.328745841979984]],
         author: 'SHRNN',
         owner: 'VOLKOV_AM',
-        type: ['PARK']
+        type: ['PARK','FOTO']
     },
     {
         name: 'Кириши, сквер Спортивный',
