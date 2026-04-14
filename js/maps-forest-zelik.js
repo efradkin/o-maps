@@ -909,13 +909,24 @@ let zelikMaps = [
     },
     {
         name: 'Сестрорецк, Ласковый пляж',
-        year: 2026,
+        year: 2023,
         url: './maps/forest/zelik/sestroretsk_pljazh_laskovy_2023.webp',
-        link: ['./original_maps/forest/zelik/sestroretsk_pljazh_laskovy_2023_omaps.jpg','./original_maps/forest/zelik/sestroretsk_pljazh_laskovy_2026_omaps.gif'],
+        link: './original_maps/forest/zelik/sestroretsk_pljazh_laskovy_2023_omaps.jpg',
         bounds: [[60.14590579873828, 29.92581367492676], [60.14403648673156, 29.94210004806519], [60.13880184782073, 29.922959804534912]],
-        author: ['KUZNTSV_A','SHRNN'],
+        author: 'KUZNTSV_A',
         owner: 'SFSO_SPB'
     },
+/*
+    {
+        name: 'Сестрорецк, Ласковый пляж',
+        year: 2026,
+        url: './maps/forest/zelik/sestroretsk_pljazh_laskovy_2026.webp',
+        link: './original_maps/forest/zelik/sestroretsk_pljazh_laskovy_2026_omaps.gif',
+        bounds: [[60.1461514718449, 29.92637157440186], [60.14479490612657, 29.94210004806519], [60.13922919651106, 29.92362499237061]],
+        author: 'SHRNN', // 'KUZNTSV_A' попросил убрать себя
+        owner: 'SFSO_SPB'
+    },
+*/
 /*
     {
         name: 'Симагино - Майнило',
