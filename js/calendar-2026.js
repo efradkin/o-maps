@@ -866,6 +866,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/51917',
         type: 'ORIENT',
         fmt: 'спринт',
+        info: 'Закрытое мероприятие.',
         map: 'kurakina_dacha_2023'
     },
     {

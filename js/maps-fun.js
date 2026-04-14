@@ -452,4 +452,22 @@ let funMaps = [
         bounds: [[59.83382911565534, 30.125262737274173], [59.83271848052935, 30.14206409454346], [59.827089255293465, 30.123524665832523]],
         type: ['PARK','FOTO']
     },
+    {
+        name: 'Монрепо',
+        year: 2026,
+        url: './maps/fun/monrepo_foto_2026.webp',
+        link: ['./original_maps/fun/monrepo_foto_2026_omaps.webp','./original_maps/fun/shirinyan_foto_158_monrepo_east_2026_omaps.pdf'],
+        bounds: [[60.73474361994071, 28.725482225418094], [60.733736596872205, 28.7383246421814], [60.73112972900354, 28.724259138107303]],
+        author: ['SHRNN','KRTSHV'],
+        type: ['PARK','FOTO']
+    },
+    {
+        name: 'Монрепо, Китай',
+        year: 2026,
+        url: './maps/fun/monrepo_china_foto_2026.webp',
+        link: ['./original_maps/fun/monrepo_china_foto_2026_omaps.webp','./original_maps/fun/shirinyan_foto_157_monrepo_west_2026_omaps.pdf'],
+        bounds: [[60.73758094735916, 28.7198281288147], [60.73681001629031, 28.729398250579834], [60.7338205166676, 28.718283176422123]],
+        author: ['SHRNN','KRTSHV'],
+        type: ['PARK','FOTO']
+    },
 ];
