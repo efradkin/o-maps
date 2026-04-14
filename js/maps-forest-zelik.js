@@ -916,17 +916,16 @@ let zelikMaps = [
         author: 'KUZNTSV_A',
         owner: 'SFSO_SPB'
     },
-/*
     {
         name: 'Сестрорецк, Ласковый пляж',
         year: 2026,
         url: './maps/forest/zelik/sestroretsk_pljazh_laskovy_2026.webp',
         link: './original_maps/forest/zelik/sestroretsk_pljazh_laskovy_2026_omaps.gif',
         bounds: [[60.1461514718449, 29.92637157440186], [60.14479490612657, 29.94210004806519], [60.13922919651106, 29.92362499237061]],
+        info: 'Использованы материалы карты 23-го года Александра Кузнецова.',
         author: 'SHRNN', // 'KUZNTSV_A' попросил убрать себя
         owner: 'SFSO_SPB'
     },
-*/
 /*
     {
         name: 'Симагино - Майнило',
