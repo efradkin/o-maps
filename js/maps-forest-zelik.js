@@ -909,11 +909,11 @@ let zelikMaps = [
     },
     {
         name: 'Сестрорецк, Ласковый пляж',
-        year: 2023,
+        year: 2026,
         url: './maps/forest/zelik/sestroretsk_pljazh_laskovy_2023.webp',
-        link: './original_maps/forest/zelik/sestroretsk_pljazh_laskovy_2023_omaps.jpg',
+        link: ['./original_maps/forest/zelik/sestroretsk_pljazh_laskovy_2023_omaps.jpg','./original_maps/forest/zelik/sestroretsk_pljazh_laskovy_2026_omaps.gif'],
         bounds: [[60.14590579873828, 29.92581367492676], [60.14403648673156, 29.94210004806519], [60.13880184782073, 29.922959804534912]],
-        author: 'KUZNTSV_A',
+        author: ['KUZNTSV_A','SHRNN'],
         owner: 'SFSO_SPB'
     },
 /*

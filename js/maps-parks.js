@@ -1155,11 +1155,12 @@ let parkMaps = [
     },
     {
         name: 'Сестрорецк, парк Дубки',
-        year: 2020,
+        year: 2026,
         url: './maps/parks/sestroretsk_dubki_2020.webp',
-        link: './original_maps/parks/sestroretsk_dubki_2020_omaps.jpg',
+        link: './original_maps/parks/sestroretsk_dubki_2026_omaps.gif',
         bounds: [[60.09616730546285, 29.921779632568363], [60.09412399463667, 29.94609117507935], [60.0876936926033, 29.918518066406254]],
-        author: 'DBRTSV_V',
+        author: ['DBRTSV_V','TKMKVA_P'],
+        editor: ['RYLOV_V','SHRNN'],
         owner: 'SFSO_SPB',
         type: ['PARK']
     },

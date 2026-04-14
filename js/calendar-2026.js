@@ -985,6 +985,16 @@ let events2026 = [
         start: 'GORNY_CROSS'
     },
     {
+        id: 'SPB_20260501_1',
+        date: '2026-05-01',
+        place: 'Гарболово',
+        o_site: '260501',
+        reg: 'http://orgeo.ru/event/info/52020',
+        name: 'Приз газеты «Всеволожские вести»',
+        type: 'ORIENT',
+        map: 'garbolovo_2016',
+    },
+    {
         id: 'SPB_20260502_2',
         date: '2026-05-02',
         name: 'Мемориал Ирины Вилениновны Степановой',
