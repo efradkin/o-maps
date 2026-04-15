@@ -364,7 +364,7 @@ let commonEvents2026 = [
 },
 {
     id: 'SPB_20260613_1',
-    date: '2026-06-13',
+    date: '2026-06-12',
     place: 'Сортавала',
     name: 'RED FOX ADVENTURE RACE',
     fmt: '48, 24, 12',

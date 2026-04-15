@@ -891,6 +891,16 @@ let events2026 = [
         map: 'nevsky_2024'
     },
     {
+        id: 'SPB_20260418_4',
+        date: '2026-04-18',
+        name: 'П-во Кировского р-она',
+        place: 'Воронцовский сквер',
+        reg: 'https://orgeo.ru/event/52026',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        map: 'vorontsovsky_skver_2024'
+    },
+    {
         id: 'SPB_20260419_1',
         date: '2026-04-19',
         name: 'Перспектива',
@@ -1185,22 +1195,13 @@ let events2026 = [
         date: '2026-05-30',
         name: 'BikeAdventure',
         place: 'Оленьи оз',
-        type: [
-            'ROGAINE',
-            'VELO'
-        ],
+        type: ['ROGAINE', 'VELO'],
         fmt: '24, 12, 6',
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/48965',
         info: '+ беговой TrailAdventure.',
-        start: [
-            'BA',
-            'TA'
-        ],
-        owner: [
-            'BKTV',
-            'SHBN'
-        ]
+        start: ['BA', 'TA'],
+        owner: ['BKTV', 'SHBN']
     },
     {
         id: 'SPB_20260530_3',

@@ -1,5 +1,14 @@
 let events2015 = [
     {
+        id: 'SPB_20150106_1',
+        date: '2015-01-06',
+        place: 'Финляндия',
+        name: 'Loppiais Rogaining',
+        type: 'ROGAINE',
+        fmt: '8 часов',
+        link: 'http://loppiaisrogaining.wordpress.com/'
+    },
+    {
         id: 'SPB_20150109_1',
         date: '2015-01-09',
         endDate: '2015-01-10',
@@ -150,7 +159,8 @@ let events2015 = [
         name: 'Лыжный рогейн 100Х24',
         type: 'ROGAINE',
         res: 'http://www.100x24.ru/2015/results/100x24_20150301.htm',
-        o_site: '150301r'
+        o_site: '150301r',
+        start: '100x24'
     },
     {
         id: 'SPB_20150301_2',
@@ -191,12 +201,29 @@ let events2015 = [
         o_site: '150311'
     },
     {
+        id: 'SPB_20150321_1',
+        date: '2015-03-21',
+        place: 'Эстония, Таллинн',
+        name: 'XT Winter rogaine',
+        type: 'ROGAINE',
+        fmt: '4 часа',
+        link: 'http://www.xtsport.ee/'
+    },
+    {
         id: 'SPB_20150329_1',
         date: '2015-03-29',
         name: 'Тренировка команды Кузьмолово',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         o_site: '150329'
+    },
+    {
+        id: 'SPB_20150329_2',
+        date: '2015-03-29',
+        place: 'Финляндия, Турку',
+        name: 'Turku Rogaining Wintersprint',
+        type: 'ROGAINE',
+        link: 'http://www.ivk.fi/rogaining/'
     },
     {
         id: 'SPB_20150401_1',
@@ -328,6 +355,24 @@ let events2015 = [
         o_site: '150502_zerkal'
     },
     {
+        id: 'SPB_20150502_2',
+        date: '2015-05-02',
+        place: 'Финляндия, Päijänne Tavastia',
+        name: 'Salpaus-Rogaining',
+        type: 'ROGAINE',
+        fmt: '6 и 12 часов бегом',
+        link: 'http://rogaine.wordpress.com/'
+    },
+    {
+        id: 'SPB_20150502_3',
+        date: '2015-05-02',
+        place: 'Латвия',
+        name: 'Rezekne rogain',
+        type: 'ROGAINE',
+        fmt: '6 и 12 часов бегом',
+        link: 'http://rogaining.lv'
+    },
+    {
         id: 'SPB_20150503_1',
         date: '2015-05-03',
         name: 'Учебно-тренировочный сбор в ЗЦ «Зеркальный»',
@@ -356,6 +401,15 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150509/150509_res_r.htm',
         info: 'Открытые городские соревнования "День Победы" - открытие летнего ссезона. На соревнованиях возможно выполнение массовых разрядов.',
         o_site: '150509'
+    },
+    {
+        id: 'SPB_20150510_1',
+        date: '2015-05-10',
+        place: 'Всеволожск',
+        name: 'Кубок Всеволожского района. 1-й этап',
+        type: 'ROGAINE',
+        fmt: '4 часа бегом и вело',
+        link: 'http://o-site.spb.ru/news.php'
     },
     {
         id: 'SPB_20150511_1',
@@ -704,7 +758,8 @@ let events2015 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'http://100x24.ru/2015/results/20150816_res.htm',
-        o_site: '150816_velo'
+        o_site: '150816_velo',
+        start: '100x24'
     },
     {
         id: 'SPB_20150823_1',
@@ -801,6 +856,15 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150919_velo/20150919_res.htm',
         owner: 'SFSO_SPB',
         o_site: '150919_velo'
+    },
+    {
+        id: 'SPB_20150919_2',
+        date: '2015-09-19',
+        place: 'Красноярский край',
+        name: '12-й Чемпионат России по рогейну',
+        type: 'ROGAINE',
+        fmt: '24 часа бегом',
+        link: 'http://kras-rogaining.ru/'
     },
     {
         id: 'SPB_20150920_1',
@@ -945,6 +1009,15 @@ let events2015 = [
         o_site: '151017_Az'
     },
     {
+        id: 'SPB_20151017_3',
+        date: '2015-10-17',
+        place: 'Лемболово-Орехово',
+        name: 'Рогейн',
+        type: 'ROGAINE',
+        fmt: '6/8 часов бегом и вело',
+        link: 'http://www.multsport.ru/'
+    },
+    {
         id: 'SPB_20151018_1',
         date: '2015-10-18',
         place: 'пос. Песочный',
@@ -1031,6 +1104,16 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/151114R/151114R_res.pdf',
         fmt: 'БЕГ - 7 и 3 часа, ВЕЛО - 6 часов',
         o_site: '151114R'
+    },
+    {
+        id: 'SPB_20151114_2',
+        date: '2015-11-14',
+        place: 'Зеленогорск',
+        name: 'Горный кросс-50',
+        type: 'ROGAINE',
+        fmt: '3 и 6 часов бегом и вело',
+        link: 'http://gornycross.narod.ru',
+        start: 'GK'
     },
     {
         id: 'SPB_20151115_1',

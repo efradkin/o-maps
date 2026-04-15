@@ -32,6 +32,16 @@ let events2021 = [
         o_site: '210108-09_rs'
     },
     {
+        id: 'SPB_20210109_1',
+        date: '2021-01-09',
+        place: 'Орехово',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20210116_1',
         date: '2021-01-16',
         name: 'Индивидуальная тренировка Weekly Orient Ollila',
@@ -110,6 +120,15 @@ let events2021 = [
         type: 'ORIENT',
         o_site: 'lembolovo-tour',
         endDate: '2021-02-06'
+    },
+    {
+        id: 'SPB_20210206_1',
+        date: '2021-02-06',
+        place: 'Приозерский район',
+        name: 'Женсть-рогейн (приключенческий)',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'https://vk.com/zhenst_rogaine'
     },
     {
         id: 'SPB_20210207_1',
@@ -225,6 +244,15 @@ let events2021 = [
         reskeep: 423
     },
     {
+        id: 'SPB_20210306_1',
+        date: '2021-03-06',
+        place: 'Луга, оз. Омчино',
+        name: 'Лужский лыжный рогейн',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'https://vk.com/event166397868'
+    },
+    {
         id: 'SPB_20210307_1',
         date: '2021-03-07',
         name: 'Закрытие сезона',
@@ -296,6 +324,15 @@ let events2021 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 429
+    },
+    {
+        id: 'SPB_20210410_1',
+        date: '2021-04-10',
+        place: 'Луга, Шалово-Крупели',
+        name: 'Новгородский Меридиан',
+        type: 'ROGAINE',
+        fmt: '4, 2',
+        link: 'https://vk.com/club91656163'
     },
     {
         id: 'SPB_20210411_2',
@@ -410,6 +447,15 @@ let events2021 = [
         ]
     },
     {
+        id: 'SPB_20210424_2',
+        date: '2021-04-24',
+        place: 'Сиверская',
+        name: 'На оредежских берегах',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'https://vk.com/event166397868'
+    },
+    {
         id: 'SPB_20210425_1',
         date: '2021-04-25',
         place: 'Курортный район СПб, Сестрорецкие Дюны, Кисельный пер',
@@ -484,6 +530,16 @@ let events2021 = [
         info: 'Многоэтапные лично-командные соревнования по спортивному ориентированию «Кубок федераций Санкт-Петербурга и Ленинградской области» проводятся Федерациями спортивного ориентирования Санкт-Петербурга и Ленинградской области с целью развития клубного движения и выявления сильнейших спортсменов-ориентировщиков и сильнейших клубов спортивного ориентирования СПб и ЛО. 1-й этап 15.05 ЧиП СПб, спринт. ЧиП ЛО, спринт. Лесопарк «Новознаменка». Рейтинг 2-й этап 06.06 Чемпионат и Первенство СПб, лонг. Орехово. Рейтинг 3-й этап 12.09 Чемпионат и Первенство ЛО, классика. Петяярви. Рейтинг 4-й этап 19.09 Чемпионат и Первенство СПб, классика-общий старт. Вещево. Рейтинг 5-й этап 02.10 Чемпионат и Первенство СПб, эстафета. Токсово. Рейтинг 6-й этап 10.10 Чемпионат и Первенство СПб, марафон/лонг-общий старт. Цвелодубово. Рейтинг 7-й этап 17.10 "Золотая осень", 2 день, лонг. Выборг. Рейтинг',
         o_site: 'SPb_LO_Cup_2021',
         endDate: '2021-10-31'
+    },
+    {
+        id: 'SPB_20210501_4',
+        date: '2021-05-01',
+        place: 'Луга, оз. Омчино',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
     },
     {
         id: 'SPB_20210502_1',
@@ -614,6 +670,15 @@ let events2021 = [
         o_site: '210515r'
     },
     {
+        id: 'SPB_20210515_4',
+        date: '2021-05-15',
+        place: 'Луга, оз. Омчино',
+        name: 'Новгородский Меридиан',
+        type: 'ROGAINE',
+        fmt: '4, 2',
+        link: 'https://vk.com/club91656163'
+    },
+    {
         id: 'SPB_20210516_1',
         date: '2021-05-16',
         place: 'Баболовский парк, г. Пушкин',
@@ -642,6 +707,15 @@ let events2021 = [
         res: 'http://sportident.online/ol/?id=347',
         owner: 'SFSO_SPB',
         o_site: '210522'
+    },
+    {
+        id: 'SPB_20210522_2',
+        date: '2021-05-22',
+        place: 'Приозерский район',
+        name: 'BikeAdventure, TrailAdventure',
+        type: 'ROGAINE',
+        fmt: '12',
+        link: 'http://tradventure.ru , http://bikeadventure.ru'
     },
     {
         id: 'SPB_20210523_1',
@@ -714,6 +788,25 @@ let events2021 = [
         type: 'ORIENT',
         reskeep: 470,
         owner: 'WN'
+    },
+    {
+        id: 'SPB_20210529_4',
+        date: '2021-05-29',
+        place: 'Кузнечное',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '24, 8, 3',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
+    },
+    {
+        id: 'SPB_20210529_5',
+        date: '2021-05-29',
+        place: 'Чудовский р-н, Грузино',
+        name: 'Семейный рогейн',
+        type: 'ROGAINE',
+        fmt: '2',
+        link: 'https://vk.com/event166397868'
     },
     {
         id: 'SPB_20210530_1',
@@ -848,6 +941,16 @@ let events2021 = [
         o_site: '210618_trailo'
     },
     {
+        id: 'SPB_20210613_2',
+        date: '2021-06-13',
+        place: 'По назначению',
+        name: 'Рогейн 110%',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'https://vk.com/rogaine110',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20210619_1',
         date: '2021-06-19',
         name: 'Индивидуальная тренировка MTBO',
@@ -855,6 +958,15 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1277',
         res: 'https://o-site.spb.ru/_races/210619_mtbo/210619_res.htm',
         o_site: '210619_mtbo'
+    },
+    {
+        id: 'SPB_20210619_2',
+        date: '2021-06-19',
+        place: 'Псковский р-н, Муровицы',
+        name: 'Кубок реки Великой',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'https://vk.com/velikayarivercub'
     },
     {
         id: 'SPB_20210620_1',
@@ -880,6 +992,15 @@ let events2021 = [
         o_site: '210627'
     },
     {
+        id: 'SPB_20210626_2',
+        date: '2021-06-26',
+        place: 'Лахденпохский р-н',
+        name: 'HARD-Rogaine | Ladoga',
+        type: 'ROGAINE',
+        fmt: '16, 10, 6',
+        link: 'https://vk.com/hardrogaine'
+    },
+    {
         id: 'SPB_20210701_1',
         date: '2021-07-01',
         name: 'Индивидуальные тренировки по ориентированию',
@@ -888,6 +1009,24 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210701_open/01072021F.htm',
         info: 'Индивидуальные тренировки по ориентированию (бегом) 1 июля: Охта-парк',
         o_site: '210701_open'
+    },
+    {
+        id: 'SPB_20210703_1',
+        date: '2021-07-03',
+        place: 'Луга, Б.Крупели',
+        name: 'Новгородский Меридиан (ночной)',
+        type: 'ROGAINE',
+        fmt: '4, 2',
+        link: 'https://vk.com/club91656163'
+    },
+    {
+        id: 'SPB_20210703_2',
+        date: '2021-07-03',
+        place: 'Себеж',
+        name: 'Чемпионат России по рогейну на байдарках',
+        type: 'ROGAINE',
+        fmt: '12',
+        link: 'https://vk.com/gornycross'
     },
     {
         id: 'SPB_20210710_1',
@@ -903,6 +1042,25 @@ let events2021 = [
         o_site: '2021BN_0710'
     },
     {
+        id: 'SPB_20210717_1',
+        date: '2021-07-17',
+        place: 'Луга, Шалово',
+        name: 'Лужский приключенческий рогейн',
+        type: 'ROGAINE',
+        fmt: '8, 4',
+        link: 'https://vk.com/event166397868'
+    },
+    {
+        id: 'SPB_20210801_1',
+        date: '2021-08-01',
+        place: 'Сосново',
+        name: 'Рогейн 110%',
+        type: 'ROGAINE',
+        fmt: '3',
+        link: 'https://vk.com/rogaine110',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20210807_1',
         date: '2021-08-07',
         name: 'Яркий Кубок #6',
@@ -911,12 +1069,30 @@ let events2021 = [
         reskeep: 480
     },
     {
+        id: 'SPB_20210807_3',
+        date: '2021-08-07',
+        place: 'Выборгский район',
+        name: 'Чемпионат СЗФО по рогейну',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'https://vk.com/event166397868'
+    },
+    {
         id: 'SPB_20210808_1',
         date: '2021-08-08',
         name: 'Яркий Кубок. Отдельный старт',
         place: 'Первомайское',
         type: 'ORIENT',
         reskeep: 481,
+    },
+    {
+        id: 'SPB_20210814_1',
+        date: '2021-08-14',
+        place: 'Воробьёво оз.',
+        name: 'HARD-Adventure Race',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'https://vk.com/hardrogaine'
     },
     {
         id: 'SPB_20210815_1',
@@ -955,6 +1131,16 @@ let events2021 = [
             483,
             484
         ]
+    },
+    {
+        id: 'SPB_20210822_1',
+        date: '2021-08-22',
+        place: 'Мичуринское',
+        name: 'Рогейн 110%',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'https://vk.com/rogaine110',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20210827_1',
@@ -1023,6 +1209,15 @@ let events2021 = [
         owner: 'WN',
         reskeep: 462,
         me: 'М'
+    },
+    {
+        id: 'SPB_20210904_4',
+        date: '2021-09-04',
+        place: 'Псков',
+        name: 'Псковский городской рогейн',
+        type: 'ROGAINE',
+        fmt: '4, 2',
+        link: 'https://opskov.ru/pgr2021/'
     },
     {
         id: 'SPB_20210905_1',
@@ -1099,6 +1294,15 @@ let events2021 = [
         o_site: '210918_mtbo'
     },
     {
+        id: 'SPB_20210918_2',
+        date: '2021-09-18',
+        place: 'Луга, Шалово',
+        name: 'Дуатлон-рогейн',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'https://vk.com/event166397868'
+    },
+    {
         id: 'SPB_20210919_1',
         date: '2021-09-19',
         place: 'г. Сестрорецк, район Заречной дороги',
@@ -1152,6 +1356,16 @@ let events2021 = [
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 369
+    },
+    {
+        id: 'SPB_20210925_5',
+        date: '2021-09-25',
+        place: 'Молодёжное',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '5, 2',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
     },
     {
         id: 'SPB_20210926_1',
@@ -1262,6 +1476,15 @@ let events2021 = [
         reskeep: 488
     },
     {
+        id: 'SPB_20211009_5',
+        date: '2021-10-09',
+        place: 'Выборгский р-н, Гаврилово',
+        name: 'Рогейн 1+1',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'https://vk.com/event166397868'
+    },
+    {
         id: 'SPB_20211010_1',
         date: '2021-10-10',
         place: 'Цвелодубово',
@@ -1285,6 +1508,16 @@ let events2021 = [
             497,
             498
         ]
+    },
+    {
+        id: 'SPB_20211016_2',
+        date: '2021-10-16',
+        place: 'Зеленогорск',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '4.2',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
     },
     {
         id: 'SPB_20211017_1',
@@ -1382,6 +1615,33 @@ let events2021 = [
         owner: 'WN'
     },
     {
+        id: 'SPB_20211030_4',
+        date: '2021-10-30',
+        place: 'Луга, оз. Омчино',
+        name: 'Эстафета-рогейн',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'https://vk.com/event166397868'
+    },
+    {
+        id: 'SPB_20211030_5',
+        date: '2021-10-30',
+        place: 'Лемболово-Орехово',
+        name: 'HARD-Rogaine | Night',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'https://vk.com/hardrogaine'
+    },
+    {
+        id: 'SPB_20211030_6',
+        date: '2021-10-30',
+        place: 'Новороссийск',
+        name: 'Кубок России по рогейну',
+        type: 'ROGAINE',
+        fmt: '24, 6',
+        link: 'http://novoros-rogaining.ru/'
+    },
+    {
         id: 'SPB_20211031_1',
         date: '2021-10-31',
         place: 'Токсово',
@@ -1460,6 +1720,15 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/211014_markir110/211114_rez.htm',
         start: 'ROGAINE_110',
         o_site: '211014_markir110'
+    },
+    {
+        id: 'SPB_20211114_2',
+        date: '2021-11-14',
+        place: 'Луга, Шалово',
+        name: 'Новгородский Меридиан',
+        type: 'ROGAINE',
+        fmt: '4, 2',
+        link: 'https://vk.com/club91656163'
     },
     {
         id: 'SPB_20211121_1',

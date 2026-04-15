@@ -510,7 +510,8 @@ let events2010 = [
         name: '2-й этап вело-Кубка по рогейну',
         type: 'ROGAINE',
         res: 'http://www.100x24.ru/2010/results/20100619_prelim.htm',
-        o_site: '100619'
+        o_site: '100619',
+        start: '100x24'
     },
     {
         id: 'SPB_20100621_1',

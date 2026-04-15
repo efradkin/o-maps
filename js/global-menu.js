@@ -8,12 +8,12 @@ const GLOBAL_MENU_ITEMS = [
                 title: 'С-Петербург',
                 menuItems: [
                     { title: '🗺️ Карты на карте', page: 'spb' },
+                    { title: '🗓️ Календарь', page: 'calendar' },
                     { title: '📑 Таблица карт', page: 'sheet-spb' },
                     { title: '🔢 Статистика', page: 'charts-spb' },
                     { title: '🏅 Старты на карте', page: 'starts' },
                     { title: '🥾 Маршруты на карте', page: 'tracks' },
                     { title: '🥾 Таблица маршрутов', page: 'sheet-tracks' },
-                    { title: '🗓️ Календарь', page: 'calendar' },
                     { title: '⛷️ Лыжные гонки', page: 'calendar-ski' },
                 ],
             },

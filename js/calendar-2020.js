@@ -25,6 +25,16 @@ let events2020 = [
         ]
     },
     {
+        id: 'SPB_20200111_1',
+        date: '2020-01-11',
+        place: 'Орехово',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20200112_1',
         date: '2020-01-12',
         name: 'Чемпионат и Первенство Ленинградской области (Шапки)',
@@ -156,6 +166,15 @@ let events2020 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20020809/200208_res.pdf',
         o_site: '20020809'
+    },
+    {
+        id: 'SPB_20200208_3',
+        date: '2020-02-08',
+        place: 'Орехово',
+        name: 'Женсть-рогейн (приключенческий)',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'https://vk.com/zhenst_rogaine'
     },
     {
         id: 'SPB_20200214_1', date: '2020-02-14', name: 'Охта-Лабиринт', type: 'ORIENT', o_site: '200214'
@@ -301,6 +320,15 @@ let events2020 = [
         owner: 'WN'
     },
     {
+        id: 'SPB_20200321_2',
+        date: '2020-03-21',
+        place: 'Кузьмолово',
+        name: 'TrailAdventure',
+        type: 'ROGAINE',
+        fmt: '3',
+        link: 'http://tradventure.ru'
+    },
+    {
         id: 'SPB_20200322_1',
         date: '2020-03-22',
         name: 'Кубок Белых Ночей - 2019/20',
@@ -352,6 +380,15 @@ let events2020 = [
         o_site: '200418'
     },
     {
+        id: 'SPB_20200425_2',
+        date: '2020-04-25',
+        place: 'Псков',
+        name: 'Псковская вело-весна',
+        type: 'ROGAINE',
+        fmt: '3, 2',
+        link: 'https://opskov.ru'
+    },
+    {
         id: 'SPB_20200426_1',
         date: '2020-04-26',
         name: 'Онлайн-старт по трейл-ориентированию, 3 этап',
@@ -360,6 +397,16 @@ let events2020 = [
         res: 'http://o-site.spb.ru/_races/200426/200426_rezultaty.pdf',
         info: '26 апреля (воскресенье!) состоится третий этап онлайн-старта по трейл-ориентированию (дисциплина "точное ориентирование"/PreO).',
         o_site: '200426'
+    },
+    {
+        id: 'SPB_20200505_1',
+        date: '2020-05-05',
+        place: 'Луга, Шалово',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '2',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
     },
     {
         id: 'SPB_20200510_1',
@@ -393,6 +440,34 @@ let events2020 = [
         o_site: '200517'
     },
     {
+        id: 'SPB_20200523_1',
+        date: '2020-05-23',
+        place: 'Луга',
+        name: 'Новгородский меридиан',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'https://vk.com/club91656163'
+    },
+    {
+        id: 'SPB_20200523_2',
+        date: '2020-05-23',
+        place: 'По назначению',
+        name: 'BikeAdventure, TrailAdventure',
+        type: 'ROGAINE',
+        fmt: '24',
+        link: 'http://tradventure.ru , http://bikeadventure.ru'
+    },
+    {
+        id: 'SPB_20200530_1',
+        date: '2020-05-30',
+        place: 'Кузнечное',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '24, 8, 3',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20200601_1',
         date: '2020-06-01',
         name: 'Онлайн-старт по трейл-ориентированию, 5 этап',
@@ -413,6 +488,24 @@ let events2020 = [
         photo: 'http://drive.google.com/drive/folders/1tvax9cc_9z9YWb7g6JodrwYHVvEevSKY?sa=D&ust=1592159831324000&usg=AFQjCNFL_1lRoEJzvMO-1rvfobSnGayRhg',
         info: 'Онлайн-тренировка, посвящённая Дню России, проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом. Мероприятие проводится в рамках проекта «На соревнования – всей семьей: игровое пространство для детей участников спортивных мероприятий». Проект реализуется с использованием гранта Президента Российской Федерации на развитие гражданского общества, предоставленного Фондом президентских грантов.',
         o_site: '200612'
+    },
+    {
+        id: 'SPB_20200612_2',
+        date: '2020-06-12',
+        place: 'Кривко',
+        name: 'Велоизоляция',
+        type: 'ROGAINE',
+        fmt: '8, 4',
+        link: 'http://www.multsport.ru'
+    },
+    {
+        id: 'SPB_20200620_2',
+        date: '2020-06-20',
+        place: 'Луга',
+        name: 'Новгородский меридиан',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'https://vk.com/club91656163'
     },
     {
         id: 'SPB_20200625_1',
@@ -452,6 +545,15 @@ let events2020 = [
         owner: 'WN'
     },
     {
+        id: 'SPB_20200627_5',
+        date: '2020-06-27',
+        place: 'Ладожское озеро',
+        name: 'Петербургский водный рогейн',
+        type: 'ROGAINE',
+        fmt: '10, 6',
+        link: 'https://vk.com/adventureraces'
+    },
+    {
         id: 'SPB_20200628_1',
         date: '2020-06-28',
         place: 'Орехово',
@@ -488,6 +590,15 @@ let events2020 = [
         owner: 'WN'
     },
     {
+        id: 'SPB_20200704_2',
+        date: '2020-07-04',
+        place: 'Лемболово',
+        name: 'Озёрный край',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'http://www.multsport.ru'
+    },
+    {
         id: 'SPB_20200705_1',
         date: '2020-07-05',
         place: 'Мичуринское',
@@ -504,6 +615,16 @@ let events2020 = [
         type: 'ORIENT',
         reskeep: 342,
         owner: 'WN'
+    },
+    {
+        id: 'SPB_20200711_2',
+        date: '2020-07-11',
+        place: 'Орехово',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
     },
     {
         id: 'SPB_20200712_1',
@@ -529,6 +650,15 @@ let events2020 = [
         type: 'ORIENT',
         reskeep: 345,
         owner: 'WN'
+    },
+    {
+        id: 'SPB_20200718_3',
+        date: '2020-07-18',
+        place: 'Луга',
+        name: 'Лужский приключенческий рогейн',
+        type: 'ROGAINE',
+        fmt: '24, 6',
+        link: 'https://vk.com/club190501849'
     },
     {
         id: 'SPB_20200719_1',
@@ -598,6 +728,15 @@ let events2020 = [
             351,
             352
         ]
+    },
+    {
+        id: 'SPB_20200801_3',
+        date: '2020-08-01',
+        place: 'Луга',
+        name: 'На лужских берегах',
+        type: 'ROGAINE',
+        fmt: '8, 4',
+        link: 'http://o-site.spb.ru/'
     },
     {
         id: 'SPB_20200802_1',
@@ -704,6 +843,16 @@ let events2020 = [
         o_site: '200829ZZ'
     },
     {
+        id: 'SPB_20200829_3',
+        date: '2020-08-29',
+        place: 'Себеж',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '8, 6, 5',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20200830_1',
         date: '2020-08-30',
         place: 'Силанде',
@@ -767,6 +916,15 @@ let events2020 = [
         ]
     },
     {
+        id: 'SPB_20200905_3',
+        date: '2020-09-05',
+        place: 'По назначению',
+        name: 'Дуатлон-рогейн',
+        type: 'ROGAINE',
+        fmt: '3+3',
+        link: 'https://vk.com/club190501849'
+    },
+    {
         id: 'SPB_20200909_1',
         date: '2020-09-09',
         place: 'Новочеркасская',
@@ -819,6 +977,15 @@ let events2020 = [
             365,
             364
         ]
+    },
+    {
+        id: 'SPB_20200912_4',
+        date: '2020-09-12',
+        place: 'Экопарк "Поляны"',
+        name: 'Чемпионат России по рогейну',
+        type: 'ROGAINE',
+        fmt: '24, 8',
+        link: 'https://vk.com/event186840276'
     },
     {
         id: 'SPB_20200913_1',
@@ -878,6 +1045,15 @@ let events2020 = [
         type: 'ORIENT',
         reskeep: 368,
         owner: 'WN'
+    },
+    {
+        id: 'SPB_20200919_3',
+        date: '2020-09-19',
+        place: 'Псков',
+        name: 'Псковский горолской рогейн',
+        type: 'ROGAINE',
+        fmt: '4, 2',
+        link: 'https://vk.com/rogainpskov'
     },
     {
         id: 'SPB_20200920_1',
@@ -955,6 +1131,34 @@ let events2020 = [
         owner: 'WN'
     },
     {
+        id: 'SPB_20200926_4',
+        date: '2020-09-26',
+        place: 'По назначению',
+        name: 'BikeAdventure, TrailAdventure',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'http://tradventure.ru , http://bikeadventure.ru'
+    },
+    {
+        id: 'SPB_20200926_5',
+        date: '2020-09-26',
+        place: 'Молодёжное',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '5, 2',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
+    },
+    {
+        id: 'SPB_20200926_6',
+        date: '2020-09-26',
+        place: 'Великий Новгород',
+        name: 'Новгородский меридиан (городской рогейн)',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'https://vk.com/club91656163'
+    },
+    {
         id: 'SPB_20200927_1',
         date: '2020-09-27',
         place: 'Неизвестно',
@@ -1009,6 +1213,15 @@ let events2020 = [
             384,
             385
         ]
+    },
+    {
+        id: 'SPB_20201010_2',
+        date: '2020-10-10',
+        place: 'Луга',
+        name: 'О-трейл-рогейн',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'https://vk.com/club190501849'
     },
     {
         id: 'SPB_20201011_1',
@@ -1134,6 +1347,15 @@ let events2020 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 388
+    },
+    {
+        id: 'SPB_20201031_3',
+        date: '2020-10-31',
+        place: 'Луга, Шалово',
+        name: 'Финал КПР',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'https://vk.com/club190501849'
     },
     {
         id: 'SPB_20201101_1',
@@ -1269,6 +1491,15 @@ let events2020 = [
         type: 'ORIENT',
         reskeep: 401,
         owner: 'WN'
+    },
+    {
+        id: 'SPB_20201122_3',
+        date: '2020-11-22',
+        place: 'Луга, оз. Омчино',
+        name: 'Новгородский меридиан (финал)',
+        type: 'ROGAINE',
+        fmt: '3',
+        link: 'https://vk.com/club91656163'
     },
     {
         id: 'SPB_20201128_1',

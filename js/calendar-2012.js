@@ -351,6 +351,14 @@ let events2012 = [
         o_site: '120519_velo'
     },
     {
+        date: '2012-05-19',
+        place: 'Санкт-Петербург',
+        name: 'День в городе',
+        fmt: '4 и 8 часов бегом, 3 и 6 часов вело, 4 часа на роликах',
+        link: 'runcity.org/ru',
+        type: 'ROGAINE'
+    },
+    {
         id: 'SPB_20120520_1',
         date: '2012-05-20',
         place: 'п. Колтуши',
@@ -465,7 +473,16 @@ let events2012 = [
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://100x24.ru/results.htm',
         fmt: '3 часа вело',
-        o_site: '120624'
+        o_site: '120624',
+        start: '100x24'
+    },
+    {
+        date: '2012-06-24',
+        name: 'Велорогейн от 100х24',
+        fmt: '3 часа вело',
+        link: '100x24.ru',
+        type: 'ROGAINE',
+        start: '100x24'
     },
     {
         id: 'SPB_20120626_1',
@@ -498,6 +515,14 @@ let events2012 = [
         o_site: '12070306'
     },
     {
+        date: '2012-07-07',
+        place: 'Выборгский район Ленинградской области',
+        name: '3 этап Кубка Ассоциации рогейна СПб',
+        fmt: '3 часа вело',
+        link: 'rogaining.spb.ru',
+        type: 'ROGAINE'
+    },
+    {
         id: 'SPB_20120708_1',
         date: '2012-07-08',
         place: 'пл.78 км Приозерского направления',
@@ -505,6 +530,14 @@ let events2012 = [
         type: 'ROGAINE',
         fmt: '3 часа бегом',
         o_site: '120708'
+    },
+    {
+        date: '2012-07-08',
+        place: 'Выборгский район Ленинградской области',
+        name: 'Чемпионат Ленинградской области, 4 этап Кубка Ассоциации рогейна СПб',
+        fmt: '6 часов бегом',
+        link: 'rogaining.spb.ru',
+        type: 'ROGAINE'
     },
     {
         id: 'SPB_20120714_1',
@@ -521,6 +554,15 @@ let events2012 = [
         name: 'Чемпионат России по рогейну',
         type: 'ROGAINE',
         o_site: '12072122'
+    },
+    {
+        date: '2012-07-21',
+        place: 'пос. Первомайское',
+        name: 'Горный кросс (3 этап)',
+        fmt: '3 и 8 часов',
+        link: 'gornycross.narod.ru',
+        type: 'ROGAINE',
+        start: 'GK'
     },
     {
         id: 'SPB_20120722_1',
@@ -575,6 +617,13 @@ let events2012 = [
         o_site: '120826_zz'
     },
     {
+        date: '2012-09-08',
+        name: 'Горный кросс (4 этап)',
+        link: 'gornycross.narod.ru',
+        type: 'ROGAINE',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20120909_1',
         date: '2012-09-09',
         place: 'Орехово',
@@ -604,6 +653,14 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/120915/120915_res_midl.pdf',
         owner: 'SFSO_SPB',
         o_site: '120915'
+    },
+    {
+        date: '2012-09-15',
+        place: 'Будогощь',
+        name: 'Кубок Ленинградской области, 5 этап Кубка Ассоциации рогейна СПб',
+        fmt: '6 часов бегом',
+        link: 'rogaining.spb.ru',
+        type: 'ROGAINE'
     },
     {
         id: 'SPB_20120916_1',
@@ -833,6 +890,14 @@ let events2012 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/121030/121030_res.pdf',
         o_site: '121030'
+    },
+    {
+        date: '2012-11-02',
+        place: 'Цвелодубово',
+        name: '6 этап Кубка Ассоциации рогейна СПб',
+        fmt: '24 часа бегом',
+        link: 'rogaining.spb.ru',
+        type: 'ROGAINE'
     },
     {
         id: 'SPB_20121103_1',

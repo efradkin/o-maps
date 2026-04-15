@@ -205,7 +205,8 @@ let events2013 = [
         type: 'ROGAINE',
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://100x24.ru/results.htm',
-        o_site: '130317'
+        o_site: '130317',
+        start: '100x24'
     },
     {
         id: 'SPB_20130317_1',
@@ -318,6 +319,16 @@ let events2013 = [
         info: 'Открытый Чемпионат и Первенство Ленинградской области по спортивному ориентированию бегом',
         owner: 'SFSO_LO',
         o_site: '13050103'
+    },
+    {
+        id: 'SPB_20130501_2',
+        date: '2013-05-01',
+        place: 'Луга',
+        name: 'Горный кросс-35',
+        type: 'ROGAINE',
+        fmt: '3 и 8 часов',
+        link: 'http://gornycross.narod.ru',
+        start: 'GK'
     },
     {
         id: 'SPB_20130502_1',
@@ -490,6 +501,15 @@ let events2013 = [
         o_site: '130601'
     },
     {
+        id: 'SPB_20130601_2',
+        date: '2013-06-01',
+        name: 'Горный кросс-36',
+        type: 'ROGAINE',
+        fmt: '24,8,3 часа',
+        link: 'http://gornycross.narod.ru',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20130602_1',
         date: '2013-06-02',
         place: 'Санкт-Петербург, п. Молодежное-Поляны',
@@ -603,7 +623,8 @@ let events2013 = [
         type: 'ROGAINE',
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://www.100x24.ru/results.htm',
-        o_site: '130706'
+        o_site: '130706',
+        start: '100x24'
     },
     {
         id: 'SPB_20130713_1',
@@ -629,6 +650,15 @@ let events2013 = [
         o_site: '130720'
     },
     {
+        id: 'SPB_20130720_2',
+        date: '2013-07-20',
+        name: 'Горный кросс-37',
+        type: 'ROGAINE',
+        fmt: '6 и3 часа',
+        link: 'http://gornycross.narod.ru',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20130721_1',
         date: '2013-07-21',
         place: 'Воробьёвые озера (Приозерск)',
@@ -640,6 +670,15 @@ let events2013 = [
         owner: 'WN',
         start: 'WN',
         o_site: '130721'
+    },
+    {
+        id: 'SPB_20130726_1',
+        date: '2013-07-26',
+        place: 'Россия, Псковская обл.',
+        name: '11-й Чемпионат Мира по рогейну',
+        type: 'ROGAINE',
+        fmt: '24 часа',
+        link: 'www.wrc2013.com'
     },
     {
         id: 'SPB_20130810_1',
@@ -694,6 +733,16 @@ let events2013 = [
         res: 'http://www.o-site.spb.ru/_races/130905/130905_res.htm',
         info: 'Серия тренировочных стартов в пригороде Петербурга 05 сентября Результаты. 12 сентября Результаты. 19 сентября Результаты. 26 сентября Результаты. 03 октября Результаты. 10 октября Результаты.',
         o_site: '130905'
+    },
+    {
+        id: 'SPB_20130907_2',
+        date: '2013-09-07',
+        place: 'Зеленогорск',
+        name: 'Горный кросс-39,40',
+        type: 'ROGAINE',
+        fmt: '8 и 3 часа',
+        link: 'http://gornycross.narod.ru',
+        start: 'GK'
     },
     {
         id: 'SPB_20130908_1',

@@ -13,6 +13,16 @@ let events2022 = [
         endDate: '2022-01-09'
     },
     {
+        id: 'SPB_20220108_2',
+        date: '2022-01-08',
+        place: 'Орехово',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '5, 2',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20220116_1',
         date: '2022-01-16',
         place: 'район п.Ягодное',
@@ -98,6 +108,15 @@ let events2022 = [
         o_site: '220219'
     },
     {
+        id: 'SPB_20220219_2',
+        date: '2022-02-19',
+        place: 'Луга, оз. Штолль',
+        name: 'Лужский лыжный рогейн',
+        type: 'ROGAINE',
+        fmt: '8, 4',
+        link: 'https://vk.com/event166397868'
+    },
+    {
         id: 'SPB_20220223_1',
         date: '2022-02-23',
         place: 'Орехово',
@@ -152,6 +171,15 @@ let events2022 = [
         o_site: '220313'
     },
     {
+        id: 'SPB_20220319_1',
+        date: '2022-03-19',
+        place: 'Токсово',
+        name: 'HARD-Rogaine | Snow',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'https://vk.com/hardrogaine'
+    },
+    {
         id: 'SPB_20220406_1',
         date: '2022-04-06',
         place: 'Сестрорецкая ул',
@@ -167,6 +195,16 @@ let events2022 = [
         name: 'Перспектива Middle Cup #1',
         type: 'ORIENT',
         reskeep: 510
+    },
+    {
+        id: 'SPB_20220409_2',
+        date: '2022-04-09',
+        place: 'Луга',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '5, 2',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
     },
     {
         id: 'SPB_20220410_1',
@@ -258,6 +296,16 @@ let events2022 = [
         reskeep: 529
     },
     {
+        id: 'SPB_20220423_5',
+        date: '2022-04-23',
+        place: 'Луга',
+        name: 'Лужский Меридиан',
+        type: 'ROGAINE',
+        fmt: '4, 2',
+        link: 'https://vk.com/club91656163',
+        owner: 'LM'
+    },
+    {
         id: 'SPB_20220427_1',
         date: '2022-04-27',
         place: 'Парголово, лыжный стадион',
@@ -282,6 +330,15 @@ let events2022 = [
         name: 'Техника и Тактика',
         type: 'ORIENT',
         reskeep: 531
+    },
+    {
+        id: 'SPB_20220430_3',
+        date: '2022-04-30',
+        place: 'Псков',
+        name: 'Исторический рогейн',
+        type: 'ROGAINE',
+        fmt: '3',
+        link: 'https://vk.com/rogainpskov'
     },
     {
         id: 'SPB_20220501_1',
@@ -495,6 +552,16 @@ let events2022 = [
         reskeep: 532
     },
     {
+        id: 'SPB_20220522_2',
+        date: '2022-05-22',
+        place: 'Луга',
+        name: 'Лужский Меридиан',
+        type: 'ROGAINE',
+        fmt: '5',
+        link: 'https://vk.com/club91656163',
+        owner: 'LM'
+    },
+    {
         id: 'SPB_20220528_1',
         date: '2022-05-28',
         place: 'Вблизи ж/д станции «Лемболово»',
@@ -516,6 +583,24 @@ let events2022 = [
         reg: 'http://rogaining.site/registration.html',
         info: 'В программе Фестиваля пройдут соревнования по рогейну в следующих форматах: - 24 часа бегом – 2-й Кубок России по рогейну - 8 часов бегом - 16 часов на велосипеде – 6-й Чемпионат России - 6 часов на велосипеде',
         o_site: '220528r'
+    },
+    {
+        id: 'SPB_20220528_3',
+        date: '2022-05-28',
+        place: 'Зеркальный',
+        name: 'Кубок России по рогейну',
+        type: 'ROGAINE',
+        fmt: '24, 8',
+        link: 'https://rogaining.site/'
+    },
+    {
+        id: 'SPB_20220528_4',
+        date: '2022-05-28',
+        place: 'Зеркальный',
+        name: 'Чемпионат России по рогейну на велосипедах',
+        type: ['ROGAINE','VELO'],
+        fmt: '16, 6',
+        link: 'https://rogaining.site/'
     },
     {
         id: 'SPB_20220529_1',
@@ -626,6 +711,16 @@ let events2022 = [
         ]
     },
     {
+        id: 'SPB_20220612_1',
+        date: '2022-06-12',
+        place: 'По назначению',
+        name: 'Рогейн 110%',
+        type: 'ROGAINE',
+        fmt: '3',
+        link: 'https://vk.com/rogaine110',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20220613_1',
         date: '2022-06-13',
         endDate: '2022-06-18',
@@ -686,6 +781,23 @@ let events2022 = [
         reskeep: 537
     },
     {
+        id: 'SPB_20220625_1',
+        date: '2022-06-25',
+        name: 'Serotonin city (ночной рогейн)',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'https://serotonin-race.ru/'
+    },
+    {
+        id: 'SPB_20220625_3',
+        date: '2022-06-25',
+        place: 'Лахденпохский р-н',
+        name: 'HARD-Rogaine | Ladoga',
+        type: 'ROGAINE',
+        fmt: '16, 10-6',
+        link: 'https://vk.com/hardrogaine'
+    },
+    {
         id: 'SPB_20220626_1',
         date: '2022-06-26',
         place: 'Ленинградская область, Выборгский район, пос. Рощино',
@@ -730,6 +842,15 @@ let events2022 = [
         o_site: '220709_bn'
     },
     {
+        id: 'SPB_20220709_2',
+        date: '2022-07-09',
+        place: 'Луга',
+        name: 'Лужский приключенческий рогейн',
+        type: 'ROGAINE',
+        fmt: '24, 6',
+        link: 'https://vk.com/event166397868'
+    },
+    {
         id: 'SPB_20220723_1',
         date: '2022-07-23',
         endDate: '2022-07-24',
@@ -739,6 +860,26 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/2022TT/220723_split.htm',
         info: 'соревнования с элементами тренировки',
         o_site: '2022TT'
+    },
+    {
+        id: 'SPB_20220723_2',
+        date: '2022-07-23',
+        place: 'Луга',
+        name: 'Лужский Меридиан',
+        type: 'ROGAINE',
+        fmt: '5',
+        link: 'https://vk.com/club91656163',
+        owner: 'LM'
+    },
+    {
+        id: 'SPB_20220724_1',
+        date: '2022-07-24',
+        place: 'Сосново',
+        name: 'Рогейн 110%',
+        type: 'ROGAINE',
+        fmt: '3',
+        link: 'https://vk.com/rogaine110',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20220730_1',
@@ -758,6 +899,15 @@ let events2022 = [
         type: 'ORIENT',
         reskeep: 550,
         owner: 'WN'
+    },
+    {
+        id: 'SPB_20220730_3',
+        date: '2022-07-30',
+        place: 'Лахденпохский р-н',
+        name: 'HARD-Rogaine | Ladoga II',
+        type: 'ROGAINE',
+        fmt: '8, 4',
+        link: 'https://vk.com/hardrogaine'
     },
     {
         id: 'SPB_20220731_1',
@@ -817,6 +967,24 @@ let events2022 = [
         info: 'Онлайн результаты. Старт 1 - Спринт Онлайн результаты. Старт 2 - Ночной старт Онлайн результаты. Старт 3 - Классика',
         owner: 'VYBORG',
         o_site: '220827-28_VTR'
+    },
+    {
+        id: 'SPB_20220827_2',
+        date: '2022-08-27',
+        place: 'Выборгский район',
+        name: 'Приключенческий рогейн History Race',
+        type: 'ROGAINE',
+        fmt: '12, 7',
+        link: 'https://vk.com/historyrace'
+    },
+    {
+        id: 'SPB_20220903_1',
+        date: '2022-09-03',
+        place: 'Псков',
+        name: 'Псковский городской рогейн',
+        type: 'ROGAINE',
+        fmt: '4, 2',
+        link: 'https://vk.com/rogainpskov'
     },
     {
         id: 'SPB_20220904_1',
@@ -911,6 +1079,15 @@ let events2022 = [
         o_site: '220917'
     },
     {
+        id: 'SPB_20220917_3',
+        date: '2022-09-17',
+        place: 'По назначению',
+        name: 'Fox Trail рогейн',
+        type: 'ROGAINE',
+        fmt: '16, 10, 8, 4',
+        link: 'https://bike-off-road.ru/foxtrail/'
+    },
+    {
         id: 'SPB_20220918_1',
         date: '2022-09-18',
         place: 'Былинное озеро',
@@ -992,6 +1169,15 @@ let events2022 = [
         o_site: '220924_MTBO'
     },
     {
+        id: 'SPB_20220924_6',
+        date: '2022-09-24',
+        place: 'Narva',
+        name: 'Narva Rogain',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'https://seiklushunt.ee/uritus/rogain-narva22/'
+    },
+    {
         id: 'SPB_20220925_1',
         date: '2022-09-25',
         place: 'Яппиля',
@@ -1036,6 +1222,15 @@ let events2022 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 540
+    },
+    {
+        id: 'SPB_20221001_5',
+        date: '2022-10-01',
+        place: 'Луга',
+        name: 'На Лужских берегах',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'https://vk.com/event166397868'
     },
     {
         id: 'SPB_20221002_1',
@@ -1132,6 +1327,16 @@ let events2022 = [
         ]
     },
     {
+        id: 'SPB_20221015_2',
+        date: '2022-10-15',
+        place: 'Зеленогорск',
+        name: 'Горный кросс',
+        type: 'ROGAINE',
+        fmt: '4, 2',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20221016_1',
         date: '2022-10-16',
         place: 'г. Сестрорецк, Таможенная дорога',
@@ -1223,6 +1428,14 @@ let events2022 = [
         info: 'мероприятие от организаторов из В.Новгорода',
         owner: 'LM',
         o_site: '221029R'
+    },
+    {
+        id: 'SPB_20221029_2',
+        date: '2022-10-29',
+        place: 'По назначению',
+        name: 'HARD-Rogaine | Night',
+        type: 'ROGAINE',
+        link: 'https://vk.com/hardrogaine'
     },
     {
         id: 'SPB_20221030_1',

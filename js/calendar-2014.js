@@ -191,6 +191,15 @@ let events2014 = [
         o_site: '140312'
     },
     {
+        id: 'SPB_20140315_1',
+        date: '2014-03-15',
+        name: '100х24',
+        type: 'ROGAINE',
+        fmt: 'лыжи, 24 и 6 часов',
+        link: 'http://100x24.ru',
+        start: '100x24'
+    },
+    {
         id: 'SPB_20140316_1',
         date: '2014-03-16',
         place: 'пос.Песочный',
@@ -411,6 +420,16 @@ let events2014 = [
         o_site: '140531'
     },
     {
+        id: 'SPB_20140531_2',
+        date: '2014-05-31',
+        place: 'Карельский перешеек',
+        name: 'Горный кросс-42',
+        type: 'ROGAINE',
+        fmt: '3 и 8 часов',
+        link: 'http://gornycross.narod.ru',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20140601_1',
         date: '2014-06-01',
         name: 'Первенство Команды 110%',
@@ -428,7 +447,8 @@ let events2014 = [
         res: 'http://100x24.ru/2014/results/20140607.htm',
         owner: 'SFSO_SPB',
         o_site: '140107',
-        reskeep: 246
+        reskeep: 246,
+        start: '100x24'
     },
     {
         id: 'SPB_20140607_2',
@@ -449,7 +469,8 @@ let events2014 = [
         type: 'ROGAINE',
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://www.100x24.spb.ru/2014/results/100x24_20140608_results.htm',
-        o_site: '140608'
+        o_site: '140608',
+        start: '100x24'
     },
     {
         id: 'SPB_20140612_1',
@@ -543,6 +564,24 @@ let events2014 = [
         o_site: '140719'
     },
     {
+        id: 'SPB_20140719_2',
+        date: '2014-07-19',
+        place: 'Ленинградская область',
+        name: 'Горный кросс-43',
+        type: 'ROGAINE',
+        fmt: '3 и 6 часов',
+        link: 'http://gornycross.narod.ru',
+        start: 'GK'
+    },
+    {
+        id: 'SPB_20140727_1',
+        date: '2014-07-27',
+        name: 'Рогейн - 110%',
+        type: 'ROGAINE',
+        fmt: '3 часа',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20140802_1',
         date: '2014-08-02',
         name: 'Чемпионат СЗФО по рогейну',
@@ -613,6 +652,16 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/140906/orelay2014.pdf',
         owner: 'SFSO_SPB',
         o_site: '140906',
+    },
+    {
+        id: 'SPB_20140906_3',
+        date: '2014-09-06',
+        place: 'Карельский перешеек',
+        name: 'Горный кросс-44',
+        type: 'ROGAINE',
+        fmt: '3 и 6 часов',
+        link: 'http://gornycross.narod.ru',
+        start: 'GK'
     },
     {
         id: 'SPB_20140907_1',
@@ -865,6 +914,16 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/20141115R/141115_res.pdf',
         start: 'GORNY_CROSS',
         o_site: '20141115R'
+    },
+    {
+        id: 'SPB_20141115_3',
+        date: '2014-11-15',
+        place: 'Зеленогорск',
+        name: 'Горный кросс-45',
+        type: 'ROGAINE',
+        fmt: '3 и 8 часов',
+        link: 'http://gornycross.narod.ru',
+        start: 'GK'
     },
     {
         id: 'SPB_20141116_1',

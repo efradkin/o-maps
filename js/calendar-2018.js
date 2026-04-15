@@ -583,6 +583,25 @@ let events2018 = [
         ]
     },
     {
+        id: 'SPB_20180526_2',
+        date: '2018-05-26',
+        place: 'Каменногорск',
+        name: 'BikeAdventure, TrailAdventure',
+        type: 'ROGAINE',
+        fmt: '9',
+        link: 'http://tradventure.ru , http://bikeadventure.ru'
+    },
+    {
+        id: 'SPB_20180526_3',
+        date: '2018-05-26',
+        place: 'Кузнечное',
+        name: 'Горный кросс - 63',
+        type: 'ROGAINE',
+        fmt: '24,8,3',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20180602_1',
         date: '2018-06-02',
         place: 'Красная Горка',
@@ -678,6 +697,15 @@ let events2018 = [
         ]
     },
     {
+        id: 'SPB_20180616_1',
+        date: '2018-06-16',
+        place: 'Алоль',
+        name: 'Псковский вечерний рогейн',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'http://www.orientpskov.ru/'
+    },
+    {
         id: 'SPB_20180617_1',
         date: '2018-06-17',
         endDate: '2018-06-22',
@@ -763,6 +791,15 @@ let events2018 = [
         ]
     },
     {
+        id: 'SPB_20180630_2',
+        date: '2018-06-30',
+        place: 'Санкт-Петербург',
+        name: 'Рогейн "Пальмира Севера"',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'http://rogaining.msk.ru/'
+    },
+    {
         id: 'SPB_20180707_1',
         date: '2018-07-07',
         endDate: '2018-07-08',
@@ -784,6 +821,15 @@ let events2018 = [
         o_site: '180714'
     },
     {
+        id: 'SPB_20180714_2',
+        date: '2018-07-14',
+        name: 'Велорогейн "100×24"',
+        type: 'ROGAINE',
+        fmt: '3',
+        link: 'http://www.100x24.spb.ru/results.htm',
+        start: '100x24'
+    },
+    {
         id: 'SPB_20180715_1',
         date: '2018-07-15',
         name: 'ГорныйКросс-63',
@@ -801,6 +847,16 @@ let events2018 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=913',
         res: 'https://o-site.spb.ru/_races/180715_Fox/180715_res.htm',
         o_site: '180715_Fox'
+    },
+    {
+        id: 'SPB_20180715_3',
+        date: '2018-07-15',
+        place: 'Орехово',
+        name: 'Горный кросс - 64',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
     },
     {
         id: 'SPB_20180722_1',
@@ -842,6 +898,15 @@ let events2018 = [
         fmt: 'Рогейн 6ч, Рогейн 18ч. Велосипедный и беговой рогейн.',
         start: 'MULTSPORT',
         o_site: '18081112'
+    },
+    {
+        id: 'SPB_20180811_3',
+        date: '2018-08-11',
+        place: 'Мичуринское',
+        name: 'Рогейн "Озёрный край"',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'http://www.multsport.ru'
     },
     {
         id: 'SPB_20180812_1',
@@ -902,6 +967,15 @@ let events2018 = [
         reskeep: 26
     },
     {
+        id: 'SPB_20180902_2',
+        date: '2018-09-02',
+        place: 'Парк Политеха',
+        name: 'Политех-квест',
+        type: 'ROGAINE',
+        fmt: '1.5',
+        link: 'https://vk.com/politech_academy'
+    },
+    {
         id: 'SPB_20180905_1',
         date: '2018-09-05',
         place: 'Красногвардейский р.',
@@ -932,6 +1006,15 @@ let events2018 = [
         owner: 'SFSO_SPB',
         o_site: '180908',
         reskeep: 48
+    },
+    {
+        id: 'SPB_20180908_3',
+        date: '2018-09-08',
+        place: 'Отрадное',
+        name: '«Матрасс-Офф-рогейн»',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'http://www.multsport.ru'
     },
     {
         id: 'SPB_20180909_1',
@@ -1126,6 +1209,25 @@ let events2018 = [
         reskeep: 53
     },
     {
+        id: 'SPB_20180929_7',
+        date: '2018-09-29',
+        place: 'Западнее Выборга',
+        name: 'BikeAdventure, TrailAdventure',
+        type: 'ROGAINE',
+        fmt: '9',
+        link: 'http://tradventure.ru , http://bikeadventure.ru'
+    },
+    {
+        id: 'SPB_20180929_8',
+        date: '2018-09-29',
+        place: 'Молодёжное',
+        name: 'Горный кросс - 65',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
+    },
+    {
         id: 'SPB_20180930_1',
         date: '2018-09-30',
         place: 'Будогощь',
@@ -1289,6 +1391,13 @@ let events2018 = [
             65,
             66
         ]
+    },
+    {
+        id: 'SPB_20181020_2',
+        date: '2018-10-20',
+        name: 'TrailAdventure',
+        type: 'ROGAINE',
+        link: 'http://tradventure.ru'
     },
     {
         id: 'SPB_20181021_1',
@@ -1471,6 +1580,16 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/181117R/181117R_res.pdf',
         fmt: 'Рогейн 3 и 7 часов - бегом, 6 часов - вело',
         o_site: '181117R'
+    },
+    {
+        id: 'SPB_20181117_2',
+        date: '2018-11-17',
+        place: 'Зеленогорск',
+        name: 'Горный кросс - 66',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'https://vk.com/gornycross',
+        start: 'GK'
     },
     {
         id: 'SPB_20181118_1',

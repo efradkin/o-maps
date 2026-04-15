@@ -357,6 +357,15 @@ let events2017 = [
         o_site: '170514'
     },
     {
+        id: 'SPB_20170430_3',
+        date: '2017-04-30',
+        place: 'Сайменский канал',
+        name: 'TrailAdventure',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'http://tradventure.ru/'
+    },
+    {
         id: 'SPB_20170501_1',
         date: '2017-05-01',
         name: 'УТС в ОК Университетский',
@@ -578,6 +587,15 @@ let events2017 = [
         o_site: '170527R'
     },
     {
+        id: 'SPB_20170527_4',
+        date: '2017-05-27',
+        place: 'По назначению',
+        name: 'BikeAdventure',
+        type: 'ROGAINE',
+        fmt: '24',
+        link: 'http://bikeadventure.ru/news/ba2017-sostoitsya-27-28-maya.php'
+    },
+    {
         id: 'SPB_20170528_1',
         date: '2017-05-28',
         place: 'Выборг (ст. Возрождение)',
@@ -667,7 +685,8 @@ let events2017 = [
         name: 'Велорогейн 100x24, 3й этап Кубка Всеволожского р-на',
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/?id=766',
-        o_site: '170617_rog'
+        o_site: '170617_rog',
+        start: '100x24'
     },
     {
         id: 'SPB_20170618_1',
@@ -702,6 +721,15 @@ let events2017 = [
         o_site: '170701'
     },
     {
+        id: 'SPB_20170701_2',
+        date: '2017-07-01',
+        place: 'Центр',
+        name: 'Пальмира севера  (8 этап ЗМ)',
+        type: 'ROGAINE',
+        fmt: '6, 3',
+        link: 'http://mosplay.ru/'
+    },
+    {
         id: 'SPB_20170702_1',
         date: '2017-07-02',
         name: 'Чемпионат и Первенство Санкт-Петербурга по велоориентированию, лонг',
@@ -720,6 +748,15 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=771',
         res: 'https://o-site.spb.ru/_races/170708/results.htm',
         o_site: '170708'
+    },
+    {
+        id: 'SPB_20170708_3',
+        date: '2017-07-08',
+        place: 'Мичуринское',
+        name: '"Матрасс-Офф-рогейн"  (4 этап КВР)',
+        type: 'ROGAINE',
+        fmt: '?',
+        link: 'http://www.multsport.ru/starts/'
     },
     {
         id: 'SPB_20170709_1',
@@ -797,6 +834,14 @@ let events2017 = [
         o_site: '17081213'
     },
     {
+        id: 'SPB_20170812_2',
+        date: '2017-08-12',
+        place: 'По назначению',
+        name: 'Чемпионат СЗФО',
+        type: 'ROGAINE',
+        fmt: '6'
+    },
+    {
         id: 'SPB_20170826_1',
         date: '2017-08-26',
         name: 'History Race 2017',
@@ -837,6 +882,15 @@ let events2017 = [
         o_site: '170903'
     },
     {
+        id: 'SPB_20170903_2',
+        date: '2017-09-03',
+        place: 'Парк Политехнического ун-та',
+        name: 'Политех-квест',
+        type: 'ROGAINE',
+        fmt: '1.5',
+        link: 'https://vk.com/politech_academy'
+    },
+    {
         id: 'SPB_20170909_1',
         date: '2017-09-09',
         endDate: '2017-09-10',
@@ -859,6 +913,15 @@ let events2017 = [
         info: '8-е традиционные соревнования на призы компании Триколор ТВ',
         owner: 'WN',
         o_site: '170910_BN'
+    },
+    {
+        id: 'SPB_20170910_2',
+        date: '2017-09-10',
+        place: 'Всеволожск-Углово',
+        name: '"Дорога жизни"  (5 этап КВР)',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'http://sport-orient.ru/'
     },
     {
         id: 'SPB_20170916_1',
@@ -1043,6 +1106,15 @@ let events2017 = [
         o_site: '171007_D'
     },
     {
+        id: 'SPB_20171007_4',
+        date: '2017-10-07',
+        place: 'Всеволожск-Щеглово',
+        name: 'КВР - Финал',
+        type: 'ROGAINE',
+        fmt: '4',
+        link: 'http://sport-orient.ru/'
+    },
+    {
         id: 'SPB_20171008_1',
         date: '2017-10-08',
         place: 'Петяярви',
@@ -1053,6 +1125,15 @@ let events2017 = [
         owner: 'SFSO_SPB',
         o_site: '171008',
         reskeep: 243
+    },
+    {
+        id: 'SPB_20171014_1',
+        date: '2017-10-14',
+        place: 'По назначению',
+        name: 'TrailAdventure',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'http://tradventure.ru/'
     },
     {
         id: 'SPB_20171015_1',
@@ -1076,6 +1157,15 @@ let events2017 = [
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         owner: 'SFSO_SPB',
         o_site: '171018'
+    },
+    {
+        id: 'SPB_20171021_1',
+        date: '2017-10-21',
+        place: 'По назначению',
+        name: 'TrailAdventure',
+        type: 'ROGAINE',
+        fmt: '6',
+        link: 'http://tradventure.ru/'
     },
     {
         id: 'SPB_20171022_1',

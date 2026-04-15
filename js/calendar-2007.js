@@ -129,7 +129,8 @@ let events2007 = [
         type: 'ORIENT',
         info: 'Рогейн 100 км. за 24 часа',
         o_site: '070223_100x24',
-        endDate: '2007-02-24'
+        endDate: '2007-02-24',
+        start: '100x24'
     },
     {
         id: 'SPB_20070224_1',
