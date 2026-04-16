@@ -47,6 +47,16 @@ let pskovMaps = [
         owner: 'PSKOV_RUS',
     },
     {
+        name: 'Изборск, Котья гора',
+        date: '2017-05-19',
+        major: true,
+        url: './maps/pskov/kotia_gora_2017_05_19.webp',
+        link: './original_maps/pskov/kotia_gora_2017_05_19_omaps.webp',
+        info: 'Чемпионат России.',
+        bounds: [[57.654976422915716, 27.805752754211426], [57.651830709989305, 27.85167217254639], [57.623943643306085, 27.798414230346683]],
+        owner: 'PSKOV_RUS',
+    },
+    {
         name: 'Корытово',
         year: 1,
         url: './maps/pskov/korytovo_retro.webp',

@@ -201,6 +201,17 @@ let otherMaps = [
         author: 'KUZNTSV_S',
         region: 'MURMANSK'
     },
+    {
+        name: 'Кировск, г Айкуайвенчорр',
+        year: 2021,
+        date: '2022-09-10',
+        url: './maps/other/kirovsk_aikuayvenchor_2022_09_10.webp',
+        link: './original_maps/other/kirovsk_aikuayvenchor_2022_09_10_omaps.webp',
+        info: 'Чемпионат России.',
+        bounds: [[67.61124759316175, 33.67528438568116], [67.60480639943397, 33.73339176177979], [67.57644589669246, 33.64835500717164]],
+        author: ['KVZN','TKMKVA_P','TKMKV_K'],
+        region: 'MURMANSK'
+    },
     // --- Оренбург ---
     {
         name: 'парк Ивушка',

@@ -11,6 +11,16 @@ let ksStartsMaps = [
         author: ['KUZNTSV_S','KVZN','SHRNN']
     },
     {
+        name: 'Богатыри',
+        start: 'KS',
+        date: '1999-06-20',
+        info: 'Silva Cup',
+        url: './maps/starts/ks/sc_1999_06_20.webp',
+        link: './original_maps/starts/ks/sc_1999_06_20_omaps.webp',
+        bounds: [[61.117707909836376, 29.80350494384766], [61.11190336409513, 29.892425537109375], [61.087554126826284, 29.793634414672855]],
+        author: ['KUZNTSV_S','KVZN','VLKV_K','SHRNN']
+    },
+    {
         name: 'Кузнечное, оз Травкино',
         start: 'KS',
         date: '2000-06-23',
