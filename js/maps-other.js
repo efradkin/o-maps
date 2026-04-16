@@ -212,6 +212,17 @@ let otherMaps = [
         author: ['KVZN','TKMKVA_P','TKMKV_K'],
         region: 'MURMANSK'
     },
+    {
+        name: 'Мурманск, Долина Уюта',
+        year: 2022,
+        date: '2023-09-23',
+        url: './maps/other/murmansk_2023_09_23.webp',
+        link: './original_maps/other/murmansk_2023_09_23_omaps.webp',
+        info: 'Чемпионат России.',
+        bounds: [[68.96692554632965, 33.13141822814942], [68.96270482718478, 33.174505233764656], [68.93165617852857, 33.10223579406739]],
+        author: ['SKRPKO_S','KVZN'],
+        region: 'MURMANSK'
+    },
     // --- Оренбург ---
     {
         name: 'парк Ивушка',

@@ -45,6 +45,15 @@ let specialMaps = [
         qtty: 10
     },
     {
+        name: 'Стеклянный',
+        date: '1999-02-20',
+        url: './maps/winter/steklyanny_winter_1999.webp',
+        link: './original_maps/winter/steklyanny_winter_1999_omaps.webp',
+        info: 'Первенство России среди ДЮСШ. Первенство России среди ветеранов.',
+        bounds: [[60.40618115009164, 30.25797843933106], [60.40490950567181, 30.2808952331543], [60.379932819702496, 30.251626968383793]],
+        type: ['WINTER']
+    },
+    {
         name: 'Силанде',
         date: '2024-01-21',
         url: './maps/winter/silande_winter_2024.webp',
