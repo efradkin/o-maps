@@ -1055,11 +1055,13 @@ let cityMaps = [
     },
     {
         name: 'Жени Егоровой',
-        year: 2026,
+        date: '2026-04-15',
         url: './maps/city/egorovoy_2026.webp',
-        link: './original_maps/city/egorovoy_2026_omaps.gif',
+        link: ['./original_maps/city/egorovoy_2026_omaps.gif','./original_maps/city/egorovoy_2026_04_15_st_omaps.webp'],
         bounds: [[60.06518310790344, 30.304927825927738], [60.06364651887828, 30.319465398788456], [60.05842050989998, 30.302009582519535]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24739/',
+        start: 'ST',
+        planner: 'SRBRNTSKY',
         author: 'SVCHK',
         owner: 'SVCHK',
         type: ['CITY','SPRINT']
