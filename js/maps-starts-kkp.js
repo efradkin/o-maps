@@ -7,7 +7,7 @@ let kkpStartsMaps = [
         info: '30.06, короткая дистанция.',
         o_site: '11062903',
         url: './maps/starts/kkp/kkp_2011_06_30.webp',
-        link: './original_maps/starts/kkp/kkp_2011_06_30_omaps.jpg',
+        // link: './original_maps/starts/kkp/kkp_2011_06_30_omaps.jpg',
         bounds: [[60.978145969534886, 29.181575775146484], [60.97541842114699, 29.21947002410889], [60.96573477561467, 29.174838066101078]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','VLKV_K','VRBY','KUZNTSV_R'],
         owner: 'NW'
@@ -19,7 +19,7 @@ let kkpStartsMaps = [
         info: '01.07, средняя дистанция.',
         o_site: '11062903',
         url: './maps/starts/kkp/kkp_2011_07_01.webp',
-        link: './original_maps/starts/kkp/kkp_2011_07_01_omaps.jpg',
+        // link: './original_maps/starts/kkp/kkp_2011_07_01_omaps.jpg',
         bounds: [[60.970608204558864, 29.177885055541996], [60.967463470498025, 29.222860336303714], [60.9528394969533, 29.172735214233402]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','VLKV_K','VRBY','KUZNTSV_R'],
         owner: 'NW'
@@ -31,7 +31,7 @@ let kkpStartsMaps = [
         info: '02.07, короткая дистанция.',
         o_site: '11062903',
         url: './maps/starts/kkp/kkp_2011_07_02.webp',
-        link: './original_maps/starts/kkp/kkp_2011_07_02_omaps.jpg',
+        // link: './original_maps/starts/kkp/kkp_2011_07_02_omaps.jpg',
         bounds: [[60.97316957929919, 29.161920547485355], [60.97075397939019, 29.193205833435062], [60.96129805633711, 29.15767192840576]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','VLKV_K','VRBY','KUZNTSV_R'],
         owner: 'NW'
@@ -43,7 +43,7 @@ let kkpStartsMaps = [
         info: '03.07, классическая дистанция.',
         o_site: '11062903',
         url: './maps/starts/kkp/kkp_2011_07_03.webp',
-        link: './original_maps/starts/kkp/kkp_2011_07_03_omaps.jpg',
+        // link: './original_maps/starts/kkp/kkp_2011_07_03_omaps.jpg',
         bounds: [[60.99171776800678, 29.16595458984375], [60.98913707474183, 29.20148849487305], [60.967650913693966, 29.15780067443848]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','VLKV_K','VRBY','KUZNTSV_R'],
         owner: 'NW'
@@ -55,7 +55,7 @@ let kkpStartsMaps = [
         info: '02.07, полигон.',
         o_site: '12070306',
         url: './maps/starts/kkp/kkp_2012_07_02.webp',
-        link: './original_maps/starts/kkp/kkp_2012_07_02_omaps.jpg',
+        // link: './original_maps/starts/kkp/kkp_2012_07_02_omaps.jpg',
         bounds: [[61.00420203274373, 29.17998790740967], [61.001996836170626, 29.205307960510257], [60.9914888440124, 29.1753101348877]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','VLKV_K','TKMKVA_P'],
         owner: 'NW'
@@ -67,7 +67,7 @@ let kkpStartsMaps = [
         info: '04.07, средняя дистанция.',
         o_site: '12070306',
         url: './maps/starts/kkp/kkp_2012_07_04.webp',
-        link: './original_maps/starts/kkp/kkp_2012_07_04_omaps.jpg',
+        // link: './original_maps/starts/kkp/kkp_2012_07_04_omaps.jpg',
         bounds: [[60.999937127482944, 29.150376319885257], [60.99606701050066, 29.199900627136234], [60.9818517289735, 29.14453983306885]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K','VLKV_K','TKMKVA_P'],
         owner: 'NW'
@@ -79,7 +79,7 @@ let kkpStartsMaps = [
         info: '24.06.',
         o_site: '13062427',
         url: './maps/starts/kkp/kkp_2013_06_24.webp',
-        link: './original_maps/starts/kkp/kkp_2013_06_24_omaps.jpg',
+        // link: './original_maps/starts/kkp/kkp_2013_06_24_omaps.jpg',
         bounds: [[60.79770890286391, 28.796110153198246], [60.795897700532784, 28.818812370300297], [60.788955554616905, 28.79327774047852]],
         author: 'KVZN',
         owner: 'NW'
@@ -91,7 +91,7 @@ let kkpStartsMaps = [
         info: '27.06.',
         o_site: '13062427',
         url: './maps/starts/kkp/kkp_2013_06_27.webp',
-        link: './original_maps/starts/kkp/kkp_2013_06_27_omaps.jpg',
+        // link: './original_maps/starts/kkp/kkp_2013_06_27_omaps.jpg',
         bounds: [[60.81154603836425, 28.78276348114014], [60.80982980487091, 28.81022930145264], [60.794526143912584, 28.776583671569828]],
         author: ['KVZN','VRBY'],
         owner: 'NW'
