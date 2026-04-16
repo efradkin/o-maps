@@ -76,6 +76,14 @@ let southMaps = [
         owner: 'EGRV_SRG'
     },
     {
+        name: 'Тихвин, Попово оз',
+        year: 2012,
+        url: './maps/forest/south/tikhvin_popovo_2012.webp',
+        link: './original_maps/forest/south/tikhvin_popovo_2012_omaps.webp',
+        bounds: [[59.654864445498106, 33.6149024963379], [59.652327653983384, 33.640909194946296], [59.63703779760461, 33.60958099365235]],
+        owner: 'EGRV_SRG'
+    },
+    {
         name: 'Будогощь',
         year: 2015,
         area: 43,

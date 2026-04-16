@@ -839,13 +839,15 @@ let events2026 = [
         id: 'SPB_20260415_1',
         date: '2026-04-15',
         name: 'Спринт Тур',
-        place: 'пр Просвещения',
+        place: 'ул Жени Егоровой',
         link: 'https://vk.com/wall-92124592_2210',
         reg: 'https://orgeo.ru/event/51902',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24739/',
         type: 'ORIENT',
         fmt: 'спринт',
         start: 'ST',
         info: 'Новая карта.',
+        reskeep: 871
     },
     {
         id: 'SPB_20260418',
