@@ -1054,6 +1054,17 @@ let cityMaps = [
         type: ['CITY']
     },
     {
+        name: 'Жени Егоровой',
+        year: 2026,
+        url: './maps/city/egorovoy_2026.webp',
+        link: './original_maps/city/egorovoy_2026_omaps.gif',
+        bounds: [[60.06518310790344, 30.304927825927738], [60.06364651887828, 30.319465398788456], [60.05842050989998, 30.302009582519535]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24739/',
+        author: 'SVCHK',
+        owner: 'SVCHK',
+        type: ['CITY','SPRINT']
+    },
+    {
         name: 'пр Просвещения, Школа №518',
         date: '2024-09-11',
         url: './maps/city/school_518_2024.webp',

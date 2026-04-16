@@ -847,7 +847,8 @@ let events2026 = [
         fmt: 'спринт',
         start: 'ST',
         info: 'Новая карта.',
-        reskeep: 871
+        reskeep: 871,
+        map: 'egorovoy_2026'
     },
     {
         id: 'SPB_20260418',
