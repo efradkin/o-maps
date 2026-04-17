@@ -66,6 +66,14 @@ const regions = {
     PSKOV: {
         name: 'Псков'
     },
+    PERM: {
+        name: 'Пермь',
+        logo: 'perm.gif'
+    },
+    ROSTOV: {
+        name: 'Ростов-на-Дону',
+        logo: 'rostov.webp'
+    },
     RYAZAN: {
         name: 'Рязань'
     },

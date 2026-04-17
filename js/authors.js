@@ -394,7 +394,7 @@ let authors = {
     SSNNA: { name: 'Соснина Н.' },
     SSV_V: { name: 'Сысоев Виктор' },
     STLV_S: { name: 'Стулов Сергей' },
-    STLRV: { name: 'Столяров А.' },
+    STLRV: { name: 'Столяров Андрей' },
     STPNVA_I: {
         name: 'Степанова Ирина',
         about: 'https://o-site.spb.ru/history/Peoples/turist80.html'
@@ -881,6 +881,7 @@ let authors = {
     GLTSKY_V: { name: 'Гелецкий В.' },
     GRBNKO: { name: 'Горбенко Данила' },
     GSMNV_R: { name: 'Гусманов Р.' },
+    IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
     KLM_K: { name: 'Калм К.' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },
     KUZNTSV_S_DV: { name: 'Кузнецов Сергей' },

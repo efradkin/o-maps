@@ -243,6 +243,29 @@ let otherMaps = [
         logo: 'orenburg.webp',
         region: 'ORENBURG'
     },
+    // --- Пермь ---
+    {
+        name: 'Пермь, Балатово, Черняевский лес',
+        year: 2013,
+        date: '2015-09-13',
+        url: './maps/other/perm_balatovo_2013_09_15.webp',
+        link: ['./original_maps/other/perm_balatovo_2015_09_13_1_omaps.webp','./original_maps/other/perm_balatovo_2015_09_13_2_omaps.webp'],
+        info: 'Чемпионат России.',
+        bounds: [[57.999775257951946, 56.139664649963386], [57.99313403344903, 56.19081974029542], [57.971609824958364, 56.126060485839844]],
+        author: ['LNTV','STLRV','JASHPTRV'],
+        region: 'PERM',
+    },
+    // --- Ростов ---
+    {
+        name: 'Калитвенская',
+        date: '2021-04-03',
+        url: './maps/other/kalitvenskaya_2021_04_03.webp',
+        link: './original_maps/other/kalitvenskaya_2021_04_03_omaps.webp',
+        info: 'Кубок России.',
+        bounds: [[48.25385542154695, 40.48556327819825], [48.25094075106392, 40.510153770446784], [48.22878954352343, 40.4793405532837]],
+        author: ['DJCHKV','IDLBV'],
+        region: 'ROSTOV',
+    },
     // --- Челябинск ---
     {
         name: 'оз Большой Еланчик',
