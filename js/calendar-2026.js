@@ -765,7 +765,7 @@ let events2026 = [
     {
         id: 'SPB_20260407_1',
         date: '2026-04-07',
-        name: 'NW Sprint',
+        name: 'NW Sprint #1',
         place: 'Богатырский пр',
         o_site: '260407_NWSprint_1',
         reg: 'https://orgeo.ru/event/info/nw_sprint',
@@ -821,6 +821,7 @@ let events2026 = [
         strava: [18064614080,18078563936],
         reskeep: [868,869],
         video: 'https://vk.com/video3554909_456247816',
+        photo: ['https://vk.com/album-201330282_310563730','https://disk.yandex.ru/d/wnajivFECeuZWA'],
         me: 'М45'
     },
     {
@@ -931,7 +932,7 @@ let events2026 = [
     {
         id: 'SPB_20260423_1',
         date: '2026-04-23',
-        name: 'NW Sprint',
+        name: 'NW Sprint #2',
         place: 'Комендантский пр',
         reg: 'http://orgeo.ru/event/nw_sprint_23_04',
         type: 'ORIENT',
@@ -990,6 +991,37 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/44669'
     },
     {
+        id: 'SPB_20260501_1',
+        date: '2026-05-01',
+        place: 'Гарболово',
+        o_site: '260501',
+        reg: 'http://orgeo.ru/event/info/52020',
+        name: 'Приз газеты «Всеволожские вести»',
+        type: 'ORIENT',
+        map: 'garbolovo_2016',
+    },
+    {
+        id: 'SPB_20260501_2',
+        date: '2026-05-01',
+        place: 'Суоранда',
+        reg: 'https://orgeo.ru/event/52074',
+        name: 'Всеволожский ориентир',
+        type: 'ORIENT',
+        map: 'orovo_2019',
+        owner: 'WN'
+    },
+    {
+        id: 'SPB_20260501_3',
+        date: '2026-05-01',
+        place: 'Суоранда',
+        reg: 'https://orgeo.ru/event/52080',
+        name: 'Сокол на крыльях ночи',
+        type: 'ORIENT',
+        fmt: 'масстарт',
+        map: 'orovo_2019',
+        owner: 'WN'
+    },
+    {
         id: 'SPB_20260502_1',
         date: '2026-05-02',
         place: 'Луга, оз Омчино',
@@ -1000,16 +1032,6 @@ let events2026 = [
         fmt: '5(4), 2',
         map: 'luga_omchino_gk_2023',
         start: 'GORNY_CROSS'
-    },
-    {
-        id: 'SPB_20260501_1',
-        date: '2026-05-01',
-        place: 'Гарболово',
-        o_site: '260501',
-        reg: 'http://orgeo.ru/event/info/52020',
-        name: 'Приз газеты «Всеволожские вести»',
-        type: 'ORIENT',
-        map: 'garbolovo_2016',
     },
     {
         id: 'SPB_20260502_2',
@@ -1036,7 +1058,7 @@ let events2026 = [
     {
         id: 'SPB_20260507_1',
         date: '2026-05-07',
-        name: 'NW Sprint',
+        name: 'NW Sprint #3',
         place: 'Комендантский пр',
         type: 'ORIENT',
         fmt: 'спринт',
@@ -1058,6 +1080,8 @@ let events2026 = [
         date: '2026-05-10',
         name: 'ЧиП СПб',
         place: 'Поляны',
+        o_site: '260510_velo',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1731',
         type: 'VELO',
         fmt: 'спринт',
         owner: 'SFSO_SPB'
@@ -1079,6 +1103,8 @@ let events2026 = [
         date: '2026-05-11',
         name: 'ЧиП СПб',
         place: 'Аньялово',
+        o_site: '260511_chemp',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1730',
         type: 'ORIENT',
         fmt: 'классика',
         map: 'anyalovo_winter_2023_omaps',

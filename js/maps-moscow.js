@@ -1,5 +1,12 @@
 let moscowMaps = [
     {
+        name: 'Парк усадьбы Усачёвых-Найдёновых',
+        year: 1,
+        url: './maps/moscow/sz/usachevy_naidenovy_retro.webp',
+        link: './original_maps/moscow/sz/usachevy_naidenovy_retro_omaps.webp',
+        bounds: [[55.75374526370433, 37.6568627357483], [55.75320187033113, 37.662452459335334], [55.75067197263461, 37.65581130981446]],
+    },
+    {
         name: 'Некрасовский',
         year: 1,
         url: './maps/moscow/nekrasovsky.webp',
@@ -6217,6 +6224,7 @@ let moscowMaps = [
     {
         name: 'Патриаршие пруды, Якиманка',
         year: 2026,
+        area: 8.2,
         url: './maps/moscow/lr/patriki_yakimanka_2026.webp',
         link: './original_maps/moscow/lr/patriki_yakimanka_2026_omaps.webp',
         bounds: [[55.77242131739292, 37.58062362670899], [55.765420354484725, 37.640233039855964], [55.72493498212863, 37.563071250915534]],
