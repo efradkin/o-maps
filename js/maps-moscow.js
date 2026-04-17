@@ -1732,6 +1732,7 @@ let moscowMaps = [
         owner: 'ERMCHNKV_A',
         type: ['PARK']
     },
+/*
     {
         name: 'Парк Горького, Парк Искусств Музеон и район Якиманка',
         year: 2024,
@@ -1743,6 +1744,7 @@ let moscowMaps = [
         owner: 'ERMCHNKV_A',
         type: ['PARK']
     },
+*/
     {
         name: 'Парк Кусково',
         year: 2000,
@@ -6186,6 +6188,7 @@ let moscowMaps = [
     {
         name: 'Баррикадная',
         date: '2025-08-02',
+        excluded: true,
         area: .257,
         url: './maps/moscow/ak/barrikadnaya_obsw_2025.webp',
         link: './original_maps/moscow/ak/barrikadnaya_obsw_2025_omaps.png',
@@ -6212,12 +6215,11 @@ let moscowMaps = [
         type: ['INDOOR']
     },
     {
-        name: 'Патриаршие пруды',
-        year: 2025,
-        info: '<a href="https://t.me/rogainomania/387">Московский Нанорогейн</a>',
-        url: './maps/moscow/lr/patriki_rogaine_2025.webp',
-        link: './original_maps/moscow/lr/patriki_rogaine_2025_omaps.gif',
-        bounds: [[55.77071947484046, 37.589292526245124], [55.76689307523892, 37.62066364288331], [55.74536408844991, 37.57997989654542]],
+        name: 'Патриаршие пруды, Якиманка',
+        year: 2026,
+        url: './maps/moscow/lr/patriki_yakimanka_2026.webp',
+        link: './original_maps/moscow/lr/patriki_yakimanka_2026_omaps.webp',
+        bounds: [[55.77242131739292, 37.58062362670899], [55.765420354484725, 37.640233039855964], [55.72493498212863, 37.563071250915534]],
         author: ['MNKV','MSTPNV','KPTNV_M','DRN_E','PRZRV','ALDBV'],
         owner: ['ERMCHNKV_A','OPNBND'],
         type: ['CITY','SPRINT']
