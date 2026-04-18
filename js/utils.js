@@ -1285,6 +1285,9 @@ function buildEventResults(evt) {
 }
 
 function getVideoImg(vLink) {
+    if (isObject(vLink)) {
+        vLink = Object.values(vLink)[0];
+    }
     if (vLink.includes('vkvideo') || vLink.includes('vk.com') || vLink.includes('vk.ru')) {
         return 'vkvideo.gif';
     }
