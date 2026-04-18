@@ -883,6 +883,10 @@ let events2026 = [
         place: 'Передовиков, 29',
         o_site: '260418',
         reg: 'https://orgeo.ru/event/krosprint26',
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/24740/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/24741/'
+        },
         type: 'ORIENT',
         fmt: 'спринт',
         info: 'Новая карта.',
@@ -903,6 +907,7 @@ let events2026 = [
         name: 'П-во Кировского р-она',
         place: 'Воронцовский сквер',
         reg: 'https://orgeo.ru/event/52026',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24753/',
         type: 'ORIENT',
         fmt: 'спринт',
         map: 'vorontsovsky_skver_2024'
