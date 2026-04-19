@@ -1196,11 +1196,11 @@ function buildMapPopup(m) {
     if (!logo.length) {
         logo.push('logo/o-maps.webp');
     }
-    if (logo.length >= 2) {
+    if (logo.length >= 2 && !isMobile) {
         let carousel = LOGO_CAROUSEL_TEMPLATE.replace('image_1', logo[0]);
         carousel = carousel.replace('image_2', logo[1]);
         result += carousel;
-    } else if (logo.length === 1) {
+    } else if (logo.length > 0) {
         result += '<img src="./' + logo[0] + '" alt="" class="popup-logo" />';
     }
     if (isMobile) {

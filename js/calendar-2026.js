@@ -898,8 +898,10 @@ let events2026 = [
         name: '30-й меридиан',
         place: 'усадьба Богословка',
         reg: 'https://orgeo.ru/event/51698',
+        strava: 18155162974,
         type: 'ORIENT',
-        map: 'nevsky_2024'
+        map: 'nevsky_2024',
+        me: 'М'
     },
     {
         id: 'SPB_20260418_4',
@@ -919,14 +921,18 @@ let events2026 = [
         place: 'Лемболово, р Вьюн',
         o_site: '260419_p',
         reg: 'http://orgeo.ru/event/51889',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24777/',
+        strava: 18170060238,
+        reskeep: 876,
         type: 'ORIENT',
         owner: 'FENIX',
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        me: 'МА'
     },
     {
         id: 'SPB_20260421_1',
         date: '2026-04-21',
-        name: 'Тренировка от Феникса',
+        name: 'Феникс Sprint-Cup',
         place: 'Школа №532',
         reg: 'https://orgeo.ru/event/50871',
         type: 'ORIENT',
@@ -940,10 +946,12 @@ let events2026 = [
         name: 'NW Sprint #2',
         place: 'Комендантский пр',
         reg: 'http://orgeo.ru/event/nw_sprint_23_04',
+        info: 'Новая карта.',
         type: 'ORIENT',
         fmt: 'спринт',
         o_site: '260423_NWSprint_2',
-        owner: 'NW'
+        owner: 'NW',
+        coord: [60.023310, 30.237502]
     },
     {
         id: 'SPB_20260425_1',
@@ -951,6 +959,7 @@ let events2026 = [
         name: 'Открытие сезона',
         place: 'Петергоф (ПУНК)',
         o_site: '260425_open_season',
+        reg: 'https://o-reg.spb.ru/?filter[day_id]=1727',
         type: 'ORIENT',
         fmt: 'выбор',
         map: 'peterhof_spbgu_2024',
@@ -961,12 +970,14 @@ let events2026 = [
         date: '2026-04-25',
         name: 'Лужский весенний рогейн, ККР №1, КЛО',
         place: 'Луга, оз Омчино',
+        link: 'https://vk.com/wall-166397868_5268',
         reg: 'https://orgeo.ru/event/48937',
         type: 'ROGAINE',
         fmt: '4',
         map: 'toloni_2025',
         owner: 'SHBN'
     },
+/*
     {
         id: 'SPB_20260425_3',
         date: '2026-04-25',
@@ -974,6 +985,7 @@ let events2026 = [
         type: 'ORIENT',
         owner: 'WN'
     },
+*/
     {
         id: 'SPB_20260426_1',
         date: '2026-04-26',
