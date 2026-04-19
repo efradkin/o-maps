@@ -1598,6 +1598,16 @@ let cityMaps = [
         type: ['CITY']
     },
     {
+        name: 'Пороховые, школа №127',
+        year: 2026,
+        url: './maps/city/porokhovye_school_127_2026.webp',
+        link: './original_maps/city/porokhovye_school_127_2026_omaps.gif',
+        bounds: [[59.9562564758587, 30.461525917053226], [59.95506397914048, 30.472962856292728], [59.948821471824935, 30.45821070671082]],
+        author: 'RDNV_I',
+        owner: 'RDNV_I',
+        type: ['CITY']
+    },
+    {
         name: 'ул Тельмана, гимназия №343',
         year: 2025,
         url: './maps/city/krylenko_school_343_2025.webp',
