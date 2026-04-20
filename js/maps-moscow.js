@@ -1,5 +1,54 @@
 let moscowMaps = [
     {
+        name: 'Лосиный остров',
+        year: 2013,
+        url: './maps/moscow/losiny_ostrov_rogaine_2013.webp',
+        link: './original_maps/moscow/lr/losiny_ostrov_rogaine_2013_omaps.gif',
+        bounds: [[55.927471069153, 37.696151733398445], [55.905633898575495, 37.91501998901368], [55.819030133331495, 37.66387939453126]],
+        author: 'RMNV_A',
+        owner: 'KSTKN_SITE',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Суханово',
+        year: 2011,
+        url: './maps/moscow/sukhanovo_2011.webp',
+        link: './original_maps/moscow/sukhanovo_2011_omaps.gif',
+        bounds: [[55.542424733766, 37.59332656860352], [55.551262142263575, 37.67357826232911], [55.48230683298449, 37.61366844177247]],
+        owner: 'KSTKN_SITE',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Покров',
+        year: 2014,
+        url: './maps/moscow/pokrov_rogaine_2014.webp',
+        link: './original_maps/moscow/pokrov_rogaine_2014_omaps.jpg',
+        bounds: [[56.1646707408543, 38.75598907470704], [56.16378659337049, 39.49675083160401], [55.85093896064062, 38.75770568847657]],
+        owner: 'KSTKN_SITE',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Воскресенск',
+        year: 2012,
+        url: './maps/moscow/voskresensk_rogaine_2012.webp',
+        link: './original_maps/moscow/voskresensk_rogaine_2012_omaps.gif',
+        bounds: [[55.495776945292555, 38.66363525390626], [55.44362154041118, 39.1439437866211], [55.14336809548373, 38.543815612792976]],
+        owner: 'KSTKN_SITE',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Электрогорск',
+        date: '2025-05-10',
+        url: './maps/moscow/ak/electrogorsk_rogaine_2025.webp',
+        link: './original_maps/moscow/ak/electrogorsk_rogaine_2025_omaps.gif',
+        info: 'Весенний Компот-рогейн.',
+        bounds: [[56.04318502062839, 38.797874450683594], [56.01402511088384, 39.03614044189454], [55.89071598742222, 38.737621307373054]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22250/',
+        owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Парк усадьбы Усачёвых-Найдёновых',
         year: 1,
         url: './maps/moscow/sz/usachevy_naidenovy_retro.webp',
@@ -3851,11 +3900,23 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Фосфоритный',
+        date: '2022-08-27',
+        url: './maps/moscow/ak/fosforitny_rogaine_2022_08_27.webp',
+        link: './original_maps/moscow/ak/fosforitny_rogaine_2022_08_27_omaps.gif',
+        info: '<a href="https://forestadventure.ru/history/">Рогейн Forest Adventure Рудниковый</a>.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/14143/',
+        bounds: [[55.3976364945054, 38.78568649291993], [55.38184114754356, 38.918380737304695], [55.34447272954158, 38.7663745880127]],
+        author: 'JAKMV_S',
+        owner: 'JAKMV_S',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Ильясово',
         year: 2024,
         url: './maps/moscow/ak/iliasovo_rogaine_2024.webp',
         link: './original_maps/moscow/ak/iliasovo_rogaine_2024_omaps.png',
-        info: '<a href="https://forestadventure.ru/2024/fa/">Рогейн Forest Adventure Осётр</a>',
+        info: '<a href="https://forestadventure.ru/2024/fa/">Рогейн Forest Adventure Осётр</a>.',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20319/',
         bounds: [[54.96283357307888, 38.72929573059083], [54.94681566221077, 38.85409355163575], [54.85892410510788, 38.69024276733399]],
         author: 'JAKMV_S',
@@ -5361,55 +5422,6 @@ let moscowMaps = [
         url: './maps/moscow/losiny_ostrov_1990.webp',
         link: './original_maps/moscow/lr/losiny_ostrov_1990_omaps.jpg',
         bounds: [[55.85170984693713, 37.678942680358894], [55.85149303671181, 37.72842407226563], [55.831300295693204, 37.67838478088379]]
-    },
-    {
-        name: 'Лосиный остров',
-        year: 2013,
-        url: './maps/moscow/losiny_ostrov_rogaine_2013.webp',
-        link: './original_maps/moscow/lr/losiny_ostrov_rogaine_2013_omaps.gif',
-        bounds: [[55.927471069153, 37.696151733398445], [55.905633898575495, 37.91501998901368], [55.819030133331495, 37.66387939453126]],
-        author: 'RMNV_A',
-        owner: 'KSTKN_SITE',
-        type: ['ROGAINE']
-    },
-    {
-        name: 'Суханово',
-        year: 2011,
-        url: './maps/moscow/sukhanovo_2011.webp',
-        link: './original_maps/moscow/sukhanovo_2011_omaps.gif',
-        bounds: [[55.542424733766, 37.59332656860352], [55.551262142263575, 37.67357826232911], [55.48230683298449, 37.61366844177247]],
-        owner: 'KSTKN_SITE',
-        type: ['ROGAINE']
-    },
-    {
-        name: 'Покров',
-        year: 2014,
-        url: './maps/moscow/pokrov_rogaine_2014.webp',
-        link: './original_maps/moscow/pokrov_rogaine_2014_omaps.jpg',
-        bounds: [[56.1646707408543, 38.75598907470704], [56.16378659337049, 39.49675083160401], [55.85093896064062, 38.75770568847657]],
-        owner: 'KSTKN_SITE',
-        type: ['ROGAINE']
-    },
-    {
-        name: 'Воскресенск',
-        year: 2012,
-        url: './maps/moscow/voskresensk_rogaine_2012.webp',
-        link: './original_maps/moscow/voskresensk_rogaine_2012_omaps.gif',
-        bounds: [[55.495776945292555, 38.66363525390626], [55.44362154041118, 39.1439437866211], [55.14336809548373, 38.543815612792976]],
-        owner: 'KSTKN_SITE',
-        type: ['ROGAINE']
-    },
-    {
-        name: 'Электрогорск',
-        date: '2025-05-10',
-        url: './maps/moscow/ak/electrogorsk_rogaine_2025.webp',
-        link: './original_maps/moscow/ak/electrogorsk_rogaine_2025_omaps.gif',
-        info: 'Весенний Компот-рогейн.',
-        bounds: [[56.04318502062839, 38.797874450683594], [56.01402511088384, 39.03614044189454], [55.89071598742222, 38.737621307373054]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22250/',
-        owner: 'KMPT',
-        start: 'KMPT_ROGAINE',
-        type: ['ROGAINE']
     },
     {
         name: 'Никольское',
