@@ -311,11 +311,21 @@ if (mapElement) {
         if (m) {
             let mapType = m.type;
             if (mapType && (isRogaine(m) || isFun(m))) {
-                activeLayers.push(funGroup, rogaineGroup);
+                if (typeof funGroup !== 'undefined') {
+                    activeLayers.push(funGroup);
+                }
+                if (typeof rogaineGroup !== 'undefined') {
+                    activeLayers.push(rogaineGroup);
+                }
             } else {
                 let y = year(m);
                 if (y && y < 2000 && (typeof groupRetro !== 'undefined')) {
-                    activeLayers.push(groupRetro, group90th);
+                    if (typeof groupRetro !== 'undefined') {
+                        activeLayers.push(groupRetro);
+                    }
+                    if (typeof group90th !== 'undefined') {
+                        activeLayers.push(group90th);
+                    }
                 }
             }
         }

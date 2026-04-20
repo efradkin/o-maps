@@ -30,7 +30,8 @@ let otherStartsMaps = [
         link: './original_maps/forest/tarasovskoe_1999_european_hope_omaps.webp',
         bounds: [[60.272791242234234, 29.08488750457764], [60.270365177637856, 29.127502441406254], [60.255592095973995, 29.081797599792484]],
         author: 'KRCHKN_V',
-        start: 'EUROPEAN_HOPE'
+        start: 'EUROPEAN_HOPE',
+        page: 'starts'
     },
     {
         name: 'Зеркальный',
@@ -39,7 +40,8 @@ let otherStartsMaps = [
         link: './original_maps/forest/zerkalny_1999_european_hope_omaps.webp',
         bounds: [[60.245146868264186, 29.13754463195801], [60.244124526327596, 29.15767192840576], [60.236370728075904, 29.13554906845093]],
         author: 'KRCHKN_V',
-        start: 'EUROPEAN_HOPE'
+        start: 'EUROPEAN_HOPE',
+        page: 'starts'
     },
     {
         name: 'Юкки',
@@ -148,7 +150,8 @@ let otherStartsMaps = [
         url: './maps/starts/wedding/wedding_1976.webp',
         link: './original_maps/starts/wedding/wedding_1976_omaps.webp',
         bounds: [[60.351455550166946, 30.495300292968754], [60.36015839881064, 30.51589965820313], [60.334510173872715, 30.51959037780762]],
-        start: 'WEDDING'
+        start: 'WEDDING',
+        page: 'starts'
     },
 
     /* --- Рогейн --- */
@@ -157,6 +160,7 @@ let otherStartsMaps = [
         name: 'Луга, оз Омчино',
         year: 2024,
         start: 'OTHER',
+        page: 'starts',
         url: './maps/rogaine/omchino_luzhski_2024.webp',
         link: './original_maps/rogaine/omchino_luzhski_2024_omaps.gif',
         info: 'Лужский лыжный рогейн.',
@@ -168,6 +172,7 @@ let otherStartsMaps = [
         name: 'Луга, оз Омчино',
         date: '2024-11-16',
         start: 'OTHER',
+        page: 'starts',
         url: './maps/rogaine/omchino_luzhsky_2024.webp',
         link: './original_maps/rogaine/omchino_luzhsky_2024_omaps.gif',
         info: 'Рогейн на Лужских берегах.',
@@ -179,6 +184,7 @@ let otherStartsMaps = [
         name: 'Лемболово',
         year: 2006,
         start: '100x24',
+        page: 'starts',
         url: './maps/rogaine/lembolovo_2006_100x24_rogaine.webp',
         link: './original_maps/rogaine/lembolovo_2006_100x24_rogaine_omaps.jpg',
         info: 'Впервые 100х24 с подсчетом очков по системе рогейна.',
@@ -189,6 +195,7 @@ let otherStartsMaps = [
         name: 'Сосново',
         date: '2007-02-23',
         start: '100x24',
+        page: 'starts',
         o_site: '070223_100x24',
         url: './maps/rogaine/sosnovo_2007_100x24_rogaine.webp',
         link: './original_maps/rogaine/sosnovo_2007_100x24_rogaine_omaps.jpg',
@@ -209,6 +216,7 @@ let otherStartsMaps = [
         name: 'Гаврилово',
         date: '2010-03-06',
         start: '100x24',
+        page: 'starts',
         o_site: '10030607',
         url: './maps/rogaine/gavrilovo_2010_rogaine.webp',
         link: './original_maps/rogaine/gavrilovo_2010_rogaine_omaps.gif',
@@ -220,6 +228,7 @@ let otherStartsMaps = [
         name: 'Токсово, оз Хепоярви',
         date: '2010-06-19',
         start: '100x24',
+        page: 'starts',
         o_site: '100619',
         url: './maps/rogaine/gavrilovo_2010_velo.webp',
         link: './original_maps/rogaine/gavrilovo_2010_velo_omaps.gif',
@@ -231,6 +240,7 @@ let otherStartsMaps = [
         name: 'Токсово',
         date: '2011-07-03',
         start: '100x24',
+        page: 'starts',
         o_site: '110703',
         url: './maps/rogaine/toksovo_2011_velo.webp',
         link: './original_maps/rogaine/toksovo_2011_velo_omaps.jpg',
@@ -242,6 +252,7 @@ let otherStartsMaps = [
         name: 'оз Гладышевское',
         date: '2012-06-23',
         start: '100x24',
+        page: 'starts',
         o_site: '120624',
         url: './maps/rogaine/gladyshevskoe_2012_velo.webp',
         link: './original_maps/rogaine/gladyshevskoe_2012_velo_omaps.jpg',
@@ -253,6 +264,7 @@ let otherStartsMaps = [
         name: 'Зеленогорск',
         date: '2013-07-06',
         start: '100x24',
+        page: 'starts',
         o_site: '130706',
         url: './maps/rogaine/zelik_2013_100x24_velo.webp',
         link: './original_maps/rogaine/zelik_2013_100x24_velo_omaps.gif',
@@ -271,6 +283,7 @@ let otherStartsMaps = [
         bounds: [[60.19291339919565, 30.44242858886719], [60.19461994799159, 30.553150177001957], [60.15718350659903, 30.43169975280762]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/8914/',
         start: 'KKM',
+        page: 'starts',
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
@@ -282,6 +295,7 @@ let otherStartsMaps = [
         bounds: [[59.91041656586618, 30.25566101074219], [59.90843705734661, 30.280551910400394], [59.892166191012564, 30.249309539794925]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/11440/',
         start: 'KKM',
+        page: 'starts',
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
@@ -293,6 +307,7 @@ let otherStartsMaps = [
         bounds: [[59.90934076065998, 30.25694847106934], [59.90923317822206, 30.29252529144287], [59.88411389968469, 30.256519317626957]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/14693/',
         start: 'KKM',
+        page: 'starts',
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
@@ -304,6 +319,7 @@ let otherStartsMaps = [
         bounds: [[59.97885208310792, 30.23420333862305], [59.97902385377091, 30.33831596374512], [59.947489011645466, 30.235061645507816]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/18316/',
         start: 'KKM',
+        page: 'starts',
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
@@ -315,6 +331,7 @@ let otherStartsMaps = [
         bounds: [[59.956084587086806, 30.337028503417972], [59.95638539185255, 30.40002822875977], [59.91312744037747, 30.33711433410645]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/18479/',
         start: 'KKM',
+        page: 'starts',
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
@@ -326,6 +343,7 @@ let otherStartsMaps = [
         bounds: [[60.130820091007536, 29.91731643676758], [60.13124754338759, 30.013790130615238], [60.05935761134086, 29.91731643676758]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19207/',
         start: 'KKM',
+        page: 'starts',
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
@@ -337,6 +355,7 @@ let otherStartsMaps = [
         bounds: [[59.986065683681495, 30.188369750976566], [59.986237416917476, 30.273771286010746], [59.964377204056234, 30.188970565795902]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19609/',
         start: 'KKM',
+        page: 'starts',
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
@@ -349,6 +368,7 @@ let otherStartsMaps = [
         bounds: [[60.193937339120886, 30.399684906005863], [60.18856129813442, 30.501823425292972], [60.130820091007536, 30.383377075195316]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20261/',
         start: 'KKM',
+        page: 'starts',
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
@@ -374,6 +394,7 @@ let otherStartsMaps = [
         bounds: [[59.95896360641199, 30.220642089843754], [59.959006574955104, 30.308446884155277], [59.92792577181406, 30.21995544433594]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20694/',
         start: 'KKM',
+        page: 'starts',
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
@@ -387,6 +408,7 @@ let otherStartsMaps = [
         bounds: [[59.95788937472426, 30.226607322692875], [59.95771749442233, 30.306687355041507], [59.918419462165836, 30.226564407348633]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21705/',
         start: 'KKM',
+        page: 'starts',
         owner: 'RYZHOV',
         type: ['ROGAINE']
     },
@@ -414,6 +436,7 @@ let otherStartsMaps = [
         bounds: [[60.42436022980665, 30.100822448730472], [60.434017704505926, 30.40054321289063], [60.259403082269344, 30.146141052246097]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -424,6 +447,7 @@ let otherStartsMaps = [
         bounds: [[60.84022699648952, 28.932323455810547], [60.84599773449242, 29.18329238891602], [60.64104469094581, 28.94382476806641]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -434,6 +458,7 @@ let otherStartsMaps = [
         bounds: [[61.134369324613914, 29.52386856079102], [61.13474224081319, 29.98057365417481], [61.00162235361791, 29.526185989379883]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -444,6 +469,7 @@ let otherStartsMaps = [
         bounds: [[60.92684557216516, 30.070610046386722], [60.92826359073526, 30.466804504394535], [60.83336766317406, 30.06940841674805]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -454,6 +480,7 @@ let otherStartsMaps = [
         bounds: [[60.45958767727004, 29.470481872558597], [60.46018012012645, 29.826335906982425], [60.29200187255573, 29.470996856689457]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -465,6 +492,7 @@ let otherStartsMaps = [
         bounds: [[60.54377524118842, 30.242271423339844], [60.54276223414987, 30.704727172851566], [60.33357558629905, 30.244331359863285]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -475,6 +503,7 @@ let otherStartsMaps = [
         bounds: [[60.523509074271864, 29.883499145507816], [60.52291778730085, 30.33411026000977], [60.369495457542406, 29.885044097900394]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -488,6 +517,7 @@ let otherStartsMaps = [
         info: 'Бобочинский полигон.',
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -498,6 +528,7 @@ let otherStartsMaps = [
         bounds: [[60.34873808746984, 28.923654556274418], [60.343514828090605, 29.251270294189457], [60.174477017534926, 28.911724090576175]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -508,6 +539,7 @@ let otherStartsMaps = [
         bounds: [[60.86271862584076, 28.850269317626957], [60.86426486616338, 29.1976261138916], [60.63515280845742, 28.85438919067383]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -518,6 +550,7 @@ let otherStartsMaps = [
         bounds: [[60.632080185395296, 29.74977493286133], [60.63220646334582, 30.193176269531254], [60.42783386246675, 29.752006530761722]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -528,6 +561,7 @@ let otherStartsMaps = [
         bounds: [[60.64070804095724, 29.07394409179688], [60.633805941245036, 29.47219848632813], [60.41130961152384, 29.057807922363285]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -538,6 +572,7 @@ let otherStartsMaps = [
         bounds: [[61.18719663074854, 29.537429809570316], [61.179998115049976, 29.8853874206543], [61.045656166629506, 29.526443481445312]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -548,6 +583,7 @@ let otherStartsMaps = [
         bounds: [[60.95861072825705, 30.04142761230469], [60.96844232834115, 30.481224060058597], [60.6620783385905, 30.07095336914063]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -558,6 +594,7 @@ let otherStartsMaps = [
         bounds: [[60.26357549698941, 29.73810195922852], [60.25557080430158, 29.84367370605469], [60.191121427461766, 29.713554382324222]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -568,6 +605,7 @@ let otherStartsMaps = [
         bounds: [[60.55035901399357, 30.25308609008789], [60.553903567535286, 30.484313964843754], [60.40961434181412, 30.28141021728516]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
     },
     {
@@ -578,6 +616,7 @@ let otherStartsMaps = [
         bounds: [[60.41961515630588, 29.162864685058597], [60.4501917813959, 29.342250823974613], [60.270641843214285, 29.273328781127933]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE'],
         zindex: 2
     },
@@ -592,6 +631,7 @@ let otherStartsMaps = [
         bounds: [[58.74513977226588, 29.462928771972656], [58.737301100282835, 29.79801177978516], [58.66176350414477, 29.451770782470707]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE']
     },
     {
@@ -603,6 +643,7 @@ let otherStartsMaps = [
         gps: ['https://viewer.o-gps-center.ru/viewer/event/4505/','https://viewer.o-gps-center.ru/viewer/event/4506/'],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE']
     },
     {
@@ -613,6 +654,7 @@ let otherStartsMaps = [
         bounds: [[61.051140518044775, 29.28714752197266], [61.06243861375529, 29.71063613891602], [60.84884090341096, 29.31032180786133]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE']
     },
     {
@@ -626,6 +668,7 @@ let otherStartsMaps = [
         bounds: [[60.45594814827666, 29.14810180664063], [60.45493239296129, 29.442501068115238], [60.28417431794843, 29.14758682250977]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE']
     },
     {
@@ -637,6 +680,7 @@ let otherStartsMaps = [
         bounds: [[60.31980856041393, 28.889236450195316], [60.31402807870999, 29.24423217773438], [60.202810147156775, 28.882713317871097]],
         owner: 'BKTV',
         start: 'MB',
+        page: 'starts',
         type: ['ROGAINE']
     },
 ];
