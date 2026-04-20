@@ -626,10 +626,7 @@ let events2026 = [
         type: 'INDOOR',
         info: 'Несколько дистанций в зачёт.',
         owner: 'FENIX',
-        coord: [
-            59.937728,
-            30.438297
-        ]
+        map: 'school_491'
     },
     {
         id: 'SPB_20260331_1',
@@ -774,10 +771,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'NW',
-        coord: [
-            60.006392,
-            30.207974
-        ],
+        map: 'bogatyrsky_2025',
         planner: 'SDRV_A',
         reskeep: 865
     },
@@ -890,7 +884,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         info: 'Новая карта.',
-        coord: [59.951177, 30.463848]
+        map: 'porokhovye_school_127'
     },
     {
         id: 'SPB_20260418_3',
@@ -1002,10 +996,11 @@ let events2026 = [
         id: 'SPB_20260426_2',
         date: '2026-04-26',
         name: 'Кубок Обухово',
-        place: 'Школа №526',
+        place: 'Школа №527',
         type: 'ORIENT',
         fmt: 'спринт',
-        reg: 'https://orgeo.ru/event/44669'
+        reg: 'https://orgeo.ru/event/44669',
+        coord: [59.854706, 30.467897]
     },
     {
         id: 'SPB_20260501_1',

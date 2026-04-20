@@ -306,7 +306,7 @@ function buildPlace(event) {
         }
         return result;
     } else if (event.coord) {
-        return buildLink(`${mapPage}?x=${event.coord[0]}&y=${event.coord[1]}&calendar`, event.place + ' 🗺️', 'Место на O-Maps');
+        return buildLink(`${mapPage}?x=${event.coord[0]}&y=${event.coord[1]}&calendar`, event.place + ' 🌐', 'Место на O-Maps');
     }  else if (event.track) {
         return buildLink(`tracks.html?track=${event.track}&calendar`,event.place + ' 🚸', 'Трек на O-Maps');
     } else {
