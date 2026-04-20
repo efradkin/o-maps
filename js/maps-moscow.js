@@ -2597,6 +2597,18 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
+        name: 'Лыткарино, ретро-рогейн МК',
+        date: '2026-04-19',
+        about: 'https://forestadventure.ru/retrogaine-inf/',
+        url: './maps/moscow/lr/lytkarino_mk_rogaine_2026.webp',
+        link: ['./original_maps/moscow/lr/lytkarino_mk_rogaine_2006_omaps.webp','./original_maps/moscow/lr/lytkarino_mk_rogaine_2026_omaps.webp'],
+        info: ' РЕТРОГЕЙН - дружеский старт в честь 20-летия <a href="https://t.me/rogainomania/772">первого рогейна в Москве</a> (22 апреля 2006 года) при поддержке компании «Московский Компас».',
+        bounds: [[55.64417721613742, 37.87699699401856], [55.639890317005474, 37.92870998382569], [55.593430954989685, 37.863435745239265]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24788/',
+        logo: 'mk_retro_rogaine.webp',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Лыткарино, восток',
         year: 2016,
         start: 'BNO',

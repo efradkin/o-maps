@@ -1603,6 +1603,10 @@ let cityMaps = [
         url: './maps/city/porokhovye_school_127_2026.webp',
         link: './original_maps/city/porokhovye_school_127_2026_omaps.gif',
         bounds: [[59.9562564758587, 30.461525917053226], [59.95506397914048, 30.472962856292728], [59.948821471824935, 30.45821070671082]],
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/24740/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/24741/'
+        },
         author: 'RDNV_I',
         owner: 'RDNV_I',
         type: ['CITY']
