@@ -6,7 +6,7 @@ let mskEventsOther = [
         place: "Осташово",
         type: "ORIENT",
         fmt: "эстафета, марафон",
-        map: 'fosforitny_rogaine_2022_08_27',
+        map: 'ostashovo_bno_2024',
         link: "https://t.me/KT_events/46",
         owner: "KT_MSK"
     },
