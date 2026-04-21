@@ -757,7 +757,7 @@ if (mapElement) {
 
 async function loadCalendar() {
     if (typeof oEvents != 'undefined') {
-        oEvents.reverse().forEach(evt => {
+        filterEvents(oEvents, false).reverse().forEach(evt => {
             if (validateEvent(evt)) {
                 createEventMarkers(evt)
             }
@@ -789,7 +789,7 @@ function createEventMarker(evt, evtMap) {
     if (isActual(currentDate)) {
         evtCPimage += '_now';
     } else if (currentDate < now) {
-            evtCPimage += '_old';
+        evtCPimage += '_old';
     }
     if (evt.type && evt.type.includes('WATER')) {
         evtCPimage += '_water';

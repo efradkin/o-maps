@@ -929,6 +929,11 @@ let events2026 = [
         name: 'Феникс Sprint-Cup',
         place: 'Школа №532',
         reg: 'https://orgeo.ru/event/50871',
+        planner: 'RDNV_B',
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/24798/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/24799/'
+        },
         type: 'ORIENT',
         owner: 'FENIX',
         fmt: 'спринт',
@@ -1096,7 +1101,8 @@ let events2026 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1731',
         type: 'VELO',
         fmt: 'спринт',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'poljany_velo_2023'
     },
     {
         id: 'SPB_20260510_2',
@@ -1304,6 +1310,7 @@ let events2026 = [
         type: 'ORIENT',
         o_site: '260614',
         start: 'NA',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20260613_2',
@@ -1468,7 +1475,8 @@ let events2026 = [
         place: 'Яппиля',
         type: 'VELO',
         fmt: 'масстарт',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'zerkalny_velo_2023'
     },
     {
         id: 'SPB_20260815_1',

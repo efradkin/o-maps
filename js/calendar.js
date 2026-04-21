@@ -73,30 +73,7 @@ if (OWNER_PARAM) {
     oEvents = oEvents.filter(event => event.owner && event.owner === OWNER_PARAM);
 }
 if (CALENDAR_PARAM && ('ALL' !== CALENDAR_PARAM)) {
-    oEvents = oEvents.filter(event => {
-        if (onlyMajor && !event.major) {
-            return false;
-        }
-        if ('ROGAINE' === CALENDAR_PARAM) {
-            return isRogaine(event) || event.type.includes('MULTI') || event.start === 'MB';
-        }
-        if ('ORIENT' === CALENDAR_PARAM) {
-            return event.type.includes('ORIENT');
-        }
-        if ('OTHER' === CALENDAR_PARAM) {
-            return !event.type.includes('ORIENT') && !event.type.includes('VELO') && !event.type.includes('SKI') && !isRogaine(event);
-        }
-        if ('SKI' === CALENDAR_PARAM) {
-            return event.type.includes('SKI');
-        }
-        if ('VELO' === CALENDAR_PARAM) {
-            return event.type.includes('VELO');
-        }
-        if (!EVENT_TYPES.includes(CALENDAR_PARAM) && event.place && Object.keys(CALENDAR_PLACES).includes(CALENDAR_PARAM)) {
-            return (CALENDAR_PARAM === getEventPlaceCode(event.place));
-        }
-        return true;
-    });
+    oEvents = filterEvents(oEvents, onlyMajor);
 }
 if (CALENDAR_PARAM) {
     let selector = document.getElementById('event_type_selector');
@@ -354,6 +331,10 @@ function sortEventsTable() {
 }
 
 function gotoMap(page) {
-    page += '?calendar' + (CALENDAR_PARAM ? '=' + CALENDAR_PARAM : '');
-    location.href = page;
+    const url = new URL(window.location.href);
+    const searchParams = url.searchParams;
+    if (!searchParams.has('calendar')) {
+        searchParams.append('calendar','');
+    }
+    location.href = page + '?' + searchParams.toString();
 }

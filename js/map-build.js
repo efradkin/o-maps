@@ -135,6 +135,7 @@ if (mapElement) {
     }
     if (HAS_CALENDAR_PARAM) {
         layers.push(calendarGroup);
+        layers.push(calendarPastGroup);
     }
 
     activeLayers.push(...layers);

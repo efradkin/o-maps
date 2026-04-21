@@ -48,7 +48,7 @@
 
     <div class="sheet-filters">
         <span style="white-space: nowrap;">
-            <select id="year_selector" class="header_selector" onchange="updateUrlParam('year', this.value)">
+            <select id="year_selector" class="header_selector" onchange="updateUrlParam('startYear', this.value)">
                 <option value="2002">2002</option>
                 <option value="2003">2003</option>
                 <option value="2004">2004</option>
@@ -229,7 +229,7 @@
         ];
 
         let oEvents = [];
-        const y = YEAR_PARAM ?? '2026';
+        const y = START_YEAR_PARAM ?? '2026';
         const allYearsEvents = [
             ...events2026,
             ...events2025,

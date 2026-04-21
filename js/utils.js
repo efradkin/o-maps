@@ -176,11 +176,18 @@ const LOGO_CAROUSEL_TEMPLATE = `
 const ACTUAL_EVENTS_CALENDAR_PARAM_VALUE = 'actual';
 const FUTURE_EVENTS_CALENDAR_PARAM_VALUE = 'future';
 const MEDIA_EVENTS_CALENDAR_PARAM_VALUE = 'media';
+const ORIENT_EVENTS_CALENDAR_PARAM_VALUE = 'ORIENT';
+const ROGAINE_EVENTS_CALENDAR_PARAM_VALUE = 'ROGAINE';
+const MULTI_EVENTS_CALENDAR_PARAM_VALUE = 'MULTI';
+const SKI_EVENTS_CALENDAR_PARAM_VALUE = 'SKI';
+const VELO_EVENTS_CALENDAR_PARAM_VALUE = 'VELO';
+const OTHER_EVENTS_CALENDAR_PARAM_VALUE = 'OTHER';
 
 const onlyOneSport = (typeof oneSportOnly !== 'undefined') && oneSportOnly;
 
 const urlParams = new URLSearchParams(window.location.search);
 const YEAR_PARAM = urlParams.get('year');
+const START_YEAR_PARAM = urlParams.get('startYear');
 const HAS_CALENDAR_PARAM = urlParams.has('calendar');
 const CALENDAR_PARAM = urlParams.get('calendar') ?? urlParams.get('event-type');
 let START_NAME_PARAM = urlParams.get('start');
@@ -1042,6 +1049,37 @@ function buildCalendarGroup() {
     }) : L.layerGroup([]);
 }
 
+function filterEvents(events, onlyMajor) {
+    return events.filter(evt => {
+        if (START_YEAR_PARAM && (START_YEAR_PARAM !== 'ALL') && (startYear(evt).toString() !== START_YEAR_PARAM)) {
+            console.log(evt)
+            return false;
+        }
+        if (onlyMajor && !evt.major) {
+            return false;
+        }
+        if (ROGAINE_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
+            return isEventLikeRogaine(evt);
+        }
+        if (ORIENT_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
+            return evt.type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) || evt.type.includes('INDOOR');
+        }
+        if (OTHER_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
+            return isEventOther(evt);
+        }
+        if (SKI_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
+            return evt.type.includes(SKI_EVENTS_CALENDAR_PARAM_VALUE);
+        }
+        if (VELO_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
+            return evt.type.includes(VELO_EVENTS_CALENDAR_PARAM_VALUE);
+        }
+        if (!EVENT_TYPES.includes(CALENDAR_PARAM) && evt.place && Object.keys(CALENDAR_PLACES).includes(CALENDAR_PARAM)) {
+            return (CALENDAR_PARAM === getEventPlaceCode(evt.place));
+        }
+        return true;
+    });
+}
+
 function isOutdated(date) {
     const now = new Date();
     return (date < now) && (Math.abs(date - now) > DAY_TIME_RANGE);
@@ -1053,10 +1091,41 @@ function isActual(date) {
     return !isOutdated(date) && (date - now < actualRange);
 }
 
+function isEventLikeRogaine(evt) {
+    return isRogaine(evt) || evt.type.includes(MULTI_EVENTS_CALENDAR_PARAM_VALUE) || evt.start === 'MB';
+}
+
+function isEventOther(evt) {
+    return !evt.type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) &&
+        !evt.type.includes(VELO_EVENTS_CALENDAR_PARAM_VALUE) &&
+        !evt.type.includes('INDOOR') &&
+        !evt.type.includes(SKI_EVENTS_CALENDAR_PARAM_VALUE) && !isRogaine(evt);
+}
+
 function validateEvent(evt) {
     if (CALENDAR_PARAM) {
         const currentDate = new Date(evt.date);
         switch (CALENDAR_PARAM) {
+            case ORIENT_EVENTS_CALENDAR_PARAM_VALUE:
+                if (!evt.type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) && !evt.type.includes('INDOOR')) {
+                    return false;
+                }
+                break;
+            case SKI_EVENTS_CALENDAR_PARAM_VALUE:
+                if (!evt.type.includes(SKI_EVENTS_CALENDAR_PARAM_VALUE)) {
+                    return false;
+                }
+                break;
+            case VELO_EVENTS_CALENDAR_PARAM_VALUE:
+                if (!evt.type.includes(VELO_EVENTS_CALENDAR_PARAM_VALUE)) {
+                    return false;
+                }
+                break;
+            case ROGAINE_EVENTS_CALENDAR_PARAM_VALUE:
+                if (!isEventLikeRogaine(evt)) {
+                    return false;
+                }
+                break;
             case MEDIA_EVENTS_CALENDAR_PARAM_VALUE:
                 if (!evt.photo && !evt.video) {
                     return false;
@@ -1072,7 +1141,7 @@ function validateEvent(evt) {
                     return false;
                 }
                 break;
-                default:
+            default:
                 if (!EVENT_TYPES.includes(CALENDAR_PARAM) && CALENDAR_PARAM !== 'ALL' && evt.owner !== CALENDAR_PARAM && evt.start !== CALENDAR_PARAM) {
                     return false;
                 }
@@ -1335,28 +1404,21 @@ function buildEventType(evt, withFmt) {
     if (!onlyOneSport) {
         switch (evt.type) {
             case 'RUN':
-                result = 'Бег';
-                break;
+                result = 'Бег'; break;
             case 'SK_RACE':
-                result = 'Лыжная гонка';
-                break;
+                result = 'Лыжная гонка'; break;
             case 'ORIENT':
-                result = 'Ориент';
-                break;
+                result = 'Ориент'; break;
             case 'VELO':
-                result = 'Вело';
-                break;
+                result = 'Вело'; break;
             case 'ROGAINE':
-                result = 'Рогейн';
-                break;
+                result = 'Рогейн'; break;
             case 'MULTI':
-                result = 'Мульти';
-                break;
+                result = 'Мульти'; break;
             case 'TOURISM':
-                result = 'Кросс-поход';
-                break;
+                result = 'Кросс-поход'; break;
             case 'FUN':
-                result = 'Интерактив';
+                result = 'Интерактив'; break;
             case 'INDOOR':
                 result = 'В помещении';
         }
