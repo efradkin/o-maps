@@ -1629,6 +1629,19 @@ function showCoordinates(e) {
     alert(`Текущие координаты: ${e.latlng.lat}, ${e.latlng.lng}`);
 }
 
+function shareMap(e) {
+    const url = new URL(window.location.href);
+    const searchParams = url.searchParams;
+    searchParams.append('x', e.latlng.lat);
+    searchParams.append('y', e.latlng.lng);
+    searchParams.append('zoom', map.getZoom());
+    url.searchParams = searchParams;
+    const url2share = url.href;
+
+    copyToClipboard(url2share);
+    notificationControl.info(`Ссылка скопирована в буфер обмена.`);
+}
+
 function centerMap(e) {
     map.panTo(e.latlng);
 }

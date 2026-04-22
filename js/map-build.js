@@ -214,6 +214,10 @@ function buildContextmenuItems() {
         text: 'Центр сюда',
         icon: 'images/point.png',
         callback: centerMap
+    }, {
+        text: 'Поделиться',
+        icon: 'images/share.png',
+        callback: shareMap
     }, '-', {
         text: SHOW_ALL_LABEL,
         icon: 'images/maps.png',

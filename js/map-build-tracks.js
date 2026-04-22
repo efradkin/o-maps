@@ -124,6 +124,10 @@ function buildContextmenuItems() {
         text: 'Центр сюда',
         icon: 'images/point.png',
         callback: centerMap
+    }, {
+        text: 'Поделиться',
+        icon: 'images/share.png',
+        callback: shareMap
     }, '-', {
         text: "Показать все треки",
         icon: 'images/maps.png',
