@@ -341,6 +341,7 @@ let commonEvents2026 = [
     type: 'ORIENT',
     fmt: 'спринт, лонг, классика',
     owner: 'PSKOV_RUS',
+    reskeep: [871,872,873],
     coord: [57.818556, 28.294611]
 },
 {

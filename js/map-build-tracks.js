@@ -1,34 +1,3 @@
-let BACKGROUND_PARAM = urlParams.get('background');
-let AUTHOR_PARAM = urlParams.get('author');
-const OWNER_PARAM = urlParams.get('owner');
-const PLANNER_PARAM = urlParams.get('planner');
-const TYPE_PARAM = urlParams.get('type');
-const TRACK_TYPE_PARAM = urlParams.get('track-type');
-const TRACK_MONTH_PARAM = urlParams.get('track-month');
-let MAP_NAME_PARAM = urlParams.get('map');
-let TRACK_NAME_PARAM = urlParams.get('track');
-const ONLY_MAP_NAME_PARAM = urlParams.get('onlymap');
-const ONLY_TRACK_NAME_PARAM = urlParams.get('onlytrack');
-const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
-const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
-const HAS_RESTRICTED_PARAM = urlParams.has('restricted');
-const HAS_TRACKS_PARAM = urlParams.has('tracks');
-const X_PARAM = urlParams.get('x');
-const Y_PARAM = urlParams.get('y');
-const ZOOM_PARAM = urlParams.get('zoom');
-let HAS_NO_BUTTONS_PARAM = urlParams.has('no-buttons');
-const HAS_EMBEDDED_PARAM = urlParams.has('embedded');
-const HAS_OCAD_PARAM = urlParams.has('ocad');
-const HAS_RETRO_PARAM = urlParams.has('retro');
-if (HAS_EMBEDDED_PARAM) {
-    HAS_NO_BUTTONS_PARAM = true;
-}
-if (ONLY_MAP_NAME_PARAM) {
-    MAP_NAME_PARAM = ONLY_MAP_NAME_PARAM;
-}
-if (ONLY_TRACK_NAME_PARAM) {
-    TRACK_NAME_PARAM = ONLY_TRACK_NAME_PARAM;
-}
 
 let background = BACKGROUND_PARAM || localStorage.getItem('background') || BACKGROUND_YANDEX;
 

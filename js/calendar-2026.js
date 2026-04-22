@@ -857,6 +857,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/ohta_classic_2026',
         type: 'ORIENT',
         map: 'toksovo_okhta_park_2008',
+        reskeep: 875,
         owner: 'WN'
     },
     {
@@ -881,6 +882,7 @@ let events2026 = [
             'М':'https://viewer.o-gps-center.ru/viewer/event/24740/',
             'Ж':'https://viewer.o-gps-center.ru/viewer/event/24741/'
         },
+        reskeep: 874,
         type: 'ORIENT',
         fmt: 'спринт',
         info: 'Новая карта.',
@@ -934,6 +936,7 @@ let events2026 = [
             'М':'https://viewer.o-gps-center.ru/viewer/event/24798/',
             'Ж':'https://viewer.o-gps-center.ru/viewer/event/24799/'
         },
+        strava: 18198928633,
         type: 'ORIENT',
         owner: 'FENIX',
         fmt: 'спринт',
@@ -976,15 +979,16 @@ let events2026 = [
         map: 'toloni_2025',
         owner: 'SHBN'
     },
-/*
     {
         id: 'SPB_20260425_3',
         date: '2026-04-25',
-        name: 'Краснофлотская классика',
+        name: 'Первомайская классика',
+        place: 'Первомайское',
+        reg: 'https://orgeo.ru/event/info/pervomay_classic',
+        o_site: '260425_bn',
         type: 'ORIENT',
         owner: 'WN'
     },
-*/
     {
         id: 'SPB_20260426_1',
         date: '2026-04-26',

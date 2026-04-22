@@ -44,14 +44,14 @@
     </script>
 
     <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
-    <a href="all.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+    <a href="all.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта" onclick="return gotoMap('all.html')"><img src="images/map_24.png" alt="Карта" /></a>
     <a href="start.html" target="_self" class="stat-map-link stat-map-link-right stat-start-link" title="Плитки" style="display: none"><img src="images/ceramics_24.png" alt="Плитки" /></a>
 
     <h2 class="text-center">O-Maps ◪ Все карты каталога</h2>
 
     <div class="sheet-filters">
-        <select id="start_selector" class="header_selector" onchange="selectStart(this.value)">
-            <option value="all">все старты</option>
+        <select id="start_selector" class="header_selector" onchange="updateUrlParam('start', this.value)">
+            <option value="ALL">все старты</option>
             <option value="2x2">2x2 (СПб)</option>
             <option value="WN">Белые Ночи (СПб)</option>
             <option value="SCHOOL">В школу (СПб)</option>
@@ -80,7 +80,7 @@
             <option value="major">Чемпионаты и Кубки</option>
         </select>
 
-        <select id="type_selector" class="header_selector" onchange="selectMapType(this.value)">
+        <select id="type_selector" class="header_selector" onchange="updateUrlParam('type', this.value)">
             <option value="ALL">все типы</option>
             <option value="CITY">Город</option>
             <option value="PARK">Парки</option>

@@ -149,7 +149,7 @@ a, a:active, a:focus {
 #map_tracks_month_selector {
     position:absolute;
     top:12px;
-    left:250px;
+    left:55px;
     z-index: 777;
     border: 2px solid gray;
     padding: 5px;
@@ -438,7 +438,7 @@ body.sub-index-body {
 }
 #sheet-spinner {
     margin-left: 30px;
-    margin-bottom: -5px;
+    margin-bottom: 10px;
 }
 .sheet-filters {
     margin: 20px 0 10px -170px;

@@ -98,6 +98,10 @@ if (START_NAME_PARAM) {
         link.href = './start.html?start=' + START_NAME_PARAM;
         link.style.display = 'block';
     }
+    let mapLink = document.getElementById('maps_map_link');
+    if (mapLink) {
+        mapLink.href = './starts.html?start=' + START_NAME_PARAM;
+    }
 }
 
 if (TYPE_PARAM) {

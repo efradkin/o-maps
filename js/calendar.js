@@ -1,5 +1,4 @@
 const EVENT_MONTH_PARAM = urlParams.get('event-month');
-const OWNER_PARAM = urlParams.get('owner');
 
 let onlyMajor = false;
 let major = localStorage.getItem('onlyMajor');
@@ -328,13 +327,4 @@ function sortEventsTable() {
     }
     this.dataset.order = isAscending ? 'desc' : 'asc';
     renderMapsTable();
-}
-
-function gotoMap(page) {
-    const url = new URL(window.location.href);
-    const searchParams = url.searchParams;
-    if (!searchParams.has('calendar')) {
-        searchParams.append('calendar','');
-    }
-    location.href = page + '?' + searchParams.toString();
 }

@@ -383,7 +383,7 @@ let otherStartsMaps = [
         bounds: [[60.16440091772243, 30.38603782653809], [60.158080430907006, 30.481224060058597], [60.1309910726259, 30.3783130645752]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20995/',
         owner: 'RYZHOV',
-        type: ['FUN','ROGAINE']
+        type: ['FOTO','ROGAINE']
     },
     {
         name: 'Васильевский остров',
@@ -410,7 +410,7 @@ let otherStartsMaps = [
         start: 'KKM',
         page: 'starts',
         owner: 'RYZHOV',
-        type: ['ROGAINE']
+        type: ['FOTO','ROGAINE']
     },
     {
         name: 'Горный институт',
@@ -423,7 +423,7 @@ let otherStartsMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23476/',
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
-        type: ['ROGAINE']
+        type: ['FOTO','ROGAINE']
     },
 
     /* --- Бекетов --- */

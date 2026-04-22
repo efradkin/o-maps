@@ -113,7 +113,7 @@ const dic = {
     CITY: 'ГОРОД',
     EXCLUDED: 'НЕУЧТЁНКА',
     FOTO: 'ФОТО',
-    FUN: 'НЕОБЫЧН0',
+    FUN: 'НЕОБЫЧНО',
     ORIENT: 'ОРИЕНТ',
     FOREST: 'ЛЕС',
     PARK: 'ПАРК',
@@ -186,6 +186,28 @@ const OTHER_EVENTS_CALENDAR_PARAM_VALUE = 'OTHER';
 const onlyOneSport = (typeof oneSportOnly !== 'undefined') && oneSportOnly;
 
 const urlParams = new URLSearchParams(window.location.search);
+let BACKGROUND_PARAM = urlParams.get('background');
+let AUTHOR_PARAM = urlParams.get('author');
+const OWNER_PARAM = urlParams.get('owner');
+const PLANNER_PARAM = urlParams.get('planner');
+const TYPE_PARAM = urlParams.get('type');
+const TRACK_TYPE_PARAM = urlParams.get('track-type');
+const TRACK_MONTH_PARAM = urlParams.get('track-month');
+let MAP_NAME_PARAM = urlParams.get('map');
+let TRACK_NAME_PARAM = urlParams.get('track');
+const ONLY_MAP_NAME_PARAM = urlParams.get('onlymap');
+const ONLY_TRACK_NAME_PARAM = urlParams.get('onlytrack');
+const HAS_WO_AUTHOR_PARAM = urlParams.has('wo-author');
+const HAS_ONLY_WO_AUTHOR_PARAM = urlParams.has('only-wo-author');
+const HAS_RESTRICTED_PARAM = urlParams.has('restricted');
+const HAS_TRACKS_PARAM = urlParams.has('tracks');
+const X_PARAM = urlParams.get('x');
+const Y_PARAM = urlParams.get('y');
+const ZOOM_PARAM = urlParams.get('zoom');
+let HAS_NO_BUTTONS_PARAM = urlParams.has('no-buttons');
+const HAS_EMBEDDED_PARAM = urlParams.has('embedded');
+const HAS_OCAD_PARAM = urlParams.has('ocad');
+const HAS_RETRO_PARAM = urlParams.has('retro');
 const YEAR_PARAM = urlParams.get('year');
 const START_YEAR_PARAM = urlParams.get('startYear');
 const HAS_CALENDAR_PARAM = urlParams.has('calendar');
@@ -195,6 +217,16 @@ let START_NAME_PARAM = urlParams.get('start');
 let HAS_ME_PARAM = urlParams.has('me');
 const HAS_ONLY_ME_PARAM = urlParams.has('only-me');
 if (HAS_ONLY_ME_PARAM) HAS_ME_PARAM = true;
+
+if (HAS_EMBEDDED_PARAM) {
+    HAS_NO_BUTTONS_PARAM = true;
+}
+if (ONLY_MAP_NAME_PARAM) {
+    MAP_NAME_PARAM = ONLY_MAP_NAME_PARAM;
+}
+if (ONLY_TRACK_NAME_PARAM) {
+    TRACK_NAME_PARAM = ONLY_TRACK_NAME_PARAM;
+}
 
 /*   FUNCTIONS   */
 
@@ -771,6 +803,16 @@ function locateForUrl(url) {
     });
 }
 
+function gotoMap(page, requiredParam) {
+    const url = new URL(window.location.href);
+    const searchParams = url.searchParams;
+    if (requiredParam && !searchParams.has(requiredParam)) {
+        searchParams.append(requiredParam,'');
+    }
+    location.href = page + '?' + searchParams.toString();
+    return false;
+}
+
 function setOverlayOpacity(opacity) {
     mapOpacity = opacity;
     for (const m of mapOverlays) {
@@ -918,22 +960,6 @@ function selectTrackMonth(month) {
     }
 }
 
-function selectStart(start) {
-    let url = location.href.split('?')[0];
-    if (start !== 'all') {
-        url += '?start=' + start;
-    }
-    location.href = url;
-}
-
-function selectMapType(type) {
-    let url = location.href.split('?')[0];
-    if (type !== 'ALL') {
-        url += '?type=' + type;
-    }
-    location.href = url;
-}
-
 function pushGroupToMap(m, group) {
     if (group._leaflet_id) {
         m.groups.push(group._leaflet_id.toString());
@@ -1052,7 +1078,6 @@ function buildCalendarGroup() {
 function filterEvents(events, onlyMajor) {
     return events.filter(evt => {
         if (START_YEAR_PARAM && (START_YEAR_PARAM !== 'ALL') && (startYear(evt).toString() !== START_YEAR_PARAM)) {
-            console.log(evt)
             return false;
         }
         if (onlyMajor && !evt.major) {
@@ -1062,16 +1087,16 @@ function filterEvents(events, onlyMajor) {
             return isEventLikeRogaine(evt);
         }
         if (ORIENT_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
-            return evt.type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) || evt.type.includes('INDOOR');
+            return evt.type && evt.type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) || evt.type.includes('INDOOR');
         }
         if (OTHER_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
             return isEventOther(evt);
         }
         if (SKI_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
-            return evt.type.includes(SKI_EVENTS_CALENDAR_PARAM_VALUE);
+            return evt.type && evt.type.includes(SKI_EVENTS_CALENDAR_PARAM_VALUE);
         }
         if (VELO_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
-            return evt.type.includes(VELO_EVENTS_CALENDAR_PARAM_VALUE);
+            return evt.type && evt.type.includes(VELO_EVENTS_CALENDAR_PARAM_VALUE);
         }
         if (!EVENT_TYPES.includes(CALENDAR_PARAM) && evt.place && Object.keys(CALENDAR_PLACES).includes(CALENDAR_PARAM)) {
             return (CALENDAR_PARAM === getEventPlaceCode(evt.place));
@@ -1142,7 +1167,9 @@ function validateEvent(evt) {
                 }
                 break;
             default:
-                if (!EVENT_TYPES.includes(CALENDAR_PARAM) && CALENDAR_PARAM !== 'ALL' && evt.owner !== CALENDAR_PARAM && evt.start !== CALENDAR_PARAM) {
+                if (!EVENT_TYPES.includes(CALENDAR_PARAM) && Object.keys(CALENDAR_PLACES).includes(CALENDAR_PARAM)) {
+                    return evt.place && CALENDAR_PARAM === getEventPlaceCode(evt.place);
+                } else if (!EVENT_TYPES.includes(CALENDAR_PARAM) && CALENDAR_PARAM !== 'ALL' && evt.owner !== CALENDAR_PARAM && evt.start !== CALENDAR_PARAM) {
                     return false;
                 }
         }

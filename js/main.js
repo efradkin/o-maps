@@ -111,7 +111,7 @@ function loadTracks() {
             if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
                 continue;
             }
-            if (TRACK_MONTH_PARAM && (!t.date || t.date.slice(-2) !== TRACK_MONTH_PARAM)) {
+            if (TRACK_MONTH_PARAM && (TRACK_MONTH_PARAM !== '0') && (!t.date || t.date.substring(5, 7) !== TRACK_MONTH_PARAM)) {
                 continue;
             }
             let firstTrack = getFirstTrack(t);
@@ -120,7 +120,10 @@ function loadTracks() {
             }
             actualTracks.push(t);
         }
-        loadTracksRecursive(actualTracks.pop(), actualTracks);
+        const t = actualTracks.pop();
+        if (t) {
+            loadTracksRecursive(t, actualTracks);
+        }
 
         tracksLoaded = true;
         if (loaded) {
