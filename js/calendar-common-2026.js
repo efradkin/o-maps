@@ -71,9 +71,11 @@ let commonEvents2026 = [
     endDate: '2026-04-26',
     place: 'Locarno Switzerland',
     name: 'Первый тур Кубка мира (World Cup)',
+    link: 'https://orienteering.sport/event/orienteering-world-cup-round-1-6/welcome/',
     major: true,
     type: 'ORIENT',
     fmt: 'sprint, sprint relay knock-out sprint',
+    coord: [46.17003715000422, 8.795825251205088],
     owner: 'IOF'
 },
 {

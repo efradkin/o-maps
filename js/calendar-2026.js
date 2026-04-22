@@ -952,6 +952,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         o_site: '260423_NWSprint_2',
+        planner: 'MSKV',
         owner: 'NW',
         coord: [60.023310, 30.237502]
     },
@@ -962,8 +963,10 @@ let events2026 = [
         place: 'Петергоф (ПУНК)',
         o_site: '260425_open_season',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1727',
+        planner: 'SVCHK',
+        info: 'На соревнованиях будет тестироваться бесконтактная SFR-отметка, чипы будут выдаваться всем участникам на старте.',
         type: 'ORIENT',
-        fmt: 'выбор',
+        fmt: 'гроздь',
         map: 'peterhof_spbgu_2024',
         owner: 'SFSO_SPB'
     },
@@ -987,6 +990,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/info/pervomay_classic',
         o_site: '260425_bn',
         type: 'ORIENT',
+        map: 'pervomayskoe_2021',
         owner: 'WN'
     },
     {
