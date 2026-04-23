@@ -956,6 +956,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         o_site: '260423_NWSprint_2',
+        reskeep: 878,
         planner: 'MSKV',
         owner: 'NW',
         coord: [60.023310, 30.237502]

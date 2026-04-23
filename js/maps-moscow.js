@@ -37,6 +37,15 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Пески',
+        year: 2016,
+        url: './maps/moscow/lr/peski_rogaine_2016.webp',
+        link: './original_maps/moscow/lr/peski_rogaine_2016_omaps.gif',
+        bounds: [[55.23132359532459, 38.75787734985352], [55.21595151907499, 38.898725509643555], [55.1492541866506, 38.72955322265626]],
+        start: 'ZM',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Электрогорск',
         date: '2025-05-10',
         url: './maps/moscow/ak/electrogorsk_rogaine_2025.webp',
