@@ -250,15 +250,21 @@ function buildNumber(event, i) {
     if (event.price === 1) {
         icon += '&nbsp;💰';
     }
-    let checkbox = '', myEvent = '';
+    let checkbox = '', myEvent = '', isMyEvent = false;
     if (event.id) {
         if (myEdit) {
             const checked = myEvents.includes(event.id) ? ' checked' : '';
             checkbox = `<input class="my-checkbox" type="checkbox" id="${event.id}" name="only-my" ${checked} onclick="saveMy();" />&nbsp;`;
         } else {
-            const mySign = (onlyOneSport ? '⛷' : '◪');
-            myEvent = myEvents.includes(event.id) ? `&nbsp;<span class="my-cp">${mySign}</span>` : '';
+            isMyEvent = myEvents.includes(event.id);
         }
+    }
+    if (HAS_ME_PARAM && (event.strava || event.me)) {
+        isMyEvent = true;
+    }
+    if (isMyEvent) {
+        const mySign = (onlyOneSport ? '⛷' : '◪');
+        myEvent = `&nbsp;<span class="my-cp">${mySign}</span>`;
     }
     return `${checkbox}${i + 1}${icon}${myEvent}`;
 }

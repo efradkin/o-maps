@@ -215,7 +215,7 @@ let owners = {
     },
     RRF: {
         name: '@ Федерация рогейна России',
-        logo: 'rrf.gif'
+        logo: 'rrf_new.webp'
     },
     SHLKHN_AN: {
         name: '© Шелёхин Анатолий, <a href="markir.spb.ru">markir.spb.ru</a>.'

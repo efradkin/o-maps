@@ -23,8 +23,10 @@ let rogaineMaps = [
         name: 'Санкт-Петербург, север',
         year: 2019,
         url: './maps/rogaine/spb_severnaya_stolitsa_2019.webp',
+        info: 'Северная столица.',
         bounds: [[60.03896027284075, 30.184593200683597], [60.03870308309954, 30.35333633422852], [59.91717182572499, 30.18390655517578]],
         owner: 'GOLDMRSHRT',
+        start: 'ZM',
         type: ['ROGAINE']
     },
     {

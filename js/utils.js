@@ -10,6 +10,9 @@ const regions = {
         name: 'Башкортостан',
         logo: 'bash.gif'
     },
+    EKB: {
+        name: 'Свердловская обл',
+    },
     GLNDZHK: {
         name: 'Геленджик',
         logo: 'gelendzhik.gif'
@@ -27,19 +30,27 @@ const regions = {
         name: 'Калининград'
     },
     KLGA: {
-        name: 'Калуга'
+        name: 'Калуга',
+        logo: 'kaluga.gif'
     },
     KRCHCHRK: {
         name: 'Карачаево-Черкессия',
         logo: 'karachay-cherkessia.gif'
     },
+    KOSTROMA: {
+        name: 'Кострома',
+    },
     KARELIA: {
         name: 'Карелия',
         logo: 'karelia.gif'
     },
-    KRSNDR: {
+    KRASNODAR: {
         name:'Краснодар',
         logo: 'krasnodar_krai.webp'
+    },
+    KRASNOYARSK: {
+        name:'Красноярский край',
+        logo: 'kranoyarsk.webp'
     },
     LNGRD: {
         name: 'Ленинград'
@@ -50,6 +61,13 @@ const regions = {
     MURMANSK: {
         name: 'Мурманск',
         logo: 'murmansk.webp'
+    },
+    N_NOVGOROD: {
+        name: 'Нижний Новгород',
+        logo: 'nn_orient.gif'
+    },
+    NOVGOROD: {
+        name: 'Великий Новгород',
     },
     NVRSYSK: {
         name: 'Новороссийск',
@@ -96,7 +114,7 @@ const regions = {
     },
     CHELYABINSK: {
         name: 'Челябинск',
-        logo: 'chelyabinsk.gif'
+        logo: 'o-chel.webp'//'chelyabinsk.gif'
     },
     CHITA: {
         name: 'Чита'

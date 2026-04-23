@@ -340,6 +340,7 @@ let commonEvents2026 = [
     place: 'Псков',
     link: 'https://vk.com/skorus',
     reg: 'https://orgeo.ru/event/49482',
+    video: 'https://vkvideo.ru/video-230838055_456239042',
     type: 'ORIENT',
     fmt: 'спринт, лонг, классика',
     owner: 'PSKOV_RUS',

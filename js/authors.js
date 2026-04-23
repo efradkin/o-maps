@@ -25,7 +25,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     BLKV_L: { name: 'Беляков Людвиг' }, // Викторович
-    BLV_V: { name: 'Белов В.' },
+    BLV_V: { name: 'Белов Василий' },
     BLVA_D: { name: 'Беляева Диана' },
     BLZRV_V: {
         name: 'Белозеров Владимир', //Николаевич
@@ -809,7 +809,7 @@ let authors = {
     EKSHV: { name: 'Екишев М.' },
     FDRV_S: { name: 'Фёдоров Сергей' },
     GZTLN: { name: 'Гизатулин Марат' },
-    GBDLN: { name: 'Губайдулин С.' },
+    GBDLN: { name: 'Губайдулин Сахий' },
     GLSHKV_V: { name: 'Глушков В.' },
     GRSHN_V: { name: 'Грушин В.' },
     ISHMHMDV: { name: 'Ишмухаметов Инсаф' }, // Б.
@@ -819,11 +819,11 @@ let authors = {
     PRHRVA_E: { name: 'Прохорова Елена' },
     RHMTLNA: { name: 'Рахматуллина С.' },
     SDKV: { name: 'Садаков В.' }, // М.
-    SLDTV_S: { name: 'Солдатов С.' },
+    SLDTV_S: { name: 'Солдатов Сергей' },
     SLTNBKV: { name: 'Султанбеков Эрнст' },
     SMLNNV: { name: 'Смольянинов Андрей' }, // Евгеньевич
     SMNV_MA: { name: 'Семёнов Михаил' }, // Александрович
-    VRBJV_V: { name: 'Воробьёв В.' },
+    VRBJV_V: { name: 'Воробьёв Владимир' },
     YLMNV: { name: 'Юлманов В.' },
     YUSHV_A: {
         name: 'Яушев Азат',
@@ -873,27 +873,41 @@ let authors = {
     /* --- ПРОЧЕЕ --- */
 
     AFNSV_L: { name: 'Афанасьев Л.' },
+    ANKN_I: { name: 'Аникин И.' }, // В.
     ATMNTSV: { name: 'Атаманцев С.' },
     BBRN_R: { name: 'Байбурин Р.' },
     BCHNV_A: { name: 'Бучнев А.' },
+    BNDR_N: { name: 'Бондарь Николай' },
+    BRV_D: { name: 'Бареев Денис' },
     BYMRZN: { name: 'Баймурзин Х.' },
     VHTV_A: { name: 'Вахитов А.' },
+    GLDKVA_S: { name: 'Гладкова Светлана' },
     GLTSKY_V: { name: 'Гелецкий В.' },
     GRBNKO: { name: 'Горбенко Данила' },
     GSMNV_R: { name: 'Гусманов Р.' },
     IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
     KLM_K: { name: 'Калм К.' },
+    KNTSVCH: { name: 'Кунцевич Г.' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },
     KUZNTSV_S_DV: { name: 'Кузнецов Сергей' },
     KUZNTSV_V_DV: { name: 'Кузнецов В.' },
+    LGNV_E: { name: 'Логинов Евгений' },
     LSHV_A: { name: 'Лайшев Алексей' },
     MLSHNKO_V: { name: 'Малашенко Валерий' }, // Брянск
+    MSHRN_A: { name: 'Мишарин Алексей' },
     NBLSNV: { name: 'Небольсинов Алексей' },
+    NCHKN: { name: 'Нечкин Игорь' },
     NR_D: { name: '<a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>' },
     PNCHKV: { name: 'Панчуков С.' },
+    PTPV_A: { name: 'Потопаев Александр' },
+    RKHMNKLV: { name: 'Рахманкулов Дамир' },
+    SDNV_YU: { name: 'Сиднев В.' }, // Ю.
+    SHSTKV_P: { name: 'Шестаков Павел' },
     SKRSKY_A: { name: 'Сикорский А.' },
+    SLMNV_G: { name: 'Селюминов Геннадий' },
     SMRNV_K: { name: 'Смирнов Кирилл' },
     SMRNV_S: { name: 'Смирнов Сергей' },
+    SPLKV: { name: 'Сопляков С.' },
     SRV_A: { name: 'Серов Александр' }, // Калуга
     TRFNV_A: { name: 'Труфанов Александр' }, // Федорович
     YURDK: { name: 'Юрдик В.' },
@@ -906,6 +920,7 @@ let authors = {
         about: 'https://rufso.ru/м-м-замоте-70-лет/'
     },
     ZHRDV_T: { name: 'Жердев Тимур' },
+    ZRN_A: { name: 'Зорин А.' },
 
     /* --- КНИГИ --- */
     BLAGOVO: {

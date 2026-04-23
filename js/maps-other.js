@@ -30,6 +30,20 @@ let otherMaps = [
         major: true,
         type: ['ROGAINE']
     },
+    {
+        name: 'Обашево',
+        date: '2021-05-08',
+        url: './maps/other/obashevo_rrc_2021.webp',
+        link: './original_maps/other/obashevo_rrc_2021_omaps.webp',
+        about: 'https://zalesye2021.ru/',
+        info: '18-й чемпионат России по рогейну бегом Залесье 2021.',
+        bounds: [[56.71524684002354, 38.33593368530274], [56.674904273488885, 38.68080139160156], [56.52872577072523, 38.263664245605476]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/9803',
+        author: ['BRV_D','SHSTKV_P','LGNV_E'],
+        logo: 'rrc_2021.webp',
+        major: true,
+        type: ['ROGAINE']
+    },
     // --- Дальний Восток ---
     {
         name: 'Амурск, о Сахалин',
@@ -148,17 +162,15 @@ let otherMaps = [
         region: 'KLGA',
         type: ['CITY']
     },
-    // --- Тверь ---
     {
-        name: 'Нелидово',
-        year: 2025,
-        url: './maps/other/nelidovo_2025.webp',
-        link: './original_maps/other/nelidovo_2025_omaps.gif',
-        bounds: [[56.228949815008214, 32.78070330619813], [56.22815660823478, 32.78842806816102], [56.22246650837227, 32.7783215045929]],
-        author: 'SVCHK',
-        owner: 'SVCHK',
-        region: 'TVER',
-        type: ['CITY']
+        name: 'Никола-Ленивец',
+        year: 2023,
+        url: './maps/other/nikola_lenivets_rogaine_2023.webp',
+        link: './original_maps/other/nikola_lenivets_rogaine_2023_omaps.webp',
+        info: 'SPORT-MARAFON FEST.',
+        bounds: [[54.81473325243995, 35.518112182617195], [54.78880918441787, 35.70917129516602], [54.71510205751835, 35.47760009765626]],
+        region: 'KLGA',
+        type: ['ROGAINE']
     },
     // --- Карелия ---
     {
@@ -189,6 +201,46 @@ let otherMaps = [
         bounds: [[62.917050176036085, 34.38930988311768], [62.915682449329786, 34.43149566650391], [62.903076819759605, 34.38488960266114]],
         author: 'SHRNN',
         region: 'KARELIA'
+    },
+    // --- Кострома ---
+    {
+        name: 'Галич',
+        date: '2025-07-12',
+        url: './maps/other/galich_rrc_2025.webp',
+        link: './original_maps/other/galich_rrc_2025_omaps.webp',
+        about: 'https://galtropa.ru/rogaine/2025',
+        info: 'Галичское Заозерье. XXII-й Чемпионат России по рогейну.',
+        bounds: [[58.570579776317544, 42.18526840209962], [58.531082526206816, 42.53528594970704], [58.44162408488062, 42.1322250366211]],
+        type: ['ROGAINE'],
+        major: true,
+        logo: 'rrc_2025.gif',
+        region: 'KOSTROMA'
+    },
+    // --- Красноярский край ---
+    {
+        name: 'Красноярск',
+        date: '2015-09-19',
+        url: './maps/other/krasnoyarsk_rrc_2015.webp',
+        link: './original_maps/other/krasnoyarsk_rrc_2015_omaps.webp',
+        about: 'https://kras-rogaining.ru/',
+        info: '12-й Чемпионат России по рогейну.',
+        bounds: [[56.072754061275596, 92.43647575378418], [56.07615520299828, 92.76288986206056], [55.95366905082329, 92.43986606597902]],
+        type: ['ROGAINE'],
+        major: true,
+        region: 'KRASNOYARSK'
+    },
+    {
+        name: 'Хакасия, урочище Карчалык',
+        date: '2018-07-21',
+        url: './maps/other/karchalyk_rrc_2018.webp',
+        link: './original_maps/other/karchalyk_rrc_2018_omaps.webp',
+        about: 'https://kras-rogaining.ru/',
+        info: '15-й Чемпионат России по рогейну.',
+        bounds: [[54.55743129270758, 90.72750091552736], [54.55763038049401, 91.0162353515625], [54.43960031016295, 90.72715759277345]],
+        author: 'ANKN_I',
+        type: ['ROGAINE'],
+        major: true,
+        region: 'KRASNOYARSK'
     },
     // --- Мурманск ---
     {
@@ -222,6 +274,48 @@ let otherMaps = [
         bounds: [[68.96692554632965, 33.13141822814942], [68.96270482718478, 33.174505233764656], [68.93165617852857, 33.10223579406739]],
         author: ['SKRPKO_S','KVZN'],
         region: 'MURMANSK'
+    },
+    // --- В.Новгород ---
+    {
+        name: 'Великий Новгород',
+        date: '2024-09-28',
+        url: './maps/other/novgorod_rogaine_2024_09_08.webp',
+        link: './original_maps/other/novgorod_rogaine_2024_09_08_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20664/',
+        info: 'Новгородский городской исторический рогейн.',
+        bounds: [[58.55553845424676, 31.246833801269535], [58.54685093957477, 31.33232116699219], [58.490374433225796, 31.222286224365238]],
+        author: 'ORLV',
+        owner: 'LM',
+        type: ['ROGAINE'],
+        region: 'NOVGOROD'
+    },
+    // --- Н.Новгород ---
+    {
+        name: 'Богородск',
+        date: '2017-09-23',
+        url: './maps/other/bogorodsk_rrc_2017.webp',
+        link: './original_maps/other/bogorodsk_rrc_2017_omaps.webp',
+        about: 'https://nn-rogaine.ru/op/osen-povolzhya',
+        info: '14-й Чемпионат России по рогейну. Осень Поволжья 2017.',
+        bounds: [[56.25345956009947, 43.27171325683594], [56.21925725344818, 43.5659408569336], [56.00529203821348, 43.17455291748047]],
+        author: ['BRV_D','SDNV_YU'],
+        type: ['ROGAINE'],
+        major: true,
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Дзержинск, Тимонино',
+        date: '2024-08-17',
+        url: './maps/other/dzerzhinsk_timonino_rrc_2024.webp',
+        link: './original_maps/other/dzerzhinsk_timonino_rrc_2024_omaps.webp',
+        about: 'https://rogaining.ru/news/rrf-news/rrc2024-results',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20232/',
+        info: '21-й Чемпионат России по рогейну бегом.',
+        bounds: [[56.20116586957535, 43.0440902709961], [56.16304580548437, 43.40423583984376], [56.04606144935395, 42.98503875732422]],
+        author: ['BRV_D','SHSTKV_P'],
+        type: ['ROGAINE'],
+        major: true,
+        region: 'N_NOVGOROD'
     },
     // --- Оренбург ---
     {
@@ -266,6 +360,44 @@ let otherMaps = [
         author: ['DJCHKV','IDLBV'],
         region: 'ROSTOV',
     },
+    // --- Свердловская обл, Екатеринбург ---
+    {
+        name: 'Верх-Нейвинский',
+        date: '2019-08-24',
+        url: './maps/other/verkh_neyvinsky_rrc_2019.webp',
+        link: './original_maps/other/verkh_neyvinsky_rrc_2019_omaps.webp',
+        about: 'https://rogaining-ural.ru/history',
+        info: 'Чемпионат России по рогейну.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/6247/',
+        bounds: [[57.3599604183415, 60.141220092773445], [57.34509716809974, 60.31476974487305], [57.183762311675956, 60.09160995483399]],
+        logo: 'rrc_2019.webp',
+        major: true,
+        region: 'EKB',
+        type: ['ROGAINE']
+    },
+    // --- Тверь ---
+    {
+        name: 'Нелидово',
+        year: 2025,
+        url: './maps/other/nelidovo_2025.webp',
+        link: './original_maps/other/nelidovo_2025_omaps.gif',
+        bounds: [[56.228949815008214, 32.78070330619813], [56.22815660823478, 32.78842806816102], [56.22246650837227, 32.7783215045929]],
+        author: 'SVCHK',
+        owner: 'SVCHK',
+        region: 'TVER',
+        type: ['CITY']
+    },
+    {
+        name: 'Вышний Волочёк',
+        year: 2023,
+        url: './maps/other/vyshny_volochek_rogaine_2023.webp',
+        link: ['./original_maps/other/vyshny_volochek_water_rogaine_2023_omaps.webp','./original_maps/other/vyshny_volochek_city_rogaine_2023_omaps.webp'],
+        info: 'Золото Сенежа 2023.',
+        bounds: [[57.61838204623763, 34.39544677734376], [57.5996226164685, 34.63165283203126], [57.509276532278115, 34.376049041748054]],
+        start: 'ZM',
+        region: 'TVER',
+        type: ['ROGAINE','WATER']
+    },
     // --- Челябинск ---
     {
         name: 'оз Большой Еланчик',
@@ -276,6 +408,33 @@ let otherMaps = [
         author: ['SLDTV_S','EKSHV','SHRNN'],
         region: 'CHELYABINSK',
     },
+    {
+        name: 'Кыштым',
+        date: '2011-09-10',
+        url: './maps/other/kyshtym_rrc_2011.webp',
+        link: './original_maps/other/kyshtym_rrc_2011_omaps.webp',
+        about: 'https://rrc2011.rogaining.ru/',
+        info: '8-й Чемпионат России по рогейну.',
+        bounds: [[55.800123135977486, 60.31185150146485], [55.76735178017714, 60.55037498474122], [55.62499151150313, 60.23537635803223]],
+        author: ['KZLV_V','LNTV','CHRMNCH_A','GBDLN','VRBJV_V','PTPV_A','BLV_V','MLNKV_V','SLDTV_S','KNTSVCH','SPLKV','ZRN_A'],
+        region: 'CHELYABINSK',
+        major: true,
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Кыштым, Слюдорудник',
+        date: '2022-07-30',
+        url: './maps/other/slyudorudnik_rrc_2022.webp',
+        link: './original_maps/other/slyudorudnik_rrc_2022_omaps.webp',
+        about: 'https://vk.com/rogein74',
+        info: '19-й Чемпионат России по рогейну.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/13759/',
+        bounds: [[55.714782899689865, 60.28635978698731], [55.68377855290114, 60.5039405822754], [55.552767217118735, 60.216150283813484]],
+        author: ['KZLV_V','BNDR_N','SLDTV_S','GBDLN','BLV_V','RKHMNKLV','NCHKN','PTPV_A','VRBJV_V','MSHRN_A','GRSHKN'],
+        region: 'CHELYABINSK',
+        major: true,
+        type: ['ROGAINE']
+    },
     // --- Юг ---
     {
         name: 'Парк Краснодар',
@@ -285,7 +444,7 @@ let otherMaps = [
         bounds: [[45.046541218721764, 39.02678489685059], [45.04651089764259, 39.03708457946778], [45.03830845554792, 39.02667760849]],
         author: 'DRN_E',
         owner: 'DRN_E',
-        region: 'KRSNDR',
+        region: 'KRASNODAR',
         type: ['PARK']
     },
     {
@@ -296,7 +455,7 @@ let otherMaps = [
         bounds: [[45.030665935675785, 38.990811109542854], [45.02951340364578, 39.00232315063477], [45.024561801368655, 38.989502191543586]],
         author: 'DRN_E',
         owner: 'DRN_E',
-        region: 'KRSNDR',
+        region: 'KRASNODAR',
         type: ['PARK']
     },
     {
@@ -307,7 +466,7 @@ let otherMaps = [
         bounds: [[44.65680962521428, 39.120168685913086], [44.65070391371675, 39.20393943786622], [44.60165174422536, 39.11055564880371]],
         author: 'ZAMOTA',
         owner: 'ZAMOTA',
-        region: 'KRSNDR'
+        region: 'KRASNODAR'
     },
     {
         name: 'Сочи, Ахун',
@@ -317,7 +476,7 @@ let otherMaps = [
         bounds: [[43.61165747364978, 39.79848861694337], [43.607742266333425, 39.8844051361084], [43.54229575224248, 39.79138612747193]],
         author: 'ZAMOTA',
         owner: 'ZAMOTA',
-        region: 'KRSNDR'
+        region: 'KRASNODAR'
     },
     {
         name: 'Мацеста, Орлиные скалы',
@@ -326,7 +485,7 @@ let otherMaps = [
         link: './original_maps/other/matsesta_1976_omaps.webp',
         bounds: [[43.565715431592736, 39.79282379150391], [43.56823413778868, 39.822778701782234], [43.54693064746983, 39.79346752166749]],
         author: 'NKRSV_S',
-        region: 'KRSNDR'
+        region: 'KRASNODAR'
     },
     {
         name: 'Сочи, хребет Ачишхо, эко-тропа',
@@ -335,7 +494,7 @@ let otherMaps = [
         bounds: [[43.72973944370968, 40.17000675201417], [43.72555281372339, 40.20206451416016], [43.71624814386753, 40.1700496673584]],
         author: 'ZAMOTA',
         owner: 'ZAMOTA',
-        region: 'KRSNDR'
+        region: 'KRASNODAR'
     },
     {
         name: 'Плато Лаго-Наки, Утюг',
@@ -347,10 +506,10 @@ let otherMaps = [
         bounds: [[44.10635453999059, 39.997830390930176], [44.104813753670705, 40.02486705780029], [44.07599365217524, 39.994783401489265]],
         author: 'ZAMOTA',
         owner: 'ZAMOTA',
-        region: 'KRSNDR'
+        region: 'KRASNODAR'
     },
     {
-        name: 'блв Черняховского',
+        name: 'бульвар Черняховского',
         year: 2025,
         url: './maps/other/chernyahovskogo_2025.webp',
         link: './original_maps/other/chernyahovskogo_2025_omaps.pdf',
@@ -359,6 +518,21 @@ let otherMaps = [
         owner: 'DRN_E',
         region: 'NVRSYSK',
         type: ['PARK']
+    },
+    {
+        name: 'Абрау-Мысхако',
+        date: '2023-10-21',
+        url: './maps/other/abrau_myskhako_rrc_2023.webp',
+        link: './original_maps/other/abrau_myskhako_rrc_2023_omaps.webp',
+        about: 'https://vk.com/novorosrogein',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17658/',
+        info: 'XX чемпионат России по рогейну.',
+        bounds: [[44.788048764814604, 37.57101058959962], [44.77245227522474, 37.77125358581544], [44.66315888324934, 37.55049705505372]],
+        author: ['GRSHKN','GLDKVA_S','SLMNV_G'],
+        owner: 'RRF',
+        major: true,
+        region: 'NVRSYSK',
+        type: ['ROGAINE']
     },
     {
         name: 'СЦ ЦСКА',
@@ -453,6 +627,17 @@ let otherMaps = [
         owner: 'SMRNV_S',
         region: 'KABARDA',
         type: ['CITY']
+    },
+    {
+        name: 'Терскол',
+        date: '2021-08-14',
+        url: './maps/other/terskol_rrc_2021.webp',
+        link: './original_maps/other/terskol_rrc_2021_omaps.webp',
+        info: 'Открытый Чемпионат России по рогейну.',
+        bounds: [[43.29744827659319, 42.46215820312501], [43.28282904077466, 42.59905815124512], [43.22588051343216, 42.448253631591804]],
+        start: 'ZM',
+        region: 'KABARDA',
+        type: ['ROGAINE']
     },
 
     // --- Не Россия ---

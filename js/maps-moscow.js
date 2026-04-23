@@ -523,7 +523,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/butovo_2023_omaps.gif',
         bounds: [[55.58867770377239, 37.52453327178956], [55.58501536760552, 37.56611824035645], [55.55427223433714, 37.51376152038575]],
         owner: 'FSO_MSK',
-        type: ['ROGAINE']
+        type: ['ROGAINE','WINTER']
     },
     {
         name: 'Бутовский Лес',
@@ -1926,6 +1926,17 @@ let moscowMaps = [
         owner: 'SYTV_N'
     },
     {
+        name: 'Битцевский Лес',
+        date: '2022-01-30',
+        url: './maps/moscow/ak/bitsa_winter_rogaine_2022.webp',
+        link: './original_maps/moscow/ak/bitsa_winter_rogaine_2022_omaps.gif',
+        info: 'II зимний Нанорогейн 2022.',
+        bounds: [[55.649698632082625, 37.545862197875984], [55.64190061626222, 37.61641502380372], [55.58630086226774, 37.526378631591804]],
+        type: ['ROGAINE','WINTER'],
+        author: ['SKRPKO_S','SYTV_N','JASHPTRV','LKN_A','ERMCHNKV_A','KLNN_O'],
+        owner: 'SYTV_N'
+    },
+    {
         name: 'Ясенево, север',
         year: 2012,
         url: './maps/moscow/ak/jasenevo_north_2012.webp',
@@ -3053,6 +3064,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/krylatskoe_2021_omaps.gif',
         bounds: [[55.85363699578003, 37.39213943481446], [55.84110881992539, 37.52002716064454], [55.75011042177816, 37.35935211181641]],
         owner: 'GOLDMRSHRT',
+        start: 'ZM',
         type: ['ROGAINE']
     },
     {
@@ -3063,6 +3075,7 @@ let moscowMaps = [
         link: './original_maps/moscow/mosden_2023.pdf',
         bounds: [[55.829974629678674, 37.578306198120124], [55.81661903750816, 37.709455490112305], [55.72798009228692, 37.54577636718751]],
         owner: 'GOLDMRSHRT',
+        start: 'ZM',
         type: ['ROGAINE']
     },
 /*
@@ -4216,6 +4229,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/firsanovka_rogaine_2010.webp',
         link: 'https://moscow.rogaine.ru/download/maps/cup2010_5_map.gif',
         bounds: [[55.98834808759427, 37.19661712646485], [55.97072426231743, 37.38965034484864], [55.9063555874915, 37.17138290405274]],
+        start: 'ZM',
         type: ['ROGAINE']
     },
     {
@@ -6441,6 +6455,15 @@ let moscowMaps = [
         info: '<a href="https://t.me/LoveIsRogaine">Love is... Рогейн</a>.',
         bounds: [[55.850987141482136, 37.26957321166993], [55.83802434189814, 37.35772132873536], [55.81883725116344, 37.254209518432624]],
         logo: 'love_rogaine.webp',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Мачихино',
+        year: 2021,
+        url: './maps/moscow/lr/machihino_rogaine_2021.webp',
+        link: './original_maps/moscow/lr/machihino_rogaine_2021_omaps.webp',
+        bounds: [[55.35374494861538, 36.91989898681641], [55.35350097066398, 37.07937240600587], [55.290211174588755, 36.919384002685554]],
+        start: 'ZM',
         type: ['ROGAINE']
     },
     {

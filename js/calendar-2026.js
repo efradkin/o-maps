@@ -510,6 +510,7 @@ let events2026 = [
         owner: 'DLITELNY',
         map: 'udelnaya_2015',
         planner: 'KSHN_D',
+        video: 'https://www.youtube.com/watch?v=uCo8r89BL9w',
         strava: 17717209233,
         me: 'Pro'
     },
@@ -525,6 +526,7 @@ let events2026 = [
             'B': 'https://viewer.o-gps-center.ru/viewer/event/24415/'
         },
         reskeep: 844,
+        video: 'https://www.youtube.com/watch?v=_oX6EFzYQo4',
         type: 'ORIENT',
         owner: 'WN',
         map: 'orovo_2019',
@@ -814,7 +816,7 @@ let events2026 = [
         ],
         strava: [18064614080,18078563936],
         reskeep: [868,869],
-        video: 'https://vk.com/video3554909_456247816',
+        video: ['https://vk.com/video3554909_456247816','https://rutube.ru/video/894fe9884ab32a6064c1f941f783aa25/','https://rutube.ru/video/8ef1b37645e776d989bc33f6459fcf89/'],
         photo: ['https://vk.com/album-201330282_310563730','https://disk.yandex.ru/d/wnajivFECeuZWA'],
         me: 'М45'
     },
@@ -936,11 +938,13 @@ let events2026 = [
             'М':'https://viewer.o-gps-center.ru/viewer/event/24798/',
             'Ж':'https://viewer.o-gps-center.ru/viewer/event/24799/'
         },
+        reskeep: 877,
         strava: 18198928633,
         type: 'ORIENT',
         owner: 'FENIX',
         fmt: 'спринт',
-        map: 'school_532_2023'
+        map: 'school_532_2023',
+        me: 'М'
     },
     {
         id: 'SPB_20260423_1',
@@ -964,7 +968,7 @@ let events2026 = [
         o_site: '260425_open_season',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1727',
         planner: 'SVCHK',
-        info: 'На соревнованиях будет тестироваться бесконтактная SFR-отметка, чипы будут выдаваться всем участникам на старте.',
+        info: 'Тест бесконтактной SFR-отметки.',
         type: 'ORIENT',
         fmt: 'гроздь',
         map: 'peterhof_spbgu_2024',
@@ -1165,6 +1169,7 @@ let events2026 = [
         date: '2026-05-17',
         name: 'ЧиП СПб',
         place: 'Поляны',
+        o_site: '170426_open_season',
         type: 'ORIENT',
         fmt: 'эстафета 3х',
         map: 'polyany_2019',
@@ -1201,8 +1206,23 @@ let events2026 = [
         id: 'SPB_20260523_2',
         date: '2026-05-23',
         endDate: '2026-05-24',
-        name: 'Универсиада, Майские старты',
+        name: 'Майские старты',
+        place: 'Орехово',
+        o_site: '260524',
         type: 'ORIENT',
+        fmt: 'спринт, классика',
+        map: 'orekhovo_figurnoe_2025',
+        owner: 'SFSO_SPB'
+    },
+    {
+        id: 'SPB_20260523_5',
+        date: '2026-05-23',
+        endDate: '2026-05-24',
+        name: 'Универсиада (П-во ВУЗов)',
+        place: 'Орехово',
+        o_site: '260524_VUZ',
+        type: 'ORIENT',
+        map: 'orekhovo_figurnoe_2025',
         owner: 'SFSO_SPB'
     },
     {

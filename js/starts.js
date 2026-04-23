@@ -482,6 +482,12 @@ let starts = {
         name: 'Тропаревские четверги',
         logo: 'tropa_thirsday.jpg'
     },
+    ZM: {
+        short: 'ЗМ',
+        name: '<a href="https://mosplay.ru/">Золотой маршрут</a>',
+        logo: 'zm.webp',
+        rogaine: true
+    },
     /* --- РЯЗАНЬ --- */
     NPW: {
         short: 'Ночная ПРАгулка',
