@@ -1186,6 +1186,15 @@ let cityMaps = [
         type: ['CITY','PARK','SPRINT']
     },
     {
+        name: 'Комендантский пр',
+        year: 2026,
+        url: './maps/city/komendantsky_2026.webp',
+        bounds: [[60.0256587940991, 30.232787132263187], [60.02419005117923, 30.250082015991214], [60.01653437810512, 30.2294397354126]],
+        author: 'MSKV',
+        owner: 'MSKV',
+        type: ['CITY','SPRINT']
+    },
+    {
         name: 'Школа №515',
         year: 2023,
         url: './maps/city/school_515_2023.webp',
