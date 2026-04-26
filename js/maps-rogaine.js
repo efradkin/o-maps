@@ -87,6 +87,17 @@ let rogaineMaps = [
     },
     {
         name: 'Шапки',
+        date: '2026-03-08',
+        info: 'Ski Adventure.',
+        url: './maps/rogaine/shapki_ski_adventure_2026.webp',
+        link: './original_maps/rogaine/shapki_ski_adventure_2026_omaps.gif',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24374/',
+        bounds: [[59.634564740877096, 31.0883903503418], [59.646364354380864, 31.20297431945801], [59.58473943569614, 31.104955673217777]],
+        owner: 'NKLSK',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Шапки',
         year: 2019,
         info: 'КЛО 2019, 2024.',
         url: './maps/rogaine/shapki_KLO_2024.webp',
@@ -331,7 +342,7 @@ let rogaineMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/13567/',
         bounds: [[58.739572715437966, 29.677248001098636], [58.73658840613287, 29.834318161010746], [58.68157786452505, 29.67269897460938]],
         owner: 'SHBN',
-        type: ['ROGAINE']
+        type: ['ROGAINE','WINTER']
     },
     {
         name: 'Городок',

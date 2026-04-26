@@ -1,4 +1,28 @@
 let otherMaps = [
+    // --- Алтай ---
+    {
+        name: 'Чернопятово',
+        date: '2025-07-05',
+        url: './maps/other/chernopiatovo_rogaine_2025.webp',
+        link: './original_maps/other/chernopiatovo_rogaine_2025_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23058/',
+        info: 'Касмалинская долина.',
+        bounds: [[53.455042490099736, 83.08444976806642], [53.44972690762585, 83.37060928344728], [53.337535936218956, 83.07947158813478]],
+        type: ['ROGAINE'],
+        author: ['SCHGLV_A'],
+        region: 'ALTAI'
+    },
+    // --- Архангельск ---
+    {
+        name: 'Малые Карелы',
+        date: '2025-09-07',
+        url: './maps/other/karely_rogaine_2025.webp',
+        link: './original_maps/other/karely_rogaine_2025_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23354/',
+        bounds: [[64.47797162841998, 40.90553283691407], [64.47079640354542, 40.96449851989747], [64.46014105261972, 40.89377403259278]],
+        type: ['ROGAINE'],
+        region: 'ARKHANGELSK'
+    },
     // --- Владимирская обл ---
     {
         name: 'Радужный',
@@ -44,6 +68,17 @@ let otherMaps = [
         major: true,
         type: ['ROGAINE']
     },
+    {
+        name: 'Крутово',
+        date: '2025-08-24',
+        url: './maps/other/krutovo_rogaine_2025.webp',
+        link: './original_maps/other/krutovo_rogaine_2025_omaps.webp',
+        info: 'Спортмастер PRO Fest.',
+        bounds: [[55.917035013373074, 39.34530258178712], [55.89437381256353, 39.544086456298835], [55.839084658820454, 39.316978454589844]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23267/',
+        owner: 'OPNBND',
+        type: ['ROGAINE']
+    },
     // --- Дальний Восток ---
     {
         name: 'Амурск, о Сахалин',
@@ -53,6 +88,28 @@ let otherMaps = [
         bounds: [[50.20706582639933, 136.88261032104495], [50.2099497177539, 136.90685749053958], [50.18890704171708, 136.88651561737063]],
         logo: 'amursk_snake.jpg',
         author: 'TRFNV_A',
+        region: 'DV'
+    },
+    {
+        name: 'Благовещенск, Моховая падь',
+        date: '2025-10-12',
+        url: './maps/dv/blagoveschensk_mokhova_pad_rogaine_2025.webp',
+        link: './original_maps/dv/blagoveschensk_mokhova_pad_rogaine_2025_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23628/',
+        bounds: [[50.400530554317605, 127.54045486450197], [50.41341299115119, 127.63216495513917], [50.36052072352183, 127.55384445190431]],
+        author: 'MLNN_V',
+        type: ['ROGAINE'],
+        region: 'DV'
+    },
+    {
+        name: 'Владивосток, Тавричанка',
+        date: '2025-09-14',
+        url: './maps/dv/tavrichanka_rogaine_2025.webp',
+        link: './original_maps/dv/tavrichanka_rogaine_2025_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23374/',
+        info: 'Рогейн Надеждинский.',
+        bounds: [[43.32236784363722, 131.81289196014407], [43.3268947382324, 131.84649467468265], [43.292856715659916, 131.82001590728763]],
+        type: ['ROGAINE'],
         region: 'DV'
     },
     {
@@ -242,6 +299,17 @@ let otherMaps = [
         major: true,
         region: 'KRASNOYARSK'
     },
+    // --- Курган ---
+    {
+        name: 'Бол Чаусово',
+        date: '2024-10-20',
+        url: './maps/other/bol_chausovo_rogaine_2024.webp',
+        link: './original_maps/other/bol_chausovo_rogaine_2024_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20896/',
+        bounds: [[55.54184197767242, 65.31140327453615], [55.547669149918804, 65.37036895751955], [55.518378873452434, 65.31891345977785]],
+        region: 'KURGAN',
+        type: ['ROGAINE']
+    },
     // --- Мурманск ---
     {
         name: 'Апатиты',
@@ -317,6 +385,51 @@ let otherMaps = [
         major: true,
         region: 'N_NOVGOROD'
     },
+    {
+        name: 'Дальнее Константиново',
+        date: '2025-08-10',
+        url: './maps/other/dalnee_konstantinovo_rogaine_2025.webp',
+        link: './original_maps/other/dalnee_konstantinovo_rogaine_2025_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23204/',
+        info: 'Лесной Relax.',
+        bounds: [[55.85864713552407, 44.02324676513672], [55.84260277600231, 44.15928840637208], [55.751366352300806, 43.981790542602546]],
+        type: ['ROGAINE'],
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Пустынские оз',
+        date: '2025-06-21',
+        url: './maps/other/pustynskie_lakes_rogaine_2025.webp',
+        link: './original_maps/other/pustynskie_lakes_rogaine_2025_omaps.gif',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22959/',
+        info: 'Весло и курвиметр.',
+        bounds: [[55.68743166880614, 43.5133695602417], [55.675116159419325, 43.612117767333984], [55.65960132674263, 43.50289821624756]],
+        type: ['ROGAINE','WATER'],
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Зелёный город',
+        date: '2024-11-23',
+        url: './maps/other/green_city_rogaine_2024.webp',
+        link: './original_maps/other/green_city_rogaine_2024_omaps.gif',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/21134/',
+        info: 'По первому снегу.',
+        bounds: [[56.201476215917985, 44.032731056213386], [56.189370847656136, 44.15997505187989], [56.156210765857054, 44.018998146057136]],
+        type: ['ROGAINE'],
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Память Парижской коммуны',
+        date: '2024-10-12',
+        url: './maps/other/paris_commune_rogaine_2024.webp',
+        link: './original_maps/other/paris_commune_rogaine_2024_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20799/',
+        info: 'ХХ Осень Поволжья.',
+        bounds: [[56.18263603094131, 44.36725616455079], [56.14526260963143, 44.64963912963867], [56.10239617094439, 44.333438873291016]],
+        author: ['KRLV_A','SDNV_YU'],
+        type: ['ROGAINE'],
+        region: 'N_NOVGOROD'
+    },
     // --- Оренбург ---
     {
         name: 'парк Ивушка',
@@ -339,14 +452,25 @@ let otherMaps = [
     },
     // --- Пермь ---
     {
-        name: 'Пермь, Балатово, Черняевский лес',
+        name: 'Балатово, Черняевский лес',
         year: 2013,
         date: '2015-09-13',
         url: './maps/other/perm_balatovo_2013_09_15.webp',
         link: ['./original_maps/other/perm_balatovo_2015_09_13_1_omaps.webp','./original_maps/other/perm_balatovo_2015_09_13_2_omaps.webp'],
         info: 'Чемпионат России.',
+        major: true,
         bounds: [[57.999775257951946, 56.139664649963386], [57.99313403344903, 56.19081974029542], [57.971609824958364, 56.126060485839844]],
         author: ['LNTV','STLRV','JASHPTRV'],
+        region: 'PERM',
+    },
+    {
+        name: 'Южный лес',
+        date: '2024-10-13',
+        url: './maps/other/south_forest_rogaine_2024.webp',
+        link: './original_maps/other/south_forest_rogaine_2024_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20860/',
+        bounds: [[58.00696094882948, 56.30913734436036], [58.00691547430881, 56.4280128479004], [57.94077994318353, 56.309223175048835]],
+        type: ['ROGAINE'],
         region: 'PERM',
     },
     // --- Ростов ---
@@ -372,6 +496,28 @@ let otherMaps = [
         bounds: [[57.3599604183415, 60.141220092773445], [57.34509716809974, 60.31476974487305], [57.183762311675956, 60.09160995483399]],
         logo: 'rrc_2019.webp',
         major: true,
+        region: 'EKB',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Исеть',
+        date: '2025-04-19',
+        url: './maps/other/iset_rogaine_2025.webp',
+        link: './original_maps/other/iset_rogaine_2025_omaps.webp',
+        info: 'За подснежниками.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22237/',
+        bounds: [[56.992695781425326, 60.28172492980958], [56.979134094665014, 60.379915237426765], [56.934017661730735, 60.25477409362794]],
+        region: 'EKB',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Новоуральск',
+        date: '2024-10-06',
+        url: './maps/other/novouralsk_rogaine_2024.webp',
+        link: './original_maps/other/novouralsk_rogaine_2024_omaps.gif',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20751/',
+        bounds: [[57.292541413168756, 59.9370288848877], [57.27375328497094, 60.08337020874024], [57.23038804230696, 59.910249710083015]],
+        author: ['ASMLV_A','ASMLVA_O','BNDR_N','NCHKN','RZNV_A'],
         region: 'EKB',
         type: ['ROGAINE']
     },
@@ -407,6 +553,17 @@ let otherMaps = [
         bounds: [[54.934070703264204, 60.14761447906494], [54.92433053624889, 60.22795200347901], [54.89040649384628, 60.13182163238526]],
         author: ['SLDTV_S','EKSHV','SHRNN'],
         region: 'CHELYABINSK',
+    },
+    {
+        name: 'Вишневогорск, оз Аракуль',
+        date: '2025-08-16',
+        url: './maps/other/arakul_rogaine_2025.webp',
+        link: './original_maps/other/arakul_rogaine_2025_omaps.webp',
+        info: 'Чемпионат Уральских гор.',
+        bounds: [[56.04893766363342, 60.44677734375001], [56.026209725629016, 60.63423156738282], [55.97504692455578, 60.424633026123054]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23261/',
+        region: 'CHELYABINSK',
+        type: ['ROGAINE']
     },
     {
         name: 'Кыштым',

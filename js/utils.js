@@ -6,12 +6,21 @@ const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 const O_SITE_ADDRESS_PREFIX = 'https://o-site.spb.ru/race.php?id=';
 
 const regions = {
+    ALTAI: {
+        name: 'Алтайский край',
+        logo: 'altai.gif'
+    },
+    ARKHANGELSK: {
+        name: 'Архангельск',
+        logo: 'arkhangelsk.webp'
+    },
     BASH: {
         name: 'Башкортостан',
         logo: 'bash.gif'
     },
     EKB: {
         name: 'Свердловская обл',
+        logo: 'ekb_orient.webp'
     },
     GLNDZHK: {
         name: 'Геленджик',
@@ -32,6 +41,9 @@ const regions = {
     KLGA: {
         name: 'Калуга',
         logo: 'kaluga.gif'
+    },
+    KURGAN: {
+        name: 'Курган',
     },
     KRCHCHRK: {
         name: 'Карачаево-Черкессия',
@@ -64,7 +76,7 @@ const regions = {
     },
     N_NOVGOROD: {
         name: 'Нижний Новгород',
-        logo: 'nn_orient.gif'
+        logo: 'nn_rogaine.gif'
     },
     NOVGOROD: {
         name: 'Великий Новгород',

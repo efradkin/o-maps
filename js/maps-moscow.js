@@ -25,7 +25,8 @@ let moscowMaps = [
         link: './original_maps/moscow/pokrov_rogaine_2014_omaps.jpg',
         bounds: [[56.1646707408543, 38.75598907470704], [56.16378659337049, 39.49675083160401], [55.85093896064062, 38.75770568847657]],
         owner: 'KSTKN_SITE',
-        type: ['ROGAINE']
+        type: ['ROGAINE'],
+        zindex: -1
     },
     {
         name: 'Воскресенск',
@@ -46,7 +47,7 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
-        name: 'Электрогорск',
+        name: 'Ляпино',
         date: '2025-05-10',
         url: './maps/moscow/ak/electrogorsk_rogaine_2025.webp',
         link: './original_maps/moscow/ak/electrogorsk_rogaine_2025_omaps.gif',
@@ -55,6 +56,17 @@ let moscowMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22250/',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Электрогорск',
+        date: '2025-10-04',
+        url: './maps/moscow/ak/electrogorsk_compact_rogaine_2025.webp',
+        link: './original_maps/moscow/ak/electrogorsk_compact_rogaine_2025_omaps.webp',
+        info: 'Компактный рогейн.',
+        bounds: [[55.90548955918078, 38.805255889892585], [55.89374815639306, 38.90147209167481], [55.853685173276645, 38.78482818603516]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23573/',
+        author: 'MDZL',
         type: ['ROGAINE']
     },
     {
@@ -1187,6 +1199,18 @@ let moscowMaps = [
         author: 'TTYNN_V',
         owner: 'ERMCHNKV_A',
         type: ['PARK']
+    },
+    {
+        name: 'Железнодорожный',
+        date: '2025-10-11',
+        url: './maps/moscow/lr/railroad_district_rogaine_2025.webp',
+        link: './original_maps/moscow/lr/railroad_district_rogaine_2025_omaps.webp',
+        info: 'Железная осень.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23635/',
+        about: 'https://gryadka.club/race',
+        bounds: [[55.77806945371423, 37.964887619018555], [55.764176948570835, 38.079149723052986], [55.73272854012252, 37.947828769683845]],
+        author: ['PSHTO_A','JAKMV_S'],
+        type: ['ROGAINE']
     },
     {
         name: 'Тёплый стан',
@@ -2928,6 +2952,7 @@ let moscowMaps = [
         info: '<a href="https://t.me/rogainomania/336">Аэророгейн 4.0</a>.',
         url: './maps/moscow/lr/mariino_aerorogaine_2025.webp',
         link: './original_maps/moscow/lr/mariino_aerorogaine_2025_omaps.gif',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23884/',
         bounds: [[55.57101772982136, 37.294378280639656], [55.57402630866593, 37.424755096435554], [55.50598587453494, 37.29746818542481]],
         owner: 'OPNBND',
         type: ['ROGAINE']
@@ -4270,6 +4295,7 @@ let moscowMaps = [
         year: 2018,
         url: './maps/moscow/ak/korolev_rogaine_2018.webp',
         link: 'https://moscow.rogaine.ru/results/kr2018/kr2018_map.jpg',
+        info: 'Королёвский рогейн.',
         bounds: [[55.977352146926044, 37.803783416748054], [55.95352489024806, 38.010978698730476], [55.88282161091007, 37.77013778686524]],
         type: ['ROGAINE']
     },
@@ -5395,6 +5421,17 @@ let moscowMaps = [
         author: 'LZRV',
         owner: 'O_FRZNO',
         zindex: 2
+    },
+    {
+        name: 'Щапово',
+        date: '2024-11-30',
+        url: './maps/moscow/sz/schapovo_rogaine_2024.webp',
+        link: './original_maps/moscow/sz/schapovo_rogaine_2024_omaps.webp',
+        bounds: [[55.44481429549026, 37.39995002746583], [55.43948313102033, 37.45453834533692], [55.41588590986265, 37.39046573638917]],
+        info: 'Зов леса.',
+        author: ['JASHPTRV','ALFRV'],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/21199/',
+        type: ['ROGAINE']
     },
     {
         name: 'Щапово',

@@ -632,6 +632,7 @@ let authors = {
     },
     LZRV: { name: 'Лазарев Константин' },
     MDVDV_A: { name: 'Медведев Александр' },
+    MDZL: { name: 'Мядзель Александр' },
     MHVA_N: { name: 'Михеева Нина' },
     MTN_Y: { name: 'Митин Юрий' }, // И.
     MLCHK: { name: 'Мальчик Игорь' },
@@ -671,6 +672,10 @@ let authors = {
     PTPKN: { name: 'Потапкин Павел' },
     PTRV_VLNTN: { name: 'Петров Валентин' },
     PRZRV: { name: 'Прозоров Андрей' },
+    PSHTO_A: {
+        name: 'Пашуто Анастасия',
+        logo: 'gryadka.webp',
+    },
     PZDV_S: { name: 'Поздеев Сергей' },
     PZGRV: { name: 'Пызгарев Вячеслав' }, // Тула
     RSCHN_R: { name: 'Рощин Р.' },
@@ -874,6 +879,8 @@ let authors = {
 
     AFNSV_L: { name: 'Афанасьев Л.' },
     ANKN_I: { name: 'Аникин И.' }, // В.
+    ASMLV_A: { name: 'Асмолов Алексей' },
+    ASMLVA_O: { name: 'Асмолова Олеся' },
     ATMNTSV: { name: 'Атаманцев С.' },
     BBRN_R: { name: 'Байбурин Р.' },
     BCHNV_A: { name: 'Бучнев А.' },
@@ -889,10 +896,12 @@ let authors = {
     KLM_K: { name: 'Калм К.' },
     KNTSVCH: { name: 'Кунцевич Г.' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },
+    KRLV_A: { name: 'Королёв А.' }, // А.
     KUZNTSV_S_DV: { name: 'Кузнецов Сергей' },
     KUZNTSV_V_DV: { name: 'Кузнецов В.' },
     LGNV_E: { name: 'Логинов Евгений' },
     LSHV_A: { name: 'Лайшев Алексей' },
+    MLNN_V: { name: 'Малинин Вадим' }, // Геннадьевич
     MLSHNKO_V: { name: 'Малашенко Валерий' }, // Брянск
     MSHRN_A: { name: 'Мишарин Алексей' },
     NBLSNV: { name: 'Небольсинов Алексей' },
@@ -901,6 +910,8 @@ let authors = {
     PNCHKV: { name: 'Панчуков С.' },
     PTPV_A: { name: 'Потопаев Александр' },
     RKHMNKLV: { name: 'Рахманкулов Дамир' },
+    RZNV_A: { name: 'Рязанов Алексей' },
+    SCHGLV_A: { name: 'Щеглов А.' }, // И.
     SDNV_YU: { name: 'Сиднев В.' }, // Ю.
     SHSTKV_P: { name: 'Шестаков Павел' },
     SKRSKY_A: { name: 'Сикорский А.' },
