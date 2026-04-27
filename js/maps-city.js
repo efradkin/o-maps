@@ -1627,7 +1627,19 @@ let cityMaps = [
         link: './original_maps/city/krylenko_school_343_2025_omaps.jpg',
         bounds: [[59.90157241256712, 30.477018356323246], [59.899527808370514, 30.49405574798584], [59.8937376673402, 30.473327636718754]],
         author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         editor: 'SHRNN',
+        type: ['CITY']
+    },
+    {
+        name: 'Троицкое поле',
+        year: 2026,
+        url: './maps/city/troitskoe_pole_2026.webp',
+        link: './original_maps/city/troitskoe_pole_2026_omaps.gif',
+        bounds: [[59.85867393255681, 30.467061996459964], [59.857704200821566, 30.479507446289066], [59.851540356179555, 30.46465873718262]],
+        logo: 'obukhovo.webp',
+        author: 'RYLOV_V',
+        owner: 'RYLOV_V',
         type: ['CITY']
     },
     {
