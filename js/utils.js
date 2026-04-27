@@ -18,16 +18,19 @@ const regions = {
         name: 'Башкортостан',
         logo: 'bash.gif'
     },
-    EKB: {
-        name: 'Свердловская обл',
-        logo: 'ekb_orient.webp'
+    VLADIMIR: {
+        name: 'Владимирская обл',
     },
     GLNDZHK: {
         name: 'Геленджик',
         logo: 'gelendzhik.gif'
     },
+    DAGESTAN: {
+        name: 'Дагестан',
+    },
     DV: {
-        name: 'Дальний Восток'
+        name: 'Дальний Восток',
+        logo: 'pkfso.webp'
     },
     IRKUTSK: {
         name: 'Иркутская обл'
@@ -113,6 +116,10 @@ const regions = {
     SAMARA: {
         name: 'Самара',
         logo: 'samara.webp'
+    },
+    EKB: {
+        name: 'Свердловская обл',
+        logo: 'ekb_orient.webp'
     },
     SERBIA: {
         name: 'Сербия'

@@ -44,6 +44,7 @@ let otherMaps = [
         hidden: true,
         url: './maps/olive.png',
         bounds: [[56.02592194441778, 40.313987731933594], [56.01743143363443, 40.38067817687989], [55.994012897588576, 40.30145645141602]],
+        region: 'VLADIMIR',
         author: ['TKMKV_K','KVZN','LUK_V'],
         owner: 'GRN_V'
     },
@@ -53,6 +54,7 @@ let otherMaps = [
         url: './maps/other/kovrov_gridino_2025.webp',
         link: './original_maps/other/kovrov_gridino_2025_omaps.gif',
         bounds: [[56.337071490774015, 41.33520126342774], [56.33516838462233, 41.3521957397461], [56.32967263288713, 41.33254051208497]],
+        region: 'VLADIMIR',
         author: 'SMRNV_K',
         owner: 'SMRNV_K'
     },
@@ -66,6 +68,7 @@ let otherMaps = [
         bounds: [[56.96818761462326, 40.929222106933594], [56.95059166007404, 41.142082214355476], [56.78940938146706, 40.87926864624024]],
         logo: 'rogaine_russia_2011.webp',
         major: true,
+        region: 'VLADIMIR',
         type: ['ROGAINE']
     },
     {
@@ -80,6 +83,7 @@ let otherMaps = [
         author: ['BRV_D','SHSTKV_P','LGNV_E'],
         logo: 'rrc_2021.webp',
         major: true,
+        region: 'VLADIMIR',
         type: ['ROGAINE']
     },
     {
@@ -91,6 +95,20 @@ let otherMaps = [
         bounds: [[55.917035013373074, 39.34530258178712], [55.89437381256353, 39.544086456298835], [55.839084658820454, 39.316978454589844]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23267/',
         owner: 'OPNBND',
+        region: 'VLADIMIR',
+        type: ['ROGAINE']
+    },
+    // --- Дагестан ---
+    {
+        name: 'Куруш',
+        date: '2023-09-29',
+        url: './maps/other/kurush_rogaine_2023.webp',
+        link: './original_maps/other/kurush_rogaine_2023_omaps.webp',
+        info: 'Caspian Decompression.',
+        bounds: [[41.300572215425404, 47.81520366668702], [41.29138303247354, 47.88167953491212], [41.262646395123596, 47.80516147613526]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17390/',
+        start: 'ZM',
+        region: 'DAGESTAN',
         type: ['ROGAINE']
     },
     // --- Дальний Восток ---
@@ -116,13 +134,47 @@ let otherMaps = [
         region: 'DV'
     },
     {
-        name: 'Владивосток, Тавричанка',
+        name: 'Раздольное',
+        date: '2024-06-22',
+        url: './maps/dv/razdolnoe_rogaine_2024.webp',
+        link: './original_maps/dv/razdolnoe_rogaine_2024_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19794/',
+        bounds: [[43.607555821532756, 131.83670997619632], [43.61355283960057, 131.89280033111575], [43.556230469540495, 131.8473529815674]],
+        info: 'МТБ-рогейн.',
+        type: ['ROGAINE','VELO'],
+        author: 'ZRNV_J',
+        region: 'DV'
+    },
+    {
+        name: 'Тавричанка',
+        date: '2023-06-24',
+        url: './maps/dv/tavrichanka_mtb_rogaine_2023.webp',
+        link: './original_maps/dv/tavrichanka_mtb_rogaine_2023_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16531/',
+        info: 'МТБ-рогейн.',
+        bounds: [[43.36674806255099, 131.80366516113284], [43.38746020276136, 131.99558258056643], [43.27851756963258, 131.82349205017093]],
+        type: ['ROGAINE','VELO'],
+        region: 'DV'
+    },
+    {
+        name: 'Тавричанка',
         date: '2025-09-14',
         url: './maps/dv/tavrichanka_rogaine_2025.webp',
         link: './original_maps/dv/tavrichanka_rogaine_2025_omaps.webp',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23374/',
         info: 'Рогейн Надеждинский.',
         bounds: [[43.32236784363722, 131.81289196014407], [43.3268947382324, 131.84649467468265], [43.292856715659916, 131.82001590728763]],
+        type: ['ROGAINE'],
+        region: 'DV'
+    },
+    {
+        name: 'о Русский',
+        date: '2023-07-15',
+        url: './maps/dv/russky_island_rogaine_2023.webp',
+        link: './original_maps/dv/russky_island_rogaine_2023_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16781/',
+        info: 'Морской рогейн.',
+        bounds: [[43.0662542265824, 131.80074691772464], [43.074499361216205, 131.88962459564212], [42.97281558861603, 131.81722640991214]],
         type: ['ROGAINE'],
         region: 'DV'
     },
@@ -223,6 +275,17 @@ let otherMaps = [
         region: 'IRKUTSK',
         type: ['ROGAINE']
     },
+    {
+        name: 'Ершовский залив',
+        date: '2023-08-26',
+        url: './maps/other/ershovsky_rogaine_2023.webp',
+        link: './original_maps/other/ershovsky_rogaine_2023_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17068/',
+        info: 'Бегущие от медведя.',
+        bounds: [[52.216967993457835, 104.277720451355], [52.23245191414524, 104.33196544647218], [52.14507721706193, 104.33320999145509]],
+        region: 'IRKUTSK',
+        type: ['ROGAINE']
+    },
     // --- Калининградская обл ---
     {
         name: 'Матросовский лес',
@@ -311,6 +374,17 @@ let otherMaps = [
         bounds: [[56.072754061275596, 92.43647575378418], [56.07615520299828, 92.76288986206056], [55.95366905082329, 92.43986606597902]],
         type: ['ROGAINE'],
         major: true,
+        region: 'KRASNOYARSK'
+    },
+    {
+        name: 'р Базаиха',
+        date: '2023-09-23',
+        url: './maps/other/bazaiha_rogaine_2023.webp',
+        link: './original_maps/other/bazaiha_rogaine_2023_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17357/',
+        info: 'Торгашинские тропы.',
+        bounds: [[55.97636764167947, 92.77228832244874], [55.97663177969302, 92.87150859832765], [55.94143751970741, 92.77198791503908]],
+        type: ['ROGAINE'],
         region: 'KRASNOYARSK'
     },
     {
@@ -405,7 +479,7 @@ let otherMaps = [
         about: 'https://nn-rogaine.ru/op/osen-povolzhya',
         info: '14-й Чемпионат России по рогейну. Осень Поволжья 2017.',
         bounds: [[56.25345956009947, 43.27171325683594], [56.21925725344818, 43.5659408569336], [56.00529203821348, 43.17455291748047]],
-        author: ['BRV_D','SDNV_YU'],
+        author: ['BRV_D','SDNV_V'],
         type: ['ROGAINE'],
         major: true,
         region: 'N_NOVGOROD'
@@ -465,7 +539,19 @@ let otherMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20799/',
         info: 'ХХ Осень Поволжья.',
         bounds: [[56.18263603094131, 44.36725616455079], [56.14526260963143, 44.64963912963867], [56.10239617094439, 44.333438873291016]],
-        author: ['KRLV_A','SDNV_YU'],
+        author: ['KRLV_A','SDNV_V'],
+        type: ['ROGAINE'],
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Шава',
+        date: '2023-05-13',
+        url: './maps/other/shava_rogaine_2023.webp',
+        link: './original_maps/other/shava_rogaine_2023_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16089/',
+        info: 'От заката до рассвета.',
+        bounds: [[56.09871010711, 44.399528503417976], [56.08037028603752, 44.544153213500984], [56.048122758025954, 44.37704086303712]],
+        author: ['KRLV_A','SDNV_V'],
         type: ['ROGAINE'],
         region: 'N_NOVGOROD'
     },
@@ -539,6 +625,17 @@ let otherMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Серовский тракт',
+        date: '2023-07-29',
+        url: './maps/other/serovsky_trakt_rogaine_2023.webp',
+        link: './original_maps/other/serovsky_trakt_rogaine_2023_omaps.webp',
+        info: 'По болотам и по взгорьям. Шайтанская жесть.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16899/',
+        bounds: [[57.27106185433673, 60.27254104614258], [57.25370204250074, 60.45175552368165], [57.1617538654921, 60.239582061767585]],
+        region: 'EKB',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Исеть',
         date: '2025-04-19',
         url: './maps/other/iset_rogaine_2025.webp',
@@ -546,6 +643,17 @@ let otherMaps = [
         info: 'За подснежниками.',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22237/',
         bounds: [[56.992695781425326, 60.28172492980958], [56.979134094665014, 60.379915237426765], [56.934017661730735, 60.25477409362794]],
+        region: 'EKB',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Северка',
+        date: '2023-04-29',
+        url: './maps/other/severka_rogaine_2023.webp',
+        link: './original_maps/other/severka_rogaine_2023_omaps.webp',
+        info: 'За подснежниками.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/15906/',
+        bounds: [[56.93710828790621, 60.32258033752442], [56.92493161114104, 60.42428970336915], [56.863613248718856, 60.29271125793458]],
         region: 'EKB',
         type: ['ROGAINE']
     },

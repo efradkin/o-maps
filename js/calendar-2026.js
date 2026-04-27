@@ -986,6 +986,10 @@ let events2026 = [
         link: 'https://vk.com/wall-166397868_5268',
         reg: 'https://orgeo.ru/event/48937',
         photo: 'https://vk.ru/album-166397868_310913468',
+        gps: {
+            '1':'https://viewer.o-gps-center.ru/viewer/event/24859/',
+            '2':'https://viewer.o-gps-center.ru/viewer/event/24863/'
+        },
         type: 'ROGAINE',
         fmt: '4',
         map: 'toloni_2025',
@@ -1035,6 +1039,7 @@ let events2026 = [
         o_site: '260501',
         reg: 'http://orgeo.ru/event/info/52020',
         name: 'Приз газеты «Всеволожские вести»',
+        cancelled: true,
         type: 'ORIENT',
         map: 'garbolovo_2016',
     },
@@ -1055,7 +1060,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/52080',
         name: 'Сокол на крыльях ночи',
         type: 'ORIENT',
-        fmt: 'масстарт',
+        fmt: 'масстарт, ночное',
         map: 'orovo_2019',
         owner: 'WN'
     },
@@ -1156,6 +1161,7 @@ let events2026 = [
         date: '2026-05-16',
         name: 'Весенний водный рогейн',
         place: 'Вуокса',
+        o_site: '260517r',
         link: 'https://www.multsport.ru/starts/canoe-rogaine-2026/',
         reg: 'https://www.multsport.ru/starts/canoe-rogaine-2026/registration.html',
         type: ['ROGAINE','WATER'],

@@ -133,6 +133,17 @@ let pskovMaps = [
         owner: 'O_PSKOV',
     },
     {
+        name: 'Псков',
+        date: '2024-06-23',
+        url: './maps/pskov/pskov_rogaine_2024_06_03.webp',
+        link: './original_maps/pskov/pskov_rogaine_2024_06_03_omaps.webp',
+        info: 'Негативный рогейн.',
+        bounds: [[57.83684741732398, 28.324685096740726], [57.83227808564592, 28.3747673034668], [57.797440744291066, 28.312153816223148]],
+        author: 'GLTV_D',
+        owner: 'GLTV_D',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Псков, центр',
         year: 2003,
         url: './maps/pskov/pskov_kremlin_2003.webp',
@@ -224,6 +235,7 @@ let pskovMaps = [
         name: 'Будник',
         year: 2023,
         url: './maps/pskov/budnik_2023.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16195/',
         bounds: [[57.746014822304254, 28.41519355773926], [57.7421898565691, 28.45347404479981], [57.733095349640685, 28.410902023315433]],
         author: 'GLTV_D',
         owner: 'GLTV_D',

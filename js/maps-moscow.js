@@ -59,6 +59,15 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Куровское',
+        date: '2023-08-26',
+        url: './maps/moscow/ak/kurovskoe_rogaine_2023.webp',
+        link: './original_maps/moscow/ak/kurovskoe_rogaine_2023_omaps.webp',
+        bounds: [[55.75754880536109, 39.15441513061524], [55.706224094880426, 39.27972793579102], [55.60356606773666, 38.93863677978516]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17066/',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Электрогорск',
         date: '2025-10-04',
         url: './maps/moscow/ak/electrogorsk_compact_rogaine_2025.webp',

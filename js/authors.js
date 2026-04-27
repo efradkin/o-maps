@@ -913,7 +913,7 @@ let authors = {
     RKHMNKLV: { name: 'Рахманкулов Дамир' },
     RZNV_A: { name: 'Рязанов Алексей' },
     SCHGLV_A: { name: 'Щеглов А.' }, // И.
-    SDNV_YU: { name: 'Сиднев В.' }, // Ю.
+    SDNV_V: { name: 'Сиднев В.' }, // Ю.
     SHSTKV_P: { name: 'Шестаков Павел' },
     SKRSKY_A: { name: 'Сикорский А.' },
     SLMNV_G: { name: 'Селюминов Геннадий' },
@@ -933,6 +933,7 @@ let authors = {
     },
     ZHRDV_T: { name: 'Жердев Тимур' },
     ZRN_A: { name: 'Зорин А.' },
+    ZRNV_J: { name: 'Зернов Я.' },
 
     /* --- КНИГИ --- */
     BLAGOVO: {
