@@ -909,6 +909,7 @@ let authors = {
     NR_D: { name: '<a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>' },
     PNCHKV: { name: 'Панчуков С.' },
     PTPV_A: { name: 'Потопаев Александр' },
+    PLKTV_V: { name: 'Полуэктов В.' }, // С.
     RKHMNKLV: { name: 'Рахманкулов Дамир' },
     RZNV_A: { name: 'Рязанов Алексей' },
     SCHGLV_A: { name: 'Щеглов А.' }, // И.

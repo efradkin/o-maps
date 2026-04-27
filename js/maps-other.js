@@ -3,11 +3,25 @@ let otherMaps = [
     {
         name: 'Чернопятово',
         date: '2025-07-05',
+        area: 142,
         url: './maps/other/chernopiatovo_rogaine_2025.webp',
         link: './original_maps/other/chernopiatovo_rogaine_2025_omaps.webp',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23058/',
         info: 'Касмалинская долина.',
         bounds: [[53.455042490099736, 83.08444976806642], [53.44972690762585, 83.37060928344728], [53.337535936218956, 83.07947158813478]],
+        type: ['ROGAINE'],
+        author: ['SCHGLV_A'],
+        region: 'ALTAI'
+    },
+    {
+        name: 'Косиха',
+        date: '2024-07-06',
+        area: 198,
+        url: './maps/other/kosiha_rogaine_2024.webp',
+        link: './original_maps/other/kosiha_rogaine_2024_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19972/',
+        info: 'Косихинское раздолье.',
+        bounds: [[53.42303672152822, 84.38066482543947], [53.42927615888975, 84.69120025634767], [53.29261775598043, 84.38976287841798]],
         type: ['ROGAINE'],
         author: ['SCHGLV_A'],
         region: 'ALTAI'
@@ -196,6 +210,19 @@ let otherMaps = [
         bounds: [[52.02144466652407, 113.51992607116699], [52.0208372631053, 113.56056690216066], [51.994684688372, 113.51953983306886]],
         region: 'CHITA'
     },
+    // --- Иркутск ---
+    {
+        name: 'Одинск',
+        date: '2024-08-25',
+        url: './maps/other/odinsk_rogaine_2024.webp',
+        link: './original_maps/other/odinsk_rogaine_2024_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20260/',
+        info: 'Бегущие от медведя.',
+        bounds: [[52.47159283256492, 103.74715805053712], [52.460088812586164, 103.78217697143556], [52.43940016085153, 103.71810436248781]],
+        author: ['JASHPTRV','PZDV_S','PLKTV_V'],
+        region: 'IRKUTSK',
+        type: ['ROGAINE']
+    },
     // --- Калининградская обл ---
     {
         name: 'Матросовский лес',
@@ -333,12 +360,24 @@ let otherMaps = [
         region: 'MURMANSK'
     },
     {
-        name: 'Мурманск, Долина Уюта',
+        name: 'г Горелая',
+        date: '2024-08-24',
+        url: './maps/other/murmansk_gorelaya_rogaine_2024.webp',
+        link: './original_maps/other/murmansk_gorelaya_rogaine_2024_omaps.webp',
+        bounds: [[68.97056026223459, 33.04610252380372], [68.94889712166568, 33.21578979492188], [68.91807601090974, 33.00009727478028]],
+        info: 'Заполярный рогейн.',
+        region: 'MURMANSK',
+        start: 'ZM',
+        type: ['ROGAINE'],
+    },
+    {
+        name: 'Долина Уюта',
         year: 2022,
         date: '2023-09-23',
         url: './maps/other/murmansk_2023_09_23.webp',
         link: './original_maps/other/murmansk_2023_09_23_omaps.webp',
         info: 'Чемпионат России.',
+        major: true,
         bounds: [[68.96692554632965, 33.13141822814942], [68.96270482718478, 33.174505233764656], [68.93165617852857, 33.10223579406739]],
         author: ['SKRPKO_S','KVZN'],
         region: 'MURMANSK'
@@ -519,6 +558,19 @@ let otherMaps = [
         bounds: [[57.292541413168756, 59.9370288848877], [57.27375328497094, 60.08337020874024], [57.23038804230696, 59.910249710083015]],
         author: ['ASMLV_A','ASMLVA_O','BNDR_N','NCHKN','RZNV_A'],
         region: 'EKB',
+        type: ['ROGAINE']
+    },
+    // --- Тула ---
+    {
+        name: 'Домнино',
+        date: '2024-07-27',
+        url: './maps/other/domnino_rogaine_2024.webp',
+        link: './original_maps/other/domnino_rogaine_2024_omaps.webp',
+        bounds: [[54.71138342808065, 37.39557266235352], [54.699481521997534, 37.52406120300294], [54.606725590472, 37.36613273620606]],
+        info: 'Жаркий рогейн.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20103/',
+        start: 'ZM',
+        region: 'TULA',
         type: ['ROGAINE']
     },
     // --- Тверь ---

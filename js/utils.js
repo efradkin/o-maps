@@ -29,6 +29,9 @@ const regions = {
     DV: {
         name: 'Дальний Восток'
     },
+    IRKUTSK: {
+        name: 'Иркутская обл'
+    },
     KABARDA: {
         name: 'Кабардино-Балкария'
     },
@@ -117,8 +120,11 @@ const regions = {
     SPB: {
         name: 'С-Петербург'
     },
+    TULA: {
+        name: 'Тульская обл'
+    },
     TVER: {
-        name: 'Тверская область',
+        name: 'Тверская обл',
         logo: 'tver.webp'
     },
     FRA: {
