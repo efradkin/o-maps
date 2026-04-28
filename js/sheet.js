@@ -197,7 +197,7 @@ function buildName(m) {
         logo = logos[0];
     }
     if (logo) {
-        result += '<img src="./logo/' + logo + '" alt="" class="sheet-icon" /> ';
+        result += '<img src="./logo/' + logo + '" alt="Лого" class="sheet-icon" /> ';
     }
     if (m.outdated) {
         result += '<s>';

@@ -204,12 +204,12 @@ const LOGO_CAROUSEL_TEMPLATE = `
         <div id="logo-carousel" class="carousel carousel-dark slide">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./image_1" class="d-block popup-logo">
+                    <img src="./image_1" class="d-block popup-logo" alt="Лого">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./image_2" class="d-block popup-logo">
+                    <img src="./image_2" class="d-block popup-logo" alt="Лого">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
@@ -521,7 +521,7 @@ function buildLink(link, content, title, allItems, isDownload) {
                 let result = '';
                 for (const l of link) {
                     if (title === 'Видео') {
-                        content = `<img src="./images/${getVideoImg(l)}">`;
+                        content = `<img src="./images/${getVideoImg(l)}" alt="Видео">`;
                     }
                     result += ' ' + buildOneLink(l, content, title, isDownload);
                 }
@@ -566,7 +566,7 @@ function buildGpsLinks(m, img) {
                 }
             }
         } else {
-            result += buildLink(m.gps, '<img src="./images/' + (img ?? 'url-file.png') +'">');
+            result += buildLink(m.gps, '<img src="./images/' + (img ?? 'url-file.png') +'" alt="GPS">');
         }
     }
     return result;
@@ -576,11 +576,11 @@ function buildTrackDownloadLinks(t) {
     if (isObject(t.gpx)) {
         let result = '';
         for (const [name, gpx] of Object.entries(t.gpx)) {
-            result += buildLink(gpx, '<img src="images/download_24.png" style="width:12px" />', 'Скачать GPX-трек ' + name, false, true);
+            result += buildLink(gpx, '<img src="images/download_24.png" style="width:12px" alt="GPX" />', 'Скачать GPX-трек ' + name, false, true);
         }
         return result;
     } else {
-        return buildLink(t.gpx, '<img src="images/download_24.png" style="width:12px" />', 'Скачать GPX-трек', false, true);
+        return buildLink(t.gpx, '<img src="images/download_24.png" style="width:12px" alt="GPX" />', 'Скачать GPX-трек', false, true);
     }
 }
 
@@ -959,7 +959,7 @@ function authorLabel(author, withLogo) {
     if (author) {
         let name = author.name;
         if (withLogo && author.logo) {
-            name = '<img src="./logo/' + author.logo + '" alt="" class="sheet-icon" />&nbsp;' + name;
+            name = '<img src="./logo/' + author.logo + '" alt="Лого" class="sheet-icon" />&nbsp;' + name;
         }
         if (author.about) {
             return buildLink(author.about, name);
@@ -1311,13 +1311,13 @@ function buildEventStart(evt, withoutLogo) {
     let result = '';
 
     if (!withoutLogo && evt.russialoppet) {
-        result += '<img src="./logo/russialoppet.gif" alt="" class="sheet-icon" /> ';
+        result += '<img src="./logo/russialoppet.gif" alt="Лого" class="sheet-icon" /> ';
     }
 
     const logos = logoList(evt);
     let logo = (logos.length > 0 ? logos[0] : null);
     if (!withoutLogo && logo) {
-        result += '<img src="./logo/' + logo + '" alt="" class="sheet-icon" /> ';
+        result += '<img src="./logo/' + logo + '" alt="Лого" class="sheet-icon" /> ';
     }
 
     if (evt.link) {
@@ -1391,7 +1391,7 @@ function buildOneEventReg(reg) {
     } else if (reg.includes('russiarunning')) {
         return buildLink(reg, 'RR');
     }
-    return buildLink(reg, '<img src="./images/url-file.png" />');
+    return buildLink(reg, '<img src="./images/url-file.png" alt="Рега" />');
 }
 
 function buildEventResults(evt) {
@@ -1416,7 +1416,7 @@ function buildEventResults(evt) {
         } else if (evt.res.includes('hard')) {
             res += buildLink(evt.res, 'HARD');
         } else {
-            res += buildLink(evt.res, '<img src="./images/url-file.png" />');
+            res += buildLink(evt.res, '<img src="./images/url-file.png" alt="Результаты" />');
         }
     }
     if (evt.reskeep) {
@@ -1425,7 +1425,7 @@ function buildEventResults(evt) {
             reskeep = [evt.reskeep];
         }
         reskeep = reskeep.map(r => 'https://reskeep.ru/event/get?id=' + r);
-        res += buildLink(reskeep, ' <img src="./images/r-k.gif" />', 'Анализ сплитов', true);
+        res += buildLink(reskeep, ' <img src="./images/r-k.gif" alt="Reskeep" />', 'Анализ сплитов', true);
     }
     return res;
 }
@@ -1455,10 +1455,10 @@ function buildEventReports(evt, withGPS) {
         result += buildGpsLinks(evt, 'o-gps.gif');
     }
     if (evt.photo) {
-        result += ' ' + buildLink(evt.photo, '<img src="./images/photo-camera.png">', 'Фотографии', true);
+        result += ' ' + buildLink(evt.photo, '<img src="./images/photo-camera.png" alt="Фото">', 'Фотографии', true);
     }
     if (evt.video) {
-        result += ' ' + buildLink(evt.video, `<img src="./images/${getVideoImg(evt.video)}">`, 'Видео', true);
+        result += ' ' + buildLink(evt.video, `<img src="./images/${getVideoImg(evt.video)}" alt="Видео">`, 'Видео', true);
     }
     if (HAS_ME_PARAM && evt.strava) {
         let strava = evt.strava;
@@ -1467,7 +1467,7 @@ function buildEventReports(evt, withGPS) {
         } else {
             strava = 'https://www.strava.com/activities/' + strava;
         }
-        result += ' ' + buildLink(strava, '<img src="./images/strava_32.gif">', 'Strava', true);
+        result += ' ' + buildLink(strava, '<img src="./images/strava_32.gif" alt="Strava">', 'Strava', true);
     }
     return result;
 }
@@ -1573,12 +1573,12 @@ function buildFotos(t, root = 'tracks') {
     if (t.pics) {
         for (let p = 1; p <= t.pics[1]; p++) {
             let url = root + '/' + t.pics[0] + '/pic_' + p + '.jpg';
-            result += '<a href="#" onClick="openModal(' + picCounter++ + '); return false;"><img src="' + url + '" class="track-table-pic" /></a>';
+            result += '<a href="#" onClick="openModal(' + picCounter++ + '); return false;"><img src="' + url + '" class="track-table-pic" alt="Фото" /></a>';
             images.push(url);
         }
     }
     if (t.video) {
-        result += ' ' + buildLink(t.video, `<img src="./images/${getVideoImg(t.video)}" class="track-table-pic">`, 'Видео', true);
+        result += ' ' + buildLink(t.video, `<img src="./images/${getVideoImg(t.video)}" class="track-table-pic" alt="Видео">`, 'Видео', true);
     }
     return result;
 }

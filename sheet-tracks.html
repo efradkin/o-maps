@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.83">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>O-Maps. Маршруты</title>
     <meta name="description" content="O-Maps. Сводная таблица маршрутов Санкт-Петербурга и Ленинградской области.">
     <link rel="icon" type="image/png" href="favicon.png"/>
@@ -47,7 +47,7 @@
     <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
     <a href="tracks.html" onclick="return gotoMap('tracks.html')" target="_self" class="stat-map-link stat-map-link-right" title="Маршруты на карте" id="tracks_map_link"><img src="images/map_24.png" alt="Маршруты на карте" /></a>
 
-    <h2 class="text-center">O-Maps ◪ Маршруты</h2>
+    <h1 class="text-center">O-Maps ◪ Маршруты</h1>
 
     <div class="sheet-filters">
         <select id="track_type_selector" class="header_selector" onchange="updateUrlParam('track-type', this.value)">
@@ -75,7 +75,7 @@
             <option value="12">Декабрь</option>
         </select>
 
-        <img id="sheet-spinner" src="images/walk-spinner.gif" alt="" />
+        <img id="sheet-spinner" src="images/walk-spinner.gif" alt="Загрузка" />
     </div>
 
     <div class="o-sheet-roof" style="display: none">
@@ -240,7 +240,7 @@
             let result = '';
             const logos = logoList(t);
             if (logos.length > 0) {
-                result += '<img src="./logo/' + logos[0] + '" alt="" class="sheet-icon" />&nbsp;&nbsp;';
+                result += '<img src="./logo/' + logos[0] + '" alt="Лого" class="sheet-icon" />&nbsp;&nbsp;';
             }
             result += '<b><a href="' + trackLink(getFirstTrack(t), true) + '">' + t.name + '<a/></b>';
             return result;

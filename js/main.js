@@ -209,7 +209,7 @@ function buildTrackPopup(t, gpxLayer) {
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
     let markir = '';
     if (t.markir) {
-        markir += '<img src="./images/favorite.png" title="Маркированный маршрут" /> &nbsp;';
+        markir += '<img src="./images/favorite.png" title="Маркированный маршрут" alt="Маркир" /> &nbsp;';
     }
     let typesList = getTypesList(t, true);
     if (!typesList.length) {
@@ -231,7 +231,7 @@ function buildTrackPopup(t, gpxLayer) {
     } else {
         pic = './logo/o-maps.webp';
     }
-    result += '<img src="' + pic + '" alt="" class="popup-logo" /><div class="popup-text">';
+    result += '<img src="' + pic + '" alt="Лого" class="popup-logo" /><div class="popup-text">';
 
     // имя, ссылка, год и длина трека
     result += '<b>';
@@ -1214,7 +1214,7 @@ function buildMapPopup(m) {
         carousel = carousel.replace('image_2', logo[1]);
         result += carousel;
     } else if (logo.length > 0) {
-        result += '<img src="./' + logo[0] + '" alt="" class="popup-logo" />';
+        result += '<img src="./' + logo[0] + '" alt="Лого" class="popup-logo" />';
     }
     if (isMobile) {
         result += '<br />';
@@ -1305,7 +1305,7 @@ function buildMapPopup(m) {
 
     // GPS-трансляция
     if (m.gps) {
-        result += '<span class="gps-info"><img src="./images/o-gps.gif" /> ';
+        result += '<span class="gps-info"><img src="./images/o-gps.gif" alt="GPS" /> ';
         result += 'GPS-трансляция: ' + buildGpsLinks(m);
         result += '.</span><br />';
     }
@@ -1367,7 +1367,7 @@ function buildEventPopup(evt, m) {
         carousel = carousel.replace('image_2', logo[1]);
         result += carousel;
     } else if (logo.length === 1) {
-        result += '<img src="./' + logo[0] + '" alt="" class="popup-logo" />';
+        result += '<img src="./' + logo[0] + '" alt="Лого" class="popup-logo" />';
     }
     if (isMobile) {
         result += '<br />';
@@ -1413,7 +1413,7 @@ function buildEventPopup(evt, m) {
 
     // GPS-трансляция
     if (evt.gps) {
-        result += '<span class="gps-info"><img src="./images/o-gps.gif" /> ';
+        result += '<span class="gps-info"><img src="./images/o-gps.gif" alt="GPS" /> ';
         result += 'GPS-трансляция: ' + buildGpsLinks(evt);
         result += '.</span><br />';
     }
@@ -1453,7 +1453,7 @@ function buildAuthors(m, withIcon) {
             if (authors[a]) {
                 result += '<li>';
                 if (withIcon && authors[a].logo) {
-                    result += '<img src="./logo/' + authors[a].logo + '" alt="" class="sheet-icon" /> ';
+                    result += '<img src="./logo/' + authors[a].logo + '" alt="Лого" class="sheet-icon" /> ';
                 }
                 result += authorLabel(authors[a]);
                 if (m.areas) {
@@ -1468,7 +1468,7 @@ function buildAuthors(m, withIcon) {
     } else {
         if (authors[m.author]) {
             if (withIcon && authors[m.author].logo) {
-                result += '<img src="./logo/' + authors[m.author].logo + '" alt="" class="sheet-icon" /> ';
+                result += '<img src="./logo/' + authors[m.author].logo + '" alt="Лого" class="sheet-icon" /> ';
             }
             result += authorLabel(authors[m.author]) + '<br />';
             populateAuthor(m, m.author);
@@ -1485,7 +1485,7 @@ function buildEditors(m, withIcon) {
             if (authors[a]) {
                 result += '<li>';
                 if (withIcon && authors[a].logo) {
-                    result += '<img src="./logo/' + authors[a].logo + '" alt="" class="sheet-icon" /> ';
+                    result += '<img src="./logo/' + authors[a].logo + '" alt="Лого" class="sheet-icon" /> ';
                 }
                 result += authorLabel(authors[a]);
                 if (m.areas) {
@@ -1500,7 +1500,7 @@ function buildEditors(m, withIcon) {
     } else {
         if (authors[m.editor]) {
             if (withIcon && authors[m.editor].logo) {
-                result += '<img src="./logo/' + authors[m.editor].logo + '" alt="" class="sheet-icon" /> ';
+                result += '<img src="./logo/' + authors[m.editor].logo + '" alt="Лого" class="sheet-icon" /> ';
             }
             result += authorLabel(authors[m.editor]) + '<br />';
             //populateeditor(m, m.editor);
@@ -1522,7 +1522,7 @@ function buildOwners(m, withIcon) {
     } else {
         if (owners[m.owner]) {
             if (withIcon && owners[m.owner].logo) {
-                result += '<img src="./logo/' + owners[m.owner].logo + '" alt="" class="sheet-icon" /> ';
+                result += '<img src="./logo/' + owners[m.owner].logo + '" alt="Лого" class="sheet-icon" /> ';
             }
             result += owners[m.owner].name + '<br />';
         }
@@ -1550,7 +1550,7 @@ function buildDownloadLinks(link, links) {
             if (index > 0) {
                 result += ', ';
             }
-            result += '<a href="' + value + '" class="ext-link" title="Скачать" target="_blank"><img src="./images/' + downloadIconExt(value) + '-file.png" /></a>';
+            result += '<a href="' + value + '" class="ext-link" title="Скачать" target="_blank"><img src="./images/' + downloadIconExt(value) + '-file.png" alt="Скачать" /></a>';
         })
     }
     return result;

@@ -893,7 +893,7 @@ let authors = {
     GRBNKO: { name: 'Горбенко Данила' },
     GSMNV_R: { name: 'Гусманов Р.' },
     IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
-    KKRV_S: { name: 'Кокарев С.' },
+    KKRV_S: { name: 'Кокарев Степан' },
     KLM_K: { name: 'Калм К.' },
     KNTSVCH: { name: 'Кунцевич Г.' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },

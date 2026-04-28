@@ -422,18 +422,6 @@ body.sub-index-body {
     h1 {
         width: 100%;
         text-align: center;
-        margin-bottom: 0;
-        label {
-            font-size: .5em;
-            margin-right: -25px;
-            margin-left: 30px;
-            position: relative;
-            top: -5px;
-        }
-    }
-    h2 {
-        width: 100%;
-        text-align: center;
     }
 }
 #sheet-spinner {
@@ -470,7 +458,7 @@ body.sub-index-body {
 .o-sheet-wrapper {
     overflow-y: auto;
     width: 100%;
-    height: calc(100vh - 125px);
+    height: calc(100vh - 135px);
 
     thead th {
         position: sticky;
@@ -481,10 +469,10 @@ body.sub-index-body {
     }
 }
 .o-sheet-wrapper-wo-filters {
-    height: calc(100vh - 110px);
+    height: calc(100vh - 120px);
 }
 .o-sheet-maps-on-stroe-wrapper {
-    height: calc(100vh - 235px);
+    height: calc(100vh - 245px);
 }
 .sheet-icon {
     width: 20px;
