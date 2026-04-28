@@ -1016,6 +1016,7 @@ let events2026 = [
         o_site: '260426',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1726',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24849/',
+        photo: 'https://vk.com/album-230167293_313365421',
         reskeep: 881,
         type: 'ORIENT',
         fmt: 'спринт',
@@ -1215,6 +1216,7 @@ let events2026 = [
         date: '2026-05-23',
         endDate: '2026-05-24',
         name: 'Международные соревнования',
+        o_site: 'velo2026',
         type: 'VELO',
         fmt: 'классика, масстарт',
         owner: 'SFSO_SPB'

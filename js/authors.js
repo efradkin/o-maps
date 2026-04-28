@@ -893,6 +893,7 @@ let authors = {
     GRBNKO: { name: 'Горбенко Данила' },
     GSMNV_R: { name: 'Гусманов Р.' },
     IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
+    KKRV_S: { name: 'Кокарев С.' },
     KLM_K: { name: 'Калм К.' },
     KNTSVCH: { name: 'Кунцевич Г.' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },
@@ -909,10 +910,12 @@ let authors = {
     NR_D: { name: '<a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>' },
     PNCHKV: { name: 'Панчуков С.' },
     PTPV_A: { name: 'Потопаев Александр' },
+    PTPV_AN: { name: 'Потопаев Андрей' },
     PLKTV_V: { name: 'Полуэктов В.' }, // С.
     RKHMNKLV: { name: 'Рахманкулов Дамир' },
     RZNV_A: { name: 'Рязанов Алексей' },
     SCHGLV_A: { name: 'Щеглов А.' }, // И.
+    SCHV_S: { name: 'Сычов Сергей' },
     SDNV_V: { name: 'Сиднев В.' }, // Ю.
     SHSTKV_P: { name: 'Шестаков Павел' },
     SKRSKY_A: { name: 'Сикорский А.' },
@@ -922,6 +925,7 @@ let authors = {
     SPLKV: { name: 'Сопляков С.' },
     SRV_A: { name: 'Серов Александр' }, // Калуга
     TRFNV_A: { name: 'Труфанов Александр' }, // Федорович
+    TRNTSVA_M: { name: 'Туринцева Маргарита' },
     YURDK: { name: 'Юрдик В.' },
     VYLNN_L: {
         name: 'Лийса Вейялайнен (Liisa Veijalainen)',

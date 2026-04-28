@@ -98,6 +98,17 @@ let otherMaps = [
         region: 'VLADIMIR',
         type: ['ROGAINE']
     },
+    // --- Вологодская обл ---
+    {
+        name: 'Череповец',
+        date: '2023-04-16',
+        url: './maps/other/cherepovets_rogaine_2023.webp',
+        link: './original_maps/other/cherepovets_rogaine_2023_omaps.webp',
+        bounds: [[59.14790153290733, 37.89922714233399], [59.14754940300838, 37.9944133758545], [59.110952171795766, 37.898111343383796]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/15610/',
+        region: 'VOLOGDA',
+        type: ['ROGAINE']
+    },
     // --- Дагестан ---
     {
         name: 'Куруш',
@@ -164,6 +175,17 @@ let otherMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23374/',
         info: 'Рогейн Надеждинский.',
         bounds: [[43.32236784363722, 131.81289196014407], [43.3268947382324, 131.84649467468265], [43.292856715659916, 131.82001590728763]],
+        type: ['ROGAINE'],
+        region: 'DV'
+    },
+    {
+        name: 'о Русский',
+        date: '2022-11-12',
+        url: './maps/dv/russky_island_rogaine_2022.webp',
+        link: './original_maps/dv/russky_island_rogaine_2022_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/14596/',
+        info: 'Чемпионат ДВФО.',
+        bounds: [[43.06010884219939, 131.84293270111087], [43.06822939788033, 131.9241285324097], [42.95265336997114, 131.86160087585452]],
         type: ['ROGAINE'],
         region: 'DV'
     },
@@ -363,6 +385,17 @@ let otherMaps = [
         logo: 'rrc_2025.gif',
         region: 'KOSTROMA'
     },
+    // --- Коми ---
+    {
+        name: 'Сыктывкар',
+        date: '2020-09-27',
+        url: './maps/other/syktyvkar_rogaine_2020.webp',
+        link: './original_maps/other/syktyvkar_rogaine_2020_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/8224/',
+        bounds: [[61.68038655384103, 50.70439338684083], [61.66662107789713, 50.78550338745118], [61.627041737353295, 50.6645679473877]],
+        type: ['ROGAINE'],
+        region: 'KOSTROMA'
+    },
     // --- Красноярский край ---
     {
         name: 'Красноярск',
@@ -555,6 +588,28 @@ let otherMaps = [
         type: ['ROGAINE'],
         region: 'N_NOVGOROD'
     },
+    // --- Новосибирск ---
+    {
+        name: 'Новосибирск',
+        date: '2022-08-20',
+        url: './maps/other/novosib_rogaine_2022.webp',
+        link: './original_maps/other/novosib_rogaine_2022_omaps.webp',
+        info: 'Удачный Рогейн.',
+        bounds: [[54.96884480230774, 83.05698394775392], [54.97588960623089, 83.22246551513673], [54.87018651354342, 83.06934356689455]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/13894/',
+        type: ['ROGAINE'],
+        region: 'NSK'
+    },
+    {
+        name: 'Бердск',
+        date: '2022-07-23',
+        url: './maps/other/berdsk_rogaine_2022.webp',
+        link: './original_maps/other/berdsk_rogaine_2022_omaps.webp',
+        bounds: [[54.900697751009574, 83.08410644531251], [54.89625580429826, 83.40734481811525], [54.730964378350336, 83.06659698486328]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/13668/',
+        type: ['ROGAINE'],
+        region: 'NSK'
+    },
     // --- Оренбург ---
     {
         name: 'парк Ивушка',
@@ -665,6 +720,51 @@ let otherMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20751/',
         bounds: [[57.292541413168756, 59.9370288848877], [57.27375328497094, 60.08337020874024], [57.23038804230696, 59.910249710083015]],
         author: ['ASMLV_A','ASMLVA_O','BNDR_N','NCHKN','RZNV_A'],
+        region: 'EKB',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Екатеринбург, л/п Лесоводов России',
+        date: '2022-12-24',
+        url: './maps/other/ekb_lesovodov_rogaine_2022.webp',
+        link: './original_maps/other/ekb_lesovodov_rogaine_2022_omaps.gif',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/14756/',
+        info: 'Зимний рогейн МОРОЗКО.',
+        bounds: [[56.81835698197009, 60.64521789550782], [56.81751142754765, 60.71439743041993], [56.76128626500326, 60.643672943115234]],
+        region: 'EKB',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Уктус',
+        date: '2020-04-25',
+        url: './maps/other/uktus_rogaine_2020.webp',
+        link: './original_maps/other/uktus_rogaine_2020_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/7436/',
+        bounds: [[56.77871285344666, 60.61449050903321], [56.779488748166244, 60.67684650421143], [56.725561182888775, 60.616850852966316]],
+        region: 'EKB',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Ревда, Восточный',
+        date: '2019-09-28',
+        url: './maps/other/vostochny_rogaine_2019.webp',
+        link: './original_maps/other/vostochny_rogaine_2019_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/6490/',
+        info: 'Моторогейн Каменный пояс.',
+        bounds: [[56.82347687611756, 59.92964744567872], [56.803815486490315, 60.105514526367195], [56.69564650690871, 59.881753921508796]],
+        author: 'KKRV_S',
+        region: 'EKB',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Сысерть',
+        date: '2022-04-30',
+        url: './maps/other/sysert_rogaine_2022.webp',
+        link: './original_maps/other/sysert_rogaine_2022_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/12874/',
+        info: 'Самоцветные дали.',
+        bounds: [[56.515090191772835, 60.718517303466804], [56.49931793613863, 60.831127166748054], [56.44370752974828, 60.68538665771485]],
+        author: ['TRNTSVA_M','SCHV_S','PTPV_AN','PTPV_A'],
         region: 'EKB',
         type: ['ROGAINE']
     },

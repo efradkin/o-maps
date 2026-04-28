@@ -21,6 +21,9 @@ const regions = {
     VLADIMIR: {
         name: 'Владимирская обл',
     },
+    VOLOGDA: {
+        name: 'Вологодская обл',
+    },
     GLNDZHK: {
         name: 'Геленджик',
         logo: 'gelendzhik.gif'
@@ -90,6 +93,10 @@ const regions = {
     NVRSYSK: {
         name: 'Новороссийск',
         logo: 'novorossiysk.gif'
+    },
+    NSK: {
+        name: 'Новосибирск',
+        logo: 'nsk_orient.webp'
     },
     ORENBURG: {
         name: 'Оренбург',

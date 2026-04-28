@@ -480,6 +480,8 @@ let bashMaps = [
         bounds: [[53.591689719761675, 56.06254577636719], [53.58119404085943, 56.14837646484376], [53.495909347301925, 56.02838516235352]],
         author: ['YUSHV_A','ZKHRV_VD','FDRV_S','SLTNBKV'],
         owner: 'YUSHV_A',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/8061/',
+        info: 'Первый Чемпионат Республики Башкортостан по рогейну.',
         logo: 'bash_rogaine.webp',
         type: ['ROGAINE']
     },
