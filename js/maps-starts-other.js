@@ -421,7 +421,23 @@ let otherStartsMaps = [
         link: ['https://psv4.userapi.com/s/v1/d2/TFkhOjWRZ2ujyVbtRG-2FigchFvHMPPX-iqGcvy06UPXzxxIMljikOlH4CJJxqfrq89NBaINY9J8fOVOlnSjhOu_GVxN3zbdJiUVrGieFChD8Zgr0tambecOGP7anUvWKyEKfg0Z5iYr/KKM_10_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/CTqusFJuEj5rge20tJwtMEXPLyoXB3RS3jX_bFuVng3TAV171JFRhrj9pw9mBVZFagNM00W0Z03K8OA_oKuIrahO4717ZGaXMIJiw0bEeJbx5Z4lA2foYOW-3VeV3x-do4HMz74Nkvog/SETKA_10_2025.jpg?dl=1'],
         bounds: [[59.95754561322883, 30.227165222167972], [59.957588583610786, 30.30664443969727], [59.91859154627015, 30.22673606872559]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23476/',
+        start: 'KKM',
+        page: 'starts',
         start: ['VO_FOTO','KKM'],
+        owner: 'RYZHOV',
+        type: ['FOTO','ROGAINE']
+    },
+    {
+        name: 'Крестовский',
+        date: '2026-05',
+        about: 'https://vk.com/wall-227807023_465',
+        info: 'Май, фото-рогейн.',
+        url: './maps/rogaine/kkm/krestovsky_KKM_2026_06.webp',
+        link: ['https://psv4.userapi.com/s/v1/d2/eAfFWqdmWnEkzcNHn2fs-XlCgXyFdmhDwp0exo50AreBFyFp2YveEGjph9ugnAnQiAVQKm2EBOSN1H1cwKzwug4kli89DzMmCedro5KihWUuuKQEJNfxFeWhbbBaHXNwcX2Etw-I_9gF/KKM_5_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/PT-9-DkGLoZluvSxDea6IgQIWaSVSyPcMu_Av0kqJIcPo_TjjdluqTSm516m9v560bg3gr8A9-_VLGwv8QGcLVVNOatlsedxt_bJiVZ2rzkcCda5eYAUbrCmYQHsk89FoHxVeAQs7--J/SETKA_5_2026.jpg?dl=1'],
+        bounds: [[59.98286698931028, 30.20974159240723], [59.98275964521249, 30.30608654022217], [59.96495717991064, 30.20995616912842]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24877/',
+        start: ['VO_FOTO','KKM'],
+        page: 'starts',
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },

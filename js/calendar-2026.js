@@ -1017,6 +1017,7 @@ let events2026 = [
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1726',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24849/',
         photo: 'https://vk.com/album-230167293_313365421',
+        video: 'https://rutube.ru/video/2776951686b80eb4cdb4d053609e1c47/',
         reskeep: 881,
         type: 'ORIENT',
         fmt: 'спринт',
