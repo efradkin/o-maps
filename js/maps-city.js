@@ -875,12 +875,15 @@ let cityMaps = [
         type: ['CITY']
     },
     {
-        name: 'Петергоф, СПбГУ',
-        year: 2024,
-        url: './maps/city/peterhof_spbgu_2024.webp',
-        bounds: [[59.88427539528826, 29.82543468475342], [59.88230509530967, 29.843544960021976], [59.878461059145124, 29.822881221771244]],
+        name: 'Петергоф, ПУНК СПбГУ',
+        year: 2026,
+        url: './maps/city/peterhof_spbgu_2026.webp',
+        link: './original_maps/city/peterhof_spbgu_2026_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24835/',
+        bounds: [[59.88760203013298, 29.816358089447025], [59.8845230203562, 29.84466075897217], [59.877793422122956, 29.81219530105591]],
         author: 'SVCHK',
-        type: ['CITY']
+        owner: 'FLTV',
+        type: ['CITY','PARK']
     },
     {
         name: 'Академическая',

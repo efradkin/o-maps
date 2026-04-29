@@ -79,7 +79,13 @@ let owners = {
         logo: 'ingria.gif'
     },
     IMPULS: {
-        name: '© АНО ОПОРА СО СПб и ЛО "Импульс". Контакт для связи: info@impulsnko.ru.'
+        name: '© АНО ОПОРА СО СПб и ЛО "Импульс". Контакт для связи: info@impulsnko.ru.',
+        logo: 'impuls.gif'
+    },
+    FLTV: {
+        name: 'По вопросам использования карты обращайтесь к Владимиру Филатову в <a href="https://vk.com/vladimirfilatov">ВК</a>, ' +
+            '<a href="https://t.me/vkfilatov">Telegram</a> или <a href="mailto:vova.filatov@gmail.com">vova.filatov@gmail.com</a>.',
+        logo: 'impuls.gif'
     },
     ILVS: {
         name: '© Константин Ильвес - <a href="https://vk.com/sport_for_oll">ВК</a>.'

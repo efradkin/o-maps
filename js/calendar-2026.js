@@ -973,7 +973,7 @@ let events2026 = [
         info: 'Тест бесконтактной SFR-отметки.',
         type: 'ORIENT',
         fmt: 'гроздь',
-        map: 'peterhof_spbgu_2024',
+        map: 'peterhof_spbgu',
         strava: 18250178408,
         me: 'М50',
         owner: 'SFSO_SPB'
@@ -1081,10 +1081,11 @@ let events2026 = [
         id: 'SPB_20260502_2',
         date: '2026-05-02',
         name: 'Мемориал Ирины Вилениновны Степановой',
-        place: 'Петяярви',
+        place: 'Сосново, оз Уловное',
         o_site: '260502',
         link: 'https://hardadventure.ru/orient2026',
         reg: 'https://orgeo.ru/event/51138',
+        info: '❗️❗️❗️ В связи с отказом в согласовании старта ООПТ, центр соревнований перенесён.',
         type: 'ORIENT',
         fmt: 'классика',
         start: 'HARD'
