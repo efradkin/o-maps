@@ -1073,6 +1073,7 @@ let events2026 = [
         o_site: '260502R',
         reg: 'http://orgeo.ru/event/49018',
         name: 'Горный кросс-113',
+        photo: 'https://vk.com/album-31941981_310728408',
         type: 'ROGAINE',
         fmt: '5(4), 2',
         map: 'luga_omchino_gk_2023',
@@ -1086,7 +1087,8 @@ let events2026 = [
         o_site: '260502',
         link: 'https://hardadventure.ru/orient2026',
         reg: 'https://orgeo.ru/event/51138',
-        info: '❗️❗️❗️ В связи с отказом в согласовании старта ООПТ, центр соревнований перенесён.',
+        info: 'В связи с отказом в согласовании старта ООПТ, центр соревнований перенесён.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24904/',
         type: 'ORIENT',
         fmt: 'классика',
         start: 'HARD'
@@ -1098,8 +1100,13 @@ let events2026 = [
         place: 'Пухтолова гора',
         o_site: '260503_100kp',
         reg: 'https://orgeo.ru/event/50962',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24907/',
+        info: '<a href="https://100kp.o-route.ru/">Треки участников</a>.',
         type: 'ORIENT',
         fmt: 'выбор',
+        map: 'pukhtolova_gora_2025',
+        strava: 18357096800,
+        me: 'МВ'
     },
     {
         id: 'SPB_20260507_1',

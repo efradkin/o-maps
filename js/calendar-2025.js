@@ -3095,7 +3095,7 @@ let events2025 = [
         map: 'politekh_2022',
         owner: 'SFSO_SPB',
         planner: 'ZMLKV_A',
-        info: '<a href="http://o-route.ru/">Треки участников</a>',
+        info: '<a href="http://o-route.ru/">Треки участников</a>.',
         reskeep: 831
     },
     {
