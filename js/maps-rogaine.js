@@ -112,7 +112,7 @@ let rogaineMaps = [
         info: 'VI Чемпионат России по рогейну.',
         o_site: '090530_rog',
         url: './maps/rogaine/kuznechnoe_2009.webp',
-        link: './original_maps/rogaine/kuznechnoe_2009_omaps.jpg',
+        link: ['./original_maps/rogaine/kuznechnoe_2009_omaps.jpg','./original_maps/rogaine/kuznechnoe_rogaine_gk_2015_omaps.webp'],
         bounds: [[61.19538604557029, 29.662742614746097], [61.194889777986376, 29.914054870605472], [61.04831536461298, 29.662055969238285]],
         owner: 'GORNY_CROSS',
         type: ['ROGAINE'],

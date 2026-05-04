@@ -215,6 +215,17 @@ let mmsStartsMaps = [
         planner: 'TLNV_A'
     },
     {
+        name: 'Сосново, 78-й км',
+        start: 'MMS',
+        date: '2006-06-23',
+        o_site: '06062225_MS',
+        url: './maps/starts/mms/mms_2006_06_23.webp',
+        link: './original_maps/starts/mms/mms_2006_06_23_omaps.webp',
+        bounds: [[60.611363908948704, 30.215106010437015], [60.60927891271937, 30.238537788391117], [60.60089544720372, 30.212187767028812]],
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
+        planner: 'TLNV_A'
+    },
+    {
         name: 'Ягодное',
         start: 'MMS',
         date: '2007-06-24',
