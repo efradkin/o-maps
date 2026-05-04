@@ -607,6 +607,7 @@ let events2015 = [
         date: '2015-06-16',
         endDate: '2015-06-21',
         name: 'Фестиваль «Белые Ночи»',
+        place: 'Мичуринское',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/15061621/150616_split.htm',
         owner: 'WN',

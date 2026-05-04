@@ -918,6 +918,7 @@ let authors = {
     SCHV_S: { name: 'Сычов Сергей' },
     SDNV_V: { name: 'Сиднев В.' }, // Ю.
     SHSTKV_P: { name: 'Шестаков Павел' },
+    SHTMPLR: { name: 'Штемплер Е.' },
     SKRSKY_A: { name: 'Сикорский А.' },
     SLMNV_G: { name: 'Селюминов Геннадий' },
     SMRNV_K: { name: 'Смирнов Кирилл' },

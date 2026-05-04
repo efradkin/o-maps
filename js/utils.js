@@ -141,6 +141,9 @@ const regions = {
         name: 'Тверская обл',
         logo: 'tver.webp'
     },
+    UKR: {
+        name: 'Украина'
+    },
     FRA: {
         name: 'Франция'
     },

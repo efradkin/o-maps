@@ -612,6 +612,7 @@ let events2017 = [
         date: '2017-06-02',
         endDate: '2017-06-08',
         name: 'Неделя ориентирования «Белые Ночи на Воробьевом озере»',
+        place: 'Воробьёво оз',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/17060204/170602_res.htm',

@@ -88,7 +88,7 @@ let forestMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/tsvelodubovo_1995.webp',
-        link: ['./original_maps/forest/tsvelodubovo_1995_omaps.jpg','./original_maps/forest/tsvelodubovo_1995_clean_omaps.webp'],
+        link: ['./original_maps/forest/tsvelodubovo_1995_omaps.jpg','./original_maps/forest/tsvelodubovo_wn_1995_omaps.webp','./original_maps/forest/tsvelodubovo_1995_clean_omaps.webp'],
         results: './docs/1995/1995_06_23_wn_omaps.pdf',
         bounds: [[60.394904169693135, 29.55356597900391], [60.39036683870487, 29.6257495880127], [60.363002240852744, 29.548501968383793]],
         author: 'MLVA_M'

@@ -195,6 +195,15 @@ let parkMaps = [
     },
     {
         name: 'Сосновка',
+        year: 1,
+        url: './maps/parks/sosnovka_len_tv.webp',
+        link: './original_maps/parks/sosnovka_len_tv_omaps.jpg',
+        info: 'Приз Ленинградского ТВ.',
+        bounds: [[60.033215891504256, 30.331535339355472], [60.031522394419895, 30.369172096252445], [60.011965862971266, 30.327286720275882]],
+        type: ['PARK']
+    },
+    {
+        name: 'Сосновка',
         year: 1975,
         logo: 'len_iskry.jpg',
         url: './maps/parks/sosnovka_1975.webp',

@@ -106,7 +106,7 @@ let ksStartsMaps = [
         start: 'KS',
         date: '2002-06-25',
         url: './maps/starts/ks/ks_2002_06_25.webp',
-        link: './original_maps/starts/ks/ks_2002_06_25_omaps.jpg',
+        link: ['./original_maps/starts/ks/ks_2002_06_25_omaps.jpg','./original_maps/starts/ks/ks_2002_06_26_omaps.webp'],
         bounds: [[61.09995923220602, 29.88388538360596], [61.096101309221766, 29.924697875976566], [61.072943888383556, 29.87345695495606]],
         author: ['KVZN','KUZNTSV_S','NSNV','SHRNN']
     },

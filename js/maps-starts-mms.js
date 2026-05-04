@@ -137,6 +137,16 @@ let mmsStartsMaps = [
     {
         name: 'Каменногорск, Новинское оз',
         start: 'MMS',
+        date: '2003-06-28',
+        url: './maps/starts/mms/mms_2003_06_28.webp',
+        link: './original_maps/starts/mms/mms_2003_06_28_omaps.webp',
+        bounds: [[60.99383003430523, 29.159388542175297], [60.99065637921868, 29.195823669433597], [60.98070673706779, 29.15522575378418]],
+        author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV'],
+        planner: 'TLNV_A'
+    },
+    {
+        name: 'Каменногорск, Новинское оз',
+        start: 'MMS',
         date: '2003-06-29',
         url: './maps/starts/mms/mms_2003_06_29.webp',
         link: './original_maps/starts/mms/mms_2003_06_29.jpg',

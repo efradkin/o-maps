@@ -118,7 +118,7 @@ let sosnovoMaps = [
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/koloskovo_1998.webp',
-        link: ['./original_maps/forest/sosnovo/koloskovo_1998_clean_omaps.webp','./original_maps/forest/sosnovo/koloskovo_1998_omaps.jpg','./original_maps/forest/sosnovo/koloskovo_1998_06_20_wn_omaps.webp'],
+        link: ['./original_maps/forest/sosnovo/koloskovo_1998_clean_omaps.webp','./original_maps/forest/sosnovo/koloskovo_1998_omaps.jpg','./original_maps/forest/sosnovo/koloskovo_1998_06_20_wn_omaps.webp','./original_maps/forest/sosnovo/koloskovo_199x_wn_clean_omaps.webp','./original_maps/forest/sosnovo/koloskovo_199x_wn_h21_omaps.webp'],
         bounds: [[60.6301017662667, 30.169658660888675], [60.62509203460731, 30.244503021240238], [60.604539783918085, 30.16227722167969]],
         results: './docs/1998/1998_06_19_wn_omaps.pdf',
         author: ['KAZNTSVA_O','MLVA_M']
@@ -277,7 +277,7 @@ let sosnovoMaps = [
         name: 'Сосново, Чёрный лес',
         year: 1996,
         url: './maps/forest/sosnovo/sosnovo_black_forest_1986.webp',
-        link: './original_maps/forest/sosnovo/sosnovo_black_forest_1996_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/sosnovo_black_forest_1996_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_black_forest_he_1996_omaps.webp'],
         bounds: [[60.54052506459614, 30.245018005371097], [60.53744342689857, 30.319004058837894], [60.508470137955726, 30.241327285766605]],
         author: 'SHRNN',
         start: 'CISM_96'
@@ -375,7 +375,7 @@ let sosnovoMaps = [
         start: 'YM',
         page: 'spb',
         url: './maps/forest/sosnovo/snegirevka_1999.webp',
-        link: './original_maps/forest/sosnovo/snegirevka_1999_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/snegirevka_1999_omaps.jpg','./original_maps/forest/sosnovo/snegirevka_1999_clean_omaps.webp'],
         bounds: [[60.53761229135715, 30.26119709014893], [60.53512145125236, 30.3178882598877], [60.515251196823, 30.259051322937015]],
         author: 'SHRNN'
     },

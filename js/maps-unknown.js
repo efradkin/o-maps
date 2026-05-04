@@ -236,4 +236,9 @@ let unknownMaps = [
         link: './original_maps/unknown/unknown_74_omaps.webp',
         bounds: [[58.572653, 31.843187]]
     },
+    {
+        name: 'Кавголово',
+        year: 1,
+        link: './original_maps/unknown/unknown_75_omaps.webp',
+    },
  ];

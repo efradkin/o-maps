@@ -1114,6 +1114,17 @@ let otherMaps = [
 
     // --- Не Россия ---
     {
+        name: 'Украина, Черновцы',
+        date: '1985-08-25',
+        major: true,
+        url: './maps/other/chernovtsy_1985.webp',
+        link: './original_maps/other/chernovtsy_1985_omaps.webp',
+        info: '22-26 августа. Чемпионат СССР.',
+        bounds: [[48.1845155776972, 25.829308032989506], [48.18236954911603, 25.86879014968872], [48.13859959165873, 25.823428630828857]],
+        author: 'SHTMPLR',
+        region: 'UKR'
+    },
+    {
         name: 'Казахстан, Каркаралинск',
         year: 1986,
         major: true,

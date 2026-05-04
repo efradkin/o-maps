@@ -71,6 +71,15 @@ let naStartsMaps = [
     {
         name: 'Борисово',
         start: 'NA',
+        date: '2007-06-15',
+        o_site: '070615',
+        url: './maps/starts/na/na_2007_06_15.webp',
+        link: './original_maps/starts/na/na_2007_06_15_omaps.webp',
+        bounds: [[60.625618303506336, 29.93752956390381], [60.622692139562766, 29.971818923950195], [60.61260641839703, 29.933753013610843]],
+    },
+    {
+        name: 'Борисово',
+        start: 'NA',
         date: '2007-06-16',
         o_site: '070615',
         url: './maps/starts/na/na_2007_06_16.webp',

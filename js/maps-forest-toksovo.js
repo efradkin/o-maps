@@ -30,7 +30,7 @@ let toksovoMaps = [
         year: 1985,
         area: 8.6,
         url: './maps/forest/toksovo/hepojarvi_east_1985.webp',
-        link: './original_maps/forest/toksovo/hepojarvi_east_1985_omaps.jpg',
+        link: './original_maps/forest/toksovo/hepojarvi_east_1985_omaps.webp',
         bounds: [[60.19342537315118, 30.609111785888675], [60.18996939397238, 30.662240982055668], [60.14898192089998, 30.59872627258301]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','AZBKNA','KLCHTSKA','RDKV'],
         areas: [40,40,10,5,5]
@@ -101,7 +101,7 @@ let toksovoMaps = [
         name: 'оз Тинускеньярви',
         year: 1984,
         url: './maps/forest/toksovo/tinjuskenjarvi_1984.webp',
-        link: './original_maps/forest/toksovo/tinjuskenjarvi_1984_omaps.jpg',
+        link: './original_maps/forest/toksovo/tinjuskenjarvi_1984_omaps.webp',
         bounds: [[60.265022945174344, 30.547142028808597], [60.26136162888228, 30.601902008056644], [60.231204060878355, 30.5390739440918]],
         author: 'BYMKV'
     },
@@ -116,7 +116,7 @@ let toksovoMaps = [
         name: 'Ново-Токсово - оз Лассылампи',
         year: 1984,
         url: './maps/forest/toksovo/lassylampi_1984.webp',
-        link: './original_maps/forest/toksovo/lassylampi_1984_omaps.jpg',
+        link: './original_maps/forest/toksovo/lassylampi_1984_omaps.webp',
         bounds: [[60.243219301102904, 30.563192367553714], [60.24108926071485, 30.607137680053714], [60.212192237555385, 30.555381774902347]],
         author: 'BYMKV'
     },

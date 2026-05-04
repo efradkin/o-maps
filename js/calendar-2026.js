@@ -1088,6 +1088,7 @@ let events2026 = [
         link: 'https://hardadventure.ru/orient2026',
         reg: 'https://orgeo.ru/event/51138',
         info: 'В связи с отказом в согласовании старта ООПТ, центр соревнований перенесён.',
+        photo: ['https://vk.com/album-163764238_310979075','https://vk.com/album-163764238_310979077','https://vk.com/album-163764238_310993810','https://vk.com/album-163764238_310989822','https://vk.com/album-163764238_310977461'],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24904/',
         type: 'ORIENT',
         fmt: 'классика',

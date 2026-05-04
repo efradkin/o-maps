@@ -549,6 +549,7 @@ let events2016 = [
         date: '2016-06-10',
         endDate: '2016-06-16',
         name: 'Фестиваль «Белые Ночи»',
+        place: 'Первомайское',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16061016/160610_split.htm',
         owner: 'WN',
