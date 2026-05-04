@@ -1,7 +1,7 @@
 function updateUrlParam(paramName, paramValue) {
     const url = new URL(window.location.href);
 
-    if (paramValue && paramValue !== 'ALL') {
+    if (paramValue && (paramName === 'startYear' || paramValue !== 'ALL')) {
         url.searchParams.set(paramName, paramValue);
     } else {
         url.searchParams.delete(paramName);
