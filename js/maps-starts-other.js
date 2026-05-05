@@ -154,6 +154,19 @@ let otherStartsMaps = [
         page: 'starts'
     },
 
+    /* --- Окинчица --- */
+
+    {
+        name: 'Орехово',
+        year: 2002,
+        start: ['NA','OKINCHITSA'],
+        page: 'spb',
+        url: './maps/forest/vaskelovo/orekhovo_2002.webp',
+        link: './original_maps/forest/vaskelovo/orekhovo_2002_omaps.webp',
+        bounds: [[60.4793017532948, 30.266819000244144], [60.47604510299747, 30.320720672607425], [60.443502956286494, 30.257291793823246]],
+        author: ['VSLVSKY','BRDR','DRBSHV']
+    },
+
     /* --- Рогейн --- */
 
     {

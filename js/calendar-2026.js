@@ -1074,6 +1074,7 @@ let events2026 = [
         reg: 'http://orgeo.ru/event/49018',
         name: 'Горный кросс-113',
         photo: 'https://vk.com/album-31941981_310728408',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24914/',
         type: 'ROGAINE',
         fmt: '5(4), 2',
         map: 'luga_omchino_gk_2023',
@@ -1092,6 +1093,7 @@ let events2026 = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24904/',
         type: 'ORIENT',
         fmt: 'классика',
+        reskeep: 882,
         start: 'HARD'
     },
     {

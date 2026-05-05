@@ -65,6 +65,10 @@ const regions = {
         name: 'Карелия',
         logo: 'karelia.gif'
     },
+    CHINA: {
+        name: 'Китай',
+        logo: 'china.webp'
+    },
     KRASNODAR: {
         name:'Краснодар',
         logo: 'krasnodar_krai.webp'
@@ -150,6 +154,9 @@ const regions = {
     CHELYABINSK: {
         name: 'Челябинск',
         logo: 'o-chel.webp'//'chelyabinsk.gif'
+    },
+    CZECH: {
+        name: 'Чехия'
     },
     CHITA: {
         name: 'Чита'

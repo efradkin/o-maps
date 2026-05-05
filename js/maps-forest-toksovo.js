@@ -278,7 +278,7 @@ let toksovoMaps = [
         year: 1989,
         area: 4,
         url: './maps/forest/toksovo/toksovo_hepojarvi_west_1987.webp',
-        link: './original_maps/forest/toksovo/toksovo_hepojarvi_west_1987_omaps.jpg',
+        link: './original_maps/forest/toksovo/toksovo_hepojarvi_west_1987_omaps.webp',
         bounds: [[60.19636906842321, 30.543708801269535], [60.192700074357255, 30.589456558227543], [60.15790959006861, 30.53400993347168]],
         author: ['CHGRVSKY_V','BRNVA','DBRTSV_V','KRPLSN'],
         areas: [80,10,5,5]

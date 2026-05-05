@@ -755,7 +755,7 @@ let authors = {
     KONEV: { name: 'Конев' },
     KORNEEV: { name: 'Корнеев Валерий' },
     KRTNKO: { name: 'Кратенко Владимир' },
-    KRYUKOV: { name: 'Крюков С.' },
+    KRYUKOV_S: { name: 'Крюков С.' },
     KUZNTSV_RZN: { name: 'Кузнецов' },
     MAMONTO: { name: 'Мамонтов' },
     MITIN: { name: 'Митин' },
@@ -896,8 +896,10 @@ let authors = {
     KKRV_S: { name: 'Кокарев Степан' },
     KLM_K: { name: 'Калм К.' },
     KNTSVCH: { name: 'Кунцевич Г.' },
+    KNV_S: { name: 'Коняев Сергей' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },
     KRLV_A: { name: 'Королёв А.' }, // А.
+    KRYUKOV_I: { name: 'Крюков Игорь' },
     KUZNTSV_S_DV: { name: 'Кузнецов Сергей' },
     KUZNTSV_V_DV: { name: 'Кузнецов В.' },
     LGNV_E: { name: 'Логинов Евгений' },
@@ -905,6 +907,7 @@ let authors = {
     MLNN_V: { name: 'Малинин Вадим' }, // Геннадьевич
     MLSHNKO_V: { name: 'Малашенко Валерий' }, // Брянск
     MSHRN_A: { name: 'Мишарин Алексей' },
+    MTKV_A: { name: 'Митяков А.' },
     NBLSNV: { name: 'Небольсинов Алексей' },
     NCHKN: { name: 'Нечкин Игорь' },
     NR_D: { name: '<a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>' },
@@ -945,6 +948,7 @@ let authors = {
         name: 'Благово Никита Владимирович',
         about: 'https://rufso.ru/wp-content/uploads/2020/03/Благово.pdf' // https://o-site.spb.ru/history/Peoples/blagovo1.html
     },
+    FLDMN: { name: 'Фельдман Л.П.' },
     KN_S: { name: 'Ken Sidney' },
     KPRN_A_M: { name: 'Куприн Алексей Михайлович' },
     KSTLV_V_V: {

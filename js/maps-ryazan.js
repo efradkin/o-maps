@@ -282,7 +282,7 @@ let ryazanMaps = [
         url: './maps/ryazan/dp_shk71_2021.webp',
         link: './original_maps/ryazan/dp_shk71_2025_omaps.jpg',
         bounds: [[54.60469978059106, 39.81194257736207], [54.60313374804192, 39.82983827590943], [54.59750299054603, 39.80983972549439]],
-        author: ['DUBOV','TARASOV','KRYUKOV'],
+        author: ['DUBOV','TARASOV','KRYUKOV_S'],
         owner: 'FSO_RYAZAN',
         type: ['CITY','SPRINT']
     },

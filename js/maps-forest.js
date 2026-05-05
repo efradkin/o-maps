@@ -214,7 +214,7 @@ let forestMaps = [
         name: 'Юкки',
         year: 1988,
         url: './maps/forest/yukki_1988.webp',
-        link: './original_maps/forest/yukki_1988_omaps.jpg',
+        link: ['./original_maps/forest/yukki_1988_omaps.jpg','./original_maps/forest/yukki_1985_omaps.webp'],
         bounds: [[60.135008884902504, 30.266046524047855], [60.13039263307473, 30.35831451416016], [60.10319489936693, 30.259780883789066]],
         author: ['SHLKHN_Y','BZNV_A']
     },

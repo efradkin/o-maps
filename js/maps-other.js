@@ -644,6 +644,15 @@ let otherMaps = [
         region: 'PERM',
     },
     {
+        name: 'Пермь, Черняевский лес',
+        year: 1982,
+        url: './maps/other/perm_chernyaevsky_1982.webp',
+        link: ['./original_maps/other/perm_chernyaevsky_1982_omaps.webp','./original_maps/other/perm_chernyaevsky_1982_course_omaps.webp'],
+        bounds: [[57.99468073000184, 56.160392761230476], [57.99124606329963, 56.19030475616456], [57.98414822497704, 56.15507125854493]],
+        author: ['KRYUKOV_I','KNV_S'],
+        region: 'PERM',
+    },
+    {
         name: 'Южный лес',
         date: '2024-10-13',
         url: './maps/other/south_forest_rogaine_2024.webp',
@@ -1135,6 +1144,25 @@ let otherMaps = [
         author: ['AFNSV_L','GLTSKY_V','KLM_K','KVLVSKY_G'],
         results: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
         region: 'KZKHSTN'
+    },
+    {
+        name: 'Nový Bor',
+        year: 1978,
+        url: './maps/other/novy_bor_1978.webp',
+        link: './original_maps/other/novy_bor_1978_omaps.webp',
+        info: '21-23 июля. Boženka.',
+        bounds: [[50.816510450497844, 14.503197669982912], [50.816903604316245, 14.547872543334963], [50.78415204177409, 14.504313468933107]],
+        logo: 'bozenka.gif',
+        region: 'CZECH'
+    },
+    {
+        name: 'HARBIN',
+        date: '1991-09-29',
+        url: './maps/other/harbin_1991.webp',
+        link: './original_maps/other/harbin_1991_omaps.webp',
+        bounds: [[45.72170128915057, 127.4004650115967], [45.724652379258934, 127.42694377899171], [45.70551995420854, 127.40552902221681]],
+        author: ['MTKV_A','TRNV_VL','CHRNH_Y'],
+        region: 'CHINA'
     },
     {
         name: 'Париж, Диснейлэнд',
