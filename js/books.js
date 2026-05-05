@@ -217,4 +217,12 @@ let oBooks = [
         author: ['RN_L','KN_S'],
         pics: ['skills', 1]
     },
+    {
+        name: 'Ориентиры и их обозначения',
+        year: 1985,
+        link: './books/features_1985_omaps.webp',
+        info: 'Спортивное ориентирование. Ориентиры и их обозначения на спортивных картах.',
+        author: 'FLDMN',
+        pics: ['features', 1]
+    },
 ];
