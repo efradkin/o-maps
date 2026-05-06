@@ -768,7 +768,7 @@ let events2026 = [
         place: 'Богатырский пр',
         o_site: '260407_NWSprint_1',
         reg: 'https://orgeo.ru/event/info/nw_sprint',
-        info: '<a href="https://vk.com/@nordwestmedia-razbor-nwsprint-1-etap-07042026">Разбор дистанций</a>.',
+        info: 'Новая карта. <a href="https://vk.com/@nordwestmedia-razbor-nwsprint-1-etap-07042026">Разбор дистанций</a>.',
         video: 'https://rutube.ru/video/12708e94ecc5e049206368e381b5d0e1/',
         type: 'ORIENT',
         fmt: 'спринт',
@@ -959,7 +959,7 @@ let events2026 = [
         reskeep: 878,
         planner: 'MSKV',
         owner: 'NW',
-        coord: [60.023310, 30.237502]
+        map: 'komendantsky_2026'
     },
     {
         id: 'SPB_20260425_1',
@@ -1032,7 +1032,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/44669',
-        coord: [59.854706, 30.467897]
+        map: 'troitskoe_pole_2026'
     },
     {
         id: 'SPB_20260501_1',
@@ -1118,6 +1118,7 @@ let events2026 = [
         place: 'Комендантский пр',
         reg: 'http://orgeo.ru/event/info/nw_sprint_07_05',
         o_site: '260507_NWSprint_3',
+        info: 'Новая карта.',
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'NW'
@@ -1131,7 +1132,8 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1728',
         type: 'ORIENT',
         fmt: 'классика',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'stekljanny_2021'
     },
     {
         id: 'SPB_20260510_1',
@@ -1157,7 +1159,8 @@ let events2026 = [
         fmt: 'эстафета',
         map: 'sosnovo_ulovnoe_oz_2023',
         planner: 'SHEIN',
-        owner: 'KUZMOLOVO'
+        owner: 'KUZMOLOVO',
+        coord: [60.588548, 30.227715]
     },
     {
         id: 'SPB_20260511_1',
@@ -1230,10 +1233,12 @@ let events2026 = [
         date: '2026-05-23',
         endDate: '2026-05-24',
         name: 'Международные соревнования',
+        place: 'Стеклянный',
         o_site: 'velo2026',
         type: 'VELO',
         fmt: 'классика, масстарт',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'silande_velo_2025'
     },
     {
         id: 'SPB_20260523_2',
@@ -1273,16 +1278,13 @@ let events2026 = [
         id: 'SPB_20260523_4',
         date: '2026-05-23',
         name: 'Весенний марш-бросок',
+        place: 'Гаврилово',
+        reg: 'https://orgeo.ru/event/48966',
         type: 'TOURISM',
-        link: [
-            'https://t.me/pmarshbrosok',
-            'https://vk.com/mbrosok'
-        ],
+        link: ['https://t.me/pmarshbrosok', 'https://kandid.ru'],
         start: 'MB',
-        owner: [
-            'BKTV',
-            'SHBN'
-        ]
+        coord: [60.604374, 29.040213],
+        owner: ['BKTV', 'SHBN']
     },
     {
         id: 'SPB_20260523_6',

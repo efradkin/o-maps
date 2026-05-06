@@ -795,6 +795,7 @@ let specialMaps = [
         url: './maps/velo/silande_velo_2025.webp',
         link: './original_maps/velo/silande_velo_2025_omaps.gif',
         bounds: [[60.42196659623265, 30.254116058349613], [60.418810119787075, 30.289006233215336], [60.391660254494, 30.243301391601566]],
+        restricted: 'с 01.03.2026 по 25.05.2026, Международные соревнования',
         type: ['VELO'],
         author: ['CHGRVSKY_V','DBRTSV_V','KUZNTSV_R'],
         owner: 'SFSO_SPB'
