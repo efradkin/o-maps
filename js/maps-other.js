@@ -644,13 +644,15 @@ let otherMaps = [
         region: 'PERM',
     },
     {
-        name: 'Пермь, Черняевский лес',
+        name: 'Пермь, Черняевский лес, ПКиО',
         year: 1982,
+        date: '1986-12-30',
         url: './maps/other/perm_chernyaevsky_1982.webp',
         link: ['./original_maps/other/perm_chernyaevsky_1982_omaps.webp','./original_maps/other/perm_chernyaevsky_1982_course_omaps.webp'],
         bounds: [[57.99468073000184, 56.160392761230476], [57.99124606329963, 56.19030475616456], [57.98414822497704, 56.15507125854493]],
         author: ['KRYUKOV_I','KNV_S'],
         region: 'PERM',
+        me: '+'
     },
     {
         name: 'Южный лес',
@@ -661,6 +663,53 @@ let otherMaps = [
         bounds: [[58.00696094882948, 56.30913734436036], [58.00691547430881, 56.4280128479004], [57.94077994318353, 56.309223175048835]],
         type: ['ROGAINE'],
         region: 'PERM',
+    },
+    {
+        name: 'Южный лес',
+        year: 1979,
+        url: './maps/other/south_forest_1979.webp',
+        link: './original_maps/other/south_forest_1979_omaps.webp',
+        bounds: [[58.00020734974212, 56.31604671478272], [57.993270509361466, 56.37458324432374], [57.97645731285546, 56.307249069213874]],
+        region: 'PERM',
+        me: '+'
+    },
+    {
+        name: 'Верхняя Курья, Закамский бор',
+        year: 1983,
+        date: '1987-01-09',
+        url: './maps/other/zakamsky_bor_1983.webp',
+        link: './original_maps/other/zakamsky_bor_1983_omaps.webp',
+        bounds: [[58.083866500592436, 56.273860931396484], [58.07642393883224, 56.31531715393067], [58.05317863668797, 56.25411987304688]],
+        region: 'PERM',
+        me: '+'
+    },
+    {
+        name: 'Кислотные дачи',
+        year: 1981,
+        date: '1987-01-01',
+        url: './maps/other/kislotna_dacha_1981.webp',
+        link: './original_maps/other/kislotna_dacha_1981_omaps.webp',
+        bounds: [[58.100561235311254, 56.38784408569337], [58.0930427667502, 56.48088455200196], [58.08014541370967, 56.38282299041749]],
+        region: 'PERM',
+        me: '+'
+    },
+    {
+        name: 'Липовая гора',
+        year: 1985,
+        url: './maps/other/lipovaya_gora_1985.webp',
+        link: './original_maps/other/lipovaya_gora_1985_omaps.webp',
+        bounds: [[57.97927902264021, 56.29587650299073], [57.97497810202448, 56.331710815429695], [57.9569723510297, 56.286478042602546]],
+        region: 'PERM',
+        me: '+'
+    },
+    {
+        name: 'Полазна',
+        year: 1982,
+        url: './maps/other/polazna_1982.webp',
+        link: './original_maps/other/polazna_1982_omaps.webp',
+        bounds: [[58.291425886376366, 56.35033607482911], [58.284026659721725, 56.39719963073731], [58.27468518400182, 56.34153842926026]],
+        region: 'PERM',
+        me: '+'
     },
     // --- Ростов ---
     {

@@ -115,7 +115,7 @@ const regions = {
     },
     PERM: {
         name: 'Пермь',
-        logo: 'perm.gif'
+        logo: 'perm_orient_retro.webp'
     },
     ROSTOV: {
         name: 'Ростов-на-Дону',
