@@ -314,6 +314,7 @@ let authors = {
         logo: 'ovchnkv.jpg'
     },
     OZRV: { name: 'Озеров А.' },
+    PDVZKN: { name: 'Подвязкин Андрей' },
     PKHMV: { name: 'Пахомов Сергей' }, // П.
     PLBTKO: { name: 'Полуботко А.' },
     PLMNN: { name: 'Пульманен П.' },

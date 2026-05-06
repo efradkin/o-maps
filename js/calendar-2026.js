@@ -1088,7 +1088,7 @@ let events2026 = [
         o_site: '260502',
         link: 'https://hardadventure.ru/orient2026',
         reg: 'https://orgeo.ru/event/51138',
-        info: 'В связи с отказом в согласовании старта ООПТ, центр соревнований перенесён.',
+        info: 'В связи с отказом в согласовании старта ООПТ, центр соревнований перенесён. Новая карта.',
         photo: ['https://vk.com/album-163764238_310979075','https://vk.com/album-163764238_310979077','https://vk.com/album-163764238_310993810','https://vk.com/album-163764238_310989822','https://vk.com/album-163764238_310977461'],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24904/',
         type: 'ORIENT',
@@ -1152,9 +1152,11 @@ let events2026 = [
         place: 'Сосново, оз Уловное',
         o_site: '260510_zg',
         reg: 'http://orgeo.ru/event/info/51859',
+        info: 'Обновлённая карта',
         type: 'ORIENT',
         fmt: 'эстафета',
         map: 'sosnovo_ulovnoe_oz_2023',
+        planner: 'SHEIN',
         owner: 'KUZMOLOVO'
     },
     {
@@ -1166,7 +1168,7 @@ let events2026 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1730',
         type: 'ORIENT',
         fmt: 'классика',
-        map: 'anyalovo_winter_2023_omaps',
+        map: 'anyalovo_2023',
         owner: 'SFSO_SPB'
     },
     {
@@ -1303,12 +1305,24 @@ let events2026 = [
     {
         id: 'SPB_20260530_1',
         date: '2026-05-30',
-        name: 'ЧиП СПб, ЧиП ЛО',
-        place: 'Лейпясуо',
+        name: 'ЧиП СПб',
+        place: 'Гаврилово',
+        o_site: '260530_SPB',
         type: 'ORIENT',
         fmt: 'эстафета 2х',
-        map: 'leypjasuo',
-        owner: 'SFSO_SPB'
+        map: 'gavrilovo_2014',
+        owner: 'SFSO_SPB',
+    },
+    {
+        id: 'SPB_20260530_4',
+        date: '2026-05-30',
+        name: 'ЧиП ЛО',
+        place: 'Гаврилово',
+        o_site: '260530_LO',
+        type: 'ORIENT',
+        fmt: 'эстафета 2х',
+        map: 'gavrilovo_2014',
+        owner: 'SFSO_LO'
     },
     {
         id: 'SPB_20260530_2',

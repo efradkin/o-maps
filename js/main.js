@@ -1127,6 +1127,7 @@ function syncMaps() {
             if (!m.layer.hiddenMap) {
                 map.addLayer(m.layer);
             }
+            applyMapStyles(m);
         }
 
         recalculateLayers();
