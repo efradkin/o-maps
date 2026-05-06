@@ -670,6 +670,7 @@ let otherMaps = [
         url: './maps/other/south_forest_1979.webp',
         link: './original_maps/other/south_forest_1979_omaps.webp',
         bounds: [[58.00020734974212, 56.31604671478272], [57.993270509361466, 56.37458324432374], [57.97645731285546, 56.307249069213874]],
+        author: 'KNV_S',
         region: 'PERM',
         me: '+'
     },
