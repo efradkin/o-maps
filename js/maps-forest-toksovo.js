@@ -799,7 +799,7 @@ let toksovoMaps = [
         name: 'Аньялово',
         year: 2023,
         url: './maps/forest/toksovo/anyalovo_2023.webp',
-        link: './original_maps/forest/toksovo/anyalovo_2023_omaps.jpg',
+        link: './original_maps/forest/toksovo/anyalovo_2023_omaps.gif',
         bounds: [[60.31766225096646, 30.4951286315918], [60.31126498711547, 30.5390739440918], [60.29853049128726, 30.489764213562015]],
         restricted: 'с 19.03.2026 по 18.05.2026, ЧиП СПб',
         author: ['TKMKV_K','KVZN'],
