@@ -841,6 +841,7 @@ let parkMaps = [
         name: 'Яблоновский сад',
         year: 2024,
         url: './maps/parks/yablonovsky_sad_2024.webp',
+        link: './original_maps/parks/yablonovsky_sad_2024_omaps.webp',
         bounds: [[59.93024816649769, 30.452105998992923], [59.928850448435995, 30.473091602325443], [59.9221835982304, 30.449767112731937]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
