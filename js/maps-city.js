@@ -758,10 +758,12 @@ let cityMaps = [
         name: 'Кронштадт',
         year: 2019,
         url: './maps/city/kronshtadt_2019.webp',
-        link: './original_maps/city/kronshtadt_2019_omaps.webp',
+        link: ['./original_maps/city/kronshtadt_2019_omaps.webp','./original_maps/city/kronshtadt_2019_photos_omaps.pdf'],
+        o_site: '200517',
         bounds: [[59.99574575411855, 29.768936634063724], [59.993492332060875, 29.789621829986576], [59.986967273229695, 29.766104221343998]],
-        author: ['DBRTSV_V','FDRV_A','KBZRV'],
-        type: ['CITY']
+        author: 'DBRTSV_V',
+        type: ['CITY','FOTO'],
+        owner: 'SFSO_SPB'
     },
     {
         name: 'Школа №217',
