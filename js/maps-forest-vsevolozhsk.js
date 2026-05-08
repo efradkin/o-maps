@@ -167,9 +167,10 @@ let vsevolozhskMaps = [
     },
     {
         name: 'Всеволожск, Ждановские оз',
-        year: 2023,
-        url: './maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_2023.webp',
+        year: 2014,
+        url: './maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_2014.webp',
         bounds: [[59.99598181802446, 30.684041976928714], [59.99411472111232, 30.707473754882816], [59.97953916041285, 30.678591728210453]],
+        o_site: '231028TT',
         author: ['MKHLV_A','SLBDNK']
     },
     {

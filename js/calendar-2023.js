@@ -1523,7 +1523,8 @@ let events2023 = [
         name: '«Техника и Тактика - 2»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/231028TT/231028TT_split.htm',
-        o_site: '231028TT'
+        o_site: '231028TT',
+        map: 'vsevolozhsk_zhdanovskie_oz_2014'
     },
     {
         id: 'SPB_20231028_2',

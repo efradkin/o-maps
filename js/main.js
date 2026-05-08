@@ -711,6 +711,7 @@ if (mapElement) {
         loadCalendar();
     });
 
+    // set required styles for the map elements
     function applyMapStyles(m) {
         if (m.layer) {
             let el = m.layer.getElement();
@@ -721,7 +722,7 @@ if (mapElement) {
 
                 if (m.restricted) {
                     el.classList.add('restricted');
-                } else if (m.link && enableFullSize) {
+                } else if (enableFullSize && m.link) {
                     el.classList.add('full-size');
                 }
 
@@ -888,7 +889,6 @@ function checkMapsLoad() {
                 });
             }
 
-            // set required styles for the map elements
             for (const m of oMaps) {
                 applyMapStyles(m);
             }
