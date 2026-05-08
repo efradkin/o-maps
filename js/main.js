@@ -915,6 +915,10 @@ function skipMapLoad(m, forse) {
         return true;
     }
 
+    if (HAS_ONLY_WO_FULL_PARAM && m.link) {
+        return true;
+    }
+
     if (HAS_RESTRICTED_PARAM && !m.restricted) {
         return true;
     }

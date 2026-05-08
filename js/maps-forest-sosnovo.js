@@ -523,6 +523,7 @@ let sosnovoMaps = [
         name: 'Петровское, лагерь "Связист"',
         year: 2010,
         url: './maps/forest/sosnovo/petrovskoe_svjazist_2010.webp',
+        link: './original_maps/forest/sosnovo/petrovskoe_svjazist_2010_omaps.webp',
         bounds: [[60.64896547114925, 30.197918415069584], [60.647703325825276, 30.214891433715824], [60.64274892755333, 30.196609497070316]],
         author: 'SHRNN',
         owner: 'PPLVSKY'
@@ -611,6 +612,7 @@ let sosnovoMaps = [
         name: 'Лосево',
         year: 2022,
         url: './maps/forest/sosnovo/losevo_2022.webp',
+        link: './original_maps/forest/sosnovo/losevo_2022_omaps.webp',
         bounds: [[60.698476137242736, 29.897747039794922], [60.68994778372843, 29.98701095581055], [60.67372506905266, 29.887275695800785]],
         author: ['KVZN','TKMKV_K'],
         owner: 'ILVS'

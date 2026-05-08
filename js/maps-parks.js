@@ -152,6 +152,7 @@ let parkMaps = [
         name: 'Полежаевский парк, север',
         year: 2017,
         url: './maps/parks/polezhaevsky_north_2017.webp',
+        link: './original_maps/parks/polezhaevsky_north_2017_omaps.webp',
         bounds: [[59.84853345120984, 30.17757654190064], [59.84579574590888, 30.212037563323978], [59.84222776838285, 30.173478126525882]],
         author: 'ZCHNV',
         type: ['PARK']
@@ -160,6 +161,7 @@ let parkMaps = [
         name: 'Полежаевский парк',
         year: 2015,
         url: './maps/parks/polezhaevsky_2015.webp',
+        link: './original_maps/parks/polezhaevsky_2015_omaps.gif',
         bounds: [[59.84651791838533, 30.179958343505863], [59.84528913795502, 30.21223068237305], [59.83302040442371, 30.177898406982425]],
         type: ['PARK'],
         author: 'ELTSV',
@@ -749,6 +751,7 @@ let parkMaps = [
         name: 'Гатчина, Приоратский парк',
         year: 2021,
         url: './maps/parks/gatchina_prioratsky_2021.webp',
+        link: './original_maps/parks/gatchina_prioratsky_2021_omaps.jpg',
         bounds: [[59.56522340529709, 30.11159420013428], [59.562527651928654, 30.137000083923343], [59.544869479437935, 30.1030969619751]],
         author: ['DBRTSV_V','KTS_JU'],
         owner: 'SHEIN',

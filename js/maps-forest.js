@@ -188,6 +188,7 @@ let forestMaps = [
         year: 2015,
         area: 2,
         url: './maps/forest/streltsovo.webp',
+        link: './original_maps/forest/streltsovo_2015_omaps.webp',
         bounds: [[60.61690218407662, 29.277491569519047], [60.61747069844156, 29.308176040649418], [60.596618619933196, 29.27839279174805]],
         author: ['SHRNN','RYLOV_V'],
         info: '© Т.Ю.Тарасени (ЛТА) и Л.Г.Рубис (СПбГУПТД).'
