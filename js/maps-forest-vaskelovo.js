@@ -389,8 +389,9 @@ let vaskelovoMaps = [
     {
         name: 'Стеклянный',
         year: 2021,
-        info: '2018-2021гг.',
         url: './maps/forest/vaskelovo/stekljanny_2021.webp',
+        link: './original_maps/forest/vaskelovo/stekljanny_2021_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24950/',
         bounds: [[60.37779046320838, 30.23046970367432], [60.37297494976914, 30.287847518920902], [60.350415298226004, 30.221114158630375]],
         author: 'MKHLV_A',
         owner: 'WN'

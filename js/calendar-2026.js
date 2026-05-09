@@ -1130,6 +1130,7 @@ let events2026 = [
         place: 'Стеклянный',
         o_site: '260509',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1728',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24950/',
         type: 'ORIENT',
         fmt: 'классика',
         owner: 'SFSO_SPB',
