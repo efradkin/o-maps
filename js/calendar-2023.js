@@ -1334,6 +1334,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1553',
         res: 'http://orgeo.ru/live/#/30917',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17437/',
         info: 'Проходит при поддержке: ДОЛ "Зарница", ГУП "Горэлектротранс"',
         owner: 'SFSO_SPB',
         o_site: '231001',
