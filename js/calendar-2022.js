@@ -31,6 +31,7 @@ let events2022 = [
         reg: 'http://www.multsport.ru/starts/winter-rogaine-22/regulations.html',
         res: 'https://o-site.spb.ru/_races/220116/220116_res.pdf',
         fmt: 'рогейн 4 часа. Лыжи, бег, велосипед в одном зачете',
+        strava: 6532650244,
         start: 'MULTSPORT',
         o_site: '220116'
     },
@@ -84,6 +85,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-sportivnomu-orientirovaniyu/gorodskoj-sprint-gatchina-aerodrom',
         res: 'http://sport-orient.ru/wp-content/uploads/2022/02/rezultaty-html.pdf',
+        strava: 6675970809,
         o_site: '220213s',
         reskeep: 509
     },
@@ -104,6 +106,7 @@ let events2022 = [
         name: 'Весёлый Ветер',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
+        strava: 6705021289,
         res: 'https://o-site.spb.ru/_races/220219/220219_rez.htm',
         o_site: '220219'
     },
@@ -184,6 +187,7 @@ let events2022 = [
         date: '2022-04-06',
         place: 'Сестрорецкая ул',
         name: 'Noname Sprint Tour SPb 2022 - 1 этап',
+        strava: 6940867365,
         start: 'ST',
         type: 'ORIENT',
         reskeep: 515
@@ -193,6 +197,7 @@ let events2022 = [
         date: '2022-04-09',
         place: 'Осиновая Роща',
         name: 'Перспектива Middle Cup #1',
+        strava: 6953487767,
         type: 'ORIENT',
         reskeep: 510
     },
@@ -211,6 +216,7 @@ let events2022 = [
         date: '2022-04-10',
         place: 'Полюстровский парк',
         name: 'Весенние старты',
+        strava: 6959261318,
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220410s/220410_split.htm',
         o_site: '220410s'
@@ -252,6 +258,7 @@ let events2022 = [
         date: '2022-04-20',
         place: 'Новочеркасская',
         name: 'Noname Sprint Tour SPb 2022 - 2 этап',
+        strava: 7013752140,
         start: 'ST',
         type: 'ORIENT',
         reskeep: 516
@@ -266,10 +273,8 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/220424/220423_res.htm',
         owner: 'YUVENTA',
         o_site: '220424',
-        reskeep: [
-            513,
-            514
-        ]
+        strava: [7028043340,7032642029],
+        reskeep: [513, 514]
     },
     {
         id: 'SPB_20220423_2',
@@ -281,10 +286,8 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/220424/220423_res.htm',
         owner: 'YUVENTA',
         o_site: '220424_',
-        reskeep: [
-            513,
-            514
-        ]
+        strava: [7028043340,7032642029],
+        reskeep: [513, 514]
     },
     {
         id: 'SPB_20220423_3',
@@ -355,6 +358,7 @@ let events2022 = [
         date: '2022-05-01',
         place: 'Пухтолова Гора',
         name: 'Кубок Белых Ночей #7',
+        strava: 7069852592,
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 511
@@ -364,6 +368,7 @@ let events2022 = [
         date: '2022-05-03',
         place: 'Воейково',
         name: 'Кубок Белых Ночей #8',
+        strava: 7080257862,
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 530
@@ -373,6 +378,7 @@ let events2022 = [
         date: '2022-05-06',
         place: 'Покровский остров',
         name: 'White Nights Sprint #1 (Дом-утюг спринт)',
+        strava: 7098024858,
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 522
@@ -383,6 +389,7 @@ let events2022 = [
         name: 'Рогейн 110 - 1 этап',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/220508_110/220508_res.htm',
+        strava: 7107906115,
         start: 'ROGAINE_110',
         o_site: '220508_110'
     },
@@ -395,6 +402,7 @@ let events2022 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1417',
         res: 'https://o-site.spb.ru/_races/220509/Res_090522.htm',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга, с выполнением массовых разрядов',
+        strava: 7112699577,
         o_site: '220509',
         reskeep: 523
     },
@@ -413,6 +421,7 @@ let events2022 = [
         date: '2022-05-10',
         place: 'Линдуловская роща',
         name: 'Перспектива Middle Cup #5',
+        strava: 7118086822,
         type: 'ORIENT',
         reskeep: 524
     },
@@ -463,6 +472,7 @@ let events2022 = [
         date: '2022-05-14',
         place: 'Стеклянный',
         name: 'Кубок Белых Ночей #12',
+        strava: 7140324760,
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 525
@@ -484,6 +494,7 @@ let events2022 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1414',
         res: 'https://o-site.spb.ru/_races/220515/220515_rezpred.htm',
         photo: 'http://vk.com/album-9087078_284089250',
+        strava: 7146817590,
         o_site: '220515',
         reskeep: 526
     },
@@ -513,8 +524,17 @@ let events2022 = [
         place: 'ул. Сантьяго-де-Куба',
         name: 'Noname Sprint Tour SPb 2022 - 4 этап',
         start: 'ST',
+        strava: 7164374564,
         type: 'ORIENT',
         reskeep: 518
+    },
+    {
+        id: 'SPB_20220520_1',
+        date: '2022-05-20',
+        place: 'Парк Авиаторов',
+        name: 'Первенство Московского ЦФК',
+        type: 'ORIENT',
+        strava: 7174006528,
     },
     {
         id: 'SPB_20220521_1',
@@ -524,6 +544,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220521/220521-split.htm',
         photo: 'http://disk.yandex.ru/d/Pys4whutiheb3Q',
+        strava: 7178027439,
         owner: 'SFSO_SPB',
         o_site: '220521',
         reskeep: 527
@@ -547,6 +568,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1431',
         res: 'https://o-site.spb.ru/_races/220522_sprint/220522_res.htm',
+        strava: 7183713519,
         owner: 'SFSO_SPB',
         o_site: '220522_sprint',
         reskeep: 532
@@ -619,6 +641,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1432',
         res: 'https://o-site.spb.ru/_races/220529_long/220529_results.htm',
+        strava: 7220886070,
         owner: 'SFSO_SPB',
         o_site: '220529_long',
         reskeep: 533
@@ -648,6 +671,7 @@ let events2022 = [
         date: '2022-06-05',
         place: 'Мичуринское',
         name: 'Кубок Белых Ночей #14',
+        strava: 7258858400,
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 534
@@ -703,12 +727,8 @@ let events2022 = [
         ],
         start: 'KKP',
         o_site: '220613-16_KKP',
-        reskeep: [
-            536,
-            547,
-            548,
-            549
-        ]
+        strava: [7301364842,7306552917,7312045246,7317347262],
+        reskeep: [536, 547, 548, 549]
     },
     {
         id: 'SPB_20220612_1',
@@ -743,10 +763,8 @@ let events2022 = [
         res: 'http://orgeo.ru/live/#/21592',
         start: 'MMS',
         o_site: '22061820',
-        reskeep: [
-            545,
-            546
-        ]
+        strava: [7328784020,7333156174],
+        reskeep: [545, 546]
     },
     {
         id: 'SPB_20220620_1',
@@ -777,6 +795,7 @@ let events2022 = [
         ],
         owner: 'WN',
         start: 'WN',
+        strava: 7367429794,
         o_site: '220624',
         reskeep: 537
     },
@@ -825,6 +844,7 @@ let events2022 = [
         date: '2022-07-02',
         place: 'Ильичёво',
         name: 'White Nights Middle #5',
+        strava: 7402274954,
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 539
@@ -848,6 +868,7 @@ let events2022 = [
         name: 'Лужский приключенческий рогейн',
         type: 'ROGAINE',
         fmt: '24, 6',
+        strava: 7440975370,
         link: 'https://vk.com/event166397868'
     },
     {
@@ -947,6 +968,15 @@ let events2022 = [
         o_site: '220820ZZ'
     },
     {
+        id: 'SPB_20220820_2',
+        date: '2022-08-20',
+        place: 'Чудово',
+        name: 'Рогейн в Чудово',
+        type: 'ROGAINE',
+        strava: 7668415048,
+        owner: 'SHBN'
+    },
+    {
         id: 'SPB_20220821_1',
         date: '2022-08-21',
         place: 'п.Воейково, Ленинградская обл',
@@ -965,6 +995,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'http://sportident.online/ol/?id=854',
         info: 'Онлайн результаты. Старт 1 - Спринт Онлайн результаты. Старт 2 - Ночной старт Онлайн результаты. Старт 3 - Классика',
+        strava: [7709561105,7711144645,7715434631],
         owner: 'VYBORG',
         o_site: '220827-28_VTR'
     },
@@ -995,6 +1026,7 @@ let events2022 = [
         reg: 'http://orgeo.ru/event/info/23013',
         res: 'https://o-site.spb.ru/_races/220904/220904_res.htm',
         video: 'https://www.youtube.com/watch?v=VOmzXQ9S3Uc',
+        strava: 7752862977,
         owner: 'WN',
         o_site: '220904',
         reskeep: 554
@@ -1023,6 +1055,7 @@ let events2022 = [
         date: '2022-09-10',
         place: 'Болотная станция',
         name: 'Кубок Белых Ночей #1',
+        strava: 7784420974,
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 542
@@ -1094,6 +1127,7 @@ let events2022 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-лонг-общий старт',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/24205',
+        strava: 7828461049,
         owner: 'SFSO_SPB',
         o_site: '220918',
         reskeep: 556
@@ -1146,6 +1180,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/16449',
         res: 'http://orgeo.ru/live/#/24330',
+        strava: 7859011178,
         info: 'Физкультурно-спортивное мероприятие «Соревнования по спортивному ориентированию на открытый кубок внутригородского муниципального образования Санкт-Петербурга город Колпино»',
         o_site: '220924_kolpino'
     },
@@ -1190,6 +1225,7 @@ let events2022 = [
             'https://rutube.ru/video/82cf8112083a2cf94056d4be46250886/'
         ],
         o_site: '220925',
+        strava: 7864129582,
         reskeep: 541
     },
     {

@@ -1174,12 +1174,16 @@ let events2026 = [
         place: 'Аньялово',
         o_site: '260511_chemp',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1730',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25016/',
+        gps: {
+            'ALL':'https://viewer.o-gps-center.ru/viewer/event/24993/',
+            'М50':'https://viewer.o-gps-center.ru/viewer/event/25016/'
+        },
         strava: 18463263908,
         reskeep: 885,
         me: 'М50',
         type: 'ORIENT',
         fmt: 'классика',
+        planner: 'KSHN_D',
         map: 'anyalovo_2023',
         owner: 'SFSO_SPB'
     },
