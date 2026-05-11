@@ -1235,12 +1235,13 @@ let events2022 = [
     {
         id: 'SPB_20221002_1',
         date: '2022-10-02',
-        place: 'Каннельярви (Выборгский р-н Ленинградской области)',
+        place: 'Каннельярви',
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-классика',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1459',
         res: 'http://orgeo.ru/live/#/24205',
         info: 'Карта подготовлена в 2022 году в рамках проекта «Школа молодого картографа», реализуемого СФСО Санкт-Петербурга с использованием гранта Президента РФ на развитие гражданского общества, предоставленного Фондом президентских грантов. При подготовке карты использовались материалы лазерного сканирования, выполненные компанией ООО «Аэрострим». Картографические работы профинансированы фондом Андрея Фершалова.',
+        strava: 7898462924,
         owner: 'SFSO_SPB',
         o_site: '221002',
         reskeep: 558
@@ -1272,13 +1273,10 @@ let events2022 = [
             'https://rutube.ru/video/ff83fee8a7495ff510885e2d4cf2883c/',
             'https://rutube.ru/video/18fc6e072db903c5397238607ded3c21/'
         ],
+        strava: [7924730324, 7929743485, 7936822837],
         owner: 'SFSO_SPB',
         o_site: '221010_vseros',
-        reskeep: [
-            538,
-            552,
-            551
-        ]
+        reskeep: [538, 552, 551]
     },
     {
         id: 'SPB_20221008_1',
@@ -1317,14 +1315,13 @@ let events2022 = [
         date: '2022-10-15',
         endDate: '2022-10-16',
         name: 'Золотая осень',
+        place: 'Выборг',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/24205',
+        strava: 7966287997,
         owner: 'VYBORG',
         o_site: '221015',
-        reskeep: [
-            559,
-            560
-        ]
+        reskeep: [559, 560]
     },
     {
         id: 'SPB_20221015_2',
@@ -1344,6 +1341,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/24599',
         res: 'https://o-site.spb.ru/_races/221016_PZVP/221016_PZVP_rez.pdf',
+        strava: 7971237568,
         o_site: '221016_PZVP'
     },
     {
@@ -1384,6 +1382,7 @@ let events2022 = [
         date: '2022-10-22',
         place: 'Раздолье',
         name: 'Кубок Белых Ночей #2',
+        strava: 8002067117,
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 561
@@ -1405,6 +1404,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'http://sportident.online/ol/?id=946',
         info: 'Чемпионат и Первенство Ленинградской области Соревнования на призы клуба Норд Вест',
+        strava: 8006125990,
         owner: 'SFSO_LO',
         o_site: '221023',
         reskeep: 572
@@ -1455,6 +1455,7 @@ let events2022 = [
         name: 'White Nights Middle #6',
         type: 'ORIENT',
         owner: 'WN',
+        strava: 8041902569,
         reskeep: 562
     },
     {
@@ -1475,6 +1476,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/221104_OM/Res1_221104.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
+        strava: 8066428678,
         logo: 'azimut.gif',
         o_site: '221104_OM',
         reskeep: 563
@@ -1506,6 +1508,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/24918#',
         res: 'https://o-site.spb.ru/_races/221106_100kp/221106_100_split.htm',
+        strava: 8076084474,
         o_site: '221106_100kp'
     },
     {
@@ -1516,6 +1519,7 @@ let events2022 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/221112R/221112R_res.pdf',
         fmt: '6 и 2 часа - бег, 5 часов - вело',
+        strava: 8105669651,
         start: 'GORNY_CROSS',
         o_site: '221112R'
     },
@@ -1537,6 +1541,7 @@ let events2022 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1474',
         res: 'https://o-site.spb.ru/_races/221113/https://orgeo.ru/live/#/25152/1',
         fmt: 'Личные соревнования на маркированной трассе «Вариант Д», бегом.',
+        strava: 8112409206,
         start: 'ROGAINE_110',
         o_site: '221113'
     },
@@ -1547,6 +1552,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей #7',
         type: 'ORIENT',
         owner: 'WN',
+        strava: [8138407224, 8138827616],
         reskeep: 566
     },
     {
@@ -1557,6 +1563,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/25146',
         res: 'https://o-site.spb.ru/_races/221122/221120_res.htm',
+        strava: 8143177853,
         o_site: '221122',
         reskeep: 565
     },
@@ -1568,6 +1575,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1484',
         res: 'https://o-site.spb.ru/_races/221126/221126_off.pdf',
+        strava: 8170213687,
         o_site: '221126'
     },
     {
@@ -1580,6 +1588,7 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/2022_Orientir/Res_221126.htm',
         photo: 'http://photos.app.goo.gl/1PwQzd72cB7LXKCb6',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
+        strava: 8169719874,
         logo: 'azimut.gif',
         o_site: '2022_Orientir'
     },
@@ -1594,6 +1603,7 @@ let events2022 = [
         info: 'Городские соревнования по спортивному ориентированию «Снежная тропа» и физкультурное мероприятие «Многоэтапные городские соревнования по спортивному ориентированию «Снежная тропа».',
         owner: 'SFSO_SPB',
         o_site: '221127',
+        strava: 8174691972,
         reskeep: 567
     },
     {
@@ -1613,6 +1623,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей #8',
         type: 'ORIENT',
         owner: 'WN',
+        strava: [8205639485, 8205643874],
         reskeep: 568
     },
     {
@@ -1638,6 +1649,7 @@ let events2022 = [
         info: 'Городские соревнования по спортивному ориентированию «Снежная тропа» и физкультурное мероприятие «Многоэтапные городские соревнования по спортивному ориентированию «Снежная тропа».',
         owner: 'SFSO_SPB',
         o_site: '221211',
+        strava: 8235260865,
         reskeep: 580
     },
     {
@@ -1668,6 +1680,7 @@ let events2022 = [
         name: 'Приз Деда Мороза',
         type: 'ORIENT',
         info: 'ВНИМАНИЕ! Соревнования отменены!',
-        o_site: '221225_wn'
+        o_site: '221225_wn',
+        strava: 8289241854
     }
 ];
