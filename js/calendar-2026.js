@@ -1218,9 +1218,12 @@ let events2026 = [
         id: 'SPB_20260516_2',
         date: '2026-05-16',
         name: 'Кубок Белых ночей №11',
+        place: 'Калелово',
+        reg: 'http://orgeo.ru/event/info/52808',
         o_site: '260516_bn',
         type: 'ORIENT',
-        owner: 'WN'
+        owner: 'WN',
+        coord: [60.264302, 29.981751]
     },
     {
         id: 'SPB_20260517_1',
