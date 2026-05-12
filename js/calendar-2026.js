@@ -1157,6 +1157,8 @@ let events2026 = [
         o_site: '260510_zg',
         reg: 'http://orgeo.ru/event/info/51859',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24987/',
+        video: ['https://northernwind.spb.ru/videosplit/2026/zg/prolog/','https://northernwind.spb.ru/videosplit/2026/zg/final/'],
+        photo: 'https://disk.yandex.ru/d/B1vm2-LHb5QGFg',
         strava: 18450079774,
         me: 'Фитнес-А',
         info: 'Обновлённая карта',
@@ -1226,6 +1228,16 @@ let events2026 = [
         coord: [60.264302, 29.981751]
     },
     {
+        id: 'SPB_20260516_3',
+        date: '2026-05-16',
+        name: 'ЧиП Киришей',
+        place: 'Будогощь',
+        reg: 'https://orgeo.ru/event/kirishi_o_160526',
+        type: 'ORIENT',
+        owner: 'MLV_AL',
+        coord: [59.315125, 32.408235]
+    },
+    {
         id: 'SPB_20260517_1',
         date: '2026-05-17',
         name: 'ЧиП СПб',
@@ -1236,6 +1248,25 @@ let events2026 = [
         map: 'polyany_2019',
         info: 'У ветеранов - классика.',
         owner: 'SFSO_SPB'
+    },
+    {
+        id: 'SPB_20260517_2',
+        date: '2026-05-17',
+        name: 'Спартакиада семейных команд Красносельского р-на',
+        place: 'Новознаменка',
+        link: 'https://vk.com/wall-149329533_52636',
+        type: 'FUN',
+        fmt: 'выбор',
+        map: 'litania_2021',
+    },
+    {
+        id: 'SPB_20260517_3',
+        date: '2026-05-17',
+        name: 'Спартакиада семейных команд Красногвардейского р-на',
+        place: 'Полюстровский парк',
+        link: 'https://vk.com/wall-21809767_52830',
+        type: 'FUN',
+        map: 'polyustrovsky_2022',
     },
     {
         id: 'SPB_20260519_1',
@@ -1304,6 +1335,7 @@ let events2026 = [
         date: '2026-05-23',
         name: 'Царскосельский азимут',
         place: 'Баболовский парк',
+        reg: 'http://orgeo.ru/event/tsa26',
         o_site: '260523',
         type: 'ORIENT',
         fmt: 'выбор',
