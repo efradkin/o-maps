@@ -1196,6 +1196,15 @@ let cityMaps = [
         type: ['CITY','SPRINT']
     },
     {
+        name: 'пр Королёва',
+        year: 2026,
+        url: './maps/city/koroleva_2026.webp',
+        bounds: [[60.02697739088975, 30.240147113800052], [60.02483330428772, 30.258364677429203], [60.019129356707936, 30.236113071441654]],
+        author: 'MSKV',
+        owner: 'MSKV',
+        type: ['CITY','SPRINT']
+    },
+    {
         name: 'Школа №515',
         year: 2023,
         url: './maps/city/school_515_2023.webp',

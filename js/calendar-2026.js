@@ -1115,14 +1115,15 @@ let events2026 = [
         id: 'SPB_20260507_1',
         date: '2026-05-07',
         name: 'NW Sprint #3',
-        place: 'Комендантский пр',
+        place: 'пр Королёва',
         reg: 'http://orgeo.ru/event/info/nw_sprint_07_05',
         reskeep: 884,
         o_site: '260507_NWSprint_3',
-        info: 'Новая карта.',
+        info: 'Новая карта. <a href="https://o-site.spb.ru/_races/260507_NWSprint_3/260507_NWSprint3_razbor.pdf">Разбор дистанций</a>.',
         type: 'ORIENT',
         fmt: 'спринт',
-        owner: 'NW'
+        owner: 'NW',
+        map: 'koroleva_2026'
     },
     {
         id: 'SPB_20260509_1',
@@ -1419,6 +1420,9 @@ let events2026 = [
         id: 'SPB_20260531_1',
         date: '2026-05-31',
         name: 'Российский азимут',
+        place: 'Южно-Приморский парк',
+        o_site: '260531_RA',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1742',
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'SFSO_SPB'
