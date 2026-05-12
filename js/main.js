@@ -1246,17 +1246,9 @@ function buildMapPopup(m) {
     if (m.type && m.type.includes('FOTO')) {
         info += '<b>Фото-ориентирование.</b> ';
     }
-    let d = formatDate(m);
-    let sy = startYear(m);
-    if (d) {
-        info += `<b>${d} ${sy ?? ''}</b>`;
-    } else {
-        if (sy) {
-            info += `<b> ${sy}</b>`;
-        }
-    }
-    if (d || sy) {
-        info += '. ';
+    let dates = getMapDates(m);
+    if (dates) {
+        info += `<b>${dates}.</b> `;
     }
     if (m.start) {
         info += '<b>' + getMapStarts(m) + '</b> ';
@@ -1266,6 +1258,12 @@ function buildMapPopup(m) {
     }
     if (m.results) {
         info += ` <a href="${m.results}">Результаты</a>.`;
+    } else {
+        const results = buildEventResults(m);
+        if (results) {
+            info += results;
+        }
+
     }
     if (m.o_site) {
         info += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;

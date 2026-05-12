@@ -932,7 +932,8 @@ let events2020 = [
         name: 'Sprint Tour SPb - 2020. 2 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 363
+        reskeep: 363,
+        map: 'novocherkasskaya_2020'
     },
     {
         id: 'SPB_20200910_1',

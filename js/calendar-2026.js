@@ -1176,6 +1176,8 @@ let events2026 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1730',
         gps: {
             'ALL':'https://viewer.o-gps-center.ru/viewer/event/24993/',
+            'ALL2':'https://viewer.o-gps-center.ru/viewer/event/25024/',
+            'М21':'https://viewer.o-gps-center.ru/viewer/event/25023/',
             'М50':'https://viewer.o-gps-center.ru/viewer/event/25016/'
         },
         strava: 18463263908,
@@ -1213,6 +1215,14 @@ let events2026 = [
         owner: 'EGRV_EGR'
     },
     {
+        id: 'SPB_20260516_2',
+        date: '2026-05-16',
+        name: 'Кубок Белых ночей №11',
+        o_site: '260516_bn',
+        type: 'ORIENT',
+        owner: 'WN'
+    },
+    {
         id: 'SPB_20260517_1',
         date: '2026-05-17',
         name: 'ЧиП СПб',
@@ -1221,6 +1231,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'эстафета 3х',
         map: 'polyany_2019',
+        info: 'У ветеранов - классика.',
         owner: 'SFSO_SPB'
     },
     {
@@ -1229,6 +1240,7 @@ let events2026 = [
         name: 'Тренировка от Феникса',
         place: 'Юкки',
         reg: 'https://orgeo.ru/event/50870',
+        info: 'С техническими заданиями.',
         type: 'ORIENT',
         owner: 'FENIX',
         map: 'yukki_north_2020'
@@ -1240,6 +1252,22 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         start: 'ST',
+    },
+    {
+        id: 'SPB_20260520_1',
+        date: '2026-05-20',
+        name: 'Спринт Тур',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        start: 'ST',
+    },
+    {
+        id: 'SPB_20260520_2',
+        date: '2026-05-20',
+        name: 'П-во ГБУ ДЮЦ Московского р-на СПб',
+        type: 'ORIENT',
+        fmt: 'выбор',
+        reg: 'https://orgeo.ru/event/permosk26'
     },
     {
         id: 'SPB_20260523_1',

@@ -286,7 +286,8 @@ let events2019 = [
         name: 'Sprint Tour 2019. 1 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 110
+        reskeep: 110,
+        map: 'big_okhta_2017'
     },
     {
         id: 'SPB_20190413_1',
@@ -335,10 +336,7 @@ let events2019 = [
         info: 'Соревнования проводятся 20-21 апреля 2019 года в г. Сосновый Бор.',
         owner: 'YUVENTA',
         o_site: '19042021',
-        reskeep: [
-            113,
-            114
-        ]
+        reskeep: [113, 114]
     },
     {
         id: 'SPB_20190421_1',
@@ -409,11 +407,7 @@ let events2019 = [
         video: 'https://www.youtube.com/watch?v=rnk_WpK7qKs',
         owner: 'VYBORG',
         o_site: '190427_V3',
-        reskeep: [
-            116,
-            117,
-            115
-        ]
+        reskeep: [116, 117, 115]
     },
     {
         id: 'SPB_20190428_1',
@@ -435,11 +429,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190502lo/190501_split.html',
         owner: 'SFSO_LO',
         o_site: '190502lo',
-        reskeep: [
-            118,
-            119,
-            120
-        ]
+        reskeep: [118, 119, 120]
     },
     {
         id: 'SPB_20190501_2',
@@ -533,11 +523,7 @@ let events2019 = [
         res: 'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
         o_site: '190510Luga',
-        reskeep: [
-            129,
-            130,
-            131
-        ]
+        reskeep: [129, 130, 131]
     },
     {
         id: 'SPB_20190512_1',
@@ -1559,7 +1545,8 @@ let events2019 = [
         name: 'Sprint Tour SPb - осень 2019. 5 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 199
+        reskeep: 199,
+        map: '5_uglov_2015'
     },
     {
         id: 'SPB_20191103_1',

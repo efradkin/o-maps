@@ -323,7 +323,8 @@ let events2021 = [
         name: 'Noname Sprint Tour SPb - 2021. 1 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 429
+        reskeep: 429,
+        map: 'big_okhta_2017'
     },
     {
         id: 'SPB_20210410_1',
@@ -350,7 +351,8 @@ let events2021 = [
         name: 'Noname Sprint Tour SPb - 2021. 2 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 430
+        reskeep: 430,
+        map: 'berezovy_sad_2016'
     },
     {
         id: 'SPB_20210417_1',

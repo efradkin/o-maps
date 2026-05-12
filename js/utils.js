@@ -293,22 +293,34 @@ if (ONLY_TRACK_NAME_PARAM) {
 
 function year(o) { // map, track, event
     if (o.year) return o.year;
-    if (o.date) {
-        return new Date(o.date).getFullYear();
+    let oDate = o.date;
+    if (Array.isArray(oDate)) {
+        oDate = oDate[0];
+    }
+    if (oDate) {
+        return new Date(oDate).getFullYear();
     }
     return null;
 }
 
 function startYear(o) { // map, track, event
     if (o.startYear) return o.startYear;
-    if (o.date) {
-        return new Date(o.date).getFullYear();
+    let oDate = o.date;
+    if (Array.isArray(oDate)) {
+        oDate = oDate[0];
+    }
+    if (oDate) {
+        return new Date(oDate).getFullYear();
     }
     return null;
 }
 
 function dateForCompare(m) {
-    if (m.date) return new Date(m.date);
+    let mDate = m.date;
+    if (Array.isArray(mDate)) {
+        mDate = mDate[0];
+    }
+    if (mDate) return new Date(mDate);
     const sy = m.startYear;
     if (sy) {
         return new Date(sy, 0);
@@ -320,11 +332,34 @@ function dateForCompare(m) {
     return new Date(0, 0);
 }
 
+function getMapDates(m) {
+    if (Array.isArray(m.date)) {
+        let result = '';
+        for (const d of m.date) {
+            if (result) {
+                result += ', ';
+            }
+            result += formatDateString(d, true, false);
+        }
+        return result;
+    } else {
+        return formatDateString(m.date, true, false);
+    }
+}
+
 function formatDate(o, withYear, withDayOfWeek) { // map, track, event with ".date"
-    if (!o.date) {
+    let oDate = o.date;
+    if (Array.isArray(oDate)) {
+        oDate = oDate[0];
+    }
+    return formatDateString(oDate, withYear, withDayOfWeek);
+}
+
+function formatDateString(oDate, withYear, withDayOfWeek) { // map, track, event with ".date"
+    if (!oDate) {
         return '';
     }
-    const date = new Date(o.date);
+    const date = new Date(oDate);
     if (!isNaN(date.getTime())) {
         const day = date.getDate();
         const month = MONTHS_SHORT[date.getMonth()];

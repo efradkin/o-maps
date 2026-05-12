@@ -982,7 +982,8 @@ let events2018 = [
         name: 'Sprint Tour SPb 2018. 1 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 24
+        reskeep: 24,
+        map: 'big_okhta_2017'
     },
     {
         id: 'SPB_20180908_1',
@@ -1080,7 +1081,8 @@ let events2018 = [
         name: 'Sprint Tour SPb 2018. 3 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 40
+        reskeep: 40,
+        map: 'serebrjany_prud_2018'
     },
     {
         id: 'SPB_20180920_1',

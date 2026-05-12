@@ -39,7 +39,7 @@ window.onload = function() {
     if (!isUnknownPage()) {
         if (!isDocumentsPage()) {
             oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
-                .sort((a, b) => (a.startYear || (a.year || 0)) - (b.startYear || (b.year || 0)));
+                .sort((a, b) => (startYear(a) || (year(a) || 0)) - (startYear(b) || (year(b) || 0)));
             oMaps.sort((a, b) => (a.name || '').localeCompare((b.name || '')));
         }
     }
@@ -272,9 +272,9 @@ function buildInfo(m) {
             result += '<br />'
         }
         if (!isDocumentsPage()) {
-            if (m.date && m.date.length > 7) {
-                const date = formatDate(m, false, true);
-                result += `<b>${date}</b>. `;
+            const mapDates = getMapDates(m);
+            if (mapDates) {
+                result += `<b>${mapDates}</b>. `;
             }
         }
         if (m.info) {
@@ -282,6 +282,12 @@ function buildInfo(m) {
         }
         if (m.results) {
             result += ` <a href="${m.results}">Результаты</a>.`;
+        } else {
+            const results = buildEventResults(m);
+            if (results) {
+                result += results;
+            }
+
         }
         if (m.o_site) {
             result += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;

@@ -831,10 +831,12 @@ let parkMaps = [
     {
         name: 'Парк Политеха',
         year: 2022,
+        date: '2017-09-13',
         url: './maps/parks/politekh_2022.webp',
-        link: ['./original_maps/parks/politekh_2022_omaps.jpg','./original_maps/parks/politekh_2016_omaps.jpg','./books/shirinyan_photo_orient_2026_omaps.pdf'],
+        link: ['./original_maps/parks/politekh_2022_omaps.jpg','./original_maps/parks/politekh_2016_omaps.jpg','./original_maps/parks/politekh_st_2017_09_13_omaps.webp','./books/shirinyan_photo_orient_2026_omaps.pdf'],
         bounds: [[60.009649191555134, 30.36827087402344], [60.00945612827708, 30.385394096374515], [60.00235490683813, 30.367970466613773]],
         type: ['PARK','FOTO'],
+        start: 'ST',
         author: 'ZCHNV',
         owner: 'SFSO_SPB'
     },
