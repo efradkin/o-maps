@@ -1249,28 +1249,20 @@ let events2026 = [
         map: 'yukki_north_2020'
     },
     {
-        id: 'SPB_20260520_1',
-        date: '2026-05-20',
-        name: 'Спринт Тур',
-        type: 'ORIENT',
-        fmt: 'спринт',
-        start: 'ST',
-    },
-    {
-        id: 'SPB_20260520_1',
-        date: '2026-05-20',
-        name: 'Спринт Тур',
-        type: 'ORIENT',
-        fmt: 'спринт',
-        start: 'ST',
-    },
-    {
         id: 'SPB_20260520_2',
         date: '2026-05-20',
         name: 'П-во ГБУ ДЮЦ Московского р-на СПб',
         type: 'ORIENT',
         fmt: 'выбор',
         reg: 'https://orgeo.ru/event/permosk26'
+    },
+    {
+        id: 'SPB_20260520_1',
+        date: '2026-05-20',
+        name: 'Спринт Тур',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        start: 'ST',
     },
     {
         id: 'SPB_20260523_1',
