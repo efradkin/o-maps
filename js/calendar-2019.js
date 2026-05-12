@@ -458,11 +458,7 @@ let events2019 = [
         res: 'http://www.northernwind.spb.ru/videosplit/2019/PR_Novgorod/day3/',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/PR_Novgorod/day3/',
         o_site: '190504PR',
-        reskeep: [
-            149,
-            150,
-            151
-        ]
+        reskeep: [149, 150, 151]
     },
     {
         id: 'SPB_20190504_2',
@@ -521,7 +517,11 @@ let events2019 = [
         name: 'Первенство России и Майская многодневка',
         type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
-        video: 'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
+        video: [
+            'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
+            'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day2/',
+            'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day3/',
+        ],
         o_site: '190510Luga',
         reskeep: [129, 130, 131]
     },
@@ -618,6 +618,7 @@ let events2019 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190519/res.htm',
         photo: 'http://vk.com/album-154221178_263179709',
+        video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_sprint',
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
         owner: 'SFSO_SPB',
         o_site: '190519',
@@ -633,15 +634,14 @@ let events2019 = [
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chr/day1/',
         photo: 'http://vk.com/photo-30365190_456251999',
         video: [
+            'http://northernwind.spb.ru/videosplit/2019/chr/day1',
+            'http://northernwind.spb.ru/videosplit/2019/chr/day2',
+            'http://northernwind.spb.ru/videosplit/2019/chr/day3',
             'http://youtu.be/l4Cfhs9tFa0',
             'https://www.youtube.com/watch?v=Yvb3agSRtfI'
         ],
         o_site: '190524chRF',
-        reskeep: [
-            138,
-            139,
-            140
-        ]
+        reskeep: [138, 139, 140]
     },
     {
         id: 'SPB_20190525_1',
@@ -742,11 +742,7 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1022',
         res: 'https://o-site.spb.ru/_races/190408-09/20190608_day_rez.htm',
         o_site: '190408-09',
-        reskeep: [
-            153,
-            154,
-            155
-        ]
+        reskeep: [153, 154, 155]
     },
     {
         id: 'SPB_20190611_1',
@@ -768,13 +764,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/19061116/19061315L_res.zip',
         start: 'YM',
         o_site: '19061116',
-        reskeep: [
-            164,
-            165,
-            161,
-            162,
-            163
-        ]
+        reskeep: [164, 165, 161, 162, 163]
     },
     {
         id: 'SPB_20190612_1',
@@ -791,14 +781,13 @@ let events2019 = [
         name: 'Кубок Карельского Перешейка-2019',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190616-21_KKP/20190617_kkp_1_rez.htm',
+        video: [
+            'http://northernwind.spb.ru/videosplit/2019/kkp/day1',
+            'http://northernwind.spb.ru/videosplit/2019/kkp/day2'
+        ],
         start: 'KKP',
         o_site: '190616-21_KKP',
-        reskeep: [
-            167,
-            168,
-            169,
-            170
-        ]
+        reskeep: [167, 168, 169, 170]
     },
     {
         id: 'SPB_20190620_1',
@@ -819,11 +808,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190623MMS/res1.htm',
         start: 'MMS',
         o_site: '190623MMS',
-        reskeep: [
-            171,
-            172,
-            173
-        ]
+        reskeep: [171, 172, 173]
     },
     {
         id: 'SPB_20190622_1',
@@ -1330,10 +1315,7 @@ let events2019 = [
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_relay/',
         owner: 'SFSO_SPB',
         o_site: '190929',
-        reskeep: [
-            270,
-            221
-        ]
+        reskeep: [270, 221]
     },
     {
         id: 'SPB_20191004_1',
@@ -1369,6 +1351,7 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1093',
         res: 'https://o-site.spb.ru/_races/191006/061019_rez.htm',
+        video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_middle',
         owner: 'SFSO_SPB',
         o_site: '191006',
         reskeep: 272

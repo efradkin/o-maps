@@ -654,6 +654,11 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240519_russia/240518_results_.pdf',
         photo: 'http://disk.yandex.ru/d/gauoPfUSaHxVlQ',
         info: '16-20 мая 2024 года в Санкт-Петербурге пройдёт Чемпионат России по спортивному ориентированию (спринтерские дисциплины). Проводящая организация: Федерация спортивного ориентирования Санкт-Петербурга. Программа: 16.05 (четверг) — день приезда. Работа комиссии по допуску участников с 13:00 до 17:00. Совещание представителей команд в 18:00. («Галерея 2/17» , 2-я линия Васильевского острова, д.17). 17.05 (пятница) — кросс-эстафета-4 человека (0830081811Я) 18.05 (суббота) — кросс-спринт (0830011811Я) 19.05 (воскресенье) — кросс-спринт-общий старт (0830091811Я) 20.05 (понедельник) — день отъезда',
+        video: [
+            'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d3',
+            'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d2',
+            'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d1'
+        ],
         owner: 'SFSO_SPB',
         o_site: '240519_russia',
         reskeep: 654
@@ -880,6 +885,9 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=5930',
         video: [
+            'http://northernwind.spb.ru/videosplit/2024/KKP/d1',
+            'http://northernwind.spb.ru/videosplit/2024/KKP/d2',
+            'http://northernwind.spb.ru/videosplit/2024/KKP/d4',
             'https://www.youtube.com/watch?v=8KtdCrgRpOc',
             'https://www.youtube.com/watch?v=b4xly5c1uj0',
             'https://www.youtube.com/watch?v=5qnkvAx7M4I',

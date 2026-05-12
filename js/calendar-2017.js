@@ -990,6 +990,7 @@ let events2017 = [
         name: '59-й Чемпионат и первенство СПб - марафон',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/5260',
+        video: 'http://northernwind.spb.ru/videosplit/2018/chspb_marathon',
         owner: 'SFSO_SPB',
         o_site: '170924',
         reskeep: 236

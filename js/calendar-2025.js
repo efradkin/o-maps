@@ -29,10 +29,7 @@ let events2025 = [
         res: 'https://multsport.ru/starts/winter-rogaine-25/results.html',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21398/',
         photo: 'https://vk.com/album-8292013_308226055',
-        coord: [
-            60.40604868944981,
-            30.322716236114506
-        ],
+        coord: [60.40604868944981, 30.322716236114506],
         start: 'MULTSPORT'
     },
     {
@@ -2238,6 +2235,7 @@ let events2025 = [
             'http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day1/',
             'http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day2/',
             'http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day3/',
+            'http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day3/festival',
             'https://rutube.ru/video/797a428cd6245962c61c9385092ac1b3/',
             'https://rutube.ru/video/ccbae3f2817a06db737c95a340823929/'
         ],

@@ -156,7 +156,8 @@ let events2018 = [
         name: 'Первенство России, Цвелодубово',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180212/4komandnye.rar',
-        owner: 'SFSO_LO',
+        video: 'http://northernwind.spb.ru/videosplit/2018/PervenstvoRussia',
+        owner: 'FSOR',
         o_site: '180212'
     },
     {
@@ -715,18 +716,17 @@ let events2018 = [
         reg: 'http://sportident.ru/entry/event_info.php?id=3624',
         res: 'http://moscompass.ru/news/2018/20180618.htm',
         video: [
+            'http://northernwind.spb.ru/videosplit/2018//kkp/day1',
+            'http://northernwind.spb.ru/videosplit/2018//kkp/day2',
+            'http://northernwind.spb.ru/videosplit/2018//kkp/day3',
+            'http://northernwind.spb.ru/videosplit/2018//kkp/day4',
             'https://www.youtube.com/watch?v=2_8qq972LFc',
             'https://www.youtube.com/watch?v=bHNLjeT8PH8',
             'https://www.youtube.com/watch?v=PQjKShU4L1k'
         ],
         start: 'KKP',
         o_site: '180617-18',
-        reskeep: [
-            13,
-            12,
-            11,
-            84
-        ]
+        reskeep: [13, 12, 11, 84]
     },
     {
         id: 'SPB_20180622_1',
@@ -738,11 +738,7 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/180622mms/1rez.htm',
         start: 'MMS',
         o_site: '180622mms',
-        reskeep: [
-            9,
-            8,
-            7
-        ]
+        reskeep: [9, 8, 7]
     },
     {
         id: 'SPB_20180625_1',
@@ -767,11 +763,7 @@ let events2018 = [
         owner: 'WN',
         start: 'WN',
         o_site: '180701',
-        reskeep: [
-            6,
-            4,
-            2
-        ]
+        reskeep: [6, 4, 2]
     },
     {
         id: 'SPB_20180630_1',
@@ -1003,7 +995,10 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=925',
         res: 'https://o-site.spb.ru/_races/180908/res.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга»',
-        video: 'http://vimeo.com/291593417',
+        video: [
+            'http://northernwind.spb.ru/videosplit/2018/chspb_relay2',
+            'http://vimeo.com/291593417'
+        ],
         owner: 'SFSO_SPB',
         o_site: '180908',
         reskeep: 48
@@ -1248,6 +1243,7 @@ let events2018 = [
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» КСО «Веста»',
         owner: 'SFSO_SPB',
         o_site: '180930',
+        video: 'http://northernwind.spb.ru/videosplit/2018/chspb_relay3',
         reskeep: 231
     },
     {
@@ -1297,6 +1293,7 @@ let events2018 = [
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга»',
         owner: 'SFSO_SPB',
         o_site: '181007',
+        video: 'http://northernwind.spb.ru/videosplit/2018/chspb_middle',
         reskeep: 57
     },
     {
@@ -1547,12 +1544,7 @@ let events2018 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/181110Gel/res1.htm',
         o_site: '181110Gel',
-        reskeep: [
-            87,
-            89,
-            90,
-            88
-        ]
+        reskeep: [87, 89, 90, 88]
     },
     {
         id: 'SPB_20181111_1',
