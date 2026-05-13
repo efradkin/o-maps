@@ -1133,6 +1133,7 @@ let events2026 = [
         o_site: '260509',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1728',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24950/',
+        photo: 'https://vk.com/album-154221178_311076066',
         type: 'ORIENT',
         fmt: 'классика',
         owner: 'SFSO_SPB',
