@@ -1243,7 +1243,8 @@ let events2026 = [
         date: '2026-05-17',
         name: 'ЧиП СПб',
         place: 'Поляны',
-        o_site: '170426_open_season',
+        reg: ['http://o-reg.spb.ru/?filter[day_id]=1733','http://o-reg.spb.ru/?filter[day_id]=1732'],
+        o_site: '260517',
         type: 'ORIENT',
         fmt: 'эстафета 3х',
         map: 'polyany_2019',
@@ -1284,9 +1285,11 @@ let events2026 = [
         id: 'SPB_20260520_2',
         date: '2026-05-20',
         name: 'П-во ГБУ ДЮЦ Московского р-на СПб',
+        place: 'Московский парк Победы',
         type: 'ORIENT',
         fmt: 'выбор',
-        reg: 'https://orgeo.ru/event/permosk26'
+        reg: 'https://orgeo.ru/event/permosk26',
+        map: 'park_pobedy_2025'
     },
     {
         id: 'SPB_20260520_1',
@@ -1303,6 +1306,7 @@ let events2026 = [
         name: 'Международные соревнования',
         place: 'Стеклянный',
         o_site: 'velo2026',
+        reg: 'http://sportident.online/entry/?id=7099',
         type: 'VELO',
         fmt: 'классика, масстарт',
         owner: 'SFSO_SPB',
@@ -1313,6 +1317,7 @@ let events2026 = [
         date: '2026-05-23',
         endDate: '2026-05-24',
         name: 'Майские старты',
+        reg: ['http://o-reg.spb.ru/?filter[day_id]=1734','http://o-reg.spb.ru/?filter[day_id]=1735'],
         place: 'Орехово',
         o_site: '260524',
         type: 'ORIENT',
@@ -1363,7 +1368,8 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/info/50670',
         type: 'ROGAINE',
         fmt: '5, 2.5',
-        owner: 'LM'
+        owner: 'LM',
+        map: 'novgorod_rogaine_2024_09_08'
     },
     {
         id: 'SPB_20260527_1',
@@ -1379,6 +1385,7 @@ let events2026 = [
         name: 'ЧиП СПб',
         place: 'Гаврилово',
         o_site: '260530_SPB',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1740',
         type: 'ORIENT',
         fmt: 'эстафета 2х',
         map: 'gavrilovo_2014',
@@ -1390,6 +1397,7 @@ let events2026 = [
         name: 'ЧиП ЛО',
         place: 'Гаврилово',
         o_site: '260530_LO',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1741',
         type: 'ORIENT',
         fmt: 'эстафета 2х',
         map: 'gavrilovo_2014',
@@ -1412,6 +1420,9 @@ let events2026 = [
         id: 'SPB_20260530_3',
         date: '2026-05-30',
         name: 'Турслёт СПЛАВ',
+        place: 'Тверская обл, р Тьма',
+        link: 'https://race.splav.ru/',
+        reg: 'https://myrace.info/events/1570',
         type: 'ROGAINE',
         fmt: '4, 8',
         start: 'MULTSPORT'
