@@ -4320,6 +4320,19 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Любицы',
+        date: '2026-05-10',
+        url: './maps/moscow/lr/lubitsy_rogaine_2026.webp',
+        link: 'https://rogaine.ru/results/sr2026/spring2026_map.jpg',
+        info: 'Весенний Компот-рогейн.',
+        about: 'https://www.x-lite.run/sr2026',
+        bounds: [[55.06288694922901, 36.61683082580567], [55.039729066960504, 36.81844711303712], [54.96234080948224, 36.58189773559571]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24913/',
+        owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Васильево',
         date: '2020-09-05',
         url: './maps/moscow/vasilevo_rogaine_2020.webp',
