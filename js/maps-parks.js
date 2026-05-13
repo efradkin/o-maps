@@ -751,7 +751,7 @@ let parkMaps = [
         name: 'Гатчина, Приоратский парк',
         year: 2021,
         url: './maps/parks/gatchina_prioratsky_2021.webp',
-        link: './original_maps/parks/gatchina_prioratsky_2021_omaps.jpg',
+        link: './original_maps/parks/gatchina_prioratsky_2021_omaps.webp',
         bounds: [[59.56522340529709, 30.11159420013428], [59.562527651928654, 30.137000083923343], [59.544869479437935, 30.1030969619751]],
         author: ['DBRTSV_V','KTS_JU'],
         owner: 'SHEIN',
