@@ -1158,7 +1158,7 @@ let events2026 = [
         o_site: '260510_zg',
         reg: 'http://orgeo.ru/event/info/51859',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24987/',
-        video: ['https://northernwind.spb.ru/videosplit/2026/zg/prolog/','https://northernwind.spb.ru/videosplit/2026/zg/final/'],
+        video: ['https://northernwind.spb.ru/videosplit/2026/zg/prolog/','https://northernwind.spb.ru/videosplit/2026/zg/final/','https://vk.ru/clip-220245153_456239092'],
         photo: 'https://disk.yandex.ru/d/B1vm2-LHb5QGFg',
         strava: 18450079774,
         me: 'Фитнес-А',
@@ -1264,10 +1264,11 @@ let events2026 = [
     {
         id: 'SPB_20260517_3',
         date: '2026-05-17',
-        name: 'Спартакиада семейных команд Красногвардейского р-на',
+        name: 'Физкульт-мероприятие Красногвардейского р-на',
         place: 'Полюстровский парк',
+        reg: 'https://orgeo.ru/event/info/52834',
         link: 'https://vk.com/wall-21809767_52830',
-        type: 'FUN',
+        type: 'ORIENT',
         map: 'polyustrovsky_2022',
     },
     {
