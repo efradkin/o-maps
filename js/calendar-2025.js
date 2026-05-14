@@ -897,13 +897,12 @@ let events2025 = [
         id: 'SPB_20250517_2',
         date: '2025-05-17',
         name: 'Весенний водный рогейн',
+        place: 'клуб Яркое',
         link: 'http://www.multsport.ru/starts/canoe-rogaine-2025/',
-        type: [
-            'ROGAINE',
-            'WATER'
-        ],
+        type: ['ROGAINE', 'WATER'],
         fmt: '4, 8, 16',
         gps: 'http://viewer.o-gps-center.ru/viewer/event/22639/',
+        res: 'https://www.multsport.ru/starts/canoe-rogaine-2025/results.html',
         map: 'vuoksa_rogaine_2019',
         start: 'MULTSPORT'
     },
@@ -1071,6 +1070,7 @@ let events2025 = [
         type: 'ROGAINE',
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/info/40559',
+        res: 'https://vk.com/wall-30311715_2246',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22755/',
         map: 'red_valley_2025',
         start: 'BA'
@@ -1098,6 +1098,7 @@ let events2025 = [
         type: 'ROGAINE',
         link: 'https://vk.com/wall-199133936_3955',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22733/',
+        res: 'https://vk.com/wall-199133936_3994',
         map: 'english_2010',
         strava: 14650299222,
         me: 'М'
@@ -1208,6 +1209,7 @@ let events2025 = [
         type: 'MULTI',
         link: 'https://adventure-race.redfox.ru/docs/rules/',
         reg: 'https://adventure-race.redfox.ru/applications/',
+        res: 'https://adventure-race.redfox.ru/archive/archive_2025/results/',
         gps: {
             'Official': 'https://viewer.o-gps-center.ru/viewer/event/22778/',
             'Other': 'https://viewer.o-gps-center.ru/viewer/event/22877/'
@@ -1653,6 +1655,7 @@ let events2025 = [
         type: 'ROGAINE',
         link: 'https://www.multsport.ru/starts/klo-sar-25/',
         reg: 'https://www.multsport.ru/starts/klo-sar-25/registration.html',
+        res: 'https://www.multsport.ru/starts/klo-sar-25/results.html',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23326/',
         photo: 'https://vk.com/album-8292013_310872932',
         coord: [
@@ -1817,6 +1820,7 @@ let events2025 = [
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/info/45324',
+        res: 'https://vk.com/wall-91656163_2616',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23387/',
         photo: 'https://vk.com/album-91656163_311027241',
         map: 'luga_shalovo_lm_2023',
@@ -1897,10 +1901,11 @@ let events2025 = [
         id: 'SPB_20250920_1',
         date: '2025-09-20',
         place: 'Молодежное',
-        name: 'Горный кросс',
+        name: 'Горный кросс-109',
         fmt: '2, 5',
         type: 'ROGAINE',
         reg: 'https://orgeo.ru/event/39879',
+        res: 'https://vk.com/wall-31941981_4738',
         photo: 'https://vk.com/album-31941981_308581632',
         video: 'https://vk.com/video-31941981_456239087',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23457/',
@@ -2541,6 +2546,8 @@ let events2025 = [
         fmt: '1:30',
         type: 'ROGAINE',
         link: 'https://vk.ru/wall-201330282_1964',
+        photo: 'https://vk.com/album-201330282_308897632',
+        res: 'https://vk.ru/wall-201330282_1996',
         map: 'sosnovij_bor_2021',
         owner: 'YUVENTA'
     },
@@ -2922,6 +2929,7 @@ let events2025 = [
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/44912',
+        res: 'https://vk.com/wall-91656163_2657',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23931/',
         video: [
             'https://disk.yandex.ru/i/PgKHbpnYhPkdJQ',

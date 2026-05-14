@@ -249,13 +249,11 @@ let events2026 = [
         date: '2026-02-07',
         place: 'Луга, оз Штоль',
         name: 'ЛужSki рогейн',
-        type: [
-            'ROGAINE',
-            'SKI'
-        ],
+        type: ['ROGAINE', 'SKI'],
         fmt: '6, 3',
         link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/48867',
+        res: 'https://vk.com/wall-166397868_5191',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24208/',
         photo: 'https://vk.ru/album-166397868_310108895',
         map: 'omchino_luzhsky_2022',
@@ -490,12 +488,10 @@ let events2026 = [
         link: 'https://vk.com/skiadventure',
         o_site: '260308_ski_adv',
         reg: 'https://orgeo.ru/event/ski_adventure_2026',
+        res: 'https://vk.com/wall-224681305_16',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24374/',
         photo: 'https://vk.com/album-224681305_310355992',
-        type: [
-            'ROGAINE',
-            'SKI'
-        ],
+        type: ['ROGAINE', 'SKI'],
         fmt: '5, 3',
         map: 'shapki_KKM_2020_12',
     },
@@ -786,6 +782,7 @@ let events2026 = [
         type: 'ROGAINE',
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/49261',
+        res: 'https://vk.com/wall-91656163_2708',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24697/',
         photo: 'https://vk.com/album-91656163_313208177',
         map: 'luga_shalovo_lm_2023',
@@ -986,6 +983,7 @@ let events2026 = [
         link: 'https://vk.com/wall-166397868_5268',
         reg: 'https://orgeo.ru/event/48937',
         photo: 'https://vk.ru/album-166397868_310913468',
+        res: 'https://vk.com/wall-166397868_5294',
         gps: {
             '1':'https://viewer.o-gps-center.ru/viewer/event/24859/',
             '2':'https://viewer.o-gps-center.ru/viewer/event/24863/'
