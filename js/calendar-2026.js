@@ -1556,15 +1556,6 @@ let events2026 = [
         start: 'HARD'
     },
     {
-        id: 'SPB_20260627_2',
-        date: '2026-06-27',
-        name: 'Рогейн на холмах Яппиля (ККР №2)',
-        place: 'Яппиля, Заовражные оз',
-        type: 'ROGAINE',
-        fmt: '4',
-        owner: 'SHBN'
-    },
-    {
         id: 'SPB_20260628_1',
         date: '2026-06-28',
         endDate: '2026-06-30',
@@ -1619,6 +1610,7 @@ let events2026 = [
         date: '2026-07-25',
         place: 'Луга, оз Малые Толони',
         name: 'Лужский приключенческий рогейн',
+        reg: 'https://orgeo.ru/event/48939',
         info: '"Трое из Простоквашино".',
         type: 'ROGAINE',
         fmt: '16, 6',
@@ -1643,10 +1635,12 @@ let events2026 = [
         type: 'ORIENT',
     },
     {
-        id: 'SPB_20260808_1',
+        id: 'SPB_20260627_2',
         date: '2026-08-08',
-        place: 'Зеленогорск, Ламмин-Суо',
-        name: 'Кубок коротких рогейнов №3',
+        name: 'Рогейн на холмах Яппиля (ККР №2)',
+        place: 'Яппиля, Заовражные оз',
+        reg: 'https://orgeo.ru/event/48938',
+        link: 'https://vk.com/event166397868',
         type: 'ROGAINE',
         fmt: '4',
         owner: 'SHBN'
@@ -1770,12 +1764,13 @@ let events2026 = [
         map: 'zerkalny_2002'
     },
     {
-        id: 'SPB_20260926_1',
+        id: 'SPB_20260808_1',
         date: '2026-09-26',
-        place: 'Луга, Золотой пляж',
-        name: 'Кубок коротких рогейнов №4',
+        place: 'Зеленогорск, Ламмин-Суо',
+        name: 'Кубок коротких рогейнов №3',
+        reg: 'https://orgeo.ru/event/48941',
         type: 'ROGAINE',
-        fmt: '3',
+        fmt: '4',
         owner: 'SHBN'
     },
     {
@@ -1891,6 +1886,7 @@ let events2026 = [
         date: '2026-11-14',
         place: 'Луга, б/о Штоль',
         name: 'Рогейн на Лужских берегах (ККР №5)',
+        reg: 'https://orgeo.ru/event/48943',
         fmt: '6, 3',
         type: 'ROGAINE',
         map: 'omchino_luzhsky_2022',
