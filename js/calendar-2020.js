@@ -51,7 +51,8 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 10 этап',
         type: 'ORIENT',
         reskeep: 299,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 3022109211
     },
     {
         id: 'SPB_20200119_1',
@@ -73,7 +74,8 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1124',
         res: 'https://o-site.spb.ru/_races/200119_MT/200119_rez.htm',
         o_site: '200119_MT',
-        reskeep: 204
+        reskeep: 204,
+        strava: 3024830806
     },
     {
         id: 'SPB_20200119_3',
@@ -101,7 +103,8 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1126',
         res: 'http://orgeo.ru/live/#/11853',
         o_site: '200126',
-        reskeep: 301
+        reskeep: 301,
+        strava: 3045063542
     },
     {
         id: 'SPB_20200126_2',
@@ -121,7 +124,8 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 12 этап',
         type: 'ORIENT',
         reskeep: 306,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 3062434549
     },
     {
         id: 'SPB_20200202_1',
@@ -148,14 +152,12 @@ let events2020 = [
         endDate: '2020-02-09',
         place: 'Орехово',
         name: 'Зимний Кубок СФСО СПб, День зимних видов спорта',
-        type: 'SKI',
+        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/200209/200208_res.htm',
         o_site: '200209',
-        reskeep: [
-            313,
-            314
-        ]
+        reskeep: [313, 314],
+        strava: 3082595136
     },
     {
         id: 'SPB_20200208_2',
@@ -195,7 +197,8 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 13 этап',
         type: 'ORIENT',
         reskeep: 315,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 3105111861
     },
     {
         id: 'SPB_20200223_1',
@@ -213,7 +216,8 @@ let events2020 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1141',
         res: 'https://o-site.spb.ru/_races/200223/200223_res.htm',
         o_site: '200223',
-        reskeep: 317
+        reskeep: 317,
+        strava: 3125516594
     },
     {
         id: 'SPB_20200224_1',
@@ -222,7 +226,8 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 14 этап',
         type: 'ORIENT',
         reskeep: 316,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 3128039116
     },
     {
         id: 'SPB_20200229_1',
@@ -245,7 +250,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200301/200301_res.htm',
         photo: 'http://vk.com/album-154221178_270678590',
         o_site: '200301',
-        reskeep: 318
+        reskeep: 318,
+        strava: 3144811128
     },
     {
         id: 'SPB_20200307_1',
@@ -259,7 +265,8 @@ let events2020 = [
         video: 'http://vk.com/video-36099352_456240633',
         owner: 'SFSO_SPB',
         o_site: '200307',
-        reskeep: 323
+        reskeep: 323,
+        strava: 3161969050
     },
     {
         id: 'SPB_20200308_1',
@@ -270,10 +277,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/20030809/200308_res.html',
         start: 'VSEV_VESTI',
         o_site: '20030809',
-        reskeep: [
-            324,
-            325
-        ]
+        reskeep: [324, 325],
+        strava: 3168300659
     },
     {
         id: 'SPB_20200311_1',
@@ -308,7 +313,8 @@ let events2020 = [
         name: 'Кубок Белых Ночей 2019/20. 16 этап',
         type: 'ORIENT',
         reskeep: 331,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 3185721188
     },
     {
         id: 'SPB_20200321_1',
@@ -317,7 +323,8 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 17 этап',
         type: 'ORIENT',
         reskeep: 332,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 3203763422
     },
     {
         id: 'SPB_20200321_2',
@@ -337,12 +344,8 @@ let events2020 = [
         info: 'Серия тренировочных стартов, проводимая клубом Белые Ночи 1-й этап 28.09.19 Васкелово Результаты Сплиты 2-й этап 05.10.19 Черные озера Результаты Сплиты 3-й этап 19.10.19 Ильичево Результаты Сплиты 4-й этап 26.10.19 Петяярви Результаты Сплиты 5-й этап 02.11.19 Пухтолова гора Результаты Сплиты 6-й этап 03.11.19 Первомайское Результаты Сплиты 7-й этап 23.11.19 Воейково Результаты Сплиты 8-й этап 07.12.19 Болотная станция Результаты Сплиты 9-й этап 14.12.19 Голубая дача Результаты Сплиты 10-й этап 18.01.20 Охта-парк Результаты Сплиты 11-й этап 25.01.20 Сестрорецкие дюны Результаты Сплиты 12-й этап 01.02.20 Кавголово Результаты Сплиты 13-й этап 16.02.20 Петяярви Результаты Сплиты 14-й этап 24.02.20 Петяярви, Кентавр Результаты Сплиты 15-й этап 14.03.20 Васкелово Результаты Сплиты 16-й этап 15.03.20 оз. Щучье Результаты Сплиты',
         owner: 'WN',
         o_site: '2020BN',
-        reskeep: [
-            330,
-            331,
-            332,
-            333
-        ]
+        reskeep: [330, 331, 332, 333],
+        strava: 3207395628
     },
     {
         id: 'SPB_20200324_1',
@@ -479,6 +482,14 @@ let events2020 = [
         o_site: '200601'
     },
     {
+        id: 'SPB_20200606_1',
+        date: '2020-06-06',
+        name: 'Serebruanitskii Cup',
+        place: 'Первомайское',
+        type: 'ORIENT',
+        strava: 3573558841
+    },
+    {
         id: 'SPB_20200612_1',
         date: '2020-06-12',
         endDate: '2020-06-13',
@@ -556,11 +567,12 @@ let events2020 = [
     },
     {
         id: 'SPB_20200628_1',
-        date: '2020-06-28',
-        place: 'Орехово',
+        date: '2020-06-27',
+        place: 'Лемболово',
         name: 'Serebruanitskii Cup 2',
         type: 'ORIENT',
-        reskeep: 337
+        reskeep: 337,
+        strava: 3678989747
     },
     {
         id: 'SPB_20200628_2',
@@ -569,7 +581,8 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 2 этап',
         type: 'ORIENT',
         reskeep: 341,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 3684263519
     },
     {
         id: 'SPB_20200629_1',
@@ -588,7 +601,8 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 3 этап',
         type: 'ORIENT',
         reskeep: 338,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 3712534014
     },
     {
         id: 'SPB_20200704_2',
@@ -633,7 +647,8 @@ let events2020 = [
         place: 'Ягодное',
         name: 'Тренировочный старт Яркого Мира. Техника и Тактика 2',
         type: 'ORIENT',
-        reskeep: 335
+        reskeep: 335,
+        strava: 3751749892
     },
     {
         id: 'SPB_20200718_1',
@@ -641,7 +656,8 @@ let events2020 = [
         place: 'Стеклянный',
         name: 'Serebruanitskii Cup 3',
         type: 'ORIENT',
-        reskeep: 343
+        reskeep: 343,
+        strava: 3780635030
     },
     {
         id: 'SPB_20200718_2',
@@ -774,7 +790,8 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 9 этап',
         type: 'ORIENT',
         reskeep: 353,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 3917161372
     },
     {
         id: 'SPB_20200816_1',
@@ -783,7 +800,8 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 10 этап',
         type: 'ORIENT',
         reskeep: 355,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 3921872660
     },
     {
         id: 'SPB_20200822_1',
@@ -867,6 +885,14 @@ let events2020 = [
         reskeep: 358
     },
     {
+        id: 'SPB_20200830_2',
+        date: '2020-08-30',
+        place: 'Мельничный ручей',
+        name: 'Техника и тактика. 5 этап',
+        type: 'ORIENT',
+        strava: 3987228924
+    },
+    {
         id: 'SPB_20200901_1',
         date: '2020-09-01',
         name: 'Кузьмоловские старты',
@@ -911,10 +937,8 @@ let events2020 = [
         info: 'Чемпионат и Первенство Ленинградской области по спортивному ориентированию «СОСНОВОБОРСКИЕ ДЮНЫ - 2020» Открытое первенство города Сосновый Бор по спортивному ориентированию.',
         owner: 'YUVENTA',
         o_site: '200905-06',
-        reskeep: [
-            360,
-            361
-        ]
+        reskeep: [360, 361],
+        strava: [4015648137,4020971362]
     },
     {
         id: 'SPB_20200905_3',
@@ -1046,7 +1070,8 @@ let events2020 = [
         name: 'White Nights Middle',
         type: 'ORIENT',
         reskeep: 368,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 4083562005
     },
     {
         id: 'SPB_20200919_3',
@@ -1175,7 +1200,8 @@ let events2020 = [
         name: 'Кубок Белых ночей 2019/20. 3 этап',
         type: 'ORIENT',
         reskeep: 381,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 4119219789
     },
     {
         id: 'SPB_20201003_1',
@@ -1203,7 +1229,8 @@ let events2020 = [
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга. СПб ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
         owner: 'SFSO_SPB',
         o_site: '201004',
-        reskeep: 383
+        reskeep: 383,
+        strava: 4149550319
     },
     {
         id: 'SPB_20201010_1',
@@ -1211,10 +1238,8 @@ let events2020 = [
         place: 'Яппиля',
         name: 'Антиковидная эстафета',
         type: 'ORIENT',
-        reskeep: [
-            384,
-            385
-        ]
+        reskeep: [384, 385],
+        strava: 4176309175
     },
     {
         id: 'SPB_20201010_2',
@@ -1243,7 +1268,8 @@ let events2020 = [
         name: 'Кубок Белых ночей 2019/20. 4 этап',
         type: 'ORIENT',
         reskeep: 386,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 4181510517
     },
     {
         id: 'SPB_20201017_1',
@@ -1291,7 +1317,8 @@ let events2020 = [
         name: 'Кубок Белых Ночей 2019/20. 5 этап',
         type: 'ORIENT',
         reskeep: 389,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 4212065523
     },
     {
         id: 'SPB_20201024_1',
@@ -1313,7 +1340,8 @@ let events2020 = [
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга. СПб ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
         owner: 'SFSO_SPB',
         o_site: '201024_relay',
-        reskeep: 390
+        reskeep: 390,
+        strava: 4236692958
     },
     {
         id: 'SPB_20201025_1',
@@ -1327,7 +1355,8 @@ let events2020 = [
             'https://rutube.ru/video/1f5933100cc56ae8255dd9594f27ddc9/'
         ],
         owner: 'SFSO_LO',
-        o_site: '201025LO'
+        o_site: '201025LO',
+        strava: 4242108810
     },
     {
         id: 'SPB_20201031_1',
@@ -1348,7 +1377,8 @@ let events2020 = [
         name: 'Sprint Tour SPb - 2020. 5 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 388
+        reskeep: 388,
+        strava: 4265390438
     },
     {
         id: 'SPB_20201031_3',
@@ -1367,7 +1397,8 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1193',
         res: 'https://o-site.spb.ru/_races/201101_perspectiva/201101_res.htm',
         o_site: '201101_perspectiva',
-        reskeep: 392
+        reskeep: 392,
+        strava: 4270412163
     },
     {
         id: 'SPB_20201107_1',
@@ -1377,7 +1408,8 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/200711/201107_rez3.htm',
         o_site: '200711',
-        reskeep: 393
+        reskeep: 393,
+        strava: 4300602827
     },
     {
         id: 'SPB_20201107_2',
@@ -1401,11 +1433,13 @@ let events2020 = [
         id: 'SPB_20201108_2',
         date: '2020-11-08',
         name: 'Индивидуальная тренировка Перспектива - 2',
+        place: 'Орехово',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1197',
         res: 'https://o-site.spb.ru/_races/201108_perspectiva_2/201108_relay.htm',
         o_site: '201108_perspectiva_2',
-        reskeep: 395
+        reskeep: 395,
+        strava: 4308179205
     },
     {
         id: 'SPB_20201108_3',
@@ -1433,7 +1467,8 @@ let events2020 = [
         info: 'МНОГОЭТАПНЫЙ КУБОК ПО РОГЕЙНУ ГК-72 - сплиты - результаты - 11.01 - Орехово ГК-73 - 05.05 - оз.Омчино ГК-74 - 30-31.05 - Кузнечное ГК-75 - 11.07 - Орехово ГК-76 - 29-30.08 - г.Себеж, Псковская обл. ГК-77 - 26.09 - Молодежное ГК-78 - 14.11 - Зеленогорск (финал)',
         fmt: 'Рогейн; 7 и 3 часа БЕГ; 6 часа ВЕЛО; трейл',
         start: 'GORNY_CROSS',
-        o_site: '2020GK'
+        o_site: '2020GK',
+        strava: 4335235686
     },
     {
         id: 'SPB_20201114_2',
@@ -1452,7 +1487,8 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1192',
         res: 'https://o-site.spb.ru/_races/201115_110/201115_res.htm',
         start: 'ROGAINE_110',
-        o_site: '201115_110'
+        o_site: '201115_110',
+        strava: 4343003862
     },
     {
         id: 'SPB_20201115_2',
@@ -1483,7 +1519,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201122_gulfstream_long/201122_res.htm',
         info: '22 ноября в Орехово состоится тренировка КСО "Гольфстрим". В программе "Лонг. Общий старт." Начало стартов с 11.30. Бюллетень будет опубликован до 11 ноября.',
         o_site: '201122_gulfstream_long',
-        reskeep: 402
+        reskeep: 402,
+        strava: 4374011250
     },
     {
         id: 'SPB_20201122_2',
@@ -1510,7 +1547,8 @@ let events2020 = [
         name: 'White Nights middle. 2 этап',
         type: 'ORIENT',
         reskeep: 405,
-        owner: 'WN'
+        owner: 'WN',
+        strava: 4401434704
     },
     {
         id: 'SPB_20201129_1',
@@ -1521,7 +1559,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201129/201129_split1.htm',
         owner: 'SFSO_LO',
         o_site: '201129',
-        reskeep: 404
+        reskeep: 404,
+        strava: 4406137257
     },
     {
         id: 'SPB_20201129_2',
@@ -1554,7 +1593,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/2020TT/201206_split3.htm',
         info: 'Тренировочный старт от Яркого Мира',
         o_site: '2020TT',
-        reskeep: 403
+        reskeep: 403,
+        strava: 4437026952
     },
     {
         id: 'SPB_20201212_1',
@@ -1576,7 +1616,8 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1209',
         res: 'https://o-site.spb.ru/_races/201212/201212_rez.htm',
         o_site: '201212',
-        reskeep: 408
+        reskeep: 408,
+        strava: 4462507622
     },
     {
         id: 'SPB_20201213_1',
@@ -1598,7 +1639,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201213_1/201213_res.htm',
         info: 'Индивидуальная тренировка от клуба Аврора',
         o_site: '201213_1',
-        reskeep: 411
+        reskeep: 411,
+        strava: 4465890784
     },
     {
         id: 'SPB_20201213_3',
@@ -1628,7 +1670,8 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1213',
         res: 'https://o-site.spb.ru/_races/201220_bn/201220_res.htm',
         o_site: '201220_bn',
-        reskeep: 412
+        reskeep: 412,
+        strava: 4494278879
     },
     {
         id: 'SPB_20201226_1',
@@ -1639,7 +1682,8 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1214',
         res: 'https://o-site.spb.ru/_races/201226/201226_RES.htm',
         o_site: '201226',
-        reskeep: 415
+        reskeep: 415,
+        strava: 4519141764
     },
     {
         id: 'SPB_20201227_1',
@@ -1660,7 +1704,8 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1208',
         res: 'https://o-site.spb.ru/_races/201227/201227_res_1.htm',
-        o_site: '201227'
+        o_site: '201227',
+        strava: 4524905096
     },
     {
         id: 'SPB_20201231_1',

@@ -532,6 +532,16 @@ let parkMaps = [
         type: ['PARK']
     },
     {
+        name: 'ЦПКиО, Елагин остров',
+        year: 2020,
+        url: './maps/parks/elagin_2020.webp',
+        link: ['./original_maps/parks/elagin_2020_omaps.webp','./original_maps/parks/elagin_2020_courses_A_B_omaps.pdf','./original_maps/parks/elagin_2020_course_C_omaps.pdf','./original_maps/parks/elagin_2020_tasks_A_B_omaps.pdf','./original_maps/parks/elagin_2020_tasks_C_omaps.pdf','./original_maps/parks/elagin_2020_info_omaps.pdf'],
+        about: 'https://elaginpark.org/events/otkrytaya-interaktivnaya-igry-sredi-shkolnykh-sportivnykh-klubov-obshcheobrazovatelnykh-uchrezhdeniy/',
+        bounds: [[59.98456297985705, 30.236306190490726], [59.982008226781396, 30.275573730468754], [59.97676929290612, 30.234847068786625]],
+        author: ['DBRTSV_V','BBCH_A'],
+        type: ['PARK','FOTO']
+    },
+    {
         name: 'Александрино, север',
         year: 2013,
         url: './maps/parks/aleksandrino_north.webp',

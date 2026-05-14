@@ -1274,6 +1274,18 @@ let events2026 = [
         map: 'polyustrovsky_2022',
     },
     {
+        id: 'SPB_20260517_4',
+        date: '2026-05-17',
+        name: 'Старт для новичков от Длительных и Across the Runiverse',
+        place: 'Газовая, 10',
+        reg: 'https://forms.gle/4EmFAa7i7vjhVens8',
+        link: 'https://t.me/across_the_runiverse/16306',
+        type: 'ORIENT',
+        map: 'gazovaya_2025',
+        owner: 'DLITELNY',
+        logo: 'across.gif'
+    },
+    {
         id: 'SPB_20260519_1',
         date: '2026-05-19',
         name: 'Тренировка от Феникса',
@@ -1381,6 +1393,15 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         start: 'ST',
+    },
+    {
+        id: 'SPB_20260528_1',
+        date: '2026-05-28',
+        name: 'Чемпионата России по спорту лиц с ПОДА',
+        type: 'SPECIAL',
+        fmt: 'трейл-о + м.б. спринт',
+        owner: 'SFSO_SPB',
+        major: true
     },
     {
         id: 'SPB_20260530_1',

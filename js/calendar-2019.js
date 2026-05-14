@@ -1354,7 +1354,8 @@ let events2019 = [
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_middle',
         owner: 'SFSO_SPB',
         o_site: '191006',
-        reskeep: 272
+        reskeep: 272,
+        strava: 2767801547
     },
     {
         id: 'SPB_20191009_1',
@@ -1460,10 +1461,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191019-20/res1.htm',
         owner: 'VYBORG',
         o_site: '191019-20',
-        reskeep: [
-            279,
-            280
-        ]
+        reskeep: [279, 280]
     },
     {
         id: 'SPB_20191020_1',
@@ -1651,7 +1649,8 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1111',
         res: 'https://o-site.spb.ru/_races/191124_MaTreshka/191124_MT_rez.htm',
         o_site: '191124_MaTreshka',
-        reskeep: 203
+        reskeep: 203,
+        strava: 2888276292
     },
     {
         id: 'SPB_20191130_1',
@@ -1663,7 +1662,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191130_NatAlka/Split_191130.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
-        o_site: '191130_NatAlka'
+        o_site: '191130_NatAlka',
+        strava: 2901197392
     },
     {
         id: 'SPB_20191201_1',
@@ -1704,6 +1704,14 @@ let events2019 = [
         o_site: '191214_trail'
     },
     {
+        id: 'SPB_20191214_2',
+        date: '2019-12-14',
+        name: 'Кубок Белых ночей',
+        place: 'Орово',
+        type: 'ORIENT',
+        strava: 2932167797
+    },
+    {
         id: 'SPB_20191215_1',
         date: '2019-12-15',
         place: 'г.Пушкин, Отдельный парк',
@@ -1712,7 +1720,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191215/res1.htm',
         owner: 'SFSO_SPB',
         o_site: '191215',
-        reskeep: 290
+        reskeep: 290,
+        strava: 2934300689
     },
     {
         id: 'SPB_20191222_1',
@@ -1723,7 +1732,8 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1121',
         res: 'https://o-site.spb.ru/_races/191222_bn/191222_res1.htm',
         o_site: '191222_bn',
-        reskeep: 293
+        reskeep: 293,
+        strava: 2949194183
     },
     {
         id: 'SPB_20191229_1',
@@ -1745,7 +1755,8 @@ let events2019 = [
         res: 'http://reg.o-time.ru/result/19236.htm',
         photo: 'http://vk.com/im?peers=6458237_1999448&sel=45910846&z=album-134105684_267848134',
         o_site: '191229_o',
-        reskeep: 294
+        reskeep: 294,
+        strava: 2965096359
     },
     {
         id: 'SPB_20191231_1',
