@@ -1325,6 +1325,7 @@ let events2026 = [
         type: 'VELO',
         fmt: 'классика, масстарт',
         owner: 'SFSO_SPB',
+        major: true,
         map: 'silande_velo_2025'
     },
     {
@@ -1591,10 +1592,7 @@ let events2026 = [
         date: '2026-07-11',
         name: 'Былинный рогейн + ориент',
         o_site: '260711_rog',
-        type: [
-            'ROGAINE',
-            'ORIENT'
-        ],
+        type: ['ROGAINE', 'ORIENT'],
         owner: 'WN'
     },
     {

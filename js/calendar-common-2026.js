@@ -208,6 +208,7 @@ let commonEvents2026 = [
     major: true,
     name: 'Чемпионат России по рогейну',
     link: 'https://rogaining.ru/events/calendar/event/754-rrc2026',
+    reg: 'https://www.multsport.ru/starts/rogaine-rus-2026/registration.html',
     fmt:  '24',
     type: 'ROGAINE',
     start: 'MULTSPORT'
@@ -375,6 +376,7 @@ let commonEvents2026 = [
     type: 'MULTI',
     link: 'https://adventure-race.redfox.ru/docs/rules/',
     reg: 'https://adventure-race.redfox.ru/applications/',
+    major: true,
     start: 'RFAR',
 },
 {
@@ -388,6 +390,7 @@ let commonEvents2026 = [
     reg: 'https://sportident.online/entry/?id=6855',
     type: 'ORIENT',
     map: 'kkp_prudy_2019_06_19',
+    major: true,
     start: 'KKP'
 },
 {
@@ -402,6 +405,7 @@ let commonEvents2026 = [
     type: 'ORIENT',
     fmt: 'классика, многодневный (лонг)',
     map: 'peski_2001',
+    major: true,
     start: 'MMS'
 },
 {
@@ -414,6 +418,7 @@ let commonEvents2026 = [
     info: '29.06-01.07 - тренировочный полигон в соседнем районе.',
     type: 'ORIENT',
     fmt: 'спринт, лонг, классика',
+    major: true,
     owner: 'WN'
 },
 {
@@ -454,6 +459,7 @@ let commonEvents2026 = [
     name: 'Всероссийские соревнования НЕВСКИЙ СПРИНТ',
     type: 'ORIENT',
     fmt: 'спринт, многодневный, эстафета',
+    major: true,
     owner: 'SFSO_SPB'
 },
 {
