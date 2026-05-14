@@ -8,7 +8,8 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/14801',
         res: 'https://o-site.spb.ru/_races/210103_kur/210103_res.htm',
         o_site: '210103_kur',
-        reskeep: 413
+        reskeep: 413,
+        strava: 4560359774
     },
     {
         id: 'SPB_20210103_2',
@@ -50,7 +51,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/2021_WO/210116_res.htm',
         info: 'Серия индивидуальных тренировок по спортивному ориентированию.',
         o_site: '2021_WO',
-        reskeep: 418
+        reskeep: 418,
+        strava: 4628186806
     },
     {
         id: 'SPB_20210117_1',
@@ -83,7 +85,8 @@ let events2021 = [
         res: 'http://orgeo.ru/live/#/15120',
         info: 'Внимание! Билеты в Парк действуют 1 день. По купленному билету можно входить неограниченное кол-во раз за день. Стоимость входа 100 р., пенсионеры 50 р., дети (до 16 лет) – бесплатно. С собой иметь документы на льготу! МАШИНА ОРГАНИЗАТОРОВ: Синий микроавтобус Fiat Ducato Гос. номер: Е853ХЕ 178 RUS',
         o_site: '210114',
-        reskeep: 419
+        reskeep: 419,
+        strava: 4666404884
     },
     {
         id: 'SPB_20210124_1',
@@ -137,7 +140,8 @@ let events2021 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/21020607VV/210206_res.htm',
         start: 'VSEV_VESTI',
-        o_site: '21020607VV'
+        o_site: '21020607VV',
+        strava: 4743584991
     },
     {
         id: 'SPB_20210207_2',
@@ -149,7 +153,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210207_vs/210207_rez4.htm',
         info: 'Официальный старт "Веселый ветер" Место старта Баболовский парк.',
         o_site: '210207_vs',
-        reskeep: 420
+        reskeep: 420,
+        strava: 4748550735
     },
     {
         id: 'SPB_20210210_1',
@@ -171,7 +176,8 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/15440',
         res: 'https://o-site.spb.ru/_races/210214/210214_res.html',
         o_site: '210214',
-        reskeep: 414
+        reskeep: 414,
+        strava: 4784783686
     },
     {
         id: 'SPB_20210217_1',
@@ -241,7 +247,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210227/210227_res.htm',
         owner: 'SFSO_SPB',
         o_site: '210227',
-        reskeep: 423
+        reskeep: 423,
+        strava: 4858008623
     },
     {
         id: 'SPB_20210306_1',
@@ -290,7 +297,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210308/res.htm',
         owner: 'SFSO_SPB',
         o_site: '210308',
-        reskeep: 427
+        reskeep: 427,
+        strava: 4911544041
     },
     {
         id: 'SPB_20210308_2',
@@ -310,11 +318,12 @@ let events2021 = [
     },
     {
         id: 'SPB_20210321_1',
-        date: '2021-03-21',
+        date: '2021-03-28',
         place: 'Ржевский лесопарк',
         name: 'Тренировка от Авроры',
         type: 'ORIENT',
-        reskeep: 424
+        reskeep: 424,
+        strava: [5023572768,5024474207]
     },
     {
         id: 'SPB_20210407_1',
@@ -333,7 +342,8 @@ let events2021 = [
         name: 'Новгородский Меридиан',
         type: 'ROGAINE',
         fmt: '4, 2',
-        link: 'https://vk.com/club91656163'
+        link: 'https://vk.com/club91656163',
+        strava: 5103019749
     },
     {
         id: 'SPB_20210411_2',
@@ -352,7 +362,8 @@ let events2021 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 430,
-        map: 'berezovy_sad_2016'
+        map: 'berezovy_sad_2016',
+        strava: 5126889730
     },
     {
         id: 'SPB_20210417_1',
@@ -443,10 +454,8 @@ let events2021 = [
         res: 'http://orgeo.ru/live/#/16639',
         owner: 'YUVENTA',
         o_site: '210424-25',
-        reskeep: [
-            448,
-            449
-        ]
+        reskeep: [448, 449],
+        strava: [5184271179,5189322903]
     },
     {
         id: 'SPB_20210424_2',
@@ -506,11 +515,8 @@ let events2021 = [
             'https://rutube.ru/video/dcdf891fa2710a525a0b9e470134738f/'
         ],
         o_site: '21050103',
-        reskeep: [
-            450,
-            446,
-            451
-        ]
+        reskeep: [450, 446, 451],
+        strava: [5228980372,5234839055]
     },
     {
         id: 'SPB_20210501_2',
@@ -574,12 +580,13 @@ let events2021 = [
     },
     {
         id: 'SPB_20210506_1',
-        date: '2021-05-06',
+        date: '2021-05-07',
         place: 'Петяярви',
         name: 'Кубок Белых ночей. 16 этап',
         type: 'ORIENT',
         reskeep: 454,
-        owner: 'WN'
+        owner: 'WN',
+        strava: [5255567316,5255994172]
     },
     {
         id: 'SPB_20210507_1',
@@ -614,11 +621,8 @@ let events2021 = [
         info: 'Внимание! Изменена система отметки',
         owner: 'VYBORG',
         o_site: '210509-10_V3',
-        reskeep: [
-            456,
-            457,
-            458
-        ]
+        reskeep: [456, 457, 458],
+        strava: [5266488472,5270566831,5272603253]
     },
     {
         id: 'SPB_20210512_1',
@@ -627,7 +631,8 @@ let events2021 = [
         name: 'Noname Sprint Tour SPb - 2021. 4 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 432
+        reskeep: 432,
+        strava: 5285445291
     },
     {
         id: 'SPB_20210513_1',
@@ -658,7 +663,8 @@ let events2021 = [
         res: 'http://orgeo.ru/live/#/17012/1',
         owner: 'SFSO_SPB',
         o_site: '210515',
-        reskeep: 447
+        reskeep: 447,
+        strava: 5300086795
     },
     {
         id: 'SPB_20210515_3',
@@ -688,7 +694,8 @@ let events2021 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210516za/210516_results.htm',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга. С выполнением массовых разрядов для всех участников, независимо от района проживания',
-        o_site: '210516za'
+        o_site: '210516za',
+        strava: 5305377662
     },
     {
         id: 'SPB_20210519_1',
@@ -748,7 +755,8 @@ let events2021 = [
         name: 'Runlab-Sprint (Спринт Тур СПб 2021 - 5 этап)',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 433
+        reskeep: 433,
+        strava: 5362352069
     },
     {
         id: 'SPB_20210529_1',
@@ -760,10 +768,7 @@ let events2021 = [
         res: 'http://sportident.online/ol/?id=352',
         info: '29 и 30 мая в Сосновом Бору (Ленинградская область) пройдут областные соревнования «Спринт» (кросс-спринт).',
         o_site: '210530',
-        reskeep: [
-            467,
-            471
-        ]
+        reskeep: [467, 471]
     },
     {
         id: 'SPB_20210529_2',
@@ -776,11 +781,7 @@ let events2021 = [
         info: 'С 28 мая по 1 июня в Сосновом Бору (Ленинградская область) состоится Чемпионат России по спортивному ориентированию, а также пройдут областные соревнования «Спринт».',
         video: 'https://www.youtube.com/watch?v=GfJB-vShsck',
         o_site: '210531',
-        reskeep: [
-            466,
-            468,
-            469
-        ]
+        reskeep: [466, 468, 469]
     },
     {
         id: 'SPB_20210529_3',
@@ -818,7 +819,8 @@ let events2021 = [
         o_site: '2021BN',
         type: 'ORIENT',
         owner: 'WN',
-        reskeep: 472
+        reskeep: 472,
+        strava: [5382362471,5382809371]
     },
     {
         id: 'SPB_20210601_1',
@@ -879,7 +881,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210606/210606_res8.htm',
         owner: 'SFSO_SPB',
         o_site: '210606',
-        reskeep: 473
+        reskeep: 473,
+        strava: 5423589839
     },
     {
         id: 'SPB_20210610_1',
@@ -923,12 +926,8 @@ let events2021 = [
         ],
         start: 'KKP',
         o_site: '210612-18_KKP',
-        reskeep: [
-            474,
-            477,
-            478,
-            479
-        ]
+        reskeep: [474, 477, 478, 479],
+        strava: [5458197904,5460852214,5462673247,5469051700,5473397540,5479172883,5484649702,5485783437,5489340513]
     },
     {
         id: 'SPB_20210613_1',
@@ -1104,7 +1103,8 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/17707',
         res: 'https://o-site.spb.ru/_races/210815/210815_res.htm',
         o_site: '210815',
-        reskeep: 482
+        reskeep: 482,
+        strava: [5796117417,5796461444,5796464578]
     },
     {
         id: 'SPB_20210821_1',
@@ -1116,7 +1116,8 @@ let events2021 = [
         info: 'Средняя дистанция с большим количеством КП',
         start: 'GS',
         o_site: '210821ZZ',
-        reskeep: 475
+        reskeep: 475,
+        strava: 5828500904
     },
     {
         id: 'SPB_20210821_2',
@@ -1129,10 +1130,7 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210821_bn/210821_res.htm',
         info: 'Тренировочный старт, организованный клубом Белые Ночи.',
         o_site: '210821_bn',
-        reskeep: [
-            483,
-            484
-        ]
+        reskeep: [483, 484]
     },
     {
         id: 'SPB_20210822_1',
@@ -1210,7 +1208,8 @@ let events2021 = [
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 462,
-        me: 'М'
+        me: 'М',
+        strava: 5902153209
     },
     {
         id: 'SPB_20210904_4',
@@ -1242,7 +1241,8 @@ let events2021 = [
         info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 1-й этап 20.09.20 Петяярви Результаты Сплиты 2-й этап 26.09.20 Симагино Результаты Сплиты 3-й этап 27.09.20 Запорожское Результаты Сплиты 4-й этап 11.10.20 Петяярви Результаты Сплиты 5-й этап 18.10.20 Петяярви Результаты Сплиты 6-й этап 08.11.20 Пухтолова гора Результаты Сплиты 7-й этап 15.11.20 Петяярви, Кентавр Результаты Сплиты 8-й этап 22.11.20 Первомайское, Тайванчик Результаты Сплиты 9-й этап 29.11.20 Болотная станция Результаты Сплиты 10-й этап 13.12.20 Мичуринское Результаты Сплиты 11-й этап 11.04.21 Сестрорецкие Дюны Результаты Сплиты 12-й этап 17.04.21 Голубая Дача Результаты Сплиты 14-й этап 04.05.21 Болотная станция Результаты Сплиты 15-й этап 05.05.21 Ильичёво Результаты Сплиты 16-й этап 07.05.21 Петяярви Результаты Сплиты 17-й этап 08.05.21 Топограф Результаты Сплиты 18-й этап 29.05.21 Болотная станция Результаты Сплиты 19-й этап 30.05.21 Первомайское Результаты Сплиты',
         owner: 'WN',
         o_site: '2021BN',
-        reskeep: 476
+        reskeep: 476,
+        strava: [5909211506,5909484049]
     },
     {
         id: 'SPB_20210905_3',
@@ -1282,7 +1282,8 @@ let events2021 = [
         name: 'Noname Sprint Tour SPb - 2021. 7 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 486
+        reskeep: 486,
+        strava: 5964941746
     },
     {
         id: 'SPB_20210918_1',
@@ -1327,7 +1328,8 @@ let events2021 = [
         video: 'http://www.northernwind.spb.ru/videosplit/2021/chspbs_middle/',
         owner: 'SFSO_SPB',
         o_site: '210919',
-        reskeep: 491
+        reskeep: 491,
+        strava: 5986357953
     },
     {
         id: 'SPB_20210925_1',
@@ -1357,7 +1359,8 @@ let events2021 = [
         name: 'White Nights Sprint #6 (ЦОЙ-спринт)',
         type: 'ORIENT',
         owner: 'WN',
-        reskeep: 369
+        reskeep: 369,
+        strava: 6014843441
     },
     {
         id: 'SPB_20210925_5',
@@ -1382,7 +1385,8 @@ let events2021 = [
             'https://rutube.ru/video/7a72bea569687b79d3d107a33cbc7394/'
         ],
         o_site: '210926',
-        reskeep: 492
+        reskeep: 492,
+        strava: 6021509523
     },
     {
         id: 'SPB_20210926_2',
@@ -1403,7 +1407,8 @@ let events2021 = [
         name: 'Noname Sprint Tour SPb - 2021. 8 этап (MASS-SPRINT)',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 487
+        reskeep: 487,
+        strava: [6038430926,6038435320]
     },
     {
         id: 'SPB_20211002_1',
@@ -1414,7 +1419,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/211002/res.htm',
         owner: 'SFSO_SPB',
         o_site: '211002',
-        reskeep: 493
+        reskeep: 493,
+        strava: [6051938295,6051944260]
     },
     {
         id: 'SPB_20211003_1',
@@ -1475,7 +1481,8 @@ let events2021 = [
         name: 'Noname Sprint Tour SPb - 2021. 9 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 488
+        reskeep: 488,
+        strava: 6085105291
     },
     {
         id: 'SPB_20211009_5',
@@ -1494,7 +1501,8 @@ let events2021 = [
         type: 'ORIENT',
         owner: 'SFSO_SPB',
         o_site: '211010_long',
-        reskeep: 496
+        reskeep: 496,
+        strava: 6091647873
     },
     {
         id: 'SPB_20211016_1',
@@ -1528,7 +1536,8 @@ let events2021 = [
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/18642',
         start: 'ROGAINE_110',
-        o_site: '210613_r110'
+        o_site: '210613_r110',
+        strava: 6126215569
     },
     {
         id: 'SPB_20211017_2',
@@ -1580,7 +1589,8 @@ let events2021 = [
         info: 'Соревнования памяти выдающегося ориентировщика СССР и России, Владимира Павловича Алексеева',
         owner: 'WN',
         o_site: '211024',
-        reskeep: 499
+        reskeep: 499,
+        strava: 6159702422
     },
     {
         id: 'SPB_20211030_1',
@@ -1614,7 +1624,8 @@ let events2021 = [
             'https://www.youtube.com/watch?v=WMpD5ohFhQY',
             'https://rutube.ru/video/993111f4f4d11d1e3e2cad57d1a224f0/'
         ],
-        owner: 'WN'
+        owner: 'WN',
+        strava: 6186875863
     },
     {
         id: 'SPB_20211030_4',
@@ -1660,7 +1671,8 @@ let events2021 = [
         name: 'Кубок Белых Ночей #1',
         type: 'ORIENT',
         owner: 'WN',
-        reskeep: 500
+        reskeep: 500,
+        strava: 6191799353
     },
     {
         id: 'SPB_20211104_1',
@@ -1673,7 +1685,8 @@ let events2021 = [
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '211104_OM',
-        reskeep: 501
+        reskeep: 501,
+        strava: 6210792077
     },
     {
         id: 'SPB_20211104_2',
@@ -1690,7 +1703,8 @@ let events2021 = [
         name: 'Кубок Белых Ночей #2',
         type: 'ORIENT',
         owner: 'WN',
-        reskeep: 502
+        reskeep: 502,
+        strava: 6223922266
     },
     {
         id: 'SPB_20211113_1',
@@ -1710,7 +1724,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/2021GK/211113R_res.pdf',
         fmt: '6/2 часов бег, 5 часа вело',
         start: 'GORNY_CROSS',
-        o_site: '2021GK'
+        o_site: '2021GK',
+        strava: 6250999443
     },
     {
         id: 'SPB_20211114_1',
@@ -1721,7 +1736,8 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1318',
         res: 'https://o-site.spb.ru/_races/211014_markir110/211114_rez.htm',
         start: 'ROGAINE_110',
-        o_site: '211014_markir110'
+        o_site: '211014_markir110',
+        strava: 6255821909
     },
     {
         id: 'SPB_20211114_2',
@@ -1739,7 +1755,8 @@ let events2021 = [
         name: 'Кубок Белых Ночей #3',
         type: 'ORIENT',
         owner: 'WN',
-        reskeep: 503
+        reskeep: 503,
+        strava: 6287291224
     },
     {
         id: 'SPB_20211123_1',
@@ -1759,7 +1776,8 @@ let events2021 = [
         name: 'Кубок Белых Ночей #4',
         type: 'ORIENT',
         owner: 'WN',
-        reskeep: 504
+        reskeep: 504,
+        strava: 6312416014
     },
     {
         id: 'SPB_20211128_1',
@@ -1770,7 +1788,8 @@ let events2021 = [
         res: 'http://orgeo.ru/live/#/19335',
         owner: 'SFSO_SPB',
         o_site: '211128_ST',
-        reskeep: 505
+        reskeep: 505,
+        strava: 6316864782
     },
     {
         id: 'SPB_20211204_1',
@@ -1802,7 +1821,8 @@ let events2021 = [
         res: 'http://orgeo.ru/live/#/19335',
         owner: 'SFSO_SPB',
         o_site: '211212_ST',
-        reskeep: 55
+        reskeep: 55,
+        strava: 6374557829
     },
     {
         id: 'SPB_20211214_1',
@@ -1833,7 +1853,8 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1327',
         res: 'https://o-site.spb.ru/_races/211219_bn/211219_res.htm',
         o_site: '211219_bn',
-        reskeep: 506
+        reskeep: 506,
+        strava: 6402242041
     },
     {
         id: 'SPB_20211226_1',
@@ -1844,7 +1865,8 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1328',
         res: 'https://o-site.spb.ru/_races/211226B/211226_res.htm',
         info: 'ВНИМАНИЕ! В СВЯЗИ С ТЯЖЕЛОЙ СНЕЖНОЙ ОБСТАНОВКОЙ, ВМЕСТО ЗАЯВЛЕННЫХ В БЮЛЛЕТЕНЕ ДИСТАНЦИЙ A, B, C БУДУТ ПРЕДЛОЖЕНЫ 2 ДИСТАНЦИИ: ДЛИННАЯ (4.4км 10КП) И КОРОТКАЯ (2.1км 5КП). ВСЕ ЗАЯВЛЕННЫЕ УЧАСТНИКИ СМОГУТ ВЫБРАТЬ ДИСТАНЦИЮ НА РЕГИСТРАЦИИ. СНЕЖНЫЙ ПОКРОВ СОСТАВЛЯЕТ ~50см, ВЫБИРАЙТЕ ОБУВЬ ПО ПОГОДЕ!',
-        o_site: '211226B'
+        o_site: '211226B',
+        strava: 6428571215
     },
     {
         id: 'SPB_20211226_2',
@@ -1854,7 +1876,8 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1329',
         res: 'https://o-site.spb.ru/_races/211226l/211226_res.htm',
-        o_site: '211226l'
+        o_site: '211226l',
+        strava: 6428561506
     },
     {
         id: 'SPB_20211226_3',

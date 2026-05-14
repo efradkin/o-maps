@@ -1184,6 +1184,7 @@ let events2026 = [
             'М21':'https://viewer.o-gps-center.ru/viewer/event/25023/',
             'М50':'https://viewer.o-gps-center.ru/viewer/event/25016/'
         },
+        photo: 'https://vk.com/album-230167293_313515750',
         strava: 18463263908,
         reskeep: 885,
         me: 'М50',
