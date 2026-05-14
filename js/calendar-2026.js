@@ -1365,6 +1365,18 @@ let events2026 = [
         owner: 'EGRV_EGR'
     },
     {
+        id: 'SPB_20260523_8',
+        date: '2026-05-23',
+        name: 'Ночная тренировка',
+        place: 'Орехово',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1744',
+        o_site: '260523_tr',
+        type: 'ORIENT',
+        fmt: 'ночное',
+        map: 'orekhovo_figurnoe_2025',
+        owner: 'SFSO_SPB'
+    },
+    {
         id: 'SPB_20260523_4',
         date: '2026-05-23',
         name: 'Весенний марш-бросок',
@@ -1479,8 +1491,10 @@ let events2026 = [
         id: 'SPB_20260607_1',
         date: '2026-06-07',
         name: 'Кубок D2RUN, 2 этап',
+        place: 'Пасторское озеро',
         type: 'ORIENT',
-        fmt: 'лонг-масстарт',
+        o_site: '260607_D2RUN_2',
+        fmt: 'масстарт',
         owner: 'DLITELNY'
     },
     {
