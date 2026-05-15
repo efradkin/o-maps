@@ -1743,7 +1743,7 @@ function toggleLongText(button) {
 const PEEK_WIDGET_CONTENT = `
     <h3>Добро пожаловать!</h3>
     <section><img src="logo/o-maps.webp" class="help-figure" title="Лого" /><br /><br />
-    <p>Тут могла бы быть Ваша реклама, но её тут нет. <a href="help/contacts.html">Пишите, звоните</a>. Мы открыты для любых предложений.</section>
+    <p>Тут могла бы быть Ваша реклама, но её тут нет. <a href="help/contacts.html">Пишите, звоните</a>. Мы рады поддержке и открыты для любых предложений.</section>
     `;
 
 class PeekWidget {
@@ -1752,7 +1752,7 @@ class PeekWidget {
         this.side = options.side || this.sides[Math.floor(Math.random() * this.sides.length)];
 
         this.width = options.width || 400;
-        this.height = options.height || 440;
+        this.height = options.height || 460;
 
         this.peekSize = options.peekSize || 10;
         this.peekDistance = options.peekDistance || 24;
