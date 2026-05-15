@@ -966,6 +966,9 @@ body.ski-bodi {
         border: solid 1px lightgray;
         border-radius: 15px;
     }
+    .help-figure {
+        border: 5px solid darkolivegreen;
+    }
 }
 
 .peek-ear {
