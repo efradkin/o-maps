@@ -31,8 +31,11 @@ a, a:active, a:focus {
 .contacts-links {
     margin-top: -30px;
     margin-bottom: 15px;
-    /*padding-right: 25px;*/
     font-weight: bold;
+    #new_news_star {
+        color: red;
+        display: none;
+    }
 }
 
 .banners {

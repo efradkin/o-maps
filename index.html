@@ -24,6 +24,8 @@
     <script src="js/utils-common.js"></script>
     <script src="js/utils.js"></script>
 
+    <script src="js/news.js"></script>
+
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -62,7 +64,7 @@
     <main>
         <div class="container">
             <div class="row contacts-links">
-                <span class="col text-start"><a href="news.html">🆕 Новости</a></span>
+                <span class="col text-start"><a href="news.html">🆕 Новости</a><sup id="new_news_star">❋</sup></span>
                 <span class="col text-end"><a href="help/contacts.html">📞 Контакты</a></span>
             </div>
             <nav>
@@ -307,5 +309,13 @@
         <hr />
         <span class="my-copyright">© <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>, <a href="https://t.me/o_maps" target="_blank">O-Maps group</a></span>
     </footer>
+
+    <script>
+        let lastNewsTime = new Date(news[0].date).getTime();
+        let lastNewsVisitTime = localStorage.getItem('lastNewsVisitTime');
+        if (lastNewsVisitTime == null || (Number(lastNewsVisitTime) < lastNewsTime)) {
+            document.getElementById('new_news_star').style.display = 'inline';
+        }
+    </script>
 </body>
 </html>

@@ -1303,6 +1303,7 @@ let events2026 = [
         date: '2026-05-19',
         name: 'Тренировка от Феникса',
         place: 'Юкки',
+        o_site: '260519_',
         reg: 'https://orgeo.ru/event/50870',
         info: 'С техническими заданиями.',
         type: 'ORIENT',
