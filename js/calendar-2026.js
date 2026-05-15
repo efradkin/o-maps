@@ -813,7 +813,11 @@ let events2026 = [
         ],
         strava: [18064614080,18078563936],
         reskeep: [868,869],
-        video: ['https://vk.com/video3554909_456247816','https://rutube.ru/video/894fe9884ab32a6064c1f941f783aa25/','https://rutube.ru/video/8ef1b37645e776d989bc33f6459fcf89/'],
+        video: [
+            'https://vk.com/video3554909_456247816',
+            'https://rutube.ru/video/894fe9884ab32a6064c1f941f783aa25/',
+            'https://rutube.ru/video/8ef1b37645e776d989bc33f6459fcf89/'
+        ],
         photo: ['https://vk.com/album-201330282_310563730','https://disk.yandex.ru/d/wnajivFECeuZWA'],
         me: 'М45'
     },
@@ -1087,7 +1091,13 @@ let events2026 = [
         link: 'https://hardadventure.ru/orient2026',
         reg: 'https://orgeo.ru/event/51138',
         info: 'В связи с отказом в согласовании старта ООПТ, центр соревнований перенесён. Новая карта.',
-        photo: ['https://vk.com/album-163764238_310979075','https://vk.com/album-163764238_310979077','https://vk.com/album-163764238_310993810','https://vk.com/album-163764238_310989822','https://vk.com/album-163764238_310977461'],
+        photo: [
+            'https://vk.com/album-163764238_310979075',
+            'https://vk.com/album-163764238_310979077',
+            'https://vk.com/album-163764238_310993810',
+            'https://vk.com/album-163764238_310989822',
+            'https://vk.com/album-163764238_310977461'
+        ],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24904/',
         type: 'ORIENT',
         fmt: 'классика',
@@ -1157,7 +1167,12 @@ let events2026 = [
         o_site: '260510_zg',
         reg: 'http://orgeo.ru/event/info/51859',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24987/',
-        video: ['https://northernwind.spb.ru/videosplit/2026/zg/prolog/','https://northernwind.spb.ru/videosplit/2026/zg/final/','https://vk.ru/clip-220245153_456239092'],
+        video: [
+            'https://northernwind.spb.ru/videosplit/2026/zg/prolog/',
+            'https://northernwind.spb.ru/videosplit/2026/zg/final/',
+            'https://vk.ru/clip-220245153_456239092',
+            'https://rutube.ru/channel/28565371'
+        ],
         photo: 'https://disk.yandex.ru/d/B1vm2-LHb5QGFg',
         strava: 18450079774,
         me: 'Фитнес-А',

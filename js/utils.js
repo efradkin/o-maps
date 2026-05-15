@@ -1737,3 +1737,178 @@ function toggleLongText(button) {
         }, 10); // small timeout to run animation
     }
 }
+
+/* --- Peek Widget ---  */
+
+const PEEK_WIDGET_CONTENT = `
+    <h3>Добро пожаловать!</h3>
+    <section><img src="logo/o-maps.webp" class="help-figure" title="Лого" /><br /><br />
+    <p>Тут могла бы быть Ваша реклама, но её тут нет. <a href="help/contacts.html">Пишите, звоните</a>. Мы открыты для любых предложений.</section>
+    `;
+
+class PeekWidget {
+    constructor(options = {}) {
+        this.sides = ['left', 'right', 'top', 'bottom'];
+        this.side = options.side || this.sides[Math.floor(Math.random() * this.sides.length)];
+
+        this.width = options.width || 400;
+        this.height = options.height || 440;
+
+        this.peekSize = options.peekSize || 10;
+        this.peekDistance = options.peekDistance || 24;
+
+        this.autoPeekInterval = options.autoPeekInterval || getRandom(10000, 60000);
+        this.autoPeekDuration = options.autoPeekDuration || getRandom(1000, 5000);
+
+        this.isOpen = false;
+        this.isDragging = false;
+
+        this.createWidget(
+            options.content ||
+            PEEK_WIDGET_CONTENT
+        );
+
+        this.attachEvents();
+        this.startAutoPeek();
+    }
+
+    createWidget(content) {
+        this.widget = document.createElement('div');
+        this.widget.className = `peek-widget side-${this.side}`;
+        this.widget.style.width = this.width + 'px';
+        this.widget.style.height = this.height + 'px';
+        this.widget.innerHTML = `
+            <div class="peek-ear"></div>
+            <div class="peek-content">
+                ${content}
+            </div>
+        `;
+
+        document.body.appendChild(this.widget);
+
+        this.ear = this.widget.querySelector('.peek-ear');
+
+        this.updateArrow();
+
+        requestAnimationFrame(() => {
+            this.hidePosition();
+        });
+    }
+
+    getArrow() {
+        if (!this.isOpen) {
+            switch(this.side) {
+                case 'left': return '❯';
+                case 'right': return '❮';
+                case 'top': return '▼';
+                case 'bottom': return '▲';
+            }
+        } else {
+            switch(this.side) {
+                case 'left': return '❮';
+                case 'right': return '❯';
+                case 'top': return '▲';
+                case 'bottom': return '▼';
+            }
+        }
+    }
+
+    updateArrow() {
+        this.ear.innerHTML = this.getArrow();
+    }
+
+    hidePosition() {
+        switch(this.side) {
+            case 'left':
+                this.widget.style.left = -(this.width - this.peekSize) + 'px';
+                this.widget.style.top = '50%';
+                this.widget.style.transform = 'translateY(-50%)';
+                break;
+            case 'right':
+                this.widget.style.right = -(this.width - this.peekSize) + 'px';
+                this.widget.style.top = '50%';
+                this.widget.style.transform = 'translateY(-50%)';
+                break;
+            case 'top':
+                this.widget.style.top = -(this.height - this.peekSize) + 'px';
+                this.widget.style.left = '50%';
+                this.widget.style.transform = 'translateX(-50%)';
+                break;
+            case 'bottom':
+                this.widget.style.bottom = -(this.height - this.peekSize) + 'px';
+                this.widget.style.left = '50%';
+                this.widget.style.transform = 'translateX(-50%)';
+                break;
+        }
+        this.updateArrow();
+    }
+
+    openPosition() {
+        switch(this.side) {
+            case 'left':
+                this.widget.style.left = '0px';
+                break;
+            case 'right':
+                this.widget.style.right = '0px';
+                break;
+            case 'top':
+                this.widget.style.top = '0px';
+                break;
+            case 'bottom':
+                this.widget.style.bottom = '0px';
+                break;
+        }
+        this.updateArrow();
+    }
+
+    peek() {
+        if (this.isOpen || this.isDragging) return;
+
+        switch(this.side) {
+            case 'left':
+                this.widget.style.left = -(this.width - this.peekDistance) + 'px';
+                break;
+            case 'right':
+                this.widget.style.right = -(this.width - this.peekDistance) + 'px';
+                break;
+            case 'top':
+                this.widget.style.top = -(this.height - this.peekDistance) + 'px';
+                break;
+            case 'bottom':
+                this.widget.style.bottom = -(this.height - this.peekDistance) + 'px';
+                break;
+        }
+
+        setTimeout(() => {
+            if (!this.isOpen && !this.isDragging) {
+                this.hidePosition();
+            }
+        }, this.autoPeekDuration);
+    }
+
+    toggle() {
+        this.isOpen = !this.isOpen;
+        if (this.isOpen) {
+            this.openPosition();
+        } else {
+            this.hidePosition();
+        }
+        this.updateArrow();
+    }
+
+    attachEvents() {
+        this.ear.addEventListener('click', () => {
+            this.toggle();
+        });
+    }
+
+    startAutoPeek() {
+        setInterval(() => {
+            this.peek();
+        }, this.autoPeekInterval);
+    }
+}
+
+setTimeout(function() {
+    new PeekWidget({});
+}, 1000);
