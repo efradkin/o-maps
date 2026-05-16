@@ -1226,17 +1226,19 @@ let cityMaps = [
         name: 'Новое Сертолово',
         year: 2022,
         url: './maps/city/new_sertolovo_2022.webp',
+        link: './original_maps/city/new_sertolovo_2022_omaps.gif',
         bounds: [[60.169812935994486, 30.18354177474976], [60.16785958842209, 30.203347206115726], [60.16315186383203, 30.180580615997318]],
         author: 'SVCHK',
-        type: ['CITY'],
+        type: ['CITY','SPRINT'],
         owner: 'SVCHK'
     },
     {
         name: 'Сертолово, Пограничная ул',
-        year: 2024,
+        year: 2025,
         url: './maps/city/sertolovo_pogranichnaya_2024.webp',
+        link: './original_maps/city/sertolovo_pogranichnaya_2025_omaps.gif',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22089/',
-        bounds: [[60.146354417809526, 30.222294330596924], [60.144997860463, 30.23516893386841], [60.1407676058273, 30.21995544433594]],
+        bounds: [[60.14655736252173, 30.22225141525269], [60.14548921840645, 30.235126018524173], [60.14054325894998, 30.219590663909912]],
         type: ['CITY'],
         author: 'SVCHK',
         owner: 'SVCHK'

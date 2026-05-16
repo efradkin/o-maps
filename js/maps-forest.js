@@ -328,16 +328,18 @@ let forestMaps = [
     },
     {
         name: 'Новое Сертолово',
-        year: 2023,
+        year: 2025,
         url: './maps/forest/new_sertolovo_2023.webp',
-        bounds: [[60.16376038319639, 30.18669605255127], [60.16117676720578, 30.21471977233887], [60.153211119033074, 30.18300533294678]],
+        link: './original_maps/forest/new_sertolovo_2025_omaps.webp',
+        bounds: [[60.16487063510643, 30.185580253601078], [60.16128353222034, 30.215749740600586], [60.152228626563705, 30.1800012588501]],
         author: 'SVCHK',
         owner: 'SVCHK'
     },
     {
-        name: 'Сертолово',
-        year: 2024,
+        name: 'Сертолово, Читые ручьи',
+        year: 2021,
         url: './maps/forest/sertolovo_chistjie_ruchji_2024.webp',
+        link: './original_maps/forest/sertolovo_chistjie_ruchji_2021_omaps.gif',
         bounds: [[60.14776432361967, 30.226349830627445], [60.14460263244195, 30.256776809692386], [60.13804329022207, 30.22270202636719]],
         author: 'SVCHK',
         owner: 'SVCHK'
