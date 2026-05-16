@@ -336,7 +336,7 @@ let forestMaps = [
         owner: 'SVCHK'
     },
     {
-        name: 'Сертолово, Читые ручьи',
+        name: 'Сертолово, Чистые ручьи',
         year: 2021,
         url: './maps/forest/sertolovo_chistjie_ruchji_2024.webp',
         link: './original_maps/forest/sertolovo_chistjie_ruchji_2021_omaps.gif',
