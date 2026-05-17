@@ -1348,6 +1348,30 @@ let events2026 = [
         map: 'silande_velo_2025'
     },
     {
+        id: 'SPB_20260523_7',
+        date: '2026-05-23',
+        name: 'Царскосельский азимут',
+        place: 'Баболовский парк',
+        reg: 'http://orgeo.ru/event/tsa26',
+        o_site: '260523',
+        type: 'ORIENT',
+        fmt: 'выбор',
+        map: 'pushkin_babolovsky',
+        owner: 'EGRV_EGR'
+    },
+    {
+        id: 'SPB_20260523_6',
+        date: '2026-05-23',
+        name: 'Новгородский исторический рогейн',
+        place: 'Новгород',
+        link: 'https://vk.com/wall-91656163_2676',
+        reg: 'https://orgeo.ru/event/info/50670',
+        type: 'ROGAINE',
+        fmt: '5, 2.5',
+        owner: 'LM',
+        map: 'novgorod_rogaine_2024_09_08'
+    },
+    {
         id: 'SPB_20260523_2',
         date: '2026-05-23',
         endDate: '2026-05-24',
@@ -1372,30 +1396,6 @@ let events2026 = [
         owner: 'SFSO_SPB'
     },
     {
-        id: 'SPB_20260523_7',
-        date: '2026-05-23',
-        name: 'Царскосельский азимут',
-        place: 'Баболовский парк',
-        reg: 'http://orgeo.ru/event/tsa26',
-        o_site: '260523',
-        type: 'ORIENT',
-        fmt: 'выбор',
-        map: 'pushkin_babolovsky',
-        owner: 'EGRV_EGR'
-    },
-    {
-        id: 'SPB_20260523_8',
-        date: '2026-05-23',
-        name: 'Ночная тренировка',
-        place: 'Орехово',
-        reg: 'http://o-reg.spb.ru/?filter[day_id]=1744',
-        o_site: '260523_tr',
-        type: 'ORIENT',
-        fmt: 'ночное',
-        map: 'orekhovo_figurnoe_2025',
-        owner: 'SFSO_SPB'
-    },
-    {
         id: 'SPB_20260523_4',
         date: '2026-05-23',
         name: 'Весенний марш-бросок',
@@ -1408,16 +1408,16 @@ let events2026 = [
         owner: ['BKTV', 'SHBN']
     },
     {
-        id: 'SPB_20260523_6',
+        id: 'SPB_20260523_8',
         date: '2026-05-23',
-        name: 'Новгородский исторический рогейн',
-        place: 'Новгород',
-        link: 'https://vk.com/wall-91656163_2676',
-        reg: 'https://orgeo.ru/event/info/50670',
-        type: 'ROGAINE',
-        fmt: '5, 2.5',
-        owner: 'LM',
-        map: 'novgorod_rogaine_2024_09_08'
+        name: 'Ночная тренировка',
+        place: 'Орехово',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1744',
+        o_site: '260523_tr',
+        type: 'ORIENT',
+        fmt: 'ночное',
+        map: 'orekhovo_figurnoe_2025',
+        owner: 'SFSO_SPB'
     },
     {
         id: 'SPB_20260527_1',
