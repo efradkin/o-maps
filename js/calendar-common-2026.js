@@ -364,7 +364,10 @@ let commonEvents2026 = [
     endDate: '2026-06-01',
     major: true,
     name: 'Чемпионат России по спорту лиц с поражением ОДА',
-    type: 'ORIENT',
+    place: 'Санкт-Петербург',
+    link: 'https://vk.com/abcdefz_spb',
+    reg: 'https://orgeo.ru/event/52570',
+    type: 'SPECIAL',
     owner: 'SFSO_SPB'
 },
 {
