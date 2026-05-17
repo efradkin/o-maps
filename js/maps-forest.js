@@ -658,7 +658,6 @@ let forestMaps = [
         link: './original_maps/forest/polyany_2019_omaps.jpg',
         bounds: [[60.31740723452755, 29.281826019287113], [60.30782142277218, 29.369716644287113], [60.29008769806418, 29.269809722900394]],
         author: ['SHRNN','DBRTSV_V'],
-        restricted: 'с 19.03.2026 по 12.05.2026, ЧиП СПб',
         owner: 'SFSO_SPB'
     },
     {

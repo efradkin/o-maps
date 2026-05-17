@@ -1173,7 +1173,7 @@ let events2026 = [
             'https://vk.ru/clip-220245153_456239092',
             'https://rutube.ru/channel/28565371'
         ],
-        photo: 'https://disk.yandex.ru/d/B1vm2-LHb5QGFg',
+        photo: ['https://disk.yandex.ru/d/B1vm2-LHb5QGFg','https://vk.ru/album-220245153_313514089','https://disk.yandex.ru/d/4_4-yNyyIsQrhQ'],
         strava: 18450079774,
         me: 'Фитнес-А',
         info: 'Обновлённая карта',
@@ -1260,11 +1260,13 @@ let events2026 = [
         name: 'ЧиП СПб',
         place: 'Поляны',
         reg: ['http://o-reg.spb.ru/?filter[day_id]=1733','http://o-reg.spb.ru/?filter[day_id]=1732'],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25076/',
         o_site: '260517',
         type: 'ORIENT',
         fmt: 'эстафета 3х',
         map: 'polyany_2019',
         info: 'У ветеранов - классика.',
+        planner: 'YGNV',
         owner: 'SFSO_SPB'
     },
     {
