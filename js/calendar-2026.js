@@ -1330,6 +1330,7 @@ let events2026 = [
         name: 'Спринт Тур',
         type: 'ORIENT',
         fmt: 'спринт',
+        cancelled: true,
         start: 'ST',
     },
     {
@@ -1410,6 +1411,7 @@ let events2026 = [
         id: 'SPB_20260523_6',
         date: '2026-05-23',
         name: 'Новгородский исторический рогейн',
+        place: 'Новгород',
         link: 'https://vk.com/wall-91656163_2676',
         reg: 'https://orgeo.ru/event/info/50670',
         type: 'ROGAINE',
