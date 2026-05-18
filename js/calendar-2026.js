@@ -1406,6 +1406,7 @@ let events2026 = [
         name: 'Универсиада (П-во ВУЗов)',
         place: 'Орехово',
         o_site: '260524_VUZ',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1743',
         type: 'ORIENT',
         map: 'orekhovo_figurnoe_2025',
         owner: 'SFSO_SPB'
@@ -1527,6 +1528,7 @@ let events2026 = [
         date: '2026-06-07',
         name: 'Кубок D2RUN, 2 этап',
         place: 'Пасторское озеро',
+        reg: 'https://orgeo.ru/event/52944',
         type: 'ORIENT',
         o_site: '260607_D2RUN_2',
         fmt: 'масстарт',

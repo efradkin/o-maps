@@ -6421,13 +6421,14 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
-        name: 'Солнечногорск',
-        year: 2025,
-        logo: 'gryadka.webp',
-        info: '<a href="https://gryadka.club/race">Рогейн Солнечный</a>',
+        name: 'Берёзки',
+        year: 2026,
+        logo: 'malakhit.jpg',
+        about: 'https://buyrun.ru/event/126',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22758/',
-        url: './maps/moscow/solnechnogorsk_rogaine_2025.webp',
-        bounds: [[56.13976345067892, 36.958780288696296], [56.13019782204047, 37.041950225830085], [56.10215682686386, 36.945304870605476]],
+        url: './maps/moscow/ak/berezki_rogaine_2026.webp',
+        link: './original_maps/moscow/ak/berezki_rogaine_2026_omaps.webp',
+        bounds: [[56.135937484788755, 36.94152832031251], [56.14564513055243, 37.01705932617188], [56.09562215863295, 36.95869445800782]],
         author: 'SKLV_V',
         owner: 'SKLV_V',
         type: ['ROGAINE']
