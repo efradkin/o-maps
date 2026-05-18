@@ -1438,6 +1438,12 @@ let historyDocs = [
         link: './docs/1991/1991_02_17_azimut_omaps.pdf',
     },
     {
+        name: 'Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста (Нижний Новгород)',
+        date: '1991-03-01',
+        link: './docs/1991/1991_veteran_ussr_omaps.pdf',
+        info: '1-3 марта.',
+    },
+    {
         name: 'Чемпионат ЛОС ДФСО профсоюзов, маркир (Кузьмолово)',
         date: '1991-03-09',
         link: './docs/1991/1991_03_09_vdfso_unions_omaps.pdf',
@@ -1705,6 +1711,13 @@ let historyDocs = [
         me: 'H17'
     },
     {
+        name: 'Летняя Универсиада ВУЗов ЛОС ДФСО профсоюзов (Токсово, Лемболово)',
+        date: '1991-10-12',
+        link: './docs/1991/1991_10_12_universiada_omaps.pdf',
+        info: '12-13 октября.',
+        me: 'М'
+    },
+    {
         name: 'Ночной СПб, эстафеты (Лемболово)',
         date: '1991-10-12',
         map: 'lembolovo_north_east_1989',
@@ -1737,13 +1750,6 @@ let historyDocs = [
         planner: 'FSNKO'
     },
     {
-        name: 'Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста (Нижний Новгород)',
-        date: '1991-03-01',
-        link: './docs/1991/1991_veteran_ussr_omaps.pdf',
-        info: '1-3 марта.',
-        major: true
-    },
-    {
         name: 'Новогодняя ночь',
         date: '1992-01-01',
         link: './docs/1992/1992_01_01_new_year_omaps.pdf',
@@ -1756,6 +1762,15 @@ let historyDocs = [
         link: './docs/1992/1992_01_25_spb_omaps.pdf',
         planner: ['NKFRV_A','TKHNV_V','VLKV_A'],
         me: 'H21'
+    },
+    {
+        name: 'Ориентир-1 (Юкки)',
+        date: '1992-04-05',
+        link: './docs/1992/1992_04_05_orientir_omaps.pdf',
+        partly: true,
+        start: 'ORIENTIR',
+        planner: 'DRBSHV',
+        me: 'HA'
     },
     {
         name: 'Бро-бег',
@@ -1793,10 +1808,27 @@ let historyDocs = [
         me: 'H17'
     },
     {
+        name: 'Ориентир-3 (Охтинский лесопарк)',
+        date: '1992-05-13',
+        start: 'ORIENTIR',
+        link: './docs/1992/1992_05_13_orientir_omaps.pdf',
+        partly: true,
+        planner: 'NKLVCH',
+        me: 'HA'
+    },
+    {
         name: 'Лесной ландыш (Осельки)',
         date: '1992-05-24',
         link: './docs/1992/1992_05_24_forest_landysh_omaps.pdf',
         planner: 'VLKV_A',
+        me: 'HA'
+    },
+    {
+        name: 'Ориентир (Токсово, Семейное оз)',
+        date: '1992-05-27',
+        start: 'ORIENTIR',
+        link: './docs/1992/1992_05_27_orientir_omaps.pdf',
+        partly: true,
         me: 'HA'
     },
     {
@@ -1809,12 +1841,47 @@ let historyDocs = [
         me: 'H17'
     },
     {
+        name: 'Невский Азимут (Борисово)',
+        date: '1992-06-19',
+        start: 'NA',
+        info: '19-21 июня.',
+        link: './docs/1992/1992_06_19_na_omaps.pdf',
+        partly: true,
+        map: ['yagodnoe_46_1992','zhuravlevo_plotvichnoe_1992','zhuravlevskoe_1992'],
+        planner: ['SHRPV_V','NKFRV_A','FDRV_L'],
+        me: 'H17'
+    },
+    {
         name: 'Белые Ночи (Сосново)',
         date: '1992-06-26',
         start: 'WN',
         info: '26-28 июня.',
         link: './docs/1992/1992_06_26_wn_omaps.pdf',
         me: 'H17'
+    },
+    {
+        name: 'Ориентир-11 (Кузьмолово)',
+        date: '1992-07-08',
+        start: 'ORIENTIR',
+        link: './docs/1992/1992_07_08_orientir_omaps.pdf',
+        partly: true,
+        me: 'МА'
+    },
+    {
+        name: 'Ориентир-13 (Кавголово)',
+        date: '1992-07-15',
+        start: 'ORIENTIR',
+        link: './docs/1992/1992_07_15_orientir_omaps.pdf',
+        planner: 'BRSV_V',
+        me: 'МА'
+    },
+    {
+        name: 'Ориентир-14 (Лемболово)',
+        date: '1992-07-17',
+        start: 'ORIENTIR',
+        link: './docs/1992/1992_07_17_orientir_omaps.pdf',
+        planner: ['GBNVA_A','GBNV_A'],
+        me: 'H-A'
     },
     {
         name: 'Первенство СПб, эстафета (Яппиля)',

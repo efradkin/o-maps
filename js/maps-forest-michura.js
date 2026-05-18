@@ -49,6 +49,7 @@ let michuraMaps = [
         bounds: [[60.62679711467785, 29.905815124511722], [60.62469206450068, 29.970488548278812], [60.601106113708816, 29.903197288513187]],
         author: ['BYMKV','GRBTNKV','CHRNV_G','DRBSHV','FDRV_L','FLCHKN','RBKV_D','DRZDVA','KSNFNTVA','ZRNA','BZNVA_E'],
         areas: [75,5,5,3,3,3,2,1,1,1,1],
+        results: './docs/1992/1992_06_19_na_omaps.pdf',
         qtty: 3
     },
     {
@@ -88,6 +89,7 @@ let michuraMaps = [
         url: './maps/forest/michura/zhuravlevskoe_1992.webp',
         link: './original_maps/forest/michura/zhuravlevskoe_1992_omaps.jpg',
         bounds: [[60.6315750686474, 29.813547134399418], [60.6264813659105, 29.888048171997074], [60.603275898710784, 29.80470657348633]],
+        results: './docs/1992/1992_06_19_na_omaps.pdf',
         author: ['BYMKV','FLCHKN'],
         qtty: 2
     },
@@ -101,6 +103,7 @@ let michuraMaps = [
         link: './original_maps/forest/michura/zhuravlevo_plotvichnoe_1992_omaps.jpg',
         bounds: [[60.62761804700513, 29.85294342041016], [60.62326055189589, 29.91010665893555], [60.600263439440035, 29.84466075897217]],
         author: ['BYMKV','VSLVSKY','DRBSHV','FDRV_L'],
+        results: './docs/1992/1992_06_19_na_omaps.pdf',
         areas: [70,5,15,10],
         qtty: 400
     },

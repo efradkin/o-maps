@@ -49,7 +49,7 @@
     <h1 class="text-center">O-Maps ◪ Документы</h1>
 
     <div class="sheet-filters">
-        <select id="year_selector" class="header_selector" onchange="selectYear(this.value)">
+        <select id="year_selector" class="header_selector" onchange="updateUrlParam('year', this.value)">
             <option value="ALL">Все годы</option>
             <option value="LATE">2000-е</option>
             <option value="1996-1999">1996-1999</option>
@@ -113,14 +113,6 @@
         const popupMessage = 'Если Вы хотели бы помочь мне со сканированием, <a href="help/contacts.html">напишите мне</a>.';
 
         writeWelcomeButton();
-
-        function selectYear(year) {
-            if (year === 'ALL') {
-                location.href = './documents.html';
-            } else {
-                location.href = './documents.html?year=' + year;
-            }
-        }
     </script>
 
     <script src="js/map-build.js"></script>
