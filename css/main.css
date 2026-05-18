@@ -776,6 +776,7 @@ body.integration-body {
             font-weight: bold;
         }
         .cancelled {
+            color: grey;
             text-decoration: line-through solid;
         }
         .month-row {

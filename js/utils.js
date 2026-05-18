@@ -1366,15 +1366,19 @@ function buildEventStart(evt, withoutLogo) {
         result += '<img src="./logo/' + logo + '" alt="Лого" class="sheet-icon" /> ';
     }
 
+    let name = evt.name;
+    if (evt.cancelled) {
+        name += ' (ОТМЕНА!)'
+    }
     if (evt.link) {
-        result += buildLink(evt.link, evt.name);
+        result += buildLink(evt.link, name);
     } else if (evt.o_site) {
-        result += buildLink(O_SITE_ADDRESS_PREFIX + evt.o_site, evt.name);
+        result += buildLink(O_SITE_ADDRESS_PREFIX + evt.o_site, name);
     } else {
         if (evt.start && starts[evt.start].link) {
-            result += buildLink(starts[evt.start].link, evt.name);
+            result += buildLink(starts[evt.start].link, name);
         } else {
-            result += evt.name;
+            result += name;
         }
     }
     if (evt.price === -1) {

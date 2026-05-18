@@ -1231,7 +1231,9 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         map: 'ulianovka_2022',
-        owner: 'EGRV_EGR'
+        owner: 'EGRV_EGR',
+        strava: 18526784305,
+        me: 'М45'
     },
     {
         id: 'SPB_20260516_2',
@@ -1261,6 +1263,7 @@ let events2026 = [
         place: 'Поляны',
         reg: ['http://o-reg.spb.ru/?filter[day_id]=1733','http://o-reg.spb.ru/?filter[day_id]=1732'],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25076/',
+        photo: 'https://vk.ru/album-230167293_313563270',
         o_site: '260517',
         type: 'ORIENT',
         fmt: 'эстафета 3х',
@@ -1288,6 +1291,8 @@ let events2026 = [
         link: 'https://vk.com/wall-21809767_52830',
         type: 'ORIENT',
         map: 'polyustrovsky_2022',
+        strava: 18540692740,
+        me: 'М50'
     },
     {
         id: 'SPB_20260517_4',
@@ -1370,6 +1375,16 @@ let events2026 = [
         fmt: '5, 2.5',
         owner: 'LM',
         map: 'novgorod_rogaine_2024_09_08'
+    },
+    {
+        id: 'SPB_20260523_9',
+        date: '2026-05-23',
+        place: 'Мичуринское, оз Долгое',
+        name: 'Кубок Белых ночей №12',
+        reg: 'https://orgeo.ru/event/52972',
+        type: 'ORIENT',
+        map: 'michurinskoe_1988',
+        owner: 'WN',
     },
     {
         id: 'SPB_20260523_2',
