@@ -6422,7 +6422,7 @@ let moscowMaps = [
     },
     {
         name: 'Берёзки',
-        year: 2026,
+        date: '2026-05-17',
         logo: 'malakhit.jpg',
         about: 'https://buyrun.ru/event/126',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22758/',
