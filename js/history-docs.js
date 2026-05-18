@@ -1749,10 +1749,48 @@ let historyDocs = [
         link: './docs/1992/1992_01_01_new_year_omaps.pdf',
     },
     {
+        name: 'Зимний чемпионат СПб (Лемболово, Васкелово)',
+        date: '1992-01-25',
+        info: '25 января - 2 февраля.',
+        partly: true,
+        link: './docs/1992/1992_01_25_spb_omaps.pdf',
+        planner: ['NKFRV_A','TKHNV_V','VLKV_A'],
+        me: 'H21'
+    },
+    {
+        name: 'Бро-бег',
+        date: '1992-04-19',
+        partly: true,
+        link: './docs/1992/1992_04_19_brobeg_omaps.pdf',
+        me: 'H17'
+    },
+    {
+        name: 'Открытие зимнего сезона (Токсово)',
+        date: '1992-04-26',
+        partly: true,
+        link: './docs/1992/1992_04_26_open_omaps.pdf',
+        planner: 'DRBSHV',
+        me: 'HA'
+    },
+    {
         name: 'Майские многодневные соревнования (Колтуши)',
         date: '1992-05-01',
         link: ['./docs/1992/1992_05_mayski_omaps.pdf','./docs/1992/1992_05_01_mayski_omaps.pdf','./docs/1992/1992_05_02_mayski_omaps.pdf','./docs/1992/1992_05_03_mayski_omaps.pdf'],
         planner: ['FDRV_L','NKFRV_A']
+    },
+    {
+        name: 'Подснежник (Токсово)',
+        date: '1992-05-09',
+        link: './docs/1992/1992_05_09_snowdrop_omaps.pdf',
+        partly: true,
+        me: 'H2'
+    },
+    {
+        name: 'Приз телевидения (Кавголово)',
+        date: '1992-05-10',
+        link: './docs/1992/1992_05_10_tv_omaps.pdf',
+        partly: true,
+        me: 'H17'
     },
     {
         name: 'Лесной ландыш (Осельки)',
@@ -1762,11 +1800,42 @@ let historyDocs = [
         me: 'HA'
     },
     {
+        name: 'Кубок СПб (Лемболово)',
+        date: '1992-05-30',
+        link: './docs/1992/1992_05_30_spb_cup_omaps.pdf',
+        info: '30-31 мая.',
+        planner: ['NKFRV_A','FDRV_L'],
+        partly: true,
+        me: 'H17'
+    },
+    {
         name: 'Белые Ночи (Сосново)',
         date: '1992-06-26',
         start: 'WN',
         info: '26-28 июня.',
         link: './docs/1992/1992_06_26_wn_omaps.pdf',
+        me: 'H17'
+    },
+    {
+        name: 'Первенство СПб, эстафета (Яппиля)',
+        date: '1992-09-05',
+        link: './docs/1992/1992_09_05_spb_yappilya_omaps.pdf',
+        partly: true,
+        me: 'H21'
+    },
+    {
+        name: 'Первенство СПб (Яппиля)',
+        date: '1992-09-06',
+        link: './docs/1992/1992_09_06_spb_yappilya_omaps.pdf',
+        me: 'H21'
+    },
+    {
+        name: 'Открытый кубок С-ПГДТЮ (Юкки, Лемболово)',
+        date: '1992-09-12',
+        info: '12-13 сентября.',
+        link: './docs/1992/1992_09_12_spgdty_omaps.pdf',
+        planner: ['SMNV_M','BLZRV_V'],
+        partly: true,
         me: 'H17'
     },
     {
@@ -1787,6 +1856,13 @@ let historyDocs = [
         name: 'Ночное п-во КСО Азимут',
         date: '1992-10-17',
         link: './docs/1992/1992_10_17_night_azimuth_omaps.pdf',
+    },
+    {
+        name: 'Чемпионат ВУЗов (Токсово)',
+        date: '1992-10-18',
+        link: './docs/1992/1992_10_18_universities_omaps.pdf',
+        planner: 'MTSKVCH_V',
+        me: 'М'
     },
     {
         name: 'Зимняя Универсиада ВУЗов СПб (Токсово)',
@@ -1863,7 +1939,7 @@ let historyDocs = [
         name: 'Чемпионат ВУЗов (Токсово)',
         date: '1993-10-17',
         link: './docs/1993/1993_10_17_universities_omaps.pdf',
-        me: '+',
+        me: 'М',
     },
     {
         name: 'Кубок МОЛОДЁЖНОГО (Лемболово)',
