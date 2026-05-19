@@ -1662,6 +1662,14 @@ let historyDocs = [
         me: 'H-A'
     },
     {
+        name: 'Приз НЕВСКОЙ ЗАРИ (ст Песочное)',
+        date: '1991-08-31',
+        link: './docs/1991/1991_08_31_nevska_zarya_omaps.pdf',
+        info: '31 августа - 1 сентября.',
+        partly: true,
+        me: 'М-17'
+    },
+    {
         name: 'Ориентир-23 (Шуваловский парк)',
         date: '1991-09-04',
         start: 'ORIENTIR',
@@ -1874,7 +1882,7 @@ let historyDocs = [
         date: '1992-06-26',
         start: 'WN',
         info: '26-28 июня.',
-        link: './docs/1992/1992_06_26_wn_omaps.pdf',
+        link: ['./docs/1992/1992_06_26_wn_omaps.pdf','./docs/1992/1992_06_26_wn_part_fine_omaps.pdf'],
         me: 'H17'
     },
     {
