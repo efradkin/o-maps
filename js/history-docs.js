@@ -1438,6 +1438,15 @@ let historyDocs = [
         link: './docs/1991/1991_02_17_azimut_omaps.pdf',
     },
     {
+        name: 'III Чемпионат СССР (Свердловская обл, Шаманиха)',
+        date: '1991-02-24', // в бумаге есть ещё 26 и 26
+        link: './docs/1991/1991_02_24_shamanikha_ussr_winter_champ_omaps.pdf',
+        planner: 'KNTSVCH',
+        map: 'shamanikha_ussr_winter_champ_1991',
+        info: '24-27 февраля.',
+        major: true
+    },
+    {
         name: 'Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста (Нижний Новгород)',
         date: '1991-03-01',
         link: './docs/1991/1991_veteran_ussr_omaps.pdf',

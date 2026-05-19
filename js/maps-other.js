@@ -783,6 +783,19 @@ let otherMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Шаманиха',
+        date: '1991-01-24',
+        url: './maps/other/shamanikha_ussr_winter_champ_1991.webp',
+        link: './original_maps/other/shamanikha_ussr_winter_champ_1991_omaps.webp',
+        bounds: [[57.13742697401689, 60.111522674560554], [57.13276928575067, 60.17271995544434], [57.09485721095755, 60.09916305541993]],
+        info: 'III Чемпионат СССР.',
+        results: './docs/1991/1991_02_24_shamanikha_ussr_winter_champ_omaps.pdf',
+        planner: 'KNTSVCH',
+        major: true,
+        region: 'EKB',
+        type: ['WINTER']
+    },
+    {
         name: 'Екатеринбург, л/п Лесоводов России',
         date: '2022-12-24',
         url: './maps/other/ekb_lesovodov_rogaine_2022.webp',
