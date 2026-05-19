@@ -1215,8 +1215,9 @@ let events2026 = [
         o_site: '260517r',
         link: 'https://www.multsport.ru/starts/canoe-rogaine-2026/',
         reg: 'https://www.multsport.ru/starts/canoe-rogaine-2026/registration.html',
+        photo: 'https://vk.com/album-8292013_313581477',
         type: ['ROGAINE','WATER'],
-        fmt: '16, 8, 4',
+        fmt: '16,8,4',
         start: 'MULTSPORT',
         map: 'vuoksa_rogaine_2019'
     },
@@ -1309,14 +1310,18 @@ let events2026 = [
     {
         id: 'SPB_20260519_1',
         date: '2026-05-19',
-        name: 'Тренировка от Феникса',
+        name: 'Феникс Middle Cup',
         place: 'Юкки',
         o_site: '260519_',
         reg: 'https://orgeo.ru/event/50870',
         info: 'С техническими заданиями.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25114/',
+        reskeep: 888,
+        strava: 18571193734,
         type: 'ORIENT',
         owner: 'FENIX',
-        map: 'yukki_north_2020'
+        map: 'yukki_north_2020',
+        me: 'МА'
     },
     {
         id: 'SPB_20260520_2',
