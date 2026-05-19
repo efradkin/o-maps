@@ -10,6 +10,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/sosnovo_south_1989.webp',
         link: './original_maps/forest/sosnovo/sosnovo_south_1989_omaps.jpg',
         bounds: [[60.55445209468727, 30.23523330688477], [60.54968381690081, 30.297031402587894], [60.52874571620552, 30.22725105285645]],
+        results: './docs/1991/1991_06_28_wn_omaps.pdf',
         author: ['MLVA_M','KAZNTSVA_O']
     },
     {
@@ -154,6 +155,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/zamostie_1991.webp',
         link: ['./original_maps/forest/sosnovo/zamostie_1991_clean_100_omaps.webp','./original_maps/forest/sosnovo/zamostie_1991_omaps.jpg'],
         bounds: [[60.52663426892839, 30.328273773193363], [60.5241425840469, 30.374622344970707], [60.49295920575224, 30.32381057739258]],
+        results: './docs/1991/1991_06_28_wn_omaps.pdf',
         author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S']
     },
     {
@@ -316,6 +318,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/snegirevka_1991.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1991_omaps.jpg',
         bounds: [[60.52488166312165, 30.276002883911136], [60.52215754533236, 30.348358154296875], [60.494206271637864, 30.27016639709473]],
+        results: './docs/1991/1991_06_28_wn_omaps.pdf',
         author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S']
     },
     {

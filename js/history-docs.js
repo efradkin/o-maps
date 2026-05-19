@@ -1592,6 +1592,15 @@ let historyDocs = [
         link: './docs/1991/1991_06_26_orientir_11_omaps.pdf',
     },
     {
+        name: 'Белые Ночи (Снегирёвка)',
+        date: '1991-06-28',
+        info: '28-30 июня.',
+        link: './docs/1991/1991_06_28_wn_omaps.pdf',
+        start: 'WN',
+        partly: true,
+        map: ['zamostie_1991','snegirevka_1991','sosnovo_south_1989'],
+    },
+    {
         name: 'Ориентир-12 (Токсово)',
         date: '1991-07-03',
         start: 'ORIENTIR',
