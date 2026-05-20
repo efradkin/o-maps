@@ -779,14 +779,14 @@ let parkMaps = [
     {
         name: 'Гатчина, парк Зверинец',
         date: '2005-02-06',
-        major: true,
         info: 'Чемпионат России по ориентированию бегом на заснеженном грунте.',
         url: './maps/parks/gatchina_zverinets_2005.webp',
         link: ['./original_maps/parks/gatchina_zverinets_2005_omaps.jpg','./original_maps/parks/gatchina_zverinets_2005_M21_omaps.jpg'],
         bounds: [[59.58639060698327, 30.08018016815186], [59.58306645580455, 30.124039649963382], [59.56650598635047, 30.074558258056644]],
         author: ['VLKV_K','URVNTSV','MLVA_M','MRSKY_S'],
         type: ['PARK'],
-        region: 'SPB'
+        region: 'SPB',
+        start: 'RUSSIA_CHAMP'
     },
     {
         name: 'Парк 300-летия СПб',

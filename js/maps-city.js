@@ -525,7 +525,7 @@ let cityMaps = [
     {
         name: 'Серебряный пруд',
         date: '2024-05-19',
-        start: 'RUSSIA_2024',
+        start: ['RUSSIA_2024','RUSSIA_CHAMP'],
         info: 'Кросс-спринт-общий старт.',
         gps: {
             'М': 'https://viewer.o-gps-center.ru/viewer/event/19474/',
@@ -1443,7 +1443,7 @@ let cityMaps = [
     {
         name: 'Василеостровская',
         date: '2024-05-18',
-        start: 'RUSSIA_2024',
+        start: ['RUSSIA_2024','RUSSIA_CHAMP'],
         info: 'Кросс-спринт.',
         url: './maps/city/vasileostrovskaya_2024.webp',
         link: './original_maps/city/vasileostrovskaya_2024_omaps.gif',
@@ -1728,7 +1728,7 @@ let cityMaps = [
     {
         name: 'Выборг, исторический центр',
         date: '2020-09-26',
-        start: 'RUSSIA_2020',
+        start: ['RUSSIA_2020','RUSSIA_CHAMP'],
         info: 'Спринт.',
         gps: {
             'М': 'https://viewer.o-gps-center.ru/viewer/event/8200/',
@@ -2022,7 +2022,7 @@ let cityMaps = [
     {
         name: 'Сосновый Бор',
         date: '2021-05-29',
-        start: 'RUSSIA_2021',
+        start: ['RUSSIA_2021','RUSSIA_CHAMP'],
         info: 'Пролог №1.',
         url: './maps/city/sosnovy_bor_2021_05_29.webp',
         link: ['./original_maps/city/sosnovy_bor_2021_05_29.gif','./original_maps/city/sosnovy_bor_2021_05_29_W.gif'],
@@ -2038,7 +2038,7 @@ let cityMaps = [
     {
         name: 'Сосновый Бор',
         date: '2021-05-30',
-        start: 'RUSSIA_2021',
+        start: ['RUSSIA_2021','RUSSIA_CHAMP'],
         info: 'Пролог №2.',
         url: './maps/city/sosnovy_bor_2021_05_30.webp',
         link: ['./original_maps/city/sosnovy_bor_2021_05_30_correct.jpg','./original_maps/city/sosnovy_bor_2021_05_30.gif','./original_maps/city/sosnovy_bor_2021_05_30_W_correct.jpg','./original_maps/city/sosnovy_bor_2021_05_30_W.gif'],
@@ -2054,7 +2054,7 @@ let cityMaps = [
     {
         name: 'Сосновый Бор',
         date: '2021-05-31',
-        start: 'RUSSIA_2021',
+        start: ['RUSSIA_2021','RUSSIA_CHAMP'],
         info: 'Финал.',
         url: './maps/city/sosnovy_bor_2021_05_31.webp',
         link: ['./original_maps/city/sosnovy_bor_2021_05_31.gif','./original_maps/city/sosnovy_bor_2021_05_31_W.gif'],
@@ -2070,7 +2070,7 @@ let cityMaps = [
     {
         name: 'Петропавловская крепость',
         date: '2024-05-17',
-        start: 'RUSSIA_2024',
+        start: ['RUSSIA_2024','RUSSIA_CHAMP'],
         info: 'Кросс-эстафета-4 человека.',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19452/',
         url: './maps/city/petropavlovka_2024.webp',

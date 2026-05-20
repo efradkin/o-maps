@@ -485,7 +485,7 @@ function isMajor(m) {
     } else {
         if (m.start) {
             if (Array.isArray(m.start)) {
-                return starts[m.start[0]] && starts[m.start[0]].major;
+                return starts[m.start[0]] && starts[m.start[0]].major || starts[m.start[1]] && starts[m.start[1]].major;
             } else {
                 return starts[m.start] && starts[m.start].major;
             }
@@ -1083,10 +1083,12 @@ function getMapStarts(m) {
     let start = '';
     if (Array.isArray(m.start)) {
         for (const s of m.start) {
-            if (start) {
-                start += ', ';
+            if (starts[s].name) {
+                if (start) {
+                    start += ', ';
+                }
+                start += starts[s].name;
             }
-            start += starts[s].name;
         }
     } else {
         start = starts[m.start].name;

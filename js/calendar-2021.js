@@ -781,7 +781,8 @@ let events2021 = [
         info: 'С 28 мая по 1 июня в Сосновом Бору (Ленинградская область) состоится Чемпионат России по спортивному ориентированию, а также пройдут областные соревнования «Спринт».',
         video: 'https://www.youtube.com/watch?v=GfJB-vShsck',
         o_site: '210531',
-        reskeep: [466, 468, 469]
+        reskeep: [466, 468, 469],
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20210529_3',
@@ -1694,7 +1695,8 @@ let events2021 = [
         name: 'Чемпионат России - Адыгея',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20211104_adyg/res1.htm',
-        o_site: '20211104_adyg'
+        o_site: '20211104_adyg',
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20211107_1',

@@ -1990,14 +1990,14 @@ let moscowMaps = [
     {
         name: 'Бутовский л/п',
         date: '2013-10-12',
-        major: true,
         info: '<a href="https://moscompass.ru/news/index.php?m=99&mes=26179">Чемпионат России и Всероссийские соревнования в честь 50-летнего юбилея ориентирования</a>.',
         url: './maps/moscow/ak/butovsky_2013.webp',
         link: ['./original_maps/moscow/ak/butovsky_2013_omaps.pdf','./original_maps/moscow/ak/butovsky_2013_2_omaps.jpg'],
         bounds: [[55.585221534678304, 37.52914667129517], [55.58292938102626, 37.56598949432374], [55.56788759269478, 37.52543449401856]],
         logo: 'fsor.webp',
         type: ['PARK'],
-        region: 'MSK'
+        region: 'MSK',
+        start: 'RUSSIA_CHAMP'
     },
     {
         name: 'ПиП Битцевский лес - Конно-Спортивный Комплекс',

@@ -464,7 +464,8 @@ let otherMaps = [
         info: 'Чемпионат России.',
         bounds: [[67.61124759316175, 33.67528438568116], [67.60480639943397, 33.73339176177979], [67.57644589669246, 33.64835500717164]],
         author: ['KVZN','TKMKVA_P','TKMKV_K'],
-        region: 'MURMANSK'
+        region: 'MURMANSK',
+        start: 'RUSSIA_CHAMP'
     },
     {
         name: 'г Горелая',
@@ -484,10 +485,10 @@ let otherMaps = [
         url: './maps/other/murmansk_2023_09_23.webp',
         link: './original_maps/other/murmansk_2023_09_23_omaps.webp',
         info: 'Чемпионат России.',
-        major: true,
         bounds: [[68.96692554632965, 33.13141822814942], [68.96270482718478, 33.174505233764656], [68.93165617852857, 33.10223579406739]],
         author: ['SKRPKO_S','KVZN'],
-        region: 'MURMANSK'
+        region: 'MURMANSK',
+        start: 'RUSSIA_CHAMP'
     },
     // --- В.Новгород ---
     {
@@ -638,10 +639,10 @@ let otherMaps = [
         url: './maps/other/perm_balatovo_2013_09_15.webp',
         link: ['./original_maps/other/perm_balatovo_2015_09_13_1_omaps.webp','./original_maps/other/perm_balatovo_2015_09_13_2_omaps.webp'],
         info: 'Чемпионат России.',
-        major: true,
         bounds: [[57.999775257951946, 56.139664649963386], [57.99313403344903, 56.19081974029542], [57.971609824958364, 56.126060485839844]],
         author: ['LNTV','STLRV','JASHPTRV'],
         region: 'PERM',
+        start: 'RUSSIA_CHAMP'
     },
     {
         name: 'Пермь, Черняевский лес, ПКиО',
@@ -791,8 +792,8 @@ let otherMaps = [
         info: 'III Чемпионат СССР.',
         results: './docs/1991/1991_02_24_shamanikha_ussr_winter_champ_omaps.pdf',
         planner: 'KNTSVCH',
-        major: true,
         region: 'EKB',
+        start: 'USSR_CHAMP',
         type: ['WINTER']
     },
     {
@@ -1043,14 +1044,14 @@ let otherMaps = [
     {
         name: 'Плато Лаго-Наки, Утюг',
         date: '2003-06-10',
-        major: true,
         info: 'Чемпионат России.',
         url: './maps/south/lago_naki_iron_2003.webp',
         link: './original_maps/south/lago_naki_iron_2003_omaps.gif',
         bounds: [[44.10635453999059, 39.997830390930176], [44.104813753670705, 40.02486705780029], [44.07599365217524, 39.994783401489265]],
         author: 'ZAMOTA',
         owner: 'ZAMOTA',
-        region: 'KRASNODAR'
+        region: 'KRASNODAR',
+        start: 'RUSSIA_CHAMP'
     },
     {
         name: 'бульвар Черняховского',
@@ -1188,24 +1189,24 @@ let otherMaps = [
     {
         name: 'Украина, Черновцы',
         date: '1985-08-25',
-        major: true,
         url: './maps/other/chernovtsy_1985.webp',
         link: './original_maps/other/chernovtsy_1985_omaps.webp',
         info: '22-26 августа. Чемпионат СССР.',
         bounds: [[48.1845155776972, 25.829308032989506], [48.18236954911603, 25.86879014968872], [48.13859959165873, 25.823428630828857]],
         author: 'SHTMPLR',
+        start: 'USSR_CHAMP',
         region: 'UKR'
     },
     {
         name: 'Казахстан, Каркаралинск',
         year: 1986,
-        major: true,
         url: './maps/other/karkaralinsk_1986.webp',
         link: './original_maps/other/karkaralinsk_1986_omaps.jpg',
         info: '6-11 октября. Чемпионат СССР.',
         bounds: [[49.38385349051448, 75.43367385864259], [49.381674326472776, 75.4750442504883], [49.35151930828741, 75.43144226074219]],
         author: ['AFNSV_L','GLTSKY_V','KLM_K','KVLVSKY_G'],
         results: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
+        start: 'USSR_CHAMP',
         region: 'KZKHSTN'
     },
     {

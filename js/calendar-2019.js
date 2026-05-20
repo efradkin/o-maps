@@ -641,7 +641,8 @@ let events2019 = [
             'https://www.youtube.com/watch?v=Yvb3agSRtfI'
         ],
         o_site: '190524chRF',
-        reskeep: [138, 139, 140]
+        reskeep: [138, 139, 140],
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20190525_1',
@@ -1124,12 +1125,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190905arkh/res1.htm',
         o_site: '190905arkh',
-        reskeep: [
-            209,
-            210,
-            211,
-            212
-        ]
+        reskeep: [209, 210, 211, 212],
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20190907_1',

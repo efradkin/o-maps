@@ -27,13 +27,13 @@ let pskovMaps = [
     {
         name: 'Андреева гора',
         date: '1996-09-07',
-        major: true,
         url: './maps/pskov/andreeva_gora_1996_09_07.webp',
         link: './original_maps/pskov/andreeva_gora_1996_09_07_omaps.webp',
         info: 'XVI-й Чемпионат России. Спринт-полуфинал. <a href="./docs/1996/1996_russia_champions_omaps.jpg">Чемпионы</a>.',
         bounds: [[56.45762962513837, 28.96257877349854], [56.45374049020852, 29.00871276855469], [56.42714616604212, 28.953866958618164]],
         author: ['LNTV','MTN_Y','FMN_I','JANN_Y','ALSHN'],
         owner: 'PSKOV_RUS',
+        start: 'RUSSIA_CHAMP'
     },
     {
         name: 'Митковицы',
@@ -49,12 +49,12 @@ let pskovMaps = [
     {
         name: 'Изборск, Котья гора',
         date: '2017-05-19',
-        major: true,
         url: './maps/pskov/kotia_gora_2017_05_19.webp',
         link: './original_maps/pskov/kotia_gora_2017_05_19_omaps.webp',
         info: 'Чемпионат России.',
         bounds: [[57.654976422915716, 27.805752754211426], [57.651830709989305, 27.85167217254639], [57.623943643306085, 27.798414230346683]],
         owner: 'PSKOV_RUS',
+        start: 'RUSSIA_CHAMP'
     },
     {
         name: 'Корытово',
@@ -197,13 +197,13 @@ let pskovMaps = [
     {
         name: 'Аболенье',
         date: '1996-09-05',
-        major: true,
         url: './maps/other/abolenie_1996_09_05.webp',
         link: './original_maps/other/abolenie_1996_09_05_omaps.jpg',
         info: 'XVI-й Чемпионат России. Финал. <a href="./docs/1996/1996_russia_champions_omaps.jpg">Чемпионы</a>.',
         bounds: [[56.54893338086099, 29.009914398193363], [56.545999923985995, 29.068536758422855], [56.50296555743434, 28.999614715576175]],
         author: ['JANN_Y','MTVV','FMN_I','ALSHN'],
         owner: 'PSKOV_RUS',
+        start: 'RUSSIA_CHAMP'
     },
     {
         name: 'Алоль',

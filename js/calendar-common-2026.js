@@ -27,10 +27,10 @@ let commonEvents2026 = [
     endDate: '2026-02-24',
     place: 'Красноярский край, Подгорный',
     name: 'Чемпионат России',
-    major: true,
     type: 'SKI',
     fmt: 'маркир, эстафета 3х, комбинация, лонг',
-    owner: 'FSOR'
+    owner: 'FSOR',
+    start: 'RUSSIA_CHAMP'
 },
 {
     id: 'MAJOR_20260301_1',
@@ -49,10 +49,10 @@ let commonEvents2026 = [
     endDate: '2026-03-21',
     place: 'Коми, Сыктывкар',
     name: 'Чемпионат России, лично-командные',
-    major: true,
     type: 'SKI',
     fmt: 'классика, эстафета 3х, спринт, марафон',
-    owner: 'FSOR'
+    owner: 'FSOR',
+    start: 'RUSSIA_CHAMP'
 },
 {
     id: 'MAJOR_20260423_1',
@@ -84,10 +84,10 @@ let commonEvents2026 = [
     endDate: '2026-05-18',
     place: 'Иркутск',
     name: 'Чемпионат России',
-    major: true,
     type: 'ORIENT',
     fmt: 'спринт, спринт-масстарт, эстафета 2х, эстафета 4х',
-    owner: 'FSOR'
+    owner: 'FSOR',
+    start: 'RUSSIA_CHAMP'
 },
 {
     id: 'MAJOR_20260522_1',
@@ -138,10 +138,10 @@ let commonEvents2026 = [
     endDate: '2026-06-29',
     place: 'Нижний Новгород',
     name: 'Чемпионат России',
-    major: true,
     type: 'VELO',
     fmt: 'многодневные, эстафета 2х',
-    owner: 'FSOR'
+    owner: 'FSOR',
+    start: 'RUSSIA_CHAMP'
 },
 {
     id: 'MAJOR_20260627_1',
@@ -229,10 +229,10 @@ let commonEvents2026 = [
     endDate: '2026-09-07',
     place: 'Московская обл, Химки',
     name: 'Чемпионат России, лично-командные',
-    major: true,
     type: 'VELO',
     fmt: 'спринт, лонг, эстафета 3х, масстарт',
-    owner: 'FSOR'
+    owner: 'FSOR',
+    start: 'RUSSIA_CHAMP'
 },
 {
     id: 'MAJOR_20260909_1',
@@ -272,10 +272,10 @@ let commonEvents2026 = [
     endDate: '2026-09-28',
     place: 'Удмуртия, Якшур-Бодья',
     name: 'Чемпионат России, лично-командные',
-    major: true,
     type: 'ORIENT',
     fmt: 'классика, лонг, многодневный, эстафета 3х',
-    owner: 'FSOR'
+    owner: 'FSOR',
+    start: 'RUSSIA_CHAMP'
 },
 {
     id: 'MAJOR_20260924_1',
@@ -305,10 +305,10 @@ let commonEvents2026 = [
     endDate: '2026-11-07',
     place: 'Ставрополь',
     name: 'Чемпионат России',
-    major: true,
     type: 'ORIENT',
     fmt: 'выбор, лонг, масстарт, марафон',
-    owner: 'FSOR'
+    owner: 'FSOR',
+    start: 'RUSSIA_CHAMP'
 },
 {
     id: 'MAJOR_20261210_1',
@@ -327,10 +327,10 @@ let commonEvents2026 = [
     endDate: '2026-12-23',
     place: 'Алтай, Семинский перевал',
     name: 'Чемпионат России',
-    major: true,
     type: 'SKI',
     fmt: 'масстарт, многодневная, эстафета 2х, классика, лонг-масстарт',
-    owner: 'FSOR'
+    owner: 'FSOR',
+    start: 'RUSSIA_CHAMP'
 },
 /*    не важные, но общие    */
 {

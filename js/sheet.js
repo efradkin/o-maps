@@ -27,7 +27,7 @@ window.onload = function() {
     }
     if (START_NAME_PARAM && isDocumentsPage()) {
         oMaps = oMaps.filter(m => {
-            return m.start && m.start === START_NAME_PARAM;
+            return m.start && (m.start === START_NAME_PARAM || (Array.isArray(m.start) && m.start.includes(START_NAME_PARAM)));
         });
     }
     if (HAS_ONLY_ME_PARAM) {
@@ -241,10 +241,13 @@ function buildStart(m) {
         if (Array.isArray(m.start)) {
             let start = '';
             for (const s of m.start) {
-                if (start) {
-                    start += '<br />';
+                const strt = oneStart(s);
+                if (strt) {
+                    if (start) {
+                        start += '<br />';
+                    }
+                    start += strt;
                 }
-                start += oneStart(s);
             }
             return start;
         } else {
@@ -256,7 +259,7 @@ function buildStart(m) {
 
 function oneStart(s) {
     let result = '', start = starts[s];
-    if (start) {
+    if (start && start.name) {
         result += start.name;
     }
     return result;

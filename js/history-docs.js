@@ -303,19 +303,19 @@ let historyDocs = [
     },
     {
         name: 'Программа',
-        start: 'USSR_1981',
+        start: ['USSR_1981','USSR_CHAMP'],
         year: 1981,
         link: './docs/ussr_champ_1981_program_omaps.pdf'
     },
     {
         name: 'Постановление',
-        start: 'USSR_1981',
+        start: ['USSR_1981','USSR_CHAMP'],
         year: 1981,
         link: './docs/ussr_champ_1981_resolution_omaps.pdf'
     },
     {
         name: 'Схема',
-        start: 'USSR_1981',
+        start: ['USSR_1981','USSR_CHAMP'],
         year: 1981,
         link: './docs/ussr_champ_1981_relay_schema_omaps.jpg'
     },
@@ -478,7 +478,7 @@ let historyDocs = [
         link: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
         map: 'karkaralinsk_1986',
         info: '9-11 сентября. Выписка из результатов.',
-        major: true
+        start: 'USSR_CHAMP'
     },
     {
         name: 'Юный спартаковец (Приморский парк Победы)',
@@ -1158,7 +1158,7 @@ let historyDocs = [
         link: './docs/1989/1989_12_07_gornozavodsk_ussr_omaps.pdf',
         planner: ['MTN_Y','SVIR_A'],
         partly: true,
-        major: true
+        start: 'USSR_CHAMP'
     },
     {
         name: 'Ранг летнего сезона г.Ленинграда, мужчины',
@@ -1444,7 +1444,7 @@ let historyDocs = [
         planner: 'KNTSVCH',
         map: 'shamanikha_ussr_winter_champ_1991',
         info: '24-27 февраля.',
-        major: true
+        start: 'USSR_CHAMP'
     },
     {
         name: 'Всесоюзные соревнования по спортивному ориентированию среди спортсменов среднего и старшего возраста (Нижний Новгород)',
@@ -2268,10 +2268,10 @@ let historyDocs = [
     {
         name: 'Чемпионат России (Орехово)',
         date: '1998-02-18',
-        major: true,
         info: 'Финал Чемпионата России по лыжному ориентированию. Главный судья соревнований А.М.Бровин, главный секретарь Е.А.Винер.',
         link: './docs/1998/1998_02_18_russia_omaps.pdf',
-        planner: 'BRDN_V'
+        planner: 'BRDN_V',
+        start: 'RUSSIA_CHAMP'
     },
     {
         name: 'Предчемпионат мира по лыжному ориентированию среди ветеранов (Орехово)',

@@ -223,7 +223,7 @@ function buildMonth() {
 
 function td(evt, row, html) {
     const td = document.createElement('td');
-    if (evt.major || (evt.id && myEvents.includes(evt.id))) {
+    if (isMajor(evt) || (evt.id && myEvents.includes(evt.id))) {
         html = `<b>${html}</b>`;
     }
     td.innerHTML = html;

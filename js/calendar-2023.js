@@ -280,7 +280,8 @@ let events2023 = [
         name: 'Чемпионат России - Архангельск',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230314/230318_res_of_VS.pdf',
-        o_site: '230314'
+        o_site: '230314',
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20230318_1',

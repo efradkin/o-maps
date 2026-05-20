@@ -21,10 +21,7 @@ let events2024 = [
         info: 'Традиционные Рождественские старты от клуба Норд Вест',
         owner: 'NW',
         o_site: '240108_RS',
-        reskeep: [
-            637,
-            638
-        ]
+        reskeep: [637, 638]
     },
     {
         id: 'SPB_20240108_1',
@@ -661,7 +658,8 @@ let events2024 = [
         ],
         owner: 'SFSO_SPB',
         o_site: '240519_russia',
-        reskeep: 654
+        reskeep: 654,
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20240518_1',

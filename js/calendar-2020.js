@@ -1143,10 +1143,8 @@ let events2020 = [
         owner: 'VYBORG',
         o_site: '20092428',
         video: 'https://www.youtube.com/watch?v=fQJcSSgX7e0',
-        reskeep: [
-            371,
-            372
-        ]
+        reskeep: [371, 372],
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20200926_3',

@@ -342,10 +342,14 @@ let starts = {
         logo: 'vwc95.gif',
         region: 'SPB'
     },
+    USSR_CHAMP: {
+        major: true,
+        short: 'Чемпионат СССР'
+    },
     USSR_1981: {
         major: true,
         short: 'I Чемпионат СССР',
-        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">Первый чемпионат СССР</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./docs/ussr_champ_1981_program_omaps.pdf">программа</a>, <a href="./docs/ussr_champ_1981_resolution_omaps.pdf">постановление</a>)',
+        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">I чемпионат СССР</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./docs/ussr_champ_1981_program_omaps.pdf">программа</a>, <a href="./docs/ussr_champ_1981_resolution_omaps.pdf">постановление</a>)',
         logo: 'ussr_1981.jpg',
         region: 'LNGRD'
     },
@@ -362,6 +366,10 @@ let starts = {
         name: '<a href="https://spbof.ru/ru/2-uncategorised/582-istoriya-orientirovaniya-1992g-po-nastoyashchee-vremya">Чемпионат мира  по ориентированию  на лыжах среди  юниоров</a> (<a href="https://docs.cntd.ru/document/3641816">распоряжение</a>)',
         logo: 'jwsoc_2003.jpg',
         region: 'SPB'
+    },
+    RUSSIA_CHAMP: {
+        major: true,
+        short: 'Чемпионат России'
     },
     RUSSIA_2019: {
         major: true,

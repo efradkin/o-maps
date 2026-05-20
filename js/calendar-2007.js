@@ -554,7 +554,8 @@ let events2007 = [
         name: 'Чемпионат России по спортивному ориентированию на велосипедах',
         type: 'VELO',
         owner: 'SFSO_LO',
-        o_site: '070624'
+        o_site: '070624',
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20070626_1',

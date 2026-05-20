@@ -1544,7 +1544,8 @@ let events2018 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/181110Gel/res1.htm',
         o_site: '181110Gel',
-        reskeep: [87, 89, 90, 88]
+        reskeep: [87, 89, 90, 88],
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20181111_1',

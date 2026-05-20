@@ -700,7 +700,8 @@ let events2022 = [
         reg: 'http://orgeo.ru/event/21496',
         res: 'http://sportident.online/ol/?id=774&g=5',
         o_site: '22060911',
-        reskeep: 535
+        reskeep: 535,
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20220611_2',
@@ -1048,7 +1049,8 @@ let events2022 = [
         name: 'Чемпионат России, Мурманская область',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220912/team3.pdf',
-        o_site: '220912'
+        o_site: '220912',
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20220910_1',

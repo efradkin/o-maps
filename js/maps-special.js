@@ -774,10 +774,10 @@ let specialMaps = [
         url: './maps/velo/lembolovo_russia_2007.webp',
         link: './original_maps/velo/lembolovo_russia_2007_omaps.jpg',
         info: 'MTBO Чемпионат России.',
-        major: true,
         bounds: [[60.445662157954466, 30.319519042968754], [60.44214808981624, 30.381145477294925], [60.40197393671737, 30.308167934417728]],
         type: ['VELO'],
-        region: 'SPB'
+        region: 'SPB',
+        start: 'RUSSIA_CHAMP'
     },
     {
         name: 'Силанде',
