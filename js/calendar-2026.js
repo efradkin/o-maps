@@ -1332,6 +1332,8 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'выбор',
         reg: 'https://orgeo.ru/event/permosk26',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25116/',
+        strava: 18583470137,
         map: 'park_pobedy_2025'
     },
     {
@@ -1365,7 +1367,6 @@ let events2026 = [
         reg: 'http://orgeo.ru/event/tsa26',
         o_site: '260523',
         type: 'ORIENT',
-        fmt: 'выбор',
         map: 'pushkin_babolovsky',
         owner: 'EGRV_EGR'
     },
