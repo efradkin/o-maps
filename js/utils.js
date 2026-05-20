@@ -1091,7 +1091,9 @@ function getMapStarts(m) {
             }
         }
     } else {
-        start = starts[m.start].name;
+        if (starts[m.start].name) {
+            start = starts[m.start].name;
+        }
     }
     if (start) {
         start += '. ';
