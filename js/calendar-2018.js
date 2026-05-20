@@ -888,7 +888,7 @@ let events2018 = [
         reg: 'http://www.multsport.ru/starts/bike-rogaine-rus-2018/registration.html',
         res: 'http://www.multsport.ru/starts/bike-rogaine-rus-2018/results.html',
         fmt: 'Рогейн 6ч, Рогейн 18ч. Велосипедный и беговой рогейн.',
-        start: 'MULTSPORT',
+        start: ['MULTSPORT','RUSSIA_ROGAINE_CHAMP'],
         o_site: '18081112'
     },
     {

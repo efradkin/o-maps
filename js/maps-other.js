@@ -67,8 +67,8 @@ let otherMaps = [
         about: 'https://ski.rogaining.ru',
         bounds: [[56.96818761462326, 40.929222106933594], [56.95059166007404, 41.142082214355476], [56.78940938146706, 40.87926864624024]],
         logo: 'rogaine_russia_2011.webp',
-        major: true,
         region: 'VLADIMIR',
+        start: 'RUSSIA_ROGAINE_CHAMP',
         type: ['ROGAINE']
     },
     {
@@ -82,7 +82,7 @@ let otherMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/9803',
         author: ['BRV_D','SHSTKV_P','LGNV_E'],
         logo: 'rrc_2021.webp',
-        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'VLADIMIR',
         type: ['ROGAINE']
     },
@@ -381,7 +381,7 @@ let otherMaps = [
         info: 'Галичское Заозерье. XXII-й Чемпионат России по рогейну.',
         bounds: [[58.570579776317544, 42.18526840209962], [58.531082526206816, 42.53528594970704], [58.44162408488062, 42.1322250366211]],
         type: ['ROGAINE'],
-        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP',
         logo: 'rrc_2025.gif',
         region: 'KOSTROMA'
     },
@@ -406,7 +406,7 @@ let otherMaps = [
         info: '12-й Чемпионат России по рогейну.',
         bounds: [[56.072754061275596, 92.43647575378418], [56.07615520299828, 92.76288986206056], [55.95366905082329, 92.43986606597902]],
         type: ['ROGAINE'],
-        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'KRASNOYARSK'
     },
     {
@@ -430,7 +430,7 @@ let otherMaps = [
         bounds: [[54.55743129270758, 90.72750091552736], [54.55763038049401, 91.0162353515625], [54.43960031016295, 90.72715759277345]],
         author: 'ANKN_I',
         type: ['ROGAINE'],
-        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'KRASNOYARSK'
     },
     // --- Курган ---
@@ -515,7 +515,7 @@ let otherMaps = [
         bounds: [[56.25345956009947, 43.27171325683594], [56.21925725344818, 43.5659408569336], [56.00529203821348, 43.17455291748047]],
         author: ['BRV_D','SDNV_V'],
         type: ['ROGAINE'],
-        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'N_NOVGOROD'
     },
     {
@@ -529,7 +529,7 @@ let otherMaps = [
         bounds: [[56.20116586957535, 43.0440902709961], [56.16304580548437, 43.40423583984376], [56.04606144935395, 42.98503875732422]],
         author: ['BRV_D','SHSTKV_P'],
         type: ['ROGAINE'],
-        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'N_NOVGOROD'
     },
     {
@@ -735,7 +735,7 @@ let otherMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/6247/',
         bounds: [[57.3599604183415, 60.141220092773445], [57.34509716809974, 60.31476974487305], [57.183762311675956, 60.09160995483399]],
         logo: 'rrc_2019.webp',
-        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'EKB',
         type: ['ROGAINE']
     },
@@ -908,7 +908,7 @@ let otherMaps = [
         bounds: [[55.800123135977486, 60.31185150146485], [55.76735178017714, 60.55037498474122], [55.62499151150313, 60.23537635803223]],
         author: ['KZLV_V','LNTV','CHRMNCH_A','GBDLN','VRBJV_V','PTPV_A','BLV_V','MLNKV_V','SLDTV_S','KNTSVCH','SPLKV','ZRN_A'],
         region: 'CHELYABINSK',
-        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP',
         type: ['ROGAINE']
     },
     {
@@ -922,7 +922,7 @@ let otherMaps = [
         bounds: [[55.714782899689865, 60.28635978698731], [55.68377855290114, 60.5039405822754], [55.552767217118735, 60.216150283813484]],
         author: ['KZLV_V','BNDR_N','SLDTV_S','GBDLN','BLV_V','RKHMNKLV','NCHKN','PTPV_A','VRBJV_V','MSHRN_A','GRSHKN'],
         region: 'CHELYABINSK',
-        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP',
         type: ['ROGAINE']
     },
     // --- Юг ---
@@ -1075,7 +1075,7 @@ let otherMaps = [
         bounds: [[44.788048764814604, 37.57101058959962], [44.77245227522474, 37.77125358581544], [44.66315888324934, 37.55049705505372]],
         author: ['GRSHKN','GLDKVA_S','SLMNV_G'],
         owner: 'RRF',
-        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'NVRSYSK',
         type: ['ROGAINE']
     },
@@ -1180,7 +1180,7 @@ let otherMaps = [
         link: './original_maps/south/terskol_rrc_2021_omaps.webp',
         info: 'Открытый Чемпионат России по рогейну.',
         bounds: [[43.29744827659319, 42.46215820312501], [43.28282904077466, 42.59905815124512], [43.22588051343216, 42.448253631591804]],
-        start: 'ZM',
+        start: ['ZM','RUSSIA_ROGAINE_CHAMP'],
         region: 'KABARDA',
         type: ['ROGAINE']
     },

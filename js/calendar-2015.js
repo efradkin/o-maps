@@ -740,6 +740,7 @@ let events2015 = [
         reg: 'http://x-race.info/calendar/48512/request/',
         res: 'https://o-site.spb.ru/_races/150809/150808_split.htm',
         info: '24 часа Велосипедный рогейн — Чемпионат России. Одновременно проводятся рогейны в двух альтернативных форматах: 9 часов Велосипедный рогейн - «Питер Хэппининг 2015» 9 часов Беговой рогейн - «Питер Хэппининг 2015»',
+        start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '150809'
     },
     {
@@ -865,6 +866,7 @@ let events2015 = [
         name: '12-й Чемпионат России по рогейну',
         type: 'ROGAINE',
         fmt: '24 часа бегом',
+        start: 'RUSSIA_ROGAINE_CHAMP',
         link: 'http://kras-rogaining.ru/'
     },
     {

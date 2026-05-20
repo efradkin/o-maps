@@ -516,6 +516,7 @@ let events2013 = [
         name: '1-й Чемпионат России по рогейну на велосипедах',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/130602/130602_res.zip',
+        start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '130602'
     },
     {

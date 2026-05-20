@@ -205,13 +205,12 @@ let commonEvents2026 = [
     id: 'MAJOR_20260822_1',
     date: '2026-08-22',
     place: 'Выборг',
-    major: true,
     name: 'Чемпионат России по рогейну',
     link: 'https://rogaining.ru/events/calendar/event/754-rrc2026',
     reg: 'https://www.multsport.ru/starts/rogaine-rus-2026/registration.html',
     fmt:  '24',
     type: 'ROGAINE',
-    start: 'MULTSPORT'
+    start: ['MULTSPORT','RUSSIA_ROGAINE_CHAMP']
 },
 {
     id: 'MAJOR_20260825_1',

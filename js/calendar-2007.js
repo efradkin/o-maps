@@ -678,6 +678,7 @@ let events2007 = [
         name: 'Чемпионат России по рогейну',
         type: 'ROGAINE',
         info: 'Открытый Чемпионат России по рогейну',
+        start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '070824'
     },
     {

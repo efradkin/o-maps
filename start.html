@@ -53,10 +53,6 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
-    <script src="js/maps-starts-other.js"></script>
-    <script src="js/maps-starts-2x2.js"></script>
-    <script src="js/maps-starts-orientir.js"></script>
-    <script src="js/maps-starts-schools.js"></script>
     <script src="js/maps-city.js"></script>
     <script src="js/maps-parks.js"></script>
     <script src="js/maps-forest.js"></script>
@@ -77,7 +73,10 @@
     <script src="js/maps-rogaine-rfar.js"></script>
     <script src="js/maps-ryazan.js"></script>
     <script src="js/maps-moscow.js"></script>
+    <script src="js/maps-pskov.js"></script>
     <script src="js/maps-serbia.js"></script>
+    <script src="js/maps-other.js"></script>
+    <script src="js/maps-starts-schools.js"></script>
     <script src="js/maps-starts-mms.js"></script>
     <script src="js/maps-starts-wn.js"></script>
     <script src="js/maps-starts-ym.js"></script>
@@ -88,6 +87,9 @@
     <script src="js/maps-starts-kkp.js"></script>
     <script src="js/maps-starts-gs.js"></script>
     <script src="js/maps-starts-rfar.js"></script>
+    <script src="js/maps-starts-2x2.js"></script>
+    <script src="js/maps-starts-orientir.js"></script>
+    <script src="js/maps-starts-other.js"></script>
 
     <script src="js/welcome.js"></script>
     <script src="js/starts.js"></script>
@@ -112,8 +114,10 @@
             ...mmsStartsMaps,
             ...wnStartsMaps,
             ...naStartsMaps,
+            ...otherMaps,
             ...serbiaMaps,
             ...ryazanMaps,
+            ...pskovMaps,
             ...moscowMaps,
             ...rfarStartsMaps,
             ...rogaineRfarMaps,
@@ -153,7 +157,7 @@
         oMaps.sort((a, b) => dateForCompare(b) - dateForCompare(a));
 
         let strt = starts[START_NAME_PARAM];
-        document.getElementById('start_name').innerHTML = strt.name;
+        document.getElementById('start_name').innerHTML = strt.name ?? strt.short;
 
         if (strt.info) {
             document.getElementById('start_info').style.display = 'block';

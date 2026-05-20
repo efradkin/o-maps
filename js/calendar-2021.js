@@ -1027,6 +1027,7 @@ let events2021 = [
         place: 'Себеж',
         name: 'Чемпионат России по рогейну на байдарках',
         type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP',
         fmt: '12',
         link: 'https://vk.com/gornycross'
     },

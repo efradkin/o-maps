@@ -153,6 +153,7 @@ let events2012 = [
         name: 'Чемпионат России по лыжному рогейну',
         type: 'ROGAINE',
         fmt: '24 и 6 часов',
+        start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '12030910'
     },
     {
@@ -553,6 +554,7 @@ let events2012 = [
         endDate: '2012-07-22',
         name: 'Чемпионат России по рогейну',
         type: 'ROGAINE',
+        start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '12072122'
     },
     {

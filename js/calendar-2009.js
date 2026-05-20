@@ -377,6 +377,7 @@ let events2009 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/090530_rog/090531_res.htm',
         info: '6-й Чемпионат России по рогейну. Форматы: 24 часа (Ч-т России), 6 и 3 часа.',
+        start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '090530_rog'
     },
     {

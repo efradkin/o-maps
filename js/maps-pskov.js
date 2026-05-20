@@ -3,7 +3,7 @@ let pskovMaps = [
     {
         name: 'Печорский район',
         date: '2010-06-05',
-        major: true,
+        start: 'RUSSIA_ROGAINE_CHAMP',
         url: './maps/other/malska_dolina_rogaine_2010.webp',
         link: 'https://7rrc.rogaining.ru/download/7rrc_map24.jpg',
         info: '<a href="https://7rrc.rogaining.ru/">7-й Чемпионат России по рогейну</a>.',

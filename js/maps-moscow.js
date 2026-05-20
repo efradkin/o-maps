@@ -2978,13 +2978,13 @@ let moscowMaps = [
     {
         name: 'Алферово',
         date: '2014-09-13',
-        major: true,
         url: './maps/moscow/ak/alferovo_rogaine_2014.webp',
         link: 'https://rrc2014.rogaining.ru/results/rrc2014_map.jpg',
         info: '<a href="https://rrc2014.rogaining.ru">XI Чемпионат России по рогейну</a>.',
         bounds: [[55.78004852149085, 38.40631484985352], [55.7280767585615, 38.91546249389649], [55.61714010614988, 38.35515975952149]],
         author: ['RSCHN_R','KLSV_S','MRDRS','KBRV_M','BRBA'],
         type: ['ROGAINE'],
+        start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'MSK'
     },
     {
@@ -4612,13 +4612,13 @@ let moscowMaps = [
     {
         name: 'Сенеж',
         date: '2008-05-10',
-        major: true,
         info: '<a href="https://senege.rogaining.ru/">V Чемпионат России по рогейну "Золото Сенежа"</a>.',
         url: './maps/moscow/senezh_2008.webp',
         link: './original_maps/moscow/senezh_2008_rogaine_omaps.gif',
         bounds: [[56.348702164077835, 36.85363769531251], [56.35574068535468, 37.226486206054695], [56.21901863640133, 36.86084747314454]],
         author: 'KSTLV_E',
         type: ['ROGAINE'],
+        start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'MSK'
     },
     {

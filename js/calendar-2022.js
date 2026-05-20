@@ -622,6 +622,7 @@ let events2022 = [
         name: 'Чемпионат России по рогейну на велосипедах',
         type: ['ROGAINE','VELO'],
         fmt: '16, 6',
+        start: 'RUSSIA_ROGAINE_CHAMP',
         link: 'https://rogaining.site/'
     },
     {

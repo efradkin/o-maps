@@ -607,7 +607,7 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2019/registration.html',
         fmt: '8ч – Весенний водный рогейн, 16ч – 2-й Чемпионат России по рогейну на байдарках.',
-        start: 'MULTSPORT',
+        start: ['MULTSPORT','RUSSIA_ROGAINE_CHAMP'],
         o_site: '19051819'
     },
     {
