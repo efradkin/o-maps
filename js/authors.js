@@ -824,6 +824,7 @@ let authors = {
     PRHRV_V: { name: 'Прохоров Владимир' },
     PRHRVA_E: { name: 'Прохорова Елена' },
     RHMTLNA: { name: 'Рахматуллина С.' },
+    SCHRV_A: { name: 'Щуров А.' },
     SDKV: { name: 'Садаков В.' }, // М.
     SLDTV_S: { name: 'Солдатов Сергей' },
     SLTNBKV: { name: 'Султанбеков Эрнст' },
@@ -896,7 +897,7 @@ let authors = {
     IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
     KKRV_S: { name: 'Кокарев Степан' },
     KLM_K: { name: 'Калм К.' },
-    KNTSVCH: { name: 'Кунцевич Г.' },
+    KNTSVCH: { name: 'Кунцевич Г.' }, // К.
     KNV_S: { name: 'Коняев Сергей' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },
     KRLV_A: { name: 'Королёв А.' }, // А.

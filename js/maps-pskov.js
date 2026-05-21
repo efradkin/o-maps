@@ -195,6 +195,29 @@ let pskovMaps = [
         owner: 'PSKOV_RUS',
     },
     {
+        name: 'Мякишево',
+        date: '1982-08-25',
+        url: './maps/pskov/myakishevo_1982_08_25.webp',
+        link: ['./original_maps/pskov/myakishevo_1982_08_25_clean_omaps.webp','./original_maps/pskov/myakishevo_1982_08_25_courses_omaps.webp'],
+        gps: {
+            'Святкин':'./original_maps/pskov/myakishevo_1982_08_25_svyatkin_omaps.webp'
+        },
+        bounds: [[56.58709490257567, 28.965454101562504], [56.58480251552527, 29.025878906250004], [56.55158275943098, 28.960905075073246]],
+        author: ['GZTLN','KHDNKCH','SCHRV_A'],
+        owner: 'PSKOV_RUS',
+        start: ['USSR_1982','USSR_CHAMP']
+    },
+    {
+        name: 'Лукавец',
+        date: '1982-08-27',
+        url: './maps/pskov/lukavets_1982_08_27.webp',
+        link: './original_maps/pskov/lukavets_1982_08_27_omaps.webp',
+        bounds: [[56.274814539180646, 30.59576511383057], [56.27319426672027, 30.635032653808597], [56.2518860657691, 30.59155941009522]],
+        author: ['AFNSV_L','GLVNV_V','KRZHV','TRNV_V'],
+        owner: 'PSKOV_RUS',
+        start: ['USSR_1982','USSR_CHAMP']
+    },
+    {
         name: 'Аболенье',
         date: '1996-09-05',
         url: './maps/other/abolenie_1996_09_05.webp',
@@ -214,7 +237,6 @@ let pskovMaps = [
         owner: 'PSKOV_RUS',
         hidden: true
     },
-
     {
         name: 'Ольгинская, Седьмое небо',
         year: 2019,

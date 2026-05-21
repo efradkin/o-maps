@@ -784,16 +784,70 @@ let otherMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Нижнеисетский л/п',
+        date: '1990-03-11',
+        url: './maps/other/nizhneisetsky_ussr_winter_champ_1990_03_11.webp',
+        link: './original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_11_omaps.webp',
+        gps: {
+            'М':'./original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_11_m21_omaps.webp',
+            'Ж':'./original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_11_w21_omaps.webp'
+        },
+        bounds: [[56.74693441826555, 60.67817687988282], [56.73935631374206, 60.75087547302247], [56.696494809579015, 60.66101074218751]],
+        start: ['USSR_1990_WINTER','USSR_CHAMP'],
+        author: 'KNTSVCH',
+        type: ['WINTER']
+    },
+    {
+        name: 'Нижнеисетский л/п',
+        date: '1990-03-13',
+        url: './maps/other/nizhneisetsky_ussr_winter_champ_1990_03_13.webp',
+        link: './original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_13_m21_omaps.webp',
+        gps: {
+            'М':'./original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_13_m21_omaps.webp',
+            'Ж':'./original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_13_w21_omaps.webp'
+        },
+        bounds: [[56.754275720104616, 60.61079978942872], [56.73926216618659, 60.72409629821778], [56.71953305203723, 60.600414276123054]],
+        start: ['USSR_1990_WINTER','USSR_CHAMP'],
+        author: 'KNTSVCH',
+        type: ['WINTER']
+    },
+    {
+        name: 'Нижнеисетский л/п',
+        date: '1990-03-14',
+        url: './maps/other/nizhneisetsky_ussr_winter_champ_1990_03_14.webp',
+        link: './original_maps/other/nizhneisetsky_ussr_winter_champ_1990_03_14_omaps.webp',
+        bounds: [[56.727020975474346, 60.622859001159675], [56.721746618604776, 60.67470073699952], [56.705118134929144, 60.618095397949226]],
+        start: ['USSR_1990_WINTER','USSR_CHAMP'],
+        author: 'KNTSVCH',
+        type: ['WINTER']
+    },
+    {
+        name: 'Верх-Нейвинский',
+        date: '1991-01-27',
+        url: './maps/other/verkh_neyvinsky_ussr_winter_champ_1991.webp',
+        link: ['./original_maps/other/verkh_neyvinsky_ussr_winter_champ_1991_m21_omaps.webp','./original_maps/other/verkh_neyvinsky_ussr_winter_champ_1991_w21_omaps.webp'],
+        bounds: [[57.304180600505504, 60.13851642608643], [57.29935843584592, 60.20151615142823], [57.26630496570789, 60.12778759002686]],
+        start: ['USSR_1991_WINTER','USSR_CHAMP'],
+        type: ['WINTER']
+    },
+    {
+        name: 'Новоуральск, Мурзинка',
+        date: '1991-01-26',
+        url: './maps/other/murzinka_ussr_winter_champ_1991.webp',
+        link: './original_maps/other/murzinka_ussr_winter_champ_1991_omaps.webp',
+        bounds: [[57.21942258001789, 60.104999542236335], [57.21616948557652, 60.13529777526856], [57.18794848149075, 60.093412399292]],
+        start: ['USSR_1991_WINTER','USSR_CHAMP'],
+        type: ['WINTER']
+    },
+    {
         name: 'Шаманиха',
         date: '1991-01-24',
         url: './maps/other/shamanikha_ussr_winter_champ_1991.webp',
         link: './original_maps/other/shamanikha_ussr_winter_champ_1991_omaps.webp',
         bounds: [[57.13742697401689, 60.111522674560554], [57.13276928575067, 60.17271995544434], [57.09485721095755, 60.09916305541993]],
-        info: 'III Чемпионат СССР.',
         results: './docs/1991/1991_02_24_shamanikha_ussr_winter_champ_omaps.pdf',
         planner: 'KNTSVCH',
-        region: 'EKB',
-        start: 'USSR_CHAMP',
+        start: ['USSR_1991_WINTER','USSR_CHAMP'],
         type: ['WINTER']
     },
     {

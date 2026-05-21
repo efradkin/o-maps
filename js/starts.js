@@ -349,11 +349,32 @@ let starts = {
         major: true,
         short: 'Чемпионат СССР'
     },
+    USSR_1990_WINTER: {
+        major: true,
+        short: 'II Зимний Чемпионат СССР',
+        name: 'II Зимний Чемпионат СССР',
+        logo: 'ussr_retro.webp',
+        region: 'EKB'
+    },
+    USSR_1991_WINTER: {
+        major: true,
+        short: 'III Зимний Чемпионат СССР',
+        name: '<a href="https://rufso.ru/wp-content/uploads/2023/12/1991-Зима-СССР.pdf">III Зимний Чемпионат СССР</a>',
+        logo: 'ussr_retro.webp',
+        region: 'EKB'
+    },
     USSR_1981: {
         major: true,
         short: 'I Чемпионат СССР',
-        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">I чемпионат СССР</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./docs/ussr_champ_1981_program_omaps.pdf">программа</a>, <a href="./docs/ussr_champ_1981_resolution_omaps.pdf">постановление</a>)',
-        logo: 'ussr_1981.jpg',
+        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">I чемпионат СССР</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./documents.html?start=USSR_1981">документы</a>)',
+        logo: 'ussr_1981.webp',
+        region: 'LNGRD'
+    },
+    USSR_1982: {
+        major: true,
+        short: 'II Чемпионат СССР',
+        name: '<a href="https://o-site.spb.ru/history/History/luki-82.html">II чемпионат СССР</a> (<a href="./documents.html?start=USSR_1982">документы</a>, <a href="https://www.youtube.com/watch?v=Jtd9LbAUujg">кинофильм</a>)',
+        logo: 'ussr_1982.webp',
         region: 'LNGRD'
     },
     LENINGRAD_30: {

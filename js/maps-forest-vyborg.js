@@ -528,7 +528,7 @@ let vyborgMaps = [
         year: 1981,
         start: ['USSR_1981','USSR_CHAMP'],
         url: './maps/forest/vyborg/vyborg_saymenskie_dachi_1981.webp',
-        link: ['./original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_omaps.jpg','./original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_M_omaps.jpg'],
+        link: ['./original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_omaps.jpg','./original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_clean_omaps.webp','./original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_M_omaps.jpg'],
         gps: {
             'М1': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_1.jpg',
             'М2': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_2.jpg',

@@ -1333,6 +1333,8 @@ let events2026 = [
         fmt: 'выбор',
         reg: 'https://orgeo.ru/event/permosk26',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25116/',
+        photo: 'https://vk.com/album-12947537_309917193',
+        reskeep: 889,
         strava: 18583470137,
         map: 'park_pobedy_2025'
     },

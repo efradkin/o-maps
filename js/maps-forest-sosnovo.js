@@ -225,9 +225,14 @@ let sosnovoMaps = [
         name: 'Сосново, оз Уловное',
         date: '1981-08-05',
         start: ['USSR_1981','USSR_CHAMP'],
-        info: '<a href="./docs/ussr_champ_1981_relay_schema_omaps.jpg">Эстафета</a>.',
+        info: '<a href="./docs/1981_ussr_champ_relay_schema_omaps.jpg">Эстафета</a>.',
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981.webp',
-        link: ['./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M1_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M3_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_W3_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_all_omaps.jpg'],
+        link: ['./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_all_omaps.jpg'],
+        gps: {
+            'М1':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M1_omaps.jpg',
+            'М3':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M3_omaps.jpg',
+            'Ж3':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_W3_omaps.jpg'
+        },
         bounds: [[60.60475042664144, 30.21566390991211], [60.60226475491396, 30.262098312377933], [60.58557630901257, 30.209827423095707]],
         author: ['ARTMV','PRSCHPA','BLZRV_V','SRKN_A','TRSV','SNTSNA','DRSVNA','FDRV_L','KRCHKN_V']
     },

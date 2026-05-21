@@ -504,6 +504,7 @@ function downloadIconExt(url) {
         case 'jpeg': return 'jpg';
         case 'omap': return 'ocd';
         case 'djvu':
+        case 'xlsx':
         case 'webp': return 'url';
     }
     return ext;

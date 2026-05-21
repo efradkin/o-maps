@@ -305,19 +305,55 @@ let historyDocs = [
         name: 'Программа',
         start: ['USSR_1981','USSR_CHAMP'],
         year: 1981,
-        link: './docs/ussr_champ_1981_program_omaps.pdf'
+        link: './docs/1981/1981_ussr_champ_program_omaps.pdf'
     },
     {
         name: 'Постановление',
         start: ['USSR_1981','USSR_CHAMP'],
         year: 1981,
-        link: './docs/ussr_champ_1981_resolution_omaps.pdf'
+        link: './docs/1981/1981_ussr_champ_resolution_omaps.pdf'
     },
     {
         name: 'Схема',
         start: ['USSR_1981','USSR_CHAMP'],
         year: 1981,
-        link: './docs/ussr_champ_1981_relay_schema_omaps.jpg'
+        link: './docs/1981/1981_ussr_champ_relay_schema_omaps.jpg'
+    },
+    {
+        name: 'Билет участника',
+        start: ['USSR_1981','USSR_CHAMP'],
+        year: 1981,
+        link: './docs/1981/1981_ussr_champ_ticket_omaps.pdf'
+    },
+    {
+        name: 'Статья в газете "Советский спорт", "Азимут - через скалы"',
+        start: ['USSR_1981','USSR_CHAMP'],
+        date: '1981-08-07',
+        link: './docs/1981/1981_08_07_ussr_champ_soviet_sport_article_omaps.pdf'
+    },
+    {
+        name: 'Статья в газете "Советский спорт", "Первые чемпионы"',
+        start: ['USSR_1981','USSR_CHAMP'],
+        date: '1981-08-08',
+        link: './docs/1981/1981_08_08_ussr_champ_soviet_sport_article_omaps.pdf'
+    },
+    {
+        name: 'Программа',
+        start: ['USSR_1982','USSR_CHAMP'],
+        year: 1982,
+        link: './docs/1982/1982_ussr_champ_program_omaps.pdf'
+    },
+    {
+        name: 'Результаты',
+        start: ['USSR_1982','USSR_CHAMP'],
+        year: 1982,
+        link: './docs/1982/1982_ussr_champ_results_omaps.xlsx'
+    },
+    {
+        name: 'Статья в газете "Великолукская правда", "Чемпионы названы"',
+        start: ['USSR_1982','USSR_CHAMP'],
+        date: '1982-08-28',
+        link: './docs/1982/1982_08_28_ussr_champ_velikolukska_pravda_article_omaps.pdf'
     },
     {
         name: 'Зимнее п-во ЛГС Спартак, выбор (Юкки)',
