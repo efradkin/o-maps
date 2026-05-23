@@ -108,6 +108,7 @@ let starts = {
     ORIENTIR: {
         short: 'Ориентир',
         page: 'starts',
+        retro: true,
         name: '<a href="https://o-site.spb.ru/history/History/azimuth.html">Ориентир</a>',
         logo: 'azimut_retro.gif',
         info: 'Серия тренировочных стартов от спорт.общества "Спартак" (в дальнейшем - КСО "Азимут").'
@@ -270,6 +271,7 @@ let starts = {
     EUROPEAN_HOPE: {
         short: 'European hope',
         name: 'Надежды Европы',
+        retro: true,
         info: 'По инициативе тренеров СДЮШОР-2 в 1992г в Мичуринском организованы первые международные детские соревнования "Надежды Европы", ' +
             'с 1993 г. они ежегодно проводятся в Яппиля, на базе лагеря Зеркальный.',
         logo: 'european_hope.webp'
@@ -279,18 +281,21 @@ let starts = {
         name: '<a href="https://o-site.spb.ru/history/Knots/match-66.html">Зимний матч городов СССР</a>',
         logo: 'meet_1966.jpg',
         major: true,
+        retro: true,
         region: 'LNGRD'
     },
     START_1968: {
         short: '1-я многодневка\'1968',
         name: '<a href="https://o-site.spb.ru/history/History/fenomen.html">Первые многодневные соревнования</a>',
         major: true,
+        retro: true,
         region: 'LNGRD'
     },
     ESTONIA_LENINGRAD: {
         short: 'Матч Эстония-Ленинград',
         name: '<a href="https://o-site.spb.ru/history/History/book.html#mark06">Матчевая встреча Эстония-Ленинград</a> (<a href="https://o-site.spb.ru/history/History/estle-s.html">лето</a>, <a href="https://o-site.spb.ru/history/History/estle-w.html">зима</a>)',
         major: true,
+        retro: true,
         region: 'LNGRD'
     },
     USSR_BULGARIA_1968: {
@@ -301,6 +306,7 @@ let starts = {
             'Большую работу провел Оргкомитет (председатель Н.Кривошеев) и судейская коллегия. <br /> Главный судья - Н.В.Благово, Зам. главного судьи - А.Д.Лолоко, Главный секретарь - С.Н.Абилевский, ' +
             'Зам. главного секретаря - Л.В.Петрова и Н.А.Григоренко, Начальники дистанций - Л.В.Лебедкин, Р.А.Гладкобородов, А.И.Муравьев и А.И.Ходанович, Пом. начальника дистанции - Ю.Н.Леонов и И.Е.Штейнбук, Врач - Е.В.Утехина',
         major: true,
+        retro: true,
         region: 'LNGRD'
     },
     USSR_V_1971: {
@@ -309,6 +315,7 @@ let starts = {
         logo: '1971.gif',
         info: 'Ленинград, 13-15.09.1971. Главный судья А.И.Муравьев, главный секретарь Н.А.Григоренко. Заместитель главного судьи по дистанциям А.Д.Котов',
         major: true,
+        retro: true,
         region: 'LNGRD'
     },
     USSR_FRANCE_ARMY_1975: {
@@ -328,6 +335,7 @@ let starts = {
             'В командном зачете сборная Франции проиграла нашим спортсменам менее 2 минут. (Из книги Е.И.Пепеляева "<a href="https://rufso.ru/wp-content/uploads/2017/07/orientirovanie_v_vooruzhyonnyh_silah.pdf">Спортивное ориентирование в Вооруженных Силах</a>")',
         logo: 'ussr_1975.jpg',
         major: true,
+        retro: true,
     },
     USSR_V_1975: {
         short: 'Всесоюзные\'1975',
@@ -336,10 +344,12 @@ let starts = {
             'были проведены  в окрестностях  Ленинграда  10-13 марта 1975 года.',
         logo: 'ussr_1975.jpg',
         major: true,
+        retro: true,
         region: 'LNGRD'
     },
     VWC_1995: {
         major: true,
+        retro: true,
         short: 'VWC\'1995',
         name: '<a href="https://o-site.spb.ru/history/VWC-95/index.html">Кубок Мира среди ветеранов</a>',
         logo: 'vwc95.gif',
@@ -347,10 +357,12 @@ let starts = {
     },
     USSR_CHAMP: {
         major: true,
+        retro: true,
         short: 'Чемпионат СССР'
     },
     USSR_1990_WINTER: {
         major: true,
+        retro: true,
         short: 'II Зимний Чемпионат СССР',
         name: 'II Зимний Чемпионат СССР',
         logo: 'ussr_retro.webp',
@@ -358,6 +370,7 @@ let starts = {
     },
     USSR_1991_WINTER: {
         major: true,
+        retro: true,
         short: 'III Зимний Чемпионат СССР',
         name: '<a href="https://rufso.ru/wp-content/uploads/2023/12/1991-Зима-СССР.pdf">III Зимний Чемпионат СССР</a>',
         logo: 'ussr_retro.webp',
@@ -365,6 +378,7 @@ let starts = {
     },
     USSR_1981: {
         major: true,
+        retro: true,
         short: 'I Чемпионат СССР',
         name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">I чемпионат СССР</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./documents.html?start=USSR_1981">документы</a>)',
         logo: 'ussr_1981.webp',
@@ -372,13 +386,37 @@ let starts = {
     },
     USSR_1982: {
         major: true,
+        retro: true,
         short: 'II Чемпионат СССР',
         name: '<a href="https://o-site.spb.ru/history/History/luki-82.html">II чемпионат СССР</a> (<a href="./documents.html?start=USSR_1982">документы</a>, <a href="https://www.youtube.com/watch?v=Jtd9LbAUujg">кинофильм</a>)',
         logo: 'ussr_1982.webp',
         region: 'LNGRD'
     },
+    USSR_1983: {
+        major: true,
+        retro: true,
+        short: 'III Чемпионат СССР',
+        name: 'III чемпионат СССР (<a href="./documents.html?start=USSR_1983">документы</a>)',
+        region: 'LATVIA'
+    },
+    USSR_1984: {
+        major: true,
+        retro: true,
+        short: 'IV Чемпионат СССР',
+        name: 'IV чемпионат СССР (<a href="./documents.html?start=USSR_1984">документы</a>)',
+        region: 'ESTONIA'
+    },
+    USSR_1985: {
+        major: true,
+        retro: true,
+        short: 'V Чемпионат СССР',
+        name: 'V чемпионат СССР (<a href="./documents.html?start=USSR_1985">документы</a>)',
+        region: 'UKRAINE',
+        logo: 'ussr_1985.webp'
+    },
     LENINGRAD_30: {
         major: true,
+        retro: true,
         short: '30 лет Ленинградского ориентирования',
         name: 'Многодневные <a href="./docs/1989/1989_05_07_XXX_years_omaps.pdf">соревнования</a>, посвящённые 30 летию Ленинградского ориентирования',
         logo: 'leningrad_30.webp',
@@ -449,6 +487,7 @@ let starts = {
     },
     CISM_96: {
         major: true,
+        retro: true,
         short: "CISM'96'",
         name: "XXIX Orienteering Military World Championship'1996",
         logo: 'military_1996.gif',

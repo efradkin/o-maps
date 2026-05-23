@@ -205,6 +205,7 @@ let pskovMaps = [
         bounds: [[56.58709490257567, 28.965454101562504], [56.58480251552527, 29.025878906250004], [56.55158275943098, 28.960905075073246]],
         author: ['GZTLN','KHDNKCH','SCHRV_A'],
         owner: 'PSKOV_RUS',
+        results: './docs/1982/1982_ussr_champ_results_omaps.xlsx',
         start: ['USSR_1982','USSR_CHAMP']
     },
     {
@@ -215,6 +216,7 @@ let pskovMaps = [
         bounds: [[56.274814539180646, 30.59576511383057], [56.27319426672027, 30.635032653808597], [56.2518860657691, 30.59155941009522]],
         author: ['AFNSV_L','GLVNV_V','KRZHV','TRNV_V'],
         owner: 'PSKOV_RUS',
+        results: './docs/1982/1982_ussr_champ_results_omaps.xlsx',
         start: ['USSR_1982','USSR_CHAMP']
     },
     {

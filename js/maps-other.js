@@ -1241,15 +1241,31 @@ let otherMaps = [
 
     // --- Не Россия ---
     {
-        name: 'Украина, Черновцы',
+        name: 'Черновцы, Вижница',
+        date: '1985-08-24',
+        url: './maps/other/vizhnitsa_1985_08_24.webp',
+        link: ['./original_maps/other/vizhnitsa_1985_08_24_m21_omaps.webp','./original_maps/other/vizhnitsa_1985_08_24_w21_omaps.webp'],
+        gps: {
+            'М':'./original_maps/other/vizhnitsa_1985_08_24_m21_tracks_omaps.webp',
+            'Ж':'./original_maps/other/vizhnitsa_1985_08_24_w21_tracks_omaps.webp'
+        },
+        bounds: [[48.2437962482326, 25.139207839965824], [48.24276735761622, 25.179162025451664], [48.19816221664037, 25.13504505157471]],
+        results: './docs/1985/1985_ussr_champ_results_omaps.xlsx',
+        author: ['KLTKV_A','DCHNKO_G','GMNKO_V','SRGCHK_N','MLR_P','TRSV_S','RBK_V','SKHRV_S','UGNCHV_V','GRLY_D','BRDV_M','KHNK_V','SLTY_S','MSHNV_A'],
+        start: ['USSR_1985','USSR_CHAMP']
+    },
+    {
+        name: 'Черновцы, Снячев',
         date: '1985-08-25',
-        url: './maps/other/chernovtsy_1985.webp',
-        link: './original_maps/other/chernovtsy_1985_omaps.webp',
-        info: '22-26 августа. Чемпионат СССР.',
+        url: './maps/other/chernovtsy_1985_08_25.webp',
+        link: ['./original_maps/other/chernovtsy_1985_08_25_omaps.webp','./original_maps/other/chernovtsy_1985_08_25_m21_omaps.webp','./original_maps/other/chernovtsy_1985_08_25_w21_omaps.webp'],
+        gps: {
+            'Ж':'./original_maps/other/chernovtsy_1985_08_25_w21_tracks_omaps.webp'
+        },
         bounds: [[48.1845155776972, 25.829308032989506], [48.18236954911603, 25.86879014968872], [48.13859959165873, 25.823428630828857]],
+        results: './docs/1985/1985_ussr_champ_results_omaps.xlsx',
         author: 'SHTMPLR',
-        start: 'USSR_CHAMP',
-        region: 'UKR'
+        start: ['USSR_1985','USSR_CHAMP']
     },
     {
         name: 'Казахстан, Каркаралинск',
@@ -1262,6 +1278,87 @@ let otherMaps = [
         results: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
         start: 'USSR_CHAMP',
         region: 'KZKHSTN'
+    },
+    {
+        name: 'Cēsis, Branti Parish',
+        date: '1983-08-19',
+        url: './maps/other/branti_parish_1983_08_19.webp',
+        link: './original_maps/other/branti_parish_1983_08_19_m21_omaps.webp',
+        gps: {
+            'М':'./original_maps/other/branti_parish_1983_08_19_m21_omaps.webp',
+            'Ж':'./original_maps/other/branti_parish_1983_08_19_w21_omaps.webp'
+        },
+        author: 'KRLS_M',
+        results: './docs/1983/1983_ussr_champ_results_omaps.xlsx',
+        bounds: [[57.384395293116505, 25.708093643188477], [57.38323870589683, 25.762596130371097], [57.35840955041665, 25.706720352172855]],
+        start: ['USSR_1983','USSR_CHAMP']
+    },
+    {
+        name: 'Cēsis, Kārļi',
+        date: '1983-08-20',
+        info: 'Эстафета.',
+        url: './maps/other/karli_1983_08_20.webp',
+        link: './original_maps/other/karli_1983_08_20_omaps.webp',
+        results: './docs/1983/1983_ussr_champ_results_omaps.xlsx',
+        bounds: [[57.275980527072676, 25.176930427551273], [57.27412450134422, 25.236711502075195], [57.254189528519895, 25.17422676086426]],
+        author: ['KSLV_V','ZDNSH','ZVTSKS','LPNSH'],
+        start: ['USSR_1983','USSR_CHAMP']
+    },
+    {
+        name: 'Cēsis, Līgatne',
+        date: '1983-08-21',
+        url: './maps/other/ligatne_1983_08_21.webp',
+        link: './original_maps/other/ligatne_1983_08_21_omaps.webp',
+        gps: {
+            'М':'./original_maps/other/ligatne_1983_08_21_m21_omaps.webp',
+            'Ж':'./original_maps/other/ligatne_1983_08_21_w21_omaps.webp'
+        },
+        results: './docs/1983/1983_ussr_champ_results_omaps.xlsx',
+        bounds: [[57.257300001726236, 25.034923553466797], [57.25616262033581, 25.079298019409183], [57.221444001363786, 25.032606124877933]],
+        author: 'KSLV_V',
+        start: ['USSR_1983','USSR_CHAMP']
+    },
+    {
+        name: 'Tartu, Maaritsa',
+        date: '1984-08-17',
+        url: './maps/other/maaritsa_1984_08_17.webp',
+        link: ['./original_maps/other/maaritsa_1984_08_17_m21_omaps.webp','./original_maps/other/maaritsa_1984_08_17_w21_omaps.webp'],
+        gps: {
+            'М':'./original_maps/other/maaritsa_1984_08_17_m21_tracks_omaps.webp',
+            'Ж':'./original_maps/other/maaritsa_1984_08_17_w21_tracks_omaps.webp'
+        },
+        results: './docs/1984/1984_ussr_champ_results_omaps.xlsx',
+        bounds: [[58.153633003794845, 26.605110168457035], [58.149511557476046, 26.677980422973636], [58.11897081971611, 26.59747123718262]],
+        author: ['KRNR_O','RMM_K'],
+        start: ['USSR_1984','USSR_CHAMP']
+    },
+    {
+        name: 'Tartu, Hellenurme',
+        date: '1984-08-18',
+        url: './maps/other/hellenurme_1984_08_18.webp',
+        link: './original_maps/other/hellenurme_1984_08_18_m21_lap1_omaps.webp',
+        gps: {
+            'М1':'./original_maps/other/hellenurme_1984_08_18_m21_lap1_tracks_omaps.webp',
+            'М2':'./original_maps/other/hellenurme_1984_08_18_m21_lap2_tracks_omaps.webp',
+            'Ж':'./original_maps/other/hellenurme_1984_08_18_w21_tracks_omaps.webp'
+        },
+        results: './docs/1984/1984_ussr_champ_results_omaps.xlsx',
+        bounds: [[58.15218375839495, 26.407356262207035], [58.14996448700613, 26.456794738769535], [58.11443732170355, 26.399803161621097]],
+        author: ['ORS_P','PNI_T','RD_T','VRM_A'],
+        start: ['USSR_1984','USSR_CHAMP']
+    },
+    {
+        name: 'Tartu, Alalooga',
+        date: '1984-08-19',
+        url: './maps/other/alalooga_1984_08_19.webp',
+        link: ['./original_maps/other/alalooga_1984_08_19_omaps.webp','./original_maps/other/alalooga_1984_08_19_cps_omaps.webp'],
+        gps: {
+            'Левичева':'./original_maps/other/alalooga_1984_08_19_w21_tracks_omaps.webp'
+        },
+        results: './docs/1984/1984_ussr_champ_results_omaps.xlsx',
+        bounds: [[58.184551266010935, 26.403622627258304], [58.184008278113694, 26.44469261169434], [58.15150440429871, 26.400575637817386]],
+        author: 'KLM_K',
+        start: ['USSR_1984','USSR_CHAMP']
     },
     {
         name: 'Nový Bor',

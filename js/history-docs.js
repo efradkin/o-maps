@@ -305,7 +305,8 @@ let historyDocs = [
         name: 'Программа',
         start: ['USSR_1981','USSR_CHAMP'],
         year: 1981,
-        link: './docs/1981/1981_ussr_champ_program_omaps.pdf'
+        link: './docs/1981/1981_ussr_champ_program_omaps.pdf',
+        map: ['vyborg_saymenskie_dachi_1981','sosnovo_ulovnoe_oz_1981','veschevo_1981']
     },
     {
         name: 'Постановление',
@@ -317,7 +318,8 @@ let historyDocs = [
         name: 'Схема',
         start: ['USSR_1981','USSR_CHAMP'],
         year: 1981,
-        link: './docs/1981/1981_ussr_champ_relay_schema_omaps.jpg'
+        link: './docs/1981/1981_ussr_champ_relay_schema_omaps.jpg',
+        map: 'sosnovo_ulovnoe_oz_1981'
     },
     {
         name: 'Билет участника',
@@ -341,19 +343,41 @@ let historyDocs = [
         name: 'Программа',
         start: ['USSR_1982','USSR_CHAMP'],
         year: 1982,
-        link: './docs/1982/1982_ussr_champ_program_omaps.pdf'
+        link: './docs/1982/1982_ussr_champ_program_omaps.pdf',
+        map: ['myakishevo_1982_08_25','lukavets_1982_08_27']
     },
     {
         name: 'Результаты',
         start: ['USSR_1982','USSR_CHAMP'],
         year: 1982,
-        link: './docs/1982/1982_ussr_champ_results_omaps.xlsx'
+        link: './docs/1982/1982_ussr_champ_results_omaps.xlsx',
+        map: ['myakishevo_1982_08_25','lukavets_1982_08_27']
     },
     {
         name: 'Статья в газете "Великолукская правда", "Чемпионы названы"',
         start: ['USSR_1982','USSR_CHAMP'],
         date: '1982-08-28',
         link: './docs/1982/1982_08_28_ussr_champ_velikolukska_pravda_article_omaps.pdf'
+    },
+    {
+        name: 'Программа',
+        start: ['USSR_1983','USSR_CHAMP'],
+        year: 1983,
+        link: './docs/1983/1983_ussr_champ_program_omaps.pdf',
+        map: ['branti_parish_1983_08_19','karli_1983_08_20','ligatne_1983_08_21']
+    },
+    {
+        name: 'Памятка',
+        start: ['USSR_1983','USSR_CHAMP'],
+        year: 1983,
+        link: './docs/1983/1983_ussr_champ_pamyatka_omaps.pdf',
+    },
+    {
+        name: 'Результаты',
+        start: ['USSR_1983','USSR_CHAMP'],
+        year: 1983,
+        link: './docs/1983/1983_ussr_champ_results_omaps.xlsx',
+        map: ['branti_parish_1983_08_19','karli_1983_08_20','ligatne_1983_08_21']
     },
     {
         name: 'Зимнее п-во ЛГС Спартак, выбор (Юкки)',
@@ -381,6 +405,20 @@ let historyDocs = [
         date: '1983-09-17',
         link: './docs/1983/1983_09_17_mruchey_omaps.pdf',
         map: 'mruchey_1983_09_17'
+    },
+    {
+        name: 'Программа',
+        start: ['USSR_1984','USSR_CHAMP'],
+        year: 1984,
+        link: './docs/1984/1984_ussr_champ_program_omaps.pdf',
+        map: ['maaritsa_1984_08_17','hellenurme_1984_08_18','alalooga_1984_08_19']
+    },
+    {
+        name: 'Результаты',
+        start: ['USSR_1984','USSR_CHAMP'],
+        year: 1984,
+        link: './docs/1984/1984_ussr_champ_results_omaps.xlsx',
+        map: ['maaritsa_1984_08_17','hellenurme_1984_08_18','alalooga_1984_08_19']
     },
     {
         name: 'ILVESTEADE',
@@ -436,6 +474,20 @@ let historyDocs = [
         date: '1984-09-29',
         link: './docs/1984/1984_09_29_spartak_omaps.pdf',
         map: 'pesochnaya_1984_09_29_spartak'
+    },
+    {
+        name: 'Программа',
+        start: ['USSR_1985','USSR_CHAMP'],
+        year: 1985,
+        link: './docs/1985/1985_ussr_champ_program_omaps.pdf',
+        map: []
+    },
+    {
+        name: 'Результаты',
+        start: ['USSR_1985','USSR_CHAMP'],
+        year: 1985,
+        link: './docs/1985/1985_ussr_champ_results_omaps.xlsx',
+        map: []
     },
     {
         name: 'Открытие сезона ЛГС ДСО Спартак (Голубые Дачи)',

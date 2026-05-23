@@ -1216,6 +1216,7 @@ let events2026 = [
         link: 'https://www.multsport.ru/starts/canoe-rogaine-2026/',
         reg: 'https://www.multsport.ru/starts/canoe-rogaine-2026/registration.html',
         photo: 'https://vk.com/album-8292013_313581477',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25098/',
         type: ['ROGAINE','WATER'],
         fmt: '16,8,4',
         start: 'MULTSPORT',
@@ -1336,6 +1337,7 @@ let events2026 = [
         photo: 'https://vk.com/album-12947537_309917193',
         reskeep: 889,
         strava: 18583470137,
+        me: 'OPEN',
         map: 'park_pobedy_2025'
     },
     {
@@ -1367,6 +1369,9 @@ let events2026 = [
         name: 'Царскосельский азимут',
         place: 'Баболовский парк',
         reg: 'http://orgeo.ru/event/tsa26',
+        strava: 18620304297,
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25131/',
+        me: 'М45',
         o_site: '260523',
         type: 'ORIENT',
         map: 'pushkin_babolovsky',
@@ -1447,9 +1452,11 @@ let events2026 = [
         id: 'SPB_20260527_1',
         date: '2026-05-27',
         name: 'Спринт Тур',
+        place: 'Жака Дюкло',
         type: 'ORIENT',
         fmt: 'спринт',
         start: 'ST',
+        map: 'zhaka_djuklo_2023'
     },
     {
         id: 'SPB_20260528_1',

@@ -887,36 +887,53 @@ let authors = {
     BBRN_R: { name: 'Байбурин Р.' },
     BCHNV_A: { name: 'Бучнев А.' },
     BNDR_N: { name: 'Бондарь Николай' },
+    BRDV_M: { name: 'Бородаев М.' },
     BRV_D: { name: 'Бареев Денис' },
     BYMRZN: { name: 'Баймурзин Х.' },
+    DCHNKO_G: { name: 'Дьяченко Г.' },
     VHTV_A: { name: 'Вахитов А.' },
     GLDKVA_S: { name: 'Гладкова Светлана' },
     GLTSKY_V: { name: 'Гелецкий В.' },
+    GMNKO_V: { name: 'Гуменко В.' },
     GRBNKO: { name: 'Горбенко Данила' },
+    GRLY_D: { name: 'Горелый Д.' },
     GSMNV_R: { name: 'Гусманов Р.' },
     IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
+    KHNK_V: { name: 'Ханюк В.' },
     KKRV_S: { name: 'Кокарев Степан' },
     KLM_K: { name: 'Калм К.' },
+    KLTKV_A: { name: 'Колтаков А.' },
     KNTSVCH: { name: 'Кунцевич Г.' }, // К.
     KNV_S: { name: 'Коняев Сергей' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },
+    KRLS_M: { name: 'Karlis Magons' },
     KRLV_A: { name: 'Королёв А.' }, // А.
+    KRNR_O: { name: 'Kärner O.' },
     KRYUKOV_I: { name: 'Крюков Игорь' },
+    KSLV_V: { name: 'Киселёв Валерий' }, // Михайлович
     KUZNTSV_S_DV: { name: 'Кузнецов Сергей' },
     KUZNTSV_V_DV: { name: 'Кузнецов В.' },
     LGNV_E: { name: 'Логинов Евгений' },
+    LPNSH: { name: 'Лиепиньш В.' },
     LSHV_A: { name: 'Лайшев Алексей' },
     MLNN_V: { name: 'Малинин Вадим' }, // Геннадьевич
+    MLR_P: { name: 'Муляр П.' },
     MLSHNKO_V: { name: 'Малашенко Валерий' }, // Брянск
     MSHRN_A: { name: 'Мишарин Алексей' },
+    MSHNV_A: { name: 'Мишанов А.' },
     MTKV_A: { name: 'Митяков А.' },
     NBLSNV: { name: 'Небольсинов Алексей' },
     NCHKN: { name: 'Нечкин Игорь' },
     NR_D: { name: '<a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>' },
+    ORS_P: { name: 'Oras Padis' },
+    PNI_T: { name: 'Pani Tonu' },
     PNCHKV: { name: 'Панчуков С.' },
     PTPV_A: { name: 'Потопаев Александр' },
     PTPV_AN: { name: 'Потопаев Андрей' },
     PLKTV_V: { name: 'Полуэктов В.' }, // С.
+    RBK_V: { name: 'Робак В.' },
+    RD_T: { name: 'Raid Tonu' },
+    RMM_K: { name: 'Remm K.' },
     RKHMNKLV: { name: 'Рахманкулов Дамир' },
     RZNV_A: { name: 'Рязанов Алексей' },
     SCHGLV_A: { name: 'Щеглов А.' }, // И.
@@ -924,14 +941,20 @@ let authors = {
     SDNV_V: { name: 'Сиднев В.' }, // Ю.
     SHSTKV_P: { name: 'Шестаков Павел' },
     SHTMPLR: { name: 'Штемплер Е.' },
+    SKHRV_S: { name: 'Сухарев С.' },
     SKRSKY_A: { name: 'Сикорский А.' },
     SLMNV_G: { name: 'Селюминов Геннадий' },
+    SLTY_S: { name: 'Слутый С.' },
     SMRNV_K: { name: 'Смирнов Кирилл' },
     SMRNV_S: { name: 'Смирнов Сергей' },
     SPLKV: { name: 'Сопляков С.' },
+    SRGCHK_N: { name: 'Сергийчук Н.' },
     SRV_A: { name: 'Серов Александр' }, // Калуга
     TRFNV_A: { name: 'Труфанов Александр' }, // Федорович
     TRNTSVA_M: { name: 'Туринцева Маргарита' },
+    TRSV_S: { name: 'Трусов С.' },
+    UGNCHV_V: { name: 'Угничев В.' },
+    VRM_A: { name: 'Veermae Avo' },
     YURDK: { name: 'Юрдик В.' },
     VYLNN_L: {
         name: 'Лийса Вейялайнен (Liisa Veijalainen)',
@@ -941,9 +964,11 @@ let authors = {
         name: 'Замота Михаил', // Михайлович
         about: 'https://rufso.ru/м-м-замоте-70-лет/'
     },
+    ZDNSH: { name: 'Зиединьш В.' },
     ZHRDV_T: { name: 'Жердев Тимур' },
     ZRN_A: { name: 'Зорин А.' },
     ZRNV_J: { name: 'Зернов Я.' },
+    ZVTSKS: { name: 'Завицкис А.' },
 
     /* --- КНИГИ --- */
     BLAGOVO: {

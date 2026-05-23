@@ -77,6 +77,10 @@ const regions = {
         name:'Красноярский край',
         logo: 'kranoyarsk.webp'
     },
+    LATVIA: {
+        name: 'Латвия',
+        logo: 'latvia.webp'
+    },
     LNGRD: {
         name: 'Ленинград'
     },
@@ -145,7 +149,7 @@ const regions = {
         name: 'Тверская обл',
         logo: 'tver.webp'
     },
-    UKR: {
+    UKRAINE: {
         name: 'Украина'
     },
     FRA: {
@@ -160,6 +164,10 @@ const regions = {
     },
     CHITA: {
         name: 'Чита'
+    },
+    ESTONIA: {
+        name: 'Эстония',
+        logo: 'estonia.webp'
     },
 };
 
@@ -1330,13 +1338,25 @@ function logoList(m) { // for map, event or track
     if (!isNull(starts) && m.start) {
         if (Array.isArray(m.start)) {
             for (const s of m.start) {
-                if (starts[s] && starts[s].logo) {
-                    logo.push(starts[s].logo);
+                const start = starts[s];
+                if (start) {
+                    if (start.logo) {
+                        logo.push(start.logo);
+                    }
+                }
+                if (start.region && regions[start.region].logo) {
+                    logo.push(regions[start.region].logo);
                 }
             }
         } else {
-            if (starts[m.start] && starts[m.start].logo) {
-                logo.push(starts[m.start].logo);
+            const start = starts[m.start];
+            if (start) {
+                if (start.logo) {
+                    logo.push(start.logo);
+                }
+                if (start.region && regions[start.region].logo) {
+                    logo.push(regions[start.region].logo);
+                }
             }
         }
     }
