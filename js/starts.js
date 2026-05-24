@@ -380,7 +380,8 @@ let starts = {
         major: true,
         retro: true,
         short: 'I Чемпионат СССР',
-        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">I чемпионат СССР</a> (<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./documents.html?start=USSR_1981">документы</a>)',
+        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-81.html">I чемпионат СССР</a> (' +
+            '<a href="https://rufso.ru/wp-content/uploads/2018/08/2016№4-Первый-Чемпионат-СССР-как-это-было.pdf">как это было</a>, <a href="./documents.html?start=USSR_1981">документы</a>)',
         logo: 'ussr_1981.webp',
         region: 'LNGRD'
     },
@@ -388,7 +389,9 @@ let starts = {
         major: true,
         retro: true,
         short: 'II Чемпионат СССР',
-        name: '<a href="https://o-site.spb.ru/history/History/luki-82.html">II чемпионат СССР</a> (<a href="./documents.html?start=USSR_1982">документы</a>, <a href="https://www.youtube.com/watch?v=Jtd9LbAUujg">кинофильм</a>)',
+        name: '<a href="https://o-site.spb.ru/history/History/luki-82.html">II чемпионат СССР</a> (<a href="./documents.html?start=USSR_1982">документы</a>, ' +
+            'кинофильм: <a href="https://www.youtube.com/watch?v=Jtd9LbAUujg"><img src="./images/youtube.webp" alt="Видео"></a> ' +
+            '<a href="https://rutube.ru/video/e1a22dd397724140098c2245aacbfb1d/"><img src="./images/rutube.webp" alt="Видео"></a>)',
         logo: 'ussr_1982.webp',
         region: 'LNGRD'
     },
