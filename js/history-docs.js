@@ -361,6 +361,12 @@ let historyDocs = [
         map: ['myakishevo_1982_08_25','lukavets_1982_08_27']
     },
     {
+        name: 'Чемпионат СССР по спортивному ориентированию 1982 год . Псковская область , Алоль',
+        start: ['USSR_1982','USSR_CHAMP'],
+        year: 1982,
+        link: ['https://www.youtube.com/watch?v=Jtd9LbAUujg','https://rutube.ru/video/e1a22dd397724140098c2245aacbfb1d/']
+    },
+    {
         name: 'Чемпионы названы',
         info: 'Статья в газете "Великолукская правда".',
         start: ['USSR_1982','USSR_CHAMP'],

@@ -212,7 +212,7 @@ let pskovMaps = [
         name: 'Лукавец',
         date: '1982-08-27',
         url: './maps/pskov/lukavets_1982_08_27.webp',
-        link: './original_maps/pskov/lukavets_1982_08_27_omaps.webp',
+        link: ['./original_maps/pskov/lukavets_1982_08_27_omaps.webp','./original_maps/pskov/lukavets_1982_08_27_m21_omaps.webp'],
         bounds: [[56.274814539180646, 30.59576511383057], [56.27319426672027, 30.635032653808597], [56.2518860657691, 30.59155941009522]],
         author: ['AFNSV_L','GLVNV_V','KRZHV','TRNV_V'],
         owner: 'PSKOV_RUS',
