@@ -17,18 +17,21 @@ let historyDocs = [
         link: './docs/1968/1968_calendar_winter_omaps.pdf'
     },
     {
-        name: 'Статья в газете "ТРУД"',
+        name: 'Спортсмены сверяют компасы',
+        info: 'Статья в газете "ТРУД".',
         start: 'USSR_BULGARIA_1968',
         year: 1968,
         link: './docs/ussr_bulgaria_1968_article_omaps.jpg'
     },
     {
-        name: 'Статья в газете "Спортивная неделя Ленинграда"',
+        name: 'Москва - Ленинград"',
+        info: 'Статья в газете "Спортивная неделя Ленинграда".',
         year: 1969,
         link: './docs/1969/sport_week_leningrad_1969_article_omaps.jpg'
     },
     {
-        name: 'Статья в газете "Советский спорт"',
+        name: 'На лыжне - ориентировщики',
+        info: 'Статья в газете "Советский спорт".',
         year: 1969,
         link: './docs/1969/sov_sport_1969_article_omaps.jpg'
     },
@@ -328,16 +331,20 @@ let historyDocs = [
         link: './docs/1981/1981_ussr_champ_ticket_omaps.pdf'
     },
     {
-        name: 'Статья в газете "Советский спорт", "Азимут - через скалы"',
+        name: 'Азимут - через скалы',
+        info: 'Статья в газете "Советский спорт".',
         start: ['USSR_1981','USSR_CHAMP'],
         date: '1981-08-07',
-        link: './docs/1981/1981_08_07_ussr_champ_soviet_sport_article_omaps.pdf'
+        link: './docs/1981/1981_08_07_ussr_champ_soviet_sport_article_omaps.pdf',
+        author: 'LBDKN'
     },
     {
-        name: 'Статья в газете "Советский спорт", "Первые чемпионы"',
+        name: 'Первые чемпионы',
+        info: 'Статья в газете "Советский спорт".',
         start: ['USSR_1981','USSR_CHAMP'],
         date: '1981-08-08',
-        link: './docs/1981/1981_08_08_ussr_champ_soviet_sport_article_omaps.pdf'
+        link: './docs/1981/1981_08_08_ussr_champ_soviet_sport_article_omaps.pdf',
+        author: 'LBDKN'
     },
     {
         name: 'Программа',
@@ -354,7 +361,8 @@ let historyDocs = [
         map: ['myakishevo_1982_08_25','lukavets_1982_08_27']
     },
     {
-        name: 'Статья в газете "Великолукская правда", "Чемпионы названы"',
+        name: 'Чемпионы названы',
+        info: 'Статья в газете "Великолукская правда".',
         start: ['USSR_1982','USSR_CHAMP'],
         date: '1982-08-28',
         link: './docs/1982/1982_08_28_ussr_champ_velikolukska_pravda_article_omaps.pdf'
@@ -480,14 +488,52 @@ let historyDocs = [
         start: ['USSR_1985','USSR_CHAMP'],
         year: 1985,
         link: './docs/1985/1985_ussr_champ_program_omaps.pdf',
-        map: []
+        map: ['vizhnitsa_1985_08_24','chernovtsy_1985_08_25','beregomet_1985_08_26']
+    },
+    {
+        name: 'Билет участника',
+        start: ['USSR_1985','USSR_CHAMP'],
+        year: 1985,
+        link: './docs/1985/1985_ussr_champ_ticket_omaps.pdf'
     },
     {
         name: 'Результаты',
         start: ['USSR_1985','USSR_CHAMP'],
         year: 1985,
         link: './docs/1985/1985_ussr_champ_results_omaps.xlsx',
-        map: []
+        map: ['vizhnitsa_1985_08_24','chernovtsy_1985_08_25','beregomet_1985_08_26']
+    },
+    {
+        name: 'Полигон',
+        info: 'Черновцы. Не нашёл точное место.🤷🏼',
+        start: ['USSR_1985','USSR_CHAMP'],
+        date: '1985-08-23',
+        link: './original_maps/other/chernovtsy_1985_08_23_poligon_omaps.webp',
+        author: 'PNTSR_V'
+    },
+    {
+        name: 'С компасом по Буковине',
+        info: 'Статья в газете "Советский спорт".',
+        start: ['USSR_1985','USSR_CHAMP'],
+        date: '1985-08-24',
+        link: './docs/1985/1985_08_24_ussr_champ_soviet_sport_article_omaps.pdf',
+        author: 'OGRDNKV'
+    },
+    {
+        name: 'Горными трассами',
+        info: 'Статья в газете "Советский спорт".',
+        start: ['USSR_1985','USSR_CHAMP'],
+        date: '1985-08-25',
+        link: './docs/1985/1985_08_25_ussr_champ_soviet_sport_article_omaps.pdf',
+        author: 'OGRDNKV'
+    },
+    {
+        name: 'Ориентирование',
+        info: 'Статья в газете "Советский спорт".',
+        start: ['USSR_1985','USSR_CHAMP'],
+        date: '1985-08-27',
+        link: './docs/1985/1985_08_27_ussr_champ_soviet_sport_article_omaps.pdf',
+        author: 'OGRDNKV'
     },
     {
         name: 'Открытие сезона ЛГС ДСО Спартак (Голубые Дачи)',

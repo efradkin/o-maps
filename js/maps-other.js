@@ -1268,6 +1268,16 @@ let otherMaps = [
         start: ['USSR_1985','USSR_CHAMP']
     },
     {
+        name: 'Черновцы, Берегомет',
+        date: '1985-08-26',
+        url: './maps/other/beregomet_1985_08_26.webp',
+        link: ['./original_maps/other/beregomet_1985_08_26_omaps.webp','./original_maps/other/beregomet_1985_08_26_m21_omaps.webp'],
+        bounds: [[48.16711585114587, 25.306749343872074], [48.16433936174958, 25.344600677490238], [48.13121026548213, 25.30331611633301]],
+        results: './docs/1985/1985_ussr_champ_results_omaps.xlsx',
+        author: ['LPKA_V','PDLSNK_A','IVNNKO_V'],
+        start: ['USSR_1985','USSR_CHAMP']
+    },
+    {
         name: 'Казахстан, Каркаралинск',
         year: 1986,
         url: './maps/other/karkaralinsk_1986.webp',

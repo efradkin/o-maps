@@ -899,6 +899,7 @@ let authors = {
     GRLY_D: { name: 'Горелый Д.' },
     GSMNV_R: { name: 'Гусманов Р.' },
     IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
+    IVNNKO_V: { name: 'Иваненко В.' },
     KHNK_V: { name: 'Ханюк В.' },
     KKRV_S: { name: 'Кокарев Степан' },
     KLM_K: { name: 'Калм К.' },
@@ -914,6 +915,7 @@ let authors = {
     KUZNTSV_S_DV: { name: 'Кузнецов Сергей' },
     KUZNTSV_V_DV: { name: 'Кузнецов В.' },
     LGNV_E: { name: 'Логинов Евгений' },
+    LPKA_V: { name: 'Липка В.' },
     LPNSH: { name: 'Лиепиньш В.' },
     LSHV_A: { name: 'Лайшев Алексей' },
     MLNN_V: { name: 'Малинин Вадим' }, // Геннадьевич
@@ -926,8 +928,10 @@ let authors = {
     NCHKN: { name: 'Нечкин Игорь' },
     NR_D: { name: '<a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>' },
     ORS_P: { name: 'Oras Padis' },
+    PDLSNK_A: { name: 'Пидлеснюк А.' },
     PNI_T: { name: 'Pani Tonu' },
     PNCHKV: { name: 'Панчуков С.' },
+    PNTSR_V: { name: 'Панцир В.' },
     PTPV_A: { name: 'Потопаев Александр' },
     PTPV_AN: { name: 'Потопаев Андрей' },
     PLKTV_V: { name: 'Полуэктов В.' }, // С.
