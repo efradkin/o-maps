@@ -184,7 +184,7 @@ ${indent}</div>`;
 
         const page = escapeJsString(item.page || '');
 
-        return `${indent}<a class="dropdown-item" href="${options.urlPrefix}${page}.html" target="_self">${title}</a>`;
+        return `${indent}<a class="dropdown-item" href="${options.urlPrefix}${page.includes('.') ? page : page + '.html'}" target="_self">${title}</a>`;
     }
 
     const hoverClass =
