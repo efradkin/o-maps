@@ -93,6 +93,24 @@ const GLOBAL_MENU_ITEMS = [
     {
         title: 'Разное',
         menuItems: [
+            {
+                title: '🏆 Чемпионат СССР',
+                menuItems: [
+                    { title: '🗺️ На карте', page: 'all.html?start=USSR_CHAMP' },
+                    { title: '📑 Списком', page: 'sheet-all.html?start=USSR_CHAMP' },
+                    { title: '🗺️ Плитками', page: 'start.html?start=USSR_CHAMP' },
+                    { title: '📃 Документы', page: 'documents.html?start=USSR_CHAMP' },
+                ]
+            },
+            {
+                title: '🏆 Чемпионат России по рогейну',
+                menuItems: [
+                    { title: '🗺️ На карте', page: 'all.html?start=RUSSIA_ROGAINE_CHAMP' },
+                    { title: '📑 Списком', page: 'sheet-all.html?start=RUSSIA_ROGAINE_CHAMP' },
+                    { title: '🗺️ Плитками', page: 'start.html?start=RUSSIA_ROGAINE_CHAMP' },
+                    { title: '🗓️ В календаре', page: 'calendar.html?startYear=ALL&start=RUSSIA_ROGAINE_CHAMP' },
+                ]
+            },
             { title: '🗺️ Авторы-составители карт', page: 'authors' },
             { title: '🏆 Соревнования', page: 'sheet-starts' },
             { title: '📃 Сканы документов', page: 'documents' },
