@@ -1357,6 +1357,7 @@ let events2026 = [
         place: 'Стеклянный',
         o_site: 'velo2026',
         reg: 'http://sportident.online/entry/?id=7099',
+        video: 'https://vk.com/video-220245153_456239095',
         type: 'VELO',
         fmt: 'классика, масстарт',
         owner: 'SFSO_SPB',
