@@ -1573,6 +1573,8 @@ function buildEventType(evt, withFmt) {
                 result = 'Интерактив'; break;
             case 'INDOOR':
                 result = 'В помещении';
+            case 'SPECIAL':
+                result = 'Другой';
         }
         if (!result && evt.type) {
             if (evt.type.includes('WATER')) {
@@ -1585,6 +1587,8 @@ function buildEventType(evt, withFmt) {
                 }
             } else if (evt.type.includes('VELO')) {
                 result = 'Рогейн';
+            } else if (evt.type.includes('SPECIAL')) {
+                result = 'Другой';
             } else {
                 result = 'Рогейн, Ориент';
             }
