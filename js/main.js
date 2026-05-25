@@ -1257,7 +1257,16 @@ function buildMapPopup(m) {
         info += m.info;
     }
     if (m.results) {
-        info += ` <a href="${m.results}">Результаты</a>.`;
+        if (Array.isArray(m.results)) {
+            let results = '', counter = 1;
+            for (const r of m.results) {
+                if (results) results += ', ';
+                results += `[<a href="${r}">${counter++}</a>]`;
+            }
+            info += `Результаты: ${results}`;
+        } else {
+            info += ` <a href="${m.results}">Результаты</a>.`;
+        }
     } else {
         const results = buildEventResults(m);
         if (results) {

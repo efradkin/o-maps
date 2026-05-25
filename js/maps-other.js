@@ -1278,14 +1278,63 @@ let otherMaps = [
         start: ['USSR_1985','USSR_CHAMP']
     },
     {
+        name: 'Каркаралинск, оз Пашено',
+        date: '1986-09-09',
+        info: '9-10 сентября.',
+        url: './maps/other/pasheno_1986_09_09.webp',
+        link: ['./original_maps/other/pasheno_1986_09_10_omaps.webp','./original_maps/other/pasheno_1986_09_10_w21_omaps.webp','./original_maps/other/pasheno_1986_09_10_cps_omaps.webp'],
+        bounds: [[49.384523983084904, 75.33926010131837], [49.38117142873903, 75.39286136627199], [49.35487388519263, 75.33647060394289]],
+        author: ['KHDNKCH','ZYTSV_A','SCHV','KUZNTSV_VK'],
+        results: ['./docs/1986/1986_09_09_ussr_karaganda_omaps.pdf','./docs/1986/1986_ussr_champ_results_omaps.xlsx'],
+        gps: {
+            'М':'./original_maps/other/pasheno_1986_09_09_m21_omaps.webp',
+            'Ж':'./original_maps/other/pasheno_1986_09_09_w21_omaps.webp'
+        },
+        start: ['USSR_1986','USSR_CHAMP']
+    },
+    {
         name: 'Каркаралинск',
         date: '1986-09-11',
         url: './maps/other/karkaralinsk_1986.webp',
-        link: './original_maps/other/karkaralinsk_1986_omaps.jpg',
+        link: ['./original_maps/other/karkaralinsk_1986_omaps.jpg','./original_maps/other/karkaralinsk_1986_09_11_m21_omaps.webp'],
         bounds: [[49.38385349051448, 75.43367385864259], [49.381674326472776, 75.4750442504883], [49.35151930828741, 75.43144226074219]],
         author: ['AFNSV_L','GLTSKY_V','KLM_K','KVLVSKY_G'],
-        results: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
+        results: ['./docs/1986/1986_09_09_ussr_karaganda_omaps.pdf','./docs/1986/1986_ussr_champ_results_omaps.xlsx'],
+        gps: {
+            'М':'./original_maps/other/karkaralinsk_1986_09_11_m21_tracks_omaps.webp',
+            'Ж':'./original_maps/other/karkaralinsk_1986_09_11_w21_tracks_omaps.webp'
+        },
         start: ['USSR_1986','USSR_CHAMP']
+    },
+    {
+        name: 'Вязынка',
+        date: '1988-09-01',
+        url: './maps/other/viazynka_1988_09_01.webp',
+        link: './original_maps/other/viazynka_1988_09_01_m21_omaps.webp',
+        bounds: [[54.13815467308402, 27.163138389587406], [54.137752411670064, 27.202792167663578], [54.104703355801895, 27.161121368408203]],
+        author: 'LBNVSKY_A',
+        results: 'https://ocbsu.orient.by/upload/2018/Protokoly_1988-BSU.pdf',
+        start: ['USSR_1988','USSR_CHAMP']
+    },
+    {
+        name: 'Вязынка',
+        date: '1988-09-01',
+        url: './maps/other/viazynka_1988_09_01_2.webp',
+        link: './original_maps/other/viazynka_1988_09_01_m21_w21_omaps.webp',
+        bounds: [[54.150321234316415, 27.202577590942386], [54.14805912778843, 27.242832183837894], [54.09166764121046, 27.194423675537113]],
+        author: 'LBNVSKY_A',
+        results: 'https://ocbsu.orient.by/upload/2018/Protokoly_1988-BSU.pdf',
+        start: ['USSR_1988','USSR_CHAMP']
+    },
+    {
+        name: 'Таковщина',
+        date: '1988-09-02',
+        url: './maps/other/takovschina_1988_09_02.webp',
+        link: './original_maps/other/takovschina_1988_09_02_omaps.webp',
+        bounds: [[54.32996366908053, 28.096504211425785], [54.328587290696355, 28.143153190612797], [54.2872995670322, 28.09225559234619]],
+        author: ['ZYTSV_V','JANN_Y','SLMHO','TRNV_VL','TRKN_V'],
+        results: 'https://ocbsu.orient.by/upload/2018/Protokoly_1988-BSU.pdf',
+        start: ['USSR_1988','USSR_CHAMP']
     },
     {
         name: 'Cēsis, Branti Parish',

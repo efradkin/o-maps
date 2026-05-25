@@ -583,6 +583,26 @@ let historyDocs = [
         me: 'М-10'
     },
     {
+        name: 'Программа',
+        start: ['USSR_1986','USSR_CHAMP'],
+        year: 1986,
+        link: './docs/1986/1986_ussr_champ_program_omaps.pdf',
+        map: []
+    },
+    {
+        name: 'Результаты',
+        start: ['USSR_1986','USSR_CHAMP'],
+        year: 1986,
+        link: './docs/1986/1986_ussr_champ_results_omaps.xlsx',
+        map: []
+    },
+    {
+        name: 'Постановление об итогах',
+        start: ['USSR_1986','USSR_CHAMP'],
+        year: 1986,
+        link: './docs/1986/1986_ussr_champ_resolution_omaps.xlsx',
+    },
+    {
         name: 'Буклет карт для спортивного ориентирования (Горький)',
         year: 1986,
         link: './docs/1986/1986_gorky_maps.pdf',

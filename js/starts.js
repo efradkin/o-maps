@@ -423,6 +423,14 @@ let starts = {
         region: 'KAZAKHSTAN',
         logo: 'ussr_1986.webp'
     },
+    USSR_1988: {
+        major: true,
+        retro: true,
+        short: 'VIII Чемпионат СССР',
+        name: '<a href="https://orient.by/orienteering/history/belarus/1984-1993/1988/">VIII чемпионат СССР</a>',
+        region: 'BELARUS',
+        logo: 'ussr_1988.webp'
+    },
     LENINGRAD_30: {
         major: true,
         retro: true,

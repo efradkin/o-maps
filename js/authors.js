@@ -914,6 +914,8 @@ let authors = {
     KSLV_V: { name: 'Киселёв Валерий' }, // Михайлович
     KUZNTSV_S_DV: { name: 'Кузнецов Сергей' },
     KUZNTSV_V_DV: { name: 'Кузнецов В.' },
+    KUZNTSV_VK: { name: 'Кузнецов Виктор' },
+    LBNVSKY_A: { name: 'Лабановский А.' },
     LGNV_E: { name: 'Логинов Евгений' },
     LPKA_V: { name: 'Липка В.' },
     LPNSH: { name: 'Лиепиньш В.' },
@@ -947,6 +949,7 @@ let authors = {
     SHTMPLR: { name: 'Штемплер Е.' },
     SKHRV_S: { name: 'Сухарев С.' },
     SKRSKY_A: { name: 'Сикорский А.' },
+    SLMHO: { name: 'Соломахо Л.' }, // Норильск
     SLMNV_G: { name: 'Селюминов Геннадий' },
     SLTY_S: { name: 'Слутый С.' },
     SMRNV_K: { name: 'Смирнов Кирилл' },
@@ -954,6 +957,7 @@ let authors = {
     SPLKV: { name: 'Сопляков С.' },
     SRGCHK_N: { name: 'Сергийчук Н.' },
     SRV_A: { name: 'Серов Александр' }, // Калуга
+    TRKN_V: { name: 'Туркин В.' }, // Минск
     TRFNV_A: { name: 'Труфанов Александр' }, // Федорович
     TRNTSVA_M: { name: 'Туринцева Маргарита' },
     TRSV_S: { name: 'Трусов С.' },
@@ -972,6 +976,8 @@ let authors = {
     ZHRDV_T: { name: 'Жердев Тимур' },
     ZRN_A: { name: 'Зорин А.' },
     ZRNV_J: { name: 'Зернов Я.' },
+    ZYTSV_A: { name: 'Зайцев Анатолий' },
+    ZYTSV_V: { name: 'Зайцев В.' }, // Минск
     ZVTSKS: { name: 'Завицкис А.' },
 
     /* --- КНИГИ --- */

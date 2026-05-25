@@ -18,6 +18,9 @@ const regions = {
         name: 'Башкортостан',
         logo: 'bash.gif'
     },
+    BELARUS: {
+        name: 'Беларусь',
+    },
     VLADIMIR: {
         name: 'Владимирская обл',
     },
