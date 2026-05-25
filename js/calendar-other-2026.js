@@ -49,6 +49,7 @@ let otherEvents2026 = [
     place: 'СПб',
     name: 'Забег.РФ',
     link: 'https://забег.рф',
+    res: 'https://reg.russiarunning.com/event/ZabegRFSbp2026',
     type: 'RUN',
     fmt: '21, 10, 5, 1',
 },

@@ -362,7 +362,7 @@ let commonEvents2026 = [
     date: '2026-05-24',
     endDate: '2026-05-31',
     major: true,
-    name: 'Чемпионат России по спорту лиц с ПОДА',
+    name: 'Чемпионат России по спорту лиц с поражением ОДА',
     place: 'Санкт-Петербург',
     link: 'https://vk.com/abcdefz_spb',
     reg: 'https://orgeo.ru/event/52570',
@@ -422,7 +422,8 @@ let commonEvents2026 = [
     type: 'ORIENT',
     fmt: 'спринт, лонг, классика',
     major: true,
-    owner: 'WN'
+    owner: 'WN',
+    map: 'sosnovo_ulovnoe_oz_2023'
 },
 {
     id: 'COMMON_20260704_1',

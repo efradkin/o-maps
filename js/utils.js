@@ -1283,7 +1283,7 @@ function validateEvent(evt) {
                 }
         }
     }
-    if (START_NAME_PARAM && evt.start !== START_NAME_PARAM) {
+    if (START_NAME_PARAM && (START_NAME_PARAM !== 'major' && evt.start !== START_NAME_PARAM || START_NAME_PARAM === 'major' && !evt.major)) {
         return false;
     }
     return true;

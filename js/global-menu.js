@@ -85,6 +85,7 @@ const GLOBAL_MENU_ITEMS = [
             { title: '🗓️ С-Петербург', page: 'calendar' },
             { title: '🗓️ Москва', page: 'calendar-msk' },
             { title: '🗓️ Самара', page: 'calendar-samara' },
+            { title: '🗓️ Главные старты', page: 'calendar.html?start=major' },
         ]
     },
     {
@@ -208,6 +209,6 @@ function writeGlobalMenuHtml(urlPrefix = '') {
 }
 
 function goPage(page) {
-    location.href = page + '.html';
+    location.href = page.includes('.') ? page : page + '.html';
     return false;
 }

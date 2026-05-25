@@ -62,7 +62,8 @@ function myEditDone() {
 }
 
 // Фильтрация массива. Оставляем только эвенты, соответствующие критерию запроса (есди он задан).
-if (onlyMajor) {
+const allMajors = onlyMajor || START_NAME_PARAM === 'major';
+if (allMajors) {
     oEvents = oEvents.filter(event => event.major);
 }
 if (HAS_ONLY_ME_PARAM) {
@@ -72,7 +73,7 @@ if (OWNER_PARAM) {
     oEvents = oEvents.filter(event => event.owner && event.owner === OWNER_PARAM);
 }
 if (CALENDAR_PARAM && ('ALL' !== CALENDAR_PARAM)) {
-    oEvents = filterEvents(oEvents, onlyMajor);
+    oEvents = filterEvents(oEvents, allMajors);
 }
 if (CALENDAR_PARAM) {
     let selector = document.getElementById('event_type_selector');

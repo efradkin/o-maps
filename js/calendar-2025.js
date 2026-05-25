@@ -968,7 +968,8 @@ let events2025 = [
             'zelik_schuchje_velo_2025',
             'pukhtolova_gora_velo_2025',
             'roschino_velo_2025'
-        ]
+        ],
+        major: true
     },
     {
         id: 'SPB_20250522_2',
@@ -1157,11 +1158,7 @@ let events2025 = [
         fmt: 'классика, эстафета 3х',
         o_site: '250608_Ch_P',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22800/',
-        reskeep: [
-            705,
-            706,
-            707
-        ],
+        reskeep: [705, 706, 707],
         owner: 'SFSO_SPB',
         map: 'veschevo_2021',
         photo: [
@@ -1198,7 +1195,8 @@ let events2025 = [
             'https://rutube.ru/video/8f3abca85ab6d91d10833c97d906944b/'
         ],
         start: 'NA',
-        map: 'losevo_2022'
+        map: 'losevo_2022',
+        major: true
     },
     {
         id: 'SPB_20250613_1',
@@ -1259,7 +1257,8 @@ let events2025 = [
             14839302850,
             14849160764
         ],
-        me: 'М50'
+        me: 'М50',
+        major: true
     },
     {
         id: 'SPB_20250620_1',
@@ -1286,7 +1285,8 @@ let events2025 = [
             'https://vk.com/album-230167293_310169173',
             'https://vk.com/album-230167293_310182665',
             'https://vk.com/album-128591100_307166407'
-        ]
+        ],
+        major: true
     },
     {
         id: 'SPB_20250623_1',
@@ -1325,7 +1325,8 @@ let events2025 = [
             14942090719,
             14952833945
         ],
-        me: 'М50'
+        me: 'М50',
+        major: true
     },
     {
         id: 'SPB_20250628_1',
