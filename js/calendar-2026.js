@@ -1469,6 +1469,18 @@ let events2026 = [
         owner: 'KUZMOLOVO'
     },
     {
+        id: 'SPB_20260528_1',
+        date: '2026-05-24',
+        endDate: '2026-05-31',
+        name: 'Чемпионат России по спорту лиц с ПОДА',
+        place: 'Санкт-Петербург',
+        reg: 'https://orgeo.ru/event/52570',
+        type: 'SPECIAL',
+        fmt: 'трейл-о',
+        owner: 'SFSO_SPB',
+        major: true
+    },
+    {
         id: 'SPB_20260527_1',
         date: '2026-05-27',
         name: 'Спринт Тур',
@@ -1490,15 +1502,7 @@ let events2026 = [
         o_site: '260528_bn',
         reg: 'https://orgeo.ru/event/kavgolovo_classic',
         owner: 'WN',
-    },
-    {
-        id: 'SPB_20260528_1',
-        date: '2026-05-28',
-        name: 'Чемпионата России по спорту лиц с ПОДА',
-        type: 'SPECIAL',
-        fmt: 'трейл-о + м.б. спринт',
-        owner: 'SFSO_SPB',
-        major: true
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20260530_1',

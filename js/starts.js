@@ -415,6 +415,14 @@ let starts = {
         region: 'UKRAINE',
         logo: 'ussr_1985.webp'
     },
+    USSR_1986: {
+        major: true,
+        retro: true,
+        short: 'VI Чемпионат СССР',
+        name: 'VI чемпионат СССР (<a href="./documents.html?start=USSR_1986">документы</a>)',
+        region: 'KAZAKHSTAN',
+        logo: 'ussr_1986.webp'
+    },
     LENINGRAD_30: {
         major: true,
         retro: true,

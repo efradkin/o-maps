@@ -1278,16 +1278,14 @@ let otherMaps = [
         start: ['USSR_1985','USSR_CHAMP']
     },
     {
-        name: 'Казахстан, Каркаралинск',
-        year: 1986,
+        name: 'Каркаралинск',
+        date: '1986-09-11',
         url: './maps/other/karkaralinsk_1986.webp',
         link: './original_maps/other/karkaralinsk_1986_omaps.jpg',
-        info: '6-11 октября. Чемпионат СССР.',
         bounds: [[49.38385349051448, 75.43367385864259], [49.381674326472776, 75.4750442504883], [49.35151930828741, 75.43144226074219]],
         author: ['AFNSV_L','GLTSKY_V','KLM_K','KVLVSKY_G'],
         results: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
-        start: 'USSR_CHAMP',
-        region: 'KZKHSTN'
+        start: ['USSR_1986','USSR_CHAMP']
     },
     {
         name: 'Cēsis, Branti Parish',

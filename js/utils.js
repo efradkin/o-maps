@@ -41,7 +41,7 @@ const regions = {
     KABARDA: {
         name: 'Кабардино-Балкария'
     },
-    KZKHSTN: {
+    KAZAKHSTAN: {
         name: 'Казахстан'
     },
     KLNNGRD: {
