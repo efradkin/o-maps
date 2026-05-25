@@ -15,6 +15,7 @@ const GLOBAL_MENU_ITEMS = [
                     { title: '🏅 Таблица стартов', page: 'sheet-starts' },
                     { title: '🥾 Маршруты на карте', page: 'tracks' },
                     { title: '🥾 Таблица маршрутов', page: 'sheet-tracks' },
+                    { title: '❌ Закрытые районы', page: 'sheet-spb.html?restricted' },
                     { title: '⛷️ Лыжные гонки', page: 'calendar-ski' },
                 ],
             },
@@ -97,6 +98,7 @@ const GLOBAL_MENU_ITEMS = [
             { title: '💼 Руководства и правила', page: 'rules' },
             { title: '📖 Книги и статьи', page: 'books' },
             { title: '❓ Неопределённые карты', page: 'unknown' },
+            { title: '⛷️ Лыжные трассы', page: 'tracks.html?track-type=SKI' },
         ]
     },
     {

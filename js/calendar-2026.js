@@ -1409,6 +1409,7 @@ let events2026 = [
         name: 'Майские старты',
         reg: ['http://o-reg.spb.ru/?filter[day_id]=1734','http://o-reg.spb.ru/?filter[day_id]=1735'],
         photo: 'https://vk.com/album-230167293_313624527',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25153/',
         planner: 'SHRNN',
         place: 'Орехово',
         o_site: '260524',
