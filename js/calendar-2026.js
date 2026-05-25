@@ -1469,18 +1469,6 @@ let events2026 = [
         owner: 'KUZMOLOVO'
     },
     {
-        id: 'SPB_20260528_1',
-        date: '2026-05-24',
-        endDate: '2026-05-31',
-        name: 'Чемпионат России по спорту лиц с ПОДА',
-        place: 'Санкт-Петербург',
-        reg: 'https://orgeo.ru/event/52570',
-        type: 'SPECIAL',
-        fmt: 'трейл-о',
-        owner: 'SFSO_SPB',
-        major: true
-    },
-    {
         id: 'SPB_20260527_1',
         date: '2026-05-27',
         name: 'Спринт Тур',
