@@ -103,6 +103,15 @@ const GLOBAL_MENU_ITEMS = [
                 ]
             },
             {
+                title: '🏆 Чемпионат России',
+                menuItems: [
+                    { title: '🗺️ На карте', page: 'all.html?start=RUSSIA_CHAMP' },
+                    { title: '📑 Списком', page: 'sheet-all.html?start=RUSSIA_CHAMP' },
+                    { title: '🗺️ Плитками', page: 'start.html?start=RUSSIA_CHAMP' },
+                    { title: '🗓️ В календаре', page: 'calendar.html?startYear=ALL&start=RUSSIA_CHAMP' },
+                ]
+            },
+            {
                 title: '🏆 Чемпионат России по рогейну',
                 menuItems: [
                     { title: '🗺️ На карте', page: 'all.html?start=RUSSIA_ROGAINE_CHAMP' },
