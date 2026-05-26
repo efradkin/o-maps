@@ -59,6 +59,26 @@ let otherMaps = [
         owner: 'SMRNV_K'
     },
     {
+        name: 'Ковров, Аскона',
+        year: 2025,
+        url: './maps/other/kovrov_askona_2025.webp',
+        link: './original_maps/other/kovrov_askona_2025_omaps.gif',
+        bounds: [[56.340229248128274, 41.279207468032844], [56.33871284359653, 41.290891170501716], [56.33414542584715, 41.276965141296394]],
+        region: 'VLADIMIR',
+        author: 'SMRNV_K',
+        owner: 'SMRNV_K'
+    },
+    {
+        name: 'Ковров, Треугольник',
+        year: 2026,
+        url: './maps/other/kovrov_triangle_2026.webp',
+        link: './original_maps/other/kovrov_triangle_2026_omaps.gif',
+        bounds: [[56.342780239770654, 41.30655527114869], [56.34106175832274, 41.320127248764045], [56.337023914276976, 41.304173469543464]],
+        region: 'VLADIMIR',
+        author: 'SMRNV_K',
+        owner: 'SMRNV_K'
+    },
+    {
         name: 'Иваново, Ломы',
         date: '2011-03-06',
         url: './maps/other/ivanovo_lomy_2011.webp',
