@@ -50,10 +50,10 @@ let otherMaps = [
     },
     {
         name: 'Ковров, Гридино',
-        year: 2025,
-        url: './maps/other/kovrov_gridino_2025.webp',
-        link: './original_maps/other/kovrov_gridino_2025_omaps.gif',
-        bounds: [[56.337071490774015, 41.33520126342774], [56.33516838462233, 41.3521957397461], [56.32967263288713, 41.33254051208497]],
+        year: 2026,
+        url: './maps/other/kovrov_gridino_2026.webp',
+        link: './original_maps/other/kovrov_gridino_2026_omaps.gif',
+        bounds: [[56.33713096131192, 41.33502960205079], [56.33419300593313, 41.357581615448], [56.3278048487742, 41.331403255462654]],
         region: 'VLADIMIR',
         author: 'SMRNV_K',
         owner: 'SMRNV_K'
