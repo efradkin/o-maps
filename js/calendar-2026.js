@@ -1440,6 +1440,7 @@ let events2026 = [
         type: 'TOURISM',
         link: ['https://t.me/pmarshbrosok', 'https://kandid.ru'],
         photo: 'https://disk.yandex.ru/d/QJHL35iYw7iShQ',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25166/',
         start: 'MB',
         coord: [60.604374, 29.040213],
         owner: ['BKTV', 'SHBN']
@@ -1554,6 +1555,16 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'SFSO_SPB'
+    },
+    {
+        id: 'SPB_20260531_1',
+        date: '2026-05-31',
+        place: 'Раздолье',
+        name: 'Кубок Белых ночей №13',
+        reg: 'https://orgeo.ru/event/53258',
+        type: 'ORIENT',
+        map: 'razdolje_2022',
+        owner: 'WN',
     },
     {
         id: 'SPB_20260606_1',
