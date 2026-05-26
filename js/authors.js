@@ -677,6 +677,7 @@ let authors = {
         name: 'Пашуто Анастасия',
         logo: 'gryadka.webp',
     },
+    PSTVTV: { name: 'Пустовойтов Иван' },
     PZDV_S: { name: 'Поздеев Сергей' },
     PZGRV: { name: 'Пызгарев Вячеслав' }, // Тула
     RSCHN_R: { name: 'Рощин Р.' },

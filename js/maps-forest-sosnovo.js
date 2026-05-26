@@ -443,6 +443,16 @@ let sosnovoMaps = [
         author: 'MLVA_M'
     },
     {
+        name: 'Кривко, оз Туманное',
+        year: 2009, //уже в 2009 использовалась для 50-летия ориентрования
+        info: 'Год и авторы - не точно.',
+        url: './maps/forest/sosnovo/krivko_ulovnoe_2023.webp',
+        link: './original_maps/forest/sosnovo/krivko_ulovnoe_2023_omaps.jpg',
+        bounds: [[60.629722906202076, 30.178756713867188], [60.62408157424831, 30.258493423461918], [60.58751530860598, 30.165367126464847]],
+        author: ['ARTMV','BLZRV_V','VLKV_K','SKLVA','YKVLVA'],
+        owner: 'RDNV_I'
+    },
+    {
         name: 'Кривко, оз Уловное',
         year: 2021,
         url: './maps/forest/sosnovo/krivko_2021.webp',
@@ -452,14 +462,14 @@ let sosnovoMaps = [
         owner: 'SHEIN'
     },
     {
-        name: 'Кривко, оз Туманное',
-        year: 2009, //уже в 2009 использовалась для 50-летия ориентрования
-        info: 'Год и авторы - не точно.',
-        url: './maps/forest/sosnovo/krivko_ulovnoe_2023.webp',
-        link: './original_maps/forest/sosnovo/krivko_ulovnoe_2023_omaps.jpg',
-        bounds: [[60.629722906202076, 30.178756713867188], [60.62408157424831, 30.258493423461918], [60.58751530860598, 30.165367126464847]],
-        author: ['ARTMV','BLZRV_V','VLKV_K','SKLVA','YKVLVA'],
-        owner: 'RDNV_I'
+        name: 'Кривко, оз Уловное',
+        year: 2025,
+        url: './maps/forest/sosnovo/krivko_2025.webp',
+        link: './original_maps/forest/sosnovo/krivko_2025_omaps.webp',
+        bounds: [[60.6290283178557, 30.18974304199219], [60.62187108184149, 30.259480476379398], [60.58498615559891, 30.171203613281254]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/24987/',
+        author: ['PSTVTV','DJCHKV','PPV_D'],
+        owner: ['SHEIN','CHGRVSKY_M','FLTV']
     },
     {
         name: 'Раздолье',

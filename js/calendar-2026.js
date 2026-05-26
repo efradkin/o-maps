@@ -1102,7 +1102,8 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'классика',
         reskeep: 882,
-        start: 'HARD'
+        start: 'HARD',
+        map: 'krivko_2025'
     },
     {
         id: 'SPB_20260503_1',
@@ -1179,7 +1180,7 @@ let events2026 = [
         info: 'Обновлённая карта',
         type: 'ORIENT',
         fmt: 'эстафета',
-        map: 'sosnovo_ulovnoe_oz_2023',
+        map: 'krivko_2025',
         planner: 'SHEIN',
         owner: 'KUZMOLOVO',
         coord: [60.588548, 30.227715]
