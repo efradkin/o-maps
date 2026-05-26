@@ -1795,7 +1795,7 @@ class PeekWidget {
         this.height = options.height || 460;
 
         this.peekSize = options.peekSize || 10;
-        this.peekDistance = options.peekDistance || 24;
+        this.peekDistance = options.peekDistance || 48;
 
         this.autoPeekInterval = options.autoPeekInterval || getRandom(10000, 60000);
         this.autoPeekDuration = options.autoPeekDuration || getRandom(1000, 5000);
