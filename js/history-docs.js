@@ -587,14 +587,14 @@ let historyDocs = [
         start: ['USSR_1986','USSR_CHAMP'],
         year: 1986,
         link: './docs/1986/1986_ussr_champ_program_omaps.pdf',
-        map: []
+        map: ['pasheno_1986_09_09','karkaralinsk_1986']
     },
     {
         name: 'Результаты',
         start: ['USSR_1986','USSR_CHAMP'],
         year: 1986,
         link: './docs/1986/1986_ussr_champ_results_omaps.xlsx',
-        map: []
+        map: ['pasheno_1986_09_09','karkaralinsk_1986']
     },
     {
         name: 'Постановление об итогах',
@@ -1035,6 +1035,37 @@ let historyDocs = [
         info: 'Буклет формата А2 выпущен Московским турклубом по мотивам 3 места Алиды Аболы на ЧМ в Швеции 1989 года. Текст, статистика в таблицах и полноразмерная карта с путями движения всех призёров. Цена 1 руб. Тираж 10000 (десять тысяч) экземпляров.',
         link: ['./docs/orienteering_booklet_1989_1_omaps.jpg','./docs/orienteering_booklet_1989_2_omaps.jpg'],
         major: true
+    },
+    {
+        name: 'Программа',
+        start: ['USSR_1989','USSR_CHAMP'],
+        year: 1989,
+        link: './docs/1989/1989_ussr_champ_program_omaps.pdf',
+        map: ['velnio_duobe_1989_07_24','ravai_1989_07_25','katlaukis_1989_07_27']
+    },
+    {
+        name: 'По долинам и по взгорьям',
+        info: 'Статья в газете "Советский спорт".',
+        start: ['USSR_1989','USSR_CHAMP'],
+        date: '1989-07-27',
+        link: './docs/1989/1989_07_27_ussr_champ_soviet_sport_article_omaps.pdf',
+        author: 'OGRDNKV'
+    },
+    {
+        name: 'Спортивное ориентирование',
+        info: 'Статья в газете "Советский спорт".',
+        start: ['USSR_1989','USSR_CHAMP'],
+        date: '1989-07-28',
+        link: './docs/1989/1989_07_28_ussr_champ_soviet_sport_article_omaps.pdf',
+        author: 'OGRDNKV'
+    },
+    {
+        name: 'Спортивное ориентирование',
+        info: 'Статья в газете "Советский спорт".',
+        start: ['USSR_1989','USSR_CHAMP'],
+        date: '1989-07-30',
+        link: './docs/1989/1989_07_30_ussr_champ_soviet_sport_article_omaps.pdf',
+        author: 'OGRDNKV'
     },
     {
         name: 'Бро-бег (Кузьмолово)',

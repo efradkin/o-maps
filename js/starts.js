@@ -431,6 +431,14 @@ let starts = {
         region: 'BELARUS',
         logo: 'ussr_1988.webp'
     },
+    USSR_1989: {
+        major: true,
+        retro: true,
+        short: 'IX Чемпионат СССР',
+        name: 'IX чемпионат СССР (<a href="./documents.html?start=USSR_1989">документы</a>)',
+        region: 'LIETUVA',
+        logo: 'ussr_1989.webp'
+    },
     LENINGRAD_30: {
         major: true,
         retro: true,

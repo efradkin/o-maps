@@ -84,6 +84,10 @@ const regions = {
         name: 'Латвия',
         logo: 'latvia.webp'
     },
+    LIETUVA: {
+        name: 'Литва',
+        logo: 'lietuva.gif'
+    },
     LNGRD: {
         name: 'Ленинград'
     },

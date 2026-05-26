@@ -887,6 +887,7 @@ let authors = {
     ATMNTSV: { name: 'Атаманцев С.' },
     BBRN_R: { name: 'Байбурин Р.' },
     BCHNV_A: { name: 'Бучнев А.' },
+    BLSS: { name: 'Baleišis Edvardas' },
     BNDR_N: { name: 'Бондарь Николай' },
     BRDV_M: { name: 'Бородаев М.' },
     BRV_D: { name: 'Бареев Денис' },
@@ -895,12 +896,16 @@ let authors = {
     VHTV_A: { name: 'Вахитов А.' },
     GLDKVA_S: { name: 'Гладкова Светлана' },
     GLTSKY_V: { name: 'Гелецкий В.' },
+    GPS_V: { name: 'Gipas Vytautas' },
     GMNKO_V: { name: 'Гуменко В.' },
     GRBNKO: { name: 'Горбенко Данила' },
     GRLY_D: { name: 'Горелый Д.' },
     GSMNV_R: { name: 'Гусманов Р.' },
+    GTS_J: { name: 'Gytis Juška' },
+    GVLDS_J_G: { name: 'Gvildys Jonas Gediminas' },
     IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
     IVNNKO_V: { name: 'Иваненко В.' },
+    JVSA_A: { name: 'Jovaiša Andrius' },
     KHNK_V: { name: 'Ханюк В.' },
     KKRV_S: { name: 'Кокарев Степан' },
     KLM_K: { name: 'Калм К.' },
@@ -920,6 +925,7 @@ let authors = {
     LGNV_E: { name: 'Логинов Евгений' },
     LPKA_V: { name: 'Липка В.' },
     LPNSH: { name: 'Лиепиньш В.' },
+    MCKVCS: { name: 'Mickevičius Karolis' },
     LSHV_A: { name: 'Лайшев Алексей' },
     MLNN_V: { name: 'Малинин Вадим' }, // Геннадьевич
     MLR_P: { name: 'Муляр П.' },
@@ -943,6 +949,7 @@ let authors = {
     RMM_K: { name: 'Remm K.' },
     RKHMNKLV: { name: 'Рахманкулов Дамир' },
     RZNV_A: { name: 'Рязанов Алексей' },
+    SBCS_G: { name: 'Subačius Giedrius' },
     SCHGLV_A: { name: 'Щеглов А.' }, // И.
     SCHV_S: { name: 'Сычов Сергей' },
     SDNV_V: { name: 'Сиднев В.' }, // Ю.
@@ -965,6 +972,7 @@ let authors = {
     UGNCHV_V: { name: 'Угничев В.' },
     VRM_A: { name: 'Veermae Avo' },
     YURDK: { name: 'Юрдик В.' },
+    VGNTS_N: { name: 'Vygantas Nekrašas' },
     VYLNN_L: {
         name: 'Лийса Вейялайнен (Liisa Veijalainen)',
         about: 'https://ru.wikipedia.org/wiki/Вейялайнен,_Лийса'
@@ -975,6 +983,7 @@ let authors = {
     },
     ZDNSH: { name: 'Зиединьш В.' },
     ZHRDV_T: { name: 'Жердев Тимур' },
+    ZLVS_D: { name: 'Žilovas Devis' },
     ZRN_A: { name: 'Зорин А.' },
     ZRNV_J: { name: 'Зернов Я.' },
     ZYTSV_A: { name: 'Зайцев Анатолий' },

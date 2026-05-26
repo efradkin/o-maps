@@ -1240,6 +1240,9 @@ let otherMaps = [
     },
 
     // --- Не Россия ---
+
+    // --- Украина ---
+
     {
         name: 'Черновцы, Вижница',
         date: '1985-08-24',
@@ -1277,6 +1280,9 @@ let otherMaps = [
         author: ['LPKA_V','PDLSNK_A','IVNNKO_V'],
         start: ['USSR_1985','USSR_CHAMP']
     },
+
+    // --- Казахстан ---
+
     {
         name: 'Каркаралинск, оз Пашено',
         date: '1986-09-09',
@@ -1306,6 +1312,9 @@ let otherMaps = [
         },
         start: ['USSR_1986','USSR_CHAMP']
     },
+
+    // --- Беларусь ---
+
     {
         name: 'Вязынка',
         date: '1988-09-01',
@@ -1336,6 +1345,9 @@ let otherMaps = [
         results: 'https://ocbsu.orient.by/upload/2018/Protokoly_1988-BSU.pdf',
         start: ['USSR_1988','USSR_CHAMP']
     },
+
+    // --- Латвия ---
+
     {
         name: 'Cēsis, Branti Parish',
         date: '1983-08-19',
@@ -1375,6 +1387,48 @@ let otherMaps = [
         author: 'KSLV_V',
         start: ['USSR_1983','USSR_CHAMP']
     },
+
+    // --- Литва ---
+
+    {
+        name: 'Velnio duobė',
+        date: '1989-07-24',
+        url: './maps/other/velnio_duobe_1989_07_24.webp',
+        link: ['./original_maps/other/velnio_duobe_1989_07_24_omaps.webp','./original_maps/other/velnio_duobe_1989_07_24_m21_omaps.webp'],
+        gps: {
+            'М':'./original_maps/other/velnio_duobe_1989_07_24_m21_tracks_omaps.webp',
+            'Ж':'./original_maps/other/velnio_duobe_1989_07_24_w21_tracks_omaps.webp'
+        },
+        bounds: [[54.62136310934809, 24.49131488800049], [54.61935045207355, 24.55796241760254], [54.57668853464707, 24.48612213134766]],
+        author: ['GPS_V','ZLVS_D','JVSA_A','GVLDS_J_G'],
+        start: ['USSR_1989','USSR_CHAMP']
+    },
+    {
+        name: 'Ravai',
+        date: '1989-07-25',
+        url: './maps/other/ravai_1989_07_25.webp',
+        info: 'Эстафета.',
+        link: './original_maps/other/ravai_1989_07_25_omaps.webp',
+        bounds: [[54.70062227264618, 25.105175971984867], [54.69997750448189, 25.162639617919922], [54.67673421168438, 25.104489326477054]],
+        author: ['MCKVCS','BLSS','SBCS_G'],
+        start: ['USSR_1989','USSR_CHAMP']
+    },
+    {
+        name: 'Katlaukis',
+        date: '1989-07-27',
+        url: './maps/other/katlaukis_1989_07_27.webp',
+        link: ['./original_maps/other/katlaukis_1989_07_27_m21_omaps.webp','./original_maps/other/katlaukis_1989_07_27_w21_omaps.webp'],
+        gps: {
+            'М':'./original_maps/other/katlaukis_1989_07_27_m21_tracks_omaps.webp',
+            'Ж':'./original_maps/other/katlaukis_1989_07_27_w21_tracks_omaps.webp'
+        },
+        bounds: [[54.75843611041571, 25.74851989746094], [54.75667788332422, 25.803966522216797], [54.72268700413184, 25.74431419372559]],
+        author: ['VGNTS_N','GTS_J'],
+        start: ['USSR_1989','USSR_CHAMP']
+    },
+
+    // --- Эстония ---
+
     {
         name: 'Tartu, Maaritsa',
         date: '1984-08-17',
@@ -1417,6 +1471,9 @@ let otherMaps = [
         author: 'KLM_K',
         start: ['USSR_1984','USSR_CHAMP']
     },
+
+    // --- Чехия ---
+
     {
         name: 'Nový Bor',
         year: 1978,
@@ -1427,6 +1484,9 @@ let otherMaps = [
         logo: 'bozenka.gif',
         region: 'CZECH'
     },
+
+    // --- Китай ---
+
     {
         name: 'HARBIN',
         date: '1991-09-29',
@@ -1436,6 +1496,9 @@ let otherMaps = [
         author: ['MTKV_A','TRNV_VL','CHRNH_Y'],
         region: 'CHINA'
     },
+
+    // --- Франция ---
+
     {
         name: 'Париж, Диснейлэнд',
         date: '2012-09-29',
@@ -1446,6 +1509,9 @@ let otherMaps = [
         logo: 'disney.gif',
         region: 'FRA'
     },
+
+    // --- Португалия ---
+
     {
         name: 'Colegio do Rosário',
         year: 2025,

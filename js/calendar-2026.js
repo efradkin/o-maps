@@ -1439,6 +1439,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/48966',
         type: 'TOURISM',
         link: ['https://t.me/pmarshbrosok', 'https://kandid.ru'],
+        photo: 'https://disk.yandex.ru/d/QJHL35iYw7iShQ',
         start: 'MB',
         coord: [60.604374, 29.040213],
         owner: ['BKTV', 'SHBN']
