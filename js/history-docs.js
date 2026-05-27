@@ -1589,6 +1589,13 @@ let historyDocs = [
         link: './docs/1991/1991_nevsky_azimuth_magazine_omaps.pdf',
     },
     {
+        name: 'Результаты',
+        start: ['USSR_1991','USSR_CHAMP'],
+        year: 1991,
+        link: './docs/1991/1991_ussr_champ_results_omaps.xlsx',
+        map: []
+    },
+    {
         name: 'Невская заря',
         info: '5-6 января.',
         date: '1991-01-05',

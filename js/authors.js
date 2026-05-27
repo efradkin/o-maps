@@ -349,7 +349,8 @@ let authors = {
     },
     SBLV_A: { name: 'Соболев Алексей' },
     SBLV_S: { name: 'Сибилев Сергей' },
-    SCHV: { name: 'Сычёв Владимир' },
+    SCHV_M: { name: 'Сычёв М.' },
+    SCHV_V: { name: 'Сычёв Владимир' },
     SHLKHN_AN: { name: 'Шелёхин Анатолий' },
     SHLKHN_Y: {
         name: 'Шелёхин Юрий',

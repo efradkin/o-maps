@@ -686,7 +686,7 @@ let bashMaps = [
         url: './maps/bash/aktan_1997.webp',
         link: ['./original_maps/bash/aktan_1997_omaps.jpg','./original_maps/bash/aktan_1997_omaps.ocd'],
         bounds: [[53.860879481351226, 58.537473678588874], [53.854703572471045, 58.59180450439454], [53.82441830918907, 58.526487350463874]],
-        author: ['SCHV','EKSHV','PRHRV_V'],
+        author: ['SCHV_V','EKSHV','PRHRV_V'],
         owner: 'YUSHV_A',
     },
     {

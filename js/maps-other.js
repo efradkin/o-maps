@@ -368,7 +368,7 @@ let otherMaps = [
         url: './maps/other/sortavala_helmijarvi_1992.webp',
         link: './original_maps/other/sortavala_helmijarvi_1992_omaps.jpg',
         bounds: [[61.770991561763616, 30.659880638122562], [61.76479979707796, 30.743308067321777], [61.7504829150452, 30.65194129943848]],
-        author: ['KHDNKCH','SCHV','NSNV'],
+        author: ['KHDNKCH','SCHV_V','NSNV'],
         region: 'KARELIA'
     },
     {
@@ -525,6 +525,37 @@ let otherMaps = [
         region: 'NOVGOROD'
     },
     // --- Н.Новгород ---
+    {
+        name: 'Павлово, Сосновское',
+        date: '1991-07-29',
+        url: './maps/other/sosnovskoe_1991_07_29.webp',
+        link: ['./original_maps/other/sosnovskoe_1991_07_29_omaps.webp','./original_maps/other/sosnovskoe_1991_07_29_courses_omaps.webp'],
+        results: './docs/1991/1991_ussr_champ_results_omaps.xlsx',
+        bounds: [[55.741728465561664, 43.07383060455322], [55.73223318196301, 43.158073425292976], [55.702016537404816, 43.05975437164307]],
+        author: ['KHDNKCH','SCHV_V','SCHRV_A','KNDRSHKN_V','SCHV_M'],
+        start: ['USSR_1991','USSR_CHAMP']
+    },
+    {
+        name: 'Павлово, Рыльково',
+        date: '1991-07-28',
+        url: './maps/other/rodionovo_1991_07_28.webp',
+        link: ['./original_maps/other/rodionovo_1991_07_28_omaps.webp','./original_maps/other/rodionovo_1991_07_28_poligon_omaps.webp'],
+        results: './docs/1991/1991_ussr_champ_results_omaps.xlsx',
+        bounds: [[55.731846556592885, 43.09713363647462], [55.72798009228692, 43.134641647338874], [55.700154427715745, 43.086705207824714]],
+        author: ['SCHV_V','KNDRSHKN_V','KHDNKCH'],
+        start: ['USSR_1991','USSR_CHAMP']
+    },
+    {
+        name: 'Павлово, Горбатов',
+        date: '1991-07-31',
+        url: './maps/other/gorbatov_1991_07_31.webp',
+        link: './original_maps/other/gorbatov_1991_07_31_omaps.webp',
+        info: 'Эстафета.',
+        results: './docs/1991/1991_ussr_champ_results_omaps.xlsx',
+        bounds: [[56.128308328965964, 43.0239200592041], [56.12359615070831, 43.06803703308106], [56.10043350555741, 43.01422119140626]],
+        author: ['KHDNKCH','KNDRSHKN_V','SCHRV_A'],
+        start: ['USSR_1991','USSR_CHAMP']
+    },
     {
         name: 'Богородск',
         date: '2017-09-23',
@@ -1310,7 +1341,7 @@ let otherMaps = [
         url: './maps/other/pasheno_1986_09_09.webp',
         link: ['./original_maps/other/pasheno_1986_09_10_omaps.webp','./original_maps/other/pasheno_1986_09_10_w21_omaps.webp','./original_maps/other/pasheno_1986_09_10_cps_omaps.webp'],
         bounds: [[49.384523983084904, 75.33926010131837], [49.38117142873903, 75.39286136627199], [49.35487388519263, 75.33647060394289]],
-        author: ['KHDNKCH','ZYTSV_A','SCHV','KUZNTSV_VK'],
+        author: ['KHDNKCH','ZYTSV_A','SCHV_V','KUZNTSV_VK'],
         results: ['./docs/1986/1986_09_09_ussr_karaganda_omaps.pdf','./docs/1986/1986_ussr_champ_results_omaps.xlsx'],
         gps: {
             'М':'./original_maps/other/pasheno_1986_09_09_m21_omaps.webp',

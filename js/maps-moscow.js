@@ -4468,7 +4468,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/geofizika_2010.webp',
         link: './original_maps/moscow/ak/geofizika_2010_omaps.gif',
         bounds: [[55.609165927905, 38.18847656250001], [55.605844895190735, 38.21753025054932], [55.59692277270469, 38.1840991973877]],
-        author: 'SCHV',
+        author: 'SCHV_V',
         owner: 'NLTV_D'
     },
     {

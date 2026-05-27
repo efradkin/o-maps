@@ -439,6 +439,14 @@ let starts = {
         region: 'LIETUVA',
         logo: 'ussr_1989.webp'
     },
+    USSR_1991: {
+        major: true,
+        retro: true,
+        short: 'XI Чемпионат СССР',
+        name: 'XI чемпионат СССР',
+        region: 'N_NOVGOROD',
+        logo: 'ussr_1991.webp'
+    },
     LENINGRAD_30: {
         major: true,
         retro: true,
