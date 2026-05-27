@@ -538,7 +538,6 @@ let otherStartsMaps = [
     {
         name: 'Каннельярви',
         date: '2009-09-26',
-        hidden: true,
         url: './maps/rogaine/beketov/kanneliarvi_mb_2009.webp',
         link: 'https://kandid.ru/maps09/mb2009.jpg',
         //link: './original_maps/rogaine/beketov/kanneliarvi_mb_2009_omaps.webp',
@@ -548,6 +547,30 @@ let otherStartsMaps = [
         start: 'MB',
         page: 'starts',
         type: ['ROGAINE'],
+    },
+    {
+        name: 'Гаврилово',
+        date: '2018-05-19',
+        info: 'Бобочинский полигон.',
+        url: './maps/rogaine/beketov/gavrilovo.webp',
+        link: 'https://kandid.ru/maps18/VMB18.jpg',
+        //link: './original_maps/rogaine/beketov/gavrilovo_vmb_2018_omaps.webp',
+        bounds: [[60.59489087388518, 28.941421508789066], [60.59168797815975, 29.249382019042972], [60.50035635259788, 28.93833160400391]],
+        owner: 'BKTV',
+        start: 'MB',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Гаврилово',
+        date: '2026-05-23',
+        results: 'https://vk.com/wall-29327859_5942',
+        url: './maps/rogaine/beketov/gavrilovo_vmb_2026_05_23.webp',
+        link: ['./original_maps/rogaine/beketov/gavrilovo_vmb_2026_05_23_omaps.webp','https://kandid.ru/maps26/vmb26.pdf'],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25166/',
+        bounds: [[60.63515280845742, 28.866577148437504], [60.629765001984644, 29.178657531738285], [60.45527098159648, 28.855762481689457]],
+        owner: 'BKTV',
+        start: 'MB',
+        type: ['ROGAINE']
     },
     {
         name: 'Яппиля, оз Комонь',
@@ -688,7 +711,6 @@ let otherStartsMaps = [
     },
     {
         name: ' Каннельярви, Заходское',
-        hidden: true,
         date: '2024-05-05',
         url: './maps/rogaine/beketov/kanneliarvi_mb_2024.webp',
         link: 'https://kandid.ru/maps24/vmb24.jpg',

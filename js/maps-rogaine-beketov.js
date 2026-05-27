@@ -323,19 +323,6 @@ let rogaineBeketovMaps = [
         type: ['ROGAINE']
     },
     {
-        name: 'Гаврилово',
-        date: '2018-05-19',
-        hidden: true,
-        info: 'Бобочинский полигон.',
-        url: './maps/rogaine/beketov/gavrilovo.webp',
-        link: 'https://kandid.ru/maps18/VMB18.jpg',
-        //link: './original_maps/rogaine/beketov/gavrilovo_vmb_2018_omaps.webp',
-        bounds: [[60.59489087388518, 28.941421508789066], [60.59168797815975, 29.249382019042972], [60.50035635259788, 28.93833160400391]],
-        owner: 'BKTV',
-        start: 'MB',
-        type: ['ROGAINE']
-    },
-    {
         name: 'Луга',
         year: 2019,
         hidden: true,
