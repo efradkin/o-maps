@@ -638,7 +638,7 @@ let historyDocs = [
         link: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
         map: 'karkaralinsk_1986',
         info: '9-11 сентября. Выписка из результатов.',
-        start: 'USSR_CHAMP'
+        start: ['USSR_1986','USSR_CHAMP']
     },
     {
         name: 'Юный спартаковец (Приморский парк Победы)',
@@ -646,6 +646,21 @@ let historyDocs = [
         map: 'krestovsky_1985',
         link: './docs/1986/1986_11_06_young_spartak_omaps.pdf',
         me: 'М-10'
+    },
+    {
+        name: 'Программа',
+        start: ['USSR_1987','USSR_CHAMP'],
+        year: 1987,
+        link: './docs/1987/1987_ussr_champ_program_omaps.pdf',
+        map: ['iset_1987_08_13','iset_1987_08_16']
+    },
+    {
+        name: 'Ориентирование',
+        info: 'Статья в газете.',
+        start: ['USSR_1987','USSR_CHAMP'],
+        year: 1987,
+        link: './docs/1987/1987_ussr_champ_article_omaps.pdf',
+        author: 'OGRDNKV'
     },
     {
         name: 'Бро-бег (Кузьмолово)',

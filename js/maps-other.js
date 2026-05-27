@@ -777,6 +777,32 @@ let otherMaps = [
     },
     // --- Свердловская обл, Екатеринбург ---
     {
+        name: 'Среднеуральск, Исеть',
+        date: '1987-08-13',
+        url: './maps/other/iset_1987_08_13.webp',
+        link: ['./original_maps/other/iset_1987_08_13_omaps.webp','./original_maps/other/iset_1987_08_13_m21_omaps.webp','./original_maps/other/iset_1987_08_13_w21_omaps.webp'],
+        gps: {
+            'М':'./original_maps/other/iset_1987_08_13_m21_tracks_omaps.webp',
+            'Ж':'./original_maps/other/iset_1987_08_13_w21_tracks_omaps.webp'
+        },
+        bounds: [[56.97520495915867, 60.32987594604493], [56.96996546693981, 60.37553787231446], [56.93427522369312, 60.313739776611335]],
+        author: 'KNTSVCH',
+        start: ['USSR_1987','USSR_CHAMP']
+    },
+    {
+        name: 'Среднеуральск, Исеть',
+        date: '1987-08-16',
+        url: './maps/other/iset_1987_08_16.webp',
+        link: ['./original_maps/other/iset_1987_08_16_omaps.webp','./original_maps/other/iset_1987_08_16_m21_omaps.webp'],
+        gps: {
+            'М':'./original_maps/other/iset_1987_08_16_m21_tracks_omaps.webp',
+            'Ж':'./original_maps/other/iset_1987_08_16_w21_tracks_omaps.webp'
+        },
+        bounds: [[56.978385719862366, 60.298032760620124], [56.97263208632877, 60.34961700439454], [56.934907413697324, 60.28138160705567]],
+        author: 'KNTSVCH',
+        start: ['USSR_1987','USSR_CHAMP']
+    },
+    {
         name: 'Верх-Нейвинский',
         date: '2019-08-24',
         url: './maps/other/verkh_neyvinsky_rrc_2019.webp',

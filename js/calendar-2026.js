@@ -1440,7 +1440,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/48966',
         type: 'TOURISM',
         link: ['https://t.me/pmarshbrosok', 'https://kandid.ru'],
-        photo: 'https://disk.yandex.ru/d/QJHL35iYw7iShQ',
+        photo: ['https://disk.yandex.ru/d/QJHL35iYw7iShQ','https://disk.yandex.ru/d/uxbIEg-wR0WiaA'],
         res: 'https://vk.com/wall-29327859_5942',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25166/',
         start: 'MB',

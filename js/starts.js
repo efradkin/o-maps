@@ -423,6 +423,14 @@ let starts = {
         region: 'KAZAKHSTAN',
         logo: 'ussr_1986.webp'
     },
+    USSR_1987: {
+        major: true,
+        retro: true,
+        short: 'VII Чемпионат СССР',
+        name: 'VII чемпионат СССР (<a href="./documents.html?start=USSR_1987">документы</a>)',
+        region: 'EKB',
+        logo: 'ussr_retro.webp'
+    },
     USSR_1988: {
         major: true,
         retro: true,
