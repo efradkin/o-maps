@@ -1464,6 +1464,20 @@ let otherMaps = [
         author: 'KSLV_V',
         start: ['USSR_1983','USSR_CHAMP']
     },
+    {
+        name: 'Pļaviņas, Mežezers',
+        year: 1990,
+        info: '24-27 августа.',
+        url: './maps/other/mezezers_1990.webp',
+        link: ['./original_maps/other/mezezers_1990_omaps.webp','./original_maps/other/mezezers_1990_m21_omaps.webp'],
+        gps: {
+            'М':'./original_maps/other/mezezers_1990_m21_tracks_omaps.webp',
+            'Ж':'./original_maps/other/mezezers_1990_w21_tracks_omaps.webp'
+        },
+        bounds: [[56.66872653756273, 25.679726600646973], [56.66641552106466, 25.72229862213135], [56.62500545944894, 25.68067073822022]],
+        author: 'KSLV_V',
+        start: ['USSR_1990','USSR_CHAMP']
+    },
 
     // --- Литва ---
 

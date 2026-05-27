@@ -447,6 +447,14 @@ let starts = {
         region: 'LIETUVA',
         logo: 'ussr_1989.webp'
     },
+    USSR_1990: {
+        major: true,
+        retro: true,
+        short: 'X Чемпионат СССР',
+        name: 'X чемпионат СССР',
+        region: 'LATVIA',
+        logo: 'plavinas.webp'
+    },
     USSR_1991: {
         major: true,
         retro: true,
