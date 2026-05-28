@@ -454,6 +454,20 @@ let otherStartsMaps = [
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
+    {
+        name: 'Сенная пл',
+        date: '2026-06',
+        about: 'https://vk.com/wall-227807023_494',
+        info: 'Июнь, фото-рогейн.',
+        url: './maps/rogaine/kkm/sennaya_KKM_2026_06.webp',
+        link: ['https://psv4.userapi.com/s/v1/d2/XTfNDsdtxYvwsgtpf5cwVL-hRx4JsCYSkJxRO6jmiwv-9aclAsv1hrJOVySt-BdOlpDvrmNHdRrCxX9XGOEdMeW_nmTmPFmXzApAlA973Eg7y0PChekEhi-UcTCJut-J5_Mr5x5GfiT-/KKM_6_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/qA5cIn9vEKKDz0QP5qegCfm8jI-Glol1Yg53ALP0akJg8OZA-ScTTzrt5iGxQ1ULbU0LMSU731mjxwwXl3K6nBtHCvTXUb4hrl8Cp2MhaodkeVMSIY1SV-Yt2YN4YKA2n4x5rw6WAQkv/SETKA_6_2026.jpg?dl=1'],
+        bounds: [[59.94950917225228, 30.265617370605472], [59.949208305070876, 30.347757339477543], [59.90869526080326, 30.264501571655277]],
+        // gps: 'https://viewer.o-gps-center.ru/viewer/event/24877/',
+        start: ['VO_FOTO','KKM'],
+        page: 'starts',
+        owner: 'RYZHOV',
+        type: ['FOTO','ROGAINE']
+    },
 
     /* --- Бекетов --- */
 
