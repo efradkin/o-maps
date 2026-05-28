@@ -49,6 +49,13 @@
     <h1 class="text-center">O-Maps ◪ Псков</h1>
 
     <div class="sheet-filters">
+        <select id="start_selector" class="header_selector" onchange="updateUrlParam('start', this.value)">
+            <option value="ALL">все старты</option>
+            <option value="RA_PSKOV">Российский Азимут</option>
+            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+            <option value="major">Чемпионаты и Кубки</option>
+        </select>
+
         <select id="type_selector" class="header_selector" onchange="updateUrlParam('type', this.value)">
             <option value="ALL">все типы</option>
             <option value="CITY">Город</option>

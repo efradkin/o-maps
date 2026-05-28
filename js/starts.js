@@ -613,6 +613,12 @@ let starts = {
         logo: 'zm.webp',
         rogaine: true
     },
+    /* --- ПСКОВ --- */
+    RA_PSKOV: {
+        short: 'РА (Псков)',
+        name: 'Российский азимут',
+        logo: 'ra_pskov.webp',
+    },
     /* --- РЯЗАНЬ --- */
     NPW: {
         short: 'Ночная ПРАгулка',

@@ -938,6 +938,7 @@ let authors = {
     NCHKN: { name: 'Нечкин Игорь' },
     NR_D: { name: '<a href="https://www.facebook.com/nuridagdelenTC/">Nuri Dağdelen</a>' },
     ORS_P: { name: 'Oras Padis' },
+    OZLNSH: { name: 'Озолиньш В.' },
     PDLSNK_A: { name: 'Пидлеснюк А.' },
     PNI_T: { name: 'Pani Tonu' },
     PNCHKV: { name: 'Панчуков С.' },

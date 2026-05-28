@@ -586,4 +586,154 @@ let pskovMaps = [
         bounds: [[57.89202199147954, 28.14225196838379], [57.88805279501551, 28.17456722259522], [57.87052834737465, 28.13448429107666]],
         owner: 'O_PSKOV',
     },
+
+
+    /* --- РА --- */
+    {
+        name: 'Великие Луки, р Ловать',
+        year: 2009,
+        info: '2007, 2008, 2009гг.',
+        url: './maps/pskov/velikie_luki_ra_2009.webp',
+        link: ['./original_maps/pskov/velikie_luki_ra_2007_omaps.webp','./original_maps/pskov/velikie_luki_ra_2008_omaps.webp','./original_maps/pskov/velikie_luki_ra_2009_omaps.webp'],
+        bounds: [[56.351020739393746, 30.501201152801517], [56.35011710628908, 30.52008390426636], [56.33703580840679, 30.49763917922974]],
+        author: 'LSHV_A',
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Пушкинские горы, стд Святогорец',
+        year: 2009,
+        info: '2008, 2009гг.',
+        url: './maps/pskov/pushgory_svyatogorets_ra_2009.webp',
+        link: ['./original_maps/pskov/pushgory_svyatogorets_ra_2008_omaps.webp','./original_maps/pskov/pushgory_svyatogorets_ra_2009_omaps.webp'],
+        bounds: [[57.03816149375765, 28.895545005798343], [57.03778790156969, 28.93519878387451], [57.022163715665, 28.8955020904541]],
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Псков, стд Машиностроитель',
+        year: 2010,
+        info: '2006, 2007, 2008, 2009, 2010гг.',
+        url: './maps/pskov/pskov_carbuilder_ra_2010.webp',
+        link: ['./original_maps/pskov/pskov_carbuilder_ra_2006_omaps.webp','./original_maps/pskov/pskov_carbuilder_ra_2007_omaps.webp','./original_maps/pskov/pskov_carbuilder_ra_2008_omaps.webp','./original_maps/pskov/pskov_carbuilder_ra_2009_omaps.webp','./original_maps/pskov/pskov_carbuilder_ra_2010_omaps.webp'],
+        bounds: [[57.81085161842657, 28.3293628692627], [57.81681802607994, 28.33470582962036], [57.80674771150545, 28.345177173614502]],
+        author: 'LSHV_A',
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Пустошка',
+        year: 2010,
+        url: './maps/pskov/pustoshka_ra_2010.webp',
+        link: './original_maps/pskov/pustoshka_ra_2010_omaps.webp',
+        bounds: [[56.33876041798775, 29.359974861145023], [56.336667088658274, 29.375467300415043], [56.328625733304044, 29.355254173278812]],
+        author: 'LSHV_A',
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Себеж, Зелёная зона',
+        year: 2011,
+        url: './maps/pskov/green_zone_ra_2011.webp',
+        link: './original_maps/pskov/green_zone_ra_2011_omaps.webp',
+        bounds: [[56.267832581785115, 28.468065261840824], [56.26695081053323, 28.484845161437992], [56.249931028168206, 28.464846611022953]],
+        author: ['LSHV_A','OZLNSH'],
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Новосокольники',
+        year: 2012,
+        url: './maps/pskov/novosokolniki_ra_2012.webp',
+        link: './original_maps/pskov/novosokolniki_ra_2012_omaps.webp',
+        bounds: [[56.35790429400382, 30.164723396301273], [56.35607355621482, 30.18330574035645], [56.33248008546511, 30.157728195190433]],
+        author: 'MKHLV_A',
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Опочка, оз Каменец',
+        year: 2013,
+        url: './maps/pskov/opochka_ra_2013.webp',
+        link: './original_maps/pskov/opochka_ra_2013_omaps.webp',
+        bounds: [[56.66087322038756, 28.596897125244144], [56.65877400861691, 28.62393379211426], [56.64166933255208, 28.592133522033695]],
+        author: 'GRV_S',
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Струги красные',
+        year: 2014,
+        url: './maps/pskov/strugi_krasny_ra_2014.webp',
+        link: './original_maps/pskov/strugi_krasny_ra_2014_omaps.webp',
+        bounds: [[58.29830487734621, 29.09866333007813], [58.2972223706927, 29.12282466888428], [58.27482058530472, 29.09462928771973]],
+        author: 'GRV_S',
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Сенчитский бор',
+        year: 2015,
+        url: './maps/pskov/senchitsky_forest_ra_2015.webp',
+        link: './original_maps/pskov/senchitsky_forest_ra_2015_omaps.webp',
+        bounds: [[56.21639375083978, 30.62572002410889], [56.21503351216082, 30.650053024291996], [56.19347802793939, 30.621299743652347]],
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Палкино',
+        year: 2016,
+        url: './maps/pskov/palkino_ra_2016.webp',
+        link: './original_maps/pskov/palkino_ra_2016_omaps.webp',
+        bounds: [[57.54742005411061, 27.999923229217533], [57.54595771921061, 28.015866279602054], [57.53636472898291, 27.996940612792972]],
+        author: 'GRV_S',
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Гдов',
+        year: 2017,
+        url: './maps/pskov/gdov_ra_2017.webp',
+        link: './original_maps/pskov/gdov_ra_2017_omaps.webp',
+        bounds: [[58.74343634749805, 27.81272649765015], [58.74343634749805, 27.82798290252686], [58.73488456250113, 27.812404632568363]],
+        author: 'LSHV_A',
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Идрица',
+        year: 2018,
+        url: './maps/pskov/idritsa_ra_2018.webp',
+        link: './original_maps/pskov/idritsa_ra_2018_omaps.webp',
+        bounds: [[56.3476557864958, 28.838896751403812], [56.34411215830044, 28.87988090515137], [56.33317002101171, 28.833789825439457]],
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Кунья',
+        date: '2019-05-18',
+        url: './maps/pskov/kunia_ra_2019.webp',
+        link: './original_maps/pskov/kunia_ra_2019_omaps.webp',
+        bounds: [[56.294216733187405, 30.964407920837406], [56.293025967473476, 30.987453460693363], [56.28558284122155, 30.963120460510257]],
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Дно, стд Локомотив',
+        year: 2021,
+        url: './maps/pskov/dno_loco_ra_2021.webp',
+        link: './original_maps/pskov/dno_loco_ra_2021_omaps.webp',
+        bounds: [[57.821446455442235, 29.953773021698], [57.819058031521415, 29.978642463684086], [57.80418681991372, 29.949502944946293]],
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
+    {
+        name: 'Залахтовье',
+        year: 2022,
+        url: './maps/pskov/zalakhtovie_ra_2022.webp',
+        link: './original_maps/pskov/zalakhtovie_ra_2022_omaps.webp',
+        bounds: [[58.49566736161886, 27.872014045715336], [58.49333498300673, 27.90008068084717], [58.470204656591434, 27.863688468933105]],
+        owner: 'PSKOV_RUS',
+        start: 'RA_PSKOV'
+    },
 ];
