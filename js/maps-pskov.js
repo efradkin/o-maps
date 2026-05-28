@@ -607,6 +607,7 @@ let pskovMaps = [
         url: './maps/pskov/pushgory_svyatogorets_ra_2009.webp',
         link: ['./original_maps/pskov/pushgory_svyatogorets_ra_2008_omaps.webp','./original_maps/pskov/pushgory_svyatogorets_ra_2009_omaps.webp'],
         bounds: [[57.03816149375765, 28.895545005798343], [57.03778790156969, 28.93519878387451], [57.022163715665, 28.8955020904541]],
+        author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
     },
@@ -677,6 +678,7 @@ let pskovMaps = [
         url: './maps/pskov/senchitsky_forest_ra_2015.webp',
         link: './original_maps/pskov/senchitsky_forest_ra_2015_omaps.webp',
         bounds: [[56.21639375083978, 30.62572002410889], [56.21503351216082, 30.650053024291996], [56.19347802793939, 30.621299743652347]],
+        author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
     },
@@ -706,6 +708,7 @@ let pskovMaps = [
         url: './maps/pskov/idritsa_ra_2018.webp',
         link: './original_maps/pskov/idritsa_ra_2018_omaps.webp',
         bounds: [[56.3476557864958, 28.838896751403812], [56.34411215830044, 28.87988090515137], [56.33317002101171, 28.833789825439457]],
+        author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
     },
@@ -715,6 +718,7 @@ let pskovMaps = [
         url: './maps/pskov/kunia_ra_2019.webp',
         link: './original_maps/pskov/kunia_ra_2019_omaps.webp',
         bounds: [[56.294216733187405, 30.964407920837406], [56.293025967473476, 30.987453460693363], [56.28558284122155, 30.963120460510257]],
+        author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
     },
@@ -724,6 +728,7 @@ let pskovMaps = [
         url: './maps/pskov/dno_loco_ra_2021.webp',
         link: './original_maps/pskov/dno_loco_ra_2021_omaps.webp',
         bounds: [[57.821446455442235, 29.953773021698], [57.819058031521415, 29.978642463684086], [57.80418681991372, 29.949502944946293]],
+        author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
     },
@@ -733,6 +738,7 @@ let pskovMaps = [
         url: './maps/pskov/zalakhtovie_ra_2022.webp',
         link: './original_maps/pskov/zalakhtovie_ra_2022_omaps.webp',
         bounds: [[58.49566736161886, 27.872014045715336], [58.49333498300673, 27.90008068084717], [58.470204656591434, 27.863688468933105]],
+        author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
     },
