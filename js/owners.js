@@ -318,6 +318,9 @@ let owners = {
         name: '© Ермаченков Алексей, 89164951315',
         logo: 'mifi.jpg'
     },
+    PHNN_I: {
+        name: '© Правообладатель - Пахнин Игорь (+79804244527, <a href = "https://t.me/igorpakhnin" >Telegram</a>)'
+    },
     CLEVER_MSK: {
         name: '© Массовые старты по ориентированию и рогейну в Москве, Event-Агентство CLEVER',
         logo: 'clever_msk.gif'

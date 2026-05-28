@@ -433,6 +433,16 @@ let moscowMaps = [
         type: ['CITY']
     },
     {
+        name: 'Новокосино, Суздальский пруд',
+        year: 2025,
+        url: './maps/moscow/lr/novokosino_2025.webp',
+        link: './original_maps/moscow/lr/novokosino_2025_omaps.webp',
+        bounds: [[55.73832202647354, 37.846194505691535], [55.73713815887232, 37.85675168037415], [55.73171365323756, 37.84360885620118]],
+        author: 'MNKV',
+        owner: 'PHNN_I',
+        type: ['CITY','SPRINT']
+    },
+    {
         name: 'Алёшкино',
         year: 1992,
         info: 'XXIII соревнования на приз TV, 24 мая.',
