@@ -941,14 +941,14 @@ let cityMaps = [
     },
     {
         name: 'ул Жака Дюкло',
-        date: '2023-10-04',
+        date: ['2023-10-04','2026-05-27'],
         url: './maps/city/zhaka_djuklo_2023.webp',
-        link: './original_maps/city/zhaka_djuklo_2023_st_omaps.gif',
+        link: ['./original_maps/city/zhaka_djuklo_2023_st_omaps.gif','./original_maps/city/zhaka_djuklo_2026_05_27_st_omaps.gif'],
         gps: {
             'М':'https://viewer.o-gps-center.ru/viewer/event/17480/',
             'Ж':'https://viewer.o-gps-center.ru/viewer/event/17482/'
         },
-        reskeep: 619,
+        reskeep: [619,892],
         bounds: [[60.01458264841114, 30.345954895019535], [60.012298334901786, 30.36578178405762], [60.00745034864706, 30.343229770660404]],
         author: 'CHGRVSKY_Y',
         start: 'ST',
