@@ -1422,6 +1422,17 @@ let otherMaps = [
         results: 'https://ocbsu.orient.by/upload/2018/Protokoly_1988-BSU.pdf',
         start: ['USSR_1988','USSR_CHAMP']
     },
+    {
+        name: 'Юрковичи',
+        date: '1988-09-03',
+        url: './maps/other/yurkovichi_1988_09_03.webp',
+        link: ['./original_maps/other/yurkovichi_1988_09_03_m21_omaps.webp','./original_maps/other/yurkovichi_1988_09_03_w21_omaps.webp'],
+        bounds: [[54.3141700878495, 27.95351028442383], [54.31146629980298, 28.017110824584964], [54.284919691613005, 27.949647903442386]],
+        gps: 'https://rg.obelarus.net/cgi-bin/reitti.cgi?act=map&id=279&kieli=',
+        author: ['MLNKV_L','TRNV_VL','DLNN_E','TRKN_V','KPVA_Y'],
+        results: 'https://ocbsu.orient.by/upload/2018/Protokoly_1988-BSU.pdf',
+        start: ['USSR_1988','USSR_CHAMP']
+    },
 
     // --- Латвия ---
 

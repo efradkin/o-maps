@@ -894,6 +894,7 @@ let authors = {
     BRV_D: { name: 'Бареев Денис' },
     BYMRZN: { name: 'Баймурзин Х.' },
     DCHNKO_G: { name: 'Дьяченко Г.' },
+    DLNN_E: { name: 'Долинин Е.' },
     VHTV_A: { name: 'Вахитов А.' },
     GLDKVA_S: { name: 'Гладкова Светлана' },
     GLTSKY_V: { name: 'Гелецкий В.' },
@@ -913,6 +914,7 @@ let authors = {
     KLTKV_A: { name: 'Колтаков А.' },
     KNTSVCH: { name: 'Кунцевич Г.' }, // К.
     KNV_S: { name: 'Коняев Сергей' },
+    KPVA_Y: { name: 'Купава Ю.' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },
     KRLS_M: { name: 'Karlis Magons' },
     KRLV_A: { name: 'Королёв А.' }, // А.
