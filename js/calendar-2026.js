@@ -1483,6 +1483,7 @@ let events2026 = [
         place: 'Жака Дюкло',
         link: 'https://vk.ru/wall-92124592_2232',
         reg: 'https://orgeo.ru/event/53145',
+        info: '<a href="https://vk.com/@-92124592-bez-nazvaniya">Разбор дистанций</a>.',
         reskeep: 892,
         planner: 'RYKV_A',
         type: 'ORIENT',
