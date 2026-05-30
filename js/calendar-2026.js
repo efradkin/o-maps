@@ -1509,6 +1509,7 @@ let events2026 = [
         place: 'Гаврилово',
         o_site: '260530_SPB',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1740',
+        reskeep: 894,
         type: 'ORIENT',
         fmt: 'эстафета 2х',
         map: 'gavrilovo_2014',
@@ -1559,7 +1560,8 @@ let events2026 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1742',
         type: 'ORIENT',
         fmt: 'спринт',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        coord: [59.848802898220434, 30.170216560363773]
     },
     {
         id: 'SPB_20260531_1',
@@ -1612,6 +1614,7 @@ let events2026 = [
         endDate: '2026-06-14',
         place: 'Первомайское',
         name: 'Невский Азимут',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1736',
         type: 'ORIENT',
         o_site: '260614',
         start: 'NA',

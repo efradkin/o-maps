@@ -61,7 +61,8 @@ let owners = {
         name: '© Золотой Маршрут - <a href="https://mosplay.ru/">сайт</a> и <a href="https://vk.com/rogaining">ВК</a>'
     },
     GLFSTRM: {
-        name: '© КСО "Гольфстрим"'
+        name: '© КСО "Гольфстрим"',
+        logo: 'golfstream.webp'
     },
     GLTV_YU: {
         name: '© ГБНОУ "СПб ГДТЮ", Юрий Гультяев - +79213017985, gultiaev@list.ru'

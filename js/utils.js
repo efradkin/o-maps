@@ -198,6 +198,7 @@ const dic = {
     WINTER: 'ЗИМА',
     INDOOR: 'ВНУТРИ',
     SPECIAL: 'НЕЧТО',
+    CLUB: 'КЛУБ',
 };
 
 const EVENT_TYPES = ['ALL','ORIENT','ROGAINE','VELO','OTHER'];
@@ -289,6 +290,7 @@ const START_YEAR_PARAM = urlParams.get('startYear');
 const HAS_CALENDAR_PARAM = urlParams.has('calendar');
 const CALENDAR_PARAM = urlParams.get('calendar') ?? urlParams.get('event-type');
 let START_NAME_PARAM = urlParams.get('start');
+const HAS_POI_PARAM = urlParams.has('poi');
 
 let HAS_ME_PARAM = urlParams.has('me');
 const HAS_ONLY_ME_PARAM = urlParams.has('only-me');
@@ -1584,7 +1586,9 @@ function buildEventType(evt, withFmt) {
                 result = 'Другой';
         }
         if (!result && evt.type) {
-            if (evt.type.includes('WATER')) {
+            if (evt.type.includes('CLUB')) {
+                result = 'Клуб';
+            } else if (evt.type.includes('WATER')) {
                 result = 'Водный рогейн';
             } else if (evt.type.includes('SKI')) {
                 if (isRogaine(evt)) {

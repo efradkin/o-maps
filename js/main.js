@@ -480,6 +480,12 @@ if (mapElement) {
                 document.getElementById("calendar-past-group-check").closest('label').style.display = 'none';
             }
         }
+        if (typeof poi === 'undefined') {
+            let checkbox = document.getElementById("poi-group-check");
+            if (checkbox) {
+                checkbox.closest('label').style.display = 'none';
+            }
+        }
     }
 
     // --- search control ---
@@ -709,6 +715,8 @@ if (mapElement) {
         setInterval(checkMapsLoad, 1000);
 
         loadCalendar();
+
+        loadPOI();
     });
 
     // set required styles for the map elements
@@ -757,6 +765,30 @@ if (mapElement) {
     }
 } else {
     loadMaps();
+}
+
+async function loadPOI() {
+    if (typeof poi != 'undefined' && typeof poiLayer != 'undefined') {
+        for (const p of poi) {
+            p.poi = true;
+            if (!p.image && p.logo) {
+                p.image = `./logo/${p.logo}`;
+            }
+            const iconProps = {
+                iconUrl: p.image, //shadowUrl: './images/event_cp.webp',
+                //iconSize: [38, 95], // size of the icon
+                //shadowSize: [50, 64], // size of the shadow
+                iconAnchor: [40, 40], // point of the icon which corresponds to marker's location
+                //shadowAnchor: [4, 62], // the same for the shadow
+                popupAnchor: [0, -40] // point from which the popup should open relative to the iconAnchor
+            };
+            Object.assign(iconProps, p);
+            const icon = L.icon(iconProps);
+            const m = getMapForName(p.map);
+            const popup = buildEventPopup(p, m);
+            createMarker(p.coord, icon, popup, poiLayer);
+        }
+    }
 }
 
 async function loadCalendar() {
@@ -831,10 +863,14 @@ function createEventMarker(evt, evtMap) {
         const y = (m.bounds[0][1] + m.bounds[1][1])/2;
         mapCoords = [x, y];
     }
-    const marker = L.marker([mapCoords[0], mapCoords[1]], {icon: cpIcon});
     const popup = buildEventPopup(evt, m);
+    createMarker(mapCoords, cpIcon, popup, currentDate < now ? calendarPastGroup : calendarGroup);
+}
+
+function createMarker(coords, icon, popup, layer) {
+    const marker = L.marker([coords[0], coords[1]], {icon: icon});
     marker.bindPopup(popup, {maxWidth: popupWidth});
-    marker.addTo(currentDate < now ? calendarPastGroup : calendarGroup);
+    marker.addTo(layer);
 }
 
 async function processYearSlider(years, vals) {
@@ -1397,17 +1433,21 @@ function buildEventPopup(evt, m) {
     let info = '';
     let d = buildEventDate(evt);
     let sy = startYear(evt);
-    if (d) {
+    if (d && sy) {
         info += `<b>${d} ${sy}</b>. `;
     }
 
     // место
     if (evt.place) {
-        info += `${evt.place}. `;
+        let place = `${evt.place}. `;
+        if (evt.poi) {
+            place = `<b>${place}</b><br />`
+        }
+        info += place;
     }
 
     // формат
-    if (evt.fmt) {
+    if (evt.type && evt.fmt) {
         info += (evt.type.includes('ROGAINE') ? 'Рогейн ' : '') + capitalize(evt.fmt) + '. ';
     }
     if (evt.info) {

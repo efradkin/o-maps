@@ -608,6 +608,13 @@ let vaskelovoMaps = [
     },
     {
         name: 'Пески',
+        year: 2026,
+        url: './maps/forest/vaskelovo/peski_2026.webp',
+        bounds: [[60.486406037584224, 30.39796829223633], [60.48230434898135, 30.4621696472168], [60.4596511538074, 30.390844345092773]],
+        author: ['BRGNTS','VSLV_S','VRBY'],
+    },
+    {
+        name: 'Пески',
         year: 2001,
         url: './maps/forest/vaskelovo/peski_2001.webp',
         link: './original_maps/forest/vaskelovo/peski_2001_omaps.jpg',

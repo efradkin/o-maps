@@ -405,11 +405,12 @@ let commonEvents2026 = [
     name: 'Мемориал Михаила Святкина XXXII',
     place: 'Пески',
     o_site: 'mms2026',
+    reg: 'https://orgeo.ru/event/51560',
     link: 'https://sfr-system.ru/mms/',
     info: 'Новые карты.',
     type: 'ORIENT',
     fmt: 'классика, многодневный (лонг)',
-    map: 'peski_2001',
+    map: 'peski_2026',
     major: true,
     start: 'MMS'
 },
