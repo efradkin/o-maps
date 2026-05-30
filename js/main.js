@@ -1453,6 +1453,14 @@ function buildEventPopup(evt, m) {
     if (evt.info) {
         info += evt.info;
     }
+    if (evt.couches) {
+        let couches = '<br />Тренеры:<ul>';
+        for (const c of evt.couches) {
+            couches += `<li>${c}</li>`;
+        }
+        couches += '</ul>'
+        info += couches;
+    }
     if (info) {
         result += info + '<br />';
     }
