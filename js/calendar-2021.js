@@ -733,7 +733,7 @@ let events2021 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210523LO/210523LO_split.htm',
         photo: 'http://vk.com/club128591100?w=wall-128591100_1635%2Fall',
-        owner: 'SFSO_SPB',
+        owner: 'SFSO_LO',
         o_site: '210523LO'
     },
     {

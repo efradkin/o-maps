@@ -805,7 +805,7 @@ let events2013 = [
         id: 'SPB_20130922_1',
         date: '2013-09-22',
         name: 'Чемпионат и Первенство СПб, средняя дистанция',
-        place: 'Стеклянный',
+        place: 'Поляны',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130922/130922_split.htm',
         owner: 'SFSO_SPB',
