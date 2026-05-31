@@ -1510,6 +1510,8 @@ let events2026 = [
         place: 'Гаврилово',
         o_site: '260530_SPB',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1740',
+        video: 'https://vkvideo.ru/video-230838055_456239044',
+        info: '<a href="https://o-site.spb.ru/_races/260530_SPB/260530_videos.html">Видео-нарезка</a> участников на дистанции.',
         reskeep: 894,
         type: 'ORIENT',
         fmt: 'эстафета 2х',
