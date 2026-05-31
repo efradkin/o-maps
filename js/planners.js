@@ -41,6 +41,7 @@ let planners = {
     KHMPPU: { name: 'Хамппу И' },
     KNDRSHKN_I: { name: 'Кондрашкин Игорь' },
     KNTSVCH: { name: 'Кунцевич Г' }, // К.
+    KPRNKO: { name: 'Куприенко Денис' },
     KPSTN: { name: 'Капустин' },
     KRCHKN_V: { name: 'Курочкин Василий' },
     KRCHNKO_S: { name: 'Кириченко Сергей' },
@@ -115,6 +116,7 @@ let planners = {
     VLKV_A: { name: 'Волков Андрей' },
     VSLVSKY: { name: 'Василевский Александр' },
     YGNV: { name: 'Яганов Алексей' },
+    ZCHNV: { name: 'Зачиняев Виктор' },
     ZKHRV_VCH: { name: 'Захаров Вячеслав' },
     ZMLKV_A: { name: 'Земляков Алексей' }
 };
