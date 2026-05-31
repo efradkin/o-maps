@@ -366,7 +366,7 @@ let events2012 = [
         name: 'Российский Азимут ЛО',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2012_RA-LO/120520-lo_res.zip',
-        owner: 'SFSO_SPB',
+        owner: 'SFSO_LO',
         o_site: '2012_RA-LO'
     },
     {

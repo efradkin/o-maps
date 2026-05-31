@@ -477,7 +477,7 @@ let events2013 = [
         name: 'Российский Азимут ЛО',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130526_LO/130526_lo_res.pdf',
-        owner: 'SFSO_SPB',
+        owner: 'SFSO_LO',
         o_site: '130526_LO'
     },
     {

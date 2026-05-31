@@ -443,7 +443,7 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070520_LO/070520_lo_results.zip',
         info: 'Областная версия Российского Азимута',
-        owner: 'SFSO_SPB',
+        owner: 'SFSO_LO',
         o_site: '070520_LO'
     },
     {

@@ -331,7 +331,7 @@ let events2010 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10RA_LO/10RA_LO_split.htm',
         fmt: 'дистанция по выбору',
-        owner: 'SFSO_SPB',
+        owner: 'SFSO_LO',
         o_site: '10RA_LO'
     },
     {

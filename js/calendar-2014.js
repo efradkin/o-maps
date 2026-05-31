@@ -352,7 +352,7 @@ let events2014 = [
         name: 'Российский Азимут - Лен.обл',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140518_LO/140518_lo_split.htm',
-        owner: 'SFSO_SPB',
+        owner: 'SFSO_LO',
         o_site: '140518_LO'
     },
     {

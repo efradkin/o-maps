@@ -325,7 +325,7 @@ let events2009 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/09RA_LO/09RA_LO_res3.zip',
         info: 'Всероссийские массовые соревнования по спортивному ориентированию',
-        owner: 'SFSO_SPB',
+        owner: 'SFSO_LO',
         o_site: '09RA_LO'
     },
     {

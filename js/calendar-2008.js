@@ -320,7 +320,7 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080518_RA_LO/080518_lo_res.zip',
         info: 'Областной этап всероссийских массовых соревнований по спортивному ориентированию «РОССИЙСКИЙ АЗИМУТ - 2008»',
-        owner: 'SFSO_SPB',
+        owner: 'SFSO_LO',
         o_site: '080518_RA_LO'
     },
     {
