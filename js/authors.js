@@ -348,7 +348,7 @@ let authors = {
         logo: 'kkm.gif'
     },
     SBLV_A: { name: 'Соболев Алексей' },
-    SBLV_S: { name: 'Сибилев Сергей' },
+    SBLV_S: { name: 'Сибилёв Сергей' },
     SCHV_M: { name: 'Сычёв М.' },
     SCHV_V: { name: 'Сычёв Владимир' },
     SHLKHN_AN: { name: 'Шелёхин Анатолий' },

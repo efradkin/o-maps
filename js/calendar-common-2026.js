@@ -363,7 +363,7 @@ let commonEvents2026 = [
     endDate: '2026-05-31',
     major: true,
     name: 'Чемпионат России по спорту лиц с поражением ОДА',
-    video: ['https://vkvideo.ru/video-179258987_456239020','https://vkvideo.ru/video-179258987_456239022'],
+    video: ['https://vkvideo.ru/video-179258987_456239020','https://vkvideo.ru/video-179258987_456239022','https://vkvideo.ru/video-23702661_456289544'],
     photo: ['https://vk.com/album-220245153_313664687','https://blinova-photo.ru/disk/chr-po-orientirovaniyu'],
     place: 'Санкт-Петербург',
     link: 'https://vk.com/abcdefz_spb',
