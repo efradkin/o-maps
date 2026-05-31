@@ -1574,7 +1574,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/53258',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25214/',
         type: 'ORIENT',
-        map: 'razdolje_2025',
+        map: 'razdolje_2022',
         owner: 'WN',
     },
     {
