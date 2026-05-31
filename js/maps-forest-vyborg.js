@@ -679,10 +679,10 @@ let vyborgMaps = [
         name: 'Гаврилово',
         year: 2014,
         url: './maps/forest/vyborg/gavrilovo_2014.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16377/',
         bounds: [[60.615975694756706, 29.031543731689457], [60.61422792656198, 29.05072689056397], [60.602622871964265, 29.027380943298343]],
-        restricted: 'с 19.03.2026 по 31.05.2026, ЧиП СПб',
         author: 'DBRTSV_V',
-        owner: 'NW'
+        owner: 'VYBORG'
     },
     {
         name: 'Вещево, заброшенный аэродром',

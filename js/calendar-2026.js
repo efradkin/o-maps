@@ -1484,6 +1484,7 @@ let events2026 = [
         link: 'https://vk.ru/wall-92124592_2232',
         reg: 'https://orgeo.ru/event/53145',
         info: '<a href="https://vk.com/@-92124592-bez-nazvaniya">Разбор дистанций</a>.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25195/',
         reskeep: 892,
         planner: 'RYKV_A',
         type: 'ORIENT',
