@@ -479,7 +479,7 @@ let rogaineMaps = [
     {
         name: 'Всеволожск',
         year: 2015,
-        info: 'Кубок Всеволожского р-она.',
+        info: 'Кубок Всеволожского р-на.',
         url: './maps/rogaine/vsevolozhsk_2015.webp',
         link: './original_maps/rogaine/vsevolozhsk_2015_omaps.jpg',
         bounds: [[60.03381609748235, 30.563621520996097], [60.03415906743088, 30.66661834716797], [59.96824351795802, 30.563449859619144]],
@@ -490,7 +490,7 @@ let rogaineMaps = [
     {
         name: 'Мельничный Ручей',
         year: 2016,
-        info: 'Кубок Всеволожского р-она.',
+        info: 'Кубок Всеволожского р-на.',
         url: './maps/rogaine/melnichny_ruchej_2016.webp',
         link: './original_maps/rogaine/melnichny_ruchej_2016_omaps.jpg',
         bounds: [[60.03896027284075, 30.636062622070316], [60.03887454314954, 30.71657180786133], [59.966009702748345, 30.635890960693363]],

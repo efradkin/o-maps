@@ -550,7 +550,7 @@ let cityMaps = [
         type: ['CITY']
     },
     {
-        name: 'ул Сантьяго-де-Куба, ДДЮТ Выборгского р-она',
+        name: 'ул Сантьяго-де-Куба, ДДЮТ Выборгского р-на',
         date: '2022-05-18',
         url: './maps/city/vyborgsky_ddjut_2017.webp',
         link: './original_maps/city/santjago_de_kuba_2022_st_omaps.gif',
@@ -561,7 +561,7 @@ let cityMaps = [
         type: ['CITY']
     },
     {
-        name: 'ЦФКиЗ Московского р-она',
+        name: 'ЦФКиЗ Московского р-на',
         year: 2016,
         url: './maps/city/tsfkiz_moskovsky_2016.webp',
         link: './original_maps/city/tsfkiz_moskovsky_2016_omaps.jpg',

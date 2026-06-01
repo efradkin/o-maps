@@ -866,7 +866,7 @@ let events2026 = [
     {
         id: 'SPB_20260416',
         date: '2026-04-16',
-        name: 'П-во Невского р-она',
+        name: 'П-во Невского р-на',
         place: 'Куракина дача',
         reg: 'https://orgeo.ru/event/51917',
         type: 'ORIENT',
@@ -905,7 +905,7 @@ let events2026 = [
     {
         id: 'SPB_20260418_4',
         date: '2026-04-18',
-        name: 'П-во Кировского р-она',
+        name: 'П-во Кировского р-на',
         place: 'Воронцовский сквер',
         reg: 'https://orgeo.ru/event/52026',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24753/',

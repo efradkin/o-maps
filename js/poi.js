@@ -169,7 +169,7 @@ let poi = [
         link: 'https://vk.com/clubspborient',
         reg: 'https://vk.com/@orient_spb_lo-kso-delta-klub-iz-vyborgskogo-raiona-sankt-peterburga',
         logo: 'delta.webp',
-        info: 'Клуб спортивного ориентирования на базе ГБУ ДО ДДЮТ Выборгского р-она.',
+        info: 'Клуб спортивного ориентирования на базе ГБУ ДО ДДЮТ Выборгского р-на.',
         type: 'CLUB'
     },
     {
@@ -201,7 +201,7 @@ let poi = [
         link: 'http://kso-kalinka.ru/',
         reg: 'https://vk.com/wall-32675301_1698',
         logo: 'kalinka.webp',
-        info: 'Клуб спортивного ориентирования на базе Дома Детского Творчества Калининского р-она.',
+        info: 'Клуб спортивного ориентирования на базе Дома Детского Творчества Калининского р-на.',
         type: 'CLUB'
     },
     {
@@ -266,7 +266,7 @@ let poi = [
         place: 'Отечественная ул., 6',
         link: 'https://sportkrgv.ru/branches/sportivnoe-orientirovanie.html',
         logo: 'feniks.webp',
-        info: 'Клуб спортивного ориентирования на базе ГБУ ДО СШОР Красногвардейского р-она.',
+        info: 'Клуб спортивного ориентирования на базе ГБУ ДО СШОР Красногвардейского р-на.',
         type: 'CLUB'
     },
     {
