@@ -1562,6 +1562,7 @@ let events2026 = [
         o_site: '260531_RA',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1742',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25204/',
+        info: 'Новая карта.',
         planner: ['ZCHNV','KPRNKO'],
         type: 'ORIENT',
         fmt: 'спринт',
