@@ -133,7 +133,7 @@ let poi = [
         iconSize: [75, 75],
         place: 'Сикейроса, 7',
         link: 'https://w-nights.narod.ru/',
-        reg: 'https://vk.com/white_nights_club_spb',
+        reg: ['https://vk.com/white_nights_club_spb','https://t.me/whitenightesspb'],
         logo: 'wn_club.webp',
         info: 'Клуб спортивного ориентирования «Белые Ночи» объединяет спортсменов из нескольких известных в прошлом спортивных клубов: ' +
             '«Кировец», «Волна», «Экран», а также тренеров спортивных школ Сестрорецка и Кузьмолова вместе с их воспитанниками.',
@@ -188,7 +188,7 @@ let poi = [
         iconSize: [75, 85],
         place: 'Гатчина',
         link: 'https://vk.com/kttib',
-        reg: 'https://vk.com/@orient_spb_lo-kttib-klub-s-5-letnei-istoriei-osnovannyi-v-gatchine',
+        reg: ['https://t.me/kttib','https://vk.com/@orient_spb_lo-kttib-klub-s-5-letnei-istoriei-osnovannyi-v-gatchine'],
         logo: 'kttib.webp',
         info: 'Как тренируемся - так и бегаем!',
         type: 'CLUB'

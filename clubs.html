@@ -46,7 +46,7 @@
     <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
     <a href="spb.html?poi" target="_self" class="stat-map-link stat-map-link-right" title="Клубы на карте" id="starts_map_link"><img src="images/map_24.png" alt="Клубы на карте" /></a>
 
-    <h1>O-Maps ◪ Клубы СПб</h1>
+    <h1>O-Maps ◪ Клубы спортивного ориентирования СПб</h1>
 
     <div class="o-sheet-roof" style="display: none">
         <a href="#" onclick="downloadSheetTable('o-maps-clubs.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
@@ -110,7 +110,7 @@
                 td(row, buildName(club));
                 td(row, buildEventPlace(club, '&poi'));
                 td(row, buildInfo(club));
-                td(row, buildEventReg(club));
+                td(row, buildEventReg(club, true));
                 td(row, buildCouches(club));
                 tbody.appendChild(row);
             }

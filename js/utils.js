@@ -608,6 +608,25 @@ function buildLink(link, content, title, allItems, isDownload) {
 }
 
 function buildOneLink(link, content, title, isDownload) {
+    let contentImage;
+    if (content === 'VK') {
+        contentImage = 'vk.webp';
+    } else if (content === 'Sportident') {
+        contentImage = 'si.webp';
+    } else if (content === 'Telegram') {
+        contentImage = 'telegram.webp';
+    } else if (content === 'Orgeo') {
+        contentImage = 'orgeo.webp';
+    } else if (content === 'O-Reg') {
+        contentImage = 'oreg.webp';
+    } else if (content === 'O-Time') {
+        contentImage = 'otime.webp';
+    } else if (content === 'Multsport') {
+        contentImage = 'multsport.webp';
+    }
+    if (contentImage) {
+        content = `<img src="./images/${contentImage}" alt="${content}" class="sheet-icon">`;
+    }
     if (link) {
         if (title) {
             title = ' title="' + title + '"';
@@ -1440,13 +1459,13 @@ function buildEventStart(evt, withoutLogo) {
     return result;
 }
 
-function buildEventReg(evt) {
+function buildEventReg(evt, withoutCommas) {
     let reg = '';
     if (evt.reg) {
         if (Array.isArray(evt.reg)) {
             for (const r of evt.reg) {
                 if (reg) {
-                    reg += ', ';
+                    reg += withoutCommas ? ' ' : ', ';
                 }
                 reg += buildOneEventReg(r) + ' ';
             }
@@ -1476,6 +1495,8 @@ function buildOneEventReg(reg) {
         return buildLink(reg, 'ГУ');
     } else if (reg.includes('russiarunning')) {
         return buildLink(reg, 'RR');
+    } else if (reg.includes('t.me')) {
+        return buildLink(reg, 'Telegram');
     }
     return buildLink(reg, '<img src="./images/url-file.png" alt="Рега" />');
 }
