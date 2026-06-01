@@ -1566,6 +1566,8 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'SFSO_SPB',
+        strava: 18728228058,
+        me: 'М45',
         coord: [59.848802898220434, 30.170216560363773]
     },
     {
@@ -1578,6 +1580,17 @@ let events2026 = [
         type: 'ORIENT',
         map: 'razdolje_2022',
         owner: 'WN',
+    },
+    {
+        id: 'SPB_20260601_1',
+        date: '2026-06-01',
+        place: 'ЦДЮТ Красногвардейского р-на «Охта»',
+        name: 'Лабиринт - День защиты детей',
+        reg: 'https://orgeo.ru/event/53387',
+        type: 'ORIENT',
+        fmt: 'лабиринт',
+        owner: 'RDNV_I',
+        coord: [59.954936, 30.434412]
     },
     {
         id: 'SPB_20260606_1',
