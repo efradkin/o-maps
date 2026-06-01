@@ -868,9 +868,12 @@ function createEventMarker(evt, evtMap) {
 }
 
 function createMarker(coords, icon, popup, layer) {
-    const marker = L.marker([coords[0], coords[1]], {icon: icon});
-    marker.bindPopup(popup, {maxWidth: popupWidth});
-    marker.addTo(layer);
+    if (coords) {
+        const marker = L.marker([coords[0],
+                                 coords[1]], {icon: icon});
+        marker.bindPopup(popup, {maxWidth: popupWidth});
+        marker.addTo(layer);
+    }
 }
 
 async function processYearSlider(years, vals) {
@@ -1454,12 +1457,7 @@ function buildEventPopup(evt, m) {
         info += evt.info;
     }
     if (evt.couches) {
-        let couches = '<br />Тренеры:<ul>';
-        for (const c of evt.couches) {
-            couches += `<li>${c}</li>`;
-        }
-        couches += '</ul>'
-        info += couches;
+        info += '<br />Тренеры:' + buildCouches(evt);;
     }
     if (info) {
         result += info + '<br />';

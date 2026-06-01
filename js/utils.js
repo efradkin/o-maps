@@ -1504,7 +1504,7 @@ function buildOneEventReg(reg) {
 function buildCouches(evt) {
     let res = '';
     if (evt.couches) {
-        let couches = '<br />Тренеры:<ul>';
+        let couches = '<ul>';
         for (const c of evt.couches) {
             couches += `<li>${c}</li>`;
         }
