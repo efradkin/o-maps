@@ -168,6 +168,15 @@ let oBooks = [
         pics: ['shirinyan_markir', 1]
     },
     {
+        name: 'Разбор перегона',
+        year: 2026,
+        link: './books/shirinyan_stage_analysis_2013_omaps.pdf',
+        info: 'Разбор интересного перегона на Чемпионате СПб, классика 22 сентября 2013 года. Планировщику наука.',
+        author: 'SHRNN',
+        owner: 'SHRNN_AA',
+        pics: ['shirinyan_stage_analysis_2013', 1]
+    },
+    {
         name: 'Карта в спортивном ориентировании',
         year: 1983,
         about: 'https://oren-orient.narod.ru/map/karta/index.htm',
