@@ -478,7 +478,7 @@ let authors = {
     YKVLVA: { name: 'Яковлева И.' },
     YUDNTSV: { name: 'Юдинцев Валерий' }, // Киров
     ZSLNKN: { name: 'Заслонкин Пётр' },
-    ZCHNV: { name: 'Зачиняев Виктор' },
+    ZCHNV: { name: 'Зачиняев Виктор' }, // Андреевич
     ZHMNTKV: { name: 'Жаманткова Надежда' },
     ZNDR: { name: 'Зиндер Л.' },
     ZRNA: { name: 'Зорина Н.' },

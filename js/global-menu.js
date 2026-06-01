@@ -18,6 +18,7 @@ const GLOBAL_MENU_ITEMS = [
                     { title: '❌ Закрытые районы', page: 'sheet-spb.html?restricted' },
                     // { title: '⛷️ Лыжные гонки', page: 'calendar-ski' },
                     { title: '⛷️ Лыжные трассы', page: 'tracks.html?track-type=SKI' },
+                    { title: '👨‍👩‍👧‍👧 Клубы', page: 'clubs' },
                 ],
             },
             {

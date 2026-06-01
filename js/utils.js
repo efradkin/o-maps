@@ -1442,15 +1442,17 @@ function buildEventStart(evt, withoutLogo) {
 
 function buildEventReg(evt) {
     let reg = '';
-    if (Array.isArray(evt.reg)) {
-        for (const r of evt.reg) {
-            if (reg) {
-                reg += ', ';
+    if (evt.reg) {
+        if (Array.isArray(evt.reg)) {
+            for (const r of evt.reg) {
+                if (reg) {
+                    reg += ', ';
+                }
+                reg += buildOneEventReg(r) + ' ';
             }
-            reg += buildOneEventReg(r) + ' ';
+        } else {
+            reg = buildOneEventReg(evt.reg);
         }
-    } else {
-        reg = buildOneEventReg(evt.reg);
     }
     return reg;
 }
@@ -1476,6 +1478,19 @@ function buildOneEventReg(reg) {
         return buildLink(reg, 'RR');
     }
     return buildLink(reg, '<img src="./images/url-file.png" alt="Рега" />');
+}
+
+function buildCouches(evt) {
+    let res = '';
+    if (evt.couches) {
+        let couches = '<br />Тренеры:<ul>';
+        for (const c of evt.couches) {
+            couches += `<li>${c}</li>`;
+        }
+        couches += '</ul>'
+        res += couches;
+    }
+    return res;
 }
 
 function buildEventResults(evt) {
@@ -1512,6 +1527,33 @@ function buildEventResults(evt) {
         res += buildLink(reskeep, ' <img src="./images/r-k.gif" alt="Reskeep" />', 'Анализ сплитов', true);
     }
     return res;
+}
+
+function buildEventPlace(event, suffix) {
+    let mapPage ='spb.html';
+    if (REGION_KEY == 'msk') {
+        mapPage = 'moscow.html';
+    } else if (REGION_KEY == 'tracks') {
+        mapPage = 'tracks.html';
+    }
+    if (event.map) {
+        let maps = Array.isArray(event.map) ? [...event.map] : [event.map];
+        let result = '';
+        for (const [i, m] of maps.entries()) {
+            if (i === 0) {
+                result = buildLink(`${mapPage}?calendar&map=${m}`, event.place + ' 🗺️', 'Карта на O-Maps');
+            } else {
+                result += buildLink(`${mapPage}?calendar&map=${m}`, ' 🗺️', 'Карта на O-Maps');
+            }
+        }
+        return result;
+    } else if (event.coord) {
+        return buildLink(`${mapPage}?x=${event.coord[0]}&y=${event.coord[1]}&calendar${suffix ? '&'+suffix : ''}`, event.place + ' 🌐', 'Место на O-Maps');
+    }  else if (event.track) {
+        return buildLink(`tracks.html?track=${event.track}&calendar`,event.place + ' 🚸', 'Трек на O-Maps');
+    } else {
+        return event.place ?? '';
+    }
 }
 
 function getVideoImg(vLink) {
