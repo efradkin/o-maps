@@ -1606,6 +1606,16 @@ let events2026 = [
         start: 'GORNY_CROSS'
     },
     {
+        id: 'SPB_20260606_2',
+        date: '2026-06-06',
+        place: 'Петяярви',
+        name: 'Кубок Белых ночей №14',
+        reg: 'https://orgeo.ru/event/53399',
+        type: 'ORIENT',
+        map: 'petjajarvy_2024',
+        owner: 'WN',
+    },
+    {
         id: 'SPB_20260607_1',
         date: '2026-06-07',
         name: 'Кубок D2RUN, 2 этап',
@@ -1671,6 +1681,7 @@ let events2026 = [
         name: 'Ингрия',
         place: 'Пески',
         o_site: '260625',
+        reg: 'https://orgeo.ru/event/52838',
         type: 'ORIENT',
         fmt: 'командный спринт / эстафета',
         map: 'peski_2001',
