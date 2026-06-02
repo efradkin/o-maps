@@ -1574,7 +1574,7 @@ let events2026 = [
         owner: 'SFSO_SPB',
         strava: 18728228058,
         me: 'М45',
-        coord: [59.848802898220434, 30.170216560363773]
+        map: 'yuzhno_promorsky_2026'
     },
     {
         id: 'SPB_20260531_1',
@@ -1715,8 +1715,8 @@ let events2026 = [
         place: 'Пески',
         o_site: '260628',
         type: 'ORIENT',
-        fmt: 'эстафета',
-        map: 'peski_2001',
+        fmt: 'спринт, эстафеты',
+        map: 'peski_2026',
     },
     {
         id: 'SPB_20260704_2',

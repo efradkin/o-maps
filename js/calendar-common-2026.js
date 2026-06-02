@@ -436,6 +436,7 @@ let commonEvents2026 = [
     place: 'Псков',
     name: 'Кубок реки Великой',
     link: 'https://vk.ru/velikayarivercub',
+    reg: 'https://orgeo.ru/event/52502',
     type: ['ROGAINE','WATER'],
     fmt: 'байдарка, SUP',
     logo: 'great_river.gif'
