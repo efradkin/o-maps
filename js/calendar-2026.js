@@ -1563,6 +1563,7 @@ let events2026 = [
         o_site: '260531_RA',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1742',
         gps: {
+            'М21':'https://viewer.o-gps-center.ru/viewer/event/25252/',
             'Ж21/М45':'https://viewer.o-gps-center.ru/viewer/event/25253/',
             'ALL':'https://viewer.o-gps-center.ru/viewer/event/25204/'
         },
@@ -1615,6 +1616,7 @@ let events2026 = [
         date: '2026-06-06',
         place: 'Петяярви',
         name: 'Кубок Белых ночей №14',
+        o_site: '260606_bn',
         reg: 'https://orgeo.ru/event/53399',
         type: 'ORIENT',
         map: 'petjajarvy_2024',

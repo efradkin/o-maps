@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="ChatGPT GPX merger (sources from nakarte.me)" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Merged Nakarte tracks</name>
+    <desc>Combined GPX file preserving each source GPX track as a separate track.</desc>
+    <time>2026-06-02T11:21:01Z</time>
+  </metadata>
+  <wpt lat="60.224973" lon="29.122011">
+    <name>стоянка на озере Зеркальное</name>
+  </wpt>
+  <wpt lat="60.184847" lon="29.029357">
+    <name>остановка автобуса</name>
+  </wpt>
+  <wpt lat="60.185748" lon="29.029979">
+    <name>маяк</name>
+  </wpt>
+  <wpt lat="60.182873" lon="29.010603">
+    <name>мыс Стисудден</name>
+  </wpt>
+  <wpt lat="60.180448" lon="29.046480">
+    <name>ночевка у залива рядом с чистой водой</name>
+  </wpt>
+  <wpt lat="60.205876" lon="29.195310">
+    <name>стоянка на озере</name>
+  </wpt>
+  <wpt lat="60.221497" lon="29.183637">
+    <name>жд станция Яппиля</name>
+  </wpt>
+  <wpt lat="60.175878" lon="29.087014">
+    <name>вторая стоянка на заливе</name>
+  </wpt>
+  <wpt lat="60.176822" lon="29.083065">
+    <name>источник воды</name>
+  </wpt>
+  <wpt lat="60.261451" lon="29.136602">
+    <name>начало маршрута</name>
+  </wpt>
+  <wpt lat="60.161587" lon="29.147159">
+    <name>очень красивые места</name>
+  </wpt>
+  <trk>
+    <name>New track</name>
+    <desc>Source file: New track.gpx; original track name: New track</desc>
+    <trkseg>
+      <trkpt lat="60.186049" lon="29.029786">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.186628" lon="29.030301">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.186392" lon="29.033155">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.186585" lon="29.034764">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.187143" lon="29.035751">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.187508" lon="29.036288">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.188237" lon="29.036996">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.188516" lon="29.038305">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.188946" lon="29.041180">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.189718" lon="29.044291">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.190254" lon="29.045107">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.190748" lon="29.045622">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.192271" lon="29.045965">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.194374" lon="29.055406">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.202593" lon="29.081156">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.207893" lon="29.096863">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.214201" lon="29.116990">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.217677" lon="29.127418">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.219373" lon="29.127418">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.220896" lon="29.128405">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.222398" lon="29.130036">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.223492" lon="29.127247">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.225230" lon="29.123041">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>New track(1)</name>
+    <desc>Source file: New track(1).gpx; original track name: New track</desc>
+    <trkseg>
+      <trkpt lat="60.185663" lon="29.029786">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.185126" lon="29.029164">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.184912" lon="29.028820">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.185319" lon="29.027490">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.185963" lon="29.025859">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.184568" lon="29.023928">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.184032" lon="29.023263">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.182873" lon="29.021611">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.182873" lon="29.020430">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.182830" lon="29.019872">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.182959" lon="29.018478">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.182873" lon="29.017684">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.182980" lon="29.015195">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.183173" lon="29.013285">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.182959" lon="29.010968">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>New track(2)</name>
+    <desc>Source file: New track(2).gpx; original track name: New track</desc>
+    <trkseg>
+      <trkpt lat="60.183967" lon="29.023327">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.183045" lon="29.023778">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.181907" lon="29.024507">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.181371" lon="29.025966">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.180684" lon="29.028584">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.179504" lon="29.031245">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.179375" lon="29.032769">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.178903" lon="29.034464">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.178732" lon="29.035644">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.179032" lon="29.036974">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.178946" lon="29.038669">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.179418" lon="29.040257">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.180298" lon="29.042467">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.180556" lon="29.043755">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.180384" lon="29.046137">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>New track(3)</name>
+    <desc>Source file: New track(3).gpx; original track name: New track</desc>
+    <trkseg>
+      <trkpt lat="60.262223" lon="29.125788">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.261537" lon="29.123556">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.259863" lon="29.121067">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.258082" lon="29.120380">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.257996" lon="29.116518">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.258211" lon="29.113857">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.257224" lon="29.108536">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.256687" lon="29.103729">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.256602" lon="29.099695">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.257138" lon="29.096004">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.255228" lon="29.095661">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.251945" lon="29.095232">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.247954" lon="29.093687">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>New track(4)</name>
+    <desc>Source file: New track(4).gpx; original track name: New track</desc>
+    <trkseg>
+      <trkpt lat="60.205790" lon="29.194109">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.204266" lon="29.193079">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.203279" lon="29.192478">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.202936" lon="29.191620">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.202163" lon="29.192135">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.201906" lon="29.187414">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.200726" lon="29.184410">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.200211" lon="29.179432">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.200168" lon="29.174711">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.199395" lon="29.171621">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.198752" lon="29.168445">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.200254" lon="29.167587">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.200468" lon="29.165270">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.198880" lon="29.163725">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.198108" lon="29.162180">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.198065" lon="29.159176">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.196842" lon="29.160377">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.195254" lon="29.159862">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.193859" lon="29.161236">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.192143" lon="29.159262">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.190018" lon="29.155571">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.188044" lon="29.150421">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.186306" lon="29.150936">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.186178" lon="29.147503">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.186564" lon="29.145443">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.186263" lon="29.141580">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.187401" lon="29.136860">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.186435" lon="29.132311">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.183946" lon="29.119350">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.184246" lon="29.112827">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.185663" lon="29.098150">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.186135" lon="29.093687">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.183560" lon="29.088966">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.180448" lon="29.092657">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.179633" lon="29.092228">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.177208" lon="29.090082">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.176049" lon="29.086992">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>New track(5)</name>
+    <desc>Source file: New track(5).gpx; original track name: New track</desc>
+    <trkseg>
+      <trkpt lat="60.206219" lon="29.194366">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.206970" lon="29.194495">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.207249" lon="29.194109">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.208429" lon="29.195911">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.210081" lon="29.197628">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.211605" lon="29.194838">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.212485" lon="29.194366">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.213901" lon="29.193208">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.214630" lon="29.190761">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.216841" lon="29.185697">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.219759" lon="29.179303">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.220724" lon="29.179217">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.222076" lon="29.180075">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.222248" lon="29.181663">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.222291" lon="29.182736">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>New track(6)</name>
+    <desc>Source file: New track(6).gpx; original track name: New track</desc>
+    <trkseg>
+      <trkpt lat="60.180212" lon="29.046845">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.180062" lon="29.047875">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.179611" lon="29.050407">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.179933" lon="29.051093">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.180384" lon="29.052574">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.180985" lon="29.053389">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.181714" lon="29.056587">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.181714" lon="29.057359">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.181328" lon="29.059333">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.180362" lon="29.063753">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.180105" lon="29.067487">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.179740" lon="29.069461">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.179182" lon="29.071822">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.179075" lon="29.073774">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.178260" lon="29.075555">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.177251" lon="29.079482">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.177015" lon="29.081327">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.176908" lon="29.083301">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.176607" lon="29.085211">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.176007" lon="29.086820">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>New track(7)</name>
+    <desc>Source file: New track(7).gpx; original track name: New track</desc>
+    <trkseg>
+      <trkpt lat="60.262181" lon="29.125981">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.262159" lon="29.126496">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.261601" lon="29.129199">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.260915" lon="29.131259">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.260314" lon="29.132761">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.260099" lon="29.134135">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.259949" lon="29.135508">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.260056" lon="29.136559">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.260593" lon="29.136173">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>New track(8)</name>
+    <desc>Source file: New track(8).gpx; original track name: New track</desc>
+    <trkseg>
+      <trkpt lat="60.247225" lon="29.093944">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.245937" lon="29.094374">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.244671" lon="29.096863">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.243341" lon="29.098751">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.241045" lon="29.100296">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.239178" lon="29.102442">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.238234" lon="29.105017">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.236281" lon="29.106647">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.234007" lon="29.110767">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.231882" lon="29.113771">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.230402" lon="29.117204">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.229586" lon="29.117376">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.228771" lon="29.119608">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.227247" lon="29.119694">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.225788" lon="29.122183">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>New track(9)</name>
+    <desc>Source file: New track(9).gpx; original track name: New track</desc>
+    <trkseg>
+      <trkpt lat="60.175856" lon="29.087292">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.175234" lon="29.089610">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.173990" lon="29.092271">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.173496" lon="29.094545">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.172573" lon="29.097893">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.171458" lon="29.100897">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.170256" lon="29.103300">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.169183" lon="29.105918">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.168647" lon="29.108922">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.168325" lon="29.111411">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.167509" lon="29.115617">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.167788" lon="29.118363">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.167037" lon="29.122054">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.167660" lon="29.124500">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.167295" lon="29.127890">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.166994" lon="29.132311">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.166415" lon="29.135830">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.165364" lon="29.139392">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.164548" lon="29.141666">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.163153" lon="29.142825">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.162081" lon="29.144456">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+      <trkpt lat="60.161458" lon="29.147116">
+        <time>1970-01-01T00:00:01.000Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
