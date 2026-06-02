@@ -870,4 +870,14 @@ let tracks = [
         start: 'SOTKA',
         type: ['VELO']
     },
+    {
+        name: 'Веломарафон в Комарово',
+        date: '2026-07-12',
+        link: 'https://sportdrivecompany.ru/охтинский-веломарафон-2025/',
+        results: 'https://reg.o-time.ru/race/26092',
+        info: '15-60 км.',
+        gpx: 'tracks/velo/komarovo_velo_2026_07_12_omaps.gpx',
+        start: 'SPORTDRIVE',
+        type: ['VELO']
+    },
 ];
