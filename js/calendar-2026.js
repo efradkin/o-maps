@@ -1539,6 +1539,7 @@ let events2026 = [
         fmt: '24, 12, 6',
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/48965',
+        photo: 'https://vk.ru/album-232059320_311134585',
         info: '+ беговой TrailAdventure.',
         start: ['BA', 'TA'],
         owner: ['BKTV', 'SHBN']
@@ -1561,7 +1562,10 @@ let events2026 = [
         place: 'Южно-Приморский парк',
         o_site: '260531_RA',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1742',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25204/',
+        gps: {
+            'Ж21/М45':'https://viewer.o-gps-center.ru/viewer/event/25253/',
+            'ALL':'https://viewer.o-gps-center.ru/viewer/event/25204/'
+        },
         reskeep: 895,
         info: 'Новая карта.',
         planner: ['ZCHNV','KPRNKO'],
@@ -1624,6 +1628,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/52944',
         type: 'ORIENT',
         o_site: '260607_D2RUN_2',
+        info: 'Спешл-группа — «Новички».',
         fmt: 'масстарт',
         owner: 'DLITELNY'
     },

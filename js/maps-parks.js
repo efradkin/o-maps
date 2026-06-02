@@ -705,6 +705,17 @@ let parkMaps = [
     },
     {
         name: 'Южно-Приморский парк',
+        year: 2026,
+        url: './maps/parks/yuzhno_promorsky_2026.webp',
+        link: './original_maps/parks/yuzhno_promorsky_2026_omaps.webp',
+        bounds: [[59.85816752062133, 30.161139965057377], [59.856260325642964, 30.178359746932987], [59.84822088994465, 30.15734195709229]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25204/',
+        type: ['PARK'],
+        author: 'ZCHNV',
+        owner: 'SFSO_SPB'
+    },
+    {
+        name: 'Южно-Приморский парк',
         year: 2021,
         url: './maps/parks/yuzhno_promorsky_2021.webp',
         link: './original_maps/parks/yuzhno_promorsky_2021_omaps.jpg',
