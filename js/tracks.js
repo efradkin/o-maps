@@ -880,4 +880,13 @@ let tracks = [
         start: 'SPORTDRIVE',
         type: ['VELO']
     },
+    {
+        name: 'Зеленогорский веломарафон',
+        date: '2014-07-05',
+        link: 'https://www.alltrails.com/explore/custom-routes/2014--3311',
+        results: 'https://reg.o-time.ru/race/14998',
+        gpx: 'tracks/velo/zelik_marathon_2014_omaps.gpx',
+        start: 'KVMLO',
+        type: ['VELO']
+    },
 ];
