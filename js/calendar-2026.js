@@ -1540,10 +1540,12 @@ let events2026 = [
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/48965',
         res: 'https://bikeadventure.ru/arhiv/arhiv-2026-1.php',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25248/',
         photo: 'https://vk.ru/album-232059320_311134585',
         info: '+ беговой TrailAdventure.',
         start: ['BA', 'TA'],
-        owner: ['BKTV', 'SHBN']
+        owner: ['BKTV', 'SHBN'],
+        map: 'olenii_ba_2026'
     },
     {
         id: 'SPB_20260530_3',

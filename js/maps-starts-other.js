@@ -170,6 +170,18 @@ let otherStartsMaps = [
     /* --- Рогейн --- */
 
     {
+        name: 'Оленьи оз',
+        date: '2026-05-30',
+        start: ['BA', 'TA'],
+        page: 'starts',
+        url: './maps/rogaine/beketov/olenii_ba_2026.webp',
+        link: ['./original_maps/rogaine/beketov/olenii_ba_2026_omaps.webp','https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_1.jpg','https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_2.jpg','https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_3.jpg'],
+        bounds: [[60.56491452368778, 30.24321556091309], [60.571704853189075, 30.665073394775394], [60.426351259774734, 30.254888534545902]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25248/',
+        owner: 'BKTV',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Луга, оз Омчино',
         year: 2024,
         start: 'OTHER',

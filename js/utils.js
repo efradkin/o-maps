@@ -1561,6 +1561,10 @@ function buildEventPlace(event, suffix) {
         let maps = Array.isArray(event.map) ? [...event.map] : [event.map];
         let result = '';
         for (const [i, m] of maps.entries()) {
+            const mp = getMapForName(m);
+            if (mp && mp.page === 'starts') {
+                mapPage = 'starts.html';
+            }
             if (i === 0) {
                 result = buildLink(`${mapPage}?calendar&map=${m}`, event.place + ' 🗺️', 'Карта на O-Maps');
             } else {
