@@ -1539,6 +1539,7 @@ let events2026 = [
         fmt: '24, 12, 6',
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/48965',
+        res: 'https://bikeadventure.ru/arhiv/arhiv-2026-1.php',
         photo: 'https://vk.ru/album-232059320_311134585',
         info: '+ беговой TrailAdventure.',
         start: ['BA', 'TA'],
