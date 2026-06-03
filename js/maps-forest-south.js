@@ -359,7 +359,7 @@ let southMaps = [
         name: 'Сосновый Бор, вдоль моря',
         year: 2020,
         url: './maps/forest/south/sosnovij_bor_bereg_2020.webp',
-        link: './original_maps/forest/south/sosnovij_bor_bereg_2020_omaps.pdf',
+        link: './original_maps/forest/south/sosnovij_bor_bereg_2020_omaps.webp',
         bounds: [[59.95431193211919, 29.060254096984867], [59.95251769387143, 29.08093929290772], [59.92587203736449, 29.048967361450195]],
         author: 'LVCHV',
         owner: 'YUVENTA'
@@ -377,7 +377,7 @@ let southMaps = [
         name: 'Сосновый Бор, Липово',
         year: 2020,
         url: './maps/forest/south/sosnovij_bor_lipovo_2020.webp',
-        link: './original_maps/forest/south/sosnovij_bor_lipovo_2020_omaps.jpg',
+        link: './original_maps/forest/south/sosnovij_bor_lipovo_2020_omaps.webp',
         bounds: [[59.94432957749965, 29.061756134033207], [59.943426826724476, 29.07488822937012], [59.93117277838889, 29.056606292724613]],
         author: ['LVCHV','STLV_S'],
         owner: 'YUVENTA'
