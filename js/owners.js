@@ -268,6 +268,9 @@ let owners = {
     TRFMV_A: {
         name: '© Трофимов Александр'
     },
+    TZV_Y: {
+        name: '© Тизяев Ю.В. По вопросам использования карты обращайтесь к Даниилу Пьянкову (<a href="dan-p@yandex.ru">dan-p@yandex.ru</a>).'
+    },
     VOLKOV_AM: {
         name: '© Волков А.М.'
     },

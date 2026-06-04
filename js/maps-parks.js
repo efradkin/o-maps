@@ -675,9 +675,10 @@ let parkMaps = [
         startYear: 2023,
         start: 'RED_SELO_FOTO',
         url: './maps/parks/peterhof_znamenka_2023.webp',
-        link: ['./original_maps/parks/peterhof_znamenka_2023_omaps.jpg','./original_maps/parks/peterhof_znamenka_2023_pictures.pdf'],
+        link: ['./original_maps/parks/peterhof_znamenka_2023_omaps.webp','./original_maps/parks/peterhof_znamenka_2023_pictures.pdf'],
         bounds: [[59.88422156350759, 29.948644638061527], [59.882154357168154, 29.97696876525879], [59.87274263673272, 29.945297241210938]],
         author: ['SHRNN','RYLOV_V'],
+        owner: 'TZV_Y',
         type: ['PARK','FOTO']
     },
     {
