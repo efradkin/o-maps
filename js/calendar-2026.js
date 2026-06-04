@@ -1541,7 +1541,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/48965',
         res: 'https://bikeadventure.ru/arhiv/arhiv-2026-1.php',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25248/',
-        photo: 'https://vk.ru/album-232059320_311134585',
+        photo: ['https://vk.ru/album-232059320_311134585','https://disk.yandex.ru/d/3K5Mr3qCRU-KJA','https://disk.yandex.ru/d/KqyAbJmFszbqyg'],
         info: '+ беговой TrailAdventure.',
         start: ['BA', 'TA'],
         owner: ['BKTV', 'SHBN'],

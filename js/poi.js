@@ -338,11 +338,12 @@ let poi = [
         coord: [59.932613401369245, 30.339646339416507],
         name: 'Северный ветер',
         iconSize: [75, 75],
-        place: 'Невский пр, 39',
+        place: 'СПб ГДТЮ (Аничков дворец), Невский пр., 38 / ЭБЦ «Крестовский остров», Крестовский пр., 19Н',
         link: 'http://www.northernwind.spb.ru/doc/novice/',
-        reg: 'https://vk.com/@orient_spb_lo-severnyi-veter-klub-iz-sdusshor-2-gorodskogo-dvorca-tvorches',
+        reg: ['https://vk.com/northern_wind_orient','https://vk.com/@orient_spb_lo-severnyi-veter-klub-iz-sdusshor-2-gorodskogo-dvorca-tvorches'],
         logo: 'northernwind.webp',
-        info: 'Клуб из СДЮСШОР №2 Городского Дворца Творчества Юных.',
+        info: 'Клуб основан в сентябре 2001 г. тренерами СДЮШОР №2 и родителями. Работает на базе отделения СДЮСШОР №2 СПб ГДТЮ. Большая часть тренировок проходят на Крестовском острове.',
+        couches: ['Волков Константин Владимирович (+79219140371)','Волкова Елена Владимировна (+79217519398)'],
         type: 'CLUB'
     },
     {
