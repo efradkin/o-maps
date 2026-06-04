@@ -14,10 +14,11 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Токсово',
-        year: 2018,
+        date: '2018-09-29',
         url: './maps/rogaine/beketov/toksovo_bal_2018.webp',
-        link: './original_maps/rogaine/beketov/BAL18_distance.All.jpg',
+        link: ['./original_maps/rogaine/beketov/BAL18_distance.All.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2018-2/mapBAL18-1.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2018-2/mapBAL18-2.jpg'],
         bounds: [[60.26536351191468, 30.36827087402344], [60.2365731170135, 30.713310241699222], [60.107472761261164, 30.31333923339844]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2018-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -59,13 +60,27 @@ let rogaineBeketovMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Хийтола',
+        date: '2021-05-22',
+        url: './maps/rogaine/beketov/hiitola_ba_2021.webp',
+        link: ['./original_maps/rogaine/beketov/hiitola_ba_2021_omaps.webp','./original_maps/rogaine/beketov/hiitola_ta_2021_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2021-1/BA21.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2021-1/TA21.jpg'],
+        bounds: [[61.218453856554035, 29.3031120300293], [61.290854527378634, 29.692955017089847], [60.9782708898106, 29.49417114257813]],
+        gps: {
+            'BA':'https://viewer.o-gps-center.ru/viewer/event/9986/',
+            'TA':'https://viewer.o-gps-center.ru/viewer/event/9987/'
+        },
+        owner: 'BKTV',
+        start: ['BA','TA'],
+        type: ['ROGAINE']
+    },
+    {
         name: 'Кузнечное',
         date: '2023-05-13',
-        url: './maps/rogaine/beketov/kuznechnoe.webp',
-        link: ['./original_maps/rogaine/beketov/kuznechnoe.webp','./original_maps/rogaine/beketov/kuznechnoe_vmb_2023_omaps.gif'],
+        url: './maps/rogaine/beketov/kuznechnoe_mb_2023.webp',
+        link: ['./original_maps/rogaine/beketov/kuznechnoe_mb_2023_omaps.webp','./original_maps/rogaine/beketov/kuznechnoe_vmb_2023_omaps.gif'],
         bounds: [[61.25389075952261, 29.516487121582035], [61.26132000895963, 29.839210510253906], [61.116961670809445, 29.530391693115238]],
         owner: 'BKTV',
-                start: 'MB',
+        start: 'MB',
         type: ['ROGAINE']
     },
     {
@@ -76,7 +91,7 @@ let rogaineBeketovMaps = [
         bounds: [[60.4903803750114, 33.1344223022461], [60.48801274327637, 33.73695373535157], [60.3750115533182, 33.13339233398438]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/9883/',
         owner: 'BKTV',
-                start: 'MB',
+        start: 'MB',
         type: ['ROGAINE']
     },
     {
@@ -102,10 +117,10 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Каменногорск',
-        year: 2023,
-        url: './maps/rogaine/beketov/kamennogorsk_2023.webp',
+        date: '2023-05-18',
+        url: './maps/rogaine/beketov/kamennogorsk_ba_2023.webp',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/16147/',
-        link: 'https://www.bikeadventure.ru/upload/files/arhiv-2023-1/BA2023.jpg',
+        link: ['./original_maps/rogaine/beketov/kamennogorsk_ba_2023_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2023-1/BA2023.jpg'],
         bounds: [[61.069082670716135, 28.70452880859375], [61.030028872681896, 29.312810897827152], [60.661237256330466, 28.583679199218754]],
         owner: 'BKTV',
         start: 'BA',
@@ -143,9 +158,10 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Каннельярви',
-        year: 2014,
+        date: '2014-09-27',
         url: './maps/rogaine/beketov/kanneljarvy_ba_2014.webp',
-        link: './original_maps/rogaine/beketov/kanneljarvy_ba_2014_omaps.png',
+        link: ['./original_maps/rogaine/beketov/kanneljarvy_ba_2014_omaps.png','./original_maps/rogaine/beketov/polyany_ba_2014_omaps.webp','./original_maps/rogaine/beketov/polyany_ba_2014_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2014-2/BAL-2014_karta_1.png','https://www.bikeadventure.ru/upload/files/arhiv-2014-2/BAL-2014_karta_2.png'],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2014-2.php',
         bounds: [[60.35548886638333, 29.248867034912113], [60.35574358539645, 29.49588775634766], [60.26170223372235, 29.248867034912113]],
         owner: 'BKTV',
         start: 'BA',
@@ -153,20 +169,22 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Мельниково',
-        year: 2016,
+        date: '2016-05-28',
         url: './maps/rogaine/beketov/melnikovo_ba_2016.webp',
-        link: './original_maps/rogaine/beketov/melnikovo_ba_2016_omaps.png',
+        link: ['./original_maps/rogaine/beketov/melnikovo_ba_2016_omaps.png','https://www.bikeadventure.ru/upload/files/arhiv-2016-1/BA2016_karta.png'],
         bounds: [[61.06991307984488, 29.122009277343754], [61.089338438107305, 29.87388610839844], [60.842903410323295, 29.14878845214844]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2016-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
     },
     {
         name: 'Первомайское',
-        year: 2024,
-        url: './maps/rogaine/beketov/pervomayskoe.webp',
-        link: './original_maps/rogaine/beketov/volochaevka_new.jpg',
+        date: '2024-10-05',
+        url: './maps/rogaine/beketov/pervomayskoe_ba_2024.webp',
+        link: './original_maps/rogaine/beketov/pervomayskoe_ba_2024_omaps.webp',
         bounds: [[60.48209290767693, 29.67269897460938], [60.4107162771735, 29.8359489440918], [60.43012117400133, 29.579143524169925]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20726',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -224,9 +242,10 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Кирилловское, оз Глубокое',
-        year: 2020,
+        date: '2020-05-23',
         url: './maps/rogaine/beketov/kirillovskoe_2020.webp',
-        link: './original_maps/rogaine/beketov/kirillovskoe_2020_omaps.jpg',
+        link: './original_maps/rogaine/beketov/kirillovskoe_2020_omaps.webp',
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2020-1.php',
         bounds: [[60.821987963321746, 29.06364440917969], [60.80976701409569, 29.647636413574222], [60.45755636255159, 29.036521911621097]],
         owner: 'BKTV',
         start: 'BA',
@@ -239,7 +258,7 @@ let rogaineBeketovMaps = [
         link: './original_maps/rogaine/beketov/roschino_2012_omaps.jpg',
         bounds: [[60.3451286072627, 29.34757232666016], [60.34461900141174, 29.740676879882816], [60.20451618136672, 29.34654235839844]],
         owner: 'BKTV',
-                start: 'MB',
+        start: 'MB',
         type: ['ROGAINE']
     },
     {
@@ -294,12 +313,13 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Каменногорск',
-        year: 2018,
+        date: '2018-05-26',
         url: './maps/rogaine/beketov/kamennogorsk_ta_2018.webp',
-        link: './original_maps/rogaine/beketov/kamennogorsk_ta_2018_omaps.png',
+        link: ['./original_maps/rogaine/beketov/kamennogorsk_ba_2018_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2018-1/BA18.png'],
         bounds: [[61.171059739260805, 29.07669067382813], [61.01663980144921, 29.433403015136722], [61.053550008743734, 28.86091232299805]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2018-1.php',
         owner: 'BKTV',
-        start: 'TA',
+        start: ['BA','TA'],
         type: ['ROGAINE']
     },
     {
@@ -314,7 +334,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Выборг, Лесной кордон',
-        year: 2017,
+        date: '2017-04-30',
         url: './maps/rogaine/beketov/vyborg_ta_2017.webp',
         link: './original_maps/rogaine/beketov/vyborg_ta_2017_omaps.gif',
         bounds: [[60.842150691581246, 28.602046966552738], [60.840394278919064, 28.69560241699219], [60.77709912173943, 28.597927093505863]],
@@ -324,14 +344,16 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Луга',
-        year: 2019,
+        date: '2019-05-25',
         hidden: true,
         info: 'Лужский артиллерийский полигон.',
-        url: './maps/rogaine/beketov/luga.webp',
-        //link: './original_maps/rogaine/beketov/luga.webp',
+        url: './maps/rogaine/beketov/luga_ba_2019.webp',
+        link: ['https://www.bikeadventure.ru/upload/files/arhiv-2019-1/BA19_1.png','https://www.bikeadventure.ru/upload/files/arhiv-2019-1/BA19_2.png'],
+        //link: './original_maps/rogaine/beketov/luga_ba_2019_omaps.webp',
         bounds: [[58.7477225839728, 29.35306549072266], [58.74683198091693, 29.847106933593754], [58.64336713431344, 29.35855865478516]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2019-1.php',
         owner: 'BKTV',
-        start: 'TA',
+        start: ['BA','TA'],
         type: ['ROGAINE']
     },
     {
@@ -348,7 +370,7 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Красная долина, оз Мамонтовское',
-        year: 2025,
+        date: '2025-05-31',
         results: 'https://www.bikeadventure.ru/arhiv/arhiv-2025-1.php',
         url: './maps/rogaine/beketov/red_valley_2025.webp',
         link: './original_maps/rogaine/beketov/red_valley_2025_omaps.gif',

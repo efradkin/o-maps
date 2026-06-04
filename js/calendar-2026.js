@@ -1543,7 +1543,7 @@ let events2026 = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25248/',
         photo: ['https://vk.ru/album-232059320_311134585','https://disk.yandex.ru/d/3K5Mr3qCRU-KJA','https://disk.yandex.ru/d/KqyAbJmFszbqyg'],
         info: '+ беговой TrailAdventure.',
-        start: ['BA', 'TA'],
+        start: ['BA','TA'],
         owner: ['BKTV', 'SHBN'],
         map: 'olenii_ba_2026'
     },
@@ -1746,7 +1746,7 @@ let events2026 = [
     {
         id: 'SPB_20260711_2',
         date: '2026-07-11',
-        name: 'Былинный рогейн + ориент',
+        name: 'Воробьевый рогейн + ориент',
         o_site: '260711_rog',
         type: ['ROGAINE', 'ORIENT'],
         owner: 'WN'

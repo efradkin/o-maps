@@ -1336,9 +1336,13 @@ let events2019 = [
         id: 'SPB_20191005_2',
         date: '2019-10-05',
         name: 'BikeAdventure, TrailAdventure',
+        place: 'Петровское',
         type: 'ROGAINE',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2019-2.php',
         fmt: '6, 3',
-        link: 'http://tradventure.ru , http://bikeadventure.ru'
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        start: ['BA','TA'],
+        map: 'petrovskoe_ba_2019'
     },
     {
         id: 'SPB_20191006_1',

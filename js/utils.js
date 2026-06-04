@@ -520,9 +520,10 @@ function downloadIconExt(url) {
     switch (ext) {
         case 'jpeg': return 'jpg';
         case 'omap': return 'ocd';
+        case 'webp':
         case 'djvu':
         case 'xlsx':
-        case 'webp': return 'url';
+        case 'tif': return 'url';
     }
     return ext;
 }

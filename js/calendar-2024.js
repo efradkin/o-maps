@@ -730,12 +730,12 @@ let events2024 = [
         name: 'BikeAdventure',
         type: 'ROGAINE',
         fmt: '6 / 24',
-        link: [
-            'https://vk.com/bikeadventure',
-            'https://orgeo.ru/event/34584'
-        ],
+        link: 'https://vk.com/bikeadventure',
+        reg: 'https://orgeo.ru/event/34584',
+        photo: 'https://vk.com/album-166397868_302923379',
         res: 'https://vk.com/bikeadventure?w=wall-30311715_2075',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19599'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19599',
+        map: 'kanneliarvi_ba_2024'
     },
     {
         id: 'SPB_20240526_1',
@@ -1507,12 +1507,11 @@ let events2024 = [
         name: 'BikeAdventure',
         type: 'ROGAINE',
         fmt: '6.0',
-        link: [
-            'https://orgeo.ru/event/37086',
-            'https://vk.com/bikeadventure'
-        ],
+        link: 'https://vk.com/bikeadventure',
+        reg: 'https://orgeo.ru/event/37086',
         res: 'https://vk.com/bikeadventure?w=wall-30311715_2181',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20726'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20726',
+        map: 'pervomayskoe_ba_2024'
     },
     {
         id: 'SPB_20241006_1',
