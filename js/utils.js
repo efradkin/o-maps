@@ -1482,7 +1482,7 @@ function buildOneEventReg(reg) {
         return buildLink(reg, 'Orgeo');
     } else if (reg.includes('o-reg')) {
         return buildLink(reg, 'O-Reg');
-    } else if (reg.includes('vk.com')) {
+    } else if (reg.includes('vk.com') || reg.includes('vk.ru')) {
         return buildLink(reg, 'VK');
     } else if (reg.includes('o-time')) {
         return buildLink(reg, 'O-Time');
@@ -1528,7 +1528,7 @@ function buildEventResults(evt) {
             res += buildLink(evt.res, 'Multsport');
         } else if (evt.res.includes('sportident')) {
             res += buildLink(evt.res, 'Sportident');
-        } else if (evt.res.includes('vk.com')) {
+        } else if (evt.res.includes('vk.com') || evt.res.includes('vk.ru')) {
             res += buildLink(evt.res, 'VK');
         } else if (evt.res.includes('reskeep')) {
             res += buildLink(evt.res, 'Reskeep');
