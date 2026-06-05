@@ -170,6 +170,78 @@ let otherStartsMaps = [
     /* --- Рогейн --- */
 
     {
+        name: 'Отрадное, оз Веснино',
+        date: '2009-05-23',
+        page: 'starts',
+        url: './maps/rogaine/beketov/vesnino_ba_2009.webp',
+        link: ['./original_maps/rogaine/beketov/vesnino_ba_2009_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2009-1/sm.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2009-1/big_s.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2009-1/big_n.jpg'],
+        bounds: [[61.11240093835387, 29.500179290771488], [61.110908192082746, 30.132408142089847], [60.8125296916832, 29.49811935424805]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-1.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Яппиля, оз Комонь',
+        date: '2009-10-24',
+        page: 'starts',
+        url: './maps/rogaine/beketov/yappilya_ba_2009.webp',
+        link: ['./original_maps/rogaine/beketov/yappilya_ba_2009_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2009-2/map_bal_09.gif'],
+        bounds: [[60.347676517105526, 28.975067138671875], [60.343260013555195, 29.22500610351563], [60.169353963123186, 28.964080810546875]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-2.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Раздолье',
+        date: '2010-05-15',
+        page: 'starts',
+        url: './maps/rogaine/beketov/razdolie_ba_2010.webp',
+        link: ['./original_maps/rogaine/beketov/razdolie_ba_2010_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2010-1/map-1.gif','https://www.bikeadventure.ru/upload/files/arhiv-2010-1/map-2.gif'],
+        bounds: [[60.63287993739593, 29.83200073242188], [60.63262738627569, 30.247249603271488], [60.373653831763114, 29.833374023437504]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-1.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Грузино',
+        date: '2010-10-09',
+        page: 'starts',
+        url: './maps/rogaine/beketov/gruzino_ba_2010.webp',
+        link: ['./original_maps/rogaine/beketov/gruzino_ba_2010_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2010-2/bal_10.jpg'],
+        bounds: [[60.4184287797441, 30.246047973632816], [60.468050120874615, 30.40603637695313], [60.30841663268027, 30.38852691650391]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-2.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Отрадное оз',
+        date: '2011-05-14',
+        page: 'starts',
+        url: './maps/rogaine/beketov/otradnoe_ba_2011.webp',
+        link: ['./original_maps/rogaine/beketov/otradnoe_ba_2011_big_omaps.webp','./original_maps/rogaine/beketov/otradnoe_ba_2011_small_omaps.gif','https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_1.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_2.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_3.gif'],
+        bounds: [[60.95311037237589, 30.045547485351566], [60.95377713282332, 30.555038452148438], [60.60769928043689, 30.046577453613285]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-1.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Рощино',
+        date: '2011-10-01',
+        page: 'starts',
+        url: './maps/rogaine/beketov/roschino_ba_2011.webp',
+        link: ['./original_maps/rogaine/beketov/roschino_ba_2011_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2011-2/map_bal11_1.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2011-2/map_bal11_2.jpg'],
+        bounds: [[60.321423512137386, 29.32783126831055], [60.32019105619827, 29.77303504943848], [60.15763197181232, 29.327702522277832]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-2.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Каменка, Александровское оз',
         date: '2012-05-19',
         page: 'starts',
