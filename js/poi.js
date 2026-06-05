@@ -289,6 +289,26 @@ let poi = [
         type: 'CLUB'
     },
     {
+        coord: [59.441346, 32.011573],
+        name: 'Турклуб «Ассоль»',
+        iconSize: [75, 75],
+        place: 'Кириши, пр Ленина, 48',
+        link: 'https://vk.com/club2318156',
+        logo: 'oriki.gif',
+        couches: ['Егоров Сергей Иванович'],
+        type: 'CLUB'
+    },
+    {
+        coord: [59.453957, 32.006291],
+        name: 'Клуб «Мисоги» МАУ «Спорт и Молодость»',
+        iconSize: [75, 75],
+        place: 'Кириши, Волховская наб, 18',
+        link: 'https://sim47.ru/clubs/спортивнhttps-vk-com-public215724535ыи-клуб-мисоги/',
+        logo: 'oriki.gif',
+        couches: ['Иванова Евгения Романовна'],
+        type: 'CLUB'
+    },
+    {
         coord: [60.107853, 30.492762],
         name: 'Кузомолово',
         iconSize: [75, 75],
