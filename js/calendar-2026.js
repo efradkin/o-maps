@@ -1217,6 +1217,7 @@ let events2026 = [
         link: 'https://www.multsport.ru/starts/canoe-rogaine-2026/',
         reg: 'https://www.multsport.ru/starts/canoe-rogaine-2026/registration.html',
         photo: 'https://vk.com/album-8292013_313581477',
+        video: 'https://vk.com/video-8292013_456239260',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25098/',
         type: ['ROGAINE','WATER'],
         fmt: '16,8,4',
@@ -1609,6 +1610,7 @@ let events2026 = [
         name: 'Горный кросс-114',
         o_site: '260606R',
         reg: 'http://orgeo.ru/event/49045',
+        photo: ['https://disk.yandex.ru/d/x60hmJH6uwo26w','https://vk.com/album-31941981_311094927'],
         type: 'ROGAINE',
         fmt: '24, 8(7), 3',
         map: 'kuznechnoe_2009',
@@ -1631,11 +1633,14 @@ let events2026 = [
         name: 'Кубок D2RUN, 2 этап',
         place: 'Пасторское оз',
         reg: 'https://orgeo.ru/event/52944',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25283/',
         type: 'ORIENT',
         o_site: '260607_D2RUN_2',
         info: 'Спешл-группа — «Новички».',
         fmt: 'масстарт',
-        owner: 'DLITELNY'
+        owner: 'DLITELNY',
+        strava: 18822018885,
+        me: 'М50'
     },
     {
         id: 'SPB_20260608_1',
@@ -1739,6 +1744,7 @@ let events2026 = [
         endDate: '2026-07-12',
         name: 'Летнее первенство Белых ночей',
         place: 'о Койонсаари',
+        o_site: '260611_bn',
         type: 'ORIENT',
         map: 'koyonsaari_2024',
         owner: 'WN'
