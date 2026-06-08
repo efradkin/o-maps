@@ -662,6 +662,7 @@ let events2019 = [
         fmt: '9',
         link: 'http://tradventure.ru , http://bikeadventure.ru',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2019-1.php',
+        map: 'luga_ba_2019',
         start: 'BA',
         owner: 'BKTV',
     },

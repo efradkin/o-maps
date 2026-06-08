@@ -521,6 +521,7 @@ let events2016 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2016-1.php',
+        map: 'melnikovo_ba_2016',
         start: 'BA',
         owner: 'BKTV'
     },
@@ -909,6 +910,7 @@ let events2016 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2016-2.php',
+        map: 'yagodnoe_ba_2016',
         start: 'BA',
         owner: 'BKTV'
     },

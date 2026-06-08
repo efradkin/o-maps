@@ -912,6 +912,7 @@ let events2007 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-2.php',
+        map: 'gavrilovo_ba_2007',
         start: 'BA',
         owner: 'BKTV'
     },

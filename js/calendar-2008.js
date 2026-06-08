@@ -361,6 +361,7 @@ let events2008 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-1.php',
+        map: 'losinaya_gora_ba_2008',
         start: 'BA',
         owner: 'BKTV'
     },
@@ -796,6 +797,7 @@ let events2008 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-2.php',
+        map: 'kanneliarvi_ba_2008',
         start: 'BA',
         owner: 'BKTV'
     },

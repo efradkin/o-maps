@@ -745,6 +745,7 @@ let events2014 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2014-2.php',
+        map: 'kanneljarvy_ba_2014',
         start: 'BA',
         owner: 'BKTV'
     },

@@ -726,6 +726,11 @@ let events2021 = [
         fmt: '12',
         link: 'http://tradventure.ru , http://bikeadventure.ru',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2021-1.php',
+        gps: {
+            'BA':'https://viewer.o-gps-center.ru/viewer/event/9986/',
+            'TA':'https://viewer.o-gps-center.ru/viewer/event/9987/'
+        },
+        map: 'hiitola_ba_2021',
         start: 'BA',
         owner: 'BKTV',
     },

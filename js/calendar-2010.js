@@ -330,6 +330,7 @@ let events2010 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-1.php',
+        map: 'razdolie_ba_2010',
         start: 'BA',
         owner: 'BKTV'
     },
@@ -770,6 +771,7 @@ let events2010 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-2.php',
+        map: 'gruzino_ba_2010',
         start: 'BA',
         owner: 'BKTV'
     },

@@ -1187,6 +1187,8 @@ let events2023 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2023-2.php',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17211/',
+        map: 'pervomayskoe_ba_2023',
         start: 'BA',
         owner: 'BKTV'
     },

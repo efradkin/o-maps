@@ -365,6 +365,7 @@ let events2009 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-1.php',
+        map: 'vesnino_ba_2009',
         start: 'BA',
         owner: 'BKTV'
     },
@@ -834,6 +835,7 @@ let events2009 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-2.php',
+        map: 'yappilya_ba_2009',
         start: 'BA',
         owner: 'BKTV'
     },

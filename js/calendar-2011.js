@@ -258,6 +258,7 @@ let events2011 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-1.php',
+        map: 'otradnoe_ba_2011',
         start: 'BA',
         owner: 'BKTV'
     },
@@ -684,6 +685,7 @@ let events2011 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-2.php',
+        map: 'roschino_ba_2011',
         start: 'BA',
         owner: 'BKTV'
     },

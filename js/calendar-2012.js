@@ -366,6 +366,7 @@ let events2012 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-1.php',
+        map: 'kamenka_ba_2012',
         start: 'BA',
         owner: 'BKTV'
     },
@@ -741,6 +742,7 @@ let events2012 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-2.php',
+        map: 'sapernoe_ba_2012',
         start: 'BA',
         owner: 'BKTV'
     },

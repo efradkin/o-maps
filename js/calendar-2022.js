@@ -1288,6 +1288,8 @@ let events2022 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-2.php',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/14273/',
+        map: 'orekhovo_ba_2022',
         start: 'BA',
         owner: 'BKTV'
     },
