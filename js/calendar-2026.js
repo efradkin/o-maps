@@ -1571,6 +1571,7 @@ let events2026 = [
             'Ж21/М45':'https://viewer.o-gps-center.ru/viewer/event/25253/',
             'ALL':'https://viewer.o-gps-center.ru/viewer/event/25204/'
         },
+        video: 'https://vkvideo.ru/video-230167293_456239033',
         reskeep: 895,
         info: 'Новая карта.',
         planner: ['ZCHNV','KPRNKO'],
@@ -1610,6 +1611,7 @@ let events2026 = [
         name: 'Горный кросс-114',
         o_site: '260606R',
         reg: 'http://orgeo.ru/event/49045',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25293/',
         photo: ['https://disk.yandex.ru/d/x60hmJH6uwo26w','https://vk.com/album-31941981_311094927'],
         type: 'ROGAINE',
         fmt: '24, 8(7), 3',
@@ -1639,6 +1641,7 @@ let events2026 = [
         info: 'Спешл-группа — «Новички».',
         fmt: 'масстарт',
         owner: 'DLITELNY',
+        map: 'pastorskoe_2024',
         strava: 18822018885,
         me: 'М50'
     },
@@ -1750,20 +1753,20 @@ let events2026 = [
         owner: 'WN'
     },
     {
-        id: 'SPB_20260711_2',
-        date: '2026-07-11',
-        name: 'Воробьевый рогейн + ориент',
-        o_site: '260711_rog',
-        type: ['ROGAINE', 'ORIENT'],
-        owner: 'WN'
-    },
-    {
         id: 'SPB_20260712_1',
         date: '2026-07-12',
         name: 'Рогейн 110%',
         fmt: '4',
         type: 'ROGAINE',
         start: 'ROGAINE_110'
+    },
+    {
+        id: 'SPB_20260711_2',
+        date: '2026-07-18',
+        name: 'Воробьевый рогейн + ориент',
+        o_site: '260718_rog',
+        type: ['ROGAINE', 'ORIENT'],
+        owner: 'WN'
     },
     {
         id: 'SPB_20260725_1',

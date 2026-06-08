@@ -170,6 +170,90 @@ let otherStartsMaps = [
     /* --- Рогейн --- */
 
     {
+        name: 'Заходское',
+        date: '2005-10-23',
+        page: 'starts',
+        url: './maps/rogaine/beketov/zahodskoe_ba_2005.webp',
+        link: ['./original_maps/rogaine/beketov/zahodskoe_ba_2005_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2005-2/oct_05.jpg'],
+        bounds: [[60.524353751217994, 29.00819778442383], [60.536176915376885, 29.37555313110352], [60.36491214475014, 29.030857086181644]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2005-2.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Медное оз, Светлое оз',
+        date: '2006-05-27',
+        page: 'starts',
+        url: './maps/rogaine/beketov/mednoe_ba_2006.webp',
+        link: ['./original_maps/rogaine/beketov/mednoe_ba_2006_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2006-2/oct_06.jpg'],
+        bounds: [[60.5285768054901, 29.697933197021488], [60.52807006805688, 30.22922515869141], [60.18711046955365, 29.702224731445316]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-1.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Лейпясуо',
+        date: '2006-10-22',
+        page: 'starts',
+        url: './maps/rogaine/beketov/leypyasuo_ba_2006.webp',
+        link: ['./original_maps/rogaine/beketov/leypyasuo_ba_2006_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2006-2/oct_06.jpg'],
+        bounds: [[60.68162730929982, 29.212388992309574], [60.68208961433506, 29.499320983886722], [60.48293866462562, 29.20921325683594]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-2.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Лебедевка',
+        date: '2007-05-27',
+        page: 'starts',
+        url: './maps/rogaine/beketov/lebedevka_ba_2007.webp',
+        link: ['./original_maps/rogaine/beketov/lebedevka_ba_2007_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_1.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_2.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_3.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_4.jpg'],
+        bounds: [[60.83596099877197, 28.741436004638672], [60.83704846401007, 29.317703247070316], [60.63043852703162, 28.7428092956543]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-1.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Гаврилово',
+        date: '2007-10-27',
+        page: 'starts',
+        url: './maps/rogaine/beketov/gavrilovo_ba_2007.webp',
+        link: ['./original_maps/rogaine/beketov/gavrilovo_ba_2007_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2007-2/maplite_1.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2007-2/maplite_2.jpg'],
+        bounds: [[60.665947034056664, 28.552436828613285], [60.66502195351238, 29.120292663574222], [60.500187293802774, 28.553981781005863]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-2.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
+        name: '67км, Лосиная гора',
+        date: '2008-05-24',
+        page: 'starts',
+        url: './maps/rogaine/beketov/losinaya_gora_ba_2008.webp',
+        link: ['./original_maps/rogaine/beketov/losinaya_gora_ba_2008_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2008-1/bikeadventure08map.rar'],
+        bounds: [[60.57996941626789, 30.243816375732425], [60.57929483728143, 30.81098556518555], [60.337823495982036, 30.243301391601566]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-1.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Каннельярви',
+        date: '2008-10-25',
+        page: 'starts',
+        url: './maps/rogaine/beketov/kanneliarvi_ba_2008.webp',
+        link: ['./original_maps/rogaine/beketov/kanneliarvi_ba_2008_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2008-2/bal08_a3.jpg'],
+        bounds: [[60.37730258015313, 29.134712219238285], [60.37721773018029, 29.39555168151856], [60.28757783281428, 29.135913848876957]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-2.php',
+        owner: 'BKTV',
+        start: 'BA',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Отрадное, оз Веснино',
         date: '2009-05-23',
         page: 'starts',

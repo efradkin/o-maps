@@ -522,6 +522,7 @@ function downloadIconExt(url) {
         case 'omap': return 'ocd';
         case 'webp':
         case 'djvu':
+        case 'rar':
         case 'xlsx':
         case 'tif': return 'url';
     }
