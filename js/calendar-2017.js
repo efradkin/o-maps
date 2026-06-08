@@ -591,9 +591,12 @@ let events2017 = [
         date: '2017-05-27',
         place: 'По назначению',
         name: 'BikeAdventure',
-        type: 'ROGAINE',
+        type: ['ROGAINE', 'VELO'],
         fmt: '24',
-        link: 'http://bikeadventure.ru/news/ba2017-sostoitsya-27-28-maya.php'
+        link: 'http://bikeadventure.ru/news/ba2017-sostoitsya-27-28-maya.php',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2017-1.php',
+        start: 'BA',
+        owner: 'BKTV',
     },
     {
         id: 'SPB_20170528_1',
@@ -1042,6 +1045,16 @@ let events2017 = [
         info: '43-е традиционные соревнования супружеских пар. Допускаются пары по интересам.',
         start: 'WEDDING',
         o_site: '170930_ZK'
+    },
+    {
+        id: 'SPB_20170930_3',
+        date: '2017-09-30',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2017-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20171001_1',

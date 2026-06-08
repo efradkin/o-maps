@@ -389,6 +389,16 @@ let events2014 = [
         o_site: '14052425'
     },
     {
+        id: 'SPB_20140524_2',
+        date: '2014-05-24',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2014-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20140525_1',
         date: '2014-05-25',
         name: 'Открытые ЧиП ЛО по ориентированию на велосипедах',
@@ -727,6 +737,16 @@ let events2014 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/14092728/140927_res.xls',
         o_site: '14092728'
+    },
+    {
+        id: 'SPB_20140927_2',
+        date: '2014-09-27',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2014-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20140929_1',

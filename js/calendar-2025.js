@@ -1068,13 +1068,14 @@ let events2025 = [
         place: 'ст. Куолемаярви',
         name: 'BikeAdventure',
         fmt: '6 / 24',
-        type: 'ROGAINE',
+        type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/info/40559',
         res: 'https://vk.com/wall-30311715_2246',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22755/',
         map: 'red_valley_2025',
-        start: 'BA'
+        start: 'BA',
+        owner: 'BKTV',
     },
     {
         id: 'SPB_20250531_3',
@@ -2390,7 +2391,7 @@ let events2025 = [
         place: 'Моторное',
         name: 'BikeAdventure',
         fmt: '6',
-        type: 'ROGAINE',
+        type: ['ROGAINE', 'VELO'],
         link: 'https://www.bikeadventure.ru/',
         reg: 'https://orgeo.ru/event/44940',
         res: 'https://www.bikeadventure.ru/results/',
@@ -2400,6 +2401,7 @@ let events2025 = [
             'https://vk.com/album-30311715_308828631'
         ],
         start: 'BA',
+        owner: 'BKTV',
         map: 'snetkovskoe_ba_2025'
     },
     {

@@ -360,6 +360,16 @@ let events2012 = [
         type: 'ROGAINE'
     },
     {
+        id: 'SPB_20120519_3',
+        date: '2012-05-19',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20120520_1',
         date: '2012-05-20',
         place: 'п. Колтуши',
@@ -723,6 +733,16 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/12092829/120929_res.pdf',
         owner: 'SFSO_LO',
         o_site: '12092829'
+    },
+    {
+        id: 'SPB_20120929_2',
+        date: '2012-09-29',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20120930_1',

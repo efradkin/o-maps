@@ -439,6 +439,16 @@ let events2013 = [
         o_site: '13051819'
     },
     {
+        id: 'SPB_20130518_3',
+        date: '2013-05-18',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2013-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20130519_1',
         date: '2013-05-19',
         place: 'Пухтола гора, ж.д. станция Ушково',
@@ -843,6 +853,16 @@ let events2013 = [
         fmt: 'Эстафеты по выбору',
         start: 'WEDDING',
         o_site: '130928_ZK'
+    },
+    {
+        id: 'SPB_20130928_2',
+        date: '2013-09-28',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2013-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20130929_1',

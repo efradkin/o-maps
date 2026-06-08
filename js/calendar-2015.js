@@ -520,6 +520,16 @@ let events2015 = [
         o_site: '15052324'
     },
     {
+        id: 'SPB_20150523_2',
+        date: '2015-05-23',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2015-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20150530_1',
         date: '2015-05-30',
         place: 'Киришский р-н ЛО (дер. Облучье)',
@@ -868,6 +878,16 @@ let events2015 = [
         fmt: '24 часа бегом',
         start: 'RUSSIA_ROGAINE_CHAMP',
         link: 'http://kras-rogaining.ru/'
+    },
+    {
+        id: 'SPB_20150919_3',
+        date: '2015-09-19',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2015-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20150920_1',

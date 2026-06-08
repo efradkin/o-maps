@@ -359,6 +359,16 @@ let events2009 = [
         o_site: '09052324'
     },
     {
+        id: 'SPB_20090523_2',
+        date: '2009-05-23',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20090530_1',
         date: '2009-05-30',
         endDate: '2009-05-31',
@@ -816,6 +826,16 @@ let events2009 = [
         info: 'Юбилейные, 40-е по счёту соревнования',
         owner: 'VYBORG',
         o_site: '09102425'
+    },
+    {
+        id: 'SPB_20091024_2',
+        date: '2009-10-24',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20091025_1',

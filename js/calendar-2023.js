@@ -581,6 +581,16 @@ let events2023 = [
         reskeep: 587
     },
     {
+        id: 'SPB_20230517_2',
+        date: '2023-05-17',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2023-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20230520_1',
         date: '2023-05-20',
         place: 'Ленинградская обл., Приозерский район, оз.Вуокса, база "Большие Камни"',
@@ -1169,6 +1179,16 @@ let events2023 = [
         res: 'https://vk.com/wall-197270357_963',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/17188/',
         start: 'ROGAINE_110'
+    },
+    {
+        id: 'SPB_20230913_1',
+        date: '2023-09-13',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2023-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20230916_1',

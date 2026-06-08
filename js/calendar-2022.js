@@ -626,6 +626,16 @@ let events2022 = [
         link: 'https://rogaining.site/'
     },
     {
+        id: 'SPB_20220528_5',
+        date: '2022-05-28',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20220529_1',
         date: '2022-05-29',
         name: 'Чемпионат и Первенство ЛО',
@@ -1270,6 +1280,16 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '6',
         link: 'https://vk.com/event166397868'
+    },
+    {
+        id: 'SPB_20221001_6',
+        date: '2022-10-01',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20221002_1',

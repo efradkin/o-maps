@@ -722,9 +722,12 @@ let events2021 = [
         date: '2021-05-22',
         place: 'Приозерский район',
         name: 'BikeAdventure, TrailAdventure',
-        type: 'ROGAINE',
+        type: ['ROGAINE', 'VELO'],
         fmt: '12',
-        link: 'http://tradventure.ru , http://bikeadventure.ru'
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2021-1.php',
+        start: 'BA',
+        owner: 'BKTV',
     },
     {
         id: 'SPB_20210523_1',

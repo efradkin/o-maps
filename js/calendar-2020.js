@@ -457,9 +457,12 @@ let events2020 = [
         date: '2020-05-23',
         place: 'По назначению',
         name: 'BikeAdventure, TrailAdventure',
-        type: 'ROGAINE',
+        type: ['ROGAINE', 'VELO'],
         fmt: '24',
-        link: 'http://tradventure.ru , http://bikeadventure.ru'
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2020-1.php',
+        start: 'BA',
+        owner: 'BKTV',
     },
     {
         id: 'SPB_20200530_1',
@@ -1161,9 +1164,12 @@ let events2020 = [
         date: '2020-09-26',
         place: 'По назначению',
         name: 'BikeAdventure, TrailAdventure',
-        type: 'ROGAINE',
+        type: ['ROGAINE', 'VELO'],
         fmt: '6',
-        link: 'http://tradventure.ru , http://bikeadventure.ru'
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2020-2.php',
+        start: 'BA',
+        owner: 'BKTV',
     },
     {
         id: 'SPB_20200926_5',

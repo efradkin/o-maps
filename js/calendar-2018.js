@@ -588,9 +588,12 @@ let events2018 = [
         date: '2018-05-26',
         place: 'Каменногорск',
         name: 'BikeAdventure, TrailAdventure',
-        type: 'ROGAINE',
+        type: ['ROGAINE', 'VELO'],
         fmt: '9',
-        link: 'http://tradventure.ru , http://bikeadventure.ru'
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2018-1.php',
+        start: 'BA',
+        owner: 'BKTV',
     },
     {
         id: 'SPB_20180526_3',
@@ -1210,9 +1213,12 @@ let events2018 = [
         date: '2018-09-29',
         place: 'Западнее Выборга',
         name: 'BikeAdventure, TrailAdventure',
-        type: 'ROGAINE',
+        type: ['ROGAINE', 'VELO'],
         fmt: '9',
-        link: 'http://tradventure.ru , http://bikeadventure.ru'
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2018-2.php',
+        start: 'BA',
+        owner: 'BKTV',
     },
     {
         id: 'SPB_20180929_8',

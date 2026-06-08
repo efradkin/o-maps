@@ -355,6 +355,16 @@ let events2008 = [
         reskeep: 264
     },
     {
+        id: 'SPB_20080524_2',
+        date: '2008-05-24',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20080525_1',
         date: '2008-05-25',
         place: 'Токсово',
@@ -778,6 +788,16 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/08102526/081026_res.pdf',
         o_site: '08102526'
+    },
+    {
+        id: 'SPB_20081025_3',
+        date: '2008-10-25',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20081101_1',

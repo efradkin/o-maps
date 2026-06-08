@@ -515,6 +515,16 @@ let events2016 = [
         start: 'GK'
     },
     {
+        id: 'SPB_20160528_4',
+        date: '2016-05-28',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2016-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20160529_1',
         date: '2016-05-29',
         place: 'Симагино',
@@ -891,6 +901,16 @@ let events2016 = [
         info: 'Серия тренировочных стартов от клуба NORD WEST - "МаТрёшка" 1 этап — 30 октября (Малиновая гора) Результаты 2 этап — 5 ноября (Охта-парк) Результаты. Сумма подводится по итогам ДВУХ этапов!',
         o_site: '161105',
         endDate: '2016-11-30'
+    },
+    {
+        id: 'SPB_20161001_4',
+        date: '2016-10-01',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2016-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20161002_1',

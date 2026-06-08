@@ -324,6 +324,16 @@ let events2010 = [
         o_site: '100515_est'
     },
     {
+        id: 'SPB_20100515_2',
+        date: '2010-05-15',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20100516_1',
         date: '2010-05-16',
         place: 'г.Всеволожск',
@@ -752,6 +762,16 @@ let events2010 = [
         owner: 'SFSO_LO',
         o_site: '10100910',
         endDate: '2010-10-10'
+    },
+    {
+        id: 'SPB_20101009_3',
+        date: '2010-10-09',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20101016_1',

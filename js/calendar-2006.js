@@ -315,6 +315,16 @@ let events2006 = [
         o_site: '06052021'
     },
     {
+        id: 'SPB_20060520_3',
+        date: '2006-05-20',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20060527_1',
         date: '2006-05-27',
         place: 'Дюны',
@@ -677,6 +687,16 @@ let events2006 = [
         info: 'Открытое лично-командное первенство Ленинградской области среди обучающихся по спортивному ориентированию бегом',
         owner: 'SFSO_LO',
         o_site: '061021'
+    },
+    {
+        id: 'SPB_20061021_2',
+        date: '2006-10-21',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20061022_1',

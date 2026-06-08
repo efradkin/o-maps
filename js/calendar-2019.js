@@ -658,9 +658,12 @@ let events2019 = [
         id: 'SPB_20190525_2',
         date: '2019-05-25',
         name: 'BikeAdventure, TrailAdventure',
-        type: 'ROGAINE',
+        type: ['ROGAINE', 'VELO'],
         fmt: '9',
-        link: 'http://tradventure.ru , http://bikeadventure.ru'
+        link: 'http://tradventure.ru , http://bikeadventure.ru',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2019-1.php',
+        start: 'BA',
+        owner: 'BKTV',
     },
     {
         id: 'SPB_20190526_1',
@@ -1337,11 +1340,12 @@ let events2019 = [
         date: '2019-10-05',
         name: 'BikeAdventure, TrailAdventure',
         place: 'Петровское',
-        type: 'ROGAINE',
+        type: ['ROGAINE', 'VELO'],
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2019-2.php',
         fmt: '6, 3',
         link: 'http://tradventure.ru , http://bikeadventure.ru',
         start: ['BA','TA'],
+        owner: 'BKTV',
         map: 'petrovskoe_ba_2019'
     },
     {

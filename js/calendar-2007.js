@@ -458,6 +458,16 @@ let events2007 = [
         o_site: '070526'
     },
     {
+        id: 'SPB_20070526_2',
+        date: '2007-05-26',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20070527_1',
         date: '2007-05-27',
         name: 'Чемпионат СПб, средняя дистанция',
@@ -894,6 +904,16 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/071027/071027_res.htm',
         o_site: '071027'
+    },
+    {
+        id: 'SPB_20071027_2',
+        date: '2007-10-27',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20071028_1',

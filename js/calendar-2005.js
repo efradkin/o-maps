@@ -268,6 +268,16 @@ let events2005 = [
         o_site: '050521'
     },
     {
+        id: 'SPB_20050521_2',
+        date: '2005-05-21',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2005-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20050522_1',
         date: '2005-05-22',
         place: 'Зеленогорск, оз. Щучье',
@@ -616,6 +626,16 @@ let events2005 = [
         res: 'https://o-site.spb.ru/_races/051015_mar/051015_res.zip',
         owner: 'SFSO_SPB',
         o_site: '051015_mar'
+    },
+    {
+        id: 'SPB_20051015_2',
+        date: '2005-10-15',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2005-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20051016_1',

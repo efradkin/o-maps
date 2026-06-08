@@ -252,6 +252,16 @@ let events2011 = [
         o_site: '110514_Az'
     },
     {
+        id: 'SPB_20110514_2',
+        date: '2011-05-14',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-1.php',
+        start: 'BA',
+        owner: 'BKTV'
+    },
+    {
         id: 'SPB_20110515_1',
         date: '2011-05-15',
         place: 'г.Всеволожск, Ленинградская область',
@@ -666,6 +676,16 @@ let events2011 = [
         type: 'ROGAINE',
         info: 'Соревнования проводятся в сроки 30 сентября - 2 октября. Центр соревнований - лагерь "Зеркальный".',
         o_site: '111001'
+    },
+    {
+        id: 'SPB_20111001_2',
+        date: '2011-10-01',
+        name: 'BikeAdventure',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://vk.com/bikeadventure',
+        res: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-2.php',
+        start: 'BA',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20111002_1',
