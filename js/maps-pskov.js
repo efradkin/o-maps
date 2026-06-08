@@ -47,6 +47,19 @@ let pskovMaps = [
         owner: 'PSKOV_RUS',
     },
     {
+        name: 'Изборск, оз Любенец',
+        year: 1989,
+        url: './maps/pskov/lubenets_winter_1989.webp',
+        link: './original_maps/pskov/lubenets_winter_1989_omaps.webp',
+        info: 'Карта района <a href="https://rufso.ru/wp-content/uploads/2024/05/Aleshin_Alol.pdf">несостоявшегося</a> I зимнего чемпионата СССР.',
+        bounds: [[57.65614738508078, 27.79498100280762], [57.65127960812027, 27.865018844604496], [57.5957591789961, 27.781162261962894]],
+        type: ['WINTER'],
+        logo: 'ussr_pskov_winter_1989.webp',
+        author: ['ARTMV','BLNKN_N','VHTV_A','GZTLN','GSMNV_R','KNDRSHKN_V','LVN_B','MTVV','MTN_Y','PTRV_V','PPV_V','SVIR_A','SCHV_V','KHDNKCH','SCHRV_A','JANN_Y'],
+        owner: 'PSKOV_RUS',
+        start: ['RUSSIA_CHAMP','USSR_1989_WINTER']
+    },
+    {
         name: 'Изборск, Котья гора',
         date: '2017-05-19',
         url: './maps/pskov/kotia_gora_2017_05_19.webp',

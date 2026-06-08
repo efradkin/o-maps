@@ -360,6 +360,14 @@ let starts = {
         retro: true,
         short: 'Чемпионат СССР'
     },
+    USSR_1989_WINTER: {
+        major: true,
+        retro: true,
+        short: 'I Зимний Чемпионат СССР',
+        name: '<a href="https://rufso.ru/wp-content/uploads/2019/10/О20первом20Чемпионате20СССР1.pdf">I Зимний Чемпионат СССР</a>',
+        logo: 'ussr_retro.webp',
+        region: 'PERM'
+    },
     USSR_1990_WINTER: {
         major: true,
         retro: true,

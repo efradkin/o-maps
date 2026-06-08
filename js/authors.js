@@ -20,6 +20,7 @@ let authors = {
     BKKLV: { name: 'Биккулов Д.' },
     BKSTN: { name: 'Бакустин Игорь' },
     BKTV: { name: 'Бекетов Константин' },
+    BLNKN_N: { name: 'Болонкин Н.' },
     BNDRNK: {
         name: 'Бондаренко Игорь',
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
