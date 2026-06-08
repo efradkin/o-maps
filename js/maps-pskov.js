@@ -57,7 +57,7 @@ let pskovMaps = [
         logo: 'ussr_pskov_winter_1989.webp',
         author: ['ARTMV','BLNKN_N','VHTV_A','GZTLN','GSMNV_R','KNDRSHKN_V','LVN_B','MTVV','MTN_Y','PTRV_V','PPV_V','SVIR_A','SCHV_V','KHDNKCH','SCHRV_A','JANN_Y'],
         owner: 'PSKOV_RUS',
-        start: ['RUSSIA_CHAMP','USSR_1989_WINTER']
+        start: ['USSR_CHAMP','USSR_1989_WINTER']
     },
     {
         name: 'Изборск, Котья гора',
