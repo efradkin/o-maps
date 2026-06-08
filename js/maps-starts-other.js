@@ -444,6 +444,7 @@ let otherStartsMaps = [
         link: ['./original_maps/rogaine/beketov/razdolie_ba_2022_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2022-1/BA22.jpg'],
         bounds: [[60.672926330425874, 29.643516540527347], [60.63254320212934, 30.18854141235352], [60.467457821622766, 29.583091735839847]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/13224/',
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -456,6 +457,7 @@ let otherStartsMaps = [
         link: ['./original_maps/rogaine/beketov/orekhovo_ba_2022_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2022-2/bal22.jpg'],
         bounds: [[60.56630644657397, 30.265617370605472], [60.569680556357824, 30.4676628112793], [60.431900082827404, 30.27711868286133]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/14273/',
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -468,6 +470,7 @@ let otherStartsMaps = [
         link: ['./original_maps/rogaine/beketov/pervomayskoe_ba_2023_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2023-2/bal_23.jpg'],
         bounds: [[60.46161886491695, 29.600172042846683], [60.45726011853796, 29.821615219116214], [60.3675433845964, 29.59201812744141]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/17211/',
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2023-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -483,6 +486,7 @@ let otherStartsMaps = [
         link: 'https://www.bikeadventure.ru/upload/files/arhiv-2024-1/BA24.jpg', // './original_maps/rogaine/beketov/kanneliarvi_ba_2024_omaps.webp'
         bounds: [[60.45400125601231, 29.14707183837891], [60.452477519782306, 29.507217407226566], [60.26417151281828, 29.144668579101562]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25248/',
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2024-1.php',
         owner: 'BKTV',
         type: ['ROGAINE']
     },
@@ -495,6 +499,7 @@ let otherStartsMaps = [
         link: ['./original_maps/rogaine/beketov/olenii_ba_2026_omaps.webp','https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_1.jpg','https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_2.jpg','https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_3.jpg'],
         bounds: [[60.615449268517196, 30.23918151855469], [60.62361843600362, 30.692539215087894], [60.426393620789895, 30.255317687988285]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25248/',
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2026-1.php',
         owner: 'BKTV',
         type: ['ROGAINE']
     },

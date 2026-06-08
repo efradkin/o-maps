@@ -65,6 +65,7 @@ let rogaineBeketovMaps = [
         url: './maps/rogaine/beketov/hiitola_ba_2021.webp',
         link: ['./original_maps/rogaine/beketov/hiitola_ba_2021_omaps.webp','./original_maps/rogaine/beketov/hiitola_ta_2021_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2021-1/BA21.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2021-1/TA21.jpg'],
         bounds: [[61.218453856554035, 29.3031120300293], [61.290854527378634, 29.692955017089847], [60.9782708898106, 29.49417114257813]],
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-1.php',
         gps: {
             'BA':'https://viewer.o-gps-center.ru/viewer/event/9986/',
             'TA':'https://viewer.o-gps-center.ru/viewer/event/9987/'
@@ -120,6 +121,7 @@ let rogaineBeketovMaps = [
         date: '2023-05-18',
         url: './maps/rogaine/beketov/kamennogorsk_ba_2023.webp',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/16147/',
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2023-1.php',
         link: ['./original_maps/rogaine/beketov/kamennogorsk_ba_2023_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2023-1/BA2023.jpg'],
         bounds: [[61.069082670716135, 28.70452880859375], [61.030028872681896, 29.312810897827152], [60.661237256330466, 28.583679199218754]],
         owner: 'BKTV',
@@ -185,6 +187,7 @@ let rogaineBeketovMaps = [
         link: './original_maps/rogaine/beketov/pervomayskoe_ba_2024_omaps.webp',
         bounds: [[60.48209290767693, 29.67269897460938], [60.4107162771735, 29.8359489440918], [60.43012117400133, 29.579143524169925]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20726',
+        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2024-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
