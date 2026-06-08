@@ -517,6 +517,7 @@ let events2016 = [
     {
         id: 'SPB_20160528_4',
         date: '2016-05-28',
+        place: 'Мельниково',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
@@ -906,6 +907,7 @@ let events2016 = [
     {
         id: 'SPB_20161001_4',
         date: '2016-10-01',
+        place: 'Ягодное',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',

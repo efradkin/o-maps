@@ -741,6 +741,7 @@ let events2014 = [
     {
         id: 'SPB_20140927_2',
         date: '2014-09-27',
+        place: 'Каннельярви',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',

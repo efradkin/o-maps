@@ -357,6 +357,7 @@ let events2008 = [
     {
         id: 'SPB_20080524_2',
         date: '2008-05-24',
+        place: '67км, Лосиная гора',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
@@ -793,6 +794,7 @@ let events2008 = [
     {
         id: 'SPB_20081025_3',
         date: '2008-10-25',
+        place: 'Каннельярви',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',

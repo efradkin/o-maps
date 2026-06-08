@@ -908,6 +908,7 @@ let events2007 = [
     {
         id: 'SPB_20071027_2',
         date: '2007-10-27',
+        place: 'Гаврилово',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',

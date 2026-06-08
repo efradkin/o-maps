@@ -522,6 +522,7 @@ let events2015 = [
     {
         id: 'SPB_20150523_2',
         date: '2015-05-23',
+        place: 'Кутузовское, Отрадное оз',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
@@ -883,6 +884,7 @@ let events2015 = [
     {
         id: 'SPB_20150919_3',
         date: '2015-09-19',
+        place: 'Красная горка',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',

@@ -441,6 +441,7 @@ let events2013 = [
     {
         id: 'SPB_20130518_3',
         date: '2013-05-18',
+        place: 'Кирилловское, Кирпичное',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
@@ -858,6 +859,7 @@ let events2013 = [
     {
         id: 'SPB_20130928_2',
         date: '2013-09-28',
+        place: 'Мюллюпельто',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',

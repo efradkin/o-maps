@@ -362,6 +362,7 @@ let events2012 = [
     {
         id: 'SPB_20120519_3',
         date: '2012-05-19',
+        place: 'Каменка, Александровское оз',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
@@ -738,6 +739,7 @@ let events2012 = [
     {
         id: 'SPB_20120929_2',
         date: '2012-09-29',
+        place: 'Сапёрное',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',

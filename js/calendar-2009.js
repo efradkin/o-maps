@@ -361,6 +361,7 @@ let events2009 = [
     {
         id: 'SPB_20090523_2',
         date: '2009-05-23',
+        place: 'Отрадное, оз Веснино',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
@@ -831,6 +832,7 @@ let events2009 = [
     {
         id: 'SPB_20091024_2',
         date: '2009-10-24',
+        place: 'Яппиля, оз Комонь',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',

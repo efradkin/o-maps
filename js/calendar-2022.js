@@ -1284,6 +1284,7 @@ let events2022 = [
     {
         id: 'SPB_20221001_6',
         date: '2022-10-01',
+        place: 'Орехово',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',

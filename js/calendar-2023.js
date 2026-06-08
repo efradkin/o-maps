@@ -1183,6 +1183,7 @@ let events2023 = [
     {
         id: 'SPB_20230913_1',
         date: '2023-09-13',
+        place: 'Первомайское',
         name: 'BikeAdventure',
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',

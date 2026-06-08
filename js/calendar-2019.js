@@ -657,6 +657,7 @@ let events2019 = [
     {
         id: 'SPB_20190525_2',
         date: '2019-05-25',
+        place: 'Луга',
         name: 'BikeAdventure, TrailAdventure',
         type: ['ROGAINE', 'VELO'],
         fmt: '9',
