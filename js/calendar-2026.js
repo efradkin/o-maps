@@ -1642,6 +1642,7 @@ let events2026 = [
         fmt: 'масстарт',
         owner: 'DLITELNY',
         map: 'pastorskoe_2024',
+        planner: 'KSHN_D',
         strava: 18822018885,
         me: 'М50'
     },
@@ -1831,8 +1832,9 @@ let events2026 = [
     {
         id: 'SPB_20260815_1',
         date: '2026-08-15',
-        endDate: '2026-07-16',
+        endDate: '2026-08-16',
         name: 'Transbiotech O-Weekend (Кубок D2RUN, 3 этап)',
+        place: 'Сосновый бор',
         type: 'ORIENT',
         fmt: 'эстафета, классика',
         owner: 'DLITELNY'

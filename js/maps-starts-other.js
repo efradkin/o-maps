@@ -426,7 +426,7 @@ let otherStartsMaps = [
     },
     {
         name: 'Яппиля',
-        date: '2020-05-22',
+        date: '2020-09-26',
         page: 'starts',
         url: './maps/rogaine/beketov/yappilya_ba_2020.webp',
         link: ['./original_maps/rogaine/beketov/yappilya_ba_2020_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2020-2/bal20.jpg'],
