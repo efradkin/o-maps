@@ -1073,6 +1073,7 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/info/40559',
         res: 'https://vk.com/wall-30311715_2246',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22755/',
+        photo: ['https://vk.com/album-30311715_307382548','https://vk.com/album-30311715_306332306'],
         map: 'red_valley_2025',
         start: 'BA',
         owner: 'BKTV',

@@ -461,6 +461,7 @@ let events2020 = [
         fmt: '24',
         link: 'http://tradventure.ru , http://bikeadventure.ru',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2020-1.php',
+        photo: 'https://vk.com/album-30311715_267426606',
         map: 'kirillovskoe_2020',
         start: 'BA',
         owner: 'BKTV',

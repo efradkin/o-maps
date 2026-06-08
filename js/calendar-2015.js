@@ -527,6 +527,7 @@ let events2015 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2015-1.php',
+        photo: 'https://vk.com/album-30311715_215508127',
         map: 'otradnoe_ba_2015',
         start: 'BA',
         owner: 'BKTV'
@@ -889,6 +890,7 @@ let events2015 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2015-2.php',
+        photo: 'https://vk.com/album-30311715_216614758',
         map: 'krasna_gorka_ba_2015',
         start: 'BA',
         owner: 'BKTV'

@@ -730,6 +730,7 @@ let events2021 = [
             'BA':'https://viewer.o-gps-center.ru/viewer/event/9986/',
             'TA':'https://viewer.o-gps-center.ru/viewer/event/9987/'
         },
+        photo: 'https://vk.com/album-30311715_276456938',
         map: 'hiitola_ba_2021',
         start: 'BA',
         owner: 'BKTV',

@@ -595,6 +595,7 @@ let events2017 = [
         fmt: '24',
         link: 'http://bikeadventure.ru/news/ba2017-sostoitsya-27-28-maya.php',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2017-1.php',
+        photo: 'https://vk.com/album-30311715_244242670',
         start: 'BA',
         owner: 'BKTV',
     },
@@ -1053,6 +1054,7 @@ let events2017 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2017-2.php',
+        photo: 'https://vk.com/album-30311715_247663794',
         start: 'BA',
         owner: 'BKTV'
     },

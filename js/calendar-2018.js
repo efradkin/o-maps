@@ -1218,6 +1218,7 @@ let events2018 = [
         fmt: '9',
         link: 'http://tradventure.ru , http://bikeadventure.ru',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2018-2.php',
+        photo: 'https://vk.com/album-30311715_256332495',
         map: 'toksovo_bal_2018',
         start: 'BA',
         owner: 'BKTV',

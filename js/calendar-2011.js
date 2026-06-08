@@ -687,6 +687,7 @@ let events2011 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-2.php',
+        photo: 'https://vk.com/album-30311715_142817495',
         map: 'roschino_ba_2011',
         start: 'BA',
         owner: 'BKTV'

@@ -587,6 +587,7 @@ let events2023 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2023-1.php',
+        photo: 'https://vk.com/album-30311715_293027780',
         start: 'BA',
         owner: 'BKTV'
     },
@@ -1189,6 +1190,7 @@ let events2023 = [
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2023-2.php',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/17211/',
+        photo: 'https://vk.com/album-30311715_295688844',
         map: 'pervomayskoe_ba_2023',
         start: 'BA',
         owner: 'BKTV'
