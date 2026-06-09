@@ -11,6 +11,7 @@ let osmLayer, openTopoLayer, yandexLayer, yandexSatelliteLayer, activeLayers = [
 let calendarGroup = buildCalendarGroup();
 let calendarPastGroup = buildCalendarGroup();
 
+let poiLayer = L.layerGroup([]);
 let ooptLayer = buildOoptLayer();
 
 let runGroup = L.layerGroup([]);
@@ -54,6 +55,9 @@ if (mapElement) {
     if (HAS_CALENDAR_PARAM) {
         layers.push(calendarGroup);
     }
+    if (HAS_POI_PARAM) {
+        layers.push(poiLayer);
+    }
     activeLayers.push(...layers);
 }
 
@@ -66,6 +70,7 @@ function buildOverlayMapsContents() {
         "<span class='WALK'>Пешие</span>": walkGroup,
         //"<span class='layer-separator'>Спорт.Карты</span>": mapsGroup,
         "<span class='layer-separator'>Карты</span>": rogaineGroup,
+        "<span class='layer-separator' id='poi-group-check'>POI</span>": poiLayer,
         "<span class='layer-separator'>ООПТ</span>": ooptLayer
     };
     return result;
