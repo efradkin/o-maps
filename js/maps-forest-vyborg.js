@@ -226,6 +226,12 @@ let vyborgMaps = [
         date: '2022-06-16',
         start: 'KKP',
         info: 'Спринт.',
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/13340/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/13341/',
+            'Все КП':'https://viewer.o-gps-center.ru/viewer/event/13361/',
+            'М45/21А':'https://viewer.o-gps-center.ru/viewer/event/13376/',
+        },
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_16.webp',
         bounds: [[60.80308955872403, 28.7568211555481], [60.80057730275183, 28.780338764190674], [60.79460990477943, 28.752958774566654]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','TKMKVA_P','LUK_V'],
