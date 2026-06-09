@@ -3,7 +3,7 @@ let vyborgMaps = [
     // --- ВЫБОРГ - КАМЕННОГОРСК ---
     {
         name: 'р Гусиная',
-        year: 2014,
+        date: '2014-06-23',
         start: 'KKP',
         info: 'Спринт.',
         url: './maps/forest/vyborg/kkp_gusinaja_2014_06_23.webp',
@@ -13,7 +13,7 @@ let vyborgMaps = [
     },
     {
         name: 'р Гусиная',
-        year: 2014,
+        date: '2014-06-25',
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_gusinaja_2014_06_25.webp',
@@ -23,7 +23,7 @@ let vyborgMaps = [
     },
     {
         name: 'оз Горица',
-        year: 2014,
+        date: '2014-06-26',
         start: 'KKP',
         info: 'Классика.',
         url: './maps/forest/vyborg/kkp_goritsa_2014_06_26.webp',
@@ -33,7 +33,7 @@ let vyborgMaps = [
     },
     {
         name: 'Обходное оз',
-        year: 2015,
+        date: '2015-06-23',
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_obkhodnoe_2015_06_23.webp',
@@ -43,7 +43,7 @@ let vyborgMaps = [
     },
     {
         name: 'оз Горица',
-        year: 2016,
+        date: '2016-06-18',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_goritsa_2016_06_18.webp',
@@ -53,7 +53,7 @@ let vyborgMaps = [
     },
     {
         name: 'р Гусиная',
-        year: 2016,
+        date: '2016-06-19',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_solnechnoe_2016_06_19.webp',
@@ -63,7 +63,7 @@ let vyborgMaps = [
     },
     {
         name: 'оз Тростинка',
-        year: 2016,
+        date: '2016-06-23',
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_trostinka_2016_06_23.webp',
@@ -73,7 +73,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пруды',
-        year: 2017,
+        date: '2017-06-19',
         start: 'KKP',
         info: 'Спринт.',
         url: './maps/forest/vyborg/kkp_prudy_2017_06_19.webp',
@@ -83,7 +83,7 @@ let vyborgMaps = [
     },
     {
         name: 'оз Тростинка',
-        year: 2018,
+        date: '2018-06-12',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_trostinka_2018_06_12.webp',
@@ -93,7 +93,7 @@ let vyborgMaps = [
     },
     {
         name: 'Солнечное',
-        year: 2018,
+        date: '2018-06-19',
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_solnechnoe_2018_06_19.webp',
@@ -103,7 +103,7 @@ let vyborgMaps = [
     },
     {
         name: 'Солнечное',
-        year: 2018,
+        date: '2018-06-20',
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_solnechnoe_2018_06_20.webp',
@@ -113,7 +113,7 @@ let vyborgMaps = [
     },
     {
         name: 'оз Тростинка',
-        year: 2018,
+        date: '2018-06-21',
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_trostinka_2018_06_21.webp',
@@ -123,7 +123,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пруды',
-        year: 2019,
+        date: '2019-06-15',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_prudy_2019_06_15.webp',
@@ -133,7 +133,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пруды',
-        year: 2019,
+        date: '2019-06-16',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_prudy_2019_06_16.webp',
@@ -143,7 +143,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пруды',
-        year: 2019,
+        date: '2019-06-18',
         start: 'KKP',
         info: 'Классика.',
         url: './maps/forest/vyborg/kkp_prudy_2019_06_18.webp',
@@ -153,7 +153,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пруды',
-        year: 2019,
+        date: '2019-06-19',
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_prudy_2019_06_19.webp',
@@ -163,7 +163,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пруды',
-        year: 2019,
+        date: '2019-06-20',
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_prudy_2019_06_20.webp',
@@ -173,7 +173,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пальцево',
-        year: 2022,
+        date: '2022-06-08',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_08.webp',
@@ -183,7 +183,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пальцево',
-        year: 2022,
+        date: '2022-06-10',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_10.webp',
@@ -193,7 +193,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пальцево',
-        year: 2022,
+        date: '2022-06-12',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_12.webp',
@@ -203,7 +203,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пальцево',
-        year: 2022,
+        date: '2022-06-11',
         start: 'KKP',
         info: 'ПИРАМИДА.',
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_11_piramida.webp',
@@ -213,7 +213,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пальцево',
-        year: 2022,
+        date: '2022-06-14',
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_14.webp',
@@ -223,7 +223,7 @@ let vyborgMaps = [
     },
     {
         name: 'Беличий залив',
-        year: 2022,
+        date: '2022-06-16',
         start: 'KKP',
         info: 'Спринт.',
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_16.webp',
@@ -233,9 +233,9 @@ let vyborgMaps = [
     },
     {
         name: 'Пруды',
-        year: 2023,
+        date: '2023-06-19',
         start: 'KKP',
-        info: '19.06, Классика.',
+        info: 'Классика.',
         o_site: '230617-22_KKP',
         gps: {
             'М':'https://viewer.o-gps-center.ru/viewer/event/16497/',
@@ -250,7 +250,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пруды',
-        year: 2023,
+        date: '2023-06-17',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_prudy_2023_06_17.webp',
@@ -260,7 +260,7 @@ let vyborgMaps = [
     },
     {
         name: 'Пруды',
-        year: 2023,
+        date: '2023-06-18',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_prudy_2023_06_18.webp',
@@ -270,9 +270,9 @@ let vyborgMaps = [
     },
     {
         name: 'Пруды',
-        year: 2023,
+        date: '2023-06-20',
         start: 'KKP',
-        info: '20.06, Лонг.',
+        info: 'Лонг.',
         o_site: '230617-22_KKP',
         gps: {
             'М':'https://viewer.o-gps-center.ru/viewer/event/16498/',
@@ -297,7 +297,7 @@ let vyborgMaps = [
     },
     {
         name: 'Обходное оз',
-        year: 2024,
+        date: '2024-06-15',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_obkhodnoe_2024_06_15.webp',
@@ -307,7 +307,7 @@ let vyborgMaps = [
     },
     {
         name: 'Новинское оз',
-        year: 2024,
+        date: '2024-06-15',
         start: 'KKP',
         info: 'ПИРАМИДА.',
         url: './maps/forest/vyborg/kkp_novinskoe_2024_06_15.webp',
@@ -317,7 +317,7 @@ let vyborgMaps = [
     },
     {
         name: 'Обходное оз',
-        year: 2024,
+        date: '2024-06-16',
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_obkhodnoe_2024_06_16.webp',
@@ -327,30 +327,45 @@ let vyborgMaps = [
     },
     {
         name: 'Новинское оз',
-        year: 2024,
+        date: '2024-06-17',
         start: 'KKP',
         info: 'Классика.',
         url: './maps/forest/vyborg/kkp_novinskoe_2024_06_17.webp',
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/19774/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/19772/',
+            'М50/55/Ж45':'https://viewer.o-gps-center.ru/viewer/event/19854/',
+        },
         bounds: [[60.99920891568199, 29.146471023559574], [60.993965297805566, 29.20269012451172], [60.981019011678164, 29.139432907104492]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V'],
         owner: 'NW'
     },
     {
         name: 'Ягодное оз',
-        year: 2024,
+        date: '2024-06-18',
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_novinskoe_2024_06_18.webp',
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/19783/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/19781/',
+            'М50/55/Ж45':'https://viewer.o-gps-center.ru/viewer/event/19861/',
+        },
         bounds: [[61.000935790802075, 29.18625354766846], [60.99446472727906, 29.25594806671143], [60.978666467444995, 29.176898002624515]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A','LUK_V'],
         owner: 'NW'
     },
     {
         name: 'Обходное оз',
-        year: 2024,
+        date: '2024-06-20',
         start: 'KKP',
         info: 'Спринт.',
         url: './maps/forest/vyborg/kkp_novinskoe_2024_06_20.webp',
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/19793/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/19792/',
+            'М50/55/Ж45':'https://viewer.o-gps-center.ru/viewer/event/19838/',
+        },
         bounds: [[61.00118545172515, 29.186983108520508], [60.99947939630004, 29.204192161560062], [60.98957414237739, 29.183077812194828]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','TKMKVA_P','LUK_V'],
         owner: 'NW'

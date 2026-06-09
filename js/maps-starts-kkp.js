@@ -3,8 +3,8 @@ let kkpStartsMaps = [
     {
         name: 'Каменногорск',
         start: 'KKP',
-        year: 2011,
-        info: '30.06, короткая дистанция.',
+        date: '2011-06-30',
+        info: 'Короткая дистанция.',
         o_site: '11062903',
         url: './maps/starts/kkp/kkp_2011_06_30.webp',
         // link: './original_maps/starts/kkp/kkp_2011_06_30_omaps.jpg',
@@ -15,8 +15,8 @@ let kkpStartsMaps = [
     {
         name: 'Каменногорск',
         start: 'KKP',
-        year: 2011,
-        info: '01.07, средняя дистанция.',
+        date: '2011-07-01',
+        info: 'Средняя дистанция.',
         o_site: '11062903',
         url: './maps/starts/kkp/kkp_2011_07_01.webp',
         // link: './original_maps/starts/kkp/kkp_2011_07_01_omaps.jpg',
@@ -27,8 +27,8 @@ let kkpStartsMaps = [
     {
         name: 'Каменногорск',
         start: 'KKP',
-        year: 2011,
-        info: '02.07, короткая дистанция.',
+        date: '2011-07-02',
+        info: 'Короткая дистанция.',
         o_site: '11062903',
         url: './maps/starts/kkp/kkp_2011_07_02.webp',
         // link: './original_maps/starts/kkp/kkp_2011_07_02_omaps.jpg',
@@ -39,8 +39,8 @@ let kkpStartsMaps = [
     {
         name: 'Каменногорск',
         start: 'KKP',
-        year: 2011,
-        info: '03.07, классическая дистанция.',
+        date: '2011-07-03',
+        info: 'Классическая дистанция.',
         o_site: '11062903',
         url: './maps/starts/kkp/kkp_2011_07_03.webp',
         // link: './original_maps/starts/kkp/kkp_2011_07_03_omaps.jpg',
@@ -51,8 +51,8 @@ let kkpStartsMaps = [
     {
         name: 'Каменногорск',
         start: 'KKP',
-        year: 2012,
-        info: '02.07, полигон.',
+        date: '2012-07-02',
+        info: 'Полигон.',
         o_site: '12070306',
         url: './maps/starts/kkp/kkp_2012_07_02.webp',
         // link: './original_maps/starts/kkp/kkp_2012_07_02_omaps.jpg',
@@ -63,8 +63,8 @@ let kkpStartsMaps = [
     {
         name: 'Каменногорск',
         start: 'KKP',
-        year: 2012,
-        info: '04.07, средняя дистанция.',
+        date: '2012-07-04',
+        info: 'Средняя дистанция.',
         o_site: '12070306',
         url: './maps/starts/kkp/kkp_2012_07_04.webp',
         // link: './original_maps/starts/kkp/kkp_2012_07_04_omaps.jpg',
@@ -75,8 +75,7 @@ let kkpStartsMaps = [
     {
         name: 'Пальцевские скалы',
         start: 'KKP',
-        year: 2013,
-        info: '24.06.',
+        date: '2013-06-24',
         o_site: '13062427',
         url: './maps/starts/kkp/kkp_2013_06_24.webp',
         // link: './original_maps/starts/kkp/kkp_2013_06_24_omaps.jpg',
@@ -87,8 +86,7 @@ let kkpStartsMaps = [
     {
         name: 'Пальцевские скалы',
         start: 'KKP',
-        year: 2013,
-        info: '27.06.',
+        date: '2013-06-27',
         o_site: '13062427',
         url: './maps/starts/kkp/kkp_2013_06_27.webp',
         // link: './original_maps/starts/kkp/kkp_2013_06_27_omaps.jpg',
@@ -97,10 +95,27 @@ let kkpStartsMaps = [
         owner: 'NW'
     },
     {
+        name: 'Новинское оз',
+        date: '2024-06-19',
+        start: 'KKP',
+        info: 'Лонг-масстарт.',
+        url: './maps/starts/kkp/kkp_2024_06_19.webp',
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/19790/',
+            'М2':'https://viewer.o-gps-center.ru/viewer/event/19865/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/19789/',
+            'М50/55/Ж45':'https://viewer.o-gps-center.ru/viewer/event/19868/',
+            'Ж20/М18':'https://viewer.o-gps-center.ru/viewer/event/19810/',
+        },
+        bounds: [[60.99436068011957, 29.162392616271976], [60.989095448939196, 29.21419143676758], [60.98106064806109, 29.156856536865238]],
+        author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V'],
+        owner: 'NW'
+    },
+    {
         name: 'Пруды',
         start: 'KKP',
-        year: 2025,
-        info: '17.06, лонг.',
+        date: '2025-06-17',
+        info: 'Лонг.',
         o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_17.webp',
         gps: {
@@ -115,8 +130,8 @@ let kkpStartsMaps = [
     {
         name: 'Пруды',
         start: 'KKP',
-        year: 2025,
-        info: '16.06, классика.',
+        date: '2025-06-16',
+        info: 'Классика.',
         o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_16.webp',
         gps: {
@@ -131,8 +146,8 @@ let kkpStartsMaps = [
     {
         name: 'Пруды',
         start: 'KKP',
-        year: 2025,
-        info: '18.06, лонг-масстарт.',
+        date: '2025-06-18',
+        info: 'Лонг-масстарт.',
         o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_18.webp',
         gps: {
@@ -147,8 +162,8 @@ let kkpStartsMaps = [
     {
         name: 'Пруды',
         start: 'KKP',
-        year: 2025,
-        info: '19.06, спринт.',
+        date: '2025-06-19',
+        info: 'Спринт.',
         o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_19.webp',
         gps: {
