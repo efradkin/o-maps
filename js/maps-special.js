@@ -831,6 +831,26 @@ let specialMaps = [
         owner: 'YUVENTA',
         type: ['VELO']
     },
+    {
+        name: 'Лебяжье',
+        year: 2026,
+        url: './maps/velo/lebyazhje_velo_2026.webp',
+        link: './original_maps/velo/lebyazhje_velo_2026_omaps.gif',
+        bounds: [[59.9654404853661, 29.406688213348392], [59.965429745321494, 29.42121505737305], [59.961144189633735, 29.406666755676273]],
+        author: 'ALKSV_E',
+        owner: 'ALKSV_E',
+        type: ['VELO']
+    },
+    {
+        name: 'Лебяжье, ДНТ Возрождение',
+        year: 2026,
+        url: './maps/velo/vozrozhdenie_velo_2026.webp',
+        link: './original_maps/velo/vozrozhdenie_velo_2026_omaps.gif',
+        bounds: [[59.97099262218684, 29.36199188232422], [59.97089597786132, 29.3905520439148], [59.96070378783904, 29.362120628356937]],
+        author: 'ALKSV_E',
+        owner: 'ALKSV_E',
+        type: ['VELO']
+    },
 
     // --- гидро-рельефные ---
     {

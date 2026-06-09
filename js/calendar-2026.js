@@ -1642,6 +1642,7 @@ let events2026 = [
         fmt: 'масстарт',
         owner: 'DLITELNY',
         map: 'pastorskoe_2024',
+        reskeep: 897,
         planner: 'KSHN_D',
         strava: 18822018885,
         me: 'М50'

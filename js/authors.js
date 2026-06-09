@@ -1,6 +1,7 @@
 let authors = {
     AKSNV: { name: 'Аксёнов Игорь' },
     AKSNVA: { name: 'Аксёнова Алёна' },
+    ALKSV_E: { name: 'Алексеев Егор' },
     ALNKVA: { name: 'Алейникова Екатерина' },
     ANDRV_E: { name: 'Андреев Е.' },
     ANSFRV: { name: 'Анисифоров К.' },

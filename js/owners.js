@@ -1,4 +1,7 @@
 let owners = {
+    ALKSV_E: {
+        name: '© Егор Алексеев, <a href="mailto:egor022110@yandex.ru">egor022110@yandex.ru</a>'
+    },
     ANCHKV: {
         name: '© СШОР №2 ГБНОУ "СПб ГДТЮ"',
         logo: 'sdjushor2.jpg'
