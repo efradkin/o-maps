@@ -86,6 +86,7 @@ let specialMaps = [
         year: 2012,
         url: './maps/winter/orekhovo_nyrkovo_winter_2012.webp',
         link: './original_maps/winter/orekhovo_nyrkovo_winter_2012_omaps.jpeg',
+        publish: ['https://vk.com/album-230167293_312356826','https://vk.com/album-230167293_312489606','https://vk.com/album-230167293_312551370','https://vk.com/photo-230167293_457267005'],
         bounds: [[60.4759605103226, 30.297954082489017], [60.47338032779795, 30.334196090698246], [60.451101863173875, 30.29010057449341]],
         author: 'TKMKV_K',
         owner: 'SFSO_SPB',
@@ -209,6 +210,7 @@ let specialMaps = [
         date: '2023-02-05',
         url: './maps/winter/zerkalny_tarasovskoe_winter_2023.webp',
         link: './original_maps/winter/zerkalny_tarasovskoe_winter_2023_omaps.gif',
+        publish: 'https://vk.com/album-230167293_312624491',
         bounds: [[60.25993530761828, 29.112052917480472], [60.25676311663197, 29.154882431030277], [60.24515751749144, 29.106817245483402]],
         owner: 'SFSO_SPB',
         type: ['WINTER']
@@ -605,7 +607,8 @@ let specialMaps = [
     },
     {
         name: 'Каннельярви, оз Исток',
-        url: './maps/velo/kanneljarvi_velo.webp',
+        year: 2006,
+        url: './maps/velo/kanneljarvi_velo_2006.webp',
         info: 'Соревнования посвящённые памяти Бориса Панкратьева.',
         link: ['./original_maps/velo/kanneljarvi_velo_omaps.jpg','./original_maps/velo/kanneljarvi_velo_2006_omaps.gif'],
         bounds: [[60.37832076259013, 29.283456802368168], [60.370641185033705, 29.37950134277344], [60.343260013555195, 29.272127151489258]],
@@ -794,6 +797,7 @@ let specialMaps = [
         year: 2025,
         url: './maps/velo/silande_velo_2025.webp',
         link: './original_maps/velo/silande_velo_2025_omaps.gif',
+        publish: 'https://vk.com/album-230167293_313631286',
         bounds: [[60.42196659623265, 30.254116058349613], [60.418810119787075, 30.289006233215336], [60.391660254494, 30.243301391601566]],
         type: ['VELO'],
         author: ['CHGRVSKY_V','DBRTSV_V','KUZNTSV_R'],

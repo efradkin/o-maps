@@ -144,7 +144,7 @@ let events2026 = [
         fmt: 'маркир,классика',
         planner: 'SMNV_M',
         owner: 'SFSO_SPB',
-        map: 'orekhovo_nyrkovo_winter_2012_omaps'
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20260124_1',
@@ -338,7 +338,7 @@ let events2026 = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24257/',
         type: 'SKI',
         fmt: 'классика, спринт',
-        map: 'zerkalny_2002',
+        map: 'zerkalny_tarasovskoe_winter_2023',
         owner: 'SFSO_SPB'
     },
     {

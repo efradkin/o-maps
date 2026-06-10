@@ -342,6 +342,7 @@ function buildInfo(m) {
             }
         }
     }
+    result += buildPublish(m);
     return result;
 }
 

@@ -1316,6 +1316,7 @@ function buildMapPopup(m) {
     if (m.o_site) {
         info += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;
     }
+    info += buildPublish(m);
     if (info) {
         result += info + '<br />';
     }

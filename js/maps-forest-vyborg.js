@@ -833,6 +833,7 @@ let vyborgMaps = [
         year: 2025,
         url: './maps/forest/vyborg/veschevo_2025.webp',
         link: './original_maps/forest/vyborg/veschevo_2025_omaps.jpg',
+        publish: 'https://vk.com/album-230167293_309995002',
         bounds: [[60.69172295992863, 29.150462150573734], [60.68805695576868, 29.18897867202759], [60.678443528347124, 29.14556980133057]],
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
@@ -842,6 +843,7 @@ let vyborgMaps = [
         year: 2025,
         url: './maps/forest/vyborg/veschevo_south_2025.webp',
         link: './original_maps/forest/vyborg/veschevo_south_2025_omaps.jpg',
+        publish: 'https://vk.com/album-230167293_309995002',
         bounds: [[60.67156002103652, 29.186425209045414], [60.66855393623469, 29.220070838928226], [60.65442368037886, 29.179086685180668]],
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'

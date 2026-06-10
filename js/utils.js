@@ -1626,7 +1626,45 @@ function buildEventReports(evt, withGPS) {
 }
 
 function buildEventInfo(evt) {
-    return (evt.info ?? '') + (evt.planner ? ' Планирование дистанции: ' + buildPlanners(evt) : '');
+    return (evt.info ?? '') + (evt.planner ? ' Планирование дистанции: ' + buildPlanners(evt) : '') + buildPublish(evt);
+}
+
+function buildPublish(evt) {
+    let publish = '';
+    if (evt.publish) {
+        publish = evt.publish;
+    }
+    if (!publish && evt.map) {
+        if (Array.isArray(evt.map)) {
+            publish = [];
+            for (const mp of evt.map) {
+                const m = getMapForName(mp);
+                if (m && m.publish) {
+                    publish.push(mp);
+                }
+            }
+        } else {
+            const m = getMapForName(evt.map);
+            if (m && m.publish) {
+                publish = m.publish;
+            }
+        }
+    }
+    if (publish) {
+        if (Array.isArray(publish)) {
+            let pub = '', counter = 1;
+            for (const p of publish) {
+                if (pub) {
+                    pub += ', ';
+                }
+                pub += `[<a href="${p}">${counter++}</a>]`
+            }
+            publish = ` Карты с дистанциями опубликованы тут: ${pub}.`
+        } else {
+            publish = ` Карты с дистанциями опубликованы <a href="${publish}">тут</a>.`;
+        }
+    }
+    return publish;
 }
 
 function buildEventType(evt, withFmt) {

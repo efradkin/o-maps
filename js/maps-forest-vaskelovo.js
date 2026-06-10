@@ -439,6 +439,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/silande_2024.webp',
         link: './original_maps/forest/vaskelovo/silande_2024_omaps.jpg',
         bounds: [[60.416013522306024, 30.259008407592777], [60.41427612096631, 30.286216735839847], [60.3923599498166, 30.249824523925785]],
+        publish: 'https://vk.com/album-230167293_309535800',
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
     },
@@ -468,6 +469,7 @@ let vaskelovoMaps = [
             'M18': 'https://viewer.o-gps-center.ru/viewer/event/10108/',
             'Все': 'https://viewer.o-gps-center.ru/viewer/event/10110/',
         },
+        publish: 'https://t.me/dlitelnyy/288',
         bounds: [[60.45025527630089, 30.237078666687015], [60.445238796388175, 30.297031402587894], [60.42497449673764, 30.228109359741214]],
         author: 'CHGRVSKY_V',
         owner: 'CHGRVSKY_V'
@@ -636,6 +638,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/lembolovo_2024.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_2024_omaps.jpg',
         bounds: [[60.445492813989986, 30.259523391723636], [60.43689744859958, 30.369987487792972], [60.38858565746125, 30.23995399475098]],
+        publish: 'https://t.me/dlitelnyy/94',
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY','RDNV_I'],
         owner: 'RDNV_I'
     },
@@ -730,6 +733,7 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_2025_omaps.gif',
         bounds: [[60.46106876414282, 30.27862071990967], [60.456117437740424, 30.329904556274418], [60.44318541452643, 30.271968841552738]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22515/',
+        publish: 'https://vk.com/album-230167293_313624527',
         author: 'CHGRVSKY_V',
         owner: ['CHGRVSKY_V','KUZM_CHGRVSKY']
     },

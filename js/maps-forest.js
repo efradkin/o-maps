@@ -171,6 +171,7 @@ let forestMaps = [
         year: 2021,
         url: './maps/forest/tsvelodubovo_south_2021.webp',
         link: './original_maps/forest/tsvelodubovo_south_2021_omaps.gif',
+        publish: 'https://vk.com/album-230167293_309657044',
         bounds: [[60.366142912410425, 29.55159187316895], [60.36020084603804, 29.62523460388184], [60.33977734876115, 29.54309463500977]],
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
@@ -617,6 +618,7 @@ let forestMaps = [
         year: 2023,
         url: './maps/forest/kanneljarvi_2023.webp',
         link: './original_maps/forest/kanneljarvi_2023_omaps.jpg',
+        publish: 'https://vk.com/album-230167293_309756773',
         bounds: [[60.33833320798648, 29.336500167846683], [60.3309416045955, 29.407052993774418], [60.313135413137786, 29.326286315917972]],
         author: ['TKMKV_K','KUZNTSV_A','KVZN'],
         owner: 'SFSO_SPB'
@@ -657,6 +659,7 @@ let forestMaps = [
         url: './maps/forest/polyany_2019.webp',
         link: './original_maps/forest/polyany_2019_omaps.jpg',
         bounds: [[60.31740723452755, 29.281826019287113], [60.30782142277218, 29.369716644287113], [60.29008769806418, 29.269809722900394]],
+        publish: 'https://vk.com/album-230167293_313563270',
         author: ['SHRNN','DBRTSV_V'],
         owner: 'SFSO_SPB'
     },

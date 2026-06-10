@@ -1167,7 +1167,7 @@ let events2025 = [
             'https://vk.com/album-230167293_310016870',
             'https://vk.com/album-230167293_310043045'
         ],
-        map: 'veschevo_south_2025'
+        map: ['veschevo_2025','veschevo_south_2025']
     },
     {
         id: 'SPB_20250608_1',
@@ -2230,7 +2230,7 @@ let events2025 = [
         map: [
             'zelenogorsk_2025',
             'bolotnaya_station_2025',
-            'zelenogorsk_tspko_2024_omaps'
+            'zelenogorsk_tspko_2024'
         ],
         photo: [
             'https://vk.com/album-230167293_311306913',
