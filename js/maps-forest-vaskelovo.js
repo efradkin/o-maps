@@ -720,6 +720,7 @@ let vaskelovoMaps = [
         year: 2024,
         url: './maps/forest/vaskelovo/orekhovo_borkovo_2024.webp',
         link: ['./original_maps/forest/vaskelovo/orekhovo_borkovo_2024_1_omaps.gif','./original_maps/forest/vaskelovo/orekhovo_borkovo_2024_2_omaps.gif'],
+        publish: 'https://vk.com/album-230167293_313624527',
         bounds: [[60.47384562177614, 30.26196956634522], [60.46955197409946, 30.307459831237797], [60.46144960413299, 30.256862640380863]],
         author: 'CHGRVSKY_Y',
         owner: 'KUZMOLOVO'
