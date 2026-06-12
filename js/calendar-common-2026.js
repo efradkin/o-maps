@@ -387,6 +387,7 @@ let commonEvents2026 = [
     type: 'MULTI',
     link: 'https://adventure-race.redfox.ru/docs/rules/',
     reg: 'https://adventure-race.redfox.ru/applications/',
+    gps: 'https://viewer.o-gps-center.ru/viewer/event/25313/',
     major: true,
     start: 'RFAR',
 },

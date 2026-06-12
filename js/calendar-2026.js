@@ -1630,6 +1630,19 @@ let events2026 = [
         owner: 'WN',
     },
     {
+        id: 'SPB_20260606_3',
+        date: '2026-06-06',
+        place: 'Яппиля',
+        name: 'Летний слёт Петербургского метрополитена',
+        gps: {
+            'М':'https://viewer.o-gps-center.ru/viewer/event/25305/',
+            'Ж':'https://viewer.o-gps-center.ru/viewer/event/25306/',
+        },
+        type: 'ORIENT',
+        fmt: 'гроздь',
+        map: 'yappilya_2024',
+    },
+    {
         id: 'SPB_20260607_1',
         date: '2026-06-07',
         name: 'Кубок D2RUN, 2 этап',
