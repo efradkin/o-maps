@@ -1659,9 +1659,9 @@ function buildPublish(evt) {
                 }
                 pub += `[<a href="${p}">${counter++}</a>]`
             }
-            publish = ` Карты с дистанциями опубликованы тут: ${pub}.`
+            publish = ` Карты опубликованы тут: ${pub}.`
         } else {
-            publish = ` Карты с дистанциями опубликованы <a href="${publish}">тут</a>.`;
+            publish = ` Карты опубликованы <a href="${publish}">тут</a>.`;
         }
     }
     return publish;

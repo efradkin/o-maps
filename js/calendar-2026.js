@@ -1709,6 +1709,17 @@ let events2026 = [
         start: 'KKP'
     },
     {
+        id: 'SPB_20260621_1',
+        date: '2026-06-21',
+        endDate: '2026-06-26',
+        name: 'Перспектива',
+        place: 'Силанде',
+        o_site: '260621_p',
+        reg: 'http://orgeo.ru/event/info/53685',
+        type: 'ORIENT',
+        map: 'silande_2024',
+    },
+    {
         id: 'SPB_20260625_1',
         date: '2026-06-25',
         endDate: '2026-06-26',
@@ -1718,7 +1729,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/52838',
         type: 'ORIENT',
         fmt: 'командный спринт / эстафета',
-        map: 'peski_2001',
+        map: 'peski_2026',
         owner: 'INGRIA'
     },
     {
@@ -1742,19 +1753,42 @@ let events2026 = [
         name: 'Праздник эстафет',
         place: 'Пески',
         o_site: '260628',
+        reg: ['https://orgeo.ru/event/info/prest26spr','http://orgeo.ru/event/info/prest26','http://orgeo.ru/event/info/prest263'],
         type: 'ORIENT',
-        fmt: 'спринт, эстафеты',
+        fmt: 'спринт, классика, эстафеты',
         map: 'peski_2026',
+    },
+    {
+        id: 'SPB_20260629_1',
+        date: '2026-06-29',
+        endDate: '2026-07-02',
+        name: 'УТС Белые ночи',
+        place: 'Сосново, оз Уловное',
+        reg: 'https://orgeo.ru/event/53687',
+        type: 'ORIENT',
+        owner: 'WN',
+        map: 'sosnovo_ulovnoe_oz_2023'
     },
     {
         id: 'SPB_20260704_2',
         date: '2026-07-04',
         place: 'Орехово',
         name: 'Горный кросс-115',
+        o_site: '260704R',
         type: 'ROGAINE',
         fmt: '6(5), 3',
         map: 'lembolovo_orekhovo_gk_2024',
         start: 'GORNY_CROSS'
+    },
+    {
+        id: 'SPB_20260705_1',
+        date: '2026-07-05',
+        place: 'ТЦ МЕГА Парнас',
+        name: 'Open Band Indoor Orient SPB',
+        o_site: '20260705',
+        reg: 'https://orgeo.ru/event/53666',
+        type: 'INDOOR',
+        owner: 'OPNBND'
     },
     {
         id: 'SPB_20260711_1',
