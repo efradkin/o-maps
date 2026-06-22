@@ -461,6 +461,7 @@ let commonEvents2026 = [
     video: ['https://vkvideo.ru/video-227779225_456239075','https://vk.com/video-93257360_456239324','https://vkvideo.ru/video-227779225_456239067'],
     type: 'ORIENT',
     fmt: 'лонг',
+    planner: 'BEVZA',
     map: 'kkp_prudy_2026_06_18',
     start: 'KKP'
 },
@@ -479,6 +480,7 @@ let commonEvents2026 = [
     video: ['https://vkvideo.ru/video-227779225_456239076','https://vk.com/video-93257360_456239325','https://vkvideo.ru/video-227779225_456239072'],
     type: 'ORIENT',
     fmt: 'лонг-масстарт, классика',
+    planner: 'PSTVTV',
     map: 'kkp_prudy_2026_06_19',
     start: 'KKP'
 },
@@ -497,6 +499,7 @@ let commonEvents2026 = [
     video: 'https://vk.com/video-93257360_456239326',
     type: 'ORIENT',
     fmt: 'спринт',
+    planner: 'CHGRVSKY_M',
     map: 'kkp_prudy_2026_06_20',
     start: 'KKP'
 },

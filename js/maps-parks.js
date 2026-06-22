@@ -601,8 +601,8 @@ let parkMaps = [
         url: './maps/parks/sad_9_janvarya_2018.webp',
         link: './original_maps/parks/sad_9_janvarya_2018_omaps.jpg',
         bounds: [[59.896030167287805, 30.27392148971558], [59.89523372984083, 30.28205394744873], [59.88972272059391, 30.271797180175785]],
-        author: 'BVZ',
-        owner: 'BVZ',
+        author: 'BEVZA',
+        owner: 'BEVZA',
         type: ['PARK']
     },
     {

@@ -792,7 +792,7 @@ async function loadPOI() {
 }
 
 async function loadCalendar() {
-    if (typeof oEvents != 'undefined') {
+    if (typeof oEvents !== 'undefined' && typeof calendarGroup !== 'undefined') {
         filterEvents(oEvents, false).reverse().forEach(evt => {
             if (validateEvent(evt)) {
                 createEventMarkers(evt)
@@ -1235,6 +1235,7 @@ function mapTitle(m, forStart, colored) {
 }
 
 function buildMapPopup(m) {
+    let cal = m.calendar ? oEvents.find(e => e.id === m.calendar) : undefined;
 
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
     let typesList = getTypesList(m);
@@ -1295,16 +1296,20 @@ function buildMapPopup(m) {
     if (m.info) {
         info += m.info;
     }
-    if (m.results) {
-        if (Array.isArray(m.results)) {
+    let mapResults = m.results;
+    if (!mapResults && m.calendar) {
+        mapResults = cal.res;
+    }
+    if (mapResults) {
+        if (Array.isArray(mapResults)) {
             let results = '', counter = 1;
-            for (const r of m.results) {
+            for (const r of mapResults) {
                 if (results) results += ', ';
                 results += `[<a href="${r}">${counter++}</a>]`;
             }
             info += `Результаты: ${results}`;
         } else {
-            info += ` <a href="${m.results}">Результаты</a>.`;
+            info += ` <a href="${mapResults}">Результаты</a>.`;
         }
     } else {
         const results = buildEventResults(m);
@@ -1313,8 +1318,12 @@ function buildMapPopup(m) {
         }
 
     }
-    if (m.o_site) {
-        info += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;
+    let oSite = m.o_site;
+    if (!oSite && m.calendar) {
+        oSite = cal.o_site;
+    }
+    if (oSite) {
+        info += ` <a href="${O_SITE_ADDRESS_PREFIX}${oSite}">Инфо на O-Site</a>.`;
     }
     info += buildPublish(m);
     if (info) {
@@ -1346,8 +1355,8 @@ function buildMapPopup(m) {
     }
 
     // начдист
-    if (typeof planners !== 'undefined' && m.planner) {
-        result += 'Планирование дистанции: ' + buildPlanners(m);
+    if (typeof planners !== 'undefined' && (m.planner || (cal && cal.planner))) {
+        result += 'Планирование дистанции: ' + buildPlanners(m, cal);
     }
 
     // закрытый район
@@ -1356,9 +1365,13 @@ function buildMapPopup(m) {
     }
 
     // GPS-трансляция
-    if (m.gps) {
+    let gps = m.gps;
+    if (!gps && m.calendar) {
+        gps = cal.gps;
+    }
+    if (gps) {
         result += '<span class="gps-info"><img src="./images/o-gps.gif" alt="GPS" /> ';
-        result += 'GPS-трансляция: ' + buildGpsLinks(m);
+        result += 'GPS-трансляция: ' + buildGpsLinks(m, null, cal);
         result += '.</span><br />';
     }
 

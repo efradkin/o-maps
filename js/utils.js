@@ -639,11 +639,15 @@ function buildOneLink(link, content, title, isDownload) {
         return '';
 }
 
-function buildGpsLinks(m, img) {
+function buildGpsLinks(m, img, calendar) {
     let result = '';
-    if (m.gps) {
-        if (isObject(m.gps)) {
-            let entries = Object.entries(Object.entries(m.gps));
+    let gps = m.gps;
+    if (!gps && calendar) {
+        gps = calendar.gps;
+    }
+    if (gps) {
+        if (isObject(gps)) {
+            let entries = Object.entries(Object.entries(gps));
             for (const [index, [key, value]] of entries) {
                 result += ` <a href="${value}">${key}</a>`;
                 if (index < entries.length - 1) {
@@ -651,7 +655,7 @@ function buildGpsLinks(m, img) {
                 }
             }
         } else {
-            result += buildLink(m.gps, '<img src="./images/' + (img ?? 'url-file.png') +'" alt="GPS">');
+            result += buildLink(gps, '<img src="./images/' + (img ?? 'url-file.png') +'" alt="GPS">');
         }
     }
     return result;
@@ -1740,20 +1744,24 @@ function buildSkiFormat(fmt) {
     }
 }
 
-function buildPlanners(m) {
+function buildPlanners(m, calendar) {
     let result = '';
     if (typeof planners !== 'undefined') {
-        if (Array.isArray(m.planner)) {
+        let planner = m.planner;
+        if (!planner && calendar) {
+            planner = calendar.planner;
+        }
+        if (Array.isArray(planner)) {
             result += '<ol>'
-            for (const o of m.planner) {
+            for (const o of planner) {
                 if (planners[o]) {
                     result += '<li>' + planners[o].name + '</li>';
                 }
             }
             result += '</ol>'
         } else {
-            if (planners[m.planner]) {
-                result += planners[m.planner].name + '<br />';
+            if (planners[planner]) {
+                result += planners[planner].name + '<br />';
             }
         }
         if (!result) {

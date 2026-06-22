@@ -45,7 +45,7 @@ let authors = {
     BSGN_E: { name: 'Бусыгин Э.' },
     BSNKO: { name: 'Басенко Михаил' },
     BSTRV_A: { name: 'Быстров А.' },
-    BVZ: { name: 'Бевза Татьяна' },
+    BEVZA: { name: 'Бевза Татьяна' },
     BZNV_A: {
         name: 'Базанов Алексей',
         about: 'https://o-site.spb.ru/history/Peoples/bazanov.html'

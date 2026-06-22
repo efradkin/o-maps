@@ -264,8 +264,8 @@ let schoolMaps = [
         url: './maps/city/narvskaya_384_school_2019.webp',
         link: ['./original_maps/schools/narvskaya_384_school_2019_omaps.gif','./original_maps/schools/narvskaya_384_school_2019_omaps.ocd'],
         bounds: [[59.898128796133236, 30.27366399765015], [59.89818260538584, 30.275981426239017], [59.89648219085799, 30.273492336273197]],
-        author: 'BVZ',
-        owner: 'BVZ',
+        author: 'BEVZA',
+        owner: 'BEVZA',
         type: ['CITY']
     },
     {

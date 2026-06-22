@@ -129,6 +129,9 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
+    <script src="js/calendar-2026.js"></script>
+    <script src="js/calendar-common-2026.js"></script>
+
     <script src="js/maps-city.js"></script>
     <script src="js/maps-parks.js"></script>
     <script src="js/maps-forest.js"></script>
@@ -214,6 +217,11 @@
             const mapPage = urlParams.has('start') ? 'starts.html' : 'spb.html';
             return gotoMap(mapPage);
         }
+
+        const oEvents = [
+            ...events2026,
+            ...commonEvents2026,
+        ];
     </script>
 
     <script src="js/map-build.js"></script>

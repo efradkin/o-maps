@@ -16,7 +16,7 @@ let owners = {
     BLZRV_V: {
         name: '© Белозеров Владимир Николаевич',
     },
-    BVZ: {
+    BEVZA: {
         name: '© Татьяна Бевза [<a href="mailto:Tanya-9-8@ya.ru">Tanya-9-8@ya.ru</a>]'
     },
     BLNA: {

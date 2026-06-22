@@ -93,6 +93,9 @@
     <script src="js/ext/leaflet-burgermenu/leaflet-burgermenu.umd.min.js"></script>
     <script src="js/ext/range-slider/rSlider.js"></script>
 
+    <script src="js/calendar-2026.js"></script>
+    <script src="js/calendar-common-2026.js"></script>
+
     <!-- map.start field should be set -->
     <script src="js/maps-rogaine-rfar.js"></script>
     <script src="js/maps-rogaine-beketov.js"></script>
@@ -174,6 +177,11 @@
             ...parkMaps,
             ...cityMaps,
             ...schoolMaps,
+        ];
+
+        const oEvents = [
+            ...events2026,
+            ...commonEvents2026,
         ];
     </script>
 

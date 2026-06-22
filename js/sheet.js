@@ -125,6 +125,7 @@ function renderMapsTable() {
         }
 
         const row = document.createElement('tr');
+        const cal = m.calendar ? oEvents.find(e => e.id === m.calendar) : undefined;
         td(m, row, buildNumber(m, i));
         td(m, row, buildName(m));
         td(m, row, buildSheetDate(m));
@@ -135,11 +136,11 @@ function renderMapsTable() {
             td(m, row, buildAuthors(m, true));
         }
         td(m, row, buildDownloadLinks(m.link, m.links));
-        td(m, row, buildInfo(m));
+        td(m, row, buildInfo(m, cal));
         if (!isDocumentsPage()) {
             td(m, row, m.area ? m.area.toFixed(2) : '');
             if (!mapsOnStore) {
-                td(m, row, buildGpsLinks(m, 'o-gps.gif'));
+                td(m, row, buildGpsLinks(m, 'o-gps.gif', cal));
             }
         }
         if (!isUnknownPage()) {
@@ -151,7 +152,7 @@ function renderMapsTable() {
         }
         if (!mapsOnStore) {
             if (!isDocumentsPage()) {
-                let planners = buildPlanners(m);
+                let planners = buildPlanners(m, cal);
                 if (planners) {
                     hasPlanners = true;
                 }
@@ -265,12 +266,21 @@ function oneStart(s) {
     return result;
 }
 
-function buildInfo(m) {
+function buildInfo(m, cal) {
+
     let result = '';
     if (m.restricted) {
         result += getRestrictedText(m);
     }
-    if (m.info || m.date || m.results || m.o_site) {
+    let mapResults = m.results;
+    if (!mapResults && m.calendar) {
+        mapResults = cal.res;
+    }
+    let oSite = m.o_site;
+    if (!oSite && m.calendar) {
+        oSite = cal.o_site;
+    }
+    if (m.info || m.date || mapResults || oSite) {
         if (m.restricted) {
             result += '<br />'
         }
@@ -283,8 +293,8 @@ function buildInfo(m) {
         if (m.info) {
             result += m.info;
         }
-        if (m.results) {
-            result += ` <a href="${m.results}">Результаты</a>.`;
+        if (mapResults) {
+            result += ` <a href="${mapResults}">Результаты</a>.`;
         } else {
             const results = buildEventResults(m);
             if (results) {
@@ -292,8 +302,8 @@ function buildInfo(m) {
             }
 
         }
-        if (m.o_site) {
-            result += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;
+        if (oSite) {
+            result += ` <a href="${O_SITE_ADDRESS_PREFIX}${oSite}">Инфо на O-Site</a>.`;
         }
     }
     if (isDocumentsPage()) {
