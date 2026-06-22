@@ -1775,10 +1775,22 @@ let events2026 = [
         endDate: '2026-07-02',
         name: 'УТС Белые ночи',
         place: 'Сосново, оз Уловное',
+        link: 'https://vk.com/wall-196511971_1466',
         reg: 'https://orgeo.ru/event/53687',
         type: 'ORIENT',
         owner: 'WN',
         map: 'sosnovo_ulovnoe_oz_2023'
+    },
+    {
+        id: 'SPB_20260630_1',
+        date: '2026-06-30',
+        name: 'Что-то с чем-то #2',
+        type: 'ORIENT',
+        link: 'https://t.me/across_the_runiverse/16825',
+        reg: 'https://docs.google.com/forms/d/e/1FAIpQLSdJXj5ObIKhuOp_6pOvHTu5tRAq8OZ6oggexWBgUfOqeJl40Q/viewform',
+        info: 'СТРОГО 18+. ',
+        owner: 'DLITELNY',
+        logo: 'across.gif'
     },
     {
         id: 'SPB_20260704_2',
@@ -2038,6 +2050,17 @@ let events2026 = [
         type: 'VELO',
         fmt: 'эстафета 2х',
         owner: 'SFSO_SPB'
+    },
+    {
+        id: 'SPB_20261017_1',
+        date: '2026-10-17',
+        name: 'Новгородский исторический рогейн',
+        place: 'Новгород',
+        link: 'https://vk.com/wall-91656163_2736',
+        type: 'ROGAINE',
+        fmt: '4, 2.5',
+        owner: 'LM',
+        map: 'novgorod_rogaine_2024_09_08'
     },
     {
         id: 'SPB_20261018_1',
