@@ -1702,7 +1702,9 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'эстафета ночная',
         map: 'kkp_prudy_2026_06_15_kamenukola',
-        start: 'KKP'
+        start: 'KKP',
+        strava: 18919010107,
+        me: 'М-ветераны'
     },
     {
         id: 'SPB_20260615_1',

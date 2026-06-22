@@ -406,7 +406,8 @@ let commonEvents2026 = [
     fmt: 'многодневка',
     map: 'kkp_prudy_2026_06_15_kamenukola',
     major: true,
-    start: 'KKP'
+    start: 'KKP',
+    me: 'М50'
 },
 {
     id: 'SPB_20260616_2',
@@ -421,11 +422,13 @@ let commonEvents2026 = [
         'Ж':'https://viewer.o-gps-center.ru/viewer/event/25366/',
         'М50/55':'https://viewer.o-gps-center.ru/viewer/event/25434/',
     },
-    video: ['https://vkvideo.ru/video-227779225_456239060','https://vk.com/video-93257360_456239322'],
+    video: ['https://vkvideo.ru/video-227779225_456239060','https://vk.com/video-93257360_456239322','http://northernwind.spb.ru/videosplit/2026/kkp/d1'],
     type: 'ORIENT',
     fmt: 'классика',
     map: 'kkp_prudy_2026_06_16',
-    start: 'KKP'
+    start: 'KKP',
+    strava: 19002085164,
+    me: 'М50'
 },
 {
     id: 'SPB_20260617_1',
@@ -439,12 +442,14 @@ let commonEvents2026 = [
         'Ж':'https://viewer.o-gps-center.ru/viewer/event/25369/',
         'М50/55':'https://viewer.o-gps-center.ru/viewer/event/25435/',
     },
-    video: ['https://vkvideo.ru/video-227779225_456239068','https://vk.com/video-93257360_456239323'],
+    video: ['https://vkvideo.ru/video-227779225_456239068','https://vk.com/video-93257360_456239323','http://northernwind.spb.ru/videosplit/2026/kkp/d2'],
     info: '<a href="https://vk.com/video-231742705_456239427">Интервью</a> с Никой Калининой.',
     type: 'ORIENT',
     fmt: 'классика',
     map: 'kkp_prudy_2026_06_17',
-    start: 'KKP'
+    start: 'KKP',
+    strava: 18957152639,
+    me: 'М50'
 },
 {
     id: 'SPB_20260618_1',
@@ -463,7 +468,9 @@ let commonEvents2026 = [
     fmt: 'лонг',
     planner: 'BEVZA',
     map: 'kkp_prudy_2026_06_18',
-    start: 'KKP'
+    start: 'KKP',
+    strava: 18984998518,
+    me: 'М50'
 },
 {
     id: 'SPB_20260619_1',
@@ -482,7 +489,9 @@ let commonEvents2026 = [
     fmt: 'лонг-масстарт, классика',
     planner: 'PSTVTV',
     map: 'kkp_prudy_2026_06_19',
-    start: 'KKP'
+    start: 'KKP',
+    strava: 18991752756,
+    me: 'М50'
 },
 {
     id: 'SPB_20260620_1',
@@ -501,7 +510,9 @@ let commonEvents2026 = [
     fmt: 'спринт',
     planner: 'CHGRVSKY_M',
     map: 'kkp_prudy_2026_06_20',
-    start: 'KKP'
+    start: 'KKP',
+    strava: 18995310275,
+    me: 'М50'
 },
 {
     id: 'SPB_20260626_1',
