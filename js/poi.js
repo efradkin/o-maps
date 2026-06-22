@@ -10,7 +10,7 @@ let poi = [
         o_site: '260616-21_KKP',
         link: 'https://o-nw.ru/kkp',
         reg: 'https://sportident.online/entry/?id=6855',
-        map: 'kkp_prudy_2019_06_19',
+        map: 'kkp_prudy_2026_06_15_kamenukola',
         type: 'ORIENT',
         start: 'KKP'
     },

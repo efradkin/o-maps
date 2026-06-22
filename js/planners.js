@@ -77,6 +77,7 @@ let planners = {
     PVLV_M: { name: 'Павлов Михаил' },
     PVLVA_N: { name: 'Павлова Н' },
     PLKV_D: { name: 'Поляков Дмитрий' },
+    PLS_S: { name: 'Плис Святослав' }, // Алексеевич aka "Зам по СТО"
     PNKRTV_B: { name: 'Панкратьев Борис' },
     PNKRTV_N: { name: 'Панкратьев Н' },
     PRVSKY: { name: 'Пировский Игорь' },

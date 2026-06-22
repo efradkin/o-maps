@@ -175,4 +175,30 @@ let kkpStartsMaps = [
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
         owner: 'NW'
     },
+    {
+        name: 'Пруды',
+        date: '2026-06-19',
+        start: 'KKP',
+        info: 'Лонг-масстарт.',
+        o_site: '260616-21_KKP',
+        calendar: 'SPB_20260619_1',
+        url: './maps/starts/kkp/kkp_prudy_2026_06_19.webp',
+        bounds: [[61.063829828537415, 29.121451377868656], [61.06007133175676, 29.15707111358643], [61.038799392811384, 29.110207557678223]],
+        author: ['VRBY','KVZN','TKMKV_K','BRGNTS'],
+        owner: 'NW',
+        zindex: 3
+    },
+    {
+        name: 'Пруды',
+        date: '2026-06-20',
+        start: 'KKP',
+        info: 'Спринт.',
+        o_site: '260616-21_KKP',
+        calendar: 'SPB_20260620_1',
+        url: './maps/starts/kkp/kkp_prudy_2026_06_20.webp',
+        bounds: [[61.077769748425915, 29.120593070983887], [61.075870626767916, 29.138767719268802], [61.06510678533918, 29.11514282226563]],
+        author: ['VRBY','KVZN','PSTVTV','TKMKV_K','BRGNTS'],
+        owner: 'NW',
+        zindex: 3
+    },
 ];

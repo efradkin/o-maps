@@ -491,6 +491,54 @@ let vyborgMaps = [
         owner: 'NW'
     },
     {
+        name: 'Пруды',
+        date: '2026-06-15',
+        start: 'KKP',
+        info: 'Детская эстафета Каменюкола.',
+        o_site: '260616-21_KKP',
+        calendar: 'SPB_20260615_1',
+        url: './maps/forest/vyborg/kkp_prudy_2026_06_15_kamenukola.webp',
+        bounds: [[61.07651405779457, 29.120850563049316], [61.07238341825566, 29.156641960144047], [61.055876239733266, 29.112181663513187]],
+        author: ['VRBY','KVZN','TKMKV_K','BRGNTS'],
+        owner: 'NW'
+    },
+    {
+        name: 'Пруды',
+        date: '2026-06-16',
+        start: 'KKP',
+        info: 'Классика.',
+        o_site: '260616-21_KKP',
+        calendar: 'SPB_20260616_2',
+        url: './maps/forest/vyborg/kkp_prudy_2026_06_16.webp',
+        bounds: [[61.06401670348004, 29.12638664245606], [61.058866857229724, 29.172649383544925], [61.048855486944674, 29.119992256164554]],
+        author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
+        owner: 'NW'
+    },
+    {
+        name: 'Пруды',
+        date: '2026-06-17',
+        start: 'KKP',
+        info: 'Классика.',
+        o_site: '260616-21_KKP',
+        calendar: 'SPB_20260617_1',
+        url: './maps/forest/vyborg/kkp_prudy_2026_06_17.webp',
+        bounds: [[61.08738813926659, 29.117717742919925], [61.08423421020519, 29.14758682250977], [61.06285390814719, 29.10711765289307]],
+        author: ['VRBY','KVZN','BRGNTS','PSTVTV'],
+        owner: 'NW'
+    },
+    {
+        name: 'Пруды',
+        date: '2026-06-18',
+        start: 'KKP',
+        info: 'Лонг.',
+        o_site: '260616-21_KKP',
+        calendar: 'SPB_20260618_1',
+        url: './maps/forest/vyborg/kkp_prudy_2026_06_18.webp',
+        bounds: [[61.06742178713347, 29.123167991638187], [61.063767536644896, 29.15853023529053], [61.035578275060416, 29.108963012695316]],
+        author: ['VRBY','KVZN','TKMKV_K','BRGNTS'],
+        owner: 'NW'
+    },
+    {
         name: 'Выборг, Монрепо',
         year: 2007,
         date: '2008-10-18',
@@ -856,13 +904,5 @@ let vyborgMaps = [
         restricted: 'с 19.03.2026 по 31.08.2026, ЧиП СПб',
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
-    },
-    {
-        name: 'ККП',
-        year: 2026,
-        url: './maps/trnsprnt.png',
-        bounds: [[61.097387335831144, 29.08287048339844], [61.08402670385254, 29.14278030395508], [61.02362610873696, 29.07188415527344]],
-        restricted: 'с 1.10.2025 по 16.06.2026, ККП-2026',
-        start: 'KKP',
     },
 ];

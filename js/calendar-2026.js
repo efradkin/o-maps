@@ -1701,7 +1701,7 @@ let events2026 = [
         video: ['https://vkvideo.ru/video-227779225_456239049','https://vk.com/video-93257360_456239318'],
         type: 'ORIENT',
         fmt: 'эстафета ночная',
-        map: 'kkp_prudy_2019_06_19',
+        map: 'kkp_prudy_2026_06_15_kamenukola',
         start: 'KKP'
     },
     {
@@ -1716,17 +1716,17 @@ let events2026 = [
         video: 'https://vk.com/video-93257360_456239321',
         type: 'ORIENT',
         fmt: 'эстафета детская',
-        map: 'kkp_prudy_2019_06_19',
+        map: 'kkp_prudy_2026_06_15_kamenukola',
         start: 'KKP'
     },
     {
         id: 'SPB_20260621_1',
         date: '2026-06-21',
-        endDate: '2026-06-26',
         name: 'Перспектива',
         place: 'Силанде',
         o_site: '260621_p',
         reg: 'http://orgeo.ru/event/info/53685',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25453/',
         type: 'ORIENT',
         map: 'silande_2024',
     },

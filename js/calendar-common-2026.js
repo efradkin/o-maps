@@ -404,7 +404,7 @@ let commonEvents2026 = [
     photo: 'https://www.sport-images.ru/events/kamni-karelskogo-peresheyka-2026/',
     type: 'ORIENT',
     fmt: 'многодневка',
-    map: 'kkp_prudy_2019_06_19',
+    map: 'kkp_prudy_2026_06_15_kamenukola',
     major: true,
     start: 'KKP'
 },
@@ -414,6 +414,7 @@ let commonEvents2026 = [
     name: 'ККП #1',
     place: 'Пруды',
     o_site: '260616-21_KKP',
+    planner: 'PLS_S',
     res: 'https://sportident.online/ol_new/?id=2831',
     gps: {
         'М':'https://viewer.o-gps-center.ru/viewer/event/25367/',
@@ -423,7 +424,7 @@ let commonEvents2026 = [
     video: ['https://vkvideo.ru/video-227779225_456239060','https://vk.com/video-93257360_456239322'],
     type: 'ORIENT',
     fmt: 'классика',
-    // map: 'kkp_prudy_2019_06_19',
+    map: 'kkp_prudy_2026_06_16',
     start: 'KKP'
 },
 {
@@ -442,7 +443,7 @@ let commonEvents2026 = [
     info: '<a href="https://vk.com/video-231742705_456239427">Интервью</a> с Никой Калининой.',
     type: 'ORIENT',
     fmt: 'классика',
-    // map: 'kkp_prudy_2019_06_19',
+    map: 'kkp_prudy_2026_06_17',
     start: 'KKP'
 },
 {
@@ -460,7 +461,7 @@ let commonEvents2026 = [
     video: ['https://vkvideo.ru/video-227779225_456239075','https://vk.com/video-93257360_456239324','https://vkvideo.ru/video-227779225_456239067'],
     type: 'ORIENT',
     fmt: 'лонг',
-    // map: 'kkp_prudy_2019_06_19',
+    map: 'kkp_prudy_2026_06_18',
     start: 'KKP'
 },
 {
@@ -478,7 +479,7 @@ let commonEvents2026 = [
     video: ['https://vkvideo.ru/video-227779225_456239076','https://vk.com/video-93257360_456239325','https://vkvideo.ru/video-227779225_456239072'],
     type: 'ORIENT',
     fmt: 'лонг-масстарт, классика',
-    // map: 'kkp_prudy_2019_06_19',
+    map: 'kkp_prudy_2026_06_19',
     start: 'KKP'
 },
 {
@@ -496,7 +497,7 @@ let commonEvents2026 = [
     video: 'https://vk.com/video-93257360_456239326',
     type: 'ORIENT',
     fmt: 'спринт',
-    // map: 'kkp_prudy_2019_06_19',
+    map: 'kkp_prudy_2026_06_20',
     start: 'KKP'
 },
 {
