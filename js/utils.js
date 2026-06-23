@@ -1568,7 +1568,7 @@ function buildEventPlace(event, suffix) {
         let result = '';
         for (const [i, m] of maps.entries()) {
             const mp = getMapForName(m);
-            if (mp && mp.page === 'starts') {
+            if (mp && (mp.page === 'starts' || (mp.start && starts[mp.start] && starts[mp.start].page === 'starts'))) {
                 mapPage = 'starts.html';
             }
             if (i === 0) {
@@ -1654,7 +1654,7 @@ function buildPublish(evt) {
             }
         }
     }
-    if (publish) {
+    if (publish.length > 0) {
         if (Array.isArray(publish)) {
             let pub = '', counter = 1;
             for (const p of publish) {

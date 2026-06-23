@@ -460,4 +460,40 @@ let naStartsMaps = [
         author: ['DJCHKV','PPV_D'],
         owner: 'SHEIN'
     },
+    {
+        name: 'Первомайское',
+        start: 'NA',
+        date: '2026-06-12',
+        info: ' Кросс-спринт 20.',
+        calendar: 'SPB_20260612_1',
+        url: './maps/starts/na/na_2026_06_12.webp',
+        link: ['./original_maps/starts/na/na_2026_06_12_m_omaps.webp','./original_maps/starts/na/na_2026_06_12_w_omaps.webp'],
+        bounds: [[60.417337698813114, 29.64587688446045], [60.4147422621417, 29.670059680938724], [60.408872633538756, 29.64216470718384]],
+        author: ['MKHLV_A','SLBDNK','GVRLK'],
+        owner: 'WN'
+    },
+    {
+        name: 'Первомайское',
+        start: 'NA',
+        date: '2026-06-13',
+        info: ' Кросс-классика 50.',
+        calendar: 'SPB_20260612_1',
+        url: './maps/starts/na/na_2026_06_13.webp',
+        link: ['./original_maps/starts/na/na_2026_06_13_m_omaps.webp','./original_maps/starts/na/na_2026_06_13_w_omaps.webp'],
+        bounds: [[60.43818901563771, 29.656562805175785], [60.43668571140118, 29.68741893768311], [60.42143700747974, 29.6471643447876]],
+        author: ['MKHLV_A','SLBDNK','GVRLK'],
+        owner: 'WN'
+    },
+    {
+        name: 'Первомайское',
+        start: 'NA',
+        date: '2026-06-14',
+        info: ' Кросс-классика 40.',
+        calendar: 'SPB_20260612_1',
+        url: './maps/starts/na/na_2026_06_14.webp',
+        link: ['./original_maps/starts/na/na_2026_06_14_m_omaps.webp','./original_maps/starts/na/na_2026_06_14_w_omaps.webp'],
+        bounds: [[60.425143947641956, 29.66570377349854], [60.42135227247892, 29.701023101806644], [60.407918983768276, 29.658236503601078]],
+        author: ['MKHLV_A','SLBDNK','GVRLK'],
+        owner: 'WN'
+    },
 ];
