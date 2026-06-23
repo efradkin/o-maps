@@ -1682,6 +1682,7 @@ let events2026 = [
         type: 'ORIENT',
         o_site: '260614',
         start: 'NA',
+        planner: ['SHRNN','RSKV_S','ZCHNV'],
         map: ['na_2026_06_12','na_2026_06_13','na_2026_06_14']
     },
     {

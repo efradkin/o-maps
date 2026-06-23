@@ -86,6 +86,7 @@ let planners = {
     RDNV_B: { name: 'Родионов Богдан' },
     RDNV_I: { name: 'Родионов Иван' },
     RDKV: { name: 'Рудаков Виктор' },
+    RSKV_S: { name: 'Русаков Сергей' },
     RYLOV_V: { name: 'Рылов Виктор' },
     RYKV_A: { name: 'Райков Александр' },
     RYZHOV: { name: 'Рыжов Сергей' },
