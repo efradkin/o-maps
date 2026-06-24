@@ -352,7 +352,7 @@ let authors = {
     SBLV_A: { name: 'Соболев Алексей' },
     SBLV_S: { name: 'Сибилёв Сергей' },
     SCHV_M: { name: 'Сычёв М.' },
-    SCHV_V: { name: 'Сычёв Владимир' },
+    SCHV_V: { name: 'Сычёв Владимир' }, // Александрович Н.Новгород
     SHLKHN_AN: { name: 'Шелёхин Анатолий' },
     SHLKHN_Y: {
         name: 'Шелёхин Юрий',
@@ -590,7 +590,7 @@ let authors = {
     },
     KLSV_S: { name: 'Колесов С.' },
     KLZHNY: { name: 'Калюжный Александр' },
-    KNDRSHKN_V: { name: 'Кондрашкин В.' },
+    KNDRSHKN_V: { name: 'Кондрашкин Василий' }, // Викторович Н.Новгород
     KNSTNTNV_Y: {
         name: 'Константинов Юрий',
         about: 'https://o-moscow.ru/people/KonstantinovUS.html'
@@ -817,7 +817,7 @@ let authors = {
     DLGNV_M: { name: 'Долганов М.' }, // Р.
     DLMHMTV: { name: 'Дильмухаметов Р.' }, // Р.
     DVTKN_A: { name: 'Девяткин А.' }, // В.
-    EKSHV: { name: 'Екишев М.' },
+    EKSHV: { name: 'Екишев Максим' }, // Феликсович Н.Новгород
     FDRV_S: { name: 'Фёдоров Сергей' },
     GZTLN: { name: 'Гизатулин Марат' },
     GBDLN: { name: 'Губайдулин Сахий' },

@@ -640,6 +640,55 @@ let otherMaps = [
         type: ['ROGAINE'],
         region: 'N_NOVGOROD'
     },
+    {
+        name: 'Вача, Лесниково',
+        date: '2026-06-10',
+        info: '10 июня - классика, 11 июня - масстарт.',
+        url: './maps/other/vacha_lesnikovo_2026_06_10.webp',
+        link: ['./original_maps/other/vacha_lesnikovo_2026_06_10_m_omaps.webp','./original_maps/other/vacha_lesnikovo_2026_06_10_w_omaps.webp','./original_maps/other/vacha_lesnikovo_2026_06_11_m_omaps.webp','./original_maps/other/vacha_lesnikovo_2026_06_11_w_omaps.webp'],
+        bounds: [[55.86103154243807, 42.62180328369141], [55.85838219238916, 42.65124320983887], [55.850866689266354, 42.61940002441407]],
+        author: 'EKSHV',
+        owner: 'VACHSKY',
+        start: 'VACHSKY',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Вача, Филинское',
+        date: '2026-06-12',
+        info: 'Спринт, ночной старт.',
+        url: './maps/other/vacha_filinskoe_2026_06_12.webp',
+        link: './original_maps/other/vacha_filinskoe_2026_06_12_omaps.webp',
+        bounds: [[55.773187725765936, 42.47859477996827], [55.77152816106286, 42.49382972717286], [55.764593433609, 42.475515604019165]],
+        author: 'EKSHV',
+        owner: 'VACHSKY',
+        start: 'VACHSKY',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Вача',
+        date: '2026-06-12',
+        info: 'Спринт.',
+        url: './maps/other/vacha_2026_06_12.webp',
+        link: ['./original_maps/other/vacha_2026_06_12_m_omaps.webp','./original_maps/other/vacha_2026_06_12_w_omaps.webp'],
+        bounds: [[55.80377743618105, 42.764689922332764], [55.80189605712837, 42.77927041053773], [55.797379170288536, 42.7619755268097]],
+        author: 'EKSHV',
+        owner: 'VACHSKY',
+        start: 'VACHSKY',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Вача, Александрово',
+        date: '2026-06-13',
+        info: '13 июня - лонг, 14 июня - выбор.',
+        url: './maps/other/vacha_aleksandrovo_2026_06_13.webp',
+        link: ['./original_maps/other/vacha_aleksandrovo_2026_06_13_m_omaps.webp','./original_maps/other/vacha_aleksandrovo_2026_06_13_w_omaps.webp','./original_maps/other/vacha_aleksandrovo_2026_06_14_omaps.webp'],
+        bounds: [[55.7821843538174, 42.4358081817627], [55.77901073019049, 42.46696472167969], [55.76930725120797, 42.43185997009278]],
+        author: 'EKSHV',
+        owner: 'VACHSKY',
+        start: 'VACHSKY',
+        region: 'N_NOVGOROD'
+    },
+    //author: ['KNDRSHKN_V','SCHV_V'],
     // --- Новосибирск ---
     {
         name: 'Новосибирск',

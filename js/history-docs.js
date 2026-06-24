@@ -603,9 +603,9 @@ let historyDocs = [
         link: './docs/1986/1986_ussr_champ_resolution_omaps.xlsx',
     },
     {
-        name: 'Буклет карт для спортивного ориентирования (Горький)',
+        name: 'Буклет карт для спортивного ориентирования города Горький (Нижний Новгород)',
         year: 1986,
-        link: './docs/1986/1986_gorky_maps.pdf',
+        link: './docs/1986/1986_gorky_omaps.pdf',
     },
     {
         name: 'Зимняя Спартакиада (Энколово)',

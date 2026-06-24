@@ -587,6 +587,10 @@ let owners = {
         name: 'По вопросам использования карты - Сергей Смирнов (89183038147, <a href="mailto:sergodrops@gmail.com">sergodrops@gmail.com</a>).',
         logo: 'kabarda.gif'
     },
+    VACHSKY: {
+        name: '© <a href="https://vazimut52.ru/">КСО "Вачский Азимут"</a> (<a href="https://vk.com/v_azimut">ВК</a>).',
+        logo: 'vachsky.webp'
+    },
     ZHRDV_T: {
         name: 'По вопросам использования карты - Тимур Жердев (8 903 416 6513, <a href = "https://t.me/Timyrnet" >Telegram</a>).',
         logo: 'karachay-cherkessia.gif'
