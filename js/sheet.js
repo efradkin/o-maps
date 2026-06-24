@@ -30,6 +30,11 @@ window.onload = function() {
             return m.start && (m.start === START_NAME_PARAM || (Array.isArray(m.start) && m.start.includes(START_NAME_PARAM)));
         });
     }
+    if (REGION_NAME_PARAM) {
+        oMaps = oMaps.filter(m => {
+            return REGION_NAME_PARAM === m.region;
+        });
+    }
     if (HAS_ONLY_ME_PARAM) {
         oMaps = oMaps.filter(m => {
             return m.me !== undefined;

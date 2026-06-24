@@ -290,6 +290,7 @@ const START_YEAR_PARAM = urlParams.get('startYear');
 const HAS_CALENDAR_PARAM = urlParams.has('calendar');
 const CALENDAR_PARAM = urlParams.get('calendar') ?? urlParams.get('event-type');
 let START_NAME_PARAM = urlParams.get('start');
+let REGION_NAME_PARAM = urlParams.get('region');
 const HAS_POI_PARAM = urlParams.has('poi');
 
 let HAS_ME_PARAM = urlParams.has('me');

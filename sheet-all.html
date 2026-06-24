@@ -128,6 +128,8 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
+    <script src="js/calendar-2026.js"></script>
+    <script src="js/calendar-common-2026.js"></script>
 
     <script src="js/maps-city.js"></script>
     <script src="js/maps-parks.js"></script>
@@ -225,6 +227,12 @@
             ...cityMaps,
             ...schoolMaps,
         ];
+
+        const oEvents = [
+            ...events2026,
+            ...commonEvents2026,
+        ];
+
         writeWelcomeButton();
     </script>
 

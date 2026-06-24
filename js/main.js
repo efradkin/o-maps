@@ -981,6 +981,9 @@ function skipMapLoad(m, forse) {
                 return true;
             }
         }
+        if (REGION_NAME_PARAM && REGION_NAME_PARAM !== m.region) {
+            return true;
+        }
     }
 
     // the specified author maps filtering
