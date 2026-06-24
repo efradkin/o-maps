@@ -647,7 +647,7 @@ let otherMaps = [
         url: './maps/other/navashino_2025_06_11.webp',
         link: ['./original_maps/other/navashino_2025_06_11_m_omaps.webp','./original_maps/other/navashino_2025_06_11_w_omaps.webp'],
         bounds: [[55.548713093707285, 42.18030095100403], [55.5465280633658, 42.19748854637147], [55.541969456305964, 42.17742562294007]],
-        author: 'EKSHV',
+        author: 'UHVNV_A',
         owner: 'VACHSKY',
         start: 'VACHSKY',
         region: 'N_NOVGOROD',
@@ -675,6 +675,19 @@ let otherMaps = [
         author: 'EKSHV',
         owner: 'VACHSKY',
         start: 'VACHSKY',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Вача, Невадьево',
+        date: '2026-06-05',
+        info: 'Кубок России. 5 - классика, 6 - лонг, 7 - многодневный.',
+        url: './maps/other/vacha_nevadievo_2026.webp',
+        link: ['./original_maps/other/vacha_nevadievo_2026_06_05_m_omaps.webp','./original_maps/other/vacha_nevadievo_2026_06_05_w_omaps.webp',
+               './original_maps/other/vacha_nevadievo_2026_06_06_m1_omaps.webp','./original_maps/other/vacha_nevadievo_2026_06_06_m2_omaps.webp','./original_maps/other/vacha_nevadievo_2026_06_06_m3_omaps.webp','./original_maps/other/vacha_nevadievo_2026_06_06_w1_omaps.webp','./original_maps/other/vacha_nevadievo_2026_06_06_w2_omaps.webp',
+               './original_maps/other/vacha_nevadievo_2026_06_07_m_omaps.webp','./original_maps/other/vacha_nevadievo_2026_06_07_w_omaps.webp'],
+        bounds: [[55.729623386405315, 42.72385597229004], [55.72480205524402, 42.76250123977662], [55.70640544493222, 42.71469354629517]],
+        author: ['KNDRSHKN_V','SCHV_V'],
+        owner: 'VACHSKY',
         region: 'N_NOVGOROD'
     },
     {
@@ -726,7 +739,6 @@ let otherMaps = [
         start: 'VACHSKY',
         region: 'N_NOVGOROD'
     },
-    //author: ['KNDRSHKN_V','SCHV_V'],
     // --- Новосибирск ---
     {
         name: 'Новосибирск',
