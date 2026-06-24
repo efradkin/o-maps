@@ -641,6 +641,43 @@ let otherMaps = [
         region: 'N_NOVGOROD'
     },
     {
+        name: 'Навашино',
+        date: '2025-06-11',
+        info: 'Спринт.',
+        url: './maps/other/navashino_2025_06_11.webp',
+        link: ['./original_maps/other/navashino_2025_06_11_m_omaps.webp','./original_maps/other/navashino_2025_06_11_w_omaps.webp'],
+        bounds: [[55.548713093707285, 42.18030095100403], [55.5465280633658, 42.19748854637147], [55.541969456305964, 42.17742562294007]],
+        author: 'EKSHV',
+        owner: 'VACHSKY',
+        start: 'VACHSKY',
+        region: 'N_NOVGOROD',
+        type: ['CITY','SPRINT']
+    },
+    {
+        name: 'Навашино, Коробково',
+        date: '2025-06-12',
+        info: 'Классика.',
+        url: './maps/other/navashino_korobkovo_2025_06_12.webp',
+        link: ['./original_maps/other/navashino_korobkovo_2025_06_12_m_omaps.webp','./original_maps/other/navashino_korobkovo_2025_06_12_w_omaps.webp'],
+        bounds: [[55.66044862926169, 42.28485345840454], [55.65753141060351, 42.30983018875123], [55.64945648103901, 42.28116273880005]],
+        author: 'EKSHV',
+        owner: 'VACHSKY',
+        start: 'VACHSKY',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Навашино, Малышево',
+        date: '2025-06-13',
+        info: '13 июня - лонг, 14 июня - пролог.',
+        url: './maps/other/navashino_malyshevo_2025_06_13.webp',
+        link: ['./original_maps/other/navashino_malyshevo_2025_06_13_m_omaps.webp','./original_maps/other/navashino_malyshevo_2025_06_13_w_omaps.webp','./original_maps/other/navashino_malyshevo_2025_06_14_m_omaps.webp','./original_maps/other/navashino_malyshevo_2025_06_14_w_omaps.webp'],
+        bounds: [[55.634779332682044, 42.31925010681153], [55.630660992975166, 42.35667228698731], [55.6198543500429, 42.31401443481446]],
+        author: 'EKSHV',
+        owner: 'VACHSKY',
+        start: 'VACHSKY',
+        region: 'N_NOVGOROD'
+    },
+    {
         name: 'Вача, Лесниково',
         date: '2026-06-10',
         info: '10 июня - классика, 11 июня - масстарт.',
@@ -671,10 +708,11 @@ let otherMaps = [
         url: './maps/other/vacha_2026_06_12.webp',
         link: ['./original_maps/other/vacha_2026_06_12_m_omaps.webp','./original_maps/other/vacha_2026_06_12_w_omaps.webp'],
         bounds: [[55.80377743618105, 42.764689922332764], [55.80189605712837, 42.77927041053773], [55.797379170288536, 42.7619755268097]],
-        author: 'EKSHV',
+        author: 'UHVNV_A',
         owner: 'VACHSKY',
         start: 'VACHSKY',
-        region: 'N_NOVGOROD'
+        region: 'N_NOVGOROD',
+        type: ['CITY','SPRINT']
     },
     {
         name: 'Вача, Александрово',
