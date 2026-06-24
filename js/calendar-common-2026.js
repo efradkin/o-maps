@@ -387,9 +387,11 @@ let commonEvents2026 = [
     type: 'MULTI',
     link: 'https://adventure-race.redfox.ru/docs/rules/',
     reg: 'https://adventure-race.redfox.ru/applications/',
+    res: 'https://adventure-race.redfox.ru/results/',
     gps: 'https://viewer.o-gps-center.ru/viewer/event/25313/',
     major: true,
     start: 'RFAR',
+    map: 'sortavala_redfox_2026'
 },
 {
     id: 'SPB_20260616_1',

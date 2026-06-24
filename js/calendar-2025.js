@@ -1198,7 +1198,6 @@ let events2025 = [
         ],
         start: 'NA',
         map: 'losevo_2022',
-        major: true
     },
     {
         id: 'SPB_20250613_1',

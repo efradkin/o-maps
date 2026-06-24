@@ -146,12 +146,25 @@ let rogaineRfarMaps = [
     {
         name: 'Карисалми',
         start: 'RFAR',
-        year: 2025,
+        date: '2025-06-13',
         url: './maps/rogaine/gvardeyskoe_rfar_2025.webp',
         link: './original_maps/rogaine/gvardeyskoe_rfar_2025_omaps.jpeg',
         bounds: [[61.06011286454441, 28.699722290039066], [61.00723912825571, 29.469108581542972], [60.69637576747284, 28.600158691406254]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/22778/',
         owner: 'RFAR',
         type: ['ROGAINE']
+    },
+    {
+        name: 'Сортавала',
+        start: 'RFAR',
+        date: '2026-06-12',
+        url: './maps/rogaine/sortavala_redfox_2026.webp',
+        link: './original_maps/rogaine/sortavala_redfox_2026_omaps.webp',
+        bounds: [[61.90404581380095, 30.646362304687504], [61.85493421532061, 31.131477355957035], [61.62475755222344, 30.521736145019535]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25313/',
+        calendar: 'SPB_20260613_1',
+        owner: 'RFAR',
+        type: ['ROGAINE'],
+        region: 'KARELIA'
     },
 ];
