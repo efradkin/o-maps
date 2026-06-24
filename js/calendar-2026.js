@@ -1699,6 +1699,7 @@ let events2026 = [
             'Ж1':'https://viewer.o-gps-center.ru/viewer/event/25332/',
             'Ж2':'https://viewer.o-gps-center.ru/viewer/event/25333/',
         },
+        photo: 'https://www.sport-images.ru/events/nochnaya-estafeta-piramida-2026/',
         video: ['https://vkvideo.ru/video-227779225_456239049','https://vk.com/video-93257360_456239318'],
         type: 'ORIENT',
         fmt: 'эстафета ночная',
