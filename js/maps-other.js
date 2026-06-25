@@ -533,7 +533,8 @@ let otherMaps = [
         results: './docs/1991/1991_ussr_champ_results_omaps.xlsx',
         bounds: [[55.741728465561664, 43.07383060455322], [55.73223318196301, 43.158073425292976], [55.702016537404816, 43.05975437164307]],
         author: ['KHDNKCH','SCHV_V','SCHRV_A','KNDRSHKN_V','SCHV_M'],
-        start: ['USSR_1991','USSR_CHAMP']
+        start: ['USSR_1991','USSR_CHAMP'],
+        region: 'N_NOVGOROD'
     },
     {
         name: 'Павлово, Рыльково',
@@ -543,7 +544,8 @@ let otherMaps = [
         results: './docs/1991/1991_ussr_champ_results_omaps.xlsx',
         bounds: [[55.731846556592885, 43.09713363647462], [55.72798009228692, 43.134641647338874], [55.700154427715745, 43.086705207824714]],
         author: ['SCHV_V','KNDRSHKN_V','KHDNKCH'],
-        start: ['USSR_1991','USSR_CHAMP']
+        start: ['USSR_1991','USSR_CHAMP'],
+        region: 'N_NOVGOROD'
     },
     {
         name: 'Павлово, Горбатов',
@@ -554,7 +556,53 @@ let otherMaps = [
         results: './docs/1991/1991_ussr_champ_results_omaps.xlsx',
         bounds: [[56.128308328965964, 43.0239200592041], [56.12359615070831, 43.06803703308106], [56.10043350555741, 43.01422119140626]],
         author: ['KHDNKCH','KNDRSHKN_V','SCHRV_A'],
-        start: ['USSR_1991','USSR_CHAMP']
+        start: ['USSR_1991','USSR_CHAMP'],
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Дзержинск, Решетиха',
+        year: 1986,
+        url: './maps/other/dzerzhinsk_reshetikha_1986.webp',
+        link: './original_maps/other/dzerzhinsk_reshetikha_1986_omaps.webp',
+        info: 'Карта из <a href="./docs/1986/1986_gorky_omaps.pdf">буклета</a>.',
+        bounds: [[56.2236236830739, 43.23094367980958], [56.218016428582494, 43.28136920928956], [56.20696654367677, 43.22570800781251]],
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Дзержинск, Жёлнино',
+        year: 1993,
+        url: './maps/other/dzerzhinsk_zhelnino_1993.webp',
+        link: './original_maps/other/dzerzhinsk_zhelnino_1993_omaps.webp',
+        bounds: [[56.225842497650966, 43.33016395568848], [56.2198537895661, 43.39041709899903], [56.206942674387804, 43.3262586593628]],
+        author: 'SCHRV_A',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Дзержинск, снт Жёлнино',
+        year: 1986,
+        url: './maps/other/dzerzhinsk_zhelnino_north_1986.webp',
+        link: './original_maps/other/dzerzhinsk_zhelnino_north_1986_omaps.webp',
+        info: 'Карта из <a href="./docs/1986/1986_gorky_omaps.pdf">буклета</a>.',
+        bounds: [[56.24735594824819, 43.25214385986329], [56.24210987930999, 43.30879211425782], [56.22474503553033, 43.24459075927735]],
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Дзержинск, Жёлнино, тб Чайка',
+        year: 1986,
+        url: './maps/other/dzerzhinsk_chaika_1986.webp',
+        link: './original_maps/other/dzerzhinsk_chaika_1986_omaps.webp',
+        info: 'Карта из <a href="./docs/1986/1986_gorky_omaps.pdf">буклета</a>.',
+        bounds: [[56.214580088541716, 43.372392654418945], [56.21262314613899, 43.431272506713874], [56.19163940274886, 43.37127685546876]],
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Дзержинск, им Свердлова',
+        year: 1991,
+        url: './maps/other/dzerzhinsk_sverdlova_1991.webp',
+        link: './original_maps/other/dzerzhinsk_sverdlova_1991_omaps.webp',
+        bounds: [[56.2572976613118, 43.29883575439454], [56.2556289689436, 43.37779998779297], [56.222931768380256, 43.29729080200196]],
+        author: ['OKN_V','KSCHV_V','KHLDV_V','ARTMNKV_V','DMN_A'],
+        region: 'N_NOVGOROD'
     },
     {
         name: 'Богородск',

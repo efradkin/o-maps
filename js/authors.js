@@ -887,6 +887,7 @@ let authors = {
 
     AFNSV_L: { name: 'Афанасьев Л.' },
     ANKN_I: { name: 'Аникин И.' }, // В.
+    ARTMNKV_V: { name: 'Артеменков В.' },
     ASMLV_A: { name: 'Асмолов Алексей' },
     ASMLVA_O: { name: 'Асмолова Олеся' },
     ATMNTSV: { name: 'Атаманцев С.' },
@@ -899,6 +900,7 @@ let authors = {
     BYMRZN: { name: 'Баймурзин Х.' },
     DCHNKO_G: { name: 'Дьяченко Г.' },
     DLNN_E: { name: 'Долинин Е.' },
+    DMN_A: { name: 'Дёмин А.' },
     VHTV_A: { name: 'Вахитов А.' },
     GLDKVA_S: { name: 'Гладкова Светлана' },
     GLTSKY_V: { name: 'Гелецкий В.' },
@@ -912,6 +914,7 @@ let authors = {
     IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
     IVNNKO_V: { name: 'Иваненко В.' },
     JVSA_A: { name: 'Jovaiša Andrius' },
+    KHLDV_V: { name: 'Хлудов В.' },
     KHNK_V: { name: 'Ханюк В.' },
     KKRV_S: { name: 'Кокарев Степан' },
     KLM_K: { name: 'Калм К.' },
@@ -919,6 +922,7 @@ let authors = {
     KNTSVCH: { name: 'Кунцевич Г.' }, // К.
     KNV_S: { name: 'Коняев Сергей' },
     KPVA_Y: { name: 'Купава Ю.' },
+    KSCHV_V: { name: 'Кощеев В.' },
     KVLVSKY_G: { name: 'Ковалевский Г.' },
     KRLS_M: { name: 'Karlis Magons' },
     KRLV_A: { name: 'Королёв А.' }, // А.
