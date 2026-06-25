@@ -699,6 +699,30 @@ let otherMaps = [
         region: 'N_NOVGOROD'
     },
     {
+        name: 'Навашино, Святое Дедовское оз',
+        date: '2023-06-12',
+        info: '10 - ночное, 12 - классика.',
+        url: './maps/other/navashino_dedovskoe_2023.webp',
+        link: ['./original_maps/other/navashino_dedovskoe_2023_06_10_m_omaps.webp','./original_maps/other/navashino_dedovskoe_2023_06_10_w_omaps.webp','./original_maps/other/navashino_dedovskoe_2023_06_12_m_omaps.webp','./original_maps/other/navashino_dedovskoe_2023_06_12_w_omaps.webp'],
+        bounds: [[55.66170744485177, 42.29217052459717], [55.658366653094845, 42.32405662536621], [55.6507640788851, 42.28813648223877]],
+        author: 'EKSHV',
+        owner: 'VACHSKY',
+        start: 'VACHSKY',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Навашино, Святое Дедовское оз',
+        date: '2023-06-11',
+        info: 'Лонг.',
+        url: './maps/other/navashino_dedovskoe_2023_06_11.webp',
+        link: ['./original_maps/other/navashino_dedovskoe_2023_06_11_m_omaps.webp','./original_maps/other/navashino_dedovskoe_2023_06_11_w_omaps.webp'],
+        bounds: [[55.644806890613424, 42.294745445251465], [55.64027785260025, 42.33624458312989], [55.62734178069966, 42.28882312774658]],
+        author: 'EKSHV',
+        owner: 'VACHSKY',
+        start: 'VACHSKY',
+        region: 'N_NOVGOROD'
+    },
+    {
         name: 'Навашино',
         date: '2025-06-11',
         info: 'Спринт.',
@@ -730,6 +754,18 @@ let otherMaps = [
         url: './maps/other/navashino_malyshevo_2025_06_13.webp',
         link: ['./original_maps/other/navashino_malyshevo_2025_06_13_m_omaps.webp','./original_maps/other/navashino_malyshevo_2025_06_13_w_omaps.webp','./original_maps/other/navashino_malyshevo_2025_06_14_m_omaps.webp','./original_maps/other/navashino_malyshevo_2025_06_14_w_omaps.webp'],
         bounds: [[55.634779332682044, 42.31925010681153], [55.630660992975166, 42.35667228698731], [55.6198543500429, 42.31401443481446]],
+        author: 'EKSHV',
+        owner: 'VACHSKY',
+        start: 'VACHSKY',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Вача, Монаково',
+        date: '2024-06-15',
+        info: '14 - лонг-масстарт, 15 - лонг.',
+        url: './maps/other/vacha_monakovo_2024.webp',
+        link: ['./original_maps/other/vacha_monakovo_2024_06_14_omaps.webp','./original_maps/other/vacha_monakovo_2024_06_15_omaps.webp'],
+        bounds: [[55.747574284965914, 42.385296821594245], [55.74329870969447, 42.42761135101319], [55.729840876032135, 42.38246440887452]],
         author: 'EKSHV',
         owner: 'VACHSKY',
         start: 'VACHSKY',
