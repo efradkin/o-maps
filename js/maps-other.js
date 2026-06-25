@@ -677,6 +677,16 @@ let otherMaps = [
         region: 'N_NOVGOROD'
     },
     {
+        name: 'Память Парижской коммуны',
+        year: 1983,
+        url: './maps/other/paris_commune_1983.webp',
+        link: './original_maps/other/paris_commune_1983_omaps.webp',
+        info: 'Чемпионат РСФСР по зоне Поволжья. Карта из <a href="./docs/1986/1986_gorky_omaps.pdf">буклета</a>.',
+        bounds: [[56.14846610477628, 44.47342872619629], [56.12962380864509, 44.54698562622071], [56.11713689748505, 44.448709487915046]],
+        author: 'KHLDV_V',
+        region: 'N_NOVGOROD'
+    },
+    {
         name: 'Шава',
         date: '2023-05-13',
         url: './maps/other/shava_rogaine_2023.webp',

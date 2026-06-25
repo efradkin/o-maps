@@ -449,7 +449,7 @@ let tracks = [
     {
         name: 'Тропа Лехмалахти',
         info: 'Линейный маршрут 14 км вдоль берега Ладожского озера у пролива Лехмалахти.',
-        link: 'https://rutrail.org/trails/120/',
+        link: 'https://www.sportmaster.ru/media/routes/sankt-peterburg/peshie-pohody-spb/tropa-lekhmalahti/',
         gpx: 'tracks/lehmalahti_omaps.gpx',
         markir: true,
         start: 'RUTRAIL',

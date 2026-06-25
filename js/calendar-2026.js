@@ -1824,6 +1824,7 @@ let events2026 = [
         name: 'Летнее первенство Белых ночей',
         place: 'о Койонсаари',
         o_site: '260611_bn',
+        reg: 'https://orgeo.ru/event/53639',
         type: 'ORIENT',
         map: 'koyonsaari_2024',
         owner: 'WN'
@@ -1854,16 +1855,6 @@ let events2026 = [
         type: 'ROGAINE',
         fmt: '16, 6',
         owner: 'SHBN'
-    },
-    {
-        id: 'SPB_20260731_1',
-        date: '2026-07-31',
-        endDate: '2026-08-02',
-        name: 'Летнее первенство Белых ночей',
-        place: 'о Койонсаари',
-        type: 'ORIENT',
-        map: 'koyonsaari_2024',
-        owner: 'WN'
     },
     {
         id: 'SPB_20260731_2',

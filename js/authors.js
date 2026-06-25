@@ -914,7 +914,7 @@ let authors = {
     IDLBV: { name: 'Идельбаев Нурбулат' }, // Волгодонск
     IVNNKO_V: { name: 'Иваненко В.' },
     JVSA_A: { name: 'Jovaiša Andrius' },
-    KHLDV_V: { name: 'Хлудов В.' },
+    KHLDV_V: { name: 'Хлудов В.' }, // С.
     KHNK_V: { name: 'Ханюк В.' },
     KKRV_S: { name: 'Кокарев Степан' },
     KLM_K: { name: 'Калм К.' },
