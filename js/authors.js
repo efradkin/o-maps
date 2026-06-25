@@ -351,7 +351,7 @@ let authors = {
     },
     SBLV_A: { name: 'Соболев Алексей' },
     SBLV_S: { name: 'Сибилёв Сергей' },
-    SCHV_M: { name: 'Сычёв М.' },
+    SCHV_M: { name: 'Сычёв Михаил' },
     SCHV_V: { name: 'Сычёв Владимир' }, // Александрович Н.Новгород
     SHLKHN_AN: { name: 'Шелёхин Анатолий' },
     SHLKHN_Y: {
@@ -829,7 +829,7 @@ let authors = {
     PRHRV_V: { name: 'Прохоров Владимир' },
     PRHRVA_E: { name: 'Прохорова Елена' },
     RHMTLNA: { name: 'Рахматуллина С.' },
-    SCHRV_A: { name: 'Щуров А.' },
+    SCHRV_A: { name: 'Щуров Алексей' },
     SDKV: { name: 'Садаков В.' }, // М.
     SLDTV_S: { name: 'Солдатов Сергей' },
     SLTNBKV: { name: 'Султанбеков Эрнст' },
