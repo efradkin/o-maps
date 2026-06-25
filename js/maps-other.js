@@ -705,6 +705,10 @@ let otherMaps = [
         url: './maps/other/navashino_dedovskoe_2023.webp',
         link: ['./original_maps/other/navashino_dedovskoe_2023_06_10_m_omaps.webp','./original_maps/other/navashino_dedovskoe_2023_06_10_w_omaps.webp','./original_maps/other/navashino_dedovskoe_2023_06_12_m_omaps.webp','./original_maps/other/navashino_dedovskoe_2023_06_12_w_omaps.webp'],
         bounds: [[55.66170744485177, 42.29217052459717], [55.658366653094845, 42.32405662536621], [55.6507640788851, 42.28813648223877]],
+        gps: {
+            '10':'https://viewer.o-gps-center.ru/viewer/event/16505/',
+            '12':'https://viewer.o-gps-center.ru/viewer/event/16744/'
+        },
         author: 'EKSHV',
         owner: 'VACHSKY',
         start: 'VACHSKY',
@@ -717,6 +721,7 @@ let otherMaps = [
         url: './maps/other/navashino_dedovskoe_2023_06_11.webp',
         link: ['./original_maps/other/navashino_dedovskoe_2023_06_11_m_omaps.webp','./original_maps/other/navashino_dedovskoe_2023_06_11_w_omaps.webp'],
         bounds: [[55.644806890613424, 42.294745445251465], [55.64027785260025, 42.33624458312989], [55.62734178069966, 42.28882312774658]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16515/',
         author: 'EKSHV',
         owner: 'VACHSKY',
         start: 'VACHSKY',
@@ -828,6 +833,8 @@ let otherMaps = [
         url: './maps/other/vacha_aleksandrovo_2026_06_13.webp',
         link: ['./original_maps/other/vacha_aleksandrovo_2026_06_13_m_omaps.webp','./original_maps/other/vacha_aleksandrovo_2026_06_13_w_omaps.webp','./original_maps/other/vacha_aleksandrovo_2026_06_14_omaps.webp'],
         bounds: [[55.7821843538174, 42.4358081817627], [55.77901073019049, 42.46696472167969], [55.76930725120797, 42.43185997009278]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25368/',
+        video: 'https://vk.com/video-140114545_456239149',
         author: 'EKSHV',
         owner: 'VACHSKY',
         start: 'VACHSKY',

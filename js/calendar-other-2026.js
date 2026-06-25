@@ -143,6 +143,7 @@ let otherEvents2026 = [
     fmt: '50,25,10 skate,classic',
     start: 'TOKSOVO_CUP',
     track: 'ohtapark_ski',
+    photo: ['https://www.sport-images.ru/events/lijniy-marafon-toksovocup-skate-2026/','https://www.sport-images.ru/events/lijniy-marafon-toksovocup-classic-2026/'],
     coord: [60.127481, 30.463336]
 },
 {

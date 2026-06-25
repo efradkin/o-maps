@@ -150,6 +150,7 @@ let pskovMaps = [
         date: '2024-06-23',
         url: './maps/pskov/pskov_rogaine_2024_06_03.webp',
         link: './original_maps/pskov/pskov_rogaine_2024_06_03_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19853/',
         info: 'Негативный рогейн.',
         bounds: [[57.83684741732398, 28.324685096740726], [57.83227808564592, 28.3747673034668], [57.797440744291066, 28.312153816223148]],
         author: 'GLTV_D',

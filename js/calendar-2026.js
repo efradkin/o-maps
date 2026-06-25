@@ -1717,6 +1717,7 @@ let events2026 = [
         reg: 'https://sportident.online/entry/?id=6853',
         res: 'https://sportident.online/ol_new/?id=2830',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25345/',
+        photo: 'https://www.sport-images.ru/events/detskaya-estafeta-kamenukola-2026/',
         video: 'https://vk.com/video-93257360_456239321',
         type: 'ORIENT',
         fmt: 'эстафета детская',

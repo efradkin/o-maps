@@ -1614,7 +1614,11 @@ function buildEventReports(evt, withGPS) {
         result += buildGpsLinks(evt, 'o-gps.gif');
     }
     if (evt.photo) {
-        result += ' ' + buildLink(evt.photo, '<img src="./images/photo-camera.png" alt="Фото">', 'Фотографии', true);
+        let img = 'photo-camera.png';
+        if (evt.photo.includes('sport-images.ru')) {
+            img = 'sportimages.webp';
+        }
+        result += ' ' + buildLink(evt.photo, `<img src="./images/${img}" alt="Фото">`, 'Фотографии', true);
     }
     if (evt.video) {
         result += ' ' + buildLink(evt.video, `<img src="./images/${getVideoImg(evt.video)}" alt="Видео">`, 'Видео', true);

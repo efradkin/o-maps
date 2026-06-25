@@ -76,6 +76,7 @@ let skiEvents2026 = [
         ],
         link: 'https://toksovocup.com/',
         reg: 'https://russialoppet.ru/events/toksovo2026.html',
+        photo: 'https://www.sport-images.ru/events/lijniy-marafon-toksovocup-skate-2026/',
         start: 'TOKSOVO_CUP',
         russialoppet: true,
         price: 1
@@ -93,6 +94,7 @@ let skiEvents2026 = [
         ],
         link: 'https://toksovocup.com/',
         reg: 'https://russialoppet.ru/events/toksovo2026.html',
+        photo: 'https://www.sport-images.ru/events/lijniy-marafon-toksovocup-classic-2026/',
         start: 'TOKSOVO_CUP',
         russialoppet: true,
         price: 1
