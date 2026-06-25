@@ -57,6 +57,10 @@ const mapsStatObj = { // collects the maps statistics
     rogaineGroup: [],
 };
 
+if (HAS_ALL_YEARS_PARAM) {
+    allYearsRequired = true;
+}
+
 let mapElement = document.getElementById('map');
 if (mapElement) {
     osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

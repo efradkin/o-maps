@@ -285,6 +285,7 @@ let HAS_NO_BUTTONS_PARAM = urlParams.has('no-buttons');
 const HAS_EMBEDDED_PARAM = urlParams.has('embedded');
 const HAS_OCAD_PARAM = urlParams.has('ocad');
 const HAS_RETRO_PARAM = urlParams.has('retro');
+const HAS_ALL_YEARS_PARAM = urlParams.has('all-years');
 const YEAR_PARAM = urlParams.get('year');
 const START_YEAR_PARAM = urlParams.get('startYear');
 const HAS_CALENDAR_PARAM = urlParams.has('calendar');
