@@ -557,7 +557,8 @@ let commonEvents2026 = [
     reg: 'https://orgeo.ru/event/52502',
     type: ['ROGAINE','WATER'],
     fmt: 'байдарка, SUP',
-    logo: 'great_river.gif'
+    logo: 'great_river.gif',
+    map: 'delta_velikaya_river'
 },
 {
     id: 'SPB_20260709_1',

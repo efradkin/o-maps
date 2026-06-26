@@ -300,6 +300,7 @@ let pskovMaps = [
     },
     {
         name: 'Дельта реки Великой',
+        page: 'pskov',
         year: 2021,
         url: './maps/pskov/delta_velikaya_river_2021.webp',
         hidden: true,

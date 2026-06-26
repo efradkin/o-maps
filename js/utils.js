@@ -1570,8 +1570,8 @@ function buildEventPlace(event, suffix) {
         let result = '';
         for (const [i, m] of maps.entries()) {
             const mp = getMapForName(m);
-            if (mp && (mp.page === 'starts' || (mp.start && starts[mp.start] && starts[mp.start].page === 'starts'))) {
-                mapPage = 'starts.html';
+            if (mp && (mp.page || (mp.start && starts[mp.start] && starts[mp.start].page))) {
+                mapPage = (mp.page ?? (mp.start && starts[mp.start] && starts[mp.start].page)) + '.html';
             }
             if (i === 0) {
                 result = buildLink(`${mapPage}?calendar&map=${m}`, event.place + ' 🗺️', 'Карта на O-Maps');

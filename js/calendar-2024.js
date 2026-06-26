@@ -1049,7 +1049,8 @@ let events2024 = [
         name: 'Кубок реки Великой 2024',
         type: 'ROGAINE',
         link: 'https://orgeo.ru/event/info/36109',
-        res: 'https://vk.com/velikayarivercub?w=wall-40068620_1185'
+        res: 'https://vk.com/velikayarivercub?w=wall-40068620_1185',
+        map: 'delta_velikaya_river'
     },
     {
         id: 'SPB_20240707_1',

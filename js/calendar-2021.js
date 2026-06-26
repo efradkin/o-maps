@@ -977,7 +977,8 @@ let events2021 = [
         name: 'Кубок реки Великой',
         type: 'ROGAINE',
         fmt: '6',
-        link: 'https://vk.com/velikayarivercub'
+        link: 'https://vk.com/velikayarivercub',
+        map: 'delta_velikaya_river'
     },
     {
         id: 'SPB_20210620_1',
