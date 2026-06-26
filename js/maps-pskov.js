@@ -299,12 +299,13 @@ let pskovMaps = [
         type: ['CITY','SPRINT']
     },
     {
-        name: 'дельта реки Великой',
+        name: 'Дельта реки Великой',
         year: 2021,
         url: './maps/pskov/delta_velikaya_river_2021.webp',
+        hidden: true,
+        info: '<p class="restricted-text">Права собственности на карту оспариваются.</p>',
         bounds: [[57.90084846095205, 28.065004348754886], [57.886341799331426, 28.234090805053714], [57.845573230640916, 28.048524856567386]],
         author: 'GLTV_D',
-        owner: 'GLTV_D',
         type: ['ROGAINE']
     },
     {
