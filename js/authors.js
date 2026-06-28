@@ -352,7 +352,10 @@ let authors = {
     SBLV_A: { name: 'Соболев Алексей' },
     SBLV_S: { name: 'Сибилёв Сергей' },
     SCHV_M: { name: 'Сычёв Михаил' },
-    SCHV_V: { name: 'Сычёв Владимир' }, // Александрович Н.Новгород
+    SCHV_V: {
+        name: 'Сычёв Владимир', // Александрович Н.Новгород
+        about: 'https://rufso.ru/wp-content/uploads/2020/03/Сычёв-В.А..pdf'
+    },
     SHLKHN_AN: { name: 'Шелёхин Анатолий' },
     SHLKHN_Y: {
         name: 'Шелёхин Юрий',

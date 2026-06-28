@@ -1756,7 +1756,8 @@ let events2026 = [
         link: 'http://hardadventure.ru/ladoga2026',
         o_site: '260627r',
         reg: 'http://reg.o-time.ru/race/26238',
-        info: 'Водный рогейн по шхерам Ладожского озера на байдарках, каяках и SUP-ах.',
+        info: '<a href="https://ladoga.o-route.ru/">Треки участников</a>.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25504/',
         type: ['ROGAINE','WATER'],
         fmt: '12, 6, 4',
         map: 'kuznechnoe_hard_2024',
@@ -1803,6 +1804,7 @@ let events2026 = [
         place: 'Орехово',
         name: 'Горный кросс-115',
         o_site: '260704R',
+        reg: 'https://orgeo.ru/event/50692',
         type: 'ROGAINE',
         fmt: '6(5), 3',
         map: 'lembolovo_orekhovo_gk_2024',
@@ -1817,6 +1819,16 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/53666',
         type: 'INDOOR',
         owner: 'OPNBND'
+    },
+    {
+        id: 'SPB_20260706_1',
+        date: '2026-07-06',
+        name: 'Июльские эстафеты',
+        place: 'Сосново, оз Уловное',
+        reg: 'https://orgeo.ru/event/53793',
+        type: 'ORIENT',
+        owner: 'WN',
+        map: 'sosnovo_ulovnoe_oz_2023'
     },
     {
         id: 'SPB_20260711_1',
@@ -1970,6 +1982,7 @@ let events2026 = [
         date: '2026-09-19',
         place: 'Молодёжное',
         name: 'Горный кросс-116',
+        reg: 'https://orgeo.ru/event/50693',
         type: 'ROGAINE',
         fmt: '5(4), 2',
         map: 'molodezhnoe_gk_2024',
@@ -2018,6 +2031,8 @@ let events2026 = [
         id: 'SPB_20261010_1',
         date: '2026-10-10',
         name: 'Горный кросс',
+        info: 'Тренировка по рогейну и ориентированию.',
+        reg: 'https://orgeo.ru/event/50690',
         type: 'ROGAINE',
         fmt: '2(1)',
         start: 'GORNY_CROSS'
@@ -2120,6 +2135,7 @@ let events2026 = [
         date: '2026-11-07',
         place: 'Орехово',
         name: 'Горный кросс-117',
+        reg: 'https://orgeo.ru/event/50689',
         type: 'ROGAINE',
         fmt: '6(5), 3',
         start: 'GORNY_CROSS'
