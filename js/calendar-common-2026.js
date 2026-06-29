@@ -577,6 +577,7 @@ let commonEvents2026 = [
     name: 'Клубный Кубок Карелии (ККК)',
     place: 'Курмойла',
     link: 'https://vk.com/club197340171',
+    reg: ['https://orgeo.ru/event/53644','https://orgeo.ru/event/53645'],
     type: 'ORIENT',
     start: 'KKK'
 },
