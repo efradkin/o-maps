@@ -1743,6 +1743,7 @@ let events2026 = [
         place: 'Пески',
         o_site: '260625',
         reg: 'https://orgeo.ru/event/52838',
+        photo: 'https://vk.com/album-128591100_311331067',
         type: 'ORIENT',
         fmt: 'командный спринт / эстафета',
         map: 'peski_2026',
@@ -2045,6 +2046,19 @@ let events2026 = [
         place: 'Выборг',
         type: 'ORIENT',
         owner: 'VYBORG'
+    },
+    {
+        id: 'SPB_20261010_4',
+        date: '2026-10-10',
+        name: 'BikeAdventure',
+        place: 'Лемболово',
+        type: ['ROGAINE', 'VELO'],
+        fmt: '6',
+        link: 'https://vk.com/bikeadventure',
+        reg: 'https://orgeo.ru/event/53879',
+        info: '+ беговой TrailAdventure.',
+        start: ['BA','TA'],
+        owner: ['BKTV', 'SHBN'],
     },
     {
         id: 'SPB_20261011_1',

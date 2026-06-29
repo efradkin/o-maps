@@ -528,8 +528,70 @@ let commonEvents2026 = [
     info: 'Новые карты.',
     type: 'ORIENT',
     fmt: 'классика, многодневный (лонг)',
+    photo: 'https://vk.com/album-128591100_311341698',
     map: 'peski_2026',
     major: true,
+    start: 'MMS'
+},
+{
+    id: 'SPB_20260626_2',
+    date: '2026-06-26',
+    name: 'ММС #1',
+    place: 'Пески',
+    o_site: 'mms2026',
+    link: 'https://sfr-system.ru/mms/',
+    gps: {
+        'ЖЭ,18,35,40/М45,50':'https://viewer.o-gps-center.ru/viewer/event/25514/',
+        'ALL':'https://viewer.o-gps-center.ru/viewer/event/25475/'
+    },
+    reskeep: 898,
+    strava: 19075537269,
+    me: 'М50',
+    type: 'ORIENT',
+    fmt: 'спринт',
+    map: 'peski_2026',
+    start: 'MMS'
+},
+{
+    id: 'SPB_20260627_3',
+    date: '2026-06-27',
+    name: 'ММС #2, пролог',
+    place: 'Пески',
+    o_site: 'mms2026',
+    link: 'https://sfr-system.ru/mms/',
+    gps: {
+        'ЖЭ':'https://viewer.o-gps-center.ru/viewer/event/25518/',
+        'М18/35/40':'https://viewer.o-gps-center.ru/viewer/event/25510/',
+        'ALL':'https://viewer.o-gps-center.ru/viewer/event/25478/',
+    },
+    reskeep: 899,
+    strava: 19083758289,
+    me: 'М50',
+    type: 'ORIENT',
+    fmt: 'классика',
+    map: 'peski_2026',
+    start: 'MMS'
+},
+{
+    id: 'SPB_20260628_2',
+    date: '2026-06-28',
+    name: 'ММС #3, финал',
+    place: 'Пески',
+    o_site: 'mms2026',
+    link: 'https://sfr-system.ru/mms/',
+    gps: {
+        'ЖЭ':'https://viewer.o-gps-center.ru/viewer/event/25517/',
+        'М18/35/40':'https://viewer.o-gps-center.ru/viewer/event/25511/',
+        'М45/50':'https://viewer.o-gps-center.ru/viewer/event/25515/',
+        'Раззява':'https://viewer.o-gps-center.ru/viewer/event/25513/',
+        'ALL':'https://viewer.o-gps-center.ru/viewer/event/25490/'
+    },
+    reskeep: [900,901],
+    strava: 19096395426,
+    me: 'М50',
+    type: 'ORIENT',
+    fmt: 'лонг, гандикап',
+    map: 'peski_2026',
     start: 'MMS'
 },
 {
