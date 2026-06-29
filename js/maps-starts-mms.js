@@ -717,6 +717,7 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2026_06_27_omaps.webp',
         bounds: [[60.48946082428701, 30.418331623077396], [60.48704027302365, 30.441548824310306], [60.46495100691001, 30.407431125640873]],
         author: ['BRGNTS','VSLV_S','VRBY'],
+        owner: 'SFSO_LO',
         publish: 'https://vk.com/album-142737358_311427986',
     },
     {
@@ -731,6 +732,7 @@ let mmsStartsMaps = [
         link: ['./original_maps/starts/mms/mms_2026_06_28_1_omaps.webp','./original_maps/starts/mms/mms_2026_06_28_2_omaps.webp'],
         bounds: [[60.492832382805915, 30.419554710388187], [60.48832984683702, 30.460324287414554], [60.475622137417766, 30.41146516799927]],
         author: ['BRGNTS','VSLV_S','VRBY'],
+        owner: 'SFSO_LO',
         publish: 'https://vk.com/album-142737358_311427986',
     },
     {
@@ -745,6 +747,7 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2026_06_26_omaps.webp',
         bounds: [[60.492853519998086, 30.421786308288578], [60.49057062363005, 30.443372726440433], [60.47989383641234, 30.41594982147217]],
         author: ['BRGNTS','VSLV_S','VRBY'],
+        owner: 'SFSO_LO',
         publish: 'https://vk.com/album-142737358_311427986',
         planner: 'ILVS'
     },
