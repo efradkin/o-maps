@@ -919,7 +919,7 @@ function checkMapsLoad() {
                     target: '#year_slider',
                     values: years,
                     range: !timeline,
-                    set: timeline ? [years[years.length - 1]] : [years[0], years[years.length - 1]],
+                    set: timeline ? [YEAR_PARAM ?? years[years.length - 1]] : [years[0], years[years.length - 1]],
                     labels: wideScreen,
                     tooltip: !wideScreen,
                     onChange: function (vals) {
