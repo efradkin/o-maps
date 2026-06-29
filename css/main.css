@@ -620,6 +620,14 @@ button.nav-link {
     margin: 20px;
     padding: 0;
     border: 3px solid darkolivegreen;
+
+    .start-map-box-description {
+        font-weight: bold;
+        font-size: 12px;
+        height: 15px;
+        overflow-y: hidden;
+    }
+
 }
 .start-map-box:hover {
     border: 3px solid lightgoldenrodyellow;

@@ -190,16 +190,18 @@
 */
             let row = `
                     <div class="start-map-box align-items-center d-flex justify-content-center">
-                        <a href="#map_link" target="_self"><img src="#map_img_src" title="#start_short: #map_year - #map_place"/></a>
+                        <div>
+                            <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_title" /></a>
+                            <div class="start-map-box-description">#map_title</div>
+                        </div>
                     </div>
             `;
-            row = row.replace('#start_short', strt.short);
             row = row.replace('#map_img_src', mapImageUrl(m));
             row = row.replace('#map_href', m.link);
             row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(m.url));
-            row = row.replace('#map_year', startYear(m) ?? year(m));
             //row = row.replace('#map_month', date.getMonth() + 1);
-            row = row.replace('#map_place', m.name);
+            const mapTitle = `${strt.short}: ${startYear(m) ?? year(m)} - ${m.name}`;
+            row = row.replaceAll('#map_title', mapTitle);
             const elRow = document.createElement("div");
             elRow.classList.add("row");
             elRow.innerHTML = row;
