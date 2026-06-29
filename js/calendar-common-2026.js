@@ -529,6 +529,7 @@ let commonEvents2026 = [
     type: 'ORIENT',
     fmt: 'классика, многодневный (лонг)',
     photo: 'https://vk.com/album-128591100_311341698',
+    me: 'М50',
     map: 'peski_2026',
     major: true,
     start: 'MMS'
@@ -537,7 +538,7 @@ let commonEvents2026 = [
     id: 'SPB_20260626_2',
     date: '2026-06-26',
     name: 'ММС #1',
-    place: 'Пески',
+    place: 'Пески, оз Ночное',
     o_site: 'mms2026',
     link: 'https://sfr-system.ru/mms/',
     gps: {
@@ -549,14 +550,15 @@ let commonEvents2026 = [
     me: 'М50',
     type: 'ORIENT',
     fmt: 'спринт',
-    map: 'peski_2026',
+    map: 'mms_2026_06_26',
+    planner: 'ILVS',
     start: 'MMS'
 },
 {
     id: 'SPB_20260627_3',
     date: '2026-06-27',
     name: 'ММС #2, пролог',
-    place: 'Пески',
+    place: 'Пески, оз Забытое',
     o_site: 'mms2026',
     link: 'https://sfr-system.ru/mms/',
     gps: {
@@ -569,14 +571,15 @@ let commonEvents2026 = [
     me: 'М50',
     type: 'ORIENT',
     fmt: 'классика',
-    map: 'peski_2026',
+    map: 'mms_2026_06_27',
+    planner: 'ILVS',
     start: 'MMS'
 },
 {
     id: 'SPB_20260628_2',
     date: '2026-06-28',
     name: 'ММС #3, финал',
-    place: 'Пески',
+    place: 'Пески, оз Пулконлампи',
     o_site: 'mms2026',
     link: 'https://sfr-system.ru/mms/',
     gps: {
@@ -591,7 +594,8 @@ let commonEvents2026 = [
     me: 'М50',
     type: 'ORIENT',
     fmt: 'лонг, гандикап',
-    map: 'peski_2026',
+    planner: 'NKTN_I',
+    map: 'mms_2026_06_28',
     start: 'MMS'
 },
 {

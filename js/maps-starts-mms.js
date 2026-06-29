@@ -670,7 +670,7 @@ let mmsStartsMaps = [
     {
         name: 'Яппиля, оз Пистолет',
         start: 'MMS',
-        year: 2024,
+        year: 2025,
         date: '2025-06-21',
         info: 'Пролог.',
         o_site: 'mms2025',
@@ -683,7 +683,7 @@ let mmsStartsMaps = [
     {
         name: 'Яппиля, оз Пистолет',
         start: 'MMS',
-        year: 2024,
+        year: 2025,
         date: '2025-06-22',
         info: 'Финал.',
         o_site: 'mms2025',
@@ -696,7 +696,7 @@ let mmsStartsMaps = [
     {
         name: 'Яппиля, оз Пистолет',
         start: 'MMS',
-        year: 2024,
+        year: 2025,
         date: '2025-06-20',
         info: 'Тренировка.',
         o_site: 'mms2025',
@@ -704,6 +704,51 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2025_06_20_omaps.jpg',
         bounds: [[60.2073309438698, 29.119434356689457], [60.20374847695044, 29.15496826171875], [60.195750487705276, 29.11484241485596]],
         author: ['NSNV','KVZN','TKMKV_K','TKMKVA_P'],
+        planner: 'ILVS'
+    },
+    {
+        name: 'Пески, оз Забытое',
+        start: 'MMS',
+        date: '2026-06-27',
+        info: 'Пролог, классика.',
+        o_site: 'mms2026',
+        about: 'https://sfr-system.ru/mms/',
+        calendar: 'SPB_20260627_1',
+        url: './maps/starts/mms/mms_2026_06_27.webp',
+        link: './original_maps/starts/mms/mms_2026_06_27_omaps.webp',
+        bounds: [[60.48946082428701, 30.418331623077396], [60.48704027302365, 30.441548824310306], [60.46495100691001, 30.407431125640873]],
+        author: ['BRGNTS','VSLV_S','VRBY'],
+        publish: 'https://vk.com/album-142737358_311427986',
+        planner: 'ILVS'
+    },
+    {
+        name: 'Пески, оз Пулконлампи',
+        start: 'MMS',
+        date: '2026-06-28',
+        info: 'Лонг, гандикап.',
+        o_site: 'mms2026',
+        about: 'https://sfr-system.ru/mms/',
+        calendar: 'SPB_20260628_1',
+        url: './maps/starts/mms/mms_2026_06_28.webp',
+        link: ['./original_maps/starts/mms/mms_2026_06_28_1_omaps.webp','./original_maps/starts/mms/mms_2026_06_28_2_omaps.webp'],
+        bounds: [[60.492832382805915, 30.419554710388187], [60.48832984683702, 30.460324287414554], [60.475622137417766, 30.41146516799927]],
+        author: ['BRGNTS','VSLV_S','VRBY'],
+        publish: 'https://vk.com/album-142737358_311427986',
+        planner: 'ILVS'
+    },
+    {
+        name: 'Пески, оз Ночное',
+        start: 'MMS',
+        date: '2026-06-26',
+        info: 'Тренировка.',
+        o_site: 'mms2026',
+        about: 'https://sfr-system.ru/mms/',
+        calendar: 'SPB_20260626_2',
+        url: './maps/starts/mms/mms_2026_06_26.webp',
+        link: './original_maps/starts/mms/mms_2026_06_26_omaps.webp',
+        bounds: [[60.492853519998086, 30.421786308288578], [60.49057062363005, 30.443372726440433], [60.47989383641234, 30.41594982147217]],
+        author: ['BRGNTS','VSLV_S','VRBY'],
+        publish: 'https://vk.com/album-142737358_311427986',
         planner: 'ILVS'
     },
 ];
