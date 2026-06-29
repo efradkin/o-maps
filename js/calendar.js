@@ -144,7 +144,7 @@ function renderMapsTable() {
 
     let idx = 0;
     let prevYear = 0;
-    let currentMonth = -1;
+    let currentMonth = -1, currentYear = -1;
     for (const evt of oEvents) {
         if (onlyMy && !evt.strava && !evt.my && (!evt.id || !myEvents.includes(evt.id))) {
             continue;
@@ -153,11 +153,13 @@ function renderMapsTable() {
         if (validateEvent(evt)) {
             currentDate = new Date(evt.date);
             let month = currentDate.getMonth();
-            if (currentSort === 'date' && month !== currentMonth) {
+            const y = currentDate.getFullYear();
+            if (currentSort === 'date' && (month !== currentMonth || y !== currentYear)) {
                 if (monthTD) {
                     buildMonth();
                 }
                 currentMonth = month;
+                currentYear = y;
                 const monthRow = document.createElement('tr');
                 monthTD = document.createElement('td');
                 monthTD.setAttribute('colspan', 8);
@@ -195,7 +197,6 @@ function renderMapsTable() {
                     kothers++;
                 }
             }
-            const y = currentDate.getFullYear();
             if (y !== prevYear) {
                 prevYear = y;
                 idx = 0;
