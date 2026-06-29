@@ -96,7 +96,13 @@ window.onload = function() {
 
     // сортировка стартов
     oEvents.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
-        .sort((a, b) => dateForCompare(a) - dateForCompare(b));
+        .sort((a, b) => {
+            let compare = dateForCompare(a) - dateForCompare(b);
+            if (compare === 0 && a.id && b.id) {
+                compare = a.id.localeCompare(b.id);
+            }
+            return compare
+        });
 
     // Навешиваем обработчик на заголовок таблицы
     document.querySelectorAll('th.sortable').forEach(
