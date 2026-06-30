@@ -293,6 +293,7 @@ const CALENDAR_PARAM = urlParams.get('calendar') ?? urlParams.get('event-type');
 let START_NAME_PARAM = urlParams.get('start');
 let REGION_NAME_PARAM = urlParams.get('region');
 const HAS_POI_PARAM = urlParams.has('poi');
+const HAS_OOPT_PARAM = urlParams.has('oopt');
 
 let HAS_ME_PARAM = urlParams.has('me');
 const HAS_ONLY_ME_PARAM = urlParams.has('only-me');
