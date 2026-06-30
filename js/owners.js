@@ -566,6 +566,14 @@ let owners = {
         name: '© <a href="http://fso.karelia.ru/">ФСО Республики Карелия</a>',
         logo: 'fso_karelia.png'
     },
+    FSO_NN: {
+        name: '© <a href="https://fsono.ru/">ФСО Нижегородской области</a>',
+        logo: 'nn_orient.gif'
+    },
+    NN_RORAINE: {
+        name: '© <a href="https://nn-rogaine.ru/">Нижегородский рогейн</a>',
+        logo: 'nn_rogaine.gif'
+    },
     NBLSNV: {
         name: '© Небольсинов Алексей (+79534611661)',
         logo: 'maloyaroslavets.gif'

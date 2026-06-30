@@ -100,7 +100,7 @@ const regions = {
     },
     N_NOVGOROD: {
         name: 'Нижний Новгород',
-        logo: 'nn_rogaine.gif'
+        logo: 'nn_orient.gif'
     },
     NOVGOROD: {
         name: 'Великий Новгород',
