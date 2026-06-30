@@ -1828,8 +1828,19 @@ let events2026 = [
         place: 'Сосново, оз Уловное',
         reg: 'https://orgeo.ru/event/53793',
         type: 'ORIENT',
+        fmt: 'эстафета',
         owner: 'WN',
         map: 'sosnovo_ulovnoe_oz_2023'
+    },
+    {
+        id: 'SPB_20260707_1',
+        date: '2026-07-07',
+        name: 'Физкультурное мероприятие по ориентированию среди семейных команд',
+        place: 'парк Интернационалистов',
+        link: 'https://vk.com/wall-30686281_24429',
+        type: 'FUN',
+        fmt: 'ночное',
+        map: 'internatsionalistov_2021'
     },
     {
         id: 'SPB_20260711_1',
@@ -1848,8 +1859,18 @@ let events2026 = [
         date: '2026-07-18',
         name: 'Воробьевый рогейн + ориент',
         o_site: '260718_rog',
+        reg: 'https://orgeo.ru/event/53902',
         type: ['ROGAINE', 'ORIENT'],
         owner: 'WN'
+    },
+    {
+        id: 'SPB_20260723_1',
+        date: '2026-07-23',
+        name: 'Физкультурное мероприятие по ориентированию',
+        place: 'парк Интернационалистов',
+        link: 'https://vk.com/wall-30686281_24429',
+        type: 'ORIENT',
+        map: 'internatsionalistov_2021'
     },
     {
         id: 'SPB_20260725_1',
@@ -1963,10 +1984,7 @@ let events2026 = [
         id: 'SPB_20260918_1',
         date: '2026-09-18',
         name: 'Велоизоляция',
-        type: [
-            'ROGAINE',
-            'VELO'
-        ],
+        type: ['ROGAINE', 'VELO'],
         fmt: '8, 4',
         start: 'MULTSPORT'
     },
