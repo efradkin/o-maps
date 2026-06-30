@@ -1698,7 +1698,7 @@ function buildEventType(evt, withFmt) {
             case 'FUN':
                 result = 'Интерактив'; break;
             case 'INDOOR':
-                result = 'В помещении';
+                result = 'В помещении'; break;
             case 'SPECIAL':
                 result = 'Другой';
         }
@@ -1717,6 +1717,8 @@ function buildEventType(evt, withFmt) {
                 result = 'Рогейн';
             } else if (evt.type.includes('SPECIAL')) {
                 result = 'Другой';
+            } else if (evt.type.includes('INDOOR')) {
+                result = 'В помещении';
             } else {
                 result = 'Рогейн, Ориент';
             }
