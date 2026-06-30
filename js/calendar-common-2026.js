@@ -583,6 +583,7 @@ let commonEvents2026 = [
     o_site: 'mms2026',
     link: 'https://sfr-system.ru/mms/',
     gps: {
+        'МЭ':'https://viewer.o-gps-center.ru/viewer/event/25520/',
         'ЖЭ':'https://viewer.o-gps-center.ru/viewer/event/25517/',
         'М18/35/40':'https://viewer.o-gps-center.ru/viewer/event/25511/',
         'М45/50':'https://viewer.o-gps-center.ru/viewer/event/25515/',
