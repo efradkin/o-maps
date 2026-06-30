@@ -424,7 +424,12 @@ let commonEvents2026 = [
         'Ж':'https://viewer.o-gps-center.ru/viewer/event/25366/',
         'М50/55':'https://viewer.o-gps-center.ru/viewer/event/25434/',
     },
-    video: ['https://vkvideo.ru/video-227779225_456239060','https://vk.com/video-93257360_456239322','http://northernwind.spb.ru/videosplit/2026/kkp/d1'],
+    video: [
+        'https://vkvideo.ru/video-227779225_456239060',
+        'https://vk.com/video-93257360_456239322',
+        'http://northernwind.spb.ru/videosplit/2026/kkp/d1',
+        'https://www.youtube.com/watch?v=4DXp9qRaZVM'
+    ],
     type: 'ORIENT',
     fmt: 'классика',
     map: 'kkp_prudy_2026_06_16',
@@ -444,7 +449,12 @@ let commonEvents2026 = [
         'Ж':'https://viewer.o-gps-center.ru/viewer/event/25369/',
         'М50/55':'https://viewer.o-gps-center.ru/viewer/event/25435/',
     },
-    video: ['https://vkvideo.ru/video-227779225_456239068','https://vk.com/video-93257360_456239323','http://northernwind.spb.ru/videosplit/2026/kkp/d2'],
+    video: [
+        'https://vkvideo.ru/video-227779225_456239068',
+        'https://vk.com/video-93257360_456239323',
+        'http://northernwind.spb.ru/videosplit/2026/kkp/d2',
+        'https://www.youtube.com/watch?v=nShmb_cNars'
+    ],
     info: '<a href="https://vk.com/video-231742705_456239427">Интервью</a> с Никой Калининой.',
     type: 'ORIENT',
     fmt: 'классика',
@@ -465,7 +475,12 @@ let commonEvents2026 = [
         'Ж':'https://viewer.o-gps-center.ru/viewer/event/25397/',
         'М50/55':'https://viewer.o-gps-center.ru/viewer/event/25436/',
     },
-    video: ['https://vkvideo.ru/video-227779225_456239075','https://vk.com/video-93257360_456239324','https://vkvideo.ru/video-227779225_456239067'],
+    video: [
+        'https://vkvideo.ru/video-227779225_456239075',
+        'https://vk.com/video-93257360_456239324',
+        'https://vkvideo.ru/video-227779225_456239067',
+        'https://www.youtube.com/watch?v=dmA2RdcKGjo'
+    ],
     type: 'ORIENT',
     fmt: 'лонг',
     planner: 'BEVZA',
