@@ -779,7 +779,7 @@ let otherMaps = [
     {
         name: 'Вача, Невадьево',
         date: '2026-06-05',
-        info: 'Кубок России. 5 - классика, 6 - лонг, 7 - многодневный.',
+        info: '5 - классика, 6 - лонг, 7 - многодневный.',
         url: './maps/other/vacha_nevadievo_2026.webp',
         link: ['./original_maps/other/vacha_nevadievo_2026_06_05_m_omaps.webp','./original_maps/other/vacha_nevadievo_2026_06_05_w_omaps.webp',
                './original_maps/other/vacha_nevadievo_2026_06_06_m1_omaps.webp','./original_maps/other/vacha_nevadievo_2026_06_06_m2_omaps.webp','./original_maps/other/vacha_nevadievo_2026_06_06_m3_omaps.webp','./original_maps/other/vacha_nevadievo_2026_06_06_w1_omaps.webp','./original_maps/other/vacha_nevadievo_2026_06_06_w2_omaps.webp',
@@ -787,6 +787,7 @@ let otherMaps = [
         bounds: [[55.729623386405315, 42.72385597229004], [55.72480205524402, 42.76250123977662], [55.70640544493222, 42.71469354629517]],
         author: ['KNDRSHKN_V','SCHV_V'],
         owner: 'VACHSKY',
+        start: 'RUSSIA_CUP',
         region: 'N_NOVGOROD'
     },
     {
@@ -970,9 +971,9 @@ let otherMaps = [
         date: '2021-04-03',
         url: './maps/other/kalitvenskaya_2021_04_03.webp',
         link: './original_maps/other/kalitvenskaya_2021_04_03_omaps.webp',
-        info: 'Кубок России.',
         bounds: [[48.25385542154695, 40.48556327819825], [48.25094075106392, 40.510153770446784], [48.22878954352343, 40.4793405532837]],
         author: ['DJCHKV','IDLBV'],
+        start: 'RUSSIA_CUP',
         region: 'ROSTOV',
     },
     // --- Свердловская обл, Екатеринбург ---

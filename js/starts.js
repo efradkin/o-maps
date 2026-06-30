@@ -490,6 +490,12 @@ let starts = {
         major: true,
         short: 'Чемпионат России'
     },
+    RUSSIA_CUP: {
+        major: true,
+        logo: 'fsor.webp',
+        short: 'Кубок России',
+        name: 'Кубок России'
+    },
     RUSSIA_ROGAINE_CHAMP: {
         major: true,
         rogaine: true,
