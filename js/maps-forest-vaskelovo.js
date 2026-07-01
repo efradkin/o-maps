@@ -610,18 +610,24 @@ let vaskelovoMaps = [
     },
     {
         name: 'Пески',
-        year: 2026,
-        url: './maps/forest/vaskelovo/peski_2026.webp',
-        bounds: [[60.486406037584224, 30.39796829223633], [60.48230434898135, 30.4621696472168], [60.4596511538074, 30.390844345092773]],
-        author: ['BRGNTS','VSLV_S','VRBY'],
-    },
-    {
-        name: 'Пески',
         year: 2001,
         url: './maps/forest/vaskelovo/peski_2001.webp',
         link: './original_maps/forest/vaskelovo/peski_2001_omaps.jpg',
         bounds: [[60.486406037584224, 30.39796829223633], [60.48230434898135, 30.4621696472168], [60.4596511538074, 30.390844345092773]],
         author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
+        start: 'MMS'
+    },
+    {
+        name: 'Пески',
+        year: 2026,
+        url: './maps/forest/vaskelovo/peski_2026.webp',
+        link: './original_maps/forest/vaskelovo/peski_2026_omaps.webp',
+        bounds: [[60.494417633983616, 30.413846969604496], [60.488837206085094, 30.46268463134766], [60.465109671807625, 30.40097236633301]],
+        calendar: 'SPB_20260626_1',
+        author: ['BRGNTS','VSLV_S','VRBY'],
+        owner: 'SFSO_LO',
+        publish: 'https://vk.com/album-142737358_311427986',
+        start: 'MMS'
     },
     {
         name: 'СНТ Топограф',
