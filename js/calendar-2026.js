@@ -1857,9 +1857,10 @@ let events2026 = [
     {
         id: 'SPB_20260711_2',
         date: '2026-07-18',
+        endDate: '2026-07-19',
         name: 'Воробьевый рогейн + ориент',
         o_site: '260718_rog',
-        reg: 'https://orgeo.ru/event/53902',
+        reg: ['http://orgeo.ru/event/info/vorobyovo_tren','http://orgeo.ru/event/vorobyovo2026_rog'],
         type: ['ROGAINE', 'ORIENT'],
         owner: 'WN'
     },
