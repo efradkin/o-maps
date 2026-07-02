@@ -488,7 +488,8 @@ let starts = {
     },
     RUSSIA_CHAMP: {
         major: true,
-        short: 'Чемпионат России'
+        short: 'Чемпионат России',
+        name: 'Чемпионат России'
     },
     RUSSIA_CUP: {
         major: true,
@@ -499,7 +500,8 @@ let starts = {
     RUSSIA_ROGAINE_CHAMP: {
         major: true,
         rogaine: true,
-        short: 'Чемпионат России по рогейну'
+        short: 'Чемпионат России по рогейну',
+        logo: 'rrf_new.webp'
     },
     RUSSIA_2019: {
         major: true,

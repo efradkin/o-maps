@@ -1859,6 +1859,7 @@ let events2026 = [
         date: '2026-07-18',
         endDate: '2026-07-19',
         name: 'Воробьевый рогейн + ориент',
+        place: 'Воробьево оз',
         o_site: '260718_rog',
         reg: ['http://orgeo.ru/event/info/vorobyovo_tren','http://orgeo.ru/event/vorobyovo2026_rog'],
         type: ['ROGAINE', 'ORIENT'],

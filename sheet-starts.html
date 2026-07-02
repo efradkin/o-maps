@@ -197,7 +197,7 @@
                 const row = document.createElement('tr');
                 td(row, counter++);
                 td(row, buildLogo(s));
-                td(row, s.name);
+                td(row, s.name ?? s.short);
                 td(row, buildPeriod(s));
                 td(row, buildInfo(s));
                 td(row, buildMore(s));

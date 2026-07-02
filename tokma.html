@@ -141,6 +141,10 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
+    <script src="js/calendar-2025.js"></script>
+    <script src="js/calendar-2026.js"></script>
+    <script src="js/calendar-common-2026.js"></script>
+
     <script src="js/maps-starts-schools.js"></script>
     <script src="js/maps-city.js"></script>
     <script src="js/maps-parks.js"></script>
@@ -215,6 +219,12 @@
             ...parkMaps,
             ...cityMaps,
             ...schoolMaps,
+        ];
+
+        const oEvents = [
+            ...events2025,
+            ...events2026,
+            ...commonEvents2026,
         ];
 
         const popupMessage = 'Пожалуйста, если у Вас есть карты авторства Константина Токмакова, которых тут нет, <a href="help/contacts.html">сообщите мне</a>. Заранее спасибо!';
