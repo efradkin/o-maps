@@ -401,6 +401,8 @@ let events2023 = [
         strava: 8938074426,
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/26740',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/15769/',
+        video: 'https://www.youtube.com/watch?v=nV5lOGaoQI8',
         owner: 'LM',
         o_site: '230422'
     },
@@ -754,7 +756,8 @@ let events2023 = [
         info: 'Учебно-тренировочный сбор ККП 2023 пройдет в районе соседнем с ККП 2023, на аналогичной местности 7 тренировочных дней, каждый день участникам будут предложены дистанции различной длины и сложности, а также технические задания',
         video: [
             'https://www.youtube.com/watch?v=-FElZ_4Z6wg',
-            'https://www.youtube.com/watch?v=VmMfo1LcdEc'
+            'https://www.youtube.com/watch?v=VmMfo1LcdEc',
+            'https://www.youtube.com/watch?v=T0gTtl9-waw'
         ],
         strava: [9292376222,9321294363],
         start: 'KKP',
@@ -779,7 +782,13 @@ let events2023 = [
             'https://vkvideo.ru/video-93257360_456239220',
             'https://vksport.vkvideo.ru/video-93257360_456239221',
             'https://vkvideo.ru/video-93257360_456239222',
-            'https://vkvideo.ru/video-93257360_456239223'
+            'https://vkvideo.ru/video-93257360_456239223',
+            'https://www.youtube.com/watch?v=XIB442BrfeQ',
+            'https://www.youtube.com/watch?v=0dYYvMJPVP0',
+            'https://www.youtube.com/watch?v=JvMDymoVLdw',
+            'https://www.youtube.com/watch?v=I2H0Ac5btpw',
+            'https://www.youtube.com/watch?v=DYPQbahZwtc',
+            'https://www.youtube.com/watch?v=b8r-CSOze84'
         ],
         strava: [9321298380,9321303067,9321307758,9321312836],
         reskeep: [599, 600, 601, 602]
@@ -872,6 +881,8 @@ let events2023 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-kolt-23/registration.html',
         fmt: '4 часа бегом; 4 часа на велосипеде.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16691/',
+        video: 'https://www.youtube.com/watch?v=gjmh05_h6qw',
         start: 'MULTSPORT',
         o_site: '230617r'
     },
@@ -1624,6 +1635,7 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/231104_OM/Res_OM_231104.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         strava: 10157953030,
+        video: ['https://www.youtube.com/watch?v=4-RZFClk0FY','https://www.youtube.com/watch?v=oUmx_E2DtAA'],
         logo: 'azimut.gif',
         o_site: '231104_OM',
         reskeep: 626
@@ -1654,6 +1666,8 @@ let events2023 = [
         name: 'Финал Кубка ЛО по рогейну',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-final-23/registration.html',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/17759/',
+        video: 'https://www.youtube.com/watch?v=yULSyHrj4NU',
         fmt: 'рогейн 4 часа. Велосипедный и беговой формат',
         start: 'MULTSPORT',
         o_site: '231106r'

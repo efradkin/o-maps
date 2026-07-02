@@ -129,7 +129,8 @@ let events2021 = [
         date: '2021-02-06',
         place: 'Приозерский район',
         name: 'Женсть-рогейн (приключенческий)',
-        type: 'ROGAINE',
+        type: ['ROGAINE','SKI'],
+        video: 'https://www.youtube.com/watch?v=Xtj91E15Bv4',
         fmt: '6, 3',
         link: 'https://vk.com/zhenst_rogaine'
     },
@@ -257,7 +258,8 @@ let events2021 = [
         name: 'Лужский лыжный рогейн',
         type: 'ROGAINE',
         fmt: '6',
-        link: 'https://vk.com/event166397868'
+        link: 'https://vk.com/event166397868',
+        video: 'https://www.youtube.com/watch?v=PPhP6GO3Pqs'
     },
     {
         id: 'SPB_20210307_1',
@@ -850,6 +852,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/17345',
         res: 'https://o-site.spb.ru/_races/210415_ks/210603_rez.html',
+        video: 'https://www.youtube.com/watch?v=QnW6Z4WSTzs',
         o_site: '210415_ks'
     },
     {
@@ -927,12 +930,15 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210612-18_KKP/210613-24_vseros.rar',
         info: 'В рамках соревнований "Кубок Карельского Перешейка - 2021" состоятся: 12 июня - Трейл «Скалы бесконечности». 12 июня - Ночная эстафета по ориентированию «Пирамида». Заявка. 13 июня - Детская эстафета по ориентированию «Каменюкола». Заявка.',
         video: [
-            'https://www.youtube.com/watch?v=91gHZ73pbJ4',
             'https://www.youtube.com/watch?v=xa-xlJAm9rY',
             'https://www.youtube.com/watch?v=GiBMhw5FW5M',
             'https://www.youtube.com/watch?v=JQ_BQAA4Mho',
             'https://www.youtube.com/watch?v=2aQF0F5Y52w',
-            'https://rutube.ru/video/0e7079b094a626fbe51935aa7cf880ce/'
+            'https://rutube.ru/video/0e7079b094a626fbe51935aa7cf880ce/',
+            'https://www.youtube.com/watch?v=91gHZ73pbJ4',
+            'https://www.youtube.com/watch?v=4PS1TbAmvVw',
+            'https://www.youtube.com/watch?v=3EzV2Y0fy8g',
+            'https://www.youtube.com/watch?v=IhcGk_yX2Jc'
         ],
         start: 'KKP',
         o_site: '210612-18_KKP',
@@ -959,6 +965,7 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '4',
         link: 'https://vk.com/rogaine110',
+        video: 'https://www.youtube.com/watch?v=aXCgUAfIX1Q',
         start: 'ROGAINE_110'
     },
     {
@@ -1088,7 +1095,8 @@ let events2021 = [
         name: 'Чемпионат СЗФО по рогейну',
         type: 'ROGAINE',
         fmt: '6, 3',
-        link: 'https://vk.com/event166397868'
+        link: 'https://vk.com/event166397868',
+        video: 'https://www.youtube.com/watch?v=QUJC6DIzRsw'
     },
     {
         id: 'SPB_20210808_1',
@@ -1295,6 +1303,7 @@ let events2021 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 486,
+        video: 'https://www.youtube.com/watch?v=HZ4Npy4VtT8',
         strava: 5964941746
     },
     {
@@ -1420,6 +1429,7 @@ let events2021 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 487,
+        video: 'https://www.youtube.com/watch?v=geYSM5DsKGg',
         strava: [6038430926,6038435320]
     },
     {

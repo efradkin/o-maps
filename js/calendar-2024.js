@@ -440,6 +440,7 @@ let events2024 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1599',
         res: 'http://orgeo.ru/live/#/31914',
         photo: 'http://vk.com/album-154221178_302584074',
+        video: 'https://www.youtube.com/watch?v=6aIzgw29eVY',
         owner: 'SFSO_SPB',
         o_site: '240429',
         strava: 11289850267,
@@ -943,7 +944,8 @@ let events2024 = [
         type: 'ROGAINE',
         link: 'https://orgeo.ru/event/ps2024',
         res: 'https://fractal.mosplay.ru/events/310274394/days/310274412/results-table',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19787'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19787',
+        video: 'https://www.youtube.com/watch?v=cmXsR-PUdho'
     },
     {
         id: 'SPB_20240623_1',
@@ -1715,7 +1717,8 @@ let events2024 = [
         link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/38049',
         res: 'https://vk.com/event166397868?w=wall-166397868_4588',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21099'
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/21099',
+        video: 'https://www.youtube.com/watch?v=Gy5n37Wzj6E'
     },
     {
         id: 'SPB_20241117_1',
@@ -1871,6 +1874,7 @@ let events2024 = [
         place: 'Сосновый Бор',
         type: 'ORIENT',
         strava: 13213734052,
+        video: 'https://www.youtube.com/watch?v=2vIYzib1sdg'
     },
     {
         id: 'SPB_20241230_1',

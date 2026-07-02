@@ -424,7 +424,7 @@ let authors = {
         about: 'https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net',
         info: 'Константин Токмаков - воспитанник петербуржской школы ориентирования, один из ведущих составителей спортивных карт в стране. ' +
             'Многие годы он был ключевым специалистом по подготовке трасс для лыжного ориентирования в Санкт-Петербурге и Ленинградской области.' +
-            '<a href="https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net" target="_blank">Тут</a> одно из его интервью. ' +
+            '<a href="https://spbof.ru/ru/8-news/553-k-yu-tokmakov-u-nas-mestnostej-kotorye-imeet-smysl-risovat-v-5-m-prakticheski-na-moj-vzglyad-net" target="_blank">Тут</a> - одно из его интервью. ' +
             'Костантин трагически погиб во время работы во Владимирской области 19 апреля 2025 года.',
         foto: 'tokma/tokma.jpg',
         logo: 'mourning.webp'

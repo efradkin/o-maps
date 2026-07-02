@@ -21,10 +21,7 @@ let events2025 = [
         place: 'Лемболово',
         name: 'Зимний рогейн (КЛО)',
         fmt: '4',
-        type: [
-            'ROGAINE',
-            'SKI'
-        ],
+        type: ['ROGAINE', 'SKI'],
         link: 'https://www.multsport.ru/starts/winter-rogaine-25/',
         res: 'https://multsport.ru/starts/winter-rogaine-25/results.html',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21398/',
@@ -1559,10 +1556,7 @@ let events2025 = [
         name: '«Яркий Кубок» и «Техника и Тактика»',
         type: 'ORIENT',
         o_site: '25080910',
-        reskeep: [
-            752,
-            753
-        ],
+        reskeep: [752, 753],
         start: 'YM',
         map: 'pervomayskoe_2021'
     },
@@ -2057,10 +2051,7 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/46442',
         reskeep: 799,
         map: 'pionerskaya_2025_st',
-        photo: [
-            'https://vk.com/album-92124592_308559130',
-            'https://disk.yandex.ru/d/AZzu-M9KzcRvyg'
-        ],
+        photo: ['https://vk.com/album-92124592_308559130', 'https://disk.yandex.ru/d/AZzu-M9KzcRvyg'],
         info: 'Новая карта.',
         start: 'ST',
         info: '<a href="https://vk.com/@-92124592-noname-sprint-tur-2025-24092025?subtype=primary">Разбор дистанций</a>'

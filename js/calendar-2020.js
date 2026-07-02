@@ -19,10 +19,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200107-08/200107_res.htm',
         owner: 'NW',
         o_site: '200107-08',
-        reskeep: [
-            297,
-            298
-        ]
+        reskeep: [297, 298]
     },
     {
         id: 'SPB_20200111_1',
@@ -450,6 +447,7 @@ let events2020 = [
         name: 'Новгородский меридиан',
         type: 'ROGAINE',
         fmt: '4',
+        video: 'https://www.youtube.com/watch?v=JkeIvn02TUs',
         link: 'https://vk.com/club91656163'
     },
     {
@@ -680,6 +678,7 @@ let events2020 = [
         name: 'Лужский приключенческий рогейн',
         type: 'ROGAINE',
         fmt: '24, 6',
+        video: 'https://www.youtube.com/watch?v=hgHF7PEXynM',
         link: 'https://vk.com/club190501849'
     },
     {

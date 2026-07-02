@@ -521,6 +521,7 @@ let events2019 = [
             'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
             'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day2/',
             'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day3/',
+            'https://www.youtube.com/watch?v=YHZxotwF5bo'
         ],
         o_site: '190510Luga',
         reskeep: [129, 130, 131]
