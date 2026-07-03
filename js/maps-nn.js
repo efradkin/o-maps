@@ -133,6 +133,19 @@ let nnMaps = [
         region: 'N_NOVGOROD'
     },
     {
+        name: 'Ситниковский заказник',
+        date: '2023-06-18',
+        url: './maps/nn/sitnikovsky_rogaine_2023.webp',
+        link: './original_maps/nn/sitnikovsky_rogaine_2023_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16509/',
+        info: 'Весло и курвиметр.',
+        bounds: [[56.48197509420184, 44.14443969726563], [56.47514950750572, 44.21310424804688], [56.450064417409585, 44.1331958770752]],
+        author: ['LBMV_E','KRLV_A'],
+        type: ['ROGAINE','WATER'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+    {
         name: 'Зелёный город',
         date: '2024-11-23',
         url: './maps/nn/green_city_rogaine_2024.webp',
