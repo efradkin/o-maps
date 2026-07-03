@@ -6328,7 +6328,7 @@ let moscowMaps = [
         date: '2025-08-02',
         area: .212,
         url: './maps/moscow/ak/belaya_dacha_mega_obsw_2025.webp',
-        link: './original_maps/moscow/ak/belaya_dacha_mega_obsw_2025_omaps.png',
+        link: ['./original_maps/moscow/ak/belaya_dacha_mega_obsw_2025_omaps.png','./original_maps/moscow/ak/belaya_dacha_mega_obsw_2025_m_omaps.png'],
         info: 'Ориентирование в помещении',
         bounds: [[55.65998866731282, 37.84468173980713], [55.658741901165925, 37.84965991973878], [55.657410359488516, 37.84266471862794]],
         author: ['MSTPNV','DRN_E','ALDBV'],
