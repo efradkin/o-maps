@@ -403,7 +403,7 @@ let commonEvents2026 = [
     link: 'https://o-nw.ru/kkp',
     reg: 'https://sportident.online/entry/?id=6855',
     res: 'https://o-site.spb.ru/_races/260616-21_KKP/kkp5sum.pdf',
-    photo: 'https://www.sport-images.ru/events/kamni-karelskogo-peresheyka-2026/',
+    photo: ['https://www.sport-images.ru/events/kamni-karelskogo-peresheyka-2026/','https://vk.com/album-227779225_311462591'],
     type: 'ORIENT',
     fmt: 'многодневка',
     map: 'kkp_prudy_2026_06_15_kamenukola',

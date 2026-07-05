@@ -1699,7 +1699,11 @@ let events2026 = [
             'Ж1':'https://viewer.o-gps-center.ru/viewer/event/25332/',
             'Ж2':'https://viewer.o-gps-center.ru/viewer/event/25333/',
         },
-        photo: ['https://www.sport-images.ru/events/nochnaya-estafeta-piramida-2026/','https://disk.yandex.ru/d/-cZWNXTasRqhbw'],
+        photo: [
+            'https://www.sport-images.ru/events/nochnaya-estafeta-piramida-2026/',
+            'https://disk.yandex.ru/d/-cZWNXTasRqhbw',
+            'https://vk.com/album-227779225_311462394'
+        ],
         video: ['https://vkvideo.ru/video-227779225_456239049','https://vk.com/video-93257360_456239318'],
         type: 'ORIENT',
         fmt: 'эстафета ночная',
@@ -1717,7 +1721,7 @@ let events2026 = [
         reg: 'https://sportident.online/entry/?id=6853',
         res: 'https://sportident.online/ol_new/?id=2830',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25345/',
-        photo: 'https://www.sport-images.ru/events/detskaya-estafeta-kamenukola-2026/',
+        photo: ['https://www.sport-images.ru/events/detskaya-estafeta-kamenukola-2026/','https://vk.com/album-227779225_311462402'],
         video: 'https://vk.com/video-93257360_456239321',
         type: 'ORIENT',
         fmt: 'эстафета детская',
@@ -1806,6 +1810,7 @@ let events2026 = [
         name: 'Горный кросс-115',
         o_site: '260704R',
         reg: 'https://orgeo.ru/event/50692',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25541/',
         type: 'ROGAINE',
         fmt: '6(5), 3',
         map: 'lembolovo_orekhovo_gk_2024',
@@ -1818,6 +1823,7 @@ let events2026 = [
         name: 'Open Band Indoor Orient SPB',
         o_site: '20260705',
         reg: 'https://orgeo.ru/event/53666',
+        video: 'https://vk.com/clip-220245153_456239102',
         type: 'INDOOR',
         owner: 'OPNBND'
     },
