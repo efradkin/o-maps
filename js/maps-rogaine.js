@@ -45,6 +45,7 @@ let rogaineMaps = [
         link: './original_maps/rogaine/zelenogorsk_gk_2009_omaps.jpg',
         bounds: [[60.30476017195011, 29.679565429687504], [60.28970484971667, 29.871139526367188], [60.202810147156775, 29.64746475219727]],
         owner: 'GORNY_CROSS',
+        start: 'GORNY_CROSS',
         type: ['ROGAINE']
     },
     {
@@ -55,6 +56,7 @@ let rogaineMaps = [
         bounds: [[60.27319556884442, 29.48241233825684], [60.27323812924954, 29.62772369384766], [60.19039607775666, 29.482069015502933]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/20578/',
         owner: 'GORNY_CROSS',
+        start: 'GORNY_CROSS',
         type: ['ROGAINE']
     },
     {
@@ -115,7 +117,7 @@ let rogaineMaps = [
         bounds: [[61.19538604557029, 29.662742614746097], [61.194889777986376, 29.914054870605472], [61.04831536461298, 29.662055969238285]],
         owner: 'GORNY_CROSS',
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
+        start: ['GORNY_CROSS','RUSSIA_ROGAINE_CHAMP'],
         region: 'SPB'
     },
     {
@@ -204,15 +206,28 @@ let rogaineMaps = [
         start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'SPB'
     },
+/*
     {
         name: 'Лемболово-Орехово',
-        year: 2024,
+        date: '2024-02-24',
         url: './maps/rogaine/lembolovo_orekhovo_gk_2024.webp',
         link: './original_maps/rogaine/lembolovo_orekhovo_gk_2024_omaps.jpeg',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/18461/',
         bounds: [[60.48141628624153, 30.25789260864258], [60.47388792089789, 30.399856567382816], [60.40588443750511, 30.242099761962894]],
-        info: 'Горный Кросс.',
         owner: 'GORNY_CROSS',
+        start: 'GORNY_CROSS',
+        type: ['ROGAINE'] // ,'WINTER'
+    },
+*/
+    {
+        name: 'Лемболово-Орехово-Пески',
+        date: '2026-07-04',
+        url: './maps/rogaine/lembolovo_orekhovo_peski_gk_2026.webp',
+        link: ['./original_maps/rogaine/lembolovo_orekhovo_peski_gk_2026_omaps.webp','./original_maps/rogaine/lembolovo_peski_gk_2026_omaps.webp','./original_maps/rogaine/orekhovo_gk_2024_omaps.webp'],
+        gps: ['https://viewer.o-gps-center.ru/viewer/event/25541/','https://viewer.o-gps-center.ru/viewer/event/21084/','https://viewer.o-gps-center.ru/viewer/event/20024/'],
+        bounds: [[60.50906168868531, 30.267333984375004], [60.494692402973286, 30.4896354675293], [60.41393710500683, 30.242528915405277]],
+        owner: 'GORNY_CROSS',
+        start: 'GORNY_CROSS',
         type: ['ROGAINE']
     },
     {
@@ -308,6 +323,7 @@ let rogaineMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/15856/',
         bounds: [[58.728926021785234, 29.727287292480472], [58.71653790199033, 29.844532012939453], [58.68550369843779, 29.71012115478516]],
         owner: 'GORNY_CROSS',
+        start: 'GORNY_CROSS',
         type: ['ROGAINE']
     },
     {

@@ -604,7 +604,7 @@ let events2018 = [
         type: 'ROGAINE',
         fmt: '24,8,3',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20180602_1',
@@ -852,7 +852,7 @@ let events2018 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20180722_1',
@@ -1231,7 +1231,7 @@ let events2018 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20180930_1',
@@ -1593,7 +1593,7 @@ let events2018 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20181118_1',

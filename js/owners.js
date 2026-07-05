@@ -57,7 +57,6 @@ let owners = {
     },
     GORNY_CROSS: {
         name: '© Горный Кросс, Александр Шумский',
-        logo: 'gk.gif',
         rogaine: true
     },
     GOLDMRSHRT: {

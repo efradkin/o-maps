@@ -328,7 +328,7 @@ let events2013 = [
         type: 'ROGAINE',
         fmt: '3 и 8 часов',
         link: 'http://gornycross.narod.ru',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20130502_1',
@@ -521,7 +521,7 @@ let events2013 = [
         type: 'ROGAINE',
         fmt: '24,8,3 часа',
         link: 'http://gornycross.narod.ru',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20130602_1',
@@ -671,7 +671,7 @@ let events2013 = [
         type: 'ROGAINE',
         fmt: '6 и3 часа',
         link: 'http://gornycross.narod.ru',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20130721_1',
@@ -757,7 +757,7 @@ let events2013 = [
         type: 'ROGAINE',
         fmt: '8 и 3 часа',
         link: 'http://gornycross.narod.ru',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20130908_1',

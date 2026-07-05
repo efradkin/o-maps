@@ -29,7 +29,7 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20200112_1',
@@ -406,7 +406,7 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '2',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20200510_1',
@@ -472,7 +472,7 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '24, 8, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20200601_1',
@@ -642,7 +642,7 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20200712_1',
@@ -873,7 +873,7 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '8, 6, 5',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20200830_1',
@@ -1181,7 +1181,7 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '5, 2',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20200926_6',

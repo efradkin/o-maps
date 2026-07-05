@@ -576,7 +576,7 @@ let events2012 = [
         fmt: '3 и 8 часов',
         link: 'gornycross.narod.ru',
         type: 'ROGAINE',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20120722_1',
@@ -635,7 +635,7 @@ let events2012 = [
         name: 'Горный кросс (4 этап)',
         link: 'gornycross.narod.ru',
         type: 'ROGAINE',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20120909_1',

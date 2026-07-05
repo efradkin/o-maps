@@ -20,7 +20,7 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '5, 2',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20220116_1',
@@ -209,7 +209,7 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '5, 2',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20220410_1',
@@ -1396,7 +1396,7 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '4, 2',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20221016_1',

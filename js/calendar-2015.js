@@ -1142,7 +1142,7 @@ let events2015 = [
         type: 'ROGAINE',
         fmt: '3 и 6 часов бегом и вело',
         link: 'http://gornycross.narod.ru',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20151115_1',

@@ -173,7 +173,7 @@ let events2016 = [
         type: 'ROGAINE',
         fmt: '6 и 3 час., лыжи',
         link: 'http://gornycross.narod.ru',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20160401_1',
@@ -339,7 +339,7 @@ let events2016 = [
         type: 'ROGAINE',
         fmt: '6 и 3 час., бег и вело',
         link: 'http://gornycross.narod.ru',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20160501_1',
@@ -512,7 +512,7 @@ let events2016 = [
         type: 'ROGAINE',
         fmt: '24, 8 и 3 час., бег',
         link: 'http://gornycross.narod.ru',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20160528_4',
@@ -709,7 +709,7 @@ let events2016 = [
         type: 'ROGAINE',
         fmt: '3-24 часа бег, особый формат(?)',
         link: 'http://gornycross.narod.ru',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20160806_1',
@@ -949,7 +949,7 @@ let events2016 = [
         type: 'ROGAINE',
         fmt: '6 и 3 час., бег и вело',
         link: 'http://gornycross.narod.ru',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20161009_1',
@@ -1156,7 +1156,7 @@ let events2016 = [
         type: 'ROGAINE',
         fmt: '7 и 3 час., бег и вело',
         link: 'http://gornycross.narod.ru',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20161119_1',

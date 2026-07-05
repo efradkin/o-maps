@@ -40,7 +40,7 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20210116_1',
@@ -549,7 +549,7 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '4',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20210502_1',
@@ -812,7 +812,7 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '24, 8, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20210529_5',
@@ -1391,7 +1391,7 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '5, 2',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20210926_1',
@@ -1549,7 +1549,7 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '4.2',
         link: 'https://vk.com/gornycross',
-        start: 'GK'
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20211017_1',
