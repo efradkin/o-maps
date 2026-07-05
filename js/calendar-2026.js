@@ -1861,6 +1861,28 @@ let events2026 = [
         owner: 'WN'
     },
     {
+        id: 'SPB_20260711_3',
+        date: '2026-07-11',
+        name: 'Dлительная серия, этап 1',
+        place: 'Лемболово',
+        type: 'ORIENT',
+        o_site: '260711_Dlit_1',
+        reg: 'http://orgeo.ru/event/53961',
+        owner: 'DLITELNY',
+        map: 'lembolovo_2024'
+    },
+    {
+        id: 'SPB_20260712_1',
+        date: '2026-07-12',
+        name: 'Dлительная серия, этап 2',
+        place: 'Лемболово',
+        type: 'ORIENT',
+        o_site: '260712_Dlit_2',
+        reg: 'http://orgeo.ru/event/53962',
+        owner: 'DLITELNY',
+        map: 'lembolovo_2024'
+    },
+    {
         id: 'SPB_20260711_2',
         date: '2026-07-18',
         endDate: '2026-07-19',
