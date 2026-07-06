@@ -129,6 +129,9 @@ window.onload = function() {
 
     // --- welcome dialog ---
     writeWelcomeButton();
+
+    // --- back to start button
+    backToStartButton();
 }
 
 // Ссылка на тело таблицы
@@ -314,4 +317,50 @@ function sortEventsTable() {
     }
     this.dataset.order = isAscending ? 'desc' : 'asc';
     renderMapsTable();
+}
+
+function backToStartButton() {
+    document.addEventListener('DOMContentLoaded', () => {
+        const startMarker = document.getElementById('page-start');
+        const backButton = document.getElementById('back-to-start');
+
+        if (!startMarker || !backButton) return;
+
+        function scrollMainContainerToStart() {
+            // Если горизонтальная прокрутка идёт у всей страницы
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
+
+            // Если таблица обёрнута в отдельный scroll-контейнер,
+            // можно дополнительно сбросить его горизонтальный скролл.
+            const scrollContainers = document.querySelectorAll(
+                '.calendar-wrapper, .table-wrapper, .scroll-wrapper'
+            );
+
+            scrollContainers.forEach(container => {
+                container.scrollTo({
+                    top: 0,
+                    left: 0,
+                    behavior: 'smooth'
+                });
+            });
+        }
+
+        backButton.addEventListener('click', scrollMainContainerToStart);
+
+        const observer = new IntersectionObserver(entries => {
+            const entry = entries[0];
+
+            // Показываем кнопку, когда начало страницы ушло из видимой области.
+            backButton.classList.toggle('is-visible', !entry.isIntersecting);
+        }, {
+            root: null,
+            threshold: 0
+        });
+
+        observer.observe(startMarker);
+    });
 }
