@@ -1297,7 +1297,7 @@ let moscowMaps = [
         link: './original_maps/moscow/sz/troparevo_2026_omaps.gif',
         bounds: [[55.64925065147458, 37.46973037719727], [55.64974706211164, 37.49181032180787], [55.639878206456366, 37.47028827667237]],
         author: 'MSTPNV',
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['CITY','SPRINT']
     },
     {
@@ -2929,7 +2929,7 @@ let moscowMaps = [
         url: './maps/moscow/ulianovsky_aerorogaine_2024.webp',
         link: './original_maps/moscow/ulianovsky_aerorogaine_2024_omaps.jpg',
         bounds: [[55.66194952013165, 37.21429824829102], [55.661901105195454, 37.32699394226075], [55.6090447272758, 37.21532821655274]],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['ROGAINE']
     },
     {
@@ -2940,7 +2940,7 @@ let moscowMaps = [
         url: './maps/moscow/moskovsky_aerorogaine_2024.webp',
         link: './original_maps/moscow/moskovsky_aerorogaine_2024_omaps.jpg',
         bounds: [[55.61122628129369, 37.26888656616212], [55.6133592389934, 37.402782440185554], [55.55708791821017, 37.27352142333985]],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['ROGAINE']
     },
     {
@@ -2951,7 +2951,7 @@ let moscowMaps = [
         url: './maps/moscow/valuevsky_aerorogaine_2024.webp',
         link: './original_maps/moscow/valuevsky_aerorogaine_2024_omaps.jpg',
         bounds: [[55.61437720063169, 37.30708122253419], [55.56640736346098, 37.43737220764161], [55.57693761713127, 37.26330757141114]],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['ROGAINE']
     },
     {
@@ -2961,7 +2961,7 @@ let moscowMaps = [
         url: './maps/moscow/novo_peredelkino_rogaine_2024.webp',
         link: './original_maps/moscow/novo_peredelkino_rogaine_2024.pdf',
         bounds: [[55.6668391202158, 37.29721069335938], [55.669307894089066, 37.418489456176765], [55.616703870853875, 37.29892730712891]],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['ROGAINE']
     },
     {
@@ -2973,7 +2973,7 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/mariino_aerorogaine_2025_omaps.gif',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23884/',
         bounds: [[55.57101772982136, 37.294378280639656], [55.57402630866593, 37.424755096435554], [55.50598587453494, 37.29746818542481]],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['ROGAINE']
     },
     {
@@ -3004,7 +3004,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/antsiferovo_rogaine_2024.webp',
         link: './original_maps/moscow/ak/antsiferovo_rogaine_2024.pdf',
         bounds: [[55.585888538377276, 38.733372688293464], [55.5707750924518, 38.888640403747566], [55.52066264738814, 38.71371746063233]],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['ROGAINE']
     },
     {
@@ -3014,7 +3014,7 @@ let moscowMaps = [
         url: './maps/moscow/stupino_rogaine_2024.webp',
         link: './original_maps/moscow/stupino_rogaine_2024.pdf',
         bounds: [[54.88248265558986, 38.07629585266114], [54.87495233107354, 38.14285755157471], [54.84951165408857, 38.065180778503425]],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['ROGAINE']
     },
     {
@@ -3411,7 +3411,7 @@ let moscowMaps = [
         link: 'https://orientband.ru/tproduct/549661597-520422854321-rossiiskii-azimut',
         author: ['MSTPNV','MNKV'],
         areas: [70, 30],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         bounds: [[55.789604556104365, 37.52172231674195], [55.787662168163365, 37.53818035125733], [55.78559902894423, 37.520327568054206]],
         type: ['PARK']
     },
@@ -3420,7 +3420,7 @@ let moscowMaps = [
         year: 2022,
         url: './maps/moscow/ak/krylatskoe_2022.webp',
         link: './original_maps/moscow/ak/krylatskoe_2022.pdf',
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         author: 'MNKV',
         bounds: [[55.77596960118306, 37.406258583068855], [55.774002395308436, 37.423725128173835], [55.76429766932963, 37.40209579467774]],
         type: ['CITY']
@@ -5877,7 +5877,7 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/nagorna_kant_2023_omaps.gif',
         bounds: [[55.68404468545196, 37.601995468139656], [55.68241157080355, 37.61860370635987], [55.67384567505679, 37.59888410568238]],
         author: 'KLZHNY',
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['CITY']
     },
     {
@@ -6319,7 +6319,7 @@ let moscowMaps = [
         bounds: [[55.76983834985838, 37.57796287536622], [55.76997112339041, 37.58673906326295], [55.76306630005254, 37.57819890975953]],
         author: ['MSTPNV','DRN_E','ALDBV'],
         areas: [90,5,5],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         start: 'OBSW',
         type: ['CITY','SPRINT']
     },
@@ -6333,7 +6333,7 @@ let moscowMaps = [
         bounds: [[55.65998866731282, 37.84468173980713], [55.658741901165925, 37.84965991973878], [55.657410359488516, 37.84266471862794]],
         author: ['MSTPNV','DRN_E','ALDBV'],
         areas: [45,35,20],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         start: 'OBSW',
         type: ['INDOOR']
     },
@@ -6345,7 +6345,7 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/patriki_yakimanka_2026_omaps.webp',
         bounds: [[55.77242131739292, 37.58062362670899], [55.765420354484725, 37.640233039855964], [55.72493498212863, 37.563071250915534]],
         author: ['MNKV','MSTPNV','KPTNV_M','DRN_E','PRZRV','ALDBV'],
-        owner: ['ERMCHNKV_A','OPNBND'],
+        owner: ['ERMCHNKV_A','OPEN_BAND'],
         type: ['CITY','SPRINT']
     },
     {
@@ -6359,7 +6359,7 @@ let moscowMaps = [
         bounds: [[55.75801969423824, 37.58216857910157], [55.758261173508274, 37.60019302368165], [55.74622161125257, 37.58259773254395]],
         author: ['MSTPNV','DRN_E','PRZRV','ALDBV'],
         areas: [45,45,5,5],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         start: 'OBSW',
         type: ['CITY','SPRINT']
     },
@@ -6502,7 +6502,7 @@ let moscowMaps = [
         bounds: [[55.77092466547034, 37.589507102966316], [55.76743627786657, 37.61843204498292], [55.75801969423824, 37.58446455001832]],
         author: ['MNKV','MSTPNV','KPTNV_M'],
         areas: [60,35,5],
-        owner: ['ERMCHNKV_A','OPNBND'],
+        owner: ['ERMCHNKV_A','OPEN_BAND'],
         type: ['CITY','SPRINT']
     },
     {
@@ -6554,7 +6554,7 @@ let moscowMaps = [
         bounds: [[55.78100181705107, 37.6663899421692], [55.781038017688644, 37.67598152160645], [55.77606614860845, 37.66634702682496]],
         author: ['MSTPNV','ALDBV'],
         areas: [90, 10],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['CITY','SPRINT']
     },
     {
@@ -6564,7 +6564,7 @@ let moscowMaps = [
         link: './original_maps/moscow/lr/novokuznetskaya_2026_omaps.gif',
         bounds: [[55.748854450820616, 37.62508392333985], [55.74913221711092, 37.6392674446106], [55.73571263798704, 37.625749111175544]],
         author: ['MSTPNV','ALDBV'],
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['CITY','SPRINT']
     },
 ];

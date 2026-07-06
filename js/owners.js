@@ -163,7 +163,7 @@ let owners = {
     NW: {
         name: '© Клуб "Nord-West"'
     },
-    OPNBND: {
+    OPEN_BAND: {
         name: '© OpenBand, Прозоров Андрей - <a href="https://orientband.ru">сайт</a> и <a href="https://vk.com/openband_ru">ВК</a>',
         logo: 'openband.gif',
         rogaine: true

@@ -114,7 +114,7 @@ let otherMaps = [
         info: 'Спортмастер PRO Fest.',
         bounds: [[55.917035013373074, 39.34530258178712], [55.89437381256353, 39.544086456298835], [55.839084658820454, 39.316978454589844]],
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23267/',
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         region: 'VLADIMIR',
         type: ['ROGAINE']
     },

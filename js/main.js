@@ -313,14 +313,22 @@ if (mapElement) {
         let m = getMapForName(MAP_NAME_PARAM);
         if (m) {
             let mapType = m.type;
-            if (mapType && (isRogaine(m) || isFun(m))) {
-                if (typeof funGroup !== 'undefined') {
-                    activeLayers.push(funGroup);
-                }
+            if (mapType && isRogaine(m)) {
                 if (typeof rogaineGroup !== 'undefined') {
                     activeLayers.push(rogaineGroup);
                 }
-            } else {
+            }
+            if (!isRogaine(m)) {
+                if (mapType && isFun(m)) {
+                    if (typeof funGroup !== 'undefined') {
+                        activeLayers.push(funGroup);
+                    }
+                }
+                if (mapType && isSpecialMap(m)) {
+                    if (typeof specialGroup !== 'undefined') {
+                        activeLayers.push(specialGroup);
+                    }
+                }
                 let y = year(m);
                 if (y && y < 2000 && (typeof groupRetro !== 'undefined')) {
                     if (typeof groupRetro !== 'undefined') {

@@ -51,6 +51,7 @@ let commonEvents2026 = [
     name: 'Чемпионат России, лично-командные',
     type: 'SKI',
     fmt: 'классика, эстафета 3х, спринт, марафон',
+    res: 'https://orgeo.ru/live/#/chr2026sykt',
     owner: 'FSOR',
     start: 'RUSSIA_CHAMP'
 },
@@ -75,6 +76,8 @@ let commonEvents2026 = [
     major: true,
     type: 'ORIENT',
     fmt: 'sprint, sprint relay knock-out sprint',
+    res: 'https://liveresults.ch/wc26r1/wc26r1-kos',
+    gps: 'https://www.tulospalvelu.fi/gps/',
     coord: [46.17003715000422, 8.795825251205088],
     owner: 'IOF'
 },
@@ -86,6 +89,7 @@ let commonEvents2026 = [
     name: 'Чемпионат России',
     type: 'ORIENT',
     fmt: 'спринт, спринт-масстарт, эстафета 2х, эстафета 4х',
+    res: 'http://orgeo.ru/live/#/51213/14',
     owner: 'FSOR',
     start: 'RUSSIA_CHAMP'
 },
@@ -95,6 +99,7 @@ let commonEvents2026 = [
     endDate: '2026-05-28',
     place: 'Португалия',
     name: 'Чемпионат Европы (EMTBOC)',
+    res: 'https://www.tictactiming.pt/eventos/2026/0523_EMTBOC/EMTBOC_2026_Mixed_Relay.html',
     major: true,
     type: 'VELO',
     owner: 'IOF'
@@ -108,6 +113,8 @@ let commonEvents2026 = [
     major: true,
     type: 'ORIENT',
     fmt: 'knock-out sprint, sprint, sprint relay',
+    gps: 'https://www.tulospalvelu.fi/gps/',
+    res: 'https://r.emit.live/followfull.php?comp=36831&lang=en',
     owner: 'IOF'
 },
 {
@@ -119,6 +126,7 @@ let commonEvents2026 = [
     major: true,
     type: 'ORIENT',
     fmt: 'эстафета 2х, эстафета 3х, эстафета 4х',
+    res: 'https://orgeo.ru/live/#/51003',
     owner: 'FSOR'
 },
 {
@@ -150,6 +158,8 @@ let commonEvents2026 = [
     place: 'Orlické Záhoří, Czech Republic',
     name: 'European Rogaininig Championship (ERC)',
     link: 'https://www.o-adventure.cz/stranka.php?co=2026erc',
+    gps: 'https://en.follow.me.cz/tracking-en/ERC2026/',
+    res: 'https://www.o-adventure.cz/stranka.php?co=2026vysledky',
     major: true,
     type: 'ROGAINE',
     fmt: '24',

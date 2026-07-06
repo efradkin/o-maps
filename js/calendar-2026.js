@@ -1612,7 +1612,7 @@ let events2026 = [
         o_site: '260606R',
         reg: 'http://orgeo.ru/event/49045',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25293/',
-        photo: ['https://disk.yandex.ru/d/x60hmJH6uwo26w','https://vk.com/album-31941981_311094927'],
+        photo: ['https://disk.yandex.ru/d/x60hmJH6uwo26w','https://vk.com/album-31941981_311094927','https://vk.com/album-31941981_311299868'],
         type: 'ROGAINE',
         fmt: '24, 8(7), 3',
         map: 'kuznechnoe_2009',
@@ -1811,6 +1811,7 @@ let events2026 = [
         o_site: '260704R',
         reg: 'https://orgeo.ru/event/50692',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25541/',
+        photo: 'https://vk.com/album-31941981_311204277',
         type: 'ROGAINE',
         fmt: '6(5), 3',
         map: 'lembolovo_orekhovo_gk_2024',
@@ -1823,9 +1824,11 @@ let events2026 = [
         name: 'Open Band Indoor Orient SPB',
         o_site: '20260705',
         reg: 'https://orgeo.ru/event/53666',
+        photo: 'https://vk.com/album-196335280_311387714',
         video: 'https://vk.com/clip-220245153_456239102',
         type: 'INDOOR',
-        owner: 'OPNBND'
+        owner: 'OPEN_BAND',
+        map: 'mega_parnas_2026'
     },
     {
         id: 'SPB_20260706_1',

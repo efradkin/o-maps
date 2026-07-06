@@ -16,7 +16,7 @@ let rogaineMaps = [
         link: './original_maps/rogaine/spb_perekati_piter_2023_omaps.gif',
         bounds: [[59.94340533235882, 30.208110809326175], [59.94768243660754, 30.396080017089844], [59.81461961493708, 30.21944046020508]],
         info: '<a href="https://orientband.ru/tproduct/549661597-580137401641-perekati-piter">Перекати Питер</a>.',
-        owner: 'OPNBND',
+        owner: 'OPEN_BAND',
         type: ['ROGAINE']
     },
     {
