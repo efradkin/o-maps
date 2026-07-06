@@ -131,7 +131,7 @@ window.onload = function() {
     writeWelcomeButton();
 
     // --- back to start button
-    backToStartButton();
+    writeBackToStartButton();
 }
 
 // Ссылка на тело таблицы
@@ -319,48 +319,147 @@ function sortEventsTable() {
     renderMapsTable();
 }
 
-function backToStartButton() {
-    document.addEventListener('DOMContentLoaded', () => {
-        const startMarker = document.getElementById('page-start');
+function writeBackToStartButton() {
+    function initBackToStartButton() {
         const backButton = document.getElementById('back-to-start');
 
-        if (!startMarker || !backButton) return;
-
-        function scrollMainContainerToStart() {
-            // Если горизонтальная прокрутка идёт у всей страницы
-            window.scrollTo({
-                top: 0,
-                left: 0,
-                behavior: 'smooth'
-            });
-
-            // Если таблица обёрнута в отдельный scroll-контейнер,
-            // можно дополнительно сбросить его горизонтальный скролл.
-            const scrollContainers = document.querySelectorAll(
-                '.calendar-wrapper, .table-wrapper, .scroll-wrapper'
-            );
-
-            scrollContainers.forEach(container => {
-                container.scrollTo({
-                    top: 0,
-                    left: 0,
-                    behavior: 'smooth'
-                });
-            });
+        if (!backButton) {
+            console.warn('back-to-start button not found');
+            return;
         }
 
-        backButton.addEventListener('click', scrollMainContainerToStart);
+        function getScrollX() {
+            return (
+                window.scrollX ||
+                window.pageXOffset ||
+                document.documentElement.scrollLeft ||
+                document.body.scrollLeft ||
+                0
+            );
+        }
 
-        const observer = new IntersectionObserver(entries => {
-            const entry = entries[0];
+        function getScrollY() {
+            return (
+                window.scrollY ||
+                window.pageYOffset ||
+                document.documentElement.scrollTop ||
+                document.body.scrollTop ||
+                0
+            );
+        }
 
-            // Показываем кнопку, когда начало страницы ушло из видимой области.
-            backButton.classList.toggle('is-visible', !entry.isIntersecting);
-        }, {
-            root: null,
-            threshold: 0
-        });
+        function updateBackButtonVisibility() {
+            const x = getScrollX();
+            const y = getScrollY();
 
-        observer.observe(startMarker);
-    });
+            const shouldShow = y > 150 || x > 20;
+
+            backButton.classList.toggle('is-visible', shouldShow);
+        }
+
+        function scrollToPageStart(event) {
+            if (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+
+            const backButton = document.getElementById('back-to-start');
+            if (backButton) {
+                backButton.blur();
+            }
+
+            const html = document.documentElement;
+            const body = document.body;
+
+            const oldHtmlScrollBehavior = html.style.scrollBehavior;
+            const oldBodyScrollBehavior = body.style.scrollBehavior;
+
+            // Временно отключаем smooth scroll, чтобы не было "недокрутки".
+            html.style.scrollBehavior = 'auto';
+            body.style.scrollBehavior = 'auto';
+
+            function getScrollTargets() {
+                const targets = new Set();
+
+                targets.add(document.scrollingElement);
+                targets.add(document.documentElement);
+                targets.add(document.body);
+
+                document.querySelectorAll('*').forEach(el => {
+                    if (
+                        el.scrollTop > 0 ||
+                        el.scrollLeft > 0 ||
+                        el.scrollHeight > el.clientHeight ||
+                        el.scrollWidth > el.clientWidth
+                    ) {
+                        targets.add(el);
+                    }
+                });
+
+                return Array.from(targets).filter(Boolean);
+            }
+
+            function forceScrollToStart() {
+                window.scrollTo(0, 0);
+
+                getScrollTargets().forEach(el => {
+                    try {
+                        if (typeof el.scrollTo === 'function') {
+                            el.scrollTo(0, 0);
+                        }
+
+                        el.scrollTop = 0;
+                        el.scrollLeft = 0;
+                    } catch (e) {
+                        // Игнорируем элементы, которые браузер не даёт прокрутить напрямую.
+                    }
+                });
+            }
+
+            // Несколько кадров подряд: это гасит незавершённую smooth-анимацию
+            // и возможную прокрутку, которую делает другой скрипт страницы.
+            let frame = 0;
+
+            function repeatForceScroll() {
+                forceScrollToStart();
+
+                frame += 1;
+
+                if (frame < 12) {
+                    requestAnimationFrame(repeatForceScroll);
+                } else {
+                    setTimeout(forceScrollToStart, 50);
+                    setTimeout(forceScrollToStart, 150);
+                    setTimeout(forceScrollToStart, 300);
+
+                    setTimeout(() => {
+                        html.style.scrollBehavior = oldHtmlScrollBehavior;
+                        body.style.scrollBehavior = oldBodyScrollBehavior;
+                    }, 400);
+                }
+            }
+
+            repeatForceScroll();
+        }
+
+        backButton.addEventListener('click', scrollToPageStart);
+
+        window.addEventListener('scroll', updateBackButtonVisibility, { passive: true });
+        document.addEventListener('scroll', updateBackButtonVisibility, { passive: true, capture: true });
+        window.addEventListener('resize', updateBackButtonVisibility);
+
+        updateBackButtonVisibility();
+
+        setTimeout(updateBackButtonVisibility, 100);
+        setTimeout(updateBackButtonVisibility, 500);
+        setTimeout(updateBackButtonVisibility, 1000);
+        setTimeout(updateBackButtonVisibility, 2000);
+        setTimeout(updateBackButtonVisibility, 4000);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initBackToStartButton);
+    } else {
+        initBackToStartButton();
+    }
 }
