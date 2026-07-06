@@ -221,10 +221,15 @@ let rogaineMaps = [
 */
     {
         name: 'Лемболово-Орехово-Пески',
-        date: '2026-07-04',
+        year: 2026,
+        calendar: 'SPB_20260704_2',
         url: './maps/rogaine/lembolovo_orekhovo_peski_gk_2026.webp',
         link: ['./original_maps/rogaine/lembolovo_orekhovo_peski_gk_2026_omaps.webp','./original_maps/rogaine/lembolovo_peski_gk_2026_omaps.webp','./original_maps/rogaine/orekhovo_gk_2024_omaps.webp'],
-        gps: ['https://viewer.o-gps-center.ru/viewer/event/25541/','https://viewer.o-gps-center.ru/viewer/event/21084/','https://viewer.o-gps-center.ru/viewer/event/20024/'],
+        gps: {
+            '2026-07':'https://viewer.o-gps-center.ru/viewer/event/25541/',
+            '2024-11':'https://viewer.o-gps-center.ru/viewer/event/21084/',
+            '2024-07':'https://viewer.o-gps-center.ru/viewer/event/20024/'
+        },
         bounds: [[60.50906168868531, 30.267333984375004], [60.494692402973286, 30.4896354675293], [60.41393710500683, 30.242528915405277]],
         owner: 'GORNY_CROSS',
         start: 'GORNY_CROSS',

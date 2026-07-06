@@ -351,7 +351,7 @@ let events2026 = [
         o_site: '260221R',
         reg: 'https://orgeo.ru/event/48446',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/24300/',
-        map: 'lembolovo_orekhovo_gk_2024',
+        map: 'lembolovo_orekhovo_peski_gk_2026',
         start: 'GORNY_CROSS'
     },
     {
@@ -1806,7 +1806,7 @@ let events2026 = [
     {
         id: 'SPB_20260704_2',
         date: '2026-07-04',
-        place: 'Орехово',
+        place: 'Лемболово',
         name: 'Горный кросс-115',
         o_site: '260704R',
         reg: 'https://orgeo.ru/event/50692',
@@ -1814,7 +1814,7 @@ let events2026 = [
         photo: 'https://vk.com/album-31941981_311204277',
         type: 'ROGAINE',
         fmt: '6(5), 3',
-        map: 'lembolovo_orekhovo_gk_2024',
+        map: 'lembolovo_orekhovo_peski_gk_2026',
         start: 'GORNY_CROSS'
     },
     {

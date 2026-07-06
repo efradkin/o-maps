@@ -1042,7 +1042,10 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/78km_michura_mb_2018.webp',
         link: ['https://viewer.o-gps-center.ru/newmaps/map_3421_332d7c8ff45b7a653f959cb1d1fe196f.jpeg','./original_maps/rogaine/beketov/78km_michura_mb_2018_1_omaps.webp','./original_maps/rogaine/beketov/78km_michura_mb_2018_2_omaps.webp'],
         bounds: [[60.64053971464434, 29.664802551269535], [60.65198390153074, 30.17532348632813], [60.54740492267005, 29.673042297363285]],
-        gps: ['https://viewer.o-gps-center.ru/viewer/event/4505/','https://viewer.o-gps-center.ru/viewer/event/4506/'],
+        gps: {
+            '1':'https://viewer.o-gps-center.ru/viewer/event/4505/',
+            '2':'https://viewer.o-gps-center.ru/viewer/event/4506/'
+        },
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',

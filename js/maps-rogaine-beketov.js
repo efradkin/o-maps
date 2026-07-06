@@ -7,9 +7,12 @@ let rogaineBeketovMaps = [
         url: './maps/rogaine/beketov/78km.webp',
         link: './original_maps/rogaine/beketov/78km_omb_2020_omaps.gif',
         bounds: [[60.68007223452519, 30.020828247070316], [60.69015786886322, 30.436592102050785], [60.540060727006335, 30.037651062011722]],
-        gps: ['https://viewer.o-gps-center.ru/viewer/event/8281/','https://viewer.o-gps-center.ru/viewer/event/8283/'],
+        gps: {
+            '1':'https://viewer.o-gps-center.ru/viewer/event/8281/',
+            '2':'https://viewer.o-gps-center.ru/viewer/event/8283/'
+        },
         owner: 'BKTV',
-                start: 'MB',
+        start: 'MB',
         type: ['ROGAINE']
     },
     {
@@ -220,7 +223,10 @@ let rogaineBeketovMaps = [
         url: './maps/rogaine/beketov/vyborg_2019.webp',
         link: './original_maps/rogaine/beketov/vyborg_vmb_2019_omaps.webp',
         bounds: [[60.84758659536134, 28.363952636718754], [60.92759629574196, 28.561019897460938], [60.70931186508957, 28.601875305175785]],
-        gps: ['https://viewer.o-gps-center.ru/viewer/event/5748/','https://viewer.o-gps-center.ru/viewer/event/5749/'],
+        gps: {
+            '1':'https://viewer.o-gps-center.ru/viewer/event/5748/',
+            '2':'https://viewer.o-gps-center.ru/viewer/event/5749/'
+        },
         owner: 'BKTV',
         start: 'MB',
         type: ['ROGAINE']

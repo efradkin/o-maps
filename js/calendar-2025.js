@@ -182,7 +182,7 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/39842',
         res: 'https://o-site.spb.ru/_races/250222R/250222R_res.pdf',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/21691/',
-        map: 'lembolovo_orekhovo_gk_2024',
+        map: 'lembolovo_orekhovo_peski_gk_2026',
     },
     {
         id: 'SPB_20250223_1',
@@ -1353,7 +1353,7 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/39846',
         res: 'https://o-site.spb.ru/_races/250705R/250705R_res.pdf',
         photo: 'https://vk.com/album-31941981_307754452',
-        map: 'lembolovo_orekhovo_gk_2024',
+        map: 'lembolovo_orekhovo_peski_gk_2026',
         start: 'GORNY_CROSS'
     },
     {
@@ -2673,10 +2673,10 @@ let events2025 = [
         fmt: 'лонг',
         o_site: '251104_OM',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1703',
-        gps: [
-            'https://viewer.o-gps-center.ru/viewer/event/23812/',
-            'https://viewer.o-gps-center.ru/viewer/event/23817/'
-        ],
+        gps: {
+            'М14/16': 'https://viewer.o-gps-center.ru/viewer/event/23812/',
+            'М18/60': 'https://viewer.o-gps-center.ru/viewer/event/23817/'
+        },
         map: 'michurinskoe_2022',
         reskeep: 816
     },
@@ -2705,7 +2705,7 @@ let events2025 = [
         reg: 'http://orgeo.ru/event/39881',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23833/',
         photo: 'https://vk.com/album-31941981_309120792',
-        map: 'lembolovo_orekhovo_gk_2024',
+        map: 'lembolovo_orekhovo_peski_gk_2026',
         start: 'GORNY_CROSS'
     },
     {

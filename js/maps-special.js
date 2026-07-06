@@ -673,7 +673,11 @@ let specialMaps = [
     {
         name: 'Орехово, Фигурное оз',
         year: 2022,
-        gps: ['https://viewer.o-gps-center.ru/viewer/event/13837/','https://viewer.o-gps-center.ru/viewer/event/7997/','https://viewer.o-gps-center.ru/viewer/event/7988/'],
+        gps: {
+            '2022-08':'https://viewer.o-gps-center.ru/viewer/event/13837/',
+            '2020-08-16':'https://viewer.o-gps-center.ru/viewer/event/7997/',
+            '2020-08-15':'https://viewer.o-gps-center.ru/viewer/event/7988/'
+        },
         url: './maps/velo/orekhovo_figurnoe_velo_2020.webp',
         link: ['./original_maps/velo/orekhovo_figurnoe_velo_2022_omaps.gif','./original_maps/velo/orekhovo_figurnoe_velo_2020_omaps.gif'],
         bounds: [[60.46371339409353, 30.278749465942386], [60.459756947760624, 30.331492424011234], [60.443629972121556, 30.272827148437504]],
