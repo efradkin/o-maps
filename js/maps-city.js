@@ -2388,6 +2388,7 @@ let cityMaps = [
         url: './maps/city/mega_parnas_2026.webp',
         link: './original_maps/city/mega_parnas_2026_omaps.png',
         publish: 'https://t.me/openband_orient/2701',
+        area: .15,
         bounds: [[60.093658615556606, 30.379182100296024], [60.09022423570724, 30.384299755096436], [60.091973567360085, 30.374633073806766]],
         calendar: 'SPB_20260705_1',
         author: ['MSTPNV','CHGRVSKY_M'],
