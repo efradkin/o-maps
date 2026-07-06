@@ -1828,7 +1828,10 @@ let events2026 = [
         video: 'https://vk.com/clip-220245153_456239102',
         type: 'INDOOR',
         owner: 'OPEN_BAND',
-        map: 'mega_parnas_2026'
+        map: 'mega_parnas_2026',
+        planner: 'MSTPNV',
+        strava: 19184621385,
+        me: 'М40'
     },
     {
         id: 'SPB_20260706_1',
@@ -1903,6 +1906,7 @@ let events2026 = [
         o_site: '260718_rog',
         reg: ['http://orgeo.ru/event/info/vorobyovo_tren','http://orgeo.ru/event/vorobyovo2026_rog'],
         type: ['ROGAINE', 'ORIENT'],
+        fmt: '3',
         owner: 'WN'
     },
     {

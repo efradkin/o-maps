@@ -62,7 +62,8 @@ let otherEvents2026 = [
     type: 'RUN',
     fmt: '42, 10',
     logo: 'wn_marathon.gif',
-    track: 'spb_wn_2025_42km'
+    track: 'spb_wn_2025_42km',
+    strava: 19179943647
 },
 {
     id: 'OTHER_20260809_1',
