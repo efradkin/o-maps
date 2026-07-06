@@ -498,6 +498,7 @@ let commonEvents2026 = [
         endDate: '2026-07-19',
         name: 'АЛОЛЬ-2026 (Русь, Рельеф, Иван Купала)',
         place: 'Себежский р-он, Лешане',
+        reg: ['https://orgeo.ru/event/51242','https://orgeo.ru/event/51243','https://orgeo.ru/event/51245'],
         link: 'https://vk.com/skorus',
         type: 'ORIENT',
         owner: 'PSKOV_RUS'

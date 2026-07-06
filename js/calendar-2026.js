@@ -1886,6 +1886,15 @@ let events2026 = [
         map: 'lembolovo_2024'
     },
     {
+        id: 'SPB_20260712_2',
+        date: '2026-07-12',
+        name: 'Рогейн 110%',
+        cancelled: true,
+        fmt: '4',
+        type: 'ROGAINE',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20260711_2',
         date: '2026-07-18',
         endDate: '2026-07-19',
