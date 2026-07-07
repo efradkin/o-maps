@@ -846,6 +846,51 @@ body.ski-bodi {
     }
 }
 
+
+/* Кнопки справа, перенесённые в глобальное меню на мобильных устройствах */
+.stat-map-link-right-mobile-hidden {
+    display: none !important;
+}
+
+/* Индикатор локальных пунктов в глобальном меню на мобильных устройствах */
+.dropdown-button-right .global-menu-button-with-local-indicator {
+    position: relative;
+}
+
+.dropdown-button-right .global-menu-local-indicator {
+    display: none;
+}
+
+.dropdown-button-right.global-menu-has-local-items .global-menu-local-indicator {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -0.42rem;
+    right: -0.42rem;
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 999px;
+    background: #d00000;
+    color: #fff;
+    font-size: 0.78rem;
+    line-height: 1;
+    font-weight: 700;
+    box-shadow: 0 0 0 2px #fff;
+    pointer-events: none;
+    z-index: 2;
+    animation: global-menu-local-pulse 1.4s ease-in-out 3;
+}
+
+@keyframes global-menu-local-pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.28);
+    }
+}
+
 /* --- slide pop-up --- */
 .slide-popup{
     position: fixed;
@@ -1121,3 +1166,4 @@ body.ski-bodi {
     box-sizing: border-box;
     white-space: nowrap;
 }
+

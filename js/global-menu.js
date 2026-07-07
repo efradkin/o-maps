@@ -217,6 +217,7 @@ ${indent}</div>`;
         return `${indent}<a class="dropdown-item" href="${options.urlPrefix}${page.includes('.') ? page : page + '.html'}" target="_self">${title}</a>`;
     }
 
+
     const hoverClass =
         window.matchMedia('(hover: hover) and (pointer: fine)').matches
             ? ' dropdown-hover-all'
@@ -224,8 +225,9 @@ ${indent}</div>`;
 
     return `<div class="dropdown-button-right d-flex${hoverClass}">
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle btn-light" type="button" id="${rootButtonId}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle btn-light global-menu-button-with-local-indicator" type="button" id="${rootButtonId}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <img src="${options.urlPrefix}${escapeHtml(buttonImage)}" alt="${escapeHtml(buttonAlt)}" />
+            <span class="global-menu-local-indicator" aria-hidden="true">★</span>
         </button>
         <div class="dropdown-menu" aria-labelledby="${rootAriaLabelledBy}">
 ${renderItems(items, 3, options)}
@@ -303,6 +305,12 @@ function addLocalRightButtonsToGlobalMenuOnMobile() {
         rootMenu.insertBefore(document.createTextNode('\n'), insertBefore);
     });
 
+    const menuButtonWrapper = rootMenu.closest('.dropdown-button-right');
+    if (menuButtonWrapper) {
+        menuButtonWrapper.classList.add('global-menu-has-local-items');
+        menuButtonWrapper.setAttribute('title', 'В меню добавлены пункты этой страницы');
+    }
+
     rootMenu.dataset.localButtonsAdded = 'true';
 }
 
@@ -312,7 +320,7 @@ function hideRightButtonsOnMobile() {
     }
 
     document.querySelectorAll('.stat-map-link-right').forEach(link => {
-        link.style.display = 'none';
+        link.classList.add('stat-map-link-right-mobile-hidden');
         link.setAttribute('aria-hidden', 'true');
         link.tabIndex = -1;
     });
