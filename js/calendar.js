@@ -328,6 +328,12 @@ function writeBackToStartButton() {
             return;
         }
 
+        // Важно: выносим кнопку из возможных контейнеров таблицы.
+        // У position: fixed бывают проблемы, если предки имеют transform/filter/perspective.
+        document.body.appendChild(backButton);
+
+        let rafId = null;
+
         function getScrollX() {
             return (
                 window.scrollX ||
@@ -348,16 +354,48 @@ function writeBackToStartButton() {
             );
         }
 
-        function updateBackButtonVisibility() {
-            const x = getScrollX();
-            const y = getScrollY();
+        function placeBackButton() {
+            const margin = 12;
+            const buttonWidth = backButton.offsetWidth || 48;
+            const buttonHeight = backButton.offsetHeight || 48;
 
-            const shouldShow = y > 150 || x > 20;
+            let x;
+            let y;
 
-            backButton.classList.toggle('is-visible', shouldShow);
+            if (window.visualViewport) {
+                const viewport = window.visualViewport;
+
+                // Левый нижний угол именно видимой области при zoom.
+                x = viewport.offsetLeft + margin;
+                y = viewport.offsetTop + viewport.height - buttonHeight - margin;
+            } else {
+                // Fallback для старых браузеров.
+                x = margin;
+                y = window.innerHeight - buttonHeight - margin;
+            }
+
+            backButton.style.transform =
+                `translate3d(${Math.round(x)}px, ${Math.round(y)}px, 0)`;
         }
 
-        function scrollToPageStart(event) {
+        function updateBackButton() {
+            rafId = null;
+
+            const shouldShow = getScrollY() > 150 || getScrollX() > 20;
+
+            backButton.classList.toggle('is-visible', shouldShow);
+
+            if (shouldShow) {
+                placeBackButton();
+            }
+        }
+
+        function scheduleUpdate() {
+            if (rafId !== null) return;
+            rafId = requestAnimationFrame(updateBackButton);
+        }
+
+        function forceScrollToStart(event) {
             if (event) {
                 event.preventDefault();
                 event.stopPropagation();
@@ -374,24 +412,85 @@ function writeBackToStartButton() {
             const oldHtmlScrollBehavior = html.style.scrollBehavior;
             const oldBodyScrollBehavior = body.style.scrollBehavior;
 
-            // Временно отключаем smooth scroll, чтобы не было "недокрутки".
+            // Отключаем плавную прокрутку на время принудительного сброса.
             html.style.scrollBehavior = 'auto';
             body.style.scrollBehavior = 'auto';
 
-            function getScrollTargets() {
+            function ensureStartAnchor() {
+                let anchor = document.getElementById('page-start-anchor');
+
+                if (!anchor) {
+                    anchor = document.createElement('div');
+                    anchor.id = 'page-start-anchor';
+                    anchor.setAttribute('aria-hidden', 'true');
+                    document.body.insertBefore(anchor, document.body.firstChild);
+                }
+
+                // Важно: якорь должен быть именно в координатах страницы 0,0.
+                anchor.style.position = 'absolute';
+                anchor.style.left = '0';
+                anchor.style.top = '0';
+                anchor.style.width = '1px';
+                anchor.style.height = '1px';
+                anchor.style.overflow = 'hidden';
+                anchor.style.pointerEvents = 'none';
+
+                return anchor;
+            }
+
+            const startAnchor = ensureStartAnchor();
+
+            function getVisualPageLeft() {
+                if (window.visualViewport) {
+                    return window.visualViewport.pageLeft || 0;
+                }
+
+                return (
+                    window.scrollX ||
+                    window.pageXOffset ||
+                    html.scrollLeft ||
+                    body.scrollLeft ||
+                    0
+                );
+            }
+
+            function getVisualPageTop() {
+                if (window.visualViewport) {
+                    return window.visualViewport.pageTop || 0;
+                }
+
+                return (
+                    window.scrollY ||
+                    window.pageYOffset ||
+                    html.scrollTop ||
+                    body.scrollTop ||
+                    0
+                );
+            }
+
+            function getScrollableElements() {
                 const targets = new Set();
 
                 targets.add(document.scrollingElement);
-                targets.add(document.documentElement);
-                targets.add(document.body);
+                targets.add(html);
+                targets.add(body);
 
                 document.querySelectorAll('*').forEach(el => {
-                    if (
-                        el.scrollTop > 0 ||
-                        el.scrollLeft > 0 ||
-                        el.scrollHeight > el.clientHeight ||
-                        el.scrollWidth > el.clientWidth
-                    ) {
+                    const style = window.getComputedStyle(el);
+
+                    const canScrollX =
+                        (style.overflowX === 'auto' ||
+                            style.overflowX === 'scroll' ||
+                            style.overflowX === 'overlay') &&
+                        el.scrollWidth > el.clientWidth;
+
+                    const canScrollY =
+                        (style.overflowY === 'auto' ||
+                            style.overflowY === 'scroll' ||
+                            style.overflowY === 'overlay') &&
+                        el.scrollHeight > el.clientHeight;
+
+                    if (canScrollX || canScrollY || el.scrollLeft > 0 || el.scrollTop > 0) {
                         targets.add(el);
                     }
                 });
@@ -399,56 +498,132 @@ function writeBackToStartButton() {
                 return Array.from(targets).filter(Boolean);
             }
 
-            function forceScrollToStart() {
+            function scrollEverythingToZero() {
+                // 1. Координатная прокрутка основного окна.
                 window.scrollTo(0, 0);
 
-                getScrollTargets().forEach(el => {
-                    try {
-                        if (typeof el.scrollTo === 'function') {
-                            el.scrollTo(0, 0);
-                        }
+                try {
+                    window.scrollTo({
+                        left: 0,
+                        top: 0,
+                        behavior: 'auto'
+                    });
+                } catch (e) {
+                    window.scrollTo(0, 0);
+                }
 
+                // 2. Прокрутка к реальному якорю 0,0.
+                // Это особенно важно при mobile zoom / visual viewport.
+                try {
+                    startAnchor.scrollIntoView({
+                        behavior: 'auto',
+                        block: 'start',
+                        inline: 'start'
+                    });
+                } catch (e) {
+                    startAnchor.scrollIntoView(true);
+                }
+
+                // 3. Сброс document scroll.
+                if (document.scrollingElement) {
+                    document.scrollingElement.scrollTop = 0;
+                    document.scrollingElement.scrollLeft = 0;
+                }
+
+                html.scrollTop = 0;
+                html.scrollLeft = 0;
+                body.scrollTop = 0;
+                body.scrollLeft = 0;
+
+                // 4. Сброс внутренних scroll-контейнеров.
+                getScrollableElements().forEach(el => {
+                    try {
                         el.scrollTop = 0;
                         el.scrollLeft = 0;
+
+                        if (typeof el.scrollTo === 'function') {
+                            el.scrollTo({
+                                top: 0,
+                                left: 0,
+                                behavior: 'auto'
+                            });
+                        }
                     } catch (e) {
-                        // Игнорируем элементы, которые браузер не даёт прокрутить напрямую.
+                        // Некоторые элементы могут не позволять прямую прокрутку.
                     }
                 });
-            }
 
-            // Несколько кадров подряд: это гасит незавершённую smooth-анимацию
-            // и возможную прокрутку, которую делает другой скрипт страницы.
-            let frame = 0;
-
-            function repeatForceScroll() {
-                forceScrollToStart();
-
-                frame += 1;
-
-                if (frame < 12) {
-                    requestAnimationFrame(repeatForceScroll);
-                } else {
-                    setTimeout(forceScrollToStart, 300);
-
-                    setTimeout(() => {
-                        html.style.scrollBehavior = oldHtmlScrollBehavior;
-                        body.style.scrollBehavior = oldBodyScrollBehavior;
-                    }, 400);
+                // 5. Ещё раз якорь — после внутренних контейнеров.
+                try {
+                    startAnchor.scrollIntoView({
+                        behavior: 'auto',
+                        block: 'start',
+                        inline: 'start'
+                    });
+                } catch (e) {
+                    startAnchor.scrollIntoView(true);
                 }
             }
 
-            repeatForceScroll();
+            function isReallyAtStart() {
+                const x = getVisualPageLeft();
+                const y = getVisualPageTop();
+
+                // Допуск нужен из-за subpixel scroll.
+                return x <= 1 && y <= 1;
+            }
+
+            let attempts = 0;
+            const maxAttempts = 60;
+
+            function repeatUntilAtStart() {
+                scrollEverythingToZero();
+                attempts += 1;
+
+                if (!isReallyAtStart() && attempts < maxAttempts) {
+                    requestAnimationFrame(repeatUntilAtStart);
+                    return;
+                }
+
+                // Финальная страховка: мобильный браузер может пересчитать viewport
+                // уже после основного цикла.
+                setTimeout(scrollEverythingToZero, 50);
+                setTimeout(scrollEverythingToZero, 150);
+                setTimeout(scrollEverythingToZero, 350);
+                setTimeout(scrollEverythingToZero, 700);
+                setTimeout(scrollEverythingToZero, 1200);
+
+                setTimeout(() => {
+                    html.style.scrollBehavior = oldHtmlScrollBehavior;
+                    body.style.scrollBehavior = oldBodyScrollBehavior;
+
+                    if (typeof scheduleUpdate === 'function') {
+                        scheduleUpdate();
+                    } else if (typeof updateBackButton === 'function') {
+                        updateBackButton();
+                    }
+                }, 1300);
+            }
+
+            repeatUntilAtStart();
         }
 
-        backButton.addEventListener('click', scrollToPageStart);
+        backButton.addEventListener('click', forceScrollToStart);
 
-        window.addEventListener('scroll', updateBackButtonVisibility, { passive: true });
-        document.addEventListener('scroll', updateBackButtonVisibility, { passive: true, capture: true });
-        window.addEventListener('resize', updateBackButtonVisibility);
+        window.addEventListener('scroll', scheduleUpdate, { passive: true });
+        window.addEventListener('resize', scheduleUpdate);
+        window.addEventListener('orientationchange', scheduleUpdate);
 
-        updateBackButtonVisibility();
+        if (window.visualViewport) {
+            window.visualViewport.addEventListener('scroll', scheduleUpdate, { passive: true });
+            window.visualViewport.addEventListener('resize', scheduleUpdate);
+        }
 
-        setTimeout(updateBackButtonVisibility, 500);
+        scheduleUpdate();
+        setTimeout(scheduleUpdate, 100);
+        setTimeout(scheduleUpdate, 500);
+        setTimeout(scheduleUpdate, 1000);
+        setTimeout(scheduleUpdate, 2000);
     }
 
     if (document.readyState === 'loading') {
