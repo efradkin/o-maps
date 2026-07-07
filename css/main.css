@@ -742,6 +742,11 @@ body.integration-body {
 /* --- calendar --- */
 .calendar-body {
     .o-main-table {
+        thead th {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
         img {
             vertical-align: middle;
         }
@@ -1082,4 +1087,37 @@ body.ski-bodi {
 
 #back-to-start.is-visible {
     display: block;
+}
+
+/* --- Calendar sticky header ---  */
+
+#calendar-floating-header {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    z-index: 999998;
+    background: lightgrey;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    pointer-events: none;
+    transform: translate3d(0, 0, 0);
+}
+
+#calendar-floating-header.is-visible {
+    display: block;
+}
+
+#calendar-floating-header table {
+    border-collapse: collapse;
+    margin: 0;
+}
+
+#calendar-floating-header th,
+#calendar-floating-header td {
+    background: lightgrey;
+    box-sizing: border-box;
+    white-space: nowrap;
 }

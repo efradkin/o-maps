@@ -132,6 +132,9 @@ window.onload = function() {
 
     // --- back to start button
     writeBackToStartButton();
+
+    // --- sticky (floating) table header
+    writeStickyHeader();
 }
 
 // Ссылка на тело таблицы
@@ -630,5 +633,138 @@ function writeBackToStartButton() {
         document.addEventListener('DOMContentLoaded', initBackToStartButton);
     } else {
         initBackToStartButton();
+    }
+}
+
+function writeStickyHeader() {
+    function initCalendarFloatingHeader() {
+        const table = document.querySelector('table');
+        if (!table) {
+            console.warn('calendar table not found');
+            return;
+        }
+
+        const headerRow =
+            table.querySelector('thead tr') ||
+            table.querySelector('tr');
+
+        if (!headerRow) {
+            console.warn('calendar header row not found');
+            return;
+        }
+
+        const floating = document.createElement('div');
+        floating.id = 'calendar-floating-header';
+        floating.setAttribute('aria-hidden', 'true');
+
+        const floatingTable = document.createElement('table');
+        const floatingTbody = document.createElement('tbody');
+        const floatingRow = headerRow.cloneNode(true);
+
+        floatingTbody.appendChild(floatingRow);
+        floatingTable.appendChild(floatingTbody);
+        floating.appendChild(floatingTable);
+        document.body.appendChild(floating);
+
+        let rafId = null;
+
+        function getVisualViewportBox() {
+            if (window.visualViewport) {
+                return {
+                    left: window.visualViewport.offsetLeft || 0,
+                    top: window.visualViewport.offsetTop || 0,
+                    width: window.visualViewport.width,
+                    height: window.visualViewport.height
+                };
+            }
+
+            return {
+                left: 0,
+                top: 0,
+                width: window.innerWidth,
+                height: window.innerHeight
+            };
+        }
+
+        function syncFloatingHeader() {
+            rafId = null;
+
+            const viewport = getVisualViewportBox();
+
+            const tableRect = table.getBoundingClientRect();
+            const headerRect = headerRow.getBoundingClientRect();
+
+            const viewportTop = viewport.top;
+            const viewportLeft = viewport.left;
+            const viewportBottom = viewport.top + viewport.height;
+
+            const tableTop = tableRect.top;
+            const tableBottom = tableRect.bottom;
+
+            const headerHasGoneAboveScreen = headerRect.bottom <= viewportTop;
+            const tableIsStillOnScreen = tableBottom > viewportTop && tableTop < viewportBottom;
+
+            const shouldShow = headerHasGoneAboveScreen && tableIsStillOnScreen;
+
+            floating.classList.toggle('is-visible', shouldShow);
+
+            if (!shouldShow) return;
+
+            const originalCells = Array.from(headerRow.children);
+            const floatingCells = Array.from(floatingRow.children);
+
+            originalCells.forEach((cell, index) => {
+                const floatingCell = floatingCells[index];
+                if (!floatingCell) return;
+
+                const rect = cell.getBoundingClientRect();
+
+                floatingCell.style.width = `${rect.width}px`;
+                floatingCell.style.minWidth = `${rect.width}px`;
+                floatingCell.style.maxWidth = `${rect.width}px`;
+                floatingCell.style.height = `${rect.height}px`;
+            });
+
+            floatingTable.style.width = `${tableRect.width}px`;
+
+            // Важная часть:
+            // tableRect.left сохраняет горизонтальное положение таблицы,
+            // viewport.left/top учитывают zoom и сдвиг visual viewport.
+            const x = tableRect.left - viewportLeft;
+            const y = viewportTop;
+
+            floating.style.width = `${viewport.width}px`;
+            floating.style.height = `${headerRect.height}px`;
+            floating.style.transform = `translate3d(${Math.round(viewportLeft)}px, ${Math.round(y)}px, 0)`;
+
+            floatingTable.style.transform = `translate3d(${Math.round(x)}px, 0, 0)`;
+        }
+
+        function scheduleSync() {
+            if (rafId !== null) return;
+            rafId = requestAnimationFrame(syncFloatingHeader);
+        }
+
+        window.addEventListener('scroll', scheduleSync, { passive: true });
+        window.addEventListener('resize', scheduleSync);
+        window.addEventListener('orientationchange', scheduleSync);
+
+        if (window.visualViewport) {
+            window.visualViewport.addEventListener('scroll', scheduleSync, { passive: true });
+            window.visualViewport.addEventListener('resize', scheduleSync);
+        }
+
+        // На случай, если календарь после загрузки сам прокручивается к текущей дате.
+        scheduleSync();
+        setTimeout(scheduleSync, 100);
+        setTimeout(scheduleSync, 500);
+        setTimeout(scheduleSync, 1000);
+        setTimeout(scheduleSync, 2000);
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initCalendarFloatingHeader);
+    } else {
+        initCalendarFloatingHeader();
     }
 }
