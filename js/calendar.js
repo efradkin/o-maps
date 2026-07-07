@@ -134,7 +134,9 @@ window.onload = function() {
     writeBackToStartButton();
 
     // --- sticky (floating) table header
-    writeStickyHeader();
+    if (isMobile) {
+        writeStickyHeader();
+    }
 }
 
 // Ссылка на тело таблицы

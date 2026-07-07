@@ -309,6 +309,8 @@ if (ONLY_TRACK_NAME_PARAM) {
     TRACK_NAME_PARAM = ONLY_TRACK_NAME_PARAM;
 }
 
+let isMobile = L.Browser.android || L.Browser.mobile;  // || L.Browser.touch || L.Browser.retina
+
 /*   FUNCTIONS   */
 
 function year(o) { // map, track, event

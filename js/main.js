@@ -22,7 +22,6 @@ let tracksLoaded = false;
 let maxZindex = 1;
 let enablePopup = false;
 
-let isMobile = L.Browser.android || L.Browser.mobile;  // || L.Browser.touch || L.Browser.retina
 let popupWidth = isMobile ? "auto" : 500;
 
 let editMode = false;

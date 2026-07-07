@@ -1534,7 +1534,7 @@ let events2026 = [
     {
         id: 'SPB_20260530_2',
         date: '2026-05-30',
-        name: 'BikeAdventure',
+        name: 'BikeAdventure, TrailAdventure',
         place: 'Оленьи оз',
         type: ['ROGAINE', 'VELO'],
         fmt: '24, 12, 6',
@@ -1543,7 +1543,7 @@ let events2026 = [
         res: 'https://bikeadventure.ru/arhiv/arhiv-2026-1.php',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25248/',
         photo: ['https://vk.ru/album-232059320_311134585','https://disk.yandex.ru/d/3K5Mr3qCRU-KJA','https://disk.yandex.ru/d/KqyAbJmFszbqyg'],
-        info: '+ беговой TrailAdventure.',
+        info: '<a href="https://rogainestat.ru/events/ba-spring-2026">Анализ</a> путей участников.',
         start: ['BA','TA'],
         owner: ['BKTV', 'SHBN'],
         map: 'olenii_ba_2026'
@@ -1812,6 +1812,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/50692',
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25541/',
         photo: 'https://vk.com/album-31941981_311204277',
+        info: '<a href="https://rogainestat.ru/events/gk-115-2026">Анализ</a> путей участников.',
         type: 'ROGAINE',
         fmt: '6(5), 3',
         map: 'lembolovo_orekhovo_peski_gk_2026',
