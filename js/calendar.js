@@ -428,8 +428,6 @@ function writeBackToStartButton() {
                 if (frame < 12) {
                     requestAnimationFrame(repeatForceScroll);
                 } else {
-                    setTimeout(forceScrollToStart, 50);
-                    setTimeout(forceScrollToStart, 150);
                     setTimeout(forceScrollToStart, 300);
 
                     setTimeout(() => {
@@ -450,11 +448,7 @@ function writeBackToStartButton() {
 
         updateBackButtonVisibility();
 
-        setTimeout(updateBackButtonVisibility, 100);
         setTimeout(updateBackButtonVisibility, 500);
-        setTimeout(updateBackButtonVisibility, 1000);
-        setTimeout(updateBackButtonVisibility, 2000);
-        setTimeout(updateBackButtonVisibility, 4000);
     }
 
     if (document.readyState === 'loading') {

@@ -1056,8 +1056,8 @@ body.ski-bodi {
 #back-to-start {
     display: none;
     position: fixed;
-    right: max(48px, 48px);
-    top: max(48px, 48px);
+    left: 48px;
+    top: 128px;
     width: 48px;
     height: 48px;
     border-radius: 50%;
