@@ -38,6 +38,8 @@
     <base target="_blank">
 </head>
 <body class="stat-body sheet-body">
+    <script src="js/utils-common.js"></script>
+    <script src="js/utils.js"></script>
     <script src="js/global-menu.js"></script>
     <script>
         writeGlobalMenuHtml();
@@ -47,7 +49,7 @@
     <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта" onclick="return gotoSheetMap()"><img src="images/map_24.png" alt="Карта" /></a>
     <a href="start.html" target="_self" class="stat-map-link stat-map-link-right stat-start-link" title="Плитки" style="display: none"><img src="images/ceramics_24.png" alt="Плитки" /></a>
 
-    <h1>O-Maps ◪ Санкт-Петербург</h1>
+    <h1>O-Maps ◪ СПб</h1>
 
     <div class="sheet-filters">
         <select id="start_selector" class="header_selector" onchange="updateUrlParam('start', this.value)">
@@ -169,8 +171,6 @@
     <script src="js/authors.js"></script>
     <script src="js/owners.js"></script>
     <script src="js/planners.js"></script>
-    <script src="js/utils.js"></script>
-    <script src="js/utils-common.js"></script>
 
     <script>
         let loadImagesRequired = false;

@@ -234,8 +234,106 @@ ${renderItems(items, 3, options)}
 </div>`;
 }
 
+function getLocalMenuItemTitleFromRightButton(link) {
+    const title = link.getAttribute('title') ||
+        (link.querySelector('img') && link.querySelector('img').getAttribute('alt')) ||
+        link.textContent ||
+        'Открыть';
+
+    const imgSrc = (link.querySelector('img') && link.querySelector('img').getAttribute('src')) || '';
+    if (imgSrc.includes('map_24')) return `🗺️ ${title}`;
+    if (imgSrc.includes('search_24')) return `🔍 ${title}`;
+    if (imgSrc.includes('ceramics_24')) return `🧩 ${title}`;
+    return title;
+}
+
+function isHomeRightButton(link) {
+    const href = (link.getAttribute('href') || '').replace(/^\.\//, '');
+    const title = link.getAttribute('title') || '';
+    const imgAlt = (link.querySelector('img') && link.querySelector('img').getAttribute('alt')) || '';
+
+    return href === 'index.html' ||
+        href === '/index.html' ||
+        title === 'Главная страница' ||
+        imgAlt === 'Главная страница';
+}
+
+function isVisibleBeforeMobileHiding(link) {
+    return getComputedStyle(link).display !== 'none' &&
+        getComputedStyle(link).visibility !== 'hidden';
+}
+
+function cloneRightButtonAsMenuItem(link) {
+    const item = document.createElement('a');
+    item.className = 'dropdown-item local-menu-item';
+    item.href = link.getAttribute('href') || link.href || '#';
+    item.target = link.getAttribute('target') || '_self';
+    item.textContent = getLocalMenuItemTitleFromRightButton(link);
+
+    const onclick = link.getAttribute('onclick');
+    if (onclick) {
+        item.setAttribute('onclick', onclick);
+    }
+
+    return item;
+}
+
+function addLocalRightButtonsToGlobalMenuOnMobile() {
+    if (!isMobile) {
+        return;
+    }
+
+    const rootMenu = document.querySelector('.dropdown-button-right > .dropdown > .dropdown-menu');
+    if (!rootMenu || rootMenu.dataset.localButtonsAdded === 'true') {
+        return;
+    }
+
+    const localLinks = Array.from(document.querySelectorAll('.stat-map-link-right'))
+        .filter(link => !isHomeRightButton(link))
+        .filter(isVisibleBeforeMobileHiding);
+
+    if (localLinks.length === 0) {
+        return;
+    }
+
+    let insertBefore = rootMenu.firstElementChild ? rootMenu.firstElementChild.nextSibling : null;
+    localLinks.forEach(link => {
+        const menuItem = cloneRightButtonAsMenuItem(link);
+        rootMenu.insertBefore(menuItem, insertBefore);
+        rootMenu.insertBefore(document.createTextNode('\n'), insertBefore);
+    });
+
+    rootMenu.dataset.localButtonsAdded = 'true';
+}
+
+function hideRightButtonsOnMobile() {
+    if (!isMobile) {
+        return;
+    }
+
+    document.querySelectorAll('.stat-map-link-right').forEach(link => {
+        link.style.display = 'none';
+        link.setAttribute('aria-hidden', 'true');
+        link.tabIndex = -1;
+    });
+}
+
+function setupResponsiveRightButtons() {
+    addLocalRightButtonsToGlobalMenuOnMobile();
+    hideRightButtonsOnMobile();
+}
+
+function runAfterDomReady(callback) {
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', callback);
+    } else {
+        callback();
+    }
+}
+
 function writeGlobalMenuHtml(urlPrefix = '') {
     document.currentScript.insertAdjacentHTML('beforebegin', buildMenuHtml(GLOBAL_MENU_ITEMS, {urlPrefix: urlPrefix}));
+    runAfterDomReady(setupResponsiveRightButtons);
 }
 
 function goPage(page) {

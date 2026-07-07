@@ -312,7 +312,7 @@ if (ONLY_TRACK_NAME_PARAM) {
 const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
 const isMobile = regex.test(navigator.userAgent) ||
     'ontouchstart' in window || navigator.maxTouchPoints > 0 ||
-    L.Browser && (L.Browser.android || L.Browser.mobile);  // || L.Browser.touch || L.Browser.retina
+    (typeof L !== 'undefined') && L.Browser && (L.Browser.android || L.Browser.mobile);  // || L.Browser.touch || L.Browser.retina
 
 /*   FUNCTIONS   */
 
