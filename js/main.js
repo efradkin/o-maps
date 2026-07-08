@@ -1527,7 +1527,7 @@ function buildEventPopup(evt, m) {
 }
 
 function getRestrictedText(m) {
-    return '<span class="restricted-text">Район закрыт ' + m.restricted + '.</span>';
+    return `<span class="restricted-text">Район закрыт ${m.restricted} ${!m.restricted.endsWith('!') ? '.' : ''}</span>`;
 }
 
 function buildAuthors(m, withIcon) {

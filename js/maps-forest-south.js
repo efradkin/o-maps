@@ -406,6 +406,7 @@ let southMaps = [
         url: './maps/forest/south/lebyazhje_borki_2011.webp',
         link: './original_maps/forest/south/lebyazhje_borki_2011_omaps.jpg',
         bounds: [[59.95763155393701, 29.44644927978516], [59.955397023083194, 29.48790550231934], [59.94918681445341, 29.4404411315918]],
+        restricted: 'на неопределённый срок. Минная опасность!',
         author: ['SHRNN','MLNKV_F'],
         owner: 'YUVENTA'
     },
