@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
-    <link rel="stylesheet" href="css/main.css?v=9"/>
+    <link rel="stylesheet" href="css/main.css?v=10"/>
 
     <meta property="og:title" content="O-Maps. Таблица карт Пскова">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
@@ -40,15 +40,19 @@
 <body class="stat-body sheet-body">
     <script src="js/utils-common.js"></script>
     <script src="js/utils.js"></script>
-    <script src="js/global-menu.js"></script>
-    <script>
-        writeGlobalMenuHtml();
-    </script>
+    <header class="page-header">
+        <h1 class="text-center">O-Maps ◪ Псков</h1>
 
-    <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
-    <a href="pskov.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта" onclick="return gotoMap('pskov.html')"><img src="images/map_24.png" alt="Карта" /></a>
+        <nav class="page-header-actions" aria-label="Навигация по странице">
+            <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
+            <a href="pskov.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта" onclick="return gotoMap('pskov.html')"><img src="images/map_24.png" alt="Карта" /></a>
 
-    <h1 class="text-center">O-Maps ◪ Псков</h1>
+            <script src="js/global-menu.js"></script>
+            <script>
+                writeGlobalMenuHtml();
+            </script>
+        </nav>
+    </header>
 
     <div class="sheet-filters">
         <select id="start_selector" class="header_selector" onchange="updateUrlParam('start', this.value)">

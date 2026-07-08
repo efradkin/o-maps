@@ -9,7 +9,7 @@
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css?v=9"/>
+    <link rel="stylesheet" href="css/main.css?v=10"/>
 
     <meta property="og:title" content="O-Maps. Неизвестные карты">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
@@ -37,14 +37,18 @@
 <body class="index-body help-body stat-body">
     <script src="js/utils-common.js"></script>
     <script src="js/utils.js"></script>
-    <script src="js/global-menu.js"></script>
-    <script>
-        writeGlobalMenuHtml();
-    </script>
+    <header class="page-header">
+        <h1 class="text-center">Карты, про которые недостаточно информации</h1>
 
-    <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
+        <nav class="page-header-actions" aria-label="Навигация по странице">
+            <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
 
-    <h1 class="text-center">Карты, про которые недостаточно информации</h1>
+            <script src="js/global-menu.js"></script>
+            <script>
+                writeGlobalMenuHtml();
+            </script>
+        </nav>
+    </header>
 
     <div class="container">
         <ul class="nav nav-tabs" role="tablist">

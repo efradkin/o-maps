@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
-    <link rel="stylesheet" href="css/main.css?v=9"/>
+    <link rel="stylesheet" href="css/main.css?v=10"/>
 
     <meta property="og:title" content="O-Maps. Руководства и правила">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
@@ -45,15 +45,19 @@
 <body class="stat-body sheet-body">
     <script src="js/utils-common.js"></script>
     <script src="js/utils.js"></script>
-    <script src="js/global-menu.js"></script>
-    <script>
-        writeGlobalMenuHtml();
-    </script>
+    <header class="page-header">
+        <h1>O-Maps ◪ Руководства и правила по ориенту и картографии</h1>
 
-    <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
-    <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+        <nav class="page-header-actions" aria-label="Навигация по странице">
+            <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
+            <a href="spb.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
-    <h1>O-Maps ◪ Руководства и правила по ориенту и картографии</h1>
+            <script src="js/global-menu.js"></script>
+            <script>
+                writeGlobalMenuHtml();
+            </script>
+        </nav>
+    </header>
 
     <div class="sheet-filters">
         <sup class="header_checkbox_container">

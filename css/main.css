@@ -38,6 +38,30 @@ a, a:active, a:focus {
     }
 }
 
+.page-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.page-header h1 {
+    margin: 0;
+    min-width: 0;
+}
+
+.page-header-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.page-header-actions .stat-map-link-right {
+    float: none;
+}
+
 .banners {
     text-align: center;
     h3 {
@@ -368,14 +392,12 @@ body.sub-index-body {
     width: 400px;
 }
 .stat-map-link {
-    float: left;
     margin: 0 20px;
     background-color: white;
     padding: 8px 10px;
     border: 1px solid black;
 }
 .stat-map-link-right {
-    float: right;
     margin-right: 0;
 }
 
@@ -385,7 +407,6 @@ body.sub-index-body {
     margin-left:-2px !important;
 }
 .dropdown-button-right {
-    float: right;
     margin: 0 0 0 20px;
     border: 1px solid black;
     button {
