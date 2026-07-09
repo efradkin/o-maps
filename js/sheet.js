@@ -376,6 +376,13 @@ function sortMapsTable() {
             return m.start || '';
     }
 
+    function safeOwner(m) {
+        if (Array.isArray(m.owner))
+            return m.owner[0];
+        else
+            return m.owner || '';
+    }
+
     const isAscending = this.dataset.order === 'asc';
     switch (this.dataset.sort) {
         case 'name':
@@ -388,6 +395,11 @@ function sortMapsTable() {
         case 'start':
             oMaps.sort((a, b) => {
                 return isAscending ? (safeStart(a)).localeCompare(safeStart(b)) : (safeStart(b)).localeCompare(safeStart(a));
+            });
+            break;
+        case 'owner':
+            oMaps.sort((a, b) => {
+                return isAscending ? (safeOwner(a)).localeCompare(safeOwner(b)) : (safeOwner(b)).localeCompare(safeOwner(a));
             });
             break;
         case 'year':
