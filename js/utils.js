@@ -1642,7 +1642,8 @@ function buildEventReports(evt, withGPS) {
 }
 
 function buildEventInfo(evt) {
-    return (evt.info ?? '') + (evt.planner ? ' Планирование дистанции: ' + buildPlanners(evt) : '') + buildPublish(evt);
+    const evtPlanners = buildPlanners(evt);
+    return (evt.info ?? '') + (evtPlanners ? ' Планирование дистанции: ' + evtPlanners : '') + buildPublish(evt);
 }
 
 function buildPublish(evt) {
@@ -1764,6 +1765,22 @@ function buildPlanners(m, calendar) {
         let planner = m.planner;
         if (!planner && calendar) {
             planner = calendar.planner;
+        }
+        if (!planner && m.map) {
+            if (Array.isArray(m.map)) {
+                for (const mm of m.map) {
+                    const mp = getMapForName(mm);
+                    if (mp.planner) {
+                        if (!planner) planner = [];
+                        if (!planner.includes(mp.planner)) {
+                            planner.push(mp.planner);
+                        }
+                    }
+                }
+            } else {
+                const mp = getMapForName(m.map);
+                planner = mp.planner;
+            }
         }
         if (Array.isArray(planner)) {
             result += '<ol>'

@@ -461,11 +461,12 @@ let commonEvents2026 = [
         place: 'Сосново, оз Уловное',
         o_site: '260702_bn',
         reg: 'https://orgeo.ru/event/53317',
+        reskeep: [902,903,904],
         type: 'ORIENT',
         fmt: 'спринт, лонг, классика',
         major: true,
         owner: 'WN',
-        map: 'sosnovo_ulovnoe_oz_2023'
+        map: ['wn_2026_07_03','wn_2026_07_04','wn_2026_07_05']
     },
     {
         id: 'COMMON_20260704_1',

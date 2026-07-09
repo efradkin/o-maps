@@ -4,6 +4,7 @@ let planners = {
     BBNNA_Y: { name: 'Бабанина Юлия' },
     BDKN_A: { name: 'Будкин А' },
     BKTV: { name: 'Бекетов Константин' },
+    BLKV_M: { name: 'Беляков Михаил' },
     BLNV_A: { name: 'Блинов А' },
     BLZRV_V: { name: 'Белозеров Владимир' },
     BNDRNK: { name: 'Бондаренко Игорь' },
@@ -32,6 +33,7 @@ let planners = {
     GBNV_V: { name: 'Губанов Валерий' },
     GBNV_A: { name: 'Губанов А.' }, // Т.
     GBNVA_A: { name: 'Губанова Алина' }, // Т.
+    GRBTNKVA_S: { name: 'Горбатенкова Светлана' },
     GRGRV_B: { name: 'Григорьев Б' },
     GRLNV: { name: 'Горланов Сергей' },
     GRV_M: { name: 'Гуреев М' },
