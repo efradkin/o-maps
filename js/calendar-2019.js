@@ -853,11 +853,7 @@ let events2019 = [
         owner: 'WN',
         start: 'WN',
         o_site: '190628',
-        reskeep: [
-            174,
-            175,
-            176
-        ]
+        reskeep: [174, 175, 176]
     },
     {
         id: 'SPB_20190628_2',

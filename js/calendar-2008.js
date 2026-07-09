@@ -462,7 +462,7 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/08061722/festival_res.zip',
         info: 'ПЕТЕРБУРГСКИЙ ФЕСТИВАЛЬ СПОРТИВНОГО ОРИЕНТИРОВАНИЯ «ЯРКИЙ МИР - БЕЛЫЕ НОЧИ»',
         owner: 'WN',
-        start: 'YM',
+        start: ['WN','YM'],
         o_site: '08061722'
     },
     {

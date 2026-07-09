@@ -465,7 +465,7 @@ let commonEvents2026 = [
         type: 'ORIENT',
         fmt: 'спринт, лонг, классика',
         major: true,
-        owner: 'WN',
+        start: 'WN',
         map: ['wn_2026_07_03','wn_2026_07_04','wn_2026_07_05']
     },
     {
