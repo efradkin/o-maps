@@ -693,13 +693,17 @@ function coordLink(latLng) {
     return `${location.href}?x=${latLng.lat}&y=${latLng.lng}`;
 }
 
-function authorLink(author, isGlobalTable) {
+function authorLink(author, isGlobalTable, isSheetLink) {
     let pathname = location.pathname;
     if (isGlobalTable) {
-        pathname = pathname.substring(0, pathname.lastIndexOf('/') + 1) + 'all.html';
+        pathname = pathname.substring(0, pathname.lastIndexOf('/') + 1) + (isSheetLink ? 'sheet-' : '') + 'all.html';
     } else {
         if (pathname.includes('charts-')) {
-            pathname = pathname.split('charts-').join('');
+            if (isSheetLink) {
+                pathname = pathname.replace('charts-','sheet-');
+            } else {
+                pathname = pathname.split('charts-').join('');
+            }
         }
     }
     return location.origin + pathname + '?author=' + author;

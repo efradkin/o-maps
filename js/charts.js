@@ -169,7 +169,7 @@ function prepareAuthorsTableData() {
             periodText: isGlobalTable ? buildPeriod(author) : '',
             regionsText: isGlobalTable ? prettyRegions(author.regions) : '',
             authorHtml: authorLabel(author, isGlobalTable),
-            linkHtml: '<a href="' + authorLink(key, isGlobalTable) + '" title="Карты автора"><img src="./images/external-link.png" alt="Карты автора" /></a>'
+            linkHtml: `<a href="${authorLink(key, isGlobalTable)}" title="На карте">🗺️</a> <a href="${authorLink(key, isGlobalTable, true)}" title="В таблице">📑</a>`
         }))
         .sort((a, b) => a.name.localeCompare(b.name, 'ru'));
 
