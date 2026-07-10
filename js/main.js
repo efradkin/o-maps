@@ -1360,8 +1360,9 @@ function buildMapPopup(m) {
     }
 
     // владелец
-    if (m.owner) {
-        if (Array.isArray(m.owner)) {
+    const owner = getOwner(m);
+    if (owner) {
+        if (Array.isArray(owner)) {
             result += 'Владельцы:';
         }
         result += buildOwners(m);
@@ -1596,20 +1597,24 @@ function buildEditors(m, withIcon) {
 
 function buildOwners(m, withIcon) {
     let result = '';
-    if (Array.isArray(m.owner)) {
+    let owner = getOwner(m);
+    if (!owner && m.start) {
+        owner = starts[m.start].owner;
+    }
+    if (Array.isArray(owner)) {
         result += '<ol>'
-        for (const o of m.owner) {
+        for (const o of owner) {
             if (owners[o]) {
                 result += '<li>' + owners[o].name + '</li>';
             }
         }
         result += '</ol>'
     } else {
-        if (owners[m.owner]) {
-            if (withIcon && owners[m.owner].logo) {
-                result += '<img src="./logo/' + owners[m.owner].logo + '" alt="Лого" class="sheet-icon" /> ';
+        if (owners[owner]) {
+            if (withIcon && owners[owner].logo) {
+                result += '<img src="./logo/' + owners[owner].logo + '" alt="Лого" class="sheet-icon" /> ';
             }
-            result += owners[m.owner].name + '<br />';
+            result += owners[owner].name + '<br />';
         }
     }
     return result;

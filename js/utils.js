@@ -1156,6 +1156,14 @@ function getMapStarts(m) {
     return start;
 }
 
+function getOwner(m) {
+    let owner = m.owner;
+    if (!owner && m.start) {
+        owner = starts[m.start].owner;
+    }
+    return owner;
+}
+
 function downloadSheetTable(fileName) {
     downloadTableAsCSV($('.o-main-table'), fileName);
     return false;
