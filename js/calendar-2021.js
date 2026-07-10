@@ -496,6 +496,7 @@ let events2021 = [
         name: 'Noname Sprint Tour SPb - 2021. 3 этап',
         start: 'ST',
         type: 'ORIENT',
+        map: 'parkhomenko',
         reskeep: 431
     },
     {

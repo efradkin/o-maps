@@ -737,7 +737,7 @@ let toksovoMaps = [
         year: 2012,
         area: 2.5,
         url: './maps/forest/toksovo/karabselky_2013.webp',
-        link: './original_maps/forest/toksovo/karabselky_2013_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/karabselky_2013_omaps.jpg','./original_maps/forest/toksovo/karabselky_2013_omaps.ocd'],
         bounds: [[60.10702361186672, 30.393161773681644], [60.10807161759284, 30.451612472534183], [60.089202411877785, 30.393719673156742]],
         author: 'SHRNN',
         owner: 'SHRNN'
@@ -746,7 +746,7 @@ let toksovoMaps = [
         name: 'Мистолово',
         year: 2006,
         url: './maps/forest/toksovo/mistolovo_2006.webp',
-        link: './original_maps/forest/toksovo/mistolovo_2006_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/mistolovo_2006_omaps.jpg','./original_maps/forest/toksovo/mistolovo_2006_omaps.ocd'],
         bounds: [[60.11780150698152, 30.38848400115967], [60.115385341248704, 30.424661636352543], [60.10133385603849, 30.38350582122803]],
         author: 'SHRNN'
     },

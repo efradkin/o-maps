@@ -278,7 +278,7 @@ let forestMaps = [
         name: 'Юкки, юг',
         year: 2019,
         url: './maps/forest/yukki_south_2019.webp',
-        link: './original_maps/forest/yukki_south_2019_omaps.jpg',
+        link: ['./original_maps/forest/yukki_south_2019_omaps.jpg','./original_maps/forest/yukki_south_2008_omaps.ocd'],
         bounds: [[60.111022964723404, 30.301430225372318], [60.108884333769765, 30.32962560653687], [60.1034836725298, 30.29909133911133]],
         author: 'SHRNN'
     },

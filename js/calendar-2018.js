@@ -979,7 +979,8 @@ let events2018 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 24,
-        map: 'big_okhta_2017'
+        map: 'big_okhta_2017',
+        map: 'gimnazia_74_2018'
     },
     {
         id: 'SPB_20180908_1',

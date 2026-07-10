@@ -108,6 +108,8 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
+    <script src="js/calendar-2018.js"></script>
+    <script src="js/calendar-2021.js"></script>
     <script src="js/calendar-2025.js"></script>
     <script src="js/calendar-2026.js"></script>
     <script src="js/calendar-common-2026.js"></script>
@@ -225,6 +227,8 @@
         }
 
         const oEvents = [
+            ...events2018,
+            ...events2021,
             ...events2025,
             ...events2026,
             ...commonEvents2026,

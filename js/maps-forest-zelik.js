@@ -628,7 +628,7 @@ let zelikMaps = [
         name: 'Комарово',
         year: 2013,
         url: './maps/forest/zelik/komarovo_2013.webp',
-        link: './original_maps/forest/zelik/komarovo_2013_omaps.gif',
+        link: ['./original_maps/forest/zelik/komarovo_2013_omaps.gif','./original_maps/forest/zelik/komarovo_2009_omaps.ocd'],
         bounds: [[60.1815839323226, 29.805693626403812], [60.17895903480163, 29.855604171752933], [60.168243862694155, 29.802217483520508]],
         author: ['SHRNN','ZNDR']
     },

@@ -406,6 +406,7 @@ let commonEvents2026 = [
             'М18/35/40':'https://viewer.o-gps-center.ru/viewer/event/25510/',
             'ALL':'https://viewer.o-gps-center.ru/viewer/event/25478/',
         },
+        video: 'https://www.youtube.com/watch?v=wk37MdZG_6E',
         reskeep: 899,
         strava: 19083758289,
         me: 'М50',

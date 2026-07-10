@@ -139,6 +139,7 @@ let cityMaps = [
         bounds: [[59.97747788572093, 30.3892993927002], [59.97778923231374, 30.402109622955326], [59.97103557512989, 30.390093326568607]],
         author: 'SHRNN',
         owner: 'SHEIN',
+        start: 'ST',
         type: ['CITY']
     },
     {
@@ -1021,10 +1022,21 @@ let cityMaps = [
     },
     {
         name: 'Гимназия №74',
-        year: 2024,
+        date: '2018-09-05',
         start: 'ST',
+        url: './maps/city/gimnazia_74_2018.webp',
+        link: ['./original_maps/city/muzhestva_2018_st.pdf','./original_maps/city/gimnazia_74_2018_omaps.ocd'],
+        calendar: 'SPB_20180905_1',
+        bounds: [[60.000670556606416, 30.346748828887943], [59.99931872304408, 30.36307811737061], [59.995327273055, 30.34511804580689]],
+        author: 'SHRNN',
+        owner: 'SHRNN',
+        type: ['CITY']
+    },
+    {
+        name: 'Гимназия №74',
+        year: 2024,
         url: './maps/city/gimnazia_74_2024.webp',
-        link: ['./original_maps/city/gimnazia_74_2024_omaps.gif','./original_maps/city/muzhestva_2018_st.pdf'],
+        link: './original_maps/city/gimnazia_74_2024_omaps.gif',
         bounds: [[60.000713471052876, 30.34653425216675], [59.99927580678817, 30.36305665969849], [59.99538092476921, 30.34483909606934]],
         publish: 'https://t.me/dlitelnyy/439',
         author: ['SHRNN','EFRMV'],
@@ -1330,11 +1342,13 @@ let cityMaps = [
     },
     {
         name: 'пр Пархоменко',
-        year: 2021,
+        year: 2018,
+        date: '2021-04-28',
         url: './maps/city/parkhomenko.webp',
-        link: ['./original_maps/city/parkhomenko_omaps.jpg','./original_maps/city/parkhomenko_2021_st_omaps.gif'],
+        link: ['./original_maps/city/parkhomenko_omaps.jpg','./original_maps/city/parkhomenko_2018_omaps.ocd','./original_maps/city/parkhomenko_2021_st_omaps.gif'],
         bounds: [[60.0032775081867, 30.327436923980716], [60.00321314148582, 30.340461730957035], [59.99978006927887, 30.327394008636478]],
         start: 'ST',
+        calendar: 'SPB_20210428_2',
         author: 'SHRNN',
         owner: 'SHRNN',
         type: ['CITY']

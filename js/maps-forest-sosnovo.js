@@ -59,7 +59,7 @@ let sosnovoMaps = [
         name: 'пл 69км, запад',
         year: 1994,
         url: './maps/forest/sosnovo/69_km_west_1994.webp',
-        link: ['./original_maps/forest/sosnovo/69_km_west_1994_omaps.jpg','./original_maps/forest/sosnovo/69_km_west_1994_2_omaps.jpg'],
+        link: ['./original_maps/forest/sosnovo/69_km_west_1994_omaps.jpg','./original_maps/forest/sosnovo/69_km_west_1994_2_omaps.jpg','./original_maps/forest/sosnovo/69_km_west_1994_omaps.ocd'],
         bounds: [[60.54103160709596, 30.186395645141605], [60.540229577809804, 30.236349105834964], [60.504624794985865, 30.1820182800293]],
         author: 'SHRNN'
     },
@@ -192,7 +192,7 @@ let sosnovoMaps = [
         name: 'Замостье',
         year: 2006,
         url: './maps/forest/sosnovo/zamostie_2006.webp',
-        link: './original_maps/forest/sosnovo/zamostie_2006_omaps.jpg',
+        link: ['./original_maps/forest/sosnovo/zamostie_2006_omaps.jpg','./original_maps/forest/sosnovo/zamostie_2006_omaps.ocd'],
         bounds: [[60.54394407261173, 30.314283370971683], [60.538118879447, 30.377626419067386], [60.51700432381264, 30.306472778320316]],
         author: ['SHRNN','RYLOV_V']
     },
