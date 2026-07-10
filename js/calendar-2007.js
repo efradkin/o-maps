@@ -759,7 +759,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070916/070916_res.htm',
         fmt: 'эстафета одного участника',
         owner: 'SFSO_SPB',
-        o_site: '070916'
+        o_site: '070916',
+        map: 'solnechnoe-djuny_2007'
     },
     {
         id: 'SPB_20070922_1',

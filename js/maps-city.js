@@ -135,10 +135,10 @@ let cityMaps = [
         name: 'Лицей №126',
         year: 2009,
         url: './maps/city/school_126_2012.webp',
-        link: './original_maps/schools/school_126_2012_omaps.jpg',
+        link: ['./original_maps/schools/school_126_2012_omaps.jpg','./original_maps/schools/school_126_2009_omaps.ocd'],
         bounds: [[59.97747788572093, 30.3892993927002], [59.97778923231374, 30.402109622955326], [59.97103557512989, 30.390093326568607]],
         author: 'SHRNN',
-        owner: 'SHEIN',
+        owner: ['SHRNN','SHEIN'],
         start: 'ST',
         type: ['CITY']
     },
@@ -146,7 +146,7 @@ let cityMaps = [
         name: 'Гимназия №101',
         date: '2012-09-19',
         url: './maps/city/school_101_2011.webp',
-        link: ['./original_maps/schools/school_101_2011_omaps.jpg','./original_maps/starts/st/st_2012_school_101.jpg'],
+        link: ['./original_maps/schools/school_101_2011_omaps.jpg','./original_maps/starts/st/st_2012_school_101.jpg','./original_maps/schools/school_101_2011_omaps.ocd'],
         bounds: [[60.035573780830404, 30.32883167266846], [60.035573780830404, 30.34408807754517], [60.030579143213664, 30.328660011291507]],
         author: 'SHRNN',
         owner: 'SHEIN',
@@ -157,10 +157,11 @@ let cityMaps = [
         name: 'Гимназия №144',
         year: 2009,
         url: './maps/city/school_144_2013.webp',
-        link: './original_maps/schools/school_144_2013_omaps.jpg',
+        link: ['./original_maps/schools/school_144_2013_omaps.jpg','./original_maps/schools/school_144_2009_omaps.ocd'],
         bounds: [[60.047939225571504, 30.403182506561283], [60.0469857295227, 30.418052673339847], [60.04245356846846, 30.40225982666016]],
         author: 'SHRNN',
         owner: 'SHEIN',
+        start: 'ST',
         type: ['CITY']
     },
     {
@@ -269,10 +270,12 @@ let cityMaps = [
         name: 'Выборгская',
         year: 2015,
         url: './maps/city/vyborgskaya_2015.webp',
-        link: './original_maps/city/vyborgskaya_2015_omaps.jpg',
+        link: ['./original_maps/city/vyborgskaya_2015_omaps.jpg','./original_maps/city/vyborgskaya_2015_omaps.ocd'],
+        info: 'Карта составлена курсантами ВИФК.',
         bounds: [[59.97443941872372, 30.339260101318363], [59.97404214271112, 30.351254940032963], [59.97046644411359, 30.338702201843265]],
         author: 'SHRNN',
-        owner: 'SHEIN',
+        owner: ['SHRNN','SHEIN'],
+        start: 'ST',
         type: ['CITY']
     },
     {
@@ -302,10 +305,10 @@ let cityMaps = [
         name: 'Политехническая',
         date: ['2014-05-14','2017-04-19'],
         url: './maps/city/politekhnicheskaya_2015.webp',
-        link: ['./original_maps/city/politekhnicheskaya_2015_omaps.jpg','./original_maps/schools/school_145_2014_omaps.gif','./original_maps/city/politekh_st_2017_04_19_omaps.webp'],
+        link: ['./original_maps/city/politekhnicheskaya_2015_omaps.jpg','./original_maps/schools/school_145_2014_omaps.gif','./original_maps/city/politekh_st_2017_04_19_omaps.webp','./original_maps/city/manezh_alekseeva_2014_omaps.ocd'],
         bounds: [[60.02562663254445, 30.36728382110596], [60.0253478977596, 30.384922027587894], [60.010142570366924, 30.367884635925297]],
         author: 'SHRNN',
-        owner: 'SHEIN',
+        owner: ['SHRNN','SHEIN'],
         start: 'ST',
         type: ['CITY']
     },
@@ -987,9 +990,10 @@ let cityMaps = [
         name: 'Манеж Алексеева',
         date: '2015-05-13',
         url: './maps/city/manezh_alekseeva_2015.webp',
-        link: ['./original_maps/city/manezh_alekseeva_2015_omaps.jpg','./original_maps/city/manezh_alekseeva_2014_omaps.gif'], // ЧиП СПб тогда проводил НордВест
+        link: ['./original_maps/city/manezh_alekseeva_2015_omaps.jpg','./original_maps/city/manezh_alekseeva_2014_omaps.gif','./original_maps/city/manezh_alekseeva_2014_omaps.ocd'], // ЧиП СПб тогда проводил НордВест
         bounds: [[60.019761985893915, 30.356168746948246], [60.0193652537523, 30.369558334350586], [60.00983152806055, 30.35458087921143]],
         author: 'SHRNN',
+        owner: 'SHRNN',
         start: 'ST',
         type: ['CITY']
     },

@@ -283,8 +283,9 @@ let sosnovoMaps = [
     {
         name: 'Сосново, Чёрный лес',
         year: 1996,
+        correct: 2008,
         url: './maps/forest/sosnovo/sosnovo_black_forest_1986.webp',
-        link: ['./original_maps/forest/sosnovo/sosnovo_black_forest_1996_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_black_forest_he_1996_omaps.webp'],
+        link: ['./original_maps/forest/sosnovo/sosnovo_black_forest_1996_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_black_forest_he_1996_omaps.webp','./original_maps/forest/sosnovo/sosnovo_black_forest_2008_omaps.ocd'],
         bounds: [[60.54052506459614, 30.245018005371097], [60.53744342689857, 30.319004058837894], [60.508470137955726, 30.241327285766605]],
         author: 'SHRNN',
         start: 'CISM_96'
@@ -550,7 +551,7 @@ let sosnovoMaps = [
         name: 'Петровское, лагерь "Связист"',
         year: 2010,
         url: './maps/forest/sosnovo/petrovskoe_svjazist_2010.webp',
-        link: './original_maps/forest/sosnovo/petrovskoe_svjazist_2010_omaps.webp',
+        link: ['./original_maps/forest/sosnovo/petrovskoe_svjazist_2010_omaps.webp','./original_maps/forest/sosnovo/petrovskoe_svjazist_2010_omaps.ocd'],
         bounds: [[60.64896547114925, 30.197918415069584], [60.647703325825276, 30.214891433715824], [60.64274892755333, 30.196609497070316]],
         author: 'SHRNN',
         owner: 'PPLVSKY'
