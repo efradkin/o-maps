@@ -1888,6 +1888,8 @@ let events2026 = [
         type: 'ORIENT',
         o_site: '260712_Dlit_2',
         reg: 'http://orgeo.ru/event/53962',
+        reskeep: 906,
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25596/',
         owner: 'DLITELNY',
         map: 'lembolovo_2024'
     },
