@@ -420,6 +420,15 @@ let southMaps = [
         owner: 'YUVENTA'
     },
     {
+        name: 'Шепелево, Батарейная бухта',
+        year: 2013,
+        url: './maps/forest/south/shepelevo_2013.webp',
+        link: ['./original_maps/forest/south/shepelevo_2013_omaps.gif','./original_maps/forest/south/shepelevo_2013_omaps.ocd'],
+        bounds: [[59.98185794104837, 29.114027023315433], [59.980355046192784, 29.14080619812012], [59.9627231430704, 29.109306335449222]],
+        author: 'SHRNN',
+        // owner: 'SHRNN' ?? Мельников
+    },
+    {
         name: 'Шапки',
         year: 1982,
         url: './maps/forest/south/shapki_south_1982.webp',

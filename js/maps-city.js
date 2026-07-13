@@ -1809,6 +1809,7 @@ let cityMaps = [
         name: 'Поляны',
         year: 2016,
         url: './maps/city/poljany_2015.webp',
+        link: './original_maps/city/poljany_school_2015_omaps.ocd',
         bounds: [[60.32321898969352, 29.252021312713627], [60.3230702556585, 29.261505603790287], [60.317322228605356, 29.251356124877933]],
         author: 'SHRNN',
         type: ['CITY'],

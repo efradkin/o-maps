@@ -188,7 +188,7 @@ let zelikMaps = [
         info: 'ЧиП СПб, марафон',
         o_site: '070916',
         url: './maps/forest/zelik/solnechnoe-djuny_2007.webp',
-        link: ['./original_maps/forest/zelik/solnechnoe-djuny_2007_1_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_2_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_3_omaps.gif'],
+        link: ['./original_maps/forest/zelik/solnechnoe-djuny_2007_1_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_2_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_3_omaps.gif','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
         bounds: [[60.148063386777785, 29.929761886596683], [60.14502990577005, 29.97053146362305], [60.130435379117884, 29.924783706665043]],
         author: 'SHRNN',
         owner: 'SFSO_SPB'
@@ -399,14 +399,14 @@ let zelikMaps = [
         author: 'FDRV_L',
     },
     {
-        name: 'Зеленогорск, т/б Прибой, оз Щучье',
+        name: 'Зеленогорск, оз Щучье',
         year: 2000,
         area: 15,
         url: './maps/forest/zelik/zelenogorsk_priboy_2000.webp',
-        link: './original_maps/forest/zelik/zelenogorsk_priboy_2000_omaps.jpg',
+        link: ['./original_maps/forest/zelik/zelenogorsk_priboy_2000_omaps.jpg','./original_maps/forest/zelik/zelik_simagino_2015_omaps.ocd'],
         photo: './tracks/zelenogorsk/pic_1.jpg',
         bounds: [[60.2478197156723, 29.730205535888675], [60.23776612113594, 29.847879409790043], [60.19986702963659, 29.71484184265137]],
-        author: ['TKMKV_K','KUZNTSV_S']
+        author: ['TKMKV_K','KUZNTSV_S','SHRNN']
     },
     {
         name: 'Зеленогорск, оз Щучье',
@@ -421,6 +421,7 @@ let zelikMaps = [
         year: 2008,
         url: './maps/forest/zelik/zelenogorsk_leninskoe_2008.webp',
         link: ['./original_maps/forest/zelik/zelenogorsk_leninskoe_2008_omaps.gif','./original_maps/forest/zelik/zelenogorsk_leninskoe_2008_omaps.ocd'],
+        restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
         bounds: [[60.239853773826155, 29.723424911499027], [60.232141578515225, 29.832086563110355], [60.19398000259122, 29.714498519897464]],
         author: ['VSLVSKY','DRBSHV']
     },
@@ -432,16 +433,17 @@ let zelikMaps = [
         bounds: [[60.20396172997914, 29.7920036315918], [60.20010163564336, 29.837965965271], [60.184550027412534, 29.78526592254639]],
         author: 'VSLVSKY'
     },
+/*
     {
         name: 'Зеленогорск, оз Щучье',
         year: 2000,
         url: './maps/forest/zelik/zelenogorsk_schuchye_2011.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_2011_omaps.jpg',
         bounds: [[60.23789394042978, 29.747972488403324], [60.23252510072741, 29.815092086791996], [60.20374847695044, 29.736213684082035]],
-        restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
         author: 'SHRNN',
         owner: 'SHRNN'
     },
+*/
     {
         name: 'Зеленогорск - Комарово',
         year: 1992,
@@ -567,7 +569,7 @@ let zelikMaps = [
         info: 'ЧиП СПб, марафон',
         o_site: '150906',
         url: './maps/forest/zelik/ilychevo-simagino_2015.webp',
-        link: ['./original_maps/forest/zelik/ilychevo_simagino_2015_omaps.jpg','./original_maps/forest/zelik/ilychevo_simagino_2015_marathon_omaps.jpg'],
+        link: ['./original_maps/forest/zelik/ilychevo_simagino_2015_omaps.jpg','./original_maps/forest/zelik/ilychevo_simagino_2015_marathon_omaps.jpg','./original_maps/forest/zelik/zelik_simagino_2015_omaps.ocd'],
         gps: {
             'МЭ': 'https://viewer.o-gps-center.ru/viewer/event/657/',
             'ЖЭ': 'https://viewer.o-gps-center.ru/viewer/event/658/'
@@ -771,10 +773,10 @@ let zelikMaps = [
         name: 'Белоостров - Удачное',
         year: 2024,
         url: './maps/forest/zelik/beloostrov_udachnoe_2024.webp',
-        link: './original_maps/forest/zelik/beloostrov_udachnoe_2024_omaps.jpg',
+        link: ['./original_maps/forest/zelik/beloostrov_udachnoe_2024_omaps.jpg','./original_maps/forest/zelik/beloostrov_udachnoe_2020_omaps.ocd'],
         author: ['RYLOV_V','SHRNN','RDNV_I'],
         bounds: [[60.22485380363574, 29.951906204223636], [60.2185449475187, 30.032415390014652], [60.203663175350826, 29.946155548095707]],
-        owner: 'RDNV_I'
+        owner: ['RDNV_I','SHRNN']
     },
     {
         name: 'Сестрорецк, Ржавая канава',
@@ -789,7 +791,7 @@ let zelikMaps = [
         name: 'Сестрорецкие Дюны',
         year: 2019,
         url: './maps/forest/zelik/sestroretskie_djuny_2019.webp',
-        link: './original_maps/forest/zelik/sestroretskie_djuny_2019_omaps.jpg',
+        link: ['./original_maps/forest/zelik/sestroretskie_djuny_2019_omaps.jpg','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
         bounds: [[60.129815556057196, 29.943172931671146], [60.126716265625745, 29.95851516723633], [60.12330670901339, 29.9383020401001]],
         author: 'SHRNN',
         owner: 'SHRNN'
@@ -835,7 +837,7 @@ let zelikMaps = [
         name: 'Сестрорецк, Детские Дюны',
         year: 2005,
         url: './maps/forest/zelik/sestroretskie_detskie_djuny_2005.webp',
-        link: './original_maps/forest/zelik/sestroretskie_detskie_djuny_2005_omaps.jpg',
+        link: ['./original_maps/forest/zelik/sestroretskie_detskie_djuny_2005_omaps.jpg','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
         bounds: [[60.12263330653698, 29.957227706909183], [60.12231263384891, 29.972097873687748], [60.11691417468124, 29.956712722778324]],
         author: 'SHRNN',
         excluded: true
@@ -851,7 +853,7 @@ let zelikMaps = [
     {
         name: 'Сестрорецк, Дюны, ТЭЦ',
         url: './maps/forest/zelik/sestroretskie_djuny_tets.webp',
-        link: './original_maps/forest/zelik/sestroretskie_djuny_tets_omaps.jpg',
+        link: ['./original_maps/forest/zelik/sestroretskie_djuny_tets_omaps.jpg','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
         bounds: [[60.12783845621518, 29.957206249237064], [60.12702620780377, 29.967741966247562], [60.12243021419727, 29.955425262451175]],
         author: 'SHRNN',
         owner: 'SHRNN'
@@ -893,7 +895,7 @@ let zelikMaps = [
         name: 'Сестрорецк, Таможенная дорога',
         year: 2012,
         url: './maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012.webp',
-        link: './original_maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012_omaps.gif',
+        link: ['./original_maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012_omaps.gif','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
         bounds: [[60.14058599180651, 29.95044708251953], [60.13898347169249, 29.967741966247562], [60.12789189290783, 29.946713447570804]],
         author: 'SHRNN',
         zindex: 2

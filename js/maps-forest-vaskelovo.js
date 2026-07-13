@@ -537,14 +537,14 @@ let vaskelovoMaps = [
     },
 */
     {
-        name: 'Орехово, оз Ветренное',
+        name: 'Орехово, оз Ветренное', // TODO превью не соотвествует джипегу
         year: 2004,
         startYear: 2005,
         start: 'NA',
         page: 'spb',
         o_site: '050610',
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2004.webp',
-        link: './original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_omaps.jpg',
+        link: ['./original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_2002_09_08_omaps.webp','./original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_omaps.ocd'],
         bounds: [[60.504476888067344, 30.289220809936527], [60.49853892434387, 30.352993011474613], [60.47278812581316, 30.27862071990967]],
         author: ['VSLVSKY','DRBSHV','SHRNN'],
     },
@@ -720,6 +720,15 @@ let vaskelovoMaps = [
         bounds: [[60.49139502141355, 30.270080566406254], [60.4788788301667, 30.390758514404297], [60.443714649069115, 30.24973869323731]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY','RDNV_I'],
         owner: 'RDNV_I'
+    },
+    {
+        name: 'Орехово, оз Бол.Борково',
+        year: 2021, // ??
+        url: './maps/forest/vaskelovo/orekhovo_borkovo_2021.webp',
+        link: ['./original_maps/forest/vaskelovo/orekhovo_borkovo_2021_omaps.gif','./original_maps/forest/vaskelovo/orekhovo_borkovo_2021_omaps.ocd'],
+        bounds: [[60.474649295661045, 30.262355804443363], [60.47105375783274, 30.301966667175297], [60.46161886491695, 30.258107185363773]],
+        author: ['SHRNN','VSLVSKY','BRDR'],
+        owner: 'SHRNN'
     },
     {
         name: 'Орехово, оз Бол.Борково',

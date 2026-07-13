@@ -655,9 +655,18 @@ let forestMaps = [
     },
     {
         name: 'Поляны, Семиозерье',
+        year: 2016,
+        url: './maps/forest/polyany_2016.webp',
+        link: ['./original_maps/forest/polyany_2016_omaps.gif','./original_maps/forest/polyany_2016_omaps.ocd','./original_maps/forest/polyany_2014_omaps.gif','./original_maps/forest/polyany_2014_omaps.ocd'],
+        bounds: [[60.32010605752227, 29.264574050903324], [60.30794896866537, 29.369974136352543], [60.292342158509875, 29.252128601074222]],
+        author: 'SHRNN',
+        owner: 'SHRNN'
+    },
+    {
+        name: 'Поляны, Семиозерье',
         year: 2019,
         url: './maps/forest/polyany_2019.webp',
-        link: './original_maps/forest/polyany_2019_omaps.jpg',
+        link: ['./original_maps/forest/polyany_2019_omaps.jpg','./original_maps/forest/polyany_shirinyan_2014_omaps.ocd'],
         bounds: [[60.31740723452755, 29.281826019287113], [60.30782142277218, 29.369716644287113], [60.29008769806418, 29.269809722900394]],
         publish: 'https://vk.com/album-230167293_313563270',
         author: ['SHRNN','DBRTSV_V'],
