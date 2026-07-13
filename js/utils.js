@@ -1158,7 +1158,7 @@ function getMapStarts(m) {
 
 function getOwner(m) {
     let owner = m.owner;
-    if (!owner && m.start) {
+    if (!owner && m.start && starts[m.start]) { // TODO добавить обработку массивов
         owner = starts[m.start].owner;
     }
     return owner;

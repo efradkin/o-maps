@@ -1918,19 +1918,21 @@ let events2026 = [
         id: 'SPB_20260718_2',
         date: '2026-07-18',
         name: 'Кубок Белых ночей №15',
-        place: 'Мичуринское',
+        place: 'Мичуринское, Петриченко',
         reg: 'https://orgeo.ru/event/54027',
         type: 'ORIENT',
         owner: 'WN',
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20260719_1',
         date: '2026-07-19',
         name: 'Кубок Белых ночей №16',
-        place: 'Мичуринское',
+        place: 'Мичуринское, Петриченко',
         reg: 'https://orgeo.ru/event/54029',
         type: 'ORIENT',
         owner: 'WN',
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20260723_1',
@@ -2007,6 +2009,7 @@ let events2026 = [
         name: 'Tokma-maps',
         place: 'Цвелодубово',
         o_site: '260816_Tokma',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1746',
         type: 'ORIENT',
         owner: 'VYBORG',
         map: 'tsvelodubovo_2020'

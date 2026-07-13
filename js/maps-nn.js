@@ -35,6 +35,18 @@ let nnMaps = [
         region: 'N_NOVGOROD'
     },
     {
+        name: 'Дзержинск',
+        date: '2025-11-22',
+        url: './maps/nn/dzerzhinsk_rogaine_2025_11_22.webp',
+        link: './original_maps/nn/dzerzhinsk_rogaine_2025_11_22_omaps.webp',
+        info: 'По первому снегу.',
+        bounds: [[56.25169533478854, 43.269481658935554], [56.2380556064797, 43.38552474975587], [56.22460188597998, 43.2583236694336]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23902/',
+        region: 'N_NOVGOROD',
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE'
+    },
+    {
         name: 'Дзержинск, Решетиха',
         year: 1986,
         url: './maps/nn/dzerzhinsk_reshetikha_1986.webp',
@@ -93,6 +105,20 @@ let nnMaps = [
         owner: 'NN_RORAINE',
         region: 'N_NOVGOROD'
     },
+/*
+    {
+        name: 'Дзержинск, Горбатов',
+        date: '2025-10-11',
+        url: './maps/nn/dzerzhinsk_gorbatov_rogaine_2025.webp',
+        link: './original_maps/other/dzerzhinsk_gorbatov_rogaine_2025_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/23604/',
+        info: 'ХХI Осень Поволжья.',
+        bounds: [[56.147079550100564, 43.00374984741212], [56.123643992982174, 43.2308578491211], [56.071939658858625, 42.97456741333008]],
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+*/
     {
         name: 'Дзержинск, Тимонино',
         date: '2024-08-17',
@@ -109,6 +135,18 @@ let nnMaps = [
         region: 'N_NOVGOROD'
     },
     {
+        name: 'Б.Терюшево',
+        date: '2024-08-03',
+        url: './maps/nn/bol_terjushevo_rogaine_2024.webp',
+        link: './original_maps/other/bol_terjushevo_rogaine_2024_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/20142/',
+        info: 'Лесной Релакс.',
+        bounds: [[55.783330656221686, 44.07766342163086], [55.7659515060885, 44.21258926391602], [55.693261431606885, 44.04367446899415]],
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+    {
         name: 'Дальнее Константиново',
         date: '2025-08-10',
         url: './maps/nn/dalnee_konstantinovo_rogaine_2025.webp',
@@ -116,6 +154,18 @@ let nnMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/23204/',
         info: 'Лесной Relax.',
         bounds: [[55.85864713552407, 44.02324676513672], [55.84260277600231, 44.15928840637208], [55.751366352300806, 43.981790542602546]],
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Вача, Невадьево',
+        date: '2025-05-17',
+        url: './maps/nn/vacha_nevadievo_rogaine_2025.webp',
+        link: './original_maps/nn/vacha_nevadievo_rogaine_2025_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/22504/',
+        info: 'По весенним ямкам.',
+        bounds: [[55.74339533803882, 42.721881866455085], [55.73271645829098, 42.81792640686036], [55.69379356582804, 42.70437240600587]],
         type: ['ROGAINE'],
         owner: 'NN_RORAINE',
         region: 'N_NOVGOROD'
@@ -142,6 +192,18 @@ let nnMaps = [
         bounds: [[56.48197509420184, 44.14443969726563], [56.47514950750572, 44.21310424804688], [56.450064417409585, 44.1331958770752]],
         author: ['LBMV_E','KRLV_A'],
         type: ['ROGAINE','WATER'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Большое Пикино',
+        date: '2024-05-25',
+        url: './maps/nn/big_pikino_rogaine_2024.webp',
+        link: './original_maps/nn/big_pikino_rogaine_2024_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19553/',
+        info: 'От заката до рассвета.',
+        bounds: [[56.42434568097211, 44.16915893554688], [56.404404064696415, 44.34494018554688], [56.343565125960275, 44.138603210449226]],
+        type: ['ROGAINE'],
         owner: 'NN_RORAINE',
         region: 'N_NOVGOROD'
     },
