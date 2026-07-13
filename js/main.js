@@ -1598,7 +1598,7 @@ function buildEditors(m, withIcon) {
 function buildOwners(m, withIcon) {
     let result = '';
     let owner = getOwner(m);
-    if (!owner && m.start) {
+    if (!owner && m.start && starts[m.start]) { // TODO добавить обработку массивов
         owner = starts[m.start].owner;
     }
     if (Array.isArray(owner)) {
