@@ -1826,7 +1826,7 @@ let events2026 = [
         o_site: '20260705',
         reg: 'https://orgeo.ru/event/53666',
         photo: 'https://vk.com/album-196335280_311387714',
-        video: 'https://vk.com/clip-220245153_456239102',
+        video: ['https://vk.com/clip-220245153_456239102','https://youtu.be/0dvIimWYRWM'],
         type: 'INDOOR',
         owner: 'OPEN_BAND',
         map: 'mega_parnas_2026',
@@ -1863,6 +1863,7 @@ let events2026 = [
         place: 'о Койонсаари',
         o_site: '260611_bn',
         reg: 'https://orgeo.ru/event/53639',
+        photo: 'https://vk.ru/album-196511971_311408236',
         type: 'ORIENT',
         map: 'koyonsaari_2024',
         owner: 'WN'
