@@ -945,6 +945,7 @@ let authors = {
     MLNN_V: { name: 'Малинин Вадим' }, // Геннадьевич
     MLR_P: { name: 'Муляр П.' },
     MLSHNKO_V: { name: 'Малашенко Валерий' }, // Брянск
+    MRNV_M: { name: 'Миронов Н.' },
     MSHRN_A: { name: 'Мишарин Алексей' },
     MSHNV_A: { name: 'Мишанов А.' },
     MTKV_A: { name: 'Митяков А.' },
@@ -987,6 +988,7 @@ let authors = {
     TRSV_S: { name: 'Трусов С.' },
     UGNCHV_V: { name: 'Угничев В.' },
     VRM_A: { name: 'Veermae Avo' },
+    VRNN_Y: { name: 'Воронин Юрий' },
     YURDK: { name: 'Юрдик В.' },
     VGNTS_N: { name: 'Vygantas Nekrašas' },
     VYLNN_L: {

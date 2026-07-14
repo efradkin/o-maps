@@ -35,6 +35,44 @@ let nnMaps = [
         region: 'N_NOVGOROD'
     },
     {
+        name: 'Семёнов',
+        date: '2021-03-14',
+        url: './maps/nn/semenov_rogaine_2021.webp',
+        link: './original_maps/nn/semenov_rogaine_2021_omaps.webp',
+        info: 'Хохломской рогейн.',
+        bounds: [[56.821457184930615, 44.45411682128907], [56.808115094426554, 44.56123352050782], [56.77445690313719, 44.43437576293946]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/9124/',
+        region: 'N_NOVGOROD',
+        type: ['ROGAINE'],
+        author: 'KRLV_A',
+        owner: 'NN_RORAINE'
+    },
+    {
+        name: 'Первое Мая',
+        date: '2021-04-24',
+        url: './maps/nn/pervoe_maya_rogaine_2021.webp',
+        link: './original_maps/nn/pervoe_maya_rogaine_2021_omaps.webp',
+        info: 'Открытие сезона.',
+        bounds: [[56.43502439061025, 43.53976249694825], [56.421639931739136, 43.6618995666504], [56.37418685864411, 43.51581573486328]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/9475/',
+        region: 'N_NOVGOROD',
+        type: ['ROGAINE'],
+        author: 'VRNN_Y',
+        owner: 'NN_RORAINE'
+    },
+    {
+        name: 'Дзержинск',
+        date: '2023-04-23',
+        url: './maps/nn/dzerzhinsk_rogaine_2023_04_23.webp',
+        link: './original_maps/nn/dzerzhinsk_rogaine_2023_04_23_omaps.webp',
+        info: 'Открытие сезона.',
+        bounds: [[56.30511051686203, 43.47032546997071], [56.30272962718575, 43.59907150268555], [56.25126618660775, 43.46689224243165]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/15646/',
+        region: 'N_NOVGOROD',
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE'
+    },
+    {
         name: 'Дзержинск',
         date: '2025-11-22',
         url: './maps/nn/dzerzhinsk_rogaine_2025_11_22.webp',
@@ -147,6 +185,18 @@ let nnMaps = [
         region: 'N_NOVGOROD'
     },
     {
+        name: 'Гремячая Поляна',
+        date: '2023-07-30',
+        url: './maps/nn/gremyacha_polyana_rogaine_2023.webp',
+        link: './original_maps/other/gremyacha_polyana_rogaine_2023_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/16903/',
+        info: 'Лесной релакс.',
+        bounds: [[55.89499945864543, 43.990030288696296], [55.88089590963384, 44.108219146728516], [55.80272821676827, 43.95432472229004]],
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+    {
         name: 'Дальнее Константиново',
         date: '2025-08-10',
         url: './maps/nn/dalnee_konstantinovo_rogaine_2025.webp',
@@ -196,6 +246,18 @@ let nnMaps = [
         region: 'N_NOVGOROD'
     },
     {
+        name: 'Комарово',
+        date: '2024-04-28',
+        url: './maps/nn/nn_komarovo_rogaine_2024.webp',
+        link: './original_maps/nn/nn_komarovo_rogaine_2024_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/19070/',
+        info: 'Открытие сезона.',
+        bounds: [[56.358879066574126, 44.34030532836915], [56.340996347465044, 44.49411392211915], [56.296919633671926, 44.317131042480476]],
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+    {
         name: 'Большое Пикино',
         date: '2024-05-25',
         url: './maps/nn/big_pikino_rogaine_2024.webp',
@@ -203,6 +265,54 @@ let nnMaps = [
         gps: 'https://viewer.o-gps-center.ru/viewer/event/19553/',
         info: 'От заката до рассвета.',
         bounds: [[56.42434568097211, 44.16915893554688], [56.404404064696415, 44.34494018554688], [56.343565125960275, 44.138603210449226]],
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Ржавка',
+        date: '2020-06-28',
+        url: './maps/nn/rzhavka_rogaine_2020.webp',
+        link: './original_maps/nn/rzhavka_rogaine_2020_omaps.webp',
+        info: 'Тренировка в Артемовских лугах.',
+        bounds: [[56.28320073473214, 44.098262786865234], [56.26861900926935, 44.21945571899415], [56.20393502509641, 44.06684875488281]],
+        type: ['ROGAINE'],
+        author: ['MRNV_M','KRLV_A','SDNV_V'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Спирино',
+        date: '2018-10-13',
+        url: './maps/nn/spirino_autumn_rogaine_2018.webp',
+        link: './original_maps/nn/spirino_autumn_rogaine_2018_omaps.webp',
+        info: 'Осень Поволжья.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/4250/',
+        bounds: [[56.10105582492769, 43.71906280517579], [56.07050243614239, 43.99303436279297], [56.01325744737767, 43.68782043457032]],
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Спирино',
+        date: '2018-08-18',
+        url: './maps/nn/spirino_rogaine_2018.webp',
+        link: './original_maps/nn/spirino_rogaine_2018_omaps.webp',
+        info: 'По осенним следам.',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/6253/',
+        bounds: [[56.08511170333191, 43.724384307861335], [56.068729787649495, 43.86789321899415], [56.020357752697414, 43.70103836059571]],
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Зелёный город',
+        date: '2022-10-08',
+        url: './maps/nn/green_city_rogaine_2022.webp',
+        link: './original_maps/nn/green_city_rogaine_2022_omaps.webp',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/14303/',
+        info: 'Осень Поволжья.',
+        bounds: [[56.23400090444841, 43.928489685058594], [56.20937726533161, 44.20211791992188], [56.12546195529796, 43.89656066894531]],
         type: ['ROGAINE'],
         owner: 'NN_RORAINE',
         region: 'N_NOVGOROD'
@@ -240,6 +350,17 @@ let nnMaps = [
         info: 'Чемпионат РСФСР по зоне Поволжья. Карта из <a href="./docs/1986/1986_gorky_omaps.pdf">буклета</a>.',
         bounds: [[56.14846610477628, 44.47342872619629], [56.12962380864509, 44.54698562622071], [56.11713689748505, 44.448709487915046]],
         author: 'KHLDV_V',
+        region: 'N_NOVGOROD'
+    },
+    {
+        name: 'Ветчаковский лес',
+        date: '2019-05-01',
+        url: './maps/nn/vetchakovkky_forest_rogaine_2019.webp',
+        link: './original_maps/nn/vetchakovkky_forest_rogaine_2019_omaps.webp',
+        info: 'Открытие сезона.',
+        bounds: [[56.085351153372315, 44.223747253417976], [56.06916097992114, 44.36571121215821], [56.00874711616221, 44.19576644897461]],
+        type: ['ROGAINE'],
+        owner: 'NN_RORAINE',
         region: 'N_NOVGOROD'
     },
     {
