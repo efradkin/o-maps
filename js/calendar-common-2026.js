@@ -489,6 +489,8 @@ let commonEvents2026 = [
         place: 'Италия',
         name: 'Чемпионат мира (WOC)',
         link: 'https://woc2026.com/',
+        res: 'https://app.liveresults.it/woc2026',
+        gps: 'https://www.tulospalvelu.fi/gps/',
         major: true,
         type: 'ORIENT',
         fmt: 'sprint, knock-out, sprint relay',
