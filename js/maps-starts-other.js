@@ -802,6 +802,32 @@ let otherStartsMaps = [
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },
+    {
+        name: 'Горьковская',
+        date: '2026-07',
+        about: 'https://vk.com/wall-227807023_507',
+        info: 'Июль, фото-рогейн.',
+        url: './maps/rogaine/kkm/gorkovskaya_KKM_2026_07.webp',
+        link: ['https://psv4.userapi.com/s/v1/d2/dPgY35RjbF342mCpGztZckvh8Nu7WRE-zgwlyz4XMX90iCqnkC1DKmtHOdyqoeF04gKO6Gqj5cI-eBbj6FvLajbWs1u8MeCdXN8bqLAs7fgLlHwBKMGgTLnTpzkOmIG1YPGhSPHtFPfN/KKM7_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/Le4dQtlCNkUI26SrMKb6GEcQcS2yYvRkMBEY88ZwigoCWS4vhL7iLvMckHHWVIpsMJWVv7x0SNO1KpkllQ-sH4TEz4fMrvD8zfeop_XO0GnHpkFJEn6ZwoLyx8Du_Kckai7ZB6S_KyNP/SETKA7_2026.jpg?dl=1'],
+        bounds: [[59.97906679629742, 30.23471832275391], [59.97902385377091, 30.337972640991214], [59.947231109940404, 30.235061645507816]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25523/',
+        start: ['VO_FOTO','KKM'],
+        owner: 'RYZHOV',
+        type: ['FOTO','ROGAINE']
+    },
+    {
+        name: 'Горный институт',
+        date: '2026-08',
+        about: 'https://vk.com/wall-227807023_515',
+        info: 'Август, фото-рогейн.',
+        url: './maps/rogaine/kkm/vasiljevsky_KKM_2026_08.webp',
+        link: ['https://psv4.userapi.com/s/v1/d2/84sdWLdSgR8xH_tnS98Lduly3M9vZ6Z7HQ61M1-nfvOfySIj6sM_6wCuH1E9BEcS6qj7fHWIJzrOLU5cH0wb8cKenIkWEOuYiZ_gClurZuaUEcOLQXwG34NoAlv4sPIyTv-HI0hVGjbX/KKM_8_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/zMjiQEQBuHAQ8jCgnyGUivmYFUprYPPSsFLbLbt8Itg_agZUYNfNdA7ENBxD1qtpH2G5HQNVVM085VsrtmIYfsys7ebooj9zg9G-8Yd6lIgOXoK0pfRGVclw7IoyKY_Xn4WjbezUD-zi/SETKA_8_2026.jpg?dl=1'],
+        bounds: [[59.95754561322883, 30.227165222167972], [59.957588583610786, 30.30664443969727], [59.91859154627015, 30.22673606872559]],
+        // gps: 'https://viewer.o-gps-center.ru/viewer/event/25523/',
+        start: ['VO_FOTO','KKM'],
+        owner: 'RYZHOV',
+        type: ['FOTO','ROGAINE']
+    },
 
     /* --- Бекетов --- */
 

@@ -1248,7 +1248,6 @@ function mapTitle(m, forStart, colored) {
 }
 
 function buildMapPopup(m) {
-    let cal = m.calendar ? oEvents.find(e => e.id === m.calendar) : undefined;
 
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
     let typesList = getTypesList(m);
@@ -1309,6 +1308,7 @@ function buildMapPopup(m) {
     if (m.info) {
         info += m.info;
     }
+    let cal = m.calendar ? oEvents.find(e => e.id === m.calendar) : undefined;
     let mapResults = m.results;
     if (!mapResults && m.calendar) {
         mapResults = cal.res;
