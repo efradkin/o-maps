@@ -1872,7 +1872,7 @@ let events2026 = [
     {
         id: 'SPB_20260711_3',
         date: '2026-07-11',
-        name: 'Dлительная серия, этап 1',
+        name: 'Dлительная серия #1',
         place: 'Лемболово',
         type: 'ORIENT',
         o_site: '260711_Dlit_1',
@@ -1880,12 +1880,14 @@ let events2026 = [
         reskeep: 905,
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25589/',
         owner: 'DLITELNY',
+        me: 'А',
+        strava: 19268258785,
         map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20260712_1',
         date: '2026-07-12',
-        name: 'Dлительная серия, этап 2',
+        name: 'Dлительная серия #2',
         place: 'Лемболово',
         type: 'ORIENT',
         o_site: '260712_Dlit_2',
@@ -1893,6 +1895,8 @@ let events2026 = [
         reskeep: 906,
         gps: 'https://viewer.o-gps-center.ru/viewer/event/25596/',
         owner: 'DLITELNY',
+        me: 'А',
+        strava: 19281681099,
         map: 'lembolovo_2024'
     },
     {
