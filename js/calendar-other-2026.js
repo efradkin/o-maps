@@ -108,6 +108,19 @@ let otherEvents2026 = [
     start: 'PUSHKINRUN',
 },
 {
+    id: 'OTHER_20261104_1',
+    date: '2026-11-04',
+    place: 'Игора',
+    name: 'неМартовский заяц',
+    link: 'https://vk.ru/nemartovskiizayaz',
+    reg: 'https://myrace.info/events/2035',
+    info: '19-й альпинистский горный кросс.',
+    type: 'RUN',
+    fmt: '20, 7',
+    logo: 'nemartovsky.gif',
+    track: 'igora_nemartovsky_2024'
+},
+{
     id: 'OTHER_20261108_1',
     date: '2026-11-08',
     place: 'Гатчина',

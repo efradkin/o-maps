@@ -1863,6 +1863,7 @@ let events2026 = [
         place: 'о Койонсаари',
         o_site: '260611_bn',
         reg: 'https://orgeo.ru/event/53639',
+        res: 'https://vk.com/wall-196511971_1591',
         photo: 'https://vk.ru/album-196511971_311408236',
         type: 'ORIENT',
         map: 'koyonsaari_2024',
