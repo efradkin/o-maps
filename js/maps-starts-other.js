@@ -823,7 +823,7 @@ let otherStartsMaps = [
         url: './maps/rogaine/kkm/vasiljevsky_KKM_2026_08.webp',
         link: ['https://psv4.userapi.com/s/v1/d2/84sdWLdSgR8xH_tnS98Lduly3M9vZ6Z7HQ61M1-nfvOfySIj6sM_6wCuH1E9BEcS6qj7fHWIJzrOLU5cH0wb8cKenIkWEOuYiZ_gClurZuaUEcOLQXwG34NoAlv4sPIyTv-HI0hVGjbX/KKM_8_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/zMjiQEQBuHAQ8jCgnyGUivmYFUprYPPSsFLbLbt8Itg_agZUYNfNdA7ENBxD1qtpH2G5HQNVVM085VsrtmIYfsys7ebooj9zg9G-8Yd6lIgOXoK0pfRGVclw7IoyKY_Xn4WjbezUD-zi/SETKA_8_2026.jpg?dl=1'],
         bounds: [[59.95754561322883, 30.227165222167972], [59.957588583610786, 30.30664443969727], [59.91859154627015, 30.22673606872559]],
-        // gps: 'https://viewer.o-gps-center.ru/viewer/event/25523/',
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25616/',
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
