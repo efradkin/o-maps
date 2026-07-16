@@ -942,6 +942,18 @@ let otherMaps = [
     },
     // --- Юг ---
     {
+        name: 'Отрожка',
+        date: '2026-07-11',
+        url: './maps/other/otrozhka_rogaine_2026.webp',
+        link: './original_maps/other/otrozhka_rogaine_2026_omaps.webp',
+        about: 'https://vrnfso.ru/',
+        info: 'Рельсы-Шпалы-буль-буль-буль.',
+        results: 'https://vrnfso.ru/download/2026/20260711_resultlist.pdf',
+        bounds: [[51.81052516943858, 39.215526580810554], [51.7995922421643, 39.31491851806641], [51.72580536206266, 39.192523956298835]],
+        region: 'VORONEZH',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Советский',
         year: 2026,
         url: './maps/south/sovetsky_2026.webp',

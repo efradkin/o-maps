@@ -27,6 +27,9 @@ const regions = {
     VOLOGDA: {
         name: 'Вологодская обл',
     },
+    VORONEZH: {
+        name: 'Воронеж',
+    },
     GLNDZHK: {
         name: 'Геленджик',
         logo: 'gelendzhik.gif'
