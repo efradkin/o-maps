@@ -195,6 +195,13 @@ let rules = [
         owner: 'RRF',
     },
     {
+        name: 'Методические материалы по спортивной картографии',
+        year: 2022,
+        url: 'https://rogaining.ru/rogaine/organize/cartography',
+        author: 'GRSHKN',
+        owner: 'RRF',
+    },
+    {
         name: 'Правила соревнований по рогейну для СПб и ЛО',
         year: 2010,
         url: 'https://spbof.ru/jdownloads/documents/rogaining_rules_spb_110609.pdf',

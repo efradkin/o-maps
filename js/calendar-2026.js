@@ -1918,7 +1918,8 @@ let events2026 = [
         reg: ['http://orgeo.ru/event/info/vorobyovo_tren','http://orgeo.ru/event/vorobyovo2026_rog'],
         type: ['ROGAINE', 'ORIENT'],
         fmt: '3',
-        owner: 'WN'
+        owner: 'WN',
+        map: 'vorobjevo_2024'
     },
     {
         id: 'SPB_20260718_2',
@@ -1958,7 +1959,8 @@ let events2026 = [
         info: '"Трое из Простоквашино".',
         type: 'ROGAINE',
         fmt: '12, 6',
-        owner: 'SHBN'
+        owner: 'SHBN',
+        map: 'toloni_2025'
     },
     {
         id: 'SPB_20260731_2',
@@ -1977,7 +1979,8 @@ let events2026 = [
         link: 'https://vk.com/event166397868',
         type: 'ROGAINE',
         fmt: '4',
-        owner: 'SHBN'
+        owner: 'SHBN',
+        map: 'jappilya_2024'
     },
     {
         id: 'SPB_20260808_2',
@@ -2019,15 +2022,6 @@ let events2026 = [
         type: 'ORIENT',
         owner: 'VYBORG',
         map: 'tsvelodubovo_2020'
-    },
-    {
-        id: 'SPB_20260822_1',
-        date: '2026-08-22',
-        place: 'Выборг',
-        name: 'Выборгский летний рогейн (КЛО)',
-        fmt: '8',
-        type: 'ROGAINE',
-        start: 'MULTSPORT'
     },
     {
         id: 'SPB_20260822_2',

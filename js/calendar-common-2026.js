@@ -558,10 +558,11 @@ let commonEvents2026 = [
         date: '2026-08-22',
         place: 'Выборг',
         name: 'Чемпионат России по рогейну',
-        link: 'https://rogaining.ru/events/calendar/event/754-rrc2026',
+        link: 'https://www.multsport.ru/starts/rogaine-rus-2026/',
         reg: 'https://www.multsport.ru/starts/rogaine-rus-2026/registration.html',
-        fmt:  '24',
+        fmt:  '24, 8, 4',
         type: 'ROGAINE',
+        planner: 'RYLOV_V',
         start: ['MULTSPORT','RUSSIA_ROGAINE_CHAMP']
     },
     {
