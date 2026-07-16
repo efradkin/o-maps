@@ -1866,7 +1866,7 @@ let events2026 = [
         res: 'https://vk.com/wall-196511971_1591',
         photo: 'https://vk.ru/album-196511971_311408236',
         type: 'ORIENT',
-        map: 'koyonsaari_2024',
+        map: 'koyonsaari_2025',
         owner: 'WN'
     },
     {

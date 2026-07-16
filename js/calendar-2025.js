@@ -1397,7 +1397,7 @@ let events2025 = [
             740
         ],
         owner: 'WN',
-        map: 'koyonsaari_2024'
+        map: 'koyonsaari_2025'
     },
     {
         id: 'SPB_20250712_2',
