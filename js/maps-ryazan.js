@@ -1291,5 +1291,15 @@ let ryazanMaps = [
         author: ['VNKRV_V','GUSEV_B','KRTNKO','NVKV_S'],
         start: 'NPW',
         type: ['ROGAINE']
+    },
+    {
+        name: 'р Пра, Деулино',
+        date: '2026-07-11',
+        url: './maps/ryazan/npw_2026.webp',
+        link: ['./original_maps/ryazan/npw_2026_forward_omaps.webp','./original_maps/ryazan/npw_2026_revers_omaps.webp'],
+        bounds: [[54.837773894795724, 40.333385467529304], [54.8157223912467, 40.508651733398445], [54.75628165259095, 40.301628112792976]],
+        // author: ['VNKRV_V','GUSEV_B','KRTNKO','NVKV_S'],
+        start: 'NPW',
+        type: ['ROGAINE']
     }
 ];

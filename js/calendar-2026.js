@@ -1955,6 +1955,7 @@ let events2026 = [
         date: '2026-07-25',
         place: 'Луга, оз Малые Толони',
         name: 'Лужский приключенческий рогейн',
+        link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/48939',
         info: '"Трое из Простоквашино".',
         type: 'ROGAINE',

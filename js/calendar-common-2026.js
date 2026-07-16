@@ -563,7 +563,8 @@ let commonEvents2026 = [
         fmt:  '24, 8, 4',
         type: 'ROGAINE',
         planner: 'RYLOV_V',
-        start: ['MULTSPORT','RUSSIA_ROGAINE_CHAMP']
+        start: ['MULTSPORT','RUSSIA_ROGAINE_CHAMP'],
+        map: 'kalinino_2015'
     },
     {
         id: 'MAJOR_20260825_1',
