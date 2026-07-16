@@ -1957,7 +1957,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/48939',
         info: '"Трое из Простоквашино".',
         type: 'ROGAINE',
-        fmt: '16, 6',
+        fmt: '12, 6',
         owner: 'SHBN'
     },
     {
@@ -2073,8 +2073,9 @@ let events2026 = [
     {
         id: 'SPB_20260919_2',
         date: '2026-09-19',
-        place: 'Молодёжное',
+        place: 'Рощино, Мухино',
         name: 'Горный кросс-116',
+        o_site: '260919R',
         reg: 'https://orgeo.ru/event/50693',
         type: 'ROGAINE',
         fmt: '5(4), 2',
