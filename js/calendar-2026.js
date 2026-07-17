@@ -1942,6 +1942,16 @@ let events2026 = [
         map: 'michurinskoe_2022'
     },
     {
+        id: 'SPB_20260721_1',
+        date: '2026-07-21',
+        name: 'Dлительная серия #3',
+        place: 'Сосновка',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/54132',
+        owner: 'DLITELNY',
+        map: 'sosnovka_2024',
+    },
+    {
         id: 'SPB_20260723_1',
         date: '2026-07-23',
         name: 'Физкультурное мероприятие по ориентированию',
