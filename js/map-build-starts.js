@@ -17,8 +17,6 @@ let orientirGroup = L.layerGroup([]);
 let naGroup = L.layerGroup([]);
 let ymGroup = L.layerGroup([]);
 let mmsGroup = L.layerGroup([]);
-let pskGroup = L.layerGroup([]);
-let volkovGroup = L.layerGroup([]);
 let ksGroup = L.layerGroup([]);
 let kkpGroup = L.layerGroup([]);
 let gsGroup = L.layerGroup([]);
@@ -41,8 +39,6 @@ let allOrientGroups = [
     naGroup,
     ymGroup,
     mmsGroup,
-    pskGroup,
-    volkovGroup,
     ksGroup,
     gsGroup,
     kkpGroup,
@@ -102,8 +98,6 @@ if (mapElement) {
             case 'KKP': activeLayers.push(kkpGroup); break;
             case 'GS': activeLayers.push(gsGroup); break;
             case 'MMS': activeLayers.push(mmsGroup); break;
-            case 'KZNTSVA': activeLayers.push(pskGroup); break;
-            case 'VOLKOV_A': activeLayers.push(volkovGroup); break;
             case 'KS': activeLayers.push(ksGroup); break;
             case 'RFAR': activeLayers.push(rfarGroup); break;
             case '100x24': activeLayers.push(sto24Group); break;
@@ -118,8 +112,8 @@ if (mapElement) {
         }
     } else {
         activeLayers.push(
-            schoolGroup, wnGroup, naGroup, orientirGroup, ymGroup, kkpGroup, gsGroup, mmsGroup, pskGroup,
-            twotwoGroup, volkovGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
+            schoolGroup, wnGroup, naGroup, orientirGroup, ymGroup, kkpGroup, gsGroup, mmsGroup,
+            twotwoGroup, ksGroup, stGroup, majorGroup // rfarGroup, sto24Group,
             //...Object.values(ageGroups),
         );
     }
@@ -130,10 +124,8 @@ function buildOverlayMapsContents() {
         "Белые Ночи": wnGroup,
         "Карельские скалы": ksGroup,
         "ККП": kkpGroup,
-        "Мемориал Андрея Волкова": volkovGroup,
         "Мемориал Святкина": mmsGroup,
         "Невский Азимут": naGroup,
-        "Памяти Кузнецова": pskGroup,
         "Зелёный Змей": gsGroup,
         "Спринт-Тур": stGroup,
         "Школы": schoolGroup,
@@ -189,8 +181,6 @@ function pushStartGroupToMap(start, m) {
         case 'GS': pushGroupToMap(m, gsGroup); break;
         case 'KKP': pushGroupToMap(m, kkpGroup); break;
         case 'MMS': pushGroupToMap(m, mmsGroup); break;
-        case 'KZNTSVA': pushGroupToMap(m, pskGroup); break;
-        case 'VOLKOV_A': pushGroupToMap(m, volkovGroup); break;
         case 'KS': pushGroupToMap(m, ksGroup); break;
         case 'RFAR': pushGroupToMap(m, rfarGroup); break;
         case '100x24': pushGroupToMap(m, sto24Group); break;

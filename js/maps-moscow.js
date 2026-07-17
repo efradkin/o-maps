@@ -5540,6 +5540,18 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Ситники',
+        date: '2026-07-11',
+        url: './maps/moscow/sz/sitniki_rogaine_2026.webp',
+        link: 'https://rogaine.ru/results/kr2026/summer_kompot_2026.jpg',
+        info: 'Летний Компот-рогейн.',
+        bounds: [[56.34014000189228, 38.17131042480469], [56.313680634256755, 38.37438583374024], [56.190755876185364, 38.1112289428711]],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25564/',
+        owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Лосиный остров',
         year: 2007,
         url: './maps/moscow/losiny_ostrov_rogaine_2007.webp',
