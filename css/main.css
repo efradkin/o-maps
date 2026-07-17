@@ -475,6 +475,9 @@ body.sub-index-body {
         font-size: small;
         float: right;
     }
+    .o-sheet-roof-stat {
+        display: none;
+    }
 }
 .o-sheet-wrapper {
     overflow-y: auto;

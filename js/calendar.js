@@ -148,6 +148,7 @@ let korients = 0, krogaines = 0, kothers = 0;
 
 // строит табличку с инфой об авторах-составителях
 function renderMapsTable() {
+    let totalEvents = 0, orientEvents = 0, rogaineEvents = 0, veloEvents = 0, skiEvents = 0, otherEvents = 0;
     tbody.innerHTML = '';
 
     let idx = 0;
@@ -159,6 +160,7 @@ function renderMapsTable() {
         }
 
         if (validateEvent(evt)) {
+            totalEvents++;
             currentDate = new Date(evt.date);
             let month = currentDate.getMonth();
             const y = currentDate.getFullYear();
@@ -192,17 +194,26 @@ function renderMapsTable() {
             if (!evt.type || evt.type.includes('ORIENT') || evt.type.includes('INDOOR')) {
                 row.classList.add('orient');
                 korients++;
+                orientEvents++;
             } else if (evt.type.includes('WATER')) {
                 row.classList.add('water');
                 krogaines++;
+                rogaineEvents++;
             } else if (isRogaine(evt)) {
                 row.classList.add('rogaine');
                 krogaines++;
+                rogaineEvents++;
             } else {
                 if (evt.type.includes('SKI') || evt.type.includes('VELO')) {
                     korients++;
+                    if (evt.type.includes('SKI')) {
+                        skiEvents++;
+                    }
+                    if (evt.type.includes('VELO')) {
+                        veloEvents++;
+                    }
                 } else {
-                    kothers++;
+                    otherEvents++;
                 }
             }
             if (y !== prevYear) {
@@ -226,6 +237,20 @@ function renderMapsTable() {
     }
     buildMonth();
     document.body.style.cursor = 'default';
+
+    const div = document.querySelector('.o-sheet-roof-stat');
+    if (div) {
+        function putValue(id, value) {
+            document.getElementById(id).innerText = value;
+        }
+        putValue('total_events', totalEvents);
+        putValue('orient_events', orientEvents);
+        putValue('rogaine_events', rogaineEvents);
+        putValue('velo_events', veloEvents);
+        putValue('ski_events', skiEvents);
+        putValue('other_events', otherEvents);
+        div.style.display = 'block';
+    }
 }
 
 function buildMonth() {
