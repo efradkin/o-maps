@@ -181,6 +181,9 @@
             for (let i = 0; i < oTracks.length; i++) {
                 let t = oTracks[i];
 
+                if (START_NAME_PARAM && (!t.start || !t.start.includes(START_NAME_PARAM))) {
+                    continue;
+                }
                 if (TRACK_TYPE_PARAM && (!t.type || !t.type.includes(TRACK_TYPE_PARAM))) {
                     continue;
                 }
