@@ -2043,11 +2043,22 @@ let events2026 = [
         type: 'ORIENT',
     },
     {
+        id: 'SPB_20260827_1',
+        date: '2026-08-27',
+        name: 'Отборочный старт Центра «Академия талантов»',
+        place: 'Ушково, Пухтолова гора',
+        o_site: '260827',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1747',
+        type: 'ORIENT',
+    },
+    {
         id: 'SPB_20260829_1',
         date: '2026-08-29',
         name: 'ЧиП ЛО',
-        place: 'Выборг',
+        place: 'Лейпясуо',
         type: 'ORIENT',
+        o_site: '260829',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1748',
         fmt: 'спринт-масстарт',
         owner: 'SFSO_LO'
     },
