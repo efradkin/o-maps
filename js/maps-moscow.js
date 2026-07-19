@@ -2986,6 +2986,18 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Воскресенск',
+        date: '2026-07-18',
+        url: './maps/moscow/sz/voskresensk_rogaine_cup_2026.webp',
+        link: './original_maps/moscow/sz/voskresensk_rogaine_cup_2026_omaps.webp',
+        bounds: [[55.405629265070665, 38.785858154296875], [55.38223123208778, 38.970050811767585], [55.27031458992833, 38.73504638671876]],
+        info: 'Кубок России по рогейну, 1-й этап.',
+        author: ['JAKMV_S','MNKV'],
+        planner: 'KLNN_O',
+        owner: 'RRF',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Алферово',
         date: '2014-09-13',
         url: './maps/moscow/ak/alferovo_rogaine_2014.webp',

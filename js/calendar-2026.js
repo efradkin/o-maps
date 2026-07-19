@@ -2050,6 +2050,7 @@ let events2026 = [
         o_site: '260827',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1747',
         type: 'ORIENT',
+        owner: 'SFSO_SPB'
     },
     {
         id: 'SPB_20260829_1',
