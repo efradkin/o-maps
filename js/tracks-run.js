@@ -126,11 +126,38 @@ let runTracks = [
         type: ['RUN']
     },
     {
-        name: 'Парк Городов-Героев',
+        name: 'Пулковский парк (Городов-Героев)',
         link: 'https://5verst.ru/parkgorodovgeroev/',
         results: 'https://5verst.ru/parkgorodovgeroev/results/all/',
-        info: 'Маршрут проходит в два круга по часовой стрелке по территории парка Городов-Героев (Пулковский парк). Рельеф - плоский. Покрытие: грунт, асфальт.',
+        info: 'Маршрут проходит в два круга по часовой стрелке по территории парка. Рельеф - плоский. Покрытие: грунт, асфальт.',
         gpx: 'tracks/run/pulkovsky_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Кудрово Оккервиль',
+        link: 'https://5verst.ru/okkervil/',
+        results: 'https://5verst.ru/okkervil/results/all/',
+        info: 'Маршрут проходит в два с половиной круга по территории парка Оккервиль. Рельеф: присутствует небольшой перепад высот. Покрытие: асфальт и небольшой участок дорожная плитка.',
+        gpx: 'tracks/run/okkervil_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Мурино, сад Четыре сезона',
+        link: 'https://5verst.ru/chetyresezona/',
+        results: 'https://5verst.ru/chetyresezona/results/all/',
+        info: 'Маршрут проходит в пять кругов по беговой дорожке вокруг Сада четырёх сезонов, стартовая и финишная прямые - по аллее, выложенной плиткой. Трасса подходит для детских и инвалидных колясок, за исключением очень снежной погоды. Рельеф: отсутствует. Покрытие: преимущественно прорезиненная беговая дорожка / часть трассы: тротуарная плитка.',
+        gpx: 'tracks/run/murino_parkrun_omaps.gpx',
+        start: 'PARKRUN',
+        type: ['RUN']
+    },
+    {
+        name: 'Кронштадт',
+        link: 'https://5verst.ru/kronshtadt/',
+        results: 'https://5verst.ru/kronshtadt/results/all/',
+        info: 'Маршрут проходит в пять кругов вдоль благоустроенной площадки сквера. Рельеф: перепада высот нет. Покрытие: тротуарная плитка и небольшой участок деревянного настила. Сквер полностью адаптирован для детских и инвалидных колясок.',
+        gpx: 'tracks/run/kronshtadt_parkrun_omaps.gpx',
         start: 'PARKRUN',
         type: ['RUN']
     },

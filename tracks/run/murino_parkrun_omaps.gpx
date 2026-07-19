@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="StravaGPX" version="1.1" schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>murino_parkrun_omaps</name>
+    <author>
+      <name>gpx.studio</name>
+      <link href="https://gpx.studio"/>
+    </author>
+  </metadata>
+  <trk>
+    <name>Morning Run</name>
+    <type>running</type>
+    <trkseg>
+      <trkpt lat="60.065888" lon="30.44224">
+        <ele>22</ele>
+      </trkpt>
+      <trkpt lat="60.066402" lon="30.442487">
+        <ele>22.6</ele>
+      </trkpt>
+      <trkpt lat="60.066714" lon="30.442756">
+        <ele>22.8</ele>
+      </trkpt>
+      <trkpt lat="60.067321" lon="30.443106">
+        <ele>23.2</ele>
+      </trkpt>
+      <trkpt lat="60.067711" lon="30.443282">
+        <ele>23.4</ele>
+      </trkpt>
+      <trkpt lat="60.067855" lon="30.443386">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="60.068001" lon="30.443605">
+        <ele>24</ele>
+      </trkpt>
+      <trkpt lat="60.068099" lon="30.443847">
+        <ele>23.8</ele>
+      </trkpt>
+      <trkpt lat="60.068186" lon="30.444215">
+        <ele>24</ele>
+      </trkpt>
+      <trkpt lat="60.068225" lon="30.44462">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="60.068232" lon="30.444925">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="60.068309" lon="30.446054">
+        <ele>24</ele>
+      </trkpt>
+      <trkpt lat="60.068454" lon="30.447214">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="60.068554" lon="30.447749">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="60.068611" lon="30.447947">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="60.068646" lon="30.448189">
+        <ele>24.6</ele>
+      </trkpt>
+      <trkpt lat="60.068661" lon="30.448355">
+        <ele>24.8</ele>
+      </trkpt>
+      <trkpt lat="60.068633" lon="30.44841">
+        <ele>25.2</ele>
+      </trkpt>
+      <trkpt lat="60.068813" lon="30.448308">
+        <ele>25.4</ele>
+      </trkpt>
+      <trkpt lat="60.068969" lon="30.448132">
+        <ele>25.2</ele>
+      </trkpt>
+      <trkpt lat="60.069001" lon="30.448059">
+        <ele>25.2</ele>
+      </trkpt>
+      <trkpt lat="60.068968" lon="30.447754">
+        <ele>25.4</ele>
+      </trkpt>
+      <trkpt lat="60.068948" lon="30.447273">
+        <ele>25.6</ele>
+      </trkpt>
+      <trkpt lat="60.068899" lon="30.446859">
+        <ele>26</ele>
+      </trkpt>
+      <trkpt lat="60.068668" lon="30.446132">
+        <ele>26.4</ele>
+      </trkpt>
+      <trkpt lat="60.0684" lon="30.445622">
+        <ele>26.2</ele>
+      </trkpt>
+      <trkpt lat="60.068076" lon="30.44481">
+        <ele>26.6</ele>
+      </trkpt>
+      <trkpt lat="60.067998" lon="30.444374">
+        <ele>26.2</ele>
+      </trkpt>
+      <trkpt lat="60.067987" lon="30.443949">
+        <ele>25.8</ele>
+      </trkpt>
+      <trkpt lat="60.067935" lon="30.443809">
+        <ele>26.2</ele>
+      </trkpt>
+      <trkpt lat="60.067762" lon="30.443551">
+        <ele>26.4</ele>
+      </trkpt>
+      <trkpt lat="60.067346" lon="30.443135">
+        <ele>26.6</ele>
+      </trkpt>
+      <trkpt lat="60.067155" lon="30.443075">
+        <ele>26.6</ele>
+      </trkpt>
+      <trkpt lat="60.066764" lon="30.442881">
+        <ele>26.6</ele>
+      </trkpt>
+      <trkpt lat="60.066611" lon="30.44277">
+        <ele>27</ele>
+      </trkpt>
+      <trkpt lat="60.066094" lon="30.442262">
+        <ele>27</ele>
+      </trkpt>
+      <trkpt lat="60.066029" lon="30.442252">
+        <ele>27</ele>
+      </trkpt>
+      <trkpt lat="60.066003" lon="30.442277">
+        <ele>27</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
