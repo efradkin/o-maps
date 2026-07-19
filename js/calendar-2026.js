@@ -1974,6 +1974,17 @@ let events2026 = [
         map: 'toloni_2025'
     },
     {
+        id: 'SPB_20260725_2',
+        date: '2026-07-25',
+        name: 'Тренировочный старт Выборг',
+        place: 'Красный Холм',
+        o_site: '260725_V',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1749',
+        type: 'ORIENT',
+        map: 'paltsevo_2015',
+        owner: 'VYBORG'
+    },
+    {
         id: 'SPB_20260731_2',
         date: '2026-07-31',
         endDate: '2026-08-02',
