@@ -8,14 +8,14 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_1966.webp',
         link: ['./original_maps/forest/meet_1966_title.jpg','./original_maps/forest/meet_1966_agenda.jpg','./original_maps/forest/vaskelovo/orekhovo_1966_omaps.jpg'],
         info: 'Маркир-эстафета.',
-        bounds: [[60.4456198220461, 30.166482925415043], [60.44574682960571, 30.2464771270752], [60.41351333008904, 30.169658660888675]]
+        bounds: [[60.4456198, 30.1664829], [60.4457468, 30.2464771], [60.4135133, 30.1696587]]
     },
     {
         name: 'Орехово, 67км',
         year: 1988,
         url: './maps/forest/vaskelovo/orekhovo_1988.webp',
         link: ['./original_maps/forest/vaskelovo/orekhovo_1988_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_10000_1988_omaps.jpg'],
-        bounds: [[60.49600280765954, 30.284757614135742], [60.492430773536746, 30.338530540466312], [60.470144235137965, 30.27694702148438]],
+        bounds: [[60.4960028, 30.2847576], [60.4924308, 30.3385305], [60.4701442, 30.276947]],
         author: 'BYMKV',
     },
     {
@@ -23,7 +23,7 @@ let vaskelovoMaps = [
         year: 1981,
         url: './maps/forest/vaskelovo/orekhovo_1981.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_1981_omaps.jpg',
-        bounds: [[60.48676543918927, 30.285015106201175], [60.485602654889966, 30.317244529724125], [60.469171229153325, 30.281968116760254]],
+        bounds: [[60.4867654, 30.2850151], [60.4856027, 30.3172445], [60.4691712, 30.2819681]],
         author: 'TRSV'
     },
     {
@@ -33,7 +33,7 @@ let vaskelovoMaps = [
         date: '1997-06-28',
         url: './maps/starts/mms/mms_1997_06_28.webp',
         link: ['./original_maps/starts/mms/mms_1997_06_28_omaps.jpg','./original_maps/forest/vaskelovo/lembolovo_north_east_1997_omaps.jpg'],
-        bounds: [[60.44640302742059, 30.317201614379886], [60.44343944818274, 30.36608219146729], [60.4204837259908, 30.310249328613285]],
+        bounds: [[60.446403, 30.3172016], [60.4434394, 30.3660822], [60.4204837, 30.3102493]],
         author: 'CHGRVSKY_V',
         planner: 'TLNV_A'
     },
@@ -46,7 +46,7 @@ let vaskelovoMaps = [
         area: 28,
         url: './maps/forest/vaskelovo/lembolovo_orekhovo_east_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_east_1991_omaps.jpg',
-        bounds: [[60.498581191274454, 30.26767730712891], [60.489619369375575, 30.39178848266602], [60.42410604699255, 30.2479362487793]],
+        bounds: [[60.4985812, 30.2676773], [60.4896194, 30.3917885], [60.424106, 30.2479362]],
         author: 'BYMKV',
         qtty: 200
     },
@@ -55,7 +55,7 @@ let vaskelovoMaps = [
         year: 1997,
         url: './maps/forest/vaskelovo/orekhovo_1997.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_1997_omaps.webp',
-        bounds: [[60.49304375410758, 30.27840614318848], [60.48725168208074, 30.35333633422852], [60.443418278787256, 30.260982513427738]],
+        bounds: [[60.4930438, 30.2784061], [60.4872517, 30.3533363], [60.4434183, 30.2609825]],
         author: 'BYMKV',
         start: 'OKINCHITSA'
     },
@@ -64,7 +64,7 @@ let vaskelovoMaps = [
         year: 1991,
         url: './maps/forest/vaskelovo/lembolovo_north_west_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_north_west_1991_omaps.webp',
-        bounds: [[60.445662157954466, 30.255832672119144], [60.43979810931484, 30.34037590026856], [60.415822836448655, 30.248365402221683]],
+        bounds: [[60.4456622, 30.2558327], [60.4397981, 30.3403759], [60.4158228, 30.2483654]],
         author: 'BYMKV',
     },
     {
@@ -72,7 +72,7 @@ let vaskelovoMaps = [
         year: 1991,
         url: './maps/forest/vaskelovo/lembolovo_south_west_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_south_west_1991_omaps.jpg',
-        bounds: [[60.42791858057857, 30.266990661621097], [60.42228434534471, 30.342006683349613], [60.399610452340696, 30.2589225769043]],
+        bounds: [[60.4279186, 30.2669907], [60.4222843, 30.3420067], [60.3996105, 30.2589226]],
         author: 'BYMKV',
         qtty: 40
     },
@@ -81,7 +81,7 @@ let vaskelovoMaps = [
         year: 1997,
         url: './maps/forest/vaskelovo/lembolovo_1997.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_1997_omaps.webp',
-        bounds: [[60.42732554916, 30.266819000244144], [60.4224538102683, 30.342264175415043], [60.37908437853486, 30.254631042480472]],
+        bounds: [[60.4273255, 30.266819], [60.4224538, 30.3422642], [60.3790844, 30.254631]],
         author: ['DBRTSV_V','CHGRVSKY_Y','KRCHKN_V'],
     },
     {
@@ -92,7 +92,7 @@ let vaskelovoMaps = [
         link: ['./original_maps/forest/vaskelovo/lembolovo_north_east_1989_omaps.webp','./original_maps/forest/vaskelovo/lembolovo_night_spb_1991_omaps.jpg'],
         info: 'Ночной СПб.',
         results: './docs/1991/1991_10_12_night_omaps.pdf',
-        bounds: [[60.44701687789359, 30.30509948730469], [60.44121658634549, 30.379428863525394], [60.42075912129117, 30.296773910522464]],
+        bounds: [[60.4470169, 30.3050995], [60.4412166, 30.3794289], [60.4207591, 30.2967739]],
         author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
         areas: [62,20,10,5,1,1,1],
         me: 'H-B'
@@ -102,7 +102,7 @@ let vaskelovoMaps = [
         year: 1989,
         url: './maps/forest/vaskelovo/lembolovo_1989.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_1989_omaps.jpg',
-        bounds: [[60.4409201932774, 30.28518676757813], [60.43704566381769, 30.339174270629886], [60.414488004146826, 30.277075767517093]],
+        bounds: [[60.4409202, 30.2851868], [60.4370457, 30.3391743], [60.414488, 30.2770758]],
         author: 'BYMKV'
     },
     {
@@ -110,7 +110,7 @@ let vaskelovoMaps = [
         year: 1985,
         url: './maps/forest/vaskelovo/orekhovo_1985.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_1985_omaps.jpg',
-        bounds: [[60.47280927607015, 30.260767936706543], [60.469128923883595, 30.337500572204593], [60.442656171363225, 30.255060195922855]],
+        bounds: [[60.4728093, 30.2607679], [60.4691289, 30.3375006], [60.4426562, 30.2550602]],
         author: 'BYMKV',
         qtty: 300
     },
@@ -119,7 +119,7 @@ let vaskelovoMaps = [
         year: 1979,
         url: './maps/forest/vaskelovo/orekhovo_figurnoe_1979.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_1979_omaps.jpg',
-        bounds: [[60.46648473510251, 30.273942947387695], [60.463776862565204, 30.31514167785645], [60.4427831905086, 30.27016639709473]],
+        bounds: [[60.4664847, 30.2739429], [60.4637769, 30.3151417], [60.4427832, 30.2701664]],
         author: 'TRSV'
     },
     {
@@ -127,7 +127,7 @@ let vaskelovoMaps = [
         year: 1981,
         url: './maps/forest/vaskelovo/orekhovo_figurnoe_1981.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_1981_omaps.jpg',
-        bounds: [[60.45903754208121, 30.264501571655277], [60.46927699208639, 30.28964996337891], [60.43986162453595, 30.294027328491214]],
+        bounds: [[60.4590375, 30.2645016], [60.469277, 30.28965], [60.4398616, 30.2940273]],
         author: 'TRSV'
     },
     {
@@ -136,7 +136,7 @@ let vaskelovoMaps = [
         info: 'Model.',
         url: './maps/forest/vaskelovo/lembolovo_vwc_model_1995.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_vwc_model_1995_omaps.jpg',
-        bounds: [[60.40465517082461, 30.27913570404053], [60.40274759610977, 30.31359672546387], [60.37827833895728, 30.273342132568363]],
+        bounds: [[60.4046552, 30.2791357], [60.4027476, 30.3135967], [60.3782783, 30.2733421]],
         author: ['KRCHKN_V','DBRTSV_V'],
         start: 'VWC_1995'
     },
@@ -145,7 +145,7 @@ let vaskelovoMaps = [
         date: '1995-05-31',
         url: './maps/forest/vaskelovo/lembolovo_orekhovo_1995.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_1995_omaps.jpg',
-        bounds: [[60.4479482150824, 30.235576629638675], [60.4409201932774, 30.3398609161377], [60.4233434866285, 30.22845268249512]],
+        bounds: [[60.4479482, 30.2355766], [60.4409202, 30.3398609], [60.4233435, 30.2284527]],
         author: ['DBRTSV_V','KUZNTSV_V','CHGRVSKY_Y'],
         start: 'VWC_1995'
     },
@@ -154,7 +154,7 @@ let vaskelovoMaps = [
         date: '1995-05-30',
         url: './maps/forest/vaskelovo/lembolovo_vwc_1995.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_vwc_1995_omaps.jpg',
-        bounds: [[60.42738908875795, 30.26716232299805], [60.422898651490996, 30.34235000610352], [60.397384592648955, 30.259137153625492]],
+        bounds: [[60.4273891, 30.2671623], [60.4228987, 30.34235], [60.3973846, 30.2591372]],
         author: 'CHGRVSKY_Y',
         start: 'VWC_1995'
     },
@@ -164,7 +164,7 @@ let vaskelovoMaps = [
         info: 'Final.',
         url: './maps/forest/vaskelovo/lembolovo_vwc_1995_06_02.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_vwc_1995_06_02_omaps.webp',
-        bounds: [[60.447567216732416, 30.31582832336426], [60.442656171363225, 30.39951324462891], [60.4112248501363, 30.30561447143555]],
+        bounds: [[60.4475672, 30.3158283], [60.4426562, 30.3995132], [60.4112249, 30.3056145]],
         author: 'CHGRVSKY_Y',
         start: 'VWC_1995'
     },
@@ -173,7 +173,7 @@ let vaskelovoMaps = [
         year: 1991,
         url: './maps/forest/vaskelovo/lembolovo_orekhovo_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_1991_omaps.jpg',
-        bounds: [[60.45539795142459, 30.237550735473636], [60.450615078418, 30.296087265014652], [60.426181815162266, 30.229568481445316]],
+        bounds: [[60.455398, 30.2375507], [60.4506151, 30.2960873], [60.4261818, 30.2295685]],
         author: 'BYMKV',
         qtty: 600
     },
@@ -183,7 +183,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/silande_1992.webp',
         //link: './original_maps/forest/vaskelovo/Geolog92.pdf',
         link: ['./original_maps/forest/vaskelovo/silande_1992_omaps.jpg','./original_maps/forest/vaskelovo/silande_1991_omaps.jpg','./original_maps/forest/vaskelovo/silande_1995_08_12_h21_omaps.jpg','./original_maps/forest/vaskelovo/silande_1995_08_12_d21_omaps.jpg'],
-        bounds: [[60.42787622155024, 30.223689079284668], [60.4233434866285, 30.286216735839847], [60.37887226479014, 30.210857391357425]],
+        bounds: [[60.4278762, 30.2236891], [60.4233435, 30.2862167], [60.3788723, 30.2108574]],
         author: ['DBRTSV_V','LBDKN','KUZNTSV_V'],
     },
     {
@@ -192,7 +192,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/silande_2025.webp',
         link: './original_maps/forest/vaskelovo/silande_2025_omaps.jpg',
         o_gps: 23126,
-        bounds: [[60.40421008005895, 30.233602523803714], [60.40211171302363, 30.262098312377933], [60.38440798114749, 30.22746562957764]],
+        bounds: [[60.4042101, 30.2336025], [60.4021117, 30.2620983], [60.384408, 30.2274656]],
         author: ['RDNV_B','RDNV_I','DBRTSV_V'],
         owner:  ['RDNV_B','RDNV_I']
     },
@@ -202,7 +202,7 @@ let vaskelovoMaps = [
         logo: 'nevsky_azimut.gif',
         url: './maps/forest/vaskelovo/lembolovsky_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovsky_1991_omaps.jpg',
-        bounds: [[60.378490456569175, 30.22699356079102], [60.37535097486695, 30.292739868164066], [60.3178110096362, 30.210342407226562]],
+        bounds: [[60.3784905, 30.2269936], [60.375351, 30.2927399], [60.317811, 30.2103424]],
         author: 'BYMKV'
     },
     {
@@ -210,7 +210,7 @@ let vaskelovoMaps = [
         year: 1984,
         url: './maps/forest/vaskelovo/vjun_1984.webp',
         link: './original_maps/forest/vaskelovo/vjun_1984_omaps.webp',
-        bounds: [[60.38671955355991, 30.27445793151856], [60.38400502971434, 30.30814647674561], [60.36898623239414, 30.271282196044925]],
+        bounds: [[60.3867196, 30.2744579], [60.384005, 30.3081465], [60.3689862, 30.2712822]],
         author: ['LVCHV','SVTKN']
     },
     {
@@ -219,7 +219,7 @@ let vaskelovoMaps = [
         area: 7.5,
         url: './maps/forest/vaskelovo/vaskelovo_bannoe_oz.webp',
         link: './original_maps/forest/vaskelovo/vaskelovo_bannoe_oz_omaps.jpg',
-        bounds: [[60.40380737364446, 30.423889160156254], [60.400076803656404, 30.47916412353516], [60.364487731332744, 30.413331985473636]],
+        bounds: [[60.4038074, 30.4238892], [60.4000768, 30.4791641], [60.3644877, 30.413332]],
         author: 'CHGRVSKY_V',
     },
     {
@@ -227,7 +227,7 @@ let vaskelovoMaps = [
         date: '2006-06-11',
         url: './maps/forest/vaskelovo/vaskelovo_bannoe_2006.webp',
         link: ['./original_maps/forest/vaskelovo/vaskelovo_bannoe_2006_omaps.gif','./original_maps/forest/vaskelovo/vaskelovo_rfar_2006_etap3_omaps.gif','./original_maps/forest/vaskelovo/vaskelovo_rfar_2006_etap5_omaps.gif','./original_maps/forest/vaskelovo/vaskelovo_rfar_2006_roliki_omaps.gif'],
-        bounds: [[60.422326711658414, 30.438480377197266], [60.417835575234506, 30.48688888549805], [60.3592245458256, 30.415134429931644]],
+        bounds: [[60.4223267, 30.4384804], [60.4178356, 30.4868889], [60.3592245, 30.4151344]],
         author: 'CHGRVSKY_V',
         owner: 'CHGRVSKY_V',
         start: 'RFAR'
@@ -237,7 +237,7 @@ let vaskelovoMaps = [
         year: 1993,
         url: './maps/forest/vaskelovo/korosary_1993.webp',
         link: './original_maps/forest/vaskelovo/korosary_1993_omaps.jpg',
-        bounds: [[60.42711374960327, 30.4167652130127], [60.41792031939828, 30.487232208251957], [60.40130624327883, 30.402431488037113]],
+        bounds: [[60.4271137, 30.4167652], [60.4179203, 30.4872322], [60.4013062, 30.4024315]],
         author: 'DBRTSV_V'
     },
     {
@@ -248,7 +248,7 @@ let vaskelovoMaps = [
         link: ['./original_maps/forest/vaskelovo/garbolovo_1991_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_na_champ_1991_omaps.jpg'],
         info: 'П-во КСО "Невский азимут".',
         results: './docs/1991/1991_09_08_club_championship_omaps.pdf',
-        bounds: [[60.36440284798612, 30.50259590148926], [60.36198357968282, 30.556669235229496], [60.33718634477972, 30.49736022949219]],
+        bounds: [[60.3644028, 30.5025959], [60.3619836, 30.5566692], [60.3371863, 30.4973602]],
         author: 'VSLVSKY',
         planner: 'KRZHNVSKY',
         me: 'H-A'
@@ -258,7 +258,7 @@ let vaskelovoMaps = [
         year: 1994,
         url: './maps/forest/vaskelovo/garbolovo_1994.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_1994_omaps.jpg',
-        bounds: [[60.38900975707087, 30.44723510742188], [60.38417469408329, 30.515556335449222], [60.34470393627307, 30.43418884277344]],
+        bounds: [[60.3890098, 30.4472351], [60.3841747, 30.5155563], [60.3447039, 30.4341888]],
         author: 'CHGRVSKY_Y'
     },
     {
@@ -267,7 +267,7 @@ let vaskelovoMaps = [
         start: 'WEDDING',
         url: './maps/forest/vaskelovo/garbolovo_vuoly_2008.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_vuoly_2008_omaps.gif',
-        bounds: [[60.358333115750035, 30.502510070800785], [60.35671998984692, 30.532293319702152], [60.342622968509154, 30.499248504638675]],
+        bounds: [[60.3583331, 30.5025101], [60.35672, 30.5322933], [60.342623, 30.4992485]],
         author: 'VSLVSKY',
     },
     {
@@ -276,7 +276,7 @@ let vaskelovoMaps = [
         start: 'WEDDING',
         url: './maps/forest/vaskelovo/garbolovo_vuoly_2022.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_vuoly_2022_omaps.jpg',
-        bounds: [[60.35867271103374, 30.50233840942383], [60.35725063217634, 30.52813053131104], [60.34143378447364, 30.49959182739258]],
+        bounds: [[60.3586727, 30.5023384], [60.3572506, 30.5281305], [60.3414338, 30.4995918]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -285,7 +285,7 @@ let vaskelovoMaps = [
         year: 2022,
         url: './maps/forest/vaskelovo/garbolovo_sirkijarvi_2022.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_sirkijarvi_2022_omaps.gif',
-        bounds: [[60.40639308599703, 30.446891784667972], [60.40368020216247, 30.48139572143555], [60.38379294801027, 30.440368652343754]],
+        bounds: [[60.4063931, 30.4468918], [60.4036802, 30.4813957], [60.3837929, 30.4403687]],
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
     },
@@ -294,7 +294,7 @@ let vaskelovoMaps = [
         year: 2016,
         url: './maps/forest/vaskelovo/garbolovo_2016.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_2016_omaps.jpg',
-        bounds: [[60.37399326745597, 30.473756790161136], [60.370238063287275, 30.513024330139164], [60.347676517105526, 30.46388626098633]],
+        bounds: [[60.3739933, 30.4737568], [60.3702381, 30.5130243], [60.3476765, 30.4638863]],
         author: ['KVZN','NSNV','TKMKV_K']
     },
     {
@@ -303,7 +303,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/garbolovo_2014.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_2014_omaps.jpg',
         o_site: '141004_ZK',
-        bounds: [[60.364806041913866, 30.473971366882328], [60.362471692132196, 30.508732795715336], [60.346317656622645, 30.46937942504883]],
+        bounds: [[60.364806, 30.4739714], [60.3624717, 30.5087328], [60.3463177, 30.4693794]],
         author: ['CHGRVSKY_Y','FDRV_L'],
         start: 'WEDDING'
     },
@@ -311,7 +311,7 @@ let vaskelovoMaps = [
         name: 'Матокса',
         year: 2021,
         url: './maps/forest/vaskelovo/garbolovo_sirkkajarvi.webp',
-        bounds: [[60.35374823320506, 30.551433563232425], [60.35043652818912, 30.583963394165043], [60.321423512137386, 30.541133880615238]],
+        bounds: [[60.3537482, 30.5514336], [60.3504365, 30.5839634], [60.3214235, 30.5411339]],
         author: 'MKHLV_A',
         owner: 'WN'
     },
@@ -321,7 +321,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/garbolovo_1978.webp',
         link: ['./original_maps/forest/vaskelovo/garbolovo_1978_wedding_omaps.webp','./original_maps/forest/vaskelovo/garbolovo_1978_wedding_course_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_1978_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_1978_M_omaps.jpg'],
         info: 'ЗЕНИТ.',
-        bounds: [[60.365336552641395, 30.500707626342777], [60.36627023055039, 30.547227859497074], [60.335529693429564, 30.50362586975098]],
+        bounds: [[60.3653366, 30.5007076], [60.3662702, 30.5472279], [60.3355297, 30.5036259]],
         start: 'WEDDING'
     },
     {
@@ -329,7 +329,7 @@ let vaskelovoMaps = [
         year: 1,
         url: './maps/forest/vaskelovo/garbolovo_zmeinoe_retro.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_zmeinoe_retro_omaps.jpg',
-        bounds: [[60.34396074873837, 30.516414642333988], [60.33495621759792, 30.537915229797367], [60.33829073229022, 30.506715774536136]],
+        bounds: [[60.3439607, 30.5164146], [60.3349562, 30.5379152], [60.3382907, 30.5067158]],
     },
     {
         name: 'Гарболово, Змеиное оз',
@@ -337,7 +337,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/garbolovo_zmeinoe_2022.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_zmeinoe_2022_omaps.jpg',
         photo: './tracks/garbolovo/pic_1.jpg',
-        bounds: [[60.344895038902564, 30.496544837951664], [60.341178953683816, 30.537743568420414], [60.33083539119732, 30.492510795593265]],
+        bounds: [[60.344895, 30.4965448], [60.341179, 30.5377436], [60.3308354, 30.4925108]],
         author: ['MLNKV_L','RYLOV_V'],
         owner: ['SHLKHN_AN','SHEIN']
     },
@@ -346,7 +346,7 @@ let vaskelovoMaps = [
         year: 1982,
         url: './maps/forest/vaskelovo/stekljanny_1982.webp',
         link: './original_maps/forest/vaskelovo/stekljanny_1982_omaps.jpg',
-        bounds: [[60.37955102391165, 30.228838920593265], [60.37628436589373, 30.284028053283695], [60.35047898807388, 30.22150039672852]],
+        bounds: [[60.379551, 30.2288389], [60.3762844, 30.2840281], [60.350479, 30.2215004]],
         author: ['BYMKV','SMRNV_A','RMNTSV_S','GRV_K']
     },
     {
@@ -356,7 +356,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/marolampi_1977.webp',
         link: './original_maps/forest/vaskelovo/marolampi_1977_omaps.jpg',
         results: './docs/1977/1977_10_09_wedding_omaps.pdf',
-        bounds: [[60.379254068536234, 30.25239944458008], [60.369686414921595, 30.28518676757813], [60.36491214475014, 30.236134529113773]],
+        bounds: [[60.3792541, 30.2523994], [60.3696864, 30.2851868], [60.3649121, 30.2361345]],
     },
     {
         name: 'Васкелово',
@@ -366,7 +366,7 @@ let vaskelovoMaps = [
         link: ['./original_maps/forest/vaskelovo/kerro_1988_omaps.jpg','./original_maps/forest/vaskelovo/vaskelovo_masters_1991_omaps.jpg'],
         info: 'Соревнования среди спортсменов старшего возраста.',
         results: './docs/1991/1991_09_14_veterans_omaps.pdf',
-        bounds: [[60.34907778268942, 30.21647930145264], [60.344725169953875, 30.285701751708988], [60.31761974836494, 30.208625793457035]],
+        bounds: [[60.3490778, 30.2164793], [60.3447252, 30.2857018], [60.3176197, 30.2086258]],
         author: 'BYMKV',
         planner: 'SMNV_M'
     },
@@ -375,7 +375,7 @@ let vaskelovoMaps = [
         year: 1983,
         url: './maps/forest/vaskelovo/vaskelovo_kivarin_1983.webp',
         link: './original_maps/forest/vaskelovo/vaskelovo_kivarin_1983_omaps.jpg',
-        bounds: [[60.36295979727288, 30.219655036926273], [60.357802491037894, 30.283770561218265], [60.335189857116205, 30.213217735290527]],
+        bounds: [[60.3629598, 30.219655], [60.3578025, 30.2837706], [60.3351899, 30.2132177]],
         author: 'BYMKV'
     },
     {
@@ -383,7 +383,7 @@ let vaskelovoMaps = [
         year: 1995,
         url: './maps/forest/vaskelovo/stekljanny_1996.webp',
         link: './original_maps/forest/vaskelovo/stekljanny_1996_omaps.jpg',
-        bounds: [[60.37645407048021, 30.229568481445316], [60.3710230852461, 30.28836250305176], [60.35171030068646, 30.218925476074222]],
+        bounds: [[60.3764541, 30.2295685], [60.3710231, 30.2883625], [60.3517103, 30.2189255]],
         author: 'SCHV_V'
     },
     {
@@ -392,7 +392,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/stekljanny_2021.webp',
         link: './original_maps/forest/vaskelovo/stekljanny_2021_omaps.webp',
         o_gps: 24950,
-        bounds: [[60.37779046320838, 30.23046970367432], [60.37297494976914, 30.287847518920902], [60.350415298226004, 30.221114158630375]],
+        bounds: [[60.3777905, 30.2304697], [60.3729749, 30.2878475], [60.3504153, 30.2211142]],
         author: 'MKHLV_A',
         owner: 'WN'
     },
@@ -401,7 +401,7 @@ let vaskelovoMaps = [
         year: 2014,
         url: './maps/forest/vaskelovo/stekljanny_2014.webp',
         link: ['./original_maps/forest/vaskelovo/stekljanny_2014_omaps.jpg','./original_maps/forest/vaskelovo/stekljanny_2014_omaps.gif'],
-        bounds: [[60.3755631115393, 30.23317337036133], [60.37337803765897, 30.25467395782471], [60.360052280500405, 30.225834846496586]],
+        bounds: [[60.3755631, 30.2331734], [60.373378, 30.254674], [60.3600523, 30.2258348]],
         author: 'MLNKV_L'
     },
     {
@@ -409,7 +409,7 @@ let vaskelovoMaps = [
         year: 2013,
         url: './maps/forest/vaskelovo/orekhovo_west_2011.webp',
         link: ['./original_maps/forest/vaskelovo/orekhovo_west_2011_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_west_2011_omaps.ocd'],
-        bounds: [[60.47733511396385, 30.23797988891602], [60.47570673097479, 30.26265621185303], [60.460730235956845, 30.233860015869144]],
+        bounds: [[60.4773351, 30.2379799], [60.4757067, 30.2626562], [60.4607302, 30.23386]],
         author: 'SHRNN',
         owner: 'SHRNN'
     },
@@ -420,7 +420,7 @@ let vaskelovoMaps = [
         area: 42,
         url: './maps/forest/vaskelovo/lembolovo_orekhovo_2023.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_2023_omaps.webp',
-        bounds: [[60.49050720754783, 30.263643264770508], [60.482684939856334, 30.385179519653324], [60.38871288792411, 30.23471832275391]],
+        bounds: [[60.4905072, 30.2636433], [60.4826849, 30.3851795], [60.3887129, 30.2347183]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
         owner: 'TOKM'
     },
@@ -430,7 +430,7 @@ let vaskelovoMaps = [
         area: 26,
         url: './maps/forest/vaskelovo/lembolovo_2007.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_2007.pdf',
-        bounds: [[60.45196959181943, 30.256347656250004], [60.442867869662955, 30.400457382202152], [60.38027218998218, 30.237550735473636]],
+        bounds: [[60.4519696, 30.2563477], [60.4428679, 30.4004574], [60.3802722, 30.2375507]],
         author: ['CHGRVSKY_Y','DBRTSV_V']
     },
     {
@@ -438,7 +438,7 @@ let vaskelovoMaps = [
         year: 2024,
         url: './maps/forest/vaskelovo/silande_2024.webp',
         link: './original_maps/forest/vaskelovo/silande_2024_omaps.jpg',
-        bounds: [[60.416013522306024, 30.259008407592777], [60.41427612096631, 30.286216735839847], [60.3923599498166, 30.249824523925785]],
+        bounds: [[60.4160135, 30.2590084], [60.4142761, 30.2862167], [60.3923599, 30.2498245]],
         publish: 'https://vk.com/album-230167293_309535800',
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
@@ -448,7 +448,7 @@ let vaskelovoMaps = [
         date: '2009-10-03',
         url: './maps/forest/vaskelovo/silande_2009.webp',
         link: './original_maps/forest/vaskelovo/silande_2009_omaps.webp',
-        bounds: [[60.39683340388056, 30.25596141815186], [60.39526458476412, 30.278706550598148], [60.37812985580713, 30.251283645629886]],
+        bounds: [[60.3968334, 30.2559614], [60.3952646, 30.2787066], [60.3781299, 30.2512836]],
         author: 'DBRTSV_V',
         info: '50-летие секции ориентирования ЭКРАН.',
         logo: 'wn_retro.webp',
@@ -470,7 +470,7 @@ let vaskelovoMaps = [
             'Все': 10110,
         },
         publish: 'https://t.me/dlitelnyy/288',
-        bounds: [[60.45025527630089, 30.237078666687015], [60.445238796388175, 30.297031402587894], [60.42497449673764, 30.228109359741214]],
+        bounds: [[60.4502553, 30.2370787], [60.4452388, 30.2970314], [60.4249745, 30.2281094]],
         author: 'CHGRVSKY_V',
         owner: 'CHGRVSKY_V'
     },
@@ -479,7 +479,7 @@ let vaskelovoMaps = [
         year: 1991,
         url: './maps/forest/vaskelovo/orekhovo_1991.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_1991_omaps.jpg',
-        bounds: [[60.47739855580294, 30.23875236511231], [60.47380332259927, 30.28535842895508], [60.44604317864724, 30.230598449707035]],
+        bounds: [[60.4773986, 30.2387524], [60.4738033, 30.2853584], [60.4460432, 30.2305984]],
         author: 'BYMKV',
         owner: 'WN'
     },
@@ -488,7 +488,7 @@ let vaskelovoMaps = [
         year: 1988,
         url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_old.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_rakitinskoe_1988_omaps.webp',
-        bounds: [[60.46733089894834, 30.299777984619144], [60.469657735791834, 30.379858016967777], [60.43994631130429, 30.302438735961918]],
+        bounds: [[60.4673309, 30.299778], [60.4696577, 30.379858], [60.4399463, 30.3024387]],
         author: ['BYMKV','KRVCHNKO_V','SMRNV_A','RMNTSV_S']
     },
     {
@@ -496,7 +496,7 @@ let vaskelovoMaps = [
         year: 1995,
         url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_1995.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_rakitinskoe_1995_omaps.pdf',
-        bounds: [[60.47086339472666, 30.299048423767093], [60.465596239324626, 30.384879112243656], [60.44186229045466, 30.290164947509766]],
+        bounds: [[60.4708634, 30.2990484], [60.4655962, 30.3848791], [60.4418623, 30.2901649]],
         author: ['BYMKV','KUZNTSV_S'],
         start: 'CISM_96'
     },
@@ -505,7 +505,7 @@ let vaskelovoMaps = [
         year: 1999,
         url: './maps/forest/vaskelovo/orekhovo_smorodinka_1999.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_smorodinka_1999_omaps.jpg',
-        bounds: [[60.472026707381744, 30.183219909667972], [60.467161667943785, 30.251798629760746], [60.44701687789359, 30.177211761474613]],
+        bounds: [[60.4720267, 30.1832199], [60.4671617, 30.2517986], [60.4470169, 30.1772118]],
         author: ['KRCHKN_V','PLMNN','GLTV_V','GLTV_Y']
     },
     {
@@ -513,7 +513,7 @@ let vaskelovoMaps = [
         year: 2020,
         url: './maps/forest/vaskelovo/kirijasaly_2020.webp',
         link: './original_maps/forest/vaskelovo/kirijasaly_2020_omaps.jpg',
-        bounds: [[60.46616741797357, 30.157513618469242], [60.463840330912824, 30.185708999633793], [60.458677833264304, 30.154445171356205]],
+        bounds: [[60.4661674, 30.1575136], [60.4638403, 30.185709], [60.4586778, 30.1544452]],
         author: 'DRBSHV',
         owner: 'KP31'
     },
@@ -523,7 +523,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_zhuravushka_2009.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_zhuravushka_2009_omaps.jpg',
         photo: './tracks/orekhovo/pic_2.jpg',
-        bounds: [[60.486469461686276, 30.296044349670414], [60.484524399472456, 30.319476127624515], [60.45960883612959, 30.28690338134766]],
+        bounds: [[60.4864695, 30.2960443], [60.4845244, 30.3194761], [60.4596088, 30.2869034]],
         author: ['MKHLV_A','SLBDNK']
     },
 /*
@@ -531,7 +531,7 @@ let vaskelovoMaps = [
         name: 'Орехово, оз Ветренное',
         year: 2002,
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2002.webp',
-        bounds: [[60.50449801766844, 30.28887748718262], [60.49921518862048, 30.354194641113285], [60.47249202076819, 30.27917861938477]],
+        bounds: [[60.504498, 30.2888775], [60.4992152, 30.3541946], [60.472492, 30.2791786]],
         author: 'SHRNN',
         owner: 'SHRNN'
     },
@@ -545,7 +545,7 @@ let vaskelovoMaps = [
         o_site: '050610',
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2004.webp',
         link: ['./original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_2002_09_08_omaps.webp','./original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_omaps.ocd'],
-        bounds: [[60.504476888067344, 30.289220809936527], [60.49853892434387, 30.352993011474613], [60.47278812581316, 30.27862071990967]],
+        bounds: [[60.5044769, 30.2892208], [60.4985389, 30.352993], [60.4727881, 30.2786207]],
         author: ['VSLVSKY','DRBSHV','SHRNN'],
     },
     {
@@ -557,7 +557,7 @@ let vaskelovoMaps = [
         o_site: '050610',
         url: './maps/forest/vaskelovo/orekhovo_borkovo_2004.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_borkovo_2004_omaps.jpg',
-        bounds: [[60.490295819711505, 30.285100936889652], [60.48761107431526, 30.321664810180668], [60.46318448533745, 30.278277397155765]],
+        bounds: [[60.4902958, 30.2851009], [60.4876111, 30.3216648], [60.4631845, 30.2782774]],
         author: ['VSLVSKY','DRBSHV','SHRNN']
     },
     {
@@ -568,7 +568,7 @@ let vaskelovoMaps = [
         page: 'spb',
         url: './maps/forest/vaskelovo/orekhovo_figurnoe_2001.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_2001_omaps.jpg',
-        bounds: [[60.47063072719175, 30.259609222412113], [60.46479234123692, 30.332565307617188], [60.445111786842475, 30.255746841430668]],
+        bounds: [[60.4706307, 30.2596092], [60.4647923, 30.3325653], [60.4451118, 30.2557468]],
         author: ['VSLVSKY','BRDR']
     },
     {
@@ -577,7 +577,7 @@ let vaskelovoMaps = [
         logo: 'na.gif',
         url: './maps/forest/vaskelovo/lembolovo_2002.webp',
         link: ['./original_maps/forest/vaskelovo/lembolovo_2002_omaps.jpg','./original_maps/forest/vaskelovo/lembolovo_2002_2_omaps.jpg'],
-        bounds: [[60.44807521353942, 30.28458595275879], [60.44282553011336, 30.369215011596683], [60.39774498025911, 30.271539688110355]],
+        bounds: [[60.4480752, 30.284586], [60.4428255, 30.369215], [60.397745, 30.2715397]],
         author: ['CHGRVSKY_Y','DBRTSV_V','ILVS','FDRV_L','DRBSHV']
     },
     {
@@ -585,7 +585,7 @@ let vaskelovoMaps = [
         year: 2000,
         url: './maps/forest/vaskelovo/orekhovo-lembolovo_2000.webp',
         link: './original_maps/forest/vaskelovo/orekhovo-lembolovo_2000_omaps.jpg',
-        bounds: [[60.47016538711803, 30.29488563537598], [60.44269851113349, 30.364322662353516], [60.44993780053481, 30.26613235473633]],
+        bounds: [[60.4701654, 30.2948856], [60.4426985, 30.3643227], [60.4499378, 30.2661324]],
         author: ['VSLVSKY','BRDR','CHGRVSKY_V']
     },
     {
@@ -595,7 +595,7 @@ let vaskelovoMaps = [
         page: 'spb',
         url: './maps/forest/vaskelovo/orekhovo_rakitinskoe_2004.webp',
         link: ['./original_maps/forest/vaskelovo/orekhovo_rakitinskoe_2004_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_rakitinskoe_2004_na_omaps.webp','./original_maps/forest/vaskelovo/orekhovo_2005_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_2002_omaps.webp'],
-        bounds: [[60.47519916632469, 30.26939392089844], [60.46606164490792, 30.36827087402344], [60.44443439421304, 30.264072418212894]],
+        bounds: [[60.4751992, 30.2693939], [60.4660616, 30.3682709], [60.4444344, 30.2640724]],
         author: ['VSLVSKY','BRDR','DRBSHV']
     },
     {
@@ -604,7 +604,7 @@ let vaskelovoMaps = [
         area: 5.6,
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2022.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_vetrennoe_2022_omaps.jpg',
-        bounds: [[60.51476537376076, 30.29368400573731], [60.507794066756006, 30.361404418945316], [60.483276961231034, 30.28012275695801]],
+        bounds: [[60.5147654, 30.293684], [60.5077941, 30.3614044], [60.483277, 30.2801228]],
         author: ['STLRV','DBRTSV_V','KUZNTSV_A'],
         owner: 'SHEIN'
     },
@@ -613,7 +613,7 @@ let vaskelovoMaps = [
         year: 2001,
         url: './maps/forest/vaskelovo/peski_2001.webp',
         link: './original_maps/forest/vaskelovo/peski_2001_omaps.jpg',
-        bounds: [[60.486406037584224, 30.39796829223633], [60.48230434898135, 30.4621696472168], [60.4596511538074, 30.390844345092773]],
+        bounds: [[60.486406, 30.3979683], [60.4823043, 30.4621696], [60.4596512, 30.3908443]],
         author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
         start: 'MMS'
     },
@@ -622,7 +622,7 @@ let vaskelovoMaps = [
         year: 2026,
         url: './maps/forest/vaskelovo/peski_2026.webp',
         link: './original_maps/forest/vaskelovo/peski_2026_omaps.webp',
-        bounds: [[60.494417633983616, 30.413846969604496], [60.488837206085094, 30.46268463134766], [60.465109671807625, 30.40097236633301]],
+        bounds: [[60.4944176, 30.413847], [60.4888372, 30.4626846], [60.4651097, 30.4009724]],
         calendar: 'SPB_20260626_1',
         author: ['BRGNTS','VSLV_S','VRBY'],
         owner: 'SFSO_LO',
@@ -633,7 +633,7 @@ let vaskelovoMaps = [
         name: 'СНТ Топограф',
         year: 2017,
         url: './maps/forest/vaskelovo/topograph_2017.webp',
-        bounds: [[60.300210283213666, 30.248794555664066], [60.297424758342665, 30.282311439514164], [60.286301556253335, 30.24373054504395]],
+        bounds: [[60.3002103, 30.2487946], [60.2974248, 30.2823114], [60.2863016, 30.2437305]],
         author: ['MKHLV_A','IVNV_P'],
         owner: 'WN'
     },
@@ -643,7 +643,7 @@ let vaskelovoMaps = [
         area: 17,
         url: './maps/forest/vaskelovo/lembolovo_2024.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_2024_omaps.jpg',
-        bounds: [[60.445492813989986, 30.259523391723636], [60.43689744859958, 30.369987487792972], [60.38858565746125, 30.23995399475098]],
+        bounds: [[60.4454928, 30.2595234], [60.4368974, 30.3699875], [60.3885857, 30.239954]],
         publish: 'https://t.me/dlitelnyy/94',
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY','RDNV_I'],
         owner: 'RDNV_I'
@@ -655,7 +655,7 @@ let vaskelovoMaps = [
         page: 'spb',
         url: './maps/forest/vaskelovo/lembolovo_1983.webp',
         link: ['./original_maps/forest/vaskelovo/lembolovo_1983_omaps.jpg','./original_maps/forest/vaskelovo/lembolovo_wn_1980_omaps.jpg'],
-        bounds: [[60.44490010316294, 30.25694847106934], [60.440750824596094, 30.338487625122074], [60.41573808681991, 30.251798629760746]],
+        bounds: [[60.4449001, 30.2569485], [60.4407508, 30.3384876], [60.4157381, 30.2517986]],
         author: ['KAZNTSVA_O','KAZNTSV_S']
     },
     {
@@ -663,7 +663,7 @@ let vaskelovoMaps = [
         year: 1982,
         url: './maps/forest/vaskelovo/lembolovo_1982.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_1982_omaps.jpg',
-        bounds: [[60.41643726465351, 30.276002883911136], [60.41368284071863, 30.339431762695316], [60.37793894790542, 30.266304016113285]],
+        bounds: [[60.4164373, 30.2760029], [60.4136828, 30.3394318], [60.3779389, 30.266304]],
         author: ['LVCHV','SVTKN']
     },
     {
@@ -672,7 +672,7 @@ let vaskelovoMaps = [
         excluded: true,
         url: './maps/forest/vaskelovo/lembolovo_1990.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_1990_omaps.webp',
-        bounds: [[60.417030494666044, 30.27720451354981], [60.41308954965064, 30.337629318237305], [60.37823591526914, 30.265789031982425]],
+        bounds: [[60.4170305, 30.2772045], [60.4130895, 30.3376293], [60.3782359, 30.265789]],
         author: ['LVCHV','SVTKN']
     },
     {
@@ -680,7 +680,7 @@ let vaskelovoMaps = [
         year: 1988,
         url: './maps/forest/vaskelovo/lembolovo_1988.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_1988_omaps.webp',
-        bounds: [[60.40732558758223, 30.25866508483887], [60.40316621235959, 30.313242673873905], [60.37059875140048, 30.249137878417972]],
+        bounds: [[60.4073256, 30.2586651], [60.4031662, 30.3132427], [60.3705988, 30.2491379]],
         author: ['LVCHV','SVTKN']
     },
     {
@@ -688,7 +688,7 @@ let vaskelovoMaps = [
         year: 1987,
         url: './maps/forest/vaskelovo/lembolovo_1987.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_1987_omaps.webp',
-        bounds: [[60.42139464000694, 30.33359527587891], [60.41844996541937, 30.37217617034912], [60.40340466224666, 30.32938957214356]],
+        bounds: [[60.4213946, 30.3335953], [60.41845, 30.3721762], [60.4034047, 30.3293896]],
         author: ['FDTV_A','KNSTNTNV_D']
     },
     {
@@ -697,7 +697,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/lembolovo_1978_zenit.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_1978_zenit_omaps.webp',
         info: 'Спартакиада ЗЕНИТ.',
-        bounds: [[60.41902197343451, 30.294456481933597], [60.41806862115358, 30.32612800598145], [60.40291716283444, 30.29660224914551]],
+        bounds: [[60.419022, 30.2944565], [60.4180686, 30.326128], [60.4029172, 30.2966022]],
         author: ['KRVCHNKO_V','SRGV','TRNTV_V'],
         logo: 'zenit_1978.webp'
     },
@@ -706,7 +706,7 @@ let vaskelovoMaps = [
         year: 2019,
         url: './maps/forest/vaskelovo/lembolovo_pioner_2019.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_pioner_2019_omaps.jpg',
-        bounds: [[60.40386036161528, 30.320280790328983], [60.40413589767283, 30.335440635681156], [60.399001005890746, 30.320259332656864]],
+        bounds: [[60.4038604, 30.3202808], [60.4041359, 30.3354406], [60.399001, 30.3202593]],
         author: 'MKHLV_A_M',
         owner: 'PNKV_DNL'
     },
@@ -717,7 +717,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_2024.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_2024_omaps.jpg',
         photo: './tracks/orekhovo/pic_1.jpg',
-        bounds: [[60.49139502141355, 30.270080566406254], [60.4788788301667, 30.390758514404297], [60.443714649069115, 30.24973869323731]],
+        bounds: [[60.491395, 30.2700806], [60.4788788, 30.3907585], [60.4437146, 30.2497387]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY','RDNV_I'],
         owner: 'RDNV_I'
     },
@@ -726,7 +726,7 @@ let vaskelovoMaps = [
         year: 2021, // ??
         url: './maps/forest/vaskelovo/orekhovo_borkovo_2021.webp',
         link: ['./original_maps/forest/vaskelovo/orekhovo_borkovo_2021_omaps.gif','./original_maps/forest/vaskelovo/orekhovo_borkovo_2021_omaps.ocd'],
-        bounds: [[60.474649295661045, 30.262355804443363], [60.47105375783274, 30.301966667175297], [60.46161886491695, 30.258107185363773]],
+        bounds: [[60.4746493, 30.2623558], [60.4710538, 30.3019667], [60.4616189, 30.2581072]],
         author: ['SHRNN','VSLVSKY','BRDR'],
         owner: 'SHRNN'
     },
@@ -736,7 +736,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_borkovo_2024.webp',
         link: ['./original_maps/forest/vaskelovo/orekhovo_borkovo_2024_1_omaps.gif','./original_maps/forest/vaskelovo/orekhovo_borkovo_2024_2_omaps.gif'],
         publish: 'https://vk.com/album-230167293_313624527',
-        bounds: [[60.47384562177614, 30.26196956634522], [60.46955197409946, 30.307459831237797], [60.46144960413299, 30.256862640380863]],
+        bounds: [[60.4738456, 30.2619696], [60.469552, 30.3074598], [60.4614496, 30.2568626]],
         author: 'CHGRVSKY_Y',
         owner: 'KUZMOLOVO'
     },
@@ -747,7 +747,7 @@ let vaskelovoMaps = [
         o_site: '250510_zg',
         url: './maps/forest/vaskelovo/orekhovo_figurnoe_2025.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_2025_omaps.gif',
-        bounds: [[60.46106876414282, 30.27862071990967], [60.456117437740424, 30.329904556274418], [60.44318541452643, 30.271968841552738]],
+        bounds: [[60.4610688, 30.2786207], [60.4561174, 30.3299046], [60.4431854, 30.2719688]],
         o_gps: 22515,
         publish: 'https://vk.com/album-230167293_313624527',
         author: 'CHGRVSKY_V',
@@ -758,7 +758,7 @@ let vaskelovoMaps = [
         year: 2006,
         url: './maps/forest/vaskelovo/onega_2006.webp',
         link: './original_maps/forest/vaskelovo/onega_2006_omaps.jpg',
-        bounds: [[60.38049489980676, 30.34054756164551], [60.380144926541625, 30.349903106689457], [60.37703742325427, 30.34009695053101]],
+        bounds: [[60.3804949, 30.3405476], [60.3801449, 30.3499031], [60.3770374, 30.340097]],
         author: ['MLVA_M','RYLOV_V']
     },
 ];

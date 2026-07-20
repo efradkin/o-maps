@@ -7,7 +7,7 @@ let pskovMaps = [
         url: './maps/other/malska_dolina_rogaine_2010.webp',
         link: 'https://7rrc.rogaining.ru/download/7rrc_map24.jpg',
         info: '<a href="https://7rrc.rogaining.ru/">7-й Чемпионат России по рогейну</a>.',
-        bounds: [[57.87178363722239, 27.708206176757816], [57.851830758429266, 28.029899597167972], [57.72335688189693, 27.675504684448242]],
+        bounds: [[57.8717836, 27.7082062], [57.8518308, 28.0298996], [57.7233569, 27.6755047]],
         author: 'LSHV_A',
         owner: 'PSKOV_RUS',
         type: ['ROGAINE'],
@@ -19,7 +19,7 @@ let pskovMaps = [
         url: './maps/other/alol_rogaine_2013.webp',
         link: 'https://wrc2013.rogaining.ru/results/wrc2013_map.jpg',
         info: '<a href="https://wrc2013.rogaining.ru/ru/">11-й Чемпионат мира по рогейну</a>.',
-        bounds: [[56.572156439339906, 28.817138671875004], [56.54538481548953, 29.139347076416016], [56.40901055670117, 28.773193359375]],
+        bounds: [[56.5721564, 28.8171387], [56.5453848, 29.1393471], [56.4090106, 28.7731934]],
         author: ['MNKV','SMKN_S','SBLV_S','KSTLV_E'],
         owner: 'PSKOV_RUS',
         type: ['ROGAINE'],
@@ -30,7 +30,7 @@ let pskovMaps = [
         url: './maps/pskov/andreeva_gora_1996_09_07.webp',
         link: './original_maps/pskov/andreeva_gora_1996_09_07_omaps.webp',
         info: 'XVI-й Чемпионат России. Спринт-полуфинал. <a href="./docs/1996/1996_russia_champions_omaps.jpg">Чемпионы</a>.',
-        bounds: [[56.45762962513837, 28.96257877349854], [56.45374049020852, 29.00871276855469], [56.42714616604212, 28.953866958618164]],
+        bounds: [[56.4576296, 28.9625788], [56.4537405, 29.0087128], [56.4271462, 28.953867]],
         author: ['LNTV','MTN_Y','FMN_I','JANN_Y','ALSHN'],
         owner: 'PSKOV_RUS',
         start: 'RUSSIA_CHAMP'
@@ -42,7 +42,7 @@ let pskovMaps = [
         url: './maps/pskov/mitkovitsji_1990_07_31.webp',
         link: './original_maps/pskov/mitkovitsji_1990_07_31_omaps.webp',
         info: 'GRAND PRIX. Кубок СССР.',
-        bounds: [[57.801580011411936, 27.69490242004395], [57.796686020099344, 27.75524139404297], [57.77000896484338, 27.684001922607425]],
+        bounds: [[57.80158, 27.6949024], [57.796686, 27.7552414], [57.770009, 27.6840019]],
         author: ['EKHLKV','KRZHV','CHNTSV','CHRNH_Y','JANN_Y'],
         owner: 'PSKOV_RUS',
     },
@@ -52,7 +52,7 @@ let pskovMaps = [
         url: './maps/pskov/lubenets_winter_1989.webp',
         link: './original_maps/pskov/lubenets_winter_1989_omaps.webp',
         info: 'Карта района <a href="https://rufso.ru/wp-content/uploads/2024/05/Aleshin_Alol.pdf">несостоявшегося</a> I зимнего чемпионата СССР.',
-        bounds: [[57.65614738508078, 27.79498100280762], [57.65127960812027, 27.865018844604496], [57.5957591789961, 27.781162261962894]],
+        bounds: [[57.6561474, 27.794981], [57.6512796, 27.8650188], [57.5957592, 27.7811623]],
         type: ['WINTER'],
         logo: 'ussr_pskov_winter_1989.webp',
         author: ['ARTMV','BLNKN_N','VHTV_A','GZTLN','GSMNV_R','KNDRSHKN_V','LVN_B','MTVV','MTN_Y','PTRV_V','PPV_V','SVIR_A','SCHV_V','KHDNKCH','SCHRV_A','JANN_Y'],
@@ -65,7 +65,7 @@ let pskovMaps = [
         url: './maps/pskov/kotia_gora_2017_05_19.webp',
         link: './original_maps/pskov/kotia_gora_2017_05_19_omaps.webp',
         info: 'Чемпионат России.',
-        bounds: [[57.654976422915716, 27.805752754211426], [57.651830709989305, 27.85167217254639], [57.623943643306085, 27.798414230346683]],
+        bounds: [[57.6549764, 27.8057528], [57.6518307, 27.8516722], [57.6239436, 27.7984142]],
         owner: 'PSKOV_RUS',
         start: 'RUSSIA_CHAMP'
     },
@@ -74,7 +74,7 @@ let pskovMaps = [
         year: 1,
         url: './maps/pskov/korytovo_retro.webp',
         link: './original_maps/pskov/korytovo_retro_omaps.jpg',
-        bounds: [[57.78714769069405, 28.316745758056644], [57.786186855911744, 28.35004806518555], [57.76778880191017, 28.317174911499023]],
+        bounds: [[57.7871477, 28.3167458], [57.7861869, 28.3500481], [57.7677888, 28.3171749]],
         owner: 'PSKOV_RUS'
     },
     {
@@ -82,7 +82,7 @@ let pskovMaps = [
         year: 1989,
         url: './maps/pskov/korytovo_1989.webp',
         link: ['./original_maps/pskov/korytovo_1989_omaps.jpg','./original_maps/pskov/korytovo_1989_winter_omaps.jpg'],
-        bounds: [[57.792729177406706, 28.330736160278324], [57.79197435467371, 28.361849784851078], [57.7681321349938, 28.32455635070801]],
+        bounds: [[57.7927292, 28.3307362], [57.7919744, 28.3618498], [57.7681321, 28.3245564]],
         author: ['CHRNH_Y','NKTN_A'],
         editor: 'KHDNKCH',
         owner: 'PSKOV_RUS',
@@ -94,7 +94,7 @@ let pskovMaps = [
         url: './maps/pskov/korytovo_2001.webp',
         link: ['./original_maps/pskov/korytovo_2001_omaps.jpg','./original_maps/pskov/korytovo_2001_russia_cup_omaps.jpg'],
         start: 'RUSSIA_CUP',
-        bounds: [[57.79183711248078, 28.33004951477051], [57.791608374332775, 28.35554122924805], [57.7686814611406, 28.3293628692627]],
+        bounds: [[57.7918371, 28.3300495], [57.7916084, 28.3555412], [57.7686815, 28.3293629]],
         author: ['KBRSKY','KHLMV_A','CHRNH_Y','NKTN_A','KHDNKCH','LSHV_A','NKTN_D','NKTN_V'],
         owner: 'PSKOV_RUS'
     },
@@ -103,7 +103,7 @@ let pskovMaps = [
         year: 2018,
         url: './maps/pskov/korytovo_2018.webp',
         link: './original_maps/pskov/korytovo_2018_omaps.jpg',
-        bounds: [[57.79123095321933, 28.332130908966068], [57.791253827338565, 28.34060668945313], [57.78424223107681, 28.33157300949097]],
+        bounds: [[57.791231, 28.3321309], [57.7912538, 28.3406067], [57.7842422, 28.331573]],
         author: 'KRTSHV',
         owner: 'PSKOV_RUS',
         type: ['SPRINT']
@@ -113,7 +113,7 @@ let pskovMaps = [
         year: 2019,
         url: './maps/pskov/korytovo_2019.webp',
         link: './original_maps/pskov/korytovo_2019_omaps.jpg',
-        bounds: [[57.792637684582886, 28.335928916931152], [57.79243182488125, 28.344640731811527], [57.78718772492166, 28.33510279655457]],
+        bounds: [[57.7926377, 28.3359289], [57.7924318, 28.3446407], [57.7871877, 28.3351028]],
         author: 'SLDTSKY',
         owner: 'PSKOV_RUS',
         type: ['SPRINT']
@@ -123,7 +123,7 @@ let pskovMaps = [
         year: 2020,
         url: './maps/pskov/korytovo_2020.webp',
         link: './original_maps/pskov/korytovo_2020_omaps.jpg',
-        bounds: [[57.7924775715831, 28.335875272750858], [57.79243182488125, 28.344962596893314], [57.78697611492998, 28.33427667617798]],
+        bounds: [[57.7924776, 28.3358753], [57.7924318, 28.3449626], [57.7869761, 28.3342767]],
         author: 'SRBRNTSKY',
         owner: 'PSKOV_RUS',
         type: ['SPRINT']
@@ -133,7 +133,7 @@ let pskovMaps = [
         year: 2021,
         url: './maps/pskov/vybuty_2021.webp',
         link: './original_maps/pskov/vybuty_2021_omaps.gif',
-        bounds: [[57.73293497257848, 28.263831138610843], [57.72997932514372, 28.29558849334717], [57.70843475761412, 28.255505561828617]],
+        bounds: [[57.732935, 28.2638311], [57.7299793, 28.2955885], [57.7084348, 28.2555056]],
         author: 'TTYNN_V',
         owner: 'O_PSKOV',
     },
@@ -142,7 +142,7 @@ let pskovMaps = [
         year: 2021,
         url: './maps/pskov/pskov_aeroport_2021.webp',
         link: './original_maps/pskov/pskov_aeroport_2021_omaps.gif',
-        bounds: [[57.78202294299561, 28.364596366882328], [57.779323006568035, 28.38674068450928], [57.7648588935378, 28.35948944091797]],
+        bounds: [[57.7820229, 28.3645964], [57.779323, 28.3867407], [57.7648589, 28.3594894]],
         owner: 'O_PSKOV',
     },
     {
@@ -152,7 +152,7 @@ let pskovMaps = [
         link: './original_maps/pskov/pskov_rogaine_2024_06_03_omaps.webp',
         o_gps: 19853,
         info: 'Негативный рогейн.',
-        bounds: [[57.83684741732398, 28.324685096740726], [57.83227808564592, 28.3747673034668], [57.797440744291066, 28.312153816223148]],
+        bounds: [[57.8368474, 28.3246851], [57.8322781, 28.3747673], [57.7974407, 28.3121538]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['ROGAINE']
@@ -164,7 +164,7 @@ let pskovMaps = [
         link: './original_maps/pskov/pskov_kremlin_2003_omaps.jpg',
         info: '1100 лет городу Пскову.',
         start: 'RUSSIA_CUP',
-        bounds: [[57.827148320551245, 28.324792385101322], [57.826702716289134, 28.354618549346927], [57.81656658821095, 28.324942588806156]],
+        bounds: [[57.8271483, 28.3247924], [57.8267027, 28.3546185], [57.8165666, 28.3249426]],
         author: ['SHSHKV','LSHV_A'],
         owner: 'PSKOV_RUS',
         type: ['CITY']
@@ -174,7 +174,7 @@ let pskovMaps = [
         year: 2020,
         url: './maps/pskov/plehanovsky_posad_2020.webp',
         link: './original_maps/pskov/plehanovsky_posad_2020_omaps.gif',
-        bounds: [[57.82405182835562, 28.34648609161377], [57.82402897502587, 28.36890935897827], [57.80890832237853, 28.34648609161377]],
+        bounds: [[57.8240518, 28.3464861], [57.824029, 28.3689094], [57.8089083, 28.3464861]],
         author: 'ABRSMV',
         owner: 'O_PSKOV',
         type: ['CITY']
@@ -186,7 +186,7 @@ let pskovMaps = [
         link: './original_maps/pskov/vauliny_hills_2003_omaps.jpg',
         info: '1100 лет городу Пскову.',
         start: 'RUSSIA_CUP',
-        bounds: [[57.891657026189655, 28.29262733459473], [57.89081302976688, 28.3143424987793], [57.86826871528844, 28.288979530334476]],
+        bounds: [[57.891657, 28.2926273], [57.890813, 28.3143425], [57.8682687, 28.2889795]],
         author: ['PRVLO','SMKN_S','TRNV_V','JANN_Y'],
         owner: 'PSKOV_RUS',
         type: ['CITY']
@@ -196,7 +196,7 @@ let pskovMaps = [
         year: 1999,
         url: './maps/pskov/white_lake_1999.webp',
         link: './original_maps/pskov/white_lake_1999_omaps.jpg',
-        bounds: [[56.45755848600139, 28.973951339721683], [56.44916313236833, 29.078321456909183], [56.41888651563501, 28.96699905395508]],
+        bounds: [[56.4575585, 28.9739513], [56.4491631, 29.0783215], [56.4188865, 28.9669991]],
         author: ['ALSHN','ANNNKV','GLVNV_V','GRV_S','LVN_B','LNTV','MTN_Y','MKHLEV_A','PPV_V','SVIR_A','TRNV_V','TRNV_VL','JANN_Y'],
         owner: 'PSKOV_RUS',
     },
@@ -206,7 +206,7 @@ let pskovMaps = [
         url: './maps/pskov/velie_2012.webp',
         link: ['./original_maps/pskov/velie_2012_omaps.gif','./original_maps/pskov/velie_2012_omaps.webp','./original_maps/pskov/velie_2012_course_omaps.webp'],
         info: 'Карта составлена в 2011-2012гг семинаром по картографии под руководством Владимира Люка, начальник учебного процесса - Виктор Алёшин.',
-        bounds: [[56.566363833527625, 28.87490272521973], [56.56279325500086, 28.928718566894535], [56.53476078825797, 28.8676929473877]],
+        bounds: [[56.5663638, 28.8749027], [56.5627933, 28.9287186], [56.5347608, 28.8676929]],
         author: ['ALFRV','KLNN_B','KRMV_H','LUK_V','OGRZKV','MLSHNKO_V','PZGRV','SRV_A','YUDNTSV','ZHCHKV_V','ILCJVA','KTKVA_E','KCHNV_D','MRKN_S','MHVA_N','SRBRKV_S','SHVDV_A'],
         owner: 'PSKOV_RUS',
     },
@@ -218,7 +218,7 @@ let pskovMaps = [
         gps: {
             'Святкин':'./original_maps/pskov/myakishevo_1982_08_25_svyatkin_omaps.webp'
         },
-        bounds: [[56.58709490257567, 28.965454101562504], [56.58480251552527, 29.025878906250004], [56.55158275943098, 28.960905075073246]],
+        bounds: [[56.5870949, 28.9654541], [56.5848025, 29.0258789], [56.5515828, 28.9609051]],
         author: ['GZTLN','KHDNKCH','SCHRV_A'],
         owner: 'PSKOV_RUS',
         results: './docs/1982/1982_ussr_champ_results_omaps.xlsx',
@@ -229,7 +229,7 @@ let pskovMaps = [
         date: '1982-08-27',
         url: './maps/pskov/lukavets_1982_08_27.webp',
         link: ['./original_maps/pskov/lukavets_1982_08_27_omaps.webp','./original_maps/pskov/lukavets_1982_08_27_m21_omaps.webp'],
-        bounds: [[56.274814539180646, 30.59576511383057], [56.27319426672027, 30.635032653808597], [56.2518860657691, 30.59155941009522]],
+        bounds: [[56.2748145, 30.5957651], [56.2731943, 30.6350327], [56.2518861, 30.5915594]],
         author: ['AFNSV_L','GLVNV_V','KRZHV','TRNV_V'],
         owner: 'PSKOV_RUS',
         results: './docs/1982/1982_ussr_champ_results_omaps.xlsx',
@@ -241,7 +241,7 @@ let pskovMaps = [
         url: './maps/other/abolenie_1996_09_05.webp',
         link: './original_maps/other/abolenie_1996_09_05_omaps.jpg',
         info: 'XVI-й Чемпионат России. Финал. <a href="./docs/1996/1996_russia_champions_omaps.jpg">Чемпионы</a>.',
-        bounds: [[56.54893338086099, 29.009914398193363], [56.545999923985995, 29.068536758422855], [56.50296555743434, 28.999614715576175]],
+        bounds: [[56.5489334, 29.0099144], [56.5459999, 29.0685368], [56.5029656, 28.9996147]],
         author: ['JANN_Y','MTVV','FMN_I','ALSHN'],
         owner: 'PSKOV_RUS',
         start: 'RUSSIA_CHAMP'
@@ -250,7 +250,7 @@ let pskovMaps = [
         name: 'Алоль',
         year: 2021,
         url: './maps/pskov/alol_2021.webp',
-        bounds: [[56.44185719100415, 29.160118103027347], [56.437349578606614, 29.204578399658207], [56.407585928007585, 29.149475097656254]],
+        bounds: [[56.4418572, 29.1601181], [56.4373496, 29.2045784], [56.4075859, 29.1494751]],
         author: 'GRV_S',
         owner: 'PSKOV_RUS',
         hidden: true
@@ -259,7 +259,7 @@ let pskovMaps = [
         name: 'Ольгинская, Седьмое небо',
         year: 2019,
         url: './maps/pskov/olginskaya_2019.webp',
-        bounds: [[57.82695408347326, 28.314256668090824], [57.82709119210755, 28.3288049697876], [57.80576453355541, 28.314213752746586]],
+        bounds: [[57.8269541, 28.3142567], [57.8270912, 28.328805], [57.8057645, 28.3142138]],
         author: 'GLTV_D',
         owner: 'KUZMIN_PSKOV',
         type: ['CITY','SPRINT']
@@ -268,7 +268,7 @@ let pskovMaps = [
         name: 'Аллея ветеранов',
         year: 2020,
         url: './maps/pskov/veterans_yalley_2020.webp',
-        bounds: [[57.81989228369527, 28.282949924468998], [57.81985799973972, 28.293442726135254], [57.81242332540373, 28.282960653305057]],
+        bounds: [[57.8198923, 28.2829499], [57.819858, 28.2934427], [57.8124233, 28.2829607]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -277,7 +277,7 @@ let pskovMaps = [
         name: 'ул Алтаева',
         year: 2022,
         url: './maps/pskov/altaeva_2022.webp',
-        bounds: [[57.83677888162935, 28.354125022888187], [57.83579652234693, 28.36307287216187], [57.83047303998698, 28.35182905197144]],
+        bounds: [[57.8367789, 28.354125], [57.8357965, 28.3630729], [57.830473, 28.3518291]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -287,7 +287,7 @@ let pskovMaps = [
         year: 2023,
         url: './maps/pskov/budnik_2023.webp',
         o_gps: 16195,
-        bounds: [[57.746014822304254, 28.41519355773926], [57.7421898565691, 28.45347404479981], [57.733095349640685, 28.410902023315433]],
+        bounds: [[57.7460148, 28.4151936], [57.7421899, 28.453474], [57.7330953, 28.410902]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
     },
@@ -295,7 +295,7 @@ let pskovMaps = [
         name: 'Варлаамовская башня',
         year: 2020,
         url: './maps/pskov/varlaamovskaya_tower_2020.webp',
-        bounds: [[57.82755964267278, 28.322710990905765], [57.82746823816256, 28.333053588867188], [57.823400502780025, 28.32275390625]],
+        bounds: [[57.8275596, 28.322711], [57.8274682, 28.3330536], [57.8234005, 28.3227539]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -307,7 +307,7 @@ let pskovMaps = [
         url: './maps/pskov/delta_velikaya_river_2021.webp',
         hidden: true,
         info: '<p class="restricted-text">Права собственности на карту оспариваются.</p>',
-        bounds: [[57.90084846095205, 28.065004348754886], [57.886341799331426, 28.234090805053714], [57.845573230640916, 28.048524856567386]],
+        bounds: [[57.9008485, 28.0650043], [57.8863418, 28.2340908], [57.8455732, 28.0485249]],
         author: 'GLTV_D',
         type: ['ROGAINE']
     },
@@ -315,7 +315,7 @@ let pskovMaps = [
         name: 'Дендрарий',
         year: 2023,
         url: './maps/pskov/dendrariy_2023.webp',
-        bounds: [[57.810668724438486, 28.326337337493896], [57.80989141464201, 28.334233760833744], [57.80320357216475, 28.32309722900391]],
+        bounds: [[57.8106687, 28.3263373], [57.8098914, 28.3342338], [57.8032036, 28.3230972]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -324,7 +324,7 @@ let pskovMaps = [
         name: 'Дом Офицеров',
         year: 2018,
         url: './maps/pskov/officers_house_2018.webp',
-        bounds: [[57.81172035220424, 28.306295871734623], [57.81184608825433, 28.325157165527347], [57.80402675815285, 28.30610275268555]],
+        bounds: [[57.8117204, 28.3062959], [57.8118461, 28.3251572], [57.8040268, 28.3061028]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -333,7 +333,7 @@ let pskovMaps = [
         name: 'Запсковье',
         year: 2018,
         url: './maps/pskov/zapskovie_2018.webp',
-        bounds: [[57.83019884792645, 28.33309650421143], [57.83029024551177, 28.359832763671875], [57.81992656761823, 28.332388401031498]],
+        bounds: [[57.8301988, 28.3330965], [57.8302902, 28.3598328], [57.8199266, 28.3323884]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -342,7 +342,7 @@ let pskovMaps = [
         name: 'Застенная ул',
         year: 2023,
         url: './maps/pskov/zastennaya_2023.webp',
-        bounds: [[57.831798272204544, 28.33459854125977], [57.831329876730486, 28.34084272384644], [57.826611309605724, 28.332753181457523]],
+        bounds: [[57.8317983, 28.3345985], [57.8313299, 28.3408427], [57.8266113, 28.3327532]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -351,7 +351,7 @@ let pskovMaps = [
         name: 'ул Труда, 12-й мкрр-он',
         year: 2023,
         url: './maps/pskov/lenta_work_2023.webp',
-        bounds: [[57.84509359423461, 28.342130184173588], [57.8438602141465, 28.35453271865845], [57.838423702318956, 28.339855670928955]],
+        bounds: [[57.8450936, 28.3421302], [57.8438602, 28.3545327], [57.8384237, 28.3398557]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -360,7 +360,7 @@ let pskovMaps = [
         name: 'Лицей №2',
         year: 2022,
         url: './maps/pskov/pskov_school_2_2022.webp',
-        bounds: [[57.81470360756143, 28.305008411407474], [57.81453787762701, 28.314170837402347], [57.80922840187132, 28.304997682571415]],
+        bounds: [[57.8147036, 28.3050084], [57.8145379, 28.3141708], [57.8092284, 28.3049977]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -369,7 +369,7 @@ let pskovMaps = [
         name: 'Лоси',
         year: 2024,
         url: './maps/pskov/elks_2024.webp',
-        bounds: [[57.515546283675, 28.173966407775882], [57.512780349699504, 28.20147514343262], [57.5018989746474, 28.169631958007816]],
+        bounds: [[57.5155463, 28.1739664], [57.5127803, 28.2014751], [57.501899, 28.169632]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
     },
@@ -377,7 +377,7 @@ let pskovMaps = [
         name: 'рынок Нива',
         year: 2023,
         url: './maps/pskov/niva_market_2023.webp',
-        bounds: [[57.82375473393874, 28.27685594558716], [57.82244063311286, 28.289086818695072], [57.81764090139258, 28.274731636047367]],
+        bounds: [[57.8237547, 28.2768559], [57.8224406, 28.2890868], [57.8176409, 28.2747316]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -386,7 +386,7 @@ let pskovMaps = [
         name: 'Никольская ул',
         year: 2023,
         url: './maps/pskov/nikolskaya_2023.webp',
-        bounds: [[57.82990180417341, 28.277263641357425], [57.82885070661897, 28.289430141448975], [57.82478312725773, 28.275589942932132]],
+        bounds: [[57.8299018, 28.2772636], [57.8288507, 28.2894301], [57.8247831, 28.2755899]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['PARK']
@@ -395,7 +395,7 @@ let pskovMaps = [
         name: 'Финский парк (Куопио)',
         year: 2022,
         url: './maps/pskov/pskov_suomi_2022.webp',
-        bounds: [[57.823960414949696, 28.344705104827884], [57.82286343599671, 28.355498313903812], [57.817812331385674, 28.34277391433716]],
+        bounds: [[57.8239604, 28.3447051], [57.8228634, 28.3554983], [57.8178123, 28.3427739]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['PARK']
@@ -404,7 +404,7 @@ let pskovMaps = [
         name: 'Овсище',
         year: 2022,
         url: './maps/pskov/ovsische_2022.webp',
-        bounds: [[57.843220667103225, 28.28391551971436], [57.84333487276521, 28.3063817024231], [57.83453997724909, 28.283851146698]],
+        bounds: [[57.8432207, 28.2839155], [57.8433349, 28.3063817], [57.83454, 28.2838511]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -413,7 +413,7 @@ let pskovMaps = [
         name: 'ул Калинина',
         year: 2022,
         url: './maps/pskov/pskov_kalinina_2022.webp',
-        bounds: [[57.81087448010988, 28.331036567687992], [57.809925708074495, 28.34131479263306], [57.802414667966836, 28.327925205230716]],
+        bounds: [[57.8108745, 28.3310366], [57.8099257, 28.3413148], [57.8024147, 28.3279252]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -422,7 +422,7 @@ let pskovMaps = [
         name: 'Паклино',
         year: 2022,
         url: './maps/pskov/paklino_2022.webp',
-        bounds: [[57.86180858037682, 28.426609039306644], [57.861762921586696, 28.44871044158936], [57.85340638784836, 28.427338600158695]],
+        bounds: [[57.8618086, 28.426609], [57.8617629, 28.4487104], [57.8534064, 28.4273386]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
     },
@@ -430,7 +430,7 @@ let pskovMaps = [
         name: 'Печорская',
         year: 2020,
         url: './maps/pskov/pechorskaya_2020.webp',
-        bounds: [[57.81693231544082, 28.277456760406498], [57.81681802607994, 28.28787446022034], [57.810885910946084, 28.276834487915043]],
+        bounds: [[57.8169323, 28.2774568], [57.816818, 28.2878745], [57.8108859, 28.2768345]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -439,7 +439,7 @@ let pskovMaps = [
         name: 'Печоры, Паломнический центр',
         year: 2022,
         url: './maps/pskov/pechory_pilgrimage_center_2022.webp',
-        bounds: [[57.82760534484099, 27.602044343948364], [57.82678269694697, 27.611099481582645], [57.82266346227778, 27.600467205047607]],
+        bounds: [[57.8276053, 27.6020443], [57.8267827, 27.6110995], [57.8226635, 27.6004672]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -448,7 +448,7 @@ let pskovMaps = [
         name: 'Пристань',
         year: 2021,
         url: './maps/pskov/pier_2022.webp',
-        bounds: [[57.75375513161307, 28.328075408935547], [57.751648466013954, 28.348760604858402], [57.7387768210356, 28.322968482971195]],
+        bounds: [[57.7537551, 28.3280754], [57.7516485, 28.3487606], [57.7387768, 28.3229685]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
     },
@@ -456,7 +456,7 @@ let pskovMaps = [
         name: 'Псков, Летний сад',
         year: 2023,
         url: './maps/pskov/pskov_summer_garden_2023.webp',
-        bounds: [[57.817749473816185, 28.345477581024173], [57.81760661529616, 28.35057377815247], [57.813514907033785, 28.34410429000855]],
+        bounds: [[57.8177495, 28.3454776], [57.8176066, 28.3505738], [57.8135149, 28.3441043]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['PARK']
@@ -465,7 +465,7 @@ let pskovMaps = [
         name: 'Петровская ул',
         year: 2023,
         url: './maps/pskov/pskov_petrovskaya_2023.webp',
-        bounds: [[57.826731280830174, 28.31551194190979], [57.826125707713246, 28.321745395660404], [57.82120647741408, 28.31364512443543]],
+        bounds: [[57.8267313, 28.3155119], [57.8261257, 28.3217454], [57.8212065, 28.3136451]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -474,7 +474,7 @@ let pskovMaps = [
         name: 'Пароменская ул',
         year: 2023,
         url: './maps/pskov/pskov_paromenskaya_2023.webp',
-        bounds: [[57.822583472479614, 28.307948112487797], [57.821297897803646, 28.32171320915222], [57.81743518432498, 28.306231498718265]],
+        bounds: [[57.8225835, 28.3079481], [57.8212979, 28.3217132], [57.8174352, 28.3062315]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -483,7 +483,7 @@ let pskovMaps = [
         name: 'ул Шестака',
         year: 2018,
         url: './maps/pskov/shestaka_2018.webp',
-        bounds: [[57.814143551617526, 28.289730548858646], [57.81417784100692, 28.304815292358402], [57.805158608216765, 28.28964471817017]],
+        bounds: [[57.8141436, 28.2897305], [57.8141778, 28.3048153], [57.8051586, 28.2896447]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -492,7 +492,7 @@ let pskovMaps = [
         name: 'Сиреневый бульвар',
         year: 2023,
         url: './maps/pskov/lilac_boulevard_2023.webp',
-        bounds: [[57.84045677967149, 28.33783864974976], [57.83944025533695, 28.349211215972904], [57.83530533266175, 28.336122035980228]],
+        bounds: [[57.8404568, 28.3378386], [57.8394403, 28.3492112], [57.8353053, 28.336122]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -501,7 +501,7 @@ let pskovMaps = [
         name: 'сквер Искусств',
         year: 2021,
         url: './maps/pskov/arts_square_2021.webp',
-        bounds: [[57.818772324284694, 28.316466808319095], [57.81829804527319, 28.321756124496464], [57.81665802036617, 28.315790891647342]],
+        bounds: [[57.8187723, 28.3164668], [57.818298, 28.3217561], [57.816658, 28.3157909]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['PARK']
@@ -510,7 +510,7 @@ let pskovMaps = [
         name: 'Солнечная ул',
         year: 2022,
         url: './maps/pskov/sunny_street_2022.webp',
-        bounds: [[57.79723491198606, 28.344898223876957], [57.797269217451756, 28.353116512298584], [57.794147286517195, 28.344823122024536]],
+        bounds: [[57.7972349, 28.3448982], [57.7972692, 28.3531165], [57.7941473, 28.3448231]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -519,7 +519,7 @@ let pskovMaps = [
         name: 'Старокоммунальная ул',
         year: 2023,
         url: './maps/pskov/starokommunalnaya_2023.webp',
-        bounds: [[57.82501165512209, 28.29938650131226], [57.823697600116326, 28.312711715698246], [57.82001799125341, 28.297712802886963]],
+        bounds: [[57.8250117, 28.2993865], [57.8236976, 28.3127117], [57.820018, 28.2977128]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -528,7 +528,7 @@ let pskovMaps = [
         name: 'сквер Пограничников',
         year: 2021,
         url: './maps/pskov/border_suards_square_2021.webp',
-        bounds: [[57.83612778602826, 28.340703248977665], [57.83575083056565, 28.34596037864685], [57.83390026473028, 28.339737653732303]],
+        bounds: [[57.8361278, 28.3407032], [57.8357508, 28.3459604], [57.8339003, 28.3397377]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['PARK']
@@ -537,7 +537,7 @@ let pskovMaps = [
         name: 'Текстильная ул',
         year: 2022,
         url: './maps/pskov/tekstilnaya_2022.webp',
-        bounds: [[57.837932548448904, 28.345477581024173], [57.83699591088177, 28.354983329772953], [57.83192393824716, 28.343406915664676]],
+        bounds: [[57.8379325, 28.3454776], [57.8369959, 28.3549833], [57.8319239, 28.3434069]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -546,7 +546,7 @@ let pskovMaps = [
         name: 'Красноармейская ул',
         year: 2023,
         url: './maps/pskov/krasnoarmeyskaya_2023.webp',
-        bounds: [[57.81564082458153, 28.317432403564453], [57.81518364859039, 28.323183059692386], [57.812291876172225, 28.31631660461426]],
+        bounds: [[57.8156408, 28.3174324], [57.8151836, 28.3231831], [57.8122919, 28.3163166]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -555,7 +555,7 @@ let pskovMaps = [
         name: 'Черёха, парк Выпускников',
         year: 2021,
         url: './maps/pskov/cherecha_2021.webp',
-        bounds: [[57.767605689598035, 28.357644081115726], [57.76261552183628, 28.381934165954593], [57.74867144660507, 28.344984054565433]],
+        bounds: [[57.7676057, 28.3576441], [57.7626155, 28.3819342], [57.7486714, 28.3449841]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
     },
@@ -563,7 +563,7 @@ let pskovMaps = [
         name: 'Щиглицы',
         year: 2020,
         url: './maps/pskov/schiglitsy_2020.webp',
-        bounds: [[57.85607224147311, 28.150148391723636], [57.85542720291659, 28.158130645751953], [57.849518568703424, 28.148195743560795]],
+        bounds: [[57.8560722, 28.1501484], [57.8554272, 28.1581306], [57.8495186, 28.1481957]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -572,7 +572,7 @@ let pskovMaps = [
         name: 'мост Александра Невского',
         year: 2018,
         url: './maps/pskov/nevskogo_bridge_2018.webp',
-        bounds: [[57.82867932911119, 28.27814340591431], [57.82871360467794, 28.310286998748783], [57.82161786734146, 28.278443813323978]],
+        bounds: [[57.8286793, 28.2781434], [57.8287136, 28.310287], [57.8216179, 28.2784438]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['CITY','SPRINT']
@@ -581,7 +581,7 @@ let pskovMaps = [
         name: 'Янино',
         year: 2023,
         url: './maps/pskov/yanino_2023.webp',
-        bounds: [[58.10620754956042, 28.250827789306644], [58.10239808625343, 28.287305831909183], [58.09314483802032, 28.24323177337647]],
+        bounds: [[58.1062075, 28.2508278], [58.1023981, 28.2873058], [58.0931448, 28.2432318]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
     },
@@ -590,7 +590,7 @@ let pskovMaps = [
         year: 2024,
         url: './maps/pskov/zvanskoe_2024.webp',
         link: './original_maps/pskov/zvanskoe_2024_omaps.gif',
-        bounds: [[57.89675479951356, 28.62500667572022], [57.8956486327105, 28.638288974761966], [57.890493674602496, 28.623161315917972]],
+        bounds: [[57.8967548, 28.6250067], [57.8956486, 28.638289], [57.8904937, 28.6231613]],
         author: 'GLTV_D',
         owner: 'GLTV_D',
         type: ['SPECIAL']
@@ -601,7 +601,7 @@ let pskovMaps = [
         year: 2022,
         url: './maps/pskov/murovitsi_2022.webp',
         link: './original_maps/pskov/murovitsi_2022_omaps.gif',
-        bounds: [[57.89202199147954, 28.14225196838379], [57.88805279501551, 28.17456722259522], [57.87052834737465, 28.13448429107666]],
+        bounds: [[57.892022, 28.142252], [57.8880528, 28.1745672], [57.8705283, 28.1344843]],
         owner: 'O_PSKOV',
     },
 
@@ -613,7 +613,7 @@ let pskovMaps = [
         info: '2007, 2008, 2009гг.',
         url: './maps/pskov/velikie_luki_ra_2009.webp',
         link: ['./original_maps/pskov/velikie_luki_ra_2007_omaps.webp','./original_maps/pskov/velikie_luki_ra_2008_omaps.webp','./original_maps/pskov/velikie_luki_ra_2009_omaps.webp'],
-        bounds: [[56.351020739393746, 30.501201152801517], [56.35011710628908, 30.52008390426636], [56.33703580840679, 30.49763917922974]],
+        bounds: [[56.3510207, 30.5012012], [56.3501171, 30.5200839], [56.3370358, 30.4976392]],
         author: 'LSHV_A',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -624,7 +624,7 @@ let pskovMaps = [
         info: '2008, 2009гг.',
         url: './maps/pskov/pushgory_svyatogorets_ra_2009.webp',
         link: ['./original_maps/pskov/pushgory_svyatogorets_ra_2008_omaps.webp','./original_maps/pskov/pushgory_svyatogorets_ra_2009_omaps.webp'],
-        bounds: [[57.03816149375765, 28.895545005798343], [57.03778790156969, 28.93519878387451], [57.022163715665, 28.8955020904541]],
+        bounds: [[57.0381615, 28.895545], [57.0377879, 28.9351988], [57.0221637, 28.8955021]],
         author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -635,7 +635,7 @@ let pskovMaps = [
         info: '2006, 2007, 2008, 2009, 2010гг.',
         url: './maps/pskov/pskov_carbuilder_ra_2010.webp',
         link: ['./original_maps/pskov/pskov_carbuilder_ra_2006_omaps.webp','./original_maps/pskov/pskov_carbuilder_ra_2007_omaps.webp','./original_maps/pskov/pskov_carbuilder_ra_2008_omaps.webp','./original_maps/pskov/pskov_carbuilder_ra_2009_omaps.webp','./original_maps/pskov/pskov_carbuilder_ra_2010_omaps.webp'],
-        bounds: [[57.81085161842657, 28.3293628692627], [57.81681802607994, 28.33470582962036], [57.80674771150545, 28.345177173614502]],
+        bounds: [[57.8108516, 28.3293629], [57.816818, 28.3347058], [57.8067477, 28.3451772]],
         author: 'LSHV_A',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -645,7 +645,7 @@ let pskovMaps = [
         year: 2010,
         url: './maps/pskov/pustoshka_ra_2010.webp',
         link: './original_maps/pskov/pustoshka_ra_2010_omaps.webp',
-        bounds: [[56.33876041798775, 29.359974861145023], [56.336667088658274, 29.375467300415043], [56.328625733304044, 29.355254173278812]],
+        bounds: [[56.3387604, 29.3599749], [56.3366671, 29.3754673], [56.3286257, 29.3552542]],
         author: 'LSHV_A',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -655,7 +655,7 @@ let pskovMaps = [
         year: 2011,
         url: './maps/pskov/green_zone_ra_2011.webp',
         link: './original_maps/pskov/green_zone_ra_2011_omaps.webp',
-        bounds: [[56.267832581785115, 28.468065261840824], [56.26695081053323, 28.484845161437992], [56.249931028168206, 28.464846611022953]],
+        bounds: [[56.2678326, 28.4680653], [56.2669508, 28.4848452], [56.249931, 28.4648466]],
         author: ['LSHV_A','OZLNSH'],
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -665,7 +665,7 @@ let pskovMaps = [
         year: 2012,
         url: './maps/pskov/novosokolniki_ra_2012.webp',
         link: './original_maps/pskov/novosokolniki_ra_2012_omaps.webp',
-        bounds: [[56.35790429400382, 30.164723396301273], [56.35607355621482, 30.18330574035645], [56.33248008546511, 30.157728195190433]],
+        bounds: [[56.3579043, 30.1647234], [56.3560736, 30.1833057], [56.3324801, 30.1577282]],
         author: 'MKHLV_A',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -675,7 +675,7 @@ let pskovMaps = [
         year: 2013,
         url: './maps/pskov/opochka_ra_2013.webp',
         link: './original_maps/pskov/opochka_ra_2013_omaps.webp',
-        bounds: [[56.66087322038756, 28.596897125244144], [56.65877400861691, 28.62393379211426], [56.64166933255208, 28.592133522033695]],
+        bounds: [[56.6608732, 28.5968971], [56.658774, 28.6239338], [56.6416693, 28.5921335]],
         author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -685,7 +685,7 @@ let pskovMaps = [
         year: 2014,
         url: './maps/pskov/strugi_krasny_ra_2014.webp',
         link: './original_maps/pskov/strugi_krasny_ra_2014_omaps.webp',
-        bounds: [[58.29830487734621, 29.09866333007813], [58.2972223706927, 29.12282466888428], [58.27482058530472, 29.09462928771973]],
+        bounds: [[58.2983049, 29.0986633], [58.2972224, 29.1228247], [58.2748206, 29.0946293]],
         author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -695,7 +695,7 @@ let pskovMaps = [
         year: 2015,
         url: './maps/pskov/senchitsky_forest_ra_2015.webp',
         link: './original_maps/pskov/senchitsky_forest_ra_2015_omaps.webp',
-        bounds: [[56.21639375083978, 30.62572002410889], [56.21503351216082, 30.650053024291996], [56.19347802793939, 30.621299743652347]],
+        bounds: [[56.2163938, 30.62572], [56.2150335, 30.650053], [56.193478, 30.6212997]],
         author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -705,7 +705,7 @@ let pskovMaps = [
         year: 2016,
         url: './maps/pskov/palkino_ra_2016.webp',
         link: './original_maps/pskov/palkino_ra_2016_omaps.webp',
-        bounds: [[57.54742005411061, 27.999923229217533], [57.54595771921061, 28.015866279602054], [57.53636472898291, 27.996940612792972]],
+        bounds: [[57.5474201, 27.9999232], [57.5459577, 28.0158663], [57.5363647, 27.9969406]],
         author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -715,7 +715,7 @@ let pskovMaps = [
         year: 2017,
         url: './maps/pskov/gdov_ra_2017.webp',
         link: './original_maps/pskov/gdov_ra_2017_omaps.webp',
-        bounds: [[58.74343634749805, 27.81272649765015], [58.74343634749805, 27.82798290252686], [58.73488456250113, 27.812404632568363]],
+        bounds: [[58.7434363, 27.8127265], [58.7434363, 27.8279829], [58.7348846, 27.8124046]],
         author: 'LSHV_A',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -725,7 +725,7 @@ let pskovMaps = [
         year: 2018,
         url: './maps/pskov/idritsa_ra_2018.webp',
         link: './original_maps/pskov/idritsa_ra_2018_omaps.webp',
-        bounds: [[56.3476557864958, 28.838896751403812], [56.34411215830044, 28.87988090515137], [56.33317002101171, 28.833789825439457]],
+        bounds: [[56.3476558, 28.8388968], [56.3441122, 28.8798809], [56.33317, 28.8337898]],
         author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -735,7 +735,7 @@ let pskovMaps = [
         date: '2019-05-18',
         url: './maps/pskov/kunia_ra_2019.webp',
         link: './original_maps/pskov/kunia_ra_2019_omaps.webp',
-        bounds: [[56.294216733187405, 30.964407920837406], [56.293025967473476, 30.987453460693363], [56.28558284122155, 30.963120460510257]],
+        bounds: [[56.2942167, 30.9644079], [56.293026, 30.9874535], [56.2855828, 30.9631205]],
         author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -745,7 +745,7 @@ let pskovMaps = [
         year: 2021,
         url: './maps/pskov/dno_loco_ra_2021.webp',
         link: './original_maps/pskov/dno_loco_ra_2021_omaps.webp',
-        bounds: [[57.821446455442235, 29.953773021698], [57.819058031521415, 29.978642463684086], [57.80418681991372, 29.949502944946293]],
+        bounds: [[57.8214465, 29.953773], [57.819058, 29.9786425], [57.8041868, 29.9495029]],
         author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'
@@ -755,7 +755,7 @@ let pskovMaps = [
         year: 2022,
         url: './maps/pskov/zalakhtovie_ra_2022.webp',
         link: './original_maps/pskov/zalakhtovie_ra_2022_omaps.webp',
-        bounds: [[58.49566736161886, 27.872014045715336], [58.49333498300673, 27.90008068084717], [58.470204656591434, 27.863688468933105]],
+        bounds: [[58.4956674, 27.872014], [58.493335, 27.9000807], [58.4702047, 27.8636885]],
         author: 'GRV_S',
         owner: 'PSKOV_RUS',
         start: 'RA_PSKOV'

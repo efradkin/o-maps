@@ -99,7 +99,7 @@ let commonEvents2026 = [
         fmt: 'sprint, sprint relay knock-out sprint',
         res: 'https://liveresults.ch/wc26r1/wc26r1-kos',
         gps: 'https://www.tulospalvelu.fi/gps/',
-        coord: [46.17003715000422, 8.795825251205088],
+        coord: [46.1700372, 8.7958253],
         owner: 'IOF'
     },
     {

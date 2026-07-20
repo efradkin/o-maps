@@ -8,14 +8,14 @@ let vsevolozhskMaps = [
         info: 'VII Зимняя спартакиада.',
         url: './maps/forest/vsevolozhsk/voeykovo_1977.webp',
         link: './original_maps/forest/vsevolozhsk/voeykovo_1977_M_omaps.jpg',
-        bounds: [[59.97172281464221, 30.668807029724125], [59.96910263754175, 30.721721649169925], [59.94877849007448, 30.663871765136722]]
+        bounds: [[59.9717228, 30.668807], [59.9691026, 30.7217216], [59.9487785, 30.6638718]]
     },
     {
         name: 'Всеволожск',
         year: 1987,
         url: './maps/forest/vsevolozhsk/vsevolozhsk_1987.webp',
         link: ['./original_maps/forest/vsevolozhsk/vsevolozhsk_1987_omaps.jpg','./original_maps/forest/vsevolozhsk/vsevolozhsk_1987_2_omaps.jpg'],
-        bounds: [[60.06612537100185, 30.623531341552738], [60.06355549916492, 30.683269500732425], [60.03518795591195, 30.62052726745606]],
+        bounds: [[60.0661254, 30.6235313], [60.0635555, 30.6832695], [60.035188, 30.6205273]],
         author: ['VSLVSKY','MDVDKN'],
         qtty: 10
     },
@@ -25,7 +25,7 @@ let vsevolozhskMaps = [
         info: 'Первая карта А.М.Василевского.',
         url: './maps/forest/vsevolozhsk/vsevolozhsk_1981.webp',
         link: './original_maps/forest/vsevolozhsk/vsevolozhsk_1981_omaps.webp',
-        bounds: [[60.05933619217652, 30.62160015106201], [60.057472671660285, 30.67708969116211], [60.034780691386814, 30.6194543838501]],
+        bounds: [[60.0593362, 30.6216002], [60.0574727, 30.6770897], [60.0347807, 30.6194544]],
         author: 'VSLVSKY',
         editor: 'CHGRVSKY_V'
     },
@@ -36,14 +36,14 @@ let vsevolozhskMaps = [
         o_site: '10RA_LO',
         url: './maps/forest/vsevolozhsk/vsevolozhsk_2010.webp',
         link: './original_maps/forest/vsevolozhsk/vsevolozhsk_2010_omaps.jpg',
-        bounds: [[60.05582326112308, 30.640633106231693], [60.05360606644188, 30.675072669982914], [60.042882168248674, 30.63769340515137]],
+        bounds: [[60.0558233, 30.6406331], [60.0536061, 30.6750727], [60.0428822, 30.6376934]],
     },
     {
         name: 'Невская Дубровка',
         year: 2003,
         url: './maps/forest/vsevolozhsk/nevskaya_dubrovka.webp',
         link: './original_maps/forest/vsevolozhsk/nevskaya_dubrovka_omaps.jpg',
-        bounds: [[59.862466389665045, 30.91333866119385], [59.86143212605905, 30.930547714233402], [59.84972977927792, 30.909948348999027]],
+        bounds: [[59.8624664, 30.9133387], [59.8614321, 30.9305477], [59.8497298, 30.9099483]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -51,7 +51,7 @@ let vsevolozhskMaps = [
         name: 'Невская Дубровка-2',
         url: './maps/forest/vsevolozhsk/nevskaya_dubrovka_east.webp',
         link: './original_maps/forest/vsevolozhsk/nevskaya_dubrovka_east_omaps.jpg',
-        bounds: [[59.85246716099846, 30.934989452362064], [59.851766671366114, 30.948250293731693], [59.84371537045213, 30.93331575393677]],
+        bounds: [[59.8524672, 30.9349895], [59.8517667, 30.9482503], [59.8437154, 30.9333158]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -60,7 +60,7 @@ let vsevolozhskMaps = [
         year: 1991,
         url: './maps/forest/vsevolozhsk/berngardovka_1991.webp',
         link: './original_maps/forest/vsevolozhsk/berngardovka_1991_omaps.jpg',
-        bounds: [[60.01376760630226, 30.604176521301273], [60.01185861324827, 30.651383399963382], [59.988705983718134, 30.60121536254883]],
+        bounds: [[60.0137676, 30.6041765], [60.0118586, 30.6513834], [59.988706, 30.6012154]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -69,7 +69,7 @@ let vsevolozhskMaps = [
         year: 2021,
         url: './maps/forest/vsevolozhsk/berngardovka_2021.webp',
         link: './original_maps/forest/vsevolozhsk/berngardovka_2021_omaps.jpg',
-        bounds: [[60.005165542352074, 30.604562759399418], [60.00211888840598, 30.635848045349125], [59.99190411384305, 30.599327087402347]],
+        bounds: [[60.0051655, 30.6045628], [60.0021189, 30.635848], [59.9919041, 30.5993271]],
         author: ['KUZNTSV_S','ILVS','DBRTSV_V'],
         owner: 'SHEIN'
     },
@@ -78,7 +78,7 @@ let vsevolozhskMaps = [
         year: 1990,
         url: './maps/forest/vsevolozhsk/koltushi_1990.webp',
         link: ['./original_maps/forest/vsevolozhsk/koltushi_1990_omaps.jpg','./original_maps/forest/vsevolozhsk/voeykovo_1988_omaps.jpg','./original_maps/forest/vsevolozhsk/voeykovo_1989_omaps.jpg'],
-        bounds: [[59.9788091403029, 30.66172599792481], [59.97408509169904, 30.740690231323242], [59.92629139661258, 30.648250579833988]],
+        bounds: [[59.9788091, 30.661726], [59.9740851, 30.7406902], [59.9262914, 30.6482506]],
         author: 'VSLVSKY',
     },
     {
@@ -87,7 +87,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/golubaya_dacha_2005.webp',
         link: './original_maps/forest/vsevolozhsk/golubaya_dacha_2005_omaps.jpg',
         photo: 'tracks/koltushi_kamy/pic_1.jpg',
-        bounds: [[59.96796429929518, 30.610613822937015], [59.965902303990916, 30.660524368286136], [59.947446028167285, 30.608124732971195]],
+        bounds: [[59.9679643, 30.6106138], [59.9659023, 30.6605244], [59.947446, 30.6081247]],
         author: ['RYLOV_V','DRBSHV'],
         qtty: 2
     },
@@ -96,7 +96,7 @@ let vsevolozhskMaps = [
         year: 1998,
         url: './maps/forest/vsevolozhsk/golubaya_dacha_1998.webp',
         link: ['./original_maps/forest/vsevolozhsk/golubaya_dacha_1998_omaps.jpg','./original_maps/forest/vsevolozhsk/golubaya_dacha_1999_omaps.webp'],
-        bounds: [[59.96506458173234, 30.610570907592777], [59.96341055506748, 30.6599235534668], [59.947145142259515, 30.607910156250004]],
+        bounds: [[59.9650646, 30.6105709], [59.9634106, 30.6599236], [59.9471451, 30.6079102]],
         author: 'RYLOV_V',
         editor: 'FDRV_L'
     },
@@ -109,7 +109,7 @@ let vsevolozhskMaps = [
         results: './docs/1985/1985_04_21_gdacha_omaps.pdf',
         url: './maps/forest/vsevolozhsk/golubaya_dacha_1982.webp',
         link: ['./original_maps/forest/vsevolozhsk/gdacha_1982_omaps.webp','./original_maps/starts/other/gdacha_1985_04_21_M_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_M_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_MW13_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MB_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WB_omaps.jpg'],
-        bounds: [[59.967685078278585, 30.609111785888675], [59.96579490488528, 30.659837722778324], [59.94538275567055, 30.607652664184574]],
+        bounds: [[59.9676851, 30.6091118], [59.9657949, 30.6598377], [59.9453828, 30.6076527]],
         author: ['RYLOV_V','FDRV_L','GRNV_A'],
         planner: 'RYLOV_V'
     },
@@ -117,7 +117,7 @@ let vsevolozhskMaps = [
         name: 'Красная Горка (Орово)',
         year: 2016,
         url: './maps/forest/vsevolozhsk/krasnaja_gorka_2016.webp',
-        bounds: [[59.97560974468024, 30.66666126251221], [59.97350527566231, 30.694985389709476], [59.95778194964003, 30.66271305084229]],
+        bounds: [[59.9756097, 30.6666613], [59.9735053, 30.6949854], [59.9577819, 30.6627131]],
         author: ['MKHLV_A','USNKO'],
         owner: 'WN'
     },
@@ -127,7 +127,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/orovo_2019.webp',
         o_gps: 21855,
         photo: 'tracks/hare_trail/pic_1.jpg',
-        bounds: [[59.968071691367136, 30.622801780700687], [59.966117101157565, 30.64923763275147], [59.95299043672693, 30.61769485473633]],
+        bounds: [[59.9680717, 30.6228018], [59.9661171, 30.6492376], [59.9529904, 30.6176949]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
@@ -137,7 +137,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/orovo_2007.webp',
         link: './original_maps/forest/vsevolozhsk/orovo_2007_omaps.gif',
         photo: 'tracks/hare_trail/pic_3.jpg',
-        bounds: [[59.96566602549886, 30.621128082275394], [59.964742375222585, 30.64292907714844], [59.95511769613181, 30.61971187591553]],
+        bounds: [[59.965666, 30.6211281], [59.9647424, 30.6429291], [59.9551177, 30.6197119]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -146,7 +146,7 @@ let vsevolozhskMaps = [
         year: 2016,
         url: './maps/forest/vsevolozhsk/orovo_north_2016.webp',
         link: './original_maps/forest/vsevolozhsk/orovo_north_2016_omaps.jpg',
-        bounds: [[59.98014034135802, 30.637221336364746], [59.97906679629742, 30.656833648681644], [59.96886638187768, 30.634346008300785]],
+        bounds: [[59.9801403, 30.6372213], [59.9790668, 30.6568336], [59.9688664, 30.634346]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -154,14 +154,14 @@ let vsevolozhskMaps = [
         name: 'Воейково',
         year: 2009,
         url: './maps/forest/vsevolozhsk/voejkovo_2009.webp',
-        bounds: [[59.97047718252518, 30.662584304809574], [59.96532234468369, 30.71640014648438], [59.95133580723119, 30.65614700317383]],
+        bounds: [[59.9704772, 30.6625843], [59.9653223, 30.7164001], [59.9513358, 30.656147]],
         author: 'GRV_S'
     },
     {
         name: 'Воейково',
         year: 2022,
         url: './maps/forest/vsevolozhsk/voejkovo_2022.webp',
-        bounds: [[59.970691950025774, 30.683226585388187], [59.968458299943094, 30.709447860717777], [59.95417226436477, 30.678334236145023]],
+        bounds: [[59.970692, 30.6832266], [59.9684583, 30.7094479], [59.9541723, 30.6783342]],
         author: 'MKHLV_A',
         owner: 'WN'
     },
@@ -169,7 +169,7 @@ let vsevolozhskMaps = [
         name: 'Всеволожск, Ждановские оз',
         year: 2014,
         url: './maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_2014.webp',
-        bounds: [[59.99598181802446, 30.684041976928714], [59.99411472111232, 30.707473754882816], [59.97953916041285, 30.678591728210453]],
+        bounds: [[59.9959818, 30.684042], [59.9941147, 30.7074738], [59.9795392, 30.6785917]],
         o_site: '231028TT',
         author: ['MKHLV_A','SLBDNK']
     },
@@ -178,7 +178,7 @@ let vsevolozhskMaps = [
         year: 1983,
         url: './maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_1983.webp',
         link: ['./original_maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_1983_omaps.jpg','./original_maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_1983_omaps.webp'],
-        bounds: [[60.004521906449504, 30.664987564086918], [60.00048816958782, 30.71760177612305], [59.96716958714084, 30.66043853759766]],
+        bounds: [[60.0045219, 30.6649876], [60.0004882, 30.7176018], [59.9671696, 30.6604385]],
         author: ['VSLVSKY','DRBSHV','PTRV_A'],
         areas: [80,10,10]
     },
@@ -187,7 +187,7 @@ let vsevolozhskMaps = [
         year: 1989,
         url: './maps/forest/vsevolozhsk/melnichny_ruchej_1989.webp',
         link: './original_maps/forest/vsevolozhsk/melnichny_ruchej_1989_omaps.jpg',
-        bounds: [[59.996904597131945, 30.662541389465336], [59.993385022420476, 30.726742744445804], [59.955869724868116, 30.65623283386231]],
+        bounds: [[59.9969046, 30.6625414], [59.993385, 30.7267427], [59.9558697, 30.6562328]],
         author: 'VSLVSKY',
         qtty: 2
     },
@@ -196,7 +196,7 @@ let vsevolozhskMaps = [
         year: 1986,
         url: './maps/forest/vsevolozhsk/scheglovo_1986.webp',
         link: './original_maps/forest/vsevolozhsk/scheglovo_1986_omaps.jpg',
-        bounds: [[60.03548804234906, 30.756418704986576], [60.03489858426572, 30.77051639556885], [60.02720251191258, 30.755131244659427]],
+        bounds: [[60.035488, 30.7564187], [60.0348986, 30.7705164], [60.0272025, 30.7551312]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -205,7 +205,7 @@ let vsevolozhskMaps = [
         year: 1987,
         url: './maps/forest/vsevolozhsk/scheglovo_1987.webp',
         link: './original_maps/forest/vsevolozhsk/scheglovo_1987_omaps.jpg',
-        bounds: [[60.02028738059051, 30.726270675659183], [60.01906502085821, 30.755453109741214], [60.00548735560624, 30.723438262939457]],
+        bounds: [[60.0202874, 30.7262707], [60.019065, 30.7554531], [60.0054874, 30.7234383]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -214,7 +214,7 @@ let vsevolozhskMaps = [
         year: 1992,
         url: './maps/forest/vsevolozhsk/morozova_1992.webp',
         link: ['./original_maps/forest/vsevolozhsk/morozova_1992_omaps.webp','./original_maps/forest/vsevolozhsk/morozova_1992_omaps.jpg'],
-        bounds: [[59.99332063646918, 31.04075431823731], [59.991303146530086, 31.077747344970707], [59.96656817067386, 31.034574508666996]],
+        bounds: [[59.9933206, 31.0407543], [59.9913031, 31.0777473], [59.9665682, 31.0345745]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -223,7 +223,7 @@ let vsevolozhskMaps = [
         year: 2013,
         url: './maps/forest/vsevolozhsk/morozova_2013.webp',
         link: './original_maps/forest/vsevolozhsk/morozova_2013_omaps.jpg',
-        bounds: [[59.98602275023326, 31.040325164794925], [59.98361838824824, 31.072340011596683], [59.96656817067386, 31.03620529174805]],
+        bounds: [[59.9860228, 31.0403252], [59.9836184, 31.07234], [59.9665682, 31.0362053]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -232,7 +232,7 @@ let vsevolozhskMaps = [
         year: 2021,
         url: './maps/forest/vsevolozhsk/morozova_2021.webp',
         link: './original_maps/forest/vsevolozhsk/morozova_2021_omaps.jpg',
-        bounds: [[59.98432683448194, 31.039381027221683], [59.9807629815427, 31.07289791107178], [59.96895229322324, 31.03272914886475]],
+        bounds: [[59.9843268, 31.039381], [59.980763, 31.0728979], [59.9689523, 31.0327291]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -240,7 +240,7 @@ let vsevolozhskMaps = [
         name: 'пл Теплобетонная',
         url: './maps/forest/vsevolozhsk/teplobetonnaya.webp',
         link: './original_maps/forest/vsevolozhsk/teplobetonnaya_omaps.jpg',
-        bounds: [[59.88131451786498, 30.955009460449222], [59.879936274048134, 30.971488952636722], [59.860290089303376, 30.946426391601566]],
+        bounds: [[59.8813145, 30.9550095], [59.8799363, 30.971489], [59.8602901, 30.9464264]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -248,7 +248,7 @@ let vsevolozhskMaps = [
         name: 'Невдубстрой',
         year: 2025,
         url: './maps/forest/vsevolozhsk/nevdubstroy_2025.webp',
-        bounds: [[59.8626495371604, 30.97228288650513], [59.858048997565795, 31.013116836547855], [59.84624845287586, 30.965373516082767]],
+        bounds: [[59.8626495, 30.9722829], [59.858049, 31.0131168], [59.8462485, 30.9653735]],
         author: ['BYMKV','KZMV'],
         owner: 'NKLSK'
     },
@@ -257,7 +257,7 @@ let vsevolozhskMaps = [
         year: 1991,
         url: './maps/forest/vsevolozhsk/prijutino_1991.webp',
         link: './original_maps/forest/vsevolozhsk/prijutino_1991_omaps.jpg',
-        bounds: [[60.02276412881663, 30.590658187866214], [60.02107009597623, 30.610291957855228], [60.01344587362284, 30.588276386260986]],
+        bounds: [[60.0227641, 30.5906582], [60.0210701, 30.610292], [60.0134459, 30.5882764]],
         author: ['RYLOV_V','PKHMV'],
         owner: 'RYLOV_V'
     },
@@ -265,7 +265,7 @@ let vsevolozhskMaps = [
         name: 'Приютино',
         url: './maps/forest/vsevolozhsk/prijutino_2016.webp',
         link: './original_maps/forest/vsevolozhsk/prijutino_2016_omaps.jpg',
-        bounds: [[60.011751363177375, 30.580916404724125], [60.012158911595996, 30.59722423553467], [60.00196869398139, 30.582718849182132]],
+        bounds: [[60.0117514, 30.5809164], [60.0121589, 30.5972242], [60.0019687, 30.5827188]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -273,7 +273,7 @@ let vsevolozhskMaps = [
         name: 'Проба',
         url: './maps/forest/vsevolozhsk/proba.webp',
         link: './original_maps/forest/vsevolozhsk/proba_omaps.jpg',
-        bounds: [[60.11540672402396, 30.75081825256348], [60.11339668245151, 30.78854084014893], [60.098531397053165, 30.74687004089356]],
+        bounds: [[60.1154067, 30.7508183], [60.1133967, 30.7885408], [60.0985314, 30.74687]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -281,7 +281,7 @@ let vsevolozhskMaps = [
         name: 'Рахья',
         url: './maps/forest/vsevolozhsk/rakhja.webp',
         link: './original_maps/forest/vsevolozhsk/rakhja_omaps.jpg',
-        bounds: [[60.0987881207714, 30.846390724182132], [60.09572869968227, 30.89110851287842], [60.08776859518927, 30.843129158020023]],
+        bounds: [[60.0987881, 30.8463907], [60.0957287, 30.8911085], [60.0877686, 30.8431292]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -290,7 +290,7 @@ let vsevolozhskMaps = [
         year: 2007,
         url: './maps/forest/vsevolozhsk/rakhja_south_2007.webp',
         link: './original_maps/forest/vsevolozhsk/rakhja_south_2007_omaps.jpg',
-        bounds: [[60.09157770227037, 30.848064422607425], [60.089181012087195, 30.879821777343754], [60.082332365483836, 30.84544658660889]],
+        bounds: [[60.0915777, 30.8480644], [60.089181, 30.8798218], [60.0823324, 30.8454466]],
         author: ['RYLOV_V','PKHMV']
     },
     {
@@ -298,7 +298,7 @@ let vsevolozhskMaps = [
         year: 2004,
         url: './maps/forest/vsevolozhsk/razmetelevo.webp',
         link: ['./original_maps/forest/vsevolozhsk/razmetelevo_omaps.jpg','./original_maps/forest/vsevolozhsk/razmetelevo_2004_omaps.jpg'],
-        bounds: [[59.911234154508655, 30.686488151550297], [59.910093827964644, 30.704727172851566], [59.897978129762215, 30.68292617797852]],
+        bounds: [[59.9112342, 30.6864882], [59.9100938, 30.7047272], [59.8979781, 30.6829262]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -307,14 +307,14 @@ let vsevolozhskMaps = [
         year: 2007,
         url: './maps/forest/vsevolozhsk/ozertso_2007.webp',
         link: './original_maps/forest/vsevolozhsk/ozertso_2007_omaps.jpg',
-        bounds: [[60.147379809848296, 31.04049682617188], [60.14663213131049, 31.056118011474613], [60.136056000054836, 31.03770732879639]],
+        bounds: [[60.1473798, 31.0404968], [60.1466321, 31.056118], [60.136056, 31.0377073]],
         author: 'PKHMV',
     },
     {
         name: 'Коккорево, оз Шимполадово',
         url: './maps/forest/vsevolozhsk/kokkorevo_1990.webp',
         link: './original_maps/forest/vsevolozhsk/kokkorevo_1990_omaps.jpg',
-        bounds: [[60.05753693274016, 31.063027381896976], [60.056123160079245, 31.095986366271976], [60.042646439057954, 31.06169700622559]],
+        bounds: [[60.0575369, 31.0630274], [60.0561232, 31.0959864], [60.0426464, 31.061697]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -324,7 +324,7 @@ let vsevolozhskMaps = [
         author: 'RYLOV_V',
         url: './maps/forest/vsevolozhsk/vsevolozhsk_juzhny_2016.webp',
         link: './original_maps/forest/vsevolozhsk/vsevolozhsk_juzhny_2016_omaps.jpg',
-        bounds: [[59.996689999636274, 30.659859180450443], [59.9952306997502, 30.676853656768802], [59.99142119454219, 30.658121109008793]],
+        bounds: [[59.99669, 30.6598592], [59.9952307, 30.6768537], [59.9914212, 30.6581211]],
         owner: 'RYLOV_V'
     },
 ];

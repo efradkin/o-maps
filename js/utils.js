@@ -650,6 +650,10 @@ function buildOneLink(link, content, title, isDownload) {
         return '';
 }
 
+function fixCoord(coord) {
+    return coord.toFixed(7);
+}
+
 const O_GPS_CENTER_PREFIX = 'https://viewer.o-gps-center.ru/viewer/event/';
 
 function getGPS(m) {

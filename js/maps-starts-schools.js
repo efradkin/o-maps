@@ -8,7 +8,7 @@ let schoolMaps = [
         o_site: '150514',
         url: './maps/parks/lavra_2015.webp',
         link: './original_maps/parks/lavra_2015_omaps.gif',
-        bounds: [[59.92140929654905, 30.379428863525394], [59.92140929654905, 30.387110710144047], [59.91788169358888, 30.37955760955811]],
+        bounds: [[59.9214093, 30.3794289], [59.9214093, 30.3871107], [59.9178817, 30.3795576]],
         type: ['PARK']
     },
     {
@@ -20,7 +20,7 @@ let schoolMaps = [
         url: './maps/city/school_150_2016.webp',
         link: ['./original_maps/schools/school_150_2016_omaps.gif','./original_maps/schools/school_150_2016_omaps.ocd'],
         publish: 'https://t.me/dlitelnyy/449',
-        bounds: [[60.02993600195089, 30.365223884582523], [60.02766346922151, 30.38402080535889], [60.0226247496459, 30.361919403076175]],
+        bounds: [[60.029936, 30.3652239], [60.0276635, 30.3840208], [60.0226247, 30.3619194]],
         author: 'SHRNN',
         type: ['SPRINT','CITY']
     },
@@ -31,7 +31,7 @@ let schoolMaps = [
         o_site: '190515',
         url: './maps/parks/pavlovsk_sad_miranda_2020.webp',
         link: ['./original_maps/parks/school_638_2019_omaps.gif','./original_maps/parks/pavlovsk_sad_miranda_2020_omaps.jpg'],
-        bounds: [[59.690565139533554, 30.430455207824707], [59.690597626634556, 30.443093776702884], [59.68518267475988, 30.430562496185306]],
+        bounds: [[59.6905651, 30.4304552], [59.6905976, 30.4430938], [59.6851827, 30.4305625]],
         author: 'SHRNN',
         owner: 'EGRV_EGR',
         type: ['PARK']
@@ -44,7 +44,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_606_2015.webp',
         link: ['./original_maps/schools/school_606_2015_omaps.gif','./original_maps/schools/school_606_2015_omaps.ocd'],
-        bounds: [[59.7239127943663, 30.397882461547855], [59.72395606735925, 30.402302742004398], [59.72165170260266, 30.39775371551514]],
+        bounds: [[59.7239128, 30.3978825], [59.7239561, 30.4023027], [59.7216517, 30.3977537]],
         type: ['CITY']
     },
     {
@@ -54,7 +54,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_98_2015.webp',
         link: ['./original_maps/schools/school_98_2015_omaps.gif','./original_maps/schools/school_98_2015_omaps.ocd'],
-        bounds: [[60.01983704279047, 30.40777444839478], [60.019761985893915, 30.412602424621586], [60.01695259090573, 30.407602787017826]],
+        bounds: [[60.019837, 30.4077744], [60.019762, 30.4126024], [60.0169526, 30.4076028]],
         type: ['CITY']
     },
     {
@@ -64,7 +64,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_141_2015.webp',
         link: ['./original_maps/schools/school_141_sosh_2015_omaps.gif','./original_maps/schools/school_141_2015_omaps.gif','./original_maps/schools/school_141_2015_omaps.ocd','./original_maps/schools/school_141_yard_2015_omaps.ocd'],
-        bounds: [[59.949981958019876, 30.492768287658695], [59.95001419316757, 30.50508499145508], [59.94562992529188, 30.492789745330814]],
+        bounds: [[59.949982, 30.4927683], [59.9500142, 30.505085], [59.9456299, 30.4927897]],
         author: ['DRBSHV','VSLVSKY'],
         type: ['CITY']
     },
@@ -73,7 +73,7 @@ let schoolMaps = [
         year: 2006, // ?
         url: './maps/city/school_559.webp',
         link: './original_maps/schools/school_559_omaps.jpg',
-        bounds: [[60.05678185714936, 30.339378118515018], [60.05677114673304, 30.34433484077454], [60.05269022517463, 30.33932447433472]],
+        bounds: [[60.0567819, 30.3393781], [60.0567711, 30.3443348], [60.0526902, 30.3393245]],
         author: 'FDRV_L',
         type: ['CITY']
     },
@@ -84,7 +84,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_559_2016.webp',
         link: ['./original_maps/schools/school_559_2016_omaps.gif','./original_maps/schools/school_559_2016_omaps.ocd'],
-        bounds: [[60.05606960689406, 30.3393030166626], [60.056080317538054, 30.344409942626957], [60.05268486930301, 30.33932447433472]],
+        bounds: [[60.0560696, 30.339303], [60.0560803, 30.3444099], [60.0526849, 30.3393245]],
         author: ['FDRV_L','SHKLV'],
         type: ['CITY']
     },
@@ -93,7 +93,7 @@ let schoolMaps = [
         year: 2007,
         url: './maps/city/school_494_2007.webp',
         link: './original_maps/schools/school_494_2007_omaps.jpg',
-        bounds: [[60.063978470999345, 30.30683755874634], [60.063978470999345, 30.31904697418213], [60.05902025788759, 30.30689120292664]],
+        bounds: [[60.0639785, 30.3068376], [60.0639785, 30.319047], [60.0590203, 30.3068912]],
         author: 'FDRV_L',
         type: ['CITY']
     },
@@ -102,7 +102,7 @@ let schoolMaps = [
         year: 2007, // ?
         url: './maps/city/school_453.webp',
         link: './original_maps/schools/school_453_omaps.jpg',
-        bounds: [[60.06696588980581, 30.304981470108036], [60.06692306133995, 30.314658880233768], [60.06333062585542, 30.304981470108036]],
+        bounds: [[60.0669659, 30.3049815], [60.0669231, 30.3146589], [60.0633306, 30.3049815]],
         author: 'FDRV_L',
         type: ['CITY']
     },
@@ -111,7 +111,7 @@ let schoolMaps = [
         year: 2007,
         url: './maps/city/school_534_2007.webp',
         link: './original_maps/schools/school_534_2007_omaps.jpg',
-        bounds: [[60.00983152806055, 30.343251228332523], [60.00984761652746, 30.348358154296875], [60.00661904068128, 30.343261957168583]],
+        bounds: [[60.0098315, 30.3432512], [60.0098476, 30.3483582], [60.006619, 30.343262]],
         author: 'FDRV_L',
         type: ['CITY']
     },
@@ -122,7 +122,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_303_2016.webp',
         link: ['./original_maps/schools/school_303_2016_omaps.gif','./original_maps/schools/school_303_2016_omaps.ocd'],
-        bounds: [[59.87232260083193, 30.397882461547855], [59.86901597909405, 30.402066707611088], [59.87096552550337, 30.393440723419193]],
+        bounds: [[59.8723226, 30.3978825], [59.869016, 30.4020667], [59.8709655, 30.3934407]],
         type: ['CITY']
     },
     {
@@ -132,7 +132,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_490_2016.webp',
         link: ['./original_maps/schools/school_490_sosh_2016_omaps.gif','./original_maps/schools/school_490_2017_omaps.gif','./original_maps/schools/school_490_2016_omaps.ocd','./original_maps/schools/school_490_2017_omaps.ocd'],
-        bounds: [[59.9249042650236, 30.41648626327515], [59.926441934536946, 30.421099662780765], [59.9222696306353, 30.41996240615845]],
+        bounds: [[59.9249043, 30.4164863], [59.9264419, 30.4210997], [59.9222696, 30.4199624]],
         author: 'VSLVSKY',
         type: ['CITY']
     },
@@ -143,7 +143,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_529_2017.webp',
         link: ['./original_maps/schools/school_529_2017_omaps.gif','./original_maps/schools/school_529_2017_omaps.ocd'],
-        bounds: [[59.877405755763284, 29.889271259307865], [59.87644733897045, 29.898262023925785], [59.87483196724025, 29.888005256652836]],
+        bounds: [[59.8774058, 29.8892713], [59.8764473, 29.898262], [59.874832, 29.8880053]],
         author: 'TKMKVA_P',
         type: ['CITY']
     },
@@ -154,7 +154,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_604_2017.webp',
         link: ['./original_maps/schools/school_604_2017_omaps.gif','./original_maps/schools/school_604_2017_omaps.ocd'],
-        bounds: [[59.74362866040108, 30.465366840362552], [59.74280694757495, 30.467126369476322], [59.741985214546645, 30.462577342987064]],
+        bounds: [[59.7436287, 30.4653668], [59.7428069, 30.4671264], [59.7419852, 30.4625773]],
         author: 'SHRNN',
         type: ['CITY']
     },
@@ -165,7 +165,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_69_2017.webp',
         link: ['./original_maps/schools/school_69_2017_omaps.gif','./original_maps/schools/school_69_2017_omaps.ocd'],
-        bounds: [[60.048421319834084, 30.382239818573], [60.047928512285715, 30.38698196411133], [60.04597863637953, 30.38131713867188]],
+        bounds: [[60.0484213, 30.3822398], [60.0479285, 30.386982], [60.0459786, 30.3813171]],
         author: 'KUZNTSV_A',
         type: ['CITY']
     },
@@ -176,7 +176,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_226_2017.webp',
         link: ['./original_maps/schools/school_226_2017_omaps.gif','./original_maps/schools/school_226_2017_omaps.ocd'],
-        bounds: [[59.864901091609674, 30.37451505661011], [59.86484722845018, 30.383119583129886], [59.86180920505694, 30.374407768249515]],
+        bounds: [[59.8649011, 30.3745151], [59.8648472, 30.3831196], [59.8618092, 30.3744078]],
         author: 'DRBSHV',
         type: ['CITY']
     },
@@ -187,7 +187,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_133_2017.webp',
         link: ['./original_maps/schools/school_133_sosh_2017_omaps.gif','./original_maps/schools/school_133_2017_omaps.gif','./original_maps/schools/school_133_2017_omaps.ocd'],
-        bounds: [[59.95786788973526, 30.437879562377933], [59.957986057002266, 30.446269512176517], [59.954763162379905, 30.438029766082767]],
+        bounds: [[59.9578679, 30.4378796], [59.9579861, 30.4462695], [59.9547632, 30.4380298]],
         type: ['CITY']
     },
     {
@@ -197,7 +197,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/pushkin_school_552_2018.webp',
         link: ['./original_maps/schools/pushkin_school_552_2018_omaps.jpg','./original_maps/schools/pushkin_school_552_2018_omaps.ocd'],
-        bounds: [[59.7369678799638, 30.398890972137455], [59.736784040904226, 30.40178775787354], [59.73483744766446, 30.398440361022953]],
+        bounds: [[59.7369679, 30.398891], [59.736784, 30.4017878], [59.7348374, 30.3984404]],
         author: 'SHRNN',
         owner: 'SHRNN',
         type: ['CITY']
@@ -209,7 +209,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_467_2018.webp',
         link: ['./original_maps/schools/school_467_2018_omaps.gif','./original_maps/schools/school_467_2018_omaps.ocd'],
-        bounds: [[59.7397253445486, 30.564973354339603], [59.73946582816621, 30.568943023681644], [59.737919501287976, 30.564479827880863]],
+        bounds: [[59.7397253, 30.5649734], [59.7394658, 30.568943], [59.7379195, 30.5644798]],
         author: 'TKMKVA_P',
         type: ['SPRINT','CITY']
     },
@@ -220,7 +220,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_642_2018.webp',
         link: ['./original_maps/schools/school_642_2018_omaps.gif','./original_maps/schools/school_642_2018_omaps.ocd'],
-        bounds: [[59.94215863530755, 30.210835933685306], [59.9418684490961, 30.213840007781986], [59.940309998221245, 30.21047115325928]],
+        bounds: [[59.9421586, 30.2108359], [59.9418684, 30.21384], [59.94031, 30.2104712]],
         author: 'TKMKVA_P',
         type: ['SPRINT','CITY']
     },
@@ -231,7 +231,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_175_2018.webp',
         link: ['./original_maps/schools/school_175_2018_omaps.gif','./original_maps/schools/school_175_2018_omaps.ocd'],
-        bounds: [[60.036034621354716, 30.426549911499027], [60.03564880181898, 30.43043375015259], [60.03460921008458, 30.426077842712406]],
+        bounds: [[60.0360346, 30.4265499], [60.0356488, 30.4304338], [60.0346092, 30.4260778]],
         type: ['SPRINT','CITY']
     },
     {
@@ -241,7 +241,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_212_2018.webp',
         link: ['./original_maps/schools/school_212_2018_omaps.gif','./original_maps/schools/school_212_2018_omaps.ocd'],
-        bounds: [[59.83211462452894, 30.387217998504642], [59.83155389129605, 30.392968654632572], [59.829655954916, 30.386574268341068]],
+        bounds: [[59.8321146, 30.387218], [59.8315539, 30.3929687], [59.829656, 30.3865743]],
         author: 'TKMKVA_P',
         type: ['SPRINT','CITY']
     },
@@ -252,7 +252,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_312_2021.webp',
         link: ['./original_maps/schools/school_312_2019_omaps.gif','./original_maps/schools/school_312_2019_omaps.ocd'],
-        bounds: [[59.82729416714968, 30.392882823944095], [59.82718631896143, 30.396187305450443], [59.82528813369435, 30.392968654632572]],
+        bounds: [[59.8272942, 30.3928828], [59.8271863, 30.3961873], [59.8252881, 30.3929687]],
         author: ['DRBSHV','MKSHN_A','TKMKVA_P'],
         type: ['SPRINT','CITY']
     },
@@ -263,7 +263,7 @@ let schoolMaps = [
         o_site: '190918',
         url: './maps/city/narvskaya_384_school_2019.webp',
         link: ['./original_maps/schools/narvskaya_384_school_2019_omaps.gif','./original_maps/schools/narvskaya_384_school_2019_omaps.ocd'],
-        bounds: [[59.898128796133236, 30.27366399765015], [59.89818260538584, 30.275981426239017], [59.89648219085799, 30.273492336273197]],
+        bounds: [[59.8981288, 30.273664], [59.8981826, 30.2759814], [59.8964822, 30.2734923]],
         author: 'BEVZA',
         owner: 'BEVZA',
         type: ['CITY']
@@ -275,7 +275,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/pushkin_school_645.webp',
         link: ['./original_maps/schools/pushkin_school_645_omaps.jpg','./original_maps/schools/school_645_2021_open_omaps.gif','./original_maps/schools/pushkin_school_645_omaps.gif','./original_maps/schools/pushkin_school_645_omaps.ocd'],
-        bounds: [[59.74463414992654, 30.48191070556641], [59.74387733266911, 30.48364877700806], [59.74288263249571, 30.478863716125492]],
+        bounds: [[59.7446341, 30.4819107], [59.7438773, 30.4836488], [59.7428826, 30.4788637]],
         author: 'SHRNN',
         owner: 'SHRNN',
         type: ['CITY']
@@ -287,7 +287,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_482_2021.webp',
         link: ['./original_maps/schools/school_482_2015_omaps.gif','./original_maps/schools/school_482_2015_omaps.ocd','./original_maps/schools/school_482_2021_omaps.gif','./original_maps/schools/school_482_2021_omaps.ocd'],
-        bounds: [[60.07337347250026, 30.332157611846927], [60.07299879432702, 30.336234569549564], [60.070932635380196, 30.33112764358521]],
+        bounds: [[60.0733735, 30.3321576], [60.0729988, 30.3362346], [60.0709326, 30.3311276]],
         author: 'KHFZVA',
         type: ['SPRINT','CITY']
     },
@@ -298,7 +298,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_292_2021.webp',
         link: ['./original_maps/schools/school_292_2021_omaps.gif','./original_maps/schools/school_292_2021_omaps.ocd'],
-        bounds: [[59.861421352310586, 30.382089614868168], [59.86107659051738, 30.385522842407227], [59.85894329746696, 30.381231307983402]],
+        bounds: [[59.8614214, 30.3820896], [59.8610766, 30.3855228], [59.8589433, 30.3812313]],
         author: 'TKMKVA_P',
         type: ['SPRINT','CITY']
     },
@@ -309,7 +309,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_158_2021.webp',
         link: ['./original_maps/schools/school_150_2019_omaps.gif','./original_maps/schools/school_150_2019_omaps.ocd','./original_maps/schools/school_158_2021_omaps.gif','./original_maps/schools/school_158_2021_omaps.ocd'],
-        bounds: [[60.026923790420156, 30.372669696807865], [60.02640922148829, 30.37781953811646], [60.023493179515626, 30.371425151824955]],
+        bounds: [[60.0269238, 30.3726697], [60.0264092, 30.3778195], [60.0234932, 30.3714252]],
         author: 'TKMKVA_P',
         type: ['SPRINT','CITY']
     },
@@ -320,7 +320,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_556_2021.webp',
         link: ['./original_maps/schools/school_556_2021_omaps.gif','./original_maps/schools/school_556_2021_omaps.ocd'],
-        bounds: [[60.09072176149716, 29.94905233383179], [60.090304482310366, 29.952871799468998], [60.08923451153762, 29.948451519012455]],
+        bounds: [[60.0907218, 29.9490523], [60.0903045, 29.9528718], [60.0892345, 29.9484515]],
         author: 'KUZNTSV_A',
         type: ['SPRINT','CITY']
     },
@@ -331,7 +331,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_11_2021.webp',
         link: ['./original_maps/schools/school_11_2021_omaps.gif','./original_maps/schools/school_11_2021_omaps.ocd'],
-        bounds: [[59.94270675788883, 30.2644157409668], [59.94257778868489, 30.26645421981812], [59.94169648569833, 30.264093875885013]],
+        bounds: [[59.9427068, 30.2644157], [59.9425778, 30.2664542], [59.9416965, 30.2640939]],
         type: ['SPRINT','CITY']
     },
     {
@@ -341,7 +341,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_303_2022.webp',
         link: ['./original_maps/schools/school_303_2022_omaps.gif','./original_maps/schools/school_303_2022_omaps.ocd'],
-        bounds: [[59.86605374231585, 30.4062294960022], [59.86563362191864, 30.410327911376957], [59.86476104721357, 30.405821800231937]],
+        bounds: [[59.8660537, 30.4062295], [59.8656336, 30.4103279], [59.864761, 30.4058218]],
         author: 'TKMKVA_P',
         type: ['SPRINT','CITY']
     },
@@ -352,7 +352,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_468_2014.webp',
         link: ['./original_maps/schools/school_468_2014_omaps.gif','./original_maps/schools/school_468_2014_omaps.ocd','./original_maps/schools/school_468_2022_omaps.gif','./original_maps/schools/school_468_2022_omaps.ocd'],
-        bounds: [[60.03544517302496, 30.333981513977054], [60.035402303645235, 30.340139865875248], [60.03349455992169, 30.333917140960697]],
+        bounds: [[60.0354452, 30.3339815], [60.0354023, 30.3401399], [60.0334946, 30.3339171]],
         author: ['SHRNN','FDRV_L'],
         type: ['SPRINT','CITY']
     },
@@ -363,7 +363,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_149_2022.webp',
         link: ['./original_maps/schools/school_149_2015_omaps.gif','./original_maps/schools/school_149_2015_omaps.ocd','./original_maps/schools/school_149_2022_omaps.gif','./original_maps/schools/school_149_2022_omaps.ocd'],
-        bounds: [[60.02753483061936, 30.41371822357178], [60.02745979120352, 30.421421527862552], [60.024854745842376, 30.413675308227543]],
+        bounds: [[60.0275348, 30.4137182], [60.0274598, 30.4214215], [60.0248547, 30.4136753]],
         type: ['SPRINT','CITY']
     },
     {
@@ -373,7 +373,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_464_2023.webp',
         link: ['./original_maps/schools/school_464_2023_omaps.gif','./original_maps/schools/school_464_2023_omaps.ocd'],
-        bounds: [[59.68218241460668, 30.42773008346558], [59.68179246937068, 30.43150663375855], [59.681066725876235, 30.427343845367435]],
+        bounds: [[59.6821824, 30.4277301], [59.6817925, 30.4315066], [59.6810667, 30.4273438]],
         author: 'ZCHNV',
         type: ['SPRINT','CITY']
     },
@@ -382,7 +382,7 @@ let schoolMaps = [
         year: 2006,
         url: './maps/city/school_466_2006.webp',
         link: ['./original_maps/schools/school_466_2006_omaps.gif','./original_maps/schools/school_466_2006_omaps.ocd'],
-        bounds: [[60.12580779759814, 30.144896507263187], [60.125433715239204, 30.150475502014164], [60.12305017636112, 30.144274234771732]],
+        bounds: [[60.1258078, 30.1448965], [60.1254337, 30.1504755], [60.1230502, 30.1442742]],
         author: 'VSLVSKY',
         type: ['CITY']
     },
@@ -391,7 +391,7 @@ let schoolMaps = [
         year: 2013,
         url: './maps/city/school_437_2013.webp',
         link: ['./original_maps/schools/school_437_2013_omaps.gif','./original_maps/schools/school_437_2013_omaps.ocd'],
-        bounds: [[60.121457491407845, 30.164487361907963], [60.12065577519323, 30.168242454528812], [60.12063439582689, 30.16384363174439]],
+        bounds: [[60.1214575, 30.1644874], [60.1206558, 30.1682425], [60.1206344, 30.1638436]],
         author: ['DRBSHV','VSLVSKY'],
         type: ['CITY']
     },
@@ -402,7 +402,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_437_2023.webp',
         link: ['./original_maps/schools/school_437_2023_omaps.gif','./original_maps/schools/school_437_2023_omaps.ocd'],
-        bounds: [[60.12144680198676, 30.16450881958008], [60.120666464871185, 30.16828536987305], [60.12063439582689, 30.16384363174439]],
+        bounds: [[60.1214468, 30.1645088], [60.1206665, 30.1682854], [60.1206344, 30.1638436]],
         type: ['SPRINT','CITY']
     },
     {
@@ -412,7 +412,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_57_2023.webp',
         link: ['./original_maps/schools/school_57_2023_omaps.gif','./original_maps/schools/school_57_2023_omaps.ocd'],
-        bounds: [[60.0095097570785, 30.285894870758057], [60.00929524135094, 30.287826061248783], [60.00819046331575, 30.2853798866272]],
+        bounds: [[60.0095098, 30.2858949], [60.0092952, 30.2878261], [60.0081905, 30.2853799]],
         author: 'TKMKVA_P',
         type: ['SPRINT','CITY']
     },
@@ -423,7 +423,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_339_2024.webp',
         link: ['./original_maps/schools/school_339_2024_omaps.gif','./original_maps/schools/school_339_2024_omaps.ocd'],
-        bounds: [[59.90459604383763, 30.461311340332035], [59.904219449969744, 30.464272499084476], [59.90289595764207, 30.46064615249634]],
+        bounds: [[59.904596, 30.4613113], [59.9042194, 30.4642725], [59.902896, 30.4606462]],
         author: 'DRBSHV',
         type: ['SPRINT','CITY']
     },
@@ -434,7 +434,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_605_2024.webp',
         link: ['./original_maps/schools/school_605_2024_omaps.gif','./original_maps/schools/school_605_2024_omaps.ocd'],
-        bounds: [[60.052149277752704, 30.350739955902103], [60.051881478718755, 30.35329341888428], [60.05113162986575, 30.350267887115482]],
+        bounds: [[60.0521493, 30.35074], [60.0518815, 30.3532934], [60.0511316, 30.3502679]],
         type: ['SPRINT','CITY']
     },
     {
@@ -444,7 +444,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_101_2024.webp',
         link: ['./original_maps/schools/school_101_2024_omaps.gif','./original_maps/schools/school_101_2024_omaps.ocd'],
-        bounds: [[60.02763130961792, 30.33501148223877], [60.02763130961792, 30.33906698226929], [60.02607689146117, 30.33507585525513]],
+        bounds: [[60.0276313, 30.3350115], [60.0276313, 30.339067], [60.0260769, 30.3350759]],
         author: 'KUZNTSV_A',
         type: ['SPRINT','CITY']
     },
@@ -455,7 +455,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_161_2025.webp',
         link: ['./original_maps/schools/school_161_2025_omaps.gif','./original_maps/schools/school_161_2025_omaps.ocd'],
-        bounds: [[60.07128592561678, 30.311257839202884], [60.070718518243694, 30.316214561462406], [60.06999050958314, 30.310678482055668]],
+        bounds: [[60.0712859, 30.3112578], [60.0707185, 30.3162146], [60.0699905, 30.3106785]],
         author: 'KUZNTSV_A',
         type: ['SPRINT','CITY']
     },
@@ -466,7 +466,7 @@ let schoolMaps = [
         start: 'SCHOOL',
         url: './maps/city/school_221_2025.webp',
         link: ['./original_maps/schools/school_221_2025_omaps.gif','./original_maps/schools/school_221_2025_omaps.ocd','./original_maps/schools/school_221_2025_dist_omaps.ocd'],
-        bounds: [[59.84579574590888, 30.224547386169437], [59.84546160110283, 30.227894783020023], [59.844038753409876, 30.223882198333744]],
+        bounds: [[59.8457957, 30.2245474], [59.8454616, 30.2278948], [59.8440388, 30.2238822]],
         author: 'ZCHNV',
         type: ['SPRINT','CITY']
     },

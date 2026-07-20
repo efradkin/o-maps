@@ -7,7 +7,7 @@ let samaraMaps = [
         url: './maps/samara/samarska_luka_2006_rogaine.webp',
         link: './original_maps/samara/samarska_luka_2006_rogaine_omaps.jpg',
         info: '24-25 июня. Чемпионат и первенство России по рогейну.',
-        bounds: [[53.43387843556037, 49.26286697387695], [53.4224229569091, 49.43590164184571], [53.3495778642957, 49.24690246582032]],
+        bounds: [[53.4338784, 49.262867], [53.422423, 49.4359016], [53.3495779, 49.2469025]],
         author: ['SKRPKO_S','PZDV_S','ZKN_V','ERKHV'],
         type: ['ROGAINE'],
         region: 'SAMARA'
@@ -18,7 +18,7 @@ let samaraMaps = [
         url: './maps/samara/toliatti_stavropolsky_sosniak_2026_rogaine.webp',
         link: 'https://viewer.o-gps-center.ru/newmaps/course_24013_fa3a18e75f6b9b8e078b3ac0de973b7f.jpeg',
         info: 'Соревнования по спортивному ориентированию в формате рогейн памяти Г.В. Штритера.',
-        bounds: [[53.51262786469413, 49.3013620376587], [53.508161730732425, 49.35822486877442], [53.488173206973485, 49.295954704284675]],
+        bounds: [[53.5126279, 49.301362], [53.5081617, 49.3582249], [53.4881732, 49.2959547]],
         o_gps: 24013,
         type: ['ROGAINE'],
         region: 'SAMARA'
@@ -30,7 +30,7 @@ let samaraMaps = [
         url: './maps/samara/rameno_2004.webp',
         link: ['./original_maps/samara/rameno_2004_08_24_omaps.jpg','./original_maps/samara/rameno_2004_08_25_omaps.jpg','./original_maps/samara/rameno_2004_08_27_omaps.jpg','./original_maps/samara/rameno_2004_08_28_omaps.jpg'],
         info: '24-28 августа. Первенство России среди юниоров, юношей и девушек.',
-        bounds: [[53.271783479238216, 48.344392776489265], [53.266034304965714, 48.39752197265626], [53.238406958742566, 48.335466384887695]],
+        bounds: [[53.2717835, 48.3443928], [53.2660343, 48.397522], [53.238407, 48.3354664]],
         author: ['ZHBNCHK','ZKN_V','SKRPKO_S','ERKHV','CHRMNCH_O'],
         region: 'SAMARA'
     },
@@ -39,7 +39,7 @@ let samaraMaps = [
         year: 2022,
         url: './maps/samara/piskalinsky_vzvoz_2022.webp',
         link: './original_maps/samara/piskalinsky_vzvoz_2022_omaps.gif',
-        bounds: [[53.4963944047914, 49.77699279785157], [53.49116059673031, 49.81630325317383], [53.484547203400055, 49.77240085601807]],
+        bounds: [[53.4963944, 49.7769928], [53.4911606, 49.8163033], [53.4845472, 49.7724009]],
         author: 'PPV_E',
         owner: 'ZNVJV_A'
     },
@@ -47,7 +47,7 @@ let samaraMaps = [
         name: 'Горелый хутор',
         url: './maps/samara/gorely_hutor.webp',
         link: './original_maps/samara/gorely_hutor_omaps.gif',
-        bounds: [[53.36614916861485, 50.24060726165772], [53.36238469297544, 50.268974304199226], [53.34755403330258, 50.233311653137214]],
+        bounds: [[53.3661492, 50.2406073], [53.3623847, 50.2689743], [53.347554, 50.2333117]],
         owner: 'ZNVJV_A'
     },
     {
@@ -55,7 +55,7 @@ let samaraMaps = [
         year: 2021,
         url: './maps/samara/dinamo_2021.webp',
         link: './original_maps/samara/dinamo_2021_omaps.gif',
-        bounds: [[53.38225327077193, 50.193099975585945], [53.378413417740845, 50.22296905517579], [53.36568823028405, 50.18769264221192]],
+        bounds: [[53.3822533, 50.1931], [53.3784134, 50.2229691], [53.3656882, 50.1876926]],
         author: 'MLNTV',
         owner: 'ZNVJV_A'
     },
@@ -64,7 +64,7 @@ let samaraMaps = [
         year: 2024,
         url: './maps/samara/red_glinka_2024.webp',
         link: './original_maps/samara/red_glinka_2024_omaps.gif',
-        bounds: [[53.390059904145225, 50.16996860504151], [53.388293938607724, 50.18376588821412], [53.38057657753634, 50.16702890396118]],
+        bounds: [[53.3900599, 50.1699686], [53.3882939, 50.1837659], [53.3805766, 50.1670289]],
         author: ['KYKV','TTYNN_M'],
         owner: 'ZNVJV_A'
     },
@@ -72,7 +72,7 @@ let samaraMaps = [
         name: 'Золотой бор',
         url: './maps/samara/golden_bor.webp',
         link: './original_maps/samara/golden_bor_omaps.gif',
-        bounds: [[53.45961642509639, 50.1256799697876], [53.45407142374024, 50.17730712890626], [53.43300915480917, 50.117955207824714]],
+        bounds: [[53.4596164, 50.12568], [53.4540714, 50.1773071], [53.4330092, 50.1179552]],
         owner: 'ZNVJV_A'
     },
     {
@@ -80,7 +80,7 @@ let samaraMaps = [
         year: 2018,
         url: './maps/samara/kurumoch_2018.webp',
         link: './original_maps/samara/kurumoch_2018_omaps.gif',
-        bounds: [[53.47438252734813, 50.06512641906738], [53.46707675889915, 50.132417678833015], [53.440908729342624, 50.05568504333497]],
+        bounds: [[53.4743825, 50.0651264], [53.4670768, 50.1324177], [53.4409087, 50.055685]],
         author: 'USNKO',
         owner: 'ZNVJV_A'
     },
@@ -89,7 +89,7 @@ let samaraMaps = [
         year: 2010,
         url: './maps/samara/pribrezhny_2010.webp',
         link: './original_maps/samara/pribrezhny_2010_omaps.gif',
-        bounds: [[53.51816521718794, 49.851794242858894], [53.505201062547066, 49.98929500579835], [53.4730798425885, 49.839563369750984]],
+        bounds: [[53.5181652, 49.8517942], [53.5052011, 49.989295], [53.4730798, 49.8395634]],
         author: ['SKRPKO_S','CHRMNCH_A','TRNV_V','PRKPCHK','USNKO'],
         owner: 'ZNVJV_A'
     },
@@ -99,7 +99,7 @@ let samaraMaps = [
         url: './maps/samara/grushina_2001.webp',
         link: './original_maps/samara/grushina_2001_omaps.gif',
         info: 'XXVIII фестиваль им.В.Грушина',
-        bounds: [[53.47918423558339, 49.89080429077149], [53.47555746361617, 49.928398132324226], [53.46646363022647, 49.88668441772462]],
+        bounds: [[53.4791842, 49.8908043], [53.4755575, 49.9283981], [53.4664636, 49.8866844]],
         author: ['MLNTV','DRBN_A','PSNV_A'],
         type: ['SPECIAL']
     },
@@ -108,7 +108,7 @@ let samaraMaps = [
         year: 2022,
         url: './maps/samara/zadelnoe_2022.webp',
         link: './original_maps/samara/zadelnoe_2022_omaps.gif',
-        bounds: [[53.49810482639341, 49.762229919433594], [53.48610489079917, 49.84127998352051], [53.47014226942184, 49.75055694580078]],
+        bounds: [[53.4981048, 49.7622299], [53.4861049, 49.84128], [53.4701423, 49.7505569]],
         author: ['USNKO','BRGNTS'],
         owner: 'ZNVJV_A'
     },
@@ -116,7 +116,7 @@ let samaraMaps = [
         name: 'Чайка',
         url: './maps/samara/chaika.webp',
         link: './original_maps/samara/chaika_omaps.gif',
-        bounds: [[53.36200054410681, 50.22655248641968], [53.3596571610108, 50.24367570877076], [53.349667525471574, 50.222346782684326]],
+        bounds: [[53.3620005, 50.2265525], [53.3596572, 50.2436757], [53.3496675, 50.2223468]],
         owner: 'ZNVJV_A'
     },
     {
@@ -124,7 +124,7 @@ let samaraMaps = [
         year: 2022,
         url: './maps/samara/barsuk_2022.webp',
         link: './original_maps/samara/barsuk_2022_omaps.gif',
-        bounds: [[53.318620683963914, 50.20045995712281], [53.31662102092392, 50.215909481048584], [53.306787981523634, 50.196318626403816]],
+        bounds: [[53.3186207, 50.20046], [53.316621, 50.2159095], [53.306788, 50.1963186]],
         author: 'KZNN_O',
         owner: 'ZNVJV_A'
     },
@@ -132,7 +132,7 @@ let samaraMaps = [
         name: 'Прибрежный',
         url: './maps/samara/pribrezhny.webp',
         link: './original_maps/samara/pribrezhny_omaps.gif',
-        bounds: [[53.49560299234438, 49.84218120574952], [53.49283293245661, 49.87213611602783], [53.482670241779715, 49.838747978210456]],
+        bounds: [[53.495603, 49.8421812], [53.4928329, 49.8721361], [53.4826702, 49.838748]],
         author: ['YGNV','ZNVJV_A'],
         owner: 'ZNVJV_A',
         type: ['CITY','SPRINT']
@@ -142,7 +142,7 @@ let samaraMaps = [
         year: 2022,
         url: './maps/samara/solnechny_2022.webp',
         link: './original_maps/samara/solnechny_2022_omaps.gif',
-        bounds: [[53.24495594479499, 50.18997788429261], [53.243806734449315, 50.19937634468079], [53.237418103185405, 50.18753170967103]],
+        bounds: [[53.2449559, 50.1899779], [53.2438067, 50.1993763], [53.2374181, 50.1875317]],
         author: 'TTYNN_M',
         owner: 'ZNVJV_A',
         type: ['CITY','SPRINT']
@@ -153,7 +153,7 @@ let samaraMaps = [
         year: 2026,
         url: './maps/samara/gagarina_2026.webp',
         link: './original_maps/samara/gagarina_2026_omaps.gif',
-        bounds: [[53.23291017349603, 50.196061134338386], [53.23181843821141, 50.20642518997193], [53.22692455327532, 50.19415140151978]],
+        bounds: [[53.2329102, 50.1960611], [53.2318184, 50.2064252], [53.2269246, 50.1941514]],
         author: ['MRZN_A','SHKRN_D'],
         owner: 'ZNVJV_A',
         type: ['PARK','SPRINT']
@@ -164,7 +164,7 @@ let samaraMaps = [
         correct: 2026,
         url: './maps/samara/zagorodny_2026.webp',
         link: './original_maps/samara/zagorodny_2026_omaps.gif',
-        bounds: [[53.23496512909674, 50.15754461288453], [53.232833110742106, 50.17642736434937], [53.22897979617951, 50.15584945678712]],
+        bounds: [[53.2349651, 50.1575446], [53.2328331, 50.1764274], [53.2289798, 50.1558495]],
         author: ['MRZN_A','ZNVJV_A'],
         owner: 'ZNVJV_A',
         type: ['PARK','SPRINT']
@@ -175,7 +175,7 @@ let samaraMaps = [
         year: 2025,
         url: './maps/samara/school_48_2025.webp',
         link: './original_maps/samara/school_48_2025_omaps.gif',
-        bounds: [[53.2499889941099, 50.216832160949714], [53.25011096117186, 50.23067235946656], [53.242541925378966, 50.21716475486756]],
+        bounds: [[53.249989, 50.2168322], [53.250111, 50.2306724], [53.2425419, 50.2171648]],
         author: 'ZNVJV_A',
         owner: 'ZNVJV_A',
         type: ['CITY','SPRINT']
@@ -185,7 +185,7 @@ let samaraMaps = [
         year: 2025,
         url: './maps/samara/mehzavod_2025.webp',
         link: './original_maps/samara/mehzavod_2025_omaps.gif',
-        bounds: [[53.30624305978567, 50.2676546573639], [53.30456978604454, 50.28141975402833], [53.29908150085477, 50.26516556739808]],
+        bounds: [[53.3062431, 50.2676547], [53.3045698, 50.2814198], [53.2990815, 50.2651656]],
         o_gps: 23675,
         author: ['VLKV_E','KSKV_A'],
         owner: 'ZNVJV_A',
@@ -196,7 +196,7 @@ let samaraMaps = [
         year: 2025,
         url: './maps/samara/mehzavodskoe_winter_2025.webp',
         link: './original_maps/samara/mehzavodskoe_winter_2025_omaps.gif',
-        bounds: [[53.31428796229534, 50.26176452636719], [53.31214707652413, 50.27893066406251], [53.3068136247282, 50.25921106338502]],
+        bounds: [[53.314288, 50.2617645], [53.3121471, 50.2789307], [53.3068136, 50.2592111]],
         o_gps: 21403,
         author: 'KSKV_A',
         owner: 'ZNVJV_A',

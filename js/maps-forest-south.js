@@ -6,7 +6,7 @@ let southMaps = [
         year: 1992,
         url: './maps/forest/south/mga_1992.webp',
         link: './original_maps/forest/south/mga_1992_omaps.jpg',
-        bounds: [[59.753390360325824, 31.02187156677246], [59.7482666342105, 31.071996688842777], [59.73721660178828, 31.016163825988773]],
+        bounds: [[59.7533904, 31.0218716], [59.7482666, 31.0719967], [59.7372166, 31.0161638]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -15,7 +15,7 @@ let southMaps = [
         year: 1983,
         url: './maps/forest/south/tuutary_1983.webp',
         link: './original_maps/forest/south/tuutary_1983_omaps.jpg',
-        bounds: [[59.70584142848521, 30.1585865020752], [59.70486724535825, 30.186910629272464], [59.688215155652344, 30.15480995178223]],
+        bounds: [[59.7058414, 30.1585865], [59.7048672, 30.1869106], [59.6882152, 30.15481]],
         author: 'VLKV_K'
     },
     {
@@ -23,7 +23,7 @@ let southMaps = [
         year: 2004,
         url: './maps/forest/south/tuutari_2004.webp',
         link: './original_maps/forest/south/tuutari_2004_omaps.jpg',
-        bounds: [[59.70649086815244, 30.16549587249756], [59.70371983775948, 30.189528465271], [59.689146505392564, 30.157985687255863]],
+        bounds: [[59.7064909, 30.1654959], [59.7037198, 30.1895285], [59.6891465, 30.1579857]],
         owner: 'ANCHKV'
     },
     {
@@ -31,7 +31,7 @@ let southMaps = [
         year: 1997,
         url: './maps/forest/south/lomonosov_1997.webp',
         link: './original_maps/forest/south/lomonosov_1997_omaps.jpg',
-        bounds: [[59.90426248948507, 29.730892181396488], [59.901766105385086, 29.76556777954102], [59.881917481564564, 29.72436904907227]],
+        bounds: [[59.9042625, 29.7308922], [59.9017661, 29.7655678], [59.8819175, 29.724369]],
         author: 'KRCHKN_V'
     },
     {
@@ -39,7 +39,7 @@ let southMaps = [
         year: 2005,
         url: './maps/forest/south/lomonosov_2005.webp',
         link: ['./original_maps/forest/south/lomonosov_2005_omaps.gif','./original_maps/forest/south/lomonosov_2005_omaps.ocd'],
-        bounds: [[59.90428400922183, 29.730291366577152], [59.90183066940671, 29.76603984832764], [59.88187441309164, 29.72458362579346]],
+        bounds: [[59.904284, 29.7302914], [59.9018307, 29.7660398], [59.8818744, 29.7245836]],
         author: 'KRCHKN_V'
     },
     {
@@ -47,7 +47,7 @@ let southMaps = [
         year: 1992,
         url: './maps/forest/south/sablino_1992.webp',
         link: './original_maps/forest/south/sablino_1992_omaps.jpg',
-        bounds: [[59.67734027291342, 30.76103210449219], [59.6750435315491, 30.801458358764652], [59.65443081951741, 30.75407981872559]],
+        bounds: [[59.6773403, 30.7610321], [59.6750435, 30.8014584], [59.6544308, 30.7540798]],
         author: 'DRBSHV',
         qtty: 100
     },
@@ -56,7 +56,7 @@ let southMaps = [
         year: 2020,
         url: './maps/forest/south/sablino_2020.webp',
         link: './original_maps/forest/south/sablino_2020_omaps.jpg',
-        bounds: [[59.67127306766719, 30.782189369201664], [59.67020035820331, 30.798819065093998], [59.65993745299763, 30.779120922088627]],
+        bounds: [[59.6712731, 30.7821894], [59.6702004, 30.7988191], [59.6599375, 30.7791209]],
         author: 'DRBSHV',
         owner: 'VOLKOV_AM'
     },
@@ -65,14 +65,14 @@ let southMaps = [
         year: 2022,
         url: './maps/forest/south/ulianovka_2022.webp',
         link: './original_maps/forest/south/ulianovka_2022_omaps.jpg',
-        bounds: [[59.67159812436367, 30.784184932708744], [59.67015701568526, 30.800814628601078], [59.66147654713086, 30.78051567077637]],
+        bounds: [[59.6715981, 30.7841849], [59.670157, 30.8008146], [59.6614765, 30.7805157]],
         author: 'DRBSHV'
     },
     {
         name: 'Тихвин, Царицыно оз',
         url: './maps/forest/south/tikhvin_tsaritsyno.webp',
         link: './original_maps/forest/south/tikhvin_tsaritsyno_omaps.jpg',
-        bounds: [[59.71603617732234, 33.486156463623054], [59.71127468540223, 33.539457321167], [59.69618493920625, 33.4799337387085]],
+        bounds: [[59.7160362, 33.4861565], [59.7112747, 33.5394573], [59.6961849, 33.4799337]],
         owner: 'EGRV_SRG'
     },
     {
@@ -80,7 +80,7 @@ let southMaps = [
         year: 2012,
         url: './maps/forest/south/tikhvin_popovo_2012.webp',
         link: './original_maps/forest/south/tikhvin_popovo_2012_omaps.webp',
-        bounds: [[59.654864445498106, 33.6149024963379], [59.652327653983384, 33.640909194946296], [59.63703779760461, 33.60958099365235]],
+        bounds: [[59.6548644, 33.6149025], [59.6523277, 33.6409092], [59.6370378, 33.609581]],
         owner: 'EGRV_SRG'
     },
     {
@@ -89,7 +89,7 @@ let southMaps = [
         area: 43,
         url: './maps/forest/south/budogosch_2015.webp',
         link: './original_maps/forest/south/budogosch_2015_omaps.jpg',
-        bounds: [[59.33809215192027, 32.31679916381837], [59.32206812385745, 32.48983383178712], [59.25368420047816, 32.295856475830085]],
+        bounds: [[59.3380922, 32.3167992], [59.3220681, 32.4898338], [59.2536842, 32.2958565]],
         author: ['BYMKV','YUDNTSV','VRBY'],
         owner: 'EGRV_SRG'
     },
@@ -97,7 +97,7 @@ let southMaps = [
         name: 'Будогощь, Линное оз',
         url: './maps/forest/south/budogosch_linnoe.webp',
         link: './original_maps/forest/south/budogosch_linnoe_omaps.jpg',
-        bounds: [[59.296396427716594, 32.37688064575196], [59.29328471812206, 32.42511749267579], [59.2658367640389, 32.368040084838874]],
+        bounds: [[59.2963964, 32.3768806], [59.2932847, 32.4251175], [59.2658368, 32.3680401]],
         author: 'BYMKV',
         owner: 'EGRV_SRG'
     },
@@ -106,7 +106,7 @@ let southMaps = [
         year: 2005,
         url: './maps/forest/south/budogosch_mechta_2005.webp',
         link: './original_maps/forest/south/budogosch_mechta_2005_omaps.jpg',
-        bounds: [[59.30305715920366, 32.32589721679688], [59.29679084945624, 32.38821029663087], [59.276318706162115, 32.31679916381837]],
+        bounds: [[59.3030572, 32.3258972], [59.2967908, 32.3882103], [59.2763187, 32.3167992]],
         author: ['BYMKV','BRTNK_V','VRBY','BGNV','GRKHVSKY'],
         owner: 'EGRV_SRG'
     },
@@ -115,7 +115,7 @@ let southMaps = [
         year: 2010,
         url: './maps/forest/south/budogosch_svetloe_2010.webp',
         link: './original_maps/forest/south/budogosch_svetloe_2010_omaps.jpg',
-        bounds: [[59.296045826776194, 32.347269058227546], [59.292079402035064, 32.38919734954835], [59.27807269098165, 32.340788841247566]],
+        bounds: [[59.2960458, 32.3472691], [59.2920794, 32.3891973], [59.2780727, 32.3407888]],
         author: ['TKMKV_K','VRBY'],
         owner: 'EGRV_SRG'
     },
@@ -125,7 +125,7 @@ let southMaps = [
         start: 'LENINGRAD_30',
         url: './maps/forest/south/budogosch_cheremukhovoe_1988.webp',
         link: ['./original_maps/forest/south/budogosch_cheremukhovoe_1988_omaps.jpg','./original_maps/forest/south/budogosch_cheremukhovoe_1988_clean_omaps.jpg'],
-        bounds: [[59.302662810107954, 32.37713813781739], [59.299705046163595, 32.433700561523445], [59.26748163360483, 32.37022876739503]],
+        bounds: [[59.3026628, 32.3771381], [59.299705, 32.4337006], [59.2674816, 32.3702288]],
         author: ['MRKRV','MRSKY_S'],
         planner: ['MLVA_M','MRSKY_S','KUOKNN_Y']
     },
@@ -134,7 +134,7 @@ let southMaps = [
         year: 2010,
         url: './maps/forest/south/budogosch_cheremukhovoe_2010.webp',
         link: './original_maps/forest/south/budogosch_cheremukhovoe_2010_omaps.jpg',
-        bounds: [[59.29238621381673, 32.38606452941895], [59.28890154588962, 32.422928810119636], [59.27923465616935, 32.38181591033936]],
+        bounds: [[59.2923862, 32.3860645], [59.2889015, 32.4229288], [59.2792347, 32.3818159]],
         owner: 'EGRV_SRG'
     },
     {
@@ -142,7 +142,7 @@ let southMaps = [
         year: 2012,
         url: './maps/forest/south/vasilkovo_2012.webp',
         link: './original_maps/forest/south/vasilkovo_2012_omaps.gif',
-        bounds: [[59.330825359776256, 32.33276367187501], [59.32727895112307, 32.397737503051765], [59.3000994295482, 32.31945991516114]],
+        bounds: [[59.3308254, 32.3327637], [59.327279, 32.3977375], [59.3000994, 32.3194599]],
         author: 'YUDNTSV',
         owner: 'EGRV_SRG'
     },
@@ -151,7 +151,7 @@ let southMaps = [
         year: 2014,
         url: './maps/forest/south/gorchakovo_2014.webp',
         link: './original_maps/forest/south/gorchakovo_2014_omaps.gif',
-        bounds: [[59.34675773893997, 32.39130020141602], [59.34251275287995, 32.45511531829835], [59.32263741276709, 32.38537788391114]],
+        bounds: [[59.3467577, 32.3913002], [59.3425128, 32.4551153], [59.3226374, 32.3853779]],
         author: 'YUDNTSV',
         owner: 'EGRV_SRG'
     },
@@ -160,7 +160,7 @@ let southMaps = [
         year: 2007,
         url: './maps/forest/south/gorodische_2007.webp',
         link: './original_maps/forest/south/gorodische_2007_omaps.gif',
-        bounds: [[59.62636330165139, 32.10355281829835], [59.62456218827075, 32.12552547454835], [59.610931356105894, 32.098102569580085]],
+        bounds: [[59.6263633, 32.1035528], [59.6245622, 32.1255255], [59.6109314, 32.0981026]],
         author: ['VRBY','KRTSHV'],
         owner: 'EGRV_SRG'
     },
@@ -169,14 +169,14 @@ let southMaps = [
         year: 2009,
         url: './maps/forest/south/zmeeva_novinka_2009.webp',
         link: './original_maps/forest/south/zmeeva_novinka_2009_omaps.gif',
-        bounds: [[59.19553768598236, 32.540817260742195], [59.18969120621885, 32.60235786437989], [59.180545833407564, 32.53699779510499]],
+        bounds: [[59.1955377, 32.5408173], [59.1896912, 32.6023579], [59.1805458, 32.5369978]],
         owner: 'EGRV_SRG'
     },
     {
         name: 'Будогощь, 92 км',
         year: 2022,
         url: './maps/forest/south/budogosch_92km_2022.webp',
-        bounds: [[59.33126316233755, 32.3899269104004], [59.32920544124976, 32.4203109741211], [59.31208212202485, 32.38340377807618]],
+        bounds: [[59.3312632, 32.3899269], [59.3292054, 32.420311], [59.3120821, 32.3834038]],
         author: 'YUDNTSV',
         owner: 'EGRV_SRG'
     },
@@ -186,7 +186,7 @@ let southMaps = [
         start: 'LENINGRAD_30',
         url: './maps/forest/south/budogosch_orlenok_1988.webp',
         link: ['./original_maps/forest/south/budogosch_orlenok_1988_full_1.jpg','./original_maps/forest/south/budogosch_orlenok_1988_full_2.jpg'],
-        bounds: [[59.32828599367687, 32.41129875183106], [59.32202433200791, 32.49000549316407], [59.295388440275644, 32.40056991577149]],
+        bounds: [[59.328286, 32.4112988], [59.3220243, 32.4900055], [59.2953884, 32.4005699]],
         author: ['MRKRV','MRSKY_S','MLVA_M'],
         planner: ['MLVA_M','MRSKY_S','KUOKNN_Y']
     },
@@ -195,7 +195,7 @@ let southMaps = [
         year: 2006,
         url: './maps/forest/south/budogosch_orlenok_2006.webp',
         link: './original_maps/forest/south/budogosch_orlenok_2006_omaps.jpg',
-        bounds: [[59.32149882541276, 32.411727905273445], [59.31400947360146, 32.48803138732911], [59.29578287370009, 32.4023723602295]],
+        bounds: [[59.3214988, 32.4117279], [59.3140095, 32.4880314], [59.2957829, 32.4023724]],
         author: 'KRTSHV',
         owner: 'EGRV_SRG'
     },
@@ -203,7 +203,7 @@ let southMaps = [
         name: 'Кириши, ОКБ ТБМ',
         url: './maps/forest/south/kirishi_east.webp',
         link: './original_maps/forest/south/kirishi_east_omaps.gif',
-        bounds: [[59.441169698522636, 32.046389579772956], [59.438725866629234, 32.07750320434571], [59.42961449118175, 32.04353570938111]],
+        bounds: [[59.4411697, 32.0463896], [59.4387259, 32.0775032], [59.4296145, 32.0435357]],
         owner: 'EGRV_SRG',
         zindex: 2
     },
@@ -212,7 +212,7 @@ let southMaps = [
         year: 2009,
         url: './maps/forest/south/nudynya_2009.webp',
         link: './original_maps/forest/south/nudynya_2009_omaps.gif',
-        bounds: [[59.44941632791593, 31.97450637817383], [59.44114787937609, 32.07406997680665], [59.4038820760619, 31.96060180664063]],
+        bounds: [[59.4494163, 31.9745064], [59.4411479, 32.07407], [59.4038821, 31.9606018]],
         author: 'YUDNTSV',
         owner: 'EGRV_SRG'
     },
@@ -221,7 +221,7 @@ let southMaps = [
         year: 2011,
         url: './maps/forest/south/olgin_key_2011.webp',
         link: './original_maps/forest/south/olgin_key_2011_omaps.jpg',
-        bounds: [[59.3146007982062, 32.20161437988282], [59.311293628527885, 32.23852157592774], [59.29828084587648, 32.19556331634522]],
+        bounds: [[59.3146008, 32.2016144], [59.3112936, 32.2385216], [59.2982808, 32.1955633]],
         author: 'YUDNTSV',
         owner: 'EGRV_SRG'
     },
@@ -230,7 +230,7 @@ let southMaps = [
         year: 2012,
         url: './maps/forest/south/tikhvin_road_2012.webp',
         link: './original_maps/forest/south/tikhvin_road_2012_omaps.gif',
-        bounds: [[59.337698209064456, 32.41490364074708], [59.33156962077402, 32.479362487792976], [59.31089937492294, 32.405462265014656]],
+        bounds: [[59.3376982, 32.4149036], [59.3315696, 32.4793625], [59.3108994, 32.4054623]],
         author: 'YUDNTSV',
         owner: 'EGRV_SRG'
     },
@@ -239,7 +239,7 @@ let southMaps = [
         year: 2016,
         url: './maps/forest/south/rakhovo_2016.webp',
         link: './original_maps/forest/south/rakhovo_2016_omaps.gif',
-        bounds: [[59.1976474480317, 32.509360313415534], [59.19333987861877, 32.55661010742188], [59.18360189128722, 32.504596710205085]],
+        bounds: [[59.1976474, 32.5093603], [59.1933399, 32.5566101], [59.1836019, 32.5045967]],
         author: ['BRGNTS','VRBY'],
         owner: 'EGRV_SRG'
     },
@@ -248,7 +248,7 @@ let southMaps = [
         year: 2023,
         url: './maps/forest/south/red_hill_2023.webp',
         link: './original_maps/forest/south/red_hill_2023_omaps.gif',
-        bounds: [[59.20685415494763, 32.490863800048835], [59.20378919042065, 32.51702070236207], [59.192988216319236, 32.484383583068855]],
+        bounds: [[59.2068542, 32.4908638], [59.2037892, 32.5170207], [59.1929882, 32.4843836]],
         author: ['BRGNTS','VRBY'],
         owner: 'EGRV_SRG'
     },
@@ -257,7 +257,7 @@ let southMaps = [
         year: 2019,
         url: './maps/forest/south/elizavetino_2019.webp',
         link: './original_maps/forest/south/elizavetino_2019_omaps.jpg',
-        bounds: [[59.49776478166187, 29.74329471588135], [59.49525968670402, 29.769129753112797], [59.49083719575336, 29.74011898040772]],
+        bounds: [[59.4977648, 29.7432947], [59.4952597, 29.7691298], [59.4908372, 29.740119]],
         author: 'TKMKV_K'
     },
     {
@@ -265,7 +265,7 @@ let southMaps = [
         year: 2018,
         url: './maps/forest/south/peleshi_2018.webp',
         link: './original_maps/forest/south/peleshi_2018_omaps.jpg',
-        bounds: [[59.04607342200753, 28.045520782470707], [59.04417505299444, 28.07358741760254], [59.01824961979959, 28.03719520568848]],
+        bounds: [[59.0460734, 28.0455208], [59.0441751, 28.0735874], [59.0182496, 28.0371952]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -274,7 +274,7 @@ let southMaps = [
         year: 2018,
         url: './maps/forest/south/slantsy_2018.webp',
         link: './original_maps/forest/south/slantsy_2018_omaps.jpg',
-        bounds: [[59.13395662150237, 28.08717012405396], [59.1335272878623, 28.09860706329346], [59.129376785164105, 28.0866551399231]],
+        bounds: [[59.1339566, 28.0871701], [59.1335273, 28.0986071], [59.1293768, 28.0866551]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -283,7 +283,7 @@ let southMaps = [
         year: 1992,
         url: './maps/forest/south/lemovzha_1992.webp',
         link: './original_maps/forest/south/lemovzha_1992_omaps.jpg',
-        bounds: [[59.124917461875384, 29.296503067016605], [59.12300142617275, 29.333152770996097], [59.10718453374521, 29.293198585510257]],
+        bounds: [[59.1249175, 29.2965031], [59.1230014, 29.3331528], [59.1071845, 29.2931986]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -292,7 +292,7 @@ let southMaps = [
         year: 2017,
         url: './maps/forest/south/khotnezha_2017.webp',
         link: './original_maps/forest/south/khotnezha_2017_omaps.jpg',
-        bounds: [[59.12615071552468, 29.295215606689457], [59.12112933377082, 29.33632850646973], [59.10989463099106, 29.288692474365238]],
+        bounds: [[59.1261507, 29.2952156], [59.1211293, 29.3363285], [59.1098946, 29.2886925]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -300,7 +300,7 @@ let southMaps = [
         name: 'Рагин Бор',
         url: './maps/forest/south/ragin_bor_2017.webp',
         link: './original_maps/forest/south/ragin_bor_2017_omaps.jpg',
-        bounds: [[60.06852373745732, 32.26736068725587], [60.066489419991676, 32.309331893920906], [60.05473074902389, 32.265043258667]],
+        bounds: [[60.0685237, 32.2673607], [60.0664894, 32.3093319], [60.0547307, 32.2650433]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -308,7 +308,7 @@ let southMaps = [
         name: 'Юшково - Марьина Роща',
         url: './maps/forest/south/yushkovo.webp',
         link: './original_maps/forest/south/yushkovo_omaps.jpg',
-        bounds: [[60.08868881306909, 32.28620052337647], [60.085243214141705, 32.31443881988526], [60.0787790695464, 32.28122234344483]],
+        bounds: [[60.0886888, 32.2862005], [60.0852432, 32.3144388], [60.0787791, 32.2812223]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -317,7 +317,7 @@ let southMaps = [
         year: 1993,
         url: './maps/forest/south/gatchina_prioratsky_1993.webp',
         link: './original_maps/forest/south/gatchina_prioratsky_1993_omaps.jpg',
-        bounds: [[59.56337553311358, 30.105199813842777], [59.563071167965695, 30.13584136962891], [59.54445618473496, 30.103740692138675]],
+        bounds: [[59.5633755, 30.1051998], [59.5630712, 30.1358414], [59.5444562, 30.1037407]],
         author: ['MRSKY_S','HSMTLN','KUOKNN_Y','MRSKA_I','GLK'],
         areas: [25,25,20,20,10]
     },
@@ -325,7 +325,7 @@ let southMaps = [
         name: 'Сосновый Бор, Калищенское оз',
         year: 2021,
         url: './maps/forest/south/kalischenskoe_oz_2021.webp',
-        bounds: [[59.91607472734414, 29.105272293090824], [59.912202325545465, 29.146471023559574], [59.90314344395666, 29.100208282470707]],
+        bounds: [[59.9160747, 29.1052723], [59.9122023, 29.146471], [59.9031434, 29.1002083]],
         author: 'DBRTSV_V',
         owner: 'YUVENTA'
     },
@@ -334,7 +334,7 @@ let southMaps = [
         year: 2018,
         url: './maps/forest/south/kopanskoe_2018.webp',
         link: './original_maps/forest/south/kopanskoe_2018_omaps.jpg',
-        bounds: [[59.77029092200125, 28.72585773468018], [59.76748195838195, 28.754224777221683], [59.76229555851045, 28.722982406616214]],
+        bounds: [[59.7702909, 28.7258577], [59.767482, 28.7542248], [59.7622956, 28.7229824]],
         owner: 'YUVENTA'
     },
     {
@@ -342,7 +342,7 @@ let southMaps = [
         year: 2004,
         url: './maps/forest/south/sosnovij_bor_2004.webp',
         link: './original_maps/forest/south/sosnovij_bor_2004_omaps.jpg',
-        bounds: [[59.8994847627188, 29.062614440917972], [59.89474940043523, 29.10115242004395], [59.87015771627351, 29.05240058898926]],
+        bounds: [[59.8994848, 29.0626144], [59.8947494, 29.1011524], [59.8701577, 29.0524006]],
         author: ['SHRNN','DBRTSV_V'],
         owner: 'YUVENTA'
     },
@@ -351,7 +351,7 @@ let southMaps = [
         year: 2021,
         url: './maps/forest/south/sosnovij_bor_2021.webp',
         link: './original_maps/forest/south/sosnovij_bor_2021_omaps.jpg',
-        bounds: [[59.904520725405696, 29.05892372131348], [59.89922648763698, 29.104671478271488], [59.862056997499586, 29.041585922241214]],
+        bounds: [[59.9045207, 29.0589237], [59.8992265, 29.1046715], [59.862057, 29.0415859]],
         author: ['LVCHV','STLV_S','DBRTSV_V','TKHNVA'],
         owner: 'YUVENTA'
     },
@@ -360,7 +360,7 @@ let southMaps = [
         year: 2020,
         url: './maps/forest/south/sosnovij_bor_bereg_2020.webp',
         link: './original_maps/forest/south/sosnovij_bor_bereg_2020_omaps.webp',
-        bounds: [[59.95431193211919, 29.060254096984867], [59.95251769387143, 29.08093929290772], [59.92587203736449, 29.048967361450195]],
+        bounds: [[59.9543119, 29.0602541], [59.9525177, 29.0809393], [59.925872, 29.0489674]],
         author: 'LVCHV',
         owner: 'YUVENTA'
     },
@@ -369,7 +369,7 @@ let southMaps = [
         year: 1977,
         url: './maps/forest/south/kandikjulja_lipovo_1977.webp',
         link: './original_maps/forest/south/kandikjulja_lipovo_1977_omaps.jpg',
-        bounds: [[59.95400036478209, 29.060769081115726], [59.95501026206206, 29.09617424011231], [59.9297750992851, 29.05870914459229]],
+        bounds: [[59.9540004, 29.0607691], [59.9550103, 29.0961742], [59.9297751, 29.0587091]],
         author: 'SHRNN',
         owner: 'SHRNN'
     },
@@ -378,7 +378,7 @@ let southMaps = [
         year: 2020,
         url: './maps/forest/south/sosnovij_bor_lipovo_2020.webp',
         link: './original_maps/forest/south/sosnovij_bor_lipovo_2020_omaps.webp',
-        bounds: [[59.94432957749965, 29.061756134033207], [59.943426826724476, 29.07488822937012], [59.93117277838889, 29.056606292724613]],
+        bounds: [[59.9443296, 29.0617561], [59.9434268, 29.0748882], [59.9311728, 29.0566063]],
         author: ['LVCHV','STLV_S'],
         owner: 'YUVENTA'
     },
@@ -387,7 +387,7 @@ let southMaps = [
         year: 2012,
         url: './maps/forest/south/fort_krasnaja_gorka.webp',
         link: ['./original_maps/forest/south/fort_krasnaja_gorka_2012_omaps.gif','./original_maps/forest/south/fort_krasnaja_gorka_omaps.jpg'],
-        bounds: [[59.9807629815427, 29.305815696716312], [59.976221733526316, 29.357614517211918], [59.962916479136254, 29.298820495605472]],
+        bounds: [[59.980763, 29.3058157], [59.9762217, 29.3576145], [59.9629165, 29.2988205]],
         author: ['DBRTSV_V','MKHLV_A'],
         owner: 'YUVENTA'
     },
@@ -396,7 +396,7 @@ let southMaps = [
         year: 2020,
         url: './maps/forest/south/fort_krasnaja_gorka_2020.webp',
         link: './original_maps/forest/south/fort_krasnaja_gorka_2020_omaps.jpg',
-        bounds: [[59.97953916041285, 29.321157932281494], [59.975620481424144, 29.357635974884037], [59.97175502864446, 29.31828260421753]],
+        bounds: [[59.9795392, 29.3211579], [59.9756205, 29.357636], [59.971755, 29.3182826]],
         author: 'STLV_S',
         owner: 'YUVENTA'
     },
@@ -405,7 +405,7 @@ let southMaps = [
         year: 2010,
         url: './maps/forest/south/lebyazhje_borki_2011.webp',
         link: './original_maps/forest/south/lebyazhje_borki_2011_omaps.jpg',
-        bounds: [[59.95763155393701, 29.44644927978516], [59.955397023083194, 29.48790550231934], [59.94918681445341, 29.4404411315918]],
+        bounds: [[59.9576316, 29.4464493], [59.955397, 29.4879055], [59.9491868, 29.4404411]],
         restricted: 'на неопределённый срок. Минная опасность!',
         author: ['SHRNN','MLNKV_F'],
         owner: 'YUVENTA'
@@ -415,7 +415,7 @@ let southMaps = [
         year: 2023,
         url: './maps/forest/south/shepelevo_2023.webp',
         link: './original_maps/forest/south/shepelevo_2023_omaps.jpg',
-        bounds: [[59.98215851183213, 29.116559028625492], [59.97999004714518, 29.1423511505127], [59.96229350332903, 29.108920097351078]],
+        bounds: [[59.9821585, 29.116559], [59.97999, 29.1423512], [59.9622935, 29.1089201]],
         author: ['SHRNN','LVCHV'],
         owner: 'YUVENTA'
     },
@@ -424,7 +424,7 @@ let southMaps = [
         year: 2013,
         url: './maps/forest/south/shepelevo_2013.webp',
         link: ['./original_maps/forest/south/shepelevo_2013_omaps.gif','./original_maps/forest/south/shepelevo_2013_omaps.ocd'],
-        bounds: [[59.98185794104837, 29.114027023315433], [59.980355046192784, 29.14080619812012], [59.9627231430704, 29.109306335449222]],
+        bounds: [[59.9818579, 29.114027], [59.980355, 29.1408062], [59.9627231, 29.1093063]],
         author: 'SHRNN',
         // owner: 'SHRNN' ?? Мельников
     },
@@ -433,7 +433,7 @@ let southMaps = [
         year: 1982,
         url: './maps/forest/south/shapki_south_1982.webp',
         link: './original_maps/forest/south/shapki_south_1982_omaps.jpg',
-        bounds: [[59.59440632597042, 31.181645393371586], [59.5919301289402, 31.227135658264164], [59.56863626721851, 31.17555141448975]],
+        bounds: [[59.5944063, 31.1816454], [59.5919301, 31.2271357], [59.5686363, 31.1755514]],
         author: 'DRBSHV'
     },
     {
@@ -442,7 +442,7 @@ let southMaps = [
         info: 'Матч ориентировщиков Москвы и Ленинграда.',
         url: './maps/forest/south/shapki_1969.webp',
         link: ['./original_maps/forest/south/shapki_1969_omaps.jpg','./docs/sport_week_leningrad_1969_article_omaps.jpg','./docs/sov_sport_1969_article_omaps.jpg'],
-        bounds: [[59.63048596861456, 31.12933158874512], [59.62983505485158, 31.181859970092777], [59.5911915787326, 31.12212181091309]]
+        bounds: [[59.630486, 31.1293316], [59.6298351, 31.18186], [59.5911916, 31.1221218]]
     },
     {
         name: 'Шапки',
@@ -450,7 +450,7 @@ let southMaps = [
         info: 'П-во Ленинграда, марафон маркир.',
         url: './maps/forest/south/shapki_marathon_1969.webp',
         link: ['./original_maps/forest/south/shapki_marathon_1969_M1_omaps.webp','./original_maps/forest/south/shapki_marathon_1969_M2_omaps.webp','./original_maps/forest/south/shapki_marathon_1969_W_omaps.webp'],
-        bounds: [[59.628272810333115, 31.205635070800785], [59.62731806956574, 31.257991790771488], [59.58093708832512, 31.189928054809574]],
+        bounds: [[59.6282728, 31.2056351], [59.6273181, 31.2579918], [59.5809371, 31.1899281]],
         results: './docs/1969/1969_03_04_shapki_marathon_omaps.pdf'
     },
     {
@@ -458,7 +458,7 @@ let southMaps = [
         year: 1991,
         url: './maps/forest/south/shapki_1991.webp',
         link: ['./original_maps/forest/south/shapki_1991_full_1.jpg','./original_maps/forest/south/shapki_1991_full_2.jpg','./original_maps/forest/south/shapki_1991_full_3.jpg'],
-        bounds: [[59.63005202750804, 31.123924255371097], [59.62501790078504, 31.19928359985352], [59.59562263666977, 31.11611366271973]],
+        bounds: [[59.630052, 31.1239243], [59.6250179, 31.1992836], [59.5956226, 31.1161137]],
         author: 'KRCHKN_V',
         qtty: 200
     },
@@ -467,7 +467,7 @@ let southMaps = [
         year: 2010,
         url: './maps/forest/south/shapki_2010.webp',
         link: './original_maps/forest/south/shapki_2010_omaps.jpg',
-        bounds: [[59.6156854113636, 31.140747070312504], [59.61160434543937, 31.20151519775391], [59.59284243327236, 31.134738922119144]],
+        bounds: [[59.6156854, 31.1407471], [59.6116043, 31.2015152], [59.5928424, 31.1347389]],
         author: ['RYLOV_V','KRCHKN_V']
     },
     {
@@ -475,7 +475,7 @@ let southMaps = [
         year: 2023,
         url: './maps/forest/south/shapki_nesterovskoe_2023.webp',
         link: './original_maps/forest/south/shapki_nesterovskoe_2023_omaps.jpg',
-        bounds: [[59.606828000483425, 31.217393875122074], [59.60483041854183, 31.236405372619632], [59.593906757043015, 31.213402748107914]],
+        bounds: [[59.606828, 31.2173939], [59.6048304, 31.2364054], [59.5939068, 31.2134027]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -484,7 +484,7 @@ let southMaps = [
         year: 2020,
         url: './maps/forest/south/shapki_otime_2020.webp',
         link: './original_maps/forest/south/shapki_otime_2020_omaps.jpg',
-        bounds: [[59.59822886857503, 31.170444488525394], [59.59875009071161, 31.21267318725586], [59.5807197983505, 31.17130279541016]],
+        bounds: [[59.5982289, 31.1704445], [59.5987501, 31.2126732], [59.5807198, 31.1713028]],
         info: 'Ковидный полигон от O-Time.',
         owner: 'NKLSK'
     },
@@ -493,14 +493,14 @@ let southMaps = [
         year: 1,
         url: './maps/forest/south/luga_shalovo_1.webp',
         link: ['./original_maps/forest/south/luga_shalovo_1_omaps.jpg','./original_maps/forest/south/luga_shalovo_1_bw_omaps.jpg'],
-        bounds: [[58.80720768446812, 29.875087738037113], [58.80742995065043, 29.993362426757816], [58.76459520046961, 29.876031875610355]]
+        bounds: [[58.8072077, 29.8750877], [58.80743, 29.9933624], [58.7645952, 29.8760319]]
     },
     {
         name: 'Луга, Зелёное оз',
         year: 1985,
         url: './maps/forest/south/luga_zelenoe_1985.webp',
         link: ['./original_maps/forest/south/luga_zelenoe_1985_omaps.jpg','./original_maps/forest/south/shalovo_black_omaps.webp','./original_maps/forest/south/shalovo_1980_omaps.jpg'],
-        bounds: [[58.815652798287154, 29.898004531860355], [58.808319001138535, 29.942464828491214], [58.7674435939664, 29.87019538879395]],
+        bounds: [[58.8156528, 29.8980045], [58.808319, 29.9424648], [58.7674436, 29.8701954]],
         author: 'BYMKV'
     },
     {
@@ -508,7 +508,7 @@ let southMaps = [
         year: 1986,
         url: './maps/forest/south/luga_shalovo_1986.webp',
         link: './original_maps/forest/south/luga_shalovo_1986_omaps.jpg',
-        bounds: [[58.803139961832024, 29.95954513549805], [58.80125042024749, 30.019884109497074], [58.77158224959439, 29.956626892089847]],
+        bounds: [[58.80314, 29.9595451], [58.8012504, 30.0198841], [58.7715822, 29.9566269]],
         author: 'BYMKV'
     },
     {
@@ -516,7 +516,7 @@ let southMaps = [
         year: 1994,
         url: './maps/forest/south/luga_omchino_1994.webp',
         link: './original_maps/forest/south/luga_omchino_1994_omaps.jpg',
-        bounds: [[58.725539779482865, 29.7535514831543], [58.72095000412907, 29.827022552490238], [58.69611907999549, 29.74535465240479]],
+        bounds: [[58.7255398, 29.7535515], [58.72095, 29.8270226], [58.6961191, 29.7453547]],
         author: ['BYMKV','DRBSHV','FDRV_L','KBTSVA','FLCHKN','KRNLV_A']
     },
     {
@@ -525,7 +525,7 @@ let southMaps = [
         url: './maps/forest/south/luga_shalovo_2006.webp',
         link: './original_maps/forest/south/luga_shalovo_2006_omaps.jpg',
         photo: './tracks/shalovo/pic_2.jpg',
-        bounds: [[58.801650567053684, 29.925470352172855], [58.798716049977116, 29.97980117797852], [58.770247253260614, 29.919204711914066]],
+        bounds: [[58.8016506, 29.9254704], [58.798716, 29.9798012], [58.7702473, 29.9192047]],
         author: 'BYMKV'
     },
     {
@@ -536,7 +536,7 @@ let southMaps = [
         link: './original_maps/forest/south/luga_omelchenko_2006_omaps.jpg',
         info: 'ЧиП ЛО.',
         o_site: '070429_lo',
-        bounds: [[58.799494165803985, 29.87066745758057], [58.798071312216926, 29.886546134948734], [58.78806522556854, 29.868006706237797]],
+        bounds: [[58.7994942, 29.8706675], [58.7980713, 29.8865461], [58.7880652, 29.8680067]],
         author: 'BYMKV'
     },
     {
@@ -544,7 +544,7 @@ let southMaps = [
         year: 2008,
         url: './maps/forest/south/luga_svinechnaja_2008.webp',
         link: './original_maps/forest/south/luga_svinechnaja_2008_omaps.jpg',
-        bounds: [[58.72039295137178, 29.784665107727054], [58.717562985688595, 29.817109107971195], [58.69533864737061, 29.772734642028812]],
+        bounds: [[58.720393, 29.7846651], [58.717563, 29.8171091], [58.6953386, 29.7727346]],
         author: 'BYMKV',
         zindex: 2
     },
@@ -559,7 +559,7 @@ let southMaps = [
         },
         url: './maps/forest/south/luga_omchino_2022_06_09.webp',
         link: ['./original_maps/forest/south/luga_omchino_2022_06_09.gif','./original_maps/forest/south/luga_omchino_2022_06_09_W.gif'],
-        bounds: [[58.7214624847923, 29.791960716247562], [58.719635345315204, 29.81028556823731], [58.70454663851744, 29.78552341461182]],
+        bounds: [[58.7214625, 29.7919607], [58.7196353, 29.8102856], [58.7045466, 29.7855234]],
         author: ['KVZN','TKMKV_K','VRBY']
     },
     {
@@ -573,7 +573,7 @@ let southMaps = [
         },
         url: './maps/forest/south/luga_omchino_2022_06_10.webp',
         link: ['./original_maps/forest/south/luga_omchino_2022_06_10.gif','./original_maps/forest/south/luga_omchino_2022_06_10_W.gif'],
-        bounds: [[58.72103913174298, 29.753894805908207], [58.714665932133464, 29.814834594726566], [58.69656503364685, 29.74453926086426]],
+        bounds: [[58.7210391, 29.7538948], [58.7146659, 29.8148346], [58.696565, 29.7445393]],
         author: ['KVZN','TKMKV_K','VRBY']
     },
     {
@@ -588,7 +588,7 @@ let southMaps = [
         },
         url: './maps/forest/south/luga_omchino_2022_06_11.webp',
         link: ['./original_maps/forest/south/luga_omchino_2022_06_11.gif','./original_maps/forest/south/luga_omchino_2022_06_11_W.gif'],
-        bounds: [[58.73460614874689, 29.80378389358521], [58.732601503940764, 29.824168682098392], [58.72341207053472, 29.79923486709595]],
+        bounds: [[58.7346061, 29.8037839], [58.7326015, 29.8241687], [58.7234121, 29.7992349]],
         author: 'TKMKV_K',
         owner: 'SHEIN'
     },
@@ -598,7 +598,7 @@ let southMaps = [
         excluded: true,
         url: './maps/forest/south/luga_omchino_2021.webp',
         link: './original_maps/forest/south/luga_omchino_2021_omaps.jpg',
-        bounds: [[58.72634181401793, 29.769344329833988], [58.720727184095935, 29.826335906982425], [58.70276319833188, 29.76101875305176]],
+        bounds: [[58.7263418, 29.7693443], [58.7207272, 29.8263359], [58.7027632, 29.7610188]],
         author: ['KVZN','TKMKV_K','VRBY'], // По Омчино копирайт не надо писать. Права не определены.
     },
     {
@@ -606,7 +606,7 @@ let southMaps = [
         year: 2022,
         url: './maps/forest/south/luga_shtole_2022.webp',
         link: './original_maps/forest/south/luga_shtole_2022_omaps.jpg',
-        bounds: [[58.7346506950973, 29.80603694915772], [58.732601503940764, 29.824790954589847], [58.723178126011526, 29.798913002014164]],
+        bounds: [[58.7346507, 29.8060369], [58.7326015, 29.824791], [58.7231781, 29.798913]],
         owner: 'SHEIN',
         author: ['KVZN','TKMKV_K']
     },
@@ -616,7 +616,7 @@ let southMaps = [
         url: './maps/forest/south/luga_alenka_2022.webp',
         link: './original_maps/forest/south/luga_alenka_2022_omaps.jpg',
         photo: './tracks/shalovo/pic_1.jpg',
-        bounds: [[58.82262957770419, 29.91113662719727], [58.81956352271544, 29.952249526977543], [58.80125042024749, 29.90461349487305]],
+        bounds: [[58.8226296, 29.9111366], [58.8195635, 29.9522495], [58.8012504, 29.9046135]],
         owner: 'SHEIN',
         author: 'STLRV'
     },
@@ -625,7 +625,7 @@ let southMaps = [
         year: 2021,
         url: './maps/forest/south/luga_zeleny_bor_2021.webp',
         link: './original_maps/forest/south/luga_zeleny_bor_2021_omaps.jpg',
-        bounds: [[58.70978496598359, 29.80749607086182], [58.707422243479755, 29.835648536682132], [58.688313967069234, 29.80028629302979]],
+        bounds: [[58.709785, 29.8074961], [58.7074222, 29.8356485], [58.688314, 29.8002863]],
         owner: 'SHEIN',
         author: ['KVZN','TKMKV_K']
     },
@@ -633,7 +633,7 @@ let southMaps = [
         name: 'Луга, Шалово',
         year: 2020,
         url: './maps/forest/south/luga_shalovo_nm_2020.webp',
-        bounds: [[58.78426215625883, 29.895257949829105], [58.780036035082176, 29.943408966064457], [58.766598001517856, 29.8894214630127]],
+        bounds: [[58.7842622, 29.8952579], [58.780036, 29.943409], [58.766598, 29.8894215]],
         author: 'ORLV',
         owner: 'LM'
     },
@@ -642,7 +642,7 @@ let southMaps = [
         year: 2022,
         url: './maps/forest/south/rosson_2022.webp',
         link: './original_maps/forest/south/rosson_2022_omaps.jpg',
-        bounds: [[59.48968245988147, 28.0931568145752], [59.487089607147894, 28.11877727508545], [59.471244913663796, 28.08616161346436]],
+        bounds: [[59.4896825, 28.0931568], [59.4870896, 28.1187773], [59.4712449, 28.0861616]],
         owner: 'SHEIN',
         author: 'DBRTSV_V'
     },
@@ -652,14 +652,14 @@ let southMaps = [
         url: './maps/forest/south/ivangorod_1979.webp',
         link: './original_maps/forest/south/ivangorod_1979_omaps.webp',
         info: '4-5 августа. Кубок ЭССР. Кубок ЦСФиС.',
-        bounds: [[59.45521830635969, 28.11980724334717], [59.45702849435417, 28.189630508422855], [59.43100045139333, 28.11985015869141]],
+        bounds: [[59.4552183, 28.1198072], [59.4570285, 28.1896305], [59.4310005, 28.1198502]],
         author: 'NKTN_V'
     },
     {
         name: 'Сиверский, р Орлинка',
         url: './maps/forest/south/siversky_orlinka.webp',
         link: './original_maps/forest/south/siversky_orlinka_omaps.jpg',
-        bounds: [[59.348245546606904, 30.15884399414063], [59.347939238592836, 30.194077491760257], [59.32933678887218, 30.15910148620606]],
+        bounds: [[59.3482455, 30.158844], [59.3479392, 30.1940775], [59.3293368, 30.1591015]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
@@ -668,7 +668,7 @@ let southMaps = [
         year: 2016,
         url: './maps/forest/south/pavlovsk_school_464.webp',
         link: './original_maps/forest/south/pavlovsk_school_464.jpg',
-        bounds: [[59.682886470899305, 30.420885086059574], [59.681857460558504, 30.43169975280762], [59.678965230682635, 30.419061183929447]],
+        bounds: [[59.6828865, 30.4208851], [59.6818575, 30.4316998], [59.6789652, 30.4190612]],
         author: 'SHRNN',
         owner: 'SHRNN'
     },
@@ -678,7 +678,7 @@ let southMaps = [
         url: './maps/forest/south/nagorny_park_1997.webp',
         link: ['./original_maps/forest/south/nagorny_park_1997_omaps.jpg','./original_maps/forest/south/crown_hill_1997_omaps.jpg'],
         photo: './tracks/dudergof/pic_1.jpg',
-        bounds: [[59.70547340708053, 30.1201343536377], [59.70348169163133, 30.140476226806644], [59.69226525549391, 30.115199089050297]],
+        bounds: [[59.7054734, 30.1201344], [59.7034817, 30.1404762], [59.6922653, 30.1151991]],
         info: 'Тренировка от Стрекозаек.',
         author: 'DBRTSV_V'
     },
@@ -688,7 +688,7 @@ let southMaps = [
         url: './maps/forest/south/nagorny_park_2020.webp',
         link: './original_maps/forest/south/nagorny_park_2020_omaps.jpg',
         photo: './tracks/dudergof/pic_5.jpg',
-        bounds: [[59.7056032974501, 30.118718147277836], [59.70358994008143, 30.14111995697022], [59.691702169319946, 30.11365413665772]],
+        bounds: [[59.7056033, 30.1187181], [59.7035899, 30.14112], [59.6917022, 30.1136541]],
         info: 'Ковидный полигон от O-Time.',
         author: 'DBRTSV_V'
     },
@@ -697,7 +697,7 @@ let southMaps = [
         year: 2019,
         url: './maps/forest/south/vybja_2019.webp',
         link: './original_maps/forest/south/vybja_2019_omaps.jpg',
-        bounds: [[59.687608681434966, 28.220057487487797], [59.68399126787276, 28.253316879272464], [59.67601858248743, 28.215680122375492]],
+        bounds: [[59.6876087, 28.2200575], [59.6839913, 28.2533169], [59.6760186, 28.2156801]],
         author: 'FRSHLV'
     },
 ];

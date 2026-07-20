@@ -6,7 +6,7 @@ let zelikMaps = [
         year: 1985,
         url: './maps/forest/zelik/zelenogorsk_komarovo_1985.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovo_1985_omaps.jpg',
-        bounds: [[60.24645669723733, 29.76522445678711], [60.22140113412978, 29.890537261962894], [60.20059217005553, 29.727458953857425]],
+        bounds: [[60.2464567, 29.7652245], [60.2214011, 29.8905373], [60.2005922, 29.727459]],
         author: 'KUZNTSV_S'
     },
     {
@@ -16,7 +16,7 @@ let zelikMaps = [
         link: ['./original_maps/forest/zelik/simagino_1977_omaps.jpg','./original_maps/forest/zelik/simagino_retro_omaps.jpg'],
         info: 'Многодневные сорвнования. Лен.обл.совет ДСО "Труд"',
         author: ['SRGV','TRNTV_V'],
-        bounds: [[60.287407665484366, 29.796380996704105], [60.29013023649271, 29.867019653320316], [60.260935867848005, 29.79852676391602]]
+        bounds: [[60.2874077, 29.796381], [60.2901302, 29.8670197], [60.2609359, 29.7985268]]
     },
     {
         name: 'Рощино, Линдуловская роща',
@@ -26,7 +26,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/roschino_1971_wn.webp',
         link: './original_maps/forest/zelik/roschino_1971_wn_omaps.jpg',
         start: 'WN',
-        bounds: [[60.27362117040428, 29.493484497070316], [60.27425956236299, 29.56403732299805], [60.238320001141126, 29.493827819824222]],
+        bounds: [[60.2736212, 29.4934845], [60.2742596, 29.5640373], [60.23832, 29.4938278]],
     },
     {
         name: 'Решетниково',
@@ -36,7 +36,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/reshetnikovo_1972.webp',
         link: './original_maps/forest/zelik/reshetnikovo_1972_M_omaps.jpg',
         author: ['SRGV','TRNTV_V'],
-        bounds: [[60.26561893464418, 29.685487747192383], [60.26515065811729, 29.74685668945313], [60.236999194901045, 29.685058593750004]]
+        bounds: [[60.2656189, 29.6854877], [60.2651507, 29.7468567], [60.2369992, 29.6850586]]
     },
     {
         name: 'Решетниково, Ловецкое оз',
@@ -44,7 +44,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/reshetnikovo_1979.webp',
         link: './original_maps/forest/zelik/reshetnikovo_1979_omaps.jpg',
         author: ['SRGV','TRNTV_V'],
-        bounds: [[60.27755772237068, 29.71282482147217], [60.266853449734135, 29.733467102050785], [60.263064617640104, 29.68239784240723]]
+        bounds: [[60.2775577, 29.7128248], [60.2668534, 29.7334671], [60.2630646, 29.6823978]]
     },
     {
         name: 'Решетниково, Ловецкое оз',
@@ -52,7 +52,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/lovetskoe_2025.webp',
         link: './original_maps/forest/zelik/lovetskoe_2025_omaps.gif',
         author: 'RDNV_I',
-        bounds: [[60.27349349051767, 29.69561576843262], [60.27130157476378, 29.720420837402347], [60.25478300268887, 29.687461853027347]],
+        bounds: [[60.2734935, 29.6956158], [60.2713016, 29.7204208], [60.254783, 29.6874619]],
         o_gps: 23863
     },
     {
@@ -60,7 +60,7 @@ let zelikMaps = [
         year: 1990,
         url: './maps/forest/zelik/roschino_1990.webp',
         link: './original_maps/forest/zelik/roschino_1990_omaps.jpg',
-        bounds: [[60.26962029715062, 29.525671005249027], [60.26872641818245, 29.572706222534183], [60.238618240342404, 29.520864486694336]],
+        bounds: [[60.2696203, 29.525671], [60.2687264, 29.5727062], [60.2386182, 29.5208645]],
         author: ['KRCHNKO_S','KRCHNKO_N']
     },
     {
@@ -68,7 +68,7 @@ let zelikMaps = [
         year: 1999,
         url: './maps/forest/zelik/roschino_1999.webp',
         link: './original_maps/forest/zelik/roschino_1999_omaps.jpg',
-        bounds: [[60.2687689844013, 29.526443481445312], [60.268130485304354, 29.561891555786136], [60.23870345104413, 29.521250724792484]],
+        bounds: [[60.268769, 29.5264435], [60.2681305, 29.5618916], [60.2387035, 29.5212507]],
         author: ['KRCHNKO_S','FDRV_L','FDRV_A']
     },
     {
@@ -76,7 +76,7 @@ let zelikMaps = [
         year: 1,
         url: './maps/forest/zelik/ushkovo_old.webp',
         link: './original_maps/forest/zelik/ushkovo_old_omaps.jpg',
-        bounds: [[60.24296370356934, 29.553909301757816], [60.2409827550597, 29.599442481994632], [60.2138764651104, 29.549489021301273]]
+        bounds: [[60.2429637, 29.5539093], [60.2409828, 29.5994425], [60.2138765, 29.549489]]
     },
     {
         name: 'Серово',
@@ -84,21 +84,21 @@ let zelikMaps = [
         logo: 'bear_1974.jpg',
         url: './maps/forest/zelik/serovo_1974.webp',
         link: './original_maps/forest/zelik/serovo_1974_omaps.jpg',
-        bounds: [[60.237595694635125, 29.50309753417969], [60.23780872762262, 29.564123153686527], [60.20298075456985, 29.50387001037598]]
+        bounds: [[60.2375957, 29.5030975], [60.2378087, 29.5641232], [60.2029808, 29.50387]]
     },
     {
         name: 'Смолячково',
         year: 1,
         url: './maps/forest/zelik/smoljachkovo_retro.webp',
         link: './original_maps/forest/zelik/smoljachkovo_retro_omaps.webp',
-        bounds: [[60.20681918683261, 29.43245887756348], [60.2032366640261, 29.503440856933597], [60.17644064323766, 29.42649364471436]],
+        bounds: [[60.2068192, 29.4324589], [60.2032367, 29.5034409], [60.1764406, 29.4264936]],
     },
     {
         name: 'Смолячково',
         year: 1988,
         url: './maps/forest/zelik/smoljachkovo_1988.webp',
         link: './original_maps/forest/zelik/smoljachkovo_1988_omaps.jpg',
-        bounds: [[60.20635006920181, 29.43795204162598], [60.20285279909322, 29.50284004211426], [60.18126383410184, 29.431171417236328]],
+        bounds: [[60.2063501, 29.437952], [60.2028528, 29.50284], [60.1812638, 29.4311714]],
         author: 'BRDLN'
     },
     {
@@ -106,7 +106,7 @@ let zelikMaps = [
         year: 2004, // ?
         url: './maps/forest/zelik/dol_solnechny_2004.webp',
         link: ['./original_maps/forest/zelik/dol_solnechny_2004_omaps.jpg','./original_maps/forest/zelik/dol_solnechny_2004_omaps.gif','./original_maps/forest/zelik/dol_solnechny_2004_omaps.ocd'],
-        bounds: [[60.1959744579324, 29.511015415191654], [60.19432130835753, 29.53633546829224], [60.1809223925605, 29.507067203521732]],
+        bounds: [[60.1959745, 29.5110154], [60.1943213, 29.5363355], [60.1809224, 29.5070672]],
         author: 'FDRV_L'
     },
     {
@@ -114,7 +114,7 @@ let zelikMaps = [
         year: 2025,
         url: './maps/forest/zelik/smoljachkovo_2025.webp',
         link: './original_maps/forest/zelik/smoljachkovo_2025_omaps.gif',
-        bounds: [[60.18255487783866, 29.495995044708252], [60.18129584406433, 29.507045745849613], [60.17908708345086, 29.494450092315677]],
+        bounds: [[60.1825549, 29.495995], [60.1812958, 29.5070457], [60.1790871, 29.4944501]],
         author: ['IVNVA_G','TKMKVA_P'],
         owner: 'KP31'
     },
@@ -123,7 +123,7 @@ let zelikMaps = [
         year: 2005,
         url: './maps/forest/zelik/molodezhnoe_2004.webp',
         link: ['./original_maps/forest/zelik/molodezhnoe_2004_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2005_omaps.ocd'],
-        bounds: [[60.23273816668364, 29.503955841064457], [60.228774913143845, 29.541463851928714], [60.21274654984367, 29.49730396270752]],
+        bounds: [[60.2327382, 29.5039558], [60.2287749, 29.5414639], [60.2127465, 29.497304]],
         author: 'FDRV_L'
     },
     {
@@ -131,7 +131,7 @@ let zelikMaps = [
         year: 2020,
         url: './maps/forest/zelik/sosnovaya_polyana_roschinka_2020.webp',
         link: './original_maps/forest/zelik/sosnovaya_polyana_roschinka_2020_omaps.jpg',
-        bounds: [[60.22709145076332, 29.51356887817383], [60.22637755136808, 29.521915912628177], [60.219909127386956, 29.511723518371586]],
+        bounds: [[60.2270915, 29.5135689], [60.2263776, 29.5219159], [60.2199091, 29.5117235]],
         author: 'LVCHV'
     },
     {
@@ -139,7 +139,7 @@ let zelikMaps = [
         year: 2008,
         url: './maps/forest/zelik/pesochnaya_2005.webp',
         link: ['./original_maps/forest/zelik/pesochnaya_2005_omaps.jpg','./original_maps/forest/zelik/pesochnaya_2008_omaps.ocd'],
-        bounds: [[60.122654684605095, 30.111250877380375], [60.11705315601863, 30.18030166625977], [60.10689528234335, 30.10640144348145]],
+        bounds: [[60.1226547, 30.1112509], [60.1170532, 30.1803017], [60.1068953, 30.1064014]],
         author: ['SHKLV','VSLVSKY','DRBSHV'],
         owner: 'SHKLV'
     },
@@ -148,7 +148,7 @@ let zelikMaps = [
         year: 1997,
         url: './maps/forest/zelik/olgino_1997.webp',
         link: ['./original_maps/forest/zelik/olgino_1997_omaps.jpg','./original_maps/forest/zelik/olgino_1997_course_omaps.webp'],
-        bounds: [[60.06068557237958, 30.07490158081055], [60.055630467498005, 30.140132904052738], [60.023825535526576, 30.060739517211918]],
+        bounds: [[60.0606856, 30.0749016], [60.0556305, 30.1401329], [60.0238255, 30.0607395]],
         author: ['BZNV_A','KRCHKN_V']
     },
     {
@@ -156,7 +156,7 @@ let zelikMaps = [
         year: 1980,
         url: './maps/forest/zelik/dibuny_1980.webp',
         link: './original_maps/forest/zelik/dibuny_1980_omaps.jpg',
-        bounds: [[60.13432503660941, 30.06769180297852], [60.12197057953831, 30.13034820556641], [60.112776538475856, 30.04915237426758]],
+        bounds: [[60.134325, 30.0676918], [60.1219706, 30.1303482], [60.1127765, 30.0491524]],
         info: 'Спортивная радиопеленгация ДП им.Жданова.',
         owner: 'KSLV_VN',
         author: 'KZKV'
@@ -168,7 +168,7 @@ let zelikMaps = [
         results: './docs/1986/1986_05_10_tv_omaps.pdf',
         url: './maps/forest/zelik/pesochnaya_1986.webp',
         link: './original_maps/forest/zelik/pesochnaya_1986_omaps.jpg',
-        bounds: [[60.122184363898974, 30.110778808593754], [60.11743802435264, 30.17480850219727], [60.10691667063196, 30.10614395141602]],
+        bounds: [[60.1221844, 30.1107788], [60.117438, 30.1748085], [60.1069167, 30.106144]],
         author: 'VSLVSKY',
         owner: 'KSLV_VN',
         me: 'М-10',
@@ -179,7 +179,7 @@ let zelikMaps = [
         year: 1998,
         url: './maps/forest/zelik/pesochnaya_1998.webp',
         link: ['./original_maps/forest/zelik/pesochnaya_1998_omaps.jpg','./original_maps/forest/zelik/pesochnaya_west_1998_omaps.webp'],
-        bounds: [[60.12128646025379, 30.12837409973145], [60.11745940579484, 30.173993110656742], [60.10659584484433, 30.123052597045902]],
+        bounds: [[60.1212865, 30.1283741], [60.1174594, 30.1739931], [60.1065958, 30.1230526]],
         author: ['VSLVSKY','DRBSHV']
     },
     {
@@ -189,7 +189,7 @@ let zelikMaps = [
         o_site: '070916',
         url: './maps/forest/zelik/solnechnoe-djuny_2007.webp',
         link: ['./original_maps/forest/zelik/solnechnoe-djuny_2007_1_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_2_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_3_omaps.gif','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
-        bounds: [[60.148063386777785, 29.929761886596683], [60.14502990577005, 29.97053146362305], [60.130435379117884, 29.924783706665043]],
+        bounds: [[60.1480634, 29.9297619], [60.1450299, 29.9705315], [60.1304354, 29.9247837]],
         author: 'SHRNN',
         owner: 'SFSO_SPB'
     },
@@ -198,7 +198,7 @@ let zelikMaps = [
         year: 1988,
         url: './maps/forest/zelik/simagino_south_1988.webp',
         link: './original_maps/forest/zelik/simagino_south_1988_omaps.jpg',
-        bounds: [[60.26732170189634, 29.790716171264652], [60.2643843729839, 29.852600097656254], [60.24032241226889, 29.78479385375977]],
+        bounds: [[60.2673217, 29.7907162], [60.2643844, 29.8526001], [60.2403224, 29.7847939]],
         author: 'TRSV',
         qtty: 10
     },
@@ -207,7 +207,7 @@ let zelikMaps = [
         year: 1988,
         url: './maps/forest/zelik/simagino_1988.webp',
         link: './original_maps/forest/zelik/simagino_1988_omaps.jpg',
-        bounds: [[60.29263990581418, 29.78702545166016], [60.291066067917924, 29.839553833007816], [60.25765732238409, 29.783849716186527]],
+        bounds: [[60.2926399, 29.7870255], [60.2910661, 29.8395538], [60.2576573, 29.7838497]],
         author: 'TRSV'
     },
     {
@@ -215,7 +215,7 @@ let zelikMaps = [
         year: 1983,
         url: './maps/forest/zelik/ilychevo_dolgoe_1983.webp',
         link: './original_maps/forest/zelik/ilychevo_dolgoe_1983_omaps.webp',
-        bounds: [[60.316620921304846, 29.70857620239258], [60.31037224602904, 29.808053970336918], [60.28225968515541, 29.700765609741214]],
+        bounds: [[60.3166209, 29.7085762], [60.3103722, 29.808054], [60.2822597, 29.7007656]],
         author: 'KUZNTSV_S'
     },
     {
@@ -223,7 +223,7 @@ let zelikMaps = [
         year: 1979,
         url: './maps/forest/zelik/ilychevo_dolgoe_1979.webp',
         link: './original_maps/forest/zelik/ilychevo_dolgoe_1979_omaps.jpg',
-        bounds: [[60.29327792662018, 29.75552558898926], [60.273833969108, 29.798097610473636], [60.279621563023944, 29.73209381103516]],
+        bounds: [[60.2932779, 29.7555256], [60.273834, 29.7980976], [60.2796216, 29.7320938]],
         author: 'TRSV'
     },
     {
@@ -231,7 +231,7 @@ let zelikMaps = [
         year: 1983,
         url: './maps/forest/zelik/dolgoe_north_1983.webp',
         link: './original_maps/forest/zelik/dolgoe_north_1983_omaps.jpg',
-        bounds: [[60.31687594388387, 29.709520339965824], [60.31449565570198, 29.7520923614502], [60.292937650406586, 29.701967239379886]],
+        bounds: [[60.3168759, 29.7095203], [60.3144957, 29.7520924], [60.2929377, 29.7019672]],
         author: 'KRCHNKO_S'
     },
     {
@@ -240,21 +240,21 @@ let zelikMaps = [
         url: './maps/forest/zelik/repino_1976.webp',
         link: './original_maps/forest/zelik/repino_1976_omaps.jpg',
         info: 'Приз ЛОСТиЭ.',
-        bounds: [[60.23184328035814, 29.85045433044434], [60.231502364853846, 29.911565780639652], [60.208738234557096, 29.85045433044434]],
+        bounds: [[60.2318433, 29.8504543], [60.2315024, 29.9115658], [60.2087382, 29.8504543]],
     },
     {
         name: 'Репино, р Сестра',
         year: 1,
         url: './maps/forest/zelik/repino_sestra_retro.webp',
         link: './original_maps/forest/zelik/repino_sestra_retro_omaps.webp',
-        bounds: [[60.22071908232925, 29.8504114151001], [60.21982386780802, 29.875774383544925], [60.20513459686016, 29.84890937805176]],
+        bounds: [[60.2207191, 29.8504114], [60.2198239, 29.8757744], [60.2051346, 29.8489094]],
     },
     {
         name: 'Зеленогорск, оз Красавица',
         year: 1,
         url: './maps/forest/zelik/zelik_krasavitsa_retro.webp',
         link: './original_maps/forest/zelik/zelik_krasavitsa_retro_omaps.webp',
-        bounds: [[60.26038237022407, 29.78479385375977], [60.253015703086454, 29.814577102661136], [60.239512941657054, 29.759387969970707]],
+        bounds: [[60.2603824, 29.7847939], [60.2530157, 29.8145771], [60.2395129, 29.759388]],
         author: 'NKFRV_A'
     },
     {
@@ -262,7 +262,7 @@ let zelikMaps = [
         year: 1978,
         url: './maps/forest/zelik/zelenogorsk_1978.webp',
         link: './original_maps/forest/zelik/zelenogorsk_1978_omaps.jpg',
-        bounds: [[60.19410799266949, 29.683556556701664], [60.191356095993605, 29.71810340881348], [60.18747318270969, 29.6821403503418]],
+        bounds: [[60.194108, 29.6835566], [60.1913561, 29.7181034], [60.1874732, 29.6821404]],
         author: ['KUZNTSV_S','KUZNTSVA_Z']
     },
     {
@@ -270,7 +270,7 @@ let zelikMaps = [
         year: 1977,
         url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg_1977.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovsky_bereg_1977_omaps.webp',
-        bounds: [[60.20131729444974, 29.71887588500977], [60.19060941756903, 29.77852821350098], [60.19142009621113, 29.710550308227543]],
+        bounds: [[60.2013173, 29.7188759], [60.1906094, 29.7785282], [60.1914201, 29.7105503]],
         author: ['KUZNTSV_S','KUZNTSVA_Z']
     },
     {
@@ -278,7 +278,7 @@ let zelikMaps = [
         year: 1,
         url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovsky_bereg_omaps.jpg',
-        bounds: [[60.20033623997278, 29.729690551757816], [60.18583027344266, 29.80496406555176], [60.18941469676139, 29.723253250122074]],
+        bounds: [[60.2003362, 29.7296906], [60.1858303, 29.8049641], [60.1894147, 29.7232533]],
         author: ['KUZNTSV_S','KUZNTSVA_Z']
     },
     {
@@ -286,7 +286,7 @@ let zelikMaps = [
         year: 1991,
         url: './maps/forest/zelik/ilychevo_1991.webp',
         link: './original_maps/forest/zelik/ilychevo_1991_omaps.jpg',
-        bounds: [[60.27285508361015, 29.768657684326175], [60.271322856205195, 29.817838668823246], [60.24628631594441, 29.7645378112793]],
+        bounds: [[60.2728551, 29.7686577], [60.2713229, 29.8178387], [60.2462863, 29.7645378]],
         author: 'HSMTLN',
     },
     {
@@ -294,7 +294,7 @@ let zelikMaps = [
         year: 1993,
         url: './maps/forest/zelik/ilychevo_1993.webp',
         link: './original_maps/forest/zelik/ilychevo_1993_omaps.jpg',
-        bounds: [[60.28693970076077, 29.740419387817386], [60.286556815550796, 29.796123504638675], [60.25676311663197, 29.73904609680176]],
+        bounds: [[60.2869397, 29.7404194], [60.2865568, 29.7961235], [60.2567631, 29.7390461]],
         author: ['APRN','HSMTLN','LVRV_R'],
         areas: [15,80,5]
     },
@@ -304,7 +304,7 @@ let zelikMaps = [
         area: 11,
         url: './maps/forest/zelik/ilychevo_dolgoe_1995.webp',
         link: ['./original_maps/forest/zelik/ilychevo_dolgoe_1995_omaps.jpg','./original_maps/forest/zelik/ilychevo_dolgoe_1995_h21e_omaps.jpg'],
-        bounds: [[60.310244709596496, 29.704971313476566], [60.30331448158006, 29.81174468994141], [60.272259225923726, 29.692783355712894]],
+        bounds: [[60.3102447, 29.7049713], [60.3033145, 29.8117447], [60.2722592, 29.6927834]],
         author: ['KUZNTSV_S','KVZN']
     },
     {
@@ -312,7 +312,7 @@ let zelikMaps = [
         year: 1961,
         url: './maps/forest/zelik/zelenogorsk_schuchye_1961.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1961_omaps.jpg',
-        bounds: [[60.22960595763016, 29.76183414459229], [60.229115857020744, 29.810843467712406], [60.21223487729479, 29.762392044067386]],
+        bounds: [[60.229606, 29.7618341], [60.2291159, 29.8108435], [60.2122349, 29.762392]],
     },
     {
         name: 'Зеленогорск, оз Щучье',
@@ -320,7 +320,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_schuchye_1970.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1970_omaps.jpg',
         info: 'Первенство ОК Нефтехим.',
-        bounds: [[60.23516702067235, 29.75801467895508], [60.233249519326534, 29.818868637084964], [60.20033623997278, 29.753208160400394]]
+        bounds: [[60.235167, 29.7580147], [60.2332495, 29.8188686], [60.2003362, 29.7532082]]
     },
     {
         name: 'Зеленогорск, оз Щучье',
@@ -329,14 +329,14 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_schuchye_1971.webp',
         link: ['./original_maps/forest/zelik/zelenogorsk_schuchye_1971_omaps.jpg','./original_maps/forest/zelik/zelenogorsk_schuchye_1971_clean_omaps.jpg'],
         info: 'Лично-командное первенство.',
-        bounds: [[60.22357507955077, 29.7465991973877], [60.253952596684194, 29.827623367309574], [60.19491858490831, 29.79123115539551]]
+        bounds: [[60.2235751, 29.7465992], [60.2539526, 29.8276234], [60.1949186, 29.7912312]]
     },
     {
         name: 'Ленинское',
         year: 1,
         url: './maps/forest/zelik/leninskoe_old.webp',
         link: './original_maps/forest/zelik/leninskoe_old_omaps.jpg',
-        bounds: [[60.25148254664529, 29.829082489013675], [60.24492323369224, 29.89062309265137], [60.23054352098402, 29.820713996887207]]
+        bounds: [[60.2514825, 29.8290825], [60.2449232, 29.8906231], [60.2305435, 29.820714]]
     },
     {
         name: 'Озерки',
@@ -345,7 +345,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/ozerki_1971.webp',
         link: './original_maps/forest/zelik/ozerki_1971_omaps.jpg',
         info: 'Эстафета.',
-        bounds: [[60.33306579997825, 29.686002731323246], [60.33293835215384, 29.742479324340824], [60.30178368088176, 29.685487747192383]]
+        bounds: [[60.3330658, 29.6860027], [60.3329384, 29.7424793], [60.3017837, 29.6854877]]
     },
     {
         name: 'Зеленогорск, оз Щучье',
@@ -354,7 +354,7 @@ let zelikMaps = [
         logo: 'ded_1982.jpg',
         url: './maps/forest/zelik/zelenogorsk_schuchye_1982.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1982_omaps.jpg',
-        bounds: [[60.23435742267945, 29.74780082702637], [60.23239726048873, 29.79380607604981], [60.202724843117544, 29.742393493652347]]
+        bounds: [[60.2343574, 29.7478008], [60.2323973, 29.7938061], [60.2027248, 29.7423935]]
     },
     {
         name: 'Зеленогорск, оз Щучье',
@@ -362,14 +362,14 @@ let zelikMaps = [
         start: 'WN',
         url: './maps/forest/zelik/zelenogorsk_schuchye_1972.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1972_omaps.jpg',
-        bounds: [[60.2217208410269, 29.750890731811527], [60.22191266366871, 29.833030700683597], [60.19216675619548, 29.759387969970707]]
+        bounds: [[60.2217208, 29.7508907], [60.2219127, 29.8330307], [60.1921668, 29.759388]]
     },
     {
         name: 'Зеленогорск, оз Щучье',
         year: 1979,
         url: './maps/forest/zelik/zelenogorsk_schuchye_1979.webp',
         link: ['./original_maps/forest/zelik/zelenogorsk_schuchye_1979_omaps.jpg','./original_maps/forest/zelik/zelenogorsk_schuchye_1978_omaps.jpg'],
-        bounds: [[60.226835727394075, 29.742650985717777], [60.22493905013458, 29.782862663269047], [60.20266086494259, 29.738616943359375]],
+        bounds: [[60.2268357, 29.742651], [60.2249391, 29.7828627], [60.2026609, 29.7386169]],
         author: 'SPZHNKV_Y'
     },
     {
@@ -377,7 +377,7 @@ let zelikMaps = [
         year: 1986,
         url: './maps/forest/zelik/zelenogorsk_schuchye_1986.webp',
         link: ['./original_maps/forest/zelik/zelenogorsk_schuchye_1986_omaps.jpg','./original_maps/forest/zelik/zelenogorsk_schuchye_1986_wo_black_omaps.webp'],
-        bounds: [[60.231544979485825, 29.739646911621097], [60.228263490678515, 29.806938171386722], [60.20647801103916, 29.734668731689457]],
+        bounds: [[60.231545, 29.7396469], [60.2282635, 29.8069382], [60.206478, 29.7346687]],
         author: 'SHRNN'
     },
     {
@@ -385,7 +385,7 @@ let zelikMaps = [
         year: 1983,
         url: './maps/forest/zelik/repino_1983.webp',
         link: './original_maps/forest/zelik/repino_1983_omaps.jpg',
-        bounds: [[60.21176583711235, 29.819898605346683], [60.208567657083265, 29.868822097778324], [60.191740095427, 29.814362525939945]],
+        bounds: [[60.2117658, 29.8198986], [60.2085677, 29.8688221], [60.1917401, 29.8143625]],
         author: ['BKSTN','IVNV_V','PTRV_A','TNV'],
         areas: [40,10,40,10]
     },
@@ -395,7 +395,7 @@ let zelikMaps = [
         logo: 'sestroretsk.webp',
         url: './maps/forest/zelik/komarovo_repino_2008.webp',
         link: ['./original_maps/forest/zelik/komarovo_repino_2008_omaps.gif','./original_maps/forest/zelik/komarovo_repino_2008_omaps.ocd'],
-        bounds: [[60.208738234557096, 29.818310737609867], [60.206414040182864, 29.866847991943363], [60.19133476256005, 29.81449127197266]],
+        bounds: [[60.2087382, 29.8183107], [60.206414, 29.866848], [60.1913348, 29.8144913]],
         author: 'FDRV_L',
     },
     {
@@ -405,7 +405,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_priboy_2000.webp',
         link: ['./original_maps/forest/zelik/zelenogorsk_priboy_2000_omaps.jpg','./original_maps/forest/zelik/zelik_simagino_2015_omaps.ocd'],
         photo: './tracks/zelenogorsk/pic_1.jpg',
-        bounds: [[60.2478197156723, 29.730205535888675], [60.23776612113594, 29.847879409790043], [60.19986702963659, 29.71484184265137]],
+        bounds: [[60.2478197, 29.7302055], [60.2377661, 29.8478794], [60.199867, 29.7148418]],
         author: ['TKMKV_K','KUZNTSV_S','SHRNN']
     },
     {
@@ -413,7 +413,7 @@ let zelikMaps = [
         year: 2005,
         url: './maps/forest/zelik/zelenogorsk_schuchye_2005.webp',
         link: ['./original_maps/forest/zelik/zelenogorsk_schuchye_2005_omaps.jpg','./original_maps/forest/zelik/zelenogorsk_schuchye_2005_15000_omaps.jpg'],
-        bounds: [[60.234953970508286, 29.725227355957035], [60.23137452062541, 29.814834594726566], [60.19363869327574, 29.715528488159183]],
+        bounds: [[60.234954, 29.7252274], [60.2313745, 29.8148346], [60.1936387, 29.7155285]],
         author: ['BYMKV','KUZNTSV_S','SHRNN','VSLVSKY']
     },
     {
@@ -422,7 +422,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/zelenogorsk_leninskoe_2008.webp',
         link: ['./original_maps/forest/zelik/zelenogorsk_leninskoe_2008_omaps.gif','./original_maps/forest/zelik/zelenogorsk_leninskoe_2008_omaps.ocd'],
         restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
-        bounds: [[60.239853773826155, 29.723424911499027], [60.232141578515225, 29.832086563110355], [60.19398000259122, 29.714498519897464]],
+        bounds: [[60.2398538, 29.7234249], [60.2321416, 29.8320866], [60.19398, 29.7144985]],
         author: ['VSLVSKY','DRBSHV']
     },
     {
@@ -430,7 +430,7 @@ let zelikMaps = [
         year: 2014,
         url: './maps/forest/zelik/komarovo_2014.webp',
         link: ['./original_maps/forest/zelik/komarovo_2014_omaps.gif','./original_maps/forest/zelik/komarovo_2014_omaps.ocd'],
-        bounds: [[60.20396172997914, 29.7920036315918], [60.20010163564336, 29.837965965271], [60.184550027412534, 29.78526592254639]],
+        bounds: [[60.2039617, 29.7920036], [60.2001016, 29.837966], [60.18455, 29.7852659]],
         author: 'VSLVSKY'
     },
 /*
@@ -439,7 +439,7 @@ let zelikMaps = [
         year: 2000,
         url: './maps/forest/zelik/zelenogorsk_schuchye_2011.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_2011_omaps.jpg',
-        bounds: [[60.23789394042978, 29.747972488403324], [60.23252510072741, 29.815092086791996], [60.20374847695044, 29.736213684082035]],
+        bounds: [[60.2378939, 29.7479725], [60.2325251, 29.8150921], [60.2037485, 29.7362137]],
         author: 'SHRNN',
         owner: 'SHRNN'
     },
@@ -451,7 +451,7 @@ let zelikMaps = [
         page: 'spb',
         url: './maps/forest/zelik/zelenogorsk_komarovo_1992.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovo_1992_omaps.jpg',
-        bounds: [[60.217521775369605, 29.73810195922852], [60.21257599321435, 29.803161621093754], [60.1930413934332, 29.728660583496097]],
+        bounds: [[60.2175218, 29.738102], [60.212576, 29.8031616], [60.1930414, 29.7286606]],
         author: 'BYMKV'
     },
     {
@@ -460,7 +460,7 @@ let zelikMaps = [
         logo: 'nevsky_azimut.gif',
         url: './maps/forest/zelik/zelenogorsk_priboy_1992.webp',
         link: './original_maps/forest/zelik/zelenogorsk_priboy_1992_omaps.jpg',
-        bounds: [[60.22736848216193, 29.720420837402347], [60.22250943804349, 29.776210784912113], [60.19709428614133, 29.71140861511231]],
+        bounds: [[60.2273685, 29.7204208], [60.2225094, 29.7762108], [60.1970943, 29.7114086]],
         author: 'BYMKV',
         qtty: 2
     },
@@ -469,7 +469,7 @@ let zelikMaps = [
         year: 1999,
         url: './maps/forest/zelik/zelenogorsk_chernye_1999.webp',
         link: './original_maps/forest/zelik/zelenogorsk_chernye_1999_omaps.webp',
-        bounds: [[60.24620112496558, 29.75883007049561], [60.23593398979317, 29.843759536743168], [60.21839573690214, 29.74483966827393]],
+        bounds: [[60.2462011, 29.7588301], [60.235934, 29.8437595], [60.2183957, 29.7448397]],
         author: ['KUZNTSV_S','SHRNN'],
         excluded: true
     },
@@ -478,7 +478,7 @@ let zelikMaps = [
         year: 1998,
         url: './maps/forest/zelik/krasavitsa_1998.webp',
         link: './original_maps/forest/zelik/krasavitsa_1998_omaps.jpg',
-        bounds: [[60.257614741711635, 29.733681678771976], [60.254357156086634, 29.789385795593265], [60.235550507476816, 29.729218482971195]],
+        bounds: [[60.2576147, 29.7336817], [60.2543572, 29.7893858], [60.2355505, 29.7292185]],
         info: 'Первая карта Константина Токмакова.',
         author: 'TKMKV_K',
         owner: 'TOKM'
@@ -488,14 +488,14 @@ let zelikMaps = [
         year: 1,
         url: './maps/forest/zelik/zelenogorsk_druzhinnoe_retro.webp',
         link: './original_maps/forest/zelik/zelenogorsk_druzhinnoe_retro_omaps.webp',
-        bounds: [[60.24879935013485, 29.769430160522464], [60.24013069735259, 29.788613319396976], [60.22922240125491, 29.7315788269043]],
+        bounds: [[60.2487994, 29.7694302], [60.2401307, 29.7886133], [60.2292224, 29.7315788]],
     },
     {
         name: 'Зеленогорск, Дружинное оз',
         year: 1985,
         url: './maps/forest/zelik/zelenogorsk_chertovo_oz_1995.webp',
         link: ['./original_maps/forest/zelik/zelenogorsk_chertovo_oz_1995_omaps.jpg','./original_maps/forest/zelik/zelenogorsk_chertovo_oz_1985_omaps.webp'],
-        bounds: [[60.240024188580975, 29.76204872131348], [60.2312892908627, 29.77380752563477], [60.23047959706192, 29.734926223754886]],
+        bounds: [[60.2400242, 29.7620487], [60.2312893, 29.7738075], [60.2304796, 29.7349262]],
         author: 'KUZNTSV_S'
     },
     {
@@ -503,7 +503,7 @@ let zelikMaps = [
         year: 2002,
         url: './maps/forest/zelik/zelenogorsk_druzhinnoe_2002.webp',
         link: './original_maps/forest/zelik/zelenogorsk_druzhinnoe_2002_omaps.jpg',
-        bounds: [[60.238213486482735, 29.735012054443363], [60.235571812167706, 29.771876335144047], [60.219290990416546, 29.729990959167484]],
+        bounds: [[60.2382135, 29.7350121], [60.2355718, 29.7718763], [60.219291, 29.729991]],
         author: ['VLKV_K','URVNTSV']
     },
     {
@@ -511,7 +511,7 @@ let zelikMaps = [
         year: 2024,
         url: './maps/forest/zelik/zelenogorsk_druzhinnoe_2024.webp',
         link: './original_maps/forest/zelik/zelenogorsk_druzhinnoe_2024_omaps.jpg',
-        bounds: [[60.24373049018684, 29.735698699951175], [60.24040761853822, 29.776124954223636], [60.21909915243553, 29.72582817077637]],
+        bounds: [[60.2437305, 29.7356987], [60.2404076, 29.776125], [60.2190992, 29.7258282]],
         author: 'RDNV_I',
         owner: 'RDNV_I'
     },
@@ -519,7 +519,7 @@ let zelikMaps = [
         name: 'Зеленогорск, оз Щучье',
         year: 2020,
         url: './maps/forest/zelik/zelenogorsk_schuchye_2020.webp',
-        bounds: [[60.236061816234596, 29.751405715942386], [60.23188589454682, 29.802045822143555], [60.21816126170426, 29.745655059814457]],
+        bounds: [[60.2360618, 29.7514057], [60.2318859, 29.8020458], [60.2181613, 29.7456551]],
         author: 'MKHLV_A',
         owner: 'WN'
     },
@@ -528,7 +528,7 @@ let zelikMaps = [
         year: 1979,
         url: './maps/forest/zelik/zelenogorsk_chernye_1979.webp',
         link: './original_maps/forest/zelik/zelenogorsk_chernye_1979_omaps.jpg',
-        bounds: [[60.23248248736994, 29.78346347808838], [60.23082052320575, 29.83092784881592], [60.21402569629195, 29.779729843139652]],
+        bounds: [[60.2324825, 29.7834635], [60.2308205, 29.8309278], [60.2140257, 29.7797298]],
         author: 'SPZHNKV_Y',
         owner: 'KSLV_VN'
     },
@@ -537,21 +537,21 @@ let zelikMaps = [
         year: 1995,
         url: './maps/forest/zelik/zelenogorsk_chernye_1995.webp',
         link: './original_maps/forest/zelik/zelenogorsk_chernye_1995_omaps.jpg',
-        bounds: [[60.24688264659181, 29.75707054138184], [60.240918851500375, 29.81972694396973], [60.21730861048657, 29.74428176879883]],
+        bounds: [[60.2468826, 29.7570705], [60.2409189, 29.8197269], [60.2173086, 29.7442818]],
         author: ['HSMTLN','BYMKV']
     },
     {
         name: 'Горки, Ильичёвское оз',
         year: 2012,
         url: './maps/forest/zelik/gorki_2012.webp',
-        bounds: [[60.299976393309244, 29.73282337188721], [60.297488551644776, 29.772391319274906], [60.286322827937596, 29.728789329528812]],
+        bounds: [[60.2999764, 29.7328234], [60.2974886, 29.7723913], [60.2863228, 29.7287893]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
     {
         name: 'Ильичёво',
         url: './maps/forest/zelik/ilychevo.webp',
-        bounds: [[60.278238591412865, 29.75681304931641], [60.27657894829296, 29.77874279022217], [60.26144678042457, 29.751448631286625]],
+        bounds: [[60.2782386, 29.756813], [60.2765789, 29.7787428], [60.2614468, 29.7514486]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
@@ -559,7 +559,7 @@ let zelikMaps = [
         name: 'Ильичёво',
         year: 2016,
         url: './maps/forest/zelik/ilychevo_2016.webp',
-        bounds: [[60.28336593110846, 29.738445281982422], [60.280472593413364, 29.775094985961918], [60.270577997519666, 29.734282493591312]],
+        bounds: [[60.2833659, 29.7384453], [60.2804726, 29.775095], [60.270578, 29.7342825]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
@@ -574,7 +574,7 @@ let zelikMaps = [
             'МЭ': 657,
             'ЖЭ': 658
         },
-        bounds: [[60.29246976482949, 29.792947769165043], [60.28749274926003, 29.86719131469727], [60.24356009471195, 29.772605895996097]],
+        bounds: [[60.2924698, 29.7929478], [60.2874927, 29.8671913], [60.2435601, 29.7726059]],
         author: ['KUZNTSV_S','SHRNN'],
         owner: 'SFSO_SPB'
     },
@@ -583,7 +583,7 @@ let zelikMaps = [
         date: '2025-10-05',
         url: './maps/forest/zelik/bolotnaya_station_2025.webp',
         link: './original_maps/forest/zelik/bolotnaya_station_2025_omaps.gif',
-        bounds: [[60.263767074689504, 29.796123504638675], [60.25904116408923, 29.84672069549561], [60.24660578014152, 29.789900779724125]],
+        bounds: [[60.2637671, 29.7961235], [60.2590412, 29.8467207], [60.2466058, 29.7899008]],
         info: 'Невский спринт.',
         o_site: '251007_NS',
         o_gps: 23575,
@@ -598,7 +598,7 @@ let zelikMaps = [
         name: 'Болотная станция',
         year: 2019,
         url: './maps/forest/zelik/bolotnaya_station_2019.webp',
-        bounds: [[60.26757710934261, 29.795179367065433], [60.264512088418755, 29.830327033996586], [60.244688948217195, 29.786639213562015]],
+        bounds: [[60.2675771, 29.7951794], [60.2645121, 29.830327], [60.2446889, 29.7866392]],
         author: 'MKHLV_A',
         owner: 'WN'
     },
@@ -606,7 +606,7 @@ let zelikMaps = [
         name: 'Зеленогорск, Чёрные оз',
         year: 2023,
         url: './maps/forest/zelik/zelenogorsk_chernye_2023.webp',
-        bounds: [[60.248330832960995, 29.778871536254886], [60.244284269358644, 29.813632965087894], [60.22400132645466, 29.766941070556644]],
+        bounds: [[60.2483308, 29.7788715], [60.2442843, 29.813633], [60.2240013, 29.7669411]],
         author: 'MKHLV_A',
         owner: 'WN'
     },
@@ -615,7 +615,7 @@ let zelikMaps = [
         year: 1985,
         url: './maps/forest/zelik/komarovo_1990.webp',
         link: './original_maps/forest/zelik/komarovo_1990_omaps.jpg',
-        bounds: [[60.18559556540752, 29.80496406555176], [60.175245406790275, 29.856591224670414], [60.17349516066162, 29.794921875000004]],
+        bounds: [[60.1855956, 29.8049641], [60.1752454, 29.8565912], [60.1734952, 29.7949219]],
         author: ['SHRNN','FDRV_L']
     },
     {
@@ -623,7 +623,7 @@ let zelikMaps = [
         year: 2012,
         url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg_2012.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovsky_bereg_2012_omaps.webp',
-        bounds: [[60.18798524151971, 29.780459403991703], [60.18635302621808, 29.80451345443726], [60.17743308330735, 29.777841567993168]],
+        bounds: [[60.1879852, 29.7804594], [60.186353, 29.8045135], [60.1774331, 29.7778416]],
         author: 'DRBSHV'
     },
     {
@@ -631,7 +631,7 @@ let zelikMaps = [
         year: 2013,
         url: './maps/forest/zelik/komarovo_2013.webp',
         link: ['./original_maps/forest/zelik/komarovo_2013_omaps.gif','./original_maps/forest/zelik/komarovo_2009_omaps.ocd'],
-        bounds: [[60.1815839323226, 29.805693626403812], [60.17895903480163, 29.855604171752933], [60.168243862694155, 29.802217483520508]],
+        bounds: [[60.1815839, 29.8056936], [60.178959, 29.8556042], [60.1682439, 29.8022175]],
         author: ['SHRNN','ZNDR']
     },
     {
@@ -640,7 +640,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/roschino_2025.webp',
         link: './original_maps/forest/zelik/roschino_2025_omaps.jpg',
         o_gps: 21692,
-        bounds: [[60.285812303696865, 29.59047317504883], [60.28449341251603, 29.63943958282471], [60.26700243978524, 29.588413238525394]],
+        bounds: [[60.2858123, 29.5904732], [60.2844934, 29.6394396], [60.2670024, 29.5884132]],
         author: 'SHRPVA',
         owner: 'SHRPVA'
     },
@@ -649,7 +649,7 @@ let zelikMaps = [
         year: 2009,
         url: './maps/forest/zelik/roschino_2009.webp',
         link: ['./original_maps/forest/zelik/roschino_2009_omaps.jpg','./original_maps/forest/zelik/roschino_2009_omaps.ocd'],
-        bounds: [[60.27634488928318, 29.564423561096195], [60.27542991526678, 29.601931571960453], [60.263298771665085, 29.562621116638187]],
+        bounds: [[60.2763449, 29.5644236], [60.2754299, 29.6019316], [60.2632988, 29.5626211]],
         author: ['VSLVSKY','DRBSHV']
     },
     {
@@ -657,7 +657,7 @@ let zelikMaps = [
         year: 2012,
         url: './maps/forest/zelik/roschino_2012.webp',
         link: './original_maps/forest/zelik/roschino_2012_omaps.jpg',
-        bounds: [[60.27182296609358, 29.582598209381107], [60.271961293011, 29.601051807403568], [60.26382029051831, 29.582834243774418]],
+        bounds: [[60.271823, 29.5825982], [60.2719613, 29.6010518], [60.2638203, 29.5828342]],
         author: 'SHRNN'
     },
     {
@@ -665,7 +665,7 @@ let zelikMaps = [
         year: 2009, //Реально более ранняя
         url: './maps/forest/zelik/pukhtolova_gora_2009.webp',
         link: './original_maps/forest/zelik/pukhtolova_gora_2009_omaps.jpg',
-        bounds: [[60.24266550392609, 29.629054069519047], [60.23987507571899, 29.678277969360355], [60.22879622224008, 29.625406265258793]],
+        bounds: [[60.2426655, 29.6290541], [60.2398751, 29.678278], [60.2287962, 29.6254063]],
         author: ['BLZRV_V','URVNTSV','NKFRV_A']
     },
     {
@@ -673,7 +673,7 @@ let zelikMaps = [
         year: 2025,
         url: './maps/forest/zelik/pukhtolova_gora_2025.webp',
         link: './original_maps/forest/zelik/pukhtolova_gora_2025_omaps.jpg',
-        bounds: [[60.2611487490574, 29.638881683349613], [60.2537609615383, 29.70235347747803], [60.22888145848637, 29.62347507476807]],
+        bounds: [[60.2611487, 29.6388817], [60.253761, 29.7023535], [60.2288815, 29.6234751]],
         author: ['URVNTSV','NKFRV_A'],
         owner: 'ANCHKV'
     },
@@ -682,7 +682,7 @@ let zelikMaps = [
         year: 1979,
         url: './maps/forest/zelik/pukhtolova_gora_1979.webp',
         link: ['./original_maps/forest/zelik/pukhtolova_gora_1979_omaps.jpg','./original_maps/forest/zelik/pukhtolova_gora_1979_omaps.webp'],
-        bounds: [[60.24543439618453, 29.637680053710938], [60.243986081737205, 29.69338417053223], [60.21713807758243, 29.63373184204102]],
+        bounds: [[60.2454344, 29.6376801], [60.2439861, 29.6933842], [60.2171381, 29.6337318]],
         author: 'GRZNVCH'
     },
     {
@@ -690,14 +690,14 @@ let zelikMaps = [
         year: 1993,
         url: './maps/forest/zelik/pukhtolova_gora_1993.webp',
         link: ['./original_maps/forest/zelik/pukhtolova_gora_1993_omaps.webp','./original_maps/forest/zelik/pukhtolova_gora_1993_winter_omaps.webp'],
-        bounds: [[60.244965830871294, 29.639139175415043], [60.241515279872864, 29.694242477416996], [60.21764967363427, 29.632444381713867]],
+        bounds: [[60.2449658, 29.6391392], [60.2415153, 29.6942425], [60.2176497, 29.6324444]],
         author: ['HSMTLN','APRN']
     },
     {
         name: 'Пухтолова гора',
         year: 2017,
         url: './maps/forest/zelik/pukhtolova_gora_2023.webp',
-        bounds: [[60.241919992941305, 29.645104408264164], [60.238937779331096, 29.682226181030277], [60.22871098577209, 29.641027450561527]],
+        bounds: [[60.24192, 29.6451044], [60.2389378, 29.6822262], [60.228711, 29.6410275]],
         author: 'MKHLV_A',
         owner: 'WN'
     },
@@ -705,7 +705,7 @@ let zelikMaps = [
         name: 'Пухтолова гора',
         year: 2026,
         url: './maps/trnsprnt.png',
-        bounds: [[60.23661572505161, 29.67192649841309], [60.23780872762262, 29.69012260437012], [60.2279651572218, 29.67244148254395]],
+        bounds: [[60.2366157, 29.6719265], [60.2378087, 29.6901226], [60.2279652, 29.6724415]],
         restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
         owner: 'SFSO_SPB',
     },
@@ -713,7 +713,7 @@ let zelikMaps = [
         name: 'Озерки',
         year: 2015,
         url: './maps/forest/zelik/ozerki_2022.webp',
-        bounds: [[60.3206797942916, 29.690594673156742], [60.317279725561335, 29.725527763366703], [60.30023154584922, 29.682269096374515]],
+        bounds: [[60.3206798, 29.6905947], [60.3172797, 29.7255278], [60.3002315, 29.6822691]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
@@ -722,7 +722,7 @@ let zelikMaps = [
         year: 2022,
         url: './maps/forest/zelik/lindulovskaya_roscha_2015.webp',
         link: './original_maps/forest/zelik/lindulovskaya_roscha_2015_omaps.jpg',
-        bounds: [[60.256592788957555, 29.525198936462406], [60.25563467927723, 29.542450904846195], [60.23919340827815, 29.52185153961182]],
+        bounds: [[60.2565928, 29.5251989], [60.2556347, 29.5424509], [60.2391934, 29.5218515]],
         author: 'RDNV_I',
         owner: 'RDNV_I'
     },
@@ -731,7 +731,7 @@ let zelikMaps = [
         year: 2024,
         url: './maps/forest/zelik/serovo_2024.webp',
         link: './original_maps/forest/zelik/serovo_2024_omaps.jpg',
-        bounds: [[60.22357507955077, 29.56154823303223], [60.216328034176136, 29.63192939758301], [60.19760619488179, 29.550390243530277]],
+        bounds: [[60.2235751, 29.5615482], [60.216328, 29.6319294], [60.1976062, 29.5503902]],
         author: 'RDNV_I',
         owner: 'RDNV_I'
     },
@@ -740,7 +740,7 @@ let zelikMaps = [
         year: 2006,
         url: './maps/forest/zelik/serovo_2006.webp',
         link: ['./original_maps/forest/zelik/serovo_2006_omaps.gif','./original_maps/forest/zelik/serovo_2006_omaps.ocd'],
-        bounds: [[60.20462280555932, 29.542772769927982], [60.204569493506334, 29.5543384552002], [60.20009097177034, 29.542922973632816]],
+        bounds: [[60.2046228, 29.5427728], [60.2045695, 29.5543385], [60.200091, 29.542923]],
         author: 'FDRV_L',
     },
     {
@@ -748,7 +748,7 @@ let zelikMaps = [
         year: 1982,
         url: './maps/forest/zelik/beloostrov_1982.webp',
         link: './original_maps/forest/zelik/beloostrov_1982_omaps.jpg',
-        bounds: [[60.14710210266158, 29.989414215087894], [60.14599125046178, 30.006580352783207], [60.13624832370487, 29.987869262695312]],
+        bounds: [[60.1471021, 29.9894142], [60.1459913, 30.0065804], [60.1362483, 29.9878693]],
         author: 'CHGRVSKY_V'
     },
     {
@@ -756,7 +756,7 @@ let zelikMaps = [
         year: 2007,
         url: './maps/forest/zelik/old_beloostrov_2007.webp',
         link: './original_maps/forest/zelik/old_beloostrov_2007_omaps.jpg',
-        bounds: [[60.2153687463682, 30.034604072570804], [60.21325821440992, 30.064344406127933], [60.20507062338418, 30.03121376037598]],
+        bounds: [[60.2153687, 30.0346041], [60.2132582, 30.0643444], [60.2050706, 30.0312138]],
         author: ['SHRNN','RYLOV_V'],
         areas: [70, 30],
         zindex: 2
@@ -766,7 +766,7 @@ let zelikMaps = [
         year: 2007,
         url: './maps/forest/zelik/beloostrov_udachnoe_2007.webp',
         link: './original_maps/forest/zelik/beloostrov_udachnoe_2007_omaps.jpg',
-        bounds: [[60.22464068641878, 29.95207786560059], [60.21820389368313, 30.0322437286377], [60.20370582617838, 29.947957992553714]],
+        bounds: [[60.2246407, 29.9520779], [60.2182039, 30.0322437], [60.2037058, 29.947958]],
         author: ['RYLOV_V','SHRNN']
     },
     {
@@ -775,7 +775,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/beloostrov_udachnoe_2024.webp',
         link: ['./original_maps/forest/zelik/beloostrov_udachnoe_2024_omaps.jpg','./original_maps/forest/zelik/beloostrov_udachnoe_2020_omaps.ocd'],
         author: ['RYLOV_V','SHRNN','RDNV_I'],
-        bounds: [[60.22485380363574, 29.951906204223636], [60.2185449475187, 30.032415390014652], [60.203663175350826, 29.946155548095707]],
+        bounds: [[60.2248538, 29.9519062], [60.2185449, 30.0324154], [60.2036632, 29.9461555]],
         owner: ['RDNV_I','SHRNN']
     },
     {
@@ -783,7 +783,7 @@ let zelikMaps = [
         year: 1996,
         url: './maps/forest/zelik/sestroretsk_rjavaya_kanava_1996.webp',
         link: './original_maps/forest/zelik/sestroretsk_rjavaya_kanava_1996_omaps.webp',
-        bounds: [[60.14300030802044, 29.95083332061768], [60.14045779307042, 29.988126754760746], [60.118571221654584, 29.94486808776856]],
+        bounds: [[60.1430003, 29.9508333], [60.1404578, 29.9881268], [60.1185712, 29.9448681]],
         logo: 'wn_retro.webp',
         author: 'MLVA_M'
     },
@@ -792,7 +792,7 @@ let zelikMaps = [
         year: 2019,
         url: './maps/forest/zelik/sestroretskie_djuny_2019.webp',
         link: ['./original_maps/forest/zelik/sestroretskie_djuny_2019_omaps.jpg','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
-        bounds: [[60.129815556057196, 29.943172931671146], [60.126716265625745, 29.95851516723633], [60.12330670901339, 29.9383020401001]],
+        bounds: [[60.1298156, 29.9431729], [60.1267163, 29.9585152], [60.1233067, 29.938302]],
         author: 'SHRNN',
         owner: 'SHRNN'
     },
@@ -800,7 +800,7 @@ let zelikMaps = [
         name: 'Сестрорецкие Дюны',
         year: 2022,
         url: './maps/forest/zelik/sestroretskie_djuny_2021.webp',
-        bounds: [[60.11853915056914, 29.968643188476566], [60.118410865915045, 29.975595474243168], [60.11331114604577, 29.96703386306763]],
+        bounds: [[60.1185392, 29.9686432], [60.1184109, 29.9755955], [60.1133111, 29.9670339]],
         author: 'DRBSHV'
     },
     {
@@ -808,7 +808,7 @@ let zelikMaps = [
         year: 2022,
         url: './maps/forest/zelik/sestroretskie_djuny_2022.webp',
         link: './original_maps/forest/zelik/sestroretskie_djuny_2022_omaps.jpg',
-        bounds: [[60.12961250803307, 29.93980407714844], [60.127464396937015, 29.959931373596195], [60.122676062659345, 29.937036037445072]],
+        bounds: [[60.1296125, 29.9398041], [60.1274644, 29.9599314], [60.1226761, 29.937036]],
         author: ['TKMKV_K','TKMKVA_P','IVNVA_G','KVZN'],
         owner: 'SFSO_SPB'
     },
@@ -816,14 +816,14 @@ let zelikMaps = [
         name: 'Сестрорецк, Детские Дюны',
         url: './maps/forest/zelik/sestroretsk_detskie_djuny.webp',
         link: './original_maps/forest/zelik/sestroretsk_detskie_djuny_omaps.jpg',
-        bounds: [[60.118774337803394, 29.95853662490845], [60.11785495997083, 29.970660209655765], [60.11160037127036, 29.9567985534668]]
+        bounds: [[60.1187743, 29.9585366], [60.117855, 29.9706602], [60.1116004, 29.9567986]]
     },
     {
         name: 'Сестрорецк, Детские Дюны',
         year: 2010,
         url: './maps/forest/zelik/sestroretskie_detskie_djuny_2010.webp',
         link: './original_maps/forest/zelik/sestroretskie_detskie_djuny_2010_omaps.jpg',
-        bounds: [[60.12263330653698, 29.957356452941898], [60.1222805664083, 29.972226619720463], [60.11693555646363, 29.956669807434086]],
+        bounds: [[60.1226333, 29.9573565], [60.1222806, 29.9722266], [60.1169356, 29.9566698]],
         author: 'SHRNN'
     },
     {
@@ -831,14 +831,14 @@ let zelikMaps = [
         year: 1,
         url: './maps/forest/zelik/sestroretskie_detskie_djuny_retro.webp',
         link: './original_maps/forest/zelik/sestroretskie_detskie_djuny_retro_omaps.webp',
-        bounds: [[60.12827663453366, 29.951519966125492], [60.1271223961621, 29.979586601257328], [60.11172868246148, 29.94778633117676]],
+        bounds: [[60.1282766, 29.95152], [60.1271224, 29.9795866], [60.1117287, 29.9477863]],
     },
     {
         name: 'Сестрорецк, Детские Дюны',
         year: 2005,
         url: './maps/forest/zelik/sestroretskie_detskie_djuny_2005.webp',
         link: ['./original_maps/forest/zelik/sestroretskie_detskie_djuny_2005_omaps.jpg','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
-        bounds: [[60.12263330653698, 29.957227706909183], [60.12231263384891, 29.972097873687748], [60.11691417468124, 29.956712722778324]],
+        bounds: [[60.1226333, 29.9572277], [60.1223126, 29.9720979], [60.1169142, 29.9567127]],
         author: 'SHRNN',
         excluded: true
     },
@@ -847,14 +847,14 @@ let zelikMaps = [
         year: 2020,
         url: './maps/forest/zelik/sestroretskie_detskie_djuny_2020.webp',
         link: './original_maps/forest/zelik/sestroretskie_detskie_djuny_2020_omaps.gif',
-        bounds: [[60.122964665032725, 29.962162971496586], [60.12140404426768, 29.974372386932377], [60.117694600742524, 29.95905160903931]],
+        bounds: [[60.1229647, 29.962163], [60.121404, 29.9743724], [60.1176946, 29.9590516]],
         author: ['SHRNN','BBCH_A','KUZNTSV_A'],
     },
     {
         name: 'Сестрорецк, Дюны, ТЭЦ',
         url: './maps/forest/zelik/sestroretskie_djuny_tets.webp',
         link: ['./original_maps/forest/zelik/sestroretskie_djuny_tets_omaps.jpg','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
-        bounds: [[60.12783845621518, 29.957206249237064], [60.12702620780377, 29.967741966247562], [60.12243021419727, 29.955425262451175]],
+        bounds: [[60.1278385, 29.9572062], [60.1270262, 29.967742], [60.1224302, 29.9554253]],
         author: 'SHRNN',
         owner: 'SHRNN'
     },
@@ -863,7 +863,7 @@ let zelikMaps = [
         year: 1987,
         url: './maps/forest/zelik/tarkhovka_1987.webp',
         link: './original_maps/forest/zelik/tarkhovka_1987_omaps.jpg',
-        bounds: [[60.073234306818485, 29.946198463439945], [60.07207813845158, 29.97581005096436], [60.05882212806155, 29.942722320556644]],
+        bounds: [[60.0732343, 29.9461985], [60.0720781, 29.9758101], [60.0588221, 29.9427223]],
         author: 'BBNN_I'
     },
     {
@@ -871,7 +871,7 @@ let zelikMaps = [
         year: 1997,
         url: './maps/forest/zelik/tarkhovka_1997.webp',
         link: './original_maps/forest/zelik/tarkhovka_1997_omaps.webp',
-        bounds: [[60.07625299982382, 29.94709968566895], [60.07505411936656, 29.977440834045414], [60.05884354755957, 29.942378997802738]],
+        bounds: [[60.076253, 29.9470997], [60.0750541, 29.9774408], [60.0588435, 29.942379]],
         author: 'MLVA_M',
         logo: 'wn_retro.webp'
     },
@@ -880,7 +880,7 @@ let zelikMaps = [
         year: 1980,
         url: './maps/forest/zelik/tarkhovka_1980.webp',
         link: './original_maps/forest/zelik/tarkhovka_1980_omaps.jpg',
-        bounds: [[60.07237788969751, 29.945511817932132], [60.07150003907007, 29.974865913391117], [60.058950644841026, 29.944224357604984]],
+        bounds: [[60.0723779, 29.9455118], [60.0715, 29.9748659], [60.0589506, 29.9442244]],
         author: 'VLKV_K'
     },
     {
@@ -888,7 +888,7 @@ let zelikMaps = [
         year: 1986,
         url: './maps/forest/zelik/lisy_nos_1986.webp',
         link: './original_maps/forest/zelik/lisy_nos_1986_omaps.jpg',
-        bounds: [[60.010678843334446, 30.013790130615238], [60.006281148244774, 30.071082115173343], [59.999372368285684, 30.009799003601078]],
+        bounds: [[60.0106788, 30.0137901], [60.0062811, 30.0710821], [59.9993724, 30.009799]],
         author: ['FRSHLVA','FRSHLV'],
     },
     {
@@ -896,7 +896,7 @@ let zelikMaps = [
         year: 2012,
         url: './maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012.webp',
         link: ['./original_maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012_omaps.gif','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
-        bounds: [[60.14058599180651, 29.95044708251953], [60.13898347169249, 29.967741966247562], [60.12789189290783, 29.946713447570804]],
+        bounds: [[60.140586, 29.9504471], [60.1389835, 29.967742], [60.1278919, 29.9467134]],
         author: 'SHRNN',
         zindex: 2
     },
@@ -904,7 +904,7 @@ let zelikMaps = [
         name: 'Сестрорецк, Таможенная дорога',
         year: 2021,
         url: './maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2021.webp',
-        bounds: [[60.13862022294616, 29.950618743896484], [60.137338136484786, 29.965424537658695], [60.12825526011688, 29.946370124816898]],
+        bounds: [[60.1386202, 29.9506187], [60.1373381, 29.9654245], [60.1282553, 29.9463701]],
         o_gps: 24008,
         author: 'MKHLV_A',
         owner: 'WN',
@@ -915,7 +915,7 @@ let zelikMaps = [
         year: 2023,
         url: './maps/forest/zelik/sestroretsk_pljazh_laskovy_2023.webp',
         link: './original_maps/forest/zelik/sestroretsk_pljazh_laskovy_2023_omaps.jpg',
-        bounds: [[60.14590579873828, 29.92581367492676], [60.14403648673156, 29.94210004806519], [60.13880184782073, 29.922959804534912]],
+        bounds: [[60.1459058, 29.9258137], [60.1440365, 29.9421], [60.1388018, 29.9229598]],
         author: 'KUZNTSV_A',
         owner: 'SFSO_SPB'
     },
@@ -924,7 +924,7 @@ let zelikMaps = [
         year: 2026,
         url: './maps/forest/zelik/sestroretsk_pljazh_laskovy_2026.webp',
         link: './original_maps/forest/zelik/sestroretsk_pljazh_laskovy_2026_omaps.gif',
-        bounds: [[60.1461514718449, 29.92637157440186], [60.14479490612657, 29.94210004806519], [60.13922919651106, 29.92362499237061]],
+        bounds: [[60.1461515, 29.9263716], [60.1447949, 29.9421], [60.1392292, 29.923625]],
         info: 'Использованы материалы карты 23-го года Александра Кузнецова.',
         author: 'SHRNN', // 'KUZNTSV_A' попросил убрать себя
         owner: 'SFSO_SPB'
@@ -934,7 +934,7 @@ let zelikMaps = [
         name: 'Симагино - Майнило',
         year: 2013,
         url: './maps/forest/zelik/simagino_maynilo_2013.webp',
-        bounds: [[60.2838764935428, 29.879722595214847], [60.2777066636847, 29.956712722778324], [60.26046752431386, 29.87165451049805]],
+        bounds: [[60.2838765, 29.8797226], [60.2777067, 29.9567127], [60.2604675, 29.8716545]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
@@ -942,7 +942,7 @@ let zelikMaps = [
         name: 'Воронцовское',
         year: 2014,
         url: './maps/forest/zelik/vorontsovskoe_2014.webp',
-        bounds: [[60.31942606014921, 29.888219833374027], [60.316620921304846, 29.93233680725098], [60.29600000881975, 29.882726669311527]],
+        bounds: [[60.3194261, 29.8882198], [60.3166209, 29.9323368], [60.296, 29.8827267]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
@@ -950,7 +950,7 @@ let zelikMaps = [
         name: 'Воронцовское',
         year: 2013,
         url: './maps/forest/zelik/vorontsovskoe_2013.webp',
-        bounds: [[60.32010605752227, 29.86916542053223], [60.315983356144905, 29.93182182312012], [60.29442633269142, 29.862041473388675]],
+        bounds: [[60.3201061, 29.8691654], [60.3159834, 29.9318218], [60.2944263, 29.8620415]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
@@ -958,7 +958,7 @@ let zelikMaps = [
         name: 'Воронцовское - Симагино',
         year: 2016,
         url: './maps/forest/zelik/vorontsovskoe_simagino_2016.webp',
-        bounds: [[60.299827553407624, 29.864101409912113], [60.294086068431916, 29.944524765014652], [60.277876881498834, 29.858350753784183]],
+        bounds: [[60.2998276, 29.8641014], [60.2940861, 29.9445248], [60.2778769, 29.8583508]],
         author: ['MKHLV_A','SLBDNK','USNKO'],
         owner: 'WN'
     },
@@ -969,7 +969,7 @@ let zelikMaps = [
         area: 27,
         info: '2013-2021гг.',
         url: './maps/forest/zelik/vorontsovskoe_simagino_2021.webp',
-        bounds: [[60.32363331664699, 29.857578277587894], [60.314453148979304, 29.99679565429688], [60.253015703086454, 29.838008880615238]],
+        bounds: [[60.3236333, 29.8575783], [60.3144531, 29.9967957], [60.2530157, 29.8380089]],
         author: ['MKHLV_A','SLBDNK','USNKO'],
         owner: 'WN'
     },
@@ -979,14 +979,14 @@ let zelikMaps = [
         info: '19-20.09. Первенство ЛОС ДСО "Труд" по туристскому двоеборью. Ориентирование в заданном направлении, ночное, командное.',
         url: './maps/forest/zelik/vorontsovskoe_1964.webp',
         link: ['./original_maps/forest/zelik/vorontsovskoe_1964_bw_omaps.jpg','./original_maps/forest/zelik/vorontsovskoe_1964_omaps.jpg'],
-        bounds: [[60.30178368088176, 29.824790954589847], [60.29855175501573, 29.961948394775394], [60.247478966381564, 29.818267822265625]]
+        bounds: [[60.3017837, 29.824791], [60.2985518, 29.9619484], [60.247479, 29.8182678]]
     },
     {
         name: 'Пасторское оз',
         year: 1982,
         url: './maps/forest/zelik/pastorskoe_1982.webp',
         link: './original_maps/forest/zelik/pastorskoe_1982_omaps.jpg',
-        bounds: [[60.2416217837967, 30.01451969146729], [60.238937779331096, 30.063829421997074], [60.22468330997303, 30.011558532714847]],
+        bounds: [[60.2416218, 30.0145197], [60.2389378, 30.0638294], [60.2246833, 30.0115585]],
         author: ['IVNVA_I','STPNVA_I']
     },
     {
@@ -995,7 +995,7 @@ let zelikMaps = [
         area: 20,
         url: './maps/forest/zelik/pastorskoe_mednoe_2009.webp',
         link: './original_maps/forest/zelik/pastorskoe_mednoe_2009_omaps.jpg',
-        bounds: [[60.24965118236976, 30.009841918945316], [60.2356783354143, 30.175838470458988], [60.21138207197383, 29.996194839477543]],
+        bounds: [[60.2496512, 30.0098419], [60.2356783, 30.1758385], [60.2113821, 29.9961948]],
         author: 'CHGRVSKY_V',
         owner: 'CHGRVSKY_M'
     },
@@ -1005,7 +1005,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/pastorskoe_2024.webp',
         link: './original_maps/forest/zelik/pastorskoe_2024_omaps.jpg',
         publish: ['https://vk.com/album-230167293_311033082','https://t.me/dlitelnyy/562'],
-        bounds: [[60.25263242070603, 29.988126754760746], [60.24522141278221, 30.060052871704105], [60.22809301475002, 29.97756958007813]],
+        bounds: [[60.2526324, 29.9881268], [60.2452214, 30.0600529], [60.228093, 29.9775696]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y'],
         owner: 'SFSO_SPB',
         zindex: 2
@@ -1015,7 +1015,7 @@ let zelikMaps = [
         year: 2013,
         url: './maps/forest/zelik/molodezhnoe_mayak_2013.webp',
         link: ['./original_maps/forest/zelik/molodezhnoe_mayak_2013_omaps.gif','./original_maps/forest/zelik/molodezhnoe_mayak_2013_omaps.ocd'],
-        bounds: [[60.206861833557305, 29.528245925903324], [60.2077787247283, 29.538695812225345], [60.20236229847656, 29.530348777771]],
+        bounds: [[60.2068618, 29.5282459], [60.2077787, 29.5386958], [60.2023623, 29.5303488]],
         type: ['CITY']
     },
     {
@@ -1023,7 +1023,7 @@ let zelikMaps = [
         year: 2024,
         url: './maps/forest/zelik/molodezhnoe_2024.webp',
         link: './original_maps/forest/zelik/molodezhnoe_2024_omaps.jpg',
-        bounds: [[60.206030212425404, 29.520928859710697], [60.203002080434125, 29.55105543136597], [60.1954838544896, 29.516723155975345]],
+        bounds: [[60.2060302, 29.5209289], [60.2030021, 29.5510554], [60.1954839, 29.5167232]],
         author: 'ZCHNV',
         owner: 'SFSO_SPB'
     },
@@ -1032,7 +1032,7 @@ let zelikMaps = [
         year: 2003,
         url: './maps/forest/zelik/molodezhnoe_2003.webp',
         link: ['./original_maps/forest/zelik/molodezhnoe_2003_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_omaps.webp','./original_maps/forest/zelik/molodezhnoe_2003_02_20_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_omaps.ocd'],
-        bounds: [[60.203002080434125, 29.531786441802982], [60.20167985063764, 29.54835176467896], [60.19703029698733, 29.530413150787357]],
+        bounds: [[60.2030021, 29.5317864], [60.2016799, 29.5483518], [60.1970303, 29.5304132]],
         author: ['SHKLV','FDRV_L'],
     },
     {
@@ -1040,7 +1040,7 @@ let zelikMaps = [
         year: 2024,
         url: './maps/forest/zelik/molodezhny_dool_2024.webp',
         link: './original_maps/forest/zelik/molodezhny_dool_2024_omaps.jpg',
-        bounds: [[60.201104024232556, 29.531250000000004], [60.199728398025975, 29.543244838714603], [60.1958678056339, 29.529211521148685]],
+        bounds: [[60.201104, 29.53125], [60.1997284, 29.5432448], [60.1958678, 29.5292115]],
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
         type: ['CITY']

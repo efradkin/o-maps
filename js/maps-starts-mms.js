@@ -7,7 +7,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_1996_06_29.webp',
         link: './original_maps/starts/mms/mms_1996_06_29.jpg',
         results: './docs/1996/1999_06_29_svyatkina_omaps.pdf',
-        bounds: [[60.6278706373631, 29.910192489624027], [60.62412367739534, 29.956712722778324], [60.60314950746827, 29.90160942077637]],
+        bounds: [[60.6278706, 29.9101925], [60.6241237, 29.9567127], [60.6031495, 29.9016094]],
         author: 'BYMKV',
         planner: 'TLNV_A'
     },
@@ -18,7 +18,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_1996_06_30.webp',
         link: './original_maps/starts/mms/mms_1996_06_30.jpg',
         results: './docs/1996/1999_06_29_svyatkina_omaps.pdf',
-        bounds: [[60.63666796681373, 29.948258399963382], [60.630564811411745, 30.02769470214844], [60.61243794534338, 29.938945770263675]],
+        bounds: [[60.636668, 29.9482584], [60.6305648, 30.0276947], [60.6124379, 29.9389458]],
         author: 'BYMKV',
         planner: 'TLNV_A'
     },
@@ -28,7 +28,7 @@ let mmsStartsMaps = [
         date: '1997-06-29',
         url: './maps/starts/mms/mms_1997_06_29.webp',
         link: './original_maps/starts/mms/mms_1997_06_29_omaps.jpg',
-        bounds: [[60.46855779734536, 30.32981872558594], [60.46563854919883, 30.384407043457035], [60.443672310622915, 30.323724746704105]],
+        bounds: [[60.4685578, 30.3298187], [60.4656385, 30.384407], [60.4436723, 30.3237247]],
         author: ['BYMKV','DBRTSV_V'],
         planner: 'TLNV_A'
     },
@@ -38,7 +38,7 @@ let mmsStartsMaps = [
         year: 1998,
         url: './maps/starts/mms/mms_1998_06.webp',
         link: ['./original_maps/starts/mms/mms_1998_06_omaps.jpg','./original_maps/starts/mms/mms_1998_06_26_omaps.jpg'],
-        bounds: [[61.119366155705585, 29.81569290161133], [61.11551060004153, 29.87088203430176], [61.10039477459529, 29.809942245483402]],
+        bounds: [[61.1193662, 29.8156929], [61.1155106, 29.870882], [61.1003948, 29.8099422]],
         author: ['KUZNTSV_A','KVZN','SHRNN'],
         planner: 'TLNV_A'
     },
@@ -48,7 +48,7 @@ let mmsStartsMaps = [
         date: '2000-07-02',
         url: './maps/starts/mms/mms_2000_07_02.webp',
         link: ['./original_maps/starts/mms/mms_2000_07_02_omaps.jpg','./original_maps/starts/mms/mms_2000_07_02_clean_omaps.webp'],
-        bounds: [[60.99881359371209, 29.16801452636719], [60.99461039272978, 29.22247409820557], [60.97972825675465, 29.161233901977543]],
+        bounds: [[60.9988136, 29.1680145], [60.9946104, 29.2224741], [60.9797283, 29.1612339]],
         author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV','TKMKV_K','VRBY'],
         planner: 'TLNV_A'
     },
@@ -58,7 +58,7 @@ let mmsStartsMaps = [
         date: '2000-06-30',
         url: './maps/starts/mms/mms_2000_06_30.webp',
         link: './original_maps/starts/mms/mms_2000_06_30_clean_omaps.webp',
-        bounds: [[61.00282900381116, 29.178786277771], [61.000602906518246, 29.205093383789066], [60.99423582307834, 29.175481796264652]],
+        bounds: [[61.002829, 29.1787863], [61.0006029, 29.2050934], [60.9942358, 29.1754818]],
         planner: 'TLNV_A'
     },
     {
@@ -68,7 +68,7 @@ let mmsStartsMaps = [
         link: ['./original_maps/forest/vaskelovo/peski_pulkonlampi_2001_omaps.jpg','./original_maps/starts/mms/mms_2001_06_28.jpg'],
         results: './docs/2001/2001_06_28_svyatkina_omaps.pdf',
         start: 'MMS',
-        bounds: [[60.486406037584224, 30.397667884826664], [60.484989533656474, 30.419039726257328], [60.47170944442941, 30.39380550384522]],
+        bounds: [[60.486406, 30.3976679], [60.4849895, 30.4190397], [60.4717094, 30.3938055]],
         author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
         planner: 'TLNV_A'
     },
@@ -79,7 +79,7 @@ let mmsStartsMaps = [
         link: ['./original_maps/forest/vaskelovo/peski_zabytoe_2001_omaps.jpg','./original_maps/starts/mms/peski_zabytoe_2001_all_omaps.jpg'],
         results: './docs/2001/2001_06_28_svyatkina_omaps.pdf',
         start: 'MMS',
-        bounds: [[60.48579293153697, 30.409598350524906], [60.4841649730346, 30.437364578247074], [60.46202085574234, 30.40427684783936]],
+        bounds: [[60.4857929, 30.4095984], [60.484165, 30.4373646], [60.4620209, 30.4042768]],
         author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
         planner: 'TLNV_A'
     },
@@ -90,7 +90,7 @@ let mmsStartsMaps = [
         link: ['./original_maps/starts/mms/mms_2001_06_30.jpg','./original_maps/starts/mms/mms_2001_06_30_all_omaps.jpg'],
         results: './docs/2001/2001_06_28_svyatkina_omaps.pdf',
         start: 'MMS',
-        bounds: [[60.477250524652106, 30.40663719177246], [60.473782172990134, 30.458736419677738], [60.4592914517881, 30.402088165283207]],
+        bounds: [[60.4772505, 30.4066372], [60.4737822, 30.4587364], [60.4592915, 30.4020882]],
         author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
         planner: 'TLNV_A'
     },
@@ -100,7 +100,7 @@ let mmsStartsMaps = [
         date: '2002-06-29',
         url: './maps/starts/mms/mms_2002_06_29.webp',
         link: ['./original_maps/starts/mms/mms_2002_06_29_omaps.jpg','./original_maps/starts/mms/mms_2002_06_29_omaps.webp'],
-        bounds: [[60.62690236357998, 29.920663833618168], [60.622671087061754, 29.969716072082523], [60.612690654593976, 29.91662979125977]],
+        bounds: [[60.6269024, 29.9206638], [60.6226711, 29.9697161], [60.6126907, 29.9166298]],
         author: ['TKMKV_K','SHRNN'],
         planner: 'TLNV_A'
     },
@@ -110,7 +110,7 @@ let mmsStartsMaps = [
         date: '2002-06-28',
         url: './maps/starts/mms/mms_2002_06_28.webp',
         link: './original_maps/starts/mms/mms_2002_06_28_omaps.jpg',
-        bounds: [[60.626270865014774, 29.929161071777347], [60.62416578048736, 29.957914352416996], [60.61694429659537, 29.926242828369144]],
+        bounds: [[60.6262709, 29.9291611], [60.6241658, 29.9579144], [60.6169443, 29.9262428]],
         author: ['TKMKV_K','SHRNN'],
         planner: 'TLNV_A'
     },
@@ -120,7 +120,7 @@ let mmsStartsMaps = [
         date: '2002-06-30',
         url: './maps/starts/mms/mms_2002_06_30.webp',
         link: './original_maps/starts/mms/mms_2002_06_30_omaps.jpg',
-        bounds: [[60.62831266572881, 29.910449981689457], [60.62509203460731, 29.9443531036377], [60.60517170796431, 29.90233898162842]],
+        bounds: [[60.6283127, 29.91045], [60.625092, 29.9443531], [60.6051717, 29.902339]],
         author: ['TKMKV_K','SHRNN'],
         planner: 'TLNV_A'
     },
@@ -130,7 +130,7 @@ let mmsStartsMaps = [
         date: '2003-06-27',
         url: './maps/starts/mms/mms_2003_06_27.webp',
         link: './original_maps/starts/mms/mms_2003_06_27.jpg',
-        bounds: [[61.00257935580872, 29.18324947357178], [61.00108142657904, 29.20028686523438], [60.98626476642206, 29.17779922485352]],
+        bounds: [[61.0025794, 29.1832495], [61.0010814, 29.2002869], [60.9862648, 29.1777992]],
         author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV'],
         planner: 'TLNV_A'
     },
@@ -140,7 +140,7 @@ let mmsStartsMaps = [
         date: '2003-06-28',
         url: './maps/starts/mms/mms_2003_06_28.webp',
         link: './original_maps/starts/mms/mms_2003_06_28_omaps.webp',
-        bounds: [[60.99383003430523, 29.159388542175297], [60.99065637921868, 29.195823669433597], [60.98070673706779, 29.15522575378418]],
+        bounds: [[60.99383, 29.1593885], [60.9906564, 29.1958237], [60.9807067, 29.1552258]],
         author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV'],
         planner: 'TLNV_A'
     },
@@ -150,7 +150,7 @@ let mmsStartsMaps = [
         date: '2003-06-29',
         url: './maps/starts/mms/mms_2003_06_29.webp',
         link: './original_maps/starts/mms/mms_2003_06_29.jpg',
-        bounds: [[60.99737790938693, 29.13454055786133], [60.99348667052552, 29.187412261962894], [60.982871777928565, 29.13037776947022]],
+        bounds: [[60.9973779, 29.1345406], [60.9934867, 29.1874123], [60.9828718, 29.1303778]],
         author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV'],
         planner: 'TLNV_A'
     },
@@ -162,7 +162,7 @@ let mmsStartsMaps = [
         o_site: '040626_MS',
         url: './maps/starts/mms/mms_2004_06_26.webp',
         link: './original_maps/starts/mms/mms_2004_06_26_omaps.jpg',
-        bounds: [[60.632227509622844, 30.075802803039554], [60.62961766650527, 30.116443634033207], [60.614838603318596, 30.07112503051758]],
+        bounds: [[60.6322275, 30.0758028], [60.6296177, 30.1164436], [60.6148386, 30.071125]],
         author: ['LVCHV','SVTKN'],
         planner: 'TLNV_A'
     },
@@ -174,7 +174,7 @@ let mmsStartsMaps = [
         o_site: '040626_MS',
         url: './maps/starts/mms/mms_2004_06_27.webp',
         link: './original_maps/starts/mms/mms_2004_06_27_omaps.jpg',
-        bounds: [[60.63191181402526, 30.101723670959473], [60.62772329322806, 30.15553951263428], [60.61370147180539, 30.097002983093265]],
+        bounds: [[60.6319118, 30.1017237], [60.6277233, 30.1555395], [60.6137015, 30.097003]],
         author: ['LVCHV','SVTKN'],
         planner: 'TLNV_A'
     },
@@ -186,7 +186,7 @@ let mmsStartsMaps = [
         o_site: '050624',
         url: './maps/starts/mms/mms_2005_06_25.webp',
         link: './original_maps/starts/mms/mms_2005_06_25_omaps.jpg',
-        bounds: [[60.604729362430966, 30.219655036926273], [60.6027492652688, 30.249266624450687], [60.585386618019655, 30.214290618896488]],
+        bounds: [[60.6047294, 30.219655], [60.6027493, 30.2492666], [60.5853866, 30.2142906]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -198,7 +198,7 @@ let mmsStartsMaps = [
         o_site: '050624',
         url: './maps/starts/mms/mms_2005_06_26.webp',
         link: './original_maps/starts/mms/mms_2005_06_26_omaps.jpg',
-        bounds: [[60.62041839005796, 30.175924301147464], [60.61780759111561, 30.227293968200687], [60.60317057270972, 30.17227649688721]],
+        bounds: [[60.6204184, 30.1759243], [60.6178076, 30.227294], [60.6031706, 30.1722765]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -209,7 +209,7 @@ let mmsStartsMaps = [
         o_site: '06062225_MS',
         url: './maps/starts/mms/mms_2006_06_24.webp',
         link: './original_maps/starts/mms/mms_2006_06_24_omaps.jpg',
-        bounds: [[60.62448155192588, 30.205578804016117], [60.62256582435062, 30.234632492065433], [60.602349018106764, 30.198154449462894]],
+        bounds: [[60.6244816, 30.2055788], [60.6225658, 30.2346325], [60.602349, 30.1981544]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -220,7 +220,7 @@ let mmsStartsMaps = [
         o_site: '06062225_MS',
         url: './maps/starts/mms/mms_2006_06_25.webp',
         link: './original_maps/starts/mms/mms_2006_06_25_omaps.jpg',
-        bounds: [[60.6292598489669, 30.18330574035645], [60.625428847692, 30.23574829101563], [60.61214311538299, 30.177340507507328]],
+        bounds: [[60.6292598, 30.1833057], [60.6254288, 30.2357483], [60.6121431, 30.1773405]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -231,7 +231,7 @@ let mmsStartsMaps = [
         o_site: '06062225_MS',
         url: './maps/starts/mms/mms_2006_06_23.webp',
         link: './original_maps/starts/mms/mms_2006_06_23_omaps.webp',
-        bounds: [[60.611363908948704, 30.215106010437015], [60.60927891271937, 30.238537788391117], [60.60089544720372, 30.212187767028812]],
+        bounds: [[60.6113639, 30.215106], [60.6092789, 30.2385378], [60.6008954, 30.2121878]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -242,7 +242,7 @@ let mmsStartsMaps = [
         o_site: '06062225_MS',
         url: './maps/starts/mms/mms_2007_06_24.webp',
         link: './original_maps/starts/mms/mms_2007_06_24_omaps.webp',
-        bounds: [[60.62536569550654, 29.8853874206543], [60.62128159161396, 29.936714172363285], [60.607888840393066, 29.8798942565918]],
+        bounds: [[60.6253657, 29.8853874], [60.6212816, 29.9367142], [60.6078888, 29.8798943]],
         planner: 'TLNV_A'
     },
     {
@@ -253,7 +253,7 @@ let mmsStartsMaps = [
         o_site: '080627_MS',
         url: './maps/starts/mms/mms_2008_06_28.webp',
         link: './original_maps/starts/mms/mms_2008_06_28_omaps.jpg',
-        bounds: [[60.98897057120401, 29.17779922485352], [60.98643128413883, 29.209427833557132], [60.967900836236595, 29.170632362365726]],
+        bounds: [[60.9889706, 29.1777992], [60.9864313, 29.2094278], [60.9679008, 29.1706324]],
         planner: 'TLNV_A'
     },
     {
@@ -264,7 +264,7 @@ let mmsStartsMaps = [
         o_site: '09062628',
         url: './maps/starts/mms/mms_2009_06_28.webp',
         link: './original_maps/starts/mms/mms_2009_06_28_omaps.jpg',
-        bounds: [[61.124236749799046, 29.818053245544437], [61.1221642483242, 29.85491752624512], [61.09946146213139, 29.810543060302738]],
+        bounds: [[61.1242367, 29.8180532], [61.1221642, 29.8549175], [61.0994615, 29.8105431]],
         planner: 'TLNV_A'
     },
     {
@@ -275,7 +275,7 @@ let mmsStartsMaps = [
         o_site: '09062628',
         url: './maps/starts/mms/mms_2009_06_27.webp',
         link: './original_maps/starts/mms/mms_2009_06_27_omaps.jpg',
-        bounds: [[61.106222169527726, 29.80698108673096], [61.103194546749435, 29.85547542572022], [61.08431721236532, 29.800157546997074]],
+        bounds: [[61.1062222, 29.8069811], [61.1031945, 29.8554754], [61.0843172, 29.8001575]],
         planner: 'TLNV_A'
     },
     {
@@ -286,7 +286,7 @@ let mmsStartsMaps = [
         o_site: '10062527',
         url: './maps/starts/mms/mms_2010_lembolovo.webp',
         link: './original_maps/starts/mms/mms_2010_lembolovo.jpg',
-        bounds: [[60.470588423824395, 30.324668884277347], [60.466188572545335, 30.381832122802738], [60.426351259774734, 30.309820175170902]],
+        bounds: [[60.4705884, 30.3246689], [60.4661886, 30.3818321], [60.4263513, 30.3098202]],
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -298,7 +298,7 @@ let mmsStartsMaps = [
         o_site: '11062126',
         url: './maps/starts/mms/mms_2011_lembolovo_orekhovo.webp',
         link: './original_maps/starts/mms/mms_2011_lembolovo_orekhovo.jpg',
-        bounds: [[60.47524146368212, 30.26913642883301], [60.465596239324626, 30.38200378417969], [60.4094871930249, 30.246391296386722]],
+        bounds: [[60.4752415, 30.2691364], [60.4655962, 30.3820038], [60.4094872, 30.2463913]],
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -310,7 +310,7 @@ let mmsStartsMaps = [
         o_site: '120626',
         url: './maps/starts/mms/mms_2012_06_26.webp',
         link: './original_maps/starts/mms/mms_2012_06_26.jpg',
-        bounds: [[60.43918412244396, 30.31409025192261], [60.43747971878234, 30.334711074829105], [60.42994115994638, 30.312416553497314]],
+        bounds: [[60.4391841, 30.3140903], [60.4374797, 30.3347111], [60.4299412, 30.3124166]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -322,7 +322,7 @@ let mmsStartsMaps = [
         o_site: '120626',
         url: './maps/starts/mms/mms_2012_06_27.webp',
         link: './original_maps/starts/mms/mms_2012_06_27.jpg',
-        bounds: [[60.43920529459816, 30.33312320709229], [60.43638927700589, 30.367670059204105], [60.41844996541937, 30.326428413391117]],
+        bounds: [[60.4392053, 30.3331232], [60.4363893, 30.3676701], [60.41845, 30.3264284]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -334,7 +334,7 @@ let mmsStartsMaps = [
         o_site: '120626',
         url: './maps/starts/mms/mms_2012_06_28.webp',
         link: './original_maps/starts/mms/mms_2012_06_28.jpg',
-        bounds: [[60.406859340130026, 30.27844905853272], [60.40431605460292, 30.30810356140137], [60.38718608956048, 30.271110534667972]],
+        bounds: [[60.4068593, 30.2784491], [60.4043161, 30.3081036], [60.3871861, 30.2711105]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -346,7 +346,7 @@ let mmsStartsMaps = [
         o_site: '120626',
         url: './maps/starts/mms/mms_2012_06_30.webp',
         link: './original_maps/starts/mms/mms_2012_06_30.jpg',
-        bounds: [[60.42215724607245, 30.278577804565433], [60.419339751318226, 30.30960559844971], [60.40336227128332, 30.272827148437504]],
+        bounds: [[60.4221572, 30.2785778], [60.4193398, 30.3096056], [60.4033623, 30.2728271]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -358,7 +358,7 @@ let mmsStartsMaps = [
         o_site: '120626',
         url: './maps/starts/mms/mms_2012_07_01.webp',
         link: './original_maps/starts/mms/mms_2012_07_01.jpg',
-        bounds: [[60.4409201932774, 30.26166915893555], [60.43439886175706, 30.332736968994144], [60.41671269421914, 30.25368690490723]],
+        bounds: [[60.4409202, 30.2616692], [60.4343989, 30.332737], [60.4167127, 30.2536869]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -370,7 +370,7 @@ let mmsStartsMaps = [
         o_site: '120626',
         url: './maps/starts/mms/mms_2012_06_29.webp',
         link: './original_maps/starts/mms/mms_2012_06_29.jpg',
-        bounds: [[60.43033295396628, 30.300292968750004], [60.42749498781193, 30.333423614501957], [60.41423374416461, 30.294799804687504]],
+        bounds: [[60.430333, 30.300293], [60.427495, 30.3334236], [60.4142337, 30.2947998]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K'],
         planner: 'TLNV_A'
     },
@@ -382,7 +382,7 @@ let mmsStartsMaps = [
         o_site: '13062830_MS',
         url: './maps/starts/mms/mms_2013_06_28.webp',
         link: './original_maps/starts/mms/mms_2013_06_28_omaps.jpg',
-        bounds: [[60.77186078452044, 28.755168914794925], [60.77024720421924, 28.784265518188477], [60.759201428967856, 28.751950263977054]],
+        bounds: [[60.7718608, 28.7551689], [60.7702472, 28.7842655], [60.7592014, 28.7519503]],
         author: ['KRYLS','SMLGS','TMLNS'],
         planner: 'TLNV_A',
         zindex: 2
@@ -395,7 +395,7 @@ let mmsStartsMaps = [
         o_site: '14062729',
         url: './maps/starts/mms/mms_2014_polyany.webp',
         link: ['./original_maps/starts/mms/mms_2014_polyany.pdf','./original_maps/starts/mms/mms_2014_kids_omaps.jpg'],
-        bounds: [[60.323314604072536, 29.266247749328617], [60.314963226000366, 29.337916374206543], [60.292576103048674, 29.252300262451175]],
+        bounds: [[60.3233146, 29.2662477], [60.3149632, 29.3379164], [60.2925761, 29.2523003]],
         author: 'SHRNN',
         planner: 'TLNV_A'
     },
@@ -408,7 +408,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2014_06_29.webp',
         link: './original_maps/starts/mms/mms_2014_06_29.gif',
         o_gps: 223,
-        bounds: [[60.3175134916191, 29.273242950439457], [60.311647582969606, 29.323024749755863], [60.30086941848394, 29.26496028900147]],
+        bounds: [[60.3175135, 29.273243], [60.3116476, 29.3230247], [60.3008694, 29.2649603]],
         author: 'SHRNN',
         planner: 'TLNV_A'
     },
@@ -420,7 +420,7 @@ let mmsStartsMaps = [
         o_site: '15062628',
         url: './maps/starts/mms/mms_2015_krasna_dolina.webp',
         link: './original_maps/starts/mms/mms_2015_krasna_dolina.pdf',
-        bounds: [[60.43075650975716, 28.999099731445316], [60.42588528496551, 29.044504165649418], [60.40033117428503, 28.98571014404297]],
+        bounds: [[60.4307565, 28.9990997], [60.4258853, 29.0445042], [60.4003312, 28.9857101]],
         author: ['DJCHKV','STLV_S'],
         planner: 'TLNV_A'
     },
@@ -433,7 +433,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2015_06_28.webp',
         link: './original_maps/starts/mms/mms_2015_06_28.gif',
         o_gps: 565,
-        bounds: [[60.42732554916, 29.004850387573246], [60.42332230414089, 29.04321670532227], [60.410483178575284, 28.997340202331547]],
+        bounds: [[60.4273255, 29.0048504], [60.4233223, 29.0432167], [60.4104832, 28.9973402]],
         author: ['DJCHKV','STLV_S'],
         planner: 'TLNV_A'
     },
@@ -445,7 +445,7 @@ let mmsStartsMaps = [
         o_site: '17062325',
         url: './maps/starts/mms/mms_2017_korobitsyno.webp',
         link: './original_maps/starts/mms/mms_2017_korobitsyno.pdf',
-        bounds: [[60.54700398948784, 29.800930023193363], [60.54451387216207, 29.864315986633304], [60.51092077781994, 29.79449272155762]],
+        bounds: [[60.547004, 29.80093], [60.5445139, 29.864316], [60.5109208, 29.7944927]],
         author: ['DJCHKV','STLV_S','PPV_D'],
         planner: 'TLNV_A'
     },
@@ -457,7 +457,7 @@ let mmsStartsMaps = [
         o_site: '20160624',
         url: './maps/starts/mms/mms_2016_korobitsyno.webp',
         link: './original_maps/starts/mms/mms_2016_korobitsyno.pdf',
-        bounds: [[60.5399340883256, 29.800329208374027], [60.537971125406514, 29.85963821411133], [60.51831382664852, 29.79655265808106]],
+        bounds: [[60.5399341, 29.8003292], [60.5379711, 29.8596382], [60.5183138, 29.7965527]],
         author: ['DJCHKV','STLV_S','PPV_D'],
         planner: 'TLNV_A'
     },
@@ -470,7 +470,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2016_06_26.webp',
         link: './original_maps/starts/mms/mms_2016_06_26.gif',
         o_gps: 1235,
-        bounds: [[60.53624024212995, 29.80698108673096], [60.53448815625809, 29.85719203948975], [60.51850391136994, 29.803805351257328]],
+        bounds: [[60.5362402, 29.8069811], [60.5344882, 29.857192], [60.5185039, 29.8038054]],
         author: ['DJCHKV','STLV_S','PPV_D'],
         planner: 'TLNV_A'
     },
@@ -483,7 +483,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2017_06_25.webp',
         link: './original_maps/starts/mms/mms_2017_06_25.gif',
         o_gps: 2492,
-        bounds: [[60.53326375080362, 29.82650756835938], [60.5316170635521, 29.85895156860352], [60.51049826692806, 29.822816848754886]],
+        bounds: [[60.5332638, 29.8265076], [60.5316171, 29.8589516], [60.5104983, 29.8228168]],
         author: ['DJCHKV','STLV_S','PPV_D'],
         planner: 'TLNV_A'
     },
@@ -495,7 +495,7 @@ let mmsStartsMaps = [
         o_site: '180622mms',
         url: './maps/starts/mms/mms_2018_06_24.webp',
         link: './original_maps/starts/mms/mms_2018_06_24.jpg',
-        bounds: [[60.63203809263519, 30.048379898071293], [60.630059670923785, 30.106487274169925], [60.606604023334334, 30.043573379516605]],
+        bounds: [[60.6320381, 30.0483799], [60.6300597, 30.1064873], [60.606604, 30.0435734]],
         author: 'DJCHKV',
         planner: 'SRBRNTSKY'
     },
@@ -507,7 +507,7 @@ let mmsStartsMaps = [
         o_site: '180622mms',
         url: './maps/starts/mms/mms_2018_06_23.webp',
         link: './original_maps/starts/mms/mms_2018_06_23.jpg',
-        bounds: [[60.629765001984644, 30.054602622985843], [60.628670493777555, 30.08305549621582], [60.614354274425445, 30.051770210266117]],
+        bounds: [[60.629765, 30.0546026], [60.6286705, 30.0830555], [60.6143543, 30.0517702]],
         author: 'DJCHKV',
         planner: 'SRBRNTSKY'
     },
@@ -519,7 +519,7 @@ let mmsStartsMaps = [
         o_site: '180622mms',
         url: './maps/starts/mms/mms_2018_06_22.webp',
         link: './original_maps/starts/mms/mms_2018_06_22.jpg',
-        bounds: [[60.60987915271472, 30.09515762329102], [60.60866813073807, 30.121765136718754], [60.598778172493155, 30.093269348144535]],
+        bounds: [[60.6098792, 30.0951576], [60.6086681, 30.1217651], [60.5987782, 30.0932693]],
         author: 'DJCHKV',
         planner: 'SRBRNTSKY'
     },
@@ -531,7 +531,7 @@ let mmsStartsMaps = [
         o_site: '190623MMS',
         url: './maps/starts/mms/mms_2019_06_23.webp',
         link: './original_maps/starts/mms/mms_2019_06_23.jpg',
-        bounds: [[60.61456485309838, 30.18643856048584], [60.61248006368926, 30.23051261901856], [60.59716642254784, 30.183091163635257]],
+        bounds: [[60.6145649, 30.1864386], [60.6124801, 30.2305126], [60.5971664, 30.1830912]],
         author: ['DJCHKV','PPV_D'],
         planner: 'SRBRNTSKY'
     },
@@ -543,7 +543,7 @@ let mmsStartsMaps = [
         o_site: '190623MMS',
         url: './maps/starts/mms/mms_2019_06_22.webp',
         link: './original_maps/starts/mms/mms_2019_06_22.jpg',
-        bounds: [[60.62022890369775, 30.187339782714847], [60.618376089525626, 30.23124217987061], [60.60938421878922, 30.184936523437504]],
+        bounds: [[60.6202289, 30.1873398], [60.6183761, 30.2312422], [60.6093842, 30.1849365]],
         author: ['DJCHKV','PPV_D'],
         planner: 'SRBRNTSKY'
     },
@@ -555,7 +555,7 @@ let mmsStartsMaps = [
         o_site: '190623MMS',
         url: './maps/starts/mms/mms_2019_06_21.webp',
         link: './original_maps/starts/mms/mms_2019_06_21.jpg',
-        bounds: [[60.61201675886101, 30.21819591522217], [60.61159556688104, 30.237507820129398], [60.59556512724436, 30.216178894042972]],
+        bounds: [[60.6120168, 30.2181959], [60.6115956, 30.2375078], [60.5955651, 30.2161789]],
         author: ['DJCHKV','PPV_D'],
         planner: 'SRBRNTSKY'
     },
@@ -567,7 +567,7 @@ let mmsStartsMaps = [
         o_site: '22061820',
         url: './maps/starts/mms/mms_2022_06_21.webp',
         link: './original_maps/starts/mms/mms_2022_06_21.jpg',
-        bounds: [[60.54016625886175, 30.315442085266117], [60.53879431789961, 30.349388122558597], [60.527985611046994, 30.312952995300297]],
+        bounds: [[60.5401663, 30.3154421], [60.5387943, 30.3493881], [60.5279856, 30.312953]],
         author: 'DJCHKV',
         planner: 'SHEIN'
     },
@@ -579,7 +579,7 @@ let mmsStartsMaps = [
         o_site: '22061820',
         url: './maps/starts/mms/mms_2022_06_19.webp',
         link: './original_maps/starts/mms/mms_2022_06_19.jpg',
-        bounds: [[60.54706729505747, 30.31930446624756], [60.545547927199756, 30.35097599029541], [60.52697210974518, 30.31557083129883]],
+        bounds: [[60.5470673, 30.3193045], [60.5455479, 30.350976], [60.5269721, 30.3155708]],
         author: 'DJCHKV',
         planner: 'SHEIN'
     },
@@ -591,7 +591,7 @@ let mmsStartsMaps = [
         o_site: '22061820',
         url: './maps/starts/mms/mms_2022_06_18.webp',
         link: './original_maps/starts/mms/mms_2022_06_18.jpg',
-        bounds: [[60.5167719871351, 30.278277397155765], [60.514448528708144, 30.314455032348636], [60.50639962536052, 30.27587413787842]],
+        bounds: [[60.516772, 30.2782774], [60.5144485, 30.314455], [60.5063996, 30.2758741]],
         author: 'DBRTSV_V',
         planner: 'SHEIN'
     },
@@ -603,7 +603,7 @@ let mmsStartsMaps = [
         o_site: '22061820',
         url: './maps/starts/mms/mms_2022_06_17.webp',
         link: './original_maps/starts/mms/mms_2022_06_17.jpg',
-        bounds: [[60.539944641567935, 30.3057861328125], [60.53903705015048, 30.332157611846927], [60.523963090868826, 30.303082466125492]],
+        bounds: [[60.5399446, 30.3057861], [60.5390371, 30.3321576], [60.5239631, 30.3030825]],
         author: 'DJCHKV',
         planner: 'SHEIN'
     },
@@ -615,7 +615,7 @@ let mmsStartsMaps = [
         o_site: 'mms2023',
         url: './maps/starts/mms/mms_2023_06_25.webp',
         link: './original_maps/starts/mms/mms_2023_06_25.jpg',
-        bounds: [[60.623997367789364, 30.201673507690433], [60.62117632436825, 30.23643493652344], [60.59771421586861, 30.192918777465824]],
+        bounds: [[60.6239974, 30.2016735], [60.6211763, 30.2364349], [60.5977142, 30.1929188]],
         author: ['MKHLV_A','SBLV_S'],
         planner: 'TSVTKV_D'
     },
@@ -627,7 +627,7 @@ let mmsStartsMaps = [
         o_site: 'mms2023',
         url: './maps/starts/mms/mms_2023_06_24.webp',
         link: './original_maps/starts/mms/mms_2023_06_24.jpg',
-        bounds: [[60.610374079049734, 30.20776748657227], [60.60643551894273, 30.253987312316898], [60.594827661910934, 30.20274639129639]],
+        bounds: [[60.6103741, 30.2077675], [60.6064355, 30.2539873], [60.5948277, 30.2027464]],
         author: ['MKHLV_A','SBLV_S'],
         planner: 'TSVTKV_D'
     },
@@ -639,7 +639,7 @@ let mmsStartsMaps = [
         o_site: 'mms2023',
         url: './maps/starts/mms/mms_2023_06_23.webp',
         link: './original_maps/starts/mms/mms_2023_06_23.jpg',
-        bounds: [[60.60074797983218, 30.216608047485355], [60.597419251389205, 30.25591850280762], [60.58523907981065, 30.21128654479981]],
+        bounds: [[60.600748, 30.216608], [60.5974193, 30.2559185], [60.5852391, 30.2112865]],
         author: ['MKHLV_A','SBLV_S'],
         planner: 'TSVTKV_D'
     },
@@ -651,7 +651,7 @@ let mmsStartsMaps = [
         o_site: 'mms2024',
         url: './maps/starts/mms/mms_2024_06_23.webp',
         link: './original_maps/starts/mms/mms_2024_06_23.jpg',
-        bounds: [[60.4419998978685, 29.640855789184574], [60.436918622243546, 29.689564704895023], [60.42480504495019, 29.634075164794925]],
+        bounds: [[60.4419999, 29.6408558], [60.4369186, 29.6895647], [60.424805, 29.6340752]],
         author: ['SLBDNK','MKHLV_A','GVRLK','RDNV_I'],
         planner: 'NKTN_I'
     },
@@ -663,7 +663,7 @@ let mmsStartsMaps = [
         o_site: 'mms2024',
         url: './maps/starts/mms/mms_2024_06_22.webp',
         link: './original_maps/starts/mms/mms_2024_06_22.jpg',
-        bounds: [[60.43509763844199, 29.679479598999027], [60.4313706558516, 29.714283943176273], [60.41368284071863, 29.6711540222168]],
+        bounds: [[60.4350976, 29.6794796], [60.4313707, 29.7142839], [60.4136828, 29.671154]],
         author: ['SLBDNK','MKHLV_A','GVRLK','ILVS'],
         planner: 'ILVS'
     },
@@ -676,7 +676,7 @@ let mmsStartsMaps = [
         o_site: 'mms2025',
         url: './maps/starts/mms/mms_2025_06_21.webp',
         link: './original_maps/starts/mms/mms_2025_06_21_omaps.jpg',
-        bounds: [[60.20716035907779, 29.119906425476078], [60.203663175350826, 29.155011177062992], [60.18700378845101, 29.111752510070804]],
+        bounds: [[60.2071604, 29.1199064], [60.2036632, 29.1550112], [60.1870038, 29.1117525]],
         author: ['NSNV','KVZN','TKMKV_K','TKMKVA_P'],
         planner: 'ILVS'
     },
@@ -689,7 +689,7 @@ let mmsStartsMaps = [
         o_site: 'mms2025',
         url: './maps/starts/mms/mms_2025_06_22.webp',
         link: './original_maps/starts/mms/mms_2025_06_22_omaps.jpg',
-        bounds: [[60.213769870993566, 29.123210906982422], [60.21016678607769, 29.157500267028812], [60.19302006109495, 29.114542007446293]],
+        bounds: [[60.2137699, 29.1232109], [60.2101668, 29.1575003], [60.1930201, 29.114542]],
         author: ['NSNV','KVZN','TKMKV_K','TKMKVA_P'],
         planner: 'NKTN_I'
     },
@@ -702,7 +702,7 @@ let mmsStartsMaps = [
         o_site: 'mms2025',
         url: './maps/starts/mms/mms_2025_06_20.webp',
         link: './original_maps/starts/mms/mms_2025_06_20_omaps.jpg',
-        bounds: [[60.2073309438698, 29.119434356689457], [60.20374847695044, 29.15496826171875], [60.195750487705276, 29.11484241485596]],
+        bounds: [[60.2073309, 29.1194344], [60.2037485, 29.1549683], [60.1957505, 29.1148424]],
         author: ['NSNV','KVZN','TKMKV_K','TKMKVA_P'],
     },
     {
@@ -714,7 +714,7 @@ let mmsStartsMaps = [
         calendar: 'SPB_20260627_3',
         url: './maps/starts/mms/mms_2026_06_27.webp',
         link: ['./original_maps/starts/mms/mms_2026_06_27_omaps.webp','./original_maps/starts/mms/mms_2026_06_27_w_omaps.webp'],
-        bounds: [[60.48946082428701, 30.418331623077396], [60.48704027302365, 30.441548824310306], [60.46495100691001, 30.407431125640873]],
+        bounds: [[60.4894608, 30.4183316], [60.4870403, 30.4415488], [60.464951, 30.4074311]],
         author: ['BRGNTS','VSLV_S','VRBY'],
         owner: 'SFSO_LO',
         publish: 'https://vk.com/album-142737358_311427986'
@@ -728,7 +728,7 @@ let mmsStartsMaps = [
         calendar: 'SPB_20260628_2',
         url: './maps/starts/mms/mms_2026_06_28.webp',
         link: ['./original_maps/starts/mms/mms_2026_06_28_1_omaps.webp','./original_maps/starts/mms/mms_2026_06_28_2_omaps.webp','./original_maps/starts/mms/mms_2026_06_28_w1_omaps.webp','./original_maps/starts/mms/mms_2026_06_28_w2_omaps.webp'],
-        bounds: [[60.492832382805915, 30.419554710388187], [60.48832984683702, 30.460324287414554], [60.475622137417766, 30.41146516799927]],
+        bounds: [[60.4928324, 30.4195547], [60.4883298, 30.4603243], [60.4756221, 30.4114652]],
         author: ['BRGNTS','VSLV_S','VRBY'],
         owner: 'SFSO_LO',
         publish: 'https://vk.com/album-142737358_311427986'
@@ -742,7 +742,7 @@ let mmsStartsMaps = [
         calendar: 'SPB_20260626_2',
         url: './maps/starts/mms/mms_2026_06_26.webp',
         link: ['./original_maps/starts/mms/mms_2026_06_26_omaps.webp','./original_maps/starts/mms/mms_2026_06_26_w_omaps.webp'],
-        bounds: [[60.492853519998086, 30.421786308288578], [60.49057062363005, 30.443372726440433], [60.47989383641234, 30.41594982147217]],
+        bounds: [[60.4928535, 30.4217863], [60.4905706, 30.4433727], [60.4798938, 30.4159498]],
         author: ['BRGNTS','VSLV_S','VRBY'],
         owner: 'SFSO_LO',
         publish: 'https://vk.com/album-142737358_311427986',

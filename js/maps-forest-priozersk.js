@@ -5,14 +5,14 @@ let priozerskMaps = [
     {
         name: 'Приозерск, за кладбищем',
         url: './maps/forest/priozersk/priozersk_pogost.webp',
-        bounds: [[61.064245104690514, 30.125412940979007], [61.063746772653495, 30.14455318450928], [61.05499353825801, 30.123674869537357]],
+        bounds: [[61.0642451, 30.1254129], [61.0637468, 30.1445532], [61.0549935, 30.1236749]],
         author: ['BYMK','ZCHNV','PSHKV'],
         owner: 'VESTA_PRIOZERSK'
     },
     {
         name: 'Приозерск, у кладбища',
         url: './maps/forest/priozersk/priozersk_pogost2.webp',
-        bounds: [[61.062459378604196, 30.141677856445312], [61.061338057285546, 30.159916877746586], [61.05066275243654, 30.139145851135257]],
+        bounds: [[61.0624594, 30.1416779], [61.0613381, 30.1599169], [61.0506628, 30.1391459]],
         author: ['BYMK','ZCHNV','PSHKV'],
         owner: 'VESTA_PRIOZERSK'
     },
@@ -21,7 +21,7 @@ let priozerskMaps = [
         name: 'Приозерск, о Каменистый',
         url: './maps/forest/priozersk/priozersk_kamenisty.webp',
         link: './original_maps/forest/priozersk/priozersk_kamenisty_omaps.jpg',
-        bounds: [[61.03177485676714, 30.10837554931641], [61.0312552286918, 30.11685132980347], [61.02744089805183, 30.107238292694095]],
+        bounds: [[61.0317749, 30.1083755], [61.0312552, 30.1168513], [61.0274409, 30.1072383]],
         author: ['MKHLV_A','PSHKV'],
         owner: 'VESTA_PRIOZERSK'
     },
@@ -29,7 +29,7 @@ let priozerskMaps = [
         name: 'Приозерск, яхт-клуб',
         url: './maps/forest/priozersk/priozersk_yahtklub.webp',
         link: './original_maps/forest/priozersk/priozersk_yahtklub_omaps.gif',
-        bounds: [[61.0458015972856, 30.17549514770508], [61.04297596795078, 30.20274639129639], [61.03771879623057, 30.172448158264164]],
+        bounds: [[61.0458016, 30.1754951], [61.042976, 30.2027464], [61.0377188, 30.1724482]],
         author: 'PSHKV',
         owner: 'VESTA_PRIOZERSK'
     },
@@ -38,7 +38,7 @@ let priozerskMaps = [
         year: 2020,
         url: './maps/forest/priozersk/storozhevoe_2020.webp',
         link: './original_maps/forest/priozersk/storozhevoe_2020_omaps.jpg',
-        bounds: [[61.07120017096263, 30.12206554412842], [61.06941483698061, 30.165925025939945], [61.05124437918049, 30.11858940124512]],
+        bounds: [[61.0712002, 30.1220655], [61.0694148, 30.165925], [61.0512444, 30.1185894]],
         author: ['BYMKV','ZCHNV','PSHKV'],
         owner: 'VESTA_PRIOZERSK'
     },
@@ -47,7 +47,7 @@ let priozerskMaps = [
         year: 2015,
         url: './maps/forest/priozersk/priozersk_drsu.webp',
         link: './original_maps/forest/priozersk/priozersk_drsu_2015_omaps.jpg',
-        bounds: [[61.01807461505161, 30.13506889343262], [61.01607833499045, 30.16184806823731], [61.01108708546035, 30.132708549499515]],
+        bounds: [[61.0180746, 30.1350689], [61.0160783, 30.1618481], [61.0110871, 30.1327085]],
         author: ['MKHLV_A','USNKO'],
         owner: 'VESTA_PRIOZERSK'
     },
@@ -56,7 +56,7 @@ let priozerskMaps = [
         year: 2020,
         url: './maps/forest/priozersk/priozersk_aerodrom_2020.webp',
         link: './original_maps/forest/priozersk/priozersk_aerodrom_2020_omaps.jpg',
-        bounds: [[61.063829828537415, 30.11888980865479], [61.06023746258067, 30.147428512573246], [61.045448407391945, 30.10760307312012]],
+        bounds: [[61.0638298, 30.1188898], [61.0602375, 30.1474285], [61.0454484, 30.1076031]],
         author: 'RYLOV_V',
         owner: 'VESTA_PRIOZERSK'
     },
@@ -65,7 +65,7 @@ let priozerskMaps = [
         year: 2002,
         url: './maps/forest/priozersk/vasilievo_2002.webp',
         link: './original_maps/forest/priozersk/vasilievo_2002_omaps.gif',
-        bounds: [[60.871890496911746, 29.822387695312504], [60.87028195376524, 29.844317436218265], [60.85423386707908, 29.817624092102054]],
+        bounds: [[60.8718905, 29.8223877], [60.870282, 29.8443174], [60.8542339, 29.8176241]],
         author: 'VRBY',
         owner: 'VESTA_PRIOZERSK'
     },
@@ -74,7 +74,7 @@ let priozerskMaps = [
         year: 2024,
         url: './maps/forest/priozersk/vasilievo_2024.webp',
         link: './original_maps/forest/priozersk/vasilievo_2024_omaps.gif',
-        bounds: [[60.87020883624216, 29.823331832885742], [60.868673329579174, 29.83599185943604], [60.86174696355457, 29.818053245544437]],
+        bounds: [[60.8702088, 29.8233318], [60.8686733, 29.8359919], [60.861747, 29.8180532]],
         author: 'PSHKV',
         owner: 'VESTA_PRIOZERSK'
     },
@@ -84,7 +84,7 @@ let priozerskMaps = [
         area: 5,
         url: './maps/forest/priozersk/balakhanovskoe.webp',
         link: './original_maps/forest/priozersk/balakhanovskoe_omaps.jpg',
-        bounds: [[60.82533535415073, 29.795951843261722], [60.81843097676924, 29.901695251464847], [60.75664380010026, 29.780330657958988]],
+        bounds: [[60.8253354, 29.7959518], [60.818431, 29.9016953], [60.7566438, 29.7803307]],
         author: 'SHRNN',
         owner: 'SHRNN'
     },
@@ -93,7 +93,7 @@ let priozerskMaps = [
         year: 1988,
         url: './maps/forest/priozersk/granitnoe_1988.webp',
         link: './original_maps/forest/priozersk/granitnoe_1988_omaps.jpg',
-        bounds: [[61.064286632006386, 29.99297618865967], [61.06277084970437, 30.02250194549561], [61.05490007430921, 29.98954296112061]],
+        bounds: [[61.0642866, 29.9929762], [61.0627708, 30.0225019], [61.0549001, 29.989543]],
         author: 'KNSTNTNV_D'
     },
     {
@@ -101,14 +101,14 @@ let priozerskMaps = [
         year: 1988,
         url: './maps/forest/priozersk/belaya_dacha_1989.webp',
         link: './original_maps/forest/priozersk/belaya_dacha_1989_omaps.jpg',
-        bounds: [[61.02223312856577, 29.98276233673096], [61.021339094147365, 29.997353553771976], [61.01523611667841, 29.982225894927982]]
+        bounds: [[61.0222331, 29.9827623], [61.0213391, 29.9973536], [61.0152361, 29.9822259]]
     },
     {
         name: 'Яркое',
         year: 1987,
         url: './maps/forest/priozersk/yarkoe_1987.webp',
         link: './original_maps/forest/priozersk/yarkoe_1987_omaps.jpg',
-        bounds: [[61.04594702727455, 29.998083114624027], [61.04528219902152, 30.023918151855472], [61.02364689902262, 29.996581077575687]],
+        bounds: [[61.045947, 29.9980831], [61.0452822, 30.0239182], [61.0236469, 29.9965811]],
         author: 'MLVA_M'
     },
     {
@@ -117,7 +117,7 @@ let priozerskMaps = [
         area: 1.9,
         url: './maps/forest/priozersk/kuznechnoe_sopkino_1984.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_sopkino_1984_omaps.jpg',
-        bounds: [[61.158185682196546, 29.812302589416507], [61.15619822139052, 29.851055145263675], [61.13834687040916, 29.807324409484867]],
+        bounds: [[61.1581857, 29.8123026], [61.1561982, 29.8510551], [61.1383469, 29.8073244]],
         author: ['VLKV_K','SKLVA','TLNKV','PLBTKO','SHRNN','DJKV']
     },
     {
@@ -125,7 +125,7 @@ let priozerskMaps = [
         year: 1984,
         url: './maps/forest/priozersk/kuznechnoe_berezovskoe_1984.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_berezovskoe_1984_omaps.jpg',
-        bounds: [[61.15381724416708, 29.787368774414066], [61.15207798205209, 29.817881584167484], [61.13849187563487, 29.782905578613285]],
+        bounds: [[61.1538172, 29.7873688], [61.152078, 29.8178816], [61.1384919, 29.7829056]],
         author: 'OVCHNNKV'
     },
     {
@@ -133,7 +133,7 @@ let priozerskMaps = [
         year: 1987,
         url: './maps/forest/priozersk/kuznechnoe_suuri_1987.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1987_omaps.webp',
-        bounds: [[61.14315240323964, 29.887962341308597], [61.13954832218195, 29.9611759185791], [61.12177045767672, 29.884700775146488]],
+        bounds: [[61.1431524, 29.8879623], [61.1395483, 29.9611759], [61.1217705, 29.8847008]],
         author: ['BGCHNS','VLKV_K','OVCHNNKV','SSNNA','USHNV'],
         areas: [5,35,50,5,5]
     },
@@ -143,7 +143,7 @@ let priozerskMaps = [
         info: 'Многодневные соревнования, посвящённые 61-ой годовщине Великого Октября. Первая карта в районе Кузнечного.',
         url: './maps/forest/priozersk/kuznechnoe_suuri_1978.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1978_omaps.jpg',
-        bounds: [[61.1415368315689, 29.910793304443363], [61.13739396236131, 29.939160346984867], [61.131157919577575, 29.90362644195557]],
+        bounds: [[61.1415368, 29.9107933], [61.137394, 29.9391603], [61.1311579, 29.9036264]],
         author: ['VLKV_K','OVCHNNKV'],
         logo: 'ovchnkv.jpg'
     },
@@ -152,7 +152,7 @@ let priozerskMaps = [
         year: 1979,
         url: './maps/forest/priozersk/kuznechnoe_suuri_1979.webp',
         link: ['./original_maps/forest/priozersk/kuznechnoe_suuri_1979_omaps.jpg','./original_maps/forest/priozersk/kuznechnoe_suuri_1979_course_omaps.jpg'],
-        bounds: [[61.14161968340912, 29.899506568908695], [61.137311099433035, 29.95555400848389], [61.12483774980104, 29.901480674743656]],
+        bounds: [[61.1416197, 29.8995066], [61.1373111, 29.955554], [61.1248377, 29.9014807]],
         author: ['VLKV_K','BGCHNS','OVCHNNKV','PTRV_A']
     },
     {
@@ -164,7 +164,7 @@ let priozerskMaps = [
         url: './maps/forest/priozersk/kuznechnoe_suuri_1984.webp',
         link: ['./original_maps/forest/priozersk/kuznechnoe_suuri_1984_omaps.jpg','./original_maps/forest/priozersk/kuznechnoe_suuri_1984_clean_omaps.jpg'],
         start: 'ORIENTIR',
-        bounds: [[61.14238605262496, 29.901266098022464], [61.14060473338595, 29.93710041046143], [61.123863709565256, 29.898004531860355]],
+        bounds: [[61.1423861, 29.9012661], [61.1406047, 29.9371004], [61.1238637, 29.8980045]],
         author: ['VLKV_K','OVCHNNKV','BGCHNS']
     },
     {
@@ -172,7 +172,7 @@ let priozerskMaps = [
         year: 1984,
         url: './maps/forest/priozersk/kuznechnoe_suuri_1984_east.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_suuri_1984_east_omaps.jpg',
-        bounds: [[61.142655313068666, 29.898262023925785], [61.13961046499582, 29.954223632812504], [61.12885793855746, 29.897446632385257]],
+        bounds: [[61.1426553, 29.898262], [61.1396105, 29.9542236], [61.1288579, 29.8974466]],
         author: 'OVCHNNKV'
     },
     {
@@ -188,7 +188,7 @@ let priozerskMaps = [
         },
         url: './maps/forest/priozersk/kuznechnoe_suuri_2019.webp',
         link: ['./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_25.jpg','./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_26.jpg','./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_25_W.gif','./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_26_W.gif'],
-        bounds: [[61.14435367217603, 29.88916397094727], [61.13689678153038, 29.96950149536133], [61.12479630189204, 29.879465103149418]],
+        bounds: [[61.1443537, 29.889164], [61.1368968, 29.9695015], [61.1247963, 29.8794651]],
         owner: 'SHEIN',
         author: 'CHGRVSKY_V'
     },
@@ -199,7 +199,7 @@ let priozerskMaps = [
         logo: 'mourning.webp',
         url: './maps/forest/priozersk/kuznechnoe_west_2008.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_2008_omaps.webp',
-        bounds: [[61.15810287382887, 29.742393493652347], [61.14389802382198, 29.939460754394535], [61.083819196139416, 29.71887588500977]],
+        bounds: [[61.1581029, 29.7423935], [61.143898, 29.9394608], [61.0838192, 29.7188759]],
         author: ['KUZNTSV_S','NSNV','KVZN','TKMKV_K','SHRNN'],
         owner: 'TOKM'
     },
@@ -208,7 +208,7 @@ let priozerskMaps = [
         year: 1998,
         url: './maps/forest/priozersk/kuznechnoe_bogatyri_1998.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_bogatyri_1998_omaps.webp',
-        bounds: [[61.11791519532813, 29.80376243591309], [61.11244240252194, 29.89165306091309], [61.08761637193672, 29.793934822082523]],
+        bounds: [[61.1179152, 29.8037624], [61.1124424, 29.8916531], [61.0876164, 29.7939348]],
         author: ['KUZNTSV_S','KVZN','VLKV_K','SHRNN']
     },
     {
@@ -216,7 +216,7 @@ let priozerskMaps = [
         year: 2003,
         url: './maps/forest/priozersk/kuznechnoe_se.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_se_2003.pdf',
-        bounds: [[61.101535452429026, 29.940662384033207], [61.09734585191786, 30.00572204589844], [61.07340056041223, 29.932250976562504]],
+        bounds: [[61.1015355, 29.9406624], [61.0973459, 30.005722], [61.0734006, 29.932251]],
         author: ['KUZNTSV_S','NSNV','KVZN','TKMKV_K'],
         owner: 'TOKM'
     },
@@ -228,7 +228,7 @@ let priozerskMaps = [
         o_site: '13082425',
         url: './maps/starts/psk/psk_2013_08_24.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_travkino_2013_08_24_omaps.gif',
-        bounds: [[61.15230574802124, 29.81273174285889], [61.14934466220918, 29.849853515625], [61.13946546490655, 29.807109832763675]],
+        bounds: [[61.1523057, 29.8127317], [61.1493447, 29.8498535], [61.1394655, 29.8071098]],
         author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
@@ -242,14 +242,14 @@ let priozerskMaps = [
         },
         url: './maps/forest/priozersk/kuznechnoe_travkino_2019_05_24.webp',
         link: ['./original_maps/forest/priozersk/kuznechnoe_travkino_2019_05_24.jpg','./original_maps/forest/priozersk/kuznechnoe_travkino_2019_05_24_W.gif'],
-        bounds: [[61.150877007031895, 29.82371807098389], [61.14843350299322, 29.85045433044434], [61.138730097060204, 29.81873989105225]],
+        bounds: [[61.150877, 29.8237181], [61.1484335, 29.8504543], [61.1387301, 29.8187399]],
         author: 'SBLV_S'
     },
     {
         name: 'о Койонсаари',
         year: 2025,
         url: './maps/forest/priozersk/koyonsaari_2025.webp',
-        bounds: [[61.29604906855844, 30.08614540100098], [61.28928775092905, 30.145454406738285], [61.27501823989499, 30.076274871826175]],
+        bounds: [[61.2960491, 30.0861454], [61.2892878, 30.1454544], [61.2750182, 30.0762749]],
         author: 'VRBY',
         owner: 'WN'
     },
@@ -258,7 +258,7 @@ let priozerskMaps = [
         year: 2024,
         info: '2011-2024гг.',
         url: './maps/forest/priozersk/vorobjevo_2024.webp',
-        bounds: [[60.94031420018075, 30.258407592773438], [60.93226706714691, 30.354366302490238], [60.90076780680974, 30.24467468261719]],
+        bounds: [[60.9403142, 30.2584076], [60.9322671, 30.3543663], [60.9007678, 30.2446747]],
         author: ['MKHLV_A','SLBDNK','SBLV_S','USNKO'],
         owner: 'WN'
     },
@@ -266,7 +266,7 @@ let priozerskMaps = [
         name: 'Заветное',
         year: 2018,
         url: './maps/forest/priozersk/zavetnoe_2018.webp',
-        bounds: [[61.011523851127386, 29.64340925216675], [61.01079590501046, 29.6566915512085], [61.00338030286407, 29.639654159545902]],
+        bounds: [[61.0115239, 29.6434093], [61.0107959, 29.6566916], [61.0033803, 29.6396542]],
         author: 'ELZRV',
         owner: 'ELZRV'
     },
@@ -274,7 +274,7 @@ let priozerskMaps = [
         name: 'т/б "Лена-Ладога"',
         year: 2021,
         url: './maps/forest/priozersk/lena-ladoga_2021.webp',
-        bounds: [[61.41811982926797, 30.185172557830814], [61.416549144625634, 30.200386047363285], [61.41306871866662, 30.183434486389164]],
+        bounds: [[61.4181198, 30.1851726], [61.4165491, 30.200386], [61.4130687, 30.1834345]],
         author: 'DRBSHV',
         owner: 'LENA',
         region: 'KARELIA'

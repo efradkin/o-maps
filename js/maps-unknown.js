@@ -228,7 +228,7 @@ let unknownMaps = [
         year: 1,
         name: 'Украина, Сумы',
         link: './original_maps/unknown/unknown_73_omaps.webp',
-        bounds: [[51.075671944531734, 34.88873142688256]]
+        bounds: [[51.0756719, 34.8887314]]
     },
 */
     {

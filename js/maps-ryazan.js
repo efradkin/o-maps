@@ -7,7 +7,7 @@ let ryazanMaps = [
         url: './maps/ryazan/biatlonka_velo_2017.webp',
         link: ['./original_maps/ryazan/biatlonka_velo_2017_omaps.webp','./original_maps/ryazan/biatlonka_velo_tracks_2017_omaps.gif'],
         info: 'Веломаршруты.',
-        bounds: [[54.8910235497936, 39.668197631835945], [54.8880615950405, 40.03795623779297], [54.67393022562334, 39.66236114501954]],
+        bounds: [[54.8910235, 39.6681976], [54.8880616, 40.0379562], [54.6739302, 39.6623611]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['ROGAINE','VELO']
@@ -17,7 +17,7 @@ let ryazanMaps = [
         year: 2015,
         url: './maps/ryazan/veseol_2015.webp',
         link: './original_maps/ryazan/veseol_2015_omaps.gif',
-        bounds: [[54.609956735013355, 39.5339584350586], [54.609559069526135, 39.74149703979492], [54.50154878900876, 39.53327178955079]],
+        bounds: [[54.6099567, 39.5339584], [54.6095591, 39.741497], [54.5015488, 39.5332718]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['ROGAINE']
@@ -27,7 +27,7 @@ let ryazanMaps = [
         year: 2022,
         url: './maps/ryazan/kartsevo_grachi_2020.webp',
         link: './original_maps/ryazan/kartsevo_grachi_2020_omaps.jpg',
-        bounds: [[54.61758618912401, 39.83243465423585], [54.60834119480319, 39.87457752227784], [54.583105593985486, 39.80981826782227]],
+        bounds: [[54.6175862, 39.8324347], [54.6083412, 39.8745775], [54.5831056, 39.8098183]],
         author: ['TARASOV','ANDREYKN'],
         owner: ['TARASOV','ANDREYKN']
     },
@@ -37,7 +37,7 @@ let ryazanMaps = [
         correct: 2018,
         url: './maps/ryazan/aviatsionnyy_gorodok_2017.webp',
         link: './original_maps/ryazan/aviatsionnyy_gorodok_2017_omaps.jpg',
-        bounds: [[54.66238966096887, 39.5752215385437], [54.66227796206429, 39.60045576095582], [54.6536017422146, 39.57492113113404]],
+        bounds: [[54.6623897, 39.5752215], [54.662278, 39.6004558], [54.6536017, 39.5749211]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -48,7 +48,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/al_nevskiy_2021.webp',
         link: './original_maps/ryazan/al_nevskiy_2021_omaps.gif',
-        bounds: [[53.49759426000488, 40.209274291992195], [53.489986092525875, 40.27051448822022], [53.472083644908196, 40.20021915435791]],
+        bounds: [[53.4975943, 40.2092743], [53.4899861, 40.2705145], [53.4720836, 40.2002192]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN'
     },
@@ -57,7 +57,7 @@ let ryazanMaps = [
         year: 2012,
         url: './maps/ryazan/aleshnya_2012.webp',
         link: './original_maps/ryazan/aleshnya_2012_omaps.jpg',
-        bounds: [[53.650564894980874, 40.13198375701905], [53.6491404391569, 40.146875381469734], [53.63883713858995, 40.12945175170899]],
+        bounds: [[53.6505649, 40.1319838], [53.6491404, 40.1468754], [53.6388371, 40.1294518]],
         author: 'KORNEEV',
         owner: 'KORNEEV'
     },
@@ -66,7 +66,7 @@ let ryazanMaps = [
         year: 2017,
         url: './maps/ryazan/altair_50_2017.webp',
         link: './original_maps/ryazan/altair_50_2017_omaps.jpg',
-        bounds: [[54.89372614347525, 39.96218919754029], [54.892405720815276, 39.980041980743415], [54.88675332902147, 39.96027946472169]],
+        bounds: [[54.8937261, 39.9621892], [54.8924057, 39.980042], [54.8867533, 39.9602795]],
         author: 'KORNEEV',
         owner: 'KORNEEV'
     },
@@ -75,7 +75,7 @@ let ryazanMaps = [
         year: 2007,
         url: './maps/ryazan/bazhenovo_2007.webp',
         link: './original_maps/ryazan/bazhenovo_2007_omaps.gif',
-        bounds: [[54.98807961592851, 41.30893707275391], [54.985715782146656, 41.33691787719727], [54.97313094911047, 41.3042163848877]],
+        bounds: [[54.9880796, 41.3089371], [54.9857158, 41.3369179], [54.9731309, 41.3042164]],
         author: 'ZOTOV',
         owner: 'TSDYUTK'
     },
@@ -85,7 +85,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/berendey_ekopark_2022.webp',
         link: './original_maps/ryazan/berendey_ekopark_2022_omaps.jpg',
-        bounds: [[54.764279809447146, 39.84329223632813], [54.75900566056252, 39.88749504089356], [54.74610214627036, 39.83642578125]],
+        bounds: [[54.7642798, 39.8432922], [54.7590057, 39.887495], [54.7461021, 39.8364258]],
         author: 'GUSEV_B',
         owner: 'GUSEV_B',
         type: ['PARK']
@@ -95,7 +95,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/berendey_2025.webp',
         link: './original_maps/ryazan/berendey_2025_omaps.jpg',
-        bounds: [[54.77346459684822, 39.84930038452149], [54.77044449250836, 39.873161315917976], [54.75353269509984, 39.8421335220337]],
+        bounds: [[54.7734646, 39.8493004], [54.7704445, 39.8731613], [54.7535327, 39.8421335]],
         author: 'GUSEV_B',
         owner: 'GUSEV_B',
         type: ['PARK']
@@ -106,7 +106,7 @@ let ryazanMaps = [
         correct: 2019,
         url: './maps/ryazan/bozhatkovskiy_les_2018.webp',
         link: './original_maps/ryazan/bozhatkovskiy_les_2018_omaps.gif',
-        bounds: [[54.60872644482921, 39.65287685394288], [54.60714813933535, 39.66450691223145], [54.598833063109105, 39.64952945709229]],
+        bounds: [[54.6087264, 39.6528769], [54.6071481, 39.6645069], [54.5988331, 39.6495295]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -117,7 +117,7 @@ let ryazanMaps = [
         url: './maps/ryazan/bolon_rogeyn_2024.webp',
         link: './original_maps/ryazan/bolon_rogeyn_2024_omaps.gif',
         info: 'Ночная прогулка.',
-        bounds: [[55.06136316912078, 40.05083084106446], [55.04779405322164, 40.16292572021485], [54.970815501323486, 40.01667022705078]],
+        bounds: [[55.0613632, 40.0508308], [55.0477941, 40.1629257], [54.9708155, 40.0166702]],
         author: 'GUSEV_B',
         owner: 'GUSEV_B',
         type: ['ROGAINE']
@@ -127,7 +127,7 @@ let ryazanMaps = [
         year: 2023,
         url: './maps/ryazan/borki_2023.webp',
         link: './original_maps/ryazan/borki_2023_omaps.gif',
-        bounds: [[54.66468562596714, 39.69834566116334], [54.66201733009254, 39.72081184387208], [54.64924431502483, 39.69295978546143]],
+        bounds: [[54.6646856, 39.6983457], [54.6620173, 39.7208118], [54.6492443, 39.6929598]],
         author: 'GUSEV_B',
         owner: 'GUSEV_B',
         type: ['CITY','SPRINT']
@@ -137,7 +137,7 @@ let ryazanMaps = [
         year: 2015,
         url: './maps/ryazan/boyarentsevo_2015.webp',
         link: './original_maps/ryazan/boyarentsevo_2015_omaps.gif',
-        bounds: [[54.155712089884794, 39.03264284133912], [54.15358850331777, 39.05882120132447], [54.14494224521813, 39.03043270111085]],
+        bounds: [[54.1557121, 39.0326428], [54.1535885, 39.0588212], [54.1449422, 39.0304327]],
         author: 'KORNEEV',
         owner: 'KORNEEV'
     },
@@ -147,7 +147,7 @@ let ryazanMaps = [
         correct: 2025,
         url: './maps/ryazan/butyrki_2025.webp',
         link: ['./original_maps/ryazan/butyrki_2025_omaps.gif','./original_maps/ryazan/butyrki_2024_omaps.jpg'],
-        bounds: [[54.64131036343618, 39.70506191253663], [54.638143800227326, 39.72656250000001], [54.635821497131154, 39.70272302627564]],
+        bounds: [[54.6413104, 39.7050619], [54.6381438, 39.7265625], [54.6358215, 39.702723]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -157,7 +157,7 @@ let ryazanMaps = [
         year: 1993,
         url: './maps/ryazan/vanchur_1993.webp',
         link: './original_maps/ryazan/vanchur_1993_omaps.jpg',
-        bounds: [[54.34359983807795, 40.9826946258545], [54.35970720705679, 41.049985885620124], [54.325383904474705, 40.99797248840332]],
+        bounds: [[54.3435998, 40.9826946], [54.3597072, 41.0499859], [54.3253839, 40.9979725]],
         author: 'MAMONTO',
         owner: 'FSO_RYAZAN'
     },
@@ -167,7 +167,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/solotchinskiy_park_2023.webp',
         link: './original_maps/ryazan/solotchinskiy_park_2023_omaps.jpg',
-        bounds: [[54.804543713140994, 39.77891921997071], [54.795687609250635, 39.87573623657227], [54.760219023283824, 39.765787124633796]],
+        bounds: [[54.8045437, 39.7789192], [54.7956876, 39.8757362], [54.760219, 39.7657871]],
         author: 'LUK_V',
         owner: 'FSO_RYAZAN',
         type: ['PARK']
@@ -178,7 +178,7 @@ let ryazanMaps = [
         correct: 2023,
         url: './maps/ryazan/solotcha_2023.webp',
         link: './original_maps/ryazan/solotcha_2023_omaps.gif',
-        bounds: [[54.807957000388704, 39.84187602996827], [54.804840532173394, 39.87635850906373], [54.79722148684703, 39.83876466751099]],
+        bounds: [[54.807957, 39.841876], [54.8048405, 39.8763585], [54.7972215, 39.8387647]],
         author: ['VEKOVISCH','TARASOV'],
         owner: 'FSO_RYAZAN'
     },
@@ -188,7 +188,7 @@ let ryazanMaps = [
         url: './maps/ryazan/velokross_long_pr_2023.webp',
         link: './original_maps/ryazan/velokross_long_pr_2023_omaps.gif',
         info: 'Первенство России, лонг.',
-        bounds: [[54.771459470756334, 39.84912872314454], [54.76413125127978, 39.916849136352546], [54.715969688649906, 39.830975532531745]],
+        bounds: [[54.7714595, 39.8491287], [54.7641313, 39.9168491], [54.7159697, 39.8309755]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['VELO']
@@ -199,7 +199,7 @@ let ryazanMaps = [
         url: './maps/ryazan/velokross_sprint_pr_2023.webp',
         link: './original_maps/ryazan/velokross_sprint_pr_2023_omaps.jpg',
         info: 'Первенство России, спринт.',
-        bounds: [[54.789477284183114, 39.81080532073975], [54.78673058121807, 39.83582496643067], [54.76957802751782, 39.80449676513672]],
+        bounds: [[54.7894773, 39.8108053], [54.7867306, 39.835825], [54.769578, 39.8044968]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['VELO']
@@ -210,7 +210,7 @@ let ryazanMaps = [
         url: './maps/ryazan/velokross_estafeta_pr_2023.webp',
         link: './original_maps/ryazan/velokross_estafeta_pr_2023_omaps.jpg',
         info: 'Первенство России, эстафета.',
-        bounds: [[54.79558864740703, 39.839944839477546], [54.79182791782735, 39.87354755401612], [54.767820284397445, 39.83110427856446]],
+        bounds: [[54.7955886, 39.8399448], [54.7918279, 39.8735476], [54.7678203, 39.8311043]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['VELO']
@@ -222,7 +222,7 @@ let ryazanMaps = [
         start: 'RUSSIA_CUP',
         url: './maps/ryazan/vypolzovo_panino_2022.webp',
         link: ['./original_maps/ryazan/vypolzovo_panino_2022_omaps.gif','./original_maps/ryazan/aglamazovo_2022_08_27_omaps.jpg'],
-        bounds: [[54.54040569275587, 40.16773223876954], [54.52491717969398, 40.28978347778321], [54.482605106683145, 40.146617889404304]],
+        bounds: [[54.5404057, 40.1677322], [54.5249172, 40.2897835], [54.4826051, 40.1466179]],
         author: ['LUK_V','TTYNN_V'],
         owner: 'FSO_RYAZAN'
     },
@@ -231,7 +231,7 @@ let ryazanMaps = [
         year: 1998,
         url: './maps/ryazan/vysha_1998.webp',
         link: './original_maps/ryazan/vysha_1998_omaps.gif',
-        bounds: [[54.03076331858032, 42.096691131591804], [54.02857030731842, 42.13046550750733], [54.01273686418567, 42.093687057495124]],
+        bounds: [[54.0307633, 42.0966911], [54.0285703, 42.1304655], [54.0127369, 42.0936871]],
         author: 'MOROZOV',
         owner: 'FSO_RYAZAN'
     },
@@ -240,7 +240,7 @@ let ryazanMaps = [
         year: 2006,
         url: './maps/ryazan/golenischevo_2006.webp',
         link: './original_maps/ryazan/golenischevo_2006_omaps.jpg',
-        bounds: [[54.14927816721851, 41.35097265243531], [54.14657612421337, 41.368288993835456], [54.141322345192215, 41.34768962860108]],
+        bounds: [[54.1492782, 41.3509727], [54.1465761, 41.368289], [54.1413223, 41.3476896]],
         author: ['KORNEEV','SOKOLOV'],
         owner: 'TSDYUTK'
     },
@@ -249,7 +249,7 @@ let ryazanMaps = [
         year: 2021,
         url: './maps/ryazan/golenchino_nikkulino_tspkio_1999.webp',
         link: './original_maps/ryazan/golenchino_nikkulino_tspkio_2021_omaps.jpg',
-        bounds: [[54.621537038019135, 39.72201347351075], [54.61795892710645, 39.76415634155274], [54.58584124224482, 39.71274375915528]],
+        bounds: [[54.621537, 39.7220135], [54.6179589, 39.7641563], [54.5858412, 39.7127438]],
         author: ['KORNEEV','ZOTOV','VORZHEIN','VEKOVISCH'],
         owner: 'FSO_RYAZAN'
     },
@@ -259,7 +259,7 @@ let ryazanMaps = [
         date: '2023-04-16',
         url: './maps/ryazan/dp_kvartal_a_2022.webp',
         link: './original_maps/ryazan/dp_kvartal_a_2022_omaps.jpg',
-        bounds: [[54.614927225802006, 39.7791337966919], [54.61282726749976, 39.79612827301026], [54.60816720972531, 39.7766661643982]],
+        bounds: [[54.6149272, 39.7791338], [54.6128273, 39.7961283], [54.6081672, 39.7766662]],
         author: ['TARASOV','SOKOLOV'],
         owner: ['TARASOV','SOKOLOV'],
         type: ['CITY','SPRINT']
@@ -270,7 +270,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/dp_shk59_2023.webp',
         link: './original_maps/ryazan/dp_shk59_2023_omaps.jpg',
-        bounds: [[54.61753649046839, 39.793746471405036], [54.6157348732198, 39.80902433395386], [54.61148522556301, 39.791536331176765]],
+        bounds: [[54.6175365, 39.7937465], [54.6157349, 39.8090243], [54.6114852, 39.7915363]],
         author: 'SOKOLOV',
         owner: 'SOKOLOV',
         type: ['CITY','SPRINT']
@@ -281,7 +281,7 @@ let ryazanMaps = [
         correct: 2025,
         url: './maps/ryazan/dp_shk71_2021.webp',
         link: './original_maps/ryazan/dp_shk71_2025_omaps.jpg',
-        bounds: [[54.60469978059106, 39.81194257736207], [54.60313374804192, 39.82983827590943], [54.59750299054603, 39.80983972549439]],
+        bounds: [[54.6046998, 39.8119426], [54.6031337, 39.8298383], [54.597503, 39.8098397]],
         author: ['DUBOV','TARASOV','KRYUKOV_S'],
         owner: 'FSO_RYAZAN',
         type: ['CITY','SPRINT']
@@ -291,7 +291,7 @@ let ryazanMaps = [
         year: 2024,
         url: './maps/ryazan/deulino_elan_2024.webp',
         link: './original_maps/ryazan/deulino_elan_2024_omaps.jpg',
-        bounds: [[54.852575265066896, 40.31025409698487], [54.84965989868595, 40.33351421356202], [54.83349803105711, 40.304632186889656]],
+        bounds: [[54.8525753, 40.3102541], [54.8496599, 40.3335142], [54.833498, 40.3046322]],
         author: 'SHIBANOV_V',
         owner: 'SHIBANOV_V'
     },
@@ -300,7 +300,7 @@ let ryazanMaps = [
         year: 2023,
         url: './maps/ryazan/deulino_lesohim_2023.webp',
         link: './original_maps/ryazan/deulino_lesohim_2023_omaps.jpg',
-        bounds: [[54.8468925763803, 40.29776573181152], [54.84412506425888, 40.33081054687501], [54.834313693204265, 40.29428958892823]],
+        bounds: [[54.8468926, 40.2977657], [54.8441251, 40.3308105], [54.8343137, 40.2942896]],
         author: 'SHIBANOV_A',
         owner: 'SHIBANOV_A'
     },
@@ -309,7 +309,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/deulino_most_2023.webp',
         link: './original_maps/ryazan/deulino_most_2025_omaps.gif',
-        bounds: [[54.83428897641164, 40.324373245239265], [54.83233630197034, 40.3394365310669], [54.82225009993253, 40.31982421875001]],
+        bounds: [[54.834289, 40.3243732], [54.8323363, 40.3394365], [54.8222501, 40.3198242]],
         author: 'SHIBANOV_V',
         owner: 'SHIBANOV_V'
     },
@@ -319,7 +319,7 @@ let ryazanMaps = [
         url: './maps/ryazan/dolginino_rogeyn_2022.webp',
         link: './original_maps/ryazan/dolginino_rogeyn_2022_omaps.gif',
         info: 'Ночная прогулка.',
-        bounds: [[54.72848629990346, 40.086193084716804], [54.71470541995997, 40.197086334228516], [54.63922418480386, 40.05392074584962]],
+        bounds: [[54.7284863, 40.0861931], [54.7147054, 40.1970863], [54.6392242, 40.0539207]],
         author: 'GUSEV_B',
         owner: 'GUSEV_B',
         type: ['ROGAINE']
@@ -330,7 +330,7 @@ let ryazanMaps = [
         correct: 2017,
         url: './maps/ryazan/dubki_2012.webp',
         link: './original_maps/ryazan/dubki_2012_omaps.jpg',
-        bounds: [[54.735734252738105, 39.726390838623054], [54.73559797840528, 39.74128246307374], [54.72480607379546, 39.72643375396729]],
+        bounds: [[54.7357343, 39.7263908], [54.735598, 39.7412825], [54.7248061, 39.7264338]],
         author: 'KORNEEV',
         owner: 'KORNEEV'
     },
@@ -339,7 +339,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/dubki_2025.webp',
         link: './original_maps/ryazan/dubki_2025_omaps.gif',
-        bounds: [[54.738174724540954, 39.72336530685425], [54.73564753276117, 39.74868535995484], [54.72530174661709, 39.71995353698731]],
+        bounds: [[54.7381747, 39.7233653], [54.7356475, 39.7486854], [54.7253017, 39.7199535]],
         author: ['VEKOVISCH','ANDREYKN'],
         owner: 'ANDREYKN'
     },
@@ -348,7 +348,7 @@ let ryazanMaps = [
         year: 2003,
         url: './maps/ryazan/ermish_2003.webp',
         link: './original_maps/ryazan/ermish_2003_omaps.gif',
-        bounds: [[54.734891822248095, 42.25938320159912], [54.73310779397438, 42.275240421295166], [54.72661525027747, 42.25640058517456]],
+        bounds: [[54.7348918, 42.2593832], [54.7331078, 42.2752404], [54.7266153, 42.2564006]],
         author: ['MOROZOV','MILIDIN'],
         owner: 'FSO_RYAZAN'
     },
@@ -358,7 +358,7 @@ let ryazanMaps = [
         correct: 2023,
         url: './maps/ryazan/zabore_2012.webp',
         link: './original_maps/ryazan/zabore_2012_omaps.gif',
-        bounds: [[54.848992793708014, 39.88886833190919], [54.84560768364451, 39.92126941680909], [54.82264568473381, 39.88075733184815]],
+        bounds: [[54.8489928, 39.8888683], [54.8456077, 39.9212694], [54.8226457, 39.8807573]],
         author: 'SHIBANOV_V'
     },
     {
@@ -366,7 +366,7 @@ let ryazanMaps = [
         year: 2000,
         url: './maps/ryazan/zavidovka_2000.webp',
         link: './original_maps/ryazan/zavidovka_2000_omaps.gif',
-        bounds: [[54.25248958993893, 38.790922164917], [54.24933042692568, 38.805255889892585], [54.24326214943376, 38.788776397705085]],
+        bounds: [[54.2524896, 38.7909222], [54.2493304, 38.8052559], [54.2432621, 38.7887764]],
         author: 'MOROZOV',
         owner: 'FSO_RYAZAN'
     },
@@ -375,7 +375,7 @@ let ryazanMaps = [
         year: 2022,
         url: './maps/ryazan/zapovednyy_lug_2022.webp',
         link: './original_maps/ryazan/zapovednyy_lug_2022_omaps.gif',
-        bounds: [[54.656283003658395, 39.745573997497566], [54.6536017422146, 39.76763248443604], [54.63756013224836, 39.73724842071534]],
+        bounds: [[54.656283, 39.745574], [54.6536017, 39.7676325], [54.6375601, 39.7372484]],
         author: 'GUSEV_B',
         owner: 'GUSEV_B'
     },
@@ -384,7 +384,7 @@ let ryazanMaps = [
         year: 2009,
         url: './maps/ryazan/kadom_2009.webp',
         link: './original_maps/ryazan/kadom_2009_omaps.gif',
-        bounds: [[54.4113257530485, 42.4448847770691], [54.4155463293161, 42.46595621109009], [54.40588081768572, 42.44879007339478]],
+        bounds: [[54.4113258, 42.4448848], [54.4155463, 42.4659562], [54.4058808, 42.4487901]],
         author: 'MOROZOV',
         owner: 'FSO_RYAZAN'
     },
@@ -393,7 +393,7 @@ let ryazanMaps = [
         year: 2019,
         url: './maps/ryazan/ilinka_2019.webp',
         link: './original_maps/ryazan/ilinka_2019_omaps.gif',
-        bounds: [[53.94057815977318, 39.3804931640625], [53.936738311008945, 39.42340850830078], [53.92258845016338, 39.37585830688477]],
+        bounds: [[53.9405782, 39.3804932], [53.9367383, 39.4234085], [53.9225885, 39.3758583]],
         author: ['ZOTOV','TARASOV','KORNEEV'],
         owner: 'TSDYUTK'
     },
@@ -402,7 +402,7 @@ let ryazanMaps = [
         year: 1990,
         url: './maps/ryazan/kasimov_elochka_1990.webp',
         link: './original_maps/ryazan/kasimov_elochka_1990_omaps.jpg',
-        bounds: [[54.85645385810586, 41.69551849365235], [54.85106819519252, 41.737146377563484], [54.82086552261247, 41.68350219726563]],
+        bounds: [[54.8564539, 41.6955185], [54.8510682, 41.7371464], [54.8208655, 41.6835022]],
         author: 'POSKREB',
         owner: 'FSO_RYAZAN'
     },
@@ -412,7 +412,7 @@ let ryazanMaps = [
         correct: 2021,
         url: './maps/ryazan/kasimov_loschinino_tsrb_2020.webp',
         link: './original_maps/ryazan/kasimov_loschinino_tsrb_2020_omaps.jpg',
-        bounds: [[54.96438573890346, 41.30928039550782], [54.957659253863575, 41.36820316314698], [54.93537743229291, 41.29876613616944]],
+        bounds: [[54.9643857, 41.3092804], [54.9576593, 41.3682032], [54.9353774, 41.2987661]],
         author: 'MITIN',
         owner: 'FSO_RYAZAN'
     },
@@ -422,7 +422,7 @@ let ryazanMaps = [
         correct: 2021,
         url: './maps/ryazan/kasimov_loschinino_tsrb_2021.webp',
         link: './original_maps/ryazan/kasimov_loschinino_tsrb_2021_omaps.jpg',
-        bounds: [[54.95672287728029, 41.32601737976075], [54.953396099798816, 41.35588645935059], [54.94432615215542, 41.32155418395997]],
+        bounds: [[54.9567229, 41.3260174], [54.9533961, 41.3558865], [54.9443262, 41.3215542]],
         author: ['MITIN','KORNEEV','DUBOV'],
         owner: 'FSO_RYAZAN'
     },
@@ -431,7 +431,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/kachevo_2025.webp',
         link: './original_maps/ryazan/kachevo_2025_omaps.gif',
-        bounds: [[54.54463786506953, 39.737076759338386], [54.538986572009655, 39.77943420410157], [54.52748240380087, 39.73055362701417]],
+        bounds: [[54.5446379, 39.7370768], [54.5389866, 39.7794342], [54.5274824, 39.7305536]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN'
     },
@@ -440,7 +440,7 @@ let ryazanMaps = [
         year: 2022,
         url: './maps/ryazan/kachevo_stroitel_2003.webp',
         link: './original_maps/ryazan/kachevo_stroitel_2022_omaps.gif',
-        bounds: [[54.54000734805476, 39.76042270660401], [54.536944943319256, 39.79222297668458], [54.52835404520787, 39.75621700286866]],
+        bounds: [[54.5400073, 39.7604227], [54.5369449, 39.792223], [54.528354, 39.756217]],
         author: ['KORNEEV','ANDREYKN'],
         owner: 'ANDREYKN'
     },
@@ -449,7 +449,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/keltsy_2024.webp',
         link: ['./original_maps/ryazan/keltsy_2024_omaps.jpg','./original_maps/ryazan/keltsy_2025_omaps.gif'],
-        bounds: [[54.934785711200405, 39.96083736419678], [54.92216025372716, 40.067696571350105], [54.897168911128304, 39.947319030761726]],
+        bounds: [[54.9347857, 39.9608374], [54.9221603, 40.0676966], [54.8971689, 39.947319]],
         author: ['GUSEV_B','DJCHKV'],
         owner: 'GUSEV_B'
     },
@@ -458,7 +458,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/keletska_kanava_2025.webp',
         link: './original_maps/ryazan/keletska_kanava_2025_omaps.gif',
-        bounds: [[54.909284125406025, 39.95075225830079], [54.90430030347235, 39.99435424804688], [54.87322386134021, 39.93792057037354]],
+        bounds: [[54.9092841, 39.9507523], [54.9043003, 39.9943542], [54.8732239, 39.9379206]],
         author: ['GUSEV_B','DJCHKV'],
         owner: 'GUSEV_B'
     },
@@ -467,7 +467,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/keltsy_railroad_2025.webp',
         link: './original_maps/ryazan/keltsy_railroad_2025_omaps.gif',
-        bounds: [[54.91646270509485, 39.95328426361085], [54.913650630540204, 39.97761726379395], [54.896403877082506, 39.946374893188484]],
+        bounds: [[54.9164627, 39.9532843], [54.9136506, 39.9776173], [54.8964039, 39.9463749]],
         author: 'GUSEV_B',
         owner: 'GUSEV_B'
     },
@@ -476,7 +476,7 @@ let ryazanMaps = [
         year: 2017,
         url: './maps/ryazan/kiritsy_2017.webp',
         link: ['./original_maps/ryazan/kiritsy_2017_omaps.jpg','./original_maps/ryazan/kiritsy_game_2017_omaps.gif'],
-        bounds: [[54.30245238992604, 40.334630012512214], [54.30220197536198, 40.367546081542976], [54.28942881270231, 40.334372520446784]],
+        bounds: [[54.3024524, 40.33463], [54.302202, 40.3675461], [54.2894288, 40.3343725]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['CITY','SPRINT']
@@ -486,7 +486,7 @@ let ryazanMaps = [
         year: 2024,
         url: './maps/ryazan/kolos_2024.webp',
         link: './original_maps/ryazan/kolos_2024_omaps.jpg',
-        bounds: [[54.46001077197351, 40.00941753387452], [54.45746625739456, 40.02842903137208], [54.44426716860958, 40.00332355499268]],
+        bounds: [[54.4600108, 40.0094175], [54.4574663, 40.028429], [54.4442672, 40.0033236]],
         author: 'SHIBANOV_V',
         owner: 'TSDYUTK'
     },
@@ -496,7 +496,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/komsomolskiy_park_2017.webp',
         link: './original_maps/ryazan/komsomolskiy_park_2017_omaps.jpg',
-        bounds: [[54.63711306174695, 39.64008808135987], [54.63618164908144, 39.65229749679566], [54.626779396120575, 39.63807106018067]],
+        bounds: [[54.6371131, 39.6400881], [54.6361816, 39.6522975], [54.6267794, 39.6380711]],
         author: 'TARASOV',
         owner: 'TARASOV',
         type: ['PARK','SPRINT']
@@ -506,7 +506,7 @@ let ryazanMaps = [
         year: 2024,
         url: './maps/ryazan/korostovo_2024.webp',
         link: './original_maps/ryazan/korostovo_2024_omaps.gif',
-        bounds: [[54.74218817570285, 39.69150066375733], [54.739438261313325, 39.72853660583497], [54.72861020742489, 39.6903419494629]],
+        bounds: [[54.7421882, 39.6915007], [54.7394383, 39.7285366], [54.7286102, 39.6903419]],
         author: ['VEKOVISCH','ANDREYKN'],
         owner: 'ANDREYKN'
     },
@@ -516,7 +516,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/kostino_poschupovo_2022.webp',
         link: './original_maps/ryazan/kostino_poschupovo_2022_omaps.jpg',
-        bounds: [[54.82823290613604, 39.67596530914307], [54.82165671546502, 39.71943855285645], [54.79227328564422, 39.66115951538087]],
+        bounds: [[54.8282329, 39.6759653], [54.8216567, 39.7194386], [54.7922733, 39.6611595]],
         author: ['VEKOVISCH','ANDREYKN'],
         owner: 'ANDREYKN'
     },
@@ -525,7 +525,7 @@ let ryazanMaps = [
         year: 2024,
         url: './maps/ryazan/kreml_2024.webp',
         link: './original_maps/ryazan/kreml_2024_omaps.jpg',
-        bounds: [[54.640515641341075, 39.74173307418824], [54.63824314713405, 39.75898504257203], [54.6334493821835, 39.739115238189704]],
+        bounds: [[54.6405156, 39.7417331], [54.6382431, 39.758985], [54.6334494, 39.7391152]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['CITY','SPRINT']
@@ -536,7 +536,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/krutoyarskiy_2022.webp',
         link: ['./original_maps/ryazan/krutoyarskiy_2022_omaps.jpg','./original_maps/ryazan/krutoyarskiy_2022_omaps.gif'],
-        bounds: [[54.91463734574264, 41.26357555389405], [54.908741362856816, 41.30752086639405], [54.89776118557002, 41.25580787658692]],
+        bounds: [[54.9146373, 41.2635756], [54.9087414, 41.3075209], [54.8977612, 41.2558079]],
         author: ['MITIN','ANDREYKN'],
         owner: 'FSO_RYAZAN'
     },
@@ -546,7 +546,7 @@ let ryazanMaps = [
         info: '9 этап кубка Золотой Маршрут',
         url: './maps/ryazan/kuzminskoe_podlug_rogeyn_2017.webp',
         link: './original_maps/ryazan/kuzminskoe_podlug_rogeyn_2017_omaps.jpg',
-        bounds: [[54.88263077900905, 39.62614059448243], [54.86593878161604, 39.755573272705085], [54.77534585936449, 39.58442687988282]],
+        bounds: [[54.8826308, 39.6261406], [54.8659388, 39.7555733], [54.7753459, 39.5844269]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['ROGAINE']
@@ -556,7 +556,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/laskovo_2025.webp',
         link: './original_maps/ryazan/laskovo_2025_omaps.gif',
-        bounds: [[54.851932914300164, 39.94122505187989], [54.84857275898864, 39.97135162353516], [54.83147116284698, 39.93380069732667]],
+        bounds: [[54.8519329, 39.9412251], [54.8485728, 39.9713516], [54.8314712, 39.9338007]],
         author: 'SHIBANOV_V',
         owner: 'SHIBANOV_V'
     },
@@ -565,7 +565,7 @@ let ryazanMaps = [
         year: 2024,
         url: './maps/ryazan/laskovskoe_2024.webp',
         link: './original_maps/ryazan/laskovskoe_2024_omaps.gif',
-        bounds: [[54.83742788798474, 39.94002342224122], [54.83461029353513, 39.962596893310554], [54.81802204535274, 39.93354320526124]],
+        bounds: [[54.8374279, 39.9400234], [54.8346103, 39.9625969], [54.818022, 39.9335432]],
         author: 'SHIBANOV_V',
         owner: 'SHIBANOV_V'
     },
@@ -576,7 +576,7 @@ let ryazanMaps = [
         info: 'Кубок РФ по радиоспорту.',
         url: './original_maps/ryazan/segdenskoe_2023_omaps.jpg',
         link: './original_maps/ryazan/segdenskoe_2023_omaps.jpg',
-        bounds: [[54.82899923461889, 39.921097755432136], [54.82336267230953, 39.96839046478272], [54.79002165360763, 39.90706443786622]]
+        bounds: [[54.8289992, 39.9210978], [54.8233627, 39.9683905], [54.7900217, 39.9070644]]
     },
 */
     {
@@ -584,7 +584,7 @@ let ryazanMaps = [
         year: 2007,
         url: './maps/ryazan/lastochka_2007.webp',
         link: './original_maps/ryazan/lastochka_2007_omaps.gif',
-        bounds: [[54.98670072980712, 41.33402109146119], [54.986306753643184, 41.33917093276978], [54.98394281545201, 41.33303403854371]],
+        bounds: [[54.9867007, 41.3340211], [54.9863068, 41.3391709], [54.9839428, 41.333034]],
         author: 'ZOTOV',
         owner: 'TSDYUTK',
         type: ['CITY','SPRINT']
@@ -594,7 +594,7 @@ let ryazanMaps = [
         year: 2002,
         url: './maps/ryazan/loshaki_2002.webp',
         link: './original_maps/ryazan/loshaki_2002_omaps.gif',
-        bounds: [[53.576735136092616, 38.997838497161865], [53.57175334629919, 39.01137828826905], [53.57200818355081, 38.99356842041016]],
+        bounds: [[53.5767351, 38.9978385], [53.5717533, 39.0113783], [53.5720082, 38.9935684]],
         author: ['MOROZOV','TMFV_K','NKTN_V'],
         owner: 'FSO_RYAZAN'
     },
@@ -603,7 +603,7 @@ let ryazanMaps = [
         year: 1978,
         url: './maps/ryazan/lukovskiy_les_1978.webp',
         link: './original_maps/ryazan/lukovskiy_les_1978_omaps.jpg',
-        bounds: [[54.68191983495048, 39.72716331481934], [54.680778558447344, 39.77050781250001], [54.66400305533334, 39.725446701049805]],
+        bounds: [[54.6819198, 39.7271633], [54.6807786, 39.7705078], [54.6640031, 39.7254467]],
         author: 'TSVETKOV',
         owner: 'FSO_RYAZAN'
     },
@@ -612,7 +612,7 @@ let ryazanMaps = [
         year: 2006,
         url: './maps/ryazan/machilskiy_ovrag_2006.webp',
         link: './original_maps/ryazan/machilskiy_ovrag_2006_omaps.gif',
-        bounds: [[54.00489354857592, 41.73864841461182], [54.00252260919115, 41.75564289093018], [53.99209139433326, 41.73753261566163]],
+        bounds: [[54.0048935, 41.7386484], [54.0025226, 41.7556429], [53.9920914, 41.7375326]],
         author: 'KORNEEV',
         owner: 'TSDYUTK'
     },
@@ -621,7 +621,7 @@ let ryazanMaps = [
         year: 2024,
         url: './maps/ryazan/memorialnyy_park_2024.webp',
         link: './original_maps/ryazan/memorialnyy_park_2024_omaps.gif',
-        bounds: [[54.615660321821984, 39.73769903182984], [54.614082285193795, 39.74896430969239], [54.6111994146201, 39.73626136779785]],
+        bounds: [[54.6156603, 39.737699], [54.6140823, 39.7489643], [54.6111994, 39.7362614]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['PARK','SPRINT']
@@ -631,7 +631,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/meschera_2022.webp',
         link: './original_maps/ryazan/polushkino_2025_omaps.gif',
-        bounds: [[55.13213306181214, 40.102672576904304], [55.126759733712376, 40.14378547668458], [55.11576546718323, 40.09503364562989]],
+        bounds: [[55.1321331, 40.1026726], [55.1267597, 40.1437855], [55.1157655, 40.0950336]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN'
     },
@@ -640,7 +640,7 @@ let ryazanMaps = [
         year: 2008,
         url: './maps/ryazan/mozhary_2008.webp',
         link: './original_maps/ryazan/mozhary_2008_omaps.gif',
-        bounds: [[53.87484784631849, 41.07560634613038], [53.87396230950151, 41.08822345733643], [53.86277763085706, 41.071786880493164]],
+        bounds: [[53.8748478, 41.0756063], [53.8739623, 41.0882235], [53.8627776, 41.0717869]],
         author: 'MOROZOV',
         owner: 'FSO_RYAZAN'
     },
@@ -649,7 +649,7 @@ let ryazanMaps = [
         year: 2021,
         url: './maps/ryazan/nikonovka_2021.webp',
         link: './original_maps/ryazan/nikonovka_2021_omaps.jpg',
-        bounds: [[53.497262388555455, 40.17056465148926], [53.49478603497007, 40.19039154052735], [53.48860728521766, 40.164599418640144]],
+        bounds: [[53.4972624, 40.1705647], [53.494786, 40.1903915], [53.4886073, 40.1645994]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -659,7 +659,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/orehovoe_2025.webp',
         link: './original_maps/ryazan/orehovoe_2025_omaps.gif',
-        bounds: [[54.66315913396617, 39.768705368042], [54.65886479191402, 39.804282188415534], [54.63430634019711, 39.75900650024415]],
+        bounds: [[54.6631591, 39.7687054], [54.6588648, 39.8042822], [54.6343063, 39.7590065]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH'
     },
@@ -668,7 +668,7 @@ let ryazanMaps = [
         year: 2023,
         url: './maps/ryazan/orehovoe_2023.webp',
         link: './original_maps/ryazan/orehovoe_2023_omaps.jpg',
-        bounds: [[54.6638293082498, 39.78793144226075], [54.652335529478194, 39.81187820434571], [54.64510991375584, 39.75887775421143]],
+        bounds: [[54.6638293, 39.7879314], [54.6523355, 39.8118782], [54.6451099, 39.7588778]],
         author: ['VEKOVISCH','GUSEV_B'],
         owner: 'GUSEV_B'
     },
@@ -678,7 +678,7 @@ let ryazanMaps = [
         correct: 2022,
         url: './maps/ryazan/pavlovskaya_poyma_2018.webp',
         link: './original_maps/ryazan/pavlovskaya_poyma_2018_omaps.gif',
-        bounds: [[54.63298984653529, 39.65532302856446], [54.62838178309622, 39.68783140182496], [54.61990953352531, 39.64937925338745]],
+        bounds: [[54.6329898, 39.655323], [54.6283818, 39.6878314], [54.6199095, 39.6493793]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -688,7 +688,7 @@ let ryazanMaps = [
         year: 2023,
         url: './maps/ryazan/park_bratstva_po_oruzhiyu_2001.webp',
         link: './original_maps/ryazan/park_bratstva_po_oruzhiyu_2023_omaps.gif',
-        bounds: [[54.657474618623, 39.654464721679695], [54.654532755821634, 39.67148065567017], [54.650523038673576, 39.65105295181275]],
+        bounds: [[54.6574746, 39.6544647], [54.6545328, 39.6714807], [54.650523, 39.651053]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['PARK','SPRINT']
@@ -699,7 +699,7 @@ let ryazanMaps = [
         correct: 2022,
         url: './maps/ryazan/park_gagarina_2020.webp',
         link: './original_maps/ryazan/park_gagarina_2020_omaps.gif',
-        bounds: [[54.668631900406346, 39.63901519775391], [54.66683254609356, 39.653177261352546], [54.661520883615815, 39.63665485382081]],
+        bounds: [[54.6686319, 39.6390152], [54.6668325, 39.6531773], [54.6615209, 39.6366549]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['PARK','SPRINT']
@@ -710,7 +710,7 @@ let ryazanMaps = [
         correct: 2017,
         url: './maps/ryazan/park_morskoy_slavy_2015.webp',
         link: './original_maps/ryazan/park_morskoy_slavy_2015_omaps.jpg',
-        bounds: [[54.66597627363541, 39.676458835601814], [54.664549112757946, 39.69201564788819], [54.6598080967014, 39.67499971389771]],
+        bounds: [[54.6659763, 39.6764588], [54.6645491, 39.6920156], [54.6598081, 39.6749997]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['PARK','SPRINT']
@@ -720,7 +720,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/park_morskoy_slavy_2025.webp',
         link: './original_maps/ryazan/park_morskoy_slavy_2025_omaps.gif',
-        bounds: [[54.66715519480115, 39.66828346252442], [54.665330954927384, 39.681930541992195], [54.6606024416405, 39.66564416885377]],
+        bounds: [[54.6671552, 39.6682835], [54.665331, 39.6819305], [54.6606024, 39.6656442]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','PARK','SPRINT']
@@ -731,7 +731,7 @@ let ryazanMaps = [
         correct: 2025,
         url: './maps/ryazan/peredeltsy_2025.webp',
         link: ['./original_maps/ryazan/peredeltsy_2025_omaps.jpg','./original_maps/ryazan/peredeltsy_east_2025_omaps.gif'],
-        bounds: [[54.894281448486076, 39.96568679809571], [54.884827879118724, 40.042719841003425], [54.87722392142789, 39.9595069885254]],
+        bounds: [[54.8942814, 39.9656868], [54.8848279, 40.0427198], [54.8772239, 39.959507]],
         author: ['GUSEV_B','DJCHKV'],
         owner: 'GUSEV_B'
     },
@@ -740,7 +740,7 @@ let ryazanMaps = [
         year: 1,
         url: './maps/ryazan/otvodnoe_retro.webp',
         link: './original_maps/ryazan/otvodnoe_retro_omaps.jpg',
-        bounds: [[54.88213703216093, 39.91641998291016], [54.879026287893645, 39.97169494628907], [54.859368733500354, 39.910669326782234]],
+        bounds: [[54.882137, 39.91642], [54.8790263, 39.9716949], [54.8593687, 39.9106693]],
         owner: 'GUSEV_B'
     },
     {
@@ -748,7 +748,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/peredeltsy_yug_2007.webp',
         link: ['./original_maps/ryazan/peredeltsy_yug_2007_omaps.jpg','./original_maps/ryazan/otvodnoe_2025_omaps.gif'],
-        bounds: [[54.87806338981041, 39.947919845581055], [54.87477948743567, 39.97345447540284], [54.86174000213818, 39.94204044342042]],
+        bounds: [[54.8780634, 39.9479198], [54.8747795, 39.9734545], [54.86174, 39.9420404]],
         author: ['GUSEV_B','DJCHKV'],
         owner: 'GUSEV_B'
     },
@@ -758,7 +758,7 @@ let ryazanMaps = [
         correct: 2025,
         url: './maps/ryazan/peredeltsy_severo_zapad_2007.webp',
         link: ['./original_maps/ryazan/sokolii_gory_2025_omaps.gif','./original_maps/ryazan/peredeltsy_severo_zapad_2007_omaps.jpg'],
-        bounds: [[54.89156655120832, 39.968562126159675], [54.88719765054682, 40.00156402587891], [54.877915249601735, 39.963626861572266]],
+        bounds: [[54.8915666, 39.9685621], [54.8871977, 40.001564], [54.8779152, 39.9636269]],
         author: ['GUSEV_B','DJCHKV'],
         owner: 'GUSEV_B'
     },
@@ -767,7 +767,7 @@ let ryazanMaps = [
         year: 2003,
         url: './maps/ryazan/pehlets_2003.webp',
         link: './original_maps/ryazan/pehlets_2003_omaps.gif',
-        bounds: [[53.953282508101246, 40.06602287292481], [53.950555061728394, 40.10593414306641], [53.93403504762253, 40.05980014801026]],
+        bounds: [[53.9532825, 40.0660229], [53.9505551, 40.1059341], [53.934035, 40.0598001]],
         author: ['SOKOLOV','ZOTOV','FROLOV'],
         owner: 'TSDYUTK'
     },
@@ -777,7 +777,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/polevaya_2023.webp',
         link: './original_maps/ryazan/polevaya_2023_omaps.gif',
-        bounds: [[54.62291601759342, 39.734373092651374], [54.62286632544758, 39.743621349334724], [54.616318854444316, 39.73471641540528]],
+        bounds: [[54.622916, 39.7343731], [54.6228663, 39.7436213], [54.6163189, 39.7347164]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['CITY','SPRINT']
@@ -788,7 +788,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/priozernyy_2022.webp',
         link: './original_maps/ryazan/priozernyy_2022_omaps.gif',
-        bounds: [[54.81134526848349, 40.002036094665534], [54.806027786501595, 40.04237651824952], [54.78784413193463, 39.99341011047364]],
+        bounds: [[54.8113453, 40.0020361], [54.8060278, 40.0423765], [54.7878441, 39.9934101]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN'
     },
@@ -797,7 +797,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/priokskiy_lesopark_2001.webp',
         link: './original_maps/ryazan/priokskiy_lesopark_2025_omaps.gif',
-        bounds: [[54.65026233129185, 39.656202793121345], [54.648139366072996, 39.67302560806275], [54.643644769751525, 39.65326309204102]],
+        bounds: [[54.6502623, 39.6562028], [54.6481394, 39.6730256], [54.6436448, 39.6532631]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['PARK','SPRINT']
@@ -807,7 +807,7 @@ let ryazanMaps = [
         year: 2022,
         url: './maps/ryazan/pronsk_les_sharki_2022.webp',
         link: './original_maps/ryazan/pronsk_les_sharki_2022_omaps.jpg',
-        bounds: [[54.155397956726375, 39.564342498779304], [54.152608349694226, 39.588289260864265], [54.136621030497004, 39.55713272094727]],
+        bounds: [[54.155398, 39.5643425], [54.1526083, 39.5882893], [54.136621, 39.5571327]],
         author: 'SHIBANOV_V',
         owner: 'SHIBANOV_V'
     },
@@ -817,7 +817,7 @@ let ryazanMaps = [
         correct: 2025,
         url: './maps/ryazan/raduga_2025.webp',
         link: './original_maps/ryazan/raduga_2025_omaps.gif',
-        bounds: [[55.2077735048528, 40.14541625976563], [55.2003775664075, 40.20421028137208], [55.18435648702956, 40.135889053344734]],
+        bounds: [[55.2077735, 40.1454163], [55.2003776, 40.2042103], [55.1843565, 40.1358891]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN'
     },
@@ -827,7 +827,7 @@ let ryazanMaps = [
         correct: 2014,
         url: './maps/ryazan/retkino_2008.webp',
         link: './original_maps/ryazan/retkino_2008_omaps.jpg',
-        bounds: [[54.51170247739396, 39.80522632598878], [54.509534907916006, 39.82790708541871], [54.492152822759984, 39.80114936828614]],
+        bounds: [[54.5117025, 39.8052263], [54.5095349, 39.8279071], [54.4921528, 39.8011494]],
         author: 'KORNEEV',
         owner: 'KORNEEV'
     },
@@ -837,7 +837,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/rubtsovo_2023.webp',
         link: './original_maps/ryazan/rubtsovo_2023_omaps.gif',
-        bounds: [[54.60317103523124, 39.91899490356446], [54.60253714836839, 39.93755578994752], [54.59454435559697, 39.91393089294434]],
+        bounds: [[54.603171, 39.9189949], [54.6025371, 39.9375558], [54.5945444, 39.9139309]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -847,7 +847,7 @@ let ryazanMaps = [
         year: 2024,
         url: './maps/ryazan/rybatskaya_lesopark_2024.webp',
         link: './original_maps/ryazan/rybatskaya_lesopark_2024_omaps.gif',
-        bounds: [[54.64545756729321, 39.749693870544434], [54.64185672586527, 39.775314331054695], [54.63467892500528, 39.74737644195557]],
+        bounds: [[54.6454576, 39.7496939], [54.6418567, 39.7753143], [54.6346789, 39.7473764]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['PARK','SPRINT']
@@ -858,7 +858,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/rybnoe_dubyanka_2022.webp',
         link: ['./original_maps/ryazan/rybnoe_dubyanka_2022_omaps.jpg','./original_maps/ryazan/rybnoe_dubyanka_2024_omaps.gif'],
-        bounds: [[54.7216336241878, 39.50484037399293], [54.72157165980921, 39.53056812286378], [54.70419311077574, 39.504668712615974]],
+        bounds: [[54.7216336, 39.5048404], [54.7215717, 39.5305681], [54.7041931, 39.5046687]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -868,7 +868,7 @@ let ryazanMaps = [
         year: 2024,
         url: './maps/ryazan/rybnoe_pl_lenina_2024.webp',
         link: './original_maps/ryazan/rybnoe_pl_lenina_2024_omaps.jpg',
-        bounds: [[54.7388560482849, 39.50359582901002], [54.737233240146665, 39.515912532806404], [54.728870411986726, 39.49930429458619]],
+        bounds: [[54.738856, 39.5035958], [54.7372332, 39.5159125], [54.7288704, 39.4993043]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -879,7 +879,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/ryazgmu_2024.webp',
         link: './original_maps/ryazan/ryazgmu_2024_omaps.jpg',
-        bounds: [[54.626419160900774, 39.70557689666749], [54.6239222704874, 39.72231388092041], [54.61915166570606, 39.70280885696412]],
+        bounds: [[54.6264192, 39.7055769], [54.6239223, 39.7223139], [54.6191517, 39.7028089]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -890,7 +890,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/sazhnevo_2022.webp',
         link: './original_maps/ryazan/sazhnevo_2022_omaps.gif',
-        bounds: [[54.486145251040185, 39.72922325134278], [54.48185714964661, 39.77660179138184], [54.4478355839141, 39.72098350524903]],
+        bounds: [[54.4861453, 39.7292233], [54.4818571, 39.7766018], [54.4478356, 39.7209835]],
         author: ['POSKREB','ZOTOV','TARASOV','ANDREYKN'],
         owner: 'TSDYUTK'
     },
@@ -899,7 +899,7 @@ let ryazanMaps = [
         year: 2003,
         url: './maps/ryazan/sekiotovo_2003.webp',
         link: './original_maps/ryazan/sekiotovo_2003_omaps.jpg',
-        bounds: [[54.58419987533201, 39.62167739868165], [54.58365273833257, 39.648756980896], [54.56422461412183, 39.62167739868165]],
+        bounds: [[54.5841999, 39.6216774], [54.5836527, 39.648757], [54.5642246, 39.6216774]],
         author: 'KORNEEV',
         owner: 'FSO_RYAZAN'
     },
@@ -908,7 +908,7 @@ let ryazanMaps = [
         year: 1980,
         url: './maps/ryazan/seltsy_1980.webp',
         link: './original_maps/ryazan/seltsy_1980_omaps.jpg',
-        bounds: [[54.95125203059951, 39.475679397583015], [54.947456501233596, 39.53867912292481], [54.912219850527435, 39.46851253509522]],
+        bounds: [[54.951252, 39.4756794], [54.9474565, 39.5386791], [54.9122199, 39.4685125]],
         author: ['POSKREB','KARPOV','IVSHENTSE'],
         owner: 'FSO_RYAZAN'
     },
@@ -918,7 +918,7 @@ let ryazanMaps = [
         correct: 2023,
         url: './maps/ryazan/semeno_oleninskoe_2007.webp',
         link: './original_maps/ryazan/semeno_oleninskoe_2007_omaps.jpg',
-        bounds: [[54.573330368293476, 39.637255668640144], [54.57243481053296, 39.6703863143921], [54.547674800547654, 39.630217552185066]],
+        bounds: [[54.5733304, 39.6372557], [54.5724348, 39.6703863], [54.5476748, 39.6302176]],
         author: 'KORNEEV',
         owner: 'KORNEEV'
     },
@@ -928,7 +928,7 @@ let ryazanMaps = [
         correct: 2022,
         url: './maps/ryazan/skver_na_kasimovskom_shosse_2018.webp',
         link: './original_maps/ryazan/skver_na_kasimovskom_shosse_2018_omaps.jpg',
-        bounds: [[54.619673477849375, 39.785528182983406], [54.61956166152487, 39.79642868041993], [54.61231779382735, 39.785571098327644]],
+        bounds: [[54.6196735, 39.7855282], [54.6195617, 39.7964287], [54.6123178, 39.7855711]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -939,7 +939,7 @@ let ryazanMaps = [
         correct: 2016,
         url: './maps/ryazan/skopin_2008.webp',
         link: './original_maps/ryazan/skopin_2008_omaps.gif',
-        bounds: [[53.8066193026066, 39.54975128173828], [53.80469326298429, 39.57099437713624], [53.797672606446966, 39.54801321029664]],
+        bounds: [[53.8066193, 39.5497513], [53.8046933, 39.5709944], [53.7976726, 39.5480132]],
         author: ['ZOTOV','SOKOLOV'],
         owner: 'KORNEEV'
     },
@@ -948,7 +948,7 @@ let ryazanMaps = [
         year: 2001,
         url: './maps/ryazan/skopin_krasnyy_gorodok_2001.webp',
         link: './original_maps/ryazan/skopin_krasnyy_gorodok_2001_omaps.gif',
-        bounds: [[53.78338688465324, 39.54837799072266], [53.78167531395168, 39.56567287445069], [53.77723758329353, 39.54762697219849]],
+        bounds: [[53.7833869, 39.548378], [53.7816753, 39.5656729], [53.7772376, 39.547627]],
         author: 'MOROZOV',
         owner: 'FSO_RYAZAN'
     },
@@ -958,7 +958,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/slavyanskiy_prospekt_2023.webp',
         link: './original_maps/ryazan/slavyanskiy_prospekt_2023_omaps.gif',
-        bounds: [[54.60588047958694, 39.73244190216065], [54.604364207258804, 39.743127822875984], [54.6015303665954, 39.730596542358406]],
+        bounds: [[54.6058805, 39.7324419], [54.6043642, 39.7431278], [54.6015304, 39.7305965]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['CITY','SPRINT']
@@ -968,7 +968,7 @@ let ryazanMaps = [
         year: 1985,
         url: './maps/ryazan/slemy_1985.webp',
         link: './original_maps/ryazan/slemy_1985_omaps.jpg',
-        bounds: [[54.88122358454226, 39.425768852233894], [54.878359668594115, 39.46211814880372], [54.871791644552616, 39.43113327026368]],
+        bounds: [[54.8812236, 39.4257689], [54.8783597, 39.4621181], [54.8717916, 39.4311333]],
         author: ['ELISEEV','CHERNOV','BELOKUR'],
         owner: 'FSO_RYAZAN'
     },
@@ -978,7 +978,7 @@ let ryazanMaps = [
         correct: 2025,
         url: './maps/ryazan/polyany_2023.webp',
         link: './original_maps/ryazan/polyany_2023_omaps.gif',
-        bounds: [[54.76063997736235, 39.80041980743409], [54.75727222215259, 39.84509468078614], [54.74293136376204, 39.796257019042976]],
+        bounds: [[54.76064, 39.8004198], [54.7572722, 39.8450947], [54.7429314, 39.796257]],
         author: ['VEKOVISCH','GUSEV_B','ANDREYKN'],
         owner: ['GUSEV_B','ANDREYKN']
     },
@@ -988,7 +988,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/spartak_2023.webp',
         link: './original_maps/ryazan/spartak_2024_omaps.gif',
-        bounds: [[54.63218254160649, 39.73548889160157], [54.630393993609395, 39.748620986938484], [54.62136310934809, 39.7312617301941]],
+        bounds: [[54.6321825, 39.7354889], [54.630394, 39.748621], [54.6213631, 39.7312617]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['CITY','SPRINT']
@@ -998,7 +998,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/spas_klepiki_rogaine_2025.webp',
         link: './original_maps/ryazan/spas_klepiki_rogaine_2025_omaps.gif',
-        bounds: [[55.183719430199865, 40.12764930725098], [55.16950551438325, 40.239315032958984], [55.09374329587677, 40.091428756713874]],
+        bounds: [[55.1837194, 40.1276493], [55.1695055, 40.239315], [55.0937433, 40.0914288]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['ROGAINE']
@@ -1009,7 +1009,7 @@ let ryazanMaps = [
         correct: 2025,
         url: './maps/ryazan/spas_klepiki_2022.webp',
         link: './original_maps/ryazan/spas_klepiki_2025_omaps.gif',
-        bounds: [[55.13851141658605, 40.16644477844239], [55.13637723440935, 40.18064975738526], [55.125262924515695, 40.16047954559327]],
+        bounds: [[55.1385114, 40.1664448], [55.1363772, 40.1806498], [55.1252629, 40.1604795]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -1019,7 +1019,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/ekshur_boinsky_forest_2025.webp',
         link: './original_maps/ryazan/ekshur_boinsky_forest_2025_omaps.gif',
-        bounds: [[55.121716980489104, 40.191142559051514], [55.11945919117928, 40.2071499824524], [55.114980046618, 40.18871784210205]],
+        bounds: [[55.121717, 40.1911426], [55.1194592, 40.20715], [55.11498, 40.1887178]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['PARK','SPRINT']
@@ -1029,7 +1029,7 @@ let ryazanMaps = [
         year: 2010,
         url: './maps/ryazan/spassk_2010.webp',
         link: './original_maps/ryazan/spassk_2010_omaps.jpg',
-        bounds: [[54.425521644648256, 40.31222820281983], [54.42067786481511, 40.35544395446778], [54.40859088735468, 40.307121276855476]],
+        bounds: [[54.4255216, 40.3122282], [54.4206779, 40.355444], [54.4085909, 40.3071213]],
         author: 'KORNEEV',
         owner: 'KORNEEV'
     },
@@ -1038,7 +1038,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/stroitel_2025.webp',
         link: ['./original_maps/ryazan/stroitel_2025_omaps.gif','./original_maps/ryazan/stroitel_2024_omaps.jpg'],
-        bounds: [[54.53828944198885, 39.777781963348396], [54.53695739258418, 39.788768291473396], [54.52898908651479, 39.77443456649781]],
+        bounds: [[54.5382894, 39.777782], [54.5369574, 39.7887683], [54.5289891, 39.7744346]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -1048,7 +1048,7 @@ let ryazanMaps = [
         year: 2018,
         url: './maps/ryazan/tuma_2018.webp',
         link: './original_maps/ryazan/tuma_2018_omaps.gif',
-        bounds: [[55.1663679673819, 40.56362628936768], [55.16651504541338, 40.5856204032898], [55.150590698880045, 40.56276798248292]],
+        bounds: [[55.166368, 40.5636263], [55.166515, 40.5856204], [55.1505907, 40.562768]],
         author: ['KORNEEV','TARASOV'],
         owner: 'TSDYUTK'
     },
@@ -1057,7 +1057,7 @@ let ryazanMaps = [
         year: 2005,
         url: './maps/ryazan/turlatovskiy_les_2005.webp',
         link: './original_maps/ryazan/turlatovskiy_les_2005_omaps.gif',
-        bounds: [[54.54662932368576, 39.80417490005494], [54.545036164569105, 39.83211278915406], [54.536173081478, 39.80114936828614]],
+        bounds: [[54.5466293, 39.8041749], [54.5450362, 39.8321128], [54.5361731, 39.8011494]],
         author: ['KORNEEV','SOKOLOV','ZOTOV'],
         owner: 'TSDYUTK'
     },
@@ -1066,7 +1066,7 @@ let ryazanMaps = [
         year: 2015,
         url: './maps/ryazan/turomsha_2015.webp',
         link: './original_maps/ryazan/turomsha_2015_omaps.jpg',
-        bounds: [[54.227937030269054, 39.578804969787605], [54.22623110042036, 39.59940433502198], [54.21842808155942, 39.57644462585449]],
+        bounds: [[54.227937, 39.578805], [54.2262311, 39.5994043], [54.2184281, 39.5764446]],
         author: ['KORNEEV','SOKOLOV'],
         owner: 'TSDYUTK'
     },
@@ -1075,7 +1075,7 @@ let ryazanMaps = [
         year: 1971,
         url: './maps/ryazan/ulevaya_1971.webp',
         link: './original_maps/ryazan/ulevaya_1971_omaps.jpg',
-        bounds: [[54.929509146525035, 39.869041442871094], [54.92418256615949, 39.935131072998054], [54.887271703657944, 39.85960006713868]],
+        bounds: [[54.9295091, 39.8690414], [54.9241826, 39.9351311], [54.8872717, 39.8596001]],
         owner: 'FSO_RYAZAN'
     },
     {
@@ -1083,7 +1083,7 @@ let ryazanMaps = [
         year: 2006,
         url: './maps/ryazan/unkusovo_2006.webp',
         link: './original_maps/ryazan/unkusovo_2006_omaps.jpg',
-        bounds: [[54.251536851974016, 41.54913425445557], [54.24996980087506, 41.56973361968995], [54.24313676238747, 41.546602249145515]],
+        bounds: [[54.2515369, 41.5491343], [54.2499698, 41.5697336], [54.2431368, 41.5466022]],
         author: ['KORNEEV','SOKOLOV'],
         owner: 'TSDYUTK'
     },
@@ -1092,7 +1092,7 @@ let ryazanMaps = [
         year: 2000,
         url: './maps/ryazan/fedino_sreznevo_2000.webp',
         link: './original_maps/ryazan/fedino_sreznevo_2000_omaps.gif',
-        bounds: [[54.77623695318089, 39.363069534301765], [54.77381115177969, 39.38899040222169], [54.752418199699115, 39.357318878173835]],
+        bounds: [[54.776237, 39.3630695], [54.7738112, 39.3889904], [54.7524182, 39.3573189]],
         author: ['VEKOVISCH','KUZNTSV_RZN'],
         owner: 'KUZNTSV_RZN'
     },
@@ -1102,7 +1102,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/fefelov_bor_2022.webp',
         link: './original_maps/ryazan/fefelov_bor_2022_omaps.gif',
-        bounds: [[54.717779259548735, 39.65708255767823], [54.713019667048734, 39.68180179595948], [54.70084545923847, 39.64854240417481]],
+        bounds: [[54.7177793, 39.6570826], [54.7130197, 39.6818018], [54.7008455, 39.6485424]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN'
     },
@@ -1111,7 +1111,7 @@ let ryazanMaps = [
         year: 1980,
         url: './maps/ryazan/hambushevo_1980.webp',
         link: './original_maps/ryazan/hambushevo_1980_omaps.gif',
-        bounds: [[54.58283201905655, 39.77188110351563], [54.578006850242815, 39.819517135620124], [54.55753083672228, 39.76462841033936]],
+        bounds: [[54.582832, 39.7718811], [54.5780069, 39.8195171], [54.5575308, 39.7646284]],
         author: 'SOKOLOV',
         owner: 'FSO_RYAZAN'
     },
@@ -1120,7 +1120,7 @@ let ryazanMaps = [
         year: 2024,
         url: './maps/ryazan/tspkio_2024.webp',
         link: './original_maps/ryazan/tspkio_2024_omaps.gif',
-        bounds: [[54.61935045207355, 39.72681999206544], [54.61763588771894, 39.74194765090943], [54.60670073451993, 39.722099304199226]],
+        bounds: [[54.6193505, 39.72682], [54.6176359, 39.7419477], [54.6067007, 39.7220993]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['CITY','SPRINT']
@@ -1131,7 +1131,7 @@ let ryazanMaps = [
         correct: 2025,
         url: './maps/ryazan/tsirk_2024.webp',
         link: './original_maps/ryazan/tsirk_2024_omaps.gif',
-        bounds: [[54.63672808043193, 39.74540233612061], [54.63511360296701, 39.75748300552369], [54.62669244308375, 39.741668701171875]],
+        bounds: [[54.6367281, 39.7454023], [54.6351136, 39.757483], [54.6266924, 39.7416687]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['CITY','SPRINT']
@@ -1144,7 +1144,7 @@ let ryazanMaps = [
         link: 'https://rogaining.ru/results/rrc-results/rrc2020_map.jpg',
         info: '<a href="https://vk.com/event186840276">Чемпионат России по рогейну</a> (<a href="https://sembruk.github.io/rrc2020/">пути</a>).',
         o_gps: 8154,
-        bounds: [[54.862727989585636, 39.88586425781251], [54.83500575725284, 40.07597923278809], [54.707267747286174, 39.81943130493165]],
+        bounds: [[54.862728, 39.8858643], [54.8350058, 40.0759792], [54.7072677, 39.8194313]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
         type: ['ROGAINE'],
@@ -1155,7 +1155,7 @@ let ryazanMaps = [
         year: 1973,
         url: './maps/ryazan/chernava_1973.webp',
         link: './original_maps/ryazan/chernava_1973_omaps.jpg',
-        bounds: [[53.82918031996693, 40.168848037719734], [53.835106747444215, 40.23425102233887], [53.797203675958706, 40.16575813293458]],
+        bounds: [[53.8291803, 40.168848], [53.8351067, 40.234251], [53.7972037, 40.1657581]],
         author: ['CHERNOV','KONEV','ROZENFE'],
         owner: 'FSO_RYAZAN'
     },
@@ -1164,7 +1164,7 @@ let ryazanMaps = [
         year: 2006,
         url: './maps/ryazan/shacha_2006.webp',
         link: './original_maps/ryazan/shacha_2006_omaps.gif',
-        bounds: [[53.98676756654189, 41.74493551254273], [53.98599795219423, 41.77298069000245], [53.976130488774324, 41.741867065429695]],
+        bounds: [[53.9867676, 41.7449355], [53.985998, 41.7729807], [53.9761305, 41.7418671]],
         author: ['SOKOLOV','ZOTOV'],
         owner: 'TSDYUTK'
     },
@@ -1174,7 +1174,7 @@ let ryazanMaps = [
         correct: 2023,
         url: './maps/ryazan/shevtsovo_2023.webp',
         link: './original_maps/ryazan/shevtsovo_2023_omaps.gif',
-        bounds: [[54.371283603944754, 39.86135959625245], [54.36707097322616, 39.894683361053474], [54.35814426852959, 39.85702514648438]],
+        bounds: [[54.3712836, 39.8613596], [54.367071, 39.8946834], [54.3581443, 39.8570251]],
         author: ['SHIBANOV_A','SHIBANOV_V'],
         owner: 'SHIBANOV_V'
     },
@@ -1183,7 +1183,7 @@ let ryazanMaps = [
         year: 2023,
         url: './maps/ryazan/shk_19_shk_37_2023.webp',
         link: './original_maps/ryazan/shk_19_shk_37_2023_omaps.gif',
-        bounds: [[54.60849032427805, 39.71244335174561], [54.606402461911124, 39.72950220108033], [54.601517937035204, 39.70950365066529]],
+        bounds: [[54.6084903, 39.7124434], [54.6064025, 39.7295022], [54.6015179, 39.7095037]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -1193,7 +1193,7 @@ let ryazanMaps = [
         year: 2023,
         url: './maps/ryazan/shk_64_2023.webp',
         link: './original_maps/ryazan/shk_64_2023_omaps.gif',
-        bounds: [[54.60313374804192, 39.71293687820435], [54.602338279867816, 39.721906185150154], [54.59734138998512, 39.711413383483894]],
+        bounds: [[54.6031337, 39.7129369], [54.6023383, 39.7219062], [54.5973414, 39.7114134]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -1203,7 +1203,7 @@ let ryazanMaps = [
         year: 2025,
         url: './maps/ryazan/podviazie_2025.webp',
         link: './original_maps/ryazan/podviazie_2025_omaps.gif',
-        bounds: [[54.58788042417152, 39.54471945762635], [54.58597801983596, 39.56045866012574], [54.581035083525855, 39.54213380813599]],
+        bounds: [[54.5878804, 39.5447195], [54.585978, 39.5604587], [54.5810351, 39.5421338]],
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['CITY','SPRINT']
@@ -1214,7 +1214,7 @@ let ryazanMaps = [
         correct: 2024,
         url: './maps/ryazan/ekopark_polyany_2022.webp',
         link: './original_maps/ryazan/ekopark_polyany_2024_omaps.gif',
-        bounds: [[54.75271540147229, 39.866724014282234], [54.74696911389396, 39.91045475006104], [54.717010821499606, 39.85277652740479]],
+        bounds: [[54.7527154, 39.866724], [54.7469691, 39.9104548], [54.7170108, 39.8527765]],
         author: ['VEKOVISCH','ANDREYKN'],
         owner: 'ANDREYKN',
         type: ['PARK']
@@ -1227,7 +1227,7 @@ let ryazanMaps = [
         date: '2016-07-16',
         url: './maps/ryazan/npw_2016.webp',
         link: './original_maps/ryazan/npw_2016_omaps.gif',
-        bounds: [[54.78945253994424, 40.40539741516114], [54.77178128781134, 40.58538436889649], [54.708606629044674, 40.381793975830085]],
+        bounds: [[54.7894525, 40.4053974], [54.7717813, 40.5853844], [54.7086066, 40.381794]],
         author: ['VNKRV_V','GUSEV_B','KRTNKO'],
         start: 'NPW',
         type: ['ROGAINE']
@@ -1237,7 +1237,7 @@ let ryazanMaps = [
         date: '2017-07-15',
         url: './maps/ryazan/npw_2017.webp',
         link: './original_maps/ryazan/npw_2017_omaps.gif',
-        bounds: [[54.92847347780156, 40.27227401733399], [54.917770006180895, 40.402050018310554], [54.82254678889676, 40.24472236633301]],
+        bounds: [[54.9284735, 40.272274], [54.91777, 40.40205], [54.8225468, 40.2447224]],
         author: ['VNKRV_V','GUSEV_B','KRTNKO','SHIBANOV_A','SHIBANOV_V'],
         start: 'NPW',
         type: ['ROGAINE']
@@ -1247,7 +1247,7 @@ let ryazanMaps = [
         date: '2018-07-14',
         url: './maps/ryazan/npw_2018.webp',
         link: './original_maps/ryazan/npw_2018_omaps.gif',
-        bounds: [[55.217383722903165, 39.977552890777595], [55.19978975078116, 40.13065338134766], [55.107984213460355, 39.93804931640626]],
+        bounds: [[55.2173837, 39.9775529], [55.1997898, 40.1306534], [55.1079842, 39.9380493]],
         author: ['VNKRV_V','GUSEV_B','KRTNKO'],
         start: 'NPW',
         type: ['ROGAINE']
@@ -1257,7 +1257,7 @@ let ryazanMaps = [
         date: '2019-07-13',
         url: './maps/ryazan/npw_2019.webp',
         link: './original_maps/ryazan/npw_2019_omaps.gif',
-        bounds: [[55.072519829061726, 40.20498275756837], [55.05880702060849, 40.36145210266113], [54.96559293752828, 40.17700195312501]],
+        bounds: [[55.0725198, 40.2049828], [55.058807, 40.3614521], [54.9655929, 40.177002]],
         author: ['VNKRV_V','GUSEV_B','KRTNKO'],
         start: 'NPW',
         type: ['ROGAINE']
@@ -1267,7 +1267,7 @@ let ryazanMaps = [
         date: '2021-07-17',
         url: './maps/ryazan/npw_2021.webp',
         link: './original_maps/ryazan/npw_2021_omaps.gif',
-        bounds: [[54.44269497088438, 40.53817749023438], [54.38795488075699, 40.94295501708985], [54.31992756299909, 40.49594879150391]],
+        bounds: [[54.442695, 40.5381775], [54.3879549, 40.942955], [54.3199276, 40.4959488]],
         author: ['KRTNKO','VNKRV_V','GUSEV_B'],
         start: 'NPW',
         type: ['ROGAINE']
@@ -1277,7 +1277,7 @@ let ryazanMaps = [
         date: '2023-07-01',
         url: './maps/ryazan/npw_2023.webp',
         link: './original_maps/ryazan/npw_2023_omaps.gif',
-        bounds: [[55.27838197466847, 39.98242378234864], [55.259824539469925, 40.14146804809571], [55.15494324944684, 39.93925094604493]],
+        bounds: [[55.278382, 39.9824238], [55.2598245, 40.141468], [55.1549432, 39.9392509]],
         author: ['VNKRV_V','GUSEV_B','KRTNKO','NVKV_S'],
         start: 'NPW',
         type: ['ROGAINE']
@@ -1287,7 +1287,7 @@ let ryazanMaps = [
         date: '2025-07-12',
         url: './maps/ryazan/npw_2025.webp',
         link: './original_maps/ryazan/npw_2025_omaps.gif',
-        bounds: [[54.84326017779287, 40.32402992248536], [54.816760960926395, 40.4978370666504], [54.76346273277833, 40.29510498046876]],
+        bounds: [[54.8432602, 40.3240299], [54.816761, 40.4978371], [54.7634627, 40.295105]],
         o_gps: 23106,
         author: ['VNKRV_V','GUSEV_B','KRTNKO','NVKV_S'],
         start: 'NPW',
@@ -1298,7 +1298,7 @@ let ryazanMaps = [
         date: '2026-07-11',
         url: './maps/ryazan/npw_2026.webp',
         link: ['./original_maps/ryazan/npw_2026_forward_omaps.webp','./original_maps/ryazan/npw_2026_revers_omaps.webp'],
-        bounds: [[54.837773894795724, 40.333385467529304], [54.8157223912467, 40.508651733398445], [54.75628165259095, 40.301628112792976]],
+        bounds: [[54.8377739, 40.3333855], [54.8157224, 40.5086517], [54.7562817, 40.3016281]],
         // author: ['VNKRV_V','GUSEV_B','KRTNKO','NVKV_S'],
         start: 'NPW',
         type: ['ROGAINE']

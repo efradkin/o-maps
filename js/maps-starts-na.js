@@ -6,7 +6,7 @@ let naStartsMaps = [
         year: 1989,
         url: './maps/starts/na/na_1989.webp',
         link: './original_maps/starts/na/na_1989_omaps.jpg',
-        bounds: [[60.441258927991655, 30.28587341308594], [60.437257398671, 30.34037590026856], [60.41489057838761, 30.276260375976566]],
+        bounds: [[60.4412589, 30.2858734], [60.4372574, 30.3403759], [60.4148906, 30.2762604]],
         author: 'BYMKV'
     },
     {
@@ -16,7 +16,7 @@ let naStartsMaps = [
         url: './maps/starts/na/na_1997_06_13.webp',
         link: './original_maps/starts/na/na_1997_06_13_omaps.jpg',
         results: './docs/1997/1997_06_12_na_omaps.pdf',
-        bounds: [[60.30395229403978, 29.736213684082035], [60.298679337096054, 29.809598922729496], [60.263064617640104, 29.724197387695316]],
+        bounds: [[60.3039523, 29.7362137], [60.2986793, 29.8095989], [60.2630646, 29.7241974]],
         author: ['KUZNTSV_S','KVZN']
     },
     {
@@ -26,7 +26,7 @@ let naStartsMaps = [
         url: './maps/starts/na/na_2001_losevo_1.webp',
         link: ['./original_maps/starts/na/na_2001_losevo_1_omaps.jpg','./original_maps/forest/sosnovo/losevo_2005_10000_omaps.ocd'],
         results: './docs/2001/2001_06_10_nevsky_azimut_omaps.pdf',
-        bounds: [[60.693750112330534, 29.93358135223389], [60.68938054701066, 30.012373924255375], [60.66996241651063, 29.928731918334964]],
+        bounds: [[60.6937501, 29.9335814], [60.6893805, 30.0123739], [60.6699624, 29.9287319]],
         author: ['RYLOV_V','VSLVSKY','BRDR','FDRV_L','DRBSHV','SHKLV']
     },
     {
@@ -36,7 +36,7 @@ let naStartsMaps = [
         url: './maps/starts/na/na_2001_losevo_3.webp',
         link: ['./original_maps/starts/na/na_2001_losevo_3_omaps.jpg','./original_maps/starts/na/na_2000_losevo_3_omaps.jpg','./original_maps/forest/sosnovo/losevo_2005_omaps.ocd'],
         results: './docs/2001/2001_06_10_nevsky_azimut_omaps.pdf',
-        bounds: [[60.69515749014434, 29.892253875732422], [60.691502381234336, 29.95628356933594], [60.67174920579566, 29.88839149475098]],
+        bounds: [[60.6951575, 29.8922539], [60.6915024, 29.9562836], [60.6717492, 29.8883915]],
         author: ['RYLOV_V','VSLVSKY','BRDR','FDRV_L','FDRV_A','SHKLV']
     },
     {
@@ -46,7 +46,7 @@ let naStartsMaps = [
         startYear: 2003,
         url: './maps/starts/na/na_2003_zelik_1.webp',
         link: './original_maps/starts/na/na_2003_zelik_1_omaps.jpg',
-        bounds: [[60.241515279872864, 29.778184890747074], [60.23989637759796, 29.81595039367676], [60.21547533528821, 29.77303504943848]],
+        bounds: [[60.2415153, 29.7781849], [60.2398964, 29.8159504], [60.2154753, 29.773035]],
         author: ['KUZNTSV_S','SHRNN']
     },
     {
@@ -55,7 +55,7 @@ let naStartsMaps = [
         year: 2002,
         url: './maps/starts/na/na_2002_yastrebinoe.webp',
         link: './original_maps/starts/na/na_2002_yastrebinoe_omaps.jpg',
-        bounds: [[60.46929814463166, 30.319476127624515], [60.465934716774235, 30.369172096252445], [60.42935875470396, 30.3083610534668]],
+        bounds: [[60.4692981, 30.3194761], [60.4659347, 30.3691721], [60.4293588, 30.3083611]],
         author: ['VSLVSKY','BRDR','DRBSHV']
     },
     {
@@ -65,7 +65,7 @@ let naStartsMaps = [
         startYear: 2003,
         url: './maps/starts/na/na_2003_zelik_2.webp',
         link: './original_maps/starts/na/na_2003_zelik_2_omaps.jpg',
-        bounds: [[60.23073529200227, 29.742221832275394], [60.22881753132242, 29.782648086547855], [60.203044732121036, 29.736728668212894]],
+        bounds: [[60.2307353, 29.7422218], [60.2288175, 29.7826481], [60.2030447, 29.7367287]],
         author: ['KUZNTSV_S','SHRNN','VSLVSKY']
     },
     {
@@ -75,7 +75,7 @@ let naStartsMaps = [
         o_site: '070615',
         url: './maps/starts/na/na_2007_06_15.webp',
         link: './original_maps/starts/na/na_2007_06_15_omaps.webp',
-        bounds: [[60.625618303506336, 29.93752956390381], [60.622692139562766, 29.971818923950195], [60.61260641839703, 29.933753013610843]],
+        bounds: [[60.6256183, 29.9375296], [60.6226921, 29.9718189], [60.6126064, 29.933753]],
     },
     {
         name: 'Борисово',
@@ -84,7 +84,7 @@ let naStartsMaps = [
         o_site: '070615',
         url: './maps/starts/na/na_2007_06_16.webp',
         link: ['./original_maps/starts/na/na_2007_06_16_omaps.jpg','./original_maps/starts/na/na_2007_06_16_m21_omaps.webp','./original_maps/starts/na/na_2007_06_17_m21_omaps.webp'],
-        bounds: [[60.626923413319204, 29.907703399658207], [60.623386864387335, 29.952764511108402], [60.60915254498199, 29.90083694458008]],
+        bounds: [[60.6269234, 29.9077034], [60.6233869, 29.9527645], [60.6091525, 29.9008369]],
         author: 'VSLVSKY'
     },
     {
@@ -95,7 +95,7 @@ let naStartsMaps = [
         o_site: '080612_NA',
         url: './maps/starts/na/na_2008_06_12.webp',
         link: './original_maps/starts/na/na_2008_06_12_omaps.jpg',
-        bounds: [[60.62494467777671, 29.913454055786133], [60.62210266434053, 29.951949119567875], [60.612501122841586, 29.908733367919925]]
+        bounds: [[60.6249447, 29.9134541], [60.6221027, 29.9519491], [60.6125011, 29.9087334]]
     },
     {
         name: 'Мичуринское',
@@ -105,7 +105,7 @@ let naStartsMaps = [
         o_site: '080612_NA',
         url: './maps/starts/na/na_2008_06_13.webp',
         link: './original_maps/starts/na/na_2008_06_13_omaps.jpg',
-        bounds: [[60.62366053975521, 29.907703399658207], [60.6212394847569, 29.935469627380375], [60.605972127329714, 29.901266098022464]],
+        bounds: [[60.6236605, 29.9077034], [60.6212395, 29.9354696], [60.6059721, 29.9012661]],
     },
     {
         name: 'Мичуринское',
@@ -115,7 +115,7 @@ let naStartsMaps = [
         o_site: '080612_NA',
         url: './maps/starts/na/na_2008_06_14.webp',
         link: './original_maps/starts/na/na_2008_06_14_omaps.jpg',
-        bounds: [[60.62521833992628, 29.894056320190433], [60.622671087061754, 29.920535087585453], [60.60630914007171, 29.887747764587406]],
+        bounds: [[60.6252183, 29.8940563], [60.6226711, 29.9205351], [60.6063091, 29.8877478]],
     },
     {
         name: 'Ягодное, оз Расстанное',
@@ -125,7 +125,7 @@ let naStartsMaps = [
         o_site: '10061214_na',
         url: './maps/starts/na/na_2010_06_12.webp',
         link: ['./original_maps/starts/na/na_2010_06_12_omaps.jpg','./original_maps/starts/na/na_2010_06_12_omaps.ocd'],
-        bounds: [[60.624797320272805, 29.93529796600342], [60.621576338074355, 29.969372749328613], [60.6142489845736, 29.932250976562504]]
+        bounds: [[60.6247973, 29.935298], [60.6215763, 29.9693727], [60.614249, 29.932251]]
     },
     {
         name: 'Ягодное, оз Берестовое',
@@ -135,7 +135,7 @@ let naStartsMaps = [
         o_site: '10061214_na',
         url: './maps/starts/na/na_2010_06_13.webp',
         link: './original_maps/starts/na/na_2010_06_13_omaps.jpg',
-        bounds: [[60.63300621221419, 29.943151473999027], [60.62808112781671, 29.99404907226563], [60.62003941622446, 29.938259124755863]]
+        bounds: [[60.6330062, 29.9431515], [60.6280811, 29.9940491], [60.6200394, 29.9382591]]
     },
     {
         name: 'Ягодное, оз Берестовое',
@@ -145,7 +145,7 @@ let naStartsMaps = [
         o_site: '10061214_na',
         url: './maps/starts/na/na_2010_06_14.webp',
         link: ['./original_maps/starts/na/na_2010_06_14_omaps.jpg','./original_maps/starts/na/na_2010_06_14_omaps.ocd'],
-        bounds: [[60.625723556255636, 29.913282394409183], [60.62347107244017, 29.944009780883793], [60.611995699392594, 29.908218383789062]]
+        bounds: [[60.6257236, 29.9132824], [60.6234711, 29.9440098], [60.6119957, 29.9082184]]
     },
     {
         name: 'Ягодное-Мичуринское',
@@ -155,7 +155,7 @@ let naStartsMaps = [
         o_site: '11061012_NA',
         url: './maps/starts/na/na_2011_06_12.webp',
         link: './original_maps/starts/na/na_2011_06_12_omaps.jpg',
-        bounds: [[60.625281492400255, 29.89392757415772], [60.622081611454774, 29.92907524108887], [60.60603531748686, 29.88787651062012]]
+        bounds: [[60.6252815, 29.8939276], [60.6220816, 29.9290752], [60.6060353, 29.8878765]]
     },
     {
         name: 'Первомайское, Семейные оз',
@@ -165,7 +165,7 @@ let naStartsMaps = [
         o_site: '12061517_NA',
         url: './maps/starts/na/na_2012_06_15_pervomayskoe.webp',
         link: './original_maps/starts/na/na_2012_06_15_pervomayskoe_omaps.gif',
-        bounds: [[60.41745422376506, 29.6312427520752], [60.41563214947346, 29.660511016845707], [60.403976934847414, 29.628152847290043]],
+        bounds: [[60.4174542, 29.6312428], [60.4156321, 29.660511], [60.4039769, 29.6281528]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN'
     },
@@ -177,7 +177,7 @@ let naStartsMaps = [
         o_site: '12061517_NA',
         url: './maps/starts/na/na_2012_pervomayskoe.webp',
         link: './original_maps/starts/na/na_2012_pervomayskoe_omaps.jpg',
-        bounds: [[60.42978232318777, 29.666261672973636], [60.427600886521, 29.7006368637085], [60.40510025550276, 29.660253524780277]],
+        bounds: [[60.4297823, 29.6662617], [60.4276009, 29.7006369], [60.4051003, 29.6602535]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN'
     },
@@ -189,7 +189,7 @@ let naStartsMaps = [
         o_site: '13061416_NA',
         url: './maps/starts/na/na_2013_06_14.webp',
         link: './original_maps/starts/na/na_2013_06_14_omaps.jpg',
-        bounds: [[60.624923626745954, 29.934568405151367], [60.62180792268954, 29.968214035034183], [60.61125860933876, 29.931221008300785]],
+        bounds: [[60.6249236, 29.9345684], [60.6218079, 29.968214], [60.6112586, 29.931221]],
         author: ['VSLVSKY','DRBSHV','MKHLV_A','SLBDNK','GVRLK']
     },
     {
@@ -200,7 +200,7 @@ let naStartsMaps = [
         o_site: '13061416_NA',
         url: './maps/starts/na/na_2013_razdelnoe.webp',
         link: './original_maps/starts/na/na_2013_razdelnoe_omaps.jpg',
-        bounds: [[60.62965976242521, 29.86714839935303], [60.624376295123234, 29.921436309814457], [60.6049189398304, 29.8579216003418]],
+        bounds: [[60.6296598, 29.8671484], [60.6243763, 29.9214363], [60.6049189, 29.8579216]],
         author: ['VSLVSKY','DRBSHV','MKHLV_A','SLBDNK','GVRLK']
     },
     {
@@ -211,7 +211,7 @@ let naStartsMaps = [
         o_site: '13061416_NA',
         url: './maps/starts/na/na_2013_06_16.webp',
         link: './original_maps/starts/na/na_2013_06_16_omaps.jpg',
-        bounds: [[60.63336398818018, 29.948644638061527], [60.62968081036457, 29.997396469116214], [60.61953411085394, 29.94482517242432]],
+        bounds: [[60.633364, 29.9486446], [60.6296808, 29.9973965], [60.6195341, 29.9448252]],
         author: ['VSLVSKY','DRBSHV','MKHLV_A','SLBDNK','GVRLK']
     },
     {
@@ -222,7 +222,7 @@ let naStartsMaps = [
         o_site: '14061215-NA',
         url: './maps/starts/na/na_2014_06_12.webp',
         link: './original_maps/starts/na/na_2014_06_12_omaps.jpg',
-        bounds: [[60.418577079181006, 29.66514587402344], [60.41633132958417, 29.699435234069828], [60.403213902476786, 29.661369323730472]],
+        bounds: [[60.4185771, 29.6651459], [60.4163313, 29.6994352], [60.4032139, 29.6613693]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN'
     },
@@ -234,7 +234,7 @@ let naStartsMaps = [
         o_site: '14061215-NA',
         url: './maps/starts/na/na_2014_pervomayskoe.webp',
         link: './original_maps/starts/na/na_2014_pervomayskoe_omaps.jpg',
-        bounds: [[60.41940330652238, 29.69711780548096], [60.41688218817723, 29.73381042480469], [60.39676980457594, 29.691324234008793]],
+        bounds: [[60.4194033, 29.6971178], [60.4168822, 29.7338104], [60.3967698, 29.6913242]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN'
     },
@@ -246,7 +246,7 @@ let naStartsMaps = [
         o_site: '14061215-NA',
         url: './maps/starts/na/na_2014_06_15.webp',
         link: './original_maps/starts/na/na_2014_06_15_omaps.jpg',
-        bounds: [[60.43600814309618, 29.651627540588382], [60.43467413921419, 29.684543609619144], [60.41957278645957, 29.64797973632813]],
+        bounds: [[60.4360081, 29.6516275], [60.4346741, 29.6845436], [60.4195728, 29.6479797]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN'
     },
@@ -258,7 +258,7 @@ let naStartsMaps = [
         o_site: '15061215_NA',
         url: './maps/starts/na/na_2015_06_12.webp',
         link: './original_maps/starts/na/na_2015_06_12_omaps.jpg',
-        bounds: [[60.619197236209565, 29.908432960510257], [60.61736541875945, 29.937486648559574], [60.6054034103482, 29.903755187988285]],
+        bounds: [[60.6191972, 29.908433], [60.6173654, 29.9374866], [60.6054034, 29.9037552]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
@@ -270,7 +270,7 @@ let naStartsMaps = [
         o_site: '15061215_NA',
         url: './maps/starts/na/na_2015_dolgoe.webp',
         link: './original_maps/starts/na/na_2015_dolgoe_omaps.jpg',
-        bounds: [[60.600726913009844, 29.93220806121826], [60.59824093145107, 29.969458580017093], [60.57480431202988, 29.92401123046875]],
+        bounds: [[60.6007269, 29.9322081], [60.5982409, 29.9694586], [60.5748043, 29.9240112]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
@@ -282,7 +282,7 @@ let naStartsMaps = [
         o_site: '15061215_NA',
         url: './maps/starts/na/na_2015_06_14.webp',
         link: './original_maps/starts/na/na_2015_06_14_omaps.jpg',
-        bounds: [[60.624523654550764, 29.914484024047855], [60.621702657161485, 29.95847225189209], [60.60801521307867, 29.909806251525882]],
+        bounds: [[60.6245237, 29.914484], [60.6217027, 29.9584723], [60.6080152, 29.9098063]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
@@ -294,7 +294,7 @@ let naStartsMaps = [
         o_site: '16061719_',
         url: './maps/starts/na/na_2016_06_17.webp',
         link: './original_maps/starts/na/na_2016_06_17_omaps.jpg',
-        bounds: [[60.41955160151573, 29.63746547698975], [60.41808980706342, 29.66291427612305], [60.402514440420774, 29.633088111877445]],
+        bounds: [[60.4195516, 29.6374655], [60.4180898, 29.6629143], [60.4025144, 29.6330881]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN'
     },
@@ -306,7 +306,7 @@ let naStartsMaps = [
         o_site: '16061719_',
         url: './maps/starts/na/na_2016_pervomayskoe.webp',
         link: './original_maps/starts/na/na_2016_pervomayskoe_omaps.jpg',
-        bounds: [[60.4402003702851, 29.657506942749027], [60.4382948795123, 29.68462944030762], [60.42209369625005, 29.653301239013675]],
+        bounds: [[60.4402004, 29.6575069], [60.4382949, 29.6846294], [60.4220937, 29.6533012]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN'
     },
@@ -318,7 +318,7 @@ let naStartsMaps = [
         o_site: '16061719_',
         url: './maps/starts/na/na_2016_06_19.webp',
         link: './original_maps/starts/na/na_2016_06_19_omaps.jpg',
-        bounds: [[60.420632016057716, 29.660811424255375], [60.41830166540286, 29.696516990661625], [60.405937422094006, 29.65692758560181]],
+        bounds: [[60.420632, 29.6608114], [60.4183017, 29.696517], [60.4059374, 29.6569276]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN'
     },
@@ -330,7 +330,7 @@ let naStartsMaps = [
         o_site: '17060911',
         url: './maps/starts/na/na_2017_06_09.webp',
         link: './original_maps/starts/na/na_2017_06_09_omaps.jpg',
-        bounds: [[60.63508967531378, 29.95752811431885], [60.633385033701586, 29.979329109191898], [60.62016574133031, 29.953365325927738]],
+        bounds: [[60.6350897, 29.9575281], [60.633385, 29.9793291], [60.6201657, 29.9533653]],
         author: ['MKHLV_A','MLNKV_L','SLBDNK','TKMKV_K','KUZNTSV_S','VRBY']
     },
     {
@@ -341,7 +341,7 @@ let naStartsMaps = [
         o_site: '17060911',
         url: './maps/starts/na/na_2017_zhuravlevo.webp',
         link: './original_maps/starts/na/na_2017_zhuravlevo_omaps.jpg',
-        bounds: [[60.628249519190376, 29.902296066284183], [60.624523654550764, 29.952979087829593], [60.61090058809483, 29.89736080169678]],
+        bounds: [[60.6282495, 29.9022961], [60.6245237, 29.9529791], [60.6109006, 29.8973608]],
         author: ['MKHLV_A','MLNKV_L','SLBDNK','TKMKV_K','KUZNTSV_S','VRBY']
     },
     {
@@ -352,7 +352,7 @@ let naStartsMaps = [
         o_site: '17060911',
         url: './maps/starts/na/na_2017_06_11.webp',
         link: './original_maps/starts/na/na_2017_06_11_omaps.jpg',
-        bounds: [[60.63344817018343, 29.9677848815918], [60.630228051965716, 30.009112358093265], [60.61831292353035, 29.963450431823734]],
+        bounds: [[60.6334482, 29.9677849], [60.6302281, 30.0091124], [60.6183129, 29.9634504]],
         author: ['MKHLV_A','MLNKV_L','SLBDNK','TKMKV_K','KUZNTSV_S','VRBY']
     },
     {
@@ -363,7 +363,7 @@ let naStartsMaps = [
         o_site: '18060911',
         url: './maps/starts/na/na_2018_06_09.webp',
         link: './original_maps/starts/na/na_2018_06_09_omaps.jpg',
-        bounds: [[60.45948188276528, 30.28093814849854], [60.45647717492073, 30.317416191101078], [60.44680520662692, 30.27613162994385]],
+        bounds: [[60.4594819, 30.2809381], [60.4564772, 30.3174162], [60.4468052, 30.2761316]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
         owner: 'TOKM'
     },
@@ -375,7 +375,7 @@ let naStartsMaps = [
         o_site: '18060911',
         url: './maps/starts/na/na_2018_lembolovo.webp',
         link: './original_maps/starts/na/na_2018_lembolovo_omaps.jpg',
-        bounds: [[60.4525833371081, 30.31690120697022], [60.44978964411541, 30.35209178924561], [60.42889282299763, 30.30986309051514]],
+        bounds: [[60.4525833, 30.3169012], [60.4497896, 30.3520918], [60.4288928, 30.3098631]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
         owner: 'TOKM'
     },
@@ -387,7 +387,7 @@ let naStartsMaps = [
         o_site: '18060911',
         url: './maps/starts/na/na_2018_06_11.webp',
         link: './original_maps/starts/na/na_2018_06_11_omaps.jpg',
-        bounds: [[60.46832511328194, 30.32432556152344], [60.46578663332429, 30.35955905914307], [60.44382049494318, 30.316042900085453]],
+        bounds: [[60.4683251, 30.3243256], [60.4657866, 30.3595591], [60.4438205, 30.3160429]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
         owner: 'TOKM'
     },
@@ -399,7 +399,7 @@ let naStartsMaps = [
         o_site: '190607',
         url: './maps/starts/na/na_2019_06_07.webp',
         link: './original_maps/starts/na/na_2019_06_07_omaps.jpg',
-        bounds: [[58.71925653610351, 29.80054378509522], [58.71747384917392, 29.819684028625492], [58.71092169044915, 29.79753971099854]],
+        bounds: [[58.7192565, 29.8005438], [58.7174738, 29.819684], [58.7109217, 29.7975397]],
         author: ['TKMKV_K','KVZN','NSNV']
     },
     {
@@ -410,7 +410,7 @@ let naStartsMaps = [
         o_site: '190607',
         url: './maps/starts/na/na_2019_luga.webp',
         link: './original_maps/starts/na/na_2019_luga_omaps.jpg',
-        bounds: [[58.72061577354446, 29.768142700195316], [58.71629276880788, 29.815478324890137], [58.70354346464922, 29.762392044067386]],
+        bounds: [[58.7206158, 29.7681427], [58.7162928, 29.8154783], [58.7035435, 29.762392]],
         author: ['TKMKV_K','KVZN','NSNV']
     },
     {
@@ -421,7 +421,7 @@ let naStartsMaps = [
         o_site: '190607',
         url: './maps/starts/na/na_2019_06_09.webp',
         link: './original_maps/starts/na/na_2019_06_09_omaps.jpg',
-        bounds: [[58.721997239178854, 29.772348403930668], [58.71876630629848, 29.807882308959964], [58.70931689218292, 29.76782083511353]],
+        bounds: [[58.7219972, 29.7723484], [58.7187663, 29.8078823], [58.7093169, 29.7678208]],
         author: ['TKMKV_K','KVZN','NSNV']
     },
     {
@@ -432,7 +432,7 @@ let naStartsMaps = [
         o_site: '230612',
         url: './maps/starts/na/na_2023_06_10.webp',
         link: './original_maps/starts/na/na_2023_06_10_omaps.jpg',
-        bounds: [[60.61690218407662, 30.187339782714847], [60.61532292494163, 30.204656124114994], [60.60507692014604, 30.182662010192875]],
+        bounds: [[60.6169022, 30.1873398], [60.6153229, 30.2046561], [60.6050769, 30.182662]],
         author: ['DJCHKV','PPV_D'],
         owner: 'SHEIN'
     },
@@ -444,7 +444,7 @@ let naStartsMaps = [
         o_site: '230612',
         url: './maps/starts/na/na_2023_koloskovo.webp',
         link: './original_maps/starts/na/na_2023_koloskovo_omaps.jpg',
-        bounds: [[60.626965512756385, 30.194892883300785], [60.62366053975521, 30.229139328002933], [60.602980985041754, 30.184936523437504]],
+        bounds: [[60.6269655, 30.1948929], [60.6236605, 30.2291393], [60.602981, 30.1849365]],
         author: ['DJCHKV','PPV_D'],
         owner: 'SHEIN'
     },
@@ -456,7 +456,7 @@ let naStartsMaps = [
         o_site: '230612',
         url: './maps/starts/na/na_2023_06_12.webp',
         link: './original_maps/starts/na/na_2023_06_12_omaps.jpg',
-        bounds: [[60.61879719300018, 30.203411579132084], [60.61565984004373, 30.2354907989502], [60.60195929899634, 30.196309089660648]],
+        bounds: [[60.6187972, 30.2034116], [60.6156598, 30.2354908], [60.6019593, 30.1963091]],
         author: ['DJCHKV','PPV_D'],
         owner: 'SHEIN'
     },
@@ -468,7 +468,7 @@ let naStartsMaps = [
         calendar: 'SPB_20260612_1',
         url: './maps/starts/na/na_2026_06_12.webp',
         link: ['./original_maps/starts/na/na_2026_06_12_m_omaps.webp','./original_maps/starts/na/na_2026_06_12_w_omaps.webp'],
-        bounds: [[60.417337698813114, 29.64587688446045], [60.4147422621417, 29.670059680938724], [60.408872633538756, 29.64216470718384]],
+        bounds: [[60.4173377, 29.6458769], [60.4147423, 29.6700597], [60.4088726, 29.6421647]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         planner: 'SHRNN',
         owner: 'WN'
@@ -481,7 +481,7 @@ let naStartsMaps = [
         calendar: 'SPB_20260612_1',
         url: './maps/starts/na/na_2026_06_13.webp',
         link: ['./original_maps/starts/na/na_2026_06_13_m_omaps.webp','./original_maps/starts/na/na_2026_06_13_w_omaps.webp'],
-        bounds: [[60.43818901563771, 29.656562805175785], [60.43668571140118, 29.68741893768311], [60.42143700747974, 29.6471643447876]],
+        bounds: [[60.438189, 29.6565628], [60.4366857, 29.6874189], [60.421437, 29.6471643]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         planner: 'RSKV_S',
         owner: 'WN'
@@ -494,7 +494,7 @@ let naStartsMaps = [
         calendar: 'SPB_20260612_1',
         url: './maps/starts/na/na_2026_06_14.webp',
         link: ['./original_maps/starts/na/na_2026_06_14_m_omaps.webp','./original_maps/starts/na/na_2026_06_14_w_omaps.webp'],
-        bounds: [[60.425143947641956, 29.66570377349854], [60.42135227247892, 29.701023101806644], [60.407918983768276, 29.658236503601078]],
+        bounds: [[60.4251439, 29.6657038], [60.4213523, 29.7010231], [60.407919, 29.6582365]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         planner: 'ZCHNV',
         owner: 'WN'

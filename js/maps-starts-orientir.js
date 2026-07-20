@@ -7,7 +7,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_06_06.webp',
         link: './original_maps/starts/orientir/orientir_1990_06_06_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.131290288320166, 30.287504196166996], [60.12919572132151, 30.331964492797855], [60.11021030132096, 30.28261184692383]],
+        bounds: [[60.1312903, 30.2875042], [60.1291957, 30.3319645], [60.1102103, 30.2826118]],
         docs: ['1990_06_06_yukki', 5, 'gif'],
         author: 'SHLKHN_Y',
         me: 'МА'
@@ -19,7 +19,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_06_10.webp',
         link: './original_maps/starts/orientir/orientir_1990_06_10_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.152826668954795, 30.404920578002933], [60.14966546452469, 30.46465873718262], [60.13282906891286, 30.399599075317386]],
+        bounds: [[60.1528267, 30.4049206], [60.1496655, 30.4646587], [60.1328291, 30.3995991]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','AZBKNA']
     },
     {
@@ -29,7 +29,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_06_20.webp',
         link: './original_maps/starts/orientir/orientir_1990_06_20_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.434547088369854, 30.287718772888187], [60.430820042649806, 30.33737182617188], [60.415526211781966, 30.280594825744632]],
+        bounds: [[60.4345471, 30.2877188], [60.43082, 30.3373718], [60.4155262, 30.2805948]],
         author: 'BYMKV'
     },
     {
@@ -39,7 +39,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_06_27.webp',
         link: './original_maps/starts/orientir/orientir_1990_06_27_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.16275685400291, 30.473842620849613], [60.16072835035718, 30.5075740814209], [60.14695256705115, 30.46963691711426]],
+        bounds: [[60.1627569, 30.4738426], [60.1607284, 30.5075741], [60.1469526, 30.4696369]],
         author: ['CHGRVSKY_Y','DBRTSV_V','KRPLSN','BSTRV_A','BRSVA_I','GUSEV_I']
     },
     {
@@ -49,7 +49,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_07_11.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_11_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.19095075838491, 30.52559852600098], [60.18768654151781, 30.55778503417969], [60.16305578079708, 30.51907539367676]],
+        bounds: [[60.1909508, 30.5255985], [60.1876865, 30.557785], [60.1630558, 30.5190754]],
         author: ['SHRNN','MKHLV_B','CHGRVSKY_Y','DBRTSV_V','DJKV','PTRNNA','SMNA'],
     },
     {
@@ -59,7 +59,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_07_04.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_04_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.18858263337046, 30.538215637207035], [60.18747318270969, 30.557699203491214], [60.173751300066705, 30.53482532501221]],
+        bounds: [[60.1885826, 30.5382156], [60.1874732, 30.5576992], [60.1737513, 30.5348253]],
         author: ['SHRNN','MKHLV_B']
     },
     {
@@ -69,7 +69,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_07_14.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_14_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.63340607920927, 30.083141326904297], [60.630059670923785, 30.135025978088382], [60.61359617982331, 30.078806877136234]],
+        bounds: [[60.6334061, 30.0831413], [60.6300597, 30.135026], [60.6135962, 30.0788069]],
         author: ['LVCHV','SVTKN']
     },
     {
@@ -79,7 +79,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_07_15.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_15_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.632080185395296, 30.10159492492676], [60.62909146286906, 30.157685279846195], [60.6078677782307, 30.09691715240479]],
+        bounds: [[60.6320802, 30.1015949], [60.6290915, 30.1576853], [60.6078678, 30.0969172]],
         author: ['LVCHV','SVTKN']
     },
     {
@@ -89,7 +89,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_07_22.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_22_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.220335421956044, 29.120721817016605], [60.21888599780684, 29.165868759155273], [60.18715314189766, 29.116430282592777]],
+        bounds: [[60.2203354, 29.1207218], [60.218886, 29.1658688], [60.1871531, 29.1164303]],
         author: ['KAZNTSV_S','KAZNTSVA_O','GYKVCH','PYNN','PTRV_V']
     },
     {
@@ -99,7 +99,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_07_21.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_21_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.219866497625205, 29.122953414916996], [60.21845968439238, 29.16277885437012], [60.18745184675263, 29.11857604980469]],
+        bounds: [[60.2198665, 29.1229534], [60.2184597, 29.1627789], [60.1874518, 29.118576]],
         author: ['KAZNTSV_S','KAZNTSVA_O','GYKVCH','PYNN','PTRV_V']
     },
     {
@@ -110,7 +110,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_11_10.webp',
         link: './original_maps/starts/orientir/orientir_1990_11_10_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.14197477942133, 30.52388191223145], [60.138470648767054, 30.57756900787354], [60.123616683300746, 30.519032478332523]],
+        bounds: [[60.1419748, 30.5238819], [60.1384706, 30.577569], [60.1236167, 30.5190325]],
         author: ['CHGRVSKY_V','DBRTSV_V','CHKVSKY_N','KRNLJV','GBNV_A','CHGRVSKY_Y']
     },
     {
@@ -120,7 +120,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1990_11_18.webp',
         link: './original_maps/starts/orientir/orientir_1990_11_18_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.156799102974794, 30.533409118652347], [60.15291210269404, 30.58902740478516], [60.13970995715149, 30.529289245605472]],
+        bounds: [[60.1567991, 30.5334091], [60.1529121, 30.5890274], [60.13971, 30.5292892]],
         author: ['CHGRVSKY_Y','DBRTSV_V','CHKVSKY_N','KRNLJV','GRSMVA','BSTRV_A','BRSVA_I','PTRNNA'],
         planner: 'SMNV_M'
     },
@@ -132,7 +132,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_04_07.webp',
         link: './original_maps/starts/orientir/orientir_1991_04_07_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[59.95604161475451, 30.65889358520508], [59.9507985720987, 30.73210716247559], [59.925646226343105, 30.650825500488285]],
+        bounds: [[59.9560416, 30.6588936], [59.9507986, 30.7321072], [59.9256462, 30.6508255]],
         author: 'VSLVSKY',
         me: 'МА'
     },
@@ -144,7 +144,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_04_13.webp',
         link: './original_maps/starts/orientir/orientir_1991_04_13_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[59.96854421234714, 30.660009384155277], [59.964935699504515, 30.721807479858402], [59.93738636175856, 30.652112960815433]],
+        bounds: [[59.9685442, 30.6600094], [59.9649357, 30.7218075], [59.9373864, 30.652113]],
         author: 'VSLVSKY',
         planner: 'NKLVCH'
     },
@@ -156,7 +156,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_04_27.webp',
         link: './original_maps/starts/orientir/orientir_1991_04_27_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.11771598201811, 30.27681827545166], [60.114166500104574, 30.34574031829834], [60.10248899875632, 30.274028778076172]],
+        bounds: [[60.117716, 30.2768183], [60.1141665, 30.3457403], [60.102489, 30.2740288]],
         author: ['SHLKHN_Y','BZNV_A'],
         me: 'МА'
     },
@@ -167,7 +167,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_05_22.webp',
         link: './original_maps/starts/orientir/orientir_1991_05_22_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.18348311758717, 29.813117980957035], [60.17639795697063, 29.849874973297123], [60.17158472459901, 29.804084300994877]],
+        bounds: [[60.1834831, 29.813118], [60.176398, 29.849875], [60.1715847, 29.8040843]],
         author: ['SHRNN','FDRV_L']
     },
     {
@@ -178,7 +178,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_05_29.webp',
         link: './original_maps/starts/orientir/orientir_1991_05_29_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.14626896702971, 30.209183692932132], [60.14342760216596, 30.259351730346683], [60.127143771314664, 30.206651687622074]],
+        bounds: [[60.146269, 30.2091837], [60.1434276, 30.2593517], [60.1271438, 30.2066517]],
         author: 'RYLOV_V'
     },
     {
@@ -189,7 +189,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_06_08.webp',
         link: './original_maps/starts/orientir/orientir_1991_06_05_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.056380214158494, 30.268278121948246], [60.05569473216481, 30.29685974121094], [60.03827442908029, 30.264501571655277]],
+        bounds: [[60.0563802, 30.2682781], [60.0556947, 30.2968597], [60.0382744, 30.2645016]],
         author: 'KUZNTSV_V',
     },
     {
@@ -200,7 +200,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_06_12.webp',
         link: './original_maps/starts/orientir/orientir_1991_06_12_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.15248493177769, 30.390758514404297], [60.1483838085718, 30.462341308593754], [60.12620325146872, 30.3838062286377]],
+        bounds: [[60.1524849, 30.3907585], [60.1483838, 30.4623413], [60.1262033, 30.3838062]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','AZBKNA'],
         me: 'МА'
     },
@@ -213,7 +213,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_06_26_omaps.jpg',
         start: 'ORIENTIR',
         planner: 'BYMKV',
-        bounds: [[60.445450477860916, 30.305013656616214], [60.44062379750579, 30.37530899047852], [60.42050491032749, 30.298576354980472]],
+        bounds: [[60.4454505, 30.3050137], [60.4406238, 30.375309], [60.4205049, 30.2985764]],
         author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
     },
     {
@@ -225,7 +225,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_07_03_omaps.jpg',
         start: 'ORIENTIR',
         planner: 'BRSV_V',
-        bounds: [[60.16215899225725, 30.474014282226566], [60.16013045170843, 30.508732795715336], [60.14667485625631, 30.469765663146976]],
+        bounds: [[60.162159, 30.4740143], [60.1601305, 30.5087328], [60.1466749, 30.4697657]],
         author: ['CHGRVSKY_Y','DBRTSV_V','KRPLSN','BSTRV_A','BRSVA_I','GUSEV_I']
     },
     {
@@ -237,7 +237,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_07_07_omaps.jpg',
         start: 'ORIENTIR',
         planner: 'BLNV_A',
-        bounds: [[60.379508601880914, 30.229353904724125], [60.376199513269, 30.28441429138184], [60.35058513754396, 30.22119998931885]],
+        bounds: [[60.3795086, 30.2293539], [60.3761995, 30.2844143], [60.3505851, 30.2212]],
         author: ['BYMKV','SMRNV_A','RMNTSV_S','GRV_K']
     },
     {
@@ -248,7 +248,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_07_10.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_10_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.19150542964039, 30.516929626464847], [60.18749451865291, 30.55830001831055], [60.15585943074604, 30.508003234863285]],
+        bounds: [[60.1915054, 30.5169296], [60.1874945, 30.5583], [60.1558594, 30.5080032]],
         author: ['SHRNN','MKHLV_B','CHGRVSKY_Y','DBRTSV_V','DJKV','PTRNNA','SMNA'],
     },
     {
@@ -259,7 +259,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_07_20.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_20_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[61.14275887416635, 29.899034500122074], [61.139506893571436, 29.952893257141117], [61.12902370855488, 29.898219108581547]],
+        bounds: [[61.1427589, 29.8990345], [61.1395069, 29.9528933], [61.1290237, 29.8982191]],
         author: 'OVCHNNKV'
     },
     {
@@ -269,7 +269,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_07_21.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_21_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[61.14323525084058, 29.8894214630127], [61.13934117858578, 29.961948394775394], [61.12239223014031, 29.88418579101563]],
+        bounds: [[61.1432353, 29.8894215], [61.1393412, 29.9619484], [61.1223922, 29.8841858]],
         author: ['BGCHNS','VLKV_K','OVCHNNKV','SSNNA','USHNV'],
     },
     {
@@ -280,7 +280,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_07_24.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_24_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[59.847250853534426, 30.58173179626465], [59.8366648411983, 30.61773777008057], [59.8281030174316, 30.560531616210938]],
+        bounds: [[59.8472509, 30.5817318], [59.8366648, 30.6177378], [59.828103, 30.5605316]],
         author: ['OSMCHN','ANSFRV','FDRV_L'],
         planner: 'DSHKO'
     },
@@ -292,7 +292,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_08_28.webp',
         link: './original_maps/starts/orientir/orientir_1991_08_28_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.122505037836625, 30.111250877380375], [60.11750216863756, 30.174851417541507], [60.10668139869325, 30.106959342956543]],
+        bounds: [[60.122505, 30.1112509], [60.1175022, 30.1748514], [60.1066814, 30.1069593]],
         author: 'VSLVSKY',
     },
     {
@@ -303,7 +303,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_09_04.webp',
         link: './original_maps/starts/orientir/orientir_1991_09_04_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.08537162801611, 30.278019905090336], [60.08280325548566, 30.320720672607425], [60.06869504267509, 30.273256301879886]],
+        bounds: [[60.0853716, 30.2780199], [60.0828033, 30.3207207], [60.068695, 30.2732563]],
         author: ['VLKV_A','SHVR']
     },
     {
@@ -315,7 +315,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_09_11_omaps.jpg',
         start: 'ORIENTIR',
         planner: 'AMSVA',
-        bounds: [[60.03313014690289, 30.33136367797852], [60.03147951994929, 30.368485450744632], [60.01378905503624, 30.328016281127933]]
+        bounds: [[60.0331301, 30.3313637], [60.0314795, 30.3684855], [60.0137891, 30.3280163]]
     },
     {
         name: 'Орехово',
@@ -325,7 +325,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_09_29.webp',
         link: './original_maps/starts/orientir/orientir_1991_09_29_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.47701790290766, 30.239095687866214], [60.47359182588782, 30.285787582397464], [60.44578916534856, 30.23051261901856]],
+        bounds: [[60.4770179, 30.2390957], [60.4735918, 30.2857876], [60.4457892, 30.2305126]],
         author: 'BYMKV',
         planner: 'FDRV_L'
     },
@@ -337,7 +337,7 @@ let orientirStartsMaps = [
         url: './maps/starts/orientir/orientir_1991_11_08.webp',
         link: './original_maps/starts/orientir/orientir_1991_11_08_omaps.jpg',
         start: 'ORIENTIR',
-        bounds: [[60.440285056170616, 30.292739868164066], [60.43624105879434, 30.340762138366703], [60.41491176636754, 30.28364181518555]],
+        bounds: [[60.4402851, 30.2927399], [60.4362411, 30.3407621], [60.4149118, 30.2836418]],
         author: 'BYMKV',
         planner: 'FSNKO'
     },

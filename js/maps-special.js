@@ -6,7 +6,7 @@ let specialMaps = [
         year: 1980,
         url: './maps/winter/novo_toksovo_winter_1980.webp',
         link: './original_maps/winter/novo_toksovo_winter_1980_omaps.webp',
-        bounds: [[60.24143007648448, 30.566368103027347], [60.24027980905113, 30.596323013305668], [60.20485737756326, 30.553193092346195]],
+        bounds: [[60.2414301, 30.5663681], [60.2402798, 30.596323], [60.2048574, 30.5531931]],
         type: ['WINTER']
     },
     {
@@ -16,7 +16,7 @@ let specialMaps = [
         excluded: true,
         url: './maps/winter/snegirevka_winter_1989.webp',
         link: './original_maps/winter/snegirevka_winter_1989_omaps.webp',
-        bounds: [[60.558629034771705, 30.239353179931644], [60.552890877584524, 30.31514167785645], [60.52887239866379, 30.22948265075684]],
+        bounds: [[60.558629, 30.2393532], [60.5528909, 30.3151417], [60.5288724, 30.2294827]],
         author: ['MLVA_M','KAZNTSVA_O'],
         type: ['WINTER']
     },
@@ -25,7 +25,7 @@ let specialMaps = [
         year: 1987,
         url: './maps/winter/toksovo_hepojarvi_west_winter_1987.webp',
         link: './original_maps/winter/toksovo_hepojarvi_west_winter_1987_omaps.jpg',
-        bounds: [[60.19773417081921, 30.53461074829102], [60.193894675595104, 30.595893859863285], [60.140692823704896, 30.51890373229981]],
+        bounds: [[60.1977342, 30.5346107], [60.1938947, 30.5958939], [60.1406928, 30.5189037]],
         author: ['CHGRVSKY_V','BRNVA','KRPLSN','SMNA','CHKVSKY_N','DBRTSV_V','GRSMVA','BSTRV_A','PTRNNA','KRNLJV','CHGRVSKY_Y'],
         areas: [50,3,2,2,3,10,2,3,2,3,20],
         type: ['WINTER'],
@@ -37,7 +37,7 @@ let specialMaps = [
         year: 1989,
         url: './maps/winter/toksovo_winter_1989.webp',
         link: './original_maps/winter/toksovo_winter_1989_omaps.jpg',
-        bounds: [[60.16284226193584, 30.47345638275147], [60.16045075590866, 30.511994361877445], [60.14673894357099, 30.4696798324585]],
+        bounds: [[60.1628423, 30.4734564], [60.1604508, 30.5119944], [60.1467389, 30.4696798]],
         author: ['CHGRVSKY_Y','DBRTSV_V','KRPLSN','BSTRV_A','BRSVA_I','GUSEV_I'],
         areas: [40,30,5,5,10,10],
         type: ['WINTER'],
@@ -50,7 +50,7 @@ let specialMaps = [
         url: './maps/winter/steklyanny_winter_1999.webp',
         link: './original_maps/winter/steklyanny_winter_1999_omaps.webp',
         info: 'Первенство России среди ДЮСШ. Первенство России среди ветеранов.',
-        bounds: [[60.40618115009164, 30.25797843933106], [60.40490950567181, 30.2808952331543], [60.379932819702496, 30.251626968383793]],
+        bounds: [[60.4061812, 30.2579784], [60.4049095, 30.2808952], [60.3799328, 30.251627]],
         type: ['WINTER']
     },
     {
@@ -58,7 +58,7 @@ let specialMaps = [
         date: '2024-01-21',
         url: './maps/winter/silande_winter_2024.webp',
         link: './original_maps/winter/silande_winter_2024_omaps.gif',
-        bounds: [[60.415547399347886, 30.25016784667969], [60.41292003592953, 30.283727645874027], [60.39151183234099, 30.2409839630127]],
+        bounds: [[60.4155474, 30.2501678], [60.41292, 30.2837276], [60.3915118, 30.240984]],
         owner: 'SFSO_SPB',
         type: ['WINTER']
     },
@@ -67,7 +67,7 @@ let specialMaps = [
         date: '2019-01-08', // карта явно более ранняя
         url: './maps/winter/lembolovo_winter_2019.webp',
         link: './original_maps/winter/lembolovo_winter_2019_omaps.jpg',
-        bounds: [[60.42351294603261, 30.3063440322876], [60.420420172898, 30.34084796905518], [60.40628711821687, 30.30089378356934]],
+        bounds: [[60.4235129, 30.306344], [60.4204202, 30.340848], [60.4062871, 30.3008938]],
         author: ['DBRTSV_V','CHGRVSKY_Y'], //Возможно и Баймакова, надо уточнить
         type: ['WINTER']
     },
@@ -76,7 +76,7 @@ let specialMaps = [
         year: 1986,
         url: './maps/winter/orekhovo_lembolovo_winter_1986.webp',
         link: './original_maps/winter/orekhovo_lembolovo_winter_1986_omaps.jpg',
-        bounds: [[60.473041927987076, 30.27694702148438], [60.46627319069453, 30.38578033447266], [60.419954113089155, 30.263385772705078]],
+        bounds: [[60.4730419, 30.276947], [60.4662732, 30.3857803], [60.4199541, 30.2633858]],
         author: 'BYMKV',
         logo: 'winter_retro.gif',
         type: ['WINTER']
@@ -87,7 +87,7 @@ let specialMaps = [
         url: './maps/winter/orekhovo_nyrkovo_winter_2012.webp',
         link: './original_maps/winter/orekhovo_nyrkovo_winter_2012_omaps.jpeg',
         publish: ['https://vk.com/album-230167293_312356826','https://vk.com/album-230167293_312489606','https://vk.com/album-230167293_312551370','https://vk.com/photo-230167293_457267005'],
-        bounds: [[60.4759605103226, 30.297954082489017], [60.47338032779795, 30.334196090698246], [60.451101863173875, 30.29010057449341]],
+        bounds: [[60.4759605, 30.2979541], [60.4733803, 30.3341961], [60.4511019, 30.2901006]],
         author: 'TKMKV_K',
         owner: 'SFSO_SPB',
         type: ['WINTER']
@@ -97,7 +97,7 @@ let specialMaps = [
         year: 2010,
         url: './maps/winter/orekhovo_winter_2010.webp',
         link: './original_maps/winter/orekhovo_winter_2010_omaps.jpg',
-        bounds: [[60.460666761529005, 30.279736518859867], [60.45687922940639, 30.326771736145023], [60.44310073619961, 30.274243354797367]],
+        bounds: [[60.4606668, 30.2797365], [60.4568792, 30.3267717], [60.4431007, 30.2742434]],
         author: ['KVZN','NSNV'],
         type: ['WINTER'],
         owner: 'SFSO_SPB'
@@ -107,7 +107,7 @@ let specialMaps = [
         year: 2013,
         url: './maps/winter/roschino_winter_2013.webp',
         link: './original_maps/winter/roschino_winter_2013_omaps.jpg',
-        bounds: [[60.27208897887721, 29.576182365417484], [60.27204641697717, 29.60000038146973], [60.26370321558072, 29.576439857482914]],
+        bounds: [[60.272089, 29.5761824], [60.2720464, 29.6000004], [60.2637032, 29.5764399]],
         author: 'SHRNN',
         type: ['WINTER'],
         zindex: 2
@@ -117,7 +117,7 @@ let specialMaps = [
         year: 1985,
         url: './maps/winter/siargi_winter_1985.webp',
         link: './original_maps/winter/siargi_winter_1985_omaps.jpg',
-        bounds: [[60.15902003964619, 30.405178070068363], [60.15167329174536, 30.532035827636722], [60.114786617903576, 30.39530754089356]],
+        bounds: [[60.15902, 30.4051781], [60.1516733, 30.5320358], [60.1147866, 30.3953075]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y'],
         editor: 'FDRV_N',
         logo: 'winter_retro.gif',
@@ -129,7 +129,7 @@ let specialMaps = [
         area: 2.3,
         url: './maps/winter/kuzmolovo_2003.webp',
         link: './original_maps/winter/kuzmolovo_2003_omaps.jpg',
-        bounds: [[60.12306086526154, 30.505256652832035], [60.119426439074296, 30.552077293396], [60.106745563934105, 30.500020980834964]],
+        bounds: [[60.1230609, 30.5052567], [60.1194264, 30.5520773], [60.1067456, 30.500021]],
         author: 'SHRNN',
         owner: 'GLFSTRM',
         type: ['WINTER']
@@ -141,7 +141,7 @@ let specialMaps = [
         o_site: '2301_poligon',
         url: './maps/winter/kuzmolovo_poligon_2023.webp',
         link: './original_maps/winter/kuzmolovo_poligon_2023_omaps.gif',
-        bounds: [[60.12952701375337, 30.508496761322025], [60.12816976231101, 30.53508281707764], [60.112081535659236, 30.504527091979984]],
+        bounds: [[60.129527, 30.5084968], [60.1281698, 30.5350828], [60.1120815, 30.5045271]],
         author: ['KVZN','TKMKV_K'],
         owner: 'SFSO_SPB',
         type: ['WINTER']
@@ -153,7 +153,7 @@ let specialMaps = [
         link: './original_maps/winter/toksovo_vifk_winter_2023_omaps.jpg',
         info: 'Первенство России.',
         o_site: '230213',
-        bounds: [[60.193233383853695, 30.560145378112797], [60.18962804295176, 30.59679508209229], [60.18021815816931, 30.554866790771488]],
+        bounds: [[60.1932334, 30.5601454], [60.189628, 30.5967951], [60.1802182, 30.5548668]],
         author: 'CHGRVSKY_Y',
         type: ['WINTER']
     },
@@ -163,7 +163,7 @@ let specialMaps = [
         url: './maps/winter/toksovo_shkolnoe_winter_2013.webp',
         link: './original_maps/winter/toksovo_shkolnoe_winter_2013_omaps.jpg',
         info: 'Первенство СПб.',
-        bounds: [[60.147059378270846, 30.572462081909183], [60.1445171771102, 30.602331161499027], [60.136697074515965, 30.568556785583496]],
+        bounds: [[60.1470594, 30.5724621], [60.1445172, 30.6023312], [60.1366971, 30.5685568]],
         owner: 'SFSO_SPB',
         type: ['WINTER']
     },
@@ -172,14 +172,14 @@ let specialMaps = [
         year: 1,
         url: './maps/winter/vsevolozhsk_old_winter.webp',
         link: './original_maps/winter/vsevolozhsk_old_winter_omaps.jpg',
-        bounds: [[60.003706616324685, 30.613918304443363], [60.001646846489315, 30.717515945434574], [59.944566008164585, 30.60945510864258]],
+        bounds: [[60.0037066, 30.6139183], [60.0016468, 30.7175159], [59.944566, 30.6094551]],
         type: ['WINTER']
     },
     {
         name: 'Зеленогорск - Чёрные озёра',
         url: './maps/winter/zelenogorsk_chernye_winter.webp',
         link: './original_maps/winter/zelenogorsk_chernye_winter_omaps.jpg',
-        bounds: [[60.25463395700811, 29.77681159973145], [60.25224913383907, 29.816293716430668], [60.22557839180962, 29.768142700195316]],
+        bounds: [[60.254634, 29.7768116], [60.2522491, 29.8162937], [60.2255784, 29.7681427]],
         author: ['SHRNN','KUZNTSV_S','VLKV_M'],
         type: ['WINTER']
     },
@@ -190,7 +190,7 @@ let specialMaps = [
         info: 'ЛГ-спринт.',
         url: './maps/winter/tsvelodubovo_winter_2003.webp',
         link: './original_maps/winter/tsvelodubovo_winter_2003_omaps.jpg',
-        bounds: [[60.38012371591987, 29.552407264709476], [60.37715409255567, 29.599828720092777], [60.36293857546221, 29.548244476318363]],
+        bounds: [[60.3801237, 29.5524073], [60.3771541, 29.5998287], [60.3629386, 29.5482445]],
         author: ['KVZN','KUZNTSV_S','NSNV'],
         type: ['WINTER']
     },
@@ -201,7 +201,7 @@ let specialMaps = [
         info: 'ЛГ-спринт.',
         url: './maps/winter/tsvelodubovo_rybatskoe_2003.webp',
         link: './original_maps/winter/tsvelodubovo_rybatskoe_2003_omaps.jpg',
-        bounds: [[60.36419063865247, 29.544124603271488], [60.3614317915913, 29.574251174926758], [60.35468224304794, 29.540390968322757]],
+        bounds: [[60.3641906, 29.5441246], [60.3614318, 29.5742512], [60.3546822, 29.540391]],
         author: 'KVZN',
         type: ['WINTER']
     },
@@ -211,7 +211,7 @@ let specialMaps = [
         url: './maps/winter/zerkalny_tarasovskoe_winter_2023.webp',
         link: './original_maps/winter/zerkalny_tarasovskoe_winter_2023_omaps.gif',
         publish: 'https://vk.com/album-230167293_312624491',
-        bounds: [[60.25993530761828, 29.112052917480472], [60.25676311663197, 29.154882431030277], [60.24515751749144, 29.106817245483402]],
+        bounds: [[60.2599353, 29.1120529], [60.2567631, 29.1548824], [60.2451575, 29.1068172]],
         owner: 'SFSO_SPB',
         type: ['WINTER']
     },
@@ -220,7 +220,7 @@ let specialMaps = [
         date: '2024-02-15',
         url: './maps/winter/zerkalny_winter_2024.webp',
         link: './original_maps/winter/zerkalny_winter_2024_omaps.jpg',
-        bounds: [[60.24515751749144, 29.137887954711918], [60.2447741431293, 29.15732860565186], [60.236061816234596, 29.137501716613773]],
+        bounds: [[60.2451575, 29.137888], [60.2447741, 29.1573286], [60.2360618, 29.1375017]],
         type: ['WINTER']
     },
     {
@@ -228,7 +228,7 @@ let specialMaps = [
         year: 2024,
         url: './maps/winter/budogosch_svetloe_winter_2024.webp',
         link: './original_maps/winter/budogosch_svetloe_winter_2024_omaps.gif',
-        bounds: [[59.28447396887775, 32.348299026489265], [59.28138309112493, 32.381472587585456], [59.273665632447134, 32.34443664550782]],
+        bounds: [[59.284474, 32.348299], [59.2813831, 32.3814726], [59.2736656, 32.3444366]],
         owner: 'EGRV_SRG',
         type: ['WINTER']
     },
@@ -238,7 +238,7 @@ let specialMaps = [
         year: 2009,
         url: './maps/winter/budogosch_orlenok_winter_2009.webp',
         link: './original_maps/winter/budogosch_orlenok_winter_2009_omaps.gif',
-        bounds: [[59.311775487837515, 32.419924736022956], [59.30735088677822, 32.469363212585456], [59.2950378289487, 32.41451740264893]],
+        bounds: [[59.3117755, 32.4199247], [59.3073509, 32.4693632], [59.2950378, 32.4145174]],
         author: 'KRTSHV',
         owner: 'EGRV_SRG',
         type: ['WINTER'],
@@ -250,7 +250,7 @@ let specialMaps = [
         year: 2008,
         url: './maps/winter/kirishi_pushka_2008.webp',
         link: './original_maps/winter/kirishi_pushka_2008_omaps.gif',
-        bounds: [[59.44138788921422, 32.04626083374024], [59.43798395415987, 32.072868347167976], [59.4312187076711, 32.04325675964356]],
+        bounds: [[59.4413879, 32.0462608], [59.437984, 32.0728683], [59.4312187, 32.0432568]],
         owner: 'EGRV_SRG',
         zindex: 2,
         type: ['WINTER']
@@ -260,7 +260,7 @@ let specialMaps = [
         year: 2024,
         url: './maps/winter/kirishi_ski_track_2024.webp',
         link: './original_maps/winter/kirishi_ski_track_2024_omaps.gif',
-        bounds: [[59.44023146251266, 31.985664367675785], [59.43905317578189, 32.00201511383057], [59.42154860449208, 31.97957038879395]],
+        bounds: [[59.4402315, 31.9856644], [59.4390532, 32.0020151], [59.4215486, 31.9795704]],
         author: 'TKMKV_K',
         owner: 'EGRV_SRG',
         type: ['WINTER'],
@@ -271,7 +271,7 @@ let specialMaps = [
         year: 2024,
         url: './maps/winter/sosnovka_winter_2024.webp',
         o_site: 'poligon2025',
-        bounds: [[60.02682730935579, 30.330719947814945], [60.02253897755637, 30.36925792694092], [60.013102688647166, 30.32509803771973]],
+        bounds: [[60.0268273, 30.3307199], [60.022539, 30.3692579], [60.0131027, 30.325098]],
         author: 'CHGRVSKY_V',
         owner: 'IMPULS',
         type: ['WINTER', 'PARK']
@@ -281,7 +281,7 @@ let specialMaps = [
         year: 2023,
         url: './maps/winter/shuvalovsky_park_winter_2023.webp',
         link: './original_maps/winter/shuvalovsky_park_winter_2023_omaps.jpg',
-        bounds: [[60.085243214141705, 30.291752815246586], [60.08293167886438, 30.32106399536133], [60.069273191217576, 30.287203788757324]],
+        bounds: [[60.0852432, 30.2917528], [60.0829317, 30.321064], [60.0692732, 30.2872038]],
         author: 'EFRMV',
         owner: 'EFRMV',
         type: ['WINTER', 'PARK']
@@ -292,7 +292,7 @@ let specialMaps = [
         url: './maps/winter/polustrovsky_park_winter_2026.webp',
         link: './original_maps/winter/polustrovsky_park_winter_2026_omaps.gif',
         o_gps: 24152,
-        bounds: [[59.96878047030928, 30.42071342468262], [59.96811464809843, 30.43294429779053], [59.963346110798675, 30.41895389556885]],
+        bounds: [[59.9687805, 30.4207134], [59.9681146, 30.4329443], [59.9633461, 30.4189539]],
         author: 'RDNV_I',
         owner: 'RDNV_I',
         type: ['WINTER', 'PARK']
@@ -302,7 +302,7 @@ let specialMaps = [
         year: 2024,
         info: 'Карта-авоська.',
         url: './maps/winter/kirovsk_winter_2024.webp',
-        bounds: [[59.90888891207802, 31.008138656616214], [59.90707069729489, 31.025068759918216], [59.89890364096045, 31.00423336029053]],
+        bounds: [[59.9088889, 31.0081387], [59.9070707, 31.0250688], [59.8989036, 31.0042334]],
         owner: 'NKLSK',
         author: 'YGNV',
         type: ['WINTER']
@@ -315,7 +315,7 @@ let specialMaps = [
         url: './maps/winter/anyalovo_winter_2023.webp',
         link: './original_maps/winter/anyalovo_winter_2023_omaps.gif',
         o_gps: 18157,
-        bounds: [[60.312582798414866, 30.499763488769535], [60.30854417624976, 30.537958145141605], [60.29933850324382, 30.49461364746094]],
+        bounds: [[60.3125828, 30.4997635], [60.3085442, 30.5379581], [60.2993385, 30.4946136]],
         author: ['TKMKV_K','KVZN'],
         owner: 'SFSO_SPB',
         type: ['WINTER']
@@ -325,7 +325,7 @@ let specialMaps = [
         year: 2019,
         url: './maps/winter/shapki_winter_2019.webp',
         link: './original_maps/winter/shapki_winter_2019_omaps.jpg',
-        bounds: [[59.59751217494185, 31.17151737213135], [59.59807684392958, 31.209154129028324], [59.584370083656665, 31.172375679016117]],
+        bounds: [[59.5975122, 31.1715174], [59.5980768, 31.2091541], [59.5843701, 31.1723757]],
         author: 'YUDNTSV',
         type: ['WINTER']
     },
@@ -333,7 +333,7 @@ let specialMaps = [
         name: 'Гатчина, парк Зверинец',
         hidden: true,
         url: './maps/winter/gatchina_zverinets_winter.webp',
-        bounds: [[59.587737555103494, 30.093741416931156], [59.5885413532801, 30.117602348327637], [59.57226612908946, 30.095458030700687]],
+        bounds: [[59.5877376, 30.0937414], [59.5885414, 30.1176023], [59.5722661, 30.095458]],
         owner: 'PNKV_DNL',
         type: ['WINTER']
     },
@@ -343,7 +343,7 @@ let specialMaps = [
         year: 1999,
         url: './maps/velo/dudergof_199x.webp',
         link: './original_maps/velo/dudergof_199x_omaps.jpg',
-        bounds: [[59.70363323936345, 30.120949745178226], [59.70228011032887, 30.138931274414066], [59.69221111300396, 30.11790275573731]],
+        bounds: [[59.7036332, 30.1209497], [59.7022801, 30.1389313], [59.6922111, 30.1179028]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -353,7 +353,7 @@ let specialMaps = [
         year: 2025,
         url: './maps/velo/univer_velo_2025.webp',
         link: './original_maps/velo/univer_velo_2025_omaps.gif',
-        bounds: [[59.90008739676608, 29.824340343475345], [59.89543822235865, 29.860410690307617], [59.88723600894675, 29.81751680374146]],
+        bounds: [[59.9000874, 29.8243403], [59.8954382, 29.8604107], [59.887236, 29.8175168]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -363,7 +363,7 @@ let specialMaps = [
         year: 2023,
         url: './maps/velo/solnechnoe_velo_2021.webp',
         link: './original_maps/velo/solnechnoe_velo_2021_omaps.pdf',
-        bounds: [[60.16290631773987, 29.927186965942386], [60.156884526390876, 29.978599548339847], [60.14483763345936, 29.916973114013675]],
+        bounds: [[60.1629063, 29.927187], [60.1568845, 29.9785995], [60.1448376, 29.9169731]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -373,7 +373,7 @@ let specialMaps = [
         year: 2008,
         url: './maps/velo/solnechnoe_velo_2019.webp',
         link: './original_maps/velo/solnechnoe_velo_2019_omaps.jpg',
-        bounds: [[60.158763785381176, 29.92856025695801], [60.15547501163754, 29.97469425201416], [60.14475217873823, 29.924483299255375]],
+        bounds: [[60.1587638, 29.9285603], [60.155475, 29.9746943], [60.1447522, 29.9244833]],
         author: 'SHRNN',
         owner: 'SHRNN',
         type: ['VELO']
@@ -383,7 +383,7 @@ let specialMaps = [
         year: 2007,
         url: './maps/velo/pastorskoe_velo_2007.webp',
         link: './original_maps/velo/pastorskoe_velo_2007_omaps.jpg',
-        bounds: [[60.2504178124367, 30.02022743225098], [60.24326190049794, 30.09060859680176], [60.22510954246718, 30.00924110412598]],
+        bounds: [[60.2504178, 30.0202274], [60.2432619, 30.0906086], [60.2251095, 30.0092411]],
         type: ['VELO']
     },
     {
@@ -392,7 +392,7 @@ let specialMaps = [
         area: 4,
         url: './maps/velo/tarkhovka_velo_2023.webp',
         link: './original_maps/velo/tarkhovka_velo_2023_omaps.pdf',
-        bounds: [[60.08303869796451, 29.937143325805668], [60.07717353916566, 29.995079040527347], [60.04354648691466, 29.918432235717777]],
+        bounds: [[60.0830387, 29.9371433], [60.0771735, 29.995079], [60.0435465, 29.9184322]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -402,7 +402,7 @@ let specialMaps = [
         year: 2023,
         url: './maps/velo/udelny_velo_2023.webp',
         link: './original_maps/velo/udelny_velo_2023_omaps.pdf',
-        bounds: [[60.016727400055146, 30.2973747253418], [60.01428237207713, 30.32509803771973], [60.00308440770832, 30.2927827835083]],
+        bounds: [[60.0167274, 30.2973747], [60.0142824, 30.325098], [60.0030844, 30.2927828]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -412,7 +412,7 @@ let specialMaps = [
         year: 2025,
         url: './maps/velo/9_janvarya_velo_2025.webp',
         link: './original_maps/velo/9_janvarya_velo_2025_omaps.jpg',
-        bounds: [[59.89576110271853, 30.274329185485843], [59.89502923606423, 30.281978845596317], [59.89044393980611, 30.272719860076904]],
+        bounds: [[59.8957611, 30.2743292], [59.8950292, 30.2819788], [59.8904439, 30.2727199]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -422,7 +422,7 @@ let specialMaps = [
         year: 2025,
         url: './maps/velo/ekateringof_velo_2025.webp',
         link: './original_maps/velo/ekateringof_velo_2025_omaps.gif',
-        bounds: [[59.90728587583638, 30.25321483612061], [59.90558592735157, 30.27020931243897], [59.90035642629262, 30.25068283081055]],
+        bounds: [[59.9072859, 30.2532148], [59.9055859, 30.2702093], [59.9003564, 30.2506828]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -432,7 +432,7 @@ let specialMaps = [
         year: 2022,
         url: './maps/velo/aleksandrino_velo_2022.webp',
         link: './original_maps/velo/aleksandrino_velo_2022_omaps.gif',
-        bounds: [[59.847250853534426, 30.21476268768311], [59.84578496709652, 30.232336521148685], [59.83585619883127, 30.211350917816166]],
+        bounds: [[59.8472509, 30.2147627], [59.845785, 30.2323365], [59.8358562, 30.2113509]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -442,7 +442,7 @@ let specialMaps = [
         year: 2025,
         url: './maps/velo/sestroretsk_detskie_djuny_velo_2025.webp',
         link: './original_maps/velo/sestroretsk_detskie_djuny_velo_2025_omaps.gif',
-        bounds: [[60.12348841843245, 29.95630502700806], [60.1213826653873, 29.974629878997806], [60.11661482826964, 29.953000545501713]],
+        bounds: [[60.1234884, 29.956305], [60.1213827, 29.9746299], [60.1166148, 29.9530005]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -452,7 +452,7 @@ let specialMaps = [
         year: 2025,
         url: './maps/velo/sestroretsk_djuny_velo_2025.webp',
         link: './original_maps/velo/sestroretsk_djuny_velo_2025_omaps.gif',
-        bounds: [[60.12987967622557, 29.938688278198246], [60.12743233451537, 29.958922863006595], [60.12290587586561, 29.935201406478885]],
+        bounds: [[60.1298797, 29.9386883], [60.1274323, 29.9589229], [60.1229059, 29.9352014]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -462,7 +462,7 @@ let specialMaps = [
         year: 2025,
         url: './maps/velo/sestroretsk_rzhava_kanava_velo_2025.webp',
         link: './original_maps/velo/sestroretsk_rzhava_kanava_velo_2025_omaps.gif',
-        bounds: [[60.12842625506228, 29.952421188354496], [60.12647044734001, 29.967420101165775], [60.12307155415851, 29.94956731796265]],
+        bounds: [[60.1284263, 29.9524212], [60.1264704, 29.9674201], [60.1230716, 29.9495673]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -472,7 +472,7 @@ let specialMaps = [
         year: 2024,
         url: './maps/velo/sestroretsk_kaur_velo_2024.webp',
         link: './original_maps/velo/sestroretsk_kaur_velo_2024_omaps.gif',
-        bounds: [[60.12027094447475, 29.969211816787723], [60.119891454221886, 29.975091218948368], [60.112899498985506, 29.965628385543827]],
+        bounds: [[60.1202709, 29.9692118], [60.1198915, 29.9750912], [60.1128995, 29.9656284]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -482,7 +482,7 @@ let specialMaps = [
         year: 2024,
         url: './maps/velo/sestroretsk_dubki_velo_2024.webp',
         link: './original_maps/velo/sestroretsk_dubki_velo_2024_omaps.gif',
-        bounds: [[60.09575009522165, 29.922487735748295], [60.092952510609145, 29.9458122253418], [60.08796120105735, 29.91858243942261]],
+        bounds: [[60.0957501, 29.9224877], [60.0929525, 29.9458122], [60.0879612, 29.9185824]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -492,7 +492,7 @@ let specialMaps = [
         year: 2019,
         url: './maps/velo/pesochnaya_velo_2019.webp',
         link: './original_maps/velo/pesochnaya_velo_2019_omaps.gif',
-        bounds: [[60.12374494766924, 30.11112213134766], [60.11985403945298, 30.16253471374512], [60.106873894040845, 30.106444358825687]],
+        bounds: [[60.1237449, 30.1111221], [60.119854, 30.1625347], [60.1068739, 30.1064444]],
         author: ['VSLVSKY','DRBSHV','SHKLV','MTRNCHV'],
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -502,7 +502,7 @@ let specialMaps = [
         year: 2025,
         url: './maps/velo/zelenogorsk_chernye_velo_2025.webp',
         link: './original_maps/velo/zelenogorsk_chernye_velo_2025_omaps.gif',
-        bounds: [[60.23736135674902, 29.759602546691898], [60.22817825282511, 29.836893081665043], [60.21087037813742, 29.747157096862797]],
+        bounds: [[60.2373614, 29.7596025], [60.2281783, 29.8368931], [60.2108704, 29.7471571]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -512,7 +512,7 @@ let specialMaps = [
         year: 2009, //Реально более ранняя
         url: './maps/velo/pukhtolova_gora_velo.webp',
         link: './original_maps/velo/pukhtolova_gora_velo_omaps.jpg',
-        bounds: [[60.25603921789568, 29.63441848754883], [60.251354780368175, 29.691495895385746], [60.228732294909875, 29.625320434570316]],
+        bounds: [[60.2560392, 29.6344185], [60.2513548, 29.6914959], [60.2287323, 29.6253204]],
         author: ['BLZRV_V','URVNTSV','NKFRV_A'],
         type: ['VELO']
     },
@@ -521,7 +521,7 @@ let specialMaps = [
         year: 2024,
         url: './maps/velo/pukhtolova_gora_velo_2024.webp',
         link: './original_maps/velo/pukhtolova_gora_velo_2024_omaps.gif',
-        bounds: [[60.257082478633, 29.637336730957035], [60.250140975871716, 29.691238403320316], [60.228774913143845, 29.6237325668335]],
+        bounds: [[60.2570825, 29.6373367], [60.250141, 29.6912384], [60.2287749, 29.6237326]],
         author: 'MTRNCHV',
         owner: 'MTRNCHV',
         type: ['VELO']
@@ -531,7 +531,7 @@ let specialMaps = [
         year: 2025,
         url: './maps/velo/pukhtolova_gora_velo_2025.webp',
         link: './original_maps/velo/pukhtolova_gora_velo_2025_omaps.gif',
-        bounds: [[60.24453985658783, 29.631371498107914], [60.238852569238844, 29.678492546081547], [60.22871098577209, 29.62467670440674]],
+        bounds: [[60.2445399, 29.6313715], [60.2388526, 29.6784925], [60.228711, 29.6246767]],
         author: 'KUZNTSV_R',
         owner: 'SFSO_SPB',
         type: ['VELO']
@@ -540,7 +540,7 @@ let specialMaps = [
         name: 'Зеленогорск, Красавица',
         url: './maps/velo/zelik_krasavitsa_velo.webp',
         link: './original_maps/velo/zelik_krasavitsa_velo_omaps.jpg',
-        bounds: [[60.25629471339503, 29.732522964477543], [60.25318604937096, 29.788656234741214], [60.234847444906805, 29.725956916809086]],
+        bounds: [[60.2562947, 29.732523], [60.253186, 29.7886562], [60.2348474, 29.7259569]],
         author: 'TKMKV_K',
         type: ['VELO']
     },
@@ -549,7 +549,7 @@ let specialMaps = [
         year: 2025,
         url: './maps/velo/roschino_velo_2025.webp',
         link: './original_maps/velo/roschino_velo_2025_omaps.gif',
-        bounds: [[60.27932369715627, 29.563522338867188], [60.27781304992234, 29.602575302124027], [60.26500165963541, 29.561719894409183]],
+        bounds: [[60.2793237, 29.5635223], [60.277813, 29.6025753], [60.2650017, 29.5617199]],
         author: 'KUZNTSV_R',
         owner: 'SFSO_SPB',
         type: ['VELO']
@@ -560,7 +560,7 @@ let specialMaps = [
         url: './maps/velo/zelik_schuchje_velo_2025.webp',
         link: './original_maps/velo/zelik_schuchje_velo_2025_omaps.gif',
         info: 'Территория ООПТ.',
-        bounds: [[60.233249519326534, 29.748659133911136], [60.22583412498815, 29.811916351318363], [60.20246892966917, 29.73411083221436]],
+        bounds: [[60.2332495, 29.7486591], [60.2258341, 29.8119164], [60.2024689, 29.7341108]],
         author: ['SHRNN','KUZNTSV_S','KUZNTSV_R'],
         owner: 'SFSO_SPB',
         type: ['VELO']
@@ -570,7 +570,7 @@ let specialMaps = [
         year: 2012,
         url: './maps/velo/zelik_schuchje_velo_2010.webp',
         link: './original_maps/velo/zelik_schuchje_velo_2010_omaps.jpg',
-        bounds: [[60.23018128377677, 29.745225906372074], [60.22566363642415, 29.79947090148926], [60.20485737756326, 29.73587036132813]],
+        bounds: [[60.2301813, 29.7452259], [60.2256636, 29.7994709], [60.2048574, 29.7358704]],
         author: ['SHRNN','IBRGMV','GLTV_Y'],
         type: ['VELO']
     },
@@ -579,7 +579,7 @@ let specialMaps = [
         year: 2015,
         url: './maps/velo/tsvelodubovo_nakhimovskaya_tb_velo.webp',
         link: './original_maps/velo/tsvelodubovo_nakhimovskaya_tb_velo_omaps.jpg',
-        bounds: [[60.38616818421505, 29.544897079467777], [60.384153486085516, 29.562406539916996], [60.37265671896538, 29.539189338684086]],
+        bounds: [[60.3861682, 29.5448971], [60.3841535, 29.5624065], [60.3726567, 29.5391893]],
         author: ['SHRNN','RYLOV_V'],
         owner: 'SHRNN',
         type: ['VELO']
@@ -589,7 +589,7 @@ let specialMaps = [
         year: 2013,
         url: './maps/velo/toksovo_vifk_2013_velo.webp',
         link: ['./original_maps/velo/toksovo_vifk_2013_velo_full_1.jpg','./original_maps/velo/toksovo_vifk_2013_velo_full_2.jpg'],
-        bounds: [[60.19519588818361, 30.55482387542725], [60.19282806942666, 30.592374801635742], [60.17317498359659, 30.550875663757328]],
+        bounds: [[60.1951959, 30.5548239], [60.1928281, 30.5923748], [60.173175, 30.5508757]],
         author: ['SHRNN','CHGRVSKY_Y'],
         owner: 'SHRNN',
         type: ['VELO']
@@ -600,7 +600,7 @@ let specialMaps = [
         url: './maps/velo/voejkovo_velo.webp',
         link: './original_maps/velo/voejkovo_velo_omaps.jpg',
         photo: './tracks/pavlovo/pic_3.jpg',
-        bounds: [[59.99666853981014, 30.66215515136719], [59.99370695029761, 30.72532653808594], [59.93777332844343, 30.651340484619144]],
+        bounds: [[59.9966685, 30.6621552], [59.993707, 30.7253265], [59.9377733, 30.6513405]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
         type: ['VELO']
@@ -611,7 +611,7 @@ let specialMaps = [
         url: './maps/velo/kanneljarvi_velo_2006.webp',
         info: 'Соревнования посвящённые памяти Бориса Панкратьева.',
         link: ['./original_maps/velo/kanneljarvi_velo_omaps.jpg','./original_maps/velo/kanneljarvi_velo_2006_omaps.gif'],
-        bounds: [[60.37832076259013, 29.283456802368168], [60.370641185033705, 29.37950134277344], [60.343260013555195, 29.272127151489258]],
+        bounds: [[60.3783208, 29.2834568], [60.3706412, 29.3795013], [60.34326, 29.2721272]],
         author: ['VSLVSKY','SHRNN','RYLOV_V'],
         owner: 'RYLOV_V',
         type: ['VELO']
@@ -622,7 +622,7 @@ let specialMaps = [
         url: './maps/velo/suoranda_2006.webp',
         link: './original_maps/velo/suoranda_2006_omaps.jpg',
         photo: 'tracks/koltushi_kamy/pic_3.jpg',
-        bounds: [[59.96626745834547, 30.609412193298343], [59.96388314254157, 30.660095214843754], [59.947231109940404, 30.606579780578617]],
+        bounds: [[59.9662675, 30.6094122], [59.9638831, 30.6600952], [59.9472311, 30.6065798]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
         type: ['VELO']
@@ -635,7 +635,7 @@ let specialMaps = [
         link: './original_maps/velo/sestroretsk_tamozhennaya_doroga_velo_2008_omaps.jpg',
         info: 'Кубок MTBO SPb Club.',
         o_site: '080427_mtbo',
-        bounds: [[60.13906894140282, 29.937357902526855], [60.13716718784788, 29.963471889495853], [60.12769952040817, 29.934654235839844]],
+        bounds: [[60.1390689, 29.9373579], [60.1371672, 29.9634719], [60.1276995, 29.9346542]],
         author: 'SHRNN',
         type: ['VELO'],
     },
@@ -644,7 +644,7 @@ let specialMaps = [
         year: 2021,
         url: './maps/velo/sestroretsk_tamozhennaya_doroga_velo_2021.webp',
         link: './original_maps/velo/sestroretsk_tamozhennaya_doroga_velo_2021_omaps.jpg',
-        bounds: [[60.13809671034381, 29.950232505798343], [60.13726334656544, 29.962935447692875], [60.12847969080049, 29.947400093078617]],
+        bounds: [[60.1380967, 29.9502325], [60.1372633, 29.9629354], [60.1284797, 29.9474001]],
         author: ['SHRNN','KUZNTSV_R'],
         type: ['VELO'],
     },
@@ -655,7 +655,7 @@ let specialMaps = [
         o_site: '06060203_MTB',
         url: './maps/velo/sosnovo_black_forest_velo_2006.webp',
         link: './original_maps/velo/sosnovo_black_forest_velo_2006_omaps.jpg',
-        bounds: [[60.54060948889669, 30.245404243469242], [60.53754896728843, 30.31840324401856], [60.49623529328182, 30.239310264587406]],
+        bounds: [[60.5406095, 30.2454042], [60.537549, 30.3184032], [60.4962353, 30.2393103]],
         type: ['VELO']
     },
     {
@@ -666,7 +666,7 @@ let specialMaps = [
         url: './maps/velo/sverdlovets_velo_2021.webp',
         o_gps: 13866,
         link: ['./original_maps/velo/sverdlovets_velo_2021_omaps.jpg','./original_maps/velo/sverdlovets_velo_2022_omaps.gif'],
-        bounds: [[60.516687500657405, 30.2754020690918], [60.51455414407001, 30.310506820678714], [60.49602394278501, 30.269608497619632]],
+        bounds: [[60.5166875, 30.2754021], [60.5145541, 30.3105068], [60.4960239, 30.2696085]],
         author: ['DBRTSV_V','SHLKHN_AN','AKSNVA','AKSNV'],
         type: ['VELO']
     },
@@ -680,7 +680,7 @@ let specialMaps = [
         },
         url: './maps/velo/orekhovo_figurnoe_velo_2020.webp',
         link: ['./original_maps/velo/orekhovo_figurnoe_velo_2022_omaps.gif','./original_maps/velo/orekhovo_figurnoe_velo_2020_omaps.gif'],
-        bounds: [[60.46371339409353, 30.278749465942386], [60.459756947760624, 30.331492424011234], [60.443629972121556, 30.272827148437504]],
+        bounds: [[60.4637134, 30.2787495], [60.4597569, 30.3314924], [60.44363, 30.2728271]],
         type: ['VELO']
     },
     {
@@ -689,7 +689,7 @@ let specialMaps = [
         o_gps: 13849,
         url: './maps/velo/zaporozhskoe_velo_2022.webp',
         link: './original_maps/velo/zaporozhskoe_velo_2022_2022_omaps.gif',
-        bounds: [[60.61342771193733, 30.546455383300785], [60.60517170796431, 30.642070770263675], [60.56149773161382, 30.52714347839356]],
+        bounds: [[60.6134277, 30.5464554], [60.6051717, 30.6420708], [60.5614977, 30.5271435]],
         type: ['VELO']
     },
     {
@@ -698,7 +698,7 @@ let specialMaps = [
         url: './maps/velo/osinovaja_roscha_velo_2020.webp',
         link: './original_maps/velo/osinovaja_roscha_velo_2020_omaps.jpg',
         o_gps: 8327,
-        bounds: [[60.12288984243818, 30.240340232849125], [60.12079474073598, 30.266561508178714], [60.11036000398086, 30.23669242858887]],
+        bounds: [[60.1228898, 30.2403402], [60.1207947, 30.2665615], [60.11036, 30.2366924]],
         owner: 'SHLKHN_AN',
         type: ['VELO']
     },
@@ -707,7 +707,7 @@ let specialMaps = [
         year: 2021,
         url: './maps/velo/shuvalovsky_park_velo_2021.webp',
         link: './original_maps/velo/shuvalovsky_park_velo_2021_omaps.jpg',
-        bounds: [[60.084964982364475, 30.295701026916507], [60.08310290925784, 30.321965217590336], [60.06895199883381, 30.291237831115726]],
+        bounds: [[60.084965, 30.295701], [60.0831029, 30.3219652], [60.068952, 30.2912378]],
         type: ['VELO','PARK']
     },
     {
@@ -717,7 +717,7 @@ let specialMaps = [
         info: 'ЧиП ЛО по вело-О, спринт.',
         url: './maps/velo/novoorlovsky_park_velo_2014.webp',
         link: './original_maps/velo/novoorlovsky_park_velo_2014_omaps.webp',
-        bounds: [[60.05674437067704, 30.26493072509766], [60.057194205535026, 30.299434661865238], [60.03480212648701, 30.266604423522953]],
+        bounds: [[60.0567444, 30.2649307], [60.0571942, 30.2994347], [60.0348021, 30.2666044]],
         type: ['VELO','PARK'],
         author: ['SHRNN','MLSHV_Y','KUZNTSV_V','BNDRNK']
     },
@@ -728,7 +728,7 @@ let specialMaps = [
         o_site: '210612v',
         url: './maps/velo/losevo_velo_2021.webp',
         link: './original_maps/velo/losevo_velo_2021_omaps.jpg',
-        bounds: [[60.688393111084736, 29.930491447448734], [60.68360256619192, 29.980359077453617], [60.67172818532179, 29.923496246337894]],
+        bounds: [[60.6883931, 29.9304914], [60.6836026, 29.9803591], [60.6717282, 29.9234962]],
         type: ['VELO']
     },
     {
@@ -738,7 +738,7 @@ let specialMaps = [
         o_site: '210619_mtbo',
         url: './maps/velo/sosnovo_ulovnoe_velo_2021.webp',
         link: './original_maps/velo/sosnovo_ulovnoe_velo_2021_omaps.jpg',
-        bounds: [[60.60630914007171, 30.22321701049805], [60.60376039388934, 30.259094238281254], [60.582056305824665, 30.215749740600586]],
+        bounds: [[60.6063091, 30.223217], [60.6037604, 30.2590942], [60.5820563, 30.2157497]],
         type: ['VELO']
     },
     {
@@ -750,7 +750,7 @@ let specialMaps = [
         info: '<a href="https://vk.com/lembolovomarathon">Лемболовский веломарафон "Горные вершины"</a>.',
         start: 'KVMLO',
         o_gps: 6347,
-        bounds: [[60.43240832461208, 30.250854492187504], [60.4456198220461, 30.31539916992188], [60.39151183234099, 30.285015106201175]],
+        bounds: [[60.4324083, 30.2508545], [60.4456198, 30.3153992], [60.3915118, 30.2850151]],
         type: ['VELO']
     },
     {
@@ -758,7 +758,7 @@ let specialMaps = [
         year: 2023,
         url: './maps/velo/lembolovo_velo_2023.webp',
         link: './original_maps/velo/lembolovo_velo_2023_omaps.gif',
-        bounds: [[60.435627004716906, 30.2808952331543], [60.43206949763859, 30.337800979614258], [60.38650748953201, 30.268020629882816]],
+        bounds: [[60.435627, 30.2808952], [60.4320695, 30.337801], [60.3865075, 30.2680206]],
         type: ['VELO'],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','KUZNTSV_R','STRGNV'],
         owner: 'SFSO_SPB'
@@ -770,7 +770,7 @@ let specialMaps = [
         link: './original_maps/velo/lembolovo_velo_relay_2025_omaps.gif',
         info: 'ЧиП СПб, эстафеты.',
         o_site: '251011_velo',
-        bounds: [[60.41546264900147, 30.323510169982914], [60.41575927424778, 30.339903831481937], [60.40323509806197, 30.319733619689945]],
+        bounds: [[60.4154626, 30.3235102], [60.4157593, 30.3399038], [60.4032351, 30.3197336]],
         type: ['VELO'],
         author: ['TKMKV_K','KUZNTSV_R'],
         owner: 'SFSO_SPB'
@@ -781,7 +781,7 @@ let specialMaps = [
         url: './maps/velo/lembolovo_russia_2007.webp',
         link: './original_maps/velo/lembolovo_russia_2007_omaps.jpg',
         info: 'MTBO Чемпионат России.',
-        bounds: [[60.445662157954466, 30.319519042968754], [60.44214808981624, 30.381145477294925], [60.40197393671737, 30.308167934417728]],
+        bounds: [[60.4456622, 30.319519], [60.4421481, 30.3811455], [60.4019739, 30.3081679]],
         type: ['VELO'],
         region: 'SPB',
         start: 'RUSSIA_CHAMP'
@@ -793,7 +793,7 @@ let specialMaps = [
         link: './original_maps/velo/silande_velo_2005_omaps.jpg',
         info: 'ЧиП СПб.',
         o_site: '05072324_mtbo',
-        bounds: [[60.40622353738314, 30.247893333435062], [60.40518503284648, 30.281238555908207], [60.37986918738144, 30.24270057678223]],
+        bounds: [[60.4062235, 30.2478933], [60.405185, 30.2812386], [60.3798692, 30.2427006]],
         type: ['VELO'],
     },
     {
@@ -802,7 +802,7 @@ let specialMaps = [
         url: './maps/velo/silande_velo_2025.webp',
         link: './original_maps/velo/silande_velo_2025_omaps.gif',
         publish: 'https://vk.com/album-230167293_313631286',
-        bounds: [[60.42196659623265, 30.254116058349613], [60.418810119787075, 30.289006233215336], [60.391660254494, 30.243301391601566]],
+        bounds: [[60.4219666, 30.2541161], [60.4188101, 30.2890062], [60.3916603, 30.2433014]],
         type: ['VELO'],
         author: ['CHGRVSKY_V','DBRTSV_V','KUZNTSV_R'],
         owner: 'SFSO_SPB'
@@ -812,7 +812,7 @@ let specialMaps = [
         year: 2023,
         url: './maps/velo/zerkalny_velo_2023.webp',
         link: './original_maps/velo/zerkalny_velo_2023_omaps.gif',
-        bounds: [[60.228071705196626, 29.10415649414063], [60.22242418522649, 29.180159568786625], [60.19683832877667, 29.09540176391602]],
+        bounds: [[60.2280717, 29.1041565], [60.2224242, 29.1801596], [60.1968383, 29.0954018]],
         type: ['VELO'],
         author: ['KVZN','NSNV','TKMKV_K','TKMKVA_P','KUZNTSV_R'],
         owner: 'SFSO_SPB'
@@ -823,7 +823,7 @@ let specialMaps = [
         url: './maps/velo/poljany_velo_2023.webp',
         link: './original_maps/velo/poljany_velo_2023_omaps.gif',
         info: 'Частично территория ООПТ.',
-        bounds: [[60.31806602292215, 29.28294181823731], [60.31100992072319, 29.37555313110352], [60.28889659959392, 29.268350601196293]],
+        bounds: [[60.318066, 29.2829418], [60.3110099, 29.3755531], [60.2888966, 29.2683506]],
         type: ['VELO'],
         author: ['SHRNN','DBRTSV_V','KUZNTSV_R'],
         owner: 'SFSO_SPB'
@@ -834,7 +834,7 @@ let specialMaps = [
         url: './maps/velo/krasna_gorka_velo_2022.webp',
         link: './original_maps/velo/krasna_gorka_velo_2022_omaps.gif',
         info: 'Частично территория ООПТ.',
-        bounds: [[59.97897017553444, 29.325706958770756], [59.975985528645346, 29.357442855834964], [59.97140067289649, 29.323282241821293]],
+        bounds: [[59.9789702, 29.325707], [59.9759855, 29.3574429], [59.9714007, 29.3232822]],
         author: ['DBRTSV_V','MKHLV_A','KUZNTSV_R'],
         owner: 'YUVENTA',
         type: ['VELO']
@@ -844,7 +844,7 @@ let specialMaps = [
         year: 2026,
         url: './maps/velo/lebyazhje_velo_2026.webp',
         link: './original_maps/velo/lebyazhje_velo_2026_omaps.gif',
-        bounds: [[59.9654404853661, 29.406688213348392], [59.965429745321494, 29.42121505737305], [59.961144189633735, 29.406666755676273]],
+        bounds: [[59.9654405, 29.4066882], [59.9654297, 29.4212151], [59.9611442, 29.4066668]],
         author: 'ALKSV_E',
         owner: 'ALKSV_E',
         type: ['VELO']
@@ -854,7 +854,7 @@ let specialMaps = [
         year: 2026,
         url: './maps/velo/vozrozhdenie_velo_2026.webp',
         link: './original_maps/velo/vozrozhdenie_velo_2026_omaps.gif',
-        bounds: [[59.97099262218684, 29.36199188232422], [59.97089597786132, 29.3905520439148], [59.96070378783904, 29.362120628356937]],
+        bounds: [[59.9709926, 29.3619919], [59.970896, 29.390552], [59.9607038, 29.3621206]],
         author: 'ALKSV_E',
         owner: 'ALKSV_E',
         type: ['VELO']
@@ -865,7 +865,7 @@ let specialMaps = [
         name: 'Токсово, Оригон-1',
         url: './maps/relief/toksovo_origon_1.webp',
         link: './original_maps/relief/toksovo_origon_1_omaps.jpg',
-        bounds: [[60.14966546452469, 30.491695404052734], [60.14599125046178, 30.532207489013675], [60.112605462220415, 30.483713150024418]],
+        bounds: [[60.1496655, 30.4916954], [60.1459913, 30.5322075], [60.1126055, 30.4837132]],
         author: 'CHGRVSKY_V',
         type: ['RELIEF']
     },
@@ -874,7 +874,7 @@ let specialMaps = [
         year: 1,
         url: './maps/relief/toksovo_origon_2.webp',
         link: './original_maps/relief/toksovo_origon_2_omaps.jpg',
-        bounds: [[60.15978879045419, 30.39273262023926], [60.15295481948042, 30.51083564758301], [60.12744302199271, 30.385093688964847]],
+        bounds: [[60.1597888, 30.3927326], [60.1529548, 30.5108356], [60.127443, 30.3850937]],
         author: ['CHGRVSKY_V','AZBKNA','CHGRVSKY_Y'],
         type: ['RELIEF']
     },
@@ -883,7 +883,7 @@ let specialMaps = [
         year: 1985,
         url: './maps/relief/toksovo_origon_3.webp',
         link: './original_maps/relief/toksovo_origon_3_omaps.jpg',
-        bounds: [[60.1929987287428, 30.610399246215824], [60.18988405654998, 30.66267013549805], [60.14872558837722, 30.599584579467777]],
+        bounds: [[60.1929987, 30.6103992], [60.1898841, 30.6626701], [60.1487256, 30.5995846]],
         author: ['CHGRVSKY_V','AZBKNA','KLCHTSKA','RDKV','CHGRVSKY_Y'],
         type: ['RELIEF']
     },
@@ -892,7 +892,7 @@ let specialMaps = [
         year: 1997,
         url: './maps/relief/toksovo_malinovaja_gora.webp',
         link: './original_maps/relief/toksovo_malinovaja_gora_1997_omaps.jpg',
-        bounds: [[60.17729435692855, 30.464100837707523], [60.17454105065943, 30.501523017883304], [60.16414470541026, 30.460324287414554]],
+        bounds: [[60.1772944, 30.4641008], [60.1745411, 30.501523], [60.1641447, 30.4603243]],
         author: ['DBRTSV_V','CHGRVSKY_Y'],
         type: ['RELIEF']
     },
@@ -900,7 +900,7 @@ let specialMaps = [
         name: 'Первомайское',
         year: 2014,
         url: './maps/relief/pervomayskoe_2014.webp',
-        bounds: [[60.42006003635948, 29.68827724456787], [60.418047435229944, 29.725184440612793], [60.40315031563834, 29.68389987945557]],
+        bounds: [[60.42006, 29.6882772], [60.4180474, 29.7251844], [60.4031503, 29.6838999]],
         author: ['SLBDNK','MKHLV_A','GVRLK'],
         owner: 'WN',
         type: ['RELIEF']
@@ -911,7 +911,7 @@ let specialMaps = [
         year: 1989,
         url: './maps/relief/lembolovo_north_east_relief_1989.webp',
         link: './original_maps/relief/lembolovo_north_east_relief_1989_omaps.jpg',
-        bounds: [[60.44701687789359, 30.30509948730469], [60.44210574932872, 30.380029678344727], [60.420081220972136, 30.297975540161136]],
+        bounds: [[60.4470169, 30.3050995], [60.4421057, 30.3800297], [60.4200812, 30.2979755]],
         author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
         areas: [62,20,10,5,1,1,1],
         type: ['RELIEF']
@@ -922,7 +922,7 @@ let specialMaps = [
         year: 1988,
         url: './maps/relief/yukki_relief_1988.webp',
         link: './original_maps/relief/yukki_relief_1988_omaps.jpg',
-        bounds: [[60.133854882662625, 30.267848968505863], [60.12970868883226, 30.34629821777344], [60.11033861792823, 30.262269973754886]],
+        bounds: [[60.1338549, 30.267849], [60.1297087, 30.3462982], [60.1103386, 30.26227]],
         author: ['SHLKHN_Y','BZNV_A'],
         type: ['RELIEF']
     },
@@ -934,7 +934,7 @@ let specialMaps = [
         info: 'Азимутный полигон.',
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_azimut_1981.webp',
         link: './original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_azimut_1981_omaps.jpg',
-        bounds: [[60.60481361919038, 30.215578079223636], [60.60237008387057, 30.25969505310059], [60.58469107484903, 30.21072864532471]],
+        bounds: [[60.6048136, 30.2155781], [60.6023701, 30.2596951], [60.5846911, 30.2107286]],
         author: ['ARTMV','YKVLVA']
     },
 ];

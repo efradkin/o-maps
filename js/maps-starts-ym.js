@@ -6,7 +6,7 @@ let ymStartsMaps = [
         year: 1999,
         url: './maps/starts/ym/ym_1999_lembolovo.webp',
         link: './original_maps/starts/ym/ym_1999_lembolovo_omaps.jpg',
-        bounds: [[60.4257158379246, 30.27917861938477], [60.42279273746613, 30.330419540405277], [60.40747393764326, 30.27570247650147]],
+        bounds: [[60.4257158, 30.2791786], [60.4227927, 30.3304195], [60.4074739, 30.2757025]],
         author: 'CHGRVSKY_Y'
     },
     {
@@ -15,7 +15,7 @@ let ymStartsMaps = [
         start: 'YM',
         url: './maps/starts/ym/ym_2000_06_20.webp',
         link: './original_maps/starts/ym/ym_2000_06_20_omaps.jpg',
-        bounds: [[60.517236658823826, 30.276603698730472], [60.514110557236485, 30.330290794372562], [60.49817965320884, 30.26965141296387]],
+        bounds: [[60.5172367, 30.2766037], [60.5141106, 30.3302908], [60.4981797, 30.2696514]],
         author: 'SHRNN'
     },
     {
@@ -25,7 +25,7 @@ let ymStartsMaps = [
         url: './maps/starts/ym/ym_2001_06_18.webp',
         link: './original_maps/starts/ym/ym_2001_06_18_omaps.jpg',
         results: './docs/2001/2001_06_18_ym_omaps.pdf',
-        bounds: [[60.635300118645006, 30.032072067260746], [60.63237483317721, 30.087003707885746], [60.61715485836452, 30.025377273559574]],
+        bounds: [[60.6353001, 30.0320721], [60.6323748, 30.0870037], [60.6171549, 30.0253773]],
         author: ['LVCHV','SVTKN','ILVS','BNDRNK']
     },
     {
@@ -35,7 +35,7 @@ let ymStartsMaps = [
         url: './maps/starts/ym/ym_2001_06_19.webp',
         link: './original_maps/starts/ym/ym_2001_06_19_omaps.jpg',
         results: './docs/2001/2001_06_18_ym_omaps.pdf',
-        bounds: [[60.63241692549768, 30.017566680908207], [60.6297018582902, 30.073056221008304], [60.6157230112337, 30.012631416320804]],
+        bounds: [[60.6324169, 30.0175667], [60.6297019, 30.0730562], [60.615723, 30.0126314]],
         author: ['LVCHV','SVTKN','ILVS','BNDRNK']
     },
     {
@@ -44,7 +44,7 @@ let ymStartsMaps = [
         start: 'YM',
         url: './maps/starts/ym/ym_2002_06_18.webp',
         link: './original_maps/starts/ym/ym_2002_06_18_omaps.jpg',
-        bounds: [[60.49357217633367, 30.294585227966312], [60.49608734807871, 30.345396995544437], [60.475918213902474, 30.297546386718754]],
+        bounds: [[60.4935722, 30.2945852], [60.4960873, 30.345397], [60.4759182, 30.2975464]],
         author: 'SHRNN'
     },
     {
@@ -54,7 +54,7 @@ let ymStartsMaps = [
         o_site: '040614_YM',
         url: './maps/forest/sosnovo/snegirevka_2004.webp',
         link: './original_maps/forest/sosnovo/snegirevka_2004_omaps.jpg',
-        bounds: [[60.54189693219184, 30.323939323425297], [60.54060948889669, 30.361232757568363], [60.51459639011832, 30.32200813293457]],
+        bounds: [[60.5418969, 30.3239393], [60.5406095, 30.3612328], [60.5145964, 30.3220081]],
         author: 'RYLOV_V',
         owner: ['ILVS','RYLOV_V']
     },
@@ -63,7 +63,7 @@ let ymStartsMaps = [
         date: '2004-06-14',
         url: './maps/starts/ym/ym_2004_06_14.webp',
         link: './original_maps/starts/ym/ym_2004_06_14_omaps.jpg',
-        bounds: [[60.54020847150757, 30.24840831756592], [60.53843549297673, 30.287332534790043], [60.51324448924725, 30.24471759796143]],
+        bounds: [[60.5402085, 30.2484083], [60.5384355, 30.2873325], [60.5132445, 30.2447176]],
         author: 'SHRNN',
         start: 'YM'
     },
@@ -75,7 +75,7 @@ let ymStartsMaps = [
         o_site: '10061520',
         url: './maps/starts/ym/ym_2010_michurinskoe_klassika.webp',
         link: './original_maps/starts/ym/ym_2010_michurinskoe_klassika_omaps.gif',
-        bounds: [[60.606203823967824, 29.902982711791992], [60.60413955895663, 29.93306636810303], [60.58125529344965, 29.895558357238773]],
+        bounds: [[60.6062038, 29.9029827], [60.6041396, 29.9330664], [60.5812553, 29.8955584]],
         author: ['MKHLV_A','SLBDNK']
     },
     {
@@ -86,7 +86,7 @@ let ymStartsMaps = [
         o_site: '10061520',
         url: './maps/starts/ym/ym_2010_michurinskoe_long.webp',
         link: './original_maps/starts/ym/ym_2010_michurinskoe_long_omaps.gif',
-        bounds: [[60.62380790245299, 29.908003807067875], [60.621323698416056, 29.94461059570313], [60.603739329032784, 29.902038574218754]],
+        bounds: [[60.6238079, 29.9080038], [60.6213237, 29.9446106], [60.6037393, 29.9020386]],
         author: ['VRBY','MLNKV_L']
     },
     {
@@ -97,7 +97,7 @@ let ymStartsMaps = [
         o_site: '10061520',
         url: './maps/starts/ym/ym_2010_michurinskoe_sprint.webp',
         link: './original_maps/starts/ym/ym_2010_michurinskoe_sprint_omaps.gif',
-        bounds: [[60.61330136044559, 29.889078140258793], [60.61109012924818, 29.905686378479004], [60.60207516192602, 29.885945320129398]],
+        bounds: [[60.6133014, 29.8890781], [60.6110901, 29.9056864], [60.6020752, 29.8859453]],
         author: ['KUZNTSV_S','TKMKV_K','NSNV','KVZN']
     },
     {
@@ -108,7 +108,7 @@ let ymStartsMaps = [
         o_site: '11061419',
         url: './maps/starts/ym/ym_2011_yagodnoe_long.webp',
         link: './original_maps/starts/ym/ym_2011_yagodnoe_long_omaps.gif',
-        bounds: [[60.63490027514116, 29.974179267883304], [60.63062795341631, 30.026063919067386], [60.62024995779273, 29.969480037689213]],
+        bounds: [[60.6349003, 29.9741793], [60.630628, 30.0260639], [60.62025, 29.96948]],
         author: ['MKHLV_A','SLBDNK','MLNKV_L','GVRLK']
     },
     {
@@ -119,7 +119,7 @@ let ymStartsMaps = [
         o_site: '11061419',
         url: './maps/starts/ym/ym_2011_yagodnoe_klassika2.webp',
         link: './original_maps/starts/ym/ym_2011_yagodnoe_klassika2_omaps.gif',
-        bounds: [[60.633574442776165, 29.925255775451664], [60.62957557053036, 29.978427886962894], [60.61479648805128, 29.919505119323734]],
+        bounds: [[60.6335744, 29.9252558], [60.6295756, 29.9784279], [60.6147965, 29.9195051]],
         author: ['MKHLV_A','SLBDNK','MLNKV_L','GVRLK']
     },
     {
@@ -130,7 +130,7 @@ let ymStartsMaps = [
         o_site: '11061419',
         url: './maps/starts/ym/ym_2011_yagodnoe_sprint.webp',
         link: './original_maps/starts/ym/ym_2011_yagodnoe_sprint_omaps.gif',
-        bounds: [[60.632080185395296, 29.968943595886234], [60.63058585876034, 29.988684654235843], [60.61841820012045, 29.964609146118168]],
+        bounds: [[60.6320802, 29.9689436], [60.6305859, 29.9886847], [60.6184182, 29.9646091]],
         author: ['MKHLV_A','SLBDNK','MLNKV_L','GVRLK']
     },
     {
@@ -141,7 +141,7 @@ let ymStartsMaps = [
         o_site: '12061924',
         url: './maps/starts/ym/ym_2012_pervomayskoe_long.webp',
         link: './original_maps/starts/ym/ym_2012_pervomayskoe_long_omaps.gif',
-        bounds: [[60.439586391014615, 29.60296154022217], [60.43651632064922, 29.654288291931156], [60.425143947641956, 29.599184989929203]],
+        bounds: [[60.4395864, 29.6029615], [60.4365163, 29.6542883], [60.4251439, 29.599185]],
         author: ['SLBDNK','MKHLV_A','GVRLK']
     },
     {
@@ -152,7 +152,7 @@ let ymStartsMaps = [
         o_site: '12061924',
         url: './maps/starts/ym/ym_2012_pervomayskoe_klassika.webp',
         link: './original_maps/starts/ym/ym_2012_pervomayskoe_klassika_omaps.gif',
-        bounds: [[60.4138735391211, 29.658365249633793], [60.412051264245065, 29.68531608581543], [60.400945895097095, 29.655060768127445]],
+        bounds: [[60.4138735, 29.6583652], [60.4120513, 29.6853161], [60.4009459, 29.6550608]],
         author: ['SLBDNK','MKHLV_A','GVRLK']
     },
     {
@@ -163,7 +163,7 @@ let ymStartsMaps = [
         o_site: '12061924',
         url: './maps/starts/ym/ym_2012_pervomayskoe_klassika2.webp',
         link: './original_maps/starts/ym/ym_2012_pervomayskoe_klassika2_omaps.gif',
-        bounds: [[60.43179419812207, 29.666047096252445], [60.4298246797326, 29.69913482666016], [60.41328025153109, 29.661369323730472]],
+        bounds: [[60.4317942, 29.6660471], [60.4298247, 29.6991348], [60.4132803, 29.6613693]],
         author: ['SLBDNK','MKHLV_A','GVRLK']
     },
     {
@@ -174,7 +174,7 @@ let ymStartsMaps = [
         o_site: '13061823',
         url: './maps/starts/ym/ym_2013_borisovo_long.webp',
         link: './original_maps/starts/ym/ym_2013_borisovo_long_omaps.gif',
-        bounds: [[60.60778352944374, 29.92813110351563], [60.60392891224688, 29.984478950500492], [60.592615164854365, 29.924182891845703]],
+        bounds: [[60.6077835, 29.9281311], [60.6039289, 29.984479], [60.5926152, 29.9241829]],
         author: ['SLBDNK','MKHLV_A','VRBY']
     },
     {
@@ -185,7 +185,7 @@ let ymStartsMaps = [
         o_site: '13061823',
         url: './maps/starts/ym/ym_2013_yagodnoe_klassika.webp',
         link: './original_maps/starts/ym/ym_2013_yagodnoe_klassika_omaps.gif',
-        bounds: [[60.625028881762354, 29.937636852264408], [60.62240792963979, 29.972591400146488], [60.61512287993515, 29.934396743774418]],
+        bounds: [[60.6250289, 29.9376369], [60.6224079, 29.9725914], [60.6151229, 29.9343967]],
         author: ['SLBDNK','MKHLV_A','VRBY','KVZN','NSNV']
     },
     {
@@ -196,7 +196,7 @@ let ymStartsMaps = [
         o_site: '13061823',
         url: './maps/starts/ym/ym_2013_yagodnoe_klassika2.webp',
         link: './original_maps/starts/ym/ym_2013_yagodnoe_klassika2_omaps.gif',
-        bounds: [[60.623723695279566, 29.85594749450684], [60.619555165402424, 29.906930923461918], [60.6091314836443, 29.85221385955811]],
+        bounds: [[60.6237237, 29.8559475], [60.6195552, 29.9069309], [60.6091315, 29.8522139]],
         author: ['SLBDNK','MKHLV_A','VRBY','KVZN','NSNV']
     },
     {
@@ -207,7 +207,7 @@ let ymStartsMaps = [
         o_site: '14061722',
         url: './maps/starts/ym/ym_2014_pervomayskoe_long.webp',
         link: './original_maps/starts/ym/ym_2014_pervomayskoe_long_omaps.gif',
-        bounds: [[60.43863364159355, 29.678020477294925], [60.43596579460811, 29.72484111785889], [60.4198905589614, 29.673342704772953]],
+        bounds: [[60.4386336, 29.6780205], [60.4359658, 29.7248411], [60.4198906, 29.6733427]],
         author: ['SLBDNK','MKHLV_A','GVRLK']
     },
     {
@@ -218,7 +218,7 @@ let ymStartsMaps = [
         o_site: '14061722',
         url: './maps/starts/ym/ym_2014_pervomayskoe_klassika.webp',
         link: './original_maps/starts/ym/ym_2014_pervomayskoe_klassika_omaps.gif',
-        bounds: [[60.43488588951785, 29.666047096252445], [60.43259891323264, 29.703254699707035], [60.421331088694224, 29.662570953369144]],
+        bounds: [[60.4348859, 29.6660471], [60.4325989, 29.7032547], [60.4213311, 29.662571]],
         author: ['SLBDNK','MKHLV_A']
     },
     {
@@ -229,7 +229,7 @@ let ymStartsMaps = [
         o_site: '14061722',
         url: './maps/starts/ym/ym_2014_pervomayskoe_klassika2.webp',
         link: './original_maps/starts/ym/ym_2014_pervomayskoe_klassika2_omaps.gif',
-        bounds: [[60.42080148959196, 29.680294990539554], [60.41870419244587, 29.72033500671387], [60.40325629363337, 29.676775932312015]]
+        bounds: [[60.4208015, 29.680295], [60.4187042, 29.720335], [60.4032563, 29.6767759]]
     },
     {
         name: 'Ягодное, г Журавлёвка',
@@ -238,7 +238,7 @@ let ymStartsMaps = [
         o_site: '15061621',
         url: './maps/starts/ym/ym_2015_yagodnoe_long.webp',
         link: './original_maps/starts/ym/ym_2015_yagodnoe_long_omaps.gif',
-        bounds: [[60.62265003454702, 29.85122680664063], [60.61858664195, 29.90259647369385], [60.60458191257273, 29.846634864807132]],
+        bounds: [[60.62265, 29.8512268], [60.6185866, 29.9025965], [60.6045819, 29.8466349]],
         author: ['MKHLV_A','SLBDNK','TKMKV_K','VRBY','KVZN','NSNV']
     },
     {
@@ -249,7 +249,7 @@ let ymStartsMaps = [
         o_site: '15061621',
         url: './maps/starts/ym/ym_2015_yagodnoe_klassika.webp',
         link: './original_maps/starts/ym/ym_2015_yagodnoe_klassika_omaps.gif',
-        bounds: [[60.615417682669694, 29.8933482170105], [60.61320659650209, 29.918432235717777], [60.60630914007171, 29.891073703765873]],
+        bounds: [[60.6154177, 29.8933482], [60.6132066, 29.9184322], [60.6063091, 29.8910737]],
         author: ['MKHLV_A','SLBDNK','TKMKV_K','VRBY','KVZN','NSNV']
     },
     {
@@ -259,7 +259,7 @@ let ymStartsMaps = [
         o_site: '15061621',
         url: './maps/starts/ym/ym_2015_yagodnoe_klassika2.webp',
         link: './original_maps/starts/ym/ym_2015_yagodnoe_klassika2_omaps.gif',
-        bounds: [[60.60270713422227, 29.93012666702271], [60.60027397300415, 29.966197013854984], [60.57697586459943, 29.922766685485843]],
+        bounds: [[60.6027071, 29.9301267], [60.600274, 29.966197], [60.5769759, 29.9227667]],
         author: ['MKHLV_A','SLBDNK']
     },
     {
@@ -270,7 +270,7 @@ let ymStartsMaps = [
         o_site: '16061016',
         url: './maps/starts/ym/ym_2016_pervomayskoe_klassika2.webp',
         link: './original_maps/starts/ym/ym_2016_pervomayskoe_klassika2_omaps.gif',
-        bounds: [[60.42080148959196, 29.637079238891605], [60.417094054382794, 29.694285392761234], [60.40323509806197, 29.632830619812015]],
+        bounds: [[60.4208015, 29.6370792], [60.4170941, 29.6942854], [60.4032351, 29.6328306]],
         author: ['SLBDNK','MKHLV_A','GVRLK']
     },
     {
@@ -281,7 +281,7 @@ let ymStartsMaps = [
         o_site: '16061016',
         url: './maps/starts/ym/ym_2016_pervomayskoe_klassika.webp',
         link: './original_maps/starts/ym/ym_2016_pervomayskoe_klassika_omaps.gif',
-        bounds: [[60.42597000815481, 29.664072990417484], [60.44291020915741, 29.700722694396976], [60.411203659754904, 29.692225456237797]],
+        bounds: [[60.42597, 29.664073], [60.4429102, 29.7007227], [60.4112037, 29.6922255]],
         author: ['SLBDNK','MKHLV_A','GVRLK']
     },
     {
@@ -292,7 +292,7 @@ let ymStartsMaps = [
         o_site: '16061016',
         url: './maps/starts/ym/ym_2016_pervomayskoe_sprint.webp',
         link: './original_maps/starts/ym/ym_2016_pervomayskoe_sprint_omaps.gif',
-        bounds: [[60.41029246029819, 29.630320072174076], [60.41937152893583, 29.651520252227787], [60.40395573974536, 29.641520977020264]]
+        bounds: [[60.4102925, 29.6303201], [60.4193715, 29.6515203], [60.4039557, 29.641521]]
     },
     {
         name: 'Первомайское',
@@ -301,7 +301,7 @@ let ymStartsMaps = [
         o_site: '16061016',
         url: './maps/starts/wn/wn_2016_06_12.webp',
         link: './original_maps/starts/wn/wn_2016_06_12_omaps.webp',
-        bounds: [[60.43744795885954, 29.609355926513675], [60.43552113215167, 29.64497566223145], [60.41222078249312, 29.602575302124027]],
+        bounds: [[60.437448, 29.6093559], [60.4355211, 29.6449757], [60.4122208, 29.6025753]],
     },
     {
         name: 'Первомайское',
@@ -311,7 +311,7 @@ let ymStartsMaps = [
         o_site: '16061016',
         url: './maps/starts/ym/ym_2016_pervomayskoe_city_sprint.webp',
         link: './original_maps/starts/ym/ym_2016_pervomayskoe_city_sprint_omaps.gif',
-        bounds: [[60.36195174600833, 29.72730875015259], [60.360328187388596, 29.74162101745606], [60.35742043589783, 29.725034236907963]],
+        bounds: [[60.3619517, 29.7273088], [60.3603282, 29.741621], [60.3574204, 29.7250342]],
         author: ['TKMKV_K','TKMKVA_P']
     },
     {
@@ -322,7 +322,7 @@ let ymStartsMaps = [
         o_site: '17061218',
         url: './maps/starts/ym/ym_2017_yagodnoe_klassika2.webp',
         link: './original_maps/starts/ym/ym_2017_yagodnoe_klassika2_omaps.gif',
-        bounds: [[60.63151192849751, 29.955124855041507], [60.62854420197844, 29.99477863311768], [60.61940778327455, 29.951648712158207]],
+        bounds: [[60.6315119, 29.9551249], [60.6285442, 29.9947786], [60.6194078, 29.9516487]],
         author: ['MKHLV_A','SLBDNK','TKMKV_K','VRBY','KVZN','NSNV']
     },
     {
@@ -333,7 +333,7 @@ let ymStartsMaps = [
         o_site: '17061218',
         url: './maps/starts/ym/ym_2017_yagodnoe_klassika.webp',
         link: './original_maps/starts/ym/ym_2017_yagodnoe_klassika_omaps.gif',
-        bounds: [[60.63180658147248, 30.011386871337894], [60.628375812143574, 30.051212310791016], [60.61930250991384, 30.00746011734009]],
+        bounds: [[60.6318066, 30.0113869], [60.6283758, 30.0512123], [60.6193025, 30.0074601]],
         author: ['MKHLV_A','SLBDNK']
     },
     {
@@ -344,7 +344,7 @@ let ymStartsMaps = [
         o_site: '17061218',
         url: './maps/starts/ym/ym_2017_yagodnoe_vybor.webp',
         link: './original_maps/starts/ym/ym_2017_yagodnoe_vybor_omaps.gif',
-        bounds: [[60.632690524241205, 29.97701168060303], [60.62942823418543, 30.015120506286625], [60.61928145520045, 29.972848892211918]],
+        bounds: [[60.6326905, 29.9770117], [60.6294282, 30.0151205], [60.6192815, 29.9728489]],
         author: ['MKHLV_A','SLBDNK','TKMKV_K','VRBY','KVZN','NSNV']
     },
     {
@@ -355,7 +355,7 @@ let ymStartsMaps = [
         o_site: '17061218',
         url: './maps/starts/ym/ym_2017_michurinskoe_city_sprint.webp',
         link: './original_maps/starts/ym/ym_2017_michurinskoe_city_sprint_omaps.gif',
-        bounds: [[60.568731623576646, 29.86839294433594], [60.567540146306015, 29.879808425903324], [60.56276325225988, 29.865775108337406]],
+        bounds: [[60.5687316, 29.8683929], [60.5675401, 29.8798084], [60.5627633, 29.8657751]],
         author: ['TKMKV_K','TKMKVA_P','IVNVA_G']
     },
     {
@@ -366,7 +366,7 @@ let ymStartsMaps = [
         o_site: '17061218',
         url: './maps/starts/ym/ym_2017_yagodnoe_sprint_final.webp',
         link: './original_maps/starts/ym/ym_2017_yagodnoe_sprint_final_omaps.gif',
-        bounds: [[60.63501601982333, 29.970896244049076], [60.634016392956106, 29.9838137626648], [60.6259024851411, 29.968149662017826]]
+        bounds: [[60.635016, 29.9708962], [60.6340164, 29.9838138], [60.6259025, 29.9681497]]
     },
     {
         name: 'Ягодное',
@@ -376,7 +376,7 @@ let ymStartsMaps = [
         o_site: '17061218',
         url: './maps/starts/ym/ym_2017_yagodnoe_sprint_prolog.webp',
         link: './original_maps/starts/ym/ym_2017_yagodnoe_sprint_prolog_omaps.gif',
-        bounds: [[60.63467930686673, 29.982547760009766], [60.632448494701954, 30.008811950683594], [60.62953347450052, 29.981453418731693]],
+        bounds: [[60.6346793, 29.9825478], [60.6324485, 30.008812], [60.6295335, 29.9814534]],
         author: ['MKHLV_A','SLBDNK']
     },
     {
@@ -387,7 +387,7 @@ let ymStartsMaps = [
         o_site: '17061218',
         url: './maps/starts/ym/ym_2017_yagodnoe_sprint.webp',
         link: './original_maps/starts/ym/ym_2017_yagodnoe_sprint.gif',
-        bounds: [[60.63502654204656, 29.97008085250855], [60.633542874674326, 29.98924255371094], [60.62142896518083, 29.965682029724125]]
+        bounds: [[60.6350265, 29.9700809], [60.6335429, 29.9892426], [60.621429, 29.965682]]
     },
     {
         name: 'Лемболово',
@@ -397,7 +397,7 @@ let ymStartsMaps = [
         o_site: '18061216',
         url: './maps/starts/ym/ym_2018_lembolovo_klassika.webp',
         link: './original_maps/starts/ym/ym_2018_lembolovo_klassika_omaps.gif',
-        bounds: [[60.449683817687834, 30.31814575195313], [60.44737671588173, 30.346126556396488], [60.42976114489465, 30.311536788940433]]
+        bounds: [[60.4496838, 30.3181458], [60.4473767, 30.3461266], [60.4297611, 30.3115368]]
     },
     {
         name: 'Орехово',
@@ -407,7 +407,7 @@ let ymStartsMaps = [
         o_site: '18061216',
         url: './maps/starts/ym/ym_2018_orehovo_vybor.webp',
         link: './original_maps/starts/ym/ym_2018_orehovo_vybor_omaps.gif',
-        bounds: [[60.460222437059706, 30.28087377548218], [60.45753520235453, 30.31707286834717], [60.44921817731055, 30.276904106140137]]
+        bounds: [[60.4602224, 30.2808738], [60.4575352, 30.3170729], [60.4492182, 30.2769041]]
     },
     {
         name: 'Орехово',
@@ -417,7 +417,7 @@ let ymStartsMaps = [
         o_site: '18061216',
         url: './maps/starts/ym/ym_2018_orehovo_sprint_prolog.webp',
         link: './original_maps/starts/ym/ym_2018_orehovo_sprint_prolog_omaps.gif',
-        bounds: [[60.45148282006802, 30.30812501907349], [60.44949332924935, 30.32857418060303], [60.44424387499132, 30.30638694763184]]
+        bounds: [[60.4514828, 30.308125], [60.4494933, 30.3285742], [60.4442439, 30.3063869]]
     },
     {
         name: 'Орехово',
@@ -427,7 +427,7 @@ let ymStartsMaps = [
         o_site: '18061216',
         url: './maps/starts/ym/ym_2018_orehovo_sprint_final.webp',
         link: './original_maps/starts/ym/ym_2018_orehovo_sprint_final_omaps.gif',
-        bounds: [[60.450414013020314, 30.295529365539554], [60.44892185723143, 30.314733982086185], [60.44111073198865, 30.29239654541016]]
+        bounds: [[60.450414, 30.2955294], [60.4489219, 30.314734], [60.4411107, 30.2923965]]
     },
     {
         name: 'Орехово',
@@ -437,7 +437,7 @@ let ymStartsMaps = [
         o_site: '18061216',
         url: './maps/starts/ym/ym_2018_orehovo_sprint.webp',
         link: './original_maps/starts/ym/ym_2018_orehovo_sprint_omaps.gif',
-        bounds: [[60.45636078979846, 30.300035476684574], [60.45497471673375, 30.318510532379154], [60.444455562946516, 30.29589414596558]]
+        bounds: [[60.4563608, 30.3000355], [60.4549747, 30.3185105], [60.4444556, 30.2958941]]
     },
     {
         name: 'Луга, Глухое оз',
@@ -447,7 +447,7 @@ let ymStartsMaps = [
         o_site: '19061116',
         url: './maps/starts/ym/ym_2019_luga_final.webp',
         link: './original_maps/starts/ym/ym_2019_luga_final_omaps.gif',
-        bounds: [[58.721852410677045, 29.78548049926758], [58.719457082670274, 29.809620380401615], [58.714086492492896, 29.78346347808838]],
+        bounds: [[58.7218524, 29.7854805], [58.7194571, 29.8096204], [58.7140865, 29.7834635]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY']
     },
     {
@@ -458,7 +458,7 @@ let ymStartsMaps = [
         o_site: '19061116',
         url: './maps/starts/ym/ym_2019_luga_prolog.webp',
         link: './original_maps/starts/ym/ym_2019_luga_prolog_omaps.gif',
-        bounds: [[58.72229803491088, 29.785974025726322], [58.72069376096794, 29.802947044372562], [58.71030875539617, 29.78228330612183]],
+        bounds: [[58.722298, 29.785974], [58.7206938, 29.802947], [58.7103088, 29.7822833]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY']
     },
     {
@@ -469,7 +469,7 @@ let ymStartsMaps = [
         o_site: '19061116',
         url: './maps/starts/ym/ym_2019_luga_sprint.webp',
         link: './original_maps/starts/ym/ym_2019_luga_sprint_omaps.gif',
-        bounds: [[58.7213176540654, 29.769923686981205], [58.71891114764125, 29.794664382934574], [58.713228458389686, 29.767649173736576]],
+        bounds: [[58.7213177, 29.7699237], [58.7189111, 29.7946644], [58.7132285, 29.7676492]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY']
     },
     {
@@ -480,7 +480,7 @@ let ymStartsMaps = [
         o_site: '19061116',
         url: './maps/starts/ym/ym_2019_luga_klassika.webp',
         link: './original_maps/starts/ym/ym_2019_luga_klassika_omaps.gif',
-        bounds: [[58.7164376204425, 29.767348766326908], [58.71346246978761, 29.799964427948], [58.703287093358654, 29.762971401214603]],
+        bounds: [[58.7164376, 29.7673488], [58.7134625, 29.7999644], [58.7032871, 29.7629714]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY']
     },
     {
@@ -491,7 +491,7 @@ let ymStartsMaps = [
         o_site: '19061116',
         url: './maps/starts/ym/ym_2019_luga_klassika2.webp',
         link: './original_maps/starts/ym/ym_2019_luga_klassika2_omaps.gif',
-        bounds: [[58.719501648417086, 29.78899955749512], [58.71720643826055, 29.814684391021732], [58.70342085252829, 29.78329181671143]],
+        bounds: [[58.7195016, 29.7889996], [58.7172064, 29.8146844], [58.7034209, 29.7832918]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY']
     },
     {
@@ -502,7 +502,7 @@ let ymStartsMaps = [
         o_site: '21061014',
         url: './maps/starts/ym/ym_2021_losevo_vybor.webp',
         link: './original_maps/starts/ym/ym_2021_losevo_vybor_omaps.jpg',
-        bounds: [[60.68511544690799, 29.92233753204346], [60.682804072688306, 29.94800090789795], [60.67187532835072, 29.916930198669437]],
+        bounds: [[60.6851154, 29.9223375], [60.6828041, 29.9480009], [60.6718753, 29.9169302]],
         author: ['TKMKV_K','KVZN','NSNV']
     },
     {
@@ -513,7 +513,7 @@ let ymStartsMaps = [
         o_site: '21061014',
         url: './maps/starts/ym/ym_2021_losevo_prolog1.webp',
         link: './original_maps/starts/ym/ym_2021_losevo_prolog1_omaps.jpg',
-        bounds: [[60.69080912406128, 29.907467365264896], [60.689643157845715, 29.923689365386966], [60.684590149166006, 29.904420375823978]],
+        bounds: [[60.6908091, 29.9074674], [60.6896432, 29.9236894], [60.6845901, 29.9044204]],
         author: ['TKMKV_K','KVZN','NSNV']
     },
     {
@@ -524,7 +524,7 @@ let ymStartsMaps = [
         o_site: '21061014',
         url: './maps/starts/ym/ym_2021_losevo_prolog2.webp',
         link: './original_maps/starts/ym/ym_2021_losevo_prolog2_omaps.jpg',
-        bounds: [[60.67956786981014, 29.930148124694828], [60.67846454443567, 29.94250774383545], [60.67194889961298, 29.926950931549076]],
+        bounds: [[60.6795679, 29.9301481], [60.6784645, 29.9425077], [60.6719489, 29.9269509]],
         author: ['TKMKV_K','KVZN','NSNV']
     },
     {
@@ -535,7 +535,7 @@ let ymStartsMaps = [
         o_site: '21061014',
         url: './maps/starts/ym/ym_2021_losevo_sprint.webp',
         link: './original_maps/starts/ym/ym_2021_losevo_sprint_omaps.jpg',
-        bounds: [[60.67955736212785, 29.94304418563843], [60.67746626507228, 29.960854053497318], [60.67389322202744, 29.940769672393802]],
+        bounds: [[60.6795574, 29.9430442], [60.6774663, 29.9608541], [60.6738932, 29.9407697]],
         author: ['TKMKV_K','KVZN','NSNV']
     },
     {
@@ -546,7 +546,7 @@ let ymStartsMaps = [
         o_site: '21061014',
         url: './maps/starts/ym/ym_2021_losevo_klassika.webp',
         link: './original_maps/starts/ym/ym_2021_losevo_klassika_omaps.jpg',
-        bounds: [[60.69129230488101, 29.95632648468018], [60.688687244104685, 29.981389045715336], [60.67433461940664, 29.948945045471195]],
+        bounds: [[60.6912923, 29.9563265], [60.6886872, 29.981389], [60.6743346, 29.948945]],
         author: ['TKMKV_K','KVZN','NSNV']
     },
     {
@@ -557,7 +557,7 @@ let ymStartsMaps = [
         o_site: '22062023',
         url: './maps/starts/ym/ym_2022_yagodnoe_sprint_final.webp',
         link: './original_maps/starts/ym/ym_2022_yagodnoe_sprint_final_omaps.jpg',
-        bounds: [[60.63834087144068, 29.98853445053101], [60.6361629219408, 30.010206699371338], [60.62942823418543, 29.985616207122806]],
+        bounds: [[60.6383409, 29.9885345], [60.6361629, 30.0102067], [60.6294282, 29.9856162]],
         author: ['TKMKV_K','MKHLV_A','SLBDNK']
     },
     {
@@ -568,7 +568,7 @@ let ymStartsMaps = [
         o_site: '22062023',
         url: './maps/starts/ym/ym_2022_yagodnoe_vybor.webp',
         link: './original_maps/starts/ym/ym_2022_yagodnoe_vybor_omaps.jpg',
-        bounds: [[60.632395879344315, 29.977440834045414], [60.6282916168964, 30.015892982482914], [60.619744655720226, 29.972162246704105]],
+        bounds: [[60.6323959, 29.9774408], [60.6282916, 30.015893], [60.6197447, 29.9721622]],
         author: ['TKMKV_K','MKHLV_A','SLBDNK']
     },
     {
@@ -579,7 +579,7 @@ let ymStartsMaps = [
         o_site: '22062023',
         url: './maps/starts/ym/ym_2022_yagodnoe_klassika.webp',
         link: './original_maps/starts/ym/ym_2022_yagodnoe_klassika_omaps.jpg',
-        bounds: [[60.632311694593476, 30.011515617370605], [60.62732335575361, 30.056104660034183], [60.61723908268739, 30.00524997711182]],
+        bounds: [[60.6323117, 30.0115156], [60.6273234, 30.0561047], [60.6172391, 30.00525]],
         author: ['MKHLV_A','SLBDNK']
     },
     {
@@ -590,7 +590,7 @@ let ymStartsMaps = [
         o_site: '22062023',
         url: './maps/starts/ym/ym_2022_yagodnoe_prolog2.webp',
         link: './original_maps/starts/ym/ym_2022_yagodnoe_prolog2_omaps.jpg',
-        bounds: [[60.63494236416457, 29.971239566802982], [60.633385033701586, 29.98853445053101], [60.62799693180014, 29.968235492706302]],
+        bounds: [[60.6349424, 29.9712396], [60.633385, 29.9885345], [60.6279969, 29.9682355]],
         author: ['TKMKV_K','MKHLV_A','SLBDNK']
     },
     {
@@ -601,7 +601,7 @@ let ymStartsMaps = [
         o_site: '22062023',
         url: './maps/starts/ym/ym_2022_yagodnoe_sprint.webp',
         link: './original_maps/starts/ym/ym_2022_yagodnoe_sprint_omaps.jpg',
-        bounds: [[60.633100918003336, 29.968986511230472], [60.63113308500164, 29.987096786499027], [60.622081611454774, 29.964394569396976]],
+        bounds: [[60.6331009, 29.9689865], [60.6311331, 29.9870968], [60.6220816, 29.9643946]],
         author: ['TKMKV_K','MKHLV_A','SLBDNK']
     },
     {
@@ -612,7 +612,7 @@ let ymStartsMaps = [
         o_site: '23062629',
         url: './maps/starts/ym/ym_2023_orehovo_vybor.webp',
         link: './original_maps/starts/ym/ym_2023_orehovo_vybor_omaps.jpg',
-        bounds: [[60.45286904216574, 30.32488346099854], [60.44998013081624, 30.35876512527466], [60.43912060589866, 30.32052755355835]],
+        bounds: [[60.452869, 30.3248835], [60.4499801, 30.3587651], [60.4391206, 30.3205276]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY']
     },
     {
@@ -623,7 +623,7 @@ let ymStartsMaps = [
         o_site: '23062629',
         url: './maps/starts/ym/ym_2023_orehovo_klassika.webp',
         link: './original_maps/starts/ym/ym_2023_orehovo_klassika_omaps.jpg',
-        bounds: [[60.470524968669956, 30.26445865631104], [60.46764820470383, 30.30239582061768], [60.457323599625525, 30.260682106018066]],
+        bounds: [[60.470525, 30.2644587], [60.4676482, 30.3023958], [60.4573236, 30.2606821]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY']
     },
     {
@@ -634,7 +634,7 @@ let ymStartsMaps = [
         o_site: '23062629',
         url: './maps/starts/ym/ym_2023_orehovo_sprint_prolog1.webp',
         link: './original_maps/starts/ym/ym_2023_orehovo_sprint_prolog1_omaps.jpg',
-        bounds: [[60.455408532221185, 30.289263725280765], [60.45330288578072, 30.316708087921146], [60.44629718995982, 30.286302566528324]],
+        bounds: [[60.4554085, 30.2892637], [60.4533029, 30.3167081], [60.4462972, 30.2863026]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY']
     },
     {
@@ -645,7 +645,7 @@ let ymStartsMaps = [
         o_site: '23062629',
         url: './maps/starts/ym/ym_2023_orehovo_sprint_prolog2.webp',
         link: './original_maps/starts/ym/ym_2023_orehovo_sprint_prolog2_omaps.jpg',
-        bounds: [[60.450625660772864, 30.307438373565674], [60.4490171032659, 30.326428413391117], [60.44448731602084, 30.30490636825562]]
+        bounds: [[60.4506257, 30.3074384], [60.4490171, 30.3264284], [60.4444873, 30.3049064]]
     },
     {
         name: 'Орехово, Фигурное оз',
@@ -655,7 +655,7 @@ let ymStartsMaps = [
         o_site: '23062629',
         url: './maps/starts/ym/ym_2023_orehovo_sprint_final.webp',
         link: './original_maps/starts/ym/ym_2023_orehovo_sprint_final_omaps.jpg',
-        bounds: [[60.44824454404312, 30.29316902160645], [60.44629718995982, 30.310313701629642], [60.441227171762186, 30.290486812591556]]
+        bounds: [[60.4482445, 30.293169], [60.4462972, 30.3103137], [60.4412272, 30.2904868]]
     },
     {
         name: 'Первомайское',
@@ -665,7 +665,7 @@ let ymStartsMaps = [
         o_site: '24062427',
         url: './maps/starts/ym/ym_2024_pervomayskoe_sprint.webp',
         link: './original_maps/starts/ym/ym_2024_pervomayskoe_sprint_omaps.jpg',
-        bounds: [[60.42162766042432, 29.68467235565186], [60.41907493663077, 29.70934867858887], [60.413025982108756, 29.68111038208008]],
+        bounds: [[60.4216277, 29.6846724], [60.4190749, 29.7093487], [60.413026, 29.6811104]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN'
     },
@@ -677,7 +677,7 @@ let ymStartsMaps = [
         o_site: '24062427',
         url: './maps/starts/ym/ym_2024_pervomayskoe_klassika.webp',
         link: './original_maps/starts/ym/ym_2024_pervomayskoe_klassika_omaps.jpg',
-        bounds: [[60.43499176415236, 29.670081138610843], [60.4313706558516, 29.70737457275391], [60.42226316216717, 29.665231704711918]],
+        bounds: [[60.4349918, 29.6700811], [60.4313707, 29.7073746], [60.4222632, 29.6652317]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
         owner: 'WN'
     },

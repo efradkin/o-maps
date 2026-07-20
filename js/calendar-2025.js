@@ -26,7 +26,7 @@ let events2025 = [
         res: 'https://multsport.ru/starts/winter-rogaine-25/results.html',
         o_gps: 21398,
         photo: 'https://vk.com/album-8292013_308226055',
-        coord: [60.40604868944981, 30.322716236114506],
+        coord: [60.4060487, 30.3227162],
         start: 'MULTSPORT'
     },
     {
@@ -1994,8 +1994,8 @@ let events2025 = [
         fmt: 'ночное',
         o_gps: 23464,
         coord: [
-            60.6303332896704,
-            29.99576568603516
+            60.6303333,
+            29.9957657
         ]
     },
     {
@@ -2930,8 +2930,8 @@ let events2025 = [
             'https://www.youtube.com/watch?v=Zvk2Eo8UOuc'
         ],
         coord: [
-            58.53014157280161,
-            31.251039505004886
+            58.5301416,
+            31.2510395
         ],
         owner: 'LM'
     },

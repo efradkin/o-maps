@@ -1686,7 +1686,7 @@ function onMapSelect(ovrl, m) {
 }
 
 function onMapClick(e) {
-    let coordinate = e.latlng.lat + ", " + e.latlng.lng;
+    let coordinate = fixCoord(e.latlng.lat) + ", " + fixCoord(e.latlng.lng);
     copyToClipboard(coordinate);
     searchBox.hide();
 }
@@ -1696,7 +1696,7 @@ function repositionImage(doLog) {
     let point2 = marker2.getLatLng();
     let point3 = marker3.getLatLng();
     if (doLog) {
-        let coordinates = "[[" + point1.lat + ", " + point1.lng + "], [" + point2.lat + ", " + point2.lng + "], [" + point3.lat + ", " + point3.lng + "]],";
+        let coordinates = `[[${fixCoord(point1.lat)}, ${fixCoord(point1.lng)}], [${fixCoord(point2.lat)}, ${fixCoord(point2.lng)}], [${fixCoord(point3.lat)}, ${fixCoord(point3.lng)}]],`;
         copyToClipboard(coordinates);
     }
     if (selectedOverlay) {
@@ -1716,14 +1716,14 @@ function onDragEnd() {
 
 function showCoordinates(e) {
     copyToClipboard(coordLink(e.latlng));
-    alert(`Текущие координаты: ${e.latlng.lat}, ${e.latlng.lng}`);
+    alert(`Текущие координаты: ${fixCoord(e.latlng.lat)}, ${fixCoord(e.latlng.lng)}`);
 }
 
 function shareMap(e) {
     const url = new URL(window.location.href);
     const searchParams = url.searchParams;
-    searchParams.append('x', e.latlng.lat);
-    searchParams.append('y', e.latlng.lng);
+    searchParams.append('x', fixCoord(e.latlng.lat));
+    searchParams.append('y', fixCoord(e.latlng.lng));
     searchParams.append('zoom', map.getZoom());
     url.searchParams = searchParams;
     const url2share = url.href;
