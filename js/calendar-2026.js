@@ -1916,6 +1916,7 @@ let events2026 = [
         place: 'Воробьево оз',
         o_site: '260718_rog',
         reg: ['http://orgeo.ru/event/info/vorobyovo_tren','http://orgeo.ru/event/vorobyovo2026_rog'],
+        gps: 'https://viewer.o-gps-center.ru/viewer/event/25639/',
         type: ['ROGAINE', 'ORIENT'],
         fmt: '3',
         owner: 'WN',
