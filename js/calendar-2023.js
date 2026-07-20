@@ -129,7 +129,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         res: 'https://vk.com/wall-166397868_3508',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/14968/'
+        o_gps: 14968
     },
     {
         id: 'SPB_20230205_1',
@@ -234,7 +234,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '4',
         res: 'http://reg.o-time.ru/result/23122.htm',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/15185/'
+        o_gps: 15185
     },
     {
         id: 'SPB_20230308_1',
@@ -342,7 +342,7 @@ let events2023 = [
         fmt: '1',
         strava: 8853074533,
         res: 'https://o-site.spb.ru/_races/230312_VV/230408_res.html',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/15533/'
+        o_gps: 15533
     },
     {
         id: 'SPB_20230408_2',
@@ -401,7 +401,7 @@ let events2023 = [
         strava: 8938074426,
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/26740',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/15769/',
+        o_gps: 15769,
         video: 'https://www.youtube.com/watch?v=nV5lOGaoQI8',
         owner: 'LM',
         o_site: '230422'
@@ -479,7 +479,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '8',
         res: 'https://vk.com/wall-218862139_123?reply=124&w=wall-218862139_123',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/15912/'
+        o_gps: 15912
     },
     {
         id: 'SPB_20230506_1',
@@ -489,7 +489,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '4',
         res: 'https://vk.com/wall-166397868_3648',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/15972/',
+        o_gps: 15972,
         strava: 9021310183
     },
     {
@@ -508,7 +508,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '3',
         res: 'https://vk.com/wall-197270357_753',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16021/',
+        o_gps: 16021,
         start: 'ROGAINE_110'
     },
     {
@@ -719,7 +719,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '4',
         res: 'https://vk.com/wall-91656163_2242',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16419/',
+        o_gps: 16419,
         strava: 9240368460,
         owner: 'LM'
     },
@@ -731,7 +731,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '3',
         res: 'https://vk.com/wall-197270357_814',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16434/',
+        o_gps: 16434,
         start: 'ROGAINE_110'
     },
     {
@@ -743,7 +743,7 @@ let events2023 = [
         type: 'MULTI',
         fmt: '48',
         res: 'https://adventure-race.redfox.ru/archive/archive_2023/results/',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16300/'
+        o_gps: 16300
     },
     {
         id: 'SPB_20230612_1',
@@ -801,7 +801,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '4, 8',
         res: 'https://vk.com/hardrogaine?w=wall-162510284_2679',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16496/'
+        o_gps: 16496
     },
     {
         id: 'SPB_20230618_1',
@@ -843,7 +843,7 @@ let events2023 = [
         type: ['WATER','ROGAINE'],
         fmt: '6',
         res: 'http://hardrogaine.ru/HR_Ladoga_I_2023_%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%82%D1%8B.htm',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16571/'
+        o_gps: 16571
     },
     {
         id: 'SPB_20230626_1',
@@ -881,7 +881,7 @@ let events2023 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-kolt-23/registration.html',
         fmt: '4 часа бегом; 4 часа на велосипеде.',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16691/',
+        o_gps: 16691,
         video: 'https://www.youtube.com/watch?v=gjmh05_h6qw',
         start: 'MULTSPORT',
         o_site: '230617r'
@@ -953,7 +953,7 @@ let events2023 = [
         type: ['WATER','ROGAINE'],
         fmt: '6, 10',
         res: 'http://hardrogaine.ru/HR_Ladoga_2_2023_rez.htm',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16880/'
+        o_gps: 16880
     },
     {
         id: 'SPB_20230805_1',
@@ -1005,7 +1005,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '24',
         res: 'https://vk.com/wall-166397868_3883',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16998/'
+        o_gps: 16998
     },
     {
         id: 'SPB_20230813_1',
@@ -1047,10 +1047,10 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '8, 24',
         res: 'http://hardrogaine.ru/HARD_ADVENTURE_RACE_results.htm',
-        gps: {
-            'бег': 'https://viewer.o-gps-center.ru/viewer/event/17034/',
-            'вело': 'https://viewer.o-gps-center.ru/viewer/event/17052/',
-            'гонка': 'https://viewer.o-gps-center.ru/viewer/event/17041/'
+        o_gps: {
+            'бег': 17034,
+            'вело': 17052,
+            'гонка': 17041
         }
     },
     {
@@ -1084,7 +1084,7 @@ let events2023 = [
         name: 'Приключенческий рогейн History Race',
         type: 'ROGAINE',
         res: 'https://vk.com/wall-97183103_1422',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17089/'
+        o_gps: 17089
     },
     {
         id: 'SPB_20230827_1',
@@ -1165,7 +1165,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '6',
         res: 'https://vk.com/rogainpskov?w=wall-170062837_717',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17178/'
+        o_gps: 17178
     },
     {
         id: 'SPB_20230910_1',
@@ -1189,7 +1189,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '3',
         res: 'https://vk.com/wall-197270357_963',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17188/',
+        o_gps: 17188,
         start: 'ROGAINE_110'
     },
     {
@@ -1200,7 +1200,7 @@ let events2023 = [
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2023-2.php',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17211/',
+        o_gps: 17211,
         photo: 'https://vk.com/album-30311715_295688844',
         map: 'pervomayskoe_ba_2023',
         start: 'BA',
@@ -1361,7 +1361,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '6',
         res: 'https://vk.com/wall-166397868_4003',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17419/'
+        o_gps: 17419
     },
     {
         id: 'SPB_20231001_1',
@@ -1371,7 +1371,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1553',
         res: 'http://orgeo.ru/live/#/30917',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17437/',
+        o_gps: 17437,
         info: 'Проходит при поддержке: ДОЛ "Зарница", ГУП "Горэлектротранс"',
         owner: 'SFSO_SPB',
         o_site: '231001',
@@ -1454,7 +1454,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '4',
         res: 'https://vk.com/wall-91656163_2272',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17568/',
+        o_gps: 17568,
         owner: 'LM'
     },
     {
@@ -1590,7 +1590,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '1,5',
         res: 'https://vk.com/juventa_sbor?w=wall-201330282_1124',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17679/'
+        o_gps: 17679
     },
     {
         id: 'SPB_20231028_5',
@@ -1600,7 +1600,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         res: 'http://hardrogaine.ru/HR_Night2023_results.htm',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17677/'
+        o_gps: 17677
     },
     {
         id: 'SPB_20231029_1',
@@ -1666,7 +1666,7 @@ let events2023 = [
         name: 'Финал Кубка ЛО по рогейну',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-final-23/registration.html',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17759/',
+        o_gps: 17759,
         video: 'https://www.youtube.com/watch?v=yULSyHrj4NU',
         fmt: 'рогейн 4 часа. Велосипедный и беговой формат',
         start: 'MULTSPORT',

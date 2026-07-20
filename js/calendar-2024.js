@@ -148,7 +148,7 @@ let events2024 = [
             'https://vk.com/doc482749_671075732?hash=To73cT5QHBVSaTUIuZymFhiwQ2hEzbSIPWzzPnXzsZH',
             'https://vk.com/event166397868?w=wall-166397868_4110'
         ],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18329'
+        o_gps: 18329
     },
     {
         id: 'SPB_20240211_1',
@@ -199,7 +199,7 @@ let events2024 = [
         fmt: '1.0',
         link: 'https://orgeo.ru/event/33767',
         res: 'https://vk.com/wall-92124592_1894',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18468',
+        o_gps: 18468,
         strava: 10832167769
     },
     {
@@ -211,7 +211,7 @@ let events2024 = [
         fmt: '4.0',
         link: 'https://reg.o-time.ru/start/24160',
         res: 'https://hardrogaine.ru/Results_Hard_Rogaine_winter_2024.htm',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18502'
+        o_gps: 18502
     },
     {
         id: 'SPB_20240303_2',
@@ -222,7 +222,7 @@ let events2024 = [
         fmt: '1.0',
         link: 'https://orgeo.ru/event/33952',
         res: 'https://o-site.spb.ru/_races/231105_P/Results%20-%20SportOrg.pdf',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18504',
+        o_gps: 18504,
         strava: 10882033709
     },
     {
@@ -256,7 +256,7 @@ let events2024 = [
         type: 'ROGAINE',
         fmt: '1.0',
         link: 'https://vk.com/orient_spb_lo?w=wall-220245153_709',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18598',
+        o_gps: 18598,
         strava: 10971228761
     },
     {
@@ -513,7 +513,7 @@ let events2024 = [
         ],
         strava: 11330077100,
         res: 'https://vk.com/event166397868?w=wall-166397868_4225',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19280'
+        o_gps: 19280
     },
     {
         id: 'SPB_20240505_1',
@@ -562,7 +562,7 @@ let events2024 = [
         place: 'Каннельярви',
         name: 'ВМБ',
         type: 'ROGAINE',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19360'
+        o_gps: 19360
     },
     {
         id: 'SPB_20240510_1',
@@ -622,7 +622,7 @@ let events2024 = [
             'https://vk.com/rogaine110'
         ],
         res: 'https://vk.com/rogaine110?w=wall-197270357_995',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19401',
+        o_gps: 19401,
         start: 'ROGAINE_110'
     },
     {
@@ -722,7 +722,7 @@ let events2024 = [
         type: 'ROGAINE',
         fmt: '1.0',
         strava: 11491875845,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19543'
+        o_gps: 19543
     },
     {
         id: 'SPB_20240525_4',
@@ -737,7 +737,7 @@ let events2024 = [
         res: 'https://vk.com/bikeadventure?w=wall-30311715_2075',
         start: 'BA',
         owner: 'BKTV',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19599',
+        o_gps: 19599,
         map: 'kanneliarvi_ba_2024'
     },
     {
@@ -805,7 +805,7 @@ let events2024 = [
         fmt: '3 / 6',
         link: 'https://reg.o-time.ru/race/24343',
         res: 'https://vk.com/wall-163764238_11599',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19630'
+        o_gps: 19630
     },
     {
         id: 'SPB_20240604_1',
@@ -846,7 +846,7 @@ let events2024 = [
         link: 'https://vk.com/rogaine110',
         reg: 'https://orgeo.ru/event/35851',
         res: 'https://vk.com/wall-197270357_1025',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19740',
+        o_gps: 19740,
         start: 'ROGAINE_110'
     },
     {
@@ -875,7 +875,7 @@ let events2024 = [
         fmt: '24, 48',
         link: 'https://adventure-race.redfox.ru/docs/rules',
         res: 'https://adventure-race.redfox.ru/results/results.pdf',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19675'
+        o_gps: 19675
     },
     {
         id: 'SPB_20240615_1',
@@ -944,7 +944,7 @@ let events2024 = [
         type: 'ROGAINE',
         link: 'https://orgeo.ru/event/ps2024',
         res: 'https://fractal.mosplay.ru/events/310274394/days/310274412/results-table',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19787',
+        o_gps: 19787,
         video: 'https://www.youtube.com/watch?v=cmXsR-PUdho'
     },
     {
@@ -959,7 +959,7 @@ let events2024 = [
             'https://vk.com/wall-91656163_2350'
         ],
         res: 'https://vk.com/doc17383066_675610275?hash=TS6ZwLzVx1HkHbnyDZ01fhWPnzoIrzozdMa4hOhZTrD',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19863',
+        o_gps: 19863,
         owner: 'LM'
     },
     {
@@ -1011,7 +1011,7 @@ let events2024 = [
         type: 'ROGAINE',
         link: 'https://t.me/borderlandrace',
         res: 'https://docs.google.com/spreadsheets/d/1pQEsmbSAN5J9lIg_KnmJ8iSv63hsBV6nOMs1XU2lg7Q/edit?gid=0',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19954'
+        o_gps: 19954
     },
     {
         id: 'SPB_20240701_1',
@@ -1132,7 +1132,7 @@ let events2024 = [
             'https://vk.com/rogaine110'
         ],
         res: 'https://vk.com/rogaine110?w=wall-197270357_1040',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20114',
+        o_gps: 20114,
         start: 'ROGAINE_110'
     },
     {
@@ -1217,7 +1217,7 @@ let events2024 = [
         fmt: '3.0',
         link: 'https://t.me/lonerogaine',
         strava: 12238250944,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20287'
+        o_gps: 20287
     },
     {
         id: 'SPB_20240831_1',
@@ -1268,7 +1268,7 @@ let events2024 = [
             'https://orgeo.ru/event/37188'
         ],
         res: 'https://vk.com/rogaine110?w=wall-197270357_1063',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20355',
+        o_gps: 20355,
         start: 'ROGAINE_110'
     },
     {
@@ -1382,7 +1382,7 @@ let events2024 = [
         fmt: 'Ночные соревнования по ориентированию',
         link: 'https://spb-orient.ru/lemb/2024/lemb.html',
         res: 'https://spb-orient.ru/lemb/2024/lemb-result-Night.html',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20592'
+        o_gps: 20592
     },
     {
         id: 'SPB_20240922_1',
@@ -1449,7 +1449,7 @@ let events2024 = [
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/info/36929',
         res: 'https://vk.com/club91656163?w=wall-91656163_2475',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20664',
+        o_gps: 20664,
         strava: 12523064593,
         owner: 'LM'
     },
@@ -1518,7 +1518,7 @@ let events2024 = [
         photo: 'https://vk.com/album-30311715_304241338',
         start: 'BA',
         owner: 'BKTV',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20726',
+        o_gps: 20726,
         map: 'pervomayskoe_ba_2024'
     },
     {
@@ -1582,7 +1582,7 @@ let events2024 = [
         type: 'ROGAINE',
         fmt: 'марш-бросок 75км',
         link: 'https://multsport.ru/starts/omb24',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20849'
+        o_gps: 20849
     },
     {
         id: 'SPB_20241019_1',
@@ -1647,7 +1647,7 @@ let events2024 = [
         fmt: '4.0',
         link: 'https://multsport.ru/starts/klo-final-24/rules.html',
         res: 'https://vk.com/multsport?w=wall-8292013_9612',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20892'
+        o_gps: 20892
     },
     {
         id: 'SPB_20241026_1',
@@ -1717,7 +1717,7 @@ let events2024 = [
         link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/38049',
         res: 'https://vk.com/event166397868?w=wall-166397868_4588',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21099',
+        o_gps: 21099,
         video: 'https://www.youtube.com/watch?v=Gy5n37Wzj6E'
     },
     {

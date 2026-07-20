@@ -650,11 +650,28 @@ function buildOneLink(link, content, title, isDownload) {
         return '';
 }
 
+const O_GPS_CENTER_PREFIX = 'https://viewer.o-gps-center.ru/viewer/event/';
+
+function getGPS(m) {
+    let gps = m.gps;
+    if (!gps && m.o_gps) {
+        if (isObject(m.o_gps)) {
+            gps = {...m.o_gps};
+            for (const g in gps) {
+                gps[g] = O_GPS_CENTER_PREFIX + gps[g];
+            }
+        } else {
+            gps = O_GPS_CENTER_PREFIX + m.o_gps;
+        }
+    }
+    return gps;
+}
+
 function buildGpsLinks(m, img, calendar) {
     let result = '';
-    let gps = m.gps;
+    let gps = getGPS(m);
     if (!gps && calendar) {
-        gps = calendar.gps;
+        gps = getGPS(calendar);
     }
     if (gps) {
         if (isObject(gps)) {
@@ -985,7 +1002,7 @@ function buildMapsCSV(maps, owner) {
     for (const m of maps) {
         if (owner === undefined || owner === m.owner || (Array.isArray(m.owner) && m.owner.includes(owner))) {
             result += '\n' + m.name + CSV_SPRTR + safe(year(m)) + CSV_SPRTR + o(m.owner) + CSV_SPRTR + link(m.url) +
-                CSV_SPRTR + link(m.link) + CSV_SPRTR + safe(m.info) + CSV_SPRTR + start(m.start) + CSV_SPRTR + safe(m.gps) + CSV_SPRTR + m.type;
+                CSV_SPRTR + link(m.link) + CSV_SPRTR + safe(m.info) + CSV_SPRTR + start(m.start) + CSV_SPRTR + safe(getGPS(m)) + CSV_SPRTR + m.type;
         }
     }
     console.log(result);

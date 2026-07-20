@@ -118,7 +118,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/shapki_KKM_2020.jpg',
         link: './original_maps/rogaine/kkm/shapki_KKM_2020_12_omaps.jpg',
         bounds: [[59.628663378277295, 31.12838745117188], [59.625712307963056, 31.18280410766602], [59.59401535961515, 31.12040519714356]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/8635/',
+        o_gps: 8635,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -129,7 +129,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/koloskovo_KKM_2021_05.webp',
         link: './original_maps/rogaine/kkm/koloskovo_KKM_2021_05_omaps.jpg',
         bounds: [[60.63161716201196, 30.16450881958008], [60.633469215649896, 30.266475677490238], [60.580095898259955, 30.16794204711914]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/9664/',
+        o_gps: 9664,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -149,7 +149,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/petyajarvi_KKM_2021_07.webp',
         link: './original_maps/rogaine/kkm/petyajarvi_KKM_2021_07_omaps.jpg',
         bounds: [[60.633637578887054, 30.0062370300293], [60.63734134766943, 30.175666809082035], [60.576174726269265, 30.01052856445313]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/10336/',
+        o_gps: 10336,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -160,7 +160,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/toksovo_hepojarvy_KKM_2022_02.webp',
         link: './original_maps/rogaine/kkm/toksovo_hepojarvy_KKM_2022_02_omaps.jpg',
         bounds: [[60.197478218445276, 30.55057525634766], [60.191718762243006, 30.62576293945313], [60.14005182710981, 30.532207489013675]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/11956/',
+        o_gps: 11956,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['WINTER','ROGAINE']
@@ -171,7 +171,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/lembolovo_KKM_2022_03.webp',
         link: './original_maps/rogaine/kkm/lembolovo_KKM_2022_03_omaps.jpg',
         bounds: [[60.44113190288759, 30.25716304779053], [60.43499176415236, 30.339474678039554], [60.401073077263845, 30.245404243469242]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/12037/',
+        o_gps: 12037,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -182,7 +182,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/peterhof_road_KKM_2022.jpg',
         link: './original_maps/rogaine/kkm/peterhof_road_KKM_2022_10_omaps.jpg',
         bounds: [[59.847531089179114, 30.123653411865238], [59.847487976156614, 30.208883285522464], [59.8233574820502, 30.123610496521]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/14304/',
+        o_gps: 14304,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -193,7 +193,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/peterhof_KKM_2023_03.webp',
         link: './original_maps/rogaine/kkm/peterhof_KKM_2023_03_omaps.jpg',
         bounds: [[59.891305076568734, 29.884271621704105], [59.891132851001714, 29.97653961181641], [59.85714389849079, 29.88461494445801]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/15154/',
+        o_gps: 15154,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -204,7 +204,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/gatchina_KKM_2023_05.webp',
         link: './original_maps/rogaine/kkm/gatchina_KKM_2023_05_omaps.jpg',
         bounds: [[59.59449320676533, 30.072841644287113], [59.59414568223871, 30.14511108398438], [59.54336854286804, 30.073013305664066]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/15840/',
+        o_gps: 15840,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -215,7 +215,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/oredezh_KKM_2021_06.jpg',
         link: './original_maps/rogaine/kkm/oredezh_KKM_2021_06_omaps.jpg',
         bounds: [[59.370030083826, 30.057048797607425], [59.36989889353371, 30.190429687500004], [59.335947296651405, 30.06065368652344]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/10000/',
+        o_gps: 10000,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -226,7 +226,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/spb_center_KKM_2024_04.webp',
         link: './original_maps/rogaine/kkm/spb_center_KKM_2024_04_omaps.jpg',
         bounds: [[59.94929426740136, 30.265102386474613], [59.949681095129826, 30.348186492919925], [59.908652227033265, 30.264587402343754]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18762/',
+        o_gps: 18762,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -238,7 +238,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/toksovo_KKM_2024_08.webp',
         link: 'https://psv4.userapi.com/s/v1/d/g9qrF_81K8Ssh5htYAMxvgAsrZXqzCKASBN4F0aHUu611BUgH0k7gILymQ8yGu7mSNOavx1vbbyOJo_rOEfJT7DBVqGHgw6mH1wZSi58SnSXDLitgyZYmg/KKM_8_2024.jpg?dl=1',
         bounds: [[60.2157737824211, 30.425090789794925], [60.217564408179925, 30.509548187255863], [60.160813763561954, 30.429897308349613]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20096/',
+        o_gps: 20096,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -251,7 +251,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/pavlovsk_2024_12.webp',
         link: 'https://sun9-83.userapi.com/s/v1/ig2/s9QzdAln_q4ipzLerExlvRUy6fGszV3mMzjTT0ieUGCpc4ohyATfPzsK1-6mNOxGPwGoOxkxkpb33P3ol3L0LXwi.jpg?quality=95&as=32x25,48x38,72x56,108x85,160x125,240x188,360x282,480x376,540x423,640x501,720x564,1080x846,1280x1002,1440x1128,2560x2005&from=bu&cs=2560x0',
         bounds: [[59.70690217342447, 30.43195724487305], [59.70698876336404, 30.49092292785645], [59.68386129364914, 30.432128906250004]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21292/',
+        o_gps: 21292,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -263,7 +263,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/vasiljevsky_KKM_2025_01.webp',
         link: ['https://psv4.userapi.com/s/v1/d/fFkVc0lgYQjykWFhiR0mXxMSorPnFmwLjsWqUO9cYWCdOg9WDWRyZGavRJggwE-WcKg-PfnI0-mAH2ue9JqcO674epJSA08doUmqguGnaywJfnijR_kr9g/KKM_1_2025i.jpg?dl=1','https://psv4.userapi.com/s/v1/d/iP8tbfzAD-zrA3XbFnAtXU8tA4zLTeyxeiDPa04n-Wj-t5i_txy6aIFSLGPJ-dUgl9F-Zi5vwuBOBvcGwNmvU2EjDo-TkPMUKo5We-c4SiiP0UYJN7AOGg/F24.jpg?dl=1'],
         bounds: [[59.95896360641199, 30.220642089843754], [59.95896360641199, 30.308017730712894], [59.92792577181406, 30.21995544433594]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21313/',
+        o_gps: 21313,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -276,7 +276,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/zenit_KKM_2025_02.webp',
         link: ['https://psv4.userapi.com/s/v1/d/9rbJBvWjbQwqXpR_U8rBpxNM_XNttcid80NYAfdmTb-E7I1EQbTEhoWQE-nql8sGMLOJpZeuxNtuAfOfCJpKmP_hscQxrt0bBmd3KBKl9adsXrx9IoE63Q/KKM_2_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d/6wXj-q0jqVg_VQkFpa0qwBesdXJaO6FKXHhAKbD1C4dziRIV8BMqO71jE5mcrdJCuDv1b3KQD4rV8afOYdhy5A_Ibpr1TEJbqpNozAWKgOl2Q74xXtmbTw/SETKA_2_2025.jpg?dl=1'],
         bounds: [[59.985979816729355, 30.18828392028809], [59.98610861707403, 30.27411460876465], [59.964634972356215, 30.188112258911136]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21534/',
+        o_gps: 21534,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -289,7 +289,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/kurort_KKM_2025_04.webp',
         link: ['https://psv4.userapi.com/s/v1/d/IX-8bRS7Pl4JCtHWs8PeBn1G5WSu3OHRbkjngBguQ_7Buppr4BzW7JWrjDXoP-JhIvqa8zUu2RNQDccdG5y8XF5P2zUbtnw3iPxS3B_f0iQCcq4Frh4cUw/KKM_04_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d/-qlJDu2Jca9ieAnQetvZyapaF8paqqXHaRi5BYIucttJ8LIou_sxebtpVLGrJN08dssz7LgO377fB4XlTtoudZEYBT4Rp--qnU1zf7Z8-n790qmOflEIwQ/SETKA_20.jpg?dl=1'],
         bounds: [[60.1304781251055, 29.919548034667972], [60.13039263307473, 30.019283294677738], [60.05910058045116, 29.919204711914066]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21966/',
+        o_gps: 21966,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -302,7 +302,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/dudergof_KKM_2025_05.webp',
         link: ['https://psv4.userapi.com/s/v1/d/711HxmQSiLXlzgGX1n7yh6LpUuik2ytyweUP98pxi8w-17iI07WGOBcUlHYw14PQQ4R3zJesjvOT20KnwkIh1XuR-5Jv9gr3GLDoUCShjVBqRPR-GJvuaA/KKM_5_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d/S6-NkVGVG5CTE2hV8ThfkzO9t-mfClxG8vAVvye_YNbrzYF54mDUN7Y38WT0754Egvl17s-jO_Pc1jA0kgPOC2x3tX0fBOc5zCHJLfjOxqb7TABSFs_PrQ/SETKA_5_2025.jpg?dl=1'],
         bounds: [[59.71326593717386, 30.109062194824222], [59.71071191886188, 30.141420364379883], [59.6931964926216, 30.102753639221195]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22402/',
+        o_gps: 22402,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -315,7 +315,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/siversky_KKM_2025_06.webp',
         link: ['https://psv4.userapi.com/s/v1/d/UucvpNMYtrW68bUk7qDoI8pHn0o3NLf6EJcGWVYsI0iEbw16G9oVAPzCSi6gkq04Vx82cXJH3kYUNZdPiuoNFGeKPbnzMTImY7nQRYSjJAO_0zclimVDcg/KKM_6_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d/601pAiUEKFeRO-MIZCrAjf66pC_M_Fo4_RlarwfPEC-zwT3rKiVV_U8kqH4E719fRIeT030V-2whtSOKlP-Eqhc4oCD9VBwrLQUk2H5LlSESTCPPT3TlRA/SETKA_6_2025.jpg?dl=1'],
         bounds: [[59.370489245853925, 30.060524940490726], [59.37051111055739, 30.136399269104007], [59.34340993333107, 30.060052871704105]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22627/',
+        o_gps: 22627,
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['ROGAINE']
@@ -328,7 +328,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/toksovo_KKM_2025_07.webp',
         link: ['https://psv4.userapi.com/s/v1/d2/HoFpPTbp-ADBKh54f27wo2PVLOuek2FXu5Xs4WnyJT7-bIiII2ib1Hoe0KoeQmWZ6Czdy6vK3VVs7a50LI3FJ4na-Yks1JFgeVWw5LAvpZvOXHTwJgbYzP5G-BXsZ-Kq33RmQh7AeTYe/KKM_7_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/aPOsXuaXn5xcei8q_4OTQhruVeWTDK3qg8w7t8x1ELnxEkifdLxVF1etkL_OCcxeLl64iB81m-8gNYB7cez5pdqzQU8F4p2MkbdMbV_YkKmeIIRnYGNLdwEYbLarmi--avMYkU30CARY/SETKA_7_2025.jpg?dl=1'],
         bounds: [[60.164443619580254, 30.386209487915043], [60.158037720780655, 30.481309890747074], [60.13146126749531, 30.378141403198246]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23000/',
+        o_gps: 23000,
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -341,7 +341,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/kavgolovo_KKM_2025_08.webp',
         link: ['https://psv4.userapi.com/s/v1/d2/IQH2BeBc6OKrE_4cy4OapRYbsRWQHBXHl73SJPzZnUy7TS_Dgd4jgtm8UBFf-nXvB9iI4fGzyEWnDrNq2sHo290GozA2RBU2kbiVytANIWp2MEhKtfFtsT3BvAGnun5JnYZv_TMiCu7Y/KKM_8_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/MriXz5Uruj5n_mO8caAy_KB9IAroKmdIe_WsDV4x_U6OvbQAzbIepbR-1JurFZ2r7tUrc3SEFL1S5r3REjhRxtjtJAASB8JSNgjjRFM7_5jcjN99GvbD2XaRrwlvSaLewUc8d2euQuQ8/SETKA_8_2025.jpg?dl=1'],
         bounds: [[60.19525988091439, 30.460023880004886], [60.19461994799159, 30.550746917724613], [60.156649611462456, 30.459809303283695]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23197/',
+        o_gps: 23197,
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -354,7 +354,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/zelenogorsk_KKM_2025_09.webp',
         link: ['https://psv4.userapi.com/s/v1/d2/9_viQk35kpfLDnI7v3-dTpcpUZ2DYj5k70D0fyQ-TgMPZHm0W45rKRRMlneCa7sOlmsZhyuoMcpazuC6yVfHQMEJfZmLoPSlNm8wF5H6DmM66UyrE88yNlOO91ilaLGJnjU6pKPmII0-/KKM_09_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/1gIEpt8-ffFzks1XDJ0UPAfU-S-VOqk8Jl2WqKQxOjRmzZcmVFNWdR00KHk17RHlOJZl_jF8eFwG_NfsT3ktpOjeRBnGAYRbkTpHB7vJxF4ZMZzm5Pi5e0SjgDiKTiD6QD6YwqWeTGsx/SETKA_9_2025.jpg?dl=1'],
         bounds: [[60.23836260690754, 29.728660583496097], [60.2306926763174, 29.83938217163086], [60.194534622659134, 29.715270996093754]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23335/',
+        o_gps: 23335,
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -367,7 +367,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/kirovsky_KKM_2025_11.webp',
         link: ['https://psv4.userapi.com/s/v1/d2/FGurwg51UsByuuYsqTTUGmpO7-vhFQOQDAM_8Bh_qQLJYpcbDXod7Juq6D-DnPl7yEdDMnmt_Dx2sZyaVXciZLDi5szLLOzmC4fAsl6_VfOnIvZ0dEWxdlzzFbJLIy2pK427FDi4fgxB/KKM_11_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/j4bnFKQug1ofPyvVLUauIoPuj7d5j9jUljRpoFukn8EI2gphKhvSX1WdzuRVM0s-_gGXXIt4eKNVMUXKLSmc2WZCoph-FKpB1N6PTo8cYH_xRLrFlYvaL2IS3A_VYt7UssigRUgPML1p/SETKA_11_2025.jpg?dl=1'],
         bounds: [[59.909104078836364, 30.24544715881348], [59.90901801230037, 30.296258926391605], [59.869532997012875, 30.245404243469242]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23785/',
+        o_gps: 23785,
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -380,7 +380,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/vosstania_KKM_2025_12.webp',
         link: ['https://psv4.userapi.com/s/v1/d2/3wTMsM9VCpLUnxRceFM_xMf9ChONW8NguBidUE0ZJVD3jhIsn-VvpoyDHhePcL6n9RwHJr5pTSgMS4iBIXXTkRJxrxrFtJy6g2o6ibDsGt7ZX_gunUbG_n0pAAa1UtTUpp-Y8C9nl_mh/KKM_12_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/xT45-qjPAV8LAo3ROo_ZCYx6FwzLYcR6vDZ6-N1vopkA0q5kneNFx91jlvElZXwVNd3fDcXH-oakbwbuFufWaK6Q2irZ8vZpZkVWUDoCWfQDJJej5B5YG2fK3qX6saw1VhVyXUBUJm15/SETKA_12_2025.jpg?dl=1'],
         bounds: [[59.9562779618925, 30.336985588073734], [59.95638539185255, 30.40002822875977], [59.912847757216966, 30.33711433410645]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23910/',
+        o_gps: 23910,
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -393,7 +393,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/chkalovskaya_KKM_2026_01.webp',
         link: ['https://psv4.userapi.com/s/v1/d2/o7bd90cgAauWczY5UHe6KJIo50U-30GGmCjWN_036rV3-nirQy03KsCik6eKYP2SKitNtjBAJKq2kSaASoe3pJ9IeHXx1nYkwDbbm3nTAC5ZwrlyHJU2KSm1qjvEnA1zU0EFjLsBNXEt/KKM_1_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/WHHv7hHYTtD5YocUYQPuxnjSTMwowzrqujoE9qti5NJ6M2ofS48EdwknqVCc-2cKW4RmsW0V_D0JOgvva_9OZ_VevGEKEdBh1qK2iV0Hj8hbU5RdlbzH0rJ_ZoIBPvyvI-JQAgZECseq/SETKA_1_2026.jpg?dl=1'],
         bounds: [[59.97906679629742, 30.23471832275391], [59.97902385377091, 30.337972640991214], [59.947231109940404, 30.235061645507816]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23987/',
+        o_gps: 23987,
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -406,7 +406,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/south_west_KKM_2026_02.webp',
         link: ['https://psv4.userapi.com/s/v1/d2/3ovAd4OYzIRvidz28ELQ7--oelNfXdDgJH6k0KjzP8lPIfSTrxhsgmq2i_J_aVToK0W-2GrGRrqrHsiWTQm7H9mgkLaMkL8HMqAzX12oDujPHmJ1dPENXzDk7B40lnJlIO6gA3dtNTO-/KKM_02_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/eGGegOMnjGkMU1fXT5mJGRBVY_MaFia0I3bguM-EpvlTFRiyCcg_82csKcFGLWE2Ku54repvnN0-K6qfAjwWd9A_1GnKHW1rcu5ISQ5zUGB8PMr4kYhs0-Ci9lkjTn2_oFAtZudAFUYU/SETKA_2_2026.jpg?dl=1'],
         bounds: [[59.87170869266283, 30.135283470153812], [59.871924100328755, 30.23042678833008], [59.841775006732156, 30.135240554809574]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24168/',
+        o_gps: 24168,
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -419,7 +419,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/udelnaya_KKM_2026_03.webp',
         link: ['https://psv4.userapi.com/s/v1/d2/_NAxwKt2vrJrV0Syvr7CfhpmDB5e-jZM2tp8yTC8YPeaLynHOANfRYvrQ16k_MBVozm_Iqd-QQjDV2qfFzp4zz610I94qb-REoS-xR2G3SCvHpnXpMLm_zuKOGL7lJVO-SpqYYMTO4rE/KKM_3_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/CRRxeVWDIRNF0JDeofli6OJOq1_pFcdEuJ5RPdN8TY8DgBFBs3P76TH6WCJ3cWpbIdR6YZPLvDnfr_U9k-xKQzCivMX3FLm1hDM4HDmTJFkBNKchBRCXkKdokyr2xjjMzshIwqSswosB/SETKA_3_2026.jpg?dl=1'],
         bounds: [[60.03222981515188, 30.294842720031742], [60.032336998789845, 30.37608146667481], [60.00081002835386, 30.294842720031742]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24311/',
+        o_gps: 24311,
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -432,7 +432,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/begovaya_KKM_2026_04.webp',
         link: ['https://psv4.userapi.com/s/v1/d2/FuhM7Tab144gM3SGcytqjelfIAbuib-6k79aUTSZ_YjigUA_N0CPqXB6QqgmXVCZCO-hPu2SdyvKs0RU7674tWQxO4XquTiIlTUF6vQb45Bl-DcZ15u81w3XWAesLSigBo_Uvp_mI-rM/KKM_4_2026.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/2eOaKAMZCjQAiRnOb6LT6LBq-o_kyUsoUA-O0syU9wluAcVG2aLH7BuCJfJ7TFeb_tFuSDLOKlNf_QLH6FImQ582yC4XHpjZguLHWp_S0tKiRl5hGj1Z-lsA2xz9F5IGA7yadRPxD-ky/SETKA_4_2026.jpg?dl=1'],
         bounds: [[60.00834062948804, 30.169401168823246], [60.008254820330215, 30.228281021118168], [59.96785690687505, 30.168972015380863]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24509/',
+        o_gps: 24509,
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
@@ -443,7 +443,7 @@ let rogaineKkmMaps = [
         url: './maps/rogaine/kkm/sosnovka_KKM_2021_10.webp',
         link: './original_maps/rogaine/kkm/sosnovka_KKM_2021_10_omaps.jpg',
         bounds: [[60.03441629255553, 30.32106399536133], [60.03197257300201, 30.370244979858402], [60.012158911595996, 30.315999984741214]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/11161/',
+        o_gps: 11161,
         start: 'KKM',
         owner: 'RYZHOV',
         type: ['ROGAINE']

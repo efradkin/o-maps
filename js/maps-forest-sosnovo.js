@@ -468,7 +468,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/krivko_2025.webp',
         link: './original_maps/forest/sosnovo/krivko_2025_omaps.webp',
         bounds: [[60.6290283178557, 30.18974304199219], [60.62187108184149, 30.259480476379398], [60.58498615559891, 30.171203613281254]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24987/',
+        o_gps: 24987,
         author: ['PSTVTV','DJCHKV','PPV_D'],
         owner: ['SHEIN','CHGRVSKY_M','FLTV']
     },
@@ -476,7 +476,7 @@ let sosnovoMaps = [
         name: 'Раздолье',
         year: 2022, // это не точно
         url: './maps/forest/sosnovo/razdolje_2022.webp',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25214/',
+        o_gps: 25214,
         bounds: [[60.594343032664085, 30.117559432983402], [60.59010748493463, 30.155110359191898], [60.583510724895596, 30.112752914428714]],
         author: 'MKHLV_A',
         owner: 'WN'

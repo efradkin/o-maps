@@ -100,12 +100,12 @@ let kkpStartsMaps = [
         start: 'KKP',
         info: 'Лонг-масстарт.',
         url: './maps/starts/kkp/kkp_2024_06_19.webp',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/19790/',
-            'М2':'https://viewer.o-gps-center.ru/viewer/event/19865/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/19789/',
-            'М50/55/Ж45':'https://viewer.o-gps-center.ru/viewer/event/19868/',
-            'Ж20/М18':'https://viewer.o-gps-center.ru/viewer/event/19810/',
+        o_gps: {
+            'М':19790,
+            'М2':19865,
+            'Ж':19789,
+            'М50/55/Ж45':19868,
+            'Ж20/М18':19810,
         },
         bounds: [[60.99436068011957, 29.162392616271976], [60.989095448939196, 29.21419143676758], [60.98106064806109, 29.156856536865238]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V'],
@@ -118,10 +118,10 @@ let kkpStartsMaps = [
         info: 'Лонг.',
         o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_17.webp',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/22869/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/22868/',
-            'М50/55':'https://viewer.o-gps-center.ru/viewer/event/22896/'
+        o_gps: {
+            'М':22869,
+            'Ж':22868,
+            'М50/55':22896
         },
         bounds: [[61.0424149674571, 29.083857536315918], [61.035973139348165, 29.145998954772953], [61.02185888466519, 29.07493114471436]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
@@ -134,10 +134,10 @@ let kkpStartsMaps = [
         info: 'Классика.',
         o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_16.webp',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/22865/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/22864/',
-            'М50/55':'https://viewer.o-gps-center.ru/viewer/event/22894/'
+        o_gps: {
+            'М':22865,
+            'Ж':22864,
+            'М50/55':22894
         },
         bounds: [[61.04058645249947, 29.119520187377933], [61.03798894882809, 29.145140647888187], [61.02774231961483, 29.113683700561527]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
@@ -150,10 +150,10 @@ let kkpStartsMaps = [
         info: 'Лонг-масстарт.',
         o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_18.webp',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/22871/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/22870/',
-            'М50/55':'https://viewer.o-gps-center.ru/viewer/event/22897/'
+        o_gps: {
+            'М':22871,
+            'Ж':22870,
+            'М50/55':22897
         },
         bounds: [[61.052885339951935, 29.089436531066898], [61.04883471317905, 29.12681579589844], [61.03543279750452, 29.081540107727054]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
@@ -166,10 +166,10 @@ let kkpStartsMaps = [
         info: 'Спринт.',
         o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_19.webp',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/22873/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/22872/',
-            'М50/55':'https://viewer.o-gps-center.ru/viewer/event/22898/'
+        o_gps: {
+            'М':22873,
+            'Ж':22872,
+            'М50/55':22898
         },
         bounds: [[61.04738051574958, 29.088964462280277], [61.045448407391945, 29.106259346008304], [61.03516262313018, 29.083256721496586]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],

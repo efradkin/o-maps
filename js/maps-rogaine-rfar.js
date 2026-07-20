@@ -42,7 +42,7 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/sortavala_redfox_2017_omaps.gif',
         bounds: [[62.001871751235875, 30.26664733886719], [61.9331357589708, 31.16477966308594], [61.446973504649996, 30.086746215820316]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2017/',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/2319/',
+        o_gps: 2319,
         owner: 'RFAR',
         type: ['ROGAINE'],
         region: 'KARELIA'
@@ -66,7 +66,7 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/kuznechnoe_rfar_2019_omaps.gif',
         bounds: [[61.34012679428879, 29.639053344726566], [61.2723780818547, 30.142707824707035], [61.08751263001799, 29.507217407226566]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2019/',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/5882/',
+        o_gps: 5882,
         owner: 'RFAR',
         type: ['ROGAINE']
     },
@@ -90,7 +90,7 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/lahdenpohja_rfar_2020_omaps.gif',
         bounds: [[61.58336831075355, 29.92160797119141], [61.53840616716746, 30.421142578125004], [61.293328225669015, 29.80796813964844]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2020/',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/7968/',
+        o_gps: 7968,
         owner: 'RFAR',
         type: ['ROGAINE']
     },
@@ -102,7 +102,7 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/vjisotsk_rfar_2021_omaps.gif',
         bounds: [[60.89571668586482, 28.146972656250004], [60.89705259731161, 28.71414184570313], [60.524184817591255, 28.12362670898438]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2021/',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/10166/',
+        o_gps: 10166,
         author: ['STRGNV','CHGRVSKY_M'],
         owner: 'RFAR',
         type: ['ROGAINE']
@@ -115,7 +115,7 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/pitkjaranta_rfar_2022_omaps.gif',
         bounds: [[61.77328524344959, 31.55633926391602], [61.77612673574614, 31.897945404052738], [61.497802593442294, 31.568183898925785]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2022/',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/13306/',
+        o_gps: 13306,
         owner: 'RFAR',
         type: ['ROGAINE']
     },
@@ -127,7 +127,7 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/soujarvi_rfar_2023_omaps.gif',
         bounds: [[62.464106147686294, 32.15389251708985], [62.39927834122347, 32.79212951660157], [62.16085273339208, 32.01278686523438]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2023/',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16300/',
+        o_gps: 16300,
         owner: 'RFAR',
         type: ['ROGAINE']
     },
@@ -139,7 +139,7 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/pitkaranta_rfar_2024_omaps.gif',
         bounds: [[61.854367394687124, 30.93406677246094], [61.79893034626891, 31.638908386230472], [61.601661501477075, 30.84720611572266]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2024/',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19675/',
+        o_gps: 19675,
         owner: 'RFAR',
         type: ['ROGAINE']
     },
@@ -150,7 +150,7 @@ let rogaineRfarMaps = [
         url: './maps/rogaine/gvardeyskoe_rfar_2025.webp',
         link: './original_maps/rogaine/gvardeyskoe_rfar_2025_omaps.jpeg',
         bounds: [[61.06011286454441, 28.699722290039066], [61.00723912825571, 29.469108581542972], [60.69637576747284, 28.600158691406254]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22778/',
+        o_gps: 22778,
         owner: 'RFAR',
         type: ['ROGAINE']
     },
@@ -161,7 +161,7 @@ let rogaineRfarMaps = [
         url: './maps/rogaine/sortavala_redfox_2026.webp',
         link: './original_maps/rogaine/sortavala_redfox_2026_omaps.webp',
         bounds: [[61.90404581380095, 30.646362304687504], [61.85493421532061, 31.131477355957035], [61.62475755222344, 30.521736145019535]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25313/',
+        o_gps: 25313,
         calendar: 'SPB_20260613_1',
         owner: 'RFAR',
         type: ['ROGAINE'],

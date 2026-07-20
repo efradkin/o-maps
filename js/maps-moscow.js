@@ -53,7 +53,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/electrogorsk_rogaine_2025_omaps.gif',
         info: 'Весенний Компот-рогейн.',
         bounds: [[56.04318502062839, 38.797874450683594], [56.01402511088384, 39.03614044189454], [55.89071598742222, 38.737621307373054]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22250/',
+        o_gps: 22250,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -64,7 +64,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/kurovskoe_rogaine_2023.webp',
         link: './original_maps/moscow/ak/kurovskoe_rogaine_2023_omaps.webp',
         bounds: [[55.75754880536109, 39.15441513061524], [55.706224094880426, 39.27972793579102], [55.60356606773666, 38.93863677978516]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17066/',
+        o_gps: 17066,
         type: ['ROGAINE']
     },
     {
@@ -74,7 +74,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/electrogorsk_compact_rogaine_2025_omaps.webp',
         info: 'Компактный рогейн.',
         bounds: [[55.90548955918078, 38.805255889892585], [55.89374815639306, 38.90147209167481], [55.853685173276645, 38.78482818603516]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23573/',
+        o_gps: 23573,
         author: 'MDZL',
         type: ['ROGAINE']
     },
@@ -480,9 +480,9 @@ let moscowMaps = [
         name: 'Белопесоцкий',
         year: 2022,
         start: 'BNO',
-        gps: {
-            '2019':'https://viewer.o-gps-center.ru/viewer/event/6759/',
-            '2022':'https://viewer.o-gps-center.ru/viewer/event/17762/'
+        o_gps: {
+            '2019':6759,
+            '2022':17762
         },
         url: './maps/moscow/o-mephi/20210603_109.webp',
         link: ['http://o-mephi.net/cup/maps/20210603_109.jpg','https://tkmgtu.ru/library/images/a/a5/Map_bno2023_va.jpg','https://tkmgtu.ru/library/images/5/5d/Map_bno2023_zn.jpg'],
@@ -912,7 +912,7 @@ let moscowMaps = [
         name: 'Красногорский Лес',
         year: 2021,
         start: 'BNO',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/8521/',
+        o_gps: 8521,
         url: './maps/moscow/ak/krasnogorsk_2019.webp',
         //link: 'http://o-mephi.net/cup/maps/20201204_867.jpg',
         link: ['./original_maps/moscow/ak/krasnogorsk_2019_omaps.gif','https://tkmgtu.ru/library/images/b/bc/Bno2020v.png','https://tkmgtu.ru/library/images/4/45/Bno2020zn.png'],
@@ -1225,7 +1225,7 @@ let moscowMaps = [
         url: './maps/moscow/lr/railroad_district_rogaine_2025.webp',
         link: './original_maps/moscow/lr/railroad_district_rogaine_2025_omaps.webp',
         info: 'Железная осень.',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23635/',
+        o_gps: 23635,
         about: 'https://gryadka.club/race',
         bounds: [[55.77806945371423, 37.964887619018555], [55.764176948570835, 38.079149723052986], [55.73272854012252, 37.947828769683845]],
         author: ['PSHTO_A','JAKMV_S'],
@@ -2216,8 +2216,8 @@ let moscowMaps = [
         startYear: 2015,
         start: 'BNO',
         info: '<br />Карта леса у платформы Раздоры в Одинцово. После вырубки короедных завалов карта потеряла свою актуальность. Ведется благоустройство.',
-        gps: {
-            '2015':'https://viewer.o-gps-center.ru/viewer/event/776/'
+        o_gps: {
+            '2015':776
         },
         url: './maps/moscow/o-mephi/20210606_368.webp',
         link: ['http://o-mephi.net/cup/maps/20210606_368.jpg','https://tkmgtu.ru/library/images/5/56/Bno2015b.jpg'],
@@ -2716,7 +2716,7 @@ let moscowMaps = [
         link: ['./original_maps/moscow/lr/lytkarino_mk_rogaine_2006_omaps.webp','./original_maps/moscow/lr/lytkarino_mk_rogaine_2026_omaps.webp'],
         info: ' РЕТРОГЕЙН - дружеский старт в честь 20-летия <a href="https://t.me/rogainomania/772">первого рогейна в Москве</a> (22 апреля 2006 года) при поддержке компании «Московский Компас».',
         bounds: [[55.64417721613742, 37.87699699401856], [55.639890317005474, 37.92870998382569], [55.593430954989685, 37.863435745239265]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24788/',
+        o_gps: 24788,
         logo: 'mk_retro_rogaine.webp',
         type: ['ROGAINE']
     },
@@ -2732,7 +2732,7 @@ let moscowMaps = [
         name: 'Лыткарино, запад',
         year: 2014,
         start: 'BNO',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/324/',
+        o_gps: 324,
         url: './maps/moscow/lytkarino_bno_2014.webp',
         link: 'https://tkmgtu.ru/library/images/4/40/BNO2014B.jpg',
         bounds: [[55.61916368973445, 37.879142761230476], [55.61634033773273, 37.91813135147095], [55.592291197222735, 37.87231922149659]]
@@ -2971,7 +2971,7 @@ let moscowMaps = [
         info: '<a href="https://t.me/rogainomania/336">Аэророгейн 4.0</a>.',
         url: './maps/moscow/lr/mariino_aerorogaine_2025.webp',
         link: './original_maps/moscow/lr/mariino_aerorogaine_2025_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23884/',
+        o_gps: 23884,
         bounds: [[55.57101772982136, 37.294378280639656], [55.57402630866593, 37.424755096435554], [55.50598587453494, 37.29746818542481]],
         owner: 'OPEN_BAND',
         type: ['ROGAINE']
@@ -3053,7 +3053,7 @@ let moscowMaps = [
         year: 2024,
         excluded: true,
         start: 'BNO',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21055/',
+        o_gps: 21055,
         url: './maps/moscow/ostashovo_bno_2024.webp',
         link: ['https://tkmgtu.ru/library/images/e/e9/Map_bno2024_zn.jpg','https://tkmgtu.ru/library/images/e/e9/Map_bno2024_vb.jpg'],
         bounds: [[55.38778951882971, 38.78259658813477], [55.38013448242731, 38.84808540344239], [55.34100729044037, 38.765344619750984]],
@@ -3085,7 +3085,7 @@ let moscowMaps = [
         url: './maps/moscow/marjina_gora_2024.webp',
         link: 'https://rogaine.ru/results/ski2024/ski2024_map.jpg',
         bounds: [[56.14507134774327, 37.69048690795899], [56.12297419573332, 37.87553787231446], [56.04510266360655, 37.652721405029304]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18492/',
+        o_gps: 18492,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['WINTER','ROGAINE']
@@ -3097,7 +3097,7 @@ let moscowMaps = [
         url: './maps/moscow/lr/pushkino_rogaine_2021.webp',
         link: 'https://rogaine.ru/results/skr2021/map.jpg',
         bounds: [[56.1580749881838, 37.69821166992188], [56.13808963745076, 37.873992919921875], [56.04452738072083, 37.65632629394532]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/10332/',
+        o_gps: 10332,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -3109,7 +3109,7 @@ let moscowMaps = [
         url: './maps/moscow/lr/pushkino_rogaine_2025.webp',
         link: 'https://rogaine.ru/results/fc2025/final2025_map.jpg',
         bounds: [[56.073951680627324, 37.77485847473145], [56.05909857007496, 37.90008544921876], [55.97773633729803, 37.7376937866211]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23622/',
+        o_gps: 23622,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -3185,7 +3185,7 @@ let moscowMaps = [
         name: 'им Цюрупы',
         year: 2021,
         start: 'BNO',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/14604/',
+        o_gps: 14604,
         url: './maps/moscow/tsjurupy_2021.webp',
         link: ['./original_maps/moscow/tsjurupy_2015_omaps.gif','./original_maps/moscow/tsjurupy_2021_1_omaps.gif','./original_maps/moscow/tsjurupy_2021_2_omaps.gif','https://forestadventure.ru/2022/bno/bno2022v.png'],
         bounds: [[55.52496258535843, 38.6544942855835], [55.515876288118314, 38.740110397338874], [55.493418792536225, 38.643808364868164]],
@@ -3983,7 +3983,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/fosforitny_rogaine_2022_08_27.webp',
         link: './original_maps/moscow/ak/fosforitny_rogaine_2022_08_27_omaps.gif',
         info: '<a href="https://forestadventure.ru/history/">Рогейн Forest Adventure Рудниковый</a>.',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/14143/',
+        o_gps: 14143,
         bounds: [[55.3976364945054, 38.78568649291993], [55.38184114754356, 38.918380737304695], [55.34447272954158, 38.7663745880127]],
         author: 'JAKMV_S',
         owner: 'JAKMV_S',
@@ -3995,7 +3995,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/iliasovo_rogaine_2024.webp',
         link: './original_maps/moscow/ak/iliasovo_rogaine_2024_omaps.png',
         info: '<a href="https://forestadventure.ru/2024/fa/">Рогейн Forest Adventure Осётр</a>.',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20319/',
+        o_gps: 20319,
         bounds: [[54.96283357307888, 38.72929573059083], [54.94681566221077, 38.85409355163575], [54.85892410510788, 38.69024276733399]],
         author: 'JAKMV_S',
         owner: 'JAKMV_S',
@@ -4336,7 +4336,7 @@ let moscowMaps = [
         url: './maps/moscow/trubino_rogaine_2019.webp',
         link: 'https://moscow.rogaine.ru/results/kr2019/map.jpg',
         bounds: [[55.06008511526805, 36.599750518798835], [55.030678612630474, 36.86222076416016], [54.93345430690937, 36.559066772460945]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/6062/',
+        o_gps: 6062,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4349,7 +4349,7 @@ let moscowMaps = [
         info: 'Весенний Компот-рогейн.',
         about: 'https://www.x-lite.run/sr2026',
         bounds: [[55.06288694922901, 36.61683082580567], [55.039729066960504, 36.81844711303712], [54.96234080948224, 36.58189773559571]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24913/',
+        o_gps: 24913,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4360,7 +4360,7 @@ let moscowMaps = [
         url: './maps/moscow/vasilevo_rogaine_2020.webp',
         link: 'https://rogaine.ru/results/kr2020/map.jpg',
         bounds: [[55.343398963927726, 36.10605239868165], [55.32650773003607, 36.261405944824226], [55.239496770821845, 36.06983184814454]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/8091/',
+        o_gps: 8091,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4372,7 +4372,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/fc2021/map.jpg',
         info: 'Финал Компот-Кубка.',
         bounds: [[56.027792483948055, 37.904634475708015], [56.020645575381586, 37.965402603149414], [55.98738786803752, 37.88987159729004]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/10989/',
+        o_gps: 10989,
         author: 'JAKMV_A',
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
@@ -4385,7 +4385,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/bkr2021/map.jpg',
         info: 'Осенний Компот-рогейн.',
         bounds: [[56.10813998248315, 38.60664367675781], [56.07931655850435, 38.84611129760743], [55.93170240160558, 38.54003906250001]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/10848/',
+        o_gps: 10848,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4397,7 +4397,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/ski2021/map.jpg',
         info: 'Лыжный Компот-рогейн.',
         bounds: [[56.10603401776644, 37.90952682495118], [56.09387460519971, 38.025226593017585], [56.012201885145544, 37.87725448608399]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/9057/',
+        o_gps: 9057,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['WINTER','ROGAINE']
@@ -4408,7 +4408,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/ivanteevka_2023.webp',
         link: './original_maps/moscow/ak/ivanteevka_2023_omaps.jpg',
         bounds: [[55.99040047693413, 37.91216611862183], [55.988312079791235, 37.928624153137214], [55.97726810477349, 37.90750980377198]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17823/',
+        o_gps: 17823,
         owner: 'KMPT'
     },
     {
@@ -4439,7 +4439,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/ivanteevka_winter_ski_rogaine_2024.webp',
         link: 'https://rogaine.ru/results/wr2024/map.jpg',
         bounds: [[56.05449773653236, 37.902660369873054], [56.034842164550916, 38.06951522827149], [55.988588138757365, 37.87862777709962]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18320/',
+        o_gps: 18320,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE','WINTER']
@@ -4771,7 +4771,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/ski2022/map.jpg',
         info: 'Лыжный Компот-рогейн.',
         bounds: [[56.14181975002501, 37.3172950744629], [56.118620229333956, 37.51865386962891], [56.065040501043725, 37.2872543334961]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/12099/',
+        o_gps: 12099,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['WINTER','ROGAINE']
@@ -4793,7 +4793,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/skr2022/skr2022_map.jpg',
         info: 'Летний Компот-рогейн.',
         bounds: [[56.38335907941095, 37.50629425048829], [56.3690532533311, 37.62577056884766], [56.288202986946196, 37.46955871582032]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/13489/',
+        o_gps: 13489,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4805,7 +4805,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/bkr2022/akr_2022_map.jpg',
         info: 'Осенний Компот-рогейн.',
         bounds: [[55.88691340894152, 37.967548370361335], [55.8611037949086, 38.18023681640626], [55.79906175679596, 37.934846878051765]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/13970/',
+        o_gps: 13970,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4817,7 +4817,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/fc2022/final_cup_2022_map.jpg',
         info: 'Финал Компот-Кубка.',
         bounds: [[56.31663192612966, 37.27952957153321], [56.294728751038605, 37.46028900146485], [56.21033196468292, 37.23936080932618]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/14097/',
+        o_gps: 14097,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4838,7 +4838,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/kr2023/kr_2023_map.jpg',
         info: 'Летний Компот-рогейн.',
         bounds: [[56.171456492543925, 38.044281005859375], [56.14440192363976, 38.26847076416016], [56.06791530019818, 38.00359725952149]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16726/',
+        o_gps: 16726,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4868,7 +4868,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/ar2023/akr2023_map.jpg',
         info: 'Осенний Компот-рогейн.',
         bounds: [[55.74663224930153, 38.13766479492188], [55.72005264329601, 38.35601806640626], [55.64621151258021, 38.10110092163087]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17084/',
+        o_gps: 17084,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4880,7 +4880,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/sr2024/spring2024_map.jpg',
         info: 'Весенний Компот-рогейн.',
         bounds: [[56.10938436201977, 38.60492706298829], [56.079891322549386, 38.84490966796876], [55.93304863776238, 38.53866577148438]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19325/',
+        o_gps: 19325,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4892,7 +4892,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/nr2024/noginsk2024_map.jpg',
         info: 'Летний Компот-рогейн.',
         bounds: [[55.9385292592098, 38.377819061279304], [55.91592872294483, 38.562097549438484], [55.834843217637676, 38.33799362182618]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19955/',
+        o_gps: 19955,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4904,7 +4904,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/ski2020/map.jpg',
         info: 'Лыжный Компот-рогейн.',
         bounds: [[56.26337585401038, 37.705421447753906], [56.23562283676664, 37.94145584106446], [56.17288994864007, 37.671947479248054]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/7173/',
+        o_gps: 7173,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4927,7 +4927,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/ar2024/muranovo_map_2024.jpg',
         info: 'Осенний Компот-рогейн.',
         bounds: [[56.265473202335386, 37.82146453857422], [56.24420839313321, 37.99192428588867], [56.15635417078612, 37.77872085571289]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20293/',
+        o_gps: 20293,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4939,7 +4939,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/fc2024/lp2024_map.jpg',
         info: 'Финал Компот-Кубка.',
         bounds: [[55.94266325004071, 38.14538955688477], [55.92372018364429, 38.30177307128907], [55.85879164919982, 38.11337471008301]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20839/',
+        o_gps: 20839,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -4951,7 +4951,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/lp2023/sr2023_map.jpg',
         info: 'Весенний Компот-рогейн.',
         bounds: [[55.9303561186719, 38.0866813659668], [55.907943255835924, 38.26881408691407], [55.8278052605525, 38.0478858947754]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/15921/',
+        o_gps: 15921,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -5205,9 +5205,9 @@ let moscowMaps = [
         start: 'RUSSIA_CUP_2024',
         url: './maps/moscow/ak/khimki_tolstogo_2024.webp',
         link: './original_maps/moscow/ak/khimki_tolstogo_2024_M.png',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/20333/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/20334/'
+        o_gps: {
+            'М': 20333,
+            'Ж': 20334
         },
         bounds: [[55.89982381360787, 37.45438814163209], [55.89842830127382, 37.468185424804695], [55.89267729838337, 37.451941967010505]],
         author: 'KZNN_O',
@@ -5219,9 +5219,9 @@ let moscowMaps = [
         start: 'RUSSIA_CUP_2024',
         url: './maps/moscow/ak/khimki_2024.webp',
         link: './original_maps/moscow/ak/khimki_2024_M.png',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/20326/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/20327/'
+        o_gps: {
+            'М': 20326,
+            'Ж': 20327
         },
         bounds: [[55.90378150222149, 37.457456588745124], [55.90263874606277, 37.46822834014893], [55.89394066705849, 37.45413064956666]],
         author: 'KZNN_O',
@@ -5474,7 +5474,7 @@ let moscowMaps = [
         bounds: [[55.44481429549026, 37.39995002746583], [55.43948313102033, 37.45453834533692], [55.41588590986265, 37.39046573638917]],
         info: 'Зов леса.',
         author: ['JASHPTRV','ALFRV'],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21199/',
+        o_gps: 21199,
         type: ['ROGAINE']
     },
     {
@@ -5534,7 +5534,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/kr2025/summer2025_map.jpg',
         info: 'Летний Компот-рогейн.',
         bounds: [[56.22684450083289, 38.03861618041993], [56.20517630577219, 38.21731567382813], [56.0946406657822, 37.986259460449226]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23122/',
+        o_gps: 23122,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -5546,7 +5546,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/kr2025/summer2025_map.jpg',
         info: 'Осенний Компот-рогейн.',
         bounds: [[56.20059291588374, 38.44562530517579], [56.17814549648656, 38.62964630126954], [56.08295658599044, 38.3994483947754]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23337/',
+        o_gps: 23337,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -5558,7 +5558,7 @@ let moscowMaps = [
         link: 'https://rogaine.ru/results/kr2026/summer_kompot_2026.jpg',
         info: 'Летний Компот-рогейн.',
         bounds: [[56.34014000189228, 38.17131042480469], [56.313680634256755, 38.37438583374024], [56.190755876185364, 38.1112289428711]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25564/',
+        o_gps: 25564,
         owner: 'KMPT',
         start: 'KMPT_ROGAINE',
         type: ['ROGAINE']
@@ -5981,7 +5981,7 @@ let moscowMaps = [
         name: 'Одинцово',
         year: 2023,
         start: 'BNO',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/11519/',
+        o_gps: 11519,
         url: './maps/moscow/odintsovo_2023.webp',
         link: ['./original_maps/moscow/odintsovo_2023_omaps.gif','https://tkmgtu.ru/library/images/3/34/Bno2021v.png','https://tkmgtu.ru/library/images/8/8e/Bno2021zn.png'],
         bounds: [[55.73890186689086, 37.202281951904304], [55.730058364447366, 37.28373527526856], [55.695438298536175, 37.188034057617195]],
@@ -6459,7 +6459,7 @@ let moscowMaps = [
         date: '2026-05-17',
         logo: 'malakhit.jpg',
         about: 'https://buyrun.ru/event/126',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22758/',
+        o_gps: 22758,
         url: './maps/moscow/ak/berezki_rogaine_2026.webp',
         link: './original_maps/moscow/ak/berezki_rogaine_2026_omaps.webp',
         bounds: [[56.135937484788755, 36.94152832031251], [56.14564513055243, 37.01705932617188], [56.09562215863295, 36.95869445800782]],
@@ -6511,7 +6511,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/horlovo_bela_gora_2025.webp',
         link: './original_maps/moscow/ak/horlovo_bela_gora_2025.gif',
         bounds: [[55.33973818056078, 38.75822067260743], [55.332244722443285, 38.819246292114265], [55.313565932284334, 38.74852180480958]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23750/',
+        o_gps: 23750,
         author: 'FSHN_A',
         owner: 'KRLV_N'
     },
@@ -6544,7 +6544,7 @@ let moscowMaps = [
         url: './maps/moscow/sz/tushino_rogaine_2025.webp',
         link: './original_maps/moscow/sz/tushino_rogaine_2025_omaps.gif',
         info: '<a href="https://forestadventure.ru/tu-info/">Рогейн ТУГЕЙН</a>',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23916/',
+        o_gps: 23916,
         bounds: [[55.881618058807305, 37.404499053955085], [55.87478117490912, 37.46003150939942], [55.840771467059426, 37.38887786865235]],
         author: ['JAKMV_S','TTYNN_V','MNKV','MTN_Y'],
         owner: ['JAKMV_S','ERMCHNKV_A','MLKHT'],

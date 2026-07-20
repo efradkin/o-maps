@@ -407,7 +407,7 @@ let mmsStartsMaps = [
         o_site: '14062729',
         url: './maps/starts/mms/mms_2014_06_29.webp',
         link: './original_maps/starts/mms/mms_2014_06_29.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/223/',
+        o_gps: 223,
         bounds: [[60.3175134916191, 29.273242950439457], [60.311647582969606, 29.323024749755863], [60.30086941848394, 29.26496028900147]],
         author: 'SHRNN',
         planner: 'TLNV_A'
@@ -432,7 +432,7 @@ let mmsStartsMaps = [
         o_site: '15062628',
         url: './maps/starts/mms/mms_2015_06_28.webp',
         link: './original_maps/starts/mms/mms_2015_06_28.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/565/',
+        o_gps: 565,
         bounds: [[60.42732554916, 29.004850387573246], [60.42332230414089, 29.04321670532227], [60.410483178575284, 28.997340202331547]],
         author: ['DJCHKV','STLV_S'],
         planner: 'TLNV_A'
@@ -469,7 +469,7 @@ let mmsStartsMaps = [
         o_site: '20160624',
         url: './maps/starts/mms/mms_2016_06_26.webp',
         link: './original_maps/starts/mms/mms_2016_06_26.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/1235/',
+        o_gps: 1235,
         bounds: [[60.53624024212995, 29.80698108673096], [60.53448815625809, 29.85719203948975], [60.51850391136994, 29.803805351257328]],
         author: ['DJCHKV','STLV_S','PPV_D'],
         planner: 'TLNV_A'
@@ -482,7 +482,7 @@ let mmsStartsMaps = [
         o_site: '17062325',
         url: './maps/starts/mms/mms_2017_06_25.webp',
         link: './original_maps/starts/mms/mms_2017_06_25.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/2492/',
+        o_gps: 2492,
         bounds: [[60.53326375080362, 29.82650756835938], [60.5316170635521, 29.85895156860352], [60.51049826692806, 29.822816848754886]],
         author: ['DJCHKV','STLV_S','PPV_D'],
         planner: 'TLNV_A'

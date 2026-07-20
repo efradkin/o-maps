@@ -35,10 +35,10 @@ let samaraEvents2026 = [
         name: 'Снежные парки',
         link: 'https://o-63.ru/data/2026/snezhnye-parki/',
         res: 'https://t.me/TrainingoClub',
-        gps: {
-            'Короткая': 'https://viewer.o-gps-center.ru/viewer/event/24210/',
-            'Средняя': 'https://viewer.o-gps-center.ru/viewer/event/24211/',
-            'Динная': 'https://viewer.o-gps-center.ru/viewer/event/24212/',
+        o_gps: {
+            'Короткая': 24210,
+            'Средняя': 24211,
+            'Динная': 24212,
         },
         type: 'ORIENT',
         owner: 'TRAINING_O_CLUB',

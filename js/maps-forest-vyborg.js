@@ -4,7 +4,7 @@ let vyborgMaps = [
     {
         name: 'р Гусиная',
         date: '2014-06-23',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/214/',
+        o_gps: 214,
         start: 'KKP',
         info: 'Спринт.',
         url: './maps/forest/vyborg/kkp_gusinaja_2014_06_23.webp',
@@ -15,9 +15,9 @@ let vyborgMaps = [
     {
         name: 'р Гусиная',
         date: '2014-06-25',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/217/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/218/',
+        o_gps: {
+            'М': 217,
+            'Ж': 218,
         },
         start: 'KKP',
         info: 'Лонг.',
@@ -29,9 +29,9 @@ let vyborgMaps = [
     {
         name: 'оз Горица',
         date: '2014-06-26',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/219/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/220/',
+        o_gps: {
+            'М': 219,
+            'Ж': 220,
         },
         start: 'KKP',
         info: 'Классика.',
@@ -43,9 +43,9 @@ let vyborgMaps = [
     {
         name: 'Обходное оз',
         date: '2015-06-23',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/558/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/559/',
+        o_gps: {
+            'М': 558,
+            'Ж': 559,
         },
         start: 'KKP',
         info: 'Лонг.',
@@ -77,9 +77,9 @@ let vyborgMaps = [
     {
         name: 'оз Тростинка',
         date: '2016-06-23',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/1217/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/1218/',
+        o_gps: {
+            'М': 1217,
+            'Ж': 1218,
         },
         start: 'KKP',
         info: 'Лонг.',
@@ -91,12 +91,12 @@ let vyborgMaps = [
     {
         name: 'Пруды',
         date: '2017-06-19',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/2456/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/2457/',
-            'M20': 'https://viewer.o-gps-center.ru/viewer/event/2476/',
-            'Ж20': 'https://viewer.o-gps-center.ru/viewer/event/2477/',
-            'ALL': 'https://viewer.o-gps-center.ru/viewer/event/2464/',
+        o_gps: {
+            'М': 2456,
+            'Ж': 2457,
+            'M20': 2476,
+            'Ж20': 2477,
+            'ALL': 2464,
         },
         start: 'KKP',
         info: 'Спринт.',
@@ -118,10 +118,10 @@ let vyborgMaps = [
     {
         name: 'Солнечное',
         date: '2018-06-19',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/4032/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/4033/',
-            'ALL': 'https://viewer.o-gps-center.ru/viewer/event/4034/',
+        o_gps: {
+            'М': 4032,
+            'Ж': 4033,
+            'ALL': 4034,
         },
         start: 'KKP',
         info: 'Лонг.',
@@ -133,10 +133,10 @@ let vyborgMaps = [
     {
         name: 'Солнечное',
         date: '2018-06-20',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/4036/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/4037/',
-            'ALL': 'https://viewer.o-gps-center.ru/viewer/event/4038/',
+        o_gps: {
+            'М': 4036,
+            'Ж': 4037,
+            'ALL': 4038,
         },
         start: 'KKP',
         info: 'Лонг.',
@@ -148,10 +148,10 @@ let vyborgMaps = [
     {
         name: 'оз Тростинка',
         date: '2018-06-21',
-        gps: {
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/4039/',
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/4040/',
-            'ALL': 'https://viewer.o-gps-center.ru/viewer/event/4042/',
+        o_gps: {
+            'Ж': 4039,
+            'М': 4040,
+            'ALL': 4042,
         },
         start: 'KKP',
         info: 'Лонг.',
@@ -183,10 +183,10 @@ let vyborgMaps = [
     {
         name: 'Пруды',
         date: '2019-06-18',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/5957/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/5958/',
-            'ALL': 'https://viewer.o-gps-center.ru/viewer/event/5959/',
+        o_gps: {
+            'М': 5957,
+            'Ж': 5958,
+            'ALL': 5959,
         },
         start: 'KKP',
         info: 'Классика.',
@@ -198,12 +198,12 @@ let vyborgMaps = [
     {
         name: 'Пруды',
         date: '2019-06-19',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/5964/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/5965/',
-            'Ж18': 'https://viewer.o-gps-center.ru/viewer/event/5981/',
-            'M18': 'https://viewer.o-gps-center.ru/viewer/event/5982/',
-            'ALL': 'https://viewer.o-gps-center.ru/viewer/event/5966/',
+        o_gps: {
+            'М': 5964,
+            'Ж': 5965,
+            'Ж18': 5981,
+            'M18': 5982,
+            'ALL': 5966,
         },
         start: 'KKP',
         info: 'Лонг.',
@@ -215,12 +215,12 @@ let vyborgMaps = [
     {
         name: 'Пруды',
         date: '2019-06-20',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/5967/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/5968/',
-            'Ж18': 'https://viewer.o-gps-center.ru/viewer/event/5986/',
-            'М18': 'https://viewer.o-gps-center.ru/viewer/event/5988/',
-            'ALL': 'https://viewer.o-gps-center.ru/viewer/event/5969/',
+        o_gps: {
+            'М': 5967,
+            'Ж': 5968,
+            'Ж18': 5986,
+            'М18': 5988,
+            'ALL': 5969,
         },
         start: 'KKP',
         info: 'Лонг.',
@@ -232,9 +232,9 @@ let vyborgMaps = [
     {
         name: 'Пальцево',
         date: '2022-06-08',
-        gps: {
-            '1': 'https://viewer.o-gps-center.ru/viewer/event/13320/',
-            '2': 'https://viewer.o-gps-center.ru/viewer/event/13310/',
+        o_gps: {
+            '1': 13320,
+            '2': 13310,
         },
         start: 'KKP',
         info: 'УТС.',
@@ -246,10 +246,10 @@ let vyborgMaps = [
     {
         name: 'Пальцево',
         date: '2022-06-10',
-        gps: {
-            'А1': 'https://viewer.o-gps-center.ru/viewer/event/13329/',
-            'А2': 'https://viewer.o-gps-center.ru/viewer/event/13337/',
-            'В': 'https://viewer.o-gps-center.ru/viewer/event/13328/',
+        o_gps: {
+            'А1': 13329,
+            'А2': 13337,
+            'В': 13328,
         },
         start: 'KKP',
         info: 'УТС.',
@@ -261,7 +261,7 @@ let vyborgMaps = [
     {
         name: 'Пальцево',
         date: '2022-06-12',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/13332/',
+        o_gps: 13332,
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_12.webp',
@@ -272,9 +272,9 @@ let vyborgMaps = [
     {
         name: 'Пальцево',
         date: '2022-06-11',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/13330/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/13331/',
+        o_gps: {
+            'М': 13330,
+            'Ж': 13331,
         },
         start: 'KKP',
         info: 'ПИРАМИДА.',
@@ -286,11 +286,11 @@ let vyborgMaps = [
     {
         name: 'Пальцево',
         date: '2022-06-14',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/13335/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/13336/',
-            'М45/21А': 'https://viewer.o-gps-center.ru/viewer/event/13450/',
-            'ALL': 'https://viewer.o-gps-center.ru/viewer/event/13352/',
+        o_gps: {
+            'М': 13335,
+            'Ж': 13336,
+            'М45/21А': 13450,
+            'ALL': 13352,
         },
         start: 'KKP',
         info: 'Лонг.',
@@ -304,11 +304,11 @@ let vyborgMaps = [
         date: '2022-06-16',
         start: 'KKP',
         info: 'Спринт.',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/13340/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/13341/',
-            'Все КП':'https://viewer.o-gps-center.ru/viewer/event/13361/',
-            'М45/21А':'https://viewer.o-gps-center.ru/viewer/event/13376/',
+        o_gps: {
+            'М':13340,
+            'Ж':13341,
+            'Все КП':13361,
+            'М45/21А':13376,
         },
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_16.webp',
         bounds: [[60.80308955872403, 28.7568211555481], [60.80057730275183, 28.780338764190674], [60.79460990477943, 28.752958774566654]],
@@ -321,18 +321,18 @@ let vyborgMaps = [
         start: 'KKP',
         info: 'Классика.',
         o_site: '230617-22_KKP',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/16497/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/16501/',
-            'М18': 'https://viewer.o-gps-center.ru/viewer/event/16503/',
-            'М45/21А': 'https://viewer.o-gps-center.ru/viewer/event/16598/',
-            'Ж16': 'https://viewer.o-gps-center.ru/viewer/event/16581/',
-            'М70': 'https://viewer.o-gps-center.ru/viewer/event/16533/',
-            'М21А/Open-B.': 'https://viewer.o-gps-center.ru/viewer/event/16556/',
-            'Ж12': 'https://viewer.o-gps-center.ru/viewer/event/16582/',
-            'Ж40': 'https://viewer.o-gps-center.ru/viewer/event/16585/',
-            'М45': 'https://viewer.o-gps-center.ru/viewer/event/16591/',
-            'М21АК': 'https://viewer.o-gps-center.ru/viewer/event/16518/',
+        o_gps: {
+            'М': 16497,
+            'Ж': 16501,
+            'М18': 16503,
+            'М45/21А': 16598,
+            'Ж16': 16581,
+            'М70': 16533,
+            'М21А/Open-B.': 16556,
+            'Ж12': 16582,
+            'Ж40': 16585,
+            'М45': 16591,
+            'М21АК': 16518,
         },
         url: './maps/forest/vyborg/kkp_prudy_2023_06_19.webp',
         bounds: [[61.06272932040129, 29.08960819244385], [61.05876302107485, 29.135012626647953], [61.04573926994326, 29.082269668579105]],
@@ -342,7 +342,7 @@ let vyborgMaps = [
     {
         name: 'Пруды',
         date: '2023-06-17',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16560/',
+        o_gps: 16560,
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_prudy_2023_06_17.webp',
@@ -353,7 +353,7 @@ let vyborgMaps = [
     {
         name: 'Пруды',
         date: '2023-06-18',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16534/',
+        o_gps: 16534,
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_prudy_2023_06_18.webp',
@@ -367,17 +367,17 @@ let vyborgMaps = [
         start: 'KKP',
         info: 'Лонг.',
         o_site: '230617-22_KKP',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/16498/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/16513/',
-            'М18': 'https://viewer.o-gps-center.ru/viewer/event/16514/',
-            'М45/21А': 'https://viewer.o-gps-center.ru/viewer/event/16599/',
-            'М21А/Open-B.': 'https://viewer.o-gps-center.ru/viewer/event/16557/',
-            'Ж16': 'https://viewer.o-gps-center.ru/viewer/event/16586/',
-            'Ж12': 'https://viewer.o-gps-center.ru/viewer/event/16587/',
-            'М45': 'https://viewer.o-gps-center.ru/viewer/event/16588/',
-            'Ж40': 'https://viewer.o-gps-center.ru/viewer/event/16589/',
-            'M21АК': 'https://viewer.o-gps-center.ru/viewer/event/16540/',
+        o_gps: {
+            'М': 16498,
+            'Ж': 16513,
+            'М18': 16514,
+            'М45/21А': 16599,
+            'М21А/Open-B.': 16557,
+            'Ж16': 16586,
+            'Ж12': 16587,
+            'М45': 16588,
+            'Ж40': 16589,
+            'M21АК': 16540,
         },
         url: './maps/forest/vyborg/kkp_prudy_2023_06_20.webp',
         bounds: [[61.068169195524476, 29.113683700561527], [61.063809064586856, 29.15857315063477], [61.03796816794074, 29.10158157348633]],
@@ -397,10 +397,10 @@ let vyborgMaps = [
     {
         name: 'Обходное оз',
         date: '2024-06-15',
-        gps: {
-            'А': 'https://viewer.o-gps-center.ru/viewer/event/19837/',
-            'Аркада': 'https://viewer.o-gps-center.ru/viewer/event/19839/',
-            'ALL': 'https://viewer.o-gps-center.ru/viewer/event/19836/',
+        o_gps: {
+            'А': 19837,
+            'Аркада': 19839,
+            'ALL': 19836,
         },
         start: 'KKP',
         info: 'УТС.',
@@ -412,11 +412,11 @@ let vyborgMaps = [
     {
         name: 'Новинское оз',
         date: '2024-06-15',
-        gps: {
-            'Каменюкала': 'https://viewer.o-gps-center.ru/viewer/event/19768/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/19766/',
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/19767/',
-            'Open 5': 'https://viewer.o-gps-center.ru/viewer/event/19835/',
+        o_gps: {
+            'Каменюкала': 19768,
+            'Ж': 19766,
+            'М': 19767,
+            'Open 5': 19835,
         },
         start: 'KKP',
         info: 'ПИРАМИДА.',
@@ -428,10 +428,10 @@ let vyborgMaps = [
     {
         name: 'Обходное оз',
         date: '2024-06-16',
-        gps: {
-            'А1': 'https://viewer.o-gps-center.ru/viewer/event/19834/',
-            'А2': 'https://viewer.o-gps-center.ru/viewer/event/19840/',
-            'ALL': 'https://viewer.o-gps-center.ru/viewer/event/19841/',
+        o_gps: {
+            'А1': 19834,
+            'А2': 19840,
+            'ALL': 19841,
         },
         start: 'KKP',
         info: 'УТС.',
@@ -446,12 +446,12 @@ let vyborgMaps = [
         start: 'KKP',
         info: 'Классика.',
         url: './maps/forest/vyborg/kkp_novinskoe_2024_06_17.webp',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/19774/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/19772/',
-            'М50/55/Ж45': 'https://viewer.o-gps-center.ru/viewer/event/19854/',
-            'М21А': 'https://viewer.o-gps-center.ru/viewer/event/19807/',
-            'М20/М35': 'https://viewer.o-gps-center.ru/viewer/event/19844/',
+        o_gps: {
+            'М': 19774,
+            'Ж': 19772,
+            'М50/55/Ж45': 19854,
+            'М21А': 19807,
+            'М20/М35': 19844,
         },
         bounds: [[60.99920891568199, 29.146471023559574], [60.993965297805566, 29.20269012451172], [60.981019011678164, 29.139432907104492]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V'],
@@ -463,12 +463,12 @@ let vyborgMaps = [
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_novinskoe_2024_06_18.webp',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/19783/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/19781/',
-            'М50/55/Ж45': 'https://viewer.o-gps-center.ru/viewer/event/19861/',
-            'Ж20/М18': 'https://viewer.o-gps-center.ru/viewer/event/19811/',
-            'М21А': 'https://viewer.o-gps-center.ru/viewer/event/19830/',
+        o_gps: {
+            'М': 19783,
+            'Ж': 19781,
+            'М50/55/Ж45': 19861,
+            'Ж20/М18': 19811,
+            'М21А': 19830,
         },
         bounds: [[61.000935790802075, 29.18625354766846], [60.99446472727906, 29.25594806671143], [60.978666467444995, 29.176898002624515]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A','LUK_V'],
@@ -480,11 +480,11 @@ let vyborgMaps = [
         start: 'KKP',
         info: 'Спринт.',
         url: './maps/forest/vyborg/kkp_novinskoe_2024_06_20.webp',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/19793/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/19792/',
-            'М50/55/Ж45': 'https://viewer.o-gps-center.ru/viewer/event/19838/',
-            'М21А': 'https://viewer.o-gps-center.ru/viewer/event/19832/',
+        o_gps: {
+            'М': 19793,
+            'Ж': 19792,
+            'М50/55/Ж45': 19838,
+            'М21А': 19832,
         },
         bounds: [[61.00118545172515, 29.186983108520508], [60.99947939630004, 29.204192161560062], [60.98957414237739, 29.183077812194828]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','TKMKVA_P','LUK_V'],
@@ -600,9 +600,9 @@ let vyborgMaps = [
         year: 2020,
         start: ['RUSSIA_2020','RUSSIA_CHAMP'],
         info: '25.09, смешанная эстафета.',
-        gps: {
-            '1, 2 этап': 'https://viewer.o-gps-center.ru/viewer/event/8199/',
-            '3, 4 этап': 'https://viewer.o-gps-center.ru/viewer/event/8207/'
+        o_gps: {
+            '1, 2 этап': 8199,
+            '3, 4 этап': 8207
         },
         url: './maps/forest/vyborg/vyborg_annenskie_2017.webp',
         bounds: [[60.721875475123724, 28.718798160552982], [60.72063717542608, 28.733968734741214], [60.71757270317024, 28.716931343078617]],
@@ -615,9 +615,9 @@ let vyborgMaps = [
         excluded: true,
         start: ['RUSSIA_2020','RUSSIA_CHAMP'],
         info: '27.09, спринт-общий старт.',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/8202/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/8203/'
+        o_gps: {
+            'М': 8202,
+            'Ж': 8203
         },
         url: './maps/forest/vyborg/batarejnaya_gora_2020.webp',
         link: ['https://viewer.o-gps-center.ru/newmaps/map_6255_b092c095d299e2c07778fccae312152d.png','https://viewer.o-gps-center.ru/newmaps/course_8203_3f630736090219a2871cf4d5a230f4e3.png'],
@@ -807,7 +807,7 @@ let vyborgMaps = [
         bounds: [[60.764525674175374, 28.730278015136722], [60.76016572789462, 28.784265518188477], [60.74662096140217, 28.724441528320316]],
         author: ['BRGNTS','VRBY','MLNKV_L'],
         owner: 'VYBORG',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23707/'
+        o_gps: 23707
     },
     {
         name: 'Комсомольское',
@@ -829,7 +829,7 @@ let vyborgMaps = [
         o_site: '250824_Tokma',
         url: './maps/forest/vyborg/leypjasuo.webp',
         link: './original_maps/forest/vyborg/leypjasuo_2025_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23280/',
+        o_gps: 23280,
         bounds: [[60.57075597983445, 29.20054435729981], [60.568773798958446, 29.215564727783207], [60.55892435354992, 29.19573783874512]],
         author: ['TKMKV_K','PDVZKN'],
         owner: 'VYBORG'
@@ -862,7 +862,7 @@ let vyborgMaps = [
         name: 'Гаврилово',
         year: 2014,
         url: './maps/forest/vyborg/gavrilovo_2014.webp',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16377/',
+        o_gps: 16377,
         bounds: [[60.615975694756706, 29.031543731689457], [60.61422792656198, 29.05072689056397], [60.602622871964265, 29.027380943298343]],
         author: 'DBRTSV_V',
         owner: 'VYBORG'

@@ -7,9 +7,9 @@ let rogaineBeketovMaps = [
         url: './maps/rogaine/beketov/78km.webp',
         link: './original_maps/rogaine/beketov/78km_omb_2020_omaps.gif',
         bounds: [[60.68007223452519, 30.020828247070316], [60.69015786886322, 30.436592102050785], [60.540060727006335, 30.037651062011722]],
-        gps: {
-            '1':'https://viewer.o-gps-center.ru/viewer/event/8281/',
-            '2':'https://viewer.o-gps-center.ru/viewer/event/8283/'
+        o_gps: {
+            '1':8281,
+            '2':8283
         },
         owner: 'BKTV',
         start: 'MB',
@@ -69,9 +69,9 @@ let rogaineBeketovMaps = [
         link: ['./original_maps/rogaine/beketov/hiitola_ba_2021_omaps.webp','./original_maps/rogaine/beketov/hiitola_ta_2021_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2021-1/BA21.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2021-1/TA21.jpg'],
         bounds: [[61.218453856554035, 29.3031120300293], [61.290854527378634, 29.692955017089847], [60.9782708898106, 29.49417114257813]],
         results: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-1.php',
-        gps: {
-            'BA':'https://viewer.o-gps-center.ru/viewer/event/9986/',
-            'TA':'https://viewer.o-gps-center.ru/viewer/event/9987/'
+        o_gps: {
+            'BA':9986,
+            'TA':9987
         },
         owner: 'BKTV',
         start: ['BA','TA'],
@@ -93,7 +93,7 @@ let rogaineBeketovMaps = [
         url: './maps/rogaine/beketov/ojat.webp',
         link: ['./original_maps/rogaine/beketov/ojat.jpg','./original_maps/rogaine/beketov/ojat_vmb_2021_1_omaps.webp','./original_maps/rogaine/beketov/ojat_vmb_2021_2_omaps.webp'],
         bounds: [[60.4903803750114, 33.1344223022461], [60.48801274327637, 33.73695373535157], [60.3750115533182, 33.13339233398438]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/9883/',
+        o_gps: 9883,
         owner: 'BKTV',
         start: 'MB',
         type: ['ROGAINE']
@@ -103,7 +103,7 @@ let rogaineBeketovMaps = [
         date: '2024-10-12',
         url: './maps/rogaine/beketov/orekhovo.webp',
         link: ['./original_maps/rogaine/beketov/Orehovo_new.webp','./original_maps/rogaine/beketov/orekhovo_omb_2024_omaps.webp'],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20849/',
+        o_gps: 20849,
         info: '<a href="https://www.multsport.ru/starts/omb24/">Инфо.</a>',
         bounds: [[60.565209785065306, 30.21926879882813], [60.57246393181694, 30.620613098144535], [60.39706660026772, 30.232315063476566]],
         owner: 'BKTV',
@@ -123,7 +123,7 @@ let rogaineBeketovMaps = [
         name: 'Каменногорск',
         date: '2023-05-18',
         url: './maps/rogaine/beketov/kamennogorsk_ba_2023.webp',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16147/',
+        o_gps: 16147,
         results: 'https://www.bikeadventure.ru/arhiv/arhiv-2023-1.php',
         link: ['./original_maps/rogaine/beketov/kamennogorsk_ba_2023_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2023-1/BA2023.jpg'],
         bounds: [[61.069082670716135, 28.70452880859375], [61.030028872681896, 29.312810897827152], [60.661237256330466, 28.583679199218754]],
@@ -189,7 +189,7 @@ let rogaineBeketovMaps = [
         url: './maps/rogaine/beketov/pervomayskoe_ba_2024.webp',
         link: './original_maps/rogaine/beketov/pervomayskoe_ba_2024_omaps.webp',
         bounds: [[60.48209290767693, 29.67269897460938], [60.4107162771735, 29.8359489440918], [60.43012117400133, 29.579143524169925]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20726',
+        o_gps: 20726,
         results: 'https://www.bikeadventure.ru/arhiv/arhiv-2024-2.php',
         owner: 'BKTV',
         start: 'BA',
@@ -210,7 +210,7 @@ let rogaineBeketovMaps = [
         url: './maps/rogaine/beketov/snetkovskoe_ba_2025.webp',
         link: './original_maps/rogaine/beketov/snetkovskoe_ba_2025_omaps.gif',
         results: 'https://www.bikeadventure.ru/arhiv/arhiv-2025-2.php',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23660/',
+        o_gps: 23660,
         bounds: [[61.04332918539102, 30.12931823730469], [61.04997725007066, 30.34011840820313], [60.89120757161905, 30.14511108398438]],
         owner: 'BKTV',
         start: 'BA',
@@ -223,9 +223,9 @@ let rogaineBeketovMaps = [
         url: './maps/rogaine/beketov/vyborg_2019.webp',
         link: './original_maps/rogaine/beketov/vyborg_vmb_2019_omaps.webp',
         bounds: [[60.84758659536134, 28.363952636718754], [60.92759629574196, 28.561019897460938], [60.70931186508957, 28.601875305175785]],
-        gps: {
-            '1':'https://viewer.o-gps-center.ru/viewer/event/5748/',
-            '2':'https://viewer.o-gps-center.ru/viewer/event/5749/'
+        o_gps: {
+            '1':5748,
+            '2':5749
         },
         owner: 'BKTV',
         start: 'MB',
@@ -384,7 +384,7 @@ let rogaineBeketovMaps = [
         results: 'https://www.bikeadventure.ru/arhiv/arhiv-2025-1.php',
         url: './maps/rogaine/beketov/red_valley_2025.webp',
         link: './original_maps/rogaine/beketov/red_valley_2025_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22755/',
+        o_gps: 22755,
         bounds: [[60.658040943395704, 28.69285583496094], [60.6482818152359, 29.27444458007813], [60.17294018509881, 28.666763305664066]],
         owner: 'BKTV',
         start: 'BA',
@@ -395,7 +395,7 @@ let rogaineBeketovMaps = [
         date: '2025-05-24',
         url: './maps/rogaine/beketov/borodinskoe_mb_2025.webp',
         link: ['./original_maps/rogaine/beketov/borodinskoe_mb_2025_1_omaps.gif','./original_maps/rogaine/beketov/borodinskoe_mb_2025_2_omaps.gif'],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22700/',
+        o_gps: 22700,
         bounds: [[61.022607368052384, 29.29890632629395], [61.02795019488618, 29.50035095214844], [60.83284478777796, 29.32062149047852]],
         owner: 'BKTV',
         start: 'MB',

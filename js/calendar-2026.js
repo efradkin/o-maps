@@ -9,7 +9,7 @@ let events2026 = [
         map: 'sestroretsk_tamozhennaya_doroga_2012',
         res: 'https://t.me/whitenightesspb/849',
         reskeep: 838,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24008/',
+        o_gps: 24008,
         owner: 'WN',
         strava: 16932346660,
         me: 'МА'
@@ -38,7 +38,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/48811',
         res: 'https://t.me/whitenightesspb/858',
         reskeep: 839,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24051/',
+        o_gps: 24051,
         type: 'ORIENT',
         map: 'orovo_2019',
         owner: 'WN',
@@ -55,7 +55,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/49046',
         res: 'https://t.me/dlitelnyy/436',
         reskeep: 840,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24093/',
+        o_gps: 24093,
         info: '<a href="https://t.me/dlitelnyy/437">Разбор дистанций</a>.',
         planner: 'KSHN_D',
         owner: 'DLITELNY',
@@ -80,7 +80,7 @@ let events2026 = [
         place: 'Колосково',
         name: 'Зимний рогейн',
         link: 'https://www.multsport.ru/starts/winter-rogaine-26/',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24104/',
+        o_gps: 24104,
         photo: 'https://vk.com/album-8292013_312343731',
         type: [
             'ROGAINE',
@@ -98,7 +98,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_sprint_2026',
         type: 'SKI',
         fmt: 'спринт',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24101/',
+        o_gps: 24101,
         map: 'kirovsk_2025',
         owner: 'SFSO_LO'
     },
@@ -113,7 +113,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/49111',
         res: 'https://t.me/dlitelnyy/446',
         reskeep: 841,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24120/',
+        o_gps: 24120,
         info: '<a href="https://t.me/dlitelnyy/447">Разбор дистанций</a>.',
         owner: 'DLITELNY',
         planner: 'KSHN_D',
@@ -132,9 +132,9 @@ let events2026 = [
             'http://o-reg.spb.ru/?filter[day_id]=1710',
             'http://o-reg.spb.ru/?filter[day_id]=1711'
         ],
-        gps: {
-            'М17/45/55/Ф-Сл': 'https://viewer.o-gps-center.ru/viewer/event/24138/',
-            'Все КП': 'https://viewer.o-gps-center.ru/viewer/event/24123/'
+        o_gps: {
+            'М17/45/55/Ф-Сл': 24138,
+            'Все КП': 24123
         },
         photo: [
             'https://vk.com/album-230167293_312356826',
@@ -154,9 +154,9 @@ let events2026 = [
         name: 'ЧиП ЛО',
         o_site: '260124_bn',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_2425012026',
-        gps: {
-            '24': 'https://viewer.o-gps-center.ru/viewer/event/24148/',
-            '25': 'https://viewer.o-gps-center.ru/viewer/event/24149/',
+        o_gps: {
+            '24': 24148,
+            '25': 24149,
         },
         type: 'SKI',
         fmt: 'классика,многодневная',
@@ -181,7 +181,7 @@ let events2026 = [
         name: 'Кубок Красногвардейского р-на',
         o_site: '260125',
         reg: 'http://orgeo.ru/event/kubkrl',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24152/',
+        o_gps: 24152,
         type: 'SKI',
         map: 'polyustrovsky_2022',
         fmt: 'спринт'
@@ -193,7 +193,7 @@ let events2026 = [
         name: 'Праздничная тренировка',
         link: 'https://t.me/whitenightesspb/868',
         type: 'ORIENT',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24150/',
+        o_gps: 24150,
         owner: 'WN',
         map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
@@ -208,10 +208,10 @@ let events2026 = [
             'http://o-reg.spb.ru/?filter[day_id]=1712',
             'http://o-reg.spb.ru/?filter[day_id]=1713'
         ],
-        gps: {
-            '31 Все КП': 'https://viewer.o-gps-center.ru/viewer/event/24167/',
-            'М17/45': 'https://viewer.o-gps-center.ru/viewer/event/24178/',
-            'М55': 'https://viewer.o-gps-center.ru/viewer/event/24179/'
+        o_gps: {
+            '31 Все КП': 24167,
+            'М17/45': 24178,
+            'М55': 24179
         },
         photo: 'https://vk.ru/album-154221178_310044732',
         type: 'SKI',
@@ -254,7 +254,7 @@ let events2026 = [
         link: 'https://vk.com/event166397868',
         reg: 'https://orgeo.ru/event/48867',
         res: 'https://vk.com/wall-166397868_5191',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24208/',
+        o_gps: 24208,
         photo: 'https://vk.ru/album-166397868_310108895',
         map: 'omchino_luzhsky_2022',
         owner: 'SHBN'
@@ -294,7 +294,7 @@ let events2026 = [
         name: 'Тренировка от Шириняна',
         link: 'https://t.me/ositespbchat/4386',
         place: 'Таврический сад',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24186/',
+        o_gps: 24186,
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'SHRNN'
@@ -309,7 +309,7 @@ let events2026 = [
         type: 'SKI',
         fmt: 'спринт',
         photo: 'https://vk.com/album-230167293_312624491',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24256/',
+        o_gps: 24256,
         map: 'zerkalny_2002',
         owner: 'SFSO_SPB',
         reskeep: 847
@@ -335,7 +335,7 @@ let events2026 = [
             'http://o-reg.spb.ru/?filter[day_id]=1719',
             'http://o-reg.spb.ru/?filter[day_id]=1720'
         ],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24257/',
+        o_gps: 24257,
         type: 'SKI',
         fmt: 'классика, спринт',
         map: 'zerkalny_tarasovskoe_winter_2023',
@@ -350,7 +350,7 @@ let events2026 = [
         fmt: '5, 2',
         o_site: '260221R',
         reg: 'https://orgeo.ru/event/48446',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24300/',
+        o_gps: 24300,
         map: 'lembolovo_orekhovo_peski_gk_2026',
         start: 'GORNY_CROSS'
     },
@@ -362,7 +362,7 @@ let events2026 = [
         name: 'ЧиП ЛО',
         o_site: '260220_lo',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_2122022026',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24278/',
+        o_gps: 24278,
         type: 'SKI',
         fmt: 'маркир,масстарт',
         map: 'kirovsk_2025',
@@ -376,7 +376,7 @@ let events2026 = [
         o_site: '260221',
         reg: 'http://orgeo.ru/event/info/ib26',
         info: 'Бесплатно, но принимаются добровольные взносы.',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24280/',
+        o_gps: 24280,
         type: 'ORIENT',
         map: 'pavlovsk_mariental_2022',
         owner: 'EGRV_EGR',
@@ -391,7 +391,7 @@ let events2026 = [
         o_site: '260223_ST',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1714',
         reskeep: 842,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24299/',
+        o_gps: 24299,
         photo: ['https://vk.com/album-230167293_312706609'],
         type: 'ORIENT',
         fmt: 'спринт',
@@ -409,7 +409,7 @@ let events2026 = [
         o_site: '260228_ChiP',
         type: 'SKI',
         fmt: 'масстарт',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24341/',
+        o_gps: 24341,
         map: 'orekhovo_nyrkovo_winter_2012',
         owner: 'SFSO_SPB',
         reskeep: 846
@@ -467,9 +467,9 @@ let events2026 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1721',
         info: 'С лабиринтом и бабочками.',
         reskeep: 843,
-        gps: {
-            'M14': 'https://viewer.o-gps-center.ru/viewer/event/24366/',
-            'M21': 'https://viewer.o-gps-center.ru/viewer/event/24380/'
+        o_gps: {
+            'M14': 24366,
+            'M21': 24380
         },
         photo: 'https://vk.ru/album-230167293_312838601',
         type: 'ORIENT',
@@ -489,7 +489,7 @@ let events2026 = [
         o_site: '260308_ski_adv',
         reg: 'https://orgeo.ru/event/ski_adventure_2026',
         res: 'https://vk.com/wall-224681305_16',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24374/',
+        o_gps: 24374,
         photo: 'https://vk.com/album-224681305_310355992',
         type: ['ROGAINE', 'SKI'],
         fmt: '5, 3',
@@ -517,9 +517,9 @@ let events2026 = [
         place: 'Колтуши',
         o_site: '260315_bn',
         reg: 'http://orgeo.ru/event/koltushi_classic',
-        gps: {
-            'A': 'https://viewer.o-gps-center.ru/viewer/event/24408/',
-            'B': 'https://viewer.o-gps-center.ru/viewer/event/24415/'
+        o_gps: {
+            'A': 24408,
+            'B': 24415
         },
         reskeep: 844,
         video: 'https://www.youtube.com/watch?v=_oX6EFzYQo4',
@@ -546,7 +546,7 @@ let events2026 = [
         place: 'Токсово, КомБыт',
         o_site: '260322_p',
         reg: 'http://orgeo.ru/event/51010',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24456/',
+        o_gps: 24456,
         type: 'ORIENT',
         map: 'toksovo_kombyt_2017',
         planner: 'RDNV_B',
@@ -565,9 +565,9 @@ let events2026 = [
         owner: 'FENIX',
         planner: 'RDNV_I',
         map: 'school_141_2015',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/24487/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/24488/'
+        o_gps: {
+            'М': 24487,
+            'Ж': 24488
         },
         video: 'https://www.youtube.com/watch?v=kwG2LAEPqvQ'
     },
@@ -583,7 +583,7 @@ let events2026 = [
         start: 'ST',
         info: 'Сад КП.',
         reskeep: 845,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24537/',
+        o_gps: 24537,
         video: 'https://www.youtube.com/watch?v=iP2Ed47FwB4',
         map: 'sosnovka_2024',
         strava: 17887209338,
@@ -596,7 +596,7 @@ let events2026 = [
         place: 'Серово',
         o_site: '260329_f',
         reg: 'https://orgeo.ru/event/50798',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24486/',
+        o_gps: 24486,
         type: 'ORIENT',
         owner: 'FENIX',
         planner: 'RDNV_I',
@@ -634,7 +634,7 @@ let events2026 = [
         o_site: '260329_f',
         reg: 'https://orgeo.ru/event/50799',
         reskeep: 857,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24568/',
+        o_gps: 24568,
         type: 'ORIENT',
         owner: 'FENIX',
         planner: 'RDNV_I',
@@ -647,9 +647,9 @@ let events2026 = [
         place: 'Ильинский сад',
         reg: 'https://orgeo.ru/event/50800',
         reskeep: 858,
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/24580/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/24581/'
+        o_gps: {
+            'М': 24580,
+            'Ж': 24581
         },
         type: 'ORIENT',
         fmt: 'спринт',
@@ -668,9 +668,9 @@ let events2026 = [
         o_site: '260329_f',
         reg: 'https://orgeo.ru/event/info/50869',
         reskeep: 859,
-        gps: {
-            'A': 'https://viewer.o-gps-center.ru/viewer/event/24591/',
-            'B': 'https://viewer.o-gps-center.ru/viewer/event/24592/'
+        o_gps: {
+            'A': 24591,
+            'B': 24592
         },
         type: 'ORIENT',
         owner: 'FENIX',
@@ -685,9 +685,9 @@ let events2026 = [
         place: 'Школа №532',
         reg: 'https://orgeo.ru/event/50802',
         reskeep: 860,
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/24603/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/24604/'
+        o_gps: {
+            'М': 24603,
+            'Ж': 24604
         },
         type: 'ORIENT',
         fmt: 'спринт',
@@ -702,7 +702,7 @@ let events2026 = [
         place: 'Ильичёво',
         o_site: '250304_bn',
         reg: 'http://orgeo.ru/event/51427',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24619/',
+        o_gps: 24619,
         video: 'https://rutube.ru/video/f06f68fb8f9d2278454b33c50bc9590a/',
         reskeep: 852,
         type: 'ORIENT',
@@ -719,9 +719,9 @@ let events2026 = [
         o_site: '260329_f',
         reg: 'https://orgeo.ru/event/50803',
         reskeep: 861,
-        gps: {
-            'A': 'https://viewer.o-gps-center.ru/viewer/event/24624/',
-            'B': 'https://viewer.o-gps-center.ru/viewer/event/24625/'
+        o_gps: {
+            'A': 24624,
+            'B': 24625
         },
         type: 'ORIENT',
         owner: 'FENIX',
@@ -783,7 +783,7 @@ let events2026 = [
         link: 'https://vk.com/club91656163',
         reg: 'https://orgeo.ru/event/49261',
         res: 'https://vk.com/wall-91656163_2708',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24697/',
+        o_gps: 24697,
         photo: 'https://vk.com/album-91656163_313208177',
         map: 'luga_shalovo_lm_2023',
         owner: 'LM'
@@ -799,10 +799,10 @@ let events2026 = [
             'http://o-reg.spb.ru/?filter[day_id]=1724',
             'http://o-reg.spb.ru/?filter[day_id]=1725'
         ],
-        gps: {
-            '11 М45':'https://viewer.o-gps-center.ru/viewer/event/24688/',
-            '11 ALL':'https://viewer.o-gps-center.ru/viewer/event/24681/',
-            '12':'https://viewer.o-gps-center.ru/viewer/event/24691/'
+        o_gps: {
+            '11 М45':24688,
+            '11 ALL':24681,
+            '12':24691
         },
         type: 'ORIENT',
         fmt: 'классика, спринт',
@@ -840,7 +840,7 @@ let events2026 = [
         place: 'ул Жени Егоровой',
         link: 'https://vk.com/wall-92124592_2210',
         reg: 'https://orgeo.ru/event/51902',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24739/',
+        o_gps: 24739,
         type: 'ORIENT',
         fmt: 'спринт',
         start: 'ST',
@@ -881,9 +881,9 @@ let events2026 = [
         place: 'Передовиков, 29',
         o_site: '260418',
         reg: 'https://orgeo.ru/event/krosprint26',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/24740/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/24741/'
+        o_gps: {
+            'М':24740,
+            'Ж':24741
         },
         reskeep: 874,
         type: 'ORIENT',
@@ -908,7 +908,7 @@ let events2026 = [
         name: 'П-во Кировского р-на',
         place: 'Воронцовский сквер',
         reg: 'https://orgeo.ru/event/52026',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24753/',
+        o_gps: 24753,
         type: 'ORIENT',
         fmt: 'спринт',
         map: 'vorontsovsky_skver_2024'
@@ -920,7 +920,7 @@ let events2026 = [
         place: 'Лемболово, р Вьюн',
         o_site: '260419_p',
         reg: 'http://orgeo.ru/event/51889',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24777/',
+        o_gps: 24777,
         strava: 18170060238,
         reskeep: 876,
         type: 'ORIENT',
@@ -935,9 +935,9 @@ let events2026 = [
         place: 'Школа №532',
         reg: 'https://orgeo.ru/event/50871',
         planner: 'RDNV_B',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/24798/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/24799/'
+        o_gps: {
+            'М':24798,
+            'Ж':24799
         },
         reskeep: 877,
         strava: 18198928633,
@@ -969,7 +969,7 @@ let events2026 = [
         place: 'Петергоф (ПУНК)',
         o_site: '260425_open_season',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1727',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24835/',
+        o_gps: 24835,
         planner: 'SVCHK',
         info: 'Тест бесконтактной SFR-отметки.',
         type: 'ORIENT',
@@ -988,9 +988,9 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/48937',
         photo: 'https://vk.ru/album-166397868_310913468',
         res: 'https://vk.com/wall-166397868_5294',
-        gps: {
-            '1':'https://viewer.o-gps-center.ru/viewer/event/24859/',
-            '2':'https://viewer.o-gps-center.ru/viewer/event/24863/'
+        o_gps: {
+            '1':24859,
+            '2':24863
         },
         type: 'ROGAINE',
         fmt: '4',
@@ -1003,7 +1003,7 @@ let events2026 = [
         name: 'Первомайская классика',
         place: 'Первомайское',
         reg: 'https://orgeo.ru/event/info/pervomay_classic',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24847/',
+        o_gps: 24847,
         reskeep: 879,
         o_site: '260425_bn',
         type: 'ORIENT',
@@ -1017,7 +1017,7 @@ let events2026 = [
         place: 'Пушкин',
         o_site: '260426',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1726',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24849/',
+        o_gps: 24849,
         photo: 'https://vk.com/album-230167293_313365421',
         video: 'https://rutube.ru/video/2776951686b80eb4cdb4d053609e1c47/',
         reskeep: 881,
@@ -1076,7 +1076,7 @@ let events2026 = [
         reg: 'http://orgeo.ru/event/49018',
         name: 'Горный кросс-113',
         photo: 'https://vk.com/album-31941981_310728408',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24914/',
+        o_gps: 24914,
         type: 'ROGAINE',
         fmt: '5(4), 2',
         map: 'luga_omchino_gk_2023',
@@ -1098,7 +1098,7 @@ let events2026 = [
             'https://vk.com/album-163764238_310989822',
             'https://vk.com/album-163764238_310977461'
         ],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24904/',
+        o_gps: 24904,
         type: 'ORIENT',
         fmt: 'классика',
         reskeep: 882,
@@ -1112,7 +1112,7 @@ let events2026 = [
         place: 'Пухтолова гора',
         o_site: '260503_100kp',
         reg: 'https://orgeo.ru/event/50962',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24907/',
+        o_gps: 24907,
         info: '<a href="https://100kp.o-route.ru/">Треки участников</a>.',
         type: 'ORIENT',
         fmt: 'выбор',
@@ -1141,7 +1141,7 @@ let events2026 = [
         place: 'Стеклянный',
         o_site: '260509',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1728',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24950/',
+        o_gps: 24950,
         photo: 'https://vk.com/album-154221178_311076066',
         type: 'ORIENT',
         fmt: 'классика',
@@ -1167,7 +1167,7 @@ let events2026 = [
         place: 'Сосново, оз Уловное',
         o_site: '260510_zg',
         reg: 'http://orgeo.ru/event/info/51859',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24987/',
+        o_gps: 24987,
         video: [
             'https://northernwind.spb.ru/videosplit/2026/zg/prolog/',
             'https://northernwind.spb.ru/videosplit/2026/zg/final/',
@@ -1192,11 +1192,11 @@ let events2026 = [
         place: 'Аньялово',
         o_site: '260511_chemp',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1730',
-        gps: {
-            'ALL':'https://viewer.o-gps-center.ru/viewer/event/24993/',
-            'ALL2':'https://viewer.o-gps-center.ru/viewer/event/25024/',
-            'М21':'https://viewer.o-gps-center.ru/viewer/event/25023/',
-            'М50':'https://viewer.o-gps-center.ru/viewer/event/25016/'
+        o_gps: {
+            'ALL':24993,
+            'ALL2':25024,
+            'М21':25023,
+            'М50':25016
         },
         photo: 'https://vk.com/album-230167293_313515750',
         strava: 18463263908,
@@ -1218,7 +1218,7 @@ let events2026 = [
         reg: 'https://www.multsport.ru/starts/canoe-rogaine-2026/registration.html',
         photo: 'https://vk.com/album-8292013_313581477',
         video: 'https://vk.com/video-8292013_456239260',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25098/',
+        o_gps: 25098,
         type: ['ROGAINE','WATER'],
         fmt: '16,8,4',
         start: 'MULTSPORT',
@@ -1231,7 +1231,7 @@ let events2026 = [
         place: 'Ульяновка',
         o_site: '260516',
         reg: 'http://orgeo.ru/event/sabl26',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25066/',
+        o_gps: 25066,
         type: 'ORIENT',
         fmt: 'спринт',
         map: 'ulianovka_2022',
@@ -1266,7 +1266,7 @@ let events2026 = [
         name: 'ЧиП СПб',
         place: 'Поляны',
         reg: ['http://o-reg.spb.ru/?filter[day_id]=1733','http://o-reg.spb.ru/?filter[day_id]=1732'],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25076/',
+        o_gps: 25076,
         photo: 'https://vk.ru/album-230167293_313563270',
         o_site: '260517',
         type: 'ORIENT',
@@ -1319,7 +1319,7 @@ let events2026 = [
         o_site: '260519_',
         reg: 'https://orgeo.ru/event/50870',
         info: 'С техническими заданиями.',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25114/',
+        o_gps: 25114,
         reskeep: 888,
         strava: 18571193734,
         type: 'ORIENT',
@@ -1336,7 +1336,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'выбор',
         reg: 'https://orgeo.ru/event/permosk26',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25116/',
+        o_gps: 25116,
         photo: 'https://vk.com/album-12947537_309917193',
         reskeep: 889,
         strava: 18583470137,
@@ -1374,7 +1374,7 @@ let events2026 = [
         place: 'Баболовский парк',
         reg: 'http://orgeo.ru/event/tsa26',
         strava: 18620304297,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25131/',
+        o_gps: 25131,
         me: 'М45',
         o_site: '260523',
         type: 'ORIENT',
@@ -1400,7 +1400,7 @@ let events2026 = [
         place: 'Мичуринское, оз Долгое',
         name: 'Кубок Белых ночей №12',
         reg: 'https://orgeo.ru/event/52972',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25132/',
+        o_gps: 25132,
         type: 'ORIENT',
         map: 'michurinskoe_1988',
         owner: 'WN',
@@ -1412,7 +1412,7 @@ let events2026 = [
         name: 'Майские старты',
         reg: ['http://o-reg.spb.ru/?filter[day_id]=1734','http://o-reg.spb.ru/?filter[day_id]=1735'],
         photo: 'https://vk.com/album-230167293_313624527',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25153/',
+        o_gps: 25153,
         reskeep: [891,890],
         planner: 'SHRNN',
         place: 'Орехово',
@@ -1444,7 +1444,7 @@ let events2026 = [
         link: ['https://t.me/pmarshbrosok', 'https://kandid.ru'],
         photo: ['https://disk.yandex.ru/d/QJHL35iYw7iShQ','https://disk.yandex.ru/d/uxbIEg-wR0WiaA'],
         res: 'https://vk.com/wall-29327859_5942',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25166/',
+        o_gps: 25166,
         start: 'MB',
         coord: [60.604374, 29.040213],
         owner: ['BKTV', 'SHBN']
@@ -1455,7 +1455,7 @@ let events2026 = [
         name: 'Ночная тренировка',
         place: 'Орехово',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1744',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25142/',
+        o_gps: 25142,
         o_site: '260523_tr',
         strava: 18626675383,
         me: 'APRO',
@@ -1468,9 +1468,9 @@ let events2026 = [
         date: '2026-05-23',
         name: 'Контрольный старт',
         place: 'Пасторское оз',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/25135/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/25136/'
+        o_gps: {
+            'М':25135,
+            'Ж':25136
         },
         type: 'ORIENT',
         fmt: 'ночное',
@@ -1485,7 +1485,7 @@ let events2026 = [
         link: 'https://vk.ru/wall-92124592_2232',
         reg: 'https://orgeo.ru/event/53145',
         info: '<a href="https://vk.com/@-92124592-bez-nazvaniya">Разбор дистанций</a>.',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25195/',
+        o_gps: 25195,
         reskeep: 892,
         planner: 'RYKV_A',
         type: 'ORIENT',
@@ -1541,7 +1541,7 @@ let events2026 = [
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/48965',
         res: 'https://bikeadventure.ru/arhiv/arhiv-2026-1.php',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25248/',
+        o_gps: 25248,
         photo: ['https://vk.ru/album-232059320_311134585','https://disk.yandex.ru/d/3K5Mr3qCRU-KJA','https://disk.yandex.ru/d/KqyAbJmFszbqyg'],
         info: '<a href="https://rogainestat.ru/events/ba-spring-2026">Анализ</a> путей участников.',
         start: ['BA','TA'],
@@ -1566,10 +1566,10 @@ let events2026 = [
         place: 'Южно-Приморский парк',
         o_site: '260531_RA',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1742',
-        gps: {
-            'М21':'https://viewer.o-gps-center.ru/viewer/event/25252/',
-            'Ж21/М45':'https://viewer.o-gps-center.ru/viewer/event/25253/',
-            'ALL':'https://viewer.o-gps-center.ru/viewer/event/25204/'
+        o_gps: {
+            'М21':25252,
+            'Ж21/М45':25253,
+            'ALL':25204
         },
         video: 'https://vkvideo.ru/video-230167293_456239033',
         reskeep: 895,
@@ -1588,7 +1588,7 @@ let events2026 = [
         place: 'Раздолье',
         name: 'Кубок Белых ночей №13',
         reg: 'https://orgeo.ru/event/53258',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25214/',
+        o_gps: 25214,
         type: 'ORIENT',
         map: 'razdolje_2022',
         owner: 'WN',
@@ -1611,7 +1611,7 @@ let events2026 = [
         name: 'Горный кросс-114',
         o_site: '260606R',
         reg: 'http://orgeo.ru/event/49045',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25293/',
+        o_gps: 25293,
         photo: ['https://disk.yandex.ru/d/x60hmJH6uwo26w','https://vk.com/album-31941981_311094927','https://vk.com/album-31941981_311299868'],
         type: 'ROGAINE',
         fmt: '24, 8(7), 3',
@@ -1634,9 +1634,9 @@ let events2026 = [
         date: '2026-06-06',
         place: 'Яппиля',
         name: 'Летний слёт Петербургского метрополитена',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/25305/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/25306/',
+        o_gps: {
+            'М':25305,
+            'Ж':25306,
         },
         type: 'ORIENT',
         fmt: 'гроздь',
@@ -1648,7 +1648,7 @@ let events2026 = [
         name: 'Кубок D2RUN, 2 этап',
         place: 'Пасторское оз',
         reg: 'https://orgeo.ru/event/52944',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25283/',
+        o_gps: 25283,
         type: 'ORIENT',
         o_site: '260607_D2RUN_2',
         info: 'Спешл-группа — «Новички».',
@@ -1693,11 +1693,11 @@ let events2026 = [
         link: 'https://o-nw.ru/kkp',
         reg: 'https://sportident.online/entry/?id=6854',
         res: 'https://sportident.online/ol_new/?id=2829',
-        gps: {
-            'М1':'https://viewer.o-gps-center.ru/viewer/event/25329/',
-            'М2':'https://viewer.o-gps-center.ru/viewer/event/25331/',
-            'Ж1':'https://viewer.o-gps-center.ru/viewer/event/25332/',
-            'Ж2':'https://viewer.o-gps-center.ru/viewer/event/25333/',
+        o_gps: {
+            'М1':25329,
+            'М2':25331,
+            'Ж1':25332,
+            'Ж2':25333,
         },
         photo: [
             'https://www.sport-images.ru/events/nochnaya-estafeta-piramida-2026/',
@@ -1720,7 +1720,7 @@ let events2026 = [
         link: 'https://o-nw.ru/kkp',
         reg: 'https://sportident.online/entry/?id=6853',
         res: 'https://sportident.online/ol_new/?id=2830',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25345/',
+        o_gps: 25345,
         photo: ['https://www.sport-images.ru/events/detskaya-estafeta-kamenukola-2026/','https://vk.com/album-227779225_311462402'],
         video: 'https://vk.com/video-93257360_456239321',
         type: 'ORIENT',
@@ -1735,7 +1735,7 @@ let events2026 = [
         place: 'Силанде',
         o_site: '260621_p',
         reg: 'http://orgeo.ru/event/info/53685',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25453/',
+        o_gps: 25453,
         type: 'ORIENT',
         map: 'silande_2024',
     },
@@ -1762,7 +1762,7 @@ let events2026 = [
         o_site: '260627r',
         reg: 'http://reg.o-time.ru/race/26238',
         info: '<a href="https://ladoga.o-route.ru/">Треки участников</a>.',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25504/',
+        o_gps: 25504,
         type: ['ROGAINE','WATER'],
         fmt: '12, 6, 4',
         map: 'kuznechnoe_hard_2024',
@@ -1810,7 +1810,7 @@ let events2026 = [
         name: 'Горный кросс-115',
         o_site: '260704R',
         reg: 'https://orgeo.ru/event/50692',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25541/',
+        o_gps: 25541,
         photo: 'https://vk.com/album-31941981_311204277',
         info: '<a href="https://rogainestat.ru/events/gk-115-2026">Анализ</a> путей участников.',
         type: 'ROGAINE',
@@ -1878,7 +1878,7 @@ let events2026 = [
         o_site: '260711_Dlit_1',
         reg: 'http://orgeo.ru/event/53961',
         reskeep: 905,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25589/',
+        o_gps: 25589,
         owner: 'DLITELNY',
         me: 'А',
         strava: 19268258785,
@@ -1893,7 +1893,7 @@ let events2026 = [
         o_site: '260712_Dlit_2',
         reg: 'http://orgeo.ru/event/53962',
         reskeep: 906,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25596/',
+        o_gps: 25596,
         owner: 'DLITELNY',
         me: 'А',
         strava: 19281681099,
@@ -1916,7 +1916,7 @@ let events2026 = [
         place: 'Воробьево оз',
         o_site: '260718_rog',
         reg: ['http://orgeo.ru/event/info/vorobyovo_tren','http://orgeo.ru/event/vorobyovo2026_rog'],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25639/',
+        o_gps: 25639,
         type: ['ROGAINE', 'ORIENT'],
         fmt: '3',
         owner: 'WN',

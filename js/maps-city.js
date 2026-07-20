@@ -183,8 +183,8 @@ let cityMaps = [
         url: './maps/city/drezdenskaya_2023.webp',
         link: ['./original_maps/city/drezdenskaya_2023_omaps.jpg','./original_maps/city/gdanskaya_2025.jpg'],
         bounds: [[60.022635471141434, 30.321493148803714], [60.020480380626545, 30.342693328857425], [60.01349949595348, 30.31784534454346]],
-        gps: {
-            'Невский Спринт': 'https://viewer.o-gps-center.ru/viewer/event/17533/'
+        o_gps: {
+            'Невский Спринт': 17533
         },
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
@@ -329,7 +329,7 @@ let cityMaps = [
         date: '2025-09-10',
         url: './maps/city/narvskaya_2025.webp',
         link: './original_maps/city/narvskaya_2025_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23375/',
+        o_gps: 23375,
         reskeep: 792,
         bounds: [[59.90039947081465, 30.260939598083496], [59.89875297810411, 30.27718305587769], [59.89376995717028, 30.25797843933106]],
         start: 'ST',
@@ -532,9 +532,9 @@ let cityMaps = [
         date: '2024-05-19',
         start: ['RUSSIA_2024','RUSSIA_CHAMP'],
         info: 'Кросс-спринт-общий старт.',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/19474/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/19473/'
+        o_gps: {
+            'М': 19474,
+            'Ж': 19473
         },
         url: './maps/city/serebrjany_prud_2024.webp',
         link: ['./original_maps/city/serebrjany_prud_2024_omaps.gif','./original_maps/city/serebrjany_prud_2024_05_19.jpeg','./original_maps/city/serebrjany_prud_2024_05_19_W.jpeg'],
@@ -893,7 +893,7 @@ let cityMaps = [
         year: 2026,
         url: './maps/city/peterhof_spbgu_2026.webp',
         link: './original_maps/city/peterhof_spbgu_2026_omaps.webp',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24835/',
+        o_gps: 24835,
         publish: 'https://vk.com/album-230167293_313366249',
         bounds: [[59.88760203013298, 29.816358089447025], [59.8845230203562, 29.84466075897217], [59.877793422122956, 29.81219530105591]],
         author: 'SVCHK',
@@ -937,7 +937,7 @@ let cityMaps = [
         url: './maps/city/dibunovskaya_2022.webp',
         link: ['./original_maps/city/dibunovskaya_2022_st_omaps.gif','./original_maps/city/dibunovskaya_st_2025_08_05_omaps.webp'],
         reskeep: [571,713],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/14471/',
+        o_gps: 14471,
         bounds: [[59.98930699819738, 30.271260738372806], [59.987927868402906, 30.2863883972168], [59.98401554936793, 30.269372463226322]],
         author: 'DBRTSV_V',
         start: 'ST',
@@ -950,9 +950,9 @@ let cityMaps = [
         date: ['2023-10-04','2026-05-27'],
         url: './maps/city/zhaka_djuklo_2023.webp',
         link: ['./original_maps/city/zhaka_djuklo_2023_st_omaps.gif','./original_maps/city/zhaka_djuklo_2026_05_27_st_omaps.gif'],
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/17480/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/17482/'
+        o_gps: {
+            'М':17480,
+            'Ж':17482
         },
         reskeep: [619,892],
         bounds: [[60.01458264841114, 30.345954895019535], [60.012298334901786, 30.36578178405762], [60.00745034864706, 30.343229770660404]],
@@ -967,7 +967,7 @@ let cityMaps = [
         url: './maps/city/karpinskogo_2019.webp',
         link: ['./original_maps/city/karpinskogo_2019_st_omaps.gif','./original_maps/city/karpinskogo_2023_st_omaps.gif'],
         reskeep: 603,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17006/',
+        o_gps: 17006,
         bounds: [[60.016738123463774, 30.41652917861939], [60.01664161266094, 30.430562496185306], [60.0068282104595, 30.41650772094727]],
         author: 'SRBRNTSKY',
         start: 'ST',
@@ -1000,7 +1000,7 @@ let cityMaps = [
     {
         name: 'Манеж Алексеева',
         year: 2025,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22533/',
+        o_gps: 22533,
         info: 'ЧиП СПб, спринт.',
         o_site: '250511_sprint',
         url: './maps/city/manezh_alekseeva_2025.webp',
@@ -1064,7 +1064,7 @@ let cityMaps = [
         date: '2022-09-06',
         url: './maps/city/omskaya_2022.webp',
         link: './original_maps/city/omskaya_2022_st_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/14009/',
+        o_gps: 14009,
         reskeep: 555,
         bounds: [[60.00236563490866, 30.31413316726685], [59.99944747147775, 30.32662153244019], [59.993277712432054, 30.30559301376343]],
         author: 'CHGRVSKY_M',
@@ -1078,7 +1078,7 @@ let cityMaps = [
         url: './maps/city/egorovoy_2026.webp',
         link: ['./original_maps/city/egorovoy_2026_omaps.gif','./original_maps/city/egorovoy_2026_04_15_st_omaps.webp'],
         bounds: [[60.06518310790344, 30.304927825927738], [60.06364651887828, 30.319465398788456], [60.05842050989998, 30.302009582519535]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24739/',
+        o_gps: 24739,
         reskeep: 871,
         start: 'ST',
         planner: 'SRBRNTSKY',
@@ -1150,7 +1150,7 @@ let cityMaps = [
         date: '2023-10-28',
         url: './maps/city/sestroretskaya_2023.webp',
         link: ['./original_maps/city/sestroretskaya_2022_st_omaps.gif','./original_maps/city/sestroretskaya_2023_st_omaps.gif'],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17674/',
+        o_gps: 17674,
         reskeep: 621,
         bounds: [[59.98958067081682, 30.284564495086673], [59.98846986790074, 30.296956300735477], [59.98436977012997, 30.28264403343201]],
         author: 'DBRTSV_V',
@@ -1258,7 +1258,7 @@ let cityMaps = [
         year: 2025,
         url: './maps/city/sertolovo_pogranichnaya_2024.webp',
         link: './original_maps/city/sertolovo_pogranichnaya_2025_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22089/',
+        o_gps: 22089,
         bounds: [[60.14655736252173, 30.22225141525269], [60.14548921840645, 30.235126018524173], [60.14054325894998, 30.219590663909912]],
         type: ['CITY'],
         author: 'SVCHK',
@@ -1650,9 +1650,9 @@ let cityMaps = [
         url: './maps/city/porokhovye_school_127_2026.webp',
         link: './original_maps/city/porokhovye_school_127_2026_omaps.gif',
         bounds: [[59.9562564758587, 30.461525917053226], [59.95506397914048, 30.472962856292728], [59.948821471824935, 30.45821070671082]],
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/24740/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/24741/'
+        o_gps: {
+            'М':24740,
+            'Ж':24741
         },
         author: 'RDNV_I',
         owner: 'RDNV_I',
@@ -1754,9 +1754,9 @@ let cityMaps = [
         date: '2020-09-26',
         start: ['RUSSIA_2020','RUSSIA_CHAMP'],
         info: 'Спринт.',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/8200/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/8201/'
+        o_gps: {
+            'М': 8200,
+            'Ж': 8201
         },
         url: './maps/city/vyborg_center_2020_09_26.webp',
         link: ['https://viewer.o-gps-center.ru/newmaps/map_6254_d07a76f95f30269314187498b6cda61d.gif','https://viewer.o-gps-center.ru/newmaps/course_8201_7f78af6185476657994fa01093426a57.gif'],
@@ -1785,7 +1785,7 @@ let cityMaps = [
         name: 'Выборг, Интендантская гора',
         url: './maps/city/vyborg_intendantskaja_gora.webp',
         bounds: [[60.70828304787419, 28.740448951721195], [60.70826205126157, 28.756370544433597], [60.6982661064393, 28.73959064483643]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23708/',
+        o_gps: 23708,
         type: ['CITY'],
         author: 'MSPN',
         owner: 'VYBORG'
@@ -1987,7 +1987,7 @@ let cityMaps = [
         url: './maps/city/kudrovo_vena_2025.webp',
         link: './original_maps/city/kudrovo_vena_2025_omaps.jpg',
         bounds: [[59.90376753169073, 30.505921840667728], [59.902992800332655, 30.514794588088993], [59.8964499036641, 30.50336837768555]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23947/',
+        o_gps: 23947,
         author: ['RYLOV_V','SHRNN'],
         owner: 'RYLOV_V',
         editor: 'SHRNN',
@@ -2051,9 +2051,9 @@ let cityMaps = [
         info: 'Пролог №1.',
         url: './maps/city/sosnovy_bor_2021_05_29.webp',
         link: ['./original_maps/city/sosnovy_bor_2021_05_29.gif','./original_maps/city/sosnovy_bor_2021_05_29_W.gif'],
-        gps: {
-            'M': 'https://viewer.o-gps-center.ru/viewer/event/10011/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/10012/'
+        o_gps: {
+            'M': 10011,
+            'Ж': 10012
         },
         bounds: [[59.89209084438972, 29.07814979553223], [59.89078839718945, 29.091238975524906], [59.882864973849955, 29.074587821960453]],
         author: 'DBRTSV_V',
@@ -2067,9 +2067,9 @@ let cityMaps = [
         info: 'Пролог №2.',
         url: './maps/city/sosnovy_bor_2021_05_30.webp',
         link: ['./original_maps/city/sosnovy_bor_2021_05_30_correct.jpg','./original_maps/city/sosnovy_bor_2021_05_30.gif','./original_maps/city/sosnovy_bor_2021_05_30_W_correct.jpg','./original_maps/city/sosnovy_bor_2021_05_30_W.gif'],
-        gps: {
-            'M': 'https://viewer.o-gps-center.ru/viewer/event/10013/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/10014/'
+        o_gps: {
+            'M': 10013,
+            'Ж': 10014
         },
         bounds: [[59.90279911466906, 29.072592258453373], [59.89999054560306, 29.08838510513306], [59.89423277461944, 29.070467948913578]],
         author: ['DBRTSV_V','MSPN'],
@@ -2083,9 +2083,9 @@ let cityMaps = [
         info: 'Финал.',
         url: './maps/city/sosnovy_bor_2021_05_31.webp',
         link: ['./original_maps/city/sosnovy_bor_2021_05_31.gif','./original_maps/city/sosnovy_bor_2021_05_31_W.gif'],
-        gps: {
-            'M': 'https://viewer.o-gps-center.ru/viewer/event/10015/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/10016/'
+        o_gps: {
+            'M': 10015,
+            'Ж': 10016
         },
         bounds: [[59.8945126146003, 29.082570075988773], [59.89341476731317, 29.094200134277347], [59.88766662168852, 29.08016681671143]],
         author: ['PPV_D'],
@@ -2097,7 +2097,7 @@ let cityMaps = [
         date: '2024-05-17',
         start: ['RUSSIA_2024','RUSSIA_CHAMP'],
         info: 'Кросс-эстафета-4 человека.',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19452/',
+        o_gps: 19452,
         url: './maps/city/petropavlovka_2024.webp',
         link: ['./original_maps/city/petropavlovka_2024_omaps.gif','./original_maps/city/petropavlovka_2024_05_17.jpeg'],
         bounds: [[59.953688794515855, 30.310721397399906], [59.952281319914974, 30.32381057739258], [59.94795108051587, 30.30840396881104]],
@@ -2144,7 +2144,7 @@ let cityMaps = [
         bounds: [[60.20340726922134, 29.70664501190186], [60.20211704541842, 29.717910289764408], [60.19681699890615, 29.704005718231205]],
         info: 'Невский спринт.',
         o_site: '251007_NS',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23568/',
+        o_gps: 23568,
         publish: 'https://vk.com/album-230167293_311285775',
         author: 'SVCHK',
         owner: 'SFSO_SPB',

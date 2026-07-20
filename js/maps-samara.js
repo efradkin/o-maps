@@ -19,7 +19,7 @@ let samaraMaps = [
         link: 'https://viewer.o-gps-center.ru/newmaps/course_24013_fa3a18e75f6b9b8e078b3ac0de973b7f.jpeg',
         info: 'Соревнования по спортивному ориентированию в формате рогейн памяти Г.В. Штритера.',
         bounds: [[53.51262786469413, 49.3013620376587], [53.508161730732425, 49.35822486877442], [53.488173206973485, 49.295954704284675]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24013/',
+        o_gps: 24013,
         type: ['ROGAINE'],
         region: 'SAMARA'
     },
@@ -186,7 +186,7 @@ let samaraMaps = [
         url: './maps/samara/mehzavod_2025.webp',
         link: './original_maps/samara/mehzavod_2025_omaps.gif',
         bounds: [[53.30624305978567, 50.2676546573639], [53.30456978604454, 50.28141975402833], [53.29908150085477, 50.26516556739808]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23675/',
+        o_gps: 23675,
         author: ['VLKV_E','KSKV_A'],
         owner: 'ZNVJV_A',
         type: ['CITY','SPRINT']
@@ -197,7 +197,7 @@ let samaraMaps = [
         url: './maps/samara/mehzavodskoe_winter_2025.webp',
         link: './original_maps/samara/mehzavodskoe_winter_2025_omaps.gif',
         bounds: [[53.31428796229534, 50.26176452636719], [53.31214707652413, 50.27893066406251], [53.3068136247282, 50.25921106338502]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21403/',
+        o_gps: 21403,
         author: 'KSKV_A',
         owner: 'ZNVJV_A',
         type: ['WINTER']

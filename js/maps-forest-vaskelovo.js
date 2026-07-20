@@ -191,7 +191,7 @@ let vaskelovoMaps = [
         date: '2025-06-20',
         url: './maps/forest/vaskelovo/silande_2025.webp',
         link: './original_maps/forest/vaskelovo/silande_2025_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23126/',
+        o_gps: 23126,
         bounds: [[60.40421008005895, 30.233602523803714], [60.40211171302363, 30.262098312377933], [60.38440798114749, 30.22746562957764]],
         author: ['RDNV_B','RDNV_I','DBRTSV_V'],
         owner:  ['RDNV_B','RDNV_I']
@@ -391,7 +391,7 @@ let vaskelovoMaps = [
         year: 2021,
         url: './maps/forest/vaskelovo/stekljanny_2021.webp',
         link: './original_maps/forest/vaskelovo/stekljanny_2021_omaps.webp',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24950/',
+        o_gps: 24950,
         bounds: [[60.37779046320838, 30.23046970367432], [60.37297494976914, 30.287847518920902], [60.350415298226004, 30.221114158630375]],
         author: 'MKHLV_A',
         owner: 'WN'
@@ -461,13 +461,13 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/orekhovo_south_2021_omaps.gif',
         info: 'Чип СПб, лонг.',
         o_site: '210606',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/10104/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/10105/',
-            'М20': 'https://viewer.o-gps-center.ru/viewer/event/10106/',
-            'Ж20': 'https://viewer.o-gps-center.ru/viewer/event/10107/',
-            'M18': 'https://viewer.o-gps-center.ru/viewer/event/10108/',
-            'Все': 'https://viewer.o-gps-center.ru/viewer/event/10110/',
+        o_gps: {
+            'М': 10104,
+            'Ж': 10105,
+            'М20': 10106,
+            'Ж20': 10107,
+            'M18': 10108,
+            'Все': 10110,
         },
         publish: 'https://t.me/dlitelnyy/288',
         bounds: [[60.45025527630089, 30.237078666687015], [60.445238796388175, 30.297031402587894], [60.42497449673764, 30.228109359741214]],
@@ -748,7 +748,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_figurnoe_2025.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_2025_omaps.gif',
         bounds: [[60.46106876414282, 30.27862071990967], [60.456117437740424, 30.329904556274418], [60.44318541452643, 30.271968841552738]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22515/',
+        o_gps: 22515,
         publish: 'https://vk.com/album-230167293_313624527',
         author: 'CHGRVSKY_V',
         owner: ['CHGRVSKY_V','KUZM_CHGRVSKY']

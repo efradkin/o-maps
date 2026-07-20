@@ -1379,9 +1379,9 @@ function buildMapPopup(m) {
     }
 
     // GPS-трансляция
-    let gps = m.gps;
+    let gps = getGPS(m);
     if (!gps && m.calendar) {
-        gps = cal.gps;
+        gps = getGPS(cal);
     }
     if (gps) {
         result += '<span class="gps-info"><img src="./images/o-gps.gif" alt="GPS" /> ';
@@ -1498,7 +1498,7 @@ function buildEventPopup(evt, m) {
     }
 
     // GPS-трансляция
-    if (evt.gps) {
+    if (getGPS(evt)) {
         result += '<span class="gps-info"><img src="./images/o-gps.gif" alt="GPS" /> ';
         result += 'GPS-трансляция: ' + buildGpsLinks(evt);
         result += '.</span><br />';

@@ -729,9 +729,9 @@ let events2021 = [
         fmt: '12',
         link: 'http://tradventure.ru , http://bikeadventure.ru',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2021-1.php',
-        gps: {
-            'BA':'https://viewer.o-gps-center.ru/viewer/event/9986/',
-            'TA':'https://viewer.o-gps-center.ru/viewer/event/9987/'
+        o_gps: {
+            'BA':9986,
+            'TA':9987
         },
         photo: 'https://vk.com/album-30311715_276456938',
         map: 'hiitola_ba_2021',

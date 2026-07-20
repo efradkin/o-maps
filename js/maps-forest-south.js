@@ -553,9 +553,9 @@ let southMaps = [
         year: 2022,
         start: ['RUSSIA_2022','RUSSIA_CHAMP'],
         info: '9.06, кросс-многодневный (пролог 1).',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/13284/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/13304/'
+        o_gps: {
+            'М': 13284,
+            'Ж': 13304
         },
         url: './maps/forest/south/luga_omchino_2022_06_09.webp',
         link: ['./original_maps/forest/south/luga_omchino_2022_06_09.gif','./original_maps/forest/south/luga_omchino_2022_06_09_W.gif'],
@@ -567,9 +567,9 @@ let southMaps = [
         year: 2022,
         start: ['RUSSIA_2022','RUSSIA_CHAMP'],
         info: '10.06, кросс-многодневный (пролог 2).',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/13305/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/13307/'
+        o_gps: {
+            'М': 13305,
+            'Ж': 13307
         },
         url: './maps/forest/south/luga_omchino_2022_06_10.webp',
         link: ['./original_maps/forest/south/luga_omchino_2022_06_10.gif','./original_maps/forest/south/luga_omchino_2022_06_10_W.gif'],
@@ -582,9 +582,9 @@ let southMaps = [
         excluded: true,
         start: ['RUSSIA_2022','RUSSIA_CHAMP'],
         info: '11.06, кросс-многодневный (финал).',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/13308/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/13309/'
+        o_gps: {
+            'М': 13308,
+            'Ж': 13309
         },
         url: './maps/forest/south/luga_omchino_2022_06_11.webp',
         link: ['./original_maps/forest/south/luga_omchino_2022_06_11.gif','./original_maps/forest/south/luga_omchino_2022_06_11_W.gif'],

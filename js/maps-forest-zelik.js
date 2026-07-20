@@ -53,7 +53,7 @@ let zelikMaps = [
         link: './original_maps/forest/zelik/lovetskoe_2025_omaps.gif',
         author: 'RDNV_I',
         bounds: [[60.27349349051767, 29.69561576843262], [60.27130157476378, 29.720420837402347], [60.25478300268887, 29.687461853027347]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23863/'
+        o_gps: 23863
     },
     {
         name: 'Рощино',
@@ -570,9 +570,9 @@ let zelikMaps = [
         o_site: '150906',
         url: './maps/forest/zelik/ilychevo-simagino_2015.webp',
         link: ['./original_maps/forest/zelik/ilychevo_simagino_2015_omaps.jpg','./original_maps/forest/zelik/ilychevo_simagino_2015_marathon_omaps.jpg','./original_maps/forest/zelik/zelik_simagino_2015_omaps.ocd'],
-        gps: {
-            'МЭ': 'https://viewer.o-gps-center.ru/viewer/event/657/',
-            'ЖЭ': 'https://viewer.o-gps-center.ru/viewer/event/658/'
+        o_gps: {
+            'МЭ': 657,
+            'ЖЭ': 658
         },
         bounds: [[60.29246976482949, 29.792947769165043], [60.28749274926003, 29.86719131469727], [60.24356009471195, 29.772605895996097]],
         author: ['KUZNTSV_S','SHRNN'],
@@ -586,7 +586,7 @@ let zelikMaps = [
         bounds: [[60.263767074689504, 29.796123504638675], [60.25904116408923, 29.84672069549561], [60.24660578014152, 29.789900779724125]],
         info: 'Невский спринт.',
         o_site: '251007_NS',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23575/',
+        o_gps: 23575,
         publish: 'https://vk.com/album-230167293_311285775',
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB',
@@ -639,7 +639,7 @@ let zelikMaps = [
         year: 2025,
         url: './maps/forest/zelik/roschino_2025.webp',
         link: './original_maps/forest/zelik/roschino_2025_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21692/',
+        o_gps: 21692,
         bounds: [[60.285812303696865, 29.59047317504883], [60.28449341251603, 29.63943958282471], [60.26700243978524, 29.588413238525394]],
         author: 'SHRPVA',
         owner: 'SHRPVA'
@@ -905,7 +905,7 @@ let zelikMaps = [
         year: 2021,
         url: './maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2021.webp',
         bounds: [[60.13862022294616, 29.950618743896484], [60.137338136484786, 29.965424537658695], [60.12825526011688, 29.946370124816898]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24008/',
+        o_gps: 24008,
         author: 'MKHLV_A',
         owner: 'WN',
         zindex: 3

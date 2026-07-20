@@ -291,7 +291,7 @@ let specialMaps = [
         year: 2026,
         url: './maps/winter/polustrovsky_park_winter_2026.webp',
         link: './original_maps/winter/polustrovsky_park_winter_2026_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24152/',
+        o_gps: 24152,
         bounds: [[59.96878047030928, 30.42071342468262], [59.96811464809843, 30.43294429779053], [59.963346110798675, 30.41895389556885]],
         author: 'RDNV_I',
         owner: 'RDNV_I',
@@ -314,7 +314,7 @@ let specialMaps = [
         info: 'ЧиП СПб, ЛГ-маркир.',
         url: './maps/winter/anyalovo_winter_2023.webp',
         link: './original_maps/winter/anyalovo_winter_2023_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18157/',
+        o_gps: 18157,
         bounds: [[60.312582798414866, 30.499763488769535], [60.30854417624976, 30.537958145141605], [60.29933850324382, 30.49461364746094]],
         author: ['TKMKV_K','KVZN'],
         owner: 'SFSO_SPB',
@@ -664,7 +664,7 @@ let specialMaps = [
         info: '210605_MTBO_klass.',
         o_site: '210605_MTBO_klass',
         url: './maps/velo/sverdlovets_velo_2021.webp',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/13866/',
+        o_gps: 13866,
         link: ['./original_maps/velo/sverdlovets_velo_2021_omaps.jpg','./original_maps/velo/sverdlovets_velo_2022_omaps.gif'],
         bounds: [[60.516687500657405, 30.2754020690918], [60.51455414407001, 30.310506820678714], [60.49602394278501, 30.269608497619632]],
         author: ['DBRTSV_V','SHLKHN_AN','AKSNVA','AKSNV'],
@@ -673,10 +673,10 @@ let specialMaps = [
     {
         name: 'Орехово, Фигурное оз',
         year: 2022,
-        gps: {
-            '2022-08':'https://viewer.o-gps-center.ru/viewer/event/13837/',
-            '2020-08-16':'https://viewer.o-gps-center.ru/viewer/event/7997/',
-            '2020-08-15':'https://viewer.o-gps-center.ru/viewer/event/7988/'
+        o_gps: {
+            '2022-08':13837,
+            '2020-08-16':7997,
+            '2020-08-15':7988
         },
         url: './maps/velo/orekhovo_figurnoe_velo_2020.webp',
         link: ['./original_maps/velo/orekhovo_figurnoe_velo_2022_omaps.gif','./original_maps/velo/orekhovo_figurnoe_velo_2020_omaps.gif'],
@@ -686,7 +686,7 @@ let specialMaps = [
     {
         name: 'Запорожское',
         year: 2022,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/13849/',
+        o_gps: 13849,
         url: './maps/velo/zaporozhskoe_velo_2022.webp',
         link: './original_maps/velo/zaporozhskoe_velo_2022_2022_omaps.gif',
         bounds: [[60.61342771193733, 30.546455383300785], [60.60517170796431, 30.642070770263675], [60.56149773161382, 30.52714347839356]],
@@ -697,7 +697,7 @@ let specialMaps = [
         year: 2020,
         url: './maps/velo/osinovaja_roscha_velo_2020.webp',
         link: './original_maps/velo/osinovaja_roscha_velo_2020_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/8327/',
+        o_gps: 8327,
         bounds: [[60.12288984243818, 30.240340232849125], [60.12079474073598, 30.266561508178714], [60.11036000398086, 30.23669242858887]],
         owner: 'SHLKHN_AN',
         type: ['VELO']
@@ -749,7 +749,7 @@ let specialMaps = [
         link: './original_maps/velo/lembolovo_velo_2019_omaps.jpeg',
         info: '<a href="https://vk.com/lembolovomarathon">Лемболовский веломарафон "Горные вершины"</a>.',
         start: 'KVMLO',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/6347/',
+        o_gps: 6347,
         bounds: [[60.43240832461208, 30.250854492187504], [60.4456198220461, 30.31539916992188], [60.39151183234099, 30.285015106201175]],
         type: ['VELO']
     },

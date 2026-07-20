@@ -74,7 +74,7 @@ let funMaps = [
         url: './maps/fun/peterhof_foto_2024_03.webp',
         link: 'https://sun9-85.userapi.com/s/v1/ig2/kJUvKjQVvv-ZQIhDOmqTwIHPXU-1BwkWB3GP4m5DXhzuN5Y9oVQvLdzf2LD6rL7y9dIpBcajgkwMQG2E7aVB8R0Q.jpg?quality=95&as=32x24,48x35,72x53,108x80,160x118,240x177,360x266,480x355,540x399,640x473,720x532,1080x798,1280x945,1440x1064,2560x1891&from=bu&cs=2560x0',
         bounds: [[59.890906803590205, 29.884486198425293], [59.890960624541954, 29.97581005096436], [59.85725164967184, 29.88457202911377]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/21133/',
+        o_gps: 21133,
         owner: 'RYZHOV',
         type: ['FOTO','ROGAINE']
     },

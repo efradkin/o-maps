@@ -96,7 +96,7 @@ let gsStartsMaps = [
         o_site: '210821ZZ',
         url: './maps/starts/gs/gs_2021_08_21.webp',
         link: './original_maps/starts/gs/gs_2021_08_21_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/10764/',
+        o_gps: 10764,
         bounds: [[60.42624535699542, 30.280294418334964], [60.42207251294831, 30.332393646240234], [60.408766673833426, 30.274586677551273]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
         planner: 'PRVSKY'
@@ -108,7 +108,7 @@ let gsStartsMaps = [
         o_site: '220820ZZ',
         url: './maps/starts/gs/gs_2022_08_20.webp',
         link: './original_maps/starts/gs/gs_2022_08_20_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16563/',
+        o_gps: 16563,
         bounds: [[60.24209039694797, 29.644289016723636], [60.239022989201736, 29.682998657226566], [60.22860443987542, 29.63943958282471]],
         author: 'MKHLV_A',
         planner: 'PRVSKY'
@@ -120,7 +120,7 @@ let gsStartsMaps = [
         o_site: '230826ZZ',
         url: './maps/starts/gs/gs_2023_08_26.webp',
         link: './original_maps/starts/gs/gs_2023_08_26_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17075/',
+        o_gps: 17075,
         bounds: [[60.63304830371036, 29.831829071044925], [60.61582829627545, 29.87264156341553], [60.61911301699879, 29.806380271911625]],
         author: ['MKHLV_A','SLBDNK'],
         planner: 'PRVSKY'
@@ -132,7 +132,7 @@ let gsStartsMaps = [
         o_site: '240901ZZ',
         url: './maps/starts/gs/gs_2024_09_01.webp',
         link: './original_maps/starts/gs/gs_2024_09_01_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20345/',
+        o_gps: 20345,
         bounds: [[60.63527907437371, 29.95782852172852], [60.63119622589342, 29.999842643737797], [60.62008152464803, 29.95156288146973]],
         author: ['MKHLV_A','SLBDNK','TKMKV_K'],
         planner: 'KSRKV'

@@ -333,7 +333,7 @@ let wnStartsMaps = [
         o_site: '220624.',
         url: './maps/starts/wn/wn_2022_06_25.webp',
         link: './original_maps/starts/wn/wn_2022_06_25_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/13468/',
+        o_gps: 13468,
         bounds: [[60.6303332896704, 30.11009216308594], [60.62526044158934, 30.160946846008304], [60.61224841210664, 30.10339736938477]],
         author: 'MKHLV_A',
         zindex: 2
@@ -358,7 +358,7 @@ let wnStartsMaps = [
         o_site: 'bn_2023',
         url: './maps/starts/wn/wn_2023_06_30.webp',
         link: './original_maps/starts/wn/wn_2023_06_30_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16673/',
+        o_gps: 16673,
         bounds: [[60.60388678273997, 30.207853317260746], [60.59965248684091, 30.257806777954105], [60.58641936661552, 30.202488899230957]],
         author: ['MKHLV_A','SBLV_S'],
         zindex: 2
@@ -371,7 +371,7 @@ let wnStartsMaps = [
         o_site: 'bn_2023',
         url: './maps/starts/wn/wn_2023_07_01.webp',
         link: './original_maps/starts/wn/wn_2023_07_01_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16701/',
+        o_gps: 16701,
         bounds: [[60.62519728907414, 30.19746780395508], [60.622207928563185, 30.233345031738285], [60.603023115730856, 30.190644264221195]],
         author: ['MKHLV_A','SBLV_S'],
         zindex: 2
@@ -384,7 +384,7 @@ let wnStartsMaps = [
         o_site: 'bn_2023',
         url: './maps/starts/wn/wn_2023_07_02.webp',
         link: './original_maps/starts/wn/wn_2023_07_02_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16699/',
+        o_gps: 16699,
         bounds: [[60.62163949767975, 30.21403312683106], [60.618986687770374, 30.24415969848633], [60.59640792414513, 30.205621719360355]],
         author: ['MKHLV_A','SBLV_S'],
         zindex: 2
@@ -397,7 +397,7 @@ let wnStartsMaps = [
         o_site: 'bn_2024',
         url: './maps/starts/wn/wn_2024_06_28.webp',
         link: './original_maps/starts/wn/wn_2024_06_28_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19931/',
+        o_gps: 19931,
         bounds: [[60.936478514767295, 30.304455757141117], [60.93456049877829, 30.331406593322757], [60.919253928779646, 30.29836177825928]],
         author: 'MKHLV_A'
     },
@@ -409,7 +409,7 @@ let wnStartsMaps = [
         o_site: 'bn_2024',
         url: './maps/starts/wn/wn_2024_06_29.webp',
         link: './original_maps/starts/wn/wn_2024_06_29_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19933/',
+        o_gps: 19933,
         bounds: [[60.917460034557806, 30.294971466064457], [60.91357987141545, 30.34209251403809], [60.89980773796113, 30.288791656494144]],
         author: ['MKHLV_A','SLBDNK','SBLV_S','USNKO']
     },
@@ -421,7 +421,7 @@ let wnStartsMaps = [
         o_site: 'bn_2024',
         url: './maps/starts/wn/wn_2024_06_30.webp',
         link: './original_maps/starts/wn/wn_2024_06_30_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19944/',
+        o_gps: 19944,
         bounds: [[60.931078587607594, 30.3178882598877], [60.92909768981922, 30.343422889709476], [60.91203601923127, 30.31213760375977]],
         author: 'MKHLV_A'
     },
@@ -433,7 +433,7 @@ let wnStartsMaps = [
         o_site: '2025_bn',
         url: './maps/starts/wn/wn_2025_06_28.webp',
         link: './original_maps/starts/wn/wn_2025_06_28_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22979/',
+        o_gps: 22979,
         bounds: [[60.63035433717011, 30.1051139831543], [60.625428847692, 30.159187316894535], [60.612964420715436, 30.09841918945313]],
         author: ['MKHLV_A','USNKO']
     },
@@ -445,7 +445,7 @@ let wnStartsMaps = [
         o_site: '2025_bn',
         url: './maps/starts/wn/wn_2025_06_29.webp',
         link: './original_maps/starts/wn/wn_2025_06_29_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22980/',
+        o_gps: 22980,
         bounds: [[60.63462669514958, 30.08344173431397], [60.63109099100512, 30.118546485900882], [60.609763317795476, 30.073227882385257]],
         author: ['MKHLV_A','USNKO']
     },
@@ -457,7 +457,7 @@ let wnStartsMaps = [
         o_site: '2025_bn',
         url: './maps/starts/wn/wn_2025_06_27.webp',
         link: './original_maps/starts/wn/wn_2025_06_27_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/22977/',
+        o_gps: 22977,
         bounds: [[60.62412367739534, 30.096230506896976], [60.62254477176717, 30.122795104980472], [60.607530781763366, 30.09142398834229]],
         author: ['MKHLV_A','USNKO']
     },

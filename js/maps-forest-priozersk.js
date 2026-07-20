@@ -180,11 +180,11 @@ let priozerskMaps = [
         date: '2019-05-25',
         start: ['RUSSIA_2019','RUSSIA_CHAMP'],
         info: 'Кросс многодневный.',
-        gps: {
-            'М-25': 'https://viewer.o-gps-center.ru/viewer/event/5759/',
-            'Ж-25': 'https://viewer.o-gps-center.ru/viewer/event/5767/',
-            'М-26': 'https://viewer.o-gps-center.ru/viewer/event/5772/',
-            'Ж-26': 'https://viewer.o-gps-center.ru/viewer/event/5782/',
+        o_gps: {
+            'М-25': 5759,
+            'Ж-25': 5767,
+            'М-26': 5772,
+            'Ж-26': 5782,
         },
         url: './maps/forest/priozersk/kuznechnoe_suuri_2019.webp',
         link: ['./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_25.jpg','./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_26.jpg','./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_25_W.gif','./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_26_W.gif'],
@@ -236,9 +236,9 @@ let priozerskMaps = [
         date: '2019-05-24',
         start: ['RUSSIA_2019','RUSSIA_CHAMP'],
         info: 'Кросс-классика.',
-        gps: {
-            'М': 'https://viewer.o-gps-center.ru/viewer/event/5759/',
-            'Ж': 'https://viewer.o-gps-center.ru/viewer/event/5760/'
+        o_gps: {
+            'М': 5759,
+            'Ж': 5760
         },
         url: './maps/forest/priozersk/kuznechnoe_travkino_2019_05_24.webp',
         link: ['./original_maps/forest/priozersk/kuznechnoe_travkino_2019_05_24.jpg','./original_maps/forest/priozersk/kuznechnoe_travkino_2019_05_24_W.gif'],

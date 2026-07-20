@@ -54,7 +54,7 @@ let rogaineMaps = [
         url: './maps/rogaine/molodezhnoe_gk_2024.webp',
         link: './original_maps/rogaine/molodezhnoe_gk_2024_omaps.jpg',
         bounds: [[60.27319556884442, 29.48241233825684], [60.27323812924954, 29.62772369384766], [60.19039607775666, 29.482069015502933]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/20578/',
+        o_gps: 20578,
         owner: 'GORNY_CROSS',
         start: 'GORNY_CROSS',
         type: ['ROGAINE']
@@ -93,7 +93,7 @@ let rogaineMaps = [
         info: 'Ski Adventure.',
         url: './maps/rogaine/shapki_ski_adventure_2026.webp',
         link: './original_maps/rogaine/shapki_ski_adventure_2026_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/24374/',
+        o_gps: 24374,
         bounds: [[59.634564740877096, 31.0883903503418], [59.646364354380864, 31.20297431945801], [59.58473943569614, 31.104955673217777]],
         owner: 'NKLSK',
         type: ['ROGAINE']
@@ -212,7 +212,7 @@ let rogaineMaps = [
         date: '2024-02-24',
         url: './maps/rogaine/lembolovo_orekhovo_gk_2024.webp',
         link: './original_maps/rogaine/lembolovo_orekhovo_gk_2024_omaps.jpeg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/18461/',
+        o_gps: 18461,
         bounds: [[60.48141628624153, 30.25789260864258], [60.47388792089789, 30.399856567382816], [60.40588443750511, 30.242099761962894]],
         owner: 'GORNY_CROSS',
         start: 'GORNY_CROSS',
@@ -225,10 +225,10 @@ let rogaineMaps = [
         calendar: 'SPB_20260704_2',
         url: './maps/rogaine/lembolovo_orekhovo_peski_gk_2026.webp',
         link: ['./original_maps/rogaine/lembolovo_orekhovo_peski_gk_2026_omaps.webp','./original_maps/rogaine/lembolovo_peski_gk_2026_omaps.webp','./original_maps/rogaine/orekhovo_gk_2024_omaps.webp'],
-        gps: {
-            '2026-07':'https://viewer.o-gps-center.ru/viewer/event/25541/',
-            '2024-11':'https://viewer.o-gps-center.ru/viewer/event/21084/',
-            '2024-07':'https://viewer.o-gps-center.ru/viewer/event/20024/'
+        o_gps: {
+            '2026-07':25541,
+            '2024-11':21084,
+            '2024-07':20024
         },
         bounds: [[60.50906168868531, 30.267333984375004], [60.494692402973286, 30.4896354675293], [60.41393710500683, 30.242528915405277]],
         owner: 'GORNY_CROSS',
@@ -277,11 +277,11 @@ let rogaineMaps = [
         bounds: [[60.34207085274035, 28.864517211914066], [60.37518126453458, 29.334526062011722], [60.138086026326405, 28.924255371093754]],
         author: 'RYLOV_V',
         info: 'II Кубок России по рогейну.',
-        gps: {
-            'Бег 24':'https://viewer.o-gps-center.ru/viewer/event/13197/',
-            'Бег 8':'https://viewer.o-gps-center.ru/viewer/event/13201/',
-            'Вело 16':'https://viewer.o-gps-center.ru/viewer/event/13200/',
-            'Вело 6':'https://viewer.o-gps-center.ru/viewer/event/13202/'
+        o_gps: {
+            'Бег 24':13197,
+            'Бег 8':13201,
+            'Вело 16':13200,
+            'Вело 6':13202
         },
         type: ['ROGAINE'],
         region: 'SPB'
@@ -325,7 +325,7 @@ let rogaineMaps = [
         info: 'Горный Кросс.',
         url: './maps/rogaine/luga_omchino_gk_2023.webp',
         link: './original_maps/rogaine/luga_omchino_gk_2023_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/15856/',
+        o_gps: 15856,
         bounds: [[58.728926021785234, 29.727287292480472], [58.71653790199033, 29.844532012939453], [58.68550369843779, 29.71012115478516]],
         owner: 'GORNY_CROSS',
         start: 'GORNY_CROSS',
@@ -337,7 +337,7 @@ let rogaineMaps = [
         info: 'Лужский Меридиан.',
         url: './maps/rogaine/luga_shalovo_lm_2023.webp',
         link: './original_maps/rogaine/luga_shalovo_lm_2023_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/15769/',
+        o_gps: 15769,
         bounds: [[58.825517642361326, 29.880580902099613], [58.81414171845056, 30.013618469238285], [58.77576490590429, 29.86470222473145]],
         owner: 'LM',
         type: ['ROGAINE']
@@ -348,7 +348,7 @@ let rogaineMaps = [
         info: 'Рогейн на Лужских берегах.',
         url: './maps/rogaine/shalovo_luzhsky_2023.webp',
         link: './original_maps/rogaine/shalovo_luzhsky_2023_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/17419/',
+        o_gps: 17419,
         bounds: [[58.821029930669205, 29.891481399536136], [58.809119127096146, 30.0322437286377], [58.76459520046961, 29.87242698669434]],
         owner: 'SHBN',
         type: ['ROGAINE']
@@ -359,7 +359,7 @@ let rogaineMaps = [
         info: 'Лужский рогейн.',
         url: './maps/rogaine/omchino_luzhsky_2022.webp',
         link: './original_maps/rogaine/omchino_luzhsky_2022_omaps.jpeg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/13567/',
+        o_gps: 13567,
         bounds: [[58.739572715437966, 29.677248001098636], [58.73658840613287, 29.834318161010746], [58.68157786452505, 29.67269897460938]],
         owner: 'SHBN',
         type: ['ROGAINE','WINTER']
@@ -370,7 +370,7 @@ let rogaineMaps = [
         info: 'Лужский Меридиан-67.',
         url: './maps/rogaine/gorodok_lm_2023.webp',
         link: './original_maps/rogaine/gorodok_lm_2023_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/16100/',
+        o_gps: 16100,
         bounds: [[58.73939455490484, 29.803419113159183], [58.73097542942129, 29.89113807678223], [58.67573290639293, 29.780845642089844]],
         owner: 'LM',
         type: ['ROGAINE']
@@ -381,7 +381,7 @@ let rogaineMaps = [
         info: 'Лужский приключенческий рогейн, "Винни-Пух…ing"',
         url: './maps/rogaine/toloni_2025.webp',
         link: './original_maps/rogaine/toloni_2025_rogaine_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23164/',
+        o_gps: 23164,
         bounds: [[58.73979541482106, 29.749431610107425], [58.725272430530254, 29.889507293701175], [58.65488832598162, 29.720764160156254]],
         owner: 'SHBN',
         type: ['ROGAINE']
@@ -401,7 +401,7 @@ let rogaineMaps = [
         year: 2024,
         url: './maps/rogaine/jappilya_2024.webp',
         link: './original_maps/rogaine/jappilya_2024_rogaine_omaps.gif',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/19280/',
+        o_gps: 19280,
         bounds: [[60.23295123125455, 29.108018875122074], [60.228647058275634, 29.18191909790039], [60.18527550629198, 29.09565925598145]],
         owner: 'SHBN',
         type: ['ROGAINE']
@@ -534,7 +534,7 @@ let rogaineMaps = [
         year: 2025,
         url: './maps/rogaine/yukki_2025.webp',
         link: './original_maps/rogaine/yukki_2025_omaps.jpg',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23127/',
+        o_gps: 23127,
         bounds: [[60.14928097298427, 30.269308090209964], [60.14904600371844, 30.336470603942875], [60.1100392117335, 30.2687931060791]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',

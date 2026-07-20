@@ -202,7 +202,7 @@ let commonEvents2026 = [
         link: 'https://adventure-race.redfox.ru/docs/rules/',
         reg: 'https://adventure-race.redfox.ru/applications/',
         res: 'https://adventure-race.redfox.ru/results/',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/25313/',
+        o_gps: 25313,
         major: true,
         start: 'RFAR',
         map: 'sortavala_redfox_2026'
@@ -233,10 +233,10 @@ let commonEvents2026 = [
         o_site: '260616-21_KKP',
         planner: 'PLS_S',
         res: 'https://sportident.online/ol_new/?id=2831',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/25367/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/25366/',
-            'М50/55':'https://viewer.o-gps-center.ru/viewer/event/25434/',
+        o_gps: {
+            'М':25367,
+            'Ж':25366,
+            'М50/55':25434,
         },
         video: [
             'https://vkvideo.ru/video-227779225_456239060',
@@ -258,10 +258,10 @@ let commonEvents2026 = [
         place: 'Пруды',
         o_site: '260616-21_KKP',
         res: 'https://sportident.online/ol_new/?id=2832',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/25370/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/25369/',
-            'М50/55':'https://viewer.o-gps-center.ru/viewer/event/25435/',
+        o_gps: {
+            'М':25370,
+            'Ж':25369,
+            'М50/55':25435,
         },
         video: [
             'https://vkvideo.ru/video-227779225_456239068',
@@ -284,10 +284,10 @@ let commonEvents2026 = [
         place: 'Пруды',
         o_site: '260616-21_KKP',
         res: 'https://sportident.online/ol_new/?id=2833',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/25398/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/25397/',
-            'М50/55':'https://viewer.o-gps-center.ru/viewer/event/25436/',
+        o_gps: {
+            'М':25398,
+            'Ж':25397,
+            'М50/55':25436,
         },
         video: [
             'https://vkvideo.ru/video-227779225_456239075',
@@ -310,10 +310,10 @@ let commonEvents2026 = [
         place: 'Пруды',
         o_site: '260616-21_KKP',
         res: 'https://sportident.online/ol_new/?id=2834',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/25404/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/25403/',
-            'М50/55':'https://viewer.o-gps-center.ru/viewer/event/25437/',
+        o_gps: {
+            'М':25404,
+            'Ж':25403,
+            'М50/55':25437,
         },
         video: ['https://vkvideo.ru/video-227779225_456239076','https://vk.com/video-93257360_456239325','https://vkvideo.ru/video-227779225_456239072'],
         type: 'ORIENT',
@@ -331,10 +331,10 @@ let commonEvents2026 = [
         place: 'Пруды',
         o_site: '260616-21_KKP',
         res: 'https://sportident.online/ol_new/?id=2835',
-        gps: {
-            'М':'https://viewer.o-gps-center.ru/viewer/event/25409/',
-            'Ж':'https://viewer.o-gps-center.ru/viewer/event/25408/',
-            'М50/55':'https://viewer.o-gps-center.ru/viewer/event/25438/',
+        o_gps: {
+            'М':25409,
+            'Ж':25408,
+            'М50/55':25438,
         },
         video: 'https://vk.com/video-93257360_456239326',
         type: 'ORIENT',
@@ -381,9 +381,9 @@ let commonEvents2026 = [
         place: 'Пески, оз Ночное',
         o_site: 'mms2026',
         link: 'https://sfr-system.ru/mms/',
-        gps: {
-            'ЖЭ,18,35,40/М45,50':'https://viewer.o-gps-center.ru/viewer/event/25514/',
-            'ALL':'https://viewer.o-gps-center.ru/viewer/event/25475/'
+        o_gps: {
+            'ЖЭ,18,35,40/М45,50':25514,
+            'ALL':25475
         },
         reskeep: 898,
         strava: 19075537269,
@@ -401,10 +401,10 @@ let commonEvents2026 = [
         place: 'Пески, оз Забытое',
         o_site: 'mms2026',
         link: 'https://sfr-system.ru/mms/',
-        gps: {
-            'ЖЭ':'https://viewer.o-gps-center.ru/viewer/event/25518/',
-            'М18/35/40':'https://viewer.o-gps-center.ru/viewer/event/25510/',
-            'ALL':'https://viewer.o-gps-center.ru/viewer/event/25478/',
+        o_gps: {
+            'ЖЭ':25518,
+            'М18/35/40':25510,
+            'ALL':25478,
         },
         video: 'https://www.youtube.com/watch?v=wk37MdZG_6E',
         reskeep: 899,
@@ -423,13 +423,13 @@ let commonEvents2026 = [
         place: 'Пески, оз Пулконлампи',
         o_site: 'mms2026',
         link: 'https://sfr-system.ru/mms/',
-        gps: {
-            'МЭ':'https://viewer.o-gps-center.ru/viewer/event/25520/',
-            'ЖЭ':'https://viewer.o-gps-center.ru/viewer/event/25517/',
-            'М18/35/40':'https://viewer.o-gps-center.ru/viewer/event/25511/',
-            'М45/50':'https://viewer.o-gps-center.ru/viewer/event/25515/',
-            'Раззява':'https://viewer.o-gps-center.ru/viewer/event/25513/',
-            'ALL':'https://viewer.o-gps-center.ru/viewer/event/25490/'
+        o_gps: {
+            'МЭ':25520,
+            'ЖЭ':25517,
+            'М18/35/40':25511,
+            'М45/50':25515,
+            'Раззява':25513,
+            'ALL':25490
         },
         video: 'https://www.youtube.com/watch?v=vB5GOMsT49c',
         reskeep: [900,901],

@@ -1143,7 +1143,7 @@ let ryazanMaps = [
         url: './maps/ryazan/chr_2020_rogeyn_2020.webp',
         link: 'https://rogaining.ru/results/rrc-results/rrc2020_map.jpg',
         info: '<a href="https://vk.com/event186840276">Чемпионат России по рогейну</a> (<a href="https://sembruk.github.io/rrc2020/">пути</a>).',
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/8154/',
+        o_gps: 8154,
         bounds: [[54.862727989585636, 39.88586425781251], [54.83500575725284, 40.07597923278809], [54.707267747286174, 39.81943130493165]],
         author: 'VEKOVISCH',
         owner: 'VEKOVISCH',
@@ -1288,7 +1288,7 @@ let ryazanMaps = [
         url: './maps/ryazan/npw_2025.webp',
         link: './original_maps/ryazan/npw_2025_omaps.gif',
         bounds: [[54.84326017779287, 40.32402992248536], [54.816760960926395, 40.4978370666504], [54.76346273277833, 40.29510498046876]],
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/23106/',
+        o_gps: 23106,
         author: ['VNKRV_V','GUSEV_B','KRTNKO','NVKV_S'],
         start: 'NPW',
         type: ['ROGAINE']
