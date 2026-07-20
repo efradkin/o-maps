@@ -56,6 +56,7 @@ const welcomeDialogContent = `
 </p>
 `;
 
+let disabledButton = true;
 const styleSheetEl = document.createElement('style');
 styleSheetEl.innerHTML = `
     dialog#welcome-modal[open] {
@@ -93,6 +94,7 @@ styleSheetEl.innerHTML = `
             font-size: 14px;
             font-family: Arial;
             line-height: normal;
+            color: lightgray;
         }
         h2 {
             font-size: 1.5rem;
@@ -134,8 +136,10 @@ const onAnimationEnd = () => {
     dialogEl.removeEventListener("animationend", onAnimationEnd);
 };
 closeBtnEl.addEventListener("click", () => {
-    dialogEl.classList.add("hide");
-    dialogEl.addEventListener("animationend", onAnimationEnd);
+    if (!disabledButton) {
+        dialogEl.classList.add("hide");
+        dialogEl.addEventListener("animationend", onAnimationEnd);
+    }
 });
 
 // --- welcome dialog (https://github.com/NBTSolutions/Leaflet.Dialog) ---
@@ -163,6 +167,11 @@ function openWelcome() {
     dialogEl.showModal();
 
     localStorage.setItem(WELCOME_OPENED_TIME_KEY, new Date().getTime());
+
+    setTimeout(function () {
+        closeBtnEl.style.color = 'black';
+        disabledButton = false;
+    }, 5000);
 }
 
 function openWelcomeIfRequired() {
