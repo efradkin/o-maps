@@ -92,6 +92,7 @@ styleSheetEl.innerHTML = `
         #close-btn {
             float: right;
             font-size: 14px;
+            font-weight: bold;
             font-family: Arial;
             line-height: normal;
             color: lightgray;
