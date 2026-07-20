@@ -1959,6 +1959,7 @@ let events2026 = [
         name: 'Физкультурное мероприятие по ориентированию',
         place: 'парк Интернационалистов',
         link: 'https://vk.ru/wall-30686281_24638',
+        reg: 'https://forms.yandex.ru/u/6a5d40576d2d73e4cbe0cf6f/',
         type: 'ORIENT',
         map: 'internatsionalistov_2021'
     },
