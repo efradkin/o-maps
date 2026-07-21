@@ -518,7 +518,7 @@ body.sub-index-body {
     font-size: 1.5em;
 }
 */
-.tbank {
+.tbank, button:has(.tbank) {
     background-color: yellow !important;
 }
 #noscript_content {

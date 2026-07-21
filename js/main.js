@@ -577,7 +577,7 @@ if (mapElement) {
     marker3.on('dragend', onDragEnd);
 
     // --- welcome dialog ---
-    L.easyButton('button-icon welcome-icon', function (btn, map) {
+    L.easyButton('button-icon welcome-icon tbank', function (btn, map) {
         openWelcome();
     }, 'О проекте').addTo(map)
     openWelcomeIfRequired();
