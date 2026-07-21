@@ -902,6 +902,7 @@ let forestMaps = [
         year: 2015,
         area: 3,
         url: './maps/forest/baryshevo_2015.webp',
+        o_gps: 23174,
         bounds: [[60.7467887, 29.5000935], [60.7404128, 29.5707321], [60.7173313, 29.4839573]],
         author: ['MKHLV_A','USNKO'],
         owner: 'WN'
