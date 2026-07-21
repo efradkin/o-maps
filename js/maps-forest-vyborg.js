@@ -780,6 +780,10 @@ let vyborgMaps = [
         year: 2015,
         area: 4.5,
         url: './maps/forest/vyborg/paltsevo_2015.webp',
+        o_gps: {
+            'М':4584,
+            'Ж':4585
+        },
         bounds: [[60.7844523, 28.8162804], [60.7790685, 28.8801813], [60.7603334, 28.8073111]],
         author: 'MLNKV_L',
         owner: 'VYBORG'
