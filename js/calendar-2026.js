@@ -1799,6 +1799,7 @@ let events2026 = [
         type: 'ORIENT',
         link: 'https://t.me/across_the_runiverse/16825',
         reg: 'https://docs.google.com/forms/d/e/1FAIpQLSdJXj5ObIKhuOp_6pOvHTu5tRAq8OZ6oggexWBgUfOqeJl40Q/viewform',
+        video: 'https://www.instagram.com/across_the_run1verse/reel/DaR9hGxO8ac/',
         info: 'СТРОГО 18+. ',
         owner: 'DLITELNY',
         logo: 'across.gif'
@@ -1964,19 +1965,6 @@ let events2026 = [
         map: 'internatsionalistov_2021'
     },
     {
-        id: 'SPB_20260725_1',
-        date: '2026-07-25',
-        place: 'Луга, оз Малые Толони',
-        name: 'Лужский приключенческий рогейн',
-        link: 'https://vk.com/event166397868',
-        reg: 'https://orgeo.ru/event/48939',
-        info: '"Трое из Простоквашино".',
-        type: 'ROGAINE',
-        fmt: '12, 6',
-        owner: 'SHBN',
-        map: 'toloni_2025'
-    },
-    {
         id: 'SPB_20260725_2',
         date: '2026-07-25',
         name: 'Тренировочный старт Выборг',
@@ -1986,6 +1974,17 @@ let events2026 = [
         type: 'ORIENT',
         map: 'paltsevo_2015',
         owner: 'VYBORG'
+    },
+    {
+        id: 'SPB_20260725_3',
+        date: '2026-07-25',
+        endDate: '2026-07-26',
+        name: 'Кубок Белых ночей №17,18',
+        place: 'Барышево',
+        reg: 'https://orgeo.ru/event/54186',
+        type: 'ORIENT',
+        owner: 'WN',
+        map: 'baryshevo_2015'
     },
     {
         id: 'SPB_20260731_2',
@@ -2133,6 +2132,7 @@ let events2026 = [
         owner: 'SFSO_SPB',
         map: 'zerkalny_2002'
     },
+/*
     {
         id: 'SPB_20260808_1',
         date: '2026-09-26',
@@ -2142,6 +2142,20 @@ let events2026 = [
         type: 'ROGAINE',
         fmt: '4',
         owner: 'SHBN'
+    },
+*/
+    {
+        id: 'SPB_20260725_1',
+        date: '2026-09-26',
+        place: 'Луга, оз Малые Толони',
+        name: 'Лужский приключенческий рогейн',
+        link: 'https://vk.com/event166397868',
+        reg: 'https://orgeo.ru/event/48939',
+        info: '<a href="https://vk.ru/wall-166397868_5419">Перенос</a> с 25 июля.<br />"Трое из Простоквашино".',
+        type: 'ROGAINE',
+        fmt: '12, 6',
+        owner: 'SHBN',
+        map: 'toloni_2025'
     },
     {
         id: 'SPB_20260927_1',
