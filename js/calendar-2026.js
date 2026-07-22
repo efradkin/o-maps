@@ -1955,6 +1955,8 @@ let events2026 = [
         reskeep: 907,
         owner: 'DLITELNY',
         map: 'sosnovka_2024',
+        strava: '19409929568',
+        me: 'А'
     },
     {
         id: 'SPB_20260723_1',

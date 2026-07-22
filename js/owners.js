@@ -308,7 +308,8 @@ let owners = {
         name: '© Алферьев Александр, 89851135004'
     },
     ALNKV_A: {
-        name: '© <a href="https://t.me/platforma88km">Алейников Алексей</a>'
+        name: '© <a href="https://t.me/platforma88km">Алейников Алексей</a>',
+        logo: 'kt.gif'
     },
     BKLV_F: {
         name: '© Бакулов Фёдор'
@@ -369,6 +370,7 @@ let owners = {
     KHMCHKNA: {
         name: '© Химочкина Т.Н.'
     },
+    KHMRZV: { name: 'Хамурзов Владимир, <a href="mailto:vhamurzov@mail.ru">vhamurzov@mail.ru</a>' },
     KLNN_O: {
         name: '© Калинин Олег, +7 916 683 1372'
     },

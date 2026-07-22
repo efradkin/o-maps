@@ -3504,6 +3504,29 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
+        name: 'Долгопрудный, школа №2044',
+        year: 2026,
+        url: './maps/moscow/ak/dolgoprudny_school_2044_2026.webp',
+        link: './original_maps/moscow/ak/dolgoprudny_school_2044_2026_omaps.gif',
+        author: 'ALNKV_A',
+        owner: 'KHMRZV',
+        bounds: [[55.9425611, 37.5211000], [55.9420624, 37.5249302], [55.9401156, 37.5200593]],
+        type: ['CITY','SPRINT'],
+        zindex: 2
+    },
+    {
+        name: 'Метро Арбатская, Транспортно-пересадочный узел Библиотека имени Ленина',
+        year: 2026,
+        url: './maps/moscow/lr/metro_arbatskaya_2026.webp',
+        link: './original_maps/moscow/lr/metro_arbatskaya_2026_omaps.gif',
+        publish: 'https://t.me/alephbublik/283?comment=1426',
+        author: 'ALNKV_A',
+        owner: 'ALNKV_A',
+        bounds: [[55.7524471, 37.6025319], [55.7525075, 37.6043558], [55.7516199, 37.6025105]],
+        type: ['CITY','SPRINT'],
+        zindex: 2
+    },
+    {
         name: 'Яуза',
         year: 1,
         url: './maps/moscow/sz/yauza_old.webp',
@@ -3696,7 +3719,7 @@ let moscowMaps = [
         link: 'http://o-mephi.net/cup/maps/20250614_95.jpg',
         info: 'Карта парка Долгие Пруды у Физтеха в Долгопрудном. По состоянию на настоящее время (2025) для ориентирования непригодна.',
         bounds: [[55.9423268, 37.5237608], [55.9426392, 37.5463772], [55.9227824, 37.5244045]],
-        author: ['PTRV_VLNTN','KCHRNA','KHMZV','NLTV_D'],
+        author: ['PTRV_VLNTN','KCHRNA','KHMRZV','NLTV_D'],
         owner: 'TTV_A'
     },
     {

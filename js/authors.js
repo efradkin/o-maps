@@ -577,7 +577,7 @@ let authors = {
     KBRV_M: { name: 'Кубарев М.' },
     KCHRNA: { name: 'Качурина Ирина' },
     KCHNV_D: { name: 'Кочнов Дмитрий' },
-    KHMZV: { name: 'Хамурзов Владимир' },
+    KHMRZV: { name: 'Хамурзов Владимир' },
     KLNN_B: {
         name: 'Калинин Борис',
         about: 'https://o-moscow.ru/people/KalininBN.html'
