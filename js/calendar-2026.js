@@ -1951,6 +1951,8 @@ let events2026 = [
         type: 'ORIENT',
         link: 'https://t.me/dlitelnyy/597',
         reg: 'https://orgeo.ru/event/54132',
+        res: 'https://t.me/dlitelnyy/607',
+        reskeep: 907,
         owner: 'DLITELNY',
         map: 'sosnovka_2024',
     },
