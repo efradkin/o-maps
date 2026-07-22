@@ -2015,11 +2015,12 @@ let events2026 = [
     {
         id: 'SPB_20260808_2',
         date: '2026-08-08',
-        place: 'Мичуринское',
+        place: 'Воробьево оз',
         name: 'HARD ROGAINE | SWAMP',
         fmt: '5(4)',
         type: 'ROGAINE',
         link: 'https://hardadventure.ru/swamp2026',
+        reg: 'https://reg.o-time.ru/race/26544',
         start: 'HARD'
     },
     {
@@ -2027,6 +2028,8 @@ let events2026 = [
         date: '2026-08-09',
         name: 'ЧиП СПб',
         place: 'Яппиля',
+        o_site: '260809_mtbo',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1750',
         type: 'VELO',
         fmt: 'масстарт',
         owner: 'SFSO_SPB',
