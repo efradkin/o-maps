@@ -3522,7 +3522,7 @@ let moscowMaps = [
         publish: 'https://t.me/alephbublik/283?comment=1426',
         author: 'ALNKV_A',
         owner: 'ALNKV_A',
-        bounds: [[55.7524471, 37.6025319], [55.7525075, 37.6043558], [55.7516199, 37.6025105]],
+        bounds: [[55.7528577, 37.6033151], [55.7529483, 37.6118767], [55.7493979, 37.6031435]],
         type: ['CITY','SPRINT'],
         zindex: 2
     },

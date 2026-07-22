@@ -1975,7 +1975,9 @@ let events2026 = [
         place: 'Красный Холм',
         o_site: '260725_V',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1749',
+        info: 'Точка старта <a href="https://yandex.ru/maps/-/CTbfZGop">тут</a>.',
         type: 'ORIENT',
+        coord: [60.7689479, 28.8271379],
         map: 'paltsevo_2015',
         owner: 'VYBORG'
     },
