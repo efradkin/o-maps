@@ -2001,6 +2001,17 @@ let events2026 = [
         type: 'ORIENT',
     },
     {
+        id: 'SPB_20260801_1',
+        date: '2026-08-01',
+        endDate: '2026-08-02',
+        name: 'Кубок Белых ночей №19,20',
+        place: 'Смоляное оз',
+        reg: ['https://orgeo.ru/event/54227','https://orgeo.ru/event/54228'],
+        type: 'ORIENT',
+        owner: 'WN',
+        map: 'smoljanoe_2015'
+    },
+    {
         id: 'SPB_20260627_2',
         date: '2026-08-08',
         name: 'Рогейн на холмах Яппиля (ККР №2)',
@@ -2024,6 +2035,17 @@ let events2026 = [
         start: 'HARD'
     },
     {
+        id: 'SPB_20260808_3',
+        date: '2026-08-08',
+        place: 'Ладожский парк',
+        name: 'Лабиринт на газоне - День Физкультурника',
+        fmt: 'лабиринт',
+        type: 'ORIENT',
+        info: 'Три дистанции простого уровня сложности 150-250м. Бесплатно, без предварительной регистрации.',
+        reg: 'https://orgeo.ru/event/54223',
+        owner: 'FENIX'
+    },
+    {
         id: 'SPB_20260809_1',
         date: '2026-08-09',
         name: 'ЧиП СПб',
@@ -2039,10 +2061,11 @@ let events2026 = [
         id: 'SPB_20260815_1',
         date: '2026-08-15',
         endDate: '2026-08-16',
-        name: 'Transbiotech O-Weekend (Кубок D2RUN, 3 этап)',
+        name: 'Аристомед O-Weekend (Кубок D2RUN, 3 этап)',
+        reg: 'https://orgeo.ru/event/54233',
         place: 'Сосновый бор',
         type: 'ORIENT',
-        fmt: 'эстафета, классика',
+        fmt: 'классика, ночной спринт, классика',
         owner: 'DLITELNY'
     },
     {
