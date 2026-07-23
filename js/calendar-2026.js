@@ -1966,7 +1966,9 @@ let events2026 = [
         link: 'https://vk.ru/wall-30686281_24638',
         reg: 'https://forms.yandex.ru/u/6a5d40576d2d73e4cbe0cf6f/',
         type: 'ORIENT',
-        map: 'internatsionalistov_2021'
+        map: 'internatsionalistov_2021',
+        strava: 19435169467,
+        me: '51+'
     },
     {
         id: 'SPB_20260725_2',
