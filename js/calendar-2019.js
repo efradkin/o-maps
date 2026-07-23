@@ -3,7 +3,7 @@ let events2019 = [
         id: 'SPB_20190103_1',
         date: '2019-01-03',
         endDate: '2019-01-11',
-        place: 'Ленинградская обл., п. Лемболово, ДОЛ «Пионер»',
+        place: 'Лемболово, ДОЛ Пионер',
         name: 'Зимний УТС в Лемболово',
         type: 'SKI',
         reg: 'http://sportident.ru/entry/event_info.php?id=4066',
@@ -23,7 +23,7 @@ let events2019 = [
     {
         id: 'SPB_20190113_1',
         date: '2019-01-13',
-        place: 'д.Шапки Тосненского района Ленинградской области',
+        place: 'Шапки',
         name: 'Чемпионат и Первенство ЛО',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190113lo/130119_split.html',
@@ -43,7 +43,7 @@ let events2019 = [
     {
         id: 'SPB_20190119_1',
         date: '2019-01-19',
-        place: 'Орехово, база отдыха ПАН',
+        place: 'Орехово, б/о ПАН',
         name: 'Чемпионат и первенство СПб - маркир',
         type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_markir/',
@@ -56,6 +56,7 @@ let events2019 = [
         id: 'SPB_20190120_1',
         date: '2019-01-20',
         name: 'Чемпионат и Первенство ЛО на лыжах',
+        place: 'Будогощь',
         type: 'ORIENT',
         owner: 'SFSO_LO',
         o_site: '190117-20LO',
@@ -63,7 +64,7 @@ let events2019 = [
     {
         id: 'SPB_20190120_2',
         date: '2019-01-20',
-        place: 'Орехово, база отдыха ПАН',
+        place: 'Орехово, б/о ПАН',
         name: 'Чемпионат и первенство СПб - классика',
         type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_middle/',
@@ -76,7 +77,7 @@ let events2019 = [
         id: 'SPB_20190124_1',
         date: '2019-01-24',
         endDate: '2019-01-28',
-        place: 'пос. Будогощь, б/о «Мечта»',
+        place: 'Будогощь, б/о Мечта',
         name: 'Чемп. и п-во СЗФО и ЦФО',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/8332',
@@ -99,7 +100,7 @@ let events2019 = [
         id: 'SPB_20190130_1',
         date: '2019-01-30',
         endDate: '2019-02-04',
-        place: 'Санкт-Петербург, ДОЛ «Голубое озеро» (Цвелодубово)',
+        place: 'ДОЛ Голубое озеро (Цвелодубово)',
         name: 'Всероссийские соревнования в Цвелодубово',
         type: 'VELO',
         res: 'http://www.northernwind.spb.ru/videosplit/',
@@ -123,7 +124,7 @@ let events2019 = [
     {
         id: 'SPB_20190217_1',
         date: '2019-02-17',
-        place: 'п.Кузьмоловский',
+        place: 'Кузьмоловский',
         name: 'Мемориал А.Волкова',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190217/190217_rez.htm',
@@ -133,17 +134,14 @@ let events2019 = [
         id: 'SPB_20190223_1',
         date: '2019-02-23',
         endDate: '2019-02-24',
-        place: 'п.Кузьмоловский',
+        place: 'Кузьмоловский',
         name: 'Всеволожские вести',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/8532',
         res: 'https://o-site.spb.ru/_races/vvesti2019/190223_rez.htm',
         start: 'VSEV_VESTI',
         o_site: 'vvesti2019',
-        reskeep: [
-            105,
-            106
-        ]
+        reskeep: [105, 106]
     },
     {
         id: 'SPB_20190224_1',
@@ -158,7 +156,7 @@ let events2019 = [
     {
         id: 'SPB_20190302_1',
         date: '2019-03-02',
-        place: 'пос.Кротово, Приозерский район Ленинградской области',
+        place: 'Кротово',
         name: 'Рогейн Ice Trail, 2-й этап Кубка ЛО по рогейну',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/ice-trail-2019/registration.html',
@@ -178,7 +176,7 @@ let events2019 = [
     {
         id: 'SPB_20190303_1',
         date: '2019-03-03',
-        place: 'пос. Кузьмоловский',
+        place: 'Кузьмоловский',
         name: 'Чемпионат и первенство СПб - спринт',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=989',
@@ -190,7 +188,7 @@ let events2019 = [
     {
         id: 'SPB_20190308_1',
         date: '2019-03-08',
-        place: 'п.Кузьмоловский',
+        place: 'Кузьмоловский',
         name: 'Чемпионат и первенство Санкт-Петербурга, лыжная гонка-эстафета-3 чел',
         type: 'SKI',
         res: 'http://northernwind.spb.ru/videosplit/2019/chspbw_3relay/',
@@ -203,6 +201,7 @@ let events2019 = [
         id: 'SPB_20190309_1',
         date: '2019-03-09',
         name: 'Чемпионат и первенство Санкт-Петербурга, лыжная гонка-классика-общий старт',
+        place: 'Кузьмолово',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=993',
         owner: 'SFSO_SPB',
@@ -211,7 +210,7 @@ let events2019 = [
     {
         id: 'SPB_20190310_1',
         date: '2019-03-10',
-        name: 'Открытое Первенство пос. Кузьмоловский',
+        name: 'Кузьмоловский',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/8939',
         res: 'https://o-site.spb.ru/_races/190310kuz/190310_results_kuzm.htm',
@@ -221,7 +220,7 @@ let events2019 = [
     {
         id: 'SPB_20190310_2',
         date: '2019-03-10',
-        place: 'пос.Кузьмолововский',
+        place: 'Кузьмолововский',
         name: 'Чемпионат Санкт-Петербурга среди студентов ВУЗов',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=992',
@@ -261,8 +260,8 @@ let events2019 = [
     {
         id: 'SPB_20190407_1',
         date: '2019-04-07',
-        place: 'ФМЛ №239 (ул. Кирочная, д.8)',
-        name: '«Лабиринты разума»',
+        place: 'ФМЛ №239 (ул Кирочная, 8)',
+        name: 'Лабиринты разума',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=999',
         res: 'https://o-site.spb.ru/_races/190407_LR/190407_rezults.pdf',
@@ -272,7 +271,7 @@ let events2019 = [
     {
         id: 'SPB_20190407_2',
         date: '2019-04-07',
-        place: 'пос.Романовка',
+        place: 'Романовка',
         name: 'Всеволожская тропа 2019 – 1 этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190407/190407_split.html',
@@ -282,7 +281,7 @@ let events2019 = [
     {
         id: 'SPB_20190410_1',
         date: '2019-04-10',
-        place: 'Среднеохтинский проспект',
+        place: 'Среднеохтинский пр',
         name: 'Sprint Tour 2019. 1 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -293,6 +292,7 @@ let events2019 = [
         id: 'SPB_20190413_1',
         date: '2019-04-13',
         name: 'Кубок Коротких Рогейнов, 1 этап',
+        place: 'Зеленогорск, Щучье озеро',
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/entry-list?id=998',
         res: 'https://o-site.spb.ru/_races/190413/190413_res_1.htm',
@@ -301,7 +301,7 @@ let events2019 = [
     {
         id: 'SPB_20190413_2',
         date: '2019-04-13',
-        place: 'Щучье озеро',
+        place: 'Зеленогорск, Щучье озеро',
         name: 'Кубок Белых Ночей. 11 этап',
         type: 'ORIENT',
         reskeep: 124,
@@ -341,8 +341,8 @@ let events2019 = [
     {
         id: 'SPB_20190421_1',
         date: '2019-04-21',
-        place: 'МО г.Колпино',
-        name: 'Первенство МО г. Колпино',
+        place: 'Колпино',
+        name: 'Первенство Колпино',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/9255',
         res: 'http://o-site.spb.ru/_races/190421/Rezultaty_Kolpino_2019.pdf',
@@ -353,8 +353,8 @@ let events2019 = [
     {
         id: 'SPB_20190424_1',
         date: '2019-04-24',
-        place: 'ГБОУ СОШ № 638 по адресу: г. Павловск, ул. Березовая 13 А',
-        name: 'Спортивное ориентирование в школу, Пушкинский район',
+        place: 'ГБОУ СОШ №638, Павловск, ул Березовая, 13А',
+        name: 'Спортивное ориентирование в школу',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190424/190424_res_lab.htm',
         photo: 'http://vk.com/album-51571395_262482823',
@@ -379,15 +379,13 @@ let events2019 = [
         place: 'Выборг',
         name: 'Выборгская тройка 2019. 1 день',
         type: 'ORIENT',
-        reskeep: [
-            116,
-            117
-        ]
+        reskeep: [116, 117]
     },
     {
         id: 'SPB_20190427_1',
         date: '2019-04-27',
-        name: 'Первенство Пушкинского р-на «Царскосельский азимут»',
+        name: 'Царскосельский азимут',
+        place: 'Баболовский парк',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1009',
         res: 'http://orgeo.ru/live/#/9491',
@@ -453,7 +451,8 @@ let events2019 = [
     {
         id: 'SPB_20190504_1',
         date: '2019-05-04',
-        name: 'Первенство России - Великий Новгород',
+        name: 'Первенство России',
+        place: 'Великий Новгород',
         type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/PR_Novgorod/day3/',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/PR_Novgorod/day3/',
@@ -479,7 +478,7 @@ let events2019 = [
     {
         id: 'SPB_20190507_1',
         date: '2019-05-07',
-        place: 'школа-интернат №20 Петроградского района, Песочная набережная д.14 литер Б',
+        place: 'школа-интернат №20, Песочная наб, 14Б',
         name: 'Спортивное ориентирование в школу, Петроградский район',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190507/190507_res_lab.pdf',
@@ -490,7 +489,7 @@ let events2019 = [
     {
         id: 'SPB_20190509_1',
         date: '2019-05-09',
-        place: 'район Черных озер недалеко от г. Зеленогорска',
+        place: 'Зеленогорск, Черные оз',
         name: 'Соревнования, посвященные Дню Победы',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1025',
@@ -502,7 +501,8 @@ let events2019 = [
     {
         id: 'SPB_20190510_1',
         date: '2019-05-10',
-        name: 'На холмах Яппиля - 3-й этап Кубка ЛО по рогейну',
+        name: 'На холмах Яппиля, 3-й этап Кубка ЛО по рогейну',
+        place: 'Яппиля',
         type: 'ROGAINE',
         reg: 'http://clubrevolution.ru/product/klo-2019-3-etap/',
         res: 'https://o-site.spb.ru/_races/190510/190510_res.htm',
@@ -513,7 +513,7 @@ let events2019 = [
         id: 'SPB_20190510_2',
         date: '2019-05-10',
         endDate: '2019-05-12',
-        place: 'г.Луга',
+        place: 'Луга',
         name: 'Первенство России и Майская многодневка',
         type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
@@ -539,7 +539,7 @@ let events2019 = [
     {
         id: 'SPB_20190512_2',
         date: '2019-05-12',
-        place: 'Орехово. Недалеко от базы "ПАН"',
+        place: 'Орехово',
         name: 'Соревнования Памяти друзей',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1026',
@@ -550,6 +550,7 @@ let events2019 = [
         id: 'SPB_20190512_3',
         date: '2019-05-12',
         name: 'Соревнования памяти Ю.А.Березюка',
+        place: 'Будогощь (Фанатский круг)',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/8700',
         info: '5-е традиционные соревнования памяти Ю.А. Березюка Кубок города Кириши по спортивному ориентированию Кубок Профкома ООО «ПО Киришинефтеоргсинтез»',
@@ -558,7 +559,7 @@ let events2019 = [
     {
         id: 'SPB_20190515_1',
         date: '2019-05-15',
-        place: 'школа № 312, Малая Балканская ул., 36, корп. 3',
+        place: 'школа №312, Малая Балканская ул., 36-3',
         name: 'Спортивное ориентирование в школу, Фрунзенский район',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190515/190515_rez_lab.htm',
@@ -569,7 +570,7 @@ let events2019 = [
     {
         id: 'SPB_20190515_2',
         date: '2019-05-15',
-        place: 'пр. Науки',
+        place: 'пр Науки',
         name: 'RunLab - Sprint',
         type: 'ORIENT',
         reskeep: 133
@@ -577,7 +578,8 @@ let events2019 = [
     {
         id: 'SPB_20190518_1',
         date: '2019-05-18',
-        name: 'Российский Азимут-2019, Ленинградская область',
+        name: 'Российский Азимут ЛО',
+        place: 'Юкки',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1038',
         res: 'https://o-site.spb.ru/_races/190518_RA_LO/190518_ralo_rez.htm',
@@ -589,7 +591,7 @@ let events2019 = [
         id: 'SPB_20190518_2',
         date: '2019-05-18',
         place: 'парк СПбПУ им.Петра Великого',
-        name: 'Российский Азимут-2019, Санкт-Петербург',
+        name: 'Российский Азимут СПб',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1031',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/ra_spb/',
@@ -603,7 +605,7 @@ let events2019 = [
         id: 'SPB_20190518_3',
         date: '2019-05-18',
         endDate: '2019-05-19',
-        place: 'оз.Вуокса',
+        place: 'оз Вуокса',
         name: 'Чемпионат России по рогейну на байдарках',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2019/registration.html',
@@ -614,8 +616,8 @@ let events2019 = [
     {
         id: 'SPB_20190519_1',
         date: '2019-05-19',
-        place: 'Санкт-Петербург, Калининский район',
-        name: 'Чемпионат и Первенство СПб - спринт',
+        place: 'Лицей №150',
+        name: 'ЧиП СПб, спринт',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190519/res.htm',
         photo: 'http://vk.com/album-154221178_263179709',
@@ -629,8 +631,8 @@ let events2019 = [
         id: 'SPB_20190524_1',
         date: '2019-05-24',
         endDate: '2019-05-26',
-        place: 'Приозерск (Кузнечное)',
-        name: 'Чемпионат России, Кузнечное',
+        place: 'Кузнечное',
+        name: 'Чемпионат России',
         type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chr/day1/',
         photo: 'http://vk.com/photo-30365190_456251999',
@@ -696,7 +698,7 @@ let events2019 = [
     {
         id: 'SPB_20190529_1',
         date: '2019-05-29',
-        place: 'Гражданский проспект',
+        place: 'Гражданский пр',
         name: 'Sprint Tour 2019. 4 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -714,8 +716,8 @@ let events2019 = [
     {
         id: 'SPB_20190602_1',
         date: '2019-06-02',
-        place: 'п.Первомайское',
-        name: 'Чемпионат и Первенство Санкт-Петербурга - лонг',
+        place: 'Первомайское',
+        name: 'ЧиП СПб, лонг',
         type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbs_long/',
         photo: 'http://vk.com/spb_orient?z=album-154221178_263545564',
@@ -728,7 +730,7 @@ let events2019 = [
         id: 'SPB_20190607_1',
         date: '2019-06-07',
         endDate: '2019-06-09',
-        place: 'Лужский район Ленинградской области',
+        place: 'Луга',
         name: 'Невский Азимут 2019',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/',
@@ -736,16 +738,13 @@ let events2019 = [
         info: 'XXIX МНОГОДНЕВНЫЕ СОРЕВНОВАНИЯ ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ «НЕВСКИЙ АЗИМУТ»',
         start: 'NA',
         o_site: '190607',
-        reskeep: [
-            156,
-            157,
-            158
-        ]
+        reskeep: [156, 157, 158]
     },
     {
         id: 'SPB_20190608_1',
         date: '2019-06-08',
         name: 'NWCamp',
+        place: 'Выборг',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1022',
         res: 'https://o-site.spb.ru/_races/190408-09/20190608_day_rez.htm',
@@ -755,7 +754,7 @@ let events2019 = [
     {
         id: 'SPB_20190611_1',
         date: '2019-06-11',
-        place: 'г.Луга',
+        place: 'Луга',
         name: 'BondCup MTBO',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/190611v/190611V_split.htm',
@@ -766,7 +765,7 @@ let events2019 = [
         id: 'SPB_20190611_2',
         date: '2019-06-11',
         endDate: '2019-06-16',
-        place: 'г. Луга',
+        place: 'Луга',
         name: 'Спортивный фестиваль «Яркий Мир» (11-16 июня (основная программа 13-16 июня))',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/19061116/19061315L_res.zip',
@@ -786,7 +785,8 @@ let events2019 = [
         id: 'SPB_20190617_1',
         date: '2019-06-17',
         endDate: '2019-06-20',
-        name: 'Кубок Карельского Перешейка-2019',
+        name: 'Кубок Карельского Перешейка',
+        place: 'Каменогорск',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190616-21_KKP/20190617_kkp_1_rez.htm',
         video: [
@@ -801,6 +801,7 @@ let events2019 = [
         id: 'SPB_20190620_1',
         date: '2019-06-20',
         name: 'Первенство ВУЗов МО РФ',
+        place: 'Юкки',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190618-20VO/19061819_res_summ.pdf',
         o_site: '190618-20VO'
@@ -809,7 +810,7 @@ let events2019 = [
         id: 'SPB_20190621_1',
         date: '2019-06-21',
         endDate: '2019-06-23',
-        place: 'пос.Сосново',
+        place: 'Сосново',
         name: 'XXVII Мемориал М.Святкина',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/9132',
@@ -821,7 +822,7 @@ let events2019 = [
     {
         id: 'SPB_20190622_1',
         date: '2019-06-22',
-        place: 'окрестности пос. Кривко и оз. Уловное',
+        place: 'Кривко, оз Уловное',
         name: 'Чемпионат и Первенство СПб велокросс-классика',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1047',
@@ -834,6 +835,7 @@ let events2019 = [
         date: '2019-06-24',
         endDate: '2019-06-26',
         name: 'Праздник эстафет',
+        place: 'Сосново',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1010',
         res: 'http://orgeo.ru/live/#/10004/2',
@@ -844,7 +846,7 @@ let events2019 = [
         id: 'SPB_20190628_1',
         date: '2019-06-28',
         endDate: '2019-06-30',
-        place: 'п. Сосново',
+        place: 'Сосново',
         name: 'Неделя ориентирования «Белые Ночи»',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1027',
@@ -859,7 +861,8 @@ let events2019 = [
         id: 'SPB_20190628_2',
         date: '2019-06-28',
         endDate: '2019-06-30',
-        name: 'Чемпионат и Первенство России (велокросс)',
+        name: 'Чемпионат и Первенство России',
+        place: 'Кавголово',
         type: 'VELO',
         reg: 'https://o-site.spb.ru/_races/19062830_velo/https://orgeo.ru/event/9654',
         res: 'https://o-site.spb.ru/_races/19062830_velo/19062830_ofres.zip',
@@ -915,7 +918,7 @@ let events2019 = [
     {
         id: 'SPB_20190727_1',
         date: '2019-07-27',
-        place: 'Воробьево озеро',
+        place: 'Воробьево оз',
         name: 'Кубок Белых Ночей. 16 этап',
         type: 'ORIENT',
         reskeep: 182,
@@ -925,6 +928,7 @@ let events2019 = [
         id: 'SPB_20190728_1',
         date: '2019-07-28',
         name: 'Кубок коротких рогейнов',
+        place: 'Воробьево оз',
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1052',
         res: 'http://o-site.spb.ru/_races/190728/190728_res.htm',
@@ -933,7 +937,7 @@ let events2019 = [
     {
         id: 'SPB_20190728_2',
         date: '2019-07-28',
-        place: 'Воробьево озеро',
+        place: 'Воробьево оз',
         name: 'Кубок Белых Ночей. 17 этап',
         type: 'ORIENT',
         reskeep: 183,
@@ -943,7 +947,7 @@ let events2019 = [
         id: 'SPB_20190801_1',
         date: '2019-08-01',
         endDate: '2019-08-05',
-        place: 'Поляны - ДОЛ "Университетский", ДОЛ "Волна"',
+        place: 'Поляны, ДОЛ Университетский, ДОЛ Волна',
         name: 'Фестиваль 60-летия спортивного ориентирования в России',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/19080105/res1.htm',
@@ -954,12 +958,7 @@ let events2019 = [
             'https://www.youtube.com/watch?v=gYShCF_kPv4'
         ],
         o_site: '19080105',
-        reskeep: [
-            177,
-            178,
-            180,
-            181
-        ]
+        reskeep: [177, 178, 180, 181]
     },
     {
         id: 'SPB_20190804_1',
@@ -990,10 +989,7 @@ let events2019 = [
         place: 'Петроградка',
         name: 'Sprint Camp 2019. 1 день. Утро',
         type: 'ORIENT',
-        reskeep: [
-            185,
-            186
-        ]
+        reskeep: [185, 186]
     },
     {
         id: 'SPB_20190811_1',
@@ -1041,7 +1037,7 @@ let events2019 = [
     {
         id: 'SPB_20190825_1',
         date: '2019-08-25',
-        place: 'п.Токсово (Малиновая гора)',
+        place: 'Токсово, Малиновая гора',
         name: 'Традиционный старт Памяти Димы Фатидинова',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1065',
@@ -1051,7 +1047,7 @@ let events2019 = [
     {
         id: 'SPB_20190825_2',
         date: '2019-08-25',
-        place: 'окрестности пос. Ушково, Пухтолова гора',
+        place: 'Пухтолова гора',
         name: 'Чемпионат и Первенство СПб - велокросс - общий старт',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1060',
@@ -1083,7 +1079,7 @@ let events2019 = [
     {
         id: 'SPB_20190901_2',
         date: '2019-09-01',
-        place: 'г.Всеволожск, Румболовский парк',
+        place: 'Всеволожск, Румболовский парк',
         name: 'Чемпионат и Первенство Всеволожского района',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190901/190901_split.htm',
@@ -1111,20 +1107,14 @@ let events2019 = [
         info: 'Серия тренировочных стартов в районе пос. Кузьмоловский Результаты 5 сентября Результаты 12 сентября Результаты 19 сентября Результаты 26 сентября Результаты 03 октября',
         o_site: '190905',
         endDate: '2019-10-31',
-        reskeep: [
-            193,
-            213,
-            217,
-            218,
-            219,
-            220
-        ]
+        reskeep: [193, 213, 217, 218, 219, 220]
     },
     {
         id: 'SPB_20190904_1',
         date: '2019-09-04',
         endDate: '2019-09-08',
-        name: 'Чемпионат России (Архангельск)',
+        name: 'Чемпионат России',
+        place: 'Архангельск',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190905arkh/res1.htm',
         o_site: '190905arkh',
@@ -1142,7 +1132,7 @@ let events2019 = [
     {
         id: 'SPB_20190908_1',
         date: '2019-09-08',
-        place: 'п.Симагино',
+        place: 'Симагино',
         name: 'Классика Белых Ночей',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190908/190908_res_absolut.pdf',
@@ -1154,7 +1144,7 @@ let events2019 = [
     {
         id: 'SPB_20190911_1',
         date: '2019-09-11',
-        place: 'Учительская улица',
+        place: 'Учительская ул',
         name: 'Sprint Tour SPb - осень 2019. 1 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -1165,19 +1155,18 @@ let events2019 = [
         date: '2019-09-14',
         endDate: '2019-09-15',
         name: 'Чемпионат и Первенство Ленинградской области',
+        place: 'Ягодное',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/19091415/19091415_official.zip',
         owner: 'SFSO_LO',
         o_site: '19091415',
-        reskeep: [
-            206,
-            207
-        ]
+        reskeep: [206, 207]
     },
     {
         id: 'SPB_20190915_1',
         date: '2019-09-15',
-        name: 'Чемпионат и Первенство СПб - велокросс - лонг',
+        name: 'ЧиП СПб, велокросс-лонг',
+        place: 'Зеленогорск, Черные оз',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1076',
         res: 'https://o-site.spb.ru/_races/190915/190915_rezMTBO.htm',
@@ -1187,7 +1176,7 @@ let events2019 = [
     {
         id: 'SPB_20190918_1',
         date: '2019-09-18',
-        place: 'Лицей № 384 по адресу: пр. Стачек, д. 5, лит. А',
+        place: 'Лицей №384, пр Стачек, 5,А',
         name: 'Спортивное ориентирование в школу, Кировский район',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190918/190918_res_lab.htm',
@@ -1200,6 +1189,7 @@ let events2019 = [
         date: '2019-09-21',
         endDate: '2019-09-22',
         name: 'MatrasOFF Race, 5-й этап Кубка ЛО по рогейну',
+        place: 'Лосево',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/matrasoff-race-2019/registration.html',
         fmt: 'Рогейн 8ч (велосипед, бег). Мультигонка 14 и 24 часа.',
@@ -1209,7 +1199,8 @@ let events2019 = [
     {
         id: 'SPB_20190921_2',
         date: '2019-09-21',
-        name: 'Чемпионат и Первенство Санкт-Петербурга (спорт глухих)',
+        name: 'ЧиП СПб (спорт глухих)',
+        place: 'Пухтолова гора',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190928_21/190921_res.htm',
         info: '21.09 (суббота): соревнования в Муринском парке (место старта рядом с «Родео драйв»). Дистанция «кросс-спринт»; Начало соревнований в 10.30! 28.09 (суббота): соревнования в районе Пухтоловой горы. Дистанция «кросс-классика»; Начало соревнований в 10.30!',
@@ -1229,7 +1220,7 @@ let events2019 = [
         id: 'SPB_20190922_1',
         date: '2019-09-22',
         place: 'Яппиля',
-        name: 'Чемпионат и Первенство Санкт-Петербурга - марафон',
+        name: 'ЧиП СПб, марафон',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1071',
         res: 'https://o-site.spb.ru/_races/190922/res.htm',
@@ -1240,7 +1231,7 @@ let events2019 = [
     {
         id: 'SPB_20190925_1',
         date: '2019-09-25',
-        place: 'Улица Карпинского',
+        place: 'ул Карпинского',
         name: 'Sprint Tour SPb - осень 2019. 2 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -1249,8 +1240,8 @@ let events2019 = [
     {
         id: 'SPB_20190928_1',
         date: '2019-09-28',
-        place: 'западнее ж.д. ст.Лемболово',
-        name: 'Золотые кольца (Свадебные-2019)',
+        place: 'Лемболово',
+        name: 'Золотые кольца (Свадебные)',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1083',
         res: 'https://o-site.spb.ru/_races/190928_ZK/Kom_280919.pdf',
@@ -1262,7 +1253,7 @@ let events2019 = [
         id: 'SPB_20190928_2',
         date: '2019-09-28',
         place: 'Пухтола-гора',
-        name: 'Цикл тренировочных стартов «МаТрёшка-2019»',
+        name: 'Цикл тренировочных стартов МаТрёшка',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1089',
         res: 'http://o-site.spb.ru/_races/1909-12/190907_res.htm',
@@ -1293,6 +1284,7 @@ let events2019 = [
         id: 'SPB_20190929_1',
         date: '2019-09-29',
         name: 'Старты в Зеркальном 2019',
+        place: 'Зеркальный',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1085',
         res: 'https://o-site.spb.ru/_races/190926-30/190927_RES.htm',
@@ -1301,7 +1293,8 @@ let events2019 = [
     {
         id: 'SPB_20190929_2',
         date: '2019-09-29',
-        name: 'Чемпионат и Первенство Ленинградской области (велокросс)',
+        name: 'ЧиП ЛО, велокросс',
+        place: 'Будогощь',
         type: 'VELO',
         owner: 'SFSO_LO',
         o_site: '19092829_velo'
@@ -1309,7 +1302,8 @@ let events2019 = [
     {
         id: 'SPB_20190929_3',
         date: '2019-09-29',
-        name: 'Чемпионат и Первенство Санкт-Петербурга - эстафета - 3 человека',
+        name: 'ЧиП СПб, эстафета 3х',
+        place: 'Силанде',
         type: 'ORIENT',
         res: 'http://northernwind.spb.ru/videosplit/2019/chspbs_relay/',
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_relay/',
@@ -1320,7 +1314,7 @@ let events2019 = [
     {
         id: 'SPB_20191004_1',
         date: '2019-10-04',
-        place: 'На территории ГБОУ школы № 17 ("Куракина дача")',
+        place: 'Школа № 17, Куракина дача',
         name: 'Открытое первенство по трейл-ориентированию',
         type: 'ORIENT',
         info: 'Открытое Первенство среди обучающихся школьных спортивных клубов образовательных учреждений Санкт-Петербурга.',
@@ -1352,7 +1346,7 @@ let events2019 = [
     {
         id: 'SPB_20191006_1',
         date: '2019-10-06',
-        place: 'п.Кривко',
+        place: 'Кривко',
         name: 'Чемпионат и Первенство СПб - классика',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1093',
@@ -1366,7 +1360,7 @@ let events2019 = [
     {
         id: 'SPB_20191009_1',
         date: '2019-10-09',
-        place: 'школа-интернат №33 Выборгского района',
+        place: 'школа-интернат №33',
         name: 'Спортивное ориентирование в школу, спецэтап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191009/191009_res_lab.htm',
@@ -1396,7 +1390,7 @@ let events2019 = [
     {
         id: 'SPB_20191012_1',
         date: '2019-10-12',
-        place: 'ст. Яппиля (оз.Комонь)',
+        place: 'Яппиля, оз Комонь',
         name: '48-е ночные соревнования по ориентированию памяти А.Окинчица',
         type: 'ORIENT',
         res: 'http://touristclub.ru/wp-content/uploads/2019/10/results_okin_2019-ispr.htm',
@@ -1408,6 +1402,7 @@ let events2019 = [
         id: 'SPB_20191012_2',
         date: '2019-10-12',
         name: 'Петербургская осень',
+        place: 'Болотная станция',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191012_/Res_PetOs.htm',
         info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
@@ -1417,17 +1412,17 @@ let events2019 = [
     {
         id: 'SPB_20191012_3',
         date: '2019-10-12',
-        name: 'Петербургская осень',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/191012_/Res_PetOs.htm',
-        info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
-        logo: 'azimut.gif',
+        name: 'Кубок коротких рогейнов - 5 этап',
+        place: 'Мичуринское-Борисово',
+        type: 'ROGAINE',
+        res: 'https://o-site.spb.ru/_races/191012/191013_res.htm',
         o_site: '191012'
     },
     {
         id: 'SPB_20191012_4',
         date: '2019-10-12',
         name: 'Чемпионат СПб по ориентированию среди ВУЗов',
+        place: 'Болотная станция',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191012_1/Stud_Res.pdf',
         owner: 'SFSO_SPB',
@@ -1437,7 +1432,7 @@ let events2019 = [
     {
         id: 'SPB_20191013_1',
         date: '2019-10-13',
-        place: 'Санаторий «Дюны» (Сестрорецк, Заречная дорога д.1)',
+        place: 'снт Дюны, Сестрорецк',
         name: 'Чемпионат и Первенство Санкт-Петербурга - эстафета - 2 человека',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191013/res.htm',
@@ -1454,7 +1449,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191016/10017_rez_lab.htm',
         photo: 'http://vk.com/album-51571395_267559882',
         info: 'Награждение за этап пройдёт 13 ноября в 18:00 в актовом зале Дворца детского и юношеского творчества Выборгского района (ул. Сантьяго-де Куба, д. 4 корп.2) Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ООО "Фацер"',
-        owner: 'VYBORG',
+        owner: 'SFSO_SPB',
         o_site: '191016'
     },
     {
@@ -1473,6 +1468,7 @@ let events2019 = [
         id: 'SPB_20191020_1',
         date: '2019-10-20',
         name: 'Соревнования памяти Зои Викторовны Пятаковой',
+        place: 'Сестрорецкие Дюны',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1102',
         res: 'https://o-site.spb.ru/_races/191020/191020_SPLIT.htm',
@@ -1482,24 +1478,26 @@ let events2019 = [
         id: 'SPB_20191020_2',
         date: '2019-10-20',
         name: 'Спартакиада СПб среди кадетов',
+        place: 'Сестрорецкие Дюны',
         type: 'ORIENT',
         o_site: '191020_VO'
     },
     {
         id: 'SPB_20191023_1',
         date: '2019-10-23',
-        place: 'Лицей №150, Светлановский пр., д.38-2',
+        place: 'Лицей №150, Светлановский пр, 38-2',
         name: 'Спортивное ориентирование в школу, Калининский район',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191023/191023_rez_lab.htm',
         photo: 'http://vk.com/album-51571395_267646737',
         info: 'Награждение за этап пройдёт 13 ноября в 18:00 в актовом зале Дворца детского и юношеского творчества Выборгского района (ул. Сантьяго-де Куба, д. 4 корп.2) Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ООО "Фацер"',
+        owner: 'SFSO_SPB',
         o_site: '191023'
     },
     {
         id: 'SPB_20191023_2',
         date: '2019-10-23',
-        place: 'метро Лесная',
+        place: 'м Лесная',
         name: 'Sprint Tour SPb - осень 2019. 4 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -1508,7 +1506,7 @@ let events2019 = [
     {
         id: 'SPB_20191026_1',
         date: '2019-10-26',
-        place: 'пос. Шапки',
+        place: 'Шапки',
         name: 'Кубок ЛО по рогейну, финал',
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-rogeynu/final-klo-2019',
@@ -1519,6 +1517,7 @@ let events2019 = [
         id: 'SPB_20191027_1',
         date: '2019-10-27',
         name: 'Яркий Кубок 2019',
+        place: 'Гарболово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2019YC/YC_rang_2018-2019.zip',
         info: 'сезон 2018-2019 1 этап – 19.08.2018 - Каменногорск, средняя 2 этап – 02.09.2018 - Гарболово, кросс, общий старт 3 этап – 28.10.2018 - Лемболово, средняя 4 этап – 04.05.2019 - Кузьмолово, лонг 5 этап – 05.05.2019 - Елизаветино, средняя 6 этап – 12.06.2019 - Луга, средняя, выбор 7 этап – 21.07.2019 - Орехово, средняя 8 этап – 17.08.2019 - Кузнечное, финал, гандикап этапы текущего сезона 2019-2020 1 этап – 18.08.2019 - Кузнечное, средняя 2 этап – 01.09.2019 - Румболовка, спринт (Ч-т и П-во Всев. р-на) 3 этап – 27.10.2019 - Гарболово, классика',
@@ -1528,7 +1527,7 @@ let events2019 = [
     {
         id: 'SPB_20191102_1',
         date: '2019-11-02',
-        place: 'Улица Рубинштейна',
+        place: 'ул Рубинштейна',
         name: 'Sprint Tour SPb - осень 2019. 5 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -1560,7 +1559,7 @@ let events2019 = [
     {
         id: 'SPB_20191109_1',
         date: '2019-11-09',
-        place: 'парк Сосновка',
+        place: 'Сосновка',
         name: 'Открытая тренировка по трейл-ориентированию',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/191109tr/protokol_191109.pdf',
@@ -1571,6 +1570,7 @@ let events2019 = [
         id: 'SPB_20191109_2',
         date: '2019-11-09',
         name: 'Памяти 7 ноября',
+        place: 'Бернгардовка',
         type: 'ORIENT',
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-sportivnomu-orientirovaniyu/pamyati-7-noyabrya-2019',
         res: 'https://o-site.spb.ru/_races/191109/191109_res.htm',
@@ -1590,6 +1590,7 @@ let events2019 = [
         id: 'SPB_20191110_1',
         date: '2019-11-10',
         name: 'Маркир 110%',
+        place: 'Токсово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191110_markir/191110_110_rez.htm',
         start: 'ROGAINE_110',
@@ -1611,6 +1612,7 @@ let events2019 = [
         id: 'SPB_20191116_1',
         date: '2019-11-16',
         name: 'Кубок «Горный Кросс»',
+        place: 'Зеленогорск',
         type: 'ROGAINE',
         res: 'http://www.o-site.spb.ru/_races/2019GK/190113R_split.htm',
         info: 'МНОГОЭТАПНЫЙ КУБОК ПО РОГЕЙНУ ГК-66 - сплиты - результаты - 13.01 - Орехово ГК-67 - сплиты - результаты - 02.05 - Шалово ГК-68 - сплиты - результаты - 25.05 - Кузнечное ГК-69 - сплиты - результаты - 13.07 - Орехово ГК-70 - сплиты - результаты - 28.09 - Молодежное ГК-71 - сплиты - результаты - 16.11 - Зеленогорск (финал)',
@@ -1631,7 +1633,7 @@ let events2019 = [
     {
         id: 'SPB_20191124_1',
         date: '2019-11-24',
-        place: 'Актовый зал ДДЮТ Выборгского района, ул. Сантьяго-де Куба, д. 4 корп.2',
+        place: 'Актовый зал ДДЮТ Выборгского р-на, ул Сантьяго-де Куба, 4-2',
         name: 'Вечер встречи ориентировщиков',
         type: 'ORIENT',
         info: 'Традиционный вечер встречи по итогам летнего сезона 2019. Организатор: Федерация спортивного ориентирования Санкт-Петербурга Проходит при поддержке: Компании RedFox Сети магазинов «Спортивная Линия» Экипировочного центра «ОХТА» Экипировочного центра «Mass Sport» SIGN SPORT Russia В программе: Награждение (дипломами, в соответствии с официальными протоколами) за летний Чемпионат и Первенство СПб 2019 (велосипедные дисциплины), Награждение (дипломами, в соответствии с официальными протоколами) за летний Чемпионат и Первенство СПб 2019 (кроссовые дисциплины), Награждение по итогам летнего Кубка СПб и ЛО 2019 в личном, клубном зачётах и Малых кубках, Место проведения: Актовый зал ДДЮТ Выборгского района, ул. Сантьяго-де Куба, д. 4 корп.2 Начало вечера: в 17:00 Все пришедшие на вечер участники награждения и гости смогут принять участие в лотерее, в которой будут разыграны призы от СФСО СПб. Внимание! Наличие сменной обуви ОБЯЗАТЕЛЬНО!',
@@ -1661,7 +1663,7 @@ let events2019 = [
     {
         id: 'SPB_20191130_1',
         date: '2019-11-30',
-        place: 'парк Сосновка',
+        place: 'Сосновка',
         name: 'Ориентир НатАлка',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1116',
@@ -1675,6 +1677,7 @@ let events2019 = [
         id: 'SPB_20191201_1',
         date: '2019-12-01',
         name: 'Открытая тренировка Маркир «69-й километр»',
+        place: '69км',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1115',
         res: 'https://o-site.spb.ru/_races/191201tr/191201_res.htm',
@@ -1684,6 +1687,7 @@ let events2019 = [
         id: 'SPB_20191201_2',
         date: '2019-12-01',
         name: 'Открытое Первенство Кировского района ЛО',
+        place: 'Шлиссельбург',
         type: 'ORIENT',
         reg: 'http://sport-orient.ru/products/uncategorized/gorodskoj-sprint-shlisselburg',
         res: 'https://o-site.spb.ru/_races/191201gs/191201_res.htm',
@@ -1694,6 +1698,7 @@ let events2019 = [
         id: 'SPB_20191208_1',
         date: '2019-12-08',
         name: 'Всеволожская тропа (2 этап)',
+        place: 'Токсово',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/11317',
         res: 'https://o-site.spb.ru/_races/191208/191208_res.html',
@@ -1704,6 +1709,7 @@ let events2019 = [
         id: 'SPB_20191214_1',
         date: '2019-12-14',
         name: 'Открытая тренировка по трейл-О',
+        place: 'Сестрорецк, сквер Пограничников',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191214_trail/Result.pdf',
         info: '14 декабря в Сквере Пограничников (Сестрорецк) состоится открытая тренировка по трейл-ориентированию.',
@@ -1720,7 +1726,7 @@ let events2019 = [
     {
         id: 'SPB_20191215_1',
         date: '2019-12-15',
-        place: 'г.Пушкин, Отдельный парк',
+        place: 'Пушкин, Отдельный парк',
         name: 'Снежная Тропа, 2-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191215/res1.htm',
@@ -1745,6 +1751,7 @@ let events2019 = [
         id: 'SPB_20191229_1',
         date: '2019-12-29',
         name: 'Новогодний Маркир',
+        place: 'Сосново',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1122',
         res: 'http://markir.spb.ru/results/191229_res.htm',
@@ -1756,6 +1763,7 @@ let events2019 = [
         id: 'SPB_20191229_2',
         date: '2019-12-29',
         name: 'Новогодний ориентир',
+        place: 'Сосново',
         type: 'ORIENT',
         reg: 'http://reg.o-time.ru/start.php?event=19236',
         res: 'http://reg.o-time.ru/result/19236.htm',
@@ -1767,7 +1775,7 @@ let events2019 = [
     {
         id: 'SPB_20191231_1',
         date: '2019-12-31',
-        place: 'парк Сосновка',
+        place: 'Сосновка',
         name: 'Тренировка FoxTeam',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1123',
