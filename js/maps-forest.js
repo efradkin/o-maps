@@ -240,6 +240,16 @@ let forestMaps = [
         author: 'SHLKHN_Y'
     },
     {
+        name: 'Юкки',
+        year: 2026,
+        url: './maps/forest/yukki_2026.webp',
+        link: ['./original_maps/forest/yukki_2026_omaps.webp','./original_maps/forest/yukki_south_2026_omaps.webp','./original_maps/forest/yukki_2026_omaps.ocd'],
+        info: 'Карта пока ещё находится в работе, но южная, наиболее востребованная часть, уже доступна для тренировок.',
+        author: 'RDNV_I',
+        owner: 'RDNV_I',
+        bounds: [[60.1503276, 30.2724409], [60.1431071, 30.3420496], [60.1135250, 30.2570772]],
+    },
+    {
         name: 'Юкки, север',
         year: 2007,
         url: './maps/forest/yukki_north_2007.webp',
