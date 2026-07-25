@@ -161,7 +161,11 @@ function renderMapsTable() {
 
         if (validateEvent(evt)) {
             totalEvents++;
-            currentDate = new Date(evt.date);
+            let date = evt.endDate;
+            if (!date) {
+                date = evt.date;
+            }
+            currentDate = new Date(date);
             let month = currentDate.getMonth();
             const y = currentDate.getFullYear();
             if (currentSort === 'date' && (month !== currentMonth || y !== currentYear)) {
