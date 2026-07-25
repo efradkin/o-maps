@@ -2,7 +2,7 @@ let events2018 = [
     {
         id: 'SPB_20180103_1',
         date: '2018-01-03',
-        place: 'п.Мичуринское, ДОЛ "Мечта"',
+        place: 'Мичуринское, ДОЛ Мечта',
         name: 'УТС в Мичуринском',
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=3551',
@@ -13,7 +13,7 @@ let events2018 = [
         id: 'SPB_20180107_1',
         date: '2018-01-07',
         endDate: '2018-01-08',
-        place: 'п.Мичуринское',
+        place: 'Мичуринское',
         name: 'Рождественские старты 2018',
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=3625',
@@ -25,6 +25,7 @@ let events2018 = [
         id: 'SPB_20180113_1',
         date: '2018-01-13',
         name: 'ГорныйКросс-61',
+        place: 'Орехово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180113R/180113R_res.pdf',
         fmt: 'рогейн 3 и 6 часов',
@@ -43,6 +44,7 @@ let events2018 = [
         id: 'SPB_20180114_2',
         date: '2018-01-14',
         name: 'Соревнования на приз газеты Всеволожские вести',
+        place: 'Кузьмоловский',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=829',
         res: 'https://o-site.spb.ru/_races/180114_VV/180114_split.html',
@@ -53,8 +55,9 @@ let events2018 = [
         id: 'SPB_20180120_1',
         date: '2018-01-20',
         place: 'Кузьмолово',
-        name: 'Чемпионат и п-во СПб (зимняя программа) - лыжная гонка - маркированная трасса',
+        name: 'ЧиП СПб, ЛГ-маркир',
         type: 'SKI',
+        fmt: 'маркир',
         res: 'https://o-site.spb.ru/_races/180120/20180120_res.htm',
         owner: 'SFSO_SPB',
         o_site: '180120'
@@ -63,7 +66,7 @@ let events2018 = [
         id: 'SPB_20180121_1',
         date: '2018-01-21',
         place: 'Кузьмолово',
-        name: 'Чемпионат и п-во СПб (зимняя программа) - лыжная гонка - спринт',
+        name: 'ЧиП СПб, ЛГ-спринт',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/180121/20180121_res.htm',
         owner: 'SFSO_SPB',
@@ -74,8 +77,8 @@ let events2018 = [
         date: '2018-01-26',
         endDate: '2018-01-28',
         place: 'Будогощь',
-        name: 'Чемпионат и первенство Ленинградской обл. по ориентированию на лыжах',
-        type: 'ORIENT',
+        name: 'ЧиП ЛО',
+        type: 'SKI',
         reg: 'http://orgeo.ru/event/registration/5769',
         res: 'https://o-site.spb.ru/_races/18012628/180126_res.pdf',
         owner: 'SFSO_LO',
@@ -108,7 +111,8 @@ let events2018 = [
         date: '2018-02-04',
         place: 'Кавголово',
         name: 'Выбор50 - зимний Кубок Белых Ночей',
-        type: 'SKI',
+        type: 'ORIENT',
+        fmt: 'выбор',
         reg: 'http://o-reg.spb.ru/entry-list?id=836',
         res: 'https://o-site.spb.ru/_races/180204_BN/180204_res.htm',
         owner: 'WN',
@@ -119,7 +123,8 @@ let events2018 = [
         date: '2018-02-10',
         endDate: '2018-02-11',
         name: 'Matreshka-ski',
-        type: 'ORIENT',
+        place: 'Цвелодубово',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=838',
         res: 'https://o-site.spb.ru/_races/18021011_matreshka/180210M_res.htm',
         o_site: '18021011_matreshka'
@@ -139,7 +144,7 @@ let events2018 = [
     {
         id: 'SPB_20180211_1',
         date: '2018-02-11',
-        place: 'Ленинградская обл., Выборгский район, пос. Зеркальный',
+        place: 'Зеркальный',
         name: 'Первенство СДЮСШ ОР №2 СПБ ГДТЮ',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=834',
@@ -152,7 +157,7 @@ let events2018 = [
         id: 'SPB_20180212_1',
         date: '2018-02-12',
         endDate: '2018-02-17',
-        place: 'п. Цвелодубово',
+        place: 'Цвелодубово',
         name: 'Первенство России, Цвелодубово',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180212/4komandnye.rar',
@@ -207,7 +212,7 @@ let events2018 = [
         id: 'SPB_20180225_2',
         date: '2018-02-25',
         place: 'Цвелодубово',
-        name: 'Чемпионат и п-во СПб (зимняя программа) - лыжная гонка - лонг',
+        name: 'ЧиП СПб, ЛГ-лонг',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=842',
         res: 'https://o-site.spb.ru/_races/180225/180225_res.htm',
@@ -217,7 +222,7 @@ let events2018 = [
     {
         id: 'SPB_20180303_1',
         date: '2018-03-03',
-        place: 'оз.Вуокса, Приозерский р-н, п.Кротово',
+        place: 'оз Вуокса, Кротово',
         name: 'Рогейн Ice Trail, 2-й этап Кубка ЛО по рогейну',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/ice-trail-2018/registration.html',
@@ -230,7 +235,7 @@ let events2018 = [
         id: 'SPB_20180304_1',
         date: '2018-03-04',
         place: 'Кузьмолово',
-        name: 'Чемпионат и п-во СПб (зимняя программа) - лыжная гонка - классика ОС',
+        name: 'ЧиП СПб, ЛГ',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/180304/180204_res.htm',
         owner: 'SFSO_SPB',
@@ -252,16 +257,17 @@ let events2018 = [
         date: '2018-03-09',
         endDate: '2018-03-11',
         name: 'Sprint Camp SPb 2018',
+        place: 'СПб',
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=3724',
-        res: 'https://o-site.spb.ru/_races/180309-11/180309_SC_rez.htm',
+        res: ['https://o-site.spb.ru/_races/180309-11/180309_SC_split.htm','https://o-site.spb.ru/_races/180309-11/180310_SCutro_split.htm','https://o-site.spb.ru/_races/180309-11/180310_SCden_split.htm','https://o-site.spb.ru/_races/180309-11/180311_SC_split.htm','https://o-site.spb.ru/_races/180309-11/180309_11_SC_sum.htm'],
         o_site: '180309-11'
     },
     {
         id: 'SPB_20180311_1',
         date: '2018-03-11',
         place: 'Шуваловский парк',
-        name: 'Первенство Выборгского района',
+        name: 'П-во Выборгского р-на',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=850',
         res: 'https://o-site.spb.ru/_races/180311/180311_res.htm',
@@ -272,7 +278,8 @@ let events2018 = [
     {
         id: 'SPB_20180316_1',
         date: '2018-03-16',
-        name: 'Кубок России в Сочи',
+        name: 'Кубок России',
+        place: 'Сочи',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180316Sochi/res1.htm',
         o_site: '180316Sochi'
@@ -280,7 +287,7 @@ let events2018 = [
     {
         id: 'SPB_20180317_1',
         date: '2018-03-17',
-        place: 'г. Пушкин, Нижний парк',
+        place: 'Пушкин, Нижний парк',
         name: 'Весёлый ветер',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=852',
@@ -291,14 +298,15 @@ let events2018 = [
         id: 'SPB_20180321_1',
         date: '2018-03-21',
         name: 'Черное море - 2018',
+        place: 'Новороссийск',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/180323Gel/res1.htm',
+        res: 'https://o-site.spb.ru/_races/180323Gel/summa4.htm',
         o_site: '180323Gel'
     },
     {
         id: 'SPB_20180331_1',
         date: '2018-03-31',
-        place: 'г. Пушкин',
+        place: 'Пушкин',
         name: 'Ориентир-1',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=863',
@@ -308,8 +316,10 @@ let events2018 = [
     },
     {
         id: 'SPB_20180407_1',
-        date: '2018-04-07',
+        date: '2018-04-01',
+        endDate: '2018-04-07',
         name: 'Весенние капели',
+        place: 'Болотная станция, Юкки',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=866',
         res: 'https://o-site.spb.ru/_races/180401/180407_res_.htm',
@@ -318,7 +328,7 @@ let events2018 = [
     {
         id: 'SPB_20180408_1',
         date: '2018-04-08',
-        place: 'г. Сертолово',
+        place: 'Сертолово',
         name: 'Всеволожская тропа:Сертолово',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=865',
@@ -338,7 +348,8 @@ let events2018 = [
     {
         id: 'SPB_20180415_1',
         date: '2018-04-15',
-        name: 'Тренировка на Пухтоловой горе',
+        name: 'Тренировка',
+        place: 'Пухтолова гора',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180415_tr/180415_res.htm',
         o_site: '180415_tr'
@@ -347,6 +358,7 @@ let events2018 = [
         id: 'SPB_20180418_1',
         date: '2018-04-18',
         name: 'Первенство Красногвардейского района',
+        place: 'Полюстровский парк',
         type: 'ORIENT',
         reg: 'https://o-site.spb.ru/_races/180418_K/180418_zayavka.xls',
         res: 'https://o-site.spb.ru/_races/180418_K/180418_RES_K.htm',
@@ -355,7 +367,7 @@ let events2018 = [
     {
         id: 'SPB_20180418_2',
         date: '2018-04-18',
-        place: 'ГБОУ школа № 552 по адресу: г. Пушкин, ул. Хазова д.7 лит А',
+        place: 'ГБОУ школа №552, Пушкин, ул Хазова, 7А',
         name: 'Спортивное ориентирование - в школу, Пушкинский р-н',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180418/180418_res_lab.pdf',
@@ -369,10 +381,10 @@ let events2018 = [
         date: '2018-04-21',
         endDate: '2018-04-22',
         name: 'Сосновоборские Дюны',
+        place: 'Сосновый Бор',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=859',
         res: 'https://o-site.spb.ru/_races/180421-22_/180421_res.htm',
-        info: 'Соревнования проводятся 21-22 апреля 2018 года в г. Сосновый Бор.',
         owner: 'YUVENTA',
         o_site: '180421-22_'
     },
@@ -381,14 +393,14 @@ let events2018 = [
         date: '2018-04-22',
         place: 'Сосновый Бор',
         name: 'Открытая тренировка МТБО',
-        type: 'ORIENT',
+        type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180422/180422_result.htm',
         o_site: '180422'
     },
     {
         id: 'SPB_20180425_1',
         date: '2018-04-25',
-        place: 'школа № 467, Колпинский район, бул. Трудящихся, д.9',
+        place: 'школа №467, Колпино, бул Трудящихся, 9',
         name: 'Спортивное ориентирование в школу, Колпинский р-н',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180425/180425_res_lab.htm',
@@ -402,7 +414,7 @@ let events2018 = [
         place: 'Пушкин, Баболовский парк',
         name: 'Царскосельский Азимут',
         type: 'ORIENT',
-        res: 'http://orgeo.ru/live/#/6566  --',
+        res: 'http://orgeo.ru/live/#/6566',
         o_site: '180425ca'
     },
     {
@@ -410,7 +422,7 @@ let events2018 = [
         date: '2018-04-29',
         endDate: '2018-05-02',
         place: 'Токсово',
-        name: 'Чемпионат и п-во СЗФО. Майская многодневка',
+        name: 'ЧиП СЗФО, Майская многодневка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180429/180429_resNW.htm',
         o_site: '180429'
@@ -419,6 +431,7 @@ let events2018 = [
         id: 'SPB_20180501_1',
         date: '2018-05-01',
         name: 'Горный Кросс-62',
+        place: 'Луга',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/180501R/180501R_res.pdf',
         fmt: 'рогейн: БЕГОМ 5 и 2 часа, ВЕЛО - 4 часа',
@@ -429,16 +442,18 @@ let events2018 = [
         id: 'SPB_20180501_2',
         date: '2018-05-01',
         name: 'Первенство СДЮСШ ОР №2 СПБ ГДТЮ',
+        place: 'Поляны',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=880',
         res: 'https://o-site.spb.ru/_races/180415_SD2/180430_RES.htm',
-        owner: 'SFSO_SPB',
+        owner: 'ANCHKV',
         o_site: '180415_SD2'
     },
     {
         id: 'SPB_20180501_3',
         date: '2018-05-01',
         name: 'ТМ в ОК Университетский',
+        place: 'Поляны',
         type: 'ORIENT',
         info: 'ТРЕНИРОВОЧНОЕ МЕРОПРИЯТИЕ (ТМ) ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ в период с 28 апреля по 01 мая 2018 года на базе ОК «Университетский»',
         o_site: '180428-0501'
@@ -457,8 +472,10 @@ let events2018 = [
         id: 'SPB_20180505_1',
         date: '2018-05-05',
         name: 'Рогейн Колтушские высоты, 3-й этап Кубка ЛО',
+        place: 'Колтуши',
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/uncategorized/klo-2-etap',
+        planner: 'KUOKNN_A',
         o_site: '180505'
     },
     {
@@ -484,7 +501,7 @@ let events2018 = [
     {
         id: 'SPB_20180513_1',
         date: '2018-05-13',
-        place: 'г. Пухтола',
+        place: 'Пухтолова гора',
         name: 'Памяти друзей',
         type: 'ORIENT',
         reg: 'http://new.o-reg.spb.ru/?filter[day_id]=883',
@@ -495,7 +512,7 @@ let events2018 = [
     {
         id: 'SPB_20180516_1',
         date: '2018-05-16',
-        place: 'Гимназия № 642 «Земля и Вселенная» по адресу: Санкт-Петербург, Морская набережная, д 15, кор. 2',
+        place: 'Гимназия №642 «Земля и Вселенная», Морская наб, 15-2',
         name: 'Спортивное ориентирование в школу, Василеостровский район',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180516/180516_res_lab.htm',
@@ -506,8 +523,8 @@ let events2018 = [
     {
         id: 'SPB_20180519_1',
         date: '2018-05-19',
-        place: 'село Павлово (Колтуши)',
-        name: 'Российский Азимут - Ленинградская область',
+        place: 'Павлово (Колтуши)',
+        name: 'Российский Азимут - ЛО',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=886',
         res: 'https://o-site.spb.ru/_races/180519_RALO/180519_rez_RA_LO.htm',
@@ -517,11 +534,11 @@ let events2018 = [
     {
         id: 'SPB_20180519_2',
         date: '2018-05-19',
-        name: 'Российский Азимут - Санкт-Петербург',
+        name: 'Российский Азимут - СПб',
+        place: 'Сосновка',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=884',
         res: 'https://o-site.spb.ru/_races/180519_RA_SPb/180519_RES.htm',
-        info: 'Соревнования состоятся 19 мая в парке "Сосновка"',
         owner: 'SFSO_SPB',
         o_site: '180519_RA_SPb'
     },
@@ -529,7 +546,7 @@ let events2018 = [
         id: 'SPB_20180519_3',
         date: '2018-05-19',
         endDate: '2018-05-20',
-        place: 'оз.Вуокса, Приозерский р-н, п.Горы',
+        place: 'оз Вуокса, Горы',
         name: 'Весенний водный рогейн',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2018/registration.html',
@@ -541,7 +558,7 @@ let events2018 = [
     {
         id: 'SPB_20180520_1',
         date: '2018-05-20',
-        place: 'Санкт-Петербург, Калининский район',
+        place: 'шк №184',
         name: 'Чемпионат и первенство СПб - спринт',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=887',
@@ -553,7 +570,7 @@ let events2018 = [
     {
         id: 'SPB_20180523_1',
         date: '2018-05-23',
-        place: 'на базе школы-интерната №9 Калининского района (ул.Старцева д.7.)',
+        place: 'школа-интернат №9, ул Старцева, 7',
         name: 'Спортивное ориентирование в школу, Калининский район',
         type: 'ORIENT',
         photo: 'http://vk.com/fazer_russia?z=album-51571395_254007253',
@@ -562,26 +579,25 @@ let events2018 = [
     },
     {
         id: 'SPB_20180525_1',
-        date: '2018-05-25',
+        date: '2018-05-24',
+        endDate: '2018-05-26',
         name: 'Спартакиада ВС РФ среди сборных команд ВУЗов',
+        place: 'Сертолово, Вартемяги',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/180524-26/180524_res_l.pdf',
+        res: 'https://o-site.spb.ru/_races/180524-26/1805_it.pdf',
         o_site: '180524-26'
     },
     {
         id: 'SPB_20180526_1',
         date: '2018-05-26',
         endDate: '2018-05-27',
-        place: 'Выборгский р-н ЛО',
+        place: 'Выборг',
         name: 'Выборгская тройка',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/18052627/180526_V3_rez.htm',
+        res: 'https://o-site.spb.ru/_races/18052627/180526-27_summ.htm',
         owner: 'VYBORG',
         o_site: '18052627',
-        reskeep: [
-            23,
-            22
-        ]
+        reskeep: [23, 22]
     },
     {
         id: 'SPB_20180526_2',
@@ -657,6 +673,7 @@ let events2018 = [
         id: 'SPB_20180610_1',
         date: '2018-06-10',
         name: 'BondCup MTBO',
+        place: 'Орехово',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=900',
         res: 'https://o-site.spb.ru/_races/180610V/180610V_split.htm',
@@ -665,7 +682,7 @@ let events2018 = [
     {
         id: 'SPB_20180611_1',
         date: '2018-06-11',
-        place: 'ж/д станция Орехово',
+        place: 'Орехово',
         name: 'Открытая тренировка МТБО',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=893',
@@ -675,8 +692,8 @@ let events2018 = [
     {
         id: 'SPB_20180612_1',
         date: '2018-06-12',
-        place: 'ж/д станция Орехово',
-        name: 'Чемпионат и Первенство СПб - велокросс классика',
+        place: 'Орехово',
+        name: 'ЧиП СПб, велокросс-классика',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180612/20180612_res2.htm',
         owner: 'SFSO_SPB',
@@ -688,18 +705,13 @@ let events2018 = [
         date: '2018-06-12',
         endDate: '2018-06-16',
         name: 'Спортивный Фестиваль «Яркий Мир»',
+        place: 'Орехово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/18061216/180613_lab_res.htm',
         photo: 'http://vk.com/photo-128591100_456242365',
         start: 'YM',
         o_site: '18061216',
-        reskeep: [
-            18,
-            17,
-            16,
-            15,
-            14
-        ]
+        reskeep: [18, 17, 16, 15, 14]
     },
     {
         id: 'SPB_20180616_1',
@@ -714,7 +726,7 @@ let events2018 = [
         id: 'SPB_20180617_1',
         date: '2018-06-17',
         endDate: '2018-06-22',
-        place: 'Выборгский р-н',
+        place: 'Выборг',
         name: 'Кубок Карельского перешейка-2018',
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=3624',
@@ -737,6 +749,7 @@ let events2018 = [
         date: '2018-06-22',
         endDate: '2018-06-24',
         name: 'Мемориал Михаила Святкина',
+        place: 'Раздолье',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/6775',
         res: 'https://o-site.spb.ru/_races/180622mms/1rez.htm',
@@ -773,6 +786,7 @@ let events2018 = [
         id: 'SPB_20180630_1',
         date: '2018-06-30',
         name: 'Вело Белые Ночи',
+        place: 'Петяярви',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=908',
         res: 'https://o-site.spb.ru/_races/180630v/180630v_rez1.htm',
@@ -781,10 +795,7 @@ let events2018 = [
         start: 'WN',
         o_site: '180630v',
         endDate: '2018-07-01',
-        reskeep: [
-            5,
-            3
-        ]
+        reskeep: [5, 3]
     },
     {
         id: 'SPB_20180630_2',
@@ -799,7 +810,7 @@ let events2018 = [
         id: 'SPB_20180707_1',
         date: '2018-07-07',
         endDate: '2018-07-08',
-        place: 'оз. Тихое',
+        place: 'оз Тихое',
         name: 'Летнее Первенство Белых Ночей',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=910',
@@ -811,9 +822,10 @@ let events2018 = [
         id: 'SPB_20180714_1',
         date: '2018-07-14',
         name: 'Открытая тренировка MTBO',
+        place: 'Токсово, Малиновая гора',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=876',
-        info: 'Открытая тренировка МТБО на Малиновой горе',
+        info: 'Открытая тренировка МТБО',
         o_site: '180714'
     },
     {
@@ -826,15 +838,6 @@ let events2018 = [
         start: '100x24'
     },
     {
-        id: 'SPB_20180715_1',
-        date: '2018-07-15',
-        name: 'ГорныйКросс-63',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/180715R/180715R_res.pdf',
-        fmt: 'Бег - 6 и 3 часа, Вело - 5 часов',
-        o_site: '180715R'
-    },
-    {
         id: 'SPB_20180715_2',
         date: '2018-07-15',
         place: 'Первомайское',
@@ -845,13 +848,15 @@ let events2018 = [
         o_site: '180715_Fox'
     },
     {
-        id: 'SPB_20180715_3',
+        id: 'SPB_20180715_1',
         date: '2018-07-15',
         place: 'Орехово',
-        name: 'Горный кросс - 64',
+        name: 'Горный кросс-63',
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
+        res: 'https://o-site.spb.ru/_races/180715R/180715R_res.pdf',
+        o_site: '180715R',
         start: 'GORNY_CROSS'
     },
     {
@@ -866,7 +871,7 @@ let events2018 = [
         id: 'SPB_20180804_1',
         date: '2018-08-04',
         endDate: '2018-08-05',
-        place: 'Пустошкинский район Псковской области',
+        place: 'Пустошкинский р-он Псковской обл',
         name: 'Чемпионат СЗФО по рогейну',
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/entry-list?id=858',
@@ -936,10 +941,10 @@ let events2018 = [
         id: 'SPB_20180901_1',
         date: '2018-09-01',
         name: 'Чемпионат и Первенство СПб - велокросс общий старт',
+        place: 'Зеленогорск, Чёрные оз',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=891',
         res: 'https://o-site.spb.ru/_races/180901/180901_res.htm',
-        info: '01 сентября 2018 года, в лесном массиве вокруг Черных озер, окрестности ж/д станции Зеленогорск',
         owner: 'SFSO_SPB',
         o_site: '180901'
     },
@@ -974,7 +979,7 @@ let events2018 = [
     {
         id: 'SPB_20180905_1',
         date: '2018-09-05',
-        place: 'Красногвардейский р.',
+        place: 'шк №74',
         name: 'Sprint Tour SPb 2018. 1 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -1012,7 +1017,7 @@ let events2018 = [
         id: 'SPB_20180908_3',
         date: '2018-09-08',
         place: 'Отрадное',
-        name: '«Матрасс-Офф-рогейн»',
+        name: 'Матрасс-Офф-рогейн',
         type: 'ROGAINE',
         fmt: '6',
         link: 'http://www.multsport.ru'
@@ -1020,7 +1025,7 @@ let events2018 = [
     {
         id: 'SPB_20180909_1',
         date: '2018-09-09',
-        place: 'пос. Стеклянный',
+        place: 'Стеклянный',
         name: 'Классика Белых Ночей',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=927',
@@ -1033,7 +1038,7 @@ let events2018 = [
     {
         id: 'SPB_20180912_1',
         date: '2018-09-12',
-        place: 'Выборгский район',
+        place: 'Выборгский р-н',
         name: 'Sprint Tour SPb 2018. 2 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -1044,6 +1049,7 @@ let events2018 = [
         date: '2018-09-15',
         place: 'Мичуринское',
         name: 'Чемпионат и п-во Ленинградской обл., эстафета',
+        planner: 'Мичуринское',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=930',
         res: 'https://o-site.spb.ru/_races/180915_LO/180915_res_.htm',
@@ -1055,6 +1061,7 @@ let events2018 = [
         date: '2018-09-15',
         endDate: '2018-09-16',
         name: 'MatrasOFF Race - 2018, 5-й этап Кубка ЛО по рогейну',
+        place: 'Отрадное',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/matrasoff-race-2018/registration.html',
         info: '15-16 сентября в Приозерском районе в окрестностях п.Отрадное будет дан старт 9й ежегодной приключенческой гонке MatrasOFF Race - 2018. Участников ждут зарекомендовавшие себя дисциплины: велоориентирование, классическое спортивное ориентирование, байдарка, пакрафт. Всё это разбавят космоснимок, технические этапы, GPS-задания и велолегенда. А также в рамках мультигонки пройдет 5й этап кубка Ленинградской области по рогейну в формате велосипедного и бегового зачета на 6-8 часов.',
@@ -1087,7 +1094,7 @@ let events2018 = [
     {
         id: 'SPB_20180920_1',
         date: '2018-09-20',
-        place: 'Малиновая гора',
+        place: 'Токсово, Малиновая гора',
         name: 'Кузьмоловские старты. 2 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
@@ -1096,7 +1103,7 @@ let events2018 = [
     {
         id: 'SPB_20180922_1',
         date: '2018-09-22',
-        place: 'Курортный район',
+        place: 'Сестрорецк, Таможенная дорога',
         name: 'Чемпионат и первенство Санкт-Петербурга по спортивному ориентированию – спорт глухих',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=935',
@@ -1129,7 +1136,8 @@ let events2018 = [
     {
         id: 'SPB_20180924_1',
         date: '2018-09-24',
-        name: 'Старты в Зеркальном 2018',
+        name: 'Старты в Зеркальном',
+        place: 'Зеркальный',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180921-24/180921_res.htm',
         o_site: '180921-24'
@@ -1137,7 +1145,7 @@ let events2018 = [
     {
         id: 'SPB_20180926_1',
         date: '2018-09-26',
-        place: 'Пришкольная территория ГБОУ лицея №101 и ГБОУ школы №468',
+        place: 'ГБОУ лицей №101, ГБОУ шк №468',
         name: 'Спортивное ориентирование в школу, Выборгский р-н',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180926/180926_res_lab.htm',
@@ -1156,18 +1164,10 @@ let events2018 = [
         reskeep: 52
     },
     {
-        id: 'SPB_20180929_1',
-        date: '2018-09-29',
-        name: 'ГорныйКросс-64',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/180929R/180929R_res.pdf',
-        o_site: '180929R'
-    },
-    {
         id: 'SPB_20180929_2',
         date: '2018-09-29',
         place: 'Токсово',
-        name: 'Золотые кольца (Свадебные-2018)',
+        name: 'Золотые кольца (Свадебные)',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=942',
         res: 'https://o-site.spb.ru/_races/180929_/180929_res.pdf',
@@ -1187,7 +1187,8 @@ let events2018 = [
     {
         id: 'SPB_20180929_4',
         date: '2018-09-29',
-        name: 'Чемпионат и Первенство г. Сосновый Бор',
+        name: 'Чемпионат и Первенство Соснового Бора',
+        place: 'Сшсновый Бор, оз Копанское',
         type: 'ORIENT',
         info: 'Соревнования проводятся 29 сентября 2018 г. в районе озера Копанское, центр соревнований в СП «Копанское». Регистрация участников и выдача чипов производится на месте старта с 14:00. Предварительные заявки направлять по электронной почте: juventa-uvr@sbor.net до 26 сентября до 23:59, или по телефону 2-47-63 до 26 сентября до 18:00. Начало старта соревнований по ориентированию бегом с 15:00 согласно стартовым протоколам',
         owner: 'YUVENTA',
@@ -1197,6 +1198,7 @@ let events2018 = [
         id: 'SPB_20180929_5',
         date: '2018-09-29',
         name: 'Чемпионат и первенство Санкт-Петербурга по спортивному ориентированию – спорт глухих. Классика',
+        place: 'Пухтолова гора',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180929_deaf/180929_rez_deaf.htm',
         owner: 'SFSO_SPB',
@@ -1205,7 +1207,7 @@ let events2018 = [
     {
         id: 'SPB_20180929_6',
         date: '2018-09-29',
-        place: 'Черные озера',
+        place: 'Зеленогорск, Черные озера',
         name: 'Цикл стартов МаТрёшка. 3 этап',
         type: 'ORIENT',
         reskeep: 53
@@ -1225,20 +1227,22 @@ let events2018 = [
         owner: 'BKTV',
     },
     {
-        id: 'SPB_20180929_8',
+        id: 'SPB_20180929_1',
         date: '2018-09-29',
-        place: 'Молодёжное',
-        name: 'Горный кросс - 65',
+        name: 'ГорныйКросс-64',
+        place: 'Молодежное',
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
+        res: 'https://o-site.spb.ru/_races/180929R/180929R_res.pdf',
+        o_site: '180929R',
         start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20180930_1',
         date: '2018-09-30',
         place: 'Будогощь',
-        name: 'Ч-т и п-во ЛО по велоориентированию (классика)',
+        name: 'ЧиП ЛО по велоориентированию (классика)',
         type: 'VELO',
         reg: 'http://orgeo.ru/event/7454',
         o_site: '180930_velo'
@@ -1259,7 +1263,7 @@ let events2018 = [
     {
         id: 'SPB_20181003_1',
         date: '2018-10-03',
-        place: 'школа № 17 Невского района Санкт-Петербурга по адресу: Санкт-Петербург, ул. Бабушкина, д.58 к.1, лит. В и прилегающая к ней парковая территория «Куракина дача»',
+        place: 'шк №17, ул Бабушкина, 58-1В, Куракина дача',
         name: 'Спортивное ориентирование в школу, Невский р-н',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/181003/181003_res_lab.pdf',
@@ -1287,7 +1291,7 @@ let events2018 = [
     {
         id: 'SPB_20181006_2',
         date: '2018-10-06',
-        place: 'Васильевский остров',
+        place: 'Васильевский о-в',
         name: 'Sprint Tour SPb 2018. 4 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -1296,7 +1300,7 @@ let events2018 = [
     {
         id: 'SPB_20181007_1',
         date: '2018-10-07',
-        place: 'оз.Силанде',
+        place: 'Силанде',
         name: 'Чемпионат и первенство СПб - классика',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/181007/181007_res3.htm',
@@ -1309,17 +1313,20 @@ let events2018 = [
     {
         id: 'SPB_20181010_1',
         date: '2018-10-10',
-        name: 'Спортивное ориентирование в школу, Калининский район',
+        name: 'Спортивное ориентирование в школу, Калининский р-н',
+        place: 'ГБОУ СОШ №175, пр Просвещения, 106-2',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/181010/181010_res_lab.htm',
         photo: 'http://vk.com/album-51571395_257119311',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
-        o_site: '181010'
+        o_site: '181010',
+        owner: 'SFSO_SPB'
     },
     {
         id: 'SPB_20181010_2',
         date: '2018-10-10',
         name: 'Старт памяти одноклубника Коли Иванова',
+        place: 'Кузьмолово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/181010_PK/181010_PPK_rez.htm',
         o_site: '181010_PK',
@@ -1361,6 +1368,7 @@ let events2018 = [
         id: 'SPB_20181014_1',
         date: '2018-10-14',
         name: 'Кубок Коротких рогейнов - 4 этап',
+        place: 'Зеленогорск, Чёрные оз',
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=928',
         res: 'http://o-site.spb.ru/_races/2018_kkr/180428_res.htm',
@@ -1370,7 +1378,7 @@ let events2018 = [
     {
         id: 'SPB_20181014_2',
         date: '2018-10-14',
-        place: 'Черные озера',
+        place: 'Черные оз',
         name: 'Кубок Белых ночей. 1 этап',
         type: 'ORIENT',
         reskeep: 61,
@@ -1396,10 +1404,8 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/181020/res1.htm',
         owner: 'VYBORG',
         o_site: '181020',
-        reskeep: [
-            65,
-            66
-        ]
+        reskeep: [65, 66],
+        map: 'paltsevo_2015'
     },
     {
         id: 'SPB_20181020_2',
@@ -1411,7 +1417,7 @@ let events2018 = [
     {
         id: 'SPB_20181021_1',
         date: '2018-10-21',
-        place: 'г.Колпино, парк на о.Чухонка',
+        place: 'Колпино, парк Чухонка',
         name: 'Открытое Первенство МО г.Колпино',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/181021k/181021_res.htm',
@@ -1440,7 +1446,7 @@ let events2018 = [
     {
         id: 'SPB_20181024_1',
         date: '2018-10-24',
-        place: 'школа №212, ул. Ярослава Гашека, д.9, к.2',
+        place: 'шк №212, ул Ярослава Гашека, 9-2',
         name: 'Спортивное ориентирование в школу, Фрунзенский район',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/181024/181024_res_lab.htm',
@@ -1451,6 +1457,7 @@ let events2018 = [
         id: 'SPB_20181027_1',
         date: '2018-10-27',
         name: 'Финал Кубка ЛО по рогейну',
+        place: 'Токсово',
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/uncategorized/klo-final',
         res: 'https://o-site.spb.ru/_races/181027r/181027r_res.pdf',
@@ -1486,6 +1493,7 @@ let events2018 = [
         id: 'SPB_20181028_1',
         date: '2018-10-28',
         name: 'NordWest Trail',
+        place: 'Зеленогорск',
         type: 'ORIENT',
         video: 'http://youtu.be/DYUHvS84FEs',
         o_site: '181028_nwtrail',
@@ -1581,20 +1589,13 @@ let events2018 = [
         id: 'SPB_20181117_1',
         date: '2018-11-17',
         name: 'ГорныйКросс-65',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/181117R/181117R_res.pdf',
-        fmt: 'Рогейн 3 и 7 часов - бегом, 6 часов - вело',
-        o_site: '181117R'
-    },
-    {
-        id: 'SPB_20181117_2',
-        date: '2018-11-17',
         place: 'Зеленогорск',
-        name: 'Горный кросс - 66',
         type: 'ROGAINE',
-        fmt: '6, 3',
+        fmt: '7(6), 3',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        res: 'https://o-site.spb.ru/_races/181117R/181117R_res.pdf',
+        o_site: '181117R'
     },
     {
         id: 'SPB_20181118_1',
@@ -1610,7 +1611,7 @@ let events2018 = [
     {
         id: 'SPB_20181118_2',
         date: '2018-11-18',
-        place: 'ФМЛ №239 (ул. Кирочная, д.8)',
+        place: 'ФМЛ №239, ул Кирочная, 8',
         name: 'Соревнования по спортивному ориентированию в закрытых помещениях «Лабиринты разума»',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/181118_LR/181118_rez2.htm',
@@ -1629,7 +1630,7 @@ let events2018 = [
     {
         id: 'SPB_20181124_1',
         date: '2018-11-24',
-        place: 'Эколого-биологический центр на Крестовском острове, Крестовский пр. 19',
+        place: 'Эколого-биологический центр, Крестовский пр, 19',
         name: 'Вечер встречи ориентировщиков',
         type: 'ORIENT',
         info: 'Традиционный вечер встречи по итогам летнего сезона 2018. Организатор: Федерация спортивного ориентирования Санкт-Петербурга Проходит при поддержке: Компании RedFox Сети магазинов «Спортивная Линия» Экипировочного центра «ОХТА» Экипировочного центра «Mass Sport» Кондитерской фабрики "Вереск" SIGN SPORT Russia В программе: Награждение (дипломами, в соответствии с официальными протоколами) за летний Чемпионат и Первенство СПб 2018 (велосипедные дисциплины), Награждение (дипломами, в соответствии с официальными протоколами) за летний Чемпионат и Первенство СПб 2018 (кроссовые дисциплины), Награждение по итогам летнего Кубка СПб и ЛО в личном и клубном зачётах, Список призёров в личном зачёте Кубка Место проведения: Эколого-биологический центр на Крестовском острове, Крестовский пр. 19 Начало вечера: в 17:00 Все пришедшие на вечер участники награждения и гости смогут принять участие в лотерее, в которой будут разыграны призы от спонсоров. Внимание! С собой необходимо иметь сменную обувь или бахилы!',
@@ -1649,7 +1650,8 @@ let events2018 = [
     {
         id: 'SPB_20181201_1',
         date: '2018-12-01',
-        name: 'Городской спринт в Новой Ладоге',
+        name: 'Городской спринт',
+        place: 'Новая Ладога',
         type: 'ORIENT',
         reg: 'http://sport-orient.ru/products/uncategorized/gorodskoy-sprint-novaya-ladoga',
         o_site: '181201'
@@ -1657,7 +1659,7 @@ let events2018 = [
     {
         id: 'SPB_20181201_2',
         date: '2018-12-01',
-        place: 'парк Сосновка',
+        place: 'Сосновка',
         name: 'Ориентир НатАлка',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=969',
@@ -1688,7 +1690,7 @@ let events2018 = [
         id: 'SPB_20181208_1',
         date: '2018-12-08',
         endDate: '2018-12-09',
-        place: 'пос. Токсово, ул. Советов, 126, Учебно-спортивный центр ВИФК',
+        place: 'Токсово, ул Советов, 126, Учебно-спортивный центр ВИФК',
         name: 'Семинар подготовки судей 1 и 2 категорий',
         type: 'ORIENT',
         info: 'Региональный семинар по подготовке и аттестации спортивных судей 1 и 2-й категорий по спортивному ориентированию. Семинар проводится для сдачи зачета и оформления судейских категорий кандидатам на присвоение первой и второй категории, мастерам спорта России, не имеющим практики судейства, а также дает возможность судьям первой и всероссийской категорий выполнить квалификационные требования по руководству семинарами и проведению теоретических занятий. При формировании судейских коллегий на соревнованиях, начиная с весны 2019 года, к судейству будут допускаться только судьи с оформленными судейскими категориями.',
@@ -1721,12 +1723,13 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=977',
         res: 'https://o-site.spb.ru/_races/181215_bn/181215_res.htm',
-        o_site: '181215_bn'
+        o_site: '181215_bn',
+        owner: 'WN'
     },
     {
         id: 'SPB_20181216_1',
         date: '2018-12-16',
-        place: 'парк Сосновка',
+        place: 'Сосновка',
         name: 'Снежная тропа, 4-й этап',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=976',
@@ -1746,7 +1749,7 @@ let events2018 = [
     {
         id: 'SPB_20181223_1',
         date: '2018-12-23',
-        place: 'пос. Приютино',
+        place: 'Приютино',
         name: 'Всеволожская тропа',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/vsev_tropa20182019/181118_rez.htm',
@@ -1757,6 +1760,7 @@ let events2018 = [
         id: 'SPB_20181223_2',
         date: '2018-12-23',
         name: 'Новогодний ориентир',
+        place: 'Румболовский парк',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=978',
         res: 'https://o-site.spb.ru/_races/181223_NO/181223_res.htm',
@@ -1768,6 +1772,7 @@ let events2018 = [
         id: 'SPB_20181230_1',
         date: '2018-12-30',
         name: 'Новогодняя Эстафета',
+        place: 'Лемболово',
         type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2018/nyrelay/',
         video: 'http://www.northernwind.spb.ru/videosplit/2018/nyrelay/',
@@ -1777,6 +1782,7 @@ let events2018 = [
         id: 'SPB_20181231_1',
         date: '2018-12-31',
         name: 'Тренировка FoxTeam',
+        place: 'парк Лесотехнической Академии',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/181231/181231_split.htm',
         o_site: '181231'
