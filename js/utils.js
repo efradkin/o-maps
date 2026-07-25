@@ -819,23 +819,23 @@ function searchMaps(text) {
     if (year) {
         for (const m of oMaps) {
             let y = year(m);
-            if (y && y === year && !isMapHidden(m)) {
+            if (y && y === year) {
                 results.push(m);
             }
         }
     } else {
         for (const m of oMaps) {
-            if (unifyString(m.name).includes(text) && !isMapHidden(m)) {
+            if (unifyString(m.name).includes(text)) {
                 results.push(m);
             }
         }
         for (const m of oMaps) {
-            if (!results.includes(m) && m.info && unifyString(m.info).includes(text) && !isMapHidden(m)) {
+            if (!results.includes(m) && m.info && unifyString(m.info).includes(text)) {
                 results.push(m);
             }
         }
         for (const m of oMaps) {
-            if (!results.includes(m) && m.url.toLocaleLowerCase().includes(text) && !isMapHidden(m)) {
+            if (!results.includes(m) && m.url.toLocaleLowerCase().includes(text)) {
                 results.push(m);
             }
         }
@@ -879,7 +879,7 @@ function searchMap(text) {
     }
     if (title) {
         for (const m of oMaps) {
-            if (unifyString(m.name).includes(title) && (!y || y === year(m)) && !isMapHidden(m)) {
+            if (unifyString(m.name).includes(title) && (!y || y === year(m))) {
                 return m;
             }
         }
@@ -893,7 +893,7 @@ function searchMap(text) {
     } else
     if (y) {
         for (const m of oMaps) {
-            if (y === year(m) && !isMapHidden(m)) {
+            if (y === year(m)) {
                 return m;
             }
         }
@@ -903,7 +903,7 @@ function searchMap(text) {
                 let sameName = unifyString(m.name).includes(text);
                 let sameInfo = m.info && unifyString(m.info).includes(text);
                 let sameUrl = m.url.toLocaleLowerCase().includes(text);
-                if ((sameName || sameInfo || sameUrl) && !isMapHidden(m)) {
+                if ((sameName || sameInfo || sameUrl)) {
                     return m;
                 }
             }
