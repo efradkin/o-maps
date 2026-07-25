@@ -344,7 +344,10 @@ function startYear(o) { // map, track, event
 }
 
 function dateForCompare(m) {
-    let mDate = m.date;
+    let mDate = m.endDate;
+    if (!mDate) {
+        mDate = m.date
+    }
     if (Array.isArray(mDate)) {
         mDate = mDate[0];
     }

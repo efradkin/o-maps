@@ -3504,7 +3504,7 @@ let moscowMaps = [
         type: ['PARK']
     },
     {
-        name: 'Долгопрудный, школа №2044',
+        name: 'Долгопрудная, школа №2044',
         year: 2026,
         url: './maps/moscow/ak/dolgoprudny_school_2044_2026.webp',
         link: './original_maps/moscow/ak/dolgoprudny_school_2044_2026_omaps.gif',

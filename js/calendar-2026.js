@@ -1977,7 +1977,6 @@ let events2026 = [
         place: 'Красный Холм',
         o_site: '260725_V',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1749',
-        info: 'Точка старта <a href="https://yandex.ru/maps/-/CTbfZGop">тут</a>.',
         type: 'ORIENT',
         coord: [60.7689479, 28.8271379],
         map: 'paltsevo_2015',
@@ -2008,7 +2007,7 @@ let events2026 = [
         endDate: '2026-08-02',
         name: 'Кубок Белых ночей №19,20',
         place: 'Смоляное оз',
-        reg: ['https://orgeo.ru/event/54227','https://orgeo.ru/event/54228'],
+        reg: 'https://orgeo.ru/event/54227',
         type: 'ORIENT',
         owner: 'WN',
         map: 'smoljanoe_2015'
