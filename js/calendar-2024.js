@@ -1780,7 +1780,7 @@ let events2024 = [
     {
         id: 'SPB_20241124_1',
         date: '2024-11-24',
-        place: 'парк Сосновка',
+        place: 'Сосновка',
         name: 'Снежная тропа, Сосновка',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1642',

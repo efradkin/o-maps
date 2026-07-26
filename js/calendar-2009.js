@@ -20,7 +20,7 @@ let events2009 = [
     {
         id: 'SPB_20090118_1',
         date: '2009-01-18',
-        place: 'п. Кузьмоловский',
+        place: 'Кузьмоловский',
         name: 'На приз газеты Всеволожские Вести',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090118_vesti/090118_res.htm',
@@ -102,7 +102,7 @@ let events2009 = [
         id: 'SPB_20090214_1',
         date: '2009-02-14',
         endDate: '2009-02-15',
-        place: 'пос. Кузьмоловский',
+        place: 'Кузьмоловский',
         name: 'Две Пятёрки',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/09021415/090214_res.htm',

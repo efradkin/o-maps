@@ -309,7 +309,7 @@ let events2004 = [
     {
         id: 'SPB_20041031_1',
         date: '2004-10-31',
-        place: 'парк Сосновка',
+        place: 'Сосновка',
         name: 'Снежная Тропа, 1-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/041031/results_etap1.zip',

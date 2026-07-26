@@ -608,7 +608,7 @@ let events2008 = [
     {
         id: 'SPB_20080907_1',
         date: '2008-09-07',
-        place: 'п. Кузьмоловский',
+        place: 'Кузьмоловский',
         name: 'Кубок Яркого Мира, 8 этап',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/080906/et7-8_res.zip',
@@ -687,7 +687,7 @@ let events2008 = [
     {
         id: 'SPB_20081001_1',
         date: '2008-10-01',
-        place: 'пос. Кузьмоловский',
+        place: 'Кузьмоловский',
         name: 'Первенство Ленинградского Военного Округа',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/081001/081001_res.htm',

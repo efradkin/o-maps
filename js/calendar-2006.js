@@ -224,7 +224,7 @@ let events2006 = [
     {
         id: 'SPB_20060501_1',
         date: '2006-05-01',
-        place: 'парк Сосновка',
+        place: 'Сосновка',
         name: 'MTB-O Парк-Тур I',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/060501MTBO/060501MTBO-rez.htm',
