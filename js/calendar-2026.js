@@ -1917,7 +1917,10 @@ let events2026 = [
         place: 'Воробьево оз',
         o_site: '260718_rog',
         reg: ['http://orgeo.ru/event/info/vorobyovo_tren','http://orgeo.ru/event/vorobyovo2026_rog'],
-        o_gps: 25639,
+        o_gps: {
+            'Рогейн':25639,
+            'Лонг':25662
+        },
         type: ['ROGAINE', 'ORIENT'],
         fmt: '3',
         owner: 'WN',
@@ -1979,6 +1982,7 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1749',
         type: 'ORIENT',
         coord: [60.7689479, 28.8271379],
+        o_gps: 25661,
         map: 'paltsevo_2015',
         owner: 'VYBORG'
     },
