@@ -161,11 +161,7 @@ function renderMapsTable() {
 
         if (validateEvent(evt)) {
             totalEvents++;
-            let date = evt.endDate;
-            if (!date) {
-                date = evt.date;
-            }
-            currentDate = new Date(date);
+            currentDate = new Date(evt.date);
             let month = currentDate.getMonth();
             const y = currentDate.getFullYear();
             if (currentSort === 'date' && (month !== currentMonth || y !== currentYear)) {
@@ -185,10 +181,11 @@ function renderMapsTable() {
             }
 
             const row = document.createElement('tr');
-            if (isOutdated(currentDate)) {
+            const lastDate = new Date(evt.endDate ?? evt.date);
+            if (isOutdated(lastDate)) {
                 row.classList.add('disabled');
             } else {
-                if (isActual(currentDate)) {
+                if (isActual(lastDate)) {
                     row.classList.add('current');
                 }
             }
