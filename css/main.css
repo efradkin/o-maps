@@ -39,17 +39,21 @@ a, a:active, a:focus {
 }
 
 .page-header {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
+    display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     column-gap: 8px;
+    justify-self: stretch;
+    margin-right: auto;
 }
 
-.page-header h1 {
+header.page-header h1 {
     margin: 0;
-    min-width: 0;
+    width: auto;
+    flex: 0 0 auto;
+    min-width: auto;
     white-space: nowrap;
-    font-size: clamp(15px, 4.2vw, 32px);
+    font-size: clamp(18px, 5.5vw, 32px); /*15px, 4.2vw, 32px*/
 }
 
 .page-header-actions {
@@ -58,6 +62,8 @@ a, a:active, a:focus {
     justify-content: flex-end;
     gap: 6px;
     white-space: nowrap;
+    flex: 0 0 auto;
+    margin-left: auto;
 }
 
 .page-header-actions .stat-map-link-right {
@@ -187,7 +193,6 @@ a, a:active, a:focus {
 .header_selector {
     position: relative;
     top: -6px;
-    left: 20px;
     border: 1px solid black;
     padding: 5px;
     border-radius: 5px;
@@ -505,7 +510,12 @@ body.sub-index-body {
     font-weight: bold;
 }
 
-.cal-search{display:inline-flex;align-items:center;gap:4px;vertical-align:middle}
+.cal-search{
+    display:inline-flex;
+    align-items:center;
+    gap:4px;
+    vertical-align:middle;
+}
 
 .cal-search__input{
     position: relative; top: -8px;
@@ -604,7 +614,7 @@ button.nav-link {
     }
 }
 .stat-map-link-about-button {
-    margin: 20px;
+    margin: 0 20px 0 0;
 }
 .my-race {
     font-weight: bold;
