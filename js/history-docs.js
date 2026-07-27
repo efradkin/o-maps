@@ -1338,7 +1338,7 @@ let historyDocs = [
         name: 'Соревнования в з/н (Лемболово)',
         date: '1989-11-08',
         link: './docs/1989/1989_11_08_lembolovo_omaps.pdf',
-        planner: 'OSPV'
+        planner: 'OSPV_A'
     },
     {
         name: 'Соревнования на маркированной трассе (Токсово)',
