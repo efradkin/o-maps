@@ -54,49 +54,57 @@
     </header>
 
     <div class="sheet-filters">
-        <span style="white-space: nowrap;">
-            <select id="year_selector" class="header_selector" onchange="updateUrlParam('startYear', this.value)">
-                <option value="2002">2002</option>
-                <option value="2003">2003</option>
-                <option value="2004">2004</option>
-                <option value="2005">2005</option>
-                <option value="2006">2006</option>
-                <option value="2007">2007</option>
-                <option value="2008">2008</option>
-                <option value="2009">2009</option>
-                <option value="2010">2010</option>
-                <option value="2011">2011</option>
-                <option value="2012">2012</option>
-                <option value="2013">2013</option>
-                <option value="2014">2014</option>
-                <option value="2015">2015</option>
-                <option value="2016">2016</option>
-                <option value="2017">2017</option>
-                <option value="2018">2018</option>
-                <option value="2019">2019</option>
-                <option value="2020">2020</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
-                <option value="2023">2023</option>
-                <option value="2024">2024</option>
-                <option value="2025">2025</option>
-                <option value="2026">2026</option>
-                <option value="ALL" selected>Все годы</option>
-            </select>
-
-            <select id="event_type_selector" class="header_selector" onchange="updateUrlParam('calendar', this.value)">
-                <option value="ALL">все старты</option>
-                <option value="ORIENT">Ориент</option>
-                <option value="ROGAINE">Рогейн итп</option>
-                <option value="SKI">Лыжи</option>
-                <option value="VELO">Вело</option>
-                <option value="OTHER">Прочее</option>
-                <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
-                <option value="media">Фото/видео</option>
-                <option value="actual">Текущие</option>
-                <option value="future">Будущие</option>
-            </select>
+        <!-- вставить прямо перед списком выбора года -->
+        <span class="cal-search" id="calSearch">
+          <input type="search" id="calSearchInput" class="cal-search__input"
+                 placeholder="Место, старт и пр…"
+                 autocomplete="off" spellcheck="false"
+                 aria-label="Поиск по календарю">
+          <button type="button" id="calSearchBtn" class="cal-search__btn"
+                  title="Поиск (/)" aria-label="Поиск" aria-expanded="false"><img src="images/search_24.png" alt="Поиск"></button>
         </span>
+
+        <select id="year_selector" class="header_selector" onchange="updateUrlParam('startYear', this.value)">
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="ALL" selected>Все годы</option>
+        </select>
+
+        <select id="event_type_selector" class="header_selector" onchange="updateUrlParam('calendar', this.value)">
+            <option value="ALL">все старты</option>
+            <option value="ORIENT">Ориент</option>
+            <option value="ROGAINE">Рогейн итп</option>
+            <option value="SKI">Лыжи</option>
+            <option value="VELO">Вело</option>
+            <option value="OTHER">Прочее</option>
+            <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+            <option value="media">Фото/видео</option>
+            <option value="actual">Текущие</option>
+            <option value="future">Будущие</option>
+        </select>
 <!--
         <label for="event_month_selector">Месяц:</label>
         <select id="event_month_selector" class="header_selector" onchange="selectEventMonth(this.value)">

@@ -1968,7 +1968,9 @@ let events2026 = [
         place: 'парк Интернационалистов',
         link: 'https://vk.ru/wall-30686281_24638',
         reg: 'https://forms.yandex.ru/u/6a5d40576d2d73e4cbe0cf6f/',
+        res: 'https://vk.com/wall-30686281_24701',
         type: 'ORIENT',
+        fmt: 'выбор',
         map: 'internatsionalistov_2021',
         strava: 19435169467,
         me: '51+'
@@ -2015,6 +2017,15 @@ let events2026 = [
         type: 'ORIENT',
         owner: 'WN',
         map: 'smoljanoe_2015'
+    },
+    {
+        id: 'SPB_20260805_1',
+        date: '2026-08-05',
+        name: 'Физкультурное мероприятие по ориентированию',
+        place: 'парк Интернационалистов',
+        link: 'https://vk.ru/wall-30686281_24661',
+        type: 'ORIENT',
+        map: 'internatsionalistov_2021',
     },
     {
         id: 'SPB_20260627_2',
@@ -2083,6 +2094,15 @@ let events2026 = [
         type: 'ORIENT',
         owner: 'VYBORG',
         map: 'tsvelodubovo_2020'
+    },
+    {
+        id: 'SPB_20260820_1',
+        date: '2026-08-20',
+        name: 'Физкультурное мероприятие по ориентированию',
+        place: 'парк Интернационалистов',
+        link: 'https://vk.ru/wall-30686281_24661',
+        type: 'ORIENT',
+        map: 'internatsionalistov_2021',
     },
     {
         id: 'SPB_20260822_2',

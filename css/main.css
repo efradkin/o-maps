@@ -506,6 +506,33 @@ body.sub-index-body {
     font-weight: bold;
 }
 
+.cal-search{display:inline-flex;align-items:center;gap:4px;vertical-align:middle}
+
+.cal-search__input{
+    position: relative; top: -8px;
+    width:0; min-width:0; padding:0; opacity:0; outline:none;
+    transition:width .25s ease, padding .25s ease, opacity .2s ease;
+}.cal-search.is-open .cal-search__input{
+    width:230px; padding:4px 8px; opacity:1;
+}
+
+.cal-search__btn{
+    position: relative; top: -8px;
+    cursor:pointer; line-height:1;
+    background-color: white;
+    padding: 4px 6px;
+    border: 1px solid black;
+}
+.cal-search__btn:hover{background:#f0f0f0}
+.cal-search.is-active .cal-search__btn{border: 5px solid darkolivegreen}
+
+@media (max-width:640px){
+    .cal-search.is-open .cal-search__input{width:calc(100vw - 120px);max-width:230px}
+}
+@media (prefers-reduced-motion:reduce){
+    .cal-search__input{transition:none}
+}
+
 .leaflet-searchbox-autocomplete .leaflet-searchbox-autocomplete-item {
     padding: 3px 0px 3px 0;
 }

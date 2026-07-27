@@ -796,3 +796,78 @@ function writeStickyHeader() {
         initCalendarFloatingHeader();
     }
 }
+
+(function () {
+    var wrap  = document.getElementById('calSearch');
+    var btn   = document.getElementById('calSearchBtn');
+    var input = document.getElementById('calSearchInput');
+    var stat  = document.getElementById('calSearchStatus');
+    var tbody = document.querySelector('.o-main-table'); // ← ваш селектор
+
+    var DELAY = 350;   // мс
+    var timer = null;
+
+    function norm(s){
+        return (s || '').toLowerCase().replace(/ё/g,'е').replace(/\s+/g,' ').trim();
+    }
+
+    function apply(){
+        var words = norm(input.value).split(' ').filter(Boolean);
+        var rows  = tbody.rows, shown = 0;
+
+        for (var i = 0; i < rows.length; i++){
+            var tr = rows[i];
+            if (tr.dataset.hay === undefined) tr.dataset.hay = norm(tr.textContent);
+            var ok = words.every(function(w){ return tr.dataset.hay.indexOf(w) >= 0; });
+            tr.hidden = !ok;
+            if (ok) shown++;
+        }
+
+        wrap.classList.toggle('is-active', words.length > 0);
+        if (stat) stat.textContent = words.length ? ('найдено ' + shown + ' из ' + rows.length) : '';
+    }
+
+    function open(){
+        wrap.classList.add('is-open');
+        btn.setAttribute('aria-expanded','true');
+        input.focus();
+    }
+    function close(){
+        wrap.classList.remove('is-open');
+        btn.setAttribute('aria-expanded','false');
+        input.value = '';
+        apply();
+    }
+
+    btn.addEventListener('click', function(){
+        wrap.classList.contains('is-open') ? close() : open();
+    });
+
+    input.addEventListener('input', function(){
+        clearTimeout(timer);
+        timer = setTimeout(apply, DELAY);
+    });
+
+    input.addEventListener('keydown', function(e){
+        if (e.key === 'Enter'){ clearTimeout(timer); apply(); }
+        if (e.key === 'Escape'){ clearTimeout(timer); close(); }
+    });
+
+    // схлопывать при потере фокуса, если ничего не введено
+    input.addEventListener('blur', function(){
+        if (!input.value) close();
+    });
+
+    // горячая клавиша «/» — как на GitHub
+    document.addEventListener('keydown', function(e){
+        if (e.key === '/' && !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName)){
+            e.preventDefault(); open();
+        }
+    });
+
+    // таблицу перестроил ваш код → чистим кэш и переприменяем фильтр
+    new MutationObserver(function(){
+        for (var i = 0; i < tbody.rows.length; i++) delete tbody.rows[i].dataset.hay;
+        if (input.value) apply();
+    }).observe(tbody, { childList: true });
+})();

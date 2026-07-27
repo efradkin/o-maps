@@ -1932,7 +1932,7 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/info/46223',
         photo: 'https://vk.com/album-128591100_308572316',
         video: 'https://vk.com/wall-128591100_3181',
-        map: 'vsevolozhsk_zhdanovskie_oz_2023',
+        map: 'vsevolozhsk_zhdanovskie_oz_2014',
         start: 'WEDDING'
     },
     {
@@ -3174,7 +3174,7 @@ let events2025 = [
         reg: 'http://orgeo.ru/event/48742',
         reskeep: 835,
         o_gps: 23988,
-        map: 'zelenogorsk_schuchye_2011',
+        map: 'zelenogorsk_schuchye_2005',
         strava: 16853608665,
         me: 'А',
         owner: 'DLITELNY',
