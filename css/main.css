@@ -48,6 +48,8 @@ a, a:active, a:focus {
 .page-header h1 {
     margin: 0;
     min-width: 0;
+    white-space: nowrap;
+    font-size: clamp(15px, 4.2vw, 32px);
 }
 
 .page-header-actions {
@@ -439,12 +441,6 @@ body.sub-index-body {
     font-size: 12px;
     font-weight: bold;
 }
-.sheet-body {
-    h1 {
-        width: 100%;
-        text-align: center;
-    }
-}
 #sheet-spinner {
     margin-left: 30px;
     margin-bottom: 10px;
@@ -459,24 +455,27 @@ body.sub-index-body {
     margin-top: 1em;
 }
 .o-sheet-roof {
-    width: 100%;
-    text-align: end;
-    align-content: end;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: fit-content;
+    justify-self: start;      /* отменяет justify-items: center у body */
+    margin-right: auto;       /* подстраховка для старых браузеров */
+    height: 0;
+    white-space: nowrap;
+    position: relative;
+    top: -30px;
     img {
         margin-bottom: 5px;
     }
-    a {
-        margin-top: -30px;
-        float: right;
-    }
     div {
-        margin-top: -20px;
-        margin-right: 40px;
         font-size: small;
-        float: right;
+        font-weight: bold;
+        display: inline-block;
     }
     .o-sheet-roof-stat {
         display: none;
+        margin-top: 10px;
     }
 }
 .o-sheet-wrapper {
@@ -1037,6 +1036,13 @@ body.ski-bodi {
         position: unset;
         max-width: 150px;
         margin: 20px 75px;
+    }
+    .stat-map-link {
+        margin: 0 5px;
+        padding: 6px 8px;
+    }
+    .dropdown-button-right {
+        margin-left: 8px;
     }
 }
 
