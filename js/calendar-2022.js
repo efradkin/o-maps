@@ -899,6 +899,7 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '24, 6',
         strava: 7440975370,
+        video: 'https://vkvideo.ru/video-208494804_456239055',
         link: 'https://vk.com/event166397868'
     },
     {

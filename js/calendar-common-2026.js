@@ -505,6 +505,7 @@ let commonEvents2026 = [
         place: 'Себежский р-он, Лешане',
         reg: ['https://orgeo.ru/event/51242','https://orgeo.ru/event/51243','https://orgeo.ru/event/51245'],
         link: 'https://vk.com/skorus',
+        photo: 'https://vk.ru/album-233782424_309938687',
         type: 'ORIENT',
         owner: 'PSKOV_RUS'
     },

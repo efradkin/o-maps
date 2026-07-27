@@ -660,7 +660,7 @@ let events2007 = [
     {
         id: 'SPB_20070818_1',
         date: '2007-08-18',
-        place: 'г.Всеволожск',
+        place: 'Всеволожск',
         name: 'Чемпионат СЗФО по вело-О, Middle',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/070818v/070818r.htm',
