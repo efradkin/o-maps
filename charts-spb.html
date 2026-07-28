@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/leaflet.css" />
-    <link rel="stylesheet" href="css/main.css?v=11"/>
+    <link rel="stylesheet" href="css/main.css?v=12"/>
 
     <meta property="og:title" content="O-Maps. СПб. Статистика">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
@@ -55,31 +55,32 @@
         </nav>
     </header>
 
-    <div class="chart-container">
-        <canvas id="map_type_chart"></canvas>
+    <div class="charts-grid">
+        <section class="chart-card">
+            <div class="chart-container">
+                <canvas id="map_type_chart"></canvas>
+            </div>
+            <p><strong>Всего карт: <span id="total_maps"></span> <sup>⚹⚹</sup></strong></p>
+        </section>
+
+        <section class="chart-card">
+            <div class="chart-container">
+                <canvas id="map_area_chart"></canvas>
+            </div>
+            <p>
+                <strong>Общая площадь (приблизительно): <span id="totalArea"></span> (км²). <sup>⚹</sup></strong> <br />
+                <span class="stat_result_article">Самая большая спортивная карта: <a id="largest_map" href="#"></a>.</span> <br />
+                <span class="stat_result_article">Общая площадь рогейнерских карт: <span id="all_rogaine_area"></span> (км²).</span>
+            </p>
+        </section>
+
+        <section class="chart-card">
+            <div class="chart-container">
+                <canvas id="mapYearChart"></canvas>
+            </div>
+            <p class="stat_result_article">Самая древняя карта: <a id="oldest_map" href="#"></a>.</p>
+        </section>
     </div>
-    <p><strong>Всего карт: <span id="total_maps"></span> <sup>⚹⚹</sup></strong></p>
-
-    <br /><br />
-
-    <div class="chart-container">
-        <canvas id="map_area_chart"></canvas>
-    </div>
-    <p>
-        <strong>Общая площадь (приблизительно): <span id="totalArea"></span> (км²). <sup>⚹</sup></strong> <br />
-        <span class="stat_result_article">Самая большая спортивная карта: <a id="largest_map" href="#"></a>.</span> <br />
-        <span class="stat_result_article">Общая площадь рогейнерских карт: <span id="all_rogaine_area"></span> (км²).</span>
-    </p>
-
-    <br /><br />
-
-    <div class="chart-container">
-        <canvas id="mapYearChart"></canvas>
-    </div>
-
-    <p class="stat_result_article">Самая древняя карта: <a id="oldest_map" href="#"></a>.</p>
-
-    <br /><br /><br /><br />
 
     <div class="container">
         <div class="o-sheet-roof">

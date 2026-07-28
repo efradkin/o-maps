@@ -398,6 +398,29 @@ body.sub-index-body {
 .chart-container {
     width: 400px;
 }
+
+/* Плавающая сетка диаграмм: сколько карточек влезло в ряд — столько и стоит */
+.charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 400px));
+    justify-content: center;
+    align-items: start;
+    gap: 30px 40px;
+    width: 100%;
+    max-width: 1360px;
+    margin: 20px auto 40px;
+}
+.charts-grid .chart-card {
+    min-width: 0;               /* иначе canvas не даст колонке сжаться */
+}
+.charts-grid .chart-container {
+    width: auto;                /* ширину задаёт колонка сетки */
+    max-width: 100%;
+}
+.charts-grid .chart-card p {
+    margin: 12px 0 0;
+    text-align: center;
+}
 .stat-map-link {
     margin: 0 20px;
     background-color: white;

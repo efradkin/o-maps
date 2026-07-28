@@ -1984,7 +1984,10 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1749',
         type: 'ORIENT',
         coord: [60.7689479, 28.8271379],
-        o_gps: 25661,
+        o_gps: {
+            '1':25661,
+            '2':25674
+        },
         map: 'paltsevo_2015',
         owner: 'VYBORG'
     },
