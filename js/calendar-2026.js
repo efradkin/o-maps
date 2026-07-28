@@ -2022,6 +2022,16 @@ let events2026 = [
         map: 'smoljanoe_2015'
     },
     {
+        id: 'SPB_20260802_1',
+        date: '2026-08-02',
+        name: 'Перспектива',
+        place: 'Комарово',
+        reg: 'http://orgeo.ru/event/54309',
+        type: 'ORIENT',
+        o_site: '260802_p',
+        map: 'komarovo_2013'
+    },
+    {
         id: 'SPB_20260805_1',
         date: '2026-08-05',
         name: 'Физкультурное мероприятие по ориентированию',
