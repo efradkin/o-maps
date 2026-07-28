@@ -2009,6 +2009,7 @@ let events2026 = [
         name: 'ROCKET RACE',
         place: 'Выборг',
         type: 'ORIENT',
+        cancelled: true
     },
     {
         id: 'SPB_20260801_1',

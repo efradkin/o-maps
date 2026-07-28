@@ -1488,7 +1488,7 @@ function buildEventStart(evt, withoutLogo) {
         result += ' (закрытый)'
     }
     if (evt.reg) {
-        result += ', <span title="Регистрация">' + buildEventReg(evt) + '</span>';
+        result += ' <span title="Регистрация">' + buildEventReg(evt) + '</span>';
     }
     if (HAS_ME_PARAM) {
         let me = evt.me;
@@ -1509,15 +1509,12 @@ function buildEventStart(evt, withoutLogo) {
     return result;
 }
 
-function buildEventReg(evt, withoutCommas) {
+function buildEventReg(evt) {
     let reg = '';
     if (evt.reg) {
         if (Array.isArray(evt.reg)) {
             for (const r of evt.reg) {
-                if (reg) {
-                    reg += withoutCommas ? ' ' : ', ';
-                }
-                reg += buildOneEventReg(r) + ' ';
+                reg += ' ' + buildOneEventReg(r);
             }
         } else {
             reg = buildOneEventReg(evt.reg);
