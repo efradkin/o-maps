@@ -2023,6 +2023,17 @@ let events2026 = [
         map: 'smoljanoe_2015'
     },
     {
+        id: 'SPB_20260801_2',
+        date: '2026-08-01',
+        name: 'Тренировочный старт Выборг',
+        place: 'Выборг, Балашовское ш',
+        o_site: '260801_V',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1751',
+        type: 'ORIENT',
+        coord: [60.6833, 28.7345],
+        owner: 'VYBORG'
+    },
+    {
         id: 'SPB_20260802_1',
         date: '2026-08-02',
         name: 'Перспектива',
@@ -2233,8 +2244,10 @@ let events2026 = [
         date: '2026-09-27',
         name: 'Марафон на холмах Яппиля, ЧиП СПб',
         place: 'Яппиля',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1752',
         type: 'ORIENT',
         fmt: 'лонг',
+        o_site: '260927',
         owner: 'SFSO_SPB'
     },
     {
