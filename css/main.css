@@ -556,7 +556,10 @@ body.sub-index-body {
     border: 1px solid black;
 }
 .cal-search__btn:hover{background:#f0f0f0}
-.cal-search.is-active .cal-search__btn{border: 5px solid darkolivegreen}
+.cal-search.is-active .cal-search__btn{
+    border-color: darkolivegreen;
+    box-shadow: 0 0 0 3px olive;
+}
 
 @media (max-width:640px){
     .cal-search.is-open .cal-search__input{width:calc(100vw - 120px);max-width:230px}

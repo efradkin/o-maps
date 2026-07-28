@@ -56,30 +56,30 @@
     </header>
 
     <div class="sheet-filters">
-        <span style="white-space: nowrap;">
-            <select id="map_type_selector" class="header_selector" onchange="updateUrlParam('map-type', this.value)">
-                <option value="ALL">все карты</option>
-                <option value="ORIENT" selected>Ориент</option>
-                <option value="CITY">Город</option>
-                <option value="PARK">Парки</option>
-                <option value="FOREST">Лес</option>
-                <option value="VELO">Вело</option>
-                <option value="WINTER">Зимние</option>
-                <option value="ROGAINE">Рогейн</option>
-                <option value="OTHER">Прочие</option>
-            </select>
+        <script src="js/sheet-filter.js"></script>
 
-            <select id="region_selector" class="header_selector" onchange="updateUrlParam('region', this.value)">
-                <option value="ALL" selected>все регионы</option>
-                <option value="SPB">С-Петербург</option>
-                <option value="MSK">Москва</option>
-                <option value="BASH">Башкортостан</option>
-                <option value="PSKOV">Псков</option>
-                <option value="RYAZAN">Рязань</option>
-                <option value="SAMARA">Самара</option>
-                <option value="OTHER">Прочие</option>
-            </select>
-        </span>
+        <select id="map_type_selector" class="header_selector" onchange="updateUrlParam('map-type', this.value)">
+            <option value="ALL">все карты</option>
+            <option value="ORIENT" selected>Ориент</option>
+            <option value="CITY">Город</option>
+            <option value="PARK">Парки</option>
+            <option value="FOREST">Лес</option>
+            <option value="VELO">Вело</option>
+            <option value="WINTER">Зимние</option>
+            <option value="ROGAINE">Рогейн</option>
+            <option value="OTHER">Прочие</option>
+        </select>
+
+        <select id="region_selector" class="header_selector" onchange="updateUrlParam('region', this.value)">
+            <option value="ALL" selected>все регионы</option>
+            <option value="SPB">С-Петербург</option>
+            <option value="MSK">Москва</option>
+            <option value="BASH">Башкортостан</option>
+            <option value="PSKOV">Псков</option>
+            <option value="RYAZAN">Рязань</option>
+            <option value="SAMARA">Самара</option>
+            <option value="OTHER">Прочие</option>
+        </select>
     </div>
 
     <div class="o-sheet-roof" style="display: none">

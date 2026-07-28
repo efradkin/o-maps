@@ -54,15 +54,7 @@
     </header>
 
     <div class="sheet-filters">
-        <!-- вставить прямо перед списком выбора года -->
-        <span class="cal-search" id="calSearch">
-          <input type="search" id="calSearchInput" class="cal-search__input"
-                 placeholder="Место, старт и пр…"
-                 autocomplete="off" spellcheck="false"
-                 aria-label="Поиск по календарю">
-          <button type="button" id="calSearchBtn" class="cal-search__btn"
-                  title="Поиск (/)" aria-label="Поиск" aria-expanded="false"><img src="images/search_24.png" alt="Поиск"></button>
-        </span>
+        <script src="js/sheet-filter.js"></script>
 
         <select id="year_selector" class="header_selector" onchange="updateUrlParam('startYear', this.value)">
             <option value="2002">2002</option>
