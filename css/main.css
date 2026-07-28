@@ -544,7 +544,9 @@ body.sub-index-body {
     position: relative; top: -8px;
     width:0; min-width:0; padding:0; opacity:0; outline:none;
     transition:width .25s ease, padding .25s ease, opacity .2s ease;
-}.cal-search.is-open .cal-search__input{
+    border-radius: 5px;
+}
+.cal-search.is-open .cal-search__input{
     width:230px; padding:4px 8px; opacity:1;
 }
 
