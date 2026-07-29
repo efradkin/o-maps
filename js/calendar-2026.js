@@ -2029,6 +2029,7 @@ let events2026 = [
         place: 'Выборг, Балашовское ш',
         o_site: '260801_V',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1751',
+        info: 'Новая карта.',
         type: 'ORIENT',
         coord: [60.6833, 28.7345],
         owner: 'VYBORG'
