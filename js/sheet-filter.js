@@ -12,10 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const btn   = document.getElementById('calSearchBtn');
     const input = document.getElementById('calSearchInput');
     const stat  = document.getElementById('calSearchStatus');
-    const tbody = document.querySelector('.o-sheet'); // ← ваш селектор
+    const tbody = document.querySelector('.o-sheet');
 
-    const DELAY = 350;   // мс
+    const DELAY = 350; // мс, задержка перед фильтрацией
+
     let timer = null;
+    let obsTimer = null;
 
     function norm(s){
         return (s || '').toLowerCase().replace(/ё/g,'е').replace(/\s+/g,' ').trim();
@@ -75,9 +77,21 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // таблицу перестроил ваш код → чистим кэш и переприменяем фильтр
+    // таблицу перестроил календарь → чистим кэш и переприменяем фильтр
     new MutationObserver(function(){
-        for (let i = 0; i < tbody.rows.length; i++) delete tbody.rows[i].dataset.hay;
-        if (input.value) apply();
-    }).observe(tbody, { childList: true });
+        clearTimeout(obsTimer);
+        obsTimer = setTimeout(function(){
+            for (let i = 0; i < tbody.rows.length; i++) delete tbody.rows[i].dataset.hay;
+            if (input.value) apply();
+        }, 50);
+    }).observe(tbody, { childList: true, subtree: true });
+
+    // начальный запрос из адреса: ?q=токсово
+    const initialQuery = (SEARCH_PARAM || '').trim();
+    if (initialQuery) {
+        input.value = initialQuery;
+        wrap.classList.add('is-open');
+        btn.setAttribute('aria-expanded','true');
+        apply();   // таблица ещё пуста — реальная фильтрация произойдёт по сигналу наблюдателя
+    }
 });

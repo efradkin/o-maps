@@ -265,6 +265,7 @@ const OTHER_EVENTS_CALENDAR_PARAM_VALUE = 'OTHER';
 const onlyOneSport = (typeof oneSportOnly !== 'undefined') && oneSportOnly;
 
 const urlParams = new URLSearchParams(window.location.search);
+const SEARCH_PARAM = urlParams.get('q');
 let BACKGROUND_PARAM = urlParams.get('background');
 let AUTHOR_PARAM = urlParams.get('author');
 const OWNER_PARAM = urlParams.get('owner');
