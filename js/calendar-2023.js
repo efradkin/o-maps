@@ -1566,6 +1566,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=5890',
         res: 'https://o-site.spb.ru/_races/211023_50Verst/result_50_verst.htm',
+        video: 'https://www.youtube.com/watch?v=4AEOH9mFkNU',
         info: 'IV клубная ночная эстафета 50 ВЁРСТ',
         o_site: '211023_50Verst'
     },
@@ -1578,6 +1579,7 @@ let events2023 = [
         reg: 'http://sportident.online/entry/?id=5896',
         res: 'http://sportident.online/ol/?id=1496',
         info: 'Открытое первенство КСО Nord West',
+        video: 'https://www.youtube.com/watch?v=7qIqG0FqbH4',
         o_site: '231022_perv_NW',
         strava: 10083310628,
         reskeep: 624

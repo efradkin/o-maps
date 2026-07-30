@@ -1484,6 +1484,11 @@ let events2025 = [
         name: 'Клубный Кубок Карелии (ККК)',
         type: 'ORIENT',
         link: 'https://vk.com/club197340171',
+        video: [
+            'https://www.youtube.com/watch?v=SpAm26XXFxs',
+            'https://www.youtube.com/watch?v=ZUY_W9EpOoo',
+            'https://www.youtube.com/watch?v=NGmY47q6txw'
+        ],
         map: 'sortavala_helmijarvi_2024',
         start: 'KKK'
     },

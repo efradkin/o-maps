@@ -1882,6 +1882,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/53639',
         res: 'https://vk.com/wall-196511971_1591',
         photo: 'https://vk.ru/album-196511971_311408236',
+        video: 'https://www.youtube.com/watch?v=bLElCqDvH5w',
         type: 'ORIENT',
         map: 'koyonsaari_2025',
         owner: 'WN'
