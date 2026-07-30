@@ -1714,6 +1714,7 @@ let parkMaps = [
         author: 'SHRNN',
         owner: 'SHRNN',
         type: ['PARK'],
+        zindex: 2
     },
     {
         name: 'Пионерская пл, ТЮЗ',
