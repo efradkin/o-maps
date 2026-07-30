@@ -305,7 +305,8 @@ let commonEvents2026 = [
             'https://vkvideo.ru/video-227779225_456239075',
             'https://vk.com/video-93257360_456239324',
             'https://vkvideo.ru/video-227779225_456239067',
-            'https://www.youtube.com/watch?v=dmA2RdcKGjo'
+            'https://www.youtube.com/watch?v=dmA2RdcKGjo',
+            'https://youtu.be/dmA2RdcKGjo'
         ],
         type: 'ORIENT',
         fmt: 'лонг',
@@ -327,7 +328,11 @@ let commonEvents2026 = [
             'Ж':25403,
             'М50/55':25437,
         },
-        video: ['https://vkvideo.ru/video-227779225_456239076','https://vk.com/video-93257360_456239325','https://vkvideo.ru/video-227779225_456239072'],
+        video: [
+            'https://vkvideo.ru/video-227779225_456239076',
+            'https://vk.com/video-93257360_456239325',
+            'https://vkvideo.ru/video-227779225_456239072'
+        ],
         type: 'ORIENT',
         fmt: 'лонг-масстарт, классика',
         planner: 'PSTVTV',
@@ -418,7 +423,11 @@ let commonEvents2026 = [
             'М18/35/40':25510,
             'ALL':25478,
         },
-        video: 'https://www.youtube.com/watch?v=wk37MdZG_6E',
+        video: [
+            'https://www.youtube.com/watch?v=wk37MdZG_6E',
+            'https://youtu.be/QapE37dnDto',
+            'https://www.youtube.com/watch?v=asRAAvnbOho'
+        ],
         reskeep: 899,
         strava: 19083758289,
         me: 'М50',
@@ -443,7 +452,10 @@ let commonEvents2026 = [
             'Раззява':25513,
             'ALL':25490
         },
-        video: 'https://www.youtube.com/watch?v=vB5GOMsT49c',
+        video: [
+            'https://www.youtube.com/watch?v=vB5GOMsT49c',
+            'https://www.youtube.com/watch?v=O6fgeFEKIGs'
+        ],
         reskeep: [900,901],
         strava: 19096395426,
         me: 'М50',
@@ -477,6 +489,11 @@ let commonEvents2026 = [
         o_site: '260702_bn',
         reg: 'https://orgeo.ru/event/53317',
         reskeep: [902,903,904],
+        video: [
+            'https://www.youtube.com/watch?v=vwMHap8Z7K8',
+            'https://www.youtube.com/watch?v=HWPMyp92jf0',
+            'https://www.youtube.com/watch?v=asRAAvnbOho'
+        ],
         type: 'ORIENT',
         fmt: 'спринт, лонг, классика',
         major: true,

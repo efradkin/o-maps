@@ -1199,6 +1199,7 @@ let events2026 = [
             'М50':25016
         },
         photo: 'https://vk.com/album-230167293_313515750',
+        video: 'https://www.youtube.com/watch?v=mysquJodF-o',
         strava: 18463263908,
         reskeep: 885,
         me: 'М50',
@@ -1268,6 +1269,7 @@ let events2026 = [
         reg: ['http://o-reg.spb.ru/?filter[day_id]=1733','http://o-reg.spb.ru/?filter[day_id]=1732'],
         o_gps: 25076,
         photo: 'https://vk.ru/album-230167293_313563270',
+        video: 'https://www.youtube.com/watch?v=U3Rxg34cgHc',
         o_site: '260517',
         type: 'ORIENT',
         fmt: 'эстафета 3х',
@@ -1322,6 +1324,7 @@ let events2026 = [
         o_gps: 25114,
         reskeep: 888,
         strava: 18571193734,
+        video: 'https://www.youtube.com/watch?v=QAdzMjcrPpg',
         type: 'ORIENT',
         owner: 'FENIX',
         map: 'yukki_north_2020',
@@ -1487,6 +1490,7 @@ let events2026 = [
         info: '<a href="https://vk.com/@-92124592-bez-nazvaniya">Разбор дистанций</a>.',
         o_gps: 25195,
         reskeep: 892,
+        video: 'https://youtu.be/ib0wDfvzexc',
         planner: 'RYKV_A',
         type: 'ORIENT',
         fmt: 'спринт',
@@ -1511,7 +1515,10 @@ let events2026 = [
         place: 'Гаврилово',
         o_site: '260530_SPB',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1740',
-        video: 'https://vkvideo.ru/video-230838055_456239044',
+        video: [
+            'https://vkvideo.ru/video-230838055_456239044',
+            'https://youtu.be/XoO6iUT2C3E'
+        ],
         info: '<a href="https://o-site.spb.ru/_races/260530_SPB/260530_videos.html">Видео-нарезка</a> участников на дистанции.',
         reskeep: 894,
         type: 'ORIENT',
