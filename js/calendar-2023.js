@@ -429,7 +429,11 @@ let events2023 = [
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/28273/1',
         info: 'Внимание! Изменилось место проведения!',
-        video: 'https://www.youtube.com/watch?v=lfOejh6_0dQ',
+        video: [
+            'https://www.youtube.com/watch?v=lfOejh6_0dQ',
+            'https://www.youtube.com/watch?v=n9EFUqrRdUk',
+            'https://www.youtube.com/watch?v=UVZFoNBWKiw'
+        ],
         strava: 8942247123,
         owner: 'YUVENTA',
         o_site: '230423'
@@ -534,6 +538,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1523',
         res: 'https://o-site.spb.ru/_races/230509/Res_230509.htm',
+        video: 'https://www.youtube.com/watch?v=3tC8yAoq-2Y',
         o_site: '230509',
         strava: 9038712842,
         reskeep: 576
@@ -543,6 +548,7 @@ let events2023 = [
         date: '2023-05-10',
         place: 'Сад Жореса Алфёрова',
         name: 'Noname Sprint Tour SPb 2023 - 3 этап',
+        video: 'https://www.youtube.com/watch?v=m_Uec_whsi4',
         start: 'ST',
         type: 'ORIENT',
         reskeep: 586
@@ -703,6 +709,11 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=5753',
         res: 'https://o-site.spb.ru/_races/230603-04_VTR/VTR_result_1.htm',
+        video: [
+            'https://www.youtube.com/watch?v=0Q3kCnrfgoI',
+            'https://www.youtube.com/watch?v=atUgEkEQH7I',
+            'https://www.youtube.com/watch?v=ZcBHcETCH3k'
+        ],
         info: 'Соревнования пройдут в традиционном формате: 1 старт - Сб 03.06 ДЕНЬ 2 старт - Сб 03.06 НОЧЬ 3 старт - Вс 04.06 ДЕНЬ Ночной старт проводится в группах MW16-MW55. Спортсмены MW60 могут участвовать в ночном старте, но при подведении итогов он не учитывается.',
         owner: 'VYBORG',
         o_site: '230603-04_VTR',
@@ -814,6 +825,8 @@ let events2023 = [
             'https://www.youtube.com/watch?v=I2H0Ac5btpw',
             'https://www.youtube.com/watch?v=DYPQbahZwtc',
             'https://www.youtube.com/watch?v=b8r-CSOze84',
+            'https://www.youtube.com/watch?v=lOyollFirFI',
+            'https://www.youtube.com/watch?v=DxbF-lfXJL8'
         ],
         strava: [9321298380,9321303067,9321307758,9321312836],
         reskeep: [599, 600, 601, 602]
@@ -1440,7 +1453,8 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/29568/1',
         video: [
             'https://www.youtube.com/watch?v=pSrwKLYU-OE',
-            'https://rutube.ru/video/d0cfec4658b9f623f39c9c6ae643feff/'
+            'https://rutube.ru/video/d0cfec4658b9f623f39c9c6ae643feff/',
+            'https://www.youtube.com/watch?v=7PCKW5Bn33k'
         ],
         owner: 'SFSO_SPB',
         o_site: '231009_NS',
