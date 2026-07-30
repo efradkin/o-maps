@@ -1705,6 +1705,17 @@ let parkMaps = [
         zindex: 2
     },
     {
+        name: 'Михайловский сад',
+        year: 2026,
+        url: './maps/parks/mikhailovsky_garden_2026.webp',
+        link: './original_maps/parks/mikhailovsky_garden_2026_omaps.webp',
+        info: 'Карта выполнена полностью камерально, без выхода на местность. Для полноценного ориентирования она требует корректировки, но вполне применима для прогулок, фото-квестов или, например, Трейл-О.',
+        bounds: [[59.9415353, 30.3290998], [59.9406969, 30.3375329], [59.9384828, 30.3278015]],
+        author: 'SHRNN',
+        owner: 'SHRNN',
+        type: ['PARK'],
+    },
+    {
         name: 'Пионерская пл, ТЮЗ',
         year: 2023,
         url: './maps/parks/tuz_2023.webp',
