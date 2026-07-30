@@ -869,6 +869,10 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240610-16_UTS_KKP/result_UTS_0610.htm',
         video: [
             'https://www.youtube.com/watch?v=U3GnqTpcdhU',
+            'https://www.youtube.com/watch?v=LMF7aY0pOCo',
+            'https://www.youtube.com/watch?v=nXHp0Gs2TgU',
+            'https://www.youtube.com/watch?v=1MeOTIWl82I',
+            'https://www.youtube.com/watch?v=NnpP-613ZRY',
             'https://www.youtube.com/watch?v=CGn7ziD_m70'
         ],
         strava: 11661372372,
@@ -913,7 +917,7 @@ let events2024 = [
             'https://vkvideo.ru/video-93257360_456239249',
             'https://vkvideo.ru/video-93257360_456239251',
             'https://rutube.ru/video/454b701d752663a0460ba82012cb8313/',
-            'https://rutube.ru/video/f1a0fb311cd42b02cbafad0792993efc/'
+            'https://rutube.ru/video/f1a0fb311cd42b02cbafad0792993efc/',
         ],
         start: 'KKP',
         o_site: '240615-20_KKP',

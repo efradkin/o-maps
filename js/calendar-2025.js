@@ -1188,7 +1188,7 @@ let events2025 = [
         type: 'ORIENT',
         o_site: '250614',
         video: [
-            'https://www.youtube.com/watch?v=xtKl0eVwiCE',
+            'https://www.youtube.com/watch?v=BlTutPcLCgU',
             'https://www.youtube.com/watch?v=n1M2CqhIsuM',
             'https://www.youtube.com/watch?v=xtKl0eVwiCE',
             'https://rutube.ru/video/8f3abca85ab6d91d10833c97d906944b/'
@@ -1212,6 +1212,25 @@ let events2025 = [
         },
         start: 'RFAR',
         map: 'gvardeyskoe_rfar_2025'
+    },
+    {
+        id: 'SPB_20250609_1',
+        date: '2025-06-09',
+        endDate: '2025-06-15',
+        place: 'Пруды',
+        name: 'Камни Карельского Перешейка',
+        type: 'ORIENT',
+        o_site: '250609-15_UTS_KKP',
+        reg: 'http://sportident.online/entry/?id=6420',
+        video: [
+            'https://www.youtube.com/watch?v=8FaMuAsU9BE',
+            'https://www.youtube.com/watch?v=I_WDuPcUPF4',
+            'https://www.youtube.com/watch?v=Tkdffuthbjc',
+            'https://www.youtube.com/watch?v=VqF8AJD601I',
+            'https://www.youtube.com/watch?v=iE3hEDwiwdo',
+            'https://www.youtube.com/watch?v=4nLK9BDNoAo',
+            'https://www.youtube.com/watch?v=R1jkjlESKAs'
+        ]
     },
     {
         id: 'SPB_20250614_1',
@@ -1244,7 +1263,9 @@ let events2025 = [
             'https://vkvideo.ru/video-93257360_456239278',
             'https://vkvideo.ru/video-93257360_456239279',
             'https://vkvideo.ru/video-93257360_456239280',
-            'https://vkvideo.ru/video-93257360_456239281'
+            'https://vkvideo.ru/video-93257360_456239281',
+            'https://www.youtube.com/watch?v=Hd7rUUf1vDg',
+            'https://www.youtube.com/watch?v=YzshhewPboE'
         ],
         start: 'KKP',
         map: 'kkp_prudy_2023_06_19',
@@ -1282,7 +1303,10 @@ let events2025 = [
             'https://vk.com/album-230167293_310146909',
             'https://vk.com/album-230167293_310169173',
             'https://vk.com/album-230167293_310182665',
-            'https://vk.com/album-128591100_307166407'
+            'https://vk.com/album-128591100_307166407',
+            'https://www.youtube.com/watch?v=VsrsQUFx4Uo',
+            'https://www.youtube.com/watch?v=Awc980cCwP4',
+            'https://www.youtube.com/watch?v=od8Wr9N-yLE'
         ],
         major: true
     },

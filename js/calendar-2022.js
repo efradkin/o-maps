@@ -552,6 +552,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220521/220521-split.htm',
         photo: 'http://disk.yandex.ru/d/Pys4whutiheb3Q',
+        video: 'https://www.youtube.com/watch?v=zV3TMlsA58M',
         strava: 7178027439,
         owner: 'SFSO_SPB',
         o_site: '220521',
@@ -712,7 +713,12 @@ let events2022 = [
         info: 'Учебно-тренирововчный сбор ККП 2022 Пн 06.06 Результаты Сплиты Вт 07.06 Результаты Сплиты Ср 08.06 Результаты Сплиты Чт 09.06 Результаты Сплиты Пт 10.06 Результаты A, B, C, D, Кор A, Кор B Сплиты A, B, C, D, Кор A, Кор B Результаты Зеленый Змей, Нитка Сплиты Зеленый Змей, Нитка Сб 11.06 Результаты A, B, C, D, Кор A, Кор B Сплиты A, B, C, D, Кор A, Кор B Результаты Зеленый Змей, Нитка Сплиты Зеленый Змей, Нитка Вс 12.06 Результаты A, B, C, D, Кор A, Кор B Сплиты A, B, C, D, Кор A, Кор B Результаты Зеленый Змей, Нитка Сплиты Зеленый Змей, Нитка',
         video: [
             'https://www.youtube.com/watch?v=8QNlmlvIm_M',
-            'https://www.youtube.com/watch?v=FtDmRArvH9A'
+            'https://www.youtube.com/watch?v=moJkN3rW0vE',
+            'https://www.youtube.com/watch?v=6uPR73nsKTs',
+            'https://www.youtube.com/watch?v=qT1n2_1uyJo',
+            'https://www.youtube.com/watch?v=nNpeXE7Gx08',
+            'https://www.youtube.com/watch?v=FtDmRArvH9A',
+            'https://www.youtube.com/watch?v=6t6N0vFISHk'
         ],
         start: 'KKP',
         o_site: '220606-12'
@@ -747,10 +753,11 @@ let events2022 = [
             'https://vkvideo.ru/video-93257360_456239174',
             'https://vkvideo.ru/video-93257360_456239175',
             'https://www.youtube.com/watch?v=7flfOdWND4g',
+            'https://www.youtube.com/watch?v=okR-qVsJlFQ',
             'https://www.youtube.com/watch?v=Mj49gwogR-0',
             'https://www.youtube.com/watch?v=2Y35LlCDc6Y',
             'https://www.youtube.com/watch?v=VVIKbMxqd0U',
-            'https://rutube.ru/video/dde67d2dd1ae459b0693e8b180183657/'
+            'https://rutube.ru/video/dde67d2dd1ae459b0693e8b180183657/',
         ],
         start: 'KKP',
         o_site: '220613-16_KKP',

@@ -1675,6 +1675,11 @@ let events2026 = [
         place: 'Пруды',
         link: 'https://o-nw.ru/kkp',
         reg: 'https://sportident.online/entry/?id=6852',
+        video: [
+            'https://www.youtube.com/watch?v=0PsRgupRTQQ',
+            'https://www.youtube.com/watch?v=SRoN5kj8OK4',
+            'https://www.youtube.com/watch?v=mkEtiStWMPY'
+        ],
         type: 'ORIENT',
         map: 'kkp_prudy_2019_06_19',
         start: 'KKP'
@@ -1729,7 +1734,11 @@ let events2026 = [
         res: 'https://sportident.online/ol_new/?id=2830',
         o_gps: 25345,
         photo: ['https://www.sport-images.ru/events/detskaya-estafeta-kamenukola-2026/','https://vk.com/album-227779225_311462402'],
-        video: 'https://vk.com/video-93257360_456239321',
+        video: [
+            'https://vk.com/video-93257360_456239321',
+            'https://vkvideo.ru/video-230838055_456239054'
+        ],
+        info: '<a href="https://o-site.spb.ru/_races/260616-21_KKP/2026_kamenukola_videos.html">Видео-нарезка</a> участников на дистанции.',
         type: 'ORIENT',
         fmt: 'эстафета детская',
         map: 'kkp_prudy_2026_06_15_kamenukola',

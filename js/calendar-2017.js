@@ -684,6 +684,7 @@ let events2017 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=732',
         res: 'https://o-site.spb.ru/_races/17060911/170609_res.htm',
+        video: 'https://www.youtube.com/watch?v=J9Ubz-neCK8',
         start: 'NA',
         o_site: '17060911'
     },

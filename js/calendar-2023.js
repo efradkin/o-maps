@@ -652,6 +652,7 @@ let events2023 = [
         name: 'Российский Азимут',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230521_RA/230521_res.pdf',
+        video: 'https://www.youtube.com/watch?v=Du4xH4hjQ_0',
         owner: 'SFSO_SPB',
         o_site: '230521_RA',
         strava: 9112152704,
@@ -776,6 +777,9 @@ let events2023 = [
         info: 'Учебно-тренировочный сбор ККП 2023 пройдет в районе соседнем с ККП 2023, на аналогичной местности 7 тренировочных дней, каждый день участникам будут предложены дистанции различной длины и сложности, а также технические задания',
         video: [
             'https://www.youtube.com/watch?v=-FElZ_4Z6wg',
+            'https://www.youtube.com/watch?v=6Oo_4JRzvPI',
+            'https://www.youtube.com/watch?v=-MpXi57eLtQ',
+            'https://www.youtube.com/watch?v=SmN2HHnbBGo',
             'https://www.youtube.com/watch?v=VmMfo1LcdEc',
             'https://www.youtube.com/watch?v=T0gTtl9-waw'
         ],
@@ -796,6 +800,7 @@ let events2023 = [
             'https://www.youtube.com/watch?v=DvbP31HGfIc',
             'https://www.youtube.com/watch?v=g-YOzBUM3a8',
             'https://www.youtube.com/watch?v=LQlzH_ehSKM',
+            'https://www.youtube.com/watch?v=X_AetUb6PSY',
             'https://vkvideo.ru/video-93257360_456239213',
             'https://vkvideo.ru/video-93257360_456239214',
             'https://vkvideo.ru/video-93257360_456239218',
@@ -808,7 +813,7 @@ let events2023 = [
             'https://www.youtube.com/watch?v=JvMDymoVLdw',
             'https://www.youtube.com/watch?v=I2H0Ac5btpw',
             'https://www.youtube.com/watch?v=DYPQbahZwtc',
-            'https://www.youtube.com/watch?v=b8r-CSOze84'
+            'https://www.youtube.com/watch?v=b8r-CSOze84',
         ],
         strava: [9321298380,9321303067,9321307758,9321312836],
         reskeep: [599, 600, 601, 602]
@@ -833,6 +838,13 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/ch_m_2023/230618_res.htm',
         info: 'Тренировочный старт по спортивному ориентированию бегом',
         o_site: 'ch_m_2023'
+    },
+    {
+        id: 'SPB_20230623_2',
+        date: '2023-06-23',
+        name: 'Тренировочный старт',
+        place: 'оз Горица',
+        video: 'https://www.youtube.com/watch?v=9WNKrGr3wag'
     },
     {
         id: 'SPB_20230623_1',
