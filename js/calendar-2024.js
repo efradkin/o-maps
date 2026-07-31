@@ -64,6 +64,7 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-24/registration.html',
         res: 'https://o-site.spb.ru/_races/240114r/240114_res.pdf',
+        video: 'https://www.youtube.com/watch?v=U4CJGwLH0kE',
         fmt: 'рогейн 4 часа. Разрешено участие на лыжах, бегом или на снегоступах',
         start: 'MULTSPORT',
         o_site: '240114r'
@@ -659,7 +660,8 @@ let events2024 = [
         video: [
             'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d3',
             'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d2',
-            'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d1'
+            'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d1',
+            'https://www.youtube.com/watch?v=9xNBjmMxAwc'
         ],
         owner: 'SFSO_SPB',
         o_site: '240519_russia',
@@ -1000,7 +1002,8 @@ let events2024 = [
             'https://www.youtube.com/watch?v=NtIA9JzaYyA',
             'https://www.youtube.com/watch?v=xpQ84Ueyc44',
             'https://rutube.ru/video/0ff002ced26f57c75a9efbd8edbe6e08/',
-            'https://rutube.ru/video/49ebcc7099d3cc7561c7e09c2f3422a0/'
+            'https://rutube.ru/video/49ebcc7099d3cc7561c7e09c2f3422a0/',
+            'https://www.youtube.com/watch?v=jZTeOnIpClk'
         ],
         owner: 'WN',
         start: 'WN',

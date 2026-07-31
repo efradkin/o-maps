@@ -936,6 +936,7 @@ let events2011 = [
         name: 'Снежная Тропа, 1-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111127/111127_RES1.htm',
+        video: 'https://www.youtube.com/watch?v=POAiLoavdLg',
         owner: 'SFSO_SPB',
         o_site: '111127'
     },
@@ -948,7 +949,7 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/111204/111204_res.htm',
         photo: 'http://adventureraces.ru/photo/index.php?id_of_section=11&id_of_photogallery=30',
         info: 'Победителям в группах МА-МD и ЖА-ЖD по ящику мандаринов!!!',
-        video: 'http://online47.ru/a/2011/12/05/Den_viborov_beg_po_zada/',
+        video: ['http://online47.ru/a/2011/12/05/Den_viborov_beg_po_zada/','https://www.youtube.com/watch?v=6YXzC1e426s'],
         owner: 'WN',
         start: 'WN',
         o_site: '111204'
@@ -960,6 +961,7 @@ let events2011 = [
         name: 'Снежная Тропа, 2-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111211/111211_res.htm',
+        video: 'https://www.youtube.com/watch?v=JO2JzdTPAaw',
         info: 'Парк Зверинец, Петродворец',
         owner: 'SFSO_SPB',
         o_site: '111211'
@@ -1009,7 +1011,10 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/111225/111225_res.htm',
         photo: 'http://markir.spb.ru/photos/biotlon2011.htm',
         fmt: 'Би-О-Тлон',
-        video: 'http://online47.ru/a/2012/01/06/Nou-hau_russkogo_orientir/',
+        video: [
+            'http://online47.ru/a/2012/01/06/Nou-hau_russkogo_orientir/',
+            'https://www.youtube.com/watch?v=8-FDyKQd9uQ'
+        ],
         o_site: '111225'
     }
 ];

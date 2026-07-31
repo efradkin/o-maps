@@ -201,6 +201,7 @@ let events2013 = [
         place: 'Пушкин, Александровский парк',
         name: 'Царскосельский Азимут',
         type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=zWMeMVgdXws',
         res: 'https://o-site.spb.ru/_races/130313/130313_res.htm',
         o_site: '130313'
     },
@@ -222,6 +223,7 @@ let events2013 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'http://o-site.spb.ru/_races/121118_tropa/121118_res_2.pdf',
+        video: ['https://www.youtube.com/watch?v=02GejJervm8','https://www.youtube.com/watch?v=TjW57SIUO3o'],
         info: 'МНОГОЭТАПНЫЙ КУБОК САНКТ-ПЕТЕРБУРГА ПО ПАРКОВОМУ ОРИЕНТИРОВАНИЮ «СНЕЖНАЯ ТРОПА-2012/2013» 1 этап - 18 ноября (Пискаревский парк) официальные результаты и сплиты 2 этап - 9 декабря (Парк Муринский) официальные результаты и сплиты 3 этап - 27 января (Парк Сосновка) официальные результаты и сплиты 4 этап - 3 февраля (Парк лесотехнической академии) официальные результаты и сплиты 5 этап - 17 марта (пос. Осиновая роща) официальные результаты и сплиты',
         owner: 'SFSO_SPB',
         o_site: '121118_tropa'
@@ -262,6 +264,12 @@ let events2013 = [
         place: 'Бугры',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130407/121125_res1.pdf',
+        video: [
+            'https://www.youtube.com/watch?v=9qdcV65pPMg',
+            'https://www.youtube.com/watch?v=UDyQ01EMN04',
+            'https://www.youtube.com/watch?v=SP-YLhFY2N0',
+            'https://www.youtube.com/watch?v=mFShech7jmw'
+        ],
         info: '1 этап - 25 ноября 2012, Токсово Результаты,Сплиты 2 этап - 16 декабря 2012, Невская Дубровка Результаты,Сплиты 3 этап - 23 февраля 2013, Рахья Результаты,Сплиты 4 этап - 08 марта 2013, Всеволожск Результаты,Сплиты 5 этап - 07 апреля 2013, Бугры',
         o_site: '130407'
     },
@@ -643,6 +651,15 @@ let events2013 = [
         start: 'MMS',
         o_site: '13062830_MS',
         endDate: '2013-06-30'
+    },
+    {
+        id: 'SPB_20130706_1',
+        date: '2013-07-05',
+        endDate: '2013-07-07',
+        name: 'Балтийские юношеские игры',
+        place: 'Выборг, Кировские Дачи',
+        type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=0otJHpAGAoQ'
     },
     {
         id: 'SPB_20130706_1',

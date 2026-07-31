@@ -295,6 +295,14 @@ let events2010 = [
         o_site: '100421_OR'
     },
     {
+        id: 'SPB_20100422_1',
+        date: '2010-04-22',
+        place: 'Сертолово',
+        name: 'Первенство Сертолово',
+        type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=7NII12eGm4M'
+    },
+    {
         id: 'SPB_20100501_1',
         date: '2010-05-01',
         endDate: '2010-05-03',
@@ -551,6 +559,7 @@ let events2010 = [
         name: 'Карельские Скалы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10062123_KS/KS2010_split.zip',
+        video: 'https://www.youtube.com/watch?v=3iyW7gVlV50',
         start: 'KS',
         o_site: '10062123_KS'
     },

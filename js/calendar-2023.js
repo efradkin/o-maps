@@ -672,6 +672,7 @@ let events2023 = [
         place: 'Кузнечное',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/23052728R/230527R_res.pdf',
+        video: 'https://www.youtube.com/watch?v=CExiZq9uFn4',
         fmt: 'бег - 24/8/3 часа, вело - 8 часов',
         start: 'GORNY_CROSS',
         o_site: '23052728R'
@@ -910,7 +911,8 @@ let events2023 = [
         video: [
             'https://www.youtube.com/watch?v=tPWKitRe-x0',
             'https://www.youtube.com/watch?v=D_rMh8eZ1Vg',
-            'https://rutube.ru/video/82cf8112083a2cf94056d4be46250886/'
+            'https://rutube.ru/video/82cf8112083a2cf94056d4be46250886/',
+            'https://www.youtube.com/watch?v=u3ODhdXe8lU'
         ],
         owner: 'WN',
         start: 'WN',

@@ -5,8 +5,9 @@ let events2012 = [
         endDate: '2012-01-09',
         place: 'Мичуринское, б/о Мечта',
         name: 'Зимний УТС в «Мечте»',
-        type: 'SKI',
+        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/12010309/120107_res.html',
+        video: 'https://www.youtube.com/watch?v=GS7svQdT-DE',
         info: 'Сбор в Мичуринском 03-09.01.2012 г. Кубок Ленинградской области по спортивному ориентированию на лыжах. Кубок «Центра «Ладога»',
         o_site: '12010309'
     },
@@ -17,6 +18,7 @@ let events2012 = [
         name: 'На приз газеты Всеволожские Вести',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120115/120115_RES.htm',
+        video: 'https://www.youtube.com/watch?v=nFDmj7o-u0A',
         start: 'VSEV_VESTI',
         o_site: '120115'
     },
@@ -293,6 +295,7 @@ let events2012 = [
         name: 'Чемпионат и Первенство ЛО, Майская Многодневка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/12042901/12042901_res.zip',
+        video: 'https://www.youtube.com/watch?v=OCvA6n1Spoc',
         info: 'КАРТЫ ДЛЯ СОРЕВНОВАНИЙ ПОДГОТОВЛЕНЫ В 2011 г. Членам многодетных семей и малообеспеченным гражданам при предъявлении соответствующих документов предоставляется скидка на стартовый взнос в размере 50%.',
         owner: 'SFSO_LO',
         o_site: '12042901'
@@ -350,6 +353,7 @@ let events2012 = [
         name: 'Первенство г. Выборга',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120519/120519_res.pdf',
+        video: 'https://www.youtube.com/watch?v=jgAHPeAbOeg',
         owner: 'VYBORG',
         o_site: '120519'
     },
@@ -390,6 +394,7 @@ let events2012 = [
         name: 'Российский Азимут ЛО',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2012_RA-LO/120520-lo_res.zip',
+        video: 'https://www.youtube.com/watch?v=CMSe0LC4dG8',
         owner: 'SFSO_LO',
         o_site: '2012_RA-LO'
     },
@@ -1040,6 +1045,14 @@ let events2012 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/121216_2/121216_res.htm',
         o_site: '121216_2'
+    },
+    {
+        id: 'SPB_20121222_1',
+        date: '2012-12-22',
+        place: 'Юкки',
+        name: 'Новогодний рогейн',
+        type: 'ROGAINE',
+        video: 'https://www.youtube.com/watch?v=XZS2U_ivM8Y'
     },
     {
         id: 'SPB_20121223_1',

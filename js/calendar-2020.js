@@ -177,7 +177,8 @@ let events2020 = [
         name: 'Женсть-рогейн (приключенческий)',
         type: 'ROGAINE',
         fmt: '6, 3',
-        link: 'https://vk.com/zhenst_rogaine'
+        link: 'https://vk.com/zhenst_rogaine',
+        video: 'https://www.youtube.com/watch?v=JgJ8gM4eBpU'
     },
     {
         id: 'SPB_20200214_1', date: '2020-02-14', name: 'Охта-Лабиринт', type: 'ORIENT', o_site: '200214'
@@ -690,7 +691,7 @@ let events2020 = [
         name: 'Лужский приключенческий рогейн',
         type: 'ROGAINE',
         fmt: '24, 6',
-        video: 'https://www.youtube.com/watch?v=hgHF7PEXynM',
+        video: ['https://www.youtube.com/watch?v=hgHF7PEXynM','https://www.youtube.com/watch?v=Hx7fyc0fZRU'],
         link: 'https://vk.com/club190501849'
     },
     {

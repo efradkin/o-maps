@@ -590,6 +590,7 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '5',
         link: 'https://vk.com/club91656163',
+        video: 'https://www.youtube.com/watch?v=6kCBasFoCe8',
         owner: 'LM'
     },
     {
@@ -758,11 +759,21 @@ let events2022 = [
             'https://www.youtube.com/watch?v=2Y35LlCDc6Y',
             'https://www.youtube.com/watch?v=VVIKbMxqd0U',
             'https://rutube.ru/video/dde67d2dd1ae459b0693e8b180183657/',
+            'https://www.youtube.com/watch?v=jtpjjOZBJpY'
         ],
         start: 'KKP',
         o_site: '220613-16_KKP',
         strava: [7301364842,7306552917,7312045246,7317347262],
         reskeep: [536, 547, 548, 549]
+    },
+    {
+        id: 'SPB_20220611_3',
+        date: '2022-06-11',
+        place: 'Питкяранта',
+        name: 'Red Fox Adventure Race',
+        video: 'https://www.youtube.com/watch?v=dB3zLS-8yWA',
+        type: 'MULTI',
+        start: 'RFAR',
     },
     {
         id: 'SPB_20220612_1',
@@ -906,7 +917,7 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '24, 6',
         strava: 7440975370,
-        video: 'https://vkvideo.ru/video-208494804_456239055',
+        video: ['https://vkvideo.ru/video-208494804_456239055','https://www.youtube.com/watch?v=PwogLyke6Yk'],
         link: 'https://vk.com/event166397868'
     },
     {
@@ -928,6 +939,7 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '5',
         link: 'https://vk.com/club91656163',
+        video: 'https://www.youtube.com/watch?v=ReS4ykzf_48',
         owner: 'LM'
     },
     {
@@ -1499,6 +1511,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'http://sportident.online/ol/?id=946',
         info: 'Чемпионат и Первенство Ленинградской области Соревнования на призы клуба Норд Вест',
+        video: 'https://www.youtube.com/watch?v=RG9FN0K312E',
         strava: 8006125990,
         owner: 'SFSO_LO',
         o_site: '221023',

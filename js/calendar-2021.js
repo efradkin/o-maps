@@ -637,6 +637,15 @@ let events2021 = [
         strava: [5266488472,5270566831,5272603253]
     },
     {
+        id: 'SPB_20210509_3',
+        date: '2021-05-09',
+        name: 'Весенний Марш-бросок',
+        place: 'Оять',
+        type: 'TOURISM',
+        video: 'https://www.youtube.com/watch?v=Ge6PvS6S8X8',
+        start: 'MB',
+    },
+    {
         id: 'SPB_20210512_1',
         date: '2021-05-12',
         place: 'Парк академика Сахарова',
@@ -828,6 +837,7 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '24, 8, 3',
         link: 'https://vk.com/gornycross',
+        video: 'https://www.youtube.com/watch?v=xDxeA3d4diU',
         start: 'GORNY_CROSS'
     },
     {
@@ -923,6 +933,7 @@ let events2021 = [
         name: 'Спортивный Фестиваль «Яркий Мир»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/21061014/21061013_res_official.zip',
+        video: 'https://www.youtube.com/watch?v=ji4-8PNRtok',
         start: 'YM',
         o_site: '21061014'
     },
@@ -956,7 +967,8 @@ let events2021 = [
             'https://www.youtube.com/watch?v=91gHZ73pbJ4',
             'https://www.youtube.com/watch?v=4PS1TbAmvVw',
             'https://www.youtube.com/watch?v=3EzV2Y0fy8g',
-            'https://www.youtube.com/watch?v=IhcGk_yX2Jc'
+            'https://www.youtube.com/watch?v=IhcGk_yX2Jc',
+            'https://www.youtube.com/watch?v=OLftfHGY-Xw'
         ],
         start: 'KKP',
         o_site: '210612-18_KKP',
@@ -1089,6 +1101,7 @@ let events2021 = [
         name: 'Лужский приключенческий рогейн',
         type: 'ROGAINE',
         fmt: '8, 4',
+        video: 'https://www.youtube.com/watch?v=bRKr1-x0yus',
         link: 'https://vk.com/event166397868'
     },
     {
@@ -1577,6 +1590,7 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '4.2',
         link: 'https://vk.com/gornycross',
+        video: 'https://www.youtube.com/watch?v=WohqaSUR-dw',
         start: 'GORNY_CROSS'
     },
     {
@@ -1697,7 +1711,8 @@ let events2021 = [
         name: 'HARD-Rogaine | Night',
         type: 'ROGAINE',
         fmt: '6, 3',
-        link: 'https://vk.com/hardrogaine'
+        link: 'https://vk.com/hardrogaine',
+        video: 'https://www.youtube.com/watch?v=PGuqXUn7SI4'
     },
     {
         id: 'SPB_20211030_6',

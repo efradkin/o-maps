@@ -1218,7 +1218,7 @@ let events2026 = [
         link: 'https://www.multsport.ru/starts/canoe-rogaine-2026/',
         reg: 'https://www.multsport.ru/starts/canoe-rogaine-2026/registration.html',
         photo: 'https://vk.com/album-8292013_313581477',
-        video: 'https://vk.com/video-8292013_456239260',
+        video: ['https://vk.com/video-8292013_456239260','https://www.youtube.com/watch?v=x0JU1ECvSCU'],
         o_gps: 25098,
         type: ['ROGAINE','WATER'],
         fmt: '16,8,4',

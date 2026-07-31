@@ -684,6 +684,7 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=620',
         res: 'https://o-site.spb.ru/_races/160731/160730_res.htm',
         photo: 'http://new.vk.com/album-33130354_234334134',
+        video: 'https://www.youtube.com/watch?v=Y7DoWN7Uz_A',
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-4» мультирогейн в формате 4 часа, «MR-2» мультирогейн в формате 2 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
         fmt: 'рогейн 4 часа, 2 часа, детский зачёт',
         start: 'RFAR',

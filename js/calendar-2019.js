@@ -735,6 +735,7 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/190607/RES_070619.htm',
+        video: 'https://www.youtube.com/watch?v=3Klk0xkxGeM',
         info: 'XXIX МНОГОДНЕВНЫЕ СОРЕВНОВАНИЯ ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ «НЕВСКИЙ АЗИМУТ»',
         start: 'NA',
         o_site: '190607',
@@ -1428,6 +1429,15 @@ let events2019 = [
         owner: 'SFSO_SPB',
         o_site: '191012_1',
         reskeep: 274
+    },
+    {
+        id: 'SPB_20191012_5',
+        date: '2019-10-12',
+        name: 'Осенний Марш-бросок',
+        place: 'Лемболово',
+        type: 'TOURISM',
+        video: ['https://www.youtube.com/watch?v=p6eRrZlrvaY','https://www.youtube.com/watch?v=y-klrrjUy3I'],
+        start: 'MB',
     },
     {
         id: 'SPB_20191013_1',
