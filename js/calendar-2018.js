@@ -385,6 +385,7 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=859',
         res: 'https://o-site.spb.ru/_races/180421-22_/180421_res.htm',
+        video: 'https://www.youtube.com/watch?v=9B7c5O_CGBY',
         owner: 'YUVENTA',
         o_site: '180421-22_'
     },
@@ -434,6 +435,7 @@ let events2018 = [
         place: 'Луга',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/180501R/180501R_res.pdf',
+        video: 'https://www.youtube.com/watch?v=rEV23hEStHc',
         fmt: 'рогейн: БЕГОМ 5 и 2 часа, ВЕЛО - 4 часа',
         start: 'GORNY_CROSS',
         o_site: '180501R'
@@ -595,6 +597,7 @@ let events2018 = [
         name: 'Выборгская тройка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/18052627/180526-27_summ.htm',
+        video: 'https://www.youtube.com/watch?v=iewVI7ESxTY',
         owner: 'VYBORG',
         o_site: '18052627',
         reskeep: [23, 22]
@@ -608,6 +611,7 @@ let events2018 = [
         fmt: '9',
         link: 'http://tradventure.ru , http://bikeadventure.ru',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2018-1.php',
+        video: 'https://www.youtube.com/watch?v=yM4fWkWOB1g',
         map: 'kamennogorsk_ta_2018',
         start: 'BA',
         owner: 'BKTV',
@@ -652,9 +656,19 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=898',
         res: 'https://o-site.spb.ru/_races/180603/180603_res.htm',
+        photo: ['https://vk.com/album-154221178_254263417','https://vk.com/album610978_254267483'],
+        video: [
+            'https://youtu.be/iDRiiKAvL7g',
+            'https://youtu.be/i6QJbzcRN8k',
+            'https://youtu.be/laNBPnbRH4E',
+            'https://youtu.be/9RS2K0uyNOA',
+            'https://youtu.be/16m_M2q_bX8',
+            'https://youtu.be/6ih8eWM2pWU'
+        ],
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» КСО "Азимут" Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга»',
         owner: 'SFSO_SPB',
         o_site: '180603',
+        o_gps: 3908,
         reskeep: 20
     },
     {
@@ -738,7 +752,8 @@ let events2018 = [
             'http://northernwind.spb.ru/videosplit/2018//kkp/day4',
             'https://www.youtube.com/watch?v=2_8qq972LFc',
             'https://www.youtube.com/watch?v=bHNLjeT8PH8',
-            'https://www.youtube.com/watch?v=PQjKShU4L1k'
+            'https://www.youtube.com/watch?v=PQjKShU4L1k',
+            'https://www.youtube.com/watch?v=xMhUrqloaHQ'
         ],
         start: 'KKP',
         o_site: '180617-18',
@@ -776,6 +791,7 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/180701/180629_res.htm',
+        video: 'https://www.youtube.com/watch?v=bcpXFSBki-E',
         info: 'Организаторы: Клуб спортивного ориентирования «Белые Ночи». При поддержке «Региональной спортивной федерации спортивного ориентирования Ленинградской области».',
         owner: 'WN',
         start: 'WN',
@@ -866,6 +882,14 @@ let events2018 = [
         name: 'Яркий Кубок 2018/2019. 3 этап. Кросс-классика',
         type: 'ORIENT',
         reskeep: 1
+    },
+    {
+        id: 'SPB_20180728_1',
+        date: '2018-07-28',
+        place: 'Луга, оз Омчино',
+        name: 'Лужский приключенческий рогейн',
+        type: 'ROGAINE',
+        video: 'https://www.youtube.com/watch?v=fDtHESZuVw8'
     },
     {
         id: 'SPB_20180804_1',
@@ -1066,6 +1090,7 @@ let events2018 = [
         reg: 'http://www.multsport.ru/starts/matrasoff-race-2018/registration.html',
         info: '15-16 сентября в Приозерском районе в окрестностях п.Отрадное будет дан старт 9й ежегодной приключенческой гонке MatrasOFF Race - 2018. Участников ждут зарекомендовавшие себя дисциплины: велоориентирование, классическое спортивное ориентирование, байдарка, пакрафт. Всё это разбавят космоснимок, технические этапы, GPS-задания и велолегенда. А также в рамках мультигонки пройдет 5й этап кубка Ленинградской области по рогейну в формате велосипедного и бегового зачета на 6-8 часов.',
         fmt: 'Приключенческая годна на 14 и 24 часа. Рогейн 6ч (велосипедный и беговой зачеты).',
+        video: 'https://www.youtube.com/watch?v=Di07maRmpbk',
         start: 'MULTSPORT',
         o_site: '18091516'
     },
@@ -1261,6 +1286,15 @@ let events2018 = [
         reskeep: 231
     },
     {
+        id: 'SPB_20180930_3',
+        date: '2018-09-30',
+        place: 'Кавголово',
+        name: 'Первенство СШОР №2',
+        type: 'ORIENT',
+        owner: 'ANCHKV',
+        video: 'https://www.youtube.com/watch?v=53e9RgFG5vk',
+    },
+    {
         id: 'SPB_20181003_1',
         date: '2018-10-03',
         place: 'шк №17, ул Бабушкина, 58-1В, Куракина дача',
@@ -1411,6 +1445,8 @@ let events2018 = [
         id: 'SPB_20181020_2',
         date: '2018-10-20',
         name: 'TrailAdventure',
+        place: 'Колосково',
+        video: 'https://www.youtube.com/watch?v=2QlcI0anNA0',
         type: 'ROGAINE',
         link: 'http://tradventure.ru'
     },

@@ -56,6 +56,7 @@ let events2023 = [
         reg: 'http://www.multsport.ru/starts/winter-rogaine-23/registration.html',
         res: 'https://o-site.spb.ru/_races/230115r/230115_res.pdf',
         fmt: 'рогейн 4 часа. Передвижение на лыжах и бегом',
+        video: 'https://www.youtube.com/watch?v=h8kIu7V-He8',
         start: 'MULTSPORT',
         o_site: '230115r'
     },
@@ -263,6 +264,7 @@ let events2023 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/ice-trail-2023/registration.html',
         fmt: 'рогейн 4 и 6 часов. Разрешено участие на лыжах, бегом или на велосипеде',
+        video: ['https://www.youtube.com/watch?v=mt81oMGUZqU','https://www.youtube.com/watch?v=ZJQpTh3C26U'],
         start: 'MULTSPORT',
         o_site: '230311'
     },
@@ -374,6 +376,7 @@ let events2023 = [
         name: 'Чемпионат и первенство Ленобласти',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230409/230409_res.htm',
+        video: 'https://www.youtube.com/watch?v=tsqtULJyGoc',
         o_site: '230409'
     },
     {
@@ -432,7 +435,8 @@ let events2023 = [
         video: [
             'https://www.youtube.com/watch?v=lfOejh6_0dQ',
             'https://www.youtube.com/watch?v=n9EFUqrRdUk',
-            'https://www.youtube.com/watch?v=UVZFoNBWKiw'
+            'https://www.youtube.com/watch?v=UVZFoNBWKiw',
+            'https://www.youtube.com/watch?v=6F4zdl-L1zg'
         ],
         strava: 8942247123,
         owner: 'YUVENTA',
@@ -1644,6 +1648,7 @@ let events2023 = [
         type: 'ROGAINE',
         fmt: '1,5',
         res: 'https://vk.com/juventa_sbor?w=wall-201330282_1124',
+        video: 'https://www.youtube.com/watch?v=4J0r-cX5Gg8',
         o_gps: 17679
     },
     {
@@ -1810,7 +1815,7 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/31914/1',
         photo: 'http://vk.com/album-154221178_299675518',
         info: '26 ноября в парке Сосновка (Санкт-Петербург) пройдут соревнования "Снежная тропа" в дисциплине "кросс-выбор" (с первым заданным КП).',
-        video: 'http://tvspb.ru/programs/stories/3199531',
+        video: ['http://tvspb.ru/programs/stories/3199531','https://www.youtube.com/watch?v=swrcvd4uRvo'],
         owner: 'SFSO_SPB',
         o_site: '231126_st',
         reskeep: 633

@@ -6,7 +6,7 @@ let events2014 = [
         name: 'Снежная тропа, 2-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130119/140119_res.pdf',
-        video: 'http://vimeo.com/85339934',
+        video: ['http://vimeo.com/85339934','https://www.youtube.com/watch?v=mVSrvxZaD5I'],
         owner: 'SFSO_SPB',
         o_site: '130119'
     },
@@ -858,6 +858,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/141018/141018_res.htm',
+        video: 'https://www.youtube.com/watch?v=J0vxXgBpYLg',
         owner: 'VYBORG',
         o_site: '141018'
     },

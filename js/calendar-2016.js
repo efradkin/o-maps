@@ -230,6 +230,14 @@ let events2016 = [
         o_site: '160402_Streko'
     },
     {
+        id: 'SPB_20160409_1',
+        date: '2016-04-09',
+        place: 'карьер Красная Горка',
+        name: 'Кубок Белых Ночей, 9 этап',
+        type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=37LPeJWQleY'
+    },
+    {
         id: 'SPB_20160403_1',
         date: '2016-03-26',
         date: '2016-04-03',
@@ -357,6 +365,7 @@ let events2016 = [
         fmt: '6 и 3 час., бег и вело',
         link: 'http://gornycross.narod.ru',
         res: 'https://o-site.spb.ru/_races/160501R/160501R_res.pdf',
+        video: 'https://www.youtube.com/watch?v=i8o4hl-1sBA',
         start: 'GORNY_CROSS',
         o_site: '160501R'
     },
@@ -367,6 +376,7 @@ let events2016 = [
         name: 'Чемпионат и Первенство Ленинградской области',
         type: 'ORIENT',
         res: 'http://o-time.ru/images/all/w16/footo010516.htm',
+        video: 'https://www.youtube.com/watch?v=94YVIw1CBSw',
         owner: 'SFSO_LO',
         o_site: '16050103'
     },
@@ -403,6 +413,15 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160514/160514_res.htm',
         fmt: '4 часа бегом и 4 часа на велосипеде.',
         o_site: '160514'
+    },
+    {
+        id: 'SPB_20160514_2',
+        date: '2016-05-14',
+        name: 'Весенний Марш-бросок',
+        place: 'Лемболово',
+        type: 'TOURISM',
+        video: 'https://www.youtube.com/watch?v=PboTL9iikB4',
+        start: 'MB',
     },
     {
         id: 'SPB_20160515_1',
@@ -481,10 +500,11 @@ let events2016 = [
         id: 'SPB_20160522_1',
         date: '2016-05-22',
         name: 'Российский Азимут ЛО',
-        place: 'Юкки',
+        place: 'Юкки, Выборг',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/160522_LO/160522_res1.htm',
+        video: 'https://www.youtube.com/watch?v=fh3Gmjc_HS0',
         owner: 'SFSO_LO',
         o_site: '160522_LO'
     },
@@ -507,6 +527,7 @@ let events2016 = [
         fmt: '24, 8 и 3 час., бег',
         link: 'http://gornycross.narod.ru',
         res: 'https://o-site.spb.ru/_races/260528R/160528R_res.pdf',
+        video: 'https://www.youtube.com/watch?v=IjY_bhTJSgI',
         start: 'GORNY_CROSS',
         o_site: '260528R'
     },
@@ -938,6 +959,7 @@ let events2016 = [
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2016-2.php',
         photo: 'https://vk.com/album-30311715_235765199',
+        video: 'https://www.youtube.com/watch?v=2rKJbFJohLc',
         map: 'yagodnoe_ba_2016',
         start: 'BA',
         owner: 'BKTV'
@@ -1229,6 +1251,14 @@ let events2016 = [
         reg: 'http://reg.o-time.ru/list_future.php',
         res: 'https://o-site.spb.ru/_races/161110/161201_res.htm',
         o_site: '161110'
+    },
+    {
+        id: 'SPB_20161202_1',
+        date: '2016-12-02',
+        place: 'шк №204',
+        name: 'Соревнования по спортивному ориентированию',
+        type: 'INDOOR',
+        video: 'https://www.youtube.com/watch?v=2IcfW-fsl6A'
     },
     {
         id: 'SPB_20161203_1',

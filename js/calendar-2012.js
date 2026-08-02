@@ -201,6 +201,8 @@ let events2012 = [
         name: 'Чемпионат и Первенство СПб, эстафета',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120318/120318_res.htm',
+        photo: 'https://www.markir.spb.ru/photos/2012/2012.htm',
+        video: 'https://www.youtube.com/watch?v=nYf_-WZoB1U',
         owner: 'SFSO_SPB',
         o_site: '120318'
     },

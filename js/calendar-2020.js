@@ -60,6 +60,7 @@ let events2020 = [
         name: 'Зимний рогейн, 1-й этап кубка ЛО',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-20/registration.html',
+        video: 'https://www.youtube.com/watch?v=qMmQMfFs87o',
         fmt: 'Рогейн 4ч (лыжи, бег, велосипед)',
         start: 'MULTSPORT',
         o_site: '200119'
@@ -178,10 +179,14 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/zhenst_rogaine',
-        video: 'https://www.youtube.com/watch?v=JgJ8gM4eBpU'
+        video: ['https://www.youtube.com/watch?v=JgJ8gM4eBpU','https://www.youtube.com/watch?v=jau_A6i4hkA']
     },
     {
-        id: 'SPB_20200214_1', date: '2020-02-14', name: 'Охта-Лабиринт', type: 'ORIENT', o_site: '200214'
+        id: 'SPB_20200214_1',
+        date: '2020-02-14',
+        name: 'Охта-Лабиринт',
+        type: 'ORIENT',
+        o_site: '200214'
     },
     {
         id: 'SPB_20200216_1',
@@ -240,6 +245,7 @@ let events2020 = [
         name: 'Ice Trail рогейн. 2-й этап кубка ЛО по рогейну',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/ice-trail-2020/registration.html',
+        video: 'https://www.youtube.com/watch?v=6uMl1mDAcH0',
         fmt: 'Рогейн 6ч (бег/лыжи или велосипед)',
         start: 'MULTSPORT',
         o_site: '200229r'
@@ -316,6 +322,7 @@ let events2020 = [
         date: '2020-03-15',
         place: 'Зеленогорск',
         name: 'Кубок Белых Ночей 2019/20. 16 этап',
+        video: 'https://www.youtube.com/watch?v=W0A2Sok8tX0',
         type: 'ORIENT',
         reskeep: 331,
         owner: 'WN',
@@ -415,6 +422,7 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '2',
         link: 'https://vk.com/gornycross',
+        video: 'https://www.youtube.com/watch?v=bNN2J99LoJw',
         start: 'GORNY_CROSS'
     },
     {
@@ -435,6 +443,7 @@ let events2020 = [
         place: 'Вуокса',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2020/registration.html',
+        video: ['https://www.youtube.com/watch?v=A-XZIHinuaw','https://www.youtube.com/watch?v=fW7vxveGSo4'],
         fmt: 'Рогейн 8ч и 16ч (на байдарках)',
         start: 'MULTSPORT',
         o_site: '200516'
@@ -458,7 +467,7 @@ let events2020 = [
         name: 'Новгородский меридиан',
         type: 'ROGAINE',
         fmt: '4',
-        video: 'https://www.youtube.com/watch?v=JkeIvn02TUs',
+        video: ['https://www.youtube.com/watch?v=JkeIvn02TUs','https://www.youtube.com/watch?v=BMivTrC_Dyc'],
         link: 'https://vk.com/club91656163'
     },
     {
@@ -483,6 +492,7 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '24, 8, 3',
         link: 'https://vk.com/gornycross',
+        video: 'https://www.youtube.com/watch?v=9suD_OQddnM',
         start: 'GORNY_CROSS'
     },
     {
@@ -529,6 +539,7 @@ let events2020 = [
         date: '2020-06-20',
         place: 'Луга',
         name: 'Новгородский меридиан',
+        video: 'https://www.youtube.com/watch?v=xbPg-UxPbAg',
         type: 'ROGAINE',
         fmt: '4',
         link: 'https://vk.com/club91656163'
@@ -691,7 +702,12 @@ let events2020 = [
         name: 'Лужский приключенческий рогейн',
         type: 'ROGAINE',
         fmt: '24, 6',
-        video: ['https://www.youtube.com/watch?v=hgHF7PEXynM','https://www.youtube.com/watch?v=Hx7fyc0fZRU'],
+        video: [
+            'https://www.youtube.com/watch?v=hgHF7PEXynM',
+            'https://www.youtube.com/watch?v=Hx7fyc0fZRU',
+            'https://www.youtube.com/watch?v=24dBuD8_tTo',
+            'https://www.youtube.com/watch?v=pTgKrl5goOo'
+        ],
         link: 'https://vk.com/club190501849'
     },
     {
@@ -1080,6 +1096,7 @@ let events2020 = [
         type: 'ROGAINE',
         reg: 'http://reg.o-time.ru/start.php?event=20146',
         res: 'https://o-site.spb.ru/_races/200919_R/200919_res.htm',
+        video: 'https://www.youtube.com/watch?v=x_Tm-mUhyeU',
         start: 'ROGAINE_110',
         o_site: '200919_R'
     },
@@ -1269,6 +1286,7 @@ let events2020 = [
         date: '2020-10-10',
         place: 'Луга',
         name: 'О-трейл-рогейн',
+        video: 'https://www.youtube.com/watch?v=G1tGFtoV8iY',
         type: 'ROGAINE',
         fmt: '6',
         link: 'https://vk.com/club190501849'
@@ -1353,6 +1371,7 @@ let events2020 = [
         name: 'Кубок ЛО по рогейну, финал',
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/uncategorized/final-klo-2020',
+        video: 'https://www.youtube.com/watch?v=I6YphfKXk8o',
         o_site: '201024'
     },
     {
@@ -1685,6 +1704,16 @@ let events2020 = [
         type: 'ORIENT',
         reskeep: 410,
         owner: 'WN'
+    },
+    {
+        id: 'SPB_20201213_4',
+        date: '2020-12-13',
+        place: 'Луга',
+        name: 'Новгородский меридиан',
+        video: 'https://www.youtube.com/watch?v=VF6lAqx3vpM',
+        type: 'ORIENT',
+        fmt: 'эстафета',
+        owner: 'LM'
     },
     {
         id: 'SPB_20201219_1',

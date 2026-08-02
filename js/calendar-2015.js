@@ -460,6 +460,7 @@ let events2015 = [
         name: 'Весенний водный рогейн',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2015/registration.html',
+        video: 'https://www.youtube.com/watch?v=drg5qeThb9g',
         start: 'MULTSPORT',
         o_site: '150616_VR'
     },
@@ -471,6 +472,7 @@ let events2015 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=487',
         res: 'https://o-site.spb.ru/_races/150516/150516_split.htm',
+        video: 'https://www.youtube.com/watch?v=_d2QYPpX-W0',
         owner: 'SFSO_SPB',
         o_site: '150516',
         reskeep: 257
@@ -615,6 +617,16 @@ let events2015 = [
         owner: 'SFSO_SPB',
         o_site: '150607',
         reskeep: 245
+    },
+    {
+        id: 'SPB_20150611_1',
+        date: '2015-06-11',
+        place: 'Кажма, северная Онега',
+        name: 'Red Fox Adventure Race',
+        video: ['https://www.youtube.com/watch?v=8gIyoNa8EKo','https://www.youtube.com/watch?v=4wQqO4_TBv4'],
+        type: 'MULTI',
+        start: 'RFAR',
+        map: 'onega_kazhma_rfar_2015'
     },
     {
         id: 'SPB_20150612_1',
@@ -1241,7 +1253,7 @@ let events2015 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=546',
         res: 'https://o-site.spb.ru/_races/151206_ST/151206_res.htm',
-        video: 'http://www.northernwind.spb.ru/online/video/',
+        video: ['http://www.northernwind.spb.ru/online/video/','https://www.youtube.com/watch?v=bdkxYzB_1qI'],
         owner: 'SFSO_SPB',
         o_site: '151206_ST'
     },

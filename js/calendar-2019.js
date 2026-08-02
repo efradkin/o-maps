@@ -92,6 +92,7 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-19/registration.html',
         res: 'https://o-site.spb.ru/_races/190126r/190126_res.htm',
+        video: 'https://www.youtube.com/watch?v=x6ZLxdS5nEY',
         fmt: 'Рогейн 4 часа. Лыжи, бег или велосипед.',
         start: 'MULTSPORT',
         o_site: '190126r'
@@ -160,6 +161,7 @@ let events2019 = [
         name: 'Рогейн Ice Trail, 2-й этап Кубка ЛО по рогейну',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/ice-trail-2019/registration.html',
+        video: 'https://www.youtube.com/watch?v=vHAx6Vjk7GE',
         fmt: 'Рогейн 6ч (лыжи, бег)',
         start: 'MULTSPORT',
         o_site: '190302'
@@ -277,6 +279,16 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190407/190407_split.html',
         o_site: '190407',
         reskeep: 111
+    },
+    {
+        id: 'SPB_20190407_3',
+        date: '2019-04-07',
+        place: 'Луга',
+        name: 'Новгородский меридиан',
+        video: 'https://www.youtube.com/watch?v=gYhCgUkWCVg',
+        type: 'ORIENT',
+        fmt: 'эстафета',
+        owner: 'LM'
     },
     {
         id: 'SPB_20190410_1',
@@ -446,6 +458,7 @@ let events2019 = [
         type: 'ROGAINE',
         fmt: '5, 2',
         link: 'https://vk.com/gornycross',
+        video: 'https://www.youtube.com/watch?v=iymfOvJymlU',
         start: 'GORNY_CROSS'
     },
     {
@@ -506,6 +519,7 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://clubrevolution.ru/product/klo-2019-3-etap/',
         res: 'https://o-site.spb.ru/_races/190510/190510_res.htm',
+        video: 'https://www.youtube.com/watch?v=D_vVA-cHH2s',
         fmt: '- 4 часа бегом, 3 часа на велосипеде',
         o_site: '190510'
     },
@@ -534,6 +548,7 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1023',
         res: 'http://o-site.spb.ru/_races/190512_kkr/190512_res.htm',
+        video: 'https://www.youtube.com/watch?v=iat7u1pUls8',
         o_site: '190512_kkr'
     },
     {
@@ -579,10 +594,11 @@ let events2019 = [
         id: 'SPB_20190518_1',
         date: '2019-05-18',
         name: 'Российский Азимут ЛО',
-        place: 'Юкки',
+        place: 'Юкки, Выборг',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1038',
         res: 'https://o-site.spb.ru/_races/190518_RA_LO/190518_ralo_rez.htm',
+        video: 'https://www.youtube.com/watch?v=-f7I9gZsv1E',
         owner: 'SFSO_LO',
         o_site: '190518_RA_LO',
         reskeep: 137
@@ -641,7 +657,8 @@ let events2019 = [
             'http://northernwind.spb.ru/videosplit/2019/chr/day2',
             'http://northernwind.spb.ru/videosplit/2019/chr/day3',
             'http://youtu.be/l4Cfhs9tFa0',
-            'https://www.youtube.com/watch?v=Yvb3agSRtfI'
+            'https://www.youtube.com/watch?v=Yvb3agSRtfI',
+            'https://www.youtube.com/watch?v=DunuJy9NPy4'
         ],
         o_site: '190524chRF',
         reskeep: [138, 139, 140],
@@ -655,6 +672,7 @@ let events2019 = [
         type: 'ROGAINE',
         fmt: '24 ,8, 3',
         link: 'https://vk.com/gornycross',
+        video: 'https://www.youtube.com/watch?v=iEkCTlSC9Zw',
         start: 'GORNY_CROSS'
     },
     {
@@ -884,6 +902,7 @@ let events2019 = [
         date: '2019-07-13',
         place: 'Орехово',
         name: 'Горный кросс',
+        video: 'https://www.youtube.com/watch?v=p_Yerx-qxr8',
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
@@ -904,6 +923,7 @@ let events2019 = [
         date: '2019-07-20',
         place: 'Луга',
         name: 'Лужский приключенческий рогейн',
+        video: 'https://www.youtube.com/watch?v=L8e19Pv2Yh8',
         type: 'ROGAINE',
         fmt: '8, 4',
         link: 'https://vk.com/event166397868'
@@ -980,6 +1000,7 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://x-race.info/calendar/137992/request/',
         res: 'https://o-site.spb.ru/_races/190810/190810_res.pdf',
+        video: ['https://www.youtube.com/watch?v=ClYGatKlFqM','https://www.youtube.com/watch?v=6KBvHQtw7YY'],
         info: 'Чемпионат Северо-Западного федерального округа 2019 года по рогейну бегом, 4-й этап Кубка Ленинградской области 2019 года по рогейну «На Лужских берегах»',
         fmt: '6 часов, бег и вело',
         o_site: '190810'
@@ -1638,6 +1659,7 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/10901',
         res: 'https://o-site.spb.ru/_races/191116/191116_rez.htm',
+        video: 'https://www.youtube.com/watch?v=Xzxcv20BEWo',
         o_site: '191116'
     },
     {

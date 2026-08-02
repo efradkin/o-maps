@@ -75,6 +75,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/14844',
         res: 'http://sportident.online/ol/?id=182',
+        video: 'https://www.youtube.com/watch?v=Sd70H8IfrmU',
         owner: 'SFSO_LO',
         o_site: '210117_LO'
     },
@@ -98,6 +99,7 @@ let events2021 = [
         place: 'Кириши',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/14977',
+        video: 'https://www.youtube.com/watch?v=CCeQJZ980pQ',
         owner: 'SFSO_LO',
         o_site: '21012324'
     },
@@ -136,7 +138,7 @@ let events2021 = [
         place: 'Приозерский район',
         name: 'Женсть-рогейн (приключенческий)',
         type: ['ROGAINE','SKI'],
-        video: 'https://www.youtube.com/watch?v=Xtj91E15Bv4',
+        video: ['https://www.youtube.com/watch?v=Xtj91E15Bv4','https://www.youtube.com/watch?v=U1H3SN6_myA'],
         fmt: '6, 3',
         link: 'https://vk.com/zhenst_rogaine'
     },
@@ -462,6 +464,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1233',
         res: 'http://orgeo.ru/live/#/16639',
+        video: 'https://www.youtube.com/watch?v=b6cYYfMjdEg',
         owner: 'YUVENTA',
         o_site: '210424-25',
         reskeep: [448, 449],
@@ -815,7 +818,14 @@ let events2021 = [
         res: 'http://sportident.online/ol/?id=356',
         photo: 'http://drive.google.com/drive/folders/1MhItem9JxiW66WFgqt7XQmOqRzjx68an',
         info: 'С 28 мая по 1 июня в Сосновом Бору (Ленинградская область) состоится Чемпионат России по спортивному ориентированию, а также пройдут областные соревнования «Спринт».',
-        video: 'https://www.youtube.com/watch?v=GfJB-vShsck',
+        video: [
+            'https://www.youtube.com/watch?v=GfJB-vShsck',
+            'https://www.youtube.com/watch?v=_V6aaxFOXWQ',
+            'https://www.youtube.com/watch?v=5SpAT-IGsc8',
+            'https://www.youtube.com/watch?v=tBRnqsu8rP8',
+            'https://www.youtube.com/watch?v=-K9PFtAyj6Q',
+            'https://www.youtube.com/watch?v=7xTjBWZ9wYk'
+        ],
         o_site: '210531',
         reskeep: [466, 468, 469],
         start: 'RUSSIA_CHAMP'
@@ -968,7 +978,8 @@ let events2021 = [
             'https://www.youtube.com/watch?v=4PS1TbAmvVw',
             'https://www.youtube.com/watch?v=3EzV2Y0fy8g',
             'https://www.youtube.com/watch?v=IhcGk_yX2Jc',
-            'https://www.youtube.com/watch?v=OLftfHGY-Xw'
+            'https://www.youtube.com/watch?v=OLftfHGY-Xw',
+            'https://www.youtube.com/watch?v=QBYO0G-YnJ0'
         ],
         start: 'KKP',
         o_site: '210612-18_KKP',
@@ -1744,6 +1755,14 @@ let events2021 = [
         strava: 6191799353
     },
     {
+        id: 'SPB_20211031_3',
+        date: '2021-10-31',
+        place: 'Сосновый бор',
+        name: 'Ночной рогейн',
+        type: 'ROGAINE',
+        video: 'https://www.youtube.com/watch?v=CJdY3Z9n0NM',
+    },
+    {
         id: 'SPB_20211104_1',
         date: '2021-11-04',
         place: 'Лемболово, рядом с бывшей базой Искра',
@@ -1929,6 +1948,16 @@ let events2021 = [
         reskeep: 506,
         strava: 6402242041
     },
+    {
+        id: 'SPB_20211219_2',
+        date: '2021-12-19',
+        name: 'Приз Деда Мороза',
+        place: 'Сосновый Бор',
+        type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=wb3-Wv_vivg',
+        owner: 'YUVENTA'
+    },
+
     {
         id: 'SPB_20211226_1',
         date: '2021-12-26',

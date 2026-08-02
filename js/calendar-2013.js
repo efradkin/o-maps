@@ -593,6 +593,15 @@ let events2013 = [
         o_site: '130612'
     },
     {
+        id: 'SPB_20130612_1',
+        date: '2013-06-12',
+        place: 'Первомайское',
+        name: 'Кузьмоловские вожди-2',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/130612/130612_res.htm',
+        o_site: '130612'
+    },
+    {
         id: 'SPB_20130614_1',
         date: '2013-06-14',
         endDate: '2013-06-16',
@@ -636,6 +645,7 @@ let events2013 = [
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=531',
         info: 'Всероссийские многодневные соревнования «Кубок Карельского Перешейка 2013»',
+        video: 'https://www.youtube.com/watch?v=-1F_4uM-C3U',
         start: 'KKP',
         o_site: '13062427'
     },

@@ -31,6 +31,7 @@ let events2022 = [
         reg: 'http://www.multsport.ru/starts/winter-rogaine-22/regulations.html',
         res: 'https://o-site.spb.ru/_races/220116/220116_res.pdf',
         fmt: 'рогейн 4 часа. Лыжи, бег, велосипед в одном зачете',
+        video: 'https://www.youtube.com/watch?v=dCLQ2XCAjYk',
         strava: 6532650244,
         start: 'MULTSPORT',
         o_site: '220116'
@@ -75,6 +76,7 @@ let events2022 = [
         place: 'Лемболово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220206/res1.htm',
+        video: 'https://www.youtube.com/watch?v=WK_TXhObUSw',
         o_site: '220206',
         endDate: '2022-02-06'
     },
@@ -140,6 +142,11 @@ let events2022 = [
         reg: 'http://www.multsport.ru/starts/ice-trail-2022/registration.html',
         info: 'Второй этап кубка Ленинградской области по рогейну 2022г.',
         fmt: 'рогейн 3 и 6 часов. Лыжи, бег, велосипед в одном зачете',
+        video: [
+            'https://www.youtube.com/watch?v=fWGfuPgFtPk',
+            'https://www.youtube.com/watch?v=kPbaMAy2HSQ',
+            'https://www.youtube.com/watch?v=YrzSQWuIVR8'
+        ],
         start: 'MULTSPORT',
         o_site: '220227r'
     },
@@ -309,6 +316,7 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '4, 2',
         link: 'https://vk.com/club91656163',
+        video: ['https://www.youtube.com/watch?v=Y_HDRdoJcSM','https://www.youtube.com/watch?v=F0j-YBSyvH0'],
         owner: 'LM'
     },
     {
@@ -469,6 +477,7 @@ let events2022 = [
         name: 'Водный рогейн',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2022/registration.html',
+        video: ['https://www.youtube.com/watch?v=V0Bu0QiRQX8','https://www.youtube.com/watch?v=f6OlPEX-CxU'],
         fmt: 'Рогейн 4, 8 и 16 часов',
         start: 'MULTSPORT',
         o_site: '220515r'
@@ -590,7 +599,7 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '5',
         link: 'https://vk.com/club91656163',
-        video: 'https://www.youtube.com/watch?v=6kCBasFoCe8',
+        video: ['https://www.youtube.com/watch?v=6kCBasFoCe8','https://www.youtube.com/watch?v=gKarWwzitHs'],
         owner: 'LM'
     },
     {
@@ -615,7 +624,7 @@ let events2022 = [
         type: 'ROGAINE',
         reg: 'http://rogaining.site/registration.html',
         info: 'В программе Фестиваля пройдут соревнования по рогейну в следующих форматах: - 24 часа бегом – 2-й Кубок России по рогейну - 8 часов бегом - 16 часов на велосипеде – 6-й Чемпионат России - 6 часов на велосипеде',
-        video: 'https://www.youtube.com/watch?v=f2BlY4y_AI0',
+        video: ['https://www.youtube.com/watch?v=f2BlY4y_AI0','https://www.youtube.com/watch?v=dMjJT_jp168'],
         o_site: '220528r'
     },
     {
@@ -623,6 +632,7 @@ let events2022 = [
         date: '2022-05-28',
         place: 'Зеркальный',
         name: 'Кубок России по рогейну',
+        video: 'https://www.youtube.com/watch?v=mBR-0JoHM8s',
         type: 'ROGAINE',
         fmt: '24, 8',
         link: 'https://rogaining.site/'
@@ -689,6 +699,7 @@ let events2022 = [
         place: 'Кузнечное',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/2022GK/220604R_res.pdf',
+        video: 'https://www.youtube.com/watch?v=SmX3TFrHv08',
         fmt: '24/8/3 часа - бег, 8 часов - вело',
         start: 'GORNY_CROSS',
         o_site: '2022GK'
@@ -771,7 +782,14 @@ let events2022 = [
         date: '2022-06-11',
         place: 'Питкяранта',
         name: 'Red Fox Adventure Race',
-        video: 'https://www.youtube.com/watch?v=dB3zLS-8yWA',
+        video: [
+            'https://www.youtube.com/watch?v=dB3zLS-8yWA',
+            'https://www.youtube.com/watch?v=z6I01VglRsQ',
+            'https://www.youtube.com/watch?v=EwcUzZFgMYY',
+            'https://www.youtube.com/watch?v=ttohsfNMKEw',
+            'https://www.youtube.com/watch?v=wCHRwyM0gc8',
+            'https://www.youtube.com/watch?v=ZiMX5XX_eTI'
+        ],
         type: 'MULTI',
         start: 'RFAR',
     },
@@ -871,6 +889,7 @@ let events2022 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/220626_mtbo/220626_rez.htm',
         info: 'Проезд к месту парковки СТРОГО по ул.Заречной!',
+        video: 'https://www.youtube.com/watch?v=KCsbmMaJDPE',
         owner: 'SFSO_SPB',
         o_site: '220626_mtbo'
     },
@@ -917,7 +936,11 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '24, 6',
         strava: 7440975370,
-        video: ['https://vkvideo.ru/video-208494804_456239055','https://www.youtube.com/watch?v=PwogLyke6Yk'],
+        video: [
+            'https://vkvideo.ru/video-208494804_456239055',
+            'https://www.youtube.com/watch?v=PwogLyke6Yk',
+            'https://www.youtube.com/watch?v=Rn1Xor2bjQY'
+        ],
         link: 'https://vk.com/event166397868'
     },
     {
@@ -1116,6 +1139,7 @@ let events2022 = [
         place: 'Волочаевка',
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/23512',
+        video: 'https://www.youtube.com/watch?v=bl16U1tbPhs',
         start: 'ROGAINE_110',
         o_site: '220724_110'
     },
@@ -1543,6 +1567,14 @@ let events2022 = [
         name: 'HARD-Rogaine | Night',
         type: 'ROGAINE',
         link: 'https://vk.com/hardrogaine'
+    },
+    {
+        id: 'SPB_20221029_3',
+        date: '2022-10-29',
+        place: 'Сосновый бор',
+        name: 'Ночной рогейн',
+        type: 'ROGAINE',
+        video: 'https://www.youtube.com/watch?v=i2-yyXQrq8c',
     },
     {
         id: 'SPB_20221030_1',

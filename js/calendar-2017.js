@@ -159,6 +159,7 @@ let events2017 = [
         date: '2017-03-04',
         place: 'Кротово, оз Вуокса',
         name: 'Рогейн - Ice Trail 2017',
+        video: 'https://www.youtube.com/watch?v=VitW_vpUA6k',
         type: 'ROGAINE',
         fmt: '6ч и 24ч',
         o_site: '170304'
@@ -313,6 +314,15 @@ let events2017 = [
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         owner: 'SFSO_SPB',
         o_site: '170419'
+    },
+    {
+        id: 'SPB_20170422_1',
+        date: '2017-04-22',
+        name: 'TrailAdventure',
+        place: '69км',
+        type: 'ROGAINE',
+        video: 'https://www.youtube.com/watch?v=MkDXFIXPih4',
+        start: 'TA'
     },
     {
         id: 'SPB_20170423_1',
@@ -605,6 +615,7 @@ let events2017 = [
         place: 'Анненские укрепления, Гаврилово, Возрождение',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170427-28_VT/170527_rez_VT.htm',
+        video: 'https://www.youtube.com/watch?v=1KuUhE1SI3Y',
         owner: 'VYBORG',
         o_site: '170427-28_VT'
     },
@@ -653,6 +664,7 @@ let events2017 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/17060204/170602_res.htm',
+        video: 'https://www.youtube.com/watch?v=7zpDGB2rY9s',
         owner: 'WN',
         start: 'WN',
         o_site: '17060204'
@@ -697,6 +709,15 @@ let events2017 = [
         reg: 'http://docs.google.com/forms/d/e/1FAIpQLSd87dXZOK0xfe9U_oNFflJBXp19lGBYW-7nurB-ms8IK3jOkQ/viewform?c=0&w=1',
         fmt: 'Велосипедный рогейн 4 и 6ч.',
         o_site: '170610'
+    },
+    {
+        id: 'SPB_20170610_2',
+        date: '2017-06-10',
+        place: 'Сортавала',
+        name: 'Red Fox Adventure Race',
+        video: 'https://www.youtube.com/watch?v=GsF6pYBUfKM',
+        type: 'MULTI',
+        start: 'RFAR',
     },
     {
         id: 'SPB_20170612_1',
@@ -819,6 +840,7 @@ let events2017 = [
         place: 'Орехово',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/170715R/170715R_res.pdf',
+        video: 'https://www.youtube.com/watch?v=YoR_-JyNeZ8',
         fmt: '6 и 3 часа - бег, 5 часов - вело',
         o_site: '170715R'
     },
@@ -864,6 +886,7 @@ let events2017 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=776',
         res: 'https://o-site.spb.ru/_races/170806_Per/170806_res.htm',
+        video: 'https://www.youtube.com/watch?v=3TJU7WWugjI',
         info: 'Серия из четырёх личных стартов',
         o_site: '170806_Per'
     },
@@ -944,11 +967,19 @@ let events2017 = [
         endDate: '2017-09-10',
         place: 'Ягодное',
         name: 'MatrasOFF Race',
-        type: 'ORIENT',
+        type: 'MULTI',
         reg: 'http://x-race.info/calendar/102909/request/',
         info: 'приключенческая гонка MatrasOFF Race - 2017 кубок Всеволожского района по рогейну, 4 этап',
         fmt: 'Рогейн 6ч (бег, вело), приключенческая гонка (Hard, Lite)',
         o_site: '170909'
+    },
+    {
+        id: 'SPB_20170909_2',
+        date: '2017-09-09',
+        place: 'Луга',
+        name: 'П-во Новгородской обл',
+        type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=-Oo_xlrlTuk'
     },
     {
         id: 'SPB_20170910_1',
@@ -1080,6 +1111,7 @@ let events2017 = [
         place: 'Молодежное',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/170930R/170930R_res.pdf',
+        video: 'https://www.youtube.com/watch?v=lqzh1Dt053Q',
         fmt: 'рогейн: бегом 5 и 2 часа, вело - 4 часа',
         o_site: '170930R'
     },
@@ -1187,6 +1219,7 @@ let events2017 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=796',
         res: 'https://o-site.spb.ru/_races/171008/171008_res_.htm',
+        video: 'https://www.youtube.com/watch?v=O-5O-CrlOXw',
         owner: 'SFSO_SPB',
         o_site: '171008',
         reskeep: 243
@@ -1195,6 +1228,7 @@ let events2017 = [
         id: 'SPB_20171014_1',
         date: '2017-10-14',
         name: 'TrailAdventure',
+        video: 'https://www.youtube.com/watch?v=ww4BsQfo-w4',
         type: 'ROGAINE',
         fmt: '6',
         link: 'http://tradventure.ru/'
@@ -1290,6 +1324,7 @@ let events2017 = [
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-rogeynu/kvr-2017-vtoroy-etap',
         res: 'https://o-site.spb.ru/_races/171105/171105_res.htm',
+        video: 'https://www.youtube.com/watch?v=5S494VBMeFc',
         o_site: '171105'
     },
     {

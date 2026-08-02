@@ -655,6 +655,7 @@ let events2011 = [
         endDate: '2011-09-23',
         place: 'Рощино',
         name: 'Чемпионат Европы по велоориентированию, Финал Кубка Мира',
+        video: ['https://www.youtube.com/watch?v=qV-JuhesCGs','https://www.youtube.com/watch?v=vou3UOWhHIc'],
         type: 'VELO',
         info: 'V ЧЕМПИОНАТ ЕВРОПЫ ФИНАЛ КУБКА МИРА 2011 V КУБОК ЕВРОПЫ СРЕДИ ЮНИОРОВ VI КУБОК ЕВРОПЫ СРЕДИ ЮНОШЕЙ И ДЕВУШЕК ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ НА ВЕЛОСИПЕДАХ',
         owner: 'SFSO_LO',

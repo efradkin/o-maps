@@ -73,7 +73,7 @@ let rogaineRfarMaps = [
     {
         name: 'Кажма, северная Онега',
         start: 'RFAR',
-        year: 2015,
+        date: '2015-06-11',
         url: './maps/rogaine/onega_kazhma_rfar_2015.webp',
         link: './original_maps/rogaine/onega_kazhma_rfar_2015_omaps.gif',
         bounds: [[62.7559833, 35.0422668], [62.3924378, 35.4697037], [62.6391349, 34.5736313]],
