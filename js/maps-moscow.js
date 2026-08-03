@@ -3133,6 +3133,17 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Щукино',
+        year: 2026,
+        url: './maps/moscow/sz/schukino_rogaine_2026.webp',
+        link: './original_maps/moscow/sz/schukino_rogaine_2026_omaps.webp',
+        bounds: [[55.8112418, 37.3962593], [55.8178969, 37.4883986], [55.7719868, 37.4052715]],
+        info: 'Малахитовый рогейн: Щукино',
+        author: ['SKLV_V','MLKHV_B'],
+        owner: 'MLKHT',
+        type: ['ROGAINE']
+    },
+    {
         name: 'МОСКВА',
         year: 2023,
         info: 'Мосдень.',
