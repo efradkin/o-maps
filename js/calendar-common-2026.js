@@ -254,7 +254,8 @@ let commonEvents2026 = [
             'https://vkvideo.ru/video-227779225_456239060',
             'https://vk.com/video-93257360_456239322',
             'http://northernwind.spb.ru/videosplit/2026/kkp/d1',
-            'https://www.youtube.com/watch?v=4DXp9qRaZVM'
+            'https://www.youtube.com/watch?v=4DXp9qRaZVM',
+            'https://www.youtube.com/watch?v=rdrdKWen4Dw'
         ],
         type: 'ORIENT',
         fmt: 'классика',
