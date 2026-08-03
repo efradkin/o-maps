@@ -2122,6 +2122,7 @@ let events2026 = [
         endDate: '2026-08-16',
         name: 'Аристомед O-Weekend (Кубок D2RUN, 3 этап)',
         reg: 'https://orgeo.ru/event/54233',
+        o_site: '260815-16_Aristomed_o-weekend',
         place: 'Сосновый бор',
         type: 'ORIENT',
         fmt: 'классика, ночной спринт, классика',

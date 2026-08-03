@@ -1391,7 +1391,7 @@ function buildSheetDate(m) {
     return result ? `<span class="doc-date">${result}</span>` : '';
 }
 
-function buildEventDate(evt) {
+function buildEventDate(evt, withYear) {
     const date = new Date(evt.date);
     let day = date.getDate();
     let month = MONTHS_SHORT[date.getMonth()];
@@ -1405,6 +1405,9 @@ function buildEventDate(evt) {
         month = MONTHS_SHORT[endDate.getMonth()];
         dayWeek = WEAK_DAYS_SHORT[endDate.getDay()];
         result += ` - ${day} ${month} (${dayWeek})`
+    }
+    if (withYear) {
+        result += ` <sup class="cal-year">${date.getFullYear()}</sup>`;
     }
     return result;
 }

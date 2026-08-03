@@ -222,7 +222,7 @@ function renderMapsTable() {
                 idx = 0;
             }
             td(evt, row, buildNumber(evt, idx++));
-            td(evt, row, buildEventDate(evt));
+            td(evt, row, buildEventDate(evt, true));
             td(evt, row, buildEventStart(evt));
             td(evt, row, buildEventPlace(evt));
             td(evt, row, buildEventType(evt, true));
