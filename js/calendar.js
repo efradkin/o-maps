@@ -141,6 +141,9 @@ window.onload = function() {
 
 // Ссылка на тело таблицы
 const tbody = document.querySelector('.o-main-table tbody');
+if ('media' === CALENDAR_PARAM) {
+    tbody.classList.add('photo-video');
+}
 
 let currentDate;
 let monthTD = null, prevDate = null;

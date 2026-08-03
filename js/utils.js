@@ -599,7 +599,7 @@ function buildLink(link, content, title, allItems, isDownload) {
                 let result = '';
                 for (const l of link) {
                     if (title === 'Видео') {
-                        content = `<img src="./images/${getVideoImg(l)}" alt="Видео">`;
+                        content = `<img class="media-link" src="./images/${getVideoImg(l)}" alt="Видео">`;
                     }
                     result += ' ' + buildOneLink(l, content, title, isDownload);
                 }
@@ -688,7 +688,7 @@ function buildGpsLinks(m, img, calendar) {
                 }
             }
         } else {
-            result += buildLink(gps, '<img src="./images/' + (img ?? 'url-file.png') +'" alt="GPS">');
+            result += buildLink(gps, '<img class="media-link" src="./images/' + (img ?? 'url-file.png') +'" alt="GPS">');
         }
     }
     return result;
@@ -1664,10 +1664,10 @@ function buildEventReports(evt, withGPS) {
         if (evt.photo.includes('sport-images.ru')) {
             img = 'sportimages.webp';
         }
-        result += ' ' + buildLink(evt.photo, `<img src="./images/${img}" alt="Фото">`, 'Фотографии', true);
+        result += ' ' + buildLink(evt.photo, `<img class="media-link" src="./images/${img}" alt="Фото">`, 'Фотографии', true);
     }
     if (evt.video) {
-        result += ' ' + buildLink(evt.video, `<img src="./images/${getVideoImg(evt.video)}" alt="Видео">`, 'Видео', true);
+        result += ' ' + buildLink(evt.video, `<img class="media-link" src="./images/${getVideoImg(evt.video)}" alt="Видео">`, 'Видео', true);
     }
     if (HAS_ME_PARAM && evt.strava) {
         let strava = evt.strava;
@@ -1676,7 +1676,7 @@ function buildEventReports(evt, withGPS) {
         } else {
             strava = 'https://www.strava.com/activities/' + strava;
         }
-        result += ' ' + buildLink(strava, '<img src="./images/strava_32.gif" alt="Strava">', 'Strava', true);
+        result += ' ' + buildLink(strava, '<img class="media-link" src="./images/strava_32.gif" alt="Strava">', 'Strava', true);
     }
     return result;
 }

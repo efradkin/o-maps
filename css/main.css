@@ -908,6 +908,14 @@ body.ski-bodi {
         }
     }
 }
+.photo-video {
+    .sheet-icon {
+        width: 40px;
+    }
+    .media-link {
+        height: 50px;
+    }
+}
 
 .expandable-text {
     overflow: hidden;
