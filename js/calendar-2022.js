@@ -561,7 +561,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220521/220521-split.htm',
         photo: 'http://disk.yandex.ru/d/Pys4whutiheb3Q',
-        video: 'https://www.youtube.com/watch?v=zV3TMlsA58M',
+        video: ['https://www.youtube.com/watch?v=zV3TMlsA58M','https://www.youtube.com/watch?v=Jer5kWlZxLg'],
         strava: 7178027439,
         owner: 'SFSO_SPB',
         o_site: '220521',
@@ -730,7 +730,10 @@ let events2022 = [
             'https://www.youtube.com/watch?v=qT1n2_1uyJo',
             'https://www.youtube.com/watch?v=nNpeXE7Gx08',
             'https://www.youtube.com/watch?v=FtDmRArvH9A',
-            'https://www.youtube.com/watch?v=6t6N0vFISHk'
+            'https://www.youtube.com/watch?v=6t6N0vFISHk',
+            'https://www.youtube.com/watch?v=0Ime4nuKFlE',
+            'https://www.youtube.com/watch?v=BZnHK4Mc8Vs',
+            'https://www.youtube.com/watch?v=XNFJ2Ms5zyk'
         ],
         start: 'KKP',
         o_site: '220606-12'
@@ -770,7 +773,16 @@ let events2022 = [
             'https://www.youtube.com/watch?v=2Y35LlCDc6Y',
             'https://www.youtube.com/watch?v=VVIKbMxqd0U',
             'https://rutube.ru/video/dde67d2dd1ae459b0693e8b180183657/',
-            'https://www.youtube.com/watch?v=jtpjjOZBJpY'
+            'https://www.youtube.com/watch?v=jtpjjOZBJpY',
+            'https://www.youtube.com/watch?v=k6hEF6Gy08o',
+            'https://www.youtube.com/watch?v=m0soMz91AHM',
+            'https://www.youtube.com/watch?v=zMeycC23YgI',
+            'https://www.youtube.com/watch?v=0VCwyeNpzEY',
+            'https://www.youtube.com/watch?v=TeqilOEgG74',
+            'https://www.youtube.com/watch?v=G11RRJXzr9U',
+            'https://www.youtube.com/watch?v=1MUx93Vnbwc',
+            'https://www.youtube.com/watch?v=B1j86stckv0',
+            'https://www.youtube.com/watch?v=C9PwVpfrwqI'
         ],
         start: 'KKP',
         o_site: '220613-16_KKP',
@@ -1215,6 +1227,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220921/210922_rez_Labir.htm',
         photo: 'http://vk.com/album-154221178_286801429',
+        video: 'https://www.youtube.com/watch?v=2qDJTkjSmBU',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по физической культуре и спорту Санкт-Петербурга Комитета по образованию Санкт-Петербурга',
         o_site: '220921'
     },
@@ -1399,7 +1412,10 @@ let events2022 = [
             'https://www.youtube.com/watch?v=hiu3bViJPqU',
             'https://rutube.ru/video/82cf8112083a2cf94056d4be46250886/',
             'https://rutube.ru/video/ff83fee8a7495ff510885e2d4cf2883c/',
-            'https://rutube.ru/video/18fc6e072db903c5397238607ded3c21/'
+            'https://rutube.ru/video/18fc6e072db903c5397238607ded3c21/',
+            'https://www.youtube.com/watch?v=B-ydxW0RmLs',
+            'https://www.youtube.com/watch?v=3ox0HecYQ6I',
+            'https://www.youtube.com/watch?v=Hr4eyglcmxo'
         ],
         strava: [7924730324, 7929743485, 7936822837],
         owner: 'SFSO_SPB',

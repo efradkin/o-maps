@@ -311,6 +311,7 @@ let events2017 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170419/170419_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/170419/170419_res_foto.htm',
+        video: 'https://www.youtube.com/watch?v=-lFWcywDf5Q',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         owner: 'SFSO_SPB',
         o_site: '170419'
@@ -490,6 +491,7 @@ let events2017 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=738',
         res: 'https://o-site.spb.ru/_races/170426_CA/170510_res.htm',
+        video: 'https://www.youtube.com/watch?v=92OJ2UKCfsw',
         o_site: '170426_CA'
     },
     {
@@ -615,7 +617,12 @@ let events2017 = [
         place: 'Анненские укрепления, Гаврилово, Возрождение',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170427-28_VT/170527_rez_VT.htm',
-        video: 'https://www.youtube.com/watch?v=1KuUhE1SI3Y',
+        video: [
+            'https://www.youtube.com/watch?v=1KuUhE1SI3Y',
+            'https://www.youtube.com/watch?v=_pwtEzlTaQY',
+            'https://www.youtube.com/watch?v=XK3qTM9S9DM',
+            'https://www.youtube.com/watch?v=uGA71YpOaG4'
+        ],
         owner: 'VYBORG',
         o_site: '170427-28_VT'
     },
@@ -759,7 +766,13 @@ let events2017 = [
         name: 'Кубок Карельского Перешейка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20170518_23KKP/vseros_KKP.rar',
-        video: 'https://www.youtube.com/watch?v=Ln3P0EaC9SU',
+        video: [
+            'https://www.youtube.com/watch?v=Ln3P0EaC9SU',
+            'https://www.youtube.com/watch?v=P0dfYcRp3bY',
+            'https://www.youtube.com/watch?v=yUYNobd3ZF4',
+            'https://www.youtube.com/watch?v=9h0oEB0Btyg',
+            'https://www.youtube.com/watch?v=Pqud-K2ZsW8'
+        ],
         start: 'KKP',
         o_site: '20170518_23KKP'
     },
@@ -769,6 +782,7 @@ let events2017 = [
         endDate: '2017-06-25',
         place: 'Коробицино',
         name: 'XXV Мемориал Михаила Святкина',
+        video: 'https://www.youtube.com/watch?v=O1-9Fes-3Gg',
         type: 'ORIENT',
         start: 'MMS',
         o_site: '17062325'
@@ -971,6 +985,7 @@ let events2017 = [
         reg: 'http://x-race.info/calendar/102909/request/',
         info: 'приключенческая гонка MatrasOFF Race - 2017 кубок Всеволожского района по рогейну, 4 этап',
         fmt: 'Рогейн 6ч (бег, вело), приключенческая гонка (Hard, Lite)',
+        video: ['https://www.youtube.com/watch?v=Lj6GA633Unc','https://www.youtube.com/watch?v=WOrC7Rqguho'],
         o_site: '170909'
     },
     {
@@ -1111,7 +1126,7 @@ let events2017 = [
         place: 'Молодежное',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/170930R/170930R_res.pdf',
-        video: 'https://www.youtube.com/watch?v=lqzh1Dt053Q',
+        video: ['https://www.youtube.com/watch?v=lqzh1Dt053Q','https://www.youtube.com/watch?v=IKtfaaqNDSg'],
         fmt: 'рогейн: бегом 5 и 2 часа, вело - 4 часа',
         o_site: '170930R'
     },
@@ -1272,6 +1287,7 @@ let events2017 = [
         place: 'им Калинина',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/17102122/171021_res.htm',
+        video: 'https://www.youtube.com/watch?v=kqE3hRdAvww',
         owner: 'VYBORG',
         o_site: '17102122'
     },

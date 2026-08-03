@@ -60,7 +60,7 @@ let events2020 = [
         name: 'Зимний рогейн, 1-й этап кубка ЛО',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-20/registration.html',
-        video: 'https://www.youtube.com/watch?v=qMmQMfFs87o',
+        video: ['https://www.youtube.com/watch?v=qMmQMfFs87o','https://www.youtube.com/watch?v=aBaXJnM_CNM'],
         fmt: 'Рогейн 4ч (лыжи, бег, велосипед)',
         start: 'MULTSPORT',
         o_site: '200119'
@@ -104,6 +104,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1126',
         res: 'http://orgeo.ru/live/#/11853',
+        video: 'https://www.youtube.com/watch?v=T8iwv22Ew-I',
         o_site: '200126',
         reskeep: 301,
         strava: 3045063542
@@ -272,7 +273,7 @@ let events2020 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1144',
         res: 'https://o-site.spb.ru/_races/200307/rez.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_270815414',
-        video: 'http://vk.com/video-36099352_456240633',
+        video: ['http://vk.com/video-36099352_456240633','https://www.youtube.com/watch?v=pErIMf90VNE'],
         owner: 'SFSO_SPB',
         o_site: '200307',
         reskeep: 323,
@@ -636,6 +637,7 @@ let events2020 = [
         date: '2020-07-04',
         place: 'Лемболово',
         name: 'Озёрный край',
+        video: 'https://www.youtube.com/watch?v=BMFivKe_ejQ',
         type: 'ROGAINE',
         fmt: '4',
         link: 'http://www.multsport.ru'
@@ -812,6 +814,7 @@ let events2020 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1164',
         info: 'МТБО в Орехово, тренировочный старт',
+        video: 'https://www.youtube.com/watch?v=Vsw_QoPFZGE',
         o_site: '200815',
         endDate: '2020-08-16'
     },
@@ -1096,7 +1099,7 @@ let events2020 = [
         type: 'ROGAINE',
         reg: 'http://reg.o-time.ru/start.php?event=20146',
         res: 'https://o-site.spb.ru/_races/200919_R/200919_res.htm',
-        video: 'https://www.youtube.com/watch?v=x_Tm-mUhyeU',
+        video: ['https://www.youtube.com/watch?v=x_Tm-mUhyeU','https://www.youtube.com/watch?v=Zu8T5BWlDOI'],
         start: 'ROGAINE_110',
         o_site: '200919_R'
     },

@@ -92,6 +92,14 @@ let events2013 = [
         o_site: '130203_Un'
     },
     {
+        id: 'SPB_20130212_1',
+        date: '2013-02-12',
+        place: 'ГБОУ ДОД ДДЮТ Выборгского р-на, ул Сантьяго-де-Куба, 4-2',
+        name: 'Выборгский лабиринт',
+        type: 'INDOOR',
+        video: 'https://www.youtube.com/watch?v=r1uyTGaTBSw'
+    },
+    {
         id: 'SPB_20130214_1',
         date: '2013-02-14',
         place: 'Кузьмоловский',
@@ -863,6 +871,7 @@ let events2013 = [
         place: 'Поляны',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130922/130922_split.htm',
+        video: 'https://www.youtube.com/watch?v=59GaGUqEw1c',
         owner: 'SFSO_SPB',
         o_site: '130922',
         reskeep: 226
@@ -1018,6 +1027,14 @@ let events2013 = [
         o_site: '131020'
     },
     {
+        id: 'SPB_20131023_1',
+        date: '2013-10-23',
+        place: 'Пискарёвский парк',
+        name: 'П-во Калининского р-она',
+        type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=tux3JClNVTY'
+    },
+    {
         id: 'SPB_20131026_1',
         date: '2013-10-26',
         place: 'Карельский перешеек + стратосфера',
@@ -1165,6 +1182,7 @@ let events2013 = [
         type: 'ROGAINE',
         reg: 'http://rogaining.spb.ru/index.php?option=com_wrapper&view=wrapper&Itemid=375',
         res: 'http://o-time.ru/images/all/w13/rgn281213.htm',
+        video: 'https://www.youtube.com/watch?v=vbJUaW_ZpAc',
         fmt: 'Рогейн 1 час',
         o_site: '131228R'
     },

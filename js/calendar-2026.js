@@ -1843,7 +1843,11 @@ let events2026 = [
         o_site: '20260705',
         reg: 'https://orgeo.ru/event/53666',
         photo: 'https://vk.com/album-196335280_311387714',
-        video: ['https://vk.com/clip-220245153_456239102','https://youtu.be/0dvIimWYRWM'],
+        video: [
+            'https://vk.com/clip-220245153_456239102',
+            'https://youtu.be/0dvIimWYRWM',
+            'https://www.youtube.com/watch?v=jQLIIjU-ppQ'
+        ],
         type: 'INDOOR',
         owner: 'OPEN_BAND',
         map: 'mega_parnas_2026',
@@ -2046,6 +2050,7 @@ let events2026 = [
         place: 'Выборг, Балашовское ш',
         o_site: '260801_V',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1751',
+        o_gps: 25692,
         info: 'Новая карта.',
         type: 'ORIENT',
         coord: [60.6833, 28.7345],

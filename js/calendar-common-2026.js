@@ -492,7 +492,8 @@ let commonEvents2026 = [
         video: [
             'https://www.youtube.com/watch?v=vwMHap8Z7K8',
             'https://www.youtube.com/watch?v=HWPMyp92jf0',
-            'https://www.youtube.com/watch?v=asRAAvnbOho'
+            'https://www.youtube.com/watch?v=asRAAvnbOho',
+            'https://www.youtube.com/watch?v=vqiQXmXmEwU'
         ],
         type: 'ORIENT',
         fmt: 'спринт, лонг, классика',

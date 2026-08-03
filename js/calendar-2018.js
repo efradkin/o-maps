@@ -92,6 +92,7 @@ let events2018 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-18/registration.html',
         res: 'http://www.multsport.ru/images/rog1cup18/rezult.htm',
+        video: 'https://www.youtube.com/watch?v=IugRLdORzek',
         fmt: '4 часа, лыжи, бег',
         start: 'MULTSPORT',
         o_site: '180127'
@@ -103,6 +104,7 @@ let events2018 = [
         name: 'Соревнования ко Дню снятия Блокады',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180128/180128_split.htm',
+        video: 'https://www.youtube.com/watch?v=vPXrpVjzDlQ',
         info: 'Проходят при поддержке ОАО "Фацер"',
         o_site: '180128'
     },
@@ -372,6 +374,7 @@ let events2018 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180418/180418_res_lab.pdf',
         photo: 'http://vk.com/album-51571395_253168487',
+        video: 'https://www.youtube.com/watch?v=2f03F-oMZ38',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
         owner: 'SFSO_SPB',
         o_site: '180418'
@@ -385,7 +388,7 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=859',
         res: 'https://o-site.spb.ru/_races/180421-22_/180421_res.htm',
-        video: 'https://www.youtube.com/watch?v=9B7c5O_CGBY',
+        video: ['https://www.youtube.com/watch?v=9B7c5O_CGBY','https://www.youtube.com/watch?v=oi8F_92svGk'],
         owner: 'YUVENTA',
         o_site: '180421-22_'
     },
@@ -553,6 +556,7 @@ let events2018 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2018/registration.html',
         res: 'http://www.multsport.ru/images/rogCanoe18/rezult.htm',
+        video: 'https://www.youtube.com/watch?v=upUBuxtv_gI',
         fmt: 'Рогейн 8ч и 16ч (на байдарках)',
         start: 'MULTSPORT',
         o_site: '18051920'
@@ -597,7 +601,11 @@ let events2018 = [
         name: 'Выборгская тройка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/18052627/180526-27_summ.htm',
-        video: 'https://www.youtube.com/watch?v=iewVI7ESxTY',
+        video: [
+            'https://www.youtube.com/watch?v=iewVI7ESxTY',
+            'https://www.youtube.com/watch?v=g4qiWghYddA',
+            'https://www.youtube.com/watch?v=7mgTG2CNpMc'
+        ],
         owner: 'VYBORG',
         o_site: '18052627',
         reskeep: [23, 22]
@@ -723,6 +731,7 @@ let events2018 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/18061216/180613_lab_res.htm',
         photo: 'http://vk.com/photo-128591100_456242365',
+        video: 'https://www.youtube.com/watch?v=AduqKHuaVeM',
         start: 'YM',
         o_site: '18061216',
         reskeep: [18, 17, 16, 15, 14]
@@ -750,10 +759,12 @@ let events2018 = [
             'http://northernwind.spb.ru/videosplit/2018//kkp/day2',
             'http://northernwind.spb.ru/videosplit/2018//kkp/day3',
             'http://northernwind.spb.ru/videosplit/2018//kkp/day4',
+            'https://www.youtube.com/watch?v=Ct-oMQk6V8I',
             'https://www.youtube.com/watch?v=2_8qq972LFc',
             'https://www.youtube.com/watch?v=bHNLjeT8PH8',
             'https://www.youtube.com/watch?v=PQjKShU4L1k',
-            'https://www.youtube.com/watch?v=xMhUrqloaHQ'
+            'https://www.youtube.com/watch?v=xMhUrqloaHQ',
+            'https://www.youtube.com/watch?v=gCN1nAwSFUo'
         ],
         start: 'KKP',
         o_site: '180617-18',
@@ -768,6 +779,7 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/6775',
         res: 'https://o-site.spb.ru/_races/180622mms/1rez.htm',
+        video: 'https://www.youtube.com/watch?v=DmBYqYQ_XwQ',
         start: 'MMS',
         o_site: '180622mms',
         reskeep: [9, 8, 7]
@@ -1090,7 +1102,7 @@ let events2018 = [
         reg: 'http://www.multsport.ru/starts/matrasoff-race-2018/registration.html',
         info: '15-16 сентября в Приозерском районе в окрестностях п.Отрадное будет дан старт 9й ежегодной приключенческой гонке MatrasOFF Race - 2018. Участников ждут зарекомендовавшие себя дисциплины: велоориентирование, классическое спортивное ориентирование, байдарка, пакрафт. Всё это разбавят космоснимок, технические этапы, GPS-задания и велолегенда. А также в рамках мультигонки пройдет 5й этап кубка Ленинградской области по рогейну в формате велосипедного и бегового зачета на 6-8 часов.',
         fmt: 'Приключенческая годна на 14 и 24 часа. Рогейн 6ч (велосипедный и беговой зачеты).',
-        video: 'https://www.youtube.com/watch?v=Di07maRmpbk',
+        video: ['https://www.youtube.com/watch?v=Di07maRmpbk','https://www.youtube.com/watch?v=pyRpyqy0JGQ'],
         start: 'MULTSPORT',
         o_site: '18091516'
     },
@@ -1295,6 +1307,14 @@ let events2018 = [
         video: 'https://www.youtube.com/watch?v=53e9RgFG5vk',
     },
     {
+        id: 'SPB_20181001_1',
+        date: '2018-10-01',
+        place: 'Пушкин, Нижний парк',
+        name: 'Спартакиада молодежи допризывного возраста Пушкинского р-на',
+        type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=OhW0eTN4ouU'
+    },
+    {
         id: 'SPB_20181003_1',
         date: '2018-10-03',
         place: 'шк №17, ул Бабушкина, 58-1В, Куракина дача',
@@ -1436,6 +1456,7 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=951',
         res: 'https://o-site.spb.ru/_races/181020/res1.htm',
+        video: ['https://www.youtube.com/watch?v=Exf5pftDSBk','https://www.youtube.com/watch?v=tvYLbNkshfc'],
         owner: 'VYBORG',
         o_site: '181020',
         reskeep: [65, 66],

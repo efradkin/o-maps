@@ -63,6 +63,14 @@ let events2012 = [
         o_site: '120129'
     },
     {
+        id: 'SPB_20120201_1',
+        date: '2012-02-01', // ???
+        name: 'Кубок СПб по ориентированию среди учащихся с нарушением слуха',
+        place: 'ДДЮТ Выборгского р-она',
+        type: 'INDOOR',
+        video: 'https://www.youtube.com/watch?v=hPYDw2RULsU'
+    },
+    {
         id: 'SPB_20120208_1',
         date: '2012-02-08',
         endDate: '2012-02-12',
@@ -865,6 +873,7 @@ let events2012 = [
         name: 'Золотая Осень',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/12102021/121020_res.htm',
+        video: 'https://www.youtube.com/watch?v=ONRgfh2ptn0',
         owner: 'VYBORG',
         o_site: '12102021'
     },

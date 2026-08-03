@@ -287,6 +287,20 @@ let events2015 = [
         o_site: '150405_LR'
     },
     {
+        id: 'SPB_20150412_1',
+        date: '2015-04-12',
+        place: 'Кузьмоловский',
+        name: 'Соревнования',
+        type: 'ORIENT',
+        video: [
+            'https://www.youtube.com/watch?v=mjla5TbWPL0',
+            'https://www.youtube.com/watch?v=ITaxUNbdQgI',
+            'https://www.youtube.com/watch?v=XcfqVfjDirI',
+            'https://www.youtube.com/watch?v=CSHpx7fqh1U',
+            'https://www.youtube.com/watch?v=Jrp3qedNQcA'
+        ]
+    },
+    {
         id: 'SPB_20150419_1',
         date: '2015-04-19',
         place: 'Лейпясуо',
@@ -296,6 +310,14 @@ let events2015 = [
         o_site: '150419_Vyb'
     },
     {
+        id: 'SPB_20150419_2',
+        date: '2015-04-19',
+        place: 'Пушкин, Нижний парк',
+        name: 'Спартакиада семейных команд',
+        type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=aOoIIw8OdWI'
+    },
+    {
         id: 'SPB_20150422_1',
         date: '2015-04-22',
         place: 'Пушкин, школы №№ 606 и 406',
@@ -303,6 +325,7 @@ let events2015 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/150422/150422_res_lab.htm',
         photo: 'https://o-site.spb.ru/_races/150422/150422_res_foto.htm',
+        video: 'https://www.youtube.com/watch?v=bYdFw1LQXkE',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
         owner: 'SFSO_SPB',
         o_site: '150422'
@@ -531,6 +554,7 @@ let events2015 = [
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/grup_info.php?g=13927&id=1160',
         res: 'https://o-site.spb.ru/_races/15052324/150523_sprint_rez.htm',
+        video: ['https://www.youtube.com/watch?v=rwDALxi7LAA','https://www.youtube.com/watch?v=Jss4k8Z8Tls'],
         owner: 'VYBORG',
         o_site: '15052324'
     },
@@ -546,6 +570,14 @@ let events2015 = [
         map: 'otradnoe_ba_2015',
         start: 'BA',
         owner: 'BKTV'
+    },
+    {
+        id: 'SPB_20150524_1',
+        date: '2015-05-24',
+        place: 'Лемболово',
+        name: 'Слингорогейн',
+        type: 'ROGAINE',
+        video: ['https://www.youtube.com/watch?v=X6Uqse_T99M','https://www.youtube.com/watch?v=utaVbBDK6bk']
     },
     {
         id: 'SPB_20150530_1',
@@ -671,6 +703,11 @@ let events2015 = [
         place: 'Боровинка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/150621-27/150622_rezKKP.html',
+        video: [
+            'https://www.youtube.com/watch?v=GfXet2TgsEg',
+            'https://www.youtube.com/watch?v=ohlfS18TFBE',
+            'https://www.youtube.com/watch?v=hxVsBq4xS1w'
+        ],
         start: 'KKP',
         o_site: '150621-27'
     },
@@ -683,6 +720,7 @@ let events2015 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=481',
         res: 'https://o-site.spb.ru/_races/15062628/150626_RES.htm',
+        video: 'https://www.youtube.com/watch?v=vGTwNTZuqT4',
         start: 'MMS',
         o_site: '15062628'
     },
@@ -1130,6 +1168,7 @@ let events2015 = [
         name: 'Осенние скалы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/15102425/15102425_res_official_no_stamp.zip',
+        video: 'https://www.youtube.com/watch?v=gugzOn5M-08',
         o_site: '15102425'
     },
     {
@@ -1184,6 +1223,14 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/151115/151115_rezshtr.htm',
         start: 'ROGAINE_110',
         o_site: '151115'
+    },
+    {
+        id: 'SPB_20151118_1',
+        date: '2015-11-18',
+        place: 'ДТДиМ Колпинского р-на',
+        name: ' П-во Колпинского р-на по ориентированию в закрытых помещениях',
+        type: 'INDOOR',
+        video: 'https://www.youtube.com/watch?v=-bbjjfDE_t0'
     },
     {
         id: 'SPB_20151121_1',

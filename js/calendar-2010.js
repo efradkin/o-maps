@@ -496,6 +496,7 @@ let events2010 = [
         name: 'Чемпионат СПб, эстафеты',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100606/100606_res.htm',
+        video: ['https://www.youtube.com/watch?v=j_KTc8cVk-o','https://www.youtube.com/watch?v=jFCgJDqyx9s'],
         owner: 'SFSO_SPB',
         o_site: '100606'
     },
@@ -1006,6 +1007,7 @@ let events2010 = [
         name: 'Новогодняя Эстафета',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101226/101226_res.htm',
+        video: 'https://www.youtube.com/watch?v=eJ6WGTbmy98',
         o_site: '101226'
     },
 ];

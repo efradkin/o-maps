@@ -157,6 +157,7 @@ let events2023 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230213/230213_Vseros_res.pdf',
         photo: 'http://vk.com/album-30365190_291308622',
+        video: 'https://www.youtube.com/watch?v=46IuiG56HUc',
         o_site: '230213'
     },
     {
@@ -167,6 +168,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1496',
         res: 'http://orgeo.ru/live/#/26782/1',
+        video: 'https://www.youtube.com/watch?v=cO2KgOjGuS4',
         o_site: '230219'
     },
     {
@@ -253,6 +255,7 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/24205',
         owner: 'SFSO_SPB',
         o_site: '230308_st',
+        video: 'https://www.youtube.com/watch?v=roLL6mhHFrQ',
         strava: 8679956622,
         reskeep: 582
     },
@@ -409,6 +412,15 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/28147',
         info: 'Открытие летнего сезона Федерации спортивного ориентирования Санкт-Петербурга. Официальный старт с присвоением разрядов',
         o_site: '230416'
+    },
+    {
+        id: 'SPB_20230418_1',
+        date: '2023-04-18',
+        place: 'шк №87',
+        name: 'Ориентирование в зале',
+        type: 'INDOOR',
+        fmt: 'лабиринт',
+        video: 'https://www.youtube.com/watch?v=2wiq8JQCGMo'
     },
     {
         id: 'SPB_20230422_1',
@@ -831,7 +843,21 @@ let events2023 = [
             'https://www.youtube.com/watch?v=DYPQbahZwtc',
             'https://www.youtube.com/watch?v=b8r-CSOze84',
             'https://www.youtube.com/watch?v=lOyollFirFI',
-            'https://www.youtube.com/watch?v=DxbF-lfXJL8'
+            'https://www.youtube.com/watch?v=DxbF-lfXJL8',
+            'https://www.youtube.com/watch?v=HV-j7omktaE',
+            'https://www.youtube.com/watch?v=y7GxLpH4J98',
+            'https://www.youtube.com/watch?v=YaSLDLs0X60',
+            'https://www.youtube.com/watch?v=ovKzw06a5DY',
+            'https://www.youtube.com/watch?v=LZLAnVFYMfw',
+            'https://www.youtube.com/watch?v=hmkOtR96THs',
+            'https://www.youtube.com/watch?v=7kKVndzkFQM',
+            'https://www.youtube.com/watch?v=GDZYtaUk6G0',
+            'https://www.youtube.com/watch?v=c5_JqAqfrGM',
+            'https://www.youtube.com/watch?v=97-FYsFlI7U',
+            'https://www.youtube.com/watch?v=pc6vf-fWUzw',
+            'https://www.youtube.com/watch?v=5o5AytYd3q4',
+            'https://www.youtube.com/watch?v=4RBVnvbGbjc',
+            'https://www.youtube.com/watch?v=DROakVa3320'
         ],
         strava: [9321298380,9321303067,9321307758,9321312836],
         reskeep: [599, 600, 601, 602]
@@ -991,6 +1017,14 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/23072223/230822_SPLIT.html',
         o_site: '23072223',
         reskeep: [611, 612]
+    },
+    {
+        id: 'SPB_20230729_1',
+        date: '2023-07-29',
+        place: 'Мичуринское',
+        name: 'Кубок Белых Ночей',
+        type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=k2jkgl6TBPk'
     },
     {
         id: 'SPB_20230722_2',

@@ -227,6 +227,7 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=992',
         res: 'https://o-site.spb.ru/_races/190310/190310_off_team_rez.pdf',
+        video: 'https://www.youtube.com/watch?v=bRNKanoYHxM',
         info: 'Чемпионат Санкт-Петербурга среди студентов образовательных организаций высшего образования по спортивному ориентированию (лыжные дисциплины).',
         owner: 'SFSO_SPB',
         o_site: '190310'
@@ -363,6 +364,14 @@ let events2019 = [
         o_site: '190421'
     },
     {
+        id: 'SPB_20190421_2',
+        date: '2019-04-21',
+        place: 'Павловск, сад Миранда',
+        name: 'Спартакиада семейных команд Пушкинского р-на',
+        type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=AKCINghaDPE'
+    },
+    {
         id: 'SPB_20190424_1',
         date: '2019-04-24',
         place: 'ГБОУ СОШ №638, Павловск, ул Березовая, 13А',
@@ -414,7 +423,11 @@ let events2019 = [
         reg: 'http://sportident.ru/entry/event_info.php?id=4208',
         res: 'https://o-site.spb.ru/_races/190427_V3/190427_V3_sp_rez.htm',
         info: 'В связи с неблагоприятной снежной обстановкой, ночной старт перенесен в район Батарейной горы',
-        video: 'https://www.youtube.com/watch?v=rnk_WpK7qKs',
+        video: [
+            'https://www.youtube.com/watch?v=rnk_WpK7qKs',
+            'https://www.youtube.com/watch?v=y8Nvik1ZJOU',
+            'https://www.youtube.com/watch?v=K9E24xo18mo'
+        ],
         owner: 'VYBORG',
         o_site: '190427_V3',
         reskeep: [116, 117, 115]
@@ -810,7 +823,9 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190616-21_KKP/20190617_kkp_1_rez.htm',
         video: [
             'http://northernwind.spb.ru/videosplit/2019/kkp/day1',
-            'http://northernwind.spb.ru/videosplit/2019/kkp/day2'
+            'http://northernwind.spb.ru/videosplit/2019/kkp/day2',
+            'https://www.youtube.com/watch?v=xHGuA_XHXLc',
+            'https://www.youtube.com/watch?v=ENZuiWbswwE'
         ],
         start: 'KKP',
         o_site: '190616-21_KKP',
@@ -834,6 +849,7 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/9132',
         res: 'https://o-site.spb.ru/_races/190623MMS/res1.htm',
+        video: 'https://www.youtube.com/watch?v=0Hr9Tw0Cv5M',
         start: 'MMS',
         o_site: '190623MMS',
         reskeep: [171, 172, 173]
@@ -870,6 +886,7 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1027',
         res: 'https://o-site.spb.ru/_races/190628/res1.htm',
+        video: 'https://www.youtube.com/watch?v=0Hr9Tw0Cv5M',
         info: 'Организаторы: Клуб спортивного ориентирования «Белые Ночи». При поддержке «Региональной спортивной федерации спортивного ориентирования Ленинградской области».',
         owner: 'WN',
         start: 'WN',

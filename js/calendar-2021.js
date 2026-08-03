@@ -138,7 +138,11 @@ let events2021 = [
         place: 'Приозерский район',
         name: 'Женсть-рогейн (приключенческий)',
         type: ['ROGAINE','SKI'],
-        video: ['https://www.youtube.com/watch?v=Xtj91E15Bv4','https://www.youtube.com/watch?v=U1H3SN6_myA'],
+        video: [
+            'https://www.youtube.com/watch?v=Xtj91E15Bv4',
+            'https://www.youtube.com/watch?v=U1H3SN6_myA',
+            'https://www.youtube.com/watch?v=Xgb2caVfe0k'
+        ],
         fmt: '6, 3',
         link: 'https://vk.com/zhenst_rogaine'
     },
@@ -210,6 +214,7 @@ let events2021 = [
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/info/15100',
         info: 'Рогейн в форматах: 3 и 5 часов, бег или лыжи на выбор. Команда организаторов #hardadventure; электронная отметка SFR; камера хранения; теплые раздевалки; железная медаль (за доп.плату); профессиональные фотографии.',
+        video: 'https://www.youtube.com/watch?v=SN59U-DJNTs',
         start: 'HARD',
         o_site: '210221_hard'
     },
@@ -266,7 +271,7 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '6',
         link: 'https://vk.com/event166397868',
-        video: 'https://www.youtube.com/watch?v=PPhP6GO3Pqs'
+        video: ['https://www.youtube.com/watch?v=PPhP6GO3Pqs','https://www.youtube.com/watch?v=LG1pnTlwcdo']
     },
     {
         id: 'SPB_20210307_1',
@@ -979,7 +984,8 @@ let events2021 = [
             'https://www.youtube.com/watch?v=3EzV2Y0fy8g',
             'https://www.youtube.com/watch?v=IhcGk_yX2Jc',
             'https://www.youtube.com/watch?v=OLftfHGY-Xw',
-            'https://www.youtube.com/watch?v=QBYO0G-YnJ0'
+            'https://www.youtube.com/watch?v=QBYO0G-YnJ0',
+            'https://www.youtube.com/watch?v=vnw0VrvQi1k'
         ],
         start: 'KKP',
         o_site: '210612-18_KKP',
@@ -1944,6 +1950,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1327',
         res: 'https://o-site.spb.ru/_races/211219_bn/211219_res.htm',
+        video: 'https://www.youtube.com/watch?v=-Cpzt5nNNhE',
         o_site: '211219_bn',
         reskeep: 506,
         strava: 6402242041

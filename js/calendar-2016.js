@@ -47,6 +47,7 @@ let events2016 = [
         name: 'XXXVII Зимние соревнования на приз газеты Всеволожские вести',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16012324/160123_res1.html',
+        video: 'https://www.youtube.com/watch?v=VLLKlFkLhDs',
         start: 'VSEV_VESTI',
         o_site: '16012324'
     },
@@ -295,6 +296,7 @@ let events2016 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/160420/160420_res_lab.pdf',
         photo: 'http://yadi.sk/d/t1heyoD3rGitG',
+        video: 'https://www.youtube.com/watch?v=0qdrmgTm21E',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
         owner: 'SFSO_SPB',
         o_site: '160420'
@@ -485,6 +487,7 @@ let events2016 = [
         place: 'Заходское',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/160423/TA210516_res.htm',
+        video: 'https://www.youtube.com/watch?v=dqkLuHNkbiw',
         o_site: '160423'
     },
     {
@@ -550,6 +553,7 @@ let events2016 = [
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2016-1.php',
         photo: 'https://vk.com/album-30311715_230913976',
+        video: 'https://www.youtube.com/watch?v=RC114NyDPPA',
         map: 'melnikovo_ba_2016',
         start: 'BA',
         owner: 'BKTV'
@@ -564,6 +568,14 @@ let events2016 = [
         owner: 'SFSO_SPB',
         o_site: '160529',
         reskeep: 244
+    },
+    {
+        id: 'SPB_20160529_2',
+        date: '2016-05-29',
+        place: 'Лемболово',
+        name: 'Слингорогейн',
+        type: 'ROGAINE',
+        video: 'https://www.youtube.com/watch?v=s1qIQFxYzyQ'
     },
     {
         id: 'SPB_20160604_1',
@@ -618,7 +630,12 @@ let events2016 = [
         place: 'Выборг',
         type: 'ORIENT',
         res: 'http://moscompass.ru/news/2016/2016062021.htm',
-        video: 'https://www.youtube.com/watch?v=3npql35PxRA',
+        video: [
+            'https://www.youtube.com/watch?v=ccDgYo9KzNg',
+            'https://www.youtube.com/watch?v=rnbF6Eb1DhE',
+            'https://www.youtube.com/watch?v=p0Vc95g14yo',
+            'https://www.youtube.com/watch?v=3npql35PxRA'
+        ],
         start: 'KKP',
         o_site: '160619-24'
     },
@@ -630,6 +647,10 @@ let events2016 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=594',
         res: 'https://o-site.spb.ru/_races/20160624/160626_res.htm',
+        video: [
+            'https://www.youtube.com/watch?v=83b-nz750Ho',
+            'https://www.youtube.com/watch?v=sEFfuhMcC9M'
+        ],
         start: 'MMS',
         o_site: '20160624',
         endDate: '2016-06-26'
@@ -705,7 +726,7 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=620',
         res: 'https://o-site.spb.ru/_races/160731/160730_res.htm',
         photo: 'http://new.vk.com/album-33130354_234334134',
-        video: 'https://www.youtube.com/watch?v=Y7DoWN7Uz_A',
+        video: ['https://www.youtube.com/watch?v=E11GBoQ_QXE','https://www.youtube.com/watch?v=Y7DoWN7Uz_A'],
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-4» мультирогейн в формате 4 часа, «MR-2» мультирогейн в формате 2 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
         fmt: 'рогейн 4 часа, 2 часа, детский зачёт',
         start: 'RFAR',
@@ -1047,6 +1068,7 @@ let events2016 = [
         place: 'Красный Холм',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16101516/161015_SPLIT.htm',
+        video: 'https://www.youtube.com/watch?v=PZosqAlsbaw',
         owner: 'VYBORG',
         o_site: '16101516'
     },
@@ -1192,6 +1214,7 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/161112R/161112R_res-1.pdf',
         fmt: '7/3 часа БЕГ, 6 часов ВЕЛО',
         link: 'http://gornycross.narod.ru',
+        video: 'https://www.youtube.com/watch?v=3v-7bAmZ-mA',
         start: 'GORNY_CROSS',
         o_site: '161112R'
     },

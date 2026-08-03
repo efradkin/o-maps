@@ -1266,7 +1266,8 @@ let events2025 = [
             'https://vkvideo.ru/video-93257360_456239280',
             'https://vkvideo.ru/video-93257360_456239281',
             'https://www.youtube.com/watch?v=Hd7rUUf1vDg',
-            'https://www.youtube.com/watch?v=YzshhewPboE'
+            'https://www.youtube.com/watch?v=YzshhewPboE',
+            'https://www.youtube.com/watch?v=VLJFZh0gfLI'
         ],
         start: 'KKP',
         map: 'kkp_prudy_2023_06_19',
@@ -2265,7 +2266,8 @@ let events2025 = [
             'http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day3/',
             'http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day3/festival',
             'https://rutube.ru/video/797a428cd6245962c61c9385092ac1b3/',
-            'https://rutube.ru/video/ccbae3f2817a06db737c95a340823929/'
+            'https://rutube.ru/video/ccbae3f2817a06db737c95a340823929/',
+            'https://www.youtube.com/watch?v=Cga7gAcCAWY'
         ],
         strava: 16040676104,
         me: 'Фит'
@@ -2831,6 +2833,16 @@ let events2025 = [
         me: 'МА'
     },
     {
+        id: 'SPB_20251116_3',
+        date: '2025-11-16',
+        place: 'Сосновка',
+        name: 'Эстафета',
+        type: 'ORIENT',
+        fmt: 'эстафета',
+        map: 'sosnovka_2024',
+        video: 'https://www.youtube.com/watch?v=5qXERyz-lL0'
+    },
+    {
         id: 'SPB_20251122_1',
         date: '2025-11-22',
         place: 'Пухтолова гора',
@@ -2903,6 +2915,7 @@ let events2025 = [
             'МЭ,18,20': 23920,
             'ЖЭ,20': 23919
         },
+        video: 'https://www.youtube.com/watch?v=U24vUagKEf8',
         map: 'poljustrovo_2023'
     },
     {

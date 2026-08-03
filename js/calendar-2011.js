@@ -974,6 +974,7 @@ let events2011 = [
         name: 'Всеволожская тропа 2012 2 этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111218/111218_res2.PDF',
+        video: 'https://www.youtube.com/watch?v=5--a9ZZH1Lw',
         o_site: '111218'
     },
     {

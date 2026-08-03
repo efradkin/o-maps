@@ -266,6 +266,7 @@ let events2014 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140416/140416_res_spr.htm',
         photo: 'https://o-site.spb.ru/_races/140416/140416_foto_res.htm',
+        video: 'https://www.youtube.com/watch?v=7QD9lAYFyUg',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке ОАО "Фацер"',
         owner: 'SFSO_SPB',
         o_site: '140416'
@@ -973,6 +974,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-entry',
         res: 'https://o-site.spb.ru/_races/141123/141123_res.pdf',
+        video: 'https://www.youtube.com/watch?v=Ja4sI7qFx74',
         owner: 'SFSO_SPB',
         o_site: '141123'
     },

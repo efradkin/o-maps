@@ -64,7 +64,7 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-24/registration.html',
         res: 'https://o-site.spb.ru/_races/240114r/240114_res.pdf',
-        video: 'https://www.youtube.com/watch?v=U4CJGwLH0kE',
+        video: ['https://www.youtube.com/watch?v=U4CJGwLH0kE','https://www.youtube.com/watch?v=4fWeVcGgCbU'],
         fmt: 'рогейн 4 часа. Разрешено участие на лыжах, бегом или на снегоступах',
         start: 'MULTSPORT',
         o_site: '240114r'
@@ -661,7 +661,12 @@ let events2024 = [
             'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d3',
             'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d2',
             'http://northernwind.spb.ru/videosplit/2024/chRus_Sprint/d1',
-            'https://www.youtube.com/watch?v=9xNBjmMxAwc'
+            'https://www.youtube.com/watch?v=9xNBjmMxAwc',
+            'https://www.youtube.com/watch?v=D_C04H0cFDo',
+            'https://www.youtube.com/watch?v=C5EGz640vRQ',
+            'https://www.youtube.com/watch?v=0PaPIBVTNBk',
+            'https://www.youtube.com/watch?v=FZ-jCvf9Gq8',
+            'https://www.youtube.com/watch?v=uN4eMQvTnKk'
         ],
         owner: 'SFSO_SPB',
         o_site: '240519_russia',
@@ -875,7 +880,10 @@ let events2024 = [
             'https://www.youtube.com/watch?v=nXHp0Gs2TgU',
             'https://www.youtube.com/watch?v=1MeOTIWl82I',
             'https://www.youtube.com/watch?v=NnpP-613ZRY',
-            'https://www.youtube.com/watch?v=CGn7ziD_m70'
+            'https://www.youtube.com/watch?v=CGn7ziD_m70',
+            'https://www.youtube.com/watch?v=UQ0Kf481ctI',
+            'https://www.youtube.com/watch?v=zZMpJjDXCIU',
+            'https://www.youtube.com/watch?v=jKELcvLdJzA'
         ],
         strava: 11661372372,
         start: 'KKP',
@@ -920,6 +928,9 @@ let events2024 = [
             'https://vkvideo.ru/video-93257360_456239251',
             'https://rutube.ru/video/454b701d752663a0460ba82012cb8313/',
             'https://rutube.ru/video/f1a0fb311cd42b02cbafad0792993efc/',
+            'https://www.youtube.com/watch?v=AvwPOqkj22k',
+            'https://www.youtube.com/watch?v=CCWKHF2m2Ns',
+            'https://www.youtube.com/watch?v=av3s0YPh2eg'
         ],
         start: 'KKP',
         o_site: '240615-20_KKP',
@@ -1018,6 +1029,7 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://reg.o-time.ru/start/24263',
         fmt: '6, 10 и 16 часов - байдарки. SUP - 4 часа.',
+        video: 'https://www.youtube.com/watch?v=1PSYAyI9GIQ',
         start: 'HARD',
         o_site: '240630r'
     },
