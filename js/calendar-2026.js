@@ -2071,7 +2071,8 @@ let events2026 = [
         date: '2026-08-05',
         name: 'Физкультурное мероприятие по ориентированию',
         place: 'парк Интернационалистов',
-        link: 'https://vk.ru/wall-30686281_24661',
+        link: 'https://vk.ru/wall-30686281_24816',
+        reg: 'https://forms.yandex.ru/u/6a6b0270d046884df21d73b5/',
         type: 'ORIENT',
         map: 'internatsionalistov_2021',
     },
@@ -2108,6 +2109,17 @@ let events2026 = [
         info: 'Три дистанции простого уровня сложности 150-250м. Бесплатно, без предварительной регистрации.',
         reg: 'https://orgeo.ru/event/54223',
         owner: 'FENIX'
+    },
+    {
+        id: 'SPB_20260808_4',
+        date: '2026-08-08',
+        name: 'Тренировочный старт Выборг',
+        place: 'Выборг, Сайменские дачи',
+        o_site: '260808_V',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1753',
+        type: 'ORIENT',
+        map: 'vyborg_saymenskie_dachi_2013',
+        owner: 'VYBORG'
     },
     {
         id: 'SPB_20260809_1',
