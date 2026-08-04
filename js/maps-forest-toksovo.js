@@ -473,7 +473,7 @@ let toksovoMaps = [
         name: 'Куялово',
         year: 2012,
         url: './maps/forest/toksovo/kujalovo_2012.webp',
-        link: './original_maps/forest/toksovo/kujalovo_2012_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/kujalovo_2012_omaps.jpg','./original_maps/forest/toksovo/kujalovo_2012_omaps.ocd'],
         bounds: [[60.1435131, 30.4924679], [60.1415902, 30.5290318], [60.1183147, 30.487833]],
         author: 'RYLOV_V',
         owner: 'SHEIN'
@@ -710,7 +710,7 @@ let toksovoMaps = [
         name: 'Лесколово',
         year: 2015,
         url: './maps/forest/toksovo/leskolovo_2015.webp',
-        link: './original_maps/forest/toksovo/leskolovo_2015_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/leskolovo_2015_omaps.jpg','./original_maps/forest/toksovo/leskolovo_2015_omaps.ocd'],
         bounds: [[60.2752703, 30.4560757], [60.2735893, 30.4825115], [60.2656083, 30.4534149]],
         author: 'DBRTSV_V',
         owner: 'SHEIN'
@@ -743,12 +743,13 @@ let toksovoMaps = [
         owner: 'SHRNN'
     },
     {
-        name: 'Мистолово',
+        name: 'Энколово, Мистолово',
         year: 2006,
         url: './maps/forest/toksovo/mistolovo_2006.webp',
         link: ['./original_maps/forest/toksovo/mistolovo_2006_omaps.jpg','./original_maps/forest/toksovo/mistolovo_2006_omaps.ocd'],
         bounds: [[60.1178015, 30.388484], [60.1153853, 30.4246616], [60.1013339, 30.3835058]],
-        author: 'SHRNN'
+        author: 'SHRNN',
+        owner: 'SHRNN'
     },
     {
         name: 'Охта-Парк',

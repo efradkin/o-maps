@@ -170,6 +170,7 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/280.html'
     },
     IVNV_A: { name: 'Иванов А.' },
+    IVNV_M: { name: 'Иванов Михаил' },
     IVNV_N: { name: 'Иванов Николай' },
     IVNV_P: { name: 'Иванов Павел' },
     IVNV_V: {

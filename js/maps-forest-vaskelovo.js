@@ -380,11 +380,13 @@ let vaskelovoMaps = [
     },
     {
         name: 'Стеклянный',
-        year: 1995,
+        year: 1996,
         url: './maps/forest/vaskelovo/stekljanny_1996.webp',
-        link: './original_maps/forest/vaskelovo/stekljanny_1996_omaps.jpg',
+        link: ['./original_maps/forest/vaskelovo/stekljanny_1996_omaps.jpg','./original_maps/forest/vaskelovo/stekljanny_1996_omaps.ocd'],
         bounds: [[60.3764541, 30.2295685], [60.3710231, 30.2883625], [60.3517103, 30.2189255]],
-        author: 'SCHV_V'
+        author: 'SCHV_V',
+        editor: 'FDRV_L',
+        owner: 'SHEIN'
     },
     {
         name: 'Стеклянный',
@@ -426,7 +428,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'Лемболово',
-        year: 2007,
+        year: 1997,
         area: 26,
         url: './maps/forest/vaskelovo/lembolovo_2007.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_2007.pdf',
@@ -570,6 +572,15 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_2001_omaps.jpg',
         bounds: [[60.4706307, 30.2596092], [60.4647923, 30.3325653], [60.4451118, 30.2557468]],
         author: ['VSLVSKY','BRDR']
+    },
+    {
+        name: 'Лемболово',
+        year: 2000,
+        url: './maps/forest/vaskelovo/lembolovo_2000.webp',
+        link: ['./original_maps/forest/vaskelovo/lembolovo_2000_omaps.gif','./original_maps/forest/vaskelovo/lembolovo_2000_omaps.ocd'],
+        bounds: [[60.4449848, 30.2554893], [60.4388877, 30.3472424], [60.3977450, 30.2435589]],
+        author: ['DBRTSV_V','CHGRVSKY_Y'],
+        editor: ['ILVS','FDRV_L','IVNV_M']
     },
     {
         name: 'Лемболово',

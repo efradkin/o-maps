@@ -262,36 +262,40 @@ let vsevolozhskMaps = [
         owner: 'RYLOV_V'
     },
     {
-        name: 'Приютино',
+        name: 'Приютино, СНТ Дубки',
+        year: 2016,
         url: './maps/forest/vsevolozhsk/prijutino_2016.webp',
-        link: './original_maps/forest/vsevolozhsk/prijutino_2016_omaps.jpg',
+        link: ['./original_maps/forest/vsevolozhsk/prijutino_2016_omaps.jpg','./original_maps/forest/vsevolozhsk/prijutino_2016_omaps.ocd'],
         bounds: [[60.0117514, 30.5809164], [60.0121589, 30.5972242], [60.0019687, 30.5827188]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
     {
         name: 'Проба',
+        year: 2008,
         url: './maps/forest/vsevolozhsk/proba.webp',
-        link: './original_maps/forest/vsevolozhsk/proba_omaps.jpg',
+        link: ['./original_maps/forest/vsevolozhsk/proba_omaps.jpg','./original_maps/forest/vsevolozhsk/proba_2008_omaps.ocd'],
         bounds: [[60.1154067, 30.7508183], [60.1133967, 30.7885408], [60.0985314, 30.74687]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V'
     },
     {
         name: 'Рахья',
-        url: './maps/forest/vsevolozhsk/rakhja.webp',
+        year: 2017,
+        url: './maps/forest/vsevolozhsk/rakhja_2017.webp',
         link: './original_maps/forest/vsevolozhsk/rakhja_omaps.jpg',
         bounds: [[60.0987881, 30.8463907], [60.0957287, 30.8911085], [60.0877686, 30.8431292]],
-        author: 'RYLOV_V',
+        author: ['RYLOV_V','PKHMV'],
         owner: 'RYLOV_V'
     },
     {
         name: 'Рахья',
         year: 2007,
         url: './maps/forest/vsevolozhsk/rakhja_south_2007.webp',
-        link: './original_maps/forest/vsevolozhsk/rakhja_south_2007_omaps.jpg',
+        link: ['./original_maps/forest/vsevolozhsk/rakhja_south_2007_omaps.jpg','./original_maps/forest/vsevolozhsk/rakhja_south_2007_omaps.ocd'],
         bounds: [[60.0915777, 30.8480644], [60.089181, 30.8798218], [60.0823324, 30.8454466]],
-        author: ['RYLOV_V','PKHMV']
+        author: 'PKHMV',
+        editor: ['FDRV_L','SHEIN']
     },
     {
         name: 'Разметелево',

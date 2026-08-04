@@ -2185,9 +2185,10 @@ let cityMaps = [
         name: 'Университет физкультуры и спорта им.Лесгафта',
         year: 2002,
         url: './maps/city/lesgafta_2002.webp',
-        link: './original_maps/city/lesgafta_2002_omaps.jpg',
+        link: ['./original_maps/city/lesgafta_2002_omaps.jpg','./original_maps/city/lesgafta_2002_omaps.ocd'],
         bounds: [[59.9276247, 30.284586], [59.9289687, 30.2900577], [59.9245924, 30.2874398]],
         author: 'SHEIN',
+        owner: 'SHEIN',
         type: ['CITY']
     },
     {
