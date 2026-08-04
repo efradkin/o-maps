@@ -1,8 +1,8 @@
 /* =========================================================================
    O-Maps · theme.css — слой визуального обновления
    Подключается ПОСЛЕ main.css:
-       <link rel="stylesheet" href="css/main.css?v=12"/>
-       <link rel="stylesheet" href="css/theme.css?v=1"/>
+       <link rel="stylesheet" href="css/main.css"/>
+       <link rel="stylesheet" href="css/theme.css"/>
    Ничего не удаляет из main.css — только переопределяет.
    Чтобы откатить всё — уберите одну строку <link>.
    Каждый блок помечен [N], можно отключать по отдельности.
