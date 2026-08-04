@@ -459,6 +459,13 @@ body.calendar-body .o-main-table .orient  { background-color: var(--o-row-orient
 body.calendar-body .o-main-table .rogaine { background-color: var(--o-row-rogaine); }
 body.calendar-body .o-main-table .water   { background-color: var(--o-row-water); }
 
+/* Прокрутка к текущим стартам (scrollIntoView в calendar.js) ставит строку
+   к верху скролл-контейнера, но там «прилипшая» шапка thead — она перекрывала
+   бы первую .current строку. scroll-padding-top отодвигает цель на высоту
+   шапки. Значение с запасом: двухстрочный заголовок при нынешнем padding ~70px.
+   Свойство задаётся на самом скролл-контейнере (.o-sheet-wrapper). */
+body.calendar-body .o-sheet-wrapper { scroll-padding-top: 76px; }
+
 body.calendar-body .o-main-table td {
     border-top: 0;
     border-bottom: 1px solid var(--o-border-soft);
