@@ -1,0 +1,859 @@
+/* =========================================================================
+   O-Maps · theme.css — слой визуального обновления
+   Подключается ПОСЛЕ main.css:
+       <link rel="stylesheet" href="css/main.css?v=12"/>
+       <link rel="stylesheet" href="css/theme.css?v=1"/>
+   Ничего не удаляет из main.css — только переопределяет.
+   Чтобы откатить всё — уберите одну строку <link>.
+   Каждый блок помечен [N], можно отключать по отдельности.
+   ========================================================================= */
+
+/* ------------------------------------------------------------------ [0]
+   ТОКЕНЫ. Единственное место, где меняются цвета всего сайта.
+   ------------------------------------------------------------------ */
+:root {
+    /* поверхности */
+    --o-bg:          #f4f6f1;   /* фон страницы: почти белый с зелёным подтоном */
+    --o-surface:     #ffffff;   /* карточки, секции, строки таблиц */
+    --o-surface-2:   #eaefe4;   /* мягкая подложка: шапки, пилюли, hover */
+    --o-border:      #dde2d6;
+    --o-border-soft: #e9ede4;
+
+    /* текст */
+    --o-text:        #1e2620;
+    --o-text-muted:  #6a7468;
+    --o-text-faint:  #98a294;
+
+    /* акцент — ваш darkolivegreen, но чище и контрастнее */
+    --o-accent:      #4a7c4e;
+    --o-accent-dark: #37613b;
+    --o-accent-soft: #e7f0e5;
+
+    /* типы стартов в календаре */
+    --o-row-orient:  #f3faf4;
+    --o-row-rogaine: #fdf8ec;
+    --o-row-water:   #f0f7fd;
+    --o-bar-orient:  #4f9a63;
+    --o-bar-rogaine: #d09a3c;
+    --o-bar-water:   #4b8ec4;
+
+    /* геометрия и тени */
+    --o-r:      12px;
+    --o-r-sm:   8px;
+    --o-r-xs:   6px;
+    --o-sh-1:   0 1px 2px rgba(24,36,24,.06), 0 2px 6px rgba(24,36,24,.05);
+    --o-sh-2:   0 4px 12px rgba(24,36,24,.10), 0 12px 28px rgba(24,36,24,.07);
+    --o-sh-pop: 0 8px 24px rgba(24,36,24,.14), 0 20px 48px rgba(24,36,24,.10);
+    --o-ring:   0 0 0 3px rgba(74,124,78,.22);
+}
+
+/* ------------------------------------------------------------------ [1]
+   БАЗОВАЯ ТИПОГРАФИКА
+   Roboto уже локальный (css/fonts/roboto), веса 100–900 с кириллицей.
+   ------------------------------------------------------------------ */
+body {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    color: var(--o-text);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5 {
+    letter-spacing: -0.015em;   /* крупный текст всегда должен быть плотнее */
+    font-weight: 600;
+}
+body.index-body h1 { font-weight: 650; }
+
+/* Цифры одинаковой ширины — даты, счётчики, номера строк перестают «прыгать» */
+.o-main-table, #counter, .cal-year, .my-race,
+.o-sheet-roof-stat, .doc-date { font-variant-numeric: tabular-nums; }
+
+/* ------------------------------------------------------------------ [2]
+   ФОН СТРАНИЦ
+   Было: сплошная зелёная заливка #bddab1 — глазу не за что зацепиться.
+   Стало: светлый нейтральный фон, зелёный работает как акцент.
+   ------------------------------------------------------------------ */
+body.index-body,
+body.stat-body,
+body.integration-body { background-color: var(--o-bg); }
+
+/* лыжный календарь оставляем «холодным», но тоже осветляем */
+body.ski-bodi { background-color: #eef7f8; }
+
+/* ------------------------------------------------------------------ [3]
+   ССЫЛКИ
+   Было: жирные тёмно-синие ссылки внутри абзацев — текст рябит.
+   Стало: акцентный зелёный, вес 500, подчёркивание появляется на hover.
+   ------------------------------------------------------------------ */
+a, a:active, a:focus { color: var(--o-accent); }
+a:hover { color: var(--o-accent-dark); }
+
+body.help-body section a {
+    font-weight: 500;                    /* было bold */
+    text-underline-offset: 3px;
+    text-decoration-color: rgba(74,124,78,.35);
+    text-decoration-thickness: 1px;
+    transition: color .15s ease, text-decoration-color .15s ease;
+}
+body.help-body section a:hover {
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+}
+
+/* внешние ссылки — тем же цветом, без «lowercase-сюрприза» в весе */
+.ext-link { font-weight: 500; }
+
+:where(a, button, select, input, summary):focus-visible {
+    outline: 2px solid var(--o-accent);
+    outline-offset: 2px;
+    border-radius: var(--o-r-xs);
+}
+
+/* ------------------------------------------------------------------ [4]
+   СЕКЦИИ-КАРТОЧКИ (help-body section)
+   Было: beige + серая рамка. Стало: белая карточка с мягкой тенью.
+   ------------------------------------------------------------------ */
+body.help-body section {
+    background-color: var(--o-surface);
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r);
+    box-shadow: var(--o-sh-1);
+    padding: 24px 28px;
+    margin: 20px 0;
+}
+body.help-body section p:last-child { margin-bottom: 0; }
+
+/* Длина строки. Комфортный предел — 45–75 знаков, дальше глаз теряет начало
+   следующей. Ограничиваем контейнер целиком, а не абзацы: тогда одну и ту же
+   ширину получают и <small>, и списки, и вкладки, а внутри секции ничего не
+   поджимается — плавающие .help-figure остаются на полной ширине блока. */
+body.help-body .container { max-width: 1180px; }
+body.integration-body .container { margin-inline: auto; }
+
+/* предупреждения (⚠️) — визуально отделить от основного текста */
+body.help-body section:has(> small) {
+    background: #fffdf4;
+    border-color: #ecdfb8;
+    box-shadow: none;
+}
+body.help-body section small { color: #6b6450; line-height: 1.5; }
+
+/* ------------------------------------------------------------------ [5]
+   ПЛИТКИ РЕГИОНОВ (index)
+   Было: 3px darkolivegreen, height 180px, без реакции на курсор.
+   Стало: аккуратная карточка, тень, подъём при наведении.
+
+   Раскладка: восемь плиток лежат в одном Bootstrap-ряду .row.g-4 как равные
+   .col. При нехватке ширины восьмая («Все вместе») переносилась вниз и,
+   оставшись одна в ряду, растягивалась во всю строку. Переводим ряд на
+   CSS Grid с фиксированным числом колонок — тогда все плитки одной ширины,
+   а неполный последний ряд не растягивает одинокий элемент. */
+body.index-body nav .row.g-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin: 0;
+}
+body.index-body nav .row.g-4 > .col {
+    width: auto;          /* сбрасываем флексовую ширину бутстраповского .col */
+    max-width: none;
+    flex: none;
+    padding: 0;
+}
+
+@media (min-width: 1200px) {
+    /* на широком экране все восемь встают в один ряд */
+    body.index-body nav .row.g-4 { grid-template-columns: repeat(8, 1fr); }
+}
+@media (max-width: 700px) {
+    body.index-body nav .row.g-4 { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+}
+
+body.index-body .region-box {
+    height: 100%;
+    min-height: 172px;
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r);
+    background: var(--o-surface);
+    box-shadow: var(--o-sh-1);
+    overflow: hidden;
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+body.index-body .region-box:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--o-sh-2);
+    border-color: rgba(74,124,78,.45);
+}
+body.index-body .region-box a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    height: 100%;
+    padding: 10px;
+}
+body.index-body .region-box img {
+    max-width: 100%;
+    max-height: 92px;
+    object-fit: contain;
+    opacity: .82;
+    transition: opacity .18s ease;
+}
+body.index-body .region-box:hover img { opacity: 1; }
+body.index-body .region-box br { display: none; }
+body.index-body .region-box h5 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 550;
+    color: var(--o-text);
+    letter-spacing: -0.01em;
+}
+body.index-body .region-box:hover h5 { color: var(--o-accent-dark); }
+
+/* «Все вместе» — последняя плитка, выделяем как сводную */
+body.index-body nav .row > .col:last-child .region-box {
+    background: linear-gradient(160deg, var(--o-accent-soft), var(--o-surface) 70%);
+    border-color: rgba(74,124,78,.32);
+}
+
+/* строка «Новости / Контакты» */
+body.index-body .contacts-links { font-weight: 500; }
+body.index-body .contacts-links a { color: var(--o-text-muted); }
+body.index-body .contacts-links a:hover { color: var(--o-accent); }
+
+/* Зазор между строкой «Новости / Контакты / тема» и плитками регионов
+   был велик: к нижнему margin строки добавлялась высота колонок Bootstrap.
+   Прижимаем строку контактов ближе к плиткам. */
+body.index-body .contacts-links { margin-bottom: -4px; }
+
+/* Выравниваем содержимое обеих колонок по вертикальному центру.
+   Иначе «Новости» (просто ссылка) встают по верху, а «Контакты» рядом с
+   кнопкой темы (она задаёт высоту колонки) уезжают ниже. */
+body.index-body .contacts-links { align-items: center; }
+body.index-body .contacts-links > .col { display: flex; align-items: center; }
+body.index-body .contacts-links > .col.text-end { justify-content: flex-end; }
+
+/* ------------------------------------------------------------------ [6]
+   ВКЛАДКИ (Карты / Дистанции / Прочее)
+   Было: «папки» из бутстрапа. Стало: segmented control.
+   ------------------------------------------------------------------ */
+ul.nav.nav-tabs {
+    margin-left: 0;
+    display: inline-flex;
+    gap: 4px;
+    padding: 4px;
+    background: var(--o-surface-2);
+    border: 0;
+    border-radius: 10px;
+}
+ul.nav.nav-tabs .nav-item { margin: 0; }
+ul.nav.nav-tabs button.nav-link {
+    border: 0 !important;
+    border-radius: 7px;
+    padding: 8px 16px;
+    font-weight: 500;
+    color: var(--o-text-muted);
+    background: transparent;
+    transition: background .15s ease, color .15s ease, box-shadow .15s ease;
+}
+ul.nav.nav-tabs button.nav-link:hover { color: var(--o-text); }
+ul.nav.nav-tabs button.nav-link.active {
+    background: var(--o-surface);
+    color: var(--o-text);
+    box-shadow: var(--o-sh-1);
+}
+
+/* ------------------------------------------------------------------ [7]
+   ФОРМЫ: селекты и чекбоксы
+   Дефолтные контролы — главный признак «старого» сайта.
+   ------------------------------------------------------------------ */
+select, .header_selector {
+    appearance: none;
+    -webkit-appearance: none;
+    top: 0;
+    padding: 7px 32px 7px 12px;
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+    background-color: var(--o-surface);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%236a7468' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round' d='M1.5 1.75 6 6.25l4.5-4.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 11px center;
+    font: inherit;
+    font-size: 14px;
+    color: var(--o-text);
+    cursor: pointer;
+    box-shadow: var(--o-sh-1);
+    transition: border-color .15s ease, box-shadow .15s ease;
+}
+select:hover, .header_selector:hover { border-color: var(--o-accent); }
+select:focus, .header_selector:focus {
+    outline: none;
+    border-color: var(--o-accent);
+    box-shadow: var(--o-ring);
+}
+
+input[type="checkbox"], input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    margin: 0 2px;
+    border: 1.5px solid #b3bcae;
+    background: var(--o-surface);
+    display: inline-grid;
+    place-content: center;
+    vertical-align: -3px;
+    cursor: pointer;
+    transition: background .12s ease, border-color .12s ease, box-shadow .12s ease;
+}
+input[type="checkbox"] { border-radius: 5px; }
+input[type="radio"]    { border-radius: 50%; }
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 9px; height: 9px;
+    background: #fff;
+    transform: scale(0);
+    transition: transform .12s ease;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+input[type="radio"]::before {
+    content: "";
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    transform: scale(0);
+    transition: transform .12s ease;
+}
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+    background: var(--o-accent);
+    border-color: var(--o-accent);
+}
+input[type="checkbox"]:checked::before,
+input[type="radio"]:checked::before { transform: scale(1); }
+input[type="checkbox"]:hover, input[type="radio"]:hover { border-color: var(--o-accent); }
+input[type="checkbox"]:focus-visible, input[type="radio"]:focus-visible {
+    outline: none;
+    box-shadow: var(--o-ring);
+}
+
+.header_checkbox_container { font-weight: 500; color: var(--o-text-muted); }
+.header_checkbox_container label { cursor: pointer; }
+
+/* ------------------------------------------------------------------ [8]
+   КНОПКИ В ШАПКЕ (домой / карта / бургер / about)
+   Было: прямоугольники с border:1px solid black.
+   ------------------------------------------------------------------ */
+.stat-map-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--o-surface);
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+    padding: 7px 9px;
+    box-shadow: var(--o-sh-1);
+    transition: background .15s ease, border-color .15s ease,
+                box-shadow .15s ease, transform .15s ease;
+}
+.stat-map-link:hover {
+    background: var(--o-accent-soft);
+    border-color: rgba(74,124,78,.5);
+    box-shadow: var(--o-sh-2);
+    transform: translateY(-1px);
+}
+
+.dropdown-button-right {
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+    background: var(--o-surface);
+    box-shadow: var(--o-sh-1);
+    /* ВАЖНО: сюда нельзя overflow: hidden — выпадающее меню позиционируется
+       за границами кнопки и будет обрезано (меню по наведению «пропадёт»). */
+}
+.dropdown-button-right button {
+    border-radius: var(--o-r-sm) !important;
+    background: transparent;
+    border: 0;
+}
+.dropdown-button-right button:hover { background: var(--o-surface-2); }
+
+.about-button {
+    border: 1px solid var(--o-border);
+    background: var(--o-surface);
+    box-shadow: var(--o-sh-1);
+    transition: box-shadow .15s ease, border-color .15s ease;
+}
+.about-button:hover {
+    border-color: rgba(74,124,78,.5);
+    box-shadow: var(--o-sh-2);
+}
+
+.dropdown-menu {
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r);
+    box-shadow: var(--o-sh-pop);
+    padding: 6px;
+}
+.dropdown-menu .dropdown-item { border-radius: var(--o-r-xs); padding: 7px 12px; }
+.dropdown-menu .dropdown-item:hover { background: var(--o-surface-2); }
+.selected-menu-item { background-color: var(--o-accent-soft) !important; }
+
+/* ------------------------------------------------------------------ [9]
+   ТАБЛИЦЫ (общие: sheet, authors, books, tracks…)
+   ------------------------------------------------------------------ */
+.o-main-table {
+    background-color: transparent;
+    border: 0;
+    /* ВАЖНО: ни overflow, ни border-radius сюда добавлять нельзя.
+       overflow: hidden делает таблицу scroll-контейнером, и position: sticky
+       у thead th начинает «липнуть» к самой таблице, а не к .o-sheet-wrapper —
+       строка заголовков уезжает вместе со страницей.
+       Скругление углов без overflow всё равно не работает при
+       border-collapse: collapse, поэтому просто его не задаём. */
+}
+.o-main-table tr { background-color: var(--o-surface); }
+.o-main-table tr:nth-child(odd) { background-color: #fbfcfa; }
+.o-main-table tbody tr:hover > td { background-color: var(--o-accent-soft); }
+.o-main-table td, .o-main-table th { border-bottom: 1px solid var(--o-border-soft); }
+
+.o-main-table thead th,
+.o-sheet th,
+#calendar-floating-header th,
+#calendar-floating-header td {
+    background: var(--o-surface-2);
+    color: var(--o-text-muted);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    border-bottom: 1px solid var(--o-border);
+    box-shadow: inset 0 -1px 0 var(--o-border);
+}
+.o-sheet th.sortable:hover { color: var(--o-accent-dark); }
+.o-sheet th[data-order="desc"]::after,
+.o-sheet th[data-order="asc"]::after { color: var(--o-accent); margin-left: 4px; }
+
+#calendar-floating-header {
+    box-shadow: 0 4px 14px rgba(24,36,24,.14);
+    border-bottom: 1px solid var(--o-border);
+}
+
+/* ------------------------------------------------------------------ [10]
+   КАЛЕНДАРЬ — главное изменение
+   Было: каждая строка залита цветом целиком (зелёный/персиковый/голубой).
+   Стало: очень светлый тон + цветная полоса слева. Тип старта по-прежнему
+   читается мгновенно, но лист перестаёт выглядеть как Excel 2003.
+
+   Хотите совсем белые строки — поставьте все --o-row-* в #fff (блок [0]).
+   ------------------------------------------------------------------ */
+body.calendar-body .o-main-table tr { background-color: var(--o-surface); }
+body.calendar-body .o-main-table .orient  { background-color: var(--o-row-orient); }
+body.calendar-body .o-main-table .rogaine { background-color: var(--o-row-rogaine); }
+body.calendar-body .o-main-table .water   { background-color: var(--o-row-water); }
+
+body.calendar-body .o-main-table td {
+    border-top: 0;
+    border-bottom: 1px solid var(--o-border-soft);
+    padding: 13px 14px;
+    vertical-align: top;
+}
+
+/* цветная полоса слева — только у строк с типом (month-row не затрагивается) */
+body.calendar-body .o-main-table tr.orient  > td:first-child,
+body.calendar-body .o-main-table tr.rogaine > td:first-child,
+body.calendar-body .o-main-table tr.water   > td:first-child {
+    border-left: 3px solid transparent;
+    padding-left: 11px;
+}
+body.calendar-body .o-main-table tr.orient  > td:first-child { border-left-color: var(--o-bar-orient); }
+body.calendar-body .o-main-table tr.rogaine > td:first-child { border-left-color: var(--o-bar-rogaine); }
+body.calendar-body .o-main-table tr.water   > td:first-child { border-left-color: var(--o-bar-water); }
+
+/* прошедшие старты — приглушаем полосу, чтобы не спорила с серым текстом */
+body.calendar-body .o-main-table tr.disabled > td:first-child { border-left-color: #cfd6ca; }
+body.calendar-body .o-main-table .disabled { color: var(--o-text-faint); }
+body.calendar-body .o-main-table .disabled a { color: var(--o-text-faint); }
+
+/* текущие старты — лёгкая подсветка вместо одного лишь bold */
+body.calendar-body .o-main-table tr.current > td { background-color: #eef6ef; }
+
+/* hover должен перебивать подсветку .current, поэтому специфичность выше */
+body.calendar-body .o-main-table tbody tr:hover > td { background-color: var(--o-accent-soft); }
+
+/* ссылки в таблице не должны быть подчёркнуты постоянно */
+body.calendar-body .o-main-table a { text-decoration: none; }
+body.calendar-body .o-main-table a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* разделитель месяца — было плоское darkolivegreen-поле */
+body.calendar-body .o-main-table .month-row {
+    background: linear-gradient(90deg, var(--o-accent-dark), var(--o-accent));
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: .06em;
+    padding: 10px 14px 10px 85px;
+    border: 0;
+}
+
+/* иконки в ячейках приводим к одному размеру */
+body.calendar-body .o-main-table img { max-height: 22px; width: auto; }
+.sheet-icon { width: 20px; }
+
+/* «Прочее» — вторичная колонка, приглушаем */
+body.calendar-body .o-main-table td:last-child {
+    font-size: 13px;
+    color: var(--o-text-muted);
+}
+
+/* строка статистики «Всего — 246 (…)» */
+.o-sheet-roof-stat {
+    background: var(--o-surface);
+    border: 1px solid var(--o-border);
+    border-radius: 999px;
+    padding: 5px 14px;
+    box-shadow: var(--o-sh-1);
+    color: var(--o-text-muted);
+    font-weight: 500 !important;
+}
+
+/* ------------------------------------------------------------------ [11]
+   ПОИСК В КАЛЕНДАРЕ (.cal-search)
+   ------------------------------------------------------------------ */
+.cal-search__btn {
+    top: 0;
+    background-color: var(--o-surface);
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+    padding: 6px 9px;
+    box-shadow: var(--o-sh-1);
+    transition: background .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+.cal-search__btn:hover { background: var(--o-surface-2); border-color: var(--o-accent); }
+.cal-search.is-active .cal-search__btn {
+    border-color: var(--o-accent);
+    box-shadow: var(--o-ring);
+}
+.cal-search__input {
+    top: 0;
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+    font: inherit;
+    font-size: 14px;
+    background: var(--o-surface);
+}
+.cal-search.is-open .cal-search__input { padding: 6px 10px; box-shadow: var(--o-sh-1); }
+.cal-search.is-open .cal-search__input:focus {
+    outline: none;
+    border-color: var(--o-accent);
+    box-shadow: var(--o-ring);
+}
+
+/* ------------------------------------------------------------------ [12]
+   СТРАНИЦА С КАРТОЙ: панели Leaflet, счётчик
+   ------------------------------------------------------------------ */
+.leaflet-control-layers,
+.leaflet-bar,
+.leaflet-control-layers-expanded {
+    background: rgba(255,255,255,.9) !important;
+    -webkit-backdrop-filter: blur(12px) saturate(1.15);
+    backdrop-filter: blur(12px) saturate(1.15);
+    border: 1px solid rgba(30,38,32,.08) !important;
+    border-radius: var(--o-r) !important;
+    box-shadow: var(--o-sh-2) !important;
+    /* ВАЖНО: без overflow: hidden — у списка слоёв бывает собственная
+       прокрутка (.leaflet-control-layers-scrollbar), её бы обрезало. */
+}
+.leaflet-control-layers-expanded { padding: 12px 14px !important; }
+.leaflet-control-layers label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 3px 0;
+    font-size: 13px;
+    line-height: 1.3;
+    cursor: pointer;
+    transition: color .12s ease;
+}
+.leaflet-control-layers label:hover { color: var(--o-accent-dark); }
+.leaflet-control-layers-separator {
+    border-top: 1px solid var(--o-border) !important;
+    margin: 9px 0 !important;
+}
+
+/* Кнопки в панели (zoom, home, info, settings, ruler и пр.).
+   ВАЖНО: НЕ делать фон прозрачным. Иконки многих кнопок — это PNG в
+   background-image (см. .button-icon, .home-icon и т.д. в main.css),
+   рассчитанные на белую подложку. Убрав белый фон, мы «гасим» иконку.
+   Поэтому меняем только скругление, фон оставляем белым. */
+.leaflet-bar a,
+.leaflet-bar a:link,
+.leaflet-bar a:visited {
+    border-radius: var(--o-r-sm) !important;
+    color: #333 !important;                 /* символы zoom +/− */
+    background-color: var(--o-surface) !important;
+    transition: background-color .12s ease;
+}
+.leaflet-bar a:hover { background-color: var(--o-surface-2) !important; }
+.leaflet-bar a.leaflet-disabled {
+    background-color: #f4f4f4 !important;
+    color: #bbb !important;
+}
+.leaflet-touch .leaflet-bar { margin: 6px !important; }
+
+.leaflet-popup-content-wrapper {
+    border-radius: var(--o-r) !important;
+    box-shadow: var(--o-sh-pop) !important;
+}
+.popup-content {
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+}
+
+/* счётчик «304/401» — было: чёрный текст с четырёхкратным text-shadow */
+#counter {
+    width: auto;
+    height: auto;
+    padding: 5px 16px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--o-text);
+    background: rgba(255,255,255,.9);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-radius: 999px;
+    box-shadow: var(--o-sh-2);
+    text-shadow: none;
+}
+
+#map_region_selector,
+#map_tracks_month_selector {
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+    background: rgba(255,255,255,.92);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: var(--o-sh-2);
+    padding: 6px 8px;
+}
+
+#back-to-start {
+    border: 1px solid var(--o-border);
+    background: rgba(255,255,255,.94);
+    box-shadow: var(--o-sh-2);
+    color: var(--o-accent-dark);
+}
+#back-to-start:hover { background: var(--o-accent-soft); }
+
+/* ------------------------------------------------------------------ [13]
+   ПРОЧИЕ БЛОКИ: превью карт, плитки стартов, всплывашки
+   ------------------------------------------------------------------ */
+.map_preview img,
+.start-map-box,
+.help-figure {
+    border: 1px solid var(--o-border) !important;
+    border-radius: var(--o-r-sm);
+    box-shadow: var(--o-sh-1);
+    transition: box-shadow .18s ease, border-color .18s ease, transform .18s ease;
+}
+.map_preview img:hover,
+.start-map-box:hover {
+    border-color: rgba(74,124,78,.55) !important;
+    box-shadow: var(--o-sh-2);
+    transform: translateY(-2px);
+}
+.start-map-box { overflow: hidden; }
+.mourning .help-figure,
+.mourning .start-map-box { border: 2px solid #222 !important; }
+
+.slide-popup {
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r);
+    box-shadow: var(--o-sh-pop);
+}
+.peek-widget {
+    background: var(--o-bg);
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r);
+    box-shadow: var(--o-sh-pop);
+}
+.peek-ear { background: linear-gradient(180deg, var(--o-accent), var(--o-accent-dark)); }
+.peek-ear:hover { background: linear-gradient(180deg, var(--o-accent-dark), var(--o-accent-dark)); }
+.peek-content section {
+    background: var(--o-surface);
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r);
+}
+
+#noscript_content {
+    border-radius: var(--o-r);
+    background: var(--o-surface);
+    border: 1px solid var(--o-border);
+    box-shadow: var(--o-sh-1);
+}
+
+body.integration-body .integration-nav,
+body.integration-body .integration-home-link {
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+    background: var(--o-surface);
+    box-shadow: var(--o-sh-1);
+}
+body.integration-body pre {
+    background: var(--o-surface-2);
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+}
+
+footer hr {
+    border: 0;
+    border-top: 1px solid var(--o-border);
+    opacity: 1;
+    margin: 28px 0 12px;
+}
+.my-copyright { color: var(--o-text-muted); }
+
+/* полосы прокрутки под общий стиль */
+* { scrollbar-color: #c3ccbd transparent; scrollbar-width: thin; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #c3ccbd; border-radius: 999px; border: 2px solid transparent; background-clip: content-box; }
+::-webkit-scrollbar-thumb:hover { background: #a8b3a2; background-clip: content-box; }
+
+/* ------------------------------------------------------------------ [14]
+   МОБИЛЬНЫЕ УТОЧНЕНИЯ
+   ------------------------------------------------------------------ */
+@media screen and (max-width: 600px) {
+    body.help-body section { padding: 18px; margin: 14px 0; }
+    body.index-body .region-box { min-height: 140px; }
+    body.index-body .region-box img { max-height: 66px; }
+    ul.nav.nav-tabs { display: flex; width: 100%; }
+    ul.nav.nav-tabs button.nav-link { padding: 8px 10px; font-size: 14px; flex: 1; }
+    body.calendar-body .o-main-table td { padding: 10px; }
+    #counter { font-size: 20px; padding: 4px 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body.index-body .region-box,
+    .stat-map-link,
+    .map_preview img,
+    .start-map-box { transition: none; }
+    body.index-body .region-box:hover,
+    .stat-map-link:hover,
+    .start-map-box:hover { transform: none; }
+}
+
+/* ------------------------------------------------------------------ [15]
+   ТЁМНАЯ ТЕМА
+   Класс o-dark / o-light ставит на <html> скрипт js/theme-toggle.js
+   (и inline-сниппет в <head> — до первой отрисовки, чтобы не мигало).
+   ------------------------------------------------------------------ */
+:root.o-light { color-scheme: light; }
+
+:root.o-dark {
+    color-scheme: dark;                 /* тёмные скроллбары и системные контролы */
+    --o-bg:          #131814;
+    --o-surface:     #1b211d;
+    --o-surface-2:   #242b26;
+    --o-border:      #323a34;
+    --o-border-soft: #2a312c;
+    --o-text:        #e5eae4;
+    --o-text-muted:  #96a194;
+    --o-text-faint:  #6d786c;
+    --o-accent:      #7cbc8b;
+    --o-accent-dark: #96cfa3;
+    --o-accent-soft: #23352a;
+    --o-row-orient:  #1b241d;
+    --o-row-rogaine: #241f16;
+    --o-row-water:   #16202a;
+    --o-sh-1:        0 1px 2px rgba(0,0,0,.4);
+    --o-sh-2:        0 6px 20px rgba(0,0,0,.5);
+    --o-sh-pop:      0 12px 34px rgba(0,0,0,.6);
+    --o-ring:        0 0 0 3px rgba(124,188,139,.28);
+}
+:root.o-dark .o-main-table tr:nth-child(odd) { background-color: #1e2420; }
+:root.o-dark body.index-body .region-box img { filter: invert(1) hue-rotate(180deg); opacity: .7; }
+:root.o-dark .leaflet-control-layers { background: rgba(27,33,29,.9) !important; }
+/* Кнопки-иконки оставляем на светлой подложке даже в тёмной теме:
+   PNG-иконки плагинов тёмные и на тёмном фоне были бы не видны.
+   Меняем только на чуть менее яркий белый, чтобы не резал глаз. */
+:root.o-dark .leaflet-bar a,
+:root.o-dark .leaflet-bar a:link,
+:root.o-dark .leaflet-bar a:visited {
+    background-color: #e8e8e8 !important;
+    color: #333 !important;
+}
+:root.o-dark .leaflet-bar a:hover { background-color: #d8d8d8 !important; }
+:root.o-dark #counter { background: rgba(27,33,29,.9); color: var(--o-text); }
+
+/* тёмная тема: карты и превью НЕ инвертируем — цвета спортивных карт значимы */
+:root.o-dark .map_preview img,
+:root.o-dark .start-map-box img,
+:root.o-dark .track-table-pic,
+:root.o-dark .leaflet-tile-pane { filter: none; }
+:root.o-dark .help-figure { opacity: .92; }
+:root.o-dark body.help-body section:has(> small) {
+    background: #26221a;
+    border-color: #43392a;
+}
+:root.o-dark body.help-body section small { color: #b8ad92; }
+:root.o-dark body.calendar-body .o-main-table .month-row { color: #101510; }
+:root.o-dark * { scrollbar-color: #3c453e transparent; }
+:root.o-dark ::-webkit-scrollbar-thumb { background: #3c453e; background-clip: content-box; }
+
+/* ------------------------------------------------------------------ [16]
+   КНОПКА ПЕРЕКЛЮЧЕНИЯ ТЕМЫ
+   Разметку создаёт js/theme-toggle.js, здесь только оформление.
+   ------------------------------------------------------------------ */
+.o-theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    font-size: 17px;
+    line-height: 1;
+    cursor: pointer;
+    background: var(--o-surface);
+    color: var(--o-text);
+    border: 1px solid var(--o-border);
+    border-radius: var(--o-r-sm);
+    box-shadow: var(--o-sh-1);
+    transition: background .15s ease, border-color .15s ease,
+                box-shadow .15s ease, transform .15s ease;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.o-theme-toggle:hover {
+    background: var(--o-accent-soft);
+    border-color: rgba(74,124,78,.5);
+    box-shadow: var(--o-sh-2);
+    transform: translateY(-1px);
+}
+.o-theme-toggle:active { transform: translateY(0); }
+.o-theme-toggle__icon { pointer-events: none; }
+
+/* вариант внутри строки «Новости / Контакты» на главной */
+.o-theme-toggle--inline {
+    width: auto;
+    height: auto;
+    min-width: 34px;        /* палец на телефоне должен попадать уверенно */
+    min-height: 28px;
+    padding: 7px 9px;
+    margin-right: 12px;
+    font-size: 15px;
+    vertical-align: 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .o-theme-toggle { transition: none; }
+    .o-theme-toggle:hover { transform: none; }
+}
+
+:root.o-dark body.calendar-body .o-main-table tr.current > td { background-color: #202b23; }
