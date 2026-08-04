@@ -145,14 +145,18 @@ body.help-body section small { color: #6b6450; line-height: 1.5; }
    Было: 3px darkolivegreen, height 180px, без реакции на курсор.
    Стало: аккуратная карточка, тень, подъём при наведении.
 
-   Раскладка: восемь плиток лежат в одном Bootstrap-ряду .row.g-4 как равные
-   .col. При нехватке ширины восьмая («Все вместе») переносилась вниз и,
-   оставшись одна в ряду, растягивалась во всю строку. Переводим ряд на
-   CSS Grid с фиксированным числом колонок — тогда все плитки одной ширины,
-   а неполный последний ряд не растягивает одинокий элемент. */
+   Раскладка: плитки лежат в одном Bootstrap-ряду .row.g-4 как равные .col.
+   При нехватке ширины последняя плитка переносилась вниз и, оставшись одна
+   в ряду, растягивалась во всю строку. Переводим ряд на CSS Grid с
+   auto-fill — браузер сам укладывает столько плиток в ряд, сколько влезает
+   по ширине, а лишние переносит на новую строку. auto-fill (а не auto-fit)
+   выбран намеренно: одинокая плитка в неполном ряду сохраняет свою ширину,
+   а не растягивается на всю строку. Работает для любого числа плиток:
+   и 8 регионов на главной, и 10 разделов на sub-index-страницах,
+   и ничего не вылезает за экран. */
 body.index-body nav .row.g-4 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 16px;
     margin: 0;
 }
@@ -163,12 +167,11 @@ body.index-body nav .row.g-4 > .col {
     padding: 0;
 }
 
-@media (min-width: 1200px) {
-    /* на широком экране все восемь встают в один ряд */
-    body.index-body nav .row.g-4 { grid-template-columns: repeat(8, 1fr); }
-}
 @media (max-width: 700px) {
-    body.index-body nav .row.g-4 { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    body.index-body nav .row.g-4 {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        gap: 12px;
+    }
 }
 
 body.index-body .region-box {
