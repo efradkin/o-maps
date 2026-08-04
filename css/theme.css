@@ -500,7 +500,8 @@ body.calendar-body .o-main-table a { text-decoration: none; }
 body.calendar-body .o-main-table a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* разделитель месяца — было плоское darkolivegreen-поле */
-body.calendar-body .o-main-table .month-row {
+body.calendar-body .o-main-table .month-row,
+body.calendar-body .o-main-table td.month-row {
     background: linear-gradient(90deg, var(--o-accent-dark), var(--o-accent));
     color: #fff;
     font-weight: 600;
@@ -515,7 +516,7 @@ body.calendar-body .o-main-table img { max-height: 22px; width: auto; }
 .sheet-icon { width: 20px; }
 
 /* «Прочее» — вторичная колонка, приглушаем */
-body.calendar-body .o-main-table td:last-child {
+body.calendar-body .o-main-table td:last-child:not(.month-row) {
     font-size: 13px;
     color: var(--o-text-muted);
 }
