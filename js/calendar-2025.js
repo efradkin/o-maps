@@ -1407,7 +1407,8 @@ let events2025 = [
         name: 'Физкультурное мероприятие по ориентированию',
         type: 'ORIENT',
         link: 'https://vk.com/wall-30686281_22293',
-        map: 'internatsionalistov_2021'
+        map: 'internatsionalistov_2021',
+        owner: 'FRUNZ_SPORT'
     },
     {
         id: 'SPB_20250712_1',
@@ -2445,7 +2446,8 @@ let events2025 = [
         fmt: 'по памяти',
         link: 'https://vk.ru/wall-220245153_1724',
         res: 'https://vk.com/wall-30686281_22954',
-        map: 'internatsionalistov_2025'
+        map: 'internatsionalistov_2025',
+        owner: 'FRUNZ_SPORT'
     },
     {
         id: 'SPB_20251018_1',
@@ -2562,7 +2564,8 @@ let events2025 = [
         link: 'https://vk.com/wall-30686281_22983',
         map: 'internatsionalistov_2021',
         strava: 16242272277,
-        me: '51+'
+        me: '51+',
+        owner: 'FRUNZ_SPORT'
     },
     {
         id: 'SPB_20251025_1',

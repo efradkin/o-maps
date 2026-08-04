@@ -677,6 +677,10 @@ let owners = {
         name: '@ <a href="https://mass-sport.ru/">Масс-спорт</a>',
         logo: 'mass-sport.webp'
     },
+    FRUNZ_SPORT: {
+        name: '@ <a href="http://fizkult-frunz.ru/">ЦФКСиЗ Фрунзенского р-она</a>',
+        logo: 'fizkultfrunz.webp'
+    },
 
     /* --- КНИГИ --- */
     BLAGOVO: {

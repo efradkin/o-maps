@@ -1874,7 +1874,8 @@ let events2026 = [
         link: 'https://vk.com/wall-30686281_24429',
         type: 'FUN',
         fmt: 'ночное',
-        map: 'internatsionalistov_2021'
+        map: 'internatsionalistov_2021',
+        owner: 'FRUNZ_SPORT'
     },
     {
         id: 'SPB_20260711_1',
@@ -1994,7 +1995,8 @@ let events2026 = [
         fmt: 'выбор',
         map: 'internatsionalistov_2021',
         strava: 19435169467,
-        me: '51+'
+        me: '51+',
+        owner: 'FRUNZ_SPORT'
     },
     {
         id: 'SPB_20260725_2',
@@ -2075,6 +2077,7 @@ let events2026 = [
         reg: 'https://forms.yandex.ru/u/6a6b0270d046884df21d73b5/',
         type: 'ORIENT',
         map: 'internatsionalistov_2021',
+        owner: 'FRUNZ_SPORT'
     },
     {
         id: 'SPB_20260627_2',
@@ -2164,6 +2167,7 @@ let events2026 = [
         link: 'https://vk.ru/wall-30686281_24661',
         type: 'ORIENT',
         map: 'internatsionalistov_2021',
+        owner: 'FRUNZ_SPORT'
     },
     {
         id: 'SPB_20260822_2',
@@ -2198,6 +2202,7 @@ let events2026 = [
         id: 'SPB_20260829_2',
         date: '2026-08-29',
         name: 'Кольцо Юго-Запада',
+        link: 'https://vk.ru/sw_ring',
         place: 'Петергоф',
         type: 'ROGAINE',
     },

@@ -81,6 +81,7 @@ let otherEvents2026 = [
     place: 'Пушкин - СПб',
     name: 'Пушкин - Санкт-Петербург',
     link: 'https://pushkin-run.ru/pushkin-spb-2026',
+    reg: 'https://reg.russiarunning.com/event/99yPeterburgskiyMarafonPushkinPeterburg',
     type: 'RUN',
     fmt: '42, 30, 10, 5',
     start: 'PUSHKINRUN',
