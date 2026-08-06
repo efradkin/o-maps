@@ -1589,6 +1589,7 @@ let events2021 = [
         gps: {
             'М21':'https://viewer.o-gps-center.ru/viewer/event/11235/',
             'Ж21':'https://viewer.o-gps-center.ru/viewer/event/11241/',
+            'М20/40':'https://viewer.o-gps-center.ru/viewer/event/11249/',
             'ALL':'https://viewer.o-gps-center.ru/viewer/event/11230/'
         },
         map: 'tsvelodubovo_south_2021'
