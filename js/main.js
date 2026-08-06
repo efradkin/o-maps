@@ -1414,6 +1414,11 @@ function buildMapPopup(m) {
         result += '</div><br />';
     }
 
+    // OCAD
+    if (hasOCAD(m)) {
+        result += `<div class="popup-order-section">⚠️ Если Вы скачали тут файл с картой и откорректировали его, то пожалуйста <a href="help/contacts.html">пришлите</a> его мне обратно, я опубликую, чтобы и другие могли воспользоваться Вашей правкой!</div><br />`;
+    }
+
     // ссылки на просмотр и скачивание
     let link = m.link;
     if (!m.in_work || m.link) {
