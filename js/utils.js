@@ -288,6 +288,7 @@ const ZOOM_PARAM = urlParams.get('zoom');
 let HAS_NO_BUTTONS_PARAM = urlParams.has('no-buttons');
 const HAS_EMBEDDED_PARAM = urlParams.has('embedded');
 const HAS_OCAD_PARAM = urlParams.has('ocad');
+const HAS_ORDERS_PARAM = urlParams.has('orders');
 const HAS_RETRO_PARAM = urlParams.has('retro');
 const HAS_ALL_YEARS_PARAM = urlParams.has('all-years');
 const YEAR_PARAM = urlParams.get('year');
@@ -561,7 +562,7 @@ function mapLink(url, m) { // m - for region
         }
     }
     let pathname = location.pathname;
-    if ((pathname.includes('map-info') || pathname.includes('maps-on-store')) && !region) {
+    if ((pathname.includes('map-info') || pathname.includes('maps-on-store') || pathname.includes('sheet-orders')) && !region) {
         region = 'spb';
     }
     if (region) {
@@ -1189,6 +1190,10 @@ function getOwner(m) {
     return owner;
 }
 
+function getOrderArea(m) {
+    return m.order ? m.order.area : m.area;
+}
+
 function downloadSheetTable(fileName) {
     downloadTableAsCSV($('.o-main-table'), fileName);
     return false;
@@ -1204,6 +1209,14 @@ function isUnknownPage() {
 
 function isBooksPage() {
     return typeof booksPage != 'undefined' && booksPage;
+}
+
+function isMapsOnStorePage() {
+    return typeof mapsOnStore != 'undefined' && mapsOnStore;
+}
+
+function isOrdersPage() {
+    return typeof ordersPage != 'undefined' && ordersPage;
 }
 
 function isRulesPage() {
@@ -1840,6 +1853,44 @@ function buildPlanners(m, calendar) {
                 result += planners[starts[m.start].planner].name + '<br />';
             }
         }
+    }
+    return result;
+}
+
+function buildOrderCustomer(m) {
+    let customer = '';
+    if (m.order && m.order.owner) {
+        customer = owners[m.order.owner].order.name;
+    }
+    return customer;
+}
+
+function buildOrderInfo(m, withCite, withArea, withRestricted) {
+    let result = '';
+    if (m.order) {
+        if (withCite) {
+            result = '<cite>';
+        }
+        result += safe(m.order.info);
+        if (withArea && m.order.area) {
+            result += ` Примерная площадь - ${m.order.area}км².`;
+        }
+        if (withCite) {
+            result += '</cite>';
+        }
+        let price = m.order.price;
+        if (!price && m.order.owner) {
+            price = owners[m.order.owner].order ? owners[m.order.owner].order.price : '';
+        }
+        if (price) {
+            if (price === 'ФСОР') {
+                price = 'Оплата - по расценкам ФСОР.'
+            }
+            result += `<br /><small>${price}</small>`;
+        }
+    }
+    if (withRestricted && m.restricted) {
+        result += getRestrictedText(m);
     }
     return result;
 }

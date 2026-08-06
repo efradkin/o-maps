@@ -545,6 +545,11 @@ let sosnovoMaps = [
         link: './original_maps/forest/sosnovo/petrovskoe_svjazist_2023_omaps.jpg',
         bounds: [[60.6645804, 30.173049], [60.6587559, 30.2319717], [60.6452315, 30.1651096]],
         author: ['TKMKV_K','KVZN'],
+        order: {
+            info:'Нужно дорисовать северо-западный край карты.',
+            area: 1,
+            owner:'SHEIN'
+        },
         owner: 'SHEIN'
     },
     {

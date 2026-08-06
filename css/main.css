@@ -248,6 +248,12 @@ label:has(> span span .layer-shifted) {
 .restricted {
     border: solid 3px deeppink;
 }
+.in-work {
+    border: dashed 3px black;
+}
+.in-work-row td {
+    background-color: #ddffdd;
+}
 .highlighted {
     border: solid thick tomato;
 }
@@ -378,6 +384,10 @@ body.sub-index-body {
 }
 .popup-right-header {
     right: 25px;
+}
+.popup-order-section {
+    border: 1px solid lightgray;
+    padding: 5px;
 }
 .gps-info a {
     display: inline-block;

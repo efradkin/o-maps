@@ -1,6 +1,8 @@
 let hasAuthors = false;
 let hasPlanners = false;
 
+const theOrdersPage = isOrdersPage();
+
 window.onload = function() {
 
     function filterYear(year) {
@@ -41,7 +43,9 @@ window.onload = function() {
         });
     }
 
-    if (!isUnknownPage()) {
+    if (theOrdersPage) {
+        oMaps.sort((a, b) => (a.name || '').localeCompare((b.name || '')));
+    } else if (!isUnknownPage()) {
         if (!isDocumentsPage()) {
             oMaps.sort((a, b) => (a.info || '').localeCompare(b.info || ''))
                 .sort((a, b) => (startYear(a) || (year(a) || 0)) - (startYear(b) || (year(b) || 0)));
@@ -84,7 +88,7 @@ window.onload = function() {
 // Фильтрация массива. Оставляем только карты, соответствующие критерию запроса (есди он задан).
 if (!isDocumentsPage() &&
     (MAP_NAME_PARAM || TYPE_PARAM || START_NAME_PARAM || OWNER_PARAM || AUTHOR_PARAM || PLANNER_PARAM ||
-        TRACK_NAME_PARAM || TRACK_TYPE_PARAM || TRACK_MONTH_PARAM || HAS_RETRO_PARAM || HAS_OCAD_PARAM || HAS_RESTRICTED_PARAM)) {
+        TRACK_NAME_PARAM || TRACK_TYPE_PARAM || TRACK_MONTH_PARAM || HAS_RETRO_PARAM || HAS_OCAD_PARAM  || HAS_ORDERS_PARAM || HAS_RESTRICTED_PARAM)) {
     oMaps = oMaps.filter(m => (m.layer !== undefined));
 }
 
@@ -130,33 +134,48 @@ function renderMapsTable() {
         }
 
         const row = document.createElement('tr');
+        if (theOrdersPage && m.in_work) {
+            row.classList.add('in-work-row')
+        }
         const cal = m.calendar ? oEvents.find(e => e.id === m.calendar) : undefined;
         td(m, row, buildNumber(m, i));
-        td(m, row, buildName(m));
+        if (theOrdersPage) {
+            td(m, row, (m.in_work ? '✅' : ''));
+        }
+        td(m, row, buildName(m, theOrdersPage));
         td(m, row, buildSheetDate(m));
-        if (!isUnknownPage() && !isBooksPage()) {
+        if (!isUnknownPage() && !isBooksPage() && !theOrdersPage) {
             td(m, row, buildStart(m));
         }
         if (isRulesPage()) {
             td(m, row, buildAuthors(m, true));
         }
         td(m, row, buildDownloadLinks(m.link, m.links));
-        td(m, row, buildInfo(m, cal));
+        if (theOrdersPage) {
+            td(m, row, buildOrderCustomer(m));
+            td(m, row, buildOrderInfo(m, false, false, true));
+        } else {
+            td(m, row, buildInfo(m, cal));
+        }
         if (!isDocumentsPage()) {
-            td(m, row, m.area ? m.area.toFixed(2) : '');
-            if (!mapsOnStore) {
+            if (theOrdersPage) {
+                td(m, row, m.order ? safe(m.order.area) : (m.area ? m.area.toFixed(2) : ''));
+            } else {
+                td(m, row, m.area ? m.area.toFixed(2) : '');
+            }
+            if (!theOrdersPage && !isMapsOnStorePage()) {
                 td(m, row, buildGpsLinks(m, 'o-gps.gif', cal));
             }
         }
+        let authors = buildAuthors(m, true);
         if (!isUnknownPage()) {
-            let authors = buildAuthors(m, true);
             if (authors) {
                 hasAuthors = true;
             }
             td(m, row, authors);
         }
-        if (!mapsOnStore) {
-            if (!isDocumentsPage()) {
+        if (!isMapsOnStorePage()) {
+            if (!isDocumentsPage() && !theOrdersPage) {
                 let planners = buildPlanners(m, cal);
                 if (planners) {
                     hasPlanners = true;
@@ -166,7 +185,7 @@ function renderMapsTable() {
             if (!isDocumentsPage() || isBooksPage()) {
                 td(m, row, buildOwners(m, true));
             }
-            if (!isDocumentsPage()) {
+            if (!isDocumentsPage() && !theOrdersPage) {
                 td(m, row, getTypesList(m));
             }
         } else {
@@ -174,6 +193,9 @@ function renderMapsTable() {
         }
         if (isBooksPage()) {
             td(m, row, buildFotos(m, 'books'));
+        }
+        if (theOrdersPage) {
+            td(m, row, m.in_work ? authors : '');
         }
         tbody.appendChild(row);
     }
@@ -195,15 +217,17 @@ function buildNumber(m, i) {
     }
 }
 
-function buildName(m) {
+function buildName(m, withoutLogo) {
     let result = '';
-    let logo;
-    const logos = logoList(m);
-    if (logos.length > 0) {
-        logo = logos[0];
-    }
-    if (logo) {
-        result += '<img src="./logo/' + logo + '" alt="Лого" class="sheet-icon" /> ';
+    if (!withoutLogo) {
+        let logo;
+        const logos = logoList(m);
+        if (logos.length > 0) {
+            logo = logos[0];
+        }
+        if (logo) {
+            result += '<img src="./logo/' + logo + '" alt="Лого" class="sheet-icon" /> ';
+        }
     }
     if (m.outdated) {
         result += '<s>';
@@ -364,10 +388,11 @@ function buildInfo(m, cal) {
 function sortMapsTable() {
     document.body.style.cursor = 'wait';
 
-    const sortable = document.querySelector('.o-sheet th.sortable[data-order="asc"], .o-sheet th.sortable[data-order="desc"], .o-sheet th.sortable');
-    if (sortable !== this) {
-        sortable.dataset.order = '';
-    }
+    document.querySelectorAll('.o-sheet th.sortable').forEach((element) => {
+        if (element !== this) {
+            element.dataset.order = '';
+        }
+    });
 
     function safeStart(m) {
         if (Array.isArray(m.start))
@@ -410,6 +435,16 @@ function sortMapsTable() {
         case 'area':
             oMaps.sort((a, b) => {
                 return isAscending ? (a.area || 0) - (b.area || 0) : (b.area || 0) - (a.area || 0);
+            });
+            break;
+        case 'order-area':
+            oMaps.sort((a, b) => {
+                return isAscending ? (getOrderArea(a) || 0) - (getOrderArea(b) || 0) : (getOrderArea(b) || 0) - (getOrderArea(a) || 0);
+            });
+            break;
+        case 'in-work':
+            oMaps.sort((a, b) => {
+                return isAscending ? (a.in_work || false) - (b.in_work || false) : (b.in_work || false) - (a.in_work || false);
             });
             break;
         case 'qtty':

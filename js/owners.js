@@ -47,7 +47,10 @@ let owners = {
     },
     EGRV_EGR: {
         name: '© Егоров Е.А.',
-        logo: 'forest_pushkin.webp'
+        logo: 'forest_pushkin.webp',
+        order: {
+            name: 'Пушкинский ДДЮТ, Андрей Егоров'
+        }
     },
     ELTSV: {
         name: '© Ельцов Денис'
@@ -189,7 +192,10 @@ let owners = {
     },
     RDNV_I: {
         name: 'Карта доступна свободно для некоммерческого использования. Для получения OCAD-файла и по прочим вопросам обращаться к Ивану Родионову (+7 911 161 6770).',
-        logo: 'feniks.webp'
+        logo: 'feniks.webp',
+        order: {
+            name: 'Иван Родионов (+7 911 161 6770)'
+        }
     },
     RFAR: {
         name: 'Права на использования карты принадлежат компании Red Fox и оргкомитету соревнований <a href="https://adventure-race.redfox.ru/">Red Fox Adventure Race</a>.',
@@ -208,7 +214,10 @@ let owners = {
     },
     SFSO_SPB: {
         name: 'Карта принадлежит СФСО СПб. По вопросам использования карты - info@spbof.ru.',
-        logo: 'sfso.gif'
+        logo: 'sfso.gif',
+        order: {
+            name: 'Федерация спортивного ориентирования СПб (<a href="mailto:info@spbof.ru">info@spbof.ru</a>)'
+        }
     },
     FSOR: {
         name: '@ ФСОР',
@@ -230,7 +239,11 @@ let owners = {
         name: '© Шелёхин Анатолий, <a href="markir.spb.ru">markir.spb.ru</a>.'
     },
     SHEIN: {
-        name: 'По вопросам использования карты - 8-921-972-86-24 (Александр Шеин).'
+        name: 'По вопросам использования карты - 8-921-972-86-24 (Александр Шеин).',
+        order: {
+            name: 'Александр Шеин (+7-921-972-86-24)',
+            price: 'ФСОР'
+        }
     },
     SHBN: {
         name: '© Юрий Шубин',
@@ -241,7 +254,10 @@ let owners = {
         name: '© Шкилев В.В. - 8 (921)7473259'
     },
     SHRNN: {
-        name: 'По вопросам использования карты - Александр Альбертович Ширинян, <a href="mailto:skishar@mail.ru">skishar@mail.ru</a>.'
+        name: 'По вопросам использования карты - Александр Альбертович Ширинян, <a href="mailto:skishar@mail.ru">skishar@mail.ru</a>.',
+        order: {
+            name: 'Александр Альбертович Ширинян (<a href="mailto:skishar@mail.ru">skishar@mail.ru</a>)'
+        }
     },
     SHRPVA: {
         name: '© Шарапова Лидия'

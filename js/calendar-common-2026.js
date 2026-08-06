@@ -560,13 +560,14 @@ let commonEvents2026 = [
     },
     {
         id: 'MAJOR_20260806_1',
-        date: '2026-08-06',
+        date: '2026-08-05',
         endDate: '2026-08-09',
         place: 'Vyšší Brod, Czechia',
         name: 'Третий тур Кубка мира (World Cup)',
         major: true,
         type: 'ORIENT',
         fmt: 'long, middle, relay',
+        video: 'https://www.youtube.com/watch?v=F45Pr1atOXQ',
         owner: 'IOF'
     },
     /*

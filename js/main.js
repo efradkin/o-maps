@@ -738,6 +738,11 @@ if (mapElement) {
                     el.style.zIndex = m.zindex;
                 }
 
+/*
+                if (m.in_work) {
+                    el.classList.add('in-work');
+                }
+*/
                 if (m.restricted) {
                     el.classList.add('restricted');
                 } else if (enableFullSize && m.link) {
@@ -973,6 +978,10 @@ function skipMapLoad(m, forse) {
     }
 
     if (HAS_OCAD_PARAM && !hasOCAD(m)) {
+        return true;
+    }
+
+    if (HAS_ORDERS_PARAM && !m.order) {
         return true;
     }
 
@@ -1366,6 +1375,8 @@ function buildMapPopup(m) {
             result += 'Владельцы:';
         }
         result += buildOwners(m);
+    } else {
+        result += 'Владелец карты не указан.<br />';
     }
 
     // начдист
@@ -1389,19 +1400,35 @@ function buildMapPopup(m) {
         result += '.</span><br />';
     }
 
+    // запрос на редактуру
+    if (m.order || m.in_work) {
+        const from = buildOrderCustomer(m);
+        result += `<div class="popup-order-section">🗺️ `;
+        if (m.in_work) {
+            result += 'Карта находится в работе и пока ещё не готова';
+        } else {
+            result += 'Запрос на редактирование/составление карты';
+        }
+        result += `${from ? '. Заказчик - ' + from : ''}.<br />`;
+        result += buildOrderInfo(m, true, true, false);
+        result += '</div><br />';
+    }
+
     // ссылки на просмотр и скачивание
     let link = m.link;
-    if (link && !isMapHidden(m)) {
-        if (!Array.isArray(link) && link.startsWith('http')) {
-            result += 'Скачать можно <a href="' + link + '">тут</a>.';
+    if (!m.in_work || m.link) {
+        if (link && !isMapHidden(m)) {
+            if (!Array.isArray(link) && link.startsWith('http')) {
+                result += 'Скачать можно <a href="' + link + '">тут</a>.';
+            } else {
+                result += 'Скачать можно тут: ' + buildDownloadLinks(link) + '.';
+            }
         } else {
-            result += 'Скачать можно тут: ' + buildDownloadLinks(link) + '.';
-        }
-    } else {
-        if (isMapHidden(m)) {
-            result += 'Просмотр карты не разрешён правообладателем или не уместен.';
-        } else {
-            result += 'Предпросмотр карты - <a href="' + url + '">тут</a>.';
+            if (isMapHidden(m)) {
+                result += 'Просмотр карты не разрешён правообладателем или не уместен.';
+            } else {
+                result += 'Предпросмотр карты - <a href="' + url + '">тут</a>.';
+            }
         }
     }
     if (!isMapHidden(m)) {

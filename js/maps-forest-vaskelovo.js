@@ -192,6 +192,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/silande_2025.webp',
         link: './original_maps/forest/vaskelovo/silande_2025_omaps.jpg',
         o_gps: 23126,
+        in_work: true,
         bounds: [[60.4042101, 30.2336025], [60.4021117, 30.2620983], [60.384408, 30.2274656]],
         author: ['RDNV_B','RDNV_I','DBRTSV_V'],
         owner:  ['RDNV_B','RDNV_I']

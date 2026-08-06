@@ -52,6 +52,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/lovetskoe_2025.webp',
         link: './original_maps/forest/zelik/lovetskoe_2025_omaps.gif',
         author: 'RDNV_I',
+        in_work: true,
         bounds: [[60.2734935, 29.6956158], [60.2713016, 29.7204208], [60.254783, 29.6874619]],
         o_gps: 23863
     },
@@ -421,9 +422,20 @@ let zelikMaps = [
         year: 2008,
         url: './maps/forest/zelik/zelenogorsk_leninskoe_2008.webp',
         link: ['./original_maps/forest/zelik/zelenogorsk_leninskoe_2008_omaps.gif','./original_maps/forest/zelik/zelenogorsk_leninskoe_2008_omaps.ocd'],
-        restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
         bounds: [[60.2398538, 29.7234249], [60.2321416, 29.8320866], [60.19398, 29.7144985]],
         author: ['VSLVSKY','DRBSHV']
+    },
+    {
+        name: 'Зеленогорск, оз Щучье',
+        year: 2026,
+        url: './maps/forest/zelik/zelenogorsk_schuchye_2026.png',
+        restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
+        bounds: [[60.2465419, 29.7235107], [60.2465419, 29.8251343], [60.2069898, 29.7238541]],
+        owner: 'SFSO_SPB',
+        in_work: true,
+        order: {
+            owner: 'SFSO_SPB'
+        },
     },
     {
         name: 'Комарово',
@@ -632,6 +644,10 @@ let zelikMaps = [
         url: './maps/forest/zelik/komarovo_2013.webp',
         link: ['./original_maps/forest/zelik/komarovo_2013_omaps.gif','./original_maps/forest/zelik/komarovo_2009_omaps.ocd'],
         bounds: [[60.1815839, 29.8056936], [60.178959, 29.8556042], [60.1682439, 29.8022175]],
+        order: {
+            info: 'Карта требует доработки. В западной части вблизи залива убрали забор, внутри микрорельеф. Его можно сделать. Еще, конечно, за двадцать лет накопилось изменений. Рельеф там с основы сделан в двух метрах, а не в двух с половиной, горизонтали на склоне можно проредить слегка. Место хорошее для простых тренировок. Если кто серьёзно возьмётся, готов прислать материалы.',
+            owner: 'SHRNN'
+        },
         author: ['SHRNN','ZNDR']
     },
     {

@@ -951,6 +951,11 @@ let parkMaps = [
         bounds: [[59.9762539, 30.2316284], [59.9746864, 30.2493525], [59.9698543, 30.229311]],
         author: ['DBRTSV_V','FDRV_I'],
         owner: 'GLFSTRM',
+        order: {
+            info: 'От метро Крестовский остров до Газпром арены. Желательно в двух вариантах - в лесных знаках под масштаб 1:7500 и в спринтерских под масштаб 1:4000.',
+            area: 1.3,
+            owner: 'SHEIN'
+        },
         type: ['PARK']
     },
     {
@@ -1208,13 +1213,13 @@ let parkMaps = [
     },
     {
         name: 'Сестрорецк, парк Дубки',
-        year: 2026,
+        year: 2020,
+        correct: 2026,
         url: './maps/parks/sestroretsk_dubki_2020.webp',
         link: './original_maps/parks/sestroretsk_dubki_2026_omaps.gif',
         bounds: [[60.0961673, 29.9217796], [60.094124, 29.9460912], [60.0876937, 29.9185181]],
         author: ['DBRTSV_V','TKMKVA_P'],
         editor: ['RYLOV_V','SHRNN'],
-        restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
         owner: 'SFSO_SPB',
         type: ['PARK']
     },
