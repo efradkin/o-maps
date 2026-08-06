@@ -168,10 +168,12 @@ let forestMaps = [
     },
     {
         name: 'Цвелодубово, Щукино оз',
-        year: 2021,
+        date: '2021-10-10',
         url: './maps/forest/tsvelodubovo_south_2021.webp',
         link: './original_maps/forest/tsvelodubovo_south_2021_omaps.gif',
         publish: 'https://vk.com/album-230167293_309657044',
+        info: 'ЧиП СПб, марафон.',
+        calendar: 'SPB_20211010_1',
         bounds: [[60.3661429, 29.5515919], [60.3602008, 29.6252346], [60.3397773, 29.5430946]],
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'

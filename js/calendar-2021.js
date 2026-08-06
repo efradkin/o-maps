@@ -1585,7 +1585,13 @@ let events2021 = [
         owner: 'SFSO_SPB',
         o_site: '211010_long',
         reskeep: 496,
-        strava: 6091647873
+        strava: 6091647873,
+        gps: {
+            'М21':'https://viewer.o-gps-center.ru/viewer/event/11235/',
+            'Ж21':'https://viewer.o-gps-center.ru/viewer/event/11241/',
+            'ALL':'https://viewer.o-gps-center.ru/viewer/event/11230/'
+        },
+        map: 'tsvelodubovo_south_2021'
     },
     {
         id: 'SPB_20211016_1',
