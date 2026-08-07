@@ -898,7 +898,7 @@ let events2025 = [
         link: 'http://www.multsport.ru/starts/canoe-rogaine-2025/',
         type: ['ROGAINE', 'WATER'],
         fmt: '4, 8, 16',
-        gps: 'http://viewer.o-gps-center.ru/viewer/event/22639/',
+        o_gps: 22639,
         res: 'https://www.multsport.ru/starts/canoe-rogaine-2025/results.html',
         video: 'https://www.youtube.com/watch?v=KpGZElsaohA',
         map: 'vuoksa_rogaine_2019',

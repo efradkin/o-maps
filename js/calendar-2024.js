@@ -350,7 +350,7 @@ let events2024 = [
         fmt: '4 (OMR)',
         link: 'https://orgeo.ru/event/info/33379',
         res: 'https://vk.com/doc17383066_673298132?hash=n2x8gjMtY5CYdlKsO3ErLi1QZAMy4Jnpkm4Z4aCmLZL',
-        gps: 'https://o-gps-center.ru/manage2/events/view/18894',
+        o_gps: 18894,
         owner: 'LM'
     },
     {

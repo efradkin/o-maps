@@ -1841,7 +1841,7 @@ let events2022 = [
         type: 'ORIENT',
         o_site: '221225_wn',
         strava: 8289241854,
-        gps: 'https://viewer.o-gps-center.ru/viewer/event/14747/',
+        o_gps: 14747,
         owner: 'WN'
     }
 ];

@@ -2160,6 +2160,16 @@ let events2026 = [
         map: 'tsvelodubovo_2020'
     },
     {
+        id: 'SPB_2026019_1',
+        date: '2026-08-19',
+        name: 'Перспектива',
+        place: 'Осиновая роща',
+        reg: 'http://orgeo.ru/event/54456',
+        type: 'ORIENT',
+        o_site: '260819_p',
+        map: 'osinovaja_roscha_2018'
+    },
+    {
         id: 'SPB_20260820_1',
         date: '2026-08-20',
         name: 'Физкультурное мероприятие по ориентированию',
@@ -2174,8 +2184,11 @@ let events2026 = [
         date: '2026-08-22',
         endDate: '2026-08-23',
         name: 'Выборгская Тройка',
-        place: 'Выборг',
+        place: 'Выборг, Возрождение',
+        o_site: '260822-23_VTR',
+        reg: 'http://sportident.online/entry/?id=7192',
         type: 'ORIENT',
+        fmt: 'спринт, ночная классика, классика'
     },
     {
         id: 'SPB_20260827_1',
@@ -2211,9 +2224,20 @@ let events2026 = [
         date: '2026-08-30',
         name: 'ЧиП СПб',
         place: 'Вещево',
+        o_site: '260830',
+        reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1754',
         type: 'ORIENT',
         fmt: 'лонг',
         owner: 'SFSO_SPB'
+    },
+    {
+        id: 'SPB_20260906_1',
+        date: '2026-09-06',
+        name: 'Петербургская осень',
+        place: 'Петяярви',
+        type: 'ORIENT',
+        o_site: '260906',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20260918_1',

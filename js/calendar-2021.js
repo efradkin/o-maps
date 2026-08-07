@@ -1586,11 +1586,11 @@ let events2021 = [
         o_site: '211010_long',
         reskeep: 496,
         strava: 6091647873,
-        gps: {
-            'М21':'https://viewer.o-gps-center.ru/viewer/event/11235/',
-            'Ж21':'https://viewer.o-gps-center.ru/viewer/event/11241/',
-            'М20/40':'https://viewer.o-gps-center.ru/viewer/event/11249/',
-            'ALL':'https://viewer.o-gps-center.ru/viewer/event/11230/'
+        o_gps: {
+            'М21':11235,
+            'Ж21':11241,
+            'М20/40':11249,
+            'ALL':11230
         },
         map: 'tsvelodubovo_south_2021'
     },
