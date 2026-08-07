@@ -729,7 +729,7 @@ let vyborgMaps = [
         link: './original_maps/forest/vyborg/vyborg_saymenskie_dachi_2013_omaps.jpg',
         bounds: [[60.8025662, 28.7239265], [60.7972901, 28.7942219], [60.7625554, 28.7138844]],
         author: ['KRYLS','SMLGS','TMLNS'],
-        planner: 'TLNV_A'
+        // planner: 'TLNV_A' TODO
     },
     {
         name: 'Выборг, Лазаревка',
