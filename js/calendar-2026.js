@@ -2087,6 +2087,7 @@ let events2026 = [
         place: 'Яппиля, Заовражные оз',
         reg: 'https://orgeo.ru/event/48938',
         link: 'https://vk.com/event166397868',
+        res: 'https://vk.ru/wall-166397868_5518',
         o_gps: 25723,
         type: 'ROGAINE',
         fmt: '4',
@@ -2126,7 +2127,9 @@ let events2026 = [
         o_gps: 25721,
         type: 'ORIENT',
         map: 'vyborg_saymenskie_dachi_2013',
-        owner: 'VYBORG'
+        owner: 'VYBORG',
+        strava: 19652564288,
+        me: 'А'
     },
     {
         id: 'SPB_20260809_1',
@@ -2138,6 +2141,7 @@ let events2026 = [
         type: 'VELO',
         fmt: 'масстарт',
         owner: 'SFSO_SPB',
+        photo: 'https://vk.ru/album-154221178_311697593',
         map: 'zerkalny_velo_2023'
     },
     {

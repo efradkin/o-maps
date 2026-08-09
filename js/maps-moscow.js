@@ -3538,6 +3538,18 @@ let moscowMaps = [
         zindex: 2
     },
     {
+        name: 'Преображенское',
+        year: 2026,
+        url: './maps/moscow/lr/preobrazhenskoe_2026.png',
+        owner: 'ALNKV_A',
+        in_work: true,
+        order: {
+            author: 'ALNKV_A',
+        },
+        bounds: [[55.7959302, 37.7007008]],
+        type: ['CITY','SPRINT'],
+    },
+    {
         name: 'Яуза',
         year: 1,
         url: './maps/moscow/sz/yauza_old.webp',

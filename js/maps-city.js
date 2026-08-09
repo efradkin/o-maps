@@ -2433,7 +2433,6 @@ let cityMaps = [
         year: 2026,
         url: './maps/city/pushkin_school_407_2026.png',
         bounds: [[59.7405904, 30.3940630], [59.7421474, 30.4184818], [59.7374545, 30.3948355]],
-        author: 'SHRNN',
         owner: 'EGRV_EGR',
         in_work: true,
         order: {

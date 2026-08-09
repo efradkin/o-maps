@@ -1409,7 +1409,7 @@ function buildMapPopup(m) {
         } else {
             result += 'Запрос на редактирование/составление карты';
         }
-        if (m.order.ready) {
+        if (m.order && m.order.ready) {
             result += `. Приблизительная дата готовности - ${m.order.ready}`;
         }
         result += `${from ? '. Заказчик - ' + from : ''}.<br />`;

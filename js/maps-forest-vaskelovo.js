@@ -200,7 +200,7 @@ let vaskelovoMaps = [
         owner:  ['RDNV_B','RDNV_I']
     },
     {
-        name: 'оз Силанде',
+        name: 'Силанде',
         year: 2026,
         url: './maps/forest/vaskelovo/silande_2026.png',
         in_work: true,
@@ -208,7 +208,6 @@ let vaskelovoMaps = [
             author: 'RDNV_I',
         },
         bounds: [[60.4150813, 30.2384949], [60.4111825, 30.2670765], [60.3974058, 30.2257061]],
-        author: ['RDNV_I','DBRTSV_V'],
         owner:  'RDNV_I'
     },
     {
@@ -249,7 +248,6 @@ let vaskelovoMaps = [
             ready: 'Сентябрь 2026',
             author: 'RDNV_I',
         },
-        author: 'RDNV_I',
         owner:  'RDNV_I'
     },
     {
