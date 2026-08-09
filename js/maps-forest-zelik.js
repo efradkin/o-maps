@@ -52,7 +52,6 @@ let zelikMaps = [
         url: './maps/forest/zelik/lovetskoe_2025.webp',
         link: './original_maps/forest/zelik/lovetskoe_2025_omaps.gif',
         author: 'RDNV_I',
-        in_work: true,
         bounds: [[60.2734935, 29.6956158], [60.2713016, 29.7204208], [60.254783, 29.6874619]],
         o_gps: 23863
     },
@@ -743,7 +742,7 @@ let zelikMaps = [
         owner: 'RDNV_I'
     },
     {
-        name: 'Серово',
+        name: 'Серово, Смерть-гора',
         year: 2024,
         url: './maps/forest/zelik/serovo_2024.webp',
         link: './original_maps/forest/zelik/serovo_2024_omaps.jpg',

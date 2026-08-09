@@ -1409,6 +1409,9 @@ function buildMapPopup(m) {
         } else {
             result += 'Запрос на редактирование/составление карты';
         }
+        if (m.order.ready) {
+            result += `. Приблизительная дата готовности - ${m.order.ready}`;
+        }
         result += `${from ? '. Заказчик - ' + from : ''}.<br />`;
         result += buildOrderInfo(m, true, true, false);
         result += '</div><br />';
@@ -1563,33 +1566,36 @@ function getRestrictedText(m) {
     return `<span class="restricted-text">Район закрыт ${m.restricted} ${!m.restricted.endsWith('!') ? '.' : ''}</span>`;
 }
 
-function buildAuthors(m, withIcon) {
+function buildAuthors(m, withIcon, forOrder) {
     let result = '';
-    if (Array.isArray(m.author)) {
-        result += '<ol>'
-        for (const a of m.author) {
-            if (authors[a]) {
-                result += '<li>';
-                if (withIcon && authors[a].logo) {
-                    result += '<img src="./logo/' + authors[a].logo + '" alt="Лого" class="sheet-icon" /> ';
+    const author = forOrder ? (m.order ? m.order.author : null) : m.author;
+    if (author) {
+        if (Array.isArray(author)) {
+            result += '<ol>'
+            for (const a of author) {
+                if (authors[a]) {
+                    result += '<li>';
+                    if (withIcon && authors[a].logo) {
+                        result += '<img src="./logo/' + authors[a].logo + '" alt="Лого" class="sheet-icon" /> ';
+                    }
+                    result += authorLabel(authors[a]);
+                    if (m.areas) {
+                        let idx = author.indexOf(a);
+                        result += ' (' + m.areas[idx] + '%)';
+                    }
+                    result += '</li>';
+                    populateAuthor(m, a);
                 }
-                result += authorLabel(authors[a]);
-                if (m.areas) {
-                    let idx = m.author.indexOf(a);
-                    result += ' (' + m.areas[idx] + '%)';
+            }
+            result += '</ol>'
+        } else {
+            if (authors[author]) {
+                if (withIcon && authors[author].logo) {
+                    result += '<img src="./logo/' + authors[author].logo + '" alt="Лого" class="sheet-icon" /> ';
                 }
-                result += '</li>';
-                populateAuthor(m, a);
+                result += authorLabel(authors[author]) + '<br />';
+                populateAuthor(m, author);
             }
-        }
-        result += '</ol>'
-    } else {
-        if (authors[m.author]) {
-            if (withIcon && authors[m.author].logo) {
-                result += '<img src="./logo/' + authors[m.author].logo + '" alt="Лого" class="sheet-icon" /> ';
-            }
-            result += authorLabel(authors[m.author]) + '<br />';
-            populateAuthor(m, m.author);
         }
     }
     return result;

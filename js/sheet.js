@@ -153,7 +153,7 @@ function renderMapsTable() {
         td(m, row, buildDownloadLinks(m.link, m.links));
         if (theOrdersPage) {
             td(m, row, buildOrderCustomer(m));
-            td(m, row, buildOrderInfo(m, false, false, true));
+            td(m, row, buildOrderInfo(m, false, false, true) || m.info || '');
         } else {
             td(m, row, buildInfo(m, cal));
         }
@@ -167,8 +167,8 @@ function renderMapsTable() {
                 td(m, row, buildGpsLinks(m, 'o-gps.gif', cal));
             }
         }
-        let authors = buildAuthors(m, true);
         if (!isUnknownPage()) {
+            const authors = buildAuthors(m, false);
             if (authors) {
                 hasAuthors = true;
             }
@@ -176,7 +176,7 @@ function renderMapsTable() {
         }
         if (!isMapsOnStorePage()) {
             if (!isDocumentsPage() && !theOrdersPage) {
-                let planners = buildPlanners(m, cal);
+                const planners = buildPlanners(m, cal);
                 if (planners) {
                     hasPlanners = true;
                 }
@@ -195,7 +195,9 @@ function renderMapsTable() {
             td(m, row, buildFotos(m, 'books'));
         }
         if (theOrdersPage) {
+            const authors = buildAuthors(m, false, true);
             td(m, row, m.in_work ? authors : '');
+            td(m, row, safe(m.order ? m.order.ready : ''));
         }
         tbody.appendChild(row);
     }

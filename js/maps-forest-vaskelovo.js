@@ -187,12 +187,36 @@ let vaskelovoMaps = [
         author: ['DBRTSV_V','LBDKN','KUZNTSV_V'],
     },
     {
+        name: 'Стеклянный, оз Силанде',
+        year: 2026,
+        url: './maps/forest/vaskelovo/steklyanny_2026.png',
+        in_work: true,
+        order: {
+            ready: 'Сентябрь 2026',
+            author: ['RDNV_B','RDNV_I'],
+        },
+        bounds: [[60.4049943, 30.2329159], [60.3959218, 30.2538586], [60.3901972, 30.2052784]],
+        author: ['RDNV_B','RDNV_I','DBRTSV_V'],
+        owner:  ['RDNV_B','RDNV_I']
+    },
+    {
+        name: 'оз Силанде',
+        year: 2026,
+        url: './maps/forest/vaskelovo/silande_2026.png',
+        in_work: true,
+        order: {
+            author: 'RDNV_I',
+        },
+        bounds: [[60.4150813, 30.2384949], [60.4111825, 30.2670765], [60.3974058, 30.2257061]],
+        author: ['RDNV_I','DBRTSV_V'],
+        owner:  'RDNV_I'
+    },
+    {
         name: 'Силанде',
         date: '2025-06-20',
         url: './maps/forest/vaskelovo/silande_2025.webp',
         link: './original_maps/forest/vaskelovo/silande_2025_omaps.jpg',
         o_gps: 23126,
-        in_work: true,
         bounds: [[60.4042101, 30.2336025], [60.4021117, 30.2620983], [60.384408, 30.2274656]],
         author: ['RDNV_B','RDNV_I','DBRTSV_V'],
         owner:  ['RDNV_B','RDNV_I']
@@ -213,6 +237,20 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/vjun_1984_omaps.webp',
         bounds: [[60.3867196, 30.2744579], [60.384005, 30.3081465], [60.3689862, 30.2712822]],
         author: ['LVCHV','SVTKN']
+    },
+    {
+        name: 'Вьюн',
+        year: 2026,
+        url: './maps/forest/vaskelovo/vjun_2026.png',
+        bounds: [[60.3862530, 30.2772903], [60.3843868, 30.3021812], [60.3689862, 30.2712822]],
+        info: 'Спринтерский район в лесных знаках.',
+        in_work: true,
+        order: {
+            ready: 'Сентябрь 2026',
+            author: 'RDNV_I',
+        },
+        author: 'RDNV_I',
+        owner:  'RDNV_I'
     },
     {
         name: 'Васкелово, Банное оз',
