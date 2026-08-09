@@ -673,6 +673,14 @@ let vyborgMaps = [
         owner: 'NW'
     },
     {
+        name: 'Выборг, Балашовское ш',
+        year: 2026,
+        url: './maps/forest/vyborg/vyborg_balashovskoe_2026.webp',
+        bounds: [[60.6881620, 28.7233257], [60.6865862, 28.7430668], [60.6749546, 28.7182403]],
+        author: 'PDVZKN',
+        owner: 'VYBORG'
+    },
+    {
         name: 'Возрождение, оз Петровское',
         year: 1992,
         startYear: 1993,

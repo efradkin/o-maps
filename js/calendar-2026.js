@@ -2056,6 +2056,7 @@ let events2026 = [
         info: 'Новая карта.',
         type: 'ORIENT',
         coord: [60.6833, 28.7345],
+        map: 'vyborg_balashovskoe_2026',
         owner: 'VYBORG'
     },
     {
