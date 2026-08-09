@@ -2086,6 +2086,7 @@ let events2026 = [
         place: 'Яппиля, Заовражные оз',
         reg: 'https://orgeo.ru/event/48938',
         link: 'https://vk.com/event166397868',
+        o_gps: 25723,
         type: 'ROGAINE',
         fmt: '4',
         owner: 'SHBN',
@@ -2120,6 +2121,8 @@ let events2026 = [
         place: 'Выборг, Сайменские дачи',
         o_site: '260808_V',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1753',
+        reskeep: 908,
+        o_gps: 25721,
         type: 'ORIENT',
         map: 'vyborg_saymenskie_dachi_2013',
         owner: 'VYBORG'
