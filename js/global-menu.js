@@ -94,7 +94,7 @@ const GLOBAL_MENU_ITEMS = [
     {
         title: 'Разное',
         menuItems: [
-            { title: '🗺️ Запросы на рисовку', page: 'spb.html?orders' },
+            { title: '🗺️ Запросы на рисовку', page: 'sheet-orders.html' },
             {
                 title: '🏆 Чемпионат СССР',
                 menuItems: [

@@ -484,7 +484,7 @@ body.sub-index-body {
     margin-bottom: 10px;
 }
 .sheet-filters {
-    margin: 20px 0 10px -170px;
+    margin: -5px 0 10px -170px;
     white-space: nowrap;
 }
 .sheet-map-link-label {

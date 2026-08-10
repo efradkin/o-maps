@@ -210,9 +210,8 @@
                 oMaps = oMaps.filter(m => isOrientMap(m) && !isRogaine(m)); break;
         }
 
-        const REGION_PARAM = urlParams.get('region');
-        if (REGION_PARAM && REGION_PARAM !== 'ALL') {
-            switch (REGION_PARAM) {
+        if (REGION_NAME_PARAM && REGION_NAME_PARAM !== 'ALL') {
+            switch (REGION_NAME_PARAM) {
                 case 'SPB':
                     oMaps = oMaps.filter(m => m.region === 'SPB' || m.region === 'LNGRD');
                     break;
@@ -221,7 +220,7 @@
                 case 'PSKOV':
                 case 'RYAZAN':
                 case 'SAMARA':
-                    oMaps = oMaps.filter(m => m.region === REGION_PARAM);
+                    oMaps = oMaps.filter(m => m.region === REGION_NAME_PARAM);
                     break;
                 case 'OTHER':
                     oMaps = oMaps.filter(m => m.region !== 'SPB' && m.region !== 'LNGRD' && m.region !== 'MSK' && m.region !== 'BASH' && m.region !== 'PSKOV' && m.region !== 'RYAZAN' && m.region !== 'SAMARA');
@@ -248,8 +247,8 @@
             document.getElementById('map_type_selector').value = MAP_TYPE_PARAM;
         }
 
-        if (REGION_PARAM) {
-            document.getElementById('region_selector').value = REGION_PARAM;
+        if (REGION_NAME_PARAM) {
+            document.getElementById('region_selector').value = REGION_NAME_PARAM;
         }
 
         writeWelcomeButton();

@@ -297,6 +297,7 @@ const HAS_CALENDAR_PARAM = urlParams.has('calendar');
 const CALENDAR_PARAM = urlParams.get('calendar') ?? urlParams.get('event-type');
 let START_NAME_PARAM = urlParams.get('start');
 let REGION_NAME_PARAM = urlParams.get('region');
+let ORDER_STATUS_PARAM = urlParams.get('order-status');
 const HAS_POI_PARAM = urlParams.has('poi');
 const HAS_OOPT_PARAM = urlParams.has('oopt');
 
@@ -562,13 +563,16 @@ function mapLink(url, m) { // m - for region
         }
     }
     let pathname = location.pathname;
-    if ((pathname.includes('map-info') || pathname.includes('maps-on-store') || pathname.includes('sheet-orders')) && !region) {
+    if ((pathname.includes('map-info') || pathname.includes('maps-on-store')) && !region) {
         region = 'spb';
+    }
+    else if (pathname.includes('sheet-orders')) {
+        region = 'all';
     }
     if (region) {
         pathname = '/' + region + '.html';
-    } else
-    if (pathname.includes('charts-')) {
+    }
+    else if (pathname.includes('charts-')) {
         pathname = pathname.split('charts-').join('');
     }
     else if (pathname.includes('sheet-')) {

@@ -47,7 +47,7 @@
 
         <nav class="page-header-actions" aria-label="Навигация по странице">
             <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
-            <a href="spb.html?orders" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
+            <a href="all.html?orders" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
             <script src="js/global-menu.js"></script>
             <script>
@@ -57,9 +57,24 @@
     </header>
 
     <div class="container">
-        <section>В этой таблице собраны районы, к составлению (или редактированию) карт которых есть интерес - это может быть как коммерческий заказ, так и пожелание местных жителей, ищущих энтузиаста.
+        <section>Тут собраны районы, к составлению (или редактированию) карт которых есть интерес - это может быть как коммерческий заказ, так и пожелание местных жителей, ищущих энтузиаста.
                  Кроме того, тут отмечены карты, работа над которыми уже начата, но ещё не завершена.</section>
-        <div class="start-maps-wrapper"></div>
+    </div>
+
+    <div class="sheet-filters">
+        <script src="js/sheet-filter.js"></script>
+
+        <select id="order_status_selector" class="header_selector" onchange="updateUrlParam('order-status', this.value)">
+            <option value="ALL">все статусы</option>
+            <option value="IN_PROGRESS">Уже в работе</option>
+            <option value="REQUEST">Ищем исполнителя</option>
+        </select>
+
+        <select id="region_selector" class="header_selector" onchange="updateUrlParam('region', this.value)">
+            <option value="ALL" selected>все регионы</option>
+            <option value="SPB">С-Петербург</option>
+            <option value="MSK">Москва</option>
+        </select>
     </div>
 
     <div class="o-sheet-roof">
@@ -72,6 +87,7 @@
                 <th>&nbsp</th>
                 <th data-sort="in-work" class="sortable">В работе</th>
                 <th data-sort="name" class="sortable" data-order="desc">Место</th>
+                <th data-sort="region" class="sortable">Регион</th>
                 <th data-sort="year" class="sortable">Год</th>
                 <th>Файлы</th>
                 <th>Заказчик</th>
@@ -113,15 +129,36 @@
         let loadImagesRequired = false;
         let ordersPage = true;
 
-        let oMaps = [
-            ...moscowMaps,
-            ...zelikMaps,
-            ...sosnovoMaps,
-            ...vaskelovoMaps,
-            ...forestMaps,
-            ...parkMaps,
-            ...cityMaps,
-        ];
+        let oMaps = [];
+        populateOMaps(forestMaps, 'SPB');
+        populateOMaps(zelikMaps, 'SPB');
+        populateOMaps(vaskelovoMaps, 'SPB');
+        populateOMaps(sosnovoMaps, 'SPB');
+        populateOMaps(parkMaps, 'SPB');
+        populateOMaps(cityMaps, 'SPB');
+        populateOMaps(moscowMaps, 'MSK');
+        /*
+                populateOMaps(funMaps, 'SPB');
+                populateOMaps(specialMaps, 'SPB');
+                populateOMaps(vyborgMaps, 'SPB');
+                populateOMaps(vsevolozhskMaps, 'SPB');
+                populateOMaps(southMaps, 'SPB');
+                populateOMaps(priozerskMaps, 'SPB');
+                populateOMaps(michuraMaps, 'SPB');
+                populateOMaps(toksovoMaps, 'SPB');
+                populateOMaps(schoolMaps, 'SPB');
+                populateOMaps(pskovMaps, 'PSKOV');
+                populateOMaps(bashMaps, 'BASH');
+                populateOMaps(ryazanMaps, 'RYAZAN');
+                populateOMaps(samaraMaps, 'SAMARA');
+                populateOMaps(nnMaps, 'N_NOVGOROD');
+                populateOMaps(serbiaMaps, 'SERBIA');
+                populateOMaps(otherMaps);
+                populateOMaps(rogaineRfarMaps, 'BASH');
+                populateOMaps(rogaineBeketovMaps, 'BASH');
+                populateOMaps(rogaineKkmMaps, 'BASH');
+                populateOMaps(rogaineMaps, 'BASH');
+        */
         oMaps = oMaps.filter(m => (m.order !== undefined || m.in_work));
 
         writeWelcomeButton();
@@ -133,6 +170,18 @@
     <script src="js/map-build.js"></script>
     <script src="js/main.js"></script>
     <script src="js/sheet.js"></script>
+
+    <script>
+        if (ORDER_STATUS_PARAM) {
+            document.getElementById('order_status_selector').value = ORDER_STATUS_PARAM;
+        }
+
+        if (REGION_NAME_PARAM) {
+            document.getElementById('region_selector').value = REGION_NAME_PARAM;
+        }
+
+        writeWelcomeButton();
+    </script>
 
     <noscript>
         <div id="noscript_content">

@@ -37,6 +37,13 @@ window.onload = function() {
             return REGION_NAME_PARAM === m.region;
         });
     }
+    if (ORDER_STATUS_PARAM) {
+        oMaps = oMaps.filter(m => {
+            if (ORDER_STATUS_PARAM === 'IN_PROGRESS') return m.in_work === true;
+            if (ORDER_STATUS_PARAM === 'REQUEST') return m.in_work !== true;
+            return true;
+        });
+    }
     if (HAS_ONLY_ME_PARAM) {
         oMaps = oMaps.filter(m => {
             return m.me !== undefined;
@@ -143,6 +150,9 @@ function renderMapsTable() {
             td(m, row, (m.in_work ? '✅' : ''));
         }
         td(m, row, buildName(m, theOrdersPage));
+        if (theOrdersPage) {
+            td(m, row, regions[m.region].name);
+        }
         td(m, row, buildSheetDate(m));
         if (!isUnknownPage() && !isBooksPage() && !theOrdersPage) {
             td(m, row, buildStart(m));
@@ -422,6 +432,11 @@ function sortMapsTable() {
         case 'start':
             oMaps.sort((a, b) => {
                 return isAscending ? (safeStart(a)).localeCompare(safeStart(b)) : (safeStart(b)).localeCompare(safeStart(a));
+            });
+            break;
+        case 'region':
+            oMaps.sort((a, b) => {
+                return isAscending ? (a.region).localeCompare(b.region) : (b.region).localeCompare(a.region);
             });
             break;
         case 'owner':
