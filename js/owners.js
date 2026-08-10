@@ -454,7 +454,10 @@ let owners = {
         logo: 'mm.webp'
     },
     TSLSCHVA: {
-        name: '© Целищева Валентина (<a href="https://vk.com/valyat2">ВК</a>)' // Переляева
+        name: '© Целищева Валентина (<a href="https://vk.com/valyat2">ВК</a>)', // Переляева
+        order: {
+            name: 'Валентина Целищева (<a href="https://vk.com/valyat2">ВК</a>)'
+        }
     },
     TTV_A: {
         name: '© Титов Алексей, +7 915 476 2397'

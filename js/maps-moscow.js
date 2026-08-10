@@ -6549,7 +6549,11 @@ let moscowMaps = [
         link: ['./original_maps/moscow/prudno_2016_omaps.gif','./original_maps/moscow/prudno_2016_omaps.ocd'],
         bounds: [[55.0335317, 37.7462769], [55.022315, 37.8550243], [54.9896308, 37.7335739]],
         author: 'GRSHKN',
-        owner: 'TSLSCHVA'
+        owner: 'TSLSCHVA',
+        order: {
+            owner: 'TSLSCHVA',
+            info: 'Карта существенно устарела - частично вырубена, частично застроена. Рисовщику могут предложить проживание в д.Прудно.'
+        }
     },
     {
         name: 'Хорлово, Белая гора',
