@@ -678,7 +678,7 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/vyborg_balashovskoe_2026.webp',
         bounds: [[60.6881620, 28.7233257], [60.6865862, 28.7430668], [60.6749546, 28.7182403]],
         author: 'PDVZKN',
-        owner: 'VYBORG'
+        owner: 'SFSO_VYBORG'
     },
     {
         name: 'Возрождение, оз Петровское',
