@@ -2126,6 +2126,16 @@ let cityMaps = [
         type: ['SPRINT','CITY']
     },
     {
+        name: 'Школа №584, ул Руднева',
+        year: 2026,
+        url: './maps/city/school_584_2026.webp',
+        link: './original_maps/schools/school_584_2026_omaps.gif',
+        bounds: [[60.0411517, 30.3554392], [60.0409052, 30.3577995], [60.0393675, 30.3546453]],
+        author: 'IVNVA_G',
+        owner: 'VOLKOV_AM',
+        type: ['SPRINT','CITY']
+    },
+    {
         name: 'Парнас, школа №469',
         year: 2024,
         url: './maps/city/school_469_2024.webp',

@@ -1804,6 +1804,17 @@ let parkMaps = [
         type: ['SPRINT', 'PARK']
     },
     {
+        name: 'усадьба Орловых-Денисовых',
+        year: 2025,
+        info: '<a href="https://vk.ru/wall-135156716_3200">Карта решений Trail-O</a>',
+        url: './maps/parks/orlovy_denisovy_2025.webp',
+        link: './original_maps/parks/orlovy_denisovy_2025_omaps.gif',
+        bounds: [[60.0210379, 30.2875578], [60.0206519, 30.2920425], [60.0178641, 30.2861416]],
+        author: 'IVNVA_G',
+        owner: 'VOLKOV_AM',
+        type: ['SPRINT', 'PARK']
+    },
+    {
         name: 'Сад Прометей',
         year: 2022,
         url: './maps/parks/forsh_2025.webp',
