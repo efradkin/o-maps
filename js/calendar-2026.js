@@ -1778,6 +1778,12 @@ let events2026 = [
         o_site: '260627r',
         reg: 'http://reg.o-time.ru/race/26238',
         info: '<a href="https://ladoga.o-route.ru/">Треки участников</a>.',
+        photo: [
+            'https://vk.ru/album-163764238_311421620',
+            'https://vk.ru/album-163764238_311421622',
+            'https://vk.ru/album-163764238_311421634',
+            'https://vk.ru/album-163764238_311421636'
+        ],
         o_gps: 25504,
         type: ['ROGAINE','WATER'],
         fmt: '12, 6, 4',
@@ -2083,14 +2089,15 @@ let events2026 = [
     {
         id: 'SPB_20260627_2',
         date: '2026-08-08',
-        name: 'Рогейн на холмах Яппиля (ККР №2)',
-        place: 'Яппиля, Заовражные оз',
+        name: 'Рогейн на холмах Яппиля, ККР №2',
+        place: 'Яппиля',
         reg: 'https://orgeo.ru/event/48938',
         link: 'https://vk.com/event166397868',
         res: 'https://vk.ru/wall-166397868_5518',
+        photo: 'https://vk.ru/album-166397868_311700050',
         o_gps: 25723,
         type: 'ROGAINE',
-        fmt: '4',
+        fmt: '3',
         owner: 'SHBN',
         map: 'jappilya_2024'
     },
@@ -2103,6 +2110,14 @@ let events2026 = [
         type: 'ROGAINE',
         link: 'https://hardadventure.ru/swamp2026',
         reg: 'https://reg.o-time.ru/race/26544',
+        photo: [
+            'https://vk.ru/album-163764238_311700800',
+            'https://vk.ru/album-163764238_311699902',
+            'https://vk.ru/album-163764238_311699787',
+            'https://vk.ru/album-163764238_311699785',
+            'https://vk.ru/album-163764238_311699777'
+        ],
+        o_gps: 25725,
         start: 'HARD'
     },
     {
@@ -2140,6 +2155,7 @@ let events2026 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1750',
         type: 'VELO',
         fmt: 'масстарт',
+        video: 'https://vk.com/video-220245153_456239104',
         owner: 'SFSO_SPB',
         photo: 'https://vk.ru/album-154221178_311697593',
         map: 'zerkalny_velo_2023'
