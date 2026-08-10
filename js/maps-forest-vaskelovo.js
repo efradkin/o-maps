@@ -370,6 +370,20 @@ let vaskelovoMaps = [
     },
     {
         name: 'Гарболово, Змеиное оз',
+        year: 2026,
+        url: './maps/forest/vaskelovo/garbolovo_zmeinoe_2026.png',
+        bounds: [[60.3462327, 30.4983044], [60.3338730, 30.5496311], [60.3308354, 30.4925108]],
+        owner: 'RDNV_I',
+        in_work: true,
+        order: {
+            info: '1:10000, H 5m.',
+            ready: 'Октябрь 2026',
+            owner: 'RDNV_I',
+            author: 'RDNV_I'
+        }
+    },
+    {
+        name: 'Гарболово, Змеиное оз',
         year: 2022,
         url: './maps/forest/vaskelovo/garbolovo_zmeinoe_2022.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_zmeinoe_2022_omaps.jpg',
