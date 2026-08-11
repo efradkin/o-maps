@@ -517,6 +517,7 @@ body.sub-index-body {
     .o-sheet-roof-stat {
         display: none;
         margin-top: 10px;
+        z-index: 100;
     }
 }
 .o-sheet-wrapper {

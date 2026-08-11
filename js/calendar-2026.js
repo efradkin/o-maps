@@ -2082,6 +2082,7 @@ let events2026 = [
         place: 'парк Интернационалистов',
         link: 'https://vk.ru/wall-30686281_24816',
         reg: 'https://forms.yandex.ru/u/6a6b0270d046884df21d73b5/',
+        res: 'https://vk.ru/wall-30686281_24890',
         type: 'ORIENT',
         map: 'internatsionalistov_2021',
         owner: 'FRUNZ_SPORT'

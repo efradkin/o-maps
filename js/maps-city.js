@@ -2192,6 +2192,16 @@ let cityMaps = [
         type: ['CITY']
     },
     {
+        name: 'Молодёжное',
+        year: 2026,
+        url: './maps/city/molodezhnoe_2026.png',
+        bounds: [[60.1959425, 29.5108223], [60.1960278, 29.5224094], [60.1919748, 29.5069599]],
+        order: {
+            owner: 'VOLKOV_AM'
+        },
+        type: ['CITY']
+    },
+    {
         name: 'Университет физкультуры и спорта им.Лесгафта',
         year: 2002,
         url: './maps/city/lesgafta_2002.webp',
