@@ -1,8 +1,8 @@
 /* =========================================================================
    O-Maps · theme.css — слой визуального обновления
    Подключается ПОСЛЕ main.css:
-       <link rel="stylesheet" href="css/main.css"/>
-       <link rel="stylesheet" href="css/theme.css"/>
+       <link rel="stylesheet" href="css/main.css?v=12"/>
+       <link rel="stylesheet" href="css/theme.css?v=1"/>
    Ничего не удаляет из main.css — только переопределяет.
    Чтобы откатить всё — уберите одну строку <link>.
    Каждый блок помечен [N], можно отключать по отдельности.
@@ -591,6 +591,38 @@ body.calendar-body .o-main-table td:last-child:not(.month-row) {
     transition: color .12s ease;
 }
 .leaflet-control-layers label:hover { color: var(--o-accent-dark); }
+
+/* Leaflet кладёт чекбокс и подпись в промежуточный <span> внутри <label>:
+   <label><span><input><span>текст</span></span></label>. Общий флекс на
+   label центрирует только этот внешний span, а внутри него чекбокс и текст
+   выравниваются по inline-потоку, где на них влияет vertical-align: -3px
+   чекбокса — подпись съезжает. Делаем внутренний span тоже флексом. */
+.leaflet-control-layers label > span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    line-height: 1.2;
+}
+/* второй ребёнок флекса — текстовый span; у пунктов-сепараторов он содержит
+   вложенный inline-span (.layer-separator / .layer-shifted) со своей высотой
+   строки. Приводим и его, и вложенный span к единой line-height, иначе
+   базовая линия текста уезжает относительно чекбокса. */
+.leaflet-control-layers label > span > span,
+.leaflet-control-layers label .layer-separator,
+.leaflet-control-layers label .layer-shifted {
+    line-height: 1.2;
+    display: inline;
+}
+/* внутри флекса vertical-align не действует, но Leaflet дополнительно
+   двигает чекбокс своими margin-top:2px и position:relative; top:1px —
+   их и обнуляем, иначе центрирование по вертикали ломается */
+.leaflet-control-layers-selector {
+    vertical-align: 0;
+    margin: 0;
+    top: 0;
+    position: static;
+    flex: none;
+}
 .leaflet-control-layers-separator {
     border-top: 1px solid var(--o-border) !important;
     margin: 9px 0 !important;

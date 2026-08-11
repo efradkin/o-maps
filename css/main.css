@@ -203,7 +203,7 @@ header.page-header h1 {
     position:absolute;
     width:100px;
     height:80px;
-    bottom:20px;
+    bottom:15px;
     left:15px;
     z-index: 777;
     text-shadow: 0 0 5px white, 0 0 5px white, 0 0 5px white, 0 0 5px white;
@@ -301,6 +301,9 @@ label:has(> span span .layer-shifted) {
     background-position: center;
     margin: 2px -2px;
     background-image: url(../images/chat_64.png);
+}
+.leaflet-bottom.leaflet-left .leaflet-control-scale {
+    margin-left: 80px;
 }
 .starts-body .leaflet-bottom.leaflet-right .leaflet-control:first-child {
     margin-bottom: 45px;
