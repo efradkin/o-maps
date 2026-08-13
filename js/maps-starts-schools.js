@@ -3,9 +3,8 @@ let schoolMaps = [
     // --- Парки ---
     {
         name: 'Митрополичий сад Александро-Невской Лавры',
-        date: '2015-05-14',
+        year: 2015,
         start: 'SCHOOL',
-        o_site: '150514',
         url: './maps/parks/lavra_2015.webp',
         link: './original_maps/parks/lavra_2015_omaps.gif',
         bounds: [[59.9214093, 30.3794289], [59.9214093, 30.3871107], [59.9178817, 30.3795576]],
@@ -13,10 +12,9 @@ let schoolMaps = [
     },
     {
         name: 'Школа №150, универсам САМПО',
-        date: '2016-10-19',
+        year: 2016,
         start: 'SCHOOL',
         excluded: true,
-        o_site: '161019s',
         url: './maps/city/school_150_2016.webp',
         link: ['./original_maps/schools/school_150_2016_omaps.gif','./original_maps/schools/school_150_2016_omaps.ocd'],
         bounds: [[60.029936, 30.3652239], [60.0276635, 30.3840208], [60.0226247, 30.3619194]],
@@ -25,9 +23,8 @@ let schoolMaps = [
     },
     {
         name: 'Сад Миранда, Купальный пруд, школа 638',
-        date: '2022-05-15',
+        year: 2019,
         start: 'SCHOOL',
-        o_site: '190515',
         url: './maps/parks/pavlovsk_sad_miranda_2020.webp',
         link: ['./original_maps/parks/school_638_2019_omaps.gif','./original_maps/parks/pavlovsk_sad_miranda_2020_omaps.jpg'],
         bounds: [[59.6905651, 30.4304552], [59.6905976, 30.4430938], [59.6851827, 30.4305625]],
@@ -38,8 +35,7 @@ let schoolMaps = [
     // --- Город ---
     {
         name: 'Школа №606, гимназия №406',
-        date: '2015-04-22',
-        o_site: '150422',
+        year: 2015,
         start: 'SCHOOL',
         url: './maps/city/school_606_2015.webp',
         link: ['./original_maps/schools/school_606_2015_omaps.gif','./original_maps/schools/school_606_2015_omaps.ocd'],
@@ -48,8 +44,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №98',
-        date: '2015-05-20',
-        o_site: '150520',
+        year: 2015,
         start: 'SCHOOL',
         url: './maps/city/school_98_2015.webp',
         link: ['./original_maps/schools/school_98_2015_omaps.gif','./original_maps/schools/school_98_2015_omaps.ocd'],
@@ -58,8 +53,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №141',
-        date: '2015-10-21',
-        o_site: '151021',
+        year: 2015,
         start: 'SCHOOL',
         url: './maps/city/school_141_2015.webp',
         link: ['./original_maps/schools/school_141_sosh_2015_omaps.gif','./original_maps/schools/school_141_2015_omaps.gif','./original_maps/schools/school_141_2015_omaps.ocd','./original_maps/schools/school_141_yard_2015_omaps.ocd'],
@@ -78,8 +72,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №559, гимназия №114',
-        date: '2016-04-27',
-        o_site: '160427',
+        year: 2016,
         start: 'SCHOOL',
         url: './maps/city/school_559_2016.webp',
         link: ['./original_maps/schools/school_559_2016_omaps.gif','./original_maps/schools/school_559_2016_omaps.ocd'],
@@ -116,8 +109,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №303',
-        date: '2016-09-28',
-        o_site: '160928',
+        year: 2016,
         start: 'SCHOOL',
         url: './maps/city/school_303_2016.webp',
         link: ['./original_maps/schools/school_303_2016_omaps.gif','./original_maps/schools/school_303_2016_omaps.ocd'],
@@ -126,8 +118,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №490',
-        date: '2016-10-12',
-        o_site: '161012',
+        year: 2016,
         start: 'SCHOOL',
         url: './maps/city/school_490_2016.webp',
         link: ['./original_maps/schools/school_490_sosh_2016_omaps.gif','./original_maps/schools/school_490_2017_omaps.gif','./original_maps/schools/school_490_2016_omaps.ocd','./original_maps/schools/school_490_2017_omaps.ocd'],
@@ -137,8 +128,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №529',
-        date: '2017-04-12',
-        o_site: '170412',
+        year: 2017,
         start: 'SCHOOL',
         url: './maps/city/school_529_2017.webp',
         link: ['./original_maps/schools/school_529_2017_omaps.gif','./original_maps/schools/school_529_2017_omaps.ocd'],
@@ -148,8 +138,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №604',
-        date: '2017-04-19',
-        o_site: '170419',
+        year: 2017,
         start: 'SCHOOL',
         url: './maps/city/school_604_2017.webp',
         link: ['./original_maps/schools/school_604_2017_omaps.gif','./original_maps/schools/school_604_2017_omaps.ocd'],
@@ -159,8 +148,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №69',
-        date: '2017-05-17',
-        o_site: '170517',
+        year: 2017,
         start: 'SCHOOL',
         url: './maps/city/school_69_2017.webp',
         link: ['./original_maps/schools/school_69_2017_omaps.gif','./original_maps/schools/school_69_2017_omaps.ocd'],
@@ -170,8 +158,7 @@ let schoolMaps = [
     },
     {
         name: 'Лицей №226',
-        date: '2017-10-04',
-        o_site: '171004',
+        year: 2017,
         start: 'SCHOOL',
         url: './maps/city/school_226_2017.webp',
         link: ['./original_maps/schools/school_226_2017_omaps.gif','./original_maps/schools/school_226_2017_omaps.ocd'],
@@ -181,8 +168,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №133',
-        date: '2017-10-18',
-        o_site: '171018',
+        year: 2017,
         start: 'SCHOOL',
         url: './maps/city/school_133_2017.webp',
         link: ['./original_maps/schools/school_133_sosh_2017_omaps.gif','./original_maps/schools/school_133_2017_omaps.gif','./original_maps/schools/school_133_2017_omaps.ocd'],
@@ -191,8 +177,7 @@ let schoolMaps = [
     },
     {
         name: 'Пушкин, школа №552',
-        date: '2018-04-18',
-        o_site: '180418',
+        year: 2018,
         start: 'SCHOOL',
         url: './maps/city/pushkin_school_552_2018.webp',
         link: ['./original_maps/schools/pushkin_school_552_2018_omaps.jpg','./original_maps/schools/pushkin_school_552_2018_omaps.ocd'],
@@ -203,8 +188,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №467',
-        date: '2018-04-25',
-        o_site: '180425',
+        year: 2018,
         start: 'SCHOOL',
         url: './maps/city/school_467_2018.webp',
         link: ['./original_maps/schools/school_467_2018_omaps.gif','./original_maps/schools/school_467_2018_omaps.ocd'],
@@ -214,8 +198,7 @@ let schoolMaps = [
     },
     {
         name: 'Гимназия №642 "Земля и Вселенная"',
-        date: '2018-05-16',
-        o_site: '180516',
+        year: 2018,
         start: 'SCHOOL',
         url: './maps/city/school_642_2018.webp',
         link: ['./original_maps/schools/school_642_2018_omaps.gif','./original_maps/schools/school_642_2018_omaps.ocd'],
@@ -225,8 +208,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №175',
-        date: '2018-10-10',
-        o_site: '181010',
+        year: 2018,
         start: 'SCHOOL',
         url: './maps/city/school_175_2018.webp',
         link: ['./original_maps/schools/school_175_2018_omaps.gif','./original_maps/schools/school_175_2018_omaps.ocd'],
@@ -235,8 +217,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №212',
-        date: '2018-10-24',
-        o_site: '181024',
+        year: 2018,
         start: 'SCHOOL',
         url: './maps/city/school_212_2018.webp',
         link: ['./original_maps/schools/school_212_2018_omaps.gif','./original_maps/schools/school_212_2018_omaps.ocd'],
@@ -246,8 +227,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №312',
-        date: '2019-05-15',
-        o_site: '190515',
+        year: 2019,
         start: 'SCHOOL',
         url: './maps/city/school_312_2021.webp',
         link: ['./original_maps/schools/school_312_2019_omaps.gif','./original_maps/schools/school_312_2019_omaps.ocd'],
@@ -257,9 +237,8 @@ let schoolMaps = [
     },
     {
         name: 'Лицей №384',
-        date: '2019-02-17',
+        year: 2019,
         start: 'SCHOOL',
-        o_site: '190918',
         url: './maps/city/narvskaya_384_school_2019.webp',
         link: ['./original_maps/schools/narvskaya_384_school_2019_omaps.gif','./original_maps/schools/narvskaya_384_school_2019_omaps.ocd'],
         bounds: [[59.8981288, 30.273664], [59.8981826, 30.2759814], [59.8964822, 30.2734923]],
@@ -269,8 +248,7 @@ let schoolMaps = [
     },
     {
         name: 'Пушкин, школа №645',
-        date: '2021-02-10',
-        info: 'Инфо и результаты: <a href="https://o-site.spb.ru/race.php?id=160420">20.04.2016</a>, <a href="https://o-site.spb.ru/race.php?id=210210">10.02.2021</a>',
+        year: 2021,
         start: 'SCHOOL',
         url: './maps/city/pushkin_school_645.webp',
         link: ['./original_maps/schools/pushkin_school_645_omaps.jpg','./original_maps/schools/school_645_2021_open_omaps.gif','./original_maps/schools/pushkin_school_645_omaps.gif','./original_maps/schools/pushkin_school_645_omaps.ocd'],
@@ -281,8 +259,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №482',
-        date: '2021-02-17',
-        info: 'Инфо и результаты: <a href="https://www.o-site.spb.ru/race.php?id=151007">07.10.2015</a>, <a href="https://o-site.spb.ru/race.php?id=210217">17.02.2021</a>',
+        year: 2021,
         start: 'SCHOOL',
         url: './maps/city/school_482_2021.webp',
         link: ['./original_maps/schools/school_482_2015_omaps.gif','./original_maps/schools/school_482_2015_omaps.ocd','./original_maps/schools/school_482_2021_omaps.gif','./original_maps/schools/school_482_2021_omaps.ocd'],
@@ -292,8 +269,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №292',
-        date: '2021-04-21',
-        o_site: '210421',
+        year: 2021,
         start: 'SCHOOL',
         url: './maps/city/school_292_2021.webp',
         link: ['./original_maps/schools/school_292_2021_omaps.gif','./original_maps/schools/school_292_2021_omaps.ocd'],
@@ -303,8 +279,7 @@ let schoolMaps = [
     },
     {
         name: 'Школы №150, 158',
-        date: '2021-04-28',
-        info: 'Инфо и результаты: <a href="https://o-site.spb.ru/race.php?id=191023">23.10.2019</a>, <a href="https://o-site.spb.ru/race.php?id=210428">28.04.2021</a>',
+        year: 2021,
         start: 'SCHOOL',
         url: './maps/city/school_158_2021.webp',
         link: ['./original_maps/schools/school_150_2019_omaps.gif','./original_maps/schools/school_150_2019_omaps.ocd','./original_maps/schools/school_158_2021_omaps.gif','./original_maps/schools/school_158_2021_omaps.ocd'],
@@ -314,8 +289,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №556',
-        date: '2021-05-13',
-        o_site: '210513',
+        year: 2021,
         start: 'SCHOOL',
         url: './maps/city/school_556_2021.webp',
         link: ['./original_maps/schools/school_556_2021_omaps.gif','./original_maps/schools/school_556_2021_omaps.ocd'],
@@ -325,8 +299,7 @@ let schoolMaps = [
     },
     {
         name: 'Гимназия №11',
-        date: '2021-05-19',
-        o_site: '210519',
+        year: 2021,
         start: 'SCHOOL',
         url: './maps/city/school_11_2021.webp',
         link: ['./original_maps/schools/school_11_2021_omaps.gif','./original_maps/schools/school_11_2021_omaps.ocd'],
@@ -335,8 +308,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №303',
-        date: '2021-05-18',
-        o_site: '220518',
+        year: 2022,
         start: 'SCHOOL',
         url: './maps/city/school_303_2022.webp',
         link: ['./original_maps/schools/school_303_2022_omaps.gif','./original_maps/schools/school_303_2022_omaps.ocd'],
@@ -346,8 +318,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №468, лицей №101',
-        date: '2021-09-14',
-        info: 'Инфо и результаты: <a href="https://o-site.spb.ru/race.php?id=141015">15.10.2014</a>, <a href="https://o-site.spb.ru/race.php?id=220914">14.09.2022</a>.',
+        year: 2022,
         start: 'SCHOOL',
         url: './maps/city/school_468_2014.webp',
         link: ['./original_maps/schools/school_468_2014_omaps.gif','./original_maps/schools/school_468_2014_omaps.ocd','./original_maps/schools/school_468_2022_omaps.gif','./original_maps/schools/school_468_2022_omaps.ocd'],
@@ -357,8 +328,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №149',
-        date: '2021-09-21',
-        info: 'Инфо и результаты: <a href="https://www.o-site.spb.ru/race.php?id=150930">30.09.2015</a>, <a href="https://o-site.spb.ru/race.php?id=220921">21.09.2022</a>.',
+        year: 2022,
         start: 'SCHOOL',
         url: './maps/city/school_149_2022.webp',
         link: ['./original_maps/schools/school_149_2015_omaps.gif','./original_maps/schools/school_149_2015_omaps.ocd','./original_maps/schools/school_149_2022_omaps.gif','./original_maps/schools/school_149_2022_omaps.ocd'],
@@ -367,8 +337,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №464',
-        date: '2023-09-27',
-        o_site: '230927',
+        year: 2023,
         start: 'SCHOOL',
         url: './maps/city/school_464_2023.webp',
         link: ['./original_maps/schools/school_464_2023_omaps.gif','./original_maps/schools/school_464_2023_omaps.ocd'],
@@ -396,8 +365,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №437',
-        date: '2023-09-29',
-        o_site: '230929',
+        year: 2023,
         start: 'SCHOOL',
         url: './maps/city/school_437_2023.webp',
         link: ['./original_maps/schools/school_437_2023_omaps.gif','./original_maps/schools/school_437_2023_omaps.ocd'],
@@ -406,8 +374,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №57',
-        date: '2023-10-03',
-        o_site: '231003',
+        year: 2023,
         start: 'SCHOOL',
         url: './maps/city/school_57_2023.webp',
         link: ['./original_maps/schools/school_57_2023_omaps.gif','./original_maps/schools/school_57_2023_omaps.ocd'],
@@ -417,8 +384,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №339',
-        date: '2024-10-02',
-        o_site: '241002',
+        year: 2024,
         start: 'SCHOOL',
         url: './maps/city/school_339_2024.webp',
         link: ['./original_maps/schools/school_339_2024_omaps.gif','./original_maps/schools/school_339_2024_omaps.ocd'],
@@ -428,8 +394,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №605',
-        date: '2024-10-09',
-        o_site: '241009',
+        year: 2024,
         start: 'SCHOOL',
         url: './maps/city/school_605_2024.webp',
         link: ['./original_maps/schools/school_605_2024_omaps.gif','./original_maps/schools/school_605_2024_omaps.ocd'],
@@ -438,8 +403,7 @@ let schoolMaps = [
     },
     {
         name: 'Лицей №101',
-        date: '2024-10-25',
-        o_site: '240925',
+        year: 2024,
         start: 'SCHOOL',
         url: './maps/city/school_101_2024.webp',
         link: ['./original_maps/schools/school_101_2024_omaps.gif','./original_maps/schools/school_101_2024_omaps.ocd'],
@@ -449,8 +413,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №161',
-        date: '2025-09-17',
-        o_site: '250917',
+        year: 2025,
         start: 'SCHOOL',
         url: './maps/city/school_161_2025.webp',
         link: ['./original_maps/schools/school_161_2025_omaps.gif','./original_maps/schools/school_161_2025_omaps.ocd'],
@@ -460,8 +423,7 @@ let schoolMaps = [
     },
     {
         name: 'Школа №221',
-        date: '2025-09-23',
-        o_site: '250923',
+        year: 2025,
         start: 'SCHOOL',
         url: './maps/city/school_221_2025.webp',
         link: ['./original_maps/schools/school_221_2025_omaps.gif','./original_maps/schools/school_221_2025_omaps.ocd','./original_maps/schools/school_221_2025_dist_omaps.ocd'],
