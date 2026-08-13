@@ -83,7 +83,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150207/150207_res.pdf',
         info: 'Маркированная дистанция с проколами',
         start: 'VOLKOV_A',
-        o_site: '150207'
+        o_site: '150207',
+        map: 'volkov_2015_02_07'
     },
     {
         id: 'SPB_20150208_1',

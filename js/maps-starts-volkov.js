@@ -3,9 +3,8 @@ let volkovStartsMaps = [
     {
         name: 'Пухтолова гора',
         start: 'VOLKOV_A',
-        date: '2006-01-29',
+        year: 2006,
         info: 'Маркир.',
-        o_site: '060129_MV',
         url: './maps/starts/volkov/volkov_2006_01_29.webp',
         link: './original_maps/starts/volkov/volkov_2006_01_29_omaps.jpg',
         bounds: [[60.2428785, 29.6382809], [60.239939, 29.6780205], [60.2289454, 29.6352339]],
@@ -14,9 +13,8 @@ let volkovStartsMaps = [
     {
         name: 'Зеленогорск, оз Дружинное',
         start: 'VOLKOV_A',
-        date: '2008-02-03',
+        year: 2008,
         info: 'Маркир.',
-        o_site: '080203',
         url: './maps/starts/volkov/volkov_2008_02_03.webp',
         link: './original_maps/starts/volkov/volkov_2008_02_03_omaps.jpg',
         author: ['BYMKV','SHRNN','KUZNTSV_S','VSLVSKY'],
@@ -25,9 +23,8 @@ let volkovStartsMaps = [
     {
         name: 'Орехово, база ПАН',
         start: 'VOLKOV_A',
-        date: '2009-02-01',
+        year: 2009,
         info: 'Маркир.',
-        o_site: '090201',
         url: './maps/starts/volkov/volkov_2009_02_01.webp',
         link: './original_maps/starts/volkov/volkov_2009_02_01_omaps.gif',
         author: ['NSNV','VSLVSKY'],
@@ -36,9 +33,8 @@ let volkovStartsMaps = [
     {
         name: 'Орехово, Бол Борково оз',
         start: 'VOLKOV_A',
-        date: '2010-02-06',
+        year: 2010,
         info: 'Маркир.',
-        o_site: '100206',
         url: './maps/starts/volkov/volkov_2010_02_06.webp',
         link: './original_maps/starts/volkov/volkov_2010_02_06_omaps.jpg',
         author: ['MKHLV_A','SLBDNK'],
@@ -47,9 +43,8 @@ let volkovStartsMaps = [
     {
         name: 'Кузьмоловский',
         start: 'VOLKOV_A',
-        date: '2011-02-12',
+        year: 2011,
         info: 'Маркир.',
-        o_site: '110212',
         url: './maps/starts/volkov/volkov_2011_02_12.webp',
         link: './original_maps/starts/volkov/volkov_2011_02_12_omaps.gif',
         author: ['DBRTSV_V','SHRNN'],
@@ -58,9 +53,8 @@ let volkovStartsMaps = [
     {
         name: 'Зеркальный',
         start: 'VOLKOV_A',
-        date: '2013-02-23',
+        year: 2013,
         info: 'Маркир.',
-        o_site: '130224',
         url: './maps/starts/volkov/volkov_2013_02_23.webp',
         link: './original_maps/starts/volkov/volkov_2013_02_23_omaps.gif',
         author: ['VRBY','MLNKV_L'],
@@ -69,9 +63,8 @@ let volkovStartsMaps = [
     {
         name: 'Зеркальный',
         start: 'VOLKOV_A',
-        date: '2015-02-07',
+        year: 2015,
         info: 'Маркир.',
-        o_site: '150207',
         url: './maps/starts/volkov/volkov_2015_02_07.webp',
         link: './original_maps/starts/volkov/volkov_2015_02_07_omaps.pdf',
         author: ['VRBY','MLNKV_L'],
@@ -80,9 +73,8 @@ let volkovStartsMaps = [
     {
         name: 'Зеркальный',
         start: 'VOLKOV_A',
-        date: '2017-02-11',
+        year: 2017,
         info: 'Маркир.',
-        o_site: '170211',
         url: './maps/starts/volkov/volkov_2017_02_11.webp',
         link: './original_maps/starts/volkov/volkov_2017_02_11_omaps.gif',
         bounds: [[60.2642141, 29.1188335], [60.2603398, 29.1678429], [60.2468826, 29.1122246]]
@@ -90,9 +82,8 @@ let volkovStartsMaps = [
     {
         name: 'Кузьмоловский',
         start: 'VOLKOV_A',
-        date: '2019-02-17',
+        year: 2019,
         info: 'Маркир-Д.',
-        o_site: '190217',
         url: './maps/starts/volkov/volkov_2019_02_17.webp',
         link: './original_maps/starts/volkov/volkov_2019_02_17_omaps.png',
         bounds: [[60.1283408, 30.5191612], [60.127101, 30.5446529], [60.1097398, 30.5145264]],

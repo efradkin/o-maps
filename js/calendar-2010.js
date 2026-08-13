@@ -80,7 +80,8 @@ let events2010 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100206/100206_res_it.pdf',
         start: 'VOLKOV_A',
-        o_site: '100206'
+        o_site: '100206',
+        map: 'volkov_2010_02_06'
     },
     {
         id: 'SPB_20100206_2',

@@ -49,7 +49,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/060129_MV/060129_MV_res.zip',
         info: 'Соревнования по спортивному ориентированию Первый мемориал Андрея Волкова',
         start: 'VOLKOV_A',
-        o_site: '060129_MV'
+        o_site: '060129_MV',
+        map: 'volkov_2006_01_29'
     },
     {
         id: 'SPB_20060205_1',

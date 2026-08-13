@@ -129,7 +129,9 @@ let events2019 = [
         name: 'Мемориал А.Волкова',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190217/190217_rez.htm',
-        o_site: '190217'
+        o_site: '190217',
+        map: 'volkov_2019_02_17',
+        start: 'VOLKOV_A'
     },
     {
         id: 'SPB_20190223_1',

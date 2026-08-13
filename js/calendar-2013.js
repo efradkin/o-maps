@@ -148,7 +148,8 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130224/130224_res.htm',
         start: 'VOLKOV_A',
-        o_site: '130224'
+        o_site: '130224',
+        map: 'volkov_2013_02_23'
     },
     {
         id: 'SPB_20130302_1',

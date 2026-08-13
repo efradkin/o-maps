@@ -83,7 +83,8 @@ let events2011 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/110212/110212_res.htm',
         start: 'VOLKOV_A',
-        o_site: '110212'
+        o_site: '110212',
+        map: 'volkov_2011_02_12'
     },
     {
         id: 'SPB_20110213_1',
