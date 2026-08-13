@@ -443,7 +443,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/06062225_MS/MS_res.zip',
         info: '14-й по счёту Мемориал Михаила Святкина',
         start: 'MMS',
-        o_site: '06062225_MS'
+        o_site: '06062225_MS',
+        map: ['mms_2006_06_23', 'mms_2006_06_24', 'mms_2006_06_25'],
     },
     {
         id: 'SPB_20060626_1',

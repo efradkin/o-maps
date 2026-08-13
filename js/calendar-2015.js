@@ -733,7 +733,9 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/15062628/150626_RES.htm',
         video: 'https://www.youtube.com/watch?v=vGTwNTZuqT4',
         start: 'MMS',
-        o_site: '15062628'
+        o_site: '15062628',
+        o_gps: 565,
+        map: ['mms_2015_krasna_dolina', 'mms_2015_06_28'],
     },
     {
         id: 'SPB_20150704_1',

@@ -531,7 +531,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/09062628/svyatkin2009_res.zip',
         info: '17-й Мемориал Михаила Святкина',
         start: 'MMS',
-        o_site: '09062628'
+        o_site: '09062628',
+        map: ['mms_2009_06_27', 'mms_2009_06_28'],
     },
     {
         id: 'SPB_20090629_1',

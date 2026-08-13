@@ -819,7 +819,9 @@ let events2017 = [
         video: 'https://www.youtube.com/watch?v=O1-9Fes-3Gg',
         type: 'ORIENT',
         start: 'MMS',
-        o_site: '17062325'
+        o_site: '17062325',
+        o_gps: 2492,
+        map: ['mms_2017_korobitsyno', 'mms_2017_06_25'],
     },
     {
         id: 'SPB_20170701_1',

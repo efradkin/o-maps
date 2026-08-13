@@ -502,7 +502,8 @@ let events2008 = [
         type: 'ORIENT',
         info: '16-й Мемориал Михаила Святкина',
         start: 'MMS',
-        o_site: '080627_MS'
+        o_site: '080627_MS',
+        map: 'mms_2008_06_28',
     },
     {
         id: 'SPB_20080706_1',

@@ -399,7 +399,8 @@ let events2005 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050624/MemSv_res.zip',
         start: 'MMS',
-        o_site: '050624'
+        o_site: '050624',
+        map: ['mms_2005_06_25', 'mms_2005_06_26'],
     },
     {
         id: 'SPB_20050702_1',

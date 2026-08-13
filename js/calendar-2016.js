@@ -666,7 +666,9 @@ let events2016 = [
         ],
         start: 'MMS',
         o_site: '20160624',
-        endDate: '2016-06-26'
+        endDate: '2016-06-26',
+        o_gps: 1235,
+        map: ['mms_2016_korobitsyno', 'mms_2016_06_26'],
     },
     {
         id: 'SPB_20160702_1',

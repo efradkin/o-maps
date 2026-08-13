@@ -550,7 +550,9 @@ let events2014 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/14062729/140629_res.htm',
         start: 'MMS',
-        o_site: '14062729'
+        o_site: '14062729',
+        o_gps: 223,
+        map: ['mms_2014_polyany', 'mms_2014_06_29'],
     },
     {
         id: 'SPB_20140628_1',

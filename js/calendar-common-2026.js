@@ -392,7 +392,8 @@ let commonEvents2026 = [
         planner: ['ILVS','NKTN_I'],
         publish: 'https://vk.com/album-142737358_311427986',
         major: true,
-        start: 'MMS'
+        start: 'MMS',
+        map: ['peski_2026','mms_2026_06_26','mms_2026_06_27','mms_2026_06_28'],
     },
     {
         id: 'SPB_20260626_2',

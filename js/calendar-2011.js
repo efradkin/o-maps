@@ -495,7 +495,8 @@ let events2011 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11062126/110621_res.htm',
         start: 'MMS',
-        o_site: '11062126'
+        o_site: '11062126',
+        map: 'mms_2011_lembolovo_orekhovo',
     },
     {
         id: 'SPB_20110627_1',
