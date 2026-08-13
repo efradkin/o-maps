@@ -567,7 +567,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10062123_KS/KS2010_split.zip',
         video: 'https://www.youtube.com/watch?v=3iyW7gVlV50',
         start: 'KS',
-        o_site: '10062123_KS'
+        o_site: '10062123_KS',
+        map: 'ks_2010_06_23'
     },
     {
         id: 'SPB_20100625_1',

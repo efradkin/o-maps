@@ -387,7 +387,8 @@ let events2005 = [
         res: 'https://o-site.spb.ru/_races/050620/KS_res.zip',
         fmt: 'сумма 3-х дней',
         start: 'KS',
-        o_site: '050620'
+        o_site: '050620',
+        map: ['ks_2005_06_20', 'ks_2005_06_21', 'ks_2005_06_22']
     },
     {
         id: 'SPB_20050624_1',

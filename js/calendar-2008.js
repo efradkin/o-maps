@@ -489,6 +489,7 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/080624_KS/080624_KS_res.zip',
         start: 'KS',
         o_site: '080624_KS',
+        map: ['ks_2008_06_25', 'ks_2008_06_26'],
         endDate: '2008-06-26'
     },
     {
