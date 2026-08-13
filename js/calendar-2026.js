@@ -25,6 +25,7 @@ let events2026 = [
         res: 'https://t.me/dlitelnyy/426',
         reskeep: 837,
         map: 'chkalovskaya_2021_st_omaps',
+        publish: 'https://t.me/dlitelnyy/432',
         owner: 'DLITELNY',
         logo: 'across.gif',
         strava: 16953908867,
@@ -60,6 +61,7 @@ let events2026 = [
         planner: 'KSHN_D',
         owner: 'DLITELNY',
         map: 'gimnazia_74_2024',
+        publish: 'https://t.me/dlitelnyy/439',
         strava: 16998268240,
         me: 'Pro'
     },
@@ -117,7 +119,8 @@ let events2026 = [
         info: '<a href="https://t.me/dlitelnyy/447">Разбор дистанций</a>.',
         owner: 'DLITELNY',
         planner: 'KSHN_D',
-        map: 'school_150_2016_omaps',
+        publish: 'https://t.me/dlitelnyy/449',
+        map: 'school_150_2016',
         strava: 17078824256,
         me: 'Pro'
     },
@@ -144,7 +147,8 @@ let events2026 = [
         fmt: 'маркир,классика',
         planner: 'SMNV_M',
         owner: 'SFSO_SPB',
-        map: 'orekhovo_nyrkovo_winter_2012'
+        map: 'orekhovo_nyrkovo_winter_2012',
+        publish: 'https://vk.com/album-230167293_312356826'
     },
     {
         id: 'SPB_20260124_1',
@@ -217,6 +221,7 @@ let events2026 = [
         type: 'SKI',
         fmt: 'лонг,эстафета',
         map: 'orekhovo_nyrkovo_winter_2012',
+        publish: 'https://vk.com/album-230167293_312489606',
         planner: 'GRLNV',
         owner: 'SFSO_SPB'
     },
@@ -273,6 +278,7 @@ let events2026 = [
         type: 'SKI',
         fmt: 'спринт, классика',
         map: 'orekhovo_nyrkovo_winter_2012',
+        publish: 'https://vk.com/album-230167293_312551370',
         owner: 'SFSO_SPB'
     },
     {
@@ -339,6 +345,7 @@ let events2026 = [
         type: 'SKI',
         fmt: 'классика, спринт',
         map: 'zerkalny_tarasovskoe_winter_2023',
+        publish: 'https://vk.com/album-230167293_312624491',
         owner: 'SFSO_SPB'
     },
     {
@@ -396,7 +403,8 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         info: 'Медаль - каждому участнику. Квест в стиле средневекового фэнтези.',
-        map: 'udelny_2021',
+        map: 'udelny_2022',
+        publish: 'https://vk.com/album-230167293_312706609',
         owner: 'SFSO_SPB',
         strava: 17492293728,
         me: 'М45'
@@ -411,6 +419,7 @@ let events2026 = [
         fmt: 'масстарт',
         o_gps: 24341,
         map: 'orekhovo_nyrkovo_winter_2012',
+        publish: 'https://vk.ru/album-230167293_312768846',
         owner: 'SFSO_SPB',
         reskeep: 846
     },
@@ -475,6 +484,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         map: 'pulkovsky_2024',
+        publish: 'https://vk.com/album-230167293_312838601',
         owner: 'SFSO_SPB',
         planner: 'LHMNV',
         strava: 17645255591,
@@ -493,7 +503,7 @@ let events2026 = [
         photo: 'https://vk.com/album-224681305_310355992',
         type: ['ROGAINE', 'SKI'],
         fmt: '5, 3',
-        map: 'shapki_KKM_2020_12',
+        map: 'shapki_ski_adventure_2026',
     },
     {
         id: 'SPB_20260314_1',
@@ -505,6 +515,7 @@ let events2026 = [
         type: 'ORIENT',
         owner: 'DLITELNY',
         map: 'udelnaya_2015',
+        publish: 'https://t.me/dlitelnyy/482',
         planner: 'KSHN_D',
         video: 'https://www.youtube.com/watch?v=uCo8r89BL9w',
         strava: 17717209233,
@@ -619,12 +630,13 @@ let events2026 = [
         date: '2026-03-30',
         name: 'Первенство клуба Феникс',
         place: 'Школа №491',
+        link: 'https://t.me/c/3634322394/3/88',
         reg: 'https://orgeo.ru/event/50818',
         reskeep: 856,
         type: 'INDOOR',
         info: 'Несколько дистанций в зачёт.',
         owner: 'FENIX',
-        map: 'school_491'
+        map: 'school_491_2026'
     },
     {
         id: 'SPB_20260331_1',
@@ -848,6 +860,7 @@ let events2026 = [
         planner: 'SRBRNTSKY',
         reskeep: 871,
         map: 'egorovoy_2026',
+        planner: 'SRBRNTSKY',
         strava: [18120682961,18121144687],
         me: 'М'
     },
@@ -975,6 +988,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'гроздь',
         map: 'peterhof_spbgu',
+        publish: 'https://vk.com/album-230167293_313366249',
         strava: 18250178408,
         me: 'М50',
         owner: 'SFSO_SPB'
@@ -1024,6 +1038,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         owner: 'SFSO_SPB',
+        publish: 'https://vk.com/album-230167293_313365421',
         map: 'pushkin_school_552_2022'
     },
     {
@@ -1207,6 +1222,7 @@ let events2026 = [
         fmt: 'классика',
         planner: 'KSHN_D',
         map: 'anyalovo_2023',
+        publish: 'https://vk.com/album-230167293_313515750',
         owner: 'SFSO_SPB'
     },
     {
@@ -1274,6 +1290,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'эстафета 3х',
         map: 'polyany_2019',
+        publish: 'https://vk.com/album-230167293_313563270',
         info: 'У ветеранов - классика.',
         planner: 'YGNV',
         owner: 'SFSO_SPB'
@@ -1368,6 +1385,7 @@ let events2026 = [
         fmt: 'классика, масстарт',
         owner: 'SFSO_SPB',
         major: true,
+        publish: 'https://vk.com/album-230167293_313631286',
         map: 'silande_velo_2025'
     },
     {
@@ -1423,6 +1441,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт, классика',
         map: 'orekhovo_figurnoe_2025',
+        publish: 'https://vk.com/album-230167293_313624527',
         owner: 'SFSO_SPB'
     },
     {
@@ -1587,6 +1606,7 @@ let events2026 = [
         owner: 'SFSO_SPB',
         strava: 18728228058,
         me: 'М45',
+        publish: 'https://vk.com/album-230167293_313693628',
         map: 'yuzhno_promorsky_2026'
     },
     {
@@ -1662,6 +1682,7 @@ let events2026 = [
         fmt: 'масстарт',
         owner: 'DLITELNY',
         map: 'pastorskoe_2024',
+        publish: 'https://t.me/dlitelnyy/562',
         reskeep: 897,
         planner: 'KSHN_D',
         strava: 18822018885,
@@ -1857,6 +1878,7 @@ let events2026 = [
         type: 'INDOOR',
         owner: 'OPEN_BAND',
         map: 'mega_parnas_2026',
+        publish: 'https://t.me/openband_orient/2701',
         planner: 'MSTPNV',
         strava: 19184621385,
         me: 'М40'
@@ -2172,6 +2194,16 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'классика, ночной спринт, классика',
         owner: 'DLITELNY'
+    },
+    {
+        id: 'SPB_20260815_2',
+        date: '2026-08-15',
+        name: 'Кубок D2RUN, 21 этап',
+        link: 'https://vk.ru/wall-196511971_1619',
+        reg: 'https://orgeo.ru/event/info/54528',
+        place: 'Ягодное',
+        type: 'ORIENT',
+        owner: 'WN'
     },
     {
         id: 'SPB_20260816_1',
