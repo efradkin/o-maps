@@ -181,6 +181,7 @@ let events2005 = [
         res: 'https://o-site.spb.ru/_races/050507/2x2_res.zip',
         fmt: 'Эстафеты',
         o_site: '050507',
+        map: ['2x2_2005_05_07', '2x2_2005_05_10'],
         start: '2x2'
     },
     {

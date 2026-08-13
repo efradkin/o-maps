@@ -332,7 +332,9 @@ let events2010 = [
         name: 'Эстафета 2х2',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100508_2x2/100509_res.htm',
-        o_site: '100508_2x2'
+        o_site: '100508_2x2',
+        map: '2x2_2010_05_09',
+        start: '2x2'
     },
     {
         id: 'SPB_20100515_1',
