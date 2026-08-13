@@ -225,7 +225,6 @@ let priozerskMaps = [
         start: 'KZNTSVA',
         page: 'spb',
         date: '2013-08-24',
-        o_site: '13082425',
         url: './maps/starts/psk/psk_2013_08_24.webp',
         link: './original_maps/forest/priozersk/kuznechnoe_travkino_2013_08_24_omaps.gif',
         bounds: [[61.1523057, 29.8127317], [61.1493447, 29.8498535], [61.1394655, 29.8071098]],

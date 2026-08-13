@@ -356,7 +356,8 @@ let events2006 = [
         type: 'VELO',
         info: 'ЧЕМПИОНАТ САНКТ-ПЕТЕРБУРГА - 2006 года ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ НА ВЕЛОСИПЕДАХ. Возрастные группы МЭ, ЖЭ, М40, Ж40, М20, Ж20, М18, Ж18, М16, Ж16, М14, Ж14',
         owner: 'SFSO_SPB',
-        o_site: '06060203_MTB'
+        o_site: '06060203_MTB',
+        map: 'sosnovo_black_forest_velo_2006'
     },
     {
         id: 'SPB_20060603_1',
@@ -390,7 +391,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/06061012_NA/NA_res.rar',
         info: 'XVII МНОГОДНЕВНЫЕ ЛИЧНО-КОМАНДНЫЕ СОРЕВНОВАНИЯ ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ «НЕВСКИЙ АЗИМУТ-2006»',
         start: 'NA',
-        o_site: '06061012_NA'
+        o_site: '06061012_NA',
+        map:['kanneljarvi_istok_2006','kanneljarvi_istok']
     },
     {
         id: 'SPB_20060613_1',

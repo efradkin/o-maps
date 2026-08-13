@@ -614,7 +614,8 @@ let events2019 = [
         video: 'https://www.youtube.com/watch?v=-f7I9gZsv1E',
         owner: 'SFSO_LO',
         o_site: '190518_RA_LO',
-        reskeep: 137
+        reskeep: 137,
+        map: 'yukki_south_ra_2019'
     },
     {
         id: 'SPB_20190518_2',
@@ -852,7 +853,9 @@ let events2019 = [
         video: 'https://www.youtube.com/watch?v=0Hr9Tw0Cv5M',
         start: 'MMS',
         o_site: '190623MMS',
-        reskeep: [171, 172, 173]
+        reskeep: [171, 172, 173],
+        map: ['mms_2019_06_21','mms_2019_06_22','mms_2019_06_23'],
+        planner: 'SRBRNTSKY'
     },
     {
         id: 'SPB_20190622_1',
@@ -1071,7 +1074,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190824/190824_split.htm',
         start: 'GS',
-        o_site: '190824'
+        o_site: '190824',
+        map: 'gs_2019_08_24'
     },
     {
         id: 'SPB_20190825_1',

@@ -465,12 +465,10 @@ let naStartsMaps = [
         start: 'NA',
         date: '2026-06-12',
         info: ' Кросс-спринт 20.',
-        calendar: 'SPB_20260612_1',
         url: './maps/starts/na/na_2026_06_12.webp',
         link: ['./original_maps/starts/na/na_2026_06_12_m_omaps.webp','./original_maps/starts/na/na_2026_06_12_w_omaps.webp'],
         bounds: [[60.4173377, 29.6458769], [60.4147423, 29.6700597], [60.4088726, 29.6421647]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
-        planner: 'SHRNN',
         owner: 'WN'
     },
     {
@@ -478,12 +476,10 @@ let naStartsMaps = [
         start: 'NA',
         date: '2026-06-13',
         info: ' Кросс-классика 50.',
-        calendar: 'SPB_20260612_1',
         url: './maps/starts/na/na_2026_06_13.webp',
         link: ['./original_maps/starts/na/na_2026_06_13_m_omaps.webp','./original_maps/starts/na/na_2026_06_13_w_omaps.webp'],
         bounds: [[60.438189, 29.6565628], [60.4366857, 29.6874189], [60.421437, 29.6471643]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
-        planner: 'RSKV_S',
         owner: 'WN'
     },
     {
@@ -491,12 +487,10 @@ let naStartsMaps = [
         start: 'NA',
         date: '2026-06-14',
         info: ' Кросс-классика 40.',
-        calendar: 'SPB_20260612_1',
         url: './maps/starts/na/na_2026_06_14.webp',
         link: ['./original_maps/starts/na/na_2026_06_14_m_omaps.webp','./original_maps/starts/na/na_2026_06_14_w_omaps.webp'],
         bounds: [[60.4251439, 29.6657038], [60.4213523, 29.7010231], [60.407919, 29.6582365]],
         author: ['MKHLV_A','SLBDNK','GVRLK'],
-        planner: 'ZCHNV',
         owner: 'WN'
     },
 ];

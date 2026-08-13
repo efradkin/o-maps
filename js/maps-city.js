@@ -122,11 +122,8 @@ let cityMaps = [
     {
         name: 'Колтуши',
         year: 2009,
-        startYear: 2012,
         url: './maps/city/koltushi_2009.webp',
         link: './original_maps/city/koltushi_2009_omaps.webp',
-        info: 'Российский Азимут.',
-        o_site: '120520',
         bounds: [[59.9415783, 30.6437659], [59.9402133, 30.6621981], [59.9343872, 30.6419635]],
         author: 'DRBSHV',
         type: ['CITY', 'PARK']
@@ -177,18 +174,12 @@ let cityMaps = [
     {
         name: 'Дрезденская ул',
         year: 2023,
-        date: '2025-05-21',
         start: 'ST',
-        results: 'https://t.me/KuzmolovoDragons/26',
         url: './maps/city/drezdenskaya_2023.webp',
         link: ['./original_maps/city/drezdenskaya_2023_omaps.jpg','./original_maps/city/gdanskaya_2025.jpg'],
         bounds: [[60.0226355, 30.3214931], [60.0204804, 30.3426933], [60.0134995, 30.3178453]],
-        o_gps: {
-            'Невский Спринт': 17533
-        },
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
-        planner: 'GRLNV',
         type: ['CITY']
     },
     {
@@ -283,7 +274,6 @@ let cityMaps = [
         year: 2015,
         url: './maps/city/udelnaya_2015.webp',
         link: './original_maps/city/udelnaya_2020_st_omaps.gif',
-        publish: 'https://t.me/dlitelnyy/482',
         bounds: [[60.0180356, 30.3146696], [60.0163199, 30.3321362], [60.003771, 30.3103781]],
         start: 'ST',
         author: 'DBRTSV_V',
@@ -326,21 +316,18 @@ let cityMaps = [
     },
     {
         name: 'Нарвская, Ушаковский сквер',
-        date: '2025-09-10',
+        year: 2025,
         url: './maps/city/narvskaya_2025.webp',
         link: './original_maps/city/narvskaya_2025_omaps.gif',
-        o_gps: 23375,
-        reskeep: 792,
         bounds: [[59.9003995, 30.2609396], [59.898753, 30.2771831], [59.89377, 30.2579784]],
         start: 'ST',
         owner: 'KUZM_CHGRVSKY',
-        planner: 'CHGRVSKY_M',
         type: ['CITY'],
         author: 'ZCHNV'
     },
     {
         name: 'Новочеркасская',
-        date: ['2020-09-09','2022-04-20'],
+        year: 2022,
         url: './maps/city/novocherkasskaya_2020.webp',
         link: ['./original_maps/city/novocherkasskaya_2020_st_omaps.gif','./original_maps/city/novocherkasskaya_2022_st_omaps.gif'],
         reskeep: 516,
@@ -352,10 +339,9 @@ let cityMaps = [
     },
     {
         name: 'Оккервиль',
-        date: '2024-04-23',
+        year: 2024,
         url: './maps/city/okkervil_2024.webp',
         link: ['./original_maps/city/okkervil_2021_st_omaps.gif','./original_maps/city/okkervil_2024_st_omaps.gif'],
-        reskeep: 643,
         bounds: [[59.9320221, 30.4175377], [59.9319146, 30.4342961], [59.9253021, 30.4173017]],
         author: 'RDNV_B',
         start: 'ST',
@@ -545,7 +531,7 @@ let cityMaps = [
     },
     {
         name: 'Серебряный пруд',
-        date: ['2017-04-26','2018-09-19'],
+        year: 2018,
         url: './maps/city/serebrjany_prud_2018.webp',
         link: ['./original_maps/city/serebrjany_prud_st_2017_04_26_omaps.webp','./original_maps/city/serebrjany_prud_2018_st_omaps.gif'],
         bounds: [[60.0089413, 30.3300333], [60.007268, 30.3507185], [60.0019043, 30.3283596]],
@@ -598,7 +584,6 @@ let cityMaps = [
     {
         name: 'ул Рубинштейна',
         year: 2015,
-        date: ['2016-04-09','2019-11-02'],
         url: './maps/city/5_uglov_2015.webp',
         link: ['./original_maps/city/5_uglov_st_2016_04_09_omaps.webp','./original_maps/city/5_uglov_2019_st_omaps.gif'],
         bounds: [[59.9334842, 30.3379512], [59.9327102, 30.3489161], [59.926743, 30.3356767]],
@@ -703,7 +688,6 @@ let cityMaps = [
     {
         name: 'Поклонная гора, Берёзовый сад',
         year: 2016,
-        date: ['2017-05-17','2021-04-14'],
         url: './maps/city/berezovy_sad_2016.webp',
         link: ['./original_maps/city/poklonnaya_gora_st_2017_05_17_omaps.webp','./original_maps/city/poklonnaya_gora_2021_st_omaps.gif'],
         bounds: [[60.0304291, 30.3123093], [60.0292821, 30.3253555], [60.0183788, 30.308125]],
@@ -715,7 +699,6 @@ let cityMaps = [
     {
         name: 'Большая Охта',
         year: 2017,
-        date: ['2017-09-20','2018-09-05','2019-04-10','2021-04-07'],
         url: './maps/city/big_okhta_2017.webp',
         link: ['./original_maps/city/sredneokhtinsky_st_2017_09_20_omaps.webp','./original_maps/city/big_okhta_2018_st_omaps.gif','./original_maps/city/sredneokhtinsky_2019_st_omaps.gif','./original_maps/city/sredneokhtinsky_2021_st_omaps.gif'],
         bounds: [[59.9596511, 30.4112506], [59.9583728, 30.42449], [59.9441469, 30.4057145]],
@@ -770,7 +753,6 @@ let cityMaps = [
         year: 2019,
         url: './maps/city/kronshtadt_2019.webp',
         link: ['./original_maps/city/kronshtadt_2019_omaps.webp','./original_maps/city/kronshtadt_2019_photos_omaps.pdf'],
-        o_site: '200517',
         bounds: [[59.9957458, 29.7689366], [59.9934923, 29.7896218], [59.9869673, 29.7661042]],
         author: 'DBRTSV_V',
         type: ['CITY','FOTO'],
@@ -894,7 +876,6 @@ let cityMaps = [
         url: './maps/city/peterhof_spbgu_2026.webp',
         link: './original_maps/city/peterhof_spbgu_2026_omaps.webp',
         o_gps: 24835,
-        publish: 'https://vk.com/album-230167293_313366249',
         bounds: [[59.887602, 29.8163581], [59.884523, 29.8446608], [59.8777934, 29.8121953]],
         author: 'SVCHK',
         owner: 'FLTV',
@@ -933,28 +914,21 @@ let cityMaps = [
     },
     {
         name: 'Дибуновская ул',
-        date: ['2021-10-22','2025-08-05'],
+        year: 2021,
         url: './maps/city/dibunovskaya_2022.webp',
         link: ['./original_maps/city/dibunovskaya_2022_st_omaps.gif','./original_maps/city/dibunovskaya_st_2025_08_05_omaps.webp'],
-        reskeep: [571,713],
         o_gps: 14471,
         bounds: [[59.989307, 30.2712607], [59.9879279, 30.2863884], [59.9840155, 30.2693725]],
         author: 'DBRTSV_V',
         start: 'ST',
         owner: 'KUZMOLOVO',
-        planner: 'MSLVSKY',
         type: ['CITY']
     },
     {
         name: 'ул Жака Дюкло',
-        date: ['2023-10-04','2026-05-27'],
+        year: 2023,
         url: './maps/city/zhaka_djuklo_2023.webp',
         link: ['./original_maps/city/zhaka_djuklo_2023_st_omaps.gif','./original_maps/city/zhaka_djuklo_2026_05_27_st_omaps.gif'],
-        o_gps: {
-            'М':17480,
-            'Ж':17482
-        },
-        reskeep: [619,892],
         bounds: [[60.0145826, 30.3459549], [60.0122983, 30.3657818], [60.0074503, 30.3432298]],
         author: 'CHGRVSKY_Y',
         start: 'ST',
@@ -1000,16 +974,11 @@ let cityMaps = [
     {
         name: 'Манеж Алексеева',
         year: 2025,
-        o_gps: 22533,
-        info: 'ЧиП СПб, спринт.',
-        o_site: '250511_sprint',
         url: './maps/city/manezh_alekseeva_2025.webp',
         link: './original_maps/city/manezh_alekseeva_2025_omaps.jpg',
-        publish: 'https://vk.com/album-230167293_309672161',
         bounds: [[60.0194939, 30.3573489], [60.0181214, 30.370717], [60.0104536, 30.3534222]],
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
-        planner: 'CHGRVSKY_M',
         type: ['CITY']
     },
     {
@@ -1042,7 +1011,6 @@ let cityMaps = [
         url: './maps/city/gimnazia_74_2024.webp',
         link: './original_maps/city/gimnazia_74_2024_omaps.gif',
         bounds: [[60.0007135, 30.3465343], [59.9992758, 30.3630567], [59.9953809, 30.3448391]],
-        publish: 'https://t.me/dlitelnyy/439',
         author: ['SHRNN','EFRMV'],
         owner: ['SHRNN','EFRMV'],
         type: ['CITY']
@@ -1074,14 +1042,11 @@ let cityMaps = [
     },
     {
         name: 'Жени Егоровой',
-        date: '2026-04-15',
+        year: 2026,
         url: './maps/city/egorovoy_2026.webp',
         link: ['./original_maps/city/egorovoy_2026_omaps.gif','./original_maps/city/egorovoy_2026_04_15_st_omaps.webp'],
         bounds: [[60.0651831, 30.3049278], [60.0636465, 30.3194654], [60.0584205, 30.3020096]],
-        o_gps: 24739,
-        reskeep: 871,
         start: 'ST',
-        planner: 'SRBRNTSKY',
         author: 'SVCHK',
         owner: 'SVCHK',
         type: ['CITY','SPRINT']
@@ -1137,7 +1102,6 @@ let cityMaps = [
         date: '2021-10-30',
         url: './maps/city/chkalovskaya_2021.webp',
         link: ['./original_maps/city/chkalovskaya_2021_st_omaps.gif','./original_maps/city/chkalovskaya_2024_st_omaps.gif'],
-        publish: 'https://t.me/dlitelnyy/432',
         reskeep: 489,
         bounds: [[59.9696288, 30.288105], [59.9686946, 30.2986407], [59.9620035, 30.2854228]],
         author: 'SRBRNTSKY',
@@ -1160,42 +1124,24 @@ let cityMaps = [
     },
     {
         name: 'Пионерская, Аллея Поликарпова',
-        date: '2025-09-25',
+        year: 2024,
         url: './maps/city/alleya_polikarpova_2024.webp',
-        link: './original_maps/city/polikarpova_2024_st_omaps.gif',
-        reskeep: 668,
+        link: ['./original_maps/city/polikarpova_2024_st_omaps.gif','./original_maps/city/polikarpova_2025_st_omaps.jpg'],
         bounds: [[60.0109684, 30.2836847], [60.0092416, 30.3005719], [60.004715, 30.2813029]],
         author: 'CHGRVSKY_Y',
         start: 'ST',
         owner: 'KUZMOLOVO',
-        type: ['CITY']
-    },
-    {
-        name: 'Пионерская, Аллея Поликарпова',
-        excluded: true,
-        date: '2025-05-28',
-        url: './maps/city/alleya_polikarpova_2024.webp',
-        link: './original_maps/city/polikarpova_2025_st_omaps.jpg',
-        reskeep: 703,
-        bounds: [[60.0109684, 30.2836847], [60.0092416, 30.3005719], [60.004715, 30.2813029]],
-        author: 'CHGRVSKY_Y',
-        start: 'ST',
-        owner: 'KUZMOLOVO',
-        planner: 'RYKV_A',
         type: ['CITY']
     },
     {
         name: 'Пионерская, Серебристый бульвар',
-        date: '2025-09-24',
+        year: 2025,
         url: './maps/city/pionerskaya_2025_st.webp',
         link: './original_maps/city/pionerskaya_2025_st_omaps.gif',
-        info: '<a href="https://vk.com/@-92124592-noname-sprint-tur-2025-24092025?subtype=primary">Разбор дистанций</a>.',
-        reskeep: 799,
         bounds: [[60.0051763, 30.2812171], [60.0034277, 30.2984262], [59.999544, 30.2787924]],
         author: 'CHGRVSKY_Y',
         start: 'ST',
         owner: 'KUZM_CHGRVSKY',
-        planner: 'RYKV_A',
         type: ['CITY']
     },
     {
@@ -1319,7 +1265,6 @@ let cityMaps = [
         year: 2022,
         url: './maps/city/pushkin_school_552_2022.webp',
         link: './original_maps/schools/pushkin_school_552_2022_omaps.jpg',
-        publish: 'https://vk.com/album-230167293_313365421',
         bounds: [[59.7392496, 30.3957582], [59.737833, 30.407753], [59.7329232, 30.3927755]],
         author: 'ZCHNV',
         owner: 'SFSO_SPB',
@@ -1347,12 +1292,10 @@ let cityMaps = [
     {
         name: 'пр Пархоменко',
         year: 2018,
-        date: '2021-04-28',
-        url: './maps/city/parkhomenko.webp',
+        url: './maps/city/parkhomenko_2018.webp',
         link: ['./original_maps/city/parkhomenko_omaps.jpg','./original_maps/city/parkhomenko_2018_omaps.ocd','./original_maps/city/parkhomenko_2021_st_omaps.gif'],
         bounds: [[60.0032775, 30.3274369], [60.0032131, 30.3404617], [59.9997801, 30.327394]],
         start: 'ST',
-        calendar: 'SPB_20210428_2',
         author: 'SHRNN',
         owner: 'SHRNN',
         type: ['CITY']
@@ -2153,12 +2096,9 @@ let cityMaps = [
         link: './original_maps/city/zelenogorsk_2025_omaps.jpg',
         bounds: [[60.2034073, 29.706645], [60.202117, 29.7179103], [60.196817, 29.7040057]],
         info: 'Невский спринт.',
-        o_site: '251007_NS',
         o_gps: 23568,
-        publish: 'https://vk.com/album-230167293_311285775',
         author: 'SVCHK',
         owner: 'SFSO_SPB',
-        planner: 'PLKV_D',
         type: ['CITY']
     },
     {
@@ -2374,11 +2314,9 @@ let cityMaps = [
     },
     {
         name: 'Осиновая Роща',
-        date: '2013-03-17',
+        year: 2013,
         url: './maps/city/osinovaja_roscha_2013.webp',
         link: './original_maps/city/osinovaja_roscha__2013_omaps.jpg',
-        info: 'Снежная тропа.',
-        o_site: '121118_tropa',
         bounds: [[60.1113544, 30.249567], [60.1113544, 30.2733207], [60.1054408, 30.2497172]],
         author: 'MSPN',
         type: ['CITY']
@@ -2419,8 +2357,6 @@ let cityMaps = [
         date: '2015-04-05',
         url: './maps/city/fml_239_2015.webp',
         link: './original_maps/city/fml_239_2015_omaps.gif',
-        o_site: '150405_LR',
-        info: 'Лабиринты разума.',
         bounds: [[59.9451033, 30.3526175], [59.944335, 30.3525853], [59.9451356, 30.3516841]],
         type: ['INDOOR'],
     },
@@ -2429,8 +2365,6 @@ let cityMaps = [
         date: '2026-03-30',
         url: './maps/city/school_491_2026.webp',
         link: ['./original_maps/city/school_491_2026_1_omaps.gif','./original_maps/city/school_491_2026_2_omaps.gif','./original_maps/city/school_491_2026_3_omaps.gif','./original_maps/city/school_491_2026_4_omaps.gif','./original_maps/city/school_491_2026_5_omaps.gif','./original_maps/city/school_491_2026_6_omaps.gif'],
-        about: 'https://t.me/c/3634322394/3/88',
-        info: 'Первенство клуба Феникс.',
         bounds: [[59.9382302, 30.43715], [59.938214, 30.4393172], [59.9374885, 30.4371929]],
         type: ['INDOOR'],
         owner: 'RDNV_I'
@@ -2440,7 +2374,6 @@ let cityMaps = [
         date: '2026-07-04',
         url: './maps/city/mega_parnas_2026.webp',
         link: './original_maps/city/mega_parnas_2026_omaps.png',
-        publish: 'https://t.me/openband_orient/2701',
         area: .15,
         bounds: [[60.0936586, 30.3791821], [60.0902242, 30.3842998], [60.0919736, 30.3746331]],
         calendar: 'SPB_20260705_1',

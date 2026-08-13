@@ -531,11 +531,8 @@ let southMaps = [
     {
         name: 'Луга, разъезд генерала Омельченко',
         year: 2006,
-        date: '2007-05-01',
         url: './maps/forest/south/luga_omelchenko_2006.webp',
         link: './original_maps/forest/south/luga_omelchenko_2006_omaps.jpg',
-        info: 'ЧиП ЛО.',
-        o_site: '070429_lo',
         bounds: [[58.7994942, 29.8706675], [58.7980713, 29.8865461], [58.7880652, 29.8680067]],
         author: 'BYMKV'
     },

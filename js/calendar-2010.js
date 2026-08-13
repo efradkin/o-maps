@@ -173,7 +173,8 @@ let events2010 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/10030607/10030607_res6.htm',
         start: '100x24',
-        o_site: '10030607'
+        o_site: '10030607',
+        map: 'gavrilovo_2010_rogaine'
     },
     {
         id: 'SPB_20100307_1',
@@ -364,7 +365,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10RA_LO/10RA_LO_split.htm',
         fmt: 'дистанция по выбору',
         owner: 'SFSO_LO',
-        o_site: '10RA_LO'
+        o_site: '10RA_LO',
+        map: 'vsevolozhsk_2010'
     },
     {
         id: 'SPB_20100516_2',
@@ -550,7 +552,8 @@ let events2010 = [
         type: 'ROGAINE',
         res: 'http://www.100x24.ru/2010/results/20100619_prelim.htm',
         o_site: '100619',
-        start: '100x24'
+        start: '100x24',
+        map: 'gavrilovo_2010_velo'
     },
     {
         id: 'SPB_20100621_1',
@@ -914,7 +917,8 @@ let events2010 = [
         res: 'http://rogaining.spb.ru/index.php?option=com_content&task=view&id=62&Itemid=122',
         info: '2 этап Большого Кубка и 3 этап Вело-Кубка. Открытый Чемпионат Санкт-Петерурга по классическому рогейну (24 часа).',
         fmt: 'Форматы 24, 8 и 3 часа; 8-ВЕЛО',
-        o_site: '10110506'
+        o_site: '10110506',
+        map: 'nazia_rogaine_2010'
     },
     {
         id: 'SPB_20101118_1',

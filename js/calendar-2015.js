@@ -284,7 +284,8 @@ let events2015 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/150405_LR/150405_res.pdf',
         info: 'Соревнования по спортивному ориентированию в закрытых помещениях',
-        o_site: '150405_LR'
+        o_site: '150405_LR',
+        map: 'fml_239_2015'
     },
     {
         id: 'SPB_20150412_1',
@@ -890,9 +891,14 @@ let events2015 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/150906/150906_res.htm',
+        o_gps: {
+            'МЭ': 657,
+            'ЖЭ': 658
+        },
         owner: 'SFSO_SPB',
         o_site: '150906',
-        reskeep: 238
+        reskeep: 238,
+        map: 'ilychevo-simagino_2015'
     },
     {
         id: 'SPB_20150909_1',

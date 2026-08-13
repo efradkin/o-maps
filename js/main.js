@@ -737,7 +737,6 @@ if (mapElement) {
                 if (m.zindex) {
                     el.style.zIndex = m.zindex;
                 }
-
 /*
                 if (m.in_work) {
                     el.classList.add('in-work');
@@ -1220,7 +1219,7 @@ function tuneContextMenuItem(element, icon, flag) {
     }
 }
 
-function mapTitle(m, forStart, colored) {
+function mapTitle(m, forStart, colored, events) {
     let result = '';
     if (m.gpx) { // трек
         result += '<span class="' + m.type[0] + '">';
@@ -1235,7 +1234,7 @@ function mapTitle(m, forStart, colored) {
     let y = year(m);
     if (y) {
         let year = y > 1 ? y : 'ретро';
-        let sy = startYear(m);
+        let sy = startYear(m, events);
         if (forStart && sy) {
             year = sy;
         }
@@ -1257,6 +1256,8 @@ function mapTitle(m, forStart, colored) {
 }
 
 function buildMapPopup(m) {
+
+    const events = findEventsForMap(m, true); // все эвенты для карты
 
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
     let typesList = getTypesList(m);
@@ -1290,7 +1291,7 @@ function buildMapPopup(m) {
     }
 
     // имя
-    result += '<b>' + mapTitle(m, false, false);
+    result += '<b>' + mapTitle(m, false, false, events);
 
     // площадь
     let area = m.area ? m.area.toFixed(2) : '';
@@ -1317,37 +1318,24 @@ function buildMapPopup(m) {
     if (m.info) {
         info += m.info;
     }
-    let cal = m.calendar ? oEvents.find(e => e.id === m.calendar) : undefined;
-    let mapResults = m.results;
-    if (!mapResults && m.calendar) {
-        mapResults = cal.res;
-    }
-    if (mapResults) {
-        if (Array.isArray(mapResults)) {
-            let results = '', counter = 1;
-            for (const r of mapResults) {
-                if (results) results += ', ';
-                results += `[<a href="${r}">${counter++}</a>]`;
-            }
-            info += `Результаты: ${results}`;
-        } else {
-            info += ` <a href="${mapResults}">Результаты</a>.`;
-        }
-    } else {
-        const results = buildEventResults(m);
-        if (results) {
-            info += results;
-        }
 
+    // ссылки на результаты
+    const mapResults = [];
+    for (const e of events) {
+        if (e.results) mapResults.push(e.results);
+        if (e.res) mapResults.push(e.res);
     }
-    let oSite = m.o_site;
-    if (!oSite && m.calendar) {
-        oSite = cal.o_site;
+    if (mapResults.length > 0) {
+        info += buildLinksWithLabel(mapResults, 'Результаты');
+    } else {
+        info += buildEventResults(m);
     }
-    if (oSite) {
-        info += ` <a href="${O_SITE_ADDRESS_PREFIX}${oSite}">Инфо на O-Site</a>.`;
-    }
-    info += buildPublish(m);
+
+    // ссылки на информацию на o-Site
+    info += buildOSiteInfo(events);
+
+    // ссылки на публикацию карт
+    info += buildPublish([m, ...events]);
     if (info) {
         result += info + '<br />';
     }
@@ -1380,8 +1368,11 @@ function buildMapPopup(m) {
     }
 
     // начдист
-    if (typeof planners !== 'undefined' && (m.planner || (cal && cal.planner))) {
-        result += 'Планирование дистанции: ' + buildPlanners(m, cal);
+    if (typeof planners !== 'undefined') {
+        const plannersInfo = buildPlanners(m, events);
+        if (plannersInfo) {
+            result += 'Планирование дистанции: ' + plannersInfo;
+        }
     }
 
     // закрытый район
@@ -1390,13 +1381,10 @@ function buildMapPopup(m) {
     }
 
     // GPS-трансляция
-    let gps = getGPS(m);
-    if (!gps && m.calendar) {
-        gps = getGPS(cal);
-    }
-    if (gps) {
+    const gpsLinksForEvents = buildGpsLinksForEvents(events, null);
+    if (gpsLinksForEvents) {
         result += '<span class="gps-info"><img src="./images/o-gps.gif" alt="GPS" /> ';
-        result += 'GPS-трансляция: ' + buildGpsLinks(m, null, cal);
+        result += 'GPS-трансляция: ' + gpsLinksForEvents;
         result += '.</span><br />';
     }
 

@@ -271,7 +271,8 @@ let events2022 = [
         strava: 7013752140,
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 516
+        reskeep: 516,
+        map: 'novocherkasskaya_2020'
     },
     {
         id: 'SPB_20220423_1',
@@ -840,7 +841,9 @@ let events2022 = [
         start: 'MMS',
         o_site: '22061820',
         strava: [7328784020,7333156174],
-        reskeep: [545, 546]
+        reskeep: [545, 546],
+        map: ['mms_2022_06_17','mms_2022_06_18','mms_2022_06_19','mms_2022_06_21'],
+        planner: 'SHEIN'
     },
     {
         id: 'SPB_20220620_1',
@@ -1048,7 +1051,8 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/220820ZZ/220820_split_predv.htm',
         info: 'Традиционные соревнования в заданном направлении с большим количеством КП',
         start: 'GS',
-        o_site: '220820ZZ'
+        o_site: '220820ZZ',
+        map: 'gs_2022_08_20'
     },
     {
         id: 'SPB_20220820_2',

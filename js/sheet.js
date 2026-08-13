@@ -135,6 +135,7 @@ function renderMapsTable() {
 
     for (let i = 0; i < oMaps.length; i++) {
         let m = oMaps[i];
+        const events = findEventsForMap(m, true);
 
         if (rusOnly && m.lng && (m.lng !== 'rus')) {
             continue;
@@ -165,7 +166,7 @@ function renderMapsTable() {
             td(m, row, buildOrderCustomer(m));
             td(m, row, buildOrderInfo(m, false, false, true) || m.info || '');
         } else {
-            td(m, row, buildInfo(m, cal));
+            td(m, row, buildInfo(m, cal, events));
         }
         if (!isDocumentsPage()) {
             if (theOrdersPage) {
@@ -174,7 +175,7 @@ function renderMapsTable() {
                 td(m, row, m.area ? m.area.toFixed(2) : '');
             }
             if (!theOrdersPage && !isMapsOnStorePage()) {
-                td(m, row, buildGpsLinks(m, 'o-gps.gif', cal));
+                td(m, row, buildGpsLinksForEvents(events, 'o-gps.gif'));
             }
         }
         if (!isUnknownPage()) {
@@ -186,11 +187,11 @@ function renderMapsTable() {
         }
         if (!isMapsOnStorePage()) {
             if (!isDocumentsPage() && !theOrdersPage) {
-                const planners = buildPlanners(m, cal);
-                if (planners) {
+                const plannersInfo = buildPlanners(m, cal);
+                if (plannersInfo) {
                     hasPlanners = true;
                 }
-                td(m, row, planners);
+                td(m, row, plannersInfo);
             }
             if (!isDocumentsPage() || isBooksPage()) {
                 td(m, row, buildOwners(m, true));
@@ -307,7 +308,7 @@ function oneStart(s) {
     return result;
 }
 
-function buildInfo(m, cal) {
+function buildInfo(m, cal, events) {
 
     let result = '';
     if (m.restricted) {
@@ -317,16 +318,19 @@ function buildInfo(m, cal) {
     if (!mapResults && m.calendar) {
         mapResults = cal.res;
     }
-    let oSite = m.o_site;
-    if (!oSite && m.calendar) {
-        oSite = cal.o_site;
+    let oSite;
+    if (!events) {
+        oSite = m.o_site;
+        if (!oSite && m.calendar) {
+            oSite = cal.o_site;
+        }
     }
-    if (m.info || m.date || mapResults || oSite) {
+    // if (m.info || m.date || mapResults || oSite) {
         if (m.restricted) {
             result += '<br />'
         }
         if (!isDocumentsPage()) {
-            const mapDates = getMapDates(m);
+            const mapDates = getMapDates(m, events);
             if (mapDates) {
                 result += `<b>${mapDates}</b>. `;
             }
@@ -346,6 +350,9 @@ function buildInfo(m, cal) {
         if (oSite) {
             result += ` <a href="${O_SITE_ADDRESS_PREFIX}${oSite}">Инфо на O-Site</a>.`;
         }
+    // }
+    if (events) {
+        result += buildOSiteInfo(events);
     }
     if (isDocumentsPage()) {
         // планировщики

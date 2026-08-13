@@ -10,7 +10,6 @@ let twotwoStartsMaps = [
         o_site: '050507',
         bounds: [[60.1324658, 30.525856], [60.1310979, 30.5440521], [60.1208589, 30.5231524]],
         docs: ['2x2/2005', 14],
-        planner: 'SHRNN'
     },
     {
         name: 'Кузьмолово',
@@ -21,8 +20,7 @@ let twotwoStartsMaps = [
         info: 'Третий этап. <a href="./docs/2x2/2005_kuzmolovo_2x2_itogi_omaps.pdf">Итоги и результаты</a>, <a href="./docs/2x2/2005_kuzmolovo_2x2_photos_omaps.doc">буклет</a>.',
         o_site: '050507',
         bounds: [[60.1307132, 30.5171013], [60.1295163, 30.5349112], [60.1229754, 30.5153418]],
-        docs: ['2x2/2005', 14],
-        planner: 'SHRNN'
+        docs: ['2x2/2005', 14]
     },
     {
         name: 'Сертолово',
@@ -33,8 +31,7 @@ let twotwoStartsMaps = [
         info: '<a href="./docs/2x2/2006_2x2_info_omaps.jpg">Афиша</a>, <a href="./docs/2x2/2006_2x2_rules_omaps.pdf">положение</a>.',
         o_site: '060429',
         bounds: [[60.1556032, 30.2063727], [60.1538839, 30.2230668], [60.1474225, 30.2027893]],
-        author: ['JBLCHKV','SHRNN'],
-        planner: 'SHRNN'
+        author: ['JBLCHKV','SHRNN']
     },
     {
         name: 'Сертолово, юг',
@@ -45,8 +42,7 @@ let twotwoStartsMaps = [
         info: '<a href="./docs/2x2/2006_2x2_info_omaps.jpg">Афиша</a>, <a href="./docs/2x2/2006_2x2_rules_omaps.pdf">положение</a>.',
         o_site: '060429',
         bounds: [[60.1455213, 30.2269721], [60.1443676, 30.245533], [60.1377335, 30.2251911]],
-        author: ['JBLCHKV','ANTPV'],
-        planner: 'SHRNN'
+        author: ['JBLCHKV','ANTPV']
     },
     {
         name: 'Юкки, север',
@@ -56,8 +52,7 @@ let twotwoStartsMaps = [
         link: './original_maps/starts/2x2/2006_05_01_sertolovo_2x2_omaps.jpg',
         info: '<a href="./docs/2x2/2006_2x2_info_omaps.jpg">Афиша</a>, <a href="./docs/2x2/2006_2x2_rules_omaps.pdf">положение</a>.',
         o_site: '060429',
-        bounds: [[60.1221202, 30.3013444], [60.1211154, 30.3221583], [60.1130438, 30.2991986]],
-        planner: 'SHRNN'
+        bounds: [[60.1221202, 30.3013444], [60.1211154, 30.3221583], [60.1130438, 30.2991986]]
     },
     {
         name: 'Солнечное, пляж Ласковый',
@@ -67,8 +62,7 @@ let twotwoStartsMaps = [
         link: './original_maps/starts/2x2/2007_04_29_solnechny_2x2_omaps.jpg',
         info: '<a href="./docs/2x2/2007_2x2_rules_omaps.pdf">Положение</a>.',
         o_site: '07042901',
-        bounds: [[60.1476789, 29.9318004], [60.146504, 29.948194], [60.1360667, 29.9286246]],
-        planner: 'SHRNN'
+        bounds: [[60.1476789, 29.9318004], [60.146504, 29.948194], [60.1360667, 29.9286246]]
     },
     {
         name: 'Солнечное, пляж Ласковый',
@@ -78,8 +72,7 @@ let twotwoStartsMaps = [
         link: './original_maps/starts/2x2/2007_04_30_solnechny_2x2_omaps.jpg',
         info: '<a href="./docs/2x2/2007_2x2_rules_omaps.pdf">Положение</a>.',
         o_site: '07042901',
-        bounds: [[60.1373061, 29.9326587], [60.136056, 29.9514556], [60.1281698, 29.9298048]],
-        planner: 'SHRNN'
+        bounds: [[60.1373061, 29.9326587], [60.136056, 29.9514556], [60.1281698, 29.9298048]]
     },
     {
         name: 'Сестрорецк, Таможенная дорога',
@@ -89,8 +82,7 @@ let twotwoStartsMaps = [
         link: './original_maps/starts/2x2/2007_05_01_tamozhennaya_2x2_omaps.jpg',
         info: '<a href="./docs/2x2/2007_2x2_rules_omaps.pdf">Положение</a>.',
         o_site: '07042901',
-        bounds: [[60.1363659, 29.9491918], [60.1349982, 29.9679995], [60.1276354, 29.9463272]],
-        planner: 'SHRNN'
+        bounds: [[60.1363659, 29.9491918], [60.1349982, 29.9679995], [60.1276354, 29.9463272]]
     },
     {
         name: 'Парголово',
@@ -100,8 +92,7 @@ let twotwoStartsMaps = [
         link: './original_maps/starts/2x2/2008_05_01_pargolovo_2x2_omaps.jpg',
         info: '<a href="./docs/2x2/2008_2x2_results_omaps.pdf">Результаты</a>, <a href="./docs/2x2/2008_2x2_total_omaps.pdf">итоги</a>.',
         o_site: '080503',
-        bounds: [[60.0793463, 30.2783203], [60.0793999, 30.2898431], [60.0732236, 30.2788568]],
-        planner: 'SHRNN'
+        bounds: [[60.0793463, 30.2783203], [60.0793999, 30.2898431], [60.0732236, 30.2788568]]
     },
     {
         name: 'Шуваловский парк',
@@ -111,8 +102,7 @@ let twotwoStartsMaps = [
         link: './original_maps/starts/2x2/2008_05_02_shuvalovsky_2x2_omaps.jpg',
         info: '<a href="./docs/2x2/2008_2x2_results_omaps.pdf">Результаты</a>, <a href="./docs/2x2/2008_2x2_total_omaps.pdf">итоги</a>.',
         o_site: '080503',
-        bounds: [[60.0838199, 30.3070092], [60.0828568, 30.320785], [60.07484, 30.3037691]],
-        planner: 'SHRNN'
+        bounds: [[60.0838199, 30.3070092], [60.0828568, 30.320785], [60.07484, 30.3037691]]
     },
     {
         name: 'Кавголово',
@@ -123,8 +113,7 @@ let twotwoStartsMaps = [
         info: '<a href="./docs/2x2/2008_2x2_results_omaps.pdf">Результаты</a>, <a href="./docs/2x2/2008_2x2_total_omaps.pdf">итоги</a>.',
         o_site: '080503',
         bounds: [[60.1725773, 30.5217576], [60.1717768, 30.5383015], [60.1624045, 30.5191612]],
-        author: 'SHRNN',
-        planner: 'SHRNN'
+        author: 'SHRNN'
     },
     {
         name: 'Сестрорецк, Детские Дюны',
@@ -135,8 +124,7 @@ let twotwoStartsMaps = [
         info: '<a href="./docs/2x2/2009_2x2_rules_omaps.pdf">Положение</a>.',
         o_site: '0905_2x2',
         bounds: [[60.1225264, 29.9571848], [60.1222485, 29.9711108], [60.1167645, 29.9563265]],
-        author: 'SHRNN',
-        planner: 'SHRNN'
+        author: 'SHRNN'
     },
     {
         name: 'Кавголово',
@@ -146,8 +134,7 @@ let twotwoStartsMaps = [
         link: './original_maps/starts/2x2/2009_05_03_kavgolovo_2x2_omaps.jpg',
         info: '<a href="./docs/2x2/2009_2x2_rules_omaps.pdf">Положение</a>.',
         o_site: '0905_2x2',
-        bounds: [[60.1911214, 30.5395031], [60.18918, 30.5580211], [60.184454, 30.5377007]],
-        planner: 'SHRNN'
+        bounds: [[60.1911214, 30.5395031], [60.18918, 30.5580211], [60.184454, 30.5377007]]
     },
     {
         name: 'Юкки, юг',
@@ -157,7 +144,6 @@ let twotwoStartsMaps = [
         link: './original_maps/starts/2x2/2010_05_09_yukki_2x2_omaps.jpg',
         o_site: '100508_2x2',
         results: './docs/2x2/2010_2x2_results_omaps.gif',
-        bounds: [[60.1107129, 30.3030181], [60.1090875, 30.3267074], [60.1032591, 30.3010225]],
-        planner: 'SHRNN'
+        bounds: [[60.1107129, 30.3030181], [60.1090875, 30.3267074], [60.1032591, 30.3010225]]
     },
 ];

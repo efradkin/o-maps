@@ -802,7 +802,6 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/anyalovo_2023.webp',
         link: './original_maps/forest/toksovo/anyalovo_2023_omaps.gif',
         bounds: [[60.3176623, 30.4951286], [60.311265, 30.5390739], [60.2985305, 30.4897642]],
-        publish: 'https://vk.com/album-230167293_313515750',
         author: ['TKMKV_K','KVZN'],
         owner: 'SFSO_SPB'
     },

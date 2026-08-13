@@ -512,7 +512,7 @@ let events2021 = [
         name: 'Noname Sprint Tour SPb - 2021. 3 этап',
         start: 'ST',
         type: 'ORIENT',
-        map: 'parkhomenko',
+        map: 'parkhomenko_2018',
         reskeep: 431
     },
     {
@@ -798,7 +798,8 @@ let events2021 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 433,
-        strava: 5362352069
+        strava: 5362352069,
+        map: 'okkervil_2024'
     },
     {
         id: 'SPB_20210529_1',
@@ -906,7 +907,9 @@ let events2021 = [
         type: 'VELO',
         res: 'http://sportident.online/ol/?id=360',
         owner: 'SFSO_SPB',
-        o_site: '210605_MTBO_klass'
+        o_site: '210605_MTBO_klass',
+        o_gps: 13866,
+        map: 'sverdlovets_velo_2021'
     },
     {
         id: 'SPB_20210605_2',
@@ -937,8 +940,17 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210606/210606_res8.htm',
         owner: 'SFSO_SPB',
         o_site: '210606',
+        o_gps: {
+            'М': 10104,
+            'Ж': 10105,
+            'М20': 10106,
+            'Ж20': 10107,
+            'M18': 10108,
+            'Все': 10110,
+        },
         reskeep: 473,
-        strava: 5423589839
+        strava: 5423589839,
+        map: 'orekhovo_south_2021'
     },
     {
         id: 'SPB_20210610_1',
@@ -961,7 +973,8 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1276',
         res: 'https://o-site.spb.ru/_races/210612v/210612V_rez.htm',
         info: 'Вечерний старт на классической дистанции по вело-ориентированию',
-        o_site: '210612v'
+        o_site: '210612v',
+        map: 'losevo_velo_2021'
     },
     {
         id: 'SPB_20210612_2',
@@ -1018,12 +1031,13 @@ let events2021 = [
     {
         id: 'SPB_20210619_1',
         date: '2021-06-19',
-        name: 'Индивидуальная тренировка MTBO',
+        name: 'Индивидуальная тренировка MTBO BondCup',
         place: 'Сосново',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1277',
         res: 'https://o-site.spb.ru/_races/210619_mtbo/210619_res.htm',
-        o_site: '210619_mtbo'
+        o_site: '210619_mtbo',
+        map: 'sosnovo_ulovnoe_velo_2021'
     },
     {
         id: 'SPB_20210619_2',
@@ -1189,7 +1203,8 @@ let events2021 = [
         start: 'GS',
         o_site: '210821ZZ',
         reskeep: 475,
-        strava: 5828500904
+        strava: 5828500904,
+        map: 'gs_2021_08_21'
     },
     {
         id: 'SPB_20210821_2',
@@ -1648,6 +1663,15 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/211018_az/20211019_rez.pdf',
         info: '4-й этап Первых Всероссийских игр по ориентированию «ТОЧНЫЙ АЗИМУТ» среди обучающихся образовательных организаций',
         o_site: '211018_az'
+    },
+    {
+        id: 'SPB_20211022_1',
+        date: '2021-10-22',
+        place: 'Дибуновская ул',
+        name: 'СПРИНТ ТУР',
+        type: 'ORIENT',
+        reskeep: 571,
+        map: 'dibunovskaya_2022'
     },
     {
         id: 'SPB_20211023_1',

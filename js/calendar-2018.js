@@ -782,7 +782,9 @@ let events2018 = [
         video: 'https://www.youtube.com/watch?v=DmBYqYQ_XwQ',
         start: 'MMS',
         o_site: '180622mms',
-        reskeep: [9, 8, 7]
+        planner: 'SRBRNTSKY',
+        reskeep: [9, 8, 7],
+        map: ['mms_2018_06_22','mms_2018_06_23','mms_2018_06_24']
     },
     {
         id: 'SPB_20180625_1',
@@ -1015,13 +1017,12 @@ let events2018 = [
     {
         id: 'SPB_20180905_1',
         date: '2018-09-05',
-        place: 'шк №74',
+        place: 'Среднеохтинский пр',
         name: 'Sprint Tour SPb 2018. 1 этап',
         start: 'ST',
         type: 'ORIENT',
         reskeep: 24,
-        map: 'big_okhta_2017',
-        map: 'gimnazia_74_2018'
+        map: 'big_okhta_2017'
     },
     {
         id: 'SPB_20180908_1',

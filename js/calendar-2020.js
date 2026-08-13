@@ -896,7 +896,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200829ZZ/200829ZZ_res.htm',
         info: 'Дистанция средней длины с большим количеством пунктов.',
         start: 'GS',
-        o_site: '200829ZZ'
+        o_site: '200829ZZ',
+        map: 'gs_2020_08_29'
     },
     {
         id: 'SPB_20200829_3',

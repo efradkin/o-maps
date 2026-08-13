@@ -526,7 +526,8 @@ let events2011 = [
         type: 'ROGAINE',
         res: 'http://www.100x24.ru/results.htm',
         o_site: '110703',
-        start: '100x24'
+        start: '100x24',
+        map: 'toksovo_2011_velo'
     },
     {
         id: 'SPB_20110709_1',
@@ -597,7 +598,9 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110828_Az/110828_res.htm',
         info: 'Традиционный старт КСО Азимут',
         start: 'GS',
-        o_site: '110828_Az'
+        o_site: '110828_Az',
+        map: 'gs_2011_08_28',
+        planner: 'GBNV_V'
     },
     {
         id: 'SPB_20110910_1',

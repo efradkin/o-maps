@@ -129,7 +129,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090221/09022122_res24.htm',
         info: '«100 км за 24 часа» - 1-й этап кубка Санкт-Петербурга по рогейну',
         start: '100x24',
-        o_site: '090221'
+        o_site: '090221',
+        map: 'veschevo_2009'
     },
     {
         id: 'SPB_20090222_1',
@@ -395,7 +396,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090530_rog/090531_res.htm',
         info: '6-й Чемпионат России по рогейну. Форматы: 24 часа (Ч-т России), 6 и 3 часа.',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        o_site: '090530_rog'
+        o_site: '090530_rog',
+        map: 'kuznechnoe_2009'
     },
     {
         id: 'SPB_20090603_1',
@@ -765,7 +767,8 @@ let events2009 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091003/091003_res.htm',
         info: 'Открытые соревнования на первенство спортивного клуба "Экран", посвященные 50-летию секции спортивного ориентирования',
-        o_site: '091003'
+        o_site: '091003',
+        map: 'silande_2009'
     },
     {
         id: 'SPB_20091003_2',

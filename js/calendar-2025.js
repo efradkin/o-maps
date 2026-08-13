@@ -209,6 +209,7 @@ let events2025 = [
         reskeep: 681,
         owner: 'SFSO_SPB',
         map: 'piskarevsky_2024',
+        publish: 'https://o-site.spb.ru/race.php?id=250223_ST',
         strava: 13702730016,
         me: 'Фит'
     },
@@ -258,6 +259,7 @@ let events2025 = [
         owner: 'SFSO_SPB',
         info: 'Новая карта.',
         map: 'lesotekchnicheskaya_2025',
+        publish: 'https://o-site.spb.ru/race.php?id=250308_ST',
         strava: 13820367367,
         me: 'М45'
     },
@@ -358,6 +360,7 @@ let events2025 = [
         reskeep: 673,
         owner: 'DLITELNY',
         map: 'lembolovo_2024',
+        publish: 'https://t.me/dlitelnyy/94',
         strava: 14028036913,
         me: 'A'
     },
@@ -623,6 +626,7 @@ let events2025 = [
         reskeep: 694,
         owner: 'SFSO_SPB',
         photo: 'https://vk.com/album-230167293_309535800',
+        publish: 'https://vk.com/album-230167293_309535800',
         map: 'silande_2024'
     },
     {
@@ -775,6 +779,7 @@ let events2025 = [
         type: 'ORIENT',
         o_site: '250509',
         o_gps: 22481,
+        publish: 'https://vk.com/album-230167293_309657044',
         map: 'tsvelodubovo_south_2021',
         reskeep: 697
     },
@@ -829,6 +834,8 @@ let events2025 = [
         ],
         owner: 'SFSO_SPB',
         map: 'manezh_alekseeva_2025',
+        planner: 'CHGRVSKY_M',
+        publish: 'https://vk.com/album-230167293_309672161',
         strava: 14444795470,
         me: 'Фит'
     },
@@ -930,6 +937,7 @@ let events2025 = [
         reskeep: 699,
         owner: 'SFSO_SPB',
         map: 'kanneljarvi_2023',
+        publish: 'https://vk.com/album-230167293_309756773',
         photo: 'https://vk.com/album-230167293_309756773'
     },
     {
@@ -940,8 +948,10 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/43938',
+        results: 'https://t.me/KuzmolovoDragons/26',
         reskeep: 688,
         start: 'ST',
+        planner: 'GRLNV',
         map: 'drezdenskaya_2023'
     },
     {
@@ -1031,6 +1041,7 @@ let events2025 = [
         reskeep: 703,
         photo: 'https://vk.com/album-92124592_307311265',
         start: 'ST',
+        planner: 'RYKV_A',
         map: 'alleya_polikarpova_2024'
     },
     {
@@ -1058,6 +1069,7 @@ let events2025 = [
         map: 'aleksandrino_1986',
         photo: 'https://vk.com/album-230167293_309922104',
         map: 'aleksandrino_north_2025',
+        publish: 'https://vk.com/album-230167293_309922104',
         owner: 'SFSO_SPB'
     },
     {
@@ -1165,6 +1177,7 @@ let events2025 = [
             'https://vk.com/album-230167293_310016870',
             'https://vk.com/album-230167293_310043045'
         ],
+        publish: 'https://vk.com/album-230167293_309995002',
         map: ['veschevo_2025','veschevo_south_2025']
     },
     {
@@ -1310,7 +1323,9 @@ let events2025 = [
             'https://www.youtube.com/watch?v=Awc980cCwP4',
             'https://www.youtube.com/watch?v=od8Wr9N-yLE'
         ],
-        major: true
+        major: true,
+        map: ['mms_2025_06_20','mms_2025_06_21','mms_2025_06_22'],
+        planner: ['ILVS','NKTN_I']
     },
     {
         id: 'SPB_20250623_1',
@@ -1550,6 +1565,7 @@ let events2025 = [
         reskeep: 713,
         photo: 'https://vk.com/album-92124592_308044841',
         map: 'dibunovskaya_2022',
+        planner: 'MSLVSKY',
         start: 'ST'
     },
     {
@@ -1649,13 +1665,13 @@ let events2025 = [
             'http://orgeo.ru/event/45172',
             'http://orgeo.ru/event/info/45167'
         ],
-        o_gps: 23280,
         video: [
             'https://www.youtube.com/watch?v=c1z6ygtj6tQ',
             'https://www.youtube.com/watch?v=7R8INV1bLhQ'
         ],
         reskeep: 784,
         owner: 'DLITELNY',
+        publish: 'https://t.me/dlitelnyy/288',
         map: 'orekhovo_south_2021'
     },
     {
@@ -1670,7 +1686,7 @@ let events2025 = [
         video: 'https://vk.com/video7973032_456239601',
         reskeep: 782,
         owner: 'VYBORG',
-        map: 'leypjasuo',
+        map: 'leypjasuo_2014',
         strava: 15567854500,
         me: 'A'
     },
@@ -1792,6 +1808,7 @@ let events2025 = [
         info: 'Новая карта.',
         start: 'ST',
         map: 'narvskaya_2025',
+        planner: 'CHGRVSKY_M',
         strava: 15765403877,
         me: 'М'
     },
@@ -1881,12 +1898,13 @@ let events2025 = [
             'Все КП': 23388
         },
         owner: 'SFSO_SPB',
-        photo: 'https://cloud.mail.ru/public/XGQt/iRcKxoYBX',
+        photo: ['https://cloud.mail.ru/public/XGQt/iRcKxoYBX','https://vk.com/album-230167293_311033082'],
         video: [
             'https://youtu.be/EqV2Kq-Uazo',
             'https://rutube.ru/video/b1267189df8aebb8490730aec92ae994/'
         ],
         map: 'pastorskoe_2024',
+        publish: 'https://vk.com/album-230167293_311033082',
         strava: 15807946368,
         me: 'М50'
     },
@@ -2083,6 +2101,7 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/46442',
         reskeep: 799,
         map: 'pionerskaya_2025_st',
+        planner: 'RYKV_A',
         photo: ['https://vk.com/album-92124592_308559130', 'https://disk.yandex.ru/d/AZzu-M9KzcRvyg'],
         info: 'Новая карта.',
         start: 'ST',
@@ -2254,6 +2273,8 @@ let events2025 = [
             'bolotnaya_station_2025',
             'zelenogorsk_tspko_2024'
         ],
+        planner: ['PLKV_D','CHGRVSKY_V'],
+        publish: 'https://vk.com/album-230167293_311285775',
         photo: [
             'https://vk.com/album-230167293_311306913',
             'https://disk.yandex.ru/d/H7HjD5tQNKFYoA',
@@ -2401,13 +2422,23 @@ let events2025 = [
         name: 'ЧиП СПб',
         fmt: 'эстафета 2х',
         type: 'VELO',
-        o_site: '251011',
+        o_site: '251011_velo',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1701',
         photo: [
             'https://cloud.mail.ru/public/7u19/u2oH4pEz4',
             'https://vk.com/album-230167293_311390266'
         ],
         map: 'lembolovo_velo_relay_2025'
+    },
+    {
+        id: 'SPB_20251011_8',
+        date: '2025-10-11',
+        place: 'Полюстровский парк',
+        name: 'Легенда осени',
+        type: 'ORIENT',
+        o_site: '251011',
+        reg: 'http://orgeo.ru/event/info/legendaoseni25',
+        map: 'polyustrovsky_2022'
     },
     {
         id: 'SPB_20251011_7',
@@ -2890,6 +2921,7 @@ let events2025 = [
         reskeep: 822,
         owner: 'SFSO_SPB',
         map: 'sosnovka_2024',
+        publish: 'https://vk.com/album-230167293_311811604',
         strava: 16540895608,
         me: 'М45'
     },
@@ -3139,6 +3171,7 @@ let events2025 = [
         },
         photo: 'https://vk.com/album-230167293_312031217',
         map: 'politekh_2022',
+        publish: 'https://vk.com/album-230167293_312031217',
         owner: 'SFSO_SPB',
         planner: 'ZMLKV_A',
         info: '<a href="http://o-route.ru/">Треки участников</a>.',

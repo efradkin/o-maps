@@ -389,6 +389,8 @@ let commonEvents2026 = [
         photo: ['https://vk.com/album-128591100_311341698','https://vk.com/album-230167293_313923869'],
         me: 'М50',
         map: 'peski_2026',
+        planner: ['ILVS','NKTN_I'],
+        publish: 'https://vk.com/album-142737358_311427986',
         major: true,
         start: 'MMS'
     },
@@ -409,8 +411,10 @@ let commonEvents2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         map: 'mms_2026_06_26',
+        publish: 'https://vk.com/album-142737358_311427986',
         planner: 'ILVS',
-        start: 'MMS'
+        start: 'MMS',
+        planner: 'ILVS'
     },
     {
         id: 'SPB_20260627_3',
@@ -435,6 +439,7 @@ let commonEvents2026 = [
         type: 'ORIENT',
         fmt: 'классика',
         map: 'mms_2026_06_27',
+        publish: 'https://vk.com/album-142737358_311427986',
         planner: 'ILVS',
         start: 'MMS'
     },
@@ -464,6 +469,7 @@ let commonEvents2026 = [
         fmt: 'лонг, гандикап',
         planner: 'NKTN_I',
         map: 'mms_2026_06_28',
+        publish: 'https://vk.com/album-142737358_311427986',
         start: 'MMS'
     },
     {
@@ -500,7 +506,8 @@ let commonEvents2026 = [
         fmt: 'спринт, лонг, классика',
         major: true,
         start: 'WN',
-        map: ['wn_2026_07_03','wn_2026_07_04','wn_2026_07_05']
+        map: ['wn_2026_07_03','wn_2026_07_04','wn_2026_07_05'],
+        planner: ['BLKV_M','GRBTNKVA_S','YGNV'],
     },
     {
         id: 'COMMON_20260704_1',

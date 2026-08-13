@@ -154,6 +154,14 @@ function safe(s) {
     return s || '';
 }
 
+function pushItems(array, items) {
+    if (Array.isArray(items)) {
+        array.push(...items);
+    } else {
+        array.push(items);
+    }
+}
+
 const downloadTableAsCSV = (table, filename) => {
     const csv = Array.from(table.find('tr')).reduce((acc, row) => {
         const cols = Array.from($(row).find('td, th'));
@@ -208,4 +216,36 @@ function getGreeting() {
         case 'EVENING': return 'Добрый вечер!';
         default: return 'Доброй ночи!';
     }
+}
+
+function buildLinksWithLabel(links, label) {
+    if (links && links.length > 0) {
+        if (Array.isArray(links)) {
+            if (links.length === 1) {
+                return `<a href="${links[0]}">${label}</a>.`
+            } else {
+                return `${label}: ${buildLinksList(links)}.`
+            }
+        } else {
+            return `<a href="${links}">${label}</a>.`
+        }
+    }
+    return '';
+}
+
+function buildLinksList(links) {
+    let results = '', counter = 1;
+    if (links) {
+        if (!Array.isArray(links)) {
+            links = [links];
+        }
+        const cache = [];
+        for (const r of links) {
+            if (cache.includes(r)) continue;
+            cache.push(r);
+            if (results) results += ', ';
+            results += `[<a href="${r}">${counter++}</a>]`;
+        }
+    }
+    return results;
 }

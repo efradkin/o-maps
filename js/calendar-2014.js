@@ -419,7 +419,8 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/140525v/ResultList.htm',
         info: 'Открытые Чемпионат и первенство Ленинградской области по спортивному ориентированию на велосипедах. Спринт (25мин). Новоорловский лесопарк. 12:00.',
         owner: 'SFSO_LO',
-        o_site: '140525v'
+        o_site: '140525v',
+        map: 'novoorlovsky_park_velo_2014'
     },
     {
         id: 'SPB_20140525_2',
@@ -495,7 +496,8 @@ let events2014 = [
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://www.100x24.spb.ru/2014/results/100x24_20140608_results.htm',
         o_site: '140608',
-        start: '100x24'
+        start: '100x24',
+        map: 'koltushi_2014'
     },
     {
         id: 'SPB_20140612_1',
@@ -773,7 +775,8 @@ let events2014 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/141004_ZK/141004_res.xls',
         start: 'WEDDING',
-        o_site: '141004_ZK'
+        o_site: '141004_ZK',
+        map: 'garbolovo_2014'
     },
     {
         id: 'SPB_20141004_2',

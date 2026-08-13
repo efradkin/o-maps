@@ -132,7 +132,7 @@
             }
             row = row.replace('#map_img_src', link);
             row = row.replace('#map_href', link);
-            row = row.replace('#map_link', 'map-info.html?map=' + extractFileName(link));
+            row = row.replace('#map_link', 'map-info.html?map=' + getMapName(m));
             let y = startYear(m) ?? year(m);
             if (y) {
                 y = y > 1 ? y : 'Ретро';

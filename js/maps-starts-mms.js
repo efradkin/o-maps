@@ -9,7 +9,6 @@ let mmsStartsMaps = [
         results: './docs/1996/1999_06_29_svyatkina_omaps.pdf',
         bounds: [[60.6278706, 29.9101925], [60.6241237, 29.9567127], [60.6031495, 29.9016094]],
         author: 'BYMKV',
-        planner: 'TLNV_A'
     },
     {
         name: 'Ягодное',
@@ -20,7 +19,6 @@ let mmsStartsMaps = [
         results: './docs/1996/1999_06_29_svyatkina_omaps.pdf',
         bounds: [[60.636668, 29.9482584], [60.6305648, 30.0276947], [60.6124379, 29.9389458]],
         author: 'BYMKV',
-        planner: 'TLNV_A'
     },
     {
         name: 'Орехово',
@@ -30,7 +28,6 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_1997_06_29_omaps.jpg',
         bounds: [[60.4685578, 30.3298187], [60.4656385, 30.384407], [60.4436723, 30.3237247]],
         author: ['BYMKV','DBRTSV_V'],
-        planner: 'TLNV_A'
     },
     {
         name: 'Кузнечное, Богатыри',
@@ -40,7 +37,6 @@ let mmsStartsMaps = [
         link: ['./original_maps/starts/mms/mms_1998_06_omaps.jpg','./original_maps/starts/mms/mms_1998_06_26_omaps.jpg'],
         bounds: [[61.1193662, 29.8156929], [61.1155106, 29.870882], [61.1003948, 29.8099422]],
         author: ['KUZNTSV_A','KVZN','SHRNN'],
-        planner: 'TLNV_A'
     },
     {
         name: 'Каменногорск',
@@ -50,7 +46,6 @@ let mmsStartsMaps = [
         link: ['./original_maps/starts/mms/mms_2000_07_02_omaps.jpg','./original_maps/starts/mms/mms_2000_07_02_clean_omaps.webp'],
         bounds: [[60.9988136, 29.1680145], [60.9946104, 29.2224741], [60.9797283, 29.1612339]],
         author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV','TKMKV_K','VRBY'],
-        planner: 'TLNV_A'
     },
     {
         name: 'Каменногорск',
@@ -59,7 +54,6 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2000_06_30.webp',
         link: './original_maps/starts/mms/mms_2000_06_30_clean_omaps.webp',
         bounds: [[61.002829, 29.1787863], [61.0006029, 29.2050934], [60.9942358, 29.1754818]],
-        planner: 'TLNV_A'
     },
     {
         name: 'Пески, оз Пулконлампи',
@@ -70,7 +64,6 @@ let mmsStartsMaps = [
         start: 'MMS',
         bounds: [[60.486406, 30.3976679], [60.4849895, 30.4190397], [60.4717094, 30.3938055]],
         author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
-        planner: 'TLNV_A'
     },
     {
         name: 'Пески, Забытое оз',
@@ -80,8 +73,7 @@ let mmsStartsMaps = [
         results: './docs/2001/2001_06_28_svyatkina_omaps.pdf',
         start: 'MMS',
         bounds: [[60.4857929, 30.4095984], [60.484165, 30.4373646], [60.4620209, 30.4042768]],
-        author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
-        planner: 'TLNV_A'
+        author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY']
     },
     {
         name: 'Пески, оз Стайка',
@@ -91,8 +83,7 @@ let mmsStartsMaps = [
         results: './docs/2001/2001_06_28_svyatkina_omaps.pdf',
         start: 'MMS',
         bounds: [[60.4772505, 30.4066372], [60.4737822, 30.4587364], [60.4592915, 30.4020882]],
-        author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
-        planner: 'TLNV_A'
+        author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY']
     },
     {
         name: 'Ягодное, Расстанное оз',
@@ -101,8 +92,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2002_06_29.webp',
         link: ['./original_maps/starts/mms/mms_2002_06_29_omaps.jpg','./original_maps/starts/mms/mms_2002_06_29_omaps.webp'],
         bounds: [[60.6269024, 29.9206638], [60.6226711, 29.9697161], [60.6126907, 29.9166298]],
-        author: ['TKMKV_K','SHRNN'],
-        planner: 'TLNV_A'
+        author: ['TKMKV_K','SHRNN']
     },
     {
         name: 'Ягодное, Расстанное оз',
@@ -111,8 +101,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2002_06_28.webp',
         link: './original_maps/starts/mms/mms_2002_06_28_omaps.jpg',
         bounds: [[60.6262709, 29.9291611], [60.6241658, 29.9579144], [60.6169443, 29.9262428]],
-        author: ['TKMKV_K','SHRNN'],
-        planner: 'TLNV_A'
+        author: ['TKMKV_K','SHRNN']
     },
     {
         name: 'Ягодное, Расстанное оз',
@@ -121,8 +110,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2002_06_30.webp',
         link: './original_maps/starts/mms/mms_2002_06_30_omaps.jpg',
         bounds: [[60.6283127, 29.91045], [60.625092, 29.9443531], [60.6051717, 29.902339]],
-        author: ['TKMKV_K','SHRNN'],
-        planner: 'TLNV_A'
+        author: ['TKMKV_K','SHRNN']
     },
     {
         name: 'Каменногорск, Обходное оз',
@@ -131,8 +119,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2003_06_27.webp',
         link: './original_maps/starts/mms/mms_2003_06_27.jpg',
         bounds: [[61.0025794, 29.1832495], [61.0010814, 29.2002869], [60.9862648, 29.1777992]],
-        author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV'],
-        planner: 'TLNV_A'
+        author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV']
     },
     {
         name: 'Каменногорск, Новинское оз',
@@ -141,8 +128,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2003_06_28.webp',
         link: './original_maps/starts/mms/mms_2003_06_28_omaps.webp',
         bounds: [[60.99383, 29.1593885], [60.9906564, 29.1958237], [60.9807067, 29.1552258]],
-        author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV'],
-        planner: 'TLNV_A'
+        author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV']
     },
     {
         name: 'Каменногорск, Новинское оз',
@@ -151,8 +137,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2003_06_29.webp',
         link: './original_maps/starts/mms/mms_2003_06_29.jpg',
         bounds: [[60.9973779, 29.1345406], [60.9934867, 29.1874123], [60.9828718, 29.1303778]],
-        author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV'],
-        planner: 'TLNV_A'
+        author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV']
     },
     {
         name: 'Петяярви',
@@ -163,8 +148,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2004_06_26.webp',
         link: './original_maps/starts/mms/mms_2004_06_26_omaps.jpg',
         bounds: [[60.6322275, 30.0758028], [60.6296177, 30.1164436], [60.6148386, 30.071125]],
-        author: ['LVCHV','SVTKN'],
-        planner: 'TLNV_A'
+        author: ['LVCHV','SVTKN']
     },
     {
         name: 'Петяярви',
@@ -175,8 +159,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2004_06_27.webp',
         link: './original_maps/starts/mms/mms_2004_06_27_omaps.jpg',
         bounds: [[60.6319118, 30.1017237], [60.6277233, 30.1555395], [60.6137015, 30.097003]],
-        author: ['LVCHV','SVTKN'],
-        planner: 'TLNV_A'
+        author: ['LVCHV','SVTKN']
     },
     {
         name: 'Сосново, 78-й км',
@@ -187,8 +170,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2005_06_25.webp',
         link: './original_maps/starts/mms/mms_2005_06_25_omaps.jpg',
         bounds: [[60.6047294, 30.219655], [60.6027493, 30.2492666], [60.5853866, 30.2142906]],
-        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
         name: 'Сосново, 78-й км',
@@ -199,8 +181,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2005_06_26.webp',
         link: './original_maps/starts/mms/mms_2005_06_26_omaps.jpg',
         bounds: [[60.6204184, 30.1759243], [60.6178076, 30.227294], [60.6031706, 30.1722765]],
-        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
         name: 'Сосново, 78-й км',
@@ -210,8 +191,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2006_06_24.webp',
         link: './original_maps/starts/mms/mms_2006_06_24_omaps.jpg',
         bounds: [[60.6244816, 30.2055788], [60.6225658, 30.2346325], [60.602349, 30.1981544]],
-        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
         name: 'Сосново, 78-й км',
@@ -221,8 +201,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2006_06_25.webp',
         link: './original_maps/starts/mms/mms_2006_06_25_omaps.jpg',
         bounds: [[60.6292598, 30.1833057], [60.6254288, 30.2357483], [60.6121431, 30.1773405]],
-        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
         name: 'Сосново, 78-й км',
@@ -232,8 +211,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2006_06_23.webp',
         link: './original_maps/starts/mms/mms_2006_06_23_omaps.webp',
         bounds: [[60.6113639, 30.215106], [60.6092789, 30.2385378], [60.6008954, 30.2121878]],
-        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
         name: 'Ягодное',
@@ -242,8 +220,7 @@ let mmsStartsMaps = [
         o_site: '06062225_MS',
         url: './maps/starts/mms/mms_2007_06_24.webp',
         link: './original_maps/starts/mms/mms_2007_06_24_omaps.webp',
-        bounds: [[60.6253657, 29.8853874], [60.6212816, 29.9367142], [60.6078888, 29.8798943]],
-        planner: 'TLNV_A'
+        bounds: [[60.6253657, 29.8853874], [60.6212816, 29.9367142], [60.6078888, 29.8798943]]
     },
     {
         name: 'Каменногорск',
@@ -253,8 +230,7 @@ let mmsStartsMaps = [
         o_site: '080627_MS',
         url: './maps/starts/mms/mms_2008_06_28.webp',
         link: './original_maps/starts/mms/mms_2008_06_28_omaps.jpg',
-        bounds: [[60.9889706, 29.1777992], [60.9864313, 29.2094278], [60.9679008, 29.1706324]],
-        planner: 'TLNV_A'
+        bounds: [[60.9889706, 29.1777992], [60.9864313, 29.2094278], [60.9679008, 29.1706324]]
     },
     {
         name: 'Кузнечное, Богатыри',
@@ -264,8 +240,7 @@ let mmsStartsMaps = [
         o_site: '09062628',
         url: './maps/starts/mms/mms_2009_06_28.webp',
         link: './original_maps/starts/mms/mms_2009_06_28_omaps.jpg',
-        bounds: [[61.1242367, 29.8180532], [61.1221642, 29.8549175], [61.0994615, 29.8105431]],
-        planner: 'TLNV_A'
+        bounds: [[61.1242367, 29.8180532], [61.1221642, 29.8549175], [61.0994615, 29.8105431]]
     },
     {
         name: 'Кузнечное, Богатыри',
@@ -275,8 +250,7 @@ let mmsStartsMaps = [
         o_site: '09062628',
         url: './maps/starts/mms/mms_2009_06_27.webp',
         link: './original_maps/starts/mms/mms_2009_06_27_omaps.jpg',
-        bounds: [[61.1062222, 29.8069811], [61.1031945, 29.8554754], [61.0843172, 29.8001575]],
-        planner: 'TLNV_A'
+        bounds: [[61.1062222, 29.8069811], [61.1031945, 29.8554754], [61.0843172, 29.8001575]]
     },
     {
         name: 'Лемболово',
@@ -287,8 +261,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2010_lembolovo.webp',
         link: './original_maps/starts/mms/mms_2010_lembolovo.jpg',
         bounds: [[60.4705884, 30.3246689], [60.4661886, 30.3818321], [60.4263513, 30.3098202]],
-        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово-Орехово',
@@ -299,8 +272,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2011_lembolovo_orekhovo.webp',
         link: './original_maps/starts/mms/mms_2011_lembolovo_orekhovo.jpg',
         bounds: [[60.4752415, 30.2691364], [60.4655962, 30.3820038], [60.4094872, 30.2463913]],
-        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
@@ -311,8 +283,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2012_06_26.webp',
         link: './original_maps/starts/mms/mms_2012_06_26.jpg',
         bounds: [[60.4391841, 30.3140903], [60.4374797, 30.3347111], [60.4299412, 30.3124166]],
-        author: ['VRBY','KVZN','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
@@ -323,8 +294,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2012_06_27.webp',
         link: './original_maps/starts/mms/mms_2012_06_27.jpg',
         bounds: [[60.4392053, 30.3331232], [60.4363893, 30.3676701], [60.41845, 30.3264284]],
-        author: ['VRBY','KVZN','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
@@ -335,8 +305,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2012_06_28.webp',
         link: './original_maps/starts/mms/mms_2012_06_28.jpg',
         bounds: [[60.4068593, 30.2784491], [60.4043161, 30.3081036], [60.3871861, 30.2711105]],
-        author: ['VRBY','KVZN','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
@@ -347,8 +316,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2012_06_30.webp',
         link: './original_maps/starts/mms/mms_2012_06_30.jpg',
         bounds: [[60.4221572, 30.2785778], [60.4193398, 30.3096056], [60.4033623, 30.2728271]],
-        author: ['VRBY','KVZN','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
@@ -359,8 +327,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2012_07_01.webp',
         link: './original_maps/starts/mms/mms_2012_07_01.jpg',
         bounds: [[60.4409202, 30.2616692], [60.4343989, 30.332737], [60.4167127, 30.2536869]],
-        author: ['VRBY','KVZN','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
@@ -371,8 +338,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2012_06_29.webp',
         link: './original_maps/starts/mms/mms_2012_06_29.jpg',
         bounds: [[60.430333, 30.300293], [60.427495, 30.3334236], [60.4142337, 30.2947998]],
-        author: ['VRBY','KVZN','NSNV','TKMKV_K'],
-        planner: 'TLNV_A'
+        author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Выборг, Сайменские дачи',
@@ -384,7 +350,6 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2013_06_28_omaps.jpg',
         bounds: [[60.7718608, 28.7551689], [60.7702472, 28.7842655], [60.7592014, 28.7519503]],
         author: ['KRYLS','SMLGS','TMLNS'],
-        planner: 'TLNV_A',
         zindex: 2
     },
     {
@@ -396,8 +361,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2014_polyany.webp',
         link: ['./original_maps/starts/mms/mms_2014_polyany.pdf','./original_maps/starts/mms/mms_2014_kids_omaps.jpg'],
         bounds: [[60.3233146, 29.2662477], [60.3149632, 29.3379164], [60.2925761, 29.2523003]],
-        author: 'SHRNN',
-        planner: 'TLNV_A'
+        author: 'SHRNN'
     },
     {
         name: 'Поляны',
@@ -409,8 +373,7 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2014_06_29.gif',
         o_gps: 223,
         bounds: [[60.3175135, 29.273243], [60.3116476, 29.3230247], [60.3008694, 29.2649603]],
-        author: 'SHRNN',
-        planner: 'TLNV_A'
+        author: 'SHRNN'
     },
     {
         name: 'Красная долина',
@@ -421,8 +384,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2015_krasna_dolina.webp',
         link: './original_maps/starts/mms/mms_2015_krasna_dolina.pdf',
         bounds: [[60.4307565, 28.9990997], [60.4258853, 29.0445042], [60.4003312, 28.9857101]],
-        author: ['DJCHKV','STLV_S'],
-        planner: 'TLNV_A'
+        author: ['DJCHKV','STLV_S']
     },
     {
         name: 'Красная долина',
@@ -434,8 +396,7 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2015_06_28.gif',
         o_gps: 565,
         bounds: [[60.4273255, 29.0048504], [60.4233223, 29.0432167], [60.4104832, 28.9973402]],
-        author: ['DJCHKV','STLV_S'],
-        planner: 'TLNV_A'
+        author: ['DJCHKV','STLV_S']
     },
     {
         name: 'Коробицыно',
@@ -446,8 +407,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2017_korobitsyno.webp',
         link: './original_maps/starts/mms/mms_2017_korobitsyno.pdf',
         bounds: [[60.547004, 29.80093], [60.5445139, 29.864316], [60.5109208, 29.7944927]],
-        author: ['DJCHKV','STLV_S','PPV_D'],
-        planner: 'TLNV_A'
+        author: ['DJCHKV','STLV_S','PPV_D']
     },
     {
         name: 'Коробицыно',
@@ -458,8 +418,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2016_korobitsyno.webp',
         link: './original_maps/starts/mms/mms_2016_korobitsyno.pdf',
         bounds: [[60.5399341, 29.8003292], [60.5379711, 29.8596382], [60.5183138, 29.7965527]],
-        author: ['DJCHKV','STLV_S','PPV_D'],
-        planner: 'TLNV_A'
+        author: ['DJCHKV','STLV_S','PPV_D']
     },
     {
         name: 'Коробицыно',
@@ -471,8 +430,7 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2016_06_26.gif',
         o_gps: 1235,
         bounds: [[60.5362402, 29.8069811], [60.5344882, 29.857192], [60.5185039, 29.8038054]],
-        author: ['DJCHKV','STLV_S','PPV_D'],
-        planner: 'TLNV_A'
+        author: ['DJCHKV','STLV_S','PPV_D']
     },
     {
         name: 'Коробицыно',
@@ -484,188 +442,159 @@ let mmsStartsMaps = [
         link: './original_maps/starts/mms/mms_2017_06_25.gif',
         o_gps: 2492,
         bounds: [[60.5332638, 29.8265076], [60.5316171, 29.8589516], [60.5104983, 29.8228168]],
-        author: ['DJCHKV','STLV_S','PPV_D'],
-        planner: 'TLNV_A'
+        author: ['DJCHKV','STLV_S','PPV_D']
     },
     {
         name: 'Петяярви, р Волчья',
         start: 'MMS',
         date: '2018-06-24',
         info: 'Лонг.',
-        o_site: '180622mms',
         url: './maps/starts/mms/mms_2018_06_24.webp',
         link: './original_maps/starts/mms/mms_2018_06_24.jpg',
         bounds: [[60.6320381, 30.0483799], [60.6300597, 30.1064873], [60.606604, 30.0435734]],
         author: 'DJCHKV',
-        planner: 'SRBRNTSKY'
     },
     {
         name: 'Петяярви, р Волчья',
         start: 'MMS',
         date: '2018-06-23',
         info: 'Классика.',
-        o_site: '180622mms',
         url: './maps/starts/mms/mms_2018_06_23.webp',
         link: './original_maps/starts/mms/mms_2018_06_23.jpg',
         bounds: [[60.629765, 30.0546026], [60.6286705, 30.0830555], [60.6143543, 30.0517702]],
         author: 'DJCHKV',
-        planner: 'SRBRNTSKY'
     },
     {
         name: 'Петяярви, р Волчья',
         start: 'MMS',
         date: '2018-06-22',
         info: 'Спринт.',
-        o_site: '180622mms',
         url: './maps/starts/mms/mms_2018_06_22.webp',
         link: './original_maps/starts/mms/mms_2018_06_22.jpg',
         bounds: [[60.6098792, 30.0951576], [60.6086681, 30.1217651], [60.5987782, 30.0932693]],
         author: 'DJCHKV',
-        planner: 'SRBRNTSKY'
     },
     {
         name: 'Сосново, Уловное оз',
         start: 'MMS',
         date: '2019-06-23',
         info: 'Финал, лонг.',
-        o_site: '190623MMS',
         url: './maps/starts/mms/mms_2019_06_23.webp',
         link: './original_maps/starts/mms/mms_2019_06_23.jpg',
         bounds: [[60.6145649, 30.1864386], [60.6124801, 30.2305126], [60.5971664, 30.1830912]],
         author: ['DJCHKV','PPV_D'],
-        planner: 'SRBRNTSKY'
     },
     {
         name: 'Сосново, Уловное оз',
         start: 'MMS',
         date: '2019-06-22',
         info: 'Полуфинал, классика.',
-        o_site: '190623MMS',
         url: './maps/starts/mms/mms_2019_06_22.webp',
         link: './original_maps/starts/mms/mms_2019_06_22.jpg',
         bounds: [[60.6202289, 30.1873398], [60.6183761, 30.2312422], [60.6093842, 30.1849365]],
         author: ['DJCHKV','PPV_D'],
-        planner: 'SRBRNTSKY'
     },
     {
         name: 'Сосново, Уловное оз',
         start: 'MMS',
         date: '2019-06-21',
         info: 'Спринт.',
-        o_site: '190623MMS',
         url: './maps/starts/mms/mms_2019_06_21.webp',
         link: './original_maps/starts/mms/mms_2019_06_21.jpg',
         bounds: [[60.6120168, 30.2181959], [60.6115956, 30.2375078], [60.5955651, 30.2161789]],
         author: ['DJCHKV','PPV_D'],
-        planner: 'SRBRNTSKY'
     },
     {
         name: 'Снегирёвка, оз Щучье',
         start: 'MMS',
         date: '2022-06-21',
         info: 'Праздник эстафет.',
-        o_site: '22061820',
         url: './maps/starts/mms/mms_2022_06_21.webp',
         link: './original_maps/starts/mms/mms_2022_06_21.jpg',
         bounds: [[60.5401663, 30.3154421], [60.5387943, 30.3493881], [60.5279856, 30.312953]],
         author: 'DJCHKV',
-        planner: 'SHEIN'
     },
     {
         name: 'Снегирёвка, оз Щучье',
         start: 'MMS',
         date: '2022-06-19',
         info: 'Финал.',
-        o_site: '22061820',
         url: './maps/starts/mms/mms_2022_06_19.webp',
         link: './original_maps/starts/mms/mms_2022_06_19.jpg',
         bounds: [[60.5470673, 30.3193045], [60.5455479, 30.350976], [60.5269721, 30.3155708]],
         author: 'DJCHKV',
-        planner: 'SHEIN'
     },
     {
         name: 'Снегирёвка, оз Щучье',
         start: 'MMS',
         date: '2022-06-18',
         info: 'Пролог.',
-        o_site: '22061820',
         url: './maps/starts/mms/mms_2022_06_18.webp',
         link: './original_maps/starts/mms/mms_2022_06_18.jpg',
         bounds: [[60.516772, 30.2782774], [60.5144485, 30.314455], [60.5063996, 30.2758741]],
         author: 'DBRTSV_V',
-        planner: 'SHEIN'
     },
     {
         name: 'Снегирёвка, оз Щучье',
         start: 'MMS',
         date: '2022-06-17',
         info: 'Тренировка.',
-        o_site: '22061820',
         url: './maps/starts/mms/mms_2022_06_17.webp',
         link: './original_maps/starts/mms/mms_2022_06_17.jpg',
         bounds: [[60.5399446, 30.3057861], [60.5390371, 30.3321576], [60.5239631, 30.3030825]],
         author: 'DJCHKV',
-        planner: 'SHEIN'
     },
     {
         name: 'Сосново, Уловное оз',
         start: 'MMS',
         date: '2023-06-25',
         info: 'Финал.',
-        o_site: 'mms2023',
         url: './maps/starts/mms/mms_2023_06_25.webp',
         link: './original_maps/starts/mms/mms_2023_06_25.jpg',
         bounds: [[60.6239974, 30.2016735], [60.6211763, 30.2364349], [60.5977142, 30.1929188]],
         author: ['MKHLV_A','SBLV_S'],
-        planner: 'TSVTKV_D'
     },
     {
         name: 'Сосново, Уловное оз',
         start: 'MMS',
         date: '2023-06-24',
         info: 'Классика.',
-        o_site: 'mms2023',
         url: './maps/starts/mms/mms_2023_06_24.webp',
         link: './original_maps/starts/mms/mms_2023_06_24.jpg',
         bounds: [[60.6103741, 30.2077675], [60.6064355, 30.2539873], [60.5948277, 30.2027464]],
         author: ['MKHLV_A','SBLV_S'],
-        planner: 'TSVTKV_D'
     },
     {
         name: 'Сосново, Уловное оз',
         start: 'MMS',
         date: '2023-06-23',
         info: 'Тренировка.',
-        o_site: 'mms2023',
         url: './maps/starts/mms/mms_2023_06_23.webp',
         link: './original_maps/starts/mms/mms_2023_06_23.jpg',
         bounds: [[60.600748, 30.216608], [60.5974193, 30.2559185], [60.5852391, 30.2112865]],
         author: ['MKHLV_A','SBLV_S'],
-        planner: 'TSVTKV_D'
     },
     {
         name: 'Первомайское, оз Семейные',
         start: 'MMS',
         date: '2024-06-23',
         info: 'Финал.',
-        o_site: 'mms2024',
         url: './maps/starts/mms/mms_2024_06_23.webp',
         link: './original_maps/starts/mms/mms_2024_06_23.jpg',
         bounds: [[60.4419999, 29.6408558], [60.4369186, 29.6895647], [60.424805, 29.6340752]],
         author: ['SLBDNK','MKHLV_A','GVRLK','RDNV_I'],
-        planner: 'NKTN_I'
+        // planner: 'NKTN_I'
     },
     {
         name: 'Первомайское, оз Семейные',
         start: 'MMS',
         date: '2024-06-22',
         info: 'Пролог.',
-        o_site: 'mms2024',
         url: './maps/starts/mms/mms_2024_06_22.webp',
         link: './original_maps/starts/mms/mms_2024_06_22.jpg',
         bounds: [[60.4350976, 29.6794796], [60.4313707, 29.7142839], [60.4136828, 29.671154]],
         author: ['SLBDNK','MKHLV_A','GVRLK','ILVS'],
-        planner: 'ILVS'
+        // planner: 'ILVS'
     },
     {
         name: 'Яппиля, оз Пистолет',
@@ -673,12 +602,11 @@ let mmsStartsMaps = [
         year: 2025,
         date: '2025-06-21',
         info: 'Пролог.',
-        o_site: 'mms2025',
         url: './maps/starts/mms/mms_2025_06_21.webp',
         link: './original_maps/starts/mms/mms_2025_06_21_omaps.jpg',
         bounds: [[60.2071604, 29.1199064], [60.2036632, 29.1550112], [60.1870038, 29.1117525]],
         author: ['NSNV','KVZN','TKMKV_K','TKMKVA_P'],
-        planner: 'ILVS'
+        // planner: 'ILVS'
     },
     {
         name: 'Яппиля, оз Пистолет',
@@ -686,12 +614,11 @@ let mmsStartsMaps = [
         year: 2025,
         date: '2025-06-22',
         info: 'Финал.',
-        o_site: 'mms2025',
         url: './maps/starts/mms/mms_2025_06_22.webp',
         link: './original_maps/starts/mms/mms_2025_06_22_omaps.jpg',
         bounds: [[60.2137699, 29.1232109], [60.2101668, 29.1575003], [60.1930201, 29.114542]],
         author: ['NSNV','KVZN','TKMKV_K','TKMKVA_P'],
-        planner: 'NKTN_I'
+        // planner: 'NKTN_I'
     },
     {
         name: 'Яппиля, оз Пистолет',
@@ -699,7 +626,6 @@ let mmsStartsMaps = [
         year: 2025,
         date: '2025-06-20',
         info: 'Тренировка.',
-        o_site: 'mms2025',
         url: './maps/starts/mms/mms_2025_06_20.webp',
         link: './original_maps/starts/mms/mms_2025_06_20_omaps.jpg',
         bounds: [[60.2073309, 29.1194344], [60.2037485, 29.1549683], [60.1957505, 29.1148424]],
@@ -711,13 +637,12 @@ let mmsStartsMaps = [
         date: '2026-06-27',
         info: 'Пролог, классика.',
         about: 'https://sfr-system.ru/mms/',
-        calendar: 'SPB_20260627_3',
         url: './maps/starts/mms/mms_2026_06_27.webp',
         link: ['./original_maps/starts/mms/mms_2026_06_27_omaps.webp','./original_maps/starts/mms/mms_2026_06_27_w_omaps.webp'],
         bounds: [[60.4894608, 30.4183316], [60.4870403, 30.4415488], [60.464951, 30.4074311]],
         author: ['BRGNTS','VSLV_S','VRBY'],
         owner: 'SFSO_LO',
-        publish: 'https://vk.com/album-142737358_311427986'
+        zindex: 2
     },
     {
         name: 'Пески, оз Пулконлампи',
@@ -725,13 +650,12 @@ let mmsStartsMaps = [
         date: '2026-06-28',
         info: 'Лонг, гандикап.',
         about: 'https://sfr-system.ru/mms/',
-        calendar: 'SPB_20260628_2',
         url: './maps/starts/mms/mms_2026_06_28.webp',
         link: ['./original_maps/starts/mms/mms_2026_06_28_1_omaps.webp','./original_maps/starts/mms/mms_2026_06_28_2_omaps.webp','./original_maps/starts/mms/mms_2026_06_28_w1_omaps.webp','./original_maps/starts/mms/mms_2026_06_28_w2_omaps.webp'],
         bounds: [[60.4928324, 30.4195547], [60.4883298, 30.4603243], [60.4756221, 30.4114652]],
         author: ['BRGNTS','VSLV_S','VRBY'],
         owner: 'SFSO_LO',
-        publish: 'https://vk.com/album-142737358_311427986'
+        zindex: 2
     },
     {
         name: 'Пески, оз Ночное',
@@ -739,13 +663,11 @@ let mmsStartsMaps = [
         date: '2026-06-26',
         info: 'Тренировка.',
         about: 'https://sfr-system.ru/mms/',
-        calendar: 'SPB_20260626_2',
         url: './maps/starts/mms/mms_2026_06_26.webp',
         link: ['./original_maps/starts/mms/mms_2026_06_26_omaps.webp','./original_maps/starts/mms/mms_2026_06_26_w_omaps.webp'],
         bounds: [[60.4928535, 30.4217863], [60.4905706, 30.4433727], [60.4798938, 30.4159498]],
         author: ['BRGNTS','VSLV_S','VRBY'],
         owner: 'SFSO_LO',
-        publish: 'https://vk.com/album-142737358_311427986',
-        planner: 'ILVS'
+        zindex: 2
     },
 ];

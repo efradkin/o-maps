@@ -153,12 +153,13 @@ let events2023 = [
         date: '2023-02-09',
         endDate: '2023-02-12',
         place: 'Токсово',
-        name: 'Первенство России, Токсово',
+        name: 'Первенство России',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230213/230213_Vseros_res.pdf',
         photo: 'http://vk.com/album-30365190_291308622',
         video: 'https://www.youtube.com/watch?v=46IuiG56HUc',
-        o_site: '230213'
+        o_site: '230213',
+        map: 'toksovo_vifk_winter_2023'
     },
     {
         id: 'SPB_20230219_1',
@@ -461,7 +462,8 @@ let events2023 = [
         name: 'Noname Sprint Tour SPb 2023 - 2 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 573
+        reskeep: 573,
+        map: 'murinsky_east_2023'
     },
     {
         id: 'SPB_20230429_1',
@@ -905,7 +907,9 @@ let events2023 = [
         ],
         start: 'MMS',
         o_site: 'mms2023',
-        reskeep: [598, 596, 597]
+        reskeep: [598, 596, 597],
+        map: ['mms_2023_06_23','mms_2023_06_24','mms_2023_06_25'],
+        planner: 'TSVTKV_D'
     },
     {
         id: 'SPB_20230624_1',
@@ -1153,7 +1157,8 @@ let events2023 = [
         start: 'GS',
         o_site: '230826ZZ',
         strava: 9723034967,
-        reskeep: 590
+        reskeep: 590,
+        map: 'gs_2023_08_26'
     },
     {
         id: 'SPB_20230826_2',
@@ -1481,16 +1486,22 @@ let events2023 = [
         name: 'Noname Sprint Tour 2023. 6 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 619
+        reskeep: 619,
+        o_gps: {
+            'М':17480,
+            'Ж':17482
+        },
+        map: 'zhaka_djuklo_2023'
     },
     {
         id: 'SPB_20231005_1',
         date: '2023-10-05',
         endDate: '2023-10-09',
-        name: 'Всероссийские соревнования Невский спринт',
+        name: 'Всероссийские соревнования "Невский спринт"',
         place: 'УТЦ Кавголово, Парголово, шк №97',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/29568/1',
+        o_gps: 17533,
         video: [
             'https://www.youtube.com/watch?v=pSrwKLYU-OE',
             'https://rutube.ru/video/d0cfec4658b9f623f39c9c6ae643feff/',
@@ -1499,7 +1510,8 @@ let events2023 = [
         owner: 'SFSO_SPB',
         o_site: '231009_NS',
         strava: 9986789707,
-        reskeep: 616
+        reskeep: 616,
+        map: ['kavgolovo_utts_2023','pargolovo_2021','drezdenskaya_2023']
     },
     {
         id: 'SPB_20231007_1',

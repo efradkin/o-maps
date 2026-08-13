@@ -19,7 +19,6 @@ let schoolMaps = [
         o_site: '161019s',
         url: './maps/city/school_150_2016.webp',
         link: ['./original_maps/schools/school_150_2016_omaps.gif','./original_maps/schools/school_150_2016_omaps.ocd'],
-        publish: 'https://t.me/dlitelnyy/449',
         bounds: [[60.029936, 30.3652239], [60.0276635, 30.3840208], [60.0226247, 30.3619194]],
         author: 'SHRNN',
         type: ['SPRINT','CITY']

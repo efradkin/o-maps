@@ -184,9 +184,7 @@ let zelikMaps = [
     },
     {
         name: 'Солнечное, Дюны',
-        date: '2007-09-16',
-        info: 'ЧиП СПб, марафон',
-        o_site: '070916',
+        year: 2007,
         url: './maps/forest/zelik/solnechnoe-djuny_2007.webp',
         link: ['./original_maps/forest/zelik/solnechnoe-djuny_2007_1_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_2_omaps.gif','./original_maps/forest/zelik/solnechnoe-djuny_2007_3_omaps.gif','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
         bounds: [[60.1480634, 29.9297619], [60.1450299, 29.9705315], [60.1304354, 29.9247837]],
@@ -576,32 +574,23 @@ let zelikMaps = [
     },
     {
         name: 'Ильичёво - Симагино',
-        date: '2015-09-06',
-        info: 'ЧиП СПб, марафон',
-        o_site: '150906',
+        year: 2015,
         url: './maps/forest/zelik/ilychevo-simagino_2015.webp',
         link: ['./original_maps/forest/zelik/ilychevo_simagino_2015_omaps.jpg','./original_maps/forest/zelik/ilychevo_simagino_2015_marathon_omaps.jpg','./original_maps/forest/zelik/zelik_simagino_2015_omaps.ocd'],
-        o_gps: {
-            'МЭ': 657,
-            'ЖЭ': 658
-        },
         bounds: [[60.2924698, 29.7929478], [60.2874927, 29.8671913], [60.2435601, 29.7726059]],
         author: ['KUZNTSV_S','SHRNN'],
         owner: 'SFSO_SPB'
     },
     {
         name: 'Болотная станция',
-        date: '2025-10-05',
+        year: 2025,
         url: './maps/forest/zelik/bolotnaya_station_2025.webp',
         link: './original_maps/forest/zelik/bolotnaya_station_2025_omaps.gif',
         bounds: [[60.2637671, 29.7961235], [60.2590412, 29.8467207], [60.2466058, 29.7899008]],
         info: 'Невский спринт.',
-        o_site: '251007_NS',
         o_gps: 23575,
-        publish: 'https://vk.com/album-230167293_311285775',
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB',
-        planner: 'CHGRVSKY_V',
         restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
         me: 'Фит'
     },
@@ -1019,7 +1008,6 @@ let zelikMaps = [
         year: 2024,
         url: './maps/forest/zelik/pastorskoe_2024.webp',
         link: './original_maps/forest/zelik/pastorskoe_2024_omaps.jpg',
-        publish: ['https://vk.com/album-230167293_311033082','https://t.me/dlitelnyy/562'],
         bounds: [[60.2526324, 29.9881268], [60.2452214, 30.0600529], [60.228093, 29.9775696]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y'],
         owner: 'SFSO_SPB',

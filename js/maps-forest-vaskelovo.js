@@ -339,7 +339,6 @@ let vaskelovoMaps = [
         year: 2014,
         url: './maps/forest/vaskelovo/garbolovo_2014.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_2014_omaps.jpg',
-        o_site: '141004_ZK',
         bounds: [[60.364806, 30.4739714], [60.3624717, 30.5087328], [60.3463177, 30.4693794]],
         author: ['CHGRVSKY_Y','FDRV_L'],
         start: 'WEDDING'
@@ -492,37 +491,23 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/silande_2024.webp',
         link: './original_maps/forest/vaskelovo/silande_2024_omaps.jpg',
         bounds: [[60.4160135, 30.2590084], [60.4142761, 30.2862167], [60.3923599, 30.2498245]],
-        publish: 'https://vk.com/album-230167293_309535800',
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
     },
     {
         name: 'Стеклянный, оз Силанде',
-        date: '2009-10-03',
+        year: 2009,
         url: './maps/forest/vaskelovo/silande_2009.webp',
         link: './original_maps/forest/vaskelovo/silande_2009_omaps.webp',
         bounds: [[60.3968334, 30.2559614], [60.3952646, 30.2787066], [60.3781299, 30.2512836]],
         author: 'DBRTSV_V',
-        info: '50-летие секции ориентирования ЭКРАН.',
         logo: 'wn_retro.webp',
-        o_site: '091003'
     },
     {
         name: 'Орехово, юг',
-        date: '2021-06-06',
+        year: 2021,
         url: './maps/forest/vaskelovo/orekhovo_south_2021.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_south_2021_omaps.gif',
-        info: 'Чип СПб, лонг.',
-        o_site: '210606',
-        o_gps: {
-            'М': 10104,
-            'Ж': 10105,
-            'М20': 10106,
-            'Ж20': 10107,
-            'M18': 10108,
-            'Все': 10110,
-        },
-        publish: 'https://t.me/dlitelnyy/288',
         bounds: [[60.4502553, 30.2370787], [60.4452388, 30.2970314], [60.4249745, 30.2281094]],
         author: 'CHGRVSKY_V',
         owner: 'CHGRVSKY_V'
@@ -592,10 +577,8 @@ let vaskelovoMaps = [
     {
         name: 'Орехово, оз Ветренное', // TODO превью не соотвествует джипегу
         year: 2004,
-        startYear: 2005,
         start: 'NA',
         page: 'spb',
-        o_site: '050610',
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2004.webp',
         link: ['./original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_2002_09_08_omaps.webp','./original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_omaps.ocd'],
         bounds: [[60.5044769, 30.2892208], [60.4985389, 30.352993], [60.4727881, 30.2786207]],
@@ -604,10 +587,8 @@ let vaskelovoMaps = [
     {
         name: 'Орехово, оз Бол.Борково',
         year: 2004,
-        startYear: 2005,
         start: 'NA',
         page: 'spb',
-        o_site: '050610',
         url: './maps/forest/vaskelovo/orekhovo_borkovo_2004.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_borkovo_2004_omaps.jpg',
         bounds: [[60.4902958, 30.2851009], [60.4876111, 30.3216648], [60.4631845, 30.2782774]],
@@ -688,7 +669,6 @@ let vaskelovoMaps = [
         calendar: 'SPB_20260626_1',
         author: ['BRGNTS','VSLV_S','VRBY'],
         owner: 'SFSO_LO',
-        publish: 'https://vk.com/album-142737358_311427986',
         start: 'MMS'
     },
     {
@@ -706,7 +686,6 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/lembolovo_2024.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_2024_omaps.jpg',
         bounds: [[60.4454928, 30.2595234], [60.4368974, 30.3699875], [60.3885857, 30.239954]],
-        publish: 'https://t.me/dlitelnyy/94',
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY','RDNV_I'],
         owner: 'RDNV_I'
     },
@@ -797,7 +776,6 @@ let vaskelovoMaps = [
         year: 2024,
         url: './maps/forest/vaskelovo/orekhovo_borkovo_2024.webp',
         link: ['./original_maps/forest/vaskelovo/orekhovo_borkovo_2024_1_omaps.gif','./original_maps/forest/vaskelovo/orekhovo_borkovo_2024_2_omaps.gif'],
-        publish: 'https://vk.com/album-230167293_313624527',
         bounds: [[60.4738456, 30.2619696], [60.469552, 30.3074598], [60.4614496, 30.2568626]],
         author: 'CHGRVSKY_Y',
         owner: 'KUZMOLOVO'
@@ -805,13 +783,9 @@ let vaskelovoMaps = [
     {
         name: 'Орехово, Фигурное оз',
         year: 2025,
-        info: 'Эстафета Змей Горыныч.',
-        o_site: '250510_zg',
         url: './maps/forest/vaskelovo/orekhovo_figurnoe_2025.webp',
         link: './original_maps/forest/vaskelovo/orekhovo_figurnoe_2025_omaps.gif',
         bounds: [[60.4610688, 30.2786207], [60.4561174, 30.3299046], [60.4431854, 30.2719688]],
-        o_gps: 22515,
-        publish: 'https://vk.com/album-230167293_313624527',
         author: 'CHGRVSKY_V',
         owner: ['CHGRVSKY_V','KUZM_CHGRVSKY']
     },

@@ -322,6 +322,37 @@ const isMobile = regex.test(navigator.userAgent) ||
 
 /*   FUNCTIONS   */
 
+function loadAllCalendars() {
+    return [
+        ...commonEvents2026,
+        ...events2026,
+        ...events2025,
+        ...events2024,
+        ...events2023,
+        ...events2022,
+        ...events2021,
+        ...events2020,
+        ...events2019,
+        ...events2018,
+        ...events2017,
+        ...events2016,
+        ...events2015,
+        ...events2014,
+        ...events2013,
+        ...events2012,
+        ...events2011,
+        ...events2010,
+        ...events2009,
+        ...events2008,
+        ...events2007,
+        ...events2006,
+        ...events2005,
+        ...events2004,
+        ...events2003,
+        ...events2002
+    ];
+}
+
 function year(o) { // map, track, event
     if (o.year) return o.year;
     let oDate = o.date;
@@ -334,7 +365,27 @@ function year(o) { // map, track, event
     return null;
 }
 
-function startYear(o) { // map, track, event
+function getLastDate(events) {
+    let date = null;
+    if (events) {
+        for (const e of events) {
+            if (e.date) {
+                const d = new Date(e.date);
+                if (!date) {
+                    date = d;
+                } else {
+                    if (d > date) date = d;
+                }
+            }
+        }
+    }
+    return date;
+}
+
+function startYear(o, events) { // map, track, event
+    const date = getLastDate(events);
+    if (date) return date.getFullYear();
+
     if (o.startYear) return o.startYear;
     let oDate = o.date;
     if (Array.isArray(oDate)) {
@@ -363,7 +414,26 @@ function dateForCompare(m) {
     return new Date(0, 0);
 }
 
-function getMapDates(m) {
+function getMapDates(m, events) {
+    let result = '';
+    if (events) {
+        const cache = [];
+        for (const e of events) {
+            const date = getMapDatesOne(e);
+            if (cache.includes(date)) continue;
+            cache.push(date);
+            if (result) {
+                result += ', ';
+            }
+            result += date;
+        }
+    } else {
+        result += getMapDatesOne(m);
+    }
+    return result;
+}
+
+function getMapDatesOne(m) {
     if (Array.isArray(m.date)) {
         let result = '';
         for (const d of m.date) {
@@ -677,6 +747,33 @@ function getGPS(m) {
     return gps;
 }
 
+function buildGpsLinksForEvents(events, img) {
+    let result = '';
+    const gpsList = [];
+    for (const e of events) {
+        const gps = getGPS(e);
+        if (gps) {
+            gpsList.push(gps);
+        }
+    }
+    if (gpsList) {
+        for (const gps of gpsList) {
+            if (isObject(gps)) {
+                let entries = Object.entries(Object.entries(gps));
+                for (const [index, [key, value]] of entries) {
+                    result += ` <a href="${value}">${key}</a>`;
+                    if (index < entries.length - 1) {
+                        result += ',';
+                    }
+                }
+            } else {
+                result += ' ' + buildLink(gps, '<img class="media-link" src="./images/' + (img ?? 'url-file.png') +'" alt="GPS">');
+            }
+        }
+    }
+    return result;
+}
+
 function buildGpsLinks(m, img, calendar) {
     let result = '';
     let gps = getGPS(m);
@@ -782,6 +879,11 @@ function inFrame(frameBounds, coords) {
         }
     }
     return false;
+}
+
+function getMapName(m) {
+    const url = m.url ?? getFirstLink(m);
+    return url ? extractFileName(url) : null;
 }
 
 function getMapForName(fileName) {
@@ -1321,6 +1423,55 @@ function isActual(date) {
     return !isOutdated(date) && (date - now < actualRange);
 }
 
+function findEvents(evtIDs) {
+    const res = [];
+    if (Array.isArray(evtIDs)) {
+        for (const e of evtIDs) {
+            const evt = findEvent(e);
+            if (evt) {
+                res.push(evt);
+            }
+        }
+    } else {
+        const evt = findEvent(evtIDs);
+        if (evt) {
+            res.push(evt);
+        }
+    }
+    return res;
+}
+
+function findEvent(evtID) {
+    return evtID ? oEvents.find(e => e.id === evtID) : undefined;
+}
+
+function findEventsForMap(m, withMap, start) {
+    let result = [];
+    const mapName = getMapName(m);
+    if (typeof oEvents !== 'undefined') {
+        result = mapName ? oEvents.filter(e => {
+            if (start && !(e.start && e.start.includes(start))) {
+                return false;
+            }
+            if (e.map) {
+                if (Array.isArray(e.map)) {
+                    for (const em of e.map) {
+                        if (em.startsWith(mapName)) return true;
+                    }
+                    return false;
+                }
+                return e.map.startsWith(mapName);
+            } else {
+                return false;
+            }
+        }) : [];
+    }
+    if (withMap) {
+        result.unshift(m); // сама карта - туда же
+    }
+    return result;
+}
+
 function isEventLikeRogaine(evt) {
     return isRogaine(evt) || evt.type.includes(MULTI_EVENTS_CALENDAR_PARAM_VALUE) || evt.start === 'MB';
 }
@@ -1475,6 +1626,18 @@ function logoList(m) { // for map, event or track
         logo.push(regions[m.region].logo);
     }
     return logo;
+}
+
+function buildOSiteInfo(events) {
+    let result = '';
+    const oSites = [];
+    for (const e of events) {
+        if (e.o_site) oSites.push(O_SITE_ADDRESS_PREFIX + e.o_site);
+    }
+    if (oSites.length > 0) {
+        result = ` ${buildLinksWithLabel(oSites, 'Инфо на O-Site')}`;
+    }
+    return result;
 }
 
 function buildEventStart(evt, withoutLogo) {
@@ -1703,42 +1866,38 @@ function buildEventInfo(evt) {
     return (evt.info ?? '') + (evtPlanners ? ' Планирование дистанции: ' + evtPlanners : '') + buildPublish(evt);
 }
 
-function buildPublish(evt) {
-    let publish = '';
-    if (evt.publish) {
-        publish = evt.publish;
+function buildPublish(events) {
+    let result = '';
+    const publish = [];
+    if (!Array.isArray(events)) {
+        events = [events];
     }
-    if (!publish && evt.map) {
-        if (Array.isArray(evt.map)) {
-            publish = [];
-            for (const mp of evt.map) {
-                const m = getMapForName(mp);
+    for (const e of events) {
+        if (e.publish) {
+            publish.push(e.publish);
+        }
+/* пожалуй, не надо искать публикации через карты события
+        if (e.map) {
+            if (Array.isArray(e.map)) {
+                for (const mp of e.map) {
+                    const m = getMapForName(mp);
+                    if (m && m.publish) {
+                        publish.push(mp);
+                    }
+                }
+            } else {
+                const m = getMapForName(e.map);
                 if (m && m.publish) {
-                    publish.push(mp);
+                    publish.push(m.publish);
                 }
             }
-        } else {
-            const m = getMapForName(evt.map);
-            if (m && m.publish) {
-                publish = m.publish;
-            }
         }
+*/
     }
     if (publish.length > 0) {
-        if (Array.isArray(publish)) {
-            let pub = '', counter = 1;
-            for (const p of publish) {
-                if (pub) {
-                    pub += ', ';
-                }
-                pub += `[<a href="${p}">${counter++}</a>]`
-            }
-            publish = ` Карты опубликованы тут: ${pub}.`
-        } else {
-            publish = ` Карты опубликованы <a href="${publish}">тут</a>.`;
-        }
+        result = buildLinksWithLabel(publish, ' Карты опубликованы тут');
     }
-    return publish;
+    return result;
 }
 
 function buildEventType(evt, withFmt) {
@@ -1818,38 +1977,33 @@ function buildSkiFormat(fmt) {
 
 function buildPlanners(m, calendar) {
     let result = '';
+    const events = [];
     if (typeof planners !== 'undefined') {
-        let planner = m.planner;
-        if (!planner && calendar) {
-            planner = calendar.planner;
+        if (m.planner) {
+            events.push(m);
         }
-        if (!planner && m.map) {
-            if (Array.isArray(m.map)) {
-                for (const mm of m.map) {
-                    const mp = getMapForName(mm);
-                    if (mp.planner) {
-                        if (!planner) planner = [];
-                        if (!planner.includes(mp.planner)) {
-                            planner.push(mp.planner);
-                        }
-                    }
-                }
-            } else {
-                const mp = getMapForName(m.map);
-                planner = mp.planner;
+        if (!calendar) {
+            calendar = findEventsForMap(m);
+
+        }
+        if (calendar) {
+            pushItems(events, calendar);
+        }
+        let plannersList = [];
+        for (const e of events) {
+            if (e.planner) {
+                pushItems(plannersList, e.planner);
             }
         }
-        if (Array.isArray(planner)) {
-            result += '<ol>'
-            for (const o of planner) {
-                if (planners[o]) {
+        if (plannersList.length > 0) {
+            if (plannersList.length > 1) {
+                result += '<ol>'
+                for (const o of plannersList) {
                     result += '<li>' + planners[o].name + '</li>';
                 }
-            }
-            result += '</ol>'
-        } else {
-            if (planners[planner]) {
-                result += planners[planner].name + '<br />';
+                result += '</ol>'
+            } else {
+                result += planners[plannersList[0]].name + '<br />';
             }
         }
         if (!result) {

@@ -544,8 +544,6 @@ let vyborgMaps = [
         date: '2008-10-18',
         url: './maps/forest/vyborg/monrepo_2007.webp',
         //link: './original_maps/forest/vyborg/monrepo_2007_omaps.jpg',
-        info: 'Золотая Осень.',
-        o_site: '08101819',
         bounds: [[60.7416608, 28.7121248], [60.7403289, 28.7301707], [60.7321788, 28.7089705]],
         author: 'KRTSHV',
         owner: 'VYBORG'
@@ -836,12 +834,8 @@ let vyborgMaps = [
     {
         name: 'Лейпясуо',
         year: 2014,
-        startYear: 2025,
-        info: '24.08. Tokma-maps.',
-        o_site: '250824_Tokma',
-        url: './maps/forest/vyborg/leypjasuo.webp',
+        url: './maps/forest/vyborg/leypjasuo_2014.webp',
         link: './original_maps/forest/vyborg/leypjasuo_2025_omaps.jpg',
-        o_gps: 23280,
         bounds: [[60.570756, 29.2005444], [60.5687738, 29.2155647], [60.5589244, 29.1957378]],
         author: ['TKMKV_K','PDVZKN'],
         owner: 'VYBORG'
@@ -893,7 +887,6 @@ let vyborgMaps = [
         year: 2025,
         url: './maps/forest/vyborg/veschevo_2025.webp',
         link: './original_maps/forest/vyborg/veschevo_2025_omaps.jpg',
-        publish: 'https://vk.com/album-230167293_309995002',
         bounds: [[60.691723, 29.1504622], [60.688057, 29.1889787], [60.6784435, 29.1455698]],
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
@@ -903,7 +896,6 @@ let vyborgMaps = [
         year: 2025,
         url: './maps/forest/vyborg/veschevo_south_2025.webp',
         link: './original_maps/forest/vyborg/veschevo_south_2025_omaps.jpg',
-        publish: 'https://vk.com/album-230167293_309995002',
         bounds: [[60.67156, 29.1864252], [60.6685539, 29.2200708], [60.6544237, 29.1790867]],
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'

@@ -239,6 +239,15 @@ let events2016 = [
         video: 'https://www.youtube.com/watch?v=37LPeJWQleY'
     },
     {
+        id: 'SPB_20160409_2',
+        date: '2016-04-09',
+        place: 'ул Рубинштейна',
+        name: 'Sprint Tour SPb',
+        start: 'ST',
+        type: 'ORIENT',
+        map: '5_uglov_2015'
+    },
+    {
         id: 'SPB_20160403_1',
         date: '2016-03-26',
         date: '2016-04-03',
@@ -825,7 +834,9 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160827_ZZ/160827_res.htm',
         info: 'Ориентирование в заданном направлении по спец. условиям',
         start: 'GS',
-        o_site: '160827_ZZ'
+        o_site: '160827_ZZ',
+        map: 'gs_2016_08_27',
+        planner: 'GBNV_V'
     },
     {
         id: 'SPB_20160828_1',

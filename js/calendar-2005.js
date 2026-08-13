@@ -48,7 +48,9 @@ let events2005 = [
         name: 'ЧР по ориентированиюю бегом на заснеженном грунте',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050205/Gat4ina.zip',
-        o_site: '050205'
+        o_site: '050205',
+        map: 'gatchina_zverinets_2005',
+        major: true
     },
     {
         id: 'SPB_20050206_1',
@@ -336,7 +338,8 @@ let events2005 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050610/na2005.rar',
         start: 'NA',
-        o_site: '050610'
+        o_site: '050610',
+        map: ['orekhovo_vetrennoe_2004','orekhovo_borkovo_2004']
     },
     {
         id: 'SPB_20050611_1',
@@ -442,7 +445,8 @@ let events2005 = [
         name: 'МТБ-О Чемпионат СПб',
         type: 'VELO',
         owner: 'SFSO_SPB',
-        o_site: '05072324_mtbo'
+        o_site: '05072324_mtbo',
+        map: 'silande_velo_2005'
     },
     {
         id: 'SPB_20050724_1',

@@ -393,7 +393,8 @@ let events2024 = [
         start: 'ST',
         type: 'ORIENT',
         strava: 11247373096,
-        reskeep: 643
+        reskeep: 643,
+        map: 'okkervil_2024'
     },
     {
         id: 'SPB_20240427_1',
@@ -961,7 +962,9 @@ let events2024 = [
         ],
         start: 'MMS',
         o_site: 'mms2024',
-        reskeep: [660, 661, 662]
+        reskeep: [660, 661, 662],
+        map: ['mms_2024_06_22','mms_2024_06_23'],
+        planner: ['NKTN_I','ILVS']
     },
     {
         id: 'SPB_20240622_1',
@@ -1289,7 +1292,9 @@ let events2024 = [
         start: 'GS',
         o_site: '240901ZZ',
         strava: 12297265168,
-        reskeep: 665
+        reskeep: 665,
+        map: 'gs_2024_09_01',
+        planner: 'KSRKV'
     },
     {
         id: 'SPB_20240901_2',
@@ -1446,12 +1451,13 @@ let events2024 = [
     {
         id: 'SPB_20240925_2',
         date: '2024-09-25',
-        place: 'Пионерская',
+        place: 'Пионерская, аллея Поликарпова',
         name: 'Спринт-Тур, 5 этап',
         type: 'ORIENT',
         reskeep: 668,
         strava: 12501717192,
-        start: 'ST'
+        start: 'ST',
+        map: 'alleya_polikarpova_2024'
     },
     {
         id: 'SPB_20240927_1',

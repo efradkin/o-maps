@@ -31,9 +31,7 @@ let vsevolozhskMaps = [
     },
     {
         name: 'Всеволожск',
-        date: '2010-05-16',
-        info: 'Российский Азимут ЛО.',
-        o_site: '10RA_LO',
+        year: 2010,
         url: './maps/forest/vsevolozhsk/vsevolozhsk_2010.webp',
         link: './original_maps/forest/vsevolozhsk/vsevolozhsk_2010_omaps.jpg',
         bounds: [[60.0558233, 30.6406331], [60.0536061, 30.6750727], [60.0428822, 30.6376934]],
@@ -170,7 +168,6 @@ let vsevolozhskMaps = [
         year: 2014,
         url: './maps/forest/vsevolozhsk/vsevolozhsk_zhdanovskie_oz_2014.webp',
         bounds: [[59.9959818, 30.684042], [59.9941147, 30.7074738], [59.9795392, 30.6785917]],
-        o_site: '231028TT',
         author: ['MKHLV_A','SLBDNK']
     },
     {

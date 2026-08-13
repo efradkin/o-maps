@@ -29,6 +29,9 @@ let forestMaps = [
         name: 'Цвелодубово',
         year: 2020,
         url: './maps/forest/tsvelodubovo_2020.webp',
+        o_gps: {
+            'СРП\'25':22686
+        },
         bounds: [[60.3909605, 29.5569134], [60.3876314, 29.5981121], [60.363172, 29.5473003]],
         author: ['TKMKV_K','KVZN','LPTV_Y'],
         owner: 'NW'
@@ -168,12 +171,9 @@ let forestMaps = [
     },
     {
         name: 'Цвелодубово, Щукино оз',
-        date: '2021-10-10',
+        year: 2021,
         url: './maps/forest/tsvelodubovo_south_2021.webp',
         link: './original_maps/forest/tsvelodubovo_south_2021_omaps.gif',
-        publish: 'https://vk.com/album-230167293_309657044',
-        info: 'ЧиП СПб, марафон.',
-        calendar: 'SPB_20211010_1',
         bounds: [[60.3661429, 29.5515919], [60.3602008, 29.6252346], [60.3397773, 29.5430946]],
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
@@ -302,10 +302,8 @@ let forestMaps = [
     },
     {
         name: 'Юкки, юг',
-        date: '2019-05-19',
+        year: 2019,
         url: './maps/forest/yukki_south_ra_2019.webp',
-        info: 'Российский Азимут.',
-        o_site: '100518RA',
         link: './original_maps/forest/yukki_south_ra_2019_omaps.jpg',
         bounds: [[60.1104669, 30.3092623], [60.110777, 30.3257418], [60.1023072, 30.3092408]],
         author: 'ZCHNV'
@@ -636,7 +634,6 @@ let forestMaps = [
         year: 2023,
         url: './maps/forest/kanneljarvi_2023.webp',
         link: './original_maps/forest/kanneljarvi_2023_omaps.jpg',
-        publish: 'https://vk.com/album-230167293_309756773',
         bounds: [[60.3383332, 29.3365002], [60.3309416, 29.407053], [60.3131354, 29.3262863]],
         author: ['TKMKV_K','KUZNTSV_A','KVZN'],
         owner: 'SFSO_SPB'
@@ -646,7 +643,6 @@ let forestMaps = [
         year: 2006,
         start: 'NA',
         page: 'spb',
-        o_site: '06061012_NA',
         url: './maps/forest/kanneljarvi_istok_2006.webp',
         link: './original_maps/forest/kanneljarvi_istok_2006_omaps.jpg',
         bounds: [[60.371702, 29.3352985], [60.3687316, 29.3725491], [60.3462327, 29.326458]],
@@ -657,7 +653,6 @@ let forestMaps = [
         date: '2006-06-11',
         start: 'NA',
         page: 'spb',
-        o_site: '06061012_NA',
         url: './maps/forest/kanneljarvi_istok.webp',
         link: ['./original_maps/starts/na/na_2006_06_11_omaps.jpg','./original_maps/forest/kanneljarvi_bystrjanka_2006_omaps.jpg','./original_maps/forest/kanneljarvi_2006_omaps.ocd'],
         bounds: [[60.3714898, 29.3092918], [60.3654639, 29.3803596], [60.3458505, 29.3012238]],
@@ -686,7 +681,6 @@ let forestMaps = [
         url: './maps/forest/polyany_2019.webp',
         link: ['./original_maps/forest/polyany_2019_omaps.jpg','./original_maps/forest/polyany_shirinyan_2014_omaps.ocd'],
         bounds: [[60.3174072, 29.281826], [60.3078214, 29.3697166], [60.2900877, 29.2698097]],
-        publish: 'https://vk.com/album-230167293_313563270',
         author: ['SHRNN','DBRTSV_V'],
         owner: 'SFSO_SPB'
     },

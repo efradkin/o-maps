@@ -78,9 +78,7 @@ let rogaineMaps = [
     },
     {
         name: 'Назия',
-        date: '2010-11-05',
-        info: 'Чемпионат СПб по рогейну',
-        o_site: '10110506',
+        year: 2010,
         url: './maps/rogaine/nazia_rogaine_2010.webp',
         link: './original_maps/rogaine/nazia_rogaine_2010_omaps.jpg',
         bounds: [[59.8585662, 31.5194321], [59.8439094, 31.7607021], [59.6884534, 31.4778042]],
@@ -89,11 +87,10 @@ let rogaineMaps = [
     },
     {
         name: 'Шапки',
-        date: '2026-03-08',
+        year: 2026,
         info: 'Ski Adventure.',
         url: './maps/rogaine/shapki_ski_adventure_2026.webp',
         link: './original_maps/rogaine/shapki_ski_adventure_2026_omaps.gif',
-        o_gps: 24374,
         bounds: [[59.6345647, 31.0883904], [59.6463644, 31.2029743], [59.5847394, 31.1049557]],
         owner: 'NKLSK',
         type: ['ROGAINE']
@@ -109,9 +106,8 @@ let rogaineMaps = [
     },
     {
         name: 'Кузнечное',
-        date: '2009-05-30',
+        year: 2009,
         info: 'VI Чемпионат России по рогейну.',
-        o_site: '090530_rog',
         url: './maps/rogaine/kuznechnoe_2009.webp',
         link: ['./original_maps/rogaine/kuznechnoe_2009_omaps.jpg','./original_maps/rogaine/kuznechnoe_rogaine_gk_2015_omaps.webp'],
         bounds: [[61.195386, 29.6627426], [61.1948898, 29.9140549], [61.0483154, 29.662056]],
@@ -182,13 +178,11 @@ let rogaineMaps = [
     },
     {
         name: 'Лемболово-Мичуринское',
-        date: '2012-03-09',
+        year: 2012,
         start: ['100x24','RUSSIA_ROGAINE_CHAMP'],
         url: './maps/rogaine/lembolovo_michurinskoe_rrc_2012.webp',
         link: 'https://100x24.ru/2012/maps/100x24_2012.gif',
         bounds: [[60.5557601, 29.8725128], [60.5324615, 30.3603745], [60.3899428, 29.8433304]],
-        info: 'Чемпионат России по рогейну на лыжах. <a href="https://100x24.ru/2012/docs/100x24_nat.htm">Интервью</a>.',
-        o_site: '12030910',
         author: ['APTNKV','FRSHLV','BKTV','DBRTSV_V'],
         type: ['ROGAINE','WINTER'],
         region: 'SPB'
@@ -426,9 +420,8 @@ let rogaineMaps = [
     },
     {
         name: 'Вещево',
-        date: '2009-02-21',
+        year: 2009,
         start: '100x24',
-        o_site: '090221',
         author: 'APTNKV',
         url: './maps/rogaine/veschevo_2009.webp',
         link: './original_maps/rogaine/veschevo_2009_omaps.gif',
@@ -477,9 +470,8 @@ let rogaineMaps = [
     },
     {
         name: 'Колтуши',
-        date: '2014-06-08',
+        year: 2014,
         start: '100x24',
-        o_site: '140608',
         url: './maps/rogaine/koltushi_2014.webp',
         link: './original_maps/rogaine/koltushi_100x24_2014.gif',
         bounds: [[60.0006598, 30.6087685], [59.9920329, 30.7263565], [59.9494232, 30.5947781]],

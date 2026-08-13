@@ -169,10 +169,12 @@ let events2012 = [
         endDate: '2012-03-10',
         place: 'Лемболово',
         name: 'Чемпионат России по лыжному рогейну',
+        info: '<a href="https://100x24.ru/2012/docs/100x24_nat.htm">Интервью</a>.',
         type: 'ROGAINE',
         fmt: '24 и 6 часов',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        o_site: '12030910'
+        o_site: '12030910',
+        map: 'lembolovo_michurinskoe_rrc_2012'
     },
     {
         id: 'SPB_20120310_1',
@@ -406,7 +408,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/2012_RA-LO/120520-lo_res.zip',
         video: 'https://www.youtube.com/watch?v=CMSe0LC4dG8',
         owner: 'SFSO_LO',
-        o_site: '2012_RA-LO'
+        o_site: '2012_RA-LO',
+        map: 'koltushi_2009'
     },
     {
         id: 'SPB_20120520_2',
@@ -515,7 +518,8 @@ let events2012 = [
         res: 'http://100x24.ru/results.htm',
         fmt: '3 часа вело',
         o_site: '120624',
-        start: '100x24'
+        start: '100x24',
+        map: 'gladyshevskoe_2012_velo'
     },
     {
         id: 'SPB_20120626_1',

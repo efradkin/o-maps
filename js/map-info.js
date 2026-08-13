@@ -1,12 +1,15 @@
 let m = getMapForName(MAP_NAME_PARAM);
+const events = findEventsForMap(m, true);
+
 let url = m.url ?? m.link;
 if (Array.isArray(url)) {
     url = url[0];
 }
 document.getElementById('map_title').href = mapLink(url, m);
+
 let elName = document.getElementById('map_name');
 if (elName) {
-    elName.innerHTML = mapTitle(m, true, false);
+    elName.innerHTML = mapTitle(m, true, false, events);
 }
 if (m.start && starts[m.start] && ('REPORT' !== m.start && 'OTHER' !== m.start)) {
     document.getElementById('map_start').innerHTML = starts[m.start].name;

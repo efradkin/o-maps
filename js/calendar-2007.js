@@ -130,7 +130,8 @@ let events2007 = [
         info: 'Рогейн 100 км. за 24 часа',
         o_site: '070223_100x24',
         endDate: '2007-02-24',
-        start: '100x24'
+        start: '100x24',
+        map: 'sosnovo_2007_100x24_rogaine'
     },
     {
         id: 'SPB_20070224_1',
@@ -322,7 +323,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070429_lo/may1.zip',
         owner: 'SFSO_LO',
         o_site: '070429_lo',
-        endDate: '2007-05-01'
+        endDate: '2007-05-01',
+        map: 'luga_omelchenko_2006'
     },
     {
         id: 'SPB_20070429_3',
@@ -512,7 +514,8 @@ let events2007 = [
         res: 'http://www.sportsystem.ru/files/rogaine_results.xls',
         info: 'Соревнования по рогейну «100 за 24» - «Горный кросс-6», посвященные 50-летию Петроградского клуба туристов',
         start: '100x24',
-        o_site: '070611_RG'
+        o_site: '070611_RG',
+        map: 'kuznechnoe_2007_rogaine'
     },
     {
         id: 'SPB_20070610_2',

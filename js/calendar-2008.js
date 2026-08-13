@@ -219,7 +219,8 @@ let events2008 = [
         name: 'Кубок MTBO SPb Club',
         type: 'VELO',
         res: 'http://www.sportsystem.ru/files/rez27_04_08.htm',
-        o_site: '080427_mtbo'
+        o_site: '080427_mtbo',
+        map: 'sestroretsk_tamozhennaya_doroga_velo_2008'
     },
     {
         id: 'SPB_20080501_1',
@@ -771,7 +772,8 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/08101819/081018_res.htm',
         owner: 'VYBORG',
-        o_site: '08101819'
+        o_site: '08101819',
+        map: 'monrepo_2007'
     },
     {
         id: 'SPB_20081019_1',
