@@ -655,6 +655,9 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150607/150607_offical_res.pdf',
         owner: 'SFSO_SPB',
         o_site: '150607',
+        map: 'psk_2015_06_07',
+        o_gps: 531,
+        start: 'KZNTSVA',
         reskeep: 245
     },
     {

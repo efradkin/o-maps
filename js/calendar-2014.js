@@ -485,6 +485,12 @@ let events2014 = [
         res: 'http://spbof.ru/ru/docs/finish/41-leto/252-rezultaty-long',
         owner: 'SFSO_SPB',
         o_site: '14060708',
+        map: ['psk_2014_06_07', 'psk_2014_06_08'],
+        o_gps: {
+            '07':199,
+            '08':200
+        },
+        start: 'KZNTSVA',
         reskeep: 246
     },
     {
