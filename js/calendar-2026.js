@@ -2198,7 +2198,7 @@ let events2026 = [
     {
         id: 'SPB_20260815_2',
         date: '2026-08-15',
-        name: 'Кубок D2RUN, 21 этап',
+        name: 'Кубок Белых ночей №21',
         link: 'https://vk.ru/wall-196511971_1619',
         reg: 'https://orgeo.ru/event/info/54528',
         place: 'Ягодное',
