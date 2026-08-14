@@ -714,13 +714,18 @@ let events2015 = [
         place: 'Боровинка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/150621-27/150622_rezKKP.html',
+        o_gps: {
+            'М': 558,
+            'Ж': 559,
+        },
         video: [
             'https://www.youtube.com/watch?v=GfXet2TgsEg',
             'https://www.youtube.com/watch?v=ohlfS18TFBE',
             'https://www.youtube.com/watch?v=hxVsBq4xS1w'
         ],
         start: 'KKP',
-        o_site: '150621-27'
+        o_site: '150621-27',
+        map: 'kkp_obkhodnoe_2015_06_23'
     },
     {
         id: 'SPB_20150626_1',

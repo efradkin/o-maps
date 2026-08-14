@@ -739,7 +739,8 @@ let events2022 = [
             'https://www.youtube.com/watch?v=XNFJ2Ms5zyk'
         ],
         start: 'KKP',
-        o_site: '220606-12'
+        o_site: '220606-12',
+        map: ['kkp_paltsevo_2022_06_08','kkp_paltsevo_2022_06_10','kkp_paltsevo_2022_06_12']
     },
     {
         id: 'SPB_20220611_1',
@@ -793,6 +794,17 @@ let events2022 = [
         reskeep: [536, 547, 548, 549]
     },
     {
+        id: 'SPB_20220611_4',
+        date: '2022-06-11',
+        place: 'Выборг',
+        name: 'ПИРАМИДА',
+        type: 'ORIENT',
+        fmt: 'ночная эстафета',
+        start: 'KKP',
+        o_site: '220613-16_KKP',
+        //map: 'kkp_paltsevo_2022_06_11_piramida'
+    },
+    {
         id: 'SPB_20220611_3',
         date: '2022-06-11',
         place: 'Питкяранта',
@@ -830,6 +842,27 @@ let events2022 = [
         info: 'ВСЕРОССИЙСКИЕ СОРЕВНОВАНИЯ ПО ТРЕЙЛ-ОРИЕНТИРОВАНИЮ «ЧЕМПИОНАТ И ПЕРВЕНСТВО ФЕДЕРАЦИИ СПОРТИВНОГО ОРИЕНТИРОВАНИЯ РОССИИ»',
         owner: 'SFSO_LO',
         o_site: '220618_trailo'
+    },
+    {
+        id: 'SPB_20220614_1',
+        date: '2022-06-14',
+        place: 'Выборг',
+        name: 'ККП #2',
+        type: 'ORIENT',
+        fmt: 'лонг',
+        start: 'KKP',
+        o_site: '220613-16_KKP',
+        //map: 'kkp_paltsevo_2022_06_14'
+    },
+    {
+        id: 'SPB_20220616_1',
+        date: '2022-06-16',
+        place: 'Выборг',
+        name: 'ККП #4',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        start: 'KKP',
+        o_site: '220613-16_KKP',
     },
     {
         id: 'SPB_20220617_1',

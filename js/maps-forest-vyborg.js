@@ -43,10 +43,6 @@ let vyborgMaps = [
     {
         name: 'Обходное оз',
         date: '2015-06-23',
-        o_gps: {
-            'М': 558,
-            'Ж': 559,
-        },
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_obkhodnoe_2015_06_23.webp',
@@ -77,10 +73,6 @@ let vyborgMaps = [
     {
         name: 'оз Тростинка',
         date: '2016-06-23',
-        o_gps: {
-            'М': 1217,
-            'Ж': 1218,
-        },
         start: 'KKP',
         info: 'Лонг.',
         url: './maps/forest/vyborg/kkp_trostinka_2016_06_23.webp',
@@ -91,13 +83,6 @@ let vyborgMaps = [
     {
         name: 'Пруды',
         date: '2017-06-19',
-        o_gps: {
-            'М': 2456,
-            'Ж': 2457,
-            'M20': 2476,
-            'Ж20': 2477,
-            'ALL': 2464,
-        },
         start: 'KKP',
         info: 'Спринт.',
         url: './maps/forest/vyborg/kkp_prudy_2017_06_19.webp',

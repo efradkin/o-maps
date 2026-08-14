@@ -815,7 +815,8 @@ let events2023 = [
         ],
         strava: [9292376222,9321294363],
         start: 'KKP',
-        o_site: '230612-18'
+        o_site: '230612-18',
+        map: ['kkp_prudy_2023_06_17','kkp_prudy_2023_06_18']
     },
     {
         id: 'SPB_20230617_1',
@@ -884,6 +885,54 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/ch_m_2023/230618_res.htm',
         info: 'Тренировочный старт по спортивному ориентированию бегом',
         o_site: 'ch_m_2023'
+    },
+    {
+        id: 'SPB_20230619_1',
+        date: '2023-06-19',
+        place: 'Пруды',
+        name: 'ККП 2023 #1',
+        type: 'ORIENT',
+        fmt: 'классика',
+        start: 'KKP',
+        o_site: '230617-22_KKP',
+        strava: 9321298380,
+        reskeep: 599
+    },
+    {
+        id: 'SPB_20230620_1',
+        date: '2023-06-20',
+        place: 'Пруды',
+        name: 'ККП 2023 #2',
+        type: 'ORIENT',
+        fmt: 'лонг',
+        start: 'KKP',
+        o_site: '230617-22_KKP',
+        strava: 9321303067,
+        reskeep: 600
+    },
+    {
+        id: 'SPB_20230621_1',
+        date: '2023-06-21',
+        place: 'Пруды',
+        name: 'ККП 2023 #3',
+        type: 'ORIENT',
+        fmt: 'лонг-масстарт',
+        start: 'KKP',
+        o_site: '230617-22_KKP',
+        strava: 9321307758,
+        reskeep: 601
+    },
+    {
+        id: 'SPB_20230622_1',
+        date: '2023-06-22',
+        place: 'Пруды',
+        name: 'ККП 2023 #4',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        start: 'KKP',
+        o_site: '230617-22_KKP',
+        strava: 9321312836,
+        reskeep: 602
     },
     {
         id: 'SPB_20230623_2',

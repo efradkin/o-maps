@@ -541,6 +541,33 @@ let events2014 = [
         o_site: '14062326_KKP'
     },
     {
+        id: 'SPB_20140623_2',
+        date: '2014-06-23',
+        place: 'Выборг',
+        name: 'ККП #1',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '14062326_KKP'
+    },
+    {
+        id: 'SPB_20140625_1',
+        date: '2014-06-25',
+        place: 'Выборг',
+        name: 'ККП #3',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '14062326_KKP'
+    },
+    {
+        id: 'SPB_20140626_1',
+        date: '2014-06-26',
+        place: 'Выборг',
+        name: 'ККП #4',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '14062326_KKP'
+    },
+    {
         id: 'SPB_20140627_1',
         date: '2014-06-27',
         endDate: '2014-06-29',

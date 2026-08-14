@@ -782,6 +782,7 @@ let events2019 = [
     {
         id: 'SPB_20190608_1',
         date: '2019-06-08',
+        endDate: '2019-06-09',
         name: 'NWCamp',
         place: 'Выборг',
         type: 'ORIENT',
@@ -789,6 +790,17 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190408-09/20190608_day_rez.htm',
         o_site: '190408-09',
         reskeep: [153, 154, 155]
+    },
+    {
+        id: 'SPB_20190610_1',
+        date: '2019-06-10',
+        endDate: '2019-06-16',
+        name: 'ККП, УТС',
+        place: 'Каменогорск',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '190616-21_KKP',
+        map: ['kkp_prudy_2019_06_15','kkp_prudy_2019_06_16']
     },
     {
         id: 'SPB_20190611_1',
@@ -837,6 +849,33 @@ let events2019 = [
         start: 'KKP',
         o_site: '190616-21_KKP',
         reskeep: [167, 168, 169, 170]
+    },
+    {
+        id: 'SPB_20190618_1',
+        date: '2019-06-18',
+        name: 'ККП #2',
+        place: 'Каменогорск',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '190616-21_KKP',
+    },
+    {
+        id: 'SPB_20190619_1',
+        date: '2019-06-19',
+        name: 'ККП #3',
+        place: 'Каменогорск',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '190616-21_KKP',
+    },
+    {
+        id: 'SPB_20190620_1',
+        date: '2019-06-20',
+        name: 'ККП #4',
+        place: 'Каменогорск',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '190616-21_KKP',
     },
     {
         id: 'SPB_20190620_1',

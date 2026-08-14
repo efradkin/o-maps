@@ -743,6 +743,16 @@ let events2018 = [
         reskeep: [18, 17, 16, 15, 14]
     },
     {
+        id: 'SPB_20180612_3',
+        date: '2018-06-12',
+        place: 'Выборг, оз Тростинка',
+        name: 'Кубок Карельского перешейка, УТС',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '180617-18',
+        map: 'kkp_trostinka_2018_06_12'
+    },
+    {
         id: 'SPB_20180616_1',
         date: '2018-06-16',
         place: 'Алоль',
@@ -756,7 +766,7 @@ let events2018 = [
         date: '2018-06-17',
         endDate: '2018-06-22',
         place: 'Выборг',
-        name: 'Кубок Карельского перешейка-2018',
+        name: 'Кубок Карельского перешейка',
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=3624',
         res: 'http://moscompass.ru/news/2018/20180618.htm',
@@ -775,6 +785,33 @@ let events2018 = [
         start: 'KKP',
         o_site: '180617-18',
         reskeep: [13, 12, 11, 84]
+    },
+    {
+        id: 'SPB_20180619_1',
+        date: '2018-06-19',
+        place: 'Выборг',
+        name: 'ККП #2',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '180617-18',
+    },
+    {
+        id: 'SPB_20180620_1',
+        date: '2018-06-20',
+        place: 'Выборг',
+        name: 'ККП #3',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '180617-18',
+    },
+    {
+        id: 'SPB_20180621_1',
+        date: '2018-06-21',
+        place: 'Выборг',
+        name: 'ККП #4',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '180617-18',
     },
     {
         id: 'SPB_20180622_1',

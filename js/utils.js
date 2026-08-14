@@ -416,7 +416,9 @@ function dateForCompare(m) {
 
 function getMapDates(m, events) {
     let result = '';
-    if (events) {
+    if (m && m.date || !events) {
+        result += getMapDatesOne(m);
+    } else {
         const cache = [];
         for (const e of events) {
             const date = getMapDatesOne(e);
@@ -427,8 +429,6 @@ function getMapDates(m, events) {
             }
             result += date;
         }
-    } else {
-        result += getMapDatesOne(m);
     }
     return result;
 }

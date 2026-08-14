@@ -888,7 +888,8 @@ let events2024 = [
         ],
         strava: 11661372372,
         start: 'KKP',
-        o_site: '240610-16_UTS_KKP'
+        o_site: '240610-16_UTS_KKP',
+        map: ['kkp_obkhodnoe_2024_06_14','kkp_obkhodnoe_2024_06_15','kkp_obkhodnoe_2024_06_16']
     },
     {
         id: 'SPB_20240613_1',
@@ -939,6 +940,16 @@ let events2024 = [
         reskeep: [657, 658, 659]
     },
     {
+        id: 'SPB_20240615_2',
+        date: '2024-06-15',
+        place: 'Каменногорск',
+        name: 'ПИРАМИДА',
+        type: 'ORIENT',
+        fmt: 'ночная эстафета',
+        start: 'KKP',
+        o_site: '240615-20_KKP',
+    },
+    {
         id: 'SPB_20240616_1',
         date: '2024-06-16',
         endDate: '2024-06-20',
@@ -947,6 +958,53 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/32124',
         o_site: '240616'
+    },
+    {
+        id: 'SPB_20240617_1',
+        date: '2024-06-17',
+        place: 'Каменногорск',
+        name: 'ККП 2024 #1',
+        type: 'ORIENT',
+        fmt: 'классика',
+        start: 'KKP',
+        o_site: '240615-20_KKP',
+        strava: 11675022463,
+        reskeep: 657
+    },
+    {
+        id: 'SPB_20240618_1',
+        date: '2024-06-18',
+        place: 'Каменногорск',
+        name: 'ККП 2024 #2',
+        type: 'ORIENT',
+        fmt: 'лонг',
+        start: 'KKP',
+        o_site: '240615-20_KKP',
+        strava: 11681133944,
+        reskeep: 658
+    },
+    {
+        id: 'SPB_20240619_1',
+        date: '2024-06-19',
+        place: 'Каменногорск',
+        name: 'ККП 2024 #3',
+        type: 'ORIENT',
+        fmt: 'лонг-масстарт',
+        start: 'KKP',
+        o_site: '240615-20_KKP',
+        strava: 11688407003,
+    },
+    {
+        id: 'SPB_20240620_1',
+        date: '2024-06-20',
+        place: 'Каменногорск',
+        name: 'ККП 2024 #4',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        start: 'KKP',
+        o_site: '240615-20_KKP',
+        strava: 11696132252,
+        reskeep: 659
     },
     {
         id: 'SPB_20240621_1',

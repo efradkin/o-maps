@@ -2294,6 +2294,7 @@ let events2026 = [
         place: 'Петяярви',
         type: 'ORIENT',
         o_site: '260906',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1755',
         owner: 'AZIMUT'
     },
     {

@@ -643,6 +643,10 @@ let events2016 = [
         place: 'Выборг',
         type: 'ORIENT',
         res: 'http://moscompass.ru/news/2016/2016062021.htm',
+        o_gps: {
+            '23-М': 1217,
+            '23-Ж': 1218,
+        },
         video: [
             'https://www.youtube.com/watch?v=ccDgYo9KzNg',
             'https://www.youtube.com/watch?v=rnbF6Eb1DhE',
@@ -650,7 +654,8 @@ let events2016 = [
             'https://www.youtube.com/watch?v=3npql35PxRA'
         ],
         start: 'KKP',
-        o_site: '160619-24'
+        o_site: '160619-24',
+        map: ['kkp_goritsa_2016_06_18','kkp_solnechnoe_2016_06_19','kkp_trostinka_2016_06_23']
     },
     {
         id: 'SPB_20160624_1',

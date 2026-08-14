@@ -553,7 +553,8 @@ let events2012 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/12070306/KKP2012_res.zip',
         start: 'KKP',
-        o_site: '12070306'
+        o_site: '12070306',
+        map: ['kkp_2012_07_02','kkp_2012_07_04']
     },
     {
         date: '2012-07-07',
