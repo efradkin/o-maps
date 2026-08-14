@@ -695,7 +695,8 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=881',
         res: 'https://o-site.spb.ru/_races/18060911/180609_res_.htm',
         start: 'NA',
-        o_site: '18060911'
+        o_site: '18060911',
+        map: ['na_2018_06_09', 'na_2018_lembolovo', 'na_2018_06_11']
     },
     {
         id: 'SPB_20180610_1',
@@ -740,6 +741,7 @@ let events2018 = [
         video: 'https://www.youtube.com/watch?v=AduqKHuaVeM',
         start: 'YM',
         o_site: '18061216',
+        map: ['ym_2018_orehovo_vybor', 'ym_2018_orehovo_sprint_final', 'ym_2018_orehovo_sprint_prolog', 'ym_2018_orehovo_sprint', 'ym_2018_lembolovo_klassika'],
         reskeep: [18, 17, 16, 15, 14]
     },
     {
@@ -871,6 +873,7 @@ let events2018 = [
         owner: 'WN',
         start: 'WN',
         o_site: '180701',
+        map: ['wn_2018_06_30', 'wn_2018_07_01'],
         reskeep: [6, 4, 2]
     },
     {

@@ -622,7 +622,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/13061416_NA/130614_res.htm',
         info: 'В 2013 году одновременно с многодневкой Невский Азимут по группам МЖ 35-85 будет проводиться Кубок России среди ветеранов.',
         start: 'NA',
-        o_site: '13061416_NA'
+        o_site: '13061416_NA',
+        map: ['na_2013_06_14', 'na_2013_razdelnoe', 'na_2013_06_16']
     },
     {
         id: 'SPB_20130618_1',
@@ -632,7 +633,8 @@ let events2013 = [
         name: 'Фестиваль БелыеНочи-2013',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/13061823/130618_split.htm',
-        o_site: '13061823'
+        o_site: '13061823',
+        map: ['ym_2013_yagodnoe_klassika', 'ym_2013_yagodnoe_klassika2', 'ym_2013_borisovo_long']
     },
     {
         id: 'SPB_20130620_1',

@@ -690,7 +690,8 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/15061215_NA/150612_res.htm',
         start: 'NA',
-        o_site: '15061215_NA'
+        o_site: '15061215_NA',
+        map: ['na_2015_06_12', 'na_2015_dolgoe', 'na_2015_06_14']
     },
     {
         id: 'SPB_20150616_1',
@@ -702,7 +703,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/15061621/150616_split.htm',
         owner: 'WN',
         start: 'WN',
-        o_site: '15061621'
+        o_site: '15061621',
+        map: ['ym_2015_yagodnoe_klassika', 'ym_2015_yagodnoe_long', 'ym_2015_yagodnoe_klassika2', 'wn_2015_06_19', 'wn_2015_06_20', 'wn_2015_06_21']
     },
     {
         id: 'SPB_20150620_1',

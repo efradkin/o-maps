@@ -985,7 +985,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/21061014/21061013_res_official.zip',
         video: 'https://www.youtube.com/watch?v=ji4-8PNRtok',
         start: 'YM',
-        o_site: '21061014'
+        o_site: '21061014',
+        map: ['ym_2021_losevo_prolog1', 'ym_2021_losevo_prolog2', 'ym_2021_losevo_sprint', 'ym_2021_losevo_klassika', 'ym_2021_losevo_vybor']
     },
     {
         id: 'SPB_20210612_1',
@@ -1094,7 +1095,8 @@ let events2021 = [
         info: 'ОФИЦИАЛЬНЫЕ СОРЕВНОВАНИЯ ЛЕНИНГРАДСКОЙ ОБЛАСТИ ОТМЕНЕНЫ !!! Будет только многодневка!',
         owner: 'WN',
         start: 'WN',
-        o_site: '210627'
+        o_site: '210627',
+        map: 'wn_2021_06_25'
     },
     {
         id: 'SPB_20210626_2',

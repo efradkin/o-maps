@@ -454,7 +454,8 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/11061012_NA/110611_res.htm',
         info: 'Традиционные многодневные соревнования КСО Азимут',
         start: 'NA',
-        o_site: '11061012_NA'
+        o_site: '11061012_NA',
+        map: 'na_2011_06_12'
     },
     {
         id: 'SPB_20110613_1',
@@ -475,7 +476,8 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/11061419/11061419_res.zip',
         owner: 'WN',
         start: 'WN',
-        o_site: '11061419'
+        o_site: '11061419',
+        map: ['ym_2011_yagodnoe_sprint', 'ym_2011_yagodnoe_long', 'ym_2011_yagodnoe_klassika2','wn_2011_06_18']
     },
     {
         id: 'SPB_20110618_1',

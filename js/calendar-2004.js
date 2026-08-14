@@ -89,7 +89,8 @@ let events2004 = [
         info: 'традиционная многодневка',
         fmt: 'многодневка',
         start: 'YM',
-        o_site: '040614_YM'
+        o_site: '040614_YM',
+        map: 'snegirevka_2004'
     },
     {
         id: 'SPB_20040617_1',
@@ -102,7 +103,8 @@ let events2004 = [
         fmt: 'многодневка',
         owner: 'WN',
         start: 'WN',
-        o_site: '040618_WN'
+        o_site: '040618_WN',
+        map: ['wn_2004_06_19', 'wn_2004_06_20']
     },
     {
         id: 'SPB_20040622_1',

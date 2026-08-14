@@ -495,7 +495,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/12061517_NA/120615_res.htm',
         info: 'XXII многодневные соревнования «Невский Азимут»',
         start: 'NA',
-        o_site: '12061517_NA'
+        o_site: '12061517_NA',
+        map: ['na_2012_06_15_pervomayskoe', 'na_2012_pervomayskoe']
     },
     {
         id: 'SPB_20120619_1',
@@ -507,7 +508,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/12061924/fest-1day.htm',
         owner: 'WN',
         start: 'WN',
-        o_site: '12061924'
+        o_site: '12061924',
+        map: ['ym_2012_pervomayskoe_klassika', 'ym_2012_pervomayskoe_long', 'ym_2012_pervomayskoe_klassika2']
     },
     {
         id: 'SPB_20120623_1',

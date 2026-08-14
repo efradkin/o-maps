@@ -524,7 +524,8 @@ let events2014 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/14061215-NA/140612_res.htm',
         start: 'NA',
-        o_site: '14061215-NA'
+        o_site: '14061215-NA',
+        map: ['na_2014_06_12', 'na_2014_pervomayskoe', 'na_2014_06_15']
     },
     {
         id: 'SPB_20140617_1',
@@ -536,7 +537,8 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/14061722/14061722_res_official.zip',
         owner: 'WN',
         start: 'WN',
-        o_site: '14061722'
+        o_site: '14061722',
+        map: ['ym_2014_pervomayskoe_klassika', 'ym_2014_pervomayskoe_long', 'ym_2014_pervomayskoe_klassika2']
     },
     {
         id: 'SPB_20140623_1',

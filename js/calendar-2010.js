@@ -533,7 +533,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10061214_na/100612_res.htm',
         info: 'ХХ традиционные многодневные соревнования Невский Азимут Открытое первенство СДЮСШОР Курортного р-на им. В.А.Коренькова Командный кубок СДЮСШОР Курортного р-на им. В.А.Коренькова',
         start: 'NA',
-        o_site: '10061214_na'
+        o_site: '10061214_na',
+        map: ['na_2010_06_12', 'na_2010_06_13', 'na_2010_06_14']
     },
     {
         id: 'SPB_20100615_1',
@@ -545,7 +546,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10061520/10061520_res.zip',
         owner: 'WN',
         start: 'WN',
-        o_site: '10061520'
+        o_site: '10061520',
+        map: ['ym_2010_michurinskoe_sprint', 'ym_2010_michurinskoe_long', 'ym_2010_michurinskoe_klassika']
     },
     {
         id: 'SPB_20100619_1',

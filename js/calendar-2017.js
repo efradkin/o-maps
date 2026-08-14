@@ -726,7 +726,8 @@ let events2017 = [
         video: 'https://www.youtube.com/watch?v=7zpDGB2rY9s',
         owner: 'WN',
         start: 'WN',
-        o_site: '17060204'
+        o_site: '17060204',
+        map: ['wn_2017_06_03', 'wn_2017_06_04']
     },
     {
         id: 'SPB_20170605_1',
@@ -757,7 +758,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/17060911/170609_res.htm',
         video: 'https://www.youtube.com/watch?v=J9Ubz-neCK8',
         start: 'NA',
-        o_site: '17060911'
+        o_site: '17060911',
+        map: ['na_2017_06_09', 'na_2017_zhuravlevo', 'na_2017_06_11']
     },
     {
         id: 'SPB_20170610_1',
@@ -800,7 +802,8 @@ let events2017 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/17061218/170612R_res.pdf',
         start: 'YM',
-        o_site: '17061218'
+        o_site: '17061218',
+        map: ['ym_2017_michurinskoe_city_sprint', 'ym_2017_yagodnoe_klassika', 'ym_2017_yagodnoe_vybor', 'ym_2017_yagodnoe_sprint_final', 'ym_2017_yagodnoe_sprint_prolog', 'ym_2017_yagodnoe_klassika2', 'ym_2017_yagodnoe_sprint']
     },
     {
         id: 'SPB_20170617_1',

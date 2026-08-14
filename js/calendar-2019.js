@@ -798,6 +798,7 @@ let events2019 = [
         info: 'XXIX МНОГОДНЕВНЫЕ СОРЕВНОВАНИЯ ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ «НЕВСКИЙ АЗИМУТ»',
         start: 'NA',
         o_site: '190607',
+        map: ['na_2019_06_07', 'na_2019_luga', 'na_2019_06_09'],
         reskeep: [156, 157, 158]
     },
     {
@@ -843,6 +844,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/19061116/19061315L_res.zip',
         start: 'YM',
         o_site: '19061116',
+        map: ['ym_2019_luga_final', 'ym_2019_luga_prolog', 'ym_2019_luga_sprint', 'ym_2019_luga_klassika', 'ym_2019_luga_klassika2'],
         reskeep: [164, 165, 161, 162, 163]
     },
     {

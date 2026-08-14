@@ -1110,7 +1110,8 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/24062427/240625_split.htm',
         info: 'Традиционные многодневные соревнования по спортивному ориентированию, центр соревнований совмещен с XXX Мемориалом МИХАИЛА СВЯТКИНА.',
         start: 'YM',
-        o_site: '24062427'
+        o_site: '24062427',
+        map: ['ym_2024_pervomayskoe_sprint', 'ym_2024_pervomayskoe_klassika']
     },
     {
         id: 'SPB_20240627_1',

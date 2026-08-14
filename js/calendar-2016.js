@@ -639,7 +639,8 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/16061016/160610_split.htm',
         owner: 'WN',
         start: 'WN',
-        o_site: '16061016'
+        o_site: '16061016',
+        map: ['wn_2016_06_12', 'ym_2016_pervomayskoe_city_sprint', 'ym_2016_pervomayskoe_sprint', 'ym_2016_pervomayskoe_klassika', 'ym_2016_pervomayskoe_klassika2']
     },
     {
         id: 'SPB_20160617_1',
@@ -651,7 +652,8 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=609',
         res: 'https://o-site.spb.ru/_races/16061719_/160617_res_.htm',
         start: 'NA',
-        o_site: '16061719_'
+        o_site: '16061719_',
+        map: ['na_2016_06_17', 'na_2016_pervomayskoe', 'na_2016_06_19']
     },
     {
         id: 'SPB_20160619_1',

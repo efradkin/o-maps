@@ -771,7 +771,8 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#29253/3',
         info: 'Многодневные соревнования по спортивному ориентированию «НЕВСКИЙ АЗИМУТ»',
         start: 'NA',
-        o_site: '230612'
+        o_site: '230612',
+        map: ['na_2023_06_10', 'na_2023_koloskovo', 'na_2023_06_12']
     },
     {
         id: 'SPB_20230610_2',
@@ -1020,7 +1021,8 @@ let events2023 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/23062629/230626_split.htm',
         start: 'YM',
-        o_site: '23062629'
+        o_site: '23062629',
+        map: ['ym_2023_orehovo_sprint_prolog1', 'ym_2023_orehovo_sprint_final', 'ym_2023_orehovo_sprint_prolog2', 'ym_2023_orehovo_klassika', 'ym_2023_orehovo_vybor']
     },
     {
         id: 'SPB_20230630_1',

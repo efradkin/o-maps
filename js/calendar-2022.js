@@ -910,7 +910,8 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/22062023/220620_split.htm',
         start: 'YM',
-        o_site: '22062023'
+        o_site: '22062023',
+        map: ['ym_2022_yagodnoe_sprint', 'ym_2022_yagodnoe_prolog2', 'ym_2022_yagodnoe_sprint_final', 'ym_2022_yagodnoe_klassika', 'ym_2022_yagodnoe_vybor']
     },
     {
         id: 'SPB_20220624_1',
@@ -932,6 +933,7 @@ let events2022 = [
         start: 'WN',
         strava: 7367429794,
         o_site: '220624',
+        map: ['wn_2022_06_24','wn_2022_06_25','wn_2022_06_26'],
         reskeep: 537
     },
     {
