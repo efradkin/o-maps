@@ -2194,7 +2194,8 @@ let events2026 = [
         place: 'Сосновый бор',
         type: 'ORIENT',
         fmt: 'классика, ночной спринт, классика',
-        owner: 'DLITELNY'
+        owner: 'DLITELNY',
+        map: 'sosnovij_bor_2021'
     },
     {
         id: 'SPB_20260815_2',
@@ -2204,7 +2205,18 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/info/54528',
         place: 'Ягодное',
         type: 'ORIENT',
-        owner: 'WN'
+        owner: 'WN',
+        coord: [60.630897, 30.017148]
+    },
+    {
+        id: 'SPB_20260815_3',
+        date: '2026-08-15',
+        name: 'Физкультурное соревнование',
+        link: 'https://vk.ru/wall-204901355_4395',
+        reg: 'https://forms.yandex.ru/u/6a56275e49af4739c8c78f26/',
+        place: 'Полежаевский парк',
+        type: 'ORIENT',
+        map: 'polezhaevsky_south_2021'
     },
     {
         id: 'SPB_20260816_1',
@@ -2232,7 +2244,7 @@ let events2026 = [
         date: '2026-08-20',
         name: 'Физкультурное мероприятие по ориентированию',
         place: 'парк Интернационалистов',
-        link: 'https://vk.ru/wall-30686281_24661',
+        link: 'https://vk.ru/wall-30686281_24856',
         type: 'ORIENT',
         map: 'internatsionalistov_2021',
         owner: 'FRUNZ_SPORT'
