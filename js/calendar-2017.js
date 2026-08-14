@@ -773,6 +773,8 @@ let events2017 = [
         id: 'SPB_20170610_2',
         date: '2017-06-10',
         place: 'Сортавала',
+        map: 'sortavala_redfox_2017',
+        o_gps: 2319,
         name: 'Red Fox Adventure Race',
         video: 'https://www.youtube.com/watch?v=GsF6pYBUfKM',
         type: 'MULTI',

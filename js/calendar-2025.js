@@ -1430,7 +1430,7 @@ let events2025 = [
             712
         ],
         start: 'WN',
-        map: 'petjajarvy_2024',
+        map: ['petjajarvy_2024', 'wn_2025_06_27', 'wn_2025_06_28', 'wn_2025_06_29'],
         strava: [
             14934051264,
             14942090719,
@@ -2600,7 +2600,7 @@ let events2025 = [
             'https://disk.yandex.ru/d/I4lZbxUefrsWZQ'
         ],
         video: 'https://youtu.be/qpjohddGcKU',
-        map: 'red_valley_2025',
+        map: ['red_valley_2025', 'yappilya_mb_2025'],
         start: 'MB'
     },
     {

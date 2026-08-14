@@ -37,12 +37,11 @@ let rogaineRfarMaps = [
     {
         name: 'Сортавала',
         start: 'RFAR',
-        date: '2017-06-10',
+        year: 2017,
         url: './maps/rogaine/sortavala_redfox_2017.webp',
         link: './original_maps/rogaine/sortavala_redfox_2017_omaps.gif',
         bounds: [[62.0018718, 30.2666473], [61.9331358, 31.1647797], [61.4469735, 30.0867462]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2017/',
-        o_gps: 2319,
         owner: 'RFAR',
         type: ['ROGAINE'],
         region: 'KARELIA'
@@ -110,12 +109,11 @@ let rogaineRfarMaps = [
     {
         name: 'Питкяранта',
         start: 'RFAR',
-        date: '2022-06-11',
+        year: 2022,
         url: './maps/rogaine/pitkjaranta_rfar_2022.webp',
         link: './original_maps/rogaine/pitkjaranta_rfar_2022_omaps.gif',
         bounds: [[61.7732852, 31.5563393], [61.7761267, 31.8979454], [61.4978026, 31.5681839]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2022/',
-        o_gps: 13306,
         owner: 'RFAR',
         type: ['ROGAINE']
     },
@@ -146,11 +144,10 @@ let rogaineRfarMaps = [
     {
         name: 'Карисалми',
         start: 'RFAR',
-        date: '2025-06-13',
+        year: 2025,
         url: './maps/rogaine/gvardeyskoe_rfar_2025.webp',
         link: './original_maps/rogaine/gvardeyskoe_rfar_2025_omaps.jpeg',
         bounds: [[61.0601129, 28.6997223], [61.0072391, 29.4691086], [60.6963758, 28.6001587]],
-        o_gps: 22778,
         owner: 'RFAR',
         type: ['ROGAINE']
     },

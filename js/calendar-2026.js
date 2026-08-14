@@ -1461,6 +1461,7 @@ let events2026 = [
         date: '2026-05-23',
         name: 'Весенний марш-бросок',
         place: 'Гаврилово',
+        map: 'gavrilovo_vmb_2026_05_23',
         reg: 'https://orgeo.ru/event/48966',
         type: 'TOURISM',
         link: ['https://t.me/pmarshbrosok', 'https://kandid.ru'],

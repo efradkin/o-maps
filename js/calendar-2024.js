@@ -187,7 +187,9 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240224R/240224R_res.pdf',
         fmt: 'рогейн 5/2 часа лыжи',
         start: 'GORNY_CROSS',
-        o_site: '240224R'
+        o_site: '240224R',
+        map: 'lembolovo_orekhovo_gk_2024',
+        o_gps: 18461
     },
     {
         id: 'SPB_20240225_1',
@@ -1113,6 +1115,7 @@ let events2024 = [
     {
         id: 'SPB_20240627_1',
         date: '2024-06-27',
+        endDate: '2024-06-30',
         name: 'Многодневка Белые Ночи, ЧиП СЗФО',
         place: 'Воробьево оз',
         type: 'ORIENT',
@@ -1127,7 +1130,13 @@ let events2024 = [
         ],
         owner: 'WN',
         start: 'WN',
-        o_site: 'bn_2024'
+        o_site: 'bn_2024',
+        map: ['wn_2024_06_28', 'wn_2024_06_29', 'wn_2024_06_30'],
+        o_gps: {
+            '28': 19931,
+            '29': 19933,
+            '30': 19944
+        }
     },
     {
         id: 'SPB_20240629_1',
@@ -1397,6 +1406,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240901ZZ/240901zz_split.htm',
         start: 'GS',
         o_site: '240901ZZ',
+        o_gps: 20345,
         strava: 12297265168,
         reskeep: 665,
         map: 'gs_2024_09_01',
@@ -1736,6 +1746,8 @@ let events2024 = [
         id: 'SPB_20241012_3',
         date: '2024-10-12',
         place: 'Лемболово',
+        map: 'orekhovo',
+        start: 'MB',
         name: 'ОМБ',
         type: 'ROGAINE',
         fmt: 'марш-бросок 75км',

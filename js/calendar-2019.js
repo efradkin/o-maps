@@ -621,7 +621,7 @@ let events2019 = [
         owner: 'SFSO_LO',
         o_site: '190518_RA_LO',
         reskeep: 137,
-        map: 'yukki_south_ra_2019'
+        map: ['yukki_south_ra_2019', 'vyborg_2019']
     },
     {
         id: 'SPB_20190518_2',
@@ -648,6 +648,18 @@ let events2019 = [
         fmt: '8ч – Весенний водный рогейн, 16ч – 2-й Чемпионат России по рогейну на байдарках.',
         start: ['MULTSPORT','RUSSIA_ROGAINE_CHAMP'],
         o_site: '19051819'
+    },
+    {
+        id: 'SPB_20190518_4',
+        date: '2019-05-18',
+        place: 'Выборг',
+        name: 'Весенний Марш-бросок',
+        type: 'TOURISM',
+        o_gps: {
+            '1':5748,
+            '2':5749
+        },
+        start: 'MB'
     },
     {
         id: 'SPB_20190519_1',

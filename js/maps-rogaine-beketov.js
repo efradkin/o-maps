@@ -64,15 +64,11 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Хийтола',
-        date: '2021-05-22',
+        year: 2021,
         url: './maps/rogaine/beketov/hiitola_ba_2021.webp',
         link: ['./original_maps/rogaine/beketov/hiitola_ba_2021_omaps.webp','./original_maps/rogaine/beketov/hiitola_ta_2021_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2021-1/BA21.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2021-1/TA21.jpg'],
         bounds: [[61.2184539, 29.303112], [61.2908545, 29.692955], [60.9782709, 29.4941711]],
         results: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-1.php',
-        o_gps: {
-            'BA':9986,
-            'TA':9987
-        },
         owner: 'BKTV',
         start: ['BA','TA'],
         type: ['ROGAINE']
@@ -89,21 +85,19 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Оять',
-        date: '2021-05-09',
+        year: 2021,
         url: './maps/rogaine/beketov/ojat.webp',
         link: ['./original_maps/rogaine/beketov/ojat.jpg','./original_maps/rogaine/beketov/ojat_vmb_2021_1_omaps.webp','./original_maps/rogaine/beketov/ojat_vmb_2021_2_omaps.webp'],
         bounds: [[60.4903804, 33.1344223], [60.4880127, 33.7369537], [60.3750116, 33.1333923]],
-        o_gps: 9883,
         owner: 'BKTV',
         start: 'MB',
         type: ['ROGAINE']
     },
     {
         name: 'Орехово',
-        date: '2024-10-12',
+        year: 2024,
         url: './maps/rogaine/beketov/orekhovo.webp',
         link: ['./original_maps/rogaine/beketov/Orehovo_new.webp','./original_maps/rogaine/beketov/orekhovo_omb_2024_omaps.webp'],
-        o_gps: 20849,
         info: '<a href="https://www.multsport.ru/starts/omb24/">Инфо.</a>',
         bounds: [[60.5652098, 30.2192688], [60.5724639, 30.6206131], [60.3970666, 30.2323151]],
         owner: 'BKTV',
@@ -185,11 +179,10 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Первомайское',
-        date: '2024-10-05',
+        year: 2024,
         url: './maps/rogaine/beketov/pervomayskoe_ba_2024.webp',
         link: './original_maps/rogaine/beketov/pervomayskoe_ba_2024_omaps.webp',
         bounds: [[60.4820929, 29.672699], [60.4107163, 29.8359489], [60.4301212, 29.5791435]],
-        o_gps: 20726,
         results: 'https://www.bikeadventure.ru/arhiv/arhiv-2024-2.php',
         owner: 'BKTV',
         start: 'BA',
@@ -206,11 +199,10 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Снетковское оз',
-        date: '2025-10-11',
+        year: 2025,
         url: './maps/rogaine/beketov/snetkovskoe_ba_2025.webp',
         link: './original_maps/rogaine/beketov/snetkovskoe_ba_2025_omaps.gif',
         results: 'https://www.bikeadventure.ru/arhiv/arhiv-2025-2.php',
-        o_gps: 23660,
         bounds: [[61.0433292, 30.1293182], [61.0499773, 30.3401184], [60.8912076, 30.1451111]],
         owner: 'BKTV',
         start: 'BA',
@@ -219,14 +211,10 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Выборг',
-        date: '2019-05-18',
+        year: 2019,
         url: './maps/rogaine/beketov/vyborg_2019.webp',
         link: './original_maps/rogaine/beketov/vyborg_vmb_2019_omaps.webp',
         bounds: [[60.8475866, 28.3639526], [60.9275963, 28.5610199], [60.7093119, 28.6018753]],
-        o_gps: {
-            '1':5748,
-            '2':5749
-        },
         owner: 'BKTV',
         start: 'MB',
         type: ['ROGAINE']
@@ -380,11 +368,10 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Красная долина, оз Мамонтовское',
-        date: '2025-05-31',
+        year: 2025,
         results: 'https://www.bikeadventure.ru/arhiv/arhiv-2025-1.php',
         url: './maps/rogaine/beketov/red_valley_2025.webp',
         link: './original_maps/rogaine/beketov/red_valley_2025_omaps.gif',
-        o_gps: 22755,
         bounds: [[60.6580409, 28.6928558], [60.6482818, 29.2744446], [60.1729402, 28.6667633]],
         owner: 'BKTV',
         start: 'BA',
@@ -392,10 +379,9 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Бородинское',
-        date: '2025-05-24',
+        year: 2025,
         url: './maps/rogaine/beketov/borodinskoe_mb_2025.webp',
         link: ['./original_maps/rogaine/beketov/borodinskoe_mb_2025_1_omaps.gif','./original_maps/rogaine/beketov/borodinskoe_mb_2025_2_omaps.gif'],
-        o_gps: 22700,
         bounds: [[61.0226074, 29.2989063], [61.0279502, 29.500351], [60.8328448, 29.3206215]],
         owner: 'BKTV',
         start: 'MB',

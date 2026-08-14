@@ -657,6 +657,8 @@ let events2021 = [
         date: '2021-05-09',
         name: 'Весенний Марш-бросок',
         place: 'Оять',
+        map: 'ojat',
+        o_gps: 9883,
         type: 'TOURISM',
         video: 'https://www.youtube.com/watch?v=Ge6PvS6S8X8',
         start: 'MB',
@@ -1223,6 +1225,7 @@ let events2021 = [
         info: 'Средняя дистанция с большим количеством КП',
         start: 'GS',
         o_site: '210821ZZ',
+        o_gps: 10764,
         reskeep: 475,
         strava: 5828500904,
         map: 'gs_2021_08_21'

@@ -814,6 +814,8 @@ let events2022 = [
         id: 'SPB_20220611_3',
         date: '2022-06-11',
         place: 'Питкяранта',
+        map: 'pitkjaranta_rfar_2022',
+        o_gps: 13306,
         name: 'Red Fox Adventure Race',
         video: [
             'https://www.youtube.com/watch?v=dB3zLS-8yWA',
@@ -1106,6 +1108,7 @@ let events2022 = [
         info: 'Традиционные соревнования в заданном направлении с большим количеством КП',
         start: 'GS',
         o_site: '220820ZZ',
+        o_gps: 16563,
         map: 'gs_2022_08_20'
     },
     {
