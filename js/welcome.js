@@ -56,7 +56,8 @@ const welcomeDialogContent = `
 </p>
 `;
 
-let disabledButton = true;
+const prtnrOpenedTime = localStorage.getItem("prtnr");
+let disabledButton = prtnrOpenedTime === null;
 const styleSheetEl = document.createElement('style');
 styleSheetEl.innerHTML = `
     dialog#welcome-modal[open] {
@@ -176,9 +177,10 @@ function openWelcome() {
 }
 
 function openWelcomeIfRequired() {
-    let time = new Date().getTime();
-    let welcomeOpenedTime = localStorage.getItem(WELCOME_OPENED_TIME_KEY);
-    if (welcomeOpenedTime == null || dateDiff(Number(welcomeOpenedTime), time) > 6) {
+    const time = new Date().getTime();
+    const welcomeOpenedTime = localStorage.getItem(WELCOME_OPENED_TIME_KEY);
+    if ((!prtnrOpenedTime || dateDiff(Number(prtnrOpenedTime), time) > 30) &&
+        (welcomeOpenedTime === null || dateDiff(Number(welcomeOpenedTime), time) > 6)) {
         setTimeout(() => {
             openWelcome();
         }, 3000);

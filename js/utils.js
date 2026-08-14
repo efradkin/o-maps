@@ -266,6 +266,7 @@ const onlyOneSport = (typeof oneSportOnly !== 'undefined') && oneSportOnly;
 
 const urlParams = new URLSearchParams(window.location.search);
 const SEARCH_PARAM = urlParams.get('q');
+const HAS_PRTNR_PARAM = urlParams.has('prtnr');
 let BACKGROUND_PARAM = urlParams.get('background');
 let AUTHOR_PARAM = urlParams.get('author');
 const OWNER_PARAM = urlParams.get('owner');
@@ -313,6 +314,10 @@ if (ONLY_MAP_NAME_PARAM) {
 }
 if (ONLY_TRACK_NAME_PARAM) {
     TRACK_NAME_PARAM = ONLY_TRACK_NAME_PARAM;
+}
+
+if (HAS_PRTNR_PARAM) {
+    localStorage.setItem('prtnr', new Date().getTime());
 }
 
 const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
