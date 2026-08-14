@@ -802,7 +802,11 @@ let events2022 = [
         fmt: 'ночная эстафета',
         start: 'KKP',
         o_site: '220613-16_KKP',
-        //map: 'kkp_paltsevo_2022_06_11_piramida'
+        map: 'kkp_paltsevo_2022_06_11_piramida',
+        o_gps: {
+            'М': 13330,
+            'Ж': 13331,
+        },
     },
     {
         id: 'SPB_20220611_3',
@@ -852,7 +856,13 @@ let events2022 = [
         fmt: 'лонг',
         start: 'KKP',
         o_site: '220613-16_KKP',
-        //map: 'kkp_paltsevo_2022_06_14'
+        map: 'kkp_paltsevo_2022_06_14',
+        o_gps: {
+            'М': 13335,
+            'Ж': 13336,
+            'М45/21А': 13450,
+            'ALL': 13352,
+        },
     },
     {
         id: 'SPB_20220616_1',
@@ -863,6 +873,13 @@ let events2022 = [
         fmt: 'спринт',
         start: 'KKP',
         o_site: '220613-16_KKP',
+        map: 'kkp_paltsevo_2022_06_16',
+        o_gps: {
+            'М': 13340,
+            'Ж': 13341,
+            'Все КП': 13361,
+            'М45/21А': 13376,
+        },
     },
     {
         id: 'SPB_20220617_1',

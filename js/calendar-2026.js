@@ -1763,7 +1763,8 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'эстафета детская',
         map: 'kkp_prudy_2026_06_15_kamenukola',
-        start: 'KKP'
+        start: 'KKP',
+        o_site: '260616-21_KKP',
     },
     {
         id: 'SPB_20260621_1',

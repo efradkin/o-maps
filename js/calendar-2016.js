@@ -644,8 +644,8 @@ let events2016 = [
         type: 'ORIENT',
         res: 'http://moscompass.ru/news/2016/2016062021.htm',
         o_gps: {
-            '23-М': 1217,
-            '23-Ж': 1218,
+            'М': 1217,
+            'Ж': 1218,
         },
         video: [
             'https://www.youtube.com/watch?v=ccDgYo9KzNg',

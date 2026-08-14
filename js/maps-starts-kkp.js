@@ -88,109 +88,76 @@ let kkpStartsMaps = [
     },
     {
         name: 'Новинское оз',
-        date: '2024-06-19',
         start: 'KKP',
         info: 'Лонг-масстарт.',
         url: './maps/starts/kkp/kkp_2024_06_19.webp',
-        o_gps: {
-            'М':19790,
-            'М2':19865,
-            'Ж':19789,
-            'М50/55/Ж45':19868,
-            'Ж20/М18':19810,
-        },
         bounds: [[60.9943607, 29.1623926], [60.9890954, 29.2141914], [60.9810606, 29.1568565]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V'],
-        owner: 'NW'
+        owner: 'NW',
+        year: 2024,
     },
     {
         name: 'Пруды',
         start: 'KKP',
-        date: '2025-06-17',
         info: 'Лонг.',
-        o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_17.webp',
-        o_gps: {
-            'М':22869,
-            'Ж':22868,
-            'М50/55':22896
-        },
         bounds: [[61.042415, 29.0838575], [61.0359731, 29.145999], [61.0218589, 29.0749311]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
-        owner: 'NW'
+        owner: 'NW',
+        year: 2025,
     },
     {
         name: 'Пруды',
         start: 'KKP',
-        date: '2025-06-16',
         info: 'Классика.',
-        o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_16.webp',
-        o_gps: {
-            'М':22865,
-            'Ж':22864,
-            'М50/55':22894
-        },
         bounds: [[61.0405865, 29.1195202], [61.0379889, 29.1451406], [61.0277423, 29.1136837]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
-        owner: 'NW'
+        owner: 'NW',
+        year: 2025,
     },
     {
         name: 'Пруды',
         start: 'KKP',
-        date: '2025-06-18',
         info: 'Лонг-масстарт.',
-        o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_18.webp',
-        o_gps: {
-            'М':22871,
-            'Ж':22870,
-            'М50/55':22897
-        },
         bounds: [[61.0528853, 29.0894365], [61.0488347, 29.1268158], [61.0354328, 29.0815401]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
-        owner: 'NW'
+        owner: 'NW',
+        year: 2025,
     },
     {
         name: 'Пруды',
         start: 'KKP',
-        date: '2025-06-19',
         info: 'Спринт.',
-        o_site: '250616-19_KKP',
         url: './maps/starts/kkp/kkp_2025_06_19.webp',
-        o_gps: {
-            'М':22873,
-            'Ж':22872,
-            'М50/55':22898
-        },
         bounds: [[61.0473805, 29.0889645], [61.0454484, 29.1062593], [61.0351626, 29.0832567]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
-        owner: 'NW'
+        owner: 'NW',
+        year: 2025,
     },
     {
         name: 'Пруды',
-        date: '2026-06-19',
         start: 'KKP',
         info: 'Лонг-масстарт.',
-        o_site: '260616-21_KKP',
         calendar: 'SPB_20260619_1',
         url: './maps/starts/kkp/kkp_prudy_2026_06_19.webp',
         bounds: [[61.0638298, 29.1214514], [61.0600713, 29.1570711], [61.0387994, 29.1102076]],
         author: ['VRBY','KVZN','TKMKV_K','BRGNTS'],
         owner: 'NW',
-        zindex: 3
+        zindex: 3,
+        year: 2026,
     },
     {
         name: 'Пруды',
-        date: '2026-06-20',
         start: 'KKP',
         info: 'Спринт.',
-        o_site: '260616-21_KKP',
         calendar: 'SPB_20260620_1',
         url: './maps/starts/kkp/kkp_prudy_2026_06_20.webp',
         bounds: [[61.0777697, 29.1205931], [61.0758706, 29.1387677], [61.0651068, 29.1151428]],
         author: ['VRBY','KVZN','PSTVTV','TKMKV_K','BRGNTS'],
         owner: 'NW',
-        zindex: 3
+        zindex: 3,
+        year: 2026,
     },
 ];

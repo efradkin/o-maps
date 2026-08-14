@@ -858,6 +858,12 @@ let events2019 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '190616-21_KKP',
+        map: 'kkp_prudy_2019_06_18',
+        o_gps: {
+            'М': 5957,
+            'Ж': 5958,
+            'ALL': 5959,
+        },
     },
     {
         id: 'SPB_20190619_1',
@@ -867,6 +873,14 @@ let events2019 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '190616-21_KKP',
+        map: 'kkp_prudy_2019_06_19',
+        o_gps: {
+            'М': 5964,
+            'Ж': 5965,
+            'Ж18': 5981,
+            'M18': 5982,
+            'ALL': 5966,
+        },
     },
     {
         id: 'SPB_20190620_1',
@@ -876,6 +890,14 @@ let events2019 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '190616-21_KKP',
+        map: 'kkp_prudy_2019_06_20',
+        o_gps: {
+            'М': 5967,
+            'Ж': 5968,
+            'Ж18': 5986,
+            'М18': 5988,
+            'ALL': 5969,
+        },
     },
     {
         id: 'SPB_20190620_1',

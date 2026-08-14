@@ -547,7 +547,9 @@ let events2014 = [
         name: 'ККП #1',
         type: 'ORIENT',
         start: 'KKP',
-        o_site: '14062326_KKP'
+        o_site: '14062326_KKP',
+        map: 'kkp_gusinaja_2014_06_23',
+        o_gps: 214,
     },
     {
         id: 'SPB_20140625_1',
@@ -556,7 +558,12 @@ let events2014 = [
         name: 'ККП #3',
         type: 'ORIENT',
         start: 'KKP',
-        o_site: '14062326_KKP'
+        o_site: '14062326_KKP',
+        map: 'kkp_gusinaja_2014_06_25',
+        o_gps: {
+            'М': 217,
+            'Ж': 218,
+        },
     },
     {
         id: 'SPB_20140626_1',
@@ -565,7 +572,12 @@ let events2014 = [
         name: 'ККП #4',
         type: 'ORIENT',
         start: 'KKP',
-        o_site: '14062326_KKP'
+        o_site: '14062326_KKP',
+        map: 'kkp_goritsa_2014_06_26',
+        o_gps: {
+            'М': 219,
+            'Ж': 220,
+        },
     },
     {
         id: 'SPB_20140627_1',

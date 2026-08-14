@@ -794,6 +794,12 @@ let events2018 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '180617-18',
+        map: 'kkp_solnechnoe_2018_06_19',
+        o_gps: {
+            'М': 4032,
+            'Ж': 4033,
+            'ALL': 4034,
+        },
     },
     {
         id: 'SPB_20180620_1',
@@ -803,6 +809,12 @@ let events2018 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '180617-18',
+        map: 'kkp_solnechnoe_2018_06_20',
+        o_gps: {
+            'М': 4036,
+            'Ж': 4037,
+            'ALL': 4038,
+        },
     },
     {
         id: 'SPB_20180621_1',
@@ -812,6 +824,12 @@ let events2018 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '180617-18',
+        map: 'kkp_trostinka_2018_06_21',
+        o_gps: {
+            'Ж': 4039,
+            'М': 4040,
+            'ALL': 4042,
+        },
     },
     {
         id: 'SPB_20180622_1',
