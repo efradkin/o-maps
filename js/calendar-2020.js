@@ -1184,6 +1184,11 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/20092428/20200927_res.htm',
         owner: 'VYBORG',
         o_site: '20092428',
+        map: 'vyborg_center_2020_09_26',
+        o_gps: {
+            'М': 8200,
+            'Ж': 8201
+        },
         video: 'https://www.youtube.com/watch?v=fQJcSSgX7e0',
         reskeep: [371, 372],
         start: 'RUSSIA_CHAMP'
@@ -1424,6 +1429,7 @@ let events2020 = [
         id: 'SPB_20201031_2',
         date: '2020-10-31',
         place: 'м Академическая',
+        map: 'school_470_2020',
         name: 'Sprint Tour SPb - 2020. 5 этап',
         start: 'ST',
         type: 'ORIENT',

@@ -344,6 +344,15 @@ let events2014 = [
         o_site: '140514'
     },
     {
+        id: 'SPB_20140514_2',
+        date: '2014-05-14',
+        place: 'Политехническая',
+        name: 'Sprint Tour SPb 2014, 4 этап',
+        type: 'ORIENT',
+        start: 'ST',
+        map: 'politekhnicheskaya_2015'
+    },
+    {
         id: 'SPB_20140517_1',
         date: '2014-05-17',
         place: 'СК им В.И.Алексеева',

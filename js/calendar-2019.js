@@ -1098,7 +1098,9 @@ let events2019 = [
         place: 'Петроградка',
         name: 'Sprint Camp 2019. 1 день. Утро',
         type: 'ORIENT',
-        reskeep: [185, 186]
+        reskeep: [185, 186],
+        start: 'ST',
+        map: 'petrogradskaya_2016'
     },
     {
         id: 'SPB_20190811_1',
@@ -1106,7 +1108,9 @@ let events2019 = [
         place: 'Петроградка',
         name: 'Sprint Camp 2019. 2 день',
         type: 'ORIENT',
-        reskeep: 187
+        reskeep: 187,
+        start: 'ST',
+        map: 'petrogradskaya_2016'
     },
     {
         id: 'SPB_20190811_2',

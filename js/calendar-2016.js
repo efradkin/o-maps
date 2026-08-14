@@ -535,6 +535,15 @@ let events2016 = [
         o_site: '160522'
     },
     {
+        id: 'SPB_20160525_1',
+        date: '2016-05-25',
+        name: 'Sprint Tour SPb 2016',
+        place: 'Нарвская',
+        type: 'ORIENT',
+        start: 'ST',
+        map: 'narvskaya_2016'
+    },
+    {
         id: 'SPB_20160528_1',
         date: '2016-05-28',
         name: 'Горный Кросс - 52',
@@ -601,6 +610,15 @@ let events2016 = [
         video: 'https://www.youtube.com/watch?v=Xe47MvA0hBc',
         owner: 'VYBORG',
         o_site: '16060405VT'
+    },
+    {
+        id: 'SPB_20160608_1',
+        date: '2016-06-08',
+        name: 'Sprint Tour SPb 2016: 9 этап',
+        place: 'Оккервиль',
+        type: 'ORIENT',
+        start: 'ST',
+        map: 'school_332_2013'
     },
     {
         id: 'SPB_20160610_1',

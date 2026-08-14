@@ -902,7 +902,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         info: 'Новая карта.',
-        map: 'porokhovye_school_127'
+        map: 'porokhovye_school_127_2026'
     },
     {
         id: 'SPB_20260418_3',
@@ -987,7 +987,7 @@ let events2026 = [
         info: 'Тест бесконтактной SFR-отметки.',
         type: 'ORIENT',
         fmt: 'гроздь',
-        map: 'peterhof_spbgu',
+        map: 'peterhof_spbgu_2026',
         publish: 'https://vk.com/album-230167293_313366249',
         strava: 18250178408,
         me: 'М50',

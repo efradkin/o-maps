@@ -331,6 +331,15 @@ let events2017 = [
         start: 'SCHOOL'
     },
     {
+        id: 'SPB_20170419_2',
+        date: '2017-04-19',
+        place: 'Политехническая',
+        name: 'Sprint Tour SPb 2017: 2 этап',
+        type: 'ORIENT',
+        map: 'politekhnicheskaya_2015',
+        start: 'ST'
+    },
+    {
         id: 'SPB_20170422_1',
         date: '2017-04-22',
         name: 'TrailAdventure',
@@ -695,6 +704,15 @@ let events2017 = [
         owner: 'SFSO_SPB',
         o_site: '170528',
         reskeep: 253
+    },
+    {
+        id: 'SPB_20170531_1',
+        date: '2017-05-31',
+        place: 'Бумажная ул',
+        name: 'Sprint Tour SPb 2017',
+        type: 'ORIENT',
+        start: 'ST',
+        map: 'bumazhnaya_2015'
     },
     {
         id: 'SPB_20170602_1',

@@ -669,10 +669,16 @@ let events2024 = [
             'https://www.youtube.com/watch?v=FZ-jCvf9Gq8',
             'https://www.youtube.com/watch?v=uN4eMQvTnKk'
         ],
+        o_gps: {
+            '17': 19452,
+            '19-М': 19474,
+            '19-Ж': 19473
+        },
         owner: 'SFSO_SPB',
         o_site: '240519_russia',
         reskeep: 654,
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP',
+        map: ['petropavlovka_2024','vasileostrovskaya_2024','serebrjany_prud_2024']
     },
     {
         id: 'SPB_20240518_1',
@@ -837,6 +843,7 @@ let events2024 = [
         id: 'SPB_20240605_2',
         date: '2024-06-05',
         place: 'Универсам САМПО',
+        map: 'sampo_2024',
         name: 'Спринт-Тур #3',
         type: 'ORIENT',
         reskeep: 645,
@@ -1441,6 +1448,7 @@ let events2024 = [
         date: '2024-09-11',
         name: 'Спринт Тур, 4 этап',
         place: 'пр Просвещения',
+        map: 'school_518_2024',
         start: 'ST',
         reskeep: 666,
         type: 'ORIENT',

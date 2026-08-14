@@ -2564,20 +2564,14 @@ let events2025 = [
             'Спринт': 23708,
             'Классика': 23707
         },
-        reskeep: [
-            809,
-            810
-        ],
+        reskeep: [809,810],
         photo: 'https://disk.yandex.ru/d/h9cZkNiDfKzFKQ',
         video: [
             'http://vksport.vkvideo.ru/video-64963384_456263483',
             'https://rutube.ru/video/ffd2e7c87cdd713473e04da0d236a512/',
             'https://rutube.ru/video/7e02cd22d0cc3e5cb9d2de7bf754f082/'
         ],
-        map: [
-            'vyborg_batareynaja_gora',
-            'kirovskie_dachi_2014'
-        ],
+        map: ['vyborg_batareynaja_gora', 'kirovskie_dachi_2014'],
         owner: 'VYBORG'
     },
     {

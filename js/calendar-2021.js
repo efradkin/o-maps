@@ -836,6 +836,14 @@ let events2021 = [
         res: 'http://sportident.online/ol/?id=356',
         photo: 'http://drive.google.com/drive/folders/1MhItem9JxiW66WFgqt7XQmOqRzjx68an',
         info: 'С 28 мая по 1 июня в Сосновом Бору (Ленинградская область) состоится Чемпионат России по спортивному ориентированию, а также пройдут областные соревнования «Спринт».',
+        o_gps: {
+            '29-M': 10011,
+            '29-Ж': 10012,
+            '30-M': 10013,
+            '30-Ж': 10014,
+            '31-M': 10015,
+            '31-Ж': 10016
+        },
         video: [
             'https://www.youtube.com/watch?v=GfJB-vShsck',
             'https://www.youtube.com/watch?v=_V6aaxFOXWQ',
@@ -846,7 +854,8 @@ let events2021 = [
         ],
         o_site: '210531',
         reskeep: [466, 468, 469],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP',
+        map: ['sosnovy_bor_2021_05_29','sosnovy_bor_2021_05_30','sosnovy_bor_2021_05_31']
     },
     {
         id: 'SPB_20210529_3',
@@ -1287,6 +1296,7 @@ let events2021 = [
         id: 'SPB_20210901_1',
         date: '2021-09-01',
         place: 'Академическая',
+        map: 'school_71_2021',
         name: 'Noname Sprint Tour SPb - 2021. 6 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -1384,6 +1394,7 @@ let events2021 = [
         id: 'SPB_20210915_1',
         date: '2021-09-15',
         place: 'пр Солидарности',
+        map: 'school_332_2021',
         name: 'Noname Sprint Tour SPb - 2021. 7 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -1510,6 +1521,7 @@ let events2021 = [
         id: 'SPB_20210929_1',
         date: '2021-09-29',
         place: 'м Озерки',
+        map: 'esenina_2021',
         name: 'Noname Sprint Tour SPb - 2021. 8 этап (MASS-SPRINT)',
         start: 'ST',
         type: 'ORIENT',
@@ -1588,6 +1600,7 @@ let events2021 = [
         id: 'SPB_20211009_4',
         date: '2021-10-09',
         place: 'ул Матроса Железняка',
+        map: 'matrosa_zheleznjaka_2021',
         name: 'Noname Sprint Tour SPb - 2021. 9 этап',
         start: 'ST',
         type: 'ORIENT',
@@ -1732,6 +1745,7 @@ let events2021 = [
         date: '2021-10-30',
         name: 'Sprint Tour SPb. 10 этап',
         place: 'м Чкаловская',
+        map: 'chkalovskaya_2021',
         type: 'ORIENT',
         fmt: 'спринт',
         reskeep: 489,

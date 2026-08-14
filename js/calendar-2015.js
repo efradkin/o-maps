@@ -460,6 +460,15 @@ let events2015 = [
         o_site: '150511'
     },
     {
+        id: 'SPB_20150513_1',
+        date: '2015-05-13',
+        place: 'Баболовский парк',
+        name: 'Sprint Tour SPb 2015: 5 этап',
+        type: 'ORIENT',
+        start: 'ST',
+        map: 'manezh_alekseeva_2015'
+    },
+    {
         id: 'SPB_20150514_1',
         date: '2015-05-14',
         place: 'Митрополичий сад Александро-Невской Лавры',

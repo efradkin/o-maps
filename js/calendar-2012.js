@@ -717,6 +717,15 @@ let events2012 = [
         o_site: '120916'
     },
     {
+        id: 'SPB_20120919_1',
+        date: '2012-09-19',
+        place: 'ул Сикейроса',
+        name: 'Sprint Tour Spb',
+        type: 'ORIENT',
+        start: 'ST',
+        map: 'school_101_2011'
+    },
+    {
         id: 'SPB_20120922_1',
         date: '2012-09-22',
         place: 'Лемболово',

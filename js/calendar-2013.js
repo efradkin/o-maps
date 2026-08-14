@@ -829,6 +829,15 @@ let events2013 = [
         reskeep: 254
     },
     {
+        id: 'SPB_20130911_1',
+        date: '2013-09-11',
+        place: 'шк 536',
+        name: 'Sprint Tour SPb 2013 - 10 этап',
+        type: 'ORIENT',
+        start: 'ST',
+        map: 'kosmonavtov_2013'
+    },
+    {
         id: 'SPB_20130914_1',
         date: '2013-09-14',
         endDate: '2013-09-15',
@@ -981,6 +990,15 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/131012/131013_res.htm',
         start: 'OKINCHITSA',
         o_site: '131012'
+    },
+    {
+        id: 'SPB_20131012_2',
+        date: '2013-10-12',
+        place: 'Кавалергардская ул',
+        name: 'Sprint Tour SPb 2013 - 14 этап',
+        type: 'ORIENT',
+        start: 'ST',
+        map: 'kavalergardskaya_2012'
     },
     {
         id: 'SPB_20131016_1',

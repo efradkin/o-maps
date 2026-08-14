@@ -23,7 +23,7 @@ let cityMaps = [
     },
     {
         name: 'Сад Жореса Алфёрова',
-        date: '2023-05-10',
+        year: 2023,
         url: './maps/city/sad_zhoresa_alferova_2023.webp',
         //link: './original_maps/city/sad_zhoresa_alferova_2023_st_omaps.gif',
         reskeep: 586,
@@ -44,7 +44,7 @@ let cityMaps = [
     },
     {
         name: 'Лицей №470',
-        date: '2020-10-31',
+        year: 2020,
         url: './maps/city/school_470_2020.webp',
         link: ['./original_maps/schools/school_470_2020_st_omaps.gif','./original_maps/schools/school_470_2022_st_omaps.gif'],
         reskeep: 388,
@@ -56,7 +56,7 @@ let cityMaps = [
     },
     {
         name: 'Школа №71',
-        date: '2021-09-01',
+        year: 2021,
         url: './maps/city/school_71_2021.webp',
         link: './original_maps/schools/school_71_2021_st_omaps.gif',
         reskeep: 485,
@@ -68,7 +68,7 @@ let cityMaps = [
     },
     {
         name: 'ул Вавиловых, Школа №98',
-        date: '2022-06-01',
+        year: 2022,
         url: './maps/city/school_98_2022.webp',
         link: './original_maps/city/severny_2022_st_omaps.gif',
         reskeep: 519,
@@ -80,7 +80,7 @@ let cityMaps = [
     },
     {
         name: 'ЖК Академ Парк',
-        date: '2022-11-12',
+        year: 2022,
         url: './maps/city/akadem_park_2022.webp',
         link: ['./original_maps/city/akadem_park_2020_st_1.pdf','./original_maps/city/akadem_park_2020_st_2.pdf','./original_maps/city/akadem_park_2022_st_omaps.gif'],
         reskeep: 564,
@@ -141,7 +141,7 @@ let cityMaps = [
     },
     {
         name: 'Гимназия №101',
-        date: '2012-09-19',
+        year: 2012,
         url: './maps/city/school_101_2011.webp',
         link: ['./original_maps/schools/school_101_2011_omaps.jpg','./original_maps/starts/st/st_2012_school_101.jpg','./original_maps/schools/school_101_2011_omaps.ocd'],
         bounds: [[60.0355738, 30.3288317], [60.0355738, 30.3440881], [60.0305791, 30.32866]],
@@ -185,7 +185,6 @@ let cityMaps = [
     {
         name: 'Школа №332',
         year: 2013,
-        date: '2016-06-08',
         url: './maps/city/school_332_2013.webp',
         link: './original_maps/city/okkervil_2016_omaps.jpg',
         bounds: [[59.9249365, 30.4807734], [59.9236246, 30.4973602], [59.9155047, 30.4773188]],
@@ -196,7 +195,7 @@ let cityMaps = [
     },
     {
         name: 'пр Солидарности, Школа №332',
-        date: '2021-09-15',
+        year: 2021,
         url: './maps/city/school_332_2021.webp',
         link: './original_maps/city/solidarnosty_2021_st_omaps.gif',
         bounds: [[59.9248935, 30.4814601], [59.9236031, 30.4957938], [59.9160209, 30.4785419]],
@@ -248,7 +247,6 @@ let cityMaps = [
     {
         name: 'Бумажная ул',
         year: 2015,
-        date: '2017-05-31',
         url: './maps/city/bumazhnaya_2015.webp',
         link: ['./original_maps/city/bumazhnaya_2015_omaps.jpg','./original_maps/city/narvskaya_2017_05_31_omaps.webp'],
         bounds: [[59.909061, 30.2617979], [59.9090395, 30.2760458], [59.9010882, 30.2624416]],
@@ -293,7 +291,7 @@ let cityMaps = [
     },
     {
         name: 'Политехническая',
-        date: ['2014-05-14','2017-04-19'],
+        year: 2014,
         url: './maps/city/politekhnicheskaya_2015.webp',
         link: ['./original_maps/city/politekhnicheskaya_2015_omaps.jpg','./original_maps/schools/school_145_2014_omaps.gif','./original_maps/city/politekh_st_2017_04_19_omaps.webp','./original_maps/city/manezh_alekseeva_2014_omaps.ocd'],
         bounds: [[60.0256266, 30.3672838], [60.0253479, 30.384922], [60.0101426, 30.3678846]],
@@ -305,7 +303,6 @@ let cityMaps = [
     {
         name: 'Нарвская',
         year: 2011,
-        date: '2016-05-25',
         url: './maps/city/narvskaya_2016.webp',
         link: ['./original_maps/city/narvskaya_2016_omaps.jpg','./original_maps/city/narvskaya_clean_omaps.jpg'],
         bounds: [[59.8989252, 30.2590942], [59.8988821, 30.2757025], [59.8934793, 30.2590084]],
@@ -392,7 +389,7 @@ let cityMaps = [
     },
     {
         name: 'Наб. р. Смоленки',
-        date: '2023-04-12',
+        year: 2023,
         url: './maps/city/smolenka_2014.webp',
         link: ['./original_maps/city/smolenka_2019_st_omaps.gif','./original_maps/city/smolenka_2023_st_omaps.gif'],
         bounds: [[59.9499067, 30.2156639], [59.9484024, 30.2331734], [59.9402993, 30.212059]],
@@ -518,10 +515,6 @@ let cityMaps = [
         date: '2024-05-19',
         start: ['RUSSIA_2024','RUSSIA_CHAMP'],
         info: 'Кросс-спринт-общий старт.',
-        o_gps: {
-            'М': 19474,
-            'Ж': 19473
-        },
         url: './maps/city/serebrjany_prud_2024.webp',
         link: ['./original_maps/city/serebrjany_prud_2024_omaps.gif','./original_maps/city/serebrjany_prud_2024_05_19.jpeg','./original_maps/city/serebrjany_prud_2024_05_19_W.jpeg'],
         bounds: [[60.0090485, 30.3422213], [60.0076863, 30.354774], [60.0013894, 30.3388524]],
@@ -542,7 +535,7 @@ let cityMaps = [
     },
     {
         name: 'ул Сантьяго-де-Куба, ДДЮТ Выборгского р-на',
-        date: '2022-05-18',
+        year: 2022,
         url: './maps/city/vyborgsky_ddjut_2017.webp',
         link: './original_maps/city/santjago_de_kuba_2022_st_omaps.gif',
         bounds: [[60.0397318, 30.343616], [60.0398604, 30.3566837], [60.0309865, 30.3432083]],
@@ -572,7 +565,7 @@ let cityMaps = [
     },
     {
         name: 'Школа №536',
-        date: '2013-09-11',
+        year: 2013,
         url: './maps/city/kosmonavtov_2013.webp',
         link: './original_maps/city/kosmonavtov_2013_omaps.jpg',
         bounds: [[59.8653859, 30.3483582], [59.8658598, 30.359087], [59.8559155, 30.349946]],
@@ -625,7 +618,7 @@ let cityMaps = [
     },
     {
         name: 'Кавалергардская ул',
-        date: '2012-10-12',
+        year: 2012,
         url: './maps/city/kavalergardskaya_2012.webp',
         link: ['./original_maps/city/kavalergardskaya_2012_omaps.jpg','./original_maps/starts/st/st_2012_10_12_kavalergardskaya.jpg'],
         bounds: [[59.9488752, 30.3775406], [59.9488859, 30.3914666], [59.9422231, 30.3775406]],
@@ -676,7 +669,7 @@ let cityMaps = [
     },
     {
         name: 'Петроградская',
-        date: '2019-08-10',
+        year: 2019,
         url: './maps/city/petrogradskaya_2016.webp',
         link: ['./original_maps/city/petrogradskaya_2016_omaps.jpg','./original_maps/city/chkalovskaya_2019_st_omaps.gif'],
         bounds: [[59.9694033, 30.2945852], [59.967771, 30.3128672], [59.9585124, 30.2905941]],
@@ -875,7 +868,6 @@ let cityMaps = [
         year: 2026,
         url: './maps/city/peterhof_spbgu_2026.webp',
         link: './original_maps/city/peterhof_spbgu_2026_omaps.webp',
-        o_gps: 24835,
         bounds: [[59.887602, 29.8163581], [59.884523, 29.8446608], [59.8777934, 29.8121953]],
         author: 'SVCHK',
         owner: 'FLTV',
@@ -893,7 +885,7 @@ let cityMaps = [
     },
     {
         name: 'Универсам САМПО',
-        date: '2024-06-05',
+        year: 2024,
         start: 'ST',
         url: './maps/city/sampo_2024.webp',
         link: './original_maps/city/sampo_2024_st_omaps.gif',
@@ -917,7 +909,6 @@ let cityMaps = [
         year: 2021,
         url: './maps/city/dibunovskaya_2022.webp',
         link: ['./original_maps/city/dibunovskaya_2022_st_omaps.gif','./original_maps/city/dibunovskaya_st_2025_08_05_omaps.webp'],
-        o_gps: 14471,
         bounds: [[59.989307, 30.2712607], [59.9879279, 30.2863884], [59.9840155, 30.2693725]],
         author: 'DBRTSV_V',
         start: 'ST',
@@ -937,11 +928,10 @@ let cityMaps = [
     },
     {
         name: 'ул Карпинского',
-        date: '2023-08-16',
+        year: 2023,
         url: './maps/city/karpinskogo_2019.webp',
         link: ['./original_maps/city/karpinskogo_2019_st_omaps.gif','./original_maps/city/karpinskogo_2023_st_omaps.gif'],
         reskeep: 603,
-        o_gps: 17006,
         bounds: [[60.0167381, 30.4165292], [60.0166416, 30.4305625], [60.0068282, 30.4165077]],
         author: 'SRBRNTSKY',
         start: 'ST',
@@ -950,7 +940,7 @@ let cityMaps = [
     },
     {
         name: 'ул Верности, Лицей №95',
-        date: '2022-10-01',
+        year: 2022,
         url: './maps/city/litsey_95_2022.webp',
         link: './original_maps/city/vernosty_2022_st_omaps.gif',
         reskeep: 540,
@@ -962,7 +952,7 @@ let cityMaps = [
     },
     {
         name: 'Манеж Алексеева',
-        date: '2015-05-13',
+        year: 2014,
         url: './maps/city/manezh_alekseeva_2015.webp',
         link: ['./original_maps/city/manezh_alekseeva_2015_omaps.jpg','./original_maps/city/manezh_alekseeva_2014_omaps.gif','./original_maps/city/manezh_alekseeva_2014_omaps.ocd'], // ЧиП СПб тогда проводил НордВест
         bounds: [[60.019762, 30.3561687], [60.0193653, 30.3695583], [60.0098315, 30.3545809]],
@@ -983,7 +973,7 @@ let cityMaps = [
     },
     {
         name: 'ул Матроса Железняка',
-        date: '2021-10-09',
+        year: 2021,
         url: './maps/city/matrosa_zheleznjaka_2021.webp',
         link: './original_maps/city/matrosa_zheleznjaka_2021_st_omaps.gif',
         reskeep: 488,
@@ -995,7 +985,7 @@ let cityMaps = [
     },
     {
         name: 'Гимназия №74',
-        date: '2018-09-05',
+        year: 2018,
         start: 'ST',
         url: './maps/city/gimnazia_74_2018.webp',
         link: ['./original_maps/city/muzhestva_2018_st.pdf','./original_maps/city/gimnazia_74_2018_omaps.ocd'],
@@ -1017,7 +1007,7 @@ let cityMaps = [
     },
     {
         name: 'ул Есенина',
-        date: '2021-09-29',
+        year: 2021,
         url: './maps/city/esenina_2021.webp',
         link: './original_maps/city/esenina_2021_st_omaps.gif',
         reskeep: 487,
@@ -1029,10 +1019,9 @@ let cityMaps = [
     },
     {
         name: 'Омская ул"',
-        date: '2022-09-06',
+        year: 2022,
         url: './maps/city/omskaya_2022.webp',
         link: './original_maps/city/omskaya_2022_st_omaps.gif',
-        o_gps: 14009,
         reskeep: 555,
         bounds: [[60.0023656, 30.3141332], [59.9994475, 30.3266215], [59.9932777, 30.305593]],
         author: 'CHGRVSKY_M',
@@ -1053,7 +1042,7 @@ let cityMaps = [
     },
     {
         name: 'пр Просвещения, Школа №518',
-        date: '2024-09-11',
+        year: 2024,
         url: './maps/city/school_518_2024.webp',
         link: './original_maps/schools/school_518_2024_st_omaps.gif',
         reskeep: 666,
@@ -1065,7 +1054,7 @@ let cityMaps = [
     },
     {
         name: 'пр Металлистов, Школа №532',
-        date: '2023-05-17',
+        year: 2023,
         url: './maps/city/school_532_2023.webp',
         link: './original_maps/city/metallistov_2023_st_omaps.gif',
         reskeep: 587,
@@ -1099,7 +1088,7 @@ let cityMaps = [
     },
     {
         name: 'Чкаловская',
-        date: '2021-10-30',
+        year: 2021,
         url: './maps/city/chkalovskaya_2021.webp',
         link: ['./original_maps/city/chkalovskaya_2021_st_omaps.gif','./original_maps/city/chkalovskaya_2024_st_omaps.gif'],
         reskeep: 489,
@@ -1111,10 +1100,9 @@ let cityMaps = [
     },
     {
         name: 'Сестрорецкая ул',
-        date: '2023-10-28',
+        year: 2023,
         url: './maps/city/sestroretskaya_2023.webp',
         link: ['./original_maps/city/sestroretskaya_2022_st_omaps.gif','./original_maps/city/sestroretskaya_2023_st_omaps.gif'],
-        o_gps: 17674,
         reskeep: 621,
         bounds: [[59.9895807, 30.2845645], [59.9884699, 30.2969563], [59.9843698, 30.282644]],
         author: 'DBRTSV_V',
@@ -1204,7 +1192,6 @@ let cityMaps = [
         year: 2025,
         url: './maps/city/sertolovo_pogranichnaya_2024.webp',
         link: './original_maps/city/sertolovo_pogranichnaya_2025_omaps.gif',
-        o_gps: 22089,
         bounds: [[60.1465574, 30.2222514], [60.1454892, 30.235126], [60.1405433, 30.2195907]],
         type: ['CITY'],
         author: 'SVCHK',
@@ -1593,10 +1580,6 @@ let cityMaps = [
         url: './maps/city/porokhovye_school_127_2026.webp',
         link: './original_maps/city/porokhovye_school_127_2026_omaps.gif',
         bounds: [[59.9562565, 30.4615259], [59.955064, 30.4729629], [59.9488215, 30.4582107]],
-        o_gps: {
-            'М':24740,
-            'Ж':24741
-        },
         author: 'RDNV_I',
         owner: 'RDNV_I',
         type: ['CITY']
@@ -1694,13 +1677,9 @@ let cityMaps = [
     },
     {
         name: 'Выборг, исторический центр',
-        date: '2020-09-26',
+        year: 2020,
         start: ['RUSSIA_2020','RUSSIA_CHAMP'],
         info: 'Спринт.',
-        o_gps: {
-            'М': 8200,
-            'Ж': 8201
-        },
         url: './maps/city/vyborg_center_2020_09_26.webp',
         link: ['https://viewer.o-gps-center.ru/newmaps/map_6254_d07a76f95f30269314187498b6cda61d.gif','https://viewer.o-gps-center.ru/newmaps/course_8201_7f78af6185476657994fa01093426a57.gif'],
         bounds: [[60.715715, 28.729291], [60.7143085, 28.7443542], [60.7095953, 28.7268233]],
@@ -1728,7 +1707,6 @@ let cityMaps = [
         name: 'Выборг, Интендантская гора',
         url: './maps/city/vyborg_intendantskaja_gora.webp',
         bounds: [[60.708283, 28.740449], [60.7082621, 28.7563705], [60.6982661, 28.7395906]],
-        o_gps: 23708,
         type: ['CITY'],
         author: 'MSPN',
         owner: 'VYBORG'
@@ -1769,7 +1747,7 @@ let cityMaps = [
     },
     {
         name: 'РГПУ им Герцена',
-        date: '2023-05-23',
+        year: 2023,
         url: './maps/city/gertsena_2023.webp',
         link: ['./original_maps/city/gertsena_2023_omaps.gif','./original_maps/city/gertsena_2023_omaps.pdf'],
         info: 'Герценовское кольцо.',
@@ -1930,7 +1908,6 @@ let cityMaps = [
         url: './maps/city/kudrovo_vena_2025.webp',
         link: './original_maps/city/kudrovo_vena_2025_omaps.jpg',
         bounds: [[59.9037675, 30.5059218], [59.9029928, 30.5147946], [59.8964499, 30.5033684]],
-        o_gps: 23947,
         author: ['RYLOV_V','SHRNN'],
         owner: 'RYLOV_V',
         editor: 'SHRNN',
@@ -1994,10 +1971,6 @@ let cityMaps = [
         info: 'Пролог №1.',
         url: './maps/city/sosnovy_bor_2021_05_29.webp',
         link: ['./original_maps/city/sosnovy_bor_2021_05_29.gif','./original_maps/city/sosnovy_bor_2021_05_29_W.gif'],
-        o_gps: {
-            'M': 10011,
-            'Ж': 10012
-        },
         bounds: [[59.8920908, 29.0781498], [59.8907884, 29.091239], [59.882865, 29.0745878]],
         author: 'DBRTSV_V',
         owner: 'YUVENTA',
@@ -2010,10 +1983,6 @@ let cityMaps = [
         info: 'Пролог №2.',
         url: './maps/city/sosnovy_bor_2021_05_30.webp',
         link: ['./original_maps/city/sosnovy_bor_2021_05_30_correct.jpg','./original_maps/city/sosnovy_bor_2021_05_30.gif','./original_maps/city/sosnovy_bor_2021_05_30_W_correct.jpg','./original_maps/city/sosnovy_bor_2021_05_30_W.gif'],
-        o_gps: {
-            'M': 10013,
-            'Ж': 10014
-        },
         bounds: [[59.9027991, 29.0725923], [59.8999905, 29.0883851], [59.8942328, 29.0704679]],
         author: ['DBRTSV_V','MSPN'],
         owner: 'YUVENTA',
@@ -2026,10 +1995,6 @@ let cityMaps = [
         info: 'Финал.',
         url: './maps/city/sosnovy_bor_2021_05_31.webp',
         link: ['./original_maps/city/sosnovy_bor_2021_05_31.gif','./original_maps/city/sosnovy_bor_2021_05_31_W.gif'],
-        o_gps: {
-            'M': 10015,
-            'Ж': 10016
-        },
         bounds: [[59.8945126, 29.0825701], [59.8934148, 29.0942001], [59.8876666, 29.0801668]],
         author: ['PPV_D'],
         owner: 'YUVENTA',
@@ -2040,7 +2005,6 @@ let cityMaps = [
         date: '2024-05-17',
         start: ['RUSSIA_2024','RUSSIA_CHAMP'],
         info: 'Кросс-эстафета-4 человека.',
-        o_gps: 19452,
         url: './maps/city/petropavlovka_2024.webp',
         link: ['./original_maps/city/petropavlovka_2024_omaps.gif','./original_maps/city/petropavlovka_2024_05_17.jpeg'],
         bounds: [[59.9536888, 30.3107214], [59.9522813, 30.3238106], [59.9479511, 30.308404]],
@@ -2091,12 +2055,11 @@ let cityMaps = [
     },
     {
         name: 'Зеленогорск',
-        date: '2025-10-04',
+        year: 2025,
         url: './maps/city/zelenogorsk_2025.webp',
         link: './original_maps/city/zelenogorsk_2025_omaps.jpg',
         bounds: [[60.2034073, 29.706645], [60.202117, 29.7179103], [60.196817, 29.7040057]],
         info: 'Невский спринт.',
-        o_gps: 23568,
         author: 'SVCHK',
         owner: 'SFSO_SPB',
         type: ['CITY']
@@ -2323,7 +2286,7 @@ let cityMaps = [
     },
     {
         name: 'Газовая ул, АнтиФитнес',
-        date: '2025-11-29',
+        year: 2025,
         url: './maps/city/gazovaya_2025.webp',
         link: './original_maps/city/gazovaya_2025_omaps.jpg',
         info: '<a href="https://t.me/dlitelnyy/383">Совместная тренировка Длительного и Экросса</a>.',
@@ -2354,7 +2317,7 @@ let cityMaps = [
     },
     {
         name: 'Физ-мат лицей №239',
-        date: '2015-04-05',
+        year: 2015,
         url: './maps/city/fml_239_2015.webp',
         link: './original_maps/city/fml_239_2015_omaps.gif',
         bounds: [[59.9451033, 30.3526175], [59.944335, 30.3525853], [59.9451356, 30.3516841]],
@@ -2362,7 +2325,7 @@ let cityMaps = [
     },
     {
         name: 'Школа №491',
-        date: '2026-03-30',
+        year: 2026,
         url: './maps/city/school_491_2026.webp',
         link: ['./original_maps/city/school_491_2026_1_omaps.gif','./original_maps/city/school_491_2026_2_omaps.gif','./original_maps/city/school_491_2026_3_omaps.gif','./original_maps/city/school_491_2026_4_omaps.gif','./original_maps/city/school_491_2026_5_omaps.gif','./original_maps/city/school_491_2026_6_omaps.gif'],
         bounds: [[59.9382302, 30.43715], [59.938214, 30.4393172], [59.9374885, 30.4371929]],
@@ -2371,12 +2334,11 @@ let cityMaps = [
     },
     {
         name: 'ТЦ МЕГА Парнас',
-        date: '2026-07-04',
+        year: 2026,
         url: './maps/city/mega_parnas_2026.webp',
         link: './original_maps/city/mega_parnas_2026_omaps.png',
         area: .15,
         bounds: [[60.0936586, 30.3791821], [60.0902242, 30.3842998], [60.0919736, 30.3746331]],
-        calendar: 'SPB_20260705_1',
         author: ['MSTPNV','CHGRVSKY_M'],
         owner: 'OPEN_BAND',
         type: ['INDOOR'],
