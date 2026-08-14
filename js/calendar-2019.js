@@ -671,6 +671,14 @@ let events2019 = [
         name: 'Чемпионат России',
         type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chr/day1/',
+        o_gps: {
+            '24-М': 5759,
+            '24-Ж': 5760,
+            '25-М': 5759,
+            '25-Ж': 5767,
+            '26-М': 5772,
+            '26-Ж': 5782,
+        },
         photo: 'http://vk.com/photo-30365190_456251999',
         video: [
             'http://northernwind.spb.ru/videosplit/2019/chr/day1',
@@ -682,7 +690,8 @@ let events2019 = [
         ],
         o_site: '190524chRF',
         reskeep: [138, 139, 140],
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP',
+        map: ['kuznechnoe_travkino_2019_05_24','kuznechnoe_suuri_2019']
     },
     {
         id: 'SPB_20190525_1',

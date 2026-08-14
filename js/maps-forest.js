@@ -141,7 +141,7 @@ let forestMaps = [
     },
     {
         name: 'Цвелодубово',
-        date: '2006-07-29',
+        year: 2006,
         url: './maps/forest/tsvelodubovo_triotlon_2006.webp',
         link: './original_maps/forest/tsvelodubovo_triotlon_2006_omaps.jpg',
         results: 'https://www.o-site.spb.ru/race.php?id=tri-o-tlon-2006',
@@ -653,7 +653,7 @@ let forestMaps = [
         date: '2006-06-11',
         start: 'NA',
         page: 'spb',
-        url: './maps/forest/kanneljarvi_istok.webp',
+        url: './maps/forest/kanneljarvi_bystrjanka_2006.webp',
         link: ['./original_maps/starts/na/na_2006_06_11_omaps.jpg','./original_maps/forest/kanneljarvi_bystrjanka_2006_omaps.jpg','./original_maps/forest/kanneljarvi_2006_omaps.ocd'],
         bounds: [[60.3714898, 29.3092918], [60.3654639, 29.3803596], [60.3458505, 29.3012238]],
         author: ['VSLVSKY','RYLOV_V']
@@ -900,7 +900,6 @@ let forestMaps = [
     {
         name: 'Парголовская лыжная трасса',
         year: 2021,
-        date: '2022-09-22',
         start: 'ST',
         url: './maps/forest/pargolovo_2021.webp',
         link: './original_maps/forest/pargolovo_2021_omaps.gif',

@@ -1383,6 +1383,15 @@ let events2022 = [
         reskeep: 541
     },
     {
+        id: 'SPB_20220927_1',
+        date: '2022-09-27',
+        place: 'Парголово',
+        name: 'Noname Sprint Tour - 2022',
+        type: 'ORIENT',
+        start: 'ST',
+        map: 'pargolovo_2021'
+    },
+    {
         id: 'SPB_20221001_1',
         date: '2022-10-01',
         place: 'Стеклянный',
