@@ -158,7 +158,6 @@ let rogaineRfarMaps = [
         url: './maps/rogaine/sortavala_redfox_2026.webp',
         link: './original_maps/rogaine/sortavala_redfox_2026_omaps.webp',
         bounds: [[61.9040458, 30.6463623], [61.8549342, 31.1314774], [61.6247576, 30.5217361]],
-        o_gps: 25313,
         calendar: 'SPB_20260613_1',
         owner: 'RFAR',
         type: ['ROGAINE'],

@@ -174,10 +174,6 @@ let vyborgMaps = [
     {
         name: 'Пальцево',
         date: '2022-06-08',
-        o_gps: {
-            '1': 13320,
-            '2': 13310,
-        },
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_08.webp',
@@ -188,11 +184,6 @@ let vyborgMaps = [
     {
         name: 'Пальцево',
         date: '2022-06-10',
-        o_gps: {
-            'А1': 13329,
-            'А2': 13337,
-            'В': 13328,
-        },
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_10.webp',
@@ -203,7 +194,6 @@ let vyborgMaps = [
     {
         name: 'Пальцево',
         date: '2022-06-12',
-        o_gps: 13332,
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_paltsevo_2022_06_12.webp',
@@ -264,7 +254,6 @@ let vyborgMaps = [
     {
         name: 'Пруды',
         date: '2023-06-18',
-        o_gps: 16534,
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_prudy_2023_06_18.webp',
@@ -315,11 +304,6 @@ let vyborgMaps = [
     {
         name: 'Обходное оз',
         date: '2024-06-16',
-        o_gps: {
-            'А1': 19834,
-            'А2': 19840,
-            'ALL': 19841,
-        },
         start: 'KKP',
         info: 'УТС.',
         url: './maps/forest/vyborg/kkp_obkhodnoe_2024_06_16.webp',

@@ -629,7 +629,7 @@ let events2016 = [
         type: 'ORIENT',
         o_site: '16061012'
     },
-    {
+{
         id: 'SPB_20160610_2',
         date: '2016-06-10',
         endDate: '2016-06-16',
@@ -638,7 +638,7 @@ let events2016 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16061016/160610_split.htm',
         owner: 'WN',
-        start: 'WN',
+        start: ['WN','YM'],
         o_site: '16061016',
         map: ['wn_2016_06_12', 'ym_2016_pervomayskoe_city_sprint', 'ym_2016_pervomayskoe_sprint', 'ym_2016_pervomayskoe_klassika', 'ym_2016_pervomayskoe_klassika2']
     },

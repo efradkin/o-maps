@@ -1212,7 +1212,7 @@ let events2020 = [
         link: 'http://tradventure.ru , http://bikeadventure.ru',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2020-2.php',
         map: 'yappilya_ba_2020',
-        start: 'BA',
+        start: ['BA','TA'],
         owner: 'BKTV',
     },
     {

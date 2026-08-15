@@ -545,7 +545,7 @@ let events2010 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10061520/10061520_res.zip',
         owner: 'WN',
-        start: 'WN',
+        start: ['WN','YM'],
         o_site: '10061520',
         map: ['ym_2010_michurinskoe_sprint', 'ym_2010_michurinskoe_long', 'ym_2010_michurinskoe_klassika']
     },

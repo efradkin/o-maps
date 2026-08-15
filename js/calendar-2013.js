@@ -634,7 +634,8 @@ let events2013 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/13061823/130618_split.htm',
         o_site: '13061823',
-        map: ['ym_2013_yagodnoe_klassika', 'ym_2013_yagodnoe_klassika2', 'ym_2013_borisovo_long']
+        map: ['ym_2013_yagodnoe_klassika', 'ym_2013_yagodnoe_klassika2', 'ym_2013_borisovo_long'],
+        start: ['WN','YM'],
     },
     {
         id: 'SPB_20130620_1',

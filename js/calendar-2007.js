@@ -517,7 +517,7 @@ let events2007 = [
         type: 'ROGAINE',
         res: 'http://www.sportsystem.ru/files/rogaine_results.xls',
         info: 'Соревнования по рогейну «100 за 24» - «Горный кросс-6», посвященные 50-летию Петроградского клуба туристов',
-        start: '100x24',
+        start: ['100x24','GORNY_CROSS'],
         o_site: '070611_RG',
         map: 'kuznechnoe_2007_rogaine'
     },
@@ -604,7 +604,7 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070629_WN/w-n2007.zip',
         info: '37-е издание старейшей многодневки',
         owner: 'WN',
-        start: 'WN',
+        start: ['WN','YM'],
         o_site: '070629_WN',
         map: 'wn_2007_07_01'
     },

@@ -50,7 +50,8 @@ let events2005 = [
         res: 'https://o-site.spb.ru/_races/050205/Gat4ina.zip',
         o_site: '050205',
         map: 'gatchina_zverinets_2005',
-        major: true
+        major: true,
+        start: 'RUSSIA_CHAMP',
     },
     {
         id: 'SPB_20050206_1',
@@ -375,7 +376,7 @@ let events2005 = [
         res: 'https://o-site.spb.ru/_races/050517/WN.zip',
         fmt: 'многодневка',
         owner: 'WN',
-        start: 'WN',
+        start: ['WN','YM'],
         o_site: '050517',
         map: ['wn_2005_06_18', 'wn_2005_06_19']
     },

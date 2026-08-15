@@ -627,7 +627,7 @@ let events2018 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2018-1.php',
         video: 'https://www.youtube.com/watch?v=yM4fWkWOB1g',
         map: 'kamennogorsk_ta_2018',
-        start: 'BA',
+        start: ['BA','TA'],
         owner: 'BKTV',
     },
     {

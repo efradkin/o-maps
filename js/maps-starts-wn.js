@@ -307,7 +307,6 @@ let wnStartsMaps = [
         info: 'Кросс-лонг.',
         url: './maps/starts/wn/wn_2022_06_25.webp',
         link: './original_maps/starts/wn/wn_2022_06_25_omaps.jpg',
-        o_gps: 13468,
         bounds: [[60.6303333, 30.1100922], [60.6252604, 30.1609468], [60.6122484, 30.1033974]],
         author: 'MKHLV_A',
         zindex: 2

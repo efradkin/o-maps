@@ -702,7 +702,7 @@ let events2019 = [
         ],
         o_site: '190524chRF',
         reskeep: [138, 139, 140],
-        start: 'RUSSIA_CHAMP',
+        start: ['RUSSIA_CHAMP','RUSSIA_2019'],
         map: ['kuznechnoe_travkino_2019_05_24','kuznechnoe_suuri_2019']
     },
     {
@@ -727,8 +727,9 @@ let events2019 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2019-1.php',
         photo: 'https://vk.com/album-30311715_262656659',
         map: 'luga_ba_2019',
-        start: 'BA',
+        start: ['BA','TA'],
         owner: 'BKTV',
+        info: 'Лужский артиллерийский полигон.',
     },
     {
         id: 'SPB_20190526_1',

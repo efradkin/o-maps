@@ -856,7 +856,7 @@ let events2021 = [
         ],
         o_site: '210531',
         reskeep: [466, 468, 469],
-        start: 'RUSSIA_CHAMP',
+        start: ['RUSSIA_CHAMP','RUSSIA_2021'],
         map: ['sosnovy_bor_2021_05_29','sosnovy_bor_2021_05_30','sosnovy_bor_2021_05_31']
     },
     {

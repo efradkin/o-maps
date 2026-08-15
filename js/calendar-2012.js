@@ -397,7 +397,8 @@ let events2012 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-1.php',
         map: 'kamenka_ba_2012',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        info: 'Бобочинский полигон.',
     },
     {
         id: 'SPB_20120520_1',
@@ -507,7 +508,7 @@ let events2012 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/12061924/fest-1day.htm',
         owner: 'WN',
-        start: 'WN',
+        start: ['WN','YM'],
         o_site: '12061924',
         map: ['ym_2012_pervomayskoe_klassika', 'ym_2012_pervomayskoe_long', 'ym_2012_pervomayskoe_klassika2']
     },

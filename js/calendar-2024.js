@@ -679,7 +679,7 @@ let events2024 = [
         owner: 'SFSO_SPB',
         o_site: '240519_russia',
         reskeep: 654,
-        start: 'RUSSIA_CHAMP',
+        start: ['RUSSIA_CHAMP','RUSSIA_2024'],
         map: ['petropavlovka_2024','vasileostrovskaya_2024','serebrjany_prud_2024']
     },
     {
@@ -898,7 +898,12 @@ let events2024 = [
         strava: 11661372372,
         start: 'KKP',
         o_site: '240610-16_UTS_KKP',
-        map: ['kkp_obkhodnoe_2024_06_14','kkp_obkhodnoe_2024_06_15','kkp_obkhodnoe_2024_06_16']
+        map: ['kkp_obkhodnoe_2024_06_14','kkp_obkhodnoe_2024_06_15','kkp_obkhodnoe_2024_06_16'],
+        o_gps: {
+            '16-А1': 19834,
+            '16-А2': 19840,
+            '16-ALL': 19841,
+        },
     },
     {
         id: 'SPB_20240613_1',

@@ -475,7 +475,7 @@ let events2011 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11061419/11061419_res.zip',
         owner: 'WN',
-        start: 'WN',
+        start: ['WN','YM'],
         o_site: '11061419',
         map: ['ym_2011_yagodnoe_sprint', 'ym_2011_yagodnoe_long', 'ym_2011_yagodnoe_klassika2','wn_2011_06_18']
     },

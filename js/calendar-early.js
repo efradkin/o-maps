@@ -596,7 +596,7 @@ let eventsEarly = [
         endDate: '1986-09-11',
         place: 'Казахская ССР, Карагандинская обл',
         name: 'Чемпионат СССР',
-        start: 'USSR_1986',
+        start: ['USSR_1986','USSR_CHAMP'],
         res: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
         map: 'karkaralinsk_1986'
     },

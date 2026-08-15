@@ -828,7 +828,10 @@ let events2023 = [
         strava: [9292376222,9321294363],
         start: 'KKP',
         o_site: '230612-18',
-        map: ['kkp_prudy_2023_06_17','kkp_prudy_2023_06_18']
+        map: ['kkp_prudy_2023_06_17','kkp_prudy_2023_06_18'],
+        o_gps: {
+            '18':16534
+        },
     },
     {
         id: 'SPB_20230617_1',
