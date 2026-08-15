@@ -167,7 +167,8 @@ function renderMapsTable() {
             currentDate = new Date(evt.date);
             let month = currentDate.getMonth();
             const y = currentDate.getFullYear();
-            if (currentSort === 'date' && (month !== currentMonth || y !== currentYear)) {
+            if (currentSort === 'date' && (month !== currentMonth || y !== currentYear) &&
+                'EARLY' !== START_YEAR_PARAM) {
                 if (monthTD) {
                     buildMonth();
                 }
@@ -258,7 +259,7 @@ function renderMapsTable() {
 }
 
 function buildMonth() {
-    if (prevDate) {
+    if (prevDate && monthTD) {
         let year = prevDate.getFullYear();
         let monthName = prevDate.toLocaleString('ru', {month: 'long'}).toUpperCase().split('').join(' ');
         monthTD.innerHTML = `${monthName}&nbsp;&nbsp;&nbsp;${year}` + (onlyOneSport ? '' : `&nbsp;&nbsp;&nbsp;(ориенты: ${korients}, рогейны: ${krogaines}, прочие: ${kothers})`);
