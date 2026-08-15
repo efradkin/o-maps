@@ -15,7 +15,6 @@ let naStartsMaps = [
         year: 1997,
         url: './maps/starts/na/na_1997_06_13.webp',
         link: './original_maps/starts/na/na_1997_06_13_omaps.jpg',
-        results: './docs/1997/1997_06_12_na_omaps.pdf',
         bounds: [[60.3039523, 29.7362137], [60.2986793, 29.8095989], [60.2630646, 29.7241974]],
         author: ['KUZNTSV_S','KVZN']
     },

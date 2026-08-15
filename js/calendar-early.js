@@ -61,7 +61,8 @@ let eventsEarly = [
         place: 'Шапки',
         name: 'П-во Ленинграда',
         fmt: 'марафон маркир',
-        map: 'shapki_marathon_1969'
+        map: 'shapki_marathon_1969',
+        res: './docs/1969/1969_03_04_shapki_marathon_omaps.pdf'
     },
     {
         id: 'SPB_19690628_1',
@@ -69,7 +70,8 @@ let eventsEarly = [
         endDate: '1969-06-29',
         place: 'Гарболово, оз Сиркоярви',
         name: '10 лет спортивного ориентирования в Ленинграде',
-        map: 'sirkojarvi_1969'
+        map: 'sirkojarvi_1969',
+        res: './docs/1969/1969_06_21_garbolovo_10_years_omaps.pdf'
     },
     {
         id: 'SPB_19700628_1',
@@ -144,7 +146,8 @@ let eventsEarly = [
         place: 'Стеклянный, оз Маролампи',
         name: 'Золотые Кольца (Свадебные)',
         start: 'WEDDING',
-        map: 'marolampi_1977'
+        map: 'marolampi_1977',
+        res: './docs/1977/1977_10_09_wedding_omaps.pdf'
     },
     {
         id: 'SPB_19780121_1',
@@ -153,7 +156,8 @@ let eventsEarly = [
         name: 'XIX Зимний Чемпионат Ленинграда и обл',
         start: 'REPORT',
         fmt: 'маркир',
-        map: 'polyany_1978_01_21_lningrad'
+        map: 'polyany_1978_01_21_lningrad',
+        res: 'https://o-site.spb.ru/history/Localres/w78m.html'
     },
     {
         id: 'SPB_19790804_1',
@@ -191,7 +195,8 @@ let eventsEarly = [
         name: 'Зимнее п-во ЛГС Спартак',
         start: 'REPORT',
         planner: 'SHLKHN_Y',
-        map: 'yukki_1983_03_19'
+        map: 'yukki_1983_03_19',
+        res: './docs/1983/1983_03_19_spartak_omaps.pdf'
     },
     {
         id: 'SPB_19830320_1',
@@ -201,13 +206,15 @@ let eventsEarly = [
         start: 'REPORT',
         fmt: 'маркир',
         planner: 'EGRV_E',
-        map: 'vsevolozhsk_1983_03_20'
+        map: 'vsevolozhsk_1983_03_20',
+        res: './docs/1983/1983_03_20_spartak_omaps.pdf'
     },
     {
         id: 'SPB_19830611_1',
         date: '1983-06-11',
         endDate: '1983-06-12',
         place: 'Сосново, Лемболово',
+        res: './docs/1983/1983_06_11_spartak_omaps.pdf',
         name: 'Летний Чемпионат ЛГС ДСО Спартак',
         info: '<a href="./docs/1983/1983_06_11_spartak_rule_omaps.pdf">Положение, отчёт</a>.',
         start: 'REPORT',
@@ -220,14 +227,17 @@ let eventsEarly = [
         place: 'Песочная',
         name: 'Осеннее п-во ЛГС ДСО Спартак',
         start: 'REPORT',
-        map: 'pesochnaya_1984_09_29_spartak'
+        map: 'pesochnaya_1984_09_29_spartak',
+        res: './docs/1984/1984_09_29_spartak_omaps.pdf'
     },
     {
         id: 'SPB_19860510_1',
         date: '1986-05-10',
         place: 'Песочная',
         name: 'Приз Ленинградского телевидения',
-        map: 'pesochnaya_1986'
+        map: 'pesochnaya_1986',
+        res: './docs/1986/1986_05_10_tv_omaps.pdf',
+        me: 'М-10'
     },
     {
         id: 'SPB_19890507_1',
@@ -256,7 +266,8 @@ let eventsEarly = [
         name: 'Ориентир-9',
         info: '<a href="./docs/1990/1990_06_06_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1990/1990_06_06_yukki/doc_2_omaps.gif">МБ</a>, <a href="./docs/1990/1990_06_06_yukki/doc_3_omaps.gif">МС,Н</a>, <a href="./docs/1990/1990_06_06_yukki/doc_4_omaps.gif">ЖА</a>, <a href="./docs/1990/1990_06_06_yukki/doc_5_omaps.gif">ЖБ,ЖС</a>',
         start: 'ORIENTIR',
-        map: 'orientir_1990_06_06'
+        map: 'orientir_1990_06_06',
+        me: 'МА'
     },
     {
         id: 'SPB_19900610_1',
@@ -280,7 +291,8 @@ let eventsEarly = [
         place: 'Замостье',
         name: 'Белые ночи',
         start: 'WN',
-        map: 'zamostie_1989'
+        map: 'zamostie_1989',
+        res: './docs/1990/1990_06_24_wn_omaps.pdf'
     },
     {
         id: 'SPB_19900627_1',
@@ -360,7 +372,8 @@ let eventsEarly = [
         place: 'Токсово, Зона-Z',
         name: 'Ориентир-29',
         start: 'ORIENTIR',
-        map: 'orientir_1990_11_10'
+        map: 'orientir_1990_11_10',
+        res: './docs/1990/1990_11_10_orientir_29_omaps.pdf'
     },
     {
         id: 'SPB_19901118_1',
@@ -377,7 +390,9 @@ let eventsEarly = [
         place: 'Воейково',
         name: 'Ориентир-1',
         start: 'ORIENTIR',
-        map: 'orientir_1991_04_07'
+        map: 'orientir_1991_04_07',
+        res: './docs/1991/1991_04_07_voeykovo_omaps.pdf',
+        me: 'МА'
     },
     {
         id: 'SPB_19910413_1',
@@ -386,7 +401,8 @@ let eventsEarly = [
         name: 'Ориентир-2',
         start: 'ORIENTIR',
         planner: 'NKLVCH',
-        map: 'orientir_1991_04_13'
+        map: 'orientir_1991_04_13',
+        res: './docs/1991/1991_04_13_orientir_2_omaps.pdf'
     },
     {
         id: 'SPB_19910427_1',
@@ -394,7 +410,9 @@ let eventsEarly = [
         place: 'Юкки',
         name: 'Ориентир-3',
         start: 'ORIENTIR',
-        map: 'orientir_1991_04_27'
+        map: 'orientir_1991_04_27',
+        res: './docs/1991_04_27_yukki_omaps.pdf',
+        me: 'МА'
     },
     {
         id: 'SPB_19910522_1',
@@ -410,7 +428,8 @@ let eventsEarly = [
         place: 'Сертолово',
         name: 'Ориентир-7',
         start: 'ORIENTIR',
-        map: 'orientir_1991_05_29'
+        map: 'orientir_1991_05_29',
+        res: './docs/1991/1991_05_29_orientir_7_omaps.pdf'
     },
     {
         id: 'SPB_19910605_1',
@@ -418,7 +437,8 @@ let eventsEarly = [
         place: 'Орловский л/п',
         name: 'Ориентир-8',
         start: 'ORIENTIR',
-        map: 'orientir_1991_06_08'
+        map: 'orientir_1991_06_08',
+        res: './docs/1991/1991_06_05_orientir_8_omaps.pdf'
     },
     {
         id: 'SPB_19910612_1',
@@ -426,7 +446,9 @@ let eventsEarly = [
         place: 'Токсово',
         name: 'Ориентир-10',
         start: 'ORIENTIR',
-        map: 'orientir_1991_06_12'
+        map: 'orientir_1991_06_12',
+        res: './docs/1991/1991_06_12_toksovo_omaps.pdf',
+        me: 'МА'
     },
     {
         id: 'SPB_19910626_1',
@@ -435,7 +457,8 @@ let eventsEarly = [
         name: 'Ориентир-11',
         start: 'ORIENTIR',
         planner: 'BYMKV',
-        map: 'orientir_1991_06_26'
+        map: 'orientir_1991_06_26',
+        res: './docs/1991/1991_06_26_orientir_11_omaps.pdf'
     },
     {
         id: 'SPB_19910628_1',
@@ -443,7 +466,8 @@ let eventsEarly = [
         place: 'Сосново, юг',
         name: 'Белые ночи',
         start: 'WN',
-        map: 'sosnovo_south_1989'
+        map: 'sosnovo_south_1989',
+        res: './docs/1991/1991_06_28_wn_omaps.pdf'
     },
     {
         id: 'SPB_19910703_1',
@@ -452,7 +476,8 @@ let eventsEarly = [
         name: 'Ориентир-12',
         start: 'ORIENTIR',
         planner: 'BRSV_V',
-        map: 'orientir_1991_07_03'
+        map: 'orientir_1991_07_03',
+        res: './docs/1991/1991_07_03_orientir_12_omaps.pdf'
     },
     {
         id: 'SPB_19910707_1',
@@ -461,7 +486,8 @@ let eventsEarly = [
         name: 'Ориентир-13',
         start: 'ORIENTIR',
         planner: 'BLNV_A',
-        map: 'orientir_1991_07_07'
+        map: 'orientir_1991_07_07',
+        res: './docs/1991/1991_07_07_orientir_13_omaps.pdf'
     },
     {
         id: 'SPB_19910710_1',
@@ -469,13 +495,15 @@ let eventsEarly = [
         place: 'Кавголово',
         name: 'Ориентир-14',
         start: 'ORIENTIR',
-        map: 'orientir_1991_07_10'
+        map: 'orientir_1991_07_10',
+        res: './docs/1991/1991_07_10_orientir_14_omaps.pdf'
     },
     {
         id: 'SPB_19910720_1',
         date: '1991-07-20',
         endDate: '1991-07-21',
         place: 'Кузнечное, оз Суури',
+        res: './docs/1991/1991_07_20_orientir_17_omaps.pdf',
         info: 'Ориентир-17',
         start: 'ORIENTIR',
         map: ['orientir_1991_07_20','orientir_1991_07_21']
@@ -487,7 +515,8 @@ let eventsEarly = [
         name: 'Ориентир-19',
         start: 'ORIENTIR',
         planner: 'DSHKO',
-        map: 'orientir_1991_07_24'
+        map: 'orientir_1991_07_24',
+        res: './docs/1991/1991_07_24_orientir_19_omaps.pdf'
     },
     {
         id: 'SPB_19910828_1',
@@ -495,7 +524,8 @@ let eventsEarly = [
         place: 'Песочная',
         name: 'Ориентир-22',
         start: 'ORIENTIR',
-        map: 'orientir_1991_08_28'
+        map: 'orientir_1991_08_28',
+        res: './docs/1991/1991_08_28_orientir_22_omaps.pdf'
     },
     {
         id: 'SPB_19910904_1',
@@ -503,7 +533,8 @@ let eventsEarly = [
         place: 'Шуваловский парк',
         name: 'Ориентир-23',
         start: 'ORIENTIR',
-        map: 'orientir_1991_09_04'
+        map: 'orientir_1991_09_04',
+        res: './docs/1991/1991_09_04_orientir_23_omaps.pdf'
     },
     {
         id: 'SPB_19910908_1',
@@ -511,7 +542,9 @@ let eventsEarly = [
         place: 'Гарболово',
         name: 'П-во КСО "Невский азимут"',
         planner: 'KRZHNVSKY',
-        map: 'garbolovo_1991'
+        map: 'garbolovo_1991',
+        res: './docs/1991/1991_09_08_club_championship_omaps.pdf',
+        me: 'H-A'
     },
     {
         id: 'SPB_19910911_1',
@@ -520,7 +553,8 @@ let eventsEarly = [
         name: 'Ориентир-24',
         start: 'ORIENTIR',
         planner: 'AMSVA',
-        map: 'orientir_1991_09_11'
+        map: 'orientir_1991_09_11',
+        res: './docs/1991/1991_09_11_orientir_24_omaps.pdf'
     },
     {
         id: 'SPB_19910914_1',
@@ -528,7 +562,8 @@ let eventsEarly = [
         place: 'Васкелово',
         name: 'Соревнования среди спортсменов старшего возраста',
         planner: 'SMNV_M',
-        map: 'kerro_1988'
+        map: 'kerro_1988',
+        res: './docs/1991/1991_09_14_veterans_omaps.pdf'
     },
     {
         id: 'SPB_19910929_1',
@@ -537,14 +572,17 @@ let eventsEarly = [
         name: 'Ориентир-25',
         start: 'ORIENTIR',
         planner: 'FDRV_L',
-        map: 'orientir_1991_09_29'
+        map: 'orientir_1991_09_29',
+        res: './docs/1991/1991_09_29_orientir_25_omaps.pdf'
     },
     {
         id: 'SPB_19911012_1',
         date: '1991-10-12',
         place: 'Лемболово',
         name: 'Ночной СПб',
-        map: 'lembolovo_north_east_1989'
+        map: 'lembolovo_north_east_1989',
+        res: './docs/1991/1991_10_12_night_omaps.pdf',
+        me: 'H-B'
     },
     {
         id: 'SPB_19911108_1',
@@ -553,7 +591,8 @@ let eventsEarly = [
         name: 'Ориентир-27',
         start: 'ORIENTIR',
         planner: 'FSNKO',
-        map: 'orientir_1991_11_08'
+        map: 'orientir_1991_11_08',
+        res: './docs/1991/1991_11_08_orientir_27_omaps.pdf'
     },
     {
         id: 'SPB_19950529_1',
@@ -572,12 +611,14 @@ let eventsEarly = [
         place: 'Токсово',
         name: 'Открытое п-во ГО Молодёжное',
         start: 'REPORT',
-        map: 'toksovo_1995_09_17'
+        map: 'toksovo_1995_09_17',
+        res: './docs/1995/1995_09_17_molodezhnoe_omaps.pdf'
     },
     {
         id: 'SPB_19960629_1',
         date: '1996-06-29',
         place: 'Ягодное',
+        res: './docs/1996/1999_06_29_svyatkina_omaps.pdf',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
         map: ['mms_1996_06_29','mms_1996_06_30']
@@ -588,7 +629,8 @@ let eventsEarly = [
         place: 'Ильичёво, оз Долгое',
         name: 'Невский азимут',
         start: 'NA',
-        map: 'na_1997_06_13'
+        map: 'na_1997_06_13',
+        res: './docs/1997/1997_06_12_na_omaps.pdf'
     },
     {
         id: 'SPB_19970620_1',
@@ -596,7 +638,8 @@ let eventsEarly = [
         place: 'Ягодное',
         name: 'Белые ночи',
         start: 'WN',
-        map: 'petjajarvy_1997'
+        map: 'petjajarvy_1997',
+        res: './docs/1997/1997_06_20_wn_omaps.pdf'
     },
     {
         id: 'SPB_19970628_1',
@@ -614,7 +657,8 @@ let eventsEarly = [
         place: 'Озерки',
         name: 'Надежды Европы',
         start: 'EUROPEAN_HOPE',
-        map: 'ozerki_1997'
+        map: 'ozerki_1997',
+        res: './docs/1997/1997_10_04_european_hope_omaps.pdf'
     },
     {
         id: 'SPB_19980619_1',
@@ -622,7 +666,8 @@ let eventsEarly = [
         place: 'Кривко, оз Уловное',
         name: 'Белые ночи',
         start: 'WN',
-        map: 'sosnovo_ulovnoe_1998'
+        map: 'sosnovo_ulovnoe_1998',
+        res: './docs/1998/1998_06_19_wn_omaps.pdf'
     },
     {
         id: 'SPB_19990220_1',
@@ -679,6 +724,7 @@ let eventsEarly = [
         date: '2001-06-18',
         endDate: '2001-06-19',
         place: 'Ягодное',
+        res: './docs/2001/2001_06_18_ym_omaps.pdf',
         name: 'Яркий мир',
         start: 'YM',
         map: ['ym_2001_06_18','ym_2001_06_19']
@@ -697,6 +743,7 @@ let eventsEarly = [
         date: '2001-06-28',
         endDate: '2001-06-30',
         place: 'Пески, оз Пулконлампи',
+        res: './docs/2001/2001_06_28_svyatkina_omaps.pdf',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
         map: ['peski_pulkonlampi_2001','peski_zabytoe_2001','peski_stayka_2001']

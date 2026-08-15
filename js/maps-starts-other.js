@@ -19,8 +19,6 @@ let otherStartsMaps = [
         year: 1978,
         url: './maps/starts/other/polyany_1978_01_21_lningrad.webp',
         link: ['./original_maps/starts/other/polyany_1978_01_21_lningrad_M_omaps.webp','./original_maps/starts/other/polyany_1978_01_21_lningrad_W_omaps.webp'],
-        info: 'XIX Зимний Чемпионат Ленинграда и области. Маркированная трасса.',
-        results: 'https://o-site.spb.ru/history/Localres/w78m.html',
         bounds: [[60.3371014, 29.2561626], [60.3366341, 29.3059444], [60.3056531, 29.2437172]],
     },
     {
@@ -50,8 +48,6 @@ let otherStartsMaps = [
         start: 'REPORT',
         url: './maps/starts/other/yukki_1983_03_19.webp',
         link: './original_maps/starts/other/yukki_1983_03_19_omaps.jpg',
-        info: 'Зимнее п-во ЛГС Спартак.',
-        results: './docs/1983/1983_03_19_spartak_omaps.pdf',
         bounds: [[60.1338976, 30.2656174], [60.1304995, 30.3167295], [60.1112582, 30.2601242]],
     },
     {
@@ -61,8 +57,6 @@ let otherStartsMaps = [
         start: 'REPORT',
         url: './maps/starts/other/vsevolozhsk_1983_03_20.webp',
         link: './original_maps/starts/other/vsevolozhsk_1983_03_20_omaps.jpg',
-        info: 'Зимнее п-во ЛГС Спартак, маркир.',
-        results: './docs/1983/1983_03_20_spartak_omaps.pdf',
         bounds: [[60.0592719, 30.6214714], [60.0577726, 30.6770897], [60.034502, 30.6187248]],
         author: 'VSLVSKY',
         editor: 'CHGRVSKY_V',
@@ -74,8 +68,6 @@ let otherStartsMaps = [
         start: 'REPORT',
         url: './maps/starts/other/sosnovo_1983_06_11.webp',
         link: './original_maps/starts/other/sosnovo_1983_06_11_omaps.webp',
-        info: '<a href="./docs/1983/1983_06_11_spartak_rule_omaps.pdf">Летний Чемпионат ЛГС ДСО Спартак</a>.',
-        results: './docs/1983/1983_06_11_spartak_omaps.pdf',
         bounds: [[60.5468141, 30.1887131], [60.5430999, 30.250082], [60.5157793, 30.1820183]],
         author: ['LVCHV','SVTKN'],
     },
@@ -98,8 +90,6 @@ let otherStartsMaps = [
         year: 1984,
         url: './maps/starts/other/pesochnaya_1984_09_29_spartak.webp',
         link: ['./original_maps/starts/other/pesochnaya_1984_09_29_spartak_M_omaps.jpg','./original_maps/starts/other/pesochnaya_1984_09_29_spartak_W_omaps.jpg'],
-        info: 'Осеннее п-во ЛГС ДСО Спартак.',
-        results: './docs/1984/1984_09_29_spartak_omaps.pdf',
         bounds: [[60.1216499, 30.1230955], [60.1172884, 30.1751089], [60.1065103, 30.1180744]],
         author: 'VSLVSKY',
         editor: 'CHGRVSKY_V'
@@ -135,8 +125,6 @@ let otherStartsMaps = [
         year: 1995,
         url: './maps/starts/other/toksovo_1995_09_17.webp',
         link: ['./original_maps/starts/other/toksovo_1995_09_17_h10_omaps.webp','./original_maps/starts/other/toksovo_1995_09_17_h17_omaps.webp'],
-        info: 'Открытое п-во ГО Молодёжное.',
-        results: './docs/1995/1995_09_17_molodezhnoe_omaps.pdf',
         bounds: [[60.1630558, 30.4728127], [60.1603867, 30.5126381], [60.1468671, 30.4689074]],
         author: 'CHGRVSKY_Y'
     },
@@ -220,7 +208,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/gavrilovo_ba_2007.webp',
         link: ['./original_maps/rogaine/beketov/gavrilovo_ba_2007_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2007-2/maplite_1.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2007-2/maplite_2.jpg'],
         bounds: [[60.665947, 28.5524368], [60.665022, 29.1202927], [60.5001873, 28.5539818]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -232,7 +219,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/losinaya_gora_ba_2008.webp',
         link: ['./original_maps/rogaine/beketov/losinaya_gora_ba_2008_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2008-1/bikeadventure08map.rar'],
         bounds: [[60.5799694, 30.2438164], [60.5792948, 30.8109856], [60.3378235, 30.2433014]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -244,7 +230,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/kanneliarvi_ba_2008.webp',
         link: ['./original_maps/rogaine/beketov/kanneliarvi_ba_2008_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2008-2/bal08_a3.jpg'],
         bounds: [[60.3773026, 29.1347122], [60.3772177, 29.3955517], [60.2875778, 29.1359138]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2008-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -256,7 +241,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/vesnino_ba_2009.webp',
         link: ['./original_maps/rogaine/beketov/vesnino_ba_2009_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2009-1/sm.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2009-1/big_s.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2009-1/big_n.jpg'],
         bounds: [[61.1124009, 29.5001793], [61.1109082, 30.1324081], [60.8125297, 29.4981194]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -268,7 +252,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/yappilya_ba_2009.webp',
         link: ['./original_maps/rogaine/beketov/yappilya_ba_2009_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2009-2/map_bal_09.gif'],
         bounds: [[60.3476765, 28.9750671], [60.34326, 29.2250061], [60.169354, 28.9640808]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2009-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -280,7 +263,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/razdolie_ba_2010.webp',
         link: ['./original_maps/rogaine/beketov/razdolie_ba_2010_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2010-1/map-1.gif','https://www.bikeadventure.ru/upload/files/arhiv-2010-1/map-2.gif'],
         bounds: [[60.6328799, 29.8320007], [60.6326274, 30.2472496], [60.3736538, 29.833374]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -292,7 +274,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/gruzino_ba_2010.webp',
         link: ['./original_maps/rogaine/beketov/gruzino_ba_2010_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2010-2/bal_10.jpg'],
         bounds: [[60.4184288, 30.246048], [60.4680501, 30.4060364], [60.3084166, 30.3885269]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2010-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -304,7 +285,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/otradnoe_ba_2011.webp',
         link: ['./original_maps/rogaine/beketov/otradnoe_ba_2011_big_omaps.webp','./original_maps/rogaine/beketov/otradnoe_ba_2011_small_omaps.gif','https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_1.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_2.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2011-1/ba11_map_3.gif'],
         bounds: [[60.9531104, 30.0455475], [60.9537771, 30.5550385], [60.6076993, 30.0465775]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -316,7 +296,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/roschino_ba_2011.webp',
         link: ['./original_maps/rogaine/beketov/roschino_ba_2011_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2011-2/map_bal11_1.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2011-2/map_bal11_2.jpg'],
         bounds: [[60.3214235, 29.3278313], [60.3201911, 29.773035], [60.157632, 29.3277025]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2011-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -330,7 +309,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/kamenka_ba_2012.webp',
         link: ['./original_maps/rogaine/beketov/kamenka_ba_2012_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2012-1/map_ba12.jpg'],
         bounds: [[60.6375097, 28.7024689], [60.6408764, 29.2847443], [60.2483308, 28.7052155]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -342,7 +320,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/sapernoe_ba_2012.webp',
         link: ['./original_maps/rogaine/beketov/sapernoe_ba_2012_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2012-2/bal12.png'],
         bounds: [[60.8597931, 29.7746658], [60.8545265, 30.0524139], [60.6714129, 29.7604179]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2012-2.php',
         author: ['RYZHOV','BKTV'],
         owner: 'BKTV',
         start: 'BA',
@@ -355,7 +332,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/kirpichnoe_ba_2013.webp',
         link: ['./original_maps/rogaine/beketov/kirpichnoe_ba_2013_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2013-1/map_1_ba13.tif','https://www.bikeadventure.ru/upload/files/arhiv-2013-1/map_2_ba13.tif','https://www.bikeadventure.ru/upload/files/arhiv-2013-1/map_3_ba13.tif'],
         bounds: [[60.7041045, 29.1134262], [60.6943593, 29.6340752], [60.4048671, 29.0921402]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2013-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -367,7 +343,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/mullupelto_ba_2013.webp',
         link: ['./original_maps/rogaine/beketov/mullupelto_ba_2013_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2013-2/bal13.jpg'],
         bounds: [[60.9737735, 30.1461411], [60.9782709, 30.4465485], [60.8385541, 30.1564407]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2013-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -379,7 +354,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/otradnoe_ba_2015.webp',
         link: ['./original_maps/rogaine/beketov/otradnoe_ba_2015_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_1.png','https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_2.png','https://www.bikeadventure.ru/upload/files/arhiv-2015-1/ba2015_3.png'],
         bounds: [[61.0407527, 29.9933624], [61.0498111, 30.4640579], [60.7105296, 30.0217724]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2015-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -391,7 +365,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/krasna_gorka_ba_2015.webp',
         link: ['./original_maps/rogaine/beketov/krasna_gorka_ba_2015_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2015-2/bal-2015.png'],
         bounds: [[59.9975269, 29.0936852], [59.9928055, 29.347744], [59.9169137, 29.0883636]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2015-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -403,7 +376,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/yagodnoe_ba_2016.webp',
         link: ['./original_maps/rogaine/beketov/yagodnoe_ba_2016_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2016-2/bal2016.png'],
         bounds: [[60.6661993, 29.7506332], [60.6689744, 30.1329231], [60.551203, 29.7549248]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2016-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -415,7 +387,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/petrovskoe_ba_2019.webp',
         link: ['./original_maps/rogaine/beketov/petrovskoe_ba_2019_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2019-2/BAL19.png'],
         bounds: [[60.6795679, 30.038681], [60.6864602, 30.3583145], [60.5719579, 30.0441742]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2019-2.php',
         owner: 'BKTV',
         start: ['BA','TA'],
         type: ['ROGAINE']
@@ -427,7 +398,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/yappilya_ba_2020.webp',
         link: ['./original_maps/rogaine/beketov/yappilya_ba_2020_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2020-2/bal20.jpg'],
         bounds: [[60.2861314, 29.0318012], [60.2834936, 29.206295], [60.1838245, 29.0254498]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2020-2.php',
         owner: 'BKTV',
         start: ['BA','TA'],
         type: ['ROGAINE']
@@ -452,7 +422,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/orekhovo_ba_2022.webp',
         link: ['./original_maps/rogaine/beketov/orekhovo_ba_2022_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2022-2/bal22.jpg'],
         bounds: [[60.5663064, 30.2656174], [60.5696806, 30.4676628], [60.4319001, 30.2771187]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -464,7 +433,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/pervomayskoe_ba_2023.webp',
         link: ['./original_maps/rogaine/beketov/pervomayskoe_ba_2023_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2023-2/bal_23.jpg'],
         bounds: [[60.4616189, 29.600172], [60.4572601, 29.8216152], [60.3675434, 29.5920181]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2023-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -924,7 +892,6 @@ let otherStartsMaps = [
     {
         name: 'Гаврилово',
         year: 2026,
-        results: 'https://vk.com/wall-29327859_5942',
         url: './maps/rogaine/beketov/gavrilovo_vmb_2026_05_23.webp',
         link: ['./original_maps/rogaine/beketov/gavrilovo_vmb_2026_05_23_omaps.webp','https://kandid.ru/maps26/vmb26.pdf'],
         bounds: [[60.6351528, 28.8665771], [60.629765, 29.1786575], [60.455271, 28.8557625]],

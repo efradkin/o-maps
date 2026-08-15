@@ -715,7 +715,6 @@ let forestMaps = [
         year: 1997,
         url: './maps/forest/ozerki_1997.webp',
         link: ['./original_maps/forest/ozerki_1997_omaps.jpg','./original_maps/forest/ozerki_1997_european_hope_omaps.webp'],
-        results: './docs/1997/1997_10_04_european_hope_omaps.pdf',
         bounds: [[60.2580831, 29.0149784], [60.2558263, 29.0604687], [60.2326529, 29.0105152]],
         author: ['VLKV_K','EGRV_A','URVNTSV'],
         start: 'EUROPEAN_HOPE'

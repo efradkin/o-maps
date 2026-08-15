@@ -3,19 +3,16 @@ let orientirStartsMaps = [
     {
         name: 'Юкки',
         year: 1990,
-        info: 'Ориентир-9. <a href="./docs/1990/1990_06_06_yukki/doc_1_omaps.gif">МА</a>, <a href="./docs/1990/1990_06_06_yukki/doc_2_omaps.gif">МБ</a>, <a href="./docs/1990/1990_06_06_yukki/doc_3_omaps.gif">МС,Н</a>, <a href="./docs/1990/1990_06_06_yukki/doc_4_omaps.gif">ЖА</a>, <a href="./docs/1990/1990_06_06_yukki/doc_5_omaps.gif">ЖБ,ЖС</a>',
         url: './maps/starts/orientir/orientir_1990_06_06.webp',
         link: './original_maps/starts/orientir/orientir_1990_06_06_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.1312903, 30.2875042], [60.1291957, 30.3319645], [60.1102103, 30.2826118]],
         docs: ['1990_06_06_yukki', 5, 'gif'],
         author: 'SHLKHN_Y',
-        me: 'МА'
     },
     {
         name: 'Юкки',
         year: 1990,
-        info: 'Ориентир-10',
         url: './maps/starts/orientir/orientir_1990_06_10.webp',
         link: './original_maps/starts/orientir/orientir_1990_06_10_omaps.jpg',
         start: 'ORIENTIR',
@@ -25,7 +22,6 @@ let orientirStartsMaps = [
     {
         name: 'Лемболово',
         year: 1990,
-        info: 'Ориентир-11',
         url: './maps/starts/orientir/orientir_1990_06_20.webp',
         link: './original_maps/starts/orientir/orientir_1990_06_20_omaps.jpg',
         start: 'ORIENTIR',
@@ -35,7 +31,6 @@ let orientirStartsMaps = [
     {
         name: 'Токсово, Изумрудное оз',
         year: 1990,
-        info: 'Ориентир-12',
         url: './maps/starts/orientir/orientir_1990_06_27.webp',
         link: './original_maps/starts/orientir/orientir_1990_06_27_omaps.jpg',
         start: 'ORIENTIR',
@@ -45,7 +40,6 @@ let orientirStartsMaps = [
     {
         name: 'Кавголово',
         year: 1990,
-        info: 'Ориентир-15',
         url: './maps/starts/orientir/orientir_1990_07_11.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_11_omaps.jpg',
         start: 'ORIENTIR',
@@ -55,7 +49,6 @@ let orientirStartsMaps = [
     {
         name: 'Кавголово',
         year: 1990,
-        info: 'Ориентир-14',
         url: './maps/starts/orientir/orientir_1990_07_04.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_04_omaps.jpg',
         start: 'ORIENTIR',
@@ -65,7 +58,6 @@ let orientirStartsMaps = [
     {
         name: 'Петяярви',
         year: 1990,
-        info: 'Ориентир-16',
         url: './maps/starts/orientir/orientir_1990_07_14.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_14_omaps.jpg',
         start: 'ORIENTIR',
@@ -75,7 +67,6 @@ let orientirStartsMaps = [
     {
         name: 'Петяярви',
         year: 1990,
-        info: 'Ориентир-17',
         url: './maps/starts/orientir/orientir_1990_07_15.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_15_omaps.jpg',
         start: 'ORIENTIR',
@@ -85,7 +76,6 @@ let orientirStartsMaps = [
     {
         name: 'Яппиля',
         year: 1990,
-        info: 'Ориентир-20',
         url: './maps/starts/orientir/orientir_1990_07_22.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_22_omaps.jpg',
         start: 'ORIENTIR',
@@ -95,7 +85,6 @@ let orientirStartsMaps = [
     {
         name: 'Яппиля',
         year: 1990,
-        info: 'Ориентир-19',
         url: './maps/starts/orientir/orientir_1990_07_21.webp',
         link: './original_maps/starts/orientir/orientir_1990_07_21_omaps.jpg',
         start: 'ORIENTIR',
@@ -105,8 +94,6 @@ let orientirStartsMaps = [
     {
         name: 'Токсово, Зона-Z',
         year: 1990,
-        info: 'Ориентир-29.',
-        results: './docs/1990/1990_11_10_orientir_29_omaps.pdf',
         url: './maps/starts/orientir/orientir_1990_11_10.webp',
         link: './original_maps/starts/orientir/orientir_1990_11_10_omaps.jpg',
         start: 'ORIENTIR',
@@ -116,7 +103,6 @@ let orientirStartsMaps = [
     {
         name: 'Токсово, оз Кривое',
         year: 1990,
-        info: 'Ориентир-30',
         url: './maps/starts/orientir/orientir_1990_11_18.webp',
         link: './original_maps/starts/orientir/orientir_1990_11_18_omaps.jpg',
         start: 'ORIENTIR',
@@ -126,20 +112,15 @@ let orientirStartsMaps = [
     {
         name: 'Воейково',
         year: 1991,
-        info: 'Ориентир-1.',
-        results: './docs/1991/1991_04_07_voeykovo_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_04_07.webp',
         link: './original_maps/starts/orientir/orientir_1991_04_07_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[59.9560416, 30.6588936], [59.9507986, 30.7321072], [59.9256462, 30.6508255]],
         author: 'VSLVSKY',
-        me: 'МА'
     },
     {
         name: 'Колтуши',
         year: 1991,
-        info: 'Ориентир-2.',
-        results: './docs/1991/1991_04_13_orientir_2_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_04_13.webp',
         link: './original_maps/starts/orientir/orientir_1991_04_13_omaps.jpg',
         start: 'ORIENTIR',
@@ -149,19 +130,15 @@ let orientirStartsMaps = [
     {
         name: 'Юкки',
         year: 1991,
-        info: 'Ориентир-3.',
-        results: './docs/1991_04_27_yukki_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_04_27.webp',
         link: './original_maps/starts/orientir/orientir_1991_04_27_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.117716, 30.2768183], [60.1141665, 30.3457403], [60.102489, 30.2740288]],
         author: ['SHLKHN_Y','BZNV_A'],
-        me: 'МА'
     },
     {
         name: 'Комарово',
         year: 1991,
-        info: 'Ориентир-6',
         url: './maps/starts/orientir/orientir_1991_05_22.webp',
         link: './original_maps/starts/orientir/orientir_1991_05_22_omaps.jpg',
         start: 'ORIENTIR',
@@ -171,8 +148,6 @@ let orientirStartsMaps = [
     {
         name: 'Сертолово',
         year: 1991,
-        info: 'Ориентир-7.',
-        results: './docs/1991/1991_05_29_orientir_7_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_05_29.webp',
         link: './original_maps/starts/orientir/orientir_1991_05_29_omaps.jpg',
         start: 'ORIENTIR',
@@ -182,8 +157,6 @@ let orientirStartsMaps = [
     {
         name: 'Орловский л/п',
         year: 1991,
-        info: 'Ориентир-8.',
-        results: './docs/1991/1991_06_05_orientir_8_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_06_08.webp',
         link: './original_maps/starts/orientir/orientir_1991_06_05_omaps.jpg',
         start: 'ORIENTIR',
@@ -193,20 +166,15 @@ let orientirStartsMaps = [
     {
         name: 'Токсово',
         year: 1991,
-        info: 'Ориентир-10.',
-        results: './docs/1991/1991_06_12_toksovo_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_06_12.webp',
         link: './original_maps/starts/orientir/orientir_1991_06_12_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.1524849, 30.3907585], [60.1483838, 30.4623413], [60.1262033, 30.3838062]],
         author: ['CHGRVSKY_V','CHGRVSKY_Y','AZBKNA'],
-        me: 'МА'
     },
     {
         name: 'Лемболово',
         year: 1991,
-        info: 'Ориентир-11.',
-        results: './docs/1991/1991_06_26_orientir_11_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_06_26.webp',
         link: './original_maps/starts/orientir/orientir_1991_06_26_omaps.jpg',
         start: 'ORIENTIR',
@@ -216,8 +184,6 @@ let orientirStartsMaps = [
     {
         name: 'Токсово, Изумрудное оз',
         year: 1991,
-        info: 'Ориентир-12.',
-        results: './docs/1991/1991_07_03_orientir_12_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_07_03.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_03_omaps.jpg',
         start: 'ORIENTIR',
@@ -227,8 +193,6 @@ let orientirStartsMaps = [
     {
         name: 'Васкелово',
         year: 1991,
-        info: 'Ориентир-13.',
-        results: './docs/1991/1991_07_07_orientir_13_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_07_07.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_07_omaps.jpg',
         start: 'ORIENTIR',
@@ -238,8 +202,6 @@ let orientirStartsMaps = [
     {
         name: 'Кавголово',
         year: 1991,
-        info: 'Ориентир-14.',
-        results: './docs/1991/1991_07_10_orientir_14_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_07_10.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_10_omaps.jpg',
         start: 'ORIENTIR',
@@ -249,8 +211,6 @@ let orientirStartsMaps = [
     {
         name: 'Кузнечное, оз Суури',
         date: '1991-07-20',
-        info: 'Ориентир-17.',
-        results: './docs/1991/1991_07_20_orientir_17_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_07_20.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_20_omaps.jpg',
         start: 'ORIENTIR',
@@ -260,7 +220,6 @@ let orientirStartsMaps = [
     {
         name: 'Кузнечное, оз Суури',
         date: '1991-07-21',
-        info: 'Ориентир-17.',
         url: './maps/starts/orientir/orientir_1991_07_21.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_21_omaps.jpg',
         start: 'ORIENTIR',
@@ -270,8 +229,6 @@ let orientirStartsMaps = [
     {
         name: 'Невский л/п',
         year: 1991,
-        info: 'Ориентир-19.',
-        results: './docs/1991/1991_07_24_orientir_19_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_07_24.webp',
         link: './original_maps/starts/orientir/orientir_1991_07_24_omaps.jpg',
         start: 'ORIENTIR',
@@ -281,8 +238,6 @@ let orientirStartsMaps = [
     {
         name: 'Песочная',
         year: 1991,
-        info: 'Ориентир-22.',
-        results: './docs/1991/1991_08_28_orientir_22_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_08_28.webp',
         link: './original_maps/starts/orientir/orientir_1991_08_28_omaps.jpg',
         start: 'ORIENTIR',
@@ -292,8 +247,6 @@ let orientirStartsMaps = [
     {
         name: 'Шуваловский парк',
         year: 1991,
-        info: 'Ориентир-23.',
-        results: './docs/1991/1991_09_04_orientir_23_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_09_04.webp',
         link: './original_maps/starts/orientir/orientir_1991_09_04_omaps.jpg',
         start: 'ORIENTIR',
@@ -303,8 +256,6 @@ let orientirStartsMaps = [
     {
         name: 'Сосновка',
         year: 1991,
-        info: 'Ориентир-24.',
-        results: './docs/1991/1991_09_11_orientir_24_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_09_11.webp',
         link: './original_maps/starts/orientir/orientir_1991_09_11_omaps.jpg',
         start: 'ORIENTIR',
@@ -313,8 +264,6 @@ let orientirStartsMaps = [
     {
         name: 'Орехово',
         year: 1991,
-        info: 'Ориентир-25.',
-        results: './docs/1991/1991_09_29_orientir_25_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_09_29.webp',
         link: './original_maps/starts/orientir/orientir_1991_09_29_omaps.jpg',
         start: 'ORIENTIR',
@@ -324,8 +273,6 @@ let orientirStartsMaps = [
     {
         name: 'Лемболово',
         year: 1991,
-        info: 'Ориентир-27.',
-        results: './docs/1991/1991_11_08_orientir_27_omaps.pdf',
         url: './maps/starts/orientir/orientir_1991_11_08.webp',
         link: './original_maps/starts/orientir/orientir_1991_11_08_omaps.jpg',
         start: 'ORIENTIR',

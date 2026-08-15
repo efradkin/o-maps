@@ -88,12 +88,9 @@ let vaskelovoMaps = [
         year: 1989,
         url: './maps/forest/vaskelovo/lembolovo_north_east_1989.webp',
         link: ['./original_maps/forest/vaskelovo/lembolovo_north_east_1989_omaps.webp','./original_maps/forest/vaskelovo/lembolovo_night_spb_1991_omaps.jpg'],
-        info: 'Ночной СПб.',
-        results: './docs/1991/1991_10_12_night_omaps.pdf',
         bounds: [[60.4470169, 30.3050995], [60.4412166, 30.3794289], [60.4207591, 30.2967739]],
         author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
         areas: [62,20,10,5,1,1,1],
-        me: 'H-B'
     },
     {
         name: 'Лемболово',
@@ -280,11 +277,8 @@ let vaskelovoMaps = [
         logo: 'azimut.gif',
         url: './maps/forest/vaskelovo/garbolovo_1991.webp',
         link: ['./original_maps/forest/vaskelovo/garbolovo_1991_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_na_champ_1991_omaps.jpg'],
-        info: 'П-во КСО "Невский азимут".',
-        results: './docs/1991/1991_09_08_club_championship_omaps.pdf',
         bounds: [[60.3644028, 30.5025959], [60.3619836, 30.5566692], [60.3371863, 30.4973602]],
         author: 'VSLVSKY',
-        me: 'H-A'
     },
     {
         name: 'Гарболово',
@@ -401,7 +395,6 @@ let vaskelovoMaps = [
         start: 'WEDDING',
         url: './maps/forest/vaskelovo/marolampi_1977.webp',
         link: './original_maps/forest/vaskelovo/marolampi_1977_omaps.jpg',
-        results: './docs/1977/1977_10_09_wedding_omaps.pdf',
         bounds: [[60.3792541, 30.2523994], [60.3696864, 30.2851868], [60.3649121, 30.2361345]],
     },
     {
@@ -409,8 +402,6 @@ let vaskelovoMaps = [
         year: 1988,
         url: './maps/forest/vaskelovo/kerro_1988.webp',
         link: ['./original_maps/forest/vaskelovo/kerro_1988_omaps.jpg','./original_maps/forest/vaskelovo/vaskelovo_masters_1991_omaps.jpg'],
-        info: 'Соревнования среди спортсменов старшего возраста.',
-        results: './docs/1991/1991_09_14_veterans_omaps.pdf',
         bounds: [[60.3490778, 30.2164793], [60.3447252, 30.2857018], [60.3176197, 30.2086258]],
         author: 'BYMKV',
     },

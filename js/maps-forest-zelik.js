@@ -164,14 +164,11 @@ let zelikMaps = [
     {
         name: 'Песочная',
         year: 1986,
-        info: 'Приз Ленинградского телевидения.',
-        results: './docs/1986/1986_05_10_tv_omaps.pdf',
         url: './maps/forest/zelik/pesochnaya_1986.webp',
         link: './original_maps/forest/zelik/pesochnaya_1986_omaps.jpg',
         bounds: [[60.1221844, 30.1107788], [60.117438, 30.1748085], [60.1069167, 30.106144]],
         author: 'VSLVSKY',
         owner: 'KSLV_VN',
-        me: 'М-10',
         qtty: 10
     },
     {
@@ -587,12 +584,9 @@ let zelikMaps = [
         url: './maps/forest/zelik/bolotnaya_station_2025.webp',
         link: './original_maps/forest/zelik/bolotnaya_station_2025_omaps.gif',
         bounds: [[60.2637671, 29.7961235], [60.2590412, 29.8467207], [60.2466058, 29.7899008]],
-        info: 'Невский спринт.',
-        o_gps: 23575,
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB',
         restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
-        me: 'Фит'
     },
     {
         name: 'Болотная станция',

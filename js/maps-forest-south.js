@@ -445,11 +445,9 @@ let southMaps = [
     {
         name: 'Шапки',
         year: 1969,
-        info: 'П-во Ленинграда, марафон маркир.',
         url: './maps/forest/south/shapki_marathon_1969.webp',
         link: ['./original_maps/forest/south/shapki_marathon_1969_M1_omaps.webp','./original_maps/forest/south/shapki_marathon_1969_M2_omaps.webp','./original_maps/forest/south/shapki_marathon_1969_W_omaps.webp'],
         bounds: [[59.6282728, 31.2056351], [59.6273181, 31.2579918], [59.5809371, 31.1899281]],
-        results: './docs/1969/1969_03_04_shapki_marathon_omaps.pdf'
     },
     {
         name: 'Шапки',

@@ -24,7 +24,6 @@ let ymStartsMaps = [
         start: 'YM',
         url: './maps/starts/ym/ym_2001_06_18.webp',
         link: './original_maps/starts/ym/ym_2001_06_18_omaps.jpg',
-        results: './docs/2001/2001_06_18_ym_omaps.pdf',
         bounds: [[60.6353001, 30.0320721], [60.6323748, 30.0870037], [60.6171549, 30.0253773]],
         author: ['LVCHV','SVTKN','ILVS','BNDRNK']
     },
@@ -34,7 +33,6 @@ let ymStartsMaps = [
         start: 'YM',
         url: './maps/starts/ym/ym_2001_06_19.webp',
         link: './original_maps/starts/ym/ym_2001_06_19_omaps.jpg',
-        results: './docs/2001/2001_06_18_ym_omaps.pdf',
         bounds: [[60.6324169, 30.0175667], [60.6297019, 30.0730562], [60.615723, 30.0126314]],
         author: ['LVCHV','SVTKN','ILVS','BNDRNK']
     },
