@@ -2195,6 +2195,7 @@ let events2026 = [
         place: 'Сосновый бор',
         type: 'ORIENT',
         fmt: 'классика, ночной спринт, классика',
+        video: 'https://vk.com/video-147403700_456239308',
         owner: 'DLITELNY',
         map: 'sosnovij_bor_2021'
     },
@@ -2368,7 +2369,7 @@ let events2026 = [
         date: '2026-09-26',
         place: 'Луга, оз Малые Толони',
         name: 'Лужский приключенческий рогейн',
-        link: 'https://vk.com/event166397868',
+        link: 'https://vk.ru/wall-166397868_5535',
         reg: 'https://orgeo.ru/event/48939',
         info: '<a href="https://vk.ru/wall-166397868_5419">Перенос</a> с 25 июля.<br />"Трое из Простоквашино".',
         type: 'ROGAINE',

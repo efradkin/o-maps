@@ -614,7 +614,8 @@ let commonEvents2026 = [
         type: 'ROGAINE',
         planner: 'RYLOV_V',
         start: ['MULTSPORT','RUSSIA_ROGAINE_CHAMP'],
-        map: 'kalinino_2015'
+        map: 'kalinino_2015',
+        coord: [60.818448, 28.610489]
     },
     {
         id: 'MAJOR_20260825_1',
