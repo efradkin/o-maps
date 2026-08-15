@@ -3,7 +3,7 @@ let vsevolozhskMaps = [
     // --- ВСЕВОЛОЖСК ---
     {
         name: 'Воейково',
-        date: '1977-02-26',
+        year: 1977,
         logo: 'sparta_1977.jpg',
         info: 'VII Зимняя спартакиада.',
         url: './maps/forest/vsevolozhsk/voeykovo_1977.webp',

@@ -11,7 +11,7 @@ let wnStartsMaps = [
     },
     {
         name: 'Сосново, Снегирёвка',
-        date: '1989-06-23',
+        year: 1989,
         start: 'WN',
         url: './maps/starts/wn/wn_1989_06_23.webp',
         link: './original_maps/starts/wn/wn_1989_06_23_omaps.jpg',

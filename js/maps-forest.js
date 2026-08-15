@@ -3,7 +3,7 @@ let forestMaps = [
     // --- лесные карты ---
     {
         name: 'Уткино',
-        date: '1975-01-26',
+        year: 1975,
         info: 'Первенство Ленинграда, маркир.',
         url: './maps/forest/utkino_1975.webp',
         link: ['./original_maps/forest/utkino_1975_omaps.jpg','./original_maps/forest/utkino_cup_1975_omaps.jpg'],
@@ -207,7 +207,7 @@ let forestMaps = [
     },
     {
         name: 'Юкки',
-        date: '1966-03-11',
+        year: 1966,
         start: 'MEET_1966',
         url: './maps/forest/yukki_1966.webp',
         link: ['./original_maps/forest/meet_1966_title.jpg','./original_maps/forest/meet_1966_agenda.jpg','./original_maps/forest/yukki_1966_omaps.jpg'],
@@ -363,7 +363,7 @@ let forestMaps = [
     },
     {
         name: 'Вартемяги',
-        date: '1970-06-28',
+        year: 1970,
         url: './maps/forest/vartemjagi_1970_06_28.webp',
         link: ['./original_maps/forest/vartemjagi_1970_06_28_M_omaps.webp','./original_maps/forest/vartemjagi_1970_06_28_W_omaps.webp'],
         bounds: [[60.1913988, 30.260253], [60.1880492, 30.319047], [60.1647425, 30.2533436]],
@@ -712,7 +712,7 @@ let forestMaps = [
     },
     {
         name: 'Озерки',
-        date: '1997-10-06',
+        year: 1997,
         url: './maps/forest/ozerki_1997.webp',
         link: ['./original_maps/forest/ozerki_1997_omaps.jpg','./original_maps/forest/ozerki_1997_european_hope_omaps.webp'],
         results: './docs/1997/1997_10_04_european_hope_omaps.pdf',

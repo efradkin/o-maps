@@ -3,7 +3,7 @@ let gsStartsMaps = [
     {
         name: 'Лемболово',
         start: 'GS',
-        date: '1990-08-26',
+        year: 1990,
         url: './maps/starts/gs/gs_1990.webp',
         link: './original_maps/starts/gs/gs_1990_omaps.jpg',
         bounds: [[60.4468475, 30.3045416], [60.4419576, 30.3795576], [60.42006, 30.2978897]],

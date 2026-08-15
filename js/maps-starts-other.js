@@ -16,7 +16,7 @@ let otherStartsMaps = [
         name: 'Поляны',
         page: 'starts',
         start: 'REPORT',
-        date: '1978-01-21',
+        year: 1978,
         url: './maps/starts/other/polyany_1978_01_21_lningrad.webp',
         link: ['./original_maps/starts/other/polyany_1978_01_21_lningrad_M_omaps.webp','./original_maps/starts/other/polyany_1978_01_21_lningrad_W_omaps.webp'],
         info: 'XIX Зимний Чемпионат Ленинграда и области. Маркированная трасса.',
@@ -46,19 +46,18 @@ let otherStartsMaps = [
     {
         name: 'Юкки',
         page: 'starts',
-        date: '1983-03-19',
+        year: 1983,
         start: 'REPORT',
         url: './maps/starts/other/yukki_1983_03_19.webp',
         link: './original_maps/starts/other/yukki_1983_03_19_omaps.jpg',
         info: 'Зимнее п-во ЛГС Спартак.',
         results: './docs/1983/1983_03_19_spartak_omaps.pdf',
         bounds: [[60.1338976, 30.2656174], [60.1304995, 30.3167295], [60.1112582, 30.2601242]],
-        planner: 'SHLKHN_Y'
     },
     {
         name: 'Всеволожск',
         page: 'starts',
-        date: '1983-03-20',
+        year: 1983,
         start: 'REPORT',
         url: './maps/starts/other/vsevolozhsk_1983_03_20.webp',
         link: './original_maps/starts/other/vsevolozhsk_1983_03_20_omaps.jpg',
@@ -67,7 +66,6 @@ let otherStartsMaps = [
         bounds: [[60.0592719, 30.6214714], [60.0577726, 30.6770897], [60.034502, 30.6187248]],
         author: 'VSLVSKY',
         editor: 'CHGRVSKY_V',
-        planner: 'EGRV_E'
     },
     {
         name: 'Сосново',
@@ -80,7 +78,6 @@ let otherStartsMaps = [
         results: './docs/1983/1983_06_11_spartak_omaps.pdf',
         bounds: [[60.5468141, 30.1887131], [60.5430999, 30.250082], [60.5157793, 30.1820183]],
         author: ['LVCHV','SVTKN'],
-        planner: 'BLZRV_V'
     },
     {
         name: 'Лемболово',
@@ -93,13 +90,12 @@ let otherStartsMaps = [
         results: './docs/1983/1983_06_12_spartak_omaps.pdf',
         bounds: [[60.4167339, 30.272913], [60.4130895, 30.3387451], [60.3882888, 30.2674198]],
         author: ['LVCHV','SVTKN'],
-        planner: 'CHGRVSKY_V'
     },
     {
         name: 'Песочная',
         page: 'starts',
         start: 'REPORT',
-        date: '1984-09-29',
+        year: 1984,
         url: './maps/starts/other/pesochnaya_1984_09_29_spartak.webp',
         link: ['./original_maps/starts/other/pesochnaya_1984_09_29_spartak_M_omaps.jpg','./original_maps/starts/other/pesochnaya_1984_09_29_spartak_W_omaps.jpg'],
         info: 'Осеннее п-во ЛГС ДСО Спартак.',
@@ -136,7 +132,7 @@ let otherStartsMaps = [
         name: 'Токсово',
         page: 'starts',
         start: 'REPORT',
-        date: '1995-09-17',
+        year: 1995,
         url: './maps/starts/other/toksovo_1995_09_17.webp',
         link: ['./original_maps/starts/other/toksovo_1995_09_17_h10_omaps.webp','./original_maps/starts/other/toksovo_1995_09_17_h17_omaps.webp'],
         info: 'Открытое п-во ГО Молодёжное.',
@@ -822,7 +818,7 @@ let otherStartsMaps = [
 
     {
         name: 'Лесколово',
-        date: '2000-09-27',
+        year: 2000,
         url: './maps/rogaine/beketov/leskolovo_mb_2000.webp',
         link: ['./original_maps/rogaine/beketov/leskolovo_mb_2000_day_omaps.jpg','./original_maps/rogaine/beketov/leskolovo_mb_2000_night_omaps.jpg','./original_maps/rogaine/beketov/leskolovo_mb_2000_sport_omaps.jpg'],
         bounds: [[60.4243602, 30.1008224], [60.4340177, 30.4005432], [60.2594031, 30.1461411]],

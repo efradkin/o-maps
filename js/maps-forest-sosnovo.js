@@ -4,7 +4,6 @@ let sosnovoMaps = [
     {
         name: 'Сосново, юг',
         year: 1989,
-        date: '1991-06-28',
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/sosnovo_south_1989.webp',
@@ -31,7 +30,7 @@ let sosnovoMaps = [
     },
     {
         name: 'Снегирёвка',
-        date: '1968-09-15',
+        year: 1968,
         start: 'USSR_BULGARIA_1968',
         info: 'Эстафета.',
         url: './maps/forest/sosnovo/zamostie_1968.webp',
@@ -40,7 +39,7 @@ let sosnovoMaps = [
     },
     {
         name: 'Петяярви',
-        date: '1968-09-13',
+        year: 1968,
         start: 'USSR_BULGARIA_1968',
         info: '1969, VIII слёт фабрики ЧАЙКА. 5 июня 1971, <a href="./docs/1971/1971_07_05_petyajarvi_omaps.pdf">Первенство</a> завода Вибратор.',
         url: './maps/forest/sosnovo/petyajarvi_1968.webp',
@@ -126,7 +125,7 @@ let sosnovoMaps = [
     },
     {
         name: 'Кривко, оз Уловное',
-        date: '1998-06-19',
+        year: 1998,
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_1998.webp',
@@ -138,7 +137,6 @@ let sosnovoMaps = [
     {
         name: 'Замостье',
         year: 1989,
-        date: '1990-06-22',
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/zamostie_1989.webp',
@@ -223,16 +221,11 @@ let sosnovoMaps = [
     },
     {
         name: 'Сосново, оз Уловное',
-        date: '1981-08-05',
+        year: 1981,
         start: ['USSR_1981','USSR_CHAMP'],
         info: '<a href="./docs/1981_ussr_champ_relay_schema_omaps.jpg">Эстафета</a>.',
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981.webp',
         link: ['./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_all_omaps.jpg'],
-        gps: {
-            'М1':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M1_omaps.jpg',
-            'М3':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M3_omaps.jpg',
-            'Ж3':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_W3_omaps.jpg'
-        },
         bounds: [[60.6047504, 30.2156639], [60.6022648, 30.2620983], [60.5855763, 30.2098274]],
         author: ['ARTMV','PRSCHPA','BLZRV_V','SRKN_A','TRSV','SNTSNA','DRSVNA','FDRV_L','KRCHKN_V']
     },
@@ -246,7 +239,7 @@ let sosnovoMaps = [
     },
     {
         name: 'Сосново',
-        date: '1969-01-26',
+        year: 1969,
         url: './maps/forest/sosnovo/sosnovo_1969_01_26.webp',
         link: './original_maps/forest/sosnovo/sosnovo_1969_01_26_omaps.webp',
         info: 'Соревнования в честь 25-летия снятия блокады Ленинграда.',
@@ -255,7 +248,6 @@ let sosnovoMaps = [
     {
         name: 'Сосново, Чёрный лес',
         year: 1974,
-        date: '1973-02-18',
         url: './maps/forest/sosnovo/sosnovo_black_forest_1974.webp',
         link: ['./original_maps/forest/sosnovo/sosnovo_black_forest_1974_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_black_forest_1973_02_18_H_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_black_forest_1973_02_18_W_omaps.jpg'],
         info: 'П-во г.Ленинграда на маркированной трассе (<a href="./docs/1974_leningrad_omaps.pdf">отчёт</a>).',
@@ -512,7 +504,7 @@ let sosnovoMaps = [
     },
     {
         name: 'Ягодное',
-        date: '1997-06-20',
+        year: 1997,
         start: 'WN',
         page: 'spb',
         url: './maps/forest/sosnovo/petjajarvy_1997.webp',

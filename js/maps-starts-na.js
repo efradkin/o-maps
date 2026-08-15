@@ -12,7 +12,7 @@ let naStartsMaps = [
     {
         name: 'Ильичёво, Долгое оз',
         start: 'NA',
-        date: '1997-06-13',
+        year: 1997,
         url: './maps/starts/na/na_1997_06_13.webp',
         link: './original_maps/starts/na/na_1997_06_13_omaps.jpg',
         results: './docs/1997/1997_06_12_na_omaps.pdf',

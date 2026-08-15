@@ -3,7 +3,7 @@ let toksovoMaps = [
     // --- ТОКСОВО ---
     {
         name: 'Рапполово',
-        date: '1963-03-10',
+        year: 1963,
         url: './maps/forest/toksovo/rappolovo_1963.webp',
         link: './original_maps/forest/toksovo/rappolovo_1963_omaps.webp',
         bounds: [[60.1627782, 30.3533363], [60.1627782, 30.478735], [60.1308201, 30.3528214]],
@@ -19,7 +19,7 @@ let toksovoMaps = [
     },
     {
         name: 'Сярьги',
-        date: '1971-02-07',
+        year: 1971,
         url: './maps/forest/toksovo/sjargi_1971_lomo.webp',
         link: './original_maps/forest/toksovo/sjargi_1971_lomo_omaps.jpg',
         bounds: [[60.1361415, 30.4022598], [60.1364193, 30.4662895], [60.1147439, 30.4048347]],
@@ -498,7 +498,7 @@ let toksovoMaps = [
     },
     {
         name: 'Кузьмолово, Зона-Z',
-        date: '1983-01-30',
+        year: 1983,
         url: './maps/forest/toksovo/kuzmolovo_zona_z_1983.webp',
         link: './original_maps/forest/toksovo/kuzmolovo_zona_z_1983_omaps.jpg',
         bounds: [[60.1291316, 30.5173588], [60.1284904, 30.5639219], [60.1139313, 30.5168009]],
@@ -771,7 +771,7 @@ let toksovoMaps = [
     },
     {
         name: 'Гарболово, оз Сиркоярви',
-        date: '1969-06-28',
+        year: 1969,
         url: './maps/forest/toksovo/sirkojarvi_1969.webp',
         link: './original_maps/forest/toksovo/sirkojarvi_1969_omaps.jpg',
         info: '10 лет спортивного ориентирования в Ленинграде. 28-29 июня.',

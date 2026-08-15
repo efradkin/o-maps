@@ -163,7 +163,7 @@ let zelikMaps = [
     },
     {
         name: 'Песочная',
-        date: '1986-05-10',
+        year: 1986,
         info: 'Приз Ленинградского телевидения.',
         results: './docs/1986/1986_05_10_tv_omaps.pdf',
         url: './maps/forest/zelik/pesochnaya_1986.webp',
@@ -356,7 +356,7 @@ let zelikMaps = [
     },
     {
         name: 'Зеленогорск, оз Щучье',
-        date: '1972-06-10',
+        year: 1972,
         start: 'WN',
         url: './maps/forest/zelik/zelenogorsk_schuchye_1972.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1972_omaps.jpg',

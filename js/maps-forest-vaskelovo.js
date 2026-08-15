@@ -3,7 +3,7 @@ let vaskelovoMaps = [
     // --- ВАСКЕЛОВО - ГРУЗИНО - ЛЕМБОЛОВО - ОРЕХОВО ---
     {
         name: 'Орехово',
-        date: '1966-03-13',
+        year: 1966,
         start: 'MEET_1966',
         url: './maps/forest/vaskelovo/orekhovo_1966.webp',
         link: ['./original_maps/forest/meet_1966_title.jpg','./original_maps/forest/meet_1966_agenda.jpg','./original_maps/forest/vaskelovo/orekhovo_1966_omaps.jpg'],
@@ -30,12 +30,11 @@ let vaskelovoMaps = [
         name: 'Лемболово',
         page: 'spb',
         start: 'MMS',
-        date: '1997-06-28',
+        year: 1997,
         url: './maps/starts/mms/mms_1997_06_28.webp',
         link: ['./original_maps/starts/mms/mms_1997_06_28_omaps.jpg','./original_maps/forest/vaskelovo/lembolovo_north_east_1997_omaps.jpg'],
         bounds: [[60.446403, 30.3172016], [60.4434394, 30.3660822], [60.4204837, 30.3102493]],
         author: 'CHGRVSKY_V',
-        planner: 'TLNV_A'
     },
     {
         name: 'Лемболово-Орехово',
@@ -87,7 +86,6 @@ let vaskelovoMaps = [
     {
         name: 'Лемболово, с-в',
         year: 1989,
-        date: '1991-10-12',
         url: './maps/forest/vaskelovo/lembolovo_north_east_1989.webp',
         link: ['./original_maps/forest/vaskelovo/lembolovo_north_east_1989_omaps.webp','./original_maps/forest/vaskelovo/lembolovo_night_spb_1991_omaps.jpg'],
         info: 'Ночной СПб.',
@@ -278,7 +276,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'Гарболово',
-        date: '1991-09-08',
+        year: 1991,
         logo: 'azimut.gif',
         url: './maps/forest/vaskelovo/garbolovo_1991.webp',
         link: ['./original_maps/forest/vaskelovo/garbolovo_1991_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_na_champ_1991_omaps.jpg'],
@@ -286,7 +284,6 @@ let vaskelovoMaps = [
         results: './docs/1991/1991_09_08_club_championship_omaps.pdf',
         bounds: [[60.3644028, 30.5025959], [60.3619836, 30.5566692], [60.3371863, 30.4973602]],
         author: 'VSLVSKY',
-        planner: 'KRZHNVSKY',
         me: 'H-A'
     },
     {
@@ -400,7 +397,7 @@ let vaskelovoMaps = [
     },
     {
         name: 'Стеклянный, оз Маролампи',
-        date: '1977-10-09',
+        year: 1977,
         start: 'WEDDING',
         url: './maps/forest/vaskelovo/marolampi_1977.webp',
         link: './original_maps/forest/vaskelovo/marolampi_1977_omaps.jpg',
@@ -410,14 +407,12 @@ let vaskelovoMaps = [
     {
         name: 'Васкелово',
         year: 1988,
-        date: '1991-09-14',
         url: './maps/forest/vaskelovo/kerro_1988.webp',
         link: ['./original_maps/forest/vaskelovo/kerro_1988_omaps.jpg','./original_maps/forest/vaskelovo/vaskelovo_masters_1991_omaps.jpg'],
         info: 'Соревнования среди спортсменов старшего возраста.',
         results: './docs/1991/1991_09_14_veterans_omaps.pdf',
         bounds: [[60.3490778, 30.2164793], [60.3447252, 30.2857018], [60.3176197, 30.2086258]],
         author: 'BYMKV',
-        planner: 'SMNV_M'
     },
     {
         name: 'Васкелово, Киварин руч',

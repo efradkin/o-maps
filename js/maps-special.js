@@ -46,7 +46,7 @@ let specialMaps = [
     },
     {
         name: 'Стеклянный',
-        date: '1999-02-20',
+        year: 1999,
         url: './maps/winter/steklyanny_winter_1999.webp',
         link: './original_maps/winter/steklyanny_winter_1999_omaps.webp',
         info: 'Первенство России среди ДЮСШ. Первенство России среди ветеранов.',
