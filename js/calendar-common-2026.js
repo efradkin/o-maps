@@ -608,6 +608,7 @@ let commonEvents2026 = [
         place: 'Выборг',
         name: 'Чемпионат России по рогейну',
         link: 'https://www.multsport.ru/starts/rogaine-rus-2026/',
+        o_site: '260823r',
         reg: 'https://www.multsport.ru/starts/rogaine-rus-2026/registration.html',
         fmt:  '24, 8, 4',
         type: 'ROGAINE',

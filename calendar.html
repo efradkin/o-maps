@@ -59,8 +59,7 @@
         <script src="js/sheet-filter.js"></script>
 
         <select id="year_selector" class="header_selector" onchange="updateUrlParam('startYear', this.value)">
-            <option value="2002">2002</option>
-            <option value="2003">2003</option>
+            <option value="EARLY">Ранние</option>
             <option value="2004">2004</option>
             <option value="2005">2005</option>
             <option value="2006">2006</option>
@@ -154,8 +153,7 @@
     <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
     <script src="js/ext/jquery.slim.min.js"></script>
 
-    <script src="js/calendar-2002.js"></script>
-    <script src="js/calendar-2003.js"></script>
+    <script src="js/calendar-early.js"></script>
     <script src="js/calendar-2004.js"></script>
     <script src="js/calendar-2005.js"></script>
     <script src="js/calendar-2006.js"></script>
@@ -291,13 +289,11 @@
             ...events2006,
             ...events2005,
             ...events2004,
-            ...events2003,
-            ...events2002
+            ...eventsEarly
         ];
         switch (y) {
             case 'ALL': oEvents.push(...allYearsEvents); oEvents.push(...commonEvents2026); oEvents.push(...otherEvents2026); break;
-            case '2002': oEvents.push(...events2002); break;
-            case '2003': oEvents.push(...events2003); break;
+            case 'EARLY': oEvents.push(...eventsEarly); break;
             case '2004': oEvents.push(...events2004); break;
             case '2005': oEvents.push(...events2005); break;
             case '2006': oEvents.push(...events2006); break;

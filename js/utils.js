@@ -353,8 +353,7 @@ function loadAllCalendars() {
         ...events2006,
         ...events2005,
         ...events2004,
-        ...events2003,
-        ...events2002
+        ...eventsEarly
     ];
 }
 
