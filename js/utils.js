@@ -1666,8 +1666,12 @@ function buildEventStart(evt, withoutLogo) {
     } else if (evt.o_site) {
         result += buildLink(O_SITE_ADDRESS_PREFIX + evt.o_site, name);
     } else {
-        if (evt.start && starts[evt.start].link) {
-            result += buildLink(starts[evt.start].link, name);
+        let st = evt.start;
+        if (st && Array.isArray(st)) {
+            st = st[0];
+        }
+        if (st && starts[st].link) {
+            result += buildLink(starts[st].link, name);
         } else {
             result += name;
         }
