@@ -756,7 +756,7 @@ let events2024 = [
         link: 'https://vk.com/bikeadventure',
         reg: 'https://orgeo.ru/event/34584',
         photo: ['https://vk.com/album-166397868_302923379','https://vk.com/album-30311715_302752378'],
-        res: 'https://vk.com/bikeadventure?w=wall-30311715_2075',
+        res: ['https://www.bikeadventure.ru/arhiv/arhiv-2024-1.php','https://vk.com/bikeadventure?w=wall-30311715_2075'],
         start: 'BA',
         owner: 'BKTV',
         o_gps: 19599,

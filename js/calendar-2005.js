@@ -179,6 +179,7 @@ let events2005 = [
         name: 'Эстафеты 2х2',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050507/2x2_res.zip',
+        info: '<a href="./docs/2x2/2005_kuzmolovo_2x2_itogi_omaps.pdf">Итоги и результаты</a>, <a href="./docs/2x2/2005_kuzmolovo_2x2_photos_omaps.doc">буклет</a>.',
         fmt: 'Эстафеты',
         o_site: '050507',
         map: ['2x2_2005_05_07', '2x2_2005_05_10'],
@@ -647,7 +648,8 @@ let events2005 = [
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2005-2.php',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        map: 'zahodskoe_ba_2005'
     },
     {
         id: 'SPB_20051016_1',

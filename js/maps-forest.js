@@ -144,7 +144,6 @@ let forestMaps = [
         year: 2006,
         url: './maps/forest/tsvelodubovo_triotlon_2006.webp',
         link: './original_maps/forest/tsvelodubovo_triotlon_2006_omaps.jpg',
-        results: 'https://www.o-site.spb.ru/race.php?id=tri-o-tlon-2006',
         bounds: [[60.3953918, 29.5581579], [60.3922115, 29.6172523], [60.3621321, 29.5495319]],
         author: 'KUZNTSV_S',
         start: 'TRI_O_TLON'

@@ -18,7 +18,6 @@ let rfarStartsMaps = [
         url: './maps/starts/rfar/pitkaranta_rfar_2016.webp',
         link: './original_maps/starts/rfar/pitkaranta_rfar_2016_omaps.gif',
         bounds: [[61.8775984, 31.0295105], [61.8324963, 31.6138458], [61.5972525, 30.926857]],
-        results: 'https://adventure-race.redfox.ru/archive/archive_2016/',
         author: 'CHGRVSKY_V',
         owner: 'RFAR',
         type: ['ROGAINE']

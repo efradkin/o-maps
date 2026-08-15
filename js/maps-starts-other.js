@@ -155,48 +155,44 @@ let otherStartsMaps = [
 
     {
         name: 'Заходское',
-        date: '2005-10-23',
+        year: 2005,
         page: 'starts',
         url: './maps/rogaine/beketov/zahodskoe_ba_2005.webp',
         link: ['./original_maps/rogaine/beketov/zahodskoe_ba_2005_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2005-2/oct_05.jpg'],
         bounds: [[60.5243538, 29.0081978], [60.5361769, 29.3755531], [60.3649121, 29.0308571]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2005-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
     },
     {
         name: 'Медное оз, Светлое оз',
-        date: '2006-05-27',
+        year: 2006,
         page: 'starts',
         url: './maps/rogaine/beketov/mednoe_ba_2006.webp',
         link: ['./original_maps/rogaine/beketov/mednoe_ba_2006_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2006-2/oct_06.jpg'],
         bounds: [[60.5285768, 29.6979332], [60.5280701, 30.2292252], [60.1871105, 29.7022247]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
     },
     {
         name: 'Лейпясуо',
-        date: '2006-10-22',
+        year: 2006,
         page: 'starts',
         url: './maps/rogaine/beketov/leypyasuo_ba_2006.webp',
         link: ['./original_maps/rogaine/beketov/leypyasuo_ba_2006_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2006-2/oct_06.jpg'],
         bounds: [[60.6816273, 29.212389], [60.6820896, 29.499321], [60.4829387, 29.2092133]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-2.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
     },
     {
         name: 'Лебедевка',
-        date: '2007-05-27',
+        year: 2007,
         page: 'starts',
         url: './maps/rogaine/beketov/lebedevka_ba_2007.webp',
         link: ['./original_maps/rogaine/beketov/lebedevka_ba_2007_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_1.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_2.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_3.jpg','https://www.bikeadventure.ru/upload/files/arhiv-2007-1/map_4.jpg'],
         bounds: [[60.835961, 28.741436], [60.8370485, 29.3177032], [60.6304385, 28.7428093]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -404,13 +400,11 @@ let otherStartsMaps = [
     },
     {
         name: 'Раздолье, Луговые оз',
-        date: '2022-05-25',
+        year: 2022,
         page: 'starts',
         url: './maps/rogaine/beketov/razdolie_ba_2022.webp',
         link: ['./original_maps/rogaine/beketov/razdolie_ba_2022_omaps.webp','https://www.bikeadventure.ru/upload/files/arhiv-2022-1/BA22.jpg'],
         bounds: [[60.6729263, 29.6435165], [60.6325432, 30.1885414], [60.4674578, 29.5830917]],
-        o_gps: 13224,
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-1.php',
         owner: 'BKTV',
         start: 'BA',
         type: ['ROGAINE']
@@ -447,7 +441,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/kanneliarvi_ba_2024.webp',
         link: 'https://www.bikeadventure.ru/upload/files/arhiv-2024-1/BA24.jpg', // './original_maps/rogaine/beketov/kanneliarvi_ba_2024_omaps.webp'
         bounds: [[60.4540013, 29.1470718], [60.4524775, 29.5072174], [60.2641715, 29.1446686]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2024-1.php',
         owner: 'BKTV',
         type: ['ROGAINE']
     },
@@ -459,7 +452,6 @@ let otherStartsMaps = [
         url: './maps/rogaine/beketov/olenii_ba_2026.webp',
         link: ['./original_maps/rogaine/beketov/olenii_ba_2026_omaps.webp','https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_1.jpg','https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_2.jpg','https://bikeadventure.ru/upload/files/arhiv-2026-1/BA26_3.jpg'],
         bounds: [[60.6154493, 30.2391815], [60.6236184, 30.6925392], [60.4263936, 30.2553177]],
-        results: 'https://www.bikeadventure.ru/arhiv/arhiv-2026-1.php',
         owner: 'BKTV',
         type: ['ROGAINE']
     },

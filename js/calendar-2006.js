@@ -206,7 +206,7 @@ let events2006 = [
         start: '2x2',
         type: 'ORIENT',
         res: 'http://ski-o-spb.narod.ru/s06/2x2.zip',
-        info: 'Трёхдневный цикл эстафет, в которых участвуют команды из 2-х человек',
+        info: 'Трёхдневный цикл эстафет, в которых участвуют команды из 2-х человек. <a href="./docs/2x2/2006_2x2_info_omaps.jpg">Афиша</a>, <a href="./docs/2x2/2006_2x2_rules_omaps.pdf">положение</a>.',
         o_site: '060429',
         map: ['2x2_2006_04_29', '2x2_2006_04_30', '2x2_2006_05_01']
     },
@@ -325,7 +325,8 @@ let events2006 = [
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-1.php',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        map: 'mednoe_ba_2006'
     },
     {
         id: 'SPB_20060527_1',
@@ -707,7 +708,8 @@ let events2006 = [
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2006-2.php',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        map: 'leypyasuo_ba_2006'
     },
     {
         id: 'SPB_20061022_1',

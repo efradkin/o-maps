@@ -332,7 +332,7 @@ let events2010 = [
         place: 'Юкки',
         name: 'Эстафета 2х2',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/100508_2x2/100509_res.htm',
+        res: ['https://o-site.spb.ru/_races/100508_2x2/100509_res.htm','./docs/2x2/2010_2x2_results_omaps.gif'],
         o_site: '100508_2x2',
         map: '2x2_2010_05_09',
         start: '2x2'

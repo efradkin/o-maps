@@ -656,12 +656,14 @@ let events2022 = [
         date: '2022-05-28',
         name: 'BikeAdventure',
         place: 'Раздолье',
+        o_gps: 13224,
         type: ['ROGAINE', 'VELO'],
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2022-1.php',
         photo: 'https://vk.com/album-30311715_284038157',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        map: 'razdolie_ba_2022'
     },
     {
         id: 'SPB_20220529_1',

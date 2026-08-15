@@ -313,6 +313,7 @@ let events2007 = [
         name: 'Эстафеты 2x2',
         type: 'ORIENT',
         o_site: '07042901',
+        info: '<a href="./docs/2x2/2007_2x2_rules_omaps.pdf">Положение</a>.',
         map: ['2x2_2007_04_29', '2x2_2007_04_30', '2x2_2007_05_01'],
         start: '2x2'
     },
@@ -471,7 +472,8 @@ let events2007 = [
         link: 'https://vk.com/bikeadventure',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2007-1.php',
         start: 'BA',
-        owner: 'BKTV'
+        owner: 'BKTV',
+        map: 'lebedevka_ba_2007'
     },
     {
         id: 'SPB_20070527_1',
