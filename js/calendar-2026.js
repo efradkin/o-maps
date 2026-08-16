@@ -2303,6 +2303,17 @@ let events2026 = [
         owner: 'SFSO_SPB'
     },
     {
+        id: 'SPB_20260905_1',
+        date: '2026-09-05',
+        name: 'Феникс Middle-Cup',
+        place: 'Вьюн',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/54579',
+        info: 'Новая карта.',
+        owner: 'FENIX',
+        map: 'vjun_2026'
+    },
+    {
         id: 'SPB_20260906_1',
         date: '2026-09-06',
         name: 'Петербургская осень',
