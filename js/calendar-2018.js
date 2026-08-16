@@ -773,20 +773,23 @@ let events2018 = [
         reg: 'http://sportident.ru/entry/event_info.php?id=3624',
         res: 'http://moscompass.ru/news/2018/20180618.htm',
         video: [
-            'http://northernwind.spb.ru/videosplit/2018//kkp/day1',
-            'http://northernwind.spb.ru/videosplit/2018//kkp/day2',
-            'http://northernwind.spb.ru/videosplit/2018//kkp/day3',
-            'http://northernwind.spb.ru/videosplit/2018//kkp/day4',
             'https://www.youtube.com/watch?v=Ct-oMQk6V8I',
-            'https://www.youtube.com/watch?v=2_8qq972LFc',
-            'https://www.youtube.com/watch?v=bHNLjeT8PH8',
-            'https://www.youtube.com/watch?v=PQjKShU4L1k',
             'https://www.youtube.com/watch?v=xMhUrqloaHQ',
             'https://www.youtube.com/watch?v=gCN1nAwSFUo'
         ],
         start: 'KKP',
         o_site: '180617-18',
-        reskeep: [13, 12, 11, 84]
+    },
+    {
+        id: 'SPB_20180618_1',
+        date: '2018-06-18',
+        place: 'Выборг',
+        name: 'ККП #1',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '180617-18',
+        video: 'http://northernwind.spb.ru/videosplit/2018//kkp/day1',
+        reskeep: 13
     },
     {
         id: 'SPB_20180619_1',
@@ -802,6 +805,8 @@ let events2018 = [
             'Ж': 4033,
             'ALL': 4034,
         },
+        video: 'http://northernwind.spb.ru/videosplit/2018//kkp/day2',
+        reskeep: 12
     },
     {
         id: 'SPB_20180620_1',
@@ -817,6 +822,12 @@ let events2018 = [
             'Ж': 4037,
             'ALL': 4038,
         },
+        video: [
+            'http://northernwind.spb.ru/videosplit/2018//kkp/day3',
+            'https://www.youtube.com/watch?v=bHNLjeT8PH8',
+            'https://www.youtube.com/watch?v=PQjKShU4L1k',
+        ],
+        reskeep: 11
     },
     {
         id: 'SPB_20180621_1',
@@ -832,6 +843,11 @@ let events2018 = [
             'М': 4040,
             'ALL': 4042,
         },
+        video: [
+            'http://northernwind.spb.ru/videosplit/2018//kkp/day4',
+            'https://www.youtube.com/watch?v=2_8qq972LFc',
+        ],
+        reskeep: 84
     },
     {
         id: 'SPB_20180622_1',

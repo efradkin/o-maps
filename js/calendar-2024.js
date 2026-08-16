@@ -929,29 +929,11 @@ let events2024 = [
             'http://northernwind.spb.ru/videosplit/2024/KKP/d1',
             'http://northernwind.spb.ru/videosplit/2024/KKP/d2',
             'http://northernwind.spb.ru/videosplit/2024/KKP/d4',
-            'https://www.youtube.com/watch?v=8KtdCrgRpOc',
-            'https://www.youtube.com/watch?v=b4xly5c1uj0',
-            'https://www.youtube.com/watch?v=5qnkvAx7M4I',
-            'https://www.youtube.com/watch?v=TOsJ0NYzKh8',
-            'https://www.youtube.com/watch?v=E8VJL0bXcWo',
-            'https://www.youtube.com/watch?v=8MI6LGyKN7E',
-            'https://www.youtube.com/watch?v=FoZ1wwh5yFU',
-            'https://vkvideo.ru/video-93257360_456239235',
-            'https://vkvideo.ru/video-93257360_456239236',
-            'https://vkvideo.ru/video-93257360_456239239',
-            'https://vkvideo.ru/video-93257360_456239244',
-            'https://vkvideo.ru/video-93257360_456239249',
-            'https://vkvideo.ru/video-93257360_456239251',
-            'https://rutube.ru/video/454b701d752663a0460ba82012cb8313/',
-            'https://rutube.ru/video/f1a0fb311cd42b02cbafad0792993efc/',
-            'https://www.youtube.com/watch?v=AvwPOqkj22k',
-            'https://www.youtube.com/watch?v=CCWKHF2m2Ns',
             'https://www.youtube.com/watch?v=av3s0YPh2eg'
         ],
         start: 'KKP',
         o_site: '240615-20_KKP',
         strava: [11675022463,11681133944,11688407003,11696132252],
-        reskeep: [657, 658, 659]
     },
     {
         id: 'SPB_20240615_2',
@@ -967,11 +949,24 @@ let events2024 = [
             'А': 19837,
             'Аркада': 19839,
             'ALL': 19836,
-            'Каменюкала': 19768,
             'Ж': 19766,
             'М': 19767,
             'Open 5': 19835,
         },
+        video: 'https://vkvideo.ru/video-93257360_456239235',
+    },
+    {
+        id: 'SPB_20240616_2',
+        date: '2024-06-16',
+        place: 'Каменногорск',
+        name: 'Каменюкола',
+        type: 'ORIENT',
+        fmt: 'детская эстафета',
+        start: 'KKP',
+        o_site: '240615-20_KKP',
+        map: ['kkp_obkhodnoe_2024_06_15', 'kkp_novinskoe_2024_06_15'],
+        o_gps: 19768,
+        video: ['https://www.youtube.com/watch?v=AvwPOqkj22k','https://vkvideo.ru/video-93257360_456239236']
     },
     {
         id: 'SPB_20240616_1',
@@ -1002,6 +997,13 @@ let events2024 = [
             'М21А': 19807,
             'М20/М35': 19844,
         },
+        video: [
+            'https://vkvideo.ru/video-93257360_456239239',
+            'https://rutube.ru/video/454b701d752663a0460ba82012cb8313/',
+            'https://www.youtube.com/watch?v=8KtdCrgRpOc',
+            'https://www.youtube.com/watch?v=E8VJL0bXcWo',
+            'https://www.youtube.com/watch?v=CCWKHF2m2Ns'
+        ],
     },
     {
         id: 'SPB_20240618_1',
@@ -1022,6 +1024,12 @@ let events2024 = [
             'Ж20/М18': 19811,
             'М21А': 19830,
         },
+        video: [
+            'https://vkvideo.ru/video-93257360_456239244',
+            'https://rutube.ru/video/f1a0fb311cd42b02cbafad0792993efc/',
+            'https://www.youtube.com/watch?v=b4xly5c1uj0',
+            'https://www.youtube.com/watch?v=8MI6LGyKN7E'
+        ],
     },
     {
         id: 'SPB_20240619_1',
@@ -1041,6 +1049,7 @@ let events2024 = [
             'М50/55/Ж45': 19868,
             'Ж20/М18': 19810,
         },
+        video: ['https://vkvideo.ru/video-93257360_456239249','https://www.youtube.com/watch?v=5qnkvAx7M4I']
     },
     {
         id: 'SPB_20240620_1',
@@ -1060,6 +1069,11 @@ let events2024 = [
             'М50/55/Ж45': 19838,
             'М21А': 19832,
         },
+        video: [
+            'https://vkvideo.ru/video-93257360_456239251',
+            'https://www.youtube.com/watch?v=TOsJ0NYzKh8',
+            'https://www.youtube.com/watch?v=FoZ1wwh5yFU'
+        ]
     },
     {
         id: 'SPB_20240621_1',

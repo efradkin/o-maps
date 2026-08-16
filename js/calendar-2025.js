@@ -1256,27 +1256,9 @@ let events2025 = [
         o_site: '250616-19_KKP',
         reg: 'http://sportident.online/entry/?id=6379',
         photo: 'https://vk.ru/album-227779225_309822985',
-        video: [
-            'https://www.youtube.com/watch?v=Hd7rUUf1vDg',
-            'https://www.youtube.com/watch?v=YzshhewPboE',
-            'https://vkvideo.ru/video-93257360_456239276',
-            'https://vkvideo.ru/video-93257360_456239278',
-            'https://vkvideo.ru/video-93257360_456239279',
-            'https://vkvideo.ru/video-93257360_456239280',
-            'https://vkvideo.ru/video-93257360_456239281',
-            'https://www.youtube.com/watch?v=Hd7rUUf1vDg',
-            'https://www.youtube.com/watch?v=YzshhewPboE',
-            'https://www.youtube.com/watch?v=VLJFZh0gfLI'
-        ],
+        video: 'https://www.youtube.com/watch?v=VLJFZh0gfLI',
         start: 'KKP',
         map: 'kkp_prudy_2023_06_19',
-        strava: [
-            14803778336,
-            14818986127,
-            14830428556,
-            14839302850,
-            14849160764
-        ],
         me: 'М50',
         major: true
     },
@@ -1295,7 +1277,20 @@ let events2025 = [
         },
         start: 'KKP',
         strava: 14803778336,
+        map: 'kkp_prudy_2023_06_19',
         me: 'М50',
+    },
+    {
+        id: 'SPB_20250615_1',
+        date: '2025-06-15',
+        place: 'Пруды',
+        name: 'Каменюкола',
+        type: 'ORIENT',
+        fmt: 'детская эстафета',
+        o_site: '250616-19_KKP',
+        start: 'KKP',
+        map: 'kkp_prudy_2023_06_19',
+        video: 'https://vkvideo.ru/video-93257360_456239276'
     },
     {
         id: 'SPB_20250616_1',
@@ -1314,6 +1309,10 @@ let events2025 = [
             'Ж': 22864,
             'М50/55': 22894,
         },
+        video: [
+            'https://vkvideo.ru/video-93257360_456239278',
+            'https://www.youtube.com/watch?v=Hd7rUUf1vDg'
+        ]
     },
     {
         id: 'SPB_20250617_1',
@@ -1332,6 +1331,10 @@ let events2025 = [
             'Ж': 22868,
             'М50/55': 22896,
         },
+        video: [
+            'https://vkvideo.ru/video-93257360_456239279',
+            'https://www.youtube.com/watch?v=YzshhewPboE'
+        ],
     },
     {
         id: 'SPB_20250618_1',
@@ -1350,6 +1353,7 @@ let events2025 = [
             'Ж': 22870,
             'М50/55': 22897,
         },
+        video: 'https://vkvideo.ru/video-93257360_456239280'
     },
     {
         id: 'SPB_20250619_1',
@@ -1368,6 +1372,7 @@ let events2025 = [
             'Ж': 22872,
             'М50/55': 22898,
         },
+        video: 'https://vkvideo.ru/video-93257360_456239281'
     },
     {
         id: 'SPB_20250620_1',

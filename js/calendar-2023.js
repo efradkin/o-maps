@@ -843,44 +843,30 @@ let events2023 = [
         start: 'KKP',
         o_site: '230617-22_KKP',
         video: [
-            'https://www.youtube.com/watch?v=DvbP31HGfIc',
-            'https://www.youtube.com/watch?v=g-YOzBUM3a8',
-            'https://www.youtube.com/watch?v=LQlzH_ehSKM',
-            'https://www.youtube.com/watch?v=X_AetUb6PSY',
-            'https://vkvideo.ru/video-93257360_456239213',
-            'https://vkvideo.ru/video-93257360_456239214',
-            'https://vkvideo.ru/video-93257360_456239218',
-            'https://vkvideo.ru/video-93257360_456239220',
             'https://vksport.vkvideo.ru/video-93257360_456239221',
-            'https://vkvideo.ru/video-93257360_456239222',
-            'https://vkvideo.ru/video-93257360_456239223',
-            'https://www.youtube.com/watch?v=XIB442BrfeQ',
-            'https://www.youtube.com/watch?v=0dYYvMJPVP0',
-            'https://www.youtube.com/watch?v=JvMDymoVLdw',
-            'https://www.youtube.com/watch?v=I2H0Ac5btpw',
             'https://www.youtube.com/watch?v=DYPQbahZwtc',
             'https://www.youtube.com/watch?v=b8r-CSOze84',
-            'https://www.youtube.com/watch?v=lOyollFirFI',
-            'https://www.youtube.com/watch?v=DxbF-lfXJL8',
             'https://www.youtube.com/watch?v=HV-j7omktaE',
             'https://www.youtube.com/watch?v=y7GxLpH4J98',
-            'https://www.youtube.com/watch?v=YaSLDLs0X60',
-            'https://www.youtube.com/watch?v=ovKzw06a5DY',
-            'https://www.youtube.com/watch?v=LZLAnVFYMfw',
-            'https://www.youtube.com/watch?v=hmkOtR96THs',
-            'https://www.youtube.com/watch?v=7kKVndzkFQM',
-            'https://www.youtube.com/watch?v=GDZYtaUk6G0',
-            'https://www.youtube.com/watch?v=c5_JqAqfrGM',
-            'https://www.youtube.com/watch?v=97-FYsFlI7U',
-            'https://www.youtube.com/watch?v=pc6vf-fWUzw',
-            'https://www.youtube.com/watch?v=5o5AytYd3q4',
-            'https://www.youtube.com/watch?v=4RBVnvbGbjc',
-            'https://www.youtube.com/watch?v=DROakVa3320'
         ],
-        strava: [9321298380,9321303067,9321307758,9321312836],
-        reskeep: [599, 600, 601, 602],
         map: 'kkp_prudy_2023_06_17',
-        o_gps: 16560,
+    },
+    {
+        id: 'SPB_20230617_1',
+        date: '2023-06-17',
+        place: 'Пруды',
+        name: 'Пирамида',
+        type: 'ORIENT',
+        fmt: 'ночная эстафета',
+        start: 'KKP',
+        o_site: '230617-22_KKP',
+        video: [
+            'https://vkvideo.ru/video-93257360_456239213',
+        ],
+        map: 'kkp_prudy_2023_06_17',
+        o_gps: {
+            'Open':16560
+        },
     },
     {
         id: 'SPB_20230617_2',
@@ -891,6 +877,22 @@ let events2023 = [
         fmt: '4, 8',
         res: 'https://vk.com/hardrogaine?w=wall-162510284_2679',
         o_gps: 16496
+    },
+    {
+        id: 'SPB_20230618_1',
+        date: '2023-06-18',
+        place: 'Пруды',
+        name: 'Каменюкола',
+        type: 'ORIENT',
+        fmt: 'детская эстафета',
+        start: 'KKP',
+        o_site: '230617-22_KKP',
+        video: [
+            'https://vkvideo.ru/video-93257360_456239214',
+            'https://www.youtube.com/watch?v=ovKzw06a5DY',
+            'https://www.youtube.com/watch?v=DROakVa3320'
+        ],
+        map: 'kkp_prudy_2023_06_17',
     },
     {
         id: 'SPB_20230618_1',
@@ -928,6 +930,14 @@ let events2023 = [
             'М45': 16591,
             'М21АК': 16518,
         },
+        video: [
+            'https://www.youtube.com/watch?v=DvbP31HGfIc',
+            'https://www.youtube.com/watch?v=XIB442BrfeQ',
+            'https://www.youtube.com/watch?v=YaSLDLs0X60',
+            'https://www.youtube.com/watch?v=LZLAnVFYMfw',
+            'https://www.youtube.com/watch?v=c5_JqAqfrGM',
+            'https://vkvideo.ru/video-93257360_456239218'
+        ]
     },
     {
         id: 'SPB_20230620_1',
@@ -953,6 +963,13 @@ let events2023 = [
             'Ж40': 16589,
             'M21АК': 16540,
         },
+        video: [
+            'https://www.youtube.com/watch?v=g-YOzBUM3a8',
+            'https://www.youtube.com/watch?v=0dYYvMJPVP0',
+            'https://www.youtube.com/watch?v=hmkOtR96THs',
+            'https://www.youtube.com/watch?v=97-FYsFlI7U',
+            'https://vkvideo.ru/video-93257360_456239220'
+        ]
     },
     {
         id: 'SPB_20230621_1',
@@ -964,7 +981,14 @@ let events2023 = [
         start: 'KKP',
         o_site: '230617-22_KKP',
         strava: 9321307758,
-        reskeep: 601
+        reskeep: 601,
+        video: [
+            'https://www.youtube.com/watch?v=LQlzH_ehSKM',
+            'https://www.youtube.com/watch?v=JvMDymoVLdw',
+            'https://www.youtube.com/watch?v=lOyollFirFI',
+            'https://www.youtube.com/watch?v=pc6vf-fWUzw',
+            'https://vkvideo.ru/video-93257360_456239222'
+        ]
     },
     {
         id: 'SPB_20230622_1',
@@ -976,7 +1000,16 @@ let events2023 = [
         start: 'KKP',
         o_site: '230617-22_KKP',
         strava: 9321312836,
-        reskeep: 602
+        reskeep: 602,
+        video: [
+            'https://www.youtube.com/watch?v=X_AetUb6PSY',
+            'https://www.youtube.com/watch?v=I2H0Ac5btpw',
+            'https://www.youtube.com/watch?v=DxbF-lfXJL8',
+            'https://www.youtube.com/watch?v=5o5AytYd3q4',
+            'https://www.youtube.com/watch?v=4RBVnvbGbjc',
+            'https://www.youtube.com/watch?v=7kKVndzkFQM',
+            'https://vkvideo.ru/video-93257360_456239223'
+        ]
     },
     {
         id: 'SPB_20230623_2',

@@ -777,33 +777,10 @@ let events2022 = [
         res: 'http://o-site.spb.ru/_races/220613-16_KKP/220611_Piramida_result.htm',
         info: 'В рамках соревнований "Камни Карельского Перешейка 2022" также состоятся: 11 июня - Трейл «Царь скалы» Сайт трейла 11 июня - Ночная эстафета по ориентированию «Пирамида» Заявка Результаты Сплиты Видеотрансляция ВК 12 июня - Детская эстафета по ориентированию «Каменюкола» Заявка Результаты Сплиты Видеотрансляция ВК',
         video: [
-            'http://vk.com/video-93257360_456239179',
-            'https://vkvideo.ru/video-93257360_456239176',
-            'https://vkvideo.ru/video-93257360_456239172',
-            'https://vkvideo.ru/video-93257360_456239173',
-            'https://vkvideo.ru/video-93257360_456239174',
-            'https://vkvideo.ru/video-93257360_456239175',
-            'https://www.youtube.com/watch?v=7flfOdWND4g',
-            'https://www.youtube.com/watch?v=okR-qVsJlFQ',
-            'https://www.youtube.com/watch?v=Mj49gwogR-0',
-            'https://www.youtube.com/watch?v=2Y35LlCDc6Y',
-            'https://www.youtube.com/watch?v=VVIKbMxqd0U',
-            'https://rutube.ru/video/dde67d2dd1ae459b0693e8b180183657/',
             'https://www.youtube.com/watch?v=jtpjjOZBJpY',
-            'https://www.youtube.com/watch?v=k6hEF6Gy08o',
-            'https://www.youtube.com/watch?v=m0soMz91AHM',
-            'https://www.youtube.com/watch?v=zMeycC23YgI',
-            'https://www.youtube.com/watch?v=0VCwyeNpzEY',
-            'https://www.youtube.com/watch?v=TeqilOEgG74',
-            'https://www.youtube.com/watch?v=G11RRJXzr9U',
-            'https://www.youtube.com/watch?v=1MUx93Vnbwc',
-            'https://www.youtube.com/watch?v=B1j86stckv0',
-            'https://www.youtube.com/watch?v=C9PwVpfrwqI'
         ],
         start: 'KKP',
         o_site: '220613-16_KKP',
-        strava: [7301364842,7306552917,7312045246,7317347262],
-        reskeep: [536, 547, 548, 549]
     },
     {
         id: 'SPB_20220611_4',
@@ -819,6 +796,7 @@ let events2022 = [
             'М': 13330,
             'Ж': 13331,
         },
+        video: 'https://vkvideo.ru/video-93257360_456239176'
     },
     {
         id: 'SPB_20220611_3',
@@ -849,6 +827,18 @@ let events2022 = [
         start: 'ROGAINE_110'
     },
     {
+        id: 'SPB_20220612_2',
+        date: '2022-06-12',
+        place: 'Выборг',
+        name: 'Каменюкола',
+        type: 'ORIENT',
+        fmt: 'детская эстафета',
+        start: 'KKP',
+        o_site: '220613-16_KKP',
+        map: 'kkp_paltsevo_2022_06_11_piramida',
+        video: 'https://www.youtube.com/watch?v=TeqilOEgG74'
+    },
+    {
         id: 'SPB_20220613_1',
         date: '2022-06-13',
         endDate: '2022-06-18',
@@ -860,6 +850,25 @@ let events2022 = [
         info: 'ВСЕРОССИЙСКИЕ СОРЕВНОВАНИЯ ПО ТРЕЙЛ-ОРИЕНТИРОВАНИЮ «ЧЕМПИОНАТ И ПЕРВЕНСТВО ФЕДЕРАЦИИ СПОРТИВНОГО ОРИЕНТИРОВАНИЯ РОССИИ»',
         owner: 'SFSO_LO',
         o_site: '220618_trailo'
+    },
+    {
+        id: 'SPB_20220613_2',
+        date: '2022-06-13',
+        place: 'Выборг',
+        name: 'ККП #1',
+        type: 'ORIENT',
+        fmt: 'классика',
+        start: 'KKP',
+        o_site: '220613-16_KKP',
+        video: [
+            'http://vk.com/video-93257360_456239179',
+            'https://vkvideo.ru/video-93257360_456239172',
+            'https://www.youtube.com/watch?v=k6hEF6Gy08o',
+            'https://www.youtube.com/watch?v=okR-qVsJlFQ',
+            'https://www.youtube.com/watch?v=G11RRJXzr9U',
+        ],
+        reskeep: 536,
+        strava: 7301364842
     },
     {
         id: 'SPB_20220614_1',
@@ -877,6 +886,34 @@ let events2022 = [
             'М45/21А': 13450,
             'ALL': 13352,
         },
+        video: [
+            'https://vkvideo.ru/video-93257360_456239173',
+            'https://www.youtube.com/watch?v=7flfOdWND4g',
+            'https://www.youtube.com/watch?v=Mj49gwogR-0',
+            'https://www.youtube.com/watch?v=m0soMz91AHM',
+            'https://www.youtube.com/watch?v=1MUx93Vnbwc',
+            'https://rutube.ru/video/dde67d2dd1ae459b0693e8b180183657/'
+        ],
+        reskeep: 547,
+        strava: 7306552917
+    },
+    {
+        id: 'SPB_20220615_1',
+        date: '2022-06-15',
+        place: 'Выборг',
+        name: 'ККП #3',
+        type: 'ORIENT',
+        fmt: 'лонг-масстарт',
+        start: 'KKP',
+        o_site: '220613-16_KKP',
+        reskeep: 548,
+        strava: 7312045246,
+        video: [
+            'https://vkvideo.ru/video-93257360_456239174',
+            'https://www.youtube.com/watch?v=zMeycC23YgI',
+            'https://www.youtube.com/watch?v=2Y35LlCDc6Y',
+            'https://www.youtube.com/watch?v=B1j86stckv0'
+        ]
     },
     {
         id: 'SPB_20220616_1',
@@ -894,6 +931,14 @@ let events2022 = [
             'Все КП': 13361,
             'М45/21А': 13376,
         },
+        strava: 7317347262,
+        reskeep: 549,
+        video: [
+            'https://vkvideo.ru/video-93257360_456239175',
+            'https://www.youtube.com/watch?v=0VCwyeNpzEY',
+            'https://www.youtube.com/watch?v=VVIKbMxqd0U',
+            'https://www.youtube.com/watch?v=C9PwVpfrwqI'
+        ]
     },
     {
         id: 'SPB_20220617_1',

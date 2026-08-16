@@ -671,7 +671,8 @@ let events2016 = [
             'https://www.youtube.com/watch?v=ccDgYo9KzNg',
             'https://www.youtube.com/watch?v=rnbF6Eb1DhE',
             'https://www.youtube.com/watch?v=p0Vc95g14yo',
-            'https://www.youtube.com/watch?v=3npql35PxRA'
+            'https://www.youtube.com/watch?v=3npql35PxRA',
+            'https://www.youtube.com/watch?v=GDZYtaUk6G0'
         ],
         start: 'KKP',
         o_site: '160619-24',

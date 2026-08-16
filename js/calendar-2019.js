@@ -864,15 +864,20 @@ let events2019 = [
         place: 'Каменогорск',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190616-21_KKP/20190617_kkp_1_rez.htm',
-        video: [
-            'http://northernwind.spb.ru/videosplit/2019/kkp/day1',
-            'http://northernwind.spb.ru/videosplit/2019/kkp/day2',
-            'https://www.youtube.com/watch?v=xHGuA_XHXLc',
-            'https://www.youtube.com/watch?v=ENZuiWbswwE'
-        ],
+        video: 'https://www.youtube.com/watch?v=xHGuA_XHXLc',
         start: 'KKP',
         o_site: '190616-21_KKP',
-        reskeep: [167, 168, 169, 170]
+    },
+    {
+        id: 'SPB_20190617_2',
+        date: '2019-06-17',
+        name: 'ККП #1',
+        place: 'Каменогорск',
+        type: 'ORIENT',
+        start: 'KKP',
+        o_site: '190616-21_KKP',
+        reskeep: 167,
+        video: 'http://northernwind.spb.ru/videosplit/2019/kkp/day1'
     },
     {
         id: 'SPB_20190618_1',
@@ -888,6 +893,11 @@ let events2019 = [
             'Ж': 5958,
             'ALL': 5959,
         },
+        reskeep: 168,
+        video: [
+            'http://northernwind.spb.ru/videosplit/2019/kkp/day2',
+            'https://www.youtube.com/watch?v=ENZuiWbswwE'
+        ]
     },
     {
         id: 'SPB_20190619_1',
@@ -905,6 +915,7 @@ let events2019 = [
             'M18': 5982,
             'ALL': 5966,
         },
+        reskeep: 169
     },
     {
         id: 'SPB_20190620_1',
@@ -922,6 +933,7 @@ let events2019 = [
             'М18': 5988,
             'ALL': 5969,
         },
+        reskeep: 170
     },
     {
         id: 'SPB_20190620_1',

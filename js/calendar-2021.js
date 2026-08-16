@@ -535,7 +535,6 @@ let events2021 = [
         photo: 'http://vk.com/album-19102553_281720876',
         info: 'Открытые массовые соревнования Ленинградской области 1 мая - кросс-спринт, г. Сертолово 2 мая - кросс-классика, д. Энколово 3 мая - кросс-классика, п. Юкки',
         video: [
-            'https://www.youtube.com/watch?v=2aQF0F5Y52w',
             'https://www.youtube.com/watch?v=t414a10nXVc',
             'https://rutube.ru/video/0f784e1a8e2e99a52b4ca93c50bd49c3/',
             'https://rutube.ru/video/51c3c897bd21b09f5bb0fed5af54eace/',
@@ -1011,23 +1010,25 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210612-18_KKP/210613-24_vseros.rar',
         info: 'В рамках соревнований "Кубок Карельского Перешейка - 2021" состоятся: 12 июня - Трейл «Скалы бесконечности». 12 июня - Ночная эстафета по ориентированию «Пирамида». Заявка. 13 июня - Детская эстафета по ориентированию «Каменюкола». Заявка.',
         video: [
-            'https://www.youtube.com/watch?v=xa-xlJAm9rY',
-            'https://www.youtube.com/watch?v=GiBMhw5FW5M',
-            'https://www.youtube.com/watch?v=JQ_BQAA4Mho',
-            'https://www.youtube.com/watch?v=2aQF0F5Y52w',
-            'https://rutube.ru/video/0e7079b094a626fbe51935aa7cf880ce/',
             'https://www.youtube.com/watch?v=91gHZ73pbJ4',
-            'https://www.youtube.com/watch?v=4PS1TbAmvVw',
-            'https://www.youtube.com/watch?v=3EzV2Y0fy8g',
-            'https://www.youtube.com/watch?v=IhcGk_yX2Jc',
             'https://www.youtube.com/watch?v=OLftfHGY-Xw',
             'https://www.youtube.com/watch?v=QBYO0G-YnJ0',
             'https://www.youtube.com/watch?v=vnw0VrvQi1k'
         ],
         start: 'KKP',
         o_site: '210612-18_KKP',
-        reskeep: [474, 477, 478, 479],
-        strava: [5458197904,5460852214,5462673247,5469051700,5473397540,5479172883,5484649702,5485783437,5489340513]
+        strava: [5458197904,5462673247,5485783437,5489340513]
+    },
+    {
+        id: 'SPB_20210612_2',
+        date: '2021-06-12',
+        place: 'Каменногорск',
+        name: 'ПИРАМИДА',
+        type: 'ORIENT',
+        fmt: 'ночная эстафета',
+        start: 'KKP',
+        o_site: '210612-18_KKP',
+        strava: 5460852214
     },
     {
         id: 'SPB_20210613_1',
@@ -1051,6 +1052,70 @@ let events2021 = [
         link: 'https://vk.com/rogaine110',
         video: 'https://www.youtube.com/watch?v=aXCgUAfIX1Q',
         start: 'ROGAINE_110'
+    },
+    {
+        id: 'SPB_20210614_1',
+        date: '2021-06-14',
+        place: 'Каменногорск',
+        name: 'ККП #1',
+        type: 'ORIENT',
+        fmt: 'классика',
+        start: 'KKP',
+        o_site: '210612-18_KKP',
+        reskeep: 476,
+        strava: 5469051700,
+        video: [
+            'https://www.youtube.com/watch?v=xa-xlJAm9rY',
+            'https://rutube.ru/video/0e7079b094a626fbe51935aa7cf880ce/'
+        ]
+    },
+    {
+        id: 'SPB_20210615_1',
+        date: '2021-06-15',
+        place: 'Каменногорск',
+        name: 'ККП #2',
+        type: 'ORIENT',
+        fmt: 'лонг',
+        start: 'KKP',
+        o_site: '210612-18_KKP',
+        reskeep: 477,
+        strava: 5473397540,
+        video: [
+            'https://www.youtube.com/watch?v=4PS1TbAmvVw',
+            'https://www.youtube.com/watch?v=GiBMhw5FW5M'
+        ]
+    },
+    {
+        id: 'SPB_20210616_1',
+        date: '2021-06-16',
+        place: 'Каменногорск',
+        name: 'ККП #3',
+        type: 'ORIENT',
+        fmt: 'лонг-масстарт',
+        start: 'KKP',
+        o_site: '210612-18_KKP',
+        reskeep: 478,
+        strava: 5479172883,
+        video: [
+            'https://www.youtube.com/watch?v=3EzV2Y0fy8g',
+            'https://www.youtube.com/watch?v=JQ_BQAA4Mho'
+        ]
+    },
+    {
+        id: 'SPB_20210617_1',
+        date: '2021-06-17',
+        place: 'Каменногорск',
+        name: 'ККП #4',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        start: 'KKP',
+        o_site: '210612-18_KKP',
+        reskeep: 479,
+        strava: 5484649702,
+        video: [
+            'https://www.youtube.com/watch?v=IhcGk_yX2Jc',
+            'https://www.youtube.com/watch?v=2aQF0F5Y52w'
+        ]
     },
     {
         id: 'SPB_20210619_1',
