@@ -113,10 +113,11 @@ let events2011 = [
         date: '2011-02-23',
         place: 'стадион ВИФК (Кавголово)',
         name: 'Открытое пер-во ВИФК',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/110223/110223_res.htm',
         fmt: 'масс-старт в заданном направлении на лыжах.',
-        o_site: '110223'
+        o_site: '110223',
+        map: 'toksovo_vifk_winter_2023'
     },
     {
         id: 'SPB_20110227_1',

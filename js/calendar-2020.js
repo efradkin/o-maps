@@ -1791,6 +1791,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1330',
         o_site: '211231',
-        reskeep: 417
+        reskeep: 417,
+        map: 'sosnovka_2014'
     }
 ];

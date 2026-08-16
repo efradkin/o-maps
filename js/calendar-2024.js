@@ -8,7 +8,8 @@ let events2024 = [
         type: 'SKI',
         reg: 'http://sportident.online/entry/?id=6012',
         res: 'https://o-site.spb.ru/_races/240106_UTS/02_01_lager_split.htm',
-        o_site: '240106_UTS'
+        o_site: '240106_UTS',
+        map: 'tsvelodubovo_winter_2003'
     },
     {
         id: 'SPB_20240107_1',
@@ -21,7 +22,8 @@ let events2024 = [
         info: 'Традиционные Рождественские старты от клуба Норд Вест',
         owner: 'NW',
         o_site: '240108_RS',
-        reskeep: [637, 638]
+        reskeep: [637, 638],
+        map: 'tsvelodubovo_winter_2003'
     },
     {
         id: 'SPB_20240108_1',
@@ -32,7 +34,8 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/kirovsk_ski_o_2024',
         owner: 'SFSO_LO',
         o_site: '240107',
-        strava: 10517183623
+        strava: 10517183623,
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20240108_2',
@@ -49,12 +52,14 @@ let events2024 = [
         endDate: '2024-01-14',
         place: 'Аньялово',
         name: 'Чемпионат и Первенство Санкт-Петербурга, Аньялово',
-        type: 'ORIENT',
+        type: 'SKI',
+        fmt: 'маркир, масстарт',
         res: 'https://o-site.spb.ru/_races/240114/split1.htm',
         info: 'Проходит при поддержке: ДОЛ "Зарница", ГУП "Горэлектротранс"',
         owner: 'SFSO_SPB',
         o_site: '240114',
-        reskeep: [639, 640]
+        reskeep: [639, 640],
+        map: 'anyalovo_winter_2023'
     },
     {
         id: 'SPB_20240114_1',
@@ -75,23 +80,26 @@ let events2024 = [
         endDate: '2024-01-21',
         place: 'Будогощь',
         name: 'Чемпионат и первенство ЛО, Будогощь',
-        type: 'ORIENT',
+        type: 'SKI',
+        fmt: 'маркир',
         owner: 'SFSO_LO',
-        o_site: '24011921'
+        o_site: '24011921',
+        map: 'budogosch_svetloe_winter_2024'
     },
     {
         id: 'SPB_20240120_1',
         date: '2024-01-20',
         endDate: '2024-01-21',
-        place: 'Стеклянный',
-        name: 'Чемпионат и Первенство Санкт-Петербурга, Стеклянный',
+        place: 'Силанде',
+        name: 'Чемпионат и Первенство Санкт-Петербурга',
         type: 'SKI',
         res: 'http://orgeo.ru/live/#/33000/2',
         photo: 'http://vk.com/album-154221178_301140651',
         info: 'Чемпионат и Первенство Санкт-Петербурга. Межмуниципальные соревнования. Первенство СФСО Санкт-Петербурга. Программа: 20 января (суббота) — «Лыжная гонка‐спринт»; 21 января (воскресенье) — «Лыжная гонка‐классика».',
         owner: 'SFSO_SPB',
         o_site: '240121',
-        reskeep: [635, 636]
+        reskeep: [635, 636],
+        map: 'silande_winter_2024'
     },
     {
         id: 'SPB_20240127_1',
@@ -111,7 +119,8 @@ let events2024 = [
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/31914',
         info: 'Официальные соревнования Санкт-Петербурга с присвоением разрядов.',
-        o_site: '240128'
+        o_site: '240128',
+        map: 'politekh_2022'
     },
     {
         id: 'SPB_20240203_1',
@@ -119,9 +128,10 @@ let events2024 = [
         endDate: '2024-02-04',
         name: 'VIII Всероссийская Зимняя Универсиада',
         place: 'Токсово (ВИФК)',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/240204/team_total.pdf',
-        o_site: '240204'
+        o_site: '240204',
+        map: 'toksovo_vifk_winter_2023'
     },
     {
         id: 'SPB_20240203_2',
@@ -132,7 +142,8 @@ let events2024 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1585',
         res: 'http://orgeo.ru/event/33335',
-        o_site: '240204_fl'
+        o_site: '240204_fl',
+        map: 'toksovo_vifk_winter_2023'
     },
     {
         id: 'SPB_20240203_3',
@@ -146,7 +157,8 @@ let events2024 = [
             'https://vk.com/doc482749_671075732?hash=To73cT5QHBVSaTUIuZymFhiwQ2hEzbSIPWzzPnXzsZH',
             'https://vk.com/event166397868?w=wall-166397868_4110'
         ],
-        o_gps: 18329
+        o_gps: 18329,
+        map: 'toloni_2025'
     },
     {
         id: 'SPB_20240211_1',
@@ -156,7 +168,8 @@ let events2024 = [
         type: 'ORIENT',
         res: 'http://orgeo.ru/event/33534',
         owner: 'SFSO_SPB',
-        o_site: '240211'
+        o_site: '240211',
+        map: 'zerkalny_tarasovskoe_winter_2023'
     },
     {
         id: 'SPB_20240217_1',
@@ -166,7 +179,8 @@ let events2024 = [
         name: 'Зимние старты в Зеркальном',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/33723',
-        o_site: '240218'
+        o_site: '240218',
+        map: 'zerkalny_tarasovskoe_winter_2023'
     },
     {
         id: 'SPB_20240224_1',
@@ -176,7 +190,8 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/kiteadv',
         info: 'В связи с погодными условиями соревнования Kite Adventure Orient Race «ТУУТАРЭЙС» переносятся предварительно на следующие выходные!!!',
-        o_site: '240224'
+        o_site: '240224',
+        map: 'tuutari_2004'
     },
     {
         id: 'SPB_20240224_2',
@@ -201,7 +216,8 @@ let events2024 = [
         link: 'https://orgeo.ru/event/33767',
         res: 'https://vk.com/wall-92124592_1894',
         o_gps: 18468,
-        strava: 10832167769
+        strava: 10832167769,
+        map: 'sosnovka_2024'
     },
     {
         id: 'SPB_20240303_1',
@@ -1951,14 +1967,15 @@ let events2024 = [
         id: 'SPB_20241124_1',
         date: '2024-11-24',
         place: 'Сосновка',
-        name: 'Снежная тропа, Сосновка',
+        name: 'Снежная тропа',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1642',
         res: 'http://orgeo.ru/live/#/38447',
         owner: 'SFSO_SPB',
         o_site: '241124',
         strava: 12970748065,
-        reskeep: 672
+        reskeep: 672,
+        map: 'sosnovka_2024'
     },
     {
         id: 'SPB_20241126_1',

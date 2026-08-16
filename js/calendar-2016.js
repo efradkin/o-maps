@@ -104,7 +104,8 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160221_st/160221_res.htm',
         photo: 'http://vk.com/fotografiruy_vse?z=photo-42649628_403107330%2Falbum-42649628_228558137%2Frev',
         owner: 'SFSO_SPB',
-        o_site: '160221_st'
+        o_site: '160221_st',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20160223_1',
@@ -479,7 +480,8 @@ let events2016 = [
         photo: 'http://yadi.sk/d/hkJV8vtss2VZM',
         owner: 'SFSO_SPB',
         o_site: '160521',
-        reskeep: 256
+        reskeep: 256,
+        map: 'politekh_2022'
     },
     {
         id: 'SPB_20160521_2',
@@ -1283,7 +1285,8 @@ let events2016 = [
         place: 'Сосновка',
         type: 'ORIENT',
         info: 'Тренировочный старт для новичков на маркированной трассе в Сосновке.',
-        o_site: '161119_nov'
+        o_site: '161119_nov',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20161120_1',
@@ -1351,7 +1354,8 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/2016_Orientir/161204_res.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
-        o_site: '2016_Orientir'
+        o_site: '2016_Orientir',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20161210_1',
@@ -1384,7 +1388,8 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/161218_ST/161218_res.htm',
         info: '18 декабря 2016 г. состоится финальный этап Кубка Санкт-Петербурга "СНЕЖНАЯ ТРОПА - 2016". Соревнования пройдут в южной части парка "Сосновка". Размещение участников в школе № 534 (Светлановский пр., 31). В программе спринтерская дистанция в заданном направлении.',
         owner: 'SFSO_SPB',
-        o_site: '161218_ST'
+        o_site: '161218_ST',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20161225_1',

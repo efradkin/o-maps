@@ -1330,7 +1330,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/151205/151205_res.htm',
         info: 'Серия тренировочных стартов, проводимых КСО "Азимут".',
         logo: 'azimut.gif',
-        o_site: '151205'
+        o_site: '151205',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20151206_1',

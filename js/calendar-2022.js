@@ -51,12 +51,13 @@ let events2022 = [
         date: '2022-01-22',
         endDate: '2022-01-23',
         place: 'Токсово, база ВИФК',
-        name: 'Чемпионат и Первенство Санкт-Петербурга, Токсово',
+        name: 'Чемпионат и Первенство Санкт-Петербурга',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/220122/220122_res.htm',
         owner: 'SFSO_SPB',
         o_site: '220122',
-        reskeep: [507, 508]
+        reskeep: [507, 508],
+        map: 'toksovo_vifk_winter_2023'
     },
     {
         id: 'SPB_20220205_1',
@@ -1903,7 +1904,8 @@ let events2022 = [
         owner: 'SFSO_SPB',
         o_site: '221127',
         strava: 8174691972,
-        reskeep: 567
+        reskeep: 567,
+        map: 'politekh_2022'
     },
     {
         id: 'SPB_20221129_1',
@@ -1949,7 +1951,8 @@ let events2022 = [
         owner: 'SFSO_SPB',
         o_site: '221211',
         strava: 8235260865,
-        reskeep: 580
+        reskeep: 580,
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20221218_1',

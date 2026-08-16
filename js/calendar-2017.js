@@ -77,10 +77,11 @@ let events2017 = [
         date: '2017-01-28',
         place: 'Кавголово, база ВИФК',
         name: 'Тренировка на ВИФКе',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=681',
         res: 'https://o-site.spb.ru/_races/170128_Sh/170128_res.htm',
-        o_site: '170128_Sh'
+        o_site: '170128_Sh',
+        map: 'toksovo_vifk_winter_2023'
     },
     {
         id: 'SPB_20170211_1',
@@ -287,7 +288,8 @@ let events2017 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/170223_VT/170409_rez.htm',
-        o_site: '170223_VT'
+        o_site: '170223_VT',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20170412_1',
@@ -638,7 +640,8 @@ let events2017 = [
         name: 'Всемирный День Ориентирования',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170524/170524_res.htm',
-        o_site: '170524'
+        o_site: '170524',
+        map: 'politekh_2022'
     },
     {
         id: 'SPB_20170527_1',
@@ -1040,7 +1043,8 @@ let events2017 = [
         name: 'Политех-квест',
         type: 'ROGAINE',
         fmt: '1.5',
-        link: 'https://vk.com/politech_academy'
+        link: 'https://vk.com/politech_academy',
+        map: 'politekh_2022'
     },
     {
         id: 'SPB_20170909_1',
@@ -1484,7 +1488,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/2017_Orientir/171125_res.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
-        o_site: '2017_Orientir'
+        o_site: '2017_Orientir',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20171126_1',
@@ -1523,7 +1528,8 @@ let events2017 = [
         place: 'Сосновка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171119_VT/171210_rez.htm',
-        o_site: '171119_VT'
+        o_site: '171119_VT',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20171216_1',

@@ -260,7 +260,8 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=996',
         res: 'http://o-site.spb.ru/_races/190317/190317_res.htm',
-        o_site: '190317'
+        o_site: '190317',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20190407_1',
@@ -1245,7 +1246,8 @@ let events2019 = [
         name: 'Политех-квест',
         type: 'ROGAINE',
         fmt: '1,5',
-        link: 'https://vk.com/politech_academy'
+        link: 'https://vk.com/politech_academy',
+        map: 'politekh_2022'
     },
     {
         id: 'SPB_20190905_1',
@@ -1728,7 +1730,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/191109tr/protokol_191109.pdf',
         info: 'Мероприятие проводится с целью развития трейл-ориентирования и подготовки спортсменов к международным и всероссийским соревнованиям. Организаторы: комиссия по трейл-ориентированию Федерации спортивного ориентирования Санкт-Петербурга, туристско-спортивный клуб «31 КП», клуб «Азимут».',
-        o_site: '191109tr'
+        o_site: '191109tr',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20191109_2',
@@ -1836,7 +1839,8 @@ let events2019 = [
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '191130_NatAlka',
-        strava: 2901197392
+        strava: 2901197392,
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20191201_1',
@@ -1945,6 +1949,7 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1123',
         res: 'http://o-site.spb.ru/_races/191231/191231_res.htm',
-        o_site: '191231'
+        o_site: '191231',
+        map: 'sosnovka_2014'
     }
 ];

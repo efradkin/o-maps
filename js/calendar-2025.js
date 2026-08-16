@@ -240,7 +240,8 @@ let events2025 = [
             60.460798,
             30.306566
         ],
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20250308_1',
@@ -2109,6 +2110,7 @@ let events2025 = [
             29.829899
         ],
         owner: 'WN',
+        map: 'michurinskoe_2022',
         strava: 15887917340,
         me: 'М40'
     },
@@ -2908,7 +2910,7 @@ let events2025 = [
             'https://disk.yandex.ru/d/HWKvXRSr7BG2Pg'
         ],
         o_gps: 23873,
-        map: 'omchino_luzhsky_2022',
+        map: 'toloni_2025',
         owner: 'SHBN'
     },
     {

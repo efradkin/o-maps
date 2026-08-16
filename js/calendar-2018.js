@@ -551,7 +551,8 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=884',
         res: 'https://o-site.spb.ru/_races/180519_RA_SPb/180519_RES.htm',
         owner: 'SFSO_SPB',
-        o_site: '180519_RA_SPb'
+        o_site: '180519_RA_SPb',
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20180519_3',
@@ -1092,7 +1093,8 @@ let events2018 = [
         name: 'Политех-квест',
         type: 'ROGAINE',
         fmt: '1.5',
-        link: 'https://vk.com/politech_academy'
+        link: 'https://vk.com/politech_academy',
+        map: 'politekh_2022'
     },
     {
         id: 'SPB_20180905_1',
@@ -1809,7 +1811,8 @@ let events2018 = [
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут". В 2018 году старт проводится в память об организаторе тренировки Яшуковой Натальи Викторовны.',
         logo: 'azimut.gif',
         o_site: '181201_NatAlka',
-        reskeep: 97
+        reskeep: 97,
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20181202_1',
@@ -1878,7 +1881,8 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/181216/https://orgeo.ru/live/#/8228',
         owner: 'SFSO_SPB',
         o_site: '181216',
-        reskeep: 101
+        reskeep: 101,
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20181222_1',

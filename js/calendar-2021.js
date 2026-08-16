@@ -317,7 +317,8 @@ let events2021 = [
         owner: 'SFSO_SPB',
         o_site: '210308',
         reskeep: 427,
-        strava: 4911544041
+        strava: 4911544041,
+        map: 'sosnovka_2014'
     },
     {
         id: 'SPB_20210308_2',

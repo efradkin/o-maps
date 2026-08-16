@@ -2534,7 +2534,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/48943',
         fmt: '6, 3',
         type: 'ROGAINE',
-        map: 'omchino_luzhsky_2022',
+        map: 'toloni_2025',
         owner: 'SHBN'
     },
     {
