@@ -91,7 +91,7 @@ let starts = {
         info: 'Дистанция средней длины с большим количеством пунктов.',
         foto: ['gs_champions.jpg'],
         page: 'starts',
-        planner: 'PRVSKY'
+        planner: 'GBNV_V'
     },
     ST: {
         short: 'Спринт-Тур',

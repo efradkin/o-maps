@@ -1169,7 +1169,8 @@ let events2022 = [
         start: 'GS',
         o_site: '220820ZZ',
         o_gps: 16563,
-        map: 'gs_2022_08_20'
+        map: 'gs_2022_08_20',
+        planner: 'PRVSKY'
     },
     {
         id: 'SPB_20220820_2',

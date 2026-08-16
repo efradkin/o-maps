@@ -1182,7 +1182,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190824/190824_split.htm',
         start: 'GS',
         o_site: '190824',
-        map: 'gs_2019_08_24'
+        map: 'gs_2019_08_24',
+        planner: 'PRVSKY'
     },
     {
         id: 'SPB_20190825_1',

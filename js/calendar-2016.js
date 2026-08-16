@@ -869,7 +869,6 @@ let events2016 = [
         start: 'GS',
         o_site: '160827_ZZ',
         map: 'gs_2016_08_27',
-        planner: 'GBNV_V'
     },
     {
         id: 'SPB_20160828_1',

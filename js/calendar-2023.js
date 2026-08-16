@@ -1290,7 +1290,8 @@ let events2023 = [
         o_gps: 17075,
         strava: 9723034967,
         reskeep: 590,
-        map: 'gs_2023_08_26'
+        map: 'gs_2023_08_26',
+        planner: 'KSRKV'
     },
     {
         id: 'SPB_20230826_2',

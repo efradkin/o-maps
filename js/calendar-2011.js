@@ -605,7 +605,6 @@ let events2011 = [
         start: 'GS',
         o_site: '110828_Az',
         map: 'gs_2011_08_28',
-        planner: 'GBNV_V'
     },
     {
         id: 'SPB_20110910_1',

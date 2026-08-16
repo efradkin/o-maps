@@ -797,7 +797,6 @@ let events2013 = [
         start: 'GS',
         o_site: '130825_ZZ',
         map: 'gs_2013_08_25',
-        planner: 'GBNV_V'
     },
     {
         id: 'SPB_20130905_1',

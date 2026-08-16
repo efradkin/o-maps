@@ -1295,7 +1295,8 @@ let events2021 = [
         o_gps: 10764,
         reskeep: 475,
         strava: 5828500904,
-        map: 'gs_2021_08_21'
+        map: 'gs_2021_08_21',
+        planner: 'PRVSKY'
     },
     {
         id: 'SPB_20210821_2',
