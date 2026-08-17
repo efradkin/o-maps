@@ -307,12 +307,16 @@ let otherMaps = [
     // --- Иркутск ---
     {
         name: 'Одинск',
-        date: '2024-08-25',
-        url: './maps/other/odinsk_rogaine_2024.webp',
-        link: './original_maps/other/odinsk_rogaine_2024_omaps.webp',
-        o_gps: 20260,
+        date: ['2026-08-16','2024-08-25'],
+        url: './maps/other/odinsk_rogaine_2026.webp',
+        link: ['./original_maps/other/odinsk_rogaine_2026_omaps.webp','./original_maps/other/odinsk_rogaine_2024_omaps.webp'],
+        about: 'https://vk.ru/rogaining_irk',
+        o_gps: {
+            '2026':25749,
+            '2024':20260
+        },
         info: 'Бегущие от медведя.',
-        bounds: [[52.4715928, 103.7471581], [52.4600888, 103.782177], [52.4394002, 103.7181044]],
+        bounds: [[52.4615008, 103.7086201], [52.4689263, 103.7664700], [52.4099328, 103.7283182]],
         author: ['JASHPTRV','PZDV_S','PLKTV_V'],
         region: 'IRKUTSK',
         type: ['ROGAINE']

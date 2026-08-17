@@ -42,7 +42,8 @@ const regions = {
         logo: 'pkfso.webp'
     },
     IRKUTSK: {
-        name: 'Иркутская обл'
+        name: 'Иркутская обл',
+        logo: 'irkutsk_rogaine.webp'
     },
     KABARDA: {
         name: 'Кабардино-Балкария'
