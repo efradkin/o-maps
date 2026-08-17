@@ -2247,7 +2247,8 @@ let events2026 = [
         date: '2026-08-20',
         name: 'Физкультурное мероприятие по ориентированию',
         place: 'парк Интернационалистов',
-        link: 'https://vk.ru/wall-30686281_24856',
+        link: 'https://vk.ru/wall-30686281_25066',
+        reg: 'https://forms.yandex.ru/u/6a80bcdd95add55c0d9988bc/',
         type: 'ORIENT',
         map: 'internatsionalistov_2021',
         owner: 'FRUNZ_SPORT'
@@ -2267,9 +2268,10 @@ let events2026 = [
         id: 'SPB_20260827_1',
         date: '2026-08-27',
         name: 'Отборочный старт Центра «Академия талантов»',
-        place: 'Ушково, Пухтолова гора',
+        place: 'Пухтолова гора',
         o_site: '260827',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1747',
+        info: '+ тренировочный дистанции.',
         type: 'ORIENT',
         owner: 'SFSO_SPB'
     },
