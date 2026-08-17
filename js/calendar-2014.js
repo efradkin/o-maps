@@ -382,7 +382,8 @@ let events2014 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140518_SPb/140518_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '140518_SPb'
+        o_site: '140518_SPb',
+        map: 'piskarevsky_2012'
     },
     {
         id: 'SPB_20140521_1',
@@ -1039,7 +1040,8 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/141123/141123_res.pdf',
         video: 'https://www.youtube.com/watch?v=Ja4sI7qFx74',
         owner: 'SFSO_SPB',
-        o_site: '141123'
+        o_site: '141123',
+        map: 'piskarevsky_2012'
     },
     {
         id: 'SPB_20141125_1',

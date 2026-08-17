@@ -2217,6 +2217,7 @@ let events2026 = [
         link: 'https://vk.ru/wall-204901355_4395',
         reg: 'https://forms.yandex.ru/u/6a56275e49af4739c8c78f26/',
         place: 'Полежаевский парк',
+        photo: 'https://cloud.mail.ru/public/ZHsn/b8vBJMjqT',
         type: 'ORIENT',
         map: 'polezhaevsky_south_2021'
     },

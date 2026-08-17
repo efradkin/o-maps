@@ -105,7 +105,8 @@ let events2006 = [
         info: '4-й этап паркового тура',
         fmt: 'ориентирование по выбору',
         owner: 'SFSO_SPB',
-        o_site: '060225_tr4'
+        o_site: '060225_tr4',
+        map: 'piskarevsky_1996'
     },
     {
         id: 'SPB_20060302_1',
@@ -231,7 +232,8 @@ let events2006 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/060501MTBO/060501MTBO-rez.htm',
         info: 'Первый этап Паркового Тура по вело-ориентированию',
-        o_site: '060501MTBO'
+        o_site: '060501MTBO',
+        map: 'sosnovka_2004'
     },
     {
         id: 'SPB_20060508_1',
@@ -262,7 +264,8 @@ let events2006 = [
         type: 'VELO',
         res: 'http://ski-o-spb.narod.ru/s06/pt2.htm',
         info: 'Парк Тур II по вело-О. Предлагаются дистанции по выбору по группам М, Ж, МЖ14.',
-        o_site: '060509MTBO'
+        o_site: '060509MTBO',
+        map: 'piskarevsky_1996'
     },
     {
         id: 'SPB_20060513_1',
@@ -792,7 +795,8 @@ let events2006 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/061119/061119_res.zip',
         owner: 'SFSO_SPB',
-        o_site: '061119'
+        o_site: '061119',
+        map: 'sosnovka_2004'
     },
     {
         id: 'SPB_20061203_1',

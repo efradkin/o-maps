@@ -312,7 +312,8 @@ let events2013 = [
         name: 'Первенство Фрунзенского р-на среди школьников',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130424_Fr/130424_res.htm',
-        o_site: '130424_Fr'
+        o_site: '130424_Fr',
+        map: 'sosnovka_2011'
     },
     {
         id: 'SPB_20130427_1',
@@ -531,7 +532,8 @@ let events2013 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130526_SPb/130526_split.htm',
         owner: 'SFSO_SPB',
-        o_site: '130526_SPb'
+        o_site: '130526_SPb',
+        map: 'udelny_2009'
     },
     {
         id: 'SPB_20130601_1',
@@ -1060,7 +1062,8 @@ let events2013 = [
         place: 'Пискарёвский парк',
         name: 'П-во Калининского р-она',
         type: 'ORIENT',
-        video: 'https://www.youtube.com/watch?v=tux3JClNVTY'
+        video: 'https://www.youtube.com/watch?v=tux3JClNVTY',
+        map: 'piskarevsky_2012'
     },
     {
         id: 'SPB_20131026_1',

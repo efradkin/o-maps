@@ -170,7 +170,8 @@ let events2005 = [
         name: 'Открытие сезона МТБ-О',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/050423/velootkr2005.htm',
-        o_site: '050423'
+        o_site: '050423',
+        map: 'udelny_2004'
     },
     {
         id: 'SPB_20050423_2',
@@ -753,7 +754,8 @@ let events2005 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051113/051113_res.zip',
         owner: 'SFSO_SPB',
-        o_site: '051113'
+        o_site: '051113',
+        map: 'udelny_2004'
     },
     {
         id: 'SPB_20051127_1',

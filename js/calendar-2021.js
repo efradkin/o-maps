@@ -802,7 +802,8 @@ let events2021 = [
         photo: 'http://vk.com/album-154221178_279461137',
         owner: 'SFSO_SPB',
         o_site: '210523',
-        reskeep: 465
+        reskeep: 465,
+        map: 'udelny_2022'
     },
     {
         id: 'SPB_20210526_1',

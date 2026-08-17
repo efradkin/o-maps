@@ -534,7 +534,8 @@ let events2016 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=610',
         owner: 'SFSO_SPB',
-        o_site: '160522'
+        o_site: '160522',
+        map: 'piskarevsky_2012'
     },
     {
         id: 'SPB_20160525_1',

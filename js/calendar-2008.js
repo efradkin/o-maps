@@ -155,7 +155,8 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/080316/080316_res.html',
         info: '5-й этап (финал) самых популярных и массовых соревнований по ориентированию в зимний период.',
         owner: 'SFSO_SPB',
-        o_site: '080316'
+        o_site: '080316',
+        map: 'udelny_2004'
     },
     {
         id: 'SPB_20080412_1',
@@ -337,7 +338,8 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080518_RA/080518_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '080518_RA'
+        o_site: '080518_RA',
+        map: 'sosnovka_2004'
     },
     {
         id: 'SPB_20080521_1',
@@ -346,7 +348,8 @@ let events2008 = [
         name: 'Ориентир',
         type: 'ORIENT',
         fmt: 'Выбор на 45 мин. (тренировка «Российского Азимута»).',
-        o_site: '080514'
+        o_site: '080514',
+        map: 'piskarevsky_1996'
     },
     {
         id: 'SPB_20080524_1',
@@ -889,7 +892,8 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/081123/081123_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '081123'
+        o_site: '081123',
+        map: 'piskarevsky_1996'
     },
     {
         id: 'SPB_20081129_1',
@@ -910,7 +914,8 @@ let events2008 = [
         place: 'Сосновка',
         type: 'ORIENT',
         logo: 'azimut.gif',
-        o_site: '081130'
+        o_site: '081130',
+        map: 'sosnovka_2004'
     },
     {
         id: 'SPB_20081130_2',

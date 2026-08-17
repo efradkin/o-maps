@@ -344,7 +344,8 @@ let events2009 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090517/090517_res.pdf',
         owner: 'SFSO_SPB',
-        o_site: '090517'
+        o_site: '090517',
+        map: 'udelny_2009'
     },
     {
         id: 'SPB_20090519_1',
@@ -995,7 +996,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090527/091129_res.htm',
         info: 'Традиционный заключительный тренировочный старт КСО Азимут',
         logo: 'azimut.gif',
-        o_site: '090527'
+        o_site: '090527',
+        map: 'sosnovka_2004'
     },
     {
         id: 'SPB_20091206_1',
@@ -1005,7 +1007,8 @@ let events2009 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091122/091206_split.htm',
         owner: 'SFSO_SPB',
-        o_site: '091122'
+        o_site: '091122',
+        map: 'piskarevsky_1996'
     },
     {
         id: 'SPB_20091213_1',

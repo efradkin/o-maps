@@ -255,7 +255,7 @@ let parkMaps = [
     {
         name: 'Сосновка',
         year: 2011,
-        url: './maps/parks/sosnovka_2019.webp',
+        url: './maps/parks/sosnovka_2011.webp',
         link: './original_maps/parks/sosnovka_2011_omaps.gif',
         bounds: [[60.033859, 30.3354406], [60.031844, 30.3700733], [60.0119873, 30.3302479]],
         author: ['DBRTSV_V','SHKLV','BRDR'],

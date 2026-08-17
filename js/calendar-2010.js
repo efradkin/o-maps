@@ -462,7 +462,8 @@ let events2010 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10RA_SPb/100530_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '10RA_SPb'
+        o_site: '10RA_SPb',
+        map: 'sosnovka_2004'
     },
     {
         id: 'SPB_20100604_1',
@@ -743,7 +744,8 @@ let events2010 = [
         name: 'Парковый спринт - этап Кубка СПб и ЛО',
         type: 'ORIENT',
         res: 'http://o-time.ru/images/all/s10/footo220910.htm',
-        o_site: '100922'
+        o_site: '100922',
+        map: 'piskarevsky_1996'
     },
     {
         id: 'SPB_20100924_1',
@@ -948,7 +950,8 @@ let events2010 = [
         info: '21 ноября 2010 г. - 1-й этап 12 декабря 2010 г. - 2-й этап',
         fmt: 'ориентирование по выбору',
         owner: 'SFSO_SPB',
-        o_site: '101121'
+        o_site: '101121',
+        map: 'piskarevsky_1996'
     },
     {
         id: 'SPB_20101127_1',

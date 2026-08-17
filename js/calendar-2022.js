@@ -1890,7 +1890,8 @@ let events2022 = [
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         strava: 8169719874,
         logo: 'azimut.gif',
-        o_site: '2022_Orientir'
+        o_site: '2022_Orientir',
+        map: 'udelny_2022'
     },
     {
         id: 'SPB_20221127_1',

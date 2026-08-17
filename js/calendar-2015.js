@@ -546,7 +546,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150517_RA_SPb/20150517_split.htm',
         info: 'Прием заявок в системе o-reg.spb.ru до 15:00 15 мая',
         owner: 'SFSO_SPB',
-        o_site: '150517_RA_SPb'
+        o_site: '150517_RA_SPb',
+        map: 'piskarevsky_2012'
     },
     {
         id: 'SPB_20150520_1',
@@ -1387,7 +1388,8 @@ let events2015 = [
         info: 'Вид программы: Ориентирование по выбору с обязательным первым КП.',
         video: 'http://www.northernwind.spb.ru/online/video/',
         owner: 'SFSO_SPB',
-        o_site: '151220_ST'
+        o_site: '151220_ST',
+        map: 'piskarevsky_2012'
     },
     {
         id: 'SPB_20151220_2',

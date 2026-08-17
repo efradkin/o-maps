@@ -251,7 +251,8 @@ let events2024 = [
         res: 'http://orgeo.ru/live/#/31914',
         owner: 'SFSO_SPB',
         o_site: '240308',
-        reskeep: 641
+        reskeep: 641,
+        map: 'piskarevsky_2024'
     },
     {
         id: 'SPB_20240309_1',
@@ -1998,7 +1999,8 @@ let events2024 = [
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
         strava: 13014282495,
-        o_site: '2024_Orientir'
+        o_site: '2024_Orientir',
+        map: 'piskarevsky_2024'
     },
     {
         id: 'SPB_20241201_1',
@@ -2059,7 +2061,8 @@ let events2024 = [
         res: 'http://orgeo.ru/live/#38447/2',
         owner: 'SFSO_SPB',
         o_site: '241215',
-        reskeep: 680
+        reskeep: 680,
+        map: 'udelny_2022'
     },
     {
         id: 'SPB_20241221_1',

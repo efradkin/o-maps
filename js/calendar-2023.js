@@ -259,7 +259,8 @@ let events2023 = [
         o_site: '230308_st',
         video: 'https://www.youtube.com/watch?v=roLL6mhHFrQ',
         strava: 8679956622,
-        reskeep: 582
+        reskeep: 582,
+        map: 'udelny_2022'
     },
     {
         id: 'SPB_20230311_1',
@@ -320,7 +321,8 @@ let events2023 = [
         name: 'Контрольный забег',
         place: 'Пискаревский парк',
         type: 'ORIENT',
-        strava: 8735227589
+        strava: 8735227589,
+        map: 'piskarevsky_2024'
     },
     {
         id: 'SPB_20230326_1',
@@ -1983,7 +1985,8 @@ let events2023 = [
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
         strava: 10279018304,
-        o_site: '2023_Orientir'
+        o_site: '2023_Orientir',
+        map: 'piskarevsky_2024'
     },
     {
         id: 'SPB_20231125_2',
