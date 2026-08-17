@@ -568,7 +568,8 @@ let events2007 = [
         start: 'MMS',
         o_site: '070622',
         endDate: '2007-06-24',
-        map: 'mms_2007_06_24'
+        map: 'mms_2007_06_24',
+        planner: 'SHEIN'
     },
     {
         id: 'SPB_20070624_1',

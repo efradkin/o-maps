@@ -559,6 +559,7 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/12070306/KKP2012_res.zip',
         start: 'KKP',
         o_site: '12070306',
+        planner: 'TLNV_A',
         map: ['kkp_2012_07_02','kkp_2012_07_04']
     },
     {

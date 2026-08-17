@@ -2336,10 +2336,7 @@ let events2025 = [
         type: 'ORIENT',
         o_site: '251007_NS',
         reg: 'https://orgeo.ru/event/info/45533',
-        reskeep: [
-            801,
-            802
-        ],
+        reskeep: [801, 802],
         o_gps: {
             '4-М': 23568,
             '4-Фит': 23605,
@@ -2368,7 +2365,9 @@ let events2025 = [
             'http://northernwind.spb.ru/videosplit/2025/NevskiySprint/day3/festival',
             'https://rutube.ru/video/797a428cd6245962c61c9385092ac1b3/',
             'https://rutube.ru/video/ccbae3f2817a06db737c95a340823929/',
-            'https://www.youtube.com/watch?v=Cga7gAcCAWY'
+            'https://www.youtube.com/watch?v=Cga7gAcCAWY',
+            'https://www.youtube.com/watch?v=BfDZjOGhcF0',
+            'https://www.youtube.com/watch?v=9Ri0V0_VPMg'
         ],
         strava: 16040676104,
         me: 'Фит'

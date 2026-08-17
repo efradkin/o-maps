@@ -1776,7 +1776,8 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/info/37598',
         res: 'http://orgeo.ru/live/#/37598',
         owner: 'SFSO_SPB',
-        o_site: '241014'
+        o_site: '241014',
+        video: ['https://www.youtube.com/watch?v=QqH4NTkUANw','https://www.youtube.com/watch?v=xEt_Z9K5AU4']
     },
     {
         id: 'SPB_20241012_3',

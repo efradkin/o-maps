@@ -2564,6 +2564,15 @@ let eventsEarly = [
         res: './docs/1993/1993_06_16_na_omaps.pdf'
     },
     {
+        id: 'SPB_19930626_1',
+        date: '1993-06-26',
+        endDate: '1993-06-27',
+        place: 'Стеклянный',
+        name: 'Мемориал Михаила Святкина',
+        planner: '?',
+        start: 'MMS',
+    },
+    {
         id: 'SPB_19930703_1',
         date: '1993-07-03',
         place: 'Васкелово',
@@ -2622,6 +2631,15 @@ let eventsEarly = [
         res: './docs/1994/1994_06_17_na_omaps.pdf'
     },
     {
+        id: 'SPB_19940625_1',
+        date: '1994-06-25',
+        endDate: '1994-06-26',
+        place: 'Гарболово',
+        name: 'Мемориал Михаила Святкина',
+        planner: 'SHRNN',
+        start: 'MMS',
+    },
+    {
         id: 'SPB_19940903_1',
         date: '1994-09-03',
         endDate: '1994-09-04',
@@ -2657,6 +2675,14 @@ let eventsEarly = [
         start: 'WN',
         res: './docs/1995/1995_06_23_wn_omaps.pdf',
         map: ['tsvelodubovo_south_1995', 'tsvelodubovo_1995']
+    },
+    {
+        id: 'SPB_19950624_1',
+        date: '1995-06-24',
+        endDate: '1995-06-25',
+        place: 'Стеклянный',
+        name: 'Мемориал Михаила Святкина',
+        start: 'MMS',
     },
     {
         id: 'SPB_19950903_1',

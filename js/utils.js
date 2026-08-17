@@ -2011,10 +2011,13 @@ function buildPlanners(m, calendar) {
                 }
                 result += '</ol>'
             } else {
-                result += planners[plannersList[0]].name + '<br />';
+                const planner = planners[plannersList[0]];
+                if (planner) {
+                    result += planner.name + '<br />';
+                }
             }
         }
-        if (!result) {
+        if (!result && '?' !== m.planner) {
             if (!isNull(starts) && m.start && starts[m.start] && starts[m.start].planner) {
                 result += planners[starts[m.start].planner].name + '<br />';
             }

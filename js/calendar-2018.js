@@ -862,7 +862,7 @@ let events2018 = [
         video: 'https://www.youtube.com/watch?v=DmBYqYQ_XwQ',
         start: 'MMS',
         o_site: '180622mms',
-        planner: 'SRBRNTSKY',
+        planner: ['SRBRNTSKY','TLNV_A'],
         reskeep: [9, 8, 7],
         map: ['mms_2018_06_22','mms_2018_06_23','mms_2018_06_24']
     },
