@@ -5951,6 +5951,16 @@ let moscowMaps = [
         type: ['CITY']
     },
     {
+        name: 'ТЦ Ривьера',
+        year: 2026,
+        url: './maps/moscow/lr/riviera_mall_2026.webp',
+        link: './original_maps/moscow/lr/riviera_mall_2026_omaps.webp',
+        bounds: [[55.7066110, 37.6373363], [55.7059581, 37.6440096], [55.7048398, 37.6367891]],
+        author: 'MSTPNV',
+        owner: 'OPEN_BAND',
+        type: ['INDOOR']
+    },
+    {
         name: 'Ястребки, гост "Горизонт"',
         year: 2023,
         url: './maps/moscow/ak/gorizont_2023.webp',
@@ -6458,6 +6468,16 @@ let moscowMaps = [
         author: 'MNKV',
         owner: 'ERMCHNKV_A',
         logo: 'msk_city_race.png',
+        type: ['CITY','SPRINT']
+    },
+    {
+        name: 'Чистые пруды',
+        year: 2026,
+        url: './maps/moscow/ak/clean_lakes_2026.webp',
+        link: './original_maps/moscow/ak/clean_lakes_2026_omaps.webp',
+        bounds: [[55.7702005, 37.6398683], [55.7681002, 37.6577854], [55.7605793, 37.6361132]],
+        author: ['MSTPNV','DRN_E','SMRNV_K','MNKV'],
+        owner: 'OPEN_BAND',
         type: ['CITY','SPRINT']
     },
     {
