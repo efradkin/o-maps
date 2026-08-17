@@ -5953,6 +5953,7 @@ let moscowMaps = [
     {
         name: 'ТЦ Ривьера',
         year: 2026,
+        area: .2,
         url: './maps/moscow/lr/riviera_mall_2026.webp',
         link: './original_maps/moscow/lr/riviera_mall_2026_omaps.webp',
         bounds: [[55.7066110, 37.6373363], [55.7059581, 37.6440096], [55.7048398, 37.6367891]],
