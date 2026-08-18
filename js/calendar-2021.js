@@ -1644,6 +1644,7 @@ let events2021 = [
         place: 'Ягодное',
         name: 'Мемориал Анатолия Окинчица',
         type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=rbbtYUhYHQM',
         res: 'http://touristclub.ru/wp-content/uploads/2021/10/Results2021-v_1110.htm',
         info: '49-е ночные соревнования по спортивному ориентированию, проводимые Санкт-Петербургским туристским клубом',
         start: 'OKINCHITSA',

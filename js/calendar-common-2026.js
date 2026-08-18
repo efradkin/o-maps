@@ -211,6 +211,7 @@ let commonEvents2026 = [
         name: 'RED FOX ADVENTURE RACE',
         fmt: '48, 24, 12',
         type: 'MULTI',
+        video: 'https://rutube.ru/video/8ee93922fb880c1281f3069bd452c7b5/',
         link: 'https://adventure-race.redfox.ru/docs/rules/',
         reg: 'https://adventure-race.redfox.ru/applications/',
         res: 'https://adventure-race.redfox.ru/results/',

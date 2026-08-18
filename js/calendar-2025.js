@@ -1064,6 +1064,7 @@ let events2025 = [
         name: 'Российский азимут ',
         fmt: 'спринт',
         type: 'ORIENT',
+        video: 'https://vkvideo.ru/video-220492439_456240166',
         o_site: '250531_RA',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1670',
         reskeep: 704,
@@ -1218,6 +1219,7 @@ let events2025 = [
         name: 'RED FOX ADVENTURE RACE',
         fmt: '12, 24, 48',
         type: 'MULTI',
+        video: 'https://www.youtube.com/watch?v=tiuB_xvD6fM',
         link: 'https://adventure-race.redfox.ru/docs/rules/',
         reg: 'https://adventure-race.redfox.ru/applications/',
         res: 'https://adventure-race.redfox.ru/archive/archive_2025/results/',
@@ -2367,7 +2369,8 @@ let events2025 = [
             'https://rutube.ru/video/ccbae3f2817a06db737c95a340823929/',
             'https://www.youtube.com/watch?v=Cga7gAcCAWY',
             'https://www.youtube.com/watch?v=BfDZjOGhcF0',
-            'https://www.youtube.com/watch?v=9Ri0V0_VPMg'
+            'https://www.youtube.com/watch?v=9Ri0V0_VPMg',
+            'https://www.youtube.com/watch?v=S94M9jkHthY'
         ],
         strava: 16040676104,
         me: 'Фит'
@@ -2693,7 +2696,10 @@ let events2025 = [
         o_site: '251025_D2RUN_final',
         reg: 'http://orgeo.ru/event/47228',
         res: 'https://t.me/dlitelnyy/355',
-        video: 'https://rutube.ru/video/216997ead3de6a02137df69df57f27b6/',
+        video: [
+            'https://rutube.ru/video/216997ead3de6a02137df69df57f27b6/',
+            'https://www.youtube.com/watch?v=1J4VobkEBK4'
+        ],
         owner: 'DLITELNY',
         map: 'toksovo_vifk_khimakolovo_2020'
     },
@@ -2744,7 +2750,10 @@ let events2025 = [
             'М60/65,Ж16/45/50': 23762
         },
         reskeep: 813,
-        video: 'https://rutube.ru/video/a7aa68245f8595c447c19b60004a4246/',
+        video: [
+            'https://rutube.ru/video/a7aa68245f8595c447c19b60004a4246/',
+            'https://www.youtube.com/watch?v=HBGnbbgSJ-k'
+        ],
         me: 'М50',
         strava: 16261630543,
         map: 'krivko_2021'

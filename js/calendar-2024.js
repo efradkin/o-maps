@@ -407,6 +407,7 @@ let events2024 = [
         name: 'Сосновоборские Дюны 2024, ЧиП ЛО',
         place: 'Сосновый Бор',
         type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=8B6T5KH5q8Y',
         res: 'http://orgeo.ru/live/#/35163/2',
         owner: 'YUVENTA',
         o_site: 'sos_dunu_2024'
@@ -938,6 +939,10 @@ let events2024 = [
         place: 'Импилахти',
         name: 'RED FOX ADVENTURE RACE',
         type: 'ROGAINE',
+        video: [
+            'https://www.instagram.com/reel/C8WPzZDKAiq/',
+            'https://www.instagram.com/reel/C5IWlqmsoaU/'
+        ],
         fmt: '24, 48',
         link: 'https://adventure-race.redfox.ru/docs/rules',
         res: 'https://adventure-race.redfox.ru/results/results.pdf',

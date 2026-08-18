@@ -282,22 +282,10 @@ let events2022 = [
         place: 'Сосновый Бор',
         name: 'Сосновоборские Дюны',
         type: 'ORIENT',
+        video: 'https://www.youtube.com/watch?v=DThWAJtzzYA',
         res: 'https://o-site.spb.ru/_races/220424/220423_res.htm',
         owner: 'YUVENTA',
         o_site: '220424',
-        strava: [7028043340,7032642029],
-        reskeep: [513, 514]
-    },
-    {
-        id: 'SPB_20220423_2',
-        date: '2022-04-23',
-        endDate: '2022-04-24',
-        place: 'Сосновый Бор',
-        name: 'Сосновоборские Дюны',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/220424/220423_res.htm',
-        owner: 'YUVENTA',
-        o_site: '220424_',
         strava: [7028043340,7032642029],
         reskeep: [513, 514]
     },
@@ -320,6 +308,17 @@ let events2022 = [
         link: 'https://vk.com/club91656163',
         video: ['https://www.youtube.com/watch?v=Y_HDRdoJcSM','https://www.youtube.com/watch?v=F0j-YBSyvH0'],
         owner: 'LM'
+    },
+    {
+        id: 'SPB_20220424_1',
+        date: '2022-04-24',
+        place: 'Пушкин, Баболовский парк',
+        name: 'Царскосельский азимут',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/220424_/220424_res_tsa.htm',
+        o_site: '220424_',
+        map: 'pushkin_babolovsky',
+        owner: 'EGRV_EGR'
     },
     {
         id: 'SPB_20220427_1',
@@ -985,7 +984,8 @@ let events2022 = [
             'https://www.youtube.com/watch?v=h5ZbD7u3F1E',
             'https://www.youtube.com/watch?v=VOmzXQ9S3Uc',
             'https://rutube.ru/video/3d0559bc8bc82eff5e64d4341678d2aa/',
-            'https://rutube.ru/video/f487266b84e2b0f4c930117a4565f1ad/'
+            'https://rutube.ru/video/f487266b84e2b0f4c930117a4565f1ad/',
+            'https://www.youtube.com/watch?v=EDtL32IwWRs'
         ],
         owner: 'WN',
         start: 'WN',

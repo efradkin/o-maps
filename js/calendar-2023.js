@@ -453,7 +453,8 @@ let events2023 = [
             'https://www.youtube.com/watch?v=lfOejh6_0dQ',
             'https://www.youtube.com/watch?v=n9EFUqrRdUk',
             'https://www.youtube.com/watch?v=UVZFoNBWKiw',
-            'https://www.youtube.com/watch?v=6F4zdl-L1zg'
+            'https://www.youtube.com/watch?v=6F4zdl-L1zg',
+            'https://www.youtube.com/watch?v=k8N9mMxJeJE'
         ],
         strava: 8942247123,
         owner: 'YUVENTA',
@@ -808,6 +809,14 @@ let events2023 = [
         place: 'Карелия',
         name: 'RED FOX ADVENTURE RACE',
         type: 'MULTI',
+        video: [
+            'https://www.youtube.com/watch?v=UmmPgNz1nEc',
+            'https://www.youtube.com/watch?v=6SVH_VBHXcY',
+            'https://www.youtube.com/watch?v=JM39tJKESh4',
+            'https://www.youtube.com/watch?v=6YdESeIKKLY',
+            'https://www.youtube.com/watch?v=ywTfkw2SbK4',
+            'https://www.youtube.com/watch?v=VV_O4vvEe2U'
+        ],
         fmt: '48',
         res: 'https://adventure-race.redfox.ru/archive/archive_2023/results/',
         o_gps: 16300
