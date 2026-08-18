@@ -275,7 +275,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '6',
         link: 'https://vk.com/event166397868',
-        video: ['https://www.youtube.com/watch?v=PPhP6GO3Pqs','https://www.youtube.com/watch?v=LG1pnTlwcdo']
+        video: ['https://www.youtube.com/watch?v=PPhP6GO3Pqs','https://www.youtube.com/watch?v=LG1pnTlwcdo'],
+        map: 'omchino_luzhsky_2022'
     },
     {
         id: 'SPB_20210307_1',
@@ -343,7 +344,8 @@ let events2021 = [
         name: 'Тренировка от Авроры',
         type: 'ORIENT',
         reskeep: 424,
-        strava: [5023572768,5024474207]
+        strava: [5023572768,5024474207],
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20210407_1',
@@ -543,7 +545,8 @@ let events2021 = [
         ],
         o_site: '21050103',
         reskeep: [450, 446, 451],
-        strava: [5228980372,5234839055]
+        strava: [5228980372,5234839055],
+        map: 'enkolovo_2021'
     },
     {
         id: 'SPB_20210501_2',
@@ -2038,7 +2041,8 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/18932',
         res: 'https://o-site.spb.ru/_races/210308_VT/211205_res.pdf',
-        o_site: '210308_VT'
+        o_site: '210308_VT',
+        map: 'enkolovo_2021'
     },
     {
         id: 'SPB_20211212_1',

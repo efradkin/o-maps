@@ -345,7 +345,8 @@ let events2022 = [
         place: 'Энколово',
         name: 'Техника и Тактика',
         type: 'ORIENT',
-        reskeep: 531
+        reskeep: 531,
+        map: 'enkolovo_2021'
     },
     {
         id: 'SPB_20220430_3',
@@ -365,7 +366,8 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/21216',
         res: 'http://sportident.online/ol/?id=704',
-        o_site: '220403'
+        o_site: '220403',
+        map: 'enkolovo_2021'
     },
     {
         id: 'SPB_20220501_2',
@@ -1534,7 +1536,8 @@ let events2022 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1471',
         res: 'https://o-site.spb.ru/_races/220604_PMC/220409_split.htm',
         info: 'В ожидании главных ночных стартов года, можно потренировать навыки ориентирования в темноте.',
-        o_site: '220604_PMC'
+        o_site: '220604_PMC',
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20221006_1',

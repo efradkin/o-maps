@@ -566,12 +566,20 @@ let toksovoMaps = [
         author: 'DBRTSV_V',
     },
     {
-        name: 'Токсово, Охта-Парк',
+        name: 'Токсово, Охта-Парк, Энколово',
         year: 2008,
         url: './maps/forest/toksovo/toksovo_okhta_park_2008.webp',
-        link: './original_maps/forest/toksovo/toksovo_okhta_park_2008_omaps.jpg',
+        link: ['./original_maps/forest/toksovo/toksovo_okhta_park_2008_omaps.jpg','./original_maps/forest/toksovo/enkolovo_2008_omaps.webp'],
         photo: './tracks/okhta-park/pic_1.jpg',
         bounds: [[60.1563293, 30.3935051], [60.1497936, 30.4720831], [60.1169249, 30.3810596]],
+        author: ['MKHLV_A','SLBDNK']
+    },
+    {
+        name: 'Энколово',
+        year: 2021,
+        url: './maps/forest/toksovo/enkolovo_2021.webp',
+        link: ['./original_maps/forest/toksovo/enkolovo_2021_omaps.gif','./original_maps/forest/toksovo/enkolovo_2024_omaps.webp'],
+        bounds: [[60.1244397, 30.4259062], [60.1230929, 30.4443383], [60.1137923, 30.4223228]],
         author: ['MKHLV_A','SLBDNK']
     },
     {

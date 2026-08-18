@@ -693,7 +693,8 @@ let eventsEarly = [
         place: 'Охтинский парк',
         name: 'П-во обкома физкультурно-оздоровительного комплекса "ЭНЕРГИЯ"',
         planner: 'VSLVSKY',
-        res: './docs/1988/1988_03_27_energy_omaps.pdf'
+        res: './docs/1988/1988_03_27_energy_omaps.pdf',
+        map: 'rzhevsky_1981'
     },
     {
         id: 'SPB_19880405_1',
@@ -993,7 +994,8 @@ let eventsEarly = [
         name: 'Ориентир-23',
         start: 'ORIENTIR',
         planner: 'NKLVCH',
-        res: './docs/1988/1988_09_07_orientir_23_omaps.pdf'
+        res: './docs/1988/1988_09_07_orientir_23_omaps.pdf',
+        map: 'rzhevsky_1981'
     },
     {
         id: 'SPB_19880917_1',
@@ -1019,7 +1021,8 @@ let eventsEarly = [
         place: 'Охтинский л/п',
         name: '"Золотая осень"',
         planner: 'LVCHV',
-        res: './docs/1988/1988_09_24_golden_autumn_omaps.pdf'
+        res: './docs/1988/1988_09_24_golden_autumn_omaps.pdf',
+        map: 'rzhevsky_1981'
     },
     {
         id: 'SPB_19881001_1',
@@ -1980,7 +1983,8 @@ let eventsEarly = [
         place: 'Охтинский парк',
         name: 'Летняя спартакиада клуба "ЭНЕРГИЯ"',
         planner: 'VSLVSKY',
-        res: './docs/1991/1991_05_23_energy_omaps.pdf'
+        res: './docs/1991/1991_05_23_energy_omaps.pdf',
+        map: 'rzhevsky_1990'
     },
     {
         id: 'SPB_19910525_1',
@@ -2358,7 +2362,8 @@ let eventsEarly = [
         start: 'ORIENTIR',
         me: 'HA',
         planner: 'NKLVCH',
-        res: './docs/1992/1992_05_13_orientir_omaps.pdf'
+        res: './docs/1992/1992_05_13_orientir_omaps.pdf',
+        map: 'rzhevsky_1990'
     },
     {
         id: 'SPB_19920524_1',

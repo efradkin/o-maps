@@ -275,7 +275,8 @@ let events2024 = [
         fmt: '1.0',
         link: 'https://vk.com/orient_spb_lo?w=wall-220245153_709',
         o_gps: 18598,
-        strava: 10971228761
+        strava: 10971228761,
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20240317_1',
@@ -298,7 +299,8 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240324/Results_split - SportOrg.pdf',
         o_site: '240324',
         strava: 11026409836,
-        reskeep: 629
+        reskeep: 629,
+        map: 'osinovaja_roscha_2018'
     },
     {
         id: 'SPB_20240324_2',
@@ -308,7 +310,8 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/info/ski_adventure_2024',
         fmt: '3-х часовой рогейн, способ передвижения - лыжи',
-        o_site: '240324r'
+        o_site: '240324r',
+        map: 'shapki_ski_adventure_2026'
     },
     {
         id: 'SPB_20240331_1',
@@ -321,7 +324,8 @@ let events2024 = [
         fmt: 'Общий старт в 12:00. Старт по станции с 12:01 до 12:20',
         o_site: '240331_p',
         strava: 11075131561,
-        reskeep: 629
+        reskeep: 629,
+        map: 'toksovo_oz_svetloe_2017'
     },
     {
         id: 'SPB_20240406_1',
@@ -330,6 +334,7 @@ let events2024 = [
         name: 'Турнир на Ржевке',
         type: 'ROGAINE',
         strava: 11118506694,
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20240413_1',
@@ -340,7 +345,8 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/info/34692',
         res: 'https://o-site.spb.ru/_races/240413_pkr/240413_split.htm',
         strava: 11170743986,
-        o_site: '240413_pkr'
+        o_site: '240413_pkr',
+        map: 'ladozhsky_park_2023'
     },
     {
         id: 'SPB_20240413_2',
@@ -381,7 +387,8 @@ let events2024 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1597',
         res: 'http://orgeo.ru/live/#/34995/1',
         o_site: '340414_os',
-        reskeep: 642
+        reskeep: 642,
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20240420_1',
@@ -423,7 +430,8 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/35206',
         res: 'https://o-site.spb.ru/_races/240427_d/240427_res.htm',
-        o_site: '240427_d'
+        o_site: '240427_d',
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20240428_1',
@@ -432,7 +440,8 @@ let events2024 = [
         name: 'Техника и Тактика',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/240428TT/240428TT-vosst-combi.htm',
-        o_site: '240428TT'
+        o_site: '240428TT',
+        map: 'enkolovo_2021'
     },
     {
         id: 'SPB_20240428_2',
@@ -1801,7 +1810,8 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/participants/38276#tab',
         res: 'https://o-site.spb.ru/_races/241019/241019_split-1.htm',
         strava: 12691370592,
-        o_site: '241019'
+        o_site: '241019',
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20241019_2',

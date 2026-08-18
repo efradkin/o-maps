@@ -510,7 +510,8 @@ let events2023 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230501/230501_res_official.pdf',
         info: 'Официальные соревнования с выполнением разрядов.',
-        o_site: '230501'
+        o_site: '230501',
+        map: 'enkolovo_2021'
     },
     {
         id: 'SPB_20230501_2',
@@ -1325,7 +1326,8 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/29896',
         res: 'https://o-site.spb.ru/_races/230827_infop/230708_res_p.htm',
         strava: 9730244634,
-        o_site: '230827_infop'
+        o_site: '230827_infop',
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20230827_3',
@@ -1335,7 +1337,8 @@ let events2023 = [
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/29897',
         res: 'https://o-site.spb.ru/_races/230827_R/230827_res.htm',
-        o_site: '230827_R'
+        o_site: '230827_R',
+        map: 'rzhevsky_2024'
     },
     {
         id: 'SPB_20230903_1',
