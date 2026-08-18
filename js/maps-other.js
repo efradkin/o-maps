@@ -918,6 +918,17 @@ let otherMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Вишневогорск, оз Сунгуль',
+        date: '2026-08-15',
+        url: './maps/other/sungul_rogaine_2026.webp',
+        link: './original_maps/other/sungul_rogaine_2026_omaps.webp',
+        info: 'Чемпионат Уральских гор.',
+        bounds: [[55.9799454, 60.6282234], [55.9824424, 60.7339668], [55.8929300, 60.6332016]],
+        o_gps: 25747,
+        region: 'CHELYABINSK',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Кыштым',
         date: '2011-09-10',
         url: './maps/other/kyshtym_rrc_2011.webp',
