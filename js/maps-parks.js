@@ -1759,6 +1759,17 @@ let parkMaps = [
         type: ['PARK']
     },
     {
+        name: 'Тихий отдых',
+        year: 2026,
+        url: './maps/parks/tikhy_otdyh_2026.webp',
+        link: './original_maps/parks/tikhy_otdyh_2026_omaps.webp',
+        bounds: [[59.9814393, 30.2850795], [59.9798075, 30.2999711], [59.9771558, 30.2833843]],
+        owner: 'SHRNN',
+        author: 'SHRNN',
+        editor: 'MSLVA',
+        type: ['PARK']
+    },
+    {
         name: 'Стрельна, Константиновский парк',
         year: 1998,
         url: './maps/parks/konstantinovsky_1998.webp',
