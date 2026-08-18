@@ -1572,6 +1572,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1455',
         res: 'https://o-site.spb.ru/_races/221008_MO/results_okinchits_22.htm',
+        video: ['https://www.youtube.com/watch?v=tTfJ0lRNnMo','https://www.youtube.com/watch?v=z58CrKQDgFM'],
         start: 'OKINCHITSA',
         o_site: '221008_MO'
     },

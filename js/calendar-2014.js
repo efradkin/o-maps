@@ -887,6 +887,11 @@ let events2014 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14101112/141011_res.htm',
         info: 'Традиционные ночные соревнования по ориентированию, посвящённые памяти Анатолия Окинчица.',
+        video: [
+            'https://www.youtube.com/watch?v=64M0TRjznsg',
+            'https://www.youtube.com/watch?v=m9ePCndLMak',
+            'https://www.youtube.com/watch?v=rfK9Sc0xxiU'
+        ],
         start: 'OKINCHITSA',
         o_site: '14101112'
     },

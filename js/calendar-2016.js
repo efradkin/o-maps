@@ -1053,6 +1053,7 @@ let events2016 = [
         name: '45-е ночные соревнования памяти Анатолия Окинчица',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16100809_Ok/161008_res.htm',
+        video: 'https://www.youtube.com/watch?v=MrbF5BCPIbY',
         start: 'OKINCHITSA',
         o_site: '16100809_Ok'
     },

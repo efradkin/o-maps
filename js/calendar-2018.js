@@ -1490,6 +1490,7 @@ let events2018 = [
         info: '47-е ночные соревнования по спортивному ориентированию, проводимые Санкт-Петербургским туристским клубом',
         start: 'OKINCHITSA',
         o_site: '18101314',
+        video: 'https://www.youtube.com/watch?v=D2PmRQBlx2s',
         reskeep: 60
     },
     {
