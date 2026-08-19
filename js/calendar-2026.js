@@ -2535,6 +2535,7 @@ let events2026 = [
         id: 'SPB_20261107_1',
         date: '2026-11-07',
         place: 'Орехово',
+        map: 'lembolovo_orekhovo_peski_gk_2026',
         name: 'Горный кросс-117',
         reg: 'https://orgeo.ru/event/50689',
         type: 'ROGAINE',

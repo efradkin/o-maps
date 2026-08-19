@@ -1015,6 +1015,7 @@ let events2007 = [
         date: '2007-12-08',
         endDate: '2007-12-09',
         place: 'Орехово',
+        map: 'lembolovo_orekhovo_peski_gk_2026',
         name: 'Горный Кросс -8',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/071208_gk/071209_res.htm',

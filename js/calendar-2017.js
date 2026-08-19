@@ -399,6 +399,7 @@ let events2017 = [
         date: '2017-04-29',
         name: 'Горный кросс - 55',
         place: 'Луга, Шалово',
+        map: 'luga_omchino_gk_2023',
         type: 'ROGAINE',
         reg: 'http://x-race.info/calendar/92112/request/',
         res: 'https://o-site.spb.ru/_races/170429/170429GK_res.pdf',

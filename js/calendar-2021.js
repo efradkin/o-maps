@@ -1961,6 +1961,7 @@ let events2021 = [
         date: '2021-11-13',
         name: 'индивидуальная тренировка «Горный Кросс - 86»',
         place: 'Орехово',
+        map: 'lembolovo_orekhovo_peski_gk_2026',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/2021GK/211113R_res.pdf',
         fmt: '6/2 часов бег, 5 часа вело',
