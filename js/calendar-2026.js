@@ -2347,6 +2347,17 @@ let events2026 = [
         start: 'GORNY_CROSS'
     },
     {
+        id: 'SPB_20260919_3',
+        date: '2026-09-19',
+        place: 'Заневский парк',
+        name: 'Золотая осень',
+        reg: 'https://orgeo.ru/event/54639',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        map: 'zanevsky_2019',
+        owner: 'FENIX'
+    },
+    {
         id: 'SPB_20260920_1',
         date: '2026-09-20',
         name: 'ЧиП СПб',
