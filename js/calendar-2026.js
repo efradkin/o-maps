@@ -70,6 +70,7 @@ let events2026 = [
         date: '2026-01-10',
         place: 'Силанде',
         name: 'Открытие сезона',
+        publish: 'https://o-site.spb.ru/race.php?id=260110_markir_s_prokolom',
         o_site: '260110_markir_s_prokolom',
         reg: 'https://orgeo.ru/event/48922',
         type: 'SKI',

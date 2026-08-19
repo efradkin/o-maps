@@ -1029,6 +1029,7 @@ let events2009 = [
         name: 'Кубок маркированных трасс',
         type: 'SKI',
         res: 'http://www.o-site.spb.ru/_races/091220/091220_res.htm',
+        publish: 'https://o-site.spb.ru/race.php?id=091220',
         o_site: '091220'
     },
     {

@@ -3340,6 +3340,7 @@ let events2025 = [
         name: 'По следам Деда Мороза',
         type: 'ORIENT',
         fmt: 'маркир',
+        publish: 'https://o-site.spb.ru/race.php?id=251228_markir',
         o_site: '251228_markir',
         reg: 'http://orgeo.ru/event/48645',
         photo: 'https://vk.ru/album-220245153_312176887',

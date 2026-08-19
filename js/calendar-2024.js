@@ -168,6 +168,7 @@ let events2024 = [
         type: 'ORIENT',
         res: 'http://orgeo.ru/event/33534',
         owner: 'SFSO_SPB',
+        publish: 'https://o-site.spb.ru/race.php?id=240211',
         o_site: '240211',
         map: 'zerkalny_tarasovskoe_winter_2023'
     },
@@ -474,6 +475,7 @@ let events2024 = [
         photo: 'http://vk.com/album-154221178_302584074',
         video: 'https://www.youtube.com/watch?v=6aIzgw29eVY',
         owner: 'SFSO_SPB',
+        publish: 'https://o-site.spb.ru/race.php?id=240429',
         o_site: '240429',
         strava: 11289850267,
         reskeep: 632
