@@ -1804,7 +1804,7 @@ let events2024 = [
         id: 'SPB_20241012_3',
         date: '2024-10-12',
         place: 'Лемболово',
-        map: 'orekhovo_2024',
+        map: 'orekhovo_mb_2024',
         start: 'MB',
         name: 'ОМБ',
         type: 'ROGAINE',
