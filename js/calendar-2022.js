@@ -301,6 +301,7 @@ let events2022 = [
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей #5',
         type: 'ORIENT',
+        map: 'orovo_2019',
         owner: 'WN',
         reskeep: 529
     },
@@ -342,6 +343,7 @@ let events2022 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей #6',
         type: 'ORIENT',
+        map: 'petjajarvy_2024',
         owner: 'WN',
         reskeep: 528
     },
@@ -393,6 +395,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей #8',
         strava: 7080257862,
         type: 'ORIENT',
+        map: 'voejkovo_2022',
         owner: 'WN',
         reskeep: 530
     },
@@ -500,6 +503,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей #12',
         strava: 7140324760,
         type: 'ORIENT',
+        map: 'stekljanny_2021',
         owner: 'WN',
         reskeep: 525
     },
@@ -1056,6 +1060,7 @@ let events2022 = [
         name: 'White Nights Middle #5',
         strava: 7402274954,
         type: 'ORIENT',
+        map: 'ilychevo_2016',
         owner: 'WN',
         reskeep: 539
     },
@@ -1068,6 +1073,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1451',
         res: 'https://o-site.spb.ru/_races/220709_bn/220709_res.htm',
+        map: 'vorobjevo_2024',
         owner: 'WN',
         o_site: '220709_bn'
     },
@@ -1136,6 +1142,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей. 15 этап',
         type: 'ORIENT',
         reskeep: 550,
+        map: 'baryshevo_2015',
         owner: 'WN'
     },
     {
@@ -1154,6 +1161,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей. 16 этап',
         type: 'ORIENT',
         reskeep: 553,
+        map: 'smoljanoe_2015',
         owner: 'WN'
     },
     {
@@ -1165,6 +1173,7 @@ let events2022 = [
         reg: 'http://orgeo.ru/event/info/23285',
         res: 'http://o-site.spb.ru/_races/2022BN/211031_res.htm',
         info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 1-й этап 31.10.21 Болотная станция Результаты Сплиты 2-й этап 7.11.21 Петяярви Результаты Сплиты 3-й этап 21.11.21 Первомайское Результаты Сплиты 4-й этап 27.11.21 Васкелово Результаты Сплиты 5-й этап 23.04.22 Голубая Дача Результаты Сплиты 6-й этап 30.04.22 Петяярви Результаты Сплиты 7-й этап 01.05.22 Пухтолова Гора Результаты Сплиты 8-й этап 03.05.22 Воейково Результаты Сплиты 9-й этап 07.05.22 Голубая Дача Результаты Сплиты 10-й этап 08.05.22 Сосново Результаты Сплиты 11-й этап 10.05.22 Запорожское Результаты Сплиты 12-й этап 14.05.22 Васкелово Результаты Сплиты 13-й этап 04.06.22 Мичуринское Результаты Сплиты 14-й этап 05.06.22 Мичуринское Результаты Сплиты 15-й этап 30.07.22 Барышево Результаты Сплиты 16-й этап 31.07.22 Смоляное озеро Результаты Сплиты',
+        map: 'tikhoe_2024',
         owner: 'WN',
         o_site: '2022BN',
         endDate: '2022-08-07',
@@ -1244,6 +1253,7 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/220904/220904_res.htm',
         video: 'https://www.youtube.com/watch?v=VOmzXQ9S3Uc',
         strava: 7752862977,
+        map: 'pervomayskoe_2021',
         owner: 'WN',
         o_site: '220904',
         reskeep: 554
@@ -1277,6 +1287,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей #1',
         strava: 7784420974,
         type: 'ORIENT',
+        map: 'bolotnaya_station_2019',
         owner: 'WN',
         reskeep: 542
     },
@@ -1685,6 +1696,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей #2',
         strava: 8002067117,
         type: 'ORIENT',
+        map: 'razdolje_2022',
         owner: 'WN',
         reskeep: 561
     },
@@ -1765,6 +1777,7 @@ let events2022 = [
         place: 'Сосново, Уловное оз',
         name: 'White Nights Middle #6',
         type: 'ORIENT',
+        map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
         strava: 8041902569,
         reskeep: 562
@@ -1867,6 +1880,7 @@ let events2022 = [
         place: 'Озерки',
         name: 'Кубок Белых Ночей #7',
         type: 'ORIENT',
+        map: 'ozerki_2022',
         owner: 'WN',
         strava: [8138407224, 8138827616],
         reskeep: 566
@@ -1940,6 +1954,7 @@ let events2022 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей #8',
         type: 'ORIENT',
+        map: 'petjajarvy_2024',
         owner: 'WN',
         strava: [8205639485, 8205643874],
         reskeep: 568
@@ -2003,6 +2018,7 @@ let events2022 = [
         o_site: '221225_wn',
         strava: 8289241854,
         o_gps: 14747,
+        map: 'petjajarvy_2024',
         owner: 'WN'
     }
 ];

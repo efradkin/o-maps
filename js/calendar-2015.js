@@ -793,6 +793,7 @@ let events2015 = [
         name: 'Летнее первенство Белых Ночей',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/15071112/150711_res.htm',
+        map: 'smoljanoe_2015',
         owner: 'WN',
         o_site: '15071112'
     },

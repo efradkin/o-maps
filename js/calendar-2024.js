@@ -397,6 +397,7 @@ let events2024 = [
         name: 'Кубок Белых ночей 6 этап',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1607',
+        map: 'petjajarvy_2024',
         owner: 'WN',
         o_site: '240420_BN'
     },
@@ -497,6 +498,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1609',
         res: 'https://o-site.spb.ru/_races/240430_BN/240430_res.htm',
+        map: 'petjajarvy_2024',
         owner: 'WN',
         o_site: '240430_BN'
     },
@@ -508,6 +510,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1610',
         res: 'https://o-site.spb.ru/_races/240501_WN/240501_res.htm',
+        map: 'razdolje_2022',
         owner: 'WN',
         o_site: '240501_WN',
         strava: [11306454272,11306455132],
@@ -557,6 +560,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1614',
         res: 'https://o-site.spb.ru/_races/240505_wn/240505_res_WN_corr.htm',
+        map: 'stekljanny_2021',
         owner: 'WN',
         o_site: '240505_wn',
     },
@@ -609,6 +613,7 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/info/35406',
         res: 'http://orgeo.ru/live/#/35406',
         info: 'Первенство Заневского городского поселения по спортивному ориентированию «Всеволожский ориентир», посвященных Дню Великой Победы Кубок Белых Ночей 10 этап.',
+        map: 'orovo_2019',
         owner: 'WN',
         o_site: '240510'
     },
@@ -720,6 +725,7 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/35710',
         res: 'https://o-site.spb.ru/_races/240518_wn/240518_res_WN.htm',
+        map: 'bolotnaya_station_2019',
         owner: 'WN',
         o_site: '240518_wn',
     },
@@ -1351,6 +1357,7 @@ let events2024 = [
         strava: [12050980404,12050981150],
         type: 'ORIENT',
         reskeep: 651,
+        map: 'tikhoe_2024',
         owner: 'WN'
     },
     {
@@ -1371,6 +1378,7 @@ let events2024 = [
         name: 'Кубок Белых Ночей #20',
         type: 'ORIENT',
         strava: [12110067916,12110447883],
+        map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN'
     },
     {
@@ -1381,6 +1389,7 @@ let events2024 = [
         type: 'ORIENT',
         reskeep: 664,
         strava: 12119068051,
+        map: 'bylinnoe_2023',
         owner: 'WN'
     },
     {
@@ -2061,6 +2070,7 @@ let events2024 = [
         name: 'Saint-pi Sprint camp',
         type: 'ORIENT',
         strava: 13063189120,
+        map: 'kolomensky_island_2023',
         owner: 'WN'
     },
     {

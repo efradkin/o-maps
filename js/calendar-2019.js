@@ -251,6 +251,7 @@ let events2019 = [
         name: 'Кубок Белых Ночей. 10 этап',
         type: 'ORIENT',
         reskeep: 125,
+        map: 'orovo_2019',
         owner: 'WN'
     },
     {
@@ -322,6 +323,7 @@ let events2019 = [
         name: 'Кубок Белых Ночей. 11 этап',
         type: 'ORIENT',
         reskeep: 124,
+        map: 'zelenogorsk_schuchye_2020',
         owner: 'WN'
     },
     {
@@ -445,6 +447,7 @@ let events2019 = [
         name: 'Кубок Белых Ночей. 14 этап',
         type: 'ORIENT',
         reskeep: 123,
+        map: 'petjajarvy_2024',
         owner: 'WN'
     },
     {
@@ -998,6 +1001,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190628/res1.htm',
         video: 'https://www.youtube.com/watch?v=0Hr9Tw0Cv5M',
         info: 'Организаторы: Клуб спортивного ориентирования «Белые Ночи». При поддержке «Региональной спортивной федерации спортивного ориентирования Ленинградской области».',
+        map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
         start: 'WN',
         o_site: '190628',
@@ -1071,6 +1075,7 @@ let events2019 = [
         name: 'Кубок Белых Ночей. 16 этап',
         type: 'ORIENT',
         reskeep: 182,
+        map: 'vorobjevo_2024',
         owner: 'WN'
     },
     {
@@ -1090,6 +1095,7 @@ let events2019 = [
         name: 'Кубок Белых Ночей. 17 этап',
         type: 'ORIENT',
         reskeep: 183,
+        map: 'vorobjevo_2024',
         owner: 'WN'
     },
     {
@@ -1160,6 +1166,7 @@ let events2019 = [
         name: 'Кубок Белых Ночей. 18 этап',
         type: 'ORIENT',
         reskeep: 191,
+        map: 'oselki_2015',
         owner: 'WN'
     },
     {

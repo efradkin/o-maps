@@ -728,6 +728,7 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/17060204/170602_res.htm',
         video: 'https://www.youtube.com/watch?v=7zpDGB2rY9s',
+        map: 'vorobjevo_2024',
         owner: 'WN',
         start: 'WN',
         o_site: '17060204',
@@ -986,6 +987,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/17081213/170812_res_.htm',
         info: 'Двухдневные соревнования. Проводит клуб Белые Ночи.',
         o_site: '17081213',
+        map: 'smoljanoe_2015',
         owner: 'WN'
     },
     {
@@ -1564,6 +1566,7 @@ let events2017 = [
         res: 'http://o-site.spb.ru/_races/2017_W_Or/170926_res.htm',
         info: '1-й этап: результаты, сплиты 2-й этап: результаты, сплиты',
         o_site: '2017_W_Or',
+        map: 'voejkovo_2022',
         owner: 'WN'
     },
     {

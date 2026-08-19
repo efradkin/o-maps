@@ -907,6 +907,7 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=908',
         res: 'https://o-site.spb.ru/_races/180630v/180630v_rez1.htm',
         info: 'Вечерние вело-старты на многодневке Белые Ночи',
+        map: 'petjajarvy_2024',
         owner: 'WN',
         start: 'WN',
         o_site: '180630v',
@@ -931,6 +932,7 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=910',
         res: 'https://o-site.spb.ru/_races/18070708/180707_res.htm',
+        map: 'tikhoe_2024',
         owner: 'WN',
         o_site: '18070708'
     },
@@ -1156,6 +1158,7 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=927',
         res: 'https://o-site.spb.ru/_races/180909_/180909_res_.htm',
         info: '9-е традиционные соревнования на призы компании "Триколор", проводимые клубом "Белые Ночи"',
+        map: 'stekljanny_2021',
         owner: 'WN',
         o_site: '180909_',
         reskeep: 29
@@ -1530,6 +1533,7 @@ let events2018 = [
         name: 'Кубок Белых ночей. 1 этап',
         type: 'ORIENT',
         reskeep: 61,
+        map: 'zelenogorsk_chernye_2023',
         owner: 'WN'
     },
     {
@@ -1687,6 +1691,7 @@ let events2018 = [
         name: 'Кубок Белых Ночей. 2 этап',
         type: 'ORIENT',
         reskeep: 76,
+        map: 'petjajarvy_2024',
         owner: 'WN'
     },
     {
@@ -1705,6 +1710,7 @@ let events2018 = [
         name: 'Кубок Белых Ночей. 3 этап',
         type: 'ORIENT',
         reskeep: 80,
+        map: 'topograph_2017',
         owner: 'WN'
     },
     {
@@ -1831,6 +1837,7 @@ let events2018 = [
         name: 'Кубок Белых ночей. 6 этап',
         type: 'ORIENT',
         reskeep: 95,
+        map: 'zelenogorsk_schuchye_2020',
         owner: 'WN'
     },
     {
@@ -1858,6 +1865,7 @@ let events2018 = [
         name: 'Кубок Белых Ночей. 7 этап',
         type: 'ORIENT',
         reskeep: 128,
+        map: 'orovo_2019',
         owner: 'WN'
     },
     {

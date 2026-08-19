@@ -206,6 +206,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 13 этап',
         type: 'ORIENT',
         reskeep: 315,
+        map: 'petjajarvy_2024',
         owner: 'WN',
         strava: 3105111861
     },
@@ -237,6 +238,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 14 этап',
         type: 'ORIENT',
         reskeep: 316,
+        map: 'petjajarvy_2024',
         owner: 'WN',
         strava: 3128039116
     },
@@ -327,6 +329,7 @@ let events2020 = [
         video: 'https://www.youtube.com/watch?v=W0A2Sok8tX0',
         type: 'ORIENT',
         reskeep: 331,
+        map: 'zelenogorsk_schuchye_2020',
         owner: 'WN',
         strava: 3185721188
     },
@@ -585,6 +588,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 1 этап',
         type: 'ORIENT',
         reskeep: 340,
+        map: 'pervomayskoe_2021',
         owner: 'WN'
     },
     {
@@ -612,6 +616,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 2 этап',
         type: 'ORIENT',
         reskeep: 341,
+        map: 'pervomayskoe_2021',
         owner: 'WN',
         strava: 3684263519
     },
@@ -699,6 +704,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 7 этап',
         type: 'ORIENT',
         reskeep: 345,
+        map: 'vorobjevo_2024',
         owner: 'WN'
     },
     {
@@ -734,6 +740,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 8 этап',
         type: 'ORIENT',
         reskeep: 346,
+        map: 'vorobjevo_2024',
         owner: 'WN'
     },
     {
@@ -761,6 +768,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 9 этап',
         type: 'ORIENT',
         reskeep: 348,
+        map: 'vorobjevo_2024',
         owner: 'WN'
     },
     {
@@ -829,6 +837,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 9 этап',
         type: 'ORIENT',
         reskeep: 353,
+        map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
         strava: 3917161372
     },
@@ -839,6 +848,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 10 этап',
         type: 'ORIENT',
         reskeep: 355,
+        map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
         strava: 3921872660
     },
@@ -849,6 +859,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 11 этап',
         type: 'ORIENT',
         reskeep: 357,
+        map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN'
     },
     {
@@ -868,6 +879,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 12 этап',
         type: 'ORIENT',
         reskeep: 356,
+        map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN'
     },
     {
@@ -965,6 +977,7 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1173',
         res: 'https://o-site.spb.ru/_races/200906/200906_res.htm',
         info: 'Индивидуальная тренировки по беговому ориентированию в районе Зеленогорска',
+        map: 'zelenogorsk_chernye_2023',
         owner: 'WN',
         o_site: '200906',
         reskeep: 362
@@ -1255,6 +1268,7 @@ let events2020 = [
         name: 'Кубок Белых ночей 2019/20. 3 этап',
         type: 'ORIENT',
         reskeep: 381,
+        map: 'zaporozhskoe_2020',
         owner: 'WN',
         strava: 4119219789
     },
@@ -1325,6 +1339,7 @@ let events2020 = [
         name: 'Кубок Белых ночей 2019/20. 4 этап',
         type: 'ORIENT',
         reskeep: 386,
+        map: 'pervomayskoe_2021',
         owner: 'WN',
         strava: 4181510517
     },
@@ -1377,6 +1392,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей 2019/20. 5 этап',
         type: 'ORIENT',
         reskeep: 389,
+        map: 'petjajarvy_2024',
         owner: 'WN',
         strava: 4212065523
     },
@@ -1567,6 +1583,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей 2019/20. 7 этап',
         type: 'ORIENT',
         reskeep: 399,
+        map: 'petjajarvy_2024',
         owner: 'WN'
     },
     {
@@ -1600,6 +1617,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 8 этап',
         type: 'ORIENT',
         reskeep: 401,
+        map: 'pervomayskoe_2021',
         owner: 'WN'
     },
     {
@@ -1641,6 +1659,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 9 этап',
         type: 'ORIENT',
         reskeep: 406,
+        map: 'bolotnaya_station_2019',
         owner: 'WN'
     },
     {

@@ -419,6 +419,7 @@ let events2021 = [
         name: 'Кубок Белых Ночей. 12 этап',
         type: 'ORIENT',
         reskeep: 441,
+        map: 'orovo_2019',
         owner: 'WN'
     },
     {
@@ -459,6 +460,7 @@ let events2021 = [
         name: 'Кубок Белых Ночей. 13 этап',
         type: 'ORIENT',
         reskeep: 442,
+        map: 'petjajarvy_2024',
         owner: 'WN'
     },
     {
@@ -605,6 +607,7 @@ let events2021 = [
         name: 'Кубок Белых ночей. 14 этап',
         type: 'ORIENT',
         reskeep: 452,
+        map: 'bolotnaya_station_2019',
         owner: 'WN'
     },
     {
@@ -614,6 +617,7 @@ let events2021 = [
         name: 'Кубок Белых ночей. 15 этап',
         type: 'ORIENT',
         reskeep: 453,
+        map: 'ilychevo_2016',
         owner: 'WN'
     },
     {
@@ -623,6 +627,7 @@ let events2021 = [
         name: 'Кубок Белых ночей. 16 этап',
         type: 'ORIENT',
         reskeep: 454,
+        map: 'petjajarvy_2024',
         owner: 'WN',
         strava: [5255567316,5255994172]
     },
@@ -633,6 +638,7 @@ let events2021 = [
         name: 'Кубок Белых ночей. 17 этап',
         type: 'ORIENT',
         reskeep: 455,
+        map: 'topograph_2017',
         owner: 'WN'
     },
     {
@@ -879,6 +885,7 @@ let events2021 = [
         name: 'Кубок Белых Ночей. 18 этап',
         type: 'ORIENT',
         reskeep: 470,
+        map: 'bolotnaya_station_2019',
         owner: 'WN'
     },
     {
@@ -909,6 +916,7 @@ let events2021 = [
         name: 'Кубок Белых Ночей #19',
         o_site: '2021BN',
         type: 'ORIENT',
+        map: 'pervomayskoe_2021',
         owner: 'WN',
         reskeep: 472,
         strava: [5382362471,5382809371]
@@ -954,6 +962,7 @@ let events2021 = [
         place: 'м Василеостровская',
         name: 'White Nights Sprint #4',
         type: 'ORIENT',
+        map: 'vasiljevsky_2024',
         owner: 'WN',
         reskeep: 461
     },
@@ -1173,6 +1182,7 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1262',
         res: 'https://o-site.spb.ru/_races/210627/210625_res.htm',
         info: 'ОФИЦИАЛЬНЫЕ СОРЕВНОВАНИЯ ЛЕНИНГРАДСКОЙ ОБЛАСТИ ОТМЕНЕНЫ !!! Будет только многодневка!',
+        map: 'vorobjevo_2024',
         owner: 'WN',
         start: 'WN',
         o_site: '210627',
@@ -1858,6 +1868,7 @@ let events2021 = [
             'https://www.youtube.com/watch?v=WMpD5ohFhQY',
             'https://rutube.ru/video/993111f4f4d11d1e3e2cad57d1a224f0/'
         ],
+        map: 'garbolovo_sirkkajarvi',
         owner: 'WN',
         strava: 6186875863
     },
@@ -1905,6 +1916,7 @@ let events2021 = [
         place: 'Болотная станция',
         name: 'Кубок Белых Ночей #1',
         type: 'ORIENT',
+        map: 'bolotnaya_station_2019',
         owner: 'WN',
         reskeep: 500,
         strava: 6191799353
@@ -1947,6 +1959,7 @@ let events2021 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей #2',
         type: 'ORIENT',
+        map: 'petjajarvy_2024',
         owner: 'WN',
         reskeep: 502,
         strava: 6223922266
@@ -2001,6 +2014,7 @@ let events2021 = [
         place: 'Первомайское',
         name: 'Кубок Белых Ночей #3',
         type: 'ORIENT',
+        map: 'pervomayskoe_2021',
         owner: 'WN',
         reskeep: 503,
         strava: 6287291224

@@ -645,6 +645,7 @@ let events2016 = [
         place: 'Первомайское',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16061016/160610_split.htm',
+        map: 'pervomayskoe_2021',
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '16061016',
@@ -724,6 +725,7 @@ let events2016 = [
         name: 'Летнее первенство клуба Белые Ночи',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16071011/160709_res.htm',
+        map: 'baryshevo_2015',
         owner: 'WN',
         start: 'WN',
         o_site: '16071011'
@@ -802,6 +804,7 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=623',
         res: 'https://o-site.spb.ru/_races/160731_WN/160731_res.htm',
         info: 'Соревнования проводятся по НОВОЙ КАРТЕ!',
+        map: 'vorobjevo_2024',
         owner: 'WN',
         start: 'WN',
         o_site: '160731_WN'

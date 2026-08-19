@@ -747,6 +747,7 @@ let events2025 = [
         o_site: '250508_bn',
         reg: 'http://orgeo.ru/event/43588',
         o_gps: 22572,
+        map: 'stekljanny_2021',
         owner: 'WN',
         map: 'stekljanny_2021'
     },
@@ -1518,6 +1519,7 @@ let events2025 = [
             739,
             740
         ],
+        map: 'koyonsaari_2025',
         owner: 'WN',
         map: 'koyonsaari_2025'
     },
@@ -1808,6 +1810,7 @@ let events2025 = [
         o_site: '250830_bn',
         reg: 'http://orgeo.ru/event/vaskelovo_middle',
         reskeep: 786,
+        map: 'stekljanny_2021',
         owner: 'WN',
         map: 'stekljanny_2021'
     },
@@ -2881,6 +2884,7 @@ let events2025 = [
         res: 'https://t.me/whitenightesspb/726',
         o_gps: 23870,
         reskeep: 817,
+        map: 'petjajarvy_2024',
         owner: 'WN',
         map: 'petjajarvy_kentavr_2014'
     },

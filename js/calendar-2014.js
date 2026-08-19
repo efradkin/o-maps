@@ -179,6 +179,7 @@ let events2014 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/131116/140308-4_res.htm',
         info: 'Результаты предыдущих этапов: 1-й этап 2-й этап 3-й этап 4-й этап',
+        map: 'ilychevo_2016',
         owner: 'WN',
         o_site: '131116'
     },
@@ -537,6 +538,7 @@ let events2014 = [
         name: 'Фестиваль спортивного ориентирования «Белые Ночи»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14061722/14061722_res_official.zip',
+        map: 'pervomayskoe_2021',
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '14061722',
@@ -636,6 +638,7 @@ let events2014 = [
         name: 'Летнее первенство клуба Белые Ночи',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14071213/140712_res.htm',
+        map: 'tikhoe_2024',
         owner: 'WN',
         start: 'WN',
         o_site: '14071213'
