@@ -506,7 +506,8 @@ let events2013 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/13052223/130522_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '13052223'
+        o_site: '13052223',
+        map: 'pushkin_nizhny_2019'
     },
     {
         id: 'SPB_20130525_1',

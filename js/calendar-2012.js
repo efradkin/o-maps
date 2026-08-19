@@ -52,7 +52,8 @@ let events2012 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120122/120122_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '120122'
+        o_site: '120122',
+        map: 'pavlovsk_2012'
     },
     {
         id: 'SPB_20120129_1',
@@ -196,7 +197,8 @@ let events2012 = [
         name: 'Царскосельский Азимут',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120314/120314_res.htm',
-        o_site: '120314'
+        o_site: '120314',
+        map: 'pushkin_nizhny_2019'
     },
     {
         id: 'SPB_20120317_1',

@@ -208,7 +208,8 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070318/070318.zip',
         owner: 'SFSO_SPB',
-        o_site: '070318'
+        o_site: '070318',
+        map: 'pavlovsk_2012'
     },
     {
         id: 'SPB_20070405_1',
@@ -821,7 +822,8 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070923/070923_res.htm',
         info: 'ШЕСТИЭТАПНЫЕ ЭСТАФЕТЫ НА ПРИЗЫ КЛУБА «СЕВЕРНЫЙ ВЕТЕР»',
-        o_site: '070923'
+        o_site: '070923',
+        map: 'pavlovsk_2012'
     },
     {
         id: 'SPB_20070927_1',

@@ -106,7 +106,8 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/180128/180128_split.htm',
         video: 'https://www.youtube.com/watch?v=vPXrpVjzDlQ',
         info: 'Проходят при поддержке ОАО "Фацер"',
-        o_site: '180128'
+        o_site: '180128',
+        map: 'pavlovsk_2012'
     },
     {
         id: 'SPB_20180204_1',
@@ -294,7 +295,8 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=852',
         res: 'https://o-site.spb.ru/_races/180317_P/180317_res.htm',
-        o_site: '180317_P'
+        o_site: '180317_P',
+        map: 'pushkin_nizhny_2019'
     },
     {
         id: 'SPB_20180321_1',
@@ -1406,7 +1408,8 @@ let events2018 = [
         place: 'Пушкин, Нижний парк',
         name: 'Спартакиада молодежи допризывного возраста Пушкинского р-на',
         type: 'ORIENT',
-        video: 'https://www.youtube.com/watch?v=OhW0eTN4ouU'
+        video: 'https://www.youtube.com/watch?v=OhW0eTN4ouU',
+        map: 'pushkin_nizhny_2019'
     },
     {
         id: 'SPB_20181003_1',

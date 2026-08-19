@@ -114,7 +114,8 @@ let events2022 = [
         reg: 'http://o-reg.spb.ru/',
         strava: 6705021289,
         res: 'https://o-site.spb.ru/_races/220219/220219_rez.htm',
-        o_site: '220219'
+        o_site: '220219',
+        map: 'pushkin_nizhny_2019'
     },
     {
         id: 'SPB_20220219_2',

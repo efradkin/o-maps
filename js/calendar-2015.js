@@ -206,7 +206,8 @@ let events2015 = [
         name: 'Царскосельский азимут 2015',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/150311/150311_res.htm',
-        o_site: '150311'
+        o_site: '150311',
+        map: 'pavlovsk_2012'
     },
     {
         id: 'SPB_20150321_1',
@@ -318,7 +319,8 @@ let events2015 = [
         place: 'Пушкин, Нижний парк',
         name: 'Спартакиада семейных команд',
         type: 'ORIENT',
-        video: 'https://www.youtube.com/watch?v=aOoIIw8OdWI'
+        video: 'https://www.youtube.com/watch?v=aOoIIw8OdWI',
+        map: 'pushkin_nizhny_2019'
     },
     {
         id: 'SPB_20150422_1',

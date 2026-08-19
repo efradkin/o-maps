@@ -454,7 +454,8 @@ let events2024 = [
         type: 'VELO',
         res: 'http://sportident.online/ol/?id=1746',
         owner: 'SFSO_SPB',
-        o_site: '240428'
+        o_site: '240428',
+        map: 'pukhtolova_gora_velo_2009'
     },
     {
         id: 'SPB_20240428_3',
@@ -462,7 +463,8 @@ let events2024 = [
         place: 'Воронцовский сквер',
         name: 'Level up',
         type: 'ORIENT',
-        strava: [11280974914,11281226032]
+        strava: [11280974914,11281226032],
+        map: 'vorontsovsky_skver_2024'
     },
     {
         id: 'SPB_20240429_1',
@@ -478,7 +480,8 @@ let events2024 = [
         publish: 'https://o-site.spb.ru/race.php?id=240429',
         o_site: '240429',
         strava: 11289850267,
-        reskeep: 632
+        reskeep: 632,
+        map: 'zelenogorsk_tspko_2024'
     },
     {
         id: 'SPB_20240430_1',
@@ -596,15 +599,17 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240509/Split_240509.htm',
         strava: 11369203305,
         o_site: '240509',
-        reskeep: 653
+        reskeep: 653,
+        map: 'silande_2024'
     },
     {
         id: 'SPB_20240509_2',
         date: '2024-05-09',
         place: 'Каннельярви',
-        name: 'ВМБ',
-        type: 'ROGAINE',
-        o_gps: 19360
+        name: 'Весенний Марш-бросок (ВМБ)',
+        type: 'TOURISM',
+        o_gps: 19360,
+        map: 'kanneliarvi_mb_2024'
     },
     {
         id: 'SPB_20240510_1',
@@ -629,6 +634,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240511_wn/240511_res_WN.htm',
         owner: 'WN',
         o_site: '240511_wn',
+        map: 'topograph_2017',
     },
     {
         id: 'SPB_20240511_2',
@@ -640,7 +646,8 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/241105/240511_rez.htm',
         info: 'Первенство Пушкинского р-на с присвоением взрослых разрядов. Кросс-выбор ВАРИАНТ В!!!',
         strava: 11383832188,
-        o_site: '241105'
+        o_site: '241105',
+        map: 'pushkin_nizhny_2019'
     },
     {
         id: 'SPB_20240512_1',
@@ -771,6 +778,7 @@ let events2024 = [
         name: 'Российский Азимут',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/35998',
+        map: 'pulkovsky_2024',
         owner: 'SFSO_SPB',
         o_site: '240525_RA'
     },
@@ -1334,7 +1342,8 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/36827',
         res: 'https://o-site.spb.ru/_races/240728_p/240728_split.htm',
         strava: 12000800125,
-        o_site: '240728_p'
+        o_site: '240728_p',
+        map: 'komarovo_2013'
     },
     {
         id: 'SPB_20240728_2',
@@ -1426,7 +1435,8 @@ let events2024 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/240818/240818_ResultList.htm',
         owner: 'SFSO_SPB',
-        o_site: '240818'
+        o_site: '240818',
+        map: 'silande_velo_2025'
     },
     {
         id: 'SPB_20240825_1',

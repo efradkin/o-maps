@@ -207,7 +207,8 @@ let events2010 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100315/100314_res.pdf',
         owner: 'SFSO_SPB',
-        o_site: '100315'
+        o_site: '100315',
+        map: 'pavlovsk_2012'
     },
     {
         id: 'SPB_20100321_1',

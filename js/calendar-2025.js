@@ -1123,7 +1123,7 @@ let events2025 = [
         name: 'Кубок Белых Ночей №14',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/44184',
-        map: 'vorontsovskoe_simagino_2021',
+        map: 'topograph_2017',
         owner: 'WN'
     },
     {

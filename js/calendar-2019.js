@@ -155,7 +155,8 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/registration/vv',
         res: 'https://o-site.spb.ru/_races/190224/190224_res.pdf',
-        o_site: '190224'
+        o_site: '190224',
+        map: 'pavlovsk_2012'
     },
     {
         id: 'SPB_20190302_1',
@@ -375,7 +376,8 @@ let events2019 = [
         place: 'Павловск, сад Миранда',
         name: 'Спартакиада семейных команд Пушкинского р-на',
         type: 'ORIENT',
-        video: 'https://www.youtube.com/watch?v=AKCINghaDPE'
+        video: 'https://www.youtube.com/watch?v=AKCINghaDPE',
+        map: 'pavlovsk_sad_miranda_2020',
     },
     {
         id: 'SPB_20190424_1',
@@ -1918,7 +1920,8 @@ let events2019 = [
         owner: 'SFSO_SPB',
         o_site: '191215',
         reskeep: 290,
-        strava: 2934300689
+        strava: 2934300689,
+        map: 'pushkin_nizhny_2019'
     },
     {
         id: 'SPB_20191222_1',

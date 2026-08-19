@@ -202,7 +202,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=706',
         res: 'https://o-site.spb.ru/_races/170312/170312_res.htm',
         photo: 'http://vk.com/album-9087078_242268462',
-        o_site: '170312'
+        o_site: '170312',
+        map: 'pushkin_nizhny_2019'
     },
     {
         id: 'SPB_20170312_2',

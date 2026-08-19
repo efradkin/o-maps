@@ -1265,7 +1265,8 @@ let events2026 = [
         o_site: '260516_bn',
         type: 'ORIENT',
         owner: 'WN',
-        coord: [60.264302, 29.981751]
+        coord: [60.264302, 29.981751],
+        map: 'topograph_2017',
     },
     {
         id: 'SPB_20260516_3',
