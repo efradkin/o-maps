@@ -247,7 +247,9 @@ let events2016 = [
         place: 'карьер Красная Горка',
         name: 'Кубок Белых Ночей, 9 этап',
         type: 'ORIENT',
-        video: 'https://www.youtube.com/watch?v=37LPeJWQleY'
+        video: 'https://www.youtube.com/watch?v=37LPeJWQleY',
+        owner: 'WN',
+        map: 'krasnaja_gorka_2016'
     },
     {
         id: 'SPB_20160409_2',
