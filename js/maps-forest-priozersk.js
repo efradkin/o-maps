@@ -176,7 +176,7 @@ let priozerskMaps = [
     },
     {
         name: 'Кузнечное, оз Волковское-Суури',
-        year: '2019-05-25',
+        date: '2019-05-25',
         start: ['RUSSIA_2019','RUSSIA_CHAMP'],
         info: 'Кросс многодневный.',
         url: './maps/forest/priozersk/kuznechnoe_suuri_2019.webp',

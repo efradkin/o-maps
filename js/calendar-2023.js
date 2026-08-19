@@ -70,7 +70,8 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/kirovsk1501',
         res: 'http://orgeo.ru/live/#/kirovsk1501',
         owner: 'SFSO_LO',
-        o_site: '230115'
+        o_site: '230115',
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20230119_1',
@@ -126,7 +127,8 @@ let events2023 = [
         name: 'Открытое первенство Кировского района ЛО',
         type: 'ORIENT',
         owner: 'SFSO_LO',
-        o_site: '230204'
+        o_site: '230204',
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20230204_2',
@@ -179,7 +181,8 @@ let events2023 = [
         name: 'Первенство МО «Кировское городское поселение»',
         place: 'Кировск, полигон «Запруды»',
         type: 'ORIENT',
-        o_site: '230223k'
+        o_site: '230223k',
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20230223_2',
@@ -281,7 +284,8 @@ let events2023 = [
         name: 'Открытое Первенство МО «Кировск»',
         place: 'Кировск, полигон «Запруды»',
         type: 'ORIENT',
-        o_site: '230311k'
+        o_site: '230311k',
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20230312_1',
@@ -1133,6 +1137,8 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/br_2023/230709_orient.htm',
         info: 'Рогейн, ориентировние, исследование новых мест',
         strava: [9419128022,9419135962],
+        map: 'bylinny_2023',
+        owner: 'WN',
         o_site: 'br_2023'
     },
     {
@@ -1198,7 +1204,7 @@ let events2023 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1550',
         res: 'http://o-site.spb.ru/_races/2023_bn/230422_res.htm',
         info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 10-й этап 22.04.23 Голубая Дача Результаты Сплиты 11-й этап 29.04.23 Кавголово(Орлиная Гора) Результаты Сплиты 12-й этап 30.04.23 Сосново Результаты Сплиты 13-й этап 01.05.23 Первомайское Результаты Сплиты 14-й этап 06.05.23 Былинное озеро Результаты Сплиты 15-й этап 07.05.23 Садоводство топограф Результаты Сплиты 16-й этап 08.05.23 Мичуринское(склон) Результаты Сплиты 17-й этап 13.05.23 Пухтолова Гора Результаты Сплиты 18-й этап 14.05.23 Симагино Результаты Сплиты 19-й этап 22.07.23 Воробьево озеро Результаты 20-й этап 23.07.23 Воробьево озеро Результаты',
-        map: 'smoljanoe_2015',
+        map: ['smoljanoe_2015','bylinnoe_2023'],
         owner: 'WN',
         o_site: 'cbn_2023',
         reskeep: [604, 605]
@@ -1514,6 +1520,7 @@ let events2023 = [
         owner: 'WN',
         o_site: '230917',
         strava: 9867187438,
+        map: 'bylinnoe_2023',
         reskeep: 613
     },
     {
@@ -1559,7 +1566,8 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/230923/20230923SV_results.pdf',
         info: 'Традиционные соревнования семейных пар - командные соревнования с раздельным выбором После них - тренировка "Техника и Тактика".',
         start: 'WEDDING',
-        o_site: '230923'
+        o_site: '230923',
+        map: 'garbolovo_zmeinoe_2022'
     },
     {
         id: 'SPB_20230924_1',
@@ -1628,7 +1636,8 @@ let events2023 = [
         owner: 'SFSO_SPB',
         o_site: '231001',
         strava: 9956332506,
-        reskeep: 615
+        reskeep: 615,
+        map: 'anyalovo_2023',
     },
     {
         id: 'SPB_20231003_1',
@@ -1774,6 +1783,7 @@ let events2023 = [
         place: 'Парк Интернационалистов',
         type: 'ROGAINE',
         strava: 10072753747,
+        map: 'internatsionalistov_2021',
         owner: 'FRUNZ_SPORT'
     },
     {
@@ -1842,7 +1852,8 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/30770',
         owner: 'SFSO_LO',
-        o_site: '231028_sert'
+        o_site: '231028_sert',
+        map: 'new_sertolovo_2022'
     },
     {
         id: 'SPB_20231028_3',
@@ -2104,7 +2115,8 @@ let events2023 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/231216/231216_res.htm',
         info: 'Открытое Первенство МО «Кировское городское поселение» Кировского района Ленинградской области по спортивному ориентированию (лыжные дисциплины)',
-        o_site: '231216'
+        o_site: '231216',
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20231217_1',
@@ -2143,9 +2155,10 @@ let events2023 = [
         date: '2023-12-30',
         place: 'Кировск',
         name: 'Открытый чемпионат и первенство Кировского района ЛО',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://orgeo.ru/event/kirovsk_3012',
         owner: 'SFSO_LO',
-        o_site: '231230'
+        o_site: '231230',
+        map: 'kirovsk_winter_2024'
     }
 ];

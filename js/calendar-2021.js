@@ -1553,7 +1553,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210925/210925S_res.pdf',
         fmt: 'командные соревнования по выбору',
         start: 'WEDDING',
-        o_site: '210925'
+        o_site: '210925',
+        map: 'lehtusi_valkijarvi_2016'
     },
     {
         id: 'SPB_20210925_2',
@@ -1830,6 +1831,7 @@ let events2021 = [
         info: 'Соревнования памяти выдающегося ориентировщика СССР и России, Владимира Павловича Алексеева',
         owner: 'WN',
         o_site: '211024',
+        map: 'bylinnoe_2023',
         reskeep: 499,
         strava: 6159702422
     },
@@ -2085,7 +2087,8 @@ let events2021 = [
         owner: 'SFSO_SPB',
         o_site: '211212_ST',
         reskeep: 55,
-        strava: 6374557829
+        strava: 6374557829,
+        map: 'internatsionalistov_2021'
     },
     {
         id: 'SPB_20211214_1',

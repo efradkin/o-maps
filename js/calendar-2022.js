@@ -527,6 +527,7 @@ let events2022 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1414',
         res: 'https://o-site.spb.ru/_races/220515/220515_rezpred.htm',
         photo: 'http://vk.com/album-9087078_284089250',
+        map: 'pavlovsk_mariental_2022',
         strava: 7146817590,
         o_site: '220515',
         reskeep: 526
@@ -571,6 +572,7 @@ let events2022 = [
         name: 'Первенство Московского ЦФК',
         type: 'ORIENT',
         strava: 7174006528,
+        map: 'aviatorov_2020'
     },
     {
         id: 'SPB_20220521_1',
@@ -584,7 +586,8 @@ let events2022 = [
         strava: 7178027439,
         owner: 'SFSO_SPB',
         o_site: '220521',
-        reskeep: 527
+        reskeep: 527,
+        map: '300_let_spb_2022'
     },
     {
         id: 'SPB_20220521_2',
@@ -608,7 +611,8 @@ let events2022 = [
         strava: 7183713519,
         owner: 'SFSO_SPB',
         o_site: '220522_sprint',
-        reskeep: 532
+        reskeep: 532,
+        map: 'new_sertolovo_2022'
     },
     {
         id: 'SPB_20220522_2',
@@ -701,7 +705,8 @@ let events2022 = [
         strava: 7220886070,
         owner: 'SFSO_SPB',
         o_site: '220529_long',
-        reskeep: 533
+        reskeep: 533,
+        map: 'garbolovo_sirkijarvi_2022'
     },
     {
         id: 'SPB_20220601_1',
@@ -1134,7 +1139,8 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/23025',
         res: 'https://o-site.spb.ru/_races/22073031/220730_split.htm',
-        o_site: '22073031'
+        o_site: '22073031',
+        map: 'kuznechnoe_suuri_2019'
     },
     {
         id: 'SPB_20220730_2',
@@ -1360,13 +1366,14 @@ let events2022 = [
     {
         id: 'SPB_20220918_1',
         date: '2022-09-18',
-        place: 'Былинное озеро',
+        place: 'Былинное оз',
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-лонг-общий старт',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/24205',
         strava: 7828461049,
         owner: 'SFSO_SPB',
         o_site: '220918',
+        map: 'bylinnoe_2023',
         reskeep: 556
     },
     {
@@ -1413,7 +1420,8 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/220924/220924S_res_predv.pdf',
         info: 'Соревнования супружеских пар',
         start: 'WEDDING',
-        o_site: '220924'
+        o_site: '220924',
+        map: 'garbolovo_vuoly_2022'
     },
     {
         id: 'SPB_20220924_3',

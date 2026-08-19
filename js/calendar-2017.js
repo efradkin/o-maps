@@ -582,7 +582,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170520_SPb/170520_res.htm',
         photo: 'https://o-site.spb.ru/_races/170520_SPb/ https://cloud.mail.ru/public/K4Gk/7yX9j7YRY',
         owner: 'SFSO_SPB',
-        o_site: '170520_SPb'
+        o_site: '170520_SPb',
+        map: '300_let_spb_2022'
     },
     {
         id: 'SPB_20170520_2',
@@ -590,7 +591,8 @@ let events2017 = [
         place: 'Парк 300-летия СПб',
         name: 'Спартакиада Санкт-Петербурга по спортивному ориентированию',
         type: 'ORIENT',
-        o_site: '170520_spartakiada'
+        o_site: '170520_spartakiada',
+        map: '300_let_spb_2022'
     },
     {
         id: 'SPB_20170520_3',

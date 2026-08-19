@@ -102,7 +102,7 @@ let events2026 = [
         type: 'SKI',
         fmt: 'спринт',
         o_gps: 24101,
-        map: 'kirovsk_2025',
+        map: 'kirovsk_winter_2024',
         owner: 'SFSO_LO'
     },
     {
@@ -165,7 +165,7 @@ let events2026 = [
         },
         type: 'SKI',
         fmt: 'классика,многодневная',
-        map: 'kirovsk_2025',
+        map: 'kirovsk_winter_2024',
         owner: 'SFSO_LO'
     },
     {
@@ -373,7 +373,7 @@ let events2026 = [
         o_gps: 24278,
         type: 'SKI',
         fmt: 'маркир,масстарт',
-        map: 'kirovsk_2025',
+        map: 'kirovsk_winter_2024',
         owner: 'SFSO_LO'
     },
     {

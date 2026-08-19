@@ -51,7 +51,7 @@ let events2024 = [
         date: '2024-01-13',
         endDate: '2024-01-14',
         place: 'Аньялово',
-        name: 'Чемпионат и Первенство Санкт-Петербурга, Аньялово',
+        name: 'Чемпионат и Первенство Санкт-Петербурга',
         type: 'SKI',
         fmt: 'маркир, масстарт',
         res: 'https://o-site.spb.ru/_races/240114/split1.htm',
@@ -817,10 +817,8 @@ let events2024 = [
         res: 'http://orgeo.ru/live/#/36008',
         owner: 'SFSO_SPB',
         o_site: '240526',
-        reskeep: [
-            655,
-            656
-        ]
+        reskeep: [655, 656],
+        map: 'garbolovo_sirkijarvi_2022'
     },
     {
         id: 'SPB_20240601_1',
@@ -1606,7 +1604,8 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240921/240921_res.pdf',
         info: 'Традиционные соревнования семейных пар - командные соревнования с раздельным выбором',
         start: 'WEDDING',
-        o_site: '240921'
+        o_site: '240921',
+        map: 'garbolovo_2014'
     },
     {
         id: 'SPB_20240921_3',
@@ -2129,7 +2128,8 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/kirovsk_ski_o_mass',
         owner: 'SFSO_LO',
-        o_site: '241222'
+        o_site: '241222',
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20241229_1',
