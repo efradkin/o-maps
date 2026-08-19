@@ -150,7 +150,7 @@ function renderMapsTable() {
         if (theOrdersPage) {
             td(m, row, (m.in_work ? '✅' : ''));
         }
-        td(m, row, buildName(m, theOrdersPage));
+        td(m, row, buildName(m, theOrdersPage, events));
         if (theOrdersPage) {
             td(m, row, regions[m.region].name);
         }
@@ -230,11 +230,11 @@ function buildNumber(m, i) {
     }
 }
 
-function buildName(m, withoutLogo) {
+function buildName(m, withoutLogo, events) {
     let result = '';
     if (!withoutLogo) {
         let logo;
-        const logos = logoList(m);
+        const logos = logoList(m, events);
         if (logos.length > 0) {
             logo = logos[0];
         }

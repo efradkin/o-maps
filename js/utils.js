@@ -1613,52 +1613,63 @@ function buildEventDate(evt, withYear) {
     return result;
 }
 
-function logoList(m) { // for map, event or track
+function logoList(m, events) { // for map, event or track
     let logo = [];
-    if (m.logo) {
-        logo.push(m.logo);
+    logoOne(logo, m);
+    if (events) {
+        for (const e of events) {
+            if (e !== m) {
+                logoOne(logo, e);
+            }
+        }
     }
+    return logo;
+}
+
+function logoOne(logo, m) {
+    pushLogo(logo, m.logo);
     if (!isNull(starts) && m.start) {
         if (Array.isArray(m.start)) {
             for (const s of m.start) {
                 const start = starts[s];
                 if (start) {
-                    if (start.logo) {
-                        logo.push(start.logo);
-                    }
+                    pushLogo(logo, start.logo);
                 }
-                if (start.region && regions[start.region].logo) {
-                    logo.push(regions[start.region].logo);
+                if (start.region) {
+                    pushLogo(logo, regions[start.region].logo);
                 }
             }
         } else {
             const start = starts[m.start];
             if (start) {
-                if (start.logo) {
-                    logo.push(start.logo);
-                }
-                if (start.region && regions[start.region].logo) {
-                    logo.push(regions[start.region].logo);
+                pushLogo(logo, start.logo);
+                if (start.region) {
+                    pushLogo(logo, regions[start.region].logo);
                 }
             }
         }
     }
-    if (m.owner && owners[m.owner] && owners[m.owner].logo) {
-        logo.push(owners[m.owner].logo);
+    if (m.owner && owners[m.owner]) {
+        pushLogo(logo, owners[m.owner].logo);
     }
-    if (m.author && authors[m.author] && authors[m.author].logo) {
-        logo.push(authors[m.author].logo);
+    if (m.author && authors[m.author]) {
+        pushLogo(logo, authors[m.author].logo);
     }
-    if (m.owner && Array.isArray(m.owner) && owners[m.owner[0]] && owners[m.owner[0]].logo) { // only the first one
-        logo.push(owners[m.owner[0]].logo);
+    if (m.owner && Array.isArray(m.owner) && owners[m.owner[0]]) { // only the first one
+        pushLogo(logo, owners[m.owner[0]].logo);
     }
-    if (m.author && Array.isArray(m.author) && authors[m.author[0]] && authors[m.author[0]].logo) { // only the first one
-        logo.push(authors[m.author[0]].logo);
+    if (m.author && Array.isArray(m.author) && authors[m.author[0]]) { // only the first one
+        pushLogo(logo, authors[m.author[0]].logo);
     }
-    if (m.region && regions[m.region].logo) {
-        logo.push(regions[m.region].logo);
+    if (m.region) {
+        pushLogo(logo, regions[m.region].logo);
     }
-    return logo;
+}
+
+function pushLogo(logo, l) {
+    if (l && !logo.includes(l)) {
+        logo.push(l);
+    }
 }
 
 function buildOSiteInfo(events) {
