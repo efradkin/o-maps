@@ -709,6 +709,8 @@ function buildOneLink(link, content, title, isDownload) {
         contentImage = 'si.webp';
     } else if (content === 'Telegram') {
         contentImage = 'telegram.webp';
+    } else if (content === 'O-Site') {
+        contentImage = 'o-site.gif';
     } else if (content === 'Orgeo') {
         contentImage = 'orgeo.webp';
     } else if (content === 'O-Reg') {
