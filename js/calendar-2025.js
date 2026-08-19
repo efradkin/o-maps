@@ -1260,7 +1260,6 @@ let events2025 = [
         start: 'KKP',
         map: 'kkp_prudy_2023_06_19',
         me: 'М50',
-        major: true
     },
     {
         id: 'SPB_20250614_2',
@@ -1399,7 +1398,6 @@ let events2025 = [
             'https://www.youtube.com/watch?v=Awc980cCwP4',
             'https://www.youtube.com/watch?v=od8Wr9N-yLE'
         ],
-        major: true,
         map: ['mms_2025_06_20','mms_2025_06_21','mms_2025_06_22'],
         planner: ['ILVS','NKTN_I']
     },
@@ -1441,7 +1439,6 @@ let events2025 = [
             14952833945
         ],
         me: 'М50',
-        major: true
     },
     {
         id: 'SPB_20250628_1',
@@ -3261,7 +3258,7 @@ let events2025 = [
         fmt: 'спринт',
         link: 'https://vk.com/wall-201330282_2053',
         video: 'https://rutube.ru/video/6d1673752a19bd677060122a5e0db1b7/',
-        map: 'sosnovy_bor',
+        map: 'sosnovy_bor_2020',
         owner: 'YUVENTA'
     },
     {

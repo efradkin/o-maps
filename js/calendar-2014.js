@@ -8,7 +8,8 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/130119/140119_res.pdf',
         video: ['http://vimeo.com/85339934','https://www.youtube.com/watch?v=mVSrvxZaD5I'],
         owner: 'SFSO_SPB',
-        o_site: '130119'
+        o_site: '130119',
+        map: 'sestroretsk_dubki_2014'
     },
     {
         id: 'SPB_20140103_1',

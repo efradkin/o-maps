@@ -1954,6 +1954,7 @@ let events2018 = [
         place: 'парк Лесотехнической Академии',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/181231/181231_split.htm',
-        o_site: '181231'
+        o_site: '181231',
+        map: 'lesotekchnicheskaya_2025'
     }
 ];

@@ -1332,7 +1332,7 @@ let parkMaps = [
         name: 'Сосновый Бор',
         year: 2020,
         excluded: true,
-        url: './maps/parks/sosnovy_bor.webp',
+        url: './maps/parks/sosnovy_bor_2020.webp',
         link: './original_maps/parks/sosnovy_bor_2020_omaps.jpg',
         bounds: [[59.9034447, 29.0723133], [59.9013142, 29.0972471], [59.8837263, 29.0651035]],
         author: ['DBRTSV_V','PPV_D','MSPN','TKHNVA'],

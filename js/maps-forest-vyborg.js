@@ -442,24 +442,23 @@ let vyborgMaps = [
     },
     {
         name: 'Выборг, Анненские укреления',
-        year: 2020,
-        start: ['RUSSIA_2020','RUSSIA_CHAMP'],
-        info: '25.09, смешанная эстафета.',
+        date: '2020-09-25',
+        info: 'Смешанная эстафета.',
         o_gps: {
-            '1, 2 этап': 8199,
-            '3, 4 этап': 8207
+            '1,2 этап': 8199,
+            '3,4 этап': 8207
         },
         url: './maps/forest/vyborg/vyborg_annenskie_2017.webp',
         bounds: [[60.7218755, 28.7187982], [60.7206372, 28.7339687], [60.7175727, 28.7169313]],
         author: ['TKMKV_K','KVZN'],
-        owner: 'NW'
+        owner: 'NW',
+        hidden: false
     },
     {
         name: 'Выборг, Батарейная гора',
-        year: 2020,
+        date: '2020-09-27',
         excluded: true,
-        start: ['RUSSIA_2020','RUSSIA_CHAMP'],
-        info: '27.09, спринт-общий старт.',
+        info: 'Спринт-общий старт.',
         o_gps: {
             'М': 8202,
             'Ж': 8203

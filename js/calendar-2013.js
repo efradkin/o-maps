@@ -439,7 +439,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130514_LTA/130614_res_LTA.htm',
         info: 'Первенство Лесотехнического университета среди студентов',
         owner: 'SFSO_SPB',
-        o_site: '130514_LTA'
+        o_site: '130514_LTA',
+        map: 'lesotekchnicheskaya_2025'
     },
     {
         id: 'SPB_20130517_1',

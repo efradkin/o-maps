@@ -234,7 +234,6 @@ let commonEvents2026 = [
         type: 'ORIENT',
         fmt: 'многодневка',
         map: 'kkp_prudy_2026_06_15_kamenukola',
-        major: true,
         start: 'KKP',
         me: 'М50'
     },

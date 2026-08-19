@@ -181,7 +181,6 @@ let eventsEarly = [
         name: 'Белые Ночи',
         info: 'Первые  массовые соревнования "Белые Ночи".',
         start: 'WN',
-        major: true,
         res: './docs/1971/1971_06_12_wn_omaps.pdf',
         map: 'roschino_1971_wn'
     },
@@ -315,7 +314,6 @@ let eventsEarly = [
         place: 'Смоленск, Баклановский',
         name: 'Многодневка на приз Пржевальского',
         start: 'PRZHVLSKY',
-        major: true,
         res: './docs/1977/1977_07_24_przhevalsky_omaps.pdf'
     },
     {

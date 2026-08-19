@@ -281,7 +281,8 @@ let events2020 = [
         owner: 'SFSO_SPB',
         o_site: '200307',
         reskeep: 323,
-        strava: 3161969050
+        strava: 3161969050,
+        map: 'sestroretsk_dubki_2020'
     },
     {
         id: 'SPB_20200308_1',
@@ -561,7 +562,8 @@ let events2020 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200625/200626_kvest.pdf',
         info: 'Мероприятие организуется с целью совершенствования системы патриотического воспитания, обеспечивающей формирование у молодых граждан Российской Федерации прочных основ патриотического сознания, здорового образа жизни, а также содействие становлению активной гражданской позиции. Мероприятие проводится в рамках проекта «Молодежный патриотический спортивный фестиваль «Ориентир на победу!».',
-        o_site: '200625'
+        o_site: '200625',
+        map: 'pobedy_2020'
     },
     {
         id: 'SPB_20200627_1',
@@ -697,7 +699,8 @@ let events2020 = [
         name: 'Serebruanitskii Cup 3',
         type: 'ORIENT',
         reskeep: 343,
-        strava: 3780635030
+        strava: 3780635030,
+        map: 'stekljanny_2014'
     },
     {
         id: 'SPB_20200718_2',
@@ -733,7 +736,9 @@ let events2020 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200719/200719-20_retro_start.pdf',
         info: 'Мероприятие проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом. Мероприятие проводится в рамках проекта «Молодежный открытый фестиваль «Доступный спорт».',
-        o_site: '200719'
+        o_site: '200719',
+        publish: 'https://o-site.spb.ru/race.php?id=200719',
+        map: 'sosnovaya_polyana_roschinka_2020'
     },
     {
         id: 'SPB_20200719_2',
@@ -818,6 +823,7 @@ let events2020 = [
         reg: 'http://orgeo.ru/event/info/13161',
         res: 'https://o-site.spb.ru/_races/200812/200812_rez.pdf',
         info: 'Мероприятие проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом.',
+        video: 'http://www.youtube.com/watch?v=1IW08aEkVJE',
         o_site: '200812'
     },
     {
@@ -893,7 +899,8 @@ let events2020 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200827/200827_admiralteyskiy.pdf',
         info: 'Мероприятие организуется с целью совершенствования системы патриотического воспитания, обеспечивающей формирование у молодых граждан Российской Федерации прочных основ патриотического сознания, здорового образа жизни, а также содействие становлению активной гражданской позиции. Мероприятие проводится в рамках проекта «Молодежный патриотический спортивный фестиваль «Ориентир на победу!».',
-        o_site: '200827'
+        o_site: '200827',
+        map: 'aleksandrovsky_sad_2020'
     },
     {
         id: 'SPB_20200829_1',
@@ -947,7 +954,8 @@ let events2020 = [
         place: 'Мельничный ручей',
         name: 'Техника и тактика. 5 этап',
         type: 'ORIENT',
-        strava: 3987228924
+        strava: 3987228924,
+        map: 'vsevolozhsk_zhdanovskie_oz_2014'
     },
     {
         id: 'SPB_20200901_1',
@@ -1034,7 +1042,8 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=4543',
         res: 'https://o-site.spb.ru/_races/200912/200912_rez.htm',
-        o_site: '200912'
+        o_site: '200912',
+        map: 'tsvelodubovo_2020'
     },
     {
         id: 'SPB_20200912_2',
@@ -1064,7 +1073,7 @@ let events2020 = [
     {
         id: 'SPB_20200912_4',
         date: '2020-09-12',
-        place: 'Поляны',
+        place: 'Рязань, Полково',
         name: 'Чемпионат России по рогейну',
         type: 'ROGAINE',
         fmt: '24, 8',
@@ -1080,7 +1089,8 @@ let events2020 = [
         reg: 'http://sportident.online/entry/?id=4544',
         res: 'https://o-site.spb.ru/_races/200913/200913_ResultList.htm',
         o_site: '200913',
-        reskeep: 367
+        reskeep: 367,
+        map: 'tsvelodubovo_2020'
     },
     {
         id: 'SPB_20200915_1',
@@ -1204,14 +1214,14 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/20092428/20200927_res.htm',
         owner: 'VYBORG',
         o_site: '20092428',
-        map: 'vyborg_center_2020_09_26',
+        map: ['vyborg_annenskie_2017','vyborg_center_2020_09_26','batarejnaya_gora_2020'],
         o_gps: {
             'М': 8200,
             'Ж': 8201
         },
         video: 'https://www.youtube.com/watch?v=fQJcSSgX7e0',
         reskeep: [371, 372],
-        start: 'RUSSIA_CHAMP'
+        start: ['RUSSIA_2020','RUSSIA_CHAMP']
     },
     {
         id: 'SPB_20200926_3',

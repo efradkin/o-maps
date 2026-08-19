@@ -1319,7 +1319,8 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/220911TT/220911TT_split.htm',
         info: 'Тренировочное мероприятие от бригады Яркого Мира.',
         o_site: '220911TT',
-        owner: 'YM'
+        owner: 'YM',
+        map: 'vsevolozhsk_zhdanovskie_oz_2014'
     },
     {
         id: 'SPB_20220914_1',

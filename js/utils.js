@@ -388,6 +388,9 @@ function getLastDate(events) {
 }
 
 function startYear(o, events) { // map, track, event
+    if (!events && o.url) { // только для карт (пока что)
+        events = findEventsForMap(o, true); // все эвенты для карты
+    }
     const date = getLastDate(events);
     if (date) return date.getFullYear();
 
@@ -582,22 +585,38 @@ function isFun(m) {
 }
 
 function isMapHidden(m) {
-    return m.hidden || (m.owner && m.owner === 'NW');
+    return (m.hidden || (m.owner && m.owner === 'NW')) && (m.hidden !== false);
 }
 
 function isMajor(m) {
-    if (m.major) {
-        return true;
-    } else {
+    let major = m.major;
+    if (!major) {
         if (m.start) {
             if (Array.isArray(m.start)) {
-                return starts[m.start[0]] && starts[m.start[0]].major || starts[m.start[1]] && starts[m.start[1]].major;
+                major = starts[m.start[0]] && starts[m.start[0]].major || starts[m.start[1]] && starts[m.start[1]].major;
             } else {
-                return starts[m.start] && starts[m.start].major;
+                major = starts[m.start] && starts[m.start].major;
             }
         }
     }
-    return false;
+    if (!major && m.url) { // только для карт
+        for (const e of findEventsForMap(m, false)) {
+            if (e.major) {
+                major = true; break;
+            }
+            if (!major) {
+                if (e.start) {
+                    if (Array.isArray(e.start)) {
+                        major = starts[e.start[0]] && starts[e.start[0]].major || starts[e.start[1]] && starts[e.start[1]].major;
+                    } else {
+                        major = starts[e.start] && starts[e.start].major;
+                    }
+                }
+                if (major) break;
+            }
+        }
+    }
+    return major;
 }
 
 function filterMapsForCharts() {
@@ -1394,7 +1413,7 @@ function filterEvents(events, onlyMajor) {
         if (START_YEAR_PARAM && (START_YEAR_PARAM !== 'ALL') && (startYear(evt).toString() !== START_YEAR_PARAM)) {
             return false;
         }
-        if (onlyMajor && !evt.major) {
+        if (onlyMajor && !isMajor(evt)) {
             return false;
         }
         if (ROGAINE_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
@@ -1452,26 +1471,33 @@ function findEvent(evtID) {
     return evtID ? oEvents.find(e => e.id === evtID) : undefined;
 }
 
+const EVENTS_FOR_MAPS_CACHE = {};
+
 function findEventsForMap(m, withMap, start) {
     let result = [];
     const mapName = getMapName(m);
-    if (typeof oEvents !== 'undefined') {
-        result = mapName ? oEvents.filter(e => {
-            if (start && !(e.start && e.start.includes(start))) {
-                return false;
-            }
-            if (e.map) {
-                if (Array.isArray(e.map)) {
-                    for (const em of e.map) {
-                        if (em.startsWith(mapName)) return true;
-                    }
+    if (EVENTS_FOR_MAPS_CACHE[mapName]) {
+        result = [...EVENTS_FOR_MAPS_CACHE[mapName]];
+    } else {
+        if (typeof oEvents !== 'undefined') {
+            result = mapName ? oEvents.filter(e => {
+                if (start && !(e.start && e.start.includes(start))) {
                     return false;
                 }
-                return e.map.startsWith(mapName);
-            } else {
-                return false;
-            }
-        }) : [];
+                if (e.map) {
+                    if (Array.isArray(e.map)) {
+                        for (const em of e.map) {
+                            if (em.startsWith(mapName)) return true;
+                        }
+                        return false;
+                    }
+                    return e.map.startsWith(mapName);
+                } else {
+                    return false;
+                }
+            }) : [];
+            EVENTS_FOR_MAPS_CACHE[mapName] = [...result];
+        }
     }
     if (withMap) {
         result.unshift(m); // сама карта - туда же
@@ -1537,7 +1563,7 @@ function validateEvent(evt) {
                 }
         }
     }
-    if (START_NAME_PARAM && (START_NAME_PARAM !== 'major' && evt.start !== START_NAME_PARAM || START_NAME_PARAM === 'major' && !evt.major)) {
+    if (START_NAME_PARAM && (START_NAME_PARAM !== 'major' && evt.start !== START_NAME_PARAM || START_NAME_PARAM === 'major' && !isMajor(evt))) {
         return false;
     }
     return true;

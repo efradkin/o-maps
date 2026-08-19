@@ -30,7 +30,7 @@ let vaskelovoMaps = [
         name: 'Лемболово',
         page: 'spb',
         start: 'MMS',
-        year: 1997,
+        date: '1997-06-28',
         url: './maps/starts/mms/mms_1997_06_28.webp',
         link: ['./original_maps/starts/mms/mms_1997_06_28_omaps.jpg','./original_maps/forest/vaskelovo/lembolovo_north_east_1997_omaps.jpg'],
         bounds: [[60.446403, 30.3172016], [60.4434394, 30.3660822], [60.4204837, 30.3102493]],
