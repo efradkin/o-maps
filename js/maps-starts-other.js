@@ -713,7 +713,6 @@ let otherStartsMaps = [
         link: ['https://psv4.userapi.com/s/v1/d2/TFkhOjWRZ2ujyVbtRG-2FigchFvHMPPX-iqGcvy06UPXzxxIMljikOlH4CJJxqfrq89NBaINY9J8fOVOlnSjhOu_GVxN3zbdJiUVrGieFChD8Zgr0tambecOGP7anUvWKyEKfg0Z5iYr/KKM_10_2025.jpg?dl=1','https://psv4.userapi.com/s/v1/d2/CTqusFJuEj5rge20tJwtMEXPLyoXB3RS3jX_bFuVng3TAV171JFRhrj9pw9mBVZFagNM00W0Z03K8OA_oKuIrahO4717ZGaXMIJiw0bEeJbx5Z4lA2foYOW-3VeV3x-do4HMz74Nkvog/SETKA_10_2025.jpg?dl=1'],
         bounds: [[59.9575456, 30.2271652], [59.9575886, 30.3066444], [59.9185915, 30.2267361]],
         o_gps: 23476,
-        start: 'KKM',
         page: 'starts',
         start: ['VO_FOTO','KKM'],
         owner: 'RYZHOV',

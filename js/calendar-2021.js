@@ -1182,7 +1182,6 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1262',
         res: 'https://o-site.spb.ru/_races/210627/210625_res.htm',
         info: 'ОФИЦИАЛЬНЫЕ СОРЕВНОВАНИЯ ЛЕНИНГРАДСКОЙ ОБЛАСТИ ОТМЕНЕНЫ !!! Будет только многодневка!',
-        map: 'vorobjevo_2024',
         owner: 'WN',
         start: 'WN',
         o_site: '210627',

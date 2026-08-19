@@ -750,7 +750,6 @@ let events2026 = [
         info: '<span class="restricted-text">Закрытый район.</span>',
         reskeep: 853,
         type: 'ORIENT',
-        map: 'bolotnaya_station_2019',
         owner: 'WN',
         map: 'bolotnaya_station_2019'
     },
@@ -861,7 +860,6 @@ let events2026 = [
         planner: 'SRBRNTSKY',
         reskeep: 871,
         map: 'egorovoy_2026',
-        planner: 'SRBRNTSKY',
         strava: [18120682961,18121144687],
         me: 'М'
     },
@@ -1835,7 +1833,6 @@ let events2026 = [
         link: 'https://vk.com/wall-196511971_1466',
         reg: 'https://orgeo.ru/event/53687',
         type: 'ORIENT',
-        map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
         map: 'sosnovo_ulovnoe_oz_2023'
     },
@@ -1895,7 +1892,6 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/53793',
         type: 'ORIENT',
         fmt: 'эстафета',
-        map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
         map: 'sosnovo_ulovnoe_oz_2023'
     },
@@ -1978,7 +1974,6 @@ let events2026 = [
         },
         type: ['ROGAINE', 'ORIENT'],
         fmt: '3',
-        map: 'vorobjevo_2024',
         owner: 'WN',
         map: 'vorobjevo_2024'
     },
@@ -2056,7 +2051,6 @@ let events2026 = [
         place: 'Барышево',
         reg: 'https://orgeo.ru/event/54186',
         type: 'ORIENT',
-        map: 'baryshevo_2015',
         owner: 'WN',
         map: 'baryshevo_2015'
     },
@@ -2077,7 +2071,6 @@ let events2026 = [
         place: 'Смоляное оз',
         reg: 'https://orgeo.ru/event/54227',
         type: 'ORIENT',
-        map: 'smoljanoe_2015',
         owner: 'WN',
         map: 'smoljanoe_2015'
     },

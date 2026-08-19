@@ -538,7 +538,6 @@ let events2014 = [
         name: 'Фестиваль спортивного ориентирования «Белые Ночи»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14061722/14061722_res_official.zip',
-        map: 'pervomayskoe_2021',
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '14061722',

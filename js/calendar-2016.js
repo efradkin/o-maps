@@ -192,6 +192,14 @@ let events2016 = [
         start: 'GORNY_CROSS'
     },
     {
+        id: 'SPB_20160326_1',
+        date: '2016-03-26',
+        name: 'Весенние капели',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/160326/160326_res.htm',
+        o_site: '160326'
+    },
+    {
         id: 'SPB_20160401_1',
         date: '2016-04-01',
         name: 'Sprint Tour SPb 2016: 15 этап',
@@ -252,11 +260,10 @@ let events2016 = [
     },
     {
         id: 'SPB_20160403_1',
-        date: '2016-03-26',
         date: '2016-04-03',
         name: 'Весенние капели',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/160326/160326_res.htm',
+        res: 'https://o-site.spb.ru/_races/160326/160403_res.htm',
         o_site: '160326'
     },
     {
@@ -645,7 +652,6 @@ let events2016 = [
         place: 'Первомайское',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16061016/160610_split.htm',
-        map: 'pervomayskoe_2021',
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '16061016',

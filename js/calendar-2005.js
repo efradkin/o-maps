@@ -177,12 +177,11 @@ let events2005 = [
     {
         id: 'SPB_20050423_2',
         date: '2005-04-23',
-        info: '23 апреля, 30 апреля, 7 мая, 14 мая',
         place: 'Кузьмолово',
         name: 'Эстафеты 2х2',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050507/2x2_res.zip',
-        info: '<a href="./docs/2x2/2005_kuzmolovo_2x2_itogi_omaps.pdf">Итоги и результаты</a>, <a href="./docs/2x2/2005_kuzmolovo_2x2_photos_omaps.doc">буклет</a>.',
+        info: '23 апреля, 30 апреля, 7 мая, 14 мая. <a href="./docs/2x2/2005_kuzmolovo_2x2_itogi_omaps.pdf">Итоги и результаты</a>, <a href="./docs/2x2/2005_kuzmolovo_2x2_photos_omaps.doc">буклет</a>.',
         fmt: 'Эстафеты',
         o_site: '050507',
         map: ['2x2_2005_05_07', '2x2_2005_05_10'],

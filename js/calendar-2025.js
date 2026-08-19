@@ -699,7 +699,6 @@ let events2025 = [
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/42696',
         o_gps: 22445,
-        map: 'orovo_2019',
         photo: 'https://vk.com/album-196511971_307214315',
         map: 'orovo_2019',
         owner: 'WN',
@@ -747,7 +746,6 @@ let events2025 = [
         o_site: '250508_bn',
         reg: 'http://orgeo.ru/event/43588',
         o_gps: 22572,
-        map: 'stekljanny_2021',
         owner: 'WN',
         map: 'stekljanny_2021'
     },
@@ -1069,7 +1067,6 @@ let events2025 = [
         o_site: '250531_RA',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1670',
         reskeep: 704,
-        map: 'aleksandrino_1986',
         photo: 'https://vk.com/album-230167293_309922104',
         map: 'aleksandrino_north_2025',
         publish: 'https://vk.com/album-230167293_309922104',
@@ -1175,7 +1172,6 @@ let events2025 = [
         o_gps: 22800,
         reskeep: [705, 706, 707],
         owner: 'SFSO_SPB',
-        map: 'veschevo_2021',
         photo: [
             'https://vk.com/album-230167293_310016870',
             'https://vk.com/album-230167293_310043045'
@@ -1388,7 +1384,6 @@ let events2025 = [
         o_site: 'mms2025',
         reg: 'http://orgeo.ru/event/43134',
         reskeep: [708, 709],
-        map: 'yappilya_2024',
         start: 'MMS',
         video: [
             'https://www.youtube.com/watch?v=VsrsQUFx4Uo',
@@ -1519,7 +1514,6 @@ let events2025 = [
             739,
             740
         ],
-        map: 'koyonsaari_2025',
         owner: 'WN',
         map: 'koyonsaari_2025'
     },
@@ -1810,7 +1804,6 @@ let events2025 = [
         o_site: '250830_bn',
         reg: 'http://orgeo.ru/event/vaskelovo_middle',
         reskeep: 786,
-        map: 'stekljanny_2021',
         owner: 'WN',
         map: 'stekljanny_2021'
     },
@@ -1886,7 +1879,6 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/46049',
         o_gps: 23375,
         reskeep: 792,
-        map: 'narvskaya_2016',
         photo: 'https://vk.com/album-92124592_308407207',
         info: 'Новая карта.',
         start: 'ST',
@@ -2187,9 +2179,8 @@ let events2025 = [
         map: 'pionerskaya_2025_st',
         planner: 'RYKV_A',
         photo: ['https://vk.com/album-92124592_308559130', 'https://disk.yandex.ru/d/AZzu-M9KzcRvyg'],
-        info: 'Новая карта.',
         start: 'ST',
-        info: '<a href="https://vk.com/@-92124592-noname-sprint-tur-2025-24092025?subtype=primary">Разбор дистанций</a>'
+        info: 'Новая карта. <a href="https://vk.com/@-92124592-noname-sprint-tur-2025-24092025?subtype=primary">Разбор дистанций</a>'
     },
     {
         id: 'SPB_20250926_1',
@@ -2884,7 +2875,6 @@ let events2025 = [
         res: 'https://t.me/whitenightesspb/726',
         o_gps: 23870,
         reskeep: 817,
-        map: 'petjajarvy_2024',
         owner: 'WN',
         map: 'petjajarvy_kentavr_2014'
     },

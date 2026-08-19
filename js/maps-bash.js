@@ -276,7 +276,6 @@ let bashMaps = [
     {
         name: 'Юматово',
         date: '1969-03-02',
-        info: 'П-во ЦС СДСО Буревестник.',
         url: './maps/bash/umatovo_1969_03_04.webp',
         link: './original_maps/bash/umatovo_1969_03_04_omaps.jpg',
         info: 'П-во ЦС СДСО Буревестник, эстафеты.',

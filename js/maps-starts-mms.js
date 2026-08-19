@@ -587,7 +587,6 @@ let mmsStartsMaps = [
         name: 'Яппиля, оз Пистолет',
         start: 'MMS',
         year: 2025,
-        year: 2025,
         info: 'Тренировка.',
         url: './maps/starts/mms/mms_2025_06_20.webp',
         link: './original_maps/starts/mms/mms_2025_06_20_omaps.jpg',

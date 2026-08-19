@@ -127,7 +127,6 @@ let events2017 = [
     {
         id: 'SPB_20170223_1',
         date: '2017-02-23',
-        place: 'Орехово',
         name: '58-й зимний ЧиП СПб Маркированная трасса',
         place: 'Орехово, б/о ПАН',
         type: 'SKI',
@@ -728,7 +727,6 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/17060204/170602_res.htm',
         video: 'https://www.youtube.com/watch?v=7zpDGB2rY9s',
-        map: 'vorobjevo_2024',
         owner: 'WN',
         start: 'WN',
         o_site: '17060204',

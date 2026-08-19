@@ -389,7 +389,6 @@ let commonEvents2026 = [
         fmt: 'классика, многодневный (лонг)',
         photo: ['https://vk.com/album-128591100_311341698','https://vk.com/album-230167293_313923869'],
         me: 'М50',
-        map: 'peski_2026',
         planner: ['ILVS','NKTN_I'],
         publish: 'https://vk.com/album-142737358_311427986',
         major: true,
@@ -414,7 +413,6 @@ let commonEvents2026 = [
         fmt: 'спринт',
         map: 'mms_2026_06_26',
         publish: 'https://vk.com/album-142737358_311427986',
-        planner: 'ILVS',
         start: 'MMS',
         planner: 'ILVS'
     },
