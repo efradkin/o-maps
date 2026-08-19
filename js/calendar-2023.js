@@ -333,7 +333,8 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/27555',
         res: 'https://o-site.spb.ru/_races/230326/230326_res.htm',
-        o_site: '230326'
+        o_site: '230326',
+        map: 'osinovaja_roscha_2018'
     },
     {
         id: 'SPB_20230401_1',

@@ -546,7 +546,8 @@ let events2005 = [
         name: 'Первенство КО, эстафеты',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050918/050918_res.zip',
-        o_site: '050918'
+        o_site: '050918',
+        map: 'osinovaja_roscha_2018'
     },
     {
         id: 'SPB_20050922_1',

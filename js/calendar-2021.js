@@ -559,7 +559,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210527_mtbo/210527_rez.htm',
         info: '27 мая 2021 г. СПб, Парголово, Осиновая Роща 2 июня 2021 г. СПб, Парголово, Шуваловский парк 25 июня 2021 г. СПб, Сестрорецк, Детские Дюны Заявка на 2 этап: http://www.o-reg.spb.ru/entry-list?id=1263 Заявка на 3 этап: http://www.o-reg.spb.ru/entry-list?id=1264 Заявка на 4 этап: http://www.o-reg.spb.ru/entry-list?id=1265',
         o_site: '210527_mtbo',
-        endDate: '2021-06-30'
+        endDate: '2021-06-30',
+        map: 'osinovaja_roscha_velo_2020'
     },
     {
         id: 'SPB_20210501_3',

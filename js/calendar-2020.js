@@ -1315,7 +1315,8 @@ let events2020 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1182',
         res: 'https://o-site.spb.ru/_races/201011/20201011_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '201011'
+        o_site: '201011',
+        map: 'osinovaja_roscha_velo_2020'
     },
     {
         id: 'SPB_20201011_2',

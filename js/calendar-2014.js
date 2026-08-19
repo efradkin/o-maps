@@ -870,7 +870,8 @@ let events2014 = [
         name: 'Первенство СДЮСШОР Экран',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/141007/141007_res.htm',
-        o_site: '141007'
+        o_site: '141007',
+        map: 'osinovaja_roscha_2018'
     },
     {
         id: 'SPB_20141008_1',

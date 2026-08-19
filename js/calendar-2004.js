@@ -335,7 +335,8 @@ let events2004 = [
         res: 'https://o-site.spb.ru/_races/041128/results_etap2.zip',
         info: '2-й этап Кубка Санкт-Петербурга по парковому ориентированию',
         owner: 'SFSO_SPB',
-        o_site: '041128'
+        o_site: '041128',
+        map: 'osinovaja_roscha_2018'
     },
     {
         id: 'SPB_20041226_1',

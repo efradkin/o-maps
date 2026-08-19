@@ -413,7 +413,8 @@ let events2009 = [
         photo: 'http://www.photo.yarkiymir.ru/albums/87/156/page-0/',
         owner: 'SFSO_SPB',
         o_site: '090603',
-        reskeep: 263
+        reskeep: 263,
+        map: 'osinovaja_roscha_2018'
     },
     {
         id: 'SPB_20090604_1',

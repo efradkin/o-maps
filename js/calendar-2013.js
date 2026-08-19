@@ -967,7 +967,8 @@ let events2013 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/131005/131005_mtbo_res.pdf',
         owner: 'SFSO_SPB',
-        o_site: '131005'
+        o_site: '131005',
+        map: 'osinovaja_roscha_velo_2020'
     },
     {
         id: 'SPB_20131006_1',

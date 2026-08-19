@@ -201,7 +201,8 @@ let events2022 = [
         strava: 6940867365,
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 515
+        reskeep: 515,
+        map: 'sestroretskaya_2023'
     },
     {
         id: 'SPB_20220409_1',
@@ -210,7 +211,8 @@ let events2022 = [
         name: 'Перспектива Middle Cup #1',
         strava: 6953487767,
         type: 'ORIENT',
-        reskeep: 510
+        reskeep: 510,
+        map: 'osinovaja_roscha_2018'
     },
     {
         id: 'SPB_20220409_2',
@@ -329,7 +331,8 @@ let events2022 = [
         name: 'Noname Sprint Tour SPb 2022 - 3 этап (MASS-SPRINT)',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 517
+        reskeep: 517,
+        map: 'pargolovo_2021'
     },
     {
         id: 'SPB_20220430_1',
