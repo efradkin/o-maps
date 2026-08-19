@@ -921,7 +921,7 @@ let events2025 = [
         o_site: '250517',
         o_gps: 22607,
         owner: 'EGRV_EGR',
-        map: 'kanneljarvi_2023',
+        map: 'pushkin_babolovsky_2019',
         strava: 14506702093,
         me: 'М45'
     },

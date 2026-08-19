@@ -304,7 +304,8 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130421_Pushkin/130420-21_res.xls',
         info: 'Соревнования будут проводиться 20 и 21 апреля в Баболовском парке г. Пушкина',
-        o_site: '130421_Pushkin'
+        o_site: '130421_Pushkin',
+        map: 'pushkin_babolovsky_2019'
     },
     {
         id: 'SPB_20130424_1',
@@ -527,7 +528,8 @@ let events2013 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130526_LO/130526_lo_res.pdf',
         owner: 'SFSO_LO',
-        o_site: '130526_LO'
+        o_site: '130526_LO',
+        map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
         id: 'SPB_20130526_2',
@@ -1213,7 +1215,8 @@ let events2013 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/131222wn/131222_res.htm',
-        o_site: '131222wn'
+        o_site: '131222wn',
+        map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
         id: 'SPB_20131228_1',

@@ -460,12 +460,14 @@ let events2015 = [
         name: 'Баболовский Микс',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/150511/150511_res_masstart.pdf',
-        o_site: '150511'
+        o_site: '150511',
+        map: 'pushkin_babolovsky_2019',
+        map: 'pushkin_babolovsky_2019'
     },
     {
         id: 'SPB_20150513_1',
         date: '2015-05-13',
-        place: 'Баболовский парк',
+        place: 'Манеж Алексеева',
         name: 'Sprint Tour SPb 2015: 5 этап',
         type: 'ORIENT',
         start: 'ST',
@@ -1408,6 +1410,7 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/151220_PDM/151220_res.htm',
         photo: 'https://o-site.spb.ru/_races/151220_PDM/151220_priz_foto.JPG',
-        o_site: '151220_PDM'
+        o_site: '151220_PDM',
+        map: 'vsevolozhsk_rumbolovo_2014'
     }
 ];

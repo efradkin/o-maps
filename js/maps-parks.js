@@ -1451,7 +1451,7 @@ let parkMaps = [
     },
     {
         name: 'Всеволожск, Румболовский парк',
-        url: './maps/parks/vsevolozhsk_rumbolovo.webp',
+        url: './maps/parks/vsevolozhsk_rumbolovo_old.webp',
         link: './original_maps/parks/vsevolozhsk_rumbolovo_omaps.jpg',
         bounds: [[60.0440822, 30.6304407], [60.0432465, 30.6471348], [60.0348771, 30.6284666]],
         author: 'RYLOV_V',

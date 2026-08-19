@@ -1712,7 +1712,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201212/201212_rez.htm',
         o_site: '201212',
         reskeep: 408,
-        strava: 4462507622
+        strava: 4462507622,
+        map: 'pushkin_babolovsky_2019'
     },
     {
         id: 'SPB_20201213_1',

@@ -1304,7 +1304,7 @@ let events2026 = [
         link: 'https://vk.com/wall-149329533_52636',
         type: 'FUN',
         fmt: 'выбор',
-        map: 'litania_2021',
+        map: 'litania_2021'
     },
     {
         id: 'SPB_20260517_3',
@@ -1400,7 +1400,7 @@ let events2026 = [
         me: 'М45',
         o_site: '260523',
         type: 'ORIENT',
-        map: 'pushkin_babolovsky',
+        map: 'pushkin_babolovsky_2019',
         owner: 'EGRV_EGR'
     },
     {

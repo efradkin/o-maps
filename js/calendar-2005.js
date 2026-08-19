@@ -101,7 +101,8 @@ let events2005 = [
         res: 'https://o-site.spb.ru/_races/050307/1e-predv.htm',
         fmt: 'выбор с раздельного старта',
         start: 'YM',
-        o_site: '050307'
+        o_site: '050307',
+        map: 'vsevolozhsk_rumbolovo_2001'
     },
     {
         id: 'SPB_20050308_1',

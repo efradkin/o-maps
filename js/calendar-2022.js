@@ -325,7 +325,7 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220424_/220424_res_tsa.htm',
         o_site: '220424_',
-        map: 'pushkin_babolovsky',
+        map: 'pushkin_babolovsky_2019',
         owner: 'EGRV_EGR'
     },
     {
@@ -598,7 +598,8 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/220521LO/220521LO_split.htm',
         owner: 'SFSO_LO',
         o_site: '220521LO',
-        reskeep: 543
+        reskeep: 543,
+        map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
         id: 'SPB_20220522_1',
@@ -1592,7 +1593,8 @@ let events2022 = [
         strava: [7924730324, 7929743485, 7936822837],
         owner: 'SFSO_SPB',
         o_site: '221010_vseros',
-        reskeep: [538, 552, 551]
+        reskeep: [538, 552, 551],
+        map: 'sestroretsk_pljazh_laskovy_2023'
     },
     {
         id: 'SPB_20221008_1',
@@ -1696,7 +1698,8 @@ let events2022 = [
         res: 'http://sportident.online/ol/?id=942',
         video: 'https://vkvideo.ru/video-93257360_456239204',
         info: 'III клубная ночная эстафета 50 ВЁРСТ',
-        o_site: '221022_50Verst'
+        o_site: '221022_50Verst',
+        map: 'tsvelodubovo_2020'
     },
     {
         id: 'SPB_20221022_3',
@@ -1904,6 +1907,7 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/221122/221120_res.htm',
         strava: 8143177853,
         o_site: '221122',
+        map: 'luppolovo_2022',
         reskeep: 565
     },
     {

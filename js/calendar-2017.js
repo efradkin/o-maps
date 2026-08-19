@@ -8,7 +8,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170107_08/170107_res.htm',
         info: 'В связи с отсутствием достаточного снежного покрова соревнования в 2017 году проводятся БЕГОМ.',
         owner: 'NW',
-        o_site: '170107_08'
+        o_site: '170107_08',
+        map: 'tsvelodubovo_winter_2003'
     },
     {
         id: 'SPB_20170110_1',
@@ -528,7 +529,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=738',
         res: 'https://o-site.spb.ru/_races/170426_CA/170510_res.htm',
         video: 'https://www.youtube.com/watch?v=92OJ2UKCfsw',
-        o_site: '170426_CA'
+        o_site: '170426_CA',
+        map: 'pushkin_babolovsky_2019'
     },
     {
         id: 'SPB_20170513_1',

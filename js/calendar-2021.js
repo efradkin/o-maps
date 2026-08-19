@@ -9,7 +9,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210103_kur/210103_res.htm',
         o_site: '210103_kur',
         reskeep: 413,
-        strava: 4560359774
+        strava: 4560359774,
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20210103_2',
@@ -170,7 +171,8 @@ let events2021 = [
         info: 'Официальный старт "Веселый ветер" Место старта Баболовский парк.',
         o_site: '210207_vs',
         reskeep: 420,
-        strava: 4748550735
+        strava: 4748550735,
+        map: 'pushkin_babolovsky_2019'
     },
     {
         id: 'SPB_20210210_1',
@@ -712,7 +714,8 @@ let events2021 = [
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/17012/1',
         owner: 'SFSO_LO',
-        o_site: '210515lo'
+        o_site: '210515lo',
+        map: 'litania_2021'
     },
     {
         id: 'SPB_20210515_2',
@@ -724,7 +727,8 @@ let events2021 = [
         owner: 'SFSO_SPB',
         o_site: '210515',
         reskeep: 447,
-        strava: 5300086795
+        strava: 5300086795,
+        map: 'litania_2021'
     },
     {
         id: 'SPB_20210515_3',
@@ -756,7 +760,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210516za/210516_results.htm',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга. С выполнением массовых разрядов для всех участников, независимо от района проживания',
         o_site: '210516za',
-        strava: 5305377662
+        strava: 5305377662,
+        map: 'pushkin_babolovsky_2019'
     },
     {
         id: 'SPB_20210519_1',
@@ -943,7 +948,8 @@ let events2021 = [
         reg: 'http://orgeo.ru/event/17345',
         res: 'https://o-site.spb.ru/_races/210415_ks/210603_rez.html',
         video: 'https://www.youtube.com/watch?v=QnW6Z4WSTzs',
-        o_site: '210415_ks'
+        o_site: '210415_ks',
+        map: 'lehtusi_valkijarvi_2016'
     },
     {
         id: 'SPB_20210605_1',
@@ -1334,7 +1340,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210821_bn/210821_res.htm',
         info: 'Тренировочный старт, организованный клубом Белые Ночи.',
         o_site: '210821_bn',
-        reskeep: [483, 484]
+        reskeep: [483, 484],
+        map: 'smoljanoe_2015'
     },
     {
         id: 'SPB_20210822_1',
@@ -1438,7 +1445,8 @@ let events2021 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050921_bb/20210509_SPRINT_absolyutny (1).pdf',
         info: 'Всероссийские соревнования по трейл-ориентированию «БАЛТИЙСКИЙ БЕРЕГ» (WRE) пройдут с 3 по 5 сентября. Кубок Санкт-Петербурга по спортивному ориентированию лиц с ПОДА: 04.09.2021',
-        o_site: '050921_bb'
+        o_site: '050921_bb',
+        map: 'sestroretsk_pljazh_laskovy_2023'
     },
     {
         id: 'SPB_20210905_2',
@@ -1974,7 +1982,8 @@ let events2021 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2021TT/211113_split.htm',
         info: 'Серия тренировочных стартов от бригады Яркого Кубка',
-        o_site: '2021TT'
+        o_site: '2021TT',
+        map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
         id: 'SPB_20211113_2',
@@ -2163,6 +2172,7 @@ let events2021 = [
         place: 'Румболовский парк, Всеволожск',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/19615',
-        o_site: '211226I'
+        o_site: '211226I',
+        map: 'vsevolozhsk_rumbolovo_2014'
     }
 ];

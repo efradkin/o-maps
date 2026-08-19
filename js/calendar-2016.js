@@ -6,7 +6,8 @@ let events2016 = [
         place: 'Цвелодубово, ДОЛ Голубое озеро',
         name: 'УТС Цвелодубово',
         type: 'VELO',
-        o_site: '160103-10'
+        o_site: '160103-10',
+        map: 'tsvelodubovo_winter_2003'
     },
     {
         id: 'SPB_20160109_1',
@@ -18,7 +19,8 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160109-10/160109_cvel_rez.htm',
         owner: 'NW',
         o_site: '160109-10',
-        endDate: '2016-01-10'
+        endDate: '2016-01-10',
+        map: 'tsvelodubovo_winter_2003'
     },
     {
         id: 'SPB_20160110_1',

@@ -109,7 +109,8 @@ let events2019 = [
         photo: 'http://photosport.online/index.html',
         info: 'Всероссийские соревнования по спортивному ориентированию (лыжные дисциплины) Всероссийские соревнования среди спортсменов среднего, старшего и пожилого возраста по спортивному ориентированию «Чемпионат Ветеранов» Всероссийские соревнования среди студентов',
         video: 'http://www.northernwind.spb.ru/videosplit/',
-        o_site: '190201'
+        o_site: '190201',
+        map: 'tsvelodubovo_winter_2003'
     },
     {
         id: 'SPB_20190210_1',
@@ -421,7 +422,8 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1009',
         res: 'http://orgeo.ru/live/#/9491',
         info: 'Организаторы: СПБ ГБУ ЦФКСЗ "Царское Село".',
-        o_site: '190427'
+        o_site: '190427',
+        map: 'pushkin_babolovsky_2019'
     },
     {
         id: 'SPB_20190427_2',
@@ -1251,7 +1253,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190901/190901_split.htm',
         owner: 'SFSO_LO',
         o_site: '190901',
-        reskeep: 190
+        reskeep: 190,
+        map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
         id: 'SPB_20190901_3',

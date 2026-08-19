@@ -807,7 +807,8 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/111016/111016_res.htm',
         owner: 'SFSO_SPB',
         o_site: '111016',
-        reskeep: 228
+        reskeep: 228,
+        map: 'lehtusi_valkijarvi_2016'
     },
     {
         id: 'SPB_20111022_1',

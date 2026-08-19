@@ -1400,7 +1400,8 @@ let events2023 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230909/230909_split.htm',
         start: 'VSEV_VESTI',
-        o_site: '230909'
+        o_site: '230909',
+        map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
         id: 'SPB_20230909_3',
@@ -2128,7 +2129,8 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/31914/1',
         owner: 'SFSO_SPB',
         o_site: '231217',
-        reskeep: 634
+        reskeep: 634,
+        map: 'sestroretsk_pljazh_laskovy_2023'
     },
     {
         id: 'SPB_20231224_1',

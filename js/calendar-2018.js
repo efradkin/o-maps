@@ -427,7 +427,8 @@ let events2018 = [
         name: 'Царскосельский Азимут',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/6566',
-        o_site: '180425ca'
+        o_site: '180425ca',
+        map: 'pushkin_babolovsky_2019'
     },
     {
         id: 'SPB_20180429_1',
@@ -1933,7 +1934,8 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/181223_NO/181223_res.htm',
         info: '23 декабря 2018г., воскресенье – г. Всеволожск. Соревнования проводятся в Румболовском парке у Церкви Спаса Нерукотворного образа Старт: с 12:00',
         o_site: '181223_NO',
-        reskeep: 102
+        reskeep: 102,
+        map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
         id: 'SPB_20181230_1',
