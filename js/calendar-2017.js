@@ -1147,7 +1147,8 @@ let events2017 = [
         name: 'П-во Красногвардейского р-на',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170923/170923_res.pdf',
-        o_site: '170923'
+        o_site: '170923',
+        map: 'polyustrovsky_2022',
     },
     {
         id: 'SPB_20170923_2',
@@ -1275,8 +1276,8 @@ let events2017 = [
         name: 'Парковый спринт Золотая Осень',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171007kr/171007_res.htm',
-        owner: 'VYBORG',
-        o_site: '171007kr'
+        o_site: '171007kr',
+        map: 'polyustrovsky_2022',
     },
     {
         id: 'SPB_20171007_2',

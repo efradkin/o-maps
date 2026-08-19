@@ -365,7 +365,8 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'https://o-site.spb.ru/_races/180418_K/180418_zayavka.xls',
         res: 'https://o-site.spb.ru/_races/180418_K/180418_RES_K.htm',
-        o_site: '180418_K'
+        o_site: '180418_K',
+        map: 'polyustrovsky_2022',
     },
     {
         id: 'SPB_20180418_2',

@@ -233,7 +233,8 @@ let events2022 = [
         strava: 6959261318,
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220410s/220410_split.htm',
-        o_site: '220410s'
+        o_site: '220410s',
+        map: 'polyustrovsky_2022',
     },
     {
         id: 'SPB_20220410_2',
@@ -255,7 +256,8 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220417trailo/PreO_Ekateringof_16_04_2022.pdf',
         info: 'Трассы трейл-ориентирования в рамках Фестиваля инклюзивного спортивного ориентирования «Адмиралтейский азимут» (16-17 апреля 2022) Чемпионат Санкт-Петербурга по спортивному ориентированию – спорт лиц с поражением опорно-двигательного аппарата (16 апреля 2022 года)',
-        o_site: '220417trailo'
+        o_site: '220417trailo',
+        map: 'ekateringof_2021'
     },
     {
         id: 'SPB_20220417_1',
