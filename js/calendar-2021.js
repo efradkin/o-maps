@@ -41,7 +41,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'lembolovo_orekhovo_peski_gk_2026'
     },
     {
         id: 'SPB_20210116_1',
@@ -578,7 +579,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '4',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'luga_omchino_gk_2023'
     },
     {
         id: 'SPB_20210502_1',
@@ -638,7 +640,8 @@ let events2021 = [
         photo: 'http://vk.com/album-154221178_279231391',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга, с выполнением массовых разрядов',
         o_site: '210509',
-        reskeep: 459
+        reskeep: 459,
+        map: 'pukhtolova_gora_2025',
     },
     {
         id: 'SPB_20210509_2',
@@ -764,7 +767,8 @@ let events2021 = [
         type: 'VELO',
         res: 'http://sportident.online/ol/?id=347',
         owner: 'SFSO_SPB',
-        o_site: '210522'
+        o_site: '210522',
+        map: 'pukhtolova_gora_velo_2025'
     },
     {
         id: 'SPB_20210522_2',
@@ -881,7 +885,8 @@ let events2021 = [
         fmt: '24, 8, 3',
         link: 'https://vk.com/gornycross',
         video: 'https://www.youtube.com/watch?v=xDxeA3d4diU',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'kuznechnoe_2009'
     },
     {
         id: 'SPB_20210529_5',
@@ -1563,7 +1568,8 @@ let events2021 = [
         type: 'ROGAINE',
         fmt: '5, 2',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'molodezhnoe_gk_2024'
     },
     {
         id: 'SPB_20210926_1',
@@ -1660,7 +1666,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/211009_/Res_PetOs_211009.htm',
         info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
         logo: 'azimut.gif',
-        o_site: '211009_'
+        o_site: '211009_',
+        map: 'pukhtolova_gora_2025',
     },
     {
         id: 'SPB_20211009_3',
@@ -1671,7 +1678,8 @@ let events2021 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1312',
         res: 'https://o-site.spb.ru/_races/211009/Res_Vus.pdf',
         o_site: '211009',
-        reskeep: 495
+        reskeep: 495,
+        map: 'pukhtolova_gora_2025',
     },
     {
         id: 'SPB_20211009_4',
@@ -1732,7 +1740,8 @@ let events2021 = [
         fmt: '4.2',
         link: 'https://vk.com/gornycross',
         video: 'https://www.youtube.com/watch?v=WohqaSUR-dw',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'zelenogorsk_gk_2009'
     },
     {
         id: 'SPB_20211017_1',
@@ -1754,7 +1763,8 @@ let events2021 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1315',
         res: 'https://o-site.spb.ru/_races/211017_CZ/211017_res.htm',
         info: '17 октября 2021 г. СДЮСШОР № 2 СПБ ГДТЮ в районе пос. Ушково – Пухтолова гора проводит однодневные юношеские соревнования «Старты в Зеркальном». Подход от ст. Ушково. Дисциплина «кросс-классика». Группы от 10 до 20 лет плюс ДТР, Фитнес удл., Фитнес кор. Просим прощение за задержку информации. Идёт согласование с исполнительными органами власти.',
-        o_site: '211017_CZ'
+        o_site: '211017_CZ',
+        map: 'pukhtolova_gora_2025',
     },
     {
         id: 'SPB_20211019_1',

@@ -30,7 +30,8 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'lembolovo_orekhovo_peski_gk_2026'
     },
     {
         id: 'SPB_20200112_1',
@@ -424,7 +425,8 @@ let events2020 = [
         fmt: '2',
         link: 'https://vk.com/gornycross',
         video: 'https://www.youtube.com/watch?v=bNN2J99LoJw',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'luga_omchino_gk_2023'
     },
     {
         id: 'SPB_20200510_1',
@@ -494,7 +496,8 @@ let events2020 = [
         fmt: '24, 8, 3',
         link: 'https://vk.com/gornycross',
         video: 'https://www.youtube.com/watch?v=9suD_OQddnM',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'kuznechnoe_2009'
     },
     {
         id: 'SPB_20200601_1',
@@ -668,7 +671,8 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'lembolovo_orekhovo_peski_gk_2026'
     },
     {
         id: 'SPB_20200712_1',
@@ -1224,7 +1228,8 @@ let events2020 = [
         type: 'ROGAINE',
         fmt: '5, 2',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'molodezhnoe_gk_2024'
     },
     {
         id: 'SPB_20200926_6',
@@ -1424,7 +1429,8 @@ let events2020 = [
         res: 'http://sportident.online/ol/?id=127',
         owner: 'SFSO_SPB',
         o_site: '201031_MTBO',
-        reskeep: 383
+        reskeep: 383,
+        map: 'pukhtolova_gora_velo_2025'
     },
     {
         id: 'SPB_20201031_2',
@@ -1515,7 +1521,8 @@ let events2020 = [
         name: 'Кубок Белых Ночей 2019/20. 6 этап',
         type: 'ORIENT',
         reskeep: 397,
-        owner: 'WN'
+        owner: 'WN',
+        map: 'pukhtolova_gora_2023'
     },
     {
         id: 'SPB_20201114_1',

@@ -506,7 +506,7 @@ let specialMaps = [
     {
         name: 'Пухтолова гора',
         year: 2009, //Реально более ранняя
-        url: './maps/velo/pukhtolova_gora_velo.webp',
+        url: './maps/velo/pukhtolova_gora_velo_2009.webp',
         link: './original_maps/velo/pukhtolova_gora_velo_omaps.jpg',
         bounds: [[60.2560392, 29.6344185], [60.2513548, 29.6914959], [60.2287323, 29.6253204]],
         author: ['BLZRV_V','URVNTSV','NKFRV_A'],

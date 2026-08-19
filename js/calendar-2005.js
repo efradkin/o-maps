@@ -234,7 +234,8 @@ let events2005 = [
         name: 'Первенство КО, день1',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050508/KO_080505_res.zip',
-        o_site: '050508'
+        o_site: '050508',
+        map: 'pukhtolova_gora_2009'
     },
     {
         id: 'SPB_20050509_1',
@@ -775,7 +776,8 @@ let events2005 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/050104/gorny_cross_res.htm',
         start: 'GORNY_CROSS',
-        o_site: '050104'
+        o_site: '050104',
+        map: 'lembolovo_orekhovo_peski_gk_2026'
     },
     {
         id: 'SPB_20051211_1',

@@ -165,7 +165,8 @@ let events2004 = [
         res: 'https://o-site.spb.ru/_races/040710/ChempSPbMTBO.html',
         info: 'Чемпионат Санкт-Петербурга по ориентированию на велосипедах (МТВ-О). Возрастные группы: МЖ14, МЭ, ЖЭ, МЖ40, МЖ-Новички',
         owner: 'SFSO_SPB',
-        o_site: '040710'
+        o_site: '040710',
+        map: 'pukhtolova_gora_velo_2009'
     },
     {
         id: 'SPB_20040731_1',

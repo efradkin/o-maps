@@ -477,7 +477,8 @@ let events2019 = [
         fmt: '5, 2',
         link: 'https://vk.com/gornycross',
         video: 'https://www.youtube.com/watch?v=iymfOvJymlU',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'luga_omchino_gk_2023'
     },
     {
         id: 'SPB_20190504_1',
@@ -715,7 +716,8 @@ let events2019 = [
         fmt: '24 ,8, 3',
         link: 'https://vk.com/gornycross',
         video: 'https://www.youtube.com/watch?v=iEkCTlSC9Zw',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'kuznechnoe_2009'
     },
     {
         id: 'SPB_20190525_2',
@@ -1030,7 +1032,8 @@ let events2019 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'lembolovo_orekhovo_peski_gk_2026'
     },
     {
         id: 'SPB_20190714_1',
@@ -1205,7 +1208,8 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1060',
         res: 'http://o-site.spb.ru/_races/190825/20190825_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '190825'
+        o_site: '190825',
+        map: 'pukhtolova_gora_velo_2025'
     },
     {
         id: 'SPB_20190831_1',
@@ -1361,7 +1365,8 @@ let events2019 = [
         info: '21.09 (суббота): соревнования в Муринском парке (место старта рядом с «Родео драйв»). Дистанция «кросс-спринт»; Начало соревнований в 10.30! 28.09 (суббота): соревнования в районе Пухтоловой горы. Дистанция «кросс-классика»; Начало соревнований в 10.30!',
         owner: 'SFSO_SPB',
         o_site: '190928_21',
-        endDate: '2019-09-28'
+        endDate: '2019-09-28',
+        map: 'pukhtolova_gora_2025',
     },
     {
         id: 'SPB_20190921_3',
@@ -1414,7 +1419,8 @@ let events2019 = [
         res: 'http://o-site.spb.ru/_races/1909-12/190907_res.htm',
         info: '1-й этап: Результаты Сплиты 2-й этап: Результаты Сплиты',
         o_site: '1909-12',
-        reskeep: 202
+        reskeep: 202,
+        map: 'pukhtolova_gora_2025',
     },
     {
         id: 'SPB_20190928_3',
@@ -1433,7 +1439,8 @@ let events2019 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'molodezhnoe_gk_2024'
     },
     {
         id: 'SPB_20190929_1',

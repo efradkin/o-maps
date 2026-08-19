@@ -2273,7 +2273,8 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1747',
         info: '+ тренировочный дистанции.',
         type: 'ORIENT',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'pukhtolova_gora_2025',
     },
     {
         id: 'SPB_20260829_1',

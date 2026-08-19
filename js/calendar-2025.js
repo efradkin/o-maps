@@ -1697,7 +1697,7 @@ let events2025 = [
         fmt: 'масстарт',
         o_site: '250810',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1691',
-        map: 'pukhtolova_gora_velo_2024'
+        map: 'pukhtolova_gora_velo_2025'
     },
     {
         id: 'SPB_20250816_1',
@@ -1797,7 +1797,7 @@ let events2025 = [
         o_site: '250830_AT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1693',
         reskeep: 785,
-        map: 'pukhtolova_gora_2009'
+        map: 'pukhtolova_gora_2025',
     },
     {
         id: 'SPB_20250830_3',

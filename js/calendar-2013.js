@@ -491,7 +491,8 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130519/130519_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '130519'
+        o_site: '130519',
+        map: 'pukhtolova_gora_2009'
     },
     {
         id: 'SPB_20130522_1',

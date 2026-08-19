@@ -522,6 +522,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240504_wn/240505_res.htm',
         owner: 'WN',
         o_site: '240504_wn',
+        map: 'pukhtolova_gora_2023'
     },
     {
         id: 'SPB_20240504_2',
@@ -576,7 +577,8 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1612',
         res: 'https://o-site.spb.ru/_races/240905/240505_RES.htm',
-        o_site: '240905'
+        o_site: '240905',
+        map: 'pukhtolova_gora_2025'
     },
     {
         id: 'SPB_20240509_1',
@@ -1894,7 +1896,8 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1641',
         res: 'https://o-site.spb.ru/_races/241102/241103_res.htm',
-        o_site: '241102'
+        o_site: '241102',
+        map: 'pukhtolova_gora_2025'
     },
     {
         id: 'SPB_20241104_1',

@@ -20,7 +20,8 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '5, 2',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'lembolovo_orekhovo_peski_gk_2026'
     },
     {
         id: 'SPB_20220116_1',
@@ -219,7 +220,8 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '5, 2',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'luga_omchino_gk_2023'
     },
     {
         id: 'SPB_20220410_1',
@@ -376,7 +378,8 @@ let events2022 = [
         strava: 7069852592,
         type: 'ORIENT',
         owner: 'WN',
-        reskeep: 511
+        reskeep: 511,
+        map: 'pukhtolova_gora_2023'
     },
     {
         id: 'SPB_20220503_1',
@@ -1620,7 +1623,8 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '4, 2',
         link: 'https://vk.com/gornycross',
-        start: 'GORNY_CROSS'
+        start: 'GORNY_CROSS',
+        map: 'zelenogorsk_gk_2009'
     },
     {
         id: 'SPB_20221016_1',

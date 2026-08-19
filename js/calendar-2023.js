@@ -606,7 +606,8 @@ let events2023 = [
         name: 'Кубок Белых Ночей #17',
         type: 'ORIENT',
         owner: 'WN',
-        strava: 9062244567
+        strava: 9062244567,
+        map: 'pukhtolova_gora_2023'
     },
     {
         id: 'SPB_20230514_1',
@@ -1744,7 +1745,8 @@ let events2023 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1564',
         res: 'https://o-site.spb.ru/_races/231015/231015_rez_velo.pdf',
         owner: 'SFSO_SPB',
-        o_site: '231015'
+        o_site: '231015',
+        map: 'pukhtolova_gora_velo_2025'
     },
     {
         id: 'SPB_20231020_1',

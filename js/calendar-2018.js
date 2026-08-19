@@ -354,7 +354,8 @@ let events2018 = [
         place: 'Пухтолова гора',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180415_tr/180415_res.htm',
-        o_site: '180415_tr'
+        o_site: '180415_tr',
+        map: 'pukhtolova_gora_2025',
     },
     {
         id: 'SPB_20180418_1',
@@ -516,7 +517,8 @@ let events2018 = [
         reg: 'http://new.o-reg.spb.ru/?filter[day_id]=883',
         res: 'https://o-site.spb.ru/_races/180513/180513_res.htm',
         info: 'ВНИМАНИЕ! При заявке на этот старт продолжает тестироваться новая версия сайта o-reg.spb.ru "Старые" логин и пароль на новом сайте работают! Если возникают проблемы с заявкой - пишите на электронную почту гл. секретаря или звоните ему (см. информацию о старте).',
-        o_site: '180513'
+        o_site: '180513',
+        map: 'pukhtolova_gora_2025',
     },
     {
         id: 'SPB_20180516_1',
@@ -1322,7 +1324,8 @@ let events2018 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180929_deaf/180929_rez_deaf.htm',
         owner: 'SFSO_SPB',
-        o_site: '180929_deaf'
+        o_site: '180929_deaf',
+        map: 'pukhtolova_gora_2025',
     },
     {
         id: 'SPB_20180929_6',

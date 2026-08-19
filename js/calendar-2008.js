@@ -680,7 +680,8 @@ let events2008 = [
         name: 'Кубок Дворца',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080921/080921_res.htm',
-        o_site: '080921'
+        o_site: '080921',
+        map: 'pukhtolova_gora_2009'
     },
     {
         id: 'SPB_20080927_1',

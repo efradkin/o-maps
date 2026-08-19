@@ -454,7 +454,8 @@ let events2012 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120527/120527_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '120527'
+        o_site: '120527',
+        map: 'pukhtolova_gora_2009'
     },
     {
         id: 'SPB_20120602_1',

@@ -324,7 +324,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100508_Az/100508_res.htm',
         info: 'Соревнования, посвящённые 65-й годовщине Победы Открытое п-во СДЮСШОР Курортного р-на, посв. Дню Победы',
         fmt: 'Классика40',
-        o_site: '100508_Az'
+        o_site: '100508_Az',
+        map: 'pukhtolova_gora_2009'
     },
     {
         id: 'SPB_20100509_1',
@@ -626,7 +627,8 @@ let events2010 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/10071718/100717_res.xls',
         start: 'GORNY_CROSS',
-        o_site: '10071718'
+        o_site: '10071718',
+        map: 'lembolovo_orekhovo_peski_gk_2026'
     },
     {
         id: 'SPB_20100724_1',
@@ -724,7 +726,8 @@ let events2010 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100918_Az/100918_res.htm',
         logo: 'azimut.gif',
-        o_site: '100918_Az'
+        o_site: '100918_Az',
+        map: 'pukhtolova_gora_2009'
     },
     {
         id: 'SPB_20100919_1',
