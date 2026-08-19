@@ -181,7 +181,7 @@ let otherEvents2026 = [
     name: 'Ореховская лыжня',
     type: 'SK_RACE',
     fmt: '51,34,13,3 skate',
-    start: 'MULTSPORT',
+    owner: 'MULTSPORT',
     track: 'orekhovo_12_ski',
     coord: [60.461689, 30.294732],
     cancelled: true

@@ -66,7 +66,7 @@ let events2021 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-21/registration.html',
         fmt: '4 часа лыжи или бег',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '210117'
     },
     {
@@ -256,7 +256,7 @@ let events2021 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/ice-trail-2021/registration.html',
         fmt: 'Рогейн 3 и 6 часов, лыжи/бег/вело',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '210228r'
     },
     {
@@ -739,7 +739,7 @@ let events2021 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2021/registration.html',
         fmt: '8 и 16 часов на байдарках, каяках или SUP',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '210515r'
     },
     {
@@ -1382,7 +1382,7 @@ let events2021 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/veloizol21/registration.html',
         fmt: '4 и 8 часов. Велосипедный и беговой зачеты',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '210829'
     },
     {

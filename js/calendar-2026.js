@@ -90,7 +90,7 @@ let events2026 = [
             'SKI'
         ],
         fmt: '4',
-        start: 'MULTSPORT'
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20260111_2',
@@ -453,7 +453,7 @@ let events2026 = [
         type: 'ROGAINE',
         fmt: '6, 3',
         map: 'vuoksa_rogaine_2019',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         cancelled: true
     },
     {
@@ -1238,7 +1238,7 @@ let events2026 = [
         o_gps: 25098,
         type: ['ROGAINE','WATER'],
         fmt: '16,8,4',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         map: 'vuoksa_rogaine_2019'
     },
     {
@@ -1585,7 +1585,7 @@ let events2026 = [
         reg: 'https://myrace.info/events/1570',
         type: 'ROGAINE',
         fmt: '4, 8',
-        start: 'MULTSPORT'
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20260531_1',
@@ -2334,7 +2334,7 @@ let events2026 = [
         name: 'Велоизоляция',
         type: ['ROGAINE', 'VELO'],
         fmt: '8, 4',
-        start: 'MULTSPORT'
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20260919_2',

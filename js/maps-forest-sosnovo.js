@@ -218,9 +218,7 @@ let sosnovoMaps = [
     },
     {
         name: 'Сосново, оз Уловное',
-        year: 1981,
-        start: ['USSR_1981','USSR_CHAMP'],
-        info: '<a href="./docs/1981_ussr_champ_relay_schema_omaps.jpg">Эстафета</a>.',
+        date: '1981-08-05',
         url: './maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981.webp',
         link: ['./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_all_omaps.jpg'],
         bounds: [[60.6047504, 30.2156639], [60.6022648, 30.2620983], [60.5855763, 30.2098274]],

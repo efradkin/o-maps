@@ -63,7 +63,7 @@ let events2020 = [
         reg: 'http://www.multsport.ru/starts/winter-rogaine-20/registration.html',
         video: ['https://www.youtube.com/watch?v=qMmQMfFs87o','https://www.youtube.com/watch?v=aBaXJnM_CNM'],
         fmt: 'Рогейн 4ч (лыжи, бег, велосипед)',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '200119'
     },
     {
@@ -252,7 +252,7 @@ let events2020 = [
         reg: 'http://www.multsport.ru/starts/ice-trail-2020/registration.html',
         video: 'https://www.youtube.com/watch?v=6uMl1mDAcH0',
         fmt: 'Рогейн 6ч (бег/лыжи или велосипед)',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '200229r'
     },
     {
@@ -453,7 +453,7 @@ let events2020 = [
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2020/registration.html',
         video: ['https://www.youtube.com/watch?v=A-XZIHinuaw','https://www.youtube.com/watch?v=fW7vxveGSo4'],
         fmt: 'Рогейн 8ч и 16ч (на байдарках)',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '200516'
     },
     {

@@ -333,7 +333,7 @@ let starts = {
     },
     USSR_FRANCE_ARMY_1975: {
         short: 'СССР-Франция\'1975',
-        name: 'Матч ВС СССР-Франция',
+        name: 'Матч ВС СССР-Франция 1975',
         info: 'В 1973 году в Спорткоитете МО СССР принято решение включить сборную команду ориентировшиков в традиционные встречи со спортсменами Франции.<br />' +
             'В 1975 состоялся ответный визит французских ориентировщиков в нашу страну. Свою первую тренировку в Москве французские спортсмены провели, ' +
             'участвуя в соревнованиях 18 мая в Кунцевском лесопарке на Призы Центрального телевидения. Французов удивило большое число участников соревнований, ' +
@@ -352,7 +352,7 @@ let starts = {
     },
     USSR_V_1975: {
         short: 'Всесоюзные\'1975',
-        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-75.html">Всесоюзные зимние соревнования</a>',
+        name: '<a href="https://o-site.spb.ru/history/Knots/ussr-75.html">Всесоюзные зимние соревнования 1975</a>',
         info: 'Всесоюзные  лично-командные  соревнования  по  ориентированию  на местности,  посвященные  30-летию победы над фашистской Германией,  ' +
             'были проведены  в окрестностях  Ленинграда  10-13 марта 1975 года.',
         logo: 'ussr_1975.jpg',
@@ -364,7 +364,7 @@ let starts = {
         major: true,
         retro: true,
         short: 'VWC\'1995',
-        name: '<a href="https://o-site.spb.ru/history/VWC-95/index.html">Кубок Мира среди ветеранов</a>',
+        name: '<a href="https://o-site.spb.ru/history/VWC-95/index.html">Кубок Мира среди ветеранов 1995</a>',
         logo: 'vwc95.gif',
         region: 'SPB'
     },
@@ -495,7 +495,7 @@ let starts = {
     JWSOC_2003: {
         major: true,
         short: 'JWSOC 2003',
-        name: '<a href="https://spbof.ru/ru/2-uncategorised/582-istoriya-orientirovaniya-1992g-po-nastoyashchee-vremya">Чемпионат мира  по ориентированию  на лыжах среди  юниоров</a> (<a href="https://docs.cntd.ru/document/3641816">распоряжение</a>)',
+        name: '<a href="https://spbof.ru/ru/2-uncategorised/582-istoriya-orientirovaniya-1992g-po-nastoyashchee-vremya">Чемпионат мира  по ориентированию  на лыжах среди  юниоров 2003</a> (<a href="https://docs.cntd.ru/document/3641816">распоряжение</a>)',
         logo: 'jwsoc_2003.jpg',
         region: 'SPB'
     },
@@ -519,28 +519,28 @@ let starts = {
     RUSSIA_2019: {
         major: true,
         short: 'ЧР 2019',
-        name: '<a href="https://o-site.spb.ru/race.php?id=190524chRF">Чемпионат России</a>',
+        name: '<a href="https://o-site.spb.ru/race.php?id=190524chRF">Чемпионат России 2019</a>',
         logo: 'fsor.webp',
         region: 'SPB'
     },
     RUSSIA_2020: {
         major: true,
         short: 'ЧР (спринт) 2020',
-        name: '<a href="https://o-site.spb.ru/race.php?id=20092428">Чемпионат России (спринт)</a>',
+        name: '<a href="https://o-site.spb.ru/race.php?id=20092428">Чемпионат России 2020 (спринт)</a>',
         logo: 'fsor.webp',
         region: 'SPB'
     },
     RUSSIA_2021: {
         major: true,
         short: 'ЧР (спринт) 2021',
-        name: '<a href="https://o-site.spb.ru/race.php?id=210531">Чемпионат России (спринт)</a>',
+        name: '<a href="https://o-site.spb.ru/race.php?id=210531">Чемпионат России 2021 (спринт)</a>',
         logo: 'russia_2021.jpg',
         region: 'SPB'
     },
     RUSSIA_2022: {
         major: true,
         short: 'ЧР 2022',
-        name: '<a href="https://o-site.spb.ru/race.php?id=22060911">Чемпионат России</a>',
+        name: '<a href="https://o-site.spb.ru/race.php?id=22060911">Чемпионат России 2022</a>',
         logo: 'fsor.webp',
         region: 'SPB'
     },
@@ -554,7 +554,7 @@ let starts = {
     RUSSIA_CUP_2024: {
         major: true,
         short: 'КР (спринт) 2024',
-        name: '<a href="https://сшгорелова.рф/кубок-россии-г-химки/">Кубок России (спринт)</a>',
+        name: '<a href="https://сшгорелова.рф/кубок-россии-г-химки/">Кубок России 2024 (спринт)</a>',
         logo: 'fso_msk.jpg',
         region: 'MSK'
     },
@@ -778,11 +778,6 @@ let starts = {
         short: 'Сотка',
         name: '<a href="https://sotka.one">Сотка</a>',
         logo: 'sotka.gif'
-    },
-    MULTSPORT: {
-        short: 'МУЛЬТИСПОРТ',
-        name: '<a href="https://www.multsport.ru/">МУЛЬТИСПОРТ</a>',
-        logo: 'multsport.webp'
     },
     TOKSOVO_CUP: {
         short: 'ToksovoCup',

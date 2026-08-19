@@ -27,7 +27,7 @@ let events2025 = [
         o_gps: 21398,
         photo: 'https://vk.com/album-8292013_308226055',
         coord: [60.4060487, 30.3227162],
-        start: 'MULTSPORT'
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20250112_1',
@@ -276,7 +276,7 @@ let events2025 = [
         res: 'https://multsport.ru/starts/ice-trail-2025/results.html',
         o_gps: 21771,
         map: 'vuoksa_rogaine_2019',
-        start: 'MULTSPORT'
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20250309_1',
@@ -909,7 +909,7 @@ let events2025 = [
         res: 'https://www.multsport.ru/starts/canoe-rogaine-2025/results.html',
         video: 'https://www.youtube.com/watch?v=KpGZElsaohA',
         map: 'vuoksa_rogaine_2019',
-        start: 'MULTSPORT'
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20250517_3',
@@ -1779,7 +1779,7 @@ let events2025 = [
             60.177493,
             30.312978
         ],
-        start: 'MULTSPORT'
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20250830_2',
@@ -2073,7 +2073,7 @@ let events2025 = [
         photo: 'https://vk.com/album-8292013_311140243',
         video: 'https://vk.com/video-8292013_456239254',
         map: 'michurinskoe_redfox_2014',
-        start: 'MULTSPORT'
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20250920_5',
@@ -2706,7 +2706,7 @@ let events2025 = [
         photo: 'https://vk.ru/album-8292013_311531540',
         res: 'https://t.me/mult_sport/345',
         map: 'koltushi_2018',
-        start: 'MULTSPORT'
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20251026_1',

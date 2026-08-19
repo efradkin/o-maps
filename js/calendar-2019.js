@@ -95,7 +95,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190126r/190126_res.htm',
         video: 'https://www.youtube.com/watch?v=x6ZLxdS5nEY',
         fmt: 'Рогейн 4 часа. Лыжи, бег или велосипед.',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '190126r'
     },
     {
@@ -168,7 +168,7 @@ let events2019 = [
         reg: 'http://www.multsport.ru/starts/ice-trail-2019/registration.html',
         video: 'https://www.youtube.com/watch?v=vHAx6Vjk7GE',
         fmt: 'Рогейн 6ч (лыжи, бег)',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '190302'
     },
     {
@@ -653,11 +653,14 @@ let events2019 = [
         endDate: '2019-05-19',
         place: 'оз Вуокса',
         name: 'Чемпионат России по рогейну на байдарках',
+        link: 'https://rrc2012.rogaining.ru/',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2019/registration.html',
         fmt: '8ч – Весенний водный рогейн, 16ч – 2-й Чемпионат России по рогейну на байдарках.',
-        start: ['MULTSPORT','RUSSIA_ROGAINE_CHAMP'],
-        o_site: '19051819'
+        start: 'RUSSIA_ROGAINE_CHAMP',
+        owner: 'MULTSPORT',
+        o_site: '19051819',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20190518_4',
@@ -1365,7 +1368,7 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/matrasoff-race-2019/registration.html',
         fmt: 'Рогейн 8ч (велосипед, бег). Мультигонка 14 и 24 часа.',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '19092122'
     },
     {

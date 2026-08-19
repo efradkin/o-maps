@@ -838,7 +838,7 @@ let events2016 = [
         type: 'MULTI',
         reg: 'http://www.multsport.ru/starts/matrasoff-race-2016/registration.html',
         fmt: 'Приключенческая гонка 18 и 24ч. Беговой и Велосипедный рогейн 8ч.',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '160807'
     },
     {

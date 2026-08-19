@@ -29,7 +29,7 @@ let events2015 = [
         reg: 'http://www.multsport.ru/starts/christmas-rogaine-2015/registration.html',
         res: 'https://o-site.spb.ru/_races/150111/150111_res.htm',
         fmt: '3 и 5 часов. Способ передвижения - любой (бег, лыжи, велосипед).',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '150111'
     },
     {
@@ -504,7 +504,7 @@ let events2015 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2015/registration.html',
         video: 'https://www.youtube.com/watch?v=drg5qeThb9g',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '150616_VR'
     },
     {
@@ -786,7 +786,7 @@ let events2015 = [
         name: 'Приключенческая гонка MatrasOFF Race',
         type: 'ORIENT',
         reg: 'http://www.multsport.ru/starts/matrasoff-race-2015/registration.html',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '15070405'
     },
     {
@@ -899,7 +899,7 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru',
         res: 'http://www.multsport.ru/news/results-mtbo-lemb15.html',
         owner: 'SFSO_SPB',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '150823_velo'
     },
     {

@@ -195,7 +195,7 @@ let rogaineMaps = [
         bounds: [[60.6792316, 30.1554108], [60.6888133, 30.6793213], [60.431646, 30.1732635]],
         info: '<a href="https://www.multsport.ru/starts/rus-run-rogaine-2016/">XIII Чемпионат России по рогейну</a>.',
         author: 'RYLOV_V',
-        owner: 'MLTSPRT',
+        owner: 'MULTSPORT',
         type: ['ROGAINE'],
         start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'SPB'
@@ -298,19 +298,17 @@ let rogaineMaps = [
         bounds: [[60.3915542, 30.4400253], [60.3777268, 30.5541801], [60.3520924, 30.418911]],
         info: 'Финал КЛО.',
         author: 'RYLOV_V',
-        owner: 'MLTSPRT',
+        owner: 'MULTSPORT',
         type: ['ROGAINE']
     },
     {
         name: 'Вуокса',
-        date: '2019-05-18',
+        year: 2019,
         url: './maps/rogaine/vuoksa_rogaine_2019.webp',
         link: 'https://www.multsport.ru/images/rogCanoe19/16.jpg',
         bounds: [[61.0690827, 29.8694229], [61.0640167, 30.116787], [60.9105755, 29.8550892]],
-        info: '<a href="https://rrc2012.rogaining.ru/">Чемпионат России по рогейну на байдарках.</a>.',
-        owner: 'MLTSPRT',
+        owner: 'MULTSPORT',
         type: ['ROGAINE'],
-        start: 'RUSSIA_ROGAINE_CHAMP',
         region: 'SPB'
     },
     {

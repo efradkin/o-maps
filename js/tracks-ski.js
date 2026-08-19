@@ -366,7 +366,7 @@ let skiTracks = [
             '5km':'tracks/ski/orekhovo_5_ski_omaps.gpx'
         },
         markir: true,
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         pics: ['ski/orekhovo',1],
         ski_kind: 'SKATE_ROUTE',
         video: {

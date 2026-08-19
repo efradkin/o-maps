@@ -34,7 +34,7 @@ let events2022 = [
         fmt: 'рогейн 4 часа. Лыжи, бег, велосипед в одном зачете',
         video: 'https://www.youtube.com/watch?v=dCLQ2XCAjYk',
         strava: 6532650244,
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '220116'
     },
     {
@@ -150,7 +150,7 @@ let events2022 = [
             'https://www.youtube.com/watch?v=kPbaMAy2HSQ',
             'https://www.youtube.com/watch?v=YrzSQWuIVR8'
         ],
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '220227r'
     },
     {
@@ -494,7 +494,7 @@ let events2022 = [
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2022/registration.html',
         video: ['https://www.youtube.com/watch?v=V0Bu0QiRQX8','https://www.youtube.com/watch?v=f6OlPEX-CxU'],
         fmt: 'Рогейн 4, 8 и 16 часов',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '220515r'
     },
     {
@@ -1618,7 +1618,7 @@ let events2022 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/veloizol22/registration.html',
         fmt: 'рогейн 4 и 8 часов. Велосипедный и беговой зачеты',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '22100809'
     },
     {
@@ -1686,7 +1686,7 @@ let events2022 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-final-22/registration.html',
         fmt: 'рогейн 4 часа. Велосипедный и беговой зачеты.',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '221022r'
     },
     {

@@ -58,7 +58,7 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/230115r/230115_res.pdf',
         fmt: 'рогейн 4 часа. Передвижение на лыжах и бегом',
         video: 'https://www.youtube.com/watch?v=h8kIu7V-He8',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '230115r'
     },
     {
@@ -275,7 +275,7 @@ let events2023 = [
         reg: 'http://www.multsport.ru/starts/ice-trail-2023/registration.html',
         fmt: 'рогейн 4 и 6 часов. Разрешено участие на лыжах, бегом или на велосипеде',
         video: ['https://www.youtube.com/watch?v=mt81oMGUZqU','https://www.youtube.com/watch?v=ZJQpTh3C26U'],
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '230311'
     },
     {
@@ -658,7 +658,7 @@ let events2023 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2023/registration.html',
         info: 'Всероссийские соревнования по рогейну на байдарках. Весенний водный рогейн 2023.',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '230520r'
     },
     {
@@ -1113,7 +1113,7 @@ let events2023 = [
         fmt: '4 часа бегом; 4 часа на велосипеде.',
         o_gps: 16691,
         video: 'https://www.youtube.com/watch?v=gjmh05_h6qw',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '230617r'
     },
     {
@@ -1486,7 +1486,7 @@ let events2023 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/veloizol23/registration.html',
         fmt: 'рогейн 4 и 8 часов. Велосипедный и беговой формат',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '230917v'
     },
     {
@@ -1959,7 +1959,7 @@ let events2023 = [
         o_gps: 17759,
         video: 'https://www.youtube.com/watch?v=yULSyHrj4NU',
         fmt: 'рогейн 4 часа. Велосипедный и беговой формат',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '231106r'
     },
     {

@@ -156,7 +156,7 @@ function renderMapsTable() {
         }
         td(m, row, buildSheetDate(m));
         if (!isUnknownPage() && !isBooksPage() && !theOrdersPage) {
-            td(m, row, buildStart(m));
+            td(m, row, buildStart(m, events));
         }
         if (isRulesPage()) {
             td(m, row, buildAuthors(m, true));
@@ -278,23 +278,25 @@ function buildName(m, withoutLogo) {
     return result;
 }
 
-function buildStart(m) {
+function buildStart(mp, events) {
     let result = '';
-    if (m.start) {
-        if (Array.isArray(m.start)) {
-            let start = '';
-            for (const s of m.start) {
-                const strt = oneStart(s);
-                if (strt) {
-                    if (start) {
-                        start += '<br />';
+    for (const m of events) {
+        if (m.start) {
+            if (Array.isArray(m.start)) {
+                let start = '';
+                for (const s of m.start) {
+                    const strt = oneStart(s);
+                    if (strt) {
+                        if (start) {
+                            start += '<br />';
+                        }
+                        start += strt;
                     }
-                    start += strt;
                 }
+                return start;
+            } else {
+                return oneStart(m.start);
             }
-            return start;
-        } else {
-            return oneStart(m.start);
         }
     }
     return result;
@@ -337,6 +339,13 @@ function buildInfo(m, cal, events) {
         }
         if (m.info) {
             result += m.info;
+        }
+        if (events) {
+            for (const e of events) {
+                if (e.info && e !== m) {
+                    result += ' ' + e.info;
+                }
+            }
         }
         if (mapResults) {
             result += ` <a href="${mapResults}">Результаты</a>.`;

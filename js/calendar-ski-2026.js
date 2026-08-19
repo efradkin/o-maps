@@ -60,7 +60,7 @@ let skiEvents2026 = [
         ],
         link: 'https://vk.com/multsport',
         reg: 'https://reg.o-time.ru/race/26203',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         price: 1
     },
     {
@@ -699,7 +699,7 @@ let skiEvents2026 = [
         fmt: '1.2 свободный',
         link: 'https://vk.com/multsport',
         reg: 'https://www.multsport.ru/starts/oreh-ski-2026/registration.html',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         price: 1
     },
     {
@@ -728,7 +728,7 @@ let skiEvents2026 = [
         fmt: '28, 14, 5, 1.3 свободный<br/>28М, 28Ж свободный<br/>14М, 14Ж свободный<br/>5М (16-18), 5Ж (16-18) свободный<br/>5М (13-16), 5Ж (13-16) свободный<br/>1.3М (10-12), 1.3Ж (8-10) свободный<br/>1.3М (8-10), 1.3Ж (8-10) свободный',
         link: 'https://vk.com/multsport',
         reg: 'https://reg.o-time.ru/race/26096',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         price: 1
     },
     {
@@ -908,7 +908,7 @@ let skiEvents2026 = [
         fmt: '51, 34, 13, 3, 0.8 свободный<br/>51М свободный<br/>34М, 34Ж свободный<br/>13М, 13Ж свободный<br/>3М (10-12), 3Ж (10-12) свободный<br/>3М (8-10), 3Ж (8-10) свободный<br/>0.8М (6-8), 0.8Ж (6-8) свободный',
         link: 'https://vk.com/multsport',
         reg: 'https://reg.o-time.ru/race/26098',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         price: 1,
         cancelled: true
     },

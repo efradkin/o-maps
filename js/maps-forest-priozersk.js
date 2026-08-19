@@ -177,7 +177,6 @@ let priozerskMaps = [
     {
         name: 'Кузнечное, оз Волковское-Суури',
         date: '2019-05-25',
-        start: ['RUSSIA_2019','RUSSIA_CHAMP'],
         info: 'Кросс многодневный.',
         url: './maps/forest/priozersk/kuznechnoe_suuri_2019.webp',
         link: ['./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_25.jpg','./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_26.jpg','./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_25_W.gif','./original_maps/forest/priozersk/kuznechnoe_suuri_2019_05_26_W.gif'],
@@ -226,7 +225,6 @@ let priozerskMaps = [
     {
         name: 'Кузнечное, оз Травкино',
         date: '2019-05-24',
-        start: ['RUSSIA_2019','RUSSIA_CHAMP'],
         info: 'Кросс-классика.',
         url: './maps/forest/priozersk/kuznechnoe_travkino_2019_05_24.webp',
         link: ['./original_maps/forest/priozersk/kuznechnoe_travkino_2019_05_24.jpg','./original_maps/forest/priozersk/kuznechnoe_travkino_2019_05_24_W.gif'],

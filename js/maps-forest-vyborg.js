@@ -413,16 +413,11 @@ let vyborgMaps = [
     },
     {
         name: 'Вещево, Макаровское оз',
-        year: 1981,
+        date: '1981-08-06',
         url: './maps/forest/vyborg/veschevo_1981.webp',
         link: './original_maps/forest/vyborg/veschevo_1981_omaps.jpg',
-        gps: {
-            'М': './original_maps/forest/vyborg/vyborg_veschevo_1981_paths.jpg',
-            'Ж': './original_maps/forest/vyborg/vyborg_veschevo_1981_paths_W.jpg',
-        },
         bounds: [[60.7596207, 29.1897297], [60.7553859, 29.2526436], [60.7309304, 29.1826916]],
-        author: ['SHRNN','KUZNTSV_S'],
-        start: ['USSR_1981','USSR_CHAMP']
+        author: ['SHRNN','KUZNTSV_S']
     },
     {
         name: 'Вещево, Беленькое оз',
@@ -560,15 +555,9 @@ let vyborgMaps = [
     },
     {
         name: 'Сайменские дачи',
-        year: 1981,
-        start: ['USSR_1981','USSR_CHAMP'],
+        date: '1981-08-04',
         url: './maps/forest/vyborg/vyborg_saymenskie_dachi_1981.webp',
         link: ['./original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_omaps.jpg','./original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_clean_omaps.webp','./original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_M_omaps.jpg'],
-        gps: {
-            'М1': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_1.jpg',
-            'М2': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_2.jpg',
-            'Ж': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_W.jpg',
-        },
         bounds: [[60.7931859, 28.7195492], [60.7903797, 28.7774849], [60.7649868, 28.7214375]],
         author: ['KHDNKCH','GLVNV_V','MTVV','BSHNSKY']
     },

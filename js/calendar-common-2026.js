@@ -216,7 +216,6 @@ let commonEvents2026 = [
         reg: 'https://adventure-race.redfox.ru/applications/',
         res: 'https://adventure-race.redfox.ru/results/',
         o_gps: 25313,
-        major: true,
         start: 'RFAR',
         map: 'sortavala_redfox_2026'
     },
@@ -390,7 +389,6 @@ let commonEvents2026 = [
         me: 'М50',
         planner: ['ILVS','NKTN_I'],
         publish: 'https://vk.com/album-142737358_311427986',
-        major: true,
         start: 'MMS',
         map: ['peski_2026','mms_2026_06_26','mms_2026_06_27','mms_2026_06_28'],
     },
@@ -503,7 +501,6 @@ let commonEvents2026 = [
         ],
         type: 'ORIENT',
         fmt: 'спринт, лонг, классика',
-        major: true,
         start: 'WN',
         map: ['wn_2026_07_03','wn_2026_07_04','wn_2026_07_05'],
         planner: ['BLKV_M','GRBTNKVA_S','YGNV'],
@@ -611,7 +608,8 @@ let commonEvents2026 = [
         fmt:  '24, 8, 4',
         type: 'ROGAINE',
         planner: 'RYLOV_V',
-        start: ['MULTSPORT','RUSSIA_ROGAINE_CHAMP'],
+        start: 'RUSSIA_ROGAINE_CHAMP',
+        owner: 'MULTSPORT',
         map: 'kalinino_2015',
         coord: [60.818448, 28.610489]
     },

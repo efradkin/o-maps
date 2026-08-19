@@ -323,7 +323,6 @@ let zelikMaps = [
         start: 'USSR_V_1971',
         url: './maps/forest/zelik/zelenogorsk_schuchye_1971.webp',
         link: ['./original_maps/forest/zelik/zelenogorsk_schuchye_1971_omaps.jpg','./original_maps/forest/zelik/zelenogorsk_schuchye_1971_clean_omaps.jpg'],
-        info: 'Лично-командное первенство.',
         bounds: [[60.2235751, 29.7465992], [60.2539526, 29.8276234], [60.1949186, 29.7912312]]
     },
     {

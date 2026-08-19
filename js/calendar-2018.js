@@ -94,7 +94,7 @@ let events2018 = [
         res: 'http://www.multsport.ru/images/rog1cup18/rezult.htm',
         video: 'https://www.youtube.com/watch?v=IugRLdORzek',
         fmt: '4 часа, лыжи, бег',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '180127'
     },
     {
@@ -231,7 +231,7 @@ let events2018 = [
         reg: 'http://www.multsport.ru/starts/ice-trail-2018/registration.html',
         res: 'http://www.multsport.ru/starts/ice-trail-2018/results.html',
         fmt: 'Рогейн 6ч (лыжи, бег)',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '180303'
     },
     {
@@ -572,7 +572,7 @@ let events2018 = [
         res: 'http://www.multsport.ru/images/rogCanoe18/rezult.htm',
         video: 'https://www.youtube.com/watch?v=upUBuxtv_gI',
         fmt: 'Рогейн 8ч и 16ч (на байдарках)',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '18051920'
     },
     {
@@ -1027,7 +1027,8 @@ let events2018 = [
         reg: 'http://www.multsport.ru/starts/bike-rogaine-rus-2018/registration.html',
         res: 'http://www.multsport.ru/starts/bike-rogaine-rus-2018/results.html',
         fmt: 'Рогейн 6ч, Рогейн 18ч. Велосипедный и беговой рогейн.',
-        start: ['MULTSPORT','RUSSIA_ROGAINE_CHAMP'],
+        start: 'RUSSIA_ROGAINE_CHAMP',
+        owner: 'MULTSPORT',
         o_site: '18081112'
     },
     {
@@ -1198,7 +1199,7 @@ let events2018 = [
         info: '15-16 сентября в Приозерском районе в окрестностях п.Отрадное будет дан старт 9й ежегодной приключенческой гонке MatrasOFF Race - 2018. Участников ждут зарекомендовавшие себя дисциплины: велоориентирование, классическое спортивное ориентирование, байдарка, пакрафт. Всё это разбавят космоснимок, технические этапы, GPS-задания и велолегенда. А также в рамках мультигонки пройдет 5й этап кубка Ленинградской области по рогейну в формате велосипедного и бегового зачета на 6-8 часов.',
         fmt: 'Приключенческая годна на 14 и 24 часа. Рогейн 6ч (велосипедный и беговой зачеты).',
         video: ['https://www.youtube.com/watch?v=Di07maRmpbk','https://www.youtube.com/watch?v=pyRpyqy0JGQ'],
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '18091516'
     },
     {

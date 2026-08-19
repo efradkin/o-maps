@@ -71,7 +71,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240114r/240114_res.pdf',
         video: ['https://www.youtube.com/watch?v=U4CJGwLH0kE','https://www.youtube.com/watch?v=4fWeVcGgCbU'],
         fmt: 'рогейн 4 часа. Разрешено участие на лыжах, бегом или на снегоступах',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '240114r'
     },
     {
@@ -287,7 +287,7 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/ice-trail-2024/registration.html',
         fmt: 'рогейн 3 и 6 часов. Разрешено участие на лыжах, бегом или велосипеде',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '240317r'
     },
     {
@@ -746,7 +746,7 @@ let events2024 = [
         name: 'Водный рогейн',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2024/registration.html',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '240518r'
     },
     {
@@ -1305,7 +1305,7 @@ let events2024 = [
         name: 'Карельский рубеж, 3-й этап Кубка ЛО по рогейну',
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-med-24/registration.html',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '240714r'
     },
     {
@@ -1377,7 +1377,7 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-los-24/registration.html',
         info: 'Старт является 4-м этапом Кубка Ленинградской области по рогейну',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '240810r'
     },
     {
@@ -1674,7 +1674,7 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/veloizol24/registration.html',
         fmt: 'Рогейн на 4 и 8 часов. Велосипедный и беговой формат',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '240929r'
     },
     {
@@ -1885,7 +1885,7 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-final-24/registration.html',
         fmt: 'Рогейн 4 часа. Велосипедный и беговой формат',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '241020r'
     },
     {

@@ -397,18 +397,43 @@ let eventsEarly = [
         res: './docs/1980/1980_01_18_new_year_relay_omaps.pdf'
     },
     {
+        id: 'SPB_19810804_1',
+        date: '1981-08-04',
+        place: 'Выборг, Сайменские дачи',
+        name: 'I Чемпионат СССР',
+        start: ['USSR_1981','USSR_CHAMP'],
+        gps: {
+            'М1': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_1.jpg',
+            'М2': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_2.jpg',
+            'Ж': './original_maps/forest/vyborg/vyborg_saymenskie_dachi_1981_paths_W.jpg',
+        },
+        map: 'vyborg_saymenskie_dachi_1981'
+    },
+    {
         id: 'SPB_19810805_1',
         date: '1981-08-05',
         place: 'Сосново, оз Уловное',
         name: 'I Чемпионат СССР',
         info: '<a href="./docs/1981_ussr_champ_relay_schema_omaps.jpg">Эстафета</a>.',
-        start: 'USSR_1981',
+        start: ['USSR_1981','USSR_CHAMP'],
         gps: {
             'М1':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M1_omaps.jpg',
             'М3':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_M3_omaps.jpg',
-            'Ж3':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_W3_omaps.jpg'
+            'Ж3':'./original_maps/forest/sosnovo/sosnovo_ulovnoe_oz_1981_W3_omaps.jpg',
         },
         map: 'sosnovo_ulovnoe_oz_1981'
+    },
+    {
+        id: 'SPB_19810806_1',
+        date: '1981-08-06',
+        place: 'Вещево',
+        name: 'I Чемпионат СССР',
+        start: ['USSR_1981','USSR_CHAMP'],
+        gps: {
+            'М': './original_maps/forest/vyborg/vyborg_veschevo_1981_paths.jpg',
+            'Ж': './original_maps/forest/vyborg/vyborg_veschevo_1981_paths_W.jpg',
+        },
+        map: 'veschevo_1981'
     },
     {
         id: 'SPB_19830130_1',

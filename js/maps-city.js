@@ -1307,7 +1307,7 @@ let cityMaps = [
     },
     {
         name: 'Кузнечное',
-        url: './maps/city/kuznechnoe.webp',
+        url: './maps/city/kuznechnoe_city.webp',
         link: './original_maps/city/kuznechnoe_omaps.jpg',
         bounds: [[61.1290237, 29.8720193], [61.1279255, 29.8886275], [61.1193869, 29.8688006]],
         author: 'RYLOV_V',

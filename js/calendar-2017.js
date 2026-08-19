@@ -29,7 +29,7 @@ let events2017 = [
         type: 'ROGAINE',
         reg: 'http://www.x-race.info/calendar/89155/request/',
         res: 'http://www.multsport.ru/starts/oldny-rogaine-2017/results.html',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '170114'
     },
     {
@@ -605,7 +605,7 @@ let events2017 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2017/registration.html',
         fmt: 'Рогейн 8ч, рогейн 16ч.',
-        start: 'MULTSPORT',
+        owner: 'MULTSPORT',
         o_site: '17052021'
     },
     {

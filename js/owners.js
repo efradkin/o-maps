@@ -159,7 +159,7 @@ let owners = {
         name: '© Артём Никольский, "Эверест", г.Кировск',
         logo: 'kirovsk_everest.jpg'
     },
-    MLTSPRT: {
+    MULTSPORT: {
         name: '© <a href="https://www.multsport.ru/">Мультиспорт</a>',
         logo: 'multsport.webp',
         rogaine: true
