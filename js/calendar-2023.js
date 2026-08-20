@@ -1226,7 +1226,8 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/29735',
         res: 'https://o-site.spb.ru/_races/230806/230806_split.htm',
         o_site: '230806',
-        reskeep: 610
+        reskeep: 610,
+        map: 'orekhovo_2024'
     },
     {
         id: 'SPB_20230812_1',
@@ -1984,7 +1985,8 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/231111/231111_res.htm',
         strava: 10198903643,
         start: 'ROGAINE_110',
-        o_site: '231111'
+        o_site: '231111',
+        map: 'orekhovo_2024'
     },
     {
         id: 'SPB_20231112_1',

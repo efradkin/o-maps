@@ -47,7 +47,7 @@ let events2017 = [
         date: '2017-01-15',
         place: 'Орехово, б/о ПАН',
         name: 'Кубок СПб по спортивному ориентированию на лыжах',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170115/170115_res.pdf',
         info: '15 января база "ПАН" Спринт',
         o_site: '170115'
@@ -58,7 +58,7 @@ let events2017 = [
         endDate: '2017-01-22',
         place: 'Орехово, б/о ПАН',
         name: 'Спартакиада учащихся России - Санкт-Петербург',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170121-22_SP/170121_res.htm',
         o_site: '170121-22_SP'
     },
@@ -149,7 +149,7 @@ let events2017 = [
         date: '2017-02-25',
         place: 'Орехово',
         name: 'Чемпионат СПб среди студентов',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=696',
         res: 'https://o-site.spb.ru/_races/170225_VUZ/170225_res.htm',
         owner: 'SFSO_SPB',
@@ -519,7 +519,8 @@ let events2017 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=749',
         res: 'https://o-site.spb.ru/_races/170509/170509_res.htm',
-        o_site: '170509'
+        o_site: '170509',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20170510_1',

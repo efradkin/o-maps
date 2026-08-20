@@ -133,10 +133,11 @@ let events2022 = [
         date: '2022-02-23',
         place: 'Орехово',
         name: 'Праздничный маркир',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/220223/220223_res.htm',
         info: 'Официальный старт СФСО СПб с присвоением разрядов',
-        o_site: '220223'
+        o_site: '220223',
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20220227_1',
@@ -161,10 +162,11 @@ let events2022 = [
         date: '2022-02-27',
         place: 'Орехово',
         name: 'Чемпионат и Первенство Санкт-Петербурга, эстафета',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'http://orgeo.ru/live/#/20753',
         owner: 'SFSO_SPB',
-        o_site: '220227'
+        o_site: '220227',
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20220306_1',
@@ -172,21 +174,23 @@ let events2022 = [
         endDate: '2022-03-07',
         place: 'Орехово',
         name: 'Чемпионат и Первенство Санкт-Петербурга, общий старт',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/220307/220306_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '220307'
+        o_site: '220307',
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20220313_1',
         date: '2022-03-13',
         place: 'Орехово',
         name: '43-е зимние соревнования На призы газеты Всеволожские вести',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://orgeo.ru/event/info/20912',
         res: 'https://o-site.spb.ru/_races/220313/220313ResultList.htm',
         start: 'VSEV_VESTI',
-        o_site: '220313'
+        o_site: '220313',
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20220319_1',
@@ -475,7 +479,8 @@ let events2022 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1433',
         res: 'https://o-site.spb.ru/_races/220514/0.htm',
         info: 'Тренировка проводится 14 мая 2022 г, в районе базы отдыха ЛАО к востоку от ж/д ст. Орехово.',
-        o_site: '220514'
+        o_site: '220514',
+        map: 'orekhovo_2024'
     },
     {
         id: 'SPB_20220514_2',
@@ -485,7 +490,8 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20220514/Res_kom_of.pdf',
         o_site: '20220514',
-        endDate: '2022-05-15'
+        endDate: '2022-05-15',
+        map: 'orekhovo_2024'
     },
     {
         id: 'SPB_20220514_3',
@@ -544,7 +550,8 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1434',
         res: 'https://o-site.spb.ru/_races/220515_AZ/220515_res_PD.htm',
-        o_site: '220515_AZ'
+        o_site: '220515_AZ',
+        map: 'orekhovo_2024'
     },
     {
         id: 'SPB_20220518_1',

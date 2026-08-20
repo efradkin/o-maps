@@ -620,7 +620,8 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070708/070708_res.zip',
         start: 'YM',
-        o_site: '070708'
+        o_site: '070708',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20070721_1',
@@ -846,7 +847,8 @@ let events2007 = [
         name: 'Открытое первенство клуба «Миля Спорт»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070929/070929_res.htm',
-        o_site: '070929'
+        o_site: '070929',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20070929_2',
@@ -864,7 +866,8 @@ let events2007 = [
         name: 'Кубок ОК Гольфстрим',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070930/070930_res.htm',
-        o_site: '070930'
+        o_site: '070930',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20071005_1',
@@ -979,7 +982,8 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/071105/071105_res.zip',
         logo: 'azimut.gif',
-        o_site: '071105'
+        o_site: '071105',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20071118_1',

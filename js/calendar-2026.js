@@ -2241,6 +2241,7 @@ let events2026 = [
         reg: 'http://orgeo.ru/event/54456',
         type: 'ORIENT',
         o_site: '260819_p',
+        o_gps: 25763,
         map: 'osinovaja_roscha_2018'
     },
     {

@@ -661,7 +661,8 @@ let events2024 = [
         photo: 'http://vk.com/album-220245153_305202683',
         info: 'II клубная эстафета «Змей Горыныч» Организаторы эстафеты: клуб "Кузьмолово" и АНО "ОПОРА СО СПб и ЛО "Импульс"". Мероприятие проходит при поддержке СФСО Санкт-Петербурга.',
         strava: [11391400011,11392907213],
-        o_site: '240512_zg'
+        o_site: '240512_zg',
+        map: 'orekhovo_borkovo_2024'
     },
     {
         id: 'SPB_20240512_2',
@@ -1265,7 +1266,8 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/36550',
         res: 'https://o-site.spb.ru/_races/240706_tren_Dlit/20240706result.htm',
-        o_site: '240706_tren_Dlit'
+        o_site: '240706_tren_Dlit',
+        map: 'orekhovo_2024'
     },
     {
         id: 'SPB_20240706_4',
@@ -1517,7 +1519,8 @@ let events2024 = [
         start: 'VSEV_VESTI',
         o_site: '240907VV',
         strava: 12348470229,
-        reskeep: 663
+        reskeep: 663,
+        map: 'orekhovo_2024'
     },
     {
         id: 'SPB_20240908_1',

@@ -120,7 +120,7 @@ let events2008 = [
         date: '2008-02-25',
         place: 'Орехово',
         name: 'Пер-во ВУЗов и пер-во КО',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080225_spr/080225_res.htm',
         o_site: '080225'
     },
@@ -850,7 +850,8 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/081102/081102_res.htm',
         logo: 'azimut.gif',
-        o_site: '081102'
+        o_site: '081102',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20081102_2',

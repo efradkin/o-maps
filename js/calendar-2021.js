@@ -264,13 +264,14 @@ let events2021 = [
         id: 'SPB_20210227_1',
         date: '2021-02-27',
         place: 'Орехово',
-        name: 'Чемпионат и Первенство Санкт-Петербурга, Орехово',
+        name: 'Чемпионат и Первенство Санкт-Петербурга',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/210227/210227_res.htm',
         owner: 'SFSO_SPB',
         o_site: '210227',
         reskeep: 423,
-        strava: 4858008623
+        strava: 4858008623,
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20210306_1',
@@ -288,29 +289,32 @@ let events2021 = [
         date: '2021-03-07',
         name: 'Закрытие сезона',
         place: 'Орехово',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=1230',
         res: 'https://o-site.spb.ru/_races/21030607_zs/210306_res_z.htm',
-        o_site: '21030607_zs'
+        o_site: '21030607_zs',
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20210307_2',
         date: '2021-03-07',
         place: 'Орехово',
         name: 'Санкт-Петербургские студенческие соревнования по спортивному ориентированию',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=1229',
         res: 'https://o-site.spb.ru/_races/210307_vuzy/21030607_results_vuz_teams.pdf',
-        o_site: '210307_vuzy'
+        o_site: '210307_vuzy',
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20210307_3',
         date: '2021-03-07',
         place: 'Орехово',
         name: 'Санкт-Петербургские студенческие соревнования по спортивному ориентированию',
-        type: 'ORIENT',
+        type: 'SKI',
         info: 'Санкт-Петербургские студенческие соревнования по спортивному ориентированию (лыжные дисциплины).',
-        o_site: '210307'
+        o_site: '210307',
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20210308_1',
@@ -1395,7 +1399,8 @@ let events2021 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2021YC/210829_split.htm',
         start: 'VSEV_VESTI',
-        o_site: '2021YC'
+        o_site: '2021YC',
+        map: 'orekhovo_2024'
     },
     {
         id: 'SPB_20210901_1',

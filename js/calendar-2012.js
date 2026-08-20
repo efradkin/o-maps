@@ -679,7 +679,8 @@ let events2012 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120909/120909_res_all.htm',
         owner: 'SFSO_SPB',
-        o_site: '120909'
+        o_site: '120909',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20120915_1',
@@ -780,7 +781,8 @@ let events2012 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/12092829/120929_res.pdf',
         owner: 'SFSO_LO',
-        o_site: '12092829'
+        o_site: '12092829',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20120929_2',

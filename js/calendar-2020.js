@@ -118,11 +118,12 @@ let events2020 = [
         date: '2020-01-26',
         place: 'Орехово (ПАН)',
         name: 'Тренировка в Орехово',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1128',
         res: 'https://o-site.spb.ru/_races/200126_t/200126_res.htm',
         o_site: '200126_t',
-        reskeep: 300
+        reskeep: 300,
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20200201_1',
@@ -139,11 +140,12 @@ let events2020 = [
         date: '2020-02-02',
         place: 'Орехово',
         name: 'Официальная тренировка СФСО СПб',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1133',
         res: 'https://o-site.spb.ru/_races/200202/200202_rez.htm',
         o_site: '200202',
-        reskeep: 305
+        reskeep: 305,
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20200202_2',
@@ -159,12 +161,13 @@ let events2020 = [
         endDate: '2020-02-09',
         place: 'Орехово',
         name: 'Зимний Кубок СФСО СПб, День зимних видов спорта',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/200209/200208_res.htm',
         o_site: '200209',
         reskeep: [313, 314],
-        strava: 3082595136
+        strava: 3082595136,
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20200208_2',
@@ -172,9 +175,10 @@ let events2020 = [
         endDate: '2020-02-09',
         place: 'Орехово',
         name: 'Зимняя Универсиада',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/20020809/200208_res.pdf',
-        o_site: '20020809'
+        o_site: '20020809',
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20200208_3',
@@ -269,7 +273,8 @@ let events2020 = [
         photo: 'http://vk.com/album-154221178_270678590',
         o_site: '200301',
         reskeep: 318,
-        strava: 3144811128
+        strava: 3144811128,
+        map: 'orekhovo_2024'
     },
     {
         id: 'SPB_20200307_1',
@@ -844,7 +849,8 @@ let events2020 = [
         info: 'МТБО в Орехово, тренировочный старт',
         video: 'https://www.youtube.com/watch?v=Vsw_QoPFZGE',
         o_site: '200815',
-        endDate: '2020-08-16'
+        endDate: '2020-08-16',
+        map: 'orekhovo_figurnoe_velo_2020'
     },
     {
         id: 'SPB_20200815_2',
@@ -1537,7 +1543,8 @@ let events2020 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1197',
         res: 'http://o-site.spb.ru/_races/201108_perspectiva_2/201108_split2.htm',
-        o_site: '201108_veloperspectiva'
+        o_site: '201108_veloperspectiva',
+        map: 'orekhovo_figurnoe_velo_2020'
     },
     {
         id: 'SPB_20201108_2',
@@ -1549,7 +1556,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201108_perspectiva_2/201108_relay.htm',
         o_site: '201108_perspectiva_2',
         reskeep: [394,395],
-        strava: 4308179205
+        strava: 4308179205,
+        map: 'orekhovo_2024'
     },
     {
         id: 'SPB_20201108_3',
@@ -1636,7 +1644,9 @@ let events2020 = [
         info: '22 ноября в Орехово состоится тренировка КСО "Гольфстрим". В программе "Лонг. Общий старт." Начало стартов с 11.30. Бюллетень будет опубликован до 11 ноября.',
         o_site: '201122_gulfstream_long',
         reskeep: 402,
-        strava: 4374011250
+        strava: 4374011250,
+        me: 'MB',
+        map: 'orekhovo_2024'
     },
     {
         id: 'SPB_20201122_2',
@@ -1789,11 +1799,12 @@ let events2020 = [
         date: '2020-12-19',
         name: 'Индивидуальная тренировка В поисках Деда Мороза',
         place: 'Орехово',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/201220/2020_res.htm',
         info: 'Предновогодняя индивидуальная тренировка "В поисках Деда Мороза".',
         o_site: '201220',
-        reskeep: 407
+        reskeep: 407,
+        map: 'orekhovo_nyrkovo_winter_2012',
     },
     {
         id: 'SPB_20201220_1',

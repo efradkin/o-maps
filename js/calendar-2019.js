@@ -48,7 +48,7 @@ let events2019 = [
         date: '2019-01-19',
         place: 'Орехово, б/о ПАН',
         name: 'Чемпионат и первенство СПб - маркир',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_markir/',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_markir/',
         owner: 'SFSO_SPB',
@@ -69,7 +69,7 @@ let events2019 = [
         date: '2019-01-20',
         place: 'Орехово, б/о ПАН',
         name: 'Чемпионат и первенство СПб - классика',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_middle/',
         video: 'http://www.northernwind.spb.ru/videosplit/2019/chspbw_middle/',
         owner: 'SFSO_SPB',
@@ -588,7 +588,8 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1026',
         res: 'https://o-site.spb.ru/_races/190512/AdultResult2.htm',
-        o_site: '190512'
+        o_site: '190512',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20190512_3',
@@ -1075,7 +1076,8 @@ let events2019 = [
         place: 'Орехово',
         name: 'Яркий Кубок 2018/2019. 7 этап',
         type: 'ORIENT',
-        reskeep: 184
+        reskeep: 184,
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20190727_1',

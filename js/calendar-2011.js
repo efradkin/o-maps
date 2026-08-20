@@ -448,7 +448,8 @@ let events2011 = [
         info: '53-й летний Чемпионат и Первенство г. Санкт-Петербурга по спортивному ориентированию',
         owner: 'SFSO_SPB',
         o_site: '110605',
-        reskeep: 249
+        reskeep: 249,
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20110611_1',
@@ -470,7 +471,8 @@ let events2011 = [
         place: 'Орехово',
         name: 'Летний УТС ЛО',
         type: 'ORIENT',
-        o_site: '11061319'
+        o_site: '11061319',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20110614_1',
@@ -555,11 +557,12 @@ let events2011 = [
         id: 'SPB_20110717_1',
         date: '2011-07-17',
         place: 'Орехово',
-        name: 'Открытое п-во ОК судостроения (17 июля (воскресенье))',
+        name: 'Открытое п-во ОК судостроения',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110717_Az/110717_res.htm',
         info: 'Традиционный старт ориентировщиков-судостроителей и КСО Азимут',
-        o_site: '110717_Az'
+        o_site: '110717_Az',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20110723_1',
@@ -697,7 +700,8 @@ let events2011 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11092425/110924_res.pdf',
         owner: 'SFSO_LO',
-        o_site: '11092425'
+        o_site: '11092425',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20110930_1',

@@ -283,11 +283,7 @@ let events2025 = [
         date: '2025-03-09',
         place: 'Орехово',
         name: 'Ski Adventure Race',
-        type: [
-            'SKI',
-            'ROGAINE',
-            'ORIENT'
-        ],
+        type: ['SKI', 'ROGAINE', 'ORIENT'],
         fmt: '2',
         o_site: '250309_SAR',
         map: 'orekhovo_winter_2010',

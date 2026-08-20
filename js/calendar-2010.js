@@ -621,7 +621,8 @@ let events2010 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100711_Az/100711_res.htm',
         info: 'Традиционный старт КСО Азимут и ориентировщиков-судостроителей',
-        o_site: '100711_Az'
+        o_site: '100711_Az',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20100717_1',

@@ -62,10 +62,10 @@ let events2004 = [
         place: 'Орехово',
         name: 'Невский Азимут',
         type: 'ORIENT',
-        info: 'Невский Азимут',
         fmt: 'многодневка',
         start: 'NA',
-        o_site: '040611_NA'
+        o_site: '040611_NA',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20040612_1',

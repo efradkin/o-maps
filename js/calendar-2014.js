@@ -82,7 +82,7 @@ let events2014 = [
         date: '2014-02-08',
         place: 'Орехово',
         name: 'Открытый старт в Орехово',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/140208/20140208_rez.htm',
         o_site: '140208'

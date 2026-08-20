@@ -24,12 +24,13 @@ let events2018 = [
     {
         id: 'SPB_20180113_1',
         date: '2018-01-13',
-        name: 'ГорныйКросс-61',
+        name: 'Горный Кросс-61',
         place: 'Орехово',
-        type: 'ORIENT',
+        type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/180113R/180113R_res.pdf',
         fmt: 'рогейн 3 и 6 часов',
-        o_site: '180113R'
+        o_site: '180113R',
+        start: 'GORNY_CROSS'
     },
     {
         id: 'SPB_20180114_1',
@@ -725,7 +726,7 @@ let events2018 = [
         date: '2018-06-11',
         place: 'Орехово',
         name: 'Открытая тренировка МТБО',
-        type: 'ORIENT',
+        type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=893',
         res: 'https://o-site.spb.ru/_races/180611/20180611_res.htm',
         o_site: '180611'
@@ -1515,7 +1516,8 @@ let events2018 = [
         start: 'OKINCHITSA',
         o_site: '18101314',
         video: 'https://www.youtube.com/watch?v=D2PmRQBlx2s',
-        reskeep: 60
+        reskeep: 60,
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20181013_2',
@@ -1697,7 +1699,8 @@ let events2018 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=961',
         res: 'https://o-site.spb.ru/_races/181103/181103_res.htm',
         o_site: '181103',
-        reskeep: 81
+        reskeep: 81,
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20181104_1',
@@ -1862,7 +1865,8 @@ let events2018 = [
         place: 'Орехово',
         name: 'Цикл стартов МаТрёшка. 4 этап',
         type: 'ORIENT',
-        reskeep: 96
+        reskeep: 96,
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20181208_1',

@@ -254,7 +254,8 @@ let events2005 = [
         name: 'Кубок СПб',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050515/050515_res.zip',
-        o_site: '050515'
+        o_site: '050515',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20050515_2',
@@ -520,7 +521,8 @@ let events2005 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050910_Az/050910_res.zip',
         logo: 'azimut.gif',
-        o_site: '050910_Az'
+        o_site: '050910_Az',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20050911_1',
@@ -703,7 +705,8 @@ let events2005 = [
         name: 'Ночные Эстафеты',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051029/051029_res.zip',
-        o_site: '051029'
+        o_site: '051029',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20051029_2',
@@ -721,7 +724,8 @@ let events2005 = [
         place: 'Орехово',
         name: 'Шестиэтапные эстафеты',
         type: 'ORIENT',
-        o_site: '051030'
+        o_site: '051030',
+        map: 'orekhovo_rakitinskoe_2004'
     },
     {
         id: 'SPB_20051104_1',

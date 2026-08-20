@@ -652,7 +652,7 @@ let specialMaps = [
         type: ['VELO']
     },
     {
-        name: '69км, ДНТ "Свердловец", Осиновское оз',
+        name: '69км, ДНТ Свердловец, Осиновское оз',
         year: 2021,
         url: './maps/velo/sverdlovets_velo_2021.webp',
         link: ['./original_maps/velo/sverdlovets_velo_2021_omaps.jpg','./original_maps/velo/sverdlovets_velo_2022_omaps.gif'],
