@@ -630,7 +630,7 @@ let events2016 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16060405VT/160605_res.pdf',
         video: 'https://www.youtube.com/watch?v=Xe47MvA0hBc',
-        owner: 'VYBORG',
+        owner: ['VYBORG','NW'],
         o_site: '16060405VT'
     },
     {

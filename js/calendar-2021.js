@@ -668,7 +668,7 @@ let events2021 = [
         reg: 'http://sportident.online/entry/?id=4902',
         res: 'http://orgeo.ru/live/#/16840/1',
         info: 'Внимание! Изменена система отметки',
-        owner: 'VYBORG',
+        owner: ['VYBORG','NW'],
         o_site: '210509-10_V3',
         reskeep: [456, 457, 458],
         strava: [5266488472,5270566831,5272603253]

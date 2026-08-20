@@ -623,7 +623,7 @@ let events2018 = [
             'https://www.youtube.com/watch?v=g4qiWghYddA',
             'https://www.youtube.com/watch?v=7mgTG2CNpMc'
         ],
-        owner: 'VYBORG',
+        owner: ['VYBORG','NW'],
         o_site: '18052627',
         reskeep: [23, 22]
     },

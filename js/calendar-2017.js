@@ -677,7 +677,7 @@ let events2017 = [
             'https://www.youtube.com/watch?v=XK3qTM9S9DM',
             'https://www.youtube.com/watch?v=uGA71YpOaG4'
         ],
-        owner: 'VYBORG',
+        owner: ['VYBORG','NW'],
         o_site: '170427-28_VT'
     },
     {

@@ -579,7 +579,7 @@ let events2015 = [
         reg: 'http://sportident.ru/entry/grup_info.php?g=13927&id=1160',
         res: 'https://o-site.spb.ru/_races/15052324/150523_sprint_rez.htm',
         video: ['https://www.youtube.com/watch?v=rwDALxi7LAA','https://www.youtube.com/watch?v=Jss4k8Z8Tls'],
-        owner: 'VYBORG',
+        owner: ['VYBORG','NW'],
         o_site: '15052324'
     },
     {

@@ -2196,7 +2196,7 @@ let events2026 = [
         place: 'Сосновый бор',
         type: 'ORIENT',
         fmt: 'классика, ночной спринт, классика',
-        video: 'https://vk.com/video-147403700_456239308',
+        video: ['https://vk.com/video-147403700_456239308','https://youtu.be/cRg7Lolr10U'],
         owner: 'DLITELNY',
         map: 'sosnovij_bor_2021'
     },
@@ -2263,6 +2263,7 @@ let events2026 = [
         o_site: '260822-23_VTR',
         reg: 'http://sportident.online/entry/?id=7192',
         type: 'ORIENT',
+        owner: 'NW',
         fmt: 'спринт, ночная классика, классика'
     },
     {

@@ -1022,13 +1022,9 @@ let events2025 = [
         type: 'ORIENT',
         o_site: '250524-25_VTR',
         reg: 'http://sportident.online/entry/?inf&id=6573',
-        reskeep: [
-            700,
-            701,
-            702
-        ],
+        reskeep: [700, 701, 702],
         map: 'kkp_paltsevo_2022_06_14',
-        owner: 'VYBORG'
+        owner: 'NW'
     },
     {
         id: 'SPB_20250528_1',

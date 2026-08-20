@@ -168,7 +168,8 @@ let owners = {
         name: 'Карты Ивана Мостепанова можно свободно использовать для тренировок. По всем вопросам пишите в <a href="https://t.me/platforma88km">Telegram</a>.'
     },
     NW: {
-        name: '© Клуб "Nord-West"'
+        name: '© Клуб "Nord-West"',
+        logo: 'nordwest.webp'
     },
     OPEN_BAND: {
         name: '© OpenBand, Прозоров Андрей - <a href="https://orientband.ru">сайт</a> и <a href="https://vk.com/openband_ru">ВК</a>',
