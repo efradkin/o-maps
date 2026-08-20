@@ -442,7 +442,8 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/150509/150509_res_r.htm',
         info: 'Открытые городские соревнования "День Победы" - открытие летнего ссезона. На соревнованиях возможно выполнение массовых разрядов.',
-        o_site: '150509'
+        o_site: '150509',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20150510_1',
@@ -866,7 +867,8 @@ let events2015 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/150809_110/150809_res.htm',
-        o_site: '150809_110'
+        o_site: '150809_110',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20150816_1',
@@ -900,7 +902,8 @@ let events2015 = [
         res: 'http://www.multsport.ru/news/results-mtbo-lemb15.html',
         owner: 'SFSO_SPB',
         owner: 'MULTSPORT',
-        o_site: '150823_velo'
+        o_site: '150823_velo',
+        map: 'lembolovo_velo_2023'
     },
     {
         id: 'SPB_20150829_1',
@@ -1048,7 +1051,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150926_ZK/150926_res.xls',
         info: '41-е открытые ежегодные соревнования семейных пар по спортивному ориентированию',
         start: 'WEDDING',
-        o_site: '150926_ZK'
+        o_site: '150926_ZK',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20150926_2',
@@ -1056,7 +1060,8 @@ let events2015 = [
         name: 'Лемболовский Мемориал',
         place: 'Лемболово',
         type: 'ORIENT',
-        o_site: '15092627lm'
+        o_site: '15092627lm',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20150927_1',

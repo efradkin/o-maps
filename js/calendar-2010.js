@@ -394,7 +394,8 @@ let events2010 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100522_Az/100522_res.htm',
         info: 'Традиционный старт клуба Азимут.',
-        o_site: '100522_Az'
+        o_site: '100522_Az',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20100522_2',
@@ -678,7 +679,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100829_Az/100829_res.htm',
         info: 'Традиционный августовский старт КСО Азимут',
         start: 'GS',
-        o_site: '100829_Az'
+        o_site: '100829_Az',
+        map: 'orekhovo-lembolovo_2000'
     },
     {
         id: 'SPB_20100904_1',
@@ -922,7 +924,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/101104_Az/101104_res.htm',
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции, проводимы клубом Азимут',
         logo: 'azimut.gif',
-        o_site: '101104_Az'
+        o_site: '101104_Az',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20101105_1',
@@ -1021,7 +1024,8 @@ let events2010 = [
         name: 'Новогодний Рогейн',
         type: 'ROGAINE',
         res: 'http://o-time.ru/images/all/w11/rgn_ny.htm',
-        o_site: '101225'
+        o_site: '101225',
+        map: 'toksovo_malinovaya_gora_1997'
     },
     {
         id: 'SPB_20101226_1',
@@ -1031,6 +1035,7 @@ let events2010 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101226/101226_res.htm',
         video: 'https://www.youtube.com/watch?v=eJ6WGTbmy98',
-        o_site: '101226'
+        o_site: '101226',
+        map: 'toksovo_malinovaya_gora_1997'
     },
 ];

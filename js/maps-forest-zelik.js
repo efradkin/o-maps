@@ -891,8 +891,9 @@ let zelikMaps = [
     {
         name: 'Сестрорецк, Таможенная дорога',
         year: 2012,
+        correct: 2021,
         url: './maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012.webp',
-        link: ['./original_maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012_omaps.gif','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
+        link: ['./original_maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2012_omaps.gif','./original_maps/forest/zelik/sestroretsk_tamozhennaya_doroga_2021_omaps.webp','./original_maps/forest/zelik/sestroretsk-djuny_2007_omaps.ocd'],
         bounds: [[60.140586, 29.9504471], [60.1389835, 29.967742], [60.1278919, 29.9467134]],
         author: 'SHRNN',
         zindex: 2

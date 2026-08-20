@@ -2305,7 +2305,8 @@ let events2026 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1754',
         type: 'ORIENT',
         fmt: 'лонг',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'http://localhost:63342/o-maps/spb.html?map=trnsprnt'
     },
     {
         id: 'SPB_20260905_1',

@@ -353,7 +353,7 @@ let events2005 = [
         endDate: '2005-06-12',
         place: 'Лемболово',
         name: 'RedFox 2005',
-        type: 'ORIENT',
+        type: 'MULTI',
         res: 'http://www.adventureraces.ru/objects/2005-6-15/22052_1.xls',
         start: 'RFAR',
         o_site: '050611'
@@ -499,7 +499,8 @@ let events2005 = [
         place: 'Лемболово',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/050821mtb/050821mtb_res.htm',
-        o_site: '050821mtb'
+        o_site: '050821mtb',
+        map: 'lembolovo_russia_2007'
     },
     {
         id: 'SPB_20050904_1',
@@ -711,7 +712,8 @@ let events2005 = [
         name: 'Золотые Кольца (Свадебные)',
         type: 'ORIENT',
         start: 'WEDDING',
-        o_site: '051029_zk'
+        o_site: '051029_zk',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20051030_1',
@@ -740,7 +742,8 @@ let events2005 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051104/051104_res.zip',
         logo: 'azimut.gif',
-        o_site: '051104'
+        o_site: '051104',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20051105_1',

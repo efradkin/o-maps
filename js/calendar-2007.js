@@ -385,7 +385,8 @@ let events2007 = [
         name: 'Памяти Друзей',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070513/070513_results.zip',
-        o_site: '070513'
+        o_site: '070513',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20070513_2',
@@ -749,7 +750,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070909v/070909r.htm',
         info: 'Ориенирование на велосипеде. Старт в 12:00. Группы МЖЭ, МЖН и МЖ-14. Дистанция в заданном направлении, длинная. Приглашаем всех.',
         owner: 'SFSO_LO',
-        o_site: '070909v'
+        o_site: '070909v',
+        map: 'lembolovo_russia_2007'
     },
     {
         id: 'SPB_20070915_1',
@@ -916,7 +918,8 @@ let events2007 = [
         name: 'Кубок ОК Гольфстрим, 3-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/071021_golfcup/071021_splits.zip',
-        o_site: '071021_golfcup'
+        o_site: '071021_golfcup',
+        map: 'toksovo_malinovaya_gora_1997'
     },
     {
         id: 'SPB_20071027_1',

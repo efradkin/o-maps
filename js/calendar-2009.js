@@ -323,7 +323,8 @@ let events2009 = [
         name: 'Памяти друзей',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090516/090516_res.htm',
-        o_site: '090516'
+        o_site: '090516',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20090517_1',
@@ -842,7 +843,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/091018_az/091018_res.htm',
         info: 'Закрытие летнего сезона СДЮСШОР Курортного р-на и КСО Азимут',
         logo: 'azimut.gif',
-        o_site: '091018_az'
+        o_site: '091018_az',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20091024_1',
@@ -1059,6 +1061,7 @@ let events2009 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/09122627/091227_res.htm',
         info: 'Традиционные соревнования по зимнему лыжному ориентированию на маркированной трассе со штрафными кругами',
-        o_site: '09122627'
+        o_site: '09122627',
+        map: 'toksovo_malinovaya_gora_1997'
     }
 ];

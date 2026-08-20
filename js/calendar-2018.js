@@ -232,7 +232,8 @@ let events2018 = [
         res: 'http://www.multsport.ru/starts/ice-trail-2018/results.html',
         fmt: 'Рогейн 6ч (лыжи, бег)',
         owner: 'MULTSPORT',
-        o_site: '180303'
+        o_site: '180303',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20180304_1',
@@ -511,7 +512,8 @@ let events2018 = [
         reg: 'http://new.o-reg.spb.ru/?filter[day_id]=882',
         res: 'https://o-site.spb.ru/_races/180509/180509_res.htm',
         info: 'ВНИМАНИЕ! При заявке на этот старт тестируется новая версия сайта o-reg.spb.ru "Старые" логин и пароль на новом сайте работают! Если возникают проблемы с заявкой - пишите на электронную почту гл. секретаря или звоните ему (см. информацию о старте).',
-        o_site: '180509'
+        o_site: '180509',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20180513_1',
@@ -573,7 +575,8 @@ let events2018 = [
         video: 'https://www.youtube.com/watch?v=upUBuxtv_gI',
         fmt: 'Рогейн 8ч и 16ч (на байдарках)',
         owner: 'MULTSPORT',
-        o_site: '18051920'
+        o_site: '18051920',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20180520_1',
@@ -947,7 +950,8 @@ let events2018 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=876',
         info: 'Открытая тренировка МТБО',
-        o_site: '180714'
+        o_site: '180714',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20180714_2',
@@ -1048,7 +1052,8 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=922',
         res: 'https://o-site.spb.ru/_races/180812_/180812_res.htm',
-        o_site: '180812_'
+        o_site: '180812_',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20180825_1',
@@ -1088,7 +1093,8 @@ let events2018 = [
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList13092018.htm',
         info: 'Тренировочные старты в окрестностях поселка Кузьмоловский. Осенняя серия 2018 1 этап — 13 сентября — Токсово, Изумрудное озеро Результаты 1-го этапа 2 этап — 20 сентября — Токсово, Малиновая гора Результаты 2-го этапа 3 этап — 27 сентября — Осиновая Роща Результаты 3-го этапа 4 этап — 04 октября — Кузьмолово, полигон Результаты 4-го этапа 5 этап — 11 октября — Токсово, лыжедром СКА Результаты 5-го этапа 6 этап — 18 октября — Токсово, Комбыт Результаты 6-го этапа',
         o_site: '2018_KS',
-        endDate: '2018-10-31'
+        endDate: '2018-10-31',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20180902_1',
@@ -1231,7 +1237,8 @@ let events2018 = [
         name: 'Кузьмоловские старты. 2 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
-        reskeep: 51
+        reskeep: 51,
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20180922_1',
@@ -1393,7 +1400,8 @@ let events2018 = [
         owner: 'SFSO_SPB',
         o_site: '180930',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_relay3',
-        reskeep: 231
+        reskeep: 231,
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20180930_3',
@@ -1518,7 +1526,8 @@ let events2018 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=947',
         res: 'https://o-site.spb.ru/_races/181013_Fox/181013_res.htm',
         o_site: '181013_Fox',
-        reskeep: 62
+        reskeep: 62,
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20181014_1',
@@ -1668,7 +1677,8 @@ let events2018 = [
         type: 'ORIENT',
         info: '2018 1 этап - перезачет с соревнований, посв. Дню Победы 2 этап - 12.06 - п.Орехово, кросс-классика 3 этап - 22.07 - п.Сярьги, кросс-классика 4 этап - 18.08 - Каменногорск, финал, лонг этапы сезона 2018-2019 1 этап - 19.08 - Каменногорск, средняя 2 этап - 02.09 - Гарболово, общий старт - кросс 3 этап - 28.10 - Лемболово, средняя',
         o_site: '2018YC',
-        reskeep: 69
+        reskeep: 69,
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20181101_1',
@@ -1738,7 +1748,8 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=953',
         res: 'https://o-site.spb.ru/_races/181111_mt/181111_split.htm',
         start: 'ROGAINE_110',
-        o_site: '181111_mt'
+        o_site: '181111_mt',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20181111_2',
@@ -1943,10 +1954,11 @@ let events2018 = [
         date: '2018-12-30',
         name: 'Новогодняя Эстафета',
         place: 'Лемболово',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'http://www.northernwind.spb.ru/videosplit/2018/nyrelay/',
         video: 'http://www.northernwind.spb.ru/videosplit/2018/nyrelay/',
-        o_site: 'new_year_relay_2018'
+        o_site: 'new_year_relay_2018',
+        map: 'lembolovo_winter_2019'
     },
     {
         id: 'SPB_20181231_1',

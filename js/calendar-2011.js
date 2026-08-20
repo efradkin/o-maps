@@ -370,7 +370,8 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110522/110522_res.htm',
         info: 'Мандатная комиссия: 18 мая с 11:00 до 20:00, по адресу: Невский пр. 39, СДЮСШОР №2 ГОУ ЦО СПб ГДТЮ.',
         owner: 'SFSO_SPB',
-        o_site: '110522'
+        o_site: '110522',
+        map: 'toksovo_malinovaya_gora_1997'
     },
     {
         id: 'SPB_20110528_1',
@@ -581,7 +582,8 @@ let events2011 = [
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/110806/110806_res.pdf',
         start: 'ROGAINE_110',
-        o_site: '110806'
+        o_site: '110806',
+        map: 'toksovo_malinovaya_gora_1997'
     },
     {
         id: 'SPB_20110814_1',
@@ -661,7 +663,8 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110918/110918_res.htm',
         owner: 'SFSO_SPB',
         o_site: '110918',
-        reskeep: 240
+        reskeep: 240,
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20110919_1',
@@ -766,7 +769,8 @@ let events2011 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111009/111009_res.pdf',
         start: 'OKINCHITSA',
-        o_site: '111009'
+        o_site: '111009',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20111012_1',
@@ -838,7 +842,8 @@ let events2011 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111029_Az/111029_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '111029_Az'
+        o_site: '111029_Az',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20111030_1',
@@ -892,9 +897,10 @@ let events2011 = [
         date: '2011-11-06',
         place: 'Лемболово',
         name: 'Соревнования по MTБO памяти Бориса Панкратьева',
-        type: 'ORIENT',
+        type: 'VELO',
         res: 'https://o-site.spb.ru/_races/111106/111106_res.htm',
-        o_site: '111106'
+        o_site: '111106',
+        map: 'lembolovo_russia_2007'
     },
     {
         id: 'SPB_20111113_1',

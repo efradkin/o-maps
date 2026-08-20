@@ -219,7 +219,8 @@ let events2012 = [
         photo: 'https://www.markir.spb.ru/photos/2012/2012.htm',
         video: 'https://www.youtube.com/watch?v=nYf_-WZoB1U',
         owner: 'SFSO_SPB',
-        o_site: '120318'
+        o_site: '120318',
+        map: 'toksovo_malinovaya_gora_1997'
     },
     {
         id: 'SPB_20120401_1',
@@ -350,7 +351,8 @@ let events2012 = [
         name: 'Памяти друзей',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120513_Az/120513_res.htm',
-        o_site: '120513_Az'
+        o_site: '120513_Az',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20120517_1',
@@ -491,7 +493,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/120610/120610_res.htm',
         owner: 'SFSO_SPB',
         o_site: '120610',
-        reskeep: 248
+        reskeep: 248,
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20120615_1',
@@ -687,7 +690,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/120915_ZK/120915_res.htm',
         info: 'Золотые кольца (Свадебные). Традиционные командные соревнования семейных пар и пар по интересам.',
         start: 'WEDDING',
-        o_site: '120915_ZK'
+        o_site: '120915_ZK',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20120915_2',
@@ -716,7 +720,8 @@ let events2012 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/120916_Az/120916_res.htm',
         logo: 'azimut.gif',
-        o_site: '120916_Az'
+        o_site: '120916_Az',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20120916_2',
@@ -880,7 +885,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/121013_Ok/121014_res.htm',
         info: 'XLI НОЧНЫЕ СОРЕВНОВАНИЯ ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ ТУРИСТОВ САНКТ-ПЕТЕРБУРГА И ЛЕНИНГРАДСКОЙ ОБЛАСТИ ПАМЯТИ АНАТОЛИЯ ОКИНЧИЦА',
         start: 'OKINCHITSA',
-        o_site: '121013_Ok'
+        o_site: '121013_Ok',
+        map: 'lembolovo_2002'
     },
     {
         id: 'SPB_20121017_1',
@@ -1033,7 +1039,8 @@ let events2012 = [
         name: 'Соревнования по велоориентированию памяти Бориса Панкратьева',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/121110_MTBO/121110_res.htm',
-        o_site: '121110_MTBO'
+        o_site: '121110_MTBO',
+        map: 'lembolovo_russia_2007'
     },
     {
         id: 'SPB_20121124_1',

@@ -66,21 +66,23 @@ let events2022 = [
         endDate: '2022-02-06',
         name: 'VII Всероссийская Зимняя Универсиада',
         place: 'Лемболово',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=1337',
         res: 'https://o-site.spb.ru/_races/210206/results_kom.pdf',
-        o_site: '210206'
+        o_site: '210206',
+        map: 'lembolovo_winter_2019'
     },
     {
         id: 'SPB_20220205_2',
         date: '2022-02-05',
         name: '«Тур де Лемболово – 2022»',
         place: 'Лемболово',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/220206/res1.htm',
         video: 'https://www.youtube.com/watch?v=WK_TXhObUSw',
         o_site: '220206',
-        endDate: '2022-02-06'
+        endDate: '2022-02-06',
+        map: 'lembolovo_winter_2019'
     },
     {
         id: 'SPB_20220213_1',
@@ -151,7 +153,8 @@ let events2022 = [
             'https://www.youtube.com/watch?v=YrzSQWuIVR8'
         ],
         owner: 'MULTSPORT',
-        o_site: '220227r'
+        o_site: '220227r',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20220227_2',
@@ -495,7 +498,8 @@ let events2022 = [
         video: ['https://www.youtube.com/watch?v=V0Bu0QiRQX8','https://www.youtube.com/watch?v=f6OlPEX-CxU'],
         fmt: 'Рогейн 4, 8 и 16 часов',
         owner: 'MULTSPORT',
-        o_site: '220515r'
+        o_site: '220515r',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20220514_4',
@@ -637,7 +641,8 @@ let events2022 = [
         info: 'Уважаемые участники, по техническим причинам заявка на Чемпионат и Первенство Санкт-Петербурга в дисциплине кросс-эстафета–3 человека будет открыта во вторник (24 мая)',
         owner: 'SFSO_SPB',
         o_site: '220528_relay',
-        reskeep: 544
+        reskeep: 544,
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20220528_2',
@@ -1185,7 +1190,8 @@ let events2022 = [
         owner: 'WN',
         o_site: '2022BN',
         endDate: '2022-08-07',
-        reskeep: [550, 553]
+        reskeep: [550, 553],
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20220820_1',
@@ -1264,7 +1270,8 @@ let events2022 = [
         map: 'pervomayskoe_2021',
         owner: 'WN',
         o_site: '220904',
-        reskeep: 554
+        reskeep: 554,
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20220906_1',
@@ -1838,7 +1845,8 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/24925',
         res: 'https://o-site.spb.ru/_races/221105_p/221105_split.htm',
-        o_site: '221105_p'
+        o_site: '221105_p',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20221106_1',
@@ -1849,7 +1857,8 @@ let events2022 = [
         reg: 'http://orgeo.ru/event/24918#',
         res: 'https://o-site.spb.ru/_races/221106_100kp/221106_100_split.htm',
         strava: 8076084474,
-        o_site: '221106_100kp'
+        o_site: '221106_100kp',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20221112_1',
@@ -1885,7 +1894,8 @@ let events2022 = [
         fmt: 'Личные соревнования на маркированной трассе «Вариант Д», бегом.',
         strava: 8112409206,
         start: 'ROGAINE_110',
-        o_site: '221113'
+        o_site: '221113',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20221119_1',
@@ -1984,6 +1994,7 @@ let events2022 = [
         info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 1-й этап 10.09.22 Болотная станция Результаты Сплиты 2-й этап 22.10.22 Раздолье Результаты Сплиты 3-й этап 29.10.22 Петяярви Результаты Сплиты 4-й этап 05.11.22 Первомайское Результаты Сплиты 5-й этап 06.11.22 Мичуринское Результаты Сплиты 6-й этап 12.11.22 Петяярви Результаты Сплиты 7-й этап 19.11.22 Озерки Результаты Сплиты 8-й этап 04.12.22 Петяярви(Кентавр) Результаты Сплиты',
         owner: 'WN',
         o_site: '2023_bn',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20221211_1',

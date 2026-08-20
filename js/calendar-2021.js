@@ -257,7 +257,8 @@ let events2021 = [
         reg: 'http://www.multsport.ru/starts/ice-trail-2021/registration.html',
         fmt: 'Рогейн 3 и 6 часов, лыжи/бег/вело',
         owner: 'MULTSPORT',
-        o_site: '210228r'
+        o_site: '210228r',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20210227_1',
@@ -740,7 +741,8 @@ let events2021 = [
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2021/registration.html',
         fmt: '8 и 16 часов на байдарках, каяках или SUP',
         owner: 'MULTSPORT',
-        o_site: '210515r'
+        o_site: '210515r',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20210515_4',
@@ -1460,7 +1462,8 @@ let events2021 = [
         owner: 'WN',
         o_site: '2021BN',
         reskeep: 476,
-        strava: [5909211506,5909484049]
+        strava: [5909211506,5909484049],
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20210905_3',
@@ -1550,7 +1553,8 @@ let events2021 = [
         owner: 'SFSO_SPB',
         o_site: '210919',
         reskeep: 491,
-        strava: 5986357953
+        strava: 5986357953,
+        map: 'veschevo_2021'
     },
     {
         id: 'SPB_20210925_1',
@@ -2008,7 +2012,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/211014_markir110/211114_rez.htm',
         start: 'ROGAINE_110',
         o_site: '211014_markir110',
-        strava: 6255821909
+        strava: 6255821909,
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20211114_2',
@@ -2028,7 +2033,8 @@ let events2021 = [
         map: 'pervomayskoe_2021',
         owner: 'WN',
         reskeep: 503,
-        strava: 6287291224
+        strava: 6287291224,
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20211123_1',

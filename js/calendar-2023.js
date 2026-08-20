@@ -189,11 +189,12 @@ let events2023 = [
         date: '2023-02-23',
         place: 'Лемболово, ДОЛ Пионер',
         name: 'Праздничный маркир',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/230223/230223_rez_.htm',
         photo: 'http://disk.yandex.ru/d/uBi4DLg47kkVug',
         info: 'Региональные и межмуниципальные соревнования "Праздничный маркир" В программе соревнований: лыжная гонка-маркированная трасса (вариант "А").',
-        o_site: '230223'
+        o_site: '230223',
+        map: 'lembolovo_winter_2019'
     },
     {
         id: 'SPB_20230225_1',
@@ -216,18 +217,20 @@ let events2023 = [
         photo: 'http://vk.com/album-154221178_291503790',
         info: 'Региональные и межмуниципальные соревнования «Февральская лыжня» Программа: 25 февраля (суббота) — «Лыжная гонка‐спринт»; 26 февраля (воскресенье) — «Лыжная гонка‐многодневная» — задержанный старт (гонка преследования) по результатам пролога 25 февраля.',
         strava: [8618271672,8624967044],
-        o_site: '23022526'
+        o_site: '23022526',
+        map: 'lembolovo_winter_2019'
     },
     {
         id: 'SPB_20230226_1',
         date: '2023-02-26',
         place: 'Лемболово, ДОЛ Пионер',
         name: 'Чемпионат высших учебных заведений',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'http://orgeo.ru/event/27065',
         photo: 'http://vk.com/album-154221178_291503790',
         info: 'Студенческие соревнования по спортивному ориентированию среди образовательных организаций высшего образования в рамках Санкт-Петербургской студенческой спортивной лиги. Программа: лыжная гонка - классика.',
-        o_site: '230226'
+        o_site: '230226',
+        map: 'lembolovo_winter_2019'
     },
     {
         id: 'SPB_20230304_1',
@@ -276,7 +279,8 @@ let events2023 = [
         fmt: 'рогейн 4 и 6 часов. Разрешено участие на лыжах, бегом или на велосипеде',
         video: ['https://www.youtube.com/watch?v=mt81oMGUZqU','https://www.youtube.com/watch?v=ZJQpTh3C26U'],
         owner: 'MULTSPORT',
-        o_site: '230311'
+        o_site: '230311',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20230311_2',
@@ -548,7 +552,8 @@ let events2023 = [
         place: 'Лемболово',
         name: '100 КП',
         type: 'ORIENT',
-        strava: 9026040472
+        strava: 9026040472,
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20230508_1',
@@ -594,7 +599,8 @@ let events2023 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/230511/https://orgeo.ru/event/28751',
         owner: 'SFSO_LO',
-        o_site: '230511'
+        o_site: '230511',
+        map: 'lembolovo_velo_2023'
     },
     {
         id: 'SPB_20230513_1',
@@ -659,7 +665,8 @@ let events2023 = [
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2023/registration.html',
         info: 'Всероссийские соревнования по рогейну на байдарках. Весенний водный рогейн 2023.',
         owner: 'MULTSPORT',
-        o_site: '230520r'
+        o_site: '230520r',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20230520_2',
@@ -1149,7 +1156,8 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/29431',
         res: 'https://o-site.spb.ru/_races/230709/230609_res.pdf',
-        o_site: '230709'
+        o_site: '230709',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20230716_1',
@@ -1204,7 +1212,7 @@ let events2023 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1550',
         res: 'http://o-site.spb.ru/_races/2023_bn/230422_res.htm',
         info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 10-й этап 22.04.23 Голубая Дача Результаты Сплиты 11-й этап 29.04.23 Кавголово(Орлиная Гора) Результаты Сплиты 12-й этап 30.04.23 Сосново Результаты Сплиты 13-й этап 01.05.23 Первомайское Результаты Сплиты 14-й этап 06.05.23 Былинное озеро Результаты Сплиты 15-й этап 07.05.23 Садоводство топограф Результаты Сплиты 16-й этап 08.05.23 Мичуринское(склон) Результаты Сплиты 17-й этап 13.05.23 Пухтолова Гора Результаты Сплиты 18-й этап 14.05.23 Симагино Результаты Сплиты 19-й этап 22.07.23 Воробьево озеро Результаты 20-й этап 23.07.23 Воробьево озеро Результаты',
-        map: ['smoljanoe_2015','bylinnoe_2023'],
+        map: ['smoljanoe_2015','bylinnoe_2023','pervomayskoe_2021'],
         owner: 'WN',
         o_site: 'cbn_2023',
         reskeep: [604, 605]
@@ -1337,7 +1345,8 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/info/29813',
         res: 'https://o-site.spb.ru/_races/230827_bn/230827_res.htm',
         info: 'Тренировочный старт по спортивному ориентированию бегом',
-        o_site: '230827_bn'
+        o_site: '230827_bn',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20230827_2',
@@ -1370,7 +1379,8 @@ let events2023 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/230903/230903_rez.htm',
         owner: 'SFSO_SPB',
-        o_site: '230903'
+        o_site: '230903',
+        map: 'lembolovo_velo_2023'
     },
     {
         id: 'SPB_20230903_2',
@@ -1390,7 +1400,8 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/30154',
         res: 'https://o-site.spb.ru/_races/230909_df/230909_r.htm',
-        o_site: '230909_df'
+        o_site: '230909_df',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20230909_2',
@@ -1937,7 +1948,8 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/31217',
         res: 'https://o-site.spb.ru/_races/231105_P/231105_split1.htm',
-        o_site: '231105_P'
+        o_site: '231105_P',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20231106_1',

@@ -420,7 +420,8 @@ let events2016 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=602',
         res: 'https://o-site.spb.ru/_races/160509_Az/160509_res.htm',
-        o_site: '160509_Az'
+        o_site: '160509_Az',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20160511_1',
@@ -528,7 +529,8 @@ let events2016 = [
         name: 'Весенний водный рогейн',
         type: 'ROGAINE',
         fmt: '8 и 16(18) часов, байдарка',
-        link: 'http://www.multsport.ru'
+        link: 'http://www.multsport.ru',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20160522_1',
@@ -963,7 +965,8 @@ let events2016 = [
         name: 'Лемболовский Мемориал',
         place: 'Лемболово',
         type: 'ORIENT',
-        o_site: '16092425'
+        o_site: '16092425',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20160924_2',
@@ -1036,7 +1039,8 @@ let events2016 = [
         res: 'http://o-site.spb.ru/_races/matreshka/161030_rez_mat.htm',
         info: 'Серия тренировочных стартов от клуба NORD WEST - "МаТрёшка" 1 этап — 30 октября (Малиновая гора) Результаты 2 этап — 5 ноября (Охта-парк) Результаты. Сумма подводится по итогам ДВУХ этапов!',
         o_site: '161105',
-        endDate: '2016-11-30'
+        endDate: '2016-11-30',
+        map: 'toksovo_malinovaya_gora_2013'
     },
     {
         id: 'SPB_20161001_4',
@@ -1257,7 +1261,8 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/161104_/161104_res.htm',
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции, проводимые КСО "Азимут".',
         logo: 'azimut.gif',
-        o_site: '161104_'
+        o_site: '161104_',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20161106_1',

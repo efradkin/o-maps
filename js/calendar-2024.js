@@ -288,7 +288,8 @@ let events2024 = [
         reg: 'http://www.multsport.ru/starts/ice-trail-2024/registration.html',
         fmt: 'рогейн 3 и 6 часов. Разрешено участие на лыжах, бегом или велосипеде',
         owner: 'MULTSPORT',
-        o_site: '240317r'
+        o_site: '240317r',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20240324_1',
@@ -747,7 +748,8 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/canoe-rogaine-2024/registration.html',
         owner: 'MULTSPORT',
-        o_site: '240518r'
+        o_site: '240518r',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20240519_1',
@@ -853,7 +855,8 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1619',
         res: 'http://orgeo.ru/live/#/36161/2',
-        o_site: '240602'
+        o_site: '240602',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20240601_4',
@@ -863,7 +866,8 @@ let events2024 = [
         place: 'Лемболово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/240602_univer/240602_resof_kom.pdf',
-        o_site: '240602_univer'
+        o_site: '240602_univer',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20240601_5',
@@ -1316,7 +1320,8 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/36612#',
         res: 'https://o-site.spb.ru/_races/240714/240714_split.htm',
-        o_site: '240714'
+        o_site: '240714',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20240720_2',
@@ -1526,7 +1531,8 @@ let events2024 = [
         logo: 'azimut.gif',
         o_site: '240908',
         strava: 12356929743,
-        reskeep: 671
+        reskeep: 671,
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20240911_1',
@@ -1616,7 +1622,8 @@ let events2024 = [
         fmt: 'Ночные соревнования по ориентированию',
         link: 'https://spb-orient.ru/lemb/2024/lemb.html',
         res: 'https://spb-orient.ru/lemb/2024/lemb-result-Night.html',
-        o_gps: 20592
+        o_gps: 20592,
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20240922_1',
@@ -1734,7 +1741,8 @@ let events2024 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/241005_velo/241005_split.htm',
         owner: 'SFSO_SPB',
-        o_site: '241005_velo'
+        o_site: '241005_velo',
+        map: 'lembolovo_velo_2023'
     },
     {
         id: 'SPB_20241005_3',
@@ -1959,7 +1967,8 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/241109_Markir/241109_RES.htm',
         start: 'ROGAINE_110',
         strava: 12858739605,
-        o_site: '241109_Markir'
+        o_site: '241109_Markir',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20241116_1',
@@ -2054,7 +2063,8 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/info/39278',
         res: 'https://o-site.spb.ru/_races/241201_est_Dlit/241201_split_tren_Dlit.htm',
         info: 'Эстафета 2х2 и открытая тренировка от клуба Dлительный',
-        o_site: '241201_est_Dlit'
+        o_site: '241201_est_Dlit',
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20241201_2',

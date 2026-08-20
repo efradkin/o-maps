@@ -52,7 +52,8 @@ let events2020 = [
         type: 'ORIENT',
         reskeep: 299,
         owner: 'WN',
-        strava: 3022109211
+        strava: 3022109211,
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20200119_1',
@@ -76,7 +77,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200119_MT/200119_rez.htm',
         o_site: '200119_MT',
         reskeep: 204,
-        strava: 3024830806
+        strava: 3024830806,
+        map: 'toksovo_malinovaya_gora_2018'
     },
     {
         id: 'SPB_20200119_3',
@@ -199,6 +201,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1140',
         o_site: '200216_NW',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20200216_2',
@@ -343,7 +346,8 @@ let events2020 = [
         type: 'ORIENT',
         reskeep: 332,
         owner: 'WN',
-        strava: 3203763422
+        strava: 3203763422,
+        map: 'kavgolovo_old_ski_track_2023'
     },
     {
         id: 'SPB_20200321_2',
@@ -364,7 +368,8 @@ let events2020 = [
         owner: 'WN',
         o_site: '2020BN',
         reskeep: [330, 331, 332, 333],
-        strava: 3207395628
+        strava: 3207395628,
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20200324_1',
@@ -454,7 +459,8 @@ let events2020 = [
         video: ['https://www.youtube.com/watch?v=A-XZIHinuaw','https://www.youtube.com/watch?v=fW7vxveGSo4'],
         fmt: 'Рогейн 8ч и 16ч (на байдарках)',
         owner: 'MULTSPORT',
-        o_site: '200516'
+        o_site: '200516',
+        map: 'vuoksa_rogaine_2019'
     },
     {
         id: 'SPB_20200517_1',
@@ -583,7 +589,8 @@ let events2020 = [
         place: 'Лемболово',
         name: 'Serebruanitskii Cup 1',
         type: 'ORIENT',
-        reskeep: 336
+        reskeep: 336,
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20200627_3',
@@ -611,7 +618,8 @@ let events2020 = [
         name: 'Serebruanitskii Cup 2',
         type: 'ORIENT',
         reskeep: 337,
-        strava: 3678989747
+        strava: 3678989747,
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20200628_2',
@@ -1202,12 +1210,13 @@ let events2020 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200927_svad/Kom_260920.pdf',
         start: 'WEDDING',
-        o_site: '200927_svad'
+        o_site: '200927_svad',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20200926_2',
-        date: '2020-09-26',
-        endDate: '2020-09-28',
+        date: '2020-09-25',
+        endDate: '2020-09-27',
         name: 'Чемпионат России',
         place: 'Выборг',
         type: 'ORIENT',
@@ -1216,8 +1225,12 @@ let events2020 = [
         o_site: '20092428',
         map: ['vyborg_annenskie_2017','vyborg_center_2020_09_26','batarejnaya_gora_2020'],
         o_gps: {
-            'М': 8200,
-            'Ж': 8201
+            '25-1': 8199,
+            '25-3': 8207,
+            '26-М': 8200,
+            '26-Ж': 8201,
+            '27-М': 8202,
+            '27-Ж': 8203
         },
         video: 'https://www.youtube.com/watch?v=fQJcSSgX7e0',
         reskeep: [371, 372],
@@ -1311,7 +1324,8 @@ let events2020 = [
         owner: 'SFSO_SPB',
         o_site: '201004',
         reskeep: 383,
-        strava: 4149550319
+        strava: 4149550319,
+        map: 'pukhtolova_gora_2009'
     },
     {
         id: 'SPB_20201010_1',
@@ -1431,7 +1445,8 @@ let events2020 = [
         owner: 'SFSO_SPB',
         o_site: '201024_relay',
         reskeep: 390,
-        strava: 4236692958
+        strava: 4236692958,
+        map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
         id: 'SPB_20201025_1',
@@ -1491,7 +1506,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201101_perspectiva/201101_res.htm',
         o_site: '201101_perspectiva',
         reskeep: 392,
-        strava: 4270412163
+        strava: 4270412163,
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20201107_1',

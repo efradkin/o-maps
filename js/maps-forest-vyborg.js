@@ -439,10 +439,6 @@ let vyborgMaps = [
         name: 'Выборг, Анненские укреления',
         date: '2020-09-25',
         info: 'Смешанная эстафета.',
-        o_gps: {
-            '1,2 этап': 8199,
-            '3,4 этап': 8207
-        },
         url: './maps/forest/vyborg/vyborg_annenskie_2017.webp',
         bounds: [[60.7218755, 28.7187982], [60.7206372, 28.7339687], [60.7175727, 28.7169313]],
         author: ['TKMKV_K','KVZN'],
@@ -454,10 +450,6 @@ let vyborgMaps = [
         date: '2020-09-27',
         excluded: true,
         info: 'Спринт-общий старт.',
-        o_gps: {
-            'М': 8202,
-            'Ж': 8203
-        },
         url: './maps/forest/vyborg/batarejnaya_gora_2020.webp',
         link: ['https://viewer.o-gps-center.ru/newmaps/map_6255_b092c095d299e2c07778fccae312152d.png','https://viewer.o-gps-center.ru/newmaps/course_8203_3f630736090219a2871cf4d5a230f4e3.png'],
         bounds: [[60.708829, 28.7526369], [60.7069182, 28.7687945], [60.7004294, 28.7487531]],
