@@ -125,7 +125,6 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/soujarvi_rfar_2023_omaps.gif',
         bounds: [[62.4641061, 32.1538925], [62.3992783, 32.7921295], [62.1608527, 32.0127869]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2023/',
-        o_gps: 16300,
         owner: 'RFAR',
         type: ['ROGAINE']
     },

@@ -998,7 +998,8 @@ let events2016 = [
         place: 'Зеркальный',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/160924-26/160924_res.htm',
-        o_site: '160924-26'
+        o_site: '160924-26',
+        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20160928_1',

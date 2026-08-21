@@ -924,11 +924,12 @@ let events2013 = [
         id: 'SPB_20130927_2',
         date: '2013-09-27',
         endDate: '2013-09-30',
-        name: 'Старты в Зеркальном 2013',
+        name: 'Старты в Зеркальном',
         place: 'Зеркальный',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130927-30/130928_res.htm',
-        o_site: '130927-30'
+        o_site: '130927-30',
+        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20130928_1',

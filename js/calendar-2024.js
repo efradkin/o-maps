@@ -241,7 +241,8 @@ let events2024 = [
         link: 'https://orgeo.ru/event/33952',
         res: 'https://o-site.spb.ru/_races/231105_P/Results%20-%20SportOrg.pdf',
         o_gps: 18504,
-        strava: 10882033709
+        strava: 10882033709,
+        map: 'shuvalovsky_rogaine_2024'
     },
     {
         id: 'SPB_20240308_1',
@@ -961,12 +962,13 @@ let events2024 = [
         endDate: '2024-06-16',
         place: 'Импилахти',
         name: 'RED FOX ADVENTURE RACE',
-        type: 'ROGAINE',
+        type: 'MULTI',
         video: [
             'https://www.instagram.com/reel/C8WPzZDKAiq/',
             'https://www.instagram.com/reel/C5IWlqmsoaU/'
         ],
         fmt: '24, 48',
+        start: 'RFAR',
         link: 'https://adventure-race.redfox.ru/docs/rules',
         res: 'https://adventure-race.redfox.ru/results/results.pdf',
         o_gps: 19675
@@ -1288,7 +1290,8 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/info/petayarvi_rogeyn_orient_2024',
         res: 'https://o-site.spb.ru/_races/240707_rogaine/240707_split.htm',
         strava: 11829592249,
-        o_site: '240707_rogaine'
+        o_site: '240707_rogaine',
+        map: 'petjajarvy_2024'
     },
     {
         id: 'SPB_20240713_1',
@@ -1477,7 +1480,8 @@ let events2024 = [
         info: 'Мероприятие проводится с целью сохранения исторической памяти и повышения преемственности поколений. К участию приглашаются все желающие без возрастных ограничений: от детей до ветеранов. Программа: - Ретро-старт по спортивному ориентированию по чёрно-белой карте. - Мобильная выставка по истории спортивного ориентирования и общение с ветеранами спорта. - Современные дистанции по спортивному ориентированию по цветной карте с электронной отметкой SFR.',
         video: 'http://vk.com/orient_spb_lo?z=clip-220245153_456239032',
         strava: [12287822011,12287103979],
-        o_site: '240831_retro'
+        o_site: '240831_retro',
+        map: 'tsvelodubovo_south_2021'
     },
     {
         id: 'SPB_20240901_1',
@@ -1581,7 +1585,8 @@ let events2024 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, велокросс-спринт',
         type: 'VELO',
         owner: 'SFSO_SPB',
-        o_site: '240915_velo_sprint'
+        o_site: '240915_velo_sprint',
+        map: 'sestroretsk_tamozhennaya_doroga_velo_2021'
     },
     {
         id: 'SPB_20240920_1',
@@ -1631,14 +1636,15 @@ let events2024 = [
     {
         id: 'SPB_20240922_1',
         date: '2024-09-22',
-        place: 'Петровское, база "Связист")',
+        place: 'Петровское, база Связист',
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-классика',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1628',
         res: 'http://orgeo.ru/live/#/38071/1',
         owner: 'SFSO_SPB',
         o_site: '240922',
-        reskeep: 677
+        reskeep: 677,
+        map: 'petrovskoe_svjazist_2023'
     },
     {
         id: 'SPB_20240925_1',
@@ -1673,7 +1679,8 @@ let events2024 = [
         place: 'Зеркальный',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/38224',
-        o_site: '240930'
+        o_site: '240930',
+        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20240928_1',
@@ -1829,7 +1836,8 @@ let events2024 = [
         res: 'http://orgeo.ru/live/#/37598',
         owner: 'SFSO_SPB',
         o_site: '241014',
-        video: ['https://www.youtube.com/watch?v=QqH4NTkUANw','https://www.youtube.com/watch?v=xEt_Z9K5AU4']
+        video: ['https://www.youtube.com/watch?v=QqH4NTkUANw','https://www.youtube.com/watch?v=xEt_Z9K5AU4'],
+        map: ['krestovsky_south_2023','kavgolovo_2024']
     },
     {
         id: 'SPB_20241012_3',
@@ -1864,7 +1872,8 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/241019GK/241019_gktren_split.htm',
         info: 'Тренировка по рогейну, формат - 1 час бегом.',
         start: 'GORNY_CROSS',
-        o_site: '241019GK'
+        o_site: '241019GK',
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20241019_3',
@@ -1876,7 +1885,8 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/24101920/split1.htm',
         info: 'Традиционные соревнования в г. Выборге',
         owner: 'VYBORG',
-        o_site: '24101920'
+        o_site: '24101920',
+        map: 'gvardeyskoe_2004'
     },
     {
         id: 'SPB_20241020_1',
@@ -1886,7 +1896,8 @@ let events2024 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/241020_PZVP/241020_ofrez.pdf',
         strava: 12699879053,
-        o_site: '241020_PZVP'
+        o_site: '241020_PZVP',
+        map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
         id: 'SPB_20241020_2',
@@ -2018,7 +2029,8 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/dm24',
         res: 'http://orgeo.ru/live/#/dm24',
-        o_site: '241123'
+        o_site: '241123',
+        map: 'poljustrovo_2023'
     },
     {
         id: 'SPB_20241124_1',
@@ -2076,7 +2088,8 @@ let events2024 = [
         name: 'Saint-pi Sprint camp',
         type: 'ORIENT',
         strava: 13020611828,
-        owner: 'WN'
+        owner: 'WN',
+        map: 'vladimirskaya-ligovsky_2023'
     },
     {
         id: 'SPB_20241206_1',
@@ -2085,7 +2098,8 @@ let events2024 = [
         name: 'Судейский семинар для судей 1, 2 и 3 категорий',
         type: 'ORIENT',
         reg: 'http://forms.yandex.ru/u/6747428902848f0b601de02f/',
-        o_site: '241206_seminar'
+        o_site: '241206_seminar',
+        map: 'balt_bereg'
     },
     {
         id: 'SPB_20241207_1',
@@ -2106,7 +2120,8 @@ let events2024 = [
         reg: 'http://orgeo.ru/event/info/39730',
         res: 'https://o-site.spb.ru/_races/241026_bn/241214_res.htm',
         owner: 'WN',
-        o_site: '241026_bn'
+        o_site: '241026_bn',
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20241215_1',
@@ -2124,14 +2139,15 @@ let events2024 = [
     {
         id: 'SPB_20241221_1',
         date: '2024-12-21',
-        name: 'Приз Деда Мороза 2024',
+        name: 'Приз Деда Мороза',
         place: 'Кавголово',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/39581',
         res: 'https://o-site.spb.ru/_races/moroz_2024/241221_res.htm',
         strava: 13160271093,
         o_site: 'moroz_2024',
-        owner: 'WN'
+        owner: 'WN',
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20241222_1',

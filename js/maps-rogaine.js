@@ -32,7 +32,7 @@ let rogaineMaps = [
     {
         name: 'Чудово',
         year: 2022,
-        url: './maps/rogaine/chudovo_2022.webp',
+        url: './maps/rogaine/chudovo_rogaine_2022.webp',
         link: './original_maps/rogaine/chudovo_2022_omaps.png',
         bounds: [[59.1252698, 31.6518259], [59.1252918, 31.6801071], [59.1141466, 31.6521263]],
         owner: 'SHBN',

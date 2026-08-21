@@ -1250,7 +1250,8 @@ let events2018 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=935',
         res: 'https://o-site.spb.ru/_races/180922_deaf/180922_rez_deaf.htm',
         owner: 'SFSO_SPB',
-        o_site: '180922_deaf'
+        o_site: '180922_deaf',
+        map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
         id: 'SPB_20180922_2',
@@ -1281,7 +1282,8 @@ let events2018 = [
         place: 'Зеркальный',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180921-24/180921_res.htm',
-        o_site: '180921-24'
+        o_site: '180921-24',
+        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20180926_1',
@@ -1907,7 +1909,8 @@ let events2018 = [
         reg: 'http://www.o-reg.spb.ru/entry-list?id=977',
         res: 'https://o-site.spb.ru/_races/181215_bn/181215_res.htm',
         o_site: '181215_bn',
-        owner: 'WN'
+        owner: 'WN',
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20181216_1',

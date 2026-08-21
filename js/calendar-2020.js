@@ -1675,7 +1675,8 @@ let events2020 = [
         type: 'ORIENT',
         reskeep: 405,
         owner: 'WN',
-        strava: 4401434704
+        strava: 4401434704,
+        map: 'kavgolovo_old_ski_track_2023'
     },
     {
         id: 'SPB_20201129_1',
@@ -1816,7 +1817,8 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201220_bn/201220_res.htm',
         o_site: '201220_bn',
         reskeep: 412,
-        strava: 4494278879
+        strava: 4494278879,
+        map: 'toksovo_okhta_park_2008'
     },
     {
         id: 'SPB_20201226_1',

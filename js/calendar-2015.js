@@ -983,7 +983,8 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/150919_velo/20150919_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '150919_velo'
+        o_site: '150919_velo',
+        maps: 'krasna_gorka_velo_2022'
     },
     {
         id: 'SPB_20150919_2',
@@ -1035,11 +1036,12 @@ let events2015 = [
         id: 'SPB_20150925_1',
         date: '2015-09-25',
         endDate: '2015-09-28',
-        name: 'Старты в Зеркальном 2015',
+        name: 'Старты в Зеркальном',
         place: 'Зеркальный',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/150925-27/150926_res.htm',
-        o_site: '150925-27'
+        o_site: '150925-27',
+        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20150926_1',
@@ -1152,7 +1154,8 @@ let events2015 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/151017/151017_ZO_res.htm',
         owner: 'VYBORG',
-        o_site: '151017'
+        o_site: '151017',
+        map: 'gvardeyskoe_2004'
     },
     {
         id: 'SPB_20151017_2',
@@ -1327,7 +1330,8 @@ let events2015 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/151128/151128_res_.htm',
         info: 'Участники: 1. МЖ 10 – «мальчики/девочки 2005 г.р. и младше»; 2. МЖ 12 –«мальчики/ девочки 2003-2004 г.р.; 3. МЖ 14 – «юноши/девушки 2001-2002 г.р.»; 4. МЖ 16 – «юноши/девушки 1999-2000 г.р.» 5. МЖ Взрослые – «родители» 6. Семейный зачёт (семейные старты)',
-        o_site: '151128'
+        o_site: '151128',
+        map: 'school_188_2016'
     },
     {
         id: 'SPB_20151128_2',

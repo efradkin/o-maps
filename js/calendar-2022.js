@@ -94,7 +94,8 @@ let events2022 = [
         res: 'http://sport-orient.ru/wp-content/uploads/2022/02/rezultaty-html.pdf',
         strava: 6675970809,
         o_site: '220213s',
-        reskeep: 509
+        reskeep: 509,
+        map: 'gatchina_aerodrom_2022'
     },
     {
         id: 'SPB_20220213_2',
@@ -276,7 +277,8 @@ let events2022 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1409',
         res: 'https://o-site.spb.ru/_races/220417/220417_results.htm',
         info: 'Региональные соревнования по спортивному ориентированию в кроссовых дисциплинах «Открытие сезона» (с выполнением массовых разрядов). Организатор: РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
-        o_site: '220417'
+        o_site: '220417',
+        map: 'sestroretskie_detskie_djuny_2020'
     },
     {
         id: 'SPB_20220420_1',
@@ -449,7 +451,8 @@ let events2022 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1429',
         res: 'https://o-site.spb.ru/_races/220510_mtbo/2022_05_10_splits.htm',
-        o_site: '220510_mtbo'
+        o_site: '220510_mtbo',
+        map: 'tarkhovka_velo_2023'
     },
     {
         id: 'SPB_20220510_1',
@@ -458,7 +461,8 @@ let events2022 = [
         name: 'Перспектива Middle Cup #5',
         strava: 7118086822,
         type: 'ORIENT',
-        reskeep: 524
+        reskeep: 524,
+        map: 'lindulovskaya_roscha_2015'
     },
     {
         id: 'SPB_20220511_1',
@@ -468,7 +472,8 @@ let events2022 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1424',
         res: 'https://o-site.spb.ru/_races/220511_MTBO/220511_res.htm',
-        o_site: '220511_MTBO'
+        o_site: '220511_MTBO',
+        map: 'osinovaja_roscha_velo_2020'
     },
     {
         id: 'SPB_20220514_1',
@@ -661,7 +666,8 @@ let events2022 = [
         reg: 'http://rogaining.site/registration.html',
         info: 'В программе Фестиваля пройдут соревнования по рогейну в следующих форматах: - 24 часа бегом – 2-й Кубок России по рогейну - 8 часов бегом - 16 часов на велосипеде – 6-й Чемпионат России - 6 часов на велосипеде',
         video: ['https://www.youtube.com/watch?v=f2BlY4y_AI0','https://www.youtube.com/watch?v=dMjJT_jp168'],
-        o_site: '220528r'
+        o_site: '220528r',
+        map: 'zerkalny_rrc_2022'
     },
     {
         id: 'SPB_20220528_3',
@@ -671,7 +677,8 @@ let events2022 = [
         video: 'https://www.youtube.com/watch?v=mBR-0JoHM8s',
         type: 'ROGAINE',
         fmt: '24, 8',
-        link: 'https://rogaining.site/'
+        link: 'https://rogaining.site/',
+        map: 'zerkalny_rrc_2022'
     },
     {
         id: 'SPB_20220528_4',
@@ -681,7 +688,8 @@ let events2022 = [
         type: ['ROGAINE','VELO'],
         fmt: '16, 6',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        link: 'https://rogaining.site/'
+        link: 'https://rogaining.site/',
+        map: 'zerkalny_rrc_2022'
     },
     {
         id: 'SPB_20220528_5',
@@ -1221,7 +1229,8 @@ let events2022 = [
         name: 'Рогейн в Чудово',
         type: 'ROGAINE',
         strava: 7668415048,
-        owner: 'SHBN'
+        owner: 'SHBN',
+        map: 'chudovo_rogaine_2022'
     },
     {
         id: 'SPB_20220821_1',
@@ -1231,7 +1240,8 @@ let events2022 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/210822_MTBO/220821_rez.htm',
         owner: 'SFSO_SPB',
-        o_site: '210822_MTBO'
+        o_site: '210822_MTBO',
+        map: 'voejkovo_velo'
     },
     {
         id: 'SPB_20220827_1',
@@ -1322,7 +1332,8 @@ let events2022 = [
         reg: 'http://orgeo.ru/event/23512',
         video: 'https://www.youtube.com/watch?v=bl16U1tbPhs',
         start: 'ROGAINE_110',
-        o_site: '220724_110'
+        o_site: '220724_110',
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20220911_2',
@@ -1449,7 +1460,8 @@ let events2022 = [
         res: 'http://orgeo.ru/live/#/24330',
         strava: 7859011178,
         info: 'Физкультурно-спортивное мероприятие «Соревнования по спортивному ориентированию на открытый кубок внутригородского муниципального образования Санкт-Петербурга город Колпино»',
-        o_site: '220924_kolpino'
+        o_site: '220924_kolpino',
+        map: 'kolpino_chuhonka_2020'
     },
     {
         id: 'SPB_20220924_4',
@@ -1458,7 +1470,8 @@ let events2022 = [
         name: 'Старты в Зеркальном',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/24321/1',
-        o_site: '220924_Z'
+        o_site: '220924_Z',
+        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20220924_5',
@@ -1468,7 +1481,8 @@ let events2022 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/220924_MTBO/220924_MTBO_rez.htm',
         owner: 'SFSO_SPB',
-        o_site: '220924_MTBO'
+        o_site: '220924_MTBO',
+        maps: 'krasna_gorka_velo_2022'
     },
     {
         id: 'SPB_20220924_6',
@@ -1571,7 +1585,8 @@ let events2022 = [
         strava: 7898462924,
         owner: 'SFSO_SPB',
         o_site: '221002',
-        reskeep: 558
+        reskeep: 558,
+        map: 'kanneljarvi_2023',
     },
     {
         id: 'SPB_20221004_1',
@@ -1679,7 +1694,8 @@ let events2022 = [
         reg: 'http://orgeo.ru/event/24599',
         res: 'https://o-site.spb.ru/_races/221016_PZVP/221016_PZVP_rez.pdf',
         strava: 7971237568,
-        o_site: '221016_PZVP'
+        o_site: '221016_PZVP',
+        map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
         id: 'SPB_20221016_2',
@@ -1937,7 +1953,8 @@ let events2022 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1484',
         res: 'https://o-site.spb.ru/_races/221126/221126_off.pdf',
         strava: 8170213687,
-        o_site: '221126'
+        o_site: '221126',
+        map: 'poljustrovo_2023'
     },
     {
         id: 'SPB_20221126_2',

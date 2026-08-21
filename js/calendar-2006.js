@@ -687,7 +687,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/061014_vib/results.rar',
         info: 'ЕЖЕГОДНЫЕ ТРАДИЦИОННЫЕ СОРЕВНОВАНИЯ ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ ЗОЛОТАЯ ОСЕНЬ - 2006',
         owner: 'VYBORG',
-        o_site: '061014_vib'
+        o_site: '061014_vib',
+        map: 'gvardeyskoe_2004'
     },
     {
         id: 'SPB_20061015_1',

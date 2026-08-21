@@ -574,7 +574,7 @@ let events2021 = [
         info: '27 мая 2021 г. СПб, Парголово, Осиновая Роща 2 июня 2021 г. СПб, Парголово, Шуваловский парк 25 июня 2021 г. СПб, Сестрорецк, Детские Дюны Заявка на 2 этап: http://www.o-reg.spb.ru/entry-list?id=1263 Заявка на 3 этап: http://www.o-reg.spb.ru/entry-list?id=1264 Заявка на 4 этап: http://www.o-reg.spb.ru/entry-list?id=1265',
         o_site: '210527_mtbo',
         endDate: '2021-06-30',
-        map: 'osinovaja_roscha_velo_2020'
+        map: ['osinovaja_roscha_velo_2020','sestroretskie_detskie_djuny_2020']
     },
     {
         id: 'SPB_20210501_3',
@@ -1581,7 +1581,8 @@ let events2021 = [
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/210925_MTBO/210925_res.htm',
         owner: 'SFSO_SPB',
-        o_site: '210925_MTBO'
+        o_site: '210925_MTBO',
+        map: 'sestroretsk_tamozhennaya_doroga_velo_2021'
     },
     {
         id: 'SPB_20210925_3',
@@ -1630,7 +1631,8 @@ let events2021 = [
         res: 'https://o-site.spb.ru/_races/210926_deaf/210926_results.htm',
         info: 'Соревнования проводятся в соответствии с Положением о чемпионате и первенстве Санкт-Петербурга по спортивному ориентированию – спорт глухих 2021 года.',
         owner: 'SFSO_SPB',
-        o_site: '210926_deaf'
+        o_site: '210926_deaf',
+        map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
         id: 'SPB_20210929_1',
@@ -2084,7 +2086,8 @@ let events2021 = [
         reg: 'http://docs.google.com/forms/d/e/1FAIpQLSdB9NRbpQu-jUCKvArDAG_ymIoBTP7Yu9VL4C-j1O4_M6phyg/viewform',
         res: 'http://o-site.spb.ru/_races/210512/presentation.zip',
         info: 'Семинар по подготовке и аттестации спортивных судей Всероссийской, 1, 2 и 3 категорий по спортивному ориентированию. Организаторы: Федерация спортивного ориентирования России Спортивная Федерация спортивного ориентирования Санкт-Петербурга',
-        o_site: '210512'
+        o_site: '210512',
+        map: 'balt_bereg'
     },
     {
         id: 'SPB_20211205_1',
@@ -2141,7 +2144,8 @@ let events2021 = [
         video: 'https://www.youtube.com/watch?v=-Cpzt5nNNhE',
         o_site: '211219_bn',
         reskeep: 506,
-        strava: 6402242041
+        strava: 6402242041,
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20211219_2',

@@ -810,10 +810,11 @@ let events2012 = [
         id: 'SPB_20121001_1',
         date: '2012-10-01',
         place: 'Зеркальный',
-        name: 'Старты в Зеркальном 2012',
+        name: 'Старты в Зеркальном',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120928/120928-1001_res.zip',
-        o_site: '120928'
+        o_site: '120928',
+        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20121006_1',
@@ -1120,6 +1121,7 @@ let events2012 = [
         name: 'Приз Деда Мороза',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/121223_DMP/121223dmp_split.htm',
-        o_site: '121223_DMP'
+        o_site: '121223_DMP',
+        map: 'vsevolozhsk_rumbolovo_2014'
     }
 ];

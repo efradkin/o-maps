@@ -30,7 +30,7 @@ let events2023 = [
         endDate: '2023-01-08',
         place: 'Мичуринское, б/о "Мечта"',
         name: 'Рождественские старты',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/230108_RS/230107_RS_result_day1.htm',
         info: 'Традиционные Рождественские старты от клуба Норд Вест',
         owner: 'NW',
@@ -91,18 +91,19 @@ let events2023 = [
         endDate: '2023-01-22',
         place: 'Стеклянный',
         name: 'ЧиП СПб (ЛГ-спринт и ЛГ-классика)',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'http://sportident.online/ol/?id=1029',
         info: 'Чемпионат и Первенство Санкт-Петербурга. Межмуниципальные соревнования. Первенство СФСО Санкт-Петербурга. Программа: 21 января (суббота) — «Лыжная гонка‐спринт»; 22 января (воскресенье) — «Лыжная гонка‐классика».',
         owner: 'SFSO_SPB',
-        o_site: '230122'
+        o_site: '230122',
+        map: 'silande_winter_2024'
     },
     {
         id: 'SPB_20230128_1',
         date: '2023-01-28',
         name: 'Новогодний Маркир',
         place: 'Гарболово',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://reg.o-time.ru/start/23170',
         res: 'https://o-site.spb.ru/_races/230128/230128_res.pdf',
         strava: 8464270393,
@@ -114,18 +115,19 @@ let events2023 = [
         date: '2023-01-29',
         place: 'Стеклянный',
         name: 'Cоревнования Посвященные 79-й годовщине полного снятия блокады Ленинграда',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1494',
         res: 'https://o-site.spb.ru/_races/230129/230129_ResultList.htm',
         info: 'Региональные соревнования "Посвященные 79-й годовщине полного снятия блокады Ленинграда" Программа: 29 января (воскресенье) - лыжная гонка-маркированная трасса.',
-        o_site: '230129'
+        o_site: '230129',
+        map: 'silande_winter_2024'
     },
     {
         id: 'SPB_20230204_1',
         date: '2023-02-04',
         place: 'Кировск, полигон «Запруды»',
         name: 'Открытое первенство Кировского района ЛО',
-        type: 'ORIENT',
+        type: 'SKI',
         owner: 'SFSO_LO',
         o_site: '230204',
         map: 'kirovsk_winter_2024'
@@ -145,7 +147,7 @@ let events2023 = [
         date: '2023-02-05',
         place: 'Зеркальный',
         name: 'Чемпионат и Первенство Санкт-Петербурга, лг-маркированная трасса',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/230205/230205_res.htm',
         owner: 'SFSO_SPB',
         strava: 8508408303,
@@ -157,7 +159,7 @@ let events2023 = [
         endDate: '2023-02-12',
         place: 'Токсово',
         name: 'Первенство России',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/230213/230213_Vseros_res.pdf',
         photo: 'http://vk.com/album-30365190_291308622',
         video: 'https://www.youtube.com/watch?v=46IuiG56HUc',
@@ -169,18 +171,19 @@ let events2023 = [
         date: '2023-02-19',
         place: 'Зеркальный',
         name: 'Старты в Зеркальном',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1496',
         res: 'http://orgeo.ru/live/#/26782/1',
         video: 'https://www.youtube.com/watch?v=cO2KgOjGuS4',
-        o_site: '230219'
+        o_site: '230219',
+        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20230223_1',
         date: '2023-02-23',
         name: 'Первенство МО «Кировское городское поселение»',
         place: 'Кировск, полигон «Запруды»',
-        type: 'ORIENT',
+        type: 'SKI',
         o_site: '230223k',
         map: 'kirovsk_winter_2024'
     },
@@ -287,7 +290,7 @@ let events2023 = [
         date: '2023-03-11',
         name: 'Открытое Первенство МО «Кировск»',
         place: 'Кировск, полигон «Запруды»',
-        type: 'ORIENT',
+        type: 'SKI',
         o_site: '230311k',
         map: 'kirovsk_winter_2024'
     },
@@ -296,7 +299,7 @@ let events2023 = [
         date: '2023-03-12',
         name: 'Всеволожские вести',
         place: 'Токсово, база ВИФК',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://orgeo.ru/event/info/27165',
         info: 'СОРЕВНОВАНИЯ ОТМЕНЕНЫ !!!',
         start: 'VSEV_VESTI',
@@ -308,7 +311,7 @@ let events2023 = [
         date: '2023-03-14',
         name: 'Чемпионат России',
         place: 'Архангельск',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/230314/230318_res_of_VS.pdf',
         o_site: '230314',
         start: 'RUSSIA_CHAMP'
@@ -316,7 +319,7 @@ let events2023 = [
     {
         id: 'SPB_20230318_1',
         date: '2023-03-18',
-        name: 'Веселый ветер - 2023',
+        name: 'Веселый ветер',
         place: 'Пушкин',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/vveter23',
@@ -363,7 +366,8 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/27702',
         res: 'https://o-site.spb.ru/_races/230402/230402_res.htm',
         strava: 8818009842,
-        o_site: '230402'
+        o_site: '230402',
+        map: 'gatchina_prioratsky_2021'
     },
     {
         id: 'SPB_20230408_1',
@@ -374,7 +378,8 @@ let events2023 = [
         fmt: '1',
         strava: 8853074533,
         res: 'https://o-site.spb.ru/_races/230312_VV/230408_res.html',
-        o_gps: 15533
+        o_gps: 15533,
+        map: 'shuvalovsky_rogaine_2024'
     },
     {
         id: 'SPB_20230408_2',
@@ -384,7 +389,8 @@ let events2023 = [
         type: 'ORIENT',
         fmt: 'спринт',
         strava: 8851858533,
-        info: 'Разбор дистанции https://m.vk.com/@white_nights_club_spb-gruppa-m'
+        info: 'Разбор дистанции https://m.vk.com/@white_nights_club_spb-gruppa-m',
+        map: 'olimpia_2023'
     },
     {
         id: 'SPB_20230409_1',
@@ -500,7 +506,8 @@ let events2023 = [
         strava: 8977074012,
         type: 'ORIENT',
         owner: 'WN',
-        reskeep: 574
+        reskeep: 574,
+        map: 'kavgolovo_old_ski_track_2023'
     },
     {
         id: 'SPB_20230430_1',
@@ -512,7 +519,8 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/230430_kur/230430_rez.htm',
         o_site: '230430_kur',
         strava: 8982825410,
-        reskeep: 575
+        reskeep: 575,
+        map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
     {
         id: 'SPB_20230501_1',
@@ -577,7 +585,8 @@ let events2023 = [
         video: 'https://www.youtube.com/watch?v=3tC8yAoq-2Y',
         o_site: '230509',
         strava: 9038712842,
-        reskeep: 576
+        reskeep: 576,
+        map: 'tsvelodubovo_south_2021'
     },
     {
         id: 'SPB_20230510_1',
@@ -610,7 +619,8 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/participants/26751',
         owner: 'LM',
-        o_site: '230513r'
+        o_site: '230513r',
+        map: 'gorodok_lm_2023'
     },
     {
         id: 'SPB_20230513_2',
@@ -632,7 +642,8 @@ let events2023 = [
         res: 'http://orgeo.ru/live/#/28059',
         info: 'Первенство Пушкинского р-на по спортивному ориентированию «Царскосельский Азимут» ВНИМАНИЕ!!! Ограничения движения транспортных средств в связи с проведением легкоатлетического пробега «Царскосельский марафон» 14 мая 2021 14 мая в связи с проведением легкоатлетического пробега «Царскосельский марафон» в г. Пушкин движение транспортных средств будет прекращено: - с 7.00 до 13.00 по Садовой ул. в направлении от Парковой ул. к Оранжерейной ул. и Парковой ул. от Красносельского шоссе до Садовой ул. - с 07.00 до 15.00 по Петербургскому шоссе в направлении от Октябрьского бульвара к Детскосельскому бульвару, Дворцовой ул., Садовой ул. от Дворцовой ул. до Оранжерейной ул., Парковой ул. от Красносельского шоссе до дороги на Александровку, по дороге на Александровку и Кузьминскому шоссе.',
         strava: 9068508402,
-        o_site: '230513'
+        o_site: '230513',
+        map: 'pushkin_babolovsky_2019'
     },
     {
         id: 'SPB_20230517_1',
@@ -677,7 +688,8 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/28305',
         res: 'http://orgeo.ru/live/#/28918',
         info: 'Открытый кубок МО г.Колпино по спортивному ориентированию',
-        o_site: '230520_kolpino'
+        o_site: '230520_kolpino',
+        map: 'kolpino_chuhonka_2020'
     },
     {
         id: 'SPB_20230520_3',
@@ -690,7 +702,8 @@ let events2023 = [
         owner: 'SFSO_SPB',
         o_site: '230520',
         strava: 9105042997,
-        reskeep: 577
+        reskeep: 577,
+        map: 'akademicheskaya_2023'
     },
     {
         id: 'SPB_20230521_1',
@@ -703,7 +716,8 @@ let events2023 = [
         owner: 'SFSO_SPB',
         o_site: '230521_RA',
         strava: 9112152704,
-        reskeep: 579
+        reskeep: 579,
+        map: 'kurakina_dacha_2023'
     },
     {
         id: 'SPB_20230526_1',
@@ -825,6 +839,7 @@ let events2023 = [
         place: 'Карелия',
         name: 'RED FOX ADVENTURE RACE',
         type: 'MULTI',
+        start: 'RFAR',
         video: [
             'https://www.youtube.com/watch?v=UmmPgNz1nEc',
             'https://www.youtube.com/watch?v=6SVH_VBHXcY',
@@ -835,7 +850,8 @@ let events2023 = [
         ],
         fmt: '48',
         res: 'https://adventure-race.redfox.ru/archive/archive_2023/results/',
-        o_gps: 16300
+        o_gps: 16300,
+        map: 'soujarvi_rfar_2023'
     },
     {
         id: 'SPB_20230612_1',
@@ -1045,7 +1061,8 @@ let events2023 = [
         date: '2023-06-23',
         name: 'Тренировочный старт',
         place: 'оз Горица',
-        video: 'https://www.youtube.com/watch?v=9WNKrGr3wag'
+        video: 'https://www.youtube.com/watch?v=9WNKrGr3wag',
+        map: 'kkp_goritsa_2014_06_26'
     },
     {
         id: 'SPB_20230623_1',
@@ -1437,7 +1454,8 @@ let events2023 = [
         owner: 'SFSO_SPB',
         o_site: '230910',
         strava: 9821070571,
-        reskeep: 618
+        reskeep: 618,
+        map: 'kanneljarvi_2023'
     },
     {
         id: 'SPB_20230910_2',
@@ -1556,7 +1574,8 @@ let events2023 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230925/230922_res.htm',
         info: '25 сентября - спринт. Старт в 10.30',
-        o_site: '230925'
+        o_site: '230925',
+        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20230923_1',
@@ -1730,7 +1749,8 @@ let events2023 = [
         type: 'ORIENT',
         info: 'Проходит при поддержке: ДоДо Пицца',
         strava: 10035784170,
-        o_site: '231014_PZVP'
+        o_site: '231014_PZVP',
+        map: 'sestroretskie_detskie_djuny_2020'
     },
     {
         id: 'SPB_20231014_3',
@@ -1810,7 +1830,8 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/211023_50Verst/result_50_verst.htm',
         video: 'https://www.youtube.com/watch?v=4AEOH9mFkNU',
         info: 'IV клубная ночная эстафета 50 ВЁРСТ',
-        o_site: '211023_50Verst'
+        o_site: '211023_50Verst',
+        map: 'kanneljarvi_2023'
     },
     {
         id: 'SPB_20231022_1',
@@ -1824,7 +1845,8 @@ let events2023 = [
         video: 'https://www.youtube.com/watch?v=7qIqG0FqbH4',
         o_site: '231022_perv_NW',
         strava: 10083310628,
-        reskeep: 624
+        reskeep: 624,
+        map: 'kanneljarvi_2023'
     },
     {
         id: 'SPB_20231022_2',
@@ -1836,7 +1858,8 @@ let events2023 = [
         res: 'http://sportident.online/ol/?id=1493',
         owner: 'SFSO_SPB',
         o_site: '231022',
-        reskeep: 625
+        reskeep: 625,
+        map: 'kanneljarvi_2023'
     },
     {
         id: 'SPB_20231024_1',
@@ -1912,7 +1935,8 @@ let events2023 = [
         strava: 10124307608,
         logo: 'azimut.gif',
         o_site: '231029',
-        reskeep: 617
+        reskeep: 617,
+        map: 'serovo_2024'
     },
     {
         id: 'SPB_20231101_1',
@@ -1939,7 +1963,8 @@ let events2023 = [
         video: ['https://www.youtube.com/watch?v=4-RZFClk0FY','https://www.youtube.com/watch?v=oUmx_E2DtAA'],
         logo: 'azimut.gif',
         o_site: '231104_OM',
-        reskeep: 626
+        reskeep: 626,
+        map: 'snegirevka_2021'
     },
     {
         id: 'SPB_20231105_1',
@@ -2011,7 +2036,8 @@ let events2023 = [
         owner: 'SFSO_LO',
         o_site: '231112_LO',
         strava: 10204714151,
-        reskeep: 627
+        reskeep: 627,
+        map: 'petjajarvy_2024'
     },
     {
         id: 'SPB_20231119_1',
@@ -2046,7 +2072,8 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/denmateri23',
         res: 'https://o-site.spb.ru/_races/231125/231125_rez.htm',
-        o_site: '231125'
+        o_site: '231125',
+        map: 'poljustrovo_2023'
     },
     {
         id: 'SPB_20231126_1',
@@ -2164,7 +2191,8 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/32173',
         res: 'https://o-site.spb.ru/_races/2023_bn_moroz/231224_res.htm',
-        o_site: '2023_bn_moroz'
+        o_site: '2023_bn_moroz',
+        map: 'kavgolovo_old_ski_track_2023'
     },
     {
         id: 'SPB_20231230_1',

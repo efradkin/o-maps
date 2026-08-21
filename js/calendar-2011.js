@@ -762,7 +762,8 @@ let events2011 = [
         place: 'Зеркальный',
         name: 'СТАРТЫ в ЗЕРКАЛЬНОМ',
         type: 'ORIENT',
-        o_site: '111007-10'
+        o_site: '111007-10',
+        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20111008_1',

@@ -603,7 +603,8 @@ let vyborgMaps = [
     },
     {
         name: 'Гвардейское',
-        url: './maps/forest/vyborg/gvardeyskoe.webp',
+        year: 2004,
+        url: './maps/forest/vyborg/gvardeyskoe_2004.webp',
         bounds: [[60.8131366, 28.9081192], [60.8099763, 28.9474726], [60.7916153, 28.9002657]],
         author: ['KVZN','NSNV'],
         owner: 'VYBORG'

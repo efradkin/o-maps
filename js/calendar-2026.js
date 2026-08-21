@@ -12,7 +12,8 @@ let events2026 = [
         o_gps: 24008,
         owner: 'WN',
         strava: 16932346660,
-        me: 'МА'
+        me: 'МА',
+        map: 'sestroretsk_tamozhennaya_doroga_2021'
     },
     {
         id: 'SPB_20260106_1',
@@ -614,7 +615,7 @@ let events2026 = [
         planner: 'RDNV_I',
         map: 'serovo_2024',
         strava: 17899008083,
-        me: 'МА'
+        me: 'МА',
     },
     {
         id: 'SPB_20260329_2',

@@ -1135,7 +1135,8 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1057',
         res: 'https://o-site.spb.ru/_races/190804/Wbefore60.pdf',
         info: '4 августа в районе Линдуловской рощи (Выборгский р-н, Ленобласть), где в далёком 1959-м году прошли самые первые официальные соревнования по ориентированию, пройдёт настоящий ретро-старт – по адаптированной чёрно-белой карте старого формата рисовки и с отметкой карандашом в карточке! Всё как в старые добрые времена!',
-        o_site: '190804'
+        o_site: '190804',
+        map: 'sosnovaya_polyana_roschinka_2020'
     },
     {
         id: 'SPB_20190810_1',
@@ -1469,12 +1470,13 @@ let events2019 = [
     {
         id: 'SPB_20190929_1',
         date: '2019-09-29',
-        name: 'Старты в Зеркальном 2019',
+        name: 'Старты в Зеркальном',
         place: 'Зеркальный',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1085',
         res: 'https://o-site.spb.ru/_races/190926-30/190927_RES.htm',
-        o_site: '190926-30'
+        o_site: '190926-30',
+        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20190929_2',
@@ -1949,7 +1951,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191222_bn/191222_res1.htm',
         o_site: '191222_bn',
         reskeep: 293,
-        strava: 2949194183
+        strava: 2949194183,
+        map: 'kavgolovo_2017'
     },
     {
         id: 'SPB_20191229_1',
