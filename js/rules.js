@@ -116,9 +116,9 @@ let rules = [
         lng: 'en'
     },
     {
-        name: 'International Specification for Indoor Orienteering Maps (ISInOM), draft v5',
-        year: 2025,
-        url: './rules/iof_isinom_draft_v5_omaps.pdf',
+        name: 'International Specification for Indoor Orienteering Maps (ISInOM), PRE-PRINT rev 6.7.3',
+        year: 2026,
+        url: ['./rules/iof_isinom_2026_6.7.3_omaps.pdf','./rules/iof_isinom_2026_6.7.3_omaps.ocd','./rules/iof_isinom_2026_6.7.3_omaps.omap'],
         owner: 'IOF',
         lng: 'en'
     },

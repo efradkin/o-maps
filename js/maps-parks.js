@@ -1761,12 +1761,12 @@ let parkMaps = [
         name: 'Тихий отдых',
         year: 2026,
         url: './maps/parks/tikhy_otdyh_2026.webp',
-        link: './original_maps/parks/tikhy_otdyh_2026_omaps.webp',
+        link: ['./original_maps/parks/tikhy_otdyh_2026_omaps.webp','./original_maps/parks/tikhy_otdyh_2026_pictures.pdf'],
         bounds: [[59.9814393, 30.2850795], [59.9798075, 30.2999711], [59.9771558, 30.2833843]],
         owner: 'SHRNN',
         author: 'SHRNN',
         editor: 'MSLVA',
-        type: ['PARK']
+        type: ['PARK','FOTO']
     },
     {
         name: 'Стрельна, Константиновский парк',

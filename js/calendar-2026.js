@@ -2220,6 +2220,7 @@ let events2026 = [
         reg: 'https://forms.yandex.ru/u/6a56275e49af4739c8c78f26/',
         place: 'Полежаевский парк',
         photo: 'https://cloud.mail.ru/public/ZHsn/b8vBJMjqT',
+        o_gps: 25761,
         type: 'ORIENT',
         map: 'polezhaevsky_south_2021'
     },
@@ -2252,6 +2253,7 @@ let events2026 = [
         place: 'парк Интернационалистов',
         link: 'https://vk.ru/wall-30686281_25066',
         reg: 'https://forms.yandex.ru/u/6a80bcdd95add55c0d9988bc/',
+        o_gps: 25775,
         type: 'ORIENT',
         map: 'internatsionalistov_2021',
         owner: 'FRUNZ_SPORT'
