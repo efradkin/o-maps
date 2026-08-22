@@ -595,6 +595,19 @@ let otherMaps = [
         me: '+'
     },
     {
+        name: 'Пермь',
+        date: '2001-08-25',
+        url: './maps/other/perm_rrc_2001.webp',
+        link: './original_maps/other/perm_rrc_2001_omaps.webp',
+        info: '1-й Чемпионат России по рогейну (<a href="https://t.me/rogainomania/1550">карта</a>, <a href="https://t.me/rogainomania/1551">результаты</a>, <a href="https://t.me/rogainomania/1556">отметка</a>, <a href="https://t.me/rogainomania/1558">впечатления</a>).',
+        results: 'https://rogaining.ru/results/rrc-results/1rrc-results.html',
+        planner: 'SHSTKV_G',
+        bounds: [[57.9982743, 56.2966919], [58.0001846, 56.6293716], [57.8721488, 56.3006401]],
+        type: ['ROGAINE'],
+        region: 'PERM',
+        major: true
+    },
+    {
         name: 'Южный лес',
         date: '2024-10-13',
         url: './maps/other/south_forest_rogaine_2024.webp',

@@ -261,7 +261,7 @@ function buildTrackPopup(t, gpxLayer) {
         info += t.info;
     }
     if (t.results) {
-        info += '<a href="' + t.results + '"> Результаты</a>.';
+        info += ' <a href="' + t.results + '">Результаты</a>.';
     }
     // Картинки
     if (t.pics) {
@@ -1326,7 +1326,7 @@ function buildMapPopup(m) {
         if (e.res) mapResults.push(e.res);
     }
     if (mapResults.length > 0) {
-        info += buildLinksWithLabel(mapResults, 'Результаты');
+        info += ` ${buildLinksWithLabel(mapResults, 'Результаты')}`;
     } else {
         info += buildEventResults(m);
     }

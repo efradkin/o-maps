@@ -156,9 +156,17 @@ function safe(s) {
 
 function pushItems(array, items) {
     if (Array.isArray(items)) {
-        array.push(...items);
+        for (const i of items) {
+            pushOneItem(array, i);
+        }
     } else {
-        array.push(items);
+        pushOneItem(array, items);
+    }
+}
+
+function pushOneItem(array, item) {
+    if (!array.includes(item)) {
+        array.push(item);
     }
 }
 

@@ -103,6 +103,7 @@ let planners = {
     SHLKV_L: { name: 'Шельков Л' },
     SHRNN: { name: 'Ширинян Александр' },
     SHRPV_V: { name: 'Шарапов Владимир' },
+    SHSTKV_G: { name: 'Шестаков Герман' }, // Николаевич
     SHVR: { name: 'Швер Евгений' },
     SGLDA: { name: 'Сагаледа Н' },
     SKLV_B: { name: 'Соколов Борис' },
