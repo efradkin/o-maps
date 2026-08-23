@@ -288,6 +288,7 @@ let events2019 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190407/190407_split.html',
         o_site: '190407',
+        map: 'romanovka_2013',
         reskeep: 111
     },
     {
@@ -1506,7 +1507,8 @@ let events2019 = [
         name: 'Открытое первенство по трейл-ориентированию',
         type: 'ORIENT',
         info: 'Открытое Первенство среди обучающихся школьных спортивных клубов образовательных учреждений Санкт-Петербурга.',
-        o_site: '191004'
+        o_site: '191004',
+        map: 'kurakina_dacha_2017'
     },
     {
         id: 'SPB_20191005_1',

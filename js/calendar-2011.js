@@ -1006,7 +1006,8 @@ let events2011 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111218/111218_res2.PDF',
         video: 'https://www.youtube.com/watch?v=5--a9ZZH1Lw',
-        o_site: '111218'
+        o_site: '111218',
+        map: 'bugry_2011'
     },
     {
         id: 'SPB_20111222_1',

@@ -1042,7 +1042,8 @@ let events2009 = [
         name: 'Всеволожская тропа, 3-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/081223/090223_res.htm',
-        o_site: '081223'
+        o_site: '081223',
+        map: 'rakhja_south_2007'
     },
     {
         id: 'SPB_20091226_1',

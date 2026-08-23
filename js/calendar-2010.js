@@ -436,6 +436,7 @@ let events2010 = [
         info: '52-й ЛЕТНИЙ ЧЕМПИОНАТ и ПЕРВЕНСТВО САНКТ-ПЕТЕРБУРГА по СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ БЕГОМ, классическая дистанция.',
         owner: 'SFSO_SPB',
         o_site: '100529_1',
+        map: 'sosnovo_kalanchevka_2010',
         reskeep: 250
     },
     {
@@ -1006,7 +1007,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/101205_Az/101205_res.htm',
         info: 'Традиционный старт КСО Азимут',
         logo: 'azimut.gif',
-        o_site: '101205_Az'
+        o_site: '101205_Az',
+        map: 'pesochnaya_2005'
     },
     {
         id: 'SPB_20101212_1',

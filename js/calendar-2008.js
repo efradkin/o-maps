@@ -840,7 +840,8 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/090419_VT/081130_res.htm',
         info: '5-ти этапные соревнования',
         o_site: '090419_VT',
-        endDate: '2008-11-30'
+        endDate: '2008-11-30',
+        map: 'proba'
     },
     {
         id: 'SPB_20081102_1',

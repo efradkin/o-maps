@@ -806,6 +806,7 @@ let eventsEarly = [
         place: 'Юкки, Песочная, Ильичёво',
         name: 'Летняя Универсиада Ленинграда',
         planner: ['SGLDA','OSMCHN','BRSV_V','SHRNN','PNKRTV_N'],
+        map: 'pesochnaya_1986',
         res: './docs/1988/1988_05_20_universiada_omaps.pdf'
     },
     {
@@ -833,7 +834,8 @@ let eventsEarly = [
         start: 'ORIENTIR',
         me: 'МB',
         planner: 'SLVVA_L',
-        res: './docs/1988/1988_05_25_orientir_5_omaps.pdf'
+        res: './docs/1988/1988_05_25_orientir_5_omaps.pdf',
+        map: 'novoorlovsky_1989'
     },
     {
         id: 'SPB_19880602_1',
@@ -1330,7 +1332,8 @@ let eventsEarly = [
         name: 'Ориентир-18',
         start: 'ORIENTIR',
         planner: 'TMKV_G',
-        res: './docs/1989/1989_08_30_orientir_18_omaps.pdf'
+        res: './docs/1989/1989_08_30_orientir_18_omaps.pdf',
+        map: 'novoorlovsky_1989'
     },
     {
         id: 'SPB_19890902_1',
@@ -1397,6 +1400,7 @@ let eventsEarly = [
         name: 'Ориентир-20',
         start: 'ORIENTIR',
         planner: 'VSLVSKY',
+        map: 'pesochnaya_1986',
         res: './docs/1989/1989_09_24_orientir_20_omaps.pdf'
     },
     {
@@ -1983,7 +1987,8 @@ let eventsEarly = [
         place: 'Орловский л/п',
         name: 'Приз Ленинградского телевидения',
         planner: 'FDRV_L',
-        res: './docs/1991/1991_05_11_tv_omaps.pdf'
+        res: './docs/1991/1991_05_11_tv_omaps.pdf',
+        map: 'novoorlovsky_1989'
     },
     {
         id: 'SPB_19910519_1',
@@ -2042,7 +2047,8 @@ let eventsEarly = [
         name: 'Ориентир-8',
         start: 'ORIENTIR',
         map: 'orientir_1991_06_08',
-        res: './docs/1991/1991_06_05_orientir_8_omaps.pdf'
+        res: './docs/1991/1991_06_05_orientir_8_omaps.pdf',
+        map: 'novoorlovsky_1989'
     },
     {
         id: 'SPB_19910608_1',
@@ -2173,6 +2179,7 @@ let eventsEarly = [
         me: 'H-A',
         start: 'ORIENTIR',
         map: 'orientir_1991_08_28',
+        map: 'pesochnaya_1986',
         res: './docs/1991/1991_08_28_orientir_22_omaps.pdf'
     },
     {

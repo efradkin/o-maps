@@ -410,7 +410,8 @@ let events2023 = [
         name: 'Noname Sprint Tour SPb 2023 - 1 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 570
+        reskeep: 570,
+        map: 'smolenka_2014'
     },
     {
         id: 'SPB_20230415_1',

@@ -570,7 +570,8 @@ let events2005 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050924_AzNight/050924_res.zip',
         logo: 'azimut.gif',
-        o_site: '050924_AzNight'
+        o_site: '050924_AzNight',
+        map: 'pesochnaya_2005'
     },
     {
         id: 'SPB_20050925_1',

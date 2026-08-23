@@ -544,7 +544,7 @@ let cityMaps = [
         type: ['CITY']
     },
     {
-        name: 'ЦФКиЗ Московского р-на',
+        name: 'ЦФКСиЗ Московского р-на',
         year: 2016,
         url: './maps/city/tsfkiz_moskovsky_2016.webp',
         link: './original_maps/city/tsfkiz_moskovsky_2016_omaps.jpg',

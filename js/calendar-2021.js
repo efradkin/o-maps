@@ -696,7 +696,8 @@ let events2021 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 432,
-        strava: 5285445291
+        strava: 5285445291,
+        map: 'sakharova_2015'
     },
     {
         id: 'SPB_20210513_1',
@@ -1557,6 +1558,10 @@ let events2021 = [
         video: 'http://www.northernwind.spb.ru/videosplit/2021/chspbs_middle/',
         owner: 'SFSO_SPB',
         o_site: '210919',
+        o_gps: {
+            'М45':11009,
+            'ALL':10963
+        },
         reskeep: 491,
         strava: 5986357953,
         map: 'veschevo_2021'

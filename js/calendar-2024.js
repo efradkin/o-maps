@@ -1763,7 +1763,8 @@ let events2024 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/37551',
         start: 'OKINCHITSA',
-        o_site: '241005-06'
+        o_site: '241005-06',
+        map: 'kamenka_2015'
     },
     {
         id: 'SPB_20241005_4',

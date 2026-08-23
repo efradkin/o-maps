@@ -1161,7 +1161,11 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'классика, эстафета 3х',
         o_site: '250608_Ch_P',
-        o_gps: 22800,
+        o_gps: {
+            'МЭ': 22800,
+            'ЖЭ': 22794,
+            'М55': 22826
+        },
         reskeep: [705, 706, 707],
         owner: 'SFSO_SPB',
         photo: [

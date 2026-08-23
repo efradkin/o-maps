@@ -2291,6 +2291,7 @@ let events2026 = [
         o_site: '260829',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1748',
         fmt: 'спринт-масстарт',
+        map: 'leypjasuo_2014',
         owner: 'SFSO_LO'
     },
     {

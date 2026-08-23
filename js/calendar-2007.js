@@ -931,7 +931,8 @@ let events2007 = [
         name: 'Ночные эстафеты',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/071027/071027_res.htm',
-        o_site: '071027'
+        o_site: '071027',
+        map: 'pesochnaya_2005'
     },
     {
         id: 'SPB_20071027_2',
