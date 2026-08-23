@@ -1098,15 +1098,17 @@ let events2025 = [
         id: 'SPB_20250531_4',
         date: '2025-05-31',
         place: 'Петергоф, Английский парк',
-        name: 'Кольцо Юго-Запада',
+        name: 'Александрийские Субботники',
         fmt: '1',
         type: 'ROGAINE',
         link: 'https://vk.com/wall-199133936_3955',
         o_gps: 22733,
-        res: 'https://vk.com/wall-199133936_3994',
+        res: 'https://vk.ru/wall-223882264_433',
+        photo: ['https://vk.ru/album-199133936_308944374','https://vk.ru/album-199133936_308944367'],
         map: 'english_2010',
         strava: 14650299222,
-        me: 'М'
+        me: 'М',
+        owner: 'SUBBOTNIK'
     },
     {
         id: 'SPB_20250531_5',

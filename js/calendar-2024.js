@@ -789,12 +789,18 @@ let events2024 = [
     {
         id: 'SPB_20240525_3',
         date: '2024-05-25',
-        place: 'Петергоф',
+        place: 'Петергоф, Александрийский парк',
         name: 'Александрийские субботники',
+        link: 'https://vk.ru/wall-199133936_3614',
+        res: 'https://vk.ru/wall-199133936_3626',
+        photo: ['https://vk.ru/album-223882264_303469762','https://vk.ru/album-223882264_303455152','https://vk.ru/album-199133936_304443109','https://vk.ru/album-199133936_304122970'],
         type: 'ROGAINE',
-        fmt: '1.0',
+        fmt: '1',
+        me: 'M',
         strava: 11491875845,
-        o_gps: 19543
+        o_gps: 19543,
+        owner: 'SUBBOTNIK',
+        map: 'aleksandrijsky_2010'
     },
     {
         id: 'SPB_20240525_4',

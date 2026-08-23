@@ -1353,6 +1353,17 @@ let events2020 = [
         link: 'https://vk.com/club190501849'
     },
     {
+        id: 'SPB_20201010_3',
+        date: '2020-10-10',
+        place: 'Петергоф, Александрийский парк',
+        name: 'Александрийские субботники',
+        o_gps: 8282,
+        type: 'ROGAINE',
+        fmt: '1',
+        owner: 'SUBBOTNIK',
+        map: 'aleksandrijsky_2010'
+    },
+    {
         id: 'SPB_20201011_1',
         date: '2020-10-11',
         place: 'Осиновая Роща',
@@ -1534,6 +1545,20 @@ let events2020 = [
         name: 'Техника и тактика. 7 этап',
         type: 'ORIENT',
         reskeep: 391
+    },
+    {
+        id: 'SPB_20201107_3',
+        date: '2020-11-07',
+        place: 'Петергоф, Александрийский парк',
+        name: 'Александрийские субботники',
+        link: 'https://vk.ru/wall-199133936_66',
+        res: 'https://vk.ru/wall-199133936_137',
+        photo: ['https://vk.ru/album-199133936_277354133','https://vk.ru/album-199133936_277327039'],
+        o_gps: 8493,
+        type: 'ROGAINE',
+        fmt: '1',
+        owner: 'SUBBOTNIK',
+        map: 'aleksandrijsky_2010'
     },
     {
         id: 'SPB_20201108_1',

@@ -681,7 +681,7 @@ let parkMaps = [
         startYear: 2022,
         month: 12,
         start: 'RED_SELO_FOTO',
-        url: './maps/parks/aleksandrijsky.webp',
+        url: './maps/parks/aleksandrijsky_2010.webp',
         link: ['./original_maps/parks/aleksandrijsky_park_2010_omaps.gif','./original_maps/fun/aleksandrijsky_foto_2022_omaps.pdf','./original_maps/fun/aleksandrijsky_foto_2022_pictures.pdf'],
         bounds: [[59.8781919, 29.9196768], [59.8776534, 29.946413], [59.8633283, 29.9182177]],
         author: ['FDRV_L','LSNNKV','NKFRV_A','BLZRV_V'],

@@ -1264,6 +1264,19 @@ let events2021 = [
         link: 'https://vk.com/event166397868'
     },
     {
+        id: 'SPB_20210731_1',
+        date: '2021-07-31',
+        place: 'Петергоф, Александрийский парк',
+        name: 'Александрийские субботники',
+        link: 'https://vk.ru/wall-199133936_1797',
+        photo: 'https://vk.ru/album-199133936_282049364',
+        o_gps: 10626,
+        type: 'ROGAINE',
+        fmt: '1',
+        owner: 'SUBBOTNIK',
+        map: 'aleksandrijsky_2010'
+    },
+    {
         id: 'SPB_20210801_1',
         date: '2021-08-01',
         place: 'Сосново',

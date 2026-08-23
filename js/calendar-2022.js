@@ -1233,6 +1233,19 @@ let events2022 = [
         map: 'chudovo_rogaine_2022'
     },
     {
+        id: 'SPB_20220820_3',
+        date: '2022-08-20',
+        place: 'Петергоф, Александрийский парк',
+        name: 'Александрийские субботники',
+        link: 'https://vk.ru/wall-199133936_2733',
+        res: 'https://vk.ru/wall-199133936_2741',
+        photo: 'https://vk.ru/album-199133936_287460465',
+        type: 'ROGAINE',
+        fmt: '1',
+        owner: 'SUBBOTNIK',
+        map: 'aleksandrijsky_2010'
+    },
+    {
         id: 'SPB_20220821_1',
         date: '2022-08-21',
         place: 'Воейково',

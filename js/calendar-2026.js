@@ -2297,10 +2297,14 @@ let events2026 = [
     {
         id: 'SPB_20260829_2',
         date: '2026-08-29',
-        name: 'Кольцо Юго-Запада',
-        link: 'https://vk.ru/sw_ring',
-        place: 'Петергоф',
+        name: 'Александрийские Субботники',
+        link: 'https://vk.ru/wall-199133936_4296',
+        reg: 'https://docs.google.com/forms/d/e/1FAIpQLSfwRvKkKZ6PVaASgi_M2dOpFH4fn1_dUINVPiFp44hk0RpbfA/viewform',
+        place: 'Петергоф, Александрийский парк',
         type: 'ROGAINE',
+        fmt: '1',
+        map: 'aleksandrijsky_2010',
+        owner: 'SUBBOTNIK'
     },
     {
         id: 'SPB_20260830_1',

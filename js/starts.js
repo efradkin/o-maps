@@ -774,6 +774,11 @@ let starts = {
         name: '<a href="https://spbrun.run/">Спортивный Петербург</a>',
         logo: 'spb_sport.gif'
     },
+    SW_RING: {
+        short: 'Кольцо Юго-Запада',
+        name: '<a href="https://vk.ru/sw_ring">Кольцо Юго-Запада</a>',
+        logo: 'sw_ring.webp'
+    },
     SOTKA: {
         short: 'Сотка',
         name: '<a href="https://sotka.one">Сотка</a>',

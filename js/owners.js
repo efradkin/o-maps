@@ -708,6 +708,10 @@ let owners = {
         name: '@ <a href="http://fizkult-frunz.ru/">ЦФКСиЗ Фрунзенского р-она</a>',
         logo: 'fizkultfrunz.webp'
     },
+    SUBBOTNIK: {
+        name: '@ <a href="https://vk.ru/subbotnikipetergof">ッ Александрийские Субботники</a>',
+        logo: 'subbotnikipetergof.webp'
+    },
 
     /* --- КНИГИ --- */
     BLAGOVO: {
