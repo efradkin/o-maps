@@ -611,6 +611,7 @@ let commonEvents2026 = [
         start: 'RUSSIA_ROGAINE_CHAMP',
         owner: 'MULTSPORT',
         map: 'kalinino_2015',
+        o_gps: 25811,
         coord: [60.818448, 28.610489]
     },
     {

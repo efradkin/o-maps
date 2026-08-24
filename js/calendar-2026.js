@@ -2273,6 +2273,20 @@ let events2026 = [
         map: ['vozrozhdenie_2024','vozrozhdenie_2026']
     },
     {
+        id: 'SPB_20260826_1',
+        date: '2026-08-26',
+        name: 'Отборочный старт СФСО СПб, Длительная серия 4-й этап',
+        place: 'Пески',
+        o_site: '260826',
+        reg: 'http://orgeo.ru/event/54766',
+        info: '+ тренировочный дистанции.',
+        type: 'ORIENT',
+        owner: ['DLITELNY','SFSO_SPB'],
+        map: 'peski_2026',
+        coord: [60.482621, 30.414405],
+        planner: 'KSHN_D'
+    },
+    {
         id: 'SPB_20260827_1',
         date: '2026-08-27',
         name: 'Отборочный старт Центра «Академия талантов»',

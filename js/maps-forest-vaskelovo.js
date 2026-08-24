@@ -654,7 +654,8 @@ let vaskelovoMaps = [
         calendar: 'SPB_20260626_1',
         author: ['BRGNTS','VSLV_S','VRBY'],
         owner: 'SFSO_LO',
-        start: 'MMS'
+        start: 'MMS',
+        page: 'spb'
     },
     {
         name: 'СНТ Топограф',
