@@ -480,6 +480,14 @@ let vyborgMaps = [
         owner: 'NW'
     },
     {
+        name: 'Возрождение',
+        year: 2026,
+        url: './maps/forest/vyborg/vozrozhdenie_2026.webp',
+        bounds: [[60.8549654, 28.8885069], [60.8533142, 28.9034843], [60.8454960, 28.8839149]],
+        author: ['VRBY','VSLV_S'],
+        owner: 'NW'
+    },
+    {
         name: 'г Величка',
         year: 2024,
         url: './maps/forest/vyborg/velichka_2024.webp',
