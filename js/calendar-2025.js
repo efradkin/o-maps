@@ -944,7 +944,7 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/43938',
-        results: 'https://t.me/KuzmolovoDragons/26',
+        res: 'https://t.me/KuzmolovoDragons/26',
         reskeep: 688,
         start: 'ST',
         planner: 'GRLNV',

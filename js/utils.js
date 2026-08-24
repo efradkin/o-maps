@@ -698,7 +698,7 @@ function buildLink(link, content, title, allItems, isDownload) {
                 let result = '';
                 for (const l of link) {
                     if (title === 'Видео') {
-                        content = `<img class="media-link" src="./images/${getVideoImg(l)}" alt="Видео">`;
+                        content = `<img class="media-link" src="./images/${getVideoImg(l)}" alt="Видео" title="Видео" class="sheet-icon">`;
                     }
                     result += ' ' + buildOneLink(l, content, title, isDownload);
                 }
@@ -729,7 +729,7 @@ function buildOneLink(link, content, title, isDownload) {
     } else if (content === 'Telegram') {
         contentImage = 'telegram.webp';
     } else if (content === 'O-Site') {
-        contentImage = 'o-site.gif';
+        contentImage = 'o-site-r.gif';
     } else if (content === 'Orgeo') {
         contentImage = 'orgeo.webp';
     } else if (content === 'O-Reg') {
@@ -740,7 +740,7 @@ function buildOneLink(link, content, title, isDownload) {
         contentImage = 'multsport.webp';
     }
     if (contentImage) {
-        content = `<img src="./images/${contentImage}" alt="${content}" class="sheet-icon">`;
+        content = `<img src="./images/${contentImage}" alt="${content}" title="${content}" class="sheet-icon">`;
     }
     if (link) {
         if (title) {
@@ -800,7 +800,7 @@ function buildGpsLinksForEvents(events, img) {
     return result;
 }
 
-function buildGpsLinks(m, img, calendar) {
+function buildGpsLinks(m, img, calendar, inline) {
     let result = '';
     let gps = getGPS(m);
     if (!gps && calendar) {
@@ -816,7 +816,7 @@ function buildGpsLinks(m, img, calendar) {
                 }
             }
         } else {
-            result += buildLink(gps, '<img class="media-link" src="./images/' + (img ?? 'url-file.png') +'" alt="GPS">');
+            result += buildLink(gps, `<img class="${inline ? 'sheet-icon' : 'media-link'}" src="./images/${img ?? 'url-file.png'}" alt="GPS">`);
         }
     }
     return result;
@@ -1473,6 +1473,16 @@ function findEvent(evtID) {
 
 const EVENTS_FOR_MAPS_CACHE = {};
 
+function sortEvents(events) {
+    events.sort((b, a) => {
+        let compare = dateForCompare(a) - dateForCompare(b);
+        if (compare === 0 && a.id && b.id) {
+            compare = a.id.localeCompare(b.id);
+        }
+        return compare
+    });
+}
+
 function findEventsForMap(m, withMap, start) {
     let result = [];
     const mapName = getMapName(m);
@@ -1499,6 +1509,7 @@ function findEventsForMap(m, withMap, start) {
             EVENTS_FOR_MAPS_CACHE[mapName] = [...result];
         }
     }
+    sortEvents(result);
     if (withMap) {
         result.unshift(m); // сама карта - туда же
     }
@@ -1675,16 +1686,19 @@ function pushLogo(logo, l) {
 function buildOSiteInfo(events) {
     let result = '';
     const oSites = [];
+    if (events && !Array.isArray(events)) {
+        events = [events];
+    }
     for (const e of events) {
         if (e.o_site) oSites.push(O_SITE_ADDRESS_PREFIX + e.o_site);
     }
     if (oSites.length > 0) {
-        result = ` ${buildLinksWithLabel(oSites, 'Инфо на O-Site')}`;
+        result = ` ${buildLinksWithLabel(oSites, '<img src="./images/o-site.gif" alt="O-Site" title="O-Site" class="sheet-icon">')}`;
     }
     return result;
 }
 
-function buildEventStart(evt, withoutLogo) {
+function buildEventStart(evt, withoutLogo, justTitle) {
     let result = '';
 
     if (!withoutLogo && evt.russialoppet) {
@@ -1716,11 +1730,13 @@ function buildEventStart(evt, withoutLogo) {
             result += name;
         }
     }
-    if (evt.price === -1) {
-        result += ' (закрытый)'
-    }
-    if (evt.reg) {
-        result += ' <span title="Регистрация">' + buildEventReg(evt) + '</span>';
+    if (!justTitle) {
+        if (evt.price === -1) {
+            result += ' (закрытый)'
+        }
+        if (evt.reg) {
+            result += ' <span title="Регистрация">' + buildEventReg(evt) + '</span>';
+        }
     }
     if (HAS_ME_PARAM) {
         let me = evt.me;
@@ -1815,7 +1831,7 @@ function buildEventResults(evt) {
         } else if (evt.res.includes('hard')) {
             res += buildLink(evt.res, 'HARD');
         } else {
-            res += buildLink(evt.res, '<img src="./images/url-file.png" alt="Результаты" />');
+            res += buildLink(evt.res, `<img src="./images/url-file.png" alt="Результаты" title="Результаты" class="sheet-icon" />`);
         }
     }
     if (evt.reskeep) {
@@ -1824,7 +1840,7 @@ function buildEventResults(evt) {
             reskeep = [evt.reskeep];
         }
         reskeep = reskeep.map(r => 'https://reskeep.ru/event/get?id=' + r);
-        res += buildLink(reskeep, ' <img src="./images/r-k.gif" alt="Reskeep" />', 'Анализ сплитов', true);
+        res += buildLink(reskeep, ` <img src="./images/r-k.gif" alt="Reskeep" class="sheet-icon" />`, 'Анализ сплитов', true);
     }
     return res;
 }
@@ -1914,7 +1930,7 @@ function buildEventInfo(evt) {
     return (evt.info ?? '') + (evtPlanners ? ' Планирование дистанции: ' + evtPlanners : '') + buildPublish(evt);
 }
 
-function buildPublish(events) {
+function buildPublish(events, label) {
     let result = '';
     const publish = [];
     if (!Array.isArray(events)) {
@@ -1943,7 +1959,7 @@ function buildPublish(events) {
 */
     }
     if (publish.length > 0) {
-        result = buildLinksWithLabel(publish, ' Карты опубликованы тут');
+        result = buildLinksWithLabel(publish, label ?? ' Карты опубликованы тут');
     }
     return result;
 }
@@ -2023,7 +2039,7 @@ function buildSkiFormat(fmt) {
     }
 }
 
-function buildPlanners(m, calendar) {
+function buildPlanners(m, calendar, inline) {
     let result = '';
     const events = [];
     if (typeof planners !== 'undefined') {
@@ -2045,11 +2061,20 @@ function buildPlanners(m, calendar) {
         }
         if (plannersList.length > 0) {
             if (plannersList.length > 1) {
-                result += '<ol>'
-                for (const o of plannersList) {
-                    result += '<li>' + planners[o].name + '</li>';
+                if (inline) {
+                    for (const o of plannersList) {
+                        if (result) {
+                            result += ', ';
+                        }
+                        result += planners[o].name;
+                    }
+                } else {
+                    result += '<ol>'
+                    for (const o of plannersList) {
+                        result += '<li>' + planners[o].name + '</li>';
+                    }
+                    result += '</ol>'
                 }
-                result += '</ol>'
             } else {
                 const planner = planners[plannersList[0]];
                 if (planner) {

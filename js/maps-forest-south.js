@@ -644,7 +644,6 @@ let southMaps = [
         year: 1979,
         url: './maps/forest/south/ivangorod_1979.webp',
         link: './original_maps/forest/south/ivangorod_1979_omaps.webp',
-        info: '4-5 августа. Кубок ЭССР. Кубок ЦСФиС.',
         bounds: [[59.4552183, 28.1198072], [59.4570285, 28.1896305], [59.4310005, 28.1198502]],
         author: 'NKTN_V'
     },

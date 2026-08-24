@@ -822,8 +822,9 @@ let events2024 = [
         id: 'SPB_20240526_1',
         date: '2024-05-26',
         place: 'оз Сиркиярви',
-        name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-эстафета',
+        name: 'ЧиП СПб',
         type: 'ORIENT',
+        fmt: 'эстафета',
         res: 'http://orgeo.ru/live/#/36008',
         owner: 'SFSO_SPB',
         o_site: '240526',
@@ -1372,7 +1373,8 @@ let events2024 = [
         ],
         res: 'https://vk.com/rogaine110?w=wall-197270357_1040',
         o_gps: 20114,
-        start: 'ROGAINE_110'
+        start: 'ROGAINE_110',
+        map: 'tsvelodubovo_2020'
     },
     {
         id: 'SPB_20240803_1',
@@ -1478,7 +1480,7 @@ let events2024 = [
         id: 'SPB_20240831_2',
         date: '2024-08-31',
         place: 'Цвелодубово',
-        name: 'Мероприятие, посвящённое 65-летию спортивного ориентирования в России',
+        name: '65-лет ориентированию в России',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/36862',
         res: 'https://o-site.spb.ru/_races/240831_retro/split.htm',
@@ -1933,8 +1935,9 @@ let events2024 = [
         date: '2024-10-26',
         endDate: '2024-10-27',
         place: 'Сосново, оз Уловное',
-        name: 'Ночная эстафета 50 ВЁРСТ',
+        name: '50 ВЁРСТ',
         type: 'ORIENT',
+        fmt: 'ночная эстафета',
         res: 'https://o-site.spb.ru/_races/241026/241027_result_5v_kids.htm',
         video: 'https://vkvideo.ru/video-93257360_456239262',
         info: 'V клубная ночная эстафета 50 ВЁРСТ',
@@ -1963,8 +1966,14 @@ let events2024 = [
         photo: 'http://photos.app.goo.gl/2VZttyFAQ4PyErVCA',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         strava: 12820185310,
+        me: 'М50',
+        o_gps: {
+            'M50':21032,
+            'M60':21043
+        },
         logo: 'azimut.gif',
-        o_site: '241104_OM'
+        o_site: '241104_OM',
+        map: 'tsvelodubovo_2020'
     },
     {
         id: 'SPB_20241109_1',

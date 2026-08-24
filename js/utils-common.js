@@ -230,12 +230,12 @@ function buildLinksWithLabel(links, label) {
     if (links && links.length > 0) {
         if (Array.isArray(links)) {
             if (links.length === 1) {
-                return `<a href="${links[0]}">${label}</a>.`
+                return `<a href="${links[0]}">${label}</a>`
             } else {
-                return `${label}: ${buildLinksList(links)}.`
+                return `${label}: ${buildLinksList(links)}`
             }
         } else {
-            return `<a href="${links}">${label}</a>.`
+            return `<a href="${links}">${label}</a>`
         }
     }
     return '';

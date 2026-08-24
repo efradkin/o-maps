@@ -316,53 +316,31 @@ function buildInfo(m, cal, events) {
     if (m.restricted) {
         result += getRestrictedText(m);
     }
-    let mapResults = m.results;
-    if (!mapResults && m.calendar) {
-        mapResults = cal.res;
-    }
-    let oSite;
-    if (!events) {
-        oSite = m.o_site;
-        if (!oSite && m.calendar) {
-            oSite = cal.o_site;
-        }
-    }
     // if (m.info || m.date || mapResults || oSite) {
         if (m.restricted) {
             result += '<br />'
         }
+/*
         if (!isDocumentsPage()) {
             const mapDates = getMapDates(m, events);
             if (mapDates) {
                 result += `<b>${mapDates}</b>. `;
             }
         }
+*/
         if (m.info) {
-            result += m.info;
+            result += m.info + ' ';
         }
         if (events) {
-            for (const e of events) {
-                if (e.info && e !== m) {
-                    result += ' ' + e.info;
-                }
-            }
+            result += buildMapEventsDescription(m, events);
         }
-        if (mapResults) {
-            result += ` <a href="${mapResults}">Результаты</a>.`;
-        } else {
-            const results = buildEventResults(m);
-            if (results) {
-                result += results;
-            }
-
+        if (m.results) {
+            result += ` <a href="${m.results}">Результаты</a>.`;
         }
-        if (oSite) {
-            result += ` <a href="${O_SITE_ADDRESS_PREFIX}${oSite}">Инфо на O-Site</a>.`;
+        if (m.o_site) {
+            result += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо на O-Site</a>.`;
         }
     // }
-    if (events) {
-        result += buildOSiteInfo(events);
-    }
     if (isDocumentsPage()) {
         // планировщики
         let planner = m.planner;
@@ -408,8 +386,8 @@ function buildInfo(m, cal, events) {
                 result += ` Карту можно посмотреть <a href="map-info.html?map=${map}">тут</a>.`;
             }
         }
+        result += buildPublish(m);
     }
-    result += buildPublish(m);
     return result;
 }
 

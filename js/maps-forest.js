@@ -30,6 +30,7 @@ let forestMaps = [
         year: 2020,
         url: './maps/forest/tsvelodubovo_2020.webp',
         o_gps: {
+            'СРП\'20':7623,
             'СРП\'25':22686
         },
         bounds: [[60.3909605, 29.5569134], [60.3876314, 29.5981121], [60.363172, 29.5473003]],
@@ -61,7 +62,6 @@ let forestMaps = [
         page: 'spb',
         url: './maps/forest/tsvelodubovo_south_1995.webp',
         link: ['./original_maps/forest/tsvelodubovo_south_1995_omaps.jpg','./original_maps/forest/tsvelodubovo_south_1995_clean_omaps.webp'],
-        results: './docs/1995/1995_06_23_wn_omaps.pdf',
         bounds: [[60.3637662, 29.550519], [60.3594792, 29.6214581], [60.3474854, 29.5464849]],
         author: 'MLVA_M'
     },
@@ -145,8 +145,7 @@ let forestMaps = [
         url: './maps/forest/tsvelodubovo_triotlon_2006.webp',
         link: './original_maps/forest/tsvelodubovo_triotlon_2006_omaps.jpg',
         bounds: [[60.3953918, 29.5581579], [60.3922115, 29.6172523], [60.3621321, 29.5495319]],
-        author: 'KUZNTSV_S',
-        start: 'TRI_O_TLON'
+        author: 'KUZNTSV_S'
     },
     {
         name: 'Цвелодубово, ур Нагорное',

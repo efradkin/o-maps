@@ -587,6 +587,7 @@ let events2023 = [
         o_site: '230509',
         strava: 9038712842,
         reskeep: 576,
+        o_gps: 16040,
         map: 'tsvelodubovo_south_2021'
     },
     {
@@ -1825,8 +1826,9 @@ let events2023 = [
         date: '2023-10-21',
         endDate: '2023-10-22',
         place: 'Каннельярви',
-        name: 'Ночная эстафета 50 ВЁРСТ',
+        name: '50 ВЁРСТ',
         type: 'ORIENT',
+        fmt: 'ночная эстафета',
         reg: 'http://sportident.online/entry/?id=5890',
         res: 'https://o-site.spb.ru/_races/211023_50Verst/result_50_verst.htm',
         video: 'https://www.youtube.com/watch?v=4AEOH9mFkNU',

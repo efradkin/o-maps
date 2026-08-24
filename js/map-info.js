@@ -68,6 +68,14 @@ if (m.docs) {
 putValue('#map_gps', buildGpsLinks(m));
 putValue('#map_author', buildAuthors(m));
 putValue('#map_owner', buildOwners(m));
+
+let mapStarts = '';
+for (const e of events) {
+    if (e !== m) {
+        mapStarts += buildEventDescription(e, true) + '<br />';
+    }
+}
+putValue('#map_starts', mapStarts);
 let logo = logoList(m);
 if (!isEmpty(logo)) {
     document.querySelector('#map_logo img').src = './logo/' + logo[0];

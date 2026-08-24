@@ -1299,15 +1299,18 @@ function buildMapPopup(m) {
 
     // ссылка на страничку инфа
     let url = m.url ?? getFirstLink(m);
-    result += ' <a class="map-info-link" href="./map-info.html?map=' + extractFileName(url) + '" title="Информация о карте">🔗</a>';
+    const mapInfoLink = './map-info.html?map=' + extractFileName(url);
+    result += ` <a class="map-info-link" href="${mapInfoLink}" title="Информация о карте">🔗</a>`;
 
     result += '</b><hr />';
 
     // инфа о карте
     let info = '';
+
     if (m.type && m.type.includes('FOTO')) {
-        info += '<b>Фото-ориентирование.</b> ';
+        info += '<b>Фото-ориентирование.</b>';
     }
+
     let dates = getMapDates(m);
     if (dates) {
         info += `<b>${dates}.</b> `;
@@ -1315,29 +1318,33 @@ function buildMapPopup(m) {
     if (m.start) {
         info += '<b>' + getMapStarts(m) + '</b> ';
     }
+    if (info) {
+        info += '<br />';
+    }
+
+    info += buildMapEventsDescription(m, events);
+
     if (m.info) {
-        info += m.info;
+        info += m.info + '<br />';
     }
 
     // ссылки на результаты
     const mapResults = [];
-    for (const e of events) {
-        if (e.results) mapResults.push(e.results);
-        if (e.res) mapResults.push(e.res);
-    }
-    if (mapResults.length > 0) {
-        info += ` ${buildLinksWithLabel(mapResults, 'Результаты')}`;
-    } else {
-        info += buildEventResults(m);
+    if (m.results) {
+        if (m.results.length > 0) {
+            info += ` ${buildLinksWithLabel(m.results, 'Результаты')} <br />`;
+        } else {
+            info += `Результаты: ${buildEventResults(m)} <br />`;
+        }
     }
 
     // ссылки на информацию на o-Site
-    info += buildOSiteInfo(events);
+    //info += buildOSiteInfo(events);
 
     // ссылки на публикацию карт
-    info += buildPublish([m, ...events]);
+    info += buildPublish(m);
     if (info) {
-        result += info + '<br />';
+        result += info;
     }
 
     // авторы-составители
@@ -1367,25 +1374,15 @@ function buildMapPopup(m) {
         result += 'Владелец карты не указан.<br />';
     }
 
-    // начдист
-    if (typeof planners !== 'undefined') {
-        const plannersInfo = buildPlanners(m, events);
-        if (plannersInfo) {
-            result += 'Планирование дистанции: ' + plannersInfo;
-        }
-    }
-
     // закрытый район
     if (m.restricted) {
         result += getRestrictedText(m) + '<br />';
     }
 
     // GPS-трансляция
-    const gpsLinksForEvents = buildGpsLinksForEvents(events, null);
-    if (gpsLinksForEvents) {
-        result += '<span class="gps-info"><img src="./images/o-gps.gif" alt="GPS" /> ';
-        result += 'GPS-трансляция: ' + gpsLinksForEvents;
-        result += '.</span><br />';
+    const gpsLinks = buildGpsLinks(m, 'o-gps.gif');
+    if (gpsLinks) {
+        result += `<span class="gps-info"> GPS-трансляция: ${gpsLinks}</span><br />`;
     }
 
     // запрос на редактуру
@@ -1447,6 +1444,65 @@ function buildMapPopup(m) {
     }
 
     return result;
+}
+
+function buildMapEventsDescription(m, events) {
+    let result = '';
+    if (events) {
+        let idx = 1;
+        for (const e of events) {
+            if (e !== m) {
+                if (idx++ > 5) break;
+                result += buildEventDescription(e) + '<br />';
+            }
+        }
+        if (idx > 6) {
+            const mapInfoLink = './map-info.html?map=' + extractFileName(m.url);
+            result += `...${buildOneLink(mapInfoLink, "полный список стартов.")} <br />`;
+        }
+    }
+    return result;
+}
+
+function buildEventDescription(m, withPlanner) {
+    let info = '';
+    let dates = getMapDates(m);
+    if (dates) {
+        info += `<b>${dates}</b>, `;
+    }
+    let link = m.link;
+    if (!link && m.o_site) {
+        link = O_SITE_ADDRESS_PREFIX + m.o_site;
+    }
+    if (link) {
+        info += buildOneLink(link, m.name);
+    } else {
+        info += m.name;
+    }
+/*
+    if (m.start) {
+        info += '<b>' + getMapStarts(m) + '</b> ';
+    }
+    if (m.info) {
+        info += m.info;
+    }
+*/
+    if (m.link) {
+        info += ' ' + buildOSiteInfo(m);
+    }
+    info += ' ' + buildEventResults(m);
+    info += ' ' + buildGpsLinks(m, 'o-gps.gif', null, true);
+    info += ' ' + buildPublish(m, '🗺️');
+
+    // начдист
+    if (withPlanner && typeof planners !== 'undefined') {
+        const plannersInfo = buildPlanners(m, null, true);
+        if (plannersInfo) {
+            info += ', нач-дист: ' + plannersInfo;
+        }
+    }
+
+    return info;
 }
 
 function buildEventPopup(evt, m) {
