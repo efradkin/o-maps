@@ -1512,7 +1512,7 @@ let events2026 = [
         info: '<a href="https://vk.com/@-92124592-bez-nazvaniya">Разбор дистанций</a>.',
         o_gps: 25195,
         reskeep: 892,
-        video: 'https://youtu.be/ib0wDfvzexc',
+        video: ['https://www.youtube.com/watch?v=ib0wDfvzexc','https://vkvideo.ru/video-238805001_456239023'],
         planner: 'RYKV_A',
         type: 'ORIENT',
         fmt: 'спринт',
@@ -1539,7 +1539,8 @@ let events2026 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1740',
         video: [
             'https://vkvideo.ru/video-230838055_456239044',
-            'https://youtu.be/XoO6iUT2C3E'
+            'https://www.youtube.com/watch?v=XoO6iUT2C3E',
+            'https://vkvideo.ru/video-238805001_456239020'
         ],
         info: '<a href="https://o-site.spb.ru/_races/260530_SPB/260530_videos.html">Видео-нарезка</a> участников на дистанции.',
         reskeep: 894,
@@ -2053,6 +2054,7 @@ let events2026 = [
         name: 'Кубок Белых ночей №17,18',
         place: 'Барышево',
         reg: 'https://orgeo.ru/event/54186',
+        video: 'https://vkvideo.ru/video-238805001_456239037',
         type: 'ORIENT',
         owner: 'WN',
         map: 'baryshevo_2015'
@@ -2073,6 +2075,7 @@ let events2026 = [
         name: 'Кубок Белых ночей №19,20',
         place: 'Смоляное оз',
         reg: 'https://orgeo.ru/event/54227',
+        video: 'https://vkvideo.ru/video-238805001_456239038',
         type: 'ORIENT',
         owner: 'WN',
         map: 'smoljanoe_2015'
@@ -2231,6 +2234,7 @@ let events2026 = [
         place: 'Цвелодубово',
         o_site: '260816_Tokma',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1746',
+        video: 'https://vkvideo.ru/video-238805001_456239039',
         type: 'ORIENT',
         owner: 'VYBORG',
         map: 'tsvelodubovo_2020'
@@ -2271,6 +2275,7 @@ let events2026 = [
             '2':25814
         },
         publish: 'https://vk.ru/wall-207717517_13895',
+        video: ['https://www.youtube.com/watch?v=rbA5PLcaub0','https://vkvideo.ru/video-238805001_456239040'],
         type: 'ORIENT',
         owner: 'NW',
         fmt: 'спринт, ночная классика, классика',

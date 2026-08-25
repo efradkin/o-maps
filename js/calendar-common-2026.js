@@ -279,7 +279,8 @@ let commonEvents2026 = [
             'https://vkvideo.ru/video-227779225_456239068',
             'https://vk.com/video-93257360_456239323',
             'http://northernwind.spb.ru/videosplit/2026/kkp/d2',
-            'https://www.youtube.com/watch?v=nShmb_cNars'
+            'https://www.youtube.com/watch?v=nShmb_cNars',
+            'https://vkvideo.ru/video-238805001_456239027'
         ],
         info: '<a href="https://vk.com/video-231742705_456239427">Интервью</a> с Никой Калининой.',
         type: 'ORIENT',
@@ -306,7 +307,7 @@ let commonEvents2026 = [
             'https://vk.com/video-93257360_456239324',
             'https://vkvideo.ru/video-227779225_456239067',
             'https://www.youtube.com/watch?v=dmA2RdcKGjo',
-            'https://youtu.be/dmA2RdcKGjo'
+            'https://vkvideo.ru/video-238805001_456239024'
         ],
         type: 'ORIENT',
         fmt: 'лонг',
@@ -427,8 +428,9 @@ let commonEvents2026 = [
         },
         video: [
             'https://www.youtube.com/watch?v=wk37MdZG_6E',
-            'https://youtu.be/QapE37dnDto',
-            'https://www.youtube.com/watch?v=asRAAvnbOho'
+            'https://www.youtube.com/watch?v=asRAAvnbOho',
+            'https://www.youtube.com/watch?v=QapE37dnDto',
+            'https://vkvideo.ru/video-238805001_456239029'
         ],
         reskeep: 899,
         strava: 19083758289,
@@ -457,7 +459,8 @@ let commonEvents2026 = [
         },
         video: [
             'https://www.youtube.com/watch?v=vB5GOMsT49c',
-            'https://www.youtube.com/watch?v=O6fgeFEKIGs'
+            'https://www.youtube.com/watch?v=O6fgeFEKIGs',
+            'https://vkvideo.ru/video-238805001_456239032'
         ],
         reskeep: [900,901],
         strava: 19096395426,
@@ -497,7 +500,9 @@ let commonEvents2026 = [
             'https://www.youtube.com/watch?v=vwMHap8Z7K8',
             'https://www.youtube.com/watch?v=HWPMyp92jf0',
             'https://www.youtube.com/watch?v=asRAAvnbOho',
-            'https://www.youtube.com/watch?v=vqiQXmXmEwU'
+            'https://www.youtube.com/watch?v=vqiQXmXmEwU',
+            'https://www.youtube.com/watch?v=Doz392I9WOM',
+            'https://vkvideo.ru/video-238805001_456239035'
         ],
         type: 'ORIENT',
         fmt: 'спринт, лонг, классика',
