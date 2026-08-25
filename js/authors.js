@@ -223,6 +223,7 @@ let authors = {
     KRZCHN: { name: 'Корзухин Вадим' },
     KSHN_D: { name: 'Кашин Даниил' },
     KSNFNTVA: { name: 'Ксенофонтова А.' },
+    KSRKV: { name: 'Косоруков Антон' },
     KTS_JU: { name: 'Кац Юлия' },
     KVZN: {
         name: 'Ковязин Александр', //Николаевич
