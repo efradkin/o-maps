@@ -2270,6 +2270,7 @@ let events2026 = [
             '1':25805,
             '2':25814
         },
+        publish: 'https://vk.ru/wall-207717517_13895',
         type: 'ORIENT',
         owner: 'NW',
         fmt: 'спринт, ночная классика, классика',
@@ -2444,6 +2445,17 @@ let events2026 = [
         fmt: 'лонг',
         o_site: '260927',
         owner: 'SFSO_SPB'
+    },
+    {
+        id: 'SPB_20261003_1',
+        date: '2026-10-03',
+        name: '54-й Мемориал Анатолия Окинчица',
+        place: 'Семиозерье',
+        link: 'https://touristclub.ru/okinchits/polozhenie/',
+        reg: 'https://orgeo.ru/event/54791',
+        type: 'ORIENT',
+        fmt: 'ночное',
+        start: 'OKINCHITSA',
     },
     {
         id: 'SPB_20261010_1',

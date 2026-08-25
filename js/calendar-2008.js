@@ -777,7 +777,6 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/08101112/08101112_res.htm',
         start: 'OKINCHITSA',
         o_site: '08101112',
-        endDate: '2008-10-12'
     },
     {
         id: 'SPB_20081018_1',
