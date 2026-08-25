@@ -402,6 +402,12 @@ let owners = {
         name: '© Крылов Николай',
         logo: 'o-ramenskoe.webp'
     },
+    KRMBV_A: {
+        name: '© Каримбаев Артур',
+        order: {
+            name: 'Артур Каримбаев (+79161111451)'
+        }
+    },
     KSTKN_SITE: {
         name: 'Карта доступна в формате OCAD на <a href="http://www.kasatik.ru/sport.aspx?stori=11">сайте Николая Касаткина</a>.'
     },
