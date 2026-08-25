@@ -2266,7 +2266,10 @@ let events2026 = [
         place: 'Выборг, Возрождение',
         o_site: '260822-23_VTR',
         reg: 'http://sportident.online/entry/?id=7192',
-        o_gps: 25805,
+        o_gps: {
+            '1':25805,
+            '2':25814
+        },
         type: 'ORIENT',
         owner: 'NW',
         fmt: 'спринт, ночная классика, классика',

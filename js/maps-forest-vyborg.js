@@ -461,6 +461,7 @@ let vyborgMaps = [
         name: 'Выборг, Южный форт',
         url: './maps/forest/vyborg/yuzhny_fort.webp',
         bounds: [[60.6884561, 28.7701035], [60.6862711, 28.7920761], [60.6712657, 28.762722]],
+        author: ['KSRKV','PDVZKN'],
         owner: 'VYBORG'
     },
     {
@@ -681,6 +682,7 @@ let vyborgMaps = [
         year: 2015,
         url: './maps/forest/vyborg/verkchne_cherkasovo_2015.webp',
         bounds: [[60.6750913, 28.8804388], [60.6734728, 28.9138699], [60.6700465, 28.8802671]],
+        author: ['KSRKV','PDVZKN'],
         owner: 'VYBORG'
     },
     {
@@ -704,7 +706,8 @@ let vyborgMaps = [
     },
     {
         name: 'Каменногорск, оз Сувялампи',
-        url: './maps/forest/vyborg/kamennogorsk_suvyalampi.webp',
+        year: 2013,
+        url: './maps/forest/vyborg/kamennogorsk_suvyalampi_2013.webp',
         bounds: [[60.9565586, 29.1361928], [60.9553815, 29.1479945], [60.9480988, 29.1324592]],
         owner: 'VYBORG',
         author: ['KSRKV','PDVZKN'],
