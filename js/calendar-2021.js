@@ -1270,6 +1270,7 @@ let events2021 = [
         name: 'Александрийские субботники',
         link: 'https://vk.ru/wall-199133936_1797',
         photo: 'https://vk.ru/album-199133936_282049364',
+        res: 'https://vk.ru/wall-199133936_1816',
         o_gps: 10626,
         type: 'ROGAINE',
         fmt: '1',

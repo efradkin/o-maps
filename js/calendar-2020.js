@@ -1358,6 +1358,8 @@ let events2020 = [
         date: '2020-10-10',
         place: 'Петергоф, Александрийский парк',
         name: 'Александрийские субботники',
+        res: 'https://docs.google.com/spreadsheets/d/1qdnHryuq6e-AECikZptMpJN0yZsQuDP3/',
+        photo: 'https://vk.ru/album-199133936_276735216',
         o_gps: 8282,
         type: 'ROGAINE',
         fmt: '1',
