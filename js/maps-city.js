@@ -1710,9 +1710,11 @@ let cityMaps = [
     },
     {
         name: 'Каменногорск',
-        url: './maps/city/kamennogorsk.webp',
+        year: 2013,
+        url: './maps/city/kamennogorsk_city_2013.webp',
         bounds: [[60.9527249, 29.1305494], [60.9525686, 29.1367507], [60.948401, 29.1302919]],
         type: ['CITY'],
+        author: 'KSRKV',
         owner: 'VYBORG'
     },
     {

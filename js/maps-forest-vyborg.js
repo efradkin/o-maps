@@ -445,7 +445,8 @@ let vyborgMaps = [
     },
     {
         name: 'Выборг, Южный форт',
-        url: './maps/forest/vyborg/yuzhny_fort.webp',
+        year: 2014,
+        url: './maps/forest/vyborg/yuzhny_fort_2014.webp',
         bounds: [[60.6884561, 28.7701035], [60.6862711, 28.7920761], [60.6712657, 28.762722]],
         author: ['KSRKV','PDVZKN'],
         owner: 'VYBORG'
