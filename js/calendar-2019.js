@@ -131,7 +131,8 @@ let events2019 = [
         date: '2019-02-17',
         place: 'Кузьмоловский',
         name: 'Мемориал А.Волкова',
-        type: 'ORIENT',
+        type: 'SKI',
+        fmt: 'маркир-Д',
         res: 'https://o-site.spb.ru/_races/190217/190217_rez.htm',
         o_site: '190217',
         map: 'volkov_2019_02_17',
@@ -1712,7 +1713,8 @@ let events2019 = [
         type: 'ROGAINE',
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-rogeynu/final-klo-2019',
         res: 'http://sport-orient.ru/wp-content/uploads/2019/10/rezultaty.pdf',
-        o_site: '191026'
+        o_site: '191026',
+        map: 'shapki_KLO_2024'
     },
     {
         id: 'SPB_20191027_1',

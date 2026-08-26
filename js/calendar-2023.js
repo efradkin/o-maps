@@ -725,7 +725,7 @@ let events2023 = [
         id: 'SPB_20230526_1',
         date: '2023-05-26',
         place: 'РГПУ им Герцена',
-        name: 'Российский Азимут',
+        name: 'Герценовское кольцо',
         type: 'ORIENT',
         map: 'gertsena_2023'
     },
@@ -2001,7 +2001,8 @@ let events2023 = [
         video: 'https://www.youtube.com/watch?v=yULSyHrj4NU',
         fmt: 'рогейн 4 часа. Велосипедный и беговой формат',
         owner: 'MULTSPORT',
-        o_site: '231106r'
+        o_site: '231106r',
+        map: 'pervomajskoe_rogaine_2023'
     },
     {
         id: 'SPB_20231111_1',

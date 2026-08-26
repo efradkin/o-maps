@@ -159,7 +159,6 @@ let priozerskMaps = [
         name: 'Кузнечное, оз Суури, запад',
         page: 'spb',
         year: 1984,
-        info: 'Ориентир-22',
         url: './maps/forest/priozersk/kuznechnoe_suuri_1984.webp',
         link: ['./original_maps/forest/priozersk/kuznechnoe_suuri_1984_omaps.jpg','./original_maps/forest/priozersk/kuznechnoe_suuri_1984_clean_omaps.jpg'],
         start: 'ORIENTIR',

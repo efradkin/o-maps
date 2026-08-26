@@ -7,7 +7,6 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/rappolovo_1963.webp',
         link: './original_maps/forest/toksovo/rappolovo_1963_omaps.webp',
         bounds: [[60.1627782, 30.3533363], [60.1627782, 30.478735], [60.1308201, 30.3528214]],
-        info: 'П-во Ленинграда.'
     },
     {
         name: 'Сярьги',
@@ -23,7 +22,6 @@ let toksovoMaps = [
         url: './maps/forest/toksovo/sjargi_1971_lomo.webp',
         link: './original_maps/forest/toksovo/sjargi_1971_lomo_omaps.jpg',
         bounds: [[60.1361415, 30.4022598], [60.1364193, 30.4662895], [60.1147439, 30.4048347]],
-        info: 'П-во ЛОМО. <a href="./docs/1971/1971_02_07_lomo_omaps.pdf">Результаты</a>.'
     },
     {
         name: 'оз Хепоярви, восток',
@@ -444,7 +442,6 @@ let toksovoMaps = [
     {
         name: 'Кавголово, старый лыжедром',
         year: 2024,
-        info: '<a href="https://t.me/Nevskiy_sprint2024/63">Невский спринт</a>',
         url: './maps/forest/toksovo/kavgolovo_2024.webp',
         link: './original_maps/forest/toksovo/kavgolovo_2024_omaps.gif',
         bounds: [[60.1890093, 30.5429363], [60.1873558, 30.557785], [60.1784788, 30.5382371]],

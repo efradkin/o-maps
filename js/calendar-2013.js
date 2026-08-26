@@ -14,7 +14,7 @@ let events2013 = [
         endDate: '2013-01-09',
         place: 'Цвелодубово',
         name: 'Зимний УТС в Цвелодубово',
-        type: 'VELO',
+        type: 'SKI',
         o_site: '13010309'
     },
     {
@@ -23,7 +23,7 @@ let events2013 = [
         endDate: '2013-01-08',
         place: 'Цвелодубово',
         name: 'Рождественские Старты',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'http://moscompass.ru/news/2013/20130107-rez-Cvel.htm',
         owner: 'NW',
         o_site: '13010708'
@@ -54,7 +54,7 @@ let events2013 = [
         date: '2013-01-13',
         place: 'Токсово',
         name: 'На призы газеты Всеволожские Вести. Кубок ЛО',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130113/130113_res_ski.htm',
         start: 'VSEV_VESTI',
@@ -66,7 +66,7 @@ let events2013 = [
         endDate: '2013-01-20',
         place: 'Кириши, Будогощь',
         name: 'Кубок России среди ветеранов Чемпионат и первенство ЛО Зимняя спартакиада учащихся ЛО',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/13011720/130119_res.htm',
         info: 'КУБОК РОССИИ СРЕДИ ВЕТЕРАНОВ ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ НА ЛЫЖАХ Чемпионат и первенство Ленинградской области Зимняя спартакиада учащихся Ленинградской области Кубок профкома ООО «ПО Киришинефтеоргсинтез»',
         owner: 'SFSO_LO',
@@ -77,7 +77,7 @@ let events2013 = [
         date: '2013-01-20',
         name: 'Кубок СПб по спортивному ориентированию на лыжах',
         place: 'Рощино',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130120/130120_res.htm',
         info: 'Соревнования проводятся 20 января 2013 года в окрестностях пос.Рощино (Райвола). Центр соревнований расположен в Детском оздоровительном лагере «Северная зорька». Размещение участников в отапливаемом помещении',
         o_site: '130120'
@@ -87,7 +87,7 @@ let events2013 = [
         date: '2013-02-03',
         place: 'Семиозерье',
         name: 'Университетский маркир',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130203_Un/130203_res.htm',
         o_site: '130203_Un'
@@ -105,7 +105,7 @@ let events2013 = [
         date: '2013-02-14',
         place: 'Кузьмоловский',
         name: 'Кузьмоловская тропа. 65 лет В. Н. Шумилову',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130214/130214_res.htm',
         o_site: '130214'
@@ -115,17 +115,18 @@ let events2013 = [
         date: '2013-02-16',
         place: 'Токсово',
         name: 'Чемпионат и Первенство СПб, спринт',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130216/130216_SPLIT.htm',
         owner: 'SFSO_SPB',
-        o_site: '130216'
+        o_site: '130216',
+        map: 'toksovo_shkolnoe_winter_2013'
     },
     {
         id: 'SPB_20130217_1',
         date: '2013-02-17',
         place: 'Токсово',
         name: 'Чемпионат и Первенство СПб, комбинация',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130217/130217_split.htm',
         owner: 'SFSO_SPB',
         o_site: '130217'
@@ -135,7 +136,7 @@ let events2013 = [
         date: '2013-02-23',
         place: 'Зеркальный',
         name: 'Чемпионат и Первенство СПб, средняя дистанция',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130223Ch/130223_split.htm',
         owner: 'SFSO_SPB',
         o_site: '130223Ch'
@@ -146,6 +147,7 @@ let events2013 = [
         place: 'Зеркальный',
         name: 'Мемориал Андрея Волкова',
         type: 'SKI',
+        fmt: 'маркир',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130224/130224_res.htm',
         start: 'VOLKOV_A',
@@ -167,7 +169,7 @@ let events2013 = [
         date: '2013-03-03',
         name: 'Чемпионат и Первенство СПб, маркир',
         place: 'Ильичёво, Болотная Станция',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130303/130303_ split.htm',
         owner: 'SFSO_SPB',
         o_site: '130303'
@@ -177,7 +179,7 @@ let events2013 = [
         date: '2013-03-08',
         name: 'Чемпионат и Первенство СПб, Эстафета',
         place: 'Ильичёво, Болотная Станция',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130308_ch/130308_split.htm',
         info: 'Эстафета проводится по группам: Мдо13- 2 этапа, Ждо13- 2 этапа Мдо15- 3 этапа, Ждо15- 3 этапа, Мдо18- 3 этапа, Ждо18- 3 этапа, МЭ- 3 этапа, ЖЭ- 3 этапа, М90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, Ж90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, М110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа, Ж110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа',
@@ -189,7 +191,7 @@ let events2013 = [
         date: '2013-03-09',
         name: 'Чемпионат и Первенство СПб, Лонг',
         place: 'Ильичёво, Болотная Станция',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130309/130309_split.htm',
         info: 'Место проведения: п.Ильичево, Болотная станция',
         owner: 'SFSO_SPB',
@@ -200,7 +202,7 @@ let events2013 = [
         date: '2013-03-10',
         place: 'Ильичёво, Болотная Станция',
         name: 'Первенство ВУЗов',
-        type: 'ORIENT',
+        type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130310/130310_RES.pdf',
         info: 'Мандатная комиссия будет проходить 6 марта в СДЮСШОР №2 по адресу Невский пр.39, ком. 59 с 17 до 19 часов. Электронная заявка на o-reg.spb.ru. Состав команды - 10 человек независимо от пола, зачет по 8 лучшим. Справки по участию и заявке +7921 9182378 (Ирина Ломова).',
         o_site: '130310'
@@ -266,7 +268,8 @@ let events2013 = [
         name: 'Тренировка от Стрекозаек',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130406_Str/130406_res.htm',
-        o_site: '130406_Str'
+        o_site: '130406_Str',
+        owner: 'STRKZK'
     },
     {
         id: 'SPB_20130407_1',

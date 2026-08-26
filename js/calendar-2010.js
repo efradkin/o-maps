@@ -79,6 +79,7 @@ let events2010 = [
         place: 'Орехово',
         name: 'МЕМОРИАЛ АНДРЕЯ ВОЛКОВА',
         type: 'SKI',
+        fmt: 'маркир',
         res: 'https://o-site.spb.ru/_races/100206/100206_res_it.pdf',
         start: 'VOLKOV_A',
         o_site: '100206',
@@ -266,7 +267,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100410_st/100410_res.htm',
         info: '10 апреля команда Стрекозайки проводит открытую тренировку в Московском парке Победы',
         o_site: '100410_st',
-        map: 'pobedy_2020'
+        map: 'pobedy_2020',
+        owner: 'STRKZK'
     },
     {
         id: 'SPB_20100411_1',

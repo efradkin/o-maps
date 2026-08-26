@@ -7,7 +7,6 @@ let otherStartsMaps = [
         year: 1983,
         url: './maps/starts/other/mruchey_1983_09_17.webp',
         link: ['./original_maps/starts/other/mruchey_1983_09_17_M_omaps.jpg','./original_maps/starts/other/mruchey_1983_09_17_W_omaps.jpg'],
-        info: '17-18.09. Кубок ЛГС ДСО Спартак.',
         results: './docs/1983/1983_09_17_mruchey_omaps.pdf',
         bounds: [[59.9970977, 30.6734848], [59.9945654, 30.7204342], [59.966697, 30.6685066]],
         author: ['VSLVSKY','DRBSHV','PTRV_A']
@@ -95,26 +94,12 @@ let otherStartsMaps = [
         editor: 'CHGRVSKY_V'
     },
     {
-        name: 'Симагино',
-        page: 'starts',
-        start: 'REPORT',
-        year: 1988,
-        url: './maps/starts/other/simagino_1988_10_07.webp',
-        link: ['./docs/1988/simagino_1988_10_07/doc_1_omaps.jpg','./docs/1988/simagino_1988_10_07/doc_2_omaps.jpg'],
-        info: '7-8.10. День Конституции СССР. <a href="./docs/1988/simagino_1988_10_07/doc_4_omaps.jpg">Информация</a>, <a href="./docs/1988/simagino_1988_10_07/doc_3_omaps.jpg">положение</a>, <a href="./docs/1988/simagino_1988_10_07/doc_5_omaps.jpg">7.10,МА(10км)</a>, <a href="./docs/1988/simagino_1988_10_07/doc_6_omaps.jpg">9.10,МА(11км)</a>, <a href="./docs/1988/simagino_1988_10_07/doc_7_omaps.jpg">7.10,ЖА(8км)</a>, <a href="./docs/1988/simagino_1988_10_07/doc_8_omaps.jpg">8.10,ЖА(7км)</a>',
-        docs: ['1988/simagino_1988_10_07', 8],
-        bounds: [[60.2923422, 29.7894287], [60.2905982, 29.8403263], [60.2568483, 29.7842789]],
-        author: 'TRSV'
-    },
-    {
         name: 'Сосново',
         page: 'starts',
         start: 'REPORT',
         year: 1990,
         url: './maps/starts/other/sosnovo_1990_10_06.webp',
         link: ['./docs/1990/sosnovo_1990_10_06/doc_1_omaps.jpg','./docs/1990/sosnovo_1990_10_06/doc_2_omaps.jpg'],
-        info: '6-7.10. "Дыхание осени", ко Дню Конституции СССР. <a href="./docs/1990/sosnovo_1990_10_06/doc_3_omaps.jpg">Положение</a>, <a href="./docs/1990/sosnovo_1990_10_06/doc_4_omaps.jpg">МА</a>',
-        docs: ['1990/sosnovo_1990_10_06', 4],
         bounds: [[60.542509, 30.2357483], [60.5396808, 30.2922678], [60.5091251, 30.2280235]],
         author: 'TRSV'
     },
@@ -872,7 +857,7 @@ let otherStartsMaps = [
         date: '2018-05-19',
         hidden: true,
         info: 'Бобочинский полигон.',
-        url: './maps/rogaine/beketov/gavrilovo.webp',
+        url: './maps/rogaine/beketov/gavrilovo_vmb_2018.webp',
         link: 'https://kandid.ru/maps18/VMB18.jpg',
         //link: './original_maps/rogaine/beketov/gavrilovo_vmb_2018_omaps.webp',
         bounds: [[60.5948909, 28.9414215], [60.591688, 29.249382], [60.5003564, 28.9383316]],

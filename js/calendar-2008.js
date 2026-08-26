@@ -58,7 +58,7 @@ let events2008 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080203/080203_res.htm',
         info: 'Третий мемориал Андрея Волкова',
-        fmt: 'Маркир',
+        fmt: 'маркир',
         start: 'VOLKOV_A',
         o_site: '080203',
         map: 'volkov_2008_02_03'

@@ -201,8 +201,9 @@ let zelikMaps = [
         name: 'Симагино',
         year: 1988,
         url: './maps/forest/zelik/simagino_1988.webp',
-        link: './original_maps/forest/zelik/simagino_1988_omaps.jpg',
+        link: ['./original_maps/forest/zelik/simagino_1988_omaps.jpg','./docs/1988/simagino_1988_10_07/doc_1_omaps.jpg','./docs/1988/simagino_1988_10_07/doc_2_omaps.jpg'],
         bounds: [[60.2926399, 29.7870255], [60.2910661, 29.8395538], [60.2576573, 29.7838497]],
+        start: 'REPORT',
         author: 'TRSV'
     },
     {
@@ -974,7 +975,6 @@ let zelikMaps = [
     {
         name: 'Воронцовское',
         year: 1964,
-        info: '19-20.09. Первенство ЛОС ДСО "Труд" по туристскому двоеборью. Ориентирование в заданном направлении, ночное, командное.',
         url: './maps/forest/zelik/vorontsovskoe_1964.webp',
         link: ['./original_maps/forest/zelik/vorontsovskoe_1964_bw_omaps.jpg','./original_maps/forest/zelik/vorontsovskoe_1964_omaps.jpg'],
         bounds: [[60.3017837, 29.824791], [60.2985518, 29.9619484], [60.247479, 29.8182678]]

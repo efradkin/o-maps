@@ -82,7 +82,7 @@ let events2015 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=447',
         res: 'https://o-site.spb.ru/_races/150207/150207_res.pdf',
-        info: 'Маркированная дистанция с проколами',
+        fmt: 'Маркированная дистанция с проколами',
         start: 'VOLKOV_A',
         o_site: '150207',
         map: 'volkov_2015_02_07'
@@ -277,7 +277,8 @@ let events2015 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/150404_Str/150404_res.htm',
-        o_site: '150404_Str'
+        o_site: '150404_Str',
+        owner: 'STRKZK'
     },
     {
         id: 'SPB_20150405_1',
@@ -453,7 +454,8 @@ let events2015 = [
         name: 'Кубок Всеволожского района. 1-й этап',
         type: 'ROGAINE',
         fmt: '4 часа бегом и вело',
-        link: 'http://o-site.spb.ru/news.php'
+        link: 'http://o-site.spb.ru/news.php',
+        map: 'vsevolozhsk_2015'
     },
     {
         id: 'SPB_20150511_1',
@@ -846,7 +848,8 @@ let events2015 = [
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-6» мультирогейн в формате 6 часов, «MR-3» мультирогейн в формате 3 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
         fmt: '6 часов, 3 часа, детский зачёт',
         start: 'RFAR',
-        o_site: '150801'
+        o_site: '150801',
+        map: 'pervomajskoe_2015'
     },
     {
         id: 'SPB_20150808_1',

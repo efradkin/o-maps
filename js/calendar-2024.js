@@ -1322,7 +1322,8 @@ let events2024 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/klo-med-24/registration.html',
         owner: 'MULTSPORT',
-        o_site: '240714r'
+        o_site: '240714r',
+        map: 'mednoe_rogaine_2024'
     },
     {
         id: 'SPB_20240714_2',
@@ -1396,7 +1397,8 @@ let events2024 = [
         reg: 'http://www.multsport.ru/starts/klo-los-24/registration.html',
         info: 'Старт является 4-м этапом Кубка Ленинградской области по рогейну',
         owner: 'MULTSPORT',
-        o_site: '240810r'
+        o_site: '240810r',
+        map: 'losevo_rogaine_2024'
     },
     {
         id: 'SPB_20240810_2',
@@ -1912,22 +1914,15 @@ let events2024 = [
         date: '2024-10-20',
         place: 'Шапки',
         name: 'Финальный этап Кубка ЛО по рогейну',
-        type: 'ROGAINE',
-        reg: 'http://www.multsport.ru/starts/klo-final-24/registration.html',
-        fmt: 'Рогейн 4 часа. Велосипедный и беговой формат',
-        owner: 'MULTSPORT',
-        o_site: '241020r'
-    },
-    {
-        id: 'SPB_20241020_3',
-        date: '2024-10-20',
-        place: 'Шапки',
-        name: 'Финал КЛО',
-        type: 'ROGAINE',
-        fmt: '4.0',
         link: 'https://multsport.ru/starts/klo-final-24/rules.html',
+        type: 'ROGAINE',
+        fmt: 'Рогейн 4 часа. Велосипедный и беговой формат',
+        reg: 'http://www.multsport.ru/starts/klo-final-24/registration.html',
         res: 'https://vk.com/multsport?w=wall-8292013_9612',
-        o_gps: 20892
+        owner: 'MULTSPORT',
+        o_site: '241020r',
+        o_gps: 20892,
+        map: 'shapki_KLO_2024'
     },
     {
         id: 'SPB_20241026_1',

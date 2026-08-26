@@ -29,7 +29,8 @@ let events2016 = [
         place: 'Лемболово',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/160110/160110_res.html',
-        o_site: '160110'
+        o_site: '160110',
+        map: 'melnichny_ruchej_rogaine_2016'
     },
     {
         id: 'SPB_20160116_1',
@@ -242,7 +243,8 @@ let events2016 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=580',
         res: 'https://o-site.spb.ru/_races/160402_Streko/160402_res.htm',
-        o_site: '160402_Streko'
+        o_site: '160402_Streko',
+        owner: 'STRKZK'
     },
     {
         id: 'SPB_20160409_1',

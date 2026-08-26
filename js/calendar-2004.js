@@ -105,7 +105,7 @@ let events2004 = [
         owner: 'WN',
         start: 'WN',
         o_site: '040618_WN',
-        map: ['wn_2004_06_19', 'wn_2004_06_20']
+        map: ['wn_2004_06_19','wn_2004_06_20','pervomayskoe_2004']
     },
     {
         id: 'SPB_20040622_1',

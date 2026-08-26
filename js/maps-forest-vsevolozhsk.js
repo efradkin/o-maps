@@ -5,7 +5,6 @@ let vsevolozhskMaps = [
         name: 'Воейково',
         year: 1977,
         logo: 'sparta_1977.jpg',
-        info: 'VII Зимняя спартакиада.',
         url: './maps/forest/vsevolozhsk/voeykovo_1977.webp',
         link: './original_maps/forest/vsevolozhsk/voeykovo_1977_M_omaps.jpg',
         bounds: [[59.9717228, 30.668807], [59.9691026, 30.7217216], [59.9487785, 30.6638718]]
@@ -103,7 +102,6 @@ let vsevolozhskMaps = [
         start: 'REPORT',
         year: 1982,
         startYear: 1985,
-        info: '21,27.04. Открытие сезона ЛГС ДСО "Спартак".',
         results: './docs/1985/1985_04_21_gdacha_omaps.pdf',
         url: './maps/forest/vsevolozhsk/golubaya_dacha_1982.webp',
         link: ['./original_maps/forest/vsevolozhsk/gdacha_1982_omaps.webp','./original_maps/starts/other/gdacha_1985_04_21_M_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_M_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_W_relief_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_21_MW13_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_MB_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WA_omaps.jpg','./original_maps/starts/other/gdacha_1985_04_27_WB_omaps.jpg'],

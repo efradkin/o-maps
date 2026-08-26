@@ -1747,7 +1747,6 @@ let cityMaps = [
         year: 2023,
         url: './maps/city/gertsena_2023.webp',
         link: ['./original_maps/city/gertsena_2023_omaps.gif','./original_maps/city/gertsena_2023_omaps.pdf'],
-        info: 'Герценовское кольцо.',
         bounds: [[59.9361932, 30.3152275], [59.9361287, 30.3262997], [59.9303879, 30.3152704]],
         logo: 'gertsena.gif',
         author: 'SLDNKV',
@@ -2052,7 +2051,6 @@ let cityMaps = [
         url: './maps/city/zelenogorsk_2025.webp',
         link: './original_maps/city/zelenogorsk_2025_omaps.jpg',
         bounds: [[60.2034073, 29.706645], [60.202117, 29.7179103], [60.196817, 29.7040057]],
-        info: 'Невский спринт.',
         author: 'SVCHK',
         owner: 'SFSO_SPB',
         type: ['CITY']
@@ -2062,7 +2060,6 @@ let cityMaps = [
         year: 2012,
         url: './maps/city/molodezhnoe_zarya_2012.webp',
         link: ['./original_maps/city/molodezhnoe_zarya_2012_omaps.gif','./original_maps/city/molodezhnoe_zarya_2012_omaps.ocd'],
-        info: 'Слёт школьных спортивных клубов. Игра на местности.',
         bounds: [[60.1925187, 29.515779], [60.1928921, 29.5215082], [60.1854782, 29.5153499]],
         author: 'FDRV_L',
         type: ['CITY']

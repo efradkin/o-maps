@@ -15,7 +15,7 @@ let wnStartsMaps = [
         start: 'WN',
         url: './maps/starts/wn/wn_1989_06_23.webp',
         link: './original_maps/starts/wn/wn_1989_06_23_omaps.jpg',
-        info: 'Ночной старт, <a href="./docs/1989/1989_06_23_wn_omaps.pdf">Результаты многодневки</a>.',
+        info: 'Ночной старт.',
         bounds: [[60.553566, 30.306344], [60.5525533, 30.3370714], [60.5317015, 30.304327]],
         author: ['MLVA_M','KUOKNN_M'],
     },

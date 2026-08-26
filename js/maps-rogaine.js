@@ -88,7 +88,6 @@ let rogaineMaps = [
     {
         name: 'Шапки',
         year: 2026,
-        info: 'Ski Adventure.',
         url: './maps/rogaine/shapki_ski_adventure_2026.webp',
         link: './original_maps/rogaine/shapki_ski_adventure_2026_omaps.gif',
         bounds: [[59.6345647, 31.0883904], [59.6463644, 31.2029743], [59.5847394, 31.1049557]],
@@ -98,7 +97,6 @@ let rogaineMaps = [
     {
         name: 'Шапки',
         year: 2019,
-        info: 'КЛО 2019, 2024.',
         url: './maps/rogaine/shapki_KLO_2024.webp',
         link: ['./original_maps/rogaine/shapki_KLO_2019_omaps.webp','./original_maps/rogaine/shapki_KLO_2024_omaps.gif'],
         bounds: [[59.6296181, 31.1240101], [59.6245839, 31.2547302], [59.5686797, 31.1125088]],
@@ -168,8 +166,7 @@ let rogaineMaps = [
     {
         name: 'Лосево',
         year: 2024,
-        info: 'КЛО',
-        url: './maps/rogaine/losevo_2024.webp',
+        url: './maps/rogaine/losevo_rogaine_2024.webp',
         link: './original_maps/rogaine/losevo_2024_omaps.jpg',
         bounds: [[60.7028445, 29.8855591], [60.6972999, 29.9887276], [60.6722117, 29.8792076]],
         author: 'RYLOV_V',
@@ -246,17 +243,15 @@ let rogaineMaps = [
         year: 2015,
         url: './maps/rogaine/pervomajskoe_2015.webp',
         bounds: [[60.440158, 29.6357918], [60.4333824, 29.7442818], [60.4001616, 29.6249771]],
-        info: 'RedFox мультирогейн.',
         owner: 'WN',
         type: ['ROGAINE']
     },
     {
         name: 'Первомайское',
         year: 2023,
-        url: './maps/rogaine/pervomajskoe_2023.webp',
+        url: './maps/rogaine/pervomajskoe_rogaine_2023.webp',
         link: './original_maps/rogaine/pervomajskoe_2023_omaps.jpg',
         bounds: [[60.4404968, 29.6665192], [60.4342718, 29.7616196], [60.3866347, 29.6528721]],
-        info: 'Финал КЛО.',
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
         type: ['ROGAINE']
@@ -286,7 +281,6 @@ let rogaineMaps = [
         url: './maps/rogaine/garbolovo_strekozy_2011.webp',
         link: './original_maps/rogaine/garbolovo_strekozy_2011_omaps.jpg',
         bounds: [[60.4033411, 30.4367638], [60.3980842, 30.5216503], [60.3473793, 30.4195976]],
-        info: 'Рогейн от Стрекозаек. По материалам В.Л. Чегаровского.',
         owner: 'STRKZK',
         type: ['ROGAINE']
     },
@@ -296,7 +290,6 @@ let rogaineMaps = [
         url: './maps/rogaine/garbolovo_2022.webp',
         // link: './original_maps/rogaine/garbolovo_2022_omaps.jpg',
         bounds: [[60.3915542, 30.4400253], [60.3777268, 30.5541801], [60.3520924, 30.418911]],
-        info: 'Финал КЛО.',
         author: 'RYLOV_V',
         owner: 'MULTSPORT',
         type: ['ROGAINE']
@@ -359,7 +352,6 @@ let rogaineMaps = [
     {
         name: 'Городок',
         year: 2023,
-        info: 'Лужский Меридиан-67.',
         url: './maps/rogaine/gorodok_lm_2023.webp',
         link: './original_maps/rogaine/gorodok_lm_2023_omaps.gif',
         o_gps: 16100,
@@ -370,7 +362,6 @@ let rogaineMaps = [
     {
         name: 'оз Толони',
         year: 2025,
-        info: 'Лужский приключенческий рогейн, "Винни-Пух…ing"',
         url: './maps/rogaine/toloni_2025.webp',
         link: './original_maps/rogaine/toloni_2025_rogaine_omaps.gif',
         o_gps: 23164,
@@ -437,7 +428,6 @@ let rogaineMaps = [
     {
         name: 'Поляны',
         year: 2005,
-        info: 'Ref Fox Adventure Race 2004.',
         url: './maps/rogaine/polyany_2005.webp',
         link: './original_maps/rogaine/polyany_2005_omaps.jpg',
         bounds: [[60.3108186, 29.2855597], [60.3104573, 29.3270159], [60.2870673, 29.2820406]],
@@ -447,8 +437,7 @@ let rogaineMaps = [
     {
         name: 'Медное-Пасторское',
         year: 2024,
-        info: 'КЛО',
-        url: './maps/rogaine/mednoe_2024.webp',
+        url: './maps/rogaine/mednoe_rogaine_2024.webp',
         link: './original_maps/rogaine/mednoe_2024_omaps.jpg',
         bounds: [[60.2514825, 29.9868393], [60.2355931, 30.1762676], [60.2101881, 29.9719906]],
         author: ['RYLOV_V','CHGRVSKY_Y','CHGRVSKY_V'],
@@ -490,7 +479,6 @@ let rogaineMaps = [
     {
         name: 'Всеволожск',
         year: 2015,
-        info: 'Кубок Всеволожского р-на.',
         url: './maps/rogaine/vsevolozhsk_2015.webp',
         link: './original_maps/rogaine/vsevolozhsk_2015_omaps.jpg',
         bounds: [[60.0338161, 30.5636215], [60.0341591, 30.6666183], [59.9682435, 30.5634499]],
@@ -501,8 +489,7 @@ let rogaineMaps = [
     {
         name: 'Мельничный Ручей',
         year: 2016,
-        info: 'Кубок Всеволожского р-на.',
-        url: './maps/rogaine/melnichny_ruchej_2016.webp',
+        url: './maps/rogaine/melnichny_ruchej_rogaine_2016.webp',
         link: './original_maps/rogaine/melnichny_ruchej_2016_omaps.jpg',
         bounds: [[60.0389603, 30.6360626], [60.0388745, 30.7165718], [59.9660097, 30.635891]],
         author: 'RYLOV_V',

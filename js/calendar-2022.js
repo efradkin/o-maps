@@ -1731,7 +1731,8 @@ let events2022 = [
         reg: 'http://www.multsport.ru/starts/klo-final-22/registration.html',
         fmt: 'рогейн 4 часа. Велосипедный и беговой зачеты.',
         owner: 'MULTSPORT',
-        o_site: '221022r'
+        o_site: '221022r',
+        map: 'garbolovo_2022'
     },
     {
         id: 'SPB_20221022_2',

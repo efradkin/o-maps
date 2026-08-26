@@ -484,6 +484,13 @@ let starts = {
         region: 'N_NOVGOROD',
         logo: 'ussr_1991.webp'
     },
+    WCO_1992: {
+        major: true,
+        retro: true,
+        short: 'Кубок мира',
+        name: '<a href="https://o-site.spb.ru/history/Knots/wc-92.html">Кубок мира</a>',
+        logo: 'owc_1992.jpg'
+    },
     LENINGRAD_30: {
         major: true,
         retro: true,

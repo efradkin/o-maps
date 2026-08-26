@@ -7,6 +7,15 @@ let eventsEarly = [
         map: 'rappolovo_1963'
     },
     {
+        id: 'SPB_19640919_1',
+        date: '1964-09-19',
+        endDate: '1964-09-20',
+        place: 'Воронцовское',
+        name: 'Первенство ЛОС ДСО "Труд" по туристскому двоеборью',
+        fmt: 'Ориентирование в заданном направлении, ночное, командное.',
+        map: 'vorontsovskoe_1964'
+    },
+    {
         id: 'SPB_19660311_1',
         date: '1966-03-11',
         place: 'Юкки',
@@ -23,6 +32,13 @@ let eventsEarly = [
         fmt: 'маркир-эстафета',
         start: 'MEET_1966',
         map: 'orekhovo_1966'
+    },
+    {
+        id: 'SPB_19670923_1',
+        date: '1967-09-23',
+        place: 'Заходское',
+        name: 'Первенство Ленинграда',
+        map: 'zahodskoe_1967'
     },
     {
         id: 'SPB_19680913_1',
@@ -1063,8 +1079,9 @@ let eventsEarly = [
         date: '1988-10-07',
         endDate: '1988-10-08',
         name: 'День Конституции СССР',
-        info: '<a href="./docs/1988/simagino_1988_10_07/doc_4_omaps.jpg">Информация</a>, <a href="./docs/1988/simagino_1988_10_07/doc_3_omaps.jpg">положение</a>, <a href="./docs/1988/simagino_1988_10_07/doc_5_omaps.jpg">7.10,МА(10км)</a>, <a href="./docs/1988/simagino_1988_10_07/doc_6_omaps.jpg">9.10,МА(11км)</a>, <a href="./docs/1988/simagino_1988_10_07/doc_7_omaps.jpg">7.10,ЖА(8км)</a>, <a href="./docs/1988/simagino_1988_10_07/doc_8_omaps.jpg">8.10,ЖА(7км)</a>.',
-        planner: 'TRSV'
+        docs: ['1988/simagino_1988_10_07', 8],
+        planner: 'TRSV',
+        map: 'simagino_1988'
     },
     {
         id: 'SPB_19881015_1',
@@ -1758,6 +1775,7 @@ let eventsEarly = [
         endDate: '1990-10-07',
         name: '"Дыхание осени" на День Конституции СССР',
         info: '<a href="./docs/1990/sosnovo_1990_10_06/doc_3_omaps.jpg">Положение</a>, <a href="./docs/1990/sosnovo_1990_10_06/doc_4_omaps.jpg">МА</a>.',
+        docs: ['1990/sosnovo_1990_10_06', 4],
         map: 'sosnovo_1990_10_06'
     },
     {
@@ -2396,6 +2414,14 @@ let eventsEarly = [
         map: 'rzhevsky_1990'
     },
     {
+        id: 'SPB_19920516_1',
+        date: '1992-05-16',
+        place: 'Яппиля',
+        name: 'Кубок Мира',
+        map: 'yappilya_pistolet_1992',
+        start: 'WCO_1992'
+    },
+    {
         id: 'SPB_19920524_1',
         date: '1992-05-24',
         place: 'Осельки',
@@ -2720,6 +2746,14 @@ let eventsEarly = [
         start: 'MMS',
     },
     {
+        id: 'SPB_19950706_1',
+        date: '1995-07-06',
+        endDate: '1995-07-08',
+        place: 'Цвелодубово',
+        name: 'Family games',
+        map: 'tsvelodubovo_1993'
+    },
+    {
         id: 'SPB_19950903_1',
         date: '1995-09-03',
         place: 'Осельки',
@@ -2886,20 +2920,11 @@ let eventsEarly = [
         id: 'SPB_19971004_1',
         date: '1997-10-04',
         endDate: '1997-10-06',
-        place: 'Яппиля',
-        name: 'European hope',
+        place: 'Яппиля, Озерки',
+        name: 'Надежды Европы (European hope)',
         start: 'EUROPEAN_HOPE',
         res: './docs/1997/1997_10_04_european_hope_omaps.pdf',
-        map: ['ozerki_1997', 'tarasovskoe_1997']
-    },
-    {
-        id: 'SPB_19971006_1',
-        date: '1997-10-06',
-        place: 'Озерки',
-        name: 'Надежды Европы',
-        start: 'EUROPEAN_HOPE',
-        map: 'ozerki_1997',
-        res: './docs/1997/1997_10_04_european_hope_omaps.pdf'
+        map: ['ozerki_1997','tarasovskoe_1997','yappilya_pistolet_1997']
     },
     {
         id: 'SPB_19980218_1',

@@ -82,6 +82,7 @@ let events2011 = [
         place: 'Кузьмоловский',
         publish: 'https://o-site.spb.ru/race.php?id=110212',
         type: 'SKI',
+        fmt: 'маркир',
         res: 'https://o-site.spb.ru/_races/110212/110212_res.htm',
         start: 'VOLKOV_A',
         o_site: '110212',
@@ -210,7 +211,8 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110409_str/110409_res.xls',
         info: 'Открытый тренировочный старт, дистанции по памяти (А) и по выбору (В).',
         o_site: '110409_str',
-        map: 'nagorny_park_1997'
+        map: 'nagorny_park_1997',
+        owner: 'STRKZK'
     },
     {
         id: 'SPB_20110410_1',
@@ -436,7 +438,8 @@ let events2011 = [
         res: 'https://o-site.spb.ru/_races/110604_R/110604_res3.htm',
         info: 'Рогейн - 3 часа, личные соревнования',
         o_site: '110604_R',
-        map: 'garbolovo_strekozy_2011'
+        map: 'garbolovo_strekozy_2011',
+        owner: 'STRKZK'
     },
     {
         id: 'SPB_20110605_1',

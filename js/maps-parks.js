@@ -61,7 +61,6 @@ let parkMaps = [
     {
         name: 'Парк Победы',
         year: 2020,
-        info: 'Фото-квест по парку.',
         url: './maps/parks/pobedy_2020.webp',
         link: './original_maps/parks/pobedy_2020_omaps.jpg',
         bounds: [[59.8728826, 30.3193045], [59.8723118, 30.3397965], [59.864481, 30.3173947]],
@@ -785,7 +784,6 @@ let parkMaps = [
     {
         name: 'Гатчина, парк Зверинец',
         date: '2005-02-06',
-        info: 'Чемпионат России по ориентированию бегом на заснеженном грунте.',
         url: './maps/parks/gatchina_zverinets_2005.webp',
         link: ['./original_maps/parks/gatchina_zverinets_2005_omaps.jpg','./original_maps/parks/gatchina_zverinets_2005_M21_omaps.jpg'],
         bounds: [[59.5863906, 30.0801802], [59.5830665, 30.1240396], [59.566506, 30.0745583]],

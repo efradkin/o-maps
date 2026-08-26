@@ -31,7 +31,6 @@ let sosnovoMaps = [
         name: 'Снегирёвка',
         year: 1968,
         start: 'USSR_BULGARIA_1968',
-        info: 'Эстафета.',
         url: './maps/forest/sosnovo/zamostie_1968.webp',
         link: './original_maps/forest/sosnovo/zamostie_1968_omaps.jpg',
         bounds: [[60.5489242, 30.3096485], [60.5474893, 30.3637218], [60.5095687, 30.3024387]]
@@ -237,7 +236,6 @@ let sosnovoMaps = [
         year: 1969,
         url: './maps/forest/sosnovo/sosnovo_1969_01_26.webp',
         link: './original_maps/forest/sosnovo/sosnovo_1969_01_26_omaps.webp',
-        info: 'Соревнования в честь 25-летия снятия блокады Ленинграда.',
         bounds: [[60.5509498, 30.2307701], [60.5521735, 30.316515], [60.5182716, 30.233345]],
     },
     {
@@ -245,7 +243,6 @@ let sosnovoMaps = [
         year: 1974,
         url: './maps/forest/sosnovo/sosnovo_black_forest_1974.webp',
         link: ['./original_maps/forest/sosnovo/sosnovo_black_forest_1974_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_black_forest_1973_02_18_H_omaps.jpg','./original_maps/forest/sosnovo/sosnovo_black_forest_1973_02_18_W_omaps.jpg'],
-        info: 'П-во г.Ленинграда на маркированной трассе (<a href="./docs/1974_leningrad_omaps.pdf">отчёт</a>).',
         bounds: [[60.544957, 30.2189255], [60.5517938, 30.2621841], [60.5134135, 30.2360058]],
         author: ['SHRNN','GRZNVCH'],
         start: 'REPORT'
@@ -492,7 +489,6 @@ let sosnovoMaps = [
         page: 'spb',
         url: './maps/forest/sosnovo/petjajarvy_1995.webp',
         link: ['./original_maps/forest/sosnovo/petjajarvy_1995_wn_omaps.jpg','./original_maps/forest/sosnovo/petjajarvy_1995_wn_west_omaps.webp','./original_maps/forest/sosnovo/petjajarvy_1995_wn_center_omaps.webp','./original_maps/forest/sosnovo/petjajarvy_1995_wn_east_omaps.webp','./original_maps/starts/wn/wn_1996_06_21_omaps.jpg','./original_maps/starts/wn/wn_1996_06_23_omaps.jpg'],
-        info: '21-23 июня.',
         results: './docs/1996/1996_06_21_wn_omaps.pdf',
         bounds: [[60.6351318, 30.0666189], [60.6285442, 30.1611185], [60.6083101, 30.0595379]],
         author: ['LVCHV','SVTKN','KAZNTSVA_O']

@@ -317,21 +317,27 @@ function buildInfo(m, cal, events) {
         result += getRestrictedText(m);
     }
     // if (m.info || m.date || mapResults || oSite) {
-        if (m.restricted) {
-            result += '<br />'
-        }
-/*
-        if (!isDocumentsPage()) {
-            const mapDates = getMapDates(m, events);
-            if (mapDates) {
-                result += `<b>${mapDates}</b>. `;
+    /*
+            if (m.restricted) {
+                result += '<br />'
             }
-        }
-*/
+            if (!isDocumentsPage()) {
+                const mapDates = getMapDates(m, events);
+                if (mapDates) {
+                    result += `<b>${mapDates}</b>. `;
+                }
+            }
+    */
         if (m.info) {
-            result += m.info + ' ';
+            if (result) {
+                result += '<br />';
+            }
+            result += m.info;
         }
         if (events) {
+            if (result) {
+                result += '<br />';
+            }
             result += buildMapEventsDescription(m, events);
         }
         if (m.results) {

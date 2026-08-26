@@ -14,7 +14,6 @@ let ksStartsMaps = [
         name: 'Богатыри',
         start: 'KS',
         year: 1999,
-        info: 'Silva Cup',
         url: './maps/starts/ks/sc_1999_06_20.webp',
         link: './original_maps/starts/ks/sc_1999_06_20_omaps.webp',
         bounds: [[61.1177079, 29.8035049], [61.1119034, 29.8924255], [61.0875541, 29.7936344]],

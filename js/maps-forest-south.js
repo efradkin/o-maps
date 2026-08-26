@@ -671,7 +671,6 @@ let southMaps = [
         link: ['./original_maps/forest/south/nagorny_park_1997_omaps.jpg','./original_maps/forest/south/crown_hill_1997_omaps.jpg'],
         photo: './tracks/dudergof/pic_1.jpg',
         bounds: [[59.7054734, 30.1201344], [59.7034817, 30.1404762], [59.6922653, 30.1151991]],
-        info: 'Тренировка от Стрекозаек.',
         author: 'DBRTSV_V'
     },
     {

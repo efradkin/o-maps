@@ -259,7 +259,8 @@ let events2014 = [
         name: 'Тренировка от Стрекозаек',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140405_Str/140405_res.htm',
-        o_site: '140405_Str'
+        o_site: '140405_Str',
+        owner: 'STRKZK'
     },
     {
         id: 'SPB_20140416_1',

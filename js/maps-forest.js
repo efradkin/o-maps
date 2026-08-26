@@ -4,7 +4,6 @@ let forestMaps = [
     {
         name: 'Уткино',
         year: 1975,
-        info: 'Первенство Ленинграда, маркир.',
         url: './maps/forest/utkino_1975.webp',
         link: ['./original_maps/forest/utkino_1975_omaps.jpg','./original_maps/forest/utkino_cup_1975_omaps.jpg'],
         bounds: [[60.2717485, 29.1584873], [60.2671514, 29.2199421], [60.253186, 29.152565]]
@@ -79,7 +78,6 @@ let forestMaps = [
         name: 'Цвелодубово',
         year: 1993,
         area: 8,
-        info: 'Family games',
         url: './maps/forest/tsvelodubovo_1993.webp',
         link: ['./original_maps/forest/tsvelodubovo_1993_omaps.jpg','./original_maps/forest/tsvelodubovo_1993_omaps.webp'],
         bounds: [[60.4019421, 29.5470428], [60.3965154, 29.6207714], [60.3613893, 29.5355415]],
@@ -525,15 +523,13 @@ let forestMaps = [
     {
         name: 'Яппиля, оз Пистолет',
         year: 1992,
-        major: true,
-        logo: 'owc_1992.jpg',
         url: './maps/forest/yappilya_pistolet_1992.webp',
         link: ['./original_maps/forest/yappilya_pistolet_1992_omaps.webp','./original_maps/forest/yappilya_pistolet_1992_omaps.jpg','./original_maps/forest/yappilya_pistolet_1992_h21_omaps.jpg','./original_maps/forest/yappilya_pistolet_1992_h21_back_omaps.jpg'],
         bounds: [[60.2471382, 29.1260433], [60.2432193, 29.185524], [60.1843366, 29.1118813]],
-        info: '<a href="https://o-site.spb.ru/history/Knots/wc-92.html">Кубок Мира</a>.',
         author: ['CHGRVSKY_V','CHGRVSKY_Y'],
         zindex: 2,
-        region: 'SPB'
+        region: 'SPB',
+        start: 'WCO_1992'
     },
     {
         name: 'Яппиля',
@@ -696,7 +692,7 @@ let forestMaps = [
         year: 1967,
         url: './maps/forest/zahodskoe_1967.webp',
         link: './original_maps/forest/zahodskoe_1967_omaps.jpg',
-        info: '23.09. Первенство Ленинграда. Эта карта - выкопировка с топокарты 25000.',
+        info: 'Эта карта - выкопировка с топокарты 25000.',
         bounds: [[60.4159288, 29.249897], [60.4131743, 29.3575287], [60.3825204, 29.2426014]]
     },
     {
@@ -796,9 +792,8 @@ let forestMaps = [
 */
     {
         name: 'Первомайское',
-        year: 2005,
-        info: 'Белые Ночи 2005.',
-        url: './maps/forest/pervomayskoe_2005.webp',
+        year: 2004,
+        url: './maps/forest/pervomayskoe_2004.webp',
         link: './original_maps/forest/pervomayskoe_2005.jpg',
         bounds: [[60.4271985, 29.6654892], [60.4216065, 29.758358], [60.3860834, 29.654932]],
         author: ['SHRNN','RYLOV_V'],

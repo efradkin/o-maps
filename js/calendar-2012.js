@@ -247,7 +247,8 @@ let events2012 = [
         type: 'ORIENT',
         res: 'http://nat-crusta.livejournal.com/112321.html',
         photo: 'http://fotki.yandex.ru/users/skandysnail/album/129089/',
-        o_site: '120407_Str'
+        o_site: '120407_Str',
+        owner: 'STRKZK'
     },
     {
         id: 'SPB_20120408_1',
@@ -771,6 +772,14 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/120923/120923_res.htm',
         owner: 'WN',
         o_site: '120923'
+    },
+    {
+        id: 'SPB_20120927_1',
+        date: '2012-09-27',
+        place: 'Молодёжное, ДОЛ Заря',
+        name: 'Слёт школьных спортивных клубов. Игра на местности.',
+        type: 'FUN',
+        map: 'molodezhnoe_zarya_2012'
     },
     {
         id: 'SPB_20120929_1',
