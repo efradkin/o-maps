@@ -14,16 +14,20 @@ if (elName) {
 if (m.start && starts[m.start] && ('REPORT' !== m.start && 'OTHER' !== m.start)) {
     document.getElementById('map_start').innerHTML = starts[m.start].name;
 }
-let info = m.info;
+let info = '';
+if (m.info) {
+    info += m.info;
+}
+if (m.results) {
+    info += ` <a href="${m.results}">Результаты</a>.`;
+}
+if (m.o_site) {
+    info += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;
+}
+info += ' ' + buildOrderPanel(m);
 if (info) {
     let el = document.getElementById('map_info');
     if (el) {
-        if (m.results) {
-            info += ` <a href="${m.results}">Результаты</a>.`;
-        }
-        if (m.o_site) {
-            info += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо и результаты</a>.`;
-        }
         el.innerHTML = info;
     }
 }
@@ -79,6 +83,8 @@ putValue('#map_starts', mapStarts);
 let logo = logoList(m);
 if (!isEmpty(logo)) {
     document.querySelector('#map_logo img').src = './logo/' + logo[0];
+} else if (m.photo) {
+    document.querySelector('#map_logo img').src = m.photo;
 } else {
     document.querySelector('#map_logo .col-md-3').classList.remove('col-md-3');
     document.querySelector('#map_logo .col-md-9').classList.remove('col-md-9');

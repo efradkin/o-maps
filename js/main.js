@@ -1386,21 +1386,7 @@ function buildMapPopup(m) {
     }
 
     // запрос на редактуру
-    if (m.order || m.in_work) {
-        const from = buildOrderCustomer(m);
-        result += `<div class="popup-order-section">🗺️ `;
-        if (m.in_work) {
-            result += 'Карта находится в работе и пока ещё не готова';
-        } else {
-            result += 'Запрос на редактирование/составление карты';
-        }
-        if (m.order && m.order.ready) {
-            result += `. Приблизительная дата готовности - ${m.order.ready}`;
-        }
-        result += `${from ? '. Заказчик - ' + from : ''}.<br />`;
-        result += buildOrderInfo(m, true, true, false);
-        result += '</div><br />';
-    }
+    result += buildOrderPanel(m);
 
     // OCAD
     if (hasOCAD(m)) {
