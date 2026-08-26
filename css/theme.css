@@ -125,6 +125,17 @@ body.help-body section {
 }
 body.help-body section p:last-child { margin-bottom: 0; }
 
+/* важные новости (.major) — до редизайна выделялись белым фоном на бежевом
+   фоне остальных секций; теперь все секции и так белые (var(--o-surface)),
+   поэтому подсвечиваем акцентной заливкой + цветной левой полосой, как в
+   календаре для типов стартов (см. .o-main-table tr.orient и т.д.) */
+body.help-body .major section {
+    background-color: var(--o-accent-soft);
+    border-color: var(--o-accent);
+    border-left: 4px solid var(--o-accent);
+    padding-left: 24px;
+}
+
 /* Длина строки. Комфортный предел — 45–75 знаков, дальше глаз теряет начало
    следующей. Ограничиваем контейнер целиком, а не абзацы: тогда одну и ту же
    ширину получают и <small>, и списки, и вкладки, а внутри секции ничего не
