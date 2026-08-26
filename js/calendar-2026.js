@@ -2272,7 +2272,8 @@ let events2026 = [
         reg: 'http://sportident.online/entry/?id=7192',
         o_gps: {
             '1':25805,
-            '2':25814
+            '2':25814,
+            '3':25824
         },
         publish: 'https://vk.ru/wall-207717517_13895',
         video: ['https://www.youtube.com/watch?v=rbA5PLcaub0','https://vkvideo.ru/video-238805001_456239040'],

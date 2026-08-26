@@ -7,6 +7,12 @@ let rules = [
         owner: 'FSOR'
     },
     {
+        name: 'Проект новой редакции Правил вида спорта "Спортивное ориентирование"',
+        year: 2026,
+        url: 'https://rufso.ru/wp-content/uploads/2026/08/24.08.2026-ПРАВИЛА-новая-редакция.pdf',
+        owner: 'FSOR'
+    },
+    {
         name: 'International Specification for Orienteering Maps, ISOM 2017-2 rev 6',
         year: 2024,
         url: 'https://omapwiki.orienteering.sport/specifications/isom/',
