@@ -1603,20 +1603,26 @@ function buildSheetDate(m) {
     return result ? `<span class="doc-date">${result}</span>` : '';
 }
 
-function buildEventDate(evt, withYear) {
+function buildEventDate(evt, withYear, withoutWeekDays) {
     const date = new Date(evt.date);
     let day = date.getDate();
     let month = MONTHS_SHORT[date.getMonth()];
     //const year = date.getFullYear();
     let dayWeek = WEAK_DAYS_SHORT[date.getDay()];
 
-    let result = `${day} ${month} (${dayWeek})`
+    let result = `${day} ${month}`;
+    if (!withoutWeekDays) {
+        result += ` (${dayWeek})`;
+    }
     if (evt.endDate) {
         const endDate = new Date(evt.endDate);
         day = endDate.getDate();
         month = MONTHS_SHORT[endDate.getMonth()];
         dayWeek = WEAK_DAYS_SHORT[endDate.getDay()];
-        result += ` - ${day} ${month} (${dayWeek})`
+        result += ` - ${day} ${month}`
+        if (!withoutWeekDays) {
+            result += ` (${dayWeek})`;
+        }
     }
     if (withYear) {
         result += ` <sup class="cal-year">${date.getFullYear()}</sup>`;

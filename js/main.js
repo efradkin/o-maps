@@ -1318,15 +1318,14 @@ function buildMapPopup(m) {
     if (m.start) {
         info += '<b>' + getMapStarts(m) + '</b> ';
     }
+    if (m.info) {
+        info += m.info;
+    }
     if (info) {
         info += '<br />';
     }
 
     info += buildMapEventsDescription(m, events);
-
-    if (m.info) {
-        info += m.info + '<br />';
-    }
 
     // ссылки на результаты
     const mapResults = [];
@@ -1452,7 +1451,7 @@ function buildMapEventsDescription(m, events) {
 
 function buildEventDescription(m, withPlanner) {
     let info = '';
-    let dates = getMapDates(m);
+    let dates = buildEventDate(m, true, true);
     if (dates) {
         info += `<b>${dates}</b>, `;
     }
