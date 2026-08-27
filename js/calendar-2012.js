@@ -761,7 +761,8 @@ let events2012 = [
         place: 'шк №156',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120922/120922_res.htm',
-        o_site: '120922'
+        o_site: '120922',
+        map: 'school_156_2013'
     },
     {
         id: 'SPB_20120923_1',
