@@ -1565,7 +1565,8 @@ let events2023 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1557',
         res: 'https://o-site.spb.ru/_races/230922_zo/230922_Split_ZO.htm',
         owner: 'VYBORG',
-        o_site: '230922_zo'
+        o_site: '230922_zo',
+        o_gps: 17303
     },
     {
         id: 'SPB_20230922_2',
@@ -1616,6 +1617,11 @@ let events2023 = [
             'https://rutube.ru/video/d0cfec4658b9f623f39c9c6ae643feff/'
         ],
         o_site: '230924',
+        o_gps: {
+            'М45':17346,
+            'ALL':17332,
+            'Рогейн':17358
+        },
         strava: 9910454778,
         reskeep: 614
     },
