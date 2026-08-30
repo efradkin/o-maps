@@ -1139,7 +1139,7 @@ let events2022 = [
         type: 'ROGAINE',
         fmt: '5',
         link: 'https://vk.com/club91656163',
-        video: 'https://www.youtube.com/watch?v=ReS4ykzf_48',
+        video: ['https://www.youtube.com/watch?v=ReS4ykzf_48','https://vk.ru/video-208494804_456239055'],
         owner: 'LM'
     },
     {

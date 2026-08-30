@@ -614,7 +614,7 @@ let commonEvents2026 = [
         type: 'ROGAINE',
         planner: 'RYLOV_V',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        info: '<a href="https://forestadventure.ru/2026/rrc/">Пути участников</a>.',
+        info: 'Пути участников: [<a href="https://forestadventure.ru/2026/rrc/">1</a>], [<a href="https://rogainestat.ru/events/rrc-2026">2</a>].',
         photo: 'https://vk.ru/album-8292013_314304112',
         owner: 'MULTSPORT',
         map: 'kalinino_2015',
