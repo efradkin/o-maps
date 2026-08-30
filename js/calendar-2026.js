@@ -1573,7 +1573,6 @@ let events2026 = [
         res: 'https://bikeadventure.ru/arhiv/arhiv-2026-1.php',
         o_gps: 25248,
         photo: ['https://vk.ru/album-232059320_311134585','https://disk.yandex.ru/d/3K5Mr3qCRU-KJA','https://disk.yandex.ru/d/KqyAbJmFszbqyg'],
-        info: '<a href="https://rogainestat.ru/events/ba-spring-2026">Анализ</a> путей участников.',
         start: ['BA','TA'],
         owner: ['BKTV', 'SHBN'],
         map: 'olenii_ba_2026'
@@ -1642,6 +1641,7 @@ let events2026 = [
         name: 'Горный кросс-114',
         o_site: '260606R',
         reg: 'http://orgeo.ru/event/49045',
+        info: '<a href="https://rogainestat.ru/events/gk-114">Пути участников</a>.',
         o_gps: 25293,
         photo: ['https://disk.yandex.ru/d/x60hmJH6uwo26w','https://vk.com/album-31941981_311094927','https://vk.com/album-31941981_311299868'],
         type: 'ROGAINE',
@@ -1803,7 +1803,7 @@ let events2026 = [
         link: 'http://hardadventure.ru/ladoga2026',
         o_site: '260627r',
         reg: 'http://reg.o-time.ru/race/26238',
-        info: '<a href="https://ladoga.o-route.ru/">Треки участников</a>.',
+        info: '<a href="https://rogainestat.ru/events/ladoga-2026">Пути участников</a>.',
         photo: [
             'https://vk.ru/album-163764238_311421620',
             'https://vk.ru/album-163764238_311421622',
@@ -1861,7 +1861,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/50692',
         o_gps: 25541,
         photo: 'https://vk.com/album-31941981_311204277',
-        info: '<a href="https://rogainestat.ru/events/gk-115-2026">Анализ</a> путей участников.',
+        info: '<a href="https://rogainestat.ru/events/gk-115-2026">Пути участников</a>.',
         type: 'ROGAINE',
         fmt: '6(5), 3',
         map: 'lembolovo_orekhovo_peski_gk_2026',
@@ -2140,6 +2140,7 @@ let events2026 = [
         type: 'ROGAINE',
         link: 'https://hardadventure.ru/swamp2026',
         reg: 'https://reg.o-time.ru/race/26544',
+        info: '<a href="https://rogainestat.ru/events/hard-vorobevo-2026">Пути участников</a>.',
         photo: [
             'https://vk.ru/album-163764238_311700800',
             'https://vk.ru/album-163764238_311699902',
