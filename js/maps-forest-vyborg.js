@@ -555,10 +555,9 @@ let vyborgMaps = [
         start: 'MMS',
         page: 'spb',
         url: './maps/forest/vyborg/vyborg_saymenskie_dachi_2013.webp',
-        link: './original_maps/forest/vyborg/vyborg_saymenskie_dachi_2013_omaps.jpg',
+        link: ['./original_maps/forest/vyborg/vyborg_saymenskie_dachi_2013_omaps.jpg','./original_maps/starts/mms/mms_2013_saymenskie_dachi_omaps.ocd','./original_maps/starts/mms/mms_2013_courses_omaps.ocd'],
         bounds: [[60.8025662, 28.7239265], [60.7972901, 28.7942219], [60.7625554, 28.7138844]],
-        author: ['KRYLS','SMLGS','TMLNS'],
-        // planner: 'TLNV_A' TODO
+        author: ['KRYLS','SMLGS','TMLNS']
     },
     {
         name: 'Выборг, Лазаревка',

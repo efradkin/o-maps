@@ -2634,7 +2634,7 @@ let historyDocs = [
         start: 'MMS',
         year: 2010,
         info: '<a href="https://o-site.spb.ru/race.php?id=10062527">Инфо и результаты.</a>',
-        link: './original_maps/starts/mms/mms_2010_lembolovo.jpg',
+        link: './original_maps/starts/mms/mms_2010_lembolovo_omaps.jpg',
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {

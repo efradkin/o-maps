@@ -242,8 +242,37 @@ let mmsStartsMaps = [
         year: 2010,
         info: 'Сводная карта всех дней.',
         url: './maps/starts/mms/mms_2010_lembolovo.webp',
-        link: './original_maps/starts/mms/mms_2010_lembolovo.jpg',
+        link: ['./original_maps/starts/mms/mms_2010_lembolovo_omaps.jpg','./original_maps/starts/mms/mms_2010_lembolovo_omaps.ocd','./original_maps/starts/mms/mms_2010_lembolovo_courses_omaps.ocd'],
         bounds: [[60.4705884, 30.3246689], [60.4661886, 30.3818321], [60.4263513, 30.3098202]],
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Орехово, Ракитинское оз',
+        start: 'MMS',
+        date: '2010-06-25',
+        info: 'Укороченная дистанция.',
+        url: './maps/starts/mms/mms_2010_06_25.webp',
+        link: ['./original_maps/starts/mms/mms_2010_06_25_m_omaps.gif','./original_maps/starts/mms/mms_2010_06_25_omaps.ocd'],
+        bounds: [[60.4487737, 30.3251410], [60.4461173, 30.3598809], [60.4364210, 30.3209138]],
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Лемболово',
+        start: 'MMS',
+        date: '2010-06-26',
+        url: './maps/starts/mms/mms_2010_06_26.webp',
+        link: ['./original_maps/starts/mms/mms_2010_06_26_m_omaps.gif','./original_maps/starts/mms/mms_2010_06_26_omaps.ocd'],
+        bounds: [[60.4478953, 30.3159142], [60.4443233, 30.3624880], [60.4286016, 30.3091228]],
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Орехово, р Кожица',
+        start: 'MMS',
+        date: '2010-06-27',
+        info: 'Финал.',
+        url: './maps/starts/mms/mms_2010_06_27.webp',
+        link: ['./original_maps/starts/mms/mms_2010_06_27_m1_omaps.gif','./original_maps/starts/mms/mms_2010_06_27_m2_omaps.gif','./original_maps/starts/mms/mms_2010_06_27_omaps.ocd'],
+        bounds: [[60.4677963, 30.3335953], [60.4644539, 30.3798151], [60.4427832, 30.3253555]],
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
@@ -252,78 +281,154 @@ let mmsStartsMaps = [
         year: 2011,
         info: 'Календарь.',
         url: './maps/starts/mms/mms_2011_lembolovo_orekhovo.webp',
-        link: './original_maps/starts/mms/mms_2011_lembolovo_orekhovo.jpg',
+        link: ['./original_maps/starts/mms/mms_2011_lembolovo_orekhovo.jpg','./original_maps/starts/mms/mms_lembolovo_orekhovo_2011_omaps.ocd'],
         bounds: [[60.4752415, 30.2691364], [60.4655962, 30.3820038], [60.4094872, 30.2463913]],
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
         start: 'MMS',
-        year: 2012,
+        date: '2011-06-21',
+        info: 'Укороченная дистанция.',
+        url: './maps/starts/mms/mms_2011_06_21.webp',
+        link: ['./original_maps/starts/mms/mms_2011_06_21_m_omaps.gif','./original_maps/starts/mms/mms_2011_06_21_omaps.ocd'],
+        bounds: [[60.4218607, 30.3084898], [60.4202507, 30.3307199], [60.4126022, 30.3058290]],
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Лемболово',
+        start: 'MMS',
+        date: '2011-06-22',
+        url: './maps/starts/mms/mms_2011_06_22.webp',
+        link: ['./original_maps/starts/mms/mms_2011_06_22_m_omaps.gif','./original_maps/starts/mms/mms_2011_06_22_omaps.ocd'],
+        bounds: [[60.4463395, 30.3128242], [60.4433124, 30.3482723], [60.4259065, 30.3059578]],
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Лемболово',
+        start: 'MMS',
+        date: '2011-06-23',
+        url: './maps/starts/mms/mms_2011_06_23.webp',
+        link: ['./original_maps/starts/mms/mms_2011_06_23_m_omaps.gif','./original_maps/starts/mms/mms_2011_06_23_omaps.ocd'],
+        bounds: [[60.4233011, 30.2709389], [60.4201024, 30.3088331], [60.4094236, 30.2660036]],
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Лемболово',
+        start: 'MMS',
+        date: '2011-06-24',
+        info: 'Укороченная дистанция.',
+        url: './maps/starts/mms/mms_2011_06_24.webp',
+        link: ['./original_maps/starts/mms/mms_2011_06_24_m_omaps.gif','./original_maps/starts/mms/mms_2011_06_24_omaps.ocd'],
+        bounds: [[60.4260547, 30.3146267], [60.4242755, 30.3363419], [60.4152296, 30.3116226]],
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Лемболово',
+        start: 'MMS',
+        date: '2011-06-25',
+        url: './maps/starts/mms/mms_2011_06_25.webp',
+        link: ['./original_maps/starts/mms/mms_2011_06_25_m_omaps.gif','./original_maps/starts/mms/mms_2011_06_25_omaps.ocd'],
+        bounds: [[60.4390359, 30.2564764], [60.4349282, 30.3045845], [60.4212887, 30.2503824]],
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Лемболово',
+        start: 'MMS',
+        date: '2011-06-26',
+        url: './maps/starts/mms/mms_2011_06_26.webp',
+        link: ['./original_maps/starts/mms/mms_2011_06_26_m1_omaps.gif','./original_maps/starts/mms/mms_2011_06_26_m2_omaps.gif','./original_maps/starts/mms/mms_2011_06_26_omaps.ocd'],
+        bounds: [[60.4338059, 30.2841139], [60.4295705, 30.3337669], [60.4178356, 30.2786207]],
+        author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
+    },
+    {
+        name: 'Лемболово',
+        start: 'MMS',
+        date: '2012-06-26',
         info: 'Спринт.',
         url: './maps/starts/mms/mms_2012_06_26.webp',
-        link: './original_maps/starts/mms/mms_2012_06_26.jpg',
+        link: ['./original_maps/starts/mms/mms_2012_06_26_omaps.jpg','./original_maps/starts/mms/mms_2012_06_26_m_omaps.gif','./original_maps/starts/mms/mms_2012_06_26_omaps.ocd'],
         bounds: [[60.4391841, 30.3140903], [60.4374797, 30.3347111], [60.4299412, 30.3124166]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
         start: 'MMS',
-        year: 2012,
+        date: '2012-06-27',
         info: 'Классика.',
         url: './maps/starts/mms/mms_2012_06_27.webp',
-        link: './original_maps/starts/mms/mms_2012_06_27.jpg',
+        link: ['./original_maps/starts/mms/mms_2012_06_27_omaps.jpg','./original_maps/starts/mms/mms_2012_06_27_m_omaps.gif','./original_maps/starts/mms/mms_2012_06_27_omaps.ocd'],
         bounds: [[60.4392053, 30.3331232], [60.4363893, 30.3676701], [60.41845, 30.3264284]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
         start: 'MMS',
-        year: 2012,
+        date: '2012-06-28',
         info: 'Классика.',
         url: './maps/starts/mms/mms_2012_06_28.webp',
-        link: './original_maps/starts/mms/mms_2012_06_28.jpg',
+        link: ['./original_maps/starts/mms/mms_2012_06_28_omaps.jpg','./original_maps/starts/mms/mms_2012_06_28_m_omaps.gif','./original_maps/starts/mms/mms_2012_06_28_omaps.ocd'],
         bounds: [[60.4068593, 30.2784491], [60.4043161, 30.3081036], [60.3871861, 30.2711105]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
         start: 'MMS',
-        year: 2012,
+        date: '2012-06-30',
         info: 'Классика.',
         url: './maps/starts/mms/mms_2012_06_30.webp',
-        link: './original_maps/starts/mms/mms_2012_06_30.jpg',
+        link: ['./original_maps/starts/mms/mms_2012_06_30_omaps.jpg','./original_maps/starts/mms/mms_2012_06_30_m_omaps.gif','./original_maps/starts/mms/mms_2012_06_30_omaps.ocd'],
         bounds: [[60.4221572, 30.2785778], [60.4193398, 30.3096056], [60.4033623, 30.2728271]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
         start: 'MMS',
-        year: 2012,
+        date: '2012-07-01',
         info: 'Финал.',
         url: './maps/starts/mms/mms_2012_07_01.webp',
-        link: './original_maps/starts/mms/mms_2012_07_01.jpg',
+        link: ['./original_maps/starts/mms/mms_2012_07_01_omaps.jpg','./original_maps/starts/mms/mms_2012_07_01_m_omaps.gif','./original_maps/starts/mms/mms_2012_07_01_omaps.ocd'],
         bounds: [[60.4409202, 30.2616692], [60.4343989, 30.332737], [60.4167127, 30.2536869]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Лемболово',
         start: 'MMS',
-        year: 2012,
-        info: 'Спринт.',
+        date: '2012-06-29',
+        info: 'Гандикап, спринт.',
         url: './maps/starts/mms/mms_2012_06_29.webp',
-        link: './original_maps/starts/mms/mms_2012_06_29.jpg',
+        link: ['./original_maps/starts/mms/mms_2012_06_29_omaps.jpg','./original_maps/starts/mms/mms_2012_06_29_gandikap_omaps.gif','./original_maps/starts/mms/mms_2012_06_29_gandikap_omaps.ocd','./original_maps/starts/mms/mms_2012_06_29_sprint_omaps.gif','./original_maps/starts/mms/mms_2012_06_29_sprint_omaps.ocd'],
         bounds: [[60.430333, 30.300293], [60.427495, 30.3334236], [60.4142337, 30.2947998]],
         author: ['VRBY','KVZN','NSNV','TKMKV_K']
     },
     {
         name: 'Выборг, Сайменские дачи',
         start: 'MMS',
-        year: 2013,
+        date: '2013-06-28',
         info: 'Спринт.',
         url: './maps/starts/mms/mms_2013_06_28.webp',
-        link: './original_maps/starts/mms/mms_2013_06_28_omaps.jpg',
+        link: ['./original_maps/starts/mms/mms_2013_06_28_m_omaps.gif','./original_maps/starts/mms/mms_2013_06_28_w_omaps.jpg'],
         bounds: [[60.7718608, 28.7551689], [60.7702472, 28.7842655], [60.7592014, 28.7519503]],
+        author: ['KRYLS','SMLGS','TMLNS'],
+        zindex: 2
+    },
+    {
+        name: 'Выборг, Сайменские дачи',
+        start: 'MMS',
+        date: '2013-06-29',
+        url: './maps/starts/mms/mms_2013_06_29.webp',
+        link: './original_maps/starts/mms/mms_2013_06_29_omaps.gif',
+        bounds: [[60.7991117, 28.7255573], [60.7964526, 28.7669277], [60.7822528, 28.7216520]],
+        author: ['KRYLS','SMLGS','TMLNS'],
+        zindex: 2
+    },
+    {
+        name: 'Выборг, Сайменские дачи',
+        start: 'MMS',
+        date: '2013-06-30',
+        url: './maps/starts/mms/mms_2013_06_30.webp',
+        link: './original_maps/starts/mms/mms_2013_06_30_omaps.gif',
+        bounds: [[60.7863375, 28.7354279], [60.7836354, 28.7765408], [60.7711902, 28.7312651]],
         author: ['KRYLS','SMLGS','TMLNS'],
         zindex: 2
     },
@@ -333,18 +438,35 @@ let mmsStartsMaps = [
         year: 2014,
         info: 'Сводная карта всех дней + детская дистанция.',
         url: './maps/starts/mms/mms_2014_polyany.webp',
-        link: ['./original_maps/starts/mms/mms_2014_polyany.pdf','./original_maps/starts/mms/mms_2014_kids_omaps.jpg'],
+        link: ['./original_maps/starts/mms/mms_2014_polyany.pdf','./original_maps/starts/mms/mms_2014_kids_omaps.jpg','./original_maps/starts/mms/mms_2014_omaps.ocd','./original_maps/starts/mms/mms_2014_cources_omaps.ocd'],
         bounds: [[60.3233146, 29.2662477], [60.3149632, 29.3379164], [60.2925761, 29.2523003]],
         author: 'SHRNN'
     },
     {
         name: 'Поляны',
         start: 'MMS',
-        year: 2014,
-        info: 'Классика.',
+        date: '2014-06-27',
+        url: './maps/starts/mms/mms_2014_06_27.webp',
+        link: './original_maps/starts/mms/mms_2014_06_27_omaps.gif',
+        bounds: [[60.2987644, 29.2981339], [60.2961063, 29.3209219], [60.2882585, 29.2934561]],
+        author: 'SHRNN'
+    },
+    {
+        name: 'Поляны',
+        start: 'MMS',
+        date: '2014-06-29',
         url: './maps/starts/mms/mms_2014_06_29.webp',
-        link: './original_maps/starts/mms/mms_2014_06_29.gif',
+        link: ['./original_maps/starts/mms/mms_2014_06_29_m_omaps.gif','./original_maps/starts/mms/mms_2014_06_29_w_omaps.gif'],
         bounds: [[60.3175135, 29.273243], [60.3116476, 29.3230247], [60.3008694, 29.2649603]],
+        author: 'SHRNN'
+    },
+    {
+        name: 'Поляны',
+        start: 'MMS',
+        date: '2014-06-28',
+        url: './maps/starts/mms/mms_2014_06_28.webp',
+        link: './original_maps/starts/mms/mms_2014_06_28_omaps.gif',
+        bounds: [[60.3096708, 29.3028975], [60.3065672, 29.3316507], [60.2970633, 29.2967176]],
         author: 'SHRNN'
     },
     {
@@ -353,17 +475,35 @@ let mmsStartsMaps = [
         year: 2015,
         info: 'Сводная карта всех дней.',
         url: './maps/starts/mms/mms_2015_krasna_dolina.webp',
-        link: './original_maps/starts/mms/mms_2015_krasna_dolina.pdf',
+        link: ['./original_maps/starts/mms/mms_2015_krasna_dolina.pdf','./original_maps/forest/kamenka_2015_omaps.ocd','./original_maps/starts/mms/mms_2015_courses.ocd'],
         bounds: [[60.4307565, 28.9990997], [60.4258853, 29.0445042], [60.4003312, 28.9857101]],
         author: ['DJCHKV','STLV_S']
     },
     {
         name: 'Красная долина',
         start: 'MMS',
-        year: 2015,
+        date: '2015-06-26',
+        url: './maps/starts/mms/mms_2015_06_26.webp',
+        link: ['./original_maps/starts/mms/mms_2015_06_26_omaps.gif','./original_maps/starts/mms/mms_2015_06_26_courses_omaps.ocd'],
+        bounds: [[60.4142549, 29.0047646], [60.4114791, 29.0289259], [60.3994409, 28.9984989]],
+        author: ['DJCHKV','STLV_S']
+    },
+    {
+        name: 'Красная долина',
+        start: 'MMS',
+        date: '2015-06-27',
+        url: './maps/starts/mms/mms_2015_06_27.webp',
+        link: ['./original_maps/starts/mms/mms_2015_06_27_omaps.gif','./original_maps/starts/mms/mms_2015_06_27_courses_omaps.ocd'],
+        bounds: [[60.4265207, 28.9999580], [60.4234070, 29.0297842], [60.4057361, 28.9907742]],
+        author: ['DJCHKV','STLV_S']
+    },
+    {
+        name: 'Красная долина',
+        start: 'MMS',
+        date: '2015-06-28',
         info: 'Финал.',
         url: './maps/starts/mms/mms_2015_06_28.webp',
-        link: './original_maps/starts/mms/mms_2015_06_28.gif',
+        link: ['./original_maps/starts/mms/mms_2015_06_28_omaps.gif','./original_maps/starts/mms/mms_2015_06_28_courses_omaps.ocd'],
         bounds: [[60.4273255, 29.0048504], [60.4233223, 29.0432167], [60.4104832, 28.9973402]],
         author: ['DJCHKV','STLV_S']
     },
@@ -373,9 +513,10 @@ let mmsStartsMaps = [
         year: 2017,
         info: 'Сводная карта всех дней.',
         url: './maps/starts/mms/mms_2017_korobitsyno.webp',
-        link: './original_maps/starts/mms/mms_2017_korobitsyno.pdf',
+        link: ['./original_maps/starts/mms/mms_2017_korobitsyno.pdf','./original_maps/forest/michura/korobitsyno_2017_omaps.ocd','./original_maps/forest/michura/korobitsyno_mms_2017_courses_omaps.ocd'],
         bounds: [[60.547004, 29.80093], [60.5445139, 29.864316], [60.5109208, 29.7944927]],
-        author: ['DJCHKV','STLV_S','PPV_D']
+        author: ['DJCHKV','STLV_S','PPV_D'],
+        owner: 'KURDUMOV'
     },
     {
         name: 'Коробицыно',
@@ -383,29 +524,72 @@ let mmsStartsMaps = [
         year: 2016,
         info: 'Сводная карта всех дней.',
         url: './maps/starts/mms/mms_2016_korobitsyno.webp',
-        link: './original_maps/starts/mms/mms_2016_korobitsyno.pdf',
+        link: ['./original_maps/starts/mms/mms_2016_korobitsyno.pdf','./original_maps/starts/mms/korobitsyno_mms_2016_omaps.ocd','./original_maps/starts/mms/mms_2016_courses_omaps.ocd'],
         bounds: [[60.5399341, 29.8003292], [60.5379711, 29.8596382], [60.5183138, 29.7965527]],
-        author: ['DJCHKV','STLV_S','PPV_D']
+        author: ['DJCHKV','STLV_S','PPV_D'],
+        owner: 'KURDUMOV'
     },
     {
         name: 'Коробицыно',
         start: 'MMS',
-        year: 2016,
+        date: '2016-06-24',
+        url: './maps/starts/mms/mms_2016_06_24.webp',
+        link: ['./original_maps/starts/mms/mms_2016_06_24_omaps.gif','./original_maps/starts/mms/mms_2016_06_24_courses_omaps.ocd'],
+        bounds: [[60.5355225, 29.8172808], [60.5340026, 29.8607969], [60.5163918, 29.8138905]],
+        author: ['DJCHKV','STLV_S','PPV_D'],
+        owner: 'KURDUMOV'
+    },
+    {
+        name: 'Коробицыно',
+        start: 'MMS',
+        date: '2016-06-25',
+        url: './maps/starts/mms/mms_2016_06_25.webp',
+        link: ['./original_maps/starts/mms/mms_2016_06_25_omaps.gif','./original_maps/starts/mms/mms_2016_06_25_courses_omaps.ocd'],
+        bounds: [[60.5410527, 29.7995996], [60.5394697, 29.8516989], [60.5229600, 29.7965956]],
+        author: ['DJCHKV','STLV_S','PPV_D'],
+        owner: 'KURDUMOV'
+    },
+    {
+        name: 'Коробицыно',
+        start: 'MMS',
+        date: '2016-06-26',
         info: 'Финал.',
         url: './maps/starts/mms/mms_2016_06_26.webp',
-        link: './original_maps/starts/mms/mms_2016_06_26.gif',
+        link: ['./original_maps/starts/mms/mms_2016_06_26_omaps.gif','./original_maps/starts/mms/mms_2016_06_26_courses_omaps.ocd'],
         bounds: [[60.5362402, 29.8069811], [60.5344882, 29.857192], [60.5185039, 29.8038054]],
-        author: ['DJCHKV','STLV_S','PPV_D']
+        author: ['DJCHKV','STLV_S','PPV_D'],
+        owner: 'KURDUMOV'
     },
     {
         name: 'Коробицыно',
         start: 'MMS',
-        year: 2017,
+        date: '2017-06-23',
+        url: './maps/starts/mms/mms_2017_06_23.webp',
+        link: ['./original_maps/starts/mms/mms_2017_06_23_omaps.gif','./original_maps/starts/mms/mms_2017_06_23_courses_omaps.ocd'],
+        bounds: [[60.5391109, 29.8165941], [60.5370424, 29.8622131], [60.5253040, 29.8145771]],
+        author: ['DJCHKV','STLV_S','PPV_D'],
+        owner: 'KURDUMOV'
+    },
+    {
+        name: 'Коробицыно',
+        start: 'MMS',
+        date: '2017-06-24',
+        url: './maps/starts/mms/mms_2017_06_24.webp',
+        link: ['./original_maps/starts/mms/mms_2017_06_24_omaps.gif','./original_maps/starts/mms/mms_2017_06_24_courses_omaps.ocd'],
+        bounds: [[60.5468563, 29.8057795], [60.5450626, 29.8442745], [60.5291046, 29.8032045]],
+        author: ['DJCHKV','STLV_S','PPV_D'],
+        owner: 'KURDUMOV'
+    },
+    {
+        name: 'Коробицыно',
+        start: 'MMS',
+        date: '2017-06-25',
         info: 'Финал.',
         url: './maps/starts/mms/mms_2017_06_25.webp',
-        link: './original_maps/starts/mms/mms_2017_06_25.gif',
+        link: ['./original_maps/starts/mms/mms_2017_06_25_omaps.gif','./original_maps/starts/mms/mms_2017_06_25_courses_omaps.ocd'],
         bounds: [[60.5332638, 29.8265076], [60.5316171, 29.8589516], [60.5104983, 29.8228168]],
-        author: ['DJCHKV','STLV_S','PPV_D']
+        author: ['DJCHKV','STLV_S','PPV_D'],
+        owner: 'KURDUMOV'
     },
     {
         name: 'Петяярви, р Волчья',
@@ -430,7 +614,7 @@ let mmsStartsMaps = [
     {
         name: 'Петяярви, р Волчья',
         start: 'MMS',
-        year: 2018,
+        date: '2018-06-22',
         info: 'Спринт.',
         url: './maps/starts/mms/mms_2018_06_22.webp',
         link: './original_maps/starts/mms/mms_2018_06_22.jpg',
@@ -460,7 +644,7 @@ let mmsStartsMaps = [
     {
         name: 'Сосново, Уловное оз',
         start: 'MMS',
-        year: 2019,
+        date: '2019-06-21',
         info: 'Спринт.',
         url: './maps/starts/mms/mms_2019_06_21.webp',
         link: './original_maps/starts/mms/mms_2019_06_21.jpg',

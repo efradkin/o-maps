@@ -105,6 +105,9 @@ let owners = {
         name: '© Клуб "Карта" Санкт-Петербургского дворца творчества юных',
         logo: 'anichkov.gif'
     },
+    KURDUMOV: {
+        name: '© Александр Курдюмов'
+    },
     KP31: {
         name: 'Контакты правообладателя (КП31): controlpoint31@gmail.com.',
         logo: 'kp31.gif'

@@ -610,7 +610,7 @@ let events2014 = [
         start: 'MMS',
         o_site: '14062729',
         o_gps: 223,
-        map: ['mms_2014_polyany', 'mms_2014_06_29'],
+        map: ['polyany_2016','mms_2014_polyany','mms_2014_06_27','mms_2014_06_28','mms_2014_06_29'],
     },
     {
         id: 'SPB_20140628_1',

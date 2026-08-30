@@ -456,7 +456,7 @@ let vaskelovoMaps = [
         excluded: true, // т.к. есть отчасти дублирующие карты от Родионова
         area: 42,
         url: './maps/forest/vaskelovo/lembolovo_orekhovo_2023.webp',
-        link: './original_maps/forest/vaskelovo/lembolovo_orekhovo_2023_omaps.webp',
+        link: ['./original_maps/forest/vaskelovo/lembolovo_orekhovo_2023_omaps.webp','./original_maps/forest/vaskelovo/lembolovo_orekhovo_2012_omaps.ocd'],
         bounds: [[60.4905072, 30.2636433], [60.4826849, 30.3851795], [60.3887129, 30.2347183]],
         author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
         owner: 'TOKM'

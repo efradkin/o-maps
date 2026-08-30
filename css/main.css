@@ -365,6 +365,9 @@ body.sub-index-body {
 .popup-text {
     margin-left: 170px;
     min-height: 160px;
+    ol {
+        margin-bottom: .2rem;
+    }
 }
 .mobile-popup-text {
     min-width: 300px;
@@ -391,6 +394,7 @@ body.sub-index-body {
 .popup-order-section {
     border: 1px solid lightgray;
     padding: 5px;
+    margin-top: .2rem;
 }
 .gps-info a {
     display: inline-block;

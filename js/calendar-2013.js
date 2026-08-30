@@ -691,7 +691,7 @@ let events2013 = [
         start: 'MMS',
         o_site: '13062830_MS',
         endDate: '2013-06-30',
-        map: 'mms_2013_06_28',
+        map: ['vyborg_saymenskie_dachi_2013','mms_2013_06_28','mms_2013_06_29','mms_2013_06_30'],
     },
     {
         id: 'SPB_20130706_1',

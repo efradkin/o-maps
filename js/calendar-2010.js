@@ -593,7 +593,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/10062527/100625_res.htm',
         start: 'MMS',
         o_site: '10062527',
-        map: 'mms_2010_lembolovo',
+        map: ['mms_2010_lembolovo','mms_2010_06_25','mms_2010_06_26','mms_2010_06_27'],
     },
     {
         id: 'SPB_20100703_1',

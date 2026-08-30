@@ -866,7 +866,7 @@ let events2017 = [
         start: 'MMS',
         o_site: '17062325',
         o_gps: 2492,
-        map: ['mms_2017_korobitsyno', 'mms_2017_06_25'],
+        map: ['mms_2017_korobitsyno','mms_2017_06_23','mms_2017_06_24','mms_2017_06_25'],
     },
     {
         id: 'SPB_20170701_1',

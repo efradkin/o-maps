@@ -308,9 +308,9 @@ let forestMaps = [
         name: 'Каменка',
         year: 2015,
         url: './maps/forest/kamenka_2015.webp',
-        link: './original_maps/forest/kamenka_2015_omaps.jpg',
+        link: ['./original_maps/forest/kamenka_2015_omaps.jpg','./original_maps/forest/kamenka_2015_omaps.ocd'],
         bounds: [[60.4306718, 28.9983273], [60.4257582, 29.0448475], [60.4012215, 28.9851093]],
-        owner: 'KURD',
+        owner: 'KURDUMOV',
         author: ['DJCHKV','STLV_S']
     },
     {

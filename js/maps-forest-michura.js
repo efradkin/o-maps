@@ -120,9 +120,9 @@ let michuraMaps = [
         name: 'Коробицыно',
         year: 2018,
         url: './maps/forest/michura/korobitsyno_2018.webp',
-        link: './original_maps/forest/michura/korobitsyno_2018_omaps.jpg',
+        link: ['./original_maps/forest/michura/korobitsyno_2018_omaps.jpg','./original_maps/forest/michura/korobitsyno_2017_omaps.ocd'],
         bounds: [[60.5472361, 29.801445], [60.5439441, 29.8746586], [60.5113855, 29.7944069]],
-        owner: 'KURD',
+        owner: 'KURDUMOV',
         author: ['DJCHKV','STLV_S','PPV_D']
     },
     {
