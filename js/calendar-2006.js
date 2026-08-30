@@ -302,7 +302,8 @@ let events2006 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/060514/060514_res.zip',
         info: 'Соревнования являются 2-м этапом 2-го многоэтапного Кубка ФСО СПб и 3-м этапом Кубка «Невский Азимут-2006».',
-        o_site: '060514'
+        o_site: '060514',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20060520_1',
@@ -761,7 +762,8 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/061104_om/061104_res.htm',
         info: 'Традиционные, праздничные, ноябрьские соревнования "Осенний марафон"',
         logo: 'azimut.gif',
-        o_site: '061104_om'
+        o_site: '061104_om',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20061104_2',

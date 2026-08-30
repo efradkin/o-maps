@@ -269,7 +269,8 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080509/080509_res.zip',
         info: 'Соревнования по ориентированию, посвящённые Дню Победы',
-        o_site: '080509'
+        o_site: '080509',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20080510_1',
@@ -308,7 +309,8 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080517/080517_res.htm',
         o_site: '080517',
-        map: 'lembolovo_2002'
+        map: 'lembolovo_2002',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20080517_2',
@@ -797,7 +799,8 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/081019/081019_res.htm',
         logo: 'azimut.gif',
-        o_site: '081019'
+        o_site: '081019',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20081025_1',
@@ -851,7 +854,8 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/081102/081102_res.htm',
         logo: 'azimut.gif',
         o_site: '081102',
-        map: 'orekhovo_rakitinskoe_2004'
+        map: 'orekhovo_rakitinskoe_2004',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20081102_2',
@@ -922,7 +926,8 @@ let events2008 = [
         type: 'ORIENT',
         logo: 'azimut.gif',
         o_site: '081130',
-        map: 'sosnovka_2004'
+        map: 'sosnovka_2004',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20081130_2',

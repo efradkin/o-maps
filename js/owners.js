@@ -6,6 +6,10 @@ let owners = {
         name: '© СШОР №2 ГБНОУ "СПб ГДТЮ"',
         logo: 'sdjushor2.jpg'
     },
+    AZIMUT: {
+        name: '© Азимут',
+        logo: 'azimut_retro.gif'
+    },
     BBCH_A: {
         name: '© Бибич Андрей - <a href="https://vk.com/id7840054">ВК</a> или <a href="https://t.me/andy_atta">Telegram</a>.'
     },

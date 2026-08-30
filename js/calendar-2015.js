@@ -445,7 +445,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150509/150509_res_r.htm',
         info: 'Открытые городские соревнования "День Победы" - открытие летнего ссезона. На соревнованиях возможно выполнение массовых разрядов.',
         o_site: '150509',
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20150510_1',
@@ -644,7 +645,8 @@ let events2015 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/150531_Az/150531_res.htm',
-        o_site: '150531_Az'
+        o_site: '150531_Az',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20150606_1',
@@ -1170,7 +1172,8 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/151017_Az/151017_res_st.xls',
         logo: 'azimut.gif',
-        o_site: '151017_Az'
+        o_site: '151017_Az',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20151017_3',
@@ -1252,7 +1255,8 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/151104_OM/151104_res.htm',
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции',
         logo: 'azimut.gif',
-        o_site: '151104_OM'
+        o_site: '151104_OM',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20151108_1',
@@ -1355,7 +1359,8 @@ let events2015 = [
         info: 'Серия тренировочных стартов, проводимых КСО "Азимут".',
         logo: 'azimut.gif',
         o_site: '151205',
-        map: 'sosnovka_2014'
+        map: 'sosnovka_2014',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20151206_1',

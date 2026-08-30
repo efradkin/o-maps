@@ -367,7 +367,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070509v/070509vr.htm',
         photo: 'http://photofile.ru/users/jb7/2674010/',
         info: 'Соревнования по вело-О. Старт в 10:30. Группы М, Ж и МЖ-14. Дистанция средней сложности в заданном направлении.',
-        o_site: '070509v'
+        o_site: '070509v',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20070512_1',
@@ -386,7 +387,8 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070513/070513_results.zip',
         o_site: '070513',
-        map: 'lembolovo_2002'
+        map: 'lembolovo_2002',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20070513_2',
@@ -911,7 +913,8 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/071021/071021_res.htm',
         logo: 'azimut.gif',
-        o_site: '071021'
+        o_site: '071021',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20071021_2',
@@ -983,7 +986,8 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/071105/071105_res.zip',
         logo: 'azimut.gif',
         o_site: '071105',
-        map: 'orekhovo_rakitinskoe_2004'
+        map: 'orekhovo_rakitinskoe_2004',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20071118_1',

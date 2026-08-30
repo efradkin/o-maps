@@ -515,7 +515,8 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/180509/180509_res.htm',
         info: 'ВНИМАНИЕ! При заявке на этот старт тестируется новая версия сайта o-reg.spb.ru "Старые" логин и пароль на новом сайте работают! Если возникают проблемы с заявкой - пишите на электронную почту гл. секретаря или звоните ему (см. информацию о старте).',
         o_site: '180509',
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20180513_1',
@@ -528,6 +529,7 @@ let events2018 = [
         info: 'ВНИМАНИЕ! При заявке на этот старт продолжает тестироваться новая версия сайта o-reg.spb.ru "Старые" логин и пароль на новом сайте работают! Если возникают проблемы с заявкой - пишите на электронную почту гл. секретаря или звоните ему (см. информацию о старте).',
         o_site: '180513',
         map: 'pukhtolova_gora_2025',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20180516_1',
@@ -1663,7 +1665,7 @@ let events2018 = [
         res: 'http://www.northernwind.spb.ru/videosplit/2018/pervenstvostudetov_zolotayaosen/',
         photo: 'http://vk.com/spb_orient?z=album-154221178_257632174',
         video: 'http://www.northernwind.spb.ru/videosplit/2018/pervenstvostudetov_zolotayaosen/',
-        owner: 'SFSO_SPB',
+        owner: 'AZIMUT',
         o_site: '181027_',
         reskeep: 68
     },
@@ -1852,7 +1854,8 @@ let events2018 = [
         logo: 'azimut.gif',
         o_site: '181201_NatAlka',
         reskeep: 97,
-        map: 'sosnovka_2014'
+        map: 'sosnovka_2014',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20181202_1',

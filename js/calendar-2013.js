@@ -408,7 +408,8 @@ let events2013 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130509_Az/130509_res.htm',
         info: 'Соревнования проводятся непосредственно после чемпионата СПб среди студентов ВУЗов. Начало старта через 3 часа после старта студентов.',
-        o_site: '130509_Az'
+        o_site: '130509_Az',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20130509_2',
@@ -466,7 +467,8 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130518_Az/130518_RES.htm',
         info: 'Традиционный старт, провводимый КСО Азимут в память о тех, кого уже нет с нами...',
         o_site: '130518_Az',
-        map: 'lembolovo_2002'
+        map: 'lembolovo_2002',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20130518_2',
@@ -1100,7 +1102,7 @@ let events2013 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/131026_Az/131026_res.htm',
-        owner: 'SFSO_SPB',
+        owner: 'AZIMUT',
         logo: 'azimut.gif',
         o_site: '131026_Az'
     },
@@ -1125,7 +1127,8 @@ let events2013 = [
         info: 'Традиционные праздничные осенние соревнования на удлинённой дистанции, проводимые КСО Азимут',
         logo: 'azimut.gif',
         o_site: '131104_Az',
-        map: 'lembolovo_2002'
+        map: 'lembolovo_2002',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20131113_1',

@@ -441,7 +441,8 @@ let events2022 = [
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга, с выполнением массовых разрядов',
         strava: 7112699577,
         o_site: '220509',
-        reskeep: 523
+        reskeep: 523,
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20220510_1',
@@ -556,7 +557,8 @@ let events2022 = [
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1434',
         res: 'https://o-site.spb.ru/_races/220515_AZ/220515_res_PD.htm',
         o_site: '220515_AZ',
-        map: 'orekhovo_2024'
+        map: 'orekhovo_2024',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20220518_1',
@@ -1542,7 +1544,8 @@ let events2022 = [
         res: 'http://orgeo.ru/live/#/24448',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга, с выполнением массовых разрядов',
         logo: 'azimut.gif',
-        o_site: '221001'
+        o_site: '221001',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20221001_2',
@@ -1867,7 +1870,8 @@ let events2022 = [
         strava: 8066428678,
         logo: 'azimut.gif',
         o_site: '221104_OM',
-        reskeep: 563
+        reskeep: 563,
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20221104_2',
@@ -1989,7 +1993,8 @@ let events2022 = [
         strava: 8169719874,
         logo: 'azimut.gif',
         o_site: '2022_Orientir',
-        map: 'udelny_2022'
+        map: 'udelny_2022',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20221127_1',

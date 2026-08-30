@@ -588,7 +588,8 @@ let events2023 = [
         strava: 9038712842,
         reskeep: 576,
         o_gps: 16040,
-        map: 'tsvelodubovo_south_2021'
+        map: 'tsvelodubovo_south_2021',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20230510_1',
@@ -1945,7 +1946,8 @@ let events2023 = [
         logo: 'azimut.gif',
         o_site: '231029',
         reskeep: 617,
-        map: 'serovo_2024'
+        map: 'serovo_2024',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20231101_1',
@@ -1973,7 +1975,8 @@ let events2023 = [
         logo: 'azimut.gif',
         o_site: '231104_OM',
         reskeep: 626,
-        map: 'snegirevka_2021'
+        map: 'snegirevka_2021',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20231105_1',
@@ -2072,7 +2075,8 @@ let events2023 = [
         logo: 'azimut.gif',
         strava: 10279018304,
         o_site: '2023_Orientir',
-        map: 'piskarevsky_2024'
+        map: 'piskarevsky_2024',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20231125_2',

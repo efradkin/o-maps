@@ -777,7 +777,8 @@ let events2025 = [
         o_gps: 22481,
         publish: 'https://vk.com/album-230167293_309657044',
         map: 'tsvelodubovo_south_2021',
-        reskeep: 697
+        reskeep: 697,
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20250510_1',
@@ -2745,7 +2746,8 @@ let events2025 = [
         ],
         me: 'М50',
         strava: 16261630543,
-        map: 'krivko_2021'
+        map: 'krivko_2021',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20251026_4',
@@ -2814,7 +2816,8 @@ let events2025 = [
             'М18/60': 23817
         },
         map: 'michurinskoe_2022',
-        reskeep: 816
+        reskeep: 816,
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20251104_2',
@@ -3107,7 +3110,8 @@ let events2025 = [
         o_gps: 23924,
         map: 'udelny_2021',
         strava: 16608173278,
-        me: 'МА'
+        me: 'МА',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20251206_1',

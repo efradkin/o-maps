@@ -331,7 +331,8 @@ let events2010 = [
         info: 'Соревнования, посвящённые 65-й годовщине Победы Открытое п-во СДЮСШОР Курортного р-на, посв. Дню Победы',
         fmt: 'Классика40',
         o_site: '100508_Az',
-        map: 'pukhtolova_gora_2009'
+        map: 'pukhtolova_gora_2009',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20100509_1',
@@ -397,7 +398,8 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100522_Az/100522_res.htm',
         info: 'Традиционный старт клуба Азимут.',
         o_site: '100522_Az',
-        map: 'lembolovo_2002'
+        map: 'lembolovo_2002',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20100522_2',
@@ -929,7 +931,8 @@ let events2010 = [
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции, проводимы клубом Азимут',
         logo: 'azimut.gif',
         o_site: '101104_Az',
-        map: 'lembolovo_2002'
+        map: 'lembolovo_2002',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20101105_1',
@@ -1009,7 +1012,8 @@ let events2010 = [
         info: 'Традиционный старт КСО Азимут',
         logo: 'azimut.gif',
         o_site: '101205_Az',
-        map: 'pesochnaya_2005'
+        map: 'pesochnaya_2005',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20101212_1',

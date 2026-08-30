@@ -661,6 +661,7 @@ let events2021 = [
         o_site: '210509',
         reskeep: 459,
         map: 'pukhtolova_gora_2025',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20210509_2',
@@ -1722,6 +1723,7 @@ let events2021 = [
         logo: 'azimut.gif',
         o_site: '211009_',
         map: 'pukhtolova_gora_2025',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20211009_3',
@@ -1982,7 +1984,8 @@ let events2021 = [
         logo: 'azimut.gif',
         o_site: '211104_OM',
         reskeep: 501,
-        strava: 6210792077
+        strava: 6210792077,
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20211104_2',

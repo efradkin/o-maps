@@ -275,7 +275,8 @@ let events2009 = [
         name: 'День Победы, 1-й этап Кубка СПб',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090509/090509_res.htm',
-        o_site: '090509'
+        o_site: '090509',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20090509_2',
@@ -325,7 +326,8 @@ let events2009 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090516/090516_res.htm',
         o_site: '090516',
-        map: 'lembolovo_2002'
+        map: 'lembolovo_2002',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20090517_1',
@@ -845,7 +847,8 @@ let events2009 = [
         info: 'Закрытие летнего сезона СДЮСШОР Курортного р-на и КСО Азимут',
         logo: 'azimut.gif',
         o_site: '091018_az',
-        map: 'lembolovo_2002'
+        map: 'lembolovo_2002',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20091024_1',
@@ -929,7 +932,8 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/091104_az/091104_res.htm',
         info: 'Традиционные праздничные ноябрьские соревнования',
         logo: 'azimut.gif',
-        o_site: '091104_az'
+        o_site: '091104_az',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20091107_1',
@@ -1003,7 +1007,8 @@ let events2009 = [
         info: 'Традиционный заключительный тренировочный старт КСО Азимут',
         logo: 'azimut.gif',
         o_site: '090527',
-        map: 'sosnovka_2004'
+        map: 'sosnovka_2004',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20091206_1',

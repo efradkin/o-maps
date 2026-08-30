@@ -343,7 +343,8 @@ let events2012 = [
         name: 'Соревнования, посвящённые Дню Победы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120509_Az/120509_res_.htm',
-        o_site: '120509_Az'
+        o_site: '120509_Az',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20120513_1',
@@ -353,7 +354,8 @@ let events2012 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120513_Az/120513_res.htm',
         o_site: '120513_Az',
-        map: 'lembolovo_2002'
+        map: 'lembolovo_2002',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20120517_1',
@@ -944,7 +946,8 @@ let events2012 = [
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/121027_Az/121027_res.htm',
         logo: 'azimut.gif',
-        o_site: '121027_Az'
+        o_site: '121027_Az',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20121027_2',
@@ -1014,7 +1017,8 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/121103_Az/121103_res.htm',
         info: 'Традиционный осенний старт КСО "Азимут" на удлинённой дистанции',
         logo: 'azimut.gif',
-        o_site: '121103_Az'
+        o_site: '121103_Az',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20121104_1',
@@ -1077,7 +1081,8 @@ let events2012 = [
         info: 'Традиционная серия тренировочных стартов КСО Азимут: 25.03 Ориентир-1: результаты, сплиты 25.04 Ориентир-2: результаты 16.05 Ориентир-3: результаты, сплиты 23.05 Ориентир-4: результаты, сплиты 30.05 Ориентир-5: результаты, сплиты 05.08 Ориентир-6: результаты, сплиты 19.08 Ориентир-7: результаты, сплиты 05.09 Ориентир-8: результаты, сплиты 12.09 Ориентир-9: результаты, сплиты',
         logo: 'azimut.gif',
         o_site: '120325_Or',
-        map: 'sosnovka_2011'
+        map: 'sosnovka_2011',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20121208_1',

@@ -602,7 +602,8 @@ let events2024 = [
         strava: 11369203305,
         o_site: '240509',
         reskeep: 653,
-        map: 'silande_2024'
+        map: 'silande_2024',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20240509_2',
@@ -1549,7 +1550,8 @@ let events2024 = [
         o_site: '240908',
         strava: 12356929743,
         reskeep: 671,
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20240911_1',
@@ -1967,7 +1969,8 @@ let events2024 = [
         },
         logo: 'azimut.gif',
         o_site: '241104_OM',
-        map: 'tsvelodubovo_2020'
+        map: 'tsvelodubovo_2020',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20241109_1',
@@ -2077,7 +2080,8 @@ let events2024 = [
         logo: 'azimut.gif',
         strava: 13014282495,
         o_site: '2024_Orientir',
-        map: 'piskarevsky_2024'
+        map: 'piskarevsky_2024',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20241201_1',

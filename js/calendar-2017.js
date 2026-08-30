@@ -522,7 +522,8 @@ let events2017 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=749',
         res: 'https://o-site.spb.ru/_races/170509/170509_res.htm',
         o_site: '170509',
-        map: 'orekhovo_rakitinskoe_2004'
+        map: 'orekhovo_rakitinskoe_2004',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20170510_1',
@@ -621,7 +622,8 @@ let events2017 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=754',
         res: 'https://o-site.spb.ru/_races/170520_Az/170521_res.htm',
-        o_site: '170520_Az'
+        o_site: '170520_Az',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20170521_2',
@@ -1356,7 +1358,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171014_Az/171015_res__.htm',
         info: 'Традиционные осенние соревнования КСО "Азимут"',
         logo: 'azimut.gif',
-        o_site: '171014_Az'
+        o_site: '171014_Az',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20171018_1',
@@ -1430,7 +1433,8 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171004_OM/171104_res_.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         logo: 'azimut.gif',
-        o_site: '171004_OM'
+        o_site: '171004_OM',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20171105_1',
@@ -1507,7 +1511,8 @@ let events2017 = [
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '2017_Orientir',
-        map: 'sosnovka_2014'
+        map: 'sosnovka_2014',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20171126_1',

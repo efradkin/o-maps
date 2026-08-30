@@ -1161,7 +1161,7 @@ let events2026 = [
         photo: 'https://vk.com/album-154221178_311076066',
         type: 'ORIENT',
         fmt: 'классика',
-        owner: 'SFSO_SPB',
+        owner: 'AZIMUT',
         map: 'stekljanny_2021'
     },
     {

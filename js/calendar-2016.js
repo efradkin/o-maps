@@ -423,7 +423,8 @@ let events2016 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=602',
         res: 'https://o-site.spb.ru/_races/160509_Az/160509_res.htm',
         o_site: '160509_Az',
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20160511_1',
@@ -466,7 +467,8 @@ let events2016 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=605',
         res: 'https://o-site.spb.ru/_races/160515/160515_res.htm',
-        o_site: '160515'
+        o_site: '160515',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20160515_2',
@@ -1204,7 +1206,8 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/161022_/161022_res.htm',
         info: 'Традиционный осенний старт КСО "Азимут" - открытое первенство КСО "Азимут".',
         logo: 'azimut.gif',
-        o_site: '161022_'
+        o_site: '161022_',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20161023_1',
@@ -1266,7 +1269,8 @@ let events2016 = [
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции, проводимые КСО "Азимут".',
         logo: 'azimut.gif',
         o_site: '161104_',
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20161106_1',
@@ -1390,7 +1394,8 @@ let events2016 = [
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '2016_Orientir',
-        map: 'sosnovka_2014'
+        map: 'sosnovka_2014',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20161210_1',

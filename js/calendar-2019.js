@@ -540,7 +540,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/190509/RES_090519.htm',
         info: 'Соревнования, посвященные Дню Победы, пройдут 9 мая в районе Черных озер недалеко от г. Зеленогорска.',
         o_site: '190509',
-        reskeep: 132
+        reskeep: 132,
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20190510_1',
@@ -591,7 +592,8 @@ let events2019 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=1026',
         res: 'https://o-site.spb.ru/_races/190512/AdultResult2.htm',
         o_site: '190512',
-        map: 'orekhovo_rakitinskoe_2004'
+        map: 'orekhovo_rakitinskoe_2004',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20190512_3',
@@ -1598,7 +1600,8 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191012_/Res_PetOs.htm',
         info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
         logo: 'azimut.gif',
-        o_site: '191012_'
+        o_site: '191012_',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20191012_3',
@@ -1758,7 +1761,8 @@ let events2019 = [
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '191004_OM',
-        reskeep: 286
+        reskeep: 286,
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20191109_1',
@@ -1880,7 +1884,8 @@ let events2019 = [
         logo: 'azimut.gif',
         o_site: '191130_NatAlka',
         strava: 2901197392,
-        map: 'sosnovka_2014'
+        map: 'sosnovka_2014',
+        owner: 'AZIMUT'
     },
     {
         id: 'SPB_20191201_1',
