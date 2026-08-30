@@ -2327,6 +2327,8 @@ let events2026 = [
         link: 'https://vk.ru/wall-199133936_4296',
         reg: 'https://docs.google.com/forms/d/e/1FAIpQLSfwRvKkKZ6PVaASgi_M2dOpFH4fn1_dUINVPiFp44hk0RpbfA/viewform',
         place: 'Петергоф, Александрийский парк',
+        photo: 'https://vk.com/album-223882264_310205037',
+        o_gps: 25835,
         type: 'ROGAINE',
         fmt: '1',
         map: 'aleksandrijsky_2010',
