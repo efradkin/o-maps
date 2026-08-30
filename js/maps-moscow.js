@@ -3431,7 +3431,7 @@ let moscowMaps = [
         area: .33,
         info: 'Российский Азимут 2024.',
         url: './maps/moscow/ak/hodynskoe_pole_2024.webp',
-        link: 'https://orientband.ru/tproduct/549661597-520422854321-rossiiskii-azimut',
+        link: './original_maps/moscow/ak/hodynskoe_pole_2024_omaps.jpg',
         author: ['MSTPNV','MNKV'],
         areas: [70, 30],
         owner: 'OPEN_BAND',

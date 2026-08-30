@@ -763,7 +763,7 @@ let otherStartsMaps = [
         about: 'https://vk.ru/wall-227807023_527',
         info: 'Сентябрь, фото-рогейн.',
         url: './maps/rogaine/kkm/vosstania_KKM_2026_09.webp',
-        link: ['https://vk.ru/s/v1/doc/HF1bgBafX3wSZGnsWF8vEB1lkeVJe4i4VR3WLHxtZF8aCzLUGzo','https://vk.ru/s/v1/doc/6CQOBs-h3TFHZuq1HdrxRa6dcJkUQXWB9O5sysUA96OTTuK_RoA'],
+        link: ['https://psv4.vkuserphoto.ru/s/v1/d2/mj09Fpc9IfgX4aqbUnnkjhsGv4usaIpGgT3XXqnH-uQ_5gZ3BJNmquoOu2JZRNMpyq6lWbLykWPwx_m3YFiG3-80CcosqvhnVgshCG9CMtySz157PxL6rQeX--axpigECeFsNQSSEE8l/KKM_9_2026.jpg?dl=1','https://psv4.vkuserphoto.ru/s/v1/d2/a0vHvge9Flciw2kexP3EBFRvWNeaP0PgmMDeHu_bBe56zFwenUNO002rBBEVm1epYDrQPGU2SXPZFCpaM1kvz5c25vblS8jm_uRlyYMCG6jasWGqfqGHnoq1gvSOEgRo0bD4JMTPmGBt/SETKA_9_2026.jpg?dl=1'],
         bounds: [[59.956278, 30.3369856], [59.9563854, 30.4000282], [59.9128478, 30.3371143]],
         o_gps: 25616,
         start: ['VO_FOTO','KKM'],
