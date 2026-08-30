@@ -1693,6 +1693,7 @@ let cityMaps = [
         info: 'Спринт.',
         url: './maps/city/vyborg_center_2020_09_26.webp',
         link: ['https://viewer.o-gps-center.ru/newmaps/map_6254_d07a76f95f30269314187498b6cda61d.gif','https://viewer.o-gps-center.ru/newmaps/course_8201_7f78af6185476657994fa01093426a57.gif'],
+        local_link: ['./external/original_maps/city/vyborg_center_2020_09_26_1_omaps.gif','./external/original_maps/city/vyborg_center_2020_09_26_2_omaps.gif'],
         bounds: [[60.715715, 28.729291], [60.7143085, 28.7443542], [60.7095953, 28.7268233]],
         type: ['CITY'],
         author: ['TKMKVA_P','MSPN'],

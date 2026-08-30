@@ -73,6 +73,7 @@ let funMaps = [
         info: 'Фото-рогейн',
         url: './maps/fun/peterhof_foto_2024_03.webp',
         link: 'https://sun9-85.userapi.com/s/v1/ig2/kJUvKjQVvv-ZQIhDOmqTwIHPXU-1BwkWB3GP4m5DXhzuN5Y9oVQvLdzf2LD6rL7y9dIpBcajgkwMQG2E7aVB8R0Q.jpg?quality=95&as=32x24,48x35,72x53,108x80,160x118,240x177,360x266,480x355,540x399,640x473,720x532,1080x798,1280x945,1440x1064,2560x1891&from=bu&cs=2560x0',
+        local_link: './external/original_maps/fun/peterhof_foto_2024_03_omaps.jpg',
         bounds: [[59.8909068, 29.8844862], [59.8909606, 29.9758101], [59.8572516, 29.884572]],
         o_gps: 21133,
         owner: 'RYZHOV',

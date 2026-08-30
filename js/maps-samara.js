@@ -17,6 +17,7 @@ let samaraMaps = [
         date: '2026-01-18',
         url: './maps/samara/toliatti_stavropolsky_sosniak_2026_rogaine.webp',
         link: 'https://viewer.o-gps-center.ru/newmaps/course_24013_fa3a18e75f6b9b8e078b3ac0de973b7f.jpeg',
+        local_link: './external/original_maps/samara/toliatti_stavropolsky_sosniak_2026_rogaine_omaps.jpeg',
         info: 'Соревнования по спортивному ориентированию в формате рогейн памяти Г.В. Штритера.',
         bounds: [[53.5126279, 49.301362], [53.5081617, 49.3582249], [53.4881732, 49.2959547]],
         o_gps: 24013,

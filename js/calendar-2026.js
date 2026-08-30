@@ -2354,6 +2354,7 @@ let events2026 = [
         place: 'Вьюн',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/54579',
+        o_site: '260905_f',
         info: 'Новая карта.',
         owner: 'FENIX',
         map: 'vjun_2026'

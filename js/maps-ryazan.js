@@ -1142,6 +1142,7 @@ let ryazanMaps = [
         start: 'RUSSIA_ROGAINE_CHAMP',
         url: './maps/ryazan/chr_2020_rogeyn_2020.webp',
         link: 'https://rogaining.ru/results/rrc-results/rrc2020_map.jpg',
+        local_link: './external/original_maps/ryazan/chr_2020_rogeyn_2020_omaps.jpg',
         info: '<a href="https://vk.com/event186840276">Чемпионат России по рогейну</a> (<a href="https://sembruk.github.io/rrc2020/">пути</a>).',
         o_gps: 8154,
         bounds: [[54.862728, 39.8858643], [54.8350058, 40.0759792], [54.7072677, 39.8194313]],

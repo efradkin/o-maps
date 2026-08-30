@@ -438,6 +438,7 @@ let vyborgMaps = [
         info: 'Спринт-общий старт.',
         url: './maps/forest/vyborg/batarejnaya_gora_2020.webp',
         link: ['https://viewer.o-gps-center.ru/newmaps/map_6255_b092c095d299e2c07778fccae312152d.png','https://viewer.o-gps-center.ru/newmaps/course_8203_3f630736090219a2871cf4d5a230f4e3.png'],
+        local_link: ['./external/original_maps/forest/vyborg/batarejnaya_gora_2020_1_omaps.png','./external/original_maps/forest/vyborg/batarejnaya_gora_2020_2_omaps.png'],
         bounds: [[60.708829, 28.7526369], [60.7069182, 28.7687945], [60.7004294, 28.7487531]],
         author: ['RYLOV_V','DBRTSV_V'],
         owner: 'VYBORG',
