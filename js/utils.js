@@ -1517,7 +1517,7 @@ function findEventsForMap(m, withMap, start) {
 }
 
 function isEventLikeRogaine(evt) {
-    return isRogaine(evt) || evt.type.includes(MULTI_EVENTS_CALENDAR_PARAM_VALUE) || evt.start === 'MB';
+    return isRogaine(evt) || (evt.type && evt.type.includes(MULTI_EVENTS_CALENDAR_PARAM_VALUE)) || evt.start === 'MB';
 }
 
 function isEventOther(evt) {
