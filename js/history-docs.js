@@ -2642,7 +2642,7 @@ let historyDocs = [
         start: 'MMS',
         year: 2011,
         info: '<a href="https://o-site.spb.ru/race.php?id=11062126">Инфо и результаты.</a>',
-        link: './original_maps/starts/mms/mms_2011_lembolovo_orekhovo.jpg',
+        link: './original_maps/starts/mms/mms_2011_lembolovo_orekhovo_omaps.jpg',
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
     {
@@ -2650,7 +2650,7 @@ let historyDocs = [
         start: 'MMS',
         year: 2014,
         info: '<a href="https://o-site.spb.ru/race.php?id=14062729">Инфо и результаты.</a>',
-        link: './original_maps/starts/mms/mms_2014_polyany.pdf',
+        link: './original_maps/starts/mms/mms_2014_polyany_omaps.pdf',
         author: 'SHRNN'
     },
     {
@@ -2658,7 +2658,7 @@ let historyDocs = [
         start: 'MMS',
         year: 2015,
         info: '<a href="https://o-site.spb.ru/race.php?id=15062628">Инфо и результаты.</a>',
-        link: './original_maps/starts/mms/mms_2015_krasna_dolina.pdf',
+        link: './original_maps/starts/mms/mms_2015_krasna_dolina_omaps.pdf',
         author: ['DJCHKV','STLV_S']
     },
     {
@@ -2666,7 +2666,7 @@ let historyDocs = [
         start: 'MMS',
         year: 2016,
         info: '<a href="https://o-site.spb.ru/race.php?id=20160624">Инфо и результаты.</a>',
-        link: './original_maps/starts/mms/mms_2016_korobitsyno.pdf',
+        link: './original_maps/starts/mms/mms_2016_korobitsyno_omaps.pdf',
         author: ['DJCHKV','STLV_S','PPV_D']
     },
     {
@@ -2674,7 +2674,7 @@ let historyDocs = [
         start: 'MMS',
         year: 2017,
         info: '<a href="https://o-site.spb.ru/race.php?id=17062325">Инфо и результаты.</a>',
-        link: './original_maps/starts/mms/mms_2017_korobitsyno.pdf',
+        link: './original_maps/starts/mms/mms_2017_korobitsyno_omaps.pdf',
         author: ['DJCHKV','STLV_S','PPV_D']
     },
     {
