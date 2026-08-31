@@ -464,6 +464,7 @@ let events2026 = [
         name: 'Кубок Белых ночей №8',
         reg: 'https://orgeo.ru/event/info/50766',
         type: 'ORIENT',
+        photo: 'https://vk.ru/album-196511971_310324706',
         map: 'sestroretsk_tamozhennaya_doroga_2021',
         owner: 'WN',
         strava: 17634619444,
@@ -1556,6 +1557,7 @@ let events2026 = [
         place: 'Гаврилово',
         o_site: '260530_LO',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1741',
+        photo: 'https://vk.ru/album-201330282_311023457',
         type: 'ORIENT',
         fmt: 'эстафета 2х',
         map: 'gavrilovo_2014',
@@ -2188,7 +2190,7 @@ let events2026 = [
         fmt: 'масстарт',
         video: 'https://vk.com/video-220245153_456239104',
         owner: 'SFSO_SPB',
-        photo: 'https://vk.ru/album-154221178_311697593',
+        photo: ['https://vk.ru/album-154221178_311697593','https://vk.ru/album-230167293_314194200'],
         map: 'zerkalny_velo_2023'
     },
     {
@@ -2308,14 +2310,26 @@ let events2026 = [
         map: 'pukhtolova_gora_2025',
     },
     {
+        id: 'SPB_20260828_1',
+        date: '2026-08-28',
+        endDate: '2026-08-30',
+        name: 'ЧиП СЗФО',
+        place: 'Петрозаводск',
+        reg: 'https://orgeo.ru/event/54289',
+        type: 'ORIENT',
+        fmt: 'выбор, масстарт, лонг-масстарт',
+        owner: 'FSO_KARELIA'
+    },
+    {
         id: 'SPB_20260829_1',
         date: '2026-08-29',
         name: 'ЧиП ЛО',
         place: 'Лейпясуо',
         type: 'ORIENT',
+        fmt: 'спринт-масстарт',
         o_site: '260829',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1748',
-        fmt: 'спринт-масстарт',
+        photo: 'https://vk.ru/album-201330282_311662493',
         map: 'leypjasuo_2014',
         owner: 'SFSO_LO'
     },
@@ -2346,7 +2360,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'лонг',
         owner: 'SFSO_SPB',
-        map: 'http://localhost:63342/o-maps/spb.html?map=trnsprnt'
+        // map: '' TODO
     },
     {
         id: 'SPB_20260905_1',
@@ -2368,7 +2382,8 @@ let events2026 = [
         type: 'ORIENT',
         o_site: '260906',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1755',
-        owner: 'AZIMUT'
+        owner: 'AZIMUT',
+        map: 'petjajarvy_2024'
     },
     {
         id: 'SPB_20260918_1',

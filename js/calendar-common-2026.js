@@ -496,6 +496,7 @@ let commonEvents2026 = [
         o_site: '260702_bn',
         reg: 'https://orgeo.ru/event/53317',
         reskeep: [902,903,904],
+        photo: 'https://vk.ru/album-196511971_311408236',
         video: [
             'https://www.youtube.com/watch?v=vwMHap8Z7K8',
             'https://www.youtube.com/watch?v=HWPMyp92jf0',
@@ -674,7 +675,8 @@ let commonEvents2026 = [
         type: 'ORIENT',
         fmt: 'спринт, многодневный, эстафета',
         major: true,
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: ['sestroretsk_dubkovskoe_2026','zelenogorsk_schuchye_2026']
     },
     {
         id: 'MAJOR_20260916_1',
