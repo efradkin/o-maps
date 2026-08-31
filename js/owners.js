@@ -514,7 +514,8 @@ let owners = {
     /* --- Рязань --- */
 
     ANDREYKN: {
-        name: '© Андрейкин Алексей'
+        name: '© Андрейкин Алексей',
+        logo: 'ryazan_orient.webp'
     },
     VEKOVIS: {
         name: '© Вековищев Валерий'

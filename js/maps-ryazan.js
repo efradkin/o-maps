@@ -543,10 +543,11 @@ let ryazanMaps = [
     {
         name: 'Кузьминское-Подлуг',
         year: 2016,
-        info: '9 этап кубка Золотой Маршрут',
+        info: '9 этап кубка Золотой Маршрут.',
         url: './maps/ryazan/kuzminskoe_podlug_rogeyn_2017.webp',
         link: './original_maps/ryazan/kuzminskoe_podlug_rogeyn_2017_omaps.jpg',
         bounds: [[54.8826308, 39.6261406], [54.8659388, 39.7555733], [54.7753459, 39.5844269]],
+        logo: 'ryazan_rogaine.webp',
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['ROGAINE']
@@ -812,6 +813,17 @@ let ryazanMaps = [
         owner: 'SHIBANOV_V'
     },
     {
+        name: 'Пронск, Студенец',
+        year: 2026,
+        url: './maps/ryazan/studenets_rogaine_2026.webp',
+        link: './original_maps/ryazan/studenets_rogaine_2026_omaps.webp',
+        bounds: [[54.1359422, 39.6002197], [54.1153705, 39.7515392], [54.0735921, 39.5759296]],
+        type: ['ROGAINE'],
+        author: 'ANDREYKN',
+        owner: 'ANDREYKN',
+        logo: 'ryazan_rogaine.webp'
+    },
+    {
         name: 'Траново, ДОЛ Радуга',
         year: 2023,
         correct: 2025,
@@ -999,6 +1011,7 @@ let ryazanMaps = [
         url: './maps/ryazan/spas_klepiki_rogaine_2025.webp',
         link: './original_maps/ryazan/spas_klepiki_rogaine_2025_omaps.gif',
         bounds: [[55.1837194, 40.1276493], [55.1695055, 40.239315], [55.0937433, 40.0914288]],
+        logo: 'ryazan_rogaine.webp',
         author: 'ANDREYKN',
         owner: 'ANDREYKN',
         type: ['ROGAINE']
