@@ -8,6 +8,10 @@ let events2025 = [
         fmt: 'маркир,спринт',
         type: 'ORIENT',
         o_site: '250108_RS',
+        split: [
+            'splits/2025/SPB_20250107_1_1_split.htm',
+            'splits/2025/SPB_20250107_1_2_split.htm'
+        ],
         o_gps: {
             'маркир': 21366,
             'спринт': 21375
@@ -65,6 +69,10 @@ let events2025 = [
         type: 'SKI',
         fmt: 'ЛГ-классика, ЛГ-масстарт',
         o_site: '250119_chemp',
+        split: [
+            'splits/2025/SPB_20250118_1_1_split.htm',
+            'splits/2025/SPB_20250118_1_2_split.htm'
+        ],
         map: 'orekhovo_nyrkovo_winter_2012',
         owner: 'SFSO_SPB'
     },
@@ -76,6 +84,7 @@ let events2025 = [
         type: 'SKI',
         fmt: 'ЛГ-спринт',
         o_site: '250201_fl',
+        split: 'splits/2025/SPB_20250201_1_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1654',
         map: 'orekhovo_nyrkovo_winter_2012',
         owner: 'SFSO_SPB'
@@ -88,6 +97,7 @@ let events2025 = [
         type: 'SKI',
         fmt: 'ЛГ-лонг',
         o_site: '250202_chemp',
+        split: 'splits/2025/SPB_20250202_1_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1650',
         o_gps: 21563,
         video: 'https://vkvideo.ru/video-218850805_456259621',
@@ -114,6 +124,10 @@ let events2025 = [
         name: 'Зимние старты',
         type: 'SKI',
         o_site: '250216',
+        split: [
+            'splits/2025/SPB_20250209_1_1_split.htm',
+            'splits/2025/SPB_20250209_1_2_split.htm'
+        ],
         map: 'zerkalny_tarasovskoe_winter_2023'
     },
     {
@@ -124,6 +138,7 @@ let events2025 = [
         fmt: 'ЛГ-спринт',
         type: 'SKI',
         o_site: '250215',
+        split: 'splits/2025/SPB_20250215_1_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1651',
         o_gps: 21654,
         photo: 'https://vk.com/album-154221178_306315249',
@@ -204,6 +219,7 @@ let events2025 = [
         fmt: 'спринт',
         type: 'ORIENT',
         o_site: '250223_ST',
+        split: 'splits/2025/SPB_20250223_2_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1655',
         o_gps: 21690,
         reskeep: 681,
@@ -232,6 +248,10 @@ let events2025 = [
         fmt: 'маркир,ЛГ-эстафета',
         type: 'SKI',
         o_site: '250302',
+        split: [
+            'splits/2025/SPB_20250301_1_1_split.htm',
+            'splits/2025/SPB_20250301_1_2_split.htm'
+        ],
         o_gps: {
             '1': 21708,
             '2': 21711
@@ -251,6 +271,7 @@ let events2025 = [
         fmt: 'спринт',
         type: 'ORIENT',
         o_site: '250308_ST',
+        split: 'splits/2025/SPB_20250308_1_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1659',
         o_gps: {
             'Ж21,35/М45,55': 21762,
@@ -296,6 +317,7 @@ let events2025 = [
         name: 'Контрольный старт',
         type: 'ORIENT',
         o_site: '250315_ks',
+        split: 'splits/2025/SPB_20250315_1_split.htm',
         reg: 'http://orgeo.ru/event/41998',
         map: 'toksovo_kombyt_2017',
         owner: 'KUZMOLOVO',
@@ -324,6 +346,7 @@ let events2025 = [
         name: 'Перспектива',
         type: 'ORIENT',
         o_site: '250323_p',
+        split: 'splits/2025/SPB_20250323_1_split.htm',
         reg: 'http://orgeo.ru/event/42009',
         o_gps: 21930,
         reskeep: 685,
@@ -352,6 +375,7 @@ let events2025 = [
         name: 'Dлительная серия №1',
         type: 'ORIENT',
         o_site: '250330_Dlit_1',
+        split: 'splits/2025/SPB_20250330_1_split.htm',
         reg: 'http://orgeo.ru/event/42267',
         o_gps: 22038,
         reskeep: 673,
@@ -433,6 +457,7 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'спринт',
         o_site: '250412',
+        split: 'splits/2025/SPB_20250412_2_split.htm',
         reg: 'http://orgeo.ru/event/krosprint',
         o_gps: {
             'М20/21': 22143,
@@ -447,6 +472,7 @@ let events2025 = [
         name: 'Dлительная серия №3',
         type: 'ORIENT',
         o_site: '250413_Dlit_3',
+        split: 'splits/2025/SPB_20250413_1_split.htm',
         reg: 'http://orgeo.ru/event/42713',
         o_gps: 22170,
         owner: 'DLITELNY',
@@ -461,6 +487,7 @@ let events2025 = [
         name: 'Dлительная серия №4',
         type: 'ORIENT',
         o_site: '250417_Dlit_4',
+        split: 'splits/2025/SPB_20250417_1_split.htm',
         reg: 'http://orgeo.ru/event/43056',
         o_gps: 22224,
         owner: 'DLITELNY',
@@ -519,6 +546,10 @@ let events2025 = [
         name: 'Сосновоборские дюны',
         type: 'ORIENT',
         o_site: '250420_SD',
+        split: [
+            'splits/2025/SPB_20250419_5_1_split.htm',
+            'splits/2025/SPB_20250419_5_2_split.htm'
+        ],
         o_gps: {
             'М16/50': 22268,
             'Все КП': 22248
@@ -537,6 +568,7 @@ let events2025 = [
         name: 'Контрольный старт',
         type: 'ORIENT',
         o_site: '25_KS',
+        split: 'splits/2025/SPB_20250424_1_split.htm',
         reg: 'https://orgeo.ru/event/43174',
         owner: 'KUZMOLOVO',
         map: 'kuzmolovo_zona_z_2018'
@@ -557,6 +589,7 @@ let events2025 = [
         name: 'Кубок Обухово',
         type: 'ORIENT',
         o_site: '250426',
+        split: 'splits/2025/SPB_20250426_2_split.htm',
         reg: 'http://orgeo.ru/event/42889',
         map: 'kudrovo_evropy_2024'
     },
@@ -648,6 +681,7 @@ let events2025 = [
         fmt: 'лонг',
         type: 'ORIENT',
         o_site: '250501',
+        split: 'splits/2025/SPB_20250501_1_split.htm',
         o_gps: 22425,
         photo: [
             'https://vk.com/album-128591100_307166407',
@@ -719,6 +753,7 @@ let events2025 = [
         name: 'Перспектива 100КП',
         type: 'ORIENT',
         o_site: '250504_100kp',
+        split: 'splits/2025/SPB_20250504_1_split.htm',
         reg: 'http://orgeo.ru/event/info/42928',
         o_gps: 22452,
         map: 'toksovo_malinovaya_gora_2018'
@@ -763,6 +798,7 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'эстафета 2х2',
         o_site: '250508_D2RUN_1',
+        split: 'splits/2025/SPB_20250508_3_split.htm',
         reg: 'http://orgeo.ru/event/43544',
         map: 'petyajarvi_west_2019',
         owner: 'DLITELNY'
@@ -774,6 +810,7 @@ let events2025 = [
         name: 'Соревнования памяти Дня Победы',
         type: 'ORIENT',
         o_site: '250509',
+        split: 'splits/2025/SPB_20250509_1_split.htm',
         o_gps: 22481,
         publish: 'https://vk.com/album-230167293_309657044',
         map: 'tsvelodubovo_south_2021',
@@ -807,6 +844,7 @@ let events2025 = [
         type: 'VELO',
         fmt: 'спринт',
         o_site: '250510_velo',
+        split: 'splits/2025/SPB_20250510_2_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1691',
         map: 'lembolovo_velo_relay_2025'
     },
@@ -818,6 +856,7 @@ let events2025 = [
         fmt: 'спринт',
         type: 'ORIENT',
         o_site: '250511_sprint',
+        split: 'splits/2025/SPB_20250511_1_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1666',
         o_gps: 22533,
         reskeep: 687,
@@ -868,6 +907,7 @@ let events2025 = [
         name: 'Контрольный старт',
         type: 'ORIENT',
         o_site: '25_KS',
+        split: 'splits/2025/SPB_20250515_1_split.htm',
         reg: 'https://orgeo.ru/event/43174',
         o_gps: 22595,
         photo: 'https://vk.com/album-128591100_306187926',
@@ -916,6 +956,10 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'выбор',
         o_site: '250517',
+        split: [
+            'splits/2025/SPB_20250517_3_1_split.htm',
+            'splits/2025/SPB_20250517_3_2_split.htm'
+        ],
         o_gps: 22607,
         owner: 'EGRV_EGR',
         map: 'pushkin_babolovsky_2019',
@@ -930,6 +974,7 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'лонг-масстарт',
         o_site: '250518_PSPb',
+        split: 'splits/2025/SPB_20250518_1_split.htm',
         o_gps: 22611,
         reskeep: 699,
         owner: 'SFSO_SPB',
@@ -983,6 +1028,7 @@ let events2025 = [
         name: 'Контрольный старт',
         type: 'ORIENT',
         o_site: '25_KS',
+        split: 'splits/2025/SPB_20250522_2_split.htm',
         reg: 'http://orgeo.ru/event/43177',
         o_gps: 22660,
         owner: 'KUZMOLOVO',
@@ -1018,6 +1064,11 @@ let events2025 = [
         name: 'Выборгская Тройка',
         type: 'ORIENT',
         o_site: '250524-25_VTR',
+        split: [
+            'splits/2025/SPB_20250524_2_1_split.htm',
+            'splits/2025/SPB_20250524_2_2_split.htm',
+            'splits/2025/SPB_20250524_2_3_split.htm'
+        ],
         reg: 'http://sportident.online/entry/?inf&id=6573',
         reskeep: [700, 701, 702],
         map: 'kkp_paltsevo_2022_06_14',
@@ -1044,6 +1095,7 @@ let events2025 = [
         name: 'Контрольный старт',
         type: 'ORIENT',
         o_site: '25_KS',
+        split: 'splits/2025/SPB_20250529_1_split.htm',
         reg: 'http://orgeo.ru/event/43177',
         o_gps: 22829,
         owner: 'KUZMOLOVO',
@@ -1058,6 +1110,7 @@ let events2025 = [
         type: 'ORIENT',
         video: 'https://vkvideo.ru/video-220492439_456240166',
         o_site: '250531_RA',
+        split: 'splits/2025/SPB_20250531_1_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1670',
         reskeep: 704,
         photo: 'https://vk.com/album-230167293_309922104',
@@ -1129,6 +1182,7 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'эстафета 2х2',
         o_site: '250601_D2RUN_2',
+        split: 'splits/2025/SPB_20250601_1_split.htm',
         reg: 'http://orgeo.ru/event/43859',
         map: 'orekhovo_borkovo_2024',
         owner: 'DLITELNY'
@@ -1150,6 +1204,7 @@ let events2025 = [
         name: 'Контрольный старт',
         type: 'ORIENT',
         o_site: '25_KS',
+        split: 'splits/2025/SPB_20250605_1_split.htm',
         reg: 'http://orgeo.ru/event/43177',
         o_gps: 22827,
         owner: 'KUZMOLOVO',
@@ -1164,6 +1219,10 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'классика, эстафета 3х',
         o_site: '250608_Ch_P',
+        split: [
+            'splits/2025/SPB_20250607_1_1_split.htm',
+            'splits/2025/SPB_20250607_1_2_split.htm'
+        ],
         o_gps: {
             'МЭ': 22800,
             'ЖЭ': 22794,
@@ -1199,6 +1258,11 @@ let events2025 = [
         name: 'Невский Азимут',
         type: 'ORIENT',
         o_site: '250614',
+        split: [
+            'splits/2025/SPB_20250612_1_1_split.htm',
+            'splits/2025/SPB_20250612_1_2_split.htm',
+            'splits/2025/SPB_20250612_1_3_split.htm'
+        ],
         video: [
             'https://www.youtube.com/watch?v=BlTutPcLCgU',
             'https://www.youtube.com/watch?v=n1M2CqhIsuM',
@@ -1234,6 +1298,15 @@ let events2025 = [
         name: 'Учебно-тренировочный сбор ККП',
         type: 'ORIENT',
         o_site: '250609-15_UTS_KKP',
+        split: [
+            'splits/2025/SPB_20250609_1_1_split.htm',
+            'splits/2025/SPB_20250609_1_2_split.htm',
+            'splits/2025/SPB_20250609_1_3_split.htm',
+            'splits/2025/SPB_20250609_1_4_split.htm',
+            'splits/2025/SPB_20250609_1_5_split.htm',
+            'splits/2025/SPB_20250609_1_6_split.htm',
+            'splits/2025/SPB_20250609_1_7_split.htm'
+        ],
         reg: 'http://sportident.online/entry/?id=6420',
         video: [
             'https://www.youtube.com/watch?v=8FaMuAsU9BE',
@@ -1380,6 +1453,11 @@ let events2025 = [
         name: 'Мемориал Михаила Святкина XXXI',
         type: 'ORIENT',
         o_site: 'mms2025',
+        split: [
+            'splits/2025/SPB_20250620_1_1_split.htm',
+            'splits/2025/SPB_20250620_1_2_split.htm',
+            'splits/2025/SPB_20250620_1_3_split.htm'
+        ],
         reg: 'http://orgeo.ru/event/43134',
         reskeep: [708, 709],
         start: 'MMS',
@@ -1408,6 +1486,7 @@ let events2025 = [
         name: 'Праздник эстафет',
         type: 'ORIENT',
         o_site: '250622',
+        split: 'splits/2025/SPB_20250623_1_split.htm',
         reg: 'http://o-reg.spb.ru/',
         map: 'yappilya_tarasovskoe_2024'
     },
@@ -1419,6 +1498,11 @@ let events2025 = [
         name: 'Белые Ночи',
         type: 'ORIENT',
         o_site: '2025_bn',
+        split: [
+            'splits/2025/SPB_20250626_1_1_split.htm',
+            'splits/2025/SPB_20250626_1_2_split.htm',
+            'splits/2025/SPB_20250626_1_3_split.htm'
+        ],
         reg: 'http://orgeo.ru/event/info/44257',
         o_gps: {
             'Спринт': 22977,
@@ -1520,6 +1604,7 @@ let events2025 = [
         name: 'Dлительная серия №5',
         type: 'ORIENT',
         o_site: '250712_Dlit_5',
+        split: 'splits/2025/SPB_20250712_2_split.htm',
         reg: 'http://orgeo.ru/event/44871',
         owner: 'DLITELNY',
         map: 'toksovo_ska_2014'
@@ -1531,6 +1616,7 @@ let events2025 = [
         name: 'Dлительная серия №6',
         type: 'ORIENT',
         o_site: '250713_Dlit_6',
+        split: 'splits/2025/SPB_20250713_1_split.htm',
         reg: 'http://orgeo.ru/event/44872',
         o_gps: 23094,
         reskeep: 741,
@@ -1559,6 +1645,7 @@ let events2025 = [
         name: 'Перспектива',
         type: 'ORIENT',
         o_site: '250720_p',
+        split: 'splits/2025/SPB_20250720_2_split.htm',
         reg: 'http://orgeo.ru/event/45019',
         o_gps: 23126,
         info: 'Новая карта.',
@@ -1664,6 +1751,7 @@ let events2025 = [
         fmt: 'выбор',
         type: 'ORIENT',
         o_site: '250809_history',
+        split: 'splits/2025/SPB_20250809_2_split.htm',
         reg: 'https://orgeo.ru/event/info/44975',
         o_gps: 23203,
         map: 'lembolovo_2024',
@@ -1676,6 +1764,10 @@ let events2025 = [
         name: '«Яркий Кубок» и «Техника и Тактика»',
         type: 'ORIENT',
         o_site: '25080910',
+        split: [
+            'splits/2025/SPB_20250809_3_1_split.htm',
+            'splits/2025/SPB_20250809_3_2_split.htm'
+        ],
         reskeep: [752, 753],
         start: 'YM',
         map: 'pervomayskoe_2021'
@@ -1688,6 +1780,7 @@ let events2025 = [
         type: 'VELO',
         fmt: 'масстарт',
         o_site: '250810',
+        split: 'splits/2025/SPB_20250810_1_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1691',
         map: 'pukhtolova_gora_velo_2025'
     },
@@ -1733,6 +1826,10 @@ let events2025 = [
         name: 'O-Weekend',
         type: 'ORIENT',
         o_site: '250823-24',
+        split: [
+            'splits/2025/SPB_20250823_1_1_split.htm',
+            'splits/2025/SPB_20250823_1_2_split.htm'
+        ],
         reg: [
             'http://orgeo.ru/event/45172',
             'http://orgeo.ru/event/info/45167'
@@ -1753,6 +1850,7 @@ let events2025 = [
         name: 'Tokma-maps',
         type: 'ORIENT',
         o_site: '250824_Tokma',
+        split: 'splits/2025/SPB_20250824_1_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1690',
         o_gps: 23280,
         video: 'https://vk.com/video7973032_456239601',
@@ -1787,6 +1885,7 @@ let events2025 = [
         name: 'Отборочный старт Центра «Академия талантов»',
         type: 'ORIENT',
         o_site: '250830_AT',
+        split: 'splits/2025/SPB_20250830_2_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1693',
         reskeep: 785,
         map: 'pukhtolova_gora_2025',
@@ -1811,6 +1910,7 @@ let events2025 = [
         fmt: 'эстафета 2х',
         type: 'ORIENT',
         o_site: '250831_ch',
+        split: 'splits/2025/SPB_20250831_1_split.htm',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1692',
         o_gps: 23330,
         reskeep: [
@@ -1857,6 +1957,7 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'спринт, масстарт',
         o_site: 'lo_kirovsk_2025',
+        split: 'splits/2025/SPB_20250907_1_split.htm',
         reg: 'http://orgeo.ru/event/sprint_kirovsk_070925',
         photo: [
             'https://vk.com/album-201330282_308352430',
@@ -1890,6 +1991,10 @@ let events2025 = [
         name: 'Контрольный старт',
         type: 'ORIENT',
         o_site: '25_KS_a',
+        split: [
+            'splits/2025/SPB_20250911_1_1_split.htm',
+            'splits/2025/SPB_20250911_1_2_split.htm'
+        ],
         reg: 'https://orgeo.ru/event/46308',
         info: 'Карта Бабочка',
         owner: 'KUZMOLOVO',
@@ -1914,6 +2019,7 @@ let events2025 = [
         name: 'ЧиП СПб',
         type: 'VELO',
         o_site: '250913_velo',
+        split: 'splits/2025/SPB_20250913_2_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1694',
         map: 'silande_velo_2025'
     },
@@ -1950,6 +2056,7 @@ let events2025 = [
         fmt: 'спринт',
         type: 'ORIENT',
         o_site: '250914_kolp',
+        split: 'splits/2025/SPB_20250914_1_split.htm',
         reg: 'https://orgeo.ru/event/45523',
         map: 'kolpino_chuhonka_2020'
     },
@@ -1961,6 +2068,7 @@ let events2025 = [
         fmt: 'лонг',
         type: 'ORIENT',
         o_site: '250914_ch',
+        split: 'splits/2025/SPB_20250914_2_split.htm',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1695',
         reskeep: 796,
         o_gps: {
@@ -1998,6 +2106,10 @@ let events2025 = [
         name: 'Контрольный старт',
         type: 'ORIENT',
         o_site: '25_KS_a',
+        split: [
+            'splits/2025/SPB_20250918_1_1_split.htm',
+            'splits/2025/SPB_20250918_1_2_split.htm'
+        ],
         reg: 'https://orgeo.ru/event/46308',
         owner: 'KUZMOLOVO',
         map: 'toksovo_oz_svetloe_2017'
@@ -2050,6 +2162,7 @@ let events2025 = [
         fmt: 'семейная эстафета',
         type: 'ORIENT',
         o_site: '250920',
+        split: 'splits/2025/SPB_20250920_3_split.htm',
         reg: 'https://orgeo.ru/event/info/46223',
         photo: 'https://vk.com/album-128591100_308572316',
         video: 'https://vk.com/wall-128591100_3181',
@@ -2082,6 +2195,10 @@ let events2025 = [
         name: 'Гран-при Владимира Алексеева',
         type: 'ORIENT',
         o_site: '250921',
+        split: [
+            'splits/2025/SPB_20250920_5_1_split.htm',
+            'splits/2025/SPB_20250920_5_2_split.htm'
+        ],
         reg: 'https://orgeo.ru/event/alekseeva2025',
         o_gps: {
             'МЭ': 23442,
@@ -2206,6 +2323,10 @@ let events2025 = [
         name: 'Старты в Зеркальном',
         type: 'ORIENT',
         o_site: '250927_Zerk',
+        split: [
+            'splits/2025/SPB_20250926_3_1_split.htm',
+            'splits/2025/SPB_20250926_3_2_split.htm'
+        ],
         photo: 'https://vk.com/album-230167293_311263696',
         map: 'zerkalny_2002'
     },
@@ -2216,6 +2337,7 @@ let events2025 = [
         name: 'Памяти Димы Фатидинова',
         type: 'ORIENT',
         o_site: '250927',
+        split: 'splits/2025/SPB_20250927_1_split.htm',
         o_gps: 23487,
         reg: 'https://orgeo.ru/event/45984',
         map: 'yukki_north_2020'
@@ -2254,6 +2376,7 @@ let events2025 = [
         fmt: 'лонг',
         type: 'ORIENT',
         o_site: '250928_MY',
+        split: 'splits/2025/SPB_20250928_1_split.htm',
         reg: 'o-reg.spb.ru/?filter[day_id]=1696',
         reskeep: 800,
         gps: {
@@ -2284,6 +2407,10 @@ let events2025 = [
         place: 'Сертолово',
         name: 'Контрольный старт',
         o_site: '25_KS_a',
+        split: [
+            'splits/2025/SPB_20251002_1_1_split.htm',
+            'splits/2025/SPB_20251002_1_2_split.htm'
+        ],
         reg: 'http://orgeo.ru/event/46828',
         map: 'sertolovo_2016',
         owner: 'KUZMOLOVO',
@@ -2327,6 +2454,12 @@ let events2025 = [
         fmt: 'многодневка, спринт',
         type: 'ORIENT',
         o_site: '251007_NS',
+        split: [
+            'splits/2025/SPB_20251004_3_1_split.htm',
+            'splits/2025/SPB_20251004_3_2_split.htm',
+            'splits/2025/SPB_20251004_3_3_split.htm',
+            'splits/2025/SPB_20251004_3_4_split.htm'
+        ],
         reg: 'https://orgeo.ru/event/info/45533',
         reskeep: [801, 802],
         o_gps: {
@@ -2392,6 +2525,10 @@ let events2025 = [
         place: 'Шуваловский парк',
         name: 'Контрольный старт',
         o_site: '25_KS_a',
+        split: [
+            'splits/2025/SPB_20251009_1_1_split.htm',
+            'splits/2025/SPB_20251009_1_2_split.htm'
+        ],
         reg: 'https://orgeo.ru/event/46972',
         type: 'ORIENT',
         owner: 'KUZMOLOVO',
@@ -2427,6 +2564,11 @@ let events2025 = [
         fmt: 'ночная эстафета',
         type: 'ORIENT',
         o_site: '251011_50',
+        split: [
+            'splits/2025/SPB_20251011_3_1_split.htm',
+            'splits/2025/SPB_20251011_3_2_split.htm',
+            'splits/2025/SPB_20251011_3_3_split.htm'
+        ],
         reg: 'https://sportident.online/entry/?id=6732',
         o_gps: {
             'М1': 23623,
@@ -2453,6 +2595,11 @@ let events2025 = [
         fmt: 'детская эстафета',
         type: 'ORIENT',
         o_site: '251011_50',
+        split: [
+            'splits/2025/SPB_20251012_1_1_split.htm',
+            'splits/2025/SPB_20251012_1_2_split.htm',
+            'splits/2025/SPB_20251012_1_3_split.htm'
+        ],
         reg: 'http://sportident.online/entry/?id=6733',
         photo: [
             'https://byzinaphoto.ru/disk/12-10-2025-50-vyorst-deti-llk1dm',
@@ -2482,6 +2629,7 @@ let events2025 = [
         fmt: '1',
         type: 'ROGAINE',
         o_site: '251011R',
+        split: 'splits/2025/SPB_20251011_5_split.htm',
         reg: 'https://orgeo.ru/event/39880',
         map: 'kavgolovo_2017',
         start: 'GORNY_CROSS'
@@ -2494,6 +2642,7 @@ let events2025 = [
         fmt: 'эстафета 2х',
         type: 'VELO',
         o_site: '251011_velo',
+        split: 'splits/2025/SPB_20251011_6_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1701',
         photo: [
             'https://cloud.mail.ru/public/7u19/u2oH4pEz4',
@@ -2559,6 +2708,10 @@ let events2025 = [
         name: 'Золотая осень им.Б.В.Фролова',
         type: 'ORIENT',
         o_site: '251019_ZO',
+        split: [
+            'splits/2025/SPB_20251018_1_1_split.htm',
+            'splits/2025/SPB_20251018_1_2_split.htm'
+        ],
         o_gps: {
             'Спринт': 23708,
             'Классика': 23707
@@ -2609,6 +2762,7 @@ let events2025 = [
         name: 'Памяти Зои Пятаковой',
         type: 'ORIENT',
         o_site: '251019_PZVP',
+        split: 'splits/2025/SPB_20251019_1_split.htm',
         reg: 'http://orgeo.ru/event/info/46779',
         reskeep: 808,
         o_gps: 23712,
@@ -2686,6 +2840,10 @@ let events2025 = [
         o_site: '251025_D2RUN_final',
         reg: 'http://orgeo.ru/event/47228',
         res: 'https://t.me/dlitelnyy/355',
+        split: [
+            'splits/2025/SPB_20251025_2_1_split.htm',
+            'splits/2025/SPB_20251025_2_2_split.htm'
+        ],
         video: [
             'https://rutube.ru/video/216997ead3de6a02137df69df57f27b6/',
             'https://www.youtube.com/watch?v=1J4VobkEBK4'
@@ -2733,6 +2891,7 @@ let events2025 = [
         name: 'Петербургская осень',
         type: 'ORIENT',
         o_site: '251026',
+        split: 'splits/2025/SPB_20251026_3_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1702',
         o_gps: {
             'М16/50/55,Ж18/40': 23751,
@@ -2756,6 +2915,7 @@ let events2025 = [
         name: 'Чемпионат СПб среди ВУЗов',
         type: 'ORIENT',
         o_site: '251026_St',
+        split: 'splits/2025/SPB_20251026_4_split.htm',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1704',
         map: 'krivko_2021',
         reskeep: 814
@@ -2767,6 +2927,7 @@ let events2025 = [
         name: 'УниверЛига Регионов',
         type: 'ORIENT',
         o_site: '251102_univerliga',
+        split: 'splits/2025/SPB_20251102_1_split.htm',
         photo: [
             'https://vk.com/album-230167293_311600115',
             'https://disk.yandex.ru/d/iI6nAlnk4E5Yjw'
@@ -2810,6 +2971,7 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'лонг',
         o_site: '251104_OM',
+        split: 'splits/2025/SPB_20251104_1_split.htm',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1703',
         o_gps: {
             'М14/16': 23812,
@@ -2841,6 +3003,7 @@ let events2025 = [
         type: 'ROGAINE',
         fmt: '2, 5',
         o_site: '251108R',
+        split: 'splits/2025/SPB_20251108_1_split.htm',
         reg: 'http://orgeo.ru/event/39881',
         o_gps: 23833,
         photo: 'https://vk.com/album-31941981_309120792',
@@ -2855,6 +3018,7 @@ let events2025 = [
         type: 'ORIENT',
         fmt: 'маркир',
         o_site: '251109',
+        split: 'splits/2025/SPB_20251109_1_split.htm',
         reg: 'http://orgeo.ru/event/47234',
         o_gps: 23839,
         start: 'ROGAINE_110',
@@ -2930,6 +3094,7 @@ let events2025 = [
         name: 'Тренировка от Феникса',
         type: 'ORIENT',
         o_site: '251116_feniks',
+        split: 'splits/2025/SPB_20251116_2_split.htm',
         reg: 'https://orgeo.ru/event/info/47763',
         o_gps: 23863,
         info: 'Новая карта.',
@@ -2983,6 +3148,7 @@ let events2025 = [
         fmt: 'спринт',
         type: 'ORIENT',
         o_site: '251123_ST',
+        split: 'splits/2025/SPB_20251123_1_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1705',
         o_gps: {
             'М21': 23897,
@@ -3017,6 +3183,7 @@ let events2025 = [
         name: 'День матери',
         type: 'ORIENT',
         o_site: '251129',
+        split: 'splits/2025/SPB_20251129_1_split.htm',
         reg: 'http://orgeo.ru/event/dm25',
         o_gps: {
             'Все КП': 23921,
@@ -3106,6 +3273,7 @@ let events2025 = [
         name: 'НатАлка',
         type: 'ORIENT',
         o_site: '2025_Orientir',
+        split: 'splits/2025/SPB_20251130_3_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1708',
         o_gps: 23924,
         map: 'udelny_2021',
@@ -3122,6 +3290,7 @@ let events2025 = [
         o_site: '251206_Dlit_11',
         reg: 'https://orgeo.ru/event/info/48224',
         res: 'https://t.me/dlitelnyy/404',
+        split: 'splits/2025/SPB_20251206_1_split.htm',
         map: 'shuvalovsky_rogaine_2024',
         owner: 'DLITELNY',
         reskeep: 827
@@ -3185,6 +3354,7 @@ let events2025 = [
         name: 'Длительная серия №12',
         type: 'ORIENT',
         o_site: '251211_Dlit_12',
+        split: 'splits/2025/SPB_20251211_1_split.htm',
         reg: 'http://orgeo.ru/event/48415',
         map: 'sosnovka_2024',
         owner: 'DLITELNY',
@@ -3238,6 +3408,7 @@ let events2025 = [
         fmt: 'выбор',
         type: 'ORIENT',
         o_site: '251214_ST',
+        split: 'splits/2025/SPB_20251214_1_split.htm',
         reg: 'https://o-reg.spb.ru/?filter[day_id]=1709',
         o_gps: {
             'М20,21,35': 23968,
@@ -3308,6 +3479,7 @@ let events2025 = [
         name: 'Приз Деда Мороза',
         type: 'ORIENT',
         o_site: '2512321',
+        split: 'splits/2025/SPB_20251221_2_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1707',
         photo: 'https://vk.ru/album-196511971_309604407',
         o_gps: 23986,
@@ -3324,6 +3496,7 @@ let events2025 = [
         name: 'Длительная серия №15',
         type: 'ORIENT',
         o_site: '251227_Dlit_15',
+        split: 'splits/2025/SPB_20251227_1_split.htm',
         reg: 'http://orgeo.ru/event/48742',
         reskeep: 835,
         o_gps: 23988,
@@ -3341,6 +3514,7 @@ let events2025 = [
         fmt: 'маркир',
         publish: 'https://o-site.spb.ru/race.php?id=251228_markir',
         o_site: '251228_markir',
+        split: 'splits/2025/SPB_20251228_1_split.htm',
         reg: 'http://orgeo.ru/event/48645',
         photo: 'https://vk.ru/album-220245153_312176887',
         map: 'toksovo_vifk_2020',

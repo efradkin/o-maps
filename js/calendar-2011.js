@@ -7,6 +7,10 @@ let events2011 = [
         name: 'Зимний УТС в Мичуринском',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/11010110/110107_res.htm',
+        split: [
+            'splits/2011/SPB_20110101_1_1_split.htm',
+            'splits/2011/SPB_20110101_1_2_split.htm'
+        ],
         info: 'Учебно-тренировочный сбор в Мичуринском. Кубок Ленинградской области по спортивному ориентированию на лыжах. Кубок «Центра «Ладога»',
         o_site: '11010110'
     },
@@ -28,6 +32,10 @@ let events2011 = [
         name: 'Первенство ЛО, приз газеты Всеволожские вести',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11011516/110115_res.htm',
+        split: [
+            'splits/2011/SPB_20110115_1_1_split.htm',
+            'splits/2011/SPB_20110115_1_2_split.htm'
+        ],
         owner: 'SFSO_LO',
         start: 'VSEV_VESTI',
         o_site: '11011516'
@@ -51,6 +59,10 @@ let events2011 = [
         name: 'Чемпионат и Первенство Ленинградской области',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11012223/110122_res_CH.pdf',
+        split: [
+            'splits/2011/SPB_20110122_2_1_split.htm',
+            'splits/2011/SPB_20110122_2_2_split.htm'
+        ],
         owner: 'SFSO_LO',
         o_site: '11012223'
     },
@@ -61,6 +73,10 @@ let events2011 = [
         name: 'Зимний Кубок ФСО СПб и ЛО. Спартакиада учащихся СПб и ЛО',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/11012930/110129_res.pdf',
+        split: [
+            'splits/2011/SPB_20110130_1_1_split.htm',
+            'splits/2011/SPB_20110130_1_2_split.htm'
+        ],
         info: 'Зимний Кубок ФСО Санкт-Петербурга и Ленинградской области. Спартакиада учащихся Санкт-Петербурга и Ленинградской области',
         o_site: '11012930'
     },
@@ -71,6 +87,7 @@ let events2011 = [
         name: 'Кубок ОК Гольфстрим, Первенство СПб среди обучающихся',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110206/110206_res.htm',
+        split: 'splits/2011/SPB_20110206_1_split.htm',
         info: 'Сайт организаторов',
         owner: 'SFSO_SPB',
         o_site: '110206'
@@ -84,6 +101,7 @@ let events2011 = [
         type: 'SKI',
         fmt: 'маркир',
         res: 'https://o-site.spb.ru/_races/110212/110212_res.htm',
+        split: 'splits/2011/SPB_20110212_1_split.htm',
         start: 'VOLKOV_A',
         o_site: '110212',
         map: 'volkov_2011_02_12'
@@ -107,6 +125,10 @@ let events2011 = [
         place: 'Зеркальный',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/110222/11022627_res.zip',
+        split: [
+            'splits/2011/SPB_20110222_1_1_split.htm',
+            'splits/2011/SPB_20110222_1_2_split.htm'
+        ],
         info: 'Традиционная зимняя смена ориентировщиков и туристов Санкт-Петербурга в ЗЦ«Зеркальный»',
         o_site: '110222'
     },
@@ -117,6 +139,7 @@ let events2011 = [
         name: 'Открытое пер-во ВИФК',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/110223/110223_res.htm',
+        split: 'splits/2011/SPB_20110223_1_split.htm',
         fmt: 'масс-старт в заданном направлении на лыжах.',
         o_site: '110223',
         map: 'toksovo_vifk_winter_2023'
@@ -147,6 +170,10 @@ let events2011 = [
         name: 'Чемпионат и Первенство СПб, классика и эстафета. Первенство ВУЗов',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/11030607/11030607_res.zip',
+        split: [
+            'splits/2011/SPB_20110306_1_1_split.htm',
+            'splits/2011/SPB_20110306_1_2_split.htm'
+        ],
         info: '06 марта. Лыжная гонка 60. 07 марта. Эстафета, заданное направление.',
         owner: 'SFSO_SPB',
         o_site: '11030607'
@@ -160,6 +187,10 @@ let events2011 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/11031213/110312_res.htm',
+        split: [
+            'splits/2011/SPB_20110312_1_1_split.htm',
+            'splits/2011/SPB_20110312_1_2_split.htm'
+        ],
         info: '12.03.11 – Чемпионат и первенство СПб, лыжная гонка – маркир классика 35 – 40 минут. Код - 0830205511Я. 13.03.11 – Чемпионат и первенство СПб, 3й этап кубка клуба Гольфстрим, лыжная гонка – удлиненная дистанция в заданном направлении 120минут. Код - 0830155511Я.',
         owner: 'SFSO_SPB',
         o_site: '11031213'
@@ -180,6 +211,12 @@ let events2011 = [
         name: 'Весенний Кубок команды 110%',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110602/110602_res.pdf',
+        split: [
+            'splits/2011/SPB_20110401_1_1_split.htm',
+            'splits/2011/SPB_20110401_1_2_split.htm',
+            'splits/2011/SPB_20110401_1_3_split.htm',
+            'splits/2011/SPB_20110401_1_4_split.htm'
+        ],
         info: 'Открытые тренировки по ориентированию 1 этап 2 этап 3 этап 4 этап 5 этап 6 этап',
         start: 'ROGAINE_110',
         o_site: '110602',
@@ -221,6 +258,7 @@ let events2011 = [
         place: 'Токсово',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/110410_tropa/101219_res.htm',
+        split: 'splits/2011/SPB_20110410_1_split.htm',
         info: 'Результаты 1 этапа Результаты 2 этапа Результаты 3 этапа',
         o_site: '110410_tropa'
     },
@@ -239,6 +277,11 @@ let events2011 = [
         name: 'Чемпионат и Первенство ЛО',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11043002/11043002_res.zip',
+        split: [
+            'splits/2011/SPB_20110430_1_1_split.htm',
+            'splits/2011/SPB_20110430_1_2_split.htm',
+            'splits/2011/SPB_20110430_1_3_split.htm'
+        ],
         owner: 'SFSO_LO',
         o_site: '11043002'
     },
@@ -250,6 +293,10 @@ let events2011 = [
         name: 'Сосновоборские Дюны',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11041617/110507_res.htm',
+        split: [
+            'splits/2011/SPB_20110507_1_1_split.htm',
+            'splits/2011/SPB_20110507_1_2_split.htm'
+        ],
         owner: 'YUVENTA',
         o_site: '11041617'
     },
@@ -259,6 +306,7 @@ let events2011 = [
         name: 'Соревнования, посвящённые Дню Победы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110509_/110509_res.zip',
+        split: 'splits/2011/SPB_20110509_1_split.htm',
         info: 'Соревнования, посвящённые Дню Победы:открытое п-во Всеволожского р-на, 2-й этап Кубка Яркого Мира.',
         o_site: '110509_',
         owner: 'AZIMUT'
@@ -270,6 +318,7 @@ let events2011 = [
         name: 'Памяти друзей',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110514_Az/110514_res.htm',
+        split: 'splits/2011/SPB_20110514_1_split.htm',
         info: 'Традиционный старт КСО Азимут, посвящённый памяти тех ориентировщиков, которых уже нет с нами...',
         o_site: '110514_Az',
         owner: 'AZIMUT'
@@ -293,6 +342,7 @@ let events2011 = [
         name: 'Российский азимут 2011 ЛО',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2011_RA-LO/2011_RA-LO_split.htm',
+        split: 'splits/2011/SPB_20110515_1_split.htm',
         owner: 'SFSO_LO',
         o_site: '2011_RA-LO'
     },
@@ -303,6 +353,7 @@ let events2011 = [
         name: 'Российский азимут СПб',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110515/110515spb_split.htm',
+        split: 'splits/2011/SPB_20110515_2_split.htm',
         owner: 'SFSO_SPB',
         o_site: '110515',
         map: 'udelny_2009'
@@ -323,6 +374,7 @@ let events2011 = [
         place: 'Сосновка',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/110518_GS/110518_res.html',
+        split: 'splits/2011/SPB_20110518_1_split.html',
         info: 'Многоэтапный Кубок 18 мая – 1й этап летнего кубка. Спринт. Сосновка. 27 августа – 2й этап летнего кубка. Ночное ориентирование. Классика 45. По назначению. 2 октября – 3й этап летнего кубка. Марафон “На Холмах Яппиля”. Яппиля.',
         o_site: '110518_GS',
         map: 'sosnovka_2011'
@@ -343,6 +395,7 @@ let events2011 = [
         name: 'Чемпионат и первенство ЛенОбласти, вело',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/110521_v/110521_rez.htm',
+        split: 'splits/2011/SPB_20110521_1_split.htm',
         info: 'Чемпионат и первенство ЛенОбласти, велокросс-классика (40-70 мин)',
         owner: 'SFSO_LO',
         o_site: '110521_v'
@@ -372,6 +425,7 @@ let events2011 = [
         name: 'Первенство Санкт-Петербурга среди обучающихся',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110522/110522_res.htm',
+        split: 'splits/2011/SPB_20110522_2_split.htm',
         info: 'Мандатная комиссия: 18 мая с 11:00 до 20:00, по адресу: Невский пр. 39, СДЮСШОР №2 ГОУ ЦО СПб ГДТЮ.',
         owner: 'SFSO_SPB',
         o_site: '110522',
@@ -384,6 +438,7 @@ let events2011 = [
         name: 'Чемпионат и Первенство СПб, спринт',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110528/110528_res.htm',
+        split: 'splits/2011/SPB_20110528_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '110528',
         reskeep: 261
@@ -408,6 +463,7 @@ let events2011 = [
         name: 'Чемпионат и Первенство СПб, эстафета',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110529/110529_res.htm',
+        split: 'splits/2011/SPB_20110529_1_split.htm',
         info: '53-й летний Чемпионат и Первенство г. Санкт-Петербурга по спортивному ориентированию',
         owner: 'SFSO_SPB',
         o_site: '110529'
@@ -418,6 +474,7 @@ let events2011 = [
         name: 'Ночная тренировка команды 110%',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110601/110601_split.htm',
+        split: 'splits/2011/SPB_20110601_1_split.htm',
         info: 'Тренировка по подготовке к Jukola 2011',
         start: 'ROGAINE_110',
         o_site: '110601'
@@ -429,6 +486,7 @@ let events2011 = [
         place: 'Воейково',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110603/110603_split.htm',
+        split: 'splits/2011/SPB_20110603_1_split.htm',
         o_site: '110603'
     },
     {
@@ -438,6 +496,7 @@ let events2011 = [
         name: 'Рогейн от Стрекозаек',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/110604_R/110604_res3.htm',
+        split: 'splits/2011/SPB_20110604_1_split.htm',
         info: 'Рогейн - 3 часа, личные соревнования',
         o_site: '110604_R',
         map: 'garbolovo_strekozy_2011',
@@ -450,6 +509,7 @@ let events2011 = [
         name: 'Чемпионат и Первенство СПб, лонг',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110605/110605_res.htm',
+        split: 'splits/2011/SPB_20110605_1_split.htm',
         info: '53-й летний Чемпионат и Первенство г. Санкт-Петербурга по спортивному ориентированию',
         owner: 'SFSO_SPB',
         o_site: '110605',
@@ -464,6 +524,11 @@ let events2011 = [
         name: 'Невский Азимут',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11061012_NA/110611_res.htm',
+        split: [
+            'splits/2011/SPB_20110611_1_1_split.htm',
+            'splits/2011/SPB_20110611_1_2_split.htm',
+            'splits/2011/SPB_20110611_1_3_split.htm'
+        ],
         info: 'Традиционные многодневные соревнования КСО Азимут',
         start: 'NA',
         o_site: '11061012_NA',
@@ -487,6 +552,14 @@ let events2011 = [
         name: 'Фестиваль «Белые Ночи-2011»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11061419/11061419_res.zip',
+        split: [
+            'splits/2011/SPB_20110614_1_1_split.htm',
+            'splits/2011/SPB_20110614_1_2_split.htm',
+            'splits/2011/SPB_20110614_1_3_split.htm',
+            'splits/2011/SPB_20110614_1_4_split.htm',
+            'splits/2011/SPB_20110614_1_5_split.htm',
+            'splits/2011/SPB_20110614_1_6_split.htm'
+        ],
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '11061419',
@@ -509,6 +582,15 @@ let events2011 = [
         place: 'Лемболово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11062126/110621_res.htm',
+        split: [
+            'splits/2011/SPB_20110621_1_1_split.htm',
+            'splits/2011/SPB_20110621_1_2_split.htm',
+            'splits/2011/SPB_20110621_1_3_split.htm',
+            'splits/2011/SPB_20110621_1_4_split.htm',
+            'splits/2011/SPB_20110621_1_5_split.htm',
+            'splits/2011/SPB_20110621_1_6_split.htm',
+            'splits/2011/SPB_20110621_1_7_split.htm'
+        ],
         start: 'MMS',
         o_site: '11062126',
         map: ['mms_2011_lembolovo_orekhovo','mms_2011_06_21','mms_2011_06_22','mms_2011_06_23','mms_2011_06_24','mms_2011_06_25','mms_2011_06_26'],
@@ -521,6 +603,10 @@ let events2011 = [
         place: 'Орехово',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/110627-0703/20110628-0702_res.zip',
+        split: [
+            'splits/2011/SPB_20110627_1_1_split.htm',
+            'splits/2011/SPB_20110627_1_2_split.htm'
+        ],
         info: 'КУБОК РОССИИ по спортивному ориентированию на велосипедах ПЕРВЕНСТВО РОССИИ по спортивному ориентированию на велосипедах (юноши, девушки до 18 лет) ВСЕРОССИЙСКИЕ соревнования по ориентированию на велосипедах (юноши, девушки до 15 лет)',
         o_site: '110627-0703'
     },
@@ -565,6 +651,7 @@ let events2011 = [
         name: 'Открытое п-во ОК судостроения',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110717_Az/110717_res.htm',
+        split: 'splits/2011/SPB_20110717_1_split.htm',
         info: 'Традиционный старт ориентировщиков-судостроителей и КСО Азимут',
         o_site: '110717_Az',
         map: 'orekhovo_rakitinskoe_2004'
@@ -589,6 +676,10 @@ let events2011 = [
         name: 'Рогейн-110',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/110806/110806_res.pdf',
+        split: [
+            'splits/2011/SPB_20110806_1_1_split.txt',
+            'splits/2011/SPB_20110806_1_2_split.html'
+        ],
         start: 'ROGAINE_110',
         o_site: '110806',
         map: 'toksovo_malinovaya_gora_1997'
@@ -629,6 +720,7 @@ let events2011 = [
         name: 'Горный Кросс-27',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/110910/110910_res.xls',
+        split: 'splits/2011/SPB_20110910_1_split.htm',
         start: 'GORNY_CROSS',
         o_site: '110910'
     },
@@ -639,6 +731,7 @@ let events2011 = [
         name: 'Классика Белых Ночей',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110911/110911_res.htm',
+        split: 'splits/2011/SPB_20110911_1_split.htm',
         info: 'Победители и призёры (1 – 3 место) в абсолютном зачете среди двух основных групп М (16, 18, 21, 40, 50) и Ж (16, 18, 21, 40, 50) (по лучшему времени независимо от группы и дистанции) награждаются ценными призами: 6 комплектов приемного оборудования предоставлены крупнейшим российским спутниковым оператором "Триколор ТВ" (www.tricolor.tv). 1-е место: комплект оборудования + 3 года подписки на Триколор ТВ 2-е место: комплект оборудования + 2 года подписки на Триколор ТВ 3-е место: комплект оборудования + 1 год подписки на Триколор ТВ',
         map: 'ilychevo_2016',
         owner: 'WN',
@@ -651,6 +744,7 @@ let events2011 = [
         place: 'Орехово, Фигурное оз',
         type: 'VELO',
         res: 'http://fedor-e.narod.ru/fest11/mtbo-fin.htm',
+        split: 'splits/2011/SPB_20110917_1_split.htm',
         o_site: '110917'
     },
     {
@@ -660,6 +754,12 @@ let events2011 = [
         name: 'Критериум-25',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110917_Cr/110917_rres.xls',
+        split: [
+            'splits/2011/SPB_20110917_2_1_split.htm',
+            'splits/2011/SPB_20110917_2_2_split.htm',
+            'splits/2011/SPB_20110917_2_3_split.htm',
+            'splits/2011/SPB_20110917_2_4_split.htm'
+        ],
         o_site: '110917_Cr'
     },
     {
@@ -669,6 +769,7 @@ let events2011 = [
         name: 'Чемпионат СПб, марафон',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110918/110918_res.htm',
+        split: 'splits/2011/SPB_20110918_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '110918',
         reskeep: 240,
@@ -693,6 +794,7 @@ let events2011 = [
         name: 'Золотые кольца (Свадебные)',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110924_ZK/110924_res.htm',
+        split: 'splits/2011/SPB_20110924_1_split.htm',
         start: 'WEDDING',
         o_site: '110924_ZK'
     },
@@ -704,6 +806,7 @@ let events2011 = [
         name: 'Чемпионат и пер-во ЛО',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11092425/110924_res.pdf',
+        split: 'splits/2011/SPB_20110924_2_split.htm',
         owner: 'SFSO_LO',
         o_site: '11092425',
         map: 'orekhovo_rakitinskoe_2004'
@@ -715,6 +818,10 @@ let events2011 = [
         name: 'Ночное Первенство СПб по спортивному ориентированию',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110930/110930_res.htm',
+        split: [
+            'splits/2011/SPB_20110930_1_1_split.htm',
+            'splits/2011/SPB_20110930_1_2_split.htm'
+        ],
         owner: 'SFSO_SPB',
         o_site: '110930'
     },
@@ -748,6 +855,7 @@ let events2011 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/111002/20111002_res.htm',
+        split: 'splits/2011/SPB_20111002_1_split.htm',
         info: 'Соревнования пройдут в районе ж/д станции Яппиля. Марафон 140 мин., кросс 35-100 мин.',
         o_site: '111002'
     },
@@ -758,6 +866,7 @@ let events2011 = [
         name: 'Памяти Коли Иванова',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111005/111005_rez.htm',
+        split: 'splits/2011/SPB_20111005_1_split.htm',
         o_site: '111005'
     },
     {
@@ -777,6 +886,7 @@ let events2011 = [
         name: 'Ночные соревнования памяти Анатолия Окинчица',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111009/111009_res.pdf',
+        split: 'splits/2011/SPB_20111008_1_split.htm',
         start: 'OKINCHITSA',
         o_site: '111009',
         map: 'lembolovo_2002'
@@ -787,6 +897,7 @@ let events2011 = [
         name: 'Первенство Калининского района',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111012/111012_res.htm',
+        split: 'splits/2011/SPB_20111012_1_split.htm',
         place: 'Пискаревский парк',
         o_site: '111012',
         map: 'piskarevsky_1996'
@@ -798,6 +909,7 @@ let events2011 = [
         name: 'Петербургская осень',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111015_Az/111015_res.htm',
+        split: 'splits/2011/SPB_20111015_1_split.htm',
         logo: 'azimut.gif',
         o_site: '111015_Az',
         owner: 'AZIMUT'
@@ -809,6 +921,7 @@ let events2011 = [
         name: 'Чемпионат ВУЗов СПб',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111015_vyz/111015_res.xls',
+        split: 'splits/2011/SPB_20111015_2_split.htm',
         owner: 'SFSO_SPB',
         o_site: '111015_vyz'
     },
@@ -819,6 +932,7 @@ let events2011 = [
         name: 'Чемпионат СПб, средняя дистанция',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111016/111016_res.htm',
+        split: 'splits/2011/SPB_20111016_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '111016',
         reskeep: 228,
@@ -831,6 +945,7 @@ let events2011 = [
         name: 'Ночные Эстафеты',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111022/111022_res.htm',
+        split: 'splits/2011/SPB_20111022_1_split.htm',
         o_site: '111022'
     },
     {
@@ -841,6 +956,10 @@ let events2011 = [
         place: 'Лавола, им Кирова',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11102223/221011res.htm',
+        split: [
+            'splits/2011/SPB_20111022_2_1_split.htm',
+            'splits/2011/SPB_20111022_2_2_split.htm'
+        ],
         owner: 'VYBORG',
         o_site: '11102223'
     },
@@ -851,6 +970,7 @@ let events2011 = [
         name: 'Первенство СПб среди ветеранов',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111029_Az/111029_res.htm',
+        split: 'splits/2011/SPB_20111029_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '111029_Az',
         map: 'lembolovo_2002'
@@ -862,6 +982,16 @@ let events2011 = [
         place: 'Первомайское',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2011CupYM/2011CupYM_res.zip',
+        split: [
+            'splits/2011/SPB_20111030_1_1_split.htm',
+            'splits/2011/SPB_20111030_1_2_split.htm',
+            'splits/2011/SPB_20111030_1_3_split.htm',
+            'splits/2011/SPB_20111030_1_4_split.htm',
+            'splits/2011/SPB_20111030_1_5_split.htm',
+            'splits/2011/SPB_20111030_1_6_split.htm',
+            'splits/2011/SPB_20111030_1_7_split.htm',
+            'splits/2011/SPB_20111030_1_8_split.htm'
+        ],
         info: '1 этап - 24.04 Энколово 2 этап - 09.05 Охта-Парк 3 этап - 16.07 Цвелодубово 4 этап - 13.08 Ягодное 5 этап - 14.08 Ягодное 6 этап - 03.09 Токсово 7 этап - 04.09 Токсово 8 этап - 16.10 (перезачет средней дистанции Ч-та СПб) финал - 30.10 Первомайское',
         start: 'YM',
         o_site: '2011CupYM'
@@ -882,6 +1012,7 @@ let events2011 = [
         name: 'Осенний марафон',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111104_Az/111104_res.htm',
+        split: 'splits/2011/SPB_20111104_1_split.htm',
         logo: 'azimut.gif',
         o_site: '111104_Az',
         owner: 'AZIMUT'
@@ -901,6 +1032,7 @@ let events2011 = [
         name: 'Кубок Центра Ладога',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111105/111105_rez_Ladoga.htm',
+        split: 'splits/2011/SPB_20111105_1_split.htm',
         o_site: '111105'
     },
     {
@@ -910,6 +1042,7 @@ let events2011 = [
         name: 'Соревнования по MTБO памяти Бориса Панкратьева',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/111106/111106_res.htm',
+        split: 'splits/2011/SPB_20111106_1_split.htm',
         o_site: '111106',
         map: 'lembolovo_russia_2007'
     },
@@ -929,6 +1062,7 @@ let events2011 = [
         name: 'Осенний Кубок команды 110%',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/111117/110915_res.htm',
+        split: 'splits/2011/SPB_20111117_1_split.htm',
         info: 'Серия открытых тренировочных стартов 1 ЭТАП Юкки результаты 2 ЭТАП Токсово результаты 3 ЭТАП Токсово результаты 4 ЭТАП Кузьмолово результаты 5 ЭТАП Куялово результаты 6 ЭТАП Кузьмолово результаты',
         start: 'ROGAINE_110',
         o_site: '111117'
@@ -949,6 +1083,15 @@ let events2011 = [
         name: 'Ориентир-НатАлка',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/110327_Or/110327_res.xls',
+        split: [
+            'splits/2011/SPB_20111120_1_1_split.htm',
+            'splits/2011/SPB_20111120_1_2_split.htm',
+            'splits/2011/SPB_20111120_1_3_split.htm',
+            'splits/2011/SPB_20111120_1_4_split.htm',
+            'splits/2011/SPB_20111120_1_5_split.htm',
+            'splits/2011/SPB_20111120_1_6_split.htm',
+            'splits/2011/SPB_20111120_1_7_split.htm'
+        ],
         info: 'Традиционная серия тренировочных стартов КСО Азимут: 27.03 Ориентир-1: результаты 20.04 Ориентир-2: результаты 04.05 Ориентир-3: результаты 11.05 Ориентир-4: результаты, сплиты 24.07 Ориентир-6: результаты, сплиты 31.07 Ориентир-7: результаты, сплиты 31.08 Ориентир-8: результаты, сплиты 07.09 Ориентир-9: результаты, сплиты 20.11 Ориентир НатАлка: результаты, сплиты',
         logo: 'azimut.gif',
         o_site: '110327_Or',
@@ -963,6 +1106,7 @@ let events2011 = [
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/111126/111126_result.htm',
+        split: 'splits/2011/SPB_20111126_1_split.htm',
         start: 'GORNY_CROSS',
         o_site: '111126'
     },
@@ -973,6 +1117,7 @@ let events2011 = [
         name: 'Снежная Тропа, 1-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111127/111127_RES1.htm',
+        split: 'splits/2011/SPB_20111127_1_split.htm',
         video: 'https://www.youtube.com/watch?v=POAiLoavdLg',
         owner: 'SFSO_SPB',
         o_site: '111127',
@@ -985,6 +1130,7 @@ let events2011 = [
         name: 'День Выборов от клуба Белые Ночи',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111204/111204_res.htm',
+        split: 'splits/2011/SPB_20111204_1_split.htm',
         photo: 'http://adventureraces.ru/photo/index.php?id_of_section=11&id_of_photogallery=30',
         info: 'Победителям в группах МА-МD и ЖА-ЖD по ящику мандаринов!!!',
         video: ['http://online47.ru/a/2011/12/05/Den_viborov_beg_po_zada/','https://www.youtube.com/watch?v=6YXzC1e426s'],
@@ -1000,6 +1146,7 @@ let events2011 = [
         name: 'Снежная Тропа, 2-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111211/111211_res.htm',
+        split: 'splits/2011/SPB_20111211_1_split.htm',
         video: 'https://www.youtube.com/watch?v=JO2JzdTPAaw',
         info: 'Парк Зверинец, Петродворец',
         owner: 'SFSO_SPB',
@@ -1012,6 +1159,7 @@ let events2011 = [
         name: 'Всеволожская тропа 2012 2 этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111218/111218_res2.PDF',
+        split: 'splits/2011/SPB_20111218_1_split.htm',
         video: 'https://www.youtube.com/watch?v=5--a9ZZH1Lw',
         o_site: '111218',
         map: 'bugry_2011'
@@ -1041,6 +1189,7 @@ let events2011 = [
         name: 'Открытые тренировки на ЮЗ',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111224_SW/111224_res.htm',
+        split: 'splits/2011/SPB_20111224_2_split.htm',
         o_site: '111224_SW'
     },
     {
@@ -1051,6 +1200,7 @@ let events2011 = [
         type: 'SKI',
         publish: 'https://o-site.spb.ru/race.php?id=111225',
         res: 'https://o-site.spb.ru/_races/111225/111225_res.htm',
+        split: 'splits/2011/SPB_20111225_1_split.htm',
         photo: 'http://markir.spb.ru/photos/biotlon2011.htm',
         fmt: 'Би-О-Тлон',
         video: [

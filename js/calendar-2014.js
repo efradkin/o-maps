@@ -6,6 +6,7 @@ let events2014 = [
         name: 'Снежная тропа, 2-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130119/140119_res.pdf',
+        split: 'splits/2013/SPB_20130119_1_split.htm',
         video: ['http://vimeo.com/85339934','https://www.youtube.com/watch?v=mVSrvxZaD5I'],
         owner: 'SFSO_SPB',
         o_site: '130119',
@@ -39,6 +40,7 @@ let events2014 = [
         name: 'Горный Кросс-40',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/140111/140111_res.zip',
+        split: 'splits/2014/SPB_20140111_1_split.htm',
         fmt: 'рогейн 6 и 3 часов',
         start: 'GORNY_CROSS',
         o_site: '140111'
@@ -50,6 +52,10 @@ let events2014 = [
         place: 'Кузьмоловский',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140112/140112_res.htm',
+        split: [
+            'splits/2014/SPB_20140112_1_1_split.htm',
+            'splits/2014/SPB_20140112_1_2_split.htm'
+        ],
         start: 'VSEV_VESTI',
         o_site: '140112'
     },
@@ -62,6 +68,10 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/763',
         res: 'https://o-site.spb.ru/_races/140125/140125_res.htm',
+        split: [
+            'splits/2014/SPB_20140125_1_1_split.htm',
+            'splits/2014/SPB_20140125_1_2_split.htm'
+        ],
         info: 'Чемпионат и первенство СЗФО Чемпионат и первенство ЦФО III зимняя всероссийская Универсиада, 2 этап (СЗФО, ЦФО)',
         o_site: '140125'
     },
@@ -74,6 +84,11 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/764',
         res: 'https://o-site.spb.ru/_races/140202/140131_res.htm',
+        split: [
+            'splits/2014/SPB_20140131_1_1_split.htm',
+            'splits/2014/SPB_20140131_1_2_split.htm',
+            'splits/2014/SPB_20140131_1_3_split.htm'
+        ],
         info: 'Всероссийские соревнования ветеранов по спортивному ориентированию на лыжах Чемпионат и первенство Ленинградской области Кубок профкома «ПО Киришинефтеоргсинтез»',
         o_site: '140202'
     },
@@ -85,6 +100,7 @@ let events2014 = [
         type: 'SKI',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/140208/20140208_rez.htm',
+        split: 'splits/2014/SPB_20140208_1_split.htm',
         o_site: '140208'
     },
     {
@@ -104,6 +120,10 @@ let events2014 = [
         name: 'Спортивное ориентирование - в школу, Приморский район',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140212/140212_res.htm',
+        split: [
+            'splits/2014/SPB_20140212_1_1_split.htm',
+            'splits/2014/SPB_20140212_1_2_split.htm'
+        ],
         info: 'Соревнования проводятся в рамках проекта Федерации спортивного ориентирования Санкт-Петербурга «Спортивное ориентирование - в школу» с целью популяризации спортивного ориентирования среди учащихся образовательных учреждений Санкт-Петербурга',
         video: 'http://vimeo.com/86731355',
         owner: 'SFSO_SPB',
@@ -137,6 +157,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/140216/140216_res.pdf',
+        split: 'splits/2014/SPB_20140216_1_split.htm',
         info: 'Район соревнования - территория исторического архитектурно-паркового ансамбля «Елагин остров» Размещение участников средней школе №44 Приморского района по адресу ул.Школьная, 66(600 м. от ст.метро «Старая Деревня»). Прием участников соревнований в школе с 9:30 до 15:00 НАЧАЛО СТАРТА С 11:00',
         owner: 'SFSO_SPB',
         o_site: '140216'
@@ -148,6 +169,7 @@ let events2014 = [
         place: 'Орехово',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/140223_SPb/140223_res.htm',
+        split: 'splits/2014/SPB_20140223_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '140223_SPb'
     },
@@ -159,6 +181,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/140224/120224_res.htm',
+        split: 'splits/2014/SPB_20140224_1_split.htm',
         info: 'Чемпионат СПб среди студентов ВУЗов по спортивному ориентированию на лыжах проводится в рамках III Зимней Универсиады СПб.',
         o_site: '140224'
     },
@@ -179,6 +202,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/131116/140308-4_res.htm',
+        split: 'splits/2014/SPB_20140308_1_split.htm',
         info: 'Результаты предыдущих этапов: 1-й этап 2-й этап 3-й этап 4-й этап',
         map: 'ilychevo_2016',
         owner: 'WN',
@@ -218,6 +242,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/140316/140316_split.htm',
+        split: 'splits/2014/SPB_20140316_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '140316'
     },
@@ -227,6 +252,12 @@ let events2014 = [
         name: 'Sprint Tour SPb 2014',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140409/140409_res.htm',
+        split: [
+            'splits/2014/SPB_20140401_1_1_split.htm',
+            'splits/2014/SPB_20140401_1_2_split.htm',
+            'splits/2014/SPB_20140401_1_3_split.htm',
+            'splits/2014/SPB_20140401_1_4_split.htm'
+        ],
         info: 'Серия стартов в дисциплине "спринт" 1 этап-09 апреля результаты Routegadget. 2 этап-16 апреля результаты сплиты. 3 этап-07 мая результаты сплитыты Routegadget. 4 этап-14 мая результаты сплиты Routegadget. 5 этап-21 мая результаты сплиты Routegadget.',
         start: 'ST',
         o_site: '140409',
@@ -259,6 +290,7 @@ let events2014 = [
         name: 'Тренировка от Стрекозаек',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140405_Str/140405_res.htm',
+        split: 'splits/2014/SPB_20140405_1_split.htm',
         o_site: '140405_Str',
         owner: 'STRKZK'
     },
@@ -269,6 +301,10 @@ let events2014 = [
         name: 'Спортивное ориентирование - в школу, Красносельский район',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140416/140416_res_spr.htm',
+        split: [
+            'splits/2014/SPB_20140416_1_1_split.htm',
+            'splits/2014/SPB_20140416_1_2_split.htm'
+        ],
         photo: 'https://o-site.spb.ru/_races/140416/140416_foto_res.htm',
         video: 'https://www.youtube.com/watch?v=7QD9lAYFyUg',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке ОАО "Фацер"',
@@ -283,6 +319,10 @@ let events2014 = [
         place: 'Сосновый Бор',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14042627/20140426_res.pdf',
+        split: [
+            'splits/2014/SPB_20140426_1_1_split.htm',
+            'splits/2014/SPB_20140426_1_2_split.htm'
+        ],
         owner: 'YUVENTA',
         o_site: '14042627'
     },
@@ -334,6 +374,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/140509_vyz/140509_res.htm',
+        split: 'splits/2014/SPB_20140509_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '140509_vyz',
         map: 'lembolovo_2002'
@@ -365,6 +406,10 @@ let events2014 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, спринт',
         type: 'ORIENT',
         res: 'http://spbof.ru/ru/docs/finish/41-leto/253-rezultaty-sprint',
+        split: [
+            'splits/2014/SPB_20140517_1_1_split.htm',
+            'splits/2014/SPB_20140517_1_2_split.htm'
+        ],
         fmt: 'Городской спринт',
         owner: 'SFSO_SPB',
         o_site: '140517',
@@ -377,6 +422,7 @@ let events2014 = [
         name: 'Российский Азимут - ЛО',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140518_LO/140518_lo_split.htm',
+        split: 'splits/2014/SPB_20140518_1_split.htm',
         owner: 'SFSO_LO',
         o_site: '140518_LO'
     },
@@ -387,6 +433,7 @@ let events2014 = [
         place: 'Пискаревский парк',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140518_SPb/140518_res.htm',
+        split: 'splits/2014/SPB_20140518_2_split.htm',
         owner: 'SFSO_SPB',
         o_site: '140518_SPb',
         map: 'piskarevsky_2012'
@@ -398,6 +445,7 @@ let events2014 = [
         name: 'Спортивное ориентирование - в школу, Красногвардейский район',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140521/140521_labirint.htm',
+        split: 'splits/2014/SPB_20140521_1_split.htm',
         photo: 'https://o-site.spb.ru/_races/140521/140521_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке ОАО "Фацер"',
         owner: 'SFSO_SPB',
@@ -434,6 +482,7 @@ let events2014 = [
         place: 'Новоорловский л/п',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/140525v/ResultList.htm',
+        split: 'splits/2014/SPB_20140525_1_split.htm',
         info: 'Открытые Чемпионат и первенство Ленинградской области по спортивному ориентированию на велосипедах. Спринт (25мин). Новоорловский лесопарк. 12:00.',
         owner: 'SFSO_LO',
         o_site: '140525v',
@@ -446,6 +495,7 @@ let events2014 = [
         name: 'Спортивная акция',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140525_SPb/140525_RES.htm',
+        split: 'splits/2014/SPB_20140525_2_split.htm',
         o_site: '140525_SPb'
     },
     {
@@ -457,6 +507,10 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/140531/140531_res.htm',
+        split: [
+            'splits/2014/SPB_20140531_1_1_split.htm',
+            'splits/2014/SPB_20140531_1_2_split.htm'
+        ],
         info: 'Традиционные соревнования Памяти друзей в этом году проводятся по последним картам, созданным одним из старейших ленинградских рисовщиков Владимиром Михайловичем Баймаковым, ушедшим от нас в 2012 году. 1-й день соревнований является одновременно Открытым первенством Приозерского р-на по спортивному ориентированию.',
         o_site: '140531',
         owner: 'AZIMUT'
@@ -477,6 +531,7 @@ let events2014 = [
         place: 'Мичуринское',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140601/140601_res.htm',
+        split: 'splits/2014/SPB_20140601_1_split.htm',
         start: 'ROGAINE_110',
         o_site: '140601'
     },
@@ -488,6 +543,10 @@ let events2014 = [
         type: 'VELO',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'http://100x24.ru/2014/results/20140607.htm',
+        split: [
+            'splits/2014/SPB_20140607_1_1_split.htm',
+            'splits/2014/SPB_20140607_1_2_split.htm'
+        ],
         owner: 'SFSO_SPB',
         o_site: '140107',
         reskeep: 246,
@@ -501,6 +560,10 @@ let events2014 = [
         name: 'Памяти Сергея Кузнецова, Чемпионат и Первенство СПб, лонг',
         type: 'ORIENT',
         res: 'http://spbof.ru/ru/docs/finish/41-leto/252-rezultaty-long',
+        split: [
+            'splits/2014/SPB_20140607_2_1_split.htm',
+            'splits/2014/SPB_20140607_2_2_split.htm'
+        ],
         owner: 'SFSO_SPB',
         o_site: '14060708',
         map: ['psk_2014_06_07', 'psk_2014_06_08'],
@@ -519,6 +582,7 @@ let events2014 = [
         type: 'ROGAINE',
         reg: 'http://100x24.ru/reg.htm',
         res: 'http://www.100x24.spb.ru/2014/results/100x24_20140608_results.htm',
+        split: 'splits/2014/SPB_20140608_1_split.htm',
         o_site: '140608',
         start: '100x24',
         map: 'koltushi_2014'
@@ -532,6 +596,12 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/14061215-NA/140612_res.htm',
+        split: [
+            'splits/2014/SPB_20140612_1_1_split.htm',
+            'splits/2014/SPB_20140612_1_2_split.htm',
+            'splits/2014/SPB_20140612_1_3_split.htm',
+            'splits/2014/SPB_20140612_1_4_split.htm'
+        ],
         start: 'NA',
         o_site: '14061215-NA',
         map: ['na_2014_06_12', 'na_2014_pervomayskoe', 'na_2014_06_15']
@@ -544,6 +614,14 @@ let events2014 = [
         name: 'Фестиваль спортивного ориентирования «Белые Ночи»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14061722/14061722_res_official.zip',
+        split: [
+            'splits/2014/SPB_20140617_1_1_split.htm',
+            'splits/2014/SPB_20140617_1_2_split.htm',
+            'splits/2014/SPB_20140617_1_3_split.htm',
+            'splits/2014/SPB_20140617_1_4_split.htm',
+            'splits/2014/SPB_20140617_1_5_split.htm',
+            'splits/2014/SPB_20140617_1_6_split.htm'
+        ],
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '14061722',
@@ -557,6 +635,12 @@ let events2014 = [
         name: 'Кубок Карельского перешейка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14062326_KKP/140623_res.htm',
+        split: [
+            'splits/2014/SPB_20140623_1_1_split.htm',
+            'splits/2014/SPB_20140623_1_2_split.htm',
+            'splits/2014/SPB_20140623_1_3_split.htm',
+            'splits/2014/SPB_20140623_1_4_split.htm'
+        ],
         start: 'KKP',
         o_site: '14062326_KKP'
     },
@@ -568,6 +652,12 @@ let events2014 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '14062326_KKP',
+        split: [
+            'splits/2014/SPB_20140623_2_1_split.htm',
+            'splits/2014/SPB_20140623_2_2_split.htm',
+            'splits/2014/SPB_20140623_2_3_split.htm',
+            'splits/2014/SPB_20140623_2_4_split.htm'
+        ],
         map: 'kkp_gusinaja_2014_06_23',
         o_gps: 214,
     },
@@ -579,6 +669,12 @@ let events2014 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '14062326_KKP',
+        split: [
+            'splits/2014/SPB_20140625_1_1_split.htm',
+            'splits/2014/SPB_20140625_1_2_split.htm',
+            'splits/2014/SPB_20140625_1_3_split.htm',
+            'splits/2014/SPB_20140625_1_4_split.htm'
+        ],
         map: 'kkp_gusinaja_2014_06_25',
         o_gps: {
             'М': 217,
@@ -593,6 +689,12 @@ let events2014 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '14062326_KKP',
+        split: [
+            'splits/2014/SPB_20140626_1_1_split.htm',
+            'splits/2014/SPB_20140626_1_2_split.htm',
+            'splits/2014/SPB_20140626_1_3_split.htm',
+            'splits/2014/SPB_20140626_1_4_split.htm'
+        ],
         map: 'kkp_goritsa_2014_06_26',
         o_gps: {
             'М': 219,
@@ -608,6 +710,11 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/14062729/140629_res.htm',
+        split: [
+            'splits/2014/SPB_20140627_1_1_split.htm',
+            'splits/2014/SPB_20140627_1_2_split.htm',
+            'splits/2014/SPB_20140627_1_3_split.htm'
+        ],
         start: 'MMS',
         o_site: '14062729',
         o_gps: 223,
@@ -621,6 +728,7 @@ let events2014 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/140628_velo/140628_res_v.htm',
+        split: 'splits/2014/SPB_20140628_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '140628_velo'
     },
@@ -643,6 +751,10 @@ let events2014 = [
         name: 'Летнее первенство клуба Белые Ночи',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14071213/140712_res.htm',
+        split: [
+            'splits/2014/SPB_20140712_1_1_split.htm',
+            'splits/2014/SPB_20140712_1_2_split.htm'
+        ],
         map: 'tikhoe_2024',
         owner: 'WN',
         start: 'WN',
@@ -658,6 +770,7 @@ let events2014 = [
         fmt: '3 и 6 часов',
         link: 'http://gornycross.narod.ru',
         res: 'https://o-site.spb.ru/_races/140719/140719_res.pdf',
+        split: 'splits/2014/SPB_20140719_1_split.htm',
         start: 'GORNY_CROSS',
         o_site: '140719'
     },
@@ -677,6 +790,7 @@ let events2014 = [
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/entry-list?id=383',
         res: 'https://o-site.spb.ru/_races/140802/140802_res.xls',
+        split: 'splits/2014/SPB_20140802_1_split.htm',
         o_site: '140802'
     },
     {
@@ -686,6 +800,10 @@ let events2014 = [
         name: 'RedFox мультирогейн, RedFox мульти-kids',
         type: 'MULTI',
         res: 'https://o-site.spb.ru/_races/140803/140803_res.htm',
+        split: [
+            'splits/2014/SPB_20140803_1_1_split.htm',
+            'splits/2014/SPB_20140803_1_2_split.htm'
+        ],
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-6» мультирогейн в формате 6 часов, «MR-3» мультирогейн в формате 3 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
         fmt: '6 часов, 3 часа, детский формат',
         start: 'RFAR',
@@ -699,6 +817,11 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'http://o-site.spb.ru/_races/140607_KKM/KKM140607_rez.pdf',
+        split: [
+            'splits/2014/SPB_20140810_1_1_split.zip',
+            'splits/2014/SPB_20140810_1_2_split.htm',
+            'splits/2014/SPB_20140810_1_3_split.xls'
+        ],
         photo: 'http://vk.com/club21533513?z=album-21533513_196582690',
         info: '07.06 1-й этап: результаты, сплиты 05.07 2-й этап: результаты, сплиты',
         o_site: '140607_KKM'
@@ -732,6 +855,7 @@ let events2014 = [
         name: 'ГорныйКросс-43',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/140906R/140906R_res.pdf',
+        split: 'splits/2014/SPB_20140906_1_split.htm',
         o_site: '140906R',
         fmt: '3 и 6 часов',
         link: 'http://gornycross.narod.ru',
@@ -754,6 +878,7 @@ let events2014 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, марафон',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140907/140907_res.xls',
+        split: 'splits/2014/SPB_20140907_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '140907',
         reskeep: 239
@@ -765,6 +890,7 @@ let events2014 = [
         place: 'Всеволожск',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14091314/140914_res.pdf',
+        split: 'splits/2014/SPB_20140913_1_split.htm',
         o_site: '14091314',
         endDate: '2014-09-14'
     },
@@ -775,6 +901,7 @@ let events2014 = [
         name: 'Спортивное ориентирование - в школу, Калининский р-н',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140919/140919_lab_res.htm',
+        split: 'splits/2014/SPB_20140919_1_split.htm',
         photo: 'https://o-site.spb.ru/_races/140919/140919_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
         owner: 'SFSO_SPB',
@@ -797,6 +924,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/140921/140921_res.htm',
+        split: 'splits/2014/SPB_20140921_1_split.htm',
         info: '5-е по счёту традиционные соревнования, проводимые клубом "Белые Ночи" при спонсорской поддержке генерального партнёра trikolor.tv',
         owner: 'WN',
         o_site: '140921'
@@ -810,6 +938,10 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/14092728/140927_res.xls',
+        split: [
+            'splits/2014/SPB_20140927_1_1_split.htm',
+            'splits/2014/SPB_20140927_1_2_split.htm'
+        ],
         o_site: '14092728'
     },
     {
@@ -833,6 +965,10 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=409',
         res: 'https://o-site.spb.ru/_races/140926-29/14092729_res.zip',
+        split: [
+            'splits/2014/SPB_20140929_1_1_split.htm',
+            'splits/2014/SPB_20140929_1_2_split.htm'
+        ],
         info: 'Городские соревнования «СТАРТЫ в ЗЕРКАЛЬНОМ» 26-29 сентября',
         o_site: '140926-29',
         map: 'zerkalny_2002'
@@ -845,6 +981,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/141004_ZK/141004_res.xls',
+        split: 'splits/2014/SPB_20141004_1_split.htm',
         start: 'WEDDING',
         o_site: '141004_ZK',
         map: 'garbolovo_2014'
@@ -856,6 +993,7 @@ let events2014 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга по вело-ориентированию, спринт',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/141004/141004_res.pdf',
+        split: 'splits/2014/SPB_20141004_2_split.htm',
         owner: 'SFSO_SPB',
         o_site: '141004'
     },
@@ -866,6 +1004,7 @@ let events2014 = [
         name: 'Чемпионат и первенство СПб, средняя дистанция',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/141005/141005_res.htm',
+        split: 'splits/2014/SPB_20141005_1_split.htm',
         photo: 'http://fotki.yandex.ru/users/wavygirl/album/453782',
         video: 'https://www.youtube.com/watch?v=mxzdkz77ZB4',
         owner: 'SFSO_SPB',
@@ -879,6 +1018,7 @@ let events2014 = [
         name: 'Первенство СДЮСШОР Экран',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/141007/141007_res.htm',
+        split: 'splits/2014/SPB_20141007_1_split.htm',
         o_site: '141007',
         map: 'osinovaja_roscha_2018'
     },
@@ -889,6 +1029,7 @@ let events2014 = [
         place: 'Кавголово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/141008/20141008_Koli_rez.htm',
+        split: 'splits/2014/SPB_20141008_1_split.htm',
         o_site: '141008'
     },
     {
@@ -898,6 +1039,7 @@ let events2014 = [
         name: 'Мемориал А.Окинчица',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14101112/141011_res.htm',
+        split: 'splits/2014/SPB_20141011_1_split.htm',
         info: 'Традиционные ночные соревнования по ориентированию, посвящённые памяти Анатолия Окинчица.',
         video: [
             'https://www.youtube.com/watch?v=64M0TRjznsg',
@@ -924,6 +1066,7 @@ let events2014 = [
         name: 'Спортивное ориентирование - в школу, (Выборгский р-н)',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/141015/141015_lab_res.htm',
+        split: 'splits/2014/SPB_20141015_1_split.htm',
         photo: 'https://o-site.spb.ru/_races/141015/141015_res_foto.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
         video: 'http://vimeo.com/110027831',
@@ -940,6 +1083,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/141018/141018_res.htm',
+        split: 'splits/2014/SPB_20141018_1_split.htm',
         video: 'https://www.youtube.com/watch?v=J0vxXgBpYLg',
         owner: 'VYBORG',
         o_site: '141018'
@@ -952,6 +1096,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=420',
         res: 'https://o-site.spb.ru/_races/141019/141025_res.pdf',
+        split: 'splits/2014/SPB_20141019_1_split.htm',
         o_site: '141019'
     },
     {
@@ -962,6 +1107,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/141025_Az/141025_res.htm',
+        split: 'splits/2014/SPB_20141025_1_split.htm',
         logo: 'azimut.gif',
         o_site: '141025_Az',
         owner: 'AZIMUT'
@@ -973,6 +1119,7 @@ let events2014 = [
         name: 'Соревнования памяти Димы Лисового',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/141026_DL/141026_res.htm',
+        split: 'splits/2014/SPB_20141026_1_split.htm',
         o_site: '141026_DL'
     },
     {
@@ -981,6 +1128,17 @@ let events2014 = [
         name: 'Яркий Кубок',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2014CupYM/141026_res.pdf',
+        split: [
+            'splits/2014/SPB_20141026_2_1_split.htm',
+            'splits/2014/SPB_20141026_2_2_split.htm',
+            'splits/2014/SPB_20141026_2_3_split.htm',
+            'splits/2014/SPB_20141026_2_4_split.htm',
+            'splits/2014/SPB_20141026_2_5_split.htm',
+            'splits/2014/SPB_20141026_2_6_split.htm',
+            'splits/2014/SPB_20141026_2_7_split.htm',
+            'splits/2014/SPB_20141026_2_8_split.htm',
+            'splits/2014/SPB_20141026_2_9_split.htm'
+        ],
         info: '1 этап - 12.04 Дюны 2 этап - 12.04 Колтуши 3 этап - 04.05 Кузьмолово 4 этап - 10.05 Выборг, Сайменские дачи 5 этап - 22.06 (в рамках фест. БелыеНочи) 6 этап - 06.07 п.Суоранда, выбор 7 этап - 16.08 гора Башенная 8 этап - 17.08 гора Башенная 9 этап - 31.08 Лемболово (ЧиП Всев. р-на, приз газеты Всев. вести) 10 этап - 14.09, зачет с ЧиП ЛО финал - 26.10 Мичуринское',
         o_site: '2014CupYM',
         map: 'lembolovo_2002'
@@ -992,6 +1150,7 @@ let events2014 = [
         name: 'Спортивное ориентирование - в школу, Курортный р-н',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/141029/141019_lab_res.htm',
+        split: 'splits/2014/SPB_20141029_1_split.htm',
         photo: 'https://o-site.spb.ru/_races/141029/141029_foto_res.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга и ОАО "Фацер"',
         owner: 'SFSO_SPB',
@@ -1005,6 +1164,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/141104_OM/141104_res.htm',
+        split: 'splits/2014/SPB_20141104_1_split.htm',
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции',
         logo: 'azimut.gif',
         o_site: '141104_OM',
@@ -1027,6 +1187,7 @@ let events2014 = [
         fmt: '3 и 8 часов',
         link: 'http://gornycross.narod.ru',
         res: 'https://o-site.spb.ru/_races/20141115R/141115_res.pdf',
+        split: 'splits/2014/SPB_20141115_2_split.htm',
         start: 'GORNY_CROSS',
         o_site: '20141115R'
     },
@@ -1048,6 +1209,10 @@ let events2014 = [
         place: 'Будогощь',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14112223/141122_res.htm',
+        split: [
+            'splits/2014/SPB_20141122_1_1_split.htm',
+            'splits/2014/SPB_20141122_1_2_split.htm'
+        ],
         o_site: '14112223'
     },
     {
@@ -1058,6 +1223,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-entry',
         res: 'https://o-site.spb.ru/_races/141123/141123_res.pdf',
+        split: 'splits/2014/SPB_20141123_1_split.htm',
         video: 'https://www.youtube.com/watch?v=Ja4sI7qFx74',
         owner: 'SFSO_SPB',
         o_site: '141123',
@@ -1080,6 +1246,7 @@ let events2014 = [
         name: 'Открытые соревнования, посвящённые Дню Матери',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/141129/141129_res.htm',
+        split: 'splits/2014/SPB_20141129_1_split.htm',
         info: 'Спортивный праздник среди учащейся молодежи Красногвардейского района Санкт-Петербурга по спортивному ориентированию, посвященный Дню Матери Соревнования проводятся по следующим возрастным группам: МЖ 10 – «мальчики/девочки 2004 г.р. и младше»; МЖ 12 –«мальчики/девушки 2002-2003 г.р.; МЖ 14 – «юноши/девушки 2000-2001 г.р.»; МЖ 16 – «юноши/девушки 1998-1999 г.р.» МЖ Взрослые – «родители»',
         o_site: '141129',
         map: 'polyustrovsky_2022',
@@ -1091,6 +1258,21 @@ let events2014 = [
         name: 'Ориентир НатАлка',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140323_OR/140323_res.htm',
+        split: [
+            'splits/2014/SPB_20141130_1_1_split.htm',
+            'splits/2014/SPB_20141130_1_2_split.htm',
+            'splits/2014/SPB_20141130_1_3_split.htm',
+            'splits/2014/SPB_20141130_1_4_split.htm',
+            'splits/2014/SPB_20141130_1_5_split.htm',
+            'splits/2014/SPB_20141130_1_6_split.htm',
+            'splits/2014/SPB_20141130_1_7_split.htm',
+            'splits/2014/SPB_20141130_1_8_split.zip',
+            'splits/2014/SPB_20141130_1_9_split.htm',
+            'splits/2014/SPB_20141130_1_10_split.htm',
+            'splits/2014/SPB_20141130_1_11_split.zip',
+            'splits/2014/SPB_20141130_1_12_split.htm',
+            'splits/2014/SPB_20141130_1_13_split.htm'
+        ],
         info: 'Традиционная серия тренировочных стартов КСО Азимут: 23.03 Ново-Знаменка, Ориентир-1: результаты, сплиты 30.03 Баболовский парк, Ориентир-2: результаты, сплиты 22.04 Сосновка, Ориентир-3: результаты 13.05 Парк ЛТА, Ориентир-4: результаты, сплиты 20.05 Песочная, Ориентир-5: результаты, сплиты 27.05 Песочная, Ориентир-6: результаты, сплиты 27.07 Петяярви, Ориентир-7: результаты, сплиты 09.09 Токсово, Ориентир-8: результаты, сплиты, распечатки снятых 16.09 Парк Интернационалистов, Ориентир-9: результаты, сплиты 23.09 Кавголово, Ориентир-10: результаты, сплиты, распечатки 30.11 Сосновка, Ориентир "НатАлка": результаты, сплиты',
         logo: 'azimut.gif',
         o_site: '140323_OR',
@@ -1105,6 +1287,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/141207/141207_split1.htm',
+        split: 'splits/2014/SPB_20141207_1_split.htm',
         owner: 'SFSO_SPB',
         map: 'apple_garden_2014',
         o_site: '141207'
@@ -1117,6 +1300,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/140406/141214_res.htm',
+        split: 'splits/2014/SPB_20141214_1_split.htm',
         o_site: '140406'
     },
     {
@@ -1127,6 +1311,7 @@ let events2014 = [
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/entry-list?id=438',
         res: 'https://o-site.spb.ru/_races/141214/141214_res.htm',
+        split: 'splits/2014/SPB_20141214_2_split.htm',
         info: 'Тренировочный старт в формате спринт-рогейна',
         fmt: '60, 70 или 80 минут',
         o_site: '141214'
@@ -1139,6 +1324,7 @@ let events2014 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/141220_pdd/141221_res.htm',
+        split: 'splits/2014/SPB_20141221_1_split.htm',
         o_site: '141220_pdd',
         map: 'vsevolozhsk_rumbolovo_2014'
     }

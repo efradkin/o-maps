@@ -75,6 +75,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1124',
         res: 'https://o-site.spb.ru/_races/200119_MT/200119_rez.htm',
+        split: 'splits/2020/SPB_20200119_2_split.htm',
         o_site: '200119_MT',
         reskeep: 204,
         strava: 3024830806,
@@ -121,6 +122,10 @@ let events2020 = [
         type: 'SKI',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1128',
         res: 'https://o-site.spb.ru/_races/200126_t/200126_res.htm',
+        split: [
+            'splits/2020/SPB_20200126_2_1_split.htm',
+            'splits/2020/SPB_20200126_2_2_split.htm'
+        ],
         o_site: '200126_t',
         reskeep: 300,
         map: 'orekhovo_nyrkovo_winter_2012',
@@ -164,6 +169,10 @@ let events2020 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/200209/200208_res.htm',
+        split: [
+            'splits/2020/SPB_20200208_1_1_split.htm',
+            'splits/2020/SPB_20200208_1_2_split.htm'
+        ],
         o_site: '200209',
         reskeep: [313, 314],
         strava: 3082595136,
@@ -225,6 +234,12 @@ let events2020 = [
         place: 'Зеркальный',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200213-23/200215_res.htm',
+        split: [
+            'splits/2020/SPB_20200223_1_1_split.htm',
+            'splits/2020/SPB_20200223_1_2_split.htm',
+            'splits/2020/SPB_20200223_1_3_split.htm',
+            'splits/2020/SPB_20200223_1_4_split.htm'
+        ],
         o_site: '200213-23'
     },
     {
@@ -235,6 +250,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1141',
         res: 'https://o-site.spb.ru/_races/200223/200223_res.htm',
+        split: 'splits/2020/SPB_20200223_2_split.htm',
         o_site: '200223',
         reskeep: 317,
         strava: 3125516594
@@ -270,6 +286,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1143',
         res: 'https://o-site.spb.ru/_races/200301/200301_res.htm',
+        split: 'splits/2020/SPB_20200301_1_split.htm',
         photo: 'http://vk.com/album-154221178_270678590',
         o_site: '200301',
         reskeep: 318,
@@ -300,6 +317,10 @@ let events2020 = [
         place: 'Кузьмолово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20030809/200308_res.html',
+        split: [
+            'splits/2020/SPB_20200308_1_1_split.html',
+            'splits/2020/SPB_20200308_1_2_split.html'
+        ],
         start: 'VSEV_VESTI',
         o_site: '20030809',
         reskeep: [324, 325],
@@ -923,6 +944,7 @@ let events2020 = [
         name: 'History Race',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200829/200829_res.htm',
+        split: 'splits/2020/SPB_20200829_1_split.htm',
         fmt: '6 и 12 часов',
         o_site: '200829'
     },
@@ -933,6 +955,10 @@ let events2020 = [
         name: 'Зелёный Змей',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200829ZZ/200829ZZ_res.htm',
+        split: [
+            'splits/2020/SPB_20200829_2_1_split.htm',
+            'splits/2020/SPB_20200829_2_2_split.htm'
+        ],
         info: 'Дистанция средней длины с большим количеством пунктов.',
         start: 'GS',
         o_site: '200829ZZ',
@@ -1000,6 +1026,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1173',
         res: 'https://o-site.spb.ru/_races/200906/200906_res.htm',
+        split: 'splits/2020/SPB_20200906_1_split.htm',
         info: 'Индивидуальная тренировки по беговому ориентированию в районе Зеленогорска',
         map: 'zelenogorsk_chernye_2023',
         owner: 'WN',
@@ -1103,6 +1130,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=4544',
         res: 'https://o-site.spb.ru/_races/200913/200913_ResultList.htm',
+        split: 'splits/2020/SPB_20200913_1_split.htm',
         o_site: '200913',
         reskeep: 367,
         map: 'tsvelodubovo_2020'
@@ -1216,6 +1244,7 @@ let events2020 = [
         name: 'Золотые кольца (Свадебные)',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200927_svad/Kom_260920.pdf',
+        split: 'splits/2020/SPB_20200926_1_split.pdf',
         start: 'WEDDING',
         o_site: '200927_svad',
         map: 'lembolovo_2024'
@@ -1374,6 +1403,7 @@ let events2020 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1182',
         res: 'https://o-site.spb.ru/_races/201011/20201011_res.htm',
+        split: 'splits/2020/SPB_20201011_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '201011',
         map: 'osinovaja_roscha_velo_2020'
@@ -1397,6 +1427,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1185',
         res: 'https://o-site.spb.ru/_races/2020_WO/201017_res.htm',
+        split: 'splits/2020/SPB_20201017_1_split.htm',
         info: 'Индивидуальная тренировка по спортивному ориентированию.',
         o_site: '2020_WO'
     },
@@ -1417,6 +1448,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://forms.yandex.ru/u/5f80ba716c7ed687f35fd49b/',
         res: 'https://o-site.spb.ru/_races/201018_vyb/201018_rez.htm',
+        split: 'splits/2020/SPB_20201018_1_split.htm',
         owner: 'VYBORG',
         o_site: '201018_vyb'
     },
@@ -1460,6 +1492,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1188',
         res: 'https://o-site.spb.ru/_races/201024_relay/res.htm',
+        split: 'splits/2020/SPB_20201024_2_split.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_275435432',
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга. СПб ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
         owner: 'SFSO_SPB',
@@ -1491,6 +1524,7 @@ let events2020 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1191',
         res: 'http://sportident.online/ol/?id=127',
+        split: 'splits/2020/SPB_20201031_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '201031_MTBO',
         reskeep: 383,
@@ -1524,6 +1558,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1193',
         res: 'https://o-site.spb.ru/_races/201101_perspectiva/201101_res.htm',
+        split: 'splits/2020/SPB_20201101_1_split.htm',
         o_site: '201101_perspectiva',
         reskeep: 392,
         strava: 4270412163,
@@ -1537,6 +1572,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/200711/201107_rez3.htm',
+        split: 'splits/2020/SPB_20201107_1_split.htm',
         o_site: '200711',
         reskeep: 393,
         strava: 4300602827
@@ -1582,6 +1618,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1197',
         res: 'https://o-site.spb.ru/_races/201108_perspectiva_2/201108_relay.htm',
+        split: 'splits/2020/SPB_20201108_2_split.htm',
         o_site: '201108_perspectiva_2',
         reskeep: [394,395],
         strava: 4308179205,
@@ -1613,6 +1650,10 @@ let events2020 = [
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',
         res: 'http://www.o-site.spb.ru/_races/2020GK/200111R_split.htm',
+        split: [
+            'splits/2020/SPB_20201114_1_1_split.htm',
+            'splits/2020/SPB_20201114_1_2_split.htm'
+        ],
         info: 'МНОГОЭТАПНЫЙ КУБОК ПО РОГЕЙНУ ГК-72 - сплиты - результаты - 11.01 - Орехово ГК-73 - 05.05 - оз.Омчино ГК-74 - 30-31.05 - Кузнечное ГК-75 - 11.07 - Орехово ГК-76 - 29-30.08 - г.Себеж, Псковская обл. ГК-77 - 26.09 - Молодежное ГК-78 - 14.11 - Зеленогорск (финал)',
         fmt: 'Рогейн; 7 и 3 часа БЕГ; 6 часа ВЕЛО; трейл',
         start: 'GORNY_CROSS',
@@ -1636,6 +1677,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1192',
         res: 'https://o-site.spb.ru/_races/201115_110/201115_res.htm',
+        split: 'splits/2020/SPB_20201115_1_split.htm',
         start: 'ROGAINE_110',
         o_site: '201115_110',
         strava: 4343003862
@@ -1658,6 +1700,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1200',
         res: 'https://o-site.spb.ru/_races/201121/201121_res.htm',
+        split: 'splits/2020/SPB_20201121_1_split.htm',
         o_site: '201121',
         reskeep: 400
     },
@@ -1669,6 +1712,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1202',
         res: 'https://o-site.spb.ru/_races/201122_gulfstream_long/201122_res.htm',
+        split: 'splits/2020/SPB_20201122_1_split.htm',
         info: '22 ноября в Орехово состоится тренировка КСО "Гольфстрим". В программе "Лонг. Общий старт." Начало стартов с 11.30. Бюллетень будет опубликован до 11 ноября.',
         o_site: '201122_gulfstream_long',
         reskeep: 402,
@@ -1714,6 +1758,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/14372',
         res: 'https://o-site.spb.ru/_races/201129/201129_split1.htm',
+        split: 'splits/2020/SPB_20201129_1_split.htm',
         owner: 'SFSO_LO',
         o_site: '201129',
         reskeep: 404,
@@ -1749,6 +1794,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка «Техника и Тактика»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2020TT/201206_split3.htm',
+        split: 'splits/2020/SPB_20201206_1_split.htm',
         info: 'Тренировочный старт от Яркого Мира',
         o_site: '2020TT',
         reskeep: 403,
@@ -1762,6 +1808,11 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1207',
         res: 'http://o-site.spb.ru/_races/2020WN/200919_res.htm',
+        split: [
+            'splits/2020/SPB_20201212_1_1_split.htm',
+            'splits/2020/SPB_20201212_1_2_split.htm',
+            'splits/2020/SPB_20201212_1_3_split.htm'
+        ],
         info: 'Серия тренировочных стартов, проводимая клубом Белые Ночи 1-й этап 19.09.20 Васкелово Результаты Сплиты 2-й этап 28.11.20 Кавголово, Орлиная гора Результаты Сплиты',
         o_site: '2020WN',
         reskeep: 409,
@@ -1775,6 +1826,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1209',
         res: 'https://o-site.spb.ru/_races/201212/201212_rez.htm',
+        split: 'splits/2020/SPB_20201212_2_split.htm',
         o_site: '201212',
         reskeep: 408,
         strava: 4462507622,
@@ -1788,6 +1840,7 @@ let events2020 = [
         type: 'ROGAINE',
         reg: 'http://o-reg.spb.ru/entry-list?id=1206',
         res: 'https://o-site.spb.ru/_races/201213/201213_res.htm',
+        split: 'splits/2020/SPB_20201213_1_split.htm',
         o_site: '201213'
     },
     {
@@ -1798,6 +1851,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1211',
         res: 'https://o-site.spb.ru/_races/201213_1/201213_res.htm',
+        split: 'splits/2020/SPB_20201213_2_split.htm',
         info: 'Индивидуальная тренировка от клуба Аврора',
         o_site: '201213_1',
         reskeep: 411,
@@ -1830,6 +1884,7 @@ let events2020 = [
         place: 'Орехово',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/201220/2020_res.htm',
+        split: 'splits/2020/SPB_20201219_1_split.htm',
         info: 'Предновогодняя индивидуальная тренировка "В поисках Деда Мороза".',
         o_site: '201220',
         reskeep: 407,
@@ -1843,6 +1898,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1213',
         res: 'https://o-site.spb.ru/_races/201220_bn/201220_res.htm',
+        split: 'splits/2020/SPB_20201220_1_split.htm',
         o_site: '201220_bn',
         reskeep: 412,
         strava: 4494278879,
@@ -1856,6 +1912,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1214',
         res: 'https://o-site.spb.ru/_races/201226/201226_RES.htm',
+        split: 'splits/2020/SPB_20201226_1_split.htm',
         o_site: '201226',
         reskeep: 415,
         strava: 4519141764,
@@ -1869,6 +1926,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/14552',
         res: 'https://o-site.spb.ru/_races/201227i/201227_res.htm',
+        split: 'splits/2020/SPB_20201227_1_split.htm',
         o_site: '201227i',
         reskeep: 416
     },
@@ -1880,6 +1938,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1208',
         res: 'https://o-site.spb.ru/_races/201227/201227_res_1.htm',
+        split: 'splits/2020/SPB_20201227_2_split.htm',
         o_site: '201227',
         strava: 4524905096
     },

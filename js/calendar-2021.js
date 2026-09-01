@@ -7,6 +7,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/14801',
         res: 'https://o-site.spb.ru/_races/210103_kur/210103_res.htm',
+        split: 'splits/2021/SPB_20210103_1_split.htm',
         o_site: '210103_kur',
         reskeep: 413,
         strava: 4560359774,
@@ -31,6 +32,7 @@ let events2021 = [
         place: 'Мичуринское, база Мечта',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210108-09_rs/210108_rez.htm',
+        split: 'splits/2021/SPB_20210108_1_split.htm',
         owner: 'NW',
         o_site: '210108-09_rs'
     },
@@ -53,6 +55,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1216',
         res: 'https://o-site.spb.ru/_races/2021_WO/210116_res.htm',
+        split: 'splits/2021/SPB_20210116_1_split.htm',
         info: 'Серия индивидуальных тренировок по спортивному ориентированию.',
         o_site: '2021_WO',
         reskeep: 418,
@@ -77,6 +80,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/14844',
         res: 'http://sportident.online/ol/?id=182',
+        split: 'splits/2021/SPB_20210117_2_split.htm',
         video: 'https://www.youtube.com/watch?v=Sd70H8IfrmU',
         owner: 'SFSO_LO',
         o_site: '210117_LO'
@@ -89,6 +93,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1217',
         res: 'http://orgeo.ru/live/#/15120',
+        split: 'splits/2021/SPB_20210123_1_split.htm',
         info: 'Внимание! Билеты в Парк действуют 1 день. По купленному билету можно входить неограниченное кол-во раз за день. Стоимость входа 100 р., пенсионеры 50 р., дети (до 16 лет) – бесплатно. С собой иметь документы на льготу! МАШИНА ОРГАНИЗАТОРОВ: Синий микроавтобус Fiat Ducato Гос. номер: Е853ХЕ 178 RUS',
         o_site: '210114',
         reskeep: 419,
@@ -124,6 +129,11 @@ let events2021 = [
         place: 'Петровское',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/21012830/210129_rez.htm',
+        split: [
+            'splits/2021/SPB_20210131_1_1_split.htm',
+            'splits/2021/SPB_20210131_1_2_split.htm',
+            'splits/2021/SPB_20210131_1_3_split.htm'
+        ],
         o_site: '21012830'
     },
     {
@@ -182,6 +192,7 @@ let events2021 = [
         name: 'Спортивное ориентирование в школу, Пушкинский район',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210210/200210_lab_res.htm',
+        split: 'splits/2021/SPB_20210210_1_split.htm',
         photo: 'http://vk.com/fazerrussia?z=album-54503323_279943443',
         info: 'Внимание! В связи с ковидными ограничениями, очное награждение проводиться не будет. Дипломы и медали призёрам по возрастным группам в дисциплинах "спринт" и "лабиринт" будут переданы через администрации образовательных учреждений. Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. В 2020-2021 году реализуется с использованием гранта Президента Российской Федерации на развитие гражданского общества, предоставленного Фондом президентских грантов. Проходит при поддержке: Комитета по образованию Санкт-Петербурга, Фонда Президентских грантов ООО "Фацер"',
         o_site: '210210',
@@ -235,6 +246,10 @@ let events2021 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=1219',
         res: 'https://o-site.spb.ru/_races/210221/res1.htm',
+        split: [
+            'splits/2021/SPB_20210220_1_1_split.htm',
+            'splits/2021/SPB_20210220_1_2_split.htm'
+        ],
         owner: 'SFSO_SPB',
         o_site: '210221',
         reskeep: [421, 422]
@@ -267,6 +282,10 @@ let events2021 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/210227/210227_res.htm',
+        split: [
+            'splits/2021/SPB_20210227_1_1_split.htm',
+            'splits/2021/SPB_20210227_1_2_split.htm'
+        ],
         owner: 'SFSO_SPB',
         o_site: '210227',
         reskeep: 423,
@@ -292,6 +311,10 @@ let events2021 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=1230',
         res: 'https://o-site.spb.ru/_races/21030607_zs/210306_res_z.htm',
+        split: [
+            'splits/2021/SPB_20210307_1_1_split.htm',
+            'splits/2021/SPB_20210307_1_2_split.htm'
+        ],
         o_site: '21030607_zs',
         map: 'orekhovo_nyrkovo_winter_2012',
     },
@@ -303,6 +326,10 @@ let events2021 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=1229',
         res: 'https://o-site.spb.ru/_races/210307_vuzy/21030607_results_vuz_teams.pdf',
+        split: [
+            'splits/2021/SPB_20210307_2_1_split.htm',
+            'splits/2021/SPB_20210307_2_2_split.htm'
+        ],
         o_site: '210307_vuzy',
         map: 'orekhovo_nyrkovo_winter_2012',
     },
@@ -404,6 +431,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/16448',
         res: 'https://o-site.spb.ru/_races/210417_az_sprint/210417_results.htm',
+        split: 'splits/2021/SPB_20210417_1_split.htm',
         info: 'В парке Екатерингоф 17 апреля пройдёт физкультурное мероприятие "Адмиралтейский азимут", в рамках которого запланирован тренировочный старт (дисциплина "кросс-спринт").',
         o_site: '210417_az_sprint',
         reskeep: 443,
@@ -446,6 +474,7 @@ let events2021 = [
         place: 'Солнечное',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/210418/splits_2021_04_18_mtbo.htm',
+        split: 'splits/2021/SPB_20210418_1_split.htm',
         o_site: '210418'
     },
     {
@@ -456,6 +485,10 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1241',
         res: 'https://o-site.spb.ru/_races/210418_A/210417_split.htm',
+        split: [
+            'splits/2021/SPB_20210418_2_1_split.htm',
+            'splits/2021/SPB_20210418_2_2_split.htm'
+        ],
         info: 'Суббота Полюстровский парк, старт с 16:15. Воскресенье Ржевский лесопарк старт с 13:00',
         o_site: '210418_A',
         reskeep: 445,
@@ -493,6 +526,10 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1233',
         res: 'http://orgeo.ru/live/#/16639',
+        split: [
+            'splits/2021/SPB_20210424_1_1_split.htm',
+            'splits/2021/SPB_20210424_1_2_split.htm'
+        ],
         video: 'https://www.youtube.com/watch?v=b6cYYfMjdEg',
         owner: 'YUVENTA',
         o_site: '210424-25',
@@ -516,6 +553,7 @@ let events2021 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1244',
         res: 'https://o-site.spb.ru/_races/210425_MTBO/210425_rez.htm',
+        split: 'splits/2021/SPB_20210425_1_split.htm',
         o_site: '210425_MTBO'
     },
     {
@@ -550,6 +588,10 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/16761',
         res: 'https://o-site.spb.ru/_races/21050103/210501_split.htm',
+        split: [
+            'splits/2021/SPB_20210501_1_1_split.htm',
+            'splits/2021/SPB_20210501_1_2_split.htm'
+        ],
         photo: 'http://vk.com/album-19102553_281720876',
         info: 'Открытые массовые соревнования Ленинградской области 1 мая - кросс-спринт, г. Сертолово 2 мая - кросс-классика, д. Энколово 3 мая - кросс-классика, п. Юкки',
         video: [
@@ -571,6 +613,7 @@ let events2021 = [
         type: 'VELO',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1263',
         res: 'https://o-site.spb.ru/_races/210527_mtbo/210527_rez.htm',
+        split: 'splits/2021/SPB_20210501_2_split.htm',
         info: '27 мая 2021 г. СПб, Парголово, Осиновая Роща 2 июня 2021 г. СПб, Парголово, Шуваловский парк 25 июня 2021 г. СПб, Сестрорецк, Детские Дюны Заявка на 2 этап: http://www.o-reg.spb.ru/entry-list?id=1263 Заявка на 3 этап: http://www.o-reg.spb.ru/entry-list?id=1264 Заявка на 4 этап: http://www.o-reg.spb.ru/entry-list?id=1265',
         o_site: '210527_mtbo',
         endDate: '2021-06-30',
@@ -656,6 +699,7 @@ let events2021 = [
         name: 'Соревнования, посвященные Дню Победы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210509/Res_1.htm',
+        split: 'splits/2021/SPB_20210509_1_split.htm',
         photo: 'http://vk.com/album-154221178_279231391',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга, с выполнением массовых разрядов',
         o_site: '210509',
@@ -672,6 +716,11 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=4902',
         res: 'http://orgeo.ru/live/#/16840/1',
+        split: [
+            'splits/2021/SPB_20210509_2_1_split.htm',
+            'splits/2021/SPB_20210509_2_2_split.htm',
+            'splits/2021/SPB_20210509_2_3_split.htm'
+        ],
         info: 'Внимание! Изменена система отметки',
         owner: ['VYBORG','NW'],
         o_site: '210509-10_V3',
@@ -720,6 +769,7 @@ let events2021 = [
         place: 'Новознаменка',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/17012/1',
+        split: 'splits/2021/SPB_20210515_1_split.htm',
         owner: 'SFSO_LO',
         o_site: '210515lo',
         map: 'litania_2021'
@@ -731,6 +781,7 @@ let events2021 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, спринт',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/17012/1',
+        split: 'splits/2021/SPB_20210515_2_split.htm',
         owner: 'SFSO_SPB',
         o_site: '210515',
         reskeep: 447,
@@ -766,6 +817,7 @@ let events2021 = [
         name: 'Царскосельский Азимут',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210516za/210516_results.htm',
+        split: 'splits/2021/SPB_20210516_1_split.htm',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга. С выполнением массовых разрядов для всех участников, независимо от района проживания',
         o_site: '210516za',
         strava: 5305377662,
@@ -791,6 +843,7 @@ let events2021 = [
         place: 'Пухтолова Гора',
         type: 'VELO',
         res: 'http://sportident.online/ol/?id=347',
+        split: 'splits/2021/SPB_20210522_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '210522',
         map: 'pukhtolova_gora_velo_2025'
@@ -820,6 +873,7 @@ let events2021 = [
         place: 'Бернгардовка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210523LO/210523LO_split.htm',
+        split: 'splits/2021/SPB_20210523_1_split.htm',
         photo: 'http://vk.com/club128591100?w=wall-128591100_1635%2Fall',
         owner: 'SFSO_LO',
         o_site: '210523LO'
@@ -831,6 +885,7 @@ let events2021 = [
         name: 'Российский Азимут СПб',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210523/res2.htm',
+        split: 'splits/2021/SPB_20210523_2_split.htm',
         photo: 'http://vk.com/album-154221178_279461137',
         owner: 'SFSO_SPB',
         o_site: '210523',
@@ -929,6 +984,27 @@ let events2021 = [
         place: 'Первомайское',
         name: 'Кубок Белых Ночей #19',
         o_site: '2021BN',
+        split: [
+            'splits/2021/SPB_20210530_1_1_split.htm',
+            'splits/2021/SPB_20210530_1_2_split.htm',
+            'splits/2021/SPB_20210530_1_3_split.htm',
+            'splits/2021/SPB_20210530_1_4_split.htm',
+            'splits/2021/SPB_20210530_1_5_split.htm',
+            'splits/2021/SPB_20210530_1_6_split.htm',
+            'splits/2021/SPB_20210530_1_7_split.htm',
+            'splits/2021/SPB_20210530_1_8_split.htm',
+            'splits/2021/SPB_20210530_1_9_split.htm',
+            'splits/2021/SPB_20210530_1_10_split.htm',
+            'splits/2021/SPB_20210530_1_11_split.htm',
+            'splits/2021/SPB_20210530_1_12_split.htm',
+            'splits/2021/SPB_20210530_1_13_split.htm',
+            'splits/2021/SPB_20210530_1_14_split.htm',
+            'splits/2021/SPB_20210530_1_15_split.htm',
+            'splits/2021/SPB_20210530_1_16_split.htm',
+            'splits/2021/SPB_20210530_1_17_split.htm',
+            'splits/2021/SPB_20210530_1_18_split.htm',
+            'splits/2021/SPB_20210530_1_19_split.htm'
+        ],
         type: 'ORIENT',
         map: 'pervomayskoe_2021',
         owner: 'WN',
@@ -966,6 +1042,7 @@ let events2021 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, велокросс-классика',
         type: 'VELO',
         res: 'http://sportident.online/ol/?id=360',
+        split: 'splits/2021/SPB_20210605_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '210605_MTBO_klass',
         o_gps: 13866,
@@ -1021,6 +1098,14 @@ let events2021 = [
         name: 'Спортивный Фестиваль «Яркий Мир»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/21061014/21061013_res_official.zip',
+        split: [
+            'splits/2021/SPB_20210610_1_1_split.htm',
+            'splits/2021/SPB_20210610_1_2_split.htm',
+            'splits/2021/SPB_20210610_1_3_split.htm',
+            'splits/2021/SPB_20210610_1_4_split.htm',
+            'splits/2021/SPB_20210610_1_5_split.htm',
+            'splits/2021/SPB_20210610_1_6_split.htm'
+        ],
         video: 'https://www.youtube.com/watch?v=ji4-8PNRtok',
         start: 'YM',
         o_site: '21061014',
@@ -1034,6 +1119,7 @@ let events2021 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1276',
         res: 'https://o-site.spb.ru/_races/210612v/210612V_rez.htm',
+        split: 'splits/2021/SPB_20210612_1_split.htm',
         info: 'Вечерний старт на классической дистанции по вело-ориентированию',
         o_site: '210612v',
         map: 'losevo_velo_2021'
@@ -1164,6 +1250,7 @@ let events2021 = [
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=1277',
         res: 'https://o-site.spb.ru/_races/210619_mtbo/210619_res.htm',
+        split: 'splits/2021/SPB_20210619_1_split.htm',
         o_site: '210619_mtbo',
         map: 'sosnovo_ulovnoe_velo_2021'
     },
@@ -1219,6 +1306,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1282',
         res: 'https://o-site.spb.ru/_races/210701_open/01072021F.htm',
+        split: 'splits/2021/SPB_20210701_1_split.htm',
         info: 'Индивидуальные тренировки по ориентированию (бегом) 1 июля: Охта-парк',
         o_site: '210701_open'
     },
@@ -1250,6 +1338,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1283',
         res: 'https://o-site.spb.ru/_races/2021BN_0710/210710_res.htm',
+        split: 'splits/2021/SPB_20210710_1_split.htm',
         info: 'Тренировочный старт, организованный клубом Белые Ночи.',
         owner: 'WN',
         o_site: '2021BN_0710'
@@ -1331,6 +1420,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/17707',
         res: 'https://o-site.spb.ru/_races/210815/210815_res.htm',
+        split: 'splits/2021/SPB_20210815_1_split.htm',
         o_site: '210815',
         reskeep: 482,
         strava: [5796117417,5796461444,5796464578]
@@ -1342,6 +1432,10 @@ let events2021 = [
         name: 'Зеленый Змей',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210821ZZ/210821ZZ_split-zn.htm',
+        split: [
+            'splits/2021/SPB_20210821_1_1_split.htm',
+            'splits/2021/SPB_20210821_1_2_split.htm'
+        ],
         info: 'Средняя дистанция с большим количеством КП',
         start: 'GS',
         o_site: '210821ZZ',
@@ -1360,6 +1454,10 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1291',
         res: 'https://o-site.spb.ru/_races/210821_bn/210821_res.htm',
+        split: [
+            'splits/2021/SPB_20210821_2_1_split.htm',
+            'splits/2021/SPB_20210821_2_2_split.htm'
+        ],
         info: 'Тренировочный старт, организованный клубом Белые Ночи.',
         o_site: '210821_bn',
         reskeep: [483, 484],
@@ -1384,6 +1482,11 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/17616',
         res: 'http://orgeo.ru/live/#/17616',
+        split: [
+            'splits/2021/SPB_20210827_1_1_split.htm',
+            'splits/2021/SPB_20210827_1_2_split.htm',
+            'splits/2021/SPB_20210827_1_3_split.htm'
+        ],
         o_site: '20210827_okulovka'
     },
     {
@@ -1414,6 +1517,14 @@ let events2021 = [
         place: 'Орехово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2021YC/210829_split.htm',
+        split: [
+            'splits/2021/SPB_20210829_1_1_split.htm',
+            'splits/2021/SPB_20210829_1_2_split.htm',
+            'splits/2021/SPB_20210829_1_3_split.htm',
+            'splits/2021/SPB_20210829_1_4_split.htm',
+            'splits/2021/SPB_20210829_1_5_split.htm',
+            'splits/2021/SPB_20210829_1_6_split.htm'
+        ],
         start: 'VSEV_VESTI',
         o_site: '2021YC',
         map: 'orekhovo_2024'
@@ -1479,6 +1590,27 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1294',
         res: 'http://o-site.spb.ru/_races/2021BN/200920_res.htm',
+        split: [
+            'splits/2021/SPB_20210905_2_1_split.htm',
+            'splits/2021/SPB_20210905_2_2_split.htm',
+            'splits/2021/SPB_20210905_2_3_split.htm',
+            'splits/2021/SPB_20210905_2_4_split.htm',
+            'splits/2021/SPB_20210905_2_5_split.htm',
+            'splits/2021/SPB_20210905_2_6_split.htm',
+            'splits/2021/SPB_20210905_2_7_split.htm',
+            'splits/2021/SPB_20210905_2_8_split.htm',
+            'splits/2021/SPB_20210905_2_9_split.htm',
+            'splits/2021/SPB_20210905_2_10_split.htm',
+            'splits/2021/SPB_20210905_2_11_split.htm',
+            'splits/2021/SPB_20210905_2_12_split.htm',
+            'splits/2021/SPB_20210905_2_13_split.htm',
+            'splits/2021/SPB_20210905_2_14_split.htm',
+            'splits/2021/SPB_20210905_2_15_split.htm',
+            'splits/2021/SPB_20210905_2_16_split.htm',
+            'splits/2021/SPB_20210905_2_17_split.htm',
+            'splits/2021/SPB_20210905_2_18_split.htm',
+            'splits/2021/SPB_20210905_2_19_split.htm'
+        ],
         info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 1-й этап 20.09.20 Петяярви Результаты Сплиты 2-й этап 26.09.20 Симагино Результаты Сплиты 3-й этап 27.09.20 Запорожское Результаты Сплиты 4-й этап 11.10.20 Петяярви Результаты Сплиты 5-й этап 18.10.20 Петяярви Результаты Сплиты 6-й этап 08.11.20 Пухтолова гора Результаты Сплиты 7-й этап 15.11.20 Петяярви, Кентавр Результаты Сплиты 8-й этап 22.11.20 Первомайское, Тайванчик Результаты Сплиты 9-й этап 29.11.20 Болотная станция Результаты Сплиты 10-й этап 13.12.20 Мичуринское Результаты Сплиты 11-й этап 11.04.21 Сестрорецкие Дюны Результаты Сплиты 12-й этап 17.04.21 Голубая Дача Результаты Сплиты 14-й этап 04.05.21 Болотная станция Результаты Сплиты 15-й этап 05.05.21 Ильичёво Результаты Сплиты 16-й этап 07.05.21 Петяярви Результаты Сплиты 17-й этап 08.05.21 Топограф Результаты Сплиты 18-й этап 29.05.21 Болотная станция Результаты Сплиты 19-й этап 30.05.21 Первомайское Результаты Сплиты',
         owner: 'WN',
         o_site: '2021BN',
@@ -1494,6 +1626,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=5007',
         res: 'https://o-site.spb.ru/_races/05092021MaTreshra/20210905_matr_result.htm',
+        split: 'splits/2021/SPB_20210905_3_split.htm',
         o_site: '05092021MaTreshra'
     },
     {
@@ -1504,6 +1637,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/registration/historyrace2021',
         res: 'https://o-site.spb.ru/_races/210911/210911_res.htm',
+        split: 'splits/2021/SPB_20210911_1_split.htm',
         fmt: '8 часов вело',
         o_site: '210911'
     },
@@ -1514,6 +1648,7 @@ let events2021 = [
         name: 'Чемпионат и Первенство Ленинградской области',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210911_lo/perv_kom.pdf',
+        split: 'splits/2021/SPB_20210912_1_split.htm',
         owner: 'SFSO_LO',
         o_site: '210911_lo',
         reskeep: 490
@@ -1558,6 +1693,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1300',
         res: 'https://o-site.spb.ru/_races/210919_deaf/210919_deaf_rez.pdf',
+        split: 'splits/2021/SPB_20210919_1_split.htm',
         info: 'Соревнования проводятся в соответствии с Положением о чемпионате и первенстве Санкт-Петербурга по спортивному ориентированию – спорт глухих 2021 года.',
         owner: 'SFSO_SPB',
         o_site: '210919_deaf'
@@ -1600,6 +1736,7 @@ let events2021 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, велокросс-спринт',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/210925_MTBO/210925_res.htm',
+        split: 'splits/2021/SPB_20210925_2_split.htm',
         owner: 'SFSO_SPB',
         o_site: '210925_MTBO',
         map: 'sestroretsk_tamozhennaya_doroga_velo_2021'
@@ -1649,6 +1786,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1305',
         res: 'https://o-site.spb.ru/_races/210926_deaf/210926_results.htm',
+        split: 'splits/2021/SPB_20210926_2_split.htm',
         info: 'Соревнования проводятся в соответствии с Положением о чемпионате и первенстве Санкт-Петербурга по спортивному ориентированию – спорт глухих 2021 года.',
         owner: 'SFSO_SPB',
         o_site: '210926_deaf',
@@ -1707,6 +1845,7 @@ let events2021 = [
         type: 'ORIENT',
         video: 'https://www.youtube.com/watch?v=rbbtYUhYHQM',
         res: 'http://touristclub.ru/wp-content/uploads/2021/10/Results2021-v_1110.htm',
+        split: 'splits/2021/SPB_20211009_1_split.htm',
         info: '49-е ночные соревнования по спортивному ориентированию, проводимые Санкт-Петербургским туристским клубом',
         start: 'OKINCHITSA',
         o_site: '21100910'
@@ -1719,6 +1858,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1311',
         res: 'https://o-site.spb.ru/_races/211009_/Res_PetOs_211009.htm',
+        split: 'splits/2021/SPB_20211009_2_split.htm',
         info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
         logo: 'azimut.gif',
         o_site: '211009_',
@@ -1733,6 +1873,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1312',
         res: 'https://o-site.spb.ru/_races/211009/Res_Vus.pdf',
+        split: 'splits/2021/SPB_20211009_3_split.htm',
         o_site: '211009',
         reskeep: 495,
         map: 'pukhtolova_gora_2025',
@@ -1784,6 +1925,10 @@ let events2021 = [
         name: 'Золотая осень',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/18928',
+        split: [
+            'splits/2021/SPB_20211016_1_1_split.htm',
+            'splits/2021/SPB_20211016_1_2_split.htm'
+        ],
         owner: 'VYBORG',
         o_site: '21101617',
         reskeep: [497, 498]
@@ -1819,6 +1964,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1315',
         res: 'https://o-site.spb.ru/_races/211017_CZ/211017_res.htm',
+        split: 'splits/2021/SPB_20211017_2_split.htm',
         info: '17 октября 2021 г. СДЮСШОР № 2 СПБ ГДТЮ в районе пос. Ушково – Пухтолова гора проводит однодневные юношеские соревнования «Старты в Зеркальном». Подход от ст. Ушково. Дисциплина «кросс-классика». Группы от 10 до 20 лет плюс ДТР, Фитнес удл., Фитнес кор. Просим прощение за задержку информации. Идёт согласование с исполнительными органами власти.',
         o_site: '211017_CZ',
         map: 'pukhtolova_gora_2025',
@@ -1859,6 +2005,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1316',
         res: 'https://o-site.spb.ru/_races/211023P/211023_res.htm',
+        split: 'splits/2021/SPB_20211023_2_split.htm',
         o_site: '211023P'
     },
     {
@@ -1883,6 +2030,11 @@ let events2021 = [
         place: 'Белгород',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20211030_bel/res1.htm',
+        split: [
+            'splits/2021/SPB_20211030_1_1_split.htm',
+            'splits/2021/SPB_20211030_1_2_split.htm',
+            'splits/2021/SPB_20211030_1_3_split.htm'
+        ],
         o_site: '20211030_bel'
     },
     {
@@ -1951,6 +2103,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1319',
         res: 'https://o-site.spb.ru/_races/211031P/211031_res.htm',
+        split: 'splits/2021/SPB_20211031_1_split.htm',
         o_site: '211031P'
     },
     {
@@ -1980,6 +2133,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1321',
         res: 'https://o-site.spb.ru/_races/211104_OM/Res_211104.htm',
+        split: 'splits/2021/SPB_20211104_1_split.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         logo: 'azimut.gif',
         o_site: '211104_OM',
@@ -1994,6 +2148,11 @@ let events2021 = [
         place: 'Адыгея',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20211104_adyg/res1.htm',
+        split: [
+            'splits/2021/SPB_20211104_2_1_split.htm',
+            'splits/2021/SPB_20211104_2_2_split.htm',
+            'splits/2021/SPB_20211104_2_3_split.htm'
+        ],
         o_site: '20211104_adyg',
         start: 'RUSSIA_CHAMP'
     },
@@ -2015,6 +2174,11 @@ let events2021 = [
         name: '«Техника и Тактика» индивидуальная тренировка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2021TT/211113_split.htm',
+        split: [
+            'splits/2021/SPB_20211113_1_1_split.htm',
+            'splits/2021/SPB_20211113_1_2_split.htm',
+            'splits/2021/SPB_20211113_1_3_split.htm'
+        ],
         info: 'Серия тренировочных стартов от бригады Яркого Кубка',
         o_site: '2021TT',
         map: 'vsevolozhsk_rumbolovo_2014'
@@ -2027,6 +2191,13 @@ let events2021 = [
         map: 'lembolovo_orekhovo_peski_gk_2026',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/2021GK/211113R_res.pdf',
+        split: [
+            'splits/2021/SPB_20211113_2_1_split.htm',
+            'splits/2021/SPB_20211113_2_2_split.htm',
+            'splits/2021/SPB_20211113_2_3_split.htm',
+            'splits/2021/SPB_20211113_2_4_split.htm',
+            'splits/2021/SPB_20211113_2_5_split.htm'
+        ],
         fmt: '6/2 часов бег, 5 часа вело',
         start: 'GORNY_CROSS',
         o_site: '2021GK',
@@ -2040,6 +2211,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1318',
         res: 'https://o-site.spb.ru/_races/211014_markir110/211114_rez.htm',
+        split: 'splits/2021/SPB_20211114_1_split.htm',
         start: 'ROGAINE_110',
         o_site: '211014_markir110',
         strava: 6255821909,
@@ -2094,6 +2266,7 @@ let events2021 = [
         name: 'Снежная тропа, Буферный парк',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/19335',
+        split: 'splits/2021/SPB_20211128_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '211128_ST',
         reskeep: 505,
@@ -2130,6 +2303,7 @@ let events2021 = [
         name: 'Снежная тропа, парк Интернационалистов',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/19335',
+        split: 'splits/2021/SPB_20211212_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '211212_ST',
         reskeep: 55,
@@ -2164,6 +2338,7 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1327',
         res: 'https://o-site.spb.ru/_races/211219_bn/211219_res.htm',
+        split: 'splits/2021/SPB_20211219_1_split.htm',
         video: 'https://www.youtube.com/watch?v=-Cpzt5nNNhE',
         o_site: '211219_bn',
         reskeep: 506,

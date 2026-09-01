@@ -32,6 +32,7 @@ let events2023 = [
         name: 'Рождественские старты',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/230108_RS/230107_RS_result_day1.htm',
+        split: 'splits/2023/SPB_20230107_1_split.htm',
         info: 'Традиционные Рождественские старты от клуба Норд Вест',
         owner: 'NW',
         o_site: '230108_RS'
@@ -44,6 +45,7 @@ let events2023 = [
         map: 'lembolovo_orekhovo_peski_gk_2026',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/230108R/230108R_res.pdf',
+        split: 'splits/2023/SPB_20230108_1_split.htm',
         fmt: 'рогейн 5 и 2 часов лыжи/бегом, 5ч. вело',
         start: 'GORNY_CROSS',
         o_site: '230108R'
@@ -56,6 +58,7 @@ let events2023 = [
         type: 'ROGAINE',
         reg: 'http://www.multsport.ru/starts/winter-rogaine-23/registration.html',
         res: 'https://o-site.spb.ru/_races/230115r/230115_res.pdf',
+        split: 'splits/2023/SPB_20230115_1_split.pdf',
         fmt: 'рогейн 4 часа. Передвижение на лыжах и бегом',
         video: 'https://www.youtube.com/watch?v=h8kIu7V-He8',
         owner: 'MULTSPORT',
@@ -93,6 +96,10 @@ let events2023 = [
         name: 'ЧиП СПб (ЛГ-спринт и ЛГ-классика)',
         type: 'SKI',
         res: 'http://sportident.online/ol/?id=1029',
+        split: [
+            'splits/2023/SPB_20230121_1_1_split.htm',
+            'splits/2023/SPB_20230121_1_2_split.htm'
+        ],
         info: 'Чемпионат и Первенство Санкт-Петербурга. Межмуниципальные соревнования. Первенство СФСО Санкт-Петербурга. Программа: 21 января (суббота) — «Лыжная гонка‐спринт»; 22 января (воскресенье) — «Лыжная гонка‐классика».',
         owner: 'SFSO_SPB',
         o_site: '230122',
@@ -118,6 +125,7 @@ let events2023 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1494',
         res: 'https://o-site.spb.ru/_races/230129/230129_ResultList.htm',
+        split: 'splits/2023/SPB_20230129_1_split.htm',
         info: 'Региональные соревнования "Посвященные 79-й годовщине полного снятия блокады Ленинграда" Программа: 29 января (воскресенье) - лыжная гонка-маркированная трасса.',
         o_site: '230129',
         map: 'silande_winter_2024'
@@ -149,6 +157,7 @@ let events2023 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, лг-маркированная трасса',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/230205/230205_res.htm',
+        split: 'splits/2023/SPB_20230205_1_split.htm',
         owner: 'SFSO_SPB',
         strava: 8508408303,
         o_site: '230205'
@@ -174,6 +183,11 @@ let events2023 = [
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1496',
         res: 'http://orgeo.ru/live/#/26782/1',
+        split: [
+            'splits/2023/SPB_20230219_1_1_split.htm',
+            'splits/2023/SPB_20230219_1_2_split.htm',
+            'splits/2023/SPB_20230219_1_3_split.htm'
+        ],
         video: 'https://www.youtube.com/watch?v=cO2KgOjGuS4',
         o_site: '230219',
         map: 'zerkalny_2002'
@@ -194,6 +208,7 @@ let events2023 = [
         name: 'Праздничный маркир',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/230223/230223_rez_.htm',
+        split: 'splits/2023/SPB_20230223_2_split.htm',
         photo: 'http://disk.yandex.ru/d/uBi4DLg47kkVug',
         info: 'Региональные и межмуниципальные соревнования "Праздничный маркир" В программе соревнований: лыжная гонка-маркированная трасса (вариант "А").',
         o_site: '230223',
@@ -217,6 +232,10 @@ let events2023 = [
         name: 'Февральская лыжня',
         type: 'SKI',
         res: 'http://orgeo.ru/event/27065',
+        split: [
+            'splits/2023/SPB_20230225_2_1_split.htm',
+            'splits/2023/SPB_20230225_2_2_split.htm'
+        ],
         photo: 'http://vk.com/album-154221178_291503790',
         info: 'Региональные и межмуниципальные соревнования «Февральская лыжня» Программа: 25 февраля (суббота) — «Лыжная гонка‐спринт»; 26 февраля (воскресенье) — «Лыжная гонка‐многодневная» — задержанный старт (гонка преследования) по результатам пролога 25 февраля.',
         strava: [8618271672,8624967044],
@@ -242,6 +261,11 @@ let events2023 = [
         place: 'база ВИФК, Токсово',
         type: 'SKI',
         res: 'http://sportident.online/ol/?id=1150',
+        split: [
+            'splits/2023/SPB_20230304_1_1_split.htm',
+            'splits/2023/SPB_20230304_1_2_split.htm',
+            'splits/2023/SPB_20230304_1_3_split.htm'
+        ],
         strava: 8657127604,
         owner: 'SFSO_SPB',
         o_site: '23030405',
@@ -265,6 +289,7 @@ let events2023 = [
         place: 'Удельный парк',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/24205',
+        split: 'splits/2023/SPB_20230308_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '230308_st',
         video: 'https://www.youtube.com/watch?v=roLL6mhHFrQ',
@@ -313,6 +338,11 @@ let events2023 = [
         place: 'Архангельск',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/230314/230318_res_of_VS.pdf',
+        split: [
+            'splits/2023/SPB_20230314_1_1_split.htm',
+            'splits/2023/SPB_20230314_1_2_split.htm',
+            'splits/2023/SPB_20230314_1_3_split.htm'
+        ],
         o_site: '230314',
         start: 'RUSSIA_CHAMP'
     },
@@ -324,6 +354,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/vveter23',
         res: 'http://orgeo.ru/live/#/vveter23',
+        split: 'splits/2023/SPB_20230318_1_split.htm',
         info: 'Информация: Заявка починина, можно заявляться! Шипы, в связи погодных условий, будут разрешены. Старт БЕСПЛАТНЫЙ для всех!',
         o_site: '230318'
     },
@@ -344,6 +375,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/27555',
         res: 'https://o-site.spb.ru/_races/230326/230326_res.htm',
+        split: 'splits/2023/SPB_20230326_1_split.htm',
         o_site: '230326',
         map: 'osinovaja_roscha_2018'
     },
@@ -365,6 +397,11 @@ let events2023 = [
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/27702',
         res: 'https://o-site.spb.ru/_races/230402/230402_res.htm',
+        split: [
+            'splits/2023/SPB_20230402_1_1_split.htm',
+            'splits/2023/SPB_20230402_1_2_split.htm',
+            'splits/2023/SPB_20230402_1_3_split.htm'
+        ],
         strava: 8818009842,
         o_site: '230402',
         map: 'gatchina_prioratsky_2021'
@@ -399,6 +436,10 @@ let events2023 = [
         name: 'Чемпионат и первенство Ленобласти',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230409/230409_res.htm',
+        split: [
+            'splits/2023/SPB_20230409_1_1_split.htm',
+            'splits/2023/SPB_20230409_1_2_split.htm'
+        ],
         video: 'https://www.youtube.com/watch?v=tsqtULJyGoc',
         o_site: '230409'
     },
@@ -432,6 +473,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1508',
         res: 'http://orgeo.ru/live/#/28147',
+        split: 'splits/2023/SPB_20230416_1_split.htm',
         info: 'Открытие летнего сезона Федерации спортивного ориентирования Санкт-Петербурга. Официальный старт с присвоением разрядов',
         o_site: '230416'
     },
@@ -465,6 +507,10 @@ let events2023 = [
         name: 'Сосновоборские Дюны',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/28273/1',
+        split: [
+            'splits/2023/SPB_20230422_2_1_split.htm',
+            'splits/2023/SPB_20230422_2_2_split.htm'
+        ],
         info: 'Внимание! Изменилось место проведения!',
         video: [
             'https://www.youtube.com/watch?v=lfOejh6_0dQ',
@@ -495,6 +541,7 @@ let events2023 = [
         map: 'luga_omchino_gk_2023',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/230429R/230429R_res.pdf',
+        split: 'splits/2023/SPB_20230429_1_split.htm',
         fmt: '4/2 часа бег, 4 часа вело',
         start: 'GORNY_CROSS',
         o_site: '230429R'
@@ -518,6 +565,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/28235',
         res: 'https://o-site.spb.ru/_races/230430_kur/230430_rez.htm',
+        split: 'splits/2023/SPB_20230430_1_split.htm',
         o_site: '230430_kur',
         strava: 8982825410,
         reskeep: 575,
@@ -530,6 +578,7 @@ let events2023 = [
         name: 'Яркий Кубок',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230501/230501_res_official.pdf',
+        split: 'splits/2023/SPB_20230501_1_split.htm',
         info: 'Официальные соревнования с выполнением разрядов.',
         o_site: '230501',
         map: 'enkolovo_2021'
@@ -583,6 +632,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1523',
         res: 'https://o-site.spb.ru/_races/230509/Res_230509.htm',
+        split: 'splits/2023/SPB_20230509_1_split.htm',
         video: 'https://www.youtube.com/watch?v=3tC8yAoq-2Y',
         o_site: '230509',
         strava: 9038712842,
@@ -610,6 +660,11 @@ let events2023 = [
         name: 'Первенство России (Лемболово, вело)',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/230511/https://orgeo.ru/event/28751',
+        split: [
+            'splits/2023/SPB_20230511_1_1_split.htm',
+            'splits/2023/SPB_20230511_1_2_split.htm',
+            'splits/2023/SPB_20230511_1_3_split.htm'
+        ],
         owner: 'SFSO_LO',
         o_site: '230511',
         map: 'lembolovo_velo_2023'
@@ -643,6 +698,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/28059',
         res: 'http://orgeo.ru/live/#/28059',
+        split: 'splits/2023/SPB_20230514_1_split.htm',
         info: 'Первенство Пушкинского р-на по спортивному ориентированию «Царскосельский Азимут» ВНИМАНИЕ!!! Ограничения движения транспортных средств в связи с проведением легкоатлетического пробега «Царскосельский марафон» 14 мая 2021 14 мая в связи с проведением легкоатлетического пробега «Царскосельский марафон» в г. Пушкин движение транспортных средств будет прекращено: - с 7.00 до 13.00 по Садовой ул. в направлении от Парковой ул. к Оранжерейной ул. и Парковой ул. от Красносельского шоссе до Садовой ул. - с 07.00 до 15.00 по Петербургскому шоссе в направлении от Октябрьского бульвара к Детскосельскому бульвару, Дворцовой ул., Садовой ул. от Дворцовой ул. до Оранжерейной ул., Парковой ул. от Красносельского шоссе до дороги на Александровку, по дороге на Александровку и Кузьминскому шоссе.',
         strava: 9068508402,
         o_site: '230513',
@@ -690,6 +746,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/28305',
         res: 'http://orgeo.ru/live/#/28918',
+        split: 'splits/2023/SPB_20230520_2_split.htm',
         info: 'Открытый кубок МО г.Колпино по спортивному ориентированию',
         o_site: '230520_kolpino',
         map: 'kolpino_chuhonka_2020'
@@ -702,6 +759,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1530',
         res: 'http://orgeo.ru/live/#/28922',
+        split: 'splits/2023/SPB_20230520_3_split.htm',
         owner: 'SFSO_SPB',
         o_site: '230520',
         strava: 9105042997,
@@ -715,6 +773,7 @@ let events2023 = [
         name: 'Российский Азимут',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230521_RA/230521_res.pdf',
+        split: 'splits/2023/SPB_20230521_1_split.htm',
         video: 'https://www.youtube.com/watch?v=Du4xH4hjQ_0',
         owner: 'SFSO_SPB',
         o_site: '230521_RA',
@@ -739,6 +798,7 @@ let events2023 = [
         map: 'kuznechnoe_2009',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/23052728R/230527R_res.pdf',
+        split: 'splits/2023/SPB_20230527_1_split.htm',
         video: 'https://www.youtube.com/watch?v=CExiZq9uFn4',
         fmt: 'бег - 24/8/3 часа, вело - 8 часов',
         start: 'GORNY_CROSS',
@@ -752,6 +812,10 @@ let events2023 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/29049/1',
+        split: [
+            'splits/2023/SPB_20230527_2_1_split.htm',
+            'splits/2023/SPB_20230527_2_2_split.html'
+        ],
         owner: 'SFSO_SPB',
         o_site: '230528',
         strava: [9149254568,9154988624],
@@ -765,6 +829,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/29108',
         res: 'https://o-site.spb.ru/_races/23_KS_s/230601_split.htm',
+        split: 'splits/2023/SPB_20230601_1_split.htm',
         owner: 'KUZMOLOVO',
         o_site: '23_KS_s'
     },
@@ -777,6 +842,10 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=5753',
         res: 'https://o-site.spb.ru/_races/230603-04_VTR/VTR_result_1.htm',
+        split: [
+            'splits/2023/SPB_20230603_1_1_split.htm',
+            'splits/2023/SPB_20230603_1_2_split.htm'
+        ],
         video: [
             'https://www.youtube.com/watch?v=0Q3kCnrfgoI',
             'https://www.youtube.com/watch?v=atUgEkEQH7I',
@@ -795,6 +864,7 @@ let events2023 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, велокросс-спринт',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/230604/230604_split.htm',
+        split: 'splits/2023/SPB_20230604_1_split.htm',
         video: 'http://vk.com/clip-220245153_456239020',
         owner: 'SFSO_SPB',
         o_site: '230604'
@@ -807,6 +877,11 @@ let events2023 = [
         name: 'Невский Азимут',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#29253/3',
+        split: [
+            'splits/2023/SPB_20230610_1_1_split.htm',
+            'splits/2023/SPB_20230610_1_2_split.htm',
+            'splits/2023/SPB_20230610_1_3_split.htm'
+        ],
         info: 'Многодневные соревнования по спортивному ориентированию «НЕВСКИЙ АЗИМУТ»',
         start: 'NA',
         o_site: '230612',
@@ -1076,6 +1151,12 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/28788',
         res: 'http://orgeo.ru/live/#/28788/3',
+        split: [
+            'splits/2023/SPB_20230623_1_1_split.htm',
+            'splits/2023/SPB_20230623_1_2_split.htm',
+            'splits/2023/SPB_20230623_1_3_split.htm',
+            'splits/2023/SPB_20230623_1_4_split.htm'
+        ],
         video: [
             'https://www.youtube.com/watch?v=mFBr2MNJL9M',
             'https://www.youtube.com/watch?v=0N8VrUFS6Wk&pp=0gcJCdoKAYcqIYzv'
@@ -1105,6 +1186,13 @@ let events2023 = [
         place: 'Орехово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/23062629/230626_split.htm',
+        split: [
+            'splits/2023/SPB_20230626_1_1_split.htm',
+            'splits/2023/SPB_20230626_1_2_split.htm',
+            'splits/2023/SPB_20230626_1_3_split.htm',
+            'splits/2023/SPB_20230626_1_4_split.htm',
+            'splits/2023/SPB_20230626_1_5_split.htm'
+        ],
         start: 'YM',
         o_site: '23062629',
         map: ['ym_2023_orehovo_sprint_prolog1', 'ym_2023_orehovo_sprint_final', 'ym_2023_orehovo_sprint_prolog2', 'ym_2023_orehovo_klassika', 'ym_2023_orehovo_vybor']
@@ -1117,6 +1205,14 @@ let events2023 = [
         name: 'Неделя ориентирования «Белые Ночи»',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/26278',
+        split: [
+            'splits/2023/SPB_20230630_1_1_split.htm',
+            'splits/2023/SPB_20230630_1_2_split.htm',
+            'splits/2023/SPB_20230630_1_3_split.htm',
+            'splits/2023/SPB_20230630_1_4_split.htm',
+            'splits/2023/SPB_20230630_1_5_split.htm',
+            'splits/2023/SPB_20230630_1_6_split.htm'
+        ],
         info: '52-е Многодневные соревнования по спортивному ориентированию Работа секретариата 30 июня с 13.00 до 19.00.',
         video: [
             'https://www.youtube.com/watch?v=tPWKitRe-x0',
@@ -1187,6 +1283,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/29517',
         res: 'https://o-site.spb.ru/_races/230716/230716_split.htm',
+        split: 'splits/2023/SPB_20230716_1_split.htm',
         o_site: '230716',
         strava: 9462844137,
         reskeep: 589,
@@ -1201,6 +1298,10 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/29326',
         res: 'https://o-site.spb.ru/_races/23072223/230822_SPLIT.html',
+        split: [
+            'splits/2023/SPB_20230722_1_1_split.html',
+            'splits/2023/SPB_20230722_1_2_split.htm'
+        ],
         o_site: '23072223',
         reskeep: [611, 612]
     },
@@ -1245,6 +1346,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/29735',
         res: 'https://o-site.spb.ru/_races/230806/230806_split.htm',
+        split: 'splits/2023/SPB_20230806_1_split.htm',
         o_site: '230806',
         reskeep: 610,
         map: 'orekhovo_2024'
@@ -1257,6 +1359,10 @@ let events2023 = [
         place: 'Лосево',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/23081213/230812_split.htm',
+        split: [
+            'splits/2023/SPB_20230812_1_1_split.htm',
+            'splits/2023/SPB_20230812_1_2_split.htm'
+        ],
         info: '12 августа - "Яркий Кубок - 192" - кросс-лонг 13 августа - "Техника и Тактика 1" - комбинированные дистанции, классика',
         o_site: '23081213',
         reskeep: [607, 608]
@@ -1279,6 +1385,7 @@ let events2023 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, велокросс-общий старт',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/230813/230813_ResultList.htm',
+        split: 'splits/2023/SPB_20230813_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '230813'
     },
@@ -1339,6 +1446,10 @@ let events2023 = [
         name: 'Зеленый Змей',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230826ZZ/230826ZZ_split.htm',
+        split: [
+            'splits/2023/SPB_20230826_1_1_split.htm',
+            'splits/2023/SPB_20230826_1_2_split.htm'
+        ],
         info: 'Традиционные соревнования в заданном направлении с большим количеством КП',
         start: 'GS',
         o_site: '230826ZZ',
@@ -1377,6 +1488,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/29896',
         res: 'https://o-site.spb.ru/_races/230827_infop/230708_res_p.htm',
+        split: 'splits/2023/SPB_20230827_2_split.htm',
         strava: 9730244634,
         o_site: '230827_infop',
         map: 'rzhevsky_2024'
@@ -1389,6 +1501,7 @@ let events2023 = [
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/29897',
         res: 'https://o-site.spb.ru/_races/230827_R/230827_res.htm',
+        split: 'splits/2023/SPB_20230827_3_split.htm',
         o_site: '230827_R',
         map: 'rzhevsky_2024'
     },
@@ -1399,6 +1512,7 @@ let events2023 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, велокросс-классика',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/230903/230903_rez.htm',
+        split: 'splits/2023/SPB_20230903_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '230903',
         map: 'lembolovo_velo_2023'
@@ -1421,6 +1535,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/30154',
         res: 'https://o-site.spb.ru/_races/230909_df/230909_r.htm',
+        split: 'splits/2023/SPB_20230909_1_split.htm',
         o_site: '230909_df',
         map: 'lembolovo_2024'
     },
@@ -1431,6 +1546,7 @@ let events2023 = [
         name: 'Приз газеты «Всеволожские вести»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230909/230909_split.htm',
+        split: 'splits/2023/SPB_20230909_2_split.htm',
         start: 'VSEV_VESTI',
         o_site: '230909',
         map: 'vsevolozhsk_rumbolovo_2014'
@@ -1452,6 +1568,7 @@ let events2023 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-лонг',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/28922',
+        split: 'splits/2023/SPB_20230910_1_split.htm',
         photo: 'http://vk.com/album-220245153_298747435',
         video: 'http://vk.com/clip-220245153_456239024',
         owner: 'SFSO_SPB',
@@ -1493,6 +1610,10 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/29700',
         res: 'https://o-site.spb.ru/_races/230916_zg_relay/230916_club_itog.pdf',
+        split: [
+            'splits/2023/SPB_20230916_1_1_split.htm',
+            'splits/2023/SPB_20230916_1_2_split.htm'
+        ],
         photo: 'http://vk.com/album-220245153_299049860',
         info: 'Новая клубная эстафета «Змей Горыныч» Организаторы эстафеты: клуб "Кузьмолово" и АНО "ОПОРА СО СПб и ЛО "Импульс"". Мероприятие проходит при поддержке Движения Первых и СФСО Санкт-Петербурга.',
         o_site: '230916_zg_relay'
@@ -1531,6 +1652,12 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1559',
         res: 'https://o-site.spb.ru/_races/230916_gl/Res_160923.pdf',
+        split: [
+            'splits/2023/SPB_20230916_4_1_split.htm',
+            'splits/2023/SPB_20230916_4_2_split.htm',
+            'splits/2023/SPB_20230916_4_3_split.htm',
+            'splits/2023/SPB_20230916_4_4_split.htm'
+        ],
         owner: 'SFSO_SPB',
         o_site: '230916_gl'
     },
@@ -1550,6 +1677,7 @@ let events2023 = [
         name: 'Мемориал Владимира Алексеева',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/28922',
+        split: 'splits/2023/SPB_20230917_2_split.htm',
         map: 'bylinnoe_2023',
         owner: 'WN',
         o_site: '230917',
@@ -1565,6 +1693,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1557',
         res: 'https://o-site.spb.ru/_races/230922_zo/230922_Split_ZO.htm',
+        split: 'splits/2023/SPB_20230922_1_split.htm',
         owner: 'VYBORG',
         o_site: '230922_zo',
         o_gps: 17303
@@ -1577,6 +1706,11 @@ let events2023 = [
         place: 'Зеркальный',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230925/230922_res.htm',
+        split: [
+            'splits/2023/SPB_20230922_2_1_split.htm',
+            'splits/2023/SPB_20230922_2_2_split.htm',
+            'splits/2023/SPB_20230922_2_3_split.htm'
+        ],
         info: '25 сентября - спринт. Старт в 10.30',
         o_site: '230925',
         map: 'zerkalny_2002'
@@ -1589,6 +1723,7 @@ let events2023 = [
         map: 'molodezhnoe_gk_2024',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/230923R/230923R_res.pdf',
+        split: 'splits/2023/SPB_20230923_1_split.htm',
         fmt: 'рогейн 5/2 часа бег, 4 часа вело',
         start: 'GORNY_CROSS',
         o_site: '230923R'
@@ -1600,6 +1735,10 @@ let events2023 = [
         name: 'Золотые кольца',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/230923/20230923SV_results.pdf',
+        split: [
+            'splits/2023/SPB_20230923_2_1_split.htm',
+            'splits/2023/SPB_20230923_2_2_split.htm'
+        ],
         info: 'Традиционные соревнования семейных пар - командные соревнования с раздельным выбором После них - тренировка "Техника и Тактика".',
         start: 'WEDDING',
         o_site: '230923',
@@ -1613,6 +1752,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1555',
         res: 'https://o-site.spb.ru/_races/230924/230924_split.htm',
+        split: 'splits/2023/SPB_20230924_1_split.htm',
         video: [
             'https://www.youtube.com/watch?v=zrHmTnWIQhk',
             'https://rutube.ru/video/d0cfec4658b9f623f39c9c6ae643feff/'
@@ -1672,6 +1812,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1553',
         res: 'http://orgeo.ru/live/#/30917',
+        split: 'splits/2023/SPB_20231001_1_split.htm',
         o_gps: 17437,
         info: 'Проходит при поддержке: ДОЛ "Зарница", ГУП "Горэлектротранс"',
         owner: 'SFSO_SPB',
@@ -1715,6 +1856,13 @@ let events2023 = [
         place: 'УТЦ Кавголово, Парголово, шк №97',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/29568/1',
+        split: [
+            'splits/2023/SPB_20231005_1_1_split.htm',
+            'splits/2023/SPB_20231005_1_2_split.htm',
+            'splits/2023/SPB_20231005_1_3_split.htm',
+            'splits/2023/SPB_20231005_1_4_split.htm',
+            'splits/2023/SPB_20231005_1_5_split.htm'
+        ],
         o_gps: 17533,
         video: [
             'https://www.youtube.com/watch?v=pSrwKLYU-OE',
@@ -1735,6 +1883,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/30567',
         res: 'http://touristclub.ru/wp-content/uploads/2023/10/res_okin_23.htm',
+        split: 'splits/2023/SPB_20231007_1_split.htm',
         start: 'OKINCHITSA',
         o_site: '231007_okinchica'
     },
@@ -1746,6 +1895,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1565',
         res: 'http://orgeo.ru/event/info/28922',
+        split: 'splits/2023/SPB_20231014_1_split.htm',
         owner: 'VYBORG',
         o_site: '231014_ZO',
         reskeep: 622
@@ -1780,6 +1930,7 @@ let events2023 = [
         name: 'Горный Кросс - 97',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/231015R/231015R_res.pdf',
+        split: 'splits/2023/SPB_20231015_1_split.htm',
         start: 'GORNY_CROSS',
         strava: 10042669382,
         o_site: '231015R'
@@ -1792,6 +1943,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1566',
         res: 'https://o-site.spb.ru/_races/231015_LO/split2.htm',
+        split: 'splits/2023/SPB_20231015_2_split.htm',
         owner: 'SFSO_LO',
         o_site: '231015_LO',
         reskeep: 623
@@ -1838,6 +1990,7 @@ let events2023 = [
         fmt: 'ночная эстафета',
         reg: 'http://sportident.online/entry/?id=5890',
         res: 'https://o-site.spb.ru/_races/211023_50Verst/result_50_verst.htm',
+        split: 'splits/2023/SPB_20231021_1_split.htm',
         video: 'https://www.youtube.com/watch?v=4AEOH9mFkNU',
         info: 'IV клубная ночная эстафета 50 ВЁРСТ',
         o_site: '211023_50Verst',
@@ -1851,6 +2004,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=5896',
         res: 'http://sportident.online/ol/?id=1496',
+        split: 'splits/2023/SPB_20231022_1_split.htm',
         info: 'Открытое первенство КСО Nord West',
         video: 'https://www.youtube.com/watch?v=7qIqG0FqbH4',
         o_site: '231022_perv_NW',
@@ -1866,6 +2020,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1567',
         res: 'http://sportident.online/ol/?id=1493',
+        split: 'splits/2023/SPB_20231022_2_split.htm',
         owner: 'SFSO_SPB',
         o_site: '231022',
         reskeep: 625,
@@ -1887,6 +2042,7 @@ let events2023 = [
         name: '«Техника и Тактика - 2»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/231028TT/231028TT_split.htm',
+        split: 'splits/2023/SPB_20231028_1_split.htm',
         o_site: '231028TT',
         map: 'vsevolozhsk_zhdanovskie_oz_2014'
     },
@@ -1941,6 +2097,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1568',
         res: 'https://o-site.spb.ru/_races/231029/Res1_231029.htm',
+        split: 'splits/2023/SPB_20231029_1_split.htm',
         info: 'Официальный старт, включённый в календарь физкультурно-спортивных мероприятий Санкт-Петербурга, с выполнением массовых разрядов',
         strava: 10124307608,
         logo: 'azimut.gif',
@@ -1957,6 +2114,11 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/31302',
         res: 'https://o-site.spb.ru/_races/231103_P/231101_split.htm',
+        split: [
+            'splits/2023/SPB_20231101_1_1_split.htm',
+            'splits/2023/SPB_20231101_1_2_split.htm',
+            'splits/2023/SPB_20231101_1_3_split.htm'
+        ],
         info: 'Серия тренировочных стартов на осенних каникулах, 1, 2 и 3 ноября В программе: 01.11.2023 (Ср) 11:00 - Выбор и заданное направление(на выбор). Место проведения: Токсово ВИФК 02.11.2022 (Чт) 11:00 - Заданное направление. Место проведения: Токсово, СКА 03.11.2022 (Пт) 11:00 - Заданное направление - Орлиная гора. Место проведения: Орлиная Гора',
         o_site: '231103_P',
         endDate: '2023-11-03'
@@ -1969,6 +2131,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1570',
         res: 'https://o-site.spb.ru/_races/231104_OM/Res_OM_231104.htm',
+        split: 'splits/2023/SPB_20231104_1_split.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
         strava: 10157953030,
         video: ['https://www.youtube.com/watch?v=4-RZFClk0FY','https://www.youtube.com/watch?v=oUmx_E2DtAA'],
@@ -1986,6 +2149,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/31217',
         res: 'https://o-site.spb.ru/_races/231105_P/231105_split1.htm',
+        split: 'splits/2023/SPB_20231105_1_split.htm',
         o_site: '231105_P',
         map: 'toksovo_malinovaya_gora_2018'
     },
@@ -1997,6 +2161,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/30933',
         res: 'https://o-site.spb.ru/_races/231107_bn/231106_split.htm',
+        split: 'splits/2023/SPB_20231106_1_split.htm',
         o_site: '231107_bn'
     },
     {
@@ -2021,6 +2186,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/30951',
         res: 'https://o-site.spb.ru/_races/231111/231111_res.htm',
+        split: 'splits/2023/SPB_20231111_1_split.htm',
         strava: 10198903643,
         start: 'ROGAINE_110',
         o_site: '231111',
@@ -2034,6 +2200,7 @@ let events2023 = [
         name: 'Горный Кросс - 98',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/231112R/231112R_res.pdf',
+        split: 'splits/2023/SPB_20231112_1_split.htm',
         fmt: 'рогейн 6/2 ч. бег, 5 ч. вело',
         start: 'GORNY_CROSS',
         o_site: '231112R'
@@ -2045,6 +2212,7 @@ let events2023 = [
         name: 'Чемпионат и Первенство Ленинградской области, спринт-общий старт',
         type: 'ORIENT',
         res: 'http://orgeo.ru/event/info/31663',
+        split: 'splits/2023/SPB_20231112_2_split.htm',
         photo: 'http://vk.com/album-30365190_299230795',
         owner: 'SFSO_LO',
         o_site: '231112_LO',
@@ -2059,6 +2227,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/31632',
         res: 'https://o-site.spb.ru/_races/231119/231119_res.htm',
+        split: 'splits/2023/SPB_20231119_1_split.htm',
         strava: 10244406309,
         o_site: '231119',
         reskeep: 628
@@ -2071,6 +2240,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1572',
         res: 'https://o-site.spb.ru/_races/2023_Orientir/Split1_231125.htm',
+        split: 'splits/2023/SPB_20231125_1_split.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
         logo: 'azimut.gif',
         strava: 10279018304,
@@ -2086,6 +2256,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/denmateri23',
         res: 'https://o-site.spb.ru/_races/231125/231125_rez.htm',
+        split: 'splits/2023/SPB_20231125_2_split.htm',
         o_site: '231125',
         map: 'poljustrovo_2023'
     },
@@ -2097,6 +2268,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1571',
         res: 'http://orgeo.ru/live/#/31914/1',
+        split: 'splits/2023/SPB_20231126_1_split.htm',
         photo: 'http://vk.com/album-154221178_299675518',
         info: '26 ноября в парке Сосновка (Санкт-Петербург) пройдут соревнования "Снежная тропа" в дисциплине "кросс-выбор" (с первым заданным КП).',
         video: ['http://tvspb.ru/programs/stories/3199531','https://www.youtube.com/watch?v=swrcvd4uRvo'],
@@ -2160,6 +2332,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/16374',
         res: 'https://o-site.spb.ru/_races/231212_labirint/231212_rez.htm',
+        split: 'splits/2023/SPB_20231212_1_split.htm',
         info: 'Физкультурноe мероприятие «Соревнования Колпинского района Санкт-Петербурга по спортивному ориентированию (лабиринт), посвященные Дню Героев Отечества» К участию в Мероприятии допускаются сборные команды образовательных организаций, учреждений дополнительного образования детей, туристских и спортивных клубов Колпинского района Санкт-Петербурга. Число участников от одной организации не ограничено.',
         o_site: '231212_labirint'
     },
@@ -2182,6 +2355,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1573',
         res: 'http://orgeo.ru/live/#/31914/1',
+        split: 'splits/2023/SPB_20231217_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '231217',
         reskeep: 634,
@@ -2195,6 +2369,7 @@ let events2023 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1574',
         res: 'http://orgeo.ru/event/32439',
+        split: 'splits/2023/SPB_20231224_1_split.htm',
         o_site: '231224_OS'
     },
     {

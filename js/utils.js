@@ -1840,6 +1840,9 @@ function buildEventResults(evt) {
             res += buildLink(evt.res, `<img src="./images/url-file.png" alt="Результаты" title="Результаты" class="sheet-icon" />`);
         }
     }
+    if (evt.split) {
+        res += ' ' + buildLink(evt.split, 'O-Site', null, true);
+    }
     if (evt.reskeep) {
         let reskeep = evt.reskeep;
         if (!Array.isArray(evt.reskeep)) {

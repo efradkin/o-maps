@@ -43,6 +43,7 @@ let events2009 = [
         name: 'Снежная Тропа, 3-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090125/090125_res.pdf',
+        split: 'splits/2009/SPB_20090125_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '090125'
     },
@@ -54,6 +55,7 @@ let events2009 = [
         name: 'Всероссийские соревнования ветеранов',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/090129/090129_res.htm',
+        split: 'splits/2009/SPB_20090128_1_split.zip',
         info: 'Всероссийские соревнования ветеранов Чемпионат и первенство СЗФО Чемпионат и первенство Ленинградской области Кубок профкома ООО «ПО Киришинефтеоргсинтез» МЖ-30-75 Всероссийские соревнования ветеранов МЖ-14,17,20,Э Чемпионат и первенство СЗФО МЖ-10,12,14,17,Э,35,45,55 Чемпионат и первенство Ленинградской области',
         o_site: '090129'
     },
@@ -97,6 +99,7 @@ let events2009 = [
         name: 'Чемпионат и Пер-во СПб, заданное направление',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080208/090208_res.htm',
+        split: 'splits/2009/SPB_20090208_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '080208'
     },
@@ -108,6 +111,7 @@ let events2009 = [
         name: 'Две Пятёрки',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/09021415/090214_res.htm',
+        split: 'splits/2009/SPB_20090214_1_split.htm',
         o_site: '09021415'
     },
     {
@@ -142,6 +146,10 @@ let events2009 = [
         name: 'Пер-во ЛО среди обучающихся',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/09022223/09022223_res.rar',
+        split: [
+            'splits/2009/SPB_20090222_1_1_split.htm',
+            'splits/2009/SPB_20090222_1_2_split.htm'
+        ],
         info: 'Первенство Ленинградской области среди обучающихся в МОУ ДОД ЛО',
         o_site: '09022223'
     },
@@ -210,6 +218,7 @@ let events2009 = [
         name: 'Снежная Тропа, финал',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090315/090315_res.pdf',
+        split: 'splits/2009/SPB_20090315_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '090315'
     },
@@ -231,6 +240,10 @@ let events2009 = [
         place: 'Сосновый бор',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/09041112/090411_res.htm',
+        split: [
+            'splits/2009/SPB_20090411_1_1_split.htm',
+            'splits/2009/SPB_20090411_1_2_split.htm'
+        ],
         info: 'ТРАДИЦИОННЫЕ СОРЕВНОВАНИЯ «СОСНОВОБОРСКИЕ ДЮНЫ 2009» по спортивному ориентированию бегом, а также Кубок Ленинградской области, 1,2 этапы, а также Кубок «Центра «Ладога» среди обучающихся в ОУ, 2 этап',
         owner: 'YUVENTA',
         o_site: '09041112'
@@ -242,6 +255,7 @@ let events2009 = [
         name: 'Открытые соревнования туристов Всеволожского ДДЮТ',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090419/090419_res.htm',
+        split: 'splits/2009/SPB_20090419_1_split.htm',
         info: 'Открытые соревнования туристов Всеволожского ДДЮТ по спортивному ориентированию',
         o_site: '090419'
     },
@@ -275,6 +289,7 @@ let events2009 = [
         name: 'День Победы, 1-й этап Кубка СПб',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090509/090509_res.htm',
+        split: 'splits/2009/SPB_20090509_1_split.htm',
         o_site: '090509',
         owner: 'AZIMUT'
     },
@@ -295,6 +310,7 @@ let events2009 = [
         name: 'Пер-во СДЮСШОР Курортного р-на по вело-О',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/090511/090511_res.htm',
+        split: 'splits/2009/SPB_20090511_1_split.htm',
         info: 'Открытое первенство СДЮСШОР Курортного р-на им. В. Коренькова по вело-ориентированию (Открытие Сезона)',
         fmt: 'Заданное направление (средняя дистанция)',
         o_site: '090511'
@@ -325,6 +341,7 @@ let events2009 = [
         name: 'Памяти друзей',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090516/090516_res.htm',
+        split: 'splits/2009/SPB_20090516_2_split.htm',
         o_site: '090516',
         map: 'lembolovo_2002',
         owner: 'AZIMUT'
@@ -370,6 +387,10 @@ let events2009 = [
         place: 'Комарово, Ушково',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/09052324/090523_RES.htm',
+        split: [
+            'splits/2009/SPB_20090523_1_1_split.htm',
+            'splits/2009/SPB_20090523_1_2_split.zip'
+        ],
         o_site: '09052324'
     },
     {
@@ -414,6 +435,7 @@ let events2009 = [
         name: 'Чемпионат Санкт-Петербурга - спринт',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090603/090603_res.htm',
+        split: 'splits/2009/SPB_20090603_1_split.htm',
         photo: 'http://www.photo.yarkiymir.ru/albums/87/156/page-0/',
         owner: 'SFSO_SPB',
         o_site: '090603',
@@ -427,6 +449,14 @@ let events2009 = [
         name: 'Весенний Кубок 110%',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/0906cup110/090409_res.htm',
+        split: [
+            'splits/2009/SPB_20090604_1_1_split.htm',
+            'splits/2009/SPB_20090604_1_2_split.htm',
+            'splits/2009/SPB_20090604_1_3_split.htm',
+            'splits/2009/SPB_20090604_1_4_split.htm',
+            'splits/2009/SPB_20090604_1_5_split.htm',
+            'splits/2009/SPB_20090604_1_6_split.zip'
+        ],
         info: '1 этап(09 апреля): Результаты + Сплиты 2 этап(16 апреля): Результаты + Сплиты 3 этап(23 апреля): Результаты + Сплиты 4 этап(14 мая): Результаты + Сплиты 5 этап(21 мая): Результаты 6 этап(28 мая): Результаты + Сплиты 7 этап(04 июня): Результаты + Сплиты',
         start: 'ROGAINE_110',
         o_site: '0906cup110'
@@ -447,6 +477,7 @@ let events2009 = [
         name: 'Чемпионат Санкт-Петербурга - эстафета',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090606/090606_res.htm',
+        split: 'splits/2009/SPB_20090606_2_split.htm',
         photo: 'http://www.photo.yarkiymir.ru/albums/87/180/page-0/',
         owner: 'SFSO_SPB',
         o_site: '090606',
@@ -469,6 +500,7 @@ let events2009 = [
         name: 'Чемпионат СПб, классика',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090607/090607_res.htm',
+        split: 'splits/2009/SPB_20090607_2_split.htm',
         photo: 'http://www.photo.yarkiymir.ru/albums/87/181/page-0/',
         owner: 'SFSO_SPB',
         o_site: '090607',
@@ -499,6 +531,11 @@ let events2009 = [
         name: 'Открытое первенство СДЮСШОР Курортного района, Открытое первенство КСО «Азимут»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/09061214/090612_res.htm',
+        split: [
+            'splits/2009/SPB_20090612_2_1_split.htm',
+            'splits/2009/SPB_20090612_2_2_split.htm',
+            'splits/2009/SPB_20090612_2_3_split.htm'
+        ],
         info: 'Открытое первенство СДЮСШОР Курортного района, Открытое первенство КСО «Азимут»',
         logo: 'azimut.gif',
         o_site: '09061214'
@@ -511,6 +548,14 @@ let events2009 = [
         name: 'Петербургский Фестиваль Ориентирования',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/09061621/090616_split.htm',
+        split: [
+            'splits/2009/SPB_20090616_1_1_split.htm',
+            'splits/2009/SPB_20090616_1_2_split.htm',
+            'splits/2009/SPB_20090616_1_3_split.htm',
+            'splits/2009/SPB_20090616_1_4_split.htm',
+            'splits/2009/SPB_20090616_1_5_split.htm',
+            'splits/2009/SPB_20090616_1_6_split.htm'
+        ],
         info: 'day_1 16.06 сплиты day_2 17.06 сплиты day_3 18.06 сплиты day_4 19.06 сплиты day_5 20.06 сплиты day_6 21.06 сплиты',
         o_site: '09061621',
         map: ['wn_2009_06_19', 'wn_2009_06_20', 'wn_2009_06_21'],
@@ -577,6 +622,7 @@ let events2009 = [
         name: 'Открытое п-во ОК судостроения',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090712_Az/090712_res.htm',
+        split: 'splits/2009/SPB_20090712_2_split.htm',
         o_site: '090712_Az'
     },
     {
@@ -631,6 +677,7 @@ let events2009 = [
         type: 'MULTI',
         publish: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2009',
         res: 'https://o-site.spb.ru/_races/tri-o-tlon-2009/TOT_res.htm',
+        split: 'splits/2009/SPB_20090808_1_split.zip',
         photo: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2009',
         video: 'http://vkontakte.ru/video129292_121816260',
         info: 'Старейшая мультиспортивная гонка в России: в 2009-м году состоится уже 8-й Три-О-Тлон, история которого ведёт отсчёт с 2002-го года. Классическая гонка по набору дисциплин: треккинг, велосипед, байдарка, верёвочные этапы. Основная направленность гонки - навигация. Три дистанции - длинная, средняя и короткая. Участвуют команды из 2-х человек любого пола. Нас поддерживают: Альпина Спортивная Линия Яркий Мир Кант Спортсистем Про-Спорт Альпиндустрия Эксперты Приключений Игорь Лу Информационная поддержка: O-site x-race.msk.ru adventureraces.ru carabin.ru',
@@ -664,6 +711,7 @@ let events2009 = [
         name: 'Первенство MTBO SPb Club',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/090822/090822_res.htm',
+        split: 'splits/2009/SPB_20090822_1_split.htm',
         o_site: '090822'
     },
     {
@@ -699,6 +747,7 @@ let events2009 = [
         name: 'Первенство клуба «Азимут»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090912_az/090912_res.htm',
+        split: 'splits/2009/SPB_20090912_2_split.htm',
         info: 'М/Ж 10, 12, 14, 16, 18, 20, 21, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80.',
         logo: 'azimut.gif',
         o_site: '090912_az'
@@ -710,6 +759,7 @@ let events2009 = [
         name: 'Чемпионат СПб - марафон',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090913/090913_res.pdf',
+        split: 'splits/2009/SPB_20090913_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '090913',
         reskeep: 242
@@ -731,6 +781,7 @@ let events2009 = [
         name: 'Золотые Кольца',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090919/090919_res.htm',
+        split: 'splits/2009/SPB_20090919_2_split.htm',
         start: 'WEDDING',
         o_site: '090919'
     },
@@ -741,6 +792,10 @@ let events2009 = [
         name: 'Шестиэтапные эстафеты',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090920/090920_res.htm',
+        split: [
+            'splits/2009/SPB_20090920_1_1_split.htm',
+            'splits/2009/SPB_20090920_1_2_split.htm'
+        ],
         info: 'Межклубные шестиэтапные эстафеты, проводимые клубом Северный Ветер',
         o_site: '090920'
     },
@@ -770,6 +825,7 @@ let events2009 = [
         name: 'Гонка «Ориентировщиков»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090927kk/090927_res.htm',
+        split: 'splits/2009/SPB_20090927_1_split.htm',
         info: 'Кросс-кантрийная велосипедная гонка по пересеченной местности на кругу 6 км.',
         o_site: '090927kk'
     },
@@ -780,6 +836,7 @@ let events2009 = [
         name: '50-летие секции ориентирования «ЭКРАН»',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091003/091003_res.htm',
+        split: 'splits/2009/SPB_20091003_1_split.htm',
         info: 'Открытые соревнования на первенство спортивного клуба "Экран", посвященные 50-летию секции спортивного ориентирования',
         o_site: '091003',
         map: 'silande_2009'
@@ -791,6 +848,7 @@ let events2009 = [
         name: 'Пер-во клуба NordWest',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091003_nw/091003_res.htm',
+        split: 'splits/2009/SPB_20091003_2_split.htm',
         o_site: '091003_nw'
     },
     {
@@ -800,6 +858,7 @@ let events2009 = [
         name: 'Чемпионат СПб, средняя дистанция',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091004/091004_res.htm',
+        split: 'splits/2009/SPB_20091004_1_split.zip',
         photo: 'http://www.photo.yarkiymir.ru/albums/120/1657/',
         owner: 'SFSO_SPB',
         o_site: '091004',
@@ -812,6 +871,10 @@ let events2009 = [
         name: 'XXXVIII Соревнования по ночному ориентированию памяти А. Окинчица',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091010/091010_res.htm',
+        split: [
+            'splits/2009/SPB_20091010_1_1_split.htm',
+            'splits/2009/SPB_20091010_1_2_split.zip'
+        ],
         start: 'OKINCHITSA',
         o_site: '091010'
     },
@@ -831,6 +894,7 @@ let events2009 = [
         name: 'Чемпионат и П-во ЛО, посвященные 40-летию спортивного ориентирования в ЛО',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/09101718/091017.htm',
+        split: 'splits/2009/SPB_20091017_2_split.htm',
         info: 'Чемпионат и Первенство ЛО, посвященный 40-летию ориентирования в области',
         owner: 'SFSO_LO',
         o_site: '09101718',
@@ -844,6 +908,7 @@ let events2009 = [
         name: 'Петербургская осень',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091018_az/091018_res.htm',
+        split: 'splits/2009/SPB_20091018_1_split.htm',
         info: 'Закрытие летнего сезона СДЮСШОР Курортного р-на и КСО Азимут',
         logo: 'azimut.gif',
         o_site: '091018_az',
@@ -858,6 +923,10 @@ let events2009 = [
         name: 'Золотая Осень',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/09102425/091024_res.htm',
+        split: [
+            'splits/2009/SPB_20091024_1_1_split.htm',
+            'splits/2009/SPB_20091024_1_2_split.htm'
+        ],
         info: 'Юбилейные, 40-е по счёту соревнования',
         owner: 'VYBORG',
         o_site: '09102425'
@@ -881,6 +950,10 @@ let events2009 = [
         name: 'Финал Кубка ФСО',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091025/091025_res.htm',
+        split: [
+            'splits/2009/SPB_20091025_1_1_split.htm',
+            'splits/2009/SPB_20091025_1_2_split.zip'
+        ],
         o_site: '091025'
     },
     {
@@ -890,6 +963,7 @@ let events2009 = [
         name: 'Ночные Эстафеты',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091031/091031_res.htm',
+        split: 'splits/2009/SPB_20091031_1_split.htm',
         o_site: '091031'
     },
     {
@@ -899,6 +973,17 @@ let events2009 = [
         place: 'Мичуринское',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/09cupYM/09cupYM_res.zip',
+        split: [
+            'splits/2009/SPB_20091101_1_1_split.htm',
+            'splits/2009/SPB_20091101_1_2_split.htm',
+            'splits/2009/SPB_20091101_1_3_split.htm',
+            'splits/2009/SPB_20091101_1_4_split.htm',
+            'splits/2009/SPB_20091101_1_5_split.htm',
+            'splits/2009/SPB_20091101_1_6_split.htm',
+            'splits/2009/SPB_20091101_1_7_split.htm',
+            'splits/2009/SPB_20091101_1_8_split.htm',
+            'splits/2009/SPB_20091101_1_9_split.htm'
+        ],
         info: '1 этап - 25.04 Воейково 2 этап - 26.04 Воейково 3 этап - 10.05 Токсово 4 этап - 30.05 Петяярви 5 этап - 31.05 Петяярви 6 этап - 05.07 пл.69км 7 этап - 05.09 Ягодное 8 этап - 06.09 Ягодное финал - 01.11 Мичуринское',
         start: 'YM',
         o_site: '09cupYM'
@@ -911,6 +996,10 @@ let events2009 = [
         place: 'Мичуринское',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/09110108/091104_res.htm',
+        split: [
+            'splits/2009/SPB_20091101_2_1_split.htm',
+            'splits/2009/SPB_20091101_2_2_split.htm'
+        ],
         o_site: '09110108'
     },
     {
@@ -921,6 +1010,7 @@ let events2009 = [
         place: 'Цвелодубово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091108/091104_res.htm',
+        split: 'splits/2009/SPB_20091102_1_split.htm',
         o_site: '091108'
     },
     {
@@ -930,6 +1020,7 @@ let events2009 = [
         name: 'Осенний марафон',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091104_az/091104_res.htm',
+        split: 'splits/2009/SPB_20091104_1_split.htm',
         info: 'Традиционные праздничные ноябрьские соревнования',
         logo: 'azimut.gif',
         o_site: '091104_az',
@@ -952,6 +1043,7 @@ let events2009 = [
         name: 'Спринт на Щучьем',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091108_az/091108_res.htm',
+        split: 'splits/2009/SPB_20091108_1_split.htm',
         info: 'Тренировочный старт СДЮСШОР Курортного р-на и КСО Азимут',
         o_site: '091108_az'
     },
@@ -980,6 +1072,13 @@ let events2009 = [
         place: 'Кузьмоловский',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/091126/090917_res.htm',
+        split: [
+            'splits/2009/SPB_20091126_1_1_split.htm',
+            'splits/2009/SPB_20091126_1_2_split.htm',
+            'splits/2009/SPB_20091126_1_3_split.htm',
+            'splits/2009/SPB_20091126_1_4_split.htm',
+            'splits/2009/SPB_20091126_1_5_split.htm'
+        ],
         info: '1 этап(17 сентября): Результаты + Сплиты 2 этап(24 сентября): Результаты + Сплиты 3 этап(01 октября): Результаты + Сплиты 4 этап(08 октября): Результаты + Сплиты 5 этап(15 октября): Результаты + Сплиты Карта с путями',
         start: 'ROGAINE_110',
         o_site: '091126'
@@ -992,6 +1091,7 @@ let events2009 = [
         name: 'Горный Кросс-17',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/091128/091128_res.htm',
+        split: 'splits/2009/SPB_20091128_1_split.htm',
         info: 'Рогейн в форматах 3 и 8 часов',
         fmt: '3 и 8 часов бегом',
         start: 'GORNY_CROSS',
@@ -1017,6 +1117,7 @@ let events2009 = [
         name: 'Снежная Тропа, 1-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091122/091206_split.htm',
+        split: 'splits/2009/SPB_20091206_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '091122',
         map: 'piskarevsky_1996'
@@ -1028,6 +1129,7 @@ let events2009 = [
         name: 'Три Кубка, 1-й этап',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/091213/091213_res.htm',
+        split: 'splits/2009/SPB_20091213_1_split.htm',
         o_site: '091213'
     },
     {
@@ -1037,6 +1139,7 @@ let events2009 = [
         name: 'Кубок маркированных трасс',
         type: 'SKI',
         res: 'http://www.o-site.spb.ru/_races/091220/091220_res.htm',
+        split: 'splits/2009/SPB_20091220_1_split.htm',
         publish: 'https://o-site.spb.ru/race.php?id=091220',
         o_site: '091220'
     },
