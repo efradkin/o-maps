@@ -2471,6 +2471,15 @@ let events2026 = [
         map: 'vjun_2026'
     },
     {
+        id: 'SPB_20260905_2',
+        date: '2026-09-05',
+        name: 'Физкультурное мероприятие',
+        place: 'Ржевский л/п',
+        type: 'ORIENT',
+        reg: 'https://orgeo.ru/event/54769',
+        map: 'rzhevsky_2024'
+    },
+    {
         id: 'SPB_20260906_1',
         date: '2026-09-06',
         name: 'Петербургская осень',
@@ -2567,6 +2576,14 @@ let events2026 = [
         fmt: 'лонг',
         o_site: '260927',
         owner: 'SFSO_SPB'
+    },
+    {
+        id: 'SPB_20260927_2',
+        date: '2026-09-27',
+        place: 'Приозерск',
+        name: 'XIII Кубок Весты, Памяти друзей',
+        type: 'ORIENT',
+        owner: 'VESTA_PRIOZERSK'
     },
     {
         id: 'SPB_20261003_1',
