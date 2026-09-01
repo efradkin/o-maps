@@ -2424,6 +2424,7 @@ let events2026 = [
         split: 'splits/2026/SPB_20260829_1_split.html',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1748',
         photo: 'https://vk.ru/album-201330282_311662493',
+        video: ['https://www.youtube.com/watch?v=SWkrPI6rKHU','https://vkvideo.ru/video-238805001_456239042'],
         map: 'leypjasuo_2014',
         owner: 'SFSO_LO'
     },
@@ -2440,7 +2441,9 @@ let events2026 = [
         type: 'ROGAINE',
         fmt: '1',
         map: 'aleksandrijsky_2010',
-        owner: 'SUBBOTNIK'
+        owner: 'SUBBOTNIK',
+        strava: 19947066756,
+        me: 'М'
     },
     {
         id: 'SPB_20260830_1',

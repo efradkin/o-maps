@@ -712,6 +712,7 @@ if (mapElement) {
         if (MAP_NAME_PARAM) {
             let m = getMapForName(MAP_NAME_PARAM);
             if (m) {
+                m.zindex = 777;
                 map.fitBounds(m.bounds);
             }
         }
