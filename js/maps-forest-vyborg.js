@@ -740,9 +740,9 @@ let vyborgMaps = [
     {
         name: 'Вещево, Ториковское оз',
         year: 2026,
-        url: './maps/trnsprnt.png',
-        bounds: [[60.6671664, 29.1850948], [60.6680914, 29.2132473], [60.648408, 29.2109299]],
-        restricted: 'с 19.03.2026 по 31.08.2026, ЧиП СПб',
+        url: './maps/forest/vyborg/veschevo_torikovskoe_2026.webp',
+        link: './original_maps/forest/vyborg/veschevo_torikovskoe_2026_omaps.webp',
+        bounds: [[60.6696471, 29.2001581], [60.6648327, 29.2501116], [60.6400137, 29.1892576]],
         author: 'CHGRVSKY_V',
         owner: 'SFSO_SPB'
     },

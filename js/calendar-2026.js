@@ -2456,7 +2456,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'лонг',
         owner: 'SFSO_SPB',
-        // map: '' TODO
+        map: 'veschevo_torikovskoe_2026'
     },
     {
         id: 'SPB_20260905_1',
