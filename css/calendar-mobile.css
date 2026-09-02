@@ -586,3 +586,162 @@
     position: relative !important;
   }
 
+
+  /* ==========================================================================
+     Компактные (свёрнутые) карточки.
+
+     В свёрнутом состоянии карточка занимает только две строки:
+       1) плашка даты + название старта;
+       2) место проведения + короткая плашка вида спорта справа.
+     Формат, результаты, трансляции/отчёты и «прочее» скрыты.
+
+     Раскрытие: тап по плашке даты (или по любому месту карточки, кроме
+     ссылок — см. OM_CARDS.tapWholeCard в calendar-mobile.js).
+     Признак того, что есть скрытое содержимое, — маленький шеврон ▾
+     в нижней части плашки даты; в раскрытом виде он меняется на ▴.
+
+     Классы навешивает calendar-mobile.js:
+       .om-collapsible — в карточке есть что раскрывать;
+       .om-collapsed   — сейчас свёрнута;
+       .om-expanded    — сейчас раскрыта (нужен только для шеврона).
+     ========================================================================== */
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsible {
+    cursor: pointer;
+  }
+
+  /* Плашка даты — кнопка раскрытия. Нижний отступ увеличен, чтобы шеврон
+     помещался в собственном поле плашки и не увеличивал её высоту. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsible > td:nth-child(2) {
+    position: relative !important;
+    padding-bottom: 16px !important;
+    box-shadow: inset 0 0 0 1px rgba(36, 72, 43, .12) !important;
+    -webkit-tap-highlight-color: rgba(49, 104, 61, .14);
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsible > td:nth-child(2)::after {
+    content: '▾';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3px;
+    color: #43744f;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 11px;
+    text-align: center;
+    opacity: .8;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsible.om-expanded > td:nth-child(2)::after {
+    content: '▴';
+    opacity: .55;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsible > td:nth-child(2):active {
+    background: var(--om-green-3) !important;
+  }
+
+  /* Свёрнутая карточка чуть плотнее раскрытой. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed {
+    margin: 6px 0 !important;
+    padding: 10px 12px !important;
+  }
+
+  /* Скрываемая часть. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed > td:nth-child(6),
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed > td:nth-child(7),
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed > td:nth-child(8) {
+    display: none !important;
+  }
+
+  /* Во второй строке карточки место и вид спорта делят ширину. Место не
+     обрезаем: иначе на длинных названиях пропадут значки карты 🗺️/🌐. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed > td:nth-child(4) {
+    grid-column: 1 / 3 !important;
+    align-self: start !important;
+    min-width: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  /* Вид спорта остаётся видимым — это самая полезная из скрываемых строк.
+     Формат (<small> с перечислением дисциплин) прячем. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed > td:nth-child(5) {
+    grid-column: 3 / -1 !important;
+    grid-row: 2 !important;
+    align-self: start !important;
+    justify-self: end !important;
+    max-width: 47% !important;
+    margin-top: 0 !important;
+    padding: 3px 8px !important;
+    font-size: 11.5px !important;
+    font-weight: 700 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed > td:nth-child(5) small {
+    display: none !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed > td:nth-child(5):empty {
+    display: none !important;
+  }
+
+  /* Кнопка «развернуть / свернуть все» — два шеврона один под другим.
+     Стоит в строке чекбоксов сразу за карандашом правки «моих».
+     Чтобы она не переносилась на отдельную строку, строку чекбоксов
+     в мобильном виде не переносим и слегка уменьшаем горизонтальные
+     промежутки, а саму кнопку прижимаем к правому краю. */
+  .om-mobile-enhanced .calendar-body .om-mobile-checks > .header_checkbox_container {
+    flex: 1 1 auto !important;
+    width: 100% !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .header_checkbox_container {
+    flex-wrap: nowrap !important;
+    gap: 7px 10px !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .header_checkbox_container label {
+    white-space: nowrap !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-expand-all {
+    flex: 0 0 auto !important;
+    margin-left: auto !important;
+    display: inline-flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 25px !important;
+    height: 25px !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    border: 1px solid #bdc9bf !important;
+    border-radius: 8px !important;
+    background: #fff !important;
+    color: #2f6039 !important;
+    font: inherit !important;
+    vertical-align: middle !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-expand-all > span {
+    display: block !important;
+    font-size: 10px !important;
+    line-height: 8px !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-expand-all[aria-pressed="true"] {
+    border-color: var(--om-green) !important;
+    background: var(--om-green-2) !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-expand-all:active {
+    background: var(--om-green-3) !important;
+  }

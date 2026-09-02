@@ -3,6 +3,19 @@
 (() => {
   'use strict';
 
+  // --- Настройки компактных карточек -------------------------------------
+  // Свёрнутая карточка показывает только две строки: «дата + название» и
+  // «место + вид спорта». Остальное раскрывается тапом.
+  const OM_CARDS = {
+    collapse: true,           // сворачивать карточки при загрузке
+    autoExpandCurrent: false, // ближайшие старты (tr.current) сразу раскрыты
+    tapWholeCard: true,       // раскрывать тапом по всей карточке, не только по дате
+    expandAllButton: true,    // кнопка «развернуть все» в панели фильтров
+    expandOnSearch: true      // при поиске раскрывать найденные карточки
+  };
+
+  const EXPAND_ALL_KEY = 'om-calendar-expand-all';
+
   // Режим интерфейса выбирается ОДИН РАЗ при первоначальной загрузке.
   // Последующие изменения ширины окна не переключают мобильный/десктопный вид.
   const initialMobileMode = window.matchMedia('(max-width: 768px)').matches;
@@ -70,6 +83,32 @@
   search.after(localChecks);
   if (oldChecks) localChecks.appendChild(oldChecks);
 
+  let expandAll = false;
+  try {
+    expandAll = localStorage.getItem(EXPAND_ALL_KEY) === '1';
+  } catch (e) { /* приватный режим — просто работаем без запоминания */ }
+
+  let expandAllButton = null;
+  if (OM_CARDS.collapse && OM_CARDS.expandAllButton) {
+    expandAllButton = document.createElement('button');
+    expandAllButton.type = 'button';
+    expandAllButton.className = 'om-mobile-expand-all';
+    // Пиктограмма — два шеврона один под другим. Направление меняется
+    // вместе с состоянием: ▾▾ развернуть все, ▴▴ свернуть все.
+    expandAllButton.innerHTML = '<span></span><span></span>';
+    expandAllButton.addEventListener('click', () => {
+      expandAll = !expandAll;
+      try {
+        localStorage.setItem(EXPAND_ALL_KEY, expandAll ? '1' : '0');
+      } catch (e) { /* игнорируем */ }
+      updateExpandAllButton();
+      applyExpandAll();
+    });
+    // Кнопка встаёт в один ряд с чекбоксами, сразу за карандашом правки «моих».
+    (oldChecks ?? localChecks).appendChild(expandAllButton);
+    updateExpandAllButton();
+  }
+
   function organizeMobileHeader() {
     const header = document.querySelector('header.page-header');
     const aboutButton = document.querySelector('.about-button');
@@ -114,6 +153,128 @@
     for (const [index, className] of classes) {
       cells[index]?.classList.add(className);
     }
+
+    if (OM_CARDS.collapse) setupCollapse(row, cells);
+  }
+
+  // --- Свёртывание карточек ----------------------------------------------
+
+  // Ячейка считается содержательной, если в ней есть текст или картинка/ссылка.
+  function hasContent(cell) {
+    if (!cell) return false;
+    if (cell.textContent.trim()) return true;
+    return Boolean(cell.querySelector('img, a, input, svg'));
+  }
+
+  // Есть ли в карточке что-то, кроме двух первых строк:
+  // формат старта (<small> внутри ячейки вида спорта), результаты,
+  // трансляции/отчёты, прочее.
+  function isCollapsible(cells) {
+    if (cells[4]?.querySelector('small')) return true;
+    return hasContent(cells[5]) || hasContent(cells[6]) || hasContent(cells[7]);
+  }
+
+  function setRowExpanded(row, expanded) {
+    const collapsible = row.classList.contains('om-collapsible');
+    const open = expanded || !collapsible;
+    row.classList.toggle('om-collapsed', !open);
+    row.classList.toggle('om-expanded', open && collapsible);
+    // Атрибуты не отслеживаются MutationObserver'ом, поэтому безопасны.
+    row.children[1]?.setAttribute('aria-expanded', String(open));
+  }
+
+  function defaultExpanded(row) {
+    if (expandAll) return true;
+    return OM_CARDS.autoExpandCurrent && row.classList.contains('current');
+  }
+
+  // Первичная настройка карточки. Вызывается один раз на строку: содержимое
+  // строки после отрисовки не меняется, а classifyRows() бегает по всем
+  // строкам на каждый символ поиска.
+  function setupCollapse(row, cells) {
+    if (row.classList.contains('om-collapse-ready')) return;
+    row.classList.add('om-collapse-ready');
+    row.classList.toggle('om-collapsible', isCollapsible(cells));
+
+    const dateCell = cells[1];
+    if (dateCell) {
+      dateCell.setAttribute('role', 'button');
+      dateCell.setAttribute('tabindex', '0');
+      dateCell.setAttribute('title', 'Развернуть / свернуть карточку');
+    }
+    setRowExpanded(row, defaultExpanded(row));
+  }
+
+  function toggleRow(row) {
+    row.classList.remove('om-search-open');
+    setRowExpanded(row, row.classList.contains('om-collapsed'));
+  }
+
+  // Один делегированный обработчик: строки таблицы регулярно перерисовываются.
+  function bindCollapseHandlers() {
+    tbody.addEventListener('click', event => {
+      if (!OM_CARDS.collapse) return;
+      const row = event.target.closest?.('tr.om-collapsible');
+      if (!row || !tbody.contains(row)) return;
+
+      const onDate = row.children[1]?.contains(event.target);
+      if (!onDate) {
+        if (!OM_CARDS.tapWholeCard) return;
+        // Ссылки, чекбоксы и штатные раскрывалки внутри карточки работают как обычно.
+        if (event.target.closest('a, button, input, label, select, textarea, .toggle-button')) return;
+        // Не мешаем выделению текста.
+        if (String(window.getSelection?.() ?? '').length > 2) return;
+      }
+      toggleRow(row);
+    });
+
+    tbody.addEventListener('keydown', event => {
+      if (!OM_CARDS.collapse) return;
+      if (event.key !== 'Enter' && event.key !== ' ' && event.key !== 'Spacebar') return;
+      const cell = event.target.closest?.('td[role="button"]');
+      const row = cell?.closest('tr.om-collapsible');
+      if (!row) return;
+      event.preventDefault();
+      toggleRow(row);
+    });
+  }
+
+  // Поиск ищет и по скрытому тексту, поэтому найденные карточки раскрываем,
+  // а при очистке поля возвращаем в исходное состояние.
+  function applySearchExpansion(query) {
+    if (!OM_CARDS.collapse || !OM_CARDS.expandOnSearch) return;
+    if (query) {
+      for (const row of eventRows()) {
+        if (!row.hidden && row.classList.contains('om-collapsed')) {
+          row.classList.add('om-search-open');
+          setRowExpanded(row, true);
+        }
+      }
+    } else {
+      for (const row of $$(':scope > tr.om-search-open', tbody)) {
+        row.classList.remove('om-search-open');
+        setRowExpanded(row, defaultExpanded(row));
+      }
+    }
+  }
+
+  function applyExpandAll() {
+    for (const row of eventRows()) {
+      row.classList.remove('om-search-open');
+      setRowExpanded(row, defaultExpanded(row));
+    }
+  }
+
+  function updateExpandAllButton() {
+    if (!expandAllButton) return;
+    const glyph = expandAll ? '▴' : '▾';
+    for (const span of expandAllButton.children) {
+      span.textContent = glyph;
+    }
+    const label = expandAll ? 'Свернуть все карточки' : 'Развернуть все карточки';
+    expandAllButton.title = label;
+    expandAllButton.setAttribute('aria-label', label);
+    expandAllButton.setAttribute('aria-pressed', String(expandAll));
   }
 
   function classifyRows() {
@@ -188,6 +349,7 @@
 
     updateMonthVisibility();
     updateEmptyState(visible);
+    applySearchExpansion(query);
   }
 
   function syncFilterHeight() {
@@ -206,6 +368,8 @@
       syncFilterHeight();
     });
   }
+
+  if (OM_CARDS.collapse) bindCollapseHandlers();
 
   // Фильтруем сразу при каждом изменении текста.
   // 'input' — стандартное событие для живого поиска; 'search' дополнительно
