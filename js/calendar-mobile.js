@@ -175,10 +175,12 @@
   }
 
   function setRowExpanded(row, expanded) {
-    const collapsible = row.classList.contains('om-collapsible');
-    const open = expanded || !collapsible;
+    // Карточки, в которых нечего раскрывать, тоже остаются в компактной
+    // двухстрочной раскладке: иначе они выглядят как «залипшие раскрытыми».
+    // Скрывать в них нечего — соответствующие ячейки пусты.
+    const open = row.classList.contains('om-collapsible') && expanded;
     row.classList.toggle('om-collapsed', !open);
-    row.classList.toggle('om-expanded', open && collapsible);
+    row.classList.toggle('om-expanded', open);
     // Атрибуты не отслеживаются MutationObserver'ом, поэтому безопасны.
     row.children[1]?.setAttribute('aria-expanded', String(open));
   }
@@ -194,10 +196,11 @@
   function setupCollapse(row, cells) {
     if (row.classList.contains('om-collapse-ready')) return;
     row.classList.add('om-collapse-ready');
-    row.classList.toggle('om-collapsible', isCollapsible(cells));
+    const collapsible = isCollapsible(cells);
+    row.classList.toggle('om-collapsible', collapsible);
 
     const dateCell = cells[1];
-    if (dateCell) {
+    if (dateCell && collapsible) {
       dateCell.setAttribute('role', 'button');
       dateCell.setAttribute('tabindex', '0');
       dateCell.setAttribute('title', 'Развернуть / свернуть карточку');
@@ -245,7 +248,7 @@
     if (!OM_CARDS.collapse || !OM_CARDS.expandOnSearch) return;
     if (query) {
       for (const row of eventRows()) {
-        if (!row.hidden && row.classList.contains('om-collapsed')) {
+        if (!row.hidden && row.classList.contains('om-collapsible') && row.classList.contains('om-collapsed')) {
           row.classList.add('om-search-open');
           setRowExpanded(row, true);
         }

@@ -673,7 +673,10 @@
     grid-row: 2 !important;
     align-self: start !important;
     justify-self: end !important;
-    max-width: 47% !important;
+    /* Процентный max-width здесь резолвился относительно собственной
+       (узкой) grid-области, из-за чего «Вело» превращалось в «В..».
+       vw считается от ширины экрана и ведёт себя предсказуемо. */
+    max-width: 38vw !important;
     margin-top: 0 !important;
     padding: 3px 8px !important;
     font-size: 11.5px !important;
