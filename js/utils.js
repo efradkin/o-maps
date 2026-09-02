@@ -2462,5 +2462,5 @@ class PeekWidget {
 }
 
 setTimeout(function() {
-    new PeekWidget({});
+    new PeekWidget(typeof PEEK_WIDGET_OPTIONS !== 'undefined' ? PEEK_WIDGET_OPTIONS : {});
 }, 1000);
