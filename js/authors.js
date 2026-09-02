@@ -59,9 +59,9 @@ let authors = {
         about: 'https://o-site.spb.ru/history/Peoples/baimakov.html'
     },
     CHGRVSKA_O: { name: 'Чегаровская О.' },
-    CHGRVSKY_M: { name: 'Чегаровский Михаил' },
+    CHGRVSKY_M: { name: 'Чегаровский Михаил' }, // Витальевич
     CHGRVSKY_V: {
-        name: 'Чегаровский Виталий',
+        name: 'Чегаровский Виталий', // Львович
         about: 'https://ar-info.ru/articles/?id_article_full=176',
         logo: 'che.jpg'
     },

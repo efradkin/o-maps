@@ -1,0 +1,582 @@
+/* Мобильный вид календаря O-Maps.
+   Подключается дополнительно к css/main.css и не меняет десктопный вид.
+   ВАЖНО: режим выбирается JS только при начальной загрузке страницы.
+   Изменение ширины окна после загрузки не переключает мобильный/десктопный UI. */
+
+
+  html.om-mobile-enhanced {
+    --om-green: #31683d;
+    --om-green-2: #eaf3ea;
+    --om-green-3: #d7e8d7;
+    --om-bg: #f4f6f2;
+    --om-card: #ffffff;
+    --om-ink: #172019;
+    --om-muted: #687269;
+    --om-line: #d9e2da;
+    --om-red: #a93a34;
+    --om-amber: #9a6a08;
+    --om-filter-height: 198px;
+  }
+
+  /* В мобильном режиме у страницы нет собственного вертикального скролла:
+     прокручивается только область календаря (.o-sheet-wrapper). Это исключает
+     второй скролл справа и одновременно оставляет панель фильтров на месте. */
+  html.om-mobile-enhanced {
+    min-width: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100% !important;
+    max-height: 100% !important;
+    overflow: hidden !important;
+    background: var(--om-bg) !important;
+    color: var(--om-ink) !important;
+  }
+
+  .om-mobile-enhanced body.calendar-body {
+    display: flex !important;
+    flex-direction: column !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    height: 100dvh !important;
+    min-height: 100dvh !important;
+    max-height: 100dvh !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    background: var(--om-bg) !important;
+    color: var(--om-ink) !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif !important;
+  }
+
+  /* Мобильный заголовок — одна строка: жёлтая кнопка информации,
+     название страницы и глобальное меню. Штатные кнопки Домой/На карте
+     в header скрыты, потому что их аналоги находятся в панели фильтров. */
+  .om-mobile-enhanced .calendar-body header.page-header {
+    display: flex !important;
+    flex: 0 0 auto !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    gap: 8px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    padding: calc(7px + env(safe-area-inset-top)) 10px 7px !important;
+    box-sizing: border-box !important;
+    background: rgba(247, 249, 245, .97) !important;
+    border-bottom: 1px solid var(--om-line) !important;
+  }
+
+  .om-mobile-enhanced .calendar-body header.page-header > .about-button {
+    float: none !important;
+    flex: 0 0 40px !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 !important;
+  }
+
+  .om-mobile-enhanced .calendar-body header.page-header > h1 {
+    flex: 1 1 auto !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    min-width: 0 !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    color: var(--om-ink) !important;
+    font-size: clamp(18px, 4.8vw, 25px) !important;
+    line-height: 1.1 !important;
+    font-weight: 800 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+
+  .om-mobile-enhanced .calendar-body header.page-header > .page-header-actions {
+    display: flex !important;
+    flex: 0 0 auto !important;
+    align-items: center !important;
+    gap: 0 !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+  }
+
+  .om-mobile-enhanced .calendar-body header.page-header .page-header-actions > a.stat-map-link-right {
+    display: none !important;
+  }
+
+  .om-mobile-enhanced .calendar-body header.page-header .dropdown-button-right {
+    margin: 0 !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .sheet-filters {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 70 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+    margin: 0 !important;
+    padding: 10px 12px 10px !important;
+    background: rgba(247, 249, 245, .97) !important;
+    border-bottom: 1px solid var(--om-line) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-controls {
+    display: grid;
+    grid-template-columns: auto auto 42px 42px;
+    gap: 8px;
+    width: 100%;
+    justify-content: start;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-controls .om-mobile-search {
+    grid-column: 1 / -1;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-search {
+    flex: 1 1 120px;
+    width: auto;
+    min-width: 0;
+    height: 42px;
+    max-height: 42px;
+    padding: 8px 12px;
+    line-height: 20px;
+    border: 1px solid #bdc9bf;
+    border-radius: 12px;
+    background: #fff;
+    color: var(--om-ink);
+    font: inherit;
+    font-size: 16px; /* не вызывает автозум Safari */
+    outline: none;
+    box-shadow: none;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-search:focus {
+    border-color: var(--om-green);
+    box-shadow: 0 0 0 3px rgba(49, 104, 61, .12);
+  }
+
+  .om-mobile-enhanced .calendar-body #year_selector,
+  .om-mobile-enhanced .calendar-body #event_type_selector,
+  .om-mobile-enhanced .calendar-body .om-mobile-refresh {
+    height: 40px;
+    margin: 0 !important;
+    padding: 8px 11px !important;
+    border: 1px solid #bdc9bf !important;
+    border-radius: 11px !important;
+    background: #fff !important;
+    color: var(--om-ink) !important;
+    font: inherit !important;
+    font-size: 14px !important;
+    line-height: 1 !important;
+  }
+
+  .om-mobile-enhanced .calendar-body #year_selector,
+  .om-mobile-enhanced .calendar-body #event_type_selector {
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-refresh {
+    min-width: 44px;
+    color: var(--om-green) !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-map-button,
+  .om-mobile-enhanced .calendar-body .om-mobile-home-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #bdc9bf;
+    border-radius: 11px;
+    background: #fff;
+    color: var(--om-green) !important;
+    text-decoration: none !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-map-button img,
+  .om-mobile-enhanced .calendar-body .om-mobile-home-button img {
+    display: block;
+    width: 21px !important;
+    height: 21px !important;
+    max-width: 21px !important;
+    object-fit: contain;
+  }
+
+
+  .om-mobile-enhanced .calendar-body .om-mobile-checks,
+  .om-mobile-enhanced .calendar-body .header_checkbox_container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 7px 14px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #344039 !important;
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+    vertical-align: middle !important;
+  }
+
+  /* .header_checkbox_container — это <sup>. Bootstrap/браузер сдвигает <sup>
+     вверх через position/top, из-за чего сверху визуально почти нет воздуха,
+     а снизу его заметно больше. В мобильной панели убираем этот сдвиг. */
+  .om-mobile-enhanced .calendar-body .header_checkbox_container {
+    position: static !important;
+    top: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-checks label,
+  .om-mobile-enhanced .calendar-body .header_checkbox_container label {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    margin: 0 !important;
+    font-weight: 400 !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-checks input,
+  .om-mobile-enhanced .calendar-body .header_checkbox_container input[type="checkbox"] {
+    width: 17px !important;
+    height: 17px !important;
+    margin: 0 !important;
+    accent-color: var(--om-green);
+  }
+
+
+  .om-mobile-enhanced .calendar-body .sheet-filters > span:not(.header_checkbox_container) {
+    display: none !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-sheet-roof {
+    display: none !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-sheet-wrapper {
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 3px 10px calc(24px + env(safe-area-inset-bottom)) !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    overscroll-behavior-y: contain;
+    -webkit-overflow-scrolling: touch;
+    background: transparent !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table.o-sheet {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-collapse: separate !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table thead { display: none !important; }
+  .om-mobile-enhanced .calendar-body .o-main-table tbody { display: block !important; width: 100% !important; }
+
+  /* Строка месяца уже создаётся штатным calendar.js; на телефоне используем её
+     как липкий разделитель между карточками. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:has(> td.month-row) {
+    display: block !important;
+    width: calc(100vw - 20px) !important;
+    max-width: calc(100vw - 20px) !important;
+    box-sizing: border-box !important;
+    margin: 11px 0 7px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table td.month-row {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 50 !important;
+    display: block !important;
+    width: calc(100vw - 20px) !important;
+    max-width: calc(100vw - 20px) !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 8px 14px !important;
+    border: 0 !important;
+    background: #3b7447 !important;
+    color: #fff !important;
+    font-size: 12px !important;
+    font-weight: 800 !important;
+    line-height: 1.25 !important;
+    letter-spacing: .025em !important;
+    text-align: left !important;
+    white-space: normal !important;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .08) !important;
+  }
+
+  /* Обычная строка таблицы превращается в карточку. Порядок ячеек штатный:
+     № | дата | старт | место | вид | результаты | отчёты | прочее. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) {
+    position: relative !important;
+    display: grid !important;
+    grid-template-columns: max-content minmax(0, 1fr) auto auto !important;
+    column-gap: 10px !important;
+    row-gap: 0 !important;
+    width: 100% !important;
+    margin: 8px 0 !important;
+    padding: 12px !important;
+    border: 1px solid var(--om-line) !important;
+    border-left: 4px solid #6ca879 !important;
+    border-radius: 14px !important;
+    background: var(--om-card) !important;
+    color: var(--om-ink) !important;
+    box-shadow: 0 2px 12px rgba(27, 54, 32, .08) !important;
+    overflow: hidden !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.rogaine,
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.water { border-left-color: #5489a7 !important; }
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.cancelled {
+    border-left-color: var(--om-red) !important;
+    background: #fff7f6 !important;
+  }
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.current {
+    outline: 2px solid rgba(49, 104, 61, .33) !important;
+    outline-offset: -2px;
+  }
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.disabled { opacity: .66; }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr[hidden] { display: none !important; }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td {
+    display: block !important;
+    min-width: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    color: inherit !important;
+    font-size: 14px !important;
+    line-height: 1.35 !important;
+    text-align: left !important;
+    vertical-align: top !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(1) {
+    position: absolute !important;
+    top: 8px !important;
+    right: 9px !important;
+    width: auto !important;
+    color: #929b94 !important;
+    font-size: 11px !important;
+    line-height: 1 !important;
+    text-align: right !important;
+    z-index: 3;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(2) {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    align-self: start;
+    justify-self: start !important;
+    /* Плашка даты имеет собственную intrinsic-ширину: короткая дата не
+       растягивается, а диапазон дат расширяет её ровно до своего текста. */
+    width: 110px !important;
+    min-width: 110px !important;
+    max-width: 110px !important;
+    min-height: 0 !important;
+    box-sizing: border-box !important;
+    padding: 9px 10px !important;
+    border-radius: 11px !important;
+    background: var(--om-green-2) !important;
+    color: #24482b !important;
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    line-height: 1.25 !important;
+    text-align: center !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(3) {
+    grid-column: 2 / 5 !important;
+    grid-row: 1 !important;
+    padding: 1px 24px 5px 0 !important;
+    font-size: 17px !important;
+    font-weight: 750 !important;
+    line-height: 1.18 !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(3) a {
+    color: var(--om-green) !important;
+    text-decoration: none !important;
+    font-weight: inherit !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(4) {
+    grid-column: 1 / -1 !important;
+    grid-row: 2 !important;
+    padding: 0 18px 3px 0 !important;
+    color: #48534a !important;
+    font-size: 14px !important;
+    line-height: 1.3 !important;
+  }
+
+  /* Вид/формат, результаты и трансляции/отчёты — одна строка карточки.
+     Ничего не переносим из TD через JavaScript: штатные ячейки остаются на
+     месте, а CSS раскладывает их в один grid-row. Так сохраняются и фон
+     типа/формата, и все исходные ссылки/иконки. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(5) {
+    grid-column: 1 / 3 !important;
+    grid-row: 3 !important;
+    align-self: start !important;
+    width: auto !important;
+    min-width: 0 !important;
+    margin-top: 8px !important;
+    padding: 6px 9px !important;
+    border-radius: 11px !important;
+    background: #e5f1e6 !important;
+    color: #235d30 !important;
+    font-size: 12px !important;
+    line-height: 1.25 !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(6),
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(7) {
+    grid-row: 3 !important;
+    align-self: start !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: flex-start !important;
+    gap: 4px !important;
+    width: auto !important;
+    margin-top: 8px !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(6) {
+    grid-column: 3 !important;
+    justify-content: flex-end !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(7) {
+    grid-column: 4 !important;
+    justify-content: flex-end !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(6) a,
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(7) a {
+    display: inline-flex !important;
+    align-items: center !important;
+    min-height: 33px !important;
+    margin: 0 !important;
+    padding: 7px 9px !important;
+    border: 1px solid #cbd5cc !important;
+    border-radius: 9px !important;
+    background: #f8faf7 !important;
+    color: #285f35 !important;
+    font-size: 13px !important;
+    font-weight: 650 !important;
+    line-height: 1.15 !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+  }
+
+  /* Последняя штатная ячейка "Прочее / info" — самостоятельная строка
+     на всю ширину карточки. Здесь не рисуем дополнительную плашку вокруг
+     текста: комментарии, пути участников, планировщик и т.п. читаются как
+     обычная полноширинная строка. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(8) {
+    grid-column: 1 / -1 !important;
+    grid-row: 4 !important;
+    justify-self: stretch !important;
+    align-self: stretch !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    margin-top: 9px !important;
+    padding: 2px 0 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: #4b554d !important;
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+  }
+
+  /* Ссылки внутри INFO (например, "Перенос", пути участников, планировщик)
+     не являются отдельными кнопками. Достаточно жирного зелёного текста. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(8) a {
+    display: inline !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #285f35 !important;
+    font-size: inherit !important;
+    font-weight: 700 !important;
+    line-height: inherit !important;
+    text-decoration: none !important;
+    white-space: normal !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(8):empty {
+    display: none !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .my-checkbox {
+    width: 18px !important;
+    height: 18px !important;
+    accent-color: var(--om-green);
+  }
+
+  .om-mobile-enhanced .calendar-body .om-mobile-empty {
+    margin: 28px 12px;
+    color: var(--om-muted);
+    text-align: center;
+    font-size: 14px;
+  }
+
+  /* Если браузер не поддерживает :has(), карточки всё равно остаются читаемыми;
+     JS добавляет классы om-month-row/om-event-row как запасной вариант. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-month-row {
+    display: block !important;
+    width: calc(100vw - 20px) !important;
+    max-width: calc(100vw - 20px) !important;
+    box-sizing: border-box !important;
+    margin: 11px 0 7px !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row {
+    position: relative !important;
+  }
+

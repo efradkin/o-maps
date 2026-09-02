@@ -266,7 +266,7 @@ function buildMonth() {
 
 function td(evt, row, html) {
     const td = document.createElement('td');
-    if (isMajor(evt) || (evt.id && myEvents.includes(evt.id))) {
+    if (html && (isMajor(evt) || (evt.id && myEvents.includes(evt.id)))) {
         html = `<b>${html}</b>`;
     }
     td.innerHTML = html;
@@ -309,7 +309,7 @@ function buildNumber(event, i) {
         const mySign = (onlyOneSport ? '⛷' : '◪');
         myEvent = `&nbsp;<span class="my-cp">${mySign}</span>`;
     }
-    return `${checkbox}${i + 1}${icon}${myEvent}`;
+    return `${i + 1}${icon}${myEvent}${checkbox}`;
 }
 
 function selectEventMonth(month) {

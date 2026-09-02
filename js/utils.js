@@ -1935,7 +1935,7 @@ function buildEventReports(evt, withGPS) {
 }
 
 function buildEventInfo(evt) {
-    const evtPlanners = buildPlanners(evt);
+    const evtPlanners = buildPlanners(evt, null, true);
     return (evt.info ?? '') + (evtPlanners ? ' Планирование дистанции: ' + evtPlanners : '') + buildPublish(evt);
 }
 

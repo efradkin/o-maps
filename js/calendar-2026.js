@@ -2563,7 +2563,7 @@ let events2026 = [
         name: 'Лужский приключенческий рогейн',
         link: 'https://vk.ru/wall-166397868_5535',
         reg: 'https://orgeo.ru/event/48939',
-        info: '<a href="https://vk.ru/wall-166397868_5419">Перенос</a> с 25 июля.<br />"Трое из Простоквашино".',
+        info: '<a href="https://vk.ru/wall-166397868_5419">Перенос</a> с 25 июля. "Трое из Простоквашино".',
         type: 'ROGAINE',
         fmt: '12, 6',
         owner: 'SHBN',
