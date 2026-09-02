@@ -642,6 +642,7 @@ let commonEvents2026 = [
         start: 'RUSSIA_ROGAINE_CHAMP',
         info: 'Пути участников: [<a href="https://forestadventure.ru/2026/rrc/">1</a>], [<a href="https://rogainestat.ru/events/rrc-2026">2</a>].',
         photo: 'https://vk.ru/album-8292013_314304112',
+        res: 'https://www.multsport.ru/starts/rogaine-rus-2026/results.html',
         owner: 'MULTSPORT',
         map: 'vyborg_rrc_2026',
         o_gps: 25811,

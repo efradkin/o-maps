@@ -2498,6 +2498,8 @@ let events2026 = [
         date: '2026-09-18',
         name: 'Велоизоляция',
         type: ['ROGAINE', 'VELO'],
+        link: 'https://www.multsport.ru/starts/veloizol26/',
+        reg: 'https://www.multsport.ru/starts/veloizol26/registration.html',
         fmt: '8, 4',
         owner: 'MULTSPORT'
     },
