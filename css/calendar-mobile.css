@@ -748,3 +748,61 @@
   .om-mobile-enhanced .calendar-body .om-mobile-expand-all:active {
     background: var(--om-green-3) !important;
   }
+
+  /* ==========================================================================
+     Автоскрытие верхней панели (заголовок + фильтры).
+
+     По умолчанию панель поднята за верхнюю границу экрана: список стартов
+     занимает всю высоту. Прокрутка вверх (а в самой верхней точке списка —
+     протяжка пальцем вниз) возвращает панель, прокрутка вниз убирает.
+     Булавка в заголовке закрепляет панель: тогда она видна сразу после
+     загрузки и не реагирует на прокрутку.
+     ========================================================================== */
+
+  /* Штатно .sheet-filters — position: sticky; top: 0. В мобильном виде
+     скроллпортом является сам body (у него overflow: hidden), поэтому sticky
+     не дал бы панели уйти выше нулевой отметки. Прокрутки у body всё равно
+     нет, так что меняем на relative: z-index сохраняется, ограничение снято. */
+  .om-mobile-enhanced .calendar-body .sheet-filters {
+    position: relative !important;
+  }
+
+  /* Панель убирается одним отрицательным margin-top у заголовка: фильтры идут
+     следом и уезжают вместе с ним. Так анимируется одно свойство, элементы не
+     наползают друг на друга, а .o-sheet-wrapper (flex: 1) сразу занимает
+     освободившуюся высоту. Всё, что выше y=0, обрезает overflow: hidden. */
+  .om-mobile-enhanced.om-chrome-animated .calendar-body header.page-header {
+    transition: margin-top .22s ease !important;
+  }
+
+  .om-mobile-enhanced.om-chrome-hidden .calendar-body header.page-header {
+    /* Запас в фолбэке намеренный: до первого замера лучше увести панель
+       заведомо дальше, чем показать её краешек на первом кадре. */
+    margin-top: calc(-1 * (var(--om-header-h, 120px) + var(--om-filter-height, 198px))) !important;
+  }
+
+  /* Кнопка-булавка: серая — панель автоскрывается, зелёная — закреплена. */
+  .om-mobile-enhanced .calendar-body header.page-header .om-mobile-pin {
+    display: inline-flex !important;
+    flex: 0 0 auto !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 34px !important;
+    height: 34px !important;
+    margin: 0 7px 0 0 !important;
+    padding: 0 !important;
+    border: 1px solid #bdc9bf !important;
+    border-radius: 10px !important;
+    background: #fff !important;
+    font-size: 15px !important;
+    line-height: 1 !important;
+    filter: grayscale(1);
+    opacity: .6;
+  }
+
+  .om-mobile-enhanced .calendar-body header.page-header .om-mobile-pin[aria-pressed="true"] {
+    border-color: var(--om-green) !important;
+    background: var(--om-green-2) !important;
+    filter: none;
+    opacity: 1;
+  }

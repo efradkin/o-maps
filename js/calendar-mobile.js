@@ -16,6 +16,18 @@
 
   const EXPAND_ALL_KEY = 'om-calendar-expand-all';
 
+  // --- Настройки верхней панели ------------------------------------------
+  // Панель (заголовок + фильтры) по умолчанию скрыта и выезжает при прокрутке
+  // вверх; кнопка-булавка в заголовке закрепляет её насовсем.
+  const OM_PANEL = {
+    autoHide: true,        // прятать панель при загрузке и при прокрутке вниз
+    pinButton: true,       // кнопка «закрепить / открепить» в заголовке
+    scrollThreshold: 8,    // порог реакции на прокрутку, px
+    touchThreshold: 28     // порог протяжки пальцем в самом верху списка, px
+  };
+
+  const PIN_PANEL_KEY = 'om-calendar-pin-panel';
+
   // Режим интерфейса выбирается ОДИН РАЗ при первоначальной загрузке.
   // Последующие изменения ширины окна не переключают мобильный/десктопный вид.
   const initialMobileMode = window.matchMedia('(max-width: 768px)').matches;
@@ -358,6 +370,105 @@
   function syncFilterHeight() {
     const h = Math.ceil(filters.getBoundingClientRect().height);
     document.documentElement.style.setProperty('--om-filter-height', `${h}px`);
+
+    // Высота заголовка нужна, чтобы вычислить, на сколько поднимать панель.
+    const header = document.querySelector('header.page-header');
+    if (header) {
+      const hh = Math.ceil(header.getBoundingClientRect().height);
+      document.documentElement.style.setProperty('--om-header-h', `${hh}px`);
+    }
+  }
+
+  // --- Автоскрытие верхней панели ----------------------------------------
+
+  const scroller = $('.o-sheet-wrapper');
+  let panelPinned = false;
+  try {
+    panelPinned = localStorage.getItem(PIN_PANEL_KEY) === '1';
+  } catch (e) { /* приватный режим */ }
+
+  let panelHidden = false;
+  let pinButton = null;
+
+  function setPanelHidden(hidden) {
+    const next = OM_PANEL.autoHide && !panelPinned && hidden;
+    if (next === panelHidden) return;
+    panelHidden = next;
+    document.documentElement.classList.toggle('om-chrome-hidden', next);
+  }
+
+  function updatePinButton() {
+    if (!pinButton) return;
+    const label = panelPinned ? 'Открепить панель' : 'Закрепить панель';
+    pinButton.title = label;
+    pinButton.setAttribute('aria-label', label);
+    pinButton.setAttribute('aria-pressed', String(panelPinned));
+  }
+
+  function setupPanelAutoHide() {
+    if (!OM_PANEL.autoHide || !scroller) return;
+
+    // Кнопка-булавка живёт в правой части заголовка, рядом с меню.
+    if (OM_PANEL.pinButton) {
+      const actions = document.querySelector('.page-header-actions');
+      if (actions) {
+        pinButton = document.createElement('button');
+        pinButton.type = 'button';
+        pinButton.className = 'om-mobile-pin';
+        pinButton.textContent = '📌';
+        pinButton.addEventListener('click', () => {
+          panelPinned = !panelPinned;
+          try {
+            localStorage.setItem(PIN_PANEL_KEY, panelPinned ? '1' : '0');
+          } catch (e) { /* игнорируем */ }
+          updatePinButton();
+          if (panelPinned) setPanelHidden(false);
+        });
+        actions.prepend(pinButton);
+        updatePinButton();
+      }
+    }
+
+    // Стартовое состояние применяем без анимации, иначе панель «уезжает»
+    // на глазах у пользователя при каждой загрузке страницы.
+    if (!panelPinned) {
+      panelHidden = true;
+      document.documentElement.classList.add('om-chrome-hidden');
+    }
+    requestAnimationFrame(() => {
+      document.documentElement.classList.add('om-chrome-animated');
+    });
+
+    let lastScroll = scroller.scrollTop;
+    scroller.addEventListener('scroll', () => {
+      const y = scroller.scrollTop;
+      const dy = y - lastScroll;
+      if (Math.abs(dy) < OM_PANEL.scrollThreshold) return;
+      lastScroll = y;
+      // Прокрутка вниз убирает панель, вверх — возвращает.
+      setPanelHidden(dy > 0 && y > 12);
+    }, { passive: true });
+
+    // В самом верху списка события scroll уже не приходят, поэтому там
+    // ловим протяжку пальцем вниз (и колесо мыши — для узких окон на ПК).
+    let touchStartY = null;
+    scroller.addEventListener('touchstart', event => {
+      touchStartY = event.touches[0]?.clientY ?? null;
+    }, { passive: true });
+
+    scroller.addEventListener('touchmove', event => {
+      if (touchStartY === null || !panelHidden) return;
+      const delta = (event.touches[0]?.clientY ?? touchStartY) - touchStartY;
+      if (delta > OM_PANEL.touchThreshold && scroller.scrollTop <= 0) {
+        setPanelHidden(false);
+      }
+    }, { passive: true });
+
+    scroller.addEventListener('touchend', () => { touchStartY = null; }, { passive: true });
+
+    scroller.addEventListener('wheel', event => {
+      if (event.deltaY < 0 && scroller.scrollTop <= 0) setPanelHidden(false);
+    }, { passive: true });
   }
 
   let scheduled = false;
@@ -373,6 +484,7 @@
   }
 
   if (OM_CARDS.collapse) bindCollapseHandlers();
+  setupPanelAutoHide();
 
   // Фильтруем сразу при каждом изменении текста.
   // 'input' — стандартное событие для живого поиска; 'search' дополнительно
