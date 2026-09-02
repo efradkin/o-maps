@@ -643,7 +643,7 @@ let commonEvents2026 = [
         info: 'Пути участников: [<a href="https://forestadventure.ru/2026/rrc/">1</a>], [<a href="https://rogainestat.ru/events/rrc-2026">2</a>].',
         photo: 'https://vk.ru/album-8292013_314304112',
         owner: 'MULTSPORT',
-        map: 'kalinino_2015',
+        map: 'vyborg_rrc_2026',
         o_gps: 25811,
         coord: [60.818448, 28.610489]
     },

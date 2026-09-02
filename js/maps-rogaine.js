@@ -515,10 +515,19 @@ let rogaineMaps = [
         year: 2025,
         url: './maps/rogaine/yukki_2025.webp',
         link: './original_maps/rogaine/yukki_2025_omaps.jpg',
-        o_gps: 23127,
         bounds: [[60.149281, 30.2693081], [60.149046, 30.3364706], [60.1100392, 30.2687931]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
+        type: ['ROGAINE']
+    },
+    {
+        name: 'Выборг, Кравцово',
+        year: 2026,
+        url: './maps/rogaine/vyborg_rrc_2026.webp',
+        link: './original_maps/rogaine/vyborg_rrc_2026_omaps.gif',
+        bounds: [[60.9129957, 28.4521866], [60.8830227, 28.7587738], [60.6954516, 28.3632660]],
+        author: 'RYLOV_V',
+        owner: ['RYLOV_V','MULTSPORT'],
         type: ['ROGAINE']
     },
 ];
