@@ -7,7 +7,9 @@
   // Последующие изменения ширины окна не переключают мобильный/десктопный вид.
   const initialMobileMode = window.matchMedia('(max-width: 768px)').matches;
   window.omMobileUI = initialMobileMode;
-  if (!initialMobileMode) return;
+  if (useMobileUI !== true) {
+    if ((useMobileUI === false) || !initialMobileMode) return;
+  }
 
   // CSS мобильного слоя теперь активируется этим классом, а не динамическим
   // @media. Класс намеренно не снимается при resize/orientationchange.

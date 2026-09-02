@@ -303,6 +303,14 @@ let ORDER_STATUS_PARAM = urlParams.get('order-status');
 const HAS_POI_PARAM = urlParams.has('poi');
 const HAS_OOPT_PARAM = urlParams.has('oopt');
 
+const HAS_MOBILE_PARAM = urlParams.has('mobile');
+const MOBILE_PARAM = urlParams.get('mobile');
+let useMobileUI;
+if (HAS_MOBILE_PARAM) {
+    useMobileUI = (MOBILE_PARAM === '1');
+}
+
+
 let HAS_ME_PARAM = urlParams.has('me');
 const HAS_ONLY_ME_PARAM = urlParams.has('only-me');
 if (HAS_ONLY_ME_PARAM) HAS_ME_PARAM = true;
