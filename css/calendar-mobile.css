@@ -476,8 +476,13 @@
   }
 
   .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(7) {
-    grid-column: 4 !important;
-    justify-content: flex-end !important;
+    grid-column: 1 / -1 !important;
+    grid-row: 4 !important;
+    width: 100% !important;
+    max-width: none !important;
+    justify-self: stretch !important;
+    align-self: start !important;
+    justify-content: flex-start !important;
   }
 
   .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(6) a,
@@ -504,7 +509,8 @@
      обычная полноширинная строка. */
   .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td:nth-child(8) {
     grid-column: 1 / -1 !important;
-    grid-row: 4 !important;
+    grid-row: 5 !important;
+    position: relative !important;
     justify-self: stretch !important;
     align-self: stretch !important;
     width: 100% !important;
