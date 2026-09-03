@@ -23,6 +23,9 @@
     autoHide: true,        // прятать панель при загрузке и при прокрутке вниз
     pinButton: true,       // кнопка «закрепить / открепить» в заголовке
     scrollThreshold: 8,    // порог реакции на прокрутку, px
+    showThreshold: 120,    // сколько надо суммарно прокрутить вверх, чтобы панель вернулась, px
+    hideThreshold: 0,      // сколько надо суммарно прокрутить вниз, чтобы панель убралась, px
+    topZone: 12,           // у самого верха списка панель показывается всегда, px
     touchThreshold: 28     // порог протяжки пальцем в самом верху списка, px
   };
 
@@ -468,13 +471,41 @@
     });
 
     let lastScroll = scroller.scrollTop;
+    // Накопленный путь в одну сторону. Панель реагирует не на первое же
+    // движение, а только когда набралось showThreshold / hideThreshold пикселей.
+    // Смена направления обнуляет счётчик, поэтому дёрганая прокрутка
+    // туда-сюда панель не дёргает.
+    let travel = 0;
+
     scroller.addEventListener('scroll', () => {
       const y = scroller.scrollTop;
       const dy = y - lastScroll;
       if (Math.abs(dy) < OM_PANEL.scrollThreshold) return;
       lastScroll = y;
+
+      // У самого верха списка панель нужна всегда.
+      if (y <= OM_PANEL.topZone) {
+        travel = 0;
+        setPanelHidden(false);
+        return;
+      }
+
+      // Смена направления — начинаем считать заново.
+      if ((dy > 0) !== (travel > 0)) {
+        travel = 0;
+      }
+      travel += dy;
+
       // Прокрутка вниз убирает панель, вверх — возвращает.
-      setPanelHidden(dy > 0 && y > 12);
+      if (dy > 0) {
+        if (travel >= OM_PANEL.hideThreshold) {
+          travel = 0;
+          setPanelHidden(true);
+        }
+      } else if (-travel >= OM_PANEL.showThreshold) {
+        travel = 0;
+        setPanelHidden(false);
+      }
     }, { passive: true });
 
     // В самом верху списка события scroll уже не приходят, поэтому там
