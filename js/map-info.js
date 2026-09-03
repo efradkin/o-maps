@@ -9,7 +9,7 @@ document.getElementById('map_title').href = mapLink(url, m);
 
 let elName = document.getElementById('map_name');
 if (elName) {
-    elName.innerHTML = mapTitle(m, true, false, events);
+    elName.innerHTML = mapTitle(m, false, false, events);
 }
 if (m.start && starts[m.start] && ('REPORT' !== m.start && 'OTHER' !== m.start)) {
     document.getElementById('map_start').innerHTML = starts[m.start].name;
@@ -80,7 +80,7 @@ for (const e of events) {
     }
 }
 putValue('#map_starts', mapStarts);
-let logo = logoList(m);
+let logo = logoList(m, events);
 if (!isEmpty(logo)) {
     document.querySelector('#map_logo img').src = './logo/' + logo[0];
 } else if (m.photo) {

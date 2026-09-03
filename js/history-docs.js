@@ -2292,6 +2292,22 @@ let historyDocs = [
         start: 'WN'
     },
     {
+        name: 'Мемориал Михаила Святкина (Петяярви)',
+        date: '1995-07-01',
+        info: 'Планировка дистанций.',
+        map: 'mms_1995_07_01',
+        link: './docs/1995/1995_07_01_mms_courses_omaps.xlsx',
+        start: 'MMS'
+    },
+    {
+        name: 'Мемориал Михаила Святкина (Петяярви)',
+        date: '1995-07-02',
+        info: 'Планировка дистанций.',
+        map: 'mms_1995_07_02',
+        link: './docs/1995/1995_07_02_mms_courses_omaps.xlsx',
+        start: 'MMS'
+    },
+    {
         name: 'Зелёный змей (Осельки)',
         date: '1995-09-03',
         link: './docs/1995/1995_09_03_green_snake_omaps.pdf',

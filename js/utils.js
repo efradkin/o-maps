@@ -396,13 +396,18 @@ function getLastDate(events) {
 }
 
 function startYear(o, events) { // map, track, event
+    if (o.startYear) return o.startYear;
+
+    if (o.start && o.year) {
+        return o.year;
+    }
+
     if (!events && o.url) { // только для карт (пока что)
         events = findEventsForMap(o, true); // все эвенты для карты
     }
     const date = getLastDate(events);
     if (date) return date.getFullYear();
 
-    if (o.startYear) return o.startYear;
     let oDate = o.date;
     if (Array.isArray(oDate)) {
         oDate = oDate[0];
@@ -1845,7 +1850,8 @@ function buildEventResults(evt) {
         } else if (evt.res.includes('hard')) {
             res += buildLink(evt.res, 'HARD');
         } else {
-            res += buildLink(evt.res, `<img src="./images/url-file.png" alt="Результаты" title="Результаты" class="sheet-icon" />`);
+            let iconExt = downloadIconExt(evt.res);
+            res += buildLink(evt.res, `<img src="./images/${iconExt}-file.png" alt="Результаты" title="Результаты" class="sheet-icon" />`);
         }
     }
     if (evt.split) {

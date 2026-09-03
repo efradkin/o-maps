@@ -484,12 +484,10 @@ let sosnovoMaps = [
     },
     {
         name: 'Петяярви',
-        year: 1996,
-        start: 'WN',
+        year: 1995,
         page: 'spb',
         url: './maps/forest/sosnovo/petjajarvy_1995.webp',
-        link: ['./original_maps/forest/sosnovo/petjajarvy_1995_wn_omaps.jpg','./original_maps/forest/sosnovo/petjajarvy_1995_wn_west_omaps.webp','./original_maps/forest/sosnovo/petjajarvy_1995_wn_center_omaps.webp','./original_maps/forest/sosnovo/petjajarvy_1995_wn_east_omaps.webp','./original_maps/starts/wn/wn_1996_06_21_omaps.jpg','./original_maps/starts/wn/wn_1996_06_23_omaps.jpg'],
-        results: './docs/1996/1996_06_21_wn_omaps.pdf',
+        link: ['./original_maps/forest/sosnovo/petjajarvy_1995_wn_omaps.jpg'],
         bounds: [[60.6351318, 30.0666189], [60.6285442, 30.1611185], [60.6083101, 30.0595379]],
         author: ['LVCHV','SVTKN','KAZNTSVA_O']
     },

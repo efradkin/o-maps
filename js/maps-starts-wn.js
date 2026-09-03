@@ -4,9 +4,9 @@ let wnStartsMaps = [
         name: 'Петяярви',
         year: 1996,
         start: 'WN',
-        url: './maps/forest/sosnovo/petjajarvy_1996.webp',
-        link: './original_maps/forest/sosnovo/petjajarvy_1996_omaps.jpg',
-        bounds: [[60.6286915, 30.0999641], [60.6257657, 30.1366997], [60.6113428, 30.0950289]],
+        url: './maps/starts/wn/wn_1996.webp',
+        link: ['./original_maps/forest/sosnovo/petjajarvy_1996_omaps.jpg','./original_maps/starts/wn/wn_1996_06_21_omaps.jpg','./original_maps/starts/wn/wn_1996_06_23_omaps.jpg','./original_maps/forest/sosnovo/petjajarvy_1995_wn_west_omaps.webp','./original_maps/forest/sosnovo/petjajarvy_1995_wn_center_omaps.webp','./original_maps/forest/sosnovo/petjajarvy_1995_wn_east_omaps.webp'],
+        bounds: [[60.6349424, 30.0690651], [60.6283337, 30.1610756], [60.6140595, 30.0630569]],
         author: ['LVCHV','SVTKN','KAZNTSVA_O']
     },
     {

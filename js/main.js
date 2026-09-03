@@ -1450,39 +1450,45 @@ function buildMapEventsDescription(m, events) {
     return result;
 }
 
-function buildEventDescription(m, withPlanner) {
+function buildEventDescription(e, withPlanner) {
     let info = '';
-    let dates = buildEventDate(m, true, true);
+    let dates = buildEventDate(e, true, true);
     if (dates) {
         info += `<b>${dates}</b>, `;
     }
-    let link = m.link;
-    if (!link && m.o_site) {
-        link = O_SITE_ADDRESS_PREFIX + m.o_site;
+
+    const logo = logoList(e);
+    if (logo.length > 0) {
+        info += `<img src="./logo/${logo[0]}" alt="Лого" class="sheet-icon" /> `;
+    }
+
+    let link = e.link;
+    if (!link && e.o_site) {
+        link = O_SITE_ADDRESS_PREFIX + e.o_site;
     }
     if (link) {
-        info += buildOneLink(link, m.name);
+        info += buildOneLink(link, e.name);
     } else {
-        info += m.name;
+        info += e.name;
     }
 /*
-    if (m.start) {
-        info += '<b>' + getMapStarts(m) + '</b> ';
+    if (e.start) {
+        info += '<b>' + getMapStarts(e) + '</b> ';
     }
-    if (m.info) {
-        info += m.info;
+    if (e.info) {
+        info += e.info;
     }
 */
-    if (m.link) {
-        info += ' ' + buildOSiteInfo(m);
+    if (e.link) {
+        info += ' ' + buildOSiteInfo(e);
     }
-    info += ' ' + buildEventResults(m);
-    info += ' ' + buildGpsLinks(m, 'o-gps.gif', null, true);
-    info += ' ' + buildPublish(m, '🗺️');
+    info += ' ' + buildEventResults(e);
+    info += ' ' + buildGpsLinks(e, 'o-gps.gif', null, true);
+    info += ' ' + buildPublish(e, '🗺️');
 
     // начдист
     if (withPlanner && typeof planners !== 'undefined') {
-        const plannersInfo = buildPlanners(m, null, true);
+        const plannersInfo = buildPlanners(e, null, true);
         if (plannersInfo) {
             info += ', нач-дист: ' + plannersInfo;
         }
@@ -1499,7 +1505,7 @@ function buildEventPopup(evt, m) {
     }
 
     // логотип
-    let logo = logoList(evt);
+    const logo = logoList(evt);
     logo.forEach((value, idx, arr) => {
         arr[idx] = 'logo/' + arr[idx];
     });

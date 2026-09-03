@@ -2739,11 +2739,12 @@ let eventsEarly = [
     },
     {
         id: 'SPB_19950624_1',
-        date: '1995-06-24',
-        endDate: '1995-06-25',
+        date: '1995-07-01',
+        endDate: '1995-07-02',
         place: 'Петяярви',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
+        map: ['petjajarvy_1995','mms_1995_07_01','mms_1995_07_02']
     },
     {
         id: 'SPB_19950706_1',
@@ -2819,7 +2820,7 @@ let eventsEarly = [
         name: 'Белые Ночи',
         start: 'WN',
         res: './docs/1996/1996_06_21_wn_omaps.pdf',
-        map: 'petjajarvy_1995'
+        map: ['petjajarvy_1995','wn_1996']
     },
     {
         id: 'SPB_19960628_1',

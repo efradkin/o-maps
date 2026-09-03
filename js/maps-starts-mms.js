@@ -1,6 +1,26 @@
 let mmsStartsMaps = [
     /* --- Мемориал Михаила Святкина --- */
     {
+        name: 'Петяярви',
+        date: '1995-07-01',
+        start: 'MMS',
+        url: './maps/starts/mms/mms_1995_07_01.webp',
+        link: './original_maps/starts/mms/mms_1995_07_01_omaps.webp',
+        info: 'Спринт. <a href="./docs/1995/1995_07_01_mms_courses_omaps.xlsx">Планировка дистанций</a>.',
+        bounds: [[60.6350686, 30.0664043], [60.6312383, 30.1230526], [60.6099318, 30.0605679]],
+        author: ['LVCHV','SVTKN','KAZNTSVA_O']
+    },
+    {
+        name: 'Петяярви',
+        date: '1995-07-02',
+        start: 'MMS',
+        url: './maps/starts/mms/mms_1995_07_02.webp',
+        link: './original_maps/starts/mms/mms_1995_07_02_omaps.webp',
+        info: '<a href="./docs/1995/1995_07_02_mms_courses_omaps.xlsx">Планировка дистанций</a>.',
+        bounds: [[60.6344373, 30.0758457], [60.6285021, 30.1615906], [60.6069832, 30.0693226]],
+        author: ['LVCHV','SVTKN','KAZNTSVA_O']
+    },
+    {
         name: 'Ягодное,Раздельные оз',
         start: 'MMS',
         date: '1996-06-29',
