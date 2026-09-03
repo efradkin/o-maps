@@ -1,4 +1,40 @@
-const slidePopupContent = `
+const SLIDE_POPUP_SHOW_EVERY = 10;
+const SLIDE_POPUP_COUNTER_PREFIX = 'slidePopupVisitCounter:';
+
+function getSlidePopupCounterKey() {
+    let path = location.pathname || '';
+    try {
+        path = decodeURIComponent(path);
+    } catch (e) {
+        // оставляем как есть, если путь закодирован некорректно
+    }
+    const page = path.split('/').pop() || 'index';
+    return SLIDE_POPUP_COUNTER_PREFIX + page;
+}
+
+function isSlidePopupTurn() {
+    const key = getSlidePopupCounterKey();
+    let counter;
+    try {
+        counter = parseInt(localStorage.getItem(key), 10);
+        if (!Number.isFinite(counter) || counter < 0 || counter >= SLIDE_POPUP_SHOW_EVERY) {
+            counter = 0;
+        }
+        localStorage.setItem(key, String((counter + 1) % SLIDE_POPUP_SHOW_EVERY));
+    } catch (e) {
+        return true;
+    }
+    return counter === 0;
+}
+
+// Заглушка: calendar.js вызывает эту функцию, если popupMessage объявлен,
+// а окно в этот раз могло и не создаваться.
+window.__updateSlidePopupPosition = window.__updateSlidePopupPosition || function () {};
+
+const slidePopupAllowed = isPopupSliderRequired() && isSlidePopupTurn();
+
+if (slidePopupAllowed) {
+    const slidePopupContent = `
     <div id="slidePopup" class="slide-popup" data-from="left" data-corner="top-left" data-offset="20" data-show-delay="2000" data-auto-hide="17000">
         <button class="slide-popup__close" type="button" aria-label="Закрыть">×</button>
         <div class="slide-popup__content">
@@ -8,12 +44,13 @@ const slidePopupContent = `
     </div>
 `;
 
-const slidePopupEl = document.createElement('div');
-slidePopupEl.insertAdjacentHTML('beforeend', slidePopupContent);
-document.body.appendChild(slidePopupEl);
+    const slidePopupEl = document.createElement('div');
+    slidePopupEl.insertAdjacentHTML('beforeend', slidePopupContent);
+    document.body.appendChild(slidePopupEl);
+}
 
 (function () {
-    if (!isPopupSliderRequired()) {
+    if (!slidePopupAllowed) {
         return;
     }
 
