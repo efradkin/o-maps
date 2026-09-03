@@ -353,11 +353,21 @@ function sortEventsTable() {
 }
 
 function writeBackToStartButton() {
+    // В мобильном UI (класс om-mobile-enhanced) у страницы своя навигация,
+    // кнопка там не показывается. Поставьте true, чтобы включить и в нём.
+    const SHOW_BACK_BUTTON_IN_MOBILE_UI = true;
+
     function initBackToStartButton() {
         const backButton = document.getElementById('back-to-start');
 
         if (!backButton) {
             console.warn('back-to-start button not found');
+            return;
+        }
+
+        if (!SHOW_BACK_BUTTON_IN_MOBILE_UI &&
+            document.documentElement.classList.contains('om-mobile-enhanced')) {
+            backButton.classList.remove('is-visible');
             return;
         }
 
@@ -367,24 +377,85 @@ function writeBackToStartButton() {
 
         let rafId = null;
 
+        // В десктопном интерфейсе прокручивается не окно, а контейнер таблицы
+        // .o-sheet-wrapper (overflow-y: auto; height: calc(100vh - 135px)).
+        // Поэтому window.scrollY там всегда 0, и опираться только на него нельзя.
+        // Событие scroll у элементов не всплывает — слушаем контейнер отдельно.
+        let scrollContainers = [];
+        let containersResolved = false;
+
+        function collectScrollContainers() {
+            const found = [];
+            const table = document.querySelector('.o-main-table') || document.querySelector('table');
+            let el = table ? table.parentElement : document.querySelector('.o-sheet-wrapper');
+
+            while (el && el !== document.body && el !== document.documentElement) {
+                const style = window.getComputedStyle(el);
+
+                const scrollableY =
+                    style.overflowY === 'auto' ||
+                    style.overflowY === 'scroll' ||
+                    style.overflowY === 'overlay';
+
+                const scrollableX =
+                    style.overflowX === 'auto' ||
+                    style.overflowX === 'scroll' ||
+                    style.overflowX === 'overlay';
+
+                if (scrollableY || scrollableX) {
+                    found.push(el);
+                }
+
+                el = el.parentElement;
+            }
+
+            return found;
+        }
+
+        function getScrollContainers() {
+            const stale = scrollContainers.some(el => !el.isConnected);
+
+            if (!containersResolved || stale) {
+                scrollContainers.forEach(el => el.removeEventListener('scroll', scheduleUpdate));
+                scrollContainers = collectScrollContainers();
+                scrollContainers.forEach(el =>
+                    el.addEventListener('scroll', scheduleUpdate, { passive: true }));
+                containersResolved = true;
+            }
+
+            return scrollContainers;
+        }
+
         function getScrollX() {
-            return (
+            let x = (
                 window.scrollX ||
                 window.pageXOffset ||
                 document.documentElement.scrollLeft ||
                 document.body.scrollLeft ||
                 0
             );
+
+            getScrollContainers().forEach(el => {
+                if (el.scrollLeft > x) x = el.scrollLeft;
+            });
+
+            return x;
         }
 
         function getScrollY() {
-            return (
+            let y = (
                 window.scrollY ||
                 window.pageYOffset ||
                 document.documentElement.scrollTop ||
                 document.body.scrollTop ||
                 0
             );
+
+            getScrollContainers().forEach(el => {
+                if (el.scrollTop > y) y = el.scrollTop;
+            });
+
+            return y;
         }
 
         function placeBackButton() {
@@ -644,8 +715,16 @@ function writeBackToStartButton() {
         backButton.addEventListener('click', forceScrollToStart);
 
         window.addEventListener('scroll', scheduleUpdate, { passive: true });
-        window.addEventListener('resize', scheduleUpdate);
-        window.addEventListener('orientationchange', scheduleUpdate);
+
+        // При смене ширины/ориентации медиазапрос может отдать прокрутку окну
+        // (@media max-width: 600px), поэтому контейнеры ищем заново.
+        function invalidateContainers() {
+            containersResolved = false;
+            scheduleUpdate();
+        }
+
+        window.addEventListener('resize', invalidateContainers);
+        window.addEventListener('orientationchange', invalidateContainers);
 
         if (window.visualViewport) {
             window.visualViewport.addEventListener('scroll', scheduleUpdate, { passive: true });

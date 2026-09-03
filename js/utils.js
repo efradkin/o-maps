@@ -307,7 +307,7 @@ const HAS_MOBILE_PARAM = urlParams.has('mobile');
 const MOBILE_PARAM = urlParams.get('mobile');
 let useMobileUI;
 if (HAS_MOBILE_PARAM) {
-    useMobileUI = (MOBILE_PARAM === '1');
+    useMobileUI = (MOBILE_PARAM !== '0');
 }
 
 
