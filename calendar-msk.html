@@ -10,8 +10,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css?v=15"/>
+    <link rel="stylesheet" href="css/calendar-mobile.css?v=9"/>
     <link rel="stylesheet" href="css/theme.css?v=5"/>
     <script src="js/theme-toggle.js?v=1"></script>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
 
     <meta property="og:title" content="O-Maps. Календарь Москва">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
@@ -37,7 +42,12 @@
 
     <base target="_blank">
 </head>
-<body class="stat-body sheet-body help-body calendar-body">
+<body class="stat-body sheet-body calendar-body">
+    <script>
+        const PEEK_WIDGET_OPTIONS = {
+            side: 'bottom'
+        };
+    </script>
     <script src="js/utils-common.js"></script>
     <script src="js/utils.js"></script>
     <header class="page-header">
@@ -57,6 +67,12 @@
     <div class="sheet-filters">
         <script src="js/sheet-filter.js"></script>
 
+        <select id="year_selector" class="header_selector" onchange="updateUrlParam('startYear', this.value)">
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="ALL" selected>Все годы</option>
+        </select>
+
         <select id="event_type_selector" class="header_selector" onchange="updateUrlParam('calendar', this.value)">
             <option value="ALL">все старты</option>
             <option value="ORIENT">Ориент</option>
@@ -65,6 +81,7 @@
             <option value="VELO">Вело</option>
             <option value="OTHER">Прочее</option>
             <option disabled>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</option>
+            <option value="media">Фото/видео</option>
             <option value="actual">Текущие</option>
             <option value="future">Будущие</option>
         </select>
@@ -107,11 +124,11 @@
             <tr>
                 <th>&nbsp</th>
                 <th data-sort="date" class="sortable" data-order="desc">Дата</th>
-                <th data-sort="name" class="sortable">Старт, регистрация</th>
+                <th data-sort="name" class="sortable">Старт <br /> регистрация</th>
                 <th data-sort="place" class="sortable">Место</th>
-                <th>Вид спорта / формат</th>
+                <th>Вид спорта <br /> формат</th>
                 <th>Результаты</th>
-                <th>Трансляции</th>
+                <th>Трансляции <br /> отчёты</th>
                 <th>Прочее</th>
             </tr>
             </thead>
@@ -155,6 +172,7 @@
             'которые тут уже есть, <a href="help/contacts.html">сообщите мне</a>, и я добавлю. Спасибо заранее!';
     </script>
     <script src="js/calendar.js"></script>
+    <script src="js/calendar-mobile.js?v=9"></script>
     <script src="js/slide-popup.js"></script>
 
     <noscript>
@@ -165,5 +183,6 @@
             </p>
         </div>
     </noscript>
+    <div id="page-start"></div><button id="back-to-start" type="button" aria-label="К началу страницы">↖</button>
 </body>
 </html>
