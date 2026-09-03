@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=15"/>
     <link rel="stylesheet" href="css/theme.css?v=5"/>
-    <script src="js/theme-toggle.js?v=1"></script>
+    <script src="js/theme-toggle.js?v=12"></script>
 
     <meta property="og:title" content="O-Maps. Запросы на рисовку карт">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
@@ -40,8 +40,8 @@
     <base target="_blank">
 </head>
 <body class="stat-body sheet-body help-body">
-    <script src="js/utils-common.js"></script>
-    <script src="js/utils.js"></script>
+    <script src="js/utils-common.js?v=12"></script>
+    <script src="js/utils.js?v=12"></script>
     <header class="page-header">
         <h1>O-Maps ◪ Запросы на рисовку карт</h1>
 
@@ -49,7 +49,7 @@
             <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
             <a href="all.html?orders" target="_self" class="stat-map-link stat-map-link-right" title="Карта"><img src="images/map_24.png" alt="Карта" /></a>
 
-            <script src="js/global-menu.js"></script>
+            <script src="js/global-menu.js?v=12"></script>
             <script>
                 writeGlobalMenuHtml();
             </script>
@@ -62,7 +62,7 @@
     </div>
 
     <div class="sheet-filters">
-        <script src="js/sheet-filter.js"></script>
+        <script src="js/sheet-filter.js?v=12"></script>
 
         <select id="order_status_selector" class="header_selector" onchange="updateUrlParam('order-status', this.value)">
             <option value="ALL">все статусы</option>
@@ -111,20 +111,20 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
-    <script src="js/maps-moscow.js"></script>
-    <script src="js/maps-city.js"></script>
-    <script src="js/maps-parks.js"></script>
-    <script src="js/maps-forest.js"></script>
-    <script src="js/maps-forest-zelik.js"></script>
-    <script src="js/maps-forest-vaskelovo.js"></script>
-    <script src="js/maps-forest-vyborg.js"></script>
-    <script src="js/maps-forest-sosnovo.js"></script>
+    <script src="js/maps-moscow.js?v=12"></script>
+    <script src="js/maps-city.js?v=12"></script>
+    <script src="js/maps-parks.js?v=12"></script>
+    <script src="js/maps-forest.js?v=12"></script>
+    <script src="js/maps-forest-zelik.js?v=12"></script>
+    <script src="js/maps-forest-vaskelovo.js?v=12"></script>
+    <script src="js/maps-forest-vyborg.js?v=12"></script>
+    <script src="js/maps-forest-sosnovo.js?v=12"></script>
 
-    <script src="js/welcome.js"></script>
-    <script src="js/starts.js"></script>
-    <script src="js/authors.js"></script>
-    <script src="js/owners.js"></script>
-    <script src="js/planners.js"></script>
+    <script src="js/welcome.js?v=12"></script>
+    <script src="js/starts.js?v=12"></script>
+    <script src="js/authors.js?v=12"></script>
+    <script src="js/owners.js?v=12"></script>
+    <script src="js/planners.js?v=12"></script>
 
     <script>
         let loadImagesRequired = false;
@@ -167,11 +167,11 @@
 
         const popupMessage = 'Вы хотели бы добавить какой-то район в эту таблицу? В любом регионе. <a href="help/contacts.html">Напишите мне</a>.';
     </script>
-    <script src="js/slide-popup.js"></script>
+    <script src="js/slide-popup.js?v=12"></script>
 
-    <script src="js/map-build.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/sheet.js"></script>
+    <script src="js/map-build.js?v=12"></script>
+    <script src="js/main.js?v=12"></script>
+    <script src="js/sheet.js?v=12"></script>
 
     <script>
         if (ORDER_STATUS_PARAM) {

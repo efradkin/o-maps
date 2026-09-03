@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/leaflet.css" />
     <link rel="stylesheet" href="css/main.css?v=15"/>
     <link rel="stylesheet" href="css/theme.css?v=5"/>
-    <script src="js/theme-toggle.js?v=1"></script>
+    <script src="js/theme-toggle.js?v=12"></script>
 
     <meta property="og:title" content="O-Maps. Таблица карт Рязани">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
@@ -40,8 +40,8 @@
     <base target="_blank">
 </head>
 <body class="stat-body sheet-body">
-    <script src="js/utils-common.js"></script>
-    <script src="js/utils.js"></script>
+    <script src="js/utils-common.js?v=12"></script>
+    <script src="js/utils.js?v=12"></script>
     <header class="page-header">
         <h1>O-Maps ◪ Рязань</h1>
 
@@ -49,7 +49,7 @@
             <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
             <a href="ryazan.html" target="_self" class="stat-map-link stat-map-link-right" title="Карта" onclick="return gotoMap('ryazan.html')"><img src="images/map_24.png" alt="Карта" /></a>
 
-            <script src="js/global-menu.js"></script>
+            <script src="js/global-menu.js?v=12"></script>
             <script>
                 writeGlobalMenuHtml();
             </script>
@@ -57,7 +57,7 @@
     </header>
 
     <div class="sheet-filters">
-        <script src="js/sheet-filter.js"></script>
+        <script src="js/sheet-filter.js?v=12"></script>
 
         <select id="type_selector" class="header_selector" onchange="updateUrlParam('type', this.value)">
             <option value="ALL">все типы</option>
@@ -102,12 +102,12 @@
     <script src="js/ext/Leaflet.ImageOverlay.Rotated.js"></script>
     <script src="js/ext/GeometryUtil.js"></script>
 
-    <script src="js/maps-ryazan.js"></script>
+    <script src="js/maps-ryazan.js?v=12"></script>
 
-    <script src="js/welcome.js"></script>
-    <script src="js/starts.js"></script>
-    <script src="js/authors.js"></script>
-    <script src="js/owners.js"></script>
+    <script src="js/welcome.js?v=12"></script>
+    <script src="js/starts.js?v=12"></script>
+    <script src="js/authors.js?v=12"></script>
+    <script src="js/owners.js?v=12"></script>
 
     <script>
         let loadImagesRequired = false;
@@ -118,9 +118,9 @@
         writeWelcomeButton();
     </script>
 
-    <script src="js/map-build.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/sheet.js"></script>
+    <script src="js/map-build.js?v=12"></script>
+    <script src="js/main.js?v=12"></script>
+    <script src="js/sheet.js?v=12"></script>
 
     <noscript>
         <div id="noscript_content">
