@@ -46,7 +46,7 @@ let priozerskMaps = [
         name: 'Приозерск, ДРСУ',
         year: 2015,
         url: './maps/forest/priozersk/priozersk_drsu.webp',
-        link: './original_maps/forest/priozersk/priozersk_drsu_2015_omaps.jpg',
+        link: ['./original_maps/forest/priozersk/priozersk_drsu_2015_omaps.jpg','./original_maps/forest/priozersk/priozersk_drsu_2015_omaps.webp'],
         bounds: [[61.0180746, 30.1350689], [61.0160783, 30.1618481], [61.0110871, 30.1327085]],
         author: ['MKHLV_A','USNKO'],
         owner: 'VESTA_PRIOZERSK'

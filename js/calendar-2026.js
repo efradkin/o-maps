@@ -2587,6 +2587,7 @@ let events2026 = [
         date: '2026-09-27',
         place: 'Приозерск',
         name: 'XIII Кубок Весты, Памяти друзей',
+        link: 'https://vk.ru/vesta_priozersk',
         type: 'ORIENT',
         owner: 'VESTA_PRIOZERSK'
     },
