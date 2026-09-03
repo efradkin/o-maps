@@ -10,8 +10,13 @@
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css?v=15"/>
+    <link rel="stylesheet" href="css/calendar-mobile.css?v=10"/>
     <link rel="stylesheet" href="css/theme.css?v=5"/>
     <script src="js/theme-toggle.js?v=1"></script>
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
 
     <meta property="og:title" content="O-Maps. Лыжный календарь">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
@@ -38,6 +43,12 @@
     <base target="_blank">
 </head>
 <body class="stat-body sheet-body help-body calendar-body ski-bodi">
+    <script>
+        const PEEK_WIDGET_OPTIONS = {
+            side: 'bottom'
+        };
+        let oneSportOnly = true;
+    </script>
     <script src="js/utils-common.js"></script>
     <script src="js/utils.js"></script>
     <header class="page-header">
@@ -91,7 +102,7 @@
             <tr>
                 <th>&nbsp</th>
                 <th data-sort="date" class="sortable" data-order="desc">Дата</th>
-                <th data-sort="name" class="sortable">Старт, регистрация</th>
+                <th data-sort="name" class="sortable">Старт <br /> регистрация</th>
                 <th data-sort="place" class="sortable">Место</th>
                 <th>Дистанция</th>
 <!--
@@ -114,7 +125,6 @@
     <script>
         let loadImagesRequired = false;
         let documentsPage = true;
-        let oneSportOnly = true;
         let currentSort = 'date';
         const REGION_KEY = 'tracks';
 
@@ -130,6 +140,7 @@
     <script src="js/starts.js"></script>
     <script src="js/welcome.js"></script>
     <script src="js/calendar.js"></script>
+    <script src="js/calendar-mobile.js?v=10"></script>
     <script src="js/slide-popup.js"></script>
 
     <noscript>
@@ -140,5 +151,6 @@
             </p>
         </div>
     </noscript>
+    <div id="page-start"></div><button id="back-to-start" type="button" aria-label="К началу страницы">↖</button>
 </body>
 </html>

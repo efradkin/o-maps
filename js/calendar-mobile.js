@@ -46,13 +46,25 @@
   const filters = $('.sheet-filters');
   const table = $('.o-main-table');
   const tbody = table?.querySelector('tbody');
+  // Селектор года есть только в общем календаре. В лыжном (calendar-ski.html)
+  // его нет, поэтому обязательным он не является: обязателен лишь селектор
+  // вида соревнований, который присутствует на обеих страницах.
   const yearSelector = $('#year_selector');
   const typeSelector = $('#event_type_selector');
   const oldChecks = $('.header_checkbox_container');
 
-  if (!filters || !table || !tbody || !yearSelector || !typeSelector) return;
+  if (!filters || !table || !tbody || !typeSelector) return;
 
   document.body.classList.add('om-mobile-enhanced');
+
+  // Число штатных колонок таблицы. В общем календаре их восемь, в
+  // одновидовом (лыжном) — пять: «Результаты», «Трансляции» и «Прочее»
+  // там не выводятся вовсе (см. onlyOneSport в utils.js/calendar.js).
+  // От этого зависит раскладка свёрнутой карточки, поэтому признак
+  // выносим в класс на <html> и дальше всё решает CSS.
+  const columnCount = table.querySelectorAll('thead th').length;
+  const compactLayout = columnCount > 0 && columnCount <= 5;
+  document.documentElement.classList.toggle('om-mobile-compact', compactLayout);
 
   const controls = document.createElement('div');
   controls.className = 'om-mobile-controls';
@@ -65,10 +77,22 @@
   search.spellcheck = false;
   search.setAttribute('aria-label', 'Поиск по календарю');
 
+  // Целевая страница карты у каждого календаря своя (spb.html, tracks.html…).
+  // Берём её из штатной ссылки в заголовке, а не задаём жёстко.
+  const headerMapLink = document.getElementById('tracks_map_link');
+  const mapPage = headerMapLink?.getAttribute('href')?.split('?')[0] || 'spb.html';
+
   const mapButton = document.createElement('a');
   mapButton.className = 'om-mobile-map-button';
-  mapButton.href = 'spb.html?calendar';
+  mapButton.href = `${mapPage}?calendar`;
   mapButton.target = '_self';
+  // gotoMap() переносит текущие параметры адреса на карту. Если его нет,
+  // остаётся обычный переход по href.
+  mapButton.addEventListener('click', event => {
+    if (typeof gotoMap !== 'function') return;
+    event.preventDefault();
+    gotoMap(mapPage, 'calendar');
+  });
   mapButton.title = 'На карте';
   mapButton.setAttribute('aria-label', 'На карте');
   mapButton.innerHTML = '<img src="images/map_24.png" alt="">';
@@ -82,8 +106,12 @@
   homeButton.innerHTML = '<img src="images/home.png" alt="">';
 
   // Первая строка: год + вид соревнований + кнопки. Вторая строка: поиск.
-  // Используем штатный выпадающий список вида соревнований вместо мобильных chips.
-  controls.append(yearSelector, typeSelector, mapButton, homeButton, search);
+  // Используем штатные выпадающие списки вместо мобильных chips.
+  // Селекторов может быть один или два — от их числа зависит сетка колонок,
+  // поэтому проставляем класс om-mobile-controls-1 / om-mobile-controls-2.
+  const selectors = [yearSelector, typeSelector].filter(Boolean);
+  controls.classList.add(`om-mobile-controls-${selectors.length}`);
+  controls.append(...selectors, mapButton, homeButton, search);
 
   const localChecks = document.createElement('div');
   localChecks.className = 'om-mobile-checks';

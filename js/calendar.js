@@ -227,6 +227,7 @@ function renderMapsTable() {
             td(evt, row, buildEventStart(evt, false));
             td(evt, row, buildEventPlace(evt));
             td(evt, row, buildEventType(evt, true));
+            console.log(onlyOneSport)
             if (!onlyOneSport) {
                 td(evt, row, buildEventResults(evt));
                 td(evt, row, buildEventReports(evt, true));

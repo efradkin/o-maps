@@ -133,6 +133,13 @@
     justify-content: start;
   }
 
+  /* Календарь лыжных гонок: селектор года отсутствует, штатных выпадающих
+     списков остаётся один. Отдаём ему всю свободную ширину, чтобы названия
+     районов («Зеленогорск», «Гарболово») не обрезались. */
+  .om-mobile-enhanced .calendar-body .om-mobile-controls.om-mobile-controls-1 {
+    grid-template-columns: minmax(0, 1fr) 42px 42px;
+  }
+
   .om-mobile-enhanced .calendar-body .om-mobile-controls .om-mobile-search {
     grid-column: 1 / -1;
   }
@@ -708,6 +715,32 @@
 
   .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed > td:nth-child(5):empty {
     display: none !important;
+  }
+
+  /* ==========================================================================
+     Одновидовой календарь (calendar-ski.html): у таблицы пять колонок,
+     «Результаты», «Трансляции» и «Прочее» не выводятся вовсе. Пятая колонка
+     называется «Дистанция» и содержит только формат — названия вида спорта
+     в ней нет (см. onlyOneSport в utils.js). Класс om-mobile-compact ставит
+     calendar-mobile.js по числу штатных <th>.
+     ========================================================================== */
+
+  /* Раскрытая карточка: дистанции занимают всю ширину — соседних ячеек
+     справа в этой раскладке не существует. */
+  .om-mobile-enhanced.om-mobile-compact .calendar-body .o-main-table tbody > tr.om-event-row > td:nth-child(5) {
+    grid-column: 1 / -1 !important;
+  }
+
+  /* Свёрнутая карточка: без формата пятая ячейка была бы пустой зелёной
+     плашкой, поэтому прячем её целиком — так же, как скрываемые ячейки
+     общего календаря. */
+  .om-mobile-enhanced.om-mobile-compact .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed > td:nth-child(5) {
+    display: none !important;
+  }
+
+  /* Место остаётся единственным содержимым второй строки. */
+  .om-mobile-enhanced.om-mobile-compact .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsed > td:nth-child(4) {
+    grid-column: 1 / -1 !important;
   }
 
   /* Кнопка «развернуть / свернуть все» — два шеврона один под другим.
