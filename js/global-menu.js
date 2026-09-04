@@ -347,11 +347,11 @@ function hideRightButtonsOnMobile() {
    двух классов, а всю отрисовку делает CSS.                          */
 
 const GLOBAL_MENU_MOBILE = {
-    breakpoint: 900,      // px: ниже этой ширины действуют мобильные правила
-    minFlyoutWidth: 150,  // px: если слева меньше — раскрываем гармошкой
-    maxFlyoutWidth: 300,  // px: шире делать смысла нет, строки станут длинными
-    edgeGap: 6,           // px: отступ от краёв экрана
-    overlap: 2            // px: подменю чуть наезжает на родителя, как в hover-меню
+    breakpoint: 900,     // px: ниже этой ширины действуют мобильные правила
+    flyoutWidth: 260,    // px: ширина всплывающей панели, от места не зависит
+    minFlyoutWidth: 150, // px: если и столько не помещается на экране — гармошка
+    edgeGap: 6,          // px: отступ от краёв экрана
+    overlap: 2           // px: подменю чуть наезжает на родителя, как в hover-меню
 };
 
 function isNarrowGlobalMenu() {
@@ -390,29 +390,35 @@ function placeSubmenu(submenuBox, toggle, submenu) {
 
     const cfg = GLOBAL_MENU_MOBILE;
     const parentRect = parentMenu.getBoundingClientRect();
-    const freeLeft = parentRect.left - cfg.edgeGap;
-    const freeRight = window.innerWidth - parentRect.right - cfg.edgeGap;
+    const available = window.innerWidth - 2 * cfg.edgeGap;
 
-    // Уходим в ту сторону, где просторнее. У подменю первого уровня справа
-    // ничего нет (корневой список прижат к правому краю), поэтому оно всегда
-    // раскрывается влево; у глубоких уровней слева места уже не остаётся, и
-    // они уходят вправо, ложась поверх родительских списков — обычное
-    // поведение каскадного меню. Гармошка — только когда не влезло никуда.
-    const toRight = freeRight > freeLeft;
-    const free = toRight ? freeRight : freeLeft;
-
-    if (free < cfg.minFlyoutWidth) {
+    // Гармошка осталась только для совсем узких экранов: на всех остальных
+    // панель всегда влезает, потому что её ширина фиксирована и от свободного
+    // места не зависит.
+    if (available < cfg.minFlyoutWidth) {
         resetSubmenuPlacement(submenuBox, submenu);
         return;
     }
 
+    // Уходим в ту сторону, где просторнее, — так наложение будет меньше.
+    // У подменю первого уровня справа ничего нет (корневой список прижат к
+    // правому краю), поэтому оно всегда раскрывается влево.
+    const freeLeft = parentRect.left - cfg.edgeGap;
+    const freeRight = window.innerWidth - parentRect.right - cfg.edgeGap;
+    const toRight = freeRight > freeLeft;
+
     submenuBox.classList.add('gm-submenu-flyout');
     submenuBox.classList.toggle('gm-submenu-flyout-right', toRight);
 
-    const width = Math.min(free, cfg.maxFlyoutWidth);
-    const left = toRight
-        ? Math.min(window.innerWidth - cfg.edgeGap - width, parentRect.right - cfg.overlap)
-        : Math.max(cfg.edgeGap, parentRect.left + cfg.overlap - width);
+    // Ширину не подгоняем под остаток места: узкая панель разносит названия
+    // вроде «Чемпионат России по рогейну» на три строки. Вместо этого панель
+    // упирается в край экрана и наезжает на родительский список — так читается
+    // лучше, а родитель всё равно виден полоской сбоку.
+    const width = Math.min(cfg.flyoutWidth, available);
+    const wanted = toRight
+        ? parentRect.right - cfg.overlap
+        : parentRect.left + cfg.overlap - width;
+    const left = Math.max(cfg.edgeGap, Math.min(wanted, window.innerWidth - cfg.edgeGap - width));
 
     setSubmenuStyle(submenu, 'width', `${width}px`);
     setSubmenuStyle(submenu, 'left', `${left}px`);
