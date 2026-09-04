@@ -907,3 +907,95 @@ footer hr {
 }
 
 :root.o-dark body.calendar-body .o-main-table tr.current > td { background-color: #202b23; }
+
+/* ------------------------------------------------------------------ [17]
+   ГЛОБАЛЬНОЕ МЕНЮ НА УЗКИХ ЭКРАНАХ
+
+   Проблема. Кнопка-бургер стоит у правого края шапки, а Bootstrap
+   раскрывает корневой .dropdown-menu вправо-вниз: Popper пишет в элемент
+   inline-стили position/top/right/bottom/left/transform, и на телефоне
+   панель уезжает за край экрана. Вложенные пункты (.dropdown.dropend)
+   выпадают ещё правее — вбок от родителя, места им уже совсем нет.
+
+   Решение. Корневое меню жёстко прижимаем к правому краю кнопки, а
+   подменю раскрываем «гармошкой» внутрь списка, а не вбок. Inline-стили
+   Popper перебиваются через !important, поэтому ни bootstrap.min.js, ни
+   разметку из js/global-menu.js трогать не нужно: правки чисто в CSS и
+   откатываются удалением этого блока.
+
+   Порог 900px — не только телефоны: на планшете в портретной ориентации
+   меню упиралось в край так же.
+   ------------------------------------------------------------------ */
+@media (max-width: 900px) {
+
+    /* Корневое меню: правый край меню = правый край кнопки. */
+    .dropdown-button-right > .dropdown > .dropdown-menu {
+        position: absolute !important;
+        top: 100% !important;
+        right: 0 !important;
+        bottom: auto !important;
+        left: auto !important;
+        transform: none !important;      /* убираем translate от Popper */
+        margin: 6px 0 0 0 !important;
+        min-width: 210px;
+        max-width: min(320px, calc(100vw - 16px));
+
+        /* Раскрытая «гармошка» бывает выше экрана. На календаре у html
+           стоит overflow: hidden (страница не прокручивается, скроллится
+           только список стартов), поэтому меню нужен собственный скролл.
+           Он безопасен ровно потому, что подменю ниже сделаны потоковыми:
+           будь они всплывающими, overflow: auto их бы обрезал. */
+        max-height: calc(100vh - 76px);
+        max-height: calc(100dvh - 76px);
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Подменю любого уровня — в поток, со сдвигом и линией слева. */
+    .dropdown-button-right .dropdown-menu .dropdown.dropend {
+        position: static !important;
+    }
+    .dropdown-button-right .dropdown-menu .dropdown.dropend > .dropdown-menu {
+        position: static !important;
+        top: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+        transform: none !important;
+        float: none;
+        width: auto;
+        min-width: 0;
+        margin: 2px 0 6px 12px !important;
+        padding: 2px 0 2px 6px;
+        border: 0;
+        border-left: 2px solid var(--o-border);
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    /* Пункты: палец должен попадать, длинные названия переносим по словам,
+       а не обрезаем (у Bootstrap тут white-space: nowrap). */
+    .dropdown-button-right .dropdown-menu .dropdown-item {
+        white-space: normal;
+        padding: 9px 12px;
+    }
+
+    /* Стрелка у пункта с подменю: уводим к правому краю строки и
+       разворачиваем вниз, когда подменю раскрыто. */
+    .dropdown-button-right .dropdown-menu .dropend > .dropdown-toggle::after {
+        float: right;
+        margin-top: .55em;
+        transition: transform .15s ease;
+    }
+    .dropdown-button-right .dropdown-menu .dropend > .dropdown-toggle.show::after {
+        transform: rotate(90deg);
+    }
+}
+
+@media (max-width: 900px) and (prefers-reduced-motion: reduce) {
+    .dropdown-button-right .dropdown-menu .dropend > .dropdown-toggle::after {
+        transition: none;
+    }
+}
