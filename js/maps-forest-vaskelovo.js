@@ -234,14 +234,11 @@ let vaskelovoMaps = [
     {
         name: 'Вьюн',
         year: 2026,
-        url: './maps/forest/vaskelovo/vjun_2026.png',
-        bounds: [[60.3862530, 30.2772903], [60.3843868, 30.3021812], [60.3689862, 30.2712822]],
+        url: './maps/forest/vaskelovo/vjun_2026.webp',
+        link: './original_maps/forest/vaskelovo/vjun_2026_omaps.gif',
+        bounds: [[60.3807600, 30.2774405], [60.3788723, 30.2955079], [60.3692727, 30.2722478]],
         info: 'Спринтерский район в лесных знаках.',
-        in_work: true,
-        order: {
-            ready: 'Сентябрь 2026',
-            author: 'RDNV_I',
-        },
+        author:  'RDNV_I',
         owner:  'RDNV_I'
     },
     {
