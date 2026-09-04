@@ -8,7 +8,7 @@
   // «место + вид спорта». Остальное раскрывается тапом.
   const OM_CARDS = {
     collapse: true,           // сворачивать карточки при загрузке
-    autoExpandCurrent: false, // ближайшие старты (tr.current) сразу раскрыты
+    autoExpandCurrent: true,  // ближайшие старты (tr.current) сразу раскрыты
     tapWholeCard: true,       // раскрывать тапом по всей карточке, не только по дате
     expandAllButton: true,    // кнопка «развернуть все» в панели фильтров
     expandOnSearch: true      // при поиске раскрывать найденные карточки

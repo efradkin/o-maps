@@ -478,6 +478,16 @@ body.sub-index-body {
     th.sortable {
         cursor: pointer;
     }
+    /* Важные (major) и «мои» старты календаря. Раньше жирность делал
+       calendar.js: содержимое каждой ячейки оборачивалось в <b>. Теперь
+       calendar.js вешает на строку классы .major / .my-event, а начертание
+       задаётся здесь. Правило живёт в main.css, а не в theme.css, потому
+       что main.css подключают все страницы календаря, а theme.css — не
+       обязательно; иначе выделение пропало бы там, где темы нет. */
+    tr.major > td,
+    tr.my-event > td {
+        font-weight: bold;
+    }
 }
 .stat_result_article {
     display: inline-block;

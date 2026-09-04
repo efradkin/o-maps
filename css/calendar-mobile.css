@@ -427,6 +427,82 @@
   }
   .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.disabled { opacity: .66; }
 
+  /* ==========================================================================
+     Важные старты (major).
+
+     Раньше td() оборачивал содержимое каждой ячейки в <b>: в таблице этого
+     хватало, в карточке — нет. Заголовок старта и без того полужирный (750),
+     а <b> даёт ровно 700, то есть важный старт выглядел БЛЕДНЕЕ обычного.
+     Теперь <b> не генерируется вовсе, признак несёт класс .major
+     (calendar.js), а жирность в десктопе задаёт theme.css.
+
+     Выделяем тремя средствами: более крупный и тяжёлый заголовок,
+     утолщённая до 6px полоса слева (цвет прежний — вид спорта) и более
+     заметная тень. Контур карточки не трогаем: он занят признаком
+     «мой старт», см. блок ниже.
+     ========================================================================== */
+
+  /* ВНИМАНИЕ к специфичности: правило самой карточки — (0,4,3) из-за
+     :not(:has(> td.month-row)), поэтому одного класса .major мало (см.
+     историю с .rogaine/.cancelled). Добавляем .om-event-row — его вешает
+     calendar-mobile.js на каждую строку-событие, и селектор становится
+     (0,5,2), то есть тяжелее. Для ячеек — та же логика. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.major {
+    border-left-width: 6px !important;
+    box-shadow: 0 3px 16px rgba(27, 54, 32, .16) !important;
+  }
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.major > td:nth-child(3) {
+    font-size: 18px !important;
+    font-weight: 850 !important;
+    letter-spacing: -.005em !important;
+  }
+
+  /* ==========================================================================
+     «Мои» старты (класс .my-event, навешивает calendar.js по списку myEvents).
+
+     Каналы не пересекаются и читаются независимо:
+       полоса слева   — вид спорта,
+       контур         — «моё»,
+       кегль и вес    — важность.
+     Красится только контур, а левая полоса остаётся цветом вида спорта —
+     её цвет возвращаем явно, иначе border-color закрасил бы и её.
+
+     Про цвет. Напрашивался оранжевый #FF671F — им же в main.css покрашен
+     значок ◪. Но он почти совпадает с янтарным рогейна (#d09a3c) на
+     соседней полосе. Свободных мест в палитре немного: зелёный занят
+     ориентом, янтарный рогейном, голубой водным, серый «типа нет»,
+     красный отменёнными. Поэтому фиолетовый — он не совпадает ни с одним
+     из типов ни на карточке, ни в свёрнутом списке.
+     ========================================================================== */
+
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.my-event {
+    border-width: 2px !important;
+    border-left-width: 4px !important;
+    border-color: #6d54a8 !important;
+    border-left-color: var(--om-type-bar) !important;
+  }
+
+  /* Важный + «мой»: контур оранжевый, полоса шире, как у прочих важных. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.my-event.major {
+    border-left-width: 6px !important;
+  }
+
+  /* Значок ◪ в углу карточки: первая ячейка красит содержимое в серый
+     (#929b94), из-за чего метка терялась. Возвращаем ей штатный оранжевый
+     .my-cp — тот же, что на десктопе и на остальных страницах сайта. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row > td:nth-child(1) .my-cp {
+    color: #FF671F !important;
+    font-size: 13px !important;
+    line-height: 1 !important;
+  }
+
+  /* Прошедшие важные старты не должны кричать: тень возвращаем обычную,
+     полосу оставляем — карточка и так приглушена opacity: .66. */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.major.disabled {
+    box-shadow: 0 2px 12px rgba(27, 54, 32, .08) !important;
+  }
+
   .om-mobile-enhanced .calendar-body .o-main-table tbody > tr[hidden] { display: none !important; }
 
   .om-mobile-enhanced .calendar-body .o-main-table tbody > tr:not(:has(> td.month-row)) > td {

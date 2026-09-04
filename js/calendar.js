@@ -193,6 +193,18 @@ function renderMapsTable() {
             if(evt.cancelled) {
                 row.classList.add('cancelled');
             }
+            // Важные старты. Внешний вид задают css/theme.css (десктоп —
+            // жирное начертание, как было) и css/calendar-mobile.css
+            // (карточки — крупный заголовок и утолщённая обводка).
+            if (isMajor(evt)) {
+                row.classList.add('major');
+            }
+            // «Мои» старты — тот же признак, по которому раньше ставился <b>.
+            // Внешний вид задают css/theme.css (десктоп) и
+            // css/calendar-mobile.css (карточки).
+            if (evt.id && myEvents.includes(evt.id)) {
+                row.classList.add('my-event');
+            }
             if (!evt.type || evt.type.includes('ORIENT') || evt.type.includes('INDOOR')) {
                 row.classList.add('orient');
                 korients++;
@@ -265,11 +277,12 @@ function buildMonth() {
     }
 }
 
+// Жирное начертание важных и «моих» стартов раньше делалось здесь: каждая
+// ячейка оборачивалась в <b>. Теперь признаки живут классами строки
+// (.major / .my-event), а начертание задаёт CSS. Заодно ушли восемь
+// вызовов isMajor() на строку — по одному на ячейку.
 function td(evt, row, html) {
     const td = document.createElement('td');
-    if (html && (isMajor(evt) || (evt.id && myEvents.includes(evt.id)))) {
-        html = `<b>${html}</b>`;
-    }
     td.innerHTML = html;
     row.appendChild(td);
 }
