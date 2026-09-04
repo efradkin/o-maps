@@ -917,18 +917,21 @@ footer hr {
    панель уезжает за край экрана. Вложенные пункты (.dropdown.dropend)
    выпадают ещё правее — вбок от родителя, места им уже совсем нет.
 
-   Решение. Корневое меню жёстко прижимаем к правому краю кнопки, а
-   подменю раскрываем «гармошкой» внутрь списка, а не вбок. Inline-стили
-   Popper перебиваются через !important, поэтому ни bootstrap.min.js, ни
-   разметку из js/global-menu.js трогать не нужно: правки чисто в CSS и
-   откатываются удалением этого блока.
+   Решение. Корневое меню жёстко прижимаем к правому краю кнопки.
+   Подменю раскрывается влево, если слева хватает места, иначе —
+   «гармошкой» внутрь списка. Выбор делает setupMobileSubmenus() в
+   js/global-menu.js: CSS не умеет измерять свободное место, поэтому
+   здесь только два готовых состояния, а JS вешает нужный класс.
+
+   Состояние по умолчанию (без классов) — гармошка. Так меню останется
+   рабочим, даже если браузер взял js/global-menu.js из старого кэша.
 
    Порог 900px — не только телефоны: на планшете в портретной ориентации
    меню упиралось в край так же.
    ------------------------------------------------------------------ */
 @media (max-width: 900px) {
 
-    /* Корневое меню: правый край меню = правый край кнопки. */
+    /* --- корневое меню: правый край меню = правый край кнопки --- */
     .dropdown-button-right > .dropdown > .dropdown-menu {
         position: absolute !important;
         top: 100% !important;
@@ -940,11 +943,10 @@ footer hr {
         min-width: 210px;
         max-width: min(320px, calc(100vw - 16px));
 
-        /* Раскрытая «гармошка» бывает выше экрана. На календаре у html
-           стоит overflow: hidden (страница не прокручивается, скроллится
-           только список стартов), поэтому меню нужен собственный скролл.
-           Он безопасен ровно потому, что подменю ниже сделаны потоковыми:
-           будь они всплывающими, overflow: auto их бы обрезал. */
+        /* Раскрытая гармошка бывает выше экрана. На календаре у html стоит
+           overflow: hidden (страница не прокручивается, скроллится только
+           список стартов), поэтому меню нужен собственный скролл. Всплывающие
+           подменю он не обрезает: они position: fixed и из потока выходят. */
         max-height: calc(100vh - 76px);
         max-height: calc(100dvh - 76px);
         overflow-y: auto;
@@ -952,7 +954,7 @@ footer hr {
         -webkit-overflow-scrolling: touch;
     }
 
-    /* Подменю любого уровня — в поток, со сдвигом и линией слева. */
+    /* --- подменю: базовое состояние — гармошка --- */
     .dropdown-button-right .dropdown-menu .dropdown.dropend {
         position: static !important;
     }
@@ -975,15 +977,35 @@ footer hr {
         box-shadow: none;
     }
 
-    /* Пункты: палец должен попадать, длинные названия переносим по словам,
-       а не обрезаем (у Bootstrap тут white-space: nowrap). */
+    /* --- подменю: слева есть место, показываем отдельной панелью ---
+       Координаты (left/top/width/max-height) ставит JS: он единственный,
+       кто знает, сколько места осталось слева от родителя. Пишет он их
+       inline и обязательно с priority = 'important' — иначе их перебьёт
+       left/top: auto !important из правила гармошки выше. */
+    .dropdown-button-right .dropdown-menu .dropdown.dropend.gm-submenu-flyout > .dropdown-menu {
+        position: fixed !important;
+        margin: 0 !important;
+        padding: 6px;
+        border: 1px solid var(--o-border);
+        border-left: 1px solid var(--o-border);
+        border-radius: var(--o-r);
+        background: var(--bs-dropdown-bg, #fff);
+        box-shadow: var(--o-sh-pop);
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+        z-index: 1080;
+    }
+
+    /* --- пункты --- */
     .dropdown-button-right .dropdown-menu .dropdown-item {
-        white-space: normal;
+        white-space: normal;   /* длинные названия переносим, а не обрезаем */
         padding: 9px 12px;
     }
 
-    /* Стрелка у пункта с подменю: уводим к правому краю строки и
-       разворачиваем вниз, когда подменю раскрыто. */
+    /* Стрелка у пункта с подменю: уводим к правому краю строки. В гармошке
+       она разворачивается вниз, во всплывающем подменю — по направлению
+       раскрытия: влево или вправо. */
     .dropdown-button-right .dropdown-menu .dropend > .dropdown-toggle::after {
         float: right;
         margin-top: .55em;
@@ -991,6 +1013,12 @@ footer hr {
     }
     .dropdown-button-right .dropdown-menu .dropend > .dropdown-toggle.show::after {
         transform: rotate(90deg);
+    }
+    .dropdown-button-right .dropdown-menu .dropend.gm-submenu-flyout > .dropdown-toggle.show::after {
+        transform: rotate(180deg);
+    }
+    .dropdown-button-right .dropdown-menu .dropend.gm-submenu-flyout-right > .dropdown-toggle.show::after {
+        transform: none;
     }
 }
 

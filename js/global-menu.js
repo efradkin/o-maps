@@ -207,7 +207,7 @@ function buildMenuHtml(items, options = {}) {
 
         if (Array.isArray(item.menuItems) && item.menuItems.length > 0) {
             return `${indent}<div class="dropdown dropend">
-${indent}    <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">${title}</a>
+${indent}    <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown"${staticDisplayAttr} aria-haspopup="true" aria-expanded="false">${title}</a>
 ${indent}    <div class="dropdown-menu" aria-labelledby="${submenuAriaLabelledBy}">
 ${renderItems(item.menuItems, level + 2, options)}
 ${indent}    </div>
@@ -224,6 +224,12 @@ ${indent}</div>`;
         window.matchMedia('(hover: hover) and (pointer: fine)').matches
             ? ' dropdown-hover-all'
             : '';
+
+    // На узких экранах подменю размещает setupMobileSubmenus(), а не Popper.
+    // data-bs-display="static" отключает у Popper запись inline-стилей
+    // (applyStyles), иначе он будет затирать наши left/top/width при каждой
+    // прокрутке. На десктопе всё остаётся как было.
+    const staticDisplayAttr = isNarrowGlobalMenu() ? ' data-bs-display="static"' : '';
 
     return `<div class="dropdown-button-right d-flex${hoverClass}">
     <div class="dropdown">
@@ -328,9 +334,147 @@ function hideRightButtonsOnMobile() {
     });
 }
 
+/* ============================================================= */
+/* Размещение подменю глобального меню на узких экранах.
+
+   Кнопка меню стоит у правого края, поэтому корневой список прижат к
+   правому краю экрана (css/theme.css, блок [17]). Подменю раскрывается
+   влево — там свободно; но у третьего-четвёртого уровня места слева уже
+   не остаётся, и такое подменю раскрывается «гармошкой» внутрь списка.
+
+   Выбор нельзя сделать в CSS: нужно измерить, сколько места слева от
+   родительского списка. Поэтому JS вешает на .dropdown.dropend один из
+   двух классов, а всю отрисовку делает CSS.                          */
+
+const GLOBAL_MENU_MOBILE = {
+    breakpoint: 900,      // px: ниже этой ширины действуют мобильные правила
+    minFlyoutWidth: 150,  // px: если слева меньше — раскрываем гармошкой
+    maxFlyoutWidth: 300,  // px: шире делать смысла нет, строки станут длинными
+    edgeGap: 6,           // px: отступ от краёв экрана
+    overlap: 2            // px: подменю чуть наезжает на родителя, как в hover-меню
+};
+
+function isNarrowGlobalMenu() {
+    return window.matchMedia(`(max-width: ${GLOBAL_MENU_MOBILE.breakpoint}px)`).matches;
+}
+
+function getGlobalMenuRoot() {
+    return document.querySelector('.dropdown-button-right > .dropdown > .dropdown-menu');
+}
+
+/* Координаты пишем с priority = 'important'.
+
+   Базовое (оно же аварийное) правило гармошки в theme.css задаёт
+   left/top: auto !important — иначе его перебивали бы inline-стили Popper.
+   Обычный inline-стиль против !important из таблицы стилей проигрывает,
+   и панель вставала бы в позицию гармошки. Inline + important выигрывает
+   у всех, поэтому ставим и снимаем свойства только так.                */
+function setSubmenuStyle(submenu, property, value) {
+    if (value === null) {
+        submenu.style.removeProperty(property);
+    } else {
+        submenu.style.setProperty(property, value, 'important');
+    }
+}
+
+function resetSubmenuPlacement(submenuBox, submenu) {
+    submenuBox.classList.remove('gm-submenu-flyout', 'gm-submenu-flyout-right');
+    ['left', 'top', 'width', 'max-height'].forEach(property => setSubmenuStyle(submenu, property, null));
+}
+
+function placeSubmenu(submenuBox, toggle, submenu) {
+    const parentMenu = submenuBox.parentElement.closest('.dropdown-menu');
+    if (!parentMenu) {
+        return;
+    }
+
+    const cfg = GLOBAL_MENU_MOBILE;
+    const parentRect = parentMenu.getBoundingClientRect();
+    const freeLeft = parentRect.left - cfg.edgeGap;
+    const freeRight = window.innerWidth - parentRect.right - cfg.edgeGap;
+
+    // Уходим в ту сторону, где просторнее. У подменю первого уровня справа
+    // ничего нет (корневой список прижат к правому краю), поэтому оно всегда
+    // раскрывается влево; у глубоких уровней слева места уже не остаётся, и
+    // они уходят вправо, ложась поверх родительских списков — обычное
+    // поведение каскадного меню. Гармошка — только когда не влезло никуда.
+    const toRight = freeRight > freeLeft;
+    const free = toRight ? freeRight : freeLeft;
+
+    if (free < cfg.minFlyoutWidth) {
+        resetSubmenuPlacement(submenuBox, submenu);
+        return;
+    }
+
+    submenuBox.classList.add('gm-submenu-flyout');
+    submenuBox.classList.toggle('gm-submenu-flyout-right', toRight);
+
+    const width = Math.min(free, cfg.maxFlyoutWidth);
+    const left = toRight
+        ? Math.min(window.innerWidth - cfg.edgeGap - width, parentRect.right - cfg.overlap)
+        : Math.max(cfg.edgeGap, parentRect.left + cfg.overlap - width);
+
+    setSubmenuStyle(submenu, 'width', `${width}px`);
+    setSubmenuStyle(submenu, 'left', `${left}px`);
+    setSubmenuStyle(submenu, 'max-height', `${window.innerHeight - 2 * cfg.edgeGap}px`);
+
+    // Высоту читаем только после установки ширины: от неё зависят переносы строк.
+    const toggleTop = toggle.getBoundingClientRect().top;
+    const maxTop = window.innerHeight - cfg.edgeGap - submenu.offsetHeight;
+    setSubmenuStyle(submenu, 'top', `${Math.max(cfg.edgeGap, Math.min(toggleTop - cfg.edgeGap, maxTop))}px`);
+}
+
+function forEachOpenFlyoutSubmenu(callback) {
+    const root = getGlobalMenuRoot();
+    if (!root) {
+        return;
+    }
+
+    root.querySelectorAll('.dropdown.dropend.gm-submenu-flyout').forEach(submenuBox => {
+        const toggle = submenuBox.querySelector(':scope > .dropdown-toggle');
+        const submenu = submenuBox.querySelector(':scope > .dropdown-menu');
+        if (toggle && submenu && submenu.classList.contains('show')) {
+            callback(submenuBox, toggle, submenu);
+        }
+    });
+}
+
+function setupMobileSubmenus() {
+    if (!isNarrowGlobalMenu()) {
+        return;
+    }
+
+    const root = getGlobalMenuRoot();
+    if (!root) {
+        return;
+    }
+
+    root.querySelectorAll('.dropdown.dropend').forEach(submenuBox => {
+        const toggle = submenuBox.querySelector(':scope > .dropdown-toggle');
+        const submenu = submenuBox.querySelector(':scope > .dropdown-menu');
+        if (!toggle || !submenu) {
+            return;
+        }
+
+        // shown, а не show: к этому моменту подменю уже отображено и его можно
+        // измерить. Обработчик Bootstrap вызывает синхронно, до отрисовки кадра,
+        // поэтому промежуточного положения на экране не видно.
+        toggle.addEventListener('shown.bs.dropdown', () => placeSubmenu(submenuBox, toggle, submenu));
+        toggle.addEventListener('hidden.bs.dropdown', () => resetSubmenuPlacement(submenuBox, submenu));
+    });
+
+    // Всплывающее подменю — position: fixed, само за прокруткой корневого
+    // списка оно не поедет, поэтому пересчитываем координаты.
+    const reposition = () => forEachOpenFlyoutSubmenu(placeSubmenu);
+    root.addEventListener('scroll', reposition, { passive: true });
+    window.addEventListener('resize', reposition);
+    window.addEventListener('orientationchange', reposition);
+}
+
 function setupResponsiveRightButtons() {
     addLocalRightButtonsToGlobalMenuOnMobile();
     hideRightButtonsOnMobile();
+    setupMobileSubmenus();
 }
 
 function runAfterDomReady(callback) {
