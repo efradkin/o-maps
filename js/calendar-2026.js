@@ -2546,6 +2546,16 @@ let events2026 = [
         owner: 'SFSO_SPB',
         map: 'zerkalny_2002'
     },
+    {
+        id: 'SPB_20260926_1',
+        date: '2026-09-26',
+        name: 'Золотые кольца (Свадебные)',
+        place: 'Вьюн, база Динамо',
+        type: 'ORIENT',
+        fmt: 'семейная эстафета',
+        owner: 'WEDDING',
+        map: 'vjun_2026'
+    },
 /*
     {
         id: 'SPB_20260808_1',
