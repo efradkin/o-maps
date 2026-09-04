@@ -16,6 +16,28 @@
     --om-red: #a93a34;
     --om-amber: #9a6a08;
     --om-filter-height: 198px;
+
+    /* Раскраска карточек по виду старта — мобильный аналог блока [10]
+       theme.css (.o-main-table tr.orient / .rogaine / .water). Значения
+       здесь — состояние по умолчанию, то есть «тип не задан»: лыжи, вело
+       и прочее, у которых calendar.js не навешивает класс. В десктопе
+       такие строки остаются белыми и без цветной полосы, поэтому здесь
+       полоса нейтрально-серая.
+         --om-type-bar   — цветная полоса слева у карточки
+         --om-type-bg    — заливка карточки
+         --om-type-date  — плашка даты (и её нажатое состояние / шеврон)
+         --om-type-chip  — плашка «вид спорта»
+       Конкретные значения переопределяются правилами tr.orient и т.д.
+       ниже; они задают ТОЛЬКО переменные, поэтому специфичность правила
+       самой карточки (у него :not(:has(...)) — на один класс больше) им
+       не мешает. */
+    --om-type-bar: #9fb0a4;
+    --om-type-bg: var(--om-card);
+    --om-type-date: #eef1ed;
+    --om-type-date-active: #e0e5df;
+    --om-type-date-ink: #333c35;
+    --om-type-chip: #edf0ec;
+    --om-type-chip-ink: #4b554d;
   }
 
   /* В мобильном режиме у страницы нет собственного вертикального скролла:
@@ -346,19 +368,58 @@
     margin: 8px 0 !important;
     padding: 12px !important;
     border: 1px solid var(--om-line) !important;
-    border-left: 4px solid #6ca879 !important;
+    border-left: 4px solid var(--om-type-bar) !important;
     border-radius: 14px !important;
-    background: var(--om-card) !important;
+    background: var(--om-type-bg) !important;
     color: var(--om-ink) !important;
     box-shadow: 0 2px 12px rgba(27, 54, 32, .08) !important;
     overflow: hidden !important;
   }
 
-  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.rogaine,
-  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.water { border-left-color: #5489a7 !important; }
+  /* Ориентирование (класс .orient — ORIENT, INDOOR и события без типа). */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.orient {
+    --om-type-bar: #4f9a63;
+    --om-type-bg: #f7fcf8;
+    --om-type-date: #e6f2e8;
+    --om-type-date-active: var(--om-green-3);
+    --om-type-date-ink: #24482b;
+    --om-type-chip: #e5f1e6;
+    --om-type-chip-ink: #235d30;
+  }
+
+  /* Рогейн и всё, что к нему приравнено (класс .rogaine). */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.rogaine {
+    --om-type-bar: #d09a3c;
+    --om-type-bg: #fefaf1;
+    --om-type-date: #f7edd8;
+    --om-type-date-active: #efe0bd;
+    --om-type-date-ink: #4d3a12;
+    --om-type-chip: #f6ead2;
+    --om-type-chip-ink: #7a5716;
+  }
+
+  /* Водный рогейн (класс .water). */
+  .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.water {
+    --om-type-bar: #4b8ec4;
+    --om-type-bg: #f5faff;
+    --om-type-date: #e3eefa;
+    --om-type-date-active: #cfe1f3;
+    --om-type-date-ink: #1d3f5c;
+    --om-type-chip: #dfebf8;
+    --om-type-chip-ink: #1f5480;
+  }
+
+  /* Отменённый старт перебивает тип: правило идёт последним и имеет ту же
+     специфичность, что и правила типов выше. */
   .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.cancelled {
-    border-left-color: var(--om-red) !important;
-    background: #fff7f6 !important;
+    --om-type-bar: var(--om-red);
+    --om-type-bg: #fff7f6;
+    /* плашка даты подхватывает состояние, а не вид спорта: вид всё равно
+       виден в плашке справа, а зелёная дата на розовой карточке спорит
+       с красной полосой */
+    --om-type-date: #f8e9e7;
+    --om-type-date-active: #f0d9d6;
+    --om-type-date-ink: #6b3a36;
   }
   .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.current {
     outline: 2px solid rgba(49, 104, 61, .33) !important;
@@ -412,8 +473,8 @@
     box-sizing: border-box !important;
     padding: 9px 10px !important;
     border-radius: 11px !important;
-    background: var(--om-green-2) !important;
-    color: #24482b !important;
+    background: var(--om-type-date) !important;
+    color: var(--om-type-date-ink) !important;
     font-size: 14px !important;
     font-weight: 800 !important;
     line-height: 1.25 !important;
@@ -459,8 +520,8 @@
     margin-top: 8px !important;
     padding: 6px 9px !important;
     border-radius: 11px !important;
-    background: #e5f1e6 !important;
-    color: #235d30 !important;
+    background: var(--om-type-chip) !important;
+    color: var(--om-type-chip-ink) !important;
     font-size: 12px !important;
     line-height: 1.25 !important;
   }
@@ -650,7 +711,7 @@
     right: 0;
     bottom: 0;
     height: 14px;
-    color: #3d6d49;
+    color: var(--om-type-date-ink);
     font-size: 20px;
     font-weight: 700;
     line-height: 14px;
@@ -664,7 +725,7 @@
   }
 
   .om-mobile-enhanced .calendar-body .o-main-table tbody > tr.om-event-row.om-collapsible > td:nth-child(2):active {
-    background: var(--om-green-3) !important;
+    background: var(--om-type-date-active) !important;
   }
 
   /* Свёрнутая карточка чуть плотнее раскрытой. */
