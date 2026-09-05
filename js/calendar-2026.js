@@ -2500,16 +2500,6 @@ let events2026 = [
         map: 'petjajarvy_2024'
     },
     {
-        id: 'SPB_20260918_1',
-        date: '2026-09-18',
-        name: 'Велоизоляция',
-        type: ['ROGAINE', 'VELO'],
-        link: 'https://www.multsport.ru/starts/veloizol26/',
-        reg: 'https://www.multsport.ru/starts/veloizol26/registration.html',
-        fmt: '8, 4',
-        owner: 'MULTSPORT'
-    },
-    {
         id: 'SPB_20260919_2',
         date: '2026-09-19',
         place: 'Рощино, Мухино',
@@ -2546,8 +2536,9 @@ let events2026 = [
         date: '2026-09-26',
         name: 'Золотые кольца (Свадебные)',
         place: 'Вьюн, база Динамо',
+        link: 'https://vk.com/wall-128591100_3316',
         type: 'ORIENT',
-        fmt: 'семейная эстафета',
+        fmt: 'семейно-командные по выбору',
         owner: 'WEDDING',
         map: 'vjun_2026'
     },
@@ -2606,6 +2597,16 @@ let events2026 = [
         link: 'https://vk.ru/vesta_priozersk',
         type: 'ORIENT',
         owner: 'VESTA_PRIOZERSK'
+    },
+    {
+        id: 'SPB_20260918_1',
+        date: '2026-10-03',
+        name: 'Велоизоляция',
+        type: ['ROGAINE', 'VELO'],
+        link: 'https://www.multsport.ru/starts/veloizol26/',
+        reg: 'https://www.multsport.ru/starts/veloizol26/registration.html',
+        fmt: '8, 4',
+        owner: 'MULTSPORT'
     },
     {
         id: 'SPB_20261003_1',
