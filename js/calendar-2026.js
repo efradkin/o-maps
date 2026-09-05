@@ -2469,6 +2469,7 @@ let events2026 = [
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/54579',
         o_site: '260905_f',
+        reskeep: 919,
         o_gps: {
             'A': 25877,
             'B': 25878,
@@ -2477,7 +2478,9 @@ let events2026 = [
         },
         info: 'Новая карта.',
         owner: 'FENIX',
-        map: 'vjun_2026'
+        map: 'vjun_2026',
+        strava: 20044898955,
+        me: 'MA'
     },
     {
         id: 'SPB_20260905_2',
