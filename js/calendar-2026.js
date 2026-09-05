@@ -2469,6 +2469,12 @@ let events2026 = [
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/54579',
         o_site: '260905_f',
+        o_gps: {
+            'A': 25877,
+            'B': 25878,
+            'C': 25879,
+            'D': 25880,
+        },
         info: 'Новая карта.',
         owner: 'FENIX',
         map: 'vjun_2026'
