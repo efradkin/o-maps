@@ -2290,7 +2290,8 @@ let events2026 = [
         fmt: 'классика, ночной спринт, классика',
         video: ['https://vk.com/video-147403700_456239308','https://youtu.be/cRg7Lolr10U','https://www.instagram.com/reels/DcQ44gqoTzq/'],
         owner: 'DLITELNY',
-        map: 'sosnovij_bor_2021'
+        map: 'sosnovij_bor_2021',
+        reskeep: [909,910]
     },
     {
         id: 'SPB_20260815_2',
@@ -2326,7 +2327,8 @@ let events2026 = [
         video: 'https://vkvideo.ru/video-238805001_456239039',
         type: 'ORIENT',
         owner: 'VYBORG',
-        map: 'tsvelodubovo_2020'
+        map: 'tsvelodubovo_2020',
+        reskeep: 911
     },
     {
         id: 'SPB_2026019_1',
@@ -2370,6 +2372,7 @@ let events2026 = [
             '2':25814,
             '3':25824
         },
+        reskeep: [912,913,914],
         publish: 'https://vk.ru/wall-207717517_13895',
         video: ['https://www.youtube.com/watch?v=rbA5PLcaub0','https://vkvideo.ru/video-238805001_456239040'],
         type: 'ORIENT',
@@ -2388,7 +2391,8 @@ let events2026 = [
         owner: ['DLITELNY','SFSO_SPB'],
         map: 'peski_2026',
         coord: [60.482621, 30.414405],
-        planner: 'KSHN_D'
+        planner: 'KSHN_D',
+        reskeep: 915
     },
     {
         id: 'SPB_20260827_1',
@@ -2426,7 +2430,8 @@ let events2026 = [
         photo: 'https://vk.ru/album-201330282_311662493',
         video: ['https://www.youtube.com/watch?v=SWkrPI6rKHU','https://vkvideo.ru/video-238805001_456239042'],
         map: 'leypjasuo_2014',
-        owner: 'SFSO_LO'
+        owner: 'SFSO_LO',
+        reskeep: 916
     },
     {
         id: 'SPB_20260829_2',
@@ -2454,6 +2459,7 @@ let events2026 = [
         split: 'splits/2026/SPB_20260830_1_split.html',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1754',
         o_gps: 25842,
+        reskeep: 917,
         planner: 'CHGRVSKY_V',
         publish: 'https://vk.ru/album-230167293_314353203',
         type: 'ORIENT',
