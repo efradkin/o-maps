@@ -1859,4 +1859,14 @@ let parkMaps = [
         owner: 'RDNV_I',
         type: ['PARK']
     },
+    {
+        name: 'Багратионовский сквер',
+        year: 2026,
+        url: './maps/parks/bagrationovsky_skver_2026.webp',
+        link: './original_maps/parks/bagrationovsky_skver_2026_omaps.jpg',
+        bounds: [[59.9192476, 30.3355479], [59.9188712, 30.3397751], [59.9169997, 30.3345609]],
+        author: 'SHRNN',
+        owner: 'SHRNN',
+        type: ['PARK']
+    },
 ];
