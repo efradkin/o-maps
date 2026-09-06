@@ -2505,6 +2505,13 @@ let events2026 = [
         type: 'ORIENT',
         o_site: '260906',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1755',
+        reskeep: 920,
+        o_gps: {
+            'M50':25896,
+            'ALL':25893
+        },
+        strava: 20060095934,
+        me: 'М50',
         owner: 'AZIMUT',
         map: 'petjajarvy_2024'
     },

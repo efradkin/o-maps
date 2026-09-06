@@ -702,6 +702,7 @@ let commonEvents2026 = [
         fmt: 'спринт, многодневный, эстафета',
         major: true,
         owner: 'SFSO_SPB',
+        planner: ['KSHN_D','LHMNV'],
         map: ['sestroretsk_dubkovskoe_2026','zelenogorsk_schuchye_2026']
     },
     {
