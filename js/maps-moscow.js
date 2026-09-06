@@ -5778,6 +5778,18 @@ let moscowMaps = [
         type: ['ROGAINE']
     },
     {
+        name: 'Финеево',
+        date: '2026-09-05',
+        url: './maps/moscow/ak/fineevo_rogaine_2026.webp',
+        link: './original_maps/moscow/ak/fineevo_kompot_rogaine_2026_omaps.webp',
+        info: 'Осенний Компот-рогейн.',
+        bounds: [[56.1264187, 38.8807869], [56.0956940, 39.1283226], [56.0035644, 38.8327217]],
+        o_gps: 25862,
+        owner: 'KMPT',
+        start: 'KMPT_ROGAINE',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Лосиный остров',
         year: 2007,
         url: './maps/moscow/losiny_ostrov_rogaine_2007.webp',
