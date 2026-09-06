@@ -5783,6 +5783,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/fineevo_rogaine_2026.webp',
         link: './original_maps/moscow/ak/fineevo_kompot_rogaine_2026_omaps.webp',
         info: 'Осенний Компот-рогейн.',
+        about: 'https://x-lite.run/ar2026',
         bounds: [[56.1264187, 38.8807869], [56.0956940, 39.1283226], [56.0035644, 38.8327217]],
         o_gps: 25862,
         owner: 'KMPT',
