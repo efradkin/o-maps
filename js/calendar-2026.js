@@ -2475,6 +2475,7 @@ let events2026 = [
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/54579',
         o_site: '260905_f',
+        split: 'splits/2026/SPB_20260905_1_split.html',
         reskeep: 919,
         o_gps: {
             'A': 25877,
@@ -2504,6 +2505,7 @@ let events2026 = [
         place: 'Петяярви',
         type: 'ORIENT',
         o_site: '260906',
+        split: 'splits/2026/SPB_20260906_1_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1755',
         reskeep: 920,
         o_gps: {
