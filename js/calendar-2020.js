@@ -18,6 +18,10 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=4432',
         res: 'https://o-site.spb.ru/_races/200107-08/200107_res.htm',
+        split: [
+            'splits/2020/SPB_20200107_1_1_split.htm',
+            'splits/2020/SPB_20200107_1_2_split.htm'
+        ],
         owner: 'NW',
         o_site: '200107-08',
         reskeep: [297, 298]
@@ -51,6 +55,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 10 этап',
         type: 'ORIENT',
         reskeep: 299,
+        split: 'splits/2020/SPB_20200118_1_split.htm',
         owner: 'WN',
         strava: 3022109211,
         map: 'toksovo_okhta_park_2008'
@@ -98,6 +103,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 11 этап',
         type: 'ORIENT',
         reskeep: 307,
+        split: 'splits/2020/SPB_20200125_1_split.htm',
         owner: 'WN'
     },
     {
@@ -108,6 +114,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1126',
         res: 'http://orgeo.ru/live/#/11853',
+        split: 'splits/2020/SPB_20200126_1_split.htm',
         video: 'https://www.youtube.com/watch?v=T8iwv22Ew-I',
         o_site: '200126',
         reskeep: 301,
@@ -137,6 +144,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 12 этап',
         type: 'ORIENT',
         reskeep: 306,
+        split: 'splits/2020/SPB_20200201_1_split.htm',
         owner: 'WN',
         strava: 3062434549
     },
@@ -148,6 +156,7 @@ let events2020 = [
         type: 'SKI',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1133',
         res: 'https://o-site.spb.ru/_races/200202/200202_rez.htm',
+        split: 'splits/2020/SPB_20200202_1_split.htm',
         o_site: '200202',
         reskeep: 305,
         map: 'orekhovo_nyrkovo_winter_2012',
@@ -223,6 +232,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 13 этап',
         type: 'ORIENT',
         reskeep: 315,
+        split: 'splits/2020/SPB_20200216_2_split.htm',
         map: 'petjajarvy_2024',
         owner: 'WN',
         strava: 3105111861
@@ -262,6 +272,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 14 этап',
         type: 'ORIENT',
         reskeep: 316,
+        split: 'splits/2020/SPB_20200224_1_split.htm',
         map: 'petjajarvy_2024',
         owner: 'WN',
         strava: 3128039116
@@ -301,6 +312,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1144',
         res: 'https://o-site.spb.ru/_races/200307/rez.htm',
+        split: 'splits/2020/SPB_20200307_1_split.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_270815414',
         video: ['http://vk.com/video-36099352_456240633','https://www.youtube.com/watch?v=pErIMf90VNE'],
         owner: 'SFSO_SPB',
@@ -350,6 +362,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей 2019/20. 15 этап',
         type: 'ORIENT',
         reskeep: 330,
+        split: 'splits/2020/SPB_20200314_1_split.htm',
         owner: 'WN'
     },
     {
@@ -360,6 +373,7 @@ let events2020 = [
         video: 'https://www.youtube.com/watch?v=W0A2Sok8tX0',
         type: 'ORIENT',
         reskeep: 331,
+        split: 'splits/2020/SPB_20200315_1_split.htm',
         map: 'zelenogorsk_schuchye_2020',
         owner: 'WN',
         strava: 3185721188
@@ -390,6 +404,11 @@ let events2020 = [
         name: 'Кубок Белых Ночей - 2019/20',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020BN/190921_res.htm',
+        split: [
+            'splits/2020/SPB_20200322_1_1_split.htm',
+            'splits/2020/SPB_20200322_1_2_split.htm',
+            'splits/2020/SPB_20200322_1_4_split.htm'
+        ],
         info: 'Серия тренировочных стартов, проводимая клубом Белые Ночи 1-й этап 28.09.19 Васкелово Результаты Сплиты 2-й этап 05.10.19 Черные озера Результаты Сплиты 3-й этап 19.10.19 Ильичево Результаты Сплиты 4-й этап 26.10.19 Петяярви Результаты Сплиты 5-й этап 02.11.19 Пухтолова гора Результаты Сплиты 6-й этап 03.11.19 Первомайское Результаты Сплиты 7-й этап 23.11.19 Воейково Результаты Сплиты 8-й этап 07.12.19 Болотная станция Результаты Сплиты 9-й этап 14.12.19 Голубая дача Результаты Сплиты 10-й этап 18.01.20 Охта-парк Результаты Сплиты 11-й этап 25.01.20 Сестрорецкие дюны Результаты Сплиты 12-й этап 01.02.20 Кавголово Результаты Сплиты 13-й этап 16.02.20 Петяярви Результаты Сплиты 14-й этап 24.02.20 Петяярви, Кентавр Результаты Сплиты 15-й этап 14.03.20 Васкелово Результаты Сплиты 16-й этап 15.03.20 оз. Щучье Результаты Сплиты',
         owner: 'WN',
         o_site: '2020BN',
@@ -880,6 +899,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 9 этап',
         type: 'ORIENT',
         reskeep: 353,
+        split: 'splits/2020/SPB_20200815_2_split.htm',
         map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
         strava: 3917161372
@@ -891,6 +911,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 10 этап',
         type: 'ORIENT',
         reskeep: 355,
+        split: 'splits/2020/SPB_20200816_1_split.htm',
         map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
         strava: 3921872660
@@ -902,6 +923,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 11 этап',
         type: 'ORIENT',
         reskeep: 357,
+        split: 'splits/2020/SPB_20200822_1_split.htm',
         map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN'
     },
@@ -922,6 +944,7 @@ let events2020 = [
         name: 'Индивидуальная тренировка Белых ночей. 12 этап',
         type: 'ORIENT',
         reskeep: 356,
+        split: 'splits/2020/SPB_20200823_2_split.htm',
         map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN'
     },
@@ -983,6 +1006,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1171',
         res: 'https://o-site.spb.ru/_races/200830_pobeda/200830_res.htm',
+        split: 'splits/2020/SPB_20200830_1_split.htm',
         photo: 'http://vk.com/album-154221178_274564365',
         info: '30 августа в р-не оз.Силанде пройдёт физкультурно-оздоровительная акция "Ориентир на Победу", приуроченная к памятной дате - 3 сентября (День окончания Второй мировой войны). В программе: дистанции в заданном направлении.',
         o_site: '200830_pobeda',
@@ -1016,7 +1040,8 @@ let events2020 = [
         name: 'Кузьмоловские старты 2020. 1 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
-        reskeep: 359
+        reskeep: 359,
+        split: 'splits/2020/SPB_20200903_1_split.htm'
     },
     {
         id: 'SPB_20200906_1',
@@ -1041,6 +1066,10 @@ let events2020 = [
         name: 'СОСНОВОБОРСКИЕ ДЮНЫ - 2020',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200905-06/200905_res.htm',
+        split: [
+            'splits/2020/SPB_20200905_1_1_split.htm',
+            'splits/2020/SPB_20200905_1_2_split.htm'
+        ],
         info: 'Чемпионат и Первенство Ленинградской области по спортивному ориентированию «СОСНОВОБОРСКИЕ ДЮНЫ - 2020» Открытое первенство города Сосновый Бор по спортивному ориентированию.',
         owner: 'YUVENTA',
         o_site: '200905-06',
@@ -1073,7 +1102,8 @@ let events2020 = [
         name: 'Кузьмоловские старты. 2 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
-        reskeep: 366
+        reskeep: 366,
+        split: 'splits/2020/SPB_20200910_1_split.htm'
     },
     {
         id: 'SPB_20200912_1',
@@ -1107,6 +1137,10 @@ let events2020 = [
         place: '69км, Колосково',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20091213/200912_split.htm',
+        split: [
+            'splits/2020/SPB_20200912_3_1_split.htm',
+            'splits/2020/SPB_20200912_3_2_split.htm'
+        ],
         info: 'Чемпионат и Первенство ЛО, массовые соревнования ЛО, дисциплины: 12.09 - кросс-спринт 13.09 - кросс-лонг',
         owner: 'SFSO_LO',
         o_site: '20091213',
@@ -1154,7 +1188,8 @@ let events2020 = [
         name: 'Кузьмоловские старты. 3 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
-        reskeep: 373
+        reskeep: 373,
+        split: 'splits/2020/SPB_20200917_1_split.htm'
     },
     {
         id: 'SPB_20200918_1',
@@ -1184,6 +1219,7 @@ let events2020 = [
         name: 'White Nights Middle',
         type: 'ORIENT',
         reskeep: 368,
+        split: 'splits/2020/SPB_20200919_2_split.htm',
         owner: 'WN',
         strava: 4083562005
     },
@@ -1202,7 +1238,8 @@ let events2020 = [
         place: 'м Лесная',
         name: 'Tour de Sprint. Старт 1',
         type: 'ORIENT',
-        reskeep: 375
+        reskeep: 375,
+        split: 'splits/2020/SPB_20200920_1_split.htm'
     },
     {
         id: 'SPB_20200921_1',
@@ -1210,7 +1247,8 @@ let events2020 = [
         place: 'Большая Пушкарская ул',
         name: 'Tour de Sprint. Старт 2',
         type: 'ORIENT',
-        reskeep: 376
+        reskeep: 376,
+        split: 'splits/2020/SPB_20200921_1_split.htm'
     },
     {
         id: 'SPB_20200921_2',
@@ -1218,7 +1256,8 @@ let events2020 = [
         place: 'ул Лизы Чайкиной',
         name: 'Tour de Sprint. Старт 3',
         type: 'ORIENT',
-        reskeep: 377
+        reskeep: 377,
+        split: 'splits/2020/SPB_20200921_2_split.htm'
     },
     {
         id: 'SPB_20200922_1',
@@ -1226,7 +1265,8 @@ let events2020 = [
         place: 'Матвеевский сад',
         name: 'Tour de Sprint. Старт 4',
         type: 'ORIENT',
-        reskeep: 378
+        reskeep: 378,
+        split: 'splits/2020/SPB_20200922_1_split.htm'
     },
     {
         id: 'SPB_20200923_1',
@@ -1257,6 +1297,10 @@ let events2020 = [
         place: 'Выборг',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20092428/20200927_res.htm',
+        split: [
+            'splits/2020/SPB_20200926_2_1_split.htm',
+            'splits/2020/SPB_20200926_2_2_split.htm'
+        ],
         owner: 'VYBORG',
         o_site: '20092428',
         map: ['vyborg_annenskie_2017','vyborg_center_2020_09_26','batarejnaya_gora_2020'],
@@ -1279,6 +1323,7 @@ let events2020 = [
         name: 'Кубок Белых ночей 2019/20. 2 этап',
         type: 'ORIENT',
         reskeep: 380,
+        split: 'splits/2020/SPB_20200926_3_split.htm',
         owner: 'WN'
     },
     {
@@ -1320,7 +1365,8 @@ let events2020 = [
         place: 'Неизвестно',
         name: 'Тренировочный старт Яркого Мира. Техника и тактика 6',
         type: 'ORIENT',
-        reskeep: 379
+        reskeep: 379,
+        split: 'splits/2020/SPB_20200927_1_split.htm'
     },
     {
         id: 'SPB_20200927_2',
@@ -1329,6 +1375,7 @@ let events2020 = [
         name: 'Кубок Белых ночей 2019/20. 3 этап',
         type: 'ORIENT',
         reskeep: 381,
+        split: 'splits/2020/SPB_20200927_2_split.htm',
         map: 'zaporozhskoe_2020',
         owner: 'WN',
         strava: 4119219789
@@ -1341,6 +1388,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1180',
         res: 'https://o-site.spb.ru/_races/201003/res1.htm',
+        split: 'splits/2020/SPB_20201003_1_split.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_275110153',
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга. СПб ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
         owner: 'SFSO_SPB',
@@ -1355,6 +1403,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1181',
         res: 'https://o-site.spb.ru/_races/201004/res2.htm',
+        split: 'splits/2020/SPB_20201004_1_split.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_275121057',
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга. СПб ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
         owner: 'SFSO_SPB',
@@ -1415,6 +1464,7 @@ let events2020 = [
         name: 'Кубок Белых ночей 2019/20. 4 этап',
         type: 'ORIENT',
         reskeep: 386,
+        split: 'splits/2020/SPB_20201011_2_split.htm',
         map: 'pervomayskoe_2021',
         owner: 'WN',
         strava: 4181510517
@@ -1470,6 +1520,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей 2019/20. 5 этап',
         type: 'ORIENT',
         reskeep: 389,
+        split: 'splits/2020/SPB_20201018_3_split.htm',
         map: 'petjajarvy_2024',
         owner: 'WN',
         strava: 4212065523
@@ -1583,7 +1634,8 @@ let events2020 = [
         place: 'Мичуринское',
         name: 'Техника и тактика. 7 этап',
         type: 'ORIENT',
-        reskeep: 391
+        reskeep: 391,
+        split: 'splits/2020/SPB_20201107_2_split.htm'
     },
     {
         id: 'SPB_20201107_3',
@@ -1630,7 +1682,8 @@ let events2020 = [
         place: 'Мичуринское',
         name: 'Техника и тактика. 8 этап',
         type: 'ORIENT',
-        reskeep: 396
+        reskeep: 396,
+        split: 'splits/2020/SPB_20201108_3_split.htm'
     },
     {
         id: 'SPB_20201108_4',
@@ -1639,6 +1692,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей 2019/20. 6 этап',
         type: 'ORIENT',
         reskeep: 397,
+        split: 'splits/2020/SPB_20201108_4_split.htm',
         owner: 'WN',
         map: 'pukhtolova_gora_2023'
     },
@@ -1667,6 +1721,7 @@ let events2020 = [
         name: 'White Nights Sprint #2',
         type: 'ORIENT',
         reskeep: 398,
+        split: 'splits/2020/SPB_20201114_2_split.htm',
         owner: 'WN'
     },
     {
@@ -1689,6 +1744,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей 2019/20. 7 этап',
         type: 'ORIENT',
         reskeep: 399,
+        split: 'splits/2020/SPB_20201115_2_split.htm',
         map: 'petjajarvy_2024',
         owner: 'WN'
     },
@@ -1727,6 +1783,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 8 этап',
         type: 'ORIENT',
         reskeep: 401,
+        split: 'splits/2020/SPB_20201122_2_split.htm',
         map: 'pervomayskoe_2021',
         owner: 'WN'
     },
@@ -1746,6 +1803,7 @@ let events2020 = [
         name: 'White Nights middle. 2 этап',
         type: 'ORIENT',
         reskeep: 405,
+        split: 'splits/2020/SPB_20201128_1_split.htm',
         owner: 'WN',
         strava: 4401434704,
         map: 'kavgolovo_old_ski_track_2023'
@@ -1771,6 +1829,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 9 этап',
         type: 'ORIENT',
         reskeep: 406,
+        split: 'splits/2020/SPB_20201129_2_split.htm',
         map: 'bolotnaya_station_2019',
         owner: 'WN'
     },
@@ -1865,6 +1924,7 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 10 этап',
         type: 'ORIENT',
         reskeep: 410,
+        split: 'splits/2020/SPB_20201213_3_split.htm',
         owner: 'WN'
     },
     {
@@ -1950,6 +2010,7 @@ let events2020 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1330',
         o_site: '211231',
+        split: 'splits/2020/SPB_20201231_1_split.htm',
         reskeep: 417,
         map: 'sosnovka_2014'
     }

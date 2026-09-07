@@ -762,6 +762,7 @@ let events2018 = [
         name: 'Чемпионат и Первенство СПБ - велокросс эстафета',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180602r/180602_relay.htm',
+        split: 'splits/2018/SPB_20180602_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '180602r',
         reskeep: 21
@@ -920,6 +921,7 @@ let events2018 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '180617-18',
+        split: 'splits/2018/SPB_20180618_1_split.htm',
         video: 'http://northernwind.spb.ru/videosplit/2018//kkp/day1',
         reskeep: 13
     },
@@ -931,6 +933,7 @@ let events2018 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '180617-18',
+        split: 'splits/2018/SPB_20180619_1_split.htm',
         map: 'kkp_solnechnoe_2018_06_19',
         o_gps: {
             'М': 4032,
@@ -948,6 +951,7 @@ let events2018 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '180617-18',
+        split: 'splits/2018/SPB_20180620_1_split.htm',
         map: 'kkp_solnechnoe_2018_06_20',
         o_gps: {
             'М': 4036,
@@ -969,6 +973,7 @@ let events2018 = [
         type: 'ORIENT',
         start: 'KKP',
         o_site: '180617-18',
+        split: 'splits/2018/SPB_20180621_1_split.htm',
         map: 'kkp_trostinka_2018_06_21',
         o_gps: {
             'Ж': 4039,
@@ -1131,7 +1136,8 @@ let events2018 = [
         place: 'Сярьги',
         name: 'Яркий Кубок 2018/2019. 3 этап. Кросс-классика',
         type: 'ORIENT',
-        reskeep: 1
+        reskeep: 1,
+        split: 'splits/2018/SPB_20180722_1_split.htm'
     },
     {
         id: 'SPB_20180728_1',
@@ -1268,7 +1274,8 @@ let events2018 = [
         place: 'Гарболово',
         name: 'Яркий Кубок. 2 этап. Общий старт',
         type: 'ORIENT',
-        reskeep: 26
+        reskeep: 26,
+        split: 'splits/2018/SPB_20180902_1_split.htm'
     },
     {
         id: 'SPB_20180902_2',
@@ -1288,6 +1295,7 @@ let events2018 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 24,
+        split: 'splits/2018/SPB_20180905_1_split.htm',
         map: 'big_okhta_2017'
     },
     {
@@ -1307,6 +1315,7 @@ let events2018 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=925',
         res: 'https://o-site.spb.ru/_races/180908/res.htm',
+        split: 'splits/2018/SPB_20180908_2_split.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга»',
         video: [
             'http://northernwind.spb.ru/videosplit/2018/chspb_relay2',
@@ -1347,7 +1356,8 @@ let events2018 = [
         name: 'Sprint Tour SPb 2018. 2 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 31
+        reskeep: 31,
+        split: 'splits/2018/SPB_20180912_1_split.htm'
     },
     {
         id: 'SPB_20180915_1',
@@ -1397,6 +1407,7 @@ let events2018 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 40,
+        split: 'splits/2018/SPB_20180919_1_split.htm',
         map: 'serebrjany_prud_2018'
     },
     {
@@ -1407,6 +1418,7 @@ let events2018 = [
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
         reskeep: 51,
+        split: 'splits/2018/SPB_20180920_1_split.htm',
         map: 'toksovo_malinovaya_gora_2018'
     },
     {
@@ -1428,7 +1440,8 @@ let events2018 = [
         place: 'Сестрорецие Дюны',
         name: 'Цикл стартов МаТрёшка. 2 этап',
         type: 'ORIENT',
-        reskeep: 54
+        reskeep: 54,
+        split: 'splits/2018/SPB_20180922_2_split.htm'
     },
     {
         id: 'SPB_20180923_1',
@@ -1480,7 +1493,8 @@ let events2018 = [
         name: 'Кузьмоловские старты. 3 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
-        reskeep: 52
+        reskeep: 52,
+        split: 'splits/2018/SPB_20180927_1_split.htm'
     },
     {
         id: 'SPB_20180929_2',
@@ -1532,7 +1546,8 @@ let events2018 = [
         place: 'Зеленогорск, Черные озера',
         name: 'Цикл стартов МаТрёшка. 3 этап',
         type: 'ORIENT',
-        reskeep: 53
+        reskeep: 53,
+        split: 'splits/2018/SPB_20180929_6_split.htm'
     },
     {
         id: 'SPB_20180929_7',
@@ -1623,7 +1638,8 @@ let events2018 = [
         name: 'Кузьмоловские старты. 4 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
-        reskeep: 71
+        reskeep: 71,
+        split: 'splits/2018/SPB_20181004_1_split.htm'
     },
     {
         id: 'SPB_20181006_1',
@@ -1640,7 +1656,8 @@ let events2018 = [
         name: 'Sprint Tour SPb 2018. 4 этап',
         start: 'ST',
         type: 'ORIENT',
-        reskeep: 58
+        reskeep: 58,
+        split: 'splits/2018/SPB_20181006_2_split.htm'
     },
     {
         id: 'SPB_20181007_1',
@@ -1689,7 +1706,8 @@ let events2018 = [
         name: 'Кузьмоловские старты. 5 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
-        reskeep: 72
+        reskeep: 72,
+        split: 'splits/2018/SPB_20181011_1_split.htm'
     },
     {
         id: 'SPB_20181013_1',
@@ -1698,6 +1716,7 @@ let events2018 = [
         name: 'Мемориал Анатолия Окинчица',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/18101314/Results2018.htm',
+        split: 'splits/2018/SPB_20181013_1_split.htm',
         info: '47-е ночные соревнования по спортивному ориентированию, проводимые Санкт-Петербургским туристским клубом',
         start: 'OKINCHITSA',
         o_site: '18101314',
@@ -1736,6 +1755,7 @@ let events2018 = [
         name: 'Кубок Белых ночей. 1 этап',
         type: 'ORIENT',
         reskeep: 61,
+        split: 'splits/2018/SPB_20181014_2_split.htm',
         map: 'zelenogorsk_chernye_2023',
         owner: 'WN'
     },
@@ -1746,7 +1766,8 @@ let events2018 = [
         name: 'Кузьмоловские старты. 6 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
-        reskeep: 64
+        reskeep: 64,
+        split: 'splits/2018/SPB_20181018_1_split.htm'
     },
     {
         id: 'SPB_20181020_1',
@@ -1867,6 +1888,7 @@ let events2018 = [
         type: 'ORIENT',
         video: 'http://youtu.be/DYUHvS84FEs',
         o_site: '181028_nwtrail',
+        split: 'splits/2018/SPB_20181028_1_split.htm',
         reskeep: 75
     },
     {
@@ -1915,6 +1937,7 @@ let events2018 = [
         name: 'Кубок Белых Ночей. 2 этап',
         type: 'ORIENT',
         reskeep: 76,
+        split: 'splits/2018/SPB_20181104_1_split.htm',
         map: 'petjajarvy_2024',
         owner: 'WN'
     },
@@ -1934,6 +1957,7 @@ let events2018 = [
         name: 'Кубок Белых Ночей. 3 этап',
         type: 'ORIENT',
         reskeep: 80,
+        split: 'splits/2018/SPB_20181105_2_split.htm',
         map: 'topograph_2017',
         owner: 'WN'
     },
@@ -1974,6 +1998,7 @@ let events2018 = [
         name: 'Кубок Белых ночей. 4 этап',
         type: 'ORIENT',
         reskeep: 91,
+        split: 'splits/2018/SPB_20181111_2_split.htm',
         owner: 'WN'
     },
     {
@@ -2020,7 +2045,8 @@ let events2018 = [
         place: 'Гарболово',
         name: 'Всеволожская тропа. 1 этап',
         type: 'ORIENT',
-        reskeep: 93
+        reskeep: 93,
+        split: 'splits/2018/SPB_20181118_3_split.htm'
     },
     {
         id: 'SPB_20181124_1',
@@ -2075,6 +2101,7 @@ let events2018 = [
         name: 'Кубок Белых ночей. 6 этап',
         type: 'ORIENT',
         reskeep: 95,
+        split: 'splits/2018/SPB_20181202_1_split.htm',
         map: 'zelenogorsk_schuchye_2020',
         owner: 'WN'
     },
@@ -2085,6 +2112,7 @@ let events2018 = [
         name: 'Цикл стартов МаТрёшка. 4 этап',
         type: 'ORIENT',
         reskeep: 96,
+        split: 'splits/2018/SPB_20181202_2_split.htm',
         map: 'orekhovo_rakitinskoe_2004'
     },
     {
@@ -2104,6 +2132,7 @@ let events2018 = [
         name: 'Кубок Белых Ночей. 7 этап',
         type: 'ORIENT',
         reskeep: 128,
+        split: 'splits/2018/SPB_20181208_2_split.htm',
         map: 'orovo_2019',
         owner: 'WN'
     },

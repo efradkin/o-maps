@@ -245,6 +245,7 @@ let events2022 = [
         strava: 6953487767,
         type: 'ORIENT',
         reskeep: 510,
+        split: 'splits/2022/SPB_20220409_1_split.htm',
         map: 'osinovaja_roscha_2018'
     },
     {
@@ -347,7 +348,8 @@ let events2022 = [
         type: 'ORIENT',
         map: 'orovo_2019',
         owner: 'WN',
-        reskeep: 529
+        reskeep: 529,
+        split: 'splits/2022/SPB_20220423_3_split.htm'
     },
     {
         id: 'SPB_20220423_5',
@@ -390,7 +392,8 @@ let events2022 = [
         type: 'ORIENT',
         map: 'petjajarvy_2024',
         owner: 'WN',
-        reskeep: 528
+        reskeep: 528,
+        split: 'splits/2022/SPB_20220430_1_split.htm'
     },
     {
         id: 'SPB_20220430_2',
@@ -399,6 +402,7 @@ let events2022 = [
         name: 'Техника и Тактика',
         type: 'ORIENT',
         reskeep: 531,
+        split: 'splits/2022/SPB_20220430_2_split.htm',
         map: 'enkolovo_2021'
     },
     {
@@ -436,6 +440,7 @@ let events2022 = [
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 511,
+        split: 'splits/2022/SPB_20220501_2_split.htm',
         map: 'pukhtolova_gora_2023'
     },
     {
@@ -447,7 +452,8 @@ let events2022 = [
         type: 'ORIENT',
         map: 'voejkovo_2022',
         owner: 'WN',
-        reskeep: 530
+        reskeep: 530,
+        split: 'splits/2022/SPB_20220503_1_split.htm'
     },
     {
         id: 'SPB_20220506_1',
@@ -457,7 +463,8 @@ let events2022 = [
         strava: 7098024858,
         type: 'ORIENT',
         owner: 'WN',
-        reskeep: 522
+        reskeep: 522,
+        split: 'splits/2022/SPB_20220506_1_split.htm'
     },
     {
         id: 'SPB_20220508_1',
@@ -505,6 +512,7 @@ let events2022 = [
         strava: 7118086822,
         type: 'ORIENT',
         reskeep: 524,
+        split: 'splits/2022/SPB_20220510_1_split.htm',
         map: 'lindulovskaya_roscha_2015'
     },
     {
@@ -570,7 +578,8 @@ let events2022 = [
         type: 'ORIENT',
         map: 'stekljanny_2021',
         owner: 'WN',
-        reskeep: 525
+        reskeep: 525,
+        split: 'splits/2022/SPB_20220514_4_split.htm'
     },
     {
         id: 'SPB_20220515_1',
@@ -828,7 +837,8 @@ let events2022 = [
         strava: 7258858400,
         type: 'ORIENT',
         owner: 'WN',
-        reskeep: 534
+        reskeep: 534,
+        split: 'splits/2022/SPB_20220605_1_split.htm'
     },
     {
         id: 'SPB_20220606_1',
@@ -1259,7 +1269,8 @@ let events2022 = [
         type: 'ORIENT',
         map: 'ilychevo_2016',
         owner: 'WN',
-        reskeep: 539
+        reskeep: 539,
+        split: 'splits/2022/SPB_20220702_1_split.htm'
     },
     {
         id: 'SPB_20220709_1',
@@ -1351,6 +1362,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей. 15 этап',
         type: 'ORIENT',
         reskeep: 550,
+        split: 'splits/2022/SPB_20220730_2_split.htm',
         map: 'baryshevo_2015',
         owner: 'WN'
     },
@@ -1370,6 +1382,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей. 16 этап',
         type: 'ORIENT',
         reskeep: 553,
+        split: 'splits/2022/SPB_20220731_1_split.htm',
         map: 'smoljanoe_2015',
         owner: 'WN'
     },
@@ -1543,7 +1556,8 @@ let events2022 = [
         type: 'ORIENT',
         map: 'bolotnaya_station_2019',
         owner: 'WN',
-        reskeep: 542
+        reskeep: 542,
+        split: 'splits/2022/SPB_20220910_1_split.htm'
     },
     {
         id: 'SPB_20220911_1',
@@ -2002,7 +2016,8 @@ let events2022 = [
         type: 'ORIENT',
         map: 'razdolje_2022',
         owner: 'WN',
-        reskeep: 561
+        reskeep: 561,
+        split: 'splits/2022/SPB_20221022_3_split.htm'
     },
     {
         id: 'SPB_20221022_4',
@@ -2090,7 +2105,8 @@ let events2022 = [
         map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
         strava: 8041902569,
-        reskeep: 562
+        reskeep: 562,
+        split: 'splits/2022/SPB_20221030_2_split.htm'
     },
     {
         id: 'SPB_20221103_1',
@@ -2210,7 +2226,8 @@ let events2022 = [
         map: 'ozerki_2022',
         owner: 'WN',
         strava: [8138407224, 8138827616],
-        reskeep: 566
+        reskeep: 566,
+        split: 'splits/2022/SPB_20221119_1_split.htm'
     },
     {
         id: 'SPB_20221120_1',
@@ -2291,7 +2308,8 @@ let events2022 = [
         map: 'petjajarvy_2024',
         owner: 'WN',
         strava: [8205639485, 8205643874],
-        reskeep: 568
+        reskeep: 568,
+        split: 'splits/2022/SPB_20221204_1_split.htm'
     },
     {
         id: 'SPB_20221210_1',
@@ -2330,6 +2348,7 @@ let events2022 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1489',
         res: 'http://o-site.spb.ru/_races/2023_bn/221030_res.htm',
+        split: 'splits/2022/SPB_20221218_1_split.htm',
         info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 1-й этап 30.10.22 Cосново Результаты Сплиты',
         o_site: '220702',
         reskeep: 581,
