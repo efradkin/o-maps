@@ -379,6 +379,15 @@ let vaskelovoMaps = [
         owner: ['SHLKHN_AN','SHEIN']
     },
     {
+        name: 'Куйвози',
+        year: 2026,
+        url: './maps/forest/vaskelovo/kuivozi_2026.webp',
+        link: ['./original_maps/forest/vaskelovo/kuivozi_2026_4000_omaps.webp','./original_maps/forest/vaskelovo/kuivozi_2026_5000_omaps.webp'],
+        bounds: [[60.3310478, 30.4625344], [60.3287642, 30.4828763], [60.3239202, 30.4592729]],
+        owner: 'RDNV_I',
+        author: 'RDNV_I'
+    },
+    {
         name: 'Стеклянный',
         year: 1982,
         url: './maps/forest/vaskelovo/stekljanny_1982.webp',
