@@ -1300,6 +1300,7 @@ let events2026 = [
         name: 'По Саблинским тропам Козьмы',
         place: 'Ульяновка',
         o_site: '260516',
+        split: 'splits/2026/SPB_20260516_1_split.html',
         reg: 'http://orgeo.ru/event/sabl26',
         o_gps: 25066,
         type: 'ORIENT',
