@@ -2522,6 +2522,17 @@ let events2026 = [
         map: 'petjajarvy_2024'
     },
     {
+        id: 'SPB_20260910_1',
+        date: '2026-09-10',
+        name: 'Лига кадетского спорта',
+        place: 'парк Интернационалистов',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/55127',
+        info: '+ тренировочные дистанции.',
+        map: 'internatsionalistov_2021'
+    },
+    {
         id: 'SPB_20260919_2',
         date: '2026-09-19',
         place: 'Рощино, Мухино',
