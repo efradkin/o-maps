@@ -2561,6 +2561,8 @@ let events2026 = [
         place: 'Яппиля',
         type: 'ORIENT',
         fmt: 'выбор, классика, спринт',
+        o_site: '260926',
+        reg: ['http://www.o-reg.spb.ru/?filter[day_id]=1756','http://www.o-reg.spb.ru/?filter[day_id]=1757','http://www.o-reg.spb.ru/?filter[day_id]=1758'],
         owner: 'SFSO_SPB',
         map: 'zerkalny_2002'
     },
@@ -2620,7 +2622,8 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'лонг',
         o_site: '260927',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'yappilya_2024'
     },
     {
         id: 'SPB_20260927_2',
@@ -2754,7 +2757,7 @@ let events2026 = [
         fmt: 'детская эстафета',
         o_site: '261025_50Verst',
         reg: 'http://sportident.online/entry/?id=7197',
-        info: '+ тренировочные дистанции',
+        info: '+ тренировочные дистанции.',
         type: 'ORIENT',
         owner: 'NW',
     },
