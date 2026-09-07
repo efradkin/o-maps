@@ -80,6 +80,12 @@
   search.spellcheck = false;
   search.setAttribute('aria-label', 'Поиск по календарю');
 
+  // Передаём поисковый запрос из URL в мобильное поле так же, как это
+  // делает штатный десктопный поиск.
+  if (typeof SEARCH_PARAM !== 'undefined' && SEARCH_PARAM) {
+    search.value = SEARCH_PARAM;
+  }
+
   // Целевая страница карты у каждого календаря своя (spb.html, tracks.html…).
   // Берём её из штатной ссылки в заголовке, а не задаём жёстко.
   const headerMapLink = document.getElementById('tracks_map_link');
@@ -550,6 +556,11 @@
   // обрабатывает очистку поля штатной кнопкой у input[type="search"].
   search.addEventListener('input', applyMobileFilters);
   search.addEventListener('search', applyMobileFilters);
+
+  // Если запрос был передан через URL (?q=...), применяем фильтр сразу.
+  if (typeof SEARCH_PARAM !== 'undefined' && SEARCH_PARAM) {
+    applyMobileFilters();
+  }
 
   // Штатные переключатели "важные" и "мои" перерисовывают tbody. После
   // перерисовки автоматически возвращаем поиск и карточный вид.
