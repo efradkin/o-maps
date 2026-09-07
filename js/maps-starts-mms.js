@@ -41,9 +41,9 @@ let mmsStartsMaps = [
     {
         name: 'Орехово',
         start: 'MMS',
-        year: 1997,
+        date: '1997-06-29',
         url: './maps/starts/mms/mms_1997_06_29.webp',
-        link: './original_maps/starts/mms/mms_1997_06_29_omaps.jpg',
+        link: ['./original_maps/starts/mms/mms_1997_06_29_omaps.jpg','./original_maps/starts/mms/mms_1997_06_29_cps_omaps.webp'],
         bounds: [[60.4685578, 30.3298187], [60.4656385, 30.384407], [60.4436723, 30.3237247]],
         author: ['BYMKV','DBRTSV_V'],
     },
