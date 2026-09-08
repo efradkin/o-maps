@@ -48,6 +48,23 @@ function extractLiteral(source, declaration, open = '{', close = '}') {
     return source.slice(start, i);
 }
 
+/**
+ * Текст «О проекте» — тот же, что показывает жёлтая кнопка на сайте.
+ * Забираем его из js/welcome.js, а не переписываем в приложение: иначе
+ *две копии разойдутся при первой же правке.
+ */
+function extractWelcome() {
+    if (!fs.existsSync(path.join(JS_DIR, 'welcome.js'))) return null;
+    const source = read('welcome.js');
+    const marker = 'const welcomeDialogContent = `';
+    const start = source.indexOf(marker);
+    if (start < 0) return null;
+    const from = start + marker.length;
+    const to = source.indexOf('`', from);
+    if (to < 0) return null;
+    return source.slice(from, to).trim();
+}
+
 const DATA_FILES = ['starts.js', 'owners.js', 'planners.js', 'calendar-early.js'];
 for (let y = 2004; y <= 2026; y++) DATA_FILES.push(`calendar-${y}.js`);
 DATA_FILES.push('calendar-common-2026.js', 'calendar-other-2026.js');
@@ -484,5 +501,9 @@ process.stdout.write(JSON.stringify({
     site: SITE,
     generated: new Date().toISOString(),
     menu: convertMenu(menu),
+    about: (() => {
+        const html = extractWelcome();
+        return html ? absolutizeHtml(html) : undefined;
+    })(),
     events: events.map(compact)
 }));

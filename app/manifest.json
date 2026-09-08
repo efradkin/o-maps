@@ -1,8 +1,13 @@
 {
   "schema": 1,
-  "generated": "2026-09-08T21:19:58+00:00",
+  "generated": "2026-09-08T22:17:50+00:00",
   "events": 3492,
-  "size": 3838736,
-  "sha256": "7c42b6ffea62353437b20721918230562d70c711e3a2781300d838ff90c42b0e",
-  "url": "calendar.json"
+  "size": 3846661,
+  "sha256": "7ac80e38bc2d20d796585bdd5f668d9f5268cfafc5ee8f7e46982f8fdb35f39b",
+  "url": "calendar.json",
+  "app": {
+    "versionCode": 1,
+    "versionName": "1.0",
+    "url": "https://o-maps.spb.ru/app/o-maps-calendar-1.0.apk"
+  }
 }

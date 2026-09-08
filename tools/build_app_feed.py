@@ -31,6 +31,7 @@ js/global-menu.js и раздел `regions` из js/utils.js, после чег�
 import argparse
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -40,6 +41,14 @@ from pathlib import Path
 
 DEFAULT_SITE = 'https://o-maps.spb.ru/'
 EXTRACTOR = 'extract_feed.js'
+
+# Где лежит проект Android-приложения относительно каталога сайта.
+# Нужен, чтобы не переписывать версию руками в двух местах: скрипт читает
+# её прямо из app/build.gradle.kts. Путь можно переопределить ключом
+# --android-project или отключить чтение ключом --no-android-project.
+DEFAULT_ANDROID_PROJECT = '../o-maps-calendar-android'
+
+APK_NAME_TEMPLATE = 'o-maps-calendar-{version}.apk'
 
 
 def run_extractor(js_dir: Path, site: str) -> dict:
@@ -95,7 +104,31 @@ def sanity_check(feed: dict) -> list:
     return problems
 
 
-def resolve_app_block(args, out_dir: Path) -> dict | None:
+def read_android_version(project: Path) -> dict:
+    """
+    Достаёт versionCode и versionName из app/build.gradle.kts Android-проекта.
+
+    Разбирать Gradle по-настоящему не нужно: обе строки лежат в defaultConfig
+    в предсказуемом виде. Якорь на начало строки важен — иначе versionName
+    поймался бы в versionNameSuffix из блока debug.
+    """
+    gradle = project / 'app' / 'build.gradle.kts'
+    if not gradle.exists():
+        sys.exit(f'не найден {gradle}\n'
+                 f'укажите путь ключом --android-project или отключите '
+                 f'чтение ключом --no-android-project')
+
+    text = gradle.read_text(encoding='utf-8')
+    code = re.search(r'^\s*versionCode\s*=\s*(\d+)', text, re.M)
+    name = re.search(r'^\s*versionName\s*=\s*"([^"]+)"', text, re.M)
+
+    if not code or not name:
+        sys.exit(f'в {gradle} не нашлись versionCode и versionName')
+
+    return {'versionCode': int(code.group(1)), 'versionName': name.group(1)}
+
+
+def resolve_app_block(args, out_dir: Path) -> tuple:
     """
     Собирает раздел `app` для manifest.json.
 
@@ -117,18 +150,44 @@ def resolve_app_block(args, out_dir: Path) -> dict | None:
         'url': args.app_url,
         'notes': args.app_notes,
     }
-    if not any(v is not None for v in given.values()):
-        return previous or None
+
+    # Версия читается из Android-проекта, если он доступен. Ключи командной
+    # строки остаются и перекрывают прочитанное — на случай, когда проект
+    # лежит на другой машине.
+    from_gradle = {}
+    if args.android_project is not None:
+        project = Path(args.android_project)
+        # Путь по умолчанию — догадка. Если её не подтвердили и каталога нет,
+        # молча работаем как раньше: выгрузка календаря не должна ломаться
+        # оттого, что рядом не оказалось проекта приложения.
+        explicit = args.android_project != DEFAULT_ANDROID_PROJECT
+        if explicit or project.is_dir():
+            from_gradle = read_android_version(project)
+
+    if not from_gradle and not any(v is not None for v in given.values()):
+        return (previous or None), 'перенесена из прежнего manifest.json'
 
     block = dict(previous)
+    block.update(from_gradle)
     block.update({k: v for k, v in given.items() if v is not None})
 
+    # Имя apk предсказуемо, поэтому адрес достраивается сам.
+    if from_gradle and args.app_url is None:
+        apk = APK_NAME_TEMPLATE.format(version=block['versionName'])
+        block['url'] = args.site.rstrip('/') + '/' + out_dir.name + '/' + apk
+        if not (out_dir / apk).exists():
+            print(f'  ! файла {out_dir / apk} нет — не забудьте положить apk '
+                  f'рядом с выгрузкой', file=sys.stderr)
+
     if 'versionCode' not in block or 'url' not in block:
-        sys.exit('для сведений о версии нужны как минимум --app-version-code и --app-url')
+        sys.exit('нужны как минимум --app-version-code и --app-url '
+                 '(или доступный --android-project)')
     if previous.get('versionCode') and block['versionCode'] < previous['versionCode']:
         sys.exit(f'versionCode {block["versionCode"]} меньше прежнего '
                  f'{previous["versionCode"]} — приложение такое обновление не покажет')
-    return block
+
+    source = 'из build.gradle.kts' if from_gradle else 'задана вручную'
+    return block, source
 
 
 def write_output(feed: dict, out_dir: Path, app_block: dict | None = None) -> tuple:
@@ -179,6 +238,12 @@ def main() -> None:
         'Записываются в manifest.json, по ним приложение показывает, что вышло '
         'обновление. Если не указывать, прежние сведения переносятся из старого '
         'manifest.json — выгрузку можно пересобирать хоть каждый день, не трогая их.')
+    app.add_argument('--android-project', default=DEFAULT_ANDROID_PROJECT,
+                     help='каталог Android-проекта: версия читается из '
+                          f'app/build.gradle.kts (по умолчанию {DEFAULT_ANDROID_PROJECT})')
+    app.add_argument('--no-android-project', dest='android_project',
+                     action='store_const', const=None,
+                     help='не читать версию из Android-проекта')
     app.add_argument('--app-version-code', type=int,
                      help='versionCode новой сборки (целое, строго возрастающее)')
     app.add_argument('--app-version-name', help='versionName, например 1.1')
@@ -200,7 +265,7 @@ def main() -> None:
             sys.exit('выгрузка не записана')
 
     out_dir = Path(tempfile.mkdtemp(prefix='omaps-feed-')) if args.check else args.out
-    app_block = resolve_app_block(args, args.out)
+    app_block, app_source = resolve_app_block(args, args.out)
     path, size, digest = write_output(feed, out_dir, app_block)
 
     events = feed['events']
@@ -215,7 +280,8 @@ def main() -> None:
     print(f'записано:  {path}')
     if app_block:
         print(f'версия приложения: {app_block.get("versionName", "?")} '
-              f'(code {app_block["versionCode"]}) → {app_block["url"]}')
+              f'(code {app_block["versionCode"]}, {app_source})')
+        print(f'           apk: {app_block["url"]}')
     else:
         print('сведений о версии приложения нет')
 
