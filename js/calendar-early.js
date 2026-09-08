@@ -3075,7 +3075,7 @@ let eventsEarly = [
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
         res: './docs/1999/1999_06_26_svyatkina_omaps.pdf',
-        map: 'yappilya_1999'
+        map: ['yappilya_1999','yappilya_pistolet_1999']
     },
     {
         id: 'SPB_19990702_1',
@@ -3201,6 +3201,15 @@ let eventsEarly = [
         name: 'Зелёный змей',
         start: 'GS',
         res: './docs/2001/2001_08_26_green_snake_omaps.pdf'
+    },
+    {
+        id: 'SPB_20020628_1',
+        date: '2002-06-28',
+        endDate: '2002-06-30',
+        place: 'Ягодное',
+        name: 'Мемориал Михаила Святкина',
+        start: 'MMS',
+        map: ['mms_2002_06_28','mms_2002_06_29','mms_2002_06_30']
     },
     {
         id: 'SPB_20020824_1',

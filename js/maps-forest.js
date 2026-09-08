@@ -502,12 +502,11 @@ let forestMaps = [
     },
     {
         name: 'Яппиля',
-        year: 1999,
+        date: '1999-06-26',
         start: 'MMS',
         page: 'spb',
         url: './maps/forest/yappilya_1999.webp',
-        link: ['./original_maps/forest/yappilya_1999_omaps.jpg','./original_maps/forest/yappilya_mms_1999_omaps.jpg'],
-        results: './docs/1999/1999_06_26_svyatkina_omaps.pdf',
+        link: ['./original_maps/forest/yappilya_1999_omaps.jpg','./original_maps/forest/yappilya_mms_1999_omaps.jpg','./original_maps/starts/mms/mms_1999_06_26_cps_omaps.webp'],
         bounds: [[60.202149, 29.1642809], [60.1980115, 29.2384815], [60.1761632, 29.1575432]],
         author: ['VLKV_K','URVNTSV','KRCHKN_V','FDRV_L'],
         areas: [35,35,20,10]
@@ -533,11 +532,11 @@ let forestMaps = [
     },
     {
         name: 'Яппиля',
-        year: 1999,
+        date: '1999-06-27',
         start: 'MMS',
         page: 'spb',
         url: './maps/forest/yappilya_pistolet_1999.webp',
-        link: './original_maps/forest/yappilya_pistolet_1999_omaps.jpg',
+        link: ['./original_maps/forest/yappilya_pistolet_1999_omaps.jpg','./original_maps/starts/mms/mms_1999_06_27_cps_omaps.webp'],
         bounds: [[60.2253227, 29.1244555], [60.221934, 29.1755247], [60.1885613, 29.115572]],
     },
     {
