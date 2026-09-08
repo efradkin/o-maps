@@ -2583,12 +2583,13 @@ let events2026 = [
         id: 'SPB_20260926_1',
         date: '2026-09-26',
         name: 'Золотые кольца (Свадебные)',
-        place: 'Вьюн, база Динамо',
+        place: 'Лемболово, юг',
         link: 'https://vk.com/wall-128591100_3316',
+        o_site: '260926S',
         type: 'ORIENT',
         fmt: 'семейно-командные по выбору',
         owner: 'WEDDING',
-        map: 'vjun_2026'
+        map: 'lembolovo_2024'
     },
 /*
     {
