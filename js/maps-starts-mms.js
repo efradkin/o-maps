@@ -135,8 +135,9 @@ let mmsStartsMaps = [
         name: 'Каменногорск, Обходное оз',
         start: 'MMS',
         date: '2003-06-27',
+        info: 'Спринт.',
         url: './maps/starts/mms/mms_2003_06_27.webp',
-        link: './original_maps/starts/mms/mms_2003_06_27_omaps.jpg',
+        link: ['./original_maps/starts/mms/mms_2003_06_27_omaps.jpg','./original_maps/starts/mms/mms_2003_06_27_cps_omaps.webp'],
         bounds: [[61.0025794, 29.1832495], [61.0010814, 29.2002869], [60.9862648, 29.1777992]],
         author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV']
     },
@@ -145,7 +146,8 @@ let mmsStartsMaps = [
         start: 'MMS',
         date: '2003-06-28',
         url: './maps/starts/mms/mms_2003_06_28.webp',
-        link: './original_maps/starts/mms/mms_2003_06_28_omaps.webp',
+        info: 'Полуфинал.',
+        link: ['./original_maps/starts/mms/mms_2003_06_28_omaps.webp','./original_maps/starts/mms/mms_2003_06_28_cps_omaps.webp'],
         bounds: [[60.99383, 29.1593885], [60.9906564, 29.1958237], [60.9807067, 29.1552258]],
         author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV']
     },
@@ -154,7 +156,8 @@ let mmsStartsMaps = [
         start: 'MMS',
         date: '2003-06-29',
         url: './maps/starts/mms/mms_2003_06_29.webp',
-        link: './original_maps/starts/mms/mms_2003_06_29_omaps.jpg',
+        info: 'Финал.',
+        link: ['./original_maps/starts/mms/mms_2003_06_29_omaps.jpg','./original_maps/starts/mms/mms_2003_06_29_cps_omaps.webp'],
         bounds: [[60.9973779, 29.1345406], [60.9934867, 29.1874123], [60.9828718, 29.1303778]],
         author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV']
     },
