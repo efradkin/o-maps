@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-09-09T16:56:34+00:00",
+  "generated": "2026-09-09T20:26:06+00:00",
   "events": 3492,
   "size": 3592420,
-  "sha256": "e2c3997807188216ef90ee2b8855373b3384820b18a2d50be800f6111be53676",
+  "sha256": "523bcc4f97f672d1e960e36e9b840bdc23c3cadae8fd7ea2c4e84457ea783a70",
   "url": "spb.json",
   "datasets": [
     {
@@ -12,13 +12,13 @@
       "url": "spb.json",
       "events": 3492,
       "size": 3592420,
-      "sha256": "e2c3997807188216ef90ee2b8855373b3384820b18a2d50be800f6111be53676"
+      "sha256": "523bcc4f97f672d1e960e36e9b840bdc23c3cadae8fd7ea2c4e84457ea783a70"
     }
   ],
   "app": {
-    "versionCode": 4,
-    "versionName": "0.7.2.1",
-    "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-0.7.2.1.apk",
-    "notes": "Тестовая пересборка"
+    "versionCode": 5,
+    "versionName": "0.7.3",
+    "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-0.7.3.apk",
+    "notes": "Три улучшения от Claude"
   }
 }
