@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-09-09T13:40:57+00:00",
+  "generated": "2026-09-09T16:03:43+00:00",
   "events": 3492,
   "size": 3592420,
-  "sha256": "5efb73a6b2a32ffb649921ce77c3b5463d231cddbe5764838afc912bbe3338d7",
+  "sha256": "e528573e835c347a81c72b7bae7919f86ba0c7d66f0f58a323dc0327fdcb92f1",
   "url": "spb.json",
   "datasets": [
     {
@@ -12,13 +12,13 @@
       "url": "spb.json",
       "events": 3492,
       "size": 3592420,
-      "sha256": "5efb73a6b2a32ffb649921ce77c3b5463d231cddbe5764838afc912bbe3338d7"
+      "sha256": "e528573e835c347a81c72b7bae7919f86ba0c7d66f0f58a323dc0327fdcb92f1"
     }
   ],
   "app": {
     "versionCode": 1,
-    "versionName": "0.65",
-    "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-0.65.apk",
-    "notes": "Первая публичная версия"
+    "versionName": "0.6.8",
+    "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-0.6.8.apk",
+    "notes": "Исправлен UI панели управления"
   }
 }
