@@ -32,6 +32,15 @@
         a.app-shot-link {
             cursor: zoom-in;
         }
+        /* Снимок виджета горизонтальный, ему узкая колонка ни к чему. */
+        .app-shot-wide {
+            max-width: 420px !important;
+        }
+        @media screen and (max-width: 600px) {
+            .app-shot-wide {
+                max-width: 100% !important;
+            }
+        }
         /* Подзаголовок всегда начинается ниже предыдущего снимка, а не встаёт
            сбоку от него. Секции целиком закрываются классом clearfix,
            но внутри «Что умеет» подразделов несколько. */
@@ -108,6 +117,7 @@
                                 <li><a href="#app_filters">Отбор и поиск</a></li>
                                 <li><a href="#app_archive">Архив</a></li>
                                 <li><a href="#app_my">Свои старты</a></li>
+                                <li><a href="#app_widget">Виджет</a></li>
                                 <li><a href="#app_menu">Меню и настройки</a></li>
                             </ul>
                         <li><a href="#app_updates">Обновления</a></li>
@@ -184,13 +194,21 @@
                 <p><a href="#" onclick="openModal(4); return false;" class="app-shot-link help-figure-right" title="Отмеченные старты — открыть в полном размере"><img src="img/calendar_app_my.png" class="help-figure app-shot" title="Отмеченные старты" alt="Свои старты" /></a>Звезда в углу карточки отмечает старт как свой. Флажок «только мои» оставляет в списке лишь такие.
                 <p>Накануне — или за столько дней, сколько выбрано в настройках — приложение напомнит о них уведомлением.
                     Одним на все старты сразу, а не по штуке на каждый. Напоминания приходят только об отмеченных: обо всём подряд приложение не пишет никогда.
-                <p>На домашний экран можно поставить виджет с ближайшими стартами. Он показывает столько, сколько помещается по высоте,
-                    и работает без сети — как и сам календарь.
+
+                <h2 id="app_widget">Виджет</h2>
+                <p><a href="#" onclick="openModal(5); return false;" class="app-shot-link" title="Виджет на домашнем экране — открыть в полном размере"><img src="img/calendar_app_widget.png" class="help-figure app-shot app-shot-wide" title="Виджет на домашнем экране" alt="Виджет с ближайшими стартами" /></a>
+                <p>На домашний экран можно поставить виджет с ближайшими стартами.
+                    Слева дата, справа — «сегодня», «завтра» или «через сколько дней», между ними название и логотип клуба.
+                    Свои старты выделены звездой и цветом.
+                <p>Виджет растягивается по высоте и ширине: сколько строк помещается, столько и показывает.
+                    Работает без сети — данные берутся из того же календаря, что хранится на телефоне.
+                    Нажатие открывает приложение, кнопка в правом верхнем углу обновляет данные с сайта, не открывая его.
+                <p>В настройках приложения можно оставить в виджете только свои старты и выбрать размер шрифта — мелкий, средний или крупный.
 
                 <h2 id="app_menu">Меню и настройки</h2>
-                <p><a href="#" onclick="openModal(5); return false;" class="app-shot-link help-figure-left" title="Меню приложения — открыть в полном размере"><img src="img/calendar_app_menu.png" class="help-figure app-shot" title="Меню приложения" alt="Меню приложения" /></a>Меню повторяет разделы сайта: регионы, календари, таблицы, статистика, документы.
+                <p><a href="#" onclick="openModal(6); return false;" class="app-shot-link help-figure-left" title="Меню приложения — открыть в полном размере"><img src="img/calendar_app_menu.png" class="help-figure app-shot" title="Меню приложения" alt="Меню приложения" /></a>Меню повторяет разделы сайта: регионы, календари, таблицы, статистика, документы.
                     Всё это открывается в браузере — приложение показывает только календарь.
-                <p><a href="#" onclick="openModal(6); return false;" class="app-shot-link help-figure-right" title="Настройки — открыть в полном размере"><img src="img/calendar_app_settings.png" class="help-figure app-shot" title="Настройки" alt="Настройки приложения" /></a>В настройках задаются напоминания, вид виджета и размер шрифта в нём.
+                <p><a href="#" onclick="openModal(7); return false;" class="app-shot-link help-figure-right" title="Настройки — открыть в полном размере"><img src="img/calendar_app_settings.png" class="help-figure app-shot" title="Настройки" alt="Настройки приложения" /></a>В настройках задаются напоминания, вид виджета и размер шрифта в нём.
                     Там же видно, сколько событий в базе и когда они обновлялись в последний раз.
                 <p>Оформление переключается кнопкой с луной в шапке — светлое или тёмное, независимо от настройки телефона.
             </section>
@@ -249,6 +267,7 @@
             'img/calendar_app_rogaine.png',
             'img/calendar_app_old.png',
             'img/calendar_app_my.png',
+            'img/calendar_app_widget.png',
             'img/calendar_app_menu.png',
             'img/calendar_app_settings.png',
         ];
