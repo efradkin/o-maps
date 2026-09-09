@@ -21,6 +21,7 @@ publish_release.py — раскладывает собранный APK по ме
 """
 
 import argparse
+import json
 import os
 import shutil
 import subprocess
@@ -56,6 +57,17 @@ def read_gradle_properties(project: Path) -> dict:
         key, value = line.split('=', 1)
         values[key.strip()] = value.strip()
     return values
+
+
+def published_version(target_dir: Path) -> dict:
+    """Сведения о версии из manifest.json, уже лежащего в каталоге выгрузки."""
+    path = target_dir / 'manifest.json'
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding='utf-8')).get('app') or {}
+    except (ValueError, OSError):
+        return {}
 
 
 def find_aapt2() -> Path | None:
@@ -140,7 +152,8 @@ def main() -> None:
     parser.add_argument('--no-feed', action='store_true',
                         help='только скопировать apk, выгрузку не пересобирать')
     parser.add_argument('--force', action='store_true',
-                        help='перезаписать apk, если файл с таким именем уже есть')
+                        help='перевыложить ту же версию: перезаписать apk '
+                             'и не требовать роста versionCode')
     args = parser.parse_args()
 
     project = args.android_project
@@ -170,6 +183,18 @@ def main() -> None:
 
     target_dir = args.out / app_id
     target_dir.mkdir(parents=True, exist_ok=True)
+
+    # versionCode обязан вырасти. Сообщение об обновлении приложение
+    # показывает по нему, а не по названию: подняв только versionName,
+    # легко выложить версию, которую никто не увидит. Ошибка тихая —
+    # выкладывается всё как надо, просто ничего не происходит.
+    published = published_version(target_dir)
+    previous_code = published.get('versionCode')
+    if previous_code is not None and int(version_code) <= int(previous_code) and not args.force:
+        sys.exit(f'versionCode не изменился: на сайте уже {previous_code}, '
+                 f'в gradle.properties {version_code}\n'
+                 f'поднимите omaps.versionCode — по нему приложение узнаёт '
+                 f'об обновлении. Перевыложить ту же версию можно ключом --force')
     target = target_dir / APK_NAME_TEMPLATE.format(app=app_id, version=version_name)
 
     if target.exists() and not args.force:
