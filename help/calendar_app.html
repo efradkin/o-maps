@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>O-Maps. Приложение «Календарь» для Android</title>
+    <meta name="description" content="Календарь стартов O-Maps в виде приложения для Android: работает без сети, напоминает о своих стартах, показывает ближайшие в виджете.">
+    <link rel="icon" type="image/png" href="../favicon.png"/>
+    <link href='../css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/theme.css?v=8"/>
+    <script src="../js/theme-toggle.js?v=16"></script>
+
+    <meta property="og:title" content="O-Maps. Приложение «Календарь» для Android">
+    <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/help/calendar_app.html">
+    <meta property="og:description" content="Календарь стартов O-Maps в виде приложения для Android.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body help-body stat-body">
+    <header class="page-header">
+        <h1>O-Maps ◪ Приложение «Календарь»</h1>
+
+        <nav class="page-header-actions" aria-label="Навигация по странице">
+            <a href="../index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="../images/home.png" alt="Главная страница" /></a>
+
+            <script src="../js/global-menu.js?v=16"></script>
+            <script>
+                writeGlobalMenuHtml('../');
+            </script>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section>
+                <nav>
+                    <h1>Содержание</h1>
+                    <ol>
+                        <li><a href="#app_general">Что это</a></li>
+                        <li><a href="#app_download">Скачать</a></li>
+                        <li><a href="#app_install">Установка</a></li>
+                        <li><a href="#app_features">Что умеет</a></li>
+                        <li><a href="#app_updates">Обновления</a></li>
+                        <li><a href="#app_feedback">Замечания и предложения</a></li>
+                    </ol>
+                </nav>
+            </section>
+
+            <section>
+                <h1 id="app_general">Что это</h1>
+                <p><a href="../calendar.html" target="_self">Календарь стартов</a> в виде приложения для Android.
+                    Те же соревнования, те же ссылки на положения, результаты, сплиты, фото и видео —
+                    но без браузера и, главное, без сети: календарь целиком хранится на телефоне.
+                <p>Это удобно там, где интернета обычно и нет — в лесу на соревнованиях, в электричке по дороге на старт.
+                    Данные подгружаются заранее и обновляются сами, когда связь появляется.
+                <p>Приложение бесплатное, без рекламы и без сбора каких-либо сведений о пользователе.
+                    В магазине Google Play его нет — оно раздаётся прямо отсюда.
+            </section>
+
+            <section>
+                <h1 id="app_download">Скачать</h1>
+                <p>
+                    <a href="../app/calendar/o-maps-calendar-latest.apk" class="btn btn-success" id="app_download_link">Скачать приложение</a>
+                    <span id="app_version_info"></span>
+                </p>
+                <p>Требуется Android 6.0 или новее. Само приложение занимает около 3,5 МБ, календарь — ещё около 4 МБ.
+            </section>
+
+            <section>
+                <h1 id="app_install">Установка</h1>
+                <p>Откройте скачанный файл — Android спросит разрешение устанавливать приложения из браузера.
+                    Это обычный вопрос для программ не из магазина, разрешение спрашивается один раз и относится только к тому браузеру, откуда файл скачан.
+                <p>При первом запуске приложение скачает календарь целиком. Трафика на это уходит около 400 КБ — данные передаются сжатыми, —
+                    а занимает загрузка пару секунд.
+                    Дальше приложение работает без сети и обновляет данные раз в сутки в фоне.
+                    Обновление скачивается, только если календарь действительно изменился, поэтому обычная суточная проверка стоит меньше килобайта.
+            </section>
+
+            <section>
+                <h1 id="app_features">Что умеет</h1>
+                <ul>
+                    <li>Все старты календаря с поиском по названию, месту и описанию, с отбором по году и виду соревнований.
+                    <li>Ссылки на положения, регистрацию, результаты, сплиты, фото и видео — те же, что на сайте.
+                    <li>Свои старты отмечаются звездой. Накануне приложение о них напомнит.
+                    <li>Виджет на домашний экран с ближайшими стартами.
+                    <li>Светлое и тёмное оформление.
+                    <li>Работа без сети: календарь хранится на телефоне.
+                </ul>
+            </section>
+
+            <section>
+                <h1 id="app_updates">Обновления</h1>
+                <p>Приложение само проверяет, не вышла ли новая версия, и показывает об этом сообщение со ссылкой на скачивание.
+                    Устанавливать обновление можно поверх — отмеченные старты и настройки сохранятся.
+                <p>Данные календаря обновляются отдельно и незаметно: приложение сверяется с сайтом раз в сутки и скачивает изменения, если они есть.
+            </section>
+
+            <section>
+                <h1 id="app_feedback">Замечания и предложения</h1>
+                <p>Приложение молодое, так что замечания особенно полезны. Если что-то работает не так или чего-то не хватает —
+                    <a href="contacts.html">напишите мне</a> или в <a href="https://t.me/o_maps" target="_blank">чат проекта в Telegram</a>.
+            </section>
+        </div>
+
+        <noscript>
+            <div id="noscript_content">
+                <h1>O-Maps. Приложение «Календарь»</h1>
+                <p>
+                    Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+                </p>
+            </div>
+        </noscript>
+    </main>
+
+    <footer>
+        <hr />
+        <span class="my-copyright">© <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>, <a href="https://t.me/o_maps" target="_blank">O-Maps group</a></span>
+    </footer>
+
+    <script src="../js/ext/jquery.slim.min.js"></script>
+    <script src="../js/ext/bootstrap.min.js"></script>
+    <script src="../js/ext/bootstrap5-dropdown-ml-hack.js"></script>
+
+    <script src="../js/utils-common.js?v=16"></script>
+    <script src="../js/welcome.js?v=16"></script>
+    <script>
+        writeWelcomeButton('../');
+    </script>
+
+    <script>
+        // Номер версии берём из манифеста приложения, а не пишем в разметке:
+        // иначе страницу пришлось бы править при каждом выпуске, и рано или
+        // поздно тут повисло бы устаревшее число.
+        //
+        // Ссылка на скачивание при этом остаётся постоянной и работает даже
+        // если манифест недоступен — версия лишь дополняет её.
+        (function () {
+            const info = document.getElementById('app_version_info');
+            if (!info) return;
+
+            fetch('../app/calendar/manifest.json', { cache: 'no-cache' })
+                .then(response => response.ok ? response.json() : null)
+                .then(manifest => {
+                    const app = manifest && manifest.app;
+                    if (!app || !app.versionName) return;
+
+                    let text = ' версия ' + app.versionName;
+                    if (app.notes) {
+                        text += ' — ' + app.notes;
+                    }
+                    info.textContent = text;
+                })
+                .catch(() => { /* нет манифеста — просто не показываем версию */ });
+        })();
+    </script>
+</body>
+</html>
