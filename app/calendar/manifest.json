@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-09-09T16:42:03+00:00",
+  "generated": "2026-09-09T16:56:34+00:00",
   "events": 3492,
   "size": 3592420,
-  "sha256": "fea2171e6186001a308abfe6937ef6e0238a6b403387b15adc4e2b457da0357e",
+  "sha256": "e2c3997807188216ef90ee2b8855373b3384820b18a2d50be800f6111be53676",
   "url": "spb.json",
   "datasets": [
     {
@@ -12,13 +12,13 @@
       "url": "spb.json",
       "events": 3492,
       "size": 3592420,
-      "sha256": "fea2171e6186001a308abfe6937ef6e0238a6b403387b15adc4e2b457da0357e"
+      "sha256": "e2c3997807188216ef90ee2b8855373b3384820b18a2d50be800f6111be53676"
     }
   ],
   "app": {
-    "versionCode": 3,
-    "versionName": "0.7.2",
-    "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-0.7.2.apk",
-    "notes": "Улучшенное оформление для обновлений"
+    "versionCode": 4,
+    "versionName": "0.7.2.1",
+    "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-0.7.2.1.apk",
+    "notes": "Тестовая пересборка"
   }
 }
