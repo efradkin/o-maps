@@ -2562,6 +2562,8 @@ let events2026 = [
         date: '2026-09-20',
         name: 'ЧиП СПб',
         place: 'Сосново',
+        o_site: '260920_velo',
+        reg: 'http://o-reg.spb.ru/?filter[day_id]=1759',
         type: 'VELO',
         fmt: 'классика',
         owner: 'SFSO_SPB'
