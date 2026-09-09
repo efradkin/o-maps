@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "generated": "2026-09-09T11:44:02+00:00",
+  "events": 3492,
+  "size": 3592420,
+  "sha256": "4e3d20d88e3baa8dfc656d5714213b7d65d93dd93eaca5f8efc096368bc48b56",
+  "url": "spb.json",
+  "datasets": [
+    {
+      "id": "spb",
+      "title": "Санкт-Петербург",
+      "url": "spb.json",
+      "events": 3492,
+      "size": 3592420,
+      "sha256": "4e3d20d88e3baa8dfc656d5714213b7d65d93dd93eaca5f8efc096368bc48b56"
+    }
+  ],
+  "app": {
+    "versionCode": 1,
+    "versionName": "1.0",
+    "url": "https://o-maps.spb.ru/app/calendar/o-maps-calendar-1.0.apk"
+  }
+}

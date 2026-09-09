@@ -31,7 +31,6 @@ js/global-menu.js и раздел `regions` из js/utils.js, после чег�
 import argparse
 import hashlib
 import json
-import re
 import shutil
 import subprocess
 import sys
@@ -44,11 +43,27 @@ EXTRACTOR = 'extract_feed.js'
 
 # Где лежит проект Android-приложения относительно каталога сайта.
 # Нужен, чтобы не переписывать версию руками в двух местах: скрипт читает
-# её прямо из app/build.gradle.kts. Путь можно переопределить ключом
+# её прямо из gradle.properties проекта. Путь можно переопределить ключом
 # --android-project или отключить чтение ключом --no-android-project.
 DEFAULT_ANDROID_PROJECT = '../o-maps-calendar-android'
 
-APK_NAME_TEMPLATE = 'o-maps-calendar-{version}.apk'
+# Каждое приложение живёт в своём подкаталоге выгрузки:
+#
+#   app/calendar/manifest.json   app/calendar/spb.json   app/calendar/*.apk
+#   app/ski/manifest.json        app/ski/ski.json        app/ski/*.apk
+#
+# Имена файлов у всех одинаковые, различается только каталог. Так приложению
+# не нужно ничего знать о соседях — в нём меняется одна константа FEED_BASE,
+# а правила отдачи на сервере пишутся один раз на весь app/.
+DEFAULT_APP_ID = 'calendar'
+
+# Наборов данных у одного приложения может быть несколько: например, обычный
+# календарь и лыжный, между которыми переключаются внутри приложения. Каждый
+# лежит своим файлом, все перечислены в manifest.json в разделе datasets.
+DEFAULT_DATASET = 'spb'
+DEFAULT_DATASET_TITLE = 'Санкт-Петербург'
+
+APK_NAME_TEMPLATE = 'o-maps-{app}-{version}.apk'
 
 
 def run_extractor(js_dir: Path, site: str) -> dict:
@@ -104,28 +119,52 @@ def sanity_check(feed: dict) -> list:
     return problems
 
 
-def read_android_version(project: Path) -> dict:
-    """
-    Достаёт versionCode и versionName из app/build.gradle.kts Android-проекта.
+def read_manifest(out_dir: Path) -> dict:
+    """Прежний manifest.json или пустой словарь, если его ещё нет."""
+    path = out_dir / 'manifest.json'
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding='utf-8'))
+    except (ValueError, OSError):
+        return {}
 
-    Разбирать Gradle по-настоящему не нужно: обе строки лежат в defaultConfig
-    в предсказуемом виде. Якорь на начало строки важен — иначе versionName
-    поймался бы в versionNameSuffix из блока debug.
-    """
-    gradle = project / 'app' / 'build.gradle.kts'
-    if not gradle.exists():
-        sys.exit(f'не найден {gradle}\n'
+
+def read_gradle_properties(project: Path) -> dict:
+    """Разбирает gradle.properties Android-проекта в словарь."""
+    path = project / 'gradle.properties'
+    if not path.exists():
+        sys.exit(f'не найден {path}\n'
                  f'укажите путь ключом --android-project или отключите '
                  f'чтение ключом --no-android-project')
 
-    text = gradle.read_text(encoding='utf-8')
-    code = re.search(r'^\s*versionCode\s*=\s*(\d+)', text, re.M)
-    name = re.search(r'^\s*versionName\s*=\s*"([^"]+)"', text, re.M)
+    values = {}
+    for line in path.read_text(encoding='utf-8').splitlines():
+        line = line.strip()
+        if not line or line.startswith(('#', '!')) or '=' not in line:
+            continue
+        key, value = line.split('=', 1)
+        values[key.strip()] = value.strip()
+    return values
+
+
+def read_android_version(project: Path) -> dict:
+    """
+    Достаёт версию приложения из gradle.properties Android-проекта.
+
+    Раньше значения выискивались регулярным выражением в build.gradle.kts.
+    Properties-файл для этого куда надёжнее: формат простой и не меняется
+    от того, как переписали скрипт сборки.
+    """
+    values = read_gradle_properties(project)
+    code = values.get('omaps.versionCode')
+    name = values.get('omaps.versionName')
 
     if not code or not name:
-        sys.exit(f'в {gradle} не нашлись versionCode и versionName')
+        sys.exit(f'в {project / "gradle.properties"} не нашлись '
+                 f'omaps.versionCode и omaps.versionName')
 
-    return {'versionCode': int(code.group(1)), 'versionName': name.group(1)}
+    return {'versionCode': int(code), 'versionName': name}
 
 
 def resolve_app_block(args, out_dir: Path) -> tuple:
@@ -136,13 +175,7 @@ def resolve_app_block(args, out_dir: Path) -> tuple:
     при отсутствии аргументов сведения переносятся из предыдущего manifest.json.
     Иначе каждый пересбор календаря стирал бы информацию об обновлении.
     """
-    previous = {}
-    old = out_dir / 'manifest.json'
-    if old.exists():
-        try:
-            previous = json.loads(old.read_text(encoding='utf-8')).get('app') or {}
-        except (ValueError, OSError):
-            previous = {}
+    previous = read_manifest(out_dir).get('app') or {}
 
     given = {
         'versionCode': args.app_version_code,
@@ -173,8 +206,9 @@ def resolve_app_block(args, out_dir: Path) -> tuple:
 
     # Имя apk предсказуемо, поэтому адрес достраивается сам.
     if from_gradle and args.app_url is None:
-        apk = APK_NAME_TEMPLATE.format(version=block['versionName'])
-        block['url'] = args.site.rstrip('/') + '/' + out_dir.name + '/' + apk
+        apk = APK_NAME_TEMPLATE.format(app=args.app_id, version=block['versionName'])
+        relative = f'{args.out.name}/{args.app_id}/{apk}'
+        block['url'] = args.site.rstrip('/') + '/' + relative
         if not (out_dir / apk).exists():
             print(f'  ! файла {out_dir / apk} нет — не забудьте положить apk '
                   f'рядом с выгрузкой', file=sys.stderr)
@@ -186,12 +220,23 @@ def resolve_app_block(args, out_dir: Path) -> tuple:
         sys.exit(f'versionCode {block["versionCode"]} меньше прежнего '
                  f'{previous["versionCode"]} — приложение такое обновление не покажет')
 
-    source = 'из build.gradle.kts' if from_gradle else 'задана вручную'
+    source = 'из gradle.properties' if from_gradle else 'задана вручную'
     return block, source
 
 
-def write_output(feed: dict, out_dir: Path, app_block: dict | None = None) -> tuple:
-    """Пишет calendar.json и manifest.json. Возвращает (путь, размер, sha256)."""
+def write_output(
+    feed: dict,
+    out_dir: Path,
+    dataset: str,
+    dataset_title: str,
+    app_block: dict | None = None,
+) -> tuple:
+    """
+    Пишет файл набора данных и manifest.json. Возвращает (путь, размер, sha256).
+
+    Сведения о прочих наборах переносятся из прежнего манифеста: сборка
+    лыжного календаря не должна стирать из манифеста обычный.
+    """
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # separators без пробелов и ensure_ascii=False: кириллица занимает вдвое
@@ -200,16 +245,36 @@ def write_output(feed: dict, out_dir: Path, app_block: dict | None = None) -> tu
     data = payload.encode('utf-8')
     digest = hashlib.sha256(data).hexdigest()
 
-    calendar_path = out_dir / 'calendar.json'
-    calendar_path.write_bytes(data)
+    file_name = f'{dataset}.json'
+    dataset_path = out_dir / file_name
+    dataset_path.write_bytes(data)
 
-    manifest = {
-        'schema': feed.get('schema', 1),
-        'generated': datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+    entry = {
+        'id': dataset,
+        'title': dataset_title,
+        'url': file_name,
         'events': len(feed.get('events', [])),
         'size': len(data),
         'sha256': digest,
-        'url': 'calendar.json',
+    }
+
+    previous = read_manifest(out_dir)
+    datasets = [d for d in previous.get('datasets', []) if d.get('id') != dataset]
+    datasets.append(entry)
+    datasets.sort(key=lambda d: d['id'] != DEFAULT_DATASET)
+
+    primary = datasets[0]
+    manifest = {
+        'schema': feed.get('schema', 1),
+        'generated': datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        # Поля основного набора продублированы наверху: приложение читает
+        # именно их, а datasets появился позже и нужен для переключения
+        # между календарями внутри одного приложения.
+        'events': primary['events'],
+        'size': primary['size'],
+        'sha256': primary['sha256'],
+        'url': primary['url'],
+        'datasets': datasets,
     }
     if app_block:
         manifest['app'] = app_block
@@ -218,7 +283,7 @@ def write_output(feed: dict, out_dir: Path, app_block: dict | None = None) -> tu
         encoding='utf-8',
     )
 
-    return calendar_path, len(data), digest
+    return dataset_path, len(data), digest
 
 
 def main() -> None:
@@ -227,7 +292,14 @@ def main() -> None:
     parser.add_argument('--js-dir', default='js', type=Path,
                         help='каталог с файлами данных сайта (по умолчанию js)')
     parser.add_argument('--out', default='app', type=Path,
-                        help='каталог выгрузки (по умолчанию app)')
+                        help='корневой каталог выгрузки (по умолчанию app)')
+    parser.add_argument('--app-id', default=DEFAULT_APP_ID,
+                        help='подкаталог приложения внутри --out '
+                             f'(по умолчанию {DEFAULT_APP_ID})')
+    parser.add_argument('--dataset', default=DEFAULT_DATASET,
+                        help=f'идентификатор набора данных (по умолчанию {DEFAULT_DATASET})')
+    parser.add_argument('--dataset-title', default=None,
+                        help='название набора для переключателя в приложении')
     parser.add_argument('--site', default=DEFAULT_SITE,
                         help=f'адрес сайта (по умолчанию {DEFAULT_SITE})')
     parser.add_argument('--check', action='store_true',
@@ -240,7 +312,7 @@ def main() -> None:
         'manifest.json — выгрузку можно пересобирать хоть каждый день, не трогая их.')
     app.add_argument('--android-project', default=DEFAULT_ANDROID_PROJECT,
                      help='каталог Android-проекта: версия читается из '
-                          f'app/build.gradle.kts (по умолчанию {DEFAULT_ANDROID_PROJECT})')
+                          f'его gradle.properties (по умолчанию {DEFAULT_ANDROID_PROJECT})')
     app.add_argument('--no-android-project', dest='android_project',
                      action='store_const', const=None,
                      help='не читать версию из Android-проекта')
@@ -264,9 +336,16 @@ def main() -> None:
         if not args.check:
             sys.exit('выгрузка не записана')
 
-    out_dir = Path(tempfile.mkdtemp(prefix='omaps-feed-')) if args.check else args.out
-    app_block, app_source = resolve_app_block(args, args.out)
-    path, size, digest = write_output(feed, out_dir, app_block)
+    target = args.out / args.app_id
+    out_dir = Path(tempfile.mkdtemp(prefix='omaps-feed-')) if args.check else target
+    app_block, app_source = resolve_app_block(args, target)
+    path, size, digest = write_output(
+        feed=feed,
+        out_dir=out_dir,
+        dataset=args.dataset,
+        dataset_title=args.dataset_title or DEFAULT_DATASET_TITLE,
+        app_block=app_block,
+    )
 
     events = feed['events']
     years = sorted({e['date'][:4] for e in events if e.get('date')})
@@ -277,6 +356,7 @@ def main() -> None:
     print(f'пунктов меню верхнего уровня: {len(feed["menu"])}')
     print(f'размер:    {size / 1024:.0f} КБ  (около {size / 1024 / 8:.0f} КБ в gzip)')
     print(f'sha256:    {digest[:16]}…')
+    print(f'приложение: {args.app_id}   набор: {args.dataset}')
     print(f'записано:  {path}')
     if app_block:
         print(f'версия приложения: {app_block.get("versionName", "?")} '
