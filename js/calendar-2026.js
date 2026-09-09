@@ -2630,6 +2630,17 @@ let events2026 = [
         owner: 'FENIX'
     },
     {
+        id: 'SPB_20260919_4',
+        date: '2026-09-26',
+        place: 'Лемболово',
+        name: 'Лемболовский Мемориал',
+        fmt: 'ночное',
+        type: 'ORIENT',
+        link: 'https://spb-orient.ru/lemb2026',
+        reg: 'https://reg.spb-orient.ru/',
+        map: 'lembolovo_2024',
+    },
+    {
         id: 'SPB_20260927_1',
         date: '2026-09-27',
         name: 'Марафон на холмах Яппиля, ЧиП СПб',
