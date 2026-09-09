@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "generated": "2026-09-09T09:37:56+00:00",
+  "generated": "2026-09-09T09:43:50+00:00",
   "events": 3492,
-  "size": 3846661,
-  "sha256": "9d142ee336da7b7d993ea1b2c0319b3f5a5328f7a7de536e361cd13a2d88bb6d",
+  "size": 3592420,
+  "sha256": "fab60fc80ee7251fc2e8add2b2e48091963382f8bf71cdb9f1154fdcfb12e08f",
   "url": "calendar.json",
   "app": {
     "versionCode": 1,

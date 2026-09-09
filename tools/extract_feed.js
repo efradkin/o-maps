@@ -290,6 +290,23 @@ function absolute(url) {
  * label остаётся всегда: он идёт в описание для чтения с экрана и во
  * всплывающую подсказку при долгом нажатии.
  */
+/**
+ * Адрес, на который ведёт название старта — как buildEventStart() на сайте:
+ * сначала собственный сайт старта, затем O-Site, затем сайт серии.
+ */
+function nameUrl(evt) {
+    const own = asArray(evt.link)[0];
+    if (own) return absolute(own);
+
+    const site = asArray(evt.o_site)[0];
+    if (site) return O_SITE_PREFIX + site;
+
+    const start = asArray(evt.start)[0];
+    if (start && starts[start] && starts[start].link) return absolute(starts[start].link);
+
+    return null;
+}
+
 function buildLinks(evt) {
     const links = [];
     const add = ({ kind, label, url, icon, glyph, slot }) => {
@@ -446,7 +463,10 @@ for (const key of Object.keys(buckets)) {
             owner: ownerText(evt),
             planner: plannersText(evt),
             infoHtml: info,
-            links: buildLinks(evt),
+            nameUrl: nameUrl(evt),
+            // Ссылку, ушедшую на название, из ряда кнопок убираем: иначе
+            // одно и то же открывалось бы из двух мест подряд.
+            links: buildLinks(evt).filter(l => l.url !== nameUrl(evt)),
             // Строка для поиска — заранее в нижнем регистре, чтобы приложение
             // не занималось этим на каждом нажатии клавиши.
             search: [evt.name, evt.place, fmt, stripHtml(info), ownerText(evt), plannersText(evt)]
