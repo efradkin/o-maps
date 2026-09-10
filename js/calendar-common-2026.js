@@ -695,7 +695,7 @@ let commonEvents2026 = [
         date: '2026-09-11',
         endDate: '2026-09-13',
         place: 'Сестрорецк, Зеленогорск',
-        name: 'Всероссийские соревнования НЕВСКИЙ СПРИНТ',
+        name: 'НЕВСКИЙ СПРИНТ',
         o_site: '260913_NS',
         reg: 'http://orgeo.ru/event/info/53700',
         type: 'ORIENT',
