@@ -90,6 +90,7 @@ const GLOBAL_MENU_ITEMS = [
             { title: '🗓️ Самара', page: 'calendar-samara' },
             { title: '🗓️ Главные старты', page: 'calendar.html?start=major' },
             { title: '⛷️ Лыжные гонки', page: 'calendar-ski' },
+            { title: '📲️ Android-приложение', page: 'help/calendar_app' },
         ]
     },
     {
