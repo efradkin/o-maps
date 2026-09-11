@@ -702,6 +702,7 @@ let commonEvents2026 = [
         fmt: 'спринт, многодневный, эстафета',
         owner: 'SFSO_SPB',
         planner: ['KSHN_D','LHMNV'],
+        info: '<a href="https://tapi-o.app/ru/live/NWSP26">Видеосплиты</a>.',
         map: ['sestroretsk_dubkovskoe_2026','zelenogorsk_schuchye_2026']
     },
     {
