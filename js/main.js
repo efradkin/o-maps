@@ -797,6 +797,10 @@ async function loadPOI() {
                 //shadowAnchor: [4, 62], // the same for the shadow
                 popupAnchor: [0, -40] // point from which the popup should open relative to the iconAnchor
             };
+            if (!iconProps.iconUrl) {
+                iconProps.iconUrl = './logo/o-maps.webp';
+                iconProps.iconSize = [75, 75];
+            }
             Object.assign(iconProps, p);
             const icon = L.icon(iconProps);
             const m = getMapForName(p.map);

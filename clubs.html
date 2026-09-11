@@ -39,7 +39,7 @@
 
     <base target="_blank">
 </head>
-<body class="stat-body sheet-body">
+<body class="stat-body sheet-body help-body">
     <script src="js/utils-common.js?v=16"></script>
     <script src="js/utils.js?v=16"></script>
     <header class="page-header">
@@ -56,12 +56,47 @@
         </nav>
     </header>
 
-    <br />
+    <div class="container">
+        <section>Информация о клубах и секциях города собрана из открытых источников или предоставлена непосредственно сотрудниками организаций,
+            а также взята из буклета, опубликованного <a href="https://vk.ru/wall-220245153_2776">на странице АНО "Импульс"</a>. За что им огромное спасибо!</section>
+    </div>
+
+    <div class="sheet-filters">
+        <script src="js/sheet-filter.js?v=16"></script>
+
+        <select id="district_selector" class="header_selector" onchange="updateUrlParam('district', this.value)">
+            <option value="ALL" selected>все районы</option>
+            <option value="ADM">Адмиралтейский район</option>
+            <option value="VOS">Василеостровский район</option>
+            <option value="VYB">Выборгский район</option>
+            <option value="KAL">Калининский район</option>
+            <option value="KIR">Кировский район</option>
+            <option value="KOL">Колпинский район</option>
+            <option value="KRG">Красногвардейский район</option>
+            <option value="KRS">Красносельский район</option>
+            <option value="KUR">Курортный район</option>
+            <option value="MOS">Московский район</option>
+            <option value="NEV">Невский район</option>
+            <option value="PTG">Петроградский район</option>
+            <option value="PTD">Петродворцовый район</option>
+            <option value="PRM">Приморский район</option>
+            <option value="PUSH">Пушкинский район</option>
+            <option value="FRZ">Фрунзенский район</option>
+            <option value="CNT">Центральный район</option>
+            <option value="LO_VSV">Всеволожский район ЛО</option>
+            <option value="LO_VYB">Выборгский район ЛО</option>
+            <option value="LO_GTC">Гатчинский район ЛО</option>
+            <option value="LO_KIRISH">Киришский район ЛО</option>
+            <option value="LO_KIROV">Кировский район ЛО</option>
+            <option value="LO_PRZ">Приозерский район ЛО</option>
+            <option value="LO_SBR">Сосновоборский городской округ</option>
+        </select>
+    </div>
 
     <div class="o-sheet-roof" style="display: none">
         <a href="#" onclick="downloadSheetTable('o-maps-clubs.csv')" target="_self" title="Скачать таблицу"><img src="images/download_24.png" /></a>
     </div>
-    <div class="o-sheet-wrapper o-sheet-wrapper-wo-filters">
+    <div class="o-sheet-wrapper o-sheet-maps-on-store-wrapper">
         <table class="o-main-table o-sheet tracks-table">
             <thead>
             <tr>
@@ -95,7 +130,7 @@
 
         window.onload = function() {
 
-            oClubs = oClubs.filter(c => (c.type === 'CLUB'));
+            oClubs = oClubs.filter(c => (c.type === 'CLUB' && (!DISTRICT_NAME_PARAM || c.district === DISTRICT_NAME_PARAM)));
 
             // Изначальный рендеринг таблицы
             renderStartsTable();
@@ -116,7 +151,7 @@
                 td(row, counter++);
                 td(row, buildLogo(club));
                 td(row, buildName(club));
-                td(row, buildEventPlace(club, '&poi'));
+                td(row, buildEventPlace(club, '&poi') + (club.district ? ` <br /><small>${DISTRICTS[club.district]}</small>` : ''));
                 td(row, buildInfo(club));
                 td(row, buildEventReg(club));
                 td(row, buildCouches(club));
@@ -158,9 +193,16 @@
     </script>
     <script src="js/slide-popup.js?v=16"></script>
 
+    <script>
+        const DISTRICT_NAME_PARAM = urlParams.get('district');
+        if (DISTRICT_NAME_PARAM) {
+            document.getElementById('district_selector').value = DISTRICT_NAME_PARAM;
+        }
+    </script>
+
     <noscript>
         <div id="noscript_content">
-            <h1>O-Maps. Сводная таблица соревнований</h1>
+            <h1>O-Maps. Клубы спортивного ориентирования в СПб</h1>
             <p>
                 Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
             </p>
