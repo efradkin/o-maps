@@ -703,6 +703,7 @@ let commonEvents2026 = [
         owner: 'SFSO_SPB',
         planner: ['KSHN_D','LHMNV'],
         info: '<a href="https://tapi-o.app/ru/live/NWSP26">Видеосплиты</a>.',
+        publish: 'https://vk.ru/album-230167293_314439429',
         map: ['sestroretsk_dubkovskoe_2026','zelenogorsk_schuchye_2026']
     },
     {
