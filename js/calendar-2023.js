@@ -1026,10 +1026,10 @@ let events2023 = [
         name: 'Черноозерская средняя',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/29173',
-        res: 'https://o-site.spb.ru/_races/ch_m_2023/230618_res.htm',
         split: 'splits/2023/SPB_20230618_1_split.htm',
         info: 'Тренировочный старт по спортивному ориентированию бегом',
-        o_site: 'ch_m_2023'
+        o_site: 'ch_m_2023',
+        strava: 9638656656
     },
     {
         id: 'SPB_20230619_1',

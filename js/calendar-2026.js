@@ -2683,6 +2683,15 @@ let events2026 = [
         start: 'OKINCHITSA',
     },
     {
+        id: 'SPB_20261003_2',
+        date: '2026-10-03',
+        name: 'Кубок Колпино',
+        place: 'Колпинский ПКиО',
+        link: 'https://vk.com/orienteeringkolpino',
+        reg: 'https://orgeo.ru/event/55190',
+        type: 'ORIENT',
+    },
+    {
         id: 'SPB_20261010_1',
         date: '2026-10-10',
         name: 'Горный кросс',
