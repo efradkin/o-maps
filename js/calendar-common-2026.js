@@ -697,6 +697,7 @@ let commonEvents2026 = [
         place: 'Сестрорецк, Зеленогорск',
         name: 'НЕВСКИЙ СПРИНТ',
         o_site: '260913_NS',
+        o_gps: 25965,
         reg: 'http://orgeo.ru/event/info/53700',
         type: 'ORIENT',
         fmt: 'спринт, многодневный, эстафета',

@@ -2219,14 +2219,11 @@ let cityMaps = [
     {
         name: 'Сестрорецк, Дубковское ш',
         year: 2026,
-        url: './maps/city/sestroretsk_dubkovskoe_2026.png',
-        bounds: [[60.0945947, 29.9360704], [60.0946161, 29.9561548], [60.0869982, 29.9361563]],
-        restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
+        url: './maps/city/sestroretsk_dubkovskoe_2026.webp',
+        link: './original_maps/city/sestroretsk_dubkovskoe_2026_omaps.webp',
+        bounds: [[60.0947445, 29.9375725], [60.0921661, 29.9557257], [60.0878167, 29.9349654]],
         owner: 'SFSO_SPB',
-        in_work: true,
-        order: {
-            owner: 'SFSO_SPB'
-        },
+        author: 'SVCHK',
         type: ['PARK','CITY']
     },
     {
