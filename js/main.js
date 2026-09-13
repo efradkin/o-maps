@@ -696,7 +696,7 @@ if (mapElement) {
             max: 1,
             step: .1,
             size: '100px',
-            position: 'topleft',
+            position: 'topright',
             value: mapOpacity,
             logo: '⛅',
             showValue: false,
