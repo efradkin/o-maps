@@ -1027,3 +1027,359 @@ footer hr {
         transition: none;
     }
 }
+
+/* ------------------------------------------------------------------ [17]
+   ЕДИНООБРАЗИЕ КНОПОК УПРАВЛЕНИЯ КАРТОЙ
+   Кнопки создаются разными плагинами (EasyButton — 26/30px, ZoomBar —
+   26px PNG-фоны, compass — 36px, searchbox — 40px-пилюля, burgermenu —
+   свой border/radius). Здесь всё приводится к одной сетке.
+   Работает как оверлей поверх main.css и CSS плагинов — !important
+   нужен, потому что плагины задают размеры своими правилами и inline-
+   стилями. Раздел дополняет блок [12] выше, не заменяя его.
+
+   ВАЖНО, что НЕ трогаем:
+   · фон кнопок оставляем светлым даже в тёмной теме — иконки многих
+     кнопок это тёмные PNG в background-image (см. .button-icon в main.css);
+   · overflow: hidden не используем — режет прокрутку списка слоёв и
+     выпадающие меню (contextmenu, burgermenu);
+   · .tbank (жёлтая кнопка «О проекте») — это брендинг спонсора, не
+     «активное» состояние: цвет намеренно сохраняем.
+   ------------------------------------------------------------------ */
+
+:root {
+    --o-ctl-size:  34px;   /* сторона кнопки на десктопе */
+    --o-ctl-icon:  20px;   /* видимая область иконки внутри */
+    --o-ctl-gap:   8px;    /* зазор между группами кнопок */
+    --o-ctl-pad:   10px;   /* отступ всей рейки от края карты */
+}
+
+/* --- 17.1 Ритм рейки ---
+   Верхне-левый угол делаем flex-колонкой. Тогда одинаковый зазор между
+   группами держится сам, сколько бы .leaflet-bar ни насоздавали плагины,
+   и рваные margin'ы отдельных контролов больше не влияют. */
+.leaflet-top.leaflet-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--o-ctl-gap);
+    padding: var(--o-ctl-pad);
+}
+.leaflet-top.leaflet-left > .leaflet-control {
+    margin: 0 !important;
+    float: none !important;
+    clear: none !important;
+}
+/* searchbox в развёрнутом виде тянется вправо — не даём флексу его сжать */
+.leaflet-top.leaflet-left > .leaflet-control.leaflet-searchbox-container {
+    align-self: stretch;
+}
+
+/* Верхне-правый угол — та же флекс-колонка, но прижатая к правому краю.
+   Даёт одинаковый зазор между списком слоёв, поиском и компасом — как слева. */
+.leaflet-top.leaflet-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--o-ctl-gap);
+    padding: var(--o-ctl-pad);
+}
+.leaflet-top.leaflet-right > .leaflet-control {
+    margin: 0 !important;
+    float: none !important;
+    clear: none !important;
+}
+
+/* Единая ширина правых «кнопочных» контролов. Компасу задаём ширину сетки.
+   Поиску ширину контейнера НЕ фиксируем: его раскрытие плагин анимирует
+   через transition ширины внутреннего поля (.leaflet-searchbox: 0→300px).
+   Любой наш width/align-self/justify на контейнере или обёртке вступает в
+   гонку с этой анимацией и даёт двухступенчатый рывок. Поэтому контейнер
+   оставляем shrink-to-fit (ширину диктует его содержимое), а к сетке
+   приводим только саму кнопку-лупу. Список слоёв в развёрнутом виде шире —
+   его тоже не ограничиваем. */
+.leaflet-top.leaflet-right > .leaflet-compass {
+    width: var(--o-ctl-size) !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* --- 17.2 Группа как карточка ---
+   Блок [12] уже задал фон/тень/радиус для .leaflet-bar и списка слоёв.
+   Здесь добавляем те контейнеры плагинов, которых там не было, и ровняем
+   внешний border у touch-варианта (у него он 2px и габарит плывёт). */
+.leaflet-touch .leaflet-bar,
+.leaflet-compass,
+.leaflet-control-burgermenu .burger-button,
+.easy-button-container {
+    background: rgba(255,255,255,.9) !important;
+    border: 1px solid rgba(30,38,32,.08) !important;
+    border-radius: var(--o-r) !important;
+    box-shadow: var(--o-sh-2) !important;
+    -webkit-backdrop-filter: blur(12px) saturate(1.15);
+    backdrop-filter: blur(12px) saturate(1.15);
+}
+/* burgermenu задаёт свой мелкий радиус и жирный border — гасим */
+.leaflet-control-burgermenu .burger-button {
+    font-weight: 400;
+    padding: 0 !important;
+}
+/* compass задаёт полупрозрачный фон и свой радиус — приводим к общему */
+.leaflet-control.leaflet-compass {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Скругление — только по краям группы; внутри группы кнопки делят
+   hairline-разделители. Без overflow:hidden (см. примечание выше). */
+.leaflet-bar > *,
+.easy-button-container > * {
+    border-radius: 0 !important;
+}
+.leaflet-bar > *:first-child,
+.easy-button-container > *:first-child {
+    border-radius: calc(var(--o-r) - 1px) calc(var(--o-r) - 1px) 0 0 !important;
+}
+.leaflet-bar > *:last-child,
+.easy-button-container > *:last-child {
+    border-radius: 0 0 calc(var(--o-r) - 1px) calc(var(--o-r) - 1px) !important;
+}
+.leaflet-bar > *:only-child,
+.easy-button-container > *:only-child {
+    border-radius: calc(var(--o-r) - 1px) !important;
+}
+.leaflet-bar > * + *,
+.easy-button-container > * + * {
+    border-top: 1px solid var(--o-border-soft) !important;
+}
+
+/* --- 17.3 Сама кнопка: единый размер и центровка ---
+   Покрываем три способа отрисовки: <a> Leaflet-баров и ZoomBar, <button>
+   EasyButton, и одиночные кнопки плагинов (compass, burger). */
+.leaflet-bar a,
+.leaflet-bar button,
+.leaflet-touch .leaflet-bar a,
+.leaflet-touch .leaflet-bar button,
+.leaflet-control-zoom a,
+.leaflet-control-zoom-to-start,
+.leaflet-control-zoom-to-area,
+.easy-button-button,
+.leaflet-compass .compass-button,
+.leaflet-control-burgermenu .burger-button {
+    box-sizing: border-box !important;
+    width:  var(--o-ctl-size) !important;
+    height: var(--o-ctl-size) !important;
+    line-height: var(--o-ctl-size) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    background-color: var(--o-surface) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: var(--o-ctl-icon) var(--o-ctl-icon);
+    transition: background-color .12s ease !important;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* --- 17.4 Иконки внутри кнопки ---
+   EasyButton строит: <button><span class="button-state">
+     <span class="button-icon ..."></span></span></button>, причём easy-button.css
+   задаёт .button-state { display:block; width:100%; height:100% }, а main.css —
+   .button-icon { display:block; margin:2px -2px }. Из-за этого иконка садится в
+   левый-верхний угол полноразмерной обёртки. Надёжнее всего не «растворять»
+   обёртку, а сделать её саму центрирующим флексом — тогда иконка встаёт по
+   центру при любой вложенности. */
+.easy-button-button > .button-state,
+.easy-button-button .button-state {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: static !important;
+}
+.button-icon,
+.easy-button-button .button-icon,
+.leaflet-compass .compass-icon {
+    display: block !important;
+    width:  var(--o-ctl-icon) !important;
+    height: var(--o-ctl-icon) !important;
+    margin: 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+/* ZoomBar рисует иконку фоном 26px прямо на <a> — ужимаем до сетки */
+.leaflet-control-zoom-to-start,
+.leaflet-control-zoom-to-area {
+    background-size: var(--o-ctl-icon) var(--o-ctl-icon) !important;
+}
+/* Символьные кнопки зума (+/−): глиф чуть крупнее, чтобы не казался мельче */
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+    font-size: 22px !important;
+    font-weight: 300 !important;
+}
+/* GPX-кнопка FileLayer: иконка задана инлайном (margin-top:3px) — обнуляем */
+.leaflet-control a .icon,
+.easy-button-button img {
+    width:  var(--o-ctl-icon) !important;
+    height: var(--o-ctl-icon) !important;
+    margin: 0 !important;
+    vertical-align: middle;
+}
+
+/* --- 17.5 Состояния ---
+   Наведение/нажатие — из палитры темы. «Включено» (напр. активный
+   compass) — мягкий акцентный фон вместо разнородных дефолтов плагинов. */
+.easy-button-button:hover,
+.leaflet-compass .compass-button:hover,
+.leaflet-control-burgermenu .burger-button:hover,
+.leaflet-control-zoom-to-start:hover,
+.leaflet-control-zoom-to-area:hover {
+    background-color: var(--o-surface-2) !important;
+}
+.leaflet-compass .compass-button.active,
+.easy-button-button.active {
+    background-color: var(--o-accent-soft) !important;
+}
+/* Кнопка «О проекте» (.tbank) — заливаем ЦЕЛИКОМ, а не только центр.
+   main.css задаёт button:has(.tbank){background:yellow}, но общее правило
+   17.3 перекрывает фон кнопки на белый — здесь возвращаем жёлтый на весь
+   <button> и на обе обёртки, чтобы не оставалось белых полей по краям.
+   Наведение — чуть тёмный жёлтый, чтобы был отклик. */
+.easy-button-button:has(.tbank),
+button.easy-button-button:has(.button-icon.tbank) {
+    background-color: yellow !important;
+}
+.easy-button-button:has(.tbank) .button-state,
+.easy-button-button:has(.tbank) .button-icon.tbank {
+    background-color: transparent !important;
+}
+.easy-button-button:has(.tbank):hover {
+    background-color: #f2d600 !important;
+}
+/* .button-icon.tbank несёт PNG-иконку — фон-цвет с него снимаем (см. выше),
+   иначе жёлтый квадрат перекрывал бы прозрачные края значка. */
+
+/* Фокус с клавиатуры — единое аккуратное кольцо (у плагинов его нет) */
+.leaflet-bar a:focus-visible,
+.leaflet-bar button:focus-visible,
+.easy-button-button:focus-visible,
+.leaflet-compass .compass-button:focus-visible,
+.leaflet-control-layers-toggle:focus-visible {
+    outline: 2px solid var(--o-accent) !important;
+    outline-offset: -2px;
+    z-index: 1;
+}
+
+/* --- 17.6 Правые контролы: лупа слоёв, поиск, компас ---
+   Свёрнутый тумблер слоёв ровняем к сетке; searchbox-пилюлю — к той же
+   высоте, форму-пилюлю сохраняем (её ломать не надо). Компас приводим к
+   виду обычной кнопки. */
+.leaflet-control-layers-toggle {
+    width:  var(--o-ctl-size) !important;
+    height: var(--o-ctl-size) !important;
+    background-size: var(--o-ctl-icon) var(--o-ctl-icon) !important;
+}
+
+/* searchbox: свёрнутая кнопка-иконка встаёт в сетку, иконка центрируется */
+.leaflet-searchbox-wrapper { height: var(--o-ctl-size) !important; }
+.leaflet-searchbox-wrapper .leaflet-searchbox-button {
+    width: var(--o-ctl-size) !important;
+    height: var(--o-ctl-size) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+}
+.leaflet-searchbox-wrapper .leaflet-searchbox-button .leaflet-searchbox-icon,
+.leaflet-searchbox-wrapper .leaflet-searchbox-button img {
+    width:  var(--o-ctl-icon) !important;
+    height: var(--o-ctl-icon) !important;
+    margin: 0 !important;
+}
+/* поле ввода тоже под общую высоту, чтобы пилюля не была выше кнопок-соседей */
+.leaflet-searchbox-wrapper .leaflet-searchbox {
+    height: var(--o-ctl-size) !important;
+}
+
+/* компас: <div.leaflet-compass><span.compass-button>
+     <div.compass-icon> + <span.compass-digit>0°</span></span></div>.
+   Внешний .leaflet-compass уже оформлен карточкой в 17.2 — поэтому внутренняя
+   .compass-button должна быть прозрачной (иначе карточка в карточке), её задача
+   лишь отцентровать иконку. Цифру-градус прячем: дублирует стрелку и сбивает
+   центровку. Получается обычная кнопка, как в левой рейке. */
+.leaflet-compass .compass-button {
+    width:  var(--o-ctl-size) !important;
+    height: var(--o-ctl-size) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+    border-radius: calc(var(--o-r) - 1px) !important;
+}
+.leaflet-compass .compass-button .compass-icon {
+    width:  var(--o-ctl-icon) !important;
+    height: var(--o-ctl-icon) !important;
+    margin: 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.leaflet-compass .compass-digit { display: none !important; }
+
+
+/* --- 17.7 Тач и телефоны --- */
+.leaflet-touch :root,
+.leaflet-touch .leaflet-container { }
+.leaflet-touch .leaflet-bar { margin: 0 !important; }  /* было 6px в блоке [12] — теперь зазор даёт flex-gap */
+
+@media (max-width: 576px) {
+    :root {
+        --o-ctl-size: 40px;
+        --o-ctl-icon: 22px;
+        --o-ctl-gap:  6px;
+        --o-ctl-pad:  8px;
+    }
+}
+@media (pointer: coarse) {
+    :root {
+        --o-ctl-size: 40px;
+        --o-ctl-icon: 22px;
+    }
+}
+
+/* --- 17.8 Тёмная тема ---
+   Подложку кнопок держим светлой (PNG-иконки тёмные) — как в блоке [12].
+   Правим только контейнеры плагинов, добавленные в 17.2, и разделители. */
+:root.o-dark .leaflet-touch .leaflet-bar,
+:root.o-dark .leaflet-compass,
+:root.o-dark .leaflet-control-burgermenu .burger-button,
+:root.o-dark .easy-button-container {
+    background: rgba(27,33,29,.9) !important;
+    border-color: rgba(255,255,255,.10) !important;
+}
+:root.o-dark .easy-button-button,
+:root.o-dark .leaflet-compass .compass-button,
+:root.o-dark .leaflet-control-burgermenu .burger-button,
+:root.o-dark .leaflet-control-zoom-to-start,
+:root.o-dark .leaflet-control-zoom-to-area {
+    background-color: #e8e8e8 !important;
+}
+:root.o-dark .easy-button-button:hover,
+:root.o-dark .leaflet-compass .compass-button:hover,
+:root.o-dark .leaflet-control-zoom-to-start:hover,
+:root.o-dark .leaflet-control-zoom-to-area:hover {
+    background-color: #d8d8d8 !important;
+}
+:root.o-dark .leaflet-bar > * + *,
+:root.o-dark .easy-button-container > * + * {
+    border-top-color: rgba(0,0,0,.12) !important;
+}

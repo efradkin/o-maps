@@ -1873,7 +1873,11 @@ let events2022 = [
             'splits/2022/SPB_20221006_1_2_split.htm',
             'splits/2022/SPB_20221006_1_3_split.htm'
         ],
-        photo: 'http://vk.com/album-154221178_287261227',
+        photo: [
+            'http://vk.com/album-154221178_287261227',
+            'http://vk.com/album-154221178_287261185',
+            'http://vk.com/album-154221178_287261206',
+        ],
         video: [
             'https://www.youtube.com/watch?v=fRPq_D5p_-4',
             'https://www.youtube.com/watch?v=29hiuxaqDbk',
