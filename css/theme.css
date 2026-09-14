@@ -1417,3 +1417,383 @@ a.leaflet-control-slider-toggle {
 :root.o-dark .easy-button-container > * + * {
     border-top-color: rgba(0,0,0,.12) !important;
 }
+
+/* ============================================================
+   Рейка управления картой (map-rail.js)
+   Три смысловых блока слева; вторичное — под раскрывашки.
+   Тёмная тема — через :root.o-dark.
+
+   ВАЖНО: перенесённые узлы кнопок плагинов сохраняют свой
+   background-image (иконку). Мы задаём им только бокс и убираем
+   рамки/тени — фон НЕ трогаем, иначе иконки пропадают.
+   ============================================================ */
+.om-rail {
+    --om-rail-size: 40px;
+    --om-rail-icon: 22px;
+    --om-rail-bg: #fff;
+    --om-rail-fg: #3a4046;
+    --om-rail-bd: rgba(0,0,0,.16);
+    --om-rail-hover: #f0f2f4;
+    --om-rail-accent: var(--o-accent);          /* olive, как у чекбоксов */
+    --om-rail-shadow: 0 1px 6px rgba(0,0,0,.28);
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: inherit;
+}
+:root.o-dark .om-rail {
+    --om-rail-bg: #23272c;
+    --om-rail-fg: #dfe3e6;
+    --om-rail-bd: rgba(255,255,255,.18);
+    --om-rail-hover: #2e343a;
+    --om-rail-accent: var(--o-accent);          /* olive (тёмная тема) */
+    --om-rail-shadow: 0 1px 8px rgba(0,0,0,.55);
+}
+
+.om-rail__group {
+    position: relative;               /* якорь для вылета; overflow НЕ задаём */
+    display: flex;
+    flex-direction: column;
+    background: var(--om-rail-bg);
+    border: 1px solid var(--om-rail-bd);
+    border-radius: 7px;
+    box-shadow: var(--om-rail-shadow);
+}
+
+/* Собственные кнопки рейки (шестерёнка, слои) */
+.om-rail__btn {
+    width: var(--om-rail-size);
+    height: var(--om-rail-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 1px solid var(--om-rail-bd);
+    background: transparent;
+    color: var(--om-rail-fg);
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.om-rail__btn svg { width: 20px; height: 20px; display: block; pointer-events: none; }
+.om-rail__emoji {
+    font-size: 19px;
+    line-height: 1;
+    display: block;
+    pointer-events: none;
+    /* эмодзи не должно перекрашиваться в белый на фиолетовом hover */
+    filter: none;
+}
+
+/* Перенесённые узлы плагинов (home/+/−/локация): задаём ТОЛЬКО бокс и убираем
+   декор, сохраняя их background-image. Перебиваем !important секции 17. */
+.om-rail__group .om-rail__adopted,
+.om-rail__group .om-rail__adopted.easy-button-button,
+.om-rail__group a.om-rail__adopted {
+    width:  var(--om-rail-size) !important;
+    height: var(--om-rail-size) !important;
+    line-height: var(--om-rail-size) !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-bottom: 1px solid var(--om-rail-bd) !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: var(--om-rail-fg) !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* фоновая иконка на самом перенесённом <a> (ZoomBar локация) — держим по центру */
+.om-rail__group a.om-rail__adopted {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: var(--om-rail-icon) var(--om-rail-icon) !important;
+}
+/* глиф +/− */
+.om-rail__group .leaflet-control-zoom-in.om-rail__adopted,
+.om-rail__group .leaflet-control-zoom-out.om-rail__adopted {
+    font-size: 22px !important;
+    font-weight: 300 !important;
+}
+/* home и прочие easyButton: иконка живёт на вложенном .button-icon — не трогаем её фон */
+.om-rail__group .om-rail__adopted .button-state {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.om-rail__group .om-rail__adopted .button-icon {
+    width:  var(--om-rail-icon) !important;
+    height: var(--om-rail-icon) !important;
+    margin: 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* единый радиус углов блока */
+.om-rail__group > *:last-child { border-bottom: 0 !important; }
+.om-rail__group > *:first-child { border-radius: 6px 6px 0 0 !important; }
+.om-rail__group > *:only-child  { border-radius: 6px !important; }
+
+/* навигационные кнопки (home/+/−/локация): мягкий hover */
+.om-rail__group .om-rail__adopted:hover {
+    background-color: var(--om-rail-hover) !important;
+}
+/* кнопки-тогглы раскрывашек: hover сразу акцентный (olive), как в раскрытом
+   состоянии — без молочного мелькания */
+.om-rail__toggle:hover,
+.om-rail__toggle[aria-expanded="true"] {
+    background: var(--om-rail-accent) !important;
+    color: #fff !important;
+}
+:root.o-dark .om-rail__toggle:hover,
+:root.o-dark .om-rail__toggle[aria-expanded="true"] { color: #15181c !important; }
+
+/* индикатор активного инструмента: точка в углу кнопки-молотка */
+.om-rail__toggle { position: relative; }
+.om-rail__toggle--busy::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--om-rail-accent);
+    box-shadow: 0 0 0 2px var(--om-rail-bg);
+}
+/* когда кнопка подсвечена акцентом (hover/раскрыта) — точка светлая, чтобы читалась */
+.om-rail__toggle--busy:hover::after,
+.om-rail__toggle--busy[aria-expanded="true"]::after {
+    background: #fff;
+    box-shadow: 0 0 0 2px var(--om-rail-accent);
+}
+
+.om-rail__btn:focus-visible,
+.om-rail__group .om-rail__adopted:focus-visible {
+    outline: 2px solid var(--om-rail-accent);
+    outline-offset: -2px;
+}
+
+/* активный инструмент в списке — акцентная подсветка строки */
+.om-flyout__item--active {
+    background: var(--om-rail-accent) !important;
+    color: #fff !important;
+}
+.om-flyout__item--active .om-flyout__ico { color: #fff !important; }
+:root.o-dark .om-flyout__item--active,
+:root.o-dark .om-flyout__item--active .om-flyout__ico { color: #15181c !important; }
+
+/* ---- вылет ---- */
+.om-flyout {
+    position: absolute;
+    top: -1px;
+    left: calc(100% + 8px);
+    min-width: 220px;
+    background: var(--om-rail-bg);
+    border: 1px solid var(--om-rail-bd);
+    border-radius: 7px;
+    box-shadow: var(--om-rail-shadow);
+    padding: 5px;
+    display: none;
+}
+.om-flyout--wide { min-width: 240px; }
+.om-flyout.is-open { display: block; }
+/* невидимый «мостик» через зазор между кнопкой и вылетом —
+   чтобы наведение не прерывалось, пока курсор переходит на вылет */
+.om-flyout::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 10px;
+    height: 100%;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .om-flyout.is-open { animation: om-fly .13s ease-out; }
+    @keyframes om-fly {
+        from { opacity: 0; transform: translateX(-6px); }
+        to   { opacity: 1; transform: none; }
+    }
+}
+
+.om-flyout__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 5px;
+    background: transparent;
+    color: var(--om-rail-fg);
+    font: inherit;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+}
+.om-flyout__item:hover { background: var(--om-rail-hover); }
+.om-flyout__item:focus-visible { outline: 2px solid var(--om-rail-accent); outline-offset: -2px; }
+.om-flyout__item.is-disabled { opacity: .5; cursor: default; pointer-events: none; }
+
+/* Ячейка иконки в пункте раскрывашки — фиксированный бокс.
+   Внутри может быть либо наш инлайновый SVG, либо перенесённый узел плагина
+   (с фоновой иконкой). В обоих случаях бокс 24×24. */
+.om-flyout__ico {
+    flex: none;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--om-rail-fg);
+}
+.om-flyout__ico svg { width: 20px; height: 20px; }
+.om-flyout__label { flex: 1 1 auto; }
+.om-flyout__sep { height: 1px; background: var(--om-rail-bd); margin: 5px 8px; }
+
+/* Перенесённый узел-кнопка плагина внутри пункта: показываем его фон-иконку,
+   убираем рамки/тени/размер-обёртку, но НЕ убиваем background-image. */
+.om-flyout__ico .om-proxy-source {
+    width: 24px !important;
+    height: 24px !important;
+    min-width: 24px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 20px 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 0 !important;
+}
+/* если внутри ещё вложенный <a>/<button>/<img> с иконкой — тоже ужимаем в бокс */
+.om-flyout__ico .om-proxy-source a,
+.om-flyout__ico .om-proxy-source button {
+    width: 24px !important;
+    height: 24px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background-color: transparent !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 20px 20px !important;
+    display: block !important;
+}
+.om-flyout__ico .om-proxy-source img,
+.om-flyout__ico .om-proxy-source .icon {
+    width: 20px !important;
+    height: 20px !important;
+    margin: 0 !important;
+}
+
+/* Строка «Прозрачность карт»: иконка слева (как у прочих пунктов),
+   справа — подпись над горизонтальным слайдером. */
+.om-flyout__item--slider {
+    align-items: flex-start;
+    cursor: default;
+}
+.om-flyout__item--slider .om-flyout__ico {
+    margin-top: 1px;   /* выравниваем иконку по строке подписи */
+}
+.om-flyout__slidercol {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.om-flyout__item--slider .om-flyout__label {
+    flex: none;
+}
+
+/* перенесённый контейнер слайдера: снимаем декор, тянем на всю ширину колонки.
+   Слайдер несёт классы .leaflet-control-layers и .leaflet-control-slider(-horizontal),
+   а правило секции 17.x зажимает :not(.expanded) в 34px — перебиваем адресно,
+   не завися от наличия класса -expanded. */
+.om-flyout__slidercol .om-rail__adopted,
+.om-flyout__slidercol .leaflet-control-slider,
+.om-flyout__slidercol .leaflet-control-slider.leaflet-control-layers,
+.om-flyout__slidercol .leaflet-control-slider:not(.leaflet-control-slider-expanded) {
+    position: static !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    line-height: normal !important;
+    display: block !important;
+    background: transparent !important;
+    float: none !important;
+    clear: both !important;
+    overflow: visible !important;
+}
+/* горизонтальный ползунок на всю ширину; служебный логотип-тоггл прячем */
+.om-flyout__slidercol .leaflet-slider-container {
+    width: 100% !important;
+    height: 22px !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    display: block !important;
+}
+.om-flyout__slidercol input.leaflet-slider {
+    width: 100% !important;
+    height: 20px !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-appearance: auto;
+    appearance: auto;
+    accent-color: var(--om-rail-accent);
+    display: block !important;
+    orient: horizontal;
+}
+.om-flyout__slidercol .leaflet-control-slider-toggle {
+    display: none !important;
+}
+.om-flyout__slidercol .leaflet-control-slider-value {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px !important;
+    color: var(--om-rail-fg) !important;
+    text-align: right !important;
+}
+
+/* ---- узкий экран ---- */
+@media (max-width: 480px) {
+    .om-rail { --om-rail-size: 38px; top: 8px; left: 8px; gap: 6px; }
+    .om-flyout {
+        left: calc(100% + 6px);
+        min-width: 0;
+        width: calc(100vw - var(--om-rail-size) - 30px);
+        max-width: 260px;
+    }
+    .om-flyout--wide { min-width: 0; }
+}

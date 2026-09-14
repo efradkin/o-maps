@@ -690,15 +690,16 @@ if (mapElement) {
     if (!hiddenButtonsMode) {
         let sliderOptions = {
             id: 'opacitySlider',
-            orientation: 'vertical',
+            orientation: 'horizontal',
             title: 'Прозрачность карт',
             min: 0,
             max: 1,
             step: .1,
-            size: '100px',
+            size: '150px',
             position: 'topright',
             value: mapOpacity,
-            logo: '⛅',
+            logo: '',
+            collapsed: false,
             showValue: false,
             syncSlider: true
         };
@@ -777,6 +778,11 @@ if (mapElement) {
                 onClick: callCenter
             }]
         }).addTo(map);
+    }
+
+    // --- собрать все контролы в единую рейку (js/map-rail.js) ---
+    if (typeof buildMapRail === 'function') {
+        buildMapRail(map);
     }
 } else {
     loadMaps();
@@ -1870,12 +1876,6 @@ function popupsSwitch(e) {
 function hideMapsSwitch(e) {
     showMapsOnSmallZoom = !showMapsOnSmallZoom;
     localStorage.setItem('showMapsOnSmallZoom', showMapsOnSmallZoom);
-    location.reload();
-}
-
-function hiddenButtonsModeSwitch(e) {
-    hiddenButtonsMode = !hiddenButtonsMode;
-    localStorage.setItem('hiddenButtonsMode', hiddenButtonsMode);
     location.reload();
 }
 

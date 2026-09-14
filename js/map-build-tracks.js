@@ -157,10 +157,6 @@ function buildContextmenuItems() {
         text: 'Выделять полноразмеры',
         icon: 'images/expand.png',
         callback: fullSizeSwitch
-    }, {
-        text: hiddenButtonsMode ? 'Показать кнопки' : 'Скрыть кнопки',
-        icon: 'images/menu.png',
-        callback: hiddenButtonsModeSwitch
     }, '-', {
         text: 'Редактирование',
         icon: 'images/edit.png',
