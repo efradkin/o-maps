@@ -651,9 +651,18 @@ if (mapElement) {
         // _vertexChanged на каждую поставленную вершину, независимо от того,
         // мышь это или палец. Штатный _onClick при этом никуда не девается —
         // от двойного добавления защищает обёртка над _addSegment ниже.
+        //
+        // Флаг _drawing здесь сознательно не проверяется. На тач-устройствах
+        // вершина появляется по touchstart, то есть маркер оказывается прямо
+        // под пальцем, и последующий браузерный click приходит уже в него,
+        // а не в карту. А начиная со второй вершины на последнем маркере висит
+        // _finishShape (L.Draw.Polyline._updateFinishHandler) — линия «завершается»
+        // тем же касанием, которым её продолжают. Точки при этом добавляться
+        // не перестают (addVertex про _drawing ничего не знает), так что
+        // считаем перегоны по вершинам, а не по состоянию рисования.
         map.on('draw:drawvertex', function () {
             const handler = measureControl._handler;
-            if (!handler || !handler._drawing) return;
+            if (!handler || !handler._markers) return;
             handler._addSegment();
             handler._updateSegmentsTooltipNumber();
         });
