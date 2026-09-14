@@ -632,6 +632,29 @@ if (mapElement) {
             },
         };
         L.Control.qgsmeasure(qgsmeasureOptions).addTo(map);
+
+        // Завершение ломаной — это двойной клик: первый клик ставит узел,
+        // второй попадает по только что поставленному маркеру, на котором
+        // L.Draw.Polyline._updateFinishHandler() держит обработчик
+        // _finishShape(). Но браузерный dblclick доходит и до карты, и штатный
+        // L.Map.DoubleClickZoom её приближает. Поэтому на время работы
+        // измерителя гасим зум по двойному клику и возвращаем как было.
+        //
+        // Ловим выключение инструмента по measurestop (кнопкой) и draw:canceled
+        // (Esc). Завершение ломаной сюда не относится: qgsmeasure после него
+        // handler не отключает — следующий клик начинает новую линию, и зум
+        // должен оставаться выключенным.
+        let dblClickZoomWasEnabled = null;
+        map.on('qgsmeasure:measurestart', function () {
+            if (dblClickZoomWasEnabled === null) {
+                dblClickZoomWasEnabled = map.doubleClickZoom.enabled();
+            }
+            map.doubleClickZoom.disable();
+        });
+        map.on('qgsmeasure:measurestop draw:canceled', function () {
+            if (dblClickZoomWasEnabled) map.doubleClickZoom.enable();
+            dblClickZoomWasEnabled = null;
+        });
     }
 
     // --- lasso ---

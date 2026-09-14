@@ -342,20 +342,36 @@ function buildMapRail(map) {
 
     // --- индикатор активного инструмента по РЕАЛЬНЫМ событиям плагинов ---
 
+    // Инструменты помечены keepOpen: клик по пункту не закрывает раскрывашку,
+    // чтобы включённый инструмент можно было выключить тем же пунктом. Но
+    // работают-то они по карте, а на узких экранах вылет занимает почти всю
+    // ширину (theme.css, @media max-width: 480px) и закрывает место работы.
+    // Поэтому закрываем вылет в момент ВКЛЮЧЕНИЯ инструмента.
+    //
+    // Закрываем по событию плагина, а не по клику, по двум причинам:
+    //   - клик по уже включённому инструменту его выключает — тогда закрывать
+    //     меню не нужно, пользователь остаётся в списке;
+    //   - тапнуть можно и по самой иконке плагина (.om-proxy-source), обработчик
+    //     строки при этом не срабатывает, а событие приходит в обоих случаях.
+    function activateTool(name) {
+        setActiveTool(name);
+        closeFlyouts();
+    }
+
     // Измерение расстояний (qgsmeasure наследует L.Draw.Polyline).
     // Точка отражает включённость инструмента: горит, пока режим измерения
     // активен, независимо от того, что двойной клик завершает текущую ломаную
     // (следующий клик начинает новую — режим при этом не выключается).
     //   зажигается — measurestart (клик по кнопке);
     //   гаснет — measurestop (выключение кнопкой) и draw:canceled (выход по Esc).
-    map.on('qgsmeasure:measurestart', function () { setActiveTool('measure'); });
+    map.on('qgsmeasure:measurestart', function () { activateTool('measure'); });
     map.on('qgsmeasure:measurestop draw:canceled', function () {
         if (activeTool === 'measure') setActiveTool(null);
     });
 
     // Измеритель площади (lasso): после отрисовки площади плагин сам вызывает
     // disable → приходит lasso.disabled, поэтому точка гаснет корректно.
-    map.on('lasso.enabled',  function () { setActiveTool('lasso'); });
+    map.on('lasso.enabled',  function () { activateTool('lasso'); });
     map.on('lasso.disabled', function () { if (activeTool === 'lasso') setActiveTool(null); });
 
     // Esc закрывает
