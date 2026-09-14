@@ -669,7 +669,8 @@ let events2015 = [
         reg: 'http://orgeo.ru',
         res: 'https://o-site.spb.ru/_races/150530_Bud/150530_res.htm',
         split: 'splits/2015/SPB_20150530_1_split.htm',
-        o_site: '150530_Bud'
+        o_site: '150530_Bud',
+        owner: 'EGRV_SRG'
     },
     {
         id: 'SPB_20150530_2',

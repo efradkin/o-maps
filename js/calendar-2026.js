@@ -2546,6 +2546,18 @@ let events2026 = [
         map: 'internatsionalistov_2021'
     },
     {
+        id: 'SPB_20260917_1',
+        date: '2026-09-17',
+        name: 'Dлительная серия. V этап',
+        place: 'Комендантский пр',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        reg: 'https://orgeo.ru/event/55347',
+        link: 'https://t.me/dlitelnyy/691',
+        info: 'Отборочный старт СФСО СПб + тренировочные дистанции.',
+        map: 'koroleva_2026'
+    },
+    {
         id: 'SPB_20260919_2',
         date: '2026-09-19',
         place: 'Рощино, Мухино',
@@ -2567,7 +2579,8 @@ let events2026 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1759',
         type: 'VELO',
         fmt: 'классика',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'sosnovo_ulovnoe_velo_2021'
     },
     {
         id: 'SPB_20260924_1',
@@ -2671,6 +2684,16 @@ let events2026 = [
         type: 'ORIENT',
         owner: 'VESTA_PRIOZERSK',
         map: 'priozersk_kamenisty'
+    },
+    {
+        id: 'SPB_20260927_3',
+        date: '2026-09-27',
+        place: 'Будогощь',
+        name: 'XII соревнования памяти Ю.А.Березюка',
+        reg: 'https://orgeo.ru/event/berezuk_2026',
+        type: 'ORIENT',
+        map: 'tikhvin_road_2012',
+        owner: 'EGRV_SRG'
     },
     {
         id: 'SPB_20260930_1',

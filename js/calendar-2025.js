@@ -3004,7 +3004,8 @@ let events2025 = [
             'https://vk.com/album-116730504_307486556',
             'https://disk.yandex.ru/d/HpF7I9e_7EyAhA'
         ],
-        map: 'budogosch_orlenok_2006'
+        map: 'budogosch_orlenok_2006',
+        owner: 'EGRV_SRG'
     },
     {
         id: 'SPB_20251108_1',

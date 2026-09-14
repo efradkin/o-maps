@@ -522,7 +522,8 @@ let events2016 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/160515_B/160515_res.pdf',
         split: 'splits/2016/SPB_20160515_2_split.htm',
-        o_site: '160515_B'
+        o_site: '160515_B',
+        owner: 'EGRV_SRG'
     },
     {
         id: 'SPB_20160518_1',

@@ -584,7 +584,8 @@ let events2018 = [
         name: '4-е соревнования Памяти Ю.А.Березюка',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/5866',
-        o_site: '180506_B'
+        o_site: '180506_B',
+        owner: 'EGRV_SRG'
     },
     {
         id: 'SPB_20180509_1',
