@@ -703,6 +703,10 @@ let commonEvents2026 = [
         fmt: 'спринт, многодневный, эстафета',
         owner: 'SFSO_SPB',
         planner: ['KSHN_D','LHMNV'],
+        photo: [
+            'https://vk.ru/album-230167293_314439429',
+            'https://blinova-photo.ru/disk/11-09-2026-nevskiy-sprint-1-den-v3kkms'
+        ],
         info: '<a href="https://tapi-o.app/ru/live/NWSP26">Видеосплиты</a>.',
         publish: 'https://vk.ru/album-230167293_314439429',
         map: ['sestroretsk_dubkovskoe_2026','zelenogorsk_chernye_2023','zelenogorsk_schuchye_2026']

@@ -2552,6 +2552,7 @@ let events2026 = [
         name: 'Горный кросс-116',
         o_site: '260919R',
         reg: 'https://orgeo.ru/event/50693',
+        photo: 'https://vk.ru/album-31941981_311862815',
         type: 'ROGAINE',
         fmt: '5(4), 2',
         map: 'molodezhnoe_gk_2024',
@@ -2655,11 +2656,12 @@ let events2026 = [
     {
         id: 'SPB_20260927_2',
         date: '2026-09-27',
-        place: 'Приозерск',
-        name: 'XIII Кубок Весты, Памяти друзей',
+        place: 'Приозерск, парк Каменистый',
+        name: 'XIII Кубок Весты, Памяти друзей, П-во Приозерска',
         link: 'https://vk.ru/vesta_priozersk',
         type: 'ORIENT',
-        owner: 'VESTA_PRIOZERSK'
+        owner: 'VESTA_PRIOZERSK',
+        map: 'priozersk_kamenisty'
     },
     {
         id: 'SPB_20260918_1',
