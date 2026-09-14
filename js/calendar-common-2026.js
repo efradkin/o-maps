@@ -697,7 +697,7 @@ let commonEvents2026 = [
         place: 'Сестрорецк, Зеленогорск',
         name: 'НЕВСКИЙ СПРИНТ',
         o_site: '260913_NS',
-        o_gps: 25965,
+        o_gps: [25938,25965],
         reg: 'http://orgeo.ru/event/info/53700',
         type: 'ORIENT',
         fmt: 'спринт, многодневный, эстафета',
@@ -705,7 +705,7 @@ let commonEvents2026 = [
         planner: ['KSHN_D','LHMNV'],
         info: '<a href="https://tapi-o.app/ru/live/NWSP26">Видеосплиты</a>.',
         publish: 'https://vk.ru/album-230167293_314439429',
-        map: ['sestroretsk_dubkovskoe_2026','zelenogorsk_schuchye_2026']
+        map: ['sestroretsk_dubkovskoe_2026','zelenogorsk_chernye_2023','zelenogorsk_schuchye_2026']
     },
     {
         id: 'MAJOR_20260916_1',

@@ -2180,7 +2180,6 @@ let cityMaps = [
         link: './original_maps/city/sestroretsk_school_324_2006_omaps.jpg',
         bounds: [[60.1041842, 29.9734282], [60.1037457, 29.9811745], [60.0939314, 29.9714005]],
         author: ['MLVA_M','SLVVA_M'],
-        restricted: 'с 19.03.2026 по 14.09.2026, Невский спринт',
         type: ['CITY']
     },
     {

@@ -1335,6 +1335,40 @@ button.easy-button-button:has(.button-icon.tbank) {
 }
 .leaflet-compass .compass-digit { display: none !important; }
 
+/* --- слайдер прозрачности карты (leaflet-slider) ---
+   Контейнер: div.leaflet-control-slider.leaflet-control-layers.leaflet-control-slider-vertical.
+   Свёрнутая кнопка a.leaflet-control-slider-toggle жёстко 36×36 (плагин),
+   из-за чего крупнее компаса (34). Контейнер ещё и несёт класс
+   .leaflet-control-layers, который в блоке [12] стилизуется как карточка
+   списка слоёв со своими паддингами — тоже раздувает.
+   Приводим СВЁРНУТЫЙ вид к сетке; РАЗВЁРНУТЫЙ (вертикальный ползунок с +/−)
+   не трогаем — там нужны родные размеры плагина. */
+
+/* карточка-контейнер в свёрнутом виде = ровно кнопка сетки, без лишних полей */
+.leaflet-control-slider:not(.leaflet-control-slider-expanded) {
+    width:  var(--o-ctl-size) !important;
+    height: var(--o-ctl-size) !important;
+    padding: 0 !important;
+    line-height: 0 !important;
+}
+/* свёрнутая кнопка-иконка: размер сетки и центровка */
+a.leaflet-control-slider-toggle {
+    width:  var(--o-ctl-size) !important;
+    height: var(--o-ctl-size) !important;
+    line-height: var(--o-ctl-size) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-size: var(--o-ctl-icon) var(--o-ctl-icon) !important;
+    background-position: center !important;
+    font-size: var(--o-ctl-icon) !important;
+}
+/* в развёрнутом состоянии габариты отдаём плагину (снимаем свои ограничения) */
+.leaflet-control-slider.leaflet-control-slider-expanded {
+    width:  auto !important;
+    height: auto !important;
+}
+
 
 /* --- 17.7 Тач и телефоны --- */
 .leaflet-touch :root,
