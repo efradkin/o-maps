@@ -210,7 +210,7 @@ function buildMapRail(map) {
     function sepIn(host) { var s = document.createElement('div'); s.className = 'om-flyout__sep'; host.appendChild(s); }
 
     // ---- наполнение: ИНСТРУМЕНТЫ ----
-    // порядок: Настройки, Прозрачность, Поиск, Измерение расстояний, Измеритель площади
+    // порядок: Настройки, Прозрачность, Поиск, Расстояния, Измерение площади
 
     // настройки (easyButton settings-icon)
     toolItem('Настройки', barByIcon('settings-icon'));
@@ -248,26 +248,18 @@ function buildMapRail(map) {
         }
     });
 
-    // измерение расстояний (qgsmeasure)
+    // измерение расстояний (qgsmeasure) — нарисованную ломаную можно
+    // выгрузить в GPX кнопкой в окошке «Перегоны (м)» (см. main.js)
     var measure = firstMatch(['.leaflet-control-draw-measure', '.qgsmeasure', '.leaflet-control-qgsmeasure']);
-    toolItem('Измерение расстояний', measure, { keepOpen: true, tool: 'measure' });
+    toolItem('Расстояния → GPX', measure, { keepOpen: true, tool: 'measure' });
 
     // измеритель площади (lasso)
     var lasso = firstMatch(['.leaflet-control-lasso', '.leaflet-lasso']);
-    toolItem('Измеритель площади', lasso, { keepOpen: true, tool: 'lasso' });
-
-    // разделитель → загрузка GPX и заглушка рисования
-    sepIn(flyTools);
+    toolItem('Измерение площади', lasso, { keepOpen: true, tool: 'lasso' });
 
     // загрузка GPX/KML (fileLayer)
     var fileCtl = firstMatch(['.leaflet-control-filelayer', '.leaflet-control-filelayerload']);
-    toolItem('Загрузить GPX / KML', fileCtl);
-
-    // заглушка под будущий инструмент рисования трека
-    toolItem('Нарисовать трек → GPX', null, {
-        disabled: true,
-        svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c4 0 3-6 7-6s3-6 7-6"/><circle cx="5" cy="19" r="1.8"/><circle cx="19" cy="7" r="1.8"/></svg>'
-    });
+    toolItem('Загрузка GPX / KML', fileCtl);
 
     // ---- наполнение: ИНФОРМАЦИЯ ----
     infoItem('Статистика',      barByIcon('statistics-icon'));
@@ -369,7 +361,7 @@ function buildMapRail(map) {
         if (activeTool === 'measure') setActiveTool(null);
     });
 
-    // Измеритель площади (lasso): после отрисовки площади плагин сам вызывает
+    // Измерение площади (lasso): после отрисовки площади плагин сам вызывает
     // disable → приходит lasso.disabled, поэтому точка гаснет корректно.
     map.on('lasso.enabled',  function () { activateTool('lasso'); });
     map.on('lasso.disabled', function () { if (activeTool === 'lasso') setActiveTool(null); });

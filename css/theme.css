@@ -1797,3 +1797,51 @@ a.leaflet-control-slider-toggle {
     }
     .om-flyout--wide { min-width: 0; }
 }
+
+/* ------------------------------------------------------------------ [18]
+   ИЗМЕРИТЕЛЬ РАССТОЯНИЙ — выгрузка ломаной в GPX
+   Окошко «Перегоны (м)» рисует Leaflet.QgsMeasure; его собственная разметка
+   не трогается, добавляется только строка с кнопкой внизу (main.js).
+   ------------------------------------------------------------------ */
+
+/* Скроллим список перегонов, а не всё окошко: иначе кнопка уезжает
+   за нижний край, когда точек становится много.
+   Автопрокрутку внутреннего списка берёт на себя main.js. */
+.segments-container {
+    max-height: none;
+    overflow-y: visible;
+}
+.segments-container .segments-measures-container {
+    max-height: 96px;
+    overflow-y: auto;
+}
+
+.om-gpx-row {
+    margin-top: 4px;
+    padding-top: 5px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Окошко плагина светлое в обеих темах, поэтому цвета здесь фиксированные,
+   а не из токенов --o-*: иначе в тёмной теме получится светлое на светлом */
+.om-gpx-button {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid #c8d2c4;
+    border-radius: var(--o-r-xs, 6px);
+    background: #fff;
+    color: #37613b;
+    font: inherit;
+    font-size: 12px;
+    line-height: 1.4;
+    cursor: pointer;
+}
+.om-gpx-button:hover:not(:disabled)  { background: #eef4ec; border-color: #a9bda6; }
+.om-gpx-button:active:not(:disabled) { background: #e2ebe0; }
+.om-gpx-button:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(74, 124, 78, .22); }
+.om-gpx-button:disabled {
+    color: #9aa397;
+    border-color: #e0e5dd;
+    cursor: default;
+}

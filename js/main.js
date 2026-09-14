@@ -623,7 +623,7 @@ if (mapElement) {
                 className: 'leaflet-div-icon leaflet-editing-icon',
             }),
             text: {
-                title: 'Измерение расстояний', // Plugin Button Text
+                title: 'Измерение расстояний и выгрузка в GPX', // Plugin Button Text
                 segments_title: 'Перегоны (м)', // Segments box title
                 segments_from: "", // Segment start label
                 segments_to: " - ", // Segment end label
@@ -631,7 +631,56 @@ if (mapElement) {
                 segments_meters: "м", // Meters label
             },
         };
-        L.Control.qgsmeasure(qgsmeasureOptions).addTo(map);
+        let measureControl = L.Control.qgsmeasure(qgsmeasureOptions).addTo(map);
+
+        // Кнопка «Скачать GPX» в окошке «Перегоны (м)».
+        // Окошко создаётся плагином в обработчике measurestart
+        // (_createSegmentContainer), зарегистрированном в onAdd — то есть
+        // раньше нашего. Значит, к нашему вызову контейнер уже есть.
+        map.on('qgsmeasure:measurestart', function () {
+            addMeasureGpxButton(measureControl);
+            setMeasureGpxEnabled(measureControl, false);
+        });
+
+        // На тач-устройствах вершины ставит L.Draw.Polyline._onTouch по событию
+        // карты touchstart, а перегоны плагин считает в своём _onClick по
+        // событию click — до него дело не доходит, и окошко «Перегоны» остаётся
+        // пустым, хотя линия рисуется и длина в подсказке растёт.
+        //
+        // Поэтому считаем перегоны по draw:drawvertex: его L.Draw шлёт из
+        // _vertexChanged на каждую поставленную вершину, независимо от того,
+        // мышь это или палец. Штатный _onClick при этом никуда не девается —
+        // от двойного добавления защищает обёртка над _addSegment ниже.
+        map.on('draw:drawvertex', function () {
+            const handler = measureControl._handler;
+            if (!handler || !handler._drawing) return;
+            handler._addSegment();
+            handler._updateSegmentsTooltipNumber();
+        });
+
+        // Идемпотентность: перегонов всегда на один меньше, чем вершин.
+        // Второй вызов на ту же вершину (наш из draw:drawvertex и плагинный
+        // из _onClick на десктопе) становится пустышкой.
+        const addSegment = measureControl._handler._addSegment;
+        measureControl._handler._addSegment = function () {
+            if (this._markers.length < 2) return;
+            if (this._segments.length >= this._markers.length - 1) return;
+            return addSegment.call(this);
+        };
+
+        // Появился перегон — есть что выгружать. Заодно прокручиваем список:
+        // в theme.css скроллится он, а не всё окошко (иначе кнопка уезжает
+        // за нижний край), поэтому штатная прокрутка плагина не срабатывает.
+        map.on('qgsmeasure:newsegment', function () {
+            const list = measureControl._segments_measures_container;
+            if (list) list.scrollTop = list.scrollHeight;
+            setMeasureGpxEnabled(measureControl, true);
+        });
+
+        // Клик после завершённой ломаной стирает её и начинает новую
+        map.on('qgsmeasure:newmeasure', function () {
+            setMeasureGpxEnabled(measureControl, false);
+        });
 
         // Завершение ломаной — это двойной клик: первый клик ставит узел,
         // второй попадает по только что поставленному маркеру, на котором
@@ -657,11 +706,64 @@ if (mapElement) {
         });
     }
 
+    // Кнопка выгрузки нарисованной ломаной в GPX — добавляется в окошко
+    // перегонов. Окошко плагин создаёт один раз и переиспользует, поэтому
+    // ссылку на кнопку держим на самом контроле.
+    function addMeasureGpxButton(control) {
+        const box = control._segments_container;
+        if (!box || control._omGpxButton) return;
+
+        const row = L.DomUtil.create('div', 'om-gpx-row', box);
+        const button = L.DomUtil.create('button', 'om-gpx-button', row);
+        button.type = 'button';
+        button.textContent = 'Скачать GPX';
+        button.title = 'Сохранить нарисованную ломаную в GPX';
+
+        // Окошко лежит внутри контейнера карты. Без этого клик дойдёт до карты,
+        // и qgsmeasure сотрёт линию, начав новую (_onClick → _removeShape).
+        L.DomEvent.disableClickPropagation(row);
+
+        L.DomEvent.on(button, 'click', function (e) {
+            L.DomEvent.stop(e);
+            downloadMeasureGpx(control);
+        });
+
+        control._omGpxButton = button;
+    }
+
+    function setMeasureGpxEnabled(control, enabled) {
+        if (control._omGpxButton) {
+            control._omGpxButton.disabled = !enabled;
+        }
+    }
+
+    function downloadMeasureGpx(control) {
+        // Вершины берём из маркеров L.Draw.Polyline — они переживают
+        // завершение ломаной и удаляются только при выключении инструмента
+        const markers = control._handler && control._handler._markers;
+        if (!markers || markers.length < 2) return;
+
+        const latLngs = markers.map(function (m) { return m.getLatLng(); });
+        const total = control.getSegments().reduce(function (sum, segment) {
+            return sum + segment.distance;
+        }, 0);
+
+        downloadText(
+            buildGpx(latLngs, {
+                name: 'o-maps: измерение',
+                desc: 'Длина ' + total.toFixed(1) + ' м, точек ' + latLngs.length,
+                waypoints: true
+            }),
+            timestampFileName('o-maps-line', 'gpx'),
+            'application/gpx+xml'
+        );
+    }
+
     // --- lasso ---
     if (!hiddenButtonsMode) {
         let lassoOptions = {
             position: 'topleft',
-            title: 'Измеритель площади'
+            title: 'Измерение площади'
         };
         L.control.lasso(lassoOptions).addTo(map);
         map.on('lasso.finished', event => {

@@ -257,3 +257,77 @@ function buildLinksList(links) {
     }
     return results;
 }
+
+// --- GPX -----------------------------------------------------------------
+
+// Экранирование значений для XML
+function escapeXml(s) {
+    return String(s).replace(/[<>&'"]/g, function (c) {
+        return {'<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;'}[c];
+    });
+}
+
+// Собираем GPX 1.1 из массива L.LatLng.
+// options: { name, desc, waypoints } — waypoints добавляет <wpt> с номерами точек.
+// <ele> сознательно не пишем: выдуманные нули хуже отсутствия тега —
+// часть программ построит по ним профиль на уровне моря.
+function buildGpx(latLngs, options) {
+    options = options || {};
+    const name = options.name || 'o-maps';
+    const time = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
+
+    const wpts = options.waypoints
+        ? latLngs.map(function (p, i) {
+            return '  <wpt lat="' + p.lat.toFixed(6) + '" lon="' + p.lng.toFixed(6) + '">'
+                + '<name>' + (i + 1) + '</name></wpt>';
+        }).join('\n') + '\n'
+        : '';
+
+    const trkpts = latLngs.map(function (p) {
+        return '      <trkpt lat="' + p.lat.toFixed(6) + '" lon="' + p.lng.toFixed(6) + '"/>';
+    }).join('\n');
+
+    return '<?xml version="1.0" encoding="UTF-8"?>\n'
+        + '<gpx version="1.1" creator="o-maps.spb.ru"\n'
+        + '     xmlns="http://www.topografix.com/GPX/1/1"\n'
+        + '     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n'
+        + '     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">\n'
+        + '  <metadata>\n'
+        + '    <name>' + escapeXml(name) + '</name>\n'
+        + (options.desc ? '    <desc>' + escapeXml(options.desc) + '</desc>\n' : '')
+        + '    <time>' + time + '</time>\n'
+        + '  </metadata>\n'
+        + wpts
+        + '  <trk>\n'
+        + '    <name>' + escapeXml(name) + '</name>\n'
+        + '    <trkseg>\n'
+        + trkpts + '\n'
+        + '    </trkseg>\n'
+        + '  </trk>\n'
+        + '</gpx>\n';
+}
+
+// Отдаём строку файлом через Blob (без data: URL — не ломается на кириллице и размере)
+function downloadText(text, filename, mime) {
+    const blob = new Blob([text], {type: (mime || 'text/plain') + ';charset=utf-8'});
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    setTimeout(function () {
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
+    }, 0);
+}
+
+// Имя файла вида o-maps-line-20260914-1530.gpx — латиница, чтобы не ловить
+// проблемы с кодировкой при передаче файла дальше
+function timestampFileName(prefix, ext) {
+    const d = new Date();
+    const p = function (n) { return String(n).padStart(2, '0'); };
+    return prefix + '-' + d.getFullYear() + p(d.getMonth() + 1) + p(d.getDate())
+        + '-' + p(d.getHours()) + p(d.getMinutes()) + '.' + ext;
+}
