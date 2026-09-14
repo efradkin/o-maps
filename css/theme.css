@@ -1799,18 +1799,53 @@ a.leaflet-control-slider-toggle {
 }
 
 /* ------------------------------------------------------------------ [18]
-   ИЗМЕРИТЕЛЬ РАССТОЯНИЙ — выгрузка ломаной в GPX
+   ИЗМЕРИТЕЛЬ РАССТОЯНИЙ — крестик закрытия и выгрузка ломаной в GPX
    Окошко «Перегоны (м)» рисует Leaflet.QgsMeasure; его собственная разметка
-   не трогается, добавляется только строка с кнопкой внизу (main.js).
+   не трогается, добавляются только крестик в углу и строка с кнопкой внизу
+   (обе создаются в main.js).
    ------------------------------------------------------------------ */
+
+/* Порядок в верхне-правом углу: список слоёв, окошко перегонов, поиск.
+   Окошко плагин всегда дописывает последним (_createSegmentContainer делает
+   appendChild в .leaflet-top.leaflet-right), поэтому без этого оно оказывается
+   под кнопкой поиска. Угол — флекс-колонка (см. [17]), так что переставляем
+   через order, не трогая DOM: у остальных контролов order по умолчанию 0
+   и их взаимный порядок сохраняется. */
+.leaflet-top.leaflet-right > .leaflet-searchbox-container { order: 1; }
 
 /* Скроллим список перегонов, а не всё окошко: иначе кнопка уезжает
    за нижний край, когда точек становится много.
    Автопрокрутку внутреннего списка берёт на себя main.js. */
 .segments-container {
+    position: relative;   /* якорь для крестика закрытия */
     max-height: none;
     overflow-y: visible;
 }
+
+/* Крестик закрытия. Заголовку добавляем симметричные отступы: кнопка съедает
+   место справа, и без парного отступа слева заголовок перестаёт быть по центру. */
+.segments-container .segments-title { padding-left: 24px; padding-right: 24px; }
+
+.om-measure-close {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border: 0;
+    border-radius: var(--o-r-xs, 6px);
+    background: transparent;
+    color: #6a7468;
+    font: inherit;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+}
+.om-measure-close:hover  { background: #eef0ec; color: #1e2620; }
+.om-measure-close:active { background: #e2e6e0; }
+.om-measure-close:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(74, 124, 78, .22); }
+
 .segments-container .segments-measures-container {
     max-height: 96px;
     overflow-y: auto;

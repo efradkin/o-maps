@@ -638,6 +638,7 @@ if (mapElement) {
         // (_createSegmentContainer), зарегистрированном в onAdd — то есть
         // раньше нашего. Значит, к нашему вызову контейнер уже есть.
         map.on('qgsmeasure:measurestart', function () {
+            addMeasureCloseButton(measureControl);
             addMeasureGpxButton(measureControl);
             setMeasureGpxEnabled(measureControl, false);
         });
@@ -713,6 +714,32 @@ if (mapElement) {
             if (dblClickZoomWasEnabled) map.doubleClickZoom.enable();
             dblClickZoomWasEnabled = null;
         });
+    }
+
+    // Крестик в углу окошка перегонов — везде, не только на телефоне.
+    // На телефоне он единственный способ выйти: Esc нет, а кнопка инструмента
+    // спрятана в раскрывашке рейки. На десктопе он просто ближе к рукам, чем
+    // Esc или повторный заход в раскрывашку, — оба продолжают работать.
+    // Выключаем через toggle() контрола, а не disable() обработчика: toggle
+    // шлёт qgsmeasure:measurestop, по которому рейка гасит подсветку
+    // активного инструмента, а main.js возвращает зум по двойному клику.
+    function addMeasureCloseButton(control) {
+        const box = control._segments_container;
+        if (!box || control._omCloseButton) return;
+
+        const button = L.DomUtil.create('button', 'om-measure-close', box);
+        button.type = 'button';
+        button.innerHTML = '&times;';
+        button.title = 'Закрыть измеритель (Esc)';
+        button.setAttribute('aria-label', 'Закрыть измеритель');
+
+        L.DomEvent.disableClickPropagation(button);
+        L.DomEvent.on(button, 'click', function (e) {
+            L.DomEvent.stop(e);
+            if (control.enabled()) control.toggle();
+        });
+
+        control._omCloseButton = button;
     }
 
     // Кнопка выгрузки нарисованной ломаной в GPX — добавляется в окошко
