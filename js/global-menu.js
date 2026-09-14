@@ -1,6 +1,5 @@
 // https://github.com/BenPortner/leaflet-burgermenu
 const GLOBAL_MENU_ITEMS = [
-    { title: '🏠 Домой', page: 'index' },
     {
         title: 'Регионы',
         menuItems: [
@@ -143,6 +142,7 @@ const GLOBAL_MENU_ITEMS = [
     {
         title: 'О сайте',
         menuItems: [
+            { title: '🏠 Главная страница', page: 'index' },
             { title: '📞 Контакты', page: 'help/contacts' },
             { title: '🆕 Новости', page: 'news' },
             { title: 'ℹ️ Справка', page: 'help/help' },
@@ -169,7 +169,7 @@ function convertMenuNewToOld(items) {
 
 function buildGlobalMenu() {
     L.control.burgerMenu({
-        title: 'main',
+        title: 'Главное меню',
         menuItems: convertMenuNewToOld(GLOBAL_MENU_ITEMS),
     }).addTo(map);
 }

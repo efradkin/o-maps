@@ -72,13 +72,37 @@ function buildMapRail(map) {
     L.DomEvent.disableClickPropagation(rail);
     L.DomEvent.disableScrollPropagation(rail);
 
+    var groupHome  = L.DomUtil.create('div', 'om-rail__group om-rail__group--home', rail);
+    var groupMenu  = L.DomUtil.create('div', 'om-rail__group om-rail__group--menu', rail);
     var groupNav   = L.DomUtil.create('div', 'om-rail__group', rail);
     var groupTools = L.DomUtil.create('div', 'om-rail__group', rail);
     var groupInfo  = L.DomUtil.create('div', 'om-rail__group', rail);
 
-    // ============ БЛОК 1. НАВИГАЦИЯ (всегда видно) ============
+    // ============ БЛОК 1. HOME (отдельно) ============
+    // home — отдельный easyButton; переносим кнопку целиком (фон-иконка на .button-icon внутри)
+    var homeBar = barByIcon('home-icon');
+    if (homeBar) {
+        var homeBtn = homeBar.querySelector('.easy-button-button') || homeBar.firstElementChild || homeBar;
+        adopt(groupHome, homeBtn);
+        if (homeBar.parentElement && homeBar !== homeBtn && homeBar.children.length === 0) homeBar.remove();
+    }
+    if (!groupHome.children.length) groupHome.remove();
+
+    // ============ БЛОК 2. МЕНЮ (глобальный бургер, отдельно) ============
+    // Бургер-меню (global-menu.js) создаётся своим L.Control в topleft.
+    // Переносим его контейнер в рейку, чтобы он встал в колонку между Home и
+    // линейкой. Выпадающее меню — часть того же контейнера, обработчики целы.
+    var burger = cc.querySelector('.leaflet-control-burgermenu');
+    if (burger) {
+        burger.classList.add('om-rail__adopted', 'om-rail__menu');
+        groupMenu.appendChild(burger);
+    } else {
+        groupMenu.remove();
+    }
+
+    // ============ БЛОК 3. ЛИНЕЙКА: зум + локация (всегда видно) ============
     // ZoomBar уже нарисовал: локация / + / − / рамка. Забираем нужные <a>
-    // по классам и раскладываем в фиксированном порядке: домой, локация, +, −.
+    // по классам и раскладываем в фиксированном порядке: локация, +, −.
 
     var zoomBar   = cc.querySelector('.leaflet-control-zoom');       // контейнер ZoomBar
     var aLocate   = cc.querySelector('.leaflet-control-zoom-to-start');
@@ -91,13 +115,6 @@ function buildMapRail(map) {
     var compassCtl = cc.querySelector('.leaflet-compass');
     if (compassCtl) compassCtl.remove();
 
-    // home — отдельный easyButton; переносим кнопку целиком (фон-иконка на .button-icon внутри)
-    var homeBar = barByIcon('home-icon');
-    if (homeBar) {
-        var homeBtn = homeBar.querySelector('.easy-button-button') || homeBar.firstElementChild || homeBar;
-        adopt(groupNav, homeBtn);
-        if (homeBar.parentElement && homeBar !== homeBtn && homeBar.children.length === 0) homeBar.remove();
-    }
     if (aLocate)  adopt(groupNav, aLocate);
     if (aZoomIn)  adopt(groupNav, aZoomIn);
     if (aZoomOut) adopt(groupNav, aZoomOut);

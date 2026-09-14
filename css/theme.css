@@ -1546,6 +1546,104 @@ a.leaflet-control-slider-toggle {
     background-repeat: no-repeat !important;
 }
 
+/* --- глобальное меню (бургер) внутри рейки --- */
+/* контейнер-обёртка: прозрачная ячейка размера кнопки рейки, якорь для вылета */
+.om-rail__group--menu {
+    overflow: visible;                 /* чтобы вылет меню не обрезался */
+}
+.om-rail__menu.om-rail__adopted {
+    position: relative !important;
+    width:  var(--om-rail-size) !important;
+    height: var(--om-rail-size) !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: visible !important;
+}
+/* сама кнопка-бургер */
+.om-rail__menu .burger-button {
+    width:  var(--om-rail-size) !important;
+    height: var(--om-rail-size) !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color: var(--om-rail-fg) !important;
+    line-height: 1 !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+}
+.om-rail__menu .burger-button:hover {
+    background: var(--om-rail-accent) !important;
+    color: #fff !important;
+}
+:root.o-dark .om-rail__menu .burger-button:hover { color: #15181c !important; }
+
+/* выпадающее меню верхнего уровня: вырываем из потока и вылетаем вправо,
+   как раскрывашки рейки, а не толкаем рейку вниз */
+.om-rail__menu .burger-menu.level-0 {
+    position: absolute !important;
+    top: -1px !important;
+    left: calc(100% + 4px) !important;
+    z-index: 1200;
+    border: 1px solid var(--om-rail-bd) !important;
+    border-radius: 7px !important;
+    box-shadow: var(--om-rail-shadow) !important;
+    background: var(--om-rail-bg) !important;
+    padding: 4px !important;
+    /* overflow оставляем видимым: обрезка убила бы и мостик, и подменю */
+}
+/* невидимый «мостик» через зазор кнопка↔меню — курсор не теряется,
+   пока переходит на меню (иначе плагинный mouseout закрывает его) */
+.om-rail__menu .burger-menu.level-0::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 10px;
+    height: 100%;
+}
+.om-rail__menu .burger-menu.level-0.hidden { display: none !important; }
+
+/* компактные пункты (плагин по умолчанию padding:10px — слишком рыхло) */
+.om-rail__menu .burger-menu-item {
+    border: 0 !important;
+    color: var(--om-rail-fg) !important;
+    background: transparent !important;
+    padding: 6px 12px !important;
+    font-size: 14px !important;
+    line-height: 1.3 !important;
+    border-radius: 5px !important;
+    white-space: nowrap;
+}
+.om-rail__menu .burger-menu-item:hover {
+    background: var(--om-rail-accent) !important;
+    color: #fff !important;
+}
+:root.o-dark .om-rail__menu .burger-menu-item:hover { color: #15181c !important; }
+
+/* подменю (level-1+): тот же компактный вид и akцент */
+.om-rail__menu .burger-menu:not(.level-0) {
+    border: 1px solid var(--om-rail-bd) !important;
+    border-radius: 7px !important;
+    box-shadow: var(--om-rail-shadow) !important;
+    background: var(--om-rail-bg) !important;
+    padding: 4px !important;
+    margin-left: 4px !important;
+}
+
 /* единый радиус углов блока */
 .om-rail__group > *:last-child { border-bottom: 0 !important; }
 .om-rail__group > *:first-child { border-radius: 6px 6px 0 0 !important; }
