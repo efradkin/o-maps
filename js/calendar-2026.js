@@ -2583,6 +2583,15 @@ let events2026 = [
         map: 'zerkalny_2002'
     },
     {
+        id: 'SPB_20260924_2',
+        date: '2026-09-24',
+        name: 'Спринт Тур',
+        place: 'ул Софьи Ковалевской',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        start: 'ST'
+    },
+    {
         id: 'SPB_20260926_1',
         date: '2026-09-26',
         name: 'Золотые кольца (Свадебные)',
@@ -2664,6 +2673,16 @@ let events2026 = [
         map: 'priozersk_kamenisty'
     },
     {
+        id: 'SPB_20260930_1',
+        date: '2026-09-30',
+        name: 'Спринт Тур',
+        place: 'Комендантский пр',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        start: 'ST',
+        info: 'Новая карта.'
+    },
+    {
         id: 'SPB_20260918_1',
         date: '2026-10-03',
         name: 'Велоизоляция',
@@ -2671,6 +2690,7 @@ let events2026 = [
         link: 'https://www.multsport.ru/starts/veloizol26/',
         reg: 'https://www.multsport.ru/starts/veloizol26/registration.html',
         fmt: '8, 4',
+        o_site: '261004r',
         owner: 'MULTSPORT'
     },
     {
@@ -2752,6 +2772,16 @@ let events2026 = [
         fmt: '4, 2.5',
         owner: 'LM',
         map: 'novgorod_rogaine_2024_09_08'
+    },
+    {
+        id: 'SPB_20261017_2',
+        date: '2026-10-17',
+        name: 'Спринт Тур',
+        place: 'центр города',
+        type: 'ORIENT',
+        fmt: 'спринт',
+        start: 'ST',
+        info: 'Памяти Ю.М.Артемьева.'
     },
     {
         id: 'SPB_20261018_1',
