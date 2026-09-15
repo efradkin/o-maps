@@ -156,6 +156,17 @@ function buildMapRail(map) {
     var toolRows = {};                 // { measure: row, lasso: row }
     var activeTool = null;
 
+    // Панель «Карты на экране» живёт вне модели activeTool: измерители
+    // взаимоисключающи (рисуют по карте), а панель может быть открыта
+    // одновременно с любым из них. Поэтому её состояние — отдельный флаг,
+    // а точку зажигает объединение всех активных состояний.
+    var mapsInViewOn = false;
+
+    function syncBusyDot() {
+        toolsToggle.classList.toggle('om-rail__toggle--busy',
+            !!activeTool || mapsInViewOn);
+    }
+
     function setActiveTool(name) {
         if (activeTool && toolRows[activeTool]) {
             toolRows[activeTool].classList.remove('om-flyout__item--active');
@@ -164,7 +175,7 @@ function buildMapRail(map) {
         if (name && toolRows[name]) {
             toolRows[name].classList.add('om-flyout__item--active');
         }
-        toolsToggle.classList.toggle('om-rail__toggle--busy', !!activeTool);
+        syncBusyDot();
     }
 
     // Универсальный конструктор пункта. host — куда добавлять (flyTools/flyInfo).
@@ -275,10 +286,17 @@ function buildMapRail(map) {
             if (typeof toggleMapsInView === 'function') toggleMapsInView();
         }
     });
+    function syncMapsInView(isOpen) {
+        mapsInViewOn = !!isOpen;
+        mapsInViewRow.classList.toggle('om-flyout__item--on', mapsInViewOn);
+        syncBusyDot();
+    }
     document.addEventListener('om-maps-in-view', function (e) {
-        mapsInViewRow.classList.toggle('om-flyout__item--on',
-            !!(e.detail && e.detail.open));
+        syncMapsInView(e.detail && e.detail.open);
     });
+    // страховка на случай, если панель успели открыть до сборки рейки
+    // (порядок загрузки скриптов меняется реже, чем хотелось бы)
+    if (typeof isMapsInViewOpen === 'function') syncMapsInView(isMapsInViewOpen());
 
     // измерение расстояний (qgsmeasure) — нарисованную ломаную можно
     // выгрузить в GPX кнопкой в окошке «Перегоны (м)» (см. main.js)
