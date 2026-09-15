@@ -558,10 +558,9 @@ let ryazanMaps = [
         url: './maps/ryazan/agro_pustyn_rogaine_2026.webp',
         link: './original_maps/ryazan/agro_pustyn_rogaine_2026_omaps.webp',
         bounds: [[54.7890071, 39.6936035], [54.7698999, 39.8534203], [54.7239262, 39.6702576]],
-        logo: 'ryazan_rogaine.webp',
         o_gps: 25971,
-        author: ['VEKOVISCH','GUSEV_B'],
-        owner: ['GUSEV_B','VEKOVISCH'],
+        author: ['GUSEV_B','VEKOVISCH'],
+        owner: 'VEKOVISCH',
         type: ['ROGAINE']
     },
     {
