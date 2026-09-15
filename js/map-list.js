@@ -489,6 +489,11 @@
         clearHover();
 
         var layers = sortLayers(collect());
+        if (location.search.indexOf('mildebug') >= 0) {
+            if (window.__milRect) map.removeLayer(window.__milRect);
+            window.__milRect = L.rectangle(map.getBounds(),
+                { color: 'red', weight: 3, fill: false }).addTo(map);
+        }
         var shown = Math.min(layers.length, MAX_ROWS);
         countEl.textContent = layers.length;
 
