@@ -31,6 +31,7 @@
     var REBUILD_DELAY = 120;   // мс, склейка серии moveend/layeradd
     var FLASH_MS = 1100;       // подсветка карты на подложке после клика
     var MAX_ROWS = 300;        // предохранитель: на мелком зуме карт сотни
+    var FRONT_Z_BASE = 800;    // отсчёт z-index для «поднять карту наверх»
 
     // Направление по умолчанию для каждого ключа — то, которое человек
     // ожидает увидеть первым: свежие карты, алфавит с начала, крупные
@@ -308,6 +309,49 @@
         return map.unproject(map.project(target, z).subtract(shift), z);
     }
 
+    // ---- вывод карты на передний план -----------------------------------
+    // Порядок подложек задаётся полем zindex в данных карты: main.js в
+    // applyMapStyles() пишет его в el.style.zIndex. Тот же приём применён
+    // для перехода по ?map=… (там просто ставится 777).
+    //
+    // Пишем именно в layer.map.zindex, а не только в стиль элемента:
+    // applyMapStyles() вызывается заново при каждой пересинхронизации слоёв
+    // (смена фильтров, порог зума), и записанный мимо данных стиль откатился
+    // бы к исходному значению.
+
+    function layerZ(layer) {
+        var z = (layer.map && layer.map.zindex !== undefined &&
+                 layer.map.zindex !== null && layer.map.zindex !== '')
+            ? layer.map.zindex
+            : (layer.getElement && layer.getElement()
+                ? layer.getElement().style.zIndex : '');
+        z = parseInt(z, 10);
+        return isNaN(z) ? 0 : z;
+    }
+
+    function setLayerZ(layer, z) {
+        if (layer.map) layer.map.zindex = z;
+        var el = layer.getElement && layer.getElement();
+        if (el) el.style.zIndex = z;
+    }
+
+    // Считаем максимум по всем картам на карте, а не только по видимым в
+    // списке: за краем экрана лежат те же подложки, и вернувшись к ним
+    // человек ожидает прежний порядок. База 800 — выше всех значений,
+    // встречающихся в данных (самое большое — 777 у перехода по ссылке).
+    function bringToFront(layer) {
+        if (!layer || typeof map === 'undefined' || !map) return;
+        var top = FRONT_Z_BASE - 1;
+        map.eachLayer(function (l) {
+            if (l === layer) return;
+            if (!(l instanceof L.ImageOverlay) || !l.map) return;
+            var z = layerZ(l);
+            if (z > top) top = z;
+        });
+        if (layerZ(layer) > top) return;    // уже выше всех — не трогаем
+        setLayerZ(layer, top + 1);
+    }
+
     // ---- действия строки -----------------------------------------------
 
     function centerOn(layer) {
@@ -316,6 +360,7 @@
         currentLayer = layer;
         scrollToCurrent = true;
         markCurrent();
+        bringToFront(layer);
         map.panTo(centerFor(c));   // зум не трогаем — «на центр выбранной карты»
         flash(layer);
     }
@@ -327,6 +372,7 @@
         currentLayer = layer;
         scrollToCurrent = true;
         markCurrent();
+        bringToFront(layer);
         map.fitBounds(b, {
             paddingTopLeft: L.point(inset.left + 12, 12),
             paddingBottomRight: L.point(12, inset.bottom + 12)
