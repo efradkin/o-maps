@@ -803,8 +803,16 @@ if (mapElement) {
         };
         L.control.lasso(lassoOptions).addTo(map);
         map.on('lasso.finished', event => {
-            let area = getArea(event.latLngs);
-            alert(area.toFixed(2) + ' км²')
+            let latLngs = event.latLngs;
+            if (!latLngs || latLngs.length < 2) return;
+            let area = getArea(latLngs);
+            // Длина — именно нарисованной линии, без замыкающего отрезка
+            // от конца обратно к началу. LassoPolygon.getLatLngs() отдаёт
+            // кольцо L.Polygon, а оно первую точку в конце не повторяет,
+            // то есть массив — ровно ход руки; getDistance() считает по
+            // разомкнутой ломаной, что здесь и нужно.
+            alert('Площадь: ' + area.toFixed(2) + ' км²\n' +
+                  'Длина: ' + getDistance(latLngs) + ' км');
         });
     }
 
