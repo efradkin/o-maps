@@ -1643,6 +1643,24 @@ a.leaflet-control-slider-toggle {
     padding: 4px !important;
     margin-left: 4px !important;
 }
+/* Тот же «мостик», что и у level-0, но для подменю: между правым краем
+   пункта и подменю остаётся зазор в margin-left. Пока курсор идёт через
+   этот зазор, он уже вне пункта — и плагинный mouseout прячет не только
+   подменю, но и весь список (зазор шире, чем padding родительской панели,
+   так что курсор выходит и за её пределы).
+
+   Мостик — это ::before самого подменю, поэтому попадание в него считается
+   наведением на подменю, то есть на потомка пункта: ни один mouseout
+   наружу не срабатывает. Ширина 8px = 4px зазора + запас на попадание.
+   Работает на всех уровнях (1–3), так как правило не привязано к level-N. */
+.om-rail__menu .burger-menu:not(.level-0)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 8px;
+    height: 100%;
+}
 
 /* единый радиус углов блока */
 .om-rail__group > *:last-child { border-bottom: 0 !important; }
@@ -1689,14 +1707,20 @@ a.leaflet-control-slider-toggle {
     outline-offset: -2px;
 }
 
-/* активный инструмент в списке — акцентная подсветка строки */
-.om-flyout__item--active {
+/* активный инструмент в списке — акцентная подсветка строки.
+   --on — то же самое для пунктов-переключателей (открытая панель «Карты
+   на экране»); отдельный класс, чтобы не мешать учёту activeTool. */
+.om-flyout__item--active,
+.om-flyout__item--on {
     background: var(--om-rail-accent) !important;
     color: #fff !important;
 }
-.om-flyout__item--active .om-flyout__ico { color: #fff !important; }
+.om-flyout__item--active .om-flyout__ico,
+.om-flyout__item--on .om-flyout__ico { color: #fff !important; }
 :root.o-dark .om-flyout__item--active,
-:root.o-dark .om-flyout__item--active .om-flyout__ico { color: #15181c !important; }
+:root.o-dark .om-flyout__item--active .om-flyout__ico,
+:root.o-dark .om-flyout__item--on,
+:root.o-dark .om-flyout__item--on .om-flyout__ico { color: #15181c !important; }
 
 /* ---- вылет ---- */
 .om-flyout {
@@ -1894,6 +1918,277 @@ a.leaflet-control-slider-toggle {
         max-width: 260px;
     }
     .om-flyout--wide { min-width: 0; }
+}
+
+/* ============================================================ [17.b]
+   Окно «Карты на экране» (map-list.js)
+
+   Десктоп — колонка справа от рейки; телефон — шторка снизу
+   (см. @media в конце секции). Раскладку панели JS не знает: он
+   меряет её getBoundingClientRect, чтобы центрировать выбранную
+   карту в свободной части экрана. Значит, двигать панель можно
+   отсюда, ничего не правя в скрипте.
+
+   z-index ниже рейки (1000): раскрывашка рейки открывается ровно
+   над этим местом и должна ложиться поверх панели, а не под неё.
+   ============================================================ */
+.om-mil {
+    --om-mil-bg: #fff;
+    --om-mil-fg: #3a4046;
+    --om-mil-bd: rgba(0,0,0,.16);
+    --om-mil-hover: #f0f2f4;
+    --om-mil-accent: var(--o-accent);
+    --om-mil-shadow: 0 1px 6px rgba(0,0,0,.28);
+
+    position: absolute;
+    top: 10px;
+    left: 58px;                       /* рейка 40px + отступы */
+    z-index: 999;
+    width: 300px;
+    max-width: calc(100% - 68px);
+    max-height: calc(100% - 20px);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    background: var(--om-mil-bg);
+    color: var(--om-mil-fg);
+    border: 1px solid var(--om-mil-bd);
+    border-radius: 7px;
+    box-shadow: var(--om-mil-shadow);
+    font-family: inherit;
+    font-size: 14px;
+}
+.om-mil.is-open { display: flex; }
+
+:root.o-dark .om-mil {
+    --om-mil-bg: #23272c;
+    --om-mil-fg: #dfe3e6;
+    --om-mil-bd: rgba(255,255,255,.18);
+    --om-mil-hover: #2e343a;
+    --om-mil-shadow: 0 1px 8px rgba(0,0,0,.55);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .om-mil.is-open { animation: om-mil-in .14s ease-out; }
+    @keyframes om-mil-in {
+        from { opacity: 0; transform: translateX(-6px); }
+        to   { opacity: 1; transform: none; }
+    }
+}
+
+/* ---- шапка ---- */
+.om-mil__head {
+    flex: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 6px 8px 12px;
+    border-bottom: 1px solid var(--om-mil-bd);
+}
+.om-mil__title { font-weight: 600; }
+.om-mil__count {
+    flex: 1 1 auto;
+    font-size: 12px;
+    opacity: .7;
+}
+.om-mil__close {
+    flex: none;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+}
+.om-mil__close:hover { background: var(--om-mil-hover); }
+.om-mil__close:focus-visible { outline: 2px solid var(--om-mil-accent); outline-offset: -2px; }
+
+/* ---- строка сортировки: список ключей + кнопка направления ---- */
+.om-mil__bar {
+    flex: none;
+    display: flex;
+    align-items: stretch;
+    gap: 6px;
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--om-mil-bd);
+    font-size: 12px;
+}
+/* Селект: секция [7] уже рисует «галочку» фоновой картинкой поверх
+   appearance: none. Поэтому здесь НЕЛЬЗЯ писать сокращение background —
+   оно стирает background-image вместе с галочкой, и контрол становится
+   похож на поле ввода. Задаём цвет и картинку раздельно и оставляем
+   справа место под неё. */
+.om-mil__sort {
+    flex: 1 1 auto;
+    min-width: 0;                 /* иначе select не даёт строке ужаться */
+    height: 28px;
+    padding: 0 24px 0 8px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid var(--om-mil-bd);
+    border-radius: 5px;
+    background-color: var(--om-mil-bg);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%236a7468' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round' d='M1.5 1.75 6 6.25l4.5-4.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 10px 7px;
+    box-shadow: none;
+    color: inherit;
+    font: inherit;
+    font-size: 12px;
+    cursor: pointer;
+}
+/* в тёмной теме серо-оливковая галочка почти не видна — своя, посветлее */
+:root.o-dark .om-mil__sort {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%239aa3ab' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round' d='M1.5 1.75 6 6.25l4.5-4.5'/%3E%3C/svg%3E");
+}
+.om-mil__sort:focus-visible { outline: 2px solid var(--om-mil-accent); outline-offset: -2px; }
+
+.om-mil__dir {
+    flex: none;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 1px solid var(--om-mil-bd);
+    border-radius: 5px;
+    background: var(--om-mil-bg);
+    color: inherit;
+    cursor: pointer;
+}
+.om-mil__dir svg {
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin: auto;
+}
+/* возрастание — та же стрелка, перевёрнутая */
+.om-mil__dir.is-asc svg { transform: rotate(180deg); }
+.om-mil__dir:hover { background: var(--om-mil-hover); }
+.om-mil__dir:focus-visible { outline: 2px solid var(--om-mil-accent); outline-offset: -2px; }
+
+/* ---- список ---- */
+.om-mil__list {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    padding: 4px;
+}
+.om-mil__item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    min-height: 42px;
+    padding: 5px 4px 5px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.om-mil__item:hover { background: var(--om-mil-hover); }
+.om-mil__item:focus-visible { outline: 2px solid var(--om-mil-accent); outline-offset: -2px; }
+.om-mil__item.is-current {
+    background: var(--om-mil-hover);
+    box-shadow: inset 3px 0 0 var(--om-mil-accent);
+}
+.om-mil__logo {
+    flex: none;
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
+/* min-width: 0 обязателен — иначе флекс-элемент не даёт тексту ужаться
+   и многоточие не появляется, строка просто распирает панель */
+.om-mil__text {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.om-mil__name,
+.om-mil__meta {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.om-mil__name { font-size: 13.5px; line-height: 1.25; }
+.om-mil__meta { font-size: 11.5px; line-height: 1.25; opacity: .65; }
+.om-mil__fit {
+    flex: none;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 0;
+    border-radius: 5px;
+    background: transparent;
+    color: inherit;
+    opacity: .5;
+    cursor: pointer;
+}
+.om-mil__fit svg { width: 18px; height: 18px; display: block; margin: auto; }
+.om-mil__fit:hover { opacity: 1; background: var(--om-mil-bg); }
+.om-mil__fit:focus-visible { opacity: 1; outline: 2px solid var(--om-mil-accent); outline-offset: -2px; }
+
+.om-mil__empty {
+    padding: 14px 10px;
+    text-align: center;
+    font-size: 13px;
+    opacity: .65;
+}
+.om-mil__note {
+    flex: none;
+    padding: 6px 12px;
+    border-top: 1px solid var(--om-mil-bd);
+    font-size: 11.5px;
+    opacity: .7;
+}
+
+/* ---- телефон: шторка снизу ---- */
+@media (max-width: 700px) {
+    .om-mil {
+        top: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* поверх нижних контролов Leaflet (масштабная линейка, копирайты):
+           у них z-index 1000, и без этого они рисуются по шторке */
+        z-index: 1001;
+        width: auto;
+        max-width: none;
+        max-height: 34vh;
+        border-width: 1px 0 0 0;
+        border-radius: 12px 12px 0 0;
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+        box-shadow: 0 -2px 12px rgba(0,0,0,.3);
+    }
+    @media (prefers-reduced-motion: no-preference) {
+        .om-mil.is-open { animation: om-mil-up .16s ease-out; }
+        @keyframes om-mil-up {
+            from { opacity: 0; transform: translateY(12px); }
+            to   { opacity: 1; transform: none; }
+        }
+    }
+    /* Пальцем целиться труднее, чем курсором, — кнопки крупнее. Но шторка
+       теперь в треть экрана, поэтому строка ужимается до 44px (нижняя
+       граница удобного тапа), чтобы в неё влезало не две карты, а больше. */
+    .om-mil__item { min-height: 44px; }
+    .om-mil__logo { width: 28px; height: 28px; }
+    .om-mil__name { font-size: 14px; }
+    .om-mil__meta { font-size: 11.5px; }
+    .om-mil__fit { width: 38px; height: 38px; opacity: .65; }
+    .om-mil__fit svg { width: 20px; height: 20px; }
+    .om-mil__close { width: 34px; height: 34px; font-size: 22px; }
+    .om-mil__head { padding: 6px 6px 6px 12px; }
+    .om-mil__bar { padding: 5px 10px; }
+    .om-mil__sort { height: 34px; font-size: 13px; }
+    .om-mil__dir { width: 34px; height: 34px; }
+    .om-mil__dir svg { width: 18px; height: 18px; }
 }
 
 /* ------------------------------------------------------------------ [18]

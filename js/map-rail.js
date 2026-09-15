@@ -265,6 +265,21 @@ function buildMapRail(map) {
         }
     });
 
+    // список карт, попавших в экран (map-list.js). Пункт-переключатель:
+    // панель открывается и закрывается одним и тем же пунктом, поэтому
+    // подсветку строки ведём не по клику, а по событию самой панели —
+    // тогда она верна и когда панель закрыли крестиком или по Esc.
+    var mapsInViewRow = toolItem('Карты на экране', null, {
+        svg: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4.5 4 6.5v13l5-2 6 2 5-2v-13l-5 2-6-2z"/><path d="M9 4.5v13"/><path d="M15 6.5v13"/></svg>',
+        onClick: function () {
+            if (typeof toggleMapsInView === 'function') toggleMapsInView();
+        }
+    });
+    document.addEventListener('om-maps-in-view', function (e) {
+        mapsInViewRow.classList.toggle('om-flyout__item--on',
+            !!(e.detail && e.detail.open));
+    });
+
     // измерение расстояний (qgsmeasure) — нарисованную ломаную можно
     // выгрузить в GPX кнопкой в окошке «Перегоны (м)» (см. main.js)
     var measure = firstMatch(['.leaflet-control-draw-measure', '.qgsmeasure', '.leaflet-control-qgsmeasure']);

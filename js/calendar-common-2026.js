@@ -699,6 +699,7 @@ let commonEvents2026 = [
         o_site: '260913_NS',
         o_gps: [25938,25965],
         reg: 'http://orgeo.ru/event/info/53700',
+        reskeep: [921,922,923],
         type: 'ORIENT',
         fmt: 'спринт, многодневный, эстафета',
         owner: 'SFSO_SPB',
@@ -707,6 +708,7 @@ let commonEvents2026 = [
             'https://vk.ru/album-230167293_314439429',
             'https://blinova-photo.ru/disk/11-09-2026-nevskiy-sprint-1-den-v3kkms'
         ],
+        video: 'https://vkvideo.ru/video-154221178_456239094',
         info: '<a href="https://tapi-o.app/ru/live/NWSP26">Видеосплиты</a>.',
         publish: 'https://vk.ru/album-230167293_314439429',
         map: ['sestroretsk_dubkovskoe_2026','zelenogorsk_chernye_2023','zelenogorsk_schuchye_2026']
