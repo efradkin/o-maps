@@ -422,13 +422,11 @@ let zelikMaps = [
     {
         name: 'Зеленогорск, оз Щучье',
         year: 2026,
-        url: './maps/forest/zelik/zelenogorsk_schuchye_2026.png',
-        bounds: [[60.2465419, 29.7235107], [60.2465419, 29.8251343], [60.2069898, 29.7238541]],
-        owner: 'SFSO_SPB',
-        in_work: true,
-        order: {
-            owner: 'SFSO_SPB'
-        },
+        url: './maps/forest/zelik/zelenogorsk_schuchye_2026.webp',
+        link: './original_maps/forest/zelik/zelenogorsk_schuchye_2026_omaps.webp',
+        bounds: [[60.2184597, 29.7438097], [60.2127465, 29.7853518], [60.2030234, 29.7354841]],
+        author: 'CHGRVSKY_Y',
+        owner: 'SFSO_SPB'
     },
     {
         name: 'Комарово',
