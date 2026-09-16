@@ -306,7 +306,7 @@ let mskEvents2026 = [
     {
         id: 'MSK_20260301_2',
         date: "2026-03-01",
-        name: "XXXVIII МССИ ",
+        name: "XXXVIII МССИ",
         place: "Кунцево",
         type: "SKI",
         fmt: "ЛГ-классика",
@@ -606,7 +606,7 @@ let mskEvents2026 = [
     {
         id: 'MSK_20260411_1',
         date: "2026-04-11",
-        name: "Откр. летн. сезона, XXXVIII МССИ ",
+        name: "Откр. летн. сезона, XXXVIII МССИ",
         place: "на согласовании",
         type: "ORIENT",
         fmt: "кросс-классика"
