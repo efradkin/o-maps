@@ -1249,6 +1249,22 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260613_1',
+        date: "2026-06-13",
+        name: "Открытая тренировка",
+        place: "Всехсвятская роща",
+        type: "ORIENT",
+        fmt: "классическая дистанция",
+        coord: [
+            55.81104,
+            37.463455
+        ],
+        link: "https://docs.google.com/document/d/1fwMDQz-iDC938Nw8IYWIpGoZM41EZUrgmvSo4nPv8OY/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/133",
+        res: "https://orgeo.ru/files/event/file/53530_41fd45a297.xls",
+        owner: "MLKHT"
+    },
+    {
         id: 'MSK_20260616_1',
         date: "2026-06-16",
         name: "Московское Лето",
@@ -1289,6 +1305,38 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260620_1',
+        date: "2026-06-20",
+        name: "Открытая тренировка",
+        place: "Сходненский ковш",
+        type: "ORIENT",
+        fmt: "классическая дистанция",
+        coord: [
+            55.849688,
+            37.408756
+        ],
+        link: "https://docs.google.com/document/d/1TyQAsATd6S9Idqo_nqwJFl7wMalM6HnB19IdJg0RtHA/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/132",
+        res: "https://orgeo.ru/files/event/file/53529_cc119d4d42.xlsx",
+        owner: "MLKHT"
+    },
+    {
+        id: 'MSK_20260621_1',
+        date: "2026-06-21",
+        name: "Открытая тренировка",
+        place: "Сквер Юность",
+        type: "ORIENT",
+        fmt: "городской спринт",
+        coord: [
+            55.805663,
+            37.464491
+        ],
+        link: "https://docs.google.com/document/d/1bRF7dK6UMVZ_rN92Y5GnFdlJ5fNB-Hj7aHdHDqTo_5o/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/134",
+        res: "https://orgeo.ru/files/event/file/53633_3c46efb227.xlsx",
+        owner: "MLKHT"
+    },
+    {
         id: 'MSK_20260623_1',
         date: "2026-06-23",
         name: "Московское Лето",
@@ -1317,6 +1365,38 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
         owner: "CLEVER_MSK"
+    },
+    {
+        id: 'MSK_20260627_1',
+        date: "2026-06-27",
+        name: "Открытая тренировка",
+        place: "Ул. Рогова СК Курчатовец",
+        type: "ORIENT",
+        fmt: "городской спринт",
+        coord: [
+            55.794355,
+            37.462981
+        ],
+        link: "https://docs.google.com/document/d/1hL33gH9ac8hRpkf3dKGuTc-_7BskLMlWW57kcx9YFLs/edit?tab=t.0",
+        reg: "https://buyrun.ru/event/135",
+        res: "https://orgeo.ru/files/event/file/53737_6ecbb72e32.xlsx",
+        owner: "MLKHT"
+    },
+    {
+        id: 'MSK_20260628_1',
+        date: "2026-06-28",
+        name: "Открытая тренировка",
+        place: "Крылатские холмы",
+        type: "ORIENT",
+        fmt: "Классика",
+        coord: [
+            55.754234,
+            37.423019
+        ],
+        link: "https://docs.google.com/document/d/1MFvSQf49wPltYZY6JDIrwjrZr4Nntm2v4hIYXP3v03M/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/136",
+        res: "https://orgeo.ru/files/event/file/53738_6ecbb72e32.xlsx",
+        owner: "MLKHT"
     },
     {
         id: 'MSK_20260630_1',
@@ -1349,6 +1429,38 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260704_1',
+        date: "2026-07-04",
+        name: "Открытая тренировка",
+        place: "усадьба Братцево",
+        type: "ORIENT",
+        fmt: "классическая дистанция",
+        coord: [
+            55.848409,
+            37.400586
+        ],
+        link: "https://docs.google.com/document/d/1zlaWM_m1naIsxxYRL2SaCN2dDMYtmXoeMF3UmM1VnzQ/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/138",
+        res: "https://orgeo.ru/files/event/file/53880_3773e2f36a.xlsx",
+        owner: "MLKHT"
+    },
+    {
+        id: 'MSK_20260706_1',
+        date: "2026-07-06",
+        name: "Открытая тренировка",
+        place: "Набережная Новикова- Прибоя",
+        type: "ORIENT",
+        fmt: "городской спринт",
+        coord: [
+            55.781779,
+            37.447422
+        ],
+        link: "https://docs.google.com/document/d/1-81u57Qh1-_iwZbnEU4ppwHkEBbvVWBDBqmZWp3EiqU/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/139",
+        res: "https://orgeo.ru/files/event/file/53881_37b8d778a5.xlsx",
+        owner: "MLKHT"
+    },
+    {
         id: 'MSK_20260707_1',
         date: "2026-07-07",
         name: "Московское Лето",
@@ -1377,6 +1489,38 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
         owner: "CLEVER_MSK"
+    },
+    {
+        id: 'MSK_20260711_1',
+        date: "2026-07-11",
+        name: "Открытая тренировка",
+        place: "Лысая гора",
+        type: "ORIENT",
+        fmt: "Классическая дистанция + городской спринт",
+        coord: [
+            55.802366,
+            37.449027
+        ],
+        link: "https://docs.google.com/document/d/17HFFtaHYmDdoVw6WYe1LOB7SeNM9qT5w4iMdXK_ZJGQ/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/141",
+        res: "https://orgeo.ru/files/event/file/53970_b8d55d2265.xlsx",
+        owner: "MLKHT"
+    },
+    {
+        id: 'MSK_20260712_1',
+        date: "2026-07-12",
+        name: "Открытая тренировка",
+        place: "Строгино Янтарь",
+        type: "ORIENT",
+        fmt: "Классическая дистанция + городской спринт",
+        coord: [
+            55.799366,
+            37.41195
+        ],
+        link: "https://docs.google.com/document/d/1GHIu7NujSWUQ4MBNHkLqs8wfahQRGCQAgBebzx00RI0/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/142",
+        res: "https://orgeo.ru/files/event/file/53971_d56b6ba998.xlsx",
+        owner: "MLKHT"
     },
     {
         id: 'MSK_20260714_1',
@@ -1409,6 +1553,38 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260718_1',
+        date: "2026-07-18",
+        name: "Открытая тренировка",
+        place: "Головинский канал",
+        type: "ORIENT",
+        fmt: "городской спринт",
+        coord: [
+            55.845124,
+            37.507398
+        ],
+        link: "https://docs.google.com/document/d/1pp4qrn7J_CO98KbO4Nnd_UJWS1TYw0Xj4XNsnR94QuE/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/144",
+        res: "https://orgeo.ru/files/event/file/54075_e148f60037.xlsx",
+        owner: "MLKHT"
+    },
+    {
+        id: 'MSK_20260719_1',
+        date: "2026-07-19",
+        name: "Открытая тренировка",
+        place: "Усадьба Михалково",
+        type: "ORIENT",
+        fmt: "классическая дистанция",
+        coord: [
+            55.842426,
+            37.520948
+        ],
+        link: "https://docs.google.com/document/d/1bCG9WFrAky-Pj3eFeMuTSeajI94zfAC4vac9KEuGSOk/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/145",
+        res: "https://orgeo.ru/files/event/file/54074_3b8068d5f9.xlsx",
+        owner: "MLKHT"
+    },
+    {
         id: 'MSK_20260721_1',
         date: "2026-07-21",
         name: "Московское Лето",
@@ -1439,12 +1615,44 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20260725_1',
+        date: "2026-07-25",
+        name: "Открытая тренировка",
+        place: "Тимирязевский парк (север)",
+        type: "ORIENT",
+        fmt: "Лонг",
+        coord: [
+            55.825578,
+            37.531646
+        ],
+        link: "https://docs.google.com/document/d/1n48RcIsfIjyqbGCeBCN7tJ7tPwugQQDKAhqWpG5qmwo/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/143",
+        res: "https://orgeo.ru/files/event/file/54109_4b8674bc63.xlsx",
+        owner: "MLKHT"
+    },
+    {
         id: 'MSK_20260726_1',
         date: "2026-07-26",
         name: "Большой летний аэророгейн",
         type: "ROGAINE",
         fmt: "рогейн",
         link: "https://orientband.ru/"
+    },
+    {
+        id: 'MSK_20260726_2',
+        date: "2026-07-26",
+        name: "Открытая тренировка",
+        place: "Авиационная улица",
+        type: "ORIENT",
+        fmt: "городской спринт",
+        coord: [
+            55.810622,
+            37.458825
+        ],
+        link: "https://docs.google.com/document/d/1ZvqcT8qqgxIj5CAI7TQLjyCiXiYHZIheNG0IRMfzaqU/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/143",
+        res: "https://orgeo.ru/files/event/file/54173_842379b3cb.xlsx",
+        owner: "MLKHT"
     },
     {
         id: 'MSK_20260728_1',
@@ -1475,6 +1683,22 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
         owner: "CLEVER_MSK"
+    },
+    {
+        id: 'MSK_20260802_1',
+        date: "2026-08-02",
+        name: "Малахитовый рогейн",
+        place: "Щукино",
+        type: "ROGAINE",
+        fmt: "рогейн",
+        coord: [
+            55.803028,
+            37.448659
+        ],
+        link: "https://docs.google.com/document/d/1LqJHYfyuoD79UEhZQDfkBL4W5LrFWUBJiYrqYXSmK28/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/143",
+        res: "https://orgeo.ru/files/event/file/53995_35a8e81e5c.xlsx",
+        owner: "MLKHT"
     },
     {
         id: 'MSK_20260804_1',
@@ -1589,6 +1813,38 @@ let mskEvents2026 = [
         ],
         link: "https://mosmeridian.website.yandexcloud.net/",
         owner: "SYTV_N"
+    },
+    {
+        id: 'MSK_20260822_1',
+        date: "2026-08-22",
+        name: "Открытая тренировка",
+        place: "Усадьба Трубецких",
+        type: "ORIENT",
+        fmt: "спринт",
+        coord: [
+            55.728356,
+            37.576236
+        ],
+        link: "https://docs.google.com/document/d/1sZwkpDfBo0OjyZmG8Gv_kObY17mhT3I9CQsA90ynPAA/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/150",
+        res: "https://orgeo.ru/files/event/file/54609_64d3b59374.xlsx",
+        owner: "MLKHT"
+    },
+    {
+        id: 'MSK_20260823_1',
+        date: "2026-08-23",
+        name: "Открытая тренировка",
+        place: "Тимирязевский парк (юг)",
+        type: "ORIENT",
+        fmt: "лонг",
+        coord: [
+            55.807892,
+            37.550774
+        ],
+        link: "https://docs.google.com/document/d/1E-tdch9LBZ0oFOJT5YqDDrgjpjzG4otBrAv9H2Bzi4s/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/151",
+        res: "https://orgeo.ru/files/event/file/54611_217a9c5ecf.xlsx",
+        owner: "MLKHT"
     },
     {
         id: 'MSK_20260825_1',
@@ -1908,6 +2164,21 @@ let mskEvents2026 = [
         link: "https://orienteering.moscow/",
         reg: "https://orgeo.ru/event/organizer/24222",
         owner: "CLEVER_MSK"
+    },
+    {
+        id: 'MSK_20260926_3',
+        date: "2026-09-26",
+        name: "Открытая тренировка",
+        place: "Филевский парк",
+        type: "ORIENT",
+        fmt: "классическая дистанция",
+        coord: [
+            55.74534,
+            37.487026
+        ],
+        link: "https://docs.google.com/document/d/1IP48LPI_TArSETd_KRuwzhDELkKYb7dUUahT7NtcxSQ/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/152",
+        owner: "MLKHT"
     },
     {
         id: 'MSK_20260927_1',
