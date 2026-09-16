@@ -2555,7 +2555,8 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/55347',
         link: 'https://t.me/dlitelnyy/691',
         info: 'Отборочный старт СФСО СПб + тренировочные дистанции.',
-        map: 'koroleva_2026'
+        map: 'koroleva_2026',
+        owner: 'DLITELNY'
     },
     {
         id: 'SPB_20260919_2',
