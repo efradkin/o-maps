@@ -1456,6 +1456,7 @@ let events2024 = [
         split: 'splits/2024/SPB_20240728_1_split.htm',
         strava: 12000800125,
         o_site: '240728_p',
+        o_gps: 20116,
         map: 'komarovo_2013'
     },
     {

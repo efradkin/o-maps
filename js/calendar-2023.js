@@ -1288,6 +1288,7 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/230716/230716_split.htm',
         split: 'splits/2023/SPB_20230716_1_split.htm',
         o_site: '230716',
+        o_gps: 16811,
         strava: 9462844137,
         reskeep: 589,
         map: 'komarovo_2013'

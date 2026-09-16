@@ -1963,7 +1963,7 @@ function buildPublish(events, label) {
     }
     for (const e of events) {
         if (e.publish) {
-            publish.push(e.publish);
+            pushItems(publish, e.publish);
         }
 /* пожалуй, не надо искать публикации через карты события
         if (e.map) {

@@ -702,7 +702,11 @@ let commonEvents2026 = [
             'splits/2026/SPB_20260911_1_2_split.htm',
             'splits/2026/SPB_20260911_1_3_split.htm'
         ],
-        o_gps: [25938,25965],
+        o_gps: {
+            '12-М14':25938,
+            '12-Фит':25973,
+            '13-М45':25965
+        },
         reg: 'http://orgeo.ru/event/info/53700',
         reskeep: [921,922,923],
         type: 'ORIENT',
