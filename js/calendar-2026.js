@@ -2718,6 +2718,17 @@ let events2026 = [
         owner: 'EGRV_SRG'
     },
     {
+        id: 'SPB_20260927_4',
+        date: '2026-09-27',
+        place: 'Будогощь',
+        name: 'ЧиП Соснового Бора',
+        link: 'https://vk.ru/wall-201330282_2593',
+        reg: 'Juventa-uvr@sbor.net',
+        type: 'ORIENT',
+        map: 'sosnovij_bor_2021',
+        owner: 'YUVENTA'
+    },
+    {
         id: 'SPB_20260930_1',
         date: '2026-09-30',
         name: 'Спринт Тур',

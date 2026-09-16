@@ -1794,7 +1794,9 @@ function buildEventReg(evt) {
 }
 
 function buildOneEventReg(reg) {
-    if (reg.includes('orgeo')) {
+    if (reg.includes('@')) {
+        return buildLink('mailto:'+reg, '✉️');
+    } else if (reg.includes('orgeo')) {
         return buildLink(reg, 'Orgeo');
     } else if (reg.includes('o-reg')) {
         return buildLink(reg, 'O-Reg');
