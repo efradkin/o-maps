@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "generated": "2026-09-14T22:41:49+00:00",
-  "events": 3499,
-  "size": 3598815,
-  "sha256": "23acedeba1748da800276628824d62ec12d0f78bdf4182aaf4f9587d0136433f",
+  "generated": "2026-09-16T11:25:17+00:00",
+  "events": 3501,
+  "size": 3601218,
+  "sha256": "ff52635f1151653a31c43f0b2b620246d5e8787df3291b4b8946a792af44810e",
   "url": "spb.json",
   "datasets": [
     {
       "id": "spb",
       "title": "Санкт-Петербург",
       "url": "spb.json",
-      "events": 3499,
-      "size": 3598815,
-      "sha256": "23acedeba1748da800276628824d62ec12d0f78bdf4182aaf4f9587d0136433f"
+      "events": 3501,
+      "size": 3601218,
+      "sha256": "ff52635f1151653a31c43f0b2b620246d5e8787df3291b4b8946a792af44810e"
     }
   ],
   "app": {

@@ -2571,6 +2571,17 @@ let events2026 = [
         start: 'GORNY_CROSS'
     },
     {
+        id: 'SPB_20260919_3',
+        date: '2026-09-19',
+        place: 'ул. Панфилова 23',
+        name: 'Лабиринт на Охте',
+        reg: 'https://orgeo.ru/event/55367',
+        type: 'FUN',
+        fmt: 'лабиринт',
+        info: 'Бесплатный старт. 7 разных дистанций.',
+        owner: 'FENIX'
+    },
+    {
         id: 'SPB_20260920_1',
         date: '2026-09-20',
         name: 'ЧиП СПб',
@@ -2603,6 +2614,16 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         start: 'ST'
+    },
+    {
+        id: 'SPB_20260924_3',
+        date: '2026-09-24',
+        place: 'Фрунзенский р-он, шк №364',
+        name: 'Спортивное ориентирование - в школу, №61',
+        type: 'ORIENT',
+        o_site: '260924',
+        owner: 'SFSO_SPB',
+        start: 'SCHOOL',
     },
     {
         id: 'SPB_20260926_1',
@@ -2704,6 +2725,16 @@ let events2026 = [
         fmt: 'спринт',
         start: 'ST',
         info: 'Новая карта.'
+    },
+    {
+        id: 'SPB_20260930_2',
+        date: '2026-09-30',
+        place: 'Выборгский р-он, шк №457',
+        name: 'Спортивное ориентирование - в школу, №62',
+        type: 'ORIENT',
+        o_site: '260930',
+        owner: 'SFSO_SPB',
+        start: 'SCHOOL',
     },
     {
         id: 'SPB_20260918_1',
