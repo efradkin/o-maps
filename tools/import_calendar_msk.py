@@ -27,7 +27,7 @@ import_calendar_msk.py — импорт «Неофициального свод�
 поменялось — та же дата и то же место. Поля, которых нет в таблице
 (res, photo и т. п.), и пустые ячейки существующие значения не стирают.
 
-Зависимости: openpyxl.
+Только стандартная библиотека Python (XLSX читается через zipfile + ElementTree).
 """
 
 import argparse
@@ -41,12 +41,10 @@ import tempfile
 import time
 import urllib.parse
 import urllib.request
-from datetime import date, datetime
-
-try:
-    import openpyxl
-except ImportError:
-    sys.exit("Нужен openpyxl: pip install openpyxl")
+import posixpath
+import zipfile
+import xml.etree.ElementTree as ET
+from datetime import date, datetime, timedelta
 
 SHEET_URL = ("https://docs.google.com/spreadsheets/d/"
              "1D0_ybH3A0TBZaC4sjPHkkthQrTiwUdudkz1VES1Ai7Y/edit?gid=257262853")
@@ -82,13 +80,114 @@ def download_xlsx(url):
         return r.read()
 
 
+# --- минимальный читатель XLSX -------------------------------------------
+
+NS = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
+      "r": "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+      "p": "http://schemas.openxmlformats.org/package/2006/relationships"}
+R_ID = "{%s}id" % NS["r"]
+
+
+class Cell:
+    __slots__ = ("row", "column", "value", "link")
+
+    def __init__(self, row, column, value, link=None):
+        self.row, self.column, self.value, self.link = row, column, value, link
+
+
+def _rels(z, part):
+    d, f = posixpath.split(part)
+    path = posixpath.join(d, "_rels", f + ".rels")
+    if path not in z.namelist():
+        return {}
+    out = {}
+    for rel in ET.fromstring(z.read(path)).findall("p:Relationship", NS):
+        t = rel.get("Target", "")
+        if rel.get("TargetMode") != "External" and not t.startswith("/"):
+            t = posixpath.normpath(posixpath.join(d, t))
+        out[rel.get("Id")] = t.lstrip("/") if rel.get("TargetMode") != "External" else t
+    return out
+
+
+def _text(el):
+    """Текст <si>/<is> с учётом rich-text фрагментов (<r><t>), без фонетики."""
+    if el is None:
+        return ""
+    parts = [t.text or "" for t in el.findall("m:t", NS)]
+    parts += [t.text or "" for t in el.findall("m:r/m:t", NS)]
+    return "".join(parts)
+
+
+def _col_row(ref):
+    m = re.match(r"([A-Z]+)(\d+)$", ref)
+    col = 0
+    for ch in m.group(1):
+        col = col * 26 + ord(ch) - 64
+    return col, int(m.group(2))
+
+
+def read_xlsx_first_sheet(data):
+    """-> [[Cell, ...] по строкам] для первого листа книги."""
+    z = zipfile.ZipFile(io.BytesIO(data))
+    wb_part = "xl/workbook.xml"
+    wb = ET.fromstring(z.read(wb_part))
+    first = wb.find("m:sheets/m:sheet", NS)
+    sheet_part = _rels(z, wb_part)[first.get(R_ID)]
+
+    shared = []
+    if "xl/sharedStrings.xml" in z.namelist():
+        sst = ET.fromstring(z.read("xl/sharedStrings.xml"))
+        shared = [_text(si) for si in sst.findall("m:si", NS)]
+
+    ws = ET.fromstring(z.read(sheet_part))
+    rels = _rels(z, sheet_part)
+    links = {}
+    for h in ws.findall("m:hyperlinks/m:hyperlink", NS):
+        target = rels.get(h.get(R_ID)) if h.get(R_ID) else None
+        if target:
+            ref = h.get("ref").split(":")[0]
+            links[ref] = target
+
+    rows = []
+    for row in ws.findall("m:sheetData/m:row", NS):
+        cells = []
+        for c in row.findall("m:c", NS):
+            ref = c.get("r")
+            col, rn = _col_row(ref)
+            t = c.get("t")
+            v = c.find("m:v", NS)
+            f = c.find("m:f", NS)
+            if t == "s" and v is not None:
+                val = shared[int(v.text)]
+            elif t == "inlineStr":
+                val = _text(c.find("m:is", NS))
+            elif t in ("str", "e"):
+                val = v.text if v is not None else None
+            elif t == "b":
+                val = v is not None and v.text == "1"
+            elif v is not None and v.text is not None:
+                val = float(v.text)
+                if val.is_integer():
+                    val = int(val)
+            else:
+                val = None
+            link = links.get(ref)
+            if link is None and f is not None and f.text:
+                m = re.match(r'\s*HYPERLINK\(\s*"([^"]*)"', f.text, re.I)
+                if m:
+                    link = m.group(1)
+            cells.append(Cell(rn, col, val, link))
+        rows.append(cells)
+    return rows
+
+
 HYPERLINK_RE = re.compile(r'^=HYPERLINK\(\s*"([^"]*)"', re.I)
 
 
 def url_value(cell):
     """Аналог Utils.getUrlValue: ссылка ячейки или сам текст, если это URL; иначе None."""
-    if cell.hyperlink is not None and cell.hyperlink.target:
-        return cell.hyperlink.target.strip()
+    if cell.link:
+        return cell.link.strip()
     v = cell.value
     if isinstance(v, str):
         m = HYPERLINK_RE.match(v)
@@ -112,6 +211,9 @@ def text_value(v):
 
 
 def parse_date(v):
+    if isinstance(v, (int, float)) and not isinstance(v, bool):
+        # серийный номер даты Excel
+        return (date(1899, 12, 30) + timedelta(days=int(v))).isoformat()
     if isinstance(v, datetime):
         return v.date().isoformat()
     if isinstance(v, date):
@@ -158,10 +260,10 @@ def process_format(ev, s):
 
 
 def parse_sheet(xlsx):
-    wb = openpyxl.load_workbook(io.BytesIO(xlsx))
-    ws = wb.worksheets[0]
     events = []
-    for row in ws.iter_rows(min_row=HEADER_ROWS + 1):
+    for row in read_xlsx_first_sheet(xlsx):
+        if not row or row[0].row <= HEADER_ROWS:
+            continue
         cells = {c.column: c for c in row}
         if all(is_empty(c.value) for c in row):
             continue
