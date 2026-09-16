@@ -2720,7 +2720,7 @@ let events2026 = [
     {
         id: 'SPB_20260927_4',
         date: '2026-09-27',
-        place: 'Будогощь',
+        place: 'Сосновый бор, Приморский парк',
         name: 'ЧиП Соснового Бора',
         link: 'https://vk.ru/wall-201330282_2593',
         reg: 'Juventa-uvr@sbor.net',
