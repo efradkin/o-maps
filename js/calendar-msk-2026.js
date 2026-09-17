@@ -2246,6 +2246,21 @@ let mskEvents2026 = [
         owner: "CLEVER_MSK"
     },
     {
+        id: 'MSK_20261003_3',
+        date: "2026-10-03",
+        name: "Открытая тренировка",
+        place: "Березовая роща",
+        type: "ORIENT",
+        fmt: "парковый спринт",
+        coord: [
+            55.784728,
+            37.516126
+        ],
+        link: "https://docs.google.com/document/d/1vXEvIZ7cvLzEHkgECojcS_OxuXzoMXz2QhvS_8cTPKU/edit?usp=sharing",
+        reg: "https://buyrun.ru/event/153",
+        owner: "MLKHT"
+    },
+    {
         id: 'MSK_20261004_1',
         date: "2026-10-04",
         name: "ЧиП Москвы",
