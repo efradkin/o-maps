@@ -244,6 +244,7 @@ let events2022 = [
         name: 'Перспектива Middle Cup #1',
         strava: 6953487767,
         type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/220604_PMC/220409_split.htm',
         reskeep: 510,
         split: 'splits/2022/SPB_20220409_1_split.htm',
         map: 'osinovaja_roscha_2018'
@@ -299,6 +300,14 @@ let events2022 = [
         map: 'ekateringof_2021'
     },
     {
+        id: 'SPB_20220416_2',
+        date: '2022-04-16',
+        name: 'Перспектива Middle Cup',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/220604_PMC/220416_split.htm',
+        o_site: '220604_PMC'
+    },
+    {
         id: 'SPB_20220417_1',
         date: '2022-04-17',
         place: 'Детские Дюны',
@@ -310,6 +319,14 @@ let events2022 = [
         info: 'Региональные соревнования по спортивному ориентированию в кроссовых дисциплинах «Открытие сезона» (с выполнением массовых разрядов). Организатор: РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга»',
         o_site: '220417',
         map: 'sestroretskie_detskie_djuny_2020'
+    },
+    {
+        id: 'SPB_20220419_1',
+        date: '2022-04-19',
+        name: 'Перспектива Middle Cup',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/220604_PMC/220419_split.htm',
+        o_site: '220604_PMC'
     },
     {
         id: 'SPB_20220420_1',
@@ -374,6 +391,14 @@ let events2022 = [
         o_site: '220424_',
         map: 'pushkin_babolovsky_2019',
         owner: 'EGRV_EGR'
+    },
+    {
+        id: 'SPB_20220426_1',
+        date: '2022-04-26',
+        name: 'Перспектива Middle Cup',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/220604_PMC/220426_split.htm',
+        o_site: '220604_PMC'
     },
     {
         id: 'SPB_20220427_1',
@@ -535,6 +560,7 @@ let events2022 = [
         name: 'Перспектива Middle Cup #5',
         strava: 7118086822,
         type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/220604_PMC/220510_split.htm',
         reskeep: 524,
         map: 'lindulovskaya_roscha_2015'
     },
@@ -655,6 +681,15 @@ let events2022 = [
         owner: 'AZIMUT'
     },
     {
+        id: 'SPB_20220517_1',
+        date: '2022-05-17',
+        place: 'Ржевка',
+        name: 'Перспектива Middle Cup',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/220604_PMC/220517_split.htm',
+        o_site: '220604_PMC'
+    },
+    {
         id: 'SPB_20220518_1',
         date: '2022-05-18',
         place: 'Школа №303, ул Турку 29-2',
@@ -740,6 +775,14 @@ let events2022 = [
         link: 'https://vk.com/club91656163',
         video: ['https://www.youtube.com/watch?v=6kCBasFoCe8','https://www.youtube.com/watch?v=gKarWwzitHs'],
         owner: 'LM'
+    },
+    {
+        id: 'SPB_20220524_1',
+        date: '2022-05-24',
+        name: 'Перспектива Middle Cup',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/220604_PMC/220524_split.htm',
+        o_site: '220604_PMC'
     },
     {
         id: 'SPB_20220528_1',
@@ -1873,16 +1916,6 @@ let events2022 = [
         place: 'Ржевский л/п',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1471',
-        res: 'https://o-site.spb.ru/_races/220604_PMC/220409_split.htm',
-        split: [
-            'splits/2022/SPB_20221004_1_1_split.htm',
-            'splits/2022/SPB_20221004_1_2_split.htm',
-            'splits/2022/SPB_20221004_1_3_split.htm',
-            'splits/2022/SPB_20221004_1_4_split.htm',
-            'splits/2022/SPB_20221004_1_5_split.htm',
-            'splits/2022/SPB_20221004_1_6_split.htm',
-            'splits/2022/SPB_20221004_1_7_split.htm'
-        ],
         info: 'В ожидании главных ночных стартов года, можно потренировать навыки ориентирования в темноте.',
         o_site: '220604_PMC',
         map: 'rzhevsky_2024'
