@@ -154,6 +154,16 @@ let events2009 = [
         o_site: '09022223'
     },
     {
+        id: 'SPB_20090223_1',
+        date: '2009-02-23',
+        place: 'Рахья',
+        name: 'Всеволожская тропа, 3-й этап',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/081223/090223_res.htm',
+        o_site: '081223',
+        map: 'rakhja_south_2007'
+    },
+    {
         id: 'SPB_20090301_1',
         date: '2009-03-01',
         place: 'Рощино',
@@ -260,6 +270,16 @@ let events2009 = [
         o_site: '090419'
     },
     {
+        id: 'SPB_20090421_1',
+        date: '2009-04-21',
+        place: 'Сосновка',
+        name: 'Sprint Tour SPb, 1 этап',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/090519/090421_res.htm',
+        start: 'ST',
+        o_site: '090519'
+    },
+    {
         id: 'SPB_20090501_1',
         date: '2009-05-01',
         endDate: '2009-05-03',
@@ -326,6 +346,16 @@ let events2009 = [
         o_site: '090511_110'
     },
     {
+        id: 'SPB_20090512_1',
+        date: '2009-05-12',
+        place: 'Сосновка',
+        name: 'Sprint Tour SPb, 2 этап',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/090519/090512_res.htm',
+        start: 'ST',
+        o_site: '090519'
+    },
+    {
         id: 'SPB_20090516_1',
         date: '2009-05-16',
         place: 'Зеленогорск',
@@ -372,10 +402,9 @@ let events2009 = [
         id: 'SPB_20090519_1',
         date: '2009-05-19',
         place: 'Невский л/п',
-        name: 'Sprint Tour SPb',
+        name: 'Sprint Tour SPb, 3 этап',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/090519/090421_res.htm',
-        info: 'Соревнования проводятся в 3 этапа 1 этап Открытое Первенство Красносельского района 21 апреля 2009 г. Парк Сосновая Поляна 2 этап Открытое Первенство Приморского района 12 мая 2009 г. парк Сосновка 3 этап Открытое Первенство Невского района 19 мая Невский лесопарк',
+        res: 'https://o-site.spb.ru/_races/090519/090519_res.htm',
         start: 'ST',
         o_site: '090519'
     },
@@ -690,8 +719,7 @@ let events2009 = [
         place: 'Токсово',
         name: 'Рогейн 110%',
         type: 'ROGAINE',
-        res: 'http://www.o-site.spb.ru/_races/090924/090917_res.htm',
-        info: '1 этап(17 ctynz,hz): Результаты + Сплиты',
+        res: 'https://o-site.spb.ru/_races/090816/090816_res.htm',
         start: 'ROGAINE_110',
         o_site: '090816'
     },
@@ -1142,16 +1170,6 @@ let events2009 = [
         split: 'splits/2009/SPB_20091220_1_split.htm',
         publish: 'https://o-site.spb.ru/race.php?id=091220',
         o_site: '091220'
-    },
-    {
-        id: 'SPB_20091221_1',
-        date: '2009-12-21',
-        place: 'Рахья',
-        name: 'Всеволожская тропа, 3-й этап',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/081223/090223_res.htm',
-        o_site: '081223',
-        map: 'rakhja_south_2007'
     },
     {
         id: 'SPB_20091226_1',

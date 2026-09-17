@@ -408,7 +408,8 @@ let events2020 = [
     {
         id: 'SPB_20200322_1',
         date: '2020-03-22',
-        name: 'Кубок Белых Ночей. 17 этап',
+        name: 'Кубок Белых Ночей. 18 этап',
+        place: 'Первомайское',
         type: 'ORIENT',
         res: ['https://o-site.spb.ru/_races/2020BN/200322_split_g.htm','https://o-site.spb.ru/_races/2020BN/200322_split_m.htm'],
         owner: 'WN',

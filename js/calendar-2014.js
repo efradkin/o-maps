@@ -1,18 +1,5 @@
 let events2014 = [
     {
-        id: 'SPB_20130119_1',
-        date: '2013-01-19',
-        place: 'Сестрорецк, парк Дубки',
-        name: 'Снежная тропа, 2-й этап',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/130119/140119_res.pdf',
-        split: 'splits/2013/SPB_20130119_1_split.htm',
-        video: ['http://vimeo.com/85339934','https://www.youtube.com/watch?v=mVSrvxZaD5I'],
-        owner: 'SFSO_SPB',
-        o_site: '130119',
-        map: 'sestroretsk_dubki_2014'
-    },
-    {
         id: 'SPB_20140103_1',
         date: '2014-01-03',
         endDate: '2014-01-09',
@@ -58,6 +45,19 @@ let events2014 = [
         ],
         start: 'VSEV_VESTI',
         o_site: '140112'
+    },
+    {
+        id: 'SPB_20140119_1',
+        date: '2014-01-19',
+        place: 'Сестрорецк, парк Дубки',
+        name: 'Снежная тропа, 2-й этап',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/130119/140119_res.pdf',
+        split: 'splits/2013/SPB_20130119_1_split.htm',
+        video: ['http://vimeo.com/85339934','https://www.youtube.com/watch?v=mVSrvxZaD5I'],
+        owner: 'SFSO_SPB',
+        o_site: '130119',
+        map: 'sestroretsk_dubki_2014'
     },
     {
         id: 'SPB_20140125_1',

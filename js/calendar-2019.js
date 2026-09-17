@@ -1101,7 +1101,7 @@ let events2019 = [
         reskeep: 170
     },
     {
-        id: 'SPB_20190620_1',
+        id: 'SPB_20190620_2',
         date: '2019-06-20',
         name: 'Первенство ВУЗов МО РФ',
         place: 'Юкки',
@@ -1694,9 +1694,7 @@ let events2019 = [
         place: 'Васкелово',
         name: 'Кубок Белых ночей. 1 этап',
         type: 'ORIENT',
-        res: 'http://o-site.spb.ru/_races/2020BN/190921_split.htm',
         reskeep: 222,
-        split: 'splits/2019/SPB_20190928_3_split.htm',
         owner: 'WN'
     },
     {

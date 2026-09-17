@@ -533,7 +533,7 @@ let events2017 = [
         o_site: '170426'
     },
     {
-        id: 'SPB_20170426_1',
+        id: 'SPB_20170426_2',
         date: '2017-04-26',
         place: 'Серебряный пруд',
         name: 'Sprint Tour SPb 2018',

@@ -1457,6 +1457,15 @@ let events2015 = [
         o_site: '151107wn'
     },
     {
+        id: 'SPB_20151107_2',
+        date: '2015-11-07',
+        name: 'Ночной Рогейн',
+        place: 'Яппиля',
+        type: 'ROGAINE',
+        res: 'https://o-site.spb.ru/_races/151107/151107_res.htm',
+        o_site: '151107'
+    },
+    {
         id: 'SPB_20151108_1',
         date: '2015-11-08',
         name: 'Открытый старт в Орехово',
@@ -1605,9 +1614,7 @@ let events2015 = [
         name: 'Ночной Рогейн TrailAdventure',
         place: 'Каннельярви',
         type: 'ROGAINE',
-        res: 'http://o-site.spb.ru/_races/151107/151107_res.htm',
-        split: 'splits/2015/SPB_20151212_1_split.htm',
-        info: '7-е ноября: результаты',
+        res: 'https://o-site.spb.ru/_races/151107/TANR12122015s.htm',
         o_site: '151107'
     },
     {

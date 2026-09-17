@@ -1562,15 +1562,12 @@ let events2025 = [
         date: '2025-07-05',
         endDate: '2025-07-06',
         place: 'Мичуринское',
-        name: 'Мичуринский рогейн',
+        name: 'Мичуринский рогейн + ориентирование',
         fmt: '4, 8',
-        type: [
-            'ROGAINE',
-            'ORIENT'
-        ],
-        o_site: '2025_michura_rog',
+        type: ['ROGAINE', 'ORIENT'],
+        o_site: '250705_bn',
         reg: 'https://orgeo.ru/event/info/michura_rog_2025',
-        res: 'https://o-site.spb.ru/_races/250705_bn/250706_res.htm',
+        res: ['https://o-site.spb.ru/_races/250705_bn/250705_res.htm','https://o-site.spb.ru/_races/250705_bn/250706_res.htm'],
         o_gps: 23067,
         map: 'michurinskoe_2022',
         owner: 'WN'

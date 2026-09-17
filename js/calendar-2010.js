@@ -328,16 +328,6 @@ let events2010 = [
         o_site: '100417_sb'
     },
     {
-        id: 'SPB_20100421_1',
-        date: '2010-04-21',
-        place: 'Токсово',
-        name: 'Ориентир-8',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/100421_OR/100915_res.htm',
-        info: 'Тренировочный старт КСО Азимут.',
-        o_site: '100421_OR'
-    },
-    {
         id: 'SPB_20100422_1',
         date: '2010-04-22',
         place: 'Сертолово',
@@ -813,6 +803,16 @@ let events2010 = [
         split: 'splits/2010/SPB_20100912_1_split.htm',
         owner: 'WN',
         o_site: '100912'
+    },
+    {
+        id: 'SPB_20100915_1',
+        date: '2010-09-15',
+        place: 'Токсово, Каменная дорога',
+        name: 'Ориентир-8',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/100421_OR/100915_res.htm',
+        info: 'Тренировочный старт КСО Азимут.',
+        o_site: '100421_OR'
     },
     {
         id: 'SPB_20100918_1',

@@ -172,12 +172,13 @@ let events2018 = [
     },
     {
         id: 'SPB_20180211_1',
-        date: '2018-02-11',
+        date: '2018-02-04',
+        endDate: '2018-02-11',
         place: 'Зеркальный',
         name: 'Первенство СДЮСШ ОР №2 СПБ ГДТЮ',
-        type: 'ORIENT',
+        type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=834',
-        res: 'https://o-site.spb.ru/_races/180204/180204_res.htm',
+        res: ['https://o-site.spb.ru/_races/180204/180204_res.htm','https://o-site.spb.ru/_races/180204/180211_split.htm'],
         split: [
             'splits/2018/SPB_20180211_1_1_split.htm',
             'splits/2018/SPB_20180211_1_2_split.htm'
@@ -2139,7 +2140,6 @@ let events2018 = [
         name: 'Всеволожская тропа. 1 этап',
         type: 'ORIENT',
         reskeep: 93,
-        split: 'splits/2018/SPB_20181118_3_split.htm'
     },
     {
         id: 'SPB_20181118_4',
@@ -2299,8 +2299,7 @@ let events2018 = [
         place: 'Приютино',
         name: 'Всеволожская тропа',
         type: 'ORIENT',
-        res: 'http://o-site.spb.ru/_races/vsev_tropa20182019/181118_rez.htm',
-        info: 'Осень 2018 - весна 2019 0 этап — 18 ноября — Гарболово Результаты Сплиты Распечатки',
+        res: 'https://o-site.spb.ru/_races/181223vt/181223_VT_split.htm',
         o_site: '181223vt',
         map: 'prijutino_2016'
     },

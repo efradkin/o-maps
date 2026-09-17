@@ -680,7 +680,7 @@ let events2013 = [
         o_site: '130612'
     },
     {
-        id: 'SPB_20130612_1',
+        id: 'SPB_20130612_2',
         date: '2013-06-12',
         place: 'Первомайское',
         name: 'Кузьмоловские вожди-2',
@@ -729,20 +729,6 @@ let events2013 = [
         start: ['WN','YM'],
     },
     {
-        id: 'SPB_20130620_1',
-        date: '2013-06-20',
-        place: 'Орехово',
-        map: 'lembolovo_orekhovo_peski_gk_2026',
-        name: 'Рогейн Горный кросс-37',
-        type: 'ROGAINE',
-        reg: 'http://www.x-race.info/calendar/9944/tender/',
-        res: 'https://o-site.spb.ru/_races/130720_GK/130720_res_.xls',
-        split: 'splits/2013/SPB_20130620_1_split.htm',
-        fmt: '6 и 3 час. бегом; 6 час. вело',
-        start: 'GORNY_CROSS',
-        o_site: '130720_GK'
-    },
-    {
         id: 'SPB_20130623_1',
         date: '2013-06-23',
         endDate: '2013-06-27',
@@ -785,7 +771,7 @@ let events2013 = [
         video: 'https://www.youtube.com/watch?v=0otJHpAGAoQ'
     },
     {
-        id: 'SPB_20130706_1',
+        id: 'SPB_20130706_2',
         date: '2013-07-06',
         name: 'Велорогейн 100х24',
         place: 'Зеленогорск, Черные оз',
@@ -823,11 +809,17 @@ let events2013 = [
     {
         id: 'SPB_20130720_2',
         date: '2013-07-20',
+        place: 'Орехово',
+        map: 'lembolovo_orekhovo_peski_gk_2026',
         name: 'Горный кросс-37',
-        type: 'ROGAINE',
-        fmt: '6 и3 часа',
         link: 'http://gornycross.narod.ru',
-        start: 'GORNY_CROSS'
+        type: 'ROGAINE',
+        reg: 'http://www.x-race.info/calendar/9944/tender/',
+        res: 'https://o-site.spb.ru/_races/130720_GK/130720_res_.xls',
+        split: 'splits/2013/SPB_20130620_1_split.htm',
+        fmt: '6 и 3 час. бегом; 6 час. вело',
+        start: 'GORNY_CROSS',
+        o_site: '130720_GK'
     },
     {
         id: 'SPB_20130721_1',

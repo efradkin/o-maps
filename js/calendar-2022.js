@@ -536,7 +536,6 @@ let events2022 = [
         strava: 7118086822,
         type: 'ORIENT',
         reskeep: 524,
-        split: 'splits/2022/SPB_20220510_1_split.htm',
         map: 'lindulovskaya_roscha_2015'
     },
     {
@@ -2148,8 +2147,7 @@ let events2022 = [
         map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
         strava: 8041902569,
-        reskeep: 562,
-        split: 'splits/2022/SPB_20221030_2_split.htm'
+        reskeep: 562
     },
     {
         id: 'SPB_20221103_1',
@@ -2421,9 +2419,7 @@ let events2022 = [
         name: 'White Nights Middle #7',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1489',
-        res: 'http://o-site.spb.ru/_races/2023_bn/221030_res.htm',
-        split: 'splits/2022/SPB_20221218_1_split.htm',
-        info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 1-й этап 30.10.22 Cосново Результаты Сплиты',
+        res: 'https://o-site.spb.ru/_races/220702/221218_split.htm',
         o_site: '220702',
         reskeep: 581,
         owner: 'WN'

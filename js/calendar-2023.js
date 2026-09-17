@@ -1049,7 +1049,7 @@ let events2023 = [
         map: 'kkp_prudy_2023_06_17',
     },
     {
-        id: 'SPB_20230617_1',
+        id: 'SPB_20230617_2',
         date: '2023-06-17',
         place: 'Пруды',
         name: 'Пирамида',
@@ -1092,7 +1092,7 @@ let events2023 = [
         map: 'kkp_prudy_2023_06_17',
     },
     {
-        id: 'SPB_20230618_1',
+        id: 'SPB_20230618_2',
         date: '2023-06-18',
         place: 'Зеленогорск, Черные оз',
         name: 'Черноозерская средняя',
@@ -1582,9 +1582,7 @@ let events2023 = [
         name: 'Перспектива',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/29896',
-        res: 'https://o-site.spb.ru/_races/230827_infop/230708_res_p.htm',
-        split: 'splits/2023/SPB_20230827_2_split.htm',
-        strava: 9730244634,
+        res: 'https://o-site.spb.ru/_races/230827_infop/230827_split_p.htm',
         o_site: '230827_infop',
         map: 'rzhevsky_2024'
     },
@@ -1598,6 +1596,7 @@ let events2023 = [
         res: 'https://o-site.spb.ru/_races/230827_R/230827_res.htm',
         split: 'splits/2023/SPB_20230827_3_split.htm',
         o_site: '230827_R',
+        strava: 9730244634,
         map: 'rzhevsky_2024'
     },
     {

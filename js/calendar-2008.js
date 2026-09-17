@@ -1008,6 +1008,15 @@ let events2008 = [
         o_site: '081130t'
     },
     {
+        id: 'SPB_20081130_3',
+        date: '2008-11-30',
+        place: 'Проба',
+        name: 'Всеволожская тропа 2009, 1-й этап',
+        type: 'ORIENT',
+        res: 'https://www.o-site.spb.ru/_races/090419_VT/081130_res.htm',
+        o_site: '081223'
+    },
+    {
         id: 'SPB_20081207_1',
         date: '2008-12-07',
         place: 'Петродворец',
@@ -1047,6 +1056,15 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/080421/081221_split.htm',
         split: 'splits/2008/SPB_20081221_1_split.htm',
         o_site: '080421'
+    },
+    {
+        id: 'SPB_20081221_2',
+        date: '2008-12-21',
+        place: 'им Морозова',
+        name: 'Всеволожская тропа 2009, 2-й этап',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/081223/081221_res.htm',
+        o_site: '081223'
     },
     {
         id: 'SPB_20081227_1',
