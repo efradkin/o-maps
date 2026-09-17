@@ -1230,6 +1230,14 @@ let events2021 = [
         ]
     },
     {
+        id: 'SPB_20210614_2',
+        date: '2021-06-14',
+        name: 'Яркий Кубок #4',
+        res: 'https://o-site.spb.ru/_races/2021YC/210614_split.htm',
+        type: 'ORIENT',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20210615_1',
         date: '2021-06-15',
         place: 'Каменногорск',
@@ -1365,6 +1373,14 @@ let events2021 = [
         link: 'https://vk.com/gornycross'
     },
     {
+        id: 'SPB_20210704_1',
+        date: '2021-07-04',
+        name: 'Яркий Кубок #5',
+        res: 'https://o-site.spb.ru/_races/2021YC/210704_split.htm',
+        type: 'ORIENT',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20210710_1',
         date: '2021-07-10',
         endDate: '2021-07-11',
@@ -1417,9 +1433,10 @@ let events2021 = [
         date: '2021-08-07',
         name: 'Яркий Кубок #6',
         place: 'Первомайское',
+        res: 'https://o-site.spb.ru/_races/2021YC/210807_split.htm',
         type: 'ORIENT',
         reskeep: 480,
-        split: 'splits/2021/SPB_20210807_1_split.htm'
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20210807_3',
@@ -1436,9 +1453,10 @@ let events2021 = [
         date: '2021-08-08',
         name: 'Яркий Кубок. Отдельный старт',
         place: 'Первомайское',
+        res: 'https://o-site.spb.ru/_races/2021YC/210808_split.htm',
         type: 'ORIENT',
         reskeep: 481,
-        split: 'splits/2021/SPB_20210808_1_split.htm',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20210814_1',
@@ -1554,15 +1572,7 @@ let events2021 = [
         place: 'Орехово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2021YC/210829_split.htm',
-        split: [
-            'splits/2021/SPB_20210829_1_1_split.htm',
-            'splits/2021/SPB_20210829_1_2_split.htm',
-            'splits/2021/SPB_20210829_1_3_split.htm',
-            'splits/2021/SPB_20210829_1_4_split.htm',
-            'splits/2021/SPB_20210829_1_5_split.htm',
-            'splits/2021/SPB_20210829_1_6_split.htm'
-        ],
-        start: 'VSEV_VESTI',
+        start: 'YM_CUP',
         o_site: '2021YC',
         map: 'orekhovo_2024'
     },

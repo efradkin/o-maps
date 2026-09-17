@@ -19,7 +19,7 @@ let events2004 = [
         res: 'https://o-site.spb.ru/_races/040425/rezults.htm',
         info: 'Первый этап пройдет по новой карте, составленной Виктором Рыловым в 2004г.',
         fmt: '1 этап Кубка',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '040425'
     },
     {
@@ -152,7 +152,7 @@ let events2004 = [
         name: '3-й этап Кубка Яркого Мира',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/040704/YM_etap_3.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '040704'
     },
     {
@@ -201,7 +201,7 @@ let events2004 = [
         res: 'https://o-site.spb.ru/_races/040905/4e-split.zip',
         info: 'Возрастные группы: МЖ 10 12 14 16 40 50 60 Ж21 М21а М21б',
         fmt: 'средняя дистанция',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '040905'
     },
     {
@@ -266,7 +266,7 @@ let events2004 = [
         name: 'Кубок Яркого Мира-2004, финал',
         type: 'ORIENT',
         info: 'Традиционные соревнования по спортивному ориентированию. Группы МЖ 10,12,14,16,40,50,60; Ж21; М21а,М21б; группа 7-8 лет. Электронная отметка «SFR –system».',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '041003_YM'
     },
     {

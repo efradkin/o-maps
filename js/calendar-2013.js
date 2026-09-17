@@ -467,6 +467,16 @@ let events2013 = [
         o_site: '130427_pkr'
     },
     {
+        id: 'SPB_20130427_2',
+        date: '2013-04-27',
+        place: 'Суоранда',
+        name: 'Кубок Яркого Мира 2013, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2013CupYM/130427_split.htm',
+        o_site: '2013CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20130428_1',
         date: '2013-04-28',
         place: 'городской квартал на пр.Тореза',
@@ -574,6 +584,16 @@ let events2013 = [
         info: 'Мандатная комиссия проводится 29 апреля в СДЮСШ ОР №2, пом.59 по адресу: Невский пр., 39, с 17 до 18 часов.',
         owner: 'SFSO_SPB',
         o_site: '130509_vyz'
+    },
+    {
+        id: 'SPB_20130510_1',
+        date: '2013-05-10',
+        place: 'Петяярви',
+        name: 'Кубок Яркого Мира 2013, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2013CupYM/130510_split.htm',
+        o_site: '2013CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20130511_1',
@@ -989,6 +1009,16 @@ let events2013 = [
         map: 'zelik_2013_100x24_velo'
     },
     {
+        id: 'SPB_20130707_1',
+        date: '2013-07-07',
+        place: 'Первомайское',
+        name: 'Кубок Яркого Мира 2013, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2013CupYM/130707_split.htm',
+        o_site: '2013CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20130713_1',
         date: '2013-07-13',
         endDate: '2013-07-14',
@@ -1090,6 +1120,26 @@ let events2013 = [
         o_site: '130331_OR'
     },
     {
+        id: 'SPB_20130817_1',
+        date: '2013-08-17',
+        place: 'оз Воробьево',
+        name: 'Кубок Яркого Мира 2013, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2013CupYM/130817_split.htm',
+        o_site: '2013CupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20130818_1',
+        date: '2013-08-18',
+        place: 'оз Воробьево',
+        name: 'Кубок Яркого Мира 2013, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2013CupYM/130818_split.htm',
+        o_site: '2013CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20130824_1',
         date: '2013-08-24',
         endDate: '2013-08-25',
@@ -1128,6 +1178,26 @@ let events2013 = [
         start: 'GS',
         o_site: '130825_ZZ',
         map: 'gs_2013_08_25',
+    },
+    {
+        id: 'SPB_20130831_1',
+        date: '2013-08-31',
+        place: '105-я высота',
+        name: 'Кубок Яркого Мира 2013, 8-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2013CupYM/130831_split.htm',
+        o_site: '2013CupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20130901_1',
+        date: '2013-09-01',
+        place: 'Сярьги',
+        name: 'Кубок Яркого Мира 2013, 9-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2013CupYM/130901_split.htm',
+        o_site: '2013CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20130904_1',
@@ -1539,22 +1609,11 @@ let events2013 = [
     {
         id: 'SPB_20131027_1',
         date: '2013-10-27',
-        name: 'Кубок Яркого Мира',
+        name: 'Кубок Яркого Мира. Финал',
         place: 'Первомайское',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/2013CupYM/131027_res.pdf',
-        split: [
-            'splits/2013/SPB_20131027_1_1_split.htm',
-            'splits/2013/SPB_20131027_1_2_split.htm',
-            'splits/2013/SPB_20131027_1_3_split.htm',
-            'splits/2013/SPB_20131027_1_4_split.htm',
-            'splits/2013/SPB_20131027_1_5_split.htm',
-            'splits/2013/SPB_20131027_1_6_split.htm',
-            'splits/2013/SPB_20131027_1_7_split.htm',
-            'splits/2013/SPB_20131027_1_8_split.htm'
-        ],
-        info: '1 этап - 27.04 Суоранда, спринт (ЧиП Всев. р-на) 2 этап - 05.05 Сосновый Бор, классика, (перезачет рез. «Сосновоборские Дюны») 3 этап - 10.05 Петяярви 4 этап - 23.06 Ягодное, классика (в рамках фестиваля «Белые Ночи») 5 этап - 07.07 Первомайское, средняя 6 этап - 17.08 оз.Воробьево, средняя 7 этап - 18.08 оз.Воробьево, короткая 8 этап - 08.31 105-я высота 9 этап - 09.01 Сярьги финал - 10.27 Первомайское',
-        start: 'YM',
+        res: 'http://www.o-site.spb.ru/_races/2013CupYM/131027_split.htm',
+        start: 'YM_CUP',
         o_site: '2013CupYM'
     },
     {

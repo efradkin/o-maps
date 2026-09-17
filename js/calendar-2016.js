@@ -407,6 +407,16 @@ let events2016 = [
         o_site: '16041617'
     },
     {
+        id: 'SPB_20160416_4',
+        date: '2016-04-16',
+        place: 'Суоранда',
+        name: 'Яркий Кубок 2016, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2016YC/160416_split.htm',
+        o_site: '2016YC',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20160419_1',
         date: '2016-04-19',
         place: 'Осиновая Роща',
@@ -546,6 +556,16 @@ let events2016 = [
         res: 'http://o-site.spb.ru/_races/151107wn/160507_split.htm',
         owner: 'WN',
         o_site: '151107wn'
+    },
+    {
+        id: 'SPB_20160508_1',
+        date: '2016-05-08',
+        place: 'Борисово',
+        name: 'Яркий Кубок 2016, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2016YC/160508_split.htm',
+        o_site: '2016YC',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20160509_1',
@@ -843,6 +863,16 @@ let events2016 = [
         map: ['wn_2016_06_12', 'ym_2016_pervomayskoe_city_sprint', 'ym_2016_pervomayskoe_sprint', 'ym_2016_pervomayskoe_klassika', 'ym_2016_pervomayskoe_klassika2']
     },
     {
+        id: 'SPB_20160613_1',
+        date: '2016-06-13',
+        place: 'Первомайское',
+        name: 'Яркий Кубок 2016, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2016YC/160613s_split.htm',
+        o_site: '2016YC',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20160617_1',
         date: '2016-06-17',
         endDate: '2016-06-19',
@@ -1088,12 +1118,42 @@ let events2016 = [
         o_site: '160628'
     },
     {
+        id: 'SPB_20160703_1',
+        date: '2016-07-03',
+        place: 'Мельничный ручей',
+        name: 'Яркий Кубок 2016, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2016YC/160703_split.htm',
+        o_site: '2016YC',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20160708_1',
         date: '2016-07-08',
         name: 'Ржевская тропа здоровья, 2-й этап',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/160628/160708_res.htm',
         o_site: '160628'
+    },
+    {
+        id: 'SPB_20160820_1',
+        date: '2016-08-20',
+        place: 'Яппиля',
+        name: 'Яркий Кубок 2016, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2016YC/160820_split.htm',
+        o_site: '2016YC',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20160821_1',
+        date: '2016-08-21',
+        place: 'Яппиля',
+        name: 'Яркий Кубок 2016, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2016YC/160821_split.htm',
+        o_site: '2016YC',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20160827_1',
@@ -1126,6 +1186,16 @@ let events2016 = [
         res: 'https://o-site.spb.ru/_races/160828_/160828_res.htm',
         split: 'splits/2016/SPB_20160828_1_split.htm',
         o_site: '160828_'
+    },
+    {
+        id: 'SPB_20160903_1',
+        date: '2016-09-03',
+        place: 'оз Хепоярви',
+        name: 'Яркий Кубок 2016, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2016YC/160903_split.htm',
+        o_site: '2016YC',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20160904_1',
@@ -1483,20 +1553,11 @@ let events2016 = [
         id: 'SPB_20161023_2',
         date: '2016-10-23',
         name: 'Яркий Кубок 2016',
+        place: 'Мичуринское',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2016YC/161023_res.pdf',
-        split: [
-            'splits/2016/SPB_20161023_2_1_split.htm',
-            'splits/2016/SPB_20161023_2_2_split.htm',
-            'splits/2016/SPB_20161023_2_3_split.htm',
-            'splits/2016/SPB_20161023_2_4_split.htm',
-            'splits/2016/SPB_20161023_2_5_split.htm',
-            'splits/2016/SPB_20161023_2_6_split.htm',
-            'splits/2016/SPB_20161023_2_7_split.htm',
-            'splits/2016/SPB_20161023_2_8_split.htm'
-        ],
-        info: '1 этап - 16 апреля, Суоранда, средняя 2 этап - 08 мая, Борисово, лонг 3 этап - 13 июня, Первомайское, городской спринт 4 этап - 03 июля, Мельничный ручей, средняя 5 этап - 20 августа, ст.Яппиля, лонг 6 этап - 21 августа, ст.Яппиля, средняя 7 этап - 03 сентября, оз.Хепоярви, средняя финал - 23 октября, п.Мичуринское, кросс',
-        o_site: '2016YC'
+        o_site: '2016YC',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20161029_1',

@@ -384,6 +384,26 @@ let events2012 = [
         o_site: '12042901'
     },
     {
+        id: 'SPB_20120506_1',
+        date: '2012-05-06',
+        place: 'Суоранда',
+        name: 'Кубок Яркого Мира 2012, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2012CupYM/120506_split.htm',
+        o_site: '2012CupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20120507_1',
+        date: '2012-05-07',
+        place: 'Дюны-Солнечное',
+        name: 'Кубок Яркого Мира 2012, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2012CupYM/120507_split.htm',
+        o_site: '2012CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20120508_1',
         date: '2012-05-08',
         place: 'Токсово',
@@ -776,6 +796,16 @@ let events2012 = [
         o_site: '120715'
     },
     {
+        id: 'SPB_20120715_1',
+        date: '2012-07-15',
+        place: 'Воейково',
+        name: 'Кубок Яркого Мира 2012, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2012CupYM/120715_split.htm',
+        o_site: '2012CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20120721_1',
         date: '2012-07-21',
         name: 'Чемпионат России по рогейну, Горный кросс (3 этап)',
@@ -818,6 +848,26 @@ let events2012 = [
         o_site: '120325_Or'
     },
     {
+        id: 'SPB_20120811_1',
+        date: '2012-08-11',
+        place: 'Ягодное',
+        name: 'Кубок Яркого Мира 2012, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2012CupYM/120811_split.htm',
+        o_site: '2012CupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20120812_1',
+        date: '2012-08-12',
+        place: 'Ягодное',
+        name: 'Кубок Яркого Мира 2012, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2012CupYM/120812_split.htm',
+        o_site: '2012CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20120819_1',
         date: '2012-08-19',
         name: 'Ориентир-7',
@@ -857,6 +907,26 @@ let events2012 = [
         info: 'XXVI традиционный старт КСО Азимут по специальным правилам',
         start: 'GS',
         o_site: '120826_zz'
+    },
+    {
+        id: 'SPB_20120901_1',
+        date: '2012-09-01',
+        place: 'оз Пасторское',
+        name: 'Кубок Яркого Мира 2012, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2012CupYM/120901_split.htm',
+        o_site: '2012CupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20120902_1',
+        date: '2012-09-02',
+        place: 'оз Пасторское',
+        name: 'Кубок Яркого Мира 2012, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2012CupYM/120902_split.htm',
+        o_site: '2012CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20120905_1',
@@ -1284,19 +1354,8 @@ let events2012 = [
         name: 'Кубок Яркого Мира 2012',
         place: 'Первомайское, Тайвань',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/2012CupYM/2012CupYM_res-8.zip',
-        split: [
-            'splits/2012/SPB_20121028_1_1_split.htm',
-            'splits/2012/SPB_20121028_1_2_split.htm',
-            'splits/2012/SPB_20121028_1_3_split.htm',
-            'splits/2012/SPB_20121028_1_4_split.htm',
-            'splits/2012/SPB_20121028_1_5_split.htm',
-            'splits/2012/SPB_20121028_1_6_split.htm',
-            'splits/2012/SPB_20121028_1_7_split.htm',
-            'splits/2012/SPB_20121028_1_8_split.htm'
-        ],
-        info: '1 этап - 06.05 Суоранда 2 этап - 07.05 Дюны-Солнечное 3 этап - 15.07 Воейково 4 этап - 11.08 Ягодное 5 этап - 12.08 Ягодное 6 этап - 01.09 оз.Пасторское 7 этап - 02.09 оз.Пасторское финал - 28.10 п.Тайвань',
-        start: 'YM',
+        res: 'http://www.o-site.spb.ru/_races/2012CupYM/121028_split.htm',
+        start: 'YM_CUP',
         o_site: '2012CupYM'
     },
     {

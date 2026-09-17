@@ -367,6 +367,26 @@ let events2010 = [
         video: 'https://www.youtube.com/watch?v=7NII12eGm4M'
     },
     {
+        id: 'SPB_20100424_1',
+        date: '2010-04-24',
+        place: 'детские Дюны',
+        name: 'Кубок Яркого Мира 2010, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2010CupYM/100424_split.htm',
+        o_site: '2010CupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20100425_1',
+        date: '2010-04-25',
+        place: 'Дюны',
+        name: 'Кубок Яркого Мира 2010, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2010CupYM/100425_split.htm',
+        o_site: '2010CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20100501_1',
         date: '2010-05-01',
         endDate: '2010-05-03',
@@ -401,6 +421,16 @@ let events2010 = [
         o_site: '100508_2x2',
         map: '2x2_2010_05_09',
         start: '2x2'
+    },
+    {
+        id: 'SPB_20100510_1',
+        date: '2010-05-10',
+        place: 'оз.Банное',
+        name: 'Кубок Яркого Мира 2010, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2010CupYM/100510_split.htm',
+        o_site: '2010CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20100515_1',
@@ -701,6 +731,16 @@ let events2010 = [
         o_site: '10070305'
     },
     {
+        id: 'SPB_20100704_1',
+        date: '2010-07-04',
+        place: 'оз.Медное',
+        name: 'Кубок Яркого Мира 2010, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2010CupYM/100704_split.htm',
+        o_site: '2010CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20100710_1',
         date: '2010-07-10',
         place: 'Токсово',
@@ -773,6 +813,26 @@ let events2010 = [
         o_site: '10082122'
     },
     {
+        id: 'SPB_20100821_2',
+        date: '2010-08-21',
+        place: 'Мичуринское',
+        name: 'Кубок Яркого Мира 2010, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2010CupYM/100821_split.htm',
+        o_site: '2010CupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20100822_1',
+        date: '2010-08-22',
+        place: 'Мичуринское',
+        name: 'Кубок Яркого Мира 2010, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2010CupYM/100822_split.htm',
+        o_site: '2010CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20100829_1',
         date: '2010-08-29',
         place: 'Лемболово, оз Горынское',
@@ -794,6 +854,26 @@ let events2010 = [
         split: 'splits/2010/SPB_20100904_1_split.htm',
         info: 'V этап Велодрайв-О-Cup',
         o_site: '100718'
+    },
+    {
+        id: 'SPB_20100904_2',
+        date: '2010-09-04',
+        place: 'оз.Пасторское',
+        name: 'Кубок Яркого Мира 2010, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2010CupYM/100904_split.htm',
+        o_site: '2010CupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20100905_1',
+        date: '2010-09-05',
+        place: 'оз.Пасторское',
+        name: 'Кубок Яркого Мира 2010, 8-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2010CupYM/100905_split.htm',
+        o_site: '2010CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20100910_1',
@@ -878,6 +958,15 @@ let events2010 = [
         owner: 'SFSO_SPB',
         o_site: '100919',
         reskeep: 241
+    },
+    {
+        id: 'SPB_20100919_2',
+        date: '2010-09-19',
+        place: 'Мичуринское',
+        name: 'Кубок Яркого Мира 2010, 9-й этап',
+        type: 'ORIENT',
+        o_site: '2010CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20100922_1',
@@ -1021,21 +1110,8 @@ let events2010 = [
         name: 'Кубок Яркого Мира 2010',
         place: 'Воейково',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/2010CupYM/2010CupYM_res_public.zip',
-        split: [
-            'splits/2010/SPB_20101016_1_1_split.htm',
-            'splits/2010/SPB_20101016_1_2_split.htm',
-            'splits/2010/SPB_20101016_1_3_split.htm',
-            'splits/2010/SPB_20101016_1_4_split.htm',
-            'splits/2010/SPB_20101016_1_5_split.htm',
-            'splits/2010/SPB_20101016_1_6_split.htm',
-            'splits/2010/SPB_20101016_1_7_split.htm',
-            'splits/2010/SPB_20101016_1_8_split.htm',
-            'splits/2010/SPB_20101016_1_9_split.htm',
-            'splits/2010/SPB_20101016_1_10_split.htm'
-        ],
-        info: '1 этап - 24.04 детские Дюны 2 этап - 25.04 Дюны 3 этап - 10.05 оз.Банное 4 этап - 04.07 оз.Медное 5 этап - 21.08 Мичуринское 6 этап - 22.08 Мичуринское 7 этап - 04.09 оз.Пасторское 8 этап - 05.09 оз.Пасторское 9 этап - 19.09 Мичуринское ком.финал - 16.10 Воейково, эстафета-гандикап лич.финал - 17.10 Воейково, гандикап',
-        start: 'YM',
+        res: 'http://www.o-site.spb.ru/_races/2010CupYM/101016_split.htm',
+        start: 'YM_CUP',
         o_site: '2010CupYM',
         map: 'sestroretskie_detskie_djuny_2010'
     },
@@ -1058,6 +1134,16 @@ let events2010 = [
         type: 'ORIENT',
         res: 'http://gs-oc.ru/phocadownload/competitions/gs-cup/101016,17.zip',
         o_site: '100314'
+    },
+    {
+        id: 'SPB_20101017_1',
+        date: '2010-10-17',
+        place: 'Воейково',
+        name: 'Кубок Яркого Мира 2010, личный финал',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2010CupYM/101017_split1.htm',
+        o_site: '2010CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20101021_1',

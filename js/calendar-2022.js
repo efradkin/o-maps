@@ -429,7 +429,7 @@ let events2022 = [
         name: 'Техника и Тактика',
         type: 'ORIENT',
         reskeep: 531,
-        split: 'splits/2022/SPB_20220430_2_split.htm',
+        res: 'https://o-site.spb.ru/_races/2022TT/220430TT_split.htm',
         map: 'enkolovo_2021'
     },
     {
@@ -1361,6 +1361,13 @@ let events2022 = [
         split: 'splits/2022/SPB_20220702_1_split.htm'
     },
     {
+        id: 'SPB_20220703_1',
+        date: '2022-07-03',
+        name: 'Техника и Тактика',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/2022TT/220703YC_split.htm',
+    },
+    {
         id: 'SPB_20220709_1',
         date: '2022-07-09',
         endDate: '2022-07-10',
@@ -1395,16 +1402,10 @@ let events2022 = [
         place: 'Лосево',
         name: 'Яркий Кубок',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/2022TT/220723_split.htm',
-        split: [
-            'splits/2022/SPB_20220723_1_1_split.htm',
-            'splits/2022/SPB_20220723_1_2_split.htm',
-            'splits/2022/SPB_20220723_1_3_split.htm',
-            'splits/2022/SPB_20220723_1_4_split.htm',
-            'splits/2022/SPB_20220723_1_5_split.htm'
-        ],
+        res: ['https://o-site.spb.ru/_races/2022TT/220723_split.htm','https://o-site.spb.ru/_races/2022TT/220724_split.htm'],
         info: 'соревнования с элементами тренировки',
-        o_site: '2022TT'
+        o_site: '2022TT',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20220723_2',

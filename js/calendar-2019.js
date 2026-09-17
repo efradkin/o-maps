@@ -584,8 +584,9 @@ let events2019 = [
         place: 'Кузьмолово',
         name: 'Яркий Кубок 2018/2019. 4 этап',
         type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2019YC/190504_split.htm',
         reskeep: 121,
-        split: 'splits/2019/SPB_20190504_2_split.htm'
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20190505_1',
@@ -593,8 +594,9 @@ let events2019 = [
         place: 'Елизаветино',
         name: 'Яркий Кубок 2018/2019. 5 этап',
         type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2019YC/190505_split.htm',
         reskeep: 122,
-        split: 'splits/2019/SPB_20190505_1_split.htm'
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20190507_1',
@@ -1004,8 +1006,9 @@ let events2019 = [
         place: 'Луга',
         name: 'Яркий Кубок 2018/2019. 6 этап',
         type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2019YC/190612_split.htm',
         reskeep: 166,
-        split: 'splits/2019/SPB_20190612_1_split.htm'
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20190617_1',
@@ -1277,9 +1280,10 @@ let events2019 = [
         place: 'Орехово',
         name: 'Яркий Кубок 2018/2019. 7 этап',
         type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2019YC/190721_split.htm',
         reskeep: 184,
-        split: 'splits/2019/SPB_20190721_1_split.htm',
-        map: 'orekhovo_rakitinskoe_2004'
+        map: 'orekhovo_rakitinskoe_2004',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20190727_1',
@@ -1406,8 +1410,9 @@ let events2019 = [
         place: 'Кузнечное',
         name: 'Яркий Кубок 2018/2019. 8 этап',
         type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2019YC/190817_split.htm',
         reskeep: 188,
-        split: 'splits/2019/SPB_20190817_1_split.htm'
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20190818_1',
@@ -1415,8 +1420,9 @@ let events2019 = [
         place: 'Кузнечное',
         name: 'Яркий Кубок 2019/2020. 1 этап',
         type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2019YC/190818_split.htm',
         reskeep: 189,
-        split: 'splits/2019/SPB_20190818_1_split.htm'
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20190824_1',
@@ -1499,6 +1505,16 @@ let events2019 = [
         fmt: '1,5',
         link: 'https://vk.com/politech_academy',
         map: 'politekh_2022'
+    },
+    {
+        id: 'SPB_20190901_4',
+        date: '2019-09-01',
+        place: 'Румболовка',
+        name: 'Яркий Кубок 2019/2020, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2019YC/190901_split.htm',
+        o_site: '2019YC',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20190905_1',
@@ -2061,24 +2077,10 @@ let events2019 = [
         name: 'Яркий Кубок 2019',
         place: 'Гарболово',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/2019YC/YC_rang_2018-2019.zip',
-        split: [
-            'splits/2019/SPB_20191027_1_1_split.htm',
-            'splits/2019/SPB_20191027_1_2_split.htm',
-            'splits/2019/SPB_20191027_1_3_split.htm',
-            'splits/2019/SPB_20191027_1_4_split.htm',
-            'splits/2019/SPB_20191027_1_5_split.htm',
-            'splits/2019/SPB_20191027_1_6_split.htm',
-            'splits/2019/SPB_20191027_1_7_split.htm',
-            'splits/2019/SPB_20191027_1_8_split.htm',
-            'splits/2019/SPB_20191027_1_9_split.htm',
-            'splits/2019/SPB_20191027_1_10_split.htm',
-            'splits/2019/SPB_20191027_1_11_split.htm'
-        ],
-        info: 'сезон 2018-2019 1 этап – 19.08.2018 - Каменногорск, средняя 2 этап – 02.09.2018 - Гарболово, кросс, общий старт 3 этап – 28.10.2018 - Лемболово, средняя 4 этап – 04.05.2019 - Кузьмолово, лонг 5 этап – 05.05.2019 - Елизаветино, средняя 6 этап – 12.06.2019 - Луга, средняя, выбор 7 этап – 21.07.2019 - Орехово, средняя 8 этап – 17.08.2019 - Кузнечное, финал, гандикап этапы текущего сезона 2019-2020 1 этап – 18.08.2019 - Кузнечное, средняя 2 этап – 01.09.2019 - Румболовка, спринт (Ч-т и П-во Всев. р-на) 3 этап – 27.10.2019 - Гарболово, классика',
+        res: 'http://www.o-site.spb.ru/_races/2019YC/191027_split.htm',
         o_site: '2019YC',
         reskeep: 281,
-        map: 'lembolovo_2024'
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20191102_1',

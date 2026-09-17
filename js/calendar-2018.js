@@ -981,6 +981,16 @@ let events2018 = [
         map: 'kkp_trostinka_2018_06_12'
     },
     {
+        id: 'SPB_20180612_4',
+        date: '2018-06-12',
+        place: 'Орехово',
+        name: 'Яркий Кубок 2018, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2018YC/180612_split.htm',
+        o_site: '2018YC',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20180616_1',
         date: '2018-06-16',
         place: 'Алоль',
@@ -1239,8 +1249,10 @@ let events2018 = [
         place: 'Сярьги',
         name: 'Яркий Кубок 2018/2019. 3 этап. Кросс-классика',
         type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2018YC/180722_split.htm',
         reskeep: 1,
-        split: 'splits/2018/SPB_20180722_1_split.htm'
+        split: 'splits/2018/SPB_20180722_1_split.htm',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20180722_2',
@@ -1345,6 +1357,26 @@ let events2018 = [
         map: 'lembolovo_2024'
     },
     {
+        id: 'SPB_20180818_1',
+        date: '2018-08-18',
+        place: 'Каменногорск',
+        name: 'Яркий Кубок 2018, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2018YC/180818_split.htm',
+        o_site: '2018YC',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20180819_1',
+        date: '2018-08-19',
+        place: 'Каменногорск',
+        name: 'Яркий Кубок 2018/2019, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2018YC/180819_split.htm',
+        o_site: '2018YC',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20180825_1',
         date: '2018-08-25',
         name: 'History Race',
@@ -1393,8 +1425,10 @@ let events2018 = [
         place: 'Гарболово',
         name: 'Яркий Кубок. 2 этап. Общий старт',
         type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2018YC/180902_split.htm',
         reskeep: 26,
-        split: 'splits/2018/SPB_20180902_1_split.htm'
+        split: 'splits/2018/SPB_20180902_1_split.htm',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20180902_2',
@@ -2033,18 +2067,11 @@ let events2018 = [
         date: '2018-10-28',
         name: 'Яркий Кубок - 2018/2019',
         type: 'ORIENT',
-        info: '2018 1 этап - перезачет с соревнований, посв. Дню Победы 2 этап - 12.06 - п.Орехово, кросс-классика 3 этап - 22.07 - п.Сярьги, кросс-классика 4 этап - 18.08 - Каменногорск, финал, лонг этапы сезона 2018-2019 1 этап - 19.08 - Каменногорск, средняя 2 этап - 02.09 - Гарболово, общий старт - кросс 3 этап - 28.10 - Лемболово, средняя',
+        res: 'http://www.o-site.spb.ru/_races/2018YC/181028_split.htm',
         o_site: '2018YC',
-        split: [
-            'splits/2018/SPB_20181028_2_1_split.htm',
-            'splits/2018/SPB_20181028_2_2_split.htm',
-            'splits/2018/SPB_20181028_2_3_split.htm',
-            'splits/2018/SPB_20181028_2_4_split.htm',
-            'splits/2018/SPB_20181028_2_5_split.htm',
-            'splits/2018/SPB_20181028_2_6_split.htm'
-        ],
         reskeep: 69,
-        map: 'lembolovo_2024'
+        map: 'lembolovo_2024',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20181101_1',

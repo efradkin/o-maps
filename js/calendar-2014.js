@@ -328,6 +328,26 @@ let events2014 = [
         o_site: '140410'
     },
     {
+        id: 'SPB_20140412_1',
+        date: '2014-04-12',
+        place: 'Дюны',
+        name: 'Яркий Кубок 2014, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2014CupYM/140412_split.htm',
+        o_site: '2014CupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20140413_1',
+        date: '2014-04-13',
+        place: 'Колтуши',
+        name: 'Яркий Кубок 2014, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2014CupYM/140413_split.htm',
+        o_site: '2014CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20140415_1',
         date: '2014-04-15',
         place: 'Кавголово',
@@ -440,6 +460,16 @@ let events2014 = [
         o_site: '14050103'
     },
     {
+        id: 'SPB_20140504_1',
+        date: '2014-05-04',
+        place: 'Кузьмолово',
+        name: 'Яркий Кубок 2014, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2014CupYM/140504_split.htm',
+        o_site: '2014CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20140507_1',
         date: '2014-05-07',
         name: 'Sprint Tour SPb 2014, 3-й этап',
@@ -460,6 +490,16 @@ let events2014 = [
         owner: 'SFSO_SPB',
         o_site: '140509_vyz',
         map: 'lembolovo_2002'
+    },
+    {
+        id: 'SPB_20140510_1',
+        date: '2014-05-10',
+        place: 'Выборг',
+        name: 'Яркий Кубок 2014, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2014CupYM/140510_split.htm',
+        o_site: '2014CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20140513_1',
@@ -925,6 +965,16 @@ let events2014 = [
         o_site: '140607_KKM'
     },
     {
+        id: 'SPB_20140706_1',
+        date: '2014-07-06',
+        place: 'Суоранда',
+        name: 'Яркий Кубок 2014, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2014CupYM/140706_split.htm',
+        o_site: '2014CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20140712_1',
         date: '2014-07-12',
         endDate: '2014-07-13',
@@ -1013,6 +1063,26 @@ let events2014 = [
         o_site: '140607_KKM'
     },
     {
+        id: 'SPB_20140816_1',
+        date: '2014-08-16',
+        place: 'гора Башенная',
+        name: 'Яркий Кубок 2014, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2014CupYM/140816_split.htm',
+        o_site: '2014CupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20140817_1',
+        date: '2014-08-17',
+        place: 'гора Башенная',
+        name: 'Яркий Кубок 2014, 8-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2014CupYM/140817_split.htm',
+        o_site: '2014CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20140823_1',
         date: '2014-08-23',
         endDate: '2014-08-24',
@@ -1032,6 +1102,16 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/140824_ZZ/140824_res.htm',
         start: 'GS',
         o_site: '140824_ZZ'
+    },
+    {
+        id: 'SPB_20140831_1',
+        date: '2014-08-31',
+        place: 'Лемболово',
+        name: 'Яркий Кубок 2014, 9-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2014CupYM/140831_split.htm',
+        o_site: '2014CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20140904_1',
@@ -1414,23 +1494,13 @@ let events2014 = [
     {
         id: 'SPB_20141026_2',
         date: '2014-10-26',
-        name: 'Яркий Кубок',
+        name: 'Яркий Кубок. Финал',
+        place: 'Мичуринское',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/2014CupYM/141026_res.pdf',
-        split: [
-            'splits/2014/SPB_20141026_2_1_split.htm',
-            'splits/2014/SPB_20141026_2_2_split.htm',
-            'splits/2014/SPB_20141026_2_3_split.htm',
-            'splits/2014/SPB_20141026_2_4_split.htm',
-            'splits/2014/SPB_20141026_2_5_split.htm',
-            'splits/2014/SPB_20141026_2_6_split.htm',
-            'splits/2014/SPB_20141026_2_7_split.htm',
-            'splits/2014/SPB_20141026_2_8_split.htm',
-            'splits/2014/SPB_20141026_2_9_split.htm'
-        ],
-        info: '1 этап - 12.04 Дюны 2 этап - 12.04 Колтуши 3 этап - 04.05 Кузьмолово 4 этап - 10.05 Выборг, Сайменские дачи 5 этап - 22.06 (в рамках фест. БелыеНочи) 6 этап - 06.07 п.Суоранда, выбор 7 этап - 16.08 гора Башенная 8 этап - 17.08 гора Башенная 9 этап - 31.08 Лемболово (ЧиП Всев. р-на, приз газеты Всев. вести) 10 этап - 14.09, зачет с ЧиП ЛО финал - 26.10 Мичуринское',
+        res: 'http://www.o-site.spb.ru/_races/2014CupYM/141026_split.htm',
         o_site: '2014CupYM',
-        map: 'lembolovo_2002'
+        map: 'lembolovo_2002',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20141029_1',

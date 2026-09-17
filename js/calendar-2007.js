@@ -297,7 +297,7 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070422/070422_res.zip',
         info: 'Двенадцатые традиционные массовые многоэтапные соревнования по спортивному ориентированию на призы сети магазинов «Яркий Мир»',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '070422'
     },
     {
@@ -640,7 +640,7 @@ let events2007 = [
         name: 'Кубок Яркого Мира, 3-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070708/070708_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '070708',
         map: 'orekhovo_rakitinskoe_2004'
     },
@@ -690,7 +690,7 @@ let events2007 = [
         name: '4-ый этап Кубка Яркого Мира',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070804/07080405_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '070804'
     },
     {
@@ -700,7 +700,7 @@ let events2007 = [
         name: '5-ый этап Кубка Яркого Мира',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070804/07080405_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '070805'
     },
     {
@@ -746,7 +746,7 @@ let events2007 = [
         name: 'Кубок Яркого Мира, 6-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070901/070901_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '070901'
     },
     {
@@ -757,7 +757,7 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070902/070902_res.zip',
         split: 'splits/2007/SPB_20070902_1_split.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '070902'
     },
     {

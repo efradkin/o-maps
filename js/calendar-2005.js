@@ -109,7 +109,7 @@ let events2005 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050307/1e-predv.htm',
         fmt: 'выбор с раздельного старта',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '050307',
         map: 'vsevolozhsk_rumbolovo_2001'
     },
@@ -204,7 +204,7 @@ let events2005 = [
         name: 'Кубок Яркого Мира, 2-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050424/YM_et2res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '050424'
     },
     {
@@ -234,7 +234,7 @@ let events2005 = [
         name: 'Кубок Яркого Мира, 3-4-й этапы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050501/34YMres.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '050501'
     },
     {
@@ -434,7 +434,7 @@ let events2005 = [
         name: 'Кубок Яркого Мира, 6-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050703_ym/ym_et6_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '050703_ym'
     },
     {
@@ -500,7 +500,7 @@ let events2005 = [
         name: 'Кубок Яркого Мира, 7-8-й этапы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050806ym/ym_et7et8_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '050806ym'
     },
     {
@@ -520,7 +520,7 @@ let events2005 = [
         name: 'Кубок Яркого Мира, 9-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050904_ym/ym_et9_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '050904_ym'
     },
     {
@@ -677,7 +677,7 @@ let events2005 = [
         name: 'Кубок Яркого Мира, Финал',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051016/051016_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '051016'
     },
     {

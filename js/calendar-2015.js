@@ -530,6 +530,16 @@ let events2015 = [
         map: 'vsevolozhsk_2015'
     },
     {
+        id: 'SPB_20150510_2',
+        date: '2015-05-10',
+        place: 'Петяярви',
+        name: 'Яркий Кубок 2015, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2015CupYM/150510_split.htm',
+        o_site: '2015CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20150511_1',
         date: '2015-05-11',
         place: 'Баболовский парк',
@@ -539,6 +549,16 @@ let events2015 = [
         o_site: '150511',
         map: 'pushkin_babolovsky_2019',
         map: 'pushkin_babolovsky_2019'
+    },
+    {
+        id: 'SPB_20150511_2',
+        date: '2015-05-11',
+        place: 'Токсово',
+        name: 'Яркий Кубок 2015, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2015CupYM/150511_split.htm',
+        o_site: '2015CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20150513_1',
@@ -923,6 +943,16 @@ let events2015 = [
         o_site: '15070405'
     },
     {
+        id: 'SPB_20150705_1',
+        date: '2015-07-05',
+        place: 'Цвелодубово',
+        name: 'Яркий Кубок 2015, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2015CupYM/150705_split.htm',
+        o_site: '2015CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20150711_1',
         date: '2015-07-11',
         endDate: '2015-07-12',
@@ -1016,6 +1046,16 @@ let events2015 = [
         map: 'lembolovo_2024'
     },
     {
+        id: 'SPB_20150815_1',
+        date: '2015-08-15',
+        place: 'оз Воробьево',
+        name: 'Яркий Кубок 2015, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2015CupYM/150815_split.htm',
+        o_site: '2015CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20150816_1',
         date: '2015-08-16',
         place: 'Зеленогорск',
@@ -1026,6 +1066,16 @@ let events2015 = [
         split: 'splits/2015/SPB_20150816_1_split.htm',
         o_site: '150816_velo',
         start: '100x24'
+    },
+    {
+        id: 'SPB_20150816_2',
+        date: '2015-08-16',
+        place: 'оз Воробьево',
+        name: 'Яркий Кубок 2015, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2015CupYM/150816_split.htm',
+        o_site: '2015CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20150823_1',
@@ -1060,6 +1110,16 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150829/150829_res.pdf',
         split: 'splits/2015/SPB_20150829_1_split.rar',
         o_site: '150829'
+    },
+    {
+        id: 'SPB_20150830_1',
+        date: '2015-08-30',
+        place: 'Кузьмоловский',
+        name: 'Яркий Кубок 2015, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2015CupYM/150830_split.htm',
+        o_site: '2015CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20150905_1',
@@ -1414,19 +1474,11 @@ let events2015 = [
         id: 'SPB_20151018_3',
         date: '2015-10-18',
         name: 'Яркий Кубок 2015',
+        place: 'Первомайское',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/2015CupYM/150511_res_official.pdf',
-        split: [
-            'splits/2015/SPB_20151018_3_1_split.htm',
-            'splits/2015/SPB_20151018_3_2_split.htm',
-            'splits/2015/SPB_20151018_3_3_split.htm',
-            'splits/2015/SPB_20151018_3_4_split.htm',
-            'splits/2015/SPB_20151018_3_5_split.htm',
-            'splits/2015/SPB_20151018_3_6_split.htm',
-            'splits/2015/SPB_20151018_3_7_split.htm'
-        ],
-        info: '1 этап - 10 мая, Петяярви, лонг 2 этап - 11 мая, Токсово, оз. Светлое, средняя 3 этап - 05 июля, п.Цвелодубово, средняя 4 этап - 15 августа, оз. Воробьево, лонг 5 этап - 16 августа, оз. Воробьево, средняя 6 этап - 30 августа, п. Кузьмоловский (Охта-парк), лонг финал - 18 октября, п.Первомайское, гандикап, лонг',
-        o_site: '2015CupYM'
+        res: 'http://www.o-site.spb.ru/_races/2015CupYM/151018_split.htm',
+        o_site: '2015CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20151021_1',

@@ -601,11 +601,12 @@ let events2023 = [
         place: 'Энколово',
         name: 'Яркий Кубок',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/230501/230501_res_official.pdf',
+        res: 'https://o-site.spb.ru/_races/230501/230501_split.htm',
         split: 'splits/2023/SPB_20230501_1_split.htm',
         info: 'Официальные соревнования с выполнением разрядов.',
         o_site: '230501',
-        map: 'enkolovo_2021'
+        map: 'enkolovo_2021',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20230501_2',
@@ -1451,17 +1452,17 @@ let events2023 = [
         id: 'SPB_20230812_1',
         date: '2023-08-12',
         endDate: '2023-08-13',
-        name: 'Яркий Кубок 192',
+        name: 'Яркий Кубок 192, Техника и Тактика 1',
         place: 'Лосево',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/23081213/230812_split.htm',
+        res: ['https://o-site.spb.ru/_races/23081213/230812_split.htm','https://o-site.spb.ru/_races/23081213/230813_split-67-70-71.htm'],
         split: [
             'splits/2023/SPB_20230812_1_1_split.htm',
             'splits/2023/SPB_20230812_1_2_split.htm'
         ],
-        info: '12 августа - "Яркий Кубок - 192" - кросс-лонг 13 августа - "Техника и Тактика 1" - комбинированные дистанции, классика',
         o_site: '23081213',
-        reskeep: [607, 608]
+        reskeep: [607, 608],
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20230812_2',

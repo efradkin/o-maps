@@ -307,6 +307,26 @@ let events2009 = [
         o_site: '0906cup110'
     },
     {
+        id: 'SPB_20090425_1',
+        date: '2009-04-25',
+        place: 'Воейково',
+        name: 'Кубок Яркого Мира 2009, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/09cupYM/090425_split.htm',
+        o_site: '09cupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20090426_1',
+        date: '2009-04-26',
+        place: 'Воейково',
+        name: 'Кубок Яркого Мира 2009, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/09cupYM/090426_split.htm',
+        o_site: '09cupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20090501_1',
         date: '2009-05-01',
         endDate: '2009-05-03',
@@ -349,6 +369,16 @@ let events2009 = [
         res: 'http://o-time.ru/content/view/388/28/',
         fmt: 'Заданное направление, масс-старт',
         o_site: '090509_mtb'
+    },
+    {
+        id: 'SPB_20090510_1',
+        date: '2009-05-10',
+        place: 'Токсово',
+        name: 'Кубок Яркого Мира 2009, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/09cupYM/090510_split.htm',
+        o_site: '09cupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20090511_1',
@@ -509,6 +539,26 @@ let events2009 = [
         start: 'RUSSIA_ROGAINE_CHAMP',
         o_site: '090530_rog',
         map: 'kuznechnoe_2009'
+    },
+    {
+        id: 'SPB_20090530_3',
+        date: '2009-05-30',
+        place: 'Петяярви',
+        name: 'Кубок Яркого Мира 2009, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/09cupYM/090530_split.htm',
+        o_site: '09cupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20090531_1',
+        date: '2009-05-31',
+        place: 'Петяярви',
+        name: 'Кубок Яркого Мира 2009, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/09cupYM/090531_split.htm',
+        o_site: '09cupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20090603_1',
@@ -681,6 +731,16 @@ let events2009 = [
         o_site: '090070406'
     },
     {
+        id: 'SPB_20090705_1',
+        date: '2009-07-05',
+        place: 'пл.69км',
+        name: 'Кубок Яркого Мира 2009, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/09cupYM/090705_split.htm',
+        o_site: '09cupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20090712_1',
         date: '2009-07-12',
         place: 'Будогощь',
@@ -803,6 +863,26 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090830/090830_res.htm',
         start: 'GS',
         o_site: '090830'
+    },
+    {
+        id: 'SPB_20090905_1',
+        date: '2009-09-05',
+        place: 'Ягодное',
+        name: 'Кубок Яркого Мира 2009, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/09cupYM/090905_split.htm',
+        o_site: '09cupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20090906_1',
+        date: '2009-09-06',
+        place: 'Ягодное',
+        name: 'Кубок Яркого Мира 2009, 8-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/09cupYM/090906_split.htm',
+        o_site: '09cupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20090912_1',
@@ -1089,20 +1169,8 @@ let events2009 = [
         name: 'Кубок Яркого Мира 2009',
         place: 'Мичуринское',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/09cupYM/09cupYM_res.zip',
-        split: [
-            'splits/2009/SPB_20091101_1_1_split.htm',
-            'splits/2009/SPB_20091101_1_2_split.htm',
-            'splits/2009/SPB_20091101_1_3_split.htm',
-            'splits/2009/SPB_20091101_1_4_split.htm',
-            'splits/2009/SPB_20091101_1_5_split.htm',
-            'splits/2009/SPB_20091101_1_6_split.htm',
-            'splits/2009/SPB_20091101_1_7_split.htm',
-            'splits/2009/SPB_20091101_1_8_split.htm',
-            'splits/2009/SPB_20091101_1_9_split.htm'
-        ],
-        info: '1 этап - 25.04 Воейково 2 этап - 26.04 Воейково 3 этап - 10.05 Токсово 4 этап - 30.05 Петяярви 5 этап - 31.05 Петяярви 6 этап - 05.07 пл.69км 7 этап - 05.09 Ягодное 8 этап - 06.09 Ягодное финал - 01.11 Мичуринское',
-        start: 'YM',
+        res: 'http://www.o-site.spb.ru/_races/09cupYM/091101_split.htm',
+        start: 'YM_CUP',
         o_site: '09cupYM'
     },
     {

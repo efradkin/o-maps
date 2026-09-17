@@ -305,6 +305,16 @@ let events2011 = [
         o_site: '110327_Or'
     },
     {
+        id: 'SPB_20110424_1',
+        date: '2011-04-24',
+        place: 'Энколово',
+        name: 'Кубок Яркого Мира 2011, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2011CupYM/110424_split.htm',
+        o_site: '2011CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20110430_1',
         date: '2011-04-30',
         endDate: '2011-05-02',
@@ -354,6 +364,16 @@ let events2011 = [
         info: 'Соревнования, посвящённые Дню Победы:открытое п-во Всеволожского р-на, 2-й этап Кубка Яркого Мира.',
         o_site: '110509_',
         owner: 'AZIMUT'
+    },
+    {
+        id: 'SPB_20110509_2',
+        date: '2011-05-09',
+        place: 'Охта-Парк',
+        name: 'Кубок Яркого Мира 2011, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2011CupYM/110509_split.htm',
+        o_site: '2011CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20110511_1',
@@ -699,6 +719,16 @@ let events2011 = [
         o_site: '110709'
     },
     {
+        id: 'SPB_20110716_1',
+        date: '2011-07-16',
+        place: 'Цвелодубово',
+        name: 'Кубок Яркого Мира 2011, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2011CupYM/110716_split.htm',
+        o_site: '2011CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20110717_1',
         date: '2011-07-17',
         place: 'Орехово',
@@ -759,6 +789,16 @@ let events2011 = [
         map: 'toksovo_malinovaya_gora_1997'
     },
     {
+        id: 'SPB_20110813_1',
+        date: '2011-08-13',
+        place: 'Ягодное',
+        name: 'Кубок Яркого Мира 2011, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2011CupYM/110813_split.htm',
+        o_site: '2011CupYM',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20110814_1',
         date: '2011-08-14',
         place: 'Кузьмолово',
@@ -766,6 +806,16 @@ let events2011 = [
         type: 'ROGAINE',
         fmt: '3 часа',
         start: 'ROGAINE_110'
+    },
+    {
+        id: 'SPB_20110814_2',
+        date: '2011-08-14',
+        place: 'Ягодное',
+        name: 'Кубок Яркого Мира 2011, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2011CupYM/110814_split.htm',
+        o_site: '2011CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20110821_1',
@@ -795,6 +845,26 @@ let events2011 = [
         owner: 'AZIMUT',
         start: 'ORIENTIR',
         o_site: '110327_Or'
+    },
+    {
+        id: 'SPB_20110903_1',
+        date: '2011-09-03',
+        place: 'Токсово',
+        name: 'Кубок Яркого Мира 2011, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2011CupYM/110903_split.htm',
+        o_site: '2011CupYM',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20110904_1',
+        date: '2011-09-04',
+        place: 'Токсово',
+        name: 'Кубок Яркого Мира 2011, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2011CupYM/110904_split.htm',
+        o_site: '2011CupYM',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20110907_1',
@@ -1125,19 +1195,8 @@ let events2011 = [
         name: 'Кубок Яркого Мира 2011',
         place: 'Первомайское',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/2011CupYM/2011CupYM_res.zip',
-        split: [
-            'splits/2011/SPB_20111030_1_1_split.htm',
-            'splits/2011/SPB_20111030_1_2_split.htm',
-            'splits/2011/SPB_20111030_1_3_split.htm',
-            'splits/2011/SPB_20111030_1_4_split.htm',
-            'splits/2011/SPB_20111030_1_5_split.htm',
-            'splits/2011/SPB_20111030_1_6_split.htm',
-            'splits/2011/SPB_20111030_1_7_split.htm',
-            'splits/2011/SPB_20111030_1_8_split.htm'
-        ],
-        info: '1 этап - 24.04 Энколово 2 этап - 09.05 Охта-Парк 3 этап - 16.07 Цвелодубово 4 этап - 13.08 Ягодное 5 этап - 14.08 Ягодное 6 этап - 03.09 Токсово 7 этап - 04.09 Токсово 8 этап - 16.10 (перезачет средней дистанции Ч-та СПб) финал - 30.10 Первомайское',
-        start: 'YM',
+        res: 'http://www.o-site.spb.ru/_races/2011CupYM/111030_split.htm',
+        start: 'YM_CUP',
         o_site: '2011CupYM'
     },
     {

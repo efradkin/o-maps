@@ -725,6 +725,16 @@ let events2017 = [
         o_site: '170507FT'
     },
     {
+        id: 'SPB_20170508_1',
+        date: '2017-05-08',
+        place: 'оз Журавлево',
+        name: 'Яркий Кубок 2017, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2017YC/170508_split.htm',
+        o_site: '2017YC',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20170509_1',
         date: '2017-05-09',
         place: 'Орехово',
@@ -763,6 +773,16 @@ let events2017 = [
         ],
         owner: 'SFSO_LO',
         o_site: '17042901'
+    },
+    {
+        id: 'SPB_20170514_1',
+        date: '2017-05-14',
+        place: 'Гарболово',
+        name: 'Яркий Кубок 2017, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2017YC/170514_split.htm',
+        o_site: '2017YC',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20170517_1',
@@ -1080,6 +1100,16 @@ let events2017 = [
         map: ['ym_2017_michurinskoe_city_sprint', 'ym_2017_yagodnoe_klassika', 'ym_2017_yagodnoe_vybor', 'ym_2017_yagodnoe_sprint_final', 'ym_2017_yagodnoe_sprint_prolog', 'ym_2017_yagodnoe_klassika2', 'ym_2017_yagodnoe_sprint']
     },
     {
+        id: 'SPB_20170612_3',
+        date: '2017-06-12',
+        place: 'Мичуринское',
+        name: 'Яркий Кубок 2017, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2017YC/170612S_split.htm',
+        o_site: '2017YC',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20170617_1',
         date: '2017-06-17',
         name: 'Велорогейн 100x24, 3й этап Кубка Всеволожского р-на',
@@ -1165,6 +1195,16 @@ let events2017 = [
         owner: 'SFSO_SPB',
         o_site: '170702',
         map: 'voejkovo_velo'
+    },
+    {
+        id: 'SPB_20170702_2',
+        date: '2017-07-02',
+        place: 'Гарболово',
+        name: 'Яркий Кубок 2017, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2017YC/170702_split.htm',
+        o_site: '2017YC',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20170708_1',
@@ -1292,6 +1332,26 @@ let events2017 = [
         fmt: '6'
     },
     {
+        id: 'SPB_20170819_1',
+        date: '2017-08-19',
+        place: 'Первомайское',
+        name: 'Яркий Кубок 2017, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2017YC/170819_split.htm',
+        o_site: '2017YC',
+        start: 'YM_CUP'
+    },
+    {
+        id: 'SPB_20170820_1',
+        date: '2017-08-20',
+        place: 'Первомайское',
+        name: 'Яркий Кубок 2017, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2017YC/170820_split.htm',
+        o_site: '2017YC',
+        start: 'YM_CUP'
+    },
+    {
         id: 'SPB_20170826_1',
         date: '2017-08-26',
         name: 'History Race 2017',
@@ -1324,6 +1384,16 @@ let events2017 = [
         info: 'Ежегодные соревнования Памяти Димы Фатидинова',
         o_site: '170827',
         map: 'lembolovo_2024'
+    },
+    {
+        id: 'SPB_20170902_1',
+        date: '2017-09-02',
+        place: 'Орехово',
+        name: 'Яркий Кубок 2017, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/2017YC/170902_split.htm',
+        o_site: '2017YC',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20170903_1',
@@ -1769,21 +1839,12 @@ let events2017 = [
         id: 'SPB_20171029_1',
         date: '2017-10-29',
         name: 'Яркий Кубок 2017',
+        place: 'Первомайское',
         type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/2017YC/2017YC_all_etaps.zip',
-        split: [
-            'splits/2017/SPB_20171029_1_1_split.htm',
-            'splits/2017/SPB_20171029_1_2_split.htm',
-            'splits/2017/SPB_20171029_1_3_split.htm',
-            'splits/2017/SPB_20171029_1_4_split.htm',
-            'splits/2017/SPB_20171029_1_5_split.htm',
-            'splits/2017/SPB_20171029_1_6_split.htm',
-            'splits/2017/SPB_20171029_1_7_split.htm',
-            'splits/2017/SPB_20171029_1_8_split.htm'
-        ],
+        res: 'http://www.o-site.spb.ru/_races/2017YC/171029_split.htm',
         photo: 'http://vk.com/club128591100',
-        info: '1 этап - 08.05 - оз.Журавлево, лонг 2 этап - 14.05 - п.Гарболово, средняя 3 этап - 12.06 - п.Мичуринское, городской спринт 4 этап - 02.07 - п.Гарболово, средняя 5 этап - 19.08 - Первомайское, кросс 6 этап - 20.08 - Первомайское, средняя 7 этап - 02.09 - Орехово, кросс, общ.старт финал - 29.10 - Первомайское, лонг, гандикап',
-        o_site: '2017YC'
+        o_site: '2017YC',
+        start: 'YM_CUP'
     },
     {
         id: 'SPB_20171029_2',

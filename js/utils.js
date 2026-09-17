@@ -1836,27 +1836,33 @@ function buildCouches(evt) {
 function buildEventResults(evt) {
     let res = '';
     if (evt.res) {
-        if (evt.res.includes('orgeo')) {
-            res += buildLink(evt.res, 'Orgeo');
-        } else if (evt.res.includes('o-site')) {
-            res += buildLink(evt.res, 'O-Site');
-        } else if (evt.res.includes('o-time')) {
-            res += buildLink(evt.res, 'O-Time');
-        } else if (evt.res.includes('multsport')) {
-            res += buildLink(evt.res, 'Multsport');
-        } else if (evt.res.includes('sportident')) {
-            res += buildLink(evt.res, 'Sportident');
-        } else if (evt.res.includes('vk.com') || evt.res.includes('vk.ru')) {
-            res += buildLink(evt.res, 'VK');
-        } else if (evt.res.includes('reskeep')) {
-            res += buildLink(evt.res, 'Reskeep');
-        } else if (evt.res.includes('t.me')) {
-            res += buildLink(evt.res, 'Telegram');
-        } else if (evt.res.includes('hard')) {
-            res += buildLink(evt.res, 'HARD');
-        } else {
-            let iconExt = downloadIconExt(evt.res);
-            res += buildLink(evt.res, `<img src="./images/${iconExt}-file.png" alt="Результаты" title="Результаты" class="sheet-icon" />`);
+        let results = evt.res;
+        if (!Array.isArray(evt.res)) {
+            results = [evt.res];
+        }
+        for (const r of results) {
+            if (r.includes('orgeo')) {
+                res += buildLink(r, 'Orgeo');
+            } else if (r.includes('o-site')) {
+                res += buildLink(r, 'O-Site');
+            } else if (r.includes('o-time')) {
+                res += buildLink(r, 'O-Time');
+            } else if (r.includes('multsport')) {
+                res += buildLink(r, 'Multsport');
+            } else if (r.includes('sportident')) {
+                res += buildLink(r, 'Sportident');
+            } else if (r.includes('vk.com') || r.includes('vk.ru')) {
+                res += buildLink(r, 'VK');
+            } else if (r.includes('reskeep')) {
+                res += buildLink(r, 'Reskeep');
+            } else if (r.includes('t.me')) {
+                res += buildLink(r, 'Telegram');
+            } else if (r.includes('hard')) {
+                res += buildLink(r, 'HARD');
+            } else {
+                let iconExt = downloadIconExt(r);
+                res += buildLink(r, `<img src="./images/${iconExt}-file.png" alt="Результаты" title="Результаты" class="sheet-icon" />`);
+            }
         }
     }
     if (evt.split) {

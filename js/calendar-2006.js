@@ -203,7 +203,7 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/060423_ym/060423_res.zip',
         split: 'splits/2006/SPB_20060423_1_split.htm',
         info: '1-й этап популярных соревнований. Возрастные группы:МЖ 10 12 14 16 18 21а 21б 40 50 60 М45 М55, гр.7-8 лет без зачета в Кубок',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '060423_ym'
     },
     {
@@ -229,7 +229,7 @@ let events2006 = [
         res: 'https://o-site.spb.ru/_races/060429_Kir/result-SZFO.rar',
         info: 'Открытый кубок СЗФО, Открытый чемпионат и первенство Ленинградской области, Второй этап Кубка Яркого Мира',
         owner: 'SFSO_LO',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '060429_Kir'
     },
     {
@@ -250,7 +250,7 @@ let events2006 = [
         name: 'Кубок Яркого Мира, 3-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/060508_ym/060508_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '060508_ym'
     },
     {
@@ -491,7 +491,7 @@ let events2006 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/060702/060702_res.htm',
         info: '5-й этап популярных соревнований',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '060702'
     },
     {
@@ -527,7 +527,7 @@ let events2006 = [
         name: 'Кубок Яркого Мира, 6-й и 7-й этапы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/06080506/6-7etap_res.rar',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '06080506'
     },
     {
@@ -559,7 +559,7 @@ let events2006 = [
         name: 'Кубок Яркого Мира, 8-й и 10-й этапы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/06090203/8-10etaps_res.rar',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '06090203'
     },
     {
@@ -702,7 +702,7 @@ let events2006 = [
         name: 'Кубок Яркого Мира, Финал',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/061015_ym/final-2006.rar',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '061015_ym'
     },
     {

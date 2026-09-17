@@ -234,7 +234,7 @@ let events2008 = [
         name: 'Кубок Яркого Мира, 1-й и 2-й этапы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/08042627/YM_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '08042627'
     },
     {
@@ -330,7 +330,7 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080511/080511_res.zip',
         split: 'splits/2008/SPB_20080511_1_split.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '080511'
     },
     {
@@ -561,7 +561,7 @@ let events2008 = [
         name: 'Кубок Яркого Мира, 4-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080706/080706_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '080706'
     },
     {
@@ -608,7 +608,7 @@ let events2008 = [
         name: 'Кубок Яркого Мира - 5, 6 этапы',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/08080203/08080203_res.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '08080203'
     },
     {
@@ -673,7 +673,7 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080906/et7-8_res.zip',
         split: 'splits/2008/SPB_20080906_1_split.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '080906'
     },
     {
@@ -684,7 +684,7 @@ let events2008 = [
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/080906/et7-8_res.zip',
         split: 'splits/2008/SPB_20080907_1_split.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '080907'
     },
     {
@@ -821,7 +821,7 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/081005/final_res.zip',
         split: 'splits/2008/SPB_20081005_1_split.zip',
-        start: 'YM',
+        start: 'YM_CUP',
         o_site: '081005'
     },
     {

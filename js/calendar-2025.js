@@ -1766,15 +1766,16 @@ let events2025 = [
         date: '2025-08-09',
         endDate: '2025-08-10',
         place: 'Первомайское, Семейные оз',
-        name: '«Яркий Кубок» и «Техника и Тактика»',
+        name: 'Яркий Кубок, Техника и Тактика',
         type: 'ORIENT',
         o_site: '25080910',
+        res: ['https://o-site.spb.ru/_races/25080910/250809_split.htm','https://o-site.spb.ru/_races/25080910/250810_split.htm'],
         split: [
             'splits/2025/SPB_20250809_3_1_split.htm',
             'splits/2025/SPB_20250809_3_2_split.htm'
         ],
         reskeep: [752, 753],
-        start: 'YM',
+        start: 'YM_CUP',
         map: 'pervomayskoe_2021'
     },
     {
