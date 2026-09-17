@@ -1410,7 +1410,6 @@ let events2018 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList13092018.htm',
         o_site: '2018_KS',
-        endDate: '2018-10-31',
         map: 'toksovo_malinovaya_gora_2018'
     },
     {

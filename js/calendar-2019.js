@@ -1503,7 +1503,6 @@ let events2019 = [
         reg: 'http://orgeo.ru/event/info/10295',
         res: 'http://o-site.spb.ru/_races/190905/190905_split.html',
         o_site: '190905',
-        endDate: '2019-10-31',
         reskeep: [193, 213, 217, 218, 219, 220]
     },
     {

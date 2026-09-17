@@ -276,7 +276,6 @@ let events2014 = [
         res: 'http://o-site.spb.ru/_races/140409/140409_res.htm',
         start: 'ST',
         o_site: '140409',
-        endDate: '2014-10-31'
     },
     {
         id: 'SPB_20140401_2',
@@ -286,7 +285,6 @@ let events2014 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140410/141023_res.htm',
         o_site: '140410',
-        endDate: '2014-10-31'
     },
     {
         id: 'SPB_20140401_3',
