@@ -203,7 +203,6 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190302_split.htm',
         reskeep: 127,
-        split: 'splits/2019/SPB_20190302_2_split.htm',
         owner: 'WN'
     },
     {
@@ -275,7 +274,6 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190310_split.htm',
         reskeep: 126,
-        split: 'splits/2019/SPB_20190310_3_split.htm',
         owner: 'WN'
     },
     {
@@ -286,7 +284,6 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190316_split.htm',
         reskeep: 125,
-        split: 'splits/2019/SPB_20190316_1_split.htm',
         map: 'orovo_2019',
         owner: 'WN'
     },
@@ -344,7 +341,6 @@ let events2019 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 110,
-        split: 'splits/2019/SPB_20190410_1_split.htm',
         map: 'big_okhta_2017'
     },
     {
@@ -366,7 +362,6 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190413_split.htm',
         reskeep: 124,
-        split: 'splits/2019/SPB_20190413_2_split.htm',
         map: 'zelenogorsk_schuchye_2020',
         owner: 'WN'
     },
@@ -389,7 +384,6 @@ let events2019 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 112,
-        split: 'splits/2019/SPB_20190417_1_split.htm'
     },
     {
         id: 'SPB_20190420_1',
@@ -460,10 +454,6 @@ let events2019 = [
         name: 'Выборгская тройка 2019. 1 день',
         type: 'ORIENT',
         reskeep: [116, 117],
-        split: [
-            'splits/2019/SPB_20190426_2_1_split.htm',
-            'splits/2019/SPB_20190426_2_2_split.htm'
-        ]
     },
     {
         id: 'SPB_20190427_1',
@@ -510,7 +500,6 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190428_split.htm',
         reskeep: 123,
-        split: 'splits/2019/SPB_20190428_1_split.htm',
         map: 'petjajarvy_2024',
         owner: 'WN'
     },
@@ -717,7 +706,6 @@ let events2019 = [
         name: 'RunLab - Sprint',
         type: 'ORIENT',
         reskeep: 133,
-        split: 'splits/2019/SPB_20190515_2_split.htm'
     },
     {
         id: 'SPB_20190518_1',
@@ -888,7 +876,6 @@ let events2019 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 143,
-        split: 'splits/2019/SPB_20190529_1_split.htm'
     },
     {
         id: 'SPB_20190601_1',
@@ -898,7 +885,6 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190601_split.htm',
         reskeep: 146,
-        split: 'splits/2019/SPB_20190601_1_split.htm',
         owner: 'WN'
     },
     {
@@ -1292,7 +1278,6 @@ let events2019 = [
         name: 'Кубок Белых Ночей. 16 этап',
         type: 'ORIENT',
         reskeep: 182,
-        split: 'splits/2019/SPB_20190727_1_split.htm',
         map: 'vorobjevo_2024',
         owner: 'WN'
     },
@@ -1315,7 +1300,6 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190728_split.htm',
         reskeep: 183,
-        split: 'splits/2019/SPB_20190728_2_split.htm',
         map: 'vorobjevo_2024',
         owner: 'WN'
     },
@@ -1374,10 +1358,6 @@ let events2019 = [
         name: 'Sprint Camp 2019. 1 день. Утро',
         type: 'ORIENT',
         reskeep: [185, 186],
-        split: [
-            'splits/2019/SPB_20190810_2_1_split.htm',
-            'splits/2019/SPB_20190810_2_2_split.htm'
-        ],
         start: 'ST',
         map: 'petrogradskaya_2016'
     },
@@ -1388,7 +1368,6 @@ let events2019 = [
         name: 'Sprint Camp 2019. 2 день',
         type: 'ORIENT',
         reskeep: 187,
-        split: 'splits/2019/SPB_20190811_1_split.htm',
         start: 'ST',
         map: 'petrogradskaya_2016'
     },
@@ -1400,7 +1379,6 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190811_split.htm',
         reskeep: 191,
-        split: 'splits/2019/SPB_20190811_2_split.htm',
         map: 'oselki_2015',
         owner: 'WN'
     },
@@ -1683,7 +1661,6 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/1909-12/190922_split_MT.htm',
         reskeep: 201,
-        split: 'splits/2019/SPB_20190921_3_split.htm'
     },
     {
         id: 'SPB_20190922_1',
@@ -1864,7 +1841,6 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1093',
         res: 'https://o-site.spb.ru/_races/191006/061019_rez.htm',
-        split: 'splits/2019/SPB_20191006_1_split.htm',
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_middle',
         owner: 'SFSO_SPB',
         o_site: '191006',
@@ -1944,7 +1920,6 @@ let events2019 = [
         place: 'Болотная станция',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191012_1/Stud_Res.pdf',
-        split: 'splits/2019/SPB_20191012_4_split.htm',
         owner: 'SFSO_SPB',
         o_site: '191012_1',
         reskeep: 274
@@ -1990,10 +1965,6 @@ let events2019 = [
         name: 'Золотая осень',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191019-20/res1.htm',
-        split: [
-            'splits/2019/SPB_20191019_1_1_split.htm',
-            'splits/2019/SPB_20191019_1_2_split.htm'
-        ],
         owner: 'VYBORG',
         o_site: '191019-20',
         reskeep: [279, 280]
@@ -2176,7 +2147,6 @@ let events2019 = [
         place: 'Токсово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191110_markir/191110_110_rez.htm',
-        split: 'splits/2019/SPB_20191110_1_split.htm',
         start: 'ROGAINE_110',
         o_site: '191110_markir',
         reskeep: 288
@@ -2349,7 +2319,6 @@ let events2019 = [
         name: 'Снежная Тропа, 2-й этап',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191215/res1.htm',
-        split: 'splits/2019/SPB_20191215_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '191215',
         reskeep: 290,
@@ -2391,7 +2360,6 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://reg.o-time.ru/start.php?event=19236',
         res: 'http://reg.o-time.ru/result/19236.htm',
-        split: 'splits/2019/SPB_20191229_2_split.htm',
         photo: 'http://vk.com/im?peers=6458237_1999448&sel=45910846&z=album-134105684_267848134',
         o_site: '191229_o',
         reskeep: 294,

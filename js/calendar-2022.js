@@ -246,7 +246,6 @@ let events2022 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/220604_PMC/220409_split.htm',
         reskeep: 510,
-        split: 'splits/2022/SPB_20220409_1_split.htm',
         map: 'osinovaja_roscha_2018'
     },
     {
@@ -367,7 +366,6 @@ let events2022 = [
         map: 'orovo_2019',
         owner: 'WN',
         reskeep: 529,
-        split: 'splits/2022/SPB_20220423_3_split.htm'
     },
     {
         id: 'SPB_20220423_5',
@@ -420,7 +418,6 @@ let events2022 = [
         map: 'petjajarvy_2024',
         owner: 'WN',
         reskeep: 528,
-        split: 'splits/2022/SPB_20220430_1_split.htm'
     },
     {
         id: 'SPB_20220430_2',
@@ -468,7 +465,6 @@ let events2022 = [
         res: 'http://o-site.spb.ru/_races/2022BN/220501_split.htm',
         owner: 'WN',
         reskeep: 511,
-        split: 'splits/2022/SPB_20220501_2_split.htm',
         map: 'pukhtolova_gora_2023'
     },
     {
@@ -482,7 +478,6 @@ let events2022 = [
         map: 'voejkovo_2022',
         owner: 'WN',
         reskeep: 530,
-        split: 'splits/2022/SPB_20220503_1_split.htm'
     },
     {
         id: 'SPB_20220506_1',
@@ -639,7 +634,6 @@ let events2022 = [
         map: 'stekljanny_2021',
         owner: 'WN',
         reskeep: 525,
-        split: 'splits/2022/SPB_20220514_4_split.htm'
     },
     {
         id: 'SPB_20220515_1',
@@ -926,7 +920,6 @@ let events2022 = [
         res: 'http://o-site.spb.ru/_races/2022BN/220605_split.htm',
         owner: 'WN',
         reskeep: 534,
-        split: 'splits/2022/SPB_20220605_1_split.htm'
     },
     {
         id: 'SPB_20220606_1',
@@ -1358,7 +1351,6 @@ let events2022 = [
         map: 'ilychevo_2016',
         owner: 'WN',
         reskeep: 539,
-        split: 'splits/2022/SPB_20220702_1_split.htm'
     },
     {
         id: 'SPB_20220703_1',
@@ -1452,7 +1444,6 @@ let events2022 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220730_split.htm',
         reskeep: 550,
-        split: 'splits/2022/SPB_20220730_2_split.htm',
         map: 'baryshevo_2015',
         owner: 'WN'
     },
@@ -1473,7 +1464,6 @@ let events2022 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220731_split.htm',
         reskeep: 553,
-        split: 'splits/2022/SPB_20220731_1_split.htm',
         map: 'smoljanoe_2015',
         owner: 'WN'
     },
@@ -2083,7 +2073,6 @@ let events2022 = [
         map: 'razdolje_2022',
         owner: 'WN',
         reskeep: 561,
-        split: 'splits/2022/SPB_20221022_3_split.htm'
     },
     {
         id: 'SPB_20221022_4',
@@ -2334,7 +2323,6 @@ let events2022 = [
         owner: 'WN',
         strava: [8138407224, 8138827616],
         reskeep: 566,
-        split: 'splits/2022/SPB_20221119_1_split.htm'
     },
     {
         id: 'SPB_20221120_1',
@@ -2417,7 +2405,6 @@ let events2022 = [
         owner: 'WN',
         strava: [8205639485, 8205643874],
         reskeep: 568,
-        split: 'splits/2022/SPB_20221204_1_split.htm'
     },
     {
         id: 'SPB_20221210_1',

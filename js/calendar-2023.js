@@ -389,7 +389,6 @@ let events2023 = [
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 569,
-        split: 'splits/2023/SPB_20230401_1_split.htm'
     },
     {
         id: 'SPB_20230402_1',
@@ -568,7 +567,6 @@ let events2023 = [
         res: 'http://o-site.spb.ru/_races/2023_bn/230429_split.htm',
         owner: 'WN',
         reskeep: 574,
-        split: 'splits/2023/SPB_20230429_2_split.htm',
         map: 'kavgolovo_old_ski_track_2023'
     },
     {
@@ -1622,7 +1620,6 @@ let events2023 = [
         owner: 'WN',
         strava: 9774518451,
         reskeep: 591,
-        split: 'splits/2023/SPB_20230903_2_split.htm'
     },
     {
         id: 'SPB_20230909_1',

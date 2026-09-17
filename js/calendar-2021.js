@@ -179,7 +179,6 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/210207_vs/210207_rez4.htm',
-        split: 'splits/2021/SPB_20210207_2_split.htm',
         info: 'Официальный старт "Веселый ветер" Место старта Баболовский парк.',
         o_site: '210207_vs',
         reskeep: 420,
@@ -209,7 +208,6 @@ let events2021 = [
         type: 'SKI',
         reg: 'http://orgeo.ru/event/15440',
         res: 'https://o-site.spb.ru/_races/210214/210214_res.html',
-        split: 'splits/2021/SPB_20210214_1_split.htm',
         o_site: '210214',
         reskeep: 414,
         strava: 4784783686
@@ -354,7 +352,6 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1228',
         res: 'https://o-site.spb.ru/_races/210308/res.htm',
-        split: 'splits/2021/SPB_20210308_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '210308',
         reskeep: 427,
@@ -368,7 +365,6 @@ let events2021 = [
         name: 'Всеволожская тропа. 1 этап',
         type: 'ORIENT',
         reskeep: 426,
-        split: 'splits/2021/SPB_20210308_2_split.htm'
     },
     {
         id: 'SPB_20210316_1',
@@ -385,7 +381,6 @@ let events2021 = [
         name: 'Тренировка от Авроры',
         type: 'ORIENT',
         reskeep: 424,
-        split: 'splits/2021/SPB_20210321_1_split.htm',
         strava: [5023572768,5024474207],
         map: 'rzhevsky_2024'
     },
@@ -417,7 +412,6 @@ let events2021 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210411_split.htm',
         reskeep: 437,
-        split: 'splits/2021/SPB_20210411_2_split.htm',
         owner: 'WN'
     },
     {
@@ -464,7 +458,6 @@ let events2021 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210417_split.htm',
         reskeep: 441,
-        split: 'splits/2021/SPB_20210417_4_split.htm',
         map: 'orovo_2019',
         owner: 'WN'
     },
@@ -475,7 +468,6 @@ let events2021 = [
         name: 'Тренировка от Авроры',
         type: 'ORIENT',
         reskeep: 444,
-        split: 'splits/2021/SPB_20210417_5_split.htm',
         map: 'polyustrovsky_2022',
     },
     {
@@ -512,7 +504,6 @@ let events2021 = [
         name: 'Кубок Белых Ночей. 13 этап',
         type: 'ORIENT',
         reskeep: 442,
-        split: 'splits/2021/SPB_20210418_4_split.htm',
         map: 'petjajarvy_2024',
         owner: 'WN'
     },
@@ -671,7 +662,6 @@ let events2021 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210504_split.htm',
         reskeep: 452,
-        split: 'splits/2021/SPB_20210504_1_split.htm',
         map: 'bolotnaya_station_2019',
         owner: 'WN'
     },
@@ -683,7 +673,6 @@ let events2021 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210505_split.htm',
         reskeep: 453,
-        split: 'splits/2021/SPB_20210505_1_split.htm',
         map: 'ilychevo_2016',
         owner: 'WN'
     },
@@ -695,7 +684,6 @@ let events2021 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210507_split.htm',
         reskeep: 454,
-        split: 'splits/2021/SPB_20210506_1_split.htm',
         map: 'petjajarvy_2024',
         owner: 'WN',
         strava: [5255567316,5255994172]
@@ -708,7 +696,6 @@ let events2021 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210508_split.htm',
         reskeep: 455,
-        split: 'splits/2021/SPB_20210507_1_split.htm',
         map: 'topograph_2017',
         owner: 'WN'
     },
@@ -932,10 +919,6 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/14868',
         res: 'http://sportident.online/ol/?id=352',
-        split: [
-            'splits/2021/SPB_20210529_1_1_split.htm',
-            'splits/2021/SPB_20210529_1_2_split.htm'
-        ],
         info: '29 и 30 мая в Сосновом Бору (Ленинградская область) пройдут областные соревнования «Спринт» (кросс-спринт).',
         o_site: '210530',
         reskeep: [467, 471]
@@ -948,11 +931,6 @@ let events2021 = [
         place: 'Сосновый Бор',
         type: 'ORIENT',
         res: 'http://sportident.online/ol/?id=356',
-        split: [
-            'splits/2021/SPB_20210529_2_1_split.htm',
-            'splits/2021/SPB_20210529_2_2_split.htm',
-            'splits/2021/SPB_20210529_2_3_split.htm'
-        ],
         photo: 'http://drive.google.com/drive/folders/1MhItem9JxiW66WFgqt7XQmOqRzjx68an',
         info: 'С 28 мая по 1 июня в Сосновом Бору (Ленинградская область) состоится Чемпионат России по спортивному ориентированию, а также пройдут областные соревнования «Спринт».',
         o_gps: {
@@ -984,7 +962,6 @@ let events2021 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210529_split.htm',
         reskeep: 470,
-        split: 'splits/2021/SPB_20210529_3_split.htm',
         map: 'bolotnaya_station_2019',
         owner: 'WN'
     },
@@ -1089,7 +1066,6 @@ let events2021 = [
         map: 'vasiljevsky_2024',
         owner: 'WN',
         reskeep: 461,
-        split: 'splits/2021/SPB_20210605_2_split.htm'
     },
     {
         id: 'SPB_20210606_1',
@@ -1109,7 +1085,6 @@ let events2021 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, лонг',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210606/210606_res8.htm',
-        split: 'splits/2021/SPB_20210606_2_split.htm',
         owner: 'SFSO_SPB',
         o_site: '210606',
         o_gps: {
@@ -1221,7 +1196,6 @@ let events2021 = [
         fmt: 'классика',
         start: 'KKP',
         o_site: '210612-18_KKP',
-        split: 'splits/2021/SPB_20210614_1_split.htm',
         reskeep: 476,
         strava: 5469051700,
         video: [
@@ -1730,7 +1704,6 @@ let events2021 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, классика-общий старт',
         type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2021/chspbs_middle/',
-        split: 'splits/2021/SPB_20210919_2_split.htm',
         photo: 'http://disk.yandex.ru/d/uzUA__97XPmC8A',
         video: 'http://www.northernwind.spb.ru/videosplit/2021/chspbs_middle/',
         owner: 'SFSO_SPB',
@@ -1775,7 +1748,6 @@ let events2021 = [
         type: 'ORIENT',
         owner: 'WN',
         reskeep: 369,
-        split: 'splits/2021/SPB_20210925_3_split.htm',
         strava: 6014843441
     },
     {
@@ -1796,7 +1768,6 @@ let events2021 = [
         name: 'Марафон на холмах Яппиля',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/210926/210926_res.htm',
-        split: 'splits/2021/SPB_20210926_1_split.htm',
         info: 'Официальный старт СФСО СПб с присвоением массовых разрядов',
         video: [
             'https://www.youtube.com/watch?v=rpXVZCsQDr0',
@@ -1839,7 +1810,6 @@ let events2021 = [
         name: 'Чемпионат и Первенство Санкт-Петербурга, кросс-эстафета-3 чел',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/211002/res.htm',
-        split: 'splits/2021/SPB_20211002_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '211002',
         reskeep: 493,
@@ -1853,7 +1823,6 @@ let events2021 = [
         type: 'ORIENT',
         owner: 'SFSO_SPB',
         o_site: '211003',
-        split: 'splits/2021/SPB_20211003_1_split.htm',
         reskeep: 494
     },
     {
@@ -1937,7 +1906,6 @@ let events2021 = [
         fmt: 'лонг-масстарт',
         owner: 'SFSO_SPB',
         o_site: '211010_long',
-        split: 'splits/2021/SPB_20211010_1_split.htm',
         reskeep: 496,
         strava: 6091647873,
         o_gps: {
@@ -2047,7 +2015,6 @@ let events2021 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1314',
         res: 'http://orgeo.ru/live/#/19024',
-        split: 'splits/2021/SPB_20211024_1_split.htm',
         info: 'Соревнования памяти выдающегося ориентировщика СССР и России, Владимира Павловича Алексеева',
         owner: 'WN',
         o_site: '211024',
@@ -2148,7 +2115,6 @@ let events2021 = [
         map: 'bolotnaya_station_2019',
         owner: 'WN',
         reskeep: 500,
-        split: 'splits/2021/SPB_20211031_2_split.htm',
         strava: 6191799353
     },
     {
@@ -2200,7 +2166,6 @@ let events2021 = [
         map: 'petjajarvy_2024',
         owner: 'WN',
         reskeep: 502,
-        split: 'splits/2021/SPB_20211107_1_split.htm',
         strava: 6223922266
     },
     {
@@ -2272,7 +2237,6 @@ let events2021 = [
         map: 'pervomayskoe_2021',
         owner: 'WN',
         reskeep: 503,
-        split: 'splits/2021/SPB_20211121_1_split.htm',
         strava: 6287291224,
         map: 'pervomayskoe_2021'
     },
@@ -2296,7 +2260,6 @@ let events2021 = [
         res: 'http://o-site.spb.ru/_races/2022BN/211127_split.htm',
         owner: 'WN',
         reskeep: 504,
-        split: 'splits/2021/SPB_20211127_1_split.htm',
         strava: 6312416014
     },
     {
