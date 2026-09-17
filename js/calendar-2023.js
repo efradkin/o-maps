@@ -1066,7 +1066,7 @@ let events2023 = [
         },
     },
     {
-        id: 'SPB_20230617_2',
+        id: 'SPB_20230617_3',
         date: '2023-06-17',
         place: 'Моторное',
         name: 'HARD ROGAINE FEST',
