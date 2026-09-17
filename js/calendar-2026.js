@@ -2823,9 +2823,11 @@ let events2026 = [
         id: 'SPB_20261011_1',
         date: '2026-10-11',
         name: 'ЧиП СПб',
+        o_site: '261011_velo',
         type: 'VELO',
         fmt: 'эстафета 2х',
-        owner: 'SFSO_SPB'
+        owner: 'SFSO_SPB',
+        map: 'roschino_velo_2025'
     },
     {
         id: 'SPB_20261017_1',

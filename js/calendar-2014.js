@@ -1157,6 +1157,16 @@ let events2014 = [
         o_site: '141029'
     },
     {
+        id: 'SPB_20141101_1',
+        date: '2014-11-01',
+        place: 'Голубая Дача',
+        name: 'Кубок Белых Ночей 2014/15, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/WNC2015/141101_res.htm',
+        owner: 'WN',
+        o_site: 'WNC2015'
+    },
+    {
         id: 'SPB_20141104_1',
         date: '2014-11-04',
         place: 'Зеленогорск',
@@ -1216,6 +1226,16 @@ let events2014 = [
         o_site: '14112223'
     },
     {
+        id: 'SPB_20141122_2',
+        date: '2014-11-22',
+        place: 'Ильичёво',
+        name: 'Кубок Белых Ночей 2014/15, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/WNC2015/141122_res.htm',
+        owner: 'WN',
+        o_site: 'WNC2015'
+    },
+    {
         id: 'SPB_20141123_1',
         date: '2014-11-23',
         place: 'Пискарёвский парк',
@@ -1252,6 +1272,16 @@ let events2014 = [
         map: 'polyustrovsky_2022',
     },
     {
+        id: 'SPB_20141129_2',
+        date: '2014-11-29',
+        place: 'Голубая Дача (юг)',
+        name: 'Кубок Белых Ночей 2014/15, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/WNC2015/141129_res.htm',
+        owner: 'WN',
+        o_site: 'WNC2015'
+    },
+    {
         id: 'SPB_20141130_1',
         date: '2014-11-30',
         place: 'Сосновка',
@@ -1278,6 +1308,16 @@ let events2014 = [
         o_site: '140323_OR',
         map: ['sosnovka_2014','pushkin_babolovsky_2019','pesochnaya_2005'],
         owner: 'AZIMUT'
+    },
+    {
+        id: 'SPB_20141206_1',
+        date: '2014-12-06',
+        place: 'Лехтуси',
+        name: 'Кубок Белых Ночей 2014/15, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/WNC2015/141206_res.htm',
+        owner: 'WN',
+        o_site: 'WNC2015'
     },
     {
         id: 'SPB_20141207_1',

@@ -346,6 +346,7 @@ let events2022 = [
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей #5',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220423_split.htm',
         map: 'orovo_2019',
         owner: 'WN',
         reskeep: 529,
@@ -390,6 +391,7 @@ let events2022 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей #6',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220430_split.htm',
         map: 'petjajarvy_2024',
         owner: 'WN',
         reskeep: 528,
@@ -438,6 +440,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей #7',
         strava: 7069852592,
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220501_split.htm',
         owner: 'WN',
         reskeep: 511,
         split: 'splits/2022/SPB_20220501_2_split.htm',
@@ -450,6 +453,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей #8',
         strava: 7080257862,
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220503_split.htm',
         map: 'voejkovo_2022',
         owner: 'WN',
         reskeep: 530,
@@ -467,6 +471,16 @@ let events2022 = [
         split: 'splits/2022/SPB_20220506_1_split.htm'
     },
     {
+        id: 'SPB_20220507_1',
+        date: '2022-05-07',
+        place: 'Голубая Дача',
+        name: 'Кубок Белых Ночей 2021/22, 9-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220507_split.htm',
+        owner: 'WN',
+        o_site: '2022BN'
+    },
+    {
         id: 'SPB_20220508_1',
         date: '2022-05-08',
         name: 'Рогейн 110 - 1 этап',
@@ -476,6 +490,16 @@ let events2022 = [
         strava: 7107906115,
         start: 'ROGAINE_110',
         o_site: '220508_110'
+    },
+    {
+        id: 'SPB_20220508_2',
+        date: '2022-05-08',
+        place: 'Сосново',
+        name: 'Кубок Белых Ночей 2021/22, 10-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220508_split.htm',
+        owner: 'WN',
+        o_site: '2022BN'
     },
     {
         id: 'SPB_20220509_1',
@@ -505,7 +529,7 @@ let events2022 = [
         map: 'tarkhovka_velo_2023'
     },
     {
-        id: 'SPB_20220510_1',
+        id: 'SPB_20220510_3',
         date: '2022-05-10',
         place: 'Линдуловская роща',
         name: 'Перспектива Middle Cup #5',
@@ -514,6 +538,16 @@ let events2022 = [
         reskeep: 524,
         split: 'splits/2022/SPB_20220510_1_split.htm',
         map: 'lindulovskaya_roscha_2015'
+    },
+    {
+        id: 'SPB_20220510_2',
+        date: '2022-05-10',
+        place: 'Запорожское',
+        name: 'Кубок Белых Ночей 2021/22, 11-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220510_split.htm',
+        owner: 'WN',
+        o_site: '2022BN'
     },
     {
         id: 'SPB_20220511_1',
@@ -576,6 +610,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей #12',
         strava: 7140324760,
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220514_split.htm',
         map: 'stekljanny_2021',
         owner: 'WN',
         reskeep: 525,
@@ -830,12 +865,23 @@ let events2022 = [
         o_site: '2022GK'
     },
     {
+        id: 'SPB_20220604_2',
+        date: '2022-06-04',
+        place: 'Мичуринское',
+        name: 'Кубок Белых Ночей 2021/22, 13-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220604_split.htm',
+        owner: 'WN',
+        o_site: '2022BN'
+    },
+    {
         id: 'SPB_20220605_1',
         date: '2022-06-05',
         place: 'Мичуринское',
         name: 'Кубок Белых Ночей #14',
         strava: 7258858400,
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220605_split.htm',
         owner: 'WN',
         reskeep: 534,
         split: 'splits/2022/SPB_20220605_1_split.htm'
@@ -1361,6 +1407,7 @@ let events2022 = [
         place: 'Барышево',
         name: 'Кубок Белых Ночей. 15 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220730_split.htm',
         reskeep: 550,
         split: 'splits/2022/SPB_20220730_2_split.htm',
         map: 'baryshevo_2015',
@@ -1381,6 +1428,7 @@ let events2022 = [
         place: 'Смоляное оз',
         name: 'Кубок Белых Ночей. 16 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2022BN/220731_split.htm',
         reskeep: 553,
         split: 'splits/2022/SPB_20220731_1_split.htm',
         map: 'smoljanoe_2015',
@@ -1393,28 +1441,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей - 2021/22 - 17-й и 18-й этапы',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/23285',
-        res: 'http://o-site.spb.ru/_races/2022BN/211031_res.htm',
-        split: [
-            'splits/2022/SPB_20220806_1_1_split.htm',
-            'splits/2022/SPB_20220806_1_2_split.htm',
-            'splits/2022/SPB_20220806_1_3_split.htm',
-            'splits/2022/SPB_20220806_1_4_split.htm',
-            'splits/2022/SPB_20220806_1_5_split.htm',
-            'splits/2022/SPB_20220806_1_6_split.htm',
-            'splits/2022/SPB_20220806_1_7_split.htm',
-            'splits/2022/SPB_20220806_1_8_split.htm',
-            'splits/2022/SPB_20220806_1_9_split.htm',
-            'splits/2022/SPB_20220806_1_10_split.htm',
-            'splits/2022/SPB_20220806_1_11_split.htm',
-            'splits/2022/SPB_20220806_1_12_split.htm',
-            'splits/2022/SPB_20220806_1_13_split.htm',
-            'splits/2022/SPB_20220806_1_14_split.htm',
-            'splits/2022/SPB_20220806_1_15_split.htm',
-            'splits/2022/SPB_20220806_1_16_split.htm',
-            'splits/2022/SPB_20220806_1_17_split.htm',
-            'splits/2022/SPB_20220806_1_18_split.htm'
-        ],
-        info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 1-й этап 31.10.21 Болотная станция Результаты Сплиты 2-й этап 7.11.21 Петяярви Результаты Сплиты 3-й этап 21.11.21 Первомайское Результаты Сплиты 4-й этап 27.11.21 Васкелово Результаты Сплиты 5-й этап 23.04.22 Голубая Дача Результаты Сплиты 6-й этап 30.04.22 Петяярви Результаты Сплиты 7-й этап 01.05.22 Пухтолова Гора Результаты Сплиты 8-й этап 03.05.22 Воейково Результаты Сплиты 9-й этап 07.05.22 Голубая Дача Результаты Сплиты 10-й этап 08.05.22 Сосново Результаты Сплиты 11-й этап 10.05.22 Запорожское Результаты Сплиты 12-й этап 14.05.22 Васкелово Результаты Сплиты 13-й этап 04.06.22 Мичуринское Результаты Сплиты 14-й этап 05.06.22 Мичуринское Результаты Сплиты 15-й этап 30.07.22 Барышево Результаты Сплиты 16-й этап 31.07.22 Смоляное озеро Результаты Сплиты',
+        res: ['https://o-site.spb.ru/_races/2022BN/220806_split.htm','https://o-site.spb.ru/_races/2022BN/220807_split.htm'],
         map: 'tikhoe_2024',
         owner: 'WN',
         o_site: '2022BN',
@@ -1554,6 +1581,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей #1',
         strava: 7784420974,
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/220910_split.htm',
         map: 'bolotnaya_station_2019',
         owner: 'WN',
         reskeep: 542,
@@ -2018,6 +2046,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей #2',
         strava: 8002067117,
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/221022_split.htm',
         map: 'razdolje_2022',
         owner: 'WN',
         reskeep: 561,
@@ -2087,6 +2116,16 @@ let events2022 = [
         name: 'Ночной рогейн',
         type: 'ROGAINE',
         video: 'https://www.youtube.com/watch?v=i2-yyXQrq8c',
+    },
+    {
+        id: 'SPB_20221029_4',
+        date: '2022-10-29',
+        place: 'Петяярви',
+        name: 'Кубок Белых Ночей 2022/23, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/221029_split.htm',
+        owner: 'WN',
+        o_site: '2023_bn'
     },
     {
         id: 'SPB_20221030_1',
@@ -2170,6 +2209,16 @@ let events2022 = [
         map: 'toksovo_malinovaya_gora_2018'
     },
     {
+        id: 'SPB_20221105_2',
+        date: '2022-11-05',
+        place: 'Первомайское',
+        name: 'Кубок Белых Ночей 2022/23, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/221105_split.htm',
+        owner: 'WN',
+        o_site: '2023_bn'
+    },
+    {
         id: 'SPB_20221106_1',
         date: '2022-11-06',
         name: 'Перспектива 100 КП',
@@ -2181,6 +2230,16 @@ let events2022 = [
         strava: 8076084474,
         o_site: '221106_100kp',
         map: 'toksovo_malinovaya_gora_2018'
+    },
+    {
+        id: 'SPB_20221106_2',
+        date: '2022-11-06',
+        place: 'Мичуринское',
+        name: 'Кубок Белых Ночей 2022/23, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/221106_split.htm',
+        owner: 'WN',
+        o_site: '2023_bn'
     },
     {
         id: 'SPB_20221112_1',
@@ -2207,6 +2266,16 @@ let events2022 = [
         reskeep: 564
     },
     {
+        id: 'SPB_20221112_3',
+        date: '2022-11-12',
+        place: 'Петяярви',
+        name: 'Кубок Белых Ночей 2022/23, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/221112_split.htm',
+        owner: 'WN',
+        o_site: '2023_bn'
+    },
+    {
         id: 'SPB_20221113_1',
         date: '2022-11-13',
         place: 'Лемболово',
@@ -2227,6 +2296,7 @@ let events2022 = [
         place: 'Озерки',
         name: 'Кубок Белых Ночей #7',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/221119_split.htm',
         map: 'ozerki_2022',
         owner: 'WN',
         strava: [8138407224, 8138827616],
@@ -2309,6 +2379,7 @@ let events2022 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей #8',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/221204_split.htm',
         map: 'petjajarvy_2024',
         owner: 'WN',
         strava: [8205639485, 8205643874],
@@ -2322,8 +2393,7 @@ let events2022 = [
         name: 'Кубок Белых Ночей 2022/2023 9-й этап',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1487',
-        res: 'http://o-site.spb.ru/_races/2023_bn/220910_res.htm',
-        info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 1-й этап 10.09.22 Болотная станция Результаты Сплиты 2-й этап 22.10.22 Раздолье Результаты Сплиты 3-й этап 29.10.22 Петяярви Результаты Сплиты 4-й этап 05.11.22 Первомайское Результаты Сплиты 5-й этап 06.11.22 Мичуринское Результаты Сплиты 6-й этап 12.11.22 Петяярви Результаты Сплиты 7-й этап 19.11.22 Озерки Результаты Сплиты 8-й этап 04.12.22 Петяярви(Кентавр) Результаты Сплиты',
+        res: 'https://o-site.spb.ru/_races/2023_bn/221210_split.htm',
         owner: 'WN',
         o_site: '2023_bn',
         map: 'pervomayskoe_2021'

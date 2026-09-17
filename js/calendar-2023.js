@@ -525,6 +525,16 @@ let events2023 = [
         o_site: '230423'
     },
     {
+        id: 'SPB_20230422_3',
+        date: '2023-04-22',
+        place: 'Голубая Дача',
+        name: 'Кубок Белых Ночей 2022/23, 10-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/230422_split.htm',
+        owner: 'WN',
+        o_site: 'cbn_2023'
+    },
+    {
         id: 'SPB_20230426_1',
         date: '2023-04-26',
         place: 'Муринский парк (лыжная трасса)',
@@ -554,6 +564,7 @@ let events2023 = [
         name: 'Кубок Белых Ночей #11',
         strava: 8977074012,
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/230429_split.htm',
         owner: 'WN',
         reskeep: 574,
         split: 'splits/2023/SPB_20230429_2_split.htm',
@@ -572,6 +583,16 @@ let events2023 = [
         strava: 8982825410,
         reskeep: 575,
         map: 'sestroretsk_tamozhennaya_doroga_2012'
+    },
+    {
+        id: 'SPB_20230430_2',
+        date: '2023-04-30',
+        place: 'Сосново',
+        name: 'Кубок Белых Ночей 2022/23, 12-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/230430_split.htm',
+        owner: 'WN',
+        o_site: 'cbn_2023'
     },
     {
         id: 'SPB_20230501_1',
@@ -596,6 +617,16 @@ let events2023 = [
         o_gps: 15912
     },
     {
+        id: 'SPB_20230501_3',
+        date: '2023-05-01',
+        place: 'Первомайское',
+        name: 'Кубок Белых Ночей 2022/23, 13-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/230501_split.htm',
+        owner: 'WN',
+        o_site: 'cbn_2023'
+    },
+    {
         id: 'SPB_20230506_1',
         date: '2023-05-06',
         place: 'Яппиля',
@@ -607,6 +638,16 @@ let events2023 = [
         strava: 9021310183
     },
     {
+        id: 'SPB_20230506_2',
+        date: '2023-05-06',
+        place: 'Былинное озеро',
+        name: 'Кубок Белых Ночей 2022/23, 14-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/230506_split.htm',
+        owner: 'WN',
+        o_site: 'cbn_2023'
+    },
+    {
         id: 'SPB_20230507_1',
         date: '2023-05-07',
         place: 'Лемболово',
@@ -614,6 +655,16 @@ let events2023 = [
         type: 'ORIENT',
         strava: 9026040472,
         map: 'lembolovo_2024'
+    },
+    {
+        id: 'SPB_20230507_2',
+        date: '2023-05-07',
+        place: 'Садоводство топограф',
+        name: 'Кубок Белых Ночей 2022/23, 15-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/230507_split.htm',
+        owner: 'WN',
+        o_site: 'cbn_2023'
     },
     {
         id: 'SPB_20230508_1',
@@ -625,6 +676,16 @@ let events2023 = [
         res: 'https://vk.com/wall-197270357_753',
         o_gps: 16021,
         start: 'ROGAINE_110'
+    },
+    {
+        id: 'SPB_20230508_2',
+        date: '2023-05-08',
+        place: 'Мичуринское(склон)',
+        name: 'Кубок Белых Ночей 2022/23, 16-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/230508_split.htm',
+        owner: 'WN',
+        o_site: 'cbn_2023'
     },
     {
         id: 'SPB_20230509_1',
@@ -688,6 +749,7 @@ let events2023 = [
         place: 'Пухтолова гора',
         name: 'Кубок Белых Ночей #17',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/230513_split.htm',
         owner: 'WN',
         strava: 9062244567,
         map: 'pukhtolova_gora_2023'
@@ -705,6 +767,16 @@ let events2023 = [
         strava: 9068508402,
         o_site: '230513',
         map: 'pushkin_babolovsky_2019'
+    },
+    {
+        id: 'SPB_20230514_2',
+        date: '2023-05-14',
+        place: 'Симагино',
+        name: 'Кубок Белых Ночей 2022/23, 18-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/230514_split.htm',
+        owner: 'WN',
+        o_site: 'cbn_2023'
     },
     {
         id: 'SPB_20230517_1',
@@ -1328,6 +1400,26 @@ let events2023 = [
         o_gps: 16880
     },
     {
+        id: 'SPB_20230722_3',
+        date: '2023-07-22',
+        place: 'Воробьево озеро',
+        name: 'Кубок Белых Ночей 2022/23, 19-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/230722_res.htm',
+        owner: 'WN',
+        o_site: 'cbn_2023'
+    },
+    {
+        id: 'SPB_20230723_1',
+        date: '2023-07-23',
+        place: 'Воробьево озеро',
+        name: 'Кубок Белых Ночей 2022/23, 20-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2023_bn/230723_res.htm',
+        owner: 'WN',
+        o_site: 'cbn_2023'
+    },
+    {
         id: 'SPB_20230805_1',
         date: '2023-08-05',
         endDate: '2023-08-06',
@@ -1335,12 +1427,7 @@ let events2023 = [
         name: 'Кубок Белых Ночей 23 и 24 этапы',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1550',
-        res: 'http://o-site.spb.ru/_races/2023_bn/230422_res.htm',
-        split: [
-            'splits/2023/SPB_20230805_1_1_split.htm',
-            'splits/2023/SPB_20230805_1_2_split.htm'
-        ],
-        info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 10-й этап 22.04.23 Голубая Дача Результаты Сплиты 11-й этап 29.04.23 Кавголово(Орлиная Гора) Результаты Сплиты 12-й этап 30.04.23 Сосново Результаты Сплиты 13-й этап 01.05.23 Первомайское Результаты Сплиты 14-й этап 06.05.23 Былинное озеро Результаты Сплиты 15-й этап 07.05.23 Садоводство топограф Результаты Сплиты 16-й этап 08.05.23 Мичуринское(склон) Результаты Сплиты 17-й этап 13.05.23 Пухтолова Гора Результаты Сплиты 18-й этап 14.05.23 Симагино Результаты Сплиты 19-й этап 22.07.23 Воробьево озеро Результаты 20-й этап 23.07.23 Воробьево озеро Результаты',
+        res: ['https://o-site.spb.ru/_races/cbn_2023/230805_split.htm','https://o-site.spb.ru/_races/cbn_2023/230806_split.htm'],
         map: ['smoljanoe_2015','bylinnoe_2023','pervomayskoe_2021'],
         owner: 'WN',
         o_site: 'cbn_2023',
@@ -2230,6 +2317,15 @@ let events2023 = [
         map: 'petjajarvy_2024'
     },
     {
+        id: 'SPB_20231118_1',
+        date: '2023-11-18',
+        place: 'Озерки',
+        name: 'Кубок Белых Ночей 2023/24, 3-й этап',
+        type: 'ORIENT',
+        owner: 'WN',
+        o_site: 'kbn_2024'
+    },
+    {
         id: 'SPB_20231119_1',
         date: '2023-11-19',
         name: 'Всеволожская тропа',
@@ -2268,6 +2364,16 @@ let events2023 = [
         split: 'splits/2023/SPB_20231125_2_split.htm',
         o_site: '231125',
         map: 'poljustrovo_2023'
+    },
+    {
+        id: 'SPB_20231125_3',
+        date: '2023-11-25',
+        place: 'Болотная станция',
+        name: 'Кубок Белых Ночей 2023/24, 4-й этап',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/kbn_2024/231125_res.htm',
+        owner: 'WN',
+        o_site: 'kbn_2024'
     },
     {
         id: 'SPB_20231126_1',
@@ -2316,8 +2422,7 @@ let events2023 = [
         place: 'Орово',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/31919',
-        res: 'http://o-site.spb.ru/_races/2023_bn/231118_res.htm',
-        info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 3-й этап 18.11.23 Озерки Результаты 4-й этап 25.11.23 Болотная станция Результаты',
+        res: 'https://o-site.spb.ru/_races/kbn_2024/231203_res.htm',
         map: 'orovo_2019',
         owner: 'WN',
         o_site: 'kbn_2024'

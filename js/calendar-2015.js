@@ -224,6 +224,16 @@ let events2015 = [
         o_site: '150309_St'
     },
     {
+        id: 'SPB_20150309_2',
+        date: '2015-03-09',
+        place: 'Голубая Дача',
+        name: 'Кубок Белых Ночей 2014/15, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/WNC2015/150309_split_.htm',
+        owner: 'WN',
+        o_site: 'WNC2015'
+    },
+    {
         id: 'SPB_20150311_1',
         date: '2015-03-11',
         place: 'Павловск',
@@ -232,6 +242,16 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150311/150311_res.htm',
         o_site: '150311',
         map: 'pavlovsk_2012'
+    },
+    {
+        id: 'SPB_20150315_1',
+        date: '2015-03-15',
+        place: 'Охта-парк',
+        name: 'Кубок Белых Ночей 2014/15, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/WNC2015/150315_split.htm',
+        owner: 'WN',
+        o_site: 'WNC2015'
     },
     {
         id: 'SPB_20150321_1',
@@ -316,6 +336,16 @@ let events2015 = [
         info: 'Соревнования по спортивному ориентированию в закрытых помещениях',
         o_site: '150405_LR',
         map: 'fml_239_2015'
+    },
+    {
+        id: 'SPB_20150411_1',
+        date: '2015-04-11',
+        place: '103-я высота',
+        name: 'Кубок Белых Ночей 2014/15, 8-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/WNC2015/150411_split.htm',
+        owner: 'WN',
+        o_site: 'WNC2015'
     },
     {
         id: 'SPB_20150412_1',
@@ -694,6 +724,16 @@ let events2015 = [
         o_site: '15053031'
     },
     {
+        id: 'SPB_20150530_4',
+        date: '2015-05-30',
+        place: 'Осельки',
+        name: 'Кубок Белых Ночей 2014/15, 9-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/WNC2015/150530_split.htm',
+        owner: 'WN',
+        o_site: 'WNC2015'
+    },
+    {
         id: 'SPB_20150531_1',
         date: '2015-05-31',
         place: 'Зеленогорск, Чёрные оз',
@@ -867,15 +907,7 @@ let events2015 = [
         date: '2015-07-04',
         name: 'Кубок Белых Ночей - 2014/15',
         type: 'ORIENT',
-        res: 'http://o-site.spb.ru/_races/WNC2015/141101_res.htm',
-        split: [
-            'splits/2015/SPB_20150704_2_1_split.htm',
-            'splits/2015/SPB_20150704_2_2_split.htm',
-            'splits/2015/SPB_20150704_2_3_split.htm',
-            'splits/2015/SPB_20150704_2_4_split.htm',
-            'splits/2015/SPB_20150704_2_5_split.htm'
-        ],
-        info: 'Серия тренировочных стартов, организованная клубом Белые Ночи. 01.11.14 Голубая Дача, 1-й этап: результаты 22.11.14 Ильичёво, 2-й этап: результаты 29.11.14 Голубая Дача (юг), 3-й этап: результаты 06.12.14 Лехтуси, 4-й этап: результаты 21.12.14 Всеволожск, Приз Деда Мороза, 5-й этап: результаты, 09.03.15 Голубая Дача, 6-й этап: результаты, сплиты 15.03.15 Охта-парк, 7-й этап: результаты, сплиты 11.04.15 103-я высота, 8-й этап: результаты, сплиты 30.05.15 Осельки, 9-й этап: результаты, сплиты 04.07.15 Матокса, 10-й этап: результаты, сплиты',
+        res: 'http://o-site.spb.ru/_races/WNC2015/150704_split.htm',
         owner: 'WN',
         o_site: 'WNC2015',
         map: 'garbolovo_sirkkajarvi',
@@ -1415,6 +1447,16 @@ let events2015 = [
         owner: 'AZIMUT'
     },
     {
+        id: 'SPB_20151107_1',
+        date: '2015-11-07',
+        place: 'Голубая Дача',
+        name: 'Кубок Белых Ночей 2015/16, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/151107wn/151107_split.htm',
+        owner: 'WN',
+        o_site: '151107wn'
+    },
+    {
         id: 'SPB_20151108_1',
         date: '2015-11-08',
         name: 'Открытый старт в Орехово',
@@ -1438,6 +1480,16 @@ let events2015 = [
         link: 'http://gornycross.narod.ru',
         start: 'GORNY_CROSS',
         o_site: '151114R'
+    },
+    {
+        id: 'SPB_20151114_2',
+        date: '2015-11-14',
+        place: '103-я высота',
+        name: 'Кубок Белых Ночей 2015/16, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/151107wn/151114_split.htm',
+        owner: 'WN',
+        o_site: '151107wn'
     },
     {
         id: 'SPB_20151115_1',
@@ -1511,6 +1563,16 @@ let events2015 = [
         o_site: '15112829'
     },
     {
+        id: 'SPB_20151128_3',
+        date: '2015-11-28',
+        place: 'Ильичёво',
+        name: 'Кубок Белых Ночей 2015/16, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/151107wn/151128_split.htm',
+        owner: 'WN',
+        o_site: '151107wn'
+    },
+    {
         id: 'SPB_20151205_1',
         date: '2015-12-05',
         place: 'Сосновка',
@@ -1549,6 +1611,16 @@ let events2015 = [
         o_site: '151107'
     },
     {
+        id: 'SPB_20151212_2',
+        date: '2015-12-12',
+        place: 'Матокса',
+        name: 'Кубок Белых Ночей 2015/16, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/151107wn/151212_split.htm',
+        owner: 'WN',
+        o_site: '151107wn'
+    },
+    {
         id: 'SPB_20151213_1',
         date: '2015-12-13',
         place: 'Колтуши',
@@ -1571,6 +1643,16 @@ let events2015 = [
         split: 'splits/2015/SPB_20151213_2_split.htm',
         info: 'Тренировочный старт в формате спринт-рогейна',
         o_site: '151213'
+    },
+    {
+        id: 'SPB_20151219_1',
+        date: '2015-12-19',
+        place: 'Лехтуси',
+        name: 'Кубок Белых Ночей 2015/16, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/151107wn/151219_split.htm',
+        owner: 'WN',
+        o_site: '151107wn'
     },
     {
         id: 'SPB_20151220_1',

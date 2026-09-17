@@ -200,6 +200,7 @@ let events2019 = [
         place: 'Сестрорецкие Дюны',
         name: 'Кубок Белых Ночей. 8 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/201819_BN/190302_split.htm',
         reskeep: 127,
         split: 'splits/2019/SPB_20190302_2_split.htm',
         owner: 'WN'
@@ -271,6 +272,7 @@ let events2019 = [
         place: 'Кавголово',
         name: 'Кубок Белых Ночей. 9 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/201819_BN/190310_split.htm',
         reskeep: 126,
         split: 'splits/2019/SPB_20190310_3_split.htm',
         owner: 'WN'
@@ -281,6 +283,7 @@ let events2019 = [
         place: 'Голубые дачи',
         name: 'Кубок Белых Ночей. 10 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/201819_BN/190316_split.htm',
         reskeep: 125,
         split: 'splits/2019/SPB_20190316_1_split.htm',
         map: 'orovo_2019',
@@ -360,6 +363,7 @@ let events2019 = [
         place: 'Зеленогорск, Щучье озеро',
         name: 'Кубок Белых Ночей. 11 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/201819_BN/190413_split.htm',
         reskeep: 124,
         split: 'splits/2019/SPB_20190413_2_split.htm',
         map: 'zelenogorsk_schuchye_2020',
@@ -503,6 +507,7 @@ let events2019 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 14 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/201819_BN/190428_split.htm',
         reskeep: 123,
         split: 'splits/2019/SPB_20190428_1_split.htm',
         map: 'petjajarvy_2024',
@@ -878,6 +883,7 @@ let events2019 = [
         place: 'Симагино',
         name: 'Кубок Белых ночей. 13 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/201819_BN/190601_split.htm',
         reskeep: 146,
         split: 'splits/2019/SPB_20190601_1_split.htm',
         owner: 'WN'
@@ -1201,6 +1207,26 @@ let events2019 = [
         link: 'http://rogaining.msk.ru/'
     },
     {
+        id: 'SPB_20190706_1',
+        date: '2019-07-06',
+        place: 'Барышево',
+        name: 'Кубок Белых Ночей 2018/19, 14-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/201819_BN/190706_split.htm',
+        owner: 'WN',
+        o_site: '201819_BN'
+    },
+    {
+        id: 'SPB_20190707_1',
+        date: '2019-07-07',
+        place: 'Смоляное озеро',
+        name: 'Кубок Белых Ночей 2018/19, 15-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/201819_BN/190707_split.htm',
+        owner: 'WN',
+        o_site: '201819_BN'
+    },
+    {
         id: 'SPB_20190713_1',
         date: '2019-07-13',
         place: 'Орехово',
@@ -1271,6 +1297,7 @@ let events2019 = [
         place: 'Воробьево оз',
         name: 'Кубок Белых Ночей. 17 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/201819_BN/190728_split.htm',
         reskeep: 183,
         split: 'splits/2019/SPB_20190728_2_split.htm',
         map: 'vorobjevo_2024',
@@ -1355,6 +1382,7 @@ let events2019 = [
         place: 'Осельки',
         name: 'Кубок Белых Ночей. 18 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/201819_BN/190811_split.htm',
         reskeep: 191,
         split: 'splits/2019/SPB_20190811_2_split.htm',
         map: 'oselki_2015',
@@ -1431,31 +1459,10 @@ let events2019 = [
         date: '2019-09-01',
         name: 'Кубок Белых Ночей - 2018/19',
         type: 'ORIENT',
-        res: 'http://o-site.spb.ru/_races/201819_BN/181014_res.htm',
-        split: [
-            'splits/2019/SPB_20190901_1_1_split.htm',
-            'splits/2019/SPB_20190901_1_2_split.htm',
-            'splits/2019/SPB_20190901_1_3_split.htm',
-            'splits/2019/SPB_20190901_1_4_split.htm',
-            'splits/2019/SPB_20190901_1_5_split.htm',
-            'splits/2019/SPB_20190901_1_6_split.htm',
-            'splits/2019/SPB_20190901_1_7_split.htm',
-            'splits/2019/SPB_20190901_1_8_split.htm',
-            'splits/2019/SPB_20190901_1_9_split.htm',
-            'splits/2019/SPB_20190901_1_10_split.htm',
-            'splits/2019/SPB_20190901_1_11_split.htm',
-            'splits/2019/SPB_20190901_1_12_split.htm',
-            'splits/2019/SPB_20190901_1_13_split.htm',
-            'splits/2019/SPB_20190901_1_14_split.htm',
-            'splits/2019/SPB_20190901_1_15_split.htm',
-            'splits/2019/SPB_20190901_1_16_split.htm',
-            'splits/2019/SPB_20190901_1_17_split.htm',
-            'splits/2019/SPB_20190901_1_18_split.htm'
-        ],
-        info: '1-й этап, Зеленогорск: результаты сплиты 2-й этап, Петяярви: результаты сплиты 3-й этап, садоводство "Топограф": результаты сплиты 4-й этап, Охта-Парк: результаты сплиты 5-й этап, Первомайское: результаты сплиты 6-й этап, Зеленогорск: результаты сплиты 7-й этап, Голубая Дача: результаты сплиты 8-й этап, Сестрорецкие Дюны: результаты сплиты 9-й этап, Кавголово: результаты сплиты 10-й этап, Голубая дача: результаты сплиты 11-й этап, Щучье озеро: результаты сплиты 12-й этап, Петяярви: результаты сплиты 13-й этап, Симагино: результаты сплиты 14-й этап, Барышево: результаты сплиты 15-й этап, Смолчное озеро: результаты сплиты 16-й этап, Воробьево озеро: результаты сплиты 17-й этап, Воробьево озеро: результаты сплиты 18-й этап, Осельки: результаты сплиты 19-й этап, Охта-Парк: результаты сплиты',
+        res: 'http://o-site.spb.ru/_races/201819_BN/190901_split.htm',
         owner: 'WN',
         o_site: '201819_BN',
-        reskeep: [192, 202, 283, 310, 282, 284, 285, 308, 309, 291],
+        reskeep: 192,
         map: 'pervomayskoe_2021'
     },
     {
@@ -1687,6 +1694,7 @@ let events2019 = [
         place: 'Васкелово',
         name: 'Кубок Белых ночей. 1 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2020BN/190921_split.htm',
         reskeep: 222,
         split: 'splits/2019/SPB_20190928_3_split.htm',
         owner: 'WN'
@@ -1772,6 +1780,16 @@ let events2019 = [
         start: ['BA','TA'],
         owner: 'BKTV',
         map: 'petrovskoe_ba_2019'
+    },
+    {
+        id: 'SPB_20191005_3',
+        date: '2019-10-05',
+        place: 'Черные озера',
+        name: 'Кубок Белых Ночей 2019/20, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2018WN/191005_split.htm',
+        owner: 'WN',
+        o_site: '2020BN'
     },
     {
         id: 'SPB_20191006_1',
@@ -1916,6 +1934,16 @@ let events2019 = [
         reskeep: [279, 280]
     },
     {
+        id: 'SPB_20191019_2',
+        date: '2019-10-19',
+        place: 'Ильичево',
+        name: 'Кубок Белых Ночей 2019/20, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2018WN/191019_split.htm',
+        owner: 'WN',
+        o_site: '2020BN'
+    },
+    {
         id: 'SPB_20191020_1',
         date: '2019-10-20',
         name: 'Соревнования памяти Зои Викторовны Пятаковой',
@@ -1969,6 +1997,16 @@ let events2019 = [
         map: 'shapki_KLO_2024'
     },
     {
+        id: 'SPB_20191026_2',
+        date: '2019-10-26',
+        place: 'Петяярви',
+        name: 'Кубок Белых Ночей 2019/20, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2018WN/191026_split.htm',
+        owner: 'WN',
+        o_site: '2020BN'
+    },
+    {
         id: 'SPB_20191027_1',
         date: '2019-10-27',
         name: 'Яркий Кубок 2019',
@@ -2004,6 +2042,16 @@ let events2019 = [
         map: '5_uglov_2015'
     },
     {
+        id: 'SPB_20191102_2',
+        date: '2019-11-02',
+        place: 'Пухтолова гора',
+        name: 'Кубок Белых Ночей 2019/20, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2018WN/191102_split.htm',
+        owner: 'WN',
+        o_site: '2020BN'
+    },
+    {
         id: 'SPB_20191103_1',
         date: '2019-11-03',
         place: 'Первомайское',
@@ -2013,6 +2061,16 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/191103/191103_res.htm',
         split: 'splits/2019/SPB_20191103_1_split.htm',
         o_site: '191103'
+    },
+    {
+        id: 'SPB_20191103_2',
+        date: '2019-11-03',
+        place: 'Первомайское',
+        name: 'Кубок Белых Ночей 2019/20, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2018WN/191103_split.htm',
+        owner: 'WN',
+        o_site: '2020BN'
     },
     {
         id: 'SPB_20191104_1',
@@ -2122,6 +2180,16 @@ let events2019 = [
         o_site: '191116'
     },
     {
+        id: 'SPB_20191123_1',
+        date: '2019-11-23',
+        place: 'Воейково',
+        name: 'Кубок Белых Ночей 2019/20, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2018WN/191123_split.htm',
+        owner: 'WN',
+        o_site: '2020BN'
+    },
+    {
         id: 'SPB_20191124_1',
         date: '2019-11-24',
         place: 'Актовый зал ДДЮТ Выборгского р-на, ул Сантьяго-де Куба, 4-2',
@@ -2193,6 +2261,16 @@ let events2019 = [
         o_site: '191201gs'
     },
     {
+        id: 'SPB_20191207_1',
+        date: '2019-12-07',
+        place: 'Болотная станция',
+        name: 'Кубок Белых Ночей 2019/20, 8-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2018WN/191207_split.htm',
+        owner: 'WN',
+        o_site: '2020BN'
+    },
+    {
         id: 'SPB_20191208_1',
         date: '2019-12-08',
         name: 'Всеволожская тропа (2 этап)',
@@ -2220,6 +2298,7 @@ let events2019 = [
         name: 'Кубок Белых ночей',
         place: 'Орово',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2018WN/191214_split.htm',
         strava: 2932167797
     },
     {
