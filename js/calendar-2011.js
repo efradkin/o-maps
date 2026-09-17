@@ -145,6 +145,14 @@ let events2011 = [
         map: 'toksovo_vifk_winter_2023'
     },
     {
+        id: 'SPB_20110223_2',
+        date: '2011-02-23',
+        name: 'Всеволожская тропа, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/110410_tropa/110223_res1.htm',
+        o_site: '110410_tropa'
+    },
+    {
         id: 'SPB_20110227_1',
         date: '2011-02-27',
         name: 'Открытое Первенство п. Кузьмоловкий',
@@ -179,6 +187,14 @@ let events2011 = [
         o_site: '11030607'
     },
     {
+        id: 'SPB_20110308_1',
+        date: '2011-03-08',
+        name: 'Всеволожская тропа, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/110410_tropa/110308_res.htm',
+        o_site: '110410_tropa'
+    },
+    {
         id: 'SPB_20110312_1',
         date: '2011-03-12',
         name: 'Чемпионат и Первенство СПб, маркир и удл. дист. Кубок ОК Гольфстрим, 3-й этап',
@@ -204,6 +220,16 @@ let events2011 = [
         res: 'http://www.gs-oc.ru/phocadownload/competitions/2011/110320_rogain/110320_res.htm',
         info: 'Лыжный рогейн клуба "Гольфстрим" состоится 20 марта в районе озера Щучье, поселок Комарово. Соревнования проводятся в формате 3 часа, зачет личный. Дополнительно дистанция по выбору для группы Fitness.',
         o_site: '110320'
+    },
+    {
+        id: 'SPB_20110327_1',
+        date: '2011-03-27',
+        name: 'Ориентир-1',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/110327_Or/110327_res.xls',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '110327_Or'
     },
     {
         id: 'SPB_20110401_1',
@@ -257,9 +283,7 @@ let events2011 = [
         name: 'Всеволожская тропа 4 этап',
         place: 'Токсово',
         type: 'ORIENT',
-        res: 'http://www.o-site.spb.ru/_races/110410_tropa/101219_res.htm',
-        split: 'splits/2011/SPB_20110410_1_split.htm',
-        info: 'Результаты 1 этапа Результаты 2 этапа Результаты 3 этапа',
+        res: 'https://o-site.spb.ru/_races/110410_tropa/110410_split.htm',
         o_site: '110410_tropa'
     },
     {
@@ -269,6 +293,16 @@ let events2011 = [
         place: 'Кузьмолово',
         type: 'ORIENT',
         o_site: '110417'
+    },
+    {
+        id: 'SPB_20110420_1',
+        date: '2011-04-20',
+        name: 'Ориентир-2',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/110327_Or/110420_res.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '110327_Or'
     },
     {
         id: 'SPB_20110430_1',
@@ -284,6 +318,16 @@ let events2011 = [
         ],
         owner: 'SFSO_LO',
         o_site: '11043002'
+    },
+    {
+        id: 'SPB_20110504_1',
+        date: '2011-05-04',
+        name: 'Ориентир-3',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/110327_Or/110504_res.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '110327_Or'
     },
     {
         id: 'SPB_20110507_1',
@@ -310,6 +354,16 @@ let events2011 = [
         info: 'Соревнования, посвящённые Дню Победы:открытое п-во Всеволожского р-на, 2-й этап Кубка Яркого Мира.',
         o_site: '110509_',
         owner: 'AZIMUT'
+    },
+    {
+        id: 'SPB_20110511_1',
+        date: '2011-05-11',
+        name: 'Ориентир-4',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/110327_Or/110511_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '110327_Or'
     },
     {
         id: 'SPB_20110514_1',
@@ -670,6 +724,26 @@ let events2011 = [
         o_site: 'tri-o-tlon-2011'
     },
     {
+        id: 'SPB_20110724_1',
+        date: '2011-07-24',
+        name: 'Ориентир-6',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/110327_Or/110724_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '110327_Or'
+    },
+    {
+        id: 'SPB_20110731_1',
+        date: '2011-07-31',
+        name: 'Ориентир-7',
+        type: 'ORIENT',
+        start: 'ORIENTIR',
+        res: 'http://o-site.spb.ru/_races/110327_Or/110731_split.htm',
+        owner: 'AZIMUT',
+        o_site: '110327_Or'
+    },
+    {
         id: 'SPB_20110806_1',
         date: '2011-08-06',
         place: 'Токсово, Малиновая гора',
@@ -713,6 +787,26 @@ let events2011 = [
         map: 'gs_2011_08_28',
     },
     {
+        id: 'SPB_20110831_1',
+        date: '2011-08-31',
+        name: 'Ориентир-8',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/110327_Or/110831_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '110327_Or'
+    },
+    {
+        id: 'SPB_20110907_1',
+        date: '2011-09-07',
+        name: 'Ориентир-9',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/110327_Or/110907_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '110327_Or'
+    },
+    {
         id: 'SPB_20110910_1',
         date: '2011-09-10',
         place: 'Молодёжное',
@@ -736,6 +830,16 @@ let events2011 = [
         map: 'ilychevo_2016',
         owner: 'WN',
         o_site: '110911'
+    },
+    {
+        id: 'SPB_20110915_1',
+        date: '2011-09-15',
+        place: 'Юкки',
+        name: 'Осенний Кубок команды 110%, 1-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'http://o-site.spb.ru/_races/111117/110915_res.htm',
+        o_site: '111117'
     },
     {
         id: 'SPB_20110917_1',
@@ -786,6 +890,16 @@ let events2011 = [
         info: 'V ЧЕМПИОНАТ ЕВРОПЫ ФИНАЛ КУБКА МИРА 2011 V КУБОК ЕВРОПЫ СРЕДИ ЮНИОРОВ VI КУБОК ЕВРОПЫ СРЕДИ ЮНОШЕЙ И ДЕВУШЕК ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ НА ВЕЛОСИПЕДАХ',
         owner: 'SFSO_LO',
         o_site: '11091923'
+    },
+    {
+        id: 'SPB_20110922_1',
+        date: '2011-09-22',
+        place: 'Токсово',
+        name: 'Осенний Кубок команды 110%, 2-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'http://o-site.spb.ru/_races/111117/110922_res.htm',
+        o_site: '111117'
     },
     {
         id: 'SPB_20110924_1',
@@ -870,6 +984,16 @@ let events2011 = [
         o_site: '111005'
     },
     {
+        id: 'SPB_20111006_1',
+        date: '2011-10-06',
+        place: 'Токсово',
+        name: 'Осенний Кубок команды 110%, 3-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'http://o-site.spb.ru/_races/111117/111006_res.htm',
+        o_site: '111117'
+    },
+    {
         id: 'SPB_20111007_1',
         date: '2011-10-07',
         endDate: '2011-10-10',
@@ -890,6 +1014,16 @@ let events2011 = [
         start: 'OKINCHITSA',
         o_site: '111009',
         map: 'lembolovo_2002'
+    },
+    {
+        id: 'SPB_20111011_1',
+        date: '2011-10-11',
+        place: 'Кузьмолово',
+        name: 'Осенний Кубок команды 110%, 4-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'http://o-site.spb.ru/_races/111117/111011_res.htm',
+        o_site: '111117'
     },
     {
         id: 'SPB_20111012_1',
@@ -937,6 +1071,16 @@ let events2011 = [
         o_site: '111016',
         reskeep: 228,
         map: 'lehtusi_valkijarvi_2016'
+    },
+    {
+        id: 'SPB_20111020_1',
+        date: '2011-10-20',
+        place: 'Куялово',
+        name: 'Осенний Кубок команды 110%, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/111117/111020_res.htm',
+        start: 'ROGAINE_110',
+        o_site: '111117'
     },
     {
         id: 'SPB_20111022_1',
@@ -1047,6 +1191,16 @@ let events2011 = [
         map: 'lembolovo_russia_2007'
     },
     {
+        id: 'SPB_20111110_1',
+        date: '2011-11-10',
+        place: 'Кузьмолово',
+        name: 'Осенний Кубок команды 110%, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/111117/111110_res.htm',
+        start: 'ROGAINE_110',
+        o_site: '111117'
+    },
+    {
         id: 'SPB_20111113_1',
         date: '2011-11-13',
         place: 'Кузьмоловский',
@@ -1063,7 +1217,6 @@ let events2011 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/111117/110915_res.htm',
         split: 'splits/2011/SPB_20111117_1_split.htm',
-        info: 'Серия открытых тренировочных стартов 1 ЭТАП Юкки результаты 2 ЭТАП Токсово результаты 3 ЭТАП Токсово результаты 4 ЭТАП Кузьмолово результаты 5 ЭТАП Куялово результаты 6 ЭТАП Кузьмолово результаты',
         start: 'ROGAINE_110',
         o_site: '111117'
     },
@@ -1082,20 +1235,11 @@ let events2011 = [
         place: 'Сосновка',
         name: 'Ориентир-НатАлка',
         type: 'ORIENT',
-        res: 'http://o-site.spb.ru/_races/110327_Or/110327_res.xls',
-        split: [
-            'splits/2011/SPB_20111120_1_1_split.htm',
-            'splits/2011/SPB_20111120_1_2_split.htm',
-            'splits/2011/SPB_20111120_1_3_split.htm',
-            'splits/2011/SPB_20111120_1_4_split.htm',
-            'splits/2011/SPB_20111120_1_5_split.htm',
-            'splits/2011/SPB_20111120_1_6_split.htm',
-            'splits/2011/SPB_20111120_1_7_split.htm'
-        ],
-        info: 'Традиционная серия тренировочных стартов КСО Азимут: 27.03 Ориентир-1: результаты 20.04 Ориентир-2: результаты 04.05 Ориентир-3: результаты 11.05 Ориентир-4: результаты, сплиты 24.07 Ориентир-6: результаты, сплиты 31.07 Ориентир-7: результаты, сплиты 31.08 Ориентир-8: результаты, сплиты 07.09 Ориентир-9: результаты, сплиты 20.11 Ориентир НатАлка: результаты, сплиты',
+        res: 'http://o-site.spb.ru/_races/110327_Or/111120_split.htm',
         logo: 'azimut.gif',
         o_site: '110327_Or',
         map: 'sosnovka_2011',
+        start: 'ORIENTIR',
         owner: 'AZIMUT'
     },
     {

@@ -379,7 +379,6 @@ let events2017 = [
         place: 'Песочная, Комарово',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170326_VK/170326_res.htm',
-        info: 'Серия тренировочных стартов: 25.03.17 Песочная, 1-й этап: результаты 02.04.17 Комарово, 2-й этап: результаты',
         o_site: '170326_VK',
         map: 'pesochnaya_2005'
     },
@@ -394,6 +393,15 @@ let events2017 = [
         o_site: '2017WN'
     },
     {
+        id: 'SPB_20170325_2',
+        date: '2017-03-25',
+        place: 'Песочная',
+        name: 'Весенние капели, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/170326_VK/170326_res.htm',
+        o_site: '170326_VK'
+    },
+    {
         id: 'SPB_20170402_1',
         date: '2017-04-02',
         place: 'Матокса',
@@ -402,6 +410,15 @@ let events2017 = [
         res: 'http://o-site.spb.ru/_races/2017WN/170402_split.htm',
         owner: 'WN',
         o_site: '2017WN'
+    },
+    {
+        id: 'SPB_20170402_2',
+        date: '2017-04-02',
+        place: 'Комарово',
+        name: 'Весенние капели, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/170326_VK/170402_res_.htm',
+        o_site: '170326_VK'
     },
     {
         id: 'SPB_20170408_2',
@@ -468,6 +485,15 @@ let events2017 = [
         ],
         info: 'Спринты от команды FoxTeam',
         o_site: '170314-15'
+    },
+    {
+        id: 'SPB_20170416_1',
+        date: '2017-04-16',
+        place: 'Охта-парк',
+        name: 'Цикл стартов МаТрёшка, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/170416/170416_split_MT.htm',
+        o_site: '170416'
     },
     {
         id: 'SPB_20170419_1',
@@ -599,6 +625,15 @@ let events2017 = [
         type: 'ROGAINE',
         fmt: '6',
         link: 'http://tradventure.ru/'
+    },
+    {
+        id: 'SPB_20170430_4',
+        date: '2017-04-30',
+        place: 'Сестрорецкие Дюны',
+        name: 'Цикл стартов МаТрёшка, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/170416/170430_split_MT.htm',
+        o_site: '170416'
     },
     {
         id: 'SPB_20170501_1',
@@ -1337,6 +1372,15 @@ let events2017 = [
         video: 'https://www.youtube.com/watch?v=-Oo_xlrlTuk'
     },
     {
+        id: 'SPB_20170909_3',
+        date: '2017-09-09',
+        place: 'Вартемяги',
+        name: 'Цикл стартов МаТрёшка, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/170416/170909_split.htm',
+        o_site: '170416'
+    },
+    {
         id: 'SPB_20170910_1',
         date: '2017-09-10',
         place: 'Симагино',
@@ -1465,6 +1509,15 @@ let events2017 = [
         o_site: '170926'
     },
     {
+        id: 'SPB_20170926_2',
+        date: '2017-09-26',
+        name: 'Weekly Orient, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2017_W_Or/170926_split.htm',
+        owner: 'WN',
+        o_site: '2017_W_Or'
+    },
+    {
         id: 'SPB_20170927_1',
         date: '2017-09-27',
         name: 'Осенний спринт',
@@ -1519,6 +1572,15 @@ let events2017 = [
         owner: 'BKTV'
     },
     {
+        id: 'SPB_20170930_4',
+        date: '2017-09-30',
+        place: 'Пухтолова гора',
+        name: 'Цикл стартов МаТрёшка, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/170416/170930_mt_split.htm',
+        o_site: '170416'
+    },
+    {
         id: 'SPB_20171001_1',
         date: '2017-10-01',
         place: 'Токсово',
@@ -1529,6 +1591,15 @@ let events2017 = [
         owner: 'SFSO_SPB',
         o_site: '171001',
         reskeep: 232
+    },
+    {
+        id: 'SPB_20171003_1',
+        date: '2017-10-03',
+        name: 'Weekly Orient, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2017_W_Or/171003_split.htm',
+        owner: 'WN',
+        o_site: '2017_W_Or'
     },
     {
         id: 'SPB_20171004_1',
@@ -1713,6 +1784,15 @@ let events2017 = [
         photo: 'http://vk.com/club128591100',
         info: '1 этап - 08.05 - оз.Журавлево, лонг 2 этап - 14.05 - п.Гарболово, средняя 3 этап - 12.06 - п.Мичуринское, городской спринт 4 этап - 02.07 - п.Гарболово, средняя 5 этап - 19.08 - Первомайское, кросс 6 этап - 20.08 - Первомайское, средняя 7 этап - 02.09 - Орехово, кросс, общ.старт финал - 29.10 - Первомайское, лонг, гандикап',
         o_site: '2017YC'
+    },
+    {
+        id: 'SPB_20171029_2',
+        date: '2017-10-29',
+        place: 'Шуваловский парк',
+        name: 'Цикл стартов МаТрёшка, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/170416/171029_MT_split.htm',
+        o_site: '170416'
     },
     {
         id: 'SPB_20171030_1',
@@ -1908,7 +1988,6 @@ let events2017 = [
             'splits/2017/SPB_20171203_1_5_split.htm',
             'splits/2017/SPB_20171203_1_6_split.htm'
         ],
-        info: 'Цикл тренировочных стартов "МаТрёшка" от клуба NordWest 1-этап - 16.04.17 - Охта-парк Результаты Сплиты 2-этап - 30.04.17 - Сестрорецкие Дюны Результаты Сплиты 4-этап - 09.09.17 - Вартемяги Результаты Сплиты 5-этап - 30.09.17 - Пухтолова гора Результаты Сплиты 6-этап - 29.10.17 - Шуваловский парк Результаты Сплиты.',
         o_site: '170416'
     },
     {
@@ -1971,13 +2050,7 @@ let events2017 = [
         name: 'Weekly Orient, 3 этап',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=799',
-        res: 'http://o-site.spb.ru/_races/2017_W_Or/170926_res.htm',
-        split: [
-            'splits/2017/SPB_20171223_1_1_split.htm',
-            'splits/2017/SPB_20171223_1_2_split.htm',
-            'splits/2017/SPB_20171223_1_3_split.htm'
-        ],
-        info: '1-й этап: результаты, сплиты 2-й этап: результаты, сплиты',
+        res: 'https://o-site.spb.ru/_races/2017_W_Or/171223_split.htm',
         o_site: '2017_W_Or',
         map: 'voejkovo_2022',
         owner: 'WN'

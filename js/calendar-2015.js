@@ -1088,6 +1088,15 @@ let events2015 = [
         map: 'ilychevo-simagino_2015'
     },
     {
+        id: 'SPB_20150908_1',
+        date: '2015-09-08',
+        place: 'Лехтуси',
+        name: 'Weekly Orient, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-1-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81.htm',
+        o_site: '150908'
+    },
+    {
         id: 'SPB_20150909_1',
         date: '2015-09-09',
         place: 'Школа №339, ул Дыбенко 12-2',
@@ -1127,6 +1136,15 @@ let events2015 = [
         ],
         owner: 'SFSO_LO',
         o_site: '15091213'
+    },
+    {
+        id: 'SPB_20150915_1',
+        date: '2015-09-15',
+        place: 'Осельки',
+        name: 'Weekly Orient, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-2-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81.htm',
+        o_site: '150908'
     },
     {
         id: 'SPB_20150919_1',
@@ -1193,6 +1211,15 @@ let events2015 = [
         map: 'pukhtolova_gora_2009'
     },
     {
+        id: 'SPB_20150922_1',
+        date: '2015-09-22',
+        place: 'Голубая Дача',
+        name: 'Weekly Orient, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-3-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81.htm',
+        o_site: '150908'
+    },
+    {
         id: 'SPB_20150925_1',
         date: '2015-09-25',
         endDate: '2015-09-28',
@@ -1236,6 +1263,15 @@ let events2015 = [
         res: 'https://o-site.spb.ru/_races/150927/150927_res.htm',
         split: 'splits/2015/SPB_20150927_1_split.htm',
         o_site: '150927'
+    },
+    {
+        id: 'SPB_20150929_1',
+        date: '2015-09-29',
+        place: 'Голубая Дача',
+        name: 'Weekly Orient, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://white-o-nights.ru/wp-content/uploads/2015/09/Weekly_orient_4_leg_split.htm',
+        o_site: '150908'
     },
     {
         id: 'SPB_20150930_1',
@@ -1421,6 +1457,15 @@ let events2015 = [
         ],
         video: 'https://www.youtube.com/watch?v=gugzOn5M-08',
         o_site: '15102425'
+    },
+    {
+        id: 'SPB_20151027_1',
+        date: '2015-10-27',
+        place: 'Сярьги',
+        name: 'Weekly Orient, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://white-o-nights.ru/wp-content/uploads/2015/09/Weekly_Orient_5_leg_split.htm',
+        o_site: '150908'
     },
     {
         id: 'SPB_20151101_1',

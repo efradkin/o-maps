@@ -133,6 +133,15 @@ let events2016 = [
         map: 'sosnovka_2014'
     },
     {
+        id: 'SPB_20160222_1',
+        date: '2016-02-22',
+        place: 'Рахья',
+        name: 'Всеволожская тропа, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/160222/160222_split.htm',
+        o_site: '160222'
+    },
+    {
         id: 'SPB_20160223_1',
         date: '2016-02-23',
         name: 'Новогодняя Эстафета',
@@ -172,6 +181,15 @@ let events2016 = [
         split: 'splits/2016/SPB_20160306_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '160306'
+    },
+    {
+        id: 'SPB_20160306_2',
+        date: '2016-03-06',
+        place: 'Всеволожск',
+        name: 'Всеволожская тропа, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/160222/160306_split.htm',
+        o_site: '160222'
     },
     {
         id: 'SPB_20160307_1',
@@ -246,6 +264,15 @@ let events2016 = [
         fmt: '6 и 3 час., лыжи',
         link: 'http://gornycross.narod.ru',
         start: 'GORNY_CROSS'
+    },
+    {
+        id: 'SPB_20160320_1',
+        date: '2016-03-20',
+        place: 'Сярьги',
+        name: 'Weekly Orient, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://white-o-nights.ru/wp-content/uploads/2016/03/fiinal1.htm',
+        o_site: '150908'
     },
     {
         id: 'SPB_20160326_1',
@@ -328,6 +355,24 @@ let events2016 = [
         o_site: '160326'
     },
     {
+        id: 'SPB_20160410_1',
+        date: '2016-04-10',
+        place: 'Кузьмоловский',
+        name: 'Всеволожская тропа, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/160222/160410_split.htm',
+        o_site: '160222'
+    },
+    {
+        id: 'SPB_20160412_1',
+        date: '2016-04-12',
+        place: 'Всеволожск',
+        name: 'Weekly Orient, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://white-o-nights.ru/wp-content/uploads/2016/04/weekly-orient-7-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81%D0%BF%D0%BB%D0%B8%D1%82%D1%8B.htm',
+        o_site: '150908'
+    },
+    {
         id: 'SPB_20160416_1',
         date: '2016-04-16',
         place: 'Санкт-Петербург, Московский район, стадион гимназии 526, ул. Фрунзе 13',
@@ -369,7 +414,6 @@ let events2016 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=586',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-1-%D1%8D%D1%82%D0%B0%D0%BF-%D1%80.htm',
-        info: 'Серия тренировочных стартов, проводимая клубом ориентирования Белые Ночи. 08.09.15 Лехтуси, 1-й этап: результаты, сплиты 15.09.15 Осельки, 2-й этап: результаты, сплиты 22.09.15 Голубая Дача, 3-й этап: Результаты, сплиты. 29.09.15 Голубая Дача, 4-й этап: Результаты, сплиты. 27.10.15 Сярьги, 5-й этап: Результаты, сплиты. 20.03.16 Сярьги, 6-й этап: Результаты, сплиты. 12.04.16 Всеволожск, 7-й этап: Результаты, сплиты.',
         o_site: '150908',
         map: 'osinovaja_roscha_2018'
     },
@@ -1033,7 +1077,22 @@ let events2016 = [
         place: 'СК Арена',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/160628/160628_res.htm',
-        info: '1-й этап: результаты 2-й этап: результаты',
+        o_site: '160628'
+    },
+    {
+        id: 'SPB_20160628_1',
+        date: '2016-06-28',
+        name: 'Ржевская тропа здоровья, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/160628/160628_res.htm',
+        o_site: '160628'
+    },
+    {
+        id: 'SPB_20160708_1',
+        date: '2016-07-08',
+        name: 'Ржевская тропа здоровья, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/160628/160708_res.htm',
         o_site: '160628'
     },
     {
@@ -1219,10 +1278,7 @@ let events2016 = [
         date: '2016-10-01',
         name: 'Серия тренировочных стартов',
         type: 'ORIENT',
-        res: 'http://o-site.spb.ru/_races/matreshka/161030_rez_mat.htm',
-        info: 'Серия тренировочных стартов от клуба NORD WEST - "МаТрёшка" 1 этап — 30 октября (Малиновая гора) Результаты 2 этап — 5 ноября (Охта-парк) Результаты. Сумма подводится по итогам ДВУХ этапов!',
         o_site: '161105',
-        endDate: '2016-11-30',
         map: 'toksovo_malinovaya_gora_2013'
     },
     {
@@ -1475,6 +1531,14 @@ let events2016 = [
         o_site: '160910_rogain'
     },
     {
+        id: 'SPB_20161030_2',
+        date: '2016-10-30',
+        place: 'Малиновая гора',
+        name: 'Цикл стартов МаТрёшка, 1-й этап',
+        type: 'ORIENT',
+        o_site: '161105'
+    },
+    {
         id: 'SPB_20161104_1',
         date: '2016-11-04',
         place: 'Лемболово',
@@ -1488,6 +1552,14 @@ let events2016 = [
         o_site: '161104_',
         map: 'lembolovo_2024',
         owner: 'AZIMUT'
+    },
+    {
+        id: 'SPB_20161105_1',
+        date: '2016-11-05',
+        place: 'Охта-парк',
+        name: 'Цикл стартов МаТрёшка, 2-й этап',
+        type: 'ORIENT',
+        o_site: '161105'
     },
     {
         id: 'SPB_20161106_1',
@@ -1616,6 +1688,14 @@ let events2016 = [
         o_site: '161119'
     },
     {
+        id: 'SPB_20161203_2',
+        date: '2016-12-03',
+        name: 'Тренировка FoxTeam, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/161229_trenir/161203_split.htm',
+        o_site: '161229_trenir'
+    },
+    {
         id: 'SPB_20161204_1',
         date: '2016-12-04',
         place: 'Сосновка',
@@ -1658,9 +1738,16 @@ let events2016 = [
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'http://o-site.spb.ru/_races/160222/160222_split.htm',
-        info: 'Многоэтапные соревнования во Всеволожском районе 1 этап - пос. Рахья Сплиты 2 этап - г. Всеволожск Сплиты 3 этап - пос. Кузьмоловский Сплиты',
         map: 'rakhja_south_2007',
         o_site: '160222'
+    },
+    {
+        id: 'SPB_20161217_1',
+        date: '2016-12-17',
+        name: 'Тренировка FoxTeam, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/161229_trenir/161217_split.htm',
+        o_site: '161229_trenir'
     },
     {
         id: 'SPB_20161218_1',
@@ -1692,13 +1779,7 @@ let events2016 = [
         name: 'Тренировка FoxTeam',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=673',
-        res: 'http://o-site.spb.ru/_races/161229_trenir/161203_rez.htm',
-        split: [
-            'splits/2016/SPB_20161229_1_1_split.htm',
-            'splits/2016/SPB_20161229_1_2_split.htm',
-            'splits/2016/SPB_20161229_1_3_split.htm'
-        ],
-        info: '3 декабря 2016 г. (суббота). Результаты, сплиты. 17 декабря 2016 г. (суббота). Результаты, сплиты. 29 декабря 2016 г. (четверг) - Муринский парк',
+        res: 'https://o-site.spb.ru/_races/161229_trenir/161229_split.htm',
         o_site: '161229_trenir'
     }
 ];

@@ -90,6 +90,16 @@ let events2013 = [
         o_site: '130120'
     },
     {
+        id: 'SPB_20130127_1',
+        date: '2013-01-27',
+        place: 'Парк Сосновка',
+        name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 3-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121118_tropa/130127_split.htm',
+        owner: 'SFSO_SPB',
+        o_site: '121118_tropa'
+    },
+    {
         id: 'SPB_20130203_1',
         date: '2013-02-03',
         place: 'Семиозерье',
@@ -99,6 +109,16 @@ let events2013 = [
         res: 'https://o-site.spb.ru/_races/130203_Un/130203_res.htm',
         split: 'splits/2013/SPB_20130203_1_split.htm',
         o_site: '130203_Un'
+    },
+    {
+        id: 'SPB_20130203_2',
+        date: '2013-02-03',
+        place: 'Парк лесотехнической академии',
+        name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 4-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121118_tropa/130203_split.htm',
+        owner: 'SFSO_SPB',
+        o_site: '121118_tropa'
     },
     {
         id: 'SPB_20130212_1',
@@ -154,6 +174,15 @@ let events2013 = [
         o_site: '130223Ch'
     },
     {
+        id: 'SPB_20130223_2',
+        date: '2013-02-23',
+        place: 'Рахья',
+        name: 'Всеволожская тропа, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130407/130223_split.htm',
+        o_site: '130407'
+    },
+    {
         id: 'SPB_20130224_1',
         date: '2013-02-24',
         place: 'Зеркальный',
@@ -200,6 +229,15 @@ let events2013 = [
         info: 'Эстафета проводится по группам: Мдо13- 2 этапа, Ждо13- 2 этапа Мдо15- 3 этапа, Ждо15- 3 этапа, Мдо18- 3 этапа, Ждо18- 3 этапа, МЭ- 3 этапа, ЖЭ- 3 этапа, М90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, Ж90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, М110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа, Ж110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа',
         owner: 'SFSO_SPB',
         o_site: '130308_ch'
+    },
+    {
+        id: 'SPB_20130308_2',
+        date: '2013-03-08',
+        place: 'Всеволожск',
+        name: 'Всеволожская тропа, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130407/130308_split.htm',
+        o_site: '130407'
     },
     {
         id: 'SPB_20130309_1',
@@ -252,20 +290,20 @@ let events2013 = [
         name: 'Кубок СПб по парковому ориентированию «Снежная Тропа»',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
-        res: 'http://o-site.spb.ru/_races/121118_tropa/121118_res_2.pdf',
-        split: [
-            'splits/2013/SPB_20130317_1_1_split.htm',
-            'splits/2013/SPB_20130317_1_2_split.htm',
-            'splits/2013/SPB_20130317_1_3_split.htm',
-            'splits/2013/SPB_20130317_1_4_split.htm',
-            'splits/2013/SPB_20130317_1_5_split.htm',
-            'splits/2013/SPB_20130317_1_6_split.htm'
-        ],
+        res: 'http://o-site.spb.ru/_races/121118_tropa/130317_split.htm',
         video: ['https://www.youtube.com/watch?v=02GejJervm8','https://www.youtube.com/watch?v=TjW57SIUO3o'],
-        info: 'МНОГОЭТАПНЫЙ КУБОК САНКТ-ПЕТЕРБУРГА ПО ПАРКОВОМУ ОРИЕНТИРОВАНИЮ «СНЕЖНАЯ ТРОПА-2012/2013» 1 этап - 18 ноября (Пискаревский парк) официальные результаты и сплиты 2 этап - 9 декабря (Парк Муринский) официальные результаты и сплиты 3 этап - 27 января (Парк Сосновка) официальные результаты и сплиты 4 этап - 3 февраля (Парк лесотехнической академии) официальные результаты и сплиты 5 этап - 17 марта (пос. Осиновая роща) официальные результаты и сплиты',
         owner: 'SFSO_SPB',
         o_site: '121118_tropa',
         map: 'osinovaja_roscha_2013'
+    },
+    {
+        id: 'SPB_20130331_1',
+        date: '2013-03-31',
+        name: 'Ориентир-1',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130331_split_.htm',
+        start: 'ORIENTIR',
+        o_site: '130331_OR'
     },
     {
         id: 'SPB_20130401_1',
@@ -281,11 +319,9 @@ let events2013 = [
         date: '2013-04-01',
         name: 'Sprint Tour SPb 2013 - 15 этап',
         type: 'ORIENT',
-        res: 'http://www.o-site.spb.ru/_races/130904/130410_res.htm',
-        info: 'Серия стартов по дисциплине - городской спринт 1 ЭТАП 10.04.13 Результаты Сплиты 2 ЭТАП 17.04.13 Результаты Сплиты 3 ЭТАП 24.04.13 Результаты Сплиты 4 ЭТАП 08.05.13 Результаты Сплиты 5 ЭТАП 15.05.13 Результаты Сплиты 6 ЭТАП 22.05.13 Результаты Сплиты 7 ЭТАП 29.05.13 Результаты Сплиты 8 ЭТАП 05.06.13 Результаты Сплиты 9 ЭТАП 04.09.13 Результаты Сплиты 10 ЭТАП 11.09.13 Результаты Сплиты',
+        res: 'https://o-site.spb.ru/_races/130904/131120_split.htm',
         start: 'ST',
         o_site: '130904',
-        endDate: '2013-11-30'
     },
     {
         id: 'SPB_20130406_1',
@@ -304,24 +340,60 @@ let events2013 = [
         name: 'Всеволожская тропа 2013 - 5 этап',
         place: 'Бугры',
         type: 'ORIENT',
-        res: 'http://www.o-site.spb.ru/_races/130407/121125_res1.pdf',
-        split: [
-            'splits/2013/SPB_20130407_1_1_split.pdf',
-            'splits/2013/SPB_20130407_1_2_split.htm',
-            'splits/2013/SPB_20130407_1_3_split.htm',
-            'splits/2013/SPB_20130407_1_4_split.htm',
-            'splits/2013/SPB_20130407_1_5_split.htm',
-            'splits/2013/SPB_20130407_1_6_split.htm'
-        ],
+        res: 'https://o-site.spb.ru/_races/130407/130407_split.htm',
         video: [
             'https://www.youtube.com/watch?v=9qdcV65pPMg',
             'https://www.youtube.com/watch?v=UDyQ01EMN04',
             'https://www.youtube.com/watch?v=SP-YLhFY2N0',
             'https://www.youtube.com/watch?v=mFShech7jmw'
         ],
-        info: '1 этап - 25 ноября 2012, Токсово Результаты,Сплиты 2 этап - 16 декабря 2012, Невская Дубровка Результаты,Сплиты 3 этап - 23 февраля 2013, Рахья Результаты,Сплиты 4 этап - 08 марта 2013, Всеволожск Результаты,Сплиты 5 этап - 07 апреля 2013, Бугры',
         map: ['rakhja_south_2007','bugry_2011'],
         o_site: '130407'
+    },
+    {
+        id: 'SPB_20130409_1',
+        date: '2013-04-09',
+        name: 'Ориентир-2',
+        type: 'ORIENT',
+        start: 'ORIENTIR',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130409_split.htm',
+        o_site: '130331_OR'
+    },
+    {
+        id: 'SPB_20130410_1',
+        date: '2013-04-10',
+        name: 'Sprint Tour SPb 2013, 1-й этап',
+        type: 'ORIENT',
+        start: 'ST',
+        res: 'http://www.o-site.spb.ru/_races/130904/130410_split.htm',
+        o_site: '130904'
+    },
+    {
+        id: 'SPB_20130414_1',
+        date: '2013-04-14',
+        name: 'Ориентир-3 Подснежник',
+        type: 'ORIENT',
+        start: 'ORIENTIR',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130414_split.htm',
+        o_site: '130331_OR'
+    },
+    {
+        id: 'SPB_20130417_1',
+        date: '2013-04-17',
+        name: 'Sprint Tour SPb 2013, 2-й этап',
+        type: 'ORIENT',
+        start: 'ST',
+        res: 'http://www.o-site.spb.ru/_races/130904/130417_split.htm',
+        o_site: '130904'
+    },
+    {
+        id: 'SPB_20130418_1',
+        date: '2013-04-18',
+        name: 'Весенний Кубок 110%, 1-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'http://www.o-site.spb.ru/_races/130606/130418_res.htm',
+        o_site: '130606'
     },
     {
         id: 'SPB_20130419_1',
@@ -347,6 +419,15 @@ let events2013 = [
         map: 'pushkin_babolovsky_2019'
     },
     {
+        id: 'SPB_20130423_1',
+        date: '2013-04-23',
+        name: 'Ориентир-4',
+        type: 'ORIENT',
+        start: 'ORIENTIR',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130423_split.htm',
+        o_site: '130331_OR'
+    },
+    {
         id: 'SPB_20130424_1',
         date: '2013-04-24',
         place: 'Сосновка',
@@ -356,6 +437,24 @@ let events2013 = [
         split: 'splits/2013/SPB_20130424_1_split.htm',
         o_site: '130424_Fr',
         map: 'sosnovka_2011'
+    },
+    {
+        id: 'SPB_20130424_2',
+        date: '2013-04-24',
+        name: 'Sprint Tour SPb 2013, 3-й этап',
+        type: 'ORIENT',
+        start: 'ST',
+        res: 'http://www.o-site.spb.ru/_races/130904/130424_split.htm',
+        o_site: '130904'
+    },
+    {
+        id: 'SPB_20130425_1',
+        date: '2013-04-25',
+        name: 'Весенний Кубок 110%, 2-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'http://www.o-site.spb.ru/_races/130606/130425_res.htm',
+        o_site: '130606'
     },
     {
         id: 'SPB_20130427_1',
@@ -442,6 +541,15 @@ let events2013 = [
         o_site: '13042021'
     },
     {
+        id: 'SPB_20130508_1',
+        date: '2013-05-08',
+        name: 'Sprint Tour SPb 2013, 4-й этап',
+        type: 'ORIENT',
+        start: 'ST',
+        res: 'http://www.o-site.spb.ru/_races/130904/130508_split.htm',
+        o_site: '130904'
+    },
+    {
         id: 'SPB_20130509_1',
         date: '2013-05-09',
         place: 'Комарово-Репино',
@@ -491,6 +599,33 @@ let events2013 = [
         owner: 'SFSO_SPB',
         o_site: '130514_LTA',
         map: 'lesotekchnicheskaya_2025'
+    },
+    {
+        id: 'SPB_20130514_2',
+        date: '2013-05-14',
+        name: 'Ориентир-5',
+        type: 'ORIENT',
+        start: 'ORIENTIR',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130514_split.htm',
+        o_site: '130331_OR'
+    },
+    {
+        id: 'SPB_20130515_1',
+        date: '2013-05-15',
+        name: 'Sprint Tour SPb 2013, 5-й этап',
+        type: 'ORIENT',
+        start: 'ST',
+        res: 'http://www.o-site.spb.ru/_races/130904/130515_split.htm',
+        o_site: '130904'
+    },
+    {
+        id: 'SPB_20130516_1',
+        date: '2013-05-16',
+        name: 'Весенний Кубок 110%, 3-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'http://www.o-site.spb.ru/_races/130606/130516_res.htm',
+        o_site: '130606'
     },
     {
         id: 'SPB_20130517_1',
@@ -558,6 +693,15 @@ let events2013 = [
         map: 'pukhtolova_gora_2009'
     },
     {
+        id: 'SPB_20130521_1',
+        date: '2013-05-21',
+        name: 'Ориентир-6',
+        type: 'ORIENT',
+        start: 'ORIENTIR',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130521_split.htm',
+        o_site: '130331_OR'
+    },
+    {
         id: 'SPB_20130522_1',
         date: '2013-05-22',
         endDate: '2013-05-23',
@@ -572,6 +716,24 @@ let events2013 = [
         owner: 'SFSO_SPB',
         o_site: '13052223',
         map: 'pushkin_nizhny_2019'
+    },
+    {
+        id: 'SPB_20130522_2',
+        date: '2013-05-22',
+        name: 'Sprint Tour SPb 2013, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130904/130522_split.htm',
+        start: 'ST',
+        o_site: '130904'
+    },
+    {
+        id: 'SPB_20130523_1',
+        date: '2013-05-23',
+        name: 'Весенний Кубок 110%, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130606/130523_res.htm',
+        start: 'ROGAINE_110',
+        o_site: '130606'
     },
     {
         id: 'SPB_20130525_1',
@@ -606,6 +768,33 @@ let events2013 = [
         owner: 'SFSO_SPB',
         o_site: '130526_SPb',
         map: 'udelny_2009'
+    },
+    {
+        id: 'SPB_20130528_1',
+        date: '2013-05-28',
+        name: 'Ориентир-7',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130528_split.htm',
+        start: 'ORIENTIR',
+        o_site: '130331_OR'
+    },
+    {
+        id: 'SPB_20130529_1',
+        date: '2013-05-29',
+        name: 'Sprint Tour SPb 2013, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130904/130529_split.htm',
+        start: 'ST',
+        o_site: '130904'
+    },
+    {
+        id: 'SPB_20130530_1',
+        date: '2013-05-30',
+        name: 'Весенний Кубок 110%, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130606/130530_res.htm',
+        start: 'ROGAINE_110',
+        o_site: '130606'
     },
     {
         id: 'SPB_20130601_1',
@@ -651,12 +840,20 @@ let events2013 = [
         reskeep: 247
     },
     {
+        id: 'SPB_20130605_1',
+        date: '2013-06-05',
+        name: 'Sprint Tour SPb 2013, 8-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130904/130605_split.htm',
+        start: 'ST',
+        o_site: '130904'
+    },
+    {
         id: 'SPB_20130606_1',
         date: '2013-06-06',
         name: 'Весенний Кубок 110% - 6 этап',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130606/130418_res.htm',
-        info: '1 ЭТАП 18.04.13 Результаты. 2 ЭТАП 25.04.13 Результаты. 3 ЭТАП 16.05.13 Результаты. 4 ЭТАП 23.05.13 Результаты 5 ЭТАП 30.05.13 Результаты.',
         start: 'ROGAINE_110',
         o_site: '130606'
     },
@@ -668,6 +865,15 @@ let events2013 = [
         name: 'Аттестационный судейский семинар',
         type: 'ORIENT',
         o_site: '13060809'
+    },
+    {
+        id: 'SPB_20130609_1',
+        date: '2013-06-09',
+        name: 'Ориентир-8',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130609_split.htm',
+        start: 'ORIENTIR',
+        o_site: '130331_OR'
     },
     {
         id: 'SPB_20130612_1',
@@ -794,6 +1000,15 @@ let events2013 = [
         o_site: '13071314'
     },
     {
+        id: 'SPB_20130714_1',
+        date: '2013-07-14',
+        name: 'Ориентир-9',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130714_split.htm',
+        start: 'ORIENTIR',
+        o_site: '130331_OR'
+    },
+    {
         id: 'SPB_20130720_1',
         date: '2013-07-20',
         place: 'Мичуринское',
@@ -845,6 +1060,15 @@ let events2013 = [
         link: 'www.wrc2013.com'
     },
     {
+        id: 'SPB_20130728_1',
+        date: '2013-07-28',
+        name: 'Ориентир-10',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130728_split.htm',
+        start: 'ORIENTIR',
+        o_site: '130331_OR'
+    },
+    {
         id: 'SPB_20130810_1',
         date: '2013-08-10',
         endDate: '2013-08-11',
@@ -855,6 +1079,15 @@ let events2013 = [
         split: 'splits/2013/SPB_20130810_1_split.htm',
         fmt: '8 и 24 часа',
         o_site: '130811'
+    },
+    {
+        id: 'SPB_20130811_1',
+        date: '2013-08-11',
+        name: 'Ориентир-11',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130811_split.htm',
+        start: 'ORIENTIR',
+        o_site: '130331_OR'
     },
     {
         id: 'SPB_20130824_1',
@@ -897,6 +1130,15 @@ let events2013 = [
         map: 'gs_2013_08_25',
     },
     {
+        id: 'SPB_20130904_1',
+        date: '2013-09-04',
+        name: 'Sprint Tour SPb 2013, 9-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130904/130904_split.htm',
+        start: 'ST',
+        o_site: '130904'
+    },
+    {
         id: 'SPB_20130905_1',
         date: '2013-09-05',
         name: 'Кузьмоловские старты',
@@ -904,8 +1146,16 @@ let events2013 = [
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130905/130905_res.htm',
-        info: 'Серия тренировочных стартов в пригороде Петербурга 05 сентября Результаты. 12 сентября Результаты. 19 сентября Результаты. 26 сентября Результаты. 03 октября Результаты. 10 октября Результаты.',
         o_site: '130905'
+    },
+    {
+        id: 'SPB_20130905_2',
+        date: '2013-09-05',
+        name: 'Ориентир-12. П-во Фрунзенского р-на среди школьников',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130905_split.htm',
+        start: 'ORIENTIR',
+        o_site: '130331_OR'
     },
     {
         id: 'SPB_20130907_2',
@@ -931,13 +1181,32 @@ let events2013 = [
         reskeep: 254
     },
     {
+        id: 'SPB_20130910_1',
+        date: '2013-09-10',
+        name: 'Ориентир-13',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130910_split.htm',
+        start: 'ORIENTIR',
+        o_site: '130331_OR'
+    },
+    {
         id: 'SPB_20130911_1',
         date: '2013-09-11',
         place: 'шк 536',
         name: 'Sprint Tour SPb 2013 - 10 этап',
         type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130904/130911_split.htm',
         start: 'ST',
         map: 'kosmonavtov_2013'
+    },
+    {
+        id: 'SPB_20130912_1',
+        date: '2013-09-12',
+        name: 'Кузьмоловские старты, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130905/130912_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '130905'
     },
     {
         id: 'SPB_20130914_1',
@@ -964,6 +1233,24 @@ let events2013 = [
         split: 'splits/2013/SPB_20130914_2_split.htm',
         info: 'Три формата: рогейн 8 часов, заданное направление 24 часа или 15+10 часов с обязательной ночевкой (по типу "Марш-Броска")',
         o_site: '13091415'
+    },
+    {
+        id: 'SPB_20130917_1',
+        date: '2013-09-17',
+        name: 'Ориентир-14',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130917_split.htm',
+        start: 'ORIENTIR',
+        o_site: '130331_OR'
+    },
+    {
+        id: 'SPB_20130919_1',
+        date: '2013-09-19',
+        name: 'Кузьмоловские старты, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130905/130919_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '130905'
     },
     {
         id: 'SPB_20130921_1',
@@ -1004,6 +1291,24 @@ let events2013 = [
         owner: 'SFSO_SPB',
         o_site: '130922',
         reskeep: 226
+    },
+    {
+        id: 'SPB_20130924_1',
+        date: '2013-09-24',
+        name: 'Ориентир-15',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/130331_OR/130924_split.htm',
+        start: 'ORIENTIR',
+        o_site: '130331_OR'
+    },
+    {
+        id: 'SPB_20130926_1',
+        date: '2013-09-26',
+        name: 'Кузьмоловские старты, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130905/130926_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '130905'
     },
     {
         id: 'SPB_20130927_1',
@@ -1069,6 +1374,15 @@ let events2013 = [
         o_site: '130929'
     },
     {
+        id: 'SPB_20131003_1',
+        date: '2013-10-03',
+        name: 'Кузьмоловские старты, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130905/131003_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '130905'
+    },
+    {
         id: 'SPB_20131005_1',
         date: '2013-10-05',
         place: 'Осиновая Роща',
@@ -1092,6 +1406,15 @@ let events2013 = [
         info: '4-е по счёту традиционные соревнования, проводимые клубом "Белые Ночи" при спонсорской поддержке генерального партнёра trikolor.tv',
         owner: 'WN',
         o_site: '131006'
+    },
+    {
+        id: 'SPB_20131010_1',
+        date: '2013-10-10',
+        name: 'Кузьмоловские старты, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130905/131010_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '130905'
     },
     {
         id: 'SPB_20131011_1',
@@ -1285,6 +1608,23 @@ let events2013 = [
         o_site: '131123'
     },
     {
+        id: 'SPB_20131124_1',
+        date: '2013-11-24',
+        name: 'Всеволожская тропа',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/131208_tr/131124_split.htm',
+        o_site: '131208_tr'
+    },
+    {
+        id: 'SPB_20131124_2',
+        date: '2013-11-24',
+        name: 'Ориентир-НатАлка',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/130331_OR/131124_split.htm',
+        start: 'ORIENTIR',
+        o_site: '130331_OR'
+    },
+    {
         id: 'SPB_20131130_1',
         date: '2013-11-30',
         place: 'Зеленогорск',
@@ -1316,12 +1656,7 @@ let events2013 = [
         name: 'Всеволожская тропа',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
-        res: 'http://o-site.spb.ru/_races/131208_tr/131124_res.htm',
-        split: [
-            'splits/2013/SPB_20131208_1_1_split.htm',
-            'splits/2013/SPB_20131208_1_2_split.htm'
-        ],
-        info: 'Результаты 24.11.13. Большинство участников сняты за нереальный результат на перегоне 37-38, где надо было оббегать забор. Сплиты 24.11.13.',
+        res: 'https://o-site.spb.ru/_races/131208_tr/131208_split.htm',
         o_site: '131208_tr'
     },
     {
@@ -1378,29 +1713,8 @@ let events2013 = [
         name: 'Ориентир Заключительный',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru',
-        res: 'http://o-site.spb.ru/_races/130331_OR/130331_res_.htm',
-        split: [
-            'splits/2013/SPB_20131229_1_1_split.htm',
-            'splits/2013/SPB_20131229_1_2_split.htm',
-            'splits/2013/SPB_20131229_1_3_split.htm',
-            'splits/2013/SPB_20131229_1_4_split.htm',
-            'splits/2013/SPB_20131229_1_5_split.htm',
-            'splits/2013/SPB_20131229_1_6_split.htm',
-            'splits/2013/SPB_20131229_1_7_split.htm',
-            'splits/2013/SPB_20131229_1_8_split.htm',
-            'splits/2013/SPB_20131229_1_9_split.htm',
-            'splits/2013/SPB_20131229_1_10_split.htm',
-            'splits/2013/SPB_20131229_1_11_split.htm',
-            'splits/2013/SPB_20131229_1_12_split.htm',
-            'splits/2013/SPB_20131229_1_13_split.htm',
-            'splits/2013/SPB_20131229_1_14_split.htm',
-            'splits/2013/SPB_20131229_1_15_split.htm',
-            'splits/2013/SPB_20131229_1_16_split.htm',
-            'splits/2013/SPB_20131229_1_17_split.htm',
-            'splits/2013/SPB_20131229_1_18_split.zip',
-            'splits/2013/SPB_20131229_1_19_split.htm'
-        ],
-        info: 'Традиционная серия тренировочных стартов КСО Азимут: 31.03 Ориентир-1: результаты, сплиты 09.04 Ориентир-2: результаты, сплиты 14.04 Ориентир-3 Подснежник: результаты, сплиты 23.04 Ориентир-4: результаты, сплиты 14.05 Ориентир-5: результаты, сплиты 21.05 Ориентир-6: результаты, сплиты 28.05 Ориентир-7: результаты, сплиты 09.06 Ориентир-8: результаты, сплиты 14.07 Ориентир-9: результаты, сплиты 28.07 Ориентир-10: результаты, сплиты 11.08 Ориентир-11: результаты, сплиты 05.09 Ориентир-12. П-во Фрунзенского р-на среди школьников: результаты, сплиты 10.09 Ориентир-13: результаты, сплиты 17.09 Ориентир-14: результаты, сплиты 24.09 Ориентир-15: результаты, сплиты 24.11 Ориентир-НатАлка: результаты, сплиты 24.11 Ориентир Заключительный: результаты, сплиты',
+        res: 'http://o-site.spb.ru/_races/130331_OR/131229_split.htm',
+        start: 'ORIENTIR',
         o_site: '130331_OR'
     }
 ];

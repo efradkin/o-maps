@@ -32,6 +32,7 @@ let events2020 = [
         place: 'Орехово',
         name: 'Горный кросс',
         type: 'ROGAINE',
+        res: 'http://www.o-site.spb.ru/_races/2020GK/200111R_split.htm',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
         start: 'GORNY_CROSS',
@@ -1221,6 +1222,7 @@ let events2020 = [
         place: 'Васкелово',
         name: 'White Nights Middle',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2020WN/200919_split.htm',
         reskeep: 368,
         split: 'splits/2020/SPB_20200919_2_split.htm',
         owner: 'WN',
@@ -1722,11 +1724,7 @@ let events2020 = [
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',
         res: 'http://www.o-site.spb.ru/_races/2020GK/200111R_split.htm',
-        split: [
-            'splits/2020/SPB_20201114_1_1_split.htm',
-            'splits/2020/SPB_20201114_1_2_split.htm'
-        ],
-        info: 'МНОГОЭТАПНЫЙ КУБОК ПО РОГЕЙНУ ГК-72 - сплиты - результаты - 11.01 - Орехово ГК-73 - 05.05 - оз.Омчино ГК-74 - 30-31.05 - Кузнечное ГК-75 - 11.07 - Орехово ГК-76 - 29-30.08 - г.Себеж, Псковская обл. ГК-77 - 26.09 - Молодежное ГК-78 - 14.11 - Зеленогорск (финал)',
+        split: 'splits/2020/SPB_20201114_1_2_split.htm',
         fmt: 'Рогейн; 7 и 3 часа БЕГ; 6 часа ВЕЛО; трейл',
         start: 'GORNY_CROSS',
         o_site: '2020GK',
@@ -1822,6 +1820,7 @@ let events2020 = [
         place: 'Орлиная гора, Кавголово',
         name: 'White Nights middle. 2 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/2020WN/201128_split.htm',
         reskeep: 405,
         split: 'splits/2020/SPB_20201128_1_split.htm',
         owner: 'WN',
@@ -1887,13 +1886,7 @@ let events2020 = [
         place: 'Кавголово',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1207',
-        res: 'http://o-site.spb.ru/_races/2020WN/200919_res.htm',
-        split: [
-            'splits/2020/SPB_20201212_1_1_split.htm',
-            'splits/2020/SPB_20201212_1_2_split.htm',
-            'splits/2020/SPB_20201212_1_3_split.htm'
-        ],
-        info: 'Серия тренировочных стартов, проводимая клубом Белые Ночи 1-й этап 19.09.20 Васкелово Результаты Сплиты 2-й этап 28.11.20 Кавголово, Орлиная гора Результаты Сплиты',
+        res: 'https://o-site.spb.ru/_races/2020WN/201212_res.htm',
         o_site: '2020WN',
         reskeep: 409,
         owner: 'WN'

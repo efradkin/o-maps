@@ -247,18 +247,33 @@ let events2014 = [
         o_site: '140316'
     },
     {
+        id: 'SPB_20140323_1',
+        date: '2014-03-23',
+        place: 'Ново-Знаменка',
+        name: 'Ориентир-1',
+        type: 'ORIENT',
+        start: 'ORIENTIR',
+        res: 'http://o-site.spb.ru/_races/140323_OR/140323_split.htm',
+        owner: 'AZIMUT',
+        o_site: '140323_OR'
+    },
+    {
+        id: 'SPB_20140330_1',
+        date: '2014-03-30',
+        place: 'Баболовский парк',
+        name: 'Ориентир-2',
+        type: 'ORIENT',
+        start: 'ORIENTIR',
+        res: 'http://o-site.spb.ru/_races/140323_OR/140330_split.htm',
+        owner: 'AZIMUT',
+        o_site: '140323_OR'
+    },
+    {
         id: 'SPB_20140401_1',
         date: '2014-04-01',
         name: 'Sprint Tour SPb 2014',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140409/140409_res.htm',
-        split: [
-            'splits/2014/SPB_20140401_1_1_split.htm',
-            'splits/2014/SPB_20140401_1_2_split.htm',
-            'splits/2014/SPB_20140401_1_3_split.htm',
-            'splits/2014/SPB_20140401_1_4_split.htm'
-        ],
-        info: 'Серия стартов в дисциплине "спринт" 1 этап-09 апреля результаты Routegadget. 2 этап-16 апреля результаты сплиты. 3 этап-07 мая результаты сплитыты Routegadget. 4 этап-14 мая результаты сплиты Routegadget. 5 этап-21 мая результаты сплиты Routegadget.',
         start: 'ST',
         o_site: '140409',
         endDate: '2014-10-31'
@@ -270,7 +285,6 @@ let events2014 = [
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140410/141023_res.htm',
-        info: 'Результаты: 1 этап - Карабсельки 2 этап - Кавголово 3 этап - ВИФК 4 этап - Юкки 5 этап - Охта-парк 6 этап - Куялово 7 этап - Токсово 8 этап - Токсово (неполные результаты) 9 этап - Токсово 10 этап - Кузьмолово 11 этап - Кузьмолово 12 этап - Осельки 13 этап - Токсово 14 этап - Токсово',
         o_site: '140410',
         endDate: '2014-10-31'
     },
@@ -295,6 +309,35 @@ let events2014 = [
         owner: 'STRKZK'
     },
     {
+        id: 'SPB_20140409_1',
+        date: '2014-04-09',
+        name: 'Sprint Tour SPb 2014, 1-й этап',
+        type: 'ORIENT',
+        start: 'ST',
+        res: 'http://o-site.spb.ru/_races/140409/140409_res.htm',
+        o_site: '140409'
+    },
+    {
+        id: 'SPB_20140410_1',
+        date: '2014-04-10',
+        place: 'Карабсельки',
+        name: 'Кузьмоловские старты, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/140410_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
+    },
+    {
+        id: 'SPB_20140415_1',
+        date: '2014-04-15',
+        place: 'Кавголово',
+        name: 'Кузьмоловские старты, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/140415_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
+    },
+    {
         id: 'SPB_20140416_1',
         date: '2014-04-16',
         place: 'ГБОУ СОШ №285, ул Пограничника Гарькавого, 46-4',
@@ -310,6 +353,36 @@ let events2014 = [
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке ОАО "Фацер"',
         owner: 'SFSO_SPB',
         o_site: '140416'
+    },
+    {
+        id: 'SPB_20140416_2',
+        date: '2014-04-16',
+        name: 'Sprint Tour SPb 2014, 2-й этап',
+        type: 'ORIENT',
+        start: 'ST',
+        res: 'http://o-site.spb.ru/_races/140409/160414_split.htm',
+        o_site: '140409'
+    },
+    {
+        id: 'SPB_20140422_1',
+        date: '2014-04-22',
+        place: 'Сосновка',
+        name: 'Ориентир-3',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140323_OR/140422_res.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '140323_OR'
+    },
+    {
+        id: 'SPB_20140424_1',
+        date: '2014-04-24',
+        place: 'ВИФК',
+        name: 'Кузьмоловские старты, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/140424_split.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
     },
     {
         id: 'SPB_20140426_1',
@@ -367,6 +440,15 @@ let events2014 = [
         o_site: '14050103'
     },
     {
+        id: 'SPB_20140507_1',
+        date: '2014-05-07',
+        name: 'Sprint Tour SPb 2014, 3-й этап',
+        type: 'ORIENT',
+        start: 'ST',
+        res: 'http://o-site.spb.ru/_races/140409/140507_split.htm',
+        o_site: '140409'
+    },
+    {
         id: 'SPB_20140509_1',
         date: '2014-05-09',
         place: 'Лемболово',
@@ -378,6 +460,17 @@ let events2014 = [
         owner: 'SFSO_SPB',
         o_site: '140509_vyz',
         map: 'lembolovo_2002'
+    },
+    {
+        id: 'SPB_20140513_1',
+        date: '2014-05-13',
+        place: 'Парк ЛТА',
+        name: 'Ориентир-4',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140323_OR/140513_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '140323_OR'
     },
     {
         id: 'SPB_20140514_1',
@@ -396,8 +489,19 @@ let events2014 = [
         place: 'Политехническая',
         name: 'Sprint Tour SPb 2014, 4 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140409/140514_split.htm',
         start: 'ST',
         map: 'politekhnicheskaya_2015'
+    },
+    {
+        id: 'SPB_20140515_1',
+        date: '2014-05-15',
+        place: 'Юкки',
+        name: 'Кузьмоловские старты, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/140515_split.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
     },
     {
         id: 'SPB_20140517_1',
@@ -439,6 +543,17 @@ let events2014 = [
         map: 'piskarevsky_2012'
     },
     {
+        id: 'SPB_20140520_1',
+        date: '2014-05-20',
+        place: 'Песочная',
+        name: 'Ориентир-5',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140323_OR/140520_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '140323_OR'
+    },
+    {
         id: 'SPB_20140521_1',
         date: '2014-05-21',
         place: 'ГБОУ СОШ №188, ул Маршала Тухачевского, 17А',
@@ -451,6 +566,25 @@ let events2014 = [
         owner: 'SFSO_SPB',
         o_site: '140521',
         map: 'school_188_2016'
+    },
+    {
+        id: 'SPB_20140521_2',
+        date: '2014-05-21',
+        name: 'Sprint Tour SPb 2014, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140409/140521_split.htm',
+        o_site: '140409',
+        start: 'ST'
+    },
+    {
+        id: 'SPB_20140522_1',
+        date: '2014-05-22',
+        place: 'Охта-парк',
+        name: 'Кузьмоловские старты, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/140522_split.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
     },
     {
         id: 'SPB_20140524_1',
@@ -499,6 +633,27 @@ let events2014 = [
         o_site: '140525_SPb'
     },
     {
+        id: 'SPB_20140527_1',
+        date: '2014-05-27',
+        place: 'Песочная',
+        name: 'Ориентир-6',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140323_OR/140527_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '140323_OR'
+    },
+    {
+        id: 'SPB_20140529_1',
+        date: '2014-05-29',
+        place: 'Куялово',
+        name: 'Кузьмоловские старты, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/140529_split.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
+    },
+    {
         id: 'SPB_20140531_1',
         date: '2014-05-31',
         endDate: '2014-06-01',
@@ -534,6 +689,16 @@ let events2014 = [
         split: 'splits/2014/SPB_20140601_1_split.htm',
         start: 'ROGAINE_110',
         o_site: '140601'
+    },
+    {
+        id: 'SPB_20140605_1',
+        date: '2014-06-05',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/140605_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
     },
     {
         id: 'SPB_20140607_1',
@@ -573,6 +738,14 @@ let events2014 = [
         },
         start: 'KZNTSVA',
         reskeep: 246
+    },
+    {
+        id: 'SPB_20140607_3',
+        date: '2014-06-07',
+        name: 'Кубок Коротких Маршрутов, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140607_KKM/KKM140607_split.zip',
+        o_site: '140607_KKM'
     },
     {
         id: 'SPB_20140608_1',
@@ -744,6 +917,14 @@ let events2014 = [
         o_site: '14070506'
     },
     {
+        id: 'SPB_20140705_2',
+        date: '2014-07-05',
+        name: 'Кубок Коротких Маршрутов, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140607_KKM/140705_split.htm',
+        o_site: '140607_KKM'
+    },
+    {
         id: 'SPB_20140712_1',
         date: '2014-07-12',
         endDate: '2014-07-13',
@@ -783,6 +964,17 @@ let events2014 = [
         start: 'ROGAINE_110'
     },
     {
+        id: 'SPB_20140727_2',
+        date: '2014-07-27',
+        place: 'Петяярви',
+        name: 'Ориентир-7',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140323_OR/140727_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '140323_OR'
+    },
+    {
         id: 'SPB_20140802_1',
         date: '2014-08-02',
         name: 'Чемпионат СЗФО по рогейну',
@@ -816,14 +1008,8 @@ let events2014 = [
         name: 'Кубок Коротких Маршрутов, 3-й этап',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
-        res: 'http://o-site.spb.ru/_races/140607_KKM/KKM140607_rez.pdf',
-        split: [
-            'splits/2014/SPB_20140810_1_1_split.zip',
-            'splits/2014/SPB_20140810_1_2_split.htm',
-            'splits/2014/SPB_20140810_1_3_split.xls'
-        ],
+        res: 'https://o-site.spb.ru/_races/140607_KKM/140810_split.xls',
         photo: 'http://vk.com/club21533513?z=album-21533513_196582690',
-        info: '07.06 1-й этап: результаты, сплиты 05.07 2-й этап: результаты, сплиты',
         o_site: '140607_KKM'
     },
     {
@@ -846,6 +1032,16 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/140824_ZZ/140824_res.htm',
         start: 'GS',
         o_site: '140824_ZZ'
+    },
+    {
+        id: 'SPB_20140904_1',
+        date: '2014-09-04',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 8-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/140904_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
     },
     {
         id: 'SPB_20140906_1',
@@ -884,6 +1080,27 @@ let events2014 = [
         reskeep: 239
     },
     {
+        id: 'SPB_20140909_1',
+        date: '2014-09-09',
+        place: 'Токсово',
+        name: 'Ориентир-8',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140323_OR/140909_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '140323_OR'
+    },
+    {
+        id: 'SPB_20140911_1',
+        date: '2014-09-11',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 9-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/140911_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
+    },
+    {
         id: 'SPB_20140913_1',
         date: '2014-09-13',
         name: 'Ч-т и П-во Ленинградской области',
@@ -893,6 +1110,27 @@ let events2014 = [
         split: 'splits/2014/SPB_20140913_1_split.htm',
         o_site: '14091314',
         endDate: '2014-09-14'
+    },
+    {
+        id: 'SPB_20140916_1',
+        date: '2014-09-16',
+        place: 'Парк Интернационалистов',
+        name: 'Ориентир-9',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140323_OR/140916_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '140323_OR'
+    },
+    {
+        id: 'SPB_20140918_1',
+        date: '2014-09-18',
+        place: 'Кузьмолово',
+        name: 'Кузьмоловские старты, 10-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/140918_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
     },
     {
         id: 'SPB_20140919_1',
@@ -928,6 +1166,27 @@ let events2014 = [
         info: '5-е по счёту традиционные соревнования, проводимые клубом "Белые Ночи" при спонсорской поддержке генерального партнёра trikolor.tv',
         owner: 'WN',
         o_site: '140921'
+    },
+    {
+        id: 'SPB_20140923_1',
+        date: '2014-09-23',
+        place: 'Кавголово',
+        name: 'Ориентир-10',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140323_OR/140923_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '140323_OR'
+    },
+    {
+        id: 'SPB_20140925_1',
+        date: '2014-09-25',
+        place: 'Кузьмолово',
+        name: 'Кузьмоловские старты, 11-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/140925_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
     },
     {
         id: 'SPB_20140927_1',
@@ -972,6 +1231,16 @@ let events2014 = [
         info: 'Городские соревнования «СТАРТЫ в ЗЕРКАЛЬНОМ» 26-29 сентября',
         o_site: '140926-29',
         map: 'zerkalny_2002'
+    },
+    {
+        id: 'SPB_20141002_1',
+        date: '2014-10-02',
+        place: 'Осельки',
+        name: 'Кузьмоловские старты, 12-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/141002_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
     },
     {
         id: 'SPB_20141004_1',
@@ -1033,6 +1302,16 @@ let events2014 = [
         o_site: '141008'
     },
     {
+        id: 'SPB_20141009_1',
+        date: '2014-10-09',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 13-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/141009_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
+    },
+    {
         id: 'SPB_20141011_1',
         date: '2014-10-11',
         place: 'Яппиля, оз Комонь',
@@ -1074,6 +1353,16 @@ let events2014 = [
         o_site: '141015',
         map: 'school_468_2014',
         start: 'SCHOOL'
+    },
+    {
+        id: 'SPB_20141016_1',
+        date: '2014-10-16',
+        place: 'Токсово',
+        name: 'Кузьмоловские старты, 14-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/140410/141016_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '140410'
     },
     {
         id: 'SPB_20141018_1',
@@ -1287,26 +1576,11 @@ let events2014 = [
         place: 'Сосновка',
         name: 'Ориентир НатАлка',
         type: 'ORIENT',
-        res: 'http://o-site.spb.ru/_races/140323_OR/140323_res.htm',
-        split: [
-            'splits/2014/SPB_20141130_1_1_split.htm',
-            'splits/2014/SPB_20141130_1_2_split.htm',
-            'splits/2014/SPB_20141130_1_3_split.htm',
-            'splits/2014/SPB_20141130_1_4_split.htm',
-            'splits/2014/SPB_20141130_1_5_split.htm',
-            'splits/2014/SPB_20141130_1_6_split.htm',
-            'splits/2014/SPB_20141130_1_7_split.htm',
-            'splits/2014/SPB_20141130_1_8_split.zip',
-            'splits/2014/SPB_20141130_1_9_split.htm',
-            'splits/2014/SPB_20141130_1_10_split.htm',
-            'splits/2014/SPB_20141130_1_11_split.zip',
-            'splits/2014/SPB_20141130_1_12_split.htm',
-            'splits/2014/SPB_20141130_1_13_split.htm'
-        ],
-        info: 'Традиционная серия тренировочных стартов КСО Азимут: 23.03 Ново-Знаменка, Ориентир-1: результаты, сплиты 30.03 Баболовский парк, Ориентир-2: результаты, сплиты 22.04 Сосновка, Ориентир-3: результаты 13.05 Парк ЛТА, Ориентир-4: результаты, сплиты 20.05 Песочная, Ориентир-5: результаты, сплиты 27.05 Песочная, Ориентир-6: результаты, сплиты 27.07 Петяярви, Ориентир-7: результаты, сплиты 09.09 Токсово, Ориентир-8: результаты, сплиты, распечатки снятых 16.09 Парк Интернационалистов, Ориентир-9: результаты, сплиты 23.09 Кавголово, Ориентир-10: результаты, сплиты, распечатки 30.11 Сосновка, Ориентир "НатАлка": результаты, сплиты',
+        res: 'http://o-site.spb.ru/_races/140323_OR/141130_split.htm',
         logo: 'azimut.gif',
         o_site: '140323_OR',
         map: ['sosnovka_2014','pushkin_babolovsky_2019','pesochnaya_2005'],
+        start: 'ORIENTIR',
         owner: 'AZIMUT'
     },
     {

@@ -224,6 +224,15 @@ let events2018 = [
         o_site: '180223'
     },
     {
+        id: 'SPB_20180223_2',
+        date: '2018-02-23',
+        place: 'Рахья',
+        name: 'Всеволожская тропа, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/180223VT/180223_split.htm',
+        o_site: '180223VT'
+    },
+    {
         id: 'SPB_20180224_1',
         date: '2018-02-24',
         place: 'Цвелодубово',
@@ -309,13 +318,7 @@ let events2018 = [
         name: 'Всеволожская тропа: Токсово',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=848',
-        res: 'http://o-site.spb.ru/_races/180223VT/180223_res.htm',
-        split: [
-            'splits/2018/SPB_20180308_1_1_split.htm',
-            'splits/2018/SPB_20180308_1_2_split.htm',
-            'splits/2018/SPB_20180308_1_3_split.htm'
-        ],
-        info: '23 февраля, Рахья: результаты, сплиты. 8 марта, Токсово результаты, сплиты.',
+        res: 'http://o-site.spb.ru/_races/180223VT/180308_split.htm',
         o_site: '180223VT'
     },
     {
@@ -544,6 +547,15 @@ let events2018 = [
         map: 'pushkin_babolovsky_2019'
     },
     {
+        id: 'SPB_20180428_1',
+        date: '2018-04-28',
+        place: 'Воейково',
+        name: 'Кубок Коротких рогейнов, 1-й этап',
+        type: 'ROGAINE',
+        res: 'http://o-site.spb.ru/_races/2018_kkr/180428_split.htm',
+        o_site: '2018_kkr'
+    },
+    {
         id: 'SPB_20180429_1',
         date: '2018-04-29',
         endDate: '2018-05-02',
@@ -661,6 +673,15 @@ let events2018 = [
         res: 'http://o-site.spb.ru/_races/2018WN/180512_split.htm',
         owner: 'WN',
         o_site: '2018WN'
+    },
+    {
+        id: 'SPB_20180512_2',
+        date: '2018-05-12',
+        place: 'Симагино',
+        name: 'Кубок Коротких рогейнов, 2-й этап',
+        type: 'ROGAINE',
+        res: 'http://o-site.spb.ru/_races/2018_kkr/180512_kkr_split.htm',
+        o_site: '2018_kkr'
     },
     {
         id: 'SPB_20180513_1',
@@ -1222,6 +1243,15 @@ let events2018 = [
         split: 'splits/2018/SPB_20180722_1_split.htm'
     },
     {
+        id: 'SPB_20180722_2',
+        date: '2018-07-22',
+        place: 'Лемболово',
+        name: 'Кубок Коротких рогейнов, 3-й этап',
+        type: 'ROGAINE',
+        res: 'http://o-site.spb.ru/_races/2018_kkr/180722_split.htm',
+        o_site: '2018_kkr'
+    },
+    {
         id: 'SPB_20180728_1',
         date: '2018-07-28',
         place: 'Луга, оз Омчино',
@@ -1353,7 +1383,6 @@ let events2018 = [
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList13092018.htm',
-        info: 'Тренировочные старты в окрестностях поселка Кузьмоловский. Осенняя серия 2018 1 этап — 13 сентября — Токсово, Изумрудное озеро Результаты 1-го этапа 2 этап — 20 сентября — Токсово, Малиновая гора Результаты 2-го этапа 3 этап — 27 сентября — Осиновая Роща Результаты 3-го этапа 4 этап — 04 октября — Кузьмолово, полигон Результаты 4-го этапа 5 этап — 11 октября — Токсово, лыжедром СКА Результаты 5-го этапа 6 этап — 18 октября — Токсово, Комбыт Результаты 6-го этапа',
         o_site: '2018_KS',
         endDate: '2018-10-31',
         map: 'toksovo_malinovaya_gora_2018'
@@ -1450,6 +1479,16 @@ let events2018 = [
         split: 'splits/2018/SPB_20180912_1_split.htm'
     },
     {
+        id: 'SPB_20180913_1',
+        date: '2018-09-13',
+        place: 'Токсово, Изумрудное озеро',
+        name: 'Кузьмоловские старты, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/KS_2018/ResultList13092018.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '2018_KS'
+    },
+    {
         id: 'SPB_20180915_1',
         date: '2018-09-15',
         place: 'Мичуринское',
@@ -1507,6 +1546,7 @@ let events2018 = [
         name: 'Кузьмоловские старты. 2 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/KS_2018/ResultList20092018.htm',
         reskeep: 51,
         split: 'splits/2018/SPB_20180920_1_split.htm',
         map: 'toksovo_malinovaya_gora_2018'
@@ -1546,6 +1586,7 @@ let events2018 = [
         place: 'Сестрорецие Дюны',
         name: 'Цикл стартов МаТрёшка. 2 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/1804-11/180922_split_MT.htm',
         reskeep: 54,
         split: 'splits/2018/SPB_20180922_2_split.htm'
     },
@@ -1584,6 +1625,7 @@ let events2018 = [
         name: 'Кузьмоловские старты. 3 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/KS_2018/ResultList27092018.html',
         reskeep: 52,
         split: 'splits/2018/SPB_20180927_1_split.htm'
     },
@@ -1637,6 +1679,7 @@ let events2018 = [
         place: 'Зеленогорск, Черные озера',
         name: 'Цикл стартов МаТрёшка. 3 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/1804-11/180929_split_MT.htm',
         reskeep: 53,
         split: 'splits/2018/SPB_20180929_6_split.htm'
     },
@@ -1729,6 +1772,7 @@ let events2018 = [
         name: 'Кузьмоловские старты. 4 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/KS_2018/results04102018.htm',
         reskeep: 71,
         split: 'splits/2018/SPB_20181004_1_split.htm'
     },
@@ -1797,6 +1841,7 @@ let events2018 = [
         name: 'Кузьмоловские старты. 5 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/KS_2018/ResultList11102018.htm',
         reskeep: 72,
         split: 'splits/2018/SPB_20181011_1_split.htm'
     },
@@ -1836,7 +1881,6 @@ let events2018 = [
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=928',
         res: 'http://o-site.spb.ru/_races/2018_kkr/180428_res.htm',
-        info: '1-й этап 28 апреля Воейково Результаты Сплиты 2-й этап 12 мая Симагино Результаты Сплиты 3-й этап 22 июля Лемболово Результаты Сплиты',
         o_site: '2018_kkr'
     },
     {
@@ -1858,6 +1902,7 @@ let events2018 = [
         name: 'Кузьмоловские старты. 6 этап',
         owner: 'KUZMOLOVO',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/KS_2018/ResultList18102018.htm',
         reskeep: 64,
         split: 'splits/2018/SPB_20181018_1_split.htm'
     },
@@ -2162,6 +2207,14 @@ let events2018 = [
         o_site: '181124n'
     },
     {
+        id: 'SPB_20181124_2',
+        date: '2018-11-24',
+        name: 'Цикл стартов МаТрёшка, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/1804-11/181124_MT_split.htm',
+        o_site: '1804-11'
+    },
+    {
         id: 'SPB_20181125_1',
         date: '2018-11-25',
         place: 'Буферный парк, Пушкин',
@@ -2214,8 +2267,9 @@ let events2018 = [
         id: 'SPB_20181202_2',
         date: '2018-12-02',
         place: 'Орехово',
-        name: 'Цикл стартов МаТрёшка. 4 этап',
+        name: 'Цикл стартов МаТрёшка',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/1804-11/181202_split_MT.htm',
         reskeep: 96,
         split: 'splits/2018/SPB_20181202_2_split.htm',
         map: 'orekhovo_rakitinskoe_2004'
@@ -2247,15 +2301,7 @@ let events2018 = [
         date: '2018-12-09',
         name: 'Цикл стартов МаТрёшка 2018',
         type: 'ORIENT',
-        res: 'http://o-site.spb.ru/_races/1804-11/180922_rez_MT.htm',
-        split: [
-            'splits/2018/SPB_20181209_1_1_split.htm',
-            'splits/2018/SPB_20181209_1_2_split.htm',
-            'splits/2018/SPB_20181209_1_3_split.htm',
-            'splits/2018/SPB_20181209_1_4_split.htm',
-            'splits/2018/SPB_20181209_1_5_split.htm'
-        ],
-        info: '2-й этап Результаты Сплиты 3-й этап Результаты Сплиты 4-й этап Результаты Сплиты Контрольная карта 5-й этап Результаты Сплиты Распечатки',
+        res: 'https://o-site.spb.ru/_races/1804-11/181209_split_MT.htm',
         o_site: '1804-11',
         reskeep: 99
     },

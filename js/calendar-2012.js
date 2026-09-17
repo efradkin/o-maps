@@ -239,6 +239,16 @@ let events2012 = [
         map: 'toksovo_malinovaya_gora_1997'
     },
     {
+        id: 'SPB_20120325_1',
+        date: '2012-03-25',
+        name: 'Ориентир-1',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/120325_Or/120325_split_.htm',
+        owner: 'AZIMUT',
+        o_site: '120325_Or',
+        start: 'ORIENTIR'
+    },
+    {
         id: 'SPB_20120401_1',
         date: '2012-04-01',
         place: 'Сертолово',
@@ -287,6 +297,15 @@ let events2012 = [
         o_site: '120412'
     },
     {
+        id: 'SPB_20120419_1',
+        date: '2012-04-19',
+        name: 'Кубок команды 110%, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121025/120419_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20120420_1',
         date: '2012-04-20',
         name: 'Открытое п-во 495 шк. Моск.р-на по ориентированию в закрытых помещениях',
@@ -319,6 +338,16 @@ let events2012 = [
         o_site: '12042122'
     },
     {
+        id: 'SPB_20120425_1',
+        date: '2012-04-25',
+        name: 'Ориентир-2',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/120325_Or/120425_res.htm',
+        owner: 'AZIMUT',
+        o_site: '120325_Or',
+        start: 'ORIENTIR'
+    },
+    {
         id: 'SPB_20120426_1',
         date: '2012-04-26',
         place: 'Колпино, парк Детский пляж',
@@ -326,6 +355,15 @@ let events2012 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120426/120426_res.pdf',
         o_site: '120426'
+    },
+    {
+        id: 'SPB_20120426_2',
+        date: '2012-04-26',
+        name: 'Кубок команды 110%, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/12101825/120426_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20120429_1',
@@ -386,6 +424,16 @@ let events2012 = [
         owner: 'AZIMUT'
     },
     {
+        id: 'SPB_20120516_1',
+        date: '2012-05-16',
+        name: 'Ориентир-3',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/120325_Or/120516_split.htm',
+        owner: 'AZIMUT',
+        o_site: '120325_Or',
+        start: 'ORIENTIR'
+    },
+    {
         id: 'SPB_20120517_1',
         date: '2012-05-17',
         endDate: '2012-05-18',
@@ -395,6 +443,15 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/12051718/120517_res.htm',
         owner: 'SFSO_SPB',
         o_site: '12051718'
+    },
+    {
+        id: 'SPB_20120517_2',
+        date: '2012-05-17',
+        name: 'Кубок команды 110%, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121025/120517_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20120519_1',
@@ -467,6 +524,25 @@ let events2012 = [
         map: 'udelny_2009'
     },
     {
+        id: 'SPB_20120523_1',
+        date: '2012-05-23',
+        name: 'Ориентир-4',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/120325_Or/120523_split.htm',
+        owner: 'AZIMUT',
+        o_site: '120325_Or',
+        start: 'ORIENTIR'
+    },
+    {
+        id: 'SPB_20120524_1',
+        date: '2012-05-24',
+        name: 'Кубок команды 110%, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121025/120524_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20120525_1',
         date: '2012-05-25',
         endDate: '2012-05-27',
@@ -501,6 +577,25 @@ let events2012 = [
         map: 'pukhtolova_gora_2009'
     },
     {
+        id: 'SPB_20120530_1',
+        date: '2012-05-30',
+        name: 'Ориентир-5',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/120325_Or/120530_split.htm',
+        owner: 'AZIMUT',
+        o_site: '120325_Or',
+        start: 'ORIENTIR'
+    },
+    {
+        id: 'SPB_20120531_1',
+        date: '2012-05-31',
+        name: 'Кубок команды 110%, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121025/120531_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20120602_1',
         date: '2012-06-02',
         place: 'парк Ново-Знаменка',
@@ -526,6 +621,15 @@ let events2012 = [
         owner: 'SFSO_SPB',
         o_site: '120603',
         reskeep: 234
+    },
+    {
+        id: 'SPB_20120607_1',
+        date: '2012-06-07',
+        name: 'Кубок команды 110%, 6-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121025/120607_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20120610_1',
@@ -704,6 +808,26 @@ let events2012 = [
         o_site: 'tri-o-tlon-2012'
     },
     {
+        id: 'SPB_20120805_1',
+        date: '2012-08-05',
+        name: 'Ориентир-6',
+        type: 'ORIENT',
+        start: 'ORIENTIR',
+        res: 'http://o-site.spb.ru/_races/120325_Or/120805_split.htm',
+        owner: 'AZIMUT',
+        o_site: '120325_Or'
+    },
+    {
+        id: 'SPB_20120819_1',
+        date: '2012-08-19',
+        name: 'Ориентир-7',
+        type: 'ORIENT',
+        start: 'ORIENTIR',
+        res: 'http://o-site.spb.ru/_races/120325_Or/120819_split.htm',
+        owner: 'AZIMUT',
+        o_site: '120325_Or'
+    },
+    {
         id: 'SPB_20120825_1',
         date: '2012-08-25',
         place: 'Токсово',
@@ -735,6 +859,16 @@ let events2012 = [
         o_site: '120826_zz'
     },
     {
+        id: 'SPB_20120905_1',
+        date: '2012-09-05',
+        name: 'Ориентир-8',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/120325_Or/120905_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '120325_Or'
+    },
+    {
         id: 'SPB_20120908_1',
         date: '2012-09-08',
         name: 'Горный кросс (4 этап)',
@@ -753,6 +887,25 @@ let events2012 = [
         owner: 'SFSO_SPB',
         o_site: '120909',
         map: 'orekhovo_rakitinskoe_2004'
+    },
+    {
+        id: 'SPB_20120912_1',
+        date: '2012-09-12',
+        name: 'Ориентир-9',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/120325_Or/120912_split.htm',
+        owner: 'AZIMUT',
+        start: 'ORIENTIR',
+        o_site: '120325_Or'
+    },
+    {
+        id: 'SPB_20120913_1',
+        date: '2012-09-13',
+        name: 'Кубок команды 110%, 7-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121025/120913_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20120915_1',
@@ -818,8 +971,18 @@ let events2012 = [
         place: 'ул Сикейроса',
         name: 'Sprint Tour Spb',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121013/120919_split.htm',
         start: 'ST',
         map: 'school_101_2011'
+    },
+    {
+        id: 'SPB_20120920_1',
+        date: '2012-09-20',
+        name: 'Кубок команды 110%, 8-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121025/120920_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20120922_1',
@@ -861,12 +1024,30 @@ let events2012 = [
         o_site: '120923'
     },
     {
+        id: 'SPB_20120926_1',
+        date: '2012-09-26',
+        name: 'Sprint Tour SPb, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121013/120926_split.htm',
+        o_site: '121013',
+        start: 'ST'
+    },
+    {
         id: 'SPB_20120927_1',
         date: '2012-09-27',
         place: 'Молодёжное, ДОЛ Заря',
         name: 'Слёт школьных спортивных клубов. Игра на местности.',
         type: 'FUN',
         map: 'molodezhnoe_zarya_2012'
+    },
+    {
+        id: 'SPB_20120927_2',
+        date: '2012-09-27',
+        name: 'Кубок команды 110%, 9-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121025/120927_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20121001_1',
@@ -919,6 +1100,24 @@ let events2012 = [
         o_site: '120930'
     },
     {
+        id: 'SPB_20121003_1',
+        date: '2012-10-03',
+        name: 'Sprint Tour SPb, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121013/121003_split.htm',
+        o_site: '121013',
+        start: 'ST'
+    },
+    {
+        id: 'SPB_20121004_1',
+        date: '2012-10-04',
+        name: 'Кубок команды 110%, 10-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121025/121004_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20121006_1',
         date: '2012-10-06',
         place: 'Орехово',
@@ -964,6 +1163,15 @@ let events2012 = [
         o_site: '121011'
     },
     {
+        id: 'SPB_20121011_2',
+        date: '2012-10-11',
+        name: 'Кубок команды 110%, 11-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121025/121011_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20121012_1',
         date: '2012-10-12',
         name: 'Памяти Николая Иванова',
@@ -979,14 +1187,8 @@ let events2012 = [
         name: 'Sprint Tour Spb',
         place: 'Литейный пр',
         type: 'ORIENT',
-        res: 'http://o-site.spb.ru/_races/121013/120919_res.htm',
-        split: [
-            'splits/2012/SPB_20121013_1_1_split.htm',
-            'splits/2012/SPB_20121013_1_2_split.htm',
-            'splits/2012/SPB_20121013_1_3_split.htm',
-            'splits/2012/SPB_20121013_1_4_split.xls'
-        ],
-        info: 'Результаты и сплиты 1-го этапа. Результаты и сплиты 2-го этапа. Результаты и сплиты 3-го этапа. Результаты и сплиты 4-го этапа.',
+        res: 'http://o-site.spb.ru/_races/121013/121013_split.xls',
+        split: 'splits/2012/SPB_20121013_1_4_split.xls',
         start: 'ST',
         o_site: '121013'
     },
@@ -1016,6 +1218,15 @@ let events2012 = [
         map: 'sakharova_2015'
     },
     {
+        id: 'SPB_20121018_1',
+        date: '2012-10-18',
+        name: 'Кубок команды 110%, 12-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121025/121018_res.htm',
+        o_site: '121025',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20121020_1',
         date: '2012-10-20',
         endDate: '2012-10-21',
@@ -1039,7 +1250,6 @@ let events2012 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/121025/120419_res.htm',
         split: 'splits/2012/SPB_20121025_1_split.htm',
-        info: 'Результаты 1 этапа Результаты 2 этапа Результаты 3 этапа Результаты 4 этапа Результаты 5 этапа Результаты 6 этапа Результаты 7 этапа Результаты 8 этапа Результаты 9 этапа Результаты 10 этапа Результаты 11 этапа Результаты 12 этапа',
         start: 'ROGAINE_110',
         o_site: '121025'
     },
@@ -1190,6 +1400,16 @@ let events2012 = [
         map: 'lembolovo_russia_2007'
     },
     {
+        id: 'SPB_20121118_1',
+        date: '2012-11-18',
+        place: 'Пискаревский парк',
+        name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 1-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121118_tropa/121118_SPLIT.htm',
+        owner: 'SFSO_SPB',
+        o_site: '121118_tropa'
+    },
+    {
         id: 'SPB_20121124_1',
         date: '2012-11-24',
         place: 'Зеленогорск',
@@ -1207,23 +1427,20 @@ let events2012 = [
         place: 'Сосновка',
         name: 'Ориентир НатАлка',
         type: 'ORIENT',
-        res: 'http://o-site.spb.ru/_races/120325_Or/120325_res_.htm',
-        split: [
-            'splits/2012/SPB_20121125_1_1_split.htm',
-            'splits/2012/SPB_20121125_1_2_split.htm',
-            'splits/2012/SPB_20121125_1_3_split.htm',
-            'splits/2012/SPB_20121125_1_4_split.htm',
-            'splits/2012/SPB_20121125_1_5_split.htm',
-            'splits/2012/SPB_20121125_1_6_split.htm',
-            'splits/2012/SPB_20121125_1_7_split.htm',
-            'splits/2012/SPB_20121125_1_8_split.htm',
-            'splits/2012/SPB_20121125_1_9_split.htm'
-        ],
-        info: 'Традиционная серия тренировочных стартов КСО Азимут: 25.03 Ориентир-1: результаты, сплиты 25.04 Ориентир-2: результаты 16.05 Ориентир-3: результаты, сплиты 23.05 Ориентир-4: результаты, сплиты 30.05 Ориентир-5: результаты, сплиты 05.08 Ориентир-6: результаты, сплиты 19.08 Ориентир-7: результаты, сплиты 05.09 Ориентир-8: результаты, сплиты 12.09 Ориентир-9: результаты, сплиты',
-        logo: 'azimut.gif',
+        res: 'https://o-site.spb.ru/_races/120325_Or/121125_split_.htm',
         o_site: '120325_Or',
         map: 'sosnovka_2011',
+        start: 'ORIENTIR',
         owner: 'AZIMUT'
+    },
+    {
+        id: 'SPB_20121125_2',
+        date: '2012-11-25',
+        place: 'Токсово',
+        name: 'Всеволожская тропа, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130407/121125_res1.pdf',
+        o_site: '130407'
     },
     {
         id: 'SPB_20121208_1',
@@ -1233,6 +1450,16 @@ let events2012 = [
         type: 'ORIENT',
         info: 'Традиционный вечер встречи по итогам летнего сезона 2012. Организатор: Федерация спортивного ориентирования Санкт-Петербурга Проходит при поддержке: РедФокс, INOV8 Экипировочного центра «ОХТА» Сети магазинов Яркий Мир Санкт-Петербургского городского Дворца творчества юных В программе: награждение за Sprint Tour Spb, приз от клуба Северный Ветер и компании РедФокс спортсмену и тренеру (НЕ представляющих клуб СВ), особо отличившимся в прошедшем летнем сезоне, награждение за летнее Первенство СПб 2012 (детские группы - эстафета, масс-старт; ветеранские группы - спринт, эстафета, лонг, масс-старт), награждение по итогам летнего Кубка СПб и ЛО в личном и клубном зачётах. Начало вечера: в 17:00 Все пришедшие на вечер, смогут принять участие в лотерее, в которой будут разыграны ценные призы от компаний Яркий Мир и Экипировочного центра «ОХТА». Внимание! С собой необходимо иметь сменную обувь или бахилы!',
         o_site: '121208'
+    },
+    {
+        id: 'SPB_20121209_1',
+        date: '2012-12-09',
+        place: 'Парк Муринский',
+        name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/121118_tropa/121209_split.htm',
+        owner: 'SFSO_SPB',
+        o_site: '121118_tropa'
     },
     {
         id: 'SPB_20121215_1',
@@ -1254,6 +1481,15 @@ let events2012 = [
         res: 'https://o-site.spb.ru/_races/121216_2/121216_res.htm',
         split: 'splits/2012/SPB_20121216_1_split.htm',
         o_site: '121216_2'
+    },
+    {
+        id: 'SPB_20121216_2',
+        date: '2012-12-16',
+        place: 'Невская Дубровка',
+        name: 'Всеволожская тропа, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/130407/121216_split.htm',
+        o_site: '130407'
     },
     {
         id: 'SPB_20121222_1',

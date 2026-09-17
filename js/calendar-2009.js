@@ -243,6 +243,15 @@ let events2009 = [
         o_site: '090321'
     },
     {
+        id: 'SPB_20090409_1',
+        date: '2009-04-09',
+        name: 'Весенний Кубок 110%, 1-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'http://www.o-site.spb.ru/_races/0906cup110/090409_res.htm',
+        o_site: '0906cup110'
+    },
+    {
         id: 'SPB_20090411_1',
         date: '2009-04-11',
         endDate: '2009-04-12',
@@ -257,6 +266,15 @@ let events2009 = [
         info: 'ТРАДИЦИОННЫЕ СОРЕВНОВАНИЯ «СОСНОВОБОРСКИЕ ДЮНЫ 2009» по спортивному ориентированию бегом, а также Кубок Ленинградской области, 1,2 этапы, а также Кубок «Центра «Ладога» среди обучающихся в ОУ, 2 этап',
         owner: 'YUVENTA',
         o_site: '09041112'
+    },
+    {
+        id: 'SPB_20090416_1',
+        date: '2009-04-16',
+        name: 'Весенний Кубок 110%, 2-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'http://www.o-site.spb.ru/_races/0906cup110/090416_res.htm',
+        o_site: '0906cup110'
     },
     {
         id: 'SPB_20090419_1',
@@ -278,6 +296,15 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/090519/090421_res.htm',
         start: 'ST',
         o_site: '090519'
+    },
+    {
+        id: 'SPB_20090423_1',
+        date: '2009-04-23',
+        name: 'Весенний Кубок 110%, 3-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'http://www.o-site.spb.ru/_races/0906cup110/090423_res.htm',
+        o_site: '0906cup110'
     },
     {
         id: 'SPB_20090501_1',
@@ -356,6 +383,15 @@ let events2009 = [
         o_site: '090519'
     },
     {
+        id: 'SPB_20090514_1',
+        date: '2009-05-14',
+        name: 'Весенний Кубок 110%, 4-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'https://o-site.spb.ru/_races/0906cup110/090514_res.htm',
+        o_site: '0906cup110'
+    },
+    {
         id: 'SPB_20090516_1',
         date: '2009-05-16',
         place: 'Зеленогорск',
@@ -409,6 +445,14 @@ let events2009 = [
         o_site: '090519'
     },
     {
+        id: 'SPB_20090521_1',
+        date: '2009-05-21',
+        name: 'Весенний Кубок 110%, 5-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        o_site: '0906cup110'
+    },
+    {
         id: 'SPB_20090523_1',
         date: '2009-05-23',
         endDate: '2009-05-24',
@@ -433,6 +477,15 @@ let events2009 = [
         map: 'vesnino_ba_2009',
         start: 'BA',
         owner: 'BKTV'
+    },
+    {
+        id: 'SPB_20090528_1',
+        date: '2009-05-28',
+        name: 'Весенний Кубок 110%, 6-й этап',
+        type: 'ORIENT',
+        start: 'ROGAINE_110',
+        res: 'https://o-site.spb.ru/_races/0906cup110/090528_res.htm',
+        o_site: '0906cup110'
     },
     {
         id: 'SPB_20090530_1',
@@ -477,16 +530,7 @@ let events2009 = [
         place: 'Токсово',
         name: 'Весенний Кубок 110%',
         type: 'ORIENT',
-        res: 'http://www.o-site.spb.ru/_races/0906cup110/090409_res.htm',
-        split: [
-            'splits/2009/SPB_20090604_1_1_split.htm',
-            'splits/2009/SPB_20090604_1_2_split.htm',
-            'splits/2009/SPB_20090604_1_3_split.htm',
-            'splits/2009/SPB_20090604_1_4_split.htm',
-            'splits/2009/SPB_20090604_1_5_split.htm',
-            'splits/2009/SPB_20090604_1_6_split.zip'
-        ],
-        info: '1 этап(09 апреля): Результаты + Сплиты 2 этап(16 апреля): Результаты + Сплиты 3 этап(23 апреля): Результаты + Сплиты 4 этап(14 мая): Результаты + Сплиты 5 этап(21 мая): Результаты 6 этап(28 мая): Результаты + Сплиты 7 этап(04 июня): Результаты + Сплиты',
+        res: 'https://o-site.spb.ru/_races/0906cup110/090604_res.zip',
         start: 'ROGAINE_110',
         o_site: '0906cup110'
     },
@@ -793,6 +837,15 @@ let events2009 = [
         reskeep: 242
     },
     {
+        id: 'SPB_20090917_1',
+        date: '2009-09-17',
+        name: 'Осенний Кубок 110%, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/091126/090917_res.htm',
+        o_site: '091126',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20090919_1',
         date: '2009-09-19',
         place: 'Кавголово',
@@ -828,6 +881,15 @@ let events2009 = [
         o_site: '090920'
     },
     {
+        id: 'SPB_20090924_1',
+        date: '2009-09-24',
+        name: 'Осенний Кубок 110%, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/091126/090924_res.htm',
+        o_site: '091126',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20090925_1',
         date: '2009-09-25',
         endDate: '2009-09-28',
@@ -856,6 +918,15 @@ let events2009 = [
         split: 'splits/2009/SPB_20090927_1_split.htm',
         info: 'Кросс-кантрийная велосипедная гонка по пересеченной местности на кругу 6 км.',
         o_site: '090927kk'
+    },
+    {
+        id: 'SPB_20091001_1',
+        date: '2009-10-01',
+        name: 'Осенний Кубок 110%, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/091126/091001_res.htm',
+        o_site: '091126',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20091003_1',
@@ -893,6 +964,15 @@ let events2009 = [
         reskeep: 230
     },
     {
+        id: 'SPB_20091008_1',
+        date: '2009-10-08',
+        name: 'Осенний Кубок 110%, 4-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/091126/091008_res.htm',
+        o_site: '091126',
+        start: 'ROGAINE_110'
+    },
+    {
         id: 'SPB_20091010_1',
         date: '2009-10-10',
         place: 'Ягодное',
@@ -905,6 +985,15 @@ let events2009 = [
         ],
         start: 'OKINCHITSA',
         o_site: '091010'
+    },
+    {
+        id: 'SPB_20091015_1',
+        date: '2009-10-15',
+        name: 'Осенний Кубок 110%, 5-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/091126/091015_res.htm',
+        o_site: '091126',
+        start: 'ROGAINE_110'
     },
     {
         id: 'SPB_20091017_1',
@@ -1099,15 +1188,7 @@ let events2009 = [
         name: 'Осенний Кубок 110%',
         place: 'Кузьмоловский',
         type: 'ORIENT',
-        res: 'http://www.o-site.spb.ru/_races/091126/090917_res.htm',
-        split: [
-            'splits/2009/SPB_20091126_1_1_split.htm',
-            'splits/2009/SPB_20091126_1_2_split.htm',
-            'splits/2009/SPB_20091126_1_3_split.htm',
-            'splits/2009/SPB_20091126_1_4_split.htm',
-            'splits/2009/SPB_20091126_1_5_split.htm'
-        ],
-        info: '1 этап(17 сентября): Результаты + Сплиты 2 этап(24 сентября): Результаты + Сплиты 3 этап(01 октября): Результаты + Сплиты 4 этап(08 октября): Результаты + Сплиты 5 этап(15 октября): Результаты + Сплиты Карта с путями',
+        res: 'https://o-site.spb.ru/_races/091126/091126_res.htm',
         start: 'ROGAINE_110',
         o_site: '091126'
     },
@@ -1139,6 +1220,14 @@ let events2009 = [
         owner: 'AZIMUT'
     },
     {
+        id: 'SPB_20091129_2',
+        date: '2009-11-29',
+        name: 'Всеволожская тропа, 1-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/100411_tropa/091129_res1.htm',
+        o_site: '100411_tropa'
+    },
+    {
         id: 'SPB_20091206_1',
         date: '2009-12-06',
         place: 'Пискарёвский парк',
@@ -1159,6 +1248,14 @@ let events2009 = [
         res: 'https://o-site.spb.ru/_races/091213/091213_res.htm',
         split: 'splits/2009/SPB_20091213_1_split.htm',
         o_site: '091213'
+    },
+    {
+        id: 'SPB_20091213_2',
+        date: '2009-12-13',
+        name: 'Всеволожская тропа, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://www.o-site.spb.ru/_races/100411_tropa/091213_res.htm',
+        o_site: '100411_tropa'
     },
     {
         id: 'SPB_20091220_1',

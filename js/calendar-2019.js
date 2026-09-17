@@ -44,6 +44,7 @@ let events2019 = [
         map: 'lembolovo_orekhovo_peski_gk_2026',
         name: 'Горный кросс - 66',
         type: 'ROGAINE',
+        res: 'http://www.o-site.spb.ru/_races/2019GK/190113R_split.htm',
         fmt: '5, 3',
         link: 'https://vk.com/gornycross',
         start: 'GORNY_CROSS'
@@ -553,6 +554,15 @@ let events2019 = [
         map: 'luga_omchino_gk_2023'
     },
     {
+        id: 'SPB_20190502_1',
+        date: '2019-05-02',
+        place: 'Шалово',
+        name: 'Горный Кросс - 67',
+        type: 'ROGAINE',
+        res: 'http://www.o-site.spb.ru/_races/2019GK/190502R_split.htm',
+        o_site: '2019GK'
+    },
+    {
         id: 'SPB_20190504_1',
         date: '2019-05-04',
         name: 'Первенство России',
@@ -820,6 +830,7 @@ let events2019 = [
         place: 'Кузнечное',
         name: 'Горный кросс',
         type: 'ROGAINE',
+        res: 'http://www.o-site.spb.ru/_races/2019GK/190525R_split.htm',
         fmt: '24 ,8, 3',
         link: 'https://vk.com/gornycross',
         video: 'https://www.youtube.com/watch?v=iEkCTlSC9Zw',
@@ -1233,6 +1244,7 @@ let events2019 = [
         name: 'Горный кросс',
         video: 'https://www.youtube.com/watch?v=p_Yerx-qxr8',
         type: 'ROGAINE',
+        res: 'http://www.o-site.spb.ru/_races/2019GK/190713R_split.htm',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
         start: 'GORNY_CROSS',
@@ -1496,12 +1508,6 @@ let events2019 = [
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/10295',
         res: 'http://o-site.spb.ru/_races/190905/190905_split.html',
-        split: [
-            'splits/2019/SPB_20190905_1_1_split.html',
-            'splits/2019/SPB_20190905_1_2_split.htm',
-            'splits/2019/SPB_20190905_1_3_split.htm'
-        ],
-        info: 'Серия тренировочных стартов в районе пос. Кузьмоловский Результаты 5 сентября Результаты 12 сентября Результаты 19 сентября Результаты 26 сентября Результаты 03 октября',
         o_site: '190905',
         endDate: '2019-10-31',
         reskeep: [193, 213, 217, 218, 219, 220]
@@ -1524,13 +1530,23 @@ let events2019 = [
         start: 'RUSSIA_CHAMP'
     },
     {
+        id: 'SPB_20190905_2',
+        date: '2019-09-05',
+        name: 'Кузьмоловские старты, 1-й этап',
+        place: 'Кузьмолово',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/190905/190905_split.html',
+        owner: 'KUZMOLOVO',
+        o_site: '190905'
+    },
+    {
         id: 'SPB_20190907_1',
         date: '2019-09-07',
         place: 'Токсово, Малиновая гора',
         name: 'МаТрешка 2019. 1 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/1909-12/190907_spl.htm',
         reskeep: 200,
-        split: 'splits/2019/SPB_20190907_1_split.htm',
         map: 'toksovo_malinovaya_gora_2018'
     },
     {
@@ -1554,6 +1570,15 @@ let events2019 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 195
+    },
+    {
+        id: 'SPB_20190912_1',
+        date: '2019-09-12',
+        name: 'Кузьмоловские старты, 2-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/190905/190912_split.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '190905'
     },
     {
         id: 'SPB_20190914_1',
@@ -1597,6 +1622,15 @@ let events2019 = [
         start: 'SCHOOL'
     },
     {
+        id: 'SPB_20190919_1',
+        date: '2019-09-19',
+        name: 'Кузьмоловские старты, 3-й этап',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/190905/190919_res.html',
+        owner: 'KUZMOLOVO',
+        o_site: '190905'
+    },
+    {
         id: 'SPB_20190921_1',
         date: '2019-09-21',
         endDate: '2019-09-22',
@@ -1631,6 +1665,7 @@ let events2019 = [
         place: 'Охта-парк',
         name: 'МаТрешка 2019. 2 этап',
         type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/1909-12/190922_split_MT.htm',
         reskeep: 201,
         split: 'splits/2019/SPB_20190921_3_split.htm'
     },
@@ -1655,6 +1690,16 @@ let events2019 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 196
+    },
+    {
+        id: 'SPB_20190926_1',
+        date: '2019-09-26',
+        name: 'Кузьмоловские старты, 4-й этап',
+        place: 'Осельки',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/190905/190926_res.html',
+        owner: 'KUZMOLOVO',
+        o_site: '190905'
     },
     {
         id: 'SPB_20190929_1',
@@ -1694,13 +1739,7 @@ let events2019 = [
         name: 'Цикл тренировочных стартов МаТрёшка',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1089',
-        res: 'http://o-site.spb.ru/_races/1909-12/190907_res.htm',
-        split: [
-            'splits/2019/SPB_20190928_2_1_split.htm',
-            'splits/2019/SPB_20190928_2_2_split.htm',
-            'splits/2019/SPB_20190928_2_3_split.htm'
-        ],
-        info: '1-й этап: Результаты Сплиты 2-й этап: Результаты Сплиты',
+        res: 'https://o-site.spb.ru/_races/1909-12/190928_MT_split.htm',
         o_site: '1909-12',
         reskeep: 202,
         map: 'pukhtolova_gora_2025',
@@ -1720,6 +1759,7 @@ let events2019 = [
         place: 'Молодёжное',
         name: 'Горный кросс',
         type: 'ROGAINE',
+        res: 'http://www.o-site.spb.ru/_races/2019GK/190928R_split.htm',
         fmt: '6, 3',
         link: 'https://vk.com/gornycross',
         start: 'GORNY_CROSS',
@@ -1746,6 +1786,16 @@ let events2019 = [
         owner: 'SFSO_SPB',
         o_site: '190929',
         reskeep: [270, 221]
+    },
+    {
+        id: 'SPB_20191003_1',
+        date: '2019-10-03',
+        name: 'Кузьмоловские старты, 5-й этап',
+        place: 'Кавголово',
+        type: 'ORIENT',
+        res: 'http://o-site.spb.ru/_races/190905/191003_res.htm',
+        owner: 'KUZMOLOVO',
+        o_site: '190905'
     },
     {
         id: 'SPB_20191004_1',
@@ -2148,17 +2198,7 @@ let events2019 = [
         place: 'Зеленогорск',
         map: 'zelenogorsk_gk_2009',
         type: 'ROGAINE',
-        res: 'http://www.o-site.spb.ru/_races/2019GK/190113R_split.htm',
-        split: [
-            'splits/2019/SPB_20191116_1_1_split.htm',
-            'splits/2019/SPB_20191116_1_2_split.htm',
-            'splits/2019/SPB_20191116_1_3_split.htm',
-            'splits/2019/SPB_20191116_1_4_split.htm',
-            'splits/2019/SPB_20191116_1_5_split.htm',
-            'splits/2019/SPB_20191116_1_6_split.htm',
-            'splits/2019/SPB_20191116_1_7_split.htm'
-        ],
-        info: 'МНОГОЭТАПНЫЙ КУБОК ПО РОГЕЙНУ ГК-66 - сплиты - результаты - 13.01 - Орехово ГК-67 - сплиты - результаты - 02.05 - Шалово ГК-68 - сплиты - результаты - 25.05 - Кузнечное ГК-69 - сплиты - результаты - 13.07 - Орехово ГК-70 - сплиты - результаты - 28.09 - Молодежное ГК-71 - сплиты - результаты - 16.11 - Зеленогорск (финал)',
+        res: 'http://www.o-site.spb.ru/_races/2019GK/191116R_split.htm',
         start: 'GORNY_CROSS',
         o_site: '2019GK'
     },
