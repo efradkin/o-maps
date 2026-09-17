@@ -212,6 +212,22 @@ let events2020 = [
         video: ['https://www.youtube.com/watch?v=JgJ8gM4eBpU','https://www.youtube.com/watch?v=jau_A6i4hkA']
     },
     {
+        id: 'SPB_20200223_1',
+        date: '2020-02-13',
+        endDate: '2020-02-23',
+        name: 'Зимняя смена в ЗЦ Зеркальный',
+        place: 'Зеркальный',
+        type: 'ORIENT',
+        res: ['https://o-site.spb.ru/_races/200213-23/200215_split.htm','https://o-site.spb.ru/_races/200213-23/200216_split.htm','https://o-site.spb.ru/_races/200213-23/200220_split.htm','https://o-site.spb.ru/_races/200213-23/200222_split.htm'],
+        split: [
+            'splits/2020/SPB_20200223_1_1_split.htm',
+            'splits/2020/SPB_20200223_1_2_split.htm',
+            'splits/2020/SPB_20200223_1_3_split.htm',
+            'splits/2020/SPB_20200223_1_4_split.htm'
+        ],
+        o_site: '200213-23'
+    },
+    {
         id: 'SPB_20200214_1',
         date: '2020-02-14',
         name: 'Охта-Лабиринт',
@@ -240,21 +256,6 @@ let events2020 = [
         map: 'petjajarvy_2024',
         owner: 'WN',
         strava: 3105111861
-    },
-    {
-        id: 'SPB_20200223_1',
-        date: '2020-02-23',
-        name: 'Зимняя смена в ЗЦ Зеркальный',
-        place: 'Зеркальный',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/200213-23/200215_res.htm',
-        split: [
-            'splits/2020/SPB_20200223_1_1_split.htm',
-            'splits/2020/SPB_20200223_1_2_split.htm',
-            'splits/2020/SPB_20200223_1_3_split.htm',
-            'splits/2020/SPB_20200223_1_4_split.htm'
-        ],
-        o_site: '200213-23'
     },
     {
         id: 'SPB_20200223_2',

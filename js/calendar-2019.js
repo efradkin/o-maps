@@ -1657,6 +1657,23 @@ let events2019 = [
         reskeep: 196
     },
     {
+        id: 'SPB_20190929_1',
+        date: '2019-09-27',
+        endDate: '2019-09-29',
+        name: 'Старты в Зеркальном',
+        place: 'Зеркальный',
+        type: 'ORIENT',
+        reg: 'http://www.o-reg.spb.ru/entry-list?id=1085',
+        res: ['https://o-site.spb.ru/_races/190926-30/190927_SPLIT.htm','https://o-site.spb.ru/_races/190927-30/190927_SPLIT.htm','https://o-site.spb.ru/_races/190926-30/190929_SPLIT.htm'],
+        split: [
+            'splits/2019/SPB_20190929_1_1_split.htm',
+            'splits/2019/SPB_20190929_1_2_split.htm',
+            'splits/2019/SPB_20190929_1_3_split.htm'
+        ],
+        o_site: '190926-30',
+        map: 'zerkalny_2002'
+    },
+    {
         id: 'SPB_20190928_1',
         date: '2019-09-28',
         place: 'Лемболово',
@@ -1707,22 +1724,6 @@ let events2019 = [
         link: 'https://vk.com/gornycross',
         start: 'GORNY_CROSS',
         map: 'molodezhnoe_gk_2024'
-    },
-    {
-        id: 'SPB_20190929_1',
-        date: '2019-09-29',
-        name: 'Старты в Зеркальном',
-        place: 'Зеркальный',
-        type: 'ORIENT',
-        reg: 'http://www.o-reg.spb.ru/entry-list?id=1085',
-        res: 'https://o-site.spb.ru/_races/190926-30/190927_RES.htm',
-        split: [
-            'splits/2019/SPB_20190929_1_1_split.htm',
-            'splits/2019/SPB_20190929_1_2_split.htm',
-            'splits/2019/SPB_20190929_1_3_split.htm'
-        ],
-        o_site: '190926-30',
-        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20190929_2',

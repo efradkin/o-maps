@@ -455,6 +455,7 @@ let events2016 = [
     {
         id: 'SPB_20160429_1',
         date: '2016-04-29',
+        endDate: '2016-05-06',
         name: 'УТС в Зеркальном',
         place: 'Зеркальный',
         type: 'ORIENT',
@@ -1152,6 +1153,21 @@ let events2016 = [
         o_site: '160924_V'
     },
     {
+        id: 'SPB_20160926_1',
+        date: '2016-09-24',
+        endDate: '2016-09-26',
+        name: 'Старты в Зеркальном',
+        place: 'Зеркальный',
+        type: 'ORIENT',
+        res: ['https://o-site.spb.ru/_races/160924-26/160924_split.htm','https://o-site.spb.ru/_races/160924-26/160926_split.htm'],
+        split: [
+            'splits/2016/SPB_20160926_1_1_split.htm',
+            'splits/2016/SPB_20160926_1_2_split.htm'
+        ],
+        o_site: '160924-26',
+        map: 'zerkalny_2002'
+    },
+    {
         id: 'SPB_20160925_1',
         date: '2016-09-25',
         place: 'Яппиля',
@@ -1162,20 +1178,6 @@ let events2016 = [
         owner: 'SFSO_SPB',
         o_site: '160925',
         reskeep: 237
-    },
-    {
-        id: 'SPB_20160926_1',
-        date: '2016-09-26',
-        name: 'Старты в Зеркальном',
-        place: 'Зеркальный',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/160924-26/160924_res.htm',
-        split: [
-            'splits/2016/SPB_20160926_1_1_split.htm',
-            'splits/2016/SPB_20160926_1_2_split.htm'
-        ],
-        o_site: '160924-26',
-        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20160928_1',

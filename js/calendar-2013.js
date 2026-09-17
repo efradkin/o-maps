@@ -380,6 +380,16 @@ let events2013 = [
         reskeep: 259
     },
     {
+        id: 'SPB_20130504_1',
+        date: '2013-04-28',
+        endDate: '2013-05-04',
+        name: 'УТС в Зеркальном',
+        place: 'Зеркальный',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/130428-0504/130502_split.htm',
+        o_site: '130428-0504'
+    },
+    {
         id: 'SPB_20130501_1',
         date: '2013-05-01',
         endDate: '2013-05-03',
@@ -414,16 +424,6 @@ let events2013 = [
         fmt: '6 часов бегом',
         start: 'GORNY_CROSS',
         o_site: '130501'
-    },
-    {
-        id: 'SPB_20130504_1',
-        date: '2013-05-04',
-        name: 'УТС в Зеркальном',
-        place: 'Зеркальный',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/130428-0504/130502_res.htm',
-        split: 'splits/2013/SPB_20130504_1_split.htm',
-        o_site: '130428-0504'
     },
     {
         id: 'SPB_20130504_2',

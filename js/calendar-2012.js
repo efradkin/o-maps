@@ -869,6 +869,17 @@ let events2012 = [
         map: 'molodezhnoe_zarya_2012'
     },
     {
+        id: 'SPB_20121001_1',
+        date: '2012-09-28',
+        endDate: '2012-10-01',
+        place: 'Зеркальный',
+        name: 'Старты в Зеркальном',
+        type: 'ORIENT',
+        res: 'https://o-site.spb.ru/_races/120928/120928-1001_res.zip',
+        o_site: '120928',
+        map: 'zerkalny_2002'
+    },
+    {
         id: 'SPB_20120929_1',
         date: '2012-09-29',
         endDate: '2012-09-30',
@@ -906,16 +917,6 @@ let events2012 = [
         split: 'splits/2012/SPB_20120930_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '120930'
-    },
-    {
-        id: 'SPB_20121001_1',
-        date: '2012-10-01',
-        place: 'Зеркальный',
-        name: 'Старты в Зеркальном',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/120928/120928-1001_res.zip',
-        o_site: '120928',
-        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20121006_1',

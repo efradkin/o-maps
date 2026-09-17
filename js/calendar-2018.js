@@ -1512,6 +1512,22 @@ let events2018 = [
         map: 'toksovo_malinovaya_gora_2018'
     },
     {
+        id: 'SPB_20180924_1',
+        date: '2018-09-21',
+        endDate: '2018-09-24',
+        name: 'Старты в Зеркальном',
+        place: 'Зеркальный',
+        type: 'ORIENT',
+        res: ['https://o-site.spb.ru/_races/180921-24/180921_split.htm','https://o-site.spb.ru/_races/180921-24/180922_split.htm','https://o-site.spb.ru/_races/180921-24/180924_split.htm'],
+        split: [
+            'splits/2018/SPB_20180924_1_1_split.htm',
+            'splits/2018/SPB_20180924_1_2_split.htm',
+            'splits/2018/SPB_20180924_1_3_split.htm'
+        ],
+        o_site: '180921-24',
+        map: 'zerkalny_2002'
+    },
+    {
         id: 'SPB_20180922_1',
         date: '2018-09-22',
         place: 'Сестрорецк, Таможенная дорога',
@@ -1547,21 +1563,6 @@ let events2018 = [
         owner: 'SFSO_SPB',
         o_site: '180923',
         reskeep: 47
-    },
-    {
-        id: 'SPB_20180924_1',
-        date: '2018-09-24',
-        name: 'Старты в Зеркальном',
-        place: 'Зеркальный',
-        type: 'ORIENT',
-        res: 'https://o-site.spb.ru/_races/180921-24/180921_res.htm',
-        split: [
-            'splits/2018/SPB_20180924_1_1_split.htm',
-            'splits/2018/SPB_20180924_1_2_split.htm',
-            'splits/2018/SPB_20180924_1_3_split.htm'
-        ],
-        o_site: '180921-24',
-        map: 'zerkalny_2002'
     },
     {
         id: 'SPB_20180926_1',
