@@ -1598,6 +1598,7 @@ let events2016 = [
         date: '2016-10-30',
         place: 'Малиновая гора',
         name: 'Цикл стартов МаТрёшка, 1-й этап',
+        start: 'MATRESHKA',
         type: 'ORIENT',
         o_site: '161105'
     },
@@ -1621,6 +1622,7 @@ let events2016 = [
         date: '2016-11-05',
         place: 'Охта-парк',
         name: 'Цикл стартов МаТрёшка, 2-й этап',
+        start: 'MATRESHKA',
         type: 'ORIENT',
         o_site: '161105'
     },

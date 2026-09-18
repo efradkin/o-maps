@@ -1622,6 +1622,7 @@ let events2021 = [
         id: 'SPB_20210905_3',
         date: '2021-09-05',
         name: 'МаТрёшка',
+        start: 'MATRESHKA',
         place: 'Мичуринское, Журавлёвское оз',
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=5007',

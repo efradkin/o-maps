@@ -108,6 +108,12 @@ let starts = {
         logo: 'yuventa.gif',
         owner: 'YUVENTA'
     },
+    MATRESHKA: {
+        short: 'МаТрёшка',
+        name: 'МаТрёшка',
+        logo: 'nordwest.webp',
+        owner: 'NW'
+    },
     SNOW_WAY: {
         short: 'Снежная тропа',
         name: 'Снежная тропа',

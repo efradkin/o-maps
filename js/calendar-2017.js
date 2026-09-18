@@ -492,6 +492,7 @@ let events2017 = [
         date: '2017-04-16',
         place: 'Охта-парк',
         name: 'Цикл стартов МаТрёшка, 1-й этап',
+        start: 'MATRESHKA',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/170416_split_MT.htm',
         o_site: '170416'
@@ -632,6 +633,7 @@ let events2017 = [
         date: '2017-04-30',
         place: 'Сестрорецкие Дюны',
         name: 'Цикл стартов МаТрёшка, 2-й этап',
+        start: 'MATRESHKA',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/170430_split_MT.htm',
         o_site: '170416'
@@ -1451,6 +1453,7 @@ let events2017 = [
         date: '2017-09-09',
         place: 'Вартемяги',
         name: 'Цикл стартов МаТрёшка, 4-й этап',
+        start: 'MATRESHKA',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/170909_split.htm',
         o_site: '170416'
@@ -1651,6 +1654,7 @@ let events2017 = [
         date: '2017-09-30',
         place: 'Пухтолова гора',
         name: 'Цикл стартов МаТрёшка, 5-й этап',
+        start: 'MATRESHKA',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/170930_mt_split.htm',
         o_site: '170416'
@@ -1856,6 +1860,7 @@ let events2017 = [
         date: '2017-10-29',
         place: 'Шуваловский парк',
         name: 'Цикл стартов МаТрёшка, 6-й этап',
+        start: 'MATRESHKA',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/171029_MT_split.htm',
         o_site: '170416'
@@ -2044,6 +2049,7 @@ let events2017 = [
         id: 'SPB_20171203_1',
         date: '2017-12-03',
         name: 'Цикл стартов МаТрёшка',
+        start: 'MATRESHKA',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/170416_rez_MT.htm',
         split: [
