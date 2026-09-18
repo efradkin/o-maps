@@ -1152,6 +1152,7 @@ let events2015 = [
         date: '2015-09-08',
         place: 'Лехтуси',
         name: 'Weekly Orient, 1-й этап',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-1-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81.htm',
         o_site: '150908'
@@ -1202,6 +1203,7 @@ let events2015 = [
         date: '2015-09-15',
         place: 'Осельки',
         name: 'Weekly Orient, 2-й этап',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-2-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81.htm',
         o_site: '150908'
@@ -1275,6 +1277,7 @@ let events2015 = [
         date: '2015-09-22',
         place: 'Голубая Дача',
         name: 'Weekly Orient, 3-й этап',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-3-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81.htm',
         o_site: '150908'
@@ -1329,6 +1332,7 @@ let events2015 = [
         date: '2015-09-29',
         place: 'Голубая Дача',
         name: 'Weekly Orient, 4-й этап',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/09/Weekly_orient_4_leg_split.htm',
         o_site: '150908'
@@ -1515,6 +1519,7 @@ let events2015 = [
         date: '2015-10-27',
         place: 'Сярьги',
         name: 'Weekly Orient, 5-й этап',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/09/Weekly_Orient_5_leg_split.htm',
         o_site: '150908'

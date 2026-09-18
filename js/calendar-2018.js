@@ -2350,6 +2350,7 @@ let events2018 = [
         date: '2018-12-22',
         place: 'Васкелово',
         name: 'Weekly Orient',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         o_site: '201819_WO'
     },

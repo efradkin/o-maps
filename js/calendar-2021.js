@@ -51,6 +51,7 @@ let events2021 = [
         id: 'SPB_20210116_1',
         date: '2021-01-16',
         name: 'Индивидуальная тренировка Weekly Orient Ollila',
+        start: 'WEEKLY_ORIENT',
         place: 'Сестрорецкие Дюны',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1216',

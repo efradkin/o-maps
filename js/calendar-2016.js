@@ -272,6 +272,7 @@ let events2016 = [
         date: '2016-03-20',
         place: 'Сярьги',
         name: 'Weekly Orient, 6-й этап',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2016/03/fiinal1.htm',
         o_site: '150908'
@@ -371,6 +372,7 @@ let events2016 = [
         date: '2016-04-12',
         place: 'Всеволожск',
         name: 'Weekly Orient, 7-й этап',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         res: 'http://white-o-nights.ru/wp-content/uploads/2016/04/weekly-orient-7-%D1%8D%D1%82%D0%B0%D0%BF-%D1%81%D0%BF%D0%BB%D0%B8%D1%82%D1%8B.htm',
         o_site: '150908'
@@ -424,6 +426,7 @@ let events2016 = [
         date: '2016-04-19',
         place: 'Осиновая Роща',
         name: 'Weekly Orient, 8-й этап',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=586',
         res: 'http://white-o-nights.ru/wp-content/uploads/2015/08/Weekly-Orient-1-%D1%8D%D1%82%D0%B0%D0%BF-%D1%80.htm',

@@ -574,6 +574,7 @@ let events2017 = [
         date: '2017-04-29',
         place: 'Медное оз',
         name: 'Weekly Orient',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=743',
         res: 'https://o-site.spb.ru/_races/170429_WOr/170429_res.htm',
@@ -1590,9 +1591,9 @@ let events2017 = [
         id: 'SPB_20170926_2',
         date: '2017-09-26',
         name: 'Weekly Orient, 1-й этап',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017_W_Or/170926_split.htm',
-        owner: 'WN',
         o_site: '2017_W_Or'
     },
     {
@@ -1675,9 +1676,9 @@ let events2017 = [
         id: 'SPB_20171003_1',
         date: '2017-10-03',
         name: 'Weekly Orient, 2-й этап',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017_W_Or/171003_split.htm',
-        owner: 'WN',
         o_site: '2017_W_Or'
     },
     {
@@ -2121,12 +2122,12 @@ let events2017 = [
         date: '2017-12-23',
         place: 'Воейково',
         name: 'Weekly Orient, 3 этап',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=799',
         res: 'https://o-site.spb.ru/_races/2017_W_Or/171223_split.htm',
         o_site: '2017_W_Or',
-        map: 'voejkovo_2022',
-        owner: 'WN'
+        map: 'voejkovo_2022'
     },
     {
         id: 'SPB_20171230_1',

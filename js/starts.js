@@ -23,6 +23,12 @@ let starts = {
         logo: 'wn.gif',
         owner: 'WN'
     },
+    WEEKLY_ORIENT: {
+        short: 'Weekly Orient',
+        name: 'Weekly Orient',
+        logo: 'ollila.webp',
+        owner: 'WN'
+    },
     KKP: {
         short: 'ККП',
         name: '<a href="https://o-nw.ru/kkp">Камни (Кубок) Карельского Перешейка</a>',

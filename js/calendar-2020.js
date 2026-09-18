@@ -1449,6 +1449,7 @@ let events2020 = [
         id: 'SPB_20201017_1',
         date: '2020-10-17',
         name: 'Индивидуальная тренировка Weekly Orient',
+        start: 'WEEKLY_ORIENT',
         place: 'Симагино',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1185',

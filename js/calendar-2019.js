@@ -372,6 +372,7 @@ let events2019 = [
         date: '2019-04-14',
         place: 'Воейково',
         name: 'Weekly Orient',
+        start: 'WEEKLY_ORIENT',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1004',
         res: 'http://o-site.spb.ru/_races/190414/140419_res.htm',
