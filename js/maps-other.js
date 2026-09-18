@@ -349,7 +349,7 @@ let otherMaps = [
         year: 2025,
         url: './maps/other/maloyaroslavets_gymnasium_2025.webp',
         link: './original_maps/other/maloyaroslavets_gymnasium_2025_omaps.gif',
-        bounds: [[55.0034534, 36.457926], [55.0031089, 36.4615846], [55.0012751, 36.4572072]],
+        bounds: [[55.0034904, 36.4580655], [55.0030966, 36.4615738], [55.0013182, 36.4572930]],
         author: 'NBLSNV',
         owner: 'NBLSNV',
         region: 'KLGA',
