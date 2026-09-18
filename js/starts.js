@@ -133,6 +133,14 @@ let starts = {
     KKR: {
         short: 'ККР',
         name: 'Кубок Коротких Рогейнов',
+        rogaine: true
+    },
+    LM: {
+        short: 'Лужский Меридиан',
+        name: '<a href="https://vk.ru/club91656163">Лужский Меридиан</a>',
+        logo: 'lm.jpg',
+        owner: 'LM',
+        rogaine: true
     },
     VSEVOLOZHSK_WAY: {
         short: 'Всеволожская тропа',

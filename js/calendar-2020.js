@@ -1904,7 +1904,7 @@ let events2020 = [
         video: 'https://www.youtube.com/watch?v=VF6lAqx3vpM',
         type: 'ORIENT',
         fmt: 'эстафета',
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20201219_1',

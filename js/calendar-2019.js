@@ -332,7 +332,7 @@ let events2019 = [
         video: 'https://www.youtube.com/watch?v=gYhCgUkWCVg',
         type: 'ORIENT',
         fmt: 'эстафета',
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20190410_1',

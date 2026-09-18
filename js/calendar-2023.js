@@ -499,7 +499,7 @@ let events2023 = [
         reg: 'http://orgeo.ru/event/26740',
         o_gps: 15769,
         video: 'https://www.youtube.com/watch?v=nV5lOGaoQI8',
-        owner: 'LM',
+        start: 'LM',
         o_site: '230422'
     },
     {
@@ -741,7 +741,7 @@ let events2023 = [
         name: 'Лужский меридиан, этапы 67-68',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/participants/26751',
-        owner: 'LM',
+        start: 'LM',
         o_site: '230513r',
         map: 'gorodok_lm_2023'
     },
@@ -973,7 +973,7 @@ let events2023 = [
         res: 'https://vk.com/wall-91656163_2242',
         o_gps: 16419,
         strava: 9240368460,
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20230611_1',
@@ -2020,7 +2020,7 @@ let events2023 = [
         fmt: '4',
         res: 'https://vk.com/wall-91656163_2272',
         o_gps: 17568,
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20231015_1',

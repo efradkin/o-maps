@@ -379,7 +379,7 @@ let events2022 = [
         fmt: '4, 2',
         link: 'https://vk.com/club91656163',
         video: ['https://www.youtube.com/watch?v=Y_HDRdoJcSM','https://www.youtube.com/watch?v=F0j-YBSyvH0'],
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20220424_1',
@@ -775,7 +775,7 @@ let events2022 = [
         fmt: '5',
         link: 'https://vk.com/club91656163',
         video: ['https://www.youtube.com/watch?v=6kCBasFoCe8','https://www.youtube.com/watch?v=gKarWwzitHs'],
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20220524_1',
@@ -1416,7 +1416,7 @@ let events2022 = [
         fmt: '5',
         link: 'https://vk.com/club91656163',
         video: ['https://www.youtube.com/watch?v=ReS4ykzf_48','https://vk.ru/video-208494804_456239055'],
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20220724_1',
@@ -2129,7 +2129,7 @@ let events2022 = [
         type: 'ROGAINE',
         reg: 'http://orgeo.ru/event/info/23274',
         info: 'мероприятие от организаторов из В.Новгорода',
-        owner: 'LM',
+        start: 'LM',
         o_site: '221029R'
     },
     {

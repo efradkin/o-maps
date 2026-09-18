@@ -417,7 +417,7 @@ let events2024 = [
         link: 'https://orgeo.ru/event/info/33379',
         res: 'https://vk.com/doc17383066_673298132?hash=n2x8gjMtY5CYdlKsO3ErLi1QZAMy4Jnpkm4Z4aCmLZL',
         o_gps: 18894,
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20240414_1',
@@ -1261,7 +1261,7 @@ let events2024 = [
         ],
         res: 'https://vk.com/doc17383066_675610275?hash=TS6ZwLzVx1HkHbnyDZ01fhWPnzoIrzozdMa4hOhZTrD',
         o_gps: 19863,
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20240624_1',
@@ -1844,7 +1844,7 @@ let events2024 = [
         res: 'https://vk.com/club91656163?w=wall-91656163_2475',
         o_gps: 20664,
         strava: 12523064593,
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20240929_1',

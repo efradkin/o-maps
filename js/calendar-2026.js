@@ -842,7 +842,7 @@ let events2026 = [
         o_gps: 24697,
         photo: 'https://vk.com/album-91656163_313208177',
         map: 'luga_shalovo_lm_2023',
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20260411_2',
@@ -1483,7 +1483,7 @@ let events2026 = [
         res: 'https://vk.com/wall-91656163_2733',
         type: 'ROGAINE',
         fmt: '5, 2.5',
-        owner: 'LM',
+        start: 'LM',
         map: 'novgorod_rogaine_2024_09_08'
     },
     {
@@ -2847,7 +2847,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/54011',
         type: 'ROGAINE',
         fmt: '4, 2.5',
-        owner: 'LM',
+        start: 'LM',
         map: 'novgorod_rogaine_2024_09_08'
     },
     {

@@ -508,7 +508,7 @@ let events2025 = [
         o_gps: 22283,
         photo: 'https://vk.com/album-91656163_309446849',
         map: 'luga_shalovo_lm_2023',
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20250419_2',
@@ -905,7 +905,7 @@ let events2025 = [
         o_gps: 22558,
         photo: 'https://vk.com/album-91656163_309676733',
         map: 'luga_shalovo_lm_2023',
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20250515_1',
@@ -2059,7 +2059,7 @@ let events2025 = [
         o_gps: 23387,
         photo: 'https://vk.com/album-91656163_311027241',
         map: 'luga_shalovo_lm_2023',
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20250914_1',
@@ -3268,7 +3268,7 @@ let events2025 = [
             58.5301416,
             31.2510395
         ],
-        owner: 'LM'
+        start: 'LM'
     },
     {
         id: 'SPB_20251130_2',
