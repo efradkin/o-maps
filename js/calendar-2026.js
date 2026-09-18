@@ -1566,6 +1566,7 @@ let events2026 = [
         id: 'SPB_20260523_10',
         date: '2026-05-23',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         place: 'Пасторское оз',
         o_gps: {
             'М':25135,
@@ -1573,8 +1574,7 @@ let events2026 = [
         },
         type: 'ORIENT',
         fmt: 'ночное',
-        map: 'pastorskoe_2024',
-        owner: 'KUZMOLOVO'
+        map: 'pastorskoe_2024'
     },
     {
         id: 'SPB_20260527_1',

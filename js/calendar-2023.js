@@ -901,12 +901,12 @@ let events2023 = [
         id: 'SPB_20230601_1',
         date: '2023-06-01',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         place: 'Кавголово',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/29108',
         res: 'https://o-site.spb.ru/_races/23_KS_s/230601_split.htm',
         split: 'splits/2023/SPB_20230601_1_split.htm',
-        owner: 'KUZMOLOVO',
         o_site: '23_KS_s'
     },
     {

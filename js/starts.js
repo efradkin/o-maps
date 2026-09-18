@@ -108,6 +108,11 @@ let starts = {
         logo: 'kuzmolovo_40_2015.webp',
         owner: 'KUZMOLOVO'
     },
+    CONTROLNY_START: {
+        short: 'Контрольный старт',
+        name: 'Контрольный старт',
+        owner: 'KUZMOLOVO'
+    },
     SOSNOVOBORSKY_DUNY: {
         short: 'Сосновоборские дюны',
         name: '<a href="https://vk.com/id2507454">Сосновоборские дюны</a>',

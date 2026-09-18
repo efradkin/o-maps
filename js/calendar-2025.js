@@ -177,12 +177,12 @@ let events2025 = [
         date: '2025-02-22',
         place: 'Сосновка',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         fmt: 'One-man-relay',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/41339',
         reskeep: 682,
         map: 'sosnovka_2014',
-        owner: 'KUZMOLOVO',
         strava: 13695219356,
         me: 'A'
     },
@@ -315,12 +315,12 @@ let events2025 = [
         date: '2025-03-15',
         place: 'Токсово, Комбыт',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         type: 'ORIENT',
         o_site: '250315_ks',
         split: 'splits/2025/SPB_20250315_1_split.htm',
         reg: 'http://orgeo.ru/event/41998',
         map: 'toksovo_kombyt_2017',
-        owner: 'KUZMOLOVO',
         strava: 13887628148,
         me: 'A'
     },
@@ -568,11 +568,11 @@ let events2025 = [
         date: '2025-04-24',
         place: 'Кузьмолово, Зона-Z',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         type: 'ORIENT',
         o_site: '25_KS',
         split: 'splits/2025/SPB_20250424_1_split.htm',
         reg: 'https://orgeo.ru/event/43174',
-        owner: 'KUZMOLOVO',
         map: 'kuzmolovo_zona_z_2018'
     },
     {
@@ -912,14 +912,14 @@ let events2025 = [
         date: '2025-05-15',
         place: 'Юкки',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         type: 'ORIENT',
         o_site: '25_KS',
         split: 'splits/2025/SPB_20250515_1_split.htm',
         reg: 'https://orgeo.ru/event/43174',
         o_gps: 22595,
         photo: 'https://vk.com/album-128591100_306187926',
-        map: 'yukki_north_2020',
-        owner: 'KUZMOLOVO'
+        map: 'yukki_north_2020'
     },
     {
         id: 'SPB_20250515_2',
@@ -1033,12 +1033,12 @@ let events2025 = [
         date: '2025-05-22',
         place: 'Новотоксово, ВИФК',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         type: 'ORIENT',
         o_site: '25_KS',
         split: 'splits/2025/SPB_20250522_2_split.htm',
         reg: 'http://orgeo.ru/event/43177',
         o_gps: 22660,
-        owner: 'KUZMOLOVO',
         map: 'toksovo_vifk_2020'
     },
     {
@@ -1100,12 +1100,12 @@ let events2025 = [
         date: '2025-05-29',
         place: 'Вартемяги',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         type: 'ORIENT',
         o_site: '25_KS',
         split: 'splits/2025/SPB_20250529_1_split.htm',
         reg: 'http://orgeo.ru/event/43177',
         o_gps: 22829,
-        owner: 'KUZMOLOVO',
         map: 'vartemjagi_south_2018'
     },
     {
@@ -1209,12 +1209,12 @@ let events2025 = [
         date: '2025-06-05',
         place: 'Кавголово, Динамо',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         type: 'ORIENT',
         o_site: '25_KS',
         split: 'splits/2025/SPB_20250605_1_split.htm',
         reg: 'http://orgeo.ru/event/43177',
         o_gps: 22827,
-        owner: 'KUZMOLOVO',
         map: 'kavgolovo_2017'
     },
     {
@@ -2002,6 +2002,7 @@ let events2025 = [
         date: '2025-09-11',
         place: 'Токсово, Изумрудное оз',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         type: 'ORIENT',
         o_site: '25_KS_a',
         split: [
@@ -2010,7 +2011,6 @@ let events2025 = [
         ],
         reg: 'https://orgeo.ru/event/46308',
         info: 'Карта Бабочка',
-        owner: 'KUZMOLOVO',
         map: 'toksovo_malinovaya_gora_2018'
     },
     {
@@ -2117,6 +2117,7 @@ let events2025 = [
         date: '2025-09-18',
         place: 'Токсово, Светлое оз',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         type: 'ORIENT',
         o_site: '25_KS_a',
         split: [
@@ -2124,7 +2125,6 @@ let events2025 = [
             'splits/2025/SPB_20250918_1_2_split.htm'
         ],
         reg: 'https://orgeo.ru/event/46308',
-        owner: 'KUZMOLOVO',
         map: 'toksovo_oz_svetloe_2017'
     },
     {
@@ -2420,6 +2420,7 @@ let events2025 = [
         date: '2025-10-02',
         place: 'Сертолово',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         o_site: '25_KS_a',
         split: [
             'splits/2025/SPB_20251002_1_1_split.htm',
@@ -2427,7 +2428,6 @@ let events2025 = [
         ],
         reg: 'http://orgeo.ru/event/46828',
         map: 'sertolovo_2016',
-        owner: 'KUZMOLOVO',
         type: 'ORIENT'
     },
     {
@@ -2538,6 +2538,7 @@ let events2025 = [
         date: '2025-10-09',
         place: 'Шуваловский парк',
         name: 'Контрольный старт',
+        start: 'CONTROLNY_START',
         o_site: '25_KS_a',
         split: [
             'splits/2025/SPB_20251009_1_1_split.htm',
@@ -2545,7 +2546,6 @@ let events2025 = [
         ],
         reg: 'https://orgeo.ru/event/46972',
         type: 'ORIENT',
-        owner: 'KUZMOLOVO',
         map: 'shuvalovsky_rogaine_2024'
     },
     {
