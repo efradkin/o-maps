@@ -193,6 +193,7 @@ let events2010 = [
         id: 'SPB_20100228_2',
         date: '2010-02-28',
         name: 'Всеволожская тропа, 3-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/100228_res.htm',
         o_site: '100411_tropa'
@@ -239,6 +240,7 @@ let events2010 = [
         id: 'SPB_20100308_2',
         date: '2010-03-08',
         name: 'Всеволожская тропа, 4-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/100308_res.htm',
         o_site: '100411_tropa'
@@ -340,6 +342,7 @@ let events2010 = [
         id: 'SPB_20100411_1',
         date: '2010-04-11',
         name: 'Всеволожская тропа',
+        start: 'VSEVOLOZHSK_WAY',
         place: 'Кузьмолово',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/091129_res1.htm',
@@ -1344,6 +1347,7 @@ let events2010 = [
         id: 'SPB_20101219_1',
         date: '2010-12-19',
         name: 'Всеволожская тропа, 1-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/110410_tropa/101219_res.htm',
         o_site: '110410_tropa'

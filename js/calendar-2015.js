@@ -1729,6 +1729,7 @@ let events2015 = [
         date: '2015-12-13',
         place: 'Колтуши',
         name: 'Всеволожская тропа 2015 - 5 этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/150223_VT/151213_res.htm',

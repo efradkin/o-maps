@@ -148,6 +148,7 @@ let events2011 = [
         id: 'SPB_20110223_2',
         date: '2011-02-23',
         name: 'Всеволожская тропа, 2-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/110410_tropa/110223_res1.htm',
         o_site: '110410_tropa'
@@ -190,6 +191,7 @@ let events2011 = [
         id: 'SPB_20110308_1',
         date: '2011-03-08',
         name: 'Всеволожская тропа, 3-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/110410_tropa/110308_res.htm',
         o_site: '110410_tropa'
@@ -282,6 +284,7 @@ let events2011 = [
         id: 'SPB_20110410_1',
         date: '2011-04-10',
         name: 'Всеволожская тропа 4 этап',
+        start: 'VSEVOLOZHSK_WAY',
         place: 'Токсово',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110410_tropa/110410_split.htm',
@@ -1362,6 +1365,7 @@ let events2011 = [
         date: '2011-12-18',
         place: 'Бугры',
         name: 'Всеволожская тропа 2012 2 этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111218/111218_res2.PDF',
         split: 'splits/2011/SPB_20111218_1_split.htm',

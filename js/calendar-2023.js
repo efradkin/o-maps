@@ -2328,6 +2328,7 @@ let events2023 = [
         id: 'SPB_20231119_1',
         date: '2023-11-19',
         name: 'Всеволожская тропа',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/31632',
         res: 'https://o-site.spb.ru/_races/231119/231119_res.htm',

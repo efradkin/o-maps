@@ -137,6 +137,7 @@ let events2016 = [
         date: '2016-02-22',
         place: 'Рахья',
         name: 'Всеволожская тропа, 1-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/160222/160222_split.htm',
         o_site: '160222'
@@ -187,6 +188,7 @@ let events2016 = [
         date: '2016-03-06',
         place: 'Всеволожск',
         name: 'Всеволожская тропа, 2-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/160222/160306_split.htm',
         o_site: '160222'
@@ -359,6 +361,7 @@ let events2016 = [
         date: '2016-04-10',
         place: 'Кузьмоловский',
         name: 'Всеволожская тропа, 3-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/160222/160410_split.htm',
         o_site: '160222'
@@ -1795,6 +1798,7 @@ let events2016 = [
         date: '2016-12-11',
         place: 'Кузьмолово',
         name: 'Всеволожская тропа 5 этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'http://o-site.spb.ru/_races/160222/160222_split.htm',

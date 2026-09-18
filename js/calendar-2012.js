@@ -280,6 +280,7 @@ let events2012 = [
         id: 'SPB_20120408_1',
         date: '2012-04-08',
         name: 'Всеволожская тропа 2012 5 этап',
+        start: 'VSEVOLOZHSK_WAY',
         place: 'Кузьмоловский',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120408_tropa/120408_res.htm',
@@ -1497,6 +1498,7 @@ let events2012 = [
         date: '2012-11-25',
         place: 'Токсово',
         name: 'Всеволожская тропа, 1-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130407/121125_res1.pdf',
         o_site: '130407'
@@ -1546,6 +1548,7 @@ let events2012 = [
         date: '2012-12-16',
         place: 'Невская Дубровка',
         name: 'Всеволожская тропа, 2-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130407/121216_split.htm',
         o_site: '130407'

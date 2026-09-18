@@ -178,6 +178,7 @@ let events2013 = [
         date: '2013-02-23',
         place: 'Рахья',
         name: 'Всеволожская тропа, 3-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130407/130223_split.htm',
         o_site: '130407'
@@ -235,6 +236,7 @@ let events2013 = [
         date: '2013-03-08',
         place: 'Всеволожск',
         name: 'Всеволожская тропа, 4-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130407/130308_split.htm',
         o_site: '130407'
@@ -338,6 +340,7 @@ let events2013 = [
         id: 'SPB_20130407_1',
         date: '2013-04-07',
         name: 'Всеволожская тропа 2013 - 5 этап',
+        start: 'VSEVOLOZHSK_WAY',
         place: 'Бугры',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130407/130407_split.htm',
@@ -1670,6 +1673,7 @@ let events2013 = [
         id: 'SPB_20131124_1',
         date: '2013-11-24',
         name: 'Всеволожская тропа',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/131208_tr/131124_split.htm',
         o_site: '131208_tr'
@@ -1713,6 +1717,7 @@ let events2013 = [
         date: '2013-12-08',
         place: 'им Морозова',
         name: 'Всеволожская тропа',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/131208_tr/131208_split.htm',

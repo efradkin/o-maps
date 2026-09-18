@@ -194,6 +194,7 @@ let events2017 = [
         id: 'SPB_20170223_2',
         date: '2017-02-23',
         name: 'Всеволожская тропа 2017 1 этап',
+        start: 'VSEVOLOZHSK_WAY',
         place: 'Рахья',
         type: 'ORIENT',
         map: 'rakhja_2017'
@@ -432,6 +433,7 @@ let events2017 = [
         id: 'SPB_20170409_1',
         date: '2017-04-09',
         name: 'Всеволожская тропа 2017 3 этап',
+        start: 'VSEVOLOZHSK_WAY',
         place: 'Сосновка',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
@@ -2064,6 +2066,7 @@ let events2017 = [
         id: 'SPB_20171210_1',
         date: '2017-12-10',
         name: 'Всеволожская тропа, 5 этап',
+        start: 'VSEVOLOZHSK_WAY',
         place: 'Сосновка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171119_VT/171210_rez.htm',

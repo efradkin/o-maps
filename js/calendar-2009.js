@@ -158,6 +158,7 @@ let events2009 = [
         date: '2009-02-23',
         place: 'Рахья',
         name: 'Всеволожская тропа, 3-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/081223/090223_res.htm',
         o_site: '081223',
@@ -196,6 +197,7 @@ let events2009 = [
         date: '2009-03-08',
         place: 'Теплобетонная',
         name: 'Всеволожская тропа - 4 этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090308/090308_res.zip',
         o_site: '090308'
@@ -1291,6 +1293,7 @@ let events2009 = [
         id: 'SPB_20091129_2',
         date: '2009-11-29',
         name: 'Всеволожская тропа, 1-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/091129_res1.htm',
         o_site: '100411_tropa'
@@ -1321,6 +1324,7 @@ let events2009 = [
         id: 'SPB_20091213_2',
         date: '2009-12-13',
         name: 'Всеволожская тропа, 2-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/091213_res.htm',
         o_site: '100411_tropa'

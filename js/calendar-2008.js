@@ -917,6 +917,7 @@ let events2008 = [
         date: '2008-11-01',
         place: 'Проба',
         name: 'Всеволожская Тропа 2009',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090419_VT/081130_res.htm',
         info: '5-ти этапные соревнования',
@@ -1045,6 +1046,7 @@ let events2008 = [
         date: '2008-11-30',
         place: 'Проба',
         name: 'Всеволожская тропа 2009, 1-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'https://www.o-site.spb.ru/_races/090419_VT/081130_res.htm',
         o_site: '081223'
@@ -1095,6 +1097,7 @@ let events2008 = [
         date: '2008-12-21',
         place: 'им Морозова',
         name: 'Всеволожская тропа 2009, 2-й этап',
+        start: 'VSEVOLOZHSK_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/081223/081221_res.htm',
         o_site: '081223'
