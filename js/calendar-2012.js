@@ -63,6 +63,7 @@ let events2012 = [
         date: '2012-01-29',
         place: 'Кузьмоловский',
         name: 'Пер-во СПб среди обучающихся по лыжному ориентированию',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120129/120129_split.htm',
         split: 'splits/2012/SPB_20120129_1_split.htm',
@@ -141,10 +142,10 @@ let events2012 = [
         date: '2012-02-19',
         place: 'Рощино',
         name: 'Зимний Чемпионат и Первенство СПб, спринт',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120219/120219_res.htm',
         split: 'splits/2012/SPB_20120219_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '120219'
     },
     {
@@ -163,10 +164,10 @@ let events2012 = [
         date: '2012-02-26',
         place: 'Зеркальный',
         name: 'Зимний Чемпионат и Первенство СПб, Маркированная дистанция',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120226_1/120226_RES.htm',
         split: 'splits/2012/SPB_20120226_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '120226_1'
     },
     {
@@ -174,10 +175,10 @@ let events2012 = [
         date: '2012-03-08',
         place: 'ЗЦ Зеркальный',
         name: 'Зимний Чемпионат и Первенство СПб, ЛОНГ',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120308/120308_res.htm',
         split: 'splits/2012/SPB_20120308_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '120308'
     },
     {
@@ -198,10 +199,10 @@ let events2012 = [
         date: '2012-03-10',
         place: 'Зеркальный',
         name: 'Зимний Чемпионат и Первенство СПб, классика',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/120310/120310_RES.htm',
         split: 'splits/2012/SPB_20120310_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '120310'
     },
     {
@@ -229,12 +230,12 @@ let events2012 = [
         date: '2012-03-18',
         place: 'Токсово, Малиновая Гора',
         name: 'Чемпионат и Первенство СПб, эстафета',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120318/120318_res.htm',
         split: 'splits/2012/SPB_20120318_1_split.htm',
         photo: 'https://www.markir.spb.ru/photos/2012/2012.htm',
         video: 'https://www.youtube.com/watch?v=nYf_-WZoB1U',
-        owner: 'SFSO_SPB',
         o_site: '120318',
         map: 'toksovo_malinovaya_gora_1997'
     },
@@ -372,6 +373,7 @@ let events2012 = [
         endDate: '2012-05-01',
         place: 'Цвелодубово',
         name: 'Чемпионат и Первенство ЛО, Майская Многодневка',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/12042901/12042901_res.zip',
         split: [
@@ -381,7 +383,6 @@ let events2012 = [
         ],
         video: 'https://www.youtube.com/watch?v=OCvA6n1Spoc',
         info: 'КАРТЫ ДЛЯ СОРЕВНОВАНИЙ ПОДГОТОВЛЕНЫ В 2011 г. Членам многодетных семей и малообеспеченным гражданам при предъявлении соответствующих документов предоставляется скидка на стартовый взнос в размере 50%.',
-        owner: 'SFSO_LO',
         o_site: '12042901'
     },
     {
@@ -460,9 +461,9 @@ let events2012 = [
         endDate: '2012-05-18',
         place: 'Дюны',
         name: 'Чемпионат и Первенство СПб среди инвалидов по слуху',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/12051718/120517_res.htm',
-        owner: 'SFSO_SPB',
         o_site: '12051718'
     },
     {
@@ -491,10 +492,10 @@ let events2012 = [
         date: '2012-05-19',
         place: 'Токсово',
         name: 'Чемпионат Ленинградской области по велоориентированию',
+        start: 'LO_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/120519_velo/120519_res.htm',
         split: 'splits/2012/SPB_20120519_2_split.htm',
-        owner: 'SFSO_LO',
         o_site: '120519_velo'
     },
     {
@@ -589,11 +590,11 @@ let events2012 = [
         id: 'SPB_20120527_1',
         date: '2012-05-27',
         name: 'Первенство СПб среди обучающихся',
+        start: 'SPB_CHAMP',
         place: 'Пухтола гора',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120527/120527_res.htm',
         split: 'splits/2012/SPB_20120527_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '120527',
         map: 'pukhtolova_gora_2009'
     },
@@ -621,13 +622,13 @@ let events2012 = [
         date: '2012-06-02',
         place: 'парк Ново-Знаменка',
         name: 'Чемпионат и Первенство СПб, спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120602/120602_res1.htm',
         split: [
             'splits/2012/SPB_20120602_1_1_split.htm',
             'splits/2012/SPB_20120602_1_2_split.htm'
         ],
-        owner: 'SFSO_SPB',
         o_site: '120602',
         reskeep: 260
     },
@@ -636,10 +637,10 @@ let events2012 = [
         date: '2012-06-03',
         place: 'Токсово',
         name: 'Чемпионат и Первенство СПб, эстафета',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120603/120603_res.htm',
         split: 'splits/2012/SPB_20120603_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '120603',
         reskeep: 234
     },
@@ -657,10 +658,10 @@ let events2012 = [
         date: '2012-06-10',
         place: 'Лемболово',
         name: 'Чемпионат и Первенство СПб, лонг',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120610/120610_res.htm',
         split: 'splits/2012/SPB_20120610_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '120610',
         reskeep: 248,
         map: 'lembolovo_2002'
@@ -784,6 +785,7 @@ let events2012 = [
         date: '2012-07-08',
         place: 'Выборгский район Ленинградской области',
         name: 'Чемпионат Ленинградской области, 4 этап Кубка Ассоциации рогейна СПб',
+        start: 'LO_CHAMP',
         fmt: '6 часов бегом',
         link: 'rogaining.spb.ru',
         type: 'ROGAINE'
@@ -952,10 +954,10 @@ let events2012 = [
         date: '2012-09-09',
         place: 'Орехово',
         name: 'Чемпионат и Первенство СПб Общий старт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120909/120909_res_all.htm',
         split: 'splits/2012/SPB_20120909_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '120909',
         map: 'orekhovo_rakitinskoe_2004'
     },
@@ -996,13 +998,13 @@ let events2012 = [
         date: '2012-09-15',
         place: 'Зеленогорск',
         name: 'Чемпионат СПб по велоориентированию',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/120915/120915_res_midl.pdf',
         split: [
             'splits/2012/SPB_20120915_2_1_split.pdf',
             'splits/2012/SPB_20120915_2_2_split.htm'
         ],
-        owner: 'SFSO_SPB',
         o_site: '120915'
     },
     {
@@ -1032,8 +1034,8 @@ let events2012 = [
         date: '2012-09-16',
         place: 'Будогощь, б/о Мечта',
         name: 'Чемпионат и пер-во ЛО по велоориентированию',
+        start: 'LO_CHAMP',
         type: 'VELO',
-        owner: 'SFSO_LO',
         o_site: '120916'
     },
     {
@@ -1137,13 +1139,13 @@ let events2012 = [
         endDate: '2012-09-30',
         place: 'Орехово',
         name: 'Чемпионат и Первенство Ленинградской области',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/12092829/120929_res.pdf',
         split: [
             'splits/2012/SPB_20120929_1_1_split.htm',
             'splits/2012/SPB_20120929_1_2_split.htm'
         ],
-        owner: 'SFSO_LO',
         o_site: '12092829',
         map: 'orekhovo_rakitinskoe_2004'
     },
@@ -1164,10 +1166,10 @@ let events2012 = [
         date: '2012-09-30',
         place: 'Зеркальный, оз Тарасовское',
         name: 'Чемпионат СПб - марафон, Марафон На Холмах Яппиля',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120930/120930_res.htm',
         split: 'splits/2012/SPB_20120930_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '120930'
     },
     {
@@ -1215,11 +1217,11 @@ let events2012 = [
         date: '2012-10-07',
         place: 'Ильичёво, 103-я высота',
         name: 'Чемпионат и Первенство СПб, средняя дистанция',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/121007/121007_split.htm',
         split: 'splits/2012/SPB_20121007_1_split.htm',
         video: 'http://youtu.be/o9hg5vGSgjI',
-        owner: 'SFSO_SPB',
         o_site: '121007',
         reskeep: 227
     },
@@ -1420,13 +1422,13 @@ let events2012 = [
         endDate: '2012-11-05',
         place: 'Мичуринское',
         name: 'Чемпионат и Первенство ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/12110405/121104_split.htm',
         split: [
             'splits/2012/SPB_20121104_1_1_split.htm',
             'splits/2012/SPB_20121104_1_2_split.htm'
         ],
-        owner: 'SFSO_LO',
         o_site: '12110405'
     },
     {

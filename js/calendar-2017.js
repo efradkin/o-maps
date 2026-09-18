@@ -77,6 +77,7 @@ let events2017 = [
         endDate: '2017-01-29',
         place: 'Будогощь',
         name: 'Чемпионат и первенство ЛО; зимний GRAND PRIX среди ветеранов',
+        start: 'LO_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/17012729/170127_rez.htm',
         split: [
@@ -84,7 +85,6 @@ let events2017 = [
             'splits/2017/SPB_20170127_1_2_split.htm',
             'splits/2017/SPB_20170127_1_3_split.htm'
         ],
-        owner: 'SFSO_LO',
         o_site: '17012729'
     },
     {
@@ -151,17 +151,18 @@ let events2017 = [
         id: 'SPB_20170218_1',
         date: '2017-02-18',
         name: '58-й зимний ЧиП СПб ЛГ-общий старт',
+        start: 'SPB_CHAMP',
         place: 'Орехово, б/о ПАН',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170218/170218_res.htm',
         split: 'splits/2017/SPB_20170218_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '170218'
     },
     {
         id: 'SPB_20170219_1',
         date: '2017-02-19',
         name: '58-й зимний ЧиП СПб ЛГ-спринт',
+        start: 'SPB_CHAMP',
         place: 'Орехово, б/о ПАН',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170219/170219_res.htm',
@@ -182,12 +183,12 @@ let events2017 = [
         id: 'SPB_20170223_1',
         date: '2017-02-23',
         name: '58-й зимний ЧиП СПб Маркированная трасса',
+        start: 'SPB_CHAMP',
         place: 'Орехово, б/о ПАН',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170223_ch/170223_res.htm',
         split: 'splits/2017/SPB_20170223_1_split.htm',
         info: 'Дистанция: маркированная трасса (прокол в карте)',
-        owner: 'SFSO_SPB',
         o_site: '170223_ch'
     },
     {
@@ -214,20 +215,20 @@ let events2017 = [
         date: '2017-02-25',
         place: 'Орехово',
         name: 'Чемпионат СПб среди студентов',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=696',
         res: 'https://o-site.spb.ru/_races/170225_VUZ/170225_res.htm',
         split: 'splits/2017/SPB_20170225_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '170225_VUZ'
     },
     {
         id: 'SPB_20170226_1',
         date: '2017-02-26',
         name: '58-й зимний ЧиП СПб ЛГ-классика',
+        start: 'SPB_CHAMP',
         place: 'Орехово, б/о ПАН',
         type: 'SKI',
-        owner: 'SFSO_SPB',
         res: 'https://o-site.spb.ru/_races/170226_ch/170226_res.htm',
         split: 'splits/2017/SPB_20170226_1_split.htm',
         o_site: '170226_ch'
@@ -247,6 +248,7 @@ let events2017 = [
         id: 'SPB_20170305_1',
         date: '2017-03-05',
         name: '58-й зимний ЧиП СПб ЛГ-ЛОНГ',
+        start: 'SPB_CHAMP',
         place: 'Орехово, б/о ПАН',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170305/170305_res.htm',
@@ -267,6 +269,7 @@ let events2017 = [
         id: 'SPB_20170308_1',
         date: '2017-03-08',
         name: '58-й зимний ЧиП СПб ЛГ-эстафета',
+        start: 'SPB_CHAMP',
         place: 'Орехово, б/о ПАН',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/170308/170308_res.htm',
@@ -769,13 +772,13 @@ let events2017 = [
         date: '2017-05-13',
         endDate: '2017-05-14',
         name: 'Чемпионат и Первенство ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/17042901/17051314_res_official.zip',
         split: [
             'splits/2017/SPB_20170513_1_1_split.htm',
             'splits/2017/SPB_20170513_1_2_split.htm'
         ],
-        owner: 'SFSO_LO',
         o_site: '17042901'
     },
     {
@@ -886,10 +889,10 @@ let events2017 = [
         date: '2017-05-21',
         place: 'Сестрорецкие Дюны',
         name: 'Чемпионат и п-во СПб по велоориентированию (классика)',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/170521_velo/170521_rez.htm',
         split: 'splits/2017/SPB_20170521_3_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '170521_velo'
     },
     {
@@ -908,11 +911,11 @@ let events2017 = [
         date: '2017-05-27',
         place: 'Выборг',
         name: '59-й Чемпионат и первенство СПб - спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=2029',
         res: 'http://www.o-site.spb.ru/_races/170427-28_VT/170527_split_VT.htm',
         split: 'splits/2017/SPB_20170527_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '170527',
         reskeep: 255
     },
@@ -969,11 +972,11 @@ let events2017 = [
         date: '2017-05-28',
         place: 'Возрождение',
         name: '59-й Чемпионат и первенство СПб - классика',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=2029',
         res: 'http://www.o-site.spb.ru/_races/170427-28_VT/170528_split_day.htm',
         split: 'splits/2017/SPB_20170528_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '170528',
         reskeep: 253
     },
@@ -1172,11 +1175,11 @@ let events2017 = [
         id: 'SPB_20170701_1',
         date: '2017-07-01',
         name: 'Чемпионат и Первенство Санкт-Петербурга по велоориентированию, спринт',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=764',
         res: 'https://o-site.spb.ru/_races/170701/170701_res.htm',
         split: 'splits/2017/SPB_20170701_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '170701'
     },
     {
@@ -1192,12 +1195,12 @@ let events2017 = [
         id: 'SPB_20170702_1',
         date: '2017-07-02',
         name: 'Чемпионат и Первенство Санкт-Петербурга по велоориентированию, лонг',
+        start: 'SPB_CHAMP',
         place: 'Воейково',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=765',
         res: 'https://o-site.spb.ru/_races/170702/170702_res.htm',
         split: 'splits/2017/SPB_20170702_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '170702',
         map: 'voejkovo_velo'
     },
@@ -1409,6 +1412,7 @@ let events2017 = [
         date: '2017-09-03',
         place: 'Цвелодубово',
         name: '59-й Чемпионат и первенство СПб - выбор',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=783',
         res: 'https://o-site.spb.ru/_races/170903/170903_res_V.htm',
@@ -1416,7 +1420,6 @@ let events2017 = [
             'splits/2017/SPB_20170903_1_1_split.htm',
             'splits/2017/SPB_20170903_1_2_split.htm'
         ],
-        owner: 'SFSO_SPB',
         o_site: '170903'
     },
     {
@@ -1497,11 +1500,11 @@ let events2017 = [
         date: '2017-09-16',
         place: 'Стеклянный',
         name: 'Чемпионат и первенство Ленинградской обл., эстафета',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=789',
         res: 'https://o-site.spb.ru/_races/170916_LO/170916_res_.htm',
         split: 'splits/2017/SPB_20170916_2_split.htm',
-        owner: 'SFSO_LO',
         o_site: '170916_LO'
     },
     {
@@ -1509,11 +1512,11 @@ let events2017 = [
         date: '2017-09-17',
         place: 'Стеклянный',
         name: 'Чемпионат и первенство Ленинградской обл., классика',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=790',
         res: 'https://o-site.spb.ru/_races/170917_LO/170917_res.htm',
         split: 'splits/2017/SPB_20170917_1_split.htm',
-        owner: 'SFSO_LO',
         o_site: '170917_LO'
     },
     {
@@ -1557,10 +1560,10 @@ let events2017 = [
         date: '2017-09-23',
         place: 'Будогощь',
         name: 'Чемпионат и п-во ЛО по вело-О',
+        start: 'LO_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/170923_velo/170923_res_velo.html',
         split: 'splits/2017/SPB_20170923_2_split.html',
-        owner: 'SFSO_LO',
         o_site: '170923_velo'
     },
     {
@@ -1568,11 +1571,11 @@ let events2017 = [
         date: '2017-09-24',
         place: 'Яппиля',
         name: '59-й Чемпионат и первенство СПб - марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/5260',
         split: 'splits/2017/SPB_20170924_1_split.htm',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_marathon',
-        owner: 'SFSO_SPB',
         o_site: '170924',
         reskeep: 236
     },
@@ -1666,10 +1669,10 @@ let events2017 = [
         date: '2017-10-01',
         place: 'Токсово',
         name: '59-й Чемпионат и первенство СПб - эстафета',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171001/171001_res.htm',
         split: 'splits/2017/SPB_20171001_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '171001',
         reskeep: 232
     },
@@ -1723,11 +1726,11 @@ let events2017 = [
         date: '2017-10-07',
         place: 'Зеленогорск',
         name: 'Чемпионат СПб по ориентированию среди ВУЗов',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=800',
         res: 'https://o-site.spb.ru/_races/171007_V/171007_res_VUZ.htm',
         split: 'splits/2017/SPB_20171007_2_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '171007_V'
     },
     {
@@ -1735,11 +1738,11 @@ let events2017 = [
         date: '2017-10-07',
         place: 'Зеленогорск',
         name: 'Чемпионат и п-во СПб - спорт глухих',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=801',
         res: 'https://o-site.spb.ru/_races/171007_D/171007_res_gl.htm',
         split: 'splits/2017/SPB_20171007_3_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '171007_D'
     },
     {
@@ -1756,12 +1759,12 @@ let events2017 = [
         date: '2017-10-08',
         place: 'Петяярви',
         name: '59-й Чемпионат и первенство СПб - лонг',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=796',
         res: 'https://o-site.spb.ru/_races/171008/171008_res_.htm',
         split: 'splits/2017/SPB_20171008_1_split.htm',
         video: 'https://www.youtube.com/watch?v=O-5O-CrlOXw',
-        owner: 'SFSO_SPB',
         o_site: '171008',
         reskeep: 243
     },

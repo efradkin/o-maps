@@ -38,12 +38,12 @@ let events2025 = [
         date: '2025-01-12',
         place: 'Кировск',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         type: 'SKI',
         fmt: 'ЛГ-спринт',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_sprint',
         o_gps: 21399,
-        map: 'kirovsk_winter_2024',
-        owner: 'SFSO_LO'
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20250117_1',
@@ -51,14 +51,14 @@ let events2025 = [
         endDate: '2025-01-19',
         place: 'Будогощь',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         type: 'SKI',
         o_site: '25011719',
         reg: 'http://orgeo.ru/event/lo_budogosh_2025',
         coord: [
             59.278465,
             32.380748
-        ],
-        owner: 'SFSO_LO'
+        ]
     },
     {
         id: 'SPB_20250118_1',
@@ -66,6 +66,7 @@ let events2025 = [
         endDate: '2025-01-19',
         place: 'Орехово',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         fmt: 'ЛГ-классика, ЛГ-масстарт',
         o_site: '250119_chemp',
@@ -73,8 +74,7 @@ let events2025 = [
             'splits/2025/SPB_20250118_1_1_split.htm',
             'splits/2025/SPB_20250118_1_2_split.htm'
         ],
-        map: 'orekhovo_nyrkovo_winter_2012',
-        owner: 'SFSO_SPB'
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20250201_1',
@@ -94,6 +94,7 @@ let events2025 = [
         date: '2025-02-02',
         place: 'Орехово',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         fmt: 'ЛГ-лонг',
         o_site: '250202_chemp',
@@ -101,8 +102,7 @@ let events2025 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1650',
         o_gps: 21563,
         video: 'https://vkvideo.ru/video-218850805_456259621',
-        map: 'orekhovo_nyrkovo_winter_2012',
-        owner: 'SFSO_SPB'
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20250201_2',
@@ -135,6 +135,7 @@ let events2025 = [
         date: '2025-02-15',
         place: 'Зеркальный',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         fmt: 'ЛГ-спринт',
         type: 'SKI',
         o_site: '250215',
@@ -142,7 +143,6 @@ let events2025 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1651',
         o_gps: 21654,
         photo: 'https://vk.com/album-154221178_306315249',
-        owner: 'SFSO_SPB',
         map: 'zerkalny_tarasovskoe_winter_2023'
     },
     {
@@ -204,12 +204,12 @@ let events2025 = [
         date: '2025-02-23',
         place: 'Кировск',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         fmt: 'ЛГ-классика-масстарт',
         type: 'SKI',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_os',
         o_gps: 21695,
-        map: 'kirovsk_winter_2024',
-        owner: 'SFSO_LO'
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20250223_2',
@@ -245,6 +245,7 @@ let events2025 = [
         endDate: '2025-03-02',
         place: 'Орехово',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         fmt: 'маркир,ЛГ-эстафета',
         type: 'SKI',
         o_site: '250302',
@@ -260,7 +261,6 @@ let events2025 = [
             60.460798,
             30.306566
         ],
-        owner: 'SFSO_SPB',
         map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
@@ -848,6 +848,7 @@ let events2025 = [
         date: '2025-05-10',
         place: 'Лемболово',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         fmt: 'спринт',
         o_site: '250510_velo',
@@ -860,6 +861,7 @@ let events2025 = [
         date: '2025-05-11',
         place: 'Манеж Алексеева',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         fmt: 'спринт',
         type: 'ORIENT',
         o_site: '250511_sprint',
@@ -875,7 +877,6 @@ let events2025 = [
             'https://vk.com/album-230167293_309692905',
             'https://vk.com/album-230167293_309694417'
         ],
-        owner: 'SFSO_SPB',
         map: 'manezh_alekseeva_2025',
         planner: 'CHGRVSKY_M',
         publish: 'https://vk.com/album-230167293_309672161',
@@ -935,11 +936,11 @@ let events2025 = [
         date: '2025-05-17',
         place: 'Всеволожск, парк Песчанка',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         fmt: 'эстафета 4х',
         o_site: '250517_LO',
-        map: 'vsevolozhsk_peschanka_2021',
-        owner: 'SFSO_LO'
+        map: 'vsevolozhsk_peschanka_2021'
     },
     {
         id: 'SPB_20250517_2',
@@ -978,13 +979,13 @@ let events2025 = [
         date: '2025-05-18',
         place: 'Каннельярви',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         fmt: 'лонг-масстарт',
         o_site: '250518_PSPb',
         split: 'splits/2025/SPB_20250518_1_split.htm',
         o_gps: 22611,
         reskeep: 699,
-        owner: 'SFSO_SPB',
         map: 'kanneljarvi_2023',
         publish: 'https://vk.com/album-230167293_309756773',
         photo: 'https://vk.com/album-230167293_309756773'
@@ -1224,6 +1225,7 @@ let events2025 = [
         endDate: '2025-06-08',
         place: 'Вещево',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         fmt: 'классика, эстафета 3х',
         o_site: '250608_Ch_P',
@@ -1237,7 +1239,6 @@ let events2025 = [
             'М55': 22826
         },
         reskeep: [705, 706, 707],
-        owner: 'SFSO_SPB',
         photo: [
             'https://vk.com/album-230167293_310016870',
             'https://vk.com/album-230167293_310043045'
@@ -1789,6 +1790,7 @@ let events2025 = [
         date: '2025-08-10',
         place: 'Ушково, Пухтолова гора',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         fmt: 'масстарт',
         o_site: '250810',
@@ -1920,6 +1922,7 @@ let events2025 = [
         date: '2025-08-31',
         place: 'Кавголово',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         fmt: 'эстафета 2х',
         type: 'ORIENT',
         o_site: '250831_ch',
@@ -1930,7 +1933,6 @@ let events2025 = [
             787,
             788
         ],
-        owner: 'SFSO_SPB',
         photo: 'https://vk.com/album-230167293_310894625',
         map: 'kavgolovo_2024',
         strava: 15646774895,
@@ -1968,6 +1970,7 @@ let events2025 = [
         date: '2025-09-07',
         place: 'Кировск',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         fmt: 'спринт, масстарт',
         o_site: 'lo_kirovsk_2025',
@@ -1977,8 +1980,7 @@ let events2025 = [
             'https://vk.com/album-201330282_308352430',
             'https://disk.yandex.ru/d/IY8hUtWo4dbUEQ'
         ],
-        map: 'kirovsk_2025',
-        owner: 'SFSO_LO'
+        map: 'kirovsk_2025'
     },
     {
         id: 'SPB_20250910_1',
@@ -2031,6 +2033,7 @@ let events2025 = [
         date: '2025-09-13',
         place: 'Стеклянный',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         o_site: '250913_velo',
         split: 'splits/2025/SPB_20250913_2_split.htm',
@@ -2079,6 +2082,7 @@ let events2025 = [
         date: '2025-09-14',
         place: 'Пасторское оз',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         fmt: 'лонг',
         type: 'ORIENT',
         o_site: '250914_ch',
@@ -2090,7 +2094,6 @@ let events2025 = [
             'М50/Ж35': 23395,
             'Все КП': 23388
         },
-        owner: 'SFSO_SPB',
         photo: ['https://cloud.mail.ru/public/XGQt/iRcKxoYBX','https://vk.com/album-230167293_311033082'],
         video: [
             'https://youtu.be/EqV2Kq-Uazo',
@@ -2654,6 +2657,7 @@ let events2025 = [
         date: '2025-10-11',
         place: 'Лемболово',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         fmt: 'эстафета 2х',
         type: 'VELO',
         o_site: '251011_velo',
@@ -2928,6 +2932,7 @@ let events2025 = [
         date: '2025-10-26',
         place: 'Колосково',
         name: 'Чемпионат СПб среди ВУЗов',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         o_site: '251026_St',
         split: 'splits/2025/SPB_20251026_4_split.htm',

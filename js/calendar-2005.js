@@ -86,9 +86,9 @@ let events2005 = [
         id: 'SPB_20050227_1',
         date: '2005-02-27',
         name: 'Зимний Чемпионат СПб, эстафеты',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/050227/relay.htm',
-        owner: 'SFSO_SPB',
         o_site: '050227'
     },
     {
@@ -96,10 +96,10 @@ let events2005 = [
         date: '2005-03-06',
         place: 'Кузьмолово',
         name: 'Чемпионат СПб, маркир + Первенство КНО',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/050306/050306.htm',
         fmt: 'Маркир',
-        owner: 'SFSO_SPB',
         o_site: '050306'
     },
     {
@@ -151,9 +151,9 @@ let events2005 = [
         date: '2005-03-20',
         place: 'Кузьмолово',
         name: 'Чемпионат СПБ, классика',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/050320/20_03_2005.htm',
-        owner: 'SFSO_SPB',
         o_site: '050320'
     },
     {
@@ -321,9 +321,9 @@ let events2005 = [
         date: '2005-05-28',
         endDate: '2005-05-29',
         name: 'Чемпионат СПб, спринт и средняя дистанция',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/05052829/05052829.zip',
-        owner: 'SFSO_SPB',
         o_site: '05052829'
     },
     {
@@ -342,9 +342,9 @@ let events2005 = [
         endDate: '2005-06-05',
         place: 'Каннельярви',
         name: 'Чемпионат СПб, эстафеты и классика',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/05060405/05060405.zip',
-        owner: 'SFSO_SPB',
         o_site: '05060405'
     },
     {
@@ -464,8 +464,8 @@ let events2005 = [
         endDate: '2005-07-24',
         place: 'Васкелово, Силанде',
         name: 'МТБ-О Чемпионат СПб',
+        start: 'SPB_CHAMP',
         type: 'VELO',
-        owner: 'SFSO_SPB',
         o_site: '05072324_mtbo',
         map: 'silande_velo_2005'
     },
@@ -655,9 +655,9 @@ let events2005 = [
         date: '2005-10-15',
         place: 'оз Пасторское',
         name: 'Чемпионат СПБ, марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051015_mar/051015_res.zip',
-        owner: 'SFSO_SPB',
         o_site: '051015_mar'
     },
     {
@@ -697,6 +697,7 @@ let events2005 = [
         endDate: '2005-10-23',
         place: 'Выборг, Кировские дачи',
         name: 'Пер-во ЛО среди учащихся',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/05102223/05102223_res.zip',
         o_site: '05102223'

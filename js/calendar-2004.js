@@ -36,11 +36,11 @@ let events2004 = [
         endDate: '2004-06-06',
         place: 'Кузьмолово',
         name: 'Чемпионат СПб, спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/040606/sprint.zip',
         info: 'Возрастные группы: Спринт: МЖ12, МЖ14, МЖ16, МЖ18, МЖ20, МЖ21Е, МЖ21К, МЖ40, МЖ50 МЖ60; МЖ open (ребенок + родитель, ребенок + тренер, новички).',
         fmt: 'спринт',
-        owner: 'SFSO_SPB',
         o_site: '040606'
     },
     {
@@ -48,11 +48,11 @@ let events2004 = [
         date: '2004-06-05',
         place: 'Кузьмолово',
         name: 'Чемпионат СПб, эстафеты',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/040605/relay.zip',
         info: 'Чемпионат СПб, эстафеты',
         fmt: 'эстафеты',
-        owner: 'SFSO_SPB',
         o_site: '040605'
     },
     {
@@ -161,10 +161,10 @@ let events2004 = [
         endDate: '2004-07-11',
         place: '69км, Пухтолова гора',
         name: 'Чемпионат СПб по MTB-O',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/040710/ChempSPbMTBO.html',
         info: 'Чемпионат Санкт-Петербурга по ориентированию на велосипедах (МТВ-О). Возрастные группы: МЖ14, МЭ, ЖЭ, МЖ40, МЖ-Новички',
-        owner: 'SFSO_SPB',
         o_site: '040710',
         map: 'pukhtolova_gora_velo_2009'
     },
@@ -186,10 +186,10 @@ let events2004 = [
         date: '2004-08-15',
         place: 'Токсово, оз Хепоярви',
         name: 'Чемпионат Санкт-Петербурга по MTBO',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/040815/ChempSPbMTBO-klas2.htm',
         fmt: 'Соревнования в заданном направлении, классическая дистанция',
-        owner: 'SFSO_SPB',
         o_site: '040815'
     },
     {
@@ -210,10 +210,10 @@ let events2004 = [
         endDate: '2004-09-12',
         place: 'оз Пасторское',
         name: 'Чемпионат СПБ, классика и средняя',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/040911/resuts_2days.zip',
         info: 'Группы – Первенство - МЖ12,14,16,18,20,40,50,60,21К; Чемпионат – МЖ 21Е',
-        owner: 'SFSO_SPB',
         o_site: '040911'
     },
     {
@@ -298,9 +298,9 @@ let events2004 = [
         id: 'SPB_20041024_1',
         date: '2004-10-24',
         name: 'Чемпионат СПб, удлинённая дистанция',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         info: 'удлиненная дистанция с общего старта с рассеиванием',
-        owner: 'SFSO_SPB',
         o_site: '041024'
     },
     {

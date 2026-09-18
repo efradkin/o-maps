@@ -141,6 +141,18 @@ let starts = {
         logo: 'strekozaiki.webp',
         owner: 'STREKOZAIKI'
     },
+    SPB_CHAMP: {
+        short: 'ЧиП СПб',
+        name: 'Чемпионат и Первенство СПб',
+        logo: 'sfso.gif',
+        owner: 'SFSO_SPB'
+    },
+    LO_CHAMP: {
+        short: 'ЧиП ЛО',
+        name: 'Чемпионат и Первенство Ленинградской обл',
+        logo: 'len_obl.gif',
+        owner: 'SFSO_LO'
+    },
     SNOW_WAY: {
         short: 'Снежная тропа',
         name: 'Снежная тропа',

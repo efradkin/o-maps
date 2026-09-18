@@ -166,11 +166,11 @@ let events2014 = [
         id: 'SPB_20140223_1',
         date: '2014-02-23',
         name: '55-й зимний чемпионат и п-во СПб, классика',
+        start: 'SPB_CHAMP',
         place: 'Орехово',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/140223_SPb/140223_res.htm',
         split: 'splits/2014/SPB_20140223_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '140223_SPb'
     },
     {
@@ -452,10 +452,10 @@ let events2014 = [
         endDate: '2014-05-03',
         place: 'Будогощь',
         name: 'Чемпионат и первенство Ленинградской области',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=635',
         res: 'http://o-time.ru/index.php/-mainmenu-56/949-footo',
-        owner: 'SFSO_LO',
         o_site: '14050103'
     },
     {
@@ -482,11 +482,11 @@ let events2014 = [
         date: '2014-05-09',
         place: 'Лемболово',
         name: 'Соревнования, посвящённые Дню Победы - Чемпионат СПб среди студентов ВУЗов',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/140509_vyz/140509_res.htm',
         split: 'splits/2014/SPB_20140509_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '140509_vyz',
         map: 'lembolovo_2002'
     },
@@ -547,6 +547,7 @@ let events2014 = [
         date: '2014-05-17',
         place: 'СК им В.И.Алексеева',
         name: 'Чемпионат и Первенство Санкт-Петербурга, спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'http://spbof.ru/ru/docs/finish/41-leto/253-rezultaty-sprint',
         split: [
@@ -554,7 +555,6 @@ let events2014 = [
             'splits/2014/SPB_20140517_1_2_split.htm'
         ],
         fmt: 'Городской спринт',
-        owner: 'SFSO_SPB',
         o_site: '140517',
         reskeep: 258
     },
@@ -653,12 +653,12 @@ let events2014 = [
         id: 'SPB_20140525_1',
         date: '2014-05-25',
         name: 'Открытые ЧиП ЛО по ориентированию на велосипедах',
+        start: 'LO_CHAMP',
         place: 'Новоорловский л/п',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/140525v/ResultList.htm',
         split: 'splits/2014/SPB_20140525_1_split.htm',
         info: 'Открытые Чемпионат и первенство Ленинградской области по спортивному ориентированию на велосипедах. Спринт (25мин). Новоорловский лесопарк. 12:00.',
-        owner: 'SFSO_LO',
         o_site: '140525v',
         map: 'novoorlovsky_park_velo_2014'
     },
@@ -752,10 +752,9 @@ let events2014 = [
             'splits/2014/SPB_20140607_1_1_split.htm',
             'splits/2014/SPB_20140607_1_2_split.htm'
         ],
-        owner: 'SFSO_SPB',
         o_site: '140107',
         reskeep: 246,
-        start: '100x24'
+        start: ['100x24','SPB_CHAMP']
     },
     {
         id: 'SPB_20140607_2',
@@ -769,14 +768,13 @@ let events2014 = [
             'splits/2014/SPB_20140607_2_1_split.htm',
             'splits/2014/SPB_20140607_2_2_split.htm'
         ],
-        owner: 'SFSO_SPB',
         o_site: '14060708',
         map: ['psk_2014_06_07', 'psk_2014_06_08'],
         o_gps: {
             '07':199,
             '08':200
         },
-        start: 'KZNTSVA',
+        start: ['KZNTSVA','SPB_CHAMP'],
         reskeep: 246
     },
     {
@@ -938,11 +936,11 @@ let events2014 = [
         date: '2014-06-28',
         place: 'Поляны',
         name: 'Чемпионат и первенство СПб по ориентированию на велосипедах: велокросс-классика',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/140628_velo/140628_res_v.htm',
         split: 'splits/2014/SPB_20140628_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '140628_velo'
     },
     {
@@ -1142,9 +1140,9 @@ let events2014 = [
         date: '2014-09-06',
         place: 'Поляны',
         name: 'Чемпионат и Первенство Санкт-Петербурга, эстафета',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140906/orelay2014.pdf',
-        owner: 'SFSO_SPB',
         o_site: '140906',
     },
     {
@@ -1152,10 +1150,10 @@ let events2014 = [
         date: '2014-09-07',
         place: 'Первомайское',
         name: 'Чемпионат и Первенство Санкт-Петербурга, марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140907/140907_res.xls',
         split: 'splits/2014/SPB_20140907_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '140907',
         reskeep: 239
     },
@@ -1184,6 +1182,7 @@ let events2014 = [
         id: 'SPB_20140913_1',
         date: '2014-09-13',
         name: 'Ч-т и П-во Ленинградской области',
+        start: 'LO_CHAMP',
         place: 'Всеволожск',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14091314/140914_res.pdf',
@@ -1275,6 +1274,7 @@ let events2014 = [
         endDate: '2014-09-28',
         place: 'Токсово',
         name: 'Ч-т и п-во СПб среди инвалидов по слуху - Турнир памяти Игоря Даньшина',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/14092728/140927_res.xls',
@@ -1341,10 +1341,10 @@ let events2014 = [
         date: '2014-10-04',
         place: 'Суоранда (Голубая дача)',
         name: 'Чемпионат и Первенство Санкт-Петербурга по вело-ориентированию, спринт',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/141004/141004_res.pdf',
         split: 'splits/2014/SPB_20141004_2_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '141004'
     },
     {
@@ -1352,12 +1352,12 @@ let events2014 = [
         date: '2014-10-05',
         place: 'Стеклянный',
         name: 'Чемпионат и первенство СПб, средняя дистанция',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/141005/141005_res.htm',
         split: 'splits/2014/SPB_20141005_1_split.htm',
         photo: 'http://fotki.yandex.ru/users/wavygirl/album/453782',
         video: 'https://www.youtube.com/watch?v=mxzdkz77ZB4',
-        owner: 'SFSO_SPB',
         o_site: '141005',
         reskeep: 225
     },

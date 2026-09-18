@@ -99,13 +99,13 @@ let events2026 = [
         date: '2026-01-11',
         place: 'Кировск',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         o_site: '260111_lo',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_sprint_2026',
         type: 'SKI',
         fmt: 'спринт',
         o_gps: 24101,
-        map: 'kirovsk_winter_2024',
-        owner: 'SFSO_LO'
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20260117_1',
@@ -133,6 +133,7 @@ let events2026 = [
         endDate: '2026-01-18',
         place: 'Орехово',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         o_site: '26011718',
         reg: [
             'http://o-reg.spb.ru/?filter[day_id]=1710',
@@ -149,7 +150,6 @@ let events2026 = [
         type: 'SKI',
         fmt: 'маркир,классика',
         planner: 'SMNV_M',
-        owner: 'SFSO_SPB',
         map: 'orekhovo_nyrkovo_winter_2012',
         publish: 'https://vk.com/album-230167293_312356826'
     },
@@ -159,6 +159,7 @@ let events2026 = [
         endDate: '2026-01-25',
         place: 'Кировск',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         o_site: '260124_bn',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_2425012026',
         o_gps: {
@@ -167,8 +168,7 @@ let events2026 = [
         },
         type: 'SKI',
         fmt: 'классика,многодневная',
-        map: 'kirovsk_winter_2024',
-        owner: 'SFSO_LO'
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20260124_2',
@@ -211,6 +211,7 @@ let events2026 = [
         endDate: '2026-02-01',
         place: 'Орехово',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         o_site: '260201_ChiP',
         split: 'splits/2026/SPB_20260131_1_split.pdf',
         reg: [
@@ -227,8 +228,7 @@ let events2026 = [
         fmt: 'лонг,эстафета',
         map: 'orekhovo_nyrkovo_winter_2012',
         publish: 'https://vk.com/album-230167293_312489606',
-        planner: 'GRLNV',
-        owner: 'SFSO_SPB'
+        planner: 'GRLNV'
     },
     {
         id: 'SPB_20260131_2',
@@ -314,6 +314,7 @@ let events2026 = [
         id: 'SPB_20260214_1',
         date: '2026-02-14',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         place: 'Зеркальный',
         o_site: '260214',
         split: 'splits/2026/SPB_20260214_1_split.htm',
@@ -323,7 +324,6 @@ let events2026 = [
         photo: 'https://vk.com/album-230167293_312624491',
         o_gps: 24256,
         map: 'zerkalny_2002',
-        owner: 'SFSO_SPB',
         reskeep: 847
     },
     {
@@ -375,13 +375,13 @@ let events2026 = [
         endDate: '2026-02-22',
         place: 'Кировск',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         o_site: '260220_lo',
         reg: 'https://orgeo.ru/event/kirovsk_ski_o_2122022026',
         o_gps: 24278,
         type: 'SKI',
         fmt: 'маркир,масстарт',
-        map: 'kirovsk_winter_2024',
-        owner: 'SFSO_LO'
+        map: 'kirovsk_winter_2024'
     },
     {
         id: 'SPB_20260221_3',
@@ -422,6 +422,7 @@ let events2026 = [
         id: 'SPB_20260228_1',
         date: '2026-02-28',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         place: 'Орехово',
         o_site: '260228_ChiP',
         split: 'splits/2026/SPB_20260228_1_split.html',
@@ -430,7 +431,6 @@ let events2026 = [
         o_gps: 24341,
         map: 'orekhovo_nyrkovo_winter_2012',
         publish: 'https://vk.ru/album-230167293_312768846',
-        owner: 'SFSO_SPB',
         reskeep: 846
     },
     {
@@ -849,7 +849,7 @@ let events2026 = [
         date: '2026-04-11',
         endDate: '2026-04-12',
         name: 'Сосновоборские дюны, ЧиП ЛО',
-        start: 'SOSNOVOBORSKY_DUNY',
+        start: ['SOSNOVOBORSKY_DUNY','LO_CHAMP'],
         place: 'Сосновый бор',
         o_site: '260412_SD',
         split: [
@@ -1082,6 +1082,7 @@ let events2026 = [
         id: 'SPB_20260426_1',
         date: '2026-04-26',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         place: 'Пушкин',
         o_site: '260426',
         split: 'splits/2026/SPB_20260426_1_split.html',
@@ -1092,7 +1093,6 @@ let events2026 = [
         reskeep: 881,
         type: 'ORIENT',
         fmt: 'спринт',
-        owner: 'SFSO_SPB',
         publish: 'https://vk.com/album-230167293_313365421',
         map: 'pushkin_school_552_2022'
     },
@@ -1230,13 +1230,13 @@ let events2026 = [
         id: 'SPB_20260510_1',
         date: '2026-05-10',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         place: 'Поляны',
         o_site: '260510_velo',
         split: 'splits/2026/SPB_20260510_1_split.pdf',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1731',
         type: 'VELO',
         fmt: 'спринт',
-        owner: 'SFSO_SPB',
         map: 'poljany_velo_2023'
     },
     {
@@ -1268,6 +1268,7 @@ let events2026 = [
         id: 'SPB_20260511_1',
         date: '2026-05-11',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         place: 'Аньялово',
         o_site: '260511_chemp',
         split: 'splits/2026/SPB_20260511_1_split.html',
@@ -1287,8 +1288,7 @@ let events2026 = [
         fmt: 'классика',
         planner: 'KSHN_D',
         map: 'anyalovo_2023',
-        publish: 'https://vk.com/album-230167293_313515750',
-        owner: 'SFSO_SPB'
+        publish: 'https://vk.com/album-230167293_313515750'
     },
     {
         id: 'SPB_20260516_1',
@@ -1349,6 +1349,7 @@ let events2026 = [
         id: 'SPB_20260517_1',
         date: '2026-05-17',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         place: 'Поляны',
         reg: ['http://o-reg.spb.ru/?filter[day_id]=1733','http://o-reg.spb.ru/?filter[day_id]=1732'],
         o_gps: 25076,
@@ -1361,8 +1362,7 @@ let events2026 = [
         map: 'polyany_2019',
         publish: 'https://vk.com/album-230167293_313563270',
         info: 'У ветеранов - классика.',
-        planner: 'YGNV',
-        owner: 'SFSO_SPB'
+        planner: 'YGNV'
     },
     {
         id: 'SPB_20260517_2',
@@ -1609,6 +1609,7 @@ let events2026 = [
         id: 'SPB_20260530_1',
         date: '2026-05-30',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         place: 'Гаврилово',
         o_site: '260530_SPB',
         split: 'splits/2026/SPB_20260530_1_split.html',
@@ -1623,12 +1624,12 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'эстафета 2х',
         map: 'gavrilovo_2014',
-        owner: 'SFSO_SPB',
     },
     {
         id: 'SPB_20260530_4',
         date: '2026-05-30',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         place: 'Гаврилово',
         o_site: '260530_LO',
         split: 'splits/2026/SPB_20260530_4_split.html',
@@ -1636,8 +1637,7 @@ let events2026 = [
         photo: 'https://vk.ru/album-201330282_311023457',
         type: 'ORIENT',
         fmt: 'эстафета 2х',
-        map: 'gavrilovo_2014',
-        owner: 'SFSO_LO'
+        map: 'gavrilovo_2014'
     },
     {
         id: 'SPB_20260530_2',
@@ -2283,6 +2283,7 @@ let events2026 = [
         id: 'SPB_20260809_1',
         date: '2026-08-09',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         place: 'Яппиля',
         o_site: '260809_mtbo',
         split: 'splits/2026/SPB_20260809_1_split.htm',
@@ -2290,7 +2291,6 @@ let events2026 = [
         type: 'VELO',
         fmt: 'масстарт',
         video: 'https://vk.com/video-220245153_456239104',
-        owner: 'SFSO_SPB',
         photo: ['https://vk.ru/album-154221178_311697593','https://vk.ru/album-230167293_314194200'],
         map: 'zerkalny_velo_2023'
     },
@@ -2443,6 +2443,7 @@ let events2026 = [
         id: 'SPB_20260829_1',
         date: '2026-08-29',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         place: 'Лейпясуо',
         type: 'ORIENT',
         fmt: 'спринт-масстарт',
@@ -2452,7 +2453,6 @@ let events2026 = [
         photo: 'https://vk.ru/album-201330282_311662493',
         video: ['https://www.youtube.com/watch?v=SWkrPI6rKHU','https://vkvideo.ru/video-238805001_456239042'],
         map: 'leypjasuo_2014',
-        owner: 'SFSO_LO',
         reskeep: 916
     },
     {
@@ -2476,6 +2476,7 @@ let events2026 = [
         id: 'SPB_20260830_1',
         date: '2026-08-30',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         place: 'Вещево',
         o_site: '260830',
         split: 'splits/2026/SPB_20260830_1_split.html',
@@ -2486,7 +2487,6 @@ let events2026 = [
         publish: 'https://vk.ru/album-230167293_314353203',
         type: 'ORIENT',
         fmt: 'лонг',
-        owner: 'SFSO_SPB',
         map: 'veschevo_torikovskoe_2026'
     },
     {
@@ -2595,12 +2595,12 @@ let events2026 = [
         id: 'SPB_20260920_1',
         date: '2026-09-20',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         place: 'Сосново',
         o_site: '260920_velo',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1759',
         type: 'VELO',
         fmt: 'классика',
-        owner: 'SFSO_SPB',
         map: 'sosnovo_ulovnoe_velo_2021'
     },
     {
@@ -2699,12 +2699,12 @@ let events2026 = [
         id: 'SPB_20260927_1',
         date: '2026-09-27',
         name: 'Марафон на холмах Яппиля, ЧиП СПб',
+        start: 'SPB_CHAMP',
         place: 'Яппиля',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1752',
         type: 'ORIENT',
         fmt: 'лонг',
         o_site: '260927',
-        owner: 'SFSO_SPB',
         map: 'yappilya_2024'
     },
     {
@@ -2803,15 +2803,16 @@ let events2026 = [
         id: 'SPB_20261010_2',
         date: '2026-10-10',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         type: 'VELO',
-        fmt: 'эстафета 2х',
-        owner: 'SFSO_SPB'
+        fmt: 'эстафета 2х'
     },
     {
         id: 'SPB_20261010_3',
         date: '2026-10-10',
         endDate: '2026-10-11',
         name: 'Золотая осень, ЧиП ЛО',
+        start: 'LO_CHAMP',
         place: 'Выборг',
         type: 'ORIENT',
         owner: 'VYBORG'
@@ -2833,10 +2834,10 @@ let events2026 = [
         id: 'SPB_20261011_1',
         date: '2026-10-11',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         o_site: '261011_velo',
         type: 'VELO',
         fmt: 'эстафета 2х',
-        owner: 'SFSO_SPB',
         map: 'roschino_velo_2025'
     },
     {
@@ -2865,10 +2866,10 @@ let events2026 = [
         id: 'SPB_20261018_1',
         date: '2026-10-18',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         place: 'Сосновый бор',
         type: 'ORIENT',
-        fmt: 'выбор',
-        owner: 'SFSO_LO'
+        fmt: 'выбор'
     },
     {
         id: 'SPB_20261018_2',

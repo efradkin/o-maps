@@ -68,10 +68,10 @@ let events2016 = [
         endDate: '2016-01-31',
         place: 'Будогощь',
         name: 'Чемпионат и п-во Ленинградской обл. по ориентированию на лыжах',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         reg: 'http://orgeo.ru',
         res: 'https://o-site.spb.ru/_races/16012931/160129_res.htm',
-        owner: 'SFSO_LO',
         o_site: '16012931'
     },
     {
@@ -79,11 +79,11 @@ let events2016 = [
         date: '2016-02-13',
         place: 'Орехово',
         name: 'Чемпионат и Первенство СПб, спринт',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=559',
         res: 'https://o-site.spb.ru/_races/160213/160213_res.htm',
         split: 'splits/2016/SPB_20160213_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '160213'
     },
     {
@@ -91,11 +91,11 @@ let events2016 = [
         date: '2016-02-14',
         place: 'Орехово',
         name: 'Чемпионат и Первенство СПб, масс-старт',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=560',
         res: 'https://o-site.spb.ru/_races/160214/160214_res.htm',
         split: 'splits/2016/SPB_20160214_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '160214'
     },
     {
@@ -164,23 +164,23 @@ let events2016 = [
         id: 'SPB_20160228_1',
         date: '2016-02-28',
         name: 'Чемпионат и Первенство Санкт-Петербурга, лыжная гонка – маркированная трасса',
+        start: 'SPB_CHAMP',
         place: 'Ильичево, Болотная станция',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/160228/160228_res.htm',
         split: 'splits/2016/SPB_20160228_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '160228'
     },
     {
         id: 'SPB_20160306_1',
         date: '2016-03-06',
         name: 'Чемпионат и Первенство Санкт-Петербурга, лыжная гонка - классика',
+        start: 'SPB_CHAMP',
         place: 'Ильичево, Болотная станция',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/160306/160306_res.htm',
         split: 'splits/2016/SPB_20160306_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '160306'
     },
     {
@@ -207,12 +207,12 @@ let events2016 = [
         id: 'SPB_20160308_1',
         date: '2016-03-08',
         name: 'Чемпионат и Первенство Санкт-Петербурга, лыжная гонка - лонг',
+        start: 'SPB_CHAMP',
         place: 'Ильичево, Болотная станция',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/160308/160308_res.htm',
         split: 'splits/2016/SPB_20160308_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '160308'
     },
     {
@@ -459,9 +459,8 @@ let events2016 = [
         res: 'http://100x24.ru/2016/docs/20160424_spl2.htm',
         split: 'splits/2016/SPB_20160424_1_split.htm',
         photo: 'https://o-site.spb.ru/_races/160425/https://goo.gl/photos/ns6eb7Ra1RuSvu2Z6',
-        owner: 'SFSO_SPB',
         o_site: '160425',
-        start: '100x24'
+        start: ['100x24','SPB_CHAMP']
     },
     {
         id: 'SPB_20160424_2',
@@ -473,9 +472,8 @@ let events2016 = [
         res: 'http://100x24.ru/2016/docs/20160424_spl1.htm',
         split: 'splits/2016/SPB_20160424_2_split.htm',
         photo: 'https://o-site.spb.ru/_races/160424/https://goo.gl/photos/ns6eb7Ra1RuSvu2Z6',
-        owner: 'SFSO_SPB',
         o_site: '160424',
-        start: '100x24'
+        start: ['100x24','SPB_CHAMP']
     },
     {
         id: 'SPB_20160424_3',
@@ -547,10 +545,10 @@ let events2016 = [
         date: '2016-05-01',
         endDate: '2016-05-03',
         name: 'Чемпионат и Первенство Ленинградской области',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'http://o-time.ru/images/all/w16/footo010516.htm',
         video: 'https://www.youtube.com/watch?v=94YVIw1CBSw',
-        owner: 'SFSO_LO',
         o_site: '16050103'
     },
     {
@@ -675,11 +673,11 @@ let events2016 = [
         date: '2016-05-21',
         place: 'Парк Политехнического Университета',
         name: '58-й летний Чемпионат и Первенство СПб, спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/160521/160521_res_prv.pdf',
         split: 'splits/2016/SPB_20160521_1_split.htm',
         photo: 'http://yadi.sk/d/hkJV8vtss2VZM',
-        owner: 'SFSO_SPB',
         o_site: '160521',
         reskeep: 256,
         map: 'politekh_2022'
@@ -689,11 +687,11 @@ let events2016 = [
         date: '2016-05-21',
         place: 'Токсово',
         name: 'Чемпионат и первенство ЛО по вело, спринт',
+        start: 'LO_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/20160521v/ResultList.htm',
         split: 'splits/2016/SPB_20160521_2_split.htm',
         info: 'Чемпионат и первенство по ориентированию в дисциплине велокросс, спринт.',
-        owner: 'SFSO_LO',
         o_site: '20160521v'
     },
     {
@@ -794,10 +792,10 @@ let events2016 = [
         date: '2016-05-29',
         place: 'Симагино',
         name: '58-й летний Чемпионат и Первенство СПб, лонг',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/160529/160529_res_perv.pdf',
         split: 'splits/2016/SPB_20160529_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '160529',
         reskeep: 244
     },
@@ -1232,11 +1230,11 @@ let events2016 = [
         date: '2016-09-17',
         place: 'Петяярви',
         name: 'Чемпионат и Первенство ЛО, эстафета',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=636',
         res: 'https://o-site.spb.ru/_races/160917/160917_res.htm',
         fmt: 'эстафета - 2 этапа',
-        owner: 'SFSO_LO',
         o_site: '160917'
     },
     {
@@ -1258,11 +1256,11 @@ let events2016 = [
         date: '2016-09-18',
         place: 'Петяярви',
         name: 'Чемпионат и Первенство ЛО, классика',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=637',
         res: 'https://o-site.spb.ru/_races/160918/160918_res_.htm',
         split: 'splits/2016/SPB_20160918_1_split.htm',
-        owner: 'SFSO_LO',
         o_site: '160918'
     },
     {
@@ -1279,12 +1277,12 @@ let events2016 = [
         date: '2016-09-24',
         place: 'Васкелово',
         name: 'Чемпионат СПб среди студентов ВУЗов',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=640',
         res: 'https://o-site.spb.ru/_races/160924_V/160924_rez.htm',
         split: 'splits/2016/SPB_20160924_2_split.htm',
         info: 'Внимание участников!!! Все, кто не прошел мандатную комиссию, будут стартовать вне протоколов Чемпионата ВУЗов на общих основаниях. Чтобы участвовать в Чемпионате ВУЗов лично, необходимы медицинский допуск, страховка и документ, подтверждающий принадлежность к ВУЗу. Чтобы быть в командном зачете - дополнительно заявка, оформленная в соответствии с положением.',
-        owner: 'SFSO_SPB',
         o_site: '160924_V'
     },
     {
@@ -1307,10 +1305,10 @@ let events2016 = [
         date: '2016-09-25',
         place: 'Яппиля',
         name: '58-й летний Чемпионат и Первенство СПб, марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/160925/160925_res.htm',
         split: 'splits/2016/SPB_20160925_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '160925',
         reskeep: 237
     },
@@ -1337,8 +1335,8 @@ let events2016 = [
         date: '2016-10-01',
         place: 'Цвелодубово',
         name: '58-й летний Чемпионат и Первенство СПб, эстафета',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
-        owner: 'SFSO_SPB',
         o_site: '160904'
     },
     {
@@ -1376,11 +1374,11 @@ let events2016 = [
         date: '2016-10-02',
         place: 'Петяярви',
         name: '58-й летний Чемпионат и Первенство СПб, классика',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=644',
         res: 'https://o-site.spb.ru/_races/161002/161002_res.htm',
         split: 'splits/2016/SPB_20161002_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '161002',
         reskeep: 223
     },
@@ -1412,11 +1410,11 @@ let events2016 = [
         date: '2016-10-09',
         place: 'Пухтолова гора',
         name: 'Чемпионат и Первенство СПб по велоориентированию, лонг',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/161009_velo/161009_res.htm',
         split: 'splits/2016/SPB_20161009_1_split.htm',
         photo: 'http://fotki.yandex.ru/users/apatenkov/album/518631/',
-        owner: 'SFSO_SPB',
         o_site: '161009_velo',
         map: 'pukhtolova_gora_velo_2025'
     },

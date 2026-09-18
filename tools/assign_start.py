@@ -19,6 +19,11 @@ o-maps по подстроке в названии.
     # с удалением owner
     python assign_start.py --src js --rule "Кубок Белых Ночей=KBN=WN"
 
+    # совмещённые старты: два кода на одной записи (нужен --all-rules)
+    python assign_start.py --src js --all-rules \\
+        --rule "Чемпионат СПб=SPB_CHAMP=SFSO_SPB" \\
+        --rule "ЧиП ЛО=LO_CHAMP=SFSO_LO"
+
     # несколько правил сразу + упаковка изменённых файлов в zip
     python assign_start.py --src js --zip codes.zip \\
         --rule "Кубок Белых Ночей=KBN=WN" \\
@@ -36,12 +41,18 @@ o-maps по подстроке в названии.
 СЕМАНТИКА
   * поиск по --match-field (по умолчанию name), регистронезависимый
     (--case-sensitive отключает);
-  * существующее непустое значение целевого поля не перезаписывается — такие
-    записи попадают в отчёт как конфликты (--force перезаписывает);
+  * занятое целевое поле по умолчанию дополняется: скаляр становится
+    массивом, массив дополняется в конец, уже присутствующий код не
+    дублируется. --no-merge вместо этого сообщает о конфликте и оставляет
+    запись как есть, --force перезаписывает значение;
   * новое поле вставляется сразу после --insert-after (по умолчанию name),
     при отсутствии якоря — последним полем записи;
   * правила проверяются по порядку, срабатывает первое подошедшее
     (--all-rules применяет все подошедшие);
+  * удаление owner учитывает массивы: из owner: ['VYBORG','NW'] вынимается
+    только заданное значение, поле целиком удаляется лишь когда не остаётся
+    ни одного; единственный оставшийся элемент сворачивается в скаляр
+    (--keep-array сохраняет форму массива);
   * кодировка UTF-8 и переводы строк CRLF/LF сохраняются пофайлово.
 """
 from __future__ import print_function, unicode_literals
@@ -123,8 +134,8 @@ def field(entry, name):
     return None
 
 
-def raw(entry, name):
-    """Сырой литерал поля любого типа, либо None (ловит и массивы)."""
+def raw_span(entry, name):
+    """Границы сырого литерала поля: (начало, конец), либо None."""
     m = re.search(r"(?m)^[ \t]+" + re.escape(name) + r"\s*:\s*", entry)
     if not m:
         return None
@@ -151,7 +162,15 @@ def raw(entry, name):
         elif c == ',' and depth == 0:
             break
         i += 1
-    return entry[m.end():i].strip()
+    while i > m.end() and entry[i - 1] in ' \t\r\n':
+        i -= 1                      # хвостовые пробелы/перевод строки — не часть литерала
+    return m.end(), i
+
+
+def raw(entry, name):
+    """Сырой литерал поля любого типа, либо None (ловит и массивы)."""
+    span = raw_span(entry, name)
+    return None if span is None else entry[span[0]:span[1]].strip()
 
 
 # --------------------------------------------------------------------------
@@ -183,25 +202,111 @@ def _strip_trailing_comma(text, upto):
     return text[:prev_start] + line + text[prev_end:]
 
 
-def remove_field(entry, name, value=None):
-    """Удалить строку поля (опционально только при совпадении значения)."""
-    span = _field_line(entry, name)
-    if span is None:
-        return entry, False
-    ls, le = span
-    line = entry[ls:le]
-    if value is not None and ("'%s'" % value) not in line and \
-            ('"%s"' % value) not in line:
-        return entry, False
-    was_last = not line.rstrip().endswith(',')
+def _unquote(lit):
+    lit = lit.strip()
+    if len(lit) >= 2 and lit[0] == lit[-1] and lit[0] in "'\"":
+        return lit[1:-1]
+    return lit
+
+
+def _array_items(lit):
+    """Элементы литерала-массива как список сырых строк, либо None."""
+    lit = lit.strip()
+    if not (lit.startswith('[') and lit.endswith(']')):
+        return None
+    inner = lit[1:-1]
+    items = []
+    buf = []
+    depth = 0
+    in_str = None
+    i = 0
+    n = len(inner)
+    while i < n:
+        c = inner[i]
+        if in_str:
+            buf.append(c)
+            if c == '\\' and i + 1 < n:
+                buf.append(inner[i + 1])
+                i += 2
+                continue
+            if c == in_str:
+                in_str = None
+        elif c in "'\"":
+            in_str = c
+            buf.append(c)
+        elif c in '[{(':
+            depth += 1
+            buf.append(c)
+        elif c in ']})':
+            depth -= 1
+            buf.append(c)
+        elif c == ',' and depth == 0:
+            items.append(''.join(buf))
+            buf = []
+        else:
+            buf.append(c)
+        i += 1
+    items.append(''.join(buf))
+    return [x for x in (s.strip() for s in items) if x]
+
+
+def _drop_field_line(entry, name):
+    """Убрать строку поля целиком, поправив запятые."""
+    ls, le = _field_line(entry, name)
+    was_last = not entry[ls:le].rstrip().endswith(',')
     new = entry[:ls] + entry[le:]
     if was_last:
         new = _strip_trailing_comma(new, ls)
-    return new, True
+    return new
 
 
-def set_field(entry, name, code, anchor):
-    """Вставить или заменить name: 'code' сразу после поля anchor."""
+def remove_field(entry, name, value=None, keep_array=False):
+    """Удалить поле или одно значение из поля-массива.
+
+    Возвращает (запись, что_сделано), где что_сделано:
+      None       — поле отсутствует или значение не совпало, запись не тронута
+      'dropped'  — поле удалено целиком
+      'trimmed'  — значение вынуто из массива, поле осталось
+
+    Массив, из которого вынули всё, приводит к удалению поля; оставшийся
+    единственный элемент по умолчанию сворачивается в скаляр — так записан
+    каждый одиночный owner в данных (--keep-array сохраняет форму массива).
+    """
+    if _field_line(entry, name) is None:
+        return entry, None
+    if value is None:
+        return _drop_field_line(entry, name), 'dropped'
+
+    vs, ve = raw_span(entry, name)
+    lit = entry[vs:ve].strip()
+    items = _array_items(lit)
+
+    if items is None:                                   # скалярное значение
+        if _unquote(lit) != value:
+            return entry, None
+        return _drop_field_line(entry, name), 'dropped'
+
+    kept = [x for x in items if _unquote(x) != value]
+    if len(kept) == len(items):
+        return entry, None
+    if not kept:
+        return _drop_field_line(entry, name), 'dropped'
+
+    sep = ', ' if ', ' in lit else ','
+    if len(kept) == 1 and not keep_array:
+        new_lit = kept[0]
+    else:
+        new_lit = '[' + sep.join(kept) + ']'
+    return entry[:vs] + new_lit + entry[ve:], 'trimmed'
+
+
+def set_field(entry, name, code, anchor, literal=None):
+    """Вставить или заменить поле name сразу после поля anchor.
+
+    literal, если задан, пишется как есть (для массивов); иначе code
+    оборачивается в одинарные кавычки.
+    """
+    lit = literal if literal is not None else "'%s'" % code
     existing = _field_line(entry, name)
     if existing is not None:
         ls, le = existing
@@ -209,7 +314,7 @@ def set_field(entry, name, code, anchor):
         indent = re.match(r'[ \t]*', line).group(0)
         eol = '\r\n' if line.endswith('\r\n') else ('\n' if line.endswith('\n') else '')
         comma = ',' if line.rstrip().endswith(',') else ''
-        return entry[:ls] + indent + "%s: '%s'%s%s" % (name, code, comma, eol) + entry[le:]
+        return entry[:ls] + indent + '%s: %s%s%s' % (name, lit, comma, eol) + entry[le:]
 
     span = _field_line(entry, anchor)
     if span is not None:
@@ -222,7 +327,7 @@ def set_field(entry, name, code, anchor):
             line = line.rstrip('\r\n') + ',' + eol
         comma = '' if anchor_was_last else ','
         return (entry[:ls] + line +
-                indent + "%s: '%s'%s%s" % (name, code, comma, eol) + entry[le:])
+                indent + '%s: %s%s%s' % (name, lit, comma, eol) + entry[le:])
 
     # якоря нет — дописываем последним полем перед закрывающей скобкой
     close = entry.rfind('}')
@@ -233,7 +338,26 @@ def set_field(entry, name, code, anchor):
     body = entry[:ls].rstrip()
     if not body.endswith(','):
         body += ','
-    return body + eol + indent + "%s: '%s'%s" % (name, code, eol) + entry[ls:]
+    return body + eol + indent + '%s: %s%s' % (name, lit, eol) + entry[ls:]
+
+
+def merge_value(lit, code):
+    """Литерал поля + новый код -> новый литерал, либо None если код уже там.
+
+    Скаляр превращается в массив из двух элементов, массив дополняется в
+    конец. Стиль разделителя существующего массива сохраняется.
+    """
+    items = _array_items(lit)
+    if items is None:
+        if _unquote(lit) == code:
+            return None
+        items, sep = [lit.strip()], ','
+    else:
+        if any(_unquote(x) == code for x in items):
+            return None
+        sep = ', ' if ', ' in lit else ','
+    q = '"' if items and all(x.startswith('"') for x in items) else "'"
+    return '[' + sep.join(items + [q + code + q]) + ']'
 
 
 # --------------------------------------------------------------------------
@@ -383,7 +507,8 @@ def _json_error_context(text, exc):
 
 def process(args, rules):
     rep = {'assigned': [], 'already': [], 'conflict': [], 'forced': [],
-           'owner_removed': [], 'owner_absent': []}
+           'merged': [], 'owner_removed': [], 'owner_trimmed': [],
+           'owner_absent': []}
     changed = {}
 
     names = sorted(f for f in os.listdir(args.src) if f.endswith('.js'))
@@ -414,8 +539,20 @@ def process(args, rules):
                                           rule.code, args.insert_after)
                     rep['assigned'].append((fname, eid, label, rule.code))
                     touched = True
-                elif cur == want:
+                elif cur == want or (_array_items(cur) is not None and
+                                     any(_unquote(x) == rule.code
+                                         for x in _array_items(cur))):
                     rep['already'].append((fname, eid, label, rule.code))
+                elif args.merge:
+                    merged = merge_value(cur, rule.code)
+                    if merged is None:                  # код уже в массиве
+                        rep['already'].append((fname, eid, label, rule.code))
+                    else:
+                        new_entry = set_field(new_entry, rule.set_field_name,
+                                              rule.code, args.insert_after,
+                                              literal=merged)
+                        rep['merged'].append((fname, eid, label, cur, merged))
+                        touched = True
                 elif args.force:
                     new_entry = set_field(new_entry, rule.set_field_name,
                                           rule.code, args.insert_after)
@@ -425,9 +562,15 @@ def process(args, rules):
                     rep['conflict'].append((fname, eid, label, cur, rule.code))
 
                 if rule.drop_owner:
-                    new_entry, ok = remove_field(new_entry, 'owner', rule.drop_owner)
-                    if ok:
+                    before = raw(new_entry, 'owner')
+                    new_entry, what = remove_field(new_entry, 'owner',
+                                                   rule.drop_owner, args.keep_array)
+                    if what == 'dropped':
                         rep['owner_removed'].append((fname, eid, rule.drop_owner))
+                        touched = True
+                    elif what == 'trimmed':
+                        rep['owner_trimmed'].append((fname, eid, before,
+                                                     raw(new_entry, 'owner')))
                         touched = True
                     else:
                         rep['owner_absent'].append((fname, eid, label))
@@ -468,6 +611,18 @@ def report(rep, changed, args, rules):
         print('    %-24s %d' % (code, per[code]))
     print('уже было корректно:   %d' % len(rep['already']))
     print('удалено owner:        %d' % len(rep['owner_removed']))
+    if rep['owner_trimmed']:
+        print('owner сокращён:       %d' % len(rep['owner_trimmed']))
+        shapes = {}
+        for f, i, before, after in rep['owner_trimmed']:
+            shapes.setdefault((before, after), []).append(i)
+        for (before, after), ids in sorted(shapes.items()):
+            print('    %s -> %s   (%d: %s)' % (before, after, len(ids),
+                                               ', '.join(ids[:4])))
+    if rep['merged']:
+        print('дописано в массив:    %d' % len(rep['merged']))
+        for f, i, n, cur, after in rep['merged']:
+            print('    %s  %s  %s -> %s   %s' % (f, i, cur, after, n[:46]))
     if rep['forced']:
         print('перезаписано (--force): %d' % len(rep['forced']))
         for f, i, n, cur, code in rep['forced']:
@@ -517,7 +672,12 @@ def main(argv=None):
     ap.add_argument('--case-sensitive', action='store_true', help='учитывать регистр при поиске')
     ap.add_argument('--all-rules', action='store_true',
                     help='применять все подошедшие правила, а не только первое')
+    ap.add_argument('--no-merge', dest='merge', action='store_false',
+                    help='не дописывать код к занятому полю, а сообщать о конфликте')
+    ap.set_defaults(merge=True)
     ap.add_argument('--force', action='store_true', help='перезаписывать уже заполненное поле')
+    ap.add_argument('--keep-array', action='store_true',
+                    help='не сворачивать в скаляр owner-массив, в котором остался один элемент')
     ap.add_argument('-n', '--dry-run', action='store_true',
                     help='только показать, что изменится, ничего не записывая')
     ap.add_argument('--zip', help='дополнительно упаковать изменённые файлы в указанный zip')
@@ -542,6 +702,8 @@ def main(argv=None):
         ap.error('в правиле --rules-file отсутствует обязательный ключ %s' % exc)
     except re.error as exc:
         ap.error('некорректное регулярное выражение: %s' % exc)
+    if args.force:
+        args.merge = False
     if not rules:
         ap.error('не задано ни одного правила: используйте --rule или --rules-file')
     if not os.path.isdir(args.src):

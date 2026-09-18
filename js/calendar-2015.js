@@ -104,12 +104,12 @@ let events2015 = [
         id: 'SPB_20150208_1',
         date: '2015-02-08',
         name: 'Чемпионат и Первенство СПб на лыжах, классика',
+        start: 'SPB_CHAMP',
         place: 'Зеркальный',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/150208/150208_res2.pdf',
         split: 'splits/2015/SPB_20150208_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '150208'
     },
     {
@@ -126,6 +126,7 @@ let events2015 = [
         endDate: '2015-02-15',
         place: 'Будогощь',
         name: 'Чемпионат и первенство Ленинградской обл. по ориентированию на лыжах',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/15021315_LO/150213_res.htm',
         split: [
@@ -133,7 +134,6 @@ let events2015 = [
             'splits/2015/SPB_20150213_1_2_split.htm',
             'splits/2015/SPB_20150213_1_3_split.htm'
         ],
-        owner: 'SFSO_LO',
         o_site: '15021315_LO'
     },
     {
@@ -141,11 +141,11 @@ let events2015 = [
         date: '2015-02-14',
         place: 'Юкки',
         name: 'Новогодняя эстафета, Чемпионат и первенство СПб на лыжах, эстафета',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'http://markir.spb.ru/results/skio140215nyr.htm',
         split: 'splits/2015/SPB_20150214_1_split.htm',
         info: 'Традиционный старт "Новогодняя эстафета", в рамках которой проводится Чемпионат и первенство СПб на лыжах (эстафета на маркированной трассе).',
-        owner: 'SFSO_SPB',
         o_site: '150214'
     },
     {
@@ -153,10 +153,10 @@ let events2015 = [
         date: '2015-02-15',
         place: 'Ильичёво',
         name: 'Чемпионат и Первенство СПб на лыжах, маркир',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/150215/150215_res2.pdf',
         split: 'splits/2015/SPB_20150215_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '150215'
     },
     {
@@ -164,11 +164,11 @@ let events2015 = [
         date: '2015-02-21',
         place: 'Ильичёво',
         name: 'Чемпионат и первенство СПб на лыжах, спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/150221/150221-2_res.pdf',
         split: 'splits/2015/SPB_20150221_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '150221'
     },
     {
@@ -176,11 +176,11 @@ let events2015 = [
         date: '2015-02-23',
         place: 'Ильичёво',
         name: 'Чемпионат и первенство СПб на лыжах, лонг',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/150223/150223-2_res.pdf',
         split: 'splits/2015/SPB_20150223_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '150223'
     },
     {
@@ -216,11 +216,11 @@ let events2015 = [
         date: '2015-03-09',
         place: 'Ильичёво, Болотная станция',
         name: 'Чемпионат СПб среди ВУЗов - Приз закрытия зимнего сезона',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/150309_St/150309_res.htm',
         split: 'splits/2015/SPB_20150309_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '150309_St'
     },
     {
@@ -442,6 +442,7 @@ let events2015 = [
         endDate: '2015-05-03',
         place: 'Ильичёво-Рощино',
         name: 'Чемпионат и первенство Ленинградской обл. Маёвка-2015',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/15050103_LO/150501_res_r.htm',
@@ -451,7 +452,6 @@ let events2015 = [
             'splits/2015/SPB_20150501_2_3_split.htm'
         ],
         info: 'Открытый Чемпионат Ленинградской области по спортивному ориентированию Открытое Первенство Ленинградской области по спортивному ориентированию Открытые соревнования «Маёвка 2015»',
-        owner: 'SFSO_LO',
         o_site: '15050103_LO'
     },
     {
@@ -610,12 +610,12 @@ let events2015 = [
         date: '2015-05-16',
         place: 'УТЦ Кавголово',
         name: 'Чемпионат и Первенство СПб, спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=487',
         res: 'https://o-site.spb.ru/_races/150516/150516_split.htm',
         split: 'splits/2015/SPB_20150516_2_split.htm',
         video: 'https://www.youtube.com/watch?v=_d2QYPpX-W0',
-        owner: 'SFSO_SPB',
         o_site: '150516',
         reskeep: 257
     },
@@ -624,11 +624,11 @@ let events2015 = [
         date: '2015-05-16',
         place: 'Токсово, Орлиная гора',
         name: 'Чемпионат и первенство ЛО по вело, спринт',
+        start: 'LO_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/150516v/ResultList.htm',
         split: 'splits/2015/SPB_20150516_3_split.htm',
         info: 'Открытый Чемпионат и первенство Ленинградской области по ориентированию на велосипедах. Спринт.',
-        owner: 'SFSO_LO',
         o_site: '150516v'
     },
     {
@@ -728,11 +728,11 @@ let events2015 = [
         date: '2015-05-30',
         place: 'Зеленогорск',
         name: 'Чемпионат и Первенство СПб по вело-О, лонг',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=493',
         res: 'https://o-site.spb.ru/_races/150530/150530_prot.pdf',
         split: 'splits/2015/SPB_20150530_2_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '150530'
     },
     {
@@ -797,11 +797,10 @@ let events2015 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/150607/150607_offical_res.pdf',
         split: 'splits/2015/SPB_20150607_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '150607',
         map: 'psk_2015_06_07',
         o_gps: 531,
-        start: 'KZNTSVA',
+        start: ['KZNTSVA','SPB_CHAMP'],
         reskeep: 245
     },
     {
@@ -860,11 +859,11 @@ let events2015 = [
         date: '2015-06-20',
         place: 'Мичуринское',
         name: 'Чемпионат и первенство ЛО по вело, классика',
+        start: 'LO_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/150620v/ResultList.htm',
         split: 'splits/2015/SPB_20150620_1_split.htm',
         info: 'Открытый Чемпионат и первенство Ленинградской области по ориентированию на велосипедах. Классика.',
-        owner: 'SFSO_LO',
         o_site: '150620v'
     },
     {
@@ -1094,10 +1093,10 @@ let events2015 = [
         date: '2015-08-23',
         place: 'Лемболово',
         name: 'Чемпионат и Первенство СПб по вело-О, классика',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru',
         res: 'http://www.multsport.ru/news/results-mtbo-lemb15.html',
-        owner: 'SFSO_SPB',
         owner: 'MULTSPORT',
         o_site: '150823_velo',
         map: 'lembolovo_velo_2023'
@@ -1135,6 +1134,7 @@ let events2015 = [
         date: '2015-09-06',
         place: 'Ильичёво, Болотная станция',
         name: 'Чемпионат и Первенство СПб, марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/150906/150906_res.htm',
@@ -1143,7 +1143,6 @@ let events2015 = [
             'МЭ': 657,
             'ЖЭ': 658
         },
-        owner: 'SFSO_SPB',
         o_site: '150906',
         reskeep: 238,
         map: 'ilychevo-simagino_2015'
@@ -1188,6 +1187,7 @@ let events2015 = [
         id: 'SPB_20150913_1',
         date: '2015-09-13',
         name: 'Чемпионат и Первенство Ленинградской области',
+        start: 'LO_CHAMP',
         place: 'Токсово',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
@@ -1196,7 +1196,6 @@ let events2015 = [
             'splits/2015/SPB_20150913_1_1_split.htm',
             'splits/2015/SPB_20150913_1_2_split.htm'
         ],
-        owner: 'SFSO_LO',
         o_site: '15091213'
     },
     {
@@ -1214,11 +1213,11 @@ let events2015 = [
         date: '2015-09-19',
         place: 'Краснофллотск, форт Красная Горка',
         name: 'Чемпионат и Первенство СПб по вело-О, спринт',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/150919_velo/20150919_res.htm',
         split: 'splits/2015/SPB_20150919_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '150919_velo',
         maps: 'krasna_gorka_velo_2022'
     },
@@ -1261,6 +1260,7 @@ let events2015 = [
         date: '2015-09-20',
         place: 'Пухтолова гора',
         name: 'Чемпионат и Первенство СПб среди инвалидов по слуху',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/15091920_slep/150919_res.htm',
@@ -1269,7 +1269,6 @@ let events2015 = [
             'splits/2015/SPB_20150920_2_2_split.htm'
         ],
         info: 'Проводятся личные соревнования в заданном направлении. 19 сентября 2015 г. - спринт (до 25 мин.) 20 сентября 2015 г. - классика (35 -60 мин.)',
-        owner: 'SFSO_SPB',
         o_site: '15091920_slep',
         map: 'pukhtolova_gora_2009'
     },
@@ -1358,11 +1357,11 @@ let events2015 = [
         date: '2015-10-03',
         place: 'Стеклянный (Васкелово)',
         name: 'Чемпионат и Первенство СПб, эстафета',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=530',
         res: 'https://o-site.spb.ru/_races/151003/151003_res.htm',
         split: 'splits/2015/SPB_20151003_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '151003',
         reskeep: 233
     },
@@ -1371,10 +1370,10 @@ let events2015 = [
         date: '2015-10-04',
         place: 'Петровское/Петяярви',
         name: 'Чемпионат и Первенство СПб, средняя дистанция',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/151004/151004_res_champ.pdf',
         split: 'splits/2015/SPB_20151004_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '151004',
         reskeep: 224
     },
@@ -1435,6 +1434,7 @@ let events2015 = [
         date: '2015-10-17',
         place: 'Зеленогорск, Чёрные озёра',
         name: 'Ч-т СПб среди ВУЗов - Петербургская осень',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/151017_Az/151017_res_st.xls',

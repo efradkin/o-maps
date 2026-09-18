@@ -21,6 +21,7 @@ let events2007 = [
         date: '2007-01-14',
         place: 'Ильичёво',
         name: 'Пер-во ЛО среди обучающихся в МОУ ДОД',
+        start: 'LO_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070114_LO/070114_res.zip',
         info: 'Первенство Ленинградской области среди обучающихся в МОУ ДОД ЛО, Кубок Ленинградской области',
@@ -87,9 +88,9 @@ let events2007 = [
         endDate: '2007-02-17',
         place: 'Будогощь',
         name: 'Чемпионат и пер-во ЛО',
+        start: 'LO_CHAMP',
         type: 'SKI',
         info: '3 этап СЗФО III зимней Спартакиады учащихся РФ, Чемпионат и Первенство СЗФО, Чемпионат и Первенство Ленинградской области',
-        owner: 'SFSO_LO',
         o_site: '07021417'
     },
     {
@@ -141,11 +142,11 @@ let events2007 = [
         date: '2007-02-24',
         place: 'Сертолово',
         name: 'Чемпионат Санкт-Петербурга, маркир',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070224/070224_res.htm',
         split: 'splits/2007/SPB_20070224_1_split.htm',
         info: 'Зимний чемпионат Санкт-Петербурга',
-        owner: 'SFSO_SPB',
         o_site: '070224'
     },
     {
@@ -153,11 +154,11 @@ let events2007 = [
         date: '2007-02-25',
         place: 'Сертолово',
         name: 'Чемпионат Санкт-Петербурга, классика',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070225/070225_res.htm',
         split: 'splits/2007/SPB_20070225_1_split.htm',
         info: 'Зимний чемпионат Санкт-Петербурга',
-        owner: 'SFSO_SPB',
         o_site: '070225'
     },
     {
@@ -183,10 +184,10 @@ let events2007 = [
         date: '2007-03-08',
         place: 'Сертолово',
         name: 'Чемпионат СПб, эстафеты',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070308/070308_res.htm',
         split: 'splits/2007/SPB_20070308_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '070308'
     },
     {
@@ -334,9 +335,9 @@ let events2007 = [
         date: '2007-04-29',
         place: 'Шалово',
         name: 'Чемпионат и первенство ЛО, Кубок СЗФО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070429_lo/may1.zip',
-        owner: 'SFSO_LO',
         o_site: '070429_lo',
         endDate: '2007-05-01',
         map: 'luga_omelchenko_2006'
@@ -473,12 +474,12 @@ let events2007 = [
         id: 'SPB_20070526_1',
         date: '2007-05-26',
         name: 'Чемпионат СПб, спринт',
+        start: 'SPB_CHAMP',
         place: 'Белоостров',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070526/070526_results.zip',
         photo: 'http://picasaweb.google.ru/Roman.Fomushkin/2007_05_26',
         info: '49-й Чемпионат и Первенство СПб, спринт',
-        owner: 'SFSO_SPB',
         o_site: '070526'
     },
     {
@@ -497,29 +498,30 @@ let events2007 = [
         id: 'SPB_20070527_1',
         date: '2007-05-27',
         name: 'Чемпионат СПб, средняя дистанция',
+        start: 'SPB_CHAMP',
         place: 'Белоостров',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070527/070527_results.zip',
         info: '49-й Чемпионат и Первенство СПб, классика',
-        owner: 'SFSO_SPB',
         o_site: '070527'
     },
     {
         id: 'SPB_20070602_1',
         date: '2007-06-02',
         name: 'Чемпионат СПб, эстафета',
+        start: 'SPB_CHAMP',
         place: 'Белоостров',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070602/070602_results.htm',
         split: 'splits/2007/SPB_20070602_1_split.htm',
         info: '49-й Чемпионат и Первенство СПб, эстафета',
-        owner: 'SFSO_SPB',
         o_site: '070602'
     },
     {
         id: 'SPB_20070603_1',
         date: '2007-06-03',
         name: 'Чемпионат СПб, лонг',
+        start: 'SPB_CHAMP',
         place: 'Белоостров',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070603/070603_osv.osv',
@@ -528,7 +530,6 @@ let events2007 = [
             'splits/2007/SPB_20070603_1_2_split.htm'
         ],
         info: '49-й Чемпионат и Первенство СПб, кросс',
-        owner: 'SFSO_SPB',
         o_site: '070603'
     },
     {
@@ -655,11 +656,11 @@ let events2007 = [
         date: '2007-07-21',
         place: 'оз Светлое',
         name: 'Чемпионат СПб по вело-О, Middle',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/070721v/070721v_rez.html',
         split: 'splits/2007/SPB_20070721_1_split.html',
         info: 'Ориенирование на велосипеде. Старт в 11:30. Группы МЖЭ, МЖН и МЖ-14. Дистанция средней сложности в заданном направлении, средняя. Приглашаем всех в увлекательное путешествие.',
-        owner: 'SFSO_SPB',
         o_site: '070721v'
     },
     {
@@ -667,11 +668,11 @@ let events2007 = [
         date: '2007-07-22',
         place: 'Юкки',
         name: 'Чемпионат СПб по вело-О, Sprint',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/070722v/070722v_rez.html',
         split: 'splits/2007/SPB_20070722_1_split.html',
         info: 'Ориенирование на велосипеде. Старт в 11:30. Группы МЖЭ, МЖН и МЖ-14. Дистанция средней сложности в заданном направлении, спринт. Приглашаем всех в увлекательное путешествие.',
-        owner: 'SFSO_SPB',
         o_site: '070722v'
     },
     {
@@ -793,9 +794,9 @@ let events2007 = [
         date: '2007-09-15',
         place: 'Каннельярви',
         name: 'Первенство Санкт-Петербурга среди ветеранов',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070915/070915_res.zip',
-        owner: 'SFSO_SPB',
         o_site: '070915'
     },
     {
@@ -813,11 +814,11 @@ let events2007 = [
         date: '2007-09-16',
         place: 'Солнечное',
         name: 'Чемпионат СПб, марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070916/070916_res.htm',
         split: 'splits/2007/SPB_20070916_2_split.htm',
         fmt: 'эстафета одного участника',
-        owner: 'SFSO_SPB',
         o_site: '070916',
         map: 'solnechnoe-djuny_2007'
     },
@@ -838,6 +839,7 @@ let events2007 = [
         endDate: '2007-09-23',
         place: 'Ильичёво',
         name: 'Пер-во ЛО среди обучающихся',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/07092223/070922_res.htm',
         split: 'splits/2007/SPB_20070922_2_split.htm',

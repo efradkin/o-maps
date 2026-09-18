@@ -36,8 +36,7 @@ let events2011 = [
             'splits/2011/SPB_20110115_1_1_split.htm',
             'splits/2011/SPB_20110115_1_2_split.htm'
         ],
-        owner: 'SFSO_LO',
-        start: 'VSEV_VESTI',
+        start: ['VSEV_VESTI','LO_CHAMP'],
         o_site: '11011516'
     },
     {
@@ -57,13 +56,13 @@ let events2011 = [
         endDate: '2011-01-23',
         place: 'Кузьмоловский',
         name: 'Чемпионат и Первенство Ленинградской области',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11012223/110122_res_CH.pdf',
         split: [
             'splits/2011/SPB_20110122_2_1_split.htm',
             'splits/2011/SPB_20110122_2_2_split.htm'
         ],
-        owner: 'SFSO_LO',
         o_site: '11012223'
     },
     {
@@ -85,11 +84,12 @@ let events2011 = [
         date: '2011-02-06',
         place: 'Кузьмоловский',
         name: 'Кубок ОК Гольфстрим, Первенство СПб среди обучающихся',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110206/110206_res.htm',
         split: 'splits/2011/SPB_20110206_1_split.htm',
         info: 'Сайт организаторов',
-        owner: ['GOLFSTREAM','SFSO_SPB'],
+        owner: 'GOLFSTREAM',
         o_site: '110206'
     },
     {
@@ -110,11 +110,11 @@ let events2011 = [
         id: 'SPB_20110213_1',
         date: '2011-02-13',
         name: 'Чемпионат и Первенство СПб, спринт',
+        start: 'SPB_CHAMP',
         place: 'Кузьмоловский',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/110213/110213_res.htm',
         fmt: 'спринт в заданном направлении',
-        owner: 'SFSO_SPB',
         o_site: '110213'
     },
     {
@@ -177,6 +177,7 @@ let events2011 = [
         date: '2011-03-06',
         place: 'Зеленогорск-Комарово',
         name: 'Чемпионат и Первенство СПб, классика и эстафета. Первенство ВУЗов',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/11030607/11030607_res.zip',
         split: [
@@ -184,7 +185,6 @@ let events2011 = [
             'splits/2011/SPB_20110306_1_2_split.htm'
         ],
         info: '06 марта. Лыжная гонка 60. 07 марта. Эстафета, заданное направление.',
-        owner: 'SFSO_SPB',
         o_site: '11030607'
     },
     {
@@ -200,6 +200,7 @@ let events2011 = [
         id: 'SPB_20110312_1',
         date: '2011-03-12',
         name: 'Чемпионат и Первенство СПб, маркир и удл. дист. Кубок ОК Гольфстрим, 3-й этап',
+        start: 'SPB_CHAMP',
         place: 'Комарово, оз Щучье',
         publish: 'https://o-site.spb.ru/race.php?id=11031213',
         type: 'SKI',
@@ -210,7 +211,7 @@ let events2011 = [
             'splits/2011/SPB_20110312_1_2_split.htm'
         ],
         info: '12.03.11 – Чемпионат и первенство СПб, лыжная гонка – маркир классика 35 – 40 минут. Код - 0830205511Я. 13.03.11 – Чемпионат и первенство СПб, 3й этап кубка клуба Гольфстрим, лыжная гонка – удлиненная дистанция в заданном направлении 120минут. Код - 0830155511Я.',
-        owner: ['GOLFSTREAM','SFSO_SPB'],
+        owner: 'GOLFSTREAM',
         o_site: '11031213'
     },
     {
@@ -323,6 +324,7 @@ let events2011 = [
         date: '2011-04-30',
         endDate: '2011-05-02',
         name: 'Чемпионат и Первенство ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11043002/11043002_res.zip',
         split: [
@@ -330,7 +332,6 @@ let events2011 = [
             'splits/2011/SPB_20110430_1_2_split.htm',
             'splits/2011/SPB_20110430_1_3_split.htm'
         ],
-        owner: 'SFSO_LO',
         o_site: '11043002'
     },
     {
@@ -472,11 +473,11 @@ let events2011 = [
         date: '2011-05-21',
         place: 'оз Пасторское',
         name: 'Чемпионат и первенство ЛенОбласти, вело',
+        start: 'LO_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/110521_v/110521_rez.htm',
         split: 'splits/2011/SPB_20110521_1_split.htm',
         info: 'Чемпионат и первенство ЛенОбласти, велокросс-классика (40-70 мин)',
-        owner: 'SFSO_LO',
         o_site: '110521_v'
     },
     {
@@ -502,11 +503,11 @@ let events2011 = [
         date: '2011-05-22',
         place: 'Токсово, Малиновая гора',
         name: 'Первенство Санкт-Петербурга среди обучающихся',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110522/110522_res.htm',
         split: 'splits/2011/SPB_20110522_2_split.htm',
         info: 'Мандатная комиссия: 18 мая с 11:00 до 20:00, по адресу: Невский пр. 39, СДЮСШОР №2 ГОУ ЦО СПб ГДТЮ.',
-        owner: 'SFSO_SPB',
         o_site: '110522',
         map: 'toksovo_malinovaya_gora_1997'
     },
@@ -515,10 +516,10 @@ let events2011 = [
         date: '2011-05-28',
         place: 'Кузьмолово (карьер)',
         name: 'Чемпионат и Первенство СПб, спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110528/110528_res.htm',
         split: 'splits/2011/SPB_20110528_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '110528',
         reskeep: 261
     },
@@ -540,11 +541,11 @@ let events2011 = [
         date: '2011-05-29',
         place: 'Куялово',
         name: 'Чемпионат и Первенство СПб, эстафета',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110529/110529_res.htm',
         split: 'splits/2011/SPB_20110529_1_split.htm',
         info: '53-й летний Чемпионат и Первенство г. Санкт-Петербурга по спортивному ориентированию',
-        owner: 'SFSO_SPB',
         o_site: '110529'
     },
     {
@@ -586,11 +587,11 @@ let events2011 = [
         date: '2011-06-05',
         place: 'Орехово',
         name: 'Чемпионат и Первенство СПб, лонг',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110605/110605_res.htm',
         split: 'splits/2011/SPB_20110605_1_split.htm',
         info: '53-й летний Чемпионат и Первенство г. Санкт-Петербурга по спортивному ориентированию',
-        owner: 'SFSO_SPB',
         o_site: '110605',
         reskeep: 249,
         map: 'orekhovo_rakitinskoe_2004'
@@ -717,6 +718,7 @@ let events2011 = [
         date: '2011-07-09',
         endDate: '2011-07-10',
         name: 'Чемпионат Ленинградской области по рогейну. 3 этап Кубка СПб',
+        start: 'LO_CHAMP',
         place: 'Первомайское',
         type: 'ROGAINE',
         fmt: '6 часов (+ 3 часа)',
@@ -946,10 +948,10 @@ let events2011 = [
         date: '2011-09-18',
         place: 'Лемболово',
         name: 'Чемпионат СПб, марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110918/110918_res.htm',
         split: 'splits/2011/SPB_20110918_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '110918',
         reskeep: 240,
         map: 'lembolovo_2002'
@@ -993,10 +995,10 @@ let events2011 = [
         endDate: '2011-09-25',
         place: 'Орехово',
         name: 'Чемпионат и пер-во ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/11092425/110924_res.pdf',
         split: 'splits/2011/SPB_20110924_2_split.htm',
-        owner: 'SFSO_LO',
         o_site: '11092425',
         map: 'orekhovo_rakitinskoe_2004'
     },
@@ -1005,19 +1007,20 @@ let events2011 = [
         date: '2011-09-30',
         place: 'Токсово, ВИФК',
         name: 'Ночное Первенство СПб по спортивному ориентированию',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110930/110930_res.htm',
         split: [
             'splits/2011/SPB_20110930_1_1_split.htm',
             'splits/2011/SPB_20110930_1_2_split.htm'
         ],
-        owner: 'SFSO_SPB',
         o_site: '110930'
     },
     {
         id: 'SPB_20111001_1',
         date: '2011-10-01',
         name: 'Чемпионат Санкт-Петербурга по рогейну',
+        start: 'SPB_CHAMP',
         place: 'Зеркальный',
         type: 'ROGAINE',
         info: 'Соревнования проводятся в сроки 30 сентября - 2 октября. Центр соревнований - лагерь "Зеркальный".',
@@ -1139,10 +1142,10 @@ let events2011 = [
         date: '2011-10-16',
         place: 'Лехтуси',
         name: 'Чемпионат СПб, средняя дистанция',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111016/111016_res.htm',
         split: 'splits/2011/SPB_20111016_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '111016',
         reskeep: 228,
         map: 'lehtusi_valkijarvi_2016'
@@ -1187,10 +1190,10 @@ let events2011 = [
         date: '2011-10-29',
         place: 'Лемболово',
         name: 'Первенство СПб среди ветеранов',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111029_Az/111029_res.htm',
         split: 'splits/2011/SPB_20111029_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '111029_Az',
         map: 'lembolovo_2002'
     },

@@ -188,6 +188,7 @@ let eventsEarly = [
         date: '1971-05-23',
         place: 'Вартемяки',
         name: 'Первенство Ленинградской обл',
+        start: 'LO_CHAMP',
         planner: ['LNV_Y','MLVA_M'],
         res: './docs/1971/1971_05_23_lo_omaps.pdf'
     },
@@ -2348,6 +2349,7 @@ let eventsEarly = [
         endDate: '1992-02-02',
         place: 'Лемболово, Васкелово',
         name: 'Зимний чемпионат СПб',
+        start: 'SPB_CHAMP',
         me: 'H21',
         planner: ['NKFRV_A','TKHNV_V','VLKV_A'],
         res: './docs/1992/1992_01_25_spb_omaps.pdf'
@@ -2505,6 +2507,7 @@ let eventsEarly = [
         date: '1992-09-05',
         place: 'Яппиля',
         name: 'Первенство СПб, эстафета',
+        start: 'SPB_CHAMP',
         me: 'H21',
         res: './docs/1992/1992_09_05_spb_yappilya_omaps.pdf'
     },
@@ -2513,6 +2516,7 @@ let eventsEarly = [
         date: '1992-09-06',
         place: 'Яппиля',
         name: 'Первенство СПб',
+        start: 'SPB_CHAMP',
         me: 'H21',
         res: './docs/1992/1992_09_06_spb_yappilya_omaps.pdf'
     },
@@ -2540,6 +2544,7 @@ let eventsEarly = [
         date: '1992-10-04',
         place: 'Воейково',
         name: 'Чемпионат СПб, марафон',
+        start: 'SPB_CHAMP',
         me: 'H-A',
         planner: 'VSLVSKY',
         res: './docs/1992/1992_10_04_spb_marathon_omaps.pdf'
@@ -2610,6 +2615,7 @@ let eventsEarly = [
         date: '1993-06-13',
         place: 'Токсово',
         name: 'ЧиП СПб, эстафета 3х',
+        start: 'SPB_CHAMP',
         me: 'H21A',
         planner: 'RYLOV_V',
         res: './docs/1993/1993_06_13_spb_relay_omaps.pdf'
@@ -2638,6 +2644,7 @@ let eventsEarly = [
         date: '1993-07-03',
         place: 'Васкелово',
         name: 'ЧиП СПб, спринт',
+        start: 'SPB_CHAMP',
         me: 'H21A',
         res: './docs/1993/1993_07_03_spb_sprint_omaps.pdf'
     },
@@ -2646,6 +2653,7 @@ let eventsEarly = [
         date: '1993-07-04',
         place: 'Васкелово',
         name: 'ЧиП СПб',
+        start: 'SPB_CHAMP',
         me: 'H21A',
         res: './docs/1993/1993_07_04_spb_omaps.pdf'
     },
@@ -2705,6 +2713,7 @@ let eventsEarly = [
         date: '1994-09-03',
         endDate: '1994-09-04',
         name: 'Чемпионат С-Петербурга, спринт, марафон',
+        start: 'SPB_CHAMP',
         me: 'H21',
         res: './docs/1994/1994_09_03_spb_omaps.pdf'
     },
@@ -2724,6 +2733,7 @@ let eventsEarly = [
         endDate: '1995-06-12',
         place: 'Лемболово',
         name: 'Чемпионат С-Петербурга',
+        start: 'SPB_CHAMP',
         me: 'М21E',
         res: './docs/1995/1995_06_10_spb_omaps.pdf'
     },
@@ -2854,6 +2864,7 @@ let eventsEarly = [
         date: '1996-09-29',
         place: 'Ильичёво',
         name: 'ЧиП СПб, удлинённая дистанция',
+        start: 'SPB_CHAMP',
         res: './docs/1996/1996_09_29_spb_omaps.pdf'
     },
     {
@@ -2908,6 +2919,7 @@ let eventsEarly = [
         date: '1997-09-27',
         place: 'Можайское',
         name: 'ЧиП СПб, спринт',
+        start: 'SPB_CHAMP',
         res: './docs/1997/1997_09_27_spb_omaps.pdf'
     },
     {
@@ -2915,6 +2927,7 @@ let eventsEarly = [
         date: '1997-09-28',
         place: 'Ольгино',
         name: 'ЧиП СПб, удлинённая дистанция',
+        start: 'SPB_CHAMP',
         res: './docs/1997/1997_09_28_spb_omaps.pdf'
     },
     {
@@ -2949,6 +2962,7 @@ let eventsEarly = [
         date: '1998-06-06',
         place: 'Лемболово',
         name: 'ЧиП СПб, П-во ветеранов',
+        start: 'SPB_CHAMP',
         res: './docs/1998/1998_06_06_spb_omaps.pdf'
     },
     {
@@ -2993,6 +3007,7 @@ let eventsEarly = [
         date: '1998-09-19',
         place: 'Орехово',
         name: 'Чемпионат СПб, спринт',
+        start: 'SPB_CHAMP',
         res: './docs/1998/1998_09_19_spb_sprint_omaps.pdf'
     },
     {
@@ -3000,6 +3015,7 @@ let eventsEarly = [
         date: '1998-09-20',
         place: 'Орехово',
         name: 'Чемпионат СПб, удлинённая дистанция',
+        start: 'SPB_CHAMP',
         res: './docs/1998/1998_09_20_spb_long_omaps.pdf'
     },
     {
@@ -3014,6 +3030,7 @@ let eventsEarly = [
         date: '1999-03-07',
         place: 'Лемболово',
         name: 'Зимний чемпионат СПб, маркир',
+        start: 'SPB_CHAMP',
         planner: 'BRDN_V',
         res: './docs/1999/1999_03_07_spb_markir_omaps.pdf'
     },
@@ -3022,6 +3039,7 @@ let eventsEarly = [
         date: '1999-03-14',
         place: 'Лемболово',
         name: 'Зимний чемпионат СПб, эстафета 2х',
+        start: 'SPB_CHAMP',
         planner: 'BRDN_V',
         res: './docs/1999/1999_03_14_spb_relay_omaps.pdf'
     },
@@ -3030,6 +3048,7 @@ let eventsEarly = [
         date: '1999-03-21',
         place: 'Лемболово',
         name: 'Зимний чемпионат СПб',
+        start: 'SPB_CHAMP',
         planner: 'BRDN_V',
         res: './docs/1999/1999_03_21_spb_winter_omaps.pdf'
     },
@@ -3108,6 +3127,7 @@ let eventsEarly = [
         date: '1999-09-19',
         place: 'Орехово',
         name: 'Чемпионат СПб, марафон',
+        start: 'SPB_CHAMP',
         res: './docs/1999/1999_09_19_spb_marathon_omaps.pdf'
     },
     {

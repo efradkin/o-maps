@@ -37,6 +37,7 @@ let events2010 = [
         endDate: '2010-01-24',
         place: 'Цвелодубово',
         name: 'Чемпионат и пер-во ЛО',
+        start: 'LO_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/10012224/100122_res.htm',
         split: [
@@ -44,7 +45,6 @@ let events2010 = [
             'splits/2010/SPB_20100122_1_2_split.htm'
         ],
         info: 'Чемпионат и Первенство Ленинградской области по спортивному ориентированию на лыжах',
-        owner: 'SFSO_LO',
         o_site: '10012224'
     },
     {
@@ -107,8 +107,8 @@ let events2010 = [
         date: '2010-02-07',
         place: 'Орехово',
         name: 'Чемпионат и Первенство СПб, маркир',
+        start: 'SPB_CHAMP',
         type: 'SKI',
-        owner: 'SFSO_SPB',
         o_site: '100207'
     },
     {
@@ -132,6 +132,7 @@ let events2010 = [
         date: '2010-02-13',
         place: 'Орехово',
         name: 'Чемпионат и Первенство СПб, эстафета и спринт',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/10021314/100213_res_it.pdf',
         split: [
@@ -139,7 +140,6 @@ let events2010 = [
             'splits/2010/SPB_20100213_1_2_split.htm'
         ],
         info: '13 февраля. Эстафета на маркированной трассе. 14 февраля. Спринт, заданное направление',
-        owner: 'SFSO_SPB',
         o_site: '10021314'
     },
     {
@@ -148,6 +148,7 @@ let events2010 = [
         endDate: '2010-02-22',
         place: 'Орехово',
         name: 'Чемпионат и п-во Лен.области. Кубок СПб',
+        start: 'LO_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/10022122_LO/100221_res.htm',
         split: [
@@ -155,7 +156,6 @@ let events2010 = [
             'splits/2010/SPB_20100221_1_2_split.htm'
         ],
         info: '21 февраля - маркир; 22 февраля - заданное напр.',
-        owner: 'SFSO_LO',
         o_site: '10022122_LO'
     },
     {
@@ -215,6 +215,7 @@ let events2010 = [
         date: '2010-03-07',
         place: 'Комарово, оз Щучье',
         name: 'Чемпионат и Первенство СПб, классика и эстафета',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/100307/100306_res.pdf',
         split: [
@@ -222,7 +223,6 @@ let events2010 = [
             'splits/2010/SPB_20100307_1_2_split.htm'
         ],
         info: '06 марта. лыжная гонка 60 (классика). 07 марта. Эстафета, заданное направление.',
-        owner: 'SFSO_SPB',
         o_site: '100307'
     },
     {
@@ -398,9 +398,9 @@ let events2010 = [
         endDate: '2010-05-03',
         place: 'Цвелодубово',
         name: 'Чемпионат и пер-во ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10050103/100501_res.htm',
-        owner: 'SFSO_LO',
         o_site: '10050103'
     },
     {
@@ -518,10 +518,10 @@ let events2010 = [
         date: '2010-05-23',
         place: 'Осиновая роща',
         name: 'Первенство Санкт-Петербурга среди обучающихся',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100523/100523_res.htm',
         split: 'splits/2010/SPB_20100523_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '100523'
     },
     {
@@ -536,11 +536,11 @@ let events2010 = [
         date: '2010-05-29',
         place: 'Сосново, г Каланчевка',
         name: 'Чемпионат СПб, классика',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100529_1/100529_res.htm',
         split: 'splits/2010/SPB_20100529_2_split.htm',
         info: '52-й ЛЕТНИЙ ЧЕМПИОНАТ и ПЕРВЕНСТВО САНКТ-ПЕТЕРБУРГА по СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ БЕГОМ, классическая дистанция.',
-        owner: 'SFSO_SPB',
         o_site: '100529_1',
         map: 'sosnovo_kalanchevka_2010',
         reskeep: 250
@@ -605,11 +605,11 @@ let events2010 = [
         date: '2010-06-05',
         place: 'Комарово',
         name: 'Чемпионат СПб, спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100605_SPb/100605_res_.htm',
         split: 'splits/2010/SPB_20100605_2_split.htm',
         info: '52-й летний чемпионат и первенство Санкт-Петербурга по спортивному ориентированию',
-        owner: 'SFSO_SPB',
         o_site: '100605_SPb',
         reskeep: 262
     },
@@ -618,11 +618,11 @@ let events2010 = [
         date: '2010-06-06',
         place: 'Токсово, ВИФК',
         name: 'Чемпионат СПб, эстафеты',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100606/100606_res.htm',
         split: 'splits/2010/SPB_20100606_1_split.htm',
         video: ['https://www.youtube.com/watch?v=j_KTc8cVk-o','https://www.youtube.com/watch?v=jFCgJDqyx9s'],
-        owner: 'SFSO_SPB',
         o_site: '100606'
     },
     {
@@ -751,6 +751,7 @@ let events2010 = [
         date: '2010-07-10',
         place: 'Токсово',
         name: 'Чемпионат ЛО по рогейну',
+        start: 'LO_CHAMP',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/100710/100710_res.htm',
         split: 'splits/2010/SPB_20100710_1_split.htm',
@@ -958,10 +959,10 @@ let events2010 = [
         date: '2010-09-19',
         place: 'Мичуринское',
         name: 'Чемпионат СПб, марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100919/100919_split-1.htm',
         split: 'splits/2010/SPB_20100919_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '100919',
         reskeep: 241
     },
@@ -1047,10 +1048,10 @@ let events2010 = [
         date: '2010-10-03',
         place: 'Шапки',
         name: 'Чемпионат и Первенство СПб, средняя дистанция',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101003/101003_res.htm',
         split: 'splits/2010/SPB_20101003_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '101003',
         reskeep: 229
     },
@@ -1080,13 +1081,13 @@ let events2010 = [
         date: '2010-10-09',
         place: 'оз Щучье, Комарово',
         name: 'Чемпионат и Первенство ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10100910/10100910_res.zip',
         split: [
             'splits/2010/SPB_20101009_2_1_split.htm',
             'splits/2010/SPB_20101009_2_2_split.htm'
         ],
-        owner: 'SFSO_LO',
         o_site: '10100910',
         endDate: '2010-10-10'
     },

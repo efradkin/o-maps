@@ -64,11 +64,11 @@ let events2018 = [
         date: '2018-01-20',
         place: 'Кузьмолово',
         name: 'ЧиП СПб, ЛГ-маркир',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         fmt: 'маркир',
         res: 'https://o-site.spb.ru/_races/180120/20180120_res.htm',
         split: 'splits/2018/SPB_20180120_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '180120'
     },
     {
@@ -76,10 +76,10 @@ let events2018 = [
         date: '2018-01-21',
         place: 'Кузьмолово',
         name: 'ЧиП СПб, ЛГ-спринт',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/180121/20180121_res.htm',
         split: 'splits/2018/SPB_20180121_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '180121'
     },
     {
@@ -88,6 +88,7 @@ let events2018 = [
         endDate: '2018-01-28',
         place: 'Будогощь',
         name: 'ЧиП ЛО',
+        start: 'LO_CHAMP',
         type: 'SKI',
         reg: 'http://orgeo.ru/event/registration/5769',
         res: 'https://o-site.spb.ru/_races/18012628/180126_res.pdf',
@@ -96,7 +97,6 @@ let events2018 = [
             'splits/2018/SPB_20180126_1_2_split.pdf',
             'splits/2018/SPB_20180126_1_3_split.pdf'
         ],
-        owner: 'SFSO_LO',
         o_site: '18012628'
     },
     {
@@ -205,10 +205,10 @@ let events2018 = [
         date: '2018-02-18',
         place: 'Цвелодубово',
         name: 'Чемпионат и первенство Ленинградской обл. по ориентированию на лыжах',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=840',
         res: 'https://o-site.spb.ru/_races/180218/180218_res2.htm',
-        owner: 'SFSO_LO',
         o_site: '180218'
     },
     {
@@ -216,11 +216,11 @@ let events2018 = [
         date: '2018-02-23',
         place: 'Цвелодубово',
         name: 'Чемпионат и п-во СПб (зимняя программа) - лыжная гонка - комбинация',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=841',
         res: 'https://o-site.spb.ru/_races/180223/180223_res.htm',
         split: 'splits/2018/SPB_20180223_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '180223'
     },
     {
@@ -238,11 +238,11 @@ let events2018 = [
         date: '2018-02-24',
         place: 'Цвелодубово',
         name: 'Чемпионат и п-во СПб (зимняя программа) - лыжная гонка - эстафета',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=843',
         res: 'https://o-site.spb.ru/_races/180224/180224_res.htm',
         split: 'splits/2018/SPB_20180224_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '180224'
     },
     {
@@ -271,11 +271,11 @@ let events2018 = [
         date: '2018-02-25',
         place: 'Цвелодубово',
         name: 'ЧиП СПб, ЛГ-лонг',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/entry-list?id=842',
         res: 'https://o-site.spb.ru/_races/180225/180225_res.htm',
         split: 'splits/2018/SPB_20180225_2_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '180225'
     },
     {
@@ -296,10 +296,10 @@ let events2018 = [
         date: '2018-03-04',
         place: 'Кузьмолово',
         name: 'ЧиП СПб, ЛГ',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/180304/180204_res.htm',
         split: 'splits/2018/SPB_20180304_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '180304'
     },
     {
@@ -764,12 +764,12 @@ let events2018 = [
         date: '2018-05-20',
         place: 'шк №184',
         name: 'Чемпионат и первенство СПб - спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=887',
         res: 'https://o-site.spb.ru/_races/180520/180520_rez_sprint.htm',
         split: 'splits/2018/SPB_20180520_1_split.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» КСО Норд-Вест Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга»',
-        owner: 'SFSO_SPB',
         o_site: '180520'
     },
     {
@@ -849,9 +849,9 @@ let events2018 = [
         date: '2018-06-02',
         place: 'Красная Горка',
         name: 'Чемпионат и Первенство СПБ - велокросс эстафета',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180602r/180602_relay.htm',
-        owner: 'SFSO_SPB',
         o_site: '180602r',
         reskeep: 21
     },
@@ -860,10 +860,10 @@ let events2018 = [
         date: '2018-06-02',
         place: 'Красная Горка',
         name: 'Чемпионат и Первенство СПб - велокросс спринт',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180702/20180602_sprint_res.htm',
         split: 'splits/2018/SPB_20180602_2_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '180702',
         reskeep: 21
     },
@@ -882,6 +882,7 @@ let events2018 = [
         date: '2018-06-03',
         place: 'Цвелодубово',
         name: 'Чемпионат и первенство СПб - лонг',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=898',
         res: 'https://o-site.spb.ru/_races/180603/180603_res.htm',
@@ -896,7 +897,6 @@ let events2018 = [
             'https://youtu.be/6ih8eWM2pWU'
         ],
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» КСО "Азимут" Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга»',
-        owner: 'SFSO_SPB',
         o_site: '180603',
         o_gps: 3908,
         reskeep: 20
@@ -946,10 +946,10 @@ let events2018 = [
         date: '2018-06-12',
         place: 'Орехово',
         name: 'ЧиП СПб, велокросс-классика',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/180612/20180612_res2.htm',
         split: 'splits/2018/SPB_20180612_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '180612',
         reskeep: 19
     },
@@ -1401,12 +1401,12 @@ let events2018 = [
         id: 'SPB_20180901_1',
         date: '2018-09-01',
         name: 'Чемпионат и Первенство СПб - велокросс общий старт',
+        start: 'SPB_CHAMP',
         place: 'Зеленогорск, Чёрные оз',
         type: 'VELO',
         reg: 'http://o-reg.spb.ru/entry-list?id=891',
         res: 'https://o-site.spb.ru/_races/180901/180901_res.htm',
         split: 'splits/2018/SPB_20180901_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '180901'
     },
     {
@@ -1463,6 +1463,7 @@ let events2018 = [
         date: '2018-09-08',
         place: 'парк СПбПУ',
         name: 'Чемпионат и первенство СПб - эстафета 2 человека',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=925',
         res: 'https://o-site.spb.ru/_races/180908/res.htm',
@@ -1471,7 +1472,6 @@ let events2018 = [
             'http://northernwind.spb.ru/videosplit/2018/chspb_relay2',
             'http://vimeo.com/291593417'
         ],
-        owner: 'SFSO_SPB',
         o_site: '180908',
         reskeep: 48
     },
@@ -1523,12 +1523,12 @@ let events2018 = [
         date: '2018-09-15',
         place: 'Мичуринское',
         name: 'Чемпионат и п-во Ленинградской обл., эстафета',
+        start: 'LO_CHAMP',
         planner: 'Мичуринское',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=930',
         res: 'https://o-site.spb.ru/_races/180915_LO/180915_res_.htm',
         split: 'splits/2018/SPB_20180915_1_split.htm',
-        owner: 'SFSO_LO',
         o_site: '180915_LO'
     },
     {
@@ -1550,11 +1550,11 @@ let events2018 = [
         date: '2018-09-16',
         place: 'Мичуринское',
         name: 'Чемпионат и п-во Ленинградской обл., лонг',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=931',
         res: 'https://o-site.spb.ru/_races/180916_LO/180916_res.htm',
         split: 'splits/2018/SPB_20180916_1_split.htm',
-        owner: 'SFSO_LO',
         o_site: '180916_LO',
         reskeep: 41
     },
@@ -1600,11 +1600,11 @@ let events2018 = [
         date: '2018-09-22',
         place: 'Сестрорецк, Таможенная дорога',
         name: 'Чемпионат и первенство Санкт-Петербурга по спортивному ориентированию – спорт глухих',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=935',
         res: 'https://o-site.spb.ru/_races/180922_deaf/180922_rez_deaf.htm',
         split: 'splits/2018/SPB_20180922_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '180922_deaf',
         map: 'sestroretsk_tamozhennaya_doroga_2012'
     },
@@ -1623,13 +1623,14 @@ let events2018 = [
         date: '2018-09-23',
         place: 'Зеркальный',
         name: 'Чемпионат и первенство СПб - марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=934',
         res: 'https://o-site.spb.ru/_races/180923/180923res.htm',
         split: 'splits/2018/SPB_20180923_1_split.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО КСО «Гольфстрим»',
         video: 'http://www.northernwind.spb.ru/videosplit/2018/chspb_marathon/',
-        owner: ['SFSO_SPB','GOLFSTREAM'],
+        owner: 'GOLFSTREAM',
         o_site: '180923',
         reskeep: 47
     },
@@ -1674,6 +1675,7 @@ let events2018 = [
         date: '2018-09-29',
         place: 'Будогощь',
         name: 'Ч-т и п-во ЛО по велоориентированию (спринт)',
+        start: 'LO_CHAMP',
         type: 'VELO',
         reg: 'http://orgeo.ru/event/7454',
         o_site: '180929_velo'
@@ -1692,11 +1694,11 @@ let events2018 = [
         id: 'SPB_20180929_5',
         date: '2018-09-29',
         name: 'Чемпионат и первенство Санкт-Петербурга по спортивному ориентированию – спорт глухих. Классика',
+        start: 'SPB_CHAMP',
         place: 'Пухтолова гора',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180929_deaf/180929_rez_deaf.htm',
         split: 'splits/2018/SPB_20180929_5_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '180929_deaf',
         map: 'pukhtolova_gora_2025',
     },
@@ -1743,6 +1745,7 @@ let events2018 = [
         date: '2018-09-30',
         place: 'Будогощь',
         name: 'ЧиП ЛО по велоориентированию (классика)',
+        start: 'LO_CHAMP',
         type: 'VELO',
         reg: 'http://orgeo.ru/event/7454',
         o_site: '180930_velo'
@@ -1752,11 +1755,11 @@ let events2018 = [
         date: '2018-09-30',
         place: 'Лемболово',
         name: 'Чемпионат и первенство СПб - эстафета - 3 чел',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/180930/180930res.htm',
         split: 'splits/2018/SPB_20180930_2_split.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» КСО «Веста»',
-        owner: 'SFSO_SPB',
         o_site: '180930',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_relay3',
         reskeep: 231,
@@ -1824,11 +1827,11 @@ let events2018 = [
         date: '2018-10-07',
         place: 'Силанде',
         name: 'Чемпионат и первенство СПб - классика',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/181007/181007_res3.htm',
         split: 'splits/2018/SPB_20181007_1_split.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга»',
-        owner: 'SFSO_SPB',
         o_site: '181007',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_middle',
         reskeep: 57
@@ -2017,12 +2020,12 @@ let events2018 = [
         date: '2018-10-27',
         place: 'Васкелово',
         name: 'Чемпионат СПб по ориентированию среди ВУЗов',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'http://www.northernwind.spb.ru/videosplit/2018/pervenstvostudetov_zolotayaosen/',
         split: 'splits/2018/SPB_20181027_2_split.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_257632174',
         video: 'http://www.northernwind.spb.ru/videosplit/2018/pervenstvostudetov_zolotayaosen/',
-        owner: 'SFSO_SPB',
         o_site: '181027',
         reskeep: 67
     },

@@ -4,6 +4,7 @@ let events2008 = [
         date: '2008-01-05',
         place: 'Будогощь',
         name: 'Чемпионат и Первенство ЛО',
+        start: 'LO_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080109/080106_res.htm',
         split: [
@@ -12,7 +13,6 @@ let events2008 = [
             'splits/2008/SPB_20080105_1_3_split.htm'
         ],
         info: '5 января 2008г Лыжная гонка – маркированная трасса, 40 мин. 6 января 2008г Лыжная гонка – средняя, 35 мин. 7 января 2008г Лыжная гонка – классика, 50 мин. 9 января 2007г Лыжная гонка – спринт, 15 мин.',
-        owner: 'SFSO_LO',
         o_site: '080109',
         endDate: '2008-01-09'
     },
@@ -96,10 +96,10 @@ let events2008 = [
         date: '2008-02-17',
         place: 'Всеволожск',
         name: 'Зимний Чемпионат СПб и Первенство ЛО, ЗН, классика',
+        start: ['SPB_CHAMP','LO_CHAMP'],
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080217/080217_res.htm',
         split: 'splits/2008/SPB_20080217_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '080217'
     },
     {
@@ -107,10 +107,10 @@ let events2008 = [
         date: '2008-02-23',
         place: 'Орехово',
         name: 'Зимний Чемпионат СПб, маркир',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080223/080223_res.htm',
         split: 'splits/2008/SPB_20080223_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '080223'
     },
     {
@@ -118,11 +118,11 @@ let events2008 = [
         date: '2008-02-25',
         place: 'Орехово',
         name: 'Зимний Чемпионат СПб и Первенство ЛО, спринт',
+        start: ['SPB_CHAMP','LO_CHAMP'],
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080225_spr/080225_res.htm',
         split: 'splits/2008/SPB_20080225_1_split.htm',
         info: '49-ый открытый Чемпионат и Первенство Санкт-Петербурга по спортивному ориентированию на лыжах.',
-        owner: 'SFSO_SPB',
         o_site: '080225_spr'
     },
     {
@@ -140,11 +140,11 @@ let events2008 = [
         date: '2008-03-02',
         place: 'Орехово',
         name: 'Зимний Чемпионат СПб, эстафета',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080302/080302_res.htm',
         split: 'splits/2008/SPB_20080302_1_split.htm',
         info: '49-ый открытый Чемпионат и Первенство Санкт-Петербурга по спортивному ориентированию на лыжах.',
-        owner: 'SFSO_SPB',
         o_site: '080302'
     },
     {
@@ -204,6 +204,7 @@ let events2008 = [
         date: '2008-04-19',
         place: 'Солнечное, Дюны',
         name: 'Первенство СПб среди обучающихся',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/08041920/KNO_res.zip',
         split: [
@@ -212,7 +213,6 @@ let events2008 = [
         ],
         info: 'Летнее первенство Санкт-Петербурга по спортивному ориентированию бегом среди обучающихся',
         fmt: '19 апреля - ЗН (спринт)',
-        owner: 'SFSO_SPB',
         o_site: '08041920',
         endDate: '2008-04-20'
     },
@@ -266,6 +266,7 @@ let events2008 = [
         endDate: '2008-05-03',
         place: 'Луга, оз Омчино',
         name: 'Чемпионат и пер-во ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/08050103/080501_luga_res.htm',
         split: [
@@ -274,7 +275,6 @@ let events2008 = [
             'splits/2008/SPB_20080501_2_3_split.htm'
         ],
         info: 'ЧЕМПИОНАТ И ПЕРВЕНСТВО ЛЕНИНГРАДСКОЙ ОБЛАСТИ, ОТКРЫТЫЙ КУБОК СЗФО',
-        owner: 'SFSO_LO',
         o_site: '08050103'
     },
     {
@@ -349,9 +349,9 @@ let events2008 = [
         date: '2008-05-17',
         place: 'Токсово, база Динамо',
         name: 'Чемпионат СПб по вело-О',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         info: 'Чемпионат Санкт-Петербурга по велоориентированию. Индивидуальная программа, заданное направление, классическая дистанция в два круга. Группы МЖ16, МЖ21, МЖ-Новички.',
-        owner: 'SFSO_SPB',
         o_site: '080517_mtbo'
     },
     {
@@ -391,11 +391,11 @@ let events2008 = [
         date: '2008-05-24',
         place: 'Юкки',
         name: 'Чемпионат Санкт-Петербурга, спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080524/080524_res.htm',
         split: 'splits/2008/SPB_20080524_1_split.zip',
         info: 'Юбилейный, 50-й Чемпионат Санкт-Петербурга!!!',
-        owner: 'SFSO_SPB',
         o_site: '080524',
         reskeep: 264
     },
@@ -416,11 +416,11 @@ let events2008 = [
         date: '2008-05-25',
         place: 'Токсово',
         name: 'Чемпионат Санкт-Петербурга, классика (кросс 70/90)',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080525/080525_res.htm',
         split: 'splits/2008/SPB_20080525_1_split.zip',
         info: 'Юбилейный, 50-й Чемпионат Санкт-Петербурга!!!',
-        owner: 'SFSO_SPB',
         o_site: '080525'
     },
     {
@@ -452,11 +452,11 @@ let events2008 = [
         date: '2008-06-01',
         place: 'Токсово, Охта',
         name: 'Чемпионат Санкт-Петербурга, средняя дистанция',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080601/080601_res.htm',
         split: 'splits/2008/SPB_20080601_1_split.htm',
         info: 'Юбилейный, 50-й Чемпионат Санкт-Петербурга!!!',
-        owner: 'SFSO_SPB',
         o_site: '080601'
     },
     {
@@ -464,11 +464,11 @@ let events2008 = [
         date: '2008-06-08',
         place: 'Токсово',
         name: 'Чемпионат Санкт-Петербурга, эстафета',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080608/080608_res.htm',
         split: 'splits/2008/SPB_20080608_1_split.htm',
         info: 'Юбилейный, 50-й Чемпионат Санкт-Петербурга!!!',
-        owner: 'SFSO_SPB',
         o_site: '080608'
     },
     {
@@ -642,6 +642,7 @@ let events2008 = [
         endDate: '2008-08-24',
         place: 'Каменногорск',
         name: 'III Чемпионат СПб по рогейну',
+        start: 'SPB_CHAMP',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/08082224/080824_res.htm',
         split: 'splits/2008/SPB_20080822_1_split.htm',
@@ -712,10 +713,10 @@ let events2008 = [
         date: '2008-09-14',
         place: 'Колосково',
         name: 'Чемпионат Санкт-Петербурга, марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080914/080914_res.htm',
         split: 'splits/2008/SPB_20080914_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '080914'
     },
     {
@@ -892,6 +893,7 @@ let events2008 = [
         endDate: '2008-10-26',
         place: 'Воейково',
         name: 'Пер-во ЛО среди обучающихся Финал Кубка ФСО (26.10)',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/08102526/081026_res.pdf',
         split: [

@@ -67,6 +67,7 @@ let events2013 = [
         endDate: '2013-01-20',
         place: 'Кириши, Будогощь',
         name: 'Кубок России среди ветеранов Чемпионат и первенство ЛО Зимняя спартакиада учащихся ЛО',
+        start: 'LO_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/13011720/130119_res.htm',
         split: [
@@ -75,7 +76,6 @@ let events2013 = [
             'splits/2013/SPB_20130117_1_3_split.htm'
         ],
         info: 'КУБОК РОССИИ СРЕДИ ВЕТЕРАНОВ ПО СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ НА ЛЫЖАХ Чемпионат и первенство Ленинградской области Зимняя спартакиада учащихся Ленинградской области Кубок профкома ООО «ПО Киришинефтеоргсинтез»',
-        owner: 'SFSO_LO',
         o_site: '13011720'
     },
     {
@@ -144,10 +144,10 @@ let events2013 = [
         date: '2013-02-16',
         place: 'Токсово',
         name: 'Чемпионат и Первенство СПб, спринт',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130216/130216_SPLIT.htm',
         split: 'splits/2013/SPB_20130216_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '130216',
         map: 'toksovo_shkolnoe_winter_2013'
     },
@@ -156,10 +156,10 @@ let events2013 = [
         date: '2013-02-17',
         place: 'Токсово',
         name: 'Чемпионат и Первенство СПб, комбинация',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130217/130217_split.htm',
         split: 'splits/2013/SPB_20130217_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '130217'
     },
     {
@@ -167,10 +167,10 @@ let events2013 = [
         date: '2013-02-23',
         place: 'Зеркальный',
         name: 'Чемпионат и Первенство СПб, средняя дистанция',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130223Ch/130223_split.htm',
         split: 'splits/2013/SPB_20130223_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '130223Ch'
     },
     {
@@ -211,24 +211,24 @@ let events2013 = [
         id: 'SPB_20130303_1',
         date: '2013-03-03',
         name: 'Чемпионат и Первенство СПб, маркир',
+        start: 'SPB_CHAMP',
         place: 'Ильичёво, Болотная Станция',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130303/130303_ split.htm',
         split: 'splits/2013/SPB_20130303_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '130303'
     },
     {
         id: 'SPB_20130308_1',
         date: '2013-03-08',
         name: 'Чемпионат и Первенство СПб, Эстафета',
+        start: 'SPB_CHAMP',
         place: 'Ильичёво, Болотная Станция',
         type: 'SKI',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/130308_ch/130308_split.htm',
         split: 'splits/2013/SPB_20130308_1_split.htm',
         info: 'Эстафета проводится по группам: Мдо13- 2 этапа, Ждо13- 2 этапа Мдо15- 3 этапа, Ждо15- 3 этапа, Мдо18- 3 этапа, Ждо18- 3 этапа, МЭ- 3 этапа, ЖЭ- 3 этапа, М90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, Ж90 (сумма возрастов ≥90 лет, мин. возраст 35 лет)- 2 этапа, М110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа, Ж110 (сумма возрастов ≥110 лет, мин. возраст 45 лет)- 2 этапа',
-        owner: 'SFSO_SPB',
         o_site: '130308_ch'
     },
     {
@@ -245,12 +245,12 @@ let events2013 = [
         id: 'SPB_20130309_1',
         date: '2013-03-09',
         name: 'Чемпионат и Первенство СПб, Лонг',
+        start: 'SPB_CHAMP',
         place: 'Ильичёво, Болотная Станция',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/130309/130309_split.htm',
         split: 'splits/2013/SPB_20130309_1_split.htm',
         info: 'Место проведения: п.Ильичево, Болотная станция',
-        owner: 'SFSO_SPB',
         o_site: '130309'
     },
     {
@@ -484,10 +484,10 @@ let events2013 = [
         date: '2013-04-28',
         place: 'городской квартал на пр.Тореза',
         name: 'Чемпионат и Первенство СПб, спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130428_Ch/130428_split_.htm',
         split: 'splits/2013/SPB_20130428_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '130428_Ch',
         reskeep: 259
     },
@@ -507,10 +507,10 @@ let events2013 = [
         endDate: '2013-05-03',
         place: 'Будогощь',
         name: 'Чемпионат и Первенство ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=635',
         info: 'Открытый Чемпионат и Первенство Ленинградской области по спортивному ориентированию бегом',
-        owner: 'SFSO_LO',
         o_site: '13050103'
     },
     {
@@ -580,12 +580,12 @@ let events2013 = [
         date: '2013-05-09',
         place: 'Комарово-Репино',
         name: 'Чемпионат СПб среди студентов ВУЗов',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130509_vyz/130509_res.xls',
         split: 'splits/2013/SPB_20130509_2_split.htm',
         info: 'Мандатная комиссия проводится 29 апреля в СДЮСШ ОР №2, пом.59 по адресу: Невский пр., 39, с 17 до 18 часов.',
-        owner: 'SFSO_SPB',
         o_site: '130509_vyz'
     },
     {
@@ -680,6 +680,7 @@ let events2013 = [
         date: '2013-05-18',
         endDate: '2013-05-19',
         name: 'Чемпионат и Первенство ЛО по вело-О',
+        start: 'LO_CHAMP',
         place: 'Всеволожск, Колтуши',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/13051819/130518_rez.htm',
@@ -687,7 +688,6 @@ let events2013 = [
             'splits/2013/SPB_20130518_2_1_split.htm',
             'splits/2013/SPB_20130518_2_2_split.htm'
         ],
-        owner: 'SFSO_LO',
         o_site: '13051819'
     },
     {
@@ -708,11 +708,11 @@ let events2013 = [
         date: '2013-05-19',
         place: 'Пухтолова гора',
         name: 'Первенство СПб среди обучающихся',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/130519/130519_res.htm',
         split: 'splits/2013/SPB_20130519_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '130519',
         map: 'pukhtolova_gora_2009'
     },
@@ -731,13 +731,13 @@ let events2013 = [
         endDate: '2013-05-23',
         place: 'Пушкин, Нижний парк',
         name: 'Чемпионат и пер-во СПб по ориентированию – спорт глухих',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/13052223/130522_res.htm',
         split: [
             'splits/2013/SPB_20130522_1_1_split.htm',
             'splits/2013/SPB_20130522_1_2_split.htm'
         ],
-        owner: 'SFSO_SPB',
         o_site: '13052223',
         map: 'pushkin_nizhny_2019'
     },
@@ -824,11 +824,11 @@ let events2013 = [
         id: 'SPB_20130601_1',
         date: '2013-06-01',
         name: 'Чемпионат и Первенство СПб, эстафета',
+        start: 'SPB_CHAMP',
         place: 'Кузьмолово',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'http://o-time.ru/images/all/w13/footo010613spbr.htm',
-        owner: 'SFSO_SPB',
         o_site: '130601'
     },
     {
@@ -856,10 +856,10 @@ let events2013 = [
         date: '2013-06-02',
         place: 'Симагино-Огоньки',
         name: 'Чемпионат и Первенство СПб, лонг',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130602Ch/130602_RES.htm',
         split: 'splits/2013/SPB_20130602_2_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '130602Ch',
         reskeep: 247
     },
@@ -1247,10 +1247,10 @@ let events2013 = [
         date: '2013-09-08',
         place: 'Цвелодубово',
         name: 'Чемпионат и Первенство СПб, марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130908/130908_res.htm',
         split: 'splits/2013/SPB_20130908_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '130908',
         reskeep: 254
     },
@@ -1288,6 +1288,7 @@ let events2013 = [
         endDate: '2013-09-15',
         place: 'Ильчево',
         name: 'Командный Ч-т и П-во ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/13091415_LO/130914_res.pdf',
@@ -1346,23 +1347,23 @@ let events2013 = [
         date: '2013-09-21',
         place: 'Рощино',
         name: 'Чемпионат и Первенство СПб по вело-О, велокросс-классика',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/130921/130921_mtbo_res.pdf',
         split: 'splits/2013/SPB_20130921_2_split.htm',
         fmt: 'Велокросс-классика (40-70мин) - код дисциплины 0830241811Я',
-        owner: 'SFSO_SPB',
         o_site: '130921'
     },
     {
         id: 'SPB_20130922_1',
         date: '2013-09-22',
         name: 'Чемпионат и Первенство СПб, средняя дистанция',
+        start: 'SPB_CHAMP',
         place: 'Поляны',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130922/130922_split.htm',
         split: 'splits/2013/SPB_20130922_1_split.htm',
         video: 'https://www.youtube.com/watch?v=59GaGUqEw1c',
-        owner: 'SFSO_SPB',
         o_site: '130922',
         reskeep: 226
     },
@@ -1461,10 +1462,10 @@ let events2013 = [
         date: '2013-10-05',
         place: 'Осиновая Роща',
         name: 'Чемпионат и Первенство СПб по вело-О, спринт',
+        start: 'SPB_CHAMP',
         type: 'VELO',
         res: 'https://o-site.spb.ru/_races/131005/131005_mtbo_res.pdf',
         split: 'splits/2013/SPB_20131005_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '131005',
         map: 'osinovaja_roscha_velo_2020'
     },

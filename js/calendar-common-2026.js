@@ -744,6 +744,7 @@ let commonEvents2026 = [
         date: '2026-09-19',
         endDate: '2026-09-20',
         name: 'Гран-при Владимира Алексеева, ЧиП ЛО',
+        start: 'LO_CHAMP',
         place: 'Мичуринское',
         o_site: '260920',
         reg: 'https://orgeo.ru/event/54773',

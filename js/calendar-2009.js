@@ -65,8 +65,8 @@ let events2009 = [
         endDate: '2009-01-31',
         place: 'Будогощь',
         name: 'Первенство Ленинградской области',
+        start: 'LO_CHAMP',
         type: 'SKI',
-        owner: 'SFSO_LO',
         o_site: '090131'
     },
     {
@@ -78,7 +78,7 @@ let events2009 = [
         fmt: 'маркир',
         res: 'https://o-site.spb.ru/_races/090201/090201_res.zip',
         info: '4-й Мемориал Андрея Волкова, Первенство школьников СПб. Возрастные группы на первенстве учащихся - МЖ14, 17, 20, у взрослых спортсменов на Мемориале А.Волкова - МЖ 21, 40, 50, 60',
-        start: 'VOLKOV_A',
+        start: ['VOLKOV_A','SPB_CHAMP'],
         o_site: '090201',
         map: 'volkov_2009_02_01'
     },
@@ -87,9 +87,9 @@ let events2009 = [
         date: '2009-02-07',
         place: 'Орехово',
         name: 'Чемпионат и Пер-во СПб, маркир',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080207/090207_res.htm',
-        owner: 'SFSO_SPB',
         o_site: '080207'
     },
     {
@@ -97,10 +97,10 @@ let events2009 = [
         date: '2009-02-08',
         place: 'Орехово',
         name: 'Чемпионат и Пер-во СПб, заданное направление',
+        start: 'SPB_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/080208/090208_res.htm',
         split: 'splits/2009/SPB_20090208_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '080208'
     },
     {
@@ -144,6 +144,7 @@ let events2009 = [
         endDate: '2009-02-23',
         place: 'Всеволожск',
         name: 'Пер-во ЛО среди обучающихся',
+        start: 'LO_CHAMP',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/09022223/09022223_res.rar',
         split: [
@@ -207,10 +208,10 @@ let events2009 = [
         date: '2009-03-08',
         endDate: '2009-03-09',
         name: 'Чемпионат Санкт-Петербурга',
+        start: 'SPB_CHAMP',
         place: 'Кузьмоловский',
         type: 'ORIENT',
         res: 'http://o-time.ru/images/all/w09/skio080309.htm',
-        owner: 'SFSO_SPB',
         o_site: '09030809'
     },
     {
@@ -347,8 +348,8 @@ let events2009 = [
         endDate: '2009-05-03',
         place: 'Цвелодубово',
         name: 'Чемпионат и пер-во ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
-        owner: 'SFSO_LO',
         o_site: '09050103'
     },
     {
@@ -489,6 +490,7 @@ let events2009 = [
         date: '2009-05-23',
         endDate: '2009-05-24',
         name: 'Пер-во СПб среди обучающихся',
+        start: 'SPB_CHAMP',
         place: 'Комарово, Ушково',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/09052324/090523_RES.htm',
@@ -567,11 +569,11 @@ let events2009 = [
         date: '2009-06-03',
         place: 'Осиновая Роща',
         name: 'Чемпионат Санкт-Петербурга - спринт',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090603/090603_res.htm',
         split: 'splits/2009/SPB_20090603_1_split.htm',
         photo: 'http://www.photo.yarkiymir.ru/albums/87/156/page-0/',
-        owner: 'SFSO_SPB',
         o_site: '090603',
         reskeep: 263,
         map: 'osinovaja_roscha_2018'
@@ -600,11 +602,11 @@ let events2009 = [
         date: '2009-06-06',
         place: 'Медное оз',
         name: 'Чемпионат Санкт-Петербурга - эстафета',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090606/090606_res.htm',
         split: 'splits/2009/SPB_20090606_2_split.htm',
         photo: 'http://www.photo.yarkiymir.ru/albums/87/180/page-0/',
-        owner: 'SFSO_SPB',
         o_site: '090606',
         reskeep: 235
     },
@@ -613,9 +615,9 @@ let events2009 = [
         date: '2009-06-07',
         place: 'Будогощь',
         name: 'Чемпионат ЛО по МТБО',
+        start: 'LO_CHAMP',
         type: 'VELO',
         fmt: 'средняя дистанция',
-        owner: 'SFSO_LO',
         o_site: '090607_MTB'
     },
     {
@@ -623,11 +625,11 @@ let events2009 = [
         date: '2009-06-07',
         place: 'Медное оз',
         name: 'Чемпионат СПб, классика',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090607/090607_res.htm',
         split: 'splits/2009/SPB_20090607_2_split.htm',
         photo: 'http://www.photo.yarkiymir.ru/albums/87/181/page-0/',
-        owner: 'SFSO_SPB',
         o_site: '090607',
         reskeep: 251
     },
@@ -911,10 +913,10 @@ let events2009 = [
         date: '2009-09-13',
         place: 'оз Пасторское',
         name: 'Чемпионат СПб - марафон',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090913/090913_res.pdf',
         split: 'splits/2009/SPB_20090913_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '090913',
         reskeep: 242
     },
@@ -1037,11 +1039,11 @@ let events2009 = [
         date: '2009-10-04',
         place: 'Энколово',
         name: 'Чемпионат СПб, средняя дистанция',
+        start: 'SPB_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091004/091004_res.htm',
         split: 'splits/2009/SPB_20091004_1_split.zip',
         photo: 'http://www.photo.yarkiymir.ru/albums/120/1657/',
-        owner: 'SFSO_SPB',
         o_site: '091004',
         reskeep: 230
     },
@@ -1091,11 +1093,11 @@ let events2009 = [
         date: '2009-10-17',
         place: 'Орехово',
         name: 'Чемпионат и П-во ЛО, посвященные 40-летию спортивного ориентирования в ЛО',
+        start: 'LO_CHAMP',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/09101718/091017.htm',
         split: 'splits/2009/SPB_20091017_2_split.htm',
         info: 'Чемпионат и Первенство ЛО, посвященный 40-летию ориентирования в области',
-        owner: 'SFSO_LO',
         o_site: '09101718',
         endDate: '2009-10-18',
         map: 'orekhovo_rakitinskoe_2004'
