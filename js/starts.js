@@ -117,6 +117,7 @@ let starts = {
     CONTROLNY_START: {
         short: 'Контрольный старт',
         name: 'Контрольный старт',
+        logo: 'kjp.gif',
         owner: 'KUZMOLOVO'
     },
     VYBORGSKY_TROIKA: {
@@ -222,7 +223,7 @@ let starts = {
         page: 'starts'
     },
     VOLKOV_A: {
-        short: 'Мемориал Андрея Волкова',
+        short: 'Мемориал Волкова',
         name: 'Мемориал Андрея Волкова',
         logo: 'volkov_a.webp',
         info: 'Андрей Владимирович Волков трагически ушел из жизни в июньский воскресный день 2005 года.' +
