@@ -921,6 +921,7 @@ let events2017 = [
         date: '2017-05-27',
         endDate: '2017-05-28',
         name: 'Выборгская тройка',
+        start: 'VYBORGSKY_TROIKA',
         place: 'Анненские укрепления, Гаврилово, Возрождение',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170427-28_VT/170527_rez_VT.htm',

@@ -1532,6 +1532,7 @@ let events2024 = [
         endDate: '2024-08-18',
         place: 'Выборг',
         name: 'Выборгская Тройка',
+        start: 'VYBORGSKY_TROIKA',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/240817-18_VTR/VTR_split_1.htm',
         split: [

@@ -1545,6 +1545,7 @@ let events2022 = [
         endDate: '2022-08-28',
         place: 'Выборг',
         name: 'Выборгская Тройка',
+        start: 'VYBORGSKY_TROIKA',
         type: 'ORIENT',
         res: 'http://sportident.online/ol/?id=854',
         info: 'Онлайн результаты. Старт 1 - Спринт Онлайн результаты. Старт 2 - Ночной старт Онлайн результаты. Старт 3 - Классика',

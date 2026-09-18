@@ -1069,6 +1069,7 @@ let events2025 = [
         endDate: '2025-05-25',
         place: 'Выборг, река Петровка',
         name: 'Выборгская Тройка',
+        start: 'VYBORGSKY_TROIKA',
         type: 'ORIENT',
         o_site: '250524-25_VTR',
         split: [

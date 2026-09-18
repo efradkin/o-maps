@@ -722,6 +722,7 @@ let events2021 = [
         endDate: '2021-05-10',
         place: 'Выборг',
         name: 'Выборгская тройка',
+        start: 'VYBORGSKY_TROIKA',
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=4902',
         res: 'http://orgeo.ru/live/#/16840/1',

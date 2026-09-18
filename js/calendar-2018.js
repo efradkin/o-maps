@@ -802,6 +802,7 @@ let events2018 = [
         endDate: '2018-05-27',
         place: 'Выборг',
         name: 'Выборгская тройка',
+        start: 'VYBORGSKY_TROIKA',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/18052627/180526-27_summ.htm',
         split: [

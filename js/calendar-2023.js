@@ -915,6 +915,7 @@ let events2023 = [
         endDate: '2023-06-04',
         place: 'Выборг',
         name: 'Выборгская Тройка',
+        start: 'VYBORGSKY_TROIKA',
         type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=5753',
         res: 'https://o-site.spb.ru/_races/230603-04_VTR/VTR_result_1.htm',

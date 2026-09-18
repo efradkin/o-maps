@@ -113,6 +113,10 @@ let starts = {
         name: 'Контрольный старт',
         owner: 'KUZMOLOVO'
     },
+    VYBORGSKY_TROIKA: {
+        short: 'Выборгская тройка',
+        name: 'Выборгская тройка',
+    },
     SOSNOVOBORSKY_DUNY: {
         short: 'Сосновоборские дюны',
         name: '<a href="https://vk.com/id2507454">Сосновоборские дюны</a>',

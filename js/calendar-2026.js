@@ -2380,6 +2380,7 @@ let events2026 = [
         date: '2026-08-22',
         endDate: '2026-08-23',
         name: 'Выборгская Тройка',
+        start: 'VYBORGSKY_TROIKA',
         place: 'Выборг, Возрождение',
         o_site: '260822-23_VTR',
         split: [

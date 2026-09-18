@@ -677,6 +677,7 @@ let events2015 = [
         endDate: '2015-05-24',
         place: 'Выборг',
         name: 'Выборгская Тройка',
+        start: 'VYBORGSKY_TROIKA',
         type: 'ORIENT',
         reg: 'http://sportident.ru/entry/grup_info.php?g=13927&id=1160',
         res: 'https://o-site.spb.ru/_races/15052324/150523_sprint_rez.htm',

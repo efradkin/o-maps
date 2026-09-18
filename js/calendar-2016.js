@@ -814,6 +814,7 @@ let events2016 = [
         date: '2016-06-04',
         endDate: '2016-06-05',
         name: 'Выборгская тройка',
+        start: 'VYBORGSKY_TROIKA',
         place: 'Выборг',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16060405VT/160605_res.pdf',
