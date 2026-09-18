@@ -227,12 +227,18 @@
                 position: sticky;
                 left: 0;
                 z-index: 3;
-                width: 96px;
+                width: 120px;
                 background: var(--o-surface, #fff);
                 box-shadow: 3px 0 6px rgba(24, 36, 24, .10);
             }
+            /* Выравнивание по левому краю: при обрезке длинной подписи
+               многоточием отваливается хвост, а логотип и начало имени видны
+               всегда. При выравнивании вправо обрезалось как раз начало
+               строки — вместе с логотипом. */
             .sc-label {
-                right: 6px;
+                left: 6px;
+                right: 4px;
+                text-align: left;
                 font-size: 11px;
             }
             .sc-label-logo {
@@ -549,6 +555,7 @@
 
     function collectRows() {
         const startsData = globalValue('starts') || {};
+        const missingStarts = [];
         const excluded = new Set(EXCLUDED_STARTS);
         const seenIds = new Set();
         const byCode = new Map();
@@ -573,6 +580,7 @@
 
                     let row = byCode.get(code);
                     if (!row) {
+                        if (!startsData[code]) missingStarts.push(code);
                         const s = startsData[code] || {};
                         row = {
                             code: code,
@@ -613,6 +621,13 @@
             row.maxYear = Math.max.apply(null, Array.from(years.keys()));
             rows.push(row);
         });
+
+        /* Календарь ссылается на старт, которого нет в starts.js: подписью
+           станет сам код, логотипа не будет. Обычно это значит, что starts.js
+           на сервере старее календарей или отдан из кэша. */
+        if (missingStarts.length) {
+            console.warn('Нет записей в starts.js: ' + missingStarts.join(', '));
+        }
 
         /* Сверху — у кого больше дней проведения; при равенстве — по алфавиту. */
         rows.sort(function (a, b) {
@@ -859,7 +874,10 @@
                 img.className = 'sc-label-logo';
                 img.src = 'logo/' + g.row.logo;
                 img.alt = '';
-                img.onerror = function () { this.style.display = 'none'; };
+                img.onerror = function () {
+                    this.style.display = 'none';
+                    console.warn('Нет файла логотипа: ' + this.getAttribute('src'));
+                };
                 a.appendChild(img);
             }
             a.appendChild(document.createTextNode(narrow ? g.row.short : g.row.name));
