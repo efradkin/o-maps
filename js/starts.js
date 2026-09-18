@@ -108,6 +108,10 @@ let starts = {
         logo: 'snow_way.webp',
         owner: 'SFSO_SPB'
     },
+    PERSPEKTIVA: {
+        short: 'Перспектива',
+        name: 'Перспектива',
+    },
     VSEVOLOZHSK_WAY: {
         short: 'Всеволожская тропа',
         name: 'Всеволожская тропа',

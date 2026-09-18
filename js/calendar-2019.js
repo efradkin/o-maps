@@ -1245,6 +1245,7 @@ let events2019 = [
         date: '2019-07-14',
         place: 'Комарово-Репино',
         name: 'Тренировочный старт Перспектива',
+        start: 'PERSPEKTIVA',
         type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1053',
         res: 'http://o-site.spb.ru/_races/190714/190714_res.htm',
