@@ -1196,7 +1196,7 @@ let events2021 = [
         fmt: 'классика',
         start: 'KKP',
         o_site: '210612-18_KKP',
-        reskeep: 476,
+        reskeep: 474,
         strava: 5469051700,
         video: [
             'https://www.youtube.com/watch?v=xa-xlJAm9rY',
@@ -1984,7 +1984,6 @@ let events2021 = [
         place: 'Дибуновская ул',
         name: 'СПРИНТ ТУР',
         type: 'ORIENT',
-        reskeep: 571,
         map: 'dibunovskaya_2022'
     },
     {

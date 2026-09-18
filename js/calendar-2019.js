@@ -1495,17 +1495,6 @@ let events2019 = [
         start: 'YM_CUP'
     },
     {
-        id: 'SPB_20190905_1',
-        date: '2019-09-05',
-        name: 'Кузьмоловские старты',
-        owner: 'KUZMOLOVO',
-        type: 'ORIENT',
-        reg: 'http://orgeo.ru/event/info/10295',
-        res: 'http://o-site.spb.ru/_races/190905/190905_split.html',
-        o_site: '190905',
-        reskeep: [193, 213, 217, 218, 219, 220]
-    },
-    {
         id: 'SPB_20190904_1',
         date: '2019-09-04',
         endDate: '2019-09-08',
@@ -1530,7 +1519,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190905/190905_split.html',
         owner: 'KUZMOLOVO',
-        o_site: '190905'
+        o_site: '190905',
+        reskeep: 193
     },
     {
         id: 'SPB_20190907_1',
@@ -1571,7 +1561,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190905/190912_split.htm',
         owner: 'KUZMOLOVO',
-        o_site: '190905'
+        o_site: '190905',
+        reskeep: 213
     },
     {
         id: 'SPB_20190914_1',
@@ -1621,7 +1612,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190905/190919_res.html',
         owner: 'KUZMOLOVO',
-        o_site: '190905'
+        o_site: '190905',
+        reskeep: 217
     },
     {
         id: 'SPB_20190921_1',
@@ -1691,7 +1683,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190905/190926_res.html',
         owner: 'KUZMOLOVO',
-        o_site: '190905'
+        o_site: '190905',
+        reskeep: 218
     },
     {
         id: 'SPB_20190929_1',
@@ -1787,7 +1780,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190905/191003_res.htm',
         owner: 'KUZMOLOVO',
-        o_site: '190905'
+        o_site: '190905',
+        reskeep: 219
     },
     {
         id: 'SPB_20191004_1',
@@ -1830,7 +1824,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191005_split.htm',
         owner: 'WN',
-        o_site: '2020BN'
+        o_site: '2020BN',
+        reskeep: 283
     },
     {
         id: 'SPB_20191006_1',
@@ -1976,7 +1971,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191019_split.htm',
         owner: 'WN',
-        o_site: '2020BN'
+        o_site: '2020BN',
+        reskeep: 310
     },
     {
         id: 'SPB_20191020_1',
@@ -2039,7 +2035,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191026_split.htm',
         owner: 'WN',
-        o_site: '2020BN'
+        o_site: '2020BN',
+        reskeep: 282
     },
     {
         id: 'SPB_20191027_1',
@@ -2070,7 +2067,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191102_split.htm',
         owner: 'WN',
-        o_site: '2020BN'
+        o_site: '2020BN',
+        reskeep: 284
     },
     {
         id: 'SPB_20191103_1',
@@ -2091,7 +2089,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191103_split.htm',
         owner: 'WN',
-        o_site: '2020BN'
+        o_site: '2020BN',
+        reskeep: 285
     },
     {
         id: 'SPB_20191104_1',
@@ -2197,7 +2196,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191123_split.htm',
         owner: 'WN',
-        o_site: '2020BN'
+        o_site: '2020BN',
+        reskeep: 308
     },
     {
         id: 'SPB_20191124_1',
@@ -2278,7 +2278,8 @@ let events2019 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191207_split.htm',
         owner: 'WN',
-        o_site: '2020BN'
+        o_site: '2020BN',
+        reskeep: 309
     },
     {
         id: 'SPB_20191208_1',
@@ -2309,7 +2310,8 @@ let events2019 = [
         place: 'Орово',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191214_split.htm',
-        strava: 2932167797
+        strava: 2932167797,
+        reskeep: 291
     },
     {
         id: 'SPB_20191215_1',

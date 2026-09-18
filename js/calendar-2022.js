@@ -1479,7 +1479,6 @@ let events2022 = [
         owner: 'WN',
         o_site: '2022BN',
         endDate: '2022-08-07',
-        reskeep: [550, 553],
         map: 'pervomayskoe_2021'
     },
     {

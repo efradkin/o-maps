@@ -1551,7 +1551,6 @@ let events2020 = [
         split: 'splits/2020/SPB_20201031_1_split.htm',
         owner: 'SFSO_SPB',
         o_site: '201031_MTBO',
-        reskeep: 383,
         map: 'pukhtolova_gora_velo_2025'
     },
     {

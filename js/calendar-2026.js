@@ -905,7 +905,7 @@ let events2026 = [
         start: 'ST',
         info: 'Новая карта. <a href="https://m.vk.com/@sprinttourspb-noname-sprint-tur-2026-15042026-2-etap">Разбор дистанций</a>.',
         planner: 'SRBRNTSKY',
-        reskeep: 871,
+        reskeep: 880,
         map: 'egorovoy_2026',
         strava: [18120682961,18121144687],
         me: 'М'
@@ -1219,7 +1219,8 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'классика',
         owner: 'AZIMUT',
-        map: 'stekljanny_2021'
+        map: 'stekljanny_2021',
+        reskeep: 886
     },
     {
         id: 'SPB_20260510_1',

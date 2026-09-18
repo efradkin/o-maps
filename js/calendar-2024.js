@@ -337,7 +337,6 @@ let events2024 = [
         split: 'splits/2024/SPB_20240324_1_split.pdf',
         o_site: '240324',
         strava: 11026409836,
-        reskeep: 629,
         map: 'osinovaja_roscha_2018'
     },
     {
