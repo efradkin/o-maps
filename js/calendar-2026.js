@@ -402,6 +402,7 @@ let events2026 = [
         id: 'SPB_20260223_1',
         date: '2026-02-23',
         name: 'Снежная тропа',
+        start: 'SNOW_WAY',
         place: 'Удельный парк',
         o_site: '260223_ST',
         split: 'splits/2026/SPB_20260223_1_split.htm',
@@ -414,7 +415,6 @@ let events2026 = [
         info: 'Медаль - каждому участнику. Квест в стиле средневекового фэнтези.',
         map: 'udelny_2022',
         publish: 'https://vk.com/album-230167293_312706609',
-        owner: 'SFSO_SPB',
         strava: 17492293728,
         me: 'М45'
     },
@@ -483,6 +483,7 @@ let events2026 = [
         id: 'SPB_20260308_1',
         date: '2026-03-08',
         name: 'Снежная тропа',
+        start: 'SNOW_WAY',
         place: 'Пулковский парк',
         o_site: '260308_ST',
         split: 'splits/2026/SPB_20260308_1_split.htm',
@@ -498,7 +499,6 @@ let events2026 = [
         fmt: 'спринт',
         map: 'pulkovsky_2024',
         publish: 'https://vk.com/album-230167293_312838601',
-        owner: 'SFSO_SPB',
         planner: 'LHMNV',
         strava: 17645255591,
         me: 'М45'
@@ -2950,9 +2950,9 @@ let events2026 = [
         id: 'SPB_20261122_1',
         date: '2026-11-22',
         name: 'Снежная тропа',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
-        fmt: 'спринт',
-        owner: 'SFSO_SPB'
+        fmt: 'спринт'
     },
     {
         id: 'SPB_20261206_1',
@@ -2965,8 +2965,8 @@ let events2026 = [
         id: 'SPB_20261213_1',
         date: '2026-12-13',
         name: 'Снежная тропа',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
-        fmt: 'спринт',
-        owner: 'SFSO_SPB'
+        fmt: 'спринт'
     }
 ];

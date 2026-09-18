@@ -41,10 +41,10 @@ let events2009 = [
         date: '2009-01-25',
         place: 'Александрино',
         name: 'Снежная Тропа, 3-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090125/090125_res.pdf',
         split: 'splits/2009/SPB_20090125_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '090125'
     },
     {
@@ -226,10 +226,10 @@ let events2009 = [
         date: '2009-03-15',
         place: 'Шуваловский парк',
         name: 'Снежная Тропа, финал',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/090315/090315_res.pdf',
         split: 'splits/2009/SPB_20090315_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '090315'
     },
     {
@@ -1300,10 +1300,10 @@ let events2009 = [
         date: '2009-12-06',
         place: 'Пискарёвский парк',
         name: 'Снежная Тропа, 1-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/091122/091206_split.htm',
         split: 'splits/2009/SPB_20091206_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '091122',
         map: 'piskarevsky_1996'
     },

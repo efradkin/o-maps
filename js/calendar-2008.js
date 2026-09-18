@@ -74,10 +74,10 @@ let events2008 = [
         date: '2008-02-10',
         place: 'Петродворец',
         name: 'Снежная Тропа, 4-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080210/080210_result.htm',
         split: 'splits/2008/SPB_20080210_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '080210'
     },
     {
@@ -164,11 +164,11 @@ let events2008 = [
         date: '2008-03-16',
         place: 'Удельный парк',
         name: 'Снежная Тропа, 5-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080316/080316_res.html',
         split: 'splits/2008/SPB_20080316_1_split.html',
         info: '5-й этап (финал) самых популярных и массовых соревнований по ориентированию в зимний период.',
-        owner: 'SFSO_SPB',
         o_site: '080316',
         map: 'udelny_2004'
     },
@@ -996,10 +996,10 @@ let events2008 = [
         date: '2008-11-23',
         place: 'Пискаревский парк',
         name: 'Снежная Тропа, 1 этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/081123/081123_res.htm',
         split: 'splits/2008/SPB_20081123_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '081123',
         map: 'piskarevsky_1996'
     },
@@ -1054,10 +1054,10 @@ let events2008 = [
         date: '2008-12-07',
         place: 'Петродворец',
         name: 'Снежная Тропа, 2-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/081207/081207_res.pdf',
         split: 'splits/2008/SPB_20081207_1_split.zip',
-        owner: 'SFSO_SPB',
         o_site: '081207'
     },
     {

@@ -94,9 +94,9 @@ let events2013 = [
         date: '2013-01-27',
         place: 'Парк Сосновка',
         name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 3-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/121118_tropa/130127_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '121118_tropa'
     },
     {
@@ -115,9 +115,9 @@ let events2013 = [
         date: '2013-02-03',
         place: 'Парк лесотехнической академии',
         name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 4-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/121118_tropa/130203_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '121118_tropa'
     },
     {
@@ -288,11 +288,11 @@ let events2013 = [
         id: 'SPB_20130317_1',
         date: '2013-03-17',
         name: 'Кубок СПб по парковому ориентированию «Снежная Тропа»',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'http://o-site.spb.ru/_races/121118_tropa/130317_split.htm',
         video: ['https://www.youtube.com/watch?v=02GejJervm8','https://www.youtube.com/watch?v=TjW57SIUO3o'],
-        owner: 'SFSO_SPB',
         o_site: '121118_tropa',
         map: 'osinovaja_roscha_2013'
     },
@@ -1700,12 +1700,12 @@ let events2013 = [
         id: 'SPB_20131201_1',
         date: '2013-12-01',
         name: 'Снежная тропа, 1-й этап',
+        start: 'SNOW_WAY',
         place: 'Александрино',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/131201/131201_res1.pdf',
         split: 'splits/2013/SPB_20131201_1_split.htm',
         info: 'Соревнования проводятся 01 декабря 2013 года на территории парка «Александрино» и примыкающего жилого квартала Кировского района Санкт-Петербурга.',
-        owner: 'SFSO_SPB',
         o_site: '131201'
     },
     {

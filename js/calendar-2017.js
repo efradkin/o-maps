@@ -2006,12 +2006,12 @@ let events2017 = [
         id: 'SPB_20171126_1',
         date: '2017-11-26',
         name: 'Снежная тропа, 3-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=818',
         res: 'https://o-site.spb.ru/_races/171126/171126_res.htm',
         split: 'splits/2017/SPB_20171126_1_split.htm',
         photo: 'https://o-site.spb.ru/_races/171126/171126_photos.rar',
-        owner: 'SFSO_SPB',
         o_site: '171126'
     },
     {
@@ -2094,12 +2094,12 @@ let events2017 = [
         id: 'SPB_20171217_1',
         date: '2017-12-17',
         name: 'Снежная тропа, 4-й этап',
+        start: 'SNOW_WAY',
         place: 'Пискаревский парк',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171217/171217_res.htm',
         split: 'splits/2017/SPB_20171217_1_split.htm',
         info: 'размещаются в средней общеобразовательной школе № 473 Калининского района по адресу: ул. Верности, д. 28, корп.',
-        owner: 'SFSO_SPB',
         o_site: '171217',
         map: 'piskarevsky_2012'
     },

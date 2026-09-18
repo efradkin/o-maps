@@ -51,10 +51,10 @@ let events2012 = [
         date: '2012-01-22',
         place: 'Павловский парк',
         name: 'Снежная Тропа, 3-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/120122/120122_res.htm',
         split: 'splits/2012/SPB_20120122_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '120122',
         map: 'pavlovsk_2012'
     },
@@ -1463,9 +1463,9 @@ let events2012 = [
         date: '2012-11-18',
         place: 'Пискаревский парк',
         name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 1-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/121118_tropa/121118_SPLIT.htm',
-        owner: 'SFSO_SPB',
         o_site: '121118_tropa'
     },
     {
@@ -1515,9 +1515,9 @@ let events2012 = [
         date: '2012-12-09',
         place: 'Парк Муринский',
         name: 'Кубок СПб по парковому ориентированию «Снежная Тропа», 2-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/121118_tropa/121209_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '121118_tropa'
     },
     {

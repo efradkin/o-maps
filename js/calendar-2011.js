@@ -1320,11 +1320,11 @@ let events2011 = [
         date: '2011-11-27',
         place: 'Пискарёвский парк',
         name: 'Снежная Тропа, 1-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111127/111127_RES1.htm',
         split: 'splits/2011/SPB_20111127_1_split.htm',
         video: 'https://www.youtube.com/watch?v=POAiLoavdLg',
-        owner: 'SFSO_SPB',
         o_site: '111127',
         map: 'piskarevsky_1996'
     },
@@ -1349,12 +1349,12 @@ let events2011 = [
         date: '2011-12-11',
         place: 'Парк Зверинец, Петродворец',
         name: 'Снежная Тропа, 2-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/111211/111211_res.htm',
         split: 'splits/2011/SPB_20111211_1_split.htm',
         video: 'https://www.youtube.com/watch?v=JO2JzdTPAaw',
         info: 'Парк Зверинец, Петродворец',
-        owner: 'SFSO_SPB',
         o_site: '111211'
     },
     {

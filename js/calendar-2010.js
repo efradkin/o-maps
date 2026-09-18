@@ -257,10 +257,10 @@ let events2010 = [
         date: '2010-03-14',
         place: 'Павловский парк',
         name: 'Снежная Тропа, 2-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100315/100314_res.pdf',
         split: 'splits/2010/SPB_20100314_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '100315',
         map: 'pavlovsk_2012'
     },
@@ -1272,12 +1272,12 @@ let events2010 = [
         date: '2010-11-21',
         place: 'Пискарёвский парк',
         name: 'Снежная Тропа, 1-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101121/101121_res1.htm',
         split: 'splits/2010/SPB_20101121_1_split.htm',
         info: '21 ноября 2010 г. - 1-й этап 12 декабря 2010 г. - 2-й этап',
         fmt: 'ориентирование по выбору',
-        owner: 'SFSO_SPB',
         o_site: '101121',
         map: 'piskarevsky_1996'
     },
@@ -1333,11 +1333,11 @@ let events2010 = [
         date: '2010-12-12',
         place: 'Парк Зверинец, Петродворец',
         name: 'Снежная Тропа, 2-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101212/101212_res.htm',
         split: 'splits/2010/SPB_20101212_1_split.htm',
         info: '21 ноября 2010 г. - 1-й этап 12 декабря 2010 г. - 2-й этап',
-        owner: 'SFSO_SPB',
         o_site: '101212'
     },
     {

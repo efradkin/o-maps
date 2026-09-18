@@ -25,9 +25,9 @@ let events2005 = [
         date: '2005-01-23',
         place: 'Шуваловский парк',
         name: 'Снежная Тропа, 3-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050123/tropa_3et_res.zip',
-        owner: 'SFSO_SPB',
         o_site: '050123'
     },
     {
@@ -67,9 +67,9 @@ let events2005 = [
         date: '2005-02-06',
         place: 'парк Зверинец, Гатчина',
         name: 'Снежная Тропа, 4-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050206_tr/tropa_4et_res.htm',
-        owner: 'SFSO_SPB',
         o_site: '050206_tr'
     },
     {
@@ -776,9 +776,9 @@ let events2005 = [
         date: '2005-11-13',
         place: 'Удельный парк',
         name: 'Снежная тропа, 1-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051113/051113_res.zip',
-        owner: 'SFSO_SPB',
         o_site: '051113',
         map: 'udelny_2004'
     },
@@ -787,9 +787,9 @@ let events2005 = [
         date: '2005-11-27',
         place: 'Петродворец',
         name: 'Снежная Тропа, 2-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051127/051127_res.zip',
-        owner: 'SFSO_SPB',
         o_site: '051127'
     },
     {
@@ -808,9 +808,9 @@ let events2005 = [
         date: '2005-12-11',
         place: 'Бернгардовка',
         name: 'Снежная Тропа, 3-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051211/051211_res.zip',
-        owner: 'SFSO_SPB',
         o_site: '051211'
     },
     {

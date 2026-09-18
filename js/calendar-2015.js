@@ -207,8 +207,8 @@ let events2015 = [
         id: 'SPB_20150301_3',
         date: '2015-03-01',
         name: 'Снежная Тропа. 3-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
-        owner: 'SFSO_SPB',
         o_site: '150301'
     },
     {
@@ -1642,10 +1642,10 @@ let events2015 = [
         date: '2015-11-22',
         place: 'Сосновая поляна',
         name: 'Кубок Санкт-Петербурга «СНЕЖНАЯ ТРОПА 2015/2016» 1 этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/151122_ST/151122_res.htm',
         split: 'splits/2015/SPB_20151122_1_split.htm',
-        owner: 'SFSO_SPB',
         o_site: '151122_ST'
     },
     {
@@ -1697,12 +1697,12 @@ let events2015 = [
         date: '2015-12-06',
         place: 'Петродворец',
         name: 'Кубок Санкт-Петербурга «СНЕЖНАЯ ТРОПА 2015/2016» 2 этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=546',
         res: 'https://o-site.spb.ru/_races/151206_ST/151206_res.htm',
         split: 'splits/2015/SPB_20151206_1_split.htm',
         video: ['http://www.northernwind.spb.ru/online/video/','https://www.youtube.com/watch?v=bdkxYzB_1qI','https://www.youtube.com/watch?v=jA06apPgSf8'],
-        owner: 'SFSO_SPB',
         o_site: '151206_ST'
     },
     {
@@ -1763,12 +1763,12 @@ let events2015 = [
         date: '2015-12-20',
         place: 'Пискаревский парк',
         name: 'Кубок СПб, Снежная Тропа 2015/2016 3 этап, Финал 2015 года',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/151220_ST/href= http://orgeo.ru/online/2327?s=3',
         split: 'splits/2015/SPB_20151220_1_split.htm',
         info: 'Вид программы: Ориентирование по выбору с обязательным первым КП.',
         video: 'http://www.northernwind.spb.ru/online/video/',
-        owner: 'SFSO_SPB',
         o_site: '151220_ST',
         map: 'piskarevsky_2012'
     },

@@ -105,11 +105,11 @@ let events2006 = [
         date: '2006-02-25',
         place: 'Пискарёвский парк',
         name: 'Снежная тропа, 4-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/060225_tr4/060225_res.zip',
         info: '4-й этап паркового тура',
         fmt: 'ориентирование по выбору',
-        owner: 'SFSO_SPB',
         o_site: '060225_tr4',
         map: 'piskarevsky_1996'
     },
@@ -149,9 +149,9 @@ let events2006 = [
         id: 'SPB_20060312_1',
         date: '2006-03-12',
         name: 'Снежная Тропа, 5-й этап. Финал',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/060312/060312_res.zip',
-        owner: 'SFSO_SPB',
         o_site: '060312'
     },
     {
@@ -808,10 +808,10 @@ let events2006 = [
         date: '2006-11-19',
         info: 'Многоэтапные соревнования по парковому ориентированию бегом на заснеженном грунте. 1 этап 19 ноября 2006 г. 2 этап 3 декабря 2006 г. 3 этап 17 декабря 2006 г. 4 этап 11 февраля 2007 г. 5 этап 18 марта 2007 г.',
         name: 'Снежная тропа, 1-й этап',
+        start: 'SNOW_WAY',
         place: 'Сосновка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/061119/061119_res.zip',
-        owner: 'SFSO_SPB',
         o_site: '061119',
         map: 'sosnovka_2004'
     },
@@ -820,10 +820,10 @@ let events2006 = [
         date: '2006-12-03',
         place: 'Шуваловский парк',
         name: 'Снежная тропа, 2-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/061203/061203_res.zip',
         info: 'Многоэтапные соревнования по парковому ориентированию бегом на заснеженном грунте.',
-        owner: 'SFSO_SPB',
         o_site: '061203'
     },
     {
@@ -840,10 +840,10 @@ let events2006 = [
         date: '2006-12-17',
         place: 'Песочное',
         name: 'Снежная тропа, 3-й этап',
+        start: 'SNOW_WAY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/061217/it_17_12_06.zip',
         info: 'Многоэтапные соревнования по парковому ориентированию бегом на заснеженном грунте.',
-        owner: 'SFSO_SPB',
         o_site: '061217'
     },
     {
