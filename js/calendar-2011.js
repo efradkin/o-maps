@@ -273,12 +273,12 @@ let events2011 = [
         date: '2011-04-09',
         place: 'Можайское',
         name: 'Тренировка от Стрекозаек',
+        start: 'STREKOZAIKI',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/110409_str/110409_res.xls',
         info: 'Открытый тренировочный старт, дистанции по памяти (А) и по выбору (В).',
         o_site: '110409_str',
-        map: 'nagorny_park_1997',
-        owner: 'STRKZK'
+        map: 'nagorny_park_1997'
     },
     {
         id: 'SPB_20110410_1',
@@ -573,13 +573,13 @@ let events2011 = [
         date: '2011-06-04',
         place: 'Гарболово',
         name: 'Рогейн от Стрекозаек',
+        start: 'STREKOZAIKI',
         type: 'ROGAINE',
         res: 'https://o-site.spb.ru/_races/110604_R/110604_res3.htm',
         split: 'splits/2011/SPB_20110604_1_split.htm',
         info: 'Рогейн - 3 часа, личные соревнования',
         o_site: '110604_R',
-        map: 'garbolovo_strekozy_2011',
-        owner: 'STRKZK'
+        map: 'garbolovo_strekozy_2011'
     },
     {
         id: 'SPB_20110605_1',

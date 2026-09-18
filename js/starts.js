@@ -129,6 +129,12 @@ let starts = {
         logo: 'nordwest.webp',
         owner: 'NW'
     },
+    STREKOZAIKI: {
+        short: 'Стрекозайки',
+        name: 'Тренировка от Стрекозаек',
+        logo: 'strekozaiki.webp',
+        owner: 'STREKOZAIKI'
+    },
     SNOW_WAY: {
         short: 'Снежная тропа',
         name: 'Снежная тропа',

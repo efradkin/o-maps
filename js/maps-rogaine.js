@@ -284,7 +284,7 @@ let rogaineMaps = [
         url: './maps/rogaine/garbolovo_strekozy_2011.webp',
         link: './original_maps/rogaine/garbolovo_strekozy_2011_omaps.jpg',
         bounds: [[60.4033411, 30.4367638], [60.3980842, 30.5216503], [60.3473793, 30.4195976]],
-        owner: 'STRKZK',
+        owner: 'STREKOZAIKI',
         type: ['ROGAINE']
     },
     {

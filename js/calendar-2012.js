@@ -270,11 +270,11 @@ let events2012 = [
         date: '2012-04-07',
         place: 'Невский лесопарк',
         name: 'Тренировка от Стрекозаек',
+        start: 'STREKOZAIKI',
         type: 'ORIENT',
         res: 'http://nat-crusta.livejournal.com/112321.html',
         photo: 'http://fotki.yandex.ru/users/skandysnail/album/129089/',
-        o_site: '120407_Str',
-        owner: 'STRKZK'
+        o_site: '120407_Str'
     },
     {
         id: 'SPB_20120408_1',

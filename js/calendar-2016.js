@@ -322,12 +322,12 @@ let events2016 = [
         date: '2016-04-02',
         place: 'Дюны',
         name: 'Тренировка от Стрекозаек',
+        start: 'STREKOZAIKI',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=580',
         res: 'https://o-site.spb.ru/_races/160402_Streko/160402_res.htm',
         split: 'splits/2016/SPB_20160402_1_split.htm',
-        o_site: '160402_Streko',
-        owner: 'STRKZK'
+        o_site: '160402_Streko'
     },
     {
         id: 'SPB_20160409_1',

@@ -330,11 +330,11 @@ let events2013 = [
         date: '2013-04-06',
         place: 'парк Александрино',
         name: 'Тренировка от Стрекозаек',
+        start: 'STREKOZAIKI',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/130406_Str/130406_res.htm',
         split: 'splits/2013/SPB_20130406_1_split.htm',
-        o_site: '130406_Str',
-        owner: 'STRKZK'
+        o_site: '130406_Str'
     },
     {
         id: 'SPB_20130407_1',

@@ -301,11 +301,11 @@ let events2014 = [
         date: '2014-04-05',
         place: 'Дюны',
         name: 'Тренировка от Стрекозаек',
+        start: 'STREKOZAIKI',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140405_Str/140405_res.htm',
         split: 'splits/2014/SPB_20140405_1_split.htm',
-        o_site: '140405_Str',
-        owner: 'STRKZK'
+        o_site: '140405_Str'
     },
     {
         id: 'SPB_20140409_1',

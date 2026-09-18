@@ -330,13 +330,13 @@ let events2010 = [
         date: '2010-04-10',
         place: 'Московский парк Победы',
         name: 'Тренировка от Стрекозаек',
+        start: 'STREKOZAIKI',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100410_st/100410_res.htm',
         split: 'splits/2010/SPB_20100410_2_split.htm',
         info: '10 апреля команда Стрекозайки проводит открытую тренировку в Московском парке Победы',
         o_site: '100410_st',
-        map: 'pobedy_2020',
-        owner: 'STRKZK'
+        map: 'pobedy_2020'
     },
     {
         id: 'SPB_20100411_1',

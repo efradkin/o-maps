@@ -319,12 +319,12 @@ let events2015 = [
         date: '2015-04-04',
         place: 'Невский лесопарк',
         name: 'Тренировка от Стрекозаек',
+        start: 'STREKOZAIKI',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/150404_Str/150404_res.htm',
         split: 'splits/2015/SPB_20150404_1_split.htm',
-        o_site: '150404_Str',
-        owner: 'STRKZK'
+        o_site: '150404_Str'
     },
     {
         id: 'SPB_20150405_1',
