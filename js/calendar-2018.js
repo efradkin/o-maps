@@ -554,6 +554,7 @@ let events2018 = [
         date: '2018-04-28',
         place: 'Воейково',
         name: 'Кубок Коротких рогейнов, 1-й этап',
+        start: 'KKR',
         type: 'ROGAINE',
         res: 'http://o-site.spb.ru/_races/2018_kkr/180428_split.htm',
         o_site: '2018_kkr'
@@ -682,6 +683,7 @@ let events2018 = [
         date: '2018-05-12',
         place: 'Симагино',
         name: 'Кубок Коротких рогейнов, 2-й этап',
+        start: 'KKR',
         type: 'ROGAINE',
         res: 'http://o-site.spb.ru/_races/2018_kkr/180512_kkr_split.htm',
         o_site: '2018_kkr'
@@ -1256,6 +1258,7 @@ let events2018 = [
         date: '2018-07-22',
         place: 'Лемболово',
         name: 'Кубок Коротких рогейнов, 3-й этап',
+        start: 'KKR',
         type: 'ROGAINE',
         res: 'http://o-site.spb.ru/_races/2018_kkr/180722_split.htm',
         o_site: '2018_kkr'
@@ -1897,6 +1900,7 @@ let events2018 = [
         id: 'SPB_20181014_1',
         date: '2018-10-14',
         name: 'Кубок Коротких рогейнов - 4 этап',
+        start: 'KKR',
         place: 'Зеленогорск, Чёрные оз',
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=928',
@@ -2167,6 +2171,7 @@ let events2018 = [
         date: '2018-11-18',
         place: 'Первомайское',
         name: 'Кубок Коротких Рогейнов',
+        start: 'KKR',
         type: 'ROGAINE',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=962',
         res: 'https://o-site.spb.ru/_races/181118_rog/181118_res.htm',

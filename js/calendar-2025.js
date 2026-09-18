@@ -614,6 +614,7 @@ let events2025 = [
         date: '2025-04-26',
         place: 'Луга, оз. Омчино',
         name: 'Кубок Коротких Рогейнов №1 (КЛО)',
+        start: 'KKR',
         fmt: '4',
         type: 'ROGAINE',
         link: 'https://vk.com/event166397868',
@@ -1740,6 +1741,7 @@ let events2025 = [
         date: '2025-08-09',
         place: 'Луга, Шалово',
         name: 'Кубок Коротких Рогейнов №3',
+        start: 'KKR',
         fmt: '4',
         type: 'ROGAINE',
         link: [
@@ -2368,6 +2370,7 @@ let events2025 = [
         date: '2025-09-27',
         place: 'Луга, оз. Толони',
         name: 'Кубок Коротких Рогейнов №4',
+        start: 'KKR',
         fmt: '4',
         type: 'ROGAINE',
         link: [

@@ -2652,6 +2652,7 @@ let events2026 = [
         date: '2026-09-26',
         place: 'Зеленогорск, Ламмин-Суо',
         name: 'Кубок коротких рогейнов №3',
+        start: 'KKR',
         reg: 'https://orgeo.ru/event/48941',
         type: 'ROGAINE',
         fmt: '4',
