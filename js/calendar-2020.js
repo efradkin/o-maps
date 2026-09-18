@@ -1173,9 +1173,9 @@ let events2020 = [
         date: '2020-09-18',
         place: 'Муринский парк',
         name: 'White Nights Sprint #1',
+        start: 'WHITE_NIGHTS',
         type: 'ORIENT',
-        reskeep: 374,
-        owner: 'WN'
+        reskeep: 374
     },
     {
         id: 'SPB_20200919_1',
@@ -1194,10 +1194,10 @@ let events2020 = [
         date: '2020-09-19',
         place: 'Васкелово',
         name: 'White Nights Middle',
+        start: 'WHITE_NIGHTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020WN/200919_split.htm',
         reskeep: 368,
-        owner: 'WN',
         strava: 4083562005
     },
     {
@@ -1692,9 +1692,9 @@ let events2020 = [
         date: '2020-11-14',
         place: 'м Горьковская',
         name: 'White Nights Sprint #2',
+        start: 'WHITE_NIGHTS',
         type: 'ORIENT',
-        reskeep: 398,
-        owner: 'WN'
+        reskeep: 398
     },
     {
         id: 'SPB_20201115_1',
@@ -1775,10 +1775,10 @@ let events2020 = [
         date: '2020-11-28',
         place: 'Орлиная гора, Кавголово',
         name: 'White Nights middle. 2 этап',
+        start: 'WHITE_NIGHTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020WN/201128_split.htm',
         reskeep: 405,
-        owner: 'WN',
         strava: 4401434704,
         map: 'kavgolovo_old_ski_track_2023'
     },
@@ -1838,13 +1838,13 @@ let events2020 = [
         id: 'SPB_20201212_1',
         date: '2020-12-12',
         name: 'White Nights middle 3 этап',
+        start: 'WHITE_NIGHTS',
         place: 'Кавголово',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1207',
         res: 'https://o-site.spb.ru/_races/2020WN/201212_res.htm',
         o_site: '2020WN',
-        reskeep: 409,
-        owner: 'WN'
+        reskeep: 409
     },
     {
         id: 'SPB_20201212_2',

@@ -426,6 +426,7 @@ let events2023 = [
         date: '2023-04-08',
         place: 'Техноложка',
         name: 'Олимпийский спринт',
+        start: 'WHITE_NIGHTS',
         type: 'ORIENT',
         fmt: 'спринт',
         strava: 8851858533,

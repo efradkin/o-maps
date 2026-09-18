@@ -489,9 +489,9 @@ let events2022 = [
         date: '2022-05-06',
         place: 'Покровский о-в',
         name: 'White Nights Sprint #1 (Дом-утюг спринт)',
+        start: 'WHITE_NIGHTS',
         strava: 7098024858,
         type: 'ORIENT',
-        owner: 'WN',
         reskeep: 522,
         split: 'splits/2022/SPB_20220506_1_split.htm'
     },
@@ -1354,10 +1354,10 @@ let events2022 = [
         date: '2022-07-02',
         place: 'Ильичёво',
         name: 'White Nights Middle #5',
+        start: 'WHITE_NIGHTS',
         strava: 7402274954,
         type: 'ORIENT',
         map: 'ilychevo_2016',
-        owner: 'WN',
         reskeep: 539,
     },
     {
@@ -2175,9 +2175,9 @@ let events2022 = [
         date: '2022-10-30',
         place: 'Сосново, Уловное оз',
         name: 'White Nights Middle #6',
+        start: 'WHITE_NIGHTS',
         type: 'ORIENT',
         map: 'sosnovo_ulovnoe_oz_2023',
-        owner: 'WN',
         strava: 8041902569,
         reskeep: 562
     },
@@ -2451,12 +2451,12 @@ let events2022 = [
         date: '2022-12-18',
         place: 'Кавголово',
         name: 'White Nights Middle #7',
+        start: 'WHITE_NIGHTS',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1489',
         res: 'https://o-site.spb.ru/_races/220702/221218_split.htm',
         o_site: '220702',
-        reskeep: 581,
-        owner: 'WN'
+        reskeep: 581
     },
     {
         id: 'SPB_20221225_1',

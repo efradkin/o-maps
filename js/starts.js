@@ -25,8 +25,14 @@ let starts = {
     },
     WEEKLY_ORIENT: {
         short: 'Weekly Orient',
-        name: 'Weekly Orient',
+        name: 'Weekly Orient (Белые Ночи)',
         logo: 'ollila.webp',
+        owner: 'WN'
+    },
+    WHITE_NIGHTS: {
+        short: 'White Nights',
+        name: 'White Nights (Белые Ночи)',
+        logo: 'wn.gif',
         owner: 'WN'
     },
     KKP: {

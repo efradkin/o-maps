@@ -1065,9 +1065,9 @@ let events2021 = [
         date: '2021-06-05',
         place: 'м Василеостровская',
         name: 'White Nights Sprint #4',
+        start: 'WHITE_NIGHTS',
         type: 'ORIENT',
         map: 'vasiljevsky_2024',
-        owner: 'WN',
         reskeep: 461,
     },
     {
@@ -1579,9 +1579,9 @@ let events2021 = [
         id: 'SPB_20210904_2',
         date: '2021-09-04',
         name: 'White Nights Sprint #5',
+        start: 'WHITE_NIGHTS',
         place: 'Литейный проспект',
         type: 'ORIENT',
-        owner: 'WN',
         reskeep: 462,
         me: 'М',
         strava: 5902153209
@@ -1749,8 +1749,8 @@ let events2021 = [
         date: '2021-09-25',
         place: 'Петроградка',
         name: 'White Nights Sprint #6 (ЦОЙ-спринт)',
+        start: 'WHITE_NIGHTS',
         type: 'ORIENT',
-        owner: 'WN',
         reskeep: 369,
         strava: 6014843441
     },
@@ -2059,6 +2059,7 @@ let events2021 = [
         id: 'SPB_20211030_3',
         date: '2021-10-30',
         name: 'White Nights Middle #4',
+        start: 'WHITE_NIGHTS',
         place: 'Матокса',
         type: 'ORIENT',
         reskeep: 344,
@@ -2067,7 +2068,6 @@ let events2021 = [
             'https://rutube.ru/video/993111f4f4d11d1e3e2cad57d1a224f0/'
         ],
         map: 'garbolovo_sirkkajarvi',
-        owner: 'WN',
         strava: 6186875863
     },
     {
