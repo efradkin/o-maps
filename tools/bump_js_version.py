@@ -41,9 +41,15 @@ ENCODINGS = ["utf-8-sig", "utf-8", "cp1251"]
 
 # --- разбор тегов -----------------------------------------------------------
 
-# <script ... src="[../]*js/<не ext>/...js[?query]" ...>
+# Два вида подключений:
+#   1) обычный тег      <script ... src="[../]*js/<не ext>/...js[?query]" ...>
+#   2) путь в строке JS  { file: 'js/calendar-2004.js?v=20', ... }
+# Страница starts-stat.html грузит календари сама, списком CALENDAR_SOURCES,
+# поэтому теги <script> для них не пишутся, а версию бампать всё равно надо.
+# Отсюда необязательный head: при его отсутствии совпадает просто строковый
+# литерал в кавычках. Подпапка js/ext по-прежнему исключена.
 SCRIPT_SRC_RE = re.compile(
-    r'(?P<head><script\b[^>]*?\bsrc\s*=\s*)'
+    r'(?P<head><script\b[^>]*?\bsrc\s*=\s*)?'
     r'(?P<q>["\'])'
     r'(?P<path>(?:\.\./)*js/(?!ext/)[^"\'>?\s]+?\.js)'
     r'(?P<query>\?[^"\'>\s]*)?'
@@ -102,13 +108,14 @@ def process_text(text, default_v, forced, changes, rel_name):
         new_query, old_v, new_v, warning = bump_query(query, default_v, forced)
         changes.append({
             'file': rel_name,
-            'path': path,
+            'path': path + ('' if m.group('head') else '   (строка в JS)'),
             'old': old_v,
             'new': new_v,
             'warning': warning,
         })
         q = m.group('q')
-        return '%s%s%s%s%s' % (m.group('head'), q, path, new_query, q)
+        head = m.group('head') or ''
+        return '%s%s%s%s%s' % (head, q, path, new_query, q)
 
     return SCRIPT_SRC_RE.sub(repl, text)
 
