@@ -535,6 +535,7 @@ let events2017 = [
         date: '2017-04-22',
         endDate: '2017-04-23',
         name: 'Сосновоборские дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         place: 'Сосновый Бор',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170423/170422_res.htm',
@@ -544,7 +545,6 @@ let events2017 = [
         ],
         info: '22 апреля - Спринт с 15.00 23 апреля - Классика с 12.00',
         publish: 'https://o-site.spb.ru/race.php?id=170423',
-        owner: 'YUVENTA',
         o_site: '170423'
     },
     {

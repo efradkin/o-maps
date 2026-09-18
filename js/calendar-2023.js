@@ -508,6 +508,7 @@ let events2023 = [
         endDate: '2023-04-23',
         place: 'Шепелево, Липово',
         name: 'Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/28273/1',
         split: [
@@ -523,7 +524,6 @@ let events2023 = [
             'https://www.youtube.com/watch?v=k8N9mMxJeJE'
         ],
         strava: 8942247123,
-        owner: 'YUVENTA',
         o_site: '230423'
     },
     {

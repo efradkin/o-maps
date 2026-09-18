@@ -401,6 +401,7 @@ let events2015 = [
         date: '2015-04-26',
         place: 'Сосновый бор',
         name: 'Сосновоборские дюны - 2015',
+        start: 'SOSNOVOBORSKY_DUNY',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=468',
         res: 'https://o-site.spb.ru/_races/15042526_sb/15042526_res.zip',
@@ -410,7 +411,6 @@ let events2015 = [
         ],
         photo: 'https://o-site.spb.ru/_races/15042526_sb/ https://yadi.sk/d/X2q92aRUgGVm9',
         info: 'ТРАДИЦИОННЫЕ СОРЕВНОВАНИЯ «СОСНОВОБОРСКИЕ ДЮНЫ - 2015» Многоэтапный кубок ЛО-СПб по спортивному ориентированию бегом,1 этап.',
-        owner: 'YUVENTA',
         o_site: '15042526_sb'
     },
     {

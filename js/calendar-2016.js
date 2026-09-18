@@ -399,6 +399,7 @@ let events2016 = [
         date: '2016-04-16',
         endDate: '2016-04-17',
         name: 'Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         place: 'форт Красная горка',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/16041617/160416_res.htm',
@@ -406,7 +407,6 @@ let events2016 = [
             'splits/2016/SPB_20160416_3_1_split.htm',
             'splits/2016/SPB_20160416_3_2_split.htm'
         ],
-        owner: 'YUVENTA',
         o_site: '16041617'
     },
     {

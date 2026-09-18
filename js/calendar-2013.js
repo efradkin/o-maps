@@ -543,6 +543,7 @@ let events2013 = [
         endDate: '2013-05-05',
         place: 'Сосновый Бор',
         name: 'Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/13042021/130504_res.htm',
@@ -550,7 +551,6 @@ let events2013 = [
             'splits/2013/SPB_20130504_2_1_split.htm',
             'splits/2013/SPB_20130504_2_2_split.htm'
         ],
-        owner: 'YUVENTA',
         o_site: '13042021'
     },
     {

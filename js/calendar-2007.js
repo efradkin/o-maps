@@ -236,10 +236,10 @@ let events2007 = [
         date: '2007-04-07',
         place: 'Сосновый Бор',
         name: 'Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070407/070407_res.zip',
         info: 'Открытый Кубок области, посвященный 80-летию Ленинградской области',
-        owner: 'YUVENTA',
         o_site: '070407',
         endDate: '2007-04-08'
     },

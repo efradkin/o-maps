@@ -448,6 +448,7 @@ let events2024 = [
         date: '2024-04-20',
         endDate: '2024-04-21',
         name: 'Сосновоборские Дюны 2024, ЧиП ЛО',
+        start: 'SOSNOVOBORSKY_DUNY',
         place: 'Сосновый Бор',
         type: 'ORIENT',
         video: 'https://www.youtube.com/watch?v=8B6T5KH5q8Y',
@@ -457,7 +458,6 @@ let events2024 = [
             'splits/2024/SPB_20240420_2_2_split.htm',
             'splits/2024/SPB_20240420_2_3_split.htm'
         ],
-        owner: 'YUVENTA',
         o_site: 'sos_dunu_2024'
     },
     {

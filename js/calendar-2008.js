@@ -178,6 +178,7 @@ let events2008 = [
         endDate: '2008-04-13',
         place: 'Сосновый Бор',
         name: 'Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/04081213/080412_res.htm',
         split: [
@@ -185,7 +186,6 @@ let events2008 = [
             'splits/2008/SPB_20080412_1_2_split.htm'
         ],
         info: 'Традиционные соревнования, открывающие летний сезон',
-        owner: 'YUVENTA',
         o_site: '04081213'
     },
     {

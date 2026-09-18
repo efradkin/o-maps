@@ -527,6 +527,7 @@ let events2021 = [
         endDate: '2021-04-25',
         place: 'Сосновый Бор',
         name: 'Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1233',
         res: 'http://orgeo.ru/live/#/16639',
@@ -535,7 +536,6 @@ let events2021 = [
             'splits/2021/SPB_20210424_1_2_split.htm'
         ],
         video: 'https://www.youtube.com/watch?v=b6cYYfMjdEg',
-        owner: 'YUVENTA',
         o_site: '210424-25',
         reskeep: [448, 449],
         strava: [5184271179,5189322903]

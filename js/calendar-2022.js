@@ -347,6 +347,7 @@ let events2022 = [
         endDate: '2022-04-24',
         place: 'Сосновый Бор',
         name: 'Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         type: 'ORIENT',
         video: 'https://www.youtube.com/watch?v=DThWAJtzzYA',
         res: 'https://o-site.spb.ru/_races/220424/220423_res.htm',
@@ -354,7 +355,6 @@ let events2022 = [
             'splits/2022/SPB_20220423_1_1_split.htm',
             'splits/2022/SPB_20220423_1_2_split.htm'
         ],
-        owner: 'YUVENTA',
         o_site: '220424',
         strava: [7028043340,7032642029],
         reskeep: [513, 514]

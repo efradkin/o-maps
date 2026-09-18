@@ -162,9 +162,9 @@ let events2005 = [
         endDate: '2005-04-10',
         place: 'Сосновый Бор',
         name: 'Сосновоборские дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050410/sosnbor_res.zip',
-        owner: 'YUVENTA',
         o_site: '050410'
     },
     {

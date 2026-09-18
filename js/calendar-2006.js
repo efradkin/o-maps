@@ -172,10 +172,10 @@ let events2006 = [
         endDate: '2006-04-09',
         place: 'Сосновый Бор',
         name: 'Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/06040809/06040809_res.ZIP',
         info: '8 апреля, суббота – укороченная дистанция. 9 апреля, воскресенье –One man relay с раздельного старта. Группы МЖ10,12, Fitness - классическая дистанция.',
-        owner: 'YUVENTA',
         o_site: '06040809'
     },
     {

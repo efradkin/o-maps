@@ -503,6 +503,7 @@ let events2018 = [
         date: '2018-04-21',
         endDate: '2018-04-22',
         name: 'Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         place: 'Сосновый Бор',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=859',
@@ -512,7 +513,6 @@ let events2018 = [
             'splits/2018/SPB_20180421_1_2_split.htm'
         ],
         video: ['https://www.youtube.com/watch?v=9B7c5O_CGBY','https://www.youtube.com/watch?v=oi8F_92svGk'],
-        owner: 'YUVENTA',
         o_site: '180421-22_'
     },
     {

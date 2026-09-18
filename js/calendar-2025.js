@@ -546,6 +546,7 @@ let events2025 = [
         endDate: '2025-04-20',
         place: 'Сосновый Бор',
         name: 'Сосновоборские дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         type: 'ORIENT',
         o_site: '250420_SD',
         split: [
@@ -558,7 +559,6 @@ let events2025 = [
         },
         reskeep: [686, 683],
         photo: 'https://vk.com/album-201330282_306915469',
-        owner: 'YUVENTA',
         map: 'sosnovij_bor_bereg_2020',
         strava: [14221951114, 14231538856],
         me: 'М50'

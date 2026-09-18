@@ -408,6 +408,7 @@ let events2014 = [
         date: '2014-04-26',
         endDate: '2014-04-27',
         name: 'Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         place: 'Сосновый Бор',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/14042627/20140426_res.pdf',
@@ -415,7 +416,6 @@ let events2014 = [
             'splits/2014/SPB_20140426_1_1_split.htm',
             'splits/2014/SPB_20140426_1_2_split.htm'
         ],
-        owner: 'YUVENTA',
         o_site: '14042627'
     },
     {

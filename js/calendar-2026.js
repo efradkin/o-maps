@@ -849,6 +849,7 @@ let events2026 = [
         date: '2026-04-11',
         endDate: '2026-04-12',
         name: 'Сосновоборские дюны, ЧиП ЛО',
+        start: 'SOSNOVOBORSKY_DUNY',
         place: 'Сосновый бор',
         o_site: '260412_SD',
         split: [
@@ -866,7 +867,6 @@ let events2026 = [
         },
         type: 'ORIENT',
         fmt: 'классика, спринт',
-        owner: 'YUVENTA',
         map: [
             'sosnovij_bor_lipovo_2020',
             'sosnovy_bor_2021_05_30'

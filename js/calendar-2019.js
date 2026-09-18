@@ -391,6 +391,7 @@ let events2019 = [
         date: '2019-04-20',
         endDate: '2019-04-21',
         name: 'Сосновоборские Дюны',
+        start: 'SOSNOVOBORSKY_DUNY',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/19042021/190420_RES.htm',
         split: [
@@ -398,7 +399,6 @@ let events2019 = [
             'splits/2019/SPB_20190420_1_2_split.htm'
         ],
         info: 'Соревнования проводятся 20-21 апреля 2019 года в г. Сосновый Бор.',
-        owner: 'YUVENTA',
         o_site: '19042021',
         reskeep: [113, 114]
     },
