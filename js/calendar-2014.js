@@ -199,13 +199,13 @@ let events2014 = [
         date: '2014-03-08',
         place: 'Ильичёво',
         name: 'Кубок Белых Ночей, 4-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/131116/140308-4_res.htm',
         split: 'splits/2014/SPB_20140308_1_split.htm',
         info: 'Результаты предыдущих этапов: 1-й этап 2-й этап 3-й этап 4-й этап',
         map: 'ilychevo_2016',
-        owner: 'WN',
         o_site: '131116'
     },
     {
@@ -281,7 +281,7 @@ let events2014 = [
         id: 'SPB_20140401_2',
         date: '2014-04-01',
         name: 'Кузьмоловские старты - 15 этап',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/140410/141023_res.htm',
         o_site: '140410',
@@ -320,9 +320,9 @@ let events2014 = [
         date: '2014-04-10',
         place: 'Карабсельки',
         name: 'Кузьмоловские старты, 1-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/140410_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -350,9 +350,9 @@ let events2014 = [
         date: '2014-04-15',
         place: 'Кавголово',
         name: 'Кузьмоловские старты, 2-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/140415_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -397,9 +397,9 @@ let events2014 = [
         date: '2014-04-24',
         place: 'ВИФК',
         name: 'Кузьмоловские старты, 3-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/140424_split.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -536,9 +536,9 @@ let events2014 = [
         date: '2014-05-15',
         place: 'Юкки',
         name: 'Кузьмоловские старты, 4-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/140515_split.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -619,9 +619,9 @@ let events2014 = [
         date: '2014-05-22',
         place: 'Охта-парк',
         name: 'Кузьмоловские старты, 5-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/140522_split.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -686,9 +686,9 @@ let events2014 = [
         date: '2014-05-29',
         place: 'Куялово',
         name: 'Кузьмоловские старты, 6-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/140529_split.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -733,9 +733,9 @@ let events2014 = [
         date: '2014-06-05',
         place: 'Токсово',
         name: 'Кузьмоловские старты, 7-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/140605_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -1116,9 +1116,9 @@ let events2014 = [
         date: '2014-09-04',
         place: 'Токсово',
         name: 'Кузьмоловские старты, 8-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/140904_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -1173,9 +1173,9 @@ let events2014 = [
         date: '2014-09-11',
         place: 'Токсово',
         name: 'Кузьмоловские старты, 9-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/140911_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -1205,9 +1205,9 @@ let events2014 = [
         date: '2014-09-18',
         place: 'Кузьмолово',
         name: 'Кузьмоловские старты, 10-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/140918_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -1261,6 +1261,7 @@ let events2014 = [
         date: '2014-09-25',
         place: 'Кузьмолово',
         name: 'Кузьмоловские старты, 11-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/140925_res.htm',
         owner: 'KUZMOLOVO',
@@ -1315,9 +1316,9 @@ let events2014 = [
         date: '2014-10-02',
         place: 'Осельки',
         name: 'Кузьмоловские старты, 12-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/141002_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -1384,9 +1385,9 @@ let events2014 = [
         date: '2014-10-09',
         place: 'Токсово',
         name: 'Кузьмоловские старты, 13-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/141009_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -1437,9 +1438,9 @@ let events2014 = [
         date: '2014-10-16',
         place: 'Токсово',
         name: 'Кузьмоловские старты, 14-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140410/141016_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '140410'
     },
     {
@@ -1518,9 +1519,9 @@ let events2014 = [
         date: '2014-11-01',
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей 2014/15, 1-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/WNC2015/141101_res.htm',
-        owner: 'WN',
         o_site: 'WNC2015'
     },
     {
@@ -1587,9 +1588,9 @@ let events2014 = [
         date: '2014-11-22',
         place: 'Ильичёво',
         name: 'Кубок Белых Ночей 2014/15, 2-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/WNC2015/141122_res.htm',
-        owner: 'WN',
         o_site: 'WNC2015'
     },
     {
@@ -1633,9 +1634,9 @@ let events2014 = [
         date: '2014-11-29',
         place: 'Голубая Дача (юг)',
         name: 'Кубок Белых Ночей 2014/15, 3-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/WNC2015/141129_res.htm',
-        owner: 'WN',
         o_site: 'WNC2015'
     },
     {
@@ -1656,9 +1657,9 @@ let events2014 = [
         date: '2014-12-06',
         place: 'Лехтуси',
         name: 'Кубок Белых Ночей 2014/15, 4-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/WNC2015/141206_res.htm',
-        owner: 'WN',
         o_site: 'WNC2015'
     },
     {

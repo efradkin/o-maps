@@ -78,6 +78,7 @@ let events2007 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070204/070204_res.zip',
         info: 'Зимнее первенство Комитета по образованию Санкт-Петербурга 2 день и Первенство «ОК Гольфстрим» (1 этап кубка ОК Гольфстрим»)',
+        owner: 'GOLFSTREAM',
         o_site: '070204'
     },
     {
@@ -109,6 +110,7 @@ let events2007 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070218/070218_result.zip',
         info: '2 этап кубка ОК Гольфстрим',
+        owner: 'GOLFSTREAM',
         o_site: '070218'
     },
     {
@@ -119,6 +121,7 @@ let events2007 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070223/070223_results.zip',
         info: '3 этап кубка ОК Гольфстрим',
+        owner: 'GOLFSTREAM',
         o_site: '070223'
     },
     {
@@ -164,6 +167,7 @@ let events2007 = [
         name: 'Кубок ОК Гольфстрим, 4-й этап',
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/070304_GS/070304_res.zip',
+        owner: 'GOLFSTREAM',
         o_site: '070304_GS'
     },
     {
@@ -201,6 +205,7 @@ let events2007 = [
         name: 'Кубок ОК Гольфстрим, 5-й этап',
         type: 'SKI',
         res: 'http://sportsystem.ru/files/Golfstrim_11_03.rar',
+        owner: 'GOLFSTREAM',
         o_site: '070311'
     },
     {
@@ -246,6 +251,7 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070415/070415_res.zip',
         info: 'Летний многоэтапный кубок ОК «Гольфстрим» по ориентированию бегом',
+        owner: 'GOLFSTREAM',
         o_site: '070415'
     },
     {
@@ -900,6 +906,7 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/070930/070930_res.htm',
         split: 'splits/2007/SPB_20070930_1_split.txt',
+        owner: 'GOLFSTREAM',
         o_site: '070930',
         map: 'orekhovo_rakitinskoe_2004'
     },
@@ -958,6 +965,7 @@ let events2007 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/071021_golfcup/071021_splits.zip',
         split: 'splits/2007/SPB_20071021_2_split.zip',
+        owner: 'GOLFSTREAM',
         o_site: '071021_golfcup',
         map: 'toksovo_malinovaya_gora_1997'
     },

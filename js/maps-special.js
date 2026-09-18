@@ -129,7 +129,7 @@ let specialMaps = [
         link: './original_maps/winter/kuzmolovo_2003_omaps.jpg',
         bounds: [[60.1230609, 30.5052567], [60.1194264, 30.5520773], [60.1067456, 30.500021]],
         author: 'SHRNN',
-        owner: 'GLFSTRM',
+        owner: 'GOLFSTREAM',
         type: ['WINTER']
     },
     {

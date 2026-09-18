@@ -1212,8 +1212,8 @@ let events2013 = [
         id: 'SPB_20130905_1',
         date: '2013-09-05',
         name: 'Кузьмоловские старты',
+        start: 'KUZMOLOVSKY_STARTS',
         place: 'Токсово',
-        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130905/130905_res.htm',
         o_site: '130905'
@@ -1273,9 +1273,9 @@ let events2013 = [
         id: 'SPB_20130912_1',
         date: '2013-09-12',
         name: 'Кузьмоловские старты, 2-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130905/130912_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '130905'
     },
     {
@@ -1317,9 +1317,9 @@ let events2013 = [
         id: 'SPB_20130919_1',
         date: '2013-09-19',
         name: 'Кузьмоловские старты, 3-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130905/130919_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '130905'
     },
     {
@@ -1375,9 +1375,9 @@ let events2013 = [
         id: 'SPB_20130926_1',
         date: '2013-09-26',
         name: 'Кузьмоловские старты, 4-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130905/130926_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '130905'
     },
     {
@@ -1447,9 +1447,9 @@ let events2013 = [
         id: 'SPB_20131003_1',
         date: '2013-10-03',
         name: 'Кузьмоловские старты, 5-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130905/131003_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '130905'
     },
     {
@@ -1481,9 +1481,9 @@ let events2013 = [
         id: 'SPB_20131010_1',
         date: '2013-10-10',
         name: 'Кузьмоловские старты, 6-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/130905/131010_res.htm',
-        owner: 'KUZMOLOVO',
         o_site: '130905'
     },
     {

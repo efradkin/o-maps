@@ -524,7 +524,7 @@ let parkMaps = [
         link: './original_maps/parks/elagin_2017_omaps.gif',
         bounds: [[59.9851855, 30.2369928], [59.9827167, 30.2753162], [59.9761681, 30.2349758]],
         author: ['DBRTSV_V','URVNTSV'],
-        owner: 'GLFSTRM',
+        owner: 'GOLFSTREAM',
         type: ['PARK']
     },
     {
@@ -934,7 +934,7 @@ let parkMaps = [
         link: './original_maps/parks/krestovsky_2021_omaps.webp',
         bounds: [[59.9762539, 30.2316284], [59.9746864, 30.2493525], [59.9698543, 30.229311]],
         author: ['DBRTSV_V','FDRV_I'],
-        owner: 'GLFSTRM',
+        owner: 'GOLFSTREAM',
         in_work: true,
         order: {
             ready: 'Октябрь-ноябрь 2026',

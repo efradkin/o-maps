@@ -555,7 +555,7 @@ let forestMaps = [
         bounds: [[60.2352096, 29.1106796], [60.2278799, 29.1831207], [60.1873665, 29.0916252]],
         restricted: 'с 19.03.2026 по 28.09.2026, ЧиП СПб',
         author: ['TKMKV_K','TKMKVA_P','KVZN','NSNV','NKFRV_A'],
-        owner: ['GLTV_YU', 'GLFSTRM']
+        owner: ['GLTV_YU', 'GOLFSTREAM']
     },
     {
         name: 'Яппиля - Тарасовское',
@@ -563,7 +563,7 @@ let forestMaps = [
         url: './maps/forest/yappilya_tarasovskoe_2024.webp',
         bounds: [[60.2828128, 29.109478], [60.2723443, 29.2311859], [60.2258341, 29.087677]],
         author: ['VRBY','MLNKV_L','KVZN','TKMKV_K'],
-        owner: ['GLTV_YU', 'GLFSTRM']
+        owner: ['GLTV_YU', 'GOLFSTREAM']
     },
     {
         name: 'Зеркальный',

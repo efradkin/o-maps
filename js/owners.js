@@ -69,7 +69,7 @@ let owners = {
     GOLDMRSHRT: {
         name: '© Золотой Маршрут - <a href="https://mosplay.ru/">сайт</a> и <a href="https://vk.com/rogaining">ВК</a>'
     },
-    GLFSTRM: {
+    GOLFSTREAM: {
         name: '© КСО "Гольфстрим"',
         logo: 'golfstream.webp'
     },

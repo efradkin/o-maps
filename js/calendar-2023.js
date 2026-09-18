@@ -529,9 +529,9 @@ let events2023 = [
         date: '2023-04-22',
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей 2022/23, 10-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/230422_split.htm',
-        owner: 'WN',
         o_site: 'cbn_2023'
     },
     {
@@ -562,10 +562,10 @@ let events2023 = [
         date: '2023-04-29',
         place: 'Кавголово',
         name: 'Кубок Белых Ночей #11',
+        start: 'KBN',
         strava: 8977074012,
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/230429_split.htm',
-        owner: 'WN',
         reskeep: 574,
         map: 'kavgolovo_old_ski_track_2023'
     },
@@ -588,9 +588,9 @@ let events2023 = [
         date: '2023-04-30',
         place: 'Сосново',
         name: 'Кубок Белых Ночей 2022/23, 12-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/230430_split.htm',
-        owner: 'WN',
         o_site: 'cbn_2023'
     },
     {
@@ -621,9 +621,9 @@ let events2023 = [
         date: '2023-05-01',
         place: 'Первомайское',
         name: 'Кубок Белых Ночей 2022/23, 13-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/230501_split.htm',
-        owner: 'WN',
         o_site: 'cbn_2023'
     },
     {
@@ -642,9 +642,9 @@ let events2023 = [
         date: '2023-05-06',
         place: 'Былинное озеро',
         name: 'Кубок Белых Ночей 2022/23, 14-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/230506_split.htm',
-        owner: 'WN',
         o_site: 'cbn_2023'
     },
     {
@@ -661,9 +661,9 @@ let events2023 = [
         date: '2023-05-07',
         place: 'Садоводство топограф',
         name: 'Кубок Белых Ночей 2022/23, 15-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/230507_split.htm',
-        owner: 'WN',
         o_site: 'cbn_2023'
     },
     {
@@ -682,9 +682,9 @@ let events2023 = [
         date: '2023-05-08',
         place: 'Мичуринское(склон)',
         name: 'Кубок Белых Ночей 2022/23, 16-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/230508_split.htm',
-        owner: 'WN',
         o_site: 'cbn_2023'
     },
     {
@@ -748,9 +748,9 @@ let events2023 = [
         date: '2023-05-13',
         place: 'Пухтолова гора',
         name: 'Кубок Белых Ночей #17',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/230513_split.htm',
-        owner: 'WN',
         strava: 9062244567,
         map: 'pukhtolova_gora_2023'
     },
@@ -773,9 +773,9 @@ let events2023 = [
         date: '2023-05-14',
         place: 'Симагино',
         name: 'Кубок Белых Ночей 2022/23, 18-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/230514_split.htm',
-        owner: 'WN',
         o_site: 'cbn_2023'
     },
     {
@@ -1386,6 +1386,7 @@ let events2023 = [
         date: '2023-07-29',
         place: 'Мичуринское',
         name: 'Кубок Белых Ночей',
+        start: 'KBN',
         type: 'ORIENT',
         video: 'https://www.youtube.com/watch?v=k2jkgl6TBPk'
     },
@@ -1404,9 +1405,9 @@ let events2023 = [
         date: '2023-07-22',
         place: 'Воробьево озеро',
         name: 'Кубок Белых Ночей 2022/23, 19-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/230722_res.htm',
-        owner: 'WN',
         o_site: 'cbn_2023'
     },
     {
@@ -1414,9 +1415,9 @@ let events2023 = [
         date: '2023-07-23',
         place: 'Воробьево озеро',
         name: 'Кубок Белых Ночей 2022/23, 20-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/230723_res.htm',
-        owner: 'WN',
         o_site: 'cbn_2023'
     },
     {
@@ -1425,11 +1426,11 @@ let events2023 = [
         endDate: '2023-08-06',
         place: 'Смоляное озеро',
         name: 'Кубок Белых Ночей 23 и 24 этапы',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1550',
         res: ['https://o-site.spb.ru/_races/cbn_2023/230805_split.htm','https://o-site.spb.ru/_races/cbn_2023/230806_split.htm'],
         map: ['smoljanoe_2015','bylinnoe_2023','pervomayskoe_2021'],
-        owner: 'WN',
         o_site: 'cbn_2023',
         reskeep: [604, 605]
     },
@@ -1616,8 +1617,8 @@ let events2023 = [
         date: '2023-09-03',
         place: 'Симагино',
         name: 'Кубок Белых Ночей #1',
+        start: 'KBN',
         type: 'ORIENT',
-        owner: 'WN',
         strava: 9774518451,
         reskeep: 591,
     },
@@ -2319,8 +2320,8 @@ let events2023 = [
         date: '2023-11-18',
         place: 'Озерки',
         name: 'Кубок Белых Ночей 2023/24, 3-й этап',
+        start: 'KBN',
         type: 'ORIENT',
-        owner: 'WN',
         o_site: 'kbn_2024'
     },
     {
@@ -2368,9 +2369,9 @@ let events2023 = [
         date: '2023-11-25',
         place: 'Болотная станция',
         name: 'Кубок Белых Ночей 2023/24, 4-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/kbn_2024/231125_res.htm',
-        owner: 'WN',
         o_site: 'kbn_2024'
     },
     {
@@ -2417,12 +2418,12 @@ let events2023 = [
         id: 'SPB_20231203_1',
         date: '2023-12-03',
         name: 'Кубок Белых Ночей 5 этап',
+        start: 'KBN',
         place: 'Орово',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/31919',
         res: 'https://o-site.spb.ru/_races/kbn_2024/231203_res.htm',
         map: 'orovo_2019',
-        owner: 'WN',
         o_site: 'kbn_2024'
     },
     {

@@ -361,10 +361,10 @@ let events2022 = [
         date: '2022-04-23',
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей #5',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220423_split.htm',
         map: 'orovo_2019',
-        owner: 'WN',
         reskeep: 529,
     },
     {
@@ -413,10 +413,10 @@ let events2022 = [
         date: '2022-04-30',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей #6',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220430_split.htm',
         map: 'petjajarvy_2024',
-        owner: 'WN',
         reskeep: 528,
     },
     {
@@ -460,10 +460,10 @@ let events2022 = [
         date: '2022-05-01',
         place: 'Пухтолова Гора',
         name: 'Кубок Белых Ночей #7',
+        start: 'KBN',
         strava: 7069852592,
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220501_split.htm',
-        owner: 'WN',
         reskeep: 511,
         map: 'pukhtolova_gora_2023'
     },
@@ -472,11 +472,11 @@ let events2022 = [
         date: '2022-05-03',
         place: 'Воейково',
         name: 'Кубок Белых Ночей #8',
+        start: 'KBN',
         strava: 7080257862,
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220503_split.htm',
         map: 'voejkovo_2022',
-        owner: 'WN',
         reskeep: 530,
     },
     {
@@ -495,9 +495,9 @@ let events2022 = [
         date: '2022-05-07',
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей 2021/22, 9-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220507_split.htm',
-        owner: 'WN',
         o_site: '2022BN'
     },
     {
@@ -516,9 +516,9 @@ let events2022 = [
         date: '2022-05-08',
         place: 'Сосново',
         name: 'Кубок Белых Ночей 2021/22, 10-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220508_split.htm',
-        owner: 'WN',
         o_site: '2022BN'
     },
     {
@@ -564,9 +564,9 @@ let events2022 = [
         date: '2022-05-10',
         place: 'Запорожское',
         name: 'Кубок Белых Ночей 2021/22, 11-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220510_split.htm',
-        owner: 'WN',
         o_site: '2022BN'
     },
     {
@@ -628,11 +628,11 @@ let events2022 = [
         date: '2022-05-14',
         place: 'Стеклянный',
         name: 'Кубок Белых Ночей #12',
+        start: 'KBN',
         strava: 7140324760,
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220514_split.htm',
         map: 'stekljanny_2021',
-        owner: 'WN',
         reskeep: 525,
     },
     {
@@ -905,9 +905,9 @@ let events2022 = [
         date: '2022-06-04',
         place: 'Мичуринское',
         name: 'Кубок Белых Ночей 2021/22, 13-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220604_split.htm',
-        owner: 'WN',
         o_site: '2022BN'
     },
     {
@@ -915,10 +915,10 @@ let events2022 = [
         date: '2022-06-05',
         place: 'Мичуринское',
         name: 'Кубок Белых Ночей #14',
+        start: 'KBN',
         strava: 7258858400,
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220605_split.htm',
-        owner: 'WN',
         reskeep: 534,
     },
     {
@@ -1441,11 +1441,11 @@ let events2022 = [
         date: '2022-07-30',
         place: 'Барышево',
         name: 'Кубок Белых Ночей. 15 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220730_split.htm',
         reskeep: 550,
-        map: 'baryshevo_2015',
-        owner: 'WN'
+        map: 'baryshevo_2015'
     },
     {
         id: 'SPB_20220730_3',
@@ -1461,22 +1461,22 @@ let events2022 = [
         date: '2022-07-31',
         place: 'Смоляное оз',
         name: 'Кубок Белых Ночей. 16 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/220731_split.htm',
         reskeep: 553,
-        map: 'smoljanoe_2015',
-        owner: 'WN'
+        map: 'smoljanoe_2015'
     },
     {
         id: 'SPB_20220806_1',
         date: '2022-08-06',
         place: 'Тихое оз',
         name: 'Кубок Белых Ночей - 2021/22 - 17-й и 18-й этапы',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/23285',
         res: ['https://o-site.spb.ru/_races/2022BN/220806_split.htm','https://o-site.spb.ru/_races/2022BN/220807_split.htm'],
         map: 'tikhoe_2024',
-        owner: 'WN',
         o_site: '2022BN',
         endDate: '2022-08-07',
         map: 'pervomayskoe_2021'
@@ -1611,11 +1611,11 @@ let events2022 = [
         date: '2022-09-10',
         place: 'Болотная станция',
         name: 'Кубок Белых Ночей #1',
+        start: 'KBN',
         strava: 7784420974,
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/220910_split.htm',
         map: 'bolotnaya_station_2019',
-        owner: 'WN',
         reskeep: 542,
         split: 'splits/2022/SPB_20220910_1_split.htm'
     },
@@ -1973,8 +1973,8 @@ let events2022 = [
         id: 'SPB_20221013_1',
         date: '2022-10-13',
         name: 'Кузьмоловские старты',
+        start: 'KUZMOLOVSKY_STARTS',
         place: 'Кавголово',
-        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/24650',
         res: 'https://o-site.spb.ru/_races/220505/221013_split.htm',
@@ -2066,11 +2066,11 @@ let events2022 = [
         date: '2022-10-22',
         place: 'Раздолье',
         name: 'Кубок Белых Ночей #2',
+        start: 'KBN',
         strava: 8002067117,
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/221022_split.htm',
         map: 'razdolje_2022',
-        owner: 'WN',
         reskeep: 561,
     },
     {
@@ -2143,9 +2143,9 @@ let events2022 = [
         date: '2022-10-29',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2022/23, 3-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/221029_split.htm',
-        owner: 'WN',
         o_site: '2023_bn'
     },
     {
@@ -2234,9 +2234,9 @@ let events2022 = [
         date: '2022-11-05',
         place: 'Первомайское',
         name: 'Кубок Белых Ночей 2022/23, 4-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/221105_split.htm',
-        owner: 'WN',
         o_site: '2023_bn'
     },
     {
@@ -2257,9 +2257,9 @@ let events2022 = [
         date: '2022-11-06',
         place: 'Мичуринское',
         name: 'Кубок Белых Ночей 2022/23, 5-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/221106_split.htm',
-        owner: 'WN',
         o_site: '2023_bn'
     },
     {
@@ -2291,9 +2291,9 @@ let events2022 = [
         date: '2022-11-12',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2022/23, 6-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/221112_split.htm',
-        owner: 'WN',
         o_site: '2023_bn'
     },
     {
@@ -2316,10 +2316,10 @@ let events2022 = [
         date: '2022-11-19',
         place: 'Озерки',
         name: 'Кубок Белых Ночей #7',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/221119_split.htm',
         map: 'ozerki_2022',
-        owner: 'WN',
         strava: [8138407224, 8138827616],
         reskeep: 566,
     },
@@ -2398,10 +2398,10 @@ let events2022 = [
         date: '2022-12-04',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей #8',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2023_bn/221204_split.htm',
         map: 'petjajarvy_2024',
-        owner: 'WN',
         strava: [8205639485, 8205643874],
         reskeep: 568,
     },
@@ -2410,10 +2410,10 @@ let events2022 = [
         date: '2022-12-10',
         place: 'Кюлиятка',
         name: 'Кубок Белых Ночей 2022/2023 9-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1487',
         res: 'https://o-site.spb.ru/_races/2023_bn/221210_split.htm',
-        owner: 'WN',
         o_site: '2023_bn',
         map: 'pervomayskoe_2021'
     },

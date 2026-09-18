@@ -249,6 +249,7 @@ let events2010 = [
         name: 'Кубок ОК Гольфстрим, 1-й лыжный этап — спринт',
         type: 'SKI',
         res: 'http://o-site.spb.ru/_races/100314/100313_res.htm',
+        owner: 'GOLFSTREAM',
         o_site: '100314'
     },
     {
@@ -269,6 +270,7 @@ let events2010 = [
         name: 'Кубок ОК Гольфстрим, 2-й лыжный этап — удлинённая дистанция',
         type: 'SKI',
         res: 'http://o-site.spb.ru/_races/100314/100314_res.pdf',
+        owner: 'GOLFSTREAM',
         o_site: '100314'
     },
     {
@@ -281,6 +283,7 @@ let events2010 = [
         res: 'https://o-site.spb.ru/_races/100321/100321_res.htm',
         split: 'splits/2010/SPB_20100321_1_split.htm',
         info: 'Программа зимней части Кубка ОК Гольфстрим: 1-й этап: 13 марта - спринт 2-й этап: 14 марта - удлинённая дистанция 3-й этап: 21 марта - маркир, классика',
+        owner: 'GOLFSTREAM',
         o_site: '100321'
     },
     {
@@ -1002,6 +1005,7 @@ let events2010 = [
         name: 'Кубок ОК Гольфстрим, 1-й беговой этап — марафон',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/10092427/100926_res.pdf',
+        owner: 'GOLFSTREAM',
         o_site: '100314'
     },
     {
@@ -1011,6 +1015,7 @@ let events2010 = [
         name: 'Кубок ОК Гольфстрим, 2-й беговой этап — спринт',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/100929/100929_res.htm',
+        owner: 'GOLFSTREAM',
         o_site: '100314'
     },
     {
@@ -1133,6 +1138,7 @@ let events2010 = [
         name: 'Кубок ОК Гольфстрим, финальные этапы',
         type: 'ORIENT',
         res: 'http://gs-oc.ru/phocadownload/competitions/gs-cup/101016,17.zip',
+        owner: 'GOLFSTREAM',
         o_site: '100314'
     },
     {
@@ -1296,6 +1302,7 @@ let events2010 = [
         type: 'ORIENT',
         res: 'http://gs-oc.ru/phocadownload/competitions/gs-cup-2011/101128_results.htm',
         info: '1-й этап: 28 ноября – Маркированная трасса бегом 35-60 минут. Заявка производится на сайте http://o-reg.spb.ru/',
+        owner: 'GOLFSTREAM',
         o_site: '101128'
     },
     {

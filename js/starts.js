@@ -17,6 +17,12 @@ let starts = {
         page: 'starts',
         owner: 'WN'
     },
+    KBN: {
+        short: 'КБН',
+        name: '<a href="https://vk.ru/white_nights_club_spb">Кубок Белых Ночей</a>',
+        logo: 'wn.gif',
+        owner: 'WN'
+    },
     KKP: {
         short: 'ККП',
         name: '<a href="https://o-nw.ru/kkp">Камни (Кубок) Карельского Перешейка</a>',
@@ -89,7 +95,18 @@ let starts = {
         short: 'Яркий Кубок',
         name: '<a href="https://vk.com/club128591100">Яркий Кубок</a>',
         logo: 'ym_cup.webp',
-        //page: 'starts'
+    },
+    KUZMOLOVSKY_STARTS: {
+        short: 'Кузьмоловские старты',
+        name: '<a href="https://vk.ru/kuzmolov_o">Кузьмоловские старты</a>',
+        logo: 'kuzmolovo_40_2015.webp',
+        owner: 'KUZMOLOVO'
+    },
+    SNOW_WAY: {
+        short: 'Снежная тропа',
+        name: 'Снежная тропа',
+        logo: 'snow_way.webp',
+        owner: 'SFSO_SPB'
     },
     GS: {
         short: 'Зелёный Змей',

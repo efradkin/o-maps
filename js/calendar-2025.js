@@ -415,12 +415,12 @@ let events2025 = [
         date: '2025-04-06',
         place: 'Зеленогорск, Болотная станция',
         name: 'Кубок Белых Ночей №8',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/42402',
         o_gps: 22105,
         reskeep: 674,
         photo: 'https://vk.com/album-196511971_306922349',
-        owner: 'WN',
         map: 'bolotnaya_station_2019',
         strava: 14096003632,
         me: 'A'
@@ -599,12 +599,12 @@ let events2025 = [
         date: '2025-04-26',
         place: 'Кавголово',
         name: 'Кубок Белых Ночей №9',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/43281',
         o_gps: 22373,
         photo: 'https://vk.com/album-196511971_307146284',
         map: 'kavgolovo_2017',
-        owner: 'WN',
         strava: 14290488343,
         me: 'A'
     },
@@ -626,10 +626,10 @@ let events2025 = [
         date: '2025-04-27',
         place: 'Петяярви, Кентавр',
         name: 'Кубок Белых Ночей №10',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/info/43282',
         photo: 'https://vk.com/album-196511971_307146519',
-        owner: 'WN',
         map: 'petjajarvy_kentavr_2014',
         strava: 14300289183,
         me: 'B'
@@ -766,21 +766,21 @@ let events2025 = [
         date: '2025-05-04',
         place: 'Симагино',
         name: 'Кубок Белых Ночей №11',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/43467',
-        map: 'vorontsovskoe_simagino_2021',
-        owner: 'WN'
+        map: 'vorontsovskoe_simagino_2021'
     },
     {
         id: 'SPB_20250508_1',
         date: '2025-05-08',
         place: 'Стеклянный',
         name: 'Кубок Белых Ночей №12',
+        start: 'KBN',
         type: 'ORIENT',
         o_site: '250508_bn',
         reg: 'http://orgeo.ru/event/43588',
         o_gps: 22572,
-        owner: 'WN',
         map: 'stekljanny_2021'
     },
     {
@@ -884,11 +884,11 @@ let events2025 = [
         date: '2025-05-11',
         place: 'Мичуринское',
         name: 'Кубок Белых Ночей №13',
+        start: 'KBN',
         type: 'ORIENT',
         o_site: '250511_bn',
         reg: 'http://orgeo.ru/event/info/43589',
-        map: 'michurinskoe_2022',
-        owner: 'WN'
+        map: 'michurinskoe_2022'
     },
     {
         id: 'SPB_20250511_3',
@@ -1173,10 +1173,10 @@ let events2025 = [
         date: '2025-05-31',
         place: 'Калелово',
         name: 'Кубок Белых Ночей №14',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/44184',
-        map: 'topograph_2017',
-        owner: 'WN'
+        map: 'topograph_2017'
     },
     {
         id: 'SPB_20250601_1',
@@ -1196,10 +1196,10 @@ let events2025 = [
         date: '2025-06-01',
         place: 'Симагино',
         name: 'Кубок Белых Ночей №15',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/44185',
-        map: 'ilychevo-simagino_2015',
-        owner: 'WN'
+        map: 'ilychevo-simagino_2015'
     },
     {
         id: 'SPB_20250605_1',
@@ -1695,26 +1695,26 @@ let events2025 = [
         date: '2025-08-02',
         place: 'Барышево',
         name: 'Кубок Белых Ночей №16',
+        start: 'KBN',
         type: 'ORIENT',
         o_site: '250802_bn',
         reg: 'http://orgeo.ru/event/45276',
         o_gps: 23174,
         reskeep: 714,
-        map: 'baryshevo_2015',
-        owner: 'WN'
+        map: 'baryshevo_2015'
     },
     {
         id: 'SPB_20250803_1',
         date: '2025-08-03',
         place: 'Смоляное оз',
         name: 'Кубок Белых Ночей №17',
+        start: 'KBN',
         type: 'ORIENT',
         o_site: '250802_bn',
         reg: 'http://orgeo.ru/event/info/45265',
         o_gps: 23177,
         reskeep: 715,
         map: 'smoljanoe_2015',
-        owner: 'WN',
         strava: 15329091223,
         me: 'A'
     },
@@ -1816,12 +1816,12 @@ let events2025 = [
         date: '2025-08-17',
         place: 'Ягодное, Раздельные оз',
         name: 'Кубок Белых Ночей №18',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/info/45477',
         res: 'https://t.me/whitenightesspb/557',
         o_gps: 23260,
         reskeep: 775,
-        owner: 'WN',
         map: 'michurinskoe_2022'
     },
     {
@@ -1946,13 +1946,13 @@ let events2025 = [
         date: '2025-09-06',
         place: 'Сосново, Уловное оз',
         name: 'Кубок Белых Ночей №1',
+        start: 'KBN',
         type: 'ORIENT',
         o_site: '250906_bn',
         split: 'splits/2025/SPB_20250906_2_split.htm',
         reg: 'https://orgeo.ru/event/info/45955',
         o_gps: 23350,
         reskeep: 789,
-        owner: 'WN',
         map: 'sosnovo_ulovnoe_oz_2023',
         strava: 15716605554,
         me: 'A'
@@ -3041,13 +3041,13 @@ let events2025 = [
         date: '2025-11-15',
         place: 'Петяярви, Кентавр',
         name: 'Кубок Белых Ночей №2',
+        start: 'KBN',
         type: 'ORIENT',
         o_site: '251115_bn',
         reg: 'https://orgeo.ru/event/47770',
         res: 'https://t.me/whitenightesspb/726',
         o_gps: 23870,
         reskeep: 817,
-        owner: 'WN',
         map: 'petjajarvy_kentavr_2014'
     },
     {
@@ -3129,12 +3129,12 @@ let events2025 = [
         date: '2025-11-22',
         place: 'Пухтолова гора',
         name: 'Кубок Белых Ночей №3',
+        start: 'KBN',
         type: 'ORIENT',
         link: 'https://t.me/whitenightesspb/728',
         reg: 'https://orgeo.ru/event/info/47911',
         o_gps: 23882,
         reskeep: 821,
-        owner: 'WN',
         map: 'pukhtolova_gora_2023',
         strava: 16532007025,
         me: 'A'
@@ -3269,11 +3269,11 @@ let events2025 = [
         date: '2025-11-30',
         place: 'Суоранда',
         name: 'Кубок Белых Ночей №4',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/47732',
         res: 'https://t.me/whitenightesspb/759',
         o_gps: 23927,
-        owner: 'WN',
         map: 'orovo_2019',
         reskeep: 825
     },
@@ -3311,6 +3311,7 @@ let events2025 = [
         date: '2025-12-06',
         place: 'Зеленогорск',
         name: 'Кубок Белых Ночей №5',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'https://orgeo.ru/event/48172',
         res: 'https://t.me/whitenightesspb/776',
@@ -3320,7 +3321,6 @@ let events2025 = [
             'Все КП': 23941
         },
         map: 'zelenogorsk_schuchye_2020',
-        owner: 'WN',
         strava: 16664506283,
         me: 'МА'
     },

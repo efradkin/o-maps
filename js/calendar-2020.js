@@ -50,10 +50,10 @@ let events2020 = [
         date: '2020-01-18',
         place: 'Охта-парк',
         name: 'Кубок Белых Ночей. 10 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/200118_split.htm',
         reskeep: 299,
-        owner: 'WN',
         strava: 3022109211,
         map: 'toksovo_okhta_park_2008'
     },
@@ -98,10 +98,10 @@ let events2020 = [
         date: '2020-01-25',
         place: 'Сестрорецкие Дюны',
         name: 'Кубок Белых Ночей. 11 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/200125_split.htm',
-        reskeep: 307,
-        owner: 'WN'
+        reskeep: 307
     },
     {
         id: 'SPB_20200126_1',
@@ -138,10 +138,10 @@ let events2020 = [
         date: '2020-02-01',
         place: 'Кавголово',
         name: 'Кубок Белых Ночей. 12 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/200201_split.htm',
         reskeep: 306,
-        owner: 'WN',
         strava: 3062434549
     },
     {
@@ -241,11 +241,11 @@ let events2020 = [
         date: '2020-02-16',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 13 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020BN/200216_split.htm',
         reskeep: 315,
         map: 'petjajarvy_2024',
-        owner: 'WN',
         strava: 3105111861
     },
     {
@@ -266,11 +266,11 @@ let events2020 = [
         date: '2020-02-24',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 14 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020BN/200224_split.htm',
         reskeep: 316,
         map: 'petjajarvy_2024',
-        owner: 'WN',
         strava: 3128039116
     },
     {
@@ -355,22 +355,22 @@ let events2020 = [
         date: '2020-03-14',
         place: 'Васкелово',
         name: 'Кубок Белых Ночей 2019/20. 15 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020BN/200314_split.htm',
-        reskeep: 330,
-        owner: 'WN'
+        reskeep: 330
     },
     {
         id: 'SPB_20200315_1',
         date: '2020-03-15',
         place: 'Зеленогорск',
         name: 'Кубок Белых Ночей 2019/20. 16 этап',
+        start: 'KBN',
         video: 'https://www.youtube.com/watch?v=W0A2Sok8tX0',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020BN/200315_split.htm',
         reskeep: 331,
         map: 'zelenogorsk_schuchye_2020',
-        owner: 'WN',
         strava: 3185721188
     },
     {
@@ -378,9 +378,9 @@ let events2020 = [
         date: '2020-03-21',
         place: 'Кавголово',
         name: 'Кубок Белых Ночей. 17 этап',
+        start: 'KBN',
         type: 'ORIENT',
         reskeep: 332,
-        owner: 'WN',
         strava: 3203763422,
         map: 'kavgolovo_old_ski_track_2023'
     },
@@ -397,10 +397,10 @@ let events2020 = [
         id: 'SPB_20200322_1',
         date: '2020-03-22',
         name: 'Кубок Белых Ночей. 18 этап',
+        start: 'KBN',
         place: 'Первомайское',
         type: 'ORIENT',
         res: ['https://o-site.spb.ru/_races/2020BN/200322_split_g.htm','https://o-site.spb.ru/_races/2020BN/200322_split_m.htm'],
-        owner: 'WN',
         o_site: '2020BN',
         reskeep: 333,
         strava: 3207395628,
@@ -1010,7 +1010,7 @@ let events2020 = [
         id: 'SPB_20200901_1',
         date: '2020-09-01',
         name: 'Кузьмоловские старты',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/13945',
         res: 'https://o-site.spb.ru/_races/200903_KS/201008_res.htm',
@@ -1023,7 +1023,7 @@ let events2020 = [
         date: '2020-09-03',
         place: 'Токсово',
         name: 'Кузьмоловские старты 2020. 1 этап',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         reskeep: 359,
     },
@@ -1080,7 +1080,7 @@ let events2020 = [
         date: '2020-09-10',
         place: 'Кузьмолово',
         name: 'Кузьмоловские старты. 2 этап',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         reskeep: 366,
     },
@@ -1161,7 +1161,7 @@ let events2020 = [
         date: '2020-09-17',
         place: 'Вартемяги',
         name: 'Кузьмоловские старты. 3 этап',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         reskeep: 373,
     },
@@ -1219,9 +1219,9 @@ let events2020 = [
         date: '2020-09-20',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2020/21, 1-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/200920_split.htm',
-        owner: 'WN',
         o_site: '2021BN'
     },
     {
@@ -1297,10 +1297,10 @@ let events2020 = [
         date: '2020-09-26',
         place: 'Симагино',
         name: 'Кубок Белых ночей 2019/20. 2 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/200926_split.htm',
-        reskeep: 380,
-        owner: 'WN'
+        reskeep: 380
     },
     {
         id: 'SPB_20200926_4',
@@ -1348,11 +1348,11 @@ let events2020 = [
         date: '2020-09-27',
         place: 'Запорожское',
         name: 'Кубок Белых ночей 2019/20. 3 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/200927_split.htm',
         reskeep: 381,
         map: 'zaporozhskoe_2020',
-        owner: 'WN',
         strava: 4119219789
     },
     {
@@ -1435,11 +1435,11 @@ let events2020 = [
         date: '2020-10-11',
         place: 'Первомайское',
         name: 'Кубок Белых ночей 2019/20. 4 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201011_split.htm',
         reskeep: 386,
         map: 'pervomayskoe_2021',
-        owner: 'WN',
         strava: 4181510517
     },
     {
@@ -1491,11 +1491,11 @@ let events2020 = [
         date: '2020-10-18',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2019/20. 5 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201018_split.htm',
         reskeep: 389,
         map: 'petjajarvy_2024',
-        owner: 'WN',
         strava: 4212065523
     },
     {
@@ -1660,10 +1660,10 @@ let events2020 = [
         date: '2020-11-08',
         place: 'Пухтолова гора',
         name: 'Кубок Белых Ночей 2019/20. 6 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201108_split.htm',
         reskeep: 397,
-        owner: 'WN',
         map: 'pukhtolova_gora_2023'
     },
     {
@@ -1707,11 +1707,11 @@ let events2020 = [
         date: '2020-11-15',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2019/20. 7 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201115_split.htm',
         reskeep: 399,
-        map: 'petjajarvy_2024',
-        owner: 'WN'
+        map: 'petjajarvy_2024'
     },
     {
         id: 'SPB_20201121_1',
@@ -1735,6 +1735,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/201122_gulfstream_long/201122_res.htm',
         split: 'splits/2020/SPB_20201122_1_split.htm',
         info: '22 ноября в Орехово состоится тренировка КСО "Гольфстрим". В программе "Лонг. Общий старт." Начало стартов с 11.30. Бюллетень будет опубликован до 11 ноября.',
+        owner: 'GOLFSTREAM',
         o_site: '201122_gulfstream_long',
         reskeep: 402,
         strava: 4374011250,
@@ -1746,11 +1747,11 @@ let events2020 = [
         date: '2020-11-22',
         place: 'Первомайское',
         name: 'Кубок Белых Ночей. 8 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201122_split.htm',
         reskeep: 401,
-        map: 'pervomayskoe_2021',
-        owner: 'WN'
+        map: 'pervomayskoe_2021'
     },
     {
         id: 'SPB_20201122_3',
@@ -1792,11 +1793,11 @@ let events2020 = [
         date: '2020-11-29',
         place: 'Болотная станция',
         name: 'Кубок Белых Ночей. 9 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201129_split.htm',
         reskeep: 406,
-        map: 'bolotnaya_station_2019',
-        owner: 'WN'
+        map: 'bolotnaya_station_2019'
     },
     {
         id: 'SPB_20201130_1',
@@ -1881,10 +1882,10 @@ let events2020 = [
         date: '2020-12-13',
         place: 'Мичуринское',
         name: 'Кубок Белых Ночей. 10 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201213_split.htm',
-        reskeep: 410,
-        owner: 'WN'
+        reskeep: 410
     },
     {
         id: 'SPB_20201213_4',

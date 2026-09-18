@@ -131,12 +131,12 @@ let events2018 = [
         date: '2018-02-04',
         place: 'Кавголово',
         name: 'Выбор50 - зимний Кубок Белых Ночей',
+        start: 'KBN',
         type: 'ORIENT',
         fmt: 'выбор',
         reg: 'http://o-reg.spb.ru/entry-list?id=836',
         res: 'https://o-site.spb.ru/_races/180204_BN/180204_res.htm',
         split: 'splits/2018/SPB_20180204_1_split.htm',
-        owner: 'WN',
         o_site: '180204_BN'
     },
     {
@@ -249,9 +249,9 @@ let events2018 = [
         date: '2018-02-24',
         place: 'Дюны',
         name: 'Кубок Белых Ночей 2017/18, 8-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180224_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -306,9 +306,9 @@ let events2018 = [
         date: '2018-03-04',
         place: 'Охта-парк',
         name: 'Кубок Белых Ночей 2017/18, 9-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180304_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -343,9 +343,9 @@ let events2018 = [
         date: '2018-03-09',
         place: 'Воейково',
         name: 'Кубок Белых Ночей 2017/18, 10-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180309_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -429,9 +429,9 @@ let events2018 = [
         date: '2018-04-07',
         place: 'Кавголово, Орлиная гора',
         name: 'Кубок Белых Ночей 2017/18, 11-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180407_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -645,9 +645,9 @@ let events2018 = [
         date: '2018-05-06',
         place: 'Осельки',
         name: 'Кубок Белых Ночей 2017/18, 12-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180506_split_BN.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -669,9 +669,9 @@ let events2018 = [
         date: '2018-05-12',
         place: 'Симагино',
         name: 'Кубок Белых Ночей 2017/18, 13-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180512_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -866,9 +866,9 @@ let events2018 = [
         date: '2018-06-02',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2017/18, 14-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180602_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -1208,9 +1208,9 @@ let events2018 = [
         date: '2018-07-14',
         place: 'Мичуринское',
         name: 'Кубок Белых Ночей 2017/18, 15-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180714_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -1270,9 +1270,9 @@ let events2018 = [
         date: '2018-07-28',
         place: 'Воробьёво озеро',
         name: 'Кубок Белых Ночей 2017/18, 16-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180728_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -1280,9 +1280,9 @@ let events2018 = [
         date: '2018-07-29',
         place: 'Воробьёво озеро',
         name: 'Кубок Белых Ночей 2017/18, 17-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180729_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -1300,18 +1300,18 @@ let events2018 = [
         date: '2018-08-05',
         place: 'Ильичёво',
         name: 'Кубок Белых Ночей 2017/18, 18-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180805_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
         id: 'SPB_20180811_1',
         date: '2018-08-11',
         name: 'Кубок Белых Ночей - 2017/18',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/180811_split.htm',
-        owner: 'WN',
         o_site: '2018WN',
         map: 'vorobjevo_2024'
     },
@@ -1406,7 +1406,7 @@ let events2018 = [
         id: 'SPB_20180901_2',
         date: '2018-09-01',
         name: 'Кузьмоловские старты по четвергам',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList13092018.htm',
         o_site: '2018_KS',
@@ -1506,9 +1506,9 @@ let events2018 = [
         date: '2018-09-13',
         place: 'Токсово, Изумрудное озеро',
         name: 'Кузьмоловские старты, 1-й этап',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList13092018.htm',
-        owner: 'KUZMOLOVO',
         o_site: '2018_KS'
     },
     {
@@ -1566,7 +1566,7 @@ let events2018 = [
         date: '2018-09-20',
         place: 'Токсово, Малиновая гора',
         name: 'Кузьмоловские старты. 2 этап',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList20092018.htm',
         reskeep: 51,
@@ -1621,7 +1621,7 @@ let events2018 = [
         split: 'splits/2018/SPB_20180923_1_split.htm',
         info: 'Организаторы: Региональная физкультурно-спортивная общественная организация «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Со-организаторы: Комитет по физической культуре и спорту Санкт-Петербурга ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО КСО «Гольфстрим»',
         video: 'http://www.northernwind.spb.ru/videosplit/2018/chspb_marathon/',
-        owner: 'SFSO_SPB',
+        owner: ['SFSO_SPB','GOLFSTREAM'],
         o_site: '180923',
         reskeep: 47
     },
@@ -1643,7 +1643,7 @@ let events2018 = [
         date: '2018-09-27',
         place: 'Осиновая роща',
         name: 'Кузьмоловские старты. 3 этап',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList27092018.html',
         reskeep: 52,
@@ -1788,7 +1788,7 @@ let events2018 = [
         date: '2018-10-04',
         place: 'Кузьмолово',
         name: 'Кузьмоловские старты. 4 этап',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/KS_2018/results04102018.htm',
         reskeep: 71,
@@ -1855,7 +1855,7 @@ let events2018 = [
         date: '2018-10-11',
         place: 'Токсово',
         name: 'Кузьмоловские старты. 5 этап',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList11102018.htm',
         reskeep: 72,
@@ -1903,18 +1903,18 @@ let events2018 = [
         date: '2018-10-14',
         place: 'Черные оз',
         name: 'Кубок Белых ночей. 1 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/181014_split.htm',
         reskeep: 61,
-        map: 'zelenogorsk_chernye_2023',
-        owner: 'WN'
+        map: 'zelenogorsk_chernye_2023'
     },
     {
         id: 'SPB_20181018_1',
         date: '2018-10-18',
         place: 'Токсово',
         name: 'Кузьмоловские старты. 6 этап',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList18102018.htm',
         reskeep: 64,
@@ -2077,11 +2077,11 @@ let events2018 = [
         date: '2018-11-04',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 2 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/181104_split.htm',
         reskeep: 76,
-        map: 'petjajarvy_2024',
-        owner: 'WN'
+        map: 'petjajarvy_2024'
     },
     {
         id: 'SPB_20181105_1',
@@ -2097,11 +2097,11 @@ let events2018 = [
         date: '2018-11-05',
         place: 'садоводство Топограф',
         name: 'Кубок Белых Ночей. 3 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/181105_split.htm',
         reskeep: 80,
-        map: 'topograph_2017',
-        owner: 'WN'
+        map: 'topograph_2017'
     },
     {
         id: 'SPB_20181107_1',
@@ -2138,10 +2138,10 @@ let events2018 = [
         date: '2018-11-11',
         place: 'Охта-парк',
         name: 'Кубок Белых ночей. 4 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/181110_split.htm',
-        reskeep: 91,
-        owner: 'WN'
+        reskeep: 91
     },
     {
         id: 'SPB_20181117_1',
@@ -2194,9 +2194,9 @@ let events2018 = [
         date: '2018-11-18',
         place: 'Первомайское',
         name: 'Кубок Белых Ночей 2018/19, 5-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/181118_split.htm',
-        owner: 'WN',
         o_site: '201819_BN'
     },
     {
@@ -2258,11 +2258,11 @@ let events2018 = [
         date: '2018-12-02',
         place: 'Зеленогорск',
         name: 'Кубок Белых ночей. 6 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/181202_split.htm',
         reskeep: 95,
-        map: 'zelenogorsk_schuchye_2020',
-        owner: 'WN'
+        map: 'zelenogorsk_schuchye_2020'
     },
     {
         id: 'SPB_20181202_2',
@@ -2289,11 +2289,11 @@ let events2018 = [
         date: '2018-12-08',
         place: 'Голубые дачи',
         name: 'Кубок Белых Ночей. 7 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/181208_split.htm',
         reskeep: 128,
-        map: 'orovo_2019',
-        owner: 'WN'
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20181209_1',

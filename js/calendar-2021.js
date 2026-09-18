@@ -409,10 +409,10 @@ let events2021 = [
         date: '2021-04-11',
         place: 'Сестрорецкие дюны',
         name: 'Кубок Белых Ночей. 11 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210411_split.htm',
-        reskeep: 437,
-        owner: 'WN'
+        reskeep: 437
     },
     {
         id: 'SPB_20210414_1',
@@ -455,11 +455,11 @@ let events2021 = [
         date: '2021-04-17',
         place: 'Голубая дача',
         name: 'Кубок Белых Ночей. 12 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210417_split.htm',
         reskeep: 441,
-        map: 'orovo_2019',
-        owner: 'WN'
+        map: 'orovo_2019'
     },
     {
         id: 'SPB_20210417_5',
@@ -502,10 +502,10 @@ let events2021 = [
         date: '2021-04-18',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 13 этап',
+        start: 'KBN',
         type: 'ORIENT',
         reskeep: 442,
-        map: 'petjajarvy_2024',
-        owner: 'WN'
+        map: 'petjajarvy_2024'
     },
     {
         id: 'SPB_20210421_1',
@@ -659,33 +659,33 @@ let events2021 = [
         date: '2021-05-04',
         place: 'Болотная станция',
         name: 'Кубок Белых ночей. 14 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210504_split.htm',
         reskeep: 452,
-        map: 'bolotnaya_station_2019',
-        owner: 'WN'
+        map: 'bolotnaya_station_2019'
     },
     {
         id: 'SPB_20210505_1',
         date: '2021-05-05',
         place: 'Ильичёво',
         name: 'Кубок Белых ночей. 15 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210505_split.htm',
         reskeep: 453,
-        map: 'ilychevo_2016',
-        owner: 'WN'
+        map: 'ilychevo_2016'
     },
     {
         id: 'SPB_20210506_1',
         date: '2021-05-07',
         place: 'Петяярви',
         name: 'Кубок Белых ночей. 16 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210507_split.htm',
         reskeep: 454,
         map: 'petjajarvy_2024',
-        owner: 'WN',
         strava: [5255567316,5255994172]
     },
     {
@@ -693,11 +693,11 @@ let events2021 = [
         date: '2021-05-07',
         place: 'садоводство Топограф',
         name: 'Кубок Белых ночей. 17 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210508_split.htm',
         reskeep: 455,
-        map: 'topograph_2017',
-        owner: 'WN'
+        map: 'topograph_2017'
     },
     {
         id: 'SPB_20210509_1',
@@ -959,11 +959,11 @@ let events2021 = [
         date: '2021-05-29',
         place: 'Болотная станция',
         name: 'Кубок Белых Ночей. 18 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210529_split.htm',
         reskeep: 470,
-        map: 'bolotnaya_station_2019',
-        owner: 'WN'
+        map: 'bolotnaya_station_2019'
     },
     {
         id: 'SPB_20210529_4',
@@ -991,6 +991,7 @@ let events2021 = [
         date: '2021-05-30',
         place: 'Первомайское',
         name: 'Кубок Белых Ночей #19',
+        start: 'KBN',
         o_site: '2021BN',
         split: [
             'splits/2021/SPB_20210530_1_1_split.htm',
@@ -1016,7 +1017,6 @@ let events2021 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/210530_split.htm',
         map: 'pervomayskoe_2021',
-        owner: 'WN',
         reskeep: 472,
         strava: [5382362471,5382809371]
     },
@@ -1035,8 +1035,8 @@ let events2021 = [
         id: 'SPB_20210603_1',
         date: '2021-06-03',
         name: 'Кузьмоловские старты (4-й этап)',
+        start: 'KUZMOLOVSKY_STARTS',
         place: 'Лехтуси',
-        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/17345',
         res: 'https://o-site.spb.ru/_races/210415_ks/210603_rez.html',
@@ -1608,10 +1608,10 @@ let events2021 = [
         date: '2021-09-05',
         place: 'Васкелово',
         name: 'Кубок Белых Ночей - 2020/21 - 20 этап',
+        start: 'KBN',
         type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1294',
         res: 'https://o-site.spb.ru/_races/2021BN/210905_split.htm',
-        owner: 'WN',
         o_site: '2021BN',
         reskeep: 476,
         strava: [5909211506,5909484049],
@@ -1829,8 +1829,8 @@ let events2021 = [
         id: 'SPB_20211007_1',
         date: '2021-10-07',
         name: 'Кузьмоловские старты',
+        start: 'KUZMOLOVSKY_STARTS',
         place: 'Токсово, СКА',
-        owner: 'KUZMOLOVO',
         type: 'ORIENT',
         reg: 'http://orgeo.ru/event/18749',
         res: 'https://o-site.spb.ru/_races/210909_KS/211007_res.htm',
@@ -2109,10 +2109,10 @@ let events2021 = [
         date: '2021-10-31',
         place: 'Болотная станция',
         name: 'Кубок Белых Ночей #1',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/211031_split.htm',
         map: 'bolotnaya_station_2019',
-        owner: 'WN',
         reskeep: 500,
         strava: 6191799353
     },
@@ -2160,10 +2160,10 @@ let events2021 = [
         date: '2021-11-07',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей #2',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/211107_split.htm',
         map: 'petjajarvy_2024',
-        owner: 'WN',
         reskeep: 502,
         strava: 6223922266
     },
@@ -2231,10 +2231,10 @@ let events2021 = [
         date: '2021-11-21',
         place: 'Первомайское',
         name: 'Кубок Белых Ночей #3',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/211121_split.htm',
         map: 'pervomayskoe_2021',
-        owner: 'WN',
         reskeep: 503,
         strava: 6287291224,
         map: 'pervomayskoe_2021'
@@ -2255,9 +2255,9 @@ let events2021 = [
         date: '2021-11-27',
         place: 'Васкелово',
         name: 'Кубок Белых Ночей #4',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2022BN/211127_split.htm',
-        owner: 'WN',
         reskeep: 504,
         strava: 6312416014
     },

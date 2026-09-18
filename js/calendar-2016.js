@@ -103,9 +103,9 @@ let events2016 = [
         date: '2016-02-14',
         place: 'Дюны',
         name: 'Кубок Белых Ночей 2015/16, 6-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/160214_split.htm',
-        owner: 'WN',
         o_site: '151107wn'
     },
     {
@@ -196,9 +196,9 @@ let events2016 = [
         date: '2016-03-07',
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей 2015/16, 7-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/160307_split.htm',
-        owner: 'WN',
         o_site: '151107wn'
     },
     {
@@ -235,9 +235,9 @@ let events2016 = [
         date: '2016-03-12',
         place: 'Охта-парк',
         name: 'Кубок Белых Ночей 2015/16, 8-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/160312_split.htm',
-        owner: 'WN',
         o_site: '151107wn'
     },
     {
@@ -298,7 +298,7 @@ let events2016 = [
         id: 'SPB_20160401_2',
         date: '2016-04-01',
         name: 'Кузьмоловские старты',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/160414_KS/161006_res.htm',
         info: 'Серия тренировочных стартов в районе пос. Кузьмоловский',
@@ -331,10 +331,10 @@ let events2016 = [
         date: '2016-04-09',
         place: 'карьер Красная Горка',
         name: 'Кубок Белых Ночей, 9 этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/160409_split.htm',
         video: 'https://www.youtube.com/watch?v=37LPeJWQleY',
-        owner: 'WN',
         map: 'krasnaja_gorka_2016'
     },
     {
@@ -476,9 +476,9 @@ let events2016 = [
         date: '2016-04-24',
         place: 'Матокса',
         name: 'Кубок Белых Ночей 2015/16, 10-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/160424_split.htm',
-        owner: 'WN',
         o_site: '151107wn'
     },
     {
@@ -552,9 +552,9 @@ let events2016 = [
         date: '2016-05-07',
         place: 'Осельки',
         name: 'Кубок Белых Ночей 2015/16, 11-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/160507_split.htm',
-        owner: 'WN',
         o_site: '151107wn'
     },
     {
@@ -620,9 +620,9 @@ let events2016 = [
         date: '2016-05-14',
         place: 'Матокса',
         name: 'Кубок Белых Ночей 2015/16, 12-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/160514_split.htm',
-        owner: 'WN',
         o_site: '151107wn'
     },
     {
@@ -763,9 +763,9 @@ let events2016 = [
         id: 'SPB_20160528_2',
         date: '2016-05-28',
         name: 'Кубок Белых Ночей - 2015/16',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/160528_split.htm',
-        owner: 'WN',
         o_site: '151107wn',
         map: 'garbolovo_sirkkajarvi',
     },
@@ -1418,9 +1418,9 @@ let events2016 = [
         date: '2016-10-09',
         place: 'садоводство "Топограф"',
         name: 'Кубок Белых Ночей 2016/17, 1-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/161009_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -1704,9 +1704,9 @@ let events2016 = [
         date: '2016-11-26',
         place: 'Воейково',
         name: 'Кубок Белых Ночей 2016/17, 2-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/161126_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -1785,9 +1785,9 @@ let events2016 = [
         date: '2016-12-10',
         place: 'Ильичёво',
         name: 'Кубок Белых Ночей 2016/17, 3-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/161210_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {

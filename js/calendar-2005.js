@@ -79,6 +79,7 @@ let events2005 = [
         name: 'Пер-во клуба Гольфстрим. Выбор',
         type: 'ORIENT',
         fmt: 'Выбор',
+        owner: 'GOLFSTREAM',
         o_site: '050223'
     },
     {
@@ -121,6 +122,7 @@ let events2005 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/050308/050308.htm',
         fmt: 'заданное направление',
+        owner: 'GOLFSTREAM',
         o_site: '050308'
     },
     {

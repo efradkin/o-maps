@@ -104,9 +104,9 @@ let events2017 = [
         date: '2017-02-05',
         place: 'Орово',
         name: 'Кубок Белых Ночей 2016/17, 4-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170205_split_.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -128,9 +128,9 @@ let events2017 = [
         date: '2017-02-12',
         place: 'карьер Красная Горка',
         name: 'Кубок Белых Ночей 2016/17, 5-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170212_split_.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -173,9 +173,9 @@ let events2017 = [
         date: '2017-02-19',
         place: 'Охта-парк',
         name: 'Кубок Белых Ночей 2016/17, 6-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170219_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -203,9 +203,9 @@ let events2017 = [
         date: '2017-02-24',
         place: 'Вуолы',
         name: 'Кубок Белых Ночей 2016/17, 7-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170224_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -257,9 +257,9 @@ let events2017 = [
         date: '2017-03-05',
         place: 'Дюны',
         name: 'Кубок Белых Ночей 2016/17, 8-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170305_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -306,9 +306,9 @@ let events2017 = [
         date: '2017-03-12',
         place: 'Малиновая гора',
         name: 'Кубок Белых Ночей 2016/17, 9-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170312_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -344,9 +344,9 @@ let events2017 = [
         date: '2017-03-19',
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей 2016/17, 10-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170319_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -365,7 +365,7 @@ let events2017 = [
         date: '2017-04-01',
         endDate: '2017-10-31',
         name: 'Кузьмоловские старты',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2017_KS/171005_res.htm',
         info: 'Серия тренировочных стартов в окрестностях поселка Кузьмоловский',
@@ -386,9 +386,9 @@ let events2017 = [
         date: '2017-03-25',
         place: 'Воейково',
         name: 'Кубок Белых Ночей 2016/17, 11-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170325_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -405,9 +405,9 @@ let events2017 = [
         date: '2017-04-02',
         place: 'Матокса',
         name: 'Кубок Белых Ночей 2016/17, 12-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170402_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -445,9 +445,9 @@ let events2017 = [
         date: '2017-04-09',
         place: 'садоводство "Топограф"',
         name: 'Кубок Белых Ночей 2016/17, 13-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170409_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -659,9 +659,9 @@ let events2017 = [
         date: '2017-05-01',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2016/17, 14-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170501_split.htm',
-        owner: 'WN',
         o_site: '2017WN'
     },
     {
@@ -692,9 +692,9 @@ let events2017 = [
         id: 'SPB_20170506_2',
         date: '2017-05-06',
         name: 'Кубок Белых Ночей - 2016/17',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170506_split.htm',
-        owner: 'WN',
         o_site: '2017WN',
         map: ['krasnaja_gorka_2016','toksovo_malinovaya_gora_2013','garbolovo_sirkkajarvi']
     },
@@ -1767,9 +1767,9 @@ let events2017 = [
         date: '2017-10-14',
         place: 'Озерки (Рощино)',
         name: 'Кубок Белых Ночей 2017/18, 1-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171014_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -1829,9 +1829,9 @@ let events2017 = [
         date: '2017-10-28',
         place: 'Пухтолова гора',
         name: 'Кубок Белых Ночей 2017/18, 2-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171028_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -1922,9 +1922,9 @@ let events2017 = [
         date: '2017-11-06',
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2017/18, 3-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171106_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -1982,9 +1982,9 @@ let events2017 = [
         date: '2017-11-18',
         place: 'оз. Щучье',
         name: 'Кубок Белых Ночей 2017/18, 4-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171118_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -2029,9 +2029,9 @@ let events2017 = [
         date: '2017-12-02',
         place: 'Кавголовский парк',
         name: 'Кубок Белых Ночей 2017/18, 5-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171202_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -2055,9 +2055,9 @@ let events2017 = [
         date: '2017-12-09',
         place: 'Кавголово',
         name: 'Кубок Белых Ночей 2017/18, 6-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171209_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {
@@ -2085,9 +2085,9 @@ let events2017 = [
         date: '2017-12-16',
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей 2017/18, 7-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171216_split.htm',
-        owner: 'WN',
         o_site: '2018WN'
     },
     {

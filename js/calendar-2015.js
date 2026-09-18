@@ -228,9 +228,9 @@ let events2015 = [
         date: '2015-03-09',
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей 2014/15, 6-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/WNC2015/150309_split_.htm',
-        owner: 'WN',
         o_site: 'WNC2015'
     },
     {
@@ -248,9 +248,9 @@ let events2015 = [
         date: '2015-03-15',
         place: 'Охта-парк',
         name: 'Кубок Белых Ночей 2014/15, 7-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/WNC2015/150315_split.htm',
-        owner: 'WN',
         o_site: 'WNC2015'
     },
     {
@@ -284,7 +284,7 @@ let events2015 = [
         id: 'SPB_20150401_1',
         date: '2015-04-01',
         name: 'Кузьмоловские старты - 15 этап',
-        owner: 'KUZMOLOVO',
+        start: 'KUZMOLOVSKY_STARTS',
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/150409/151022_res.htm',
         split: 'splits/2015/SPB_20150401_1_split.htm',
@@ -342,9 +342,9 @@ let events2015 = [
         date: '2015-04-11',
         place: '103-я высота',
         name: 'Кубок Белых Ночей 2014/15, 8-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/WNC2015/150411_split.htm',
-        owner: 'WN',
         o_site: 'WNC2015'
     },
     {
@@ -748,9 +748,9 @@ let events2015 = [
         date: '2015-05-30',
         place: 'Осельки',
         name: 'Кубок Белых Ночей 2014/15, 9-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/WNC2015/150530_split.htm',
-        owner: 'WN',
         o_site: 'WNC2015'
     },
     {
@@ -926,9 +926,9 @@ let events2015 = [
         id: 'SPB_20150704_2',
         date: '2015-07-04',
         name: 'Кубок Белых Ночей - 2014/15',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/WNC2015/150704_split.htm',
-        owner: 'WN',
         o_site: 'WNC2015',
         map: 'garbolovo_sirkkajarvi',
     },
@@ -1548,9 +1548,9 @@ let events2015 = [
         date: '2015-11-07',
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей 2015/16, 1-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/151107_split.htm',
-        owner: 'WN',
         o_site: '151107wn'
     },
     {
@@ -1592,9 +1592,9 @@ let events2015 = [
         date: '2015-11-14',
         place: '103-я высота',
         name: 'Кубок Белых Ночей 2015/16, 2-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/151114_split.htm',
-        owner: 'WN',
         o_site: '151107wn'
     },
     {
@@ -1673,9 +1673,9 @@ let events2015 = [
         date: '2015-11-28',
         place: 'Ильичёво',
         name: 'Кубок Белых Ночей 2015/16, 3-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/151128_split.htm',
-        owner: 'WN',
         o_site: '151107wn'
     },
     {
@@ -1701,7 +1701,7 @@ let events2015 = [
         reg: 'http://o-reg.spb.ru/entry-list?id=546',
         res: 'https://o-site.spb.ru/_races/151206_ST/151206_res.htm',
         split: 'splits/2015/SPB_20151206_1_split.htm',
-        video: ['http://www.northernwind.spb.ru/online/video/','https://www.youtube.com/watch?v=bdkxYzB_1qI'],
+        video: ['http://www.northernwind.spb.ru/online/video/','https://www.youtube.com/watch?v=bdkxYzB_1qI','https://www.youtube.com/watch?v=jA06apPgSf8'],
         owner: 'SFSO_SPB',
         o_site: '151206_ST'
     },
@@ -1719,9 +1719,9 @@ let events2015 = [
         date: '2015-12-12',
         place: 'Матокса',
         name: 'Кубок Белых Ночей 2015/16, 4-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/151212_split.htm',
-        owner: 'WN',
         o_site: '151107wn'
     },
     {
@@ -1753,9 +1753,9 @@ let events2015 = [
         date: '2015-12-19',
         place: 'Лехтуси',
         name: 'Кубок Белых Ночей 2015/16, 5-й этап',
+        start: 'KBN',
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/151107wn/151219_split.htm',
-        owner: 'WN',
         o_site: '151107wn'
     },
     {

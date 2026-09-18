@@ -464,7 +464,7 @@ let toksovoMaps = [
         link: './original_maps/forest/toksovo/kuzmolovo_2004_omaps.jpg',
         bounds: [[60.1383852, 30.5093765], [60.1346456, 30.5564547], [60.106767, 30.4998064]],
         author: 'SHRNN',
-        owner: ['SHRNN','GLFSTRM']
+        owner: ['SHRNN','GOLFSTREAM']
     },
     {
         name: 'Куялово',
