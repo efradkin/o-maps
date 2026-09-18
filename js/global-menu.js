@@ -12,6 +12,7 @@ const GLOBAL_MENU_ITEMS = [
                     { title: '🔢 Статистика', page: 'charts-spb' },
                     { title: '🏅 Старты на карте', page: 'starts' },
                     { title: '🏅 Таблица стартов', page: 'sheet-starts' },
+                    { title: '📊 Соревнования по годам', page: 'starts-stat' },
                     { title: '🥾 Маршруты на карте', page: 'tracks' },
                     { title: '🥾 Таблица маршрутов', page: 'sheet-tracks' },
                     { title: '❌ Закрытые районы', page: 'sheet-spb.html?restricted' },

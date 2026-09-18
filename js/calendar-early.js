@@ -2346,7 +2346,7 @@ let eventsEarly = [
     {
         id: 'SPB_19920125_1',
         date: '1992-01-25',
-        endDate: '1992-02-02',
+        // endDate: '1992-02-02',
         place: 'Лемболово, Васкелово',
         name: 'Зимний чемпионат СПб',
         start: 'SPB_CHAMP',

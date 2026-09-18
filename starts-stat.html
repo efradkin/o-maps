@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>O-Maps. Соревнования по годам</title>
+    <meta name="description" content="O-Maps. Диаграмма соревнований по спортивному ориентированию и рогейну: годы проведения и количество стартовых дней.">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css?v=21"/>
+    <link rel="stylesheet" href="css/theme.css?v=16"/>
+    <script src="js/theme-toggle.js?v=20"></script>
+
+    <meta property="og:title" content="O-Maps. Соревнования по годам">
+    <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="O-Maps. Диаграмма соревнований по спортивному ориентированию и рогейну: годы проведения и количество стартовых дней.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <style>
+        /* Стили только этой страницы. Цвета и геометрия берутся из токенов
+           theme.css (--o-*), поэтому тёмная тема работает без доработок. */
+        .starts-charts-body {
+            justify-items: stretch;
+        }
+        .sc-controls {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px 16px;
+            margin: 10px 0 14px;
+        }
+        .sc-controls label {
+            font-weight: 500;
+            color: var(--o-text-muted, #6a7468);
+        }
+        .sc-controls .header_selector {
+            margin-left: 6px;
+        }
+        .sc-legend {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-left: auto;
+            font-size: 13px;
+            color: var(--o-text-muted, #6a7468);
+        }
+        .sc-legend i {
+            display: inline-block;
+            width: 14px;
+            height: 10px;
+            border-radius: 2px;
+            margin-right: 5px;
+            vertical-align: -1px;
+        }
+        .sc-legend .sc-legend-orient  { background: var(--o-bar-orient, #4f9a63); }
+        .sc-legend .sc-legend-rogaine { background: var(--o-bar-rogaine, #d09a3c); }
+
+        .sc-status {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            min-height: 40px;
+            margin: 20px 0;
+            font-weight: 500;
+        }
+        .sc-status img {
+            height: 32px;
+        }
+        .sc-error {
+            color: #b03030;
+        }
+
+        .sc-card {
+            background: var(--o-surface, #fff);
+            border: 1px solid var(--o-border, #dde2d6);
+            border-radius: var(--o-r, 12px);
+            box-shadow: var(--o-sh-1, 0 1px 2px rgba(24,36,24,.06));
+            padding: 10px 12px 12px;
+            margin-bottom: 16px;
+        }
+        .sc-chart {
+            display: flex;
+            align-items: flex-start;
+        }
+        .sc-labels {
+            position: relative;
+            flex: 0 0 auto;
+            width: 260px;
+            align-self: stretch;
+            border-right: 1px solid var(--o-border-soft, #e9ede4);
+        }
+        .sc-label {
+            position: absolute;
+            right: 10px;
+            left: 0;
+            height: 18px;
+            line-height: 18px;
+            font-size: 12px;
+            text-align: right;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: var(--o-text, #1e2620);
+        }
+        .sc-label a {
+            color: inherit;
+        }
+        .sc-label-logo {
+            height: 14px;
+            max-width: 26px;
+            width: auto;
+            object-fit: contain;
+            vertical-align: -3px;
+            margin-right: 5px;
+        }
+        .sc-label a:hover {
+            color: var(--o-accent, #4a7c4e);
+        }
+        .sc-label.sc-label-head {
+            font-weight: 600;
+            color: var(--o-text-muted, #6a7468);
+        }
+        .sc-plot {
+            flex: 1 1 auto;
+            min-width: 0;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+        .sc-plot svg {
+            display: block;
+        }
+        .sc-year-label {
+            font-size: 10px;
+            fill: var(--o-text-muted, #6a7468);
+            font-variant-numeric: tabular-nums;
+        }
+        .sc-grid-line {
+            stroke: var(--o-border-soft, #e9ede4);
+            stroke-width: 1;
+        }
+        .sc-row-stripe {
+            fill: var(--o-surface-2, #eaefe4);
+            opacity: .45;
+        }
+        .sc-band-orient  { fill: var(--o-bar-orient, #4f9a63); }
+        .sc-band-rogaine { fill: var(--o-bar-rogaine, #d09a3c); }
+        .sc-hit {
+            fill: transparent;
+            cursor: pointer;
+        }
+        .sc-highlight {
+            fill: none;
+            stroke: var(--o-text, #1e2620);
+            stroke-width: 1.5;
+            pointer-events: none;
+            display: none;
+        }
+
+        .sc-tooltip {
+            position: fixed;
+            z-index: 1200;
+            max-width: 320px;
+            padding: 8px 11px;
+            background: var(--o-surface, #fff);
+            color: var(--o-text, #1e2620);
+            border: 1px solid var(--o-border, #dde2d6);
+            border-radius: var(--o-r-sm, 8px);
+            box-shadow: var(--o-sh-pop, 0 8px 24px rgba(24,36,24,.14));
+            font-size: 13px;
+            line-height: 1.4;
+            pointer-events: none;
+            display: none;
+        }
+        .sc-tooltip-name {
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+        .sc-tooltip-logo {
+            float: right;
+            max-height: 34px;
+            max-width: 64px;
+            margin: 0 0 4px 10px;
+        }
+        .sc-tooltip-total {
+            color: var(--o-text-muted, #6a7468);
+            font-size: 12px;
+            margin-top: 3px;
+        }
+
+        /* На телефоне внутренняя прокрутка диаграммы оставляла под планки
+           полоску в полтора-два пальца шириной. Поэтому на узких экранах
+           диаграмма разворачивается на свою естественную ширину, а прокручивает
+           её сама страница — привычным горизонтальным смахиванием. */
+        @media (max-width: 700px) {
+            .sc-legend { margin-left: 0; }
+            .sc-plot { overflow-x: visible; }
+            .sc-chart,
+            .sc-card { width: max-content; }
+
+            /* Колонка названий приклеена к левому краю окна: диаграмма уезжает
+               под неё, но видно, чья это строка. Поэтому она узкая и с коротким
+               именем старта — полное показывает всплывающая подсказка. */
+            .sc-labels {
+                position: sticky;
+                left: 0;
+                z-index: 3;
+                width: 96px;
+                background: var(--o-surface, #fff);
+                box-shadow: 3px 0 6px rgba(24, 36, 24, .10);
+            }
+            .sc-label {
+                right: 6px;
+                font-size: 11px;
+            }
+            .sc-label-logo {
+                height: 12px;
+                max-width: 20px;
+                margin-right: 4px;
+            }
+        }
+    </style>
+
+    <base target="_blank">
+</head>
+<body class="stat-body starts-charts-body">
+    <script src="js/utils-common.js?v=20"></script>
+    <script src="js/utils.js?v=20"></script>
+    <header class="page-header">
+        <h1>O-Maps ◪ Соревнования по годам</h1>
+
+        <nav class="page-header-actions" aria-label="Навигация по странице">
+            <a href="index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="images/home.png" alt="Главная страница" /></a>
+            <a href="starts.html" target="_self" class="stat-map-link stat-map-link-right" title="Старты на карте"><img src="images/map_24.png" alt="Старты на карте" /></a>
+
+            <script src="js/global-menu.js?v=21"></script>
+            <script>
+                writeGlobalMenuHtml();
+            </script>
+        </nav>
+    </header>
+
+    <div class="sc-controls">
+        <label for="sc_type_selector">Тип соревнований:
+            <select id="sc_type_selector" class="header_selector">
+                <option value="ALL">Все</option>
+                <option value="ORIENT">Ориент</option>
+                <option value="ROGAINE">Рогейн</option>
+            </select>
+        </label>
+
+        <label for="sc_sort_selector">Сортировка:
+            <select id="sc_sort_selector" class="header_selector">
+                <option value="name">Название</option>
+                <option value="days" selected>К-во стартов</option>
+                <option value="age">Первый старт</option>
+                <option value="years">К-во лет</option>
+            </select>
+        </label>
+
+        <label for="sc_scale_selector">Масштаб толщины:
+            <select id="sc_scale_selector" class="header_selector">
+                <option value="4">Крупный</option>
+                <option value="2" selected>Средний</option>
+                <option value="1">Мелкий</option>
+            </select>
+        </label>
+
+        <span class="sc-legend">
+            <span><i class="sc-legend-orient"></i>ориентирование</span>
+            <span><i class="sc-legend-rogaine"></i>рогейн</span>
+        </span>
+    </div>
+
+    <div class="sc-status" id="sc_status">
+        <img id="sheet-spinner" src="images/walk-spinner.gif" alt="Загрузка" />
+        <span id="sc_status_text">Читаем данные соревнований…</span>
+    </div>
+
+    <section class="sc-card" id="sc_card" style="display: none">
+        <div class="sc-chart">
+            <div class="sc-labels" id="sc_labels"></div>
+            <div class="sc-plot" id="sc_plot"></div>
+        </div>
+    </section>
+
+    <div class="sc-tooltip" id="sc_tooltip"></div>
+
+    <!-- Bootstrap нужен глобальному меню: оно построено на его dropdown.
+         Подключается после разметки меню — hack навешивает обработчики
+         на уже существующие .dropdown. -->
+    <script src="js/ext/bootstrap.min.js"></script>
+    <script src="js/ext/bootstrap5-dropdown-ml-hack.js"></script>
+
+    <noscript>
+        <div id="noscript_content">
+            <h1>O-Maps. Соревнования по годам</h1>
+            <p>
+                Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+            </p>
+        </div>
+    </noscript>
+
+    <script>
+    /* =====================================================================
+       Диаграмма соревнований по годам.
+
+       Страница ничего не хранит в себе: при открытии она подгружает
+       js/starts.js и все календари (список CALENDAR_SOURCES ниже) и строит
+       диаграмму на лету. Добавился новый календарь — допишите одну строку
+       в CALENDAR_SOURCES.
+       ===================================================================== */
+
+    /* Версия для сброса кэша — та же, что в ?v= у остальных js-файлов сайта. */
+    const DATA_VERSION = '20';
+
+    /* Источники данных: файл + имя объявленной в нём переменной. */
+    const CALENDAR_SOURCES = [
+        { file: 'js/calendar-early.js',        variable: 'eventsEarly' },
+        { file: 'js/calendar-2004.js',         variable: 'events2004' },
+        { file: 'js/calendar-2005.js',         variable: 'events2005' },
+        { file: 'js/calendar-2006.js',         variable: 'events2006' },
+        { file: 'js/calendar-2007.js',         variable: 'events2007' },
+        { file: 'js/calendar-2008.js',         variable: 'events2008' },
+        { file: 'js/calendar-2009.js',         variable: 'events2009' },
+        { file: 'js/calendar-2010.js',         variable: 'events2010' },
+        { file: 'js/calendar-2011.js',         variable: 'events2011' },
+        { file: 'js/calendar-2012.js',         variable: 'events2012' },
+        { file: 'js/calendar-2013.js',         variable: 'events2013' },
+        { file: 'js/calendar-2014.js',         variable: 'events2014' },
+        { file: 'js/calendar-2015.js',         variable: 'events2015' },
+        { file: 'js/calendar-2016.js',         variable: 'events2016' },
+        { file: 'js/calendar-2017.js',         variable: 'events2017' },
+        { file: 'js/calendar-2018.js',         variable: 'events2018' },
+        { file: 'js/calendar-2019.js',         variable: 'events2019' },
+        { file: 'js/calendar-2020.js',         variable: 'events2020' },
+        { file: 'js/calendar-2021.js',         variable: 'events2021' },
+        { file: 'js/calendar-2022.js',         variable: 'events2022' },
+        { file: 'js/calendar-2023.js',         variable: 'events2023' },
+        { file: 'js/calendar-2024.js',         variable: 'events2024' },
+        { file: 'js/calendar-2025.js',         variable: 'events2025' },
+        { file: 'js/calendar-2026.js',         variable: 'events2026' },
+        { file: 'js/calendar-common-2026.js',  variable: 'commonEvents2026' },
+    ];
+
+    /* ---------------------------------------------------------------------
+       Коды стартов (ключи записей js/starts.js), которые сейчас попадают на
+       диаграмму. Чтобы убрать соревнование — раскомментируйте его строку.
+       Комментарии справа приведены на момент создания страницы и сами по
+       себе ни на что не влияют; всё считается заново при каждом открытии.
+       --------------------------------------------------------------------- */
+    const EXCLUDED_STARTS = [
+        // 'SPB_CHAMP',            // ЧиП СПб — 351 дн., 1992–2026
+        // 'KBN',                  // КБН — 206 дн., 2014–2026
+        // 'LO_CHAMP',             // ЧиП ЛО — 194 дн., 1971–2026
+        // 'WN',                   // БН — 151 дн., 1971–2026
+        // 'YM_CUP',               // Яркий Кубок — 140 дн., 2004–2025
+        // 'ORIENTIR',             // Ориентир — 138 дн., 1988–2014
+        // 'GORNY_CROSS',          // ГК — 123 дн., 2005–2026, рогейн
+        // 'YM',                   // Яркий Мир — 121 дн., 1998–2025
+        // 'KKP',                  // ККП — 112 дн., 2011–2026
+        // 'ROGAINE_110',          // 110% — 104 дн., 2007–2026, рогейн
+        // 'ST',                   // Спринт-Тур — 103 дн., 2009–2026
+        'RUSSIA_CHAMP',         // Чемпионат России — 97 дн., 1998–2026
+        // 'MMS',                  // ММС — 95 дн., 1993–2026
+        // 'NA',                   // Невский Азимут — 91 дн., 1988–2026
+        // 'SNOW_WAY',             // Снежная тропа — 74 дн., 2004–2026
+        // 'VSEVOLOZHSK_WAY',      // Всеволожская тропа — 48 дн., 2008–2023
+        // 'SCHOOL',               // В школу — 47 дн., 2014–2026
+        // 'KUZMOLOVSKY_STARTS',   // Кузьмоловские старты — 43 дн., 2013–2022
+        // 'SOSNOVOBORSKY_DUNY',   // Сосновоборские дюны — 43 дн., 2005–2026
+        // 'BA',                   // BikeAdventure — 43 дн., 2005–2026, рогейн
+        // 'PERSPEKTIVA',          // Перспектива — 42 дн., 2017–2026
+        // 'KS',                   // Карельские скалы — 36 дн., 1999–2021
+        // '100x24',               // 100x24 — 28 дн., 2007–2018, рогейн
+        // 'VSEV_VESTI',           // Всеволожские Вести — 28 дн., 2006–2026
+        // 'VYBORGSKY_TROIKA',     // Выборгская тройка — 27 дн., 2013–2026
+        // 'GS',                   // Зелёный Змей — 26 дн., 1988–2024
+        // 'WEDDING',              // Золотые Кольца — 25 дн., 1977–2025
+        'RUSSIA_ROGAINE_CHAMP', // Чемпионат России по рогейну — 24 дн., 2007–2026, рогейн
+        // 'OKINCHITSA',           // Окинчица — 23 дн., 1977–2026
+        // 'LM',                   // Лужский Меридиан — 20 дн., 2019–2026, рогейн
+        // 'MATRESHKA',            // МаТрёшка — 20 дн., 2016–2021
+        // 'RFAR',                 // RFAR — 20 дн., 2004–2026, рогейн
+        // 'EUROPEAN_HOPE',        // European hope — 17 дн., 1995–2008
+        // 'WEEKLY_ORIENT',        // Weekly Orient — 16 дн., 2015–2021
+        // 'CONTROLNY_START',      // Контрольный старт — 15 дн., 2023–2026
+        // 'KKR',                  // ККР — 15 дн., 2018–2025, рогейн
+        // '2x2',                  // 2x2 — 14 дн., 2005–2010
+        // 'HARD',                 // HARD — 14 дн., 2021–2026
+        // 'WHITE_NIGHTS',         // White Nights — 14 дн., 2020–2023
+        'USSR_CHAMP',           // Чемпионат СССР — 11 дн., 1981–1991
+        'KKK',                  // ККК — 10 дн., 2025–2026
+        // 'VOLKOV_A',             // Мемориал Андрея Волкова — 10 дн., 2006–2019
+        // 'MB',                   // Марш-Бросок — 9 дн., 2000–2026, рогейн
+        'REPORT',               // Отчёт — 8 дн., 1973–1995
+        // 'STREKOZAIKI',          // Стрекозайки — 8 дн., 2010–2016
+        // 'TA',                   // TrailAdventure — 7 дн., 2017–2026, рогейн
+        'VWC_1995',             // VWC'1995 — 5 дн., 1995–1995
+        'RUSSIA_2024',          // ЧР (спринт) 2024 — 5 дн., 2024–2024
+        'LENINGRAD_30',         // 30 лет Ленинградского ориентирования — 3 дн., 1989–1989
+        // 'KZNTSVA',              // Памяти Кузнецова — 3 дн., 2014–2015
+        'RUSSIA_2019',          // ЧР 2019 — 3 дн., 2019–2019
+        'RUSSIA_2020',          // ЧР (спринт) 2020 — 3 дн., 2020–2020
+        'RUSSIA_2021',          // ЧР (спринт) 2021 — 3 дн., 2021–2021
+        'USSR_1981',            // I Чемпионат СССР — 3 дн., 1981–1981
+        'USSR_1986',            // VI Чемпионат СССР — 3 дн., 1986–1986
+        'MEET_1966',            // Матч'1966 — 2 дн., 1966–1966
+        'USSR_BULGARIA_1968',   // Матч СССР-Болгария'1968 — 2 дн., 1968–1968
+        'PRZHVLSKY',            // Пржевальского — 2 дн., 1977–1977
+        'USSR_V_1971',          // Всесоюзные'1971 — 2 дн., 1971–1971
+        'VYBORGSKY_DISTRICT',   // Интерактивное ориентирование в Выборгском р-не — 1 дн., 2025–2025
+        'WCO_1992',             // Кубок мира — 1 дн., 1992–1992
+        'ESTONIA_LENINGRAD',    // Матч Эстония-Ленинград — 1 дн., 1970–1970
+    ];
+
+    /* Геометрия диаграммы. */
+    const SC = {
+        COL_MIN:  16,   // минимальная ширина года, px
+        COL_MAX:  34,   // максимальная ширина года, px
+        COL_NARROW: 24, // ширина года на узком экране, где ширина не ограничена, px
+        BAR_MIN:   1,   // минимальная видимая толщина планки, px
+        ROW_GAP:   7,   // зазор между строками, px
+        ROW_MIN:  15,   // минимальная высота строки (чтобы влезала подпись), px
+        AXIS_H:   20,   // высота полосы с годами (сверху и снизу), px
+        HIT_MIN:  12,   // минимальная высота зоны наведения, px
+    };
+
+    const SVG_NS = 'http://www.w3.org/2000/svg';
+
+    let allRows = [];        // все соревнования со статистикой
+    let nodes = [];          // узлы диаграммы для тултипа
+    let lastPlotWidth = 0;
+
+    /* ============================ загрузка ============================ */
+
+    function loadScript(src) {
+        return new Promise(function (resolve, reject) {
+            const el = document.createElement('script');
+            el.src = src;
+            el.onload = function () { resolve(); };
+            el.onerror = function () { reject(new Error(src)); };
+            document.head.appendChild(el);
+        });
+    }
+
+    /* Календари объявлены через let, поэтому в window их нет: читаем
+       глобальную лексическую переменную по имени. */
+    function globalValue(name) {
+        try {
+            return (new Function('return typeof ' + name + ' !== "undefined" ? ' + name + ' : undefined;'))();
+        } catch (e) {
+            return undefined;
+        }
+    }
+
+    function setStatus(text, isError) {
+        const status = document.getElementById('sc_status');
+        const spinner = document.getElementById('sheet-spinner');
+        document.getElementById('sc_status_text').textContent = text;
+        status.classList.toggle('sc-error', !!isError);
+        if (spinner) spinner.style.display = isError ? 'none' : '';
+        status.style.display = text ? 'flex' : 'none';
+    }
+
+    async function loadData() {
+        const sources = [{ file: 'js/starts.js', variable: 'starts' }].concat(CALENDAR_SOURCES);
+        const failed = [];
+        let done = 0;
+
+        setStatus('Читаем данные соревнований… 0 из ' + sources.length);
+
+        await Promise.all(sources.map(function (s) {
+            return loadScript(s.file + '?v=' + DATA_VERSION)
+                .catch(function () { failed.push(s.file); })
+                .then(function () {
+                    done++;
+                    setStatus('Читаем данные соревнований… ' + done + ' из ' + sources.length);
+                });
+        }));
+
+        if (failed.length) {
+            console.warn('Не загрузились файлы данных: ' + failed.join(', '));
+        }
+        return failed;
+    }
+
+    /* ============================ разбор ============================ */
+
+    function parseDate(value) {
+        if (Array.isArray(value)) value = value[0];
+        if (typeof value !== 'string') return null;
+        const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(value);
+        if (!m) return null;
+        return new Date(+m[1], +m[2] - 1, +m[3]);
+    }
+
+    function dateKey(d) {
+        const mm = d.getMonth() + 1;
+        const dd = d.getDate();
+        return d.getFullYear() + '-' + (mm < 10 ? '0' : '') + mm + '-' + (dd < 10 ? '0' : '') + dd;
+    }
+
+    /* Стартовые дни события: date .. endDate включительно.
+       Ограничение в 400 дней — страховка от зацикливания на битой дате. */
+    function eventDays(e) {
+        const first = parseDate(e.date);
+        if (!first) return [];
+        let last = e.endDate ? parseDate(e.endDate) : first;
+        if (!last || last < first) last = first;
+
+        const days = [];
+        const d = new Date(first.getTime());
+        while (d <= last && days.length < 400) {
+            days.push(dateKey(d));
+            d.setDate(d.getDate() + 1);
+        }
+        return days;
+    }
+
+    const htmlBox = document.createElement('div');
+
+    function plainText(html) {
+        htmlBox.innerHTML = html || '';
+        return (htmlBox.textContent || '').trim();
+    }
+
+    function collectRows() {
+        const startsData = globalValue('starts') || {};
+        const excluded = new Set(EXCLUDED_STARTS);
+        const seenIds = new Set();
+        const byCode = new Map();
+
+        for (const source of CALENDAR_SOURCES) {
+            const events = globalValue(source.variable);
+            if (!Array.isArray(events)) continue;
+
+            for (const e of events) {
+                if (!e || !e.start || !e.date) continue;
+                if (e.id) {
+                    if (seenIds.has(e.id)) continue;   // один и тот же старт в двух календарях
+                    seenIds.add(e.id);
+                }
+
+                const days = eventDays(e);
+                if (!days.length) continue;
+
+                const codes = Array.isArray(e.start) ? e.start : [e.start];
+                for (const code of codes) {
+                    if (!code || excluded.has(code)) continue;
+
+                    let row = byCode.get(code);
+                    if (!row) {
+                        const s = startsData[code] || {};
+                        row = {
+                            code: code,
+                            short: s.short || plainText(s.name) || code,
+                            name: plainText(s.name) || s.short || code,
+                            logo: s.logo || null,
+                            rogaine: !!s.rogaine,
+                            days: new Map(),      // год -> Set дат
+                        };
+                        byCode.set(code, row);
+                    }
+
+                    for (const day of days) {
+                        const y = +day.slice(0, 4);
+                        let set = row.days.get(y);
+                        if (!set) { set = new Set(); row.days.set(y, set); }
+                        set.add(day);
+                    }
+                }
+            }
+        }
+
+        const rows = [];
+        byCode.forEach(function (row) {
+            const years = new Map();
+            let total = 0;
+            let max = 0;
+            row.days.forEach(function (set, year) {
+                years.set(year, set.size);
+                total += set.size;
+                if (set.size > max) max = set.size;
+            });
+            delete row.days;
+            row.years = years;
+            row.total = total;
+            row.max = max;
+            row.minYear = Math.min.apply(null, Array.from(years.keys()));
+            row.maxYear = Math.max.apply(null, Array.from(years.keys()));
+            rows.push(row);
+        });
+
+        /* Сверху — у кого больше дней проведения; при равенстве — по алфавиту. */
+        rows.sort(function (a, b) {
+            if (b.total !== a.total) return b.total - a.total;
+            return a.name.localeCompare(b.name, 'ru');
+        });
+        return rows;
+    }
+
+    /* ============================ отрисовка ============================ */
+
+    function svgEl(name, attrs) {
+        const el = document.createElementNS(SVG_NS, name);
+        for (const k in attrs) el.setAttribute(k, attrs[k]);
+        return el;
+    }
+
+    function yearLabelStep(col) {
+        if (col >= 30) return 1;
+        if (col >= 22) return 2;
+        return 5;
+    }
+
+    /* Годы с подписью: кратные шагу плюс крайние — но крайний пропускаем,
+       если он встанет вплотную к соседней подписи и они налезут друг на друга.
+       Столбцы при этом рисуются для всех лет подряд, пропусков в оси нет. */
+    function labelledYears(minYear, maxYear, step) {
+        const years = [];
+        for (let year = minYear; year <= maxYear; year++) {
+            if (year % step === 0) years.push(year);
+        }
+        if (step > 1) {
+            if (!years.length || years[0] - minYear >= step - 1) years.unshift(minYear);
+            if (!years.length || maxYear - years[years.length - 1] >= step - 1) years.push(maxYear);
+        }
+        return years;
+    }
+
+    function isNarrowScreen() {
+        return window.matchMedia('(max-width: 700px)').matches;
+    }
+
+    function visibleRows() {
+        const type = document.getElementById('sc_type_selector').value;
+        let rows = allRows;
+        if (type === 'ROGAINE') rows = allRows.filter(function (r) { return r.rogaine; });
+        if (type === 'ORIENT') rows = allRows.filter(function (r) { return !r.rogaine; });
+        return sortRows(rows);
+    }
+
+    /* Сортировка строк сверху вниз. Количественные варианты — по убыванию,
+       название — по алфавиту. При равенстве всегда доводим до однозначного
+       порядка, чтобы строки не прыгали при перерисовке. */
+    function sortRows(rows) {
+        const mode = document.getElementById('sc_sort_selector').value;
+        const byName = function (a, b) { return a.name.localeCompare(b.name, 'ru'); };
+
+        return rows.slice().sort(function (a, b) {
+            if (mode === 'name') {
+                return byName(a, b);
+            }
+            if (mode === 'age') {
+                /* Первый старт: сверху те, кто начался раньше всех. */
+                if (a.minYear !== b.minYear) return a.minYear - b.minYear;
+                if (b.total !== a.total) return b.total - a.total;
+                return byName(a, b);
+            }
+            if (mode === 'years') {
+                if (b.years.size !== a.years.size) return b.years.size - a.years.size;
+                if (b.total !== a.total) return b.total - a.total;
+                return byName(a, b);
+            }
+            if (b.total !== a.total) return b.total - a.total;
+            return byName(a, b);
+        });
+    }
+
+    function render() {
+        const plot = document.getElementById('sc_plot');
+        const labels = document.getElementById('sc_labels');
+        const card = document.getElementById('sc_card');
+
+        /* Запоминаем прокрутку до того, как выбросить старую диаграмму. */
+        const keepScrollLeft = plot.firstChild ? plot.scrollLeft : null;
+
+        labels.innerHTML = '';
+        plot.innerHTML = '';
+        nodes = [];
+        hideTooltip();
+
+        const rows = visibleRows();
+        card.style.display = '';
+        if (!rows.length) {
+            setStatus('Для выбранного типа соревнований данных нет.');
+            return;
+        }
+
+        let minYear = Infinity;
+        let maxYear = -Infinity;
+        for (const r of rows) {
+            if (r.minYear < minYear) minYear = r.minYear;
+            if (r.maxYear > maxYear) maxYear = r.maxYear;
+        }
+
+        const yearCount = maxYear - minYear + 1;
+        /* На узком экране диаграмму не ужимаем: год получает фиксированную
+           ширину, а лишнее уезжает за край — страница прокручивается. */
+        const available = plot.clientWidth || 800;
+        const col = isNarrowScreen()
+            ? SC.COL_NARROW
+            : Math.max(SC.COL_MIN, Math.min(SC.COL_MAX, Math.floor(available / yearCount)));
+        const width = col * yearCount;
+
+        /* Толщина планки — абсолютная величина: столько-то пикселей за каждый
+           стартовый день. Значение селектора и есть цена дня: «Мелкий» 1 px,
+           «Средний» 2 px, «Крупный» 4 px. От состава диаграммы масштаб не
+           зависит, поэтому планку можно сравнивать с планкой и при другом
+           фильтре, и после правки EXCLUDED_STARTS. */
+        const pxPerDay = +document.getElementById('sc_scale_selector').value || 1;
+        function barWidth(days) {
+            return Math.max(SC.BAR_MIN, pxPerDay * days);
+        }
+
+        /* Геометрия строк. */
+        let y = SC.AXIS_H;
+        const geometry = rows.map(function (row) {
+            const height = Math.max(SC.ROW_MIN, Math.round(barWidth(row.max)));
+            const item = { row: row, top: y, height: height, center: y + height / 2 };
+            y += height + SC.ROW_GAP;
+            return item;
+        });
+        const bodyBottom = y - SC.ROW_GAP;
+        const totalHeight = bodyBottom + SC.AXIS_H;
+
+        const svg = svgEl('svg', {
+            width: width,
+            height: totalHeight,
+            viewBox: '0 0 ' + width + ' ' + totalHeight,
+        });
+
+        /* Полосы строк — чтобы глаз не терял строку на длинной диаграмме. */
+        geometry.forEach(function (g, i) {
+            if (i % 2 === 0) return;
+            svg.appendChild(svgEl('rect', {
+                x: 0, y: g.top - SC.ROW_GAP / 2,
+                width: width, height: g.height + SC.ROW_GAP,
+                'class': 'sc-row-stripe',
+            }));
+        });
+
+        /* Сетка и подписи годов — сверху и снизу. */
+        const step = yearLabelStep(col);
+        for (const year of labelledYears(minYear, maxYear, step)) {
+            const x = (year - minYear) * col + col / 2;
+            svg.appendChild(svgEl('line', {
+                x1: x, y1: SC.AXIS_H - 4, x2: x, y2: bodyBottom + 4, 'class': 'sc-grid-line',
+            }));
+            for (const ty of [SC.AXIS_H - 7, bodyBottom + SC.AXIS_H - 6]) {
+                const text = svgEl('text', { x: x, y: ty, 'class': 'sc-year-label', 'text-anchor': 'middle' });
+                text.textContent = year;
+                svg.appendChild(text);
+            }
+        }
+
+        /* Планки: сплошной участок = подряд идущие годы проведения. */
+        geometry.forEach(function (g) {
+            const row = g.row;
+            const cls = row.rogaine ? 'sc-band-rogaine' : 'sc-band-orient';
+
+            let run = [];
+            for (let year = minYear; year <= maxYear + 1; year++) {
+                const days = row.years.get(year) || 0;
+                if (days > 0 && year <= maxYear) {
+                    run.push({ year: year, days: days });
+                    continue;
+                }
+                if (run.length) {
+                    svg.appendChild(svgEl('path', { d: bandPath(run, g, minYear, col, barWidth), 'class': cls }));
+                    run = [];
+                }
+            }
+
+            /* Зоны наведения — по одной на год проведения. Каждая обёрнута в
+               ссылку на календарь этого года: работают и обычный клик, и
+               средняя кнопка, и «открыть в новой вкладке». */
+            row.years.forEach(function (days, year) {
+                const x = (year - minYear) * col;
+                const bar = barWidth(days);
+                const hit = Math.max(SC.HIT_MIN, bar);
+                const rect = svgEl('rect', {
+                    x: x, y: g.center - hit / 2, width: col, height: hit, 'class': 'sc-hit',
+                });
+                rect.setAttribute('data-node', nodes.length);
+
+                /* target проставляем явно: <base target="_blank"> действует на
+                   html-ссылки, а на svg-якорь браузеры его не распространяют. */
+                const link = svgEl('a', {
+                    href: 'calendar.html?startYear=' + year
+                        + '&start=' + encodeURIComponent(row.code),
+                    target: '_blank',
+                });
+                link.appendChild(rect);
+                nodes.push({
+                    row: row, year: year, days: days,
+                    x: x, y: g.center - bar / 2, w: col, h: bar,
+                });
+                svg.appendChild(link);
+            });
+        });
+
+        const highlight = svgEl('rect', { 'class': 'sc-highlight', id: 'sc_highlight', rx: 2 });
+        svg.appendChild(highlight);
+
+        svg.addEventListener('mousemove', onPlotMove);
+        svg.addEventListener('mouseleave', hideTooltip);
+        plot.appendChild(svg);
+
+        /* Подписи слева — выровнены по центрам строк. */
+        const narrow = isNarrowScreen();
+
+        const head = document.createElement('div');
+        head.className = 'sc-label sc-label-head';
+        head.style.top = (SC.AXIS_H - 20) + 'px';
+        head.textContent = 'Соревнование';
+        labels.appendChild(head);
+
+        geometry.forEach(function (g) {
+            const div = document.createElement('div');
+            div.className = 'sc-label';
+            div.style.top = (g.center - 9) + 'px';
+            div.title = g.row.name + ' — ' + g.row.total + ' '
+                + plural(g.row.total, 'стартовый день', 'стартовых дня', 'стартовых дней')
+                + ' за ' + g.row.years.size + ' '
+                + plural(g.row.years.size, 'год', 'года', 'лет');
+            const a = document.createElement('a');
+            a.href = 'start.html?start=' + encodeURIComponent(g.row.code);
+            if (g.row.logo) {
+                /* Логотипа может не оказаться на диске — тогда просто прячем картинку. */
+                const img = document.createElement('img');
+                img.className = 'sc-label-logo';
+                img.src = 'logo/' + g.row.logo;
+                img.alt = '';
+                img.onerror = function () { this.style.display = 'none'; };
+                a.appendChild(img);
+            }
+            a.appendChild(document.createTextNode(narrow ? g.row.short : g.row.name));
+            div.appendChild(a);
+            labels.appendChild(div);
+        });
+        labels.style.height = totalHeight + 'px';
+
+        /* Первая отрисовка показывает свежие годы — правый край диаграммы.
+           При перестроении (фильтр, масштаб, resize) остаёмся там, где были.
+           На узком экране прокручивается страница, а не .sc-plot. */
+        if (isNarrowScreen()) {
+            if (keepScrollLeft === null) {
+                window.scrollTo(document.documentElement.scrollWidth, window.scrollY);
+            }
+        } else if (keepScrollLeft === null) {
+            plot.scrollLeft = plot.scrollWidth;
+        } else {
+            plot.scrollLeft = Math.min(keepScrollLeft, plot.scrollWidth);
+        }
+
+        lastPlotWidth = plot.clientWidth;
+    }
+
+    /* Ступенчатый контур планки: у каждого года своя толщина. */
+    function bandPath(run, g, minYear, col, barWidth) {
+        const top = [];
+        const bottom = [];
+        for (const cell of run) {
+            const x1 = (cell.year - minYear) * col;
+            const x2 = x1 + col;
+            const half = barWidth(cell.days) / 2;
+            top.push([x1, g.center - half], [x2, g.center - half]);
+            bottom.push([x1, g.center + half], [x2, g.center + half]);
+        }
+        /* Нижний контур проходим справа налево: reverse() переворачивает и
+           порядок лет, и порядок точек внутри года — получается замкнутый
+           контур, а не «бантик». */
+        bottom.reverse();
+
+        const points = top.concat(bottom);
+        let d = '';
+        points.forEach(function (p, i) {
+            d += (i === 0 ? 'M' : 'L') + p[0].toFixed(1) + ' ' + p[1].toFixed(1);
+        });
+        return d + 'Z';
+    }
+
+    function plural(n, one, few, many) {
+        const n10 = n % 10;
+        const n100 = n % 100;
+        if (n10 === 1 && n100 !== 11) return one;
+        if (n10 >= 2 && n10 <= 4 && (n100 < 10 || n100 >= 20)) return few;
+        return many;
+    }
+
+    /* ============================ тултип ============================ */
+
+    function onPlotMove(event) {
+        const target = event.target.closest ? event.target.closest('[data-node]') : null;
+        if (!target) {
+            hideTooltip();
+            return;
+        }
+        showTooltip(nodes[+target.getAttribute('data-node')], event);
+    }
+
+    function showTooltip(node, event) {
+        if (!node) return;
+        const tooltip = document.getElementById('sc_tooltip');
+        const highlight = document.getElementById('sc_highlight');
+
+        if (highlight) {
+            highlight.setAttribute('x', node.x + 0.75);
+            highlight.setAttribute('y', node.y + 0.75);
+            highlight.setAttribute('width', Math.max(1, node.w - 1.5));
+            highlight.setAttribute('height', Math.max(1, node.h - 1.5));
+            highlight.style.display = 'block';
+        }
+
+        let html = '';
+        if (node.row.logo) {
+            html += '<img class="sc-tooltip-logo" src="logo/' + node.row.logo
+                 + '" alt="" onerror="this.style.display=\'none\'" />';
+        }
+        html += '<div class="sc-tooltip-name">' + escapeHtml(node.row.name) + '</div>';
+        html += '<div>' + node.year + ' год</div>';
+        html += '<div>Стартовых дней: <b>' + node.days + '</b></div>';
+        html += '<div class="sc-tooltip-total">Всего ' + node.row.total + ' за '
+             + node.row.years.size + ' ' + plural(node.row.years.size, 'год', 'года', 'лет') + '</div>';
+        tooltip.innerHTML = html;
+        tooltip.style.display = 'block';
+
+        const box = tooltip.getBoundingClientRect();
+        let left = event.clientX + 16;
+        let top = event.clientY + 16;
+        if (left + box.width > window.innerWidth - 8) left = event.clientX - box.width - 16;
+        if (top + box.height > window.innerHeight - 8) top = event.clientY - box.height - 16;
+        tooltip.style.left = Math.max(8, left) + 'px';
+        tooltip.style.top = Math.max(8, top) + 'px';
+    }
+
+    function hideTooltip() {
+        const tooltip = document.getElementById('sc_tooltip');
+        const highlight = document.getElementById('sc_highlight');
+        if (tooltip) tooltip.style.display = 'none';
+        if (highlight) highlight.style.display = 'none';
+    }
+
+    function escapeHtml(text) {
+        return String(text).replace(/[&<>"]/g, function (c) {
+            return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+        });
+    }
+
+    /* ============================ запуск ============================ */
+
+    async function start() {
+        const failed = await loadData();
+
+        if (!globalValue('starts')) {
+            setStatus('Не удалось загрузить js/starts.js — диаграмму построить не из чего.', true);
+            return;
+        }
+
+        setStatus('Строим диаграмму…');
+        /* Даём браузеру отрисовать спиннер перед счётом. */
+        await new Promise(function (resolve) { setTimeout(resolve, 0); });
+
+        allRows = collectRows();
+        if (!allRows.length) {
+            setStatus('В календарях не нашлось ни одного соревнования с полем start.', true);
+            return;
+        }
+
+        render();
+        setStatus('', false);
+
+        document.getElementById('sc_type_selector').addEventListener('change', render);
+        document.getElementById('sc_sort_selector').addEventListener('change', render);
+        document.getElementById('sc_scale_selector').addEventListener('change', render);
+
+        let resizeTimer = null;
+        window.addEventListener('resize', function () {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function () {
+                if (document.getElementById('sc_plot').clientWidth !== lastPlotWidth) render();
+            }, 150);
+        });
+
+        if (failed.length) {
+            console.warn('Диаграмма построена без файлов: ' + failed.join(', '));
+        }
+    }
+
+    start();
+    </script>
+</body>
+</html>
