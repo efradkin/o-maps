@@ -2557,13 +2557,12 @@ let events2026 = [
     {
         id: 'SPB_20260917_1',
         date: '2026-09-17',
-        name: 'Dлительная серия. V этап',
+        name: 'Отборочный спринт СФСО СПб, Длительная серия 5-й этап',
         place: 'Комендантский пр',
         type: 'ORIENT',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/55347',
         link: 'https://t.me/dlitelnyy/691',
-        info: 'Отборочный старт СФСО СПб + тренировочные дистанции.',
         map: 'koroleva_2026',
         owner: 'DLITELNY'
     },
@@ -2682,6 +2681,7 @@ let events2026 = [
         type: 'ORIENT',
         fmt: 'спринт',
         map: 'zanevsky_2026',
+        info: 'Перенос даты! Старт бесплатный. Детские группы + OPEN. Награждение 17.10.',
         owner: 'FENIX'
     },
     {
@@ -2863,6 +2863,15 @@ let events2026 = [
         info: 'Памяти Ю.М.Артемьева.'
     },
     {
+        id: 'SPB_20261017_3',
+        date: '2026-10-17',
+        name: 'Легенды осени',
+        place: 'Ильинский сад',
+        type: 'ORIENT',
+        owner: 'FENIX',
+        map: 'ilinsky_garden_2026'
+    },
+    {
         id: 'SPB_20261018_1',
         date: '2026-10-18',
         name: 'ЧиП ЛО',
@@ -2919,6 +2928,18 @@ let events2026 = [
         owner: 'PSKOV_RUS'
     },
     {
+        id: 'SPB_20261031_1',
+        date: '2026-10-31',
+        place: 'Луга, мемориал Партизанск',
+        name: 'Лужский меридиан',
+        fmt: '4, 2.5',
+        type: 'ROGAINE',
+        link: 'https://vk.ru/wall-91656163_2744',
+        reg: 'https://orgeo.ru/event/info/55469',
+        map: 'luga_shalovo_lm_2023',
+        start: 'LM'
+    },
+    {
         id: 'SPB_20261101_1',
         date: '2026-11-01',
         name: 'Кубок D2RUN, финал',
@@ -2962,6 +2983,14 @@ let events2026 = [
         start: 'SNOW_WAY',
         type: 'ORIENT',
         fmt: 'спринт'
+    },
+    {
+        id: 'SPB_20261128_1',
+        date: '2026-11-28',
+        name: 'День матери',
+        type: 'ORIENT',
+        owner: 'FENIX',
+        map: 'poljustrovo_tukhachevskogo_2026'
     },
     {
         id: 'SPB_20261206_1',

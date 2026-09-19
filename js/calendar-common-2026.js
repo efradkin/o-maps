@@ -720,7 +720,7 @@ let commonEvents2026 = [
             'https://blinova-photo.ru/disk/11-09-2026-nevskiy-sprint-1-den-v3kkms'
         ],
         video: 'https://vkvideo.ru/video-154221178_456239094',
-        info: '<a href="https://tapi-o.app/ru/live/NWSP26">Видеосплиты</a>.',
+        info: 'Видеосплиты: [<a href="https://tapi-o.app/ru/live/NWSP26">1</a>], [<a href="http://northernwind.spb.ru/videosplit/2026/ns/d1/">2</a>], [<a href="http://northernwind.spb.ru/videosplit/2026/ns/d2/">3</a>], [<a href="http://northernwind.spb.ru/videosplit/2026/ns/relay/">4</a>], [<a href="http://northernwind.spb.ru/videosplit/2026/ns/d3/">5</a>].',
         publish: [
             'https://vk.ru/album-230167293_314439429',
             'https://vk.ru/album-230167293_314459027',
@@ -748,6 +748,7 @@ let commonEvents2026 = [
         place: 'Мичуринское',
         o_site: '260920',
         reg: 'https://orgeo.ru/event/54773',
+        photo: 'https://vk.ru/album-196511971_311919189',
         type: 'ORIENT',
         fmt: 'классика, лонг',
         owner: 'WN'
