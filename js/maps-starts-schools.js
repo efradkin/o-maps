@@ -53,6 +53,16 @@ let schoolMaps = [
     },
     {
         name: 'Школа №141',
+        year: 2026,
+        url: './maps/city/school_141_2026.webp',
+        link: './original_maps/schools/school_141_2026_omaps.gif',
+        bounds: [[59.9524962, 30.4867601], [59.9524103, 30.5051494], [59.9453505, 30.4869318]],
+        author: ['RDNV_I','DRBSHV','VSLVSKY'],
+        owner: 'RDNV_I',
+        type: ['CITY']
+    },
+    {
+        name: 'Школа №141',
         year: 2015,
         start: 'SCHOOL',
         url: './maps/city/school_141_2015.webp',

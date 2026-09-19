@@ -2681,7 +2681,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/54639',
         type: 'ORIENT',
         fmt: 'спринт',
-        map: 'zanevsky_2019',
+        map: 'zanevsky_2026',
         owner: 'FENIX'
     },
     {

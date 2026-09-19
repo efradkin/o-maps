@@ -493,6 +493,16 @@ let cityMaps = [
         owner: 'RDNV_I'
     },
     {
+        name: 'Полюстрово, ул Маршала Тухачевского',
+        year: 2026,
+        url: './maps/city/poljustrovo_tukhachevskogo_2026.webp',
+        link: './original_maps/city/poljustrovo_tukhachevskogo_2026_omaps.webp',
+        bounds: [[59.9682757, 30.4301977], [59.9670192, 30.4411626], [59.9605749, 30.4265499]],
+        type: ['CITY'],
+        author: 'RDNV_I',
+        owner: 'RDNV_I'
+    },
+    {
         name: 'Полюстрово, школа №188',
         year: 2016,
         url: './maps/city/school_188_2016.webp',
@@ -1935,6 +1945,16 @@ let cityMaps = [
         bounds: [[59.9255172, 30.4436088], [59.9243989, 30.4560757], [59.9187636, 30.4407334]],
         author: 'RYLOV_V',
         owner: 'RYLOV_V',
+        type: ['CITY']
+    },
+    {
+        name: 'Янино',
+        year: 2026,
+        url: './maps/city/janino_2026.webp',
+        link: './original_maps/city/janino_2026_omaps.webp',
+        bounds: [[59.9555259, 30.5725050], [59.9540219, 30.5866885], [59.9464359, 30.5684280]],
+        author: 'RDNV_I',
+        owner: 'RDNV_I',
         type: ['CITY']
     },
     {

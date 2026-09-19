@@ -1818,6 +1818,16 @@ let parkMaps = [
         type: ['SPRINT', 'PARK']
     },
     {
+        name: 'Заневский парк',
+        year: 2026,
+        url: './maps/parks/zanevsky_2026.webp',
+        link: './original_maps/parks/zanevsky_2026_omaps.gif',
+        bounds: [[59.9237160, 30.4092765], [59.9221890, 30.4234171], [59.9176343, 30.4065621]],
+        author: 'RDNV_I',
+        owner: 'RDNV_I',
+        type: ['PARK']
+    },
+    {
         name: 'Заневский парк (им Терешковой)',
         year: 2019,
         url: './maps/parks/zanevsky_2019.webp',

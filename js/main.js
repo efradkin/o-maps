@@ -1446,7 +1446,7 @@ function buildMapPopup(m) {
     }
 
     // иконка
-    let logo = logoList(m, events);
+    let logo = logoList(m);
     logo.forEach((value, idx, arr) => {
         arr[idx] = 'logo/' + arr[idx];
     });
