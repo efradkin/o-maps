@@ -644,7 +644,6 @@ function downloadIconExt(url) {
         case 'html':
         case 'htm':
         case 'php':
-        case 'webp':
         case 'djvu':
         case 'rar':
         case 'xlsx':
