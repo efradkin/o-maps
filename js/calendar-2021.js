@@ -1168,6 +1168,16 @@ let events2021 = [
         strava: 5460852214
     },
     {
+        id: 'SPB_20210612_4',
+        date: '2021-06-12',
+        place: 'Балтиец',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        map: 'vjisotsk_rfar_2021',
+        o_gps: 10166
+    },
+    {
         id: 'SPB_20210613_1',
         date: '2021-06-13',
         endDate: '2021-06-18',

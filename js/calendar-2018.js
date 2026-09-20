@@ -940,6 +940,15 @@ let events2018 = [
         o_site: '180610V'
     },
     {
+        id: 'SPB_20180610_2',
+        date: '2018-06-10',
+        place: 'Барышево',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        map: 'baryshevo_rfar_2018'
+    },
+    {
         id: 'SPB_20180611_1',
         date: '2018-06-11',
         place: 'Орехово',

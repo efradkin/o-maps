@@ -415,6 +415,16 @@ let events2006 = [
         map:['kanneljarvi_istok_2006','kanneljarvi_bystrjanka_2006','yagodnoe_na_2006']
     },
     {
+        id: 'SPB_20060610_2',
+        date: '2006-06-10',
+        endDate: '2006-06-11',
+        place: 'Медное и Пасторское оз, Гарболово, Банное оз',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        map: ['vaskelovo_bannoe_2006','mednoe_rfar_2006','mednoe_pastorskoe_rfar_rogaine_2006','vaskelovo_bannoe_rfar_rogaine_2006']
+    },
+    {
         id: 'SPB_20060613_1',
         date: '2006-06-13',
         endDate: '2006-06-15',

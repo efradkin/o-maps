@@ -3228,6 +3228,33 @@ let eventsEarly = [
         res: './docs/2001/2001_08_26_green_snake_omaps.pdf'
     },
     {
+        id: 'SPB_20020618_1',
+        date: '2002-06-18',
+        place: 'пл 67км, оз Ветреное',
+        name: 'Яркий Мир',
+        start: 'YM',
+        map: 'ym_2002_06_18'
+    },
+    {
+        id: 'SPB_20020620_1',
+        date: '2002-06-20',
+        endDate: '2002-06-21',
+        place: 'Колосково',
+        name: 'Белые Ночи',
+        start: 'WN',
+        map: ['wn_2002_06','wn_2002_06_2']
+    },
+    {
+        id: 'SPB_20020624_1',
+        date: '2002-06-24',
+        endDate: '2002-06-25',
+        place: 'Богатыри',
+        name: 'Карельские скалы',
+        type: 'ORIENT',
+        start: 'KS',
+        map: ['ks_2002_06_24','ks_2002_06_25']
+    },
+    {
         id: 'SPB_20020628_1',
         date: '2002-06-28',
         endDate: '2002-06-30',
@@ -3248,6 +3275,54 @@ let eventsEarly = [
         info: 'Первый Три-О-Тлон',
         logo: 'triotlon.gif',
         o_site: 'TOT2002'
+    },
+    {
+        id: 'SPB_20030220_1',
+        date: '2003-02-20',
+        endDate: '2003-02-21',
+        place: 'Цвелодубово',
+        name: 'Чемпионат мира по ориентированию на лыжах среди юниоров',
+        type: 'SKI',
+        start: 'JWSOC_2003',
+        map: ['tsvelodubovo_winter_2003','tsvelodubovo_rybatskoe_2003']
+    },
+    {
+        id: 'SPB_20030617_1',
+        date: '2003-06-17',
+        endDate: '2003-06-18',
+        place: 'Цвелодубово',
+        name: 'Яркий мир',
+        start: 'YM',
+        map: ['tsvelodubovo_nagornoe_2003','tsvelodubovo_marchenkovsky_2003']
+    },
+    {
+        id: 'SPB_20030620_1',
+        date: '2003-06-20',
+        endDate: '2003-06-22',
+        place: 'Первомайское, оз Монетка',
+        name: 'Белые Ночи',
+        start: 'WN',
+        map: ['wn_2003_06_20','wn_2003_06_21','wn_2003_06_22']
+    },
+    {
+        id: 'SPB_20030624_1',
+        date: '2003-06-24',
+        endDate: '2003-06-26',
+        place: 'Каменногорск, Боровинка',
+        name: 'Карельские скалы',
+        type: 'ORIENT',
+        start: 'KS',
+        map: ['ks_2003_06_24','ks_2003_06_25','ks_2003_06_26']
+    },
+    {
+        id: 'SPB_20030627_1',
+        date: '2003-06-27',
+        endDate: '2003-06-29',
+        place: 'Каменногорск',
+        name: 'Мемориал Михаила Святкина',
+        type: 'ORIENT',
+        start: 'MMS',
+        map: ['mms_2003_06_27','mms_2003_06_28','mms_2003_06_29']
     },
     {
         id: 'SPB_20030802_1',

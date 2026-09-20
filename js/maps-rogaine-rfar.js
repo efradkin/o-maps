@@ -65,7 +65,6 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/kuznechnoe_rfar_2019_omaps.gif',
         bounds: [[61.3401268, 29.6390533], [61.2723781, 30.1427078], [61.0875126, 29.5072174]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2019/',
-        o_gps: 5882,
         owner: 'RFAR',
         type: ['ROGAINE']
     },
@@ -89,7 +88,6 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/lahdenpohja_rfar_2020_omaps.gif',
         bounds: [[61.5833683, 29.921608], [61.5384062, 30.4211426], [61.2933282, 29.8079681]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2020/',
-        o_gps: 7968,
         owner: 'RFAR',
         type: ['ROGAINE']
     },
@@ -101,7 +99,6 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/vjisotsk_rfar_2021_omaps.gif',
         bounds: [[60.8957167, 28.1469727], [60.8970526, 28.7141418], [60.5241848, 28.1236267]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2021/',
-        o_gps: 10166,
         author: ['STRGNV','CHGRVSKY_M'],
         owner: 'RFAR',
         type: ['ROGAINE']

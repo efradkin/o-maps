@@ -962,6 +962,16 @@ let events2019 = [
         map: ['kkp_prudy_2019_06_15','kkp_prudy_2019_06_16']
     },
     {
+        id: 'SPB_20190610_2',
+        date: '2019-06-10',
+        place: 'Кузнечное',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        map: 'kuznechnoe_rfar_2019',
+        o_gps: 5882
+    },
+    {
         id: 'SPB_20190611_1',
         date: '2019-06-11',
         place: 'Луга',

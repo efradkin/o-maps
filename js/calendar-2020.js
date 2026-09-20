@@ -869,6 +869,16 @@ let events2020 = [
         reskeep: 350
     },
     {
+        id: 'SPB_20200807_1',
+        date: '2020-08-07',
+        place: 'Лахденпохья',
+        name: 'Red Fox Adventure Race',
+        type: 'MULTI',
+        start: 'RFAR',
+        map: 'lahdenpohja_rfar_2020',
+        o_gps: 7968
+    },
+    {
         id: 'SPB_20200812_1',
         date: '2020-08-12',
         name: 'Онлайн-старт по ориентированию',
