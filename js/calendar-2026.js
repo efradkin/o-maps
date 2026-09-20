@@ -2576,6 +2576,7 @@ let events2026 = [
         photo: 'https://vk.ru/album-31941981_311862815',
         type: 'ROGAINE',
         fmt: '5(4), 2',
+        o_gps: 25994,
         map: 'molodezhnoe_gk_2024',
         start: 'GORNY_CROSS'
     },

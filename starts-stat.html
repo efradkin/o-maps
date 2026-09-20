@@ -168,6 +168,31 @@
             fill: transparent;
             cursor: pointer;
         }
+        /* Зона наведения на всю ширину строки: ловит строку и там, где планки
+           нет. Прозрачная, но события получает — fill: none их не ловит. */
+        .sc-row-hit {
+            fill: transparent;
+        }
+        /* Подсветка строки под курсором. Один и тот же токен --o-accent-soft
+           используют строки таблиц на других страницах, и он же переопределён
+           в :root.o-dark — тёмная тема работает без отдельных правил. */
+        .sc-row-hover {
+            fill: var(--o-accent-soft, #e7f0e5);
+            pointer-events: none;
+            display: none;
+        }
+        .sc-row-hover-label {
+            position: absolute;
+            left: 0;
+            right: 0;
+            background: var(--o-accent-soft, #e7f0e5);
+            border-radius: var(--o-r-xs, 6px) 0 0 var(--o-r-xs, 6px);
+            pointer-events: none;
+            display: none;
+        }
+        .sc-label.is-hover a {
+            color: var(--o-accent-dark, #37613b);
+        }
         .sc-highlight {
             fill: none;
             stroke: var(--o-text, #1e2620);
@@ -460,6 +485,12 @@
     let nodes = [];          // узлы диаграммы для тултипа
     let lastPlotWidth = 0;
 
+    /* Подсветка строки целиком — и в колонке названий, и на диаграмме. */
+    let rowGeometry = [];    // геометрия строк текущей отрисовки
+    let labelNodes = [];     // подписи слева, по тем же индексам
+    let hoverRow = -1;       // индекс подсвеченной строки, -1 — нет
+    let labelsBound = false; // обработчики на колонке названий уже навешены
+
     /* ============================ загрузка ============================ */
 
     function loadScript(src) {
@@ -720,6 +751,9 @@
         labels.innerHTML = '';
         plot.innerHTML = '';
         nodes = [];
+        rowGeometry = [];
+        labelNodes = [];
+        hoverRow = -1;
         hideTooltip();
 
         const rows = visibleRows();
@@ -782,6 +816,15 @@
             }));
         });
 
+        rowGeometry = geometry;
+
+        /* Подсветка строки. Добавлена сразу за зеброй и до сетки с планками:
+           так она перекрывает полосу-зебру, но сама остаётся под линиями лет
+           и под планками. Позицию задаёт highlightRow(). */
+        svg.appendChild(svgEl('rect', {
+            'class': 'sc-row-hover', id: 'sc_row_hover', x: 0, width: width, rx: 2,
+        }));
+
         /* Сетка и подписи годов — сверху и снизу. */
         const step = yearLabelStep(col);
         for (const year of labelledYears(minYear, maxYear, step)) {
@@ -796,8 +839,21 @@
             }
         }
 
+        /* Зоны наведения на строку целиком — на всю ширину диаграммы.
+           Планки и годовые зоны лежат выше и несут свой data-row, поэтому
+           перекрытие подсветку не сбрасывает. */
+        geometry.forEach(function (g, i) {
+            const rect = svgEl('rect', {
+                x: 0, y: g.top - SC.ROW_GAP / 2,
+                width: width, height: g.height + SC.ROW_GAP,
+                'class': 'sc-row-hit',
+            });
+            rect.setAttribute('data-row', i);
+            svg.appendChild(rect);
+        });
+
         /* Планки: сплошной участок = подряд идущие годы проведения. */
-        geometry.forEach(function (g) {
+        geometry.forEach(function (g, rowIndex) {
             const row = g.row;
             const cls = row.rogaine ? 'sc-band-rogaine' : 'sc-band-orient';
 
@@ -809,7 +865,9 @@
                     continue;
                 }
                 if (run.length) {
-                    svg.appendChild(svgEl('path', { d: bandPath(run, g, minYear, col, barWidth), 'class': cls }));
+                    const band = svgEl('path', { d: bandPath(run, g, minYear, col, barWidth), 'class': cls });
+                    band.setAttribute('data-row', rowIndex);
+                    svg.appendChild(band);
                     run = [];
                 }
             }
@@ -825,6 +883,7 @@
                     x: x, y: g.center - hit / 2, width: col, height: hit, 'class': 'sc-hit',
                 });
                 rect.setAttribute('data-node', nodes.length);
+                rect.setAttribute('data-row', rowIndex);
 
                 /* target проставляем явно: <base target="_blank"> действует на
                    html-ссылки, а на svg-якорь браузеры его не распространяют. */
@@ -846,11 +905,19 @@
         svg.appendChild(highlight);
 
         svg.addEventListener('mousemove', onPlotMove);
-        svg.addEventListener('mouseleave', hideTooltip);
+        svg.addEventListener('mouseleave', onPlotLeave);
         plot.appendChild(svg);
 
         /* Подписи слева — выровнены по центрам строк. */
         const narrow = isNarrowScreen();
+
+        /* Продолжение подсветки в колонке названий. Добавлено первым, чтобы
+           лежать под подписями: обе они position: absolute, и порядок в
+           документе решает, что окажется сверху. */
+        const labelHover = document.createElement('div');
+        labelHover.className = 'sc-row-hover-label';
+        labelHover.id = 'sc_row_hover_label';
+        labels.appendChild(labelHover);
 
         const head = document.createElement('div');
         head.className = 'sc-label sc-label-head';
@@ -858,9 +925,10 @@
         head.textContent = 'Соревнование';
         labels.appendChild(head);
 
-        geometry.forEach(function (g) {
+        geometry.forEach(function (g, i) {
             const div = document.createElement('div');
             div.className = 'sc-label';
+            div.setAttribute('data-row', i);
             div.style.top = (g.center - 9) + 'px';
             div.title = g.row.name + ' — ' + g.row.total + ' '
                 + plural(g.row.total, 'стартовый день', 'стартовых дня', 'стартовых дней')
@@ -883,8 +951,21 @@
             a.appendChild(document.createTextNode(narrow ? g.row.short : g.row.name));
             div.appendChild(a);
             labels.appendChild(div);
+            labelNodes.push(div);
         });
         labels.style.height = totalHeight + 'px';
+
+        /* Обработчики на самой колонке, а не на подписях: колонка живёт
+           между отрисовками, подписи пересоздаются, поэтому навешиваем один
+           раз и работаем делегированием. focusin/focusout добавлены ради
+           перехода по Tab — подсветка ведёт себя так же, как под мышью. */
+        if (!labelsBound) {
+            labelsBound = true;
+            labels.addEventListener('mousemove', onLabelsMove);
+            labels.addEventListener('mouseleave', clearRowHover);
+            labels.addEventListener('focusin', onLabelsFocus);
+            labels.addEventListener('focusout', clearRowHover);
+        }
 
         /* Первая отрисовка показывает свежие годы — правый край диаграммы.
            При перестроении (фильтр, масштаб, resize) остаёмся там, где были. */
@@ -932,12 +1013,87 @@
     /* ============================ тултип ============================ */
 
     function onPlotMove(event) {
+        highlightRow(rowIndexOf(event.target));
+
         const target = event.target.closest ? event.target.closest('[data-node]') : null;
         if (!target) {
             hideTooltip();
             return;
         }
         showTooltip(nodes[+target.getAttribute('data-node')], event);
+    }
+
+    function onPlotLeave() {
+        hideTooltip();
+        clearRowHover();
+    }
+
+    /* В колонке названий строка ищется по координате курсора, а не по самой
+       подписи: подпись высотой 18 px, а строка бывает втрое выше, и по
+       подписи подсветка гасла бы при движении внутри своей же строки.
+       Система координат у колонки и у диаграммы общая — обе размечены по
+       одной и той же геометрии, от верха карточки. */
+    function onLabelsMove(event) {
+        const box = event.currentTarget.getBoundingClientRect();
+        highlightRow(rowAtY(event.clientY - box.top));
+    }
+
+    function onLabelsFocus(event) {
+        highlightRow(rowIndexOf(event.target));
+    }
+
+    function rowAtY(y) {
+        for (let i = 0; i < rowGeometry.length; i++) {
+            const g = rowGeometry[i];
+            if (y >= g.top - SC.ROW_GAP / 2 && y < g.top + g.height + SC.ROW_GAP / 2) return i;
+        }
+        return -1;
+    }
+
+    function rowIndexOf(target) {
+        const el = target && target.closest ? target.closest('[data-row]') : null;
+        return el ? +el.getAttribute('data-row') : -1;
+    }
+
+    function clearRowHover() {
+        highlightRow(-1);
+    }
+
+    /* Подсветка строки целиком: полоса на диаграмме и такая же в колонке
+       названий. Индекс -1 — снять подсветку. */
+    function highlightRow(index) {
+        if (index === hoverRow) return;
+        hoverRow = index;
+
+        const band = document.getElementById('sc_row_hover');
+        const strip = document.getElementById('sc_row_hover_label');
+        const g = rowGeometry[index];
+
+        labelNodes.forEach(function (el, i) {
+            el.classList.toggle('is-hover', i === index);
+        });
+
+        if (!g) {
+            if (band) band.style.display = 'none';
+            if (strip) strip.style.display = 'none';
+            return;
+        }
+
+        /* Границы те же, что у полосы-зебры: строка вместе с половинами
+           зазоров по краям — иначе подсветка выглядит ýже строки. */
+        const top = g.top - SC.ROW_GAP / 2;
+        const height = g.height + SC.ROW_GAP;
+
+        if (band) {
+            band.setAttribute('y', top);
+            band.setAttribute('height', height);
+            band.style.display = 'block';
+        }
+        if (strip) {
+            strip.style.top = top + 'px';
+            strip.style.height = height + 'px';
+            strip.style.display = 'block';
+        }
     }
 
     function showTooltip(node, event) {
