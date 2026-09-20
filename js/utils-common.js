@@ -20,8 +20,13 @@ function capitalize(s) {
 }
 
 function extractFileName(url) {
-    const match = url.match(/\/([^\/]+)\.[^\.]+$/);
-    return match ? match[1] : '';
+    // Имя файла берём только из последнего сегмента пути.
+    // Старая регулярка не была привязана к последнему сегменту и на ссылках вида
+    // https://t.me/pmarshbrosok возвращала "t" (совпадало "/t" + "." + "me/pmarshbrosok").
+    const path = String(url).split(/[?#]/)[0];
+    const fileName = path.substring(path.lastIndexOf('/') + 1);
+    const dot = fileName.lastIndexOf('.');
+    return dot > 0 ? fileName.substring(0, dot) : '';
 }
 
 // from https://stackoverflow.com/questions/6997262/how-to-pull-url-file-extension-out-of-url-string-using-javascript

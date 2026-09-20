@@ -1501,8 +1501,11 @@ function sortEvents(events) {
 function findEventsForMap(m, withMap, start) {
     let result = [];
     const mapName = getMapName(m);
-    if (EVENTS_FOR_MAPS_CACHE[mapName]) {
-        result = [...EVENTS_FOR_MAPS_CACHE[mapName]];
+    // Ключ кэша учитывает фильтр по старту: иначе отфильтрованный список
+    // подменял бы полный для той же карты.
+    const cacheKey = mapName + '|' + (start ?? '');
+    if (EVENTS_FOR_MAPS_CACHE[cacheKey]) {
+        result = [...EVENTS_FOR_MAPS_CACHE[cacheKey]];
     } else {
         if (typeof oEvents !== 'undefined') {
             result = mapName ? oEvents.filter(e => {
@@ -1521,7 +1524,7 @@ function findEventsForMap(m, withMap, start) {
                     return false;
                 }
             }) : [];
-            EVENTS_FOR_MAPS_CACHE[mapName] = [...result];
+            EVENTS_FOR_MAPS_CACHE[cacheKey] = [...result];
         }
     }
     sortEvents(result);
@@ -2079,9 +2082,10 @@ function buildPlanners(m, calendar, inline) {
         if (m.planner) {
             events.push(m);
         }
-        if (!calendar) {
+        if (!calendar && m.url) {
+            // Только для карты: у события календаря нет url, и getMapName()
+            // вернул бы имя из его внешней ссылки, а не из карты.
             calendar = findEventsForMap(m);
-
         }
         if (calendar) {
             pushItems(events, calendar);
@@ -2111,13 +2115,13 @@ function buildPlanners(m, calendar, inline) {
             } else {
                 const planner = planners[plannersList[0]];
                 if (planner) {
-                    result += planner.name + '<br />';
+                    result += planner.name + (inline ? '' : '<br />');
                 }
             }
         }
         if (!result && '?' !== m.planner) {
             if (!isNull(starts) && m.start && starts[m.start] && starts[m.start].planner) {
-                result += planners[starts[m.start].planner].name + '<br />';
+                result += planners[starts[m.start].planner].name + (inline ? '' : '<br />');
             }
         }
     }
