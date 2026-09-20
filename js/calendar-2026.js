@@ -2574,6 +2574,8 @@ let events2026 = [
         o_site: '260919R',
         reg: 'https://orgeo.ru/event/50693',
         photo: 'https://vk.ru/album-31941981_311862815',
+        publish: 'https://t.me/c/2776154706/4380',
+        info: '<a href="https://rogainestat.ru/events/gk-116">Пути участников</a>.',
         type: 'ROGAINE',
         fmt: '5(4), 2',
         o_gps: 25994,
@@ -2599,6 +2601,7 @@ let events2026 = [
         place: 'Сосново',
         o_site: '260920_velo',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1759',
+        photo: 'https://vk.ru/album-154221178_312018756',
         type: 'VELO',
         fmt: 'классика',
         map: 'sosnovo_ulovnoe_velo_2021'

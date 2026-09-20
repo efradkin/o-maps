@@ -748,7 +748,9 @@ let commonEvents2026 = [
         place: 'Мичуринское',
         o_site: '260920',
         reg: 'https://orgeo.ru/event/54773',
-        photo: 'https://vk.ru/album-196511971_311919189',
+        photo: ['https://vk.ru/album-196511971_311919189','https://vk.ru/album-196511971_311926376'],
+        o_gps: 26000,
+        publish: 'https://vk.ru/wall-196511971_1676',
         type: 'ORIENT',
         fmt: 'классика, лонг',
         owner: 'WN'
