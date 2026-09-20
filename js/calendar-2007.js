@@ -610,7 +610,8 @@ let events2007 = [
         type: 'VELO',
         owner: 'SFSO_LO',
         o_site: '070624',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP',
+        map: 'lembolovo_russia_2007'
     },
     {
         id: 'SPB_20070626_1',
@@ -744,7 +745,8 @@ let events2007 = [
         type: 'ROGAINE',
         info: 'Открытый Чемпионат России по рогейну',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        o_site: '070824'
+        o_site: '070824',
+        map: 'losevo_rrc_2007'
     },
     {
         id: 'SPB_20070901_1',
@@ -855,6 +857,16 @@ let events2007 = [
         res: 'https://o-site.spb.ru/_races/070922/070922_res.htm',
         start: 'WEDDING',
         o_site: '070922'
+    },
+    {
+        id: 'SPB_20070922_4',
+        date: '2007-09-22',
+        place: 'Орехово',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'orekhovo_mb_2007',
+        gps: './original_maps/rogaine/beketov/orekhovo_mb_2007_den_omaps.gif'
     },
     {
         id: 'SPB_20070923_1',

@@ -532,7 +532,8 @@ let events2017 = [
         place: '69км',
         type: 'ROGAINE',
         video: 'https://www.youtube.com/watch?v=MkDXFIXPih4',
-        start: 'TA'
+        start: 'TA',
+        map: 'tsvelodubovo_south_2017'
     },
     {
         id: 'SPB_20170423_1',
@@ -780,6 +781,15 @@ let events2017 = [
             'splits/2017/SPB_20170513_1_2_split.htm'
         ],
         o_site: '17042901'
+    },
+    {
+        id: 'SPB_20170513_2',
+        date: '2017-05-13',
+        place: 'Каннельярви',
+        name: 'Весенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'kanneliarvi_mb_2017'
     },
     {
         id: 'SPB_20170514_1',
@@ -1753,6 +1763,15 @@ let events2017 = [
         type: 'ROGAINE',
         fmt: '4',
         link: 'http://sport-orient.ru/'
+    },
+    {
+        id: 'SPB_20171007_5',
+        date: '2017-10-07',
+        place: 'Луга, оз Омчино',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'luga_mb_2017'
     },
     {
         id: 'SPB_20171008_1',

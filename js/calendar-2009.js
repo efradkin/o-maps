@@ -993,6 +993,15 @@ let events2009 = [
         o_site: '090926'
     },
     {
+        id: 'SPB_20090926_2',
+        date: '2009-09-26',
+        place: 'Каннельярви',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'kanneliarvi_mb_2009'
+    },
+    {
         id: 'SPB_20090927_1',
         date: '2009-09-27',
         place: 'Комарово, оз Щучье',

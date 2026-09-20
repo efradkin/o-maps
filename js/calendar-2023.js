@@ -759,6 +759,15 @@ let events2023 = [
         map: 'pukhtolova_gora_2023'
     },
     {
+        id: 'SPB_20230513_3',
+        date: '2023-05-13',
+        place: 'Кузнечное',
+        name: 'Весенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'kuznechnoe_mb_2023'
+    },
+    {
         id: 'SPB_20230514_1',
         date: '2023-05-14',
         name: 'Царскосельский азимут',
@@ -1094,7 +1103,7 @@ let events2023 = [
             'https://www.youtube.com/watch?v=ovKzw06a5DY',
             'https://www.youtube.com/watch?v=DROakVa3320'
         ],
-        map: 'kkp_prudy_2023_06_17',
+        map: ['kkp_prudy_2023_06_17','kkp_prudy_2023_06_18'],
     },
     {
         id: 'SPB_20230618_2',
@@ -1989,6 +1998,15 @@ let events2023 = [
         split: 'splits/2023/SPB_20231007_1_split.htm',
         start: 'OKINCHITSA',
         o_site: '231007_okinchica'
+    },
+    {
+        id: 'SPB_20231012_1',
+        date: '2023-10-12',
+        place: '78 км',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: '78km_michura_mb_2023'
     },
     {
         id: 'SPB_20231014_1',

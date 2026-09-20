@@ -7,10 +7,6 @@ let rogaineBeketovMaps = [
         url: './maps/rogaine/beketov/78km.webp',
         link: './original_maps/rogaine/beketov/78km_omb_2020_omaps.gif',
         bounds: [[60.6800722, 30.0208282], [60.6901579, 30.4365921], [60.5400607, 30.0376511]],
-        o_gps: {
-            '1':8281,
-            '2':8283
-        },
         owner: 'BKTV',
         start: 'MB',
         type: ['ROGAINE']

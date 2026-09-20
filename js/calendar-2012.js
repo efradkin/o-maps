@@ -434,6 +434,15 @@ let events2012 = [
         owner: 'AZIMUT'
     },
     {
+        id: 'SPB_20120512_1',
+        date: '2012-05-12',
+        place: 'Рощино',
+        name: 'Весенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'roschino_2012'
+    },
+    {
         id: 'SPB_20120513_1',
         date: '2012-05-13',
         place: 'Лемболово',
@@ -815,7 +824,8 @@ let events2012 = [
         place: 'Первомайский',
         type: 'ROGAINE',
         start: ['RUSSIA_ROGAINE_CHAMP','GORNY_CROSS'],
-        o_site: '12072122'
+        o_site: '12072122',
+        map: 'pervomajskoe_rrc_2012'
     },
     {
         id: 'SPB_20120722_1',
@@ -1160,6 +1170,15 @@ let events2012 = [
         map: 'sapernoe_ba_2012',
         start: 'BA',
         owner: 'BKTV'
+    },
+    {
+        id: 'SPB_20120929_3',
+        date: '2012-09-29',
+        place: 'Лосево',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'losevo_2012'
     },
     {
         id: 'SPB_20120930_1',

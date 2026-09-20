@@ -490,7 +490,7 @@ let eventsEarly = [
         info: '<a href="./docs/1983/1983_06_11_spartak_rule_omaps.pdf">Положение, отчёт</a>.',
         start: 'REPORT',
         planner: ['BLZRV_V','CHGRVSKY_V'],
-        map: ['sosnovo_1983_06_11','sosnovo_1983_06_12']
+        map: ['sosnovo_1983_06_11','sosnovo_1983_06_12','lembolovo_1983_06_12']
     },
     {
         id: 'SPB_19830917_1',
@@ -638,7 +638,7 @@ let eventsEarly = [
         name: 'Чемпионат СССР',
         start: ['USSR_1986','USSR_CHAMP'],
         res: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
-        map: 'karkaralinsk_1986'
+        map: ['karkaralinsk_1986','pasheno_1986_09_09'],
     },
     {
         id: 'SPB_19861106_1',
@@ -1247,7 +1247,7 @@ let eventsEarly = [
         info: 'Ночной старт.',
         res: './docs/1989/1989_06_23_wn_omaps.pdf',
         start: 'WN',
-        map: 'wn_1989_06_23'
+        map: ['wn_1989_06_23','sosnovo_south_1989','zamostie_1989']
     },
     {
         id: 'SPB_19890628_1',
@@ -1493,7 +1493,8 @@ let eventsEarly = [
         name: 'Чемпионат СССР',
         start: 'USSR_CHAMP',
         planner: ['MTN_Y','SVIR_A'],
-        res: './docs/1989/1989_12_07_gornozavodsk_ussr_omaps.pdf'
+        res: './docs/1989/1989_12_07_gornozavodsk_ussr_omaps.pdf',
+        map: 'lubenets_winter_1989'
     },
     {
         id: 'SPB_19900114_1',
@@ -2121,7 +2122,7 @@ let eventsEarly = [
         place: 'Сосново, юг',
         name: 'Белые ночи',
         start: 'WN',
-        map: 'sosnovo_south_1989',
+        map: ['sosnovo_south_1989','zamostie_1991','snegirevka_1991'],
         res: './docs/1991/1991_06_28_wn_omaps.pdf'
     },
     {
@@ -2188,7 +2189,8 @@ let eventsEarly = [
         name: 'Зелёный змей',
         start: 'GS',
         me: 'М',
-        res: './docs/1991/1991_08_25_green_snake_omaps.pdf'
+        res: './docs/1991/1991_08_25_green_snake_omaps.pdf',
+        map: 'gs_1991'
     },
     {
         id: 'SPB_19910828_1',
@@ -2461,7 +2463,7 @@ let eventsEarly = [
         me: 'H17',
         planner: ['SHRPV_V','NKFRV_A','FDRV_L'],
         res: './docs/1992/1992_06_19_na_omaps.pdf',
-        map: ['yagodnoe_46_1992', 'zhuravlevo_plotvichnoe_1992', 'zhuravlevskoe_1992']
+        map: ['yagodnoe_46_1992', 'zhuravlevo_plotvichnoe_1992', 'zhuravlevskoe_1992', 'yagodnoe_47_1992', 'zelenogorsk_komarovo_1992']
     },
     {
         id: 'SPB_19920626_1',
@@ -2471,7 +2473,8 @@ let eventsEarly = [
         name: 'Белые Ночи',
         start: 'WN',
         me: 'H17',
-        res: ['./docs/1992/1992_06_26_wn_omaps.pdf', './docs/1992/1992_06_26_wn_part_fine_omaps.pdf']
+        res: ['./docs/1992/1992_06_26_wn_omaps.pdf', './docs/1992/1992_06_26_wn_part_fine_omaps.pdf'],
+        map: ['krivko_ulovnoe_1992','vozrozhdenie_1992','komsomolskoe']
     },
     {
         id: 'SPB_19920708_1',
@@ -2707,6 +2710,7 @@ let eventsEarly = [
         name: 'Мемориал Михаила Святкина',
         planner: 'SHRNN',
         start: 'MMS',
+        map: 'tarasovskoe_1995',
     },
     {
         id: 'SPB_19940903_1',
@@ -2981,7 +2985,7 @@ let eventsEarly = [
         place: 'Кривко, оз Уловное',
         name: 'Белые ночи',
         start: 'WN',
-        map: 'sosnovo_ulovnoe_1998',
+        map: ['sosnovo_ulovnoe_1998','koloskovo_1998'],
         res: './docs/1998/1998_06_19_wn_omaps.pdf'
     },
     {
@@ -3076,7 +3080,7 @@ let eventsEarly = [
         name: 'Белые Ночи',
         start: 'WN',
         res: './docs/1999/1999_06_18_wn_omaps.pdf',
-        map: 'yappilya_1999'
+        map: ['yappilya_1999','tsvelodubovo_1999','tsvelodubovo_south_1999']
     },
     {
         id: 'SPB_19990620_1',
@@ -3104,7 +3108,7 @@ let eventsEarly = [
         name: 'Яркий Мир',
         start: 'YM',
         res: './docs/1999/1999_07_02_ym_omaps.pdf',
-        map: ['ym_2001_06_18', 'ym_2001_06_19']
+        map: ['ym_2001_06_18', 'ym_2001_06_19', 'ym_1999_lembolovo']
     },
     {
         id: 'SPB_19990822_1',
@@ -3137,7 +3141,8 @@ let eventsEarly = [
         place: 'Орехово',
         name: 'Невский Азимут',
         start: 'NA',
-        res: './docs/2000/2000_06_10_nevsky_azimut_omaps.pdf'
+        res: './docs/2000/2000_06_10_nevsky_azimut_omaps.pdf',
+        map: 'na_2003_zelik_1'
     },
     {
         id: 'SPB_20000619_1',
@@ -3183,7 +3188,7 @@ let eventsEarly = [
         start: 'NA',
         planner: ['FDRV_L','BRDR','SHKLV'],
         res: './docs/2001/2001_06_10_nevsky_azimut_omaps.pdf',
-        map: ['na_2001_losevo_1', 'na_2001_losevo_3']
+        map: ['na_2001_losevo_1', 'na_2001_losevo_3', 'orekhovo_figurnoe_2001']
     },
     {
         id: 'SPB_20010618_1',
@@ -3212,7 +3217,7 @@ let eventsEarly = [
         res: './docs/2001/2001_06_28_svyatkina_omaps.pdf',
         name: 'Мемориал Михаила Святкина',
         start: 'MMS',
-        map: ['peski_pulkonlampi_2001','peski_zabytoe_2001','peski_stayka_2001']
+        map: ['peski_pulkonlampi_2001','peski_zabytoe_2001','peski_stayka_2001','peski_2001']
     },
     {
         id: 'SPB_20010826_1',
@@ -3256,5 +3261,14 @@ let eventsEarly = [
         info: 'Второй выпуск гонки',
         logo: 'triotlon.gif',
         o_site: 'TOT2003'
+    },
+    {
+        id: 'SPB_20030927_1',
+        date: '2003-09-27',
+        place: 'Черкасово',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'cherkasovo_mb_2003'
     }
 ];

@@ -651,6 +651,15 @@ let events2024 = [
         map: 'pukhtolova_gora_2025'
     },
     {
+        id: 'SPB_20240505_4',
+        date: '2024-05-05',
+        place: 'Каннельярви, Заходское',
+        name: 'Весенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'kanneliarvi_mb_2024'
+    },
+    {
         id: 'SPB_20240509_1',
         date: '2024-05-09',
         place: 'оз Силанде',
@@ -1056,7 +1065,8 @@ let events2024 = [
         start: 'RFAR',
         link: 'https://adventure-race.redfox.ru/docs/rules',
         res: 'https://adventure-race.redfox.ru/results/results.pdf',
-        o_gps: 19675
+        o_gps: 19675,
+        map: 'pitkaranta_rfar_2024'
     },
     {
         id: 'SPB_20240615_1',
@@ -1105,7 +1115,7 @@ let events2024 = [
         fmt: 'детская эстафета',
         start: 'KKP',
         o_site: '240615-20_KKP',
-        map: ['kkp_obkhodnoe_2024_06_15', 'kkp_novinskoe_2024_06_15'],
+        map: ['kkp_obkhodnoe_2024_06_15', 'kkp_novinskoe_2024_06_15', 'kkp_obkhodnoe_2024_06_16'],
         o_gps: 19768,
         video: ['https://www.youtube.com/watch?v=AvwPOqkj22k','https://vkvideo.ru/video-93257360_456239236']
     },

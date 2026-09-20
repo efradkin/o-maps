@@ -586,6 +586,15 @@ let events2005 = [
         map: 'pesochnaya_2005'
     },
     {
+        id: 'SPB_20050924_2',
+        date: '2005-09-24',
+        place: 'Мюллюпельто',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'myllypelto_mb_2005'
+    },
+    {
         id: 'SPB_20050925_1',
         date: '2005-09-25',
         place: 'Токсово, Охта-парк',

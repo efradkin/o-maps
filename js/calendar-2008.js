@@ -89,7 +89,8 @@ let events2008 = [
         type: 'ROGAINE',
         info: 'лыжный рогейн «100 км за 24 часа»',
         start: '100x24',
-        o_site: '080216_r'
+        o_site: '080216_r',
+        map: 'gavrilovo_2008'
     },
     {
         id: 'SPB_20080217_1',
@@ -727,7 +728,17 @@ let events2008 = [
         type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/080920/080920_res.zip',
         start: 'WEDDING',
-        o_site: '080920'
+        o_site: '080920',
+        map: 'garbolovo_vuoly_2008'
+    },
+    {
+        id: 'SPB_20080920_2',
+        date: '2008-09-20',
+        place: 'Лемболово',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'lembolovo_mb_2008'
     },
     {
         id: 'SPB_20080921_1',

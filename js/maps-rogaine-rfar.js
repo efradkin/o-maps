@@ -136,7 +136,6 @@ let rogaineRfarMaps = [
         link: './original_maps/rogaine/pitkaranta_rfar_2024_omaps.gif',
         bounds: [[61.8543674, 30.9340668], [61.7989303, 31.6389084], [61.6016615, 30.8472061]],
         results: 'https://adventure-race.redfox.ru/archive/archive_2024/',
-        o_gps: 19675,
         owner: 'RFAR',
         type: ['ROGAINE']
     },

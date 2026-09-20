@@ -870,7 +870,6 @@ let otherStartsMaps = [
         date: '2007-09-22',
         url: './maps/rogaine/beketov/orekhovo_mb_2007.webp',
         link: ['./original_maps/rogaine/beketov/orekhovo_mb_2007_1_omaps.gif','./original_maps/rogaine/beketov/orekhovo_mb_2007_2_omaps.gif'],
-        gps: './original_maps/rogaine/beketov/orekhovo_mb_2007_den_omaps.gif',
         bounds: [[60.5437752, 30.2422714], [60.5427622, 30.7047272], [60.3335756, 30.2443314]],
         owner: 'BKTV',
         start: 'MB',
@@ -1050,10 +1049,6 @@ let otherStartsMaps = [
         link: ['https://viewer.o-gps-center.ru/newmaps/map_3421_332d7c8ff45b7a653f959cb1d1fe196f.jpeg','./original_maps/rogaine/beketov/78km_michura_mb_2018_1_omaps.webp','./original_maps/rogaine/beketov/78km_michura_mb_2018_2_omaps.webp'],
         local_link: './external/original_maps/rogaine/beketov/78km_michura_mb_2018_1_omaps.jpeg',
         bounds: [[60.6405397, 29.6648026], [60.6519839, 30.1753235], [60.5474049, 29.6730423]],
-        o_gps: {
-            '1':4505,
-            '2':4506
-        },
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',

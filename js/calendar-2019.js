@@ -1181,7 +1181,7 @@ let events2019 = [
         ],
         video: 'https://www.youtube.com/watch?v=0Hr9Tw0Cv5M',
         info: 'Организаторы: Клуб спортивного ориентирования «Белые Ночи». При поддержке «Региональной спортивной федерации спортивного ориентирования Ленинградской области».',
-        map: 'sosnovo_ulovnoe_oz_2023',
+        map: ['sosnovo_ulovnoe_oz_2023','wn_2019_06_28'],
         owner: 'WN',
         start: 'WN',
         o_site: '190628',
@@ -1939,6 +1939,7 @@ let events2019 = [
         type: 'TOURISM',
         video: ['https://www.youtube.com/watch?v=p6eRrZlrvaY','https://www.youtube.com/watch?v=y-klrrjUy3I'],
         start: 'MB',
+        map: 'lembolovo_mb_2019',
     },
     {
         id: 'SPB_20191013_1',

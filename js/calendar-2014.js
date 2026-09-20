@@ -559,6 +559,15 @@ let events2014 = [
         reskeep: 258
     },
     {
+        id: 'SPB_20140517_2',
+        date: '2014-05-17',
+        place: 'Приозерск',
+        name: 'Весенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'priozersk_mb_2014'
+    },
+    {
         id: 'SPB_20140518_1',
         date: '2014-05-18',
         place: 'Бернгардовка',
@@ -613,7 +622,8 @@ let events2014 = [
         type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/140409/140521_split.htm',
         o_site: '140409',
-        start: 'ST'
+        start: 'ST',
+        map: 'murinsky_center_2014'
     },
     {
         id: 'SPB_20140522_1',
@@ -1047,7 +1057,8 @@ let events2014 = [
         info: 'Рогейн в мультиспортивном формате. Участникам предлагаются следующие форматы: «MR-6» мультирогейн в формате 6 часов, «MR-3» мультирогейн в формате 3 часа, «Kids 9-11» (дети от 9 до 11 лет), «Kids 12-14» (дети от 12 до 14 лет).',
         fmt: '6 часов, 3 часа, детский формат',
         start: 'RFAR',
-        o_site: '140803'
+        o_site: '140803',
+        map: 'lahdenpohja_rfar_2014'
     },
     {
         id: 'SPB_20140810_1',
@@ -1346,6 +1357,15 @@ let events2014 = [
         res: 'https://o-site.spb.ru/_races/141004/141004_res.pdf',
         split: 'splits/2014/SPB_20141004_2_split.htm',
         o_site: '141004'
+    },
+    {
+        id: 'SPB_20141004_3',
+        date: '2014-10-04',
+        place: 'Зеленогорск',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'zelik_mb_2014'
     },
     {
         id: 'SPB_20141005_1',

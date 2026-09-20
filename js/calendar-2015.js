@@ -755,6 +755,15 @@ let events2015 = [
         o_site: 'WNC2015'
     },
     {
+        id: 'SPB_20150530_5',
+        date: '2015-05-30',
+        place: 'Калинино',
+        name: 'Весенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'kalinino_2015'
+    },
+    {
         id: 'SPB_20150531_1',
         date: '2015-05-31',
         place: 'Зеленогорск, Чёрные оз',
@@ -1229,7 +1238,8 @@ let events2015 = [
         type: 'ROGAINE',
         fmt: '24 часа бегом',
         start: 'RUSSIA_ROGAINE_CHAMP',
-        link: 'http://kras-rogaining.ru/'
+        link: 'http://kras-rogaining.ru/',
+        map: 'krasnoyarsk_rrc_2015'
     },
     {
         id: 'SPB_20150919_3',
@@ -1316,6 +1326,15 @@ let events2015 = [
         type: 'ORIENT',
         o_site: '15092627lm',
         map: 'lembolovo_2024'
+    },
+    {
+        id: 'SPB_20150926_3',
+        date: '2015-09-26',
+        place: 'Пальцево',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'paltsevo_mb_2015'
     },
     {
         id: 'SPB_20150927_1',

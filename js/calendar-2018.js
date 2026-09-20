@@ -760,6 +760,15 @@ let events2018 = [
         map: 'vuoksa_rogaine_2019'
     },
     {
+        id: 'SPB_20180519_4',
+        date: '2018-05-19',
+        place: 'Гаврилово',
+        name: 'Весенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'gavrilovo_vmb_2018'
+    },
+    {
         id: 'SPB_20180520_1',
         date: '2018-05-20',
         place: 'шк №184',
@@ -829,7 +838,7 @@ let events2018 = [
         link: 'http://tradventure.ru , http://bikeadventure.ru',
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2018-1.php',
         video: 'https://www.youtube.com/watch?v=yM4fWkWOB1g',
-        map: 'kamennogorsk_ta_2018',
+        map: ['kamennogorsk_ta_2018','smorodinka_2018'],
         start: ['BA','TA'],
         owner: 'BKTV',
     },
@@ -1156,7 +1165,7 @@ let events2018 = [
             'splits/2018/SPB_20180630_1_2_split.htm'
         ],
         info: 'Вечерние вело-старты на многодневке Белые Ночи',
-        map: 'petjajarvy_2024',
+        map: ['petjajarvy_2024','wn_2018_06_30'],
         owner: 'WN',
         start: 'WN',
         o_site: '180630v',
@@ -1821,6 +1830,19 @@ let events2018 = [
         start: 'ST',
         type: 'ORIENT',
         reskeep: 58,
+    },
+    {
+        id: 'SPB_20181006_3',
+        date: '2018-10-06',
+        place: '78 км',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: '78km_michura_mb_2018',
+        o_gps: {
+            '1':4505,
+            '2':4506
+        }
     },
     {
         id: 'SPB_20181007_1',

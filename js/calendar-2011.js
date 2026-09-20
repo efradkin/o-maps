@@ -490,6 +490,15 @@ let events2011 = [
         link: 'http://runcity.org/ru'
     },
     {
+        id: 'SPB_20110521_3',
+        date: '2011-05-21',
+        place: 'Черкасово',
+        name: 'Весенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'cherkasovo_mb_2011'
+    },
+    {
         id: 'SPB_20110522_1',
         date: '2011-05-22',
         place: 'Васкелово (пост ГАИ)',
@@ -612,7 +621,7 @@ let events2011 = [
         info: 'Традиционные многодневные соревнования КСО Азимут',
         start: 'NA',
         o_site: '11061012_NA',
-        map: 'na_2011_06_12'
+        map: ['na_2011_06_12','yagodnoe_na_2011']
     },
     {
         id: 'SPB_20110613_1',
@@ -1001,6 +1010,15 @@ let events2011 = [
         split: 'splits/2011/SPB_20110924_2_split.htm',
         o_site: '11092425',
         map: 'orekhovo_rakitinskoe_2004'
+    },
+    {
+        id: 'SPB_20110924_3',
+        date: '2011-09-24',
+        place: 'Раздолье',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'razdolje_mb_2011'
     },
     {
         id: 'SPB_20110930_1',

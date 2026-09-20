@@ -65,7 +65,7 @@ let events2004 = [
         fmt: 'многодневка',
         start: 'NA',
         o_site: '040611_NA',
-        map: 'orekhovo_rakitinskoe_2004'
+        map: ['orekhovo_rakitinskoe_2004','orekhovo_vetrennoe_2004','orekhovo_borkovo_2004']
     },
     {
         id: 'SPB_20040612_1',
@@ -91,7 +91,7 @@ let events2004 = [
         fmt: 'многодневка',
         start: 'YM',
         o_site: '040614_YM',
-        map: 'snegirevka_2004'
+        map: ['snegirevka_2004','ym_2004_06_14']
     },
     {
         id: 'SPB_20040617_1',
@@ -247,6 +247,15 @@ let events2004 = [
         res: 'https://o-site.spb.ru/_races/040925/040925.zip',
         info: 'Соревнования личные. Спринт. Старт раздельный. Соревнования проводятся по группам: МЖ10, МЖ12, МЖ14, МЖ16, МЖ18-20,МЖ21, МЖ40',
         o_site: '040925'
+    },
+    {
+        id: 'SPB_20040925_2',
+        date: '2004-09-25',
+        place: 'Кузнечное',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'kuznechnoe_mb_2004'
     },
     {
         id: 'SPB_20040926_1',

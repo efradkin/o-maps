@@ -752,6 +752,15 @@ let events2022 = [
         map: 'vsevolozhsk_rumbolovo_2014'
     },
     {
+        id: 'SPB_20220521_3',
+        date: '2022-05-21',
+        place: 'Каменногорск',
+        name: 'Весенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'kamennogorsk_2022'
+    },
+    {
         id: 'SPB_20220522_1',
         date: '2022-05-22',
         place: 'Новое Сертолово',
@@ -1087,7 +1096,7 @@ let events2022 = [
             'splits/2022/SPB_20220612_2_5_split.htm',
             'splits/2022/SPB_20220612_2_6_split.htm'
         ],
-        map: 'kkp_paltsevo_2022_06_11_piramida',
+        map: ['kkp_paltsevo_2022_06_11_piramida','kkp_paltsevo_2022_06_12'],
         video: 'https://www.youtube.com/watch?v=TeqilOEgG74'
     },
     {
@@ -1613,7 +1622,8 @@ let events2022 = [
             'splits/2022/SPB_20220908_1_3_split.htm'
         ],
         o_site: '220912',
-        start: 'RUSSIA_CHAMP'
+        start: 'RUSSIA_CHAMP',
+        map: 'kirovsk_aikuayvenchor_2022_09_10'
     },
     {
         id: 'SPB_20220910_1',
@@ -1978,6 +1988,15 @@ let events2022 = [
         fmt: 'рогейн 4 и 8 часов. Велосипедный и беговой зачеты',
         owner: 'MULTSPORT',
         o_site: '22100809'
+    },
+    {
+        id: 'SPB_20221008_3',
+        date: '2022-10-08',
+        place: 'Гвардейское',
+        name: 'Осенний марш-бросок',
+        type: 'TOURISM',
+        start: 'MB',
+        map: 'gvardeyskoe_mb_2022'
     },
     {
         id: 'SPB_20221013_1',
