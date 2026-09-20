@@ -53,8 +53,25 @@
         </nav>
     </header>
 
-    <div class="container start-maps-wrapper">
+    <div class="container">
         <section id="start_info" class="clearfix"><img class="help-figure help-figure-left" /><span /></section>
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation" id="calendar-tab-item">
+                <button class="nav-link active" id="calendar-tab" data-bs-toggle="tab" data-bs-target="#calendar" type="button" role="tab" aria-controls="calendar" aria-selected="true">Календарь</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="maps-tab" data-bs-toggle="tab" data-bs-target="#maps" type="button" role="tab" aria-controls="maps" aria-selected="false">Карты</button>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="calendar" role="tabpanel" aria-labelledby="calendar-tab">
+                <section id="start_events"></section>
+            </div>
+            <div class="tab-pane fade" id="maps" role="tabpanel" aria-labelledby="maps-tab">
+                <div class="start-maps-wrapper"></div>
+            </div>
+        </div>
     </div>
 
     <script src="js/ext/leaflet.js"></script>
@@ -131,6 +148,7 @@
     <script src="js/starts.js?v=22"></script>
     <script src="js/authors.js?v=21"></script>
     <script src="js/owners.js?v=21"></script>
+    <script src="js/planners.js?v=21"></script>
 
     <script>
         let loadImagesRequired = false;
@@ -237,6 +255,35 @@
             elRow.innerHTML = row;
             container.appendChild(elRow);
         });
+
+        // Вкладка "Календарь": события календаря, относящиеся к этому старту.
+        const startEvents = (typeof oEvents !== 'undefined' ? oEvents : [])
+            .filter(e => checkStartMap(START_NAME_PARAM, e));
+        sortEvents(startEvents);
+
+        let eventsHtml = '';
+        for (const e of startEvents) {
+            eventsHtml += buildEventDescription(e, true) + '<br />';
+        }
+        if (eventsHtml) {
+            document.getElementById('start_events').innerHTML = eventsHtml;
+        } else {
+            // Событий календаря для старта нет - прячем вкладку и открываем "Карты".
+            document.getElementById('calendar-tab-item').style.display = 'none';
+            activateMapsTab();
+        }
+
+        function activateMapsTab() {
+            const calendarTab = document.getElementById('calendar-tab');
+            calendarTab.classList.remove('active');
+            calendarTab.setAttribute('aria-selected', 'false');
+            document.getElementById('calendar').classList.remove('show', 'active');
+
+            const mapsTab = document.getElementById('maps-tab');
+            mapsTab.classList.add('active');
+            mapsTab.setAttribute('aria-selected', 'true');
+            document.getElementById('maps').classList.add('show', 'active');
+        }
 
         writeWelcomeButton();
     </script>
