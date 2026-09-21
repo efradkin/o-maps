@@ -2485,7 +2485,7 @@ let events2026 = [
     },
     {
         id: 'SPB_20260924_1',
-        date: '2026-09-24',
+        date: '2026-09-23',
         endDate: '2026-09-27',
         name: 'Старты в Зеркальном',
         place: 'Яппиля',
@@ -2498,10 +2498,11 @@ let events2026 = [
     {
         id: 'SPB_20260924_2',
         date: '2026-09-24',
-        name: 'Спринт Тур',
+        name: 'Спринт Тур + отбор в сборную СПб',
         place: 'ул Софьи Ковалевской',
         fmt: 'спринт',
-        start: 'ST'
+        start: 'ST',
+        map: 'akademicheskaya_2023'
     },
     {
         id: 'SPB_20260924_3',
@@ -2518,6 +2519,7 @@ let events2026 = [
         name: 'Золотые кольца (Свадебные)',
         place: 'Лемболово, юг',
         link: 'https://vk.com/wall-128591100_3316',
+        reg: 'https://orgeo.ru/event/55165',
         o_site: '260926S',
         fmt: 'семейно-командные по выбору',
         owner: 'WEDDING',
@@ -2545,7 +2547,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/48939',
         info: '<a href="https://vk.ru/wall-166397868_5419">Перенос</a> с 25 июля. "Трое из Простоквашино".',
         type: 'ROGAINE',
-        fmt: '12, 6',
+        fmt: '10, 6, 3',
         owner: 'SHBN',
         map: 'toloni_2025'
     },
@@ -2586,7 +2588,7 @@ let events2026 = [
         date: '2026-09-27',
         place: 'Приозерск, парк Каменистый',
         name: 'XIII Кубок Весты, Памяти друзей, П-во Приозерска',
-        link: 'https://vk.ru/vesta_priozersk',
+        link: 'https://vk.ru/wall-30365190_9582',
         owner: 'VESTA_PRIOZERSK',
         map: 'priozersk_kamenisty'
     },
@@ -2777,6 +2779,14 @@ let events2026 = [
         reg: 'http://sportident.online/entry/?id=7197',
         info: '+ тренировочные дистанции.',
         owner: 'NW'
+    },
+    {
+        id: 'SPB_20261028_1',
+        date: '2026-10-28',
+        name: 'Спринт Тур',
+        place: 'Озерки',
+        fmt: 'спринт',
+        start: 'ST'
     },
     {
         id: 'SPB_20261030_1',
