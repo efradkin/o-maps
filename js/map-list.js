@@ -206,6 +206,10 @@
         var result = [];
         var seen = {};
         map.eachLayer(function (layer) {
+            // На мелком масштабе карты нарисованы полигонами (ensureOutline()
+            // в main.js); в списке показываем стоящую за полигоном картинку —
+            // её углы, центр и z-index от того, что она не на карте, не меняются.
+            if (layer._omOutline && layer.map && layer.map.layer) layer = layer.map.layer;
             if (!(layer instanceof L.ImageOverlay)) return;
             if (!layer.map) return;                  // трек или служебный слой
             var id = L.Util.stamp(layer);
@@ -538,7 +542,7 @@
     // Перестраиваем на добавлении/удалении именно картинок-подложек:
     // всплывашки и маркеры тоже шлют layeradd, дёргать список из-за них незачем.
     function onLayerToggle(e) {
-        if (e && e.layer && e.layer instanceof L.ImageOverlay) scheduleRebuild();
+        if (e && e.layer && (e.layer instanceof L.ImageOverlay || e.layer._omOutline)) scheduleRebuild();
     }
 
     function createPanel() {

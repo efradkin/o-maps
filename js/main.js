@@ -1,5 +1,5 @@
 
-const MIN_ZOOM = (typeof DEFAULT_MIN_ZOOM !== 'undefined') ? DEFAULT_MIN_ZOOM : 9;
+const MIN_ZOOM = 5; // одинаково для всех регионов (как было на all.html)
 const MAX_ZOOM = 17;
 const EMPTY_MAPS_ZOOM_LEVEL = 9;
 const DEFAULT_ZOOM_LEVEL = 13;
@@ -56,6 +56,17 @@ if (tl != null) {
 }
 
 let mapOverlays = []; // all overlays to set their opacity
+
+// Мелкий масштаб (зум <= EMPTY_MAPS_ZOOM_LEVEL): вместо картинок-подложек
+// все карты рисуются одноцветными полигонами на одном общем <canvas>.
+// Ничего не качается, в DOM один элемент вместо сотен, а переход через
+// порог — это смена слоя, без перезагрузки src у картинок.
+const OUTLINE_PANE = 'mapsOutlinePane';
+const OUTLINE_FILL = '#636b2f';           // цвет maps/olive.png
+let outlineRenderer = null;               // L.canvas, создаётся вместе с картой
+let outlineGroup = L.layerGroup([]);      // полигоны показываемых карт
+let revealedMaps = new Set();             // карты, открытые кликом на мелком масштабе
+let lastOliveBand = null;
 
 let oTracks = [];
 if (typeof tracks !== 'undefined') {
@@ -368,6 +379,12 @@ if (mapElement) {
         contextmenuWidth: 190,
         contextmenuItems: buildContextmenuItems()
     });
+
+    // Полигоны мелкого масштаба — под картинками (overlayPane = 400), чтобы
+    // открытая кликом карта ложилась поверх
+    map.createPane(OUTLINE_PANE);
+    map.getPane(OUTLINE_PANE).style.zIndex = 399;
+    outlineRenderer = L.canvas({pane: OUTLINE_PANE, padding: VIEW_PAD});
 
     if (ooptLayer) {
         map.createPane(OOPT_TOP_PANE);
@@ -1333,30 +1350,41 @@ function syncMaps() {
     if (map) {
         for (const m of hiddenMaps) {
             map.removeLayer(m.layer);
+            if (m.outline) {
+                outlineGroup.removeLayer(m.outline);
+            }
+        }
+        const oliveBand = !showMapsOnSmallZoom && map.getZoom() <= EMPTY_MAPS_ZOOM_LEVEL;
+        if (oliveBand !== lastOliveBand) {
+            revealedMaps.clear(); // открытые кликом карты живут до перехода через порог
+            lastOliveBand = oliveBand;
         }
         // В DOM держим только карты у экрана (с запасом VIEW_PAD), остальные
         // снимаем: каждый слой на карте пересчитывается на каждом кадре зума.
         const viewBounds = map.getBounds().pad(VIEW_PAD);
-        const oliveBand = map.getZoom() <= EMPTY_MAPS_ZOOM_LEVEL;
         let culled = 0;
         for (const m of shownMaps) {
             if (m.layer.hiddenMap) {
-                continue; // спрятана вручную через hideMap()
+                // спрятана вручную через hideMap()
+                if (m.outline) {
+                    outlineGroup.removeLayer(m.outline);
+                }
+                continue;
+            }
+            if (oliveBand) {
+                if (!revealedMaps.has(m)) {
+                    outlineGroup.addLayer(ensureOutline(m));
+                    map.removeLayer(m.layer);
+                    continue;
+                }
+                // открытая кликом карта показывается картинкой, а её полигон
+                // убран (см. revealMap), чтобы он не проступал под картинкой
             }
             const b = mapLatLngBounds(m);
             if (!b || !viewBounds.intersects(b)) {
                 map.removeLayer(m.layer);
                 culled++;
                 continue;
-            }
-            // src меняем только при переходе через EMPTY_MAPS_ZOOM_LEVEL:
-            // повторное присвоение того же src заново грузит и декодирует картинку
-            if (!showMapsOnSmallZoom && m.layer._oliveBand !== oliveBand) {
-                m.layer._oliveBand = oliveBand;
-                const url = oliveBand ? OLIVE_IMAGE_URL : mapImageUrl(m);
-                if (m.layer._url !== url) {
-                    m.layer.setUrl(url);
-                }
             }
             if (!map.hasLayer(m.layer)) {
                 map.addLayer(m.layer);
@@ -1365,7 +1393,95 @@ function syncMaps() {
         }
         culledMapsCount = culled;
 
+        if (oliveBand) {
+            if (!map.hasLayer(outlineGroup)) {
+                map.addLayer(outlineGroup);
+            }
+        } else if (map.hasLayer(outlineGroup)) {
+            map.removeLayer(outlineGroup);
+        }
+
         recalculateLayers();
+    }
+}
+
+// Обводка полигона мелкого масштаба — те же пометки, что applyMapStyles()
+// ставит картинкам CSS-классами (.restricted, .full-size, .wo-author...)
+function outlineStroke(m) {
+    let s = {stroke: false, color: 'darkolivegreen', weight: 3, dashArray: null};
+    if (m.restricted) {
+        s = {stroke: true, color: 'deeppink', weight: 3, dashArray: null};
+    } else if (enableFullSize && m.link) {
+        s = {stroke: true, color: 'mediumpurple', weight: 2, dashArray: '6 4'};
+    }
+    if ((HAS_ONLY_WO_AUTHOR_PARAM || HAS_WO_AUTHOR_PARAM) && !m.author) {
+        s = m.link
+            ? {stroke: true, color: 'purple', weight: 4, dashArray: '1 6'}
+            : {stroke: true, color: 'hotpink', weight: 3, dashArray: '1 5'};
+    }
+    return s;
+}
+
+function outlineCorners(m) {
+    const tl = m.layer.getTopLeft(), tr = m.layer.getTopRight(), bl = m.layer.getBottomLeft();
+    return [tl, tr, L.latLng(tr.lat + bl.lat - tl.lat, tr.lng + bl.lng - tl.lng), bl];
+}
+
+// Полигон карты для мелкого масштаба; строится лениво, один раз на карту
+function ensureOutline(m) {
+    if (!m.outline) {
+        const pg = L.polygon(outlineCorners(m), Object.assign({
+            renderer: outlineRenderer,
+            fillColor: OUTLINE_FILL,
+            fillOpacity: mapOpacity,
+            opacity: 1,
+            interactive: true
+        }, outlineStroke(m)));
+        pg._omOutline = true;
+        pg.map = m; // обратная ссылка, как у картинки (см. buildMap)
+        pg.on('click', function (e) {
+            revealMap(m, e.latlng);
+        });
+        pg.on('mouseover', function () {
+            if (!editMode) {
+                pg.setStyle({stroke: true, color: 'darkolivegreen', weight: 4, dashArray: null});
+            }
+        });
+        pg.on('mouseout', function () {
+            pg.setStyle(outlineStroke(m));
+        });
+        m.outline = pg;
+    }
+    return m.outline;
+}
+
+// Клик по полигону на мелком масштабе: показать настоящую картинку этой
+// карты поверх полигонов и открыть её всплывашку — как раньше клик по оливке
+function revealMap(m, latlng) {
+    revealedMaps.add(m);
+    if (!map.hasLayer(m.layer)) {
+        map.addLayer(m.layer);
+    }
+    applyMapStyles(m);
+    onMapSelect(m.layer, m);
+    m.layer.openPopup(latlng);
+
+    // Картинка заменяет полигон, а не ложится поверх него. Полигон убираем,
+    // когда картинка уже нарисована, чтобы на месте карты не мигала пустота.
+    const img = m.layer._rawImage;
+    if (img && img.complete && img.naturalWidth) {
+        hideOutline(m);
+    } else {
+        m.layer.once('load error', function () {
+            hideOutline(m);
+        });
+    }
+}
+
+function hideOutline(m) {
+    if (m.outline && revealedMaps.has(m)) {
+        m.outline.setStyle(outlineStroke(m)); // сбросить подсветку наведения
+        outlineGroup.removeLayer(m.outline);
     }
 }
 
@@ -1975,6 +2091,9 @@ function repositionImage(doLog) {
         selectedOverlay.reposition(point1, point2, point3);
         if (selectedOverlay.map) {
             selectedOverlay.map._llb = undefined; // углы сдвинулись — пересчитать габарит
+            if (selectedOverlay.map.outline) {
+                selectedOverlay.map.outline.setLatLngs(outlineCorners(selectedOverlay.map));
+            }
         }
     }
 }

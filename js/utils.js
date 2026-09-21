@@ -916,9 +916,13 @@ function recalculateLayers() {
     let visible = 0;
     let viewBounds = map.getBounds();
     map.eachLayer(function (layer) {
-        if (layer instanceof L.ImageOverlay || layer._gpx) {
+        if (layer instanceof L.ImageOverlay || layer._gpx || layer._omOutline) {
             if (layer._gpx) {
                 layer = layer.getLayers()[0];
+            }
+            // картинка, открытая кликом на мелком масштабе, уже посчитана своим полигоном
+            if (layer instanceof L.ImageOverlay && layer.map && layer.map.outline && layer.map.outline._map) {
+                return;
             }
             if (layer) {
                 total++;
@@ -1142,12 +1146,22 @@ function hideMap(map, url, isHidden, name, year) {
                 (layer.options.alt === name) && (layer._popup._content.includes(`(${year})`))) {
                 layer.removeFrom(map);
                 layer.hiddenMap = true;
+                hideMapOutline(layer);
             }
         } else if (layer._url && layer._url.includes(url)) {
             layer.removeFrom(map);
             layer.hiddenMap = true;
+            hideMapOutline(layer);
         }
     });
+}
+
+// Убрать и полигон мелкого масштаба (см. ensureOutline() в main.js);
+// из outlineGroup его затем исключит syncMaps() по флагу hiddenMap
+function hideMapOutline(layer) {
+    if (layer.map && layer.map.outline) {
+        layer.map.outline.remove();
+    }
 }
 
 function hideTrack(map, url) {
@@ -1199,6 +1213,9 @@ function setOverlayOpacity(opacity) {
     mapOpacity = opacity;
     for (const m of mapOverlays) {
         m.setOpacity(opacity);
+        if (m.map && m.map.outline) {
+            m.map.outline.setStyle({fillOpacity: opacity}); // полигон мелкого масштаба
+        }
     }
 }
 
