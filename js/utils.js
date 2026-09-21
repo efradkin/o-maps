@@ -880,11 +880,59 @@ function authorLink(author, isGlobalTable, isSheetLink) {
     return location.origin + pathname + '?author=' + author;
 }
 
+// Запас вокруг экрана (доля его размера): карты в этой полосе держатся в DOM,
+// чтобы при панораме края не мигали. Используется в loadMaps()/syncMaps().
+const VIEW_PAD = 0.3;
+
+// Сколько показываемых карт syncMaps() убрал из DOM как находящиеся вне экрана.
+// Нужен счётчику: «всего» = слои на карте + отсечённые.
+let culledMapsCount = 0;
+
+// Габарит повёрнутой карты по всем четырём углам (LatLngBounds), кэш в m._llb.
+// Если слой уже построен — берём его текущие углы (в режиме редактирования они
+// меняются, тогда кэш сбрасывается в repositionImage()); иначе — m.bounds.
+function mapLatLngBounds(m) {
+    if (m._llb === undefined) {
+        let p;
+        if (m.layer && m.layer.getTopLeft) {
+            p = [m.layer.getTopLeft(), m.layer.getTopRight(), m.layer.getBottomLeft()];
+        } else {
+            p = (m.bounds || []).map(x => L.latLng(x));
+        }
+        if (p.length === 0) {
+            m._llb = null;
+        } else if (p.length < 3) {
+            m._llb = L.latLngBounds(p);
+        } else {
+            m._llb = L.latLngBounds([p[0], p[1], p[2],
+                L.latLng(p[1].lat + p[2].lat - p[0].lat, p[1].lng + p[2].lng - p[0].lng)]);
+        }
+    }
+    return m._llb;
+}
+
 function recalculateLayers() {
-    let total = getImageOverlaysInView(true);
-    let visible = getImageOverlaysInView(false);
-    document.getElementById("counter").innerHTML =
-        (total === visible ? total : visible + '/' + total);
+    let total = culledMapsCount;
+    let visible = 0;
+    let viewBounds = map.getBounds();
+    map.eachLayer(function (layer) {
+        if (layer instanceof L.ImageOverlay || layer._gpx) {
+            if (layer._gpx) {
+                layer = layer.getLayers()[0];
+            }
+            if (layer) {
+                total++;
+                if (checkLayerInFrame(viewBounds, layer)) {
+                    visible++;
+                }
+            }
+        }
+    });
+    let text = String(total === visible ? total : visible + '/' + total);
+    let counterEl = document.getElementById("counter");
+    if (counterEl && counterEl.textContent !== text) {
+        counterEl.textContent = text;
+    }
     return visible;
 }
 
@@ -907,13 +955,20 @@ function getImageOverlaysInView(total) {
     return layers.length;
 }
 
+// Пересечение габаритов, а не «хоть один угол внутри рамки»: карта, которая
+// целиком накрывает экран или проходит через него полосой, тоже считается.
 function checkLayerInFrame(frameBounds, layer) {
-    if (layer instanceof L.ImageOverlay.Rotated)
-        return inFrame(frameBounds, [layer.getTopLeft(), layer.getTopRight(), layer.getBottomLeft()]);
-    else {
-        let layerBounds = layer.getBounds();
-        return inFrame(frameBounds, [layerBounds.getNorthEast(), layerBounds.getSouthWest()]);
+    if (layer instanceof L.ImageOverlay.Rotated) {
+        let b;
+        if (layer.map) {
+            b = mapLatLngBounds(layer.map);
+        } else {
+            const tl = layer.getTopLeft(), tr = layer.getTopRight(), bl = layer.getBottomLeft();
+            b = L.latLngBounds([tl, tr, bl, L.latLng(tr.lat + bl.lat - tl.lat, tr.lng + bl.lng - tl.lng)]);
+        }
+        return !!b && frameBounds.intersects(b);
     }
+    return frameBounds.intersects(layer.getBounds());
 }
 
 function inFrame(frameBounds, coords) {

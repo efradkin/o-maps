@@ -55,17 +55,14 @@ L.ImageOverlay.Rotated = L.ImageOverlay.extend({
 			this.addInteractiveTarget(this._rawImage);
 		}
 
-		map.on('zoomend resetview', this._reset, this);
+		// O-Maps: подписка на 'zoomend resetview' убрана. Родительский
+		// L.ImageOverlay.getEvents() уже вызывает _reset на 'zoom' и 'viewreset'
+		// (в т.ч. в конце анимированного зума), так что это был второй полный
+		// пересчёт всех карт на каждом зуме; события 'resetview' в Leaflet нет.
 
 		this.getPane().appendChild(this._image);
 		this._reset();
 	},
-
-
-    onRemove: function(map) {
-        map.off('zoomend resetview', this._reset, this);
-        L.ImageOverlay.prototype.onRemove.call(this, map);
-    },
 
 
 	_initImage: function () {
@@ -73,6 +70,7 @@ L.ImageOverlay.Rotated = L.ImageOverlay.extend({
 		if (this._url) {
 			img = L.DomUtil.create('img');
 			img.style.display = 'none';	// Hide while the first transform (zero or one frames) is being done
+			img.decoding = 'async';	// O-Maps: не блокировать главный поток при декодировании
 
 			if (this.options.crossOrigin) {
 				img.crossOrigin = '';

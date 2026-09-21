@@ -80,20 +80,22 @@ function loadMaps() {
         return; // do nothing in this case
     }
 
-    let inFrames = true;
+    // Границы экрана берём один раз; попадание — по пересечению габаритов.
+    // Без запаса VIEW_PAD: качаем только то, что реально видно.
+    const viewBounds = map ? map.getBounds() : null;
     for (const m of oMaps) {
-        if (map) {
-            let viewBounds = map.getBounds();
-            inFrames = inFrame(viewBounds, m.bounds);
+        if (m.loaded || !isMapAcceptable(m)) {
+            continue;
         }
-        if (isMapAcceptable(m) && inFrames && !m.loaded) {
-            if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM)) || (TYPE_PARAM === 'FOREST' && !m.type)) {
-                loadMap(m);
+        if (viewBounds) {
+            const b = mapLatLngBounds(m);
+            if (!b || !viewBounds.intersects(b)) {
+                continue;
             }
         }
-    }
-    if (map) {
-        resyncMaps();
+        if (!TYPE_PARAM || (m.type && m.type.includes(TYPE_PARAM)) || (TYPE_PARAM === 'FOREST' && !m.type)) {
+            loadMap(m);
+        }
     }
 }
 
@@ -386,14 +388,14 @@ if (mapElement) {
         }).addTo(map);
 
     map.on('click', onMapClick);
-    map.on('zoomend', function () {
-        if (!showMapsOnSmallZoom) {
-            syncMaps();
-        }
-    });
-    map.on('overlayadd overlayremove zoomlevelschange resize zoomend moveend', function () {
-        visibleMaps = recalculateLayers();
+    // После zoomend Leaflet всегда шлёт moveend, так что одного обработчика
+    // хватает и на сдвиг, и на зум: догрузить карты у экрана и пересобрать DOM.
+    map.on('moveend resize', function () {
         loadMaps();
+        syncMaps();
+    });
+    map.on('overlayadd overlayremove', function () {
+        visibleMaps = recalculateLayers();
     });
     map.on('overlayadd', function (e) {
         if (!(e.name.includes('Рогейн') || e.name.includes('Рогаине')) && !e.name.includes('Необычные') && !e.name.includes('Карты')) {
@@ -1063,7 +1065,6 @@ function checkMapsLoad() {
         syncMaps();
         needToSync = false;
     }
-    resyncMaps();
 
     if (imagesLoadCounter <= 0) {
         hideSpinner();
@@ -1214,10 +1215,15 @@ function loadMap(m, forse) {
         return;
     }
 
-    if (loadImagesRequired) {
+    // На мелком масштабе карта всё равно показывается оливом, поэтому
+    // настоящую картинку не качаем: слой строится сразу, а syncMaps()
+    // поставит ему olive до первого добавления на карту.
+    const smallZoom = map && !showMapsOnSmallZoom && map.getZoom() <= EMPTY_MAPS_ZOOM_LEVEL;
+    if (loadImagesRequired && !smallZoom) {
         loadMapImage(m);
     } else {
         buildMap(m);
+        needToSync = true;
     }
 }
 
@@ -1260,6 +1266,7 @@ function buildMap(m) {
         });
     m.layer = imgLayer;
     imgLayer.map = m;
+    m._llb = undefined; // габарит теперь считается по углам слоя
 
     if (!m.area && latLngs && latLngs[1]) {
         m.area = getMapArea(latLngs);
@@ -1327,20 +1334,36 @@ function syncMaps() {
         for (const m of hiddenMaps) {
             map.removeLayer(m.layer);
         }
-        let zoom = map.getZoom();
+        // В DOM держим только карты у экрана (с запасом VIEW_PAD), остальные
+        // снимаем: каждый слой на карте пересчитывается на каждом кадре зума.
+        const viewBounds = map.getBounds().pad(VIEW_PAD);
+        const oliveBand = map.getZoom() <= EMPTY_MAPS_ZOOM_LEVEL;
+        let culled = 0;
         for (const m of shownMaps) {
-            if (!showMapsOnSmallZoom) {
-                if (zoom <= EMPTY_MAPS_ZOOM_LEVEL) {
-                    m.layer.setUrl(OLIVE_IMAGE_URL);
-                } else {
-                    m.layer.setUrl(mapImageUrl(m));
+            if (m.layer.hiddenMap) {
+                continue; // спрятана вручную через hideMap()
+            }
+            const b = mapLatLngBounds(m);
+            if (!b || !viewBounds.intersects(b)) {
+                map.removeLayer(m.layer);
+                culled++;
+                continue;
+            }
+            // src меняем только при переходе через EMPTY_MAPS_ZOOM_LEVEL:
+            // повторное присвоение того же src заново грузит и декодирует картинку
+            if (!showMapsOnSmallZoom && m.layer._oliveBand !== oliveBand) {
+                m.layer._oliveBand = oliveBand;
+                const url = oliveBand ? OLIVE_IMAGE_URL : mapImageUrl(m);
+                if (m.layer._url !== url) {
+                    m.layer.setUrl(url);
                 }
             }
-            if (!m.layer.hiddenMap) {
+            if (!map.hasLayer(m.layer)) {
                 map.addLayer(m.layer);
             }
             applyMapStyles(m);
         }
+        culledMapsCount = culled;
 
         recalculateLayers();
     }
@@ -1950,6 +1973,9 @@ function repositionImage(doLog) {
     }
     if (selectedOverlay) {
         selectedOverlay.reposition(point1, point2, point3);
+        if (selectedOverlay.map) {
+            selectedOverlay.map._llb = undefined; // углы сдвинулись — пересчитать габарит
+        }
     }
 }
 
