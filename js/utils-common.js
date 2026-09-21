@@ -178,13 +178,14 @@ function pushOneItem(array, item) {
 const downloadTableAsCSV = (table, filename) => {
     const csv = Array.from(table.find('tr')).reduce((acc, row) => {
         const cols = Array.from($(row).find('td, th'));
-        const rowData = cols.map((col) => `"${$(col).text().trim()}"`);
+        // Кавычки внутри ячейки по правилам CSV удваиваются.
+        const rowData = cols.map((col) => `"${$(col).text().trim().replace(/"/g, '""')}"`);
         acc.push(rowData.join(';'));
         return acc;
     }, []);
 
-    const csvContent = `data:text/csv;charset=utf-8,\uFEFF${csv.join('\n')}`;
-    const encodedUri = encodeURI(csvContent);
+    // encodeURIComponent, а не encodeURI: тот не кодирует '#', и файл обрезался бы на первом '#'.
+    const encodedUri = 'data:text/csv;charset=utf-8,' + encodeURIComponent('\uFEFF' + csv.join('\n'));
     const link = document.createElement('a');
     link.setAttribute('href', encodedUri);
     link.setAttribute('download', filename);
