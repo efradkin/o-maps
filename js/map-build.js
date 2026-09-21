@@ -91,7 +91,7 @@ if (mapElement) {
         layers.push(groupRetro);
     } else {
         layers.push(group2020th, group2010th, group2000th, groupUnknownYear);
-        if (typeof allYearsRequired !== 'undefined' && allYearsRequired || (START_NAME_PARAM && starts[START_NAME_PARAM].retro)) {
+        if (typeof allYearsRequired !== 'undefined' && allYearsRequired || (START_NAME_PARAM && starts[START_NAME_PARAM]?.retro)) {
             layers.push(group90th, groupRetro);
         }
         if ('FOTO' === TYPE_PARAM || 'FUN' === TYPE_PARAM) {
@@ -102,7 +102,7 @@ if (mapElement) {
             layers.push(specialGroup);
         }
     }
-    if ((OWNER_PARAM && owners[OWNER_PARAM].rogaine) || (START_NAME_PARAM && starts[START_NAME_PARAM].rogaine) ||
+    if ((OWNER_PARAM && owners[OWNER_PARAM]?.rogaine) || (START_NAME_PARAM && starts[START_NAME_PARAM]?.rogaine) ||
         ('ROGAINE' === TYPE_PARAM) || (typeof rogaineRequired !== 'undefined' && rogaineRequired)) {
         layers.push(rogaineGroup);
     }

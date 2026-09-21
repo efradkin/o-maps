@@ -212,6 +212,14 @@
         oMaps.sort((a, b) => dateForCompare(b) - dateForCompare(a));
 
         let strt = starts[START_NAME_PARAM];
+        if (!strt) {
+            // Неизвестный или пустой ?start= (опечатка, устаревшая ссылка) — вместо пустой страницы подсказка.
+            strt = {
+                name: 'Старт не найден',
+                info: 'Проверьте ссылку или выберите соревнование в <a href="sheet-starts.html">таблице стартов</a>.'
+            };
+            oMaps = []; // без известного старта плитки не строим
+        }
         document.getElementById('start_name').innerHTML = strt.name ?? strt.short;
 
         if (strt.info) {
