@@ -1,5 +1,3 @@
-const OLIVE_IMAGE_URL = './maps/olive.png';
-const EMPTY_IMAGE_URL = './maps/empty.png';
 
 const MIN_ZOOM = (typeof DEFAULT_MIN_ZOOM !== 'undefined') ? DEFAULT_MIN_ZOOM : 9;
 const MAX_ZOOM = 17;
@@ -900,36 +898,6 @@ if (mapElement) {
         loadPOI();
     });
 
-    // set required styles for the map elements
-    function applyMapStyles(m) {
-        if (m.layer) {
-            let el = m.layer.getElement();
-            if (el) {
-                if (m.zindex) {
-                    el.style.zIndex = m.zindex;
-                }
-/*
-                if (m.in_work) {
-                    el.classList.add('in-work');
-                }
-*/
-                if (m.restricted) {
-                    el.classList.add('restricted');
-                } else if (enableFullSize && m.link) {
-                    el.classList.add('full-size');
-                }
-
-                if ((HAS_ONLY_WO_AUTHOR_PARAM || HAS_WO_AUTHOR_PARAM) && !m.author) {
-                    if (m.link) {
-                        el.classList.add('wo-author-w-full');
-                    } else {
-                        el.classList.add('wo-author');
-                    }
-                }
-            }
-        }
-    }
-
     let timelineEl = document.getElementById("timeline");
     if (timelineEl) {
         timelineEl.checked = !timeline;
@@ -1375,6 +1343,36 @@ function syncMaps() {
         }
 
         recalculateLayers();
+    }
+}
+
+// set required styles for the map elements
+function applyMapStyles(m) {
+    if (m.layer) {
+        let el = m.layer.getElement();
+        if (el) {
+            if (m.zindex) {
+                el.style.zIndex = m.zindex;
+            }
+/*
+            if (m.in_work) {
+                el.classList.add('in-work');
+            }
+*/
+            if (m.restricted) {
+                el.classList.add('restricted');
+            } else if (enableFullSize && m.link) {
+                el.classList.add('full-size');
+            }
+
+            if ((HAS_ONLY_WO_AUTHOR_PARAM || HAS_WO_AUTHOR_PARAM) && !m.author) {
+                if (m.link) {
+                    el.classList.add('wo-author-w-full');
+                } else {
+                    el.classList.add('wo-author');
+                }
+            }
+        }
     }
 }
 

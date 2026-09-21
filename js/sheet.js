@@ -152,7 +152,7 @@ function renderMapsTable() {
         }
         td(m, row, buildName(m, theOrdersPage, events));
         if (theOrdersPage) {
-            td(m, row, regions[m.region].name);
+            td(m, row, regions[m.region]?.name ?? '');
         }
         td(m, row, buildSheetDate(m));
         if (!isUnknownPage() && !isBooksPage() && !theOrdersPage) {
@@ -248,9 +248,9 @@ function buildName(m, withoutLogo, events) {
     let name = m.name ?? 'Нечто';
     const regionRequired = (typeof regionViewRequired !== 'undefined') && regionViewRequired;
     if (regionRequired) {
-        if (m.region) {
+        if (m.region && regions[m.region]) {
             name = regions[m.region].name + ', ' + name;
-        } else if (m.start && starts[m.start] && starts[m.start].region) {
+        } else if (m.start && starts[m.start] && regions[starts[m.start].region]) {
             name = regions[starts[m.start].region].name + ', ' + name;
         }
     }
@@ -356,7 +356,7 @@ function buildInfo(m, cal, events) {
                 if (Array.isArray(start)) {
                     start = start[0];
                 }
-                if (starts[start].planner) {
+                if (starts[start]?.planner) {
                     planner = starts[start].planner;
                 }
             }
@@ -365,13 +365,18 @@ function buildInfo(m, cal, events) {
             if (Array.isArray(planner)) {
                 let plnrs = '';
                 for (const p of planner) {
+                    if (!planners[p]) {
+                        continue; // неизвестный код
+                    }
                     if (plnrs) {
                         plnrs += ', ';
                     }
                     plnrs += planners[p].name;
                 }
-                result += ` Начальники дистанций: ${plnrs}.`;
-            } else {
+                if (plnrs) {
+                    result += ` Начальники дистанций: ${plnrs}.`;
+                }
+            } else if (planners[planner]) {
                 result += ` Начальник дистанции - ${planners[planner].name}.`;
             }
         }

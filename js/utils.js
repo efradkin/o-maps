@@ -5,6 +5,9 @@ const WEEK_TIME_RANGE = DAY_TIME_RANGE * 7;
 
 const O_SITE_ADDRESS_PREFIX = 'https://o-site.spb.ru/race.php?id=';
 
+const OLIVE_IMAGE_URL = './maps/olive.png';
+const EMPTY_IMAGE_URL = './maps/empty.png';
+
 const regions = {
     ALTAI: {
         name: 'Алтайский край',
@@ -660,11 +663,11 @@ function mapLink(url, m) { // m - for region
         } else {
             if (m.start) {
                 if (Array.isArray(m.start)) {
-                    if (starts[m.start[0]].page) {
+                    if (starts[m.start[0]]?.page) {
                         region = starts[m.start[0]].page;
                     }
                 } else {
-                    if (m.start && starts[m.start].page) {
+                    if (m.start && starts[m.start]?.page) {
                         region = starts[m.start].page;
                     }
                 }
@@ -1161,7 +1164,11 @@ function buildMapsCSV(maps, owner) {
     console.log(result);
 }
 function start(s) {
-    return s === undefined ? '' : starts[s].short;
+    if (s === undefined) {
+        return '';
+    }
+    const keys = Array.isArray(s) ? s : [s];
+    return keys.map(k => starts[k]?.short).filter(Boolean).join(', ');
 }
 function link(url) {
     if (url === undefined)
@@ -1311,7 +1318,7 @@ function getMapStarts(m) {
     let start = '';
     if (Array.isArray(m.start)) {
         for (const s of m.start) {
-            if (starts[s].name) {
+            if (starts[s]?.name) {
                 if (start) {
                     start += ', ';
                 }
@@ -1319,7 +1326,7 @@ function getMapStarts(m) {
             }
         }
     } else {
-        if (starts[m.start].name) {
+        if (starts[m.start]?.name) {
             start = starts[m.start].name;
         }
     }
@@ -1677,9 +1684,9 @@ function logoOne(logo, m) {
                 const start = starts[s];
                 if (start) {
                     pushLogo(logo, start.logo);
-                }
-                if (start.region) {
-                    pushLogo(logo, regions[start.region].logo);
+                    if (start.region) {
+                        pushLogo(logo, regions[start.region]?.logo);
+                    }
                 }
             }
         } else {
@@ -1687,7 +1694,7 @@ function logoOne(logo, m) {
             if (start) {
                 pushLogo(logo, start.logo);
                 if (start.region) {
-                    pushLogo(logo, regions[start.region].logo);
+                    pushLogo(logo, regions[start.region]?.logo);
                 }
             }
         }
@@ -1705,7 +1712,7 @@ function logoOne(logo, m) {
         pushLogo(logo, authors[m.author[0]].logo);
     }
     if (m.region) {
-        pushLogo(logo, regions[m.region].logo);
+        pushLogo(logo, regions[m.region]?.logo);
     }
 }
 
@@ -1756,7 +1763,7 @@ function buildEventStart(evt, withoutLogo, justTitle) {
         if (st && Array.isArray(st)) {
             st = st[0];
         }
-        if (st && starts[st].link) {
+        if (st && starts[st]?.link) {
             result += buildLink(starts[st].link, name);
         } else {
             result += name;
@@ -2105,6 +2112,7 @@ function buildPlanners(m, calendar, inline) {
                 pushItems(plannersList, e.planner);
             }
         }
+        plannersList = plannersList.filter(p => planners[p]); // неизвестные коды и '?' не выводим
         if (plannersList.length > 0) {
             if (plannersList.length > 1) {
                 if (inline) {
@@ -2129,7 +2137,7 @@ function buildPlanners(m, calendar, inline) {
             }
         }
         if (!result && '?' !== m.planner) {
-            if (!isNull(starts) && m.start && starts[m.start] && starts[m.start].planner) {
+            if (!isNull(starts) && m.start && starts[m.start] && planners[starts[m.start].planner]) {
                 result += planners[starts[m.start].planner].name + (inline ? '' : '<br />');
             }
         }
@@ -2140,7 +2148,7 @@ function buildPlanners(m, calendar, inline) {
 function buildOrderCustomer(m) {
     let customer = '';
     if (m.order && m.order.owner) {
-        customer = owners[m.order.owner].order.name;
+        customer = owners[m.order.owner]?.order?.name ?? '';
     }
     return customer;
 }
@@ -2180,7 +2188,7 @@ function buildOrderInfo(m, withCite, withArea, withRestricted) {
         }
         let price = m.order.price;
         if (!price && m.order.owner) {
-            price = owners[m.order.owner].order ? owners[m.order.owner].order.price : '';
+            price = owners[m.order.owner]?.order?.price ?? '';
         }
         if (price) {
             if (price === 'ФСОР') {
@@ -2290,6 +2298,9 @@ function prettyRegions(aRegions) {
     let result = '';
     if (aRegions) {
         for (const r of aRegions) {
+            if (!regions[r]) {
+                continue;
+            }
             if (result) {
                 result += ', ';
             }
