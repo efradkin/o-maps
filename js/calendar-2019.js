@@ -67,7 +67,7 @@ let events2019 = [
         name: 'Чемпионат и Первенство ЛО на лыжах',
         start: 'LO_CHAMP',
         place: 'Будогощь',
-        o_site: '190117-20LO',
+        o_site: '190117-20LO'
     },
     {
         id: 'SPB_20190120_2',
@@ -366,7 +366,7 @@ let events2019 = [
         place: 'Муринский парк',
         name: 'Sprint Tour 2019. 2 этап',
         start: 'ST',
-        reskeep: 112,
+        reskeep: 112
     },
     {
         id: 'SPB_20190420_1',
@@ -400,7 +400,7 @@ let events2019 = [
         place: 'Павловск, сад Миранда',
         name: 'Спартакиада семейных команд Пушкинского р-на',
         video: 'https://www.youtube.com/watch?v=AKCINghaDPE',
-        map: 'pavlovsk_sad_miranda_2020',
+        map: 'pavlovsk_sad_miranda_2020'
     },
     {
         id: 'SPB_20190424_1',
@@ -431,7 +431,7 @@ let events2019 = [
         place: 'Выборг',
         name: 'Выборгская тройка 2019. 1 день',
         start: 'VYBORGSKY_TROIKA',
-        reskeep: [116, 117],
+        reskeep: [116, 117]
     },
     {
         id: 'SPB_20190427_1',
@@ -670,7 +670,7 @@ let events2019 = [
         date: '2019-05-15',
         place: 'пр Науки',
         name: 'RunLab - Sprint',
-        reskeep: 133,
+        reskeep: 133
     },
     {
         id: 'SPB_20190518_1',
@@ -801,7 +801,7 @@ let events2019 = [
         map: 'luga_ba_2019',
         start: ['BA','TA'],
         owner: 'BKTV',
-        info: 'Лужский артиллерийский полигон.',
+        info: 'Лужский артиллерийский полигон.'
     },
     {
         id: 'SPB_20190526_1',
@@ -835,7 +835,7 @@ let events2019 = [
         place: 'Гражданский пр',
         name: 'Sprint Tour 2019. 4 этап',
         start: 'ST',
-        reskeep: 143,
+        reskeep: 143
     },
     {
         id: 'SPB_20190601_1',
@@ -973,7 +973,7 @@ let events2019 = [
         ],
         video: 'https://www.youtube.com/watch?v=xHGuA_XHXLc',
         start: 'KKP',
-        o_site: '190616-21_KKP',
+        o_site: '190616-21_KKP'
     },
     {
         id: 'SPB_20190617_2',
@@ -1572,7 +1572,7 @@ let events2019 = [
         info: '21.09 (суббота): соревнования в Муринском парке (место старта рядом с «Родео драйв»). Дистанция «кросс-спринт»; Начало соревнований в 10.30! 28.09 (суббота): соревнования в районе Пухтоловой горы. Дистанция «кросс-классика»; Начало соревнований в 10.30!',
         o_site: '190928_21',
         endDate: '2019-09-28',
-        map: 'pukhtolova_gora_2025',
+        map: 'pukhtolova_gora_2025'
     },
     {
         id: 'SPB_20190921_3',
@@ -1581,7 +1581,7 @@ let events2019 = [
         name: 'МаТрешка 2019. 2 этап',
         start: 'MATRESHKA',
         res: 'http://o-site.spb.ru/_races/1909-12/190922_split_MT.htm',
-        reskeep: 201,
+        reskeep: 201
     },
     {
         id: 'SPB_20190922_1',
@@ -1652,7 +1652,7 @@ let events2019 = [
         res: 'https://o-site.spb.ru/_races/1909-12/190928_MT_split.htm',
         o_site: '1909-12',
         reskeep: 202,
-        map: 'pukhtolova_gora_2025',
+        map: 'pukhtolova_gora_2025'
     },
     {
         id: 'SPB_20190928_3',
@@ -1839,7 +1839,7 @@ let events2019 = [
         type: 'TOURISM',
         video: ['https://www.youtube.com/watch?v=p6eRrZlrvaY','https://www.youtube.com/watch?v=y-klrrjUy3I'],
         start: 'MB',
-        map: 'lembolovo_mb_2019',
+        map: 'lembolovo_mb_2019'
     },
     {
         id: 'SPB_20191013_1',

@@ -42,7 +42,7 @@ let gsStartsMaps = [
         date: '2011-08-28',
         url: './maps/starts/gs/gs_2011_08_28.webp',
         link: './original_maps/starts/gs/gs_2011_08_28_omaps.jpg',
-        bounds: [[60.4256523, 30.2847147], [60.4235765, 30.3191328], [60.4004796, 30.2775478]],
+        bounds: [[60.4256523, 30.2847147], [60.4235765, 30.3191328], [60.4004796, 30.2775478]]
     },
     {
         name: 'Петяярви',
@@ -50,7 +50,7 @@ let gsStartsMaps = [
         date: '2013-08-25',
         url: './maps/starts/gs/gs_2013_08_25.webp',
         link: './original_maps/starts/gs/gs_2013_08_25_omaps.jpg',
-        bounds: [[60.6335113, 30.0912523], [60.6301439, 30.1366997], [60.6146701, 30.0861883]],
+        bounds: [[60.6335113, 30.0912523], [60.6301439, 30.1366997], [60.6146701, 30.0861883]]
     },
     {
         name: 'Токсово, оз Светлое',
@@ -59,7 +59,7 @@ let gsStartsMaps = [
         url: './maps/starts/gs/gs_2016_08_27.webp',
         link: './original_maps/starts/gs/gs_2016_08_27_omaps.jpg',
         bounds: [[60.1607924, 30.436635], [60.1569699, 30.4837561], [60.1451367, 30.4323435]],
-        author: 'DBRTSV_V',
+        author: 'DBRTSV_V'
     },
     {
         name: 'Лемболово',
@@ -68,7 +68,7 @@ let gsStartsMaps = [
         url: './maps/starts/gs/gs_2019_08_24.webp',
         link: './original_maps/starts/gs/gs_2019_08_24_omaps.jpg',
         bounds: [[60.4309895, 30.2863026], [60.4266478, 30.3374577], [60.4144668, 30.2806377]],
-        author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
+        author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY']
     },
     {
         name: 'Лемболово, оз Белое',
@@ -77,7 +77,7 @@ let gsStartsMaps = [
         url: './maps/starts/gs/gs_2020_08_29.webp',
         link: './original_maps/starts/gs/gs_2020_08_29_omaps.jpeg',
         bounds: [[60.4470804, 30.3167725], [60.4442227, 30.3523922], [60.4258641, 30.3106785]],
-        author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
+        author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY']
     },
     {
         name: 'Лемболово',
@@ -86,7 +86,7 @@ let gsStartsMaps = [
         url: './maps/starts/gs/gs_2021_08_21.webp',
         link: './original_maps/starts/gs/gs_2021_08_21_omaps.jpg',
         bounds: [[60.4262454, 30.2802944], [60.4220725, 30.3323936], [60.4087667, 30.2745867]],
-        author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY'],
+        author: ['TKMKV_K','KVZN','NSNV','MLNKV_L','VRBY']
     },
     {
         name: 'Пухтолова гора',
@@ -95,7 +95,7 @@ let gsStartsMaps = [
         url: './maps/starts/gs/gs_2022_08_20.webp',
         link: './original_maps/starts/gs/gs_2022_08_20_omaps.jpg',
         bounds: [[60.2420904, 29.644289], [60.239023, 29.6829987], [60.2286044, 29.6394396]],
-        author: 'MKHLV_A',
+        author: 'MKHLV_A'
     },
     {
         name: 'оз Журавлёвское',
@@ -104,7 +104,7 @@ let gsStartsMaps = [
         url: './maps/starts/gs/gs_2023_08_26.webp',
         link: './original_maps/starts/gs/gs_2023_08_26_omaps.jpg',
         bounds: [[60.6330483, 29.8318291], [60.6158283, 29.8726416], [60.619113, 29.8063803]],
-        author: ['MKHLV_A','SLBDNK'],
+        author: ['MKHLV_A','SLBDNK']
     },
     {
         name: 'Ягодное',
@@ -113,6 +113,6 @@ let gsStartsMaps = [
         url: './maps/starts/gs/gs_2024_09_01.webp',
         link: './original_maps/starts/gs/gs_2024_09_01_omaps.jpg',
         bounds: [[60.6352791, 29.9578285], [60.6311962, 29.9998426], [60.6200815, 29.9515629]],
-        author: ['MKHLV_A','SLBDNK','TKMKV_K'],
+        author: ['MKHLV_A','SLBDNK','TKMKV_K']
     },
 ];

@@ -694,7 +694,7 @@ let events2010 = [
         split: 'splits/2010/SPB_20100625_1_split.zip',
         start: 'MMS',
         o_site: '10062527',
-        map: ['mms_2010_lembolovo','mms_2010_06_25','mms_2010_06_26','mms_2010_06_27'],
+        map: ['mms_2010_lembolovo','mms_2010_06_25','mms_2010_06_26','mms_2010_06_27']
     },
     {
         id: 'SPB_20100703_1',

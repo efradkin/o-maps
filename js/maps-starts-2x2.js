@@ -8,7 +8,7 @@ let twotwoStartsMaps = [
         link: './original_maps/starts/2x2/2005_05_10_kuzmolovo_2x2_omaps.jpg',
         info: 'Финал.',
         bounds: [[60.1324658, 30.525856], [60.1310979, 30.5440521], [60.1208589, 30.5231524]],
-        docs: ['2x2/2005', 14],
+        docs: ['2x2/2005', 14]
     },
     {
         name: 'Кузьмолово',

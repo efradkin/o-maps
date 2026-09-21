@@ -1767,7 +1767,7 @@ let cityMaps = [
         link: './original_maps/city/poljany_university_2016_omaps.webp',
         bounds: [[60.2893486, 29.3112552], [60.2891572, 29.3175209], [60.2852539, 29.3095815]],
         author: 'BLZRV_V',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'РГПУ им Герцена',
@@ -2327,7 +2327,7 @@ let cityMaps = [
         bounds: [[60.1315094, 29.9390852], [60.1308628, 29.9449539], [60.1278652, 29.9374652]],
         author: ['SHRNN','TRFMV_A'],
         owner: 'SHRNN',
-        type: ['CITY','FOTO'],
+        type: ['CITY','FOTO']
     },
     {
         name: 'Богатырский пр',
@@ -2336,7 +2336,7 @@ let cityMaps = [
         bounds: [[60.0084479, 30.1978111], [60.0069247, 30.2121556], [60.0028645, 30.195322]],
         author: 'DRIBAS',
         owner: 'DRIBAS',
-        type: ['CITY','SPRINT'],
+        type: ['CITY','SPRINT']
     },
     {
         name: 'Физ-мат лицей №239',
@@ -2344,7 +2344,7 @@ let cityMaps = [
         url: './maps/city/fml_239_2015.webp',
         link: './original_maps/city/fml_239_2015_omaps.gif',
         bounds: [[59.9451033, 30.3526175], [59.944335, 30.3525853], [59.9451356, 30.3516841]],
-        type: ['INDOOR'],
+        type: ['INDOOR']
     },
     {
         name: 'Школа №491',
@@ -2364,7 +2364,7 @@ let cityMaps = [
         bounds: [[60.0936586, 30.3791821], [60.0902242, 30.3842998], [60.0919736, 30.3746331]],
         author: ['MSTPNV','CHGRVSKY_M'],
         owner: 'OPEN_BAND',
-        type: ['INDOOR'],
+        type: ['INDOOR']
     },
     {
         name: 'Пушкин, школа №407',

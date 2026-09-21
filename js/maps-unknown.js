@@ -3,110 +3,110 @@ let unknownMaps = [
     {
         year: 1,
         info: 'Из картографического планшета из <a href="https://t.me/o_maps/6401">архива</a> Сергея Кириченко',
-        link: './original_maps/unknown/unknown_1_omaps.jpg',
+        link: './original_maps/unknown/unknown_1_omaps.jpg'
     },
     {
         year: 1,
         name: 'Энколово',
-        link: './original_maps/unknown/unknown_2_omaps.jpg',
+        link: './original_maps/unknown/unknown_2_omaps.jpg'
     },
     {
         year: 1,
         name: 'Яппиля, Комонь',
-        link: './original_maps/unknown/unknown_3_omaps.jpg',
+        link: './original_maps/unknown/unknown_3_omaps.jpg'
     },
     {
         year: 1,
         name: 'Кузьмолово, Токсово',
         info: 'Похожа на <a href="./spb.html?map=kuzmolovo_east_old">карту Чегаровского</a>, но другой масштаб, сечение и ч/б.',
-        link: './original_maps/unknown/unknown_6_omaps.jpg',
+        link: './original_maps/unknown/unknown_6_omaps.jpg'
     },
     {
         year: 1,
         name: 'Токсово',
-        link: './original_maps/unknown/unknown_7_omaps.jpg',
+        link: './original_maps/unknown/unknown_7_omaps.jpg'
     },
     {
         year: 1,
         name: 'Кузьмолово, Токсово',
-        link: './original_maps/unknown/unknown_9_omaps.jpg',
+        link: './original_maps/unknown/unknown_9_omaps.jpg'
     },
     {
         year: 1,
         name: 'Уткино, Бол Вишневское оз',
-        link: './original_maps/unknown/unknown_11_omaps.jpg',
+        link: './original_maps/unknown/unknown_11_omaps.jpg'
     },
     {
         year: 1,
         name: 'Петяярви',
-        link: './original_maps/unknown/unknown_13_omaps.jpg',
+        link: './original_maps/unknown/unknown_13_omaps.jpg'
     },
     {
         year: 1983,
         name: 'Сярьги, Охта-Парк',
         info: 'Очевидно, это ч/б кусочек <a href="./spb.html?map=sjargi_1983">карты Чегаровских</a> 1983.',
-        link: './original_maps/unknown/unknown_14_omaps.jpg',
+        link: './original_maps/unknown/unknown_14_omaps.jpg'
     },
     {
         year: 1,
         name: 'Петяярви',
-        link: './original_maps/unknown/unknown_19_omaps.jpg',
+        link: './original_maps/unknown/unknown_19_omaps.jpg'
     },
     {
         year: 1,
         name: 'Токсово',
-        link: './original_maps/unknown/unknown_21_omaps.jpg',
+        link: './original_maps/unknown/unknown_21_omaps.jpg'
     },
     {
         year: 1,
         name: 'Охта-Парк',
-        link: './original_maps/unknown/unknown_22_omaps.jpg',
+        link: './original_maps/unknown/unknown_22_omaps.jpg'
     },
     {
         year: 1,
         name: 'Лемболово',
-        link: './original_maps/unknown/unknown_23_omaps.jpg',
+        link: './original_maps/unknown/unknown_23_omaps.jpg'
     },
     {
         year: 1,
         name: 'Сосновка',
-        link: './original_maps/unknown/unknown_24_omaps.jpg',
+        link: './original_maps/unknown/unknown_24_omaps.jpg'
     },
     {
         year: 1,
         name: 'Нижегородская обл ?',
-        link: './original_maps/unknown/unknown_26_omaps.jpg',
+        link: './original_maps/unknown/unknown_26_omaps.jpg'
     },
     {
         year: 1,
         name: 'Латвия?',
-        link: './original_maps/unknown/unknown_27_omaps.jpg',
+        link: './original_maps/unknown/unknown_27_omaps.jpg'
     },
     {
         year: 1,
         name: 'Латвия?',
-        link: './original_maps/unknown/unknown_28_omaps.jpg',
+        link: './original_maps/unknown/unknown_28_omaps.jpg'
     },
     {
         year: 1,
         name: 'Нижегородская обл ?',
-        link: './original_maps/unknown/unknown_29_omaps.jpg',
+        link: './original_maps/unknown/unknown_29_omaps.jpg'
     },
     {
         year: 1,
         name: 'Кавголово',
-        link: './original_maps/unknown/unknown_32_omaps.jpg',
+        link: './original_maps/unknown/unknown_32_omaps.jpg'
     },
     {
         year: 1976,
         name: 'п/л Ласточка',
         info: '31.12.1976 - 09.01.1977',
-        link: './original_maps/unknown/unknown_33_omaps.jpg',
+        link: './original_maps/unknown/unknown_33_omaps.jpg'
     },
     {
         year: 1,
         info: 'Яппиля',
-        link: './original_maps/unknown/unknown_38_omaps.jpg',
+        link: './original_maps/unknown/unknown_38_omaps.jpg'
     },
     {
         date: '1974-11-17',
@@ -124,7 +124,7 @@ let unknownMaps = [
     {
         year: 1977,
         name: 'Краснополье?',
-        link: './original_maps/unknown/unknown_46_omaps.jpg',
+        link: './original_maps/unknown/unknown_46_omaps.jpg'
     },
     {
         year: 1,
@@ -135,27 +135,27 @@ let unknownMaps = [
     {
         year: 1,
         name: 'МО, Мал Вязёмы',
-        link: './original_maps/unknown/unknown_51_omaps.jpg',
+        link: './original_maps/unknown/unknown_51_omaps.jpg'
     },
     {
         year: 1,
         name: 'МО, Фрязево',
-        link: './original_maps/unknown/unknown_53_omaps.jpg',
+        link: './original_maps/unknown/unknown_53_omaps.jpg'
     },
     {
         year: 1,
         name: 'Зеленогорск, Щучье оз',
-        link: './original_maps/unknown/unknown_54_omaps.jpg',
+        link: './original_maps/unknown/unknown_54_omaps.jpg'
     },
     {
         year: 1977,
         name: 'Латвия, в районе Сигулды на реке Гауе, Гран-При, 3 день',
-        link: './original_maps/unknown/unknown_57_omaps.jpg',
+        link: './original_maps/unknown/unknown_57_omaps.jpg'
     },
     {
         year: 1,
         name: 'Выборг, Сайменские дачи',
-        link: './original_maps/unknown/unknown_60_omaps.jpg',
+        link: './original_maps/unknown/unknown_60_omaps.jpg'
     },
     {
         name: 'Сосново',
@@ -204,24 +204,24 @@ let unknownMaps = [
         year: 1,
         name: 'Выборг, Кировские дачи',
         link: './original_maps/unknown/unknown_69_omaps.webp',
-        info: 'Скан с плёнки.',
+        info: 'Скан с плёнки.'
     },
     {
         year: 1,
         name: 'Выборг, Сайменские дачи',
         link: './original_maps/unknown/unknown_70_omaps.webp',
-        info: 'Скан с плёнки.',
+        info: 'Скан с плёнки.'
     },
     {
         year: 1,
         name: 'Лемболово',
         link: './original_maps/unknown/unknown_71_omaps.webp',
-        info: 'Скан с плёнки.',
+        info: 'Скан с плёнки.'
     },
     {
         year: 1,
         name: 'Сярьги, Охта-Парк',
-        link: './original_maps/unknown/unknown_72_omaps.webp',
+        link: './original_maps/unknown/unknown_72_omaps.webp'
     },
 /*
     {
@@ -239,6 +239,6 @@ let unknownMaps = [
     {
         name: 'Кавголово',
         year: 1,
-        link: './original_maps/unknown/unknown_75_omaps.webp',
+        link: './original_maps/unknown/unknown_75_omaps.webp'
     },
  ];

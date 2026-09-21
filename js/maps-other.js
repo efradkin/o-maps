@@ -500,7 +500,7 @@ let otherMaps = [
         info: 'Заполярный рогейн.',
         region: 'MURMANSK',
         start: 'ZM',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Долина Уюта',
@@ -625,7 +625,7 @@ let otherMaps = [
         o_gps: 20860,
         bounds: [[58.0069609, 56.3091373], [58.0069155, 56.4280128], [57.9407799, 56.3092232]],
         type: ['ROGAINE'],
-        region: 'PERM',
+        region: 'PERM'
     },
     {
         name: 'Южный лес',
@@ -684,7 +684,7 @@ let otherMaps = [
         bounds: [[48.2538554, 40.4855633], [48.2509408, 40.5101538], [48.2287895, 40.4793406]],
         author: ['DJCHKV','IDLBV'],
         start: 'RUSSIA_CUP',
-        region: 'ROSTOV',
+        region: 'ROSTOV'
     },
     // --- Свердловская обл, Екатеринбург ---
     {
@@ -927,7 +927,7 @@ let otherMaps = [
         link: './original_maps/other/big_elanchik_2003_omaps.webp',
         bounds: [[54.9340707, 60.1476145], [54.9243305, 60.227952], [54.8904065, 60.1318216]],
         author: ['SLDTV_S','EKSHV','SHRNN'],
-        region: 'CHELYABINSK',
+        region: 'CHELYABINSK'
     },
     {
         name: 'Вишневогорск, оз Аракуль',
@@ -1153,7 +1153,7 @@ let otherMaps = [
         author: 'DRN_E',
         owner: 'DRN_E',
         region: 'GLNDZHK',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'ул Леселидзе',
@@ -1164,7 +1164,7 @@ let otherMaps = [
         author: ['DRN_E','GRBNKO'],
         owner: 'DRN_E',
         region: 'GLNDZHK',
-        type: ['CITY'],
+        type: ['CITY']
     },
     {
         name: 'Архипо-Осиповка, школа №17',
@@ -1185,7 +1185,7 @@ let otherMaps = [
         bounds: [[44.5950818, 38.1462908], [44.5842934, 38.2483006], [44.5533227, 38.137536]],
         author: 'ZAMOTA',
         owner: 'ZAMOTA',
-        region: 'GLNDZHK',
+        region: 'GLNDZHK'
     },
     {
         name: 'Цегельская щель',
@@ -1195,7 +1195,7 @@ let otherMaps = [
         bounds: [[44.6063572, 38.1153488], [44.6042795, 38.1586075], [44.5735946, 38.112216]],
         author: 'ZAMOTA',
         owner: 'ZAMOTA',
-        region: 'GLNDZHK',
+        region: 'GLNDZHK'
     },
     {
         name: 'Нижний Архыз',
@@ -1204,7 +1204,7 @@ let otherMaps = [
         link: './original_maps/south/nizhny_archyz_1987_omaps.jpg',
         bounds: [[43.7057011, 41.4603424], [43.7045532, 41.4984083], [43.6783322, 41.4633036]],
         author: 'SKRSKY_A',
-        region: 'KRCHCHRK',
+        region: 'KRCHCHRK'
     },
     {
         name: 'Архыз, поляна Таулу',

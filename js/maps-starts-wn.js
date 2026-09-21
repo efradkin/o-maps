@@ -17,7 +17,7 @@ let wnStartsMaps = [
         link: './original_maps/starts/wn/wn_1989_06_23_omaps.jpg',
         info: 'Ночной старт.',
         bounds: [[60.553566, 30.306344], [60.5525533, 30.3370714], [60.5317015, 30.304327]],
-        author: ['MLVA_M','KUOKNN_M'],
+        author: ['MLVA_M','KUOKNN_M']
     },
     {
         name: 'Колосково',
@@ -70,7 +70,7 @@ let wnStartsMaps = [
         start: 'WN',
         url: './maps/starts/wn/wn_2004_06_19.webp',
         link: './original_maps/starts/wn/wn_2004_06_19_omaps.jpg',
-        bounds: [[60.4203566, 29.7187901], [60.4180686, 29.7564268], [60.3947134, 29.7117949]],
+        bounds: [[60.4203566, 29.7187901], [60.4180686, 29.7564268], [60.3947134, 29.7117949]]
     },
     {
         name: 'Первомайское, оз Дедово',
@@ -102,7 +102,7 @@ let wnStartsMaps = [
         start: 'WN',
         url: './maps/starts/wn/wn_2006.webp',
         link: ['./original_maps/starts/wn/wn_2006_omaps.jpg','./original_maps/starts/wn/wn_2006_sprint_omaps.webp'],
-        bounds: [[60.4230046, 29.6711111], [60.4207803, 29.7036839], [60.4051638, 29.6663475]],
+        bounds: [[60.4230046, 29.6711111], [60.4207803, 29.7036839], [60.4051638, 29.6663475]]
     },
     {
         name: 'Первомайское',
@@ -110,7 +110,7 @@ let wnStartsMaps = [
         start: 'WN',
         url: './maps/starts/wn/wn_2006_06_18.webp',
         link: './original_maps/starts/wn/wn_2006_06_18_omaps.webp',
-        bounds: [[60.4236612, 29.6840286], [60.4212887, 29.7250557], [60.4082581, 29.6799946]],
+        bounds: [[60.4236612, 29.6840286], [60.4212887, 29.7250557], [60.4082581, 29.6799946]]
     },
     {
         name: 'Журавлёвское оз',
@@ -181,7 +181,7 @@ let wnStartsMaps = [
         start: ['WN','YM'],
         url: './maps/starts/wn/wn_2009_06_20.webp',
         link: './original_maps/starts/wn/wn_2009_06_20_omaps.jpg',
-        bounds: [[60.5973982, 29.8528576], [60.5936477, 29.9038839], [60.5800327, 29.8469782]],
+        bounds: [[60.5973982, 29.8528576], [60.5936477, 29.9038839], [60.5800327, 29.8469782]]
     },
     {
         name: 'Мичуринское, Петриченко',
@@ -189,7 +189,7 @@ let wnStartsMaps = [
         start: ['WN','YM'],
         url: './maps/starts/wn/wn_2009_06_21.webp',
         link: './original_maps/starts/wn/wn_2009_06_21_omaps.webp',
-        bounds: [[60.6102267, 29.898262], [60.6068357, 29.9480867], [60.5969347, 29.8939276]],
+        bounds: [[60.6102267, 29.898262], [60.6068357, 29.9480867], [60.5969347, 29.8939276]]
     },
     {
         name: 'Ягодное, Дубовое оз',
@@ -197,7 +197,7 @@ let wnStartsMaps = [
         start: 'WN',
         url: './maps/starts/wn/wn_2011_06_18.webp',
         link: './original_maps/starts/wn/wn_2011_06_18_omaps.jpg',
-        bounds: [[60.6322275, 30.0294971], [60.6284811, 30.0808239], [60.6182076, 30.0255489]],
+        bounds: [[60.6322275, 30.0294971], [60.6284811, 30.0808239], [60.6182076, 30.0255489]]
     },
     {
         name: 'Мичуринское, старая мельница',
@@ -423,7 +423,7 @@ let wnStartsMaps = [
         url: './maps/starts/wn/wn_2026_07_04.webp',
         link: ['./original_maps/starts/wn/wn_2026_07_04_m_omaps.webp','./original_maps/starts/wn/wn_2026_07_04_w_omaps.webp'],
         bounds: [[60.6282495, 30.178628], [60.6233027, 30.237937], [60.6036761, 30.1706457]],
-        author: ['MKHLV_A','SBLV_S'],
+        author: ['MKHLV_A','SBLV_S']
     },
     {
         name: 'Сосново (Уловное оз)',
@@ -433,7 +433,7 @@ let wnStartsMaps = [
         url: './maps/starts/wn/wn_2026_07_05.webp',
         link: ['./original_maps/starts/wn/wn_2026_07_05_m_omaps.webp','./original_maps/starts/wn/wn_2026_07_05_w_omaps.webp'],
         bounds: [[60.6218921, 30.2126169], [60.6189446, 30.2480221], [60.5963658, 30.2043772]],
-        author: 'MKHLV_A',
+        author: 'MKHLV_A'
     },
     {
         name: 'Сосново (Уловное оз)',
@@ -443,6 +443,6 @@ let wnStartsMaps = [
         url: './maps/starts/wn/wn_2026_07_03.webp',
         link: ['./original_maps/starts/wn/wn_2026_07_03_m_omaps.webp','./original_maps/starts/wn/wn_2026_07_03_w_omaps.webp'],
         bounds: [[60.5984938, 30.2185822], [60.5963026, 30.2448034], [60.5850283, 30.2139473]],
-        author: 'MKHLV_A',
+        author: 'MKHLV_A'
     },
 ];

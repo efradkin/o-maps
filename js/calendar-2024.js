@@ -599,7 +599,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240505_wn/240505_res_WN_corr.htm',
         split: 'splits/2024/SPB_20240505_1_split.htm',
         map: 'stekljanny_2021',
-        o_site: '240505_wn',
+        o_site: '240505_wn'
     },
     {
         id: 'SPB_20240505_2',
@@ -676,7 +676,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240511_wn/240511_res_WN.htm',
         split: 'splits/2024/SPB_20240511_1_split.htm',
         o_site: '240511_wn',
-        map: 'topograph_2017',
+        map: 'topograph_2017'
     },
     {
         id: 'SPB_20240511_2',
@@ -776,7 +776,7 @@ let events2024 = [
         res: 'https://o-site.spb.ru/_races/240518_wn/240518_res_WN.htm',
         split: 'splits/2024/SPB_20240518_1_split.htm',
         map: 'bolotnaya_station_2019',
-        o_site: '240518_wn',
+        o_site: '240518_wn'
     },
     {
         id: 'SPB_20240518_2',
@@ -1001,7 +1001,7 @@ let events2024 = [
             '16-А1': 19834,
             '16-А2': 19840,
             '16-ALL': 19841,
-        },
+        }
     },
     {
         id: 'SPB_20240613_1',
@@ -1036,7 +1036,7 @@ let events2024 = [
         ],
         start: 'KKP',
         o_site: '240615-20_KKP',
-        strava: [11675022463,11681133944,11688407003,11696132252],
+        strava: [11675022463,11681133944,11688407003,11696132252]
     },
     {
         id: 'SPB_20240615_2',
@@ -1055,7 +1055,7 @@ let events2024 = [
             'М': 19767,
             'Open 5': 19835,
         },
-        video: 'https://vkvideo.ru/video-93257360_456239235',
+        video: 'https://vkvideo.ru/video-93257360_456239235'
     },
     {
         id: 'SPB_20240616_2',
@@ -1102,7 +1102,7 @@ let events2024 = [
             'https://www.youtube.com/watch?v=8KtdCrgRpOc',
             'https://www.youtube.com/watch?v=E8VJL0bXcWo',
             'https://www.youtube.com/watch?v=CCWKHF2m2Ns'
-        ],
+        ]
     },
     {
         id: 'SPB_20240618_1',
@@ -1127,7 +1127,7 @@ let events2024 = [
             'https://rutube.ru/video/f1a0fb311cd42b02cbafad0792993efc/',
             'https://www.youtube.com/watch?v=b4xly5c1uj0',
             'https://www.youtube.com/watch?v=8MI6LGyKN7E'
-        ],
+        ]
     },
     {
         id: 'SPB_20240619_1',
@@ -1787,7 +1787,7 @@ let events2024 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1632',
         res: 'http://orgeo.ru/event/38241',
         split: 'splits/2024/SPB_20240929_1_split.htm',
-        o_site: '240929',
+        o_site: '240929'
     },
     {
         id: 'SPB_20241002_1',

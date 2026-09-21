@@ -277,7 +277,7 @@ let events2021 = [
         o_site: '210227',
         reskeep: 423,
         strava: 4858008623,
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20210306_1',
@@ -303,7 +303,7 @@ let events2021 = [
             'splits/2021/SPB_20210307_1_2_split.htm'
         ],
         o_site: '21030607_zs',
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20210307_2',
@@ -318,7 +318,7 @@ let events2021 = [
             'splits/2021/SPB_20210307_2_2_split.htm'
         ],
         o_site: '210307_vuzy',
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20210307_3',
@@ -328,7 +328,7 @@ let events2021 = [
         type: 'SKI',
         info: 'Санкт-Петербургские студенческие соревнования по спортивному ориентированию (лыжные дисциплины).',
         o_site: '210307',
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20210308_1',
@@ -349,7 +349,7 @@ let events2021 = [
         place: 'Кузьмолово',
         name: 'Всеволожская тропа. 1 этап',
         start: 'VSEVOLOZHSK_WAY',
-        reskeep: 426,
+        reskeep: 426
     },
     {
         id: 'SPB_20210316_1',
@@ -444,7 +444,7 @@ let events2021 = [
         place: 'Полюстровский парк',
         name: 'Тренировка от Авроры',
         reskeep: 444,
-        map: 'polyustrovsky_2022',
+        map: 'polyustrovsky_2022'
     },
     {
         id: 'SPB_20210418_1',
@@ -470,7 +470,7 @@ let events2021 = [
         info: 'Суббота Полюстровский парк, старт с 16:15. Воскресенье Ржевский лесопарк старт с 13:00',
         o_site: '210418_A',
         reskeep: 445,
-        map: 'polyustrovsky_2022',
+        map: 'polyustrovsky_2022'
     },
     {
         id: 'SPB_20210418_4',
@@ -705,7 +705,7 @@ let events2021 = [
         o_gps: 9883,
         type: 'TOURISM',
         video: 'https://www.youtube.com/watch?v=Ge6PvS6S8X8',
-        start: 'MB',
+        start: 'MB'
     },
     {
         id: 'SPB_20210512_1',
@@ -827,7 +827,7 @@ let events2021 = [
         photo: 'https://vk.com/album-30311715_276456938',
         map: 'hiitola_ba_2021',
         start: 'BA',
-        owner: 'BKTV',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20210523_1',
@@ -1011,7 +1011,7 @@ let events2021 = [
         name: 'White Nights Sprint #4',
         start: 'WHITE_NIGHTS',
         map: 'vasiljevsky_2024',
-        reskeep: 461,
+        reskeep: 461
     },
     {
         id: 'SPB_20210606_1',
@@ -1787,7 +1787,7 @@ let events2021 = [
         split: 'splits/2021/SPB_20211009_3_split.htm',
         o_site: '211009',
         reskeep: 495,
-        map: 'pukhtolova_gora_2025',
+        map: 'pukhtolova_gora_2025'
     },
     {
         id: 'SPB_20211009_4',
@@ -1874,7 +1874,7 @@ let events2021 = [
         split: 'splits/2021/SPB_20211017_2_split.htm',
         info: '17 октября 2021 г. СДЮСШОР № 2 СПБ ГДТЮ в районе пос. Ушково – Пухтолова гора проводит однодневные юношеские соревнования «Старты в Зеркальном». Подход от ст. Ушково. Дисциплина «кросс-классика». Группы от 10 до 20 лет плюс ДТР, Фитнес удл., Фитнес кор. Просим прощение за задержку информации. Идёт согласование с исполнительными органами власти.',
         o_site: '211017_CZ',
-        map: 'pukhtolova_gora_2025',
+        map: 'pukhtolova_gora_2025'
     },
     {
         id: 'SPB_20211019_1',
@@ -2023,7 +2023,7 @@ let events2021 = [
         place: 'Сосновый бор',
         name: 'Ночной рогейн',
         type: 'ROGAINE',
-        video: 'https://www.youtube.com/watch?v=CJdY3Z9n0NM',
+        video: 'https://www.youtube.com/watch?v=CJdY3Z9n0NM'
     },
     {
         id: 'SPB_20211104_1',

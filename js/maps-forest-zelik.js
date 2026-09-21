@@ -26,7 +26,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/roschino_1971_wn.webp',
         link: './original_maps/forest/zelik/roschino_1971_wn_omaps.jpg',
         start: 'WN',
-        bounds: [[60.2736212, 29.4934845], [60.2742596, 29.5640373], [60.23832, 29.4938278]],
+        bounds: [[60.2736212, 29.4934845], [60.2742596, 29.5640373], [60.23832, 29.4938278]]
     },
     {
         name: 'Решетниково',
@@ -91,7 +91,7 @@ let zelikMaps = [
         year: 1,
         url: './maps/forest/zelik/smoljachkovo_retro.webp',
         link: './original_maps/forest/zelik/smoljachkovo_retro_omaps.webp',
-        bounds: [[60.2068192, 29.4324589], [60.2032367, 29.5034409], [60.1764406, 29.4264936]],
+        bounds: [[60.2068192, 29.4324589], [60.2032367, 29.5034409], [60.1764406, 29.4264936]]
     },
     {
         name: 'Смолячково',
@@ -236,14 +236,14 @@ let zelikMaps = [
         url: './maps/forest/zelik/repino_1976.webp',
         link: './original_maps/forest/zelik/repino_1976_omaps.jpg',
         info: 'Приз ЛОСТиЭ.',
-        bounds: [[60.2318433, 29.8504543], [60.2315024, 29.9115658], [60.2087382, 29.8504543]],
+        bounds: [[60.2318433, 29.8504543], [60.2315024, 29.9115658], [60.2087382, 29.8504543]]
     },
     {
         name: 'Репино, р Сестра',
         year: 1,
         url: './maps/forest/zelik/repino_sestra_retro.webp',
         link: './original_maps/forest/zelik/repino_sestra_retro_omaps.webp',
-        bounds: [[60.2207191, 29.8504114], [60.2198239, 29.8757744], [60.2051346, 29.8489094]],
+        bounds: [[60.2207191, 29.8504114], [60.2198239, 29.8757744], [60.2051346, 29.8489094]]
     },
     {
         name: 'Зеленогорск, оз Красавица',
@@ -283,7 +283,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/ilychevo_1991.webp',
         link: './original_maps/forest/zelik/ilychevo_1991_omaps.jpg',
         bounds: [[60.2728551, 29.7686577], [60.2713229, 29.8178387], [60.2462863, 29.7645378]],
-        author: 'HSMTLN',
+        author: 'HSMTLN'
     },
     {
         name: 'Ильичёво',
@@ -308,7 +308,7 @@ let zelikMaps = [
         year: 1961,
         url: './maps/forest/zelik/zelenogorsk_schuchye_1961.webp',
         link: './original_maps/forest/zelik/zelenogorsk_schuchye_1961_omaps.jpg',
-        bounds: [[60.229606, 29.7618341], [60.2291159, 29.8108435], [60.2122349, 29.762392]],
+        bounds: [[60.229606, 29.7618341], [60.2291159, 29.8108435], [60.2122349, 29.762392]]
     },
     {
         name: 'Зеленогорск, оз Щучье',
@@ -391,7 +391,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/komarovo_repino_2008.webp',
         link: ['./original_maps/forest/zelik/komarovo_repino_2008_omaps.gif','./original_maps/forest/zelik/komarovo_repino_2008_omaps.ocd'],
         bounds: [[60.2087382, 29.8183107], [60.206414, 29.866848], [60.1913348, 29.8144913]],
-        author: 'FDRV_L',
+        author: 'FDRV_L'
     },
     {
         name: 'Зеленогорск, оз Щучье',
@@ -491,7 +491,7 @@ let zelikMaps = [
         year: 1,
         url: './maps/forest/zelik/zelenogorsk_druzhinnoe_retro.webp',
         link: './original_maps/forest/zelik/zelenogorsk_druzhinnoe_retro_omaps.webp',
-        bounds: [[60.2487994, 29.7694302], [60.2401307, 29.7886133], [60.2292224, 29.7315788]],
+        bounds: [[60.2487994, 29.7694302], [60.2401307, 29.7886133], [60.2292224, 29.7315788]]
     },
     {
         name: 'Зеленогорск, Дружинное оз',
@@ -727,7 +727,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/serovo_2006.webp',
         link: ['./original_maps/forest/zelik/serovo_2006_omaps.gif','./original_maps/forest/zelik/serovo_2006_omaps.ocd'],
         bounds: [[60.2046228, 29.5427728], [60.2045695, 29.5543385], [60.200091, 29.542923]],
-        author: 'FDRV_L',
+        author: 'FDRV_L'
     },
     {
         name: 'Белоостров',
@@ -817,7 +817,7 @@ let zelikMaps = [
         year: 1,
         url: './maps/forest/zelik/sestroretskie_detskie_djuny_retro.webp',
         link: './original_maps/forest/zelik/sestroretskie_detskie_djuny_retro_omaps.webp',
-        bounds: [[60.1282766, 29.95152], [60.1271224, 29.9795866], [60.1117287, 29.9477863]],
+        bounds: [[60.1282766, 29.95152], [60.1271224, 29.9795866], [60.1117287, 29.9477863]]
     },
     {
         name: 'Сестрорецк, Детские Дюны',
@@ -834,7 +834,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/sestroretskie_detskie_djuny_2020.webp',
         link: './original_maps/forest/zelik/sestroretskie_detskie_djuny_2020_omaps.gif',
         bounds: [[60.1229647, 29.962163], [60.121404, 29.9743724], [60.1176946, 29.9590516]],
-        author: ['SHRNN','BBCH_A','KUZNTSV_A'],
+        author: ['SHRNN','BBCH_A','KUZNTSV_A']
     },
     {
         name: 'Сестрорецк, Дюны, ТЭЦ',
@@ -875,7 +875,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/lisy_nos_1986.webp',
         link: './original_maps/forest/zelik/lisy_nos_1986_omaps.jpg',
         bounds: [[60.0106788, 30.0137901], [60.0062811, 30.0710821], [59.9993724, 30.009799]],
-        author: ['FRSHLVA','FRSHLV'],
+        author: ['FRSHLVA','FRSHLV']
     },
     {
         name: 'Сестрорецк, Таможенная дорога',
@@ -1018,7 +1018,7 @@ let zelikMaps = [
         url: './maps/forest/zelik/molodezhnoe_2003.webp',
         link: ['./original_maps/forest/zelik/molodezhnoe_2003_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_omaps.webp','./original_maps/forest/zelik/molodezhnoe_2003_02_20_omaps.jpg','./original_maps/forest/zelik/molodezhnoe_2003_omaps.ocd'],
         bounds: [[60.2030021, 29.5317864], [60.2016799, 29.5483518], [60.1970303, 29.5304132]],
-        author: ['SHKLV','FDRV_L'],
+        author: ['SHKLV','FDRV_L']
     },
     {
         name: 'ДООЛ "Молодёжное"',

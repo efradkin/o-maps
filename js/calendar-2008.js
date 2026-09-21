@@ -527,7 +527,7 @@ let events2008 = [
         info: '16-й Мемориал Михаила Святкина',
         start: 'MMS',
         o_site: '080627_MS',
-        map: 'mms_2008_06_28',
+        map: 'mms_2008_06_28'
     },
     {
         id: 'SPB_20080706_1',
@@ -806,7 +806,7 @@ let events2008 = [
         res: 'https://o-site.spb.ru/_races/08101112/08101112_res.htm',
         split: 'splits/2008/SPB_20081011_1_split.zip',
         start: 'OKINCHITSA',
-        o_site: '08101112',
+        o_site: '08101112'
     },
     {
         id: 'SPB_20081018_1',

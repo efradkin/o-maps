@@ -16,7 +16,7 @@ let michuraMaps = [
         url: './maps/forest/michura/michurinskoe_1986.webp',
         link: './original_maps/forest/michura/michurinskoe_1986_omaps.jpg',
         bounds: [[60.6185656, 29.8816967], [60.600748, 29.9374008], [60.5764277, 29.8296833]],
-        author: 'BYMKV',
+        author: 'BYMKV'
     },
     {
         name: 'Ягодное',
@@ -59,7 +59,7 @@ let michuraMaps = [
         link: './original_maps/forest/michura/borisovo_1988_omaps.jpg',
         bounds: [[60.6256394, 29.9290752], [60.6197868, 30.0051212], [60.5857871, 29.9159431]],
         author: ['BYMKV','PVLV_M','GRBTNKV','VNGRDV_K','SMNV_K','BKKLV','NKSHN','CHRNV_G','SKBLV_A'],
-        areas: [55,5,10,5,5,5,5,5,5],
+        areas: [55,5,10,5,5,5,5,5,5]
     },
     {
         name: 'Мичуринское',

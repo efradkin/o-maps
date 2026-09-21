@@ -57,7 +57,7 @@ let events2005 = [
         o_site: '050205',
         map: 'gatchina_zverinets_2005',
         major: true,
-        start: 'RUSSIA_CHAMP',
+        start: 'RUSSIA_CHAMP'
     },
     {
         id: 'SPB_20050206_1',
@@ -395,7 +395,7 @@ let events2005 = [
         res: 'https://o-site.spb.ru/_races/050624/MemSv_res.zip',
         start: 'MMS',
         o_site: '050624',
-        map: ['mms_2005_06_25', 'mms_2005_06_26'],
+        map: ['mms_2005_06_25', 'mms_2005_06_26']
     },
     {
         id: 'SPB_20050702_1',

@@ -11,7 +11,7 @@ let pskovMaps = [
         bounds: [[57.8717836, 27.7082062], [57.8518308, 28.0298996], [57.7233569, 27.6755047]],
         author: 'LSHV_A',
         owner: 'PSKOV_RUS',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Алоль',
@@ -24,7 +24,7 @@ let pskovMaps = [
         bounds: [[56.5721564, 28.8171387], [56.5453848, 29.1393471], [56.4090106, 28.7731934]],
         author: ['MNKV','SMKN_S','SBLV_S','KSTLV_E'],
         owner: 'PSKOV_RUS',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Андреева гора',
@@ -46,7 +46,7 @@ let pskovMaps = [
         info: 'GRAND PRIX. Кубок СССР.',
         bounds: [[57.80158, 27.6949024], [57.796686, 27.7552414], [57.770009, 27.6840019]],
         author: ['EKHLKV','KRZHV','CHNTSV','CHRNH_Y','JANN_Y'],
-        owner: 'PSKOV_RUS',
+        owner: 'PSKOV_RUS'
     },
     {
         name: 'Изборск, оз Любенец',
@@ -137,7 +137,7 @@ let pskovMaps = [
         link: './original_maps/pskov/vybuty_2021_omaps.gif',
         bounds: [[57.732935, 28.2638311], [57.7299793, 28.2955885], [57.7084348, 28.2555056]],
         author: 'TTYNN_V',
-        owner: 'O_PSKOV',
+        owner: 'O_PSKOV'
     },
     {
         name: 'Аэропорт',
@@ -145,7 +145,7 @@ let pskovMaps = [
         url: './maps/pskov/pskov_aeroport_2021.webp',
         link: './original_maps/pskov/pskov_aeroport_2021_omaps.gif',
         bounds: [[57.7820229, 28.3645964], [57.779323, 28.3867407], [57.7648589, 28.3594894]],
-        owner: 'O_PSKOV',
+        owner: 'O_PSKOV'
     },
     {
         name: 'Псков',
@@ -200,7 +200,7 @@ let pskovMaps = [
         link: './original_maps/pskov/white_lake_1999_omaps.jpg',
         bounds: [[56.4575585, 28.9739513], [56.4491631, 29.0783215], [56.4188865, 28.9669991]],
         author: ['ALSHN','ANNNKV','GLVNV_V','GRV_S','LVN_B','LNTV','MTN_Y','MKHLEV_A','PPV_V','SVIR_A','TRNV_V','TRNV_VL','JANN_Y'],
-        owner: 'PSKOV_RUS',
+        owner: 'PSKOV_RUS'
     },
     {
         name: 'оз Велье',
@@ -210,7 +210,7 @@ let pskovMaps = [
         info: 'Карта составлена в 2011-2012гг семинаром по картографии под руководством Владимира Люка, начальник учебного процесса - Виктор Алёшин.',
         bounds: [[56.5663638, 28.8749027], [56.5627933, 28.9287186], [56.5347608, 28.8676929]],
         author: ['ALFRV','KLNN_B','KRMV_H','LUK_V','OGRZKV','MLSHNKO_V','PZGRV','SRV_A','YUDNTSV','ZHCHKV_V','ILCJVA','KTKVA_E','KCHNV_D','MRKN_S','MHVA_N','SRBRKV_S','SHVDV_A'],
-        owner: 'PSKOV_RUS',
+        owner: 'PSKOV_RUS'
     },
     {
         name: 'Мякишево',
@@ -291,7 +291,7 @@ let pskovMaps = [
         o_gps: 16195,
         bounds: [[57.7460148, 28.4151936], [57.7421899, 28.453474], [57.7330953, 28.410902]],
         author: 'GLTV_D',
-        owner: 'GLTV_D',
+        owner: 'GLTV_D'
     },
     {
         name: 'Варлаамовская башня',
@@ -373,7 +373,7 @@ let pskovMaps = [
         url: './maps/pskov/elks_2024.webp',
         bounds: [[57.5155463, 28.1739664], [57.5127803, 28.2014751], [57.501899, 28.169632]],
         author: 'GLTV_D',
-        owner: 'GLTV_D',
+        owner: 'GLTV_D'
     },
     {
         name: 'рынок Нива',
@@ -426,7 +426,7 @@ let pskovMaps = [
         url: './maps/pskov/paklino_2022.webp',
         bounds: [[57.8618086, 28.426609], [57.8617629, 28.4487104], [57.8534064, 28.4273386]],
         author: 'GLTV_D',
-        owner: 'GLTV_D',
+        owner: 'GLTV_D'
     },
     {
         name: 'Печорская',
@@ -452,7 +452,7 @@ let pskovMaps = [
         url: './maps/pskov/pier_2022.webp',
         bounds: [[57.7537551, 28.3280754], [57.7516485, 28.3487606], [57.7387768, 28.3229685]],
         author: 'GLTV_D',
-        owner: 'GLTV_D',
+        owner: 'GLTV_D'
     },
     {
         name: 'Псков, Летний сад',
@@ -559,7 +559,7 @@ let pskovMaps = [
         url: './maps/pskov/cherecha_2021.webp',
         bounds: [[57.7676057, 28.3576441], [57.7626155, 28.3819342], [57.7486714, 28.3449841]],
         author: 'GLTV_D',
-        owner: 'GLTV_D',
+        owner: 'GLTV_D'
     },
     {
         name: 'Щиглицы',
@@ -585,7 +585,7 @@ let pskovMaps = [
         url: './maps/pskov/yanino_2023.webp',
         bounds: [[58.1062075, 28.2508278], [58.1023981, 28.2873058], [58.0931448, 28.2432318]],
         author: 'GLTV_D',
-        owner: 'GLTV_D',
+        owner: 'GLTV_D'
     },
     {
         name: 'Званское оз',
@@ -604,7 +604,7 @@ let pskovMaps = [
         url: './maps/pskov/murovitsi_2022.webp',
         link: './original_maps/pskov/murovitsi_2022_omaps.gif',
         bounds: [[57.892022, 28.142252], [57.8880528, 28.1745672], [57.8705283, 28.1344843]],
-        owner: 'O_PSKOV',
+        owner: 'O_PSKOV'
     },
 
 

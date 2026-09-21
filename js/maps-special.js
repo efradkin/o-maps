@@ -119,7 +119,7 @@ let specialMaps = [
         author: ['CHGRVSKY_V','CHGRVSKY_Y'],
         editor: 'FDRV_N',
         logo: 'winter_retro.gif',
-        type: ['WINTER'],
+        type: ['WINTER']
     },
     {
         name: 'Кузьмолово',
@@ -626,7 +626,7 @@ let specialMaps = [
         link: './original_maps/velo/sestroretsk_tamozhennaya_doroga_velo_2008_omaps.jpg',
         bounds: [[60.1390689, 29.9373579], [60.1371672, 29.9634719], [60.1276995, 29.9346542]],
         author: 'SHRNN',
-        type: ['VELO'],
+        type: ['VELO']
     },
     {
         name: 'Сестрорецк, Таможенная дорога',
@@ -635,7 +635,7 @@ let specialMaps = [
         link: './original_maps/velo/sestroretsk_tamozhennaya_doroga_velo_2021_omaps.jpg',
         bounds: [[60.1380967, 29.9502325], [60.1372633, 29.9629354], [60.1284797, 29.9474001]],
         author: ['SHRNN','KUZNTSV_R'],
-        type: ['VELO'],
+        type: ['VELO']
     },
     {
         name: 'Сосново, Чёрный лес',
@@ -768,7 +768,7 @@ let specialMaps = [
         url: './maps/velo/silande_velo_2005.webp',
         link: './original_maps/velo/silande_velo_2005_omaps.jpg',
         bounds: [[60.4062235, 30.2478933], [60.405185, 30.2812386], [60.3798692, 30.2427006]],
-        type: ['VELO'],
+        type: ['VELO']
     },
     {
         name: 'Силанде',

@@ -579,7 +579,7 @@ let events2016 = [
         type: 'TOURISM',
         video: 'https://www.youtube.com/watch?v=PboTL9iikB4',
         start: 'MB',
-        map: 'lembolovo_mb_2016',
+        map: 'lembolovo_mb_2016'
     },
     {
         id: 'SPB_20160514_3',
@@ -724,7 +724,7 @@ let events2016 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/151107wn/160528_split.htm',
         o_site: '151107wn',
-        map: 'garbolovo_sirkkajarvi',
+        map: 'garbolovo_sirkkajarvi'
     },
     {
         id: 'SPB_20160528_4',
@@ -887,7 +887,7 @@ let events2016 = [
         o_site: '20160624',
         endDate: '2016-06-26',
         o_gps: 1235,
-        map: ['mms_2016_korobitsyno','mms_2016_06_24', 'mms_2016_06_25','mms_2016_06_26'],
+        map: ['mms_2016_korobitsyno','mms_2016_06_24', 'mms_2016_06_25','mms_2016_06_26']
     },
     {
         id: 'SPB_20160702_1',
@@ -1111,7 +1111,7 @@ let events2016 = [
         info: 'Ориентирование в заданном направлении по спец. условиям',
         start: 'GS',
         o_site: '160827_ZZ',
-        map: 'gs_2016_08_27',
+        map: 'gs_2016_08_27'
     },
     {
         id: 'SPB_20160828_1',

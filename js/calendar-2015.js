@@ -864,7 +864,7 @@ let events2015 = [
         start: 'MMS',
         o_site: '15062628',
         o_gps: 565,
-        map: ['kamenka_2015','mms_2015_krasna_dolina','mms_2015_06_26','mms_2015_06_27','mms_2015_06_28'],
+        map: ['kamenka_2015','mms_2015_krasna_dolina','mms_2015_06_26','mms_2015_06_27','mms_2015_06_28']
     },
     {
         id: 'SPB_20150704_1',
@@ -881,7 +881,7 @@ let events2015 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/WNC2015/150704_split.htm',
         o_site: 'WNC2015',
-        map: 'garbolovo_sirkkajarvi',
+        map: 'garbolovo_sirkkajarvi'
     },
     {
         id: 'SPB_20150704_3',

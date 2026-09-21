@@ -126,7 +126,7 @@ let southMaps = [
         url: './maps/forest/south/budogosch_cheremukhovoe_1988.webp',
         link: ['./original_maps/forest/south/budogosch_cheremukhovoe_1988_omaps.jpg','./original_maps/forest/south/budogosch_cheremukhovoe_1988_clean_omaps.jpg'],
         bounds: [[59.3026628, 32.3771381], [59.299705, 32.4337006], [59.2674816, 32.3702288]],
-        author: ['MRKRV','MRSKY_S'],
+        author: ['MRKRV','MRSKY_S']
     },
     {
         name: 'Будогощь, Черёмуховое оз',
@@ -186,7 +186,7 @@ let southMaps = [
         url: './maps/forest/south/budogosch_orlenok_1988.webp',
         link: ['./original_maps/forest/south/budogosch_orlenok_1988_full_1.jpg','./original_maps/forest/south/budogosch_orlenok_1988_full_2.jpg'],
         bounds: [[59.328286, 32.4112988], [59.3220243, 32.4900055], [59.2953884, 32.4005699]],
-        author: ['MRKRV','MRSKY_S','MLVA_M'],
+        author: ['MRKRV','MRSKY_S','MLVA_M']
     },
     {
         name: 'Будогощь, Орлёнок',
@@ -447,7 +447,7 @@ let southMaps = [
         year: 1969,
         url: './maps/forest/south/shapki_marathon_1969.webp',
         link: ['./original_maps/forest/south/shapki_marathon_1969_M1_omaps.webp','./original_maps/forest/south/shapki_marathon_1969_M2_omaps.webp','./original_maps/forest/south/shapki_marathon_1969_W_omaps.webp'],
-        bounds: [[59.6282728, 31.2056351], [59.6273181, 31.2579918], [59.5809371, 31.1899281]],
+        bounds: [[59.6282728, 31.2056351], [59.6273181, 31.2579918], [59.5809371, 31.1899281]]
     },
     {
         name: 'Шапки',

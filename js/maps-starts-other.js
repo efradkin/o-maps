@@ -18,7 +18,7 @@ let otherStartsMaps = [
         year: 1978,
         url: './maps/starts/other/polyany_1978_01_21_lningrad.webp',
         link: ['./original_maps/starts/other/polyany_1978_01_21_lningrad_M_omaps.webp','./original_maps/starts/other/polyany_1978_01_21_lningrad_W_omaps.webp'],
-        bounds: [[60.3371014, 29.2561626], [60.3366341, 29.3059444], [60.3056531, 29.2437172]],
+        bounds: [[60.3371014, 29.2561626], [60.3366341, 29.3059444], [60.3056531, 29.2437172]]
     },
     {
         name: 'Тарасовское',
@@ -47,7 +47,7 @@ let otherStartsMaps = [
         start: 'REPORT',
         url: './maps/starts/other/yukki_1983_03_19.webp',
         link: './original_maps/starts/other/yukki_1983_03_19_omaps.jpg',
-        bounds: [[60.1338976, 30.2656174], [60.1304995, 30.3167295], [60.1112582, 30.2601242]],
+        bounds: [[60.1338976, 30.2656174], [60.1304995, 30.3167295], [60.1112582, 30.2601242]]
     },
     {
         name: 'Всеволожск',
@@ -58,7 +58,7 @@ let otherStartsMaps = [
         link: './original_maps/starts/other/vsevolozhsk_1983_03_20_omaps.jpg',
         bounds: [[60.0592719, 30.6214714], [60.0577726, 30.6770897], [60.034502, 30.6187248]],
         author: 'VSLVSKY',
-        editor: 'CHGRVSKY_V',
+        editor: 'CHGRVSKY_V'
     },
     {
         name: 'Сосново',
@@ -68,7 +68,7 @@ let otherStartsMaps = [
         url: './maps/starts/other/sosnovo_1983_06_11.webp',
         link: './original_maps/starts/other/sosnovo_1983_06_11_omaps.webp',
         bounds: [[60.5468141, 30.1887131], [60.5430999, 30.250082], [60.5157793, 30.1820183]],
-        author: ['LVCHV','SVTKN'],
+        author: ['LVCHV','SVTKN']
     },
     {
         name: 'Лемболово',
@@ -80,7 +80,7 @@ let otherStartsMaps = [
         info: '<a href="./docs/1983/1983_06_11_spartak_rule_omaps.pdf">Летний Чемпионат ЛГС ДСО Спартак</a>.',
         results: './docs/1983/1983_06_12_spartak_omaps.pdf',
         bounds: [[60.4167339, 30.272913], [60.4130895, 30.3387451], [60.3882888, 30.2674198]],
-        author: ['LVCHV','SVTKN'],
+        author: ['LVCHV','SVTKN']
     },
     {
         name: 'Песочная',
@@ -819,7 +819,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Черкасово',
@@ -830,7 +830,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Кузнечное',
@@ -841,7 +841,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Мюллюпельто',
@@ -852,7 +852,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Горьковское',
@@ -863,7 +863,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Орехово',
@@ -874,7 +874,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Лемболово',
@@ -885,7 +885,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Каннельярви',
@@ -900,7 +900,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Гаврилово',
@@ -936,7 +936,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Черкасово',
@@ -947,7 +947,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Раздолье',
@@ -958,7 +958,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Заходское',
@@ -969,7 +969,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Кузнечное',
@@ -980,7 +980,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Приозерск',
@@ -991,7 +991,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Зеленогорск',
@@ -1002,7 +1002,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Лемболово',
@@ -1013,7 +1013,7 @@ let otherStartsMaps = [
         owner: 'BKTV',
         start: 'MB',
         page: 'starts',
-        type: ['ROGAINE'],
+        type: ['ROGAINE']
     },
     {
         name: 'Каннельярви',

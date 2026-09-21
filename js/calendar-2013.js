@@ -314,7 +314,7 @@ let events2013 = [
         name: 'Sprint Tour SPb 2013 - 15 этап',
         res: 'https://o-site.spb.ru/_races/130904/131120_split.htm',
         start: 'ST',
-        o_site: '130904',
+        o_site: '130904'
     },
     {
         id: 'SPB_20130406_1',
@@ -905,7 +905,7 @@ let events2013 = [
         ],
         o_site: '13061823',
         map: ['ym_2013_yagodnoe_klassika', 'ym_2013_yagodnoe_klassika2', 'ym_2013_borisovo_long'],
-        start: ['WN','YM'],
+        start: ['WN','YM']
     },
     {
         id: 'SPB_20130623_1',
@@ -936,7 +936,7 @@ let events2013 = [
         start: 'MMS',
         o_site: '13062830_MS',
         endDate: '2013-06-30',
-        map: ['vyborg_saymenskie_dachi_2013','mms_2013_06_28','mms_2013_06_29','mms_2013_06_30'],
+        map: ['vyborg_saymenskie_dachi_2013','mms_2013_06_28','mms_2013_06_29','mms_2013_06_30']
     },
     {
         id: 'SPB_20130706_1',
@@ -1117,7 +1117,7 @@ let events2013 = [
         info: 'Традиционные соревнования по специальным правилам, проводимые клубом Азимут',
         start: 'GS',
         o_site: '130825_ZZ',
-        map: 'gs_2013_08_25',
+        map: 'gs_2013_08_25'
     },
     {
         id: 'SPB_20130831_1',

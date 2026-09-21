@@ -346,7 +346,7 @@ let events2017 = [
         reg: 'http://reg.o-time.ru/step1.php?event=17092',
         info: 'Серия тренировочных стартов в дисциплине "спринт"',
         start: 'ST',
-        o_site: '170412_ST',
+        o_site: '170412_ST'
     },
     {
         id: 'SPB_20170401_2',
@@ -356,7 +356,7 @@ let events2017 = [
         start: 'KUZMOLOVSKY_STARTS',
         res: 'https://o-site.spb.ru/_races/2017_KS/171005_res.htm',
         info: 'Серия тренировочных стартов в окрестностях поселка Кузьмоловский',
-        o_site: '2017_KS',
+        o_site: '2017_KS'
     },
     {
         id: 'SPB_20170408_1',
@@ -772,7 +772,7 @@ let events2017 = [
         place: 'Удельная, Поклонная гора',
         name: 'Noname Sprint Tour SPb',
         start: 'ST',
-        map: 'berezovy_sad_2016',
+        map: 'berezovy_sad_2016'
     },
     {
         id: 'SPB_20170519_1',
@@ -915,7 +915,7 @@ let events2017 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2017-1.php',
         photo: 'https://vk.com/album-30311715_244242670',
         start: 'BA',
-        owner: 'BKTV',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20170528_1',
@@ -1015,7 +1015,7 @@ let events2017 = [
         name: 'Red Fox Adventure Race',
         video: 'https://www.youtube.com/watch?v=GsF6pYBUfKM',
         type: 'MULTI',
-        start: 'RFAR',
+        start: 'RFAR'
     },
     {
         id: 'SPB_20170612_1',
@@ -1109,7 +1109,7 @@ let events2017 = [
         start: 'MMS',
         o_site: '17062325',
         o_gps: 2492,
-        map: ['mms_2017_korobitsyno','mms_2017_06_23','mms_2017_06_24','mms_2017_06_25'],
+        map: ['mms_2017_korobitsyno','mms_2017_06_23','mms_2017_06_24','mms_2017_06_25']
     },
     {
         id: 'SPB_20170701_1',
@@ -1301,7 +1301,7 @@ let events2017 = [
         reg: 'http://www.x-race.info/calendar/103070/request/',
         res: 'https://o-site.spb.ru/_races/170826/170826_res.pdf',
         split: 'splits/2017/SPB_20170826_1_split.htm',
-        o_site: '170826',
+        o_site: '170826'
     },
     {
         id: 'SPB_20170826_2',
@@ -1472,7 +1472,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/170923/170923_res.pdf',
         split: 'splits/2017/SPB_20170923_1_split.htm',
         o_site: '170923',
-        map: 'polyustrovsky_2022',
+        map: 'polyustrovsky_2022'
     },
     {
         id: 'SPB_20170923_2',
@@ -1626,7 +1626,7 @@ let events2017 = [
         res: 'https://o-site.spb.ru/_races/171007kr/171007_res.htm',
         split: 'splits/2017/SPB_20171007_1_split.htm',
         o_site: '171007kr',
-        map: 'polyustrovsky_2022',
+        map: 'polyustrovsky_2022'
     },
     {
         id: 'SPB_20171007_2',

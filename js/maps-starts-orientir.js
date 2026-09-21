@@ -8,7 +8,7 @@ let orientirStartsMaps = [
         start: 'ORIENTIR',
         bounds: [[60.1312903, 30.2875042], [60.1291957, 30.3319645], [60.1102103, 30.2826118]],
         docs: ['1990_06_06_yukki', 5, 'gif'],
-        author: 'SHLKHN_Y',
+        author: 'SHLKHN_Y'
     },
     {
         name: 'Юкки',
@@ -44,7 +44,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1990_07_11_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.1909508, 30.5255985], [60.1876865, 30.557785], [60.1630558, 30.5190754]],
-        author: ['SHRNN','MKHLV_B','CHGRVSKY_Y','DBRTSV_V','DJKV','PTRNNA','SMNA'],
+        author: ['SHRNN','MKHLV_B','CHGRVSKY_Y','DBRTSV_V','DJKV','PTRNNA','SMNA']
     },
     {
         name: 'Кавголово',
@@ -107,7 +107,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1990_11_18_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.1567991, 30.5334091], [60.1529121, 30.5890274], [60.13971, 30.5292892]],
-        author: ['CHGRVSKY_Y','DBRTSV_V','CHKVSKY_N','KRNLJV','GRSMVA','BSTRV_A','BRSVA_I','PTRNNA'],
+        author: ['CHGRVSKY_Y','DBRTSV_V','CHKVSKY_N','KRNLJV','GRSMVA','BSTRV_A','BRSVA_I','PTRNNA']
     },
     {
         name: 'Воейково',
@@ -116,7 +116,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_04_07_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[59.9560416, 30.6588936], [59.9507986, 30.7321072], [59.9256462, 30.6508255]],
-        author: 'VSLVSKY',
+        author: 'VSLVSKY'
     },
     {
         name: 'Колтуши',
@@ -125,7 +125,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_04_13_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[59.9685442, 30.6600094], [59.9649357, 30.7218075], [59.9373864, 30.652113]],
-        author: 'VSLVSKY',
+        author: 'VSLVSKY'
     },
     {
         name: 'Юкки',
@@ -134,7 +134,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_04_27_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.117716, 30.2768183], [60.1141665, 30.3457403], [60.102489, 30.2740288]],
-        author: ['SHLKHN_Y','BZNV_A'],
+        author: ['SHLKHN_Y','BZNV_A']
     },
     {
         name: 'Комарово',
@@ -161,7 +161,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_06_05_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.0563802, 30.2682781], [60.0556947, 30.2968597], [60.0382744, 30.2645016]],
-        author: 'KUZNTSV_V',
+        author: 'KUZNTSV_V'
     },
     {
         name: 'Токсово',
@@ -170,7 +170,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_06_12_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.1524849, 30.3907585], [60.1483838, 30.4623413], [60.1262033, 30.3838062]],
-        author: ['CHGRVSKY_V','CHGRVSKY_Y','AZBKNA'],
+        author: ['CHGRVSKY_V','CHGRVSKY_Y','AZBKNA']
     },
     {
         name: 'Лемболово',
@@ -179,7 +179,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_06_26_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.4454505, 30.3050137], [60.4406238, 30.375309], [60.4205049, 30.2985764]],
-        author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
+        author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E']
     },
     {
         name: 'Токсово, Изумрудное оз',
@@ -206,7 +206,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_07_10_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.1915054, 30.5169296], [60.1874945, 30.5583], [60.1558594, 30.5080032]],
-        author: ['SHRNN','MKHLV_B','CHGRVSKY_Y','DBRTSV_V','DJKV','PTRNNA','SMNA'],
+        author: ['SHRNN','MKHLV_B','CHGRVSKY_Y','DBRTSV_V','DJKV','PTRNNA','SMNA']
     },
     {
         name: 'Кузнечное, оз Суури',
@@ -224,7 +224,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_07_21_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[61.1432353, 29.8894215], [61.1393412, 29.9619484], [61.1223922, 29.8841858]],
-        author: ['BGCHNS','VLKV_K','OVCHNNKV','SSNNA','USHNV'],
+        author: ['BGCHNS','VLKV_K','OVCHNNKV','SSNNA','USHNV']
     },
     {
         name: 'Невский л/п',
@@ -233,7 +233,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_07_24_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[59.8472509, 30.5817318], [59.8366648, 30.6177378], [59.828103, 30.5605316]],
-        author: ['OSMCHN','ANSFRV','FDRV_L'],
+        author: ['OSMCHN','ANSFRV','FDRV_L']
     },
     {
         name: 'Песочная',
@@ -242,7 +242,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_08_28_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.122505, 30.1112509], [60.1175022, 30.1748514], [60.1066814, 30.1069593]],
-        author: 'VSLVSKY',
+        author: 'VSLVSKY'
     },
     {
         name: 'Шуваловский парк',
@@ -268,7 +268,7 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_09_29_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.4770179, 30.2390957], [60.4735918, 30.2857876], [60.4457892, 30.2305126]],
-        author: 'BYMKV',
+        author: 'BYMKV'
     },
     {
         name: 'Лемболово',
@@ -277,6 +277,6 @@ let orientirStartsMaps = [
         link: './original_maps/starts/orientir/orientir_1991_11_08_omaps.jpg',
         start: 'ORIENTIR',
         bounds: [[60.4402851, 30.2927399], [60.4362411, 30.3407621], [60.4149118, 30.2836418]],
-        author: 'BYMKV',
+        author: 'BYMKV'
     },
 ];

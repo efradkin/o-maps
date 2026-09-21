@@ -9,7 +9,7 @@ let vyborgMaps = [
         bounds: [[60.8056016, 28.6011887], [60.803257, 28.6230755], [60.7968295, 28.5983133]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY'],
         owner: 'NW',
-        year: 2014,
+        year: 2014
     },
     {
         name: 'р Гусиная',
@@ -19,7 +19,7 @@ let vyborgMaps = [
         bounds: [[60.8058109, 28.588872], [60.8027546, 28.6196423], [60.7866726, 28.5816193]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY'],
         owner: 'NW',
-        year: 2014,
+        year: 2014
     },
     {
         name: 'оз Горица',
@@ -29,7 +29,7 @@ let vyborgMaps = [
         bounds: [[60.8046178, 28.6101151], [60.8016869, 28.6482239], [60.7915525, 28.6054802]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY'],
         owner: 'NW',
-        year: 2014,
+        year: 2014
     },
     {
         name: 'Обходное оз',
@@ -86,7 +86,7 @@ let vyborgMaps = [
         bounds: [[60.8392442, 28.6129475], [60.8375922, 28.6318731], [60.8249169, 28.6077976]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A'],
         owner: 'NW',
-        year: 2018,
+        year: 2018
     },
     {
         name: 'Солнечное',
@@ -96,7 +96,7 @@ let vyborgMaps = [
         bounds: [[60.8280549, 28.5744953], [60.8243312, 28.6138058], [60.8088461, 28.567543]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A'],
         owner: 'NW',
-        year: 2018,
+        year: 2018
     },
     {
         name: 'Солнечное',
@@ -106,7 +106,7 @@ let vyborgMaps = [
         bounds: [[60.8264441, 28.5786152], [60.8234943, 28.6137629], [60.8136598, 28.5732079]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A'],
         owner: 'NW',
-        year: 2018,
+        year: 2018
     },
     {
         name: 'оз Тростинка',
@@ -116,7 +116,7 @@ let vyborgMaps = [
         bounds: [[60.8398715, 28.6201572], [60.8363793, 28.6587811], [60.8129901, 28.609643]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A'],
         owner: 'NW',
-        year: 2018,
+        year: 2018
     },
     {
         name: 'Пруды',
@@ -144,7 +144,7 @@ let vyborgMaps = [
         bounds: [[61.0473597, 29.0597391], [61.0453445, 29.0800381], [61.0287193, 29.0530872]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A','LUK_V'],
         owner: 'NW',
-        year: 2019,
+        year: 2019
     },
     {
         name: 'Пруды',
@@ -154,7 +154,7 @@ let vyborgMaps = [
         bounds: [[61.0342066, 29.0519714], [61.0307356, 29.0904665], [61.0152881, 29.0446758]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A','LUK_V'],
         owner: 'NW',
-        year: 2019,
+        year: 2019
     },
     {
         name: 'Пруды',
@@ -164,7 +164,7 @@ let vyborgMaps = [
         bounds: [[61.0339988, 29.0592241], [61.0292182, 29.1126108], [61.0093608, 29.0498257]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A','LUK_V'],
         owner: 'NW',
-        year: 2019,
+        year: 2019
     },
     {
         name: 'Пальцево',
@@ -201,7 +201,7 @@ let vyborgMaps = [
         bounds: [[60.8062505, 28.7792444], [60.8028174, 28.8158941], [60.7948821, 28.774395]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','TKMKVA_P','LUK_V'],
         owner: 'NW',
-        year: 2022,
+        year: 2022
     },
     {
         name: 'Пальцево',
@@ -211,7 +211,7 @@ let vyborgMaps = [
         bounds: [[60.8270089, 28.752079], [60.8211929, 28.8076973], [60.7974158, 28.7400627]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','TKMKVA_P','LUK_V'],
         owner: 'NW',
-        year: 2022,
+        year: 2022
     },
     {
         name: 'Беличий залив',
@@ -221,7 +221,7 @@ let vyborgMaps = [
         bounds: [[60.8030896, 28.7568212], [60.8005773, 28.7803388], [60.7946099, 28.7529588]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','TKMKVA_P','LUK_V'],
         owner: 'NW',
-        year: 2022,
+        year: 2022
     },
     {
         name: 'Пруды',
@@ -231,7 +231,7 @@ let vyborgMaps = [
         bounds: [[61.0627293, 29.0896082], [61.058763, 29.1350126], [61.0457393, 29.0822697]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY'],
         owner: 'NW',
-        year: 2023,
+        year: 2023
     },
     {
         name: 'Пруды',
@@ -259,7 +259,7 @@ let vyborgMaps = [
         bounds: [[61.0681692, 29.1136837], [61.0638091, 29.1585732], [61.0379682, 29.1015816]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY'],
         owner: 'NW',
-        year: 2023,
+        year: 2023
     },
     {
         name: 'Обходное оз',
@@ -277,7 +277,7 @@ let vyborgMaps = [
         bounds: [[61.0149138, 29.1875839], [61.011815, 29.2221308], [61.0026834, 29.1827345]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V'],
         owner: 'NW',
-        year: 2024,
+        year: 2024
     },
     {
         name: 'Новинское оз',
@@ -287,7 +287,7 @@ let vyborgMaps = [
         bounds: [[61.0069479, 29.1651392], [61.0036611, 29.1985703], [60.9933826, 29.1596031]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY'],
         owner: 'NW',
-        year: 2024,
+        year: 2024
     },
     {
         name: 'Обходное оз',
@@ -306,7 +306,7 @@ let vyborgMaps = [
         bounds: [[60.9992089, 29.146471], [60.9939653, 29.2026901], [60.981019, 29.1394329]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V'],
         owner: 'NW',
-        year: 2024,
+        year: 2024
     },
     {
         name: 'Ягодное оз',
@@ -316,7 +316,7 @@ let vyborgMaps = [
         bounds: [[61.0009358, 29.1862535], [60.9944647, 29.2559481], [60.9786665, 29.176898]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','KUZNTSV_A','LUK_V'],
         owner: 'NW',
-        year: 2024,
+        year: 2024
     },
     {
         name: 'Обходное оз',
@@ -326,7 +326,7 @@ let vyborgMaps = [
         bounds: [[61.0011855, 29.1869831], [60.9994794, 29.2041922], [60.9895741, 29.1830778]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','TKMKVA_P','LUK_V'],
         owner: 'NW',
-        year: 2024,
+        year: 2024
     },
     {
         name: 'Пруды',
@@ -336,7 +336,7 @@ let vyborgMaps = [
         bounds: [[61.0765141, 29.1208506], [61.0723834, 29.156642], [61.0558762, 29.1121817]],
         author: ['VRBY','KVZN','TKMKV_K','BRGNTS'],
         owner: 'NW',
-        year: 2026,
+        year: 2026
     },
     {
         name: 'Пруды',
@@ -347,7 +347,7 @@ let vyborgMaps = [
         bounds: [[61.0640167, 29.1263866], [61.0588669, 29.1726494], [61.0488555, 29.1199923]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
         owner: 'NW',
-        year: 2026,
+        year: 2026
     },
     {
         name: 'Пруды',
@@ -358,7 +358,7 @@ let vyborgMaps = [
         bounds: [[61.0873881, 29.1177177], [61.0842342, 29.1475868], [61.0628539, 29.1071177]],
         author: ['VRBY','KVZN','BRGNTS','PSTVTV'],
         owner: 'NW',
-        year: 2026,
+        year: 2026
     },
     {
         name: 'Пруды',
@@ -369,7 +369,7 @@ let vyborgMaps = [
         bounds: [[61.0674218, 29.123168], [61.0637675, 29.1585302], [61.0355783, 29.108963]],
         author: ['VRBY','KVZN','TKMKV_K','BRGNTS'],
         owner: 'NW',
-        year: 2026,
+        year: 2026
     },
     {
         name: 'Выборг, Монрепо',
@@ -526,21 +526,21 @@ let vyborgMaps = [
         url: './maps/forest/vyborg/tammisuo_1974.webp',
         link: './original_maps/forest/vyborg/tammisuo_1974_omaps.webp',
         info: 'Золотая осень.',
-        bounds: [[60.7563503, 28.7579155], [60.7563922, 28.8095856], [60.7238378, 28.7572289]],
+        bounds: [[60.7563503, 28.7579155], [60.7563922, 28.8095856], [60.7238378, 28.7572289]]
     },
     {
         name: 'Кировские дачи',
         year: 1,
         url: './maps/forest/vyborg/kirovskie_dachi_retro.webp',
         link: ['./original_maps/forest/vyborg/kirovskie_dachi_retro_color_omaps.webp','./original_maps/forest/vyborg/kirovskie_dachi_retro_omaps.webp'],
-        bounds: [[60.7729923, 28.7076187], [60.7848084, 28.7614346], [60.7360076, 28.7456417]],
+        bounds: [[60.7729923, 28.7076187], [60.7848084, 28.7614346], [60.7360076, 28.7456417]]
     },
     {
         name: 'Сайменские дачи',
         year: 1,
         url: './maps/forest/vyborg/vyborg_saymenskie_dachi_old.webp',
         link: './original_maps/forest/vyborg/vyborg_saymenskie_dachi_old_omaps.jpg',
-        bounds: [[60.7885157, 28.7499332], [60.7861699, 28.7846088], [60.7647143, 28.7440538]],
+        bounds: [[60.7885157, 28.7499332], [60.7861699, 28.7846088], [60.7647143, 28.7440538]]
     },
     {
         name: 'Сайменские дачи',
@@ -565,7 +565,7 @@ let vyborgMaps = [
         year: 1,
         url: './maps/forest/vyborg/lazarevka_retro.webp',
         link: ['./original_maps/forest/vyborg/lazarevka_retro_color_omaps.webp','./original_maps/forest/vyborg/lazarevka_retro_omaps.webp','./original_maps/forest/vyborg/lazarevka_retro_cources_omaps.webp'],
-        bounds: [[60.7040625, 28.8178682], [60.7034325, 28.8416433], [60.6877838, 28.8152075]],
+        bounds: [[60.7040625, 28.8178682], [60.7034325, 28.8416433], [60.6877838, 28.8152075]]
     },
     {
         name: 'Кировские дачи, стрельбище',

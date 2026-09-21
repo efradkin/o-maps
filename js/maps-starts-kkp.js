@@ -94,7 +94,7 @@ let kkpStartsMaps = [
         bounds: [[60.9943607, 29.1623926], [60.9890954, 29.2141914], [60.9810606, 29.1568565]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY','LUK_V'],
         owner: 'NW',
-        year: 2024,
+        year: 2024
     },
     {
         name: 'Пруды',
@@ -104,7 +104,7 @@ let kkpStartsMaps = [
         bounds: [[61.042415, 29.0838575], [61.0359731, 29.145999], [61.0218589, 29.0749311]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
         owner: 'NW',
-        year: 2025,
+        year: 2025
     },
     {
         name: 'Пруды',
@@ -114,7 +114,7 @@ let kkpStartsMaps = [
         bounds: [[61.0405865, 29.1195202], [61.0379889, 29.1451406], [61.0277423, 29.1136837]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
         owner: 'NW',
-        year: 2025,
+        year: 2025
     },
     {
         name: 'Пруды',
@@ -124,7 +124,7 @@ let kkpStartsMaps = [
         bounds: [[61.0528853, 29.0894365], [61.0488347, 29.1268158], [61.0354328, 29.0815401]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
         owner: 'NW',
-        year: 2025,
+        year: 2025
     },
     {
         name: 'Пруды',
@@ -134,7 +134,7 @@ let kkpStartsMaps = [
         bounds: [[61.0473805, 29.0889645], [61.0454484, 29.1062593], [61.0351626, 29.0832567]],
         author: ['VRBY','KVZN','TKMKV_K','NSNV','LUK_V'],
         owner: 'NW',
-        year: 2025,
+        year: 2025
     },
     {
         name: 'Пруды',
@@ -146,7 +146,7 @@ let kkpStartsMaps = [
         author: ['VRBY','KVZN','TKMKV_K','BRGNTS'],
         owner: 'NW',
         zindex: 3,
-        year: 2026,
+        year: 2026
     },
     {
         name: 'Пруды',
@@ -158,6 +158,6 @@ let kkpStartsMaps = [
         author: ['VRBY','KVZN','PSTVTV','TKMKV_K','BRGNTS'],
         owner: 'NW',
         zindex: 3,
-        year: 2026,
+        year: 2026
     },
 ];

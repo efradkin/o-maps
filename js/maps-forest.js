@@ -14,7 +14,7 @@ let forestMaps = [
         info: 'Буревестник.',
         url: './maps/forest/zerkalny_1973.webp',
         link: ['./original_maps/forest/zerkalny_1973_omaps.jpg','./original_maps/forest/zerkalny_1973_clean_omaps.webp'],
-        bounds: [[60.2612126, 29.1106796], [60.2684285, 29.1708899], [60.2426655, 29.1185331]],
+        bounds: [[60.2612126, 29.1106796], [60.2684285, 29.1708899], [60.2426655, 29.1185331]]
     },
     {
         name: 'Зеркальный',
@@ -251,7 +251,7 @@ let forestMaps = [
             author: 'RDNV_I',
             owner: 'RDNV_I'
         },
-        bounds: [[60.1503276, 30.2724409], [60.1431071, 30.3420496], [60.1135250, 30.2570772]],
+        bounds: [[60.1503276, 30.2724409], [60.1431071, 30.3420496], [60.1135250, 30.2570772]]
     },
     {
         name: 'Юкки, север',
@@ -498,7 +498,7 @@ let forestMaps = [
         url: './maps/forest/tarasovskoe_2000.webp',
         link: './original_maps/forest/tarasovskoe_2000_omaps.webp',
         bounds: [[60.2808555, 29.1323948], [60.2773237, 29.1899014], [60.2467549, 29.1202068]],
-        author: ['KUZNTSV_S','TKMKV_K','KUZNTSVA_E'],
+        author: ['KUZNTSV_S','TKMKV_K','KUZNTSVA_E']
     },
     {
         name: 'Яппиля',
@@ -537,7 +537,7 @@ let forestMaps = [
         page: 'spb',
         url: './maps/forest/yappilya_pistolet_1999.webp',
         link: ['./original_maps/forest/yappilya_pistolet_1999_omaps.jpg','./original_maps/starts/mms/mms_1999_06_27_cps_omaps.webp'],
-        bounds: [[60.2253227, 29.1244555], [60.221934, 29.1755247], [60.1885613, 29.115572]],
+        bounds: [[60.2253227, 29.1244555], [60.221934, 29.1755247], [60.1885613, 29.115572]]
     },
     {
         name: 'Яппиля, оз Пистолет',
@@ -589,7 +589,7 @@ let forestMaps = [
         start: 'OKINCHITSA',
         url: './maps/forest/zahodskoe_1976.webp',
         link: './original_maps/forest/zahodskoe_1976_omaps.webp',
-        bounds: [[60.4206744, 29.3679142], [60.4202083, 29.4266224], [60.3802298, 29.3677425]],
+        bounds: [[60.4206744, 29.3679142], [60.4202083, 29.4266224], [60.3802298, 29.3677425]]
     },
     {
         name: 'Каннельярви',
@@ -605,7 +605,7 @@ let forestMaps = [
         start: 'START_1968',
         url: './maps/forest/gladyshevskoe_1968.webp',
         link: './original_maps/forest/gladyshevskoe_1968_omaps.jpg',
-        bounds: [[60.3261829, 29.3161583], [60.3232934, 29.4130611], [60.2934906, 29.3136692]],
+        bounds: [[60.3261829, 29.3161583], [60.3232934, 29.4130611], [60.2934906, 29.3136692]]
     },
     {
         name: 'Поляны, Семиозерье',
@@ -613,14 +613,14 @@ let forestMaps = [
         start: 'START_1968',
         url: './maps/forest/polyany_1968.webp',
         link: './original_maps/forest/polyany_1968_omaps.webp',
-        bounds: [[60.3172585, 29.2650032], [60.3125828, 29.3458557], [60.2880883, 29.2582226]],
+        bounds: [[60.3172585, 29.2650032], [60.3125828, 29.3458557], [60.2880883, 29.2582226]]
     },
     {
         name: 'Поляны',
         year: 1979,
         url: './maps/forest/polyany_1979.webp',
         link: './original_maps/forest/polyany_1979_omaps.webp',
-        bounds: [[60.3134117, 29.2819977], [60.3094795, 29.3140125], [60.2993385, 29.2801523]],
+        bounds: [[60.3134117, 29.2819977], [60.3094795, 29.3140125], [60.2993385, 29.2801523]]
     },
     {
         name: 'Каннельярви, карьер',
@@ -717,7 +717,7 @@ let forestMaps = [
         year: 1,
         url: './maps/forest/sarzhenskoe_old.webp',
         link: './original_maps/forest/sarzhenskoe_old_omaps.jpg',
-        bounds: [[60.2495234, 30.1576424], [60.2499493, 30.2304268], [60.2075868, 30.1615906]],
+        bounds: [[60.2495234, 30.1576424], [60.2499493, 30.2304268], [60.2075868, 30.1615906]]
     },
     {
         name: 'Медное оз',

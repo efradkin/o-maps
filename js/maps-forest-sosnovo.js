@@ -236,7 +236,7 @@ let sosnovoMaps = [
         year: 1969,
         url: './maps/forest/sosnovo/sosnovo_1969_01_26.webp',
         link: './original_maps/forest/sosnovo/sosnovo_1969_01_26_omaps.webp',
-        bounds: [[60.5509498, 30.2307701], [60.5521735, 30.316515], [60.5182716, 30.233345]],
+        bounds: [[60.5509498, 30.2307701], [60.5521735, 30.316515], [60.5182716, 30.233345]]
     },
     {
         name: 'Сосново, Чёрный лес',
@@ -359,7 +359,7 @@ let sosnovoMaps = [
         url: './maps/forest/sosnovo/snegirevka_schuchji_2000.webp',
         link: './original_maps/forest/sosnovo/snegirevka_schuchji_2000_omaps.jpg',
         bounds: [[60.5330949, 30.2814102], [60.5321449, 30.3327799], [60.5147443, 30.275445]],
-        author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S'],
+        author: ['KAZNTSVA_O','MLVA_M','KAZNTSV_S']
     },
     {
         name: 'Снегирёвка',
@@ -643,6 +643,6 @@ let sosnovoMaps = [
         year: 2004,
         url: './maps/forest/sosnovo/losevo_lena_2004.webp',
         link: './original_maps/forest/sosnovo/losevo_lena_2004_omaps.jpg',
-        bounds: [[60.6745868, 29.9461555], [60.6743136, 29.9541807], [60.6716861, 29.9452972]],
+        bounds: [[60.6745868, 29.9461555], [60.6743136, 29.9541807], [60.6716861, 29.9452972]]
     },
 ];

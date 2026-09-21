@@ -444,7 +444,7 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/180415_tr/180415_res.htm',
         split: 'splits/2018/SPB_20180415_1_split.htm',
         o_site: '180415_tr',
-        map: 'pukhtolova_gora_2025',
+        map: 'pukhtolova_gora_2025'
     },
     {
         id: 'SPB_20180418_1',
@@ -455,7 +455,7 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/180418_K/180418_RES_K.htm',
         split: 'splits/2018/SPB_20180418_1_split.htm',
         o_site: '180418_K',
-        map: 'polyustrovsky_2022',
+        map: 'polyustrovsky_2022'
     },
     {
         id: 'SPB_20180418_2',
@@ -795,7 +795,7 @@ let events2018 = [
         video: 'https://www.youtube.com/watch?v=yM4fWkWOB1g',
         map: ['kamennogorsk_ta_2018','smorodinka_2018'],
         start: ['BA','TA'],
-        owner: 'BKTV',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20180526_3',
@@ -985,7 +985,7 @@ let events2018 = [
             'https://www.youtube.com/watch?v=gCN1nAwSFUo'
         ],
         start: 'KKP',
-        o_site: '180617-18',
+        o_site: '180617-18'
     },
     {
         id: 'SPB_20180618_1',
@@ -1445,7 +1445,7 @@ let events2018 = [
         place: 'Выборгский р-н',
         name: 'Sprint Tour SPb 2018. 2 этап',
         start: 'ST',
-        reskeep: 31,
+        reskeep: 31
     },
     {
         id: 'SPB_20180913_1',
@@ -1547,7 +1547,7 @@ let events2018 = [
         name: 'Цикл стартов МаТрёшка. 2 этап',
         start: 'MATRESHKA',
         res: 'http://o-site.spb.ru/_races/1804-11/180922_split_MT.htm',
-        reskeep: 54,
+        reskeep: 54
     },
     {
         id: 'SPB_20180923_1',
@@ -1583,7 +1583,7 @@ let events2018 = [
         name: 'Кузьмоловские старты. 3 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList27092018.html',
-        reskeep: 52,
+        reskeep: 52
     },
     {
         id: 'SPB_20180929_2',
@@ -1625,7 +1625,7 @@ let events2018 = [
         res: 'https://o-site.spb.ru/_races/180929_deaf/180929_rez_deaf.htm',
         split: 'splits/2018/SPB_20180929_5_split.htm',
         o_site: '180929_deaf',
-        map: 'pukhtolova_gora_2025',
+        map: 'pukhtolova_gora_2025'
     },
     {
         id: 'SPB_20180929_6',
@@ -1634,7 +1634,7 @@ let events2018 = [
         name: 'Цикл стартов МаТрёшка. 3 этап',
         start: 'MATRESHKA',
         res: 'http://o-site.spb.ru/_races/1804-11/180929_split_MT.htm',
-        reskeep: 53,
+        reskeep: 53
     },
     {
         id: 'SPB_20180929_7',
@@ -1648,7 +1648,7 @@ let events2018 = [
         photo: 'https://vk.com/album-30311715_256332495',
         map: 'toksovo_bal_2018',
         start: 'BA',
-        owner: 'BKTV',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20180929_1',
@@ -1694,7 +1694,7 @@ let events2018 = [
         place: 'Кавголово',
         name: 'Первенство СШОР №2',
         owner: 'ANCHKV',
-        video: 'https://www.youtube.com/watch?v=53e9RgFG5vk',
+        video: 'https://www.youtube.com/watch?v=53e9RgFG5vk'
     },
     {
         id: 'SPB_20181001_1',
@@ -1722,7 +1722,7 @@ let events2018 = [
         name: 'Кузьмоловские старты. 4 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/KS_2018/results04102018.htm',
-        reskeep: 71,
+        reskeep: 71
     },
     {
         id: 'SPB_20181006_1',
@@ -1737,7 +1737,7 @@ let events2018 = [
         place: 'Васильевский о-в',
         name: 'Sprint Tour SPb 2018. 4 этап',
         start: 'ST',
-        reskeep: 58,
+        reskeep: 58
     },
     {
         id: 'SPB_20181006_3',
@@ -1796,7 +1796,7 @@ let events2018 = [
         name: 'Кузьмоловские старты. 5 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList11102018.htm',
-        reskeep: 72,
+        reskeep: 72
     },
     {
         id: 'SPB_20181013_1',
@@ -1852,7 +1852,7 @@ let events2018 = [
         name: 'Кузьмоловские старты. 6 этап',
         start: 'KUZMOLOVSKY_STARTS',
         res: 'http://o-site.spb.ru/_races/KS_2018/ResultList18102018.htm',
-        reskeep: 64,
+        reskeep: 64
     },
     {
         id: 'SPB_20181020_1',
@@ -2106,7 +2106,7 @@ let events2018 = [
         place: 'Гарболово',
         name: 'Всеволожская тропа. 1 этап',
         start: 'VSEVOLOZHSK_WAY',
-        reskeep: 93,
+        reskeep: 93
     },
     {
         id: 'SPB_20181118_4',

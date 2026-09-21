@@ -7,7 +7,7 @@ let bashMaps = [
         link: './original_maps/bash/tavtimanovo_1969_omaps.jpg',
         info: 'П-во ЦС СДСО Буревестник, маркир.',
         results: './docs/1969/1969_03_02_ufa_tavtimanovo_omaps.pdf',
-        bounds: [[54.877298, 56.6034508], [54.8706804, 56.6571808], [54.8495858, 56.5875721]],
+        bounds: [[54.877298, 56.6034508], [54.8706804, 56.6571808], [54.8495858, 56.5875721]]
     },
     {
         name: 'Уфа',
@@ -16,7 +16,7 @@ let bashMaps = [
         link: './original_maps/bash/ufa_markir_1977_03_14_omaps.jpg',
         info: 'П-во ЦС СДСО Буревестник, маркир.',
         results: './docs/1977/1977_03_14_ufa_umatovo_omaps.pdf',
-        bounds: [[54.8110732, 55.9695053], [54.8060031, 56.024394], [54.7711624, 55.9574032]],
+        bounds: [[54.8110732, 55.9695053], [54.8060031, 56.024394], [54.7711624, 55.9574032]]
     },
     {
         name: 'Воронки',
@@ -34,7 +34,7 @@ let bashMaps = [
         link: ['./original_maps/bash/voronki_2014_omaps.gif','./original_maps/bash/voronki_2014_omaps.ocd'],
         bounds: [[54.7035236, 55.8085084], [54.7025441, 55.8199668], [54.6967287, 55.8069634]],
         author: 'SLTNBKV',
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Речные зори',
@@ -43,14 +43,14 @@ let bashMaps = [
         link: ['./original_maps/bash/river_dawns_2012_omaps.gif','./original_maps/bash/river_dawns_2012_omaps.ocd'],
         bounds: [[54.7824741, 56.1784923], [54.7817254, 56.1857128], [54.7775859, 56.1772048]],
         author: 'SLTNBKV',
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Уфа',
         year: 1985,
         url: './maps/bash/ufa_1985.webp',
         link: './original_maps/bash/ufa_1985_omaps.jpg',
-        bounds: [[54.7952423, 56.0245228], [54.7879679, 56.0405731], [54.7553654, 55.9687757]],
+        bounds: [[54.7952423, 56.0245228], [54.7879679, 56.0405731], [54.7553654, 55.9687757]]
     },
     {
         name: 'Уфа, ЦПКиО им Гафури',
@@ -125,7 +125,7 @@ let bashMaps = [
         link: ['./original_maps/bash/arhimandritskoe_omaps.gif','./original_maps/bash/arhimandritskoe_omaps.ocd'],
         bounds: [[54.6527824, 55.9584332], [54.6490581, 55.9804916], [54.6425273, 55.948391]],
         author: 'PRHRV_V',
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Дёма, север',
@@ -142,7 +142,7 @@ let bashMaps = [
         link: './original_maps/bash/dema_black_lake_omaps.jpg',
         bounds: [[54.7029533, 55.8628178], [54.6996303, 55.9041882], [54.6646484, 55.8520031]],
         start: 'MLTRY_FRCS',
-        author: ['GSMNV_R','VHTV_A'],
+        author: ['GSMNV_R','VHTV_A']
     },
     {
         name: 'Дёма, юг',
@@ -151,7 +151,7 @@ let bashMaps = [
         link: ['./original_maps/bash/dema_south_omaps.jpg','./original_maps/bash/dema_south_1982_mf_1_course_omaps.webp'],
         bounds: [[54.6681728, 55.8247948], [54.6647477, 55.8680534], [54.6455817, 55.8242798]],
         start: 'MLTRY_FRCS',
-        author: 'GZTLN',
+        author: 'GZTLN'
     },
     {
         name: 'Нагаево',
@@ -161,7 +161,7 @@ let bashMaps = [
         info: 'Эстафета.',
         bounds: [[54.613635, 56.0383415], [54.6091117, 56.099968], [54.5907152, 56.032548]],
         start: 'MLTRY_FRCS',
-        author: ['BBRN_R','GLSHKV_V','DLGNV_M','ISKNDRV'],
+        author: ['BBRN_R','GLSHKV_V','DLGNV_M','ISKNDRV']
     },
     {
         name: 'Чишмы',
@@ -171,7 +171,7 @@ let bashMaps = [
         info: 'Марафон.',
         bounds: [[54.6446381, 55.3242731], [54.6380569, 55.378089], [54.6177353, 55.3149605]],
         start: 'MLTRY_FRCS',
-        author: ['PRHRV_V','PRHRVA_E','LKJNV_V','SMLNNV','BKTSHV_R'],
+        author: ['PRHRV_V','PRHRVA_E','LKJNV_V','SMLNNV','BKTSHV_R']
     },
     {
         name: 'Уфа, Кордон',
@@ -179,7 +179,7 @@ let bashMaps = [
         link: ['./original_maps/bash/ufa_kordon_omaps.gif','./original_maps/bash/ufa_kordon_omaps.ocd'],
         bounds: [[54.7027053, 55.8937597], [54.6995807, 55.9247017], [54.6787937, 55.8876228]],
         author: 'EKSHV',
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Уфа, Комсомольский',
@@ -187,7 +187,7 @@ let bashMaps = [
         link: ['./original_maps/bash/ufa_komsomolsky_omaps.gif','./original_maps/bash/ufa_komsomolsky_omaps.ocd'],
         bounds: [[54.7084331, 55.8679247], [54.7058792, 55.8883524], [54.7007711, 55.8653283]],
         author: 'PRHRV_V',
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Уфа, Зелёная роща',
@@ -203,7 +203,7 @@ let bashMaps = [
         link: ['./original_maps/bash/ufa_president_hotel_omaps.gif','./original_maps/bash/ufa_president_hotel_omaps.ocd'],
         bounds: [[54.7192169, 56.0127211], [54.7160193, 56.0270548], [54.6949306, 56.0041809]],
         author: ['GZTLN','LNTV'],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Уфа, СОК Трамплин',
@@ -211,7 +211,7 @@ let bashMaps = [
         link: ['./original_maps/bash/ufa_tramplin_omaps.gif','./original_maps/bash/ufa_tramplin_omaps.ocd'],
         bounds: [[54.7502882, 56.029501], [54.7491241, 56.041131], [54.7258594, 56.0195017]],
         author: ['SMLNNV','LNTV'],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Толбазы',
@@ -228,7 +228,7 @@ let bashMaps = [
         url: './maps/bash/urunda.webp',
         link: './original_maps/bash/urunda_omaps.jpg',
         bounds: [[54.5846475, 56.3474822], [54.5836154, 56.3629317], [54.5735045, 56.3437057]],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Таштамак',
@@ -237,7 +237,7 @@ let bashMaps = [
         link: ['./original_maps/bash/tashtamak_2011_omaps.gif','./original_maps/bash/tashtamak_2011_omaps.ocd'],
         bounds: [[54.0010344, 55.7313681], [53.9958379, 55.7702923], [53.976181, 55.7239437]],
         author: ['SLTNBKV','BBRN_R','SLDTV_S'],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Ботанический сад, Парк Лесоводов',
@@ -263,7 +263,7 @@ let bashMaps = [
         link: ['./original_maps/bash/avdon_omaps.gif','./original_maps/bash/avdon_omaps.ocd'],
         bounds: [[54.6727639, 55.7072926], [54.66991, 55.7360458], [54.658691, 55.7029581]],
         author: 'EKSHV',
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Юматово',
@@ -271,7 +271,7 @@ let bashMaps = [
         url: './maps/bash/umatovo_1994.webp',
         link: './original_maps/bash/umatovo_1994_omaps.jpg',
         author: 'ISKNDRV',
-        bounds: [[54.6530804, 55.6104755], [54.6454327, 55.6902981], [54.6204935, 55.6020641]],
+        bounds: [[54.6530804, 55.6104755], [54.6454327, 55.6902981], [54.6204935, 55.6020641]]
     },
     {
         name: 'Юматово',
@@ -280,7 +280,7 @@ let bashMaps = [
         link: './original_maps/bash/umatovo_1969_03_04_omaps.jpg',
         info: 'П-во ЦС СДСО Буревестник, эстафеты.',
         results: './docs/1969/1969_03_04_ufa_umatovo_omaps.pdf',
-        bounds: [[54.6579463, 55.6372547], [54.6512431, 55.6970787], [54.6213383, 55.6109047]],
+        bounds: [[54.6579463, 55.6372547], [54.6512431, 55.6970787], [54.6213383, 55.6109047]]
     },
     {
         name: 'Юматово',
@@ -288,7 +288,7 @@ let bashMaps = [
         info: 'П-во ЦС СДСО Буревестник.',
         url: './maps/bash/umatovo_1977.webp',
         link: './original_maps/bash/umatovo_1977_omaps.jpg',
-        bounds: [[54.6487601, 55.6174278], [54.6450354, 55.6581545], [54.62668, 55.6160975]],
+        bounds: [[54.6487601, 55.6174278], [54.6450354, 55.6581545], [54.62668, 55.6160975]]
     },
     {
         name: 'Юматово',
@@ -297,7 +297,7 @@ let bashMaps = [
         link: ['./original_maps/bash/umatovo_2014_omaps.gif','./original_maps/bash/umatovo_champ_2014_omaps.jpg','./original_maps/bash/umatovo_2014_omaps.ocd'],
         bounds: [[54.6473199, 55.6454086], [54.6424031, 55.6893539], [54.6225309, 55.6361389]],
         author: ['ISKNDRV','VRBJV_V','PRHRVA_E','SLTNBKV','ZKHRV_VD'],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Жуково',
@@ -305,7 +305,7 @@ let bashMaps = [
         link: ['./original_maps/bash/zhukovo_omaps.gif','./original_maps/bash/zhukovo_omaps.ocd'],
         bounds: [[54.6728632, 55.7384491], [54.6690414, 55.7708931], [54.6601308, 55.7287931]],
         author: 'GZTLN',
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Минеевский овраг',
@@ -313,7 +313,7 @@ let bashMaps = [
         link: ['./original_maps/bash/mineevsky_ovrag_omaps.gif','./original_maps/bash/mineevsky_ovrag_omaps.ocd'],
         bounds: [[54.6911729, 55.7746267], [54.688866, 55.796814], [54.674898, 55.7697773]],
         author: 'PRHRV_V',
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Николаевка, ЛТО Луч',
@@ -321,7 +321,7 @@ let bashMaps = [
         link: ['./original_maps/bash/nikolaevka_luch_omaps.gif','./original_maps/bash/nikolaevka_luch_omaps.ocd'],
         bounds: [[54.8431613, 55.7245445], [54.8405171, 55.7451439], [54.8340171, 55.7210255]],
         author: 'EKSHV',
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'оз Акманай',
@@ -383,7 +383,7 @@ let bashMaps = [
         name: 'Питяково',
         url: './maps/bash/pityakovo.webp',
         link: './original_maps/bash/pityakovo_omaps.jpg',
-        bounds: [[55.2763775, 55.5191517], [55.272026, 55.5507374], [55.250726, 55.5120277]],
+        bounds: [[55.2763775, 55.5191517], [55.272026, 55.5507374], [55.250726, 55.5120277]]
     },
     {
         name: 'Бирск, Романовка',
@@ -448,7 +448,7 @@ let bashMaps = [
         link: ['./original_maps/bash/semenkino_2005_omaps.gif','./original_maps/bash/semenkino_2005_omaps.ocd'],
         bounds: [[53.8212771, 55.7110262], [53.8170969, 55.7484484], [53.8043511, 55.7042456]],
         author: 'ISHMHMDV',
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Стерлитамак, рднк Ускан',
@@ -492,7 +492,7 @@ let bashMaps = [
         bounds: [[53.5915369, 56.0846901], [53.5903142, 56.0973501], [53.5798692, 56.0812998]],
         logo: 'bash_fox.gif',
         author: ['YUSHV_A','ZKHRV_VD','SLTNBKV'],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Макарово',
@@ -575,7 +575,7 @@ let bashMaps = [
         bounds: [[53.5903906, 55.9332848], [53.5879452, 55.9613085], [53.5723267, 55.9283495]],
         author: ['BYMRZN','ZKHRV_VD','YUSHV_A'],
         owner: 'YUSHV_A',
-        logo: 'bash_fox.gif',
+        logo: 'bash_fox.gif'
     },
     {
         name: 'Тайвань',
@@ -585,7 +585,7 @@ let bashMaps = [
         bounds: [[53.6167465, 55.9280491], [53.61541, 55.9380269], [53.6062443, 55.9234142]],
         author: 'YUSHV_A',
         owner: 'YUSHV_A',
-        logo: 'bash_fox.gif',
+        logo: 'bash_fox.gif'
     },
     {
         name: 'Подлесное',
@@ -595,7 +595,7 @@ let bashMaps = [
         bounds: [[53.8334859, 55.911355], [53.8312065, 55.9278345], [53.8242917, 55.9071493]],
         author: ['AFNSV_E','ZKHRV_VD','YUSHV_A'],
         owner: 'YUSHV_A',
-        logo: 'bash_fox.gif',
+        logo: 'bash_fox.gif'
     },
     {
         name: 'Октябрьский',
@@ -604,7 +604,7 @@ let bashMaps = [
         link: './original_maps/bash/oktyabrsky_2008_omaps.gif',
         bounds: [[54.515402, 53.4675407], [54.5127115, 53.497324], [54.4944958, 53.462348]],
         author: ['EKSHV','PRHRV_V'],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Октябрьский, СОК Спартак',
@@ -630,7 +630,7 @@ let bashMaps = [
         year: 1,
         url: './maps/bash/zolotoj_rog_retro.webp',
         link: './original_maps/bash/zolotoj_rog_retro_omaps.jpg',
-        bounds: [[54.5233232, 53.5883045], [54.5185408, 53.6366272], [54.4863447, 53.5767174]],
+        bounds: [[54.5233232, 53.5883045], [54.5185408, 53.6366272], [54.4863447, 53.5767174]]
     },
     {
         name: 'Золотой рог, восток',
@@ -639,7 +639,7 @@ let bashMaps = [
         link: ['./original_maps/bash/zolotoj_rog_east_omaps.gif','./original_maps/bash/zolotoj_rog_east_omaps.ocd'],
         bounds: [[54.5197364, 53.5905361], [54.516523, 53.6233664], [54.4955675, 53.5835838]],
         author: ['PRHRV_V','SLDTV_S','SLTNBKV'],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'оз Кандры-Куль',
@@ -648,7 +648,7 @@ let bashMaps = [
         link: ['./original_maps/bash/kandrykul_2006_omaps.gif','./original_maps/bash/kandrykul_2006_omaps.ocd'],
         bounds: [[54.5050624, 54.1098118], [54.500851, 54.1405392], [54.4803113, 54.1013575]],
         author: ['ZKHRV_VD','PRHRV_V','PRHRVA_E','BLTV'],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Буриказган',
@@ -657,7 +657,7 @@ let bashMaps = [
         link: './original_maps/bash/burikazgan_2008_omaps.gif',
         bounds: [[53.6786118, 55.7878447], [53.6782305, 55.7912135], [53.6739089, 55.7866001]],
         author: ['YUSHV_A','ZKHRV_VD'],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Белорецк, СОК Металлург',
@@ -686,7 +686,7 @@ let bashMaps = [
         link: ['./original_maps/bash/aktan_1997_omaps.jpg','./original_maps/bash/aktan_1997_omaps.ocd'],
         bounds: [[53.8608795, 58.5374737], [53.8547036, 58.5918045], [53.8244183, 58.5264874]],
         author: ['SCHV_V','EKSHV','PRHRV_V'],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Абзаково, г Халмаурды',
@@ -695,7 +695,7 @@ let bashMaps = [
         link: ['./original_maps/bash/halmaurdy_1996_omaps.jpg','./original_maps/bash/halmaurdy_1996_omaps.ocd'],
         bounds: [[53.8407791, 58.5375595], [53.8327768, 58.6037779], [53.8126123, 58.520565]],
         author: ['GBDLN','PRHRV_V','SLDTV_S'],
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
     {
         name: 'Кушнаренково, дом Топорнина',
@@ -714,6 +714,6 @@ let bashMaps = [
         link: ['./original_maps/bash/chekmagush_2022_omaps.gif','./original_maps/bash/chekmagush_2022_omaps.omap'],
         bounds: [[55.1682799, 54.5781898], [55.1630341, 54.6132946], [55.1563163, 54.5732117]],
         author: 'SLTNBKV',
-        owner: 'YUSHV_A',
+        owner: 'YUSHV_A'
     },
 ];

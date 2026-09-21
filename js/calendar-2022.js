@@ -153,7 +153,7 @@ let events2022 = [
         split: 'splits/2022/SPB_20220223_1_split.htm',
         info: 'Официальный старт СФСО СПб с присвоением разрядов',
         o_site: '220223',
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20220227_1',
@@ -182,7 +182,7 @@ let events2022 = [
         type: 'SKI',
         res: 'http://orgeo.ru/live/#/20753',
         o_site: '220227',
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20220306_1',
@@ -198,7 +198,7 @@ let events2022 = [
             'splits/2022/SPB_20220306_1_2_split.htm'
         ],
         o_site: '220307',
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20220313_1',
@@ -210,7 +210,7 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/220313/220313ResultList.htm',
         start: 'VSEV_VESTI',
         o_site: '220313',
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20220319_1',
@@ -262,7 +262,7 @@ let events2022 = [
         res: 'https://o-site.spb.ru/_races/220410s/220410_split.htm',
         split: 'splits/2022/SPB_20220410_1_split.htm',
         o_site: '220410s',
-        map: 'polyustrovsky_2022',
+        map: 'polyustrovsky_2022'
     },
     {
         id: 'SPB_20220410_2',
@@ -352,7 +352,7 @@ let events2022 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2022BN/220423_split.htm',
         map: 'orovo_2019',
-        reskeep: 529,
+        reskeep: 529
     },
     {
         id: 'SPB_20220423_5',
@@ -401,7 +401,7 @@ let events2022 = [
         start: 'KBN',
         res: 'http://o-site.spb.ru/_races/2022BN/220430_split.htm',
         map: 'petjajarvy_2024',
-        reskeep: 528,
+        reskeep: 528
     },
     {
         id: 'SPB_20220430_2',
@@ -458,7 +458,7 @@ let events2022 = [
         strava: 7080257862,
         res: 'http://o-site.spb.ru/_races/2022BN/220503_split.htm',
         map: 'voejkovo_2022',
-        reskeep: 530,
+        reskeep: 530
     },
     {
         id: 'SPB_20220506_1',
@@ -606,7 +606,7 @@ let events2022 = [
         strava: 7140324760,
         res: 'http://o-site.spb.ru/_races/2022BN/220514_split.htm',
         map: 'stekljanny_2021',
-        reskeep: 525,
+        reskeep: 525
     },
     {
         id: 'SPB_20220515_1',
@@ -887,7 +887,7 @@ let events2022 = [
         start: 'KBN',
         strava: 7258858400,
         res: 'http://o-site.spb.ru/_races/2022BN/220605_split.htm',
-        reskeep: 534,
+        reskeep: 534
     },
     {
         id: 'SPB_20220606_1',
@@ -973,7 +973,7 @@ let events2022 = [
             'https://www.youtube.com/watch?v=jtpjjOZBJpY',
         ],
         start: 'KKP',
-        o_site: '220613-16_KKP',
+        o_site: '220613-16_KKP'
     },
     {
         id: 'SPB_20220611_4',
@@ -1014,7 +1014,7 @@ let events2022 = [
             'https://www.youtube.com/watch?v=ZiMX5XX_eTI'
         ],
         type: 'MULTI',
-        start: 'RFAR',
+        start: 'RFAR'
     },
     {
         id: 'SPB_20220612_1',
@@ -1249,7 +1249,7 @@ let events2022 = [
         reskeep: 537,
         o_gps: {
             '25':13468
-        },
+        }
     },
     {
         id: 'SPB_20220625_1',
@@ -1304,13 +1304,13 @@ let events2022 = [
         start: 'WHITE_NIGHTS',
         strava: 7402274954,
         map: 'ilychevo_2016',
-        reskeep: 539,
+        reskeep: 539
     },
     {
         id: 'SPB_20220703_1',
         date: '2022-07-03',
         name: 'Техника и Тактика',
-        res: 'https://o-site.spb.ru/_races/2022TT/220703YC_split.htm',
+        res: 'https://o-site.spb.ru/_races/2022TT/220703YC_split.htm'
     },
     {
         id: 'SPB_20220709_1',
@@ -1825,7 +1825,7 @@ let events2022 = [
         strava: 7898462924,
         o_site: '221002',
         reskeep: 558,
-        map: 'kanneljarvi_2023',
+        map: 'kanneljarvi_2023'
     },
     {
         id: 'SPB_20221004_1',
@@ -1960,7 +1960,7 @@ let events2022 = [
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1470',
         res: 'http://orgeo.ru/live/#/24205',
         split: 'splits/2022/SPB_20221016_2_split.htm',
-        o_site: '221016',
+        o_site: '221016'
     },
     {
         id: 'SPB_20221022_1',
@@ -2000,7 +2000,7 @@ let events2022 = [
         strava: 8002067117,
         res: 'http://o-site.spb.ru/_races/2023_bn/221022_split.htm',
         map: 'razdolje_2022',
-        reskeep: 561,
+        reskeep: 561
     },
     {
         id: 'SPB_20221022_4',
@@ -2062,7 +2062,7 @@ let events2022 = [
         place: 'Сосновый бор',
         name: 'Ночной рогейн',
         type: 'ROGAINE',
-        video: 'https://www.youtube.com/watch?v=i2-yyXQrq8c',
+        video: 'https://www.youtube.com/watch?v=i2-yyXQrq8c'
     },
     {
         id: 'SPB_20221029_4',
@@ -2235,7 +2235,7 @@ let events2022 = [
         res: 'http://o-site.spb.ru/_races/2023_bn/221119_split.htm',
         map: 'ozerki_2022',
         strava: [8138407224, 8138827616],
-        reskeep: 566,
+        reskeep: 566
     },
     {
         id: 'SPB_20221120_1',
@@ -2312,7 +2312,7 @@ let events2022 = [
         res: 'http://o-site.spb.ru/_races/2023_bn/221204_split.htm',
         map: 'petjajarvy_2024',
         strava: [8205639485, 8205643874],
-        reskeep: 568,
+        reskeep: 568
     },
     {
         id: 'SPB_20221210_1',

@@ -16,7 +16,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_1988.webp',
         link: ['./original_maps/forest/vaskelovo/orekhovo_1988_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_10000_1988_omaps.jpg'],
         bounds: [[60.4960028, 30.2847576], [60.4924308, 30.3385305], [60.4701442, 30.276947]],
-        author: 'BYMKV',
+        author: 'BYMKV'
     },
     {
         name: 'Орехово, 67км',
@@ -34,7 +34,7 @@ let vaskelovoMaps = [
         url: './maps/starts/mms/mms_1997_06_28.webp',
         link: ['./original_maps/starts/mms/mms_1997_06_28_omaps.jpg','./original_maps/forest/vaskelovo/lembolovo_north_east_1997_omaps.jpg','./original_maps/starts/mms/mms_1997_06_28_cps_omaps.webp'],
         bounds: [[60.446403, 30.3172016], [60.4434394, 30.3660822], [60.4204837, 30.3102493]],
-        author: 'CHGRVSKY_V',
+        author: 'CHGRVSKY_V'
     },
     {
         name: 'Лемболово-Орехово',
@@ -64,7 +64,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/lembolovo_north_west_1991.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_north_west_1991_omaps.webp',
         bounds: [[60.4456622, 30.2558327], [60.4397981, 30.3403759], [60.4158228, 30.2483654]],
-        author: 'BYMKV',
+        author: 'BYMKV'
     },
     {
         name: 'Лемболово, ю-з',
@@ -81,7 +81,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/lembolovo_1997.webp',
         link: './original_maps/forest/vaskelovo/lembolovo_1997_omaps.webp',
         bounds: [[60.4273255, 30.266819], [60.4224538, 30.3422642], [60.3790844, 30.254631]],
-        author: ['DBRTSV_V','CHGRVSKY_Y','KRCHKN_V'],
+        author: ['DBRTSV_V','CHGRVSKY_Y','KRCHKN_V']
     },
     {
         name: 'Лемболово, с-в',
@@ -90,7 +90,7 @@ let vaskelovoMaps = [
         link: ['./original_maps/forest/vaskelovo/lembolovo_north_east_1989_omaps.webp','./original_maps/forest/vaskelovo/lembolovo_night_spb_1991_omaps.jpg'],
         bounds: [[60.4470169, 30.3050995], [60.4412166, 30.3794289], [60.4207591, 30.2967739]],
         author: ['BYMKV','SMRNV_A','KCHTV','IVNV_A','TLNV_A','OSTPNK','EGRV_E'],
-        areas: [62,20,10,5,1,1,1],
+        areas: [62,20,10,5,1,1,1]
     },
     {
         name: 'Лемболово',
@@ -179,7 +179,7 @@ let vaskelovoMaps = [
         //link: './original_maps/forest/vaskelovo/Geolog92.pdf',
         link: ['./original_maps/forest/vaskelovo/silande_1992_omaps.jpg','./original_maps/forest/vaskelovo/silande_1991_omaps.jpg','./original_maps/forest/vaskelovo/silande_1995_08_12_h21_omaps.jpg','./original_maps/forest/vaskelovo/silande_1995_08_12_d21_omaps.jpg'],
         bounds: [[60.4278762, 30.2236891], [60.4233435, 30.2862167], [60.3788723, 30.2108574]],
-        author: ['DBRTSV_V','LBDKN','KUZNTSV_V'],
+        author: ['DBRTSV_V','LBDKN','KUZNTSV_V']
     },
     {
         name: 'Стеклянный, оз Силанде',
@@ -248,7 +248,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/vaskelovo_bannoe_oz.webp',
         link: './original_maps/forest/vaskelovo/vaskelovo_bannoe_oz_omaps.jpg',
         bounds: [[60.4038074, 30.4238892], [60.4000768, 30.4791641], [60.3644877, 30.413332]],
-        author: 'CHGRVSKY_V',
+        author: 'CHGRVSKY_V'
     },
     {
         name: 'Гарболово, Банное оз',
@@ -275,7 +275,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/garbolovo_1991.webp',
         link: ['./original_maps/forest/vaskelovo/garbolovo_1991_omaps.jpg','./original_maps/forest/vaskelovo/garbolovo_na_champ_1991_omaps.jpg'],
         bounds: [[60.3644028, 30.5025959], [60.3619836, 30.5566692], [60.3371863, 30.4973602]],
-        author: 'VSLVSKY',
+        author: 'VSLVSKY'
     },
     {
         name: 'Гарболово',
@@ -292,7 +292,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/garbolovo_vuoly_2008.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_vuoly_2008_omaps.gif',
         bounds: [[60.3583331, 30.5025101], [60.35672, 30.5322933], [60.342623, 30.4992485]],
-        author: 'VSLVSKY',
+        author: 'VSLVSKY'
     },
     {
         name: 'Гарболово, Вуолы',
@@ -352,7 +352,7 @@ let vaskelovoMaps = [
         year: 1,
         url: './maps/forest/vaskelovo/garbolovo_zmeinoe_retro.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_zmeinoe_retro_omaps.jpg',
-        bounds: [[60.3439607, 30.5164146], [60.3349562, 30.5379152], [60.3382907, 30.5067158]],
+        bounds: [[60.3439607, 30.5164146], [60.3349562, 30.5379152], [60.3382907, 30.5067158]]
     },
     {
         name: 'Гарболово, Змеиное оз',
@@ -401,7 +401,7 @@ let vaskelovoMaps = [
         start: 'WEDDING',
         url: './maps/forest/vaskelovo/marolampi_1977.webp',
         link: './original_maps/forest/vaskelovo/marolampi_1977_omaps.jpg',
-        bounds: [[60.3792541, 30.2523994], [60.3696864, 30.2851868], [60.3649121, 30.2361345]],
+        bounds: [[60.3792541, 30.2523994], [60.3696864, 30.2851868], [60.3649121, 30.2361345]]
     },
     {
         name: 'Васкелово',
@@ -409,7 +409,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/kerro_1988.webp',
         link: ['./original_maps/forest/vaskelovo/kerro_1988_omaps.jpg','./original_maps/forest/vaskelovo/vaskelovo_masters_1991_omaps.jpg'],
         bounds: [[60.3490778, 30.2164793], [60.3447252, 30.2857018], [60.3176197, 30.2086258]],
-        author: 'BYMKV',
+        author: 'BYMKV'
     },
     {
         name: 'Васкелово, Киварин руч',
@@ -492,7 +492,7 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/silande_2009_omaps.webp',
         bounds: [[60.3968334, 30.2559614], [60.3952646, 30.2787066], [60.3781299, 30.2512836]],
         author: 'DBRTSV_V',
-        logo: 'wn_retro.webp',
+        logo: 'wn_retro.webp'
     },
     {
         name: 'Орехово, юг',
@@ -573,7 +573,7 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/orekhovo_vetrennoe_2004.webp',
         link: ['./original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_omaps.jpg','./original_maps/forest/vaskelovo/orekhovo_2002_09_08_omaps.webp','./original_maps/forest/vaskelovo/orekhovo_vetrennoe_2004_omaps.ocd'],
         bounds: [[60.5044769, 30.2892208], [60.4985389, 30.352993], [60.4727881, 30.2786207]],
-        author: ['VSLVSKY','DRBSHV','SHRNN'],
+        author: ['VSLVSKY','DRBSHV','SHRNN']
     },
     {
         name: 'Орехово, оз Бол.Борково',

@@ -125,7 +125,7 @@ let events2020 = [
         ],
         o_site: '200126_t',
         reskeep: 300,
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20200201_1',
@@ -147,7 +147,7 @@ let events2020 = [
         res: 'https://o-site.spb.ru/_races/200202/200202_rez.htm',
         o_site: '200202',
         reskeep: 305,
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20200202_2',
@@ -172,7 +172,7 @@ let events2020 = [
         o_site: '200209',
         reskeep: [313, 314],
         strava: 3082595136,
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20200208_2',
@@ -183,7 +183,7 @@ let events2020 = [
         type: 'SKI',
         res: 'https://o-site.spb.ru/_races/20020809/200208_res.pdf',
         o_site: '20020809',
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20200208_3',
@@ -511,7 +511,7 @@ let events2020 = [
         photo: 'https://vk.com/album-30311715_267426606',
         map: 'kirillovskoe_2020',
         start: 'BA',
-        owner: 'BKTV',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20200530_1',
@@ -978,7 +978,7 @@ let events2020 = [
         place: 'Токсово',
         name: 'Кузьмоловские старты 2020. 1 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        reskeep: 359,
+        reskeep: 359
     },
     {
         id: 'SPB_20200906_1',
@@ -1031,7 +1031,7 @@ let events2020 = [
         place: 'Кузьмолово',
         name: 'Кузьмоловские старты. 2 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        reskeep: 366,
+        reskeep: 366
     },
     {
         id: 'SPB_20200912_1',
@@ -1110,7 +1110,7 @@ let events2020 = [
         place: 'Вартемяги',
         name: 'Кузьмоловские старты. 3 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        reskeep: 373,
+        reskeep: 373
     },
     {
         id: 'SPB_20200918_1',
@@ -1156,7 +1156,7 @@ let events2020 = [
         date: '2020-09-20',
         place: 'м Лесная',
         name: 'Tour de Sprint. Старт 1',
-        reskeep: 375,
+        reskeep: 375
     },
     {
         id: 'SPB_20200920_2',
@@ -1172,21 +1172,21 @@ let events2020 = [
         date: '2020-09-21',
         place: 'Большая Пушкарская ул',
         name: 'Tour de Sprint. Старт 2',
-        reskeep: 376,
+        reskeep: 376
     },
     {
         id: 'SPB_20200921_2',
         date: '2020-09-21',
         place: 'ул Лизы Чайкиной',
         name: 'Tour de Sprint. Старт 3',
-        reskeep: 377,
+        reskeep: 377
     },
     {
         id: 'SPB_20200922_1',
         date: '2020-09-22',
         place: 'Матвеевский сад',
         name: 'Tour de Sprint. Старт 4',
-        reskeep: 378,
+        reskeep: 378
     },
     {
         id: 'SPB_20200923_1',
@@ -1249,7 +1249,7 @@ let events2020 = [
         res: 'https://www.bikeadventure.ru/arhiv/arhiv-2020-2.php',
         map: 'yappilya_ba_2020',
         start: ['BA','TA'],
-        owner: 'BKTV',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20200926_5',
@@ -1276,7 +1276,7 @@ let events2020 = [
         date: '2020-09-27',
         place: 'Неизвестно',
         name: 'Тренировочный старт Яркого Мира. Техника и тактика 6',
-        reskeep: 379,
+        reskeep: 379
     },
     {
         id: 'SPB_20200927_2',
@@ -1541,7 +1541,7 @@ let events2020 = [
         date: '2020-11-07',
         place: 'Мичуринское',
         name: 'Техника и тактика. 7 этап',
-        reskeep: 391,
+        reskeep: 391
     },
     {
         id: 'SPB_20201107_3',
@@ -1588,7 +1588,7 @@ let events2020 = [
         date: '2020-11-08',
         place: 'Мичуринское',
         name: 'Техника и тактика. 8 этап',
-        reskeep: 396,
+        reskeep: 396
     },
     {
         id: 'SPB_20201108_4',
@@ -1827,7 +1827,7 @@ let events2020 = [
         info: 'Предновогодняя индивидуальная тренировка "В поисках Деда Мороза".',
         o_site: '201220',
         reskeep: 407,
-        map: 'orekhovo_nyrkovo_winter_2012',
+        map: 'orekhovo_nyrkovo_winter_2012'
     },
     {
         id: 'SPB_20201220_1',

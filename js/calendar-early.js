@@ -638,7 +638,7 @@ let eventsEarly = [
         name: 'Чемпионат СССР',
         start: ['USSR_1986','USSR_CHAMP'],
         res: './docs/1986/1986_09_09_ussr_karaganda_omaps.pdf',
-        map: ['karkaralinsk_1986','pasheno_1986_09_09'],
+        map: ['karkaralinsk_1986','pasheno_1986_09_09']
     },
     {
         id: 'SPB_19861106_1',
@@ -2640,7 +2640,7 @@ let eventsEarly = [
         place: 'Стеклянный',
         name: 'Мемориал Михаила Святкина',
         planner: '?',
-        start: 'MMS',
+        start: 'MMS'
     },
     {
         id: 'SPB_19930703_1',
@@ -2710,7 +2710,7 @@ let eventsEarly = [
         name: 'Мемориал Михаила Святкина',
         planner: 'SHRNN',
         start: 'MMS',
-        map: 'tarasovskoe_1995',
+        map: 'tarasovskoe_1995'
     },
     {
         id: 'SPB_19940903_1',

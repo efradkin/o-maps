@@ -502,7 +502,7 @@ let events2026 = [
         photo: 'https://vk.com/album-224681305_310355992',
         type: ['ROGAINE', 'SKI'],
         fmt: '5, 3',
-        map: 'shapki_ski_adventure_2026',
+        map: 'shapki_ski_adventure_2026'
     },
     {
         id: 'SPB_20260314_1',
@@ -614,7 +614,7 @@ let events2026 = [
         planner: 'RDNV_I',
         map: 'serovo_2024',
         strava: 17899008083,
-        me: 'МА',
+        me: 'МА'
     },
     {
         id: 'SPB_20260329_2',
@@ -1069,7 +1069,7 @@ let events2026 = [
         name: 'Приз газеты «Всеволожские вести»',
         start: 'VSEV_VESTI',
         cancelled: true,
-        map: 'garbolovo_2016',
+        map: 'garbolovo_2016'
     },
     {
         id: 'SPB_20260501_2',
@@ -1276,7 +1276,7 @@ let events2026 = [
         reg: 'http://orgeo.ru/event/info/52808',
         o_site: '260516_bn',
         coord: [60.264302, 29.981751],
-        map: 'topograph_2017',
+        map: 'topograph_2017'
     },
     {
         id: 'SPB_20260516_3',
@@ -1376,7 +1376,7 @@ let events2026 = [
         name: 'Спринт Тур',
         fmt: 'спринт',
         cancelled: true,
-        start: 'ST',
+        start: 'ST'
     },
     {
         id: 'SPB_20260523_1',
@@ -1429,7 +1429,7 @@ let events2026 = [
         start: 'KBN',
         reg: 'https://orgeo.ru/event/52972',
         o_gps: 25132,
-        map: 'michurinskoe_1988',
+        map: 'michurinskoe_1988'
     },
     {
         id: 'SPB_20260523_2',
@@ -1491,7 +1491,7 @@ let events2026 = [
         strava: 18626675383,
         me: 'APRO',
         fmt: 'ночное',
-        map: 'orekhovo_borkovo_2024',
+        map: 'orekhovo_borkovo_2024'
     },
     {
         id: 'SPB_20260523_10',
@@ -1550,7 +1550,7 @@ let events2026 = [
         info: '<a href="https://o-site.spb.ru/_races/260530_SPB/260530_videos.html">Видео-нарезка</a> участников на дистанции.',
         reskeep: 894,
         fmt: 'эстафета 2х',
-        map: 'gavrilovo_2014',
+        map: 'gavrilovo_2014'
     },
     {
         id: 'SPB_20260530_4',
@@ -1624,7 +1624,7 @@ let events2026 = [
         start: 'KBN',
         reg: 'https://orgeo.ru/event/53258',
         o_gps: 25214,
-        map: 'razdolje_2022',
+        map: 'razdolje_2022'
     },
     {
         id: 'SPB_20260601_1',
@@ -1660,7 +1660,7 @@ let events2026 = [
         start: 'KBN',
         o_site: '260606_bn',
         reg: 'https://orgeo.ru/event/53399',
-        map: 'petjajarvy_2024',
+        map: 'petjajarvy_2024'
     },
     {
         id: 'SPB_20260606_3',
@@ -1672,7 +1672,7 @@ let events2026 = [
             'Ж':25306,
         },
         fmt: 'гроздь',
-        map: 'yappilya_2024',
+        map: 'yappilya_2024'
     },
     {
         id: 'SPB_20260607_1',
@@ -1770,7 +1770,7 @@ let events2026 = [
         fmt: 'эстафета детская',
         map: 'kkp_prudy_2026_06_15_kamenukola',
         start: 'KKP',
-        o_site: '260616-21_KKP',
+        o_site: '260616-21_KKP'
     },
     {
         id: 'SPB_20260621_1',
@@ -1782,7 +1782,7 @@ let events2026 = [
         split: 'splits/2026/SPB_20260621_1_split.html',
         reg: 'http://orgeo.ru/event/info/53685',
         o_gps: 25453,
-        map: 'silande_2024',
+        map: 'silande_2024'
     },
     {
         id: 'SPB_20260625_1',
@@ -1829,7 +1829,7 @@ let events2026 = [
         split: 'splits/2026/SPB_20260628_1_split.html',
         reg: ['https://orgeo.ru/event/info/prest26spr','http://orgeo.ru/event/info/prest26','http://orgeo.ru/event/info/prest263'],
         fmt: 'спринт, классика, эстафеты',
-        map: 'peski_2026',
+        map: 'peski_2026'
     },
     {
         id: 'SPB_20260629_1',
@@ -2311,7 +2311,7 @@ let events2026 = [
         split: 'splits/2026/SPB_20260827_1_split.html',
         reg: 'http://www.o-reg.spb.ru/?filter[day_id]=1747',
         owner: 'SFSO_SPB',
-        map: 'pukhtolova_gora_2025',
+        map: 'pukhtolova_gora_2025'
     },
     {
         id: 'SPB_20260828_1',
@@ -2510,7 +2510,7 @@ let events2026 = [
         name: 'Спортивное ориентирование - в школу, №61',
         o_site: '260924',
         owner: 'SFSO_SPB',
-        start: 'SCHOOL',
+        start: 'SCHOOL'
     },
     {
         id: 'SPB_20260926_1',
@@ -2568,7 +2568,7 @@ let events2026 = [
         fmt: 'ночное',
         link: 'https://spb-orient.ru/lemb2026',
         reg: 'https://reg.spb-orient.ru/',
-        map: 'lembolovo_2024',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20260927_1',
@@ -2625,7 +2625,7 @@ let events2026 = [
         name: 'Спортивное ориентирование - в школу, №62',
         o_site: '260930',
         owner: 'SFSO_SPB',
-        start: 'SCHOOL',
+        start: 'SCHOOL'
     },
     {
         id: 'SPB_20260918_1',
@@ -2646,7 +2646,7 @@ let events2026 = [
         link: 'https://touristclub.ru/okinchits/polozhenie/',
         reg: 'https://orgeo.ru/event/54791',
         fmt: 'ночное',
-        start: 'OKINCHITSA',
+        start: 'OKINCHITSA'
     },
     {
         id: 'SPB_20261003_2',
@@ -2654,7 +2654,7 @@ let events2026 = [
         name: 'Кубок Колпино',
         place: 'Колпинский ПКиО',
         link: 'https://vk.com/orienteeringkolpino',
-        reg: 'https://orgeo.ru/event/55190',
+        reg: 'https://orgeo.ru/event/55190'
     },
     {
         id: 'SPB_20261010_1',
@@ -2694,7 +2694,7 @@ let events2026 = [
         reg: 'https://orgeo.ru/event/53879',
         info: '+ беговой TrailAdventure.',
         start: ['BA','TA'],
-        owner: ['BKTV', 'SHBN'],
+        owner: ['BKTV', 'SHBN']
     },
     {
         id: 'SPB_20261011_1',
@@ -2747,7 +2747,7 @@ let events2026 = [
         id: 'SPB_20261018_2',
         date: '2026-10-18',
         name: 'Памяти Зои Пятаковой',
-        fmt: 'спринт',
+        fmt: 'спринт'
     },
     {
         id: 'SPB_20261024_1',
@@ -2757,7 +2757,7 @@ let events2026 = [
         fmt: 'ночная эстафета',
         o_site: '261025_50Verst',
         reg: 'http://sportident.online/entry/?id=7198',
-        owner: 'NW',
+        owner: 'NW'
     },
     {
         id: 'SPB_20261024_2',
@@ -2775,7 +2775,7 @@ let events2026 = [
         o_site: '261025_50Verst',
         reg: 'http://sportident.online/entry/?id=7197',
         info: '+ тренировочные дистанции.',
-        owner: 'NW',
+        owner: 'NW'
     },
     {
         id: 'SPB_20261030_1',
@@ -2831,7 +2831,7 @@ let events2026 = [
         id: 'SPB_20261115_1',
         date: '2026-11-15',
         name: 'Первенство ГБУ ДО СШОР им. Коренькова',
-        fmt: 'спринт',
+        fmt: 'спринт'
     },
     {
         id: 'SPB_20261122_1',
@@ -2851,7 +2851,7 @@ let events2026 = [
         id: 'SPB_20261206_1',
         date: '2026-12-06',
         name: 'Первенство ГБУ ДО СШОР им. Коренькова',
-        fmt: 'спринт',
+        fmt: 'спринт'
     },
     {
         id: 'SPB_20261213_1',

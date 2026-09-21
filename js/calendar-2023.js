@@ -382,7 +382,7 @@ let events2023 = [
         place: 'пл Восстания',
         strava: 8811602107,
         owner: 'WN',
-        reskeep: 569,
+        reskeep: 569
     },
     {
         id: 'SPB_20230402_1',
@@ -1001,7 +1001,7 @@ let events2023 = [
         map: ['kkp_prudy_2023_06_17','kkp_prudy_2023_06_18'],
         o_gps: {
             '18':16534
-        },
+        }
     },
     {
         id: 'SPB_20230617_1',
@@ -1018,7 +1018,7 @@ let events2023 = [
             'https://www.youtube.com/watch?v=HV-j7omktaE',
             'https://www.youtube.com/watch?v=y7GxLpH4J98',
         ],
-        map: 'kkp_prudy_2023_06_17',
+        map: 'kkp_prudy_2023_06_17'
     },
     {
         id: 'SPB_20230617_2',
@@ -1034,7 +1034,7 @@ let events2023 = [
         map: 'kkp_prudy_2023_06_17',
         o_gps: {
             'Open':16560
-        },
+        }
     },
     {
         id: 'SPB_20230617_3',
@@ -1059,7 +1059,7 @@ let events2023 = [
             'https://www.youtube.com/watch?v=ovKzw06a5DY',
             'https://www.youtube.com/watch?v=DROakVa3320'
         ],
-        map: ['kkp_prudy_2023_06_17','kkp_prudy_2023_06_18'],
+        map: ['kkp_prudy_2023_06_17','kkp_prudy_2023_06_18']
     },
     {
         id: 'SPB_20230618_2',
@@ -1570,7 +1570,7 @@ let events2023 = [
         name: 'Кубок Белых Ночей #1',
         start: 'KBN',
         strava: 9774518451,
-        reskeep: 591,
+        reskeep: 591
     },
     {
         id: 'SPB_20230909_1',
@@ -1850,7 +1850,7 @@ let events2023 = [
         o_site: '231001',
         strava: 9956332506,
         reskeep: 615,
-        map: 'anyalovo_2023',
+        map: 'anyalovo_2023'
     },
     {
         id: 'SPB_20231003_1',

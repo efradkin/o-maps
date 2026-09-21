@@ -38,7 +38,7 @@ let samaraEvents2026 = [
             'Средняя': 24211,
             'Динная': 24212,
         },
-        owner: 'TRAINING_O_CLUB',
+        owner: 'TRAINING_O_CLUB'
     },
     {
         id: 'SMR_20260215_1',
@@ -48,7 +48,7 @@ let samaraEvents2026 = [
         link: 'https://o-63.ru/data/2026/snezhnye-parki-2-etap/',
         res: 'https://t.me/TrainingoClub',
         map: 'school_48_2025',
-        owner: 'TRAINING_O_CLUB',
+        owner: 'TRAINING_O_CLUB'
     },
     {
         id: 'SMR_20260222_1',
@@ -59,7 +59,7 @@ let samaraEvents2026 = [
         res: 'https://t.me/TrainingoClub',
         reg: 'https://orgeo.ru/event/50764',
         map: 'park_gagarina',
-        owner: 'TRAINING_O_CLUB',
+        owner: 'TRAINING_O_CLUB'
     },
     {
         id: 'SMR_20260223_1',
@@ -70,7 +70,7 @@ let samaraEvents2026 = [
         reg: 'https://orgeo.ru/event/50117',
         res: 'https://o-63.ru/wp-content/uploads/РЕЗУЛЬТАТЫ-23_02_26.html?sportorg=1',
         map: 'pribrezhny',
-        owner: 'SAKSOR',
+        owner: 'SAKSOR'
     },
     {
         id: 'SMR_20260308_1',
@@ -81,7 +81,7 @@ let samaraEvents2026 = [
         reg: 'https://orgeo.ru/event/50764',
         res: 'https://t.me/TrainingoClub',
         map: 'mehzavod_2025',
-        owner: 'TRAINING_O_CLUB',
+        owner: 'TRAINING_O_CLUB'
     },
     {
         id: 'SMR_20260529_1',

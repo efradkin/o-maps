@@ -83,7 +83,7 @@ let moscowMaps = [
         year: 1,
         url: './maps/moscow/sz/usachevy_naidenovy_retro.webp',
         link: './original_maps/moscow/sz/usachevy_naidenovy_retro_omaps.webp',
-        bounds: [[55.7537453, 37.6568627], [55.7532019, 37.6624525], [55.750672, 37.6558113]],
+        bounds: [[55.7537453, 37.6568627], [55.7532019, 37.6624525], [55.750672, 37.6558113]]
     },
     {
         name: 'Некрасовский',
@@ -107,14 +107,14 @@ let moscowMaps = [
         url: './maps/moscow/zosimova_pustyn_1973.webp',
         link: './original_maps/moscow/zosimova_pustyn_1973_omaps.gif',
         info: '<a href="https://t.me/moscow_orient/1838">Осенний призыв</a>. С этих соревнований началась история "Осенних встреч". Старт прошёл в формате рогейна с форой по разрядам. Мероприятие провёл Н.Н. Куницын перед уходом в армию - позже будущий президент ФСО Москвы.',
-        bounds: [[55.4338834, 36.7604256], [55.4315946, 36.7981052], [55.402023, 36.7539024]],
+        bounds: [[55.4338834, 36.7604256], [55.4315946, 36.7981052], [55.402023, 36.7539024]]
     },
     {
         name: 'Зосимова пустынь',
         year: 1977,
         url: './maps/moscow/sz/zosimova_pustyn_1977.webp',
         link: './original_maps/moscow/sz/zosimova_pustyn_1977_omaps.jpg',
-        bounds: [[55.419905, 36.8172026], [55.4110625, 36.8347979], [55.3956624, 36.7745447]],
+        bounds: [[55.419905, 36.8172026], [55.4110625, 36.8347979], [55.3956624, 36.7745447]]
     },
     {
         name: 'Рождественно',
@@ -122,7 +122,7 @@ let moscowMaps = [
         url: './maps/moscow/lr/rozhdestvenno_1970.webp',
         link: './original_maps/moscow/lr/rozhdestvenno_1970_omaps.jpg',
         info: '<a href="https://t.me/rogainomania/412">Приз Московского совета по туризму и экскурсиям, Кубок Москвы</a>. Победили будущий председатель Федерации ориентирования Москвы Николай Куницын и мастер спорта Татьяна Рязанская. В старте приняли участие почти 500 человек, включая 12 МС и 26 КМС.',
-        bounds: [[56.1496136, 37.6367569], [56.1398591, 37.723875], [56.1126387, 37.6238823]],
+        bounds: [[56.1496136, 37.6367569], [56.1398591, 37.723875], [56.1126387, 37.6238823]]
     },
     {
         name: 'Матрёнино',
@@ -130,7 +130,7 @@ let moscowMaps = [
         url: './maps/moscow/lr/matrenino_1979.webp',
         link: './original_maps/moscow/lr/matrenino_1979_omaps.jpg',
         info: 'XXX слёт ЦСТ МАИ.',
-        bounds: [[56.0100187, 36.0632229], [56.0071636, 36.0944653], [55.9867397, 36.0600471]],
+        bounds: [[56.0100187, 36.0632229], [56.0071636, 36.0944653], [55.9867397, 36.0600471]]
     },
     {
         name: 'Волкуша',
@@ -3677,7 +3677,7 @@ let moscowMaps = [
             author: 'ALNKV_A',
         },
         bounds: [[55.7959302, 37.7007008]],
-        type: ['CITY','SPRINT'],
+        type: ['CITY','SPRINT']
     },
     {
         name: 'Яуза',
@@ -3685,7 +3685,7 @@ let moscowMaps = [
         url: './maps/moscow/sz/yauza_old.webp',
         link: './original_maps/moscow/sz/yauza_old_omaps.jpg',
         author: 'IGNTNKO',
-        bounds: [[55.8361446, 37.6710892], [55.8332285, 37.7023315], [55.8188131, 37.6658106]],
+        bounds: [[55.8361446, 37.6710892], [55.8332285, 37.7023315], [55.8188131, 37.6658106]]
     },
     {
         name: 'Яузский лесопарк',
@@ -3828,7 +3828,7 @@ let moscowMaps = [
         year: 1972,
         url: './maps/moscow/ak/jahroma_1972.webp',
         link: './original_maps/moscow/ak/jahroma_1972_omaps.jpg',
-        bounds: [[56.3104908, 37.3541164], [56.3074913, 37.4096489], [56.2828196, 37.3489666]],
+        bounds: [[56.3104908, 37.3541164], [56.3074913, 37.4096489], [56.2828196, 37.3489666]]
     },
     {
         name: 'Ольгово',
@@ -3894,7 +3894,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/egorievsk_2002.webp',
         link: ['./original_maps/moscow/ak/egorievsk_2002_omaps.jpg','./original_maps/moscow/ak/egorievsk_zhukova_hill_2002_omaps.jpg'],
         bounds: [[55.3657224, 39.0283298], [55.3639175, 39.0608597], [55.3462297, 39.0239525]],
-        author: 'JASHPTRV',
+        author: 'JASHPTRV'
     },
     {
         name: 'Ляхово',
@@ -3972,7 +3972,7 @@ let moscowMaps = [
         url: './maps/moscow/ak/blue_lake_1_2023.webp',
         link: './original_maps/moscow/ak/blue_lake_1_2023_omaps.gif',
         bounds: [[55.0028258, 39.0188456], [55.0013613, 39.031806], [54.9922899, 39.0152407]],
-        author: 'FSHN_A',
+        author: 'FSHN_A'
     },
     {
         name: 'Вельяминово',
@@ -4237,7 +4237,7 @@ let moscowMaps = [
         link: './original_maps/moscow/ak/andreevskoe_2023_omaps.gif',
         bounds: [[55.130661, 38.6024809], [55.1269315, 38.6396885], [55.1086716, 38.5951853]],
         author: 'FSHN_A',
-        owner: 'FSHN_A',
+        owner: 'FSHN_A'
     },
     {
         name: 'Коломна, кремль',

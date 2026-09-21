@@ -285,7 +285,7 @@ let parkMaps = [
         link: './original_maps/parks/udelny_retro_omaps.jpg',
         bounds: [[60.0180571, 30.2986622], [60.0159768, 30.324626], [60.0023335, 30.2944994]],
         logo: 'leningrad_retro.gif',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Удельный парк',
@@ -370,7 +370,7 @@ let parkMaps = [
         link: './original_maps/parks/piskarevsky_2012_omaps.gif',
         bounds: [[60.0059808, 30.3960371], [60.0029342, 30.4340601], [59.9946513, 30.3919601]],
         author: 'DBRTSV_V',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Пискарёвский парк',
@@ -1029,7 +1029,7 @@ let parkMaps = [
         link: './original_maps/parks/novoorlovsky_1989_omaps.jpg',
         bounds: [[60.0566801, 30.2675056], [60.0559946, 30.296216], [60.0384245, 30.2651882]],
         author: 'KUZNTSV_V',
-        type: ['PARK'],
+        type: ['PARK']
     },
     {
         name: 'Новоорловский лесопарк',

@@ -193,7 +193,7 @@ let events2025 = [
         reg: 'https://orgeo.ru/event/39842',
         res: 'https://o-site.spb.ru/_races/250222R/250222R_res.pdf',
         o_gps: 21691,
-        map: 'lembolovo_orekhovo_peski_gk_2026',
+        map: 'lembolovo_orekhovo_peski_gk_2026'
     },
     {
         id: 'SPB_20250223_1',
@@ -557,7 +557,7 @@ let events2025 = [
         place: 'Сосновка',
         name: 'Физкультурное мероприятие среди семейных команд Выборгского р-на',
         link: 'https://vk.com/wall-70673510_1347',
-        map: 'sosnovka_2024',
+        map: 'sosnovka_2024'
     },
     {
         id: 'SPB_20250426_2',
@@ -1086,7 +1086,7 @@ let events2025 = [
         photo: ['https://vk.com/album-30311715_307382548','https://vk.com/album-30311715_306332306'],
         map: 'red_valley_2025',
         start: 'BA',
-        owner: 'BKTV',
+        owner: 'BKTV'
     },
     {
         id: 'SPB_20250531_3',
@@ -1218,7 +1218,7 @@ let events2025 = [
             'https://rutube.ru/video/8f3abca85ab6d91d10833c97d906944b/'
         ],
         start: 'NA',
-        map: 'losevo_2022',
+        map: 'losevo_2022'
     },
     {
         id: 'SPB_20250613_1',
@@ -1277,7 +1277,7 @@ let events2025 = [
         video: 'https://www.youtube.com/watch?v=VLJFZh0gfLI',
         start: 'KKP',
         map: 'kkp_prudy_2023_06_19',
-        me: 'М50',
+        me: 'М50'
     },
     {
         id: 'SPB_20250614_2',
@@ -1294,7 +1294,7 @@ let events2025 = [
         start: 'KKP',
         strava: 14803778336,
         map: 'kkp_prudy_2023_06_19',
-        me: 'М50',
+        me: 'М50'
     },
     {
         id: 'SPB_20250615_1',
@@ -1347,7 +1347,7 @@ let events2025 = [
         video: [
             'https://vkvideo.ru/video-93257360_456239279',
             'https://www.youtube.com/watch?v=YzshhewPboE'
-        ],
+        ]
     },
     {
         id: 'SPB_20250618_1',
@@ -1458,7 +1458,7 @@ let events2025 = [
             14942090719,
             14952833945
         ],
-        me: 'М50',
+        me: 'М50'
     },
     {
         id: 'SPB_20250628_1',
@@ -1684,7 +1684,7 @@ let events2025 = [
         split: 'splits/2025/SPB_20250809_2_split.htm',
         reg: 'https://orgeo.ru/event/info/44975',
         o_gps: 23203,
-        map: 'lembolovo_2024',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20250809_3',
@@ -1815,7 +1815,7 @@ let events2025 = [
         split: 'splits/2025/SPB_20250830_2_split.htm',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1693',
         reskeep: 785,
-        map: 'pukhtolova_gora_2025',
+        map: 'pukhtolova_gora_2025'
     },
     {
         id: 'SPB_20250830_3',
@@ -2041,7 +2041,7 @@ let events2025 = [
         o_site: '250919_zo',
         reg: 'https://orgeo.ru/event/45724',
         o_gps: 23439,
-        map: 'polyustrovsky_2022',
+        map: 'polyustrovsky_2022'
     },
     {
         id: 'SPB_20250920_1',
@@ -2068,7 +2068,7 @@ let events2025 = [
         reg: 'https://reg.spb-orient.ru/',
         o_gps: 23458,
         photo: 'https://vk.com/album-268751_308678065',
-        map: 'lembolovo_2024',
+        map: 'lembolovo_2024'
     },
     {
         id: 'SPB_20250920_3',
@@ -2167,7 +2167,7 @@ let events2025 = [
         photo: 'https://vk.com/album-230167293_311153204',
         map: 'school_221_2025',
         owner: 'SFSO_SPB',
-        start: 'SCHOOL',
+        start: 'SCHOOL'
     },
     {
         id: 'SPB_20250923_2',
@@ -2187,7 +2187,7 @@ let events2025 = [
         photo: 'https://vk.com/album-230167293_311165957',
         map: 'school_303_2016',
         owner: 'SFSO_SPB',
-        start: 'SCHOOL',
+        start: 'SCHOOL'
     },
     {
         id: 'SPB_20250924_2',
@@ -2316,8 +2316,7 @@ let events2025 = [
             'splits/2025/SPB_20251002_1_2_split.htm'
         ],
         reg: 'http://orgeo.ru/event/46828',
-        map: 'sertolovo_2016',
-        type: 'ORIENT'
+        map: 'sertolovo_2016'
     },
     {
         id: 'SPB_20251004_1',
@@ -3253,7 +3252,7 @@ let events2025 = [
         fmt: 'спелео, комбинация',
         reg: 'https://orgeo.ru/event/48286',
         photo: 'https://vk.ru/album-222424338_309589045',
-        map: 'sablino_zhemchug_cave',
+        map: 'sablino_zhemchug_cave'
     },
     {
         id: 'SPB_20251214_1',
@@ -3352,7 +3351,7 @@ let events2025 = [
         map: 'zelenogorsk_schuchye_2005',
         strava: 16853608665,
         me: 'А',
-        owner: 'DLITELNY',
+        owner: 'DLITELNY'
     },
     {
         id: 'SPB_20251228_1',

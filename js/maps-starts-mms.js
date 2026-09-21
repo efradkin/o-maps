@@ -27,7 +27,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_1996_06_29.webp',
         link: ['./original_maps/starts/mms/mms_1996_06_29_omaps.jpg','./original_maps/starts/mms/mms_1996_06_29_cps_omaps.webp'],
         bounds: [[60.6278706, 29.9101925], [60.6241237, 29.9567127], [60.6031495, 29.9016094]],
-        author: 'BYMKV',
+        author: 'BYMKV'
     },
     {
         name: 'Ягодное',
@@ -36,7 +36,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_1996_06_30.webp',
         link: ['./original_maps/starts/mms/mms_1996_06_30_omaps.jpg','./original_maps/starts/mms/mms_1996_06_30_cps_omaps.webp'],
         bounds: [[60.636668, 29.9482584], [60.6305648, 30.0276947], [60.6124379, 29.9389458]],
-        author: 'BYMKV',
+        author: 'BYMKV'
     },
     {
         name: 'Орехово',
@@ -45,7 +45,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_1997_06_29.webp',
         link: ['./original_maps/starts/mms/mms_1997_06_29_omaps.jpg','./original_maps/starts/mms/mms_1997_06_29_cps_omaps.webp'],
         bounds: [[60.4685578, 30.3298187], [60.4656385, 30.384407], [60.4436723, 30.3237247]],
-        author: ['BYMKV','DBRTSV_V'],
+        author: ['BYMKV','DBRTSV_V']
     },
     {
         name: 'Кузнечное, Богатыри',
@@ -54,7 +54,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_1998_06.webp',
         link: ['./original_maps/starts/mms/mms_1998_cps_omaps.webp','./original_maps/starts/mms/mms_1998_06_omaps.jpg','./original_maps/starts/mms/mms_1998_06_26_omaps.jpg'],
         bounds: [[61.1193662, 29.8156929], [61.1155106, 29.870882], [61.1003948, 29.8099422]],
-        author: ['KUZNTSV_A','KVZN','SHRNN'],
+        author: ['KUZNTSV_A','KVZN','SHRNN']
     },
     {
         name: 'Каменногорск',
@@ -63,7 +63,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2000_07_02.webp',
         link: ['./original_maps/starts/mms/mms_2000_07_02_omaps.jpg','./original_maps/starts/mms/mms_2000_07_02_clean_omaps.webp','./original_maps/starts/mms/mms_2000_07_01_cps_omaps.webp','./original_maps/starts/mms/mms_2000_07_02_cps_omaps.webp'],
         bounds: [[60.9988136, 29.1680145], [60.9946104, 29.2224741], [60.9797283, 29.1612339]],
-        author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV','TKMKV_K','VRBY'],
+        author: ['VLKV_K','KVZN','KUZNTSV_S','NSNV','TKMKV_K','VRBY']
     },
     {
         name: 'Каменногорск',
@@ -71,7 +71,7 @@ let mmsStartsMaps = [
         date: '2000-06-30',
         url: './maps/starts/mms/mms_2000_06_30.webp',
         link: ['./original_maps/starts/mms/mms_2000_06_30_clean_omaps.webp','./original_maps/starts/mms/mms_2000_06_30_cps_omaps.webp'],
-        bounds: [[61.002829, 29.1787863], [61.0006029, 29.2050934], [60.9942358, 29.1754818]],
+        bounds: [[61.002829, 29.1787863], [61.0006029, 29.2050934], [60.9942358, 29.1754818]]
     },
     {
         name: 'Пески, оз Пулконлампи',
@@ -80,7 +80,7 @@ let mmsStartsMaps = [
         link: ['./original_maps/forest/vaskelovo/peski_pulkonlampi_2001_omaps.jpg','./original_maps/starts/mms/mms_2001_06_28_omaps.jpg','./original_maps/starts/mms/mms_2001_06_28_cps_omaps.webp'],
         start: 'MMS',
         bounds: [[60.486406, 30.3976679], [60.4849895, 30.4190397], [60.4717094, 30.3938055]],
-        author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
+        author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY']
     },
     {
         name: 'Пески, Забытое оз',
@@ -626,7 +626,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2018_06_24.webp',
         link: './original_maps/starts/mms/mms_2018_06_24_omaps.jpg',
         bounds: [[60.6320381, 30.0483799], [60.6300597, 30.1064873], [60.606604, 30.0435734]],
-        author: 'DJCHKV',
+        author: 'DJCHKV'
     },
     {
         name: 'Петяярви, р Волчья',
@@ -636,7 +636,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2018_06_23.webp',
         link: './original_maps/starts/mms/mms_2018_06_23_omaps.jpg',
         bounds: [[60.629765, 30.0546026], [60.6286705, 30.0830555], [60.6143543, 30.0517702]],
-        author: 'DJCHKV',
+        author: 'DJCHKV'
     },
     {
         name: 'Петяярви, р Волчья',
@@ -646,7 +646,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2018_06_22.webp',
         link: './original_maps/starts/mms/mms_2018_06_22_omaps.jpg',
         bounds: [[60.6098792, 30.0951576], [60.6086681, 30.1217651], [60.5987782, 30.0932693]],
-        author: 'DJCHKV',
+        author: 'DJCHKV'
     },
     {
         name: 'Сосново, Уловное оз',
@@ -656,7 +656,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2019_06_23.webp',
         link: './original_maps/starts/mms/mms_2019_06_23_omaps.jpg',
         bounds: [[60.6145649, 30.1864386], [60.6124801, 30.2305126], [60.5971664, 30.1830912]],
-        author: ['DJCHKV','PPV_D'],
+        author: ['DJCHKV','PPV_D']
     },
     {
         name: 'Сосново, Уловное оз',
@@ -666,7 +666,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2019_06_22.webp',
         link: './original_maps/starts/mms/mms_2019_06_22_omaps.jpg',
         bounds: [[60.6202289, 30.1873398], [60.6183761, 30.2312422], [60.6093842, 30.1849365]],
-        author: ['DJCHKV','PPV_D'],
+        author: ['DJCHKV','PPV_D']
     },
     {
         name: 'Сосново, Уловное оз',
@@ -676,7 +676,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2019_06_21.webp',
         link: './original_maps/starts/mms/mms_2019_06_21_omaps.jpg',
         bounds: [[60.6120168, 30.2181959], [60.6115956, 30.2375078], [60.5955651, 30.2161789]],
-        author: ['DJCHKV','PPV_D'],
+        author: ['DJCHKV','PPV_D']
     },
     {
         name: 'Снегирёвка, оз Щучье',
@@ -686,7 +686,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2022_06_21.webp',
         link: './original_maps/starts/mms/mms_2022_06_21_omaps.jpg',
         bounds: [[60.5401663, 30.3154421], [60.5387943, 30.3493881], [60.5279856, 30.312953]],
-        author: 'DJCHKV',
+        author: 'DJCHKV'
     },
     {
         name: 'Снегирёвка, оз Щучье',
@@ -696,7 +696,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2022_06_19.webp',
         link: './original_maps/starts/mms/mms_2022_06_19_omaps.jpg',
         bounds: [[60.5470673, 30.3193045], [60.5455479, 30.350976], [60.5269721, 30.3155708]],
-        author: 'DJCHKV',
+        author: 'DJCHKV'
     },
     {
         name: 'Снегирёвка, оз Щучье',
@@ -706,7 +706,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2022_06_18.webp',
         link: './original_maps/starts/mms/mms_2022_06_18_omaps.jpg',
         bounds: [[60.516772, 30.2782774], [60.5144485, 30.314455], [60.5063996, 30.2758741]],
-        author: 'DBRTSV_V',
+        author: 'DBRTSV_V'
     },
     {
         name: 'Снегирёвка, оз Щучье',
@@ -716,7 +716,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2022_06_17.webp',
         link: './original_maps/starts/mms/mms_2022_06_17_omaps.jpg',
         bounds: [[60.5399446, 30.3057861], [60.5390371, 30.3321576], [60.5239631, 30.3030825]],
-        author: 'DJCHKV',
+        author: 'DJCHKV'
     },
     {
         name: 'Сосново, Уловное оз',
@@ -726,7 +726,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2023_06_25.webp',
         link: './original_maps/starts/mms/mms_2023_06_25_omaps.jpg',
         bounds: [[60.6239974, 30.2016735], [60.6211763, 30.2364349], [60.5977142, 30.1929188]],
-        author: ['MKHLV_A','SBLV_S'],
+        author: ['MKHLV_A','SBLV_S']
     },
     {
         name: 'Сосново, Уловное оз',
@@ -736,7 +736,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2023_06_24.webp',
         link: './original_maps/starts/mms/mms_2023_06_24_omaps.jpg',
         bounds: [[60.6103741, 30.2077675], [60.6064355, 30.2539873], [60.5948277, 30.2027464]],
-        author: ['MKHLV_A','SBLV_S'],
+        author: ['MKHLV_A','SBLV_S']
     },
     {
         name: 'Сосново, Уловное оз',
@@ -746,7 +746,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2023_06_23.webp',
         link: './original_maps/starts/mms/mms_2023_06_23_omaps.jpg',
         bounds: [[60.600748, 30.216608], [60.5974193, 30.2559185], [60.5852391, 30.2112865]],
-        author: ['MKHLV_A','SBLV_S'],
+        author: ['MKHLV_A','SBLV_S']
     },
     {
         name: 'Первомайское, оз Семейные',
@@ -802,7 +802,7 @@ let mmsStartsMaps = [
         url: './maps/starts/mms/mms_2025_06_20.webp',
         link: './original_maps/starts/mms/mms_2025_06_20_omaps.jpg',
         bounds: [[60.2073309, 29.1194344], [60.2037485, 29.1549683], [60.1957505, 29.1148424]],
-        author: ['NSNV','KVZN','TKMKV_K','TKMKVA_P'],
+        author: ['NSNV','KVZN','TKMKV_K','TKMKVA_P']
     },
     {
         name: 'Пески, оз Забытое',

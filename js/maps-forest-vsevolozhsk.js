@@ -33,7 +33,7 @@ let vsevolozhskMaps = [
         year: 2010,
         url: './maps/forest/vsevolozhsk/vsevolozhsk_2010.webp',
         link: './original_maps/forest/vsevolozhsk/vsevolozhsk_2010_omaps.jpg',
-        bounds: [[60.0558233, 30.6406331], [60.0536061, 30.6750727], [60.0428822, 30.6376934]],
+        bounds: [[60.0558233, 30.6406331], [60.0536061, 30.6750727], [60.0428822, 30.6376934]]
     },
     {
         name: 'Невская Дубровка',
@@ -76,7 +76,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/koltushi_1990.webp',
         link: ['./original_maps/forest/vsevolozhsk/koltushi_1990_omaps.jpg','./original_maps/forest/vsevolozhsk/voeykovo_1988_omaps.jpg','./original_maps/forest/vsevolozhsk/voeykovo_1989_omaps.jpg'],
         bounds: [[59.9788091, 30.661726], [59.9740851, 30.7406902], [59.9262914, 30.6482506]],
-        author: 'VSLVSKY',
+        author: 'VSLVSKY'
     },
     {
         name: 'Голубая Дача',
@@ -307,7 +307,7 @@ let vsevolozhskMaps = [
         url: './maps/forest/vsevolozhsk/ozertso_2007.webp',
         link: './original_maps/forest/vsevolozhsk/ozertso_2007_omaps.jpg',
         bounds: [[60.1473798, 31.0404968], [60.1466321, 31.056118], [60.136056, 31.0377073]],
-        author: 'PKHMV',
+        author: 'PKHMV'
     },
     {
         name: 'Коккорево, оз Шимполадово',
