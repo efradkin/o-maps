@@ -1435,7 +1435,7 @@ function filterEvents(events, onlyMajor) {
             return isEventLikeRogaine(evt);
         }
         if (ORIENT_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
-            return evt.type && evt.type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) || evt.type.includes('INDOOR');
+            return !!evt.type && (evt.type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) || evt.type.includes('INDOOR'));
         }
         if (OTHER_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
             return isEventOther(evt);
@@ -1539,28 +1539,30 @@ function isEventLikeRogaine(evt) {
 }
 
 function isEventOther(evt) {
-    return !evt.type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) &&
-        !evt.type.includes(VELO_EVENTS_CALENDAR_PARAM_VALUE) &&
-        !evt.type.includes('INDOOR') &&
-        !evt.type.includes(SKI_EVENTS_CALENDAR_PARAM_VALUE) && !isRogaine(evt);
+    const type = evt.type ?? []; // событие без type — пустой список типов
+    return !type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) &&
+        !type.includes(VELO_EVENTS_CALENDAR_PARAM_VALUE) &&
+        !type.includes('INDOOR') &&
+        !type.includes(SKI_EVENTS_CALENDAR_PARAM_VALUE) && !isRogaine(evt);
 }
 
 function validateEvent(evt) {
     if (CALENDAR_PARAM) {
         const currentDate = new Date(evt.date);
+        const type = evt.type ?? []; // событие без type — пустой список типов
         switch (CALENDAR_PARAM) {
             case ORIENT_EVENTS_CALENDAR_PARAM_VALUE:
-                if (!evt.type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) && !evt.type.includes('INDOOR')) {
+                if (!type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) && !type.includes('INDOOR')) {
                     return false;
                 }
                 break;
             case SKI_EVENTS_CALENDAR_PARAM_VALUE:
-                if (!evt.type.includes(SKI_EVENTS_CALENDAR_PARAM_VALUE)) {
+                if (!type.includes(SKI_EVENTS_CALENDAR_PARAM_VALUE)) {
                     return false;
                 }
                 break;
             case VELO_EVENTS_CALENDAR_PARAM_VALUE:
-                if (!evt.type.includes(VELO_EVENTS_CALENDAR_PARAM_VALUE)) {
+                if (!type.includes(VELO_EVENTS_CALENDAR_PARAM_VALUE)) {
                     return false;
                 }
                 break;
