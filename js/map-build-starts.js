@@ -147,6 +147,7 @@ function buildOverlayMapsContents() {
 function allocateMap(m) {
     if (m.start || isMajor(m)) {
         m.groups = [];
+        m.ageGroups = [];
 
         if (Array.isArray(m.start)) {
             for (const s of m.start) {
@@ -163,10 +164,10 @@ function allocateMap(m) {
         let y = startYear(m) || year(m);
         if (!y) {
             let groupUnknownYear = getCreateAgeGroup(0);
-            pushGroupToMap(m, groupUnknownYear);
+            pushAgeGroupToMap(m, groupUnknownYear);
         } else {
             let yearGroup = getCreateAgeGroup(y);
-            pushGroupToMap(m, yearGroup);
+            pushAgeGroupToMap(m, yearGroup);
         }
     }
 }

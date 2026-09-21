@@ -41,7 +41,7 @@ window.onload = function() {
     }
     let allRogaineAreaEl = document.getElementById("all_rogaine_area");
     if (allRogaineAreaEl != null) {
-        allRogaineAreaEl.innerHTML = calcMapsArea(rogaineGroup).toFixed(0);
+        allRogaineAreaEl.innerHTML = calcMapsArea(mapsStatObj.rogaineGroup).toFixed(0);
     }
 
     const mapYearChartEl = document.getElementById('mapYearChart');

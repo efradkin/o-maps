@@ -322,30 +322,29 @@ if (mapElement) {
     if (MAP_NAME_PARAM) {
         let m = getMapForName(MAP_NAME_PARAM);
         if (m) {
-            let mapType = m.type;
-            if (mapType && isRogaine(m)) {
+            // включить слои, без которых syncMaps() эту карту не покажет
+            if (isRogaine(m)) {
                 if (typeof rogaineGroup !== 'undefined') {
-                    activeLayers.push(rogaineGroup);
+                    activateLayer(rogaineGroup);
                 }
-            }
-            if (!isRogaine(m)) {
-                if (mapType && isFun(m)) {
+            } else {
+                if (isFun(m)) {
                     if (typeof funGroup !== 'undefined') {
-                        activeLayers.push(funGroup);
+                        activateLayer(funGroup);
                     }
                 }
-                if (mapType && isSpecialMap(m)) {
+                if (isSpecialMap(m)) {
                     if (typeof specialGroup !== 'undefined') {
-                        activeLayers.push(specialGroup);
+                        activateLayer(specialGroup);
                     }
                 }
                 let y = year(m);
-                if (y && y < 2000 && (typeof groupRetro !== 'undefined')) {
+                if (y && y < 2000) {
                     if (typeof groupRetro !== 'undefined') {
-                        activeLayers.push(groupRetro);
+                        activateLayer(groupRetro);
                     }
                     if (typeof group90th !== 'undefined') {
-                        activeLayers.push(group90th);
+                        activateLayer(group90th);
                     }
                 }
             }
@@ -414,21 +413,19 @@ if (mapElement) {
     map.on('overlayadd overlayremove', function () {
         visibleMaps = recalculateLayers();
     });
+    // Все слои-группы карт (включая «Рогейн» и «Необычные») работают одинаково:
+    // чекбокс/пункт меню меняет activeLayers, а показ пересчитывает syncMaps()
     map.on('overlayadd', function (e) {
-        if (!(e.name.includes('Рогейн') || e.name.includes('Рогаине')) && !e.name.includes('Необычные') && !e.name.includes('Карты')) {
-            activeLayers.push(overlayMapsContents[e.name]);
-            syncMaps();
-        }
+        activateLayer(overlayMapsContents[e.name]);
+        syncMaps();
         if (e.name.includes('Маршруты') && !tracksLoaded) {
             loadTracks();
         }
     });
 
     map.on('overlayremove', function (e) {
-        if (!e.name.includes('Рогейн') && !e.name.includes('Необычные') && !e.name.includes('Карты')) {
-            removeFromArray(activeLayers, overlayMapsContents[e.name]);
-            syncMaps();
-        }
+        removeFromArray(activeLayers, overlayMapsContents[e.name]);
+        syncMaps();
     });
 
     // Save the map state whenever the map is moved or zoomed
@@ -1323,23 +1320,30 @@ function resyncMaps() {
     }
 }
 
-// show/hide maps according to the selected layers
+// добавить слой в список включённых без дублей (иначе removeFromArray
+// при снятии галки уберёт лишь одну копию и слой останется «включённым»)
+function activateLayer(layer) {
+    if (layer && !activeLayers.includes(layer)) {
+        activeLayers.push(layer);
+    }
+}
+
+// show/hide maps according to the selected layers.
+// Карты всех типов обрабатываются одинаково, правило видимости —
+// isMapInActiveLayers() в utils.js (рогейн и необычные — без учёта годов)
 function syncMaps() {
-    let activeLayerIds = [];
+    const activeLayerIds = new Set();
     for (const layer of activeLayers) {
         if (layer && layer._leaflet_id) {
-            activeLayerIds.push(layer._leaflet_id.toString());
+            activeLayerIds.add(layer._leaflet_id.toString());
         }
     }
 
     let shownMaps = [];
     let hiddenMaps = [];
     for (const m of oMaps) {
-        if (m.groups && isMapAcceptable(m) && (typeof startsPage !== 'undefined' || !(m.type && m.type.length === 1 && (isRogaine(m) || isFun(m))))) {
-            let moreStarts = m.groups.length > 2;
-            let forOneStart = !moreStarts && activeLayerIds.includes(m.groups[0]) && activeLayerIds.includes(m.groups[1]); // TODO какая-то левая логика
-            let forMoreStarts = moreStarts && (activeLayerIds.includes(m.groups[0]) || activeLayerIds.includes(m.groups[1])) && activeLayerIds.includes(m.groups[m.groups.length - 1]);
-            if (forOneStart || forMoreStarts) {
+        if (m.groups && m.layer && isMapAcceptable(m)) {
+            if (isMapInActiveLayers(m, activeLayerIds)) {
                 shownMaps.push(m);
             } else {
                 hiddenMaps.push(m);
@@ -1492,6 +1496,10 @@ function applyMapStyles(m) {
         if (el) {
             if (m.zindex) {
                 el.style.zIndex = m.zindex;
+            } else if (isRogaine(m) && el.style.zIndex === '') {
+                // рогейн-подложки — под ориент-картами (как раньше делал
+                // allocateMap), пока их не подняли кликом или списком карт
+                el.style.zIndex = 0;
             }
 /*
             if (m.in_work) {

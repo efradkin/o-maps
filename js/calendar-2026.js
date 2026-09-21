@@ -2654,7 +2654,8 @@ let events2026 = [
         name: 'Кубок Колпино',
         place: 'Колпинский ПКиО',
         link: 'https://vk.com/orienteeringkolpino',
-        reg: 'https://orgeo.ru/event/55190'
+        reg: 'https://orgeo.ru/event/55190',
+        o_site: '261003_kolpino'
     },
     {
         id: 'SPB_20261010_1',

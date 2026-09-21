@@ -1363,10 +1363,53 @@ function selectTrackMonth(month) {
     }
 }
 
+// Слои-группы карт — пустые L.layerGroup: сами картинки в них не кладутся,
+// у карты лишь запоминаются id групп, а показ решает syncMaps() в main.js.
+// L.stamp() выдаёт id и группе, которой ещё нет на карте и в контроле слоёв.
+
+// Группа-«тип» (город, лес, рогейн, необычные, старт...): карта видна,
+// если включена хотя бы одна из её групп-типов.
 function pushGroupToMap(m, group) {
-    if (group._leaflet_id) {
-        m.groups.push(group._leaflet_id.toString());
+    const id = L.stamp(group).toString();
+    if (!m.groups.includes(id)) {
+        m.groups.push(id);
     }
+}
+
+// Группа-тип, не зависящая от годов (рогейн, необычные): карта видна,
+// если такая группа включена, какие бы годы ни были отмечены.
+function pushAgeFreeGroupToMap(m, group) {
+    if (!m.ageFreeGroups) {
+        m.ageFreeGroups = [];
+    }
+    const id = L.stamp(group).toString();
+    if (!m.ageFreeGroups.includes(id)) {
+        m.ageFreeGroups.push(id);
+    }
+}
+
+// Группа-«возраст» (десятилетие, год): если такие группы у карты есть,
+// должна быть включена хотя бы одна из них.
+function pushAgeGroupToMap(m, group) {
+    if (!m.ageGroups) {
+        m.ageGroups = [];
+    }
+    const id = L.stamp(group).toString();
+    if (!m.ageGroups.includes(id)) {
+        m.ageGroups.push(id);
+    }
+}
+
+// Единое правило видимости для карт любого типа:
+// включена группа, не зависящая от годов (рогейн, необычные), —
+// или включены группа-тип и (если есть) группа-возраст
+function isMapInActiveLayers(m, activeIds) {
+    if (m.ageFreeGroups && m.ageFreeGroups.some(id => activeIds.has(id))) {
+        return true;
+    }
+    const byType = m.groups.some(id => activeIds.has(id));
+    const byAge = !m.ageGroups || m.ageGroups.length === 0 || m.ageGroups.some(id => activeIds.has(id));
+    return byType && byAge;
 }
 
 function checkStartMap(start, m) {

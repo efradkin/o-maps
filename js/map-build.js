@@ -139,8 +139,14 @@ function buildOverlayMapsContents() {
     };
 }
 
+// Все карты (ориент, рогейн, необычные) раскладываются одинаково: в группы
+// они не добавляются, у карты запоминаются id групп, а показ, отсечение за
+// экраном и олив на мелком масштабе делает syncMaps(). Рогейн и необычные
+// от годов не зависят; десятилетие фильтрует только ориент-часть карты.
 function allocateMap(m, imgLayer) {
     m.groups = [];
+    m.ageGroups = [];
+    m.ageFreeGroups = [];
     if (m.gpx) {
         // треки
         pushGroupToMap(m, tracksGroup);
@@ -152,11 +158,7 @@ function allocateMap(m, imgLayer) {
             if (m.type.includes('ROGAINE')) {
                 added = true;
                 mapsStatObj.rogaineGroup.push(imgLayer);
-                imgLayer.addTo(rogaineGroup);
-                let el = imgLayer.getElement();
-                if (el) {
-                    el.style.zIndex = 0;
-                }
+                pushAgeFreeGroupToMap(m, rogaineGroup);
             }
             if (isSpecialMap(m)) {
                 added = true;
@@ -176,7 +178,7 @@ function allocateMap(m, imgLayer) {
             if (isFun(m)) {
                 added = true;
                 mapsStatObj.funGroup.push(imgLayer);
-                imgLayer.addTo(funGroup);
+                pushAgeFreeGroupToMap(m, funGroup);
             }
         }
         if (!added || (m.type.includes('FOREST'))) {
@@ -185,25 +187,28 @@ function allocateMap(m, imgLayer) {
         }
 
         if (isOrientMap(m)) {
-            let y = year(m);
-            if (m.correct) {
-                y = m.correct;
-            }
-            if (!y) {
-                pushGroupToMap(m, groupUnknownYear);
-            } else if (y >= 2020) {
-                pushGroupToMap(m, group2020th);
-            } else if (y >= 2010) {
-                pushGroupToMap(m, group2010th);
-            } else if (y >= 2000) {
-                pushGroupToMap(m, group2000th);
-            } else if (y >= 1990) {
-                pushGroupToMap(m, group90th);
-            } else {
-                pushGroupToMap(m, groupRetro);
-            }
+            pushAgeGroupToMap(m, ageGroupForMap(m));
         }
     }
+}
+
+function ageGroupForMap(m) {
+    let y = year(m);
+    if (m.correct) {
+        y = m.correct;
+    }
+    if (!y) {
+        return groupUnknownYear;
+    } else if (y >= 2020) {
+        return group2020th;
+    } else if (y >= 2010) {
+        return group2010th;
+    } else if (y >= 2000) {
+        return group2000th;
+    } else if (y >= 1990) {
+        return group90th;
+    }
+    return groupRetro;
 }
 
 function isMapAcceptable(m) {

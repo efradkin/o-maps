@@ -98,9 +98,10 @@ function allocateMap(m, layer) {
         }
         m.layer = layer; // save bounds for search
     } else {
-        // карты
+        // карты: как и на остальных страницах, в группу не кладутся —
+        // показ и отсечение делает syncMaps() по id группы
         if (m.type && m.type.includes('ROGAINE')) {
-            processTrackMap(m, layer, rogaineGroup);
+            pushAgeFreeGroupToMap(m, rogaineGroup);
         } else {
             //processTrackMap(m, layer, mapsGroup);
         }
