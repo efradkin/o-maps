@@ -70,7 +70,6 @@ let commonEvents2026 = [
         link: 'https://vk.com/skorus',
         reg: 'https://orgeo.ru/event/49482',
         video: 'https://vkvideo.ru/video-230838055_456239042',
-        type: 'ORIENT',
         fmt: 'спринт, лонг, классика',
         owner: 'PSKOV_RUS',
         reskeep: [871,872,873],
@@ -95,7 +94,6 @@ let commonEvents2026 = [
         name: 'Первый тур Кубка мира (OWC)',
         link: 'https://orienteering.sport/event/orienteering-world-cup-round-1-6/welcome/',
         major: true,
-        type: 'ORIENT',
         fmt: 'sprint, sprint relay knock-out sprint',
         res: 'https://liveresults.ch/wc26r1/wc26r1-kos',
         video: [
@@ -115,7 +113,6 @@ let commonEvents2026 = [
         name: 'Мемориал Александра Матросова',
         place: 'Псков',
         link: 'https://vk.com/skorus',
-        type: 'ORIENT',
         owner: 'PSKOV_RUS'
     },
     {
@@ -124,7 +121,6 @@ let commonEvents2026 = [
         endDate: '2026-05-18',
         place: 'Иркутск',
         name: 'Чемпионат России',
-        type: 'ORIENT',
         fmt: 'спринт, спринт-масстарт, эстафета 2х, эстафета 4х',
         res: 'http://orgeo.ru/live/#/51213/14',
         owner: 'FSOR',
@@ -169,7 +165,6 @@ let commonEvents2026 = [
         place: 'Skara-Lidköping Sweden',
         name: 'Второй тур Кубка мира (OWC)',
         major: true,
-        type: 'ORIENT',
         fmt: 'knock-out sprint, sprint, sprint relay',
         gps: 'https://www.tulospalvelu.fi/gps/',
         video: [
@@ -188,7 +183,6 @@ let commonEvents2026 = [
         place: 'Челябинск',
         name: 'Кубок России, лично-командные',
         major: true,
-        type: 'ORIENT',
         fmt: 'эстафета 2х, эстафета 3х, эстафета 4х',
         res: 'https://orgeo.ru/live/#/51003',
         owner: 'FSOR'
@@ -200,7 +194,6 @@ let commonEvents2026 = [
         place: 'Нижегородская обл, Вача',
         name: 'Кубок России',
         major: true,
-        type: 'ORIENT',
         fmt: 'классика, лонг, многодневный',
         owner: 'FSOR'
     },
@@ -230,7 +223,6 @@ let commonEvents2026 = [
         reg: 'https://sportident.online/entry/?id=6855',
         res: 'https://o-site.spb.ru/_races/260616-21_KKP/kkp5sum.pdf',
         photo: ['https://www.sport-images.ru/events/kamni-karelskogo-peresheyka-2026/','https://vk.com/album-227779225_311462591'],
-        type: 'ORIENT',
         fmt: 'многодневка',
         map: 'kkp_prudy_2026_06_15_kamenukola',
         start: 'KKP',
@@ -256,7 +248,6 @@ let commonEvents2026 = [
             'https://www.youtube.com/watch?v=4DXp9qRaZVM',
             'https://www.youtube.com/watch?v=rdrdKWen4Dw'
         ],
-        type: 'ORIENT',
         fmt: 'классика',
         map: 'kkp_prudy_2026_06_16',
         start: 'KKP',
@@ -283,7 +274,6 @@ let commonEvents2026 = [
             'https://vkvideo.ru/video-238805001_456239027'
         ],
         info: '<a href="https://vk.com/video-231742705_456239427">Интервью</a> с Никой Калининой.',
-        type: 'ORIENT',
         fmt: 'классика',
         map: 'kkp_prudy_2026_06_17',
         start: 'KKP',
@@ -309,7 +299,6 @@ let commonEvents2026 = [
             'https://www.youtube.com/watch?v=dmA2RdcKGjo',
             'https://vkvideo.ru/video-238805001_456239024'
         ],
-        type: 'ORIENT',
         fmt: 'лонг',
         planner: 'BEVZA',
         map: 'kkp_prudy_2026_06_18',
@@ -334,7 +323,6 @@ let commonEvents2026 = [
             'https://vk.com/video-93257360_456239325',
             'https://vkvideo.ru/video-227779225_456239072'
         ],
-        type: 'ORIENT',
         fmt: 'лонг-масстарт, классика',
         planner: 'PSTVTV',
         map: 'kkp_prudy_2026_06_19',
@@ -355,7 +343,6 @@ let commonEvents2026 = [
             'М50/55':25438,
         },
         video: 'https://vk.com/video-93257360_456239326',
-        type: 'ORIENT',
         fmt: 'спринт',
         planner: 'CHGRVSKY_M',
         map: 'kkp_prudy_2026_06_20',
@@ -389,7 +376,6 @@ let commonEvents2026 = [
         reg: 'https://orgeo.ru/event/51560',
         link: 'https://sfr-system.ru/mms/',
         info: 'Новые карты.',
-        type: 'ORIENT',
         fmt: 'классика, многодневный (лонг)',
         photo: ['https://vk.com/album-128591100_311341698','https://vk.com/album-230167293_313923869'],
         me: 'М50',
@@ -417,7 +403,6 @@ let commonEvents2026 = [
         reskeep: 898,
         strava: 19075537269,
         me: 'М50',
-        type: 'ORIENT',
         fmt: 'спринт',
         map: 'mms_2026_06_26',
         publish: 'https://vk.com/album-142737358_311427986',
@@ -450,7 +435,6 @@ let commonEvents2026 = [
         reskeep: 899,
         strava: 19083758289,
         me: 'М50',
-        type: 'ORIENT',
         fmt: 'классика',
         map: 'mms_2026_06_27',
         publish: 'https://vk.com/album-142737358_311427986',
@@ -485,7 +469,6 @@ let commonEvents2026 = [
         reskeep: [900,901],
         strava: 19096395426,
         me: 'М50',
-        type: 'ORIENT',
         fmt: 'лонг, гандикап',
         planner: 'NKTN_I',
         map: 'mms_2026_06_28',
@@ -530,7 +513,6 @@ let commonEvents2026 = [
             'https://www.youtube.com/watch?v=Doz392I9WOM',
             'https://vkvideo.ru/video-238805001_456239035'
         ],
-        type: 'ORIENT',
         fmt: 'спринт, лонг, классика',
         start: 'WN',
         map: ['wn_2026_07_03','wn_2026_07_04','wn_2026_07_05'],
@@ -565,7 +547,6 @@ let commonEvents2026 = [
             'https://youtu.be/rC-N8eGiXpY'
         ],
         major: true,
-        type: 'ORIENT',
         fmt: 'sprint, knock-out, sprint relay',
         owner: 'IOF'
     },
@@ -578,7 +559,6 @@ let commonEvents2026 = [
         reg: ['https://orgeo.ru/event/51242','https://orgeo.ru/event/51243','https://orgeo.ru/event/51245'],
         link: 'https://vk.com/skorus',
         photo: 'https://vk.ru/album-233782424_309938687',
-        type: 'ORIENT',
         owner: 'PSKOV_RUS'
     },
     {
@@ -589,7 +569,6 @@ let commonEvents2026 = [
         place: 'Курмойла',
         link: 'https://vk.com/club197340171',
         reg: ['https://orgeo.ru/event/53644','https://orgeo.ru/event/53645'],
-        type: 'ORIENT',
         start: 'KKK'
     },
     {
@@ -599,7 +578,6 @@ let commonEvents2026 = [
         place: 'Vyšší Brod, Czechia',
         name: 'Третий тур Кубка мира (World Cup)',
         major: true,
-        type: 'ORIENT',
         fmt: 'long, middle, relay',
         video: 'https://www.youtube.com/watch?v=F45Pr1atOXQ',
         owner: 'IOF'
@@ -613,7 +591,6 @@ let commonEvents2026 = [
         name: 'Первенство России',
         major: true,
         link: 'https://t.me/ruschamp_mosoroient',
-        type: 'ORIENT',
         fmt: 'классика, лонг, эстафета 3х',
         owner: 'FSOR'
     },
@@ -625,7 +602,6 @@ let commonEvents2026 = [
         place: 'Rzeszów-Przeworsk, Poland',
         name: 'Чемпионат мира среди ветеранов (WMOC)',
         major: true,
-        type: 'ORIENT',
         owner: 'IOF'
     },
     {
@@ -676,7 +652,6 @@ let commonEvents2026 = [
         place: 'Тверская обл, Вышний Волочек',
         name: 'Кубок России',
         major: true,
-        type: 'ORIENT',
         fmt: 'масстарт, лонг-масстарт, марафон',
         owner: 'FSOR'
     },
@@ -709,7 +684,6 @@ let commonEvents2026 = [
         },
         reg: 'http://orgeo.ru/event/info/53700',
         reskeep: [921,922,923],
-        type: 'ORIENT',
         fmt: 'спринт, многодневный, эстафета',
         owner: 'SFSO_SPB',
         planner: ['KSHN_D','LHMNV'],
@@ -751,7 +725,6 @@ let commonEvents2026 = [
         photo: ['https://vk.ru/album-196511971_311919189','https://vk.ru/album-196511971_311926376'],
         o_gps: 26000,
         publish: 'https://vk.ru/wall-196511971_1676',
-        type: 'ORIENT',
         fmt: 'классика, лонг',
         owner: 'WN'
     },
@@ -761,7 +734,6 @@ let commonEvents2026 = [
         endDate: '2026-09-28',
         place: 'Удмуртия, Якшур-Бодья',
         name: 'Чемпионат России, лично-командные',
-        type: 'ORIENT',
         fmt: 'классика, лонг, многодневный, эстафета 3х',
         owner: 'FSOR',
         start: 'RUSSIA_CHAMP'
@@ -773,7 +745,6 @@ let commonEvents2026 = [
         place: 'Druskininkai, Lithuania',
         name: 'Финальный тур Кубка мира (World Cup)',
         major: true,
-        type: 'ORIENT',
         fmt: 'long, middle, relay',
         owner: 'IOF'
     },
@@ -784,7 +755,6 @@ let commonEvents2026 = [
         place: 'Калининград',
         name: 'Кубок России, спринт',
         major: true,
-        type: 'ORIENT',
         fmt: 'выбор, спринт, спринт-масстарт',
         owner: 'FSOR'
     },
@@ -794,7 +764,6 @@ let commonEvents2026 = [
         endDate: '2026-11-07',
         place: 'Ставрополь',
         name: 'Чемпионат России',
-        type: 'ORIENT',
         fmt: 'выбор, лонг, масстарт, марафон',
         owner: 'FSOR',
         start: 'RUSSIA_CHAMP'

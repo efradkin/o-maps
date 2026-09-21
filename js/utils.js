@@ -1435,7 +1435,8 @@ function filterEvents(events, onlyMajor) {
             return isEventLikeRogaine(evt);
         }
         if (ORIENT_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
-            return !!evt.type && (evt.type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) || evt.type.includes('INDOOR'));
+            const type = getEventType(evt);
+            return type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) || type.includes('INDOOR');
         }
         if (OTHER_EVENTS_CALENDAR_PARAM_VALUE === CALENDAR_PARAM) {
             return isEventOther(evt);
@@ -1538,8 +1539,13 @@ function isEventLikeRogaine(evt) {
     return isRogaine(evt) || (evt.type && evt.type.includes(MULTI_EVENTS_CALENDAR_PARAM_VALUE)) || evt.start === 'MB';
 }
 
+// Событие календаря без type считается ориентированием.
+function getEventType(evt) {
+    return evt.type ?? ORIENT_EVENTS_CALENDAR_PARAM_VALUE;
+}
+
 function isEventOther(evt) {
-    const type = evt.type ?? []; // событие без type — пустой список типов
+    const type = getEventType(evt);
     return !type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) &&
         !type.includes(VELO_EVENTS_CALENDAR_PARAM_VALUE) &&
         !type.includes('INDOOR') &&
@@ -1549,7 +1555,7 @@ function isEventOther(evt) {
 function validateEvent(evt) {
     if (CALENDAR_PARAM) {
         const currentDate = new Date(evt.date);
-        const type = evt.type ?? []; // событие без type — пустой список типов
+        const type = getEventType(evt);
         switch (CALENDAR_PARAM) {
             case ORIENT_EVENTS_CALENDAR_PARAM_VALUE:
                 if (!type.includes(ORIENT_EVENTS_CALENDAR_PARAM_VALUE) && !type.includes('INDOOR')) {
@@ -2005,7 +2011,8 @@ function buildPublish(events, label) {
 function buildEventType(evt, withFmt) {
     let result = '';
     if (!onlyOneSport) {
-        switch (evt.type) {
+        const type = getEventType(evt);
+        switch (type) {
             case 'RUN':
                 result = 'Бег'; break;
             case 'SK_RACE':
@@ -2027,22 +2034,22 @@ function buildEventType(evt, withFmt) {
             case 'SPECIAL':
                 result = 'Другой';
         }
-        if (!result && evt.type) {
-            if (evt.type.includes('CLUB')) {
+        if (!result && type) {
+            if (type.includes('CLUB')) {
                 result = 'Клуб';
-            } else if (evt.type.includes('WATER')) {
+            } else if (type.includes('WATER')) {
                 result = 'Водный рогейн';
-            } else if (evt.type.includes('SKI')) {
+            } else if (type.includes('SKI')) {
                 if (isRogaine(evt)) {
                     result = 'Лыжный рогейн';
                 } else {
                     result = 'Ориент лыж';
                 }
-            } else if (evt.type.includes('VELO')) {
+            } else if (type.includes('VELO')) {
                 result = 'Рогейн';
-            } else if (evt.type.includes('SPECIAL')) {
+            } else if (type.includes('SPECIAL')) {
                 result = 'Другой';
-            } else if (evt.type.includes('INDOOR')) {
+            } else if (type.includes('INDOOR')) {
                 result = 'В помещении';
             } else {
                 result = 'Рогейн, Ориент';

@@ -1679,9 +1679,7 @@ function buildEventDescription(e, withPlanner) {
 function buildEventPopup(evt, m) {
 
     let result = '<div class="popup-header popup-left-header">O-MAPS</div>';
-    if (evt.type) {
-        result += '<div class="popup-header popup-right-header">' + buildEventType(evt, false) + '</div>';
-    }
+    result += '<div class="popup-header popup-right-header">' + buildEventType(evt, false) + '</div>';
 
     // логотип
     const logo = logoList(evt);
@@ -1728,8 +1726,8 @@ function buildEventPopup(evt, m) {
     }
 
     // формат
-    if (evt.type && evt.fmt) {
-        info += (evt.type.includes('ROGAINE') ? 'Рогейн ' : '') + capitalize(evt.fmt) + '. ';
+    if (evt.fmt) {
+        info += (getEventType(evt).includes('ROGAINE') ? 'Рогейн ' : '') + capitalize(evt.fmt) + '. ';
     }
     if (evt.info) {
         info += evt.info;

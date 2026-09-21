@@ -32,7 +32,6 @@ let events2019 = [
         place: 'Шапки',
         name: 'Чемпионат и Первенство ЛО',
         start: 'LO_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190113lo/130119_split.html',
         split: 'splits/2019/SPB_20190113_1_split.html',
         o_site: '190113lo'
@@ -68,7 +67,6 @@ let events2019 = [
         name: 'Чемпионат и Первенство ЛО на лыжах',
         start: 'LO_CHAMP',
         place: 'Будогощь',
-        type: 'ORIENT',
         o_site: '190117-20LO',
     },
     {
@@ -90,7 +88,6 @@ let events2019 = [
         endDate: '2019-01-28',
         place: 'Будогощь, б/о Мечта',
         name: 'Чемп. и п-во СЗФО и ЦФО',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/8332',
         photo: 'http://vk.com/vkusnypirozhochek?z=album-176158928_260195803',
         o_site: '190124'
@@ -134,7 +131,6 @@ let events2019 = [
         place: 'Цвелодубово',
         name: 'Чемпионат и первенство СПб - лонг - общий старт',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=987',
         res: 'https://o-site.spb.ru/_races/190210/190210_rez.htm',
         split: 'splits/2019/SPB_20190210_1_split.htm',
@@ -160,7 +156,6 @@ let events2019 = [
         endDate: '2019-02-24',
         place: 'Кузьмоловский',
         name: 'Всеволожские вести',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/8532',
         res: 'https://o-site.spb.ru/_races/vvesti2019/190223_rez.htm',
         split: [
@@ -176,7 +171,6 @@ let events2019 = [
         date: '2019-02-24',
         place: 'Павловский парк',
         name: 'Весёлый ветер',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/registration/vv',
         res: 'https://o-site.spb.ru/_races/190224/190224_res.pdf',
         split: 'splits/2019/SPB_20190224_1_split.htm',
@@ -201,7 +195,6 @@ let events2019 = [
         place: 'Сестрорецкие Дюны',
         name: 'Кубок Белых Ночей. 8 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190302_split.htm',
         reskeep: 127
     },
@@ -211,7 +204,6 @@ let events2019 = [
         place: 'Кузьмоловский',
         name: 'Чемпионат и первенство СПб - спринт',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=989',
         res: 'https://o-site.spb.ru/_races/190303ch/190303_res.htm',
         split: 'splits/2019/SPB_20190303_1_split.htm',
@@ -245,7 +237,6 @@ let events2019 = [
         id: 'SPB_20190310_1',
         date: '2019-03-10',
         name: 'Кузьмоловский',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/8939',
         res: 'https://o-site.spb.ru/_races/190310kuz/190310_results_kuzm.htm',
         split: 'splits/2019/SPB_20190310_1_split.htm',
@@ -258,7 +249,6 @@ let events2019 = [
         place: 'Кузьмолововский',
         name: 'Чемпионат Санкт-Петербурга среди студентов ВУЗов',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=992',
         res: 'https://o-site.spb.ru/_races/190310/190310_off_team_rez.pdf',
         split: 'splits/2019/SPB_20190310_2_split.htm',
@@ -272,7 +262,6 @@ let events2019 = [
         place: 'Кавголово',
         name: 'Кубок Белых Ночей. 9 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190310_split.htm',
         reskeep: 126
     },
@@ -282,7 +271,6 @@ let events2019 = [
         place: 'Голубые дачи',
         name: 'Кубок Белых Ночей. 10 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190316_split.htm',
         reskeep: 125,
         map: 'orovo_2019'
@@ -292,7 +280,6 @@ let events2019 = [
         date: '2019-03-17',
         place: 'Сосновка',
         name: 'Тренировка FoxTeam',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=996',
         res: 'http://o-site.spb.ru/_races/190317/190317_res.htm',
         split: 'splits/2019/SPB_20190317_1_split.htm',
@@ -304,7 +291,6 @@ let events2019 = [
         date: '2019-04-07',
         place: 'ФМЛ №239 (ул Кирочная, 8)',
         name: 'Лабиринты разума',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=999',
         res: 'https://o-site.spb.ru/_races/190407_LR/190407_rezults.pdf',
         split: 'splits/2019/SPB_20190407_1_split.htm',
@@ -317,7 +303,6 @@ let events2019 = [
         place: 'Романовка',
         name: 'Всеволожская тропа 2019 – 1 этап',
         start: 'VSEVOLOZHSK_WAY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190407/190407_split.html',
         split: 'splits/2019/SPB_20190407_2_split.html',
         o_site: '190407',
@@ -330,7 +315,6 @@ let events2019 = [
         place: 'Луга',
         name: 'Новгородский меридиан',
         video: 'https://www.youtube.com/watch?v=gYhCgUkWCVg',
-        type: 'ORIENT',
         fmt: 'эстафета',
         start: 'LM'
     },
@@ -340,7 +324,6 @@ let events2019 = [
         place: 'Среднеохтинский пр',
         name: 'Sprint Tour 2019. 1 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 110,
         map: 'big_okhta_2017'
     },
@@ -362,7 +345,6 @@ let events2019 = [
         place: 'Зеленогорск, Щучье озеро',
         name: 'Кубок Белых Ночей. 11 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190413_split.htm',
         reskeep: 124,
         map: 'zelenogorsk_schuchye_2020'
@@ -373,7 +355,6 @@ let events2019 = [
         place: 'Воейково',
         name: 'Weekly Orient',
         start: 'WEEKLY_ORIENT',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1004',
         res: 'http://o-site.spb.ru/_races/190414/140419_res.htm',
         split: 'splits/2019/SPB_20190414_1_split.htm',
@@ -385,7 +366,6 @@ let events2019 = [
         place: 'Муринский парк',
         name: 'Sprint Tour 2019. 2 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 112,
     },
     {
@@ -394,7 +374,6 @@ let events2019 = [
         endDate: '2019-04-21',
         name: 'Сосновоборские Дюны',
         start: 'SOSNOVOBORSKY_DUNY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/19042021/190420_RES.htm',
         split: [
             'splits/2019/SPB_20190420_1_1_split.htm',
@@ -409,7 +388,6 @@ let events2019 = [
         date: '2019-04-21',
         place: 'Колпино',
         name: 'Первенство Колпино',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/9255',
         res: 'http://o-site.spb.ru/_races/190421/Rezultaty_Kolpino_2019.pdf',
         photo: 'http://vk.com/album-87193871_262759324',
@@ -421,7 +399,6 @@ let events2019 = [
         date: '2019-04-21',
         place: 'Павловск, сад Миранда',
         name: 'Спартакиада семейных команд Пушкинского р-на',
-        type: 'ORIENT',
         video: 'https://www.youtube.com/watch?v=AKCINghaDPE',
         map: 'pavlovsk_sad_miranda_2020',
     },
@@ -430,7 +407,6 @@ let events2019 = [
         date: '2019-04-24',
         place: 'ГБОУ СОШ №638, Павловск, ул Березовая, 13А',
         name: 'Спортивное ориентирование в школу',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190424/190424_res_lab.htm',
         photo: 'http://vk.com/album-51571395_262482823',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ООО "Фацер"',
@@ -444,7 +420,6 @@ let events2019 = [
         // endDate: '2019-05-05',
         place: 'Санкт-Петербург',
         name: 'Чемпионат России по Трейл-О',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190502/190501_rez_relay_v2.pdf',
         photo: 'http://vk.com/abcdefz_spb?z=album-179258987_261602241',
         info: 'С 26 апреля по 5 мая в Санкт-Петербурге состоится Чемпионат России по спорту лиц с поражениями ОДА в дисциплине спортивное ориентирование. Группы Para: МЖО1-О3; МЖО4-О6. А для открытых групп МЖ (2001 и старше) и МЖ до 18 (2002-2009) будет проведён Фестиваль трейл-ориентирования «ТрейлО Питер» и Открытый Кубок Федерации спортивного ориентирования Санкт-Петербурга по трейл-ориентированию.',
@@ -456,7 +431,6 @@ let events2019 = [
         place: 'Выборг',
         name: 'Выборгская тройка 2019. 1 день',
         start: 'VYBORGSKY_TROIKA',
-        type: 'ORIENT',
         reskeep: [116, 117],
     },
     {
@@ -464,7 +438,6 @@ let events2019 = [
         date: '2019-04-27',
         name: 'Царскосельский азимут',
         place: 'Баболовский парк',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1009',
         res: 'http://orgeo.ru/live/#/9491',
         split: 'splits/2019/SPB_20190427_1_split.htm',
@@ -479,7 +452,6 @@ let events2019 = [
         place: 'Выборг',
         name: 'Выборгская тройка',
         start: 'VYBORGSKY_TROIKA',
-        type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=4208',
         res: 'https://o-site.spb.ru/_races/190427_V3/190427_V3_sp_rez.htm',
         split: [
@@ -503,7 +475,6 @@ let events2019 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 14 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190428_split.htm',
         reskeep: 123,
         map: 'petjajarvy_2024'
@@ -515,7 +486,6 @@ let events2019 = [
         place: 'Кузьмолово',
         name: 'Чемпионат и Первенство ЛО',
         start: 'LO_CHAMP',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/9425',
         res: 'https://o-site.spb.ru/_races/190502lo/190501_split.html',
         split: [
@@ -530,7 +500,6 @@ let events2019 = [
         id: 'SPB_20190501_2',
         date: '2019-05-01',
         name: 'Летний Кубок СПб и ЛО',
-        type: 'ORIENT',
         info: 'Многоэтапные лично-командные соревнования по спортивному ориентированию «Кубок Санкт-Петербурга и Ленинградской области» проводятся Федерациями спортивного ориентирования Санкт-Петербурга и Ленинградской области с целью развития клубного движения и выявления сильнейших спортсменов-ориентировщиков и сильнейших клубов спортивного ориентирования СПб и ЛО. 1-й этап 01.05 Чемпионат и Первенство ЛО, спринт. Кузьмолово. Рейтинг. 2-й этап 19.05 Чемпионат и Первенство СПб, спринт. Калининский р-он СПб. Рейтинг. 3-й этап 02.06 Чемпионат и Первенство СПБ, лонг. Первомайское. Рейтинг. 4-й этап 15.09 Чемпионат и Первенство ЛО, лонг. Ягодное. Рейтинг. 5-й этап 22.09 Чемпионат и Первенство СПб, марафон/лонг-общий старт. Яппиля. Рейтинг. 6-й этап 29.09 Чемпионат и Первенство СПб, эстафета. Стеклянный. Рейтинг. 7-й этап 06.10 Чемпионат и Первенство СПб, классика. Кривко. Рейтинг.',
         o_site: 'SPb_LO_Cup_2019',
         // endDate: '2019-10-31'
@@ -561,7 +530,6 @@ let events2019 = [
         date: '2019-05-04',
         name: 'Первенство России',
         place: 'Великий Новгород',
-        type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/PR_Novgorod/day3/',
         split: [
             'splits/2019/SPB_20190504_1_1_split.htm',
@@ -577,7 +545,6 @@ let events2019 = [
         date: '2019-05-04',
         place: 'Кузьмолово',
         name: 'Яркий Кубок 2018/2019. 4 этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2019YC/190504_split.htm',
         reskeep: 121,
         start: 'YM_CUP'
@@ -587,7 +554,6 @@ let events2019 = [
         date: '2019-05-05',
         place: 'Елизаветино',
         name: 'Яркий Кубок 2018/2019. 5 этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2019YC/190505_split.htm',
         reskeep: 122,
         start: 'YM_CUP'
@@ -597,7 +563,6 @@ let events2019 = [
         date: '2019-05-07',
         place: 'школа-интернат №20, Песочная наб, 14Б',
         name: 'Спортивное ориентирование в школу, Петроградский район',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190507/190507_res_lab.pdf',
         photo: 'http://vk.com/fazer_russia?z=album-51571395_262786922',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ООО "Фацер"',
@@ -608,7 +573,6 @@ let events2019 = [
         date: '2019-05-09',
         place: 'Зеленогорск, Черные оз',
         name: 'Соревнования, посвященные Дню Победы',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1025',
         res: 'https://o-site.spb.ru/_races/190509/RES_090519.htm',
         split: 'splits/2019/SPB_20190509_1_split.htm',
@@ -636,7 +600,6 @@ let events2019 = [
         endDate: '2019-05-12',
         place: 'Луга',
         name: 'Первенство России и Майская многодневка',
-        type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/pr_luga/day1/',
         split: [
             'splits/2019/SPB_20190510_2_1_split.htm',
@@ -670,7 +633,6 @@ let events2019 = [
         date: '2019-05-12',
         place: 'Орехово',
         name: 'Соревнования Памяти друзей',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1026',
         res: 'https://o-site.spb.ru/_races/190512/AdultResult2.htm',
         split: [
@@ -686,7 +648,6 @@ let events2019 = [
         date: '2019-05-12',
         name: 'Соревнования памяти Ю.А.Березюка',
         place: 'Будогощь (Фанатский круг)',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/8700',
         info: '5-е традиционные соревнования памяти Ю.А. Березюка Кубок города Кириши по спортивному ориентированию Кубок Профкома ООО «ПО Киришинефтеоргсинтез»',
         o_site: '190512b',
@@ -697,7 +658,6 @@ let events2019 = [
         date: '2019-05-15',
         place: 'школа №312, Малая Балканская ул., 36-3',
         name: 'Спортивное ориентирование в школу, Фрунзенский район',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190515/190515_rez_lab.htm',
         photo: 'http://vk.com/fazer_russia?z=album-51571395_262992354',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ООО "Фацер"',
@@ -710,7 +670,6 @@ let events2019 = [
         date: '2019-05-15',
         place: 'пр Науки',
         name: 'RunLab - Sprint',
-        type: 'ORIENT',
         reskeep: 133,
     },
     {
@@ -718,7 +677,6 @@ let events2019 = [
         date: '2019-05-18',
         name: 'Российский Азимут ЛО',
         place: 'Юкки, Выборг',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1038',
         res: 'https://o-site.spb.ru/_races/190518_RA_LO/190518_ralo_rez.htm',
         split: 'splits/2019/SPB_20190518_1_split.htm',
@@ -733,7 +691,6 @@ let events2019 = [
         date: '2019-05-18',
         place: 'парк СПбПУ им.Петра Великого',
         name: 'Российский Азимут СПб',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1031',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/ra_spb/',
         split: 'splits/2019/SPB_20190518_2_split.htm',
@@ -776,7 +733,6 @@ let events2019 = [
         place: 'Лицей №150',
         name: 'ЧиП СПб, спринт',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190519/res.htm',
         split: 'splits/2019/SPB_20190519_1_split.htm',
         photo: 'http://vk.com/album-154221178_263179709',
@@ -791,7 +747,6 @@ let events2019 = [
         endDate: '2019-05-26',
         place: 'Кузнечное',
         name: 'Чемпионат России',
-        type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chr/day1/',
         split: [
             'splits/2019/SPB_20190524_1_1_split.htm',
@@ -880,7 +835,6 @@ let events2019 = [
         place: 'Гражданский пр',
         name: 'Sprint Tour 2019. 4 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 143,
     },
     {
@@ -889,7 +843,6 @@ let events2019 = [
         place: 'Симагино',
         name: 'Кубок Белых ночей. 13 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190601_split.htm',
         reskeep: 146
     },
@@ -899,7 +852,6 @@ let events2019 = [
         place: 'Первомайское',
         name: 'ЧиП СПб, лонг',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'http://www.northernwind.spb.ru/videosplit/2019/chspbs_long/',
         split: 'splits/2019/SPB_20190602_1_split.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_263545564',
@@ -913,7 +865,6 @@ let events2019 = [
         endDate: '2019-06-09',
         place: 'Луга',
         name: 'Невский Азимут 2019',
-        type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/190607/RES_070619.htm',
         split: [
@@ -934,7 +885,6 @@ let events2019 = [
         endDate: '2019-06-09',
         name: 'NWCamp',
         place: 'Выборг',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1022',
         res: 'https://o-site.spb.ru/_races/190408-09/20190608_day_rez.htm',
         split: [
@@ -951,7 +901,6 @@ let events2019 = [
         endDate: '2019-06-16',
         name: 'ККП, УТС',
         place: 'Каменогорск',
-        type: 'ORIENT',
         start: 'KKP',
         o_site: '190616-21_KKP',
         split: [
@@ -988,7 +937,6 @@ let events2019 = [
         endDate: '2019-06-16',
         place: 'Луга',
         name: 'Спортивный фестиваль «Яркий Мир» (11-16 июня (основная программа 13-16 июня))',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/19061116/19061315L_res.zip',
         split: [
             'splits/2019/SPB_20190611_2_1_split.htm',
@@ -1007,7 +955,6 @@ let events2019 = [
         date: '2019-06-12',
         place: 'Луга',
         name: 'Яркий Кубок 2018/2019. 6 этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2019YC/190612_split.htm',
         reskeep: 166,
         start: 'YM_CUP'
@@ -1018,7 +965,6 @@ let events2019 = [
         endDate: '2019-06-20',
         name: 'Кубок Карельского Перешейка',
         place: 'Каменогорск',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190616-21_KKP/20190617_kkp_1_rez.htm',
         split: [
             'splits/2019/SPB_20190617_1_1_split.htm',
@@ -1034,7 +980,6 @@ let events2019 = [
         date: '2019-06-17',
         name: 'ККП #1',
         place: 'Каменогорск',
-        type: 'ORIENT',
         start: 'KKP',
         o_site: '190616-21_KKP',
         split: [
@@ -1050,7 +995,6 @@ let events2019 = [
         date: '2019-06-18',
         name: 'ККП #2',
         place: 'Каменогорск',
-        type: 'ORIENT',
         start: 'KKP',
         o_site: '190616-21_KKP',
         split: [
@@ -1075,7 +1019,6 @@ let events2019 = [
         date: '2019-06-19',
         name: 'ККП #3',
         place: 'Каменогорск',
-        type: 'ORIENT',
         start: 'KKP',
         o_site: '190616-21_KKP',
         split: [
@@ -1098,7 +1041,6 @@ let events2019 = [
         date: '2019-06-20',
         name: 'ККП #4',
         place: 'Каменогорск',
-        type: 'ORIENT',
         start: 'KKP',
         o_site: '190616-21_KKP',
         split: [
@@ -1121,7 +1063,6 @@ let events2019 = [
         date: '2019-06-20',
         name: 'Первенство ВУЗов МО РФ',
         place: 'Юкки',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190618-20VO/19061819_res_summ.pdf',
         split: [
             'splits/2019/SPB_20190620_1_1_split.htm',
@@ -1136,7 +1077,6 @@ let events2019 = [
         endDate: '2019-06-23',
         place: 'Сосново',
         name: 'XXVII Мемориал М.Святкина',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/9132',
         res: 'https://o-site.spb.ru/_races/190623MMS/res1.htm',
         split: [
@@ -1169,7 +1109,6 @@ let events2019 = [
         endDate: '2019-06-26',
         name: 'Праздник эстафет',
         place: 'Сосново',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1010',
         res: 'http://orgeo.ru/live/#/10004/2',
         photo: 'http://vk.com/album-9087078_264070934',
@@ -1181,7 +1120,6 @@ let events2019 = [
         endDate: '2019-06-30',
         place: 'Сосново',
         name: 'Неделя ориентирования «Белые Ночи»',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1027',
         res: 'https://o-site.spb.ru/_races/190628/res1.htm',
         split: [
@@ -1228,7 +1166,6 @@ let events2019 = [
         place: 'Барышево',
         name: 'Кубок Белых Ночей 2018/19, 14-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190706_split.htm',
         o_site: '201819_BN'
     },
@@ -1238,7 +1175,6 @@ let events2019 = [
         place: 'Смоляное озеро',
         name: 'Кубок Белых Ночей 2018/19, 15-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190707_split.htm',
         o_site: '201819_BN'
     },
@@ -1261,7 +1197,6 @@ let events2019 = [
         place: 'Комарово-Репино',
         name: 'Тренировочный старт Перспектива',
         start: 'PERSPEKTIVA',
-        type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1053',
         res: 'http://o-site.spb.ru/_races/190714/190714_res.htm',
         split: 'splits/2019/SPB_20190714_1_split.htm',
@@ -1282,7 +1217,6 @@ let events2019 = [
         date: '2019-07-21',
         place: 'Орехово',
         name: 'Яркий Кубок 2018/2019. 7 этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2019YC/190721_split.htm',
         reskeep: 184,
         map: 'orekhovo_rakitinskoe_2004',
@@ -1294,7 +1228,6 @@ let events2019 = [
         place: 'Воробьево оз',
         name: 'Кубок Белых Ночей. 16 этап',
         start: 'KBN',
-        type: 'ORIENT',
         reskeep: 182,
         map: 'vorobjevo_2024'
     },
@@ -1316,7 +1249,6 @@ let events2019 = [
         place: 'Воробьево оз',
         name: 'Кубок Белых Ночей. 17 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190728_split.htm',
         reskeep: 183,
         map: 'vorobjevo_2024'
@@ -1327,7 +1259,6 @@ let events2019 = [
         endDate: '2019-08-05',
         place: 'Поляны, ДОЛ Университетский, ДОЛ Волна',
         name: 'Фестиваль 60-летия спортивного ориентирования в России',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/19080105/res1.htm',
         split: [
             'splits/2019/SPB_20190801_1_1_split.htm',
@@ -1348,7 +1279,6 @@ let events2019 = [
         date: '2019-08-04',
         place: 'Линдуловская роща',
         name: 'Ретро-старт',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1057',
         res: 'https://o-site.spb.ru/_races/190804/Wbefore60.pdf',
         info: '4 августа в районе Линдуловской рощи (Выборгский р-н, Ленобласть), где в далёком 1959-м году прошли самые первые официальные соревнования по ориентированию, пройдёт настоящий ретро-старт – по адаптированной чёрно-белой карте старого формата рисовки и с отметкой карандашом в карточке! Всё как в старые добрые времена!',
@@ -1374,7 +1304,6 @@ let events2019 = [
         date: '2019-08-10',
         place: 'Петроградка',
         name: 'Sprint Camp 2019. 1 день. Утро',
-        type: 'ORIENT',
         reskeep: [185, 186],
         start: 'ST',
         map: 'petrogradskaya_2016'
@@ -1384,7 +1313,6 @@ let events2019 = [
         date: '2019-08-11',
         place: 'Петроградка',
         name: 'Sprint Camp 2019. 2 день',
-        type: 'ORIENT',
         reskeep: 187,
         start: 'ST',
         map: 'petrogradskaya_2016'
@@ -1395,7 +1323,6 @@ let events2019 = [
         place: 'Осельки',
         name: 'Кубок Белых Ночей. 18 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190811_split.htm',
         reskeep: 191,
         map: 'oselki_2015'
@@ -1405,7 +1332,6 @@ let events2019 = [
         date: '2019-08-17',
         place: 'Кузнечное',
         name: 'Яркий Кубок 2018/2019. 8 этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2019YC/190817_split.htm',
         reskeep: 188,
         start: 'YM_CUP'
@@ -1415,7 +1341,6 @@ let events2019 = [
         date: '2019-08-18',
         place: 'Кузнечное',
         name: 'Яркий Кубок 2019/2020. 1 этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2019YC/190818_split.htm',
         reskeep: 189,
         start: 'YM_CUP'
@@ -1425,7 +1350,6 @@ let events2019 = [
         date: '2019-08-24',
         place: 'Лемболово',
         name: 'Зелёный Змей',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190824/190824_split.htm',
         split: 'splits/2019/SPB_20190824_1_split.htm',
         start: 'GS',
@@ -1438,7 +1362,6 @@ let events2019 = [
         date: '2019-08-25',
         place: 'Токсово, Малиновая гора',
         name: 'Традиционный старт Памяти Димы Фатидинова',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1065',
         res: 'https://o-site.spb.ru/_races/190825_PPDF/190825_PPD_rez.htm',
         o_site: '190825_PPDF',
@@ -1474,7 +1397,6 @@ let events2019 = [
         date: '2019-09-01',
         name: 'Кубок Белых Ночей - 2018/19',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/201819_BN/190901_split.htm',
         o_site: '201819_BN',
         reskeep: 192,
@@ -1485,7 +1407,6 @@ let events2019 = [
         date: '2019-09-01',
         place: 'Всеволожск, Румболовский парк',
         name: 'Чемпионат и Первенство Всеволожского района',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190901/190901_split.htm',
         split: 'splits/2019/SPB_20190901_2_split.htm',
         owner: 'SFSO_LO',
@@ -1508,7 +1429,6 @@ let events2019 = [
         date: '2019-09-01',
         place: 'Румболовка',
         name: 'Яркий Кубок 2019/2020, 2-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2019YC/190901_split.htm',
         o_site: '2019YC',
         start: 'YM_CUP'
@@ -1519,7 +1439,6 @@ let events2019 = [
         endDate: '2019-09-08',
         name: 'Чемпионат России',
         place: 'Архангельск',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190905arkh/res1.htm',
         split: [
             'splits/2019/SPB_20190904_1_1_split.htm',
@@ -1536,7 +1455,6 @@ let events2019 = [
         name: 'Кузьмоловские старты, 1-й этап',
         start: 'KUZMOLOVSKY_STARTS',
         place: 'Кузьмолово',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190905/190905_split.html',
         o_site: '190905',
         reskeep: 193
@@ -1547,7 +1465,6 @@ let events2019 = [
         place: 'Токсово, Малиновая гора',
         name: 'МаТрешка 2019. 1 этап',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/1909-12/190907_spl.htm',
         reskeep: 200,
         map: 'toksovo_malinovaya_gora_2018'
@@ -1557,7 +1474,6 @@ let events2019 = [
         date: '2019-09-08',
         place: 'Симагино',
         name: 'Классика Белых Ночей',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190908/190908_res_absolut.pdf',
         split: 'splits/2019/SPB_20190908_1_split.htm',
         info: '10-е традиционные соревнования на призы компании "Триколор", проводимые клубом "Белые Ночи"",',
@@ -1571,7 +1487,6 @@ let events2019 = [
         place: 'Учительская ул',
         name: 'Sprint Tour SPb - осень 2019. 1 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 195
     },
     {
@@ -1579,7 +1494,6 @@ let events2019 = [
         date: '2019-09-12',
         name: 'Кузьмоловские старты, 2-й этап',
         start: 'KUZMOLOVSKY_STARTS',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190905/190912_split.htm',
         o_site: '190905',
         reskeep: 213
@@ -1591,7 +1505,6 @@ let events2019 = [
         name: 'Чемпионат и Первенство Ленинградской области',
         start: 'LO_CHAMP',
         place: 'Ягодное',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/19091415/19091415_official.zip',
         split: [
             'splits/2019/SPB_20190914_1_1_split.htm',
@@ -1617,7 +1530,6 @@ let events2019 = [
         date: '2019-09-18',
         place: 'Лицей №384, пр Стачек, 5,А',
         name: 'Спортивное ориентирование в школу, Кировский район',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/190918/190918_res_lab.htm',
         photo: 'http://vk.com/fazer_russia?w=wall-51571395_7352',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
@@ -1630,7 +1542,6 @@ let events2019 = [
         date: '2019-09-19',
         name: 'Кузьмоловские старты, 3-й этап',
         start: 'KUZMOLOVSKY_STARTS',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190905/190919_res.html',
         o_site: '190905',
         reskeep: 217
@@ -1653,7 +1564,6 @@ let events2019 = [
         name: 'ЧиП СПб (спорт глухих)',
         start: 'SPB_CHAMP',
         place: 'Пухтолова гора',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190928_21/190921_res.htm',
         split: [
             'splits/2019/SPB_20190921_2_1_split.htm',
@@ -1670,7 +1580,6 @@ let events2019 = [
         place: 'Охта-парк',
         name: 'МаТрешка 2019. 2 этап',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/1909-12/190922_split_MT.htm',
         reskeep: 201,
     },
@@ -1680,7 +1589,6 @@ let events2019 = [
         place: 'Яппиля',
         name: 'ЧиП СПб, марафон',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1071',
         res: 'https://o-site.spb.ru/_races/190922/res.htm',
         split: 'splits/2019/SPB_20190922_1_split.htm',
@@ -1693,7 +1601,6 @@ let events2019 = [
         place: 'ул Карпинского',
         name: 'Sprint Tour SPb - осень 2019. 2 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 196
     },
     {
@@ -1702,7 +1609,6 @@ let events2019 = [
         name: 'Кузьмоловские старты, 4-й этап',
         start: 'KUZMOLOVSKY_STARTS',
         place: 'Осельки',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190905/190926_res.html',
         o_site: '190905',
         reskeep: 218
@@ -1713,7 +1619,6 @@ let events2019 = [
         endDate: '2019-09-29',
         name: 'Старты в Зеркальном',
         place: 'Зеркальный',
-        type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1085',
         res: ['https://o-site.spb.ru/_races/190926-30/190927_SPLIT.htm','https://o-site.spb.ru/_races/190927-30/190927_SPLIT.htm','https://o-site.spb.ru/_races/190926-30/190929_SPLIT.htm'],
         split: [
@@ -1729,7 +1634,6 @@ let events2019 = [
         date: '2019-09-28',
         place: 'Лемболово',
         name: 'Золотые кольца (Свадебные)',
-        type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1083',
         res: 'https://o-site.spb.ru/_races/190928_ZK/Kom_280919.pdf',
         split: 'splits/2019/SPB_20190928_1_split.htm',
@@ -1744,7 +1648,6 @@ let events2019 = [
         place: 'Пухтола-гора',
         name: 'Цикл тренировочных стартов МаТрёшка',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1089',
         res: 'https://o-site.spb.ru/_races/1909-12/190928_MT_split.htm',
         o_site: '1909-12',
@@ -1757,7 +1660,6 @@ let events2019 = [
         place: 'Васкелово',
         name: 'Кубок Белых ночей. 1 этап',
         start: 'KBN',
-        type: 'ORIENT',
         reskeep: 222
     },
     {
@@ -1787,7 +1689,6 @@ let events2019 = [
         name: 'ЧиП СПб, эстафета 3х',
         start: 'SPB_CHAMP',
         place: 'Силанде',
-        type: 'ORIENT',
         res: 'http://northernwind.spb.ru/videosplit/2019/chspbs_relay/',
         split: 'splits/2019/SPB_20190929_3_split.htm',
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_relay/',
@@ -1800,7 +1701,6 @@ let events2019 = [
         name: 'Кузьмоловские старты, 5-й этап',
         start: 'KUZMOLOVSKY_STARTS',
         place: 'Кавголово',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/190905/191003_res.htm',
         o_site: '190905',
         reskeep: 219
@@ -1810,7 +1710,6 @@ let events2019 = [
         date: '2019-10-04',
         place: 'Школа № 17, Куракина дача',
         name: 'Открытое первенство по трейл-ориентированию',
-        type: 'ORIENT',
         info: 'Открытое Первенство среди обучающихся школьных спортивных клубов образовательных учреждений Санкт-Петербурга.',
         o_site: '191004',
         map: 'kurakina_dacha_2017'
@@ -1819,7 +1718,6 @@ let events2019 = [
         id: 'SPB_20191005_1',
         date: '2019-10-05',
         name: 'Городское ориентирование в Выборгском р-не',
-        type: 'ORIENT',
         info: '"ЦФК и З Выборгского района" приглашает 5 октября поучаствовать в традиционном спортивно-массовом мероприятии «Городское ориентирование» по паркам и кварталам Выборгского р-на. Дистанция включает в себя - ориентирование, фото-ориентирование, вопросы квеста.',
         owner: 'VYBORG',
         o_site: '191005'
@@ -1844,7 +1742,6 @@ let events2019 = [
         place: 'Черные озера',
         name: 'Кубок Белых Ночей 2019/20, 2-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191005_split.htm',
         o_site: '2020BN',
         reskeep: 283
@@ -1855,7 +1752,6 @@ let events2019 = [
         place: 'Кривко',
         name: 'Чемпионат и Первенство СПб - классика',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1093',
         res: 'https://o-site.spb.ru/_races/191006/061019_rez.htm',
         video: 'http://northernwind.spb.ru/videosplit/2019/chspbs_middle',
@@ -1868,7 +1764,6 @@ let events2019 = [
         date: '2019-10-09',
         place: 'школа-интернат №33',
         name: 'Спортивное ориентирование в школу, спецэтап',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191009/191009_res_lab.htm',
         photo: 'http://vk.com/album-51571395_267232324',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ООО "Фацер"',
@@ -1880,7 +1775,6 @@ let events2019 = [
         place: 'Озерки',
         name: 'Sprint Tour SPb - осень 2019. 3 этап. MassSprint',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 197
     },
     {
@@ -1888,7 +1782,6 @@ let events2019 = [
         date: '2019-10-11',
         place: 'Токсово, база Динамо',
         name: 'Старт памяти одноклубника Коли Иванова',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1099',
         res: 'https://o-site.spb.ru/_races/191011_PPK/191011_PPK_rez.htm',
         split: 'splits/2019/SPB_20191011_1_split.htm',
@@ -1899,7 +1792,6 @@ let events2019 = [
         date: '2019-10-12',
         place: 'Яппиля, оз Комонь',
         name: '48-е ночные соревнования по ориентированию памяти А.Окинчица',
-        type: 'ORIENT',
         res: 'http://touristclub.ru/wp-content/uploads/2019/10/results_okin_2019-ispr.htm',
         split: 'splits/2019/SPB_20191012_1_split.htm',
         info: 'Сайт соревнований: http://touristclub.ru/okinchits/',
@@ -1911,7 +1803,6 @@ let events2019 = [
         date: '2019-10-12',
         name: 'Петербургская осень',
         place: 'Болотная станция',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191012_/Res_PetOs.htm',
         split: 'splits/2019/SPB_20191012_2_split.htm',
         info: 'Соревнования проводятся после окончания Чемпионата СПб среди ВУЗов в том же районе.',
@@ -1936,7 +1827,6 @@ let events2019 = [
         name: 'Чемпионат СПб по ориентированию среди ВУЗов',
         start: 'SPB_CHAMP',
         place: 'Болотная станция',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191012_1/Stud_Res.pdf',
         o_site: '191012_1',
         reskeep: 274
@@ -1957,7 +1847,6 @@ let events2019 = [
         place: 'снт Дюны, Сестрорецк',
         name: 'Чемпионат и Первенство Санкт-Петербурга - эстафета - 2 человека',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191013/res.htm',
         split: 'splits/2019/SPB_20191013_1_split.htm',
         info: 'Организаторы: Комитет по физической культуре и спорту Санкт-Петербурга. СПб ГАУ «Центр подготовки спортивных сборных команд Санкт-Петербурга» РФСОО «Спортивная Федерация спортивного ориентирования Санкт-Петербурга» Санаторий "Дюны"',
@@ -1968,7 +1857,6 @@ let events2019 = [
         id: 'SPB_20191016_1',
         date: '2019-10-16',
         name: 'Спортивное ориентирование в школу, Выборгский район',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191016/10017_rez_lab.htm',
         photo: 'http://vk.com/album-51571395_267559882',
         info: 'Награждение за этап пройдёт 13 ноября в 18:00 в актовом зале Дворца детского и юношеского творчества Выборгского района (ул. Сантьяго-де Куба, д. 4 корп.2) Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ООО "Фацер"',
@@ -1981,7 +1869,6 @@ let events2019 = [
         endDate: '2019-10-20',
         place: 'Кировские дачи',
         name: 'Золотая осень',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191019-20/res1.htm',
         owner: 'VYBORG',
         o_site: '191019-20',
@@ -1993,7 +1880,6 @@ let events2019 = [
         place: 'Ильичево',
         name: 'Кубок Белых Ночей 2019/20, 3-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191019_split.htm',
         o_site: '2020BN',
         reskeep: 310
@@ -2003,7 +1889,6 @@ let events2019 = [
         date: '2019-10-20',
         name: 'Соревнования памяти Зои Викторовны Пятаковой',
         place: 'Сестрорецкие Дюны',
-        type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1102',
         res: 'https://o-site.spb.ru/_races/191020/191020_SPLIT.htm',
         split: 'splits/2019/SPB_20191020_1_split.htm',
@@ -2014,7 +1899,6 @@ let events2019 = [
         date: '2019-10-20',
         name: 'Спартакиада СПб среди кадетов',
         place: 'Сестрорецкие Дюны',
-        type: 'ORIENT',
         o_site: '191020_VO'
     },
     {
@@ -2022,7 +1906,6 @@ let events2019 = [
         date: '2019-10-23',
         place: 'Лицей №150, Светлановский пр, 38-2',
         name: 'Спортивное ориентирование в школу, Калининский район',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191023/191023_rez_lab.htm',
         photo: 'http://vk.com/album-51571395_267646737',
         info: 'Награждение за этап пройдёт 13 ноября в 18:00 в актовом зале Дворца детского и юношеского творчества Выборгского района (ул. Сантьяго-де Куба, д. 4 корп.2) Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ООО "Фацер"',
@@ -2037,7 +1920,6 @@ let events2019 = [
         place: 'м Лесная',
         name: 'Sprint Tour SPb - осень 2019. 4 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 198
     },
     {
@@ -2057,7 +1939,6 @@ let events2019 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2019/20, 4-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191026_split.htm',
         o_site: '2020BN',
         reskeep: 282
@@ -2067,7 +1948,6 @@ let events2019 = [
         date: '2019-10-27',
         name: 'Яркий Кубок 2019',
         place: 'Гарболово',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2019YC/191027_split.htm',
         o_site: '2019YC',
         reskeep: 281,
@@ -2079,7 +1959,6 @@ let events2019 = [
         place: 'ул Рубинштейна',
         name: 'Sprint Tour SPb - осень 2019. 5 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 199,
         map: '5_uglov_2015'
     },
@@ -2089,7 +1968,6 @@ let events2019 = [
         place: 'Пухтолова гора',
         name: 'Кубок Белых Ночей 2019/20, 5-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191102_split.htm',
         o_site: '2020BN',
         reskeep: 284
@@ -2112,7 +1990,6 @@ let events2019 = [
         place: 'Первомайское',
         name: 'Кубок Белых Ночей 2019/20, 6-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191103_split.htm',
         o_site: '2020BN',
         reskeep: 285
@@ -2122,7 +1999,6 @@ let events2019 = [
         date: '2019-11-04',
         place: 'Цвелодубово',
         name: 'Осенний марафон',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191004_OM/RES_OM_1.htm',
         split: 'splits/2019/SPB_20191104_1_split.htm',
         info: 'Традиционные праздничные соревнования КСО "Азимут"',
@@ -2136,7 +2012,6 @@ let events2019 = [
         date: '2019-11-09',
         place: 'Сосновка',
         name: 'Открытая тренировка по трейл-ориентированию',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/191109tr/protokol_191109.pdf',
         info: 'Мероприятие проводится с целью развития трейл-ориентирования и подготовки спортсменов к международным и всероссийским соревнованиям. Организаторы: комиссия по трейл-ориентированию Федерации спортивного ориентирования Санкт-Петербурга, туристско-спортивный клуб «31 КП», клуб «Азимут».',
         o_site: '191109tr',
@@ -2147,7 +2022,6 @@ let events2019 = [
         date: '2019-11-09',
         name: 'Памяти 7 ноября',
         place: 'Бернгардовка',
-        type: 'ORIENT',
         reg: 'http://sport-orient.ru/products/sorevnovaniya-po-sportivnomu-orientirovaniyu/pamyati-7-noyabrya-2019',
         res: 'https://o-site.spb.ru/_races/191109/191109_res.htm',
         split: 'splits/2019/SPB_20191109_2_split.htm',
@@ -2169,7 +2043,6 @@ let events2019 = [
         date: '2019-11-10',
         name: 'Маркир 110%',
         place: 'Токсово',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191110_markir/191110_110_rez.htm',
         start: 'ROGAINE_110',
         o_site: '191110_markir',
@@ -2180,7 +2053,6 @@ let events2019 = [
         date: '2019-11-10',
         place: 'Саблино, Ульяновка',
         name: 'По Саблинским тропам Козьмы',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1109',
         res: 'http://orgeo.ru/live/#/11152',
         split: 'splits/2019/SPB_20191110_2_split.htm',
@@ -2204,7 +2076,6 @@ let events2019 = [
         endDate: '2019-11-17',
         place: 'Токсово',
         name: '50-лет спортивному ориентированию ЛО',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/10901',
         res: 'https://o-site.spb.ru/_races/191116/191116_rez.htm',
         split: [
@@ -2220,7 +2091,6 @@ let events2019 = [
         place: 'Воейково',
         name: 'Кубок Белых Ночей 2019/20, 7-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191123_split.htm',
         o_site: '2020BN',
         reskeep: 308
@@ -2230,7 +2100,6 @@ let events2019 = [
         date: '2019-11-24',
         place: 'Актовый зал ДДЮТ Выборгского р-на, ул Сантьяго-де Куба, 4-2',
         name: 'Вечер встречи ориентировщиков',
-        type: 'ORIENT',
         info: 'Традиционный вечер встречи по итогам летнего сезона 2019. Организатор: Федерация спортивного ориентирования Санкт-Петербурга Проходит при поддержке: Компании RedFox Сети магазинов «Спортивная Линия» Экипировочного центра «ОХТА» Экипировочного центра «Mass Sport» SIGN SPORT Russia В программе: Награждение (дипломами, в соответствии с официальными протоколами) за летний Чемпионат и Первенство СПб 2019 (велосипедные дисциплины), Награждение (дипломами, в соответствии с официальными протоколами) за летний Чемпионат и Первенство СПб 2019 (кроссовые дисциплины), Награждение по итогам летнего Кубка СПб и ЛО 2019 в личном, клубном зачётах и Малых кубках, Место проведения: Актовый зал ДДЮТ Выборгского района, ул. Сантьяго-де Куба, д. 4 корп.2 Начало вечера: в 17:00 Все пришедшие на вечер участники награждения и гости смогут принять участие в лотерее, в которой будут разыграны призы от СФСО СПб. Внимание! Наличие сменной обуви ОБЯЗАТЕЛЬНО!',
         o_site: '191124'
     },
@@ -2238,7 +2107,6 @@ let events2019 = [
         id: 'SPB_20191124_2',
         date: '2019-11-24',
         name: 'Спортивный праздник посвященный Дню матери',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/192410/191124_rez.htm',
         split: 'splits/2019/SPB_20191124_2_split.htm',
         photo: 'http://cloud.mail.ru/public/Ktox/1mEiLiJFQ',
@@ -2250,7 +2118,6 @@ let events2019 = [
         place: 'Лемболово',
         name: 'Цикл тренировочных стартов «МаТрёшка-2019»',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1111',
         res: 'https://o-site.spb.ru/_races/191124_MaTreshka/191124_MT_rez.htm',
         split: 'splits/2019/SPB_20191124_3_split.htm',
@@ -2264,7 +2131,6 @@ let events2019 = [
         date: '2019-11-30',
         place: 'Сосновка',
         name: 'Ориентир НатАлка',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1116',
         res: 'https://o-site.spb.ru/_races/191130_NatAlka/Split_191130.htm',
         info: 'Традиционный тренировочный старт, проводимый КСО "Азимут"',
@@ -2279,7 +2145,6 @@ let events2019 = [
         date: '2019-12-01',
         name: 'Открытая тренировка Маркир «69-й километр»',
         place: '69км',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1115',
         res: 'https://o-site.spb.ru/_races/191201tr/191201_res.htm',
         split: 'splits/2019/SPB_20191201_1_split.htm',
@@ -2290,7 +2155,6 @@ let events2019 = [
         date: '2019-12-01',
         name: 'Открытое Первенство Кировского района ЛО',
         place: 'Шлиссельбург',
-        type: 'ORIENT',
         reg: 'http://sport-orient.ru/products/uncategorized/gorodskoj-sprint-shlisselburg',
         res: 'https://o-site.spb.ru/_races/191201gs/191201_res.htm',
         split: 'splits/2019/SPB_20191201_2_split.htm',
@@ -2303,7 +2167,6 @@ let events2019 = [
         place: 'Болотная станция',
         name: 'Кубок Белых Ночей 2019/20, 8-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191207_split.htm',
         o_site: '2020BN',
         reskeep: 309
@@ -2314,7 +2177,6 @@ let events2019 = [
         name: 'Всеволожская тропа (2 этап)',
         start: 'VSEVOLOZHSK_WAY',
         place: 'Токсово',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/11317',
         res: 'https://o-site.spb.ru/_races/191208/191208_res.html',
         split: 'splits/2019/SPB_20191208_1_split.html',
@@ -2326,7 +2188,6 @@ let events2019 = [
         date: '2019-12-14',
         name: 'Открытая тренировка по трейл-О',
         place: 'Сестрорецк, сквер Пограничников',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191214_trail/Result.pdf',
         info: '14 декабря в Сквере Пограничников (Сестрорецк) состоится открытая тренировка по трейл-ориентированию.',
         o_site: '191214_trail'
@@ -2337,7 +2198,6 @@ let events2019 = [
         name: 'Кубок Белых ночей',
         start: 'KBN',
         place: 'Орово',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/191214_split.htm',
         strava: 2932167797,
         reskeep: 291
@@ -2348,7 +2208,6 @@ let events2019 = [
         place: 'Пушкин, Отдельный парк',
         name: 'Снежная Тропа, 2-й этап',
         start: 'SNOW_WAY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/191215/res1.htm',
         o_site: '191215',
         reskeep: 290,
@@ -2360,7 +2219,6 @@ let events2019 = [
         date: '2019-12-22',
         place: 'Кавголово',
         name: 'Приз Деда Мороза',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1121',
         res: 'https://o-site.spb.ru/_races/191222_bn/191222_res1.htm',
         split: 'splits/2019/SPB_20191222_1_split.htm',
@@ -2374,7 +2232,6 @@ let events2019 = [
         date: '2019-12-29',
         name: 'Новогодний Маркир',
         place: 'Сосново',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1122',
         res: 'http://markir.spb.ru/results/191229_res.htm',
         split: 'splits/2019/SPB_20191229_1_split.htm',
@@ -2387,7 +2244,6 @@ let events2019 = [
         date: '2019-12-29',
         name: 'Новогодний ориентир',
         place: 'Сосново',
-        type: 'ORIENT',
         reg: 'http://reg.o-time.ru/start.php?event=19236',
         res: 'http://reg.o-time.ru/result/19236.htm',
         photo: 'http://vk.com/im?peers=6458237_1999448&sel=45910846&z=album-134105684_267848134',
@@ -2400,7 +2256,6 @@ let events2019 = [
         date: '2019-12-31',
         place: 'Сосновка',
         name: 'Тренировка FoxTeam',
-        type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1123',
         res: 'http://o-site.spb.ru/_races/191231/191231_res.htm',
         split: 'splits/2019/SPB_20191231_1_split.htm',

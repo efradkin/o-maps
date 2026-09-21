@@ -3250,7 +3250,6 @@ let eventsEarly = [
         endDate: '2002-06-25',
         place: 'Богатыри',
         name: 'Карельские скалы',
-        type: 'ORIENT',
         start: 'KS',
         map: ['ks_2002_06_24','ks_2002_06_25']
     },
@@ -3310,7 +3309,6 @@ let eventsEarly = [
         endDate: '2003-06-26',
         place: 'Каменногорск, Боровинка',
         name: 'Карельские скалы',
-        type: 'ORIENT',
         start: 'KS',
         map: ['ks_2003_06_24','ks_2003_06_25','ks_2003_06_26']
     },
@@ -3320,7 +3318,6 @@ let eventsEarly = [
         endDate: '2003-06-29',
         place: 'Каменногорск',
         name: 'Мемориал Михаила Святкина',
-        type: 'ORIENT',
         start: 'MMS',
         map: ['mms_2003_06_27','mms_2003_06_28','mms_2003_06_29']
     },

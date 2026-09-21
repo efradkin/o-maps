@@ -15,7 +15,6 @@ let events2020 = [
         endDate: '2020-01-08',
         place: 'Мичуринское, ДОЛ Мечта',
         name: 'Рождественские старты-2020',
-        type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=4432',
         res: 'https://o-site.spb.ru/_races/200107-08/200107_res.htm',
         owner: 'NW',
@@ -40,7 +39,6 @@ let events2020 = [
         name: 'Чемпионат и Первенство Ленинградской области',
         start: 'LO_CHAMP',
         place: 'Шапки',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/11640',
         res: 'https://o-site.spb.ru/_races/200112_lo/200112_res.htm',
         o_site: '200112_lo'
@@ -51,7 +49,6 @@ let events2020 = [
         place: 'Охта-парк',
         name: 'Кубок Белых Ночей. 10 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/200118_split.htm',
         reskeep: 299,
         strava: 3022109211,
@@ -75,7 +72,6 @@ let events2020 = [
         place: 'Токсово, Малиновая Гора',
         name: 'МаТрёшка-2020',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1124',
         res: 'https://o-site.spb.ru/_races/200119_MT/200119_rez.htm',
         split: 'splits/2020/SPB_20200119_2_split.htm',
@@ -90,7 +86,6 @@ let events2020 = [
         name: 'Чемпионат и Первенство Ленинградской области',
         start: 'LO_CHAMP',
         place: 'Будогощь',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/11719',
         o_site: '200119_lo'
     },
@@ -100,7 +95,6 @@ let events2020 = [
         place: 'Сестрорецкие Дюны',
         name: 'Кубок Белых Ночей. 11 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/200125_split.htm',
         reskeep: 307
     },
@@ -109,7 +103,6 @@ let events2020 = [
         date: '2020-01-26',
         name: 'Веселый ветер',
         place: 'Павловск',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1126',
         res: 'http://orgeo.ru/live/#/11853',
         video: 'https://www.youtube.com/watch?v=T8iwv22Ew-I',
@@ -140,7 +133,6 @@ let events2020 = [
         place: 'Кавголово',
         name: 'Кубок Белых Ночей. 12 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/200201_split.htm',
         reskeep: 306,
         strava: 3062434549
@@ -162,7 +154,6 @@ let events2020 = [
         date: '2020-02-02',
         place: 'Кузьмолово',
         name: 'Открытая тренировка NordWest',
-        type: 'ORIENT',
         reskeep: 312
     },
     {
@@ -210,7 +201,6 @@ let events2020 = [
         endDate: '2020-02-23',
         name: 'Зимняя смена в ЗЦ Зеркальный',
         place: 'Зеркальный',
-        type: 'ORIENT',
         res: ['https://o-site.spb.ru/_races/200213-23/200215_split.htm','https://o-site.spb.ru/_races/200213-23/200216_split.htm','https://o-site.spb.ru/_races/200213-23/200220_split.htm','https://o-site.spb.ru/_races/200213-23/200222_split.htm'],
         split: [
             'splits/2020/SPB_20200223_1_1_split.htm',
@@ -224,7 +214,6 @@ let events2020 = [
         id: 'SPB_20200214_1',
         date: '2020-02-14',
         name: 'Охта-Лабиринт',
-        type: 'ORIENT',
         o_site: '200214'
     },
     {
@@ -232,7 +221,6 @@ let events2020 = [
         date: '2020-02-16',
         place: 'Лемболово',
         name: 'Открытая тренировка NordWest',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1140',
         o_site: '200216_NW',
         map: 'lembolovo_2024'
@@ -243,7 +231,6 @@ let events2020 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 13 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020BN/200216_split.htm',
         reskeep: 315,
         map: 'petjajarvy_2024',
@@ -254,7 +241,6 @@ let events2020 = [
         date: '2020-02-23',
         name: 'Тренировка в Яппиля',
         place: 'Яппиля',
-        type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1141',
         res: 'https://o-site.spb.ru/_races/200223/200223_res.htm',
         split: 'splits/2020/SPB_20200223_2_split.htm',
@@ -268,7 +254,6 @@ let events2020 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей. 14 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020BN/200224_split.htm',
         reskeep: 316,
         map: 'petjajarvy_2024',
@@ -291,7 +276,6 @@ let events2020 = [
         date: '2020-03-01',
         place: 'Орехово',
         name: 'Открытая тренировка Лучший Выбор. Масленица!',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1143',
         res: 'https://o-site.spb.ru/_races/200301/200301_res.htm',
         split: 'splits/2020/SPB_20200301_1_split.htm',
@@ -307,7 +291,6 @@ let events2020 = [
         place: 'парк Дубки, Сестрорецк',
         name: 'Снежная Тропа, 1-й этап',
         start: 'SNOW_WAY',
-        type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1144',
         res: 'https://o-site.spb.ru/_races/200307/rez.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_270815414',
@@ -323,7 +306,6 @@ let events2020 = [
         endDate: '2020-03-09',
         name: '41-е зимние соревнования На призы газеты Всеволожские вести',
         place: 'Кузьмолово',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20030809/200308_res.html',
         split: [
             'splits/2020/SPB_20200308_1_1_split.html',
@@ -340,7 +322,6 @@ let events2020 = [
         place: 'Полюстровский проспект',
         name: 'Sprint Tour SPb - 2020. 1 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 322
     },
     {
@@ -348,7 +329,6 @@ let events2020 = [
         date: '2020-03-13',
         place: 'ГБОУ Балтийский Берег',
         name: 'Судейский семинар',
-        type: 'ORIENT',
         o_site: '200313sem'
     },
     {
@@ -357,7 +337,6 @@ let events2020 = [
         place: 'Васкелово',
         name: 'Кубок Белых Ночей 2019/20. 15 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020BN/200314_split.htm',
         reskeep: 330
     },
@@ -368,7 +347,6 @@ let events2020 = [
         name: 'Кубок Белых Ночей 2019/20. 16 этап',
         start: 'KBN',
         video: 'https://www.youtube.com/watch?v=W0A2Sok8tX0',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020BN/200315_split.htm',
         reskeep: 331,
         map: 'zelenogorsk_schuchye_2020',
@@ -380,7 +358,6 @@ let events2020 = [
         place: 'Кавголово',
         name: 'Кубок Белых Ночей. 17 этап',
         start: 'KBN',
-        type: 'ORIENT',
         reskeep: 332,
         strava: 3203763422,
         map: 'kavgolovo_old_ski_track_2023'
@@ -400,7 +377,6 @@ let events2020 = [
         name: 'Кубок Белых Ночей. 18 этап',
         start: 'KBN',
         place: 'Первомайское',
-        type: 'ORIENT',
         res: ['https://o-site.spb.ru/_races/2020BN/200322_split_g.htm','https://o-site.spb.ru/_races/2020BN/200322_split_m.htm'],
         o_site: '2020BN',
         reskeep: 333,
@@ -411,7 +387,6 @@ let events2020 = [
         id: 'SPB_20200324_1',
         date: '2020-03-24',
         name: 'К-тренинг',
-        type: 'ORIENT',
         info: 'тренировочные полигоны',
         o_site: '200410'
     },
@@ -420,7 +395,6 @@ let events2020 = [
         date: '2020-04-05',
         name: 'Всеволожская тропа 2020 1 этап',
         start: 'VSEVOLOZHSK_WAY',
-        type: 'ORIENT',
         info: 'МЕРОПРИЯТИЕ ПЕРЕНЕСЕНО НА БОЛЕЕ ПОЗДНИЙ СРОК. ДО ОСОБОГО РАСПОРЯЖЕНИЯ',
         o_site: '200405_VT',
         cancelled: true
@@ -429,7 +403,6 @@ let events2020 = [
         id: 'SPB_20200411_1',
         date: '2020-04-11',
         name: 'Онлайн-старт по трейл-ориентированию',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200411/rezultaty.pdf',
         info: '11 апреля в 20.01 пройдёт тренировочный онлайн-старт по трейл-ориентированию. Пожалуйста отнеситесь с пониманием. Заполните форму только один раз. И будьте внимательны при вводе уникального стартового номера.',
         o_site: '200411'
@@ -439,7 +412,6 @@ let events2020 = [
         date: '2020-04-18',
         place: 'Онлайн',
         name: 'Онлайн-старт по трейл-ориентированию, 2 этап',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/200418/200418_rez.pdf',
         info: '18 апреля в 20.01 пройдёт второй этап тренировочного онлайн-старта по трейл-ориентированию. Местность в заданиях - «Комаровский берег».',
         o_site: '200418'
@@ -457,7 +429,6 @@ let events2020 = [
         id: 'SPB_20200426_1',
         date: '2020-04-26',
         name: 'Онлайн-старт по трейл-ориентированию, 3 этап',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/12605',
         res: 'http://o-site.spb.ru/_races/200426/200426_rezultaty.pdf',
         info: '26 апреля (воскресенье!) состоится третий этап онлайн-старта по трейл-ориентированию (дисциплина "точное ориентирование"/PreO).',
@@ -488,7 +459,6 @@ let events2020 = [
         id: 'SPB_20200510_1',
         date: '2020-05-10',
         name: 'Онлайн-старт по трейл-ориентированию, 4 этап',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/12629',
         res: 'http://o-site.spb.ru/_races/200510/200510_rez_-_kopia5.pdf',
         info: '10 мая (воскресенье) состоится четвёртый этап онлайн-старта по трейл-ориентированию (дисциплина "точное ориентирование"/PreO).',
@@ -513,7 +483,6 @@ let events2020 = [
         date: '2020-05-17',
         name: 'Всемирный день ориентирования в Санкт-Петербурге (Online)',
         place: 'Кронштадт',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/200517/200517_rez.pdf',
         photo: 'http://o-site.spb.ru/_races/200517/CORRECT_ANSWER_O-PHOTO_compressed.pdf',
         info: 'Всемирный день ориентирования в Санкт-Петербурге ONLINE. (Онлайн-тренировка по Кронштадту 17.05.2020) 10:00-19:00 – доступна к прохождению дистанция «Фотоориентирование» 19:01-19:16 – доступна к прохождению дистанция «Спринт» (TempO) 22:00 – публикация результатов',
@@ -560,7 +529,6 @@ let events2020 = [
         id: 'SPB_20200601_1',
         date: '2020-06-01',
         name: 'Онлайн-старт по трейл-ориентированию, 5 этап',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/12689',
         res: 'https://o-site.spb.ru/_races/200601/200601_SCHOOL_REZ.pdf',
         info: '1 июня (понедельник) состоится онлайн-старт по трейл-О, приуроченный ко Дню защиты детей. Дистанция: TempO (Спринт)',
@@ -571,7 +539,6 @@ let events2020 = [
         date: '2020-06-06',
         name: 'Serebruanitskii Cup',
         place: 'Первомайское',
-        type: 'ORIENT',
         strava: 3573558841
     },
     {
@@ -580,7 +547,6 @@ let events2020 = [
         endDate: '2020-06-13',
         place: 'Онлайн',
         name: 'Онлайн-тренировка по ориентированию, посвящённая Дню России',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200612/200612_rez.pdf',
         photo: 'http://drive.google.com/drive/folders/1tvax9cc_9z9YWb7g6JodrwYHVvEevSKY?sa=D&ust=1592159831324000&usg=AFQjCNFL_1lRoEJzvMO-1rvfobSnGayRhg',
         info: 'Онлайн-тренировка, посвящённая Дню России, проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом. Мероприятие проводится в рамках проекта «На соревнования – всей семьей: игровое пространство для детей участников спортивных мероприятий». Проект реализуется с использованием гранта Президента Российской Федерации на развитие гражданского общества, предоставленного Фондом президентских грантов.',
@@ -611,7 +577,6 @@ let events2020 = [
         endDate: '2020-06-26',
         name: 'Фото-квест (Онлайн)',
         place: 'Московский парк Победы',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200625/200626_kvest.pdf',
         info: 'Мероприятие организуется с целью совершенствования системы патриотического воспитания, обеспечивающей формирование у молодых граждан Российской Федерации прочных основ патриотического сознания, здорового образа жизни, а также содействие становлению активной гражданской позиции. Мероприятие проводится в рамках проекта «Молодежный патриотический спортивный фестиваль «Ориентир на победу!».',
         o_site: '200625',
@@ -623,7 +588,6 @@ let events2020 = [
         endDate: '2020-06-28',
         name: 'Онлайн-тренировка по ориентированию, посвящённая Дню Молодёжи',
         place: 'Павловск',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200627/200628_denmolodezhi.pdf',
         info: 'Онлайн-тренировка, посвящённая Дню Молодёжи, проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом. Мероприятие проводится в рамках проекта «На соревнования – всей семьей: игровое пространство для детей участников спортивных мероприятий». Проект реализуется с использованием гранта Президента Российской Федерации на развитие гражданского общества, предоставленного Фондом президентских грантов.',
         o_site: '200627',
@@ -634,7 +598,6 @@ let events2020 = [
         date: '2020-06-27',
         place: 'Лемболово',
         name: 'Serebruanitskii Cup 1',
-        type: 'ORIENT',
         reskeep: 336,
         map: 'lembolovo_2024'
     },
@@ -643,7 +606,6 @@ let events2020 = [
         date: '2020-06-27',
         place: 'Семейные озера, Первомайское',
         name: 'Индивидуальная тренировка Белых ночей. 1 этап',
-        type: 'ORIENT',
         reskeep: 340,
         map: 'pervomayskoe_2021',
         owner: 'WN'
@@ -662,7 +624,6 @@ let events2020 = [
         date: '2020-06-27',
         place: 'Лемболово',
         name: 'Serebruanitskii Cup 2',
-        type: 'ORIENT',
         reskeep: 337,
         strava: 3678989747,
         map: 'lembolovo_2024'
@@ -672,7 +633,6 @@ let events2020 = [
         date: '2020-06-28',
         place: 'Семейные озера, Первомайское',
         name: 'Индивидуальная тренировка Белых ночей. 2 этап',
-        type: 'ORIENT',
         reskeep: 341,
         map: 'pervomayskoe_2021',
         owner: 'WN',
@@ -683,7 +643,6 @@ let events2020 = [
         date: '2020-06-29',
         endDate: '2020-06-30',
         name: 'Онлайн-старт по ориентированию (Купальный трейл)',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200629/200629_kupalny.pdf',
         info: 'Мероприятие проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом. Мероприятие проводится в рамках проекта «Молодежный открытый фестиваль «Доступный спорт».',
         o_site: '200629'
@@ -693,7 +652,6 @@ let events2020 = [
         date: '2020-07-04',
         place: 'Мичуринское',
         name: 'Индивидуальная тренировка Белых ночей. 3 этап',
-        type: 'ORIENT',
         reskeep: 338,
         owner: 'WN',
         strava: 3712534014
@@ -713,7 +671,6 @@ let events2020 = [
         date: '2020-07-05',
         place: 'Мичуринское',
         name: 'Индивидуальная тренировка Белых ночей. 4 этап',
-        type: 'ORIENT',
         reskeep: 339,
         owner: 'WN'
     },
@@ -722,7 +679,6 @@ let events2020 = [
         date: '2020-07-11',
         place: 'Мичуринское',
         name: 'Индивидуальная тренировка Белых ночей. 5 этап',
-        type: 'ORIENT',
         reskeep: 342,
         owner: 'WN'
     },
@@ -742,7 +698,6 @@ let events2020 = [
         date: '2020-07-12',
         place: 'Ягодное',
         name: 'Тренировочный старт Яркого Мира. Техника и Тактика 2',
-        type: 'ORIENT',
         reskeep: 335,
         strava: 3751749892
     },
@@ -751,7 +706,6 @@ let events2020 = [
         date: '2020-07-18',
         place: 'Стеклянный',
         name: 'Serebruanitskii Cup 3',
-        type: 'ORIENT',
         reskeep: 343,
         strava: 3780635030,
         map: 'stekljanny_2014'
@@ -761,7 +715,6 @@ let events2020 = [
         date: '2020-07-18',
         place: 'Воробьево оз',
         name: 'Индивидуальная тренировка Белых ночей. 7 этап',
-        type: 'ORIENT',
         reskeep: 345,
         map: 'vorobjevo_2024',
         owner: 'WN'
@@ -787,7 +740,6 @@ let events2020 = [
         endDate: '2020-07-20',
         place: 'Рощино',
         name: 'Ретро-старт 1959-2020 (онлайн)',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200719/200719-20_retro_start.pdf',
         info: 'Мероприятие проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом. Мероприятие проводится в рамках проекта «Молодежный открытый фестиваль «Доступный спорт».',
         o_site: '200719',
@@ -799,7 +751,6 @@ let events2020 = [
         date: '2020-07-19',
         place: 'Воробьево оз',
         name: 'Индивидуальная тренировка Белых ночей. 8 этап',
-        type: 'ORIENT',
         reskeep: 346,
         map: 'vorobjevo_2024',
         owner: 'WN'
@@ -809,7 +760,6 @@ let events2020 = [
         date: '2020-07-19',
         place: 'Гарболово',
         name: 'Serebruanitskii Cup 4',
-        type: 'ORIENT',
         reskeep: 347
     },
     {
@@ -817,7 +767,6 @@ let events2020 = [
         date: '2020-07-24',
         endDate: '2020-07-26',
         name: 'Онлайн-квест в честь Дня ВМФ',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200726/200724-26-denVMF.pdf',
         info: 'Мероприятие организуется с целью совершенствования системы патриотического воспитания, обеспечивающей формирование у молодых граждан Российской Федерации прочных основ патриотического сознания, здорового образа жизни, а также содействие становлению активной гражданской позиции. Мероприятие проводится в рамках проекта «Молодежный патриотический спортивный фестиваль «Ориентир на победу!».',
         o_site: '200726'
@@ -827,7 +776,6 @@ let events2020 = [
         date: '2020-07-26',
         place: 'Воробьево оз',
         name: 'Индивидуальная тренировка Белых ночей. 9 этап',
-        type: 'ORIENT',
         reskeep: 348,
         map: 'vorobjevo_2024',
         owner: 'WN'
@@ -838,7 +786,6 @@ let events2020 = [
         endDate: '2020-07-30',
         place: 'Поляны',
         name: 'Онлайн-гонка O-Race',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200729/200729-30_rez.pdf',
         info: 'После нажатия кнопки «Старт» вы увидите фрагмент карты с первым этапом (С-1). Вам предлагаются три варианта – Красный, Синий и Зеленый. Выберите наиболее быстрый на Ваш взгляд, зафиксируйте решение и переходите к следующему этапу. Тест заканчивается на последнем КП (этап 16-17). Время бега с последнего КП на финиш фиксировано, оно будет добавлено к Вашему результату автоматически.',
         o_site: '200729'
@@ -848,7 +795,6 @@ let events2020 = [
         date: '2020-08-01',
         place: 'Лосево',
         name: 'Тренировочный старт Яркого Мира. Техника и тактика 3. Спринт 1',
-        type: 'ORIENT',
         reskeep: [351, 352]
     },
     {
@@ -865,7 +811,6 @@ let events2020 = [
         date: '2020-08-02',
         place: 'Лосево',
         name: 'Тренировочный старт Яркого Мира. Техника и тактика 3',
-        type: 'ORIENT',
         reskeep: 350
     },
     {
@@ -883,7 +828,6 @@ let events2020 = [
         date: '2020-08-12',
         name: 'Онлайн-старт по ориентированию',
         place: 'Муринский парк',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/13161',
         res: 'https://o-site.spb.ru/_races/200812/200812_rez.pdf',
         info: 'Мероприятие проводится с целью пропаганды здорового образа жизни среди населения, популяризации спортивного ориентирования (знакомство со спортом, изучение условных знаков и знаков легенд) и привлечения граждан к занятиям физической культуры и спортом.',
@@ -908,7 +852,6 @@ let events2020 = [
         date: '2020-08-15',
         place: 'Сосново',
         name: 'Индивидуальная тренировка Белых ночей. 9 этап',
-        type: 'ORIENT',
         reskeep: 353,
         map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
@@ -919,7 +862,6 @@ let events2020 = [
         date: '2020-08-16',
         place: 'Сосново',
         name: 'Индивидуальная тренировка Белых ночей. 10 этап',
-        type: 'ORIENT',
         reskeep: 355,
         map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN',
@@ -930,7 +872,6 @@ let events2020 = [
         date: '2020-08-22',
         place: 'Сосново',
         name: 'Индивидуальная тренировка Белых ночей. 11 этап',
-        type: 'ORIENT',
         reskeep: 357,
         map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN'
@@ -940,7 +881,6 @@ let events2020 = [
         date: '2020-08-23',
         name: 'Памяти Димы Фатидинова',
         place: 'Вартемяги',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/13253',
         res: 'https://o-site.spb.ru/_races/200823/200823_res.html',
         o_site: '200823'
@@ -950,7 +890,6 @@ let events2020 = [
         date: '2020-08-23',
         place: 'Сосново',
         name: 'Индивидуальная тренировка Белых ночей. 12 этап',
-        type: 'ORIENT',
         reskeep: 356,
         map: 'sosnovo_ulovnoe_oz_2023',
         owner: 'WN'
@@ -961,7 +900,6 @@ let events2020 = [
         endDate: '2020-08-27',
         name: 'Фото-квест по Адмиралтейству (Онлайн)',
         place: 'Адмиралтейство',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200827/200827_admiralteyskiy.pdf',
         info: 'Мероприятие организуется с целью совершенствования системы патриотического воспитания, обеспечивающей формирование у молодых граждан Российской Федерации прочных основ патриотического сознания, здорового образа жизни, а также содействие становлению активной гражданской позиции. Мероприятие проводится в рамках проекта «Молодежный патриотический спортивный фестиваль «Ориентир на победу!».',
         o_site: '200827',
@@ -972,7 +910,6 @@ let events2020 = [
         date: '2020-08-29',
         place: 'Выборгский район ЛО',
         name: 'History Race',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200829/200829_res.htm',
         split: 'splits/2020/SPB_20200829_1_split.htm',
         fmt: '6 и 12 часов',
@@ -983,7 +920,6 @@ let events2020 = [
         date: '2020-08-29',
         place: 'Лемболово',
         name: 'Зелёный Змей',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200829ZZ/200829ZZ_res.htm',
         split: [
             'splits/2020/SPB_20200829_2_1_split.htm',
@@ -1010,7 +946,6 @@ let events2020 = [
         date: '2020-08-30',
         place: 'Силанде',
         name: 'Ориентир на Победу',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1171',
         res: 'https://o-site.spb.ru/_races/200830_pobeda/200830_res.htm',
         photo: 'http://vk.com/album-154221178_274564365',
@@ -1023,7 +958,6 @@ let events2020 = [
         date: '2020-08-30',
         place: 'Мельничный ручей',
         name: 'Техника и тактика. 5 этап',
-        type: 'ORIENT',
         strava: 3987228924,
         map: 'vsevolozhsk_zhdanovskie_oz_2014'
     },
@@ -1032,7 +966,6 @@ let events2020 = [
         date: '2020-09-01',
         name: 'Кузьмоловские старты',
         start: 'KUZMOLOVSKY_STARTS',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/13945',
         res: 'https://o-site.spb.ru/_races/200903_KS/201008_res.htm',
         info: 'Серия открытых тренировок. РЕЗУЛЬТАТЫ: 1 этап - 3 сентября Токсово, 2 этап - 10 сентября Кузьмолово, 3 этап - 17 сентября Вартемяги, 4 этап - 25 сентября Кузьмолово, 5 этап - 01 октября Токсово',
@@ -1045,7 +978,6 @@ let events2020 = [
         place: 'Токсово',
         name: 'Кузьмоловские старты 2020. 1 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        type: 'ORIENT',
         reskeep: 359,
     },
     {
@@ -1053,7 +985,6 @@ let events2020 = [
         date: '2020-09-06',
         place: 'Черные оз',
         name: 'Индивидуальная тренировка Белых Ночей',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1173',
         res: 'https://o-site.spb.ru/_races/200906/200906_res.htm',
         split: 'splits/2020/SPB_20200906_1_split.htm',
@@ -1070,7 +1001,6 @@ let events2020 = [
         place: 'Сосновый Бор',
         name: 'СОСНОВОБОРСКИЕ ДЮНЫ - 2020',
         start: 'SOSNOVOBORSKY_DUNY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200905-06/200905_res.htm',
         info: 'Чемпионат и Первенство Ленинградской области по спортивному ориентированию «СОСНОВОБОРСКИЕ ДЮНЫ - 2020» Открытое первенство города Сосновый Бор по спортивному ориентированию.',
         o_site: '200905-06',
@@ -1092,7 +1022,6 @@ let events2020 = [
         place: 'м Новочеркасская',
         name: 'Sprint Tour SPb - 2020. 2 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 363,
         map: 'novocherkasskaya_2020'
     },
@@ -1102,7 +1031,6 @@ let events2020 = [
         place: 'Кузьмолово',
         name: 'Кузьмоловские старты. 2 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        type: 'ORIENT',
         reskeep: 366,
     },
     {
@@ -1110,7 +1038,6 @@ let events2020 = [
         date: '2020-09-12',
         place: 'Цвелодубово',
         name: '50 Вёрст',
-        type: 'ORIENT',
         fmt: 'ночная эстафета',
         reg: 'http://sportident.online/entry/?id=4543',
         res: 'https://o-site.spb.ru/_races/200912/200912_rez.htm',
@@ -1136,7 +1063,6 @@ let events2020 = [
         name: 'Чемпионат и Первенство ЛО',
         start: 'LO_CHAMP',
         place: '69км, Колосково',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20091213/200912_split.htm',
         info: 'Чемпионат и Первенство ЛО, массовые соревнования ЛО, дисциплины: 12.09 - кросс-спринт 13.09 - кросс-лонг',
         o_site: '20091213',
@@ -1160,7 +1086,6 @@ let events2020 = [
         place: 'Цвелодубово',
         name: 'Матрёшка',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         reg: 'http://sportident.online/entry/?id=4544',
         res: 'https://o-site.spb.ru/_races/200913/200913_ResultList.htm',
         split: 'splits/2020/SPB_20200913_1_split.htm',
@@ -1173,7 +1098,6 @@ let events2020 = [
         date: '2020-09-15',
         name: 'Открытая тренировка (Доступный спорт)',
         place: 'Муринский парк',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/trailosport',
         res: 'https://o-site.spb.ru/_races/200915/Kopia_200915.pdf',
         photo: 'http://vk.com/spb_orient?z=album-154221178_274831695',
@@ -1186,7 +1110,6 @@ let events2020 = [
         place: 'Вартемяги',
         name: 'Кузьмоловские старты. 3 этап',
         start: 'KUZMOLOVSKY_STARTS',
-        type: 'ORIENT',
         reskeep: 373,
     },
     {
@@ -1195,7 +1118,6 @@ let events2020 = [
         place: 'Муринский парк',
         name: 'White Nights Sprint #1',
         start: 'WHITE_NIGHTS',
-        type: 'ORIENT',
         reskeep: 374
     },
     {
@@ -1216,7 +1138,6 @@ let events2020 = [
         place: 'Васкелово',
         name: 'White Nights Middle',
         start: 'WHITE_NIGHTS',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020WN/200919_split.htm',
         reskeep: 368,
         strava: 4083562005
@@ -1235,7 +1156,6 @@ let events2020 = [
         date: '2020-09-20',
         place: 'м Лесная',
         name: 'Tour de Sprint. Старт 1',
-        type: 'ORIENT',
         reskeep: 375,
     },
     {
@@ -1244,7 +1164,6 @@ let events2020 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2020/21, 1-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/200920_split.htm',
         o_site: '2021BN'
     },
@@ -1253,7 +1172,6 @@ let events2020 = [
         date: '2020-09-21',
         place: 'Большая Пушкарская ул',
         name: 'Tour de Sprint. Старт 2',
-        type: 'ORIENT',
         reskeep: 376,
     },
     {
@@ -1261,7 +1179,6 @@ let events2020 = [
         date: '2020-09-21',
         place: 'ул Лизы Чайкиной',
         name: 'Tour de Sprint. Старт 3',
-        type: 'ORIENT',
         reskeep: 377,
     },
     {
@@ -1269,7 +1186,6 @@ let events2020 = [
         date: '2020-09-22',
         place: 'Матвеевский сад',
         name: 'Tour de Sprint. Старт 4',
-        type: 'ORIENT',
         reskeep: 378,
     },
     {
@@ -1278,7 +1194,6 @@ let events2020 = [
         place: 'ул Бутлерова',
         name: 'Sprint Tour SPb - 2020. 3 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 327
     },
     {
@@ -1286,7 +1201,6 @@ let events2020 = [
         date: '2020-09-26',
         place: 'Лемболово',
         name: 'Золотые кольца (Свадебные)',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/200927_svad/Kom_260920.pdf',
         split: 'splits/2020/SPB_20200926_1_split.pdf',
         start: 'WEDDING',
@@ -1299,7 +1213,6 @@ let events2020 = [
         endDate: '2020-09-27',
         name: 'Чемпионат России',
         place: 'Выборг',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20092428/20200927_res.htm',
         owner: 'VYBORG',
         o_site: '20092428',
@@ -1322,7 +1235,6 @@ let events2020 = [
         place: 'Симагино',
         name: 'Кубок Белых ночей 2019/20. 2 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/200926_split.htm',
         reskeep: 380
     },
@@ -1364,7 +1276,6 @@ let events2020 = [
         date: '2020-09-27',
         place: 'Неизвестно',
         name: 'Тренировочный старт Яркого Мира. Техника и тактика 6',
-        type: 'ORIENT',
         reskeep: 379,
     },
     {
@@ -1373,7 +1284,6 @@ let events2020 = [
         place: 'Запорожское',
         name: 'Кубок Белых ночей 2019/20. 3 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/200927_split.htm',
         reskeep: 381,
         map: 'zaporozhskoe_2020',
@@ -1385,7 +1295,6 @@ let events2020 = [
         place: 'Сестрорецк',
         name: 'ЧиП СПб, спринт',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1180',
         res: 'https://o-site.spb.ru/_races/201003/res1.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_275110153',
@@ -1412,7 +1321,6 @@ let events2020 = [
         place: 'Ушково',
         name: 'ЧиП СПб, классика',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1181',
         res: 'https://o-site.spb.ru/_races/201004/res2.htm',
         photo: 'http://vk.com/spb_orient?z=album-154221178_275121057',
@@ -1427,7 +1335,6 @@ let events2020 = [
         date: '2020-10-10',
         place: 'Яппиля',
         name: 'Антиковидная эстафета',
-        type: 'ORIENT',
         reskeep: [384, 385],
         strava: 4176309175
     },
@@ -1473,7 +1380,6 @@ let events2020 = [
         place: 'Первомайское',
         name: 'Кубок Белых ночей 2019/20. 4 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201011_split.htm',
         reskeep: 386,
         map: 'pervomayskoe_2021',
@@ -1485,7 +1391,6 @@ let events2020 = [
         name: 'Индивидуальная тренировка Weekly Orient',
         start: 'WEEKLY_ORIENT',
         place: 'Симагино',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1185',
         res: 'https://o-site.spb.ru/_races/2020_WO/201017_res.htm',
         split: 'splits/2020/SPB_20201017_1_split.htm',
@@ -1498,7 +1403,6 @@ let events2020 = [
         place: 'Удельная, ул Нежинская',
         name: 'Sprint Tour SPb - 2020. 4 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 387
     },
     {
@@ -1506,7 +1410,6 @@ let events2020 = [
         date: '2020-10-18',
         name: 'Открытая тренировка',
         place: 'Выборг',
-        type: 'ORIENT',
         reg: 'http://forms.yandex.ru/u/5f80ba716c7ed687f35fd49b/',
         res: 'https://o-site.spb.ru/_races/201018_vyb/201018_rez.htm',
         split: 'splits/2020/SPB_20201018_1_split.htm',
@@ -1530,7 +1433,6 @@ let events2020 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2019/20. 5 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201018_split.htm',
         reskeep: 389,
         map: 'petjajarvy_2024',
@@ -1552,7 +1454,6 @@ let events2020 = [
         name: 'ЧиП СПб, эстафета',
         start: 'SPB_CHAMP',
         place: 'Солнечное',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1188',
         res: 'https://o-site.spb.ru/_races/201024_relay/res.htm',
         split: 'splits/2020/SPB_20201024_2_split.htm',
@@ -1569,7 +1470,6 @@ let events2020 = [
         place: 'Луга, оз Омчино',
         name: 'ЧиП ЛО, кросс-классика',
         start: 'LO_CHAMP',
-        type: 'ORIENT',
         info: 'Чемпионат Ленинградской области, Первенство Ленинградской области, индивидуальные тренировочные старты. в дисциплине кросс-классика',
         video: [
             'https://www.youtube.com/watch?v=ip1I2EftTj4',
@@ -1598,7 +1498,6 @@ let events2020 = [
         map: 'school_470_2020',
         name: 'Sprint Tour SPb - 2020. 5 этап',
         start: 'ST',
-        type: 'ORIENT',
         reskeep: 388,
         strava: 4265390438
     },
@@ -1617,7 +1516,6 @@ let events2020 = [
         name: 'Индивидуальная тренировка Перспектива',
         start: 'PERSPEKTIVA',
         place: 'Лемболово',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1193',
         res: 'https://o-site.spb.ru/_races/201101_perspectiva/201101_res.htm',
         split: 'splits/2020/SPB_20201101_1_split.htm',
@@ -1631,7 +1529,6 @@ let events2020 = [
         date: '2020-11-07',
         name: 'Индивидуальная тренировка',
         place: 'Буферный парк, Пушкин',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/200711/201107_rez3.htm',
         split: 'splits/2020/SPB_20201107_1_split.htm',
@@ -1644,7 +1541,6 @@ let events2020 = [
         date: '2020-11-07',
         place: 'Мичуринское',
         name: 'Техника и тактика. 7 этап',
-        type: 'ORIENT',
         reskeep: 391,
     },
     {
@@ -1679,7 +1575,6 @@ let events2020 = [
         name: 'Индивидуальная тренировка Перспектива - 2',
         start: 'PERSPEKTIVA',
         place: 'Орехово',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1197',
         res: 'https://o-site.spb.ru/_races/201108_perspectiva_2/201108_relay.htm',
         split: 'splits/2020/SPB_20201108_2_split.htm',
@@ -1693,7 +1588,6 @@ let events2020 = [
         date: '2020-11-08',
         place: 'Мичуринское',
         name: 'Техника и тактика. 8 этап',
-        type: 'ORIENT',
         reskeep: 396,
     },
     {
@@ -1702,7 +1596,6 @@ let events2020 = [
         place: 'Пухтолова гора',
         name: 'Кубок Белых Ночей 2019/20. 6 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201108_split.htm',
         reskeep: 397,
         map: 'pukhtolova_gora_2023'
@@ -1727,7 +1620,6 @@ let events2020 = [
         place: 'м Горьковская',
         name: 'White Nights Sprint #2',
         start: 'WHITE_NIGHTS',
-        type: 'ORIENT',
         reskeep: 398
     },
     {
@@ -1735,7 +1627,6 @@ let events2020 = [
         date: '2020-11-15',
         name: 'МАРКИР 110%',
         place: 'Токсово (оз Светлое, Охта-Парк)',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1192',
         res: 'https://o-site.spb.ru/_races/201115_110/201115_res.htm',
         split: 'splits/2020/SPB_20201115_1_split.htm',
@@ -1749,7 +1640,6 @@ let events2020 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2019/20. 7 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201115_split.htm',
         reskeep: 399,
         map: 'petjajarvy_2024'
@@ -1760,7 +1650,6 @@ let events2020 = [
         name: 'Индивидуальная тренировка Перспектива - 3',
         start: 'PERSPEKTIVA',
         place: 'Зеленогорск',
-        type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1200',
         res: 'https://o-site.spb.ru/_races/201121/201121_res.htm',
         split: 'splits/2020/SPB_20201121_1_split.htm',
@@ -1772,7 +1661,6 @@ let events2020 = [
         date: '2020-11-22',
         place: 'Орехово, база ПАН',
         name: 'Открытая тренировка КСО Гольфстрим',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1202',
         res: 'https://o-site.spb.ru/_races/201122_gulfstream_long/201122_res.htm',
         split: 'splits/2020/SPB_20201122_1_split.htm',
@@ -1790,7 +1678,6 @@ let events2020 = [
         place: 'Первомайское',
         name: 'Кубок Белых Ночей. 8 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201122_split.htm',
         reskeep: 401,
         map: 'pervomayskoe_2021'
@@ -1810,7 +1697,6 @@ let events2020 = [
         place: 'Орлиная гора, Кавголово',
         name: 'White Nights middle. 2 этап',
         start: 'WHITE_NIGHTS',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2020WN/201128_split.htm',
         reskeep: 405,
         strava: 4401434704,
@@ -1822,7 +1708,6 @@ let events2020 = [
         name: 'ЧиП ЛО, Перспектива-4',
         start: ['PERSPEKTIVA','LO_CHAMP'],
         place: 'Красная горка',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/info/14372',
         res: 'https://o-site.spb.ru/_races/201129/201129_split1.htm',
         split: 'splits/2020/SPB_20201129_1_split.htm',
@@ -1836,7 +1721,6 @@ let events2020 = [
         place: 'Болотная станция',
         name: 'Кубок Белых Ночей. 9 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201129_split.htm',
         reskeep: 406,
         map: 'bolotnaya_station_2019'
@@ -1847,7 +1731,6 @@ let events2020 = [
         endDate: '2020-12-03',
         place: 'Онлайн',
         name: 'Открытое онлайн-первенство по трейлО',
-        type: 'ORIENT',
         reg: 'http://forms.gle/qfZVVcJogXwJs6C28',
         res: 'https://o-site.spb.ru/_races/201203_trailo/Predv_prot_Sport_dlya_vsekh_TreylO.pdf',
         info: 'Открытое Первенство среди обучающихся школьных спортивных клубов ОУ СПб «Спорт для всех» по видам спорта» среди обучающихся с ОВЗ. Все желающие, не относящиеся к школьникам, могут участвовать в группе «Оpen».',
@@ -1859,7 +1742,6 @@ let events2020 = [
         date: '2020-12-06',
         place: 'Гарболово',
         name: 'Индивидуальная тренировка «Техника и Тактика»',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2020TT/201206_split3.htm',
         split: 'splits/2020/SPB_20201206_1_split.htm',
         info: 'Тренировочный старт от Яркого Мира',
@@ -1873,7 +1755,6 @@ let events2020 = [
         name: 'White Nights middle 3 этап',
         start: 'WHITE_NIGHTS',
         place: 'Кавголово',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1207',
         res: 'https://o-site.spb.ru/_races/2020WN/201212_res.htm',
         o_site: '2020WN',
@@ -1884,7 +1765,6 @@ let events2020 = [
         date: '2020-12-12',
         name: 'Индивидуальная тренировка',
         place: 'Баболовский парк, Пушкин',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1209',
         res: 'https://o-site.spb.ru/_races/201212/201212_rez.htm',
         split: 'splits/2020/SPB_20201212_2_split.htm',
@@ -1909,7 +1789,6 @@ let events2020 = [
         date: '2020-12-13',
         place: 'Ржевский л/п',
         name: 'Индивидуальная тренировка от клуба Аврора',
-        type: 'ORIENT',
         reg: 'http://www.o-reg.spb.ru/entry-list?id=1211',
         res: 'https://o-site.spb.ru/_races/201213_1/201213_res.htm',
         split: 'splits/2020/SPB_20201213_2_split.htm',
@@ -1925,7 +1804,6 @@ let events2020 = [
         place: 'Мичуринское',
         name: 'Кубок Белых Ночей. 10 этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2021BN/201213_split.htm',
         reskeep: 410
     },
@@ -1935,7 +1813,6 @@ let events2020 = [
         place: 'Луга',
         name: 'Новгородский меридиан',
         video: 'https://www.youtube.com/watch?v=VF6lAqx3vpM',
-        type: 'ORIENT',
         fmt: 'эстафета',
         start: 'LM'
     },
@@ -1957,7 +1834,6 @@ let events2020 = [
         date: '2020-12-20',
         place: 'Охта-Парк',
         name: 'Приз Деда Мороза',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1213',
         res: 'https://o-site.spb.ru/_races/201220_bn/201220_res.htm',
         split: 'splits/2020/SPB_20201220_1_split.htm',
@@ -1971,7 +1847,6 @@ let events2020 = [
         date: '2020-12-26',
         place: 'Пушкин, Нижний парк',
         name: 'Индивидуальная тренировка',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1214',
         res: 'https://o-site.spb.ru/_races/201226/201226_RES.htm',
         split: 'splits/2020/SPB_20201226_1_split.htm',
@@ -1985,7 +1860,6 @@ let events2020 = [
         date: '2020-12-27',
         place: 'Воейково',
         name: 'Предновогодняя индивидуальная тренировка Ингрия',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/14552',
         res: 'https://o-site.spb.ru/_races/201227i/201227_res.htm',
         split: 'splits/2020/SPB_20201227_1_split.htm',
@@ -1997,7 +1871,6 @@ let events2020 = [
         date: '2020-12-27',
         place: 'Лемболово',
         name: 'Тренировка Новогодний Маркир',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1208',
         res: 'https://o-site.spb.ru/_races/201227/201227_res_1.htm',
         split: 'splits/2020/SPB_20201227_2_split.htm',
@@ -2009,7 +1882,6 @@ let events2020 = [
         date: '2020-12-31',
         place: 'Сосновка',
         name: 'Тренировка FoxTeam',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=1330',
         o_site: '211231',
         reskeep: 417,

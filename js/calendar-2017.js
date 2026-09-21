@@ -4,7 +4,6 @@ let events2017 = [
         date: '2017-01-08',
         place: 'Цвелодубово, ДОЛ Голубое озеро',
         name: 'Рождественские старты - 2017',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170107_08/170107_res.htm',
         split: [
             'splits/2017/SPB_20170108_1_1_split.htm',
@@ -41,7 +40,6 @@ let events2017 = [
         date: '2017-01-14',
         name: 'Тренировка в Вартемягах',
         place: 'Вартемяги',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/170114_tren/170114_res.htm',
         o_site: '170114_tren'
@@ -105,7 +103,6 @@ let events2017 = [
         place: 'Орово',
         name: 'Кубок Белых Ночей 2016/17, 4-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170205_split_.htm',
         o_site: '2017WN'
     },
@@ -129,7 +126,6 @@ let events2017 = [
         place: 'карьер Красная Горка',
         name: 'Кубок Белых Ночей 2016/17, 5-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170212_split_.htm',
         o_site: '2017WN'
     },
@@ -138,7 +134,6 @@ let events2017 = [
         date: '2017-02-13',
         place: 'ЗЦ Зеркальный',
         name: 'ТМ в Зеркальном',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170203-13/170212_res.htm',
         split: [
             'splits/2017/SPB_20170213_1_1_split.htm',
@@ -175,7 +170,6 @@ let events2017 = [
         place: 'Охта-парк',
         name: 'Кубок Белых Ночей 2016/17, 6-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170219_split.htm',
         o_site: '2017WN'
     },
@@ -197,7 +191,6 @@ let events2017 = [
         name: 'Всеволожская тропа 2017 1 этап',
         start: 'VSEVOLOZHSK_WAY',
         place: 'Рахья',
-        type: 'ORIENT',
         map: 'rakhja_2017'
     },
     {
@@ -206,7 +199,6 @@ let events2017 = [
         place: 'Вуолы',
         name: 'Кубок Белых Ночей 2016/17, 7-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170224_split.htm',
         o_site: '2017WN'
     },
@@ -261,7 +253,6 @@ let events2017 = [
         place: 'Дюны',
         name: 'Кубок Белых Ночей 2016/17, 8-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170305_split.htm',
         o_site: '2017WN'
     },
@@ -282,7 +273,6 @@ let events2017 = [
         date: '2017-03-12',
         place: 'Нижний (Отдельный) парк, Пушкин',
         name: 'Весёлый Ветер',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=706',
         res: 'https://o-site.spb.ru/_races/170312/170312_res.htm',
         photo: 'http://vk.com/album-9087078_242268462',
@@ -295,7 +285,6 @@ let events2017 = [
         endDate: '2017-03-12',
         name: 'На приз газеты Всеволожские вести',
         place: 'Кузьмоловский',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/17031112/17031112_sum.htm',
         split: [
@@ -311,7 +300,6 @@ let events2017 = [
         place: 'Малиновая гора',
         name: 'Кубок Белых Ночей 2016/17, 9-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170312_split.htm',
         o_site: '2017WN'
     },
@@ -321,7 +309,6 @@ let events2017 = [
         endDate: '2017-03-19',
         name: 'Sprint Camp SPb 2017',
         place: 'СПб',
-        type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=2026',
         res: 'https://o-site.spb.ru/_races/17031719/170318-19_summ.htm',
         split: [
@@ -337,7 +324,6 @@ let events2017 = [
         date: '2017-03-19',
         place: 'Болотная станция, Ильичево',
         name: 'Весенняя тропа от FoxTeam',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=710',
         res: 'https://o-site.spb.ru/_races/170319_FoxTeam/170319_rezFT.htm',
         split: 'splits/2017/SPB_20170319_2_split.htm',
@@ -349,7 +335,6 @@ let events2017 = [
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей 2016/17, 10-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170319_split.htm',
         o_site: '2017WN'
     },
@@ -358,7 +343,6 @@ let events2017 = [
         date: '2017-04-01',
         // endDate: '2017-10-31',
         name: 'Sprint Tour SPb 2017: 12 этап',
-        type: 'ORIENT',
         reg: 'http://reg.o-time.ru/step1.php?event=17092',
         info: 'Серия тренировочных стартов в дисциплине "спринт"',
         start: 'ST',
@@ -370,7 +354,6 @@ let events2017 = [
         // endDate: '2017-10-31',
         name: 'Кузьмоловские старты',
         start: 'KUZMOLOVSKY_STARTS',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/2017_KS/171005_res.htm',
         info: 'Серия тренировочных стартов в окрестностях поселка Кузьмоловский',
         o_site: '2017_KS',
@@ -380,7 +363,6 @@ let events2017 = [
         date: '2017-03-25',
         name: 'II Весенние капели',
         place: 'Песочная, Комарово',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170326_VK/170326_res.htm',
         o_site: '170326_VK',
         map: 'pesochnaya_2005'
@@ -391,7 +373,6 @@ let events2017 = [
         place: 'Воейково',
         name: 'Кубок Белых Ночей 2016/17, 11-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170325_split.htm',
         o_site: '2017WN'
     },
@@ -400,7 +381,6 @@ let events2017 = [
         date: '2017-03-25',
         place: 'Песочная',
         name: 'Весенние капели, 1-й этап',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170326_VK/170326_res.htm',
         o_site: '170326_VK'
     },
@@ -410,7 +390,6 @@ let events2017 = [
         place: 'Матокса',
         name: 'Кубок Белых Ночей 2016/17, 12-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170402_split.htm',
         o_site: '2017WN'
     },
@@ -419,7 +398,6 @@ let events2017 = [
         date: '2017-04-02',
         place: 'Комарово',
         name: 'Весенние капели, 2-й этап',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170326_VK/170402_res_.htm',
         o_site: '170326_VK'
     },
@@ -428,7 +406,6 @@ let events2017 = [
         date: '2017-04-08',
         place: 'Эколого-биологический центр, Крестовский пр 19',
         name: 'Вечер встречи ориентировщиков, награждение по итогам зимнего сезона',
-        type: 'ORIENT',
         info: 'Традиционный вечер встречи по итогам зимнего сезона 2017. Организатор: Федерация спортивного ориентирования Санкт-Петербурга Проходит при поддержке: Санкт-Петербургского городского Дворца творчества юных Список призёров Чемпионата и первенств Санкт-Петербурга, Список призёров финального этапа Снежной Тропы. Список победителей Мемориала Андрея Волкова.',
         o_site: '170408'
     },
@@ -438,7 +415,6 @@ let events2017 = [
         name: 'Всеволожская тропа 2017 3 этап',
         start: 'VSEVOLOZHSK_WAY',
         place: 'Сосновка',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/',
         res: 'https://o-site.spb.ru/_races/170223_VT/170409_rez.htm',
         split: 'splits/2017/SPB_20170409_1_split.htm',
@@ -451,7 +427,6 @@ let events2017 = [
         place: 'садоводство "Топограф"',
         name: 'Кубок Белых Ночей 2016/17, 13-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170409_split.htm',
         o_site: '2017WN'
     },
@@ -460,7 +435,6 @@ let events2017 = [
         date: '2017-04-12',
         place: 'шк №529, Петергоф, Разводная ул, 27',
         name: 'Спортивное ориентирование - в школу, Петродворцовый р-н',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170412/170412_res_lab.htm',
         split: [
             'splits/2017/SPB_20170412_1_1_split.htm',
@@ -479,7 +453,6 @@ let events2017 = [
         endDate: '2017-04-15',
         name: 'Спринты от FoxTeam',
         place: 'Петроградка',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=733',
         res: 'https://o-site.spb.ru/_races/170314-15/170415_sum.htm',
         split: [
@@ -496,7 +469,6 @@ let events2017 = [
         place: 'Охта-парк',
         name: 'Цикл стартов МаТрёшка, 1-й этап',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/170416_split_MT.htm',
         o_site: '170416'
     },
@@ -505,7 +477,6 @@ let events2017 = [
         date: '2017-04-19',
         place: 'ГБОУ школа №604, Славянка, ул Изборская 4-2',
         name: 'Спортивное ориентирование - в школу, Пушкинский р-н',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170419/170419_res_lab.htm',
         split: 'splits/2017/SPB_20170419_1_split.htm',
         photo: 'https://o-site.spb.ru/_races/170419/170419_res_foto.htm',
@@ -521,7 +492,6 @@ let events2017 = [
         date: '2017-04-19',
         place: 'Политехническая',
         name: 'Sprint Tour SPb 2017: 2 этап',
-        type: 'ORIENT',
         map: 'politekhnicheskaya_2015',
         start: 'ST'
     },
@@ -542,7 +512,6 @@ let events2017 = [
         name: 'Сосновоборские дюны',
         start: 'SOSNOVOBORSKY_DUNY',
         place: 'Сосновый Бор',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170423/170422_res.htm',
         split: [
             'splits/2017/SPB_20170423_1_1_split.htm',
@@ -557,7 +526,6 @@ let events2017 = [
         date: '2017-04-26',
         place: 'Школа-интерната №9, ул Старцева, 7',
         name: 'Трейл-ориентирование - в школу',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170426/170426_res.pdf',
         photo: 'http://vk.com/album-51571395_243769294',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
@@ -570,7 +538,6 @@ let events2017 = [
         place: 'Серебряный пруд',
         name: 'Sprint Tour SPb 2018',
         start: 'ST',
-        type: 'ORIENT',
         map: 'serebrjany_prud_2018'
     },
     {
@@ -579,7 +546,6 @@ let events2017 = [
         place: 'Медное оз',
         name: 'Weekly Orient',
         start: 'WEEKLY_ORIENT',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=743',
         res: 'https://o-site.spb.ru/_races/170429_WOr/170429_res.htm',
         split: 'splits/2017/SPB_20170429_1_split.htm',
@@ -603,7 +569,6 @@ let events2017 = [
         date: '2017-04-30',
         endDate: '2017-05-01',
         name: 'Первенство СДЮСШОР №2',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170430-0501_gdtu/170430_res.htm',
         split: [
             'splits/2017/SPB_20170430_1_1_split.htm',
@@ -618,7 +583,6 @@ let events2017 = [
         date: '2017-04-30',
         name: 'Соревнования памяти Ю.А.Березюка',
         place: 'Будогощь',
-        type: 'ORIENT',
         reg: 'http://orgeo.ru/event/4112',
         info: '3-и традиционные Соревнования памяти Юрия Александровича Березюка. Кубок города Кириши по спортивному ориентированию. Кубок Профкома ООО «ПО Киришинефтеоргсинтез»',
         o_site: '170514',
@@ -639,7 +603,6 @@ let events2017 = [
         place: 'Сестрорецкие Дюны',
         name: 'Цикл стартов МаТрёшка, 2-й этап',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/170430_split_MT.htm',
         o_site: '170416'
     },
@@ -648,7 +611,6 @@ let events2017 = [
         date: '2017-05-01',
         name: 'УТС в ОК Университетский',
         place: 'Поляны',
-        type: 'ORIENT',
         info: 'Специализированная детско-юношеская спортивная школа олимпийского резерва № 2 Санкт-Петербургского городского Дворца творчества юных организовывают тренировочное мероприятие по подготовке к первенствам Санкт-Петербурга и России по спортивному ориентированию бегом с 28 апреля по 01 мая 2017 года на базе оздоровительного комплекса «Университетский» Ленинградской области, Выборгского района, Полянской волости.',
         o_site: '170428-0501',
         owner: 'ANCHKV'
@@ -657,7 +619,6 @@ let events2017 = [
         id: 'SPB_20170501_2',
         date: '2017-05-01',
         name: 'Летний Кубок СПб и ЛО',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=755',
         info: 'Многоэтапные лично-командные соревнования по спортивному ориентированию «Кубок Санкт-Петербурга и Ленинградской области» проводятся Федерациями спортивного ориентирования Санкт-Петербурга и Ленинградской области с целью развития клубного движения и выявления сильнейших спортсменов-ориентировщиков и сильнейших клубов спортивного ориентирования СПб и ЛО. 1-й этап 27.05 Чемпионат и Первенство СПб, спринт. Выборг. Рейтинг. 2-й этап 28.05 Чемпионат и Первенство СПб, классика. Выборг. Рейтинг. 3-й этап 03.09 Чемпионат и Первенство СПб, выбор. Цвелодубово. Рейтинг. 4-й этап 24.09 Чемпионат и Первенство СПб, марафон / лонг-общий старт. Яппиля. Рейтинг. 5-й этап 01.10 Чемпионат и Первенство СПб, эстафета. Токсово. Рейтинг. 6-й этап 08.10 Чемпионат и Первенство СПб, лонг. Петяярви. Рейтинг. 7-й этап 22.10 Финал Кубка, классика. Выборг. Рейтинг.',
         o_site: 'SPb_LO_Cup_2017',
@@ -669,7 +630,6 @@ let events2017 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2016/17, 14-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170501_split.htm',
         o_site: '2017WN'
     },
@@ -678,7 +638,6 @@ let events2017 = [
         date: '2017-05-03',
         place: 'ДДЮТ Выборгского р-на, ул Сантьяго-де-Куба, 4-2',
         name: 'Спортивное ориентирование - в школу (Выборгский р-н)',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170503/170503_res_lab.htm',
         split: 'splits/2017/SPB_20170503_1_split.htm',
         photo: 'https://o-site.spb.ru/_races/170503/170503_res_foto.xls',
@@ -702,7 +661,6 @@ let events2017 = [
         date: '2017-05-06',
         name: 'Кубок Белых Ночей - 2016/17',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017WN/170506_split.htm',
         o_site: '2017WN',
         map: ['krasnaja_gorka_2016','toksovo_malinovaya_gora_2013','garbolovo_sirkkajarvi']
@@ -712,7 +670,6 @@ let events2017 = [
         date: '2017-05-06',
         name: 'Спринты от FoxTeam',
         place: 'Петроградка',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=746',
         res: 'https://o-site.spb.ru/_races/170506FT/170506_res_sum.htm',
         split: [
@@ -726,7 +683,6 @@ let events2017 = [
         date: '2017-05-07',
         name: 'Классика от FoxTeam',
         place: 'Цвелодубово',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=747',
         res: 'https://o-site.spb.ru/_races/170507FT/170507_res.htm',
         split: 'splits/2017/SPB_20170507_1_split.htm',
@@ -737,7 +693,6 @@ let events2017 = [
         date: '2017-05-08',
         place: 'оз Журавлево',
         name: 'Яркий Кубок 2017, 1-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170508_split.htm',
         o_site: '2017YC',
         start: 'YM_CUP'
@@ -747,7 +702,6 @@ let events2017 = [
         date: '2017-05-09',
         place: 'Орехово',
         name: 'Соревнования, посвящённые Дню Победы',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=749',
         res: 'https://o-site.spb.ru/_races/170509/170509_res.htm',
         split: 'splits/2017/SPB_20170509_1_split.htm',
@@ -760,7 +714,6 @@ let events2017 = [
         date: '2017-05-10',
         place: 'Пушкин, Баболовский парк',
         name: 'Царскосельский Азимут',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=738',
         res: 'https://o-site.spb.ru/_races/170426_CA/170510_res.htm',
         split: 'splits/2017/SPB_20170510_1_split.htm',
@@ -774,7 +727,6 @@ let events2017 = [
         endDate: '2017-05-14',
         name: 'Чемпионат и Первенство ЛО',
         start: 'LO_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/17042901/17051314_res_official.zip',
         split: [
             'splits/2017/SPB_20170513_1_1_split.htm',
@@ -796,7 +748,6 @@ let events2017 = [
         date: '2017-05-14',
         place: 'Гарболово',
         name: 'Яркий Кубок 2017, 2-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170514_split.htm',
         o_site: '2017YC',
         start: 'YM_CUP'
@@ -806,7 +757,6 @@ let events2017 = [
         date: '2017-05-17',
         place: 'школа №69, пр Культуры, 27-3А',
         name: 'Спортивное ориентирование - в школу, Калининский р-он',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170517/170517_res_lab.htm',
         split: 'splits/2017/SPB_20170517_1_split.htm',
         photo: 'https://o-site.spb.ru/_races/170517/170517_res_foto.htm',
@@ -822,7 +772,6 @@ let events2017 = [
         place: 'Удельная, Поклонная гора',
         name: 'Noname Sprint Tour SPb',
         start: 'ST',
-        type: 'ORIENT',
         map: 'berezovy_sad_2016',
     },
     {
@@ -831,7 +780,6 @@ let events2017 = [
         endDate: '2017-05-21',
         place: 'Игналина, Литва',
         name: 'Чемпионат Прибалтики',
-        type: 'ORIENT',
         o_site: '17051921'
     },
     {
@@ -839,7 +787,6 @@ let events2017 = [
         date: '2017-05-20',
         place: 'Парк 300-летия СПб',
         name: 'Российский Азимут СПб',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=752',
         res: 'https://o-site.spb.ru/_races/170520_SPb/170520_res.htm',
         split: 'splits/2017/SPB_20170520_1_split.htm',
@@ -853,7 +800,6 @@ let events2017 = [
         date: '2017-05-20',
         place: 'Парк 300-летия СПб',
         name: 'Спартакиада Санкт-Петербурга по спортивному ориентированию',
-        type: 'ORIENT',
         o_site: '170520_spartakiada',
         map: '300_let_spb_2022'
     },
@@ -875,7 +821,6 @@ let events2017 = [
         date: '2017-05-21',
         place: 'садоводство Топограф',
         name: 'Памяти друзей',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=754',
         res: 'https://o-site.spb.ru/_races/170520_Az/170521_res.htm',
         split: 'splits/2017/SPB_20170521_1_split.htm',
@@ -887,7 +832,6 @@ let events2017 = [
         date: '2017-05-21',
         name: 'Российский азимут ЛО',
         place: 'Юкки',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=753',
         res: 'https://o-site.spb.ru/_races/170521/170521_rez_RA.htm',
         split: 'splits/2017/SPB_20170521_2_split.htm',
@@ -910,7 +854,6 @@ let events2017 = [
         date: '2017-05-24',
         place: 'Политехнический Университет',
         name: 'Всемирный День Ориентирования',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170524/170524_res.htm',
         split: 'splits/2017/SPB_20170524_1_split.htm',
         o_site: '170524',
@@ -922,7 +865,6 @@ let events2017 = [
         place: 'Выборг',
         name: '59-й Чемпионат и первенство СПб - спринт',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=2029',
         res: 'http://www.o-site.spb.ru/_races/170427-28_VT/170527_split_VT.htm',
         split: 'splits/2017/SPB_20170527_1_split.htm',
@@ -936,7 +878,6 @@ let events2017 = [
         name: 'Выборгская тройка',
         start: 'VYBORGSKY_TROIKA',
         place: 'Анненские укрепления, Гаврилово, Возрождение',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170427-28_VT/170527_rez_VT.htm',
         split: [
             'splits/2017/SPB_20170527_2_1_split.htm',
@@ -958,7 +899,6 @@ let events2017 = [
         endDate: '2017-05-28',
         place: 'Кузнечное',
         name: 'ГорныйКросс-56',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170527R/170527R_res.pdf',
         split: 'splits/2017/SPB_20170527_3_split.htm',
         fmt: 'рогейн БЕГ - 24 и 6ч, ВЕЛО - 5ч, кросс-трейл - 38 и 17км',
@@ -983,7 +923,6 @@ let events2017 = [
         place: 'Возрождение',
         name: '59-й Чемпионат и первенство СПб - классика',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=2029',
         res: 'http://www.o-site.spb.ru/_races/170427-28_VT/170528_split_day.htm',
         split: 'splits/2017/SPB_20170528_1_split.htm',
@@ -995,7 +934,6 @@ let events2017 = [
         date: '2017-05-31',
         place: 'Бумажная ул',
         name: 'Sprint Tour SPb 2017',
-        type: 'ORIENT',
         start: 'ST',
         map: 'bumazhnaya_2015'
     },
@@ -1005,7 +943,6 @@ let events2017 = [
         endDate: '2017-06-08',
         name: 'Неделя ориентирования «Белые Ночи»',
         place: 'Воробьёво оз',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru',
         res: 'https://o-site.spb.ru/_races/17060204/170602_res.htm',
         split: [
@@ -1024,7 +961,6 @@ let events2017 = [
         date: '2017-06-05',
         place: 'Сосново',
         name: 'Ночная тренировка от FoxTeam',
-        type: 'ORIENT',
         o_site: '170605_NFT'
     },
     {
@@ -1032,7 +968,6 @@ let events2017 = [
         date: '2017-06-08',
         name: 'Спринт в Приозерске',
         place: 'Приозерск',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=762',
         res: 'https://o-site.spb.ru/_races/170608/170602_split_1.htm',
         split: [
@@ -1047,7 +982,6 @@ let events2017 = [
         endDate: '2017-06-11',
         place: 'Ягодное',
         name: 'XXVII многодневка «Невский Азимут»',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=732',
         res: 'https://o-site.spb.ru/_races/17060911/170609_res.htm',
         split: [
@@ -1101,7 +1035,6 @@ let events2017 = [
         endDate: '2017-06-18',
         place: 'Ягодное',
         name: 'Спортивный фестиваль «Яркий Мир»',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/17061218/170612R_res.pdf',
         split: [
             'splits/2017/SPB_20170612_2_1_split.htm',
@@ -1122,7 +1055,6 @@ let events2017 = [
         date: '2017-06-12',
         place: 'Мичуринское',
         name: 'Яркий Кубок 2017, 3-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170612S_split.htm',
         o_site: '2017YC',
         start: 'YM_CUP'
@@ -1143,7 +1075,6 @@ let events2017 = [
         endDate: '2017-06-23',
         place: 'Каменногорск, Пруды',
         name: 'Кубок Карельского Перешейка',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/20170518_23KKP/vseros_KKP.rar',
         split: [
             'splits/2017/SPB_20170618_1_1_split.htm',
@@ -1175,7 +1106,6 @@ let events2017 = [
         place: 'Коробицино',
         name: 'XXV Мемориал Михаила Святкина',
         video: 'https://www.youtube.com/watch?v=O1-9Fes-3Gg',
-        type: 'ORIENT',
         start: 'MMS',
         o_site: '17062325',
         o_gps: 2492,
@@ -1219,7 +1149,6 @@ let events2017 = [
         date: '2017-07-02',
         place: 'Гарболово',
         name: 'Яркий Кубок 2017, 4-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170702_split.htm',
         o_site: '2017YC',
         start: 'YM_CUP'
@@ -1250,7 +1179,6 @@ let events2017 = [
         place: 'Петяярви',
         name: 'Перспектива, 1-й этап',
         start: 'PERSPEKTIVA',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=773',
         res: 'https://o-site.spb.ru/_races/2017_Per/170709_res.htm',
         split: 'splits/2017/SPB_20170709_1_split.htm',
@@ -1275,7 +1203,6 @@ let events2017 = [
         endDate: '2017-07-23',
         place: 'Мичуринское',
         name: 'Летнее первенство Белых Ночей',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=774',
         res: 'https://o-site.spb.ru/_races/17072223/170722_res.htm',
         split: [
@@ -1291,7 +1218,6 @@ let events2017 = [
         place: 'Токсово',
         name: 'Перспектива, 2-й этап',
         start: 'PERSPEKTIVA',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=775',
         res: 'https://o-site.spb.ru/_races/170723/170723_res.htm',
         info: 'Серия из четырёх личных стартов',
@@ -1303,7 +1229,6 @@ let events2017 = [
         endDate: '2017-07-30',
         name: 'Ладожский ориентир',
         place: 'Ягодное',
-        type: 'ORIENT',
         reg: 'http://sportident.ru/entry/event_info.php?id=3389',
         res: 'https://o-site.spb.ru/_races/17072930/170729_split.htm',
         split: [
@@ -1318,7 +1243,6 @@ let events2017 = [
         place: 'Первомайское',
         name: 'Перспектива, 3-й этап',
         start: 'PERSPEKTIVA',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=776',
         res: 'https://o-site.spb.ru/_races/170806_Per/170806_res.htm',
         split: 'splits/2017/SPB_20170806_1_split.htm',
@@ -1332,7 +1256,6 @@ let events2017 = [
         endDate: '2017-08-13',
         place: 'оз Смоляное',
         name: 'Летние выходные на Смоляном озере',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=778',
         res: 'https://o-site.spb.ru/_races/17081213/170812_res_.htm',
         split: [
@@ -1357,7 +1280,6 @@ let events2017 = [
         date: '2017-08-19',
         place: 'Первомайское',
         name: 'Яркий Кубок 2017, 5-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170819_split.htm',
         o_site: '2017YC',
         start: 'YM_CUP'
@@ -1367,7 +1289,6 @@ let events2017 = [
         date: '2017-08-20',
         place: 'Первомайское',
         name: 'Яркий Кубок 2017, 6-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170820_split.htm',
         o_site: '2017YC',
         start: 'YM_CUP'
@@ -1388,7 +1309,6 @@ let events2017 = [
         name: 'Перспектива, 4-й этап',
         start: 'PERSPEKTIVA',
         place: 'Семиозерье',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=782',
         res: 'https://o-site.spb.ru/_races/170826_Per/170826_res.htm',
         split: 'splits/2017/SPB_20170826_2_split.htm',
@@ -1400,7 +1320,6 @@ let events2017 = [
         date: '2017-08-27',
         place: 'Лемболово',
         name: 'Памяти Димы Фатидинова',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170827/170827_PDF_rez.htm',
         split: 'splits/2017/SPB_20170827_1_split.htm',
         info: 'Ежегодные соревнования Памяти Димы Фатидинова',
@@ -1412,7 +1331,6 @@ let events2017 = [
         date: '2017-09-02',
         place: 'Орехово',
         name: 'Яркий Кубок 2017, 7-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2017YC/170902_split.htm',
         o_site: '2017YC',
         start: 'YM_CUP'
@@ -1423,7 +1341,6 @@ let events2017 = [
         place: 'Цвелодубово',
         name: '59-й Чемпионат и первенство СПб - выбор',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=783',
         res: 'https://o-site.spb.ru/_races/170903/170903_res_V.htm',
         split: [
@@ -1460,7 +1377,6 @@ let events2017 = [
         date: '2017-09-09',
         place: 'Луга',
         name: 'П-во Новгородской обл',
-        type: 'ORIENT',
         video: 'https://www.youtube.com/watch?v=-Oo_xlrlTuk'
     },
     {
@@ -1469,7 +1385,6 @@ let events2017 = [
         place: 'Вартемяги',
         name: 'Цикл стартов МаТрёшка, 4-й этап',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/170909_split.htm',
         o_site: '170416'
     },
@@ -1478,7 +1393,6 @@ let events2017 = [
         date: '2017-09-10',
         place: 'Симагино',
         name: 'Классика Белых Ночей',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=786',
         res: 'https://o-site.spb.ru/_races/170910_BN/170910_res.pdf',
         split: 'splits/2017/SPB_20170910_1_split.htm',
@@ -1511,7 +1425,6 @@ let events2017 = [
         place: 'Стеклянный',
         name: 'Чемпионат и первенство Ленинградской обл., эстафета',
         start: 'LO_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=789',
         res: 'https://o-site.spb.ru/_races/170916_LO/170916_res_.htm',
         split: 'splits/2017/SPB_20170916_2_split.htm',
@@ -1523,7 +1436,6 @@ let events2017 = [
         place: 'Стеклянный',
         name: 'Чемпионат и первенство Ленинградской обл., классика',
         start: 'LO_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=790',
         res: 'https://o-site.spb.ru/_races/170917_LO/170917_res.htm',
         split: 'splits/2017/SPB_20170917_1_split.htm',
@@ -1535,7 +1447,6 @@ let events2017 = [
         place: 'Среднеохтинский пр',
         name: 'Sprint Tour SPb',
         start: 'ST',
-        type: 'ORIENT',
         map: 'big_okhta_2017'
     },
     {
@@ -1544,7 +1455,6 @@ let events2017 = [
         endDate: '2017-09-25',
         name: 'Старты в Зеркальном',
         place: 'Зеркальный',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170922-25/170923_res.htm',
         split: [
             'splits/2017/SPB_20170922_1_1_split.htm',
@@ -1559,7 +1469,6 @@ let events2017 = [
         date: '2017-09-23',
         place: 'Полюстровский парк',
         name: 'П-во Красногвардейского р-на',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170923/170923_res.pdf',
         split: 'splits/2017/SPB_20170923_1_split.htm',
         o_site: '170923',
@@ -1582,7 +1491,6 @@ let events2017 = [
         place: 'Яппиля',
         name: '59-й Чемпионат и первенство СПб - марафон',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/5260',
         split: 'splits/2017/SPB_20170924_1_split.htm',
         video: 'http://northernwind.spb.ru/videosplit/2018/chspb_marathon',
@@ -1594,7 +1502,6 @@ let events2017 = [
         date: '2017-09-26',
         place: 'ГБОУ средняя школа №339 Невского р-на, ул Дыбенко 12-2',
         name: 'Спортивное ориентирование - в школу (Невский район)',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170926/170926_res_lab.htm',
         split: 'splits/2017/SPB_20170926_1_split.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
@@ -1606,7 +1513,6 @@ let events2017 = [
         date: '2017-09-26',
         name: 'Weekly Orient, 1-й этап',
         start: 'WEEKLY_ORIENT',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017_W_Or/170926_split.htm',
         o_site: '2017_W_Or'
     },
@@ -1615,7 +1521,6 @@ let events2017 = [
         date: '2017-09-27',
         name: 'Осенний спринт',
         place: 'сад Юннатов',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=795',
         o_site: '170927'
     },
@@ -1624,7 +1529,6 @@ let events2017 = [
         date: '2017-09-29',
         place: 'Осиновая роща',
         name: 'Вечерняя тренировка от FoxTeam',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/170929/170929_split.htm',
         split: 'splits/2017/SPB_20170929_1_split.htm',
         o_site: '170929'
@@ -1646,7 +1550,6 @@ let events2017 = [
         date: '2017-09-30',
         place: 'Токсово',
         name: 'Золотые кольца (Свадебные)',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=798',
         info: '43-е традиционные соревнования супружеских пар. Допускаются пары по интересам.',
         start: 'WEDDING',
@@ -1670,7 +1573,6 @@ let events2017 = [
         place: 'Пухтолова гора',
         name: 'Цикл стартов МаТрёшка, 5-й этап',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/170930_mt_split.htm',
         o_site: '170416'
     },
@@ -1680,7 +1582,6 @@ let events2017 = [
         place: 'Токсово',
         name: '59-й Чемпионат и первенство СПб - эстафета',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171001/171001_res.htm',
         split: 'splits/2017/SPB_20171001_1_split.htm',
         o_site: '171001',
@@ -1691,7 +1592,6 @@ let events2017 = [
         date: '2017-10-03',
         name: 'Weekly Orient, 2-й этап',
         start: 'WEEKLY_ORIENT',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2017_W_Or/171003_split.htm',
         o_site: '2017_W_Or'
     },
@@ -1700,7 +1600,6 @@ let events2017 = [
         date: '2017-10-04',
         place: 'школа №226, Бухарестская ул, 33-6А',
         name: 'Спортивное ориентирование - в школу, Фрунзенский р-он',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171004/171004_res_lab.htm',
         split: 'splits/2017/SPB_20171004_1_split.htm',
         photo: 'http://vk.com/fazer_russia?w=wall-51571395_4148&z=album-51571395_247911082',
@@ -1715,7 +1614,6 @@ let events2017 = [
         date: '2017-10-04',
         place: 'Токсово',
         name: 'Старт памяти одноклубника Коли Иванова',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171004_PPKI/171004_PPKI_rez.htm',
         split: 'splits/2017/SPB_20171004_2_split.htm',
         o_site: '171004_PPKI'
@@ -1725,7 +1623,6 @@ let events2017 = [
         date: '2017-10-07',
         place: 'Полюстровский парк',
         name: 'Парковый спринт Золотая Осень',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171007kr/171007_res.htm',
         split: 'splits/2017/SPB_20171007_1_split.htm',
         o_site: '171007kr',
@@ -1737,7 +1634,6 @@ let events2017 = [
         place: 'Зеленогорск',
         name: 'Чемпионат СПб по ориентированию среди ВУЗов',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=800',
         res: 'https://o-site.spb.ru/_races/171007_V/171007_res_VUZ.htm',
         split: 'splits/2017/SPB_20171007_2_split.htm',
@@ -1749,7 +1645,6 @@ let events2017 = [
         place: 'Зеленогорск',
         name: 'Чемпионат и п-во СПб - спорт глухих',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=801',
         res: 'https://o-site.spb.ru/_races/171007_D/171007_res_gl.htm',
         split: 'splits/2017/SPB_20171007_3_split.htm',
@@ -1779,7 +1674,6 @@ let events2017 = [
         place: 'Петяярви',
         name: '59-й Чемпионат и первенство СПб - лонг',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=796',
         res: 'https://o-site.spb.ru/_races/171008/171008_res_.htm',
         split: 'splits/2017/SPB_20171008_1_split.htm',
@@ -1802,7 +1696,6 @@ let events2017 = [
         place: 'Озерки (Рощино)',
         name: 'Кубок Белых Ночей 2017/18, 1-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171014_split.htm',
         o_site: '2018WN'
     },
@@ -1811,7 +1704,6 @@ let events2017 = [
         date: '2017-10-15',
         place: 'Кавголово, Орлиная гора',
         name: 'Петербургская осень',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=802',
         res: 'https://o-site.spb.ru/_races/171014_Az/171015_res__.htm',
         split: 'splits/2017/SPB_20171015_1_split.htm',
@@ -1825,7 +1717,6 @@ let events2017 = [
         date: '2017-10-18',
         place: 'Школа №133, Красногвардейский р-он, ул Петра Смородина, 10А',
         name: 'Спортивное ориентирование - в школу, Красногвардейский р-он',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171018/171018_res_lab.htm',
         split: 'splits/2017/SPB_20171018_1_split.htm',
         info: 'Проект Федерации Спортивного Ориентирования Санкт-Петербурга, направленный на популяризацию спортивного ориентирования среди школьников. Проходит при поддержке: Комитета по молодежной политике и взаимодействию с общественными организациями Санкт-Петербурга, Комитета по образованию Санкт-Петербурга, ОАО "Фацер"',
@@ -1848,7 +1739,6 @@ let events2017 = [
         endDate: '2017-10-22',
         name: 'Золотая осень',
         place: 'им Калинина',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/17102122/171021_res.htm',
         split: [
             'splits/2017/SPB_20171022_1_1_split.htm',
@@ -1864,7 +1754,6 @@ let events2017 = [
         place: 'Пухтолова гора',
         name: 'Кубок Белых Ночей 2017/18, 2-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171028_split.htm',
         o_site: '2018WN'
     },
@@ -1873,7 +1762,6 @@ let events2017 = [
         date: '2017-10-29',
         name: 'Яркий Кубок 2017',
         place: 'Первомайское',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2017YC/171029_split.htm',
         photo: 'http://vk.com/club128591100',
         o_site: '2017YC',
@@ -1885,7 +1773,6 @@ let events2017 = [
         place: 'Шуваловский парк',
         name: 'Цикл стартов МаТрёшка, 6-й этап',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/171029_MT_split.htm',
         o_site: '170416'
     },
@@ -1895,7 +1782,6 @@ let events2017 = [
         endDate: '2017-11-03',
         name: 'ТМ в ОК УНИВЕРСИТЕТСКИЙ',
         place: 'Поляны',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171103/171103_res.htm',
         split: 'splits/2017/SPB_20171030_1_split.htm',
         o_site: '171103'
@@ -1905,7 +1791,6 @@ let events2017 = [
         date: '2017-11-02',
         name: 'Sochi-2017',
         place: 'Сочи',
-        type: 'ORIENT',
         res: 'http://orgeo.ru/live/#/5494',
         split: [
             'splits/2017/SPB_20171102_1_1_split.htm',
@@ -1920,7 +1805,6 @@ let events2017 = [
         date: '2017-11-04',
         place: 'Поляны',
         name: 'Осенний марафон',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=809',
         res: 'https://o-site.spb.ru/_races/171004_OM/171104_res_.htm',
         split: 'splits/2017/SPB_20171104_1_split.htm',
@@ -1946,7 +1830,6 @@ let events2017 = [
         date: '2017-11-05',
         place: 'Всеволожск, 1-е Ждановское озеро',
         name: 'Старт памяти 7 ноября',
-        type: 'ORIENT',
         reg: 'http://sport-orient.ru/products/uncategorized/7-noyabrya-2017',
         res: 'https://o-site.spb.ru/_races/171107/171105_res2.htm',
         split: 'splits/2017/SPB_20171105_2_split.htm',
@@ -1958,7 +1841,6 @@ let events2017 = [
         place: 'Петяярви',
         name: 'Кубок Белых Ночей 2017/18, 3-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171106_split.htm',
         o_site: '2018WN'
     },
@@ -1967,7 +1849,6 @@ let events2017 = [
         date: '2017-11-09',
         name: 'Чемпионат России в Севастополе',
         place: 'Севастополь',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171109Sev/171109_res.htm',
         split: [
             'splits/2017/SPB_20171109_1_1_split.htm',
@@ -1981,7 +1862,6 @@ let events2017 = [
         date: '2017-11-12',
         place: 'Лемболово',
         name: 'МАРКИР-110',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=813',
         res: 'https://o-site.spb.ru/_races/171112_markir/171112_res1.html',
         start: 'ROGAINE_110',
@@ -1993,7 +1873,6 @@ let events2017 = [
         date: '2017-11-12',
         place: 'Сестрорецкие Дюны, Таможенная дорога',
         name: 'Памяти Зои Викторовны Пятаковой',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=812',
         res: 'https://o-site.spb.ru/_races/171112/171112_res.htm',
         split: 'splits/2017/SPB_20171112_2_split.htm',
@@ -2018,7 +1897,6 @@ let events2017 = [
         place: 'оз. Щучье',
         name: 'Кубок Белых Ночей 2017/18, 4-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171118_split.htm',
         o_site: '2018WN'
     },
@@ -2027,7 +1905,6 @@ let events2017 = [
         date: '2017-11-25',
         place: 'Сосновка',
         name: 'Ориентир НатАлка',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=815',
         res: 'https://o-site.spb.ru/_races/2017_Orientir/171125_res.htm',
         split: 'splits/2017/SPB_20171125_1_split.htm',
@@ -2042,7 +1919,6 @@ let events2017 = [
         date: '2017-11-26',
         name: 'Снежная тропа, 3-й этап',
         start: 'SNOW_WAY',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=818',
         res: 'https://o-site.spb.ru/_races/171126/171126_res.htm',
         split: 'splits/2017/SPB_20171126_1_split.htm',
@@ -2055,7 +1931,6 @@ let events2017 = [
         endDate: '2017-12-03',
         place: 'Санкт-Петербург',
         name: 'Семинар подготовки судей 2 и 3 категорий',
-        type: 'ORIENT',
         info: 'Региональный семинар по подготовке и аттестации судей 2 и 3-й категорий по спортивному ориентированию для представителей Санкт-Петербурга и Ленинградской области. Программой мероприятия запланировано выступление лекторов из ФСОР. Проводится совместно со Всероссийским семинаром по подготовке спортивных судей Всероссийской и 1-й категории Внимание: прохождение семинара не дает автоматически категорию спортивного судьи. Желающим после прохождения семинара получить судейскую категорию или повысить имеющуюся, нужно заполнить представление и карточку учета судейской деятельности. В приложении квалификационные требования к спортивным судьям и НОВЫЕ представление и карточка учета. Консультацию можно получить у Васильевой Ирины, mk@spbof.ru',
         o_site: '17120203'
     },
@@ -2065,7 +1940,6 @@ let events2017 = [
         place: 'Кавголовский парк',
         name: 'Кубок Белых Ночей 2017/18, 5-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171202_split.htm',
         o_site: '2018WN'
     },
@@ -2074,7 +1948,6 @@ let events2017 = [
         date: '2017-12-03',
         name: 'Цикл стартов МаТрёшка',
         start: 'MATRESHKA',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/170416/170416_rez_MT.htm',
         split: [
             'splits/2017/SPB_20171203_1_1_split.htm',
@@ -2092,7 +1965,6 @@ let events2017 = [
         place: 'Кавголово',
         name: 'Кубок Белых Ночей 2017/18, 6-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171209_split.htm',
         o_site: '2018WN'
     },
@@ -2102,7 +1974,6 @@ let events2017 = [
         name: 'Всеволожская тропа, 5 этап',
         start: 'VSEVOLOZHSK_WAY',
         place: 'Сосновка',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171119_VT/171210_rez.htm',
         split: 'splits/2017/SPB_20171210_1_split.htm',
         o_site: '171119_VT',
@@ -2113,7 +1984,6 @@ let events2017 = [
         date: '2017-12-16',
         place: 'ФМЛ №239',
         name: 'Вечер встречи ориентировщиков',
-        type: 'ORIENT',
         info: 'Традиционный вечер встречи по итогам летнего сезона 2017. Организатор: Федерация спортивного ориентирования Санкт-Петербурга Проходит при поддержке: Компании RedFox Сети магазинов «Спортивная Линия» Экипировочного центра «ОХТА» Экипировочного центра «Mass Sport» Кондитерской фабрики "Вереск" SIGN SPORT Russia В программе: Награждение (дипломами) за летний Чемпионат и Первенство СПб 2017 (велосипедные дисциплины), список призёров Награждение (дипломами) за летний Чемпионат и Первенство СПб 2017 (кроссовые дисциплины), Награждение по итогам летнего Кубка СПб и ЛО в личном и клубном зачётах, список призёров Место проведения: школа №239 Начало вечера: в 17:00 Все пришедшие на вечер участники награждения и гости смогут принять участие в лотерее, в которой будут разыграны призы от спонсоров. Внимание! С собой необходимо иметь сменную обувь или бахилы!',
         o_site: '171216'
     },
@@ -2123,7 +1993,6 @@ let events2017 = [
         place: 'Голубая Дача',
         name: 'Кубок Белых Ночей 2017/18, 7-й этап',
         start: 'KBN',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/2018WN/171216_split.htm',
         o_site: '2018WN'
     },
@@ -2133,7 +2002,6 @@ let events2017 = [
         name: 'Снежная тропа, 4-й этап',
         start: 'SNOW_WAY',
         place: 'Пискаревский парк',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/171217/171217_res.htm',
         split: 'splits/2017/SPB_20171217_1_split.htm',
         info: 'размещаются в средней общеобразовательной школе № 473 Калининского района по адресу: ул. Верности, д. 28, корп.',
@@ -2146,7 +2014,6 @@ let events2017 = [
         place: 'Воейково',
         name: 'Weekly Orient, 3 этап',
         start: 'WEEKLY_ORIENT',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=799',
         res: 'https://o-site.spb.ru/_races/2017_W_Or/171223_split.htm',
         o_site: '2017_W_Or',
@@ -2157,7 +2024,6 @@ let events2017 = [
         date: '2017-12-30',
         place: 'Сертолово',
         name: 'Новогодняя Эстафета',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=825',
         res: 'http://reg.o-time.ru/result/17173.pdf',
         o_site: '171230'
@@ -2167,7 +2033,6 @@ let events2017 = [
         date: '2017-12-31',
         place: 'парк ЛТА',
         name: 'Тренировка FoxTeam',
-        type: 'ORIENT',
         reg: 'http://o-reg.spb.ru/entry-list?id=828',
         res: 'https://o-site.spb.ru/_races/171231_/171231_res.htm',
         split: 'splits/2017/SPB_20171231_1_split.htm',

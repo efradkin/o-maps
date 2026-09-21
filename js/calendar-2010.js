@@ -5,7 +5,6 @@ let events2010 = [
         endDate: '2010-01-09',
         place: 'Рощино',
         name: 'Две Пятёрочки',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10010809/10010809_res.htm',
         split: 'splits/2010/SPB_20100108_1_split.htm',
         o_site: '10010809'
@@ -26,7 +25,6 @@ let events2010 = [
         date: '2010-01-17',
         name: 'Спринтерский Марафон',
         place: 'Александрино',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100117/100117_res.zip',
         info: 'Ориентирование бегом на заснеженном грунте',
         o_site: '100117'
@@ -194,7 +192,6 @@ let events2010 = [
         date: '2010-02-28',
         name: 'Всеволожская тропа, 3-й этап',
         start: 'VSEVOLOZHSK_WAY',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/100228_res.htm',
         o_site: '100411_tropa'
     },
@@ -241,7 +238,6 @@ let events2010 = [
         date: '2010-03-08',
         name: 'Всеволожская тропа, 4-й этап',
         start: 'VSEVOLOZHSK_WAY',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/100308_res.htm',
         o_site: '100411_tropa'
     },
@@ -260,7 +256,6 @@ let events2010 = [
         place: 'Павловский парк',
         name: 'Снежная Тропа, 2-й этап',
         start: 'SNOW_WAY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100315/100314_res.pdf',
         split: 'splits/2010/SPB_20100314_1_split.htm',
         o_site: '100315',
@@ -302,7 +297,6 @@ let events2010 = [
         id: 'SPB_20100401_1',
         date: '2010-04-01',
         name: 'Летний Кубок СПб и ЛО 2010',
-        type: 'ORIENT',
         info: 'Многоэтапные лично-командные соревнования по спортивному ориентированию «Кубок Санкт-Петербурга и Ленинградской области» проводятся Федерациями спортивного ориентирования Санкт-Петербурга и Ленинградской области с целью развития клубного движения и выявления сильнейших спортсменов-ориентировщиков и сильнейших клубов спортивного ориентирования СПб и ЛО. этап 1 18.04 рейтинг этап 2 25.04 рейтинг этап 3 02.05 рейтинг этап 4 15.05 рейтинг этап 5 29.05 рейтинг этап 6 05.06 рейтинг этап 7 19.09 рейтинг этап 8 22.09 рейтинг этап 9 03.10 рейтинг этап 10 24.10 рейтинг',
         o_site: 'SPb_LO_Cup',
         // endDate: '2010-10-31'
@@ -312,7 +306,6 @@ let events2010 = [
         date: '2010-04-04',
         name: 'Вечер встречи ориентировщиков',
         place: 'Эколого-биологический центр, Крестовский пр, 19',
-        type: 'ORIENT',
         o_site: '100404'
     },
     {
@@ -331,7 +324,6 @@ let events2010 = [
         place: 'Московский парк Победы',
         name: 'Тренировка от Стрекозаек',
         start: 'STREKOZAIKI',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100410_st/100410_res.htm',
         split: 'splits/2010/SPB_20100410_2_split.htm',
         info: '10 апреля команда Стрекозайки проводит открытую тренировку в Московском парке Победы',
@@ -344,7 +336,6 @@ let events2010 = [
         name: 'Всеволожская тропа',
         start: 'VSEVOLOZHSK_WAY',
         place: 'Кузьмолово',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/100411_tropa/091129_res1.htm',
         o_site: '100411_tropa'
     },
@@ -355,7 +346,6 @@ let events2010 = [
         place: 'Сосновый Бор',
         name: 'Сосновоборские дюны',
         start: 'SOSNOVOBORSKY_DUNY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100417_sb/100417_res.htm',
         split: [
             'splits/2010/SPB_20100417_1_1_split.zip',
@@ -369,7 +359,6 @@ let events2010 = [
         date: '2010-04-22',
         place: 'Сертолово',
         name: 'Первенство Сертолово',
-        type: 'ORIENT',
         video: 'https://www.youtube.com/watch?v=7NII12eGm4M'
     },
     {
@@ -377,7 +366,6 @@ let events2010 = [
         date: '2010-04-24',
         place: 'детские Дюны',
         name: 'Кубок Яркого Мира 2010, 1-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100424_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -387,7 +375,6 @@ let events2010 = [
         date: '2010-04-25',
         place: 'Дюны',
         name: 'Кубок Яркого Мира 2010, 2-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100425_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -399,7 +386,6 @@ let events2010 = [
         place: 'Цвелодубово',
         name: 'Чемпионат и пер-во ЛО',
         start: 'LO_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10050103/100501_res.htm',
         o_site: '10050103'
     },
@@ -408,7 +394,6 @@ let events2010 = [
         date: '2010-05-08',
         place: 'Пухтола гора',
         name: 'Соревнования, посвящённые Дню Победы',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100508_Az/100508_res.htm',
         split: 'splits/2010/SPB_20100508_1_split.htm',
         info: 'Соревнования, посвящённые 65-й годовщине Победы Открытое п-во СДЮСШОР Курортного р-на, посв. Дню Победы',
@@ -422,7 +407,6 @@ let events2010 = [
         date: '2010-05-09',
         place: 'Юкки',
         name: 'Эстафета 2х2',
-        type: 'ORIENT',
         res: ['https://o-site.spb.ru/_races/100508_2x2/100509_res.htm','./docs/2x2/2010_2x2_results_omaps.gif'],
         o_site: '100508_2x2',
         map: '2x2_2010_05_09',
@@ -433,7 +417,6 @@ let events2010 = [
         date: '2010-05-10',
         place: 'оз.Банное',
         name: 'Кубок Яркого Мира 2010, 3-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100510_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -443,7 +426,6 @@ let events2010 = [
         date: '2010-05-15',
         place: 'Комарово',
         name: 'Клубные эстафеты (2+1)',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100515_est/100515_res.htm',
         split: [
             'splits/2010/SPB_20100515_1_1_split.htm',
@@ -469,7 +451,6 @@ let events2010 = [
         date: '2010-05-16',
         place: 'Всеволожск',
         name: 'Российский Азимут ЛО',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10RA_LO/10RA_LO_split.htm',
         split: 'splits/2010/SPB_20100516_1_split.htm',
         fmt: 'дистанция по выбору',
@@ -493,7 +474,6 @@ let events2010 = [
         date: '2010-05-22',
         place: 'Лемболово',
         name: 'Памяти друзей',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100522_Az/100522_res.htm',
         split: 'splits/2010/SPB_20100522_1_split.htm',
         info: 'Традиционный старт клуба Азимут.',
@@ -507,7 +487,6 @@ let events2010 = [
         endDate: '2010-05-23',
         place: 'Селгисе, Эстония',
         name: 'Чемпионат Прибалтики',
-        type: 'ORIENT',
         res: 'http://www.okilves.ee/voist/baltimv2010/index.php',
         photo: 'http://o-site.spb.ru/gallery.php?id=gallery83',
         info: 'Выезд сборной команды Петербурга на чемпионат Прибалтики в период 21-23 мая 2010 г. в Селгисе, Эстония (40 км к северо-востоку от Тарту).',
@@ -528,7 +507,6 @@ let events2010 = [
         place: 'Осиновая роща',
         name: 'Первенство Санкт-Петербурга среди обучающихся',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100523/100523_res.htm',
         split: 'splits/2010/SPB_20100523_1_split.htm',
         o_site: '100523'
@@ -546,7 +524,6 @@ let events2010 = [
         place: 'Сосново, г Каланчевка',
         name: 'Чемпионат СПб, классика',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100529_1/100529_res.htm',
         split: 'splits/2010/SPB_20100529_2_split.htm',
         info: '52-й ЛЕТНИЙ ЧЕМПИОНАТ и ПЕРВЕНСТВО САНКТ-ПЕТЕРБУРГА по СПОРТИВНОМУ ОРИЕНТИРОВАНИЮ БЕГОМ, классическая дистанция.',
@@ -572,7 +549,6 @@ let events2010 = [
         date: '2010-05-30',
         place: 'Колосково, пл 78км',
         name: 'Первенство Команды 110%',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100530/100530_res.htm',
         split: 'splits/2010/SPB_20100530_1_split.htm',
         start: 'ROGAINE_110',
@@ -583,7 +559,6 @@ let events2010 = [
         date: '2010-05-30',
         place: 'Сосновка',
         name: 'Российский Азимут СПб',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10RA_SPb/100530_res.htm',
         split: 'splits/2010/SPB_20100530_2_split.htm',
         owner: 'SFSO_SPB',
@@ -595,7 +570,6 @@ let events2010 = [
         date: '2010-06-04',
         name: 'Весенний Кубок команды 110%',
         place: 'Токсово, Матокса',
-        type: 'ORIENT',
         start: 'ROGAINE_110',
         o_site: '100604'
     },
@@ -615,7 +589,6 @@ let events2010 = [
         place: 'Комарово',
         name: 'Чемпионат СПб, спринт',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100605_SPb/100605_res_.htm',
         split: 'splits/2010/SPB_20100605_2_split.htm',
         info: '52-й летний чемпионат и первенство Санкт-Петербурга по спортивному ориентированию',
@@ -628,7 +601,6 @@ let events2010 = [
         place: 'Токсово, ВИФК',
         name: 'Чемпионат СПб, эстафеты',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100606/100606_res.htm',
         split: 'splits/2010/SPB_20100606_1_split.htm',
         video: ['https://www.youtube.com/watch?v=j_KTc8cVk-o','https://www.youtube.com/watch?v=jFCgJDqyx9s'],
@@ -640,7 +612,6 @@ let events2010 = [
         // endDate: '2010-06-19',
         place: 'Петяярви',
         name: 'УТС ЛО',
-        type: 'ORIENT',
         o_site: '10060919'
     },
     {
@@ -648,7 +619,6 @@ let events2010 = [
         date: '2010-06-12',
         place: 'Петяярви',
         name: 'Кубок Центра Ладога, финал',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100612/100612_res.html',
         split: 'splits/2010/SPB_20100612_1_split.html',
         o_site: '100612'
@@ -659,7 +629,6 @@ let events2010 = [
         endDate: '2010-06-14',
         place: 'Мичуринское',
         name: 'Невский Азимут',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10061214_na/100612_res.htm',
         split: [
             'splits/2010/SPB_20100612_2_1_split.htm',
@@ -677,7 +646,6 @@ let events2010 = [
         endDate: '2010-06-20',
         place: 'Мичуринское',
         name: 'Фестиваль «Белые Ночи-2010»',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10061520/10061520_res.zip',
         split: [
             'splits/2010/SPB_20100615_1_1_split.htm',
@@ -709,7 +677,6 @@ let events2010 = [
         endDate: '2010-06-23',
         place: 'Лемболово',
         name: 'Карельские Скалы',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10062123_KS/KS2010_split.zip',
         split: 'splits/2010/SPB_20100621_1_split.zip',
         video: 'https://www.youtube.com/watch?v=3iyW7gVlV50',
@@ -723,7 +690,6 @@ let events2010 = [
         endDate: '2010-06-27',
         place: 'Лемболово',
         name: 'Мемориал Михаила Святкина',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10062527/100625_res.htm',
         split: 'splits/2010/SPB_20100625_1_split.zip',
         start: 'MMS',
@@ -736,7 +702,6 @@ let events2010 = [
         endDate: '2010-07-05',
         place: 'Приозерск, Кузнечное',
         name: 'Кубок России по ориентированию бегом, Приозерск',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10070305/100703_res.pdf',
         split: [
             'splits/2010/SPB_20100703_1_1_split.htm',
@@ -750,7 +715,6 @@ let events2010 = [
         date: '2010-07-04',
         place: 'оз.Медное',
         name: 'Кубок Яркого Мира 2010, 4-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100704_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -772,7 +736,6 @@ let events2010 = [
         date: '2010-07-11',
         place: 'Орехово',
         name: 'Открытое п-во ОК судостроения',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100711_Az/100711_res.htm',
         split: 'splits/2010/SPB_20100711_1_split.htm',
         info: 'Традиционный старт КСО Азимут и ориентировщиков-судостроителей',
@@ -833,7 +796,6 @@ let events2010 = [
         date: '2010-08-21',
         place: 'Мичуринское',
         name: 'Кубок Яркого Мира 2010, 5-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100821_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -843,7 +805,6 @@ let events2010 = [
         date: '2010-08-22',
         place: 'Мичуринское',
         name: 'Кубок Яркого Мира 2010, 6-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100822_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -853,7 +814,6 @@ let events2010 = [
         date: '2010-08-29',
         place: 'Лемболово, оз Горынское',
         name: 'Зелёный змей',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100829_Az/100829_res.htm',
         info: 'Традиционный августовский старт КСО Азимут',
         start: 'GS',
@@ -876,7 +836,6 @@ let events2010 = [
         date: '2010-09-04',
         place: 'оз.Пасторское',
         name: 'Кубок Яркого Мира 2010, 7-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100904_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -886,7 +845,6 @@ let events2010 = [
         date: '2010-09-05',
         place: 'оз.Пасторское',
         name: 'Кубок Яркого Мира 2010, 8-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/100905_split.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -925,7 +883,6 @@ let events2010 = [
         date: '2010-09-12',
         place: 'Комарово',
         name: 'Классика Белых Ночей',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100912/100912_res.zip',
         split: 'splits/2010/SPB_20100912_1_split.htm',
         owner: 'WN',
@@ -936,7 +893,6 @@ let events2010 = [
         date: '2010-09-15',
         place: 'Токсово, Каменная дорога',
         name: 'Ориентир-8',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100421_OR/100915_res.htm',
         info: 'Тренировочный старт КСО Азимут.',
         o_site: '100421_OR'
@@ -946,7 +902,6 @@ let events2010 = [
         date: '2010-09-16',
         place: 'Кавголово',
         name: 'Осенний Кубок команды 110%, 1-й этап',
-        type: 'ORIENT',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/100916_res.htm',
         o_site: '101118'
@@ -956,7 +911,6 @@ let events2010 = [
         date: '2010-09-18',
         place: 'Ушково, Пухтола гора',
         name: 'Открытое п-во КСО Азимут',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100918_Az/100918_res.htm',
         split: 'splits/2010/SPB_20100918_1_split.htm',
         logo: 'azimut.gif',
@@ -969,7 +923,6 @@ let events2010 = [
         place: 'Мичуринское',
         name: 'Чемпионат СПб, марафон',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/100919/100919_split-1.htm',
         split: 'splits/2010/SPB_20100919_1_split.htm',
         o_site: '100919',
@@ -980,7 +933,6 @@ let events2010 = [
         date: '2010-09-19',
         place: 'Мичуринское',
         name: 'Кубок Яркого Мира 2010, 9-й этап',
-        type: 'ORIENT',
         o_site: '2010CupYM',
         start: 'YM_CUP'
     },
@@ -989,7 +941,6 @@ let events2010 = [
         date: '2010-09-22',
         place: 'Пискаревский парк',
         name: 'Парковый спринт - этап Кубка СПб и ЛО',
-        type: 'ORIENT',
         res: 'http://o-time.ru/images/all/s10/footo220910.htm',
         o_site: '100922',
         map: 'piskarevsky_1996'
@@ -1000,7 +951,6 @@ let events2010 = [
         endDate: '2010-09-27',
         place: 'Зеркальный',
         name: 'Юношеская многодневка в Зеркальном, Марафон На Холмах Яппиля',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10092427/10092427_res.zip',
         split: [
             'splits/2010/SPB_20100924_1_1_split.htm',
@@ -1025,7 +975,6 @@ let events2010 = [
         date: '2010-09-26',
         place: 'Яппиля',
         name: 'Кубок ОК Гольфстрим, 1-й беговой этап — марафон',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/10092427/100926_res.pdf',
         owner: 'GOLFSTREAM',
         o_site: '100314'
@@ -1035,7 +984,6 @@ let events2010 = [
         date: '2010-09-29',
         place: 'Сосновка',
         name: 'Кубок ОК Гольфстрим, 2-й беговой этап — спринт',
-        type: 'ORIENT',
         res: 'http://o-site.spb.ru/_races/100929/100929_res.htm',
         owner: 'GOLFSTREAM',
         o_site: '100314'
@@ -1045,7 +993,6 @@ let events2010 = [
         date: '2010-09-30',
         place: 'Токсово',
         name: 'Осенний Кубок команды 110%, 2-й этап',
-        type: 'ORIENT',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/100930_res.htm',
         o_site: '101118'
@@ -1055,7 +1002,6 @@ let events2010 = [
         date: '2010-10-02',
         place: 'Гарболово',
         name: 'Золотые Кольца',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101002/101002_res.xls',
         split: 'splits/2010/SPB_20101002_1_split.htm',
         start: 'WEDDING',
@@ -1067,7 +1013,6 @@ let events2010 = [
         place: 'Шапки',
         name: 'Чемпионат и Первенство СПб, средняя дистанция',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101003/101003_res.htm',
         split: 'splits/2010/SPB_20101003_1_split.htm',
         o_site: '101003',
@@ -1078,7 +1023,6 @@ let events2010 = [
         date: '2010-10-07',
         place: 'Кузьмолово',
         name: 'Старт памяти Коли Иванова',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101007/101007_res.htm',
         split: 'splits/2010/SPB_20101007_1_split.htm',
         o_site: '101007'
@@ -1088,7 +1032,6 @@ let events2010 = [
         date: '2010-10-09',
         place: 'Зеленогорск, Чёрные оз',
         name: 'XXXIX соревнования по ночному ориентированию памяти А.Окинчица',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101009/101009_res.htm',
         split: 'splits/2010/SPB_20101009_1_split.htm',
         start: 'OKINCHITSA',
@@ -1100,7 +1043,6 @@ let events2010 = [
         place: 'оз Щучье, Комарово',
         name: 'Чемпионат и Первенство ЛО',
         start: 'LO_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10100910/10100910_res.zip',
         split: [
             'splits/2010/SPB_20101009_2_1_split.htm',
@@ -1126,7 +1068,6 @@ let events2010 = [
         date: '2010-10-14',
         place: 'Юкки',
         name: 'Осенний Кубок команды 110%, 3-й этап',
-        type: 'ORIENT',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/101014_res.htm',
         o_site: '101118'
@@ -1136,7 +1077,6 @@ let events2010 = [
         date: '2010-10-16',
         name: 'Кубок Яркого Мира 2010',
         place: 'Воейково',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/101016_split.htm',
         start: 'YM_CUP',
         o_site: '2010CupYM',
@@ -1147,7 +1087,6 @@ let events2010 = [
         date: '2010-10-16',
         place: 'Песочный',
         name: 'Ночные Эстафеты',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101016/101016_res.htm',
         split: 'splits/2010/SPB_20101016_2_split.htm',
         o_site: '101016'
@@ -1158,7 +1097,6 @@ let events2010 = [
         endDate: '2010-10-17',
         place: 'Орехово',
         name: 'Кубок ОК Гольфстрим, финальные этапы',
-        type: 'ORIENT',
         res: 'http://gs-oc.ru/phocadownload/competitions/gs-cup/101016,17.zip',
         owner: 'GOLFSTREAM',
         o_site: '100314'
@@ -1168,7 +1106,6 @@ let events2010 = [
         date: '2010-10-17',
         place: 'Воейково',
         name: 'Кубок Яркого Мира 2010, личный финал',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/2010CupYM/101017_split1.htm',
         o_site: '2010CupYM',
         start: 'YM_CUP'
@@ -1178,7 +1115,6 @@ let events2010 = [
         date: '2010-10-21',
         place: 'Кузьмолово',
         name: 'Осенний Кубок команды 110%, 4-й этап',
-        type: 'ORIENT',
         start: 'ROGAINE_110',
         res: 'http://www.o-site.spb.ru/_races/101118/101021_res.htm',
         o_site: '101118'
@@ -1189,7 +1125,6 @@ let events2010 = [
         endDate: '2010-10-24',
         name: 'Золотая Осень, Финал Кубка СПб и ЛО',
         place: 'Таммисуо',
-        type: 'ORIENT',
         res: 'http://orientirclub.ucoz.ru/index/rezultaty_1_go_dnja/0-5',
         split: 'splits/2010/SPB_20101023_1_split.htm',
         owner: 'VYBORG',
@@ -1200,7 +1135,6 @@ let events2010 = [
         date: '2010-10-30',
         place: 'Лемболово',
         name: 'Критериум',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101030/101030_res.htm',
         o_site: '101030'
     },
@@ -1209,7 +1143,6 @@ let events2010 = [
         date: '2010-10-31',
         place: 'Зеленогорск-Комарово',
         name: 'Петербургская осень, Первенство ВУЗов',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101031_Az/101031_res.htm',
         split: [
             'splits/2010/SPB_20101031_1_1_split.htm',
@@ -1226,7 +1159,6 @@ let events2010 = [
         endDate: '2010-11-07',
         place: 'лагерь Мечта, Мичуринское',
         name: 'УТС в «Мечте»',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/10110107/101106_res.zip',
         split: 'splits/2010/SPB_20101101_1_split.htm',
         o_site: '10110107'
@@ -1247,7 +1179,6 @@ let events2010 = [
         date: '2010-11-04',
         place: 'Лемболово',
         name: 'Осенний марафон',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101104_Az/101104_res.htm',
         split: 'splits/2010/SPB_20101104_1_split.htm',
         info: 'Традиционные праздничные ноябрьские соревнования на удлинённой дистанции, проводимы клубом Азимут',
@@ -1274,7 +1205,6 @@ let events2010 = [
         date: '2010-11-11',
         place: 'Кавголово',
         name: 'Осенний Кубок команды 110%, 5-й этап',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/101118/101111_res.htm',
         start: 'ROGAINE_110',
         o_site: '101118'
@@ -1284,7 +1214,6 @@ let events2010 = [
         date: '2010-11-18',
         name: 'Осенний Кубок команды 110%',
         place: 'Кузьмолово',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/101118/100916_res.htm',
         start: 'ROGAINE_110',
         o_site: '101118'
@@ -1295,7 +1224,6 @@ let events2010 = [
         place: 'Пискарёвский парк',
         name: 'Снежная Тропа, 1-й этап',
         start: 'SNOW_WAY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101121/101121_res1.htm',
         split: 'splits/2010/SPB_20101121_1_split.htm',
         info: '21 ноября 2010 г. - 1-й этап 12 декабря 2010 г. - 2-й этап',
@@ -1321,7 +1249,6 @@ let events2010 = [
         date: '2010-11-28',
         place: 'Зеленогорск',
         name: 'Кубок ОК Гольфстрим, 1 этап',
-        type: 'ORIENT',
         res: 'http://gs-oc.ru/phocadownload/competitions/gs-cup-2011/101128_results.htm',
         info: '1-й этап: 28 ноября – Маркированная трасса бегом 35-60 минут. Заявка производится на сайте http://o-reg.spb.ru/',
         owner: 'GOLFSTREAM',
@@ -1332,7 +1259,6 @@ let events2010 = [
         date: '2010-12-05',
         place: 'Эколого-биологический центр, Крестовский пр, 19',
         name: 'Вечер встречи ориентировщиков',
-        type: 'ORIENT',
         info: 'Вечер встречи ориентировщиков состоиться в конференц–зале Эколого-биологического Центра «Крестовский остров», СДЮСШОР №2 ГОУ ЦО «СПбГДТЮ» Начало в 17:00',
         o_site: '101205'
     },
@@ -1341,7 +1267,6 @@ let events2010 = [
         date: '2010-12-05',
         place: 'Песочная',
         name: 'Ориентир НатАлка',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101205_Az/101205_res.htm',
         split: 'splits/2010/SPB_20101205_2_split.htm',
         info: 'Традиционный старт КСО Азимут',
@@ -1356,7 +1281,6 @@ let events2010 = [
         place: 'Парк Зверинец, Петродворец',
         name: 'Снежная Тропа, 2-й этап',
         start: 'SNOW_WAY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101212/101212_res.htm',
         split: 'splits/2010/SPB_20101212_1_split.htm',
         info: '21 ноября 2010 г. - 1-й этап 12 декабря 2010 г. - 2-й этап',
@@ -1367,7 +1291,6 @@ let events2010 = [
         date: '2010-12-19',
         name: 'Всеволожская тропа, 1-й этап',
         start: 'VSEVOLOZHSK_WAY',
-        type: 'ORIENT',
         res: 'http://www.o-site.spb.ru/_races/110410_tropa/101219_res.htm',
         o_site: '110410_tropa'
     },
@@ -1386,7 +1309,6 @@ let events2010 = [
         date: '2010-12-26',
         place: 'Токсово, Малиновая Гора',
         name: 'Новогодняя Эстафета',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/101226/101226_res.htm',
         video: 'https://www.youtube.com/watch?v=eJ6WGTbmy98',
         o_site: '101226',

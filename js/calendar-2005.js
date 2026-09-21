@@ -17,7 +17,6 @@ let events2005 = [
         endDate: '2005-01-23',
         place: 'Семиозерье',
         name: 'Кросс-марафон',
-        type: 'ORIENT',
         map: 'polyany_2005'
     },
     {
@@ -26,7 +25,6 @@ let events2005 = [
         place: 'Шуваловский парк',
         name: 'Снежная Тропа, 3-й этап',
         start: 'SNOW_WAY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050123/tropa_3et_res.zip',
         o_site: '050123'
     },
@@ -55,7 +53,6 @@ let events2005 = [
         endDate: '2005-02-06',
         place: 'Гатчина',
         name: 'Чемпионат России по ориентированию бегом на заснеженном грунте',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050205/Gat4ina.zip',
         o_site: '050205',
         map: 'gatchina_zverinets_2005',
@@ -68,7 +65,6 @@ let events2005 = [
         place: 'парк Зверинец, Гатчина',
         name: 'Снежная Тропа, 4-й этап',
         start: 'SNOW_WAY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050206_tr/tropa_4et_res.htm',
         o_site: '050206_tr'
     },
@@ -77,7 +73,6 @@ let events2005 = [
         date: '2005-02-23',
         place: 'Кузьмолово',
         name: 'Пер-во клуба Гольфстрим. Выбор',
-        type: 'ORIENT',
         fmt: 'Выбор',
         owner: 'GOLFSTREAM',
         o_site: '050223'
@@ -107,7 +102,6 @@ let events2005 = [
         date: '2005-03-07',
         place: 'Всеволожск, Румболовский парк',
         name: 'Кубок Яркого Мира, 1-й этап',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050307/1e-predv.htm',
         fmt: 'выбор с раздельного старта',
         start: 'YM_CUP',
@@ -163,7 +157,6 @@ let events2005 = [
         place: 'Сосновый Бор',
         name: 'Сосновоборские дюны',
         start: 'SOSNOVOBORSKY_DUNY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050410/sosnbor_res.zip',
         o_site: '050410'
     },
@@ -172,7 +165,6 @@ let events2005 = [
         date: '2005-04-17',
         place: 'Голубая Дача',
         name: 'Открытие летнего сезона',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050417/050417.zip',
         o_site: '050417'
     },
@@ -191,7 +183,6 @@ let events2005 = [
         date: '2005-04-23',
         place: 'Кузьмолово',
         name: 'Эстафеты 2х2',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050507/2x2_res.zip',
         info: '23 апреля, 30 апреля, 7 мая, 14 мая. <a href="./docs/2x2/2005_kuzmolovo_2x2_itogi_omaps.pdf">Итоги и результаты</a>, <a href="./docs/2x2/2005_kuzmolovo_2x2_photos_omaps.doc">буклет</a>.',
         fmt: 'Эстафеты',
@@ -204,7 +195,6 @@ let events2005 = [
         date: '2005-04-24',
         place: 'Кузьмолово',
         name: 'Кубок Яркого Мира, 2-й этап',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050424/YM_et2res.zip',
         start: 'YM_CUP',
         o_site: '050424'
@@ -224,7 +214,6 @@ let events2005 = [
         endDate: '2005-05-02',
         place: 'Кириши',
         name: 'на призы Киришинефтеоргсинтез',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050430/kirishi_res.zip',
         o_site: '050430'
     },
@@ -234,7 +223,6 @@ let events2005 = [
         endDate: '2005-05-02',
         place: 'Петяярви',
         name: 'Кубок Яркого Мира, 3-4-й этапы',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050501/34YMres.zip',
         start: 'YM_CUP',
         o_site: '050501'
@@ -244,7 +232,6 @@ let events2005 = [
         date: '2005-05-08',
         place: 'Пухтола гора',
         name: 'Первенство КО, день1',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050508/KO_080505_res.zip',
         o_site: '050508',
         map: 'pukhtolova_gora_2009'
@@ -263,7 +250,6 @@ let events2005 = [
         date: '2005-05-15',
         place: 'Орехово',
         name: 'Кубок СПб',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050515/050515_res.zip',
         o_site: '050515',
         map: 'orekhovo_rakitinskoe_2004'
@@ -283,7 +269,6 @@ let events2005 = [
         endDate: '2005-05-22',
         place: 'Петяярви',
         name: 'Открытый Кубок СДЮШОР',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050521/05052122.zip',
         o_site: '050521'
     },
@@ -303,7 +288,6 @@ let events2005 = [
         date: '2005-05-22',
         place: 'Зеленогорск, оз Щучье',
         name: 'Первенство КО, день2',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050522/050522_ko_res.zip',
         o_site: '050522'
     },
@@ -322,7 +306,6 @@ let events2005 = [
         endDate: '2005-05-29',
         name: 'Чемпионат СПб, спринт и средняя дистанция',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/05052829/05052829.zip',
         o_site: '05052829'
     },
@@ -343,7 +326,6 @@ let events2005 = [
         place: 'Каннельярви',
         name: 'Чемпионат СПб, эстафеты и классика',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/05060405/05060405.zip',
         o_site: '05060405'
     },
@@ -353,7 +335,6 @@ let events2005 = [
         endDate: '2005-06-12',
         place: 'Орехово',
         name: 'Невский Азимут 2005',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050610/na2005.rar',
         start: 'NA',
         o_site: '050610',
@@ -376,7 +357,6 @@ let events2005 = [
         endDate: '2005-06-15',
         place: '67км',
         name: 'Яркий Мир 2005',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050613/result_ym_2005.rar',
         start: 'YM',
         o_site: '050613'
@@ -387,7 +367,6 @@ let events2005 = [
         endDate: '2005-06-19',
         place: 'Кузнечное',
         name: 'Белые Ночи',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050517/WN.zip',
         fmt: 'многодневка',
         owner: 'WN',
@@ -401,7 +380,6 @@ let events2005 = [
         endDate: '2005-06-22',
         place: 'Кузнечное',
         name: 'Карельские Скалы',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050620/KS_res.zip',
         fmt: 'сумма 3-х дней',
         start: 'KS',
@@ -414,7 +392,6 @@ let events2005 = [
         endDate: '2005-06-26',
         place: 'Сосново, 78км',
         name: 'Мемориал Святкина',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050624/MemSv_res.zip',
         start: 'MMS',
         o_site: '050624',
@@ -434,7 +411,6 @@ let events2005 = [
         date: '2005-07-03',
         place: 'Медное оз',
         name: 'Кубок Яркого Мира, 6-й этап',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050703_ym/ym_et6_res.zip',
         start: 'YM_CUP',
         o_site: '050703_ym'
@@ -454,7 +430,6 @@ let events2005 = [
         date: '2005-07-17',
         place: 'Токсово, СКА',
         name: 'Пробег Хепоярви',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050717/050717_res.zip',
         o_site: '050717'
     },
@@ -486,7 +461,6 @@ let events2005 = [
         endDate: '2005-07-31',
         place: 'Цвелодубово',
         name: 'Три-О-Тлон 2005',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/tri-o-tlon-2005/TOT2005_res.htm',
         split: 'splits/2005/SPB_20050730_1_split.htm',
         publish: 'https://o-site.spb.ru/race.php?id=tri-o-tlon-2005',
@@ -500,7 +474,6 @@ let events2005 = [
         endDate: '2005-08-07',
         place: 'Кузнечное',
         name: 'Кубок Яркого Мира, 7-8-й этапы',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050806ym/ym_et7et8_res.zip',
         start: 'YM_CUP',
         o_site: '050806ym'
@@ -520,7 +493,6 @@ let events2005 = [
         date: '2005-09-04',
         place: '69км',
         name: 'Кубок Яркого Мира, 9-й этап',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050904_ym/ym_et9_res.zip',
         start: 'YM_CUP',
         o_site: '050904_ym'
@@ -530,7 +502,6 @@ let events2005 = [
         date: '2005-09-10',
         place: 'Орехово',
         name: 'Пер-во КСО Азимут среди ветеранов',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050910_Az/050910_res.zip',
         logo: 'azimut.gif',
         o_site: '050910_Az',
@@ -541,7 +512,6 @@ let events2005 = [
         date: '2005-09-11',
         place: 'Сосново, 69км',
         name: 'Кубок СПб, эстафета одного участника',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050911_SPbCup/050911_res.zip',
         o_site: '050911_SPbCup'
     },
@@ -550,7 +520,6 @@ let events2005 = [
         date: '2005-09-17',
         place: '67км',
         name: 'Краски Осени',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050917_az/050917_res.zip',
         o_site: '050917_az'
     },
@@ -559,7 +528,6 @@ let events2005 = [
         date: '2005-09-18',
         place: 'Осиновая Роща',
         name: 'Первенство КО, эстафеты',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050918/050918_res.zip',
         o_site: '050918',
         map: 'osinovaja_roscha_2018'
@@ -570,7 +538,6 @@ let events2005 = [
         endDate: '2005-09-25',
         place: 'Красная Поляна, Сочи',
         name: 'Salomon Pro Race',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/SPR2005/SPR_res.zip',
         o_site: 'SPR2005'
     },
@@ -579,7 +546,6 @@ let events2005 = [
         date: '2005-09-24',
         place: 'Песочная',
         name: 'Ночное пер-во КСО АЗИМУТ',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/050924_AzNight/050924_res.zip',
         logo: 'azimut.gif',
         o_site: '050924_AzNight',
@@ -599,7 +565,6 @@ let events2005 = [
         date: '2005-09-25',
         place: 'Токсово, Охта-парк',
         name: 'Кубок СДЮШОР №2, Чемпионат ВУЗов',
-        type: 'ORIENT',
         o_site: '050925'
     },
     {
@@ -608,7 +573,6 @@ let events2005 = [
         endDate: '2005-10-03',
         place: 'Зеркальный',
         name: 'Надежды Европы',
-        type: 'ORIENT',
         start: 'EUROPEAN_HOPE',
         o_site: '05092903'
     },
@@ -617,7 +581,6 @@ let events2005 = [
         date: '2005-10-01',
         place: 'Яппиля, оз Плетневое',
         name: 'приз Mile-sport',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051001/051001_res.zip',
         o_site: '051001'
     },
@@ -626,7 +589,6 @@ let events2005 = [
         date: '2005-10-02',
         place: 'Яппиля, оз Тарасовское',
         name: 'марафон На холмах Яппиля',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051002/051002_res.zip',
         o_site: '051002'
     },
@@ -635,7 +597,6 @@ let events2005 = [
         date: '2005-10-02',
         place: 'Можайская',
         name: 'МТБО Закрытие сезона 2005',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051002_MTB/Zakritie2005rez.htm',
         o_site: '051002_MTB'
     },
@@ -645,7 +606,6 @@ let events2005 = [
         endDate: '2005-10-09',
         place: 'Будогощь, Кириши',
         name: 'Кубок СЗФО',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/05100709_Kirishi/05100709.zip',
         o_site: '05100709_Kirishi'
     },
@@ -654,7 +614,6 @@ let events2005 = [
         date: '2005-10-08',
         place: 'Колосково',
         name: 'XXXIV Соревнования по ночному ориентированию памяти А. Окинчица',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051008/051008_res.htm',
         start: 'OKINCHITSA',
         o_site: '051008'
@@ -665,7 +624,6 @@ let events2005 = [
         place: 'оз Пасторское',
         name: 'Чемпионат СПБ, марафон',
         start: 'SPB_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051015_mar/051015_res.zip',
         o_site: '051015_mar'
     },
@@ -686,7 +644,6 @@ let events2005 = [
         date: '2005-10-16',
         place: 'оз Банное, Гарболово',
         name: 'Кубок Яркого Мира, Финал',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051016/051016_res.zip',
         start: 'YM_CUP',
         o_site: '051016'
@@ -696,7 +653,6 @@ let events2005 = [
         date: '2005-10-22',
         place: 'Зеленогорск, Чёрные оз',
         name: 'Критериум',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051022/051022_res.zip',
         o_site: '051022'
     },
@@ -707,7 +663,6 @@ let events2005 = [
         place: 'Выборг, Кировские дачи',
         name: 'Пер-во ЛО среди учащихся',
         start: 'LO_CHAMP',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/05102223/05102223_res.zip',
         o_site: '05102223'
     },
@@ -716,7 +671,6 @@ let events2005 = [
         date: '2005-10-23',
         place: 'Комарово, оз Щучье',
         name: 'Финал Кубка ФСО СПб',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051023/051023_res.zip',
         o_site: '051023'
     },
@@ -725,7 +679,6 @@ let events2005 = [
         date: '2005-10-29',
         place: 'Орехово',
         name: 'Ночные Эстафеты',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051029/051029_res.zip',
         o_site: '051029',
         map: 'orekhovo_rakitinskoe_2004'
@@ -735,7 +688,6 @@ let events2005 = [
         date: '2005-10-29',
         place: 'Лемболово',
         name: 'Золотые Кольца (Свадебные)',
-        type: 'ORIENT',
         start: 'WEDDING',
         o_site: '051029_zk',
         map: 'lembolovo_2002'
@@ -745,7 +697,6 @@ let events2005 = [
         date: '2005-10-30',
         place: 'Орехово',
         name: 'Шестиэтапные эстафеты',
-        type: 'ORIENT',
         o_site: '051030',
         map: 'orekhovo_rakitinskoe_2004'
     },
@@ -765,7 +716,6 @@ let events2005 = [
         date: '2005-11-04',
         place: 'Лемболово',
         name: 'Осенний Марафон',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051104/051104_res.zip',
         logo: 'azimut.gif',
         o_site: '051104',
@@ -777,7 +727,6 @@ let events2005 = [
         date: '2005-11-05',
         place: 'Черные оз, Зеленогорск',
         name: '1-й этап Кубка центра Ладога',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051105/051105_res.zip',
         o_site: '051105'
     },
@@ -787,7 +736,6 @@ let events2005 = [
         place: 'Удельный парк',
         name: 'Снежная тропа, 1-й этап',
         start: 'SNOW_WAY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051113/051113_res.zip',
         o_site: '051113',
         map: 'udelny_2004'
@@ -798,7 +746,6 @@ let events2005 = [
         place: 'Петродворец',
         name: 'Снежная Тропа, 2-й этап',
         start: 'SNOW_WAY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051127/051127_res.zip',
         o_site: '051127'
     },
@@ -819,7 +766,6 @@ let events2005 = [
         place: 'Бернгардовка',
         name: 'Снежная Тропа, 3-й этап',
         start: 'SNOW_WAY',
-        type: 'ORIENT',
         res: 'https://o-site.spb.ru/_races/051211/051211_res.zip',
         o_site: '051211'
     },
