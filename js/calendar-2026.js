@@ -2440,6 +2440,7 @@ let events2026 = [
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/55347',
         link: 'https://t.me/dlitelnyy/691',
+        reskeep: 925,
         map: 'koroleva_2026',
         owner: 'DLITELNY'
     },
@@ -2500,9 +2501,10 @@ let events2026 = [
         date: '2026-09-24',
         name: 'Спринт Тур + отбор в сборную СПб',
         place: 'ул Софьи Ковалевской',
+        reg: 'https://orgeo.ru/event/55557',
         fmt: 'спринт',
         start: 'ST',
-        map: 'akademicheskaya_2023'
+        map: 'school_535_2019'
     },
     {
         id: 'SPB_20260924_3',
