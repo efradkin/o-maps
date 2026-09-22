@@ -1023,11 +1023,11 @@ function isTracksDisplayed() {
 function searchMaps(text) {
     let results = [];
     text = unifyString(text);
-    let year = Number(text);
-    if (year) {
+    let textYear = Number(text);
+    if (textYear) {
         for (const m of oMaps) {
             let y = year(m);
-            if (y && y === year) {
+            if (y && y === textYear) {
                 results.push(m);
             }
         }

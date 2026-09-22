@@ -521,37 +521,121 @@ if (mapElement) {
             clearButton: true,
             // maxHeight: '40vh',
             autocompleteFeatures: ['setValueOnClick', 'arrowKeyNavigation'],
-            title: 'Поиск карты (Ctrl-Shift-F)',
+            title: 'Поиск карты или места (Ctrl-Shift-F)',
         }).addTo(map);
+
+        // элементы выпадающего списка, параллельно searchBox._items:
+        // {kind: 'map', m} | {kind: 'place', p}
+        let searchItems = [];
+        let pickedIdx = null;   // индекс элемента, по которому кликнули мышью
+
+        // Клик по элементу списка: плагин в своём bubble-обработчике сам жмёт кнопку
+        // (→ search()), поэтому индекс запоминаем раньше, в фазе захвата
+        searchBox._autocomplete.addEventListener('click', function (e) {
+            let li = e.target.closest('li');
+            let idx = li ? searchBox._items.indexOf(li) : -1;
+            pickedIdx = idx >= 0 ? idx : null;
+        }, true);
 
         searchBox.onInput("keyup", function (e) {
             if (e.keyCode == 13) {
                 search();
-            } else {
-                var value = searchBox.getValue();
-                if (value != "") {
-                    var results = searchMaps(value);
-                    searchBox.setItems(results.map(m => '&nbsp;' + mapTitle(m, false, true)).slice(0, 10));
-                } else {
-                    searchBox.clearItems();
-                }
             }
         });
+
+        // Список перестраиваем по событию input: оно приходит только от правки текста,
+        // а не от стрелок/Shift и не от подстановки значения при навигации по списку
+        searchBox.onInput("input", function () {
+            let value = searchBox.getValue();
+            if (value != "") {
+                let results = searchMaps(value).slice(0, 10);
+                searchItems = results.map(m => ({kind: 'map', m: m}));
+                searchBox.setItems(results.map(m =>
+                    '<span class="om-search-dot om-search-dot-map"></span>' + mapTitle(m, false, true)));
+                fitSearchList();
+                geoSuggest(value, appendPlaces);
+            } else {
+                clearSearchList();
+            }
+        });
+
+        L.DomEvent.on(searchBox._clearbutton, 'click', clearSearchList);
+
+        function clearSearchList() {
+            searchItems = [];
+            searchBox.clearItems();
+            geoCancel();
+        }
+
+        // места приходят асинхронно — дописываем их в конец списка
+        // (addItems не сбрасывает подсветку стрелками, в отличие от setItems)
+        function appendPlaces(value, places) {
+            if (searchBox.isCollapsed() || searchBox.getValue() !== value || !places.length) {
+                return;
+            }
+            let first = searchBox._items.length;
+            searchItems = searchItems.concat(places.map(p => ({kind: 'place', p: p})));
+            searchBox.addItems(places.map(placeItemHtml));
+            for (let i = first; i < searchBox._items.length; i++) {
+                searchBox._items[i].classList.add('om-search-place');
+            }
+            searchBox._items[first].classList.add('om-search-place-first');
+            fitSearchList();
+        }
+
+        // Места идут после десятка карт и без прокрутки уходят за низ экрана:
+        // ограничиваем список до края окна и даём ему прокручиваться
+        function fitSearchList() {
+            let ul = searchBox._autocomplete;
+            let top = ul.getBoundingClientRect().top;
+            ul.style.maxHeight = Math.max(120, window.innerHeight - top - 8) + 'px';
+            ul.style.overflowY = 'auto';
+        }
+
+        // при навигации стрелками подсвеченный элемент держим в видимой части списка
+        searchBox._container.addEventListener('keydown', function (e) {
+            if (e.keyCode == 38 || e.keyCode == 40) {
+                setTimeout(function () {
+                    let li = searchBox._autocomplete.querySelector('.leaflet-searchbox-highlight-item');
+                    if (li) {
+                        li.scrollIntoView({block: 'nearest'});
+                    }
+                }, 0);
+            }
+        }, true);
 
         searchBox.onButton("click", search);
 
         function search() {
             let value = searchBox.getValue();
-            if (value) {
+            let idx = pickedIdx !== null ? pickedIdx
+                : (typeof searchBox._dd_index === 'number' ? searchBox._dd_index : null);
+            let item = idx !== null ? searchItems[idx] : null;
+            pickedIdx = null;
+
+            if (item && item.kind === 'place') {
+                locatePlace(item.p);
+            } else if (item) {
+                locateMap(item.m);
+            } else if (value) {
+                // Enter без выбора из списка: координаты или карта, как раньше;
+                // если карт не нашлось — первое найденное место
                 let m = searchMap(value);
                 if (m) {
                     locateMap(m);
+                } else if (!parseCoordinates(unifyString(value))) {
+                    let place = searchItems.find(it => it.kind === 'place');
+                    if (place) {
+                        locatePlace(place.p);
+                    }
                 }
             }
 
+            geoCancel();
             setTimeout(function () {
                 searchBox.hide();
                 searchBox.clear();
+                searchItems = [];
             }, 600);
         }
 
@@ -2079,6 +2163,170 @@ function onMapSelect(ovrl, m) {
         marker2.setLatLng(ovrl.getTopRight());
         marker3.setLatLng(ovrl.getBottomLeft());
     }
+}
+
+// --- поиск мест (топонимов, адресов) --------------------------------------
+// Геокодер Photon (photon.komoot.io, данные OSM): рассчитан на подсказки по мере
+// ввода, в отличие от Nominatim, чьи правила автодополнение запрещают.
+// Результаты смещаются к текущему центру карты, поэтому работают на всех регионах.
+
+const GEO_URL = 'https://photon.komoot.io/api/';
+const GEO_MIN_CHARS = 3;
+const GEO_DELAY = 350;  // мс паузы в наборе перед запросом
+const GEO_LIMIT = 6;
+
+let geoTimer = null;
+let geoAbort = null;
+let geoSeq = 0;
+let geoCache = new Map();
+let placeMarker = null;
+
+// callback(value, places) вызывается только для последнего запроса
+function geoSuggest(value, callback) {
+    geoCancel();
+    let q = value.trim();
+    // число — это поиск карт по году, координаты разбирает searchMap()
+    if (q.length < GEO_MIN_CHARS || /^\d+$/.test(q) || parseCoordinates(q)) {
+        return;
+    }
+    let c = map.getCenter();
+    let key = q.toLocaleLowerCase() + '|' + c.lat.toFixed(1) + '|' + c.lng.toFixed(1);
+    if (geoCache.has(key)) {
+        callback(value, geoCache.get(key));
+        return;
+    }
+    let seq = geoSeq;
+    geoTimer = setTimeout(function () {
+        geoTimer = null;
+        let params = new URLSearchParams({
+            q: q,
+            limit: GEO_LIMIT,
+            lang: 'default',                 // местные названия (по-русски в России)
+            lat: c.lat.toFixed(4),
+            lon: c.lng.toFixed(4),
+            zoom: Math.min(map.getZoom(), 14),
+            location_bias_scale: 0.1,         // меньше — сильнее тянет к центру карты
+        });
+        geoAbort = new AbortController();
+        fetch(GEO_URL + '?' + params, {signal: geoAbort.signal})
+            .then(r => r.ok ? r.json() : Promise.reject(r.status))
+            .then(data => {
+                let places = geoPlaces(data);
+                geoCache.set(key, places);
+                if (seq === geoSeq) {
+                    callback(value, places);
+                }
+            })
+            .catch(err => {
+                if (err && err.name !== 'AbortError') {
+                    console.warn('Геокодер недоступен:', err);
+                }
+            });
+    }, GEO_DELAY);
+}
+
+function geoCancel() {
+    geoSeq++;
+    if (geoTimer) {
+        clearTimeout(geoTimer);
+        geoTimer = null;
+    }
+    if (geoAbort) {
+        geoAbort.abort();
+        geoAbort = null;
+    }
+}
+
+const GEO_KINDS = {
+    city: 'город', town: 'город', village: 'нас. пункт', hamlet: 'нас. пункт',
+    isolated_dwelling: 'нас. пункт', locality: 'урочище',
+    suburb: 'район', quarter: 'район', neighbourhood: 'район',
+    station: 'станция', halt: 'платформа', stop: 'платформа',
+    lake: 'водоём', reservoir: 'водоём', pond: 'водоём',
+    river: 'река', stream: 'ручей', canal: 'канал',
+    peak: 'вершина', hill: 'холм', island: 'остров', islet: 'остров',
+    wood: 'лес', forest: 'лес', park: 'парк', nature_reserve: 'заказник',
+    wetland: 'болото', bay: 'залив', cape: 'мыс',
+};
+const GEO_TYPES = {street: 'улица', district: 'район', county: 'район'};
+
+// GeoJSON Photon → [{name, context, kind, lat, lng, bounds}], без повторов
+function geoPlaces(data) {
+    let result = [];
+    let seen = new Set();
+    for (const f of (data && data.features) || []) {
+        let p = f.properties || {};
+        let [lng, lat] = f.geometry.coordinates;
+        let addr = [p.street, p.housenumber].filter(Boolean).join(', ');
+        let name = p.name || addr || p.city;
+        if (!name) {
+            continue;
+        }
+        let context = [];
+        for (const s of [p.name ? addr : '', p.city || p.county, p.state]) {
+            if (s && s !== name && !context.includes(s)) {
+                context.push(s);
+            }
+        }
+        let kind = GEO_KINDS[p.osm_value]
+            || (p.type === 'house' ? (p.name ? '' : 'адрес') : GEO_TYPES[p.type]) || '';
+        let sig = name + '|' + context.join('|') + '|' + kind;
+        if (seen.has(sig)) {
+            continue;
+        }
+        seen.add(sig);
+        let e = p.extent; // [minLon, maxLat, maxLon, minLat]
+        result.push({
+            name: name,
+            context: context.join(', '),
+            kind: kind,
+            lat: lat,
+            lng: lng,
+            bounds: e ? L.latLngBounds([e[3], e[0]], [e[1], e[2]]) : null,
+        });
+    }
+    return result;
+}
+
+function placeItemHtml(p) {
+    let html = '<span class="om-search-dot om-search-dot-place"></span>' + escapeXml(p.name);
+    if (p.kind) {
+        html += ' <span class="om-search-kind">' + escapeXml(p.kind) + '</span>';
+    }
+    if (p.context) {
+        html += ' <span class="om-search-ctx">' + escapeXml(p.context) + '</span>';
+    }
+    return html;
+}
+
+function locatePlace(p) {
+    let latLng = L.latLng(p.lat, p.lng);
+    let b = p.bounds;
+    // у точечных объектов и зданий extent крошечный — берём фиксированный масштаб
+    if (b && map.getBoundsZoom(b) < 16) {
+        map.fitBounds(b);
+    } else {
+        map.setView(latLng, 16);
+    }
+
+    if (placeMarker) {
+        placeMarker.remove();
+    }
+    placeMarker = L.circleMarker(latLng, {
+        radius: 9,
+        color: '#c62828',
+        weight: 3,
+        fillColor: '#ffffff',
+        fillOpacity: 0.6,
+        interactive: true,
+        bubblingMouseEvents: false,
+    }).bindTooltip(escapeXml(p.name), {direction: 'top', offset: [0, -8]})
+      .addTo(map);
+    placeMarker.openTooltip();
+    placeMarker.on('click', function () { // клик по кружку убирает его
+        placeMarker.remove();
+        placeMarker = null;
+    });
 }
 
 function onMapClick(e) {

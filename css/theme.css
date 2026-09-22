@@ -2273,3 +2273,42 @@ a.leaflet-control-slider-toggle {
     border-color: #e0e5dd;
     cursor: default;
 }
+
+/* ------------------------------------------------------------------ [19]
+   ПОИСК: КАРТЫ И МЕСТА В ОДНОМ СПИСКЕ
+   Выпадающий список searchbox светлый в обеих темах, поэтому цвета
+   фиксированные. Карты — с зелёным буллетом, места из геокодера — с голубым
+   на голубоватом фоне, отделены от карт пунктирной чертой.
+   ------------------------------------------------------------------ */
+.leaflet-searchbox-autocomplete .om-search-dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 0 7px 0 6px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+.leaflet-searchbox-autocomplete .om-search-dot-map   { background-color: darkolivegreen; }
+.leaflet-searchbox-autocomplete .om-search-dot-place { background-color: #5b8db8; }
+.leaflet-searchbox-autocomplete .leaflet-searchbox-autocomplete-item.om-search-place {
+    padding-left: 20px;                 /* перенос строки — под текст, а не под буллет */
+    text-indent: -20px;
+    background-color: #f1f6fb;
+    color: #1d3f5e;
+}
+.leaflet-searchbox-autocomplete .leaflet-searchbox-autocomplete-item.om-search-place:hover {
+    background-color: #dfeaf5;
+}
+.leaflet-searchbox-autocomplete .om-search-place-first:not(:first-child) {
+    border-top: 1px dashed #9db4c9;
+}
+.leaflet-searchbox-autocomplete .om-search-kind {
+    font-size: 12px;
+    color: #4f7496;
+}
+.leaflet-searchbox-autocomplete .om-search-ctx {
+    font-size: 12px;
+    color: #7a8a99;
+}
