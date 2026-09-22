@@ -194,6 +194,7 @@ let starts = {
         short: 'Спринт-Тур',
         name: '<a href="https://vk.com/sprinttourspb">Спринт-Тур</a>',
         link: 'https://vk.com/sprinttourspb',
+        owner: 'KUZMOLOVO',
         logo: 'st.jpg'
     },
     SCHOOL: {
