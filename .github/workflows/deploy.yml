@@ -12,7 +12,20 @@ jobs:
 
     steps:
       - name: Get latest code
+        # fetch-depth: 0 — нужна полная история: build_sitemap.py берёт lastmod
+        # из даты последнего коммита каждого файла. При поверхностном клоне
+        # (по умолчанию) все даты стали бы одинаковыми.
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build sitemap and robots
+        run: python tools/build_sitemap.py
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.4.0
@@ -26,3 +39,5 @@ jobs:
             **/.git*
             **/.git*/**
             **/.github/**
+            **/tools/**
+            **/prompts/**

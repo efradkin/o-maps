@@ -1,0 +1,16 @@
+# Конфигурация Apache для o-maps.spb.ru на хостинге SpaceWeb.
+# SetEnvIf нужен потому, что HTTPS завершается на nginx хостера,
+# до Apache запрос доходит по http.
+# При использовании на другом домене/хостинге правила нужно менять.
+
+RewriteEngine On
+SetEnvIf X-Forwarded-Proto https HTTPS=on
+
+# 1) www или http → https без www
+RewriteCond %{HTTP_HOST} ^www\. [NC,OR]
+RewriteCond %{HTTP:HTTPS} !=on [NC]
+RewriteRule ^(.*)$ https://o-maps.spb.ru/$1 [R=301,L,NE]
+
+# 2) /index.html → каталог
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+RewriteRule ^(.*/)?index\.html$ https://o-maps.spb.ru/$1 [R=301,L,NE]

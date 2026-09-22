@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /theme-preview.html
+Disallow: /prompts/
+Disallow: /tools/
+
+User-agent: Yandex
+Disallow: /theme-preview.html
+Disallow: /prompts/
+Disallow: /tools/
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&gclid&fbclid
+
+Sitemap: https://o-maps.spb.ru/sitemap.xml
