@@ -9,7 +9,7 @@
     <link href='../css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/main.css?v=22"/>
     <link rel="stylesheet" href="../css/theme.css?v=16"/>
     <script src="../js/theme-toggle.js?v=23"></script>
 
@@ -64,9 +64,8 @@
                             <ol>
                                 <li><a href="#site_navigation">Навигация по сайту</a></li>
                                 <li><a href="#placement_zooming">Местоположение и масштаб</a></li>
-                                <li><a href="#info_resources">Информационные ресурсы</a></li>
-                                <li><a href="#measurement_tools">Инструменты измерения</a></li>
-                                <li><a href="#search_tool">Поиск</a></li>
+                                <li><a href="#tools">Инструменты</a></li>
+                                <li><a href="#info_resources">Информация</a></li>
                                 <li><a href="#other_tools">Прочее</a></li>
                             </ol>
                         <li><a href="#context_menu">Всплывающее (контекстное) меню</a></li>
@@ -77,7 +76,8 @@
 
             <section class="clearfix">
                 <p><img src="img/maps_on_map.webp" class="help-figure help-figure-left" title="Карты на карте" /> Каждый из разделов с картами
-                    (<a href="../spb.html">Санкт-Петербург</a>, <a href="../moscow.html">Москва</a>, <a href="../serbia.html">Белград</a> и <a href="../all.html">все регионы вместе</a>)
+                    (<a href="../spb.html">Санкт-Петербург</a>, <a href="../moscow.html">Москва</a>, <a href="../bash.html">Башкортостан</a>, <a href="../pskov.html">Псков</a>,
+                    <a href="../ryazan.html">Рязань</a>, <a href="../samara.html">Самара</a>, <a href="../serbia.html">Белград</a> и <a href="../all.html">все регионы вместе</a>)
                     представляет из себя картографическую подложку с "привязанными" к ней изображениями спортивных карт.
                     Щелчком мыши по любой карте можно вызвать появление всплывающего окна с подробной информацией о ней.
                 <p>Все карты организованы в группы (слои) по типу и по году издания. Все такие слои можно включать/выключать независимо друг от друга.
@@ -98,7 +98,7 @@
                 </p>
             </section>
 
-            <section>
+            <section class="clearfix">
                 <h3 id="layers">Слои карт</h3>
                 <p><img src="img/layers.webp" class="help-figure help-figure-left" title="Переключение слоёв карт" /> Спортивные карты по типу бывают:
                     <ul class="fugure-list">
@@ -127,9 +127,19 @@
                     Ретро - это все карты более старые, чем 1990 г. В слой "???" попадают карты, год издания которых неизвестен.
                 </p>
                 <p>Слои (типы) карт можно включать/выключать независимо друг от друга с помощью галочек (чекбоксов) в правой части экрана.
+                    Десятилетия относятся только к спортивным картам: рогейнерские и необычные карты показываются независимо от года.
+                <p>Помимо слоёв с картами, в том же переключателе есть дополнительные слои:<a href="../news/2026-04-01/pic_1.jpg" target="_blank"><img src="../news/2026-04-01/thumb_1.jpg" class="help-figure help-figure-left news-figure" title="Слой ООПТ" alt="Слой ООПТ" /></a> <a href="../news/2026-05-30/pic_2.jpg" target="_blank"><img src="../news/2026-05-30/thumb_2.jpg" class="help-figure help-figure-left news-figure" title="Слой POI" alt="Слой POI" /></a> 
+                    <ul class="fugure-list">
+                        <li><b>Маршруты</b> - треки из раздела <a href="help-tracks.html">«Маршруты»</a>;</li>
+                        <li><b>Календарь</b> - маркеры стартов из <a href="help-calendar.html#cal_on_map">календаря</a>; вложенная галочка <b>«прошлые»</b> добавляет уже прошедшие старты;</li>
+                        <li><b>POI</b> - полезные места: клубы, центры многодневок и т.п.;</li>
+                        <li><b>ООПТ</b> - границы особо охраняемых природных территорий.</li>
+                    </ul>
+                <p>При мелком масштабе (когда на экране много карт) изображения карт заменяются оливковыми прямоугольниками по их границам - так страница работает быстрее.
+                    Карты районов, закрытых для тренировок и соревнований, обведены розовой рамкой.
             </section>
 
-            <section>
+            <section class="clearfix">
                 <h3 id="map_info">Всплывающее окошко информации о карте</h3>
                 <p><img src="img/map_info.webp" class="help-figure help-figure-right" title="Всплывающее окно информации о карте" /> Каталог может хранить множество разной информации о каждой карте:
                     <ul>
@@ -153,6 +163,8 @@
                         <li>Ссылка на карту</li>
                         <li>Ссылка на страничку информации о карте</li>
                         <li>Кнопка "Скрыть эту карту"</li>
+                        <li style="clear: both"><a href="../news/2026-08-24_3/pic_1.jpg" target="_blank"><img src="../news/2026-08-24_3/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Соревнования, проводившиеся по карте" alt="Соревнования, проводившиеся по карте" /></a> <a href="../news/2026-06-11/pic_1.jpg" target="_blank"><img src="../news/2026-06-11/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Ссылки на сторонние публикации карты" alt="Ссылки на сторонние публикации карты" /></a> Список соревнований, проводившихся по этой карте, со ссылками на результаты и страницы стартов</li>
+                        <li>Ссылки на сторонние публикации карты (как правило, с дистанциями)</li>
                     </ul>
                     <p>Площадь карты может быть или заранее прописана в каталоге, или вычислена "на лету". Вычисление
                         происходит на основе координат углов карты.
@@ -166,64 +178,68 @@
                         перекрывающихся друг с другом. Т.о. можно добраться до самых "глубоко закопанных" карт.
             </section>
 
-            <section>
+            <section class="clearfix">
                 <h3 id="page_controls">Элементы управления</h3>
-                <p><img src="img/all_controls.png" class="help-figure" title="Элементы управления" /></p>
+                <p><a href="../news/2026-09-14_2/pic_1.jpg" target="_blank"><img src="../news/2026-09-14_2/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Группа «Инструменты»" alt="Группа «Инструменты»" /></a> <a href="../news/2026-09-14_2/pic_2.jpg" target="_blank"><img src="../news/2026-09-14_2/thumb_2.jpg" class="help-figure help-figure-right news-figure" title="Группа «Информация»" alt="Группа «Информация»" /></a> Все кнопки собраны в вертикальную рейку в левой части экрана. Сверху вниз в ней расположены: кнопка перехода на главную страницу,
+                    глобальное меню, кнопки местоположения и масштаба и две раскрывающиеся группы - <a href="#tools">«Инструменты»</a> 🛠 и
+                    <a href="#info_resources">«Информация»</a> ⓘ. Группа раскрывается при наведении курсора (на телефоне - по нажатию).
+                    Если какой-то инструмент сейчас работает, на кнопке «Инструменты» горит точка-индикатор.</p>
             </section>
 
             <section>
                 <h4 id="site_navigation">Навигация по сайту</h4>
-                <p class="clearfix"><img src="img/region_selector.png" class="help-figure help-figure-left" title="Навигация по сайту" /> <img src="img/home.png" class="help-figure help-figure-right" />
-                    Для перехода на начальную страницу, на страницы другого региона или на страницу стартов можно использовать всплывающее меню в верхней левой части экрана.
-                    Для перехода на начальную страницу существует также отдельная кнопка - самая левая-верхняя.
+                <p class="clearfix"><img src="img/home.png" class="help-figure help-figure-left" />
+                    Кнопка «Домой» ведёт на главную страницу. Глобальное меню ☰ позволяет перейти в любой раздел сайта:
+                    на страницы других регионов, в календари, к стартам, таблицам и т.д. (см. <a href="help.html#ui_menu">описание меню</a>).
                 </p>
             </section>
 
             <section>
                 <h4 id="placement_zooming">Местоположение и масштаб</h4>
-                <p><img src="img/zooming.png" class="help-figure help-figure-left" /> Кнопка "Моё местоположение" сдвинет карту в то место, где Вы находитесь.
+                <p>Кнопка "Моё местоположение" сдвинет карту в то место, где Вы находитесь.
                     Но только, если определение местоположения разрешено в настройках Вашего браузера.</p>
-                <p>Кнопки "+" и "-" ступенчато увеличивают и уменьшаю масштаб карты.</p>
-                <p>Кнопка "Ограничить область" сдвинет карту и изменит масштаб в соответствии с выделенным районом.</p>
+                <p>Кнопки "+" и "-" ступенчато увеличивают и уменьшают масштаб карты. Менять масштаб можно также колесом мыши или жестом на телефоне.</p>
+            </section>
+
+            <section class="clearfix">
+                <h4 id="tools">Инструменты</h4>
+                <ul>
+                    <li><b>Настройки</b> - открывает <a href="#context_menu">контекстное меню</a> (удобно на телефоне, где долгий тап не всегда срабатывает).</li>
+                    <li><b>Прозрачность карт</b> - ползунок, меняющий прозрачность изображений карт от 0 до 100% и оставляющий подложку неизменной.</li>
+                    <li><b>Поиск карты</b> - позволяет быстро найти карту по её названию, имени файла, году издания или даже по любому слову, встречающемуся в её описании.</li>
+                    <li style="clear: both"><a href="../news/2026-09-15_2/pic_3.jpg" target="_blank"><img src="../news/2026-09-15_2/thumb_3.jpg" class="help-figure help-figure-right news-figure" title="Карты на экране" alt="Карты на экране" /></a> <b>Карты на экране</b> - открывает список всех карт, попадающих в текущий экран. Удобно, когда в одном месте друг на друга наложены десятки карт.
+                        Список перестраивается при каждом перемещении и изменении масштаба. Его можно сортировать по году, названию или площади и менять направление сортировки.
+                        Щелчок по строке выводит карту на передний план и сдвигает к ней экран, а кнопка-рамка справа вписывает карту в экран целиком.
+                        Список можно держать открытым одновременно с другими инструментами.</li>
+                    <li style="clear: both"><a href="../news/2026-09-15_1/pic_1.jpg" target="_blank"><img src="../news/2026-09-15_1/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Измерение расстояний и экспорт в GPX" alt="Измерение расстояний и экспорт в GPX" /></a> <b>Расстояния → GPX</b> - измеряет длину дистанции или любой ломаной на местности. Нарисованную ломаную можно сохранить в GPX-файл
+                        кнопкой «Скачать GPX» в окошке с длинами перегонов - так можно, например, нарисовать маршрут для часов или навигатора.</li>
+                    <li><b>Измерение площади</b> - измеряет площадь произвольного участка местности с помощью инструмента, похожего на лассо.</li>
+                    <li><b>Загрузка GPX / KML</b> - накладывает на карту трек из файла формата GPX, KML или GeoJSON.</li>
+                </ul>
             </section>
 
             <section>
-                <h4 id="info_resources">Информационные ресурсы</h4>
-                <p class="clearfix"><img src="img/about.png" class="help-figure help-figure-left" /> Кнопка "О проекте" открывает окно с краткой информацией о проекте - его общее описание,
-                    задачи, структура, способы поддержки. А также благодарности и обращения к авторам и владельцам карт.</p>
-                <p class="clearfix"><img src="img/help.png" class="help-figure help-figure-left" /> Кнопка "Справка" переносит на страницу с этой документацией.</p>
-                <p class="clearfix"><img src="img/statistics.png" class="help-figure help-figure-left" /> Кнопка "Немного статистики" ведёт на страницу статистики для текущего региона.</p>
-                <p class="clearfix"><img src="img/sheet.png" class="help-figure help-figure-left" /> Кнопка "Сводная таблица карт" открывает соответствующую страницу для текущего региона.</p>
-            </section>
-
-            <section>
-                <h4 id="measurement_tools">Инструменты измерения</h4>
-                <p><img src="img/measurement.png" class="help-figure help-figure-left" /> Кнопка "Измерение расстояний" запускает инструмент позволяющий измерить длину дистанции
-                    или любой ломаной линии на местности.</p>
-                <p>Кнопка "Измеритель площади" позволяет измерить площадь произвольного участка местности с помощью инструмента, похожего на лассо.</p>
-            </section>
-
-            <section>
-                <h4 id="search_tool">Поиск</h4>
-                <p><img src="img/search.png" class="help-figure help-figure-left" /> Инструмент поиска позволяет быстро найти карту по её названию, имени файла,
-                    году издания или даже по любому слову, встречающемуся в её описании.</p>
+                <h4 id="info_resources">Информация</h4>
+                <ul>
+                    <li><b>Статистика</b> - страница <a href="help-statistics.html">статистики</a> для текущего региона.</li>
+                    <li><b>Сводная таблица</b> - <a href="help-sheets.html">сводная таблица карт</a> текущего региона.</li>
+                    <li><b>Как пользоваться</b> - эта справка.</li>
+                    <li><b>О проекте</b> - окно с краткой информацией о проекте: его общее описание, задачи, структура, способы поддержки,
+                        а также благодарности и обращения к авторам и владельцам карт.</li>
+                </ul>
             </section>
 
             <section>
                 <h4 id="other_tools">Прочее</h4>
-                <p class="clearfix"><img src="img/gpx.png" class="help-figure help-figure-left" /> Инструмент "Просмотр GPX/KML/GeoJSON" даёт возможность наложить трек из файла соответствующего формата на карту.</p>
-                <p class="clearfix"><img src="img/opacity.png" class="help-figure help-figure-left" /> Ползунок "Прозрачность карт" меняет её от 0 до 100%, оставляя подложку неизменной.</p>
                 <p class="clearfix"><img src="img/counter.png" class="help-figure help-figure-left" /> Счётчик карт показывает число карт, поместившихся в экран и общее их количество.
                     Если эти два числа совпадают, то показывается только одно.</p>
-                <p class="clearfix"><img src="img/compass.png" class="help-figure help-figure-left" height="75" /> Компас при правильно откалиброванном встроенном компасе телефона должен реально показывать на север.
-                    Но не стоит относиться к нему слишком серьёзно.</p>
                 <p class="clearfix"><img src="img/chat.png" class="help-figure help-figure-left" /> Большая кнопка "Группа поддержки" в правом-нижнем углу экрана открывает телеграм-чат проекта.
                     Там Вы можете узнать все связанные с ним новости и задать любые возникшие у Вас вопросы.</p>
             </section>
 
-            <section>
+            <section class="clearfix">
                 <h3 id="context_menu">Всплывающее (контекстное) меню</h3>
-                <p><img src="img/context_menu.png" class="help-figure help-figure-left" title="Всплывающее (контекстное) меню" /> Меню вызывается кликом правой кнопкой мыши по карте (или долгим "тапом" по ней на телефоне). <br /> Пункты меню:
+                <p><a href="../news/2026-04-22/pic_1.jpg" target="_blank"><img src="../news/2026-04-22/thumb_1.jpg" class="help-figure help-figure-left news-figure" title="Всплывающее (контекстное) меню" alt="Всплывающее (контекстное) меню" /></a> Меню вызывается кликом правой кнопкой мыши по карте (или долгим "тапом" по ней на телефоне), а также пунктом <a href="#tools">«Настройки»</a> в группе «Инструменты». <br /> Пункты меню:
                     <ul class="fugure-list">
                         <li><b>"О проекте"</b> - <a href="#info_resources">окно</a> с краткой информацией о проекте.</li>
                         <li><b>"Координаты"</b> - копирует координаты точки появления меню в буфер обмена.</li>
@@ -232,11 +248,10 @@
                         <li><b>"Показать все ориенты"</b> - включает слои всех типов спортивных карт.</li>
                         <li><b>"Убрать ориенты"</b> - выключает все слои спортивных карт.</li>
                         <li><b>"Показать все годы"</b> - включает все слои временнЫх интервалов (2020-е, 2010-е итд).</li>
+                        <li><b>"Очистить все годы"</b> - выключает все слои временнЫх интервалов.</li>
                         <li><b>"Увеличить"</b> - <a href="#placement_zooming">приближает карту</a>.</li>
-                        <li><b>"Уменьшить"</b> - <a href="#placement_zooming">удаляет карту</a>.</li>
+                        <li><b>"Уменьшить"</b> - <a href="#placement_zooming">отдаляет карту</a>.</li>
                         <li><b>"Всплыв.подсказки"</b> - включает/выключает автоматический показ всплывающего окошка с информацией о карте при наведении курсора на неё.</li>
-                        <li><b>"Скрывать карты"</b> - включает/выключает режим, при котором карты заменяются оливковой заливкой при небольших значениях приближения (зума).
-                                Иногда (когда на экране много карт) это может повысить производительность.</li>
                         <li><b>"Выделять полноразмеры"</b> - включает/выключает режим, при котором карты, у которых есть качественный джипег, выделяются специальным пунктирным обрамлением.</li>
                         <li><b>"Редактирование"</b> - выключает/выключает режим редактирования (привязки карт).</li>
                     </ul>
@@ -246,8 +261,9 @@
             <section>
                 <h3 id="page_query">Параметры запуска</h3>
                 <p>Страницы с картами или со сводными таблицами карт любого из регионов
-                    (<a href="../spb.html">СПб</a>, <a href="../moscow.html">Москва</a>, <a href="../serbia.html">Белград</a>, <a href="../all.html">все вместе</a>)
-                    можно открыть в сециальном режиме путём добавления специальных параметров к адресу страницы. Ниже - таблица с описанием возможных параметров:</p>
+                    (<a href="../spb.html">СПб</a>, <a href="../moscow.html">Москва</a>, <a href="../bash.html">Башкортостан</a>, <a href="../pskov.html">Псков</a>,
+                    <a href="../ryazan.html">Рязань</a>, <a href="../samara.html">Самара</a>, <a href="../serbia.html">Белград</a>, <a href="../all.html">все вместе</a>)
+                    можно открыть в специальном режиме путём добавления специальных параметров к адресу страницы. Ниже - таблица с описанием возможных параметров:</p>
                 <table class="table table-striped table-hover">
                     <thead class="thead-dark">
                     <tr>
@@ -342,11 +358,58 @@
                         <td>При наличии параметра <i>oopt</i> автоматически включается слой ООПТ (особо охраняемых природных территорий).</td>
                         <td><a href="https://o-maps.spb.ru/spb.html?oopt" target="_blank">https://o-maps.spb.ru/spb.html?oopt</a></td>
                     </tr>
+                    <tr>
+                        <th scope="row">all-years</th>
+                        <td>При наличии параметра <i>all-years</i> включаются слои всех десятилетий, в том числе 90-е и ретро, которые по умолчанию выключены.</td>
+                        <td><a href="https://o-maps.spb.ru/spb.html?all-years" target="_blank">https://o-maps.spb.ru/spb.html?all-years</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">planner</th>
+                        <td>Только карты с дистанциями указанного планировщика. Коды планировщиков - <a href="https://github.com/efradkin/o-maps/blob/main/js/planners.js" target="_blank">тут</a>.</td>
+                        <td><a href="https://o-maps.spb.ru/sheet-spb.html?planner=BKTV" target="_blank">https://o-maps.spb.ru/sheet-spb.html?planner=BKTV</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">region</th>
+                        <td>Только карты указанного региона за пределами основных регионов каталога (например, <i>N_NOVGOROD</i>, <i>KRASNODAR</i>, <i>PERM</i>, <i>KARELIA</i>).
+                            Удобно на общей странице и в общей таблице.</td>
+                        <td><a href="https://o-maps.spb.ru/sheet-all.html?region=N_NOVGOROD" target="_blank">https://o-maps.spb.ru/sheet-all.html?region=N_NOVGOROD</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">only-wo-full</th>
+                        <td>Только карты, для которых нет полноразмерного изображения.</td>
+                        <td><a href="https://o-maps.spb.ru/sheet-spb.html?only-wo-full" target="_blank">https://o-maps.spb.ru/sheet-spb.html?only-wo-full</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">wo-author</th>
+                        <td>Показываются все карты, но карты без известного автора выделяются пунктирной рамкой.</td>
+                        <td><a href="https://o-maps.spb.ru/spb.html?wo-author" target="_blank">https://o-maps.spb.ru/spb.html?wo-author</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">orders</th>
+                        <td>Только районы из реестра <a href="help.html#help_archive">запросов на рисовку карт</a>.</td>
+                        <td><a href="https://o-maps.spb.ru/all.html?orders" target="_blank">https://o-maps.spb.ru/all.html?orders</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">calendar</th>
+                        <td>Включает слой <a href="help-calendar.html#cal_on_map">календаря</a>. Значение параметра задаёт вид стартов (<i>ORIENT</i>, <i>ROGAINE</i>, <i>SKI</i>, <i>VELO</i>...), как в календаре.</td>
+                        <td><a href="https://o-maps.spb.ru/spb.html?calendar=ROGAINE" target="_blank">https://o-maps.spb.ru/spb.html?calendar=ROGAINE</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">tracks</th>
+                        <td>Включает слой <a href="help-tracks.html">маршрутов</a>.</td>
+                        <td><a href="https://o-maps.spb.ru/spb.html?tracks" target="_blank">https://o-maps.spb.ru/spb.html?tracks</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">q</th>
+                        <td>Для сводных таблиц - строка поиска, которая будет сразу применена к таблице.</td>
+                        <td><a href="https://o-maps.spb.ru/sheet-all.html?q=крестовский" target="_blank">https://o-maps.spb.ru/sheet-all.html?q=крестовский</a></td>
+                    </tr>
                     </tbody>
                 </table>
+                <p>Параметры страницы маршрутов описаны в разделе <a href="help-tracks.html#tracks_query">«Маршруты»</a>, календарей - в разделе <a href="help-calendar.html#cal_query">«Календари»</a>.
                 <p>Практически все параметры можно комбинировать (использовать одновременно). Например, такой адрес
                     <a href="https://o-maps.spb.ru/all.html?author=TKMKV_K&x=59.99791&y=30.26149&zoom=13&type=PARK&embedded" target="_blank">https://o-maps.spb.ru/all.html?author=TKMKV_K&x=59.99791&y=30.26149&zoom=13&type=PARK&embedded</a>
-                    соотвествует O-Maps-странице всех регионов вместе, на которую будут загружены только парковые карты Константина Токмакова, причём указаны конкретные точка позиционирования и степень приближения,
+                    соответствует O-Maps-странице всех регионов вместе, на которую будут загружены только парковые карты Константина Токмакова, причём указаны конкретные точка позиционирования и степень приближения,
                     а также включён режим embedded.
                 </p>
             </section>

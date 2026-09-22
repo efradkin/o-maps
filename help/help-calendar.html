@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>O-Maps. Справка. Календари</title>
+    <meta name="description" content="Описание календарей соревнований на O-Maps.">
+    <link rel="icon" type="image/png" href="../favicon.png"/>
+    <link href='../css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css?v=22"/>
+    <link rel="stylesheet" href="../css/theme.css?v=16"/>
+    <script src="../js/theme-toggle.js?v=23"></script>
+
+    <meta property="og:title" content="O-Maps. Справка. Календари">
+    <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Описание календарей соревнований на O-Maps.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body help-body stat-body">
+    <header class="page-header">
+        <h1>O-Maps ◪ Справка</h1>
+
+        <nav class="page-header-actions" aria-label="Навигация по странице">
+            <a href="../index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="../images/home.png" alt="Главная страница" /></a>
+
+            <script src="../js/global-menu.js?v=24"></script>
+            <script>
+                writeGlobalMenuHtml('../');
+            </script>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section>
+                <nav>
+                    <h1>Календари соревнований</h1>
+                    <ul>
+                        <li><a href="#cal_general">Общее описание</a></li>
+                        <li><a href="#cal_columns">Колонки таблицы</a></li>
+                        <li><a href="#cal_filters">Фильтры и поиск</a></li>
+                        <li><a href="#cal_my">Важные и «мои» старты</a></li>
+                        <li><a href="#cal_mobile">Календарь на телефоне</a></li>
+                        <li><a href="#cal_on_map">Календарь на карте</a></li>
+                        <li><a href="#cal_ski">Календарь лыжных гонок</a></li>
+                        <li><a href="#cal_query">Параметры запуска</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="cal_general">Общее описание</h3>
+                <p><a href="../news/2026-08-16/pic_1.jpg" target="_blank"><img src="../news/2026-08-16/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Ранние старты в календаре" alt="Ранние старты в календаре" /></a> На O-Maps есть несколько календарей соревнований:
+                    <ul>
+                        <li><a href="../calendar.html">Санкт-Петербург и Ленинградская область</a> - самый подробный. В нём собраны старты начиная с 2004 года,
+                            а также <a href="../calendar.html?startYear=EARLY">ранние</a> (до 2004 года, начиная с 1963), восстановленные по картам и документам каталога.</li>
+                        <li><a href="../calendar-msk.html">Москва</a>.</li>
+                        <li><a href="../calendar-samara.html">Самара</a>.</li>
+                        <li><a href="../calendar.html?start=major">Главные старты</a> - только важные соревнования (чемпионаты, кубки, крупные многодневки).</li>
+                        <li><a href="../calendar-ski.html">Лыжные гонки</a> - отдельный календарь, о нём <a href="#cal_ski">ниже</a>.</li>
+                    </ul>
+                </p>
+                <p>Календарь - это таблица, разбитая по месяцам. В строке-заголовке каждого месяца указано количество ориентов, рогейнов и прочих стартов в нём.
+                    Прошедшие старты показаны бледнее, ближайшие (в пределах недели) - выделены, отменённые - помечены. При открытии страница сама прокручивается к текущей дате.
+                    Над таблицей показана общая статистика: сколько всего стартов и сколько из них ориент, вело, лыжи, рогейн и прочие.</p>
+                <p>Таблицу можно отсортировать по дате, названию старта или месту проведения, щёлкнув по заголовку соответствующей колонки,
+                    а кнопкой <img src="../images/download_24.png" class="help-figure" style="width:16px" /> - скачать в виде CSV-файла.</p>
+                <p>Календарём Петербурга можно пользоваться и в <a href="calendar_app.html">Android-приложении</a>.</p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="cal_columns">Колонки таблицы</h3>
+                <ul>
+                    <li><b>Номер</b> - порядковый номер старта в году. Рядом может стоять значок вида спорта (🏃 бег, ⛷ лыжная гонка, ❄ лыжное ориентирование,
+                        🚲 вело, 🚣 водный, 🏠 в помещении) и значок 💰, если участие платное.</li>
+                    <li><b>Дата</b> - день или диапазон дней проведения.</li>
+                    <li><b>Старт, регистрация</b> - название (ссылка на страницу соревнований или на O-Site), логотип, ссылки на регистрацию. Пометка «закрытый» означает старт не для всех.</li>
+                    <li><b>Место</b> - место проведения. Значок 🗺️ открывает карту старта на O-Maps, 🌐 - точку проведения на карте, 🚸 - трек маршрута.</li>
+                    <li><b>Вид спорта, формат</b> - ориент, рогейн, вело, лыжи, мульти и т.д., а также формат старта (спринт, лонг, эстафета...).</li>
+                    <li style="clear: both"><a href="../news/2026-09-01/pic_1.jpg" target="_blank"><img src="../news/2026-09-01/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Ссылки на сплиты в календаре" alt="Ссылки на сплиты в календаре" /></a> <b>Результаты</b> - ссылки на протоколы (Orgeo, O-Site, O-Time, Sportident, Reskeep и др.), сплиты и анализ сплитов Reskeep.</li>
+                    <li><b>Трансляции, отчёты</b> - GPS-трансляции, фото- и видеоотчёты.</li>
+                    <li><b>Прочее</b> - дополнительная информация, планировщики дистанций и ссылки на публикации карт с дистанциями.</li>
+                </ul>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="cal_filters">Фильтры и поиск</h3>
+                <p><a href="../news/2026-04-10/pic_5.jpg" target="_blank"><img src="../news/2026-04-10/thumb_5.jpg" class="help-figure help-figure-right news-figure" title="Фильтр по виду стартов" alt="Фильтр по виду стартов" /></a> <a href="../news/2026-08-03/pic_1.jpg" target="_blank"><img src="../news/2026-08-03/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Фильтр «Фото/видео»" alt="Фильтр «Фото/видео»" /></a> В заголовке страницы расположены выпадающие списки:
+                    <ul>
+                        <li><b>Год</b> - конкретный год, «Ранние» или «Все годы».</li>
+                        <li><b>Вид стартов</b> - все, Ориент, Рогейн итп, Лыжи, Вело, Прочее. Ниже разделителя - особые выборки:
+                            «Фото/видео» (только старты со ссылками на фото или видео), «Текущие» (ближайшая неделя, для рогейнов - четыре недели) и «Будущие».</li>
+                    </ul>
+                </p>
+                <p>Кнопка с лупой открывает строку поиска (её же можно вызвать клавишей «/»). Введите любые слова - в таблице останутся только строки, содержащие их все,
+                    в любом порядке и в любой колонке. Регистр и различие «е/ё» не важны. Enter применяет фильтр сразу, Esc - очищает и закрывает поиск.
+                    Такой же поиск есть во всех табличных страницах сайта.</p>
+                <p>Кнопка «На карте» <img src="../images/map_24.png" class="help-figure" style="width:16px" /> в заголовке открывает <a href="#cal_on_map">календарь на карте</a>
+                    с теми же фильтрами, что выбраны в таблице.</p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="cal_my">Важные и «мои» старты</h3>
+                <p>Галочка <b>«только важные»</b> оставляет в таблице лишь главные старты сезона. Важные старты всегда выделены в таблице.</p>
+                <p><a href="../news/2026-01-21/pic_1.jpg" target="_blank"><img src="../news/2026-01-21/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Отметка «моих» стартов" alt="Отметка «моих» стартов" /></a> Можно составить собственный список стартов. Нажмите карандаш ✏️ рядом с галочкой «только мои» - напротив каждого старта появятся галочки.
+                    Отметьте нужные и нажмите ✔️. Отмеченные старты будут выделены в таблице, а галочка <b>«только мои»</b> оставит на экране только их.</p>
+                <p>Состояние этих галочек и список «моих» стартов хранятся в Вашем браузере: на другом устройстве или в другом браузере их придётся отметить заново.</p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="cal_mobile">Календарь на телефоне</h3>
+                <p><a href="../news/2026-09-02/pic_1.jpg" target="_blank"><img src="../news/2026-09-02/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Мобильный календарь" alt="Мобильный календарь" /></a> <a href="../news/2026-09-02/pic_2.jpg" target="_blank"><img src="../news/2026-09-02/thumb_2.jpg" class="help-figure help-figure-right news-figure" title="Раскрытая карточка" alt="Раскрытая карточка" /></a> На телефоне календарь показывается в виде компактных карточек. Свёрнутая карточка содержит две строки: «дата + название» и «место + вид спорта».
+                    Тап по карточке раскрывает её полностью (формат, результаты, трансляции, прочее). Кнопка с двумя шевронами разворачивает или сворачивает все карточки сразу.
+                    Найденные поиском карточки раскрываются автоматически.</p>
+                <p>Верхняя панель с фильтрами прячется при прокрутке вниз и появляется при прокрутке вверх. Кнопка-булавка в заголовке закрепляет её на экране.
+                    Кнопка-стрелка в левом нижнем углу возвращает к началу страницы.</p>
+                <p>Мобильный или настольный вид выбирается один раз при загрузке страницы по ширине экрана.
+                    Принудительно выбрать вид можно параметром <a href="#cal_query">mobile</a>.</p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="cal_on_map">Календарь на карте</h3>
+                <p><a href="../news/2026-02-27/pic_1.jpg" target="_blank"><img src="../news/2026-02-27/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Маркеры стартов на карте" alt="Маркеры стартов на карте" /></a> <a href="../news/2026-03-02_1/pic_1.jpg" target="_blank"><img src="../news/2026-03-02_1/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Галочка «прошлые»" alt="Галочка «прошлые»" /></a> Все старты, для которых известна карта или точка проведения, можно посмотреть на карте:
+                    <a href="../spb.html?calendar">СПб</a>, <a href="../moscow.html?calendar">Москва</a>, <a href="../samara.html?calendar">Самара</a>.
+                    Старты показаны маркерами; цвет маркера зависит от вида спорта (ориент, рогейн, лыжи, вело, водные) и от того, прошёл ли старт или он вот-вот начнётся.
+                    Щелчок по маркеру показывает информацию о старте.</p>
+                <p>За маркеры отвечает слой «Календарь» в <a href="help-maps-on-map.html#layers">переключателе слоёв</a>. Прошедшие старты по умолчанию скрыты,
+                    их можно включить галочкой «прошлые».</p>
+            </section>
+
+            <section>
+                <h3 id="cal_ski">Календарь лыжных гонок</h3>
+                <p><a href="../calendar-ski.html">Календарь лыжных гонок</a> устроен так же, как основной, но колонок в нём меньше: дата, старт и регистрация, место, дистанция.
+                    Вместо вида спорта в фильтре выбирается место проведения (СПб, Выборг, Гарболово, Гатчина, Дудергоф, Зеленогорск, Орехово, Пушкин, Токсово, не Питер),
+                    а также «Текущие» и «Будущие». Кнопка «На карте» ведёт на страницу <a href="help-tracks.html">маршрутов</a>.</p>
+            </section>
+
+            <section>
+                <h3 id="cal_query">Параметры запуска</h3>
+                <p>Как и <a href="help-maps-on-map.html#page_query">страницы с картами</a>, календари можно открыть с заранее заданными фильтрами:</p>
+                <table class="table table-striped table-hover">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Параметр</th>
+                        <th scope="col">Описание</th>
+                        <th scope="col">Пример использования</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">startYear</th>
+                        <td>Год стартов. Особые значения: <i>ALL</i> - все годы, <i>EARLY</i> - ранние старты (до 2004 г.).</td>
+                        <td><a href="https://o-maps.spb.ru/calendar.html?startYear=2025" target="_blank">https://o-maps.spb.ru/calendar.html?startYear=2025</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">calendar</th>
+                        <td>Вид стартов: <i>ORIENT</i>, <i>ROGAINE</i>, <i>SKI</i>, <i>VELO</i>, <i>OTHER</i>, а также <i>media</i> (есть фото/видео), <i>actual</i> (текущие), <i>future</i> (будущие).
+                            Можно указать и код соревнования или организатора. На <a href="#cal_on_map">страницах с картами</a> этот же параметр включает слой календаря.</td>
+                        <td><a href="https://o-maps.spb.ru/calendar.html?calendar=ROGAINE" target="_blank">https://o-maps.spb.ru/calendar.html?calendar=ROGAINE</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">start</th>
+                        <td>Только старты указанного соревнования (многодневки, серии). Значение <i>major</i> - только важные старты.</td>
+                        <td><a href="https://o-maps.spb.ru/calendar.html?startYear=ALL&start=RUSSIA_CHAMP" target="_blank">https://o-maps.spb.ru/calendar.html?startYear=ALL&amp;start=RUSSIA_CHAMP</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">owner</th>
+                        <td>Только старты указанного организатора.</td>
+                        <td><a href="https://o-maps.spb.ru/calendar-msk.html?owner=MLKHT" target="_blank">https://o-maps.spb.ru/calendar-msk.html?owner=MLKHT</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">q</th>
+                        <td>Строка поиска, которая будет сразу применена к таблице.</td>
+                        <td><a href="https://o-maps.spb.ru/calendar.html?q=токсово" target="_blank">https://o-maps.spb.ru/calendar.html?q=токсово</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">mobile</th>
+                        <td>Принудительный выбор вида: <i>mobile</i> или <i>mobile=1</i> - карточки, <i>mobile=0</i> - обычная таблица.</td>
+                        <td><a href="https://o-maps.spb.ru/calendar.html?mobile" target="_blank">https://o-maps.spb.ru/calendar.html?mobile</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+
+        <noscript>
+            <div id="noscript_content">
+                <h1>O-Maps. Справка</h1>
+                <p>
+                    Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+                </p>
+            </div>
+        </noscript>
+    </main>
+
+    <footer>
+        <hr />
+        <span class="my-copyright">© <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>, <a href="https://t.me/o_maps" target="_blank">O-Maps group</a></span>
+    </footer>
+
+    <script src="../js/ext/jquery.slim.min.js"></script>
+    <script src="../js/ext/bootstrap.min.js"></script>
+    <script src="../js/ext/bootstrap5-dropdown-ml-hack.js"></script>
+
+    <script src="../js/utils-common.js?v=23"></script>
+    <script src="../js/welcome.js?v=23"></script>
+    <script>
+        writeWelcomeButton('../');
+    </script>
+</body>
+
+</html>

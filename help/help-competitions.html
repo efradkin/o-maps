@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>O-Maps. Справка. Соревнования</title>
+    <meta name="description" content="Описание разделов о соревнованиях на O-Maps.">
+    <link rel="icon" type="image/png" href="../favicon.png"/>
+    <link href='../css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css?v=22"/>
+    <link rel="stylesheet" href="../css/theme.css?v=16"/>
+    <script src="../js/theme-toggle.js?v=23"></script>
+
+    <meta property="og:title" content="O-Maps. Справка. Соревнования">
+    <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Описание разделов о соревнованиях на O-Maps.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body help-body stat-body">
+    <header class="page-header">
+        <h1>O-Maps ◪ Справка</h1>
+
+        <nav class="page-header-actions" aria-label="Навигация по странице">
+            <a href="../index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="../images/home.png" alt="Главная страница" /></a>
+
+            <script src="../js/global-menu.js?v=24"></script>
+            <script>
+                writeGlobalMenuHtml('../');
+            </script>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section>
+                <nav>
+                    <h1>Соревнования</h1>
+                    <ul>
+                        <li><a href="#comp_general">Общее описание</a></li>
+                        <li><a href="#comp_sheet">Таблица соревнований</a></li>
+                        <li><a href="#comp_start_page">Страница соревнования</a></li>
+                        <li><a href="#comp_stat">Соревнования по годам</a></li>
+                        <li><a href="#comp_champs">Чемпионаты</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="comp_general">Общее описание</h3>
+                <p>Помимо самих карт, O-Maps собирает сведения о соревнованиях - многодневках, сериях стартов, чемпионатах и кубках.
+                    Каждое соревнование зарегистрировано в каталоге под своим кодом (например, <i>NA</i> - Невский Азимут, <i>KKP</i> - ККП, <i>WN</i> - Белые Ночи).
+                    Список всех кодов можно посмотреть <a href="https://github.com/efradkin/o-maps/blob/main/js/starts.js" target="_blank">тут</a>.
+                    По коду соревнования, переданному в параметре <i>start</i>, можно отфильтровать карты на <a href="help-maps-on-map.html#page_query">карте</a>
+                    и в <a href="help-sheets.html">сводных таблицах</a>, старты в <a href="help-calendar.html">календаре</a> и маршруты в <a href="help-tracks.html">таблице маршрутов</a>.</p>
+                <p>Одно и то же соревнование можно посмотреть по-разному:
+                    <ul>
+                        <li>наглядно на карте - на странице <a href="help-starts-on-map.html">«Старты на карте»</a>;</li>
+                        <li>списком карт - в <a href="help-sheets.html">сводной таблице</a> с выбранным стартом;</li>
+                        <li>плитками - на <a href="#comp_start_page">странице соревнования</a>;</li>
+                        <li>в календаре - все старты этого соревнования за все годы.</li>
+                    </ul>
+                    Например, для Невского Азимута:
+                    <a href="../starts.html?start=NA">на карте</a>, <a href="../sheet-all.html?start=NA">списком</a>,
+                    <a href="../start.html?start=NA">плитками</a>, <a href="../calendar.html?startYear=ALL&amp;start=NA">в календаре</a>.</p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="comp_sheet">Таблица соревнований</h3>
+                <p><a href="../news/2026-02-28/pic_1.jpg" target="_blank"><img src="../news/2026-02-28/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Таблица соревнований" alt="Таблица соревнований" /></a> <a href="../sheet-starts.html">Сводная таблица соревнований</a> перечисляет все зарегистрированные в каталоге соревнования: логотип, название,
+                    период проведения, краткую информацию и ссылку на <a href="#comp_start_page">страницу соревнования</a>. Таблицу можно скачать в виде CSV-файла.</p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="comp_start_page">Страница соревнования</h3>
+                <p><a href="../news/2026-08-04_2/pic_5.jpg" target="_blank"><img src="../news/2026-08-04_2/thumb_5.jpg" class="help-figure help-figure-right news-figure" title="Карты соревнования плитками" alt="Карты соревнования плитками" /></a> Страница соревнования (например, <a href="../start.html?start=MMS">Мемориал Михаила Святкина</a>) открывается по адресу вида
+                    <i>start.html?start=КОД</i>. В её верхней части - логотип и описание соревнования, ниже - две вкладки:
+                    <ul>
+                        <li><b>Календарь</b> - все старты этого соревнования из <a href="help-calendar.html">календаря</a> со ссылками на результаты, трансляции и отчёты;</li>
+                        <li><b>Карты</b> - все карты соревнования в виде плиток, от новых к старым. Щелчок по плитке открывает
+                            <a href="help-start-map-info.html#map_info">карточку карты</a>.</li>
+                    </ul>
+                    Подробнее о плитках - в разделе <a href="help-start-map-info.html#start_catalog">«Каталог многодневки»</a>.
+                    Для некоторых соревнований есть собственные страницы - например, <a href="../kkm.html">Кубок Коротких Маршрутов</a>.</p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="comp_stat">Соревнования по годам</h3>
+                <p>Страница <a href="../starts-stat.html">«Соревнования по годам»</a> - это диаграмма, наглядно показывающая историю соревнований.
+                    Каждому соревнованию соответствует строка, каждому году - столбец. Планка в строке показывает годы, когда соревнование проводилось,
+                    а её толщина - количество стартовых дней в каждом году. Цветом различаются ориентирование и рогейн.</p>
+                <p>Над диаграммой расположены выпадающие списки:
+                    <ul>
+                        <li><b>Тип соревнований</b> - все, ориент или рогейн;</li>
+                        <li><b>Сортировка</b> - по названию, количеству стартовых дней, году первого старта или количеству лет проведения;</li>
+                        <li><b>Масштаб толщины</b> - крупный, средний или мелкий.</li>
+                    </ul>
+                </p>
+                <p>При наведении курсора на планку показывается подсказка с числом стартовых дней. Щелчок по году открывает
+                    <a href="help-calendar.html">календарь</a> со стартами этого соревнования в выбранном году,
+                    а щелчок по названию - <a href="#comp_start_page">страницу соревнования</a>. На узком экране диаграмма прокручивается по горизонтали.</p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="comp_champs">Чемпионаты</h3>
+                <p><a href="../news/2026-05-20/pic_1.jpg" target="_blank"><img src="../news/2026-05-20/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Подборки чемпионатов на главной" alt="Подборки чемпионатов на главной" /></a> <a href="../news/2026-05-25/pic_1.jpg" target="_blank"><img src="../news/2026-05-25/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Карта Чемпионата СССР" alt="Карта Чемпионата СССР" /></a> Для чемпионатов собраны отдельные подборки:
+                    <ul>
+                        <li>Чемпионаты СССР: <a href="../all.html?start=USSR_CHAMP">на карте</a>, <a href="../sheet-all.html?start=USSR_CHAMP">списком</a>,
+                            <a href="../start.html?start=USSR_CHAMP">плитками</a> и <a href="../documents.html?start=USSR_CHAMP">документы</a>;</li>
+                        <li>Чемпионаты России: <a href="../all.html?start=RUSSIA_CHAMP">на карте</a>, <a href="../sheet-all.html?start=RUSSIA_CHAMP">списком</a>,
+                            <a href="../start.html?start=RUSSIA_CHAMP">плитками</a> и <a href="../calendar.html?startYear=ALL&amp;start=RUSSIA_CHAMP">в календаре</a>;</li>
+                        <li>Чемпионаты России по рогейну: <a href="../all.html?start=RUSSIA_ROGAINE_CHAMP">на карте</a>, <a href="../sheet-all.html?start=RUSSIA_ROGAINE_CHAMP">списком</a>,
+                            <a href="../start.html?start=RUSSIA_ROGAINE_CHAMP">плитками</a> и <a href="../calendar.html?startYear=ALL&amp;start=RUSSIA_ROGAINE_CHAMP">в календаре</a>.</li>
+                    </ul>
+                    Все важные соревнования (чемпионаты и кубки) вместе можно получить значением <i>major</i> параметра <i>start</i>, например
+                    <a href="../sheet-all.html?start=major">списком</a> или <a href="../calendar.html?start=major">в календаре</a>.</p>
+            </section>
+        </div>
+
+        <noscript>
+            <div id="noscript_content">
+                <h1>O-Maps. Справка</h1>
+                <p>
+                    Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+                </p>
+            </div>
+        </noscript>
+    </main>
+
+    <footer>
+        <hr />
+        <span class="my-copyright">© <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>, <a href="https://t.me/o_maps" target="_blank">O-Maps group</a></span>
+    </footer>
+
+    <script src="../js/ext/jquery.slim.min.js"></script>
+    <script src="../js/ext/bootstrap.min.js"></script>
+    <script src="../js/ext/bootstrap5-dropdown-ml-hack.js"></script>
+
+    <script src="../js/utils-common.js?v=23"></script>
+    <script src="../js/welcome.js?v=23"></script>
+    <script>
+        writeWelcomeButton('../');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>O-Maps. Справка. Маршруты</title>
+    <meta name="description" content="Описание раздела маршрутов на O-Maps.">
+    <link rel="icon" type="image/png" href="../favicon.png"/>
+    <link href='../css/google-fonts.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css?v=22"/>
+    <link rel="stylesheet" href="../css/theme.css?v=16"/>
+    <script src="../js/theme-toggle.js?v=23"></script>
+
+    <meta property="og:title" content="O-Maps. Справка. Маршруты">
+    <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
+    <meta property="og:url" content="https://o-maps.spb.ru/">
+    <meta property="og:description" content="Описание раздела маршрутов на O-Maps.">
+    <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(99914151, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+</head>
+<body class="index-body help-body stat-body">
+    <header class="page-header">
+        <h1>O-Maps ◪ Справка</h1>
+
+        <nav class="page-header-actions" aria-label="Навигация по странице">
+            <a href="../index.html" target="_self" class="stat-map-link stat-map-link-right" title="Главная страница"><img src="../images/home.png" alt="Главная страница" /></a>
+
+            <script src="../js/global-menu.js?v=24"></script>
+            <script>
+                writeGlobalMenuHtml('../');
+            </script>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section>
+                <nav>
+                    <h1>Маршруты</h1>
+                    <ul>
+                        <li><a href="#tracks_general">Общее описание</a></li>
+                        <li><a href="#tracks_layers">Слои</a></li>
+                        <li><a href="#tracks_info">Информация о маршруте</a></li>
+                        <li><a href="#tracks_ski">Лыжные трассы</a></li>
+                        <li><a href="#tracks_sheet">Таблица маршрутов</a></li>
+                        <li><a href="#tracks_query">Параметры запуска</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="tracks_general">Общее описание</h3>
+                <p><a href="../news/2025-08-15/pic_1.jpg" target="_blank"><img src="../news/2025-08-15/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Маршруты на карте" alt="Маршруты на карте" /></a> Раздел <a href="../tracks.html">«Маршруты»</a> - это подборка интересных маршрутов Санкт-Петербурга и окрестностей: пеших, беговых, вело, лыжных и водных.
+                    Сюда входят экологические тропы, лыжные трассы, трассы забегов и веломарафонов и т.п. Каждый маршрут - это GPX-трек, наложенный на картографическую подложку.</p>
+                <p>Страница устроена так же, как <a href="help-maps-on-map.html">«Карты на карте»</a>: те же подложки, инструменты, контекстное меню и поиск.
+                    Отличия - в наборе слоёв и во всплывающей информации. В контекстном меню вместо пунктов о картах - «Показать все треки» и «Скрыть все треки».</p>
+                <p>В заголовке страницы есть выпадающий список месяцев: он оставляет на карте только маршруты соревнований, проводившихся в выбранном месяце.</p>
+                <p>Те же маршруты есть на страницах с картами регионов в слое «Маршруты» (см. <a href="help-maps-on-map.html#layers">слои карт</a>).</p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="tracks_layers">Слои</h3>
+                <p><a href="../news/2026-06-09/pic_1.jpg" target="_blank"><img src="../news/2026-06-09/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Лыжная инфраструктура в слое POI" alt="Лыжная инфраструктура в слое POI" /></a> Маршруты сгруппированы по видам: Бег, Вело, Водные, Лыжи, Пешие. Один маршрут может входить в несколько слоёв (например, пеший и вело).
+                    Дополнительно доступны слои:
+                    <ul>
+                        <li><b>Карты</b> - рогейнерские карты;</li>
+                        <li><b>POI</b> - полезные места: клубы, центры многодневок, лыжная инфраструктура (УТЦ, Охта Парк, Ярви, Гарболово, Прибой и др.);</li>
+                        <li><b>ООПТ</b> - границы особо охраняемых природных территорий.</li>
+                    </ul>
+                </p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="tracks_info">Информация о маршруте</h3>
+                <p><a href="../news/2025-07-28/pic_2.jpg" target="_blank"><img src="../news/2025-07-28/thumb_2.jpg" class="help-figure help-figure-right news-figure" title="Информация о маршруте" alt="Информация о маршруте" /></a> <a href="../news/2025-07-28/pic_5.jpg" target="_blank"><img src="../news/2025-07-28/thumb_5.jpg" class="help-figure help-figure-right news-figure" title="Фотографии маршрута" alt="Фотографии маршрута" /></a> Щелчок по треку открывает окошко с информацией о маршруте:
+                    <ul>
+                        <li>название (со ссылкой на описание маршрута, если оно есть) и длина трека;</li>
+                        <li>кнопка скачивания GPX-трека;</li>
+                        <li>значок ⭐, если маршрут маркирован на местности;</li>
+                        <li>вид маршрута, для лыжных - тип трассы (см. <a href="#tracks_ski">ниже</a>);</li>
+                        <li>дата и соревнование - для маршрутов стартов;</li>
+                        <li>описание, ссылки на результаты и видео;</li>
+                        <li>ссылка «Картинки», открывающая фотографии маршрута в режиме слайд-шоу.</li>
+                    </ul>
+                </p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="tracks_ski">Лыжные трассы</h3>
+                <p><a href="../news/2025-07-31/pic_1.jpg" target="_blank"><img src="../news/2025-07-31/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Лыжные трассы" alt="Лыжные трассы" /></a> Лыжные трассы города и окрестностей можно посмотреть <a href="../tracks.html?track-type=SKI">на карте</a> и
+                    <a href="../sheet-tracks.html?track-type=SKI">списком</a>. У каждой лыжной трассы указан её тип:
+                    <ul>
+                        <li><b>Конёк</b> - регулярная трасса для конькового хода, прокатывается техникой;</li>
+                        <li><b>Классика</b> - постоянная классическая лыжня, прокатывается техникой;</li>
+                        <li><b>Непостоянно</b> - трасса прокатывается техникой, но не регулярно;</li>
+                        <li><b>Парк</b> - парковая дорожка, на хороших лыжах сюда не стоит;</li>
+                        <li><b>Самотоп</b> - самотопная лыжня, которой может и не быть.</li>
+                    </ul>
+                    Для лыжных гонок есть отдельный <a href="help-calendar.html#cal_ski">календарь</a>.
+                </p>
+            </section>
+
+            <section class="clearfix">
+                <h3 id="tracks_sheet">Таблица маршрутов</h3>
+                <p><a href="../news/2026-07-19_1/pic_2.jpg" target="_blank"><img src="../news/2026-07-19_1/thumb_2.jpg" class="help-figure help-figure-right news-figure" title="Таблица маршрутов" alt="Таблица маршрутов" /></a> <a href="../sheet-tracks.html">Таблица маршрутов</a> содержит колонки: название, дата, информация, длина, GPX (скачивание), маркировка, ссылки, тип и фото/видео.
+                    В заголовке выбираются тип маршрута (пеший, бег, лыжи, вело, водный) и месяц. Как и во всех таблицах сайта, есть поиск,
+                    скачивание в CSV и кнопка «На карте», открывающая маршруты с выбранными фильтрами.</p>
+            </section>
+
+            <section>
+                <h3 id="tracks_query">Параметры запуска</h3>
+                <table class="table table-striped table-hover">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Параметр</th>
+                        <th scope="col">Описание</th>
+                        <th scope="col">Пример использования</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">track</th>
+                        <td>Карта откроется на треке, имя GPX-файла которого содержит указанную строку.</td>
+                        <td><a href="https://o-maps.spb.ru/tracks.html?track=sestrorezkoe_boloto" target="_blank">https://o-maps.spb.ru/tracks.html?track=sestrorezkoe_boloto</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">onlytrack</th>
+                        <td>То же, но будет загружен ТОЛЬКО этот трек.</td>
+                        <td><a href="https://o-maps.spb.ru/tracks.html?onlytrack=sestrorezkoe_boloto" target="_blank">https://o-maps.spb.ru/tracks.html?onlytrack=sestrorezkoe_boloto</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">track-type</th>
+                        <td>Только маршруты одного вида: <i>WALK</i>, <i>RUN</i>, <i>SKI</i>, <i>VELO</i>, <i>WATER</i>.</td>
+                        <td><a href="https://o-maps.spb.ru/tracks.html?track-type=SKI" target="_blank">https://o-maps.spb.ru/tracks.html?track-type=SKI</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">track-month</th>
+                        <td>Только маршруты соревнований, проводившихся в указанном месяце (<i>01</i> - <i>12</i>).</td>
+                        <td><a href="https://o-maps.spb.ru/sheet-tracks.html?track-month=02" target="_blank">https://o-maps.spb.ru/sheet-tracks.html?track-month=02</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">start</th>
+                        <td>Только маршруты указанного соревнования или серии (например, забегов «5 Вёрст»).</td>
+                        <td><a href="https://o-maps.spb.ru/sheet-tracks.html?start=PARKRUN" target="_blank">https://o-maps.spb.ru/sheet-tracks.html?start=PARKRUN</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">q</th>
+                        <td>Строка поиска для таблицы маршрутов.</td>
+                        <td><a href="https://o-maps.spb.ru/sheet-tracks.html?q=токсово" target="_blank">https://o-maps.spb.ru/sheet-tracks.html?q=токсово</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">poi, oopt, calendar</th>
+                        <td>Включают слои POI, ООПТ и календаря - так же, как на <a href="help-maps-on-map.html#page_query">страницах с картами</a>.</td>
+                        <td><a href="https://o-maps.spb.ru/tracks.html?poi" target="_blank">https://o-maps.spb.ru/tracks.html?poi</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+
+        <noscript>
+            <div id="noscript_content">
+                <h1>O-Maps. Справка</h1>
+                <p>
+                    Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
+                </p>
+            </div>
+        </noscript>
+    </main>
+
+    <footer>
+        <hr />
+        <span class="my-copyright">© <a href="https://vk.com/fradkin" target="_blank">Фрадкин Евгений</a>, <a href="https://t.me/o_maps" target="_blank">O-Maps group</a></span>
+    </footer>
+
+    <script src="../js/ext/jquery.slim.min.js"></script>
+    <script src="../js/ext/bootstrap.min.js"></script>
+    <script src="../js/ext/bootstrap5-dropdown-ml-hack.js"></script>
+
+    <script src="../js/utils-common.js?v=23"></script>
+    <script src="../js/welcome.js?v=23"></script>
+    <script>
+        writeWelcomeButton('../');
+    </script>
+</body>
+
+</html>

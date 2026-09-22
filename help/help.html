@@ -9,7 +9,7 @@
     <link href='../css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/main.css?v=22"/>
     <link rel="stylesheet" href="../css/theme.css?v=16"/>
     <script src="../js/theme-toggle.js?v=23"></script>
 
@@ -58,25 +58,55 @@
                     <h1>Содержание</h1>
                     <ol>
                         <li><a href="#help_general">Общее описание</a></li>
-                        <li><a href="help-maps-on-map.html#maps_on_map">Карты на карте</a></li>
+                        <li><a href="#help_ui">Общие элементы интерфейса</a>
+                            <ul>
+                                <li><a href="#ui_home">Главная страница и страницы регионов</a></li>
+                                <li><a href="#ui_menu">Глобальное меню и кнопки заголовка</a></li>
+                                <li><a href="#ui_tables">Работа с таблицами</a></li>
+                                <li><a href="#ui_news">Новости</a></li>
+                                <li><a href="#ui_theme">Тёмная тема и мобильные устройства</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="help-maps-on-map.html">Карты на карте</a>
                             <ul>
                                 <li><a href="help-maps-on-map.html#map_base">Подложка</a></li>
                                 <li><a href="help-maps-on-map.html#layers">Слои карт</a></li>
                                 <li><a href="help-maps-on-map.html#map_info">Информация о карте</a></li>
                                 <li><a href="help-maps-on-map.html#page_controls">Элементы управления</a></li>
                                 <li><a href="help-maps-on-map.html#context_menu">Всплывающее (контекстное) меню</a></li>
-                                <li><a href="help-maps-on-map.html#maps_counter">Счётчик карт</a></li>
                                 <li><a href="help-maps-on-map.html#page_query">Параметры запуска</a></li>
                             </ul>
-                        <li><a href="help-starts-on-map.html">Старты на карте</a></li>
-                        <ul>
-                            <li><a href="help-starts-on-map.html#layers">Слои карт</a></li>
-                            <li><a href="help-starts-on-map.html#page_controls">Элементы управления</a></li>
-                            <li><a href="help-starts-on-map.html#context_menu">Всплывающее (контекстное) меню</a></li>
-                        </ul>
+                        </li>
+                        <li><a href="help-starts-on-map.html">Старты на карте</a>
+                            <ul>
+                                <li><a href="help-starts-on-map.html#page_controls">Элементы управления</a></li>
+                                <li><a href="help-starts-on-map.html#starts_switcher">Слои карт</a></li>
+                                <li><a href="help-starts-on-map.html#timeline">Выбор диапазона дат (time-line)</a></li>
+                                <li><a href="help-starts-on-map.html#context_menu">Всплывающее (контекстное) меню</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="help-competitions.html">Соревнования</a>
+                            <ul>
+                                <li><a href="help-competitions.html#comp_sheet">Таблица соревнований</a></li>
+                                <li><a href="help-competitions.html#comp_start_page">Страница соревнования</a></li>
+                                <li><a href="help-competitions.html#comp_stat">Соревнования по годам</a></li>
+                                <li><a href="help-competitions.html#comp_champs">Чемпионаты</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="help-calendar.html">Календари соревнований</a>
+                            <ul>
+                                <li><a href="help-calendar.html#cal_filters">Фильтры и поиск</a></li>
+                                <li><a href="help-calendar.html#cal_my">Важные и «мои» старты</a></li>
+                                <li><a href="help-calendar.html#cal_on_map">Календарь на карте</a></li>
+                                <li><a href="help-calendar.html#cal_ski">Календарь лыжных гонок</a></li>
+                                <li><a href="help-calendar.html#cal_query">Параметры запуска</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="help-tracks.html">Маршруты</a></li>
                         <li><a href="help-statistics.html">Статистика</a></li>
                         <li><a href="help-sheets.html">Сводные таблицы</a></li>
                         <li><a href="help-start-map-info.html">Информация об отдельной карте и оглавление многодневки</a></li>
+                        <li><a href="#help_archive">Справочные и архивные разделы</a></li>
                         <li><a href="help-integration.html">Интеграция</a></li>
                         <li><a href="help-structures.html">Структуры данных</a></li>
                         <li><a href="calendar_app.html">Android-приложение календаря</a></li>
@@ -84,24 +114,132 @@
                 </nav>
             </section>
 
-            <section>
+            <section class="clearfix">
                 <h1 id="help_general">Общее описание</h1>
                 <p><img src="img/spb_center.webp" class="help-figure help-figure-left" title="Карты на карте" /><a href="../index.html">O-Maps</a> - это сайт-каталог спортивных карт (ориентирование, рогейн, охота на лис, туризм...).
-                    Здесь представлены более полутора тысяч карт разных авторов, мест, типов и годов издания.
-                    В данный момент в каталоге пять регионов - <a href="../spb.html" target="_self">Санкт-Петербург</a>,
-                    <a href="../moscow.html" target="_self">Москва</a>, <a href="../ryazan.html" target="_self">Рязань</a>, <a href="../samara.html" target="_self">Самара</a> и отчасти <a href="../serbia.html" target="_self">Белград</a>.
-                    Можно посмотреть карты всех регионов на одной общей <a href="../all.html" target="_self">странице</a>.
-                <p>Отдельный раздел - <a href="../starts.html" target="_self">"Старты на карте"</a>, где собраны районы и дистанции многодневок
-                    (Невский Азимут, Яркий Мир, ККП, ММС, Карельские скалы, Памяти Сергея Кузнецова) и серий стартов
-                    (Спринт-Тур, Ориентирование в школу, Bike/Trail Adventure, Марш-Бросок, RFAR, 100х24, ККМ, БНО, Компот-Рогейн) хронологически.
+                    <a href="../news/2026-06-05/pic_1.jpg" target="_blank"><img src="../news/2026-06-05/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="3000 карт в каталоге O-Maps" alt="3000 карт в каталоге O-Maps" /></a> Здесь представлены более трёх тысяч карт разных авторов, мест, типов и годов издания.
+                    В каталоге выделены семь регионов - <a href="../spb.html" target="_self">Санкт-Петербург</a>,
+                    <a href="../moscow.html" target="_self">Москва</a>, <a href="../bash.html" target="_self">Башкортостан</a>, <a href="../pskov.html" target="_self">Псков</a>,
+                    <a href="../ryazan.html" target="_self">Рязань</a>, <a href="../samara.html" target="_self">Самара</a> и отчасти <a href="../serbia.html" target="_self">Белград</a>.
+                    Карты всех регионов (включая карты за их пределами) можно посмотреть на одной общей <a href="../all.html" target="_self">странице</a>.
+                <p>Каталог позволяет решать три основные задачи:
+                    <ul>
+                        <li><b>Карты для соревнований и тренировок</b> - достаточно свежие, актуальные, с доступными полноразмерными изображениями для печати
+                            или с указанием правообладателя, у которого карту можно арендовать.</li>
+                        <li><b>Карты различных годов и авторов</b> в одних и тех же местах - от 50-летней давности до самых свежих. Позволяет наблюдать развитие картографии.</li>
+                        <li><b>Архив (музей)</b> - старые карты или уже не актуальные из-за сильного изменения местности.</li>
+                    </ul>
+                <p>Отдельный раздел - <a href="../starts.html" target="_self">"Старты на карте"</a>, где хронологически собраны районы и дистанции многодневок
+                    (Невский Азимут, Яркий Мир, ККП, Мемориал Михаила Святкина, Белые Ночи, Карельские скалы, Вачский азимут) и серий стартов
+                    (Спринт-Тур, Зелёный Змей, Ориентирование в школу, ретро-старты ОРИЕНТИР и 2х2, Bike/Trail Adventure, Марш-Бросок, RFAR, 100х24, ККМ, БНО, Компот-рогейн, Ночная ПРАгулка).
+                    О соревнованиях есть и другие страницы - <a href="../sheet-starts.html" target="_self">сводная таблица стартов</a>,
+                    <a href="../starts-stat.html" target="_self">диаграмма соревнований по годам</a> и подборки чемпионатов (см. <a href="help-competitions.html">"Соревнования"</a>).
                 <p>Вся информация о картах собрана в сводные таблицы - <a href="../sheet-spb.html" target="_self">СПб</a>, <a href="../sheet-moscow.html" target="_self">Москва</a>,
-                    <a href="../sheet-ryazan.html" target="_self">Рязань</a>, <a href="../sheet-samara.html" target="_self">Самара</a>, <a href="../sheet-serbia.html" target="_self">Белград</a> и <a href="../sheet-all.html" target="_self">общая</a>.
+                    <a href="../sheet-bash.html" target="_self">Башкортостан</a>, <a href="../sheet-pskov.html" target="_self">Псков</a>,
+                    <a href="../sheet-ryazan.html" target="_self">Рязань</a>, <a href="../sheet-samara.html" target="_self">Самара</a>, <a href="../sheet-serbia.html" target="_self">Белград</a>
+                    и <a href="../sheet-all.html" target="_self">общая</a>. А <a href="../authors.html" target="_self">тут</a> - сводная таблица авторов-составителей карт.
                 <p>Помимо самих карт, есть и разнообразная статистика - <a href="../charts-spb.html" target="_self">СПб</a>, <a href="../charts-moscow.html" target="_self">Москва</a>,
-                    <a href="../charts-ryazan.html" target="_self">Рязань</a>, <a href="../charts-samara.html" target="_self">Самара</a>, <a href="../charts-serbia.html" target="_self">Белград</a> и <a href="../charts-all.html" target="_self">общая</a>.
+                    <a href="../charts-bash.html" target="_self">Башкортостан</a>, <a href="../charts-pskov.html" target="_self">Псков</a>,
+                    <a href="../charts-ryazan.html" target="_self">Рязань</a>, <a href="../charts-samara.html" target="_self">Самара</a>, <a href="../charts-serbia.html" target="_self">Белград</a>
+                    и <a href="../charts-all.html" target="_self">общая</a>.
+                <p>Немного особняком стоят <a href="help-calendar.html">календари соревнований</a> - <a href="../calendar.html" target="_self">Санкт-Петербурга</a>,
+                    <a href="../calendar-msk.html" target="_self">Москвы</a>, <a href="../calendar-samara.html" target="_self">Самары</a>,
+                    <a href="../calendar.html?start=major" target="_self">главных стартов</a> и <a href="../calendar-ski.html" target="_self">лыжных гонок</a>.
+                    Календарём Петербурга можно пользоваться и в <a href="calendar_app.html">Android-приложении</a>.
+                    А в разделе <a href="help-tracks.html">"Маршруты"</a> собраны интересные пешие, беговые, вело-, лыжные и водные маршруты Санкт-Петербурга и окрестностей.
                 <p>Все карты в каталоге доступны для некоммерческого использования, если в их описании не указано обратное. Для проведения соревнований и получения качественных карт-материалов
                     обращайтесь к их владельцам, имена и координаты которых везде по возможности указаны.
+                    Вся информация о правообладателях карт записана со слов, и она не может быть использована никаким образом для доказательства прав собственности.
                 <p>При желании Вы можете интегрировать O-Maps в свой сайт. Разъяснительная страничка находится <a href="../integration/integration1.html" target="_self">тут</a>.
                     А <a href="../integration/banners.html">тут</a> можно посмотреть рекламные баннеры O-Maps.
+            </section>
+
+            <section class="clearfix">
+                <h1 id="help_ui">Общие элементы интерфейса</h1>
+
+                <h3 id="ui_home">Главная страница и страницы регионов</h3>
+                <p><a href="../news/2026-08-04_2/pic_1.jpg" target="_blank"><img src="../news/2026-08-04_2/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Главная страница" alt="Главная страница" /></a> <a href="../news/2026-03-30/pic_1.jpg" target="_blank"><img src="../news/2026-03-30/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Домашняя страница региона" alt="Домашняя страница региона" /></a> На <a href="../index.html">главной странице</a> расположены плашки регионов. Каждая плашка ведёт на домашнюю страницу региона, где собраны все сервисы,
+                    доступные для него: карты, календарь, старты, маршруты, таблицы, статистика и т.д. (например, <a href="../spb-home.html">Санкт-Петербург</a>
+                    или <a href="../all-home.html">все регионы вместе</a>). Ниже плашек - вкладки «Карты», «Дистанции» и «Прочее» с кратким описанием
+                    разделов сайта и ссылками на них, а также список полезных страниц.</p>
+                <p>В верхней строке главной страницы - ссылки на <a href="#ui_news">новости</a> и <a href="contacts.html">контакты</a>, а также
+                    <a href="#ui_theme">переключатель темы</a>.</p>
+
+                <h3 id="ui_menu" style="clear: both">Глобальное меню и кнопки заголовка</h3>
+                <p><a href="../news/2026-02-24_1/pic_1.jpg" target="_blank"><img src="../news/2026-02-24_1/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Глобальное меню" alt="Глобальное меню" /></a> Почти на каждой странице сайта в заголовке есть кнопка «Домой» (переход на главную страницу) и глобальное меню ☰ со всеми разделами сайта:
+                    <ul>
+                        <li><b>Регионы</b> - для каждого региона: карты, таблица, статистика, а где есть - календарь, старты, маршруты, закрытые районы, лыжные трассы, клубы;</li>
+                        <li><b>Календарь</b> - календари СПб, Москвы, Самары, главных стартов, лыжных гонок и Android-приложение;</li>
+                        <li><b>Разное</b> - запросы на рисовку, чемпионаты, авторы-составители, соревнования, документы, правила, книги, неопределённые карты;</li>
+                        <li><b>Персонально</b> - персональные и мемориальные страницы;</li>
+                        <li><b>О сайте</b> - главная страница, контакты, новости, справка, рекламные баннеры.</li>
+                    </ul>
+                    На страницах с картами то же меню открывается кнопкой в левой рейке.</p>
+                <p>Жёлтая кнопка <img src="img/about.png" class="help-figure" style="height:20px" /> <b>«О проекте»</b> открывает окно с описанием проекта, его задач, способов поддержки,
+                    а также с обращением к авторам и правообладателям карт. Раз в неделю это окно показывается автоматически.
+                    <a href="../news/2026-07-28_2/pic_2.jpg" target="_blank"><img src="../news/2026-07-28_2/thumb_2.jpg" class="help-figure help-figure-right news-figure" title="Всплывающее окошко с подсказкой" alt="Всплывающее окошко с подсказкой" /></a> Изредка в углу страницы всплывает небольшое окошко с подсказкой или просьбой, относящейся к этой странице. Через несколько секунд оно скрывается само, а закрыть его можно и крестиком.</p>
+
+                <h3 id="ui_tables" style="clear: both">Работа с таблицами</h3>
+                <p><a href="../news/2026-07-29_2/pic_2.jpg" target="_blank"><img src="../news/2026-07-29_2/thumb_2.jpg" class="help-figure help-figure-right news-figure" title="Поиск в таблице авторов-составителей" alt="Поиск в таблице авторов-составителей" /></a> На сайте много табличных страниц: сводные таблицы карт, календари, авторы, маршруты, документы, правила, клубы, запросы на рисовку и т.д.
+                    Почти все они работают одинаково:
+                    <ul>
+                        <li><b>Сортировка</b> - щелчок по заголовку колонки сортирует таблицу по ней, повторный щелчок меняет направление.</li>
+                        <li><b>Фильтры</b> - выпадающие списки в заголовке страницы (регион, тип карт, старт, год и т.п.).
+                            Выбранные значения сразу записываются в адрес страницы, поэтому ссылку на отфильтрованную таблицу можно кому-то отправить.</li>
+                        <li><b>Поиск</b> - кнопка с лупой (или клавиша «/») открывает строку поиска. В таблице остаются строки, содержащие все введённые слова.
+                            Регистр и различие «е/ё» не важны. Enter применяет фильтр сразу, Esc - очищает поиск. Поисковую строку можно передать и в адресе,
+                            параметром <i>q</i>: например, <a href="../authors.html?q=юрий">все картографы с именем Юрий</a>.</li>
+                        <li><b>Скачивание</b> - кнопка <img src="../images/download_24.png" class="help-figure" style="width:16px" /> сохраняет таблицу в CSV-файл.</li>
+                        <li><b>«На карте»</b> - кнопка <img src="../images/map_24.png" class="help-figure" style="width:16px" /> открывает соответствующую карту,
+                            перенося на неё выбранные в таблице фильтры.</li>
+                    </ul>
+                </p>
+
+                <h3 id="ui_news" style="clear: both">Новости</h3>
+                <p><a href="../news/2026-03-17/pic_1.jpg" target="_blank"><img src="../news/2026-03-17/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Страница новостей" alt="Страница новостей" /></a> <a href="../news/2026-05-15_2/pic_1.jpg" target="_blank"><img src="../news/2026-05-15_2/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Звёздочка непрочитанных новостей" alt="Звёздочка непрочитанных новостей" /></a> На странице <a href="../news.html">новостей</a> собраны все значимые изменения на сайте - новые карты, разделы и возможности.
+                    Галочка «только важные» оставляет лишь главные события. По картинкам можно щёлкнуть - они откроются в полном размере.
+                    Если с последнего Вашего посещения этой страницы появились новые записи, на главной странице рядом со ссылкой «Новости» появляется звёздочка ❋.
+                    Новости публикуются и в <a href="https://t.me/o_maps" target="_blank">телеграм-канале проекта</a>.</p>
+
+                <h3 id="ui_theme" style="clear: both">Тёмная тема и мобильные устройства</h3>
+                <p><a href="../news/2026-08-04_2/pic_2.jpg" target="_blank"><img src="../news/2026-08-04_2/thumb_2.jpg" class="help-figure help-figure-right news-figure" title="Тёмная тема" alt="Тёмная тема" /></a> У сайта есть светлая (по умолчанию) и тёмная темы. Переключатель находится только на главной странице,
+                    но выбранная тема запоминается в браузере и применяется ко всем страницам сайта.</p>
+                <p><a href="../news/2026-07-08/pic_1.jpg" target="_blank"><img src="../news/2026-07-08/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Кнопка возврата к началу страницы" alt="Кнопка возврата к началу страницы" /></a> Сайт приспособлен для просмотра на телефонах. Длинные таблицы на телефоне можно прокручивать и вбок; кнопка-стрелка в левом нижнем углу
+                    возвращает к началу страницы. Календари на телефоне показываются в виде <a href="help-calendar.html#cal_mobile">карточек</a>.</p>
+            </section>
+
+            <section class="clearfix">
+                <h1 id="help_archive">Справочные и архивные разделы</h1>
+                <ul>
+                    <li style="clear: both"><a href="../news/2025-05-22/pic_1.jpg" target="_blank"><img src="../news/2025-05-22/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Сканы документов" alt="Сканы документов" /></a> <a href="../documents.html"><b>Сканы документов</b></a> - протоколы результатов, бюллетени, программы, календари и прочие исторические документы.
+                        Таблицу можно отфильтровать по периоду (от ранних лет до 2000-х) и по соревнованию, например
+                        <a href="../documents.html?start=USSR_CHAMP">документы Чемпионатов СССР</a>.</li>
+                    <li style="clear: both"><a href="../news/2026-03-27/pic_1.jpg" target="_blank"><img src="../news/2026-03-27/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Поиск по документам" alt="Поиск по документам" /></a> <a href="../docs-search.html"><b>Поиск по документам</b></a> - поиск по текстам документов каталога. Удобно, например, чтобы найти свои результаты
+                        многолетней давности. Поиск не гарантирует нахождения всех вхождений, так что нужный протокол стоит проверить и самостоятельно.</li>
+                    <li style="clear: both"><a href="../news/2025-12-16/pic_1.jpg" target="_blank"><img src="../news/2025-12-16/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Руководства и правила" alt="Руководства и правила" /></a> <a href="../rules.html"><b>Руководства и правила</b></a> - документы, относящиеся к проведению соревнований и картографии.
+                        Галочка «только на русском» скрывает иноязычные документы.</li>
+                    <li style="clear: both"><a href="../news/2026-02-24_2/pic_1.jpg" target="_blank"><img src="../news/2026-02-24_2/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Книги и статьи" alt="Книги и статьи" /></a> <a href="../books.html"><b>Книги и статьи</b></a> об ориентировании и картографии, многие - с файлами для скачивания.</li>
+                    <li style="clear: both"><a href="../news/2026-09-11/pic_1.jpg" target="_blank"><img src="../news/2026-09-11/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Клубы с фильтром по району" alt="Клубы с фильтром по району" /></a> <a href="../clubs.html"><b>Клубы</b></a> спортивного ориентирования Петербурга и области - с фильтром по району (параметр <i>district</i>)
+                        и поиском. Клубы показаны и на карте СПб в слое POI (<a href="../spb.html?poi">ссылка</a>).</li>
+                    <li style="clear: both"><a href="../news/2026-08-10/pic_1.jpg" target="_blank"><img src="../news/2026-08-10/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Запросы на рисовку: таблица" alt="Запросы на рисовку: таблица" /></a> <a href="../news/2026-08-06_1/pic_1.jpg" target="_blank"><img src="../news/2026-08-06_1/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Запросы на рисовку: на карте" alt="Запросы на рисовку: на карте" /></a> <b>Запросы на рисовку карт</b> - реестр карт, которые составляются, запланированы или нужны:
+                        <a href="../sheet-orders.html">списком</a> (с фильтрами по статусу - «Уже в работе» и «Ищем исполнителя», и по региону) и
+                        <a href="../all.html?orders">на карте</a>.</li>
+                    <li><b>Закрытые районы</b> в СПб и Ленинградской области - районы, закрытые для тренировок и соревнований:
+                        <a href="../sheet-spb.html?restricted">списком</a> и <a href="../spb.html?restricted">на карте</a>.</li>
+                    <li><a href="../sheet-all.html?ocad"><b>Карты с OCAD-файлами</b></a> - карты, опубликованные вместе с исходным OCAD-файлом, который можно скачать.</li>
+                    <li style="clear: both"><a href="../news/2025-06-13/pic_1.jpg" target="_blank"><img src="../news/2025-06-13/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="O-Maps дарит карты" alt="O-Maps дарит карты" /></a> <a href="../maps-on-store.html"><b>Бумажные карты в наличии</b></a> - O-Maps дарит карты! В таблице перечислены карты,
+                        чистые бумажные экземпляры которых есть в наличии (с количеством копий). Кроме них есть множество других чистых и использованных карт с дистанциями.
+                        Если они Вам нужны (например, для занятий с детьми или просто на память), <a href="contacts.html">свяжитесь со мной</a>.</li>
+                    <li style="clear: both"><a href="../news/2026-03-22/pic_1.jpg" target="_blank"><img src="../news/2026-03-22/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Авторы-составители" alt="Авторы-составители" /></a> <a href="../authors.html"><b>Авторы-составители</b></a> - сводная таблица картографов: количество и площадь карт, период, регионы,
+                        ссылки на карты автора на карте и в таблице. Фильтруется по типу карт и региону.</li>
+                    <li><b>Карты без известного автора</b>: <a href="../sheet-all.html?only-wo-author">списком</a> и <a href="../all.html?only-wo-author">на карте</a>,
+                        а также <a href="../news/2025-10-28/pic_1.jpg" target="_blank"><img src="../news/2025-10-28/thumb_1.jpg" class="help-figure help-figure-right news-figure" title="Неопределённые карты" alt="Неопределённые карты" /></a> <a href="../unknown.html"><b>неопределённые карты</b></a> - карты, про которые недостаточно информации даже для привязки.
+                        Если Вам что-то известно о них, <a href="contacts.html">сообщите</a>, пожалуйста.</li>
+                    <li><a href="../kkm.html"><b>Кубок Коротких Маршрутов</b></a> - заочные рогейны и фото-рогейны ККМ.</li>
+                    <li>Персональные и мемориальные страницы: <a href="../mospan.html">Олеся Мосьпан</a>, <a href="../tokma.html">Константин Токмаков</a>,
+                        <a href="../volkov_av.html">Андрей Владимирович Волков</a>.</li>
+                    <li><a href="../TODO.html"><b>TODO</b></a> - планы развития сайта.</li>
+                </ul>
             </section>
 
             <section>
