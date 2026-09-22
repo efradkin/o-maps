@@ -36,6 +36,11 @@ a, a:active, a:focus {
         color: red;
         display: none;
     }
+    #last_news_date {
+        color: darkolivegreen;
+        font-size: 10px;
+        font-weight: bold;
+    }
 }
 
 .page-header {

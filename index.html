@@ -10,7 +10,7 @@
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css?v=21"/>
+    <link rel="stylesheet" href="css/main.css?v=22"/>
     <link rel="stylesheet" href="css/theme.css?v=16"/>
     <script src="js/theme-toggle.js?v=23"></script>
 
@@ -66,7 +66,7 @@
     <main>
         <div class="container">
             <div class="row contacts-links">
-                <span class="col text-start"><a href="news.html">🆕 Новости</a><sup id="new_news_star">❋</sup></span>
+                <span class="col text-start"><a href="news.html">🆕 Новости</a><sup id="new_news_star">❋</sup> &nbsp; <sup id="last_news_date"></sup></span>
                 <span class="col text-end"><a href="help/contacts.html">📞 Контакты</a></span>
             </div>
             <nav>
@@ -325,10 +325,14 @@
     </footer>
 
     <script>
-        let lastNewsTime = new Date(news[0].date).getTime();
+        const lastNewsDate = new Date(news[0].date);
+        let lastNewsTime = lastNewsDate.getTime();
         let lastNewsVisitTime = localStorage.getItem('lastNewsVisitTime');
         if (lastNewsVisitTime == null || (Number(lastNewsVisitTime) < lastNewsTime)) {
             document.getElementById('new_news_star').style.display = 'inline';
+        } else {
+            console.log('>>', lastNewsDate, formatDate(news[0], lastNewsDate, true, false))
+            document.getElementById('last_news_date').innerText = formatDateString(lastNewsDate, false, false);
         }
     </script>
 </body>
