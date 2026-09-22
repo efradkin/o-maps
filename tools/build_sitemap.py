@@ -49,8 +49,20 @@ DISALLOW = [
     "/tools/",
 ]
 
-# Только для Яндекса: склеивает адреса, отличающиеся метками трафика.
-CLEAN_PARAM = "utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&gclid&fbclid"
+# Только для Яндекса: склеивает адреса, отличающиеся параметрами,
+# которые не меняют содержимое страницы.
+CLEAN_PARAMS = [
+    # метки трафика
+    "utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&gclid&fbclid",
+    # положение карты и режимы показа
+    "x&y&zoom&background&mobile&no-buttons&embedded&prtnr",
+    # фильтры: своего адреса в поиске у них нет
+    "type&track-type&track-month&restricted&tracks&retro&ocad&orders&order-status",
+    "wo-author&only-wo-author&only-wo-full&all-years&year&startYear&calendar&event-type",
+    "owner&planner&region&poi&oopt&me&only-me&q",
+]
+# map, start и author в Clean-param не добавляются: это адреса
+# самостоятельных страниц (map-info*.html, start.html, sheet-all.html).
 
 START_RE = re.compile(r"start\.html\?start=([A-Za-z0-9_]+)")
 NOINDEX_RE = re.compile(
@@ -161,7 +173,8 @@ def build_robots():
     lines += [f"Disallow: {p}" for p in DISALLOW]
     lines += ["", "User-agent: Yandex"]
     lines += [f"Disallow: {p}" for p in DISALLOW]
-    lines += [f"Clean-param: {CLEAN_PARAM}", "", f"Sitemap: {BASE}/sitemap.xml"]
+    lines += [f"Clean-param: {p}" for p in CLEAN_PARAMS]
+    lines += ["", f"Sitemap: {BASE}/sitemap.xml"]
     return lines
 
 

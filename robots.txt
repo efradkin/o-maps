@@ -8,5 +8,9 @@ Disallow: /theme-preview.html
 Disallow: /prompts/
 Disallow: /tools/
 Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&yclid&gclid&fbclid
+Clean-param: x&y&zoom&background&mobile&no-buttons&embedded&prtnr
+Clean-param: type&track-type&track-month&restricted&tracks&retro&ocad&orders&order-status
+Clean-param: wo-author&only-wo-author&only-wo-full&all-years&year&startYear&calendar&event-type
+Clean-param: owner&planner&region&poi&oopt&me&only-me&q
 
 Sitemap: https://o-maps.spb.ru/sitemap.xml
