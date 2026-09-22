@@ -2602,7 +2602,8 @@ let events2026 = [
         place: 'Будогощь',
         name: 'XII соревнования памяти Ю.А.Березюка',
         reg: 'https://orgeo.ru/event/berezuk_2026',
-        map: 'tikhvin_road_2012',
+        map: 'kirishi_assol_2024',
+        info: 'Перенос из Будогощи в Кириши!',
         owner: 'EGRV_SRG'
     },
     {
