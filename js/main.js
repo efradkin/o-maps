@@ -1707,9 +1707,8 @@ function buildMapPopup(m) {
     result += '&nbsp;-&nbsp;' + area + '&nbsp;км<sup>2</sup>';
 
     // ссылка на страничку инфа
-    let url = m.url ?? getFirstLink(m);
-    const mapInfoLink = './map-info.html?map=' + extractFileName(url);
-    result += ` <a class="map-info-link" href="${mapInfoLink}" title="Информация о карте">🔗</a>`;
+    const url = getMapUrl(m);
+    result += buildMapInfo(url);
 
     result += '</b><hr />';
 

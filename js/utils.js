@@ -985,7 +985,7 @@ function inFrame(frameBounds, coords) {
 }
 
 function getMapName(m) {
-    const url = m.url ?? getFirstLink(m);
+    const url = getMapUrl(m);
     return url ? extractFileName(url) : null;
 }
 
@@ -1259,6 +1259,10 @@ function link(url) {
         });
         return result;
     }
+}
+
+function getMapUrl(m) {
+    return m.url ?? getFirstLink(m);
 }
 
 function getFirstLink(m) {
@@ -2094,6 +2098,11 @@ function buildEventReports(evt, withGPS) {
 function buildEventInfo(evt) {
     const evtPlanners = buildPlanners(evt, null, true);
     return (evt.info ?? '') + (evtPlanners ? ' Планирование дистанции: ' + evtPlanners : '') + buildPublish(evt);
+}
+
+function buildMapInfo(url) {
+    const mapInfoLink = './map-info.html?map=' + extractFileName(url);
+    return ` <a class="map-info-link" href="${mapInfoLink}" title="Информация о карте">🔗</a>`;
 }
 
 function buildPublish(events, label) {

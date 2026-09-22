@@ -261,7 +261,8 @@ function buildName(m, withoutLogo, events) {
         if ((typeof directURLs !== 'undefined') && directURLs) {
             result += `<a href="${m.url}">${name}</a>`;
         } else {
-            result += name + ' <a href="' + mapLink(m.url, m) + '">🗺️</a>';
+            result += name + ` <a href="${mapLink(m.url, m)}" alt="Карта" title="На общей карте">🗺️</a>`;
+            result += buildMapInfo(getMapUrl(m));
         }
     } else {
         result += name;
