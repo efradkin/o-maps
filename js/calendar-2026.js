@@ -2466,6 +2466,7 @@ let events2026 = [
         place: 'ул. Панфилова 23',
         name: 'Лабиринт на Охте',
         reg: 'https://orgeo.ru/event/55367',
+        publish: 'https://t.me/c/3634322394/166',
         type: 'FUN',
         fmt: 'лабиринт',
         info: 'Бесплатный старт. 7 разных дистанций.',
@@ -2480,9 +2481,10 @@ let events2026 = [
         o_site: '260920_velo',
         reg: 'http://o-reg.spb.ru/?filter[day_id]=1759',
         photo: 'https://vk.ru/album-154221178_312018756',
+        publish: 'https://vk.ru/album-230167293_314525601',
         type: 'VELO',
         fmt: 'классика',
-        map: 'sosnovo_ulovnoe_velo_2021'
+        map: 'sosnovo_ulovnoe_velo_2026'
     },
     {
         id: 'SPB_20260924_1',

@@ -720,6 +720,16 @@ let specialMaps = [
         type: ['VELO']
     },
     {
+        name: 'Сосново, оз Уловное',
+        year: 2026,
+        url: './maps/velo/sosnovo_ulovnoe_velo_2026.webp',
+        link: './original_maps/velo/sosnovo_ulovnoe_velo_2026_omaps.gif',
+        bounds: [[60.6051717, 30.2197838], [60.6017802, 30.2537727], [60.5814239, 30.2112007]],
+        author: 'PSTVTV',
+        owner: 'FLTV',
+        type: ['VELO']
+    },
+    {
         name: 'Лемболово',
         year: 2019,
         excluded: true,
