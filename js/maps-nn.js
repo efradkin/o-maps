@@ -382,7 +382,7 @@ let nnMaps = [
         name: 'Навашино, Святое Дедовское оз',
         date: '2023-06-12',
         info: '10 - ночное, 12 - классика.',
-        url: './maps/nn/navashino_dedovskoe_2023.webp',
+        url: './maps/nn/navashino_dedovskoe_2023_06_12.webp',
         link: ['./original_maps/other/navashino_dedovskoe_2023_06_10_m_omaps.webp','./original_maps/other/navashino_dedovskoe_2023_06_10_w_omaps.webp','./original_maps/other/navashino_dedovskoe_2023_06_12_m_omaps.webp','./original_maps/other/navashino_dedovskoe_2023_06_12_w_omaps.webp'],
         bounds: [[55.6617074, 42.2921705], [55.6583667, 42.3240566], [55.6507641, 42.2881365]],
         o_gps: {

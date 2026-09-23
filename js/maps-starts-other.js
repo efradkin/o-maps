@@ -33,7 +33,7 @@ let otherStartsMaps = [
     {
         name: 'Зеркальный',
         year: 1999,
-        url: './maps/forest/zerkalny_1999_european_hope.webp',
+        url: './maps/forest/zerkalny_european_hope_1999.webp',
         link: './original_maps/forest/zerkalny_1999_european_hope_omaps.webp',
         bounds: [[60.2451469, 29.1375446], [60.2441245, 29.1576719], [60.2363707, 29.1355491]],
         author: 'KRCHKN_V',

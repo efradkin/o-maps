@@ -159,7 +159,7 @@ let priozerskMaps = [
         name: 'Кузнечное, оз Суури, запад',
         page: 'spb',
         year: 1984,
-        url: './maps/forest/priozersk/kuznechnoe_suuri_1984.webp',
+        url: './maps/forest/priozersk/kuznechnoe_suuri_1984_west.webp',
         link: ['./original_maps/forest/priozersk/kuznechnoe_suuri_1984_omaps.jpg','./original_maps/forest/priozersk/kuznechnoe_suuri_1984_clean_omaps.jpg'],
         start: 'ORIENTIR',
         bounds: [[61.1423861, 29.9012661], [61.1406047, 29.9371004], [61.1238637, 29.8980045]],

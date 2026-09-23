@@ -941,7 +941,7 @@ let events2018 = [
         video: 'https://www.youtube.com/watch?v=AduqKHuaVeM',
         start: 'YM',
         o_site: '18061216',
-        map: ['ym_2018_orehovo_vybor', 'ym_2018_orehovo_sprint_final', 'ym_2018_orehovo_sprint_prolog', 'ym_2018_orehovo_sprint', 'ym_2018_lembolovo_klassika'],
+        map: ['ym_2018_orehovo_vybor', 'ym_2018_06_14', 'ym_2018_orehovo_sprint_prolog', 'ym_2018_06_15', 'ym_2018_lembolovo_klassika'],
         reskeep: [18, 17, 16, 15, 14]
     },
     {

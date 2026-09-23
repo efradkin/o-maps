@@ -813,7 +813,7 @@ let events2016 = [
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '16061016',
-        map: ['wn_2016_06_12', 'ym_2016_pervomayskoe_city_sprint', 'ym_2016_pervomayskoe_sprint', 'ym_2016_pervomayskoe_klassika', 'ym_2016_pervomayskoe_klassika2']
+        map: ['wn_2016_06_12', 'ym_2016_06_13', 'ym_2016_06_14', 'ym_2016_06_15', 'ym_2016_pervomayskoe_klassika2']
     },
     {
         id: 'SPB_20160613_1',

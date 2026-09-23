@@ -540,8 +540,8 @@ let parkMaps = [
     {
         name: 'Александрино, север',
         year: 2013,
-        url: './maps/parks/aleksandrino_north.webp',
-        link: './original_maps/parks/aleksandrino_north_omaps.gif',
+        url: './maps/parks/aleksandrino_north_2013.webp',
+        link: './original_maps/parks/aleksandrino_north_2013_omaps.gif',
         bounds: [[59.8478544, 30.2178097], [59.8467766, 30.238409], [59.8360395, 30.2148914]],
         author: 'URVNTSV',
         type: ['PARK']
@@ -1618,7 +1618,7 @@ let parkMaps = [
     {
         name: 'Парк Бенуа',
         year: 2015,
-        url: './maps/parks/benua_2015.webp',
+        url: './maps/parks/park_benua_2015.webp',
         bounds: [[60.0215847, 30.3688288], [60.020802, 30.375824], [60.0166952, 30.3663397]],
         author: 'RYLOV_V',
         owner: 'SHLKHN_AN',

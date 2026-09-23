@@ -139,7 +139,7 @@ let ymStartsMaps = [
         start: ['YM','WN'],
         date: '2012-06-19',
         info: 'Классика.',
-        url: './maps/starts/ym/ym_2012_pervomayskoe_klassika.webp',
+        url: './maps/starts/ym/ym_2012_06_19.webp',
         link: './original_maps/starts/ym/ym_2012_pervomayskoe_klassika_omaps.gif',
         bounds: [[60.4138735, 29.6583652], [60.4120513, 29.6853161], [60.4009459, 29.6550608]],
         author: ['SLBDNK','MKHLV_A','GVRLK']
@@ -149,7 +149,7 @@ let ymStartsMaps = [
         start: ['YM','WN'],
         date: '2012-06-21',
         info: 'Классика №2.',
-        url: './maps/starts/ym/ym_2012_pervomayskoe_klassika2.webp',
+        url: './maps/starts/ym/ym_2012_06_21.webp',
         link: './original_maps/starts/ym/ym_2012_pervomayskoe_klassika2_omaps.gif',
         bounds: [[60.4317942, 29.6660471], [60.4298247, 29.6991348], [60.4132803, 29.6613693]],
         author: ['SLBDNK','MKHLV_A','GVRLK']
@@ -169,7 +169,7 @@ let ymStartsMaps = [
         start: ['YM','WN'],
         date: '2013-06-18',
         info: 'Классика.',
-        url: './maps/starts/ym/ym_2013_yagodnoe_klassika.webp',
+        url: './maps/starts/ym/ym_2013_06_18.webp',
         link: './original_maps/starts/ym/ym_2013_yagodnoe_klassika_omaps.gif',
         bounds: [[60.6250289, 29.9376369], [60.6224079, 29.9725914], [60.6151229, 29.9343967]],
         author: ['SLBDNK','MKHLV_A','VRBY','KVZN','NSNV']
@@ -179,7 +179,7 @@ let ymStartsMaps = [
         start: ['YM','WN'],
         date: '2013-06-19',
         info: 'Классика №2.',
-        url: './maps/starts/ym/ym_2013_yagodnoe_klassika2.webp',
+        url: './maps/starts/ym/ym_2013_06_19.webp',
         link: './original_maps/starts/ym/ym_2013_yagodnoe_klassika2_omaps.gif',
         bounds: [[60.6237237, 29.8559475], [60.6195552, 29.9069309], [60.6091315, 29.8522139]],
         author: ['SLBDNK','MKHLV_A','VRBY','KVZN','NSNV']
@@ -199,7 +199,7 @@ let ymStartsMaps = [
         start: ['YM','WN'],
         date: '2014-06-17',
         info: 'Классика.',
-        url: './maps/starts/ym/ym_2014_pervomayskoe_klassika.webp',
+        url: './maps/starts/ym/ym_2014_06_17.webp',
         link: './original_maps/starts/ym/ym_2014_pervomayskoe_klassika_omaps.gif',
         bounds: [[60.4348859, 29.6660471], [60.4325989, 29.7032547], [60.4213311, 29.662571]],
         author: ['SLBDNK','MKHLV_A']
@@ -209,7 +209,7 @@ let ymStartsMaps = [
         start: ['YM','WN'],
         date: '2014-06-19',
         info: 'Классика №2.',
-        url: './maps/starts/ym/ym_2014_pervomayskoe_klassika2.webp',
+        url: './maps/starts/ym/ym_2014_06_19.webp',
         link: './original_maps/starts/ym/ym_2014_pervomayskoe_klassika2_omaps.gif',
         bounds: [[60.4208015, 29.680295], [60.4187042, 29.720335], [60.4032563, 29.6767759]]
     },
@@ -227,7 +227,7 @@ let ymStartsMaps = [
         start: ['YM','WN'],
         date: '2015-06-16',
         info: 'Спринт.',
-        url: './maps/starts/ym/ym_2015_yagodnoe_klassika.webp',
+        url: './maps/starts/ym/ym_2015_06_16.webp',
         link: './original_maps/starts/ym/ym_2015_yagodnoe_klassika_omaps.gif',
         bounds: [[60.6154177, 29.8933482], [60.6132066, 29.9184322], [60.6063091, 29.8910737]],
         author: ['MKHLV_A','SLBDNK','TKMKV_K','VRBY','KVZN','NSNV']
@@ -236,7 +236,7 @@ let ymStartsMaps = [
         name: 'Ягодное, г Журавлёвка',
         start: ['YM','WN'],
         date: '2015-06-18',
-        url: './maps/starts/ym/ym_2015_yagodnoe_klassika2.webp',
+        url: './maps/starts/ym/ym_2015_06_18.webp',
         link: './original_maps/starts/ym/ym_2015_yagodnoe_klassika2_omaps.gif',
         bounds: [[60.6027071, 29.9301267], [60.600274, 29.966197], [60.5769759, 29.9227667]],
         author: ['MKHLV_A','SLBDNK']
@@ -256,7 +256,7 @@ let ymStartsMaps = [
         start: ['YM','WN'],
         date: '2016-06-15',
         info: 'Классика.',
-        url: './maps/starts/ym/ym_2016_pervomayskoe_klassika.webp',
+        url: './maps/starts/ym/ym_2016_06_15.webp',
         link: './original_maps/starts/ym/ym_2016_pervomayskoe_klassika_omaps.gif',
         bounds: [[60.42597, 29.664073], [60.4429102, 29.7007227], [60.4112037, 29.6922255]],
         author: ['SLBDNK','MKHLV_A','GVRLK']
@@ -266,7 +266,7 @@ let ymStartsMaps = [
         start: ['YM','WN'],
         date: '2016-06-14',
         info: 'Спринт.',
-        url: './maps/starts/ym/ym_2016_pervomayskoe_sprint.webp',
+        url: './maps/starts/ym/ym_2016_06_14.webp',
         link: './original_maps/starts/ym/ym_2016_pervomayskoe_sprint_omaps.gif',
         bounds: [[60.4102925, 29.6303201], [60.4193715, 29.6515203], [60.4039557, 29.641521]]
     },
@@ -283,7 +283,7 @@ let ymStartsMaps = [
         start: ['YM','WN'],
         date: '2016-06-13',
         info: 'Городской спринт.',
-        url: './maps/starts/ym/ym_2016_pervomayskoe_city_sprint.webp',
+        url: './maps/starts/ym/ym_2016_06_13.webp',
         link: './original_maps/starts/ym/ym_2016_pervomayskoe_city_sprint_omaps.gif',
         bounds: [[60.3619517, 29.7273088], [60.3603282, 29.741621], [60.3574204, 29.7250342]],
         author: ['TKMKV_K','TKMKVA_P']
@@ -293,7 +293,7 @@ let ymStartsMaps = [
         start: 'YM',
         date: '2017-06-16',
         info: 'Классика №2.',
-        url: './maps/starts/ym/ym_2017_yagodnoe_klassika2.webp',
+        url: './maps/starts/ym/ym_2017_06_16.webp',
         link: './original_maps/starts/ym/ym_2017_yagodnoe_klassika2_omaps.gif',
         bounds: [[60.6315119, 29.9551249], [60.6285442, 29.9947786], [60.6194078, 29.9516487]],
         author: ['MKHLV_A','SLBDNK','TKMKV_K','VRBY','KVZN','NSNV']
@@ -303,7 +303,7 @@ let ymStartsMaps = [
         start: 'YM',
         date: '2017-06-13',
         info: 'Классика.',
-        url: './maps/starts/ym/ym_2017_yagodnoe_klassika.webp',
+        url: './maps/starts/ym/ym_2017_06_13.webp',
         link: './original_maps/starts/ym/ym_2017_yagodnoe_klassika_omaps.gif',
         bounds: [[60.6318066, 30.0113869], [60.6283758, 30.0512123], [60.6193025, 30.0074601]],
         author: ['MKHLV_A','SLBDNK']
@@ -352,7 +352,7 @@ let ymStartsMaps = [
         start: 'YM',
         date: '2017-06-16',
         info: 'Спринт.',
-        url: './maps/starts/ym/ym_2017_yagodnoe_sprint.webp',
+        url: './maps/starts/ym/ym_sprint_2017_06_16.webp',
         link: './original_maps/starts/ym/ym_2017_yagodnoe_sprint.gif',
         bounds: [[60.6350265, 29.9700809], [60.6335429, 29.9892426], [60.621429, 29.965682]]
     },
@@ -388,7 +388,7 @@ let ymStartsMaps = [
         start: 'YM',
         date: '2018-06-14',
         info: 'Спринт, финал.',
-        url: './maps/starts/ym/ym_2018_orehovo_sprint_final.webp',
+        url: './maps/starts/ym/ym_2018_06_14.webp',
         link: './original_maps/starts/ym/ym_2018_orehovo_sprint_final_omaps.gif',
         bounds: [[60.450414, 30.2955294], [60.4489219, 30.314734], [60.4411107, 30.2923965]]
     },
@@ -397,7 +397,7 @@ let ymStartsMaps = [
         start: 'YM',
         date: '2018-06-15',
         info: 'Спринт.',
-        url: './maps/starts/ym/ym_2018_orehovo_sprint.webp',
+        url: './maps/starts/ym/ym_2018_06_15.webp',
         link: './original_maps/starts/ym/ym_2018_orehovo_sprint_omaps.gif',
         bounds: [[60.4563608, 30.3000355], [60.4549747, 30.3185105], [60.4444556, 30.2958941]]
     },
@@ -436,7 +436,7 @@ let ymStartsMaps = [
         start: 'YM',
         date: '2019-06-15',
         info: 'Классика.',
-        url: './maps/starts/ym/ym_2019_luga_klassika.webp',
+        url: './maps/starts/ym/ym_2019_06_15.webp',
         link: './original_maps/starts/ym/ym_2019_luga_klassika_omaps.gif',
         bounds: [[58.7164376, 29.7673488], [58.7134625, 29.7999644], [58.7032871, 29.7629714]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY']
@@ -446,7 +446,7 @@ let ymStartsMaps = [
         start: 'YM',
         date: '2019-06-16',
         info: 'Классика.',
-        url: './maps/starts/ym/ym_2019_luga_klassika2.webp',
+        url: './maps/starts/ym/ym_2019_06_16.webp',
         link: './original_maps/starts/ym/ym_2019_luga_klassika2_omaps.gif',
         bounds: [[58.7195016, 29.7889996], [58.7172064, 29.8146844], [58.7034209, 29.7832918]],
         author: ['TKMKV_K','KVZN','NSNV','VRBY']
@@ -546,7 +546,7 @@ let ymStartsMaps = [
         start: 'YM',
         date: '2022-06-20',
         info: 'Спринт.',
-        url: './maps/starts/ym/ym_2022_yagodnoe_sprint.webp',
+        url: './maps/starts/ym/ym_2022_06_20.webp',
         link: './original_maps/starts/ym/ym_2022_yagodnoe_sprint_omaps.jpg',
         bounds: [[60.6331009, 29.9689865], [60.6311331, 29.9870968], [60.6220816, 29.9643946]],
         author: ['TKMKV_K','MKHLV_A','SLBDNK']

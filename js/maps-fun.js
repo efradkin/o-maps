@@ -194,7 +194,7 @@ let funMaps = [
         name: 'ул Опочинина',
         year: 2024,
         start: 'VO_FOTO',
-        url: './maps/fun/opochinina_quest_2024.webp',
+        url: './maps/fun/opochinina_quest_2024_09.webp',
         link: './original_maps/fun/opochinina_quest_2024_omaps.jpg',
         bounds: [[59.9373971, 30.2343321], [59.9377303, 30.2375507], [59.9335809, 30.2359414]],
         owner: 'RYZHOV',

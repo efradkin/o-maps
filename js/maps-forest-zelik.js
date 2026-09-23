@@ -272,7 +272,7 @@ let zelikMaps = [
     {
         name: 'Зеленогорск, Комаровский берег',
         year: 1,
-        url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg.webp',
+        url: './maps/forest/zelik/zelenogorsk_komarovsky_bereg_old.webp',
         link: './original_maps/forest/zelik/zelenogorsk_komarovsky_bereg_omaps.jpg',
         bounds: [[60.2003362, 29.7296906], [60.1858303, 29.8049641], [60.1894147, 29.7232533]],
         author: ['KUZNTSV_S','KUZNTSVA_Z']
@@ -546,14 +546,14 @@ let zelikMaps = [
     {
         name: 'Горки, Ильичёвское оз',
         year: 2012,
-        url: './maps/forest/zelik/gorki_2012.webp',
+        url: './maps/forest/zelik/ilichevo_gorki_2012.webp',
         bounds: [[60.2999764, 29.7328234], [60.2974886, 29.7723913], [60.2863228, 29.7287893]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
     },
     {
         name: 'Ильичёво',
-        url: './maps/forest/zelik/ilychevo.webp',
+        url: './maps/forest/zelik/ilychevo_wn.webp',
         bounds: [[60.2782386, 29.756813], [60.2765789, 29.7787428], [60.2614468, 29.7514486]],
         author: ['MKHLV_A','SLBDNK'],
         owner: 'WN'
@@ -800,7 +800,7 @@ let zelikMaps = [
     },
     {
         name: 'Сестрорецк, Детские Дюны',
-        url: './maps/forest/zelik/sestroretsk_detskie_djuny.webp',
+        url: './maps/forest/zelik/sestroretsk_detskie_djuny_old.webp',
         link: './original_maps/forest/zelik/sestroretsk_detskie_djuny_omaps.jpg',
         bounds: [[60.1187743, 29.9585366], [60.117855, 29.9706602], [60.1116004, 29.9567986]]
     },

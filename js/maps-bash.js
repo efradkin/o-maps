@@ -301,7 +301,7 @@ let bashMaps = [
     },
     {
         name: 'Жуково',
-        url: './maps/bash/zhukovo.webp',
+        url: './maps/bash/zhukovo_old.webp',
         link: ['./original_maps/bash/zhukovo_omaps.gif','./original_maps/bash/zhukovo_omaps.ocd'],
         bounds: [[54.6728632, 55.7384491], [54.6690414, 55.7708931], [54.6601308, 55.7287931]],
         author: 'GZTLN',

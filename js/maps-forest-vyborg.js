@@ -384,7 +384,7 @@ let vyborgMaps = [
     {
         name: 'Выборг, Монрепо',
         year: 2012,
-        url: './maps/forest/vyborg/monrepo.webp',
+        url: './maps/forest/vyborg/monrepo_2012.webp',
         bounds: [[60.746621, 28.6969328], [60.7426361, 28.7467146], [60.7288322, 28.6908817]],
         author: 'MKHLV_A',
         owner: 'VYBORG'
@@ -622,7 +622,7 @@ let vyborgMaps = [
         name: 'Таммисуо',
         year: 1991,
         logo: 'akka.jpg',
-        url: './maps/forest/vyborg/tammisuo.webp',
+        url: './maps/forest/vyborg/tammisuo_1991.webp',
         link: './original_maps/forest/vyborg/tammisuo_1990_omaps.jpg',
         bounds: [[60.7291259, 28.7895441], [60.7244044, 28.8370514], [60.7140986, 28.7838364]],
         author: 'SHVR',

@@ -1382,7 +1382,7 @@ let moscowMaps = [
     },
     {
         name: 'Лианозово',
-        url: './maps/moscow/lr/lianozovo.webp',
+        url: './maps/moscow/lr/lianozovo_petrov.webp',
         link: './original_maps/moscow/lr/lianozovo_omaps.jpg',
         bounds: [[55.9058143, 37.5558186], [55.9044431, 37.5744653], [55.8978027, 37.5548744]],
         author: 'PTRV_VLNTN',
@@ -1652,9 +1652,9 @@ let moscowMaps = [
     {
         name: 'Парк Борисовские Пруды',
         year: 2020,
-        url: './maps/moscow/o-mephi/2019.webp',
+        url: './maps/moscow/o-mephi/borisovskie_prudy_2019.webp',
         link: 'http://o-mephi.net/cup/maps/2019.jpg',
-        local_link: './external/original_maps/moscow/o-mephi/2019_omaps.jpg',
+        local_link: './external/original_maps/moscow/o-mephi/borisovskie_prudy_2019_omaps.jpg',
         bounds: [[55.6403505, 37.676754], [55.6384612, 37.6988983], [55.6183761, 37.6720333]],
         author: 'SMKN_S',
         owner: 'ERMCHNKV_A',
@@ -3792,7 +3792,7 @@ let moscowMaps = [
     },
     {
         name: 'Парамоново',
-        url: './maps/moscow/paramonovo.webp',
+        url: './maps/moscow/paramonovo_old.webp',
         link: './original_maps/moscow/paramonovo_omaps.jpg',
         bounds: [[56.3015867, 37.379179], [56.2943477, 37.4605465], [56.2399159, 37.3611546]]
     },

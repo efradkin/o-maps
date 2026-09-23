@@ -1213,7 +1213,7 @@ let events2022 = [
         ],
         start: 'YM',
         o_site: '22062023',
-        map: ['ym_2022_yagodnoe_sprint', 'ym_2022_yagodnoe_prolog2', 'ym_2022_yagodnoe_sprint_final', 'ym_2022_yagodnoe_klassika', 'ym_2022_yagodnoe_vybor']
+        map: ['ym_2022_06_20', 'ym_2022_yagodnoe_prolog2', 'ym_2022_yagodnoe_sprint_final', 'ym_2022_yagodnoe_klassika', 'ym_2022_yagodnoe_vybor']
     },
     {
         id: 'SPB_20220624_1',

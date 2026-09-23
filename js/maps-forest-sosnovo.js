@@ -79,7 +79,7 @@ let sosnovoMaps = [
     {
         name: 'Сосново',
         year: 1990,
-        url: './maps/forest/sosnovo/sosnovo_1990.webp',
+        url: './maps/forest/sosnovo/sosnovo_levichev_1990.webp',
         link: './original_maps/forest/sosnovo/sosnovo_1990_omaps.jpg',
         bounds: [[60.5460966, 30.1887989], [60.5433532, 30.257206], [60.5100335, 30.1800442]],
         author: 'LVCHV'
@@ -345,7 +345,7 @@ let sosnovoMaps = [
         startYear: 1990,
         start: 'WN',
         page: 'spb',
-        url: './maps/forest/sosnovo/snegirevka_1988.webp',
+        url: './maps/forest/sosnovo/snegirevka_wn_1988.webp',
         link: './original_maps/forest/sosnovo/snegirevka_1988_omaps.jpg',
         bounds: [[60.5385621, 30.276475], [60.5381611, 30.3390884], [60.5144908, 30.2746725]],
         author: ['MLVA_M','KAZNTSVA_O','KAZNTSV_S','KUOKNN_M'],
@@ -504,7 +504,7 @@ let sosnovoMaps = [
     {
         name: 'Петяярви - кентавр',
         year: 1,
-        url: './maps/forest/sosnovo/petjajarvy_kentavr.webp',
+        url: './maps/forest/sosnovo/petjajarvy_kentavr_tarasov.webp',
         link: './original_maps/forest/sosnovo/petjajarvy_kentavr_omaps.jpg',
         photo: './tracks/petyajarvi/pic_7.jpg',
         bounds: [[60.6351107, 30.1372147], [60.6325011, 30.1790571], [60.6191972, 30.1339531]],
@@ -584,7 +584,7 @@ let sosnovoMaps = [
     {
         name: 'Петяярви',
         year: 2014,
-        url: './maps/forest/sosnovo/petyajarvi.webp',
+        url: './maps/forest/sosnovo/petyajarvi_2014.webp',
         link: ['./original_maps/forest/sosnovo/petyajarvi_2014_omaps.jpg','./original_maps/forest/sosnovo/petyajarvi_2014_omaps.gif'],
         photo: 'tracks/petyajarvi/pic_7.jpg',
         bounds: [[60.6351107, 30.0718117], [60.628881, 30.1607323], [60.6144385, 30.0687218]]

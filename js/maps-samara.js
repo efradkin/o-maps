@@ -115,8 +115,8 @@ let samaraMaps = [
     },
     {
         name: 'Чайка',
-        url: './maps/samara/chaika.webp',
-        link: './original_maps/samara/chaika_omaps.gif',
+        url: './maps/samara/samara_chaika.webp',
+        link: './original_maps/samara/samara_chaika_omaps.gif',
         bounds: [[53.3620005, 50.2265525], [53.3596572, 50.2436757], [53.3496675, 50.2223468]],
         owner: 'ZNVJV_A'
     },
@@ -131,7 +131,7 @@ let samaraMaps = [
     },
     {
         name: 'Прибрежный',
-        url: './maps/samara/pribrezhny.webp',
+        url: './maps/samara/samara_pribrezhny.webp',
         link: './original_maps/samara/pribrezhny_omaps.gif',
         bounds: [[53.495603, 49.8421812], [53.4928329, 49.8721361], [53.4826702, 49.838748]],
         author: ['YGNV','ZNVJV_A'],

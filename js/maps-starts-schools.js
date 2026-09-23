@@ -74,7 +74,7 @@ let schoolMaps = [
     {
         name: 'Школы №559 и №114',
         year: 2006, // ?
-        url: './maps/city/school_559.webp',
+        url: './maps/city/school_559_2006.webp',
         link: './original_maps/schools/school_559_omaps.jpg',
         bounds: [[60.0567819, 30.3393781], [60.0567711, 30.3443348], [60.0526902, 30.3393245]],
         author: 'FDRV_L',

@@ -1048,7 +1048,7 @@ let events2017 = [
         ],
         start: 'YM',
         o_site: '17061218',
-        map: ['ym_2017_michurinskoe_city_sprint', 'ym_2017_yagodnoe_klassika', 'ym_2017_yagodnoe_vybor', 'ym_2017_yagodnoe_sprint_final', 'ym_2017_yagodnoe_sprint_prolog', 'ym_2017_yagodnoe_klassika2', 'ym_2017_yagodnoe_sprint']
+        map: ['ym_2017_michurinskoe_city_sprint', 'ym_2017_06_13', 'ym_2017_yagodnoe_vybor', 'ym_2017_yagodnoe_sprint_final', 'ym_2017_yagodnoe_sprint_prolog', 'ym_2017_06_16', 'ym_sprint_2017_06_16']
     },
     {
         id: 'SPB_20170612_3',

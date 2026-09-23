@@ -424,7 +424,7 @@ let cityMaps = [
         name: 'Петроградский о-в',
         year: 2024,
         info: '2019-2024 гг.',
-        url: './maps/city/petrogradka_2024.webp',
+        url: './maps/city/petrogradka_wn_2024.webp',
         bounds: [[59.9702409, 30.2851868], [59.9699617, 30.3388309], [59.9473386, 30.2853584]],
         author: 'GRBTNKV',
         owner: 'WN',
@@ -1379,7 +1379,7 @@ let cityMaps = [
     {
         name: 'Васильевский о-в',
         year: 2024,
-        url: './maps/city/vasiljevsky_2024.webp',
+        url: './maps/city/vasiljevsky_wn_2024.webp',
         bounds: [[59.9481445, 30.2661109], [59.9482627, 30.2943277], [59.935473, 30.2660465]],
         author: 'GRBTNKV',
         owner: 'WN',
@@ -1744,7 +1744,7 @@ let cityMaps = [
     },
     {
         name: 'Первомайское',
-        url: './maps/city/pervomayskoe.webp',
+        url: './maps/city/pervomayskoe_city.webp',
         bounds: [[60.3618987, 29.72718], [60.3603812, 29.7412348], [60.3572719, 29.7252274]],
         author: ['TKMKV_K','TKMKVA_P'],
         type: ['CITY'],

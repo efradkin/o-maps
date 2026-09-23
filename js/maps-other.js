@@ -42,7 +42,7 @@ let otherMaps = [
         name: 'Радужный',
         year: 2021,
         hidden: true,
-        url: './maps/olive.png',
+        url: './maps/other/raduzhny_2021.png',
         bounds: [[56.0259219, 40.3139877], [56.0174314, 40.3806782], [55.9940129, 40.3014565]],
         region: 'VLADIMIR',
         author: ['TKMKV_K','KVZN','LUK_V'],
@@ -1339,7 +1339,7 @@ let otherMaps = [
     {
         name: 'Вязынка',
         date: '1988-09-01',
-        url: './maps/other/viazynka_1988_09_01_2.webp',
+        url: './maps/other/viazynka_2_1988_09_01.webp',
         link: './original_maps/other/viazynka_1988_09_01_m21_w21_omaps.webp',
         bounds: [[54.1503212, 27.2025776], [54.1480591, 27.2428322], [54.0916676, 27.1944237]],
         author: 'LBNVSKY_A',

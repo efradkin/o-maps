@@ -413,7 +413,7 @@ let events2012 = [
         name: 'Весенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: 'roschino_2012'
+        map: 'roschino_mb_2012'
     },
     {
         id: 'SPB_20120513_1',
@@ -665,7 +665,7 @@ let events2012 = [
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '12061924',
-        map: ['ym_2012_pervomayskoe_klassika', 'ym_2012_pervomayskoe_long', 'ym_2012_pervomayskoe_klassika2']
+        map: ['ym_2012_06_19', 'ym_2012_pervomayskoe_long', 'ym_2012_06_21']
     },
     {
         id: 'SPB_20120623_1',

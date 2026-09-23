@@ -1309,7 +1309,7 @@ let events2020 = [
         name: 'Осенний марш-бросок',
         type: 'TOURISM',
         start: 'MB',
-        map: '78km',
+        map: '78km_omb_2020',
         o_gps: {
             '1':8281,
             '2':8283

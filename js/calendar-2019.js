@@ -947,7 +947,7 @@ let events2019 = [
         ],
         start: 'YM',
         o_site: '19061116',
-        map: ['ym_2019_luga_final', 'ym_2019_luga_prolog', 'ym_2019_luga_sprint', 'ym_2019_luga_klassika', 'ym_2019_luga_klassika2'],
+        map: ['ym_2019_luga_final', 'ym_2019_luga_prolog', 'ym_2019_luga_sprint', 'ym_2019_06_15', 'ym_2019_06_16'],
         reskeep: [164, 165, 161, 162, 163]
     },
     {

@@ -383,7 +383,7 @@ let events2025 = [
         name: 'URBAN SPRINT',
         fmt: 'спринт',
         reg: 'https://orgeo.ru/event/info/42325',
-        map: 'vasiljevsky_2024',
+        map: 'vasiljevsky_wn_2024',
         owner: 'WN'
     },
     {

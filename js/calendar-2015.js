@@ -807,7 +807,7 @@ let events2015 = [
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '15061621',
-        map: ['ym_2015_yagodnoe_klassika', 'ym_2015_yagodnoe_long', 'ym_2015_yagodnoe_klassika2', 'wn_2015_06_19', 'wn_2015_06_20', 'wn_2015_06_21']
+        map: ['ym_2015_06_16', 'ym_2015_yagodnoe_long', 'ym_2015_06_18', 'wn_2015_06_19', 'wn_2015_06_20', 'wn_2015_06_21']
     },
     {
         id: 'SPB_20150620_1',

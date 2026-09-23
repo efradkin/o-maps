@@ -904,7 +904,7 @@ let events2013 = [
             'splits/2013/SPB_20130618_1_6_split.htm'
         ],
         o_site: '13061823',
-        map: ['ym_2013_yagodnoe_klassika', 'ym_2013_yagodnoe_klassika2', 'ym_2013_borisovo_long'],
+        map: ['ym_2013_06_18', 'ym_2013_06_19', 'ym_2013_borisovo_long'],
         start: ['WN','YM']
     },
     {

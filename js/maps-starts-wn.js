@@ -23,7 +23,7 @@ let wnStartsMaps = [
         name: 'Колосково',
         date: '2002-06-20',
         start: 'WN',
-        url: './maps/starts/wn/wn_2002_06.webp',
+        url: './maps/starts/wn/wn_2002_06_20.webp',
         link: './original_maps/starts/wn/wn_2002_06_omaps.jpg',
         bounds: [[60.6303333, 30.1691437], [60.6268182, 30.2207708], [60.6134909, 30.1647663]],
         zindex: 2
@@ -32,7 +32,7 @@ let wnStartsMaps = [
         name: 'Колосково',
         date: '2002-06-21',
         start: 'WN',
-        url: './maps/starts/wn/wn_2002_06_2.webp',
+        url: './maps/starts/wn/wn_2002_06_21.webp',
         link: ['./original_maps/starts/wn/wn_2002_06_2_omaps.jpg','./original_maps/forest/sosnovo/koloskovo_2002_wn_omaps.jpg'],
         bounds: [[60.621829, 30.175066], [60.618355, 30.2273798], [60.6044345, 30.170517]],
         zindex: 2
@@ -100,7 +100,7 @@ let wnStartsMaps = [
         name: 'Первомайское',
         year: 2006,
         start: 'WN',
-        url: './maps/starts/wn/wn_2006.webp',
+        url: './maps/starts/wn/wn_sprint_2006.webp',
         link: ['./original_maps/starts/wn/wn_2006_omaps.jpg','./original_maps/starts/wn/wn_2006_sprint_omaps.webp'],
         bounds: [[60.4230046, 29.6711111], [60.4207803, 29.7036839], [60.4051638, 29.6663475]]
     },

@@ -427,7 +427,7 @@ let events2006 = [
         owner: 'WN',
         start: 'WN',
         o_site: '06061618_WN',
-        map: ['wn_2006', 'wn_2006_06_18']
+        map: ['wn_sprint_2006', 'wn_2006_06_18']
     },
     {
         id: 'SPB_20060619_1',

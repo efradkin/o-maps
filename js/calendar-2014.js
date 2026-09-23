@@ -786,7 +786,7 @@ let events2014 = [
         owner: 'WN',
         start: ['WN','YM'],
         o_site: '14061722',
-        map: ['ym_2014_pervomayskoe_klassika', 'ym_2014_pervomayskoe_long', 'ym_2014_pervomayskoe_klassika2']
+        map: ['ym_2014_06_17', 'ym_2014_pervomayskoe_long', 'ym_2014_06_19']
     },
     {
         id: 'SPB_20140623_1',

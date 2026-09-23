@@ -383,7 +383,7 @@ let southMaps = [
     {
         name: 'Форт Красная Горка',
         year: 2012,
-        url: './maps/forest/south/fort_krasnaja_gorka.webp',
+        url: './maps/forest/south/fort_krasnaja_gorka_2012.webp',
         link: ['./original_maps/forest/south/fort_krasnaja_gorka_2012_omaps.gif','./original_maps/forest/south/fort_krasnaja_gorka_omaps.jpg'],
         bounds: [[59.980763, 29.3058157], [59.9762217, 29.3576145], [59.9629165, 29.2988205]],
         author: ['DBRTSV_V','MKHLV_A'],
@@ -487,7 +487,7 @@ let southMaps = [
     {
         name: 'Луга, Шалово',
         year: 1,
-        url: './maps/forest/south/luga_shalovo_1.webp',
+        url: './maps/forest/south/luga_shalovo_bw.webp',
         link: ['./original_maps/forest/south/luga_shalovo_1_omaps.jpg','./original_maps/forest/south/luga_shalovo_1_bw_omaps.jpg'],
         bounds: [[58.8072077, 29.8750877], [58.80743, 29.9933624], [58.7645952, 29.8760319]]
     },

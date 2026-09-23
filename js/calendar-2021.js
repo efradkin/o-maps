@@ -1010,7 +1010,7 @@ let events2021 = [
         place: 'м Василеостровская',
         name: 'White Nights Sprint #4',
         start: 'WHITE_NIGHTS',
-        map: 'vasiljevsky_2024',
+        map: 'vasiljevsky_wn_2024',
         reskeep: 461
     },
     {

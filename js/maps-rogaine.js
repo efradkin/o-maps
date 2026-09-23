@@ -395,7 +395,7 @@ let rogaineMaps = [
     },
     {
         name: 'Кировские дачи',
-        url: './maps/rogaine/kirovskie_dachi.webp',
+        url: './maps/rogaine/kirovskie_dachi_rogaine.webp',
         bounds: [[60.7938142, 28.7064171], [60.7879921, 28.7995434], [60.7457821, 28.6924267]],
         owner: 'TOKM',
         type: ['ROGAINE']

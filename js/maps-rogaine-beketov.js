@@ -4,7 +4,7 @@ let rogaineBeketovMaps = [
     {
         name: '78 км',
         date: '2020-10-03',
-        url: './maps/rogaine/beketov/78km.webp',
+        url: './maps/rogaine/beketov/78km_omb_2020.webp',
         link: './original_maps/rogaine/beketov/78km_omb_2020_omaps.gif',
         bounds: [[60.6800722, 30.0208282], [60.6901579, 30.4365921], [60.5400607, 30.0376511]],
         owner: 'BKTV',
@@ -25,8 +25,8 @@ let rogaineBeketovMaps = [
     },
     {
         name: 'Мичуринское',
-        url: './maps/rogaine/beketov/michurinskoe.webp',
-        link: './original_maps/rogaine/beketov/center.jpg',
+        url: './maps/rogaine/beketov/michurinskoe_rogaine_beketov.webp',
+        link: './original_maps/rogaine/beketov/michurinskoe_rogaine_beketov_omaps.jpg',
         bounds: [[60.6344794, 29.7523499], [60.6341427, 30.2515411], [60.3731447, 29.7537231]],
         owner: 'BKTV',
         type: ['ROGAINE']
@@ -34,8 +34,8 @@ let rogaineBeketovMaps = [
     {
         name: 'Грузино',
         year: 2013,
-        url: './maps/rogaine/beketov/gruzino.webp',
-        link: './original_maps/rogaine/beketov/gruzino.jpg',
+        url: './maps/rogaine/beketov/gruzino_rogaine_2013.webp',
+        link: './original_maps/rogaine/beketov/gruzino_rogaine_2013_omaps.jpg',
         bounds: [[60.3330658, 30.2295685], [60.3318763, 30.4431152], [60.262128, 30.2288818]],
         owner: 'BKTV',
         type: ['ROGAINE']
@@ -43,8 +43,8 @@ let rogaineBeketovMaps = [
     {
         name: 'Каннельярви',
         year: 2024,
-        url: './maps/rogaine/beketov/kanneljarvy.webp',
-        link: './original_maps/rogaine/beketov/k-jarvi.jpg',
+        url: './maps/rogaine/beketov/kanneljarvy_rogaine_2024.webp',
+        link: './original_maps/rogaine/beketov/kanneljarvy_rogaine_2024_omaps.jpg',
         bounds: [[60.451631, 29.1529083], [60.4507844, 29.617424], [60.1671337, 29.1491318]],
         owner: 'BKTV',
         type: ['ROGAINE']
@@ -192,8 +192,8 @@ let rogaineBeketovMaps = [
     {
         name: 'Воробьёво оз',
         year: 2013,
-        url: './maps/rogaine/beketov/vorobjevo.webp',
-        link: './original_maps/rogaine/beketov/vorob_1.jpg',
+        url: './maps/rogaine/beketov/vorobjevo_rogaine_2013.webp',
+        link: './original_maps/rogaine/beketov/vorobjevo_rogaine_2013_omaps.jpg',
         bounds: [[61.0494787, 29.9731064], [61.0559593, 30.4856873], [60.6558538, 30.0084686]],
         owner: 'BKTV',
         type: ['ROGAINE']
@@ -233,8 +233,8 @@ let rogaineBeketovMaps = [
     {
         name: 'Яппиля',
         year: 2010,
-        url: './maps/rogaine/beketov/jappilya.webp',
-        link: './original_maps/rogaine/beketov/jappila.jpg',
+        url: './maps/rogaine/beketov/jappilya_rogaine_2010.webp',
+        link: './original_maps/rogaine/beketov/jappilya_rogaine_2010_omaps.jpg',
         bounds: [[60.349375, 28.9414215], [60.3451286, 29.2521286], [60.169354, 28.9304352]],
         owner: 'BKTV',
         type: ['ROGAINE']
@@ -253,7 +253,7 @@ let rogaineBeketovMaps = [
     {
         name: 'Рощино',
         date: '2012-05-12',
-        url: './maps/rogaine/beketov/roschino_2012.webp',
+        url: './maps/rogaine/beketov/roschino_mb_2012.webp',
         link: './original_maps/rogaine/beketov/roschino_2012_omaps.jpg',
         bounds: [[60.3451286, 29.3475723], [60.344619, 29.7406769], [60.2045162, 29.3465424]],
         owner: 'BKTV',

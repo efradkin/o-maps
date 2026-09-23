@@ -1715,7 +1715,7 @@ let eventsEarly = [
         place: 'Кузнечное, оз Суури',
         name: 'Ориентир-22',
         start: 'ORIENTIR',
-        map: 'kuznechnoe_suuri_1984'
+        map: 'kuznechnoe_suuri_1984_west'
     },
     {
         id: 'SPB_19900826_1',
@@ -2728,7 +2728,7 @@ let eventsEarly = [
         place: 'Лемболово, Орехово',
         name: 'Кубок мира среди ветеранов',
         start: 'VWC_1995',
-        map: ['lembolovo_vwc_model_1995','lembolovo_vwc_1995','lembolovo_orekhovo_1995','lembolovo_vwc_1995_06_02'],
+        map: ['lembolovo_vwc_model_1995','lembolovo_vwc_1995_05_30','lembolovo_orekhovo_1995','lembolovo_vwc_1995_06_02'],
         major: true
     },
     {
@@ -3242,7 +3242,7 @@ let eventsEarly = [
         place: 'Колосково',
         name: 'Белые Ночи',
         start: 'WN',
-        map: ['wn_2002_06','wn_2002_06_2']
+        map: ['wn_2002_06_20','wn_2002_06_21']
     },
     {
         id: 'SPB_20020624_1',
