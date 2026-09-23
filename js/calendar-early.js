@@ -2714,13 +2714,14 @@ let eventsEarly = [
         name: 'Мемориал Михаила Святкина',
         planner: 'SHRNN',
         start: 'MMS',
-        map: 'tarasovskoe_1995'
+        map: 'garbolovo_1994'
     },
     {
         id: 'SPB_19940903_1',
         date: '1994-09-03',
         endDate: '1994-09-04',
-        name: 'Чемпионат С-Петербурга, спринт, марафон',
+        name: 'Чемпионат С-Петербурга',
+        fmt: 'спринт, марафон',
         start: 'SPB_CHAMP',
         me: 'H21',
         res: './docs/1994/1994_09_03_spb_omaps.pdf'

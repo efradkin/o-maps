@@ -448,7 +448,6 @@ let forestMaps = [
     {
         name: 'Тарасовское',
         year: 1994,
-        start: 'MMS',
         page: 'spb',
         url: './maps/forest/tarasovskoe_1995.webp',
         link: './original_maps/forest/tarasovskoe_1995_omaps.jpg',
