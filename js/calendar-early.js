@@ -53,7 +53,7 @@ let eventsEarly = [
         date: '1968-09-15',
         place: 'Снегирёвка',
         name: 'Матч СССР-Болгария',
-        info: 'Эстафета.',
+        fmt: 'эстафета',
         start: 'USSR_BULGARIA_1968',
         map: 'zamostie_1968'
     },
@@ -156,7 +156,8 @@ let eventsEarly = [
         date: '1969-09-21',
         endDate: '1969-09-28',
         place: 'Можайское',
-        name: 'П-во Ленинграда, эстафета',
+        name: 'П-во Ленинграда',
+        fmt: 'эстафета',
         planner: 'KPSTN',
         res: './docs/1969/1969_09_28_leningrad_relay_omaps.pdf'
     },
@@ -196,6 +197,7 @@ let eventsEarly = [
         id: 'SPB_19710612_1',
         date: '1971-06-12',
         name: 'Белые Ночи',
+        place: 'Рощино',
         info: 'Первые  массовые соревнования "Белые Ночи".',
         start: 'WN',
         res: './docs/1971/1971_06_12_wn_omaps.pdf',
@@ -212,7 +214,8 @@ let eventsEarly = [
         id: 'SPB_19710704_1',
         date: '1971-07-04',
         place: 'Шапки',
-        name: 'IV матч Рига - Ленинград, эстафета',
+        name: 'IV матч Рига - Ленинград',
+        fmt: 'эстафета',
         res: './docs/1971/1971_07_04_riga_leningrad_omaps.pdf'
     },
     {
@@ -243,7 +246,8 @@ let eventsEarly = [
         endDate: '1971-09-14',
         place: 'Зеленогорск, оз Щучье',
         name: 'Пятые Всесоюзные соревнования',
-        info: 'Лично-командное первенство, эстафета.',
+        info: 'Лично-командное первенство.',
+        fmt: 'эстафета',
         start: 'USSR_V_1971',
         map: ['zelenogorsk_schuchye_1971','ozerki_1971']
     },
@@ -374,13 +378,15 @@ let eventsEarly = [
         date: '1979-01-14',
         place: 'Кузьмолово',
         name: 'Новогодняя эстафета',
+        fmt: 'эстафета',
         res: './docs/1979/1979_01_14_new_year_relay_omaps.pdf'
     },
     {
         id: 'SPB_19790308_1',
         date: '1979-03-08',
         place: 'Кавголово',
-        name: 'П-во Ленинграда среди к/ф, эстафета',
+        name: 'П-во Ленинграда среди к/ф',
+        fmt: 'эстафета',
         planner: 'DVRKO_V',
         res: './docs/1979/1979_03_08_leningrad_kf_relay_omaps.pdf'
     },
@@ -411,6 +417,7 @@ let eventsEarly = [
         id: 'SPB_19800115_1',
         date: '1980-01-15',
         name: 'Новогодняя эстафета',
+        fmt: 'эстафета',
         res: './docs/1980/1980_01_18_new_year_relay_omaps.pdf'
     },
     {
@@ -521,7 +528,8 @@ let eventsEarly = [
         id: 'SPB_19840826_1',
         date: '1984-08-26',
         place: 'Петяярви',
-        name: 'XXVI Чемпионат Ленинграда, эстафета',
+        name: 'XXVI Чемпионат Ленинграда',
+        fmt: 'эстафета',
         planner: ['LVCHV','SVTKN'],
         res: './docs/1984/1984_08_26_leningrad_relay_omaps.pdf'
     },
@@ -756,7 +764,8 @@ let eventsEarly = [
         id: 'SPB_19880424_1',
         date: '1988-04-24',
         place: 'Шувалово',
-        name: 'Открытие сезона клуба Азимут, эстафета',
+        name: 'Открытие сезона клуба Азимут',
+        fmt: 'эстафета',
         me: 'М-13',
         planner: 'VLKV_A',
         res: './docs/1988/1988_04_24_azimut_summer_open_omaps.pdf'
@@ -800,7 +809,8 @@ let eventsEarly = [
         id: 'SPB_19880515_1',
         date: '1988-05-15',
         place: 'Кузьмолово',
-        name: 'Ориентир-3, эстафета',
+        name: 'Ориентир-3',
+        fmt: 'эстафета',
         start: 'ORIENTIR',
         me: 'МБ',
         planner: 'SHLKV_L',
@@ -1127,6 +1137,7 @@ let eventsEarly = [
         date: '1988-12-31',
         place: 'Юкки',
         name: 'Новогодняя эстафета',
+        fmt: 'эстафета',
         me: 'М-15',
         res: './docs/1988/1988_12_31_new_year_omaps.pdf'
     },
@@ -1399,7 +1410,8 @@ let eventsEarly = [
         id: 'SPB_19890917_1',
         date: '1989-09-17',
         place: 'Петровское',
-        name: 'Летний чемпионат Ленинграда, эстафета',
+        name: 'Летний чемпионат Ленинграда',
+        fmt: 'эстафета',
         planner: 'OVCHNNKV',
         res: './docs/1989/1989_09_17_championship_omaps.pdf'
     },
@@ -1554,7 +1566,8 @@ let eventsEarly = [
         id: 'SPB_19900225_1',
         date: '1990-02-25',
         place: 'Васкелово',
-        name: 'Зимний чемпионат Ленинграда, эстафета 3х',
+        name: 'Зимний чемпионат Ленинграда',
+        fmt: 'эстафета 3х',
         me: 'М21',
         planner: 'VLKV_A',
         res: './docs/1990/1990_02_25_relay_omaps.pdf'
@@ -1849,6 +1862,7 @@ let eventsEarly = [
         date: '1990-12-30',
         place: 'Всеволожск',
         name: 'Новогодняя эстафета',
+        fmt: 'эстафета',
         me: 'МВ',
         res: './docs/1990/1990_12_30_new_year_omaps.pdf'
     },
@@ -1884,7 +1898,8 @@ let eventsEarly = [
         date: '1991-02-09',
         endDate: '1991-02-10',
         place: 'Сосново',
-        name: 'П-во Ленинграда, з/н и эстафета',
+        name: 'П-во Ленинграда',
+        fmt: 'з/н и эстафета',
         me: 'М17а,М3',
         planner: ['MRSKY_S','RYLOV_V'],
         res: ['./docs/1991/1991_02_09_leningrad_omaps.pdf', './docs/1991/1991_02_10_leningrad_omaps.pdf']
@@ -2272,7 +2287,8 @@ let eventsEarly = [
         id: 'SPB_19910922_1',
         date: '1991-09-22',
         place: 'Шапки',
-        name: 'Чемпионат Ленинграда, эстафета',
+        name: 'Чемпионат Ленинграда',
+        fmt: 'эстафета',
         planner: 'KRCHKN_V',
         res: './docs/1991/1991_09_22_leningrad_omaps.pdf'
     },
@@ -2509,7 +2525,8 @@ let eventsEarly = [
         id: 'SPB_19920905_1',
         date: '1992-09-05',
         place: 'Яппиля',
-        name: 'Первенство СПб, эстафета',
+        name: 'Первенство СПб',
+        fmt: 'эстафета',
         start: 'SPB_CHAMP',
         me: 'H21',
         res: './docs/1992/1992_09_05_spb_yappilya_omaps.pdf'
@@ -2617,7 +2634,8 @@ let eventsEarly = [
         id: 'SPB_19930613_1',
         date: '1993-06-13',
         place: 'Токсово',
-        name: 'ЧиП СПб, эстафета 3х',
+        name: 'ЧиП СПб',
+        fmt: 'эстафета 3х',
         start: 'SPB_CHAMP',
         me: 'H21A',
         planner: 'RYLOV_V',
@@ -2634,31 +2652,17 @@ let eventsEarly = [
         res: './docs/1993/1993_06_16_na_omaps.pdf'
     },
     {
-        id: 'SPB_19930626_1',
-        date: '1993-06-26',
-        endDate: '1993-06-27',
-        place: 'Стеклянный',
-        name: 'Мемориал Михаила Святкина',
-        planner: '?',
-        start: 'MMS'
-    },
-    {
-        id: 'SPB_19930703_1',
-        date: '1993-07-03',
-        place: 'Васкелово',
-        name: 'ЧиП СПб, спринт',
-        start: 'SPB_CHAMP',
-        me: 'H21A',
-        res: './docs/1993/1993_07_03_spb_sprint_omaps.pdf'
-    },
-    {
         id: 'SPB_19930704_1',
-        date: '1993-07-04',
-        place: 'Васкелово',
-        name: 'ЧиП СПб',
-        start: 'SPB_CHAMP',
+        date: '1993-07-03',
+        endDate: '1993-07-04',
+        place: 'Васкелово, Стеклянный',
+        name: 'Мемориал Михаила Святкина, ЧиП СПб',
+        fmt: 'спринт, классика',
+        start: ['MMS','SPB_CHAMP'],
+        link: 'https://o-site.spb.ru/history/Knots/mms-93.html',
+        planner: '?',
         me: 'H21A',
-        res: './docs/1993/1993_07_04_spb_omaps.pdf'
+        res: ['./docs/1993/1993_07_03_spb_sprint_omaps.pdf','./docs/1993/1993_07_04_spb_omaps.pdf']
     },
     {
         id: 'SPB_19930905_1',
@@ -2704,8 +2708,8 @@ let eventsEarly = [
     },
     {
         id: 'SPB_19940625_1',
-        date: '1994-06-25',
-        endDate: '1994-06-26',
+        date: '1994-07-02',
+        endDate: '1994-07-03',
         place: 'Гарболово',
         name: 'Мемориал Михаила Святкина',
         planner: 'SHRNN',
@@ -2797,6 +2801,7 @@ let eventsEarly = [
         date: '1995-12-31',
         place: 'Гатчина',
         name: 'Новогодняя эстафета',
+        fmt: 'эстафета',
         res: './docs/1995/1995_12_31_ny_relay_omaps.pdf'
     },
     {
@@ -3042,7 +3047,8 @@ let eventsEarly = [
         id: 'SPB_19990314_1',
         date: '1999-03-14',
         place: 'Лемболово',
-        name: 'Зимний чемпионат СПб, эстафета 2х',
+        name: 'Зимний чемпионат СПб',
+        fmt: 'эстафета 2х',
         start: 'SPB_CHAMP',
         planner: 'BRDN_V',
         res: './docs/1999/1999_03_14_spb_relay_omaps.pdf'

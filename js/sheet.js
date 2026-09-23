@@ -317,37 +317,30 @@ function buildInfo(m, cal, events) {
     if (m.restricted) {
         result += getRestrictedText(m);
     }
-    // if (m.info || m.date || mapResults || oSite) {
-    /*
-            if (m.restricted) {
-                result += '<br />'
-            }
-            if (!isDocumentsPage()) {
-                const mapDates = getMapDates(m, events);
-                if (mapDates) {
-                    result += `<b>${mapDates}</b>. `;
-                }
-            }
-    */
-        if (m.info) {
-            if (result) {
-                result += '<br />';
-            }
-            result += m.info;
+    if (!isDocumentsPage()) {
+        const mapDates = getMapDates(m);
+        if (mapDates) {
+            result += `<b>${mapDates}</b>. `;
         }
-        if (events) {
-            if (result) {
-                result += '<br />';
-            }
-            result += buildMapEventsDescription(m, events);
+    }
+    if (m.info) {
+        if (m.restricted) {
+            result += '<br />';
         }
-        if (m.results) {
-            result += ` <a href="${m.results}">Результаты</a>.`;
+        result += m.info;
+    }
+    if (events) {
+        if (result) {
+            result += '<br />';
         }
-        if (m.o_site) {
-            result += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо на O-Site</a>.`;
-        }
-    // }
+        result += buildMapEventsDescription(m, events);
+    }
+    if (m.results) {
+        result += ` <a href="${m.results}">Результаты</a>.`;
+    }
+    if (m.o_site) {
+        result += ` <a href="${O_SITE_ADDRESS_PREFIX}${m.o_site}">Инфо на O-Site</a>.`;
+    }
     if (isDocumentsPage()) {
         // планировщики
         let planner = m.planner;

@@ -649,7 +649,6 @@ let vaskelovoMaps = [
         link: './original_maps/forest/vaskelovo/peski_2001_omaps.jpg',
         bounds: [[60.486406, 30.3979683], [60.4823043, 30.4621696], [60.4596512, 30.3908443]],
         author: ['SHRNN','KVZN','NSNV','TKMKV_K','VRBY'],
-        start: 'MMS'
     },
     {
         name: 'Пески',
