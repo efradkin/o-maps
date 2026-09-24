@@ -115,6 +115,15 @@ let rogaineMaps = [
         region: 'SPB'
     },
     {
+        name: 'Лемболово',
+        year: 2023,
+        url: './maps/rogaine/lembolovo_hard_rogaine_2023.webp',
+        link: './original_maps/rogaine/lembolovo_hard_rogaine_2023_omaps.webp',
+        bounds: [[60.4679232, 30.2941990], [60.4457892, 30.3839779], [60.4049519, 30.2304268]],
+        owner: 'HARD',
+        type: ['ROGAINE']
+    },
+    {
         name: 'Кузнечное',
         year: 2024,
         url: './maps/rogaine/kuznechnoe_hard_2024.webp',

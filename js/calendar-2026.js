@@ -2827,6 +2827,18 @@ let events2026 = [
         start: 'LM'
     },
     {
+        id: 'SPB_20261031_2',
+        date: '2026-10-31',
+        place: 'Лемболово',
+        name: 'HARD-Rogaine | Night',
+        fmt: '3',
+        type: 'ROGAINE',
+        link: 'https://hardadventure.ru/night2026',
+        reg: 'https://reg.o-time.ru/race/26636',
+        map: 'lembolovo_hard_rogaine_2023',
+        start: 'HARD',
+    },
+    {
         id: 'SPB_20261101_1',
         date: '2026-11-01',
         name: 'Кубок D2RUN, финал',

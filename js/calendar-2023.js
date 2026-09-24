@@ -2111,12 +2111,13 @@ let events2023 = [
     {
         id: 'SPB_20231028_5',
         date: '2023-10-28',
-        place: 'Орехово',
+        place: 'Лемболово',
         name: 'HARD-Rogaine | Night',
         type: 'ROGAINE',
         fmt: '6, 3',
         res: 'http://hardrogaine.ru/HR_Night2023_results.htm',
-        o_gps: 17677
+        o_gps: 17677,
+        map: 'lembolovo_hard_rogaine_2023'
     },
     {
         id: 'SPB_20231029_1',

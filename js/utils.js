@@ -2035,8 +2035,6 @@ function buildEventResults(evt) {
                 res += buildLink(r, 'Reskeep');
             } else if (r.includes('t.me')) {
                 res += buildLink(r, 'Telegram');
-            } else if (r.includes('hard')) {
-                res += buildLink(r, 'HARD');
             } else {
                 let iconExt = downloadIconExt(r);
                 res += buildLink(r, `<img src="./images/${iconExt}-file.png" alt="Результаты" title="Результаты" class="sheet-icon" />`);

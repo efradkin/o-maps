@@ -2057,8 +2057,12 @@ let events2022 = [
         id: 'SPB_20221029_2',
         date: '2022-10-29',
         name: 'HARD-Rogaine | Night',
+        place: 'Лемболово',
         type: 'ROGAINE',
-        link: 'https://vk.com/hardrogaine'
+        link: 'https://vk.com/hardrogaine',
+        start: 'HARD',
+        o_gps: '14506',
+        map: 'lembolovo_hard_rogaine_2023'
     },
     {
         id: 'SPB_20221029_3',
