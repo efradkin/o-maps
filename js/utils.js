@@ -1434,16 +1434,44 @@ function checkStartMap(start, m) {
     return (start === m.start);
 }
 
-// Карты старта для start.html / start-details.html: помеченные стартом (у них
-// main.js построил слой) плюс карты, на которые ссылаются события календаря
-// этого старта, даже если сами карты стартом не помечены.
-function filterStartMaps(maps, start, events) {
-    const referenced = new Set();
-    for (const e of events ?? []) {
-        if (e.map && checkStartMap(start, e)) {
-            (Array.isArray(e.map) ? e.map : [e.map]).forEach(name => referenced.add(name));
-        }
+// Имена карт, на которые ссылаются события календаря старта. По умолчанию
+// события - глобальный oEvents (если страница его загрузила); результат
+// кешируется для каждой пары «массив событий + старт».
+const startEventMapNamesCache = new WeakMap();
+function startEventMapNames(start, events) {
+    if (events === undefined) {
+        events = typeof oEvents !== 'undefined' ? oEvents : [];
     }
+    let byStart = startEventMapNamesCache.get(events);
+    if (!byStart) {
+        byStart = new Map();
+        startEventMapNamesCache.set(events, byStart);
+    }
+    let names = byStart.get(start);
+    if (!names) {
+        names = new Set();
+        for (const e of events) {
+            if (e.map && checkStartMap(start, e)) {
+                (Array.isArray(e.map) ? e.map : [e.map]).forEach(name => names.add(name));
+            }
+        }
+        byStart.set(start, names);
+    }
+    return names;
+}
+
+// Карта относится к старту: помечена им (start) или на неё ссылается событие
+// календаря этого старта, даже если сама карта стартом не помечена.
+// Используется в main.js (starts.html?start=X и др.), start.html, start-details.html.
+function isStartMap(start, m, events) {
+    return checkStartMap(start, m) || startEventMapNames(start, events).has(getMapName(m));
+}
+
+// Карты старта для start.html / start-details.html: у которых main.js построил
+// слой, плюс карты из событий старта (слой у них может и не построиться,
+// например без привязки к местности).
+function filterStartMaps(maps, start, events) {
+    const referenced = startEventMapNames(start, events);
     return maps.filter(m => m.layer !== undefined || referenced.has(getMapName(m)));
 }
 

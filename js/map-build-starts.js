@@ -56,10 +56,10 @@ let allAgeGroups = [];
 // populate age groups
 let ageGroups = {};
 for (const m of oMaps) {
-    if (START_NAME_PARAM && !checkStartMap(START_NAME_PARAM, m)) {
+    if (START_NAME_PARAM && !isStartMap(START_NAME_PARAM, m)) { // включая карты из событий старта
         continue;
     }
-    if (m.start || isMajor(m)) {
+    if (m.start || isMajor(m) || START_NAME_PARAM) {
         let y = startYear(m) || year(m);
         if (y && !ageGroups[y]) {
             getCreateAgeGroup(y);
@@ -145,16 +145,26 @@ function buildOverlayMapsContents() {
 }
 
 function allocateMap(m) {
-    if (m.start || isMajor(m)) {
+    // Карта из события календаря старта ?start=X, самим стартом не помеченная, -
+    // показываем её в группе этого старта.
+    const startEventMap = START_NAME_PARAM && START_NAME_PARAM !== 'major' &&
+        !checkStartMap(START_NAME_PARAM, m) && startEventMapNames(START_NAME_PARAM).has(getMapName(m));
+
+    if (m.start || isMajor(m) || startEventMap) {
         m.groups = [];
         m.ageGroups = [];
 
-        if (Array.isArray(m.start)) {
-            for (const s of m.start) {
-                pushStartGroupToMap(s, m);
+        if (m.start || isMajor(m)) {
+            if (Array.isArray(m.start)) {
+                for (const s of m.start) {
+                    pushStartGroupToMap(s, m);
+                }
+            } else {
+                pushStartGroupToMap(m.start, m);
             }
-        } else {
-            pushStartGroupToMap(m.start, m);
+        }
+        if (startEventMap) {
+            pushStartGroupToMap(START_NAME_PARAM, m);
         }
 
         if (isMajor(m)) {
@@ -208,7 +218,9 @@ function getCreateAgeGroup(year) {
 }
 
 function isMapAcceptable(m) {
-    return !isNull(m.start) || isMajor(m);
+    // карты стартов и чемпионатов, а при ?start=X - ещё и карты из событий этого старта
+    return !isNull(m.start) || isMajor(m) ||
+        (!!START_NAME_PARAM && START_NAME_PARAM !== 'major' && startEventMapNames(START_NAME_PARAM).has(getMapName(m)));
 }
 
 function buildContextmenuItems() {

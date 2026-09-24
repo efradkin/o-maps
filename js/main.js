@@ -1242,7 +1242,7 @@ function skipMapLoad(m, forse) {
                 if (!isMajor(m)) {
                     return true;
                 }
-            } else if (!checkStartMap(START_NAME_PARAM, m)) {
+            } else if (!isStartMap(START_NAME_PARAM, m)) { // включая карты из событий старта
                 return true;
             }
         }
