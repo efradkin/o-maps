@@ -2660,6 +2660,7 @@ let eventsEarly = [
         fmt: 'спринт, классика',
         start: ['MMS','SPB_CHAMP'],
         link: 'https://o-site.spb.ru/history/Knots/mms-93.html',
+        map: 'silande_1992',
         planner: '?',
         me: 'H21A',
         res: ['./docs/1993/1993_07_03_spb_sprint_omaps.pdf','./docs/1993/1993_07_04_spb_omaps.pdf']

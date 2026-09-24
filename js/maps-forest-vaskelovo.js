@@ -283,7 +283,6 @@ let vaskelovoMaps = [
         url: './maps/forest/vaskelovo/garbolovo_1994.webp',
         link: './original_maps/forest/vaskelovo/garbolovo_1994_omaps.jpg',
         bounds: [[60.3890098, 30.4472351], [60.3841747, 30.5155563], [60.3447039, 30.4341888]],
-        start: 'MMS',
         author: 'CHGRVSKY_Y'
     },
     {

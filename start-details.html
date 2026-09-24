@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>O-Maps. Карты многодневки</title>
-    <meta name="description" content="O-Maps. Все карты многодневки в одном месте.">
+    <title>O-Maps. Соревнование подробно</title>
+    <meta name="description" content="O-Maps. События календаря, карты, плакаты и документы соревнования.">
     <link rel="icon" type="image/png" href="favicon.png"/>
     <link href='./css/google-fonts.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -13,10 +13,10 @@
     <link rel="stylesheet" href="css/theme.css?v=17"/>
     <script src="js/theme-toggle.js?v=24"></script>
 
-    <meta property="og:title" content="O-Maps. Карты многодневки">
+    <meta property="og:title" content="O-Maps. Соревнование подробно">
     <meta property="og:site_name" content="Спортивные карты O-Maps: ориентирование и рогейн">
-    <meta property="og:url" content="https://o-maps.spb.ru/">
-    <meta property="og:description" content="O-Maps. Все карты многодневки в одном месте.">
+    <meta property="og:url" content="https://o-maps.spb.ru/start-details.html">
+    <meta property="og:description" content="O-Maps. События календаря, карты, плакаты и документы соревнования.">
     <meta property="og:image" content="https://o-maps.spb.ru/o-maps-preview-25.jpg">
 
     <!-- Yandex.Metrika counter -->
@@ -35,10 +35,38 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/99914151" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+
+    <style>
+        /* start-details.html: этапы многодневки - с отступом под «родителем» */
+        body.help-body section.start-event-child { margin-left: 40px; }
+        body.help-body section.start-event-cancelled h3 { text-decoration: line-through; }
+        /* лента превью карт многодневного события */
+        .start-event-maps { display: flex; flex-wrap: wrap; gap: 12px; clear: both; margin-top: 12px; }
+        body.help-body section .start-event-maps img { height: 160px; width: auto; max-width: 100%; }
+        /* превью карты в секции вкладки «Карты» */
+        body.help-body section .start-map-figure { max-width: 35%; max-height: 420px; }
+        /* строки «Подпись: значение» - плотнее обычных абзацев */
+        body.help-body section.start-event p,
+        body.help-body section.start-map p { margin-bottom: 6px; }
+        .start-map-types { font-size: 12px; font-weight: normal; }
+        /* список документов */
+        .start-docs { padding-left: 0; list-style: none; margin-bottom: 0; }
+        .start-docs li { padding: 6px 0; border-bottom: 1px solid rgba(128, 128, 128, 0.2); }
+        .start-docs li:last-child { border-bottom: none; }
+        /* плакат - крупно, во всю ширину секции */
+        body.help-body section .start-poster-figure { display: block; max-width: 100%; max-height: 85vh; margin-top: 8px; }
+        @media screen and (max-width: 600px) {
+            body.help-body section.start-event-child { margin-left: 16px; }
+            body.help-body section .start-map-figure { max-width: 45%; }
+        }
+    </style>
 </head>
 <body class="index-body help-body stat-body">
     <script src="js/utils-common.js?v=24"></script>
     <script src="js/utils.js?v=27"></script>
+    <script>
+        const REGION_KEY = 'starts'; // для buildEventPlace()
+    </script>
     <header class="page-header">
         <h1 class="text-center" id="start_name"></h1>
 
@@ -56,23 +84,35 @@
     <div class="container">
         <section id="start_info" class="clearfix"><img class="help-figure help-figure-left" /><span /></section>
 
-        <ul class="nav nav-tabs" role="tablist">
-            <li class="nav-item" role="presentation" id="calendar-tab-item">
-                <button class="nav-link active" id="calendar-tab" data-bs-toggle="tab" data-bs-target="#calendar" type="button" role="tab" aria-controls="calendar" aria-selected="true">Календарь</button>
+        <ul class="nav nav-tabs" role="tablist" id="start_tabs">
+            <li class="nav-item" role="presentation" id="events-tab-item">
+                <button class="nav-link active" id="events-tab" data-bs-toggle="tab" data-bs-target="#events" type="button" role="tab" aria-controls="events" aria-selected="true">События</button>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item" role="presentation" id="maps-tab-item">
                 <button class="nav-link" id="maps-tab" data-bs-toggle="tab" data-bs-target="#maps" type="button" role="tab" aria-controls="maps" aria-selected="false">Карты</button>
             </li>
-            <li class="nav-item" role="presentation" id="start-view-switch-item">
-                <a class="nav-link start-view-switch" id="start_view_switch" style="color: var(--o-accent)" href="start-details.html" title="Подробное представление: события, карты, плакаты и документы">☰ Подробно</a>
+            <li class="nav-item" role="presentation" id="posters-tab-item" style="display: none">
+                <button class="nav-link" id="posters-tab" data-bs-toggle="tab" data-bs-target="#posters" type="button" role="tab" aria-controls="posters" aria-selected="false">Плакаты</button>
+            </li>
+            <li class="nav-item" role="presentation" id="docs-tab-item" style="display: none">
+                <button class="nav-link" id="docs-tab" data-bs-toggle="tab" data-bs-target="#docs" type="button" role="tab" aria-controls="docs" aria-selected="false">Документы</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link start-view-switch" id="start_view_switch" style="color: var(--o-accent)" href="start.html" title="Компактное представление: плитки карт и список событий">☷ Компактно</a>
             </li>
         </ul>
         <div class="tab-content">
-            <div class="tab-pane fade show active" id="calendar" role="tabpanel" aria-labelledby="calendar-tab">
-                <section id="start_events"></section>
+            <div class="tab-pane fade show active" id="events" role="tabpanel" aria-labelledby="events-tab">
+                <div id="start_events"></div>
             </div>
             <div class="tab-pane fade" id="maps" role="tabpanel" aria-labelledby="maps-tab">
-                <div class="start-maps-wrapper"></div>
+                <div id="start_maps"></div>
+            </div>
+            <div class="tab-pane fade" id="posters" role="tabpanel" aria-labelledby="posters-tab">
+                <div id="start_posters"></div>
+            </div>
+            <div class="tab-pane fade" id="docs" role="tabpanel" aria-labelledby="docs-tab">
+                <div id="start_docs"></div>
             </div>
         </div>
     </div>
@@ -202,121 +242,9 @@
 
     <script src="js/map-build.js?v=24"></script>
     <script src="js/main.js?v=33"></script>
+    <script src="js/history-docs.js?v=24"></script>
+    <script src="js/start-details.js?v=1"></script>
     <script>
-        if ('KKM' === START_NAME_PARAM) {
-            location.href = 'kkm.html';
-        }
-        if ('VOLKOV_A' === START_NAME_PARAM) {
-            location.href = 'volkov_av.html';
-        }
-
-        // Фильтрация массива. Оставляем только карты нужного старта.
-        // карты старта + карты, на которые ссылаются события этого старта
-        oMaps = filterStartMaps(oMaps, START_NAME_PARAM, oEvents);
-        oMaps.sort((a, b) => dateForCompare(b) - dateForCompare(a));
-
-        let strt = starts[START_NAME_PARAM];
-        if (!strt) {
-            // Неизвестный или пустой ?start= (опечатка, устаревшая ссылка) — вместо пустой страницы подсказка.
-            strt = {
-                name: 'Старт не найден',
-                info: 'Проверьте ссылку или выберите соревнование в <a href="sheet-starts.html">таблице стартов</a>.'
-            };
-            oMaps = []; // без известного старта плитки не строим
-            document.getElementById('start-view-switch-item').style.display = 'none';
-        } else {
-            // переключатель на подробное представление (href с текущей вкладкой - см. ниже)
-            updateStartViewSwitch();
-        }
-        document.getElementById('start_name').innerHTML = strt.name ?? strt.short;
-
-        if (strt.info) {
-            document.getElementById('start_info').style.display = 'block';
-            document.querySelector('#start_info span').innerHTML = strt.info;
-
-            if (strt.logo) {
-                let logo = document.querySelector('#start_info img');
-                logo.style.display = 'block';
-                logo.src = './logo/' + strt.logo;
-            }
-        }
-
-        let container = document.querySelector('.start-maps-wrapper');
-        oMaps.forEach(m => {
-            const events = findEventsForMap(m, true, START_NAME_PARAM);
-/*
-            let row = `
-                    <div class="row">
-                        <div class="col-sm-2"><a href="#map_href" target="_blank"><img src="#map_img_src" width="100"/></a></div>
-                        <div class="col-sm-10"><a href="#map_link" target="_self">Маршрут от #map_month".#map_year - #map_place</a></div>
-                    </div>
-            `;
-*/
-            let row = `
-                    <div class="start-map-box align-items-center d-flex justify-content-center">
-                        <div>
-                            <a href="#map_link" target="_self"><img src="#map_img_src" title="#map_title" /></a>
-                            <div class="start-map-box-description">#map_title</div>
-                        </div>
-                    </div>
-            `;
-            row = row.replace('#map_img_src', mapImageUrl(m));
-            row = row.replace('#map_href', m.link);
-            row = row.replace('#map_link', 'map-info.html?map=' + getMapName(m));
-            //row = row.replace('#map_month', date.getMonth() + 1);
-            const mapTitle = `${strt.short}: ${startYear(m, events) ?? year(m)} - ${m.name}`;
-            row = row.replaceAll('#map_title', mapTitle);
-            const elRow = document.createElement("div");
-            elRow.classList.add("row");
-            elRow.innerHTML = row;
-            container.appendChild(elRow);
-        });
-
-        // Вкладка "Календарь": события календаря, относящиеся к этому старту.
-        const startEvents = (typeof oEvents !== 'undefined' ? oEvents : [])
-            .filter(e => checkStartMap(START_NAME_PARAM, e));
-        sortEvents(startEvents);
-
-        let eventsHtml = '';
-        for (const e of startEvents) {
-            eventsHtml += buildEventDescription(e, true) + '<br />';
-        }
-        if (eventsHtml) {
-            document.getElementById('start_events').innerHTML = eventsHtml;
-        } else {
-            // Событий календаря для старта нет - прячем вкладку и открываем "Карты".
-            document.getElementById('calendar-tab-item').style.display = 'none';
-            activateMapsTab();
-        }
-        if (eventsHtml && urlParams.get('tab') === 'maps') {
-            activateMapsTab(); // ?tab=maps - сразу на карты (tab=calendar - и так по умолчанию)
-        }
-        updateStartViewSwitch();
-        // вкладку переключили - переключатель ведёт на неё же в подробном представлении
-        document.addEventListener('shown.bs.tab', updateStartViewSwitch);
-
-        // Переключатель на start-details.html: тот же старт и та же вкладка.
-        function updateStartViewSwitch() {
-            if (!starts[START_NAME_PARAM]) {
-                return;
-            }
-            const tab = document.getElementById('maps-tab').classList.contains('active') ? 'maps' : 'calendar';
-            document.getElementById('start_view_switch').href =
-                'start-details.html?start=' + encodeURIComponent(START_NAME_PARAM) + '&tab=' + tab;
-        }
-
-        function activateMapsTab() {
-            const calendarTab = document.getElementById('calendar-tab');
-            calendarTab.classList.remove('active');
-            calendarTab.setAttribute('aria-selected', 'false');
-            document.getElementById('calendar').classList.remove('show', 'active');
-
-            const mapsTab = document.getElementById('maps-tab');
-            mapsTab.classList.add('active');
-            mapsTab.setAttribute('aria-selected', 'true');
-            document.getElementById('maps').classList.add('show', 'active');
-        }
-
         writeWelcomeButton();
     </script>
 
@@ -325,12 +253,13 @@
 
     <noscript>
         <div id="noscript_content">
-            <h1>O-Maps. Все карты многодневки в одном месте</h1>
+            <h1>O-Maps. Соревнование подробно</h1>
             <p>
                 Для корректной работы сайта необходимо включить JavaScript в настройках браузера.
             </p>
         </div>
     </noscript>
+    <div id="page-start"></div><button id="back-to-start" type="button" aria-label="К началу страницы">↖</button>
     <script src="js/seo-meta.js?v=2"></script>
 </body>
 </html>

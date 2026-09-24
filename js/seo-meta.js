@@ -8,7 +8,8 @@
  *
  * Своё содержимое есть только у двух видов адресов:
  *   map-info.html?map=X и map-info-kkm.html?map=X — страница одной карты;
- *   start.html?start=X — страница многодневки или серии стартов (starts.js);
+ *   start.html?start=X и start-details.html?start=X — страница многодневки
+ *     или серии стартов (starts.js), компактная и подробная;
  *   sheet-all.html?author=X — сводная таблица карт одного автора.
  * Всё остальное (фильтрация, центрирование общей карты, режимы показа) —
  * варианты одной и той же страницы.
@@ -34,6 +35,7 @@
         'map-info.html': ['map'],
         'map-info-kkm.html': ['map'],
         'start.html': ['start'],
+        'start-details.html': ['start'],
         'sheet-all.html': ['author']
     };
 
@@ -131,7 +133,8 @@
     }
 
     function applyStartMeta() {
-        if (pageName() !== 'start.html') return;
+        var page = pageName();
+        if (page !== 'start.html' && page !== 'start-details.html') return;
 
         var code = new URLSearchParams(window.location.search).get('start');
         if (!code || typeof starts !== 'object' || !starts[code]) return;
@@ -142,7 +145,9 @@
         var label = stripTags(start.name || start.short || '');
         if (!label) return;
 
-        var title = label + ' — карты и события календаря' + SUFFIX;
+        var title = label + (page === 'start-details.html'
+            ? ' — события, карты и документы подробно'
+            : ' — карты и события календаря') + SUFFIX;
         document.title = title;
         setMeta('meta[property="og:title"]', 'content', title);
 

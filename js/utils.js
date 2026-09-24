@@ -1434,6 +1434,19 @@ function checkStartMap(start, m) {
     return (start === m.start);
 }
 
+// Карты старта для start.html / start-details.html: помеченные стартом (у них
+// main.js построил слой) плюс карты, на которые ссылаются события календаря
+// этого старта, даже если сами карты стартом не помечены.
+function filterStartMaps(maps, start, events) {
+    const referenced = new Set();
+    for (const e of events ?? []) {
+        if (e.map && checkStartMap(start, e)) {
+            (Array.isArray(e.map) ? e.map : [e.map]).forEach(name => referenced.add(name));
+        }
+    }
+    return maps.filter(m => m.layer !== undefined || referenced.has(getMapName(m)));
+}
+
 function getMapStarts(m) {
     let start = '';
     if (Array.isArray(m.start)) {
