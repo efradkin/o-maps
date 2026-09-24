@@ -302,6 +302,7 @@ let mmsStartsMaps = [
         info: 'Сводная карта всех дней.',
         url: './maps/starts/mms/mms_2010_lembolovo.webp',
         link: ['./original_maps/starts/mms/mms_2010_lembolovo_omaps.jpg','./original_maps/starts/mms/mms_2010_lembolovo_omaps.ocd','./original_maps/starts/mms/mms_2010_lembolovo_courses_omaps.ocd'],
+        poster: './original_maps/starts/mms/mms_2010_lembolovo_omaps.jpg',
         bounds: [[60.4705884, 30.3246689], [60.4661886, 30.3818321], [60.4263513, 30.3098202]],
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
@@ -341,6 +342,7 @@ let mmsStartsMaps = [
         info: 'Календарь.',
         url: './maps/starts/mms/mms_2011_lembolovo_orekhovo.webp',
         link: ['./original_maps/starts/mms/mms_2011_lembolovo_orekhovo_omaps.jpg','./original_maps/starts/mms/mms_lembolovo_orekhovo_2011_omaps.ocd'],
+        poster: './original_maps/starts/mms/mms_2011_lembolovo_orekhovo_omaps.jpg',
         bounds: [[60.4752415, 30.2691364], [60.4655962, 30.3820038], [60.4094872, 30.2463913]],
         author: ['VRBY','KVZN','KUZNTSV_S','NSNV','TKMKV_K']
     },
@@ -498,6 +500,7 @@ let mmsStartsMaps = [
         info: 'Сводная карта всех дней + детская дистанция.',
         url: './maps/starts/mms/mms_2014_polyany.webp',
         link: ['./original_maps/starts/mms/mms_2014_polyany_omaps.pdf','./original_maps/starts/mms/mms_2014_kids_omaps.jpg','./original_maps/starts/mms/mms_2014_omaps.ocd','./original_maps/starts/mms/mms_2014_cources_omaps.ocd'],
+        poster: './original_maps/starts/mms/mms_2014_polyany_omaps.webp',
         bounds: [[60.3233146, 29.2662477], [60.3149632, 29.3379164], [60.2925761, 29.2523003]],
         author: 'SHRNN'
     },
@@ -535,6 +538,7 @@ let mmsStartsMaps = [
         info: 'Сводная карта всех дней.',
         url: './maps/starts/mms/mms_2015_krasna_dolina.webp',
         link: ['./original_maps/starts/mms/mms_2015_krasna_dolina_omaps.pdf','./original_maps/forest/kamenka_2015_omaps.ocd','./original_maps/starts/mms/mms_2015_courses_omaps.ocd'],
+        poster: './original_maps/starts/mms/mms_2015_krasna_dolina_omaps.webp',
         bounds: [[60.4307565, 28.9990997], [60.4258853, 29.0445042], [60.4003312, 28.9857101]],
         author: ['DJCHKV','STLV_S']
     },
@@ -573,6 +577,7 @@ let mmsStartsMaps = [
         info: 'Сводная карта всех дней.',
         url: './maps/starts/mms/mms_2017_korobitsyno.webp',
         link: ['./original_maps/starts/mms/mms_2017_korobitsyno_omaps.pdf','./original_maps/forest/michura/korobitsyno_2017_omaps.ocd','./original_maps/forest/michura/korobitsyno_mms_2017_courses_omaps.ocd'],
+        poster: './original_maps/starts/mms/mms_2017_korobitsyno_omaps.webp',
         bounds: [[60.547004, 29.80093], [60.5445139, 29.864316], [60.5109208, 29.7944927]],
         author: ['DJCHKV','STLV_S','PPV_D'],
         owner: 'KURDUMOV'
@@ -584,6 +589,7 @@ let mmsStartsMaps = [
         info: 'Сводная карта всех дней.',
         url: './maps/starts/mms/mms_2016_korobitsyno.webp',
         link: ['./original_maps/starts/mms/mms_2016_korobitsyno_omaps.pdf','./original_maps/starts/mms/korobitsyno_mms_2016_omaps.ocd','./original_maps/starts/mms/mms_2016_courses_omaps.ocd'],
+        poster: './original_maps/starts/mms/mms_2016_korobitsyno_omaps.webp',
         bounds: [[60.5399341, 29.8003292], [60.5379711, 29.8596382], [60.5183138, 29.7965527]],
         author: ['DJCHKV','STLV_S','PPV_D'],
         owner: 'KURDUMOV'
