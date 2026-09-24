@@ -726,7 +726,8 @@ let commonEvents2026 = [
             'https://vk.ru/album-196511971_311919189',
             'https://vk.ru/album-196511971_311926376',
             'https://vk.ru/album-196511971_311926385',
-            'https://vk.ru/album-196511971_311936370'
+            'https://vk.ru/album-196511971_311936370',
+            'https://blinova-photo.ru/disk/gran-pri-vl-alekseeva'
         ],
         o_gps: 26000,
         reskeep: [926,928],

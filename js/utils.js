@@ -1726,7 +1726,7 @@ function validateEvent(evt) {
                 }
         }
     }
-    if (START_NAME_PARAM && (START_NAME_PARAM !== 'major' && evt.start !== START_NAME_PARAM || START_NAME_PARAM === 'major' && !isMajor(evt))) {
+    if (START_NAME_PARAM && (!evt.start || (START_NAME_PARAM !== 'major' && !evt.start.includes(START_NAME_PARAM)) || (START_NAME_PARAM === 'major' && !isMajor(evt)))) {
         return false;
     }
     return true;
