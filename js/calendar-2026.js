@@ -2719,6 +2719,7 @@ let events2026 = [
         id: 'SPB_20261011_1',
         date: '2026-10-11',
         name: 'ЧиП СПб',
+        place: 'Рощино',
         start: 'SPB_CHAMP',
         o_site: '261011_velo',
         type: 'VELO',
