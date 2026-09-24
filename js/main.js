@@ -1897,7 +1897,7 @@ function buildEventDescription(e, withPlanner) {
     if (withPlanner && typeof planners !== 'undefined') {
         const plannersInfo = buildPlanners(e, null, true);
         if (plannersInfo) {
-            info += ', нач-дист: ' + plannersInfo;
+            info += ', начдист: ' + plannersInfo;
         }
     }
 

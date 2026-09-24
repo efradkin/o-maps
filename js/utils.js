@@ -825,16 +825,17 @@ function buildGpsLinks(m, img, calendar, inline) {
         gps = getGPS(calendar);
     }
     if (gps) {
+        const image = `<img class="${inline ? 'sheet-icon' : 'media-link'}" src="./images/${img ?? 'url-file.png'}" alt="GPS">`;
         if (isObject(gps)) {
             let entries = Object.entries(Object.entries(gps));
             for (const [index, [key, value]] of entries) {
-                result += ` <a href="${value}">${key}</a>`;
+                result += ` <a href="${value}" title="${key}">${image}</a>`;
                 if (index < entries.length - 1) {
                     result += ',';
                 }
             }
         } else {
-            result += buildLink(gps, `<img class="${inline ? 'sheet-icon' : 'media-link'}" src="./images/${img ?? 'url-file.png'}" alt="GPS">`);
+            result += buildLink(gps, image);
         }
     }
     return result;
