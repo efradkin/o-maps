@@ -6,12 +6,15 @@ build_sitemap.py — генерирует sitemap.xml и robots.txt в корн�
   * все *.html из корня, help/ и integration/ (без рекурсии),
     кроме EXCLUDE и страниц с <meta name="robots" content="noindex">;
   * index.html публикуется как "/";
-  * start.html?start=<КОД> для каждого кода, на который есть ссылка
-    в *.html или js/*.js (список не выдумывается, берётся из ссылок).
+  * start.html?start=<КОД> и start-details.html?start=<КОД> (компактная
+    и подробная страницы старта) для каждого кода, на который есть ссылка
+    в *.html или js/*.js (список не выдумывается, берётся из ссылок) и
+    который есть в js/starts.js (так примеры адресов в комментариях вроде
+    start.html?start=X в карту сайта не попадают).
 
 lastmod: дата последнего коммита файла (git); если файл изменён и не
-закоммичен или git недоступен — дата mtime. Для start.html?start=... lastmod
-не ставится.
+закоммичен или git недоступен — дата mtime. Для start.html?start=... и
+start-details.html?start=... lastmod не ставится.
 
 Правила скриптов проекта: правка на месте в --src, -n/--dry-run для
 предпросмотра, --zip упаковывает только изменённые файлы; повторный запуск
@@ -41,7 +44,11 @@ EXCLUDE = {
     "map-info.html",
     "map-info-kkm.html",
     "start.html",
+    "start-details.html",
 }
+
+# Страницы старта: для каждого кода публикуются обе.
+START_PAGES = ["start.html", "start-details.html"]
 
 DISALLOW = [
     "/theme-preview.html",
@@ -60,15 +67,20 @@ CLEAN_PARAMS = [
     "type&track-type&track-month&restricted&tracks&retro&ocad&orders&order-status",
     "wo-author&only-wo-author&only-wo-full&all-years&year&startYear&calendar&event-type",
     "owner&planner&region&poi&oopt&me&only-me&q",
+    # открытая вкладка страницы старта (start.html, start-details.html)
+    "tab",
 ]
 # map, start и author в Clean-param не добавляются: это адреса
-# самостоятельных страниц (map-info*.html, start.html, sheet-all.html).
+# самостоятельных страниц (map-info*.html, start.html, start-details.html,
+# sheet-all.html).
 
 START_RE = re.compile(r"start\.html\?start=([A-Za-z0-9_]+)")
 NOINDEX_RE = re.compile(
     r"<meta[^>]+name\s*=\s*[\"']robots[\"'][^>]*content\s*=\s*[\"'][^\"']*noindex",
     re.I,
 )
+# Ключ верхнего уровня объекта starts в js/starts.js: «    WN: {», «    '2x2': {».
+STARTS_KEY_RE = re.compile(r"^    ['\"]?([A-Za-z0-9_]+)['\"]?\s*:\s*\{", re.M)
 TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.I | re.S)
 
 
@@ -137,6 +149,13 @@ def collect_start_codes(src):
         candidates += [os.path.join(js, n) for n in os.listdir(js) if n.endswith(".js")]
     for p in candidates:
         codes.update(START_RE.findall(read_text(p)))
+    starts_js = os.path.join(src, "js", "starts.js")
+    if os.path.isfile(starts_js):
+        known = set(STARTS_KEY_RE.findall(read_text(starts_js)))
+        unknown = sorted(codes - known)
+        if unknown:
+            print("Пропущены коды, которых нет в js/starts.js: " + ", ".join(unknown))
+        codes &= known
     return sorted(codes)
 
 
@@ -153,7 +172,8 @@ def build_sitemap(src, use_git):
         title = re.sub(r"\s+", " ", m.group(1)).strip() if m else ""
         titles[title].append(url)
         entries.append((url, lastmod(src, rel, use_git)))
-    start_urls = [f"/start.html?start={c}" for c in collect_start_codes(src)]
+    codes = collect_start_codes(src)
+    start_urls = [f"/{page}?start={c}" for page in START_PAGES for c in codes]
     entries += [(u, None) for u in start_urls]
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
@@ -228,8 +248,9 @@ def main():
         for t, urls in sorted(dups.items(), key=lambda x: -len(x[1])):
             print(f"  «{t or '(пусто)'}»: " + ", ".join(urls))
     if start_urls:
-        print(f"\nВнимание: {len(start_urls)} адресов start.html?start=... пока отдают "
-              "одинаковые title/description (заполняются скриптом).")
+        print(f"\nВнимание: {len(start_urls)} адресов start.html?start=... и "
+              "start-details.html?start=... отдают одинаковые title/description "
+              "в статическом HTML (заполняются скриптом).")
 
     changed = []
     for name, lines in (("sitemap.xml", sm_lines), ("robots.txt", rb_lines)):
