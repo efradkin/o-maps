@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/start-view.js?v=1"></script> <!-- компактно/подробно: переход до загрузки остального -->
     <title>O-Maps. Соревнование подробно</title>
     <meta name="description" content="O-Maps. События календаря, карты, плакаты и документы соревнования.">
     <link rel="icon" type="image/png" href="favicon.png"/>
@@ -98,7 +99,7 @@
                 <button class="nav-link" id="docs-tab" data-bs-toggle="tab" data-bs-target="#docs" type="button" role="tab" aria-controls="docs" aria-selected="false">Документы</button>
             </li>
             <li class="nav-item" role="presentation">
-                <a class="nav-link start-view-switch" id="start_view_switch" style="color: var(--o-accent)" href="start.html" title="Компактное представление: плитки карт и список событий">☷ Компактно</a>
+                <a class="nav-link start-view-switch" id="start_view_switch" onclick="rememberStartView('compact')" style="color: var(--o-accent)" href="start.html" title="Компактное представление: плитки карт и список событий">☷ Компактно</a>
             </li>
         </ul>
         <div class="tab-content">

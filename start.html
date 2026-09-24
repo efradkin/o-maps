@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/start-view.js?v=1"></script> <!-- компактно/подробно: переход до загрузки остального -->
     <title>O-Maps. Карты многодневки</title>
     <meta name="description" content="O-Maps. Все карты многодневки в одном месте.">
     <link rel="icon" type="image/png" href="favicon.png"/>
@@ -64,7 +65,7 @@
                 <button class="nav-link" id="maps-tab" data-bs-toggle="tab" data-bs-target="#maps" type="button" role="tab" aria-controls="maps" aria-selected="false">Карты</button>
             </li>
             <li class="nav-item" role="presentation" id="start-view-switch-item">
-                <a class="nav-link start-view-switch" id="start_view_switch" style="color: var(--o-accent)" href="start-details.html" title="Подробное представление: события, карты, плакаты и документы">☰ Подробно</a>
+                <a class="nav-link start-view-switch" id="start_view_switch" onclick="rememberStartView('details')" style="color: var(--o-accent)" href="start-details.html" title="Подробное представление: события, карты, плакаты и документы">☰ Подробно</a>
             </li>
         </ul>
         <div class="tab-content">
